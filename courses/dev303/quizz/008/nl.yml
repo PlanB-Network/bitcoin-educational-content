@@ -1,0 +1,8 @@
+question: Op welke veiligheidsoverwegingen moet je letten als je Rust installeert met Rustup?
+answer: De installatie bestaat uit het downloaden en uitvoeren van een script, maar het gebruikt HTTPS en is afkomstig van officiële, vertrouwde bronnen
+wrong_answers:
+  - Voor de installatie zijn beheerdersrechten nodig, wat kwetsbaarheden in het systeem kan veroorzaken
+  - De stabiele toolchain bevat experimentele functies die onontdekte beveiligingslekken kunnen hebben
+  - Het installatieproces schakelt automatisch alle compilatiedoelen in, inclusief potentieel onveilige architecturen
+explanation: |
+  Bij de installatie van Rustup downloadt en voert u een script uit van de officiële Rust website. Dit maakt gebruik van HTTPS voor transportlaag beveiliging en de pakketten komen van betrouwbare bronnen zoals crates.io. Hoewel dit veilig is voor de meeste gebruikssituaties, kunnen sommige organisaties met een strikt beveiligingsbeleid de voorkeur geven aan de pakketbeheerder van hun distributie, die de eigen ondertekeningsinfrastructuur van de distributie toevoegt. De andere opties zijn onjuist: Rustup installeert in de homedirectory van de gebruiker zonder beheerdersrechten nodig te hebben, de stabiele toolchain sluit specifiek experimentele functies uit en compilatiedoelen worden afzonderlijk toegevoegd en vormen geen inherente beveiligingsrisico's.

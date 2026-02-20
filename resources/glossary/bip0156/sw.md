@@ -1,5 +1,6 @@
 ---
 term: BIP0156
+definition: Dandelion, itifaki inayoimarisha faragha ya uelekezaji wa miamala kwa kufifisha node asili.
 ---
 
 Pendekezo, linalojulikana kama Dandelion, ambalo linalenga kuboresha ufaragha wa uelekezaji wa muamala katika mtandao wa Bitcoin ili kukabiliana na kutotambulisha jina. Katika uendeshaji wa kawaida wa Bitcoin, shughuli zinatangazwa mara moja kwa nodes nyingi. Ikiwa mwangalizi anaweza kuona kila muamala unaopitishwa na kila nodi kwenye mtandao, anaweza kudhani kuwa nodi ya kwanza ya kutuma muamala pia ni sehemu ya asili ya shughuli hiyo, na kwa hivyo inatoka kwa opereta wa nodi. Hali hii inaweza kuruhusu waangalizi kuunganisha miamala, kwa kawaida isiyojulikana, na anwani za IP.

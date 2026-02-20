@@ -1,5 +1,6 @@
 ---
-term: KANDIDATBLOCK
+term: Kandidatblock
+definition: Block som för närvarande skapas av en brytare, vilket ännu inte har ett giltigt arbetsbevis.
 ---
 
 Ett kandidatblock är ett block som håller på att skapas av en Miner som deltar i Bitcoin-systemets Mining-process. Kandidatblocket är en tillfällig datastruktur som innehåller transaktioner som väntar på att bekräftas men som ännu inte har en giltig Proof-of-Work som kan läggas till i Blockchain. Miner väljer ut transaktioner som ska ingå i kandidatblocket baserat på olika faktorer, t.ex. de tillhörande transaktionsavgifterna och begränsningar av blockstorleken. När transaktionerna har valts genererar Miner blockhuvudet, som innehåller versionen, en sammanfattning av transaktionerna (Merkle Root), en Timestamp, Hash från det föregående blocket, svårighetsmålet och en Nonce. Miner försöker sedan hitta en Hash i sin header som uppfyller det aktuella svårighetsmålet. För att göra detta modifierar Miner den Nonce som finns i rubriken. Miner kan också modifiera annan information som finns i deras kandidatblock. Detta är Proof-of-Work-mekanismen. Om Miner lyckas hitta en giltig Hash blir kandidatblocket ett giltigt block och sänds ut till nätverket för att läggas till i Blockchain.

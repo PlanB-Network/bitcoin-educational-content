@@ -1,0 +1,9 @@
+question: Milleks on vajalik nonce ploki päises?
+answer: Päise varieerimiseks uueks katseks
+wrong_answers:
+  - Ploki suuruse suurendamiseks
+  - Kõigi ploki tehingute esindamiseks
+  - Raskusastme sihtväärtuse näitamiseks
+explanation: |
+  Nonce'i muutmine muudab räsi sisendit ja tekitab täiesti erineva jälje. See võimaldab proovida uuesti leida kehtivat räsi.
+reviewed: false

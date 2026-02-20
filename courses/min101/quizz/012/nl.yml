@@ -1,0 +1,9 @@
+question: Als het moeilijkheidsdoel daalt, wat gebeurt er dan met het minen?
+answer: Het wordt moeilijker
+wrong_answers:
+  - Het wordt makkelijker
+  - Het blijft hetzelfde
+  - Het wordt onmogelijk
+explanation: |
+  Een lager doel laat minder mogelijke resultaten onder de drempel over, dus er zijn meer pogingen nodig om een geldige hash te vinden. Dit betekent dat minen moeilijker is.
+reviewed: false

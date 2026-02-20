@@ -1,0 +1,9 @@
+question: Coinbase çıktıları kaç onaydan sonra harcanabilir hale gelir?
+answer: 101 onay
+wrong_answers:
+  - 6 onay
+  - 201 onay
+  - 210 onay
+explanation: |
+  Olgunlaşma süresi 100 bloktur, bu nedenle bu UTXO'ları harcanabilir hale getirmek için 101 onay gerekir.
+reviewed: false

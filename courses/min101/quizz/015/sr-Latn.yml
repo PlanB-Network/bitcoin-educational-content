@@ -1,0 +1,9 @@
+question: Koje godine je predložen Hashcash?
+answer: 1997
+wrong_answers:
+  - 1993
+  - 2004
+  - 1995
+explanation: |
+  Hashcash je prvi put najavljen u martu 1997. godine.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Qual é a limitação arquitetónica fundamental do Lightning Development Kit (LDK) que cria o risco operacional mais grave para os utilizadores móveis do wallet durante os picos de taxas de rede?
+answer: Ausência de saídas de ancoragem que impeçam o encerramento forçado do canal quando as taxas predefinidas se tornam insuficientes para a confirmação da transação
+wrong_answers:
+  - A falta de suporte LNURL exige a geração manual de facturas e o processamento de pagamentos para todas as transacções Lightning
+  - A falta de sincronização do gráfico de rede causa falhas no encaminhamento de pagamentos quando as aplicações móveis são reiniciadas após longos períodos
+  - Gestão insuficiente da reserva do canal, o que leva a bloqueios de fundos quando os utilizadores tentam gastar todo o seu saldo apresentado
+explanation: |
+  A ausência de saídas de âncora no LDK cria uma vulnerabilidade crítica em que os canais não podem ser fechados à força durante picos de taxas porque as taxas predefinidas se tornam insuficientes para a confirmação do blockchain. Isso é particularmente perigoso para carteiras móveis, onde os usuários podem abandonar o aplicativo sem fechamento cooperativo, potencialmente encalhando fundos indefinidamente. Embora a ausência de LNURL afecte a experiência do utilizador e os problemas de encaminhamento afectem a fiabilidade, nenhum deles cria o risco existencial para a recuperação de fundos que as limitações de saída de âncora apresentam durante ambientes de taxas elevadas.

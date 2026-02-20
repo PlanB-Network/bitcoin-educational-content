@@ -1,0 +1,9 @@
+question: กลไกใดที่แปลงที่อยู่ MAC เป็นตัวระบุ 64 บิตสำหรับสร้างที่อยู่ IPv6?
+answer: EUI-64
+wrong_answers:
+  - NAT64
+  - PPPoE-64
+  - DNSSEC64
+explanation: |
+  กลไก EUI-64 แปลงที่อยู่ MAC ขนาด 48 บิตเป็นตัวระบุขนาด 64 บิต ซึ่งใช้ในการกำหนดค่าอัตโนมัติของ IPv6
+reviewed: false

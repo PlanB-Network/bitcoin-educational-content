@@ -1,0 +1,9 @@
+question: Šta je odlazna likvidnost Lightning čvora?
+answer: Sposobnost plaćanja
+wrong_answers:
+  - Sposobnost povezivanja
+  - Kapacitet za primanje
+  - Sposobnost zatvaranja kanala
+explanation: |
+  Odlivna likvidnost predstavlja sats dostupnu na strani operatera za izvršavanje plaćanja.
+reviewed: false

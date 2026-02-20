@@ -33,8 +33,6 @@ Iwe unawakilisha biashara ndogo au shirika kubwa, kozi hii inalenga kukupa maari
 
 Je, uko tayari kuingia katika ulimwengu wa Bitcoin kwa biashara? Twende!
 
-**Kumbuka**: Ikiwa utakutana na maneno yasiyojulikana wakati wa kozi, tafadhali angalia [kamusi](https://planb.academy/resources/glossary) kwa ufafanuzi.
-
 # Sarafu, mifumo ya malipo, na Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>
@@ -65,20 +63,20 @@ Sarafu nzuri ina sifa kadhaa muhimu zinazoifanya iwe bora kwa kuwezesha thamani 
 
 
 - **Salama**: Sarafu lazima ilindwe dhidi ya wizi au ufikiaji usioidhinishwa, ili kuhakikisha kuwa watumiaji wanaweza kuishikilia na kuihamisha kwa ujasiri. Usalama ni muhimu kwa kujenga imani katika mfumo.
-- **Uthibitisho-Bandia**: Sarafu lazima iwe ngumu sana au isiwezekane kughushi. Hii inahakikisha kila kitengo ni halisi, hudumisha thamani yake, na kuzuia mfumuko wa bei unaosababishwa na vitengo bandia kuingia kwenye mzunguko. Kwa mfano, kihistoria, dhahabu imethaminiwa sio tu kwa uzuri na uhaba wake, lakini kwa sababu ni Hard sana kuzalisha. Tofauti na maelezo ya karatasi au maingizo ya digital, huwezi tu "kufanya" dhahabu-lazima kuchimbwa kutoka duniani. Uhaba huu wa asili na ugumu wa uzalishaji umesaidia dhahabu kudumisha hadhi yake kama hifadhi inayoaminika ya thamani na kigezo cha uhalisi.
-- **Uhaba**: Sarafu nzuri lazima iwe na Supply au utoaji unaodhibitiwa. Uhaba huhakikisha kwamba thamani yake inahifadhiwa kwa muda, kuzuia uzalishaji wa kupita kiasi, ambao unaweza kuharibu uwezo wa ununuzi. Kwa mfano, makabila fulani ya Wenyeji wa Amerika yalitumia shanga kama aina ya sarafu. Hapo awali, shanga hizi zilikuwa Hard za kuzalisha, kudumisha uhaba wao na thamani. Hata hivyo, mara tu wafanyabiashara wa Ulaya walipoanza kuzalisha kwa wingi na kufurika sokoni kwa shanga, uhaba wao ulitoweka. Supply ilipopaa, shanga zilipoteza uwezo wao wa kununua, na kudhoofisha jukumu lao kama ghala la kuaminika la thamani.
+- **Uthibitisho-Bandia**: Sarafu lazima iwe ngumu sana au isiwezekane kughushi. Hii inahakikisha kila kitengo ni halisi, hudumisha thamani yake, na kuzuia [mfumuko wa bei](https://planb.academy/resources/glossary/inflation) unaosababishwa na vitengo bandia kuingia kwenye mzunguko. Kwa mfano, kihistoria, dhahabu imethaminiwa sio tu kwa uzuri na uhaba wake, lakini kwa sababu ni Hard sana kuzalisha. Tofauti na maelezo ya karatasi au maingizo ya digital, huwezi tu "kufanya" dhahabu-lazima kuchimbwa kutoka duniani. Uhaba huu wa asili na ugumu wa uzalishaji umesaidia dhahabu kudumisha hadhi yake kama hifadhi inayoaminika ya thamani na kigezo cha uhalisi.
+- **Uhaba**: Sarafu nzuri lazima iwe na Supply au [utoaji unaodhibitiwa](https://planb.academy/resources/glossary/limite-demission). Uhaba huhakikisha kwamba thamani yake inahifadhiwa kwa muda, kuzuia uzalishaji wa kupita kiasi, ambao unaweza kuharibu uwezo wa ununuzi. Kwa mfano, makabila fulani ya Wenyeji wa Amerika yalitumia shanga kama aina ya sarafu. Hapo awali, shanga hizi zilikuwa Hard za kuzalisha, kudumisha uhaba wao na thamani. Hata hivyo, mara tu wafanyabiashara wa Ulaya walipoanza kuzalisha kwa wingi na kufurika sokoni kwa shanga, uhaba wao ulitoweka. Supply ilipopaa, shanga zilipoteza uwezo wao wa kununua, na kudhoofisha jukumu lao kama ghala la kuaminika la thamani.
 - **Bila Ruhusa**: Hapo awali, sarafu kama vile sarafu za dhahabu na fedha mara nyingi zilitengenezwa na watu binafsi, serikali za mitaa au wafanyabiashara ambao walikuwa na uwezo wa kupata malighafi. Mfumo huu wakati mwingine ulifanya kazi chini ya makubaliano au leseni zilizotolewa na wafalme au watawala. Baada ya muda, wafalme na serikali waliweka mchakato huu katikati ili kupata udhibiti mkubwa juu ya utulivu wa kiuchumi, ushuru, na mfumo wa fedha. Mfano mmoja maarufu ni **thaler**, sarafu ya fedha iliyotengenezwa kwa mara ya kwanza mnamo 1518 katika **Joachimsthal Valley** (Jáchymov ya kisasa katika Jamhuri ya Cheki) na wachimba migodi na mamlaka za ndani. Jina "thaler" linatokana na neno la Kijerumani **"Thal"** linalomaanisha "bonde." Sarafu hizi, zinazojulikana kwa ubora wa juu wa fedha, zilisambazwa sana kote Ulaya. Baada ya muda, neno hilo lilibadilika kiisimu na kijiografia, na hatimaye kutoa jina "dola," ambalo lilikubaliwa nchini Marekani kwa sarafu yake.
 
 Katika zama za kisasa, sarafu ziliruhusiwa kikamilifu chini ya mfumo wa seigniorage, ikimaanisha mashirika yaliyoidhinishwa tu-kama vile benki kuu au hazina-zinaweza sarafu za mint au kuchapisha noti. Watu binafsi hawaruhusiwi tena kisheria kuzalisha sarafu,  kuhakikisha udhibiti wa kati juu ya utoaji na usambazaji wake.
 
-Leo, kanuni ya seigniorage inapingwa na Bitcoin cryptocurrency, ambayo inafanya kazi bila udhibiti wa kati. Bitcoin ni "mfumo usio na ruhusa" ambapo mtu yeyote anaweza kushiriki katika kutumia sarafu bila kuomba ruhusa, na, kupitia Mining, katika kuiunda. Ugatuaji huu wa madaraka unaondoa ukiritimba wa utoaji kutoka kwa serikali, na hivyo kuzua maswali kuhusu uwezekano wa kurudi kwa mifumo ya ushindani wa soko huria.
+Leo, kanuni ya seigniorage inapingwa na Bitcoin [cryptocurrency](https://planb.academy/resources/glossary/cryptocurrency), ambayo inafanya kazi bila udhibiti wa kati. Bitcoin ni "mfumo usio na ruhusa" ambapo mtu yeyote anaweza kushiriki katika kutumia sarafu bila kuomba ruhusa, na, kupitia [Mining](https://planb.academy/resources/glossary/mining), katika kuiunda. Ugatuaji huu wa madaraka unaondoa ukiritimba wa utoaji kutoka kwa serikali, na hivyo kuzua maswali kuhusu uwezekano wa kurudi kwa mifumo ya ushindani wa soko huria.
 
 
 - **Kitengo cha Akaunti**: Sarafu inapaswa kutoa kipimo cha kawaida cha kulinganisha thamani ya bidhaa na huduma. Hii hurahisisha biashara na kufanya bei kuwa wazi na thabiti katika shughuli zote za malipo.
 - **Inadumu**: Sarafu lazima ihimili kuchakaa kwa wakati. Sarafu halisi, kama vile sarafu au noti, zinapaswa kuzuia uharibifu, huku sarafu za kidijitali zibaki zikiwa zimehifadhiwa kwa usalama bila hatari ya kupoteza data.
 - **Inabebeka**: Sarafu lazima iwe rahisi kusafirisha na kutumia, kuwezesha biashara katika umbali. Hili linaweza kupatikana kupitia uwezo wa kubebeka (sarafu au noti nyepesi) au mifumo ya uhamishaji ya kidijitali.
 - **Inaweza kugawanywa**: Sarafu inapaswa kugawanywa katika vitengo vidogo ili kuwezesha miamala ya ukubwa tofauti. Unyumbufu huu huhakikisha kuwa ni wa vitendo kwa ununuzi mdogo na biashara ya kiwango kikubwa.
-- **Yanayoweza kuvu**: Vizio vyote vya sarafu lazima vibadilike na vyenye thamani sawa. Kwa mfano, muswada wa dola moja lazima uwe sawa na bili nyingine yoyote ya dola. Usawa huu unahakikisha usawa na urahisi katika shughuli.
+- **Yanayoweza kuvu**: Vizio vyote vya sarafu lazima [vibadilike](https://planb.academy/resources/glossary/fungibility) na vyenye thamani sawa. Kwa mfano, muswada wa dola moja lazima uwe sawa na bili nyingine yoyote ya dola. Usawa huu unahakikisha usawa na urahisi katika shughuli.
 - **Inatambulika**: Sarafu lazima itambulike na kuaminiwa kwa urahisi. Sarafu halisi hufanikisha hili kupitia miundo ya kipekee na vipengele vya usalama, ilhali sarafu za kidijitali zinaweza kutegemea itifaki za uthibitishaji. Hii inahakikisha kukubalika kwa kuenea na kupunguza hatari ya ulaghai.
 
 
@@ -102,9 +100,9 @@ Mitandao hii ya kisasa ya sarafu ilikuja na upungufu mkubwa: **ukosefu wa ukaguz
 
 **Kutoka Sarafu ya Kati hadi Iliyogatuliwa: Kuimarisha Imani na Ukuu**
 
-Leo, kuibuka kwa sarafu ya Bitcoin iliyogatuliwa inawakilisha hatua inayofuata katika mitandao ya sarafu. Pesa za jadi za kielektroniki zinategemea mamlaka kuu, kama vile benki au serikali, kusimamia na kuthibitisha miamala. Ingawa ni bora, mifumo hii inaweza kuathiriwa na uzembe, udhibiti, na kutofaulu mara moja. Sarafu zilizogawanywa huboreshwa kwenye sifa hizi za mtandao kwa **kusambaza uaminifu na kuondoa wapatanishi**. Pia inamaanisha kuwa pesa zinaweza kusonga sana **haraka** na **nafuu zaidi**, kwa sababu hakuna hatua za uidhinishaji. Hatimaye hakuna mwanadamu anayeweza kujaribiwa kubadilisha ratiba ya Bitcoin ya sarafu ya Supply, programu inatekelezwa.
+Leo, kuibuka kwa sarafu ya Bitcoin iliyogatuliwa inawakilisha hatua inayofuata katika mitandao ya sarafu. Pesa za jadi za kielektroniki zinategemea mamlaka kuu, kama vile benki au serikali, kusimamia na kuthibitisha miamala. Ingawa ni bora, mifumo hii inaweza kuathiriwa na uzembe, udhibiti, na [kutofaulu mara moja](https://planb.academy/resources/glossary/spof). Sarafu zilizogawanywa huboreshwa kwenye sifa hizi za mtandao kwa **[kusambaza](https://planb.academy/resources/glossary/distributed) uaminifu na kuondoa wapatanishi**. Pia inamaanisha kuwa pesa zinaweza kusonga sana **haraka** na **nafuu zaidi**, kwa sababu hakuna hatua za uidhinishaji. Hatimaye hakuna mwanadamu anayeweza kujaribiwa kubadilisha ratiba ya Bitcoin ya sarafu ya Supply, programu inatekelezwa.
 
-Katika mifumo iliyogatuliwa, miamala inathibitishwa na mtandao wa kimataifa wa washiriki wanaotumia teknolojia ya Blockchain, kuhakikisha usalama, uwazi na uthabiti. Muundo huu unapunguza hatari ya ulaghai, hupunguza utegemezi kwa mamlaka kuu, na kuwapa watu uwezo wa kuwa na udhibiti mkubwa wa fedha zao. Kwa kuondoa vizuizi vya kijiografia na kitaasisi, sarafu zilizogatuliwa hutoa mfumo wa kifedha wa kimataifa na jumuishi.
+Katika mifumo iliyogatuliwa, miamala inathibitishwa na mtandao wa kimataifa wa washiriki wanaotumia teknolojia ya [Blockchain](https://planb.academy/resources/glossary/blockchain), kuhakikisha usalama, uwazi na uthabiti. Muundo huu unapunguza hatari ya ulaghai, hupunguza utegemezi kwa mamlaka kuu, na kuwapa watu uwezo wa kuwa na udhibiti mkubwa wa fedha zao. Kwa kuondoa vizuizi vya kijiografia na kitaasisi, sarafu zilizogatuliwa hutoa mfumo wa kifedha wa kimataifa na jumuishi.
 
 **Mageuzi ya Mitandao ya Sarafu**
 
@@ -192,34 +190,34 @@ Kama vile tulivyohama kutoka kwa kulipa kwa dakika kwa simu za sauti hadi kutumi
 
 **Bitcoin NI NINI?**
 
-Bitcoin ni **mfumo wa sarafu ya kidijitali kati ya wenzao wa Exchange** (fedha za kielektroniki). Neno "Bitcoin" linamaanisha vipengele vifuatavyo:
+Bitcoin ni **mfumo wa sarafu ya kidijitali kati ya [wenzao](https://planb.academy/resources/glossary/peertopeer-p2p) wa Exchange** (fedha za kielektroniki). Neno "Bitcoin" linamaanisha vipengele vifuatavyo:
 
 
-- **Itifaki ya kompyuta** inayowezesha thamani ya Exchange kwenye mtandao bila wapatanishi, bila kuhitaji kibali, na kwa jina bandia. Inatumia kanuni za hali ya juu za kriptografia.
-- **Mtandao halisi** wa mashine zilizounganishwa kwenye mtandao (nodi, wachimba migodi, n.k.) zinazoendeshwa na watu binafsi na biashara, zinazounda mfumo wa kugawanyika (bila mamlaka kuu au sehemu moja ya udhibiti).
-- **Kitengo cha akaunti** ndani ya mfumo. Hakutakuwa na zaidi ya bitcoins milioni 21 kuwepo. Kila Bitcoin inaweza kugawanywa katika vitengo milioni 100 vinavyoitwa "satoshis," vinavyoitwa kwa heshima ya muundaji wake asiyejulikana.
+- **Itifaki ya kompyuta** inayowezesha thamani ya Exchange kwenye mtandao bila wapatanishi, bila kuhitaji kibali, na kwa jina bandia. Inatumia kanuni za hali ya juu za [kriptografia](https://planb.academy/resources/glossary/cryptography).
+- **Mtandao halisi** wa mashine zilizounganishwa kwenye mtandao ([nodi](https://planb.academy/resources/glossary/node), [wachimba migodi](https://planb.academy/resources/glossary/miner), n.k.) zinazoendeshwa na watu binafsi na biashara, zinazounda mfumo wa kugawanyika (bila mamlaka kuu au sehemu moja ya udhibiti).
+- **Kitengo cha akaunti** ndani ya mfumo. Hakutakuwa na zaidi ya bitcoins milioni 21 kuwepo. Kila Bitcoin inaweza kugawanywa katika vitengo milioni 100 vinavyoitwa "[satoshis](https://planb.academy/resources/glossary/satoshi-sat)," vinavyoitwa kwa heshima ya muundaji wake asiyejulikana.
 
-Kwa pamoja wanafanya ya Bitcoin kuwa **rasilimali inayomilikiwa** na sarafu ya kidijitali **bila mtoaji**. Ownership inalindwa pekee kwa kushikilia **ufunguo wa siri wa faragha**, kutoa udhibiti kamili **bila wapatanishi au watu wengine wanaoaminika**. Inapohamishwa, Ownership **mwisho** ni mara moja: mmiliki mpya anaimiliki kikamilifu bila kutegemea mamlaka kuu kwa ulinzi au ubadilishaji. Miamala **haibadiliki**—ikirekodiwa kwenye Blockchain, haiwezi kubadilishwa au kufutwa.
+Kwa pamoja wanafanya ya Bitcoin kuwa **rasilimali inayomilikiwa** na sarafu ya kidijitali **bila mtoaji**. Ownership inalindwa pekee kwa kushikilia **[ufunguo wa siri wa faragha](https://planb.academy/resources/glossary/private-key)**, kutoa udhibiti kamili **bila wapatanishi au watu wengine wanaoaminika**. Inapohamishwa, Ownership **mwisho** ni mara moja: mmiliki mpya anaimiliki kikamilifu bila kutegemea mamlaka kuu kwa ulinzi au ubadilishaji. [Miamala](https://planb.academy/resources/glossary/transaction-tx) **haibadiliki**—ikirekodiwa kwenye Blockchain, haiwezi kubadilishwa au kufutwa.
 
 ![BIZ101](assets/sw/003.webp)
 
-Bitcoin ina sera ya fedha ya kudumu, na **kikomo cha bitcoins milioni 21 **, ambayo ~ milioni 19.8 tayari imesambazwa. Hii huifanya **kupungua bei**, huku thamani yake ikiongezeka kadiri watumiaji wanavyohifadhi akiba na faida za tija ndani yake.
+Bitcoin ina sera ya kifedha iliyowekwa, ikiwa na **kiwango cha juu cha bitcoin milioni 21**, ambapo ~milioni 19.8 (2024) tayari zimechimbwa. Hii inaifanya kuwa ya **deflationary**, huku thamani yake ikiongezeka kadiri muda unavyopita wakati watumiaji wanahifadhi akiba na faida za tija ndani yake.
 
 Vipengele vyake vya kiufundi vinapita zile za dhahabu na dola kwa pamoja, na kuifanya kuwa mali ngumu zaidi ya kifedha kuwahi kuundwa. Bitcoin ni duka la thamani na kati ya Exchange, sarafu inayotengenezwa. Hebu fikiria kuhamisha thamani kutoka hazina ya kampuni moja hadi nyingine kwa haraka, bila wapatanishi, kwa gharama ndogo, bila ulaghai, 24/7, na bila wahusika wengine wanaohusika.
 
 ![BIZ101](assets/sw/004.webp)
 
-Bitcoin huhifadhi thamani kwa ufanisi kwa sababu Leja yake haiwezi kuguswa. Thamani yake huongezeka kutokana na usambazaji adimu na pungufu pamoja na kuongezeka kwa idadi ya fursa za Exchange, kutokana na kuongezeka kwa idadi ya watumiaji.
+Bitcoin huhifadhi thamani kwa ufanisi kwa sababu [Leja](https://planb.academy/resources/glossary/ledger) yake haiwezi kuguswa. Thamani yake huongezeka kutokana na usambazaji adimu na pungufu pamoja na kuongezeka kwa idadi ya fursa za Exchange, kutokana na kuongezeka kwa idadi ya watumiaji.
 
 Bitcoin inasumbua kwa sababu inatuhimiza kujifunza dhana katika hisabati, fiche, uchumi na historia ambayo hatukufundishwa kamwe. Ingawa mara nyingi huchukuliwa kuwa changamano, kwa kweli ni uvumbuzi unaopatikana kupitia mazoezi na majaribio.
 
 Bitcoin inatupa changamoto ya kufikiria upya asili ya pesa yenyewe. Unaweza kueleza pesa ni nini hasa? Mfanyakazi anayelipwa au mjasiriamali anaweza kutumia saa 50,000 hadi 100,000 za maisha yake kupata pesa, ilhali ni **ngapi hutenga hata saa 100 ili kuielewa vyema** na kuihifadhi? Bitcoin inatuhimiza kuhoji sababu za kimsingi nyuma ya hitaji letu la pesa na mtazamo wetu wa muda. Je, fedha ni kwa ajili ya anasa ya haraka au ustahimilivu wa muda mrefu? Ikiwa tungekuwa na kipengee cha thamani kinachoturuhusu kuchelewesha ununuzi, tungefanya maamuzi gani? Je, ni mazungumzo gani tungependa kuwa nayo na sisi wenyewe miaka 20 au 30 kutoka sasa?
 
-**KITAMBULISHO CHA BITCOIN**
+**KADI YA KITAMBULISHO YA BITCOIN (mnamo 2024)**
 
 - **Umri:** Miaka 15 (Januari 3, 2009)
 - **Thamani ya kila siku ya Exchange:** $10 bilioni (> CAC40)
-- **Mtaji wa soko:** $1.8 trilioni (> Meta, Visa, Silver ; < Apple, Google, Gold)
+- **[Mtaji wa soko](https://planb.academy/resources/glossary/market-cap-capitalization):** $1.8 trilioni (> Meta, Visa, Silver ; < Apple, Google, Gold)
 - **Watumiaji:** ~100 hadi milioni 200 (1-2% ya idadi ya watu duniani)
 - **Tete:** Kimsingi hakuna (1 Bitcoin = 1 Bitcoin), juu sana nje (katika ubadilishanaji wa sarafu ya fiat)
 - **Utendaji:** Muamala wa kwanza kwa $0.0009; sasa $100,000 (x100 milioni)
@@ -234,7 +232,7 @@ Bitcoin inatupa changamoto ya kufikiria upya asili ya pesa yenyewe. Unaweza kuel
 - **Uuzaji:** Hakuna
 - **R&D:** Inaendeshwa kwa kujitolea
 - **Utawala:** Na watumiaji
-- **Muundo bunifu wa kiuchumi:** Uundaji wa vitalu unafadhiliwa na ada za ununuzi (kulingana na mnada)
+- **Muundo bunifu wa kiuchumi:** Uundaji wa vitalu [unafadhiliwa](https://planb.academy/resources/glossary/block-subsidy) na [ada za ununuzi](https://planb.academy/resources/glossary/transaction-fees) (kulingana na mnada)
 
 Kwa habari zaidi juu ya Bitcoin, historia yake, jinsi inavyofanya kazi, na matumizi yake, ninapendekeza pia kufuata kozi hii nyingine ya kina:
 
@@ -245,17 +243,17 @@ https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 **LIGHTNING NETWORK NINI?**
 
-Lightning Network ni **itifaki na mtandao** unaowezesha miamala ya Bitcoin yenye mwingiliano mdogo na Blockchain kuu ya Bitcoin. Hivi ndivyo inavyofanya kazi:
+[Lightning Network](https://planb.academy/resources/glossary/lightning-network) ni **itifaki na mtandao** unaowezesha miamala ya Bitcoin yenye mwingiliano mdogo na Blockchain kuu ya Bitcoin. Hivi ndivyo inavyofanya kazi:
 
-- **Usanidi wa awali:** Pesa zimefungwa (zimebanwa) kwenye Blockchain kuu ili kuanzisha njia ya malipo kati ya wahusika 2.
+- **Usanidi wa awali:** Pesa zimefungwa (zimebanwa) kwenye Blockchain kuu ili kuanzisha [njia ya malipo](https://planb.academy/resources/glossary/payment-channel) kati ya wahusika 2.
 - **Mtandao wa malipo:** Mtandao wa njia za malipo kati ya wahusika mbalimbali huunda mtandao wa malipo (uelekezaji na muunganisho).
-- **Shughuli za off-chain:** Miamala hufanyika kati ya wahusika lakini **haijachapishwa mara moja** kwenye Bitcoin kuu ya Blockchain (**"off-chain"**).
-- **Malipo ya On-Chain:** **Salio la mwisho** la miamala ya kituo pekee ndilo linalochapishwa kwenye Bitcoin kuu Blockchain (**"On-Chain**"), kuruhusu miamala mingi kufanyika kwa sasa. Ufungaji huu wa malipo mengi hupunguza msongamano na hivyo kupunguza ada ikilinganishwa na kufanya miamala mingi ya On-Chain.
+- **Shughuli za [off-chain](https://planb.academy/resources/glossary/offchain):** Miamala hufanyika kati ya wahusika lakini **haijachapishwa mara moja** kwenye Bitcoin kuu ya Blockchain (**"off-chain"**).
+- **Malipo ya [On-Chain](https://planb.academy/resources/glossary/onchain):** **Salio la mwisho** la miamala ya kituo pekee ndilo linalochapishwa kwenye Bitcoin kuu Blockchain (**"On-Chain**"), kuruhusu miamala mingi kufanyika kwa sasa. Ufungaji huu wa malipo mengi hupunguza msongamano na hivyo kupunguza ada ikilinganishwa na kufanya miamala mingi ya On-Chain.
 - **Kufungwa kwa kituo:** Mtumiaji anaweza kufunga chaneli yake wakati wowote na kudai tena Bitcoin yake kwa kuchapisha hali ya hivi punde ya malipo. Hii ndiyo kanuni ya miamala kuwa **"inayoweza kuchapishwa" wakati wowote lakini "haijachapishwa"** hadi itakapohitajika. Njia ya kutoka (kufungwa kwa idhaa) inaweza kuwa ya upande mmoja (iliyoamuliwa na mhusika yeyote kati ya 2 wakati wowote) au kuamuliwa pande zote (kusababisha ada za chini za On-Chain)
 
 ![BIZ101](assets/sw/005.webp)
 
-Mbinu hii huepuka ucheleweshaji na utata wa kufanya kila shughuli moja kwa moja kwenye Blockchain kuu ya Bitcoin, ikirekodi masalio ya mwisho pekee na kuhifadhi usalama wake. Lightning Network ni Layer "juu" ya Bitcoin lakini inabakia kuiunga mkono.
+Mbinu hii huepuka ucheleweshaji na utata wa kufanya kila shughuli moja kwa moja kwenye Blockchain kuu ya Bitcoin, ikirekodi masalio ya mwisho pekee na kuhifadhi usalama wake. Lightning Network ni [Layer](https://planb.academy/resources/glossary/layer) "juu" ya Bitcoin lakini inabakia kuiunga mkono.
 
 **Mtandao wa Malipo wa Kimataifa**
 
@@ -295,7 +293,7 @@ Lightning Network ni bora kwa malipo ya Bitcoin katika maduka ya kimwili au ya m
 - **Mwisho:** Mara tu malipo yanapofanywa kwa Umeme, ni ya mwisho. Hakuna uwezekano wa kurudisha malipo kwa wahusika wengine au mizozo inayohusiana na ulaghai.
 - **Ada:** Ada za muamala kwenye Lightning Network ni ndogo na hulipwa na mtumiaji, si mfanyabiashara. Wauzaji hutozwa tu ada ikiwa baadaye watahitaji kuhamisha Bitcoin yao hadi mtandao au huduma nyingine.
 
-**KITAMBULISHO CHA LIGHTNING**
+**KADI YA KITAMBULISHO YA LIGHTNING (mnamo 2024)**
 
 
 - **Uvumbuzi:** 2015
@@ -360,7 +358,7 @@ Katika nadharia ya kimapokeo ya kiuchumi (Keynesian), mtaji mara nyingi huonekan
 
 6. Uhalalishaji wa kitamaduni wa matamshi ya kupinga ubepari?
 
-Kwa bahati nzuri, Bitcoin inatulazimisha kufikiria upya kila kitu na kupinga mawazo haya ya awali. Kuna shule ya mawazo—Shule ya Uchumi ya Austria—ambayo inaweza kutoa mwanga kuhusu masuala haya na kutusaidia kutafakari upya asili halisi ya mtaji.
+Kwa bahati nzuri, Bitcoin inatulazimisha kufikiria upya kila kitu na kupinga mawazo haya ya awali. Kuna shule ya mawazo—[Shule ya Uchumi ya Austria](https://planb.academy/resources/glossary/austrian-school)—ambayo inaweza kutoa mwanga kuhusu masuala haya na kutusaidia kutafakari upya asili halisi ya mtaji.
 
 **Hapo zamani za kale**
 
@@ -461,7 +459,7 @@ Wacha tupitie haraka mazingira ambayo biashara zinafanya kazi.
 
 **Mfumuko halisi wa bei**: Jambo la kusikitisha sana kwa mamlaka yao, benki kuu zinalenga mfumuko wa bei wa 2% wa kila mwaka, kumaanisha hasara ya 40% katika thamani ya sarafu katika kipindi cha miaka 20. Kuongezea katika nyakati za mfumuko wa bei unaojulikana zaidi, inakuwa wazi kuwa makampuni hayawezi kutumia sarafu pekee kuhifadhi matunda ya kazi zao. Lazima watekeleze mikakati changamano ya kifedha, ambayo lazima iambatane na aina mbalimbali za hatari. Mikakati hii ni dhahiri **haiwezi kufikiwa na biashara ndogo sana**, ambazo tayari zimeshughulikiwa sana na shughuli zao kuu.
 
-**Mfumuko wa bei uliofichwa**: Katika mfumo wa fedha unaotegemea deni, uhifadhi wa sehemu unaoungwa mkono na benki kuu, **fedha zote za usambazaji hukua kwa takriban 7% kwa mwaka kwa wastani** (k.m., M1 katika Ukanda wa Euro au Marekani). Hii ina maana kwamba "sehemu yako ya pai" itakatwa kwa nusu ndani ya miaka michache tu-isipokuwa una fursa ya upendeleo kwa spigot ya kifedha na unaweza kuendelea kukua kwa kutumia na kununua mali haraka kwa "bei za zamani" kabla ya fedha iliyoundwa upya kuziendesha. Haya ni matokeo ya Cantillon, ambayo kwa kiasi fulani yanaelezea uhamishaji wa mali kwa watu walio na uwezo zaidi, wakati "mtaji" unalaumiwa kimakosa kama mhalifu (tazama utangulizi wetu juu ya mtaji hapo juu).
+**Mfumuko wa bei uliofichwa**: Katika mfumo wa fedha unaotegemea deni, [uhifadhi wa sehemu](https://planb.academy/resources/glossary/fractional-reserves) unaoungwa mkono na benki kuu, **fedha zote za usambazaji hukua kwa takriban 7% kwa mwaka kwa wastani** (k.m., M1 katika Ukanda wa Euro au Marekani). Hii ina maana kwamba "sehemu yako ya pai" itakatwa kwa nusu ndani ya miaka michache tu-isipokuwa una fursa ya upendeleo kwa spigot ya kifedha na unaweza kuendelea kukua kwa kutumia na kununua mali haraka kwa "bei za zamani" kabla ya fedha iliyoundwa upya kuziendesha. Haya ni matokeo ya Cantillon, ambayo kwa kiasi fulani yanaelezea uhamishaji wa mali kwa watu walio na uwezo zaidi, wakati "mtaji" unalaumiwa kimakosa kama mhalifu (tazama utangulizi wetu juu ya mtaji hapo juu).
 
 **Hatari za vyama pinzani**: Mfumo wa sasa wa kifedha ni hatari, na huenda usiwe na ufikiaji wa "fedha zako kila wakati." Bila kutaja sura ya nyumba ya kadi, ni lazima ikubalike kwamba taasisi za fedha hubinafsisha faida na kuhusisha hasara katika mgogoro mdogo. Katika mfumo wa pesa za "kimaandiko" (fedha zilizorekodiwa katika Ledger), pesa katika benki ni "dai" tu; haumiliki kabisa, na benki zenyewe "hazina" (hifadhi za sehemu). Pesa hizi, kwa njia fulani, ni za kichawi kweli. Baadhi ya benki za kifahari ambazo hapo awali zilidhihaki Bitcoin hazipo tena leo, kama vile Credit Suisse.
 
@@ -528,7 +526,7 @@ Kukua kwa kupitishwa kwa Bitcoin nchini Marekani pia kunaathiri mawazo katika kw
 
 Kwa mtazamo wa kifedha tu, Bitcoin inatambuliwa kama mali ya mseto. Sio tu kwamba haihusiani na madaraja mengine ya mali, pia inaonekana kustawi wakati wa sindano mpya za ukwasi-kipindi kingine kama hicho kinaonekana kuanza kwa kupunguzwa kwa viwango vya riba na ECB, Fed, na Uchina.
 
-Kwa muhtasari, kwa kesi ya matumizi ya kawaida-kuwekeza hazina ya ziada kwa angalau dirisha la miaka minne-Bitcoin inafaa kikamilifu. Ni vyema kuichanganya na mkakati wa kuingia taratibu: kuwekeza kiasi kisichobadilika mara kwa mara ili kulainisha mahali pa kuingia au kutoka.
+Kwa muhtasari, kwa kesi ya matumizi ya kawaida-kuwekeza hazina ya ziada kwa angalau dirisha la miaka minne-Bitcoin inafaa kikamilifu. Ni vyema kuichanganya na [mkakati wa kuingia taratibu](https://planb.academy/resources/glossary/dollar-cost-averaging-dca): kuwekeza kiasi kisichobadilika mara kwa mara ili kulainisha mahali pa kuingia au kutoka.
 
 Kesi zingine za utumiaji hufanya Bitcoin kuwa mali ya hazina ya kimkakati, kwa mfano:
 
@@ -540,7 +538,7 @@ Kesi zingine za utumiaji hufanya Bitcoin kuwa mali ya hazina ya kimkakati, kwa m
 
 ### Bitcoin ni ghali sana?
 
-Sio lazima kununua 1 Bitcoin haswa, kwa sababu Bitcoin inaweza kugawanywa katika vitengo vidogo vinavyoitwa satoshis, vilivyopewa jina kwa heshima ya muundaji wake asiyejulikana. Bitcoin moja ni sawa na **satoshi milioni 100**, kuruhusu watumiaji kununua, kuuza au kufanya biashara **sehemu ndogo sana za Bitcoin**. Kwa kweli, ndani ya msimbo wa chanzo wa Bitcoin, shughuli zote zinahesabiwa kwa satoshis, na neno "Bitcoin" linaonekana tu katika "coinbase," wachimbaji wa shughuli maalum huunda kupokea malipo yao.
+Sio lazima kununua 1 Bitcoin haswa, kwa sababu Bitcoin inaweza kugawanywa katika vitengo vidogo vinavyoitwa satoshis, vilivyopewa jina kwa heshima ya muundaji wake asiyejulikana. Bitcoin moja ni sawa na **satoshi milioni 100**, kuruhusu watumiaji kununua, kuuza au kufanya biashara **sehemu ndogo sana za Bitcoin**. Kwa kweli, ndani ya msimbo wa chanzo wa Bitcoin, shughuli zote zinahesabiwa kwa satoshis, na neno "Bitcoin" linaonekana tu katika "[coinbase](https://planb.academy/resources/glossary/coinbase-transaction)," wachimbaji wa shughuli maalum huunda kupokea malipo yao.
 
 Zaidi ya hayo, jumla ya bitcoins milioni 21—au **2.1 quadrillion satoshi**—inaweza kuwakilishwa kwa ufanisi na nambari kamili ya biti 64. Hii ina maana kwamba licha ya bei ya juu kwa kila Bitcoin nzima, bado inaweza kufikiwa na wawekezaji mbalimbali kutokana na mgawanyiko wake. Kwa hivyo huhitaji kununua Bitcoin nzima ili kushiriki katika mtandao au kuwekeza katika mali hii ya kidijitali.
 
@@ -595,7 +593,7 @@ Ili kupata maelezo zaidi kuhusu mbinu za Mining, unaweza [kupata sehemu ya "Mini
 
 - **Kununua Bitcoin:**
 
-Hii ndiyo njia iliyozoeleka zaidi, inayofanywa kupitia ubadilishanaji kati ya wenzao au, kwa kawaida, kwenye majukwaa maalum ya biashara. Lakini wakati wa kupata Bitcoin kama mali ya hazina ya shirika, ni lazima kampuni zifuate viwango thabiti vya udhibiti na taratibu za Know-Your-Customer (KYC). Wanapoinunua kwenye mifumo maalum ya biashara, kwa kawaida biashara huhitajika kutoa maelezo ya kina ya kampuni, ikiwa ni pamoja na hati za utambulisho, taarifa za fedha na uthibitisho wa Address, ili kukidhi mahitaji ya KYC na ya kupinga ulanguzi wa pesa (AML).
+Hii ndiyo njia iliyozoeleka zaidi, inayofanywa kupitia ubadilishanaji kati ya wenzao au, kwa kawaida, kwenye majukwaa maalum ya biashara. Lakini wakati wa kupata Bitcoin kama mali ya hazina ya shirika, ni lazima kampuni zifuate viwango thabiti vya udhibiti na taratibu za Know-Your-Customer ([KYC](https://planb.academy/resources/glossary/kyc-know-your-customer)). Wanapoinunua kwenye mifumo maalum ya biashara, kwa kawaida biashara huhitajika kutoa maelezo ya kina ya kampuni, ikiwa ni pamoja na hati za utambulisho, taarifa za fedha na uthibitisho wa Address, ili kukidhi mahitaji ya KYC na ya kupinga ulanguzi wa pesa (AML).
 
 Ili kujifunza jinsi ya kufungua akaunti ya biashara na kuitumia kununua, kuuza na kuhamisha bitcoins, unaweza kuangalia mafunzo haya mawili yaliyoundwa mahsusi kwa ajili ya biashara, yanayofunika majukwaa ya Kraken na Bitfinex katika matoleo yao ya ushirika:
 
@@ -635,7 +633,7 @@ Sekta ya mali isiyohamishika mara nyingi hurudia kwamba "siku zote ni wakati una
 
 Humiliki Bitcoin kimwili. Badala yake, unashikilia kitufe cha kriptografia ambacho hukuruhusu kuhamisha Ownership ya baadhi au vitengo vyako vyote vya akaunti hadi funguo moja au zaidi za kriptografia. Yote haya hutokea kwenye Bitcoin Blockchain, ambayo inakiliwa katika makumi ya maelfu ya nodi duniani kote.
 
-Ufunguo huu wa kriptografia ni nambari kubwa sana ya nasibu. Ili kurahisisha matumizi ya mtumiaji, mara nyingi huwakilishwa kama mfuatano wa maneno 12 au 24. Maneno haya yanaweza kupakiwa kwenye kifaa halisi kinachojulikana kama "Hardware Wallet." Hata hivyo, kuelewa kwamba bitcoins si "ndani" kifaa hiki; ni zana ya kutia saini kwa njia fiche shughuli za malipo na kuzitangaza kwenye mtandao. Kilicho muhimu sana ni maneno 12 au 24, ambayo lazima yawekwe salama.
+Ufunguo huu wa kriptografia ni nambari kubwa sana ya nasibu. Ili kurahisisha matumizi ya mtumiaji, mara nyingi huwakilishwa kama mfuatano wa maneno 12 au 24. Maneno haya yanaweza kupakiwa kwenye kifaa halisi kinachojulikana kama "[Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet)." Hata hivyo, kuelewa kwamba bitcoins si "ndani" kifaa hiki; ni zana ya kutia saini kwa njia fiche shughuli za malipo na kuzitangaza kwenye mtandao. Kilicho muhimu sana ni maneno 12 au 24, ambayo lazima yawekwe salama.
 
 Hii inasababisha suala la ulinzi: kushikilia Bitcoin kunamaanisha kushikilia funguo. Labda unazishikilia wewe mwenyewe, au unakabidhi jukumu hilo kwa mtu wa tatu. Pia kuna ufumbuzi wa kati. Wacha tuangalie hali zinazojulikana zaidi:
 
@@ -654,7 +652,7 @@ Hizi ni zana za jadi za kifedha ambazo zinawakilisha sehemu za Bitcoin, zinazoig
 
 ![BIZ101](assets/sw/014.webp)
 
-Zaidi ya hayo, fomu ambayo unashikilia Bitcoin inaathiri kwa kiasi kikubwa hatua za usalama zinazohitajika ili kulinda hazina yako ya shirika. Iwe unachagua kujitunza, kwa kutumia saini moja au pochi za maunzi zenye saini nyingi, n.k. ili kudumisha udhibiti wa moja kwa moja wa funguo zako, au kukabidhi jukumu hili kwa huduma za ulinzi za watu wengine au ETF, kila chaguo lina wasifu wake wa hatari. Kwa mfano, ulinzi wa kibinafsi hutoa ufikiaji kamili lakini hudai itifaki kali za usalama wa ndani, wakati suluhisho za watu wengine hupunguza mzigo wa usimamizi kwa gharama ya hatari ya wenzao. Ili kuonyesha zaidi tofauti hizo, grafu hii inaangazia muundo wa usalama kwa kila aina ya ulinzi, kukusaidia kuchagua mbinu inayofaa zaidi mahitaji ya shirika lako :
+Zaidi ya hayo, fomu ambayo unashikilia Bitcoin inaathiri kwa kiasi kikubwa hatua za usalama zinazohitajika ili kulinda hazina yako ya shirika. Iwe unachagua [kujitunza](https://planb.academy/resources/glossary/selfcustody), kwa kutumia saini moja au pochi za maunzi zenye [saini nyingi](https://planb.academy/resources/glossary/multisig), n.k. ili kudumisha udhibiti wa moja kwa moja wa funguo zako, au kukabidhi jukumu hili kwa huduma za ulinzi za watu wengine au ETF, kila chaguo lina wasifu wake wa hatari. Kwa mfano, ulinzi wa kibinafsi hutoa ufikiaji kamili lakini hudai itifaki kali za usalama wa ndani, wakati suluhisho za watu wengine hupunguza mzigo wa usimamizi kwa gharama ya hatari ya wenzao. Ili kuonyesha zaidi tofauti hizo, grafu hii inaangazia muundo wa usalama kwa kila aina ya ulinzi, kukusaidia kuchagua mbinu inayofaa zaidi mahitaji ya shirika lako :
 
 ![BIZ101](assets/sw/015.webp)
 
@@ -823,7 +821,7 @@ Katika sura zifuatazo, tutaeleza kwa kina kila wasifu wa biashara na masuluhisho
 
 <chapterId>7edda53d-5b9f-432a-8493-115de8c94a67</chapterId>
 
-Wasifu wa Starter umeundwa kwa ajili ya biashara, watayarishi na watu binafsi ambao wangependa kuchunguza malipo ya Bitcoin bila kutumia rasilimali au ujuzi mkubwa. Kwa kawaida hawa ni wale wanaoshughulikia kiasi kidogo sana cha miamala (labda vidokezo vichache, michango, au mauzo ya mara kwa mara) na kutafuta utangulizi rahisi na mwepesi wa mfumo ikolojia wa Bitcoin na Lightning Network. Thamani muhimu ya mbinu ya Starter iko katika usanidi wake mdogo: mara nyingi, kinachohitajika ni simu mahiri au kompyuta kibao iliyo na Wallet ya msingi inayoendana na Umeme.
+Wasifu wa Starter umeundwa kwa ajili ya biashara, watayarishi na watu binafsi ambao wangependa kuchunguza malipo ya Bitcoin bila kutumia rasilimali au ujuzi mkubwa. Kwa kawaida hawa ni wale wanaoshughulikia kiasi kidogo sana cha miamala (labda vidokezo vichache, michango, au mauzo ya mara kwa mara) na kutafuta utangulizi rahisi na mwepesi wa mfumo ikolojia wa Bitcoin na Lightning Network. Thamani muhimu ya mbinu ya Starter iko katika usanidi wake mdogo: mara nyingi, kinachohitajika ni simu mahiri au kompyuta kibao iliyo na [Wallet](https://planb.academy/resources/glossary/wallet) ya msingi inayoendana na Umeme.
 
 ![BIZ101-profiles](assets/sw/017.webp)
 
@@ -833,7 +831,7 @@ Mipangilio miwili ya kawaida ya Wallet kwa wasifu wa Starter inahusisha kuamua k
 
 ![BIZ101-profiles](assets/sw/018.webp)
 
-Ingawa wasiwasi wa usalama unaweza kuonekana kuwa wa dharura wakati shughuli ni ndogo, hata hivyo ni muhimu kuweka hatua za msingi za ulinzi. Hata simu mahiri au kompyuta kibao inayotumiwa kupokea malipo ya Bitcoin inapaswa kufungwa kwa nenosiri au usalama wa kibayometriki, na taratibu za kuhifadhi nakala (kuanzia kufuatilia kitambulisho cha kuingia kwa Wallet iliyohifadhiwa hadi kulinda kifungu cha maneno cha seed kwa mtu asiye mlezi) lazima zichukuliwe kwa uzito. Wafanyakazi wanaoshughulikia miamala katika mpangilio halisi watafaidika kwa kujua mambo ya msingi: jinsi ya kufungua programu, jinsi ya kuwasilisha msimbo wa QR kwa mteja, na jinsi ya kuangalia kama malipo yamefika.
+Ingawa wasiwasi wa usalama unaweza kuonekana kuwa wa dharura wakati shughuli ni ndogo, hata hivyo ni muhimu kuweka hatua za msingi za ulinzi. Hata simu mahiri au kompyuta kibao inayotumiwa kupokea malipo ya Bitcoin inapaswa kufungwa kwa nenosiri au usalama wa kibayometriki, na taratibu za kuhifadhi nakala (kuanzia kufuatilia kitambulisho cha kuingia kwa Wallet iliyohifadhiwa hadi kulinda [kifungu cha maneno cha seed](https://planb.academy/resources/glossary/recovery-phrase) kwa mtu asiye mlezi) lazima zichukuliwe kwa uzito. Wafanyakazi wanaoshughulikia miamala katika mpangilio halisi watafaidika kwa kujua mambo ya msingi: jinsi ya kufungua programu, jinsi ya kuwasilisha msimbo wa QR kwa mteja, na jinsi ya kuangalia kama malipo yamefika.
 
 Uhasibu na kuripoti, ingawa ni rahisi kwa kiasi chini ya wasifu wa Starter, bado unahitaji kuzingatiwa kwa uangalifu. Ingawa kiasi cha miamala kinaweza kuwa chache, kuhifadhi rekodi sahihi huzuia mkanganyiko na husaidia kudumisha uwazi katika kesi ya ukaguzi wa fedha au uwasilishaji wa kodi. Programu nyingi za Wallet huwezesha watumiaji kuhamisha historia ya shughuli ya kimsingi kama faili ya CSV; kwa biashara ndogo au mjasiriamali mmoja, kuhifadhi faili hizi mara kwa mara kunaweza kurahisisha upatanisho wa akaunti. Pia ni busara kufuatilia takriban thamani ya fiat (kwa mfano, katika euro au dola) wakati kila shughuli inapopokelewa. Kwa kuwa bei ya Bitcoin inaweza kubadilika, kuwa na rekodi ya viwango vya walioshawishika ni muhimu sana kwa uhifadhi wa hesabu na kufuata kodi.
 
@@ -948,7 +946,7 @@ Wasifu wa Enterprise unasimama katika kilele cha utekelezaji wa malipo wa Bitcoi
 
 Katika muktadha wa biashara, ugumu wa kiutendaji hutamkwa haswa. Shirika kubwa linaweza kuhitaji kushughulikia idara nyingi (mauzo, uuzaji, wafadhili, fedha, na uhasibu) kila moja ikiwa na majukumu mahususi na mahitaji ya data. Katika hali hii, mfumo wa malipo wa Bitcoin ni lazima utoe usimamizi wa majukumu ya haraka sana, kuruhusu kila idara kufikia kwa usahihi kazi zinazohusika na majukumu yao huku ikihifadhi udhibiti mkali wa usalama na uadilifu wa data. Muhimu pia ni uwezo wa kubinafsisha mtiririko wa kazi: kwa mfano, malipo yanayoingia yanaweza kuanzisha masasisho katika mifumo ya orodha, kutuma arifa za kiotomatiki kwa wasimamizi wa mauzo, na kusasisha maingizo ya Ledger kwa timu ya fedha, yote hayo kwa wakati halisi. Vifaa vya kuuza vyenyewe kwa kawaida vimeundwa kulingana na mazingira ya biashara, na violesura maalum vya programu vinavyolingana na mahitaji ya chapa na uendeshaji wa kampuni.
 
-**Usalama** ni muhimu kwa biashara za kiwango cha biashara. Kiasi kikubwa cha miamala na kiasi kinachoweza kuwa kikubwa cha Bitcoin kinahitaji miundombinu thabiti inayoweza kujilinda dhidi ya mashambulizi mabaya au vitisho kutoka kwa watu wengine. Mbinu bora mara nyingi hujumuisha saini nyingi zilizo na usanidi wa hazina ya kufunga saa, misingi ya kanuni iliyokaguliwa kwa uangalifu, na ufuasi mkali wa mifumo husika ya udhibiti. Zaidi ya hayo, kufuata kanuni za kifedha za ndani na kimataifa kunaweza kuwa muhimu katika kuhifadhi sifa ya shirika na leseni ya kufanya kazi.
+**Usalama** ni muhimu kwa biashara za kiwango cha biashara. Kiasi kikubwa cha miamala na kiasi kinachoweza kuwa kikubwa cha Bitcoin kinahitaji miundombinu thabiti inayoweza kujilinda dhidi ya mashambulizi mabaya au vitisho kutoka kwa watu wengine. Mbinu bora mara nyingi hujumuisha saini nyingi zilizo na usanidi wa hazina ya [kufunga saa](https://planb.academy/resources/glossary/timelock), misingi ya kanuni iliyokaguliwa kwa uangalifu, na ufuasi mkali wa mifumo husika ya udhibiti. Zaidi ya hayo, kufuata kanuni za kifedha za ndani na kimataifa kunaweza kuwa muhimu katika kuhifadhi sifa ya shirika na leseni ya kufanya kazi.
 
 **Utengenezaji maalum** unaohusika katika kuunda au kuunganisha suluhu ya malipo ya kiwango cha biashara ya Bitcoin inaenea zaidi ya kusimba vipengele vichache vya programu. Kwa kawaida huhitaji usanifu wa usanifu, itifaki za majaribio ya kina, na uwasilishaji uliopangwa ambao unaweza kuchukua awamu nyingi (mipango ya majaribio ya awali, majaribio machache ya soko, na hatimaye kupelekwa kimataifa).
 

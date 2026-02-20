@@ -1,0 +1,9 @@
+question: Kwa nini muamala wa coinbase unatofautiana na miamala mingine?
+answer: Hautumii UTXO yoyote ya kweli
+wrong_answers:
+  - Hauna TXID
+  - Hauna outputs
+  - Haupo kwenye mti wa Merkle
+explanation: |
+  Input yake inaelekea kwenye UTXO ya kufikirika, ambayo inaruhusu uundaji wa ruzuku (subsidy) na ukusanyaji wa ada.
+reviewed: false

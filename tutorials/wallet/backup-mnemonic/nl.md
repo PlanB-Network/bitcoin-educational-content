@@ -1,5 +1,5 @@
 ---
-name: Uw Mnemonic zin opslaan
+name: Uw mnemonische zin opslaan
 description: Ontdek de best practices voor het beveiligen van uw Bitcoin Wallet
 ---
 ![cover](assets/cover.webp)

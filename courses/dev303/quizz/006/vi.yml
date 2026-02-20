@@ -1,0 +1,8 @@
+question: Theo lịch phát hành của Rust, họ phát hành phiên bản ổn định mới với tần suất bao lâu?
+answer: Khoảng sáu tuần một lần
+wrong_answers:
+  - Khoảng ba tháng một lần
+  - Khoảng hai tuần một lần
+  - Khoảng bốn tháng một lần
+explanation: |
+  Rust tuân theo lịch phát hành đều đặn, với các phiên bản ổn định mới được phát hành khoảng sáu tuần một lần. Chu kỳ phát hành thường xuyên này đảm bảo các tính năng và cải tiến mới đến tay người dùng thường xuyên trong khi vẫn duy trì tính ổn định. Các khung thời gian khác không chính xác - ba tháng và bốn tháng sẽ chậm hơn nhiều so với tốc độ thực tế của Rust, trong khi hai tuần là quá nhanh đối với các bản phát hành ổn định cần được thử nghiệm kỹ lưỡng.

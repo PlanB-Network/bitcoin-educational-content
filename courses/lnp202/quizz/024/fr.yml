@@ -1,0 +1,9 @@
+question: Pourquoi la sauvegarde d’un nœud Lightning est-elle plus complexe qu’un wallet Bitcoin onchain ?
+answer: L'états des canaux est évolutif
+wrong_answers:
+  - La liquidité des canaux dépend du mempool
+  - Il faut enregistrer le gossip du réseau Lightning
+  - Les clés de révocation expirent avec le temps
+explanation: |
+  Les canaux Lightning changent d’état à chaque paiement, ce qui rend une simple sauvegarde fixe ou périodique dangereuse.
+reviewed: false

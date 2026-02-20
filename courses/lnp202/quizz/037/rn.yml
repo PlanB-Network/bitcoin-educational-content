@@ -1,0 +1,9 @@
+question: Ni igiki umucuruzi w’umuravyo ashira imbere?
+answer: Kuronka amafaranga yinjira
+wrong_answers:
+  - Kuronka amafaranga yo hanze
+  - Kuzigama ku biciro vy'inzira
+  - Kuronka amasuzuma meza ya LN+
+explanation: |
+  Umucuruzi ategerezwa kuba ashoboye kwinjiza amahera ataco abura, ivyo bikaba bisaba amahera ahagije yinjira.
+reviewed: false

@@ -317,7 +317,7 @@ Como reacción a la experiencia de John Law, Cantillon explica lo que ocurre o d
 ![image](assets/es/017.webp)
 
 
-Ve dos consecuencias principales en la sustitución de una moneda sin valor real como el papel moneda por una metálica. La primera consecuencia es lo que denomina "rechazo popular", es decir, una creciente desconfianza hacia el dinero sin valor. La segunda consecuencia es la inflación: el debilitamiento monetario encarece los bienes.
+Ve dos consecuencias principales en la sustitución de una moneda sin valor real como el papel moneda por una metálica. La primera consecuencia es lo que denomina "rechazo popular", es decir, una creciente desconfianza hacia el dinero sin valor. La segunda consecuencia es la [inflación](https://planb.academy/resources/glossary/inflation): el debilitamiento monetario encarece los bienes.
 
 
 En cuarto lugar, en su análisis de la **inflación**, Cantillon fue más lejos que sus contemporáneos. Habiendo observado el colapso del sistema de Law, Cantillon se dio cuenta de que la inflación monetaria no afecta a todos por igual. Al contrario, enriquece a unos y empobrece a otros. Llegó a la conclusión de que la inflación tiene un efecto redistributivo: los que reciben dinero recién emitido se benefician primero de un mayor poder adquisitivo, mientras que los que lo reciben después se empobrecen como consecuencia de la emisión de dinero nuevo por el aumento de las tasas de inflación.
@@ -1565,7 +1565,7 @@ Esta propuesta fue rechazada.
 
 Ese mismo año, 1790, comenzaron los debates sobre la emisión de nuevo papel moneda para cubrir los gastos del gobierno.
 
-Dupont de Nemours se opuso firmemente y publicó un folleto titulado [*Effects of Assignats on the Price of Bread*] (https://archive.org/details/effetdesassignat00dupo). El título era acertado, ya que explicaba que la emisión de assignats conduciría inevitablemente a la inflación, un aumento de los precios de los productos básicos, incluido el pan.
+Dupont de Nemours se opuso firmemente y publicó un folleto titulado [*Effects of Assignats on the Price of Bread*](https://archive.org/details/effetdesassignat00dupo). El título era acertado, ya que explicaba que la emisión de assignats conduciría inevitablemente a la inflación, un aumento de los precios de los productos básicos, incluido el pan.
 
 
 

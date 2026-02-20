@@ -1,0 +1,8 @@
+question: O que acontece à instância da estrutura original quando se utiliza a sintaxe de atualização da estrutura com tipos não-Copy?
+answer: Os campos que são copiados tornam-se inutilizáveis na instância original devido à semântica de deslocação
+wrong_answers:
+  - A instância original permanece completamente inalterada e totalmente acessível
+  - Toda a instância original é clonada, deixando ambas as instâncias totalmente funcionais
+  - Apenas os campos explicitamente modificados se tornam inacessíveis na versão original
+explanation: |
+  Ao utilizar a sintaxe de atualização de struct com tipos não-Copy, o sistema de propriedade do Rust move os campos copiados da instância original para a nova. Isso significa que esses campos específicos tornam-se inutilizáveis na instância original, embora os campos que não foram copiados permaneçam acessíveis. O compilador rastreia esses movimentos parciais de forma inteligente, impedindo o acesso aos campos movidos enquanto permite o uso contínuo dos campos não movidos. Esse comportamento garante a segurança da memória, impedindo vários proprietários dos mesmos dados.

@@ -1,0 +1,8 @@
+question: Wat maakt het `cargo new project_name` commando automatisch aan als onderdeel van de projectstructuur?
+answer: Een Git repository, Cargo.toml bestand en basis main.rs bestand met Hello World programma
+wrong_answers:
+  - Alleen een Cargo.toml-configuratiebestand en een lege bronmapstructuur
+  - Een complete testsuite, documentatiebestanden en productieklare configuratie
+  - Binaire uitvoerbare bestanden, doelmap en bouwconfiguratie voor release
+explanation: |
+  Het `cargo new` commando creëert een uitgebreide projectbasis inclusief een Git repository voor versiebeheer, een Cargo.toml bestand voor projectconfiguratie en afhankelijkheden en een basis main.rs bestand met een 'Hallo, wereld!' programma. Dit biedt alles wat nodig is om direct te beginnen met ontwikkelen. De andere opties zijn onjuist omdat cargo new geen testsuites, documentatiebestanden, uitvoerbare binaries of bouwartefacten maakt - het zet alleen de initiële projectstructuur op.

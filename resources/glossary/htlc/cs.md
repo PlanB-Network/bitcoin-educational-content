@@ -1,5 +1,6 @@
 ---
 term: HTLC
+definition: Chytrý kontrakt podmiňující převod odhalením tajemství s časovým limitem.
 ---
 
 Znamená "*Hashed Timelock Contract*". Jedná se o mechanismus Smart contract, který se používá hlavně u blesků. Někdy se vyskytuje také v atomických výměnách. V podstatě HTLC podmiňuje převod peněz odhalením tajemství a zahrnuje také časovou podmínku, která chrání peníze odesílatele v případě neúspěšné transakce.

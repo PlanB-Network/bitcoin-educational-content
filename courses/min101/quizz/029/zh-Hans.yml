@@ -1,0 +1,9 @@
+question: 区块奖励由什么组成？
+answer: 补贴 + 费用
+wrong_answers:
+  - 补贴 + 难度
+  - 费用 + nonce
+  - 算力 + 费用
+explanation: |
+  奖励是区块补贴与包含的所有交易费用之和。
+reviewed: false

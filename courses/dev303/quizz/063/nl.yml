@@ -1,0 +1,8 @@
+question: Als een macro het patroon `$($x:expr),*` in zijn definitie gebruikt, wat doet dit patroon dan?
+answer: Het komt overeen met nul of meer uitdrukkingen, gescheiden door komma's, waardoor argumentlijsten van variabele lengte mogelijk zijn
+wrong_answers:
+  - Het komt overeen met precies één uitdrukking en herhaalt de macro-uitbreiding meerdere keren
+  - Het komt overeen met een willekeurig aantal typedefinities gescheiden door puntkomma's voor het genereren van code
+  - Het creëert een lus die de macro tijdens runtime uitvoert met verschillende expressiewaarden
+explanation: |
+  Het patroon `$($x:expr),*` gebruikt Rust's macroherhalingssyntaxis waarbij de `*` kwantor 'nul of meer' betekent, `$x:expr` elke expressie vastlegt en de komma het scheidingsteken tussen de expressies specificeert. Hierdoor kunnen macro's zoals `vec!` een willekeurig aantal argumenten accepteren: `vec![1, 2, 3]` of `vec![]`. De andere opties zijn onjuist omdat: het patroon meerdere uitdrukkingen behandelt en niet slechts één, het specifiek overeenkomt met uitdrukkingen en niet met typedefinities en komma's gebruikt in plaats van puntkomma's, en macro's tijdens het compileren van code worden uitgevoerd en niet tijdens runtime.

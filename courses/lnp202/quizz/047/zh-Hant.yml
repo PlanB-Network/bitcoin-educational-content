@@ -1,0 +1,9 @@
+question: 為什麼 LN+ 不適合商家？
+answer: 大量資本投資
+wrong_answers:
+  - 所涉及的節點缺乏可靠性
+  - 沒有聲譽系統
+  - 通道太小
+explanation: |
+  每取得一個入站 sat 就需要封鎖一個出站 sat，這限制了企業的擴充能力。
+reviewed: false

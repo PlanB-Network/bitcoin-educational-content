@@ -1,0 +1,9 @@
+question: Hvilken setning oppsummerer tjenesten som tilbys av en mining-pool?
+answer: Den selger forutsigbarhet
+wrong_answers:
+  - Den selger mining-vanskelighetsgrad
+  - Den selger større blokker
+  - Den selger mining-maskiner
+explanation: |
+  Samarbeid i en pool forvandler en svært volatil inntekt til mer regelmessige utbetalinger, mot deling og gebyrer.
+reviewed: false

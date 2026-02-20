@@ -314,10 +314,11 @@ server=1
 फिर अपने Wallet प्रबंधन सॉफ्टवेयर (जैसे स्पैरो Wallet या Liana) पर जाएं और अपनी कुकी फ़ाइल का पथ दर्ज करें, जो आमतौर पर आपके ऑपरेटिंग सिस्टम के आधार पर `Bitcoin.conf` के समान फ़ोल्डर में स्थित होता है:
 
 
-|**macOS**|~/Library/Application Support/Bitcoin|
-|---|---|
-|**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 
@@ -342,10 +343,11 @@ server=1
 फ़ाइल को संपादित करने के बाद, सुनिश्चित करें कि आप इसे अपने ऑपरेटिंग सिस्टम के लिए उपयुक्त फ़ोल्डर में सेव करें:
 
 
+
 |**macOS**|~/Library/Application Support/Bitcoin|
 |---|---|
 |**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 यह ऑपरेशन Bitcoin-QT के Interface ग्राफिक्स के माध्यम से भी किया जा सकता है। "*सेटिंग्स*" मेनू पर जाएँ, फिर "*विकल्प...*", और संबंधित बॉक्स को चेक करके "*RPC सर्वर सक्षम करें*" विकल्प को सक्रिय करें। यदि `Bitcoin.conf` फ़ाइल मौजूद नहीं है, तो आप इसे "*कॉन्फ़िगरेशन फ़ाइल खोलें*" पर क्लिक करके सीधे इस Interface से बना सकते हैं।
 

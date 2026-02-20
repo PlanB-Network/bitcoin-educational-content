@@ -11,19 +11,19 @@ Katika mfumo ikolojia wa Bitcoin, kukubali malipo kunawakilisha changamoto kubwa
 
 
 
-Seva ya BTCPay inajitokeza kama jibu la chanzo huria kwa tatizo hili. Kichakataji hiki cha malipo kinachojipangisha kibinafsi hubadilisha nodi yako ya Bitcoin kuwa muundo msingi wa kitaalamu, bila mtu wa kati, hakuna ada za ziada za usindikaji na hakuna maelewano kwenye faragha. Imeundwa na jumuiya ya kimataifa ya wachangiaji tangu 2017, Seva ya BTCPay hukuruhusu kupokea malipo ya Bitcoin na Umeme moja kwa moja kwenye pochi zako, ikibaki na udhibiti kamili wa pesa zako kila wakati.
+BTCPay Server inajitokeza kama jibu la chanzo huria kwa tatizo hili. Kichakataji hiki cha malipo kinachojipangisha kibinafsi hubadilisha node yako ya Bitcoin kuwa muundo msingi wa kitaalamu, bila mtu wa kati, hakuna ada za ziada za usindikaji na hakuna maelewano kwenye faragha. Imeundwa na jumuiya ya kimataifa ya wachangiaji tangu 2017, BTCPay Server hukuruhusu kupokea malipo ya Bitcoin na Lightning moja kwa moja kwenye wallet zako, ikibaki na udhibiti kamili wa pesa zako kila wakati.
 
 
 
-Kijadi, kusakinisha Seva ya BTCPay kunahitaji ujuzi wa hali ya juu wa kiufundi: usanidi wa seva ya Linux, umilisi wa Docker, udhibiti wa cheti cha SSL na usalama wa mtandao. Umbrel hubadilisha mbinu hii kwa usakinishaji wa mbofyo mmoja uliounganishwa moja kwa moja na Bitcoin yako na nodi ya Umeme. Urahisishaji huu hufanya kile ambacho hapo awali kilihifadhiwa kwa mafundi wenye uzoefu kupatikana kwa kila mtu.
+Kijadi, kusakinisha BTCPay Server kunahitaji ujuzi wa hali ya juu wa kiufundi: usanidi wa seva ya Linux, umilisi wa Docker, udhibiti wa cheti cha SSL na usalama wa mtandao. Umbrel hubadilisha mbinu hii kwa usakinishaji wa mbofyo mmoja uliounganishwa moja kwa moja na Bitcoin yako na node ya Lightning. Urahisishaji huu hufanya kile ambacho hapo awali kilihifadhiwa kwa mafundi wenye uzoefu kupatikana kwa kila mtu.
 
 
 
-**Muhimu kuelewa**: Seva ya BTPay kwenye Umbrel hufanya kazi kwa chaguomsingi kwenye mtandao wa ndani pekee. Unaweza kuunda ankara, kukubali malipo ya Umeme na Bitcoin, na kudhibiti uhasibu wako kutoka kwa kifaa chochote kilichounganishwa kwenye mtandao wako wa nyumbani (kompyuta, simu mahiri, kompyuta kibao). Mipangilio hii ni bora kwa malipo ya huduma za ana kwa ana, kudhibiti malipo ya ana kwa ana au kutumia Seva ya BTCPay kutoka mtandao wa ndani. Kwa upande mwingine, ili kujumuisha Seva ya BTCPay kwenye duka la mtandaoni ambalo linapatikana kwa umma kwenye Mtandao, usanidi wa ziada wenye udhihirisho wa umma utahitajika (tutashughulikia suala hili mwishoni mwa mafunzo).
+**Muhimu kuelewa**: BTPay Server kwenye Umbrel hufanya kazi kwa chaguomsingi kwenye mtandao wa ndani pekee. Unaweza kuunda ankara, kukubali malipo ya Lightning na Bitcoin, na kudhibiti uhasibu wako kutoka kwa kifaa chochote kilichounganishwa kwenye mtandao wako wa nyumbani (kompyuta, simu mahiri, kompyuta kibao). Mipangilio hii ni bora kwa malipo ya huduma za ana kwa ana, kudhibiti malipo ya ana kwa ana au kutumia BTCPay Server kutoka mtandao wa ndani. Kwa upande mwingine, ili kujumuisha BTCPay Server kwenye duka la mtandaoni ambalo linapatikana kwa umma kwenye Mtandao, usanidi wa ziada wenye udhihirisho wa umma utahitajika (tutashughulikia suala hili mwishoni mwa mafunzo).
 
 
 
-Mafunzo haya yanakupeleka katika usakinishaji kamili wa Seva ya BTCPay kwenye Umbrel, kusanidi Bitcoin wallet na nodi ya Umeme, kuunda na kulipa ankara, na kudhibiti kuripoti uhasibu. Utagundua jinsi ya kutumia Seva ya BTCPay kwa ufanisi kwenye mtandao wako wa karibu, na kisha tutaangalia masuluhisho ya kuonyesha hadharani ikiwa ungependa kuiunganisha na tovuti ya biashara ya mtandaoni.
+Mafunzo haya yanakupeleka katika usakinishaji kamili wa BTCPay Server kwenye Umbrel, kusanidi Bitcoin wallet na node ya Lightning, kuunda na kulipa ankara, na kudhibiti kuripoti uhasibu. Utagundua jinsi ya kutumia BTCPay Server kwa ufanisi kwenye mtandao wako wa karibu, na kisha tutaangalia masuluhisho ya kuonyesha hadharani ikiwa ungependa kuiunganisha na tovuti ya biashara ya mtandaoni.
 
 
 
@@ -37,21 +37,21 @@ Ili kufuata mafunzo haya, unahitaji kuwa na Umbrel iliyosakinishwa kwa usahihi n
 
 https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
-Nodi yako ya Bitcoin Core lazima ilandanishwe kikamilifu na blockchain (100% katika programu ya Umbrel ya Bitcoin). Usawazishaji huu wa kwanza huchukua kati ya siku 3 na wiki 2, kulingana na maunzi yako na muunganisho wa Mtandao.
+Node yako ya Bitcoin Core lazima ilandanishwe kikamilifu na blockchain (100% katika programu ya Umbrel ya Bitcoin). Usawazishaji huu wa kwanza huchukua kati ya siku 3 na wiki 2, kulingana na maunzi yako na muunganisho wa Mtandao.
 
 
 
-Ili kukubali malipo ya papo hapo ya Umeme, utahitaji pia kusakinisha LND (Lightning Network Daemon) kwenye Umbrel. Tazama mafunzo yetu kuhusu kusakinisha na kusanidi LND kwenye Umbrel ikiwa ungependa kuwezesha kipengele hiki.
+Ili kukubali malipo ya papo hapo ya Lightning, utahitaji pia kusakinisha LND (Lightning Network Daemon) kwenye Umbrel. Tazama mafunzo yetu kuhusu kusakinisha na kusanidi LND kwenye Umbrel ikiwa ungependa kuwezesha kipengele hiki.
 
 
 
 https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
-Ruhusu angalau GB 50 ya nafasi ya diski bila malipo kwa Seva ya BTPay, hifadhidata zake na data ya Umeme. Muunganisho thabiti wa Mtandao kupitia kebo ya Ethaneti unapendekezwa sana ili kuepuka kukatwa.
+Ruhusu angalau GB 50 ya nafasi ya diski bila malipo kwa BTPay Server, hifadhidata zake na data ya Lightning. Muunganisho thabiti wa Mtandao kupitia kebo ya Ethaneti unapendekezwa sana ili kuepuka kukatwa.
 
 
 
-## Kufunga Seva ya BTPay kwenye Umbrel
+## Kufunga BTPay Server kwenye Umbrel
 
 
 
@@ -63,7 +63,7 @@ Kutoka kwa kiolesura cha Umbrel (`umbrel.local`), fikia App Store na utafute "BT
 
 
 
-Bofya Sakinisha. Mwavuli hukagua kiotomatiki kuwa Bitcoin Core na LND zimewekwa, kisha huanza kupeleka (dakika 2-5).
+Bofya Sakinisha. Umbrel hukagua kiotomatiki kuwa Bitcoin Core na LND zimewekwa, kisha huanza kupeleka (dakika 2-5).
 
 
 
@@ -79,7 +79,7 @@ Mara tu ikiwa imewekwa, fungua programu. Utahitaji kuunda akaunti ya msimamizi i
 
 
 
-Baada ya kufungua akaunti yako, Seva ya BTCPay itakuelekeza mara moja usanidi duka lako la kwanza. Chagua jina la biashara na uchague sarafu ya marejeleo (EUR, USD au BTC).
+Baada ya kufungua akaunti yako, BTCPay Server itakuelekeza mara moja usanidi duka lako la kwanza. Chagua jina la biashara na uchague sarafu ya marejeleo (EUR, USD au BTC).
 
 
 
@@ -87,11 +87,11 @@ Baada ya kufungua akaunti yako, Seva ya BTCPay itakuelekeza mara moja usanidi du
 
 
 
-## Fikia Seva ya BTPay kwenye mtandao wako wa karibu
+## Fikia BTPay Server kwenye mtandao wako wa karibu
 
 
 
-Seva ya BTPay inaweza kufikiwa kutoka kwa kifaa chochote kwenye mtandao wa ndani (WiFi au Ethernet). Ufikiaji kutoka kwa kivinjari chako hadi:
+BTPay Server inaweza kufikiwa kutoka kwa kifaa chochote kwenye mtandao wa ndani (WiFi au Ethernet). Ufikiaji kutoka kwa kivinjari chako hadi:
 
 
 
@@ -111,7 +111,7 @@ http://umbrel.local:3003
 
 
 
-**Ufikiaji wa mbali ukitumia Tailscale**: Ili kufikia Seva ya BTCPay kutoka popote duniani, tumia Tailscale. VPN hii salama hukuruhusu kuunganisha kwa Mwavuli wako kana kwamba uko kwenye mtandao wa karibu nawe. Tazama mafunzo yetu yaliyotolewa kwa Tailscale kwenye Umbrel.
+**Ufikiaji wa mbali ukitumia Tailscale**: Ili kufikia BTCPay Server kutoka popote duniani, tumia Tailscale. VPN hii salama hukuruhusu kuunganisha kwa Umbrel yako kana kwamba uko kwenye mtandao wa karibu nawe. Tazama mafunzo yetu yaliyotolewa kwa Tailscale kwenye Umbrel.
 
 
 
@@ -121,7 +121,7 @@ https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7
 
 
 
-Ili kukubali malipo, unahitaji kusanidi Bitcoin wallet. Seva ya BTPay huonyesha chaguo za usanidi kwenye dashibodi.
+Ili kukubali malipo, unahitaji kusanidi Bitcoin wallet. BTPay Server huonyesha chaguo za usanidi kwenye dashibodi.
 
 
 
@@ -129,7 +129,7 @@ Ili kukubali malipo, unahitaji kusanidi Bitcoin wallet. Seva ya BTPay huonyesha 
 
 
 
-Ili kusanidi wallet Bitcoin, nenda kwa "Pochi" > "Bitcoin".
+Ili kusanidi wallet Bitcoin, nenda kwa "Wallet" > "Bitcoin".
 
 
 
@@ -138,11 +138,11 @@ Una chaguo mbili: kuunda kwingineko mpya moja kwa moja katika BTPay, au leta kwi
 
 
 
-- Unganisha maunzi wallet** (inapendekezwa): Leta funguo zako za umma kupitia programu ya Vault
-- Ingiza faili ya wallet** (inapendekezwa): Pakia faili iliyohamishwa kutoka kwa kwingineko yako
-- Weka ufunguo uliopanuliwa wa umma**: Weka XPub/YPub/ZPub yako wewe mwenyewe
-- Changanua msimbo wa wallet QR** : Changanua msimbo wa QR kutoka BlueWallet, Cobo Vault, Pasipoti au Specter DIY
-- Ingiza wallet seed** (haipendekezwi) : Andika maneno yako ya kurejesha uwezo wa kufikia maneno 12 au 24
+- **Unganisha Hardware wallet** (inapendekezwa): Leta funguo zako za umma kupitia programu ya Vault
+- **Ingiza faili ya wallet** (inapendekezwa): Pakia faili iliyohamishwa kutoka kwa kwingineko yako
+- **Weka ufunguo uliopanuliwa wa umma**: Weka XPub/YPub/ZPub yako wewe mwenyewe
+- **Changanua msimbo wa wallet QR** : Changanua msimbo wa QR kutoka BlueWallet, Cobo Vault, Pasipoti au Specter DIY
+- **Ingiza wallet seed** (haipendekezwi) : Andika maneno yako ya kurejesha uwezo wa kufikia maneno 12 au 24
 
 
 
@@ -150,7 +150,7 @@ Una chaguo mbili: kuunda kwingineko mpya moja kwa moja katika BTPay, au leta kwi
 
 
 
-Kwa mafunzo haya, tutaunda Hot wallet mpya: kwa hivyo ufunguo wa kibinafsi utahifadhiwa kwenye seva yetu ya Umbrel. Katika kesi hii, tunakushauri sana kuhamisha fedha mara kwa mara kwenye wallet baridi ili kuepuka kuhifadhi kiasi kikubwa kwenye seva.
+Kwa mafunzo haya, tutaunda Hot wallet mpya: kwa hivyo ufunguo wa kibinafsi utahifadhiwa kwenye seva yetu ya Umbrel. Katika kesi hii, tunakushauri sana kuhamisha fedha mara kwa mara kwenye cold wallet ili kuepuka kuhifadhi kiasi kikubwa kwenye seva.
 
 
 
@@ -158,7 +158,7 @@ Kwa mafunzo haya, tutaunda Hot wallet mpya: kwa hivyo ufunguo wa kibinafsi utahi
 
 
 
-Baada ya kusanidiwa, Seva ya BTPay inathibitisha kuwa wallet yako iko tayari kukubali malipo ya on-chain.
+Baada ya kusanidiwa, BTPay Server inathibitisha kuwa wallet yako iko tayari kukubali malipo ya on-chain.
 
 
 
@@ -170,7 +170,7 @@ Baada ya kusanidiwa, Seva ya BTPay inathibitisha kuwa wallet yako iko tayari kuk
 
 
 
-Ili kukubali malipo ya papo hapo ya Umeme, nenda kwenye Wallets > Umeme. Kisha, kwa vile nodi yako ya LND tayari iko kwenye Umbrel, bofya tu kitufe cha "Hifadhi" ili kuthibitisha muunganisho kati ya Seva yako ya BTCPay na nodi yako ya Umeme.
+Ili kukubali malipo ya papo hapo ya Lightning, nenda kwenye Wallets > Lightning. Kisha, kwa vile node yako ya LND tayari iko kwenye Umbrel, bofya tu kitufe cha "Hifadhi" ili kuthibitisha muunganisho kati ya Seva yako ya BTCPay na node yako ya Lightning.
 
 
 
@@ -182,7 +182,7 @@ Ili kukubali malipo ya papo hapo ya Umeme, nenda kwenye Wallets > Umeme. Kisha, 
 
 
 
-Katika kiolesura cha Seva ya BTCPay, nenda kwenye Ankara > Unda Invoice. Weka kiasi, ongeza maelezo ya hiari, na ubofye Unda.
+Katika kiolesura cha BTCPay Server, nenda kwenye Ankara > Unda Invoice. Weka kiasi, ongeza maelezo ya hiari, na ubofye Unda.
 
 
 
@@ -206,7 +206,7 @@ Mteja wako anaweza kuchanganua msimbo wa QR na wallet yoyote inayooana.
 
 
 
-Baada ya kulipwa, ankara inakuwa "Imetulia" katika suala la sekunde kwa Umeme.
+Baada ya kulipwa, ankara inakuwa "Imetulia" katika suala la sekunde kwa Lightning.
 
 
 
@@ -230,7 +230,7 @@ Katika sehemu ya "Kuripoti", kichupo cha "Ankara", utapata historia kamili ya an
 
 
 
-Seva ya BTPay hukuruhusu kudhibiti maduka mengi yenye vigezo tofauti. Kila duka linawakilisha huluki tofauti ya biashara: duka la e-commerce, sehemu halisi ya mauzo, au malipo ya huduma.
+BTPay Server hukuruhusu kudhibiti maduka mengi yenye vigezo tofauti. Kila duka linawakilisha huluki tofauti ya biashara: duka la e-commerce, sehemu halisi ya mauzo, au malipo ya huduma.
 
 
 
@@ -244,17 +244,17 @@ Katika mipangilio ya duka, utapata sehemu kadhaa muhimu:
 
 
 
-- Mipangilio ya Jumla**: Jina la duka, sarafu ya marejeleo (BTC, EUR, USD), muda wa mwisho wa ankara (dakika 15 chaguomsingi), idadi ya uthibitishaji wa blockchain inahitajika.
-- Viwango**: Usanidi wa vyanzo vya viwango vya ubadilishaji na ubadilishaji wa fiat/Bitcoin
-- Muonekano wa Malipo**: Geuza kukufaa mwonekano wa kurasa zako za malipo (nembo, rangi, ujumbe uliobinafsishwa)
-- Mipangilio ya Barua Pepe**: Usanidi wa arifa za barua pepe kwa malipo yaliyopokelewa
-- Tokeni za Ufikiaji**: Usimamizi wa tokeni za API za miunganisho ya biashara ya mtandaoni (WooCommerce, Shopify, n.k.)
-- Watumiaji**: Dhibiti ufikiaji wa mtumiaji kwenye duka kwa viwango tofauti vya ruhusa (Mmiliki, Mgeni)
-- Webhook**: Usanidi wa Webhook kwa maingiliano ya wakati halisi na uhasibu wako au mfumo wa ERP
+- **Mipangilio ya Jumla**: Jina la duka, sarafu ya marejeleo (BTC, EUR, USD), muda wa mwisho wa ankara (dakika 15 chaguomsingi), idadi ya uthibitishaji wa blockchain inahitajika.
+- **Viwango**: Usanidi wa vyanzo vya viwango vya ubadilishaji na ubadilishaji wa fiat/Bitcoin
+- **Muonekano wa Malipo**: Geuza kukufaa mwonekano wa kurasa zako za malipo (nembo, rangi, ujumbe uliobinafsishwa)
+- **Mipangilio ya Barua Pepe**: Usanidi wa arifa za barua pepe kwa malipo yaliyopokelewa
+- **Token za Ufikiaji**: Usimamizi wa tokeni za API za miunganisho ya biashara ya mtandaoni (WooCommerce, Shopify, n.k.)
+- **Watumiaji**: Dhibiti ufikiaji wa mtumiaji kwenye duka kwa viwango tofauti vya ruhusa (Mmiliki, Mgeni)
+- **Webhook**: Usanidi wa Webhook kwa maingiliano ya wakati halisi na uhasibu wako au mfumo wa ERP
 
 
 
-Seva ya BTCPay pia inatoa sehemu ya programu-jalizi ili kupanua utendaji kwa miunganisho ya biashara ya mtandaoni, mifumo ya mauzo na zana za ziada.
+BTCPay Server pia inatoa sehemu ya programu-jalizi ili kupanua utendaji kwa miunganisho ya biashara ya mtandaoni, mifumo ya mauzo na zana za ziada.
 
 
 
@@ -266,13 +266,13 @@ Seva ya BTCPay pia inatoa sehemu ya programu-jalizi ili kupanua utendaji kwa miu
 
 
 
-**Faida za Seva ya BTCPay juu ya Umbrel** :
+**Faida za BTCPay Server juu ya Umbrel** :
 
 
 
 
 - Mamlaka kamili: udhibiti wa kipekee wa funguo na fedha za kibinafsi, hakuna mhusika mwingine anayeweza kusimamisha au kudhibiti malipo yako.
-- Akiba kubwa: gharama ya mtandao wa Bitcoin pekee (senti chache kwa Umeme) dhidi ya 2-3% kwa vichakataji vya jadi.
+- Akiba kubwa: gharama ya mtandao wa Bitcoin pekee (senti chache kwa Lightning) dhidi ya 2-3% kwa vichakataji vya jadi.
 - Usiri wa juu zaidi: hakuna usajili, uthibitishaji wa utambulisho au kushiriki data na makampuni mengine
 - Usanifu wa chanzo huria huhakikisha uwazi, ukaguzi na uendelevu kupitia jumuiya kubwa ya wasanidi programu
 - Ufungaji rahisi kupitia Umbrel, bila hitaji la ujuzi wa hali ya juu wa kiufundi
@@ -284,14 +284,14 @@ Seva ya BTCPay pia inatoa sehemu ya programu-jalizi ili kupanua utendaji kwa miu
 
 
 
-- Mtandao wa ndani pekee**: Seva ya BTCPay kwenye Umbrel inapatikana tu kutoka kwa mtandao wako wa nyumbani. Ni kamili kwa malipo ya ana kwa ana, huduma za kujitegemea au biashara ndogo ndogo, lakini hazifai kwa maduka ya mtandaoni yanayopatikana kwa umma.
-- Wajibu kamili wa kiufundi: matengenezo ya nodi, salama za mara kwa mara, ufuatiliaji wa uunganisho
-- Udhibiti wa ukwasi wa umeme: kufungua na kudhibiti chaneli zenye uwezo wa kutosha wa kuingia
+- **Mtandao wa ndani pekee**: BTCPay Server kwenye Umbrel inapatikana tu kutoka kwa mtandao wako wa nyumbani. Ni kamili kwa malipo ya ana kwa ana, huduma za kujitegemea au biashara ndogo ndogo, lakini hazifai kwa maduka ya mtandaoni yanayopatikana kwa umma.
+- Wajibu kamili wa kiufundi: matengenezo ya node, salama za mara kwa mara, ufuatiliaji wa uunganisho
+- Udhibiti wa ukwasi wa Lightning: kufungua na kudhibiti chaneli zenye uwezo wa kutosha wa kuingia
 - Usaidizi mdogo kwa nyaraka za jumuiya na vikao, vinavyohitaji uhuru zaidi kuliko idara ya kibiashara ya huduma kwa wateja
 
 
 
-Kizuizi hiki cha mtandao wa ndani ndicho kikwazo kikuu cha kuunganisha Seva ya BTCPay kwenye duka la e-commerce, ambapo wateja wanahitaji kuwa na uwezo wa kufikia kurasa za malipo kutoka popote kwenye Mtandao.
+Kizuizi hiki cha mtandao wa ndani ndicho kikwazo kikuu cha kuunganisha BTCPay Server kwenye duka la e-commerce, ambapo wateja wanahitaji kuwa na uwezo wa kufikia kurasa za malipo kutoka popote kwenye Mtandao.
 
 
 
@@ -299,19 +299,19 @@ Kizuizi hiki cha mtandao wa ndani ndicho kikwazo kikuu cha kuunganisha Seva ya B
 
 
 
-Washa chelezo otomatiki za Mwavuli na uhifadhi nakala kwenye media ya nje (fimbo ya USB, diski kuu, wingu iliyosimbwa). Weka mbegu zako za Bitcoin (maneno ya uokoaji) katika sehemu salama, iliyo tofauti. Hifadhi nakala rudufu ya faili ya chaneli ya LND kwa uokoaji wa Umeme.
+Washa chelezo otomatiki za Umbrel na uhifadhi nakala kwenye media ya nje (USB stick, disk kuu, Encrypted cloud storage). Weka seed zako za Bitcoin (maneno ya uokoaji) katika sehemu salama, iliyo tofauti. Hifadhi nakala rudufu ya faili ya chaneli ya LND kwa uokoaji wa Lightning.
 
 
 
-Fuatilia mara kwa mara usawazishaji wa Bitcoin Core, chaneli za umeme na majibu ya Seva ya BTCPay. Jaribio rahisi la kila wiki: generate na ulipe bili kwa satoshi chache. Sasisha Umbrel (viraka vya usalama, viboreshaji). Weka nakala kabla ya sasisho kuu. Kwa matumizi ya kitaaluma, zingatia ufuatiliaji wa nje (UptimeRobot) na arifa za barua pepe/SMS.
+Fuatilia mara kwa mara usawazishaji wa Bitcoin Core, chaneli za Lightning na majibu ya BTCPay Server. Jaribio rahisi la kila wiki: generate na ulipe bili kwa satoshi chache. Sasisha Umbrel (viraka vya usalama, viboreshaji). Weka nakala kabla ya sasisho kuu. Kwa matumizi ya kitaaluma, zingatia ufuatiliaji wa nje (UptimeRobot) na arifa za barua pepe/SMS.
 
 
 
-## Kufichua Seva ya BTPay hadharani kwa duka la mtandaoni
+## Kufichua BTPay Server hadharani kwa duka la mtandaoni
 
 
 
-Ili kujumuisha Seva ya BTCPay kwenye duka la biashara ya mtandaoni (WooCommerce, Shopify, n.k.), wateja wako wanahitaji kuwa na uwezo wa kufikia kurasa za malipo kutoka popote, si tu mtandao wako wa ndani.
+Ili kujumuisha BTCPay Server kwenye duka la biashara ya mtandaoni (WooCommerce, Shopify, n.k.), wateja wako wanahitaji kuwa na uwezo wa kufikia kurasa za malipo kutoka popote, si tu mtandao wako wa ndani.
 
 
 
@@ -319,13 +319,13 @@ Ili kujumuisha Seva ya BTCPay kwenye duka la biashara ya mtandaoni (WooCommerce,
 
 
 
-Unaweza kufichua Seva ya BTCPay hadharani kwa kutumia Kidhibiti Wakala wa Nginx (inapatikana katika Duka la Programu la Umbrel). Suluhisho hili linahitaji:
+Unaweza kufichua BTCPay Server hadharani kwa kutumia Kidhibiti Wakala wa Nginx (inapatikana katika Duka la Programu la Umbrel). Suluhisho hili linahitaji:
 
 
 
 
-- Jina la kikoa (la kawaida au lisilolipishwa kupitia DuckDNS, No-IP, Afraid.org)
-- Inasanidi usambazaji wa mlango (bandari 80 na 443) kwenye kipanga njia chako
+- Domain name (la kawaida au lisilolipishwa kupitia DuckDNS, No-IP, Afraid.org)
+- Inasanidi usambazaji wa mlango (PORT 80 na 443) kwenye router yako
 - Usakinishaji wa Kidhibiti Wakala wa Nginx, ambacho hudhibiti kiotomatiki vyeti vya SSL
 
 
@@ -338,15 +338,15 @@ Usanidi huu unafichua seva yako kwenye Mtandao na unahitaji umakini wa ziada (ne
 
 
 
-Seva ya BTCPay kwenye Umbrel inachanganya nguvu ya nodi ya Bitcoin na urahisi wa Umbrel ili kuunda miundombinu ya malipo ya kitaalamu inayojiendesha yenyewe inayofikiwa na wote. Mamlaka hii ya kifedha inakuja na jukumu la matengenezo, lakini Umbrel hurahisisha mzigo wa uendeshaji ikilinganishwa na manufaa: kuondoa ada za usindikaji, ulinzi wa faragha yako, upinzani dhidi ya udhibiti na udhibiti kamili wa fedha zako.
+BTCPay Server kwenye Umbrel inachanganya nguvu ya node ya Bitcoin na urahisi wa Umbrel ili kuunda miundombinu ya malipo ya kitaalamu inayojiendesha yenyewe inayofikiwa na wote. Mamlaka hii ya kifedha inakuja na jukumu la matengenezo, lakini Umbrel hurahisisha mzigo wa uendeshaji ikilinganishwa na manufaa: kuondoa ada za usindikaji, ulinzi wa faragha yako, upinzani dhidi ya udhibiti na udhibiti kamili wa fedha zako.
 
 
 
-Matumizi ya mtandao wa ndani tayari yanajumuisha aina mbalimbali za maombi: malipo ya huduma za kujitegemea, malipo ya ana kwa ana, maduka madogo ya kimwili, au kujifunza tu na kufanya majaribio ya Bitcoin na Umeme katika mazingira yanayodhibitiwa. Kwa mahitaji ya biashara ya mtandaoni yanayohitaji kufichuliwa kwa umma, suluhisho la Kidhibiti Wakala wa Nginx lipo, lakini linahitaji usanidi wa ziada wa kiufundi, ambao tutaelezea kwa undani katika mafunzo mahususi.
+Matumizi ya mtandao wa ndani tayari yanajumuisha aina mbalimbali za maombi: malipo ya huduma za kujitegemea, malipo ya ana kwa ana, maduka madogo ya kimwili, au kujifunza tu na kufanya majaribio ya Bitcoin na Lightning katika mazingira yanayodhibitiwa. Kwa mahitaji ya biashara ya mtandaoni yanayohitaji kufichuliwa kwa umma, suluhisho la Kidhibiti Wakala wa Nginx lipo, lakini linahitaji usanidi wa ziada wa kiufundi, ambao tutaelezea kwa undani katika mafunzo mahususi.
 
 
 
-Iwe unaendesha biashara, mradi mpya au unajaribu tu, Seva ya BTCPay kwenye Umbrel inatoa uhuru kamili wa kifedha. Njia huanza na duka lako la kwanza, ankara yako ya kwanza, malipo yako ya kwanza kupokea moja kwa moja kwenye miundombinu yako huru.
+Iwe unaendesha biashara, mradi mpya au unajaribu tu, BTCPay Server kwenye Umbrel inatoa uhuru kamili wa kifedha. Njia huanza na duka lako la kwanza, ankara yako ya kwanza, malipo yako ya kwanza kupokea moja kwa moja kwenye miundombinu yako huru.
 
 
 
@@ -359,10 +359,10 @@ Iwe unaendesha biashara, mradi mpya au unajaribu tu, Seva ya BTCPay kwenye Umbre
 
 
 
-- [Tovuti rasmi ya Seva ya BTCPay](https://btcpayserver.org)
-- [Kamilisha hati za Seva ya BTCPay](https://docs.btcpayserver.org)
+- [Tovuti rasmi ya BTCPay Server](https://btcpayserver.org)
+- [Kamilisha hati za BTCPay Server](https://docs.btcpayserver.org)
 - [Seva ya GitHub BTCPay](https://github.com/btcpayserver/btcpayserver)
-- [Hati za muundo wa mkia](https://tailscale.com/kb)
+- [Hati za muundo wa tail](https://tailscale.com/kb)
 
 
 ### Jumuiya na msaada

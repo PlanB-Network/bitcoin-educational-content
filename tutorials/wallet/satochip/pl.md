@@ -68,7 +68,7 @@ W środku znajdziesz Satochip.
 ![SATOCHIP](assets/notext/04.webp)
 
 
-Do zarządzania Wallet, w tym poradniku, sugeruję użycie Sparrow. Jeśli nie masz jeszcze tego oprogramowania, [odwiedź oficjalną stronę, aby je pobrać] (https://sparrowwallet.com/download/). Możesz również zapoznać się z naszym samouczkiem na temat Sparrow Wallet (wkrótce).
+Do zarządzania Wallet, w tym poradniku, sugeruję użycie Sparrow. Jeśli nie masz jeszcze tego oprogramowania, [odwiedź oficjalną stronę, aby je pobrać](https://sparrowwallet.com/download/). Możesz również zapoznać się z naszym samouczkiem na temat Sparrow Wallet (wkrótce).
 
 
 ![SATOCHIP](assets/notext/05.webp)

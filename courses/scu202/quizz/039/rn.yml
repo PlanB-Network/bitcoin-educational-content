@@ -1,9 +1,9 @@
-question: Inyuma yo gushiramwo ivyagezwe bihambaye vya OS, ni igiki kenshi ukeneye gukora kugira ngo ukoreshe neza ivyo bipande?
-answer: Gusubiramwo mudasobwa
+question: Inyuma yo gushira kugihe ukaronke bishasha bihambaye vya OS, ni igiki kenshi ukeneye gukora kugira ngo ushobore kubikoresha neza uko bikwiye?
+answer: Gusubira gutanguza inyabwonko
 wrong_answers:
-  - Gusubiramwo ijambobanga
-  - Gukuraho urubuga rwa Wi-Fi
-  - Gukuraho amadosiye y'igihe gito
+  - Gusubiramwo ijambo ry’ibanga
+  - Gukuraho umuhora wa Wi-Fi
+  - Gukuraho amadosiye y’igihe gito
 explanation: |
-  Ivyiyumviro bimwebimwe bishasha vya sisitemu ikoresha, nk’ivyo ku kernel canke ku masomero ahambaye, bitangura gukora gusa inyuma y’aho imashini isubiye gufungura.
-reviewed: false
+  Ibintu bishasha bimwebimwe vya sisiteme, nk’ivyo kuri kernel canke ku masomero ahambaye, bitangura gukora gusa inyuma y’aho imashini isubiye kwaka.
+reviewed: true

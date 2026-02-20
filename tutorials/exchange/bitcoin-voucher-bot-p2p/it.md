@@ -36,7 +36,7 @@ Per prima cosa, se non lo hai già installato sul tuo smartphone, scarica Wallet
 
 Se non hai mai utilizzato Wallet of Satoshi e vuoi comprenderne il funzionamento, ti consiglio di seguire questo tutorial, così potrai attivarlo correttamente ed eseguire il backup in modo sicuro.
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Ora che il tuo wallet è pronto, puoi iniziare a inviare una piccola quantità di sats. Tieni presente che, per completare l’iscrizione alla piattaforma P2P (Peer-To-Peer), ti verranno richiesti 1000 sats come misura di controllo: questo serve a creare una barriera contro eventuali attacchi del tipo match fantasma (scam), impedendo che chiunque possa iscriversi senza alcun filtro anti spam.
 
@@ -44,7 +44,7 @@ Ora che il tuo wallet è pronto, puoi iniziare a inviare una piccola quantità d
 
 Ora possiamo aprire la piattaforma P2P (Peer-To-Peer) per procedere all’iscrizione. Puoi accedere da PC desktop o browser su smartphone, tramite il bot Telegram BitcoinVoucherBot oppure tramite link .onion, per garantire un livello di privacy ancora maggiore.
 
-se scegli di utilizzare il link Tor .onion ti consilgio anche "Tor Browser". Se ancora non lo conosci puoi approfondire a questo link: 
+se scegli di utilizzare il link Tor .onion ti consiglio anche "Tor Browser". Se ancora non lo conosci puoi approfondire a questo link: 
 
 https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
@@ -70,7 +70,7 @@ Spunta la casella di verifica dove dichiari di non essere un robot (riquadro C).
 
 ![image](assets/it/04.webp)
 
-Ora devi pagare i 1000 sats per completre l'iscrizione. 
+Ora devi pagare i 1000 sats per completare l'iscrizione.
 
 1. Partendo dall’alto, vedi innanzitutto il tuo “Avatar ID”, generato casualmente e estremamente importante. Salvalo con cura, proprio come ti ho consigliato di fare con la password.
 2. Devi quindi inserire il tuo “Lightning Address” nel campo sottostante. Questo ti permetterà di ricevere i pagamenti se acquisti Bitcoin, oppure di ottenere i rimborsi. Se stai usando Wallet Of Satoshi potrai copiare il tuo Address cliccando su ricevi.

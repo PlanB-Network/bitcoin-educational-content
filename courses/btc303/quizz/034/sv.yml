@@ -5,5 +5,5 @@ wrong_answers:
   - Transaktionsavgifter bränns under bearbetningen, vilket gradvis minskar den tillgängliga bitcointillgången
   - "Bitcoin-protokollet låser automatiskt mynt som inte har rört sig under längre perioder för att förhindra inflation"
 explanation: |
-  Kapitlet förklarar att även om det teoretiska maximumet är cirka 20 999 817 BTC, är den faktiska användbara tillgången mycket lägre på grund av mänskliga fel och förluster. Förlorade privata nycklar gör bitcoins permanent otillgängliga, plånböcker blir stulna eller glömda och mynt skickas ibland till ogiltiga adresser. Dessa faktorer skapar en permanent utbudsminskning som gynnar kvarvarande innehavare, eftersom Satoshi noterade att förlorade mynt gör alla andras mynt mer värda.
+  Även om det teoretiska maximumet är 20 999 999.9769 BTC är det verkligt användbara utbudet betydligt lägre på grund av mänskliga misstag och förluster. Förlorade privata nycklar gör bitcoin permanent otillgängliga, plånböcker stjäls eller glöms bort, och mynt skickas ibland till ogiltiga adresser. Dessa faktorer leder till en permanent minskning av utbudet, vilket gynnar de återstående innehavarna, som Satoshi påpekade: förlorade mynt ökar värdet på andras mynt.
 reviewed: false

@@ -34,7 +34,7 @@ Vítejte v kurzu CYP201, kde se podrobně seznámíme s fungováním HD Bitcoino
 
 Cílem tohoto školení je dát vám klíče k ovládnutí nástrojů, které používáte každý den. HD Bitcoinové peněženky, které jsou v srdci vašeho uživatelského zážitku, jsou založeny na někdy složitých konceptech, které se pokusíme zpřístupnit. Společně je odhalíme!
 
-Než se ponoříme do detailů konstrukce a fungování Bitcoinových peněženek, začneme několika kapitolami o kryptografických primitivách, které je třeba znát pro následující. Začneme hašovacími funkcemi, zásadními jak pro peněženky, tak pro samotný protokol Bitcoinu. Objevíte jejich hlavní charakteristiky, specifické funkce používané v Bitcoinu a v techničtější kapitole se dozvíte podrobně o fungování královny hašovacích funkcí: SHA256.
+Než se ponoříme do detailů konstrukce a fungování Bitcoinových peněženek, začneme několika kapitolami o kryptografických primitivách, které je třeba znát pro následující. Začneme hašovacími funkcemi, zásadními jak pro peněženky, tak pro samotný protokol Bitcoinu. Objevíte jejich hlavní charakteristiky, specifické funkce používané v Bitcoinu a v techničtější kapitole se dozvíte podrobně o fungování královny hašovacích funkcí: [SHA256](https://planb.academy/resources/glossary/sha256).
 ![CYP201](assets/en/001.webp)
 
 Dále budeme diskutovat o fungování algoritmů digitálního podpisu, které každý den používáte k zabezpečení vašich UTXOs. Bitcoin používá dva: ECDSA a protokol Schnorr. Naučíte se, které matematické primitivy leží v základu těchto algoritmů a jak zajišťují bezpečnost transakcí.
@@ -44,7 +44,7 @@ Dále budeme diskutovat o fungování algoritmů digitálního podpisu, které k
 Jakmile budeme mít dobré porozumění těmto prvkům kryptografie, konečně přejdeme k srdci školení: deterministické a hierarchické peněženky! Nejprve je sekce věnovaná mnemonickým frázím, těmto sekvencím 12 nebo 24 slov, které vám umožňují vytvořit a obnovit vaše peněženky. Objevíte, jak jsou tato slova generována zdrojem entropie a jak usnadňují používání Bitcoinu.
 
 ![CYP201](assets/en/003.webp)
-Školení bude pokračovat studiem BIP39 hesla, seedu (nesmí být zaměňován s mnemonickou frází), hlavního řetězového kódu a hlavního klíče. Podrobně si probereme, co tyto prvky jsou, jaké mají role a jak jsou vypočítány.
+Školení bude pokračovat studiem [BIP39](https://planb.academy/resources/glossary/bip0039) hesla, seedu (nesmí být zaměňován s mnemonickou frází), hlavního řetězového kódu a hlavního klíče. Podrobně si probereme, co tyto prvky jsou, jaké mají role a jak jsou vypočítány.
 ![CYP201](assets/en/004.webp)
 
 Nakonec, z hlavního klíče, objevíme, jak jsou odvozeny kryptografické klíčové páry deterministickým a hierarchickým způsobem až po přijímací adresy.
@@ -91,14 +91,14 @@ Tato tabulka vám nabízí překlad hlavních anglických termínů, které se p
 
 :::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
 
-První typ kryptografických algoritmů používaných na Bitcoinu zahrnuje hašovací funkce. Hrají zásadní roli na různých úrovních protokolu, ale také uvnitř Bitcoinových peněženek. Pojďme společně objevit, co je hašovací funkce a k čemu se používá v Bitcoinu.
+První typ kryptografických algoritmů používaných na Bitcoinu zahrnuje [hašovací funkce](https://planb.academy/resources/glossary/hash-function). Hrají zásadní roli na různých úrovních protokolu, ale také uvnitř Bitcoinových peněženek. Pojďme společně objevit, co je hašovací funkce a k čemu se používá v Bitcoinu.
 
 ### Definice a Princip Hašování
 
 Hašování je proces, který transformuje informace libovolné délky na jinou informaci pevné délky prostřednictvím kryptografické hašovací funkce. Jinými slovy, hašovací funkce přijme vstup jakékoli velikosti a převede jej na otisk pevné velikosti, nazývaný "hash".
 Hash může být také někdy označován jako "digest", "condensate", "condensed" nebo "hashed".
 
-Například hašovací funkce SHA256 produkuje hash pevné délky 256 bitů. Takže pokud použijeme vstup "_PlanB_", zprávu libovolné délky, vygenerovaný hash bude následující 256bitový otisk:
+Například hašovací funkce [SHA256](https://planb.academy/resources/glossary/sha256) produkuje hash pevné délky 256 bitů. Takže pokud použijeme vstup "_PlanB_", zprávu libovolné délky, vygenerovaný hash bude následující 256bitový otisk:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -175,16 +175,16 @@ Tedy odolnost proti druhému preobrazu je do jisté míry podobná odolnosti pro
 
 Nejpoužívanější hašovací funkcí v Bitcoinu je **SHA256** ("_Secure Hash Algorithm 256 bits"_). Navržena na začátku 2000s NSA a standardizována NIST, produkuje 256-bitový hašovací výstup.
 
-Tato funkce je používána v mnoha aspektech Bitcoinu. Na úrovni protokolu se podílí na mechanismu Proof-of-Work, kde je aplikována dvojité hašování pro hledání částečné kolize mezi hlavičkou kandidátního bloku, vytvořeného těžařem, a cílem obtížnosti. Pokud je tato částečná kolize nalezena, kandidátní blok se stává platným a může být přidán do blockchainu.
+Tato funkce je používána v mnoha aspektech Bitcoinu. Na úrovni protokolu se podílí na mechanismu Proof-of-Work, kde je aplikována dvojité hašování pro hledání částečné kolize mezi hlavičkou kandidátního [bloku](https://planb.academy/resources/glossary/block), vytvořeného těžařem, a cílem [obtížnosti](https://planb.academy/resources/glossary/difficulty). Pokud je tato částečná kolize nalezena, kandidátní blok se stává platným a může být přidán do [blockchainu](https://planb.academy/resources/glossary/blockchain).
 
-SHA256 je také používána při konstrukci Merkleova stromu, který je významným akumulátorem používaným pro zaznamenávání transakcí v blocích. Tato struktura je také nalezena v protokolu Utreexo, který umožňuje snížení velikosti UTXO Setu. Kromě toho, s představením Taprootu v roce 2021, je SHA256 využívána v MAST (_Merkelised Alternative Script Tree_), což umožňuje odhalit pouze skutečně použité podmínky výdaje ve skriptu, aniž by byly odhaleny ostatní možné možnosti. Je také používána při výpočtu identifikátorů transakcí, při přenosu paketů přes P2P síť, v elektronických podpisech... Nakonec, a to je zvláště zajímavé v tomto školení, SHA256 je používána na aplikační úrovni pro konstrukci Bitcoinových peněženek a derivaci adres.
+SHA256 je také používána při konstrukci Merkleova stromu, který je významným akumulátorem používaným pro zaznamenávání transakcí v blocích. Tato struktura je také nalezena v protokolu [Utreexo](https://planb.academy/resources/glossary/utreexo), který umožňuje snížení velikosti UTXO Setu. Kromě toho, s představením [Taprootu](https://planb.academy/resources/glossary/taproot) v roce 2021, je SHA256 využívána v [MAST](https://planb.academy/resources/glossary/mast) (_Merkelised Alternative [Script](https://planb.academy/resources/glossary/script) Tree_), což umožňuje odhalit pouze skutečně použité podmínky výdaje ve skriptu, aniž by byly odhaleny ostatní možné možnosti. Je také používána při výpočtu identifikátorů transakcí, při přenosu paketů přes P2P síť, v elektronických podpisech... Nakonec, a to je zvláště zajímavé v tomto školení, SHA256 je používána na aplikační úrovni pro konstrukci Bitcoinových peněženek a derivaci adres.
 
-Většinou, když narazíte na použití SHA256 v Bitcoinu, bude to ve skutečnosti dvojité hašování SHA256, označované jako "**HASH256**", které jednoduše spočívá v dvakrát po sobě jdoucím aplikování SHA256:
+Většinou, když narazíte na použití SHA256 v Bitcoinu, bude to ve skutečnosti dvojité hašování SHA256, označované jako "**[HASH256](https://planb.academy/resources/glossary/hash256)**", které jednoduše spočívá v dvakrát po sobě jdoucím aplikování SHA256:
 HASH256(m) = SHA256(SHA256(m))
 
 Tato praxe dvojitého hašování přidává další vrstvu zabezpečení proti určitým potenciálním útokům, i když je dnes jednoduché SHA256 považováno za kryptograficky bezpečné.
 
-Další hašovací funkcí dostupnou v jazyce Script a používanou pro derivaci přijímacích adres je funkce RIPEMD160. Tato funkce produkuje 160-bitový haš (tedy kratší než SHA256). Obvykle je kombinována s SHA256 pro vytvoření funkce HASH160:
+Další hašovací funkcí dostupnou v jazyce Script a používanou pro derivaci přijímacích adres je funkce [RIPEMD160](https://planb.academy/resources/glossary/ripemd160). Tato funkce produkuje 160-bitový haš (tedy kratší než SHA256). Obvykle je kombinována s SHA256 pro vytvoření funkce HASH160:
 
 $$
 \text{HASH160}(m) = \text{RIPEMD160}(\text{SHA256}(m))
@@ -192,7 +192,7 @@ $$
 
 Tato kombinace je používána pro generování kratších hašů, zejména při vytváření určitých Bitcoinových adres, které představují haše klíčů nebo haše skriptů, stejně jako pro výrobu otisků klíčů.
 
-Nakonec, pouze na aplikační úrovni, je někdy používána také funkce SHA512, která nepřímo hraje roli v derivaci klíčů pro peněženky. Tato funkce je velmi podobná SHA256 ve svém fungování; obě patří do stejné rodiny SHA2, ale SHA512 produkuje, jak už název napovídá, 512-bitový haš, ve srovnání s 256 bity pro SHA256. Její použití podrobně rozebereme v následujících kapitolách.
+Nakonec, pouze na aplikační úrovni, je někdy používána také funkce [SHA512](https://planb.academy/resources/glossary/sha512), která nepřímo hraje roli v derivaci klíčů pro peněženky. Tato funkce je velmi podobná SHA256 ve svém fungování; obě patří do stejné rodiny SHA2, ale SHA512 produkuje, jak už název napovídá, 512-bitový haš, ve srovnání s 256 bity pro SHA256. Její použití podrobně rozebereme v následujících kapitolách.
 
 Nyní znáte základní informace o hašovacích funkcích pro to, co následuje. V další kapitole navrhuji podrobněji prozkoumat fungování funkce, která je jádrem Bitcoinu: SHA256. Rozklíčujeme ji, abychom pochopili, jak dosahuje charakteristik, které jsme zde popisovali. Tato další kapitola je poměrně dlouhá a technická, ale není nezbytná pro pokračování v školení. Takže, pokud máte s jejím pochopením potíže, nebojte se a přejděte přímo na následující kapitolu, která bude mnohem přístupnější.
 
@@ -532,7 +532,7 @@ Komprese také využívá operaci $\text{ShR}$. Tato operace odstraní část z�
 Nakonec, pro charakteristiku odolnosti vůči kolizím, hrají roli několik parametrů. Předzpracování původní zprávy hraje zásadní roli. Bez tohoto předzpracování by mohlo být snazší najít kolize na funkci. Ačkoliv teoreticky kolize existují (kvůli principu holubníku), struktura hašovací funkce, kombinovaná s výše zmíněnými vlastnostmi, činí pravděpodobnost nalezení kolize extrémně nízkou.
 Pro to, aby byla hašovací funkce odolná vůči kolizím, je zásadní, že:
 
-- Výstup je nepředvídatelný: Jakákoli předvídatelnost může být využita k rychlejšímu nalezení kolizí než pomocí útoku hrubou silou. Funkce zajišťuje, že každý bit výstupu závisí na vstupu netriviálním způsobem. Jinými slovy, funkce je navržena tak, aby každý bit konečného výsledku měl nezávislou pravděpodobnost být 0 nebo 1, i když tato nezávislost v praxi není absolutní.
+- Výstup je nepředvídatelný: Jakákoli předvídatelnost může být využita k rychlejšímu nalezení kolizí než pomocí útoku [hrubou silou](https://planb.academy/resources/glossary/brute-force-attack). Funkce zajišťuje, že každý bit výstupu závisí na vstupu netriviálním způsobem. Jinými slovy, funkce je navržena tak, aby každý bit konečného výsledku měl nezávislou pravděpodobnost být 0 nebo 1, i když tato nezávislost v praxi není absolutní.
 - Distribuce hašů je pseudonáhodná: To zajišťuje, že haše jsou rovnoměrně distribuovány.
 - Velikost haše je značná: čím větší možný prostor pro výsledky, tím je obtížnější najít kolizi.
 
@@ -542,7 +542,7 @@ Kryptografové tyto funkce navrhují tak, že hodnotí nejlepší možné útoky
 
 Struktura SHA256 je založena na konstrukci Merkle-Damgård, která umožňuje transformovat kompresní funkci na hašovací funkci, která může zpracovávat zprávy libovolné délky. To je přesně to, co jsme viděli v této kapitole.
 Nicméně některé staré hašovací funkce jako SHA1 nebo MD5, které používají tuto specifickou konstrukci, jsou zranitelné vůči útokům typu prodloužení délky. Jedná se o techniku, která umožňuje útočníkovi, který zná hash zprávy $M$ a délku $M$ (aniž by znal samotnou zprávu), vypočítat hash zprávy $M'$ vytvořené konkatenací $M$ s dodatečným obsahem.
-SHA256, i když používá stejný typ konstrukce, je teoreticky odolná vůči tomuto typu útoku, na rozdíl od SHA1 a MD5. To by mohlo vysvětlovat záhadu dvojitého hašování implementovaného v Bitcoinu Satoshi Nakamotem. Aby se vyhnul tomuto typu útoku, Satoshi mohl dát přednost použití dvojitého SHA256:
+SHA256, i když používá stejný typ konstrukce, je teoreticky odolná vůči tomuto typu útoku, na rozdíl od SHA1 a MD5. To by mohlo vysvětlovat záhadu dvojitého hašování implementovaného v Bitcoinu [Satoshi Nakamotem](https://planb.academy/resources/glossary/nakamoto-satoshi). Aby se vyhnul tomuto typu útoku, Satoshi mohl dát přednost použití dvojitého SHA256:
 
 $$
 \text{HASH256}(m) = \text{SHA256}(\text{SHA256}(m))
@@ -648,17 +648,17 @@ Druhou kryptografickou metodou používanou v Bitcoinu jsou algoritmy digitáln�
 
 ### Bitcoiny, UTXO a Podmínky Výdaje
 
-Pojem "_peněženka_" v Bitcoinu může být pro začátečníky matoucí. Skutečně, to, co se nazývá Bitcoinová peněženka, je software, který přímo neobsahuje vaše bitcoiny, na rozdíl od fyzické peněženky, která může obsahovat mince nebo bankovky. Bitcoiny jsou prostě jednotky účtu. Tato jednotka účtu je reprezentována **UTXO** (_Unspent Transaction Outputs_), což jsou nevyužité transakční výstupy. Pokud jsou tyto výstupy nevyužité, znamená to, že patří uživateli. UTXO jsou, jakýmsi způsobem, kusy bitcoinů, proměnné velikosti, patřící uživateli.
+Pojem "_peněženka_" v Bitcoinu může být pro začátečníky matoucí. Skutečně, to, co se nazývá Bitcoinová peněženka, je software, který přímo neobsahuje vaše bitcoiny, na rozdíl od fyzické peněženky, která může obsahovat mince nebo bankovky. Bitcoiny jsou prostě jednotky účtu. Tato jednotka účtu je reprezentována **[UTXO](https://planb.academy/resources/glossary/utxo)** (_Unspent Transaction Outputs_), což jsou nevyužité transakční výstupy. Pokud jsou tyto výstupy nevyužité, znamená to, že patří uživateli. UTXO jsou, jakýmsi způsobem, kusy bitcoinů, proměnné velikosti, patřící uživateli.
 
 Protokol Bitcoinu je distribuovaný a funguje bez centrální autority. Proto to není jako tradiční bankovní záznamy, kde eura, která vám patří, jsou jednoduše spojena s vaší osobní identitou. V Bitcoinu vaše UTXO patří vám, protože jsou chráněna podmínkami výdaje specifikovanými v jazyce Script. Zjednodušeně řečeno, existují dva typy skriptů: uzamykací skript (_scriptPubKey_), který chrání UTXO, a odemykací skript (_scriptSig_), který umožňuje odemknout UTXO a tím utratit bitcoinové jednotky, které reprezentuje.
-Počáteční operace Bitcoinu s P2PK skripty zahrnuje použití veřejného klíče k uzamčení prostředků, specifikující v _scriptPubKey_, že osoba, která si přeje utratit toto UTXO, musí poskytnout platný podpis s privátním klíčem odpovídajícím tomuto veřejnému klíči. K odemčení tohoto UTXO je tedy nutné poskytnout platný podpis v _scriptSig_. Jak názvy napovídají, veřejný klíč je znám všem, protože je vysílán na blockchainu, zatímco privátní klíč zná pouze legitimní vlastník prostředků.
-To je základní operace Bitcoinu, ale časem se tato operace stala složitější. Nejprve Satoshi také představil P2PKH skripty, které používají přijímací adresu v _scriptPubKey_, což představuje hash veřejného klíče. Poté se systém stal ještě složitějším s příchodem SegWitu a poté Taprootu. Nicméně, obecný princip zůstává zásadně stejný: veřejný klíč nebo reprezentace tohoto klíče je použita k uzamčení UTXO, a odpovídající privátní klíč je vyžadován k jejich odemčení a tím k jejich utracení.
+Počáteční operace Bitcoinu s [P2PK](https://planb.academy/resources/glossary/p2pk) skripty zahrnuje použití veřejného klíče k uzamčení prostředků, specifikující v _scriptPubKey_, že osoba, která si přeje utratit toto UTXO, musí poskytnout platný podpis s privátním klíčem odpovídajícím tomuto veřejnému klíči. K odemčení tohoto UTXO je tedy nutné poskytnout platný podpis v _scriptSig_. Jak názvy napovídají, veřejný klíč je znám všem, protože je vysílán na blockchainu, zatímco privátní klíč zná pouze legitimní vlastník prostředků.
+To je základní operace Bitcoinu, ale časem se tato operace stala složitější. Nejprve Satoshi také představil [P2PKH](https://planb.academy/resources/glossary/p2pkh) skripty, které používají přijímací adresu v _scriptPubKey_, což představuje hash veřejného klíče. Poté se systém stal ještě složitějším s příchodem [SegWitu](https://planb.academy/resources/glossary/segwit) a poté Taprootu. Nicméně, obecný princip zůstává zásadně stejný: veřejný klíč nebo reprezentace tohoto klíče je použita k uzamčení UTXO, a odpovídající privátní klíč je vyžadován k jejich odemčení a tím k jejich utracení.
 Uživatel, který si přeje provést transakci s Bitcoinem, musí proto vytvořit digitální podpis pomocí svého soukromého klíče k dané transakci. Tento podpis mohou ověřit ostatní účastníci sítě. Pokud je platný, znamená to, že uživatel iniciující transakci je skutečně vlastníkem soukromého klíče a tedy i vlastníkem bitcoinů, které si přeje utratit. Ostatní uživatelé mohou poté transakci přijmout a dále šířit.
 
 V důsledku toho musí uživatel, který vlastní bitcoiny uzamčené veřejným klíčem, najít způsob, jak bezpečně uložit to, co umožňuje odemknout jejich prostředky: soukromý klíč. Bitcoinová peněženka je přesně zařízení, které vám umožní snadno uchovávat všechny vaše klíče bez přístupu ostatních lidí. Je tedy spíše jako svazek klíčů než jako peněženka.
 
-Matematická vazba mezi veřejným a soukromým klíčem, stejně jako schopnost provést podpis k prokázání držení soukromého klíče bez jeho odhalení, jsou umožněny algoritmem digitálního podpisu. V protokolu Bitcoinu jsou použity 2 algoritmy pro podpis: **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) a **Schnorrův schéma podpisu**. ECDSA je digitální podpisový protokol používaný v Bitcoinu od jeho počátků. Schnorr je v Bitcoinu novější, protože byl zaveden v listopadu 2021 s aktualizací Taproot.
-Tyto dva algoritmy jsou si ve svých mechanismech poměrně podobné. Oba jsou založeny na kryptografii eliptických křivek. Hlavní rozdíl mezi těmito dvěma protokoly spočívá ve struktuře podpisu a některých specifických matematických vlastnostech. Proto se budeme zabývat fungováním těchto algoritmů, začínající nejstarším: ECDSA.
+Matematická vazba mezi veřejným a soukromým klíčem, stejně jako schopnost provést podpis k prokázání držení soukromého klíče bez jeho odhalení, jsou umožněny algoritmem digitálního podpisu. V protokolu Bitcoinu jsou použity 2 algoritmy pro podpis: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_Elliptic Curve Digital Signature Algorithm_) a **Schnorrův schéma podpisu**. ECDSA je digitální podpisový protokol používaný v Bitcoinu od jeho počátků. [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol) je v Bitcoinu novější, protože byl zaveden v listopadu 2021 s aktualizací Taproot.
+Tyto dva algoritmy jsou si ve svých mechanismech poměrně podobné. Oba jsou založeny na kryptografii [eliptických křivek](https://planb.academy/resources/glossary/elliptic-curve). Hlavní rozdíl mezi těmito dvěma protokoly spočívá ve struktuře podpisu a některých specifických matematických vlastnostech. Proto se budeme zabývat fungováním těchto algoritmů, začínající nejstarším: ECDSA.
 
 ### Kryptografie eliptických křivek
 
@@ -680,7 +680,7 @@ $$
 
 Pro použití ECDSA nebo Schnorra je nutné zvolit parametry eliptické křivky, tj. hodnoty $a$ a $b$ v rovnici křivky. Existují různé standardy eliptických křivek, které jsou považovány za kryptograficky bezpečné. Nejznámější je křivka _secp256r1_, definovaná a doporučená NIST (_National Institute of Standards and Technology_).
 
-Přesto se Satoshi Nakamoto, tvůrce Bitcoinu, rozhodl tuto křivku nepoužít. Důvod tohoto rozhodnutí není znám, ale někteří se domnívají, že upřednostnil hledání alternativy, protože parametry této křivky by mohly potenciálně obsahovat zadní vrátka. Místo toho protokol Bitcoinu používá standardní křivku **_secp256k1_**. Tato křivka je definována parametry $a = 0$ a $b = 7$. Její rovnice je tedy:
+Přesto se Satoshi Nakamoto, tvůrce Bitcoinu, rozhodl tuto křivku nepoužít. Důvod tohoto rozhodnutí není znám, ale někteří se domnívají, že upřednostnil hledání alternativy, protože parametry této křivky by mohly potenciálně obsahovat zadní vrátka. Místo toho protokol Bitcoinu používá standardní křivku **_[secp256k1](https://planb.academy/resources/glossary/secp256k1)_**. Tato křivka je definována parametry $a = 0$ a $b = 7$. Její rovnice je tedy:
 
 $$
 y^2 = x^3 + 7
@@ -730,11 +730,11 @@ https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 :::video id=2fddfb16-5ae3-41da-92f8-ef5d09789804:::
 
-Jak bylo dříve viděno, algoritmy digitálního podpisu v Bitcoinu jsou založeny na páru privátních a veřejných klíčů, které jsou matematicky propojeny. Pojďme společně prozkoumat, jaký je tento matematický vztah a jak jsou generovány.
+Jak bylo dříve viděno, algoritmy digitálního podpisu v Bitcoinu jsou založeny na páru privátních a [veřejných klíčů](https://planb.academy/resources/glossary/public-key), které jsou matematicky propojeny. Pojďme společně prozkoumat, jaký je tento matematický vztah a jak jsou generovány.
 
 ### Privátní klíč
 
-Privátní klíč je jednoduše náhodné nebo pseudonáhodné číslo. V případě Bitcoinu je toto číslo 256 bitů velké. Počet možností pro privátní klíč Bitcoinu je tedy teoreticky $2^{256}$.
+[Privátní klíč](https://planb.academy/resources/glossary/private-key) je jednoduše náhodné nebo pseudonáhodné číslo. V případě Bitcoinu je toto číslo 256 bitů velké. Počet možností pro privátní klíč Bitcoinu je tedy teoreticky $2^{256}$.
 **Poznámka**: "Pseudo-náhodné číslo" je číslo, které má vlastnosti blízké skutečně náhodnému číslu, ale je generováno deterministickým algoritmem.
 Nicméně, v praxi existuje na naší eliptické křivce secp256k1 pouze $n$ rozlišitelných bodů, kde $n$ je řád generátorového bodu $G$ křivky. Později uvidíme, co toto číslo odpovídá, ale jednoduše si zapamatujte, že platný soukromý klíč je celé číslo mezi $1$ a $n-1$, vědě, že $n$ je číslo blízké, ale mírně menší než $2^{256}$. Proto existují některá 256-bitová čísla, která nejsou platná pro stání se soukromým klíčem v Bitcoinu, konkrétně všechna čísla mezi $n$ a $2^{256}$. Pokud generování náhodného čísla (soukromý klíč) produkuje hodnotu $k$ takovou, že $k \geq n$, je považováno za neplatné a musí být vygenerována nová náhodná hodnota.
 
@@ -903,7 +903,7 @@ $$
 e = \text{HASH}(m)
 $$
 
-Dále vypočítáme nonce. V kryptografii je nonce jednoduše číslo generované náhodně nebo pseudonáhodně, které se použije pouze jednou. To znamená, že pokaždé, když je s tímto párem klíčů vytvořen nový digitální podpis, bude velmi důležité použít jiný nonce, jinak to ohrozí bezpečnost soukromého klíče. Je tedy dostatečné určit náhodné a unikátní celé číslo $r$ tak, aby $1 \leq r \leq n-1$, kde $n$ je řád generujícího bodu $G$ eliptické křivky.
+Dále vypočítáme [nonce](https://planb.academy/resources/glossary/nonce). V kryptografii je nonce jednoduše číslo generované náhodně nebo pseudonáhodně, které se použije pouze jednou. To znamená, že pokaždé, když je s tímto párem klíčů vytvořen nový digitální podpis, bude velmi důležité použít jiný nonce, jinak to ohrozí bezpečnost soukromého klíče. Je tedy dostatečné určit náhodné a unikátní celé číslo $r$ tak, aby $1 \leq r \leq n-1$, kde $n$ je řád generujícího bodu $G$ eliptické křivky.
 
 Poté vypočítáme bod $R$ na eliptické křivce s koordináty $(x_R, y_R)$ tak, že:
 
@@ -1109,8 +1109,8 @@ Tyto dva příznaky sighash by nabídly na Bitcoinu další možnost: vytvářen
 
 ![CYP201](assets/en/037.webp)
 
-Tento nápad byl původně formulován Josephem Poonem a Thaddeem Dryjou v bílé knize Lightning Network. Před přejmenováním byl tento příznak sighash nazván `SIGHASH_NOINPUT`.
-Pokud bude tento příznak sighash integrován do Bitcoinu, umožní použití covenants, ale je také nezbytným předpokladem pro implementaci Eltoo, obecného protokolu pro druhé vrstvy, který definuje, jak společně spravovat vlastnictví UTXO. Eltoo bylo speciálně navrženo k řešení problémů spojených s mechanismy pro vyjednávání o stavu Lightning kanálů, tj. mezi otevřením a zavřením.
+Tento nápad byl původně formulován Josephem Poonem a Thaddeem Dryjou v bílé knize [Lightning Network](https://planb.academy/resources/glossary/lightning-network). Před přejmenováním byl tento příznak sighash nazván `SIGHASH_NOINPUT`.
+Pokud bude tento příznak sighash integrován do Bitcoinu, umožní použití [covenants](https://planb.academy/resources/glossary/covenant), ale je také nezbytným předpokladem pro implementaci Eltoo, obecného protokolu pro druhé vrstvy, který definuje, jak společně spravovat vlastnictví UTXO. Eltoo bylo speciálně navrženo k řešení problémů spojených s mechanismy pro vyjednávání o stavu Lightning kanálů, tj. mezi otevřením a zavřením.
 
 Pro prohloubení vašich znalostí o Lightning Network, po kurzu CYP201, vřele doporučuji kurz LNP201 od Fanise Michalakise, který téma podrobně pokrývá:
 
@@ -1153,14 +1153,14 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HD Peněženky (_Hierarchical Deterministic_)
 
-Aby se překonalo omezení JBOK peněženek, byla následně využita nová struktura peněženky. V roce 2012 Pieter Wuille představil vylepšení s BIP32, které zavádí hierarchické deterministické peněženky. Princip HD peněženky spočívá v odvození všech soukromých klíčů z jediného zdroje informací, nazývaného semínko, deterministickým a hierarchickým způsobem. Toto semínko je generováno náhodně při vytvoření peněženky a představuje unikátní zálohu, která umožňuje rekreaci všech soukromých klíčů peněženky. Tímto způsobem může uživatel generovat velmi velké množství soukromých klíčů, aby se vyhnul opakovanému používání adres a zachoval své soukromí, zatímco potřebuje udělat jedinou zálohu své peněženky prostřednictvím semínka.
+Aby se překonalo omezení JBOK peněženek, byla následně využita nová struktura peněženky. V roce 2012 Pieter Wuille představil vylepšení s [BIP32](https://planb.academy/resources/glossary/bip0032), které zavádí hierarchické deterministické peněženky. Princip HD peněženky spočívá v odvození všech soukromých klíčů z jediného zdroje informací, nazývaného semínko, deterministickým a hierarchickým způsobem. Toto semínko je generováno náhodně při vytvoření peněženky a představuje unikátní zálohu, která umožňuje rekreaci všech soukromých klíčů peněženky. Tímto způsobem může uživatel generovat velmi velké množství soukromých klíčů, aby se vyhnul opakovanému používání adres a zachoval své soukromí, zatímco potřebuje udělat jedinou zálohu své peněženky prostřednictvím semínka.
 ![CYP201](assets/en/039.webp)
 
 V HD peněženkách se odvození klíčů provádí podle hierarchické struktury, která umožňuje klíče organizovat do odvozovacích podprostorů, přičemž každý podprostor je dále dělitelný, aby se usnadnilo správa finančních prostředků a interoperabilita mezi různými softwary peněženek. Dnes je tento standard přijat většinou uživatelů Bitcoinu. Z tohoto důvodu se mu budeme v následujících kapitolách podrobně věnovat.
 
 ### Standard BIP39: Mnemonická Fráze
 
-Kromě BIP32 standardizuje BIP39 formát seedu jako mnemonickou frázi, aby usnadnil zálohování a čitelnost uživateli. Mnemonická fráze, také nazývaná obnovovací fráze nebo 24-slovní fráze, je sekvence slov vybraných z předdefinovaného seznamu, která bezpečně kóduje seed peněženky.
+Kromě BIP32 standardizuje BIP39 formát [seedu](https://planb.academy/resources/glossary/seed) jako mnemonickou frázi, aby usnadnil zálohování a čitelnost uživateli. Mnemonická fráze, také nazývaná obnovovací fráze nebo 24-slovní fráze, je sekvence slov vybraných z předdefinovaného seznamu, která bezpečně kóduje seed peněženky.
 Mnemonická fráze výrazně zjednodušuje zálohování pro uživatele. V případě ztráty, poškození nebo krádeže zařízení hostícího peněženku umožňuje pouhé znalosti této mnemonické fráze obnovit peněženku a získat zpět přístup ke všem finančním prostředkům, které jsou jí zajištěny.
 
 V nadcházejících kapitolách prozkoumáme vnitřní fungování HD peněženek, včetně mechanismů derivace klíčů a různých možných hierarchických struktur. To vám umožní lépe pochopit kryptografické základy, na kterých je založena bezpečnost finančních prostředků na Bitcoinu. A začneme v další kapitole, kde navrhuji objevit roli entropie v základu vaší peněženky.
@@ -1171,7 +1171,7 @@ V nadcházejících kapitolách prozkoumáme vnitřní fungování HD peněžene
 
 :::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
 
-Moderní HD peněženky (deterministické a hierarchické) spoléhají na jediný počáteční kus informace nazývaný "entropie" pro deterministické generování celé sady klíčů peněženky. Tato entropie je pseudo-náhodné číslo, jehož úroveň chaosu částečně určuje bezpečnost peněženky.
+Moderní HD peněženky (deterministické a hierarchické) spoléhají na jediný počáteční kus informace nazývaný "[entropie](https://planb.academy/resources/glossary/entropy)" pro deterministické generování celé sady klíčů peněženky. Tato entropie je pseudo-náhodné číslo, jehož úroveň chaosu částečně určuje bezpečnost peněženky.
 
 ### Definice Entropie
 
@@ -1200,7 +1200,7 @@ V další kapitole uvidíme, jak přejdeme od náhodného čísla k mnemonické 
 
 :::video id=6218472e-b965-484f-b56b-e363f65d2827:::
 
-Mnemonická fráze, také nazývaná "seed fráze", "recovery fráze", "tajná fráze" nebo "24-slovní fráze", je sekvence obvykle složená ze 12 nebo 24 slov, která je generována z entropie. Používá se k deterministickému odvození všech klíčů HD peněženky. To znamená, že z této fráze je možné deterministicky generovat a znovu vytvořit všechny soukromé a veřejné klíče Bitcoinové peněženky a tím pádem přistupovat k fondům, které jsou s ní chráněny. Účelem mnemonické fráze je poskytnout prostředek pro zálohování a obnovu bitcoinů, který je zároveň bezpečný a snadno použitelný. Do standardů byla zavedena v roce 2013 s BIP39.
+Mnemonická fráze, také nazývaná "seed fráze", "recovery fráze", "tajná fráze" nebo "24-slovní fráze", je sekvence obvykle složená ze 12 nebo 24 slov, která je generována z entropie. Používá se k deterministickému odvození všech klíčů HD peněženky. To znamená, že z této fráze je možné deterministicky generovat a znovu vytvořit všechny soukromé a veřejné klíče Bitcoinové peněženky a tím pádem přistupovat k fondům, které jsou s ní chráněny. Účelem mnemonické fráze je poskytnout prostředek pro zálohování a obnovu bitcoinů, který je zároveň bezpečný a snadno použitelný. Do standardů byla zavedena v roce 2013 s [BIP39](https://planb.academy/resources/glossary/bip0039).
 Pojďme společně objevit, jak přejít od entropie k mnemonické frázi.
 
 ### Kontrolní součet
@@ -1510,7 +1510,7 @@ Tyto jsou první 4 bajty HASH160 hashe rodičovského veřejného klíče, kter�
 
 Tento index označuje pozici klíče mezi jeho rodičovskými potomky. Předpona `0x80` naznačuje, že klíč je odvozen tvrdě (hardened způsobem), a protože zbytek je vyplněn nulami, naznačuje to, že tento klíč je první mezi jeho možnými sourozenci.
 
-- **Chain code**: `C605DF9FBD77FD6965BD02B77831EC5C78646AD3ACA14DC3984186F72633A893`
+- **[Chain code](https://planb.academy/resources/glossary/chain-code)**: `C605DF9FBD77FD6965BD02B77831EC5C78646AD3ACA14DC3984186F72633A893`
 - **Veřejný klíč**: `03772CCB99F4EF346078D167065404EED8A58787DED31BFA479244824DF5065805`
 - **Kontrolní součet**: `1F067C3A`
 
@@ -1720,11 +1720,11 @@ Cesta derivace se tedy vztahuje k sekvenci indexů použitých k odvození děts
 
 Tato hloubka odpovídá hlavnímu soukromému klíči a hlavnímu řetězovému kódu peněženky. Je reprezentována notací $m/$.
 
-**Hloubka 1: Účel (BIP43)**
-Cíl určuje logickou strukturu odvození. Například adresa P2WPKH bude mít na hloubce 1 $/84'/$ (podle BIP84), zatímco adresa P2TR bude mít $/86'/$ (podle BIP86). Tato vrstva usnadňuje kompatibilitu mezi peněženkami tím, že udává indexová čísla odpovídající číslům BIP.
+**Hloubka 1: Účel ([BIP43](https://planb.academy/resources/glossary/bip0043))**
+Cíl určuje logickou strukturu odvození. Například adresa P2WPKH bude mít na hloubce 1 $/84'/$ (podle [BIP84](https://planb.academy/resources/glossary/bip0084)), zatímco adresa P2TR bude mít $/86'/$ (podle [BIP86](https://planb.academy/resources/glossary/bip0086)). Tato vrstva usnadňuje kompatibilitu mezi peněženkami tím, že udává indexová čísla odpovídající číslům BIP.
 Jinými slovy, jakmile máte hlavní klíč a hlavní řetězec kódů, slouží tyto jako rodičovský pár klíčů pro odvození dětského páru klíčů. Index použitý v tomto odvození může být například $/84'/$, pokud je peněženka určena k použití skriptů typu SegWit v0. Tento pár klíčů je pak na hloubce 1. Jeho úlohou není uzamknout bitcoiny, ale sloužit pouze jako orientační bod v hierarchii odvození.
 
-**Hloubka 2: Typ měny (BIP44)**
+**Hloubka 2: Typ měny ([BIP44](https://planb.academy/resources/glossary/bip0044))**
 
 Z páru klíčů na hloubce 1 se provádí nové odvození, aby se získal pár klíčů na hloubce 2. Tato hloubka umožňuje rozlišení účtů Bitcoinu od ostatních kryptoměn ve stejné peněžence.
 
@@ -1795,7 +1795,7 @@ V následující kapitole objevíme, co jsou to "*output script descriptors*", c
 
 Často se říká, že mnemonická fráze sama o sobě stačí k obnovení přístupu k peněžence. Ve skutečnosti jsou věci trochu složitější. V předchozí kapitole jsme se podívali na strukturu derivace HD peněženky a možná jste si všimli, že tento proces je poměrně složitý. Derivační cesty říkají softwaru, kterým směrem se má ubírat k odvození klíčů uživatele. Při obnově Bitcoinové peněženky však, pokud tyto cesty neznáme, není mnemonická fráze sama o sobě dostatečná. Umožňuje získat hlavní klíč a hlavní řetězový kód, ale je pak nutné znát indexy použité k dosažení dětských klíčů.
 
-Teoreticky by bylo nutné uložit nejen mnemonickou frázi naší peněženky, ale také cesty k účtům, které používáme. V praxi je často možné znovu získat přístup k dětským klíčům bez těchto informací, pokud byly dodrženy standardy. Testováním každého standardu po jednom je obecně možné znovu získat přístup k bitcoinům. Nicméně to není zaručené a je to zejména pro začátečníky složité. Také s diverzifikací typů skriptů a vznikem složitějších konfigurací by se tyto informace mohly stát obtížně extrapolovatelnými, čímž by se tyto údaje proměnily v soukromé informace a obtížně obnovitelné hrubou silou. To je důvod, proč byla nedávno představena inovace, která začíná být integrována do vašeho oblíbeného softwaru pro peněženky: *output script descriptors*.
+Teoreticky by bylo nutné uložit nejen mnemonickou frázi naší peněženky, ale také cesty k účtům, které používáme. V praxi je často možné znovu získat přístup k dětským klíčům bez těchto informací, pokud byly dodrženy standardy. Testováním každého standardu po jednom je obecně možné znovu získat přístup k bitcoinům. Nicméně to není zaručené a je to zejména pro začátečníky složité. Také s diverzifikací typů skriptů a vznikem složitějších konfigurací by se tyto informace mohly stát obtížně extrapolovatelnými, čímž by se tyto údaje proměnily v soukromé informace a obtížně obnovitelné hrubou silou. To je důvod, proč byla nedávno představena inovace, která začíná být integrována do vašeho oblíbeného softwaru pro peněženky: *[output script descriptors](https://planb.academy/resources/glossary/output-script-descriptors)*.
 
 ### Co je "descriptor"?
 
@@ -1848,13 +1848,13 @@ Je právě v *scriptPubKey*, kde se nacházejí přijímací adresy. Nicméně j
 
 
 
-| Standard             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| Standard             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _[witness](https://planb.academy/resources/glossary/scriptwitness)_ |
 | -------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
 | P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
 | P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
-| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Libovolná data | |
-| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
-| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| [P2SH](https://planb.academy/resources/glossary/p2sh)                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Libovolná data | |
+| [P2WPKH](https://planb.academy/resources/glossary/p2wpkh)               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| [P2WSH](https://planb.academy/resources/glossary/p2wsh)                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
 | P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
 | P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
@@ -1918,7 +1918,7 @@ Tento model skriptu byl představen v první verzi Bitcoinu Satoshi Nakamotem. S
 
 **P2PKH (*Pay-to-PubKey-Hash*)**:
 
-Stejně jako P2PK, skript P2PKH byl představen při spuštění Bitcoinu. Na rozdíl od svého předchůdce uzamkne bitcoiny pomocí hashe veřejného klíče, namísto přímého použití surového veřejného klíče. *scriptSig* musí poté poskytnout veřejný klíč spojený s přijímací adresou, stejně jako platný podpis. Adresy odpovídající tomuto modelu začínají číslem `1` a jsou kódovány v *base58check*. Tento skript také patří do standardu "*Legacy*".
+Stejně jako P2PK, skript P2PKH byl představen při spuštění Bitcoinu. Na rozdíl od svého předchůdce uzamkne bitcoiny pomocí hashe veřejného klíče, namísto přímého použití surového veřejného klíče. *scriptSig* musí poté poskytnout veřejný klíč spojený s přijímací adresou, stejně jako platný podpis. Adresy odpovídající tomuto modelu začínají číslem `1` a jsou kódovány v *[base58check](https://planb.academy/resources/glossary/base58check)*. Tento skript také patří do standardu "*Legacy*".
 
 **P2SH (*Pay-to-Script-Hash*)**:
 
@@ -1927,7 +1927,7 @@ Zavedený v roce 2012 s BIP16, model P2SH umožňuje použití hash hodnoty libo
 **P2WPKH (*Pay-to-Witness-PubKey-Hash*)**:
 
 Tento skript je podobný P2PKH, protože také zamyká bitcoiny pomocí hash hodnoty veřejného klíče. Na rozdíl od P2PKH je však *scriptSig* přesunut do samostatné sekce nazývané "*Witness*". Někdy se tomu říká "*scriptWitness*", aby se označila sada obsahující podpis a veřejný klíč. Každý SegWit vstup má svůj vlastní *scriptWitness*, a sbírka *scriptWitnesses* tvoří pole *Witness* transakce. Tento přesun dat o podpisu je inovace zavedená aktualizací SegWit, zaměřená zejména na prevenci manipulovatelnosti transakcí kvůli podpisům ECDSA.
-Adresy P2WPKH používají kódování *bech32* a vždy začínají `bc1q`. Tento typ skriptu odpovídá výstupům SegWit verze 0.
+Adresy P2WPKH používají kódování *[bech32](https://planb.academy/resources/glossary/bech32-and-bech32m)* a vždy začínají `bc1q`. Tento typ skriptu odpovídá výstupům SegWit verze 0.
 
 **P2WSH (*Pay-to-Witness-Script-Hash*)**:
 

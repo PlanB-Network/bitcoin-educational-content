@@ -1,5 +1,6 @@
 ---
-term: BITVM
+term: BitVM
 
+definition: Protokol yang memungkinkan komputasi off-chain arbitrer dengan kemungkinan sengketa on-chain, memperluas kemampuan Bitcoin.
 ---
 Protokol yang diperkenalkan oleh Robin Linus pada tahun 2023, yang bertujuan untuk memperluas kemampuan pengembangan aplikasi Bitcoin. BitVM memungkinkan operasi komputasi dilakukan secara sewenang-wenang dan menggunakan komputasi ini untuk mengarahkan bitcoin yang terlibat. Protokol ini melibatkan pemindahan semua komputasi di luar rantai sementara memungkinkan komputasi untuk diperebutkan secara _on-chain_ jika pihak lain mengklaim hasil yang curang. Dengan demikian, BitVM menyediakan Bitcoin dengan kemampuan komputasi yang hampir mendekati Turing, tanpa memerlukan modifikasi pada tingkat konsensus. BitVM mereplikasi perilaku gerbang logika `NAND` melalui penggunaan gabungan opcode `OP_BOOLAND` (yang dengan sendirinya mereplikasi perilaku gerbang logika `AND`) dan `OP_NOT` (yang mereplikasi perilaku gerbang logika `NOT`). Memang, gerbang logika `NAND` ini dapat digunakan dalam rantai untuk mereplikasi perilaku semua gerbang logika yang ada. Inilah yang disebut "gerbang universal". Dengan demikian, serangkaian gerbang logika `NAND` dapat mereplikasi rangkaian komputasi apa pun. Ide dari BitVM adalah untuk menyimpan rangkaian komputasi `NAND` ini sebagai daun dalam MAST dari transaksi Taproot.

@@ -1,0 +1,9 @@
+question: กลไกใดที่สามารถใช้โหลดสแน็ปช็อตของชุด UTXO เพื่อทำให้โหนดพร้อมใช้งานได้อย่างรวดเร็ว?
+answer: assumeutxo
+wrong_answers:
+  - assumechainstate
+  - txindex
+  - notxindex
+explanation: |
+  Assumeutxo โหลดสแนปช็อตของชุด UTXO เพื่อให้โหนดเริ่มทำงานได้อย่างรวดเร็ว ในขณะที่สร้างชุด UTXO ที่สมบูรณ์ขึ้นใหม่ในพื้นหลัง
+reviewed: true

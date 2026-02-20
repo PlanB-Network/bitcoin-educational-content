@@ -1,0 +1,10 @@
+question: Hvilken teknisk innovasjon ble innlemmet i Namecoin-kryptovalutaen i oktober 2011?
+answer: Sammenslått mining
+wrong_answers:
+  - GPU-resistent mining
+  - Pålitelige noder
+  - Bevis på eierandel
+explanation: |
+ Sammenslåtte mining er en prosess der arbeidet som er gjort på en "moderkjede" (dvs. Bitcoin), gjenbrukes for å validere mindre "hjelpekjeder". Denne prosessen ble
+ foreslått i BitDNS-diskusjonen av Satoshi selv. Kombinert mining ble aktivert i Namecoin-nettverket den 8. oktober 2011, på blokknivå 19 200.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Co znamená zkratka RPOW?
+answer: Reusable Proofs of Work
+wrong_answers:
+  - Recursive Proofs of Work
+  - Random Proofs of Work
+  - Replayed Proofs of Work
+explanation: |
+  RPOW označuje opakovaně použitelné a směnitelné důkazy práce, navržené Halem Finneyem v roce 2004.
+reviewed: false

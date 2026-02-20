@@ -1,0 +1,8 @@
+question: ¿Cuál es la respuesta más adecuada cuando una aplicación Bitcoin encuentra un error de entrada no válido, como recibir un valor negativo para un campo que sólo requiere números enteros positivos?
+answer: Rechazar la entrada y devolver una indicación de error a la persona que llama
+wrong_answers:
+  - Convierte el valor negativo a su valor absoluto y continúa el proceso
+  - Registrar el error pero continuar con la operación utilizando un valor por defecto
+  - Finalizar toda la aplicación inmediatamente para evitar la corrupción de datos
+explanation: |
+  Los errores de entrada no válida representan violaciones del contrato entre el llamante y la función, donde los parámetros proporcionados no cumplen los requisitos de la función. El enfoque correcto es rechazar la entrada y devolver una indicación de error, permitiendo a quien llama manejar la situación apropiadamente. Convertir valores negativos en positivos enmascara silenciosamente el error y podría conducir a un comportamiento no deseado. Utilizar valores por defecto ignora la intención de quien llama y puede procesar datos incorrectos. Terminar la aplicación entera es excesivo para fallos de validación de entrada y crearía una pobre experiencia de usuario en aplicaciones Bitcoin donde el manejo de errores con gracia es crucial.

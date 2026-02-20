@@ -1,6 +1,7 @@
 ---
 term: BIP
 
+definition: Bitcoin Improvement Proposal. Muodollinen prosessi, jonka avulla yhteisö voi ehdottaa, keskustella ja dokumentoida Bitcoin-protokollan parannuksia.
 ---
 Lyhenne sanoista "Bitcoin Improvement Proposal" Bitcoin-parannusehdotus (Bitcoin Improvement Proposal, BIP) on virallinen prosessi, jossa ehdotetaan ja dokumentoidaan parannuksia ja muutoksia Bitcoin-protokollaan ja sen standardeihin. Koska Bitcoinissa ei ole keskusyksikköä, joka päättäisi päivityksistä, BIP:t antavat yhteisölle mahdollisuuden ehdottaa, keskustella ja toteuttaa parannuksia jäsennellysti ja avoimesti. Jokaisessa BIP:ssä esitetään yksityiskohtaisesti ehdotetun parannuksen tavoitteet, perustelut, mahdolliset vaikutukset yhteensopivuuteen sekä edut ja haitat. Kuka tahansa yhteisön jäsen voi kirjoittaa BIP:t, mutta niiden on oltava muiden kehittäjien ja Bitcoin Core GitHub -tietokantaa ylläpitävien toimittajien hyväksymiä: Bryan Bishop, Jon Atack, Luke Dashjr, Mark Erhardt (Murch), Olaoluwa Osuntokun ja Ruben Somsen. On kuitenkin tärkeää ymmärtää, että näiden henkilöiden rooli BIP:n muokkaamisessa ei tarkoita, että he hallitsevat Bitcoinia. Jos joku ehdottaa parannusta, jota ei hyväksytä virallisessa BIP-kehyksessä, hän voi silti esittää sen suoraan Bitcoin-yhteisölle tai jopa luoda haaran, joka sisältää hänen muutoksensa. BIP-prosessin etuna on sen muodollisuus ja keskittäminen, jotka helpottavat keskustelua Bitcoin-käyttäjien välisen hajaannuksen välttämiseksi ja pyrkivät toteuttamaan päivitykset yhteisymmärryksessä. Loppujen lopuksi taloudellisen enemmistön periaate määrää vallan dynamiikan protokollan sisällä.
 
@@ -33,6 +34,5 @@ Rajatarkastusohjelmat käyvät läpi erilaisia vaiheita elinkaarensa aikana. Tä
 - Aktiivinen: Ainoastaan prosessin rajatarkastusasemien osalta tämä tila annetaan, kun tietty yhteisymmärrys on saavutettu;
 - Korvattu / vanhentunut: Rajatarkastusasema ei ole enää sovellettavissa tai se on korvattu uudemmalla ehdotuksella, joka tekee sen tarpeettomaksi.
 
-![](../../dictionnaire/assets/25.webp)
 
-> ► *BIP on lyhenne sanoista "Bitcoin Improvement Proposal". Ranskaksi se voidaan kääntää "Proposition d'amélioration de Bitcoin". Useimmissa ranskankielisissä teksteissä lyhennettä "BIP" käytetään kuitenkin suoraan yleisenä substantiivina, joskus feminiinissä, joskus maskuliinissa.*
+

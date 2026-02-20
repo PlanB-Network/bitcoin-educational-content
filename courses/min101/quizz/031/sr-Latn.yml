@@ -1,0 +1,9 @@
+question: Koji je poslednji halving prema protokolu?
+answer: 33.
+wrong_answers:
+  - 21.
+  - 38.
+  - 64.
+explanation: |
+  33. halving, na visini 6 930 000, okončaće subvenciju bloka jer će ona pasti ispod minimalne jedinice.
+reviewed: false

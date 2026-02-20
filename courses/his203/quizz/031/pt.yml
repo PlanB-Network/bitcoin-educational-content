@@ -1,0 +1,9 @@
+question: Que cooperativa mining excedeu brevemente a taxa de hash de rede de 50% no verão de 2011?
+answer: Deepbit
+wrong_answers:
+  - Deepbit
+  - Piscina do Slush
+  - GHash.io
+explanation: |
+ De acordo com a OrganOfCorti, a taxa de hash medida pela Deepbit foi de 52,86% em 5 de agosto.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Koji je najkritičniji izazov oporavka sa kojim se korisnici suočavaju kada se njihova sredstva upravljaju putem Greenlight-ove cloud-based Lightning node arhitekture?
+answer: Korisnicima bi bila potrebna tehnička stručnost da pokrenu nezavisne Core Lightning čvorove i obnove stanja kanala bez Greenlight infrastrukture.
+wrong_answers:
+  - "Korisnici gube pristup svojim privatnim ključevima koji su isključivo pohranjeni na serverima Blockstream-a"
+  - "Stanja kanala su šifrovana korišćenjem Greenlight-ovih vlasničkih ključeva što čini oporavak sredstava matematički nemogućim"
+  - "Lightning kanali automatski ističu nakon 30 dana bez Greenlight-ovih kontinuiranih usluga održavanja"
+explanation: |
+  Tačan odgovor ističe stvarnu tehničku složenost povraćaja sredstava u Greenlight-ovoj arhitekturi. Iako korisnici zadržavaju svoje privatne ključeve, pristup sredstvima bez Greenlight-a zahteva pokretanje Core Lightning čvorova i ručno obnavljanje stanja kanala - proces koji je izvan mogućnosti većine korisnika. Pogrešni odgovori su netačni jer: korisnici zaista kontrolišu svoje privatne ključeve (nisu pohranjeni na serverima), stanja kanala koriste standardne Lightning protokole (ne vlasničku enkripciju), i Lightning kanali nemaju automatske tajmere isteka vezane za pružaoce usluga.

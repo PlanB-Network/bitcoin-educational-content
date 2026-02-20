@@ -1,6 +1,7 @@
 ---
-term: CÓDIGO QR
+term: Código QR
 
+definition: Código de barras bidimensional utilizado para transmitir fácilmente direcciones de Bitcoin y otra información.
 ---
 Tipo de código de barras bidimensional que pueden escanear rápidamente los dispositivos móviles. El código QR almacena información en forma de píxeles blancos y negros dispuestos en un cuadrado sobre fondo blanco. Una característica importante de los códigos QR es que incorporan códigos de corrección de errores BCH, que permiten restaurar los datos aunque el código QR esté parcialmente oscurecido.
 

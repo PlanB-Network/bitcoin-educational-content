@@ -1,24 +1,25 @@
 ---
-term: ANONSETS (IBIMENYETSO VY'UBUTAMENYEKANA)
+term: Anonsets (anonymity sets)
+definition: Ibimenyetso byapima umwanya w'ubwiyunge bwa UTXO hagati mu bihumbi y'UTXO bitazitegekezwa mu mahoro, ubwiyunge bwa coinjoin.
 ---
+Anonsets zikoreshwa nk’ibipimo vyo gupima urugero rw’ibanga rwa UTXO imwe. Mu buryo bwihariye, zipima umubare wa UTXO zidashobora gutandukanywa mu mugwi ushizemwo igice kiri kwigwa. Kubera ko bisaba kugira umugwi wa UTXO zimeze kimwe, anonsets zisanzwe zibariwe mu ruzitiro rwa coinjoins. Zishobora kandi, igihe bikenewe, gukoreshwa mu kugereranya ireme rya coinjoins. Anonset nini isobanura urugero rwo hejuru rw’ubutamenyekana, kuko bigorana gutandukanya UTXO imwe mu mugwi.
 
-Anonsets ni ibimenyetso bikoreshwa mu gusuzuma urugero rw'ubuzima bwite bwa UTXO yihariye. Mu buryo bubereye, bapima ingene UTXO zidashobora gutandukanywa ziri muri iyo nkuru irimwo Coin iriko irigwa. Kubera ko umugwi w’ama UTXO asa n’ayo usabwa, anonsets muri rusangi ziharurwa mu gihe c’uruziga rw’ama coinjoins. Bifasha mu gusuzuma uburyo CoinJoin imeze, n’ibice binini vy’abantu batamenyekana vyerekana ko umuntu atamenyekana cane, bikaba bigoye gukurikirana canke gutandukanya UTXO yihariye mu mugwi. Hari ubwoko bubiri bw’ibimenyetso:
+Hari ubwoko bubiri bwa anonsets: forward anonset (forward-looking metrics); n’inyuma yayo backward anonset (backward-looking metrics). Ijambo "*score*" na ryo rimwe na rimwe rikoreshwa mu kwita anonsets.
 
-**Imbere Anonset**
-
-**Inyuma Anonset**
-
-
-Irya mbere ryerekana ubunini bw'umugwi muri wo umusaruro wasuzumwe UTXO uhishijwe, hakurikijwe inyungu UTXO. Isuzuma ubuzima bwite bwa Coin n’isesengura riva muri kahise rikaja muri iki gihe (input → output). Mu congereza, izina ry’ico kigereranyo ni “*forward anonset*,” canke “*ibipimo vy’imbere*.”
+Icambere yerekana ingano y’umugwi UTXO iri kwigwa mu gusohoka yihishamwo, uzi UTXO yinjira. Iki kimenyetso gifasha gupima ukuntu ibanga ry’ico gice rihangana n’isesengura riva mu gihe ca kera rija mu gihe ca none (kuva ku kwinjira gushika ku gusohoka). Icigira kabiri yerekana umubare w’inkomoko zishoboka z’ico gice, uzi UTXO isohoka. Iki kimenyetso gifasha gupima ukuntu ibanga ry’ico gice rihangana n’isesengura riva mu gihe ca none rija mu gihe ca kera (kuva ku gusohoka gushika ku kwinjira).
 
 
-![](../../dictionnaire/assets/39.webp)
 
 
-Ica kabiri kigaragaza umubare w'inkomoko zishoboka ku Coin, hakurikijwe umusaruro UTXO. Isuzuma ubuzima bwite n’isesengura riva muri iki gihe rikaja muri kahise (isohoka → injiza). Mu congereza, izina ry’ico kigereranyo ni “*inyuma anonset*,” canke “*ibipimo vy’inyuma*.”
 
 
-![](../../dictionnaire/assets/40.webp)
 
 
-> ► *Mu gifaransa, muri rusangi vyemewe gukoresha ijambo “anonset.” Ariko rero, ryoshobora guhindurwa ngo “ensemble d’anonymat” canke “potentiel d’anonymat.” Mu congereza no mu gifaransa, ijambo “amanota” rimwe na rimwe rikoreshwa kandi mu kwerekeza ku bintu bitaboneka (amanota y’imbere n’amanota y’inyuma).*
+
+
+
+
+
+
+
+

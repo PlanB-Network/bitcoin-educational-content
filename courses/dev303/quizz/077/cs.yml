@@ -1,0 +1,8 @@
+question: Co se stane, když zavoláte lock() na mutexu v Rust, a proč mnoho vývojářů považuje za přijatelné tuto operaci rozbalit?
+answer: Vrací výsledek, který může selhat, pokud jiné vlákno zpanikařilo, zatímco drželo mutex, a rozbalení je přijatelné, protože nelze rozumně ošetřit chyby způsobené panikou jiných vláken
+wrong_answers:
+  - Vrací možnost, která může být None, pokud je mutex obsazen, a rozbalení je přijatelné, protože obsazené mutexy by měly způsobit okamžité ukončení programu
+  - Vrací Výsledek, který může selhat kvůli detekci deadlocku, a rozbalení je přijatelné, protože deadlocky indikují zásadní chyby v návrhu, které by měly vyvolat paniku
+  - Vždy uspěje a vrátí přímo strážce zámku, takže rozbalování není nutné, protože operace s mutexy jsou v Rust zaručeně bezpečné pro vlákna
+explanation: |
+  Při volání funkce lock() na mutexu vrací Rust výsledek, protože operace může selhat, pokud jiné vlákno při držení mutexu zpanikaří a zanechá jej v otráveném stavu. Vzniká tak jedinečná situace, kdy váš místní kód obdrží chybu za něco, co se stalo v kontextu úplně jiného vlákna. Vzhledem k tomu, že chybu, která vznikla v důsledku paniky jiného vlákna, nemůžete rozumně zpracovat ani se z ní zotavit, považuje mnoho vývojářů za přijatelné zámky mutexů rozbalovat, zejména v kódových bázích bez paniky. Ostatní možnosti jsou nesprávné, protože mutexy nevracejí možnosti pro obsazené stavy, nemají zabudovanou detekci deadlocků, která způsobuje selhání Result, a operace se ne vždy podaří kvůli mechanismu poison.

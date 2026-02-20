@@ -1,0 +1,9 @@
+question: Lần halving cuối cùng theo giao thức là lần thứ mấy?
+answer: Lần thứ 33
+wrong_answers:
+  - Lần thứ 21
+  - Lần thứ 38
+  - Lần thứ 64
+explanation: |
+  Lần halving thứ 33, tại chiều cao 6.930.000, sẽ chấm dứt trợ cấp khối vì nó sẽ giảm xuống dưới đơn vị tối thiểu.
+reviewed: false

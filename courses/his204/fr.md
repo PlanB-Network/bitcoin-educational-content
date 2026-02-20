@@ -27,7 +27,7 @@ L’objectif de cette formation est d’explorer les origines françaises du con
 Dans cette première section, nous plongeons dans le contexte historique du tournant des XVIIe et XVIIIe siècles, marqué par les excès de la monarchie absolue et les premiers appels à une gestion plus juste et rationnelle des affaires publiques. À travers les figures de Vauban, Boisguilbert et Cantillon, nous découvrirons des critiques précoces de l’interventionnisme étatique et une première esquisse de ce que deviendra plus tard l’économie politique libérale.
 
 **Section 3 : Les Réformateurs et Penseurs du Début 18e Siècle**
-Cette section s’intéresse à ceux qui, dans les premières décennies du XVIIIe siècle, ont tenté de réformer l’économie française à la lumière de principes nouveaux. De l’abbé de Saint-Pierre au marquis d’Argenson, en passant par Gournay et ses disciples, ces penseurs proposent de démanteler les obstacles corporatistes, de libéraliser les échanges et de promouvoir la concurrence comme moteur du développement. Leurs propositions, souvent audacieuses, préfigurent les grandes idées physiocratiques.
+Cette section s’intéresse à ceux qui, dans les premières décennies du XVIIIe siècle, ont tenté de réformer l’économie française à la lumière de principes nouveaux. De l’Abbé de Saint-Pierre au marquis d’Argenson, en passant par Gournay et ses disciples, ces penseurs proposent de démanteler les obstacles corporatistes, de libéraliser les échanges et de promouvoir la concurrence comme moteur du développement. Leurs propositions, souvent audacieuses, préfigurent les grandes idées physiocratiques.
 
 **Section 4 : L'École Physiocratique**
 Cette section est consacrée à l’un des moments culminants de la pensée économique française : l’école physiocratique. Nous étudierons ses origines, ses fondements doctrinaux et ses principales réalisations, en nous concentrant sur des figures comme Quesnay et Dupont de Nemours. C’est ici que le laissez-faire devient un système cohérent, reposant sur l’idée d’un ordre naturel auquel l’État doit se soumettre pour garantir la prospérité de tous.
@@ -100,12 +100,12 @@ Tels sont donc les quatre principes que le pouvoir suit depuis plusieurs décenn
 
 Aujourd’hui que la pression fiscale continue de croître dans notre pays, au risque d’étouffer les forces économiques nationales, des voix s’élèvent pour réclamer un changement. Consciemment ou inconsciemment, c’est sur le travail d’économistes français, qui, depuis le XVIIe siècle, ont critiqué la fiscalité française, toujours chaotique, toujours despotique, toujours excessive, que se fondent communément ces projets de réforme. 
 
-Premier dans l’ordre chronologique de ces réformateurs de l’impôt, et non moins dans celui du mérite, est le grand maréchal Sébastien Le Prestre Vauban, célèbre constructeur des places fortes et des citadelles.
+Premier dans l’ordre chronologique de ces réformateurs de l’impôt, et non moins dans celui du mérite, est le grand Maréchal Sébastien Le Prestre Vauban, célèbre constructeur des places fortes et des citadelles.
 
 ![image](assets/fr/008.webp)
 
 
-Comme nous l’avons malheureusement oublié, Vauban le militaire fut également un économiste. Il s’intéressa au sort des masses et proposa en 1695 (Projet de capitation) puis 1707 (Projet d’une dime royale) une réforme audacieuse de la fiscalité : remplacer la plupart des impôts existants par une taxe proportionnelle au revenu, une flat tax avant l’heure.
+Comme nous l’avons malheureusement oublié, Vauban le militaire fut également un économiste. Il s’intéressa au sort des masses et proposa en 1695 (Projet de capitation) puis 1707 (Projet d’une dîme royale) une réforme audacieuse de la fiscalité : remplacer la plupart des impôts existants par une taxe proportionnelle au revenu, une _flat tax_ avant l’heure.
 
 ![image](assets/fr/009.webp)
 
@@ -130,11 +130,11 @@ Il comprenait que la fiscalité oppressive et désincitative accablait les paysa
 
 Vauban voyait juste, car comme nous le savons aujourd’hui, l’Ancien Régime était marqué par une fiscalité irrationnelle et abusivement rigoureuse. C’est cette fiscalité, injuste dans sa distribution, et donc abusive dans son poids, que Vauban ambitionna de vaincre.
 
-La solution proposée par Vauban, un impôt proportionnel, une flat tax sur tous les revenus, permettrait à l’impôt de se répartir entre toutes les classes de citoyens. Fondée sur une théorie de l’Etat qui expliquait que l’intervention de la puissance publique était légitime car elle seule pouvait protéger les droits des personnes et la propriété de chacun, sa réforme fiscale faisait contribuer tous les Français à l’effort, en proportion stricte de leur revenu : chacun paierait par exemple 10% de ses revenus.
+La solution proposée par Vauban, un impôt proportionnel, une _flat tax_ sur tous les revenus, permettrait à l’impôt de se répartir entre toutes les classes de citoyens. Fondée sur une théorie de l’Etat qui expliquait que l’intervention de la puissance publique était légitime car elle seule pouvait protéger les droits des personnes et la propriété de chacun, sa réforme fiscale faisait contribuer tous les Français à l’effort, en proportion stricte de leur revenu : chacun paierait par exemple 10% de ses revenus.
 
 Dans son projet de Dîme royale, le seul de ses mémoires qui fut imprimé de son vivant, Vauban écrivit de manière tout à fait claire : 
 
-> Comme tous ceux qui composent un État, ont besoin de sa protection pour subsister, […] il est raisonnable que tous contribuent aussi selon leurs revenus, à ses dépenses et à son entretien […]. Rien n’est donc si injuste que d’exempter de cette contribution ceux qui sont le plus en état de la payer, pour en rejeter le fardeau sur les moins accommodés qui succombent sous le poids ; lequel serait d’ailleurs très léger s’il était porté par tous à proportion des forces d’un chacun ; d’où il suit que toute exemption à cet égard est un désordre qui doit être corrigé.
+> Comme tous ceux qui composent un État, ont besoin de sa protection pour subsister, […] il est raisonnable que tous contribuent aussi selon leurs revenus, à ses dépenses et à son entretien […]. Rien n’est donc si injuste que d’exempter de cette contribution ceux qui sont le plus en état de la payer, pour en rejeter le fardeau sur les moins accommodés qui succombent sous le poids ; lequel serait d’ailleurs très léger s’il était porté par tous à proportion des forces de chacun ; d’où il suit que toute exemption à cet égard est un désordre qui doit être corrigé.
 
 Peu avant sa mort, son idée fut suivie par les ministres de Louis XIV. Seulement, Vauban réclamait que l’impôt proportionnel soit instauré pour remplacer la totalité ou la quasi-totalité de la fiscalité existante. À la place, comme on fait souvent, on mit en place son impôt, mais on conserva tous les autres.
 
@@ -174,7 +174,7 @@ Et la liberté est bien sa conclusion finale. "Il n’est pas question d’agir,
 
 Ce dernier passage est crucial. Boisguilbert est le premier à réclamer distinctement une politique économique de laissez-faire, à en faire son credo, et à bâtir un véritable système autour de cette notion. Selon lui, il existe un ordre naturel des choses, et il convient de ne pas le corrompre, de ne pas le détruire, par des interventions publiques intempestives. L’Etat ne doit pas agir en ce qui concerne l’économie, mais laisser agir, sous peine de causer la misère. 
 
-Boisguilbert en veut aux "bonnes âmes", comme il dit, qui souhaitent le bonheur du peuple mais s’y prennent tout de travers. Ils souhtaient le bas prix du pain pour le peuple, mais ce bas prix forcé empêche les cultivateurs de vivre de leur travail, il les ruine, les chasse de leurs terres et les précipite dans la misère. C’est en effet, on le sait bien, de bonnes intentions qu’est pavé l’enfer.
+Boisguilbert en veut aux "bonnes âmes", comme il dit, qui souhaitent le bonheur du peuple mais s’y prennent tout de travers. Ils souhaitent le bas prix du pain pour le peuple, mais ce bas prix forcé empêche les cultivateurs de vivre de leur travail, il les ruine, les chasse de leurs terres et les précipite dans la misère. C’est en effet, on le sait bien, de bonnes intentions qu’est pavé l’enfer.
 
 ## Cantillon 
 <chapterId>bc206d41-6a64-5688-a489-40fcfa0e5397</chapterId>
@@ -200,13 +200,13 @@ On peut résumer à cinq domaines les grands mérites de l’Essai de Cantillon 
 
 Premier point, la théorie de la richesse. Contrairement au mercantilisme, dominant en son temps, Cantillon fonde son analyse sur la reconnaissance du fait que les produits propres à la jouissance de l’homme forment la richesse. Cette richesse provient de la nature et en est tirée par le travail de l’homme. Son analyse de la nature des richesses a très fortement influencé Beccaria et Adam Smith, et à travers ce dernier toute l’école classique anglaise.
 
-Deuxième point, Cantillon voit dans l’entrepreneur, bien que défini peu précisément, l’acteur principal et comme central de l’activité économique. Chez Cantillon, ce qui caractérise l’entrepreneur, c’est qu’il est un preneur de risque, c’est qui agit dans l’incertitude. Par ces idées sur l’entrepreneur, Cantillon a initié une tendance qui s’épanouira avec Turgot, et plus encore avec Say, pour enfin reconnaître à l’entrepreneur une place à part dans l’économie, contrairement cette fois-ci aux affirmations de l’école anglaise. 
+Deuxième point, Cantillon voit dans l’entrepreneur, bien que défini peu précisément, l’acteur principal et comme central de l’activité économique. Chez Cantillon, ce qui caractérise l’entrepreneur, c’est qu’il est un preneur de risque, c’est qu'il agit dans l’incertitude. Par ces idées sur l’entrepreneur, Cantillon a initié une tendance qui s’épanouira avec Turgot, et plus encore avec Say, pour enfin reconnaître à l’entrepreneur une place à part dans l’économie, contrairement cette fois-ci aux affirmations de l’école anglaise. 
 
 Troisième point, la monnaie. En réaction à l’expérience de John Law, Cantillon nous explique ce qui arrive ou ce qui doit arriver lorsque la monnaie est sans valeur réelle. 
 
 ![image](assets/fr/017.webp)
 
-Il voit deux principales conséquences de la substitution d’une monnaie sans valeur réelle comme le papier-monnaie à une monnaie métallique. La première conséquence, c’est ce qu’il appelle le "rejet par les peuples", et qui signifie une défiance croissante envers la monnaie sans valeur. La seconde conséquence, c’est l’inflation. L’affaiblissement monétaire enchérit les marchandises.
+Il voit deux principales conséquences de la substitution d’une monnaie sans valeur réelle comme le papier-monnaie à une monnaie métallique. La première conséquence, c’est ce qu’il appelle le "rejet par les peuples", et qui signifie une défiance croissante envers la monnaie sans valeur. La seconde conséquence, c’est [l’inflation](https://planb.academy/resources/glossary/inflation). L’affaiblissement monétaire enchérit les marchandises.
 
 Dans son analyse de l’inflation, Cantillon va plus loin que ses contemporains, et c’est notre quatrième point. Observateur de la faillite du système de Law, Cantillon avait pu se convaincre du fait que les effets de l’inflation monétaire étaient loin d’être uniformes : tandis qu’elle enrichissait les uns, elle appauvrissait les autres. Il en conclut que l’inflation ne touche pas chacun uniformément : selon les canaux de transmission que la nouvelle monnaie emprunte, l’inflation a un effet redistributif. Ceux qui bénéficient le plus tôt de cette nouvelle monnaie profitent d’un pouvoir d’achat supplémentaire, tandis que les derniers utilisateurs, confrontés à l’inflation qui s’est installé peu à peu, s’appauvrissent par l’émission monétaire nouvelle.
 
@@ -216,23 +216,23 @@ Parmi ces cinq grandes idées de son Essai, la plus importante est certainement 
 
 
 
-# Les Réformateurs et Penseurs du Début 18e Siècle
+# Les Réformateurs et Penseurs du Début XVIIIe Siècle
 <partId>1f7b50d4-ce93-5db3-8396-43c1fa5419ff</partId>
-## L’abbé de Saint-Pierre
+## L’Abbé de Saint-Pierre
 <chapterId>13478fe2-4c12-593c-a410-54c2cfb7ef7f</chapterId>
 
 :::video id=8d4e110f-ea4b-450b-b702-3acf86d6362c:::
 
-De tous les auteurs que nous avons sélectionné pour rejoindre le panthéon des penseurs français du laissez-faire au XVIIIe siècle, l’abbé de Saint-Pierre est sans aucun doute le plus méconnu. 
+De tous les auteurs que nous avons sélectionnés pour rejoindre le panthéon des penseurs français du laissez-faire au XVIIIe siècle, l’Abbé de Saint-Pierre est sans aucun doute le plus méconnu. 
 
 ![image](assets/fr/018.webp)
 
-C’est un peu de sa faute, parce qu’il a beaucoup, beaucoup écrit, et qu’il est assez pénible à lire, se répétant sans cesse. Jean-Jacques Rousseau essaya de résumer ses ouvrages ; il commença à le faire, mais abandonna assez vite cette tâche, car il comprit qu’elle était au-dessus de ses forces. Au milieu du XIXe siècle, Gustave de Molinari a fait beaucoup d’honneur à l’abbé de Saint-Pierre en publiant sur lui un ouvrage complet, dans lequel il rend hommage au pacifiste et à l’économiste qu’était l’abbé de Saint-Pierre. Mais cela n’a pas suffi pour le faire sortir de l’oubli car il y est encore plongé de nos jours.
+C’est un peu de sa faute, parce qu’il a beaucoup, beaucoup écrit, et qu’il est assez pénible à lire, se répétant sans cesse. Jean-Jacques Rousseau essaya de résumer ses ouvrages ; il commença à le faire, mais abandonna assez vite cette tâche, car il comprit qu’elle était au-dessus de ses forces. Au milieu du XIXe siècle, Gustave de Molinari a fait beaucoup d’honneur à l’Abbé de Saint-Pierre en publiant sur lui un ouvrage complet, dans lequel il rend hommage au pacifiste et à l’économiste qu’était l’Abbé de Saint-Pierre. Mais cela n’a pas suffi pour le faire sortir de l’oubli car il y est encore plongé de nos jours.
 
 ![image](assets/fr/019.webp)
 
 
-L’abbé de Saint-Pierre a écrit sur l’économie, mais c’est plutôt comme pacifiste que l’on s’intéresse d’habitude à lui. Il est l’auteur d’un Projet de paix perpétuelle, qui est antérieur à celui, bien connu, d’Emmanuel Kant.
+L’Abbé de Saint-Pierre a écrit sur l’économie, mais c’est plutôt comme pacifiste que l’on s’intéresse d’habitude à lui. Il est l’auteur d’un Projet de paix perpétuelle, qui est antérieur à celui, bien connu, d’Emmanuel Kant.
 
 ![image](assets/fr/020.webp)
 
@@ -240,21 +240,21 @@ Il y montre que les guerres sont destructives pour ceux qui les perdent comme po
 
 Pour lutter contre le fléau de la guerre, il recommande la constitution d’une sorte de ligue des nations européennes. Il se formerait un conseil européen où devraient se résoudre les problèmes des uns et des autres. On aurait donc recours à l’arbitrage, afin d’éviter d’en venir aux armes. Si une nation ne se montrait pas assez sage pour adopter la paix, si elle menaçait les autres nations européennes, l’entente européenne aurait de quoi répondre. On aurait recours, face à de tels évènements, à une armée européenne dont les forces seraient fournies par les différents pays.
 
-Il y a aussi, dans la vie de l’abbé de Saint-Pierre, un fait qui illustre bien l’intention critique qui est à la base de la démarche du laissez-faire français. Il était entré en 1695 à l’Académie française. Il en fut expulsé en 1718 pour avoir osé critiquer le bilan du règne de Louis XIV. En cela il est à rapprocher de Vauban et de Boisguilbert, qui ont osé parler de la misère populaire cachée sous le faste du règne du Roi Soleil. 
+Il y a aussi, dans la vie de l’Abbé de Saint-Pierre, un fait qui illustre bien l’intention critique qui est à la base de la démarche du laissez-faire français. Il était entré en 1695 à l’Académie française. Il en fut expulsé en 1718 pour avoir osé critiquer le bilan du règne de Louis XIV. En cela il est à rapprocher de Vauban et de Boisguilbert, qui ont osé parler de la misère populaire cachée sous le faste du règne du Roi Soleil. 
 
 ![image](assets/fr/021.webp)
 
-L’abbé de Saint-Pierre avait soutenu que le règne de Louis XIV, apogée du luxe de la cour et de l’esprit de conquête militaire, n’était pas celui d’un roi vertueux. Il refusait d’admettre que Louis XIV puisse mériter le titre de Louis le Grand. 
+L’Abbé de Saint-Pierre avait soutenu que le règne de Louis XIV, apogée du luxe de la cour et de l’esprit de conquête militaire, n’était pas celui d’un roi vertueux. Il refusait d’admettre que Louis XIV puisse mériter le titre de Louis le Grand. 
 
 
 
-Ruiner ses voisins et son peuple en même temps, ce n’est pas de la grandeur, disait-il. L’Académie française, qui avait fini par s’occuper à plein temps de faire des éloges du Roi, sous toutes les formes littéraires possibles, en fut très choquée et prononça à la quasi-unanimité le renvoi de l’abbé de Saint-Pierre.
+Ruiner ses voisins et son peuple en même temps, ce n’est pas de la grandeur, disait-il. L’Académie française, qui avait fini par s’occuper à plein temps de faire des éloges du Roi, sous toutes les formes littéraires possibles, en fut très choquée et prononça à la quasi-unanimité le renvoi de l’Abbé de Saint-Pierre.
 
 ![image](assets/fr/022.webp)
 
 En économie, il a toujours suivi le principe de l’utile, comme Bentham plus tard, et a fourni généralement de bons aperçus. Il était, c’est certain, encore imprégné de mercantilisme, à une époque où personne ne s’en était encore pleinement détaché. 
 
-Cependant, l’abbé de Saint-Pierre a aussi dit des choses très justes sur l’économie.
+Cependant, l’Abbé de Saint-Pierre a aussi dit des choses très justes sur l’économie.
 Avant Condillac, dont c’est l’un des principaux mérites, il a énoncé cette idée toute simple que dans un échange, les deux parties y gagnent. On la trouve dans son Projet pour perfectionner le Commerce de la France, qui date de 1733. Il y dit expressément :
 
 > Quand il se fait une vente entre marchands, le vendeur y gagne et l'acheteur aussi ; car, sans un gain réciproque et réel ou apparent, ni le vendeur ne vendrait à tel prix, ni l'acheteur, de son côté, n'achèterait à tel prix.
@@ -262,29 +262,29 @@ Avant Condillac, dont c’est l’un des principaux mérites, il a énoncé cett
 ![image](assets/fr/023.webp)
 
 
-Il a aussi mis l’accent, avant Vincent de Gournay, sur les vertus du travail et sur la nécessité de le laisser attractif. "Tout travail est pénible, dit l’abbé de Saint-Pierre, et lorsque l'homme voit que son travail ne lui rapporte pas ou ne lui rapporte pas suffisamment, il demeure oisif et ne se donne pas de peines inutiles." Ce même propos sera repris par le marquis d’Argenson, par Vincent de Gournay et par les physiocrates pour s’opposer aux règlements tatillons et au système corporatif. Les corporations et les règlements, dirent-ils, découragent le travailleur, lui causent des peines inutiles, et le poussent finalement dans l’oisiveté, qu’il finit par trouver préférable à une activité productive exercée dans ces conditions.
+Il a aussi mis l’accent, avant Vincent de Gournay, sur les vertus du travail et sur la nécessité de le laisser attractif. "Tout travail est pénible, dit l’Abbé de Saint-Pierre, et lorsque l'homme voit que son travail ne lui rapporte pas ou ne lui rapporte pas suffisamment, il demeure oisif et ne se donne pas de peines inutiles." Ce même propos sera repris par le Marquis d’Argenson, par Vincent de Gournay et par les physiocrates pour s’opposer aux règlements tatillons et au système corporatif. Les corporations et les règlements, dirent-ils, découragent le travailleur, lui causent des peines inutiles, et le poussent finalement dans l’oisiveté, qu’il finit par trouver préférable à une activité productive exercée dans ces conditions.
 
 ## Le Marquis d’Argenson
 <chapterId>e9960ab4-72ec-5afd-8e97-bf89c83b62bc</chapterId>
 
 :::video id=c29c1507-6990-411d-8446-ffaf52d97378:::
 
-Le marquis d’Argenson est un fondateur oublié de la doctrine du laissez-faire. 
+Le Marquis d’Argenson est un fondateur oublié de la doctrine du laissez-faire. 
 
 ![image](assets/fr/024.webp)
 
-Il a été redécouvert par August Oncken, auteur d’un livre sur la doctrine du laissez-faire laissez-passer, qui conclut au rôle majeur joué par d’Argenson dans la naissance de cette idée.
+Il a été redécouvert par August Oncken, auteur d’un livre sur la doctrine du laissez-faire laissez-passer, qui conclut au rôle majeur joué par le Marquis d’Argenson dans la naissance de cette idée.
 
 
 
-René-Louis Voyer, marquis d’Argenson, est né en 1694. Il commença dans la politique en servant en tant que conseiller au parlement, puis au Conseil d’État. 
-Trente ans avant Adam Smith, le marquis d’Argenson défendit les mérites de la division du travail et de la spécialisation. 
+René-Louis Voyer, Marquis d’Argenson, est né en 1694. Il commença dans la politique en servant en tant que conseiller au parlement, puis au Conseil d’État. 
+Trente ans avant Adam Smith, le Marquis d’Argenson défendit les mérites de la division du travail et de la spécialisation. 
 
 ![image](assets/fr/025.webp)
 
 Il critiqua fortement les règlements qui tendaient, disait-il, à modifier les préférences qu’on faisait dans chaque lieu. Ainsi il s’étonnait qu’on voulait faire fabriquer à Tours, une ville pauvre à l’époque, des draps et des velours aussi beaux qu’à Gènes, ville prospère, connue pour son luxe. Il concluait : "Il faut laisser à chaque lieu le choix des manufactures qui lui sont propres. Liberté ! Liberté !" 
 
-Il ne manqua pas non plus de reconnaître un autre principe central chez Smith, l’ordre spontané naissant de la recherche de l’intérêt personnel. Le marquis d’Argenson était convaincu qu’un intérêt direct et prochain stimule l’énergie de l’homme. Il écrivit que l’imperfection et la fraude discréditent le fabricant, et qu’au contraire la diligence et la bonne foi l’enrichissent. Le meilleur arbitre de l’utilité, disait-il encore, c’est l’individu, c’est la masse du public qui consomme et qui est intéressé à bien acheter. "Chacun sent son intérêt, écrivait-il, chacun prend les mesures qui lui sont profitables, et c’est dans cet accord général que nous découvrons la vérité."  
+Il ne manqua pas non plus de reconnaître un autre principe central chez Smith, l’ordre spontané naissant de la recherche de l’intérêt personnel. Le Marquis d’Argenson était convaincu qu’un intérêt direct et prochain stimule l’énergie de l’homme. Il écrivit que l’imperfection et la fraude discréditent le fabricant, et qu’au contraire la diligence et la bonne foi l’enrichissent. Le meilleur arbitre de l’utilité, disait-il encore, c’est l’individu, c’est la masse du public qui consomme et qui est intéressé à bien acheter. "Chacun sent son intérêt, écrivait-il, chacun prend les mesures qui lui sont profitables, et c’est dans cet accord général que nous découvrons la vérité."  
 
 Avant Adam Smith, il comprenait que l’intérêt personnel bien entendu menait à l’intérêt général par la construction d’un ordre naturel spontané. 
 
@@ -292,9 +292,9 @@ Avant Adam Smith, il comprenait que l’intérêt personnel bien entendu menait 
 
 Il comparait ainsi la société à une ruche d’abeilles où chaque où chaque insecte agit selon son instinct. Il résulte de leurs actions, disait-il précisément, un grand amas pour les besoins de la petite société ; mais cela ne s’est pas opéré par des ordres, ou des généraux, qui aient obligé chaque individu à suivre les vues de leur chef." Une telle formulation est la plus proche que l’on trouve dans les écrits économiques français de la célèbre main invisible d’Adam Smith.
 
-Le marquis d’Argenson fut toujours outré des idées que partageaient les ministres de l’époque. La seule question qu’ils posaient était : faut-il réglementer de cette manière ou de cette manière, conduire l’économie dans telle direction ou dans telle autre ?  N’y aurait-il pas lieu d’examiner auparavant, leur répondit d’Argenson, s’il convient de diriger toutes ces choses, ou de les laisser aller d’elles-mêmes ?
+Le Marquis d’Argenson fut toujours outré des idées que partageaient les ministres de l’époque. La seule question qu’ils posaient était : faut-il réglementer de cette manière ou de cette manière, conduire l’économie dans telle direction ou dans telle autre ?  N’y aurait-il pas lieu d’examiner auparavant, leur répondit le Marquis d’Argenson, s’il convient de diriger toutes ces choses, ou de les laisser aller d’elles-mêmes ?
  
-À vrai dire, d’Argenson s’étonnait qu’on ait tant de mal à comprendre ou plutôt à voir les mauvais effets des règlements de toute sorte sur l’économie. Il suffisait selon lui d’ouvrir les yeux pour les voir. Que de choses vont encore passablement aujourd’hui, notait-il amèrement, par la seule raison qu’elles ont échappé jusqu’à présent aux lois. Parfois, il désespérait de voir ses idées si peu comprises. 
+À vrai dire, le Marquis d’Argenson s’étonnait qu’on ait tant de mal à comprendre ou plutôt à voir les mauvais effets des règlements de toute sorte sur l’économie. Il suffisait selon lui d’ouvrir les yeux pour les voir. Que de choses vont encore passablement aujourd’hui, notait-il amèrement, par la seule raison qu’elles ont échappé jusqu’à présent aux lois. Parfois, il désespérait de voir ses idées si peu comprises. 
 
 ![image](assets/fr/027.webp)
 
@@ -302,11 +302,11 @@ L’idéal de politique économique qu’il défendait s’inscrivait donc contr
 
 Cette vision du rôle de l’État face à l’activité économique s’illustrait naturellement dans l’étude des deux grandes questions qui remuèrent les économistes et les penseurs sociaux de son temps : la réglementation de l’industrie et le commerce du blé.
 
-Les règlements sur l’industrie, d’abord, obtenaient tout son ressentiment, parce qu’ils étaient des privilèges pour les uns aux dépens des autres. "La vraie cause du déclin de nos fabriques, écrivait-il, c’est la protection outrée qu’on leur accorde". Et c’est avec un credo non moins vif qu’il exprimait sa critique face au zèle dirigiste des hommes d’état de son temps : 
+Les règlements sur l’industrie, d’abord, obtenaient tout son ressentiment, parce qu’ils étaient des privilèges pour les uns aux dépens des autres. "La vraie cause du déclin de nos fabriques, écrivait-il, c’est la protection outrée qu’on leur accorde". Et c’est avec un credo non moins vif qu’il exprimait sa critique face au zèle dirigiste des hommes d’État de son temps : 
 
 > Diriger l’industrie malgré elle, c’est vouloir sa ruine.
 
-Sur la question du commerce des subsistances, d’Argenson n’avait pas d’autre réponse que la liberté. Les disettes de froment venaient selon lui du monopole et des précautions abusives que prenait le gouvernement. Il suffisait qu’on laisse faire, et il n’arriverait jamais de disette de blé dans un pays où les ports seront ouverts ; les étrangers, attiré comme tous les autres hommes par l’appât du gain, nous fourniraient le nécessaire et emporteraient notre surplus. "Laissez libre, disait-il, et tout ira bien."
+Sur la question du commerce des subsistances, le Marquis d’Argenson n’avait pas d’autre réponse que la liberté. Les disettes de froment venaient selon lui du monopole et des précautions abusives que prenait le gouvernement. Il suffisait qu’on laisse faire, et il n’arriverait jamais de disette de blé dans un pays où les ports seront ouverts ; les étrangers, attirés comme tous les autres hommes par l’appât du gain, nous fourniraient le nécessaire et emporteraient notre surplus. "Laissez libre, disait-il, et tout ira bien."
 
 ## Vincent de Gournay
 <chapterId>e8ae40dc-7450-552f-9ddc-9e02936cf425</chapterId>
@@ -327,7 +327,7 @@ On a de lui (1) des Remarques sur une traduction d’un ouvrage de l’économis
 
 
 
-et (3) des "Observations sur la compagnie des Indes" jointes par l’abbé Morellet à son Mémoire sur la situation actuelle de la compagnie des Indes (1769). 
+et (3) des "Observations sur la compagnie des Indes" jointes par l’Abbé Morellet à son Mémoire sur la situation actuelle de la compagnie des Indes (1769). 
 
 
 
@@ -366,7 +366,7 @@ Comme nous l’avons vu lors de la précédente leçon, Gournay était fasciné 
 
 C’est ce qui l’incita à traduire et à faire traduire ces écrits économiques.
 
-Or il s’avérait que sa position dans la haute administration permettait à Gournay d’entrer en contact avec tous les spécialistes de l’économie que connaissait la France de l’époque. C’est ainsi qu’il constitua un groupe de traducteurs extrêmement capables. Gournay traduisit lui-même Child et Culpeper ; l’abbé Le Blanc traduisit les Discours politique de David Hume ; Véron de Forbonnais traduisit l’espagnol Geronymo de Uztariz ; Turgot traduisit Tucker ; Montesquieu fils traduisit Joshua Gee.
+Or il s’avérait que sa position dans la haute administration permettait à Gournay d’entrer en contact avec tous les spécialistes de l’économie que connaissait la France de l’époque. C’est ainsi qu’il constitua un groupe de traducteurs extrêmement capables. Gournay traduisit lui-même Child et Culpeper ; l’Abbé Le Blanc traduisit les Discours politiques de David Hume ; Véron de Forbonnais traduisit l’espagnol Geronymo de Uztariz ; Turgot traduisit Tucker ; Montesquieu fils traduisit Joshua Gee.
 
 Grâce à la collaboration de plusieurs membres du cercle de Gournay, de nombreux auteurs publièrent aussi des écrits sous leur nom. Ces livres, ainsi que les traductions, eurent un véritable succès. On peut citer notamment l’Essai sur la police générale des grains de Herbert (6 éditions en 4 ans),
 
@@ -382,19 +382,19 @@ On doit aussi au cercle de Gournay d’avoir lancé la publication de l’Essai 
 
 ![image](assets/fr/034.webp)
 
-Ce livre, composé vers 1730, était resté à l’état de manuscrit à la mort de l’auteur. C’est Gournay, aidé par ses amis économistes, qui en assura la publication en 1755. Selon l’abbé Morellet, membre du cercle, Gournay en recommanda la lecture à tous les économistes qu’il connaissait.
+Ce livre, composé vers 1730, était resté à l’état de manuscrit à la mort de l’auteur. C’est Gournay, aidé par ses amis économistes, qui en assura la publication en 1755. Selon l’Abbé Morellet, membre du cercle, Gournay en recommanda la lecture à tous les économistes qu’il connaissait.
 
 Ces productions intellectuelles du cercle de Gournay ont eu un impact considérable sur l’histoire des idées. À ce titre, le cercle de Gournay est à placer aux origines de la science économique en France. Christine Théré, de l’INED, a travaillé sur les publications économiques dans l’histoire, et elle montre que pas moins de 349 ouvrages d’économie furent publiés entre 1750 et 1759, contre seulement 83 entre 1740 et 1749. Cette révolution, dans la décennie 1750, est à mettre en grande partie au crédit du cercle de Gournay.
 
 ![image](assets/fr/035.webp)
 
-Pour diffuser le goût des discussions économiques dans la population française, Gournay et ses amis travaillèrent à rendre ces questions accessibles en utilisant le roman. C’est ainsi qu’après un Mémoire sur les corps de métiers, critiquant les corporations, Gournay et Cliquot-Blervache aidèrent l’abbé Coyer à écrire le texte connu sous le nom de Chinki : histoire cochinchinoise applicable à d’autres pays. 
+Pour diffuser le goût des discussions économiques dans la population française, Gournay et ses amis travaillèrent à rendre ces questions accessibles en utilisant le roman. C’est ainsi qu’après un Mémoire sur les corps de métiers, critiquant les corporations, Gournay et Cliquot-Blervache aidèrent l’Abbé Coyer à écrire le texte connu sous le nom de Chinki : histoire cochinchinoise applicable à d’autres pays. 
 
 ![image](assets/fr/036.webp)
 
 Il s’agit d’un court roman dans lequel le personnage principal, Chinki, abandonne ses terres à cause de la fiscalité excessive et cherche à trouver un travail artisanal pour ses enfants en ville. Or tous les métiers leur sont fermés à cause des règlements abusifs des corporations et il va ainsi de déception en déception, le tout avec humour.
 
-Le cercle de Gournay est donc à l’origine d’une intense activité de publication. Si cet apport majeur a été oublié par les historiens de la pensée économique, il était très clair dans l’esprit des contemporains. Les physiocrates, qui structurent leur école dans la décennie 1760, présenteront le groupe de Gournay comme des précurseurs directs. En 1767, l’économiste Jacques Accarias de Serionne sera encore plus clair dans son éloge. Il écrit : "Un petit nombre de français, également philosophes et citoyens, commencèrent il y a quelques années à imiter les écrivains anglais. Ils traduisirent d’abord leurs modèles, et les ont bientôt surpassés en beaucoup de choses. Ils ont employés tous les agréments, toutes les richesses de la littérature, à traiter des choses utiles ; ils ont fait naître et répandu le goût des sciences les plus nécessaires à la prospérité de l’État." Et en effet, dans la décennie 1750, les questions économiques sont devenues à la mode. On connaît le mot de Voltaire, selon lequel vers 1750 les Français ont abandonné les romans pour discuter de la liberté du commerce des blés. C’est aussi ce qu’observait le Mercure de France. On lit dans un numéro de 1758, quelques mois avant la mort de Gournay : "L’économie politique est aujourd’hui la science à la mode. Les livres qui traitent de l’Agriculture, de la population, de l’industrie, du commerce et des finances, sont dans les mains d’une infinité de personnes qui, naguère, ne feuilletaient que des romans." On ne pouvait donner meilleur hommage à Gournay et à l’activité de son cercle d’économistes.
+Le cercle de Gournay est donc à l’origine d’une intense activité de publication. Si cet apport majeur a été oublié par les historiens de la pensée économique, il était très clair dans l’esprit des contemporains. Les physiocrates, qui structurent leur école dans la décennie 1760, présenteront le groupe de Gournay comme des précurseurs directs. En 1767, l’économiste Jacques Accarias de Serionne sera encore plus clair dans son éloge. Il écrit : "Un petit nombre de français, également philosophes et citoyens, commencèrent il y a quelques années à imiter les écrivains anglais. Ils traduisirent d’abord leurs modèles, et les ont bientôt surpassés en beaucoup de choses. Ils ont employé tous les agréments, toutes les richesses de la littérature, à traiter des choses utiles ; ils ont fait naître et répandu le goût des sciences les plus nécessaires à la prospérité de l’État." Et en effet, dans la décennie 1750, les questions économiques sont devenues à la mode. On connaît le mot de Voltaire, selon lequel vers 1750 les Français ont abandonné les romans pour discuter de la liberté du commerce des blés. C’est aussi ce qu’observait le Mercure de France. On lit dans un numéro de 1758, quelques mois avant la mort de Gournay : "L’économie politique est aujourd’hui la science à la mode. Les livres qui traitent de l’Agriculture, de la population, de l’industrie, du commerce et des finances, sont dans les mains d’une infinité de personnes qui, naguère, ne feuilletaient que des romans." On ne pouvait donner meilleur hommage à Gournay et à l’activité de son cercle d’économistes.
 
 ## Mirabeau
 <chapterId>2d2f802b-e3b6-556f-9025-a1b1dc4409ca</chapterId>
@@ -409,7 +409,7 @@ Par son talent et sa place dans l’histoire de France, il a fait oublier son p�
 
 ![image](assets/fr/038.webp)
 
-Le marquis de Mirabeau avait d’ailleurs connu une immense célébrité avant même son adhésion à la Physiocratie. C’était en 1757, un an avant sa rencontre avec Quesnay, de par un livre intitulé L’Ami des Hommes. Traité de la population. 
+Le Marquis de Mirabeau avait d’ailleurs connu une immense célébrité avant même son adhésion à la Physiocratie. C’était en 1757, un an avant sa rencontre avec Quesnay, de par un livre intitulé L’Ami des Hommes. Traité de la population. 
 
 
 
@@ -479,7 +479,7 @@ Le réduire à cela, c’est un peu dommage, car Quesnay a aussi été le premie
 
 Nous parlerons plus en détail de la Physiocratie dans les trois prochains chapitres. Voyons d’abord François Quesnay lui-même.
 
-Il est né en 1694 à Méré, dans une famille de paysans où il n’apprit même pas à lire. Formé auprès d’un homme de son village, il fit tout de même des études : il entre au collège de chirurgie puis part à la faculté de médecine. À 24 ans, il devient chirurgien à Mantes. 
+Il est né en 1694 à Méré, dans une famille de paysans où il n’apprit même pas à lire. Formé auprès d’un homme de son village, il fit tout de même des études : il entre au collège de chirurgie puis part à la faculté de médecine. À 24 ans, il devient chirurgien à Mantes (Mantes-la-Jolie).
 
 Il devient célèbre en 1730, à 36 ans, en s’opposant à la saignée, pratique qui selon lui est le résultat de théories fausses et de préjugés. Il ose également défier le système des corporations, dans lequel les chirurgiens peuvent seuls faire les opérations et les médecins donner les médicaments ; dans de nombreux cas, le bas peuple devait payer deux fois, et faire venir deux personnes, ce qui révoltait Quesnay. 
 
@@ -534,9 +534,9 @@ Ses origines peuvent être trouvées dans le développement des idées économiq
 
 
 
-Le laissez-faire avait connu plusieurs défenseurs depuis Boisguilbert, en particulier Vincent de Gournay et le marquis d’Argenson.
+Le laissez-faire avait connu plusieurs défenseurs depuis Boisguilbert, en particulier Vincent de Gournay et le Marquis d’Argenson.
 
-Il restait à faire de cette masse d’idées une doctrine précise et complète. C’est le marquis de Mirabeau qui essaya le premier de le faire. Il prit pour modèle l’Essai de Cantillon et se lança dans l’écriture d’un traité complet sur les matières économiques qu’il intitula l’Ami des Hommes et qui eut un grand succès.
+Il restait à faire de cette masse d’idées une doctrine précise et complète. C’est le Marquis de Mirabeau qui essaya le premier de le faire. Il prit pour modèle l’Essai de Cantillon et se lança dans l’écriture d’un traité complet sur les matières économiques qu’il intitula l’Ami des Hommes et qui eut un grand succès.
 
 Nous sommes en 1756 ; l’histoire de la Physiocratie peut dès lors commencer. François Quesnay, chirurgien devenu médecin personnel de Mme de Pompadour, la favorite de Louis XV, invite Mirabeau à Versailles pour débattre de ses idées économiques. 
 
@@ -549,7 +549,7 @@ Au bout de la discussion, Mirabeau se range aux idées de Quesnay. Dès lors ils
 
 
 
-L’accueil fait à leurs efforts n’est pas excellent. À la cour, c’est l’indifférence qui prédomine. Le Roi reconnaît le goût de Quesnay pour les théories et l’appelle avec fierté "mon penseur". Mais outre cette marque d’affection, les travaux des deux économistes se soldent sur un échec. Avec la Théorie de l’impôt, ils parviennent même à se mettre à dos les administrateurs de l’impôt, durement critiqués dans le livre. Ceux-ci réclament et obtiennent que Mirabeau soit envoyé en prison. Madame de Pompadour l’en sortira mais il continuera quelques semaines un exil sur ses terres de Bignon. 
+L’accueil fait à leurs efforts n’est pas excellent. À la Cour, c’est l’indifférence qui prédomine. Le Roi reconnaît le goût de Quesnay pour les théories et l’appelle avec fierté "mon penseur". Mais outre cette marque d’affection, les travaux des deux économistes se soldent sur un échec. Avec la Théorie de l’impôt, ils parviennent même à se mettre à dos les administrateurs de l’impôt, durement critiqués dans le livre. Ceux-ci réclament et obtiennent que Mirabeau soit envoyé en prison. Madame de Pompadour l’en sortira mais il continuera quelques semaines un exil sur ses terres de Bignon. 
 
 ![image](assets/fr/049.webp)
 
@@ -608,7 +608,7 @@ Libéraux en économie, les Physiocrates ne l’étaient donc pas en matière po
 
 ![image](assets/fr/055.webp)
 
-Les Physiocrates, Tocqueville le remarque bien, ont repoussé la démocratie dès qu’ils en ont aperçu les formes. Ils sont septiques envers la démocratie : ce sera une constante dans l’économie politique française. Car la démocratie est loin d’être un système parfait : c’est potentiellement l’oppression des minorités par la majorité ; elle peut être un instrument d’usurpation, de tyrannie et de spoliation.
+Les Physiocrates, Tocqueville le remarque bien, ont repoussé la démocratie dès qu’ils en ont aperçu les formes. Ils sont sceptiques envers la démocratie : ce sera une constante dans l’économie politique française. Car la démocratie est loin d’être un système parfait : c’est potentiellement l’oppression des minorités par la majorité ; elle peut être un instrument d’usurpation, de tyrannie et de spoliation.
 
 ### Troisième principe : respect absolu de la propriété privée
 
@@ -671,7 +671,7 @@ Conscient de la perte de notoriété qu’ils étaient en train de connaître, T
 
 ![image](assets/fr/061.webp)
 
-Lors de la Révolution française, les Physiocrates n’étaient plus très nombreux. Après la mort du marquis de Mirabeau, le 13 juillet 1789 — tout un symbole —, il ne restait plus qu’Abeille, d’ailleurs éloigné désormais de la Physiocratie, et Dupont de Nemours, qui y resta toujours fidèle. Nommé à l’Assemblé, Dupont de Nemours porta la voix de la physiocratie et demanda des réformes économiques en faveur de la propriété et de la liberté du commerce. 
+Lors de la Révolution française, les Physiocrates n’étaient plus très nombreux. Après la mort du marquis de Mirabeau, le 13 juillet 1789 — tout un symbole —, il ne restait plus qu’Abeille, d’ailleurs éloigné désormais de la Physiocratie, et Dupont de Nemours, qui y resta toujours fidèle. Nommé à l’Assemblée, Dupont de Nemours porta la voix de la physiocratie et demanda des réformes économiques en faveur de la propriété et de la liberté du commerce. 
 
 ![image](assets/fr/062.webp)
 
@@ -813,7 +813,7 @@ Division du travail, souveraineté du consommateur, propriété privée, rôle d
 
 ![image](assets/fr/076.webp)
 
-Turgot a défendu la liberté du commerce des grains dans des lettres à l’abbé Terray, ensuite communiquées au Roi, mais dont la moitié est désormais perdue. Il écrit :
+Turgot a défendu la liberté du commerce des grains dans des lettres à l’Abbé Terray, ensuite communiquées au Roi, mais dont la moitié est désormais perdue. Il écrit :
 
 
 > Monsieur, si quelque chose presse, ce n’est pas de mettre de nouvelles entraves au commerce le plus nécessaire de tous ; c’est d’ôter celles qu’on a malheureusement laissé subsister.
@@ -821,7 +821,7 @@ Turgot a défendu la liberté du commerce des grains dans des lettres à l’abb
 
 
 
-En 1769, Turgot composa l’article Valeurs et monnaie, pour le Dictionnaire de Commerce de l’abbé Morellet, qui finalement ne paraîtra jamais. Galiani avait déjà remarqué que "l’homme est la commune mesure de toute chose", préfigurant cette analyse subjective que conduira Turgot trente ans plus tard dans cet article, où celui-ci développe cette proposition et la prouve.
+En 1769, Turgot composa l’article Valeurs et monnaie, pour le Dictionnaire de Commerce de l’Abbé Morellet, qui finalement ne paraîtra jamais. Galiani avait déjà remarqué que "l’homme est la commune mesure de toute chose", préfigurant cette analyse subjective que conduira Turgot trente ans plus tard dans cet article, où celui-ci développe cette proposition et la prouve.
 
 En 1770, bien avant Bentham, Turgot compose un mémoire réclamant la liberté du taux de l’intérêt et de l’usure. 
 
@@ -829,7 +829,7 @@ En 1770, bien avant Bentham, Turgot compose un mémoire réclamant la liberté d
 
 "C'est une erreur de croire que l'intérêt de l'argent dans le commerce doive être fixé par les lois des princes, dit-il : c'est un prix courant qui se règle de lui-même, comme celui de toutes les autres marchandises." Pour défendre cette position, il réfute l’opposition d’Aristote et celle des pères de l’Eglise.
 
-On trouve dans un écrit oublié de 1773, une lettre à l’abbé Terray sur la marque des fers, un résumé remarquable de la doctrine du laissez-faire telle que l’entendait Turgot:
+On trouve dans un écrit oublié de 1773, une lettre à l’Abbé Terray sur la marque des fers, un résumé remarquable de la doctrine du laissez-faire telle que l’entendait Turgot:
 
 > Ce que doit faire la politique est de s’abandonner au cours de la nature et au cours du commerce, non moins nécessaire, non moins irrésistible que le cours de la nature, sans prétendre le diriger ; parce que, pour le diriger sans le déranger et sans se nuire à soi-même, il faudrait pouvoir suivre toutes les variations des besoins, des intérêts, de l’industrie des hommes ; il faudrait les connaître dans un détail qu’il est physiquement impossible de se procurer, et sur lequel le gouvernement le plus habile, le plus actif, le plus détailleur, risquera toujours de se tromper au moins de la moitié."
 
@@ -847,7 +847,7 @@ Comme nous l’avons rapidement rappelé dans le chapitre précédent, Turgot es
 ![image](assets/fr/079.webp)
 
 Son père était prévôt des marchands de Paris et son grand-père intendant. Après de brillantes études, le dernier né des Turgot entend atteindre au minimum ces fonctions. 
-Il est d’abord un temps maître des requêtes, c’est-à-dire correspondant des intendants à Versailles. C’est un poste prestigieux, pour lequel il a du d’ailleurs obtenir une dispense d’âge, mais Turgot voit plus grand. La mort de son maitre Gournay l’incite d’ailleurs à viser plus haut et il sollicite du pouvoir un poste d’intendant.
+Il est d’abord un temps maître des requêtes, c’est-à-dire correspondant des intendants à Versailles. C’est un poste prestigieux, pour lequel il a du d’ailleurs obtenir une dispense d’âge, mais Turgot voit plus grand. La mort de son maître Gournay l’incite d’ailleurs à viser plus haut et il sollicite du pouvoir un poste d’intendant.
 
 En 1759 il demande d’abord l'intendance de Grenoble, mais elle lui est refusée. On lui propose à la place le poste de prévôt des marchands de Lyon, il décline. Il demande l'intendance de Bretagne, refusée également. Finalement en 1761 on lui propose le Limousin, et il accepte, un peu résigné. Il écrit à Voltaire : "j'ai le malheur d'être intendant" ;  peut-être en voulant dire : j'ai le malheur d'être intendant en Limousin. 
 
@@ -879,7 +879,7 @@ Turgot prépara six édits pour réformer l’économie française.
 
 C’était la première fois, et déjà l’une des dernières, où un spécialiste de l’économie était doté de la liberté d’action pour réformer l’économie de son pays. Trois de ces édits sont majeurs : l’un supprime les corvées, l’autre supprime les corporations, le troisième enfin établit la liberté du commerce des grains.
 
-À son entrée au ministère, Turgot savait qu’il devrait composer avec la résistance des privilégiés. "Je serai craint, haï même de la plus grande partie de la cour, de tout ce qui sollicite des grâces" avait-il dit au Roi. Les privilégiés se coalisèrent contre lui et causèrent son renvoi du Contrôle général des finances. Voltaire, tout acquis aux réformes de Turgot, écrira dans sa correspondance : 
+À son entrée au ministère, Turgot savait qu’il devrait composer avec la résistance des privilégiés. "Je serai craint, haï même de la plus grande partie de la Cour, de tout ce qui sollicite des grâces" avait-il dit au Roi. Les privilégiés se coalisèrent contre lui et causèrent son renvoi du Contrôle général des finances. Voltaire, tout acquis aux réformes de Turgot, écrira dans sa correspondance : 
 
 > Ah ! quelle funeste nouvelle j’apprends ! Que deviendrons-nous ? Je suis atterré ! Nous ne nous consolerons jamais d’avoir vu naître et périr l’âge d’or ! Ce coup de foudre m’est tombé sur la cervelle et sur le cœur.
 
@@ -902,7 +902,7 @@ Tout comme le mercantilisme, qui est sa manifestation pratique la plus évidente
 
 Ce sophisme, c’est l’idée que le commerce, l’échange, est un jeu à somme nulle. Tout ce qu’un agent gagne dans un échange, est forcément perdu par celui avec lequel il échange. Cela vaut, soutiennent ses partisans, aussi bien entre les individus qu’entre les nations.
 
-L’abbé de Condillac a joué un rôle majeur pour détruire définitivement cette idée fausse. 
+L’Abbé de Condillac a joué un rôle majeur pour détruire définitivement cette idée fausse. 
 
 
 
@@ -984,7 +984,7 @@ Bien qu’il employât toute son énergie à défendre Turgot, Condorcet n’ava
 
 :::video id=5e2e68a8-9fe7-4aeb-8ade-248ae4153523:::
 
-Dupont de Nemours était le plus jeune des disciples de François Quesnay, qui avait dit de lui : "Il faut soigner ce jeune homme, car il parlera quand nous serons morts." Quand sonna la Révolution française, tous les autres grands représentants de la Physiocratie étaient effectivement déjà morts, y compris le marquis de Mirabeau, qui s’arrangea pour s’éteindre le 13 juillet 1789. 
+Dupont de Nemours était le plus jeune des disciples de François Quesnay, qui avait dit de lui : "Il faut soigner ce jeune homme, car il parlera quand nous serons morts." Quand sonna la Révolution française, tous les autres grands représentants de la Physiocratie étaient effectivement déjà morts, y compris le Marquis de Mirabeau, qui s’arrangea pour s’éteindre le 13 juillet 1789. 
 
 Dupont de Nemours rédigea le cahier de doléance du baillage de Nemours. 
 
@@ -1006,7 +1006,7 @@ Il vaudrait mieux, dit-il, abandonner l’entreprise des banques aux lois de la 
 
 Cependant l’Assemblée passa outre ses critiques et fit un pas de plus dans la direction de l’établissement d’une banque centrale et dans l’instauration du monopole bancaire.
 
-En 1790, à l’Assemblé constituante, Dupont de Nemours suivra la fibre pacifiste de ses anciens amis Physiocrates et proposera un projet de loi interdisant les guerres offensives. On lisait dans le premier article :  "La Nation Française ne se permettra aucune guerre offensive pour s’emparer du territoire d’autrui, ni pour porter atteinte aux droits ou à la liberté d’aucune Nation." 
+En 1790, à l’Assemblée constituante, Dupont de Nemours suivra la fibre pacifiste de ses anciens amis Physiocrates et proposera un projet de loi interdisant les guerres offensives. On lisait dans le premier article :  "La Nation Française ne se permettra aucune guerre offensive pour s’emparer du territoire d’autrui, ni pour porter atteinte aux droits ou à la liberté d’aucune Nation." 
 Le projet de loi fut écarté. 
 
 En cette même année 1790, les débats commencèrent autour de l’émission d’un nouveau papier monnaie destiné à payer les dépenses de l’Etat.
@@ -1021,7 +1021,7 @@ Encore une fois, on passa outre son avis, et les assignats furent créés.
 
 ![image](assets/fr/093.webp)
 
-On sait quelle catastrophe, quelle ruine ils causèrent, et quelle fut aussi la misère du peuple, certains ayant tout perdu, quand il s’avéra que les assignats étaient sans valeur et qu’on devait se résigner à les bruler.
+On sait quelle catastrophe, quelle ruine ils causèrent, et quelle fut aussi la misère du peuple, certains ayant tout perdu, quand il s’avéra que les assignats étaient sans valeur et qu’on devait se résigner à les brûler.
 
 Quelques années plus tard, l’Assemblée s’occupa de réfléchir à la création d’une véritable banque de France, qui serait dotée d’un monopole sur la production de monnaie.
 
@@ -1052,7 +1052,7 @@ Vincent de Gournay affirme que la sur-réglementation du travail décourage les 
 
 
 
-Le marquis d’Argenson affirme qu’aucun gouvernement n’est capable de tout prévoir, de tout mesurer, et que par conséquent, il faut s’en remettre à l’intérêt personnel de chaque individu. 
+Le Marquis d’Argenson affirme qu’aucun gouvernement n’est capable de tout prévoir, de tout mesurer, et que par conséquent, il faut s’en remettre à l’intérêt personnel de chaque individu. 
 
 ![image](assets/fr/095.webp)
 

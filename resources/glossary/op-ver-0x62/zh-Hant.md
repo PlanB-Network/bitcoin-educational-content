@@ -1,5 +1,6 @@
 ---
 term: OP_VER (0X62)
+definition: 曾推入用戶端版本的已禁用Opcode，已轉換為 OP_SUCCESS。
 ---
 
 允許將用戶端的版本推送到堆疊上。這個操作碼被停用，因為如果使用它，每次更新都會導致 Hard Fork。BIP342 將此操作碼修改為 `OP_SUCCESS`。

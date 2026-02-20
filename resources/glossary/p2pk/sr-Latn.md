@@ -1,5 +1,6 @@
 ---
 term: P2PK
+definition: Skripta koja zaključava bitcoine direktno na javni ključ bez heširanja.
 ---
 
 P2PK označava *Pay to Public Key*. To je standardni model skripte korišćen na Bitcoin za uspostavljanje uslova trošenja na UTXO. Omogućava zaključavanje bitkoina direktno na javni ključ, umesto na Address.

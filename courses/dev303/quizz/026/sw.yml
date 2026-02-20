@@ -1,0 +1,8 @@
+question: Ni faida gani kuu ya enum za Rust kuweza kubeba data ndani ya kila aina?
+answer: Huzuia kutolingana kati ya viashiria vya aina na data inayohusiana kwa kuviunganisha pamoja
+wrong_answers:
+  - Inaruhusu enum kutekeleza kiotomatiki sifa zote za kawaida bila tamko dhahiri
+  - Inawezesha enum kutumika kama vigezo vya jumla katika chaguo au mbinu yoyote
+  - Inafanya enum kutumia kumbukumbu kidogo kuliko miundo ya kitamaduni yenye data sawa
+explanation: |
+  Viambatanisho vya Rust vinaweza kuambatanisha data moja kwa moja kwenye kila aina, ambayo huondoa hitilafu ya kawaida ya programu ya kudumisha vigeu tofauti kwa viashiria vya aina na data inayohusiana navyo. Muundo huu unahakikisha kwamba data inalingana na aina hiyo kila wakati, na kuzuia kutolingana ambako kunaweza kusababisha makosa ya wakati wa utekelezaji. Tofauti na lugha zingine ambapo unaweza kuwa na kiambatanisho tofauti kwa aina na vigeu vya data, Rust huunganisha kila kitu pamoja, na kufanya iwe vigumu kwa aina na data kutolingana.

@@ -1,0 +1,9 @@
+question: Mikä on Friedmanin näkökulman mukaan suurin ongelma siinä, että sosiaalipolitiikkaa arvioidaan sen julkilausuttujen aikomusten eikä sen todellisten tulosten perusteella?
+answer: Hyvää tarkoittavat politiikat aiheuttavat usein tahattomia seurauksia, kuten taloudellista riippuvuutta ja markkinavääristymiä, jotka ovat ristiriidassa niiden alkuperäisten tavoitteiden kanssa
+wrong_answers:
+  - Aikomuksia on liian vaikea mitata objektiivisesti verrattuna suoraviivaiseen politiikan tulosten arviointiin
+  - Poliitikot johtavat yleisöä tietoisesti harhaan todellisista aikomuksistaan, mikä tekee aikomuksiin perustuvasta arvioinnista pohjimmiltaan epäluotettavaa ja harhaanjohtavaa
+  - Aikomukset muuttuvat liian usein politiikan täytäntöönpanon aikana, mikä tekee niistä epävakaan perustan politiikan pitkän aikavälin arvioinnille
+explanation: |
+  Friedman väittää, että anteliaaseen tarkoitukseen tähtäävällä politiikalla voi olla tavoitteidensa vastaisia vääristyneitä vaikutuksia, kuten riippuvuuden luominen niiden keskuudessa, joita se koskee
+  joita pyritään auttamaan. Kysymys ei ole mittausvaikeuksista, poliittisesta petoksesta tai aikeiden muuttumisesta, vaan pikemminkin siitä, että hyvät aikeet eivät takaa myönteisiä tuloksia. Tämän vuoksi rakenteelliset määritelmät, joissa keskitytään havaittaviin ominaisuuksiin ja mitattaviin tuloksiin, ovat parempia kuin tarkoitukselliset määritelmät, jotka perustuvat ilmoitettuihin motiiveihin.

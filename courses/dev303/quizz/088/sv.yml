@@ -1,0 +1,8 @@
+question: Vilken grundläggande utmaning inom plattformsutveckling tar UniFFI itu med när man arbetar med Rust-bibliotek?
+answer: Behovet av att manuellt skapa anpassad bindningskod för varje målspråk vid exponering av Rust:s FFI på låg nivå
+wrong_answers:
+  - Rust kan inte kompilera till inbyggda binärfiler som kan köras på flera operativsystem
+  - Avsaknaden av minnessäkerhetsgarantier när Rust-kod interagerar med språk med garbage-collected
+  - "Prestandaöverskottet som introduceras när Rust:s ägarmodell översätts till referensräknade språk"
+explanation: |
+  UniFFI löser specifikt problemet med att manuellt skriva bindningskod för varje målspråk. När Rust kompileras till binär utdata producerar den en Foreign Function Interface (FFI) som är på låg nivå och utmanande att använda direkt från språk på högre nivå. Traditionellt sett har utvecklare varit tvungna att skriva anpassad bindningskod för varje målspråk (Python, Swift, Kotlin etc.), vilket har skapat betydande hinder för användning. UniFFI eliminerar denna redundans genom att automatiskt generera dessa bindningar genom sitt UDL-specifikationssystem.

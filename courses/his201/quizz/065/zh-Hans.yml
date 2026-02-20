@@ -1,8 +1,8 @@
-question: 谁在2010年11月创建了第一个区块浏览器？
+question: 2010 年 11 月第一个区块浏览器创建者是谁？
 answer: Michael Marquardt (Theymos)
 wrong_answers:
   - Jeff Garzik (jgarzik)
   - Nils Schneider (tcatm)
   - Pieter Wuille (sipa)
 explanation:
-  这个“比特币区块浏览器”允许用户通过网络浏览器查看有关区块、地址和交易的详细信息。
+  这个 “比特币区块浏览器” 允许用户通过网络浏览器查看相关区块、地址和交易的详细信息。

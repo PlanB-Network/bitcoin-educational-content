@@ -1,9 +1,9 @@
-question: Ni uwuhe muryango w’ugukwiragiza ukoresha umucungerezi w’amapaki ya RPM?
-answer: Inkofero itukura
+question: Ni uwuhe muryango wa distribution ukoresha ubutunganirizo bw’amapaki ya RPM?
+answer: Red Hat
 wrong_answers:
-  - Debiyani
+  - Debian
   - Arch
-  - Ibikoresho vy'ubugoyagoye
+  - Slackware
 explanation: |
-  Uburyo bwa RPM bwatangujwe na Red Hat kandi ni bwo bushingiyeko Fedora, RHEL, CentOS, AlmaLinux, Rocky Linux n’ibindi bikoresho bijanye.
-reviewed: false
+  Ubwoko bwa RPM bwatangujwe na Red Hat kandi nibwo shimikiro ya Fedora, RHEL, CentOS, AlmaLinux, Rocky Linux n’izindi distribution.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Prema ideji koju je sažeo Satoshi, koji je jedini način da se osigura odsustvo dvostruke potrošnje (double-spending)?
+answer: Poznavanje svih transakcija
+wrong_answers:
+  - Poznavanje svih aktivnih čvorova
+  - Poznavanje svih aktivnih rudara
+  - Poznavanje svih privatnih ključeva
+explanation: |
+  Dvostruka potrošnja se detektuje upoređivanjem transakcije sa prethodnim troškovima upisanim u zajednički registar.
+reviewed: false

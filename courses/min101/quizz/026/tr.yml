@@ -1,0 +1,9 @@
+question: Hangi Bitcoin Core parametresi varsayılan minimum relay eşiğini ayarlar?
+answer: minRelayTxFee
+wrong_answers:
+  - minConfirmTxFee
+  - relayTxWeight
+  - mempoolMinBits
+explanation: |
+  Düğümler yerel politikalar uygular ve Bitcoin Core, minimum relay eşiği için minRelayTxFee parametresini kullanır.
+reviewed: false

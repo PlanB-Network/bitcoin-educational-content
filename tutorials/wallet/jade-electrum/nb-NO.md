@@ -7,7 +7,7 @@ description: Slik bruker du Jade eller Jade Plus med Electrum (stasjonær)
 
 
 
-_Denne veiledningen er hentet fra en [Bitcoin Workshops-leksjon] (https://officinebitcoin.it/lezioni/jadeele/index.html)_
+_Denne veiledningen er hentet fra en [Bitcoin Workshops-leksjon](https://officinebitcoin.it/lezioni/jadeele/index.html)_
 
 
 

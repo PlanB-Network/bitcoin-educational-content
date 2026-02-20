@@ -1,0 +1,8 @@
+question: Hva er den viktigste egenskapen som gjør nedleggelser kraftige i Rust?
+answer: Deres evne til å fange opp variabler fra omgivelsene
+wrong_answers:
+  - Deres evne til å kjøre raskere enn vanlige funksjoner
+  - Deres evne til automatisk å håndtere minneallokering
+  - Deres evne til å kjøre kode i parallelle tråder
+explanation: |
+  Den grunnleggende egenskapen som gjør lukkinger kraftfulle, er deres evne til å "lukke over" omgivelsene sine, noe som betyr at de kan få tilgang til og bruke variabler som finnes i det området der lukkingen er definert. Denne evnen til å fange opp variabler gjør at lukninger kan opprettholde tilstand og kontekst fra omgivelsene de skapes i, noe som gjør dem mye mer fleksible enn vanlige funksjoner. Selv om closures kan optimaliseres med tanke på ytelse og brukes i trådkontekster, er dette sekundære fordeler - deres kjernekraft kommer fra innfanging av miljøvariabler.

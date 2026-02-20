@@ -1,0 +1,13 @@
+question: Was ist die grundlegende Mission von Bitcoin?
+answer: Ein zensurresistentes Wertübertragungsnetzwerk zu sein.
+wrong_answers:
+  - Traditionelle Währungen zu ersetzen.
+  - Transaktionen anonym zu machen.
+  - Eine neue Form der Investition zu schaffen.
+explanation: |
+  Die grundlegende Mission von Bitcoin ist es,
+  ein zensurresistentes Wertübertragungsnetzwerk zu sein. Die Bitcoin-
+  Community ist ständig bestrebt, die
+  Verteilung, Zensurresistenz und die Anti-Fragilität
+  des Netzwerks zu stärken.
+reviewed: true

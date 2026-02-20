@@ -287,7 +287,7 @@ Okazja jest wyjątkowa: **zakończyć zależność od zewnętrznych dostawców u
 
 
 
-Nadszedł czas, aby przejść do [dokumentacji] (https://docs.aliasvault.net/installation/), aby dowiedzieć się, jak przejść do samodzielnego hostowania Alias Vault.
+Nadszedł czas, aby przejść do [dokumentacji](https://docs.aliasvault.net/installation/), aby dowiedzieć się, jak przejść do samodzielnego hostowania Alias Vault.
 
 
 

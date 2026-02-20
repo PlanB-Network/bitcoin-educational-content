@@ -1,0 +1,9 @@
+question: Кой параметър на Bitcoin Core определя стандартния минимален праг за предаване?
+answer: minRelayTxFee
+wrong_answers:
+  - minConfirmTxFee
+  - relayTxWeight
+  - mempoolMinBits
+explanation: |
+  Възлите прилагат локални политики, а Bitcoin Core използва параметъра minRelayTxFee за минималния праг на предаване.
+reviewed: false

@@ -2,7 +2,7 @@ question: Quelle est la limitation fondamentale des capacités de transaction du
 answer: Il ne peut pas effectuer de transactions directes de Lightning à Lightning ou de Bitcoin à Bitcoin, car il opère exclusivement avec Liquid comme base d'attache
 wrong_answers:
   - Elle ne peut pas gérer les échanges atomiques entre différents réseaux de blockchain en raison de l'absence de prise en charge des contrats intelligents inter-chaînes
-  - "Il ne peut pas traiter les transactions supérieures à 0,1 BTC en raison des limites de taille de transaction intégrées au Liquid Network
+  - "Il ne peut pas traiter les transactions supérieures à 0,1 BTC en raison des limites de taille de transaction intégrées au Liquid Network"
   - Il ne peut pas fonctionner sans connexion internet car il nécessite une synchronisation constante avec les serveurs Breez centralisés
 explanation: |
   Le SDK est explicitement décrit comme "un outil strictement centré sur le Liquid" qui fonctionne avec le Liquid comme "base" Il ne prend en charge que trois opérations spécifiques : Liquid-à-Liquid, Liquid-à-Lightning et Liquid-à-Bitcoin. Contrairement à un nœud Lightning complet qui peut acheminer des paiements entre canaux Lightning, le SDK Breez ne peut pas effectuer de transactions directes de Lightning à Lightning, ce qui le rend fondamentalement différent de l'infrastructure Lightning traditionnelle.

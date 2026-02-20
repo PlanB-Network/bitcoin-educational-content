@@ -1,0 +1,8 @@
+question: Hạn chế chính mà các nhà phát triển phải khắc phục khi sử dụng UniFFI để phát triển ứng dụng di động yêu cầu giao diện người dùng đáp ứng là gì?
+answer: UniFFI chỉ hỗ trợ các giao diện đồng bộ, yêu cầu các nhà phát triển phải xử lý các thao tác bất đồng bộ thông qua các cơ chế luồng riêng biệt.
+wrong_answers:
+  - UniFFI không thể xử lý các kiểu dữ liệu phức tạp như enum và struct, hạn chế tính đa dạng của giao diện API trên thiết bị di động.
+  - UniFFI tạo ra các liên kết không an toàn về bộ nhớ khi chuyển đổi giữa các ngôn ngữ, đòi hỏi phải quản lý bộ nhớ thủ công.
+  - UniFFI không hỗ trợ dịch xử lý lỗi, buộc các nhà phát triển phải tự triển khai cơ chế xử lý ngoại lệ tùy chỉnh trong từng ngôn ngữ đích.
+explanation: |
+  Hạn chế đáng kể nhất của UniFFI là thiếu hỗ trợ cho các giao diện bất đồng bộ - tất cả các liên kết được tạo ra đều là đồng bộ. Điều này tạo ra thách thức cho việc phát triển ứng dụng di động, nơi giao diện người dùng phản hồi nhanh là rất quan trọng, vì các nhà phát triển phải tự triển khai các giải pháp đa luồng để tránh làm tắc nghẽn luồng chính. Các câu trả lời sai là không chính xác vì UniFFI thực sự vượt trội trong việc xử lý các kiểu dữ liệu phức tạp như enum và struct, cung cấp khả năng chuyển đổi an toàn bộ nhớ tự động giữa các ngôn ngữ và có cơ chế xử lý lỗi tinh vi giúp chuyển đổi các kiểu kết quả Rust thành các mô hình ngoại lệ gốc cho các ngôn ngữ đích.

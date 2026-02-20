@@ -1,0 +1,10 @@
+question: Van welk exchange platform werden begin september 2012 24.000 bitcoins gestolen?
+answer: Bitfloor
+wrong_answers:
+  - Mt. Gox
+  - Tradehill
+  - BTC-e
+explanation: |
+ In de nacht van 3 op 4 september 2012 kreeg een hacker toegang tot een onversleutelde back-up van de wallet-sleutels van Bitfloor en slaagde erin iets meer dan 24.000 BTC op te nemen, oftewel ongeveer $250.000 op dat moment
+ ongeveer $250.000 op dat moment.
+reviewed: true

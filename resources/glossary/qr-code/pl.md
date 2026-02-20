@@ -1,5 +1,6 @@
 ---
-term: KOD QR
+term: Kod QR
+definition: Dwuwymiarowy kod kreskowy używany do łatwego przesyłania adresów Bitcoin i innych informacji.
 ---
 
 Rodzaj dwuwymiarowego kodu kreskowego, który może być szybko zeskanowany przez urządzenia mobilne. Kod QR przechowuje informacje w postaci czarno-białych pikseli ułożonych w kwadrat na białym tle. Ważną cechą kodów QR jest to, że zawierają one kody korekcji błędów BCH, które umożliwiają przywrócenie danych, nawet jeśli kod QR jest częściowo zasłonięty.

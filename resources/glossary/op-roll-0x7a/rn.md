@@ -1,6 +1,7 @@
 ---
 term: OP_ROLL (0X7A)
 
+definition: Opcode yimura ikintu co mu mupfundikizo ku bujyakuzimu bwishinzwe ikagishyira k’inyuma.
 ---
 
 Ikura ikintu ku kirundo gushika hejuru y'ikirundo, bishingiye ku burebure bugaragazwa n'agaciro kari hejuru y'ikirundo imbere y'igikorwa. Nk'akarorero, iyo agaciro kari hejuru y'ikirundo ari `4`, `OP_ROLL` izohitamwo ikintu ca kane kuva hejuru y'ikirundo, maze izojana ako gaciro hejuru. `OP_ROLL` ikora igikorwa kimwe na `OP_PICK`, kiretse ko ikuraho ikintu mu kibanza caco c'intango.

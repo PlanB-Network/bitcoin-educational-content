@@ -1,0 +1,9 @@
+question: Hashcash'i kim icat etti?
+answer: Adam Back
+wrong_answers:
+  - Nick Szabo
+  - Hal Finney
+  - David Chaum
+explanation: |
+  Hashcash, Adam Back tarafından icat edilmiştir. İlk iş kanıtı mekanizmasıdır.
+reviewed: false

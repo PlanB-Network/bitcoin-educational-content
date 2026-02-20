@@ -11,7 +11,7 @@ objectives:
 
 Co je potřeba k tomu, abyste mohli stavět na Bitcoinu? Tento 20hodinový kurz vás zavede pod povrch Bitcoinu a Lightning Network a prozkoumá protokoly, které pohánějí nejodolnější finanční infrastrukturu světa. Ať už chcete přispívat do open-source projektů nebo budovat další generaci bitcoinových aplikací, získáte technickou hloubku potřebnou k tomu, abyste mohli v tomto ekosystému pracovat s jistotou.
 
-Nahráno během bootcampu CUBO+ 2023 v El Salvadoru, tento kurz spojuje perspektivy předních bitcoinových vývojářů a vzdělavatelů, kteří formovali tuto technologii. Ta nejlepší část? Je zcela zdarma, umožněno společnostmi Fulgure Venture, Bitcoin Office a DecouvreBitcoin. Pokud jste byli zvědaví, jak Bitcoin skutečně funguje na úrovni protokolu, toto je vaše příležitost to zjistit.
+Nahráno během bootcampu CUBO+ 2023 v El Salvadoru, tento kurz spojuje perspektivy předních bitcoinových vývojářů a vzdělavatelů, kteří formovali tuto technologii. Ta nejlepší část? Je zcela zdarma, umožněno společnostmi Fulgure Ventures, Bitcoin Office a DecouvreBitcoin. Pokud jste byli zvědaví, jak Bitcoin skutečně funguje na úrovni protokolu, toto je vaše příležitost to zjistit.
 +++
 # Úvod a přípravné kurzy
 
@@ -59,7 +59,7 @@ V průběhu kurzu budou účastníci využívat klíčové nástroje, které jim
 
 :::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
-Vítejte na první přednášce vzdělávacího programu **Cubo Plus**. Dnes se ponoříme do světa Bitcoin pod vedením Rickyho, zakladatele **Bitcoin Italia Podcast**. Ricky je vášnivý aktivista v oblasti lidských práv, který používá Bitcoin jako nástroj na ochranu a podporu lidských práv. S více než šestiletou praxí Ricky hodně cestoval a dokumentoval zavádění Bitcoin na rozvíjejících se trzích, jako je Salvador a Guatemala. Jeho práce přesahuje rámec podcastů; je také aktivní na YouTube (**Bitcoin Explorers**) a Twitteru (**BTC Explorer**, **Ricky6**). Rickyho vztah k Commitment vychází z jeho přesvědčení, že Bitcoin nabízí finanční svobodu a soukromí a zpochybňuje tradiční centralizované bankovní systémy.
+Vítejte na první přednášce vzdělávacího programu **Cubo Plus**. Dnes se ponoříme do světa Bitcoin pod vedením Rikkiho, zakladatele **Bitcoin Italia Podcast**. Rikki je vášnivý aktivista v oblasti lidských práv, který používá Bitcoin jako nástroj na ochranu a podporu lidských práv. S více než šestiletou praxí Rikki hodně cestoval a dokumentoval zavádění Bitcoin na rozvíjejících se trzích, jako je Salvador a Guatemala. Jeho práce přesahuje rámec podcastů; je také aktivní na YouTube (**Bitcoin Explorers**) a Twitteru (**BTC Explorer**, **Rikki6**). Rikkiho vztah k Commitment vychází z jeho přesvědčení, že Bitcoin nabízí finanční svobodu a soukromí a zpochybňuje tradiční centralizované bankovní systémy.
 
 
 ![Unbanked Population](assets/en/001.webp)
@@ -70,30 +70,30 @@ globální nebankovní populace_
 ### Bitcoin: finanční svoboda a její dopad na Salvador
 
 
-Tato přednáška **"Proč Salvador potřebuje Bitcoin"** poskytuje přehled o protokolu **Bitcoin**, jeho kořenech v hnutí **Cypherpunk** a jeho úloze jako nástroje umožňujícího svobodu **necenzurovaných peněz**, **finanční inkluzi** a mnoho dalšího.
+Tato přednáška **"Proč Salvador potřebuje Bitcoin"** poskytuje přehled o protokolu **Bitcoin**, jeho kořenech v hnutí **[Cypherpunk](https://planb.academy/resources/glossary/cypherpunks)** a jeho úloze jako nástroje umožňujícího svobodu **necenzurovaných peněz**, **finanční inkluzi** a mnoho dalšího.
 
 
 **Definice:**
 
 
 - _Bitcoinový protokol:_ Pravidla a struktura, kterými se řídí fungování Bitcoin jako decentralizované digitální měny.
-- _Cypherpunk movement:_ Skupina prosazující používání kryptografie k zajištění soukromí a svobody v digitálním prostoru.
+- _Cypherpunk movement:_ Skupina prosazující používání [kryptografie](https://planb.academy/resources/glossary/cryptography) k zajištění soukromí a svobody v digitálním prostoru.
 - _Finanční začleňování:_ Zajištění přístupu k finančním službám lidem, kteří jsou vyloučeni z tradičních bankovních systémů, často označovaným jako "nebankovní"
 - _Necenzurované peníze:_ Peníze, které nemohou být kontrolovány nebo omezovány vládami nebo finančními institucemi.
 
-#### Rickyho minulost a obhajoba Bitcoin
+#### Rikkiho minulost a obhajoba Bitcoin
 
 
-Rickyho cesta do Bitcoin má kořeny v jeho práci obhájce lidských práv. Věří, že Bitcoin může jednotlivcům poskytnout kontrolu nad jejich financemi, což jim umožní chránit jejich soukromí a vyhnout se omezením centralizovaných bank. Jeho zkoumání přijetí Bitcoin v místech, jako je Salvador, zdůrazňuje, jak tato technologie může lidem na rozvíjejících se trzích umožnit získat finanční nezávislost.
+Rikkiho cesta do Bitcoin má kořeny v jeho práci obhájce lidských práv. Věří, že Bitcoin může jednotlivcům poskytnout kontrolu nad jejich financemi, což jim umožní chránit jejich soukromí a vyhnout se omezením centralizovaných bank. Jeho zkoumání přijetí Bitcoin v místech, jako je Salvador, zdůrazňuje, jak tato technologie může lidem na rozvíjejících se trzích umožnit získat finanční nezávislost.
 
 
 ### Globální význam a výzvy Bitcoin
 
 
-Bitcoin je mnohem víc než jen digitální měna. Je to nástroj na ochranu soukromí a zajištění finanční svobody. Pomocí **privátních klíčů**, které fungují jako hlavní hesla, mohou uživatelé bezpečně spravovat svůj Bitcoin s plnou kontrolou nad svými prostředky.
+Bitcoin je mnohem víc než jen digitální měna. Je to nástroj na ochranu soukromí a zajištění finanční svobody. Pomocí **[privátních klíčů](https://planb.academy/resources/glossary/private-key)**, které fungují jako hlavní hesla, mohou uživatelé bezpečně spravovat svůj Bitcoin s plnou kontrolou nad svými prostředky.
 
 
-V autoritářských režimech, kde jsou běžné finanční represe, umožňuje **necitlivost** Bitcoin lidem provádět transakce bez obav, že jim budou zmrazeny nebo zabaveny finanční prostředky. Její **otevřený zdrojový kód** podporuje celosvětovou účast, čímž podporuje komunitu, která síť neustále vylepšuje.
+V autoritářských režimech, kde jsou běžné finanční represe, umožňuje **necitlivost** Bitcoin lidem provádět [transakce](https://planb.academy/resources/glossary/transaction-tx) bez obav, že jim budou zmrazeny nebo zabaveny finanční prostředky. Její **[otevřený zdrojový kód](https://planb.academy/resources/glossary/foss)** podporuje celosvětovou účast, čímž podporuje komunitu, která síť neustále vylepšuje.
 
 
 ![Image](assets/en/002.webp)
@@ -143,7 +143,7 @@ Koncem 20. století vzniklo hnutí **Cypherpunk**, které prosazovalo soukromí 
 #### Rakouská ekonomie
 
 
-Zároveň **Rakouská ekonomie** poskytla základ pro měnové zásady Bitcoin. Ekonomové jako **Ludwig von Mises** a **Friedrich Hayek** tvrdili, že zdravé peníze by měly být vzácné, trvanlivé a měly by být dobrým uchovatelem hodnoty, což byly základní zásady, které formovaly návrh Bitcoin.
+Zároveň **[Rakouská ekonomie](https://planb.academy/resources/glossary/austrian-school)** poskytla základ pro měnové zásady Bitcoin. Ekonomové jako **Ludwig von Mises** a **Friedrich Hayek** tvrdili, že zdravé peníze by měly být vzácné, trvanlivé a měly by být dobrým uchovatelem hodnoty, což byly základní zásady, které formovaly návrh Bitcoin.
 
 
 **Definice:**
@@ -221,7 +221,7 @@ Děkujeme, že jste se do tohoto materiálu zapojili!
 
 :::video id=2c008198-7f4e-4e60-87a0-0af17528ad2f:::
 
-V první přednášce kurzu "Jak na Bitcoin" jsme se začali zabývat technologickým zásobníkem, který je základem sítě Bitcoin. Probrali jsme témata jako **Hashcash**, **transakce**, **Blockchain**, **Lightning Network** a další klíčové součásti protokolu Bitcoin.
+V první přednášce kurzu "Jak na Bitcoin" jsme se začali zabývat technologickým zásobníkem, který je základem sítě Bitcoin. Probrali jsme témata jako **Hashcash**, **transakce**, **[Blockchain](https://planb.academy/resources/glossary/blockchain)**, **[Lightning Network](https://planb.academy/resources/glossary/lightning-network)** a další klíčové součásti protokolu Bitcoin.
 
 
 ### Technologický zásobník Bitcoin, část 2
@@ -234,13 +234,13 @@ Během druhé přednášky "Jak na Bitcoin" jsme podrobněji prozkoumali technol
 ### Struktura Bitcoin
 
 
-Počátky systému Bitcoin vycházejí z několika klíčových inovací, počínaje systémem **Adam Back's Hashcash**, který byl navržen jako systém Proof-of-Work (PoW), jenž měl zabránit spamům a útokům typu "denial-of-service" tím, že vyžadoval od odesílatelů splnění výpočetních úkolů. Tento koncept PoW se stal základním kamenem zabezpečení Bitcoin.
+Počátky systému Bitcoin vycházejí z několika klíčových inovací, počínaje systémem **Adam Back's Hashcash**, který byl navržen jako systém [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) (PoW), jenž měl zabránit spamům a útokům typu "denial-of-service" tím, že vyžadoval od odesílatelů splnění výpočetních úkolů. Tento koncept PoW se stal základním kamenem zabezpečení Bitcoin.
 
 
-Bitcoin se při zabezpečení a ověřování transakcí spoléhá na **digitální podpisy** pomocí **eliptické kryptografie**. Algoritmus digitálního podpisu pomocí **eliptických křivek (ECDSA)** zajišťuje, že pouze oprávněný vlastník systému Bitcoin může autorizovat transakce, aniž by odhalil své soukromé klíče.
+Bitcoin se při zabezpečení a ověřování transakcí spoléhá na **[digitální podpisy](https://planb.academy/resources/glossary/digital-signature)** pomocí **eliptické kryptografie**. Algoritmus digitálního podpisu pomocí **eliptických křivek ([ECDSA](https://planb.academy/resources/glossary/ecdsa))** zajišťuje, že pouze oprávněný vlastník systému Bitcoin může autorizovat transakce, aniž by odhalil své soukromé klíče.
 
 
-**Satoshi Nakamoto**, pseudonymní tvůrce Bitcoin, tyto myšlenky rozvinul přechodem modelu PoW na decentralizovaný **Blockchain**. To umožnilo distribuované síti uzlů ověřovat a zaznamenávat transakce bez centrální autority, což znamenalo významný vývoj oproti předchozím pokusům o digitální měnu.
+**Satoshi Nakamoto**, pseudonymní tvůrce Bitcoin, tyto myšlenky rozvinul přechodem modelu PoW na decentralizovaný **Blockchain**. To umožnilo distribuované síti [uzlů](https://planb.academy/resources/glossary/node) ověřovat a zaznamenávat transakce bez centrální autority, což znamenalo významný vývoj oproti předchozím pokusům o digitální měnu.
 
 
 **Definice:**
@@ -252,16 +252,16 @@ Bitcoin se při zabezpečení a ověřování transakcí spoléhá na **digitál
 ### Mechanika Blockchain a ověřování transakcí
 
 
-Transakce Bitcoin jsou ověřovány a přidávány do bloků **minery**, kteří soutěží v řešení kryptografické hádanky pomocí algoritmu Proof-of-Work. Ten spočívá v hledání Hash s určitým počtem počátečních nul úpravou hodnoty **Nonce**, dokud není objevena správná hodnota Hash.
+Transakce Bitcoin jsou ověřovány a přidávány do [bloků](https://planb.academy/resources/glossary/block) **minery**, kteří soutěží v řešení kryptografické hádanky pomocí algoritmu Proof-of-Work. Ten spočívá v hledání [Hash](https://planb.academy/resources/glossary/hash-function) s určitým počtem počátečních nul úpravou hodnoty **[Nonce](https://planb.academy/resources/glossary/nonce)**, dokud není objevena správná hodnota Hash.
 
 
-Každý **blok** v Blockchain se skládá z **záhlaví** (s údaji jako předchozí blok Hash) a seznamu transakcí. První blok, známý jako **blok Genesis**, je jedinečný, protože nemá žádného předchůdce.
+Každý **blok** v Blockchain se skládá z **[záhlaví](https://planb.academy/resources/glossary/block-header)** (s údaji jako předchozí blok Hash) a seznamu transakcí. První blok, známý jako **[blok Genesis](https://planb.academy/resources/glossary/genesis-block)**, je jedinečný, protože nemá žádného předchůdce.
 
 
 ![Image](assets/en/004.webp)
 
 
-Než jsou transakce zařazeny do bloku, nacházejí se v **Mempool**, kde čekají na ověření. Po validaci jsou tyto transakce přidány do nově vytěženého bloku a poté do Blockchain.
+Než jsou transakce zařazeny do bloku, nacházejí se v **[Mempool](https://planb.academy/resources/glossary/mempool)**, kde čekají na ověření. Po validaci jsou tyto transakce přidány do nově vytěženého bloku a poté do Blockchain.
 
 
 **Definice:**
@@ -274,13 +274,13 @@ Než jsou transakce zařazeny do bloku, nacházejí se v **Mempool**, kde čekaj
 ### Škálovatelnost, soukromí a vývoj v Bitcoin
 
 
-Bitcoin se potýká s problémy souvisejícími se škálovatelností a ochranou soukromí. Omezená transakční kapacita Blockchain ztěžuje zpracování velkých objemů transakcí. Řešení jako **Lightning Network** Address tyto problémy řeší tím, že umožňují transakce off-chain prostřednictvím platebních kanálů, které zvyšují rychlost a soukromí.
+Bitcoin se potýká s problémy souvisejícími se škálovatelností a ochranou soukromí. Omezená transakční kapacita Blockchain ztěžuje zpracování velkých objemů transakcí. Řešení jako **Lightning Network** Address tyto problémy řeší tím, že umožňují transakce off-chain prostřednictvím [platebních kanálů](https://planb.academy/resources/glossary/payment-channel), které zvyšují rychlost a soukromí.
 
 
-Provozování **Full node** je nezbytné pro zajištění decentralizace a bezpečnosti, ale **zjednodušené uzly pro ověřování plateb (SPV)** umožňují lehčí zapojení na úkor určité bezpečnosti.
+Provozování **[Full node](https://planb.academy/resources/glossary/full-node)** je nezbytné pro zajištění decentralizace a bezpečnosti, ale **zjednodušené uzly pro ověřování plateb (SPV)** umožňují lehčí zapojení na úkor určité bezpečnosti.
 
 
-Vývoj systému Bitcoin se vyvíjel s cílem zlepšit výkon a zabezpečení. Mezi hlavní vylepšení patří **Segregovaný svědek (SegWit)**, který řeší záludnosti transakcí a zvyšuje efektivní velikost bloku, a **Taproot**, který zlepšuje soukromí a umožňuje uzavírat složitější smlouvy pomocí **Merkleizovaných abstraktních syntaktických stromů (MAST)**.
+Vývoj systému Bitcoin se vyvíjel s cílem zlepšit výkon a zabezpečení. Mezi hlavní vylepšení patří **Segregovaný svědek ([SegWit](https://planb.academy/resources/glossary/segwit))**, který řeší záludnosti transakcí a zvyšuje efektivní velikost bloku, a **[Taproot](https://planb.academy/resources/glossary/taproot)**, který zlepšuje soukromí a umožňuje uzavírat složitější smlouvy pomocí **Merkleizovaných abstraktních syntaktických stromů (MAST)**.
 
 
 **Definice:**
@@ -307,7 +307,7 @@ Struktura společnosti Bitcoin a její neustálý vývoj jsou důkazem inovace a
 
 :::video id=c5e2e575-fa9d-4430-805f-205c2cf6f2a5:::
 
-V této přednášce vyvrátíme běžné mýty o **Bitcoin**, **blockchainech** a **kryptoměnách**. Představíme si Address mylné představy o spotřebě energie Bitcoin, kriminálním využití a širší "FUD" (strach, nejistota, pochybnosti), který se o této technologii šíří.
+V této přednášce vyvrátíme běžné mýty o **Bitcoin**, **blockchainech** a **[kryptoměnách](https://planb.academy/resources/glossary/cryptocurrency)**. Představíme si Address mylné představy o spotřebě energie Bitcoin, kriminálním využití a širší "FUD" (strach, nejistota, pochybnosti), který se o této technologii šíří.
 
 
 ### Bitcoin vs. Blockchain
@@ -325,7 +325,7 @@ V této přednášce vyvrátíme běžné mýty o **Bitcoin**, **blockchainech**
 ### Bitcoin vs. Crypto
 
 
-Dalším klíčovým rozdílem je, že **Bitcoin** byl vytvořen s jediným cílem - poskytnout decentralizovanou formu peněz odolnou vůči cenzuře, která není kontrolována žádnou společností ani vládou. Naproti tomu kryptoměny **shitcoins** jsou často navrženy s centralizovanou kontrolou a existují především za účelem obohacení společností, které za nimi stojí, prostřednictvím predátorských praktik, pump-and-dump schémat nebo přímo podvodů. Tyto tokeny obvykle neslouží žádnému skutečnému účelu kromě rychlého zisku jejich tvůrců na úkor neinformovaných investorů. Bitcoin však stojí osamoceně jako jediná skutečně decentralizovaná digitální měna s prokazatelnou bezpečností a odolností.
+Dalším klíčovým rozdílem je, že **Bitcoin** byl vytvořen s jediným cílem - poskytnout decentralizovanou formu peněz odolnou vůči cenzuře, která není kontrolována žádnou společností ani vládou. Naproti tomu kryptoměny **[shitcoins](https://planb.academy/resources/glossary/shitcoin)** jsou často navrženy s centralizovanou kontrolou a existují především za účelem obohacení společností, které za nimi stojí, prostřednictvím predátorských praktik, pump-and-dump schémat nebo přímo podvodů. Tyto tokeny obvykle neslouží žádnému skutečnému účelu kromě rychlého zisku jejich tvůrců na úkor neinformovaných investorů. Bitcoin však stojí osamoceně jako jediná skutečně decentralizovaná digitální měna s prokazatelnou bezpečností a odolností.
 
 
 **Definice:**
@@ -339,7 +339,7 @@ Dalším klíčovým rozdílem je, že **Bitcoin** byl vytvořen s jediným cíl
 ### Spotřeba energie a dopad na životní prostředí
 
 
-Jednou z nejčastějších výtek vůči Bitcoin je jeho **spotřeba energie**. Bitcoin Mining sice spotřebovává energii, ale představuje méně než 1 % celosvětové spotřeby elektřiny a méně než 3 % plýtvání energií. Navíc **Bitcoin Mining** často využívá nevyužívané nebo obnovitelné zdroje energie, takže je ekologičtější, než se často uvádí.
+Jednou z nejčastějších výtek vůči Bitcoin je jeho **spotřeba energie**. Bitcoin [Mining](https://planb.academy/resources/glossary/mining) sice spotřebovává energii, ale představuje méně než 1 % celosvětové spotřeby elektřiny a méně než 3 % plýtvání energií. Navíc **Bitcoin Mining** často využívá nevyužívané nebo obnovitelné zdroje energie, takže je ekologičtější, než se často uvádí.
 
 
 **Definice:**
@@ -356,7 +356,7 @@ Přípravek Bitcoin je často kritizován za to, že se používá k trestné č
 ### Soukromí a zastupitelnost
 
 
-**Soukromí** a **fungibilita** jsou základními vlastnostmi Bitcoin. Ochrana soukromí chrání uživatele v represivních režimech a zaměnitelnost zajišťuje, že každý Bitcoin je rovnocenný bez ohledu na jeho historii. Díky tomu je Bitcoin spolehlivou a spravedlivou formou peněz.
+**Soukromí** a **[fungibilita](https://planb.academy/resources/glossary/fungibility)** jsou základními vlastnostmi Bitcoin. Ochrana soukromí chrání uživatele v represivních režimech a zaměnitelnost zajišťuje, že každý Bitcoin je rovnocenný bez ohledu na jeho historii. Díky tomu je Bitcoin spolehlivou a spravedlivou formou peněz.
 
 
 **Definice:**
@@ -397,7 +397,7 @@ V první přednášce čtvrtého modulu jsme se zabývali architekturou Bitcoin 
 
 **1. Úvodní rekapitulace**
 
-Vítejte zpět! V předchozím díle jsme se zabývali základními koncepty architektury Bitcoin, včetně kryptografických základů a struktury sítě peer-to-peer. Dnes přejdeme od teorie k praxi a ukážeme si, jak nainstalovat a nakonfigurovat uzel Bitcoin.
+Vítejte zpět! V předchozím díle jsme se zabývali základními koncepty architektury Bitcoin, včetně kryptografických základů a struktury sítě [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p). Dnes přejdeme od teorie k praxi a ukážeme si, jak nainstalovat a nakonfigurovat uzel Bitcoin.
 
 
 **2. Přehled praktických zasedání**
@@ -405,7 +405,7 @@ Vítejte zpět! V předchozím díle jsme se zabývali základními koncepty arc
 V této části nás Alekos provede procesem nastavení uzlu Bitcoin pomocí virtuálního počítače. Cílem tohoto praktického tutoriálu je seznámit vás s kroky, které souvisejí s konfigurací uzlu pro účast v síti Bitcoin.
 
 
-Provoz uzlu Bitcoin zahrnuje ověřování transakcí a bloků, vynucování pravidel konsensu a podporu decentralizace sítě. Zřízením uzlu získáte přímé spojení se sítí Bitcoin, což vám umožní přispívat k jejímu zabezpečení a integritě.
+Provoz uzlu Bitcoin zahrnuje ověřování transakcí a bloků, vynucování pravidel [konsensu](https://planb.academy/resources/glossary/consensus) a podporu decentralizace sítě. Zřízením uzlu získáte přímé spojení se sítí Bitcoin, což vám umožní přispívat k jejímu zabezpečení a integritě.
 
 
 V této přednášce najdete návod k instalaci a spuštění vlastního Bitcoin core, dozvíte se, jak ořezat Blockchain, abyste ušetřili místo, a začnete experimentovat se softwarem. Alekos vás krok za krokem provede tímto vzrušujícím procesem.
@@ -832,7 +832,7 @@ Zařízení Ledger, oblíbený model Hardware Wallet, je proslulé svým robustn
 **Modely zabezpečení: význam peněženek multi-sig a různého hardwaru**
 
 
-Klíčovým aspektem zabezpečení Bitcoin je využití peněženek s více podpisy (multi-sig). Peněženky multi-sig vyžadují k autorizaci transakce více soukromých klíčů, což výrazně zvyšuje bezpečnost. Použití různých typů hardwarových peněženek navíc diverzifikuje riziko a posiluje bezpečnostní model.
+Klíčovým aspektem zabezpečení Bitcoin je využití peněženek s více podpisy (multi-sig). [Peněženky](https://planb.academy/resources/glossary/wallet) multi-sig vyžadují k autorizaci transakce více soukromých klíčů, což výrazně zvyšuje bezpečnost. Použití různých typů hardwarových peněženek navíc diverzifikuje riziko a posiluje bezpečnostní model.
 
 
 ### Nastavení a konfigurace
@@ -853,7 +853,7 @@ Chcete-li nakonfigurovat aplikaci Specter, musíte ji připojit k serveru Bitcoi
 **Vysvětlení odvozovacích cest a získávání veřejných klíčů**
 
 
-Pochopení odvozovacích cest je pro správu Wallet zásadní. Odvozovací cesty definují způsob generování klíčů z hlavního klíče. Ve Spectru můžete získat veřejné klíče připojením Hardware Wallet (nebo emulátoru) a procházením Wallet Interface. Ujistěte se, že jste tyto cesty zdokumentovali pro budoucí použití.
+Pochopení odvozovacích cest je pro správu Wallet zásadní. Odvozovací cesty definují způsob generování klíčů z hlavního klíče. Ve Spectru můžete získat [veřejné klíče](https://planb.academy/resources/glossary/public-key) připojením Hardware Wallet (nebo emulátoru) a procházením Wallet Interface. Ujistěte se, že jste tyto cesty zdokumentovali pro budoucí použití.
 
 
 **Praktická ukázka: Použití emulátoru Ledger**
@@ -1008,7 +1008,7 @@ Snahy o zvýšení použitelnosti systému Bitcoin jsou často na úkor bezpečn
 #### Kompromisy v oblasti škálovatelnosti a soukromí
 
 
-Škálovatelnost a soukromí jsou v síti Bitcoin často v rozporu. Vylepšení, která zlepšují škálovatelnost, jako jsou větší UTXO nebo omezené kryptografické obfuskace, obecně snižují soukromí. Naopak techniky zaměřené na ochranu soukromí, jako jsou kruhové podpisy Monero, zvyšují anonymitu uživatelů, ale negativně ovlivňují škálovatelnost. Zavedení stavových kontraktů, jak je vidět u Etherea, navíc nabízí větší flexibilitu za cenu snížení bezpečnosti a škálovatelnosti. Vyvážení těchto kompromisů je složitý úkol, který vyžaduje pečlivé zvážení.
+Škálovatelnost a soukromí jsou v síti Bitcoin často v rozporu. Vylepšení, která zlepšují škálovatelnost, jako jsou větší [UTXO](https://planb.academy/resources/glossary/utxo) nebo omezené kryptografické obfuskace, obecně snižují soukromí. Naopak techniky zaměřené na ochranu soukromí, jako jsou kruhové podpisy Monero, zvyšují anonymitu uživatelů, ale negativně ovlivňují škálovatelnost. Zavedení stavových kontraktů, jak je vidět u Etherea, navíc nabízí větší flexibilitu za cenu snížení bezpečnosti a škálovatelnosti. Vyvážení těchto kompromisů je složitý úkol, který vyžaduje pečlivé zvážení.
 
 
 ### Techniky ochrany soukromí
@@ -1144,7 +1144,7 @@ K zajištění voleb lze například zavést nestranný dohled nebo monitorován
 #### Ověřování důvěryhodnosti
 
 
-Ověření důvěryhodnosti lze ilustrovat pomocí ověření PGP (Pretty Good Privacy). Ověřováním otisků prstů a podpisů klíčů PGP mohou uživatelé zjistit pravost digitálních identit. Podobné postupy jsou zásadní při ověřování integrity softwaru prostřednictvím shody Hash (např. SHA-256).
+Ověření důvěryhodnosti lze ilustrovat pomocí ověření PGP (Pretty Good Privacy). Ověřováním otisků prstů a podpisů klíčů PGP mohou uživatelé zjistit pravost digitálních identit. Podobné postupy jsou zásadní při ověřování integrity softwaru prostřednictvím shody Hash (např. [SHA-256](https://planb.academy/resources/glossary/sha256)).
 
 
 #### Vytvoření cest důvěry
@@ -1314,7 +1314,7 @@ V této části se budeme zabývat aplikací těchto konceptů při reálném v�
 **Důsledky pro bezpečnost**: Historické příklady ukazují značné finanční ztráty způsobené opětovným použitím Nonce. Pochopení významu generování jedinečných nonces je zásadní. Používání důvěryhodných knihoven, jako je LibSecP256k1, zajišťuje robustní a bezpečné kryptografické operace.
 
 
-**Eliptická kryptografie (ECC)**: Podepisovací schémata se vyvinula od identifikačních protokolů ke schématům, jako je Schnorrův podpis, v současnosti používaný v Bitcoin (BIP 340). Znalost eliptických křivek a aritmetiky konečných polí zajišťuje bezpečné kryptografické implementace.
+**Eliptická kryptografie (ECC)**: Podepisovací schémata se vyvinula od identifikačních protokolů ke schématům, jako je Schnorrův podpis, v současnosti používaný v Bitcoin ([BIP](https://planb.academy/resources/glossary/bip) 340). Znalost eliptických křivek a aritmetiky konečných polí zajišťuje bezpečné kryptografické implementace.
 
 
 **Obecné rady pro vývojáře**: Kryptografické protokoly musí projít důkladným vzájemným hodnocením. Vývojáři musí být precizní a plně rozumět každému kroku kryptografických postupů. Povědomí o běžných úskalích kryptografických implementací může zabránit významným zranitelnostem.
@@ -1468,7 +1468,7 @@ Složitost Mining v kontextu Bitcoin zahrnuje především technické a strategi
 
 4. **Cena BTC**: Cena BTC je zásadní pro určení ziskovosti Mining.
 
-5. **Obtížnost sítě**: Síťová obtížnost představuje množství Hashrate v průměru potřebné k vytěžení bloku za 10 minut.
+5. **[Obtížnost](https://planb.academy/resources/glossary/difficulty) sítě**: Síťová obtížnost představuje množství Hashrate v průměru potřebné k vytěžení bloku za 10 minut.
 
 6. **Strategické nástroje**: Nástroje jako [braiins.com](https://insights.braiins.com) jsou neocenitelné pro výpočet ziskovosti a pomáhají horníkům činit rozhodnutí založená na datech.
 
@@ -1979,7 +1979,7 @@ Přidání tvrzení pro ověření, že po zpracování celého bloku nezůstaly
 #### Speciální případy, jako jsou transakce coinbase
 
 
-Transakce Coinbase, které jsou první transakcí v bloku používaném k uplatnění nároku na Block reward, mají jedinečné vlastnosti. Tyto zvláštní případy musíme vhodně ošetřit.
+Transakce [Coinbase](https://planb.academy/resources/glossary/coinbase-transaction), které jsou první transakcí v bloku používaném k uplatnění nároku na Block reward, mají jedinečné vlastnosti. Tyto zvláštní případy musíme vhodně ošetřit.
 
 
 ```Rust
@@ -2598,7 +2598,7 @@ V roce 2012 navrhl Manny Rosenfeld koncept centralizovaných chmelnic, aby Addre
 ### Hashed Time Lock Contract (HTLC) a implementace
 
 
-Omezení a nevýhody centralizovaných hopů si vyžádaly bezpečnější a decentralizovanější řešení. Tato potřeba vedla k vývoji šifrovaného časového zámku Contract (HTLC), který v roce 2015 navrhli Joseph Poon a Thaddeus Dreijer jako součást Lightning Network. HTLC kombinují principy časových zámků a zámků Hash, aby zajistily atomicitu a nedůvěryhodnost transakcí. To znamená, že transakce se buď zcela dokončí, nebo vůbec neproběhne, čímž se zmírňují rizika spojená s neúplnými platbami.
+Omezení a nevýhody centralizovaných hopů si vyžádaly bezpečnější a decentralizovanější řešení. Tato potřeba vedla k vývoji šifrovaného časového zámku Contract ([HTLC](https://planb.academy/resources/glossary/htlc)), který v roce 2015 navrhli Joseph Poon a Thaddeus Dreijer jako součást Lightning Network. HTLC kombinují principy časových zámků a zámků Hash, aby zajistily atomicitu a nedůvěryhodnost transakcí. To znamená, že transakce se buď zcela dokončí, nebo vůbec neproběhne, čímž se zmírňují rizika spojená s neúplnými platbami.
 
 
 Pracovní postup HTLC zahrnuje vícestupňový proces, který zajišťuje bezpečné směrování přes více zprostředkovatelů. Předpokládejme, že Alice chce zaplatit Erikovi prostřednictvím zprostředkovatelů Bob, Carol a Diany. Každý krok procesu zahrnuje vytvoření transakcí Commitment s klesajícími časovými zámky a částkami. V případě potřeby může být poslední krok vysílán do sítě Bitcoin, aby se transakce dokončila.
@@ -2690,7 +2690,7 @@ Lightning Network v podstatě doplňuje síť Bitcoin tím, že řeší její om
 ### **Specifikace modelu Lightning Network**
 
 
-Protokol Lightning Network je pečlivě definován pomocí 10 bodů BOLT (Basis of Lightning Technology). Tyto protokoly BOLT byly dohodnuty na konferenci v Miláně a slouží jako základ pro různé implementace protokolu Lightning Network.
+Protokol Lightning Network je pečlivě definován pomocí 10 bodů [BOLT](https://planb.academy/resources/glossary/bolt) (Basis of Lightning Technology). Tyto protokoly BOLT byly dohodnuty na konferenci v Miláně a slouží jako základ pro různé implementace protokolu Lightning Network.
 
 
 ![bolt](assets/en/049.webp)_BOLT Diagram _
@@ -2764,7 +2764,7 @@ Platby jsou směrovány pomocí směrování Onion, které zahrnuje vytváření
 ### Struktura Invoice
 
 
-Faktury Lightning Network (Bolt 11) jsou kódovány v jazyce Bech32 a obsahují údaje jako platba Hash, popis a platnost. Každý Invoice musí být použit pouze jednou, aby se předešlo problémům s opakovaným použitím.
+[Faktury](https://planb.academy/resources/glossary/invoice-lightning) Lightning Network (Bolt 11) jsou kódovány v jazyce Bech32 a obsahují údaje jako platba Hash, popis a platnost. Každý Invoice musí být použit pouze jednou, aby se předešlo problémům s opakovaným použitím.
 
 
 ![Invoice structure](assets/en/051.webp)_BOLT11 Invoice_
@@ -3430,5 +3430,5 @@ Rozšíření a integrace plateb Lightning prostřednictvím různých protokol�
 
 :::video id=b89f2064-f2e1-49c3-97d0-580891eee1dd:::
 
-Adam Gibson nabízí pohled na Joinmarket a podrobně popisuje, jak tato implementace CoinJoin zvyšuje soukromí a zaměnitelnost Bitcoin. Rozebírá, jak Joinmarket usnadňuje spolupráci, Trustless a anonymní transakce v rámci ekosystému Bitcoin. Ve druhé části pak ukazuje, jak Joinmarket provozovat v systému Signet.
+Adam Gibson nabízí pohled na Joinmarket a podrobně popisuje, jak tato implementace [CoinJoin](https://planb.academy/resources/glossary/coinjoin) zvyšuje soukromí a zaměnitelnost Bitcoin. Rozebírá, jak Joinmarket usnadňuje spolupráci, Trustless a anonymní transakce v rámci ekosystému Bitcoin. Ve druhé části pak ukazuje, jak Joinmarket provozovat v systému Signet.
 

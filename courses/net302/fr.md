@@ -58,8 +58,6 @@ Prêt à plonger dans l’univers des réseaux informatiques ? Allons-y !
 
 **REMARQUE** : les descriptions sont celles d’un système GNU/Linux CentOS 7. Mais, les configurations réseau sont sensiblement les mêmes entre un système Debian et un système CentOS. Donc, on ne fera pas de différence. Lorsqu’il y en aura une, on la préfixera avec un logo spécifique.
 
-*N.B. : Si vous rencontrez des termes qui vous sont inconnus au cours de la formation, veuillez consulter [le glossaire](https://planb.academy/resources/glossary) pour en trouver les définitions.*
-
 
 # Les protocoles TCP/IP
 <partId>53fd4b73-cdf1-4865-ba29-1ac8ec3e9e9a</partId>
@@ -190,18 +188,19 @@ Le tout premier champ de cet en-tête se nomme "Version". Il occupe 4 bits et in
 
 **Remarque** : la gestion et l’attribution des versions de protocoles IP relèvent de l’**IANA**. Un champ de 4 bits permet 16 combinaisons binaires (valeurs 0 à 15). À ce jour, leur affectation est la suivante :
 
-| Version Number | Protocol   | Version Description         | Reference               |
-| -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+
+| Numéro de version | Protocole   | Description de la version    | Référence               |
+| ----------------- | ----------- | ---------------------------- | ----------------------- |
+| 0–1               | Réservé     | Réservé                      |                         |
+| 2–3               | Non assigné | Non assigné                  |                         |
+| 4                 | IP          | Protocole Internet           | RFC 791                 |
+| **5**             | **ST**      | **Mode datagramme ST**       | **RFC 1190** / RFC 1819 |
+| 6                 | IPv6        | Protocole Internet version 6 | RFC 8200                |
+| 7                 | TP/IX       | Le prochain Internet         | RFC 1475                |
+| 8                 | PIP         | Le protocole Internet P      | RFC 1621                |
+| 9                 | TUBA        | Tuba                         | RFC 1347                |
+| 10–14             | Non assigné | Non assigné                  |                         |
+| 15                | Réservé     | Réservé                      |                         |
 
 Parmi ces versions figure la version IPv5, qui, bien que méconnue du grand public, a bel et bien existé sous la forme du protocole ST (_Stream Protocol_). Conçu dans les années 1980, IPv5 visait principalement à répondre à un besoin émergent à l’époque : garantir une "_Quality of Service_" ou "QoS" pour certains flux de données nécessitant une transmission continue et stable, comme la voix sur IP ou les flux multimédias. L’objectif était d’offrir une bande passante et une priorité garanties de bout en bout, un concept similaire à ce que propose aujourd’hui le protocole RSVP (_Resource Reservation Protocol_) pour la réservation dynamique de ressources réseau sur les routeurs modernes.
 
@@ -296,14 +295,14 @@ Une adresse IP est structurée en deux parties distinctes : la première, appe
 
 Historiquement, le système IPv4 s’appuie sur un découpage en classes, notées de A à E, qui détermine l’étendue des plages d’adresses et leur usage. Chaque classe réserve un nombre défini de bits au _netid_ et au _hostid_, ce qui influe directement sur le nombre de réseaux et d’hôtes possibles.
 
-| **Class** | **IPv4 Address Range**            | **Usage**                    |
-| --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x to 126.x.x.x              | Unicast addresses            |
-|           | (127.x.x.x reserved for loopback) | Local loopback               |
-| B         | 128.0.x.x to 191.255.x.x          | Unicast addresses            |
-| C         | 192.0.0.x to 223.255.255.x        | Unicast addresses            |
-| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 to 255.255.255.255      | Reserved for experimentation |
+| Classe | Plage d'adresses IPv4           | Utilisation                    |
+| :----- | :------------------------------ | :----------------------------- |
+| A      | 1.x.x.x à 126.x.x.x             | Adresses Unicast               |
+|        | (127.x.x.x réservé au loopback) | Boucle locale (loopback)       |
+| B      | 128.0.x.x à 191.255.x.x         | Adresses Unicast               |
+| C      | 192.0.0.x à 223.255.255.x       | Adresses Unicast               |
+| D      | 224.0.0.0 à 239.255.255.255     | Multicast IP                   |
+| E      | 240.0.0.0 à 255.255.255.255     | Réservé pour l'expérimentation |
 
 Il faut savoir que toutes les combinaisons binaires ne sont pas exploitables pour identifier des hôtes. Dans une adresse de **classe C**, par exemple, le dernier octet offre 8 bits, soit 256 valeurs possibles. Toutefois, deux d’entre elles ont une fonction spéciale : la valeur 0 désigne le réseau lui-même, tandis que 255 correspond à l’adresse de **diffusion** (_broadcast_), qui permet d’envoyer un paquet à tous les hôtes du réseau en une seule fois. Il reste donc 254 adresses réellement utilisables pour des machines.
 
@@ -341,13 +340,14 @@ Prenons un cas concret. Soit un réseau de **classe C** : 192.168.1.0/24 avec un
 
 **Étape 4** : Calculer les plages d’adresses pour chaque sous-réseau en variant les bits réservés à l’hôte.
 
-| Subnet ID (bits) | Subnet Address   | Subnet Mask     | Address Range                 | Broadcast Address |
+
+
+| ID de sous-réseau (bits) | Adresse de sous-réseau | Masque de sous-réseau | Plage d’adresses           | Adresse de broadcast |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
 | 10               | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191     |
 | 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
-
 
 **Étape 5** : Ainsi, on obtient quatre sous-réseaux, chacun capable d’héberger jusqu’à 62 machines, tout en conservant l’efficacité du plan d’adressage global. La partie _hostid_ de l’adresse est donc subdivisée en deux : une pour le _subnetid_ et l’autre pour l’hôte proprement dit.
 
@@ -369,21 +369,22 @@ Prenons un exemple concret : un bloc **/17** permet de disposer de 2^(32-17) a
 
 Pour faciliter la conversion et la compréhension, on utilise des tableaux de correspondance, tel que celui ci-dessous, qui présente les préfixes CIDR courants et leur équivalence en nombre d’adresses :
 
-| CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
+
+
+| Préfixe CIDR | Bits d’hôte disponibles | Masque de sous-réseau | Adresses d’hôte utilisables |
 | ----------- | ------------------- | --------------- | ----------------------------- |
-| /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
-| /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
-| /16         | 16                  | 255.255.0.0     | 2^16 - 2 = 65,534             |
-| /20         | 12                  | 255.255.240.0   | 2^12 - 2 = 4,094              |
+| /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16 777 214         |
+| /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1 048 574          |
+| /16         | 16                  | 255.255.0.0     | 2^16 - 2 = 65 534             |
+| /20         | 12                  | 255.255.240.0   | 2^12 - 2 = 4 094              |
 | /24         | 8                   | 255.255.255.0   | 2^8 - 2 = 254                 |
 | /26         | 6                   | 255.255.255.192 | 2^6 - 2 = 62                  |
 | /27         | 5                   | 255.255.255.224 | 2^5 - 2 = 30                  |
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-à-point uniquement) |
+| /32         | 0                   | 255.255.255.255 | 1 (adresse d’hôte uniquement) |
 
 **NOTE** : Historiquement, le RFC 950 considérait le sous-réseau zéro comme non standard et déconseillait son usage, principalement pour éviter des confusions lors du routage. Toutefois, cette restriction est devenue obsolète avec le RFC 1878, qui autorise pleinement son exploitation. Les anciennes réserves concernaient avant tout la compatibilité avec du matériel ancien, incapable de gérer correctement les notations CIDR. Aujourd’hui, grâce aux équipements modernes, cette limitation a disparu.
 
@@ -485,12 +486,13 @@ L’architecture en couches repose sur le principe que chaque niveau ne traite q
 
 **Rappel** : pour nommer les unités de données qui transitent entre les couches, une terminologie spécifique a été définie : **message** pour la couche Application, **segment** pour la couche Transport (TCP), **datagramme** pour la couche Internet (IP) et **trame** pour la couche Accès Réseau. Cette distinction s’accompagne de structures adaptées à chaque contexte, comme le montre le schéma suivant :
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| Couche TCP/IP        | Nom de l’unité (TCP) | Nom de l’unité (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| Couche application   | Flux             | Message          |
+| Couche transport     | Segment          | Paquet           |
+| Couche Internet      | Datagramme       | Datagramme       |
+| Couche d’accès réseau | Trame           | Trame            |
 
 ### Primitives de service et unités de données
 
@@ -534,7 +536,8 @@ _Exemple : l’adresse 172.16.254.1_
 Chaque bit au sein d’un octet a un poids bien défini : le bit de gauche (bit de poids fort) vaut 128, le suivant 64, puis 32, 16, 8, 4, 2 et 1 pour le bit de droite (bit de poids faible). Ainsi, l’écriture binaire est convertie en décimal par simple addition des poids activés.  
 Le tableau ci-dessous rappelle cette correspondance :
 
-| Binary Code | Activated Bit Values          | Decimal Value |
+
+| Code binaire | Valeurs de bits activés      | Valeur décimale |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -548,7 +551,8 @@ Le tableau ci-dessous rappelle cette correspondance :
 
 Par exemple, pour convertir une adresse IP binaire en notation décimale, on additionne les valeurs des bits à 1 pour chaque octet.
 
-| Binary     | Decimal Value |
+
+| Binaire    | Valeur décimale |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |
@@ -569,13 +573,13 @@ Dans les débuts d’IPv4, les réseaux étaient organisés en **classes** (A, B
 - Classe D : adresses réservées à la multidiffusion (_multicast_)
 - Classe E : adresses expérimentales, non utilisées pour l’adressage classique
 
-| Class | Leading Bits | First Byte Range | Default Subnet Mask | Purpose                          |
-| ----- | ------------ | ---------------- | ------------------- | -------------------------------- |
-| A     | 0            | 0 – 127          | 255.0.0.0           | Very large networks              |
-| B     | 10           | 128 – 191        | 255.255.0.0         | Medium-sized networks            |
-| C     | 110          | 192 – 223        | 255.255.255.0       | Small networks                   |
-| D     | 1110         | 224 – 239        | N/A                 | Multicast addresses              |
-| E     | 1111         | 240 – 255        | N/A                 | Experimental (not publicly used) |
+| Classe | Bits de tête | Plage du premier octet | Masque de sous-réseau par défaut | Objectif                                |
+| ------ | ------------ | ---------------------- | -------------------------------- | --------------------------------------- |
+| A      | 0            | 0 – 127                | 255.0.0.0                        | Réseaux très étendus                    |
+| B      | 10           | 128 – 191              | 255.255.0.0                      | Réseaux de taille moyenne               |
+| C      | 110          | 192 – 223              | 255.255.255.0                    | Petits réseaux                          |
+| D      | 1110         | 224 – 239              | N/A                              | Adresses multicast                      |
+| E      | 1111         | 240 – 255              | N/A                              | Expérimental (non utilisé publiquement) |
 
 Certaines adresses ont un rôle bien particulier. L’**adresse de réseau** désigne l’identifiant du réseau lui-même et sert à configurer les tables de routage ; l’**adresse de diffusion** (_broadcast_) permet d’envoyer un paquet à tous les hôtes d’un même sous-réseau en une seule émission : pour cela, tous les bits du HostID sont mis à 1.
 
@@ -723,7 +727,8 @@ La table de routage, administrée soit manuellement (routage statique), soit dyn
 
 La table de routage agit comme un tableau de correspondance entre les adresses IP cibles et les passerelles suivantes. Elle ne conserve généralement pas toutes les adresses hôtes mais seulement l’identifiant du réseau (_network ID_), ce qui allège considérablement son volume.
 
-| Destination Address | Next-Hop Router Address | Interface |
+
+| Adresse de destination | Adresse du routeur de saut suivant | Interface |
 | ------------------- | ----------------------- | --------- |
 
 Grâce à ces entrées, le routeur peut déterminer rapidement via quelle interface et vers quel nœud il doit transmettre chaque datagramme. Cette logique d’acheminement, combinée au protocole ARP pour résoudre les adresses MAC correspondantes, garantit l’efficacité et la fiabilité du transfert de données sur l’ensemble du réseau.
@@ -771,11 +776,12 @@ Ce principe de traduction dynamique repose sur une gestion fine de la table : ch
 
 _Exemple de table de traduction NAT simplifiée :_
 
-| Internal IP   | External IP    | Duration (sec) | Reusable? |
+
+| IP interne | IP externe | Durée (sec) | Réutilisable ? |
 | ------------- | -------------- | -------------- | --------- |
-| 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | yes       |
-| 10.100.0.89   | 193.48.100.46  | 0              | no        |
+| 10.101.10.20  | 193.48.100.174 | 1,200          | non       |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | oui       |
+| 10.100.0.89   | 193.48.100.46  | 0              | non       |
 
 Dans cet exemple, si aucun paquet n’a transité pour la seconde ligne depuis plus d’une heure (3600 secondes), l’entrée est marquée comme réutilisable. À l’inverse, un champ de durée à zéro indique qu’une communication est en cours et que la correspondance est verrouillée.
 
@@ -1109,13 +1115,14 @@ L’adressage IPv6 se distingue de son prédécesseur par une grande diversité 
 
 Une adresse IPv6 non spécifiée est représentée par `::` ou, sous forme plus explicite, `::0.0.0.0`. Cette forme particulière sert notamment lors de l’acquisition d’une adresse ou comme valeur par défaut pour indiquer l’absence d’adresse.
 
-| IPv6 Address Prefix | Description                                 |
+
+| Préfixe d’adresse IPv6 | Description                          |
 | ------------------- | ------------------------------------------- |
-| ::/8                | Reserved addresses                          |
-| 2000::/3            | Unicast addresses, routable on the Internet |
-| fc00::/7            | Unique local addresses (1)                  |
-| fe80::/10           | Link-local addresses                        |
-| ff00::/8            | Multicast addresses                         |
+|::/8                | Adresses réservées                         |
+| 2000::/3            | Adresses unicast, routables sur Internet   |
+| fc00::/7            | Adresses locales uniques (1)               |
+| fe80::/10           | Adresses link-local                        |
+| ff00::/8            | Adresses multicast                         |
 
 (1) : *Sur un réseau local privé, on privilégie le préfixe `fd00::/8` pour affecter des adresses internes non routables sur Internet.*
 
@@ -1168,21 +1175,22 @@ Les **adresses unicast** constituent la catégorie la plus courante et englobent
 
 Ce découpage conceptuel se matérialise souvent par une structure binaire où la première partie de l’adresse (les 64 premiers bits) identifie le préfixe réseau et la seconde moitié (64 bits également) identifie de façon unique l’interface de l’équipement sur ce réseau. Cette séparation facilite l’autoconfiguration des adresses grâce aux mécanismes comme SLAAC (_Stateless Address Autoconfiguration_), qui permettent aux machines de générer automatiquement une adresse stable basée sur l’adresse MAC ou un identifiant pseudo-aléatoire.
 
-| Field     | Prefix | L | Global ID | Subnet | Interface ID |
+
+| Champ     | Préfixe | L | ID global | Sous-réseau | ID d’interface |
 |-----------|--------|---|-----------|--------|---------------|
 | Bits      | 7      | 1 | 40        | 16     | 64            |
 
 L’architecture IPv6 reprend le modèle hiérarchique du routage global de l’Internet actuel : le découpage des préfixes permet aux registres régionaux et aux opérateurs de gérer la distribution d’adresses de façon décentralisée, tout en assurant l’unicité globale. C’est dans ce cadre qu’un même hôte peut posséder simultanément une adresse unicast globale, pour communiquer sur Internet, et une adresse link-local pour interagir localement, par exemple pour le voisinage immédiat ou les messages de découverte de routeur.
 
-| Field     | Prefix | Zero | Interface ID |
-|-----------|--------|------|--------------|
-| Bits      | 10     | 54   | 64           |
+| Champ | Préfixe | Zéro | ID d'interface |
+| ----- | ------- | ---- | -------------- |
+| Bits  | 10      | 54   | 64             |
 
 Les **adresses anycast** représentent une notion intermédiaire qui tire parti du modèle unicast tout en offrant un comportement proche du multicast dans certains cas. Une adresse anycast est, en réalité, une adresse unicast affectée à plusieurs interfaces réparties sur différents nœuds du réseau. Lorsqu’un paquet est émis vers une adresse anycast, le protocole IPv6 s’efforce de le livrer à l’un des hôtes partageant cette adresse, en privilégiant généralement celui qui est le plus proche selon la topologie du routage. Ce principe optimise la rapidité de traitement des requêtes et améliore la résilience des services distribués : l’exemple typique est celui des serveurs DNS racine, pour lesquels l’adressage anycast permet de diriger automatiquement les requêtes vers le point de présence le plus proche.
 
-| Field     | Prefix | Subnet | Interface ID |
-|-----------|--------|--------|--------------|
-| Bits      | 48     | 16     | 64           |
+| Champ | Préfixe | Sous-réseau | ID d'interface |
+| ----- | ------- | ----------- | -------------- |
+| Bits  | 48      | 16          | 64             |
 
 Enfin, les **adresses multicast** remplacent dans IPv6 le mécanisme de broadcast, jugé trop coûteux et inadapté à l’échelle d’un réseau mondial. Une adresse multicast identifie un groupe d’interfaces, généralement dispersées sur plusieurs hôtes, qui souhaitent recevoir simultanément les mêmes paquets. Pour chaque adresse multicast, la portée est spécifiée par un champ particulier : les 4 bits de _scope_ inclus dans la structure de l’adresse. Ces bits définissent la limite géographique ou logique de diffusion :
 
@@ -1194,9 +1202,9 @@ Enfin, les **adresses multicast** remplacent dans IPv6 le mécanisme de broadcas
 
 Chaque adresse multicast IPv6 est structurée en plusieurs champs : un champ _Flag_ (4 bits) précise notamment si le groupe est permanent ou transitoire, un champ _Scope_ (4 bits) définit la portée, et un champ d’identification (112 bits) indique le numéro du groupe multicast.
 
-| Field      | Prefix | Flags | Scope | Group ID |
-|------------|--------|--------|--------|----------|
-| Bits       | 8      | 4      | 4      | 112      |
+| Champ | Préfixe | Drapeaux | Portée | ID de groupe |
+| ----- | ------- | -------- | ------ | ------------ |
+| Bits  | 8       | 4        | 4      | 112          |
 
 Un exemple emblématique de multicast IPv6 est l’utilisation par le protocole _Neighbor Discovery Protocol_ (NDP). Plutôt que de recourir à ARP comme en IPv4, NDP s’appuie sur des adresses multicast comme `ff02::1:ff00:0/104` pour diffuser ses requêtes de découverte de voisinage, en sollicitant uniquement les hôtes concernés sur le même lien.
 

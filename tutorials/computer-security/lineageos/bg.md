@@ -685,13 +685,14 @@ LineageOS разполага с особено лесна за използва�
 
 
 
-| **Aspect** | **GrapheneOS** | **LineageOS** |
+
+| **Аспект** | **GrapheneOS** | **LineageOS** |
 |------------|----------------|---------------|
-| **Compatibilité** | Pixels uniquement | Centaines d'appareils |
-| **Sécurité** | Mitigations avancées | Sécurité AOSP standard |
-| **Google Play** | Sandboxé optionnel | Installation classique possible |
-| **Installation** | Interface web + USB | Procédure manuelle technique |
-| **Philosophie** | Sécurité avant tout | Équilibre et liberté de choix |
+| **Съвместимост** | Само пиксели | Стотици устройства |
+| **Сигурност** | Напредни смекчаване | Стандартна сигурност на AOSP |
+| **Google Play** | Опционална пясъчница | Възможна класическа инсталация |
+| **Инсталация** | Уеб интерфейс + USB | Техническа ръчна процедура |
+| **Философия** | Безопасност преди всичко | Баланс и свобода на избора |
 
 ### Препоръки за употреба
 
@@ -722,7 +723,7 @@ LineageOS предлага зряла алтернатива за възвръщ
 
 
 
-- [Официален уебсайт на LineageOS] (https://lineageos.org)
+- [Официален уебсайт на LineageOS](https://lineageos.org)
 - [LineageOS Wiki](https://wiki.lineageos.org) - Ръководства за инсталиране по модел
 - [LineageOS за microG](https://lineage.microg.org) - Версия с вграден microG
 

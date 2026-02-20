@@ -6,4 +6,4 @@ wrong_answers:
   - Reducción del tamaño de los paquetes de red TCP/IP
 explanation: |
   IPv5 (ST) se diseñó para ofrecer calidad de servicio (QoS) a flujos multimedia, como VoIP, garantizando ancho de banda y prioridad.
-reviewed: false
+reviewed: true

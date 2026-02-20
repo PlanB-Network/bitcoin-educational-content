@@ -1,0 +1,8 @@
+question: Jakie jest główne ograniczenie, które programiści muszą obejść podczas korzystania z UniFFI do tworzenia aplikacji mobilnych wymagających responsywnych interfejsów użytkownika?
+answer: UniFFI obsługuje tylko interfejsy synchroniczne, wymagając od deweloperów obsługi operacji asynchronicznych za pomocą oddzielnych mechanizmów wątkowania
+wrong_answers:
+  - UniFFI nie może obsługiwać złożonych typów danych, takich jak wyliczenia i struktury, ograniczając bogactwo mobilnych interfejsów API
+  - UniFFI generuje powiązania, które nie są bezpieczne dla pamięci w różnych językach, co wymaga ręcznego zarządzania pamięcią
+  - UniFFI nie obsługuje tłumaczenia obsługi błędów, zmuszając programistów do implementacji niestandardowej obsługi wyjątków w każdym języku docelowym
+explanation: |
+  Najważniejszym ograniczeniem UniFFI jest brak wsparcia dla interfejsów asynchronicznych - wszystkie wygenerowane powiązania są synchroniczne. Stwarza to wyzwania dla rozwoju mobilnego, gdzie responsywne interfejsy użytkownika są krytyczne, ponieważ programiści muszą wdrożyć własne rozwiązania wątkowe, aby uniknąć blokowania głównego wątku. Błędne odpowiedzi są nieprawidłowe, ponieważ UniFFI w rzeczywistości wyróżnia się obsługą złożonych typów, takich jak wyliczenia i struktury, zapewnia automatyczne bezpieczne dla pamięci marshaling ponad granicami językowymi i ma zaawansowaną translację obsługi błędów, która konwertuje typy Rust Result na natywne modele wyjątków dla języków docelowych.

@@ -635,4 +635,4 @@ Tailscale on tänu oma lihtsusele ja tõhususele hädavajalik vahend isehostingu
 
 
 
-Tailscale pakub regulaarselt uut sisu ja funktsioone. Vaadake nende [ametlikku blogi] (https://tailscale.com/blog/) viimaste uudiste ja juhtumiuuringute kohta.
+Tailscale pakub regulaarselt uut sisu ja funktsioone. Vaadake nende [ametlikku blogi](https://tailscale.com/blog/) viimaste uudiste ja juhtumiuuringute kohta.

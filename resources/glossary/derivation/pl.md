@@ -1,5 +1,6 @@
 ---
-term: ROZWÓJ
+term: Derywacja
+definition: Proces generowania kluczy potomnych z pary kluczy nadrzędnych w portfelu HD.
 ---
 
 Odnosi się do procesu generowania par kluczy podrzędnych z pary kluczy nadrzędnych (klucz prywatny i klucz publiczny) oraz kodu łańcuchowego w ramach deterministycznego i hierarchicznego (HD) Wallet. Proces ten pozwala na segmentację gałęzi i organizację Wallet na różnych poziomach z licznymi parami kluczy podrzędnych, które można odzyskać, znając tylko podstawowe informacje o odzyskiwaniu (fraza Mnemonic i wszelkie potencjalne passphrase). Aby wyprowadzić klucz potomny, używana jest funkcja `HMAC-SHA512` z kodem łańcucha nadrzędnego i konkatenacją klucza nadrzędnego i 32-bitowego indeksu. Istnieją dwa rodzaje pochodnych:

@@ -11,7 +11,7 @@ Bitfeed, Bitcoin protokolünün zincir üzerindeki katmanını görselleştirmey
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 Bu eğitimde, ağdaki tüm işlemleri ve blokları keşfetmenizi sağlayan bu araca bir göz atacağız.
 
@@ -95,7 +95,7 @@ Bu bloğun ilk işlemi, bu bloğun madencisinin mining ödülünü kazanmasını
 
 
 
-https://planb.academy/courses/obtenir-ses-premiers-bitcoins-f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 Varsayılan olarak, bir bloktaki işlemler iki kritere göre temsil edilir:
 

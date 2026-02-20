@@ -1,0 +1,8 @@
+question: mutable
+answer: mut
+wrong_answers:
+  - var
+  - promenljiv
+  - promena
+explanation: |
+  U Rust, ključna reč 'mut' je potrebna da bi se promenljiva deklarisala kao promenljiva, što omogućava da se njena vrednost promeni nakon početne dodele. Podrazumevano, sve promenljive u Rust su nepromenljive iz bezbednosnih razloga. Sintaksa je 'let mut x = 5' za promenljivu promenljivu naspram 'let x = 5' za nepromenljivu. Druge opcije kao što su 'var', 'mutable' i 'change' nisu validne ključne reči u Rust za ovu svrhu.

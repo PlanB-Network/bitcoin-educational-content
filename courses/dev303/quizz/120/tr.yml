@@ -1,0 +1,8 @@
+question: Kendi kendini yöneten bir LDK uygulamasından Breez SDK'nın bulut tabanlı mimarisine geçerken ortaya çıkan en önemli gizlilik ödünleşimi nedir?
+answer: Greenlight, bulut tabanlı yönlendirme sayesinde ödeme hedeflerine ve fatura oluşturma faaliyetlerine yönelik potansiyel görünürlük kazanıyor
+wrong_answers:
+  - "Özel anahtarlar kullanıcının cihazında yerel olarak saklanmak yerine Blockstream'in sunucularında saklanır"
+  - Kanal durumu bilgileri Greenlight düğümleri aracılığıyla Lightning Network grafiğinde herkese açık hale gelir
+  - LSP hizmetleri artık tüm on-chain işlemlerini izleyebilir ve bunları Lightning ödeme modelleriyle ilişkilendirebilir
+explanation: |
+  Doğru cevap temel gizlilik bozulmasını tanımlar: bulut tabanlı yönlendirme Greenlight'ın ödeme hedeflerini potansiyel olarak gözlemlemesine olanak tanırken, bulut fatura üretimi bilgi maruziyetini yalnızca LSP'ye özel geleneksel mimarilerin ortaya çıkardığının ötesine taşır. Yanlış cevaplar yanlıştır çünkü: özel anahtarlar bulut mimarisine rağmen kullanıcı kontrolünde kalır; kanal durumları yönlendirme yoluyla herkese açık hale getirilmez; ve LSP'ler bu mimari değişiklikle ek on-chain işlem izleme yetenekleri kazanmaz.

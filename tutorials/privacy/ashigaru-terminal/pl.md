@@ -41,7 +41,7 @@ Aby zainstalować Ashigaru Terminal, będziesz potrzebował przeglądarki Tor Br
 
 
 
-Z przeglądarki Tor Browser przejdź do [strony wydań ich repozytorium Git] (http://ashicodepbnpvslzsl2bz7l2pwrjvajgumgac423pp3y2deprbnzz7id.onion/Ashigaru/Ashigaru-Terminal/releases/), aby pobrać najnowszą wersję Ashigaru Terminal dla swojego systemu operacyjnego.
+Z przeglądarki Tor Browser przejdź do [strony wydań ich repozytorium Git](http://ashicodepbnpvslzsl2bz7l2pwrjvajgumgac423pp3y2deprbnzz7id.onion/Ashigaru/Ashigaru-Terminal/releases/), aby pobrać najnowszą wersję Ashigaru Terminal dla swojego systemu operacyjnego.
 
 
 

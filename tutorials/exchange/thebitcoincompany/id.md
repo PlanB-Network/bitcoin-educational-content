@@ -70,7 +70,7 @@ Di bawah ini adalah pilihan rambu untuk Amerika Serikat sebagai contoh:
 
 
 
-Untuk melakukannya, kunjungi [situs web mereka] (https://thebitcoincompany.com/).
+Untuk melakukannya, kunjungi [situs web mereka](https://thebitcoincompany.com/).
 
 
 

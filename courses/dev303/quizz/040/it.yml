@@ -1,0 +1,8 @@
+question: Cosa succede all'inferenza dei tipi di chiusura una volta che una chiusura viene chiamata con tipi specifici?
+answer: Questi tipi diventano fissi per quell'istanza di chiusura
+wrong_answers:
+  - La chiusura può comunque accettare tipi diversi in chiamate future
+  - Il compilatore reimposta i tipi per la successiva chiamata di funzione
+  - I tipi rimangono flessibili e possono cambiare in base al contesto
+explanation: |
+  In Rust, le chiusure beneficiano dell'inferenza automatica dei tipi, ma questa flessibilità ha dei limiti. Una volta che una chiusura viene chiamata con specifici tipi di parametri, il compilatore blocca quei tipi per quella particolare istanza di chiusura. Ciò significa che la stessa chiusura non può essere richiamata in seguito con tipi diversi: diventa monomorfizzata ai primi tipi che incontra. Questo è diverso dalle funzioni generiche, che possono essere chiamate con tipi diversi perché ogni chiamata crea un'istanziazione separata. Le altre opzioni non sono corrette perché suggeriscono una flessibilità continua che non esiste una volta determinati i tipi della chiusura.

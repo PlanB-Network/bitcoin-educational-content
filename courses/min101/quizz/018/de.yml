@@ -1,0 +1,9 @@
+question: Welches Problem wollte Hashcash primär reduzieren?
+answer: E-Mail-Spam
+wrong_answers:
+  - Double Spending
+  - DNS-Phishing
+  - Diebstahl privater Schlüssel
+explanation: |
+  Hashcash erzwingt Rechenkosten pro Nachricht, um den Massenversand von E-Mails unrentabel zu machen.
+reviewed: false

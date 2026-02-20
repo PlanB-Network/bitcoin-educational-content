@@ -1,0 +1,8 @@
+question: According to the Austrian theory presented, what is the direct consequence of the mismatch between artificial price signals and consumers' actual time preferences?
+answer: Entrepreneurs engage in inappropriate production detours, creating a false economic boom followed by an inevitable crisis
+wrong_answers:
+  - "Consumers automatically adjust their time preferences to align with market price signals"
+  - Commercial banks spontaneously compensate by increasing their reserves to stabilize the money supply
+  - "Real savings are gradually increasing to catch up with the level of investment stimulated by low interest rates"
+explanation: |
+  The correct answer reflects the core of Mises and Hayek's Austrian business cycle theory. When central banks manipulate interest rates, entrepreneurs receive false signals suggesting abundant available savings, while consumption remains high and real savings non-existent. They therefore invest in non-viable projects, creating an artificial boom destined to collapse. The other options are incorrect, as they suggest self-correcting mechanisms that do not exist according to this theory.

@@ -1,0 +1,10 @@
+question: Bitcoin zincirindeki faaliyetlerin yaklaşık yüzde kaçı 2011 yazının sonunda İpek Yolu'nu temsil ediyordu?
+answer: 10 %
+wrong_answers:
+  - 3 %
+  - 30 %
+  - 90 %
+explanation: |
+ Chainalysis tarafından daha sonra yayınlanan bir rapora göre, İpek Yolu faaliyeti yılın başında Bitcoin kanalında işlem gören hacmin neredeyse %10'unu oluşturuyordu
+ Eylül 2011.
+reviewed: true

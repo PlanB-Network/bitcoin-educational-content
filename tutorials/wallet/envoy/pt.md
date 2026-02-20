@@ -62,13 +62,13 @@ No dispositivo, encontrará :
 Aceda à sua loja de aplicações para descarregar o Envoy :
 
 
-- Na [Google Play Store] (https://play.google.com/store/apps/details?id=com.foundationdevices.envoy);
-- Na [App Store] (https://apps.apple.com/us/app/envoy-by-foundation/id1584811818);
+- Na [Google Play Store](https://play.google.com/store/apps/details?id=com.foundationdevices.envoy);
+- Na [App Store](https://apps.apple.com/us/app/envoy-by-foundation/id1584811818);
 - Em [F-Cold](https://foundation.xyz/fdroid/).
 
 ![Image](assets/fr/50.webp)
 
-Também pode descarregar o ficheiro APK diretamente [do repositório GitHub da Fundação] (https://github.com/Foundation-Devices/envoy/releases).
+Também pode descarregar o ficheiro APK diretamente [do repositório GitHub da Fundação](https://github.com/Foundation-Devices/envoy/releases).
 
 ![Image](assets/fr/51.webp)
 
@@ -164,7 +164,7 @@ O Passport está pronto para receber o novo firmware através de um cartão Micr
 
 ### Sem a aplicação Envoy
 
-Para o fazer, utilize o cartão MicroSD incluído na caixa do Passport (ou outro) e insira-o no computador. Descarregue a versão mais recente do firmware a partir do [sítio de documentação da Fundação] (https://docs.foundation.xyz/firmware-updates/passport/) ou [do seu repositório GitHub] (https://github.com/Foundation-Devices/passport2/releases).
+Para o fazer, utilize o cartão MicroSD incluído na caixa do Passport (ou outro) e insira-o no computador. Descarregue a versão mais recente do firmware a partir do [sítio de documentação da Fundação](https://docs.foundation.xyz/firmware-updates/passport/) ou [do seu repositório GitHub](https://github.com/Foundation-Devices/passport2/releases).
 
 ![Image](assets/fr/21.webp)
 

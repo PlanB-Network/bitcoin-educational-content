@@ -45,7 +45,7 @@ Standaard ondersteunt KeePass het gebruik van browserextensies zoals Bitwarden n
 KeePass is ontworpen om zowel licht als gebruiksvriendelijk te zijn, terwijl het voldoet aan hoge beveiligingsstandaarden. De software versleutelt je database lokaal voor optimale bescherming van je referenties. KeePass is ook de enige wachtwoordmanager die is gevalideerd door de ANSSI (de Franse cyberbeveiligingsautoriteit).
 
 
-Een van de belangrijkste voordelen van KeePass is de flexibiliteit. Het kan op veel verschillende manieren gebruikt worden, zoals op een USB-stick zonder dat het op een computer geïnstalleerd hoeft te worden. Bovendien kan KeePass dankzij de [plugin-omgeving] (https://keepass.info/plugins.html) worden aangepast aan meer specifieke behoeften.
+Een van de belangrijkste voordelen van KeePass is de flexibiliteit. Het kan op veel verschillende manieren gebruikt worden, zoals op een USB-stick zonder dat het op een computer geïnstalleerd hoeft te worden. Bovendien kan KeePass dankzij de [plugin-omgeving](https://keepass.info/plugins.html) worden aangepast aan meer specifieke behoeften.
 
 ![KEEPASS](assets/notext/01.webp)
 

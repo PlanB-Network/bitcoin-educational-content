@@ -1,0 +1,8 @@
+question: Ni ikihe kintu nyamukuru gituma amafunga agira ububasha muri Rust?
+answer: Ubushobozi bwabo bwo gufata ibihinduka biva mu bidukikije vyabo
+wrong_answers:
+  - Ubushobozi bwabo bwo kwiruka vyihuta kuruta ibikorwa bisanzwe
+  - Ubushobozi bwabo bwo gukorana n'ukwibuka
+  - Ubushobozi bwabo bwo gukora kode mu ndodo zihuye
+explanation: |
+  Ikintu nyamukuru gituma ibipfukisho bigira ububasha ni ubushobozi bwavyo bwo "gufunga" ibidukikije vyavyo, bisobanura ko bishobora gushika no gukoresha ibihinduka biri mu rwego aho ibipfukisho bisobanurwa. Ubu bushobozi bwo gufata butuma ibipfukisho biguma bifise ubuzima n’aho biherereye, bikaba bituma bishobora guhinduka kuruta ibikorwa bisanzwe. Naho ugufunga bishobora gutunganirizwa neza kugira ngo bikore neza kandi bikoreshwe mu bikorwa vy’ugutera indodo, ivyo ni inyungu zikurikira - ububasha bwavyo nyamukuru buva ku gufata ibidukikije bihinduka.

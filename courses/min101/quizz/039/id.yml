@@ -1,0 +1,9 @@
+question: Mengapa transaksi coinbase berbeda dari transaksi lainnya?
+answer: Ia tidak membelanjakan UTXO nyata apa pun
+wrong_answers:
+  - Ia tidak memiliki TXID
+  - Ia tidak memiliki output
+  - Ia tidak ada dalam pohon Merkle
+explanation: |
+  Inputnya menunjuk ke UTXO fiktif, yang memungkinkan pembuatan subsidi dan penarikan biaya.
+reviewed: false

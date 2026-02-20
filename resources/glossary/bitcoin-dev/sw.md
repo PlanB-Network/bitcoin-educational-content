@@ -1,5 +1,6 @@
 ---
-term: Bitcoin-DEV
+term: Bitcoin-dev
+definition: Orodha ya barua pepe inayolenga majadiliano ya kiufundi kuhusu maendeleo ya itifaki ya Bitcoin.
 ---
 
 Orodha ya barua pepe inayotolewa kwa ajili ya ukuzaji wa itifaki ya Bitcoin. Bitcoin-dev iliundwa na Jeff Garzik mwaka wa 2011 na awali iliandaliwa kwenye Sourceforge.net. Orodha ya wanaotuma barua ilihamishiwa kwa Linux Foundation, kisha kwa Open Source Lab, na hatimaye, tangu Februari 2024, imepangishwa kwenye Google Groups: https://groups.google.com/g/bitcoindev

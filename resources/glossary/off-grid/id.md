@@ -1,5 +1,6 @@
 ---
-term: OFF-GRID
+term: Off-grid
+definition: Penambangan otonom menggunakan sumber energi alternatif, di luar jaringan listrik utama.
 ---
 
 Mengacu pada operasi Bitcoin Mining yang beroperasi secara mandiri, tanpa terhubung ke jaringan listrik utama. Penambang di luar jaringan umumnya menggunakan sumber energi alternatif seperti tenaga surya, angin atau tenaga air, atau bahkan generator yang menggunakan bahan bakar fosil (misalnya gas untuk pembakaran). Model ini sering kali disukai untuk mengurangi biaya energi, karena model ini mengandalkan sebagian energi yang, tanpa Mining, akan terbuang sia-sia. Penambang off-grid memiliki keuntungan karena dapat didirikan di lokasi yang terisolasi, untuk mengkonsumsi energi ini terlalu jauh dari populasi.

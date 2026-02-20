@@ -1,0 +1,9 @@
+question: 自 BIP-34 以来，coinbase 的 scriptSig 开头必须包含什么？
+answer: 区块高度
+wrong_answers:
+  - 矿工的哈希率
+  - 难度目标
+  - 区块指纹
+explanation: |
+  BIP-34 要求在 coinbase 的 scriptSig 中写入区块高度。
+reviewed: false

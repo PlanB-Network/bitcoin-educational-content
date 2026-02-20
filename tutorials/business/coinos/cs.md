@@ -42,7 +42,7 @@ Než vezmete **Coinos** do ruky, nepotřebujete žádné technické ani hluboké
 
 
 
-Přejděte v prohlížeči na webovou stránku [Coinos] (https://coinos.io/) a klikněte na **Start in seconds**.
+Přejděte v prohlížeči na webovou stránku [Coinos](https://coinos.io/) a klikněte na **Start in seconds**.
 
 
 

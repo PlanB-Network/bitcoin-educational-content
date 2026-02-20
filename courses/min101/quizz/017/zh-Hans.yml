@@ -1,0 +1,9 @@
+question: 谁提出了 Bit Gold 的概念？
+answer: Nick Szabo
+wrong_answers:
+  - Satoshi Nakamoto
+  - Hal Finney
+  - Wei Dai
+explanation: |
+  Bit Gold 是由 Nick Szabo 提出的一个电子货币系统概念项目。
+reviewed: false

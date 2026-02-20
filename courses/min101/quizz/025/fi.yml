@@ -1,0 +1,9 @@
+question: Ovatko Bitcoin-siirtomaksut tuloste (output)?
+answer: Ei
+wrong_answers:
+  - Kyllä
+  - Kyllä, mutta vain SegWit-siirroissa
+  - Ei, mutta se oli tilanne ennen vuotta 2012
+explanation: |
+  Maksut ovat syötteiden (inputs) ja tulosteiden (outputs) kokonaissumman erotus, eivät erillinen tuloste. Näin on ollut aina.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Apa karakteristik utama yang membuat penutupan sangat kuat dalam Rust?
+answer: Kemampuan mereka untuk menangkap variabel dari lingkungan sekitar mereka
+wrong_answers:
+  - Kemampuannya untuk berjalan lebih cepat daripada fungsi biasa
+  - Kemampuannya untuk menangani alokasi memori secara otomatis
+  - Kemampuan mereka untuk mengeksekusi kode dalam thread paralel
+explanation: |
+  Karakteristik mendasar yang membuat closure menjadi kuat adalah kemampuannya untuk "menutup" lingkungannya, yang berarti mereka dapat mengakses dan menggunakan variabel yang ada di dalam ruang lingkup di mana closure didefinisikan. Kemampuan menangkap ini memungkinkan closure untuk mempertahankan state dan konteks dari lingkungan pembuatannya, sehingga membuatnya jauh lebih fleksibel daripada fungsi biasa. Meskipun closure dapat dioptimalkan untuk kinerja dan digunakan dalam konteks threading, ini adalah manfaat sekunder - kekuatan utamanya berasal dari penangkapan variabel lingkungan.

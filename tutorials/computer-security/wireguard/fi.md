@@ -282,7 +282,7 @@ Jätämme toistaiseksi sivuun WireGuardin palvelinpuolen konfiguroinnin.
 
 
 
-Jotta Debian 11 -koneemme voi **reitittää paketteja eri verkkojen välillä (kuten reititin)**, eli VPN-verkon ja paikallisverkon välillä, meidän on otettava käyttöön [IP Forwarding] (https://www.it-connect.fr/activer-lip-forwarding-sous-linux-ipv4ipv6/). Oletusarvoisesti tämä ominaisuus on poistettu käytöstä.
+Jotta Debian 11 -koneemme voi **reitittää paketteja eri verkkojen välillä (kuten reititin)**, eli VPN-verkon ja paikallisverkon välillä, meidän on otettava käyttöön [IP Forwarding](https://www.it-connect.fr/activer-lip-forwarding-sous-linux-ipv4ipv6/). Oletusarvoisesti tämä ominaisuus on poistettu käytöstä.
 
 
 

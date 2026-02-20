@@ -1,5 +1,6 @@
 ---
 term: BIP0022
 
+definition: JSON-RPC getblocktemplate 标准，允许挖矿软件与全节点通信以构建区块。
 ---
 BIP 由 Luke Dashjr 于 2012 年提出，为外部挖矿接口引入了一种标准化的 JSON-RPC 方法，称为 `getblocktemplate`。随着挖矿难度的增加，使用专门的外部软件来生成工作量证明的情况也有所发展。本 BIP 提出了全节点与专业挖矿软件之间区块模板的通用通信标准。这种方法涉及发送区块的整个结构，而不仅仅是区块头，以便矿工对其进行定制。

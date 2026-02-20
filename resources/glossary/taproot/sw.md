@@ -1,5 +1,6 @@
 ---
 term: Taproot
+definition: Sasisho kuu la Bitcoin lililoamilishwa mnamo Novemba 2021 likileta faragha, ufanisi, na unyumbufu kupitia BIP340, 341, na 342.
 ---
 
 Sasisho kuu la itifaki ya Bitcoin, iliyopitishwa kupitia Soft Fork mnamo Novemba 2021. Sasisho hili linaleta maboresho makubwa katika masuala ya faragha, ufanisi na unyumbulifu kwa kutekeleza BIP340, BIP341, na BIP342. Sasisho hili liliwekwa ndani kwenye block 687,284 mnamo Juni 12, 2021, wakati 90% ya vitalu vilivyozalishwa katika kipindi kilikubaliwa, na hivyo kuonyesha utayari wa wachimbaji kuwezesha sasisho (*Jaribio la Haraka*). Uwezeshaji hatimaye ulifanyika katika block 709,632 mnamo Novemba 14, 2021, karibu miaka minne baada ya majadiliano ya awali kuhusu suala hilo kati ya Pieter Wuille, Andrew Poelstra, na Gregory Maxwell. Lilikuwa jaribio la kwanza kuu la kusasisha tangu uanzishaji tata wa SegWit mnamo 2017.

@@ -1,6 +1,7 @@
 ---
-term: LYKKE
+term: Luck
 
+definition: Indikator som måler ytelsen til en miningpool sammenlignet med teoretiske forventninger.
 ---
 En indikator som brukes i utvinningspooler for å måle poolens ytelse i forhold til de teoretiske forventningene. Som navnet antyder, evaluerer den poolens flaks med å finne en blokk. Flaks beregnes ved å sammenligne antallet aksjer som teoretisk sett trengs for å finne en gyldig blokk, basert på Bitcoins nåværende vanskelighetsgrad, med det faktiske antallet aksjer som produseres for å finne den aktuelle blokken. Et lavere antall aksjer enn forventet indikerer flaks, mens et høyere antall indikerer uflaks.
 

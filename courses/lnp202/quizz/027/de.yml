@@ -1,0 +1,9 @@
+question: Welche Informationen erhält watchtower zur Überwachung von Betrug?
+answer: Teilweise TXID der betrügerischen Transaktion
+wrong_answers:
+  - Privater Kanalschlüssel
+  - Vollständiger Kanalstatus
+  - TXID der betrügerischen Transaktion
+explanation: |
+  Der Wachturm empfängt nur einen Teil der TXID der betrügerischen Transaktion, um eine verdächtige Transaktion zu identifizieren, ohne den Kanal zu kennen.
+reviewed: false

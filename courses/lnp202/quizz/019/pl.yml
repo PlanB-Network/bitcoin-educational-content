@@ -1,0 +1,9 @@
+question: Jakie są warunki wstępne instalacji LND na Umbrel?
+answer: Zsynchronizowany węzeł Bitcoin
+wrong_answers:
+  - Konto Umbrel Premium
+  - Istniejący kanał Lightning
+  - Aktywny adres błyskawicy
+explanation: |
+  LND opiera się na w 100% zsynchronizowanym węźle Bitcoin, co jest warunkiem wstępnym jego działania.
+reviewed: false

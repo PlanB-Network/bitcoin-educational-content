@@ -1,6 +1,7 @@
 ---
-term: SEGWIT
+term: Segwit
 
+definition: Atualização de 2017 que separa as assinaturas para aumentar a capacidade e resolver a maleabilidade.
 ---
 SegWit, um acrónimo de "Segregated Witness" (testemunha segregada), é uma atualização do protocolo Bitcoin introduzida em agosto de 2017. Tem como objetivo resolver vários problemas técnicos, incluindo o problema da capacidade de transação da rede, o problema da maleabilidade das transacções e facilitar futuras modificações do protocolo.
 

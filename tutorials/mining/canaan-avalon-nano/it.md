@@ -75,17 +75,18 @@ Di seguito è riportata una tabella che riassume le specifiche tecniche generali
 
 
 
-| Caractéristique                                      | Valeur                                                  |
+
+| Caratteristica                                      | Valore                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------- |
-| Taux de hachage                                      | 6 Th/s +- 5%                                            |
-| Consommation d'énergie                               | 140 W                                                   |
-| Bruit                                                | 30 - 40 dB                                              |
-| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)                |
-| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                            |
-| Plage d'entrée de l'appareil                         | 28V 5A continu                                          |
-| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                                     |
-| Taille de la machine                                 | Longueur: 205 mm /  Largeur: 115 mm / Hauteur:  58.5 mm |
-| Poids de la machine                                  | 0.86 kg                                                 |
+| Hashrate                                      | 6 Th/s +- 5%                                            |
+| Consumo di energia                               | 140 W                                                   |
+| Rumore                                                | 30 - 40 dB                                              |
+| Intervallo di temperatura aria di uscita                 | 60-70°C (a temperatura ambiente 25°C)                |
+| Requisiti di temperatura ambiente per l'uso | da -5 a 30°C                                            |
+| Intervallo di tensione di ingresso del dispositivo                         | 28V 5A continuo                                          |
+| Intervallo di tensione di ingresso dell'adattatore                       | 110-240V AC 50/60Hz                                     |
+| Dimensioni del dispositivo                                 | Lunghezza: 205 mm / Larghezza: 115 mm / Altezza: 58.5 mm |
+| Peso del dispositivo                                  | 0.86 kg                                                 |
 
 ## Accensione e connessione alla rete locale
 

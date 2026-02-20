@@ -1,0 +1,8 @@
+question: Ni igiki gihinduka c'ibidukikije gishobora gushirwaho kugira ngo kigaragaze urutonde rw'amahamagara rwose iyo habaye ubwoba muri Rust?
+answer: RUST_GUSUBIRAMWO
+wrong_answers:
+  - RUST_IKIRUNDIRO
+  - RUST_GUKOSORA_GUKURIKIRA
+  - RUST_UBWOBA_GUKURIKIRA
+explanation: |
+  RUST_BACKTRACE ni umuhinduzi w'ibidukikije ugororotse utanga amakuru y'inyongera yo gukosora mu kwerekana urutonde rw'amahamagara rwose rwatumye haba ubwoba. Ivyo bifasha abahinguzi gukurikirana neza urutonde rw'amahamagara y'ibikorwa vyatumye haba ikosa. Ayandi mahitamwo (RUST_STACKTRACE, RUST_DEBUG_TRACE, na RUST_PANIC_TRACE) ntabwo ari ibihinduka vy'ibidukikije vya Rust kandi ntibizotanga igisubizo co gukosora iyo habaye ubwoba.

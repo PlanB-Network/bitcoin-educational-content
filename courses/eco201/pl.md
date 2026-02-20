@@ -76,7 +76,7 @@ A co, jeśli klucz do zrozumienia dzisiejszej gospodarki leży w teorii sprzed k
 ### Jak powstają pieniądze
 
 
-W naszym obecnym systemie monetarnym pieniądz jest tworzony głównie poprzez praktykę bankową znaną jako "bankowość rezerw cząstkowych". Termin ten zasadniczo oznacza, że banki nie są zobowiązane do utrzymywania tylu rezerw, ile otrzymują w depozytach. W rezultacie mogą one tworzyć nową siłę nabywczą podczas udzielania pożyczek i odwrotnie, zmniejszać siłę nabywczą, gdy klienci spłacają swoje pożyczki.
+W naszym obecnym systemie monetarnym pieniądz jest tworzony głównie poprzez praktykę bankową znaną jako "[bankowość rezerw cząstkowych](https://planb.academy/resources/glossary/fractional-reserves)". Termin ten zasadniczo oznacza, że banki nie są zobowiązane do utrzymywania tylu rezerw, ile otrzymują w depozytach. W rezultacie mogą one tworzyć nową siłę nabywczą podczas udzielania pożyczek i odwrotnie, zmniejszać siłę nabywczą, gdy klienci spłacają swoje pożyczki.
 
 
 Na przykład, gdybyś zwrócił się do lokalnego banku w celu zabezpieczenia kredytu hipotecznego na zakup domu, pieniądze pożyczone ci przez bank zostałyby zapisane w księgach rachunkowych. W księgowości zazwyczaj przedstawiamy majątek netto danej osoby za pomocą bilansu, który ma dwie strony: stronę aktywów, w tym wszelkie nieruchomości, kontrakty finansowe, oszczędności lub inne formy posiadanego bogactwa, oraz stronę pasywów, pokazującą źródło funduszy wykorzystanych do stworzenia kapitału wymienionego po stronie aktywów. Różnica między aktywami a zobowiązaniami jest określana jako "kapitał własny" i może być traktowana jako bogactwo netto jednostki.
@@ -100,7 +100,7 @@ Rysunek 1: Kreacja pieniądza jako zapis księgowy
 > Henry Ford
 
 
-Proces ten pozwala bankom rejestrować wszystkie transakcje, w tym przelewy bankowe, zakupy kartą kredytową i czeki, w określonym okresie (zwykle tydzień lub miesiąc). Następnie rozliczają te transakcje między sobą za pomocą rezerw bankowych, które są inną formą waluty fiducjarnej nigdy nie używanej przez społeczeństwo. Rezerwy bankowe są przechowywane w banku centralnym na specjalnym koncie dostępnym tylko dla licencjonowanych banków i instytucji finansowych.
+Proces ten pozwala bankom rejestrować wszystkie transakcje, w tym przelewy bankowe, zakupy kartą kredytową i czeki, w określonym okresie (zwykle tydzień lub miesiąc). Następnie rozliczają te transakcje między sobą za pomocą rezerw bankowych, które są inną formą [waluty fiducjarnej](https://planb.academy/resources/glossary/fiat) nigdy nie używanej przez społeczeństwo. Rezerwy bankowe są przechowywane w banku centralnym na specjalnym koncie dostępnym tylko dla licencjonowanych banków i instytucji finansowych.
 
 
 ### Niestabilność bankowości opartej na rezerwach cząstkowych i pożyczkodawcy ostatniej instancji
@@ -175,7 +175,7 @@ Inną niezamierzoną konsekwencją ZIRP jest zachęcanie rządów do angażowani
 Wykres 6: Dług publiczny i prywatny jako % PKB (świat, ważony PKB na kraj) / Źródło MFW
 
 
-Wraz z rosnącą inflacją spowodowaną znaczną kreacją pieniądza w odpowiedzi na blokady związane z COVIDem, bankierzy centralni podnoszą obecnie stopy procentowe, próbując ograniczyć inflację. Stanowi to jednak poważne wyzwanie dla całego systemu. Banki są lewarowane bardziej niż kiedykolwiek, rządy mają historycznie wysoki poziom zadłużenia, wzrost gospodarczy jest powolny, deficyty rosną, a konsumenci, zmagający się z rosnącymi cenami podstawowych towarów, z trudem wiążą koniec z końcem. Kontrolowanie inflacji wymagałoby podniesienia stóp procentowych do poziomu, który mógłby doprowadzić rządy do bankructwa, podczas gdy banki ryzykują utratę deponentów, ponieważ osoby fizyczne wydają swoje oszczędności na coraz droższe artykuły pierwszej potrzeby lub szukają schronienia w aktywach materialnych i funduszach rynku pieniężnego, aby zabezpieczyć się przed inflacją.
+Wraz z rosnącą [inflacją](https://planb.academy/resources/glossary/inflation) spowodowaną znaczną kreacją pieniądza w odpowiedzi na blokady związane z COVIDem, bankierzy centralni podnoszą obecnie stopy procentowe, próbując ograniczyć inflację. Stanowi to jednak poważne wyzwanie dla całego systemu. Banki są lewarowane bardziej niż kiedykolwiek, rządy mają historycznie wysoki poziom zadłużenia, wzrost gospodarczy jest powolny, deficyty rosną, a konsumenci, zmagający się z rosnącymi cenami podstawowych towarów, z trudem wiążą koniec z końcem. Kontrolowanie inflacji wymagałoby podniesienia stóp procentowych do poziomu, który mógłby doprowadzić rządy do bankructwa, podczas gdy banki ryzykują utratę deponentów, ponieważ osoby fizyczne wydają swoje oszczędności na coraz droższe artykuły pierwszej potrzeby lub szukają schronienia w aktywach materialnych i funduszach rynku pieniężnego, aby zabezpieczyć się przed inflacją.
 
 
 ### Wnioski
@@ -190,7 +190,7 @@ Wraz z rosnącą inflacją spowodowaną znaczną kreacją pieniądza w odpowiedz
 Zasadniczo nasz system stoi w obliczu poważnych wyzwań, a Bitcoin wyłania się jako jedyna wiarygodna alternatywa. Jednak sam Bitcoin nie jest w stanie rozwiązać problemów naszego systemu monetarnego. Przede wszystkim wśród entuzjastów Bitcoina potrzebujemy osób, które rozumieją podstawowe zasady ekonomiczne, promując szerszą świadomość i zdrowy rozsądek ekonomiczny, aby poprowadzić nas z dala od budowy kolejnego kruchego fundamentu finansowego dla naszej cywilizacji. Głównym celem tego kursu jest edukacja nowych entuzjastów Bitcoina w zakresie zdrowych zasad ekonomicznych.
 
 
-Aby osiągnąć ten cel, wyjaśnimy podstawowe zasady "ekonomii austriackiej", szkoły ekonomicznej o tradycji metodologicznej sięgającej XVI wieku, zapewniającej wgląd w ludzkie działania w warunkach ograniczeń ekonomicznych. Dzięki temu wprowadzeniu rozumiesz teraz podstawy kreacji pieniądza i obecny stan naszego systemu finansowego i monetarnego.
+Aby osiągnąć ten cel, wyjaśnimy podstawowe zasady "[ekonomii austriackiej](https://planb.academy/resources/glossary/austrian-school)", szkoły ekonomicznej o tradycji metodologicznej sięgającej XVI wieku, zapewniającej wgląd w ludzkie działania w warunkach ograniczeń ekonomicznych. Dzięki temu wprowadzeniu rozumiesz teraz podstawy kreacji pieniądza i obecny stan naszego systemu finansowego i monetarnego.
 
 
 W następnym rozdziale zagłębimy się w fundamentalny kamień węgielny każdej ekonomicznej szkoły myślenia: teorię wartości. W kolejnych rozdziałach zajmiemy się pieniądzem jako instytucją społeczną, teorią kapitału i cyklem koniunkturalnym, wyzwaniem kalkulacji ekonomicznej oraz krótkim przeglądem historii i metodologii austriackiej szkoły ekonomii.
@@ -770,10 +770,9 @@ Konsekwencje takiej błędnej alokacji obejmują kryzysy finansowe i gospodarcze
 Dziś debata na temat kalkulacji ekonomicznej powraca przede wszystkim w dyskusjach na temat energii, gdzie złe inwestycje napędzane programem Zielony Ład stają się coraz bardziej widoczne. Pojawia się również w dyskusjach na temat rynków pieniężnych, gdzie ekonomiści austriaccy wskazują, że kryzys z 2008 r., którego ekonomiści głównego nurtu nie przewidzieli, był klasycznym cyklem boomu i załamania, charakteryzującym się przeinwestowaniem na rynku mieszkaniowym z powodu przedłużających się okresów niskich stóp procentowych. Co więcej, neomarksiści i inne frakcje socjalistyczne propagują pogląd, że pojawienie się sztucznej inteligencji może rozwiązać problem kalkulacji ekonomicznej. Perspektywa ta wynika jednak z błędnego zrozumienia tej kwestii; problem obliczeń ekonomicznych nie jest kwestią mocy obliczeniowej, ale raczej kwestią generowania i dystrybucji informacji związanych z produkcją i alokacją zasobów. Informacje te mogą być generowane tylko lokalnie przez podmioty posiadające specjalistyczną wiedzę i żywotnie zainteresowane wynikiem. Sztuczna inteligencja nie może zastąpić tego oddolnego procesu, a zatem nie może pomóc centralnym planistom w rozwiązaniu problemu alokacji zasobów. Niestety, ze względu na trwające od stulecia nieporozumienia, spodziewamy się mnożenia się twierdzeń, że sztuczna inteligencja zapoczątkuje nową erę dobrobytu gospodarczego, kierowaną przez oświeconych centralnych planistów, którzy z pomocą sztucznej inteligencji mogą naprawić niepowodzenia wolnych rynków.
 
 
-Konkretne zastosowanie problemu kalkulacji ekonomicznej we współczesnej sytuacji można znaleźć w tym artykule poświęconym problemowi alokacji zasobów we współczesnych Chinach.
+W celu konkretnego zastosowania problemu kalkulacji ekonomicznej do współczesnej sytuacji można odwołać się do tego artykułu dotyczącego alokacji zasobów we współczesnych Chinach: *[The Road to Financial Repression: China the Paper Tiger](https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web)*, autorstwa Théo Mogeneta.
 
 
-> Droga do represji finansowych: Chiny papierowym tygrysem, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 
 ### Wnioski

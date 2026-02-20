@@ -1,0 +1,9 @@
+question: BIP-34 සිට, coinbase එකේ scriptSig හි ආරම්භයේ අඩංගු විය යුත්තේ කුමක්ද?
+answer: බ්ලොක් එකේ උස (block height)
+wrong_answers:
+  - පතල්කරුගේ (miner) hashrate එක
+  - අපහසුතා ඉලක්කය (difficulty target)
+  - බ්ලොක් එකේ මුද්‍රාව (block footprint)
+explanation: |
+  BIP-34 මගින් coinbase එකේ scriptSig තුළ බ්ලොක් එකේ උස ඇතුළත් කිරීම අනිවාර්ය කරයි.
+reviewed: false

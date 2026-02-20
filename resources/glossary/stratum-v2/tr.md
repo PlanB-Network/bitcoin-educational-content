@@ -1,5 +1,6 @@
 ---
-term: STRATUM V2
+term: Stratum v2
+definition: Daha verimli iletişim, daha iyi güvenlik ve bireysel madencilere daha fazla güç sunan Stratum evrimi.
 ---
 
 Mining için tasarlanan Bitcoin için ünlü yer paylaşımlı ağ protokolü Stratum'un evrimi. Bu tür bir protokol, bireysel madenciler ile Mining pool sunucuları arasındaki iletişimi optimize ederek kârlılıklarını artırmak üzere tasarlanmıştır. Braiins havuzu (eski adıyla "Slush Pool") tarafından geliştirilen Stratum V2, madenciler ve Mining havuzları arasında daha verimli iletişim de dahil olmak üzere çeşitli iyileştirmeler sunar ve böylece gerekli bant genişliğini azaltır. Ayrıca havuzlar için altyapı ihtiyaçlarını da azaltır. Güvenlik açısından, dinleme ve Hashrate'in kötü niyetli yönlendirilmesi de dahil olmak üzere çeşitli ortadaki adam saldırılarını önlemek için kriptografik kimlik doğrulama ekler. Stratum V2'nin önemli bir yönü, bireysel madencilerin üzerinde çalıştıkları bloklara dahil etmek üzere kendi işlem kümelerini seçmelerine olanak tanıyan alt protokoller içermesidir. Bu özellik, havuzların blok şablonu üzerinde tam kontrole sahip olduğu orijinal protokolün aksine, bireysel madencilere daha fazla güç vermektedir. Dolayısıyla bu yöntem, Mining sürecinin havuzlar tarafından ademi merkezileştirilmesini güçlendirebilir.

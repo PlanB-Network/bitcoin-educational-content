@@ -271,7 +271,7 @@ Bepaal de prioriteit van de transactie. Voor een opname zonder kosten kies je "*
 ![Image](assets/fr/32.webp)
 
 
-Als je niet weet hoe een Wallet met zelfbevestiging werkt, bieden we tutorials over de meeste beschikbare oplossingen [op Plan ₿ Academy in de "*Wallet*" sectie] (https://planb.academy/tutorials/wallet).
+Als je niet weet hoe een Wallet met zelfbevestiging werkt, bieden we tutorials over de meeste beschikbare oplossingen [op Plan ₿ Academy in de "*Wallet*" sectie](https://planb.academy/tutorials/wallet).
 
 
 ## Bitcoin verkopen

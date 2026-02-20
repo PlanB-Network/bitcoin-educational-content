@@ -1,6 +1,7 @@
 ---
-term: LIGHTNING SERVICE PROVIDER
+term: Lightning service provider
 
+definition: Ikigo gitanga serivisi z'amahera (liquidity) ku bakoresha Lightning Network.
 ---
 
 Sosiyete ikoresha Lightning ifise ubucuruzi bwo gutanga amafaranga ku bakoresha.

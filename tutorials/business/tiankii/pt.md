@@ -430,8 +430,8 @@ Embora a adoção generalizada do Bitcoin continue a ser um desafio que exige fo
 
 
 - [Sítio Web oficial da Tiankii](https://tiankii.com)
-- [Centro de Ajuda Tiankii] (https://help.tiankii.com)
-- [Aplicação IBI] (https://go.ibi.me)
+- [Centro de Ajuda Tiankii](https://help.tiankii.com)
+- [Aplicação IBI](https://go.ibi.me)
 - [Painel de controlo do comerciante](https://pay.tiankii.com)
 - [Centro de Comando](https://cc.ibi.me)
 

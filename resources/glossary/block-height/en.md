@@ -1,5 +1,6 @@
 ---
-term: BLOCK HEIGHT
+term: Block height
+definition: Sequence number of a block relative to the Genesis block, used to identify a block in the blockchain.
 ---
 
 The block height is the sequence number of a block relative to the first block, known as the Genesis Block, which is indexed at height 0.  It represents the number of blocks preceding the block in question. 

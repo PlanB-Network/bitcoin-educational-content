@@ -44,8 +44,8 @@ Pada tampilan berikutnya, Anda dapat memeriksa ulang nomor yang Anda berikan. Ji
 
 Telegram sekarang sudah berfungsi penuh di ponsel, kita bisa beralih ke pengaturan dasar yang pertama.
 
-# Pengaturan keamanan dan privasi
-## Konfigurasi nama pengguna
+## Pengaturan keamanan dan privasi
+### Konfigurasi nama pengguna
 
 Nama pengguna Telegram — kadang juga disebut `handle` — jauh lebih dari sekadar nama panggilan. `Handle` memang **unik untuk setiap pengguna**.
 
@@ -71,7 +71,7 @@ Di sebagian besar grup dan saluran Telegram, nama pengguna ini diperlukan sebaga
 
 Bagaimana seorang penipu bisa mengambil identitas orang lain? Mereka tidak bisa, berkat keunikan nama pengguna. **Yang bisa mereka lakukan adalah menampilkan "handle" yang "mirip", mengubah sedikit (satu huruf/angka), sehingga hanya mata yang jeli yang dapat melihat dengan jelas bahwa itu adalah penipu.** Selalu perhatikan baik-baik nama pengguna, dan Anda akan melihat bahwa penipu tidak akan mudah memperdaya Anda.
 
-## Privasi
+### Privasi
 
 Tindakan pencegahan penting lainnya yang bisa Anda lakukan, yaitu membatasi informasi yang keluar dari akun yang baru Anda buat.
 Kembali ke menu utama, lalu masuk ke _Settings / Pengaturan_:
@@ -92,7 +92,7 @@ Ini adalah langkah-langkah yang akan mencegah terungkapnya nomor telepon Anda, s
 
 Sekarang akun Telegram Anda sudah diatur dan privasi Anda sedikit lebih terjaga, Anda bisa mulai menggunakannya.
 
-## Menambahkan kontak dan obrolan
+### Menambahkan kontak dan obrolan
 
 Jika akun Anda baru saja dibuat, kemungkinan besar halaman utama akan terlihat kosong sama sekali.
 Di sini Anda sudah dapat melihat 2 fungsi utama yang akan Anda gunakan untuk berkirim pesan:
@@ -129,7 +129,7 @@ Secara default, setiap orang, mulai dari pengguna individu hingga saluran temati
 
 ⚠️ Perhatian: **Hindari bergabung dengan grup dan saluran tanpa memverifikasi keasliannya.** Untuk menemukan saluran/grup Telegram resmi dari sebuah perusahaan atau topik yang ingin Anda ikuti, carilah bantuan dari bagian Kontak di situs web resmi atau dari sumber yang sangat terpercaya.
 
-### Fitur Perpesanan Tingkat Lanjut
+#### Fitur Perpesanan Tingkat Lanjut
 
 Telegram punya beberapa fitur canggih yang unik untuk bertukar pesan. Masuklah ke dalam obrolan dan klik pada latar belakang, di sebelah pesan dari pengirim lain.
 Serangkaian pilihan akan muncul, yang bisa Anda gunakan untuk:
@@ -144,7 +144,7 @@ Jika Anda melakukan operasi yang sama pada salah satu pesan Anda, **Anda akan me
 Anda juga dapat melampirkan file besar, bertukar media "berat" dengan mudah, jauh lebih mudah daripada semua aplikasi lain dari jenis ini.
 ![image](assets/en/46.webp)
 
-### Awan Pribadi
+#### Awan Pribadi
 
 Di antara banyak fitur Telegram yang luar biasa, ada juga penyimpanan cloud pribadi yang (saat artikel ini ditulis) — **tidak terbatas**.
 
@@ -160,7 +160,7 @@ Obrolan muncul di latar depan, siap digunakan.
 **(1)** _Jangan gunakan cloud Telegram untuk informasi rahasia seperti kata sandi, pin, mnemonik, dan data semacam ini_.
 ***
 
-## Penjadwalan Pesan dan Pengiriman Senyap
+### Penjadwalan Pesan dan Pengiriman Senyap
 
 Fitur canggih lainnya yang berguna memungkinkan Anda mengirim pesan dengan tetap menghormati privasi penerima, yaitu dengan memilih antara pengiriman senyap dan penjadwalan pesan pada waktu serta hari yang sesuai. Yang perlu Anda lakukan hanyalah menulis pesan, tetapi alih-alih langsung mengirimkannya, tekan dan tahan ikon kirim selama beberapa detik. Layar yang biasanya langsung mengirim pesan akan berubah menampilkan pilihan-pilihan baru, di mana Anda bisa memilih:
 - menjadwalkan pesan (tanggal dan waktu)
@@ -168,7 +168,7 @@ Fitur canggih lainnya yang berguna memungkinkan Anda mengirim pesan dengan tetap
 - mengirim secara diam-diam, agar tidak mengaktifkan notifikasi penerima.
 ![image](assets/en/48.webp)
 
-### Menghapus cache ponsel Anda
+#### Menghapus cache ponsel Anda
 
 Praktik berguna lainnya untuk menjaga kinerja ponsel Anda tetap efisien adalah membersihkan cache Telegram secara berkala. Tergantung pada berapa banyak grup dan saluran yang Anda ikuti, informasi dan media dari sumber-sumber ini dapat menumpuk di cache, membuat ponsel Anda lambat.
 
@@ -195,7 +195,7 @@ Saya sarankan untuk tidak menyimpan ruang tak terbatas untuk foto dan video, mel
 Anda bisa melihat di foto berikut di mana letak pengaturan ini.
 ![image](assets/en/28.webp)
 
-## Desktop Telegram
+### Desktop Telegram
 
 Telegram bisa digunakan dari komputer Anda dan disinkronkan dengan akun yang ada di ponsel Anda. Anda bisa memilih untuk tidak mengunduh aplikasi dan hanya menggunakannya melalui web. Namun, versi web ini memiliki keterbatasan dibandingkan dengan versi yang diinstal di komputer, jadi saya sarankan untuk mengunduh dan menginstalnya agar Anda bisa memanfaatkan fitur canggih ini secara maksimal.
 
@@ -236,7 +236,7 @@ Notifikasi di ponsel Anda mengonfirmasi bahwa perangkat baru berhasil ditambahka
 
 Akhirnya, Telegram telah aktif dan dapat digunakan di komputer desktop Anda.
 
-### Panggilan Grup
+#### Panggilan Grup
 
 Jika Anda seorang administrator atau pemilik grup Telegram, Anda dapat memulai panggilan langsung dari menu grup itu sendiri. Dengan cara ini, Anda bisa melakukan siaran langsung dengan banyak peserta, merekamnya dalam audio dan video, membagikannya, atau menggunakannya untuk tujuan seperti pendidikan.
 
@@ -244,6 +244,6 @@ Pada gambar berikut, Anda dapat melihat cara memulai panggilan grup menggunakan 
 ![image](assets/en/47.webp)
 
 
-### Pertimbangan Akhir
+#### Pertimbangan Akhir
 
 Sekarang setelah Anda membaca tutorial ini, Anda sudah sangat mampu menggunakan Telegram, tanpa terpengaruh oleh kebisingan yang ditimbulkan oleh pengguna lainnya, atau oleh opini umum. Anda bisa memulai dengan pendekatan ringan dan kemudian menemukan cara untuk memanfaatkan aplikasi pesan ini semaksimal mungkin, sesuai dengan kebutuhan pribadi Anda.

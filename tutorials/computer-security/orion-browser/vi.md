@@ -522,15 +522,16 @@ Hệ thống dẫn đường riêng của Orion (⌘⇧N) cung cấp:
 
 
 
-| Critère | Orion | Safari | Chrome | Firefox | Brave |
+
+| Tiêu chí | Orion | Safari | Chrome | Firefox | Brave |
 |---------|-------|--------|---------|----------|--------|
-| **Télémétrie** | Aucune | Minimale | Extensive | Modérée | Minimale |
-| **Bloqueur natif** | 99,9% efficace | Basique | Absent | Partiel | Complet |
-| **Extensions** | Chrome + Firefox | Limitées | Chrome uniquement | Firefox uniquement | Chrome uniquement |
-| **Performance Mac** | Excellente | Excellente | Bonne | Moyenne | Bonne |
-| **Consommation RAM** | Très faible | Faible | Élevée | Moyenne | Moyenne |
-| **Open Source** | Partiel | Partiel (WebKit) | Partiel | Complet | Complet |
-| **Plateformes** | Mac/iOS | Mac/iOS | Toutes | Toutes | Toutes |
+| **Đo tầm xa** | Không có | Tối thiểu | Rộng rãi | Vừa phải | Tối thiểu |
+| **Trình chặn gốc** | 99,9% hiệu quả | Cơ bản | Không có | Một phần | Hoàn chỉnh |
+| **Tiện ích mở rộng** | Chrome + Firefox | Hạn chế | Chỉ Chrome | Chỉ Firefox | Chỉ Chrome |
+| **Hiệu suất Mac** | Xuất sắc | Xuất sắc | Tốt | Trung bình | Tốt |
+| **Tiêu thụ RAM** | Rất thấp | Thấp | Cao | Trung bình | Trung bình |
+| **Mã nguồn mở** | Một phần | Một phần (WebKit) | Một phần | Hoàn chỉnh | Hoàn chỉnh |
+| **Nền tảng** | Mac/iOS | Mac/iOS | Tất cả | Tất cả | Tất cả |
 
 **So với Safari**: Orion cung cấp khả năng bảo vệ vượt trội với trình chặn tiên tiến và hỗ trợ tiện ích mở rộng, đồng thời vẫn duy trì hiệu suất WebKit.
 

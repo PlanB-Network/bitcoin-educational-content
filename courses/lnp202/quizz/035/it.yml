@@ -1,0 +1,9 @@
+question: Qual è lo scopo principale di un router su Lightning?
+answer: Guadagnare con le commissioni di routing
+wrong_answers:
+  - Guadagnare denaro mostrando la strada
+  - Guadagnare vendendo liquidità in entrata
+  - Guadagnare denaro pubblicando stati del canale obsoleti
+explanation: |
+  Il router cerca di instradare i pagamenti da altri raccogliendo le commissioni di routing.
+reviewed: false

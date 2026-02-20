@@ -122,16 +122,17 @@ Ispod je tabela sažetka opštih tehničkih specifikacija za Mini 3:
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| Karakteristika                                      | Vrednost                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
 | Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| Potrošnja energije                              | 800 W                                                     |
+| Buka                                                | 35-55 dB                                                  |
+| Temperatura vazduha na izlazu                       | 60-70°C (na temperaturi okoline 25°C)                  |
+| Zahtevi temperature okoline za upotrebu | -5° C - 40°C                                              |
+| Opseg ulaznog napona uređaja                         | 110V-240V AC 50/60Hz                                      |
+| Veličina mašine                                 | Dužina: 760 mm / Dubina: 104 mm / Visina: 214.5 mm |
+| Težina mašine                                  |  8.35 kg                                                  |
 
 ## Povezivanje na Mining pool
 

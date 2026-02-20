@@ -76,9 +76,9 @@ objectives:
 
 :::video id=4315a277-12fe-4946-bb49-a807e60c09a7:::
 
-歡迎來到 LNP201 課程，此課程旨在說明 Lightning Network 的技術功能。
+歡迎來到 LNP201 課程，此課程旨在說明 [Lightning Network](https://planb.academy/resources/glossary/lightning-network) 的技術功能。
 
-Lightning Network 是建構在 Bitcoin 通訊協定之上的付款通道網路，旨在實現快速且低成本的交易。它允許在參與者之間建立付款通道，在此通道中，交易幾乎可以立即進行且費用極低，而無需在 Blockchain 上個別記錄每筆交易。因此，Lightning Network 旨在提高 Bitcoin 的可擴展性，使其可用於低額支付。
+Lightning Network 是建構在 Bitcoin 通訊協定之上的[付款通道](https://planb.academy/resources/glossary/payment-channel)網路，旨在實現快速且低成本的交易。它允許在參與者之間建立付款通道，在此通道中，交易幾乎可以立即進行且費用極低，而無需在 [Blockchain](https://planb.academy/resources/glossary/blockchain) 上個別記錄每筆交易。因此，Lightning Network 旨在提高 Bitcoin 的[可擴展性](https://planb.academy/resources/glossary/scalability)，使其可用於低額支付。
 
 在探索 「網路 」方面之前，了解 Lightning 上**付款通道**的概念、其運作方式及其具體細節是非常重要的。這是第一章的主題。
 
@@ -88,7 +88,7 @@ Lightning Network 是建構在 Bitcoin 通訊協定之上的付款通道網路�
 
 ![LNP201](assets/en/001.webp)
 
-在我們的範例中，Alice 在信道的一端有 100,000 衛星，Bob 有 30,000 衛星，總共 130,000 衛星，這就是 **信道容量**。
+在我們的範例中，Alice 在信道的一端有 100,000 [衛星](https://planb.academy/resources/glossary/satoshi-sat)，Bob 有 30,000 衛星，總共 130,000 衛星，這就是 **[信道容量](https://planb.academy/resources/glossary/lightning-channel-capacity)**。
 
 **But what is a Satoshi? **
 
@@ -139,7 +139,7 @@ Lightning Network 是建構在 Bitcoin 通訊協定之上的付款通道網路�
 
 ### Bitcoin 位址、私人密碼匙和公用密碼匙
 
-Bitcoin Address 是一串從**公鑰**衍生出來的字元，而**公鑰**本身則是從**私鑰**計算出來的。您一定知道，它是用來鎖定比特幣的，等於在我們的 Wallet 中接收比特幣。
+Bitcoin Address 是一串從**[公鑰](https://planb.academy/resources/glossary/public-key)**衍生出來的字元，而**公鑰**本身則是從**[私鑰](https://planb.academy/resources/glossary/private-key)**計算出來的。您一定知道，它是用來鎖定比特幣的，等於在我們的 Wallet 中接收比特幣。
 
 私密金鑰是**絕對不能共用的秘密元素**，而公開金鑰和 Address 則可以共用，沒有安全風險 (它們的洩露只代表您的隱私有風險)。以下是我們在整個培訓過程中將採用的通用表示法：
 
@@ -150,9 +150,9 @@ Bitcoin Address 是一串從**公鑰**衍生出來的字元，而**公鑰**本�
 
 ### Bitcoin 交易：發送資金和腳本
 
-在 Bitcoin 上，交易涉及從一個 Address 向另一個 Address 發送資金。讓我們以 Alice 傳送 0.002 Bitcoin 給 Bob 為例。Alice 使用與她的 Address 相關聯的私密金鑰來簽署交易，從而證明她確實能夠使用這些資金。但這筆交易背後到底發生了什麼？Bitcoin Address 上的資金是由**指令碼**鎖定的，這是一種迷你程式，強制某些條件才能使用資金。
+在 Bitcoin 上，交易涉及從一個 Address 向另一個 Address 發送資金。讓我們以 Alice 傳送 0.002 Bitcoin 給 Bob 為例。Alice 使用與她的 Address 相關聯的私密金鑰來簽署交易，從而證明她確實能夠使用這些資金。但這筆交易背後到底發生了什麼？Bitcoin Address 上的資金是由**[指令碼](https://planb.academy/resources/glossary/script)**鎖定的，這是一種迷你程式，強制某些條件才能使用資金。
 
-最常見的腳本需要使用與 Address 相關的私密金鑰簽名。當 Alice 用她的私人密碼匙簽署交易時，她就**解鎖了封鎖資金的腳本**，然後資金就可以被轉移。轉移資金涉及為這些資金加入新的腳本，規定這次要花掉這些資金，需要**Bob 的**私鑰簽名。
+最常見的腳本需要使用與 Address 相關的私密金鑰[簽名](https://planb.academy/resources/glossary/digital-signature)。當 Alice 用她的私人密碼匙簽署交易時，她就**解鎖了封鎖資金的腳本**，然後資金就可以被轉移。轉移資金涉及為這些資金加入新的腳本，規定這次要花掉這些資金，需要**Bob 的**私鑰簽名。
 
 ![LNP201](assets/en/005.webp)
 
@@ -217,9 +217,9 @@ UTXO 不能分割。每次使用它們來花費它們所代表的比特幣金額
 關鍵是要清楚區分 Lightning Network 上 Exchange 的不同等級：
 
 
-- 點對點通訊（Lightning 協議）：這些是 Lightning 節點互相傳送以進行通訊的訊息。我們會在圖表中以黑色虛線表示這些訊息。
+- [點對點](https://planb.academy/resources/glossary/peertopeer-p2p)通訊（Lightning 協議）：這些是 [Lightning 節點](https://planb.academy/resources/glossary/lightning-node)互相傳送以進行通訊的訊息。我們會在圖表中以黑色虛線表示這些訊息。
 - 付款通道（閃電協定）：這些是在 Lightning 上交換資金的路徑，我們將以黑色實線表示。
-- Bitcoin 交易 (Bitcoin 協定)：這些是在鏈上進行的交易，我們將用橙色線表示。
+- Bitcoin 交易 (Bitcoin 協定)：這些是在[鏈上](https://planb.academy/resources/glossary/onchain)進行的交易，我們將用橙色線表示。
 
 ![LNP201](assets/en/010.webp)
 
@@ -259,7 +259,7 @@ UTXO 不能分割。每次使用它們來花費它們所代表的比特幣金額
 
 ### 頻道何時開放？
 
-一旦存款交易包含在 Bitcoin 區塊中，且達到一定的確認深度（跟蹤區塊的數量），該通道即被視為開放。
+一旦存款交易包含在 Bitcoin [區塊](https://planb.academy/resources/glossary/block)中，且達到一定的[確認](https://planb.academy/resources/glossary/confirmation)深度（跟蹤區塊的數量），該通道即被視為開放。
 
 **你應該從本章記住什麼？**
 
@@ -292,7 +292,7 @@ UTXO 不能分割。每次使用它們來花費它們所代表的比特幣金額
 
 ### 未公開的交易：Commitment 交易
 
-當 Alice 在通道中進行交易，將資金發送給 Bob 時，就會創建一個新的 Bitcoin 交易，以反映資金分配的這種變化。此交易稱為 **Commitment Transaction**，不會在 Blockchain 上公佈，但代表通道在 Lightning 交易後的新狀態。
+當 Alice 在通道中進行交易，將資金發送給 Bob 時，就會創建一個新的 Bitcoin 交易，以反映資金分配的這種變化。此交易稱為 **[Commitment Transaction](https://planb.academy/resources/glossary/commitment-transaction)**，不會在 Blockchain 上公佈，但代表通道在 Lightning 交易後的新狀態。
 
 讓我們以 Alice 傳送 30,000 Satoshis 給 Bob 為例：
 
@@ -372,10 +372,10 @@ UTXO 不能分割。每次使用它們來花費它們所代表的比特幣金額
 為了防止 Alice 這種作弊行為，在 Lightning Network 上，Commitment 交易中加入了**安全機制**：
 
 
-- 時間鎖：每個 Commitment Transaction 包含 Alice 資金的時間鎖。時間鎖是一個 Smart contract 原始物件，它設定了一個時間條件，交易必須滿足這個條件才能加入區塊。這表示，如果 Alice 發佈了其中一個 Commitment 交易，在經過一定數量的區塊之前，她無法取回她的資金。這個時間鎖從 Commitment Transaction 的確認開始適用。其持續時間一般與通道的大小成正比，但也可以手動設定。
+- [時間鎖](https://planb.academy/resources/glossary/timelock)：每個 Commitment Transaction 包含 Alice 資金的時間鎖。時間鎖是一個 [Smart contract](https://planb.academy/resources/glossary/smart-contract) 原始物件，它設定了一個時間條件，交易必須滿足這個條件才能加入區塊。這表示，如果 Alice 發佈了其中一個 Commitment 交易，在經過一定數量的區塊之前，她無法取回她的資金。這個時間鎖從 Commitment Transaction 的確認開始適用。其持續時間一般與通道的大小成正比，但也可以手動設定。
 - 撤銷金鑰：如果 Bob 擁有**撤銷金鑰**，Alice 的資金也可以立即被 Bob 使用。此金鑰由 Alice 持有的秘密和 Bob 持有的秘密組成。請注意，每個 Commitment Transaction 的這個秘密都是不同的。
 
-由於這兩種機制的結合，鮑勃有時間偵測到愛麗絲企圖作弊，並透過撤銷金鑰取回他的輸出來懲罰她，對鮑勃來說，這意味著取回通道的所有資金。我們新的 Commitment Transaction 現在會變成這樣：
+由於這兩種機制的結合，鮑勃有時間偵測到愛麗絲企圖作弊，並透過撤銷金鑰取回他的[輸出](https://planb.academy/resources/glossary/output)來懲罰她，對鮑勃來說，這意味著取回通道的所有資金。我們新的 Commitment Transaction 現在會變成這樣：
 
 ![LNP201](assets/en/025.webp)
 
@@ -387,7 +387,7 @@ UTXO 不能分割。每次使用它們來花費它們所代表的比特幣金額
 
 
 - Alice 和 Bob 有一個新的 Commitment Transaction，代表閃電交易後目前的資金分佈。
-- 每個人都有對方之前交易的秘密，只有當其中一方嘗試作弊，在 Bitcoin 節點的 mempool 中發佈舊狀態的交易時，他們才能使用撤銷金鑰。事實上，為了懲罰對方，必須同時持有兩個秘密和對方的 Commitment Transaction，其中包括已簽署的輸入。如果沒有這個交易，光有撤銷金鑰是沒有用的。要取得這筆交易的唯一方法，就是在時間鎖定期間，從 mempool（等待確認的交易中）或 Blockchain 上已確認的交易中擷取，這證明對方無論有意或無意，都在試圖作弊。
+- 每個人都有對方之前交易的秘密，只有當其中一方嘗試作弊，在 Bitcoin 節點的 [mempool](https://planb.academy/resources/glossary/mempool) 中發佈舊狀態的交易時，他們才能使用撤銷金鑰。事實上，為了懲罰對方，必須同時持有兩個秘密和對方的 Commitment Transaction，其中包括已簽署的[輸入](https://planb.academy/resources/glossary/input)。如果沒有這個交易，光有撤銷金鑰是沒有用的。要取得這筆交易的唯一方法，就是在時間鎖定期間，從 mempool（等待確認的交易中）或 Blockchain 上已確認的交易中擷取，這證明對方無論有意或無意，都在試圖作弊。
 
 讓我們舉個例子來了解這個過程：
 
@@ -462,7 +462,7 @@ Lightning Network 上的**Commitment 交易**包含安全機制，可降低作�
 ![LNP201](assets/en/031.webp)
 
 
-- Alice 和 Bob 一起協商**成交交易**的費用。這些費用通常根據成交時的 Bitcoin 費用市場來計算。必須注意的是，**總是由開啟通道的人**（在我們的例子中為 Alice）支付成交費用。
+- Alice 和 Bob 一起協商**成交交易**的[費用](https://planb.academy/resources/glossary/transaction-fees)。這些費用通常根據成交時的 Bitcoin 費用市場來計算。必須注意的是，**總是由開啟通道的人**（在我們的例子中為 Alice）支付成交費用。
 - 他們建構一個新的**結束交易**。此交易類似 Commitment Transaction，但沒有時間鎖或撤銷機制，因為雙方都是合作的，不存在作弊的風險。因此，這種合作式成交交易與 Commitment 交易不同。
 
 例如，如果 Alice 擁有**100,000 Satoshis**，Bob 擁有**30,000 Satoshis**，在沒有時間限制的情況下，成交交易會將**100,000 Satoshis**傳送至 Alice 的 Address，並將**30,000 Satoshis**傳送至 Bob 的 Address。一旦雙方簽署此交易，Alice 就會公佈此交易。一旦交易在 Bitcoin Blockchain 上確認，Lightning 通道將正式關閉。
@@ -524,7 +524,7 @@ Lightning Network 上的**Commitment 交易**包含安全機制，可降低作�
 
 ### 付款管道網路
 
-在 Lightning Network 上，交易對應於兩個節點之間的資金轉移。如前幾章所見，要進行 Lightning 交易，必須與某人打開一個通道。這個通道允許幾乎無限次的 off-chain 交易，然後再關閉，以收回 On-Chain 的餘額。但是，這種方法的缺點是需要與對方建立直接的通道才能接收或發送資金，這意味著每個通道都有一個開啟交易和關閉交易。如果我打算與此人進行大量付款，開啟和關閉一個通道就變得很划算。相反，如果我只需要執行幾筆 Lightning 交易，開立直接通道就不具優勢，因為這會讓我花費 2 個 On-Chain 交易來進行有限的 off-chain 交易。舉例來說，當想在某個商家使用 Lightning 付款而不打算返回時，就可能發生這種情況。
+在 Lightning Network 上，交易對應於兩個節點之間的資金轉移。如前幾章所見，要進行 Lightning 交易，必須與某人打開一個通道。這個通道允許幾乎無限次的 [off-chain](https://planb.academy/resources/glossary/offchain) 交易，然後再關閉，以收回 On-Chain 的餘額。但是，這種方法的缺點是需要與對方建立直接的通道才能接收或發送資金，這意味著每個通道都有一個開啟交易和關閉交易。如果我打算與此人進行大量付款，開啟和關閉一個通道就變得很划算。相反，如果我只需要執行幾筆 Lightning 交易，開立直接通道就不具優勢，因為這會讓我花費 2 個 On-Chain 交易來進行有限的 off-chain 交易。舉例來說，當想在某個商家使用 Lightning 付款而不打算返回時，就可能發生這種情況。
 
 為了解決這個問題，Lightning Network 允許透過多個通道和中介節點來路由付款，因此可以在沒有與對方直接通道的情況下進行交易。
 
@@ -536,7 +536,7 @@ Lightning Network 上的**Commitment 交易**包含安全機制，可降低作�
 
 ![LNP201](assets/en/037.webp)
 
-如果 Alice 想要將資金寄給 Bob 而不直接與他開通管道，她就必須透過 Suzie，而每個管道都需要調整雙方的流動性。 **發送的 Satoshis 會留在各自的通道**內；它們實際上並沒有「跨過」通道，而是透過調整每個通道的內部流動性來進行轉移。
+如果 Alice 想要將資金寄給 Bob 而不直接與他開通管道，她就必須透過 Suzie，而每個管道都需要調整雙方的[流動性](https://planb.academy/resources/glossary/liquidity-lightning)。 **發送的 Satoshis 會留在各自的通道**內；它們實際上並沒有「跨過」通道，而是透過調整每個通道的內部流動性來進行轉移。
 
 假設 Alice 想要寄送 **50,000 Satoshis** 給 Bob：
 
@@ -686,7 +686,7 @@ HTLC 是基於兩個原則的特殊 Contract：
 
 ![LNP201](assets/en/048.webp)
 
-**創建秘密**：鮑勃產生一個隨機秘密，記為 _s_（前影像），並使用記為 _h_ 的 Hash 函數計算其 Hash，記為 _r_。我們有
+**創建秘密**：鮑勃產生一個隨機秘密，記為 _s_（前影像），並使用記為 _h_ 的 [Hash 函數](https://planb.academy/resources/glossary/hash-function)計算其 Hash，記為 _r_。我們有
 
 $$
 r = h(s)
@@ -799,7 +799,7 @@ HTLC 可使 Lightning 付款通過多個節點進行路由，而無需信任這�
 
 ### 網路地圖更新
 
-為了保持其網路地圖的最新狀態，節點會透過稱為 "**_gossip_**"的演算法定期傳送 Exchange 訊息。這是一種分散式演算法，用來以流行的方式將資訊傳播給網路中的所有節點，可在幾個通訊週期內完成 Exchange 和頻道的 Global State 同步。每個節點將資訊傳播給一個或多個隨機或非隨機選擇的鄰居，這些鄰居再將資訊傳播給其他鄰居，如此類推，直到達到全球同步狀態。
+為了保持其網路地圖的最新狀態，節點會透過稱為 "**_[gossip](https://planb.academy/resources/glossary/gossip)_**"的演算法定期傳送 Exchange 訊息。這是一種分散式演算法，用來以流行的方式將資訊傳播給網路中的所有節點，可在幾個通訊週期內完成 Exchange 和頻道的 Global State 同步。每個節點將資訊傳播給一個或多個隨機或非隨機選擇的鄰居，這些鄰居再將資訊傳播給其他鄰居，如此類推，直到達到全球同步狀態。
 
 Lightning 節點之間交換的 2 個主要訊息如下：
 
@@ -881,7 +881,7 @@ Alice 決定測試她的第一條路線 (`Alice→1→2→5→Bob`)。因此，�
 
 :::video id=309c3412-506e-4189-ad46-5e5088c55008:::
 
-在本章中，我們將進一步了解 Lightning **發票**的操作，也就是收款節點發送給發款節點的付款請求。我們的目標是了解如何在Lightning上付款和收款。我們還將討論經典發票的兩個替代方案：LNURL 和 Keysend。
+在本章中，我們將進一步了解 Lightning **發票**的操作，也就是收款節點發送給發款節點的付款請求。我們的目標是了解如何在Lightning上付款和收款。我們還將討論經典發票的兩個替代方案：[LNURL](https://planb.academy/resources/glossary/lnurl) 和 Keysend。
 
 ![LNP201](assets/en/068.webp)
 
@@ -965,7 +965,7 @@ Invoice 的有效負載包括處理付款所需的幾項資訊：
 - 路由提示：收件人提供的附加資訊，以協助寄件人最佳化付款路徑。
 - **簽名**：透過認證所有資訊，保證 Invoice 的完整性。
 
-然後，發票會以 **bech32** 編碼，格式與 Bitcoin SegWit 位址相同（格式以 `bc1` 開頭）。
+然後，發票會以 **[bech32](https://planb.academy/resources/glossary/bech32-and-bech32m)** 編碼，格式與 Bitcoin [SegWit](https://planb.academy/resources/glossary/segwit) 位址相同（格式以 `bc1` 開頭）。
 
 ### LNURL 退出
 
@@ -1011,8 +1011,8 @@ LNURL 是一種通訊協定，它指定了一系列功能，旨在簡化 Lightni
 Lightning 上有三種主要的用戶類型，每種類型都有特定的流動性需求：
 
 
-- 付款人：這是付款者。他們需要流出的流動資金，才能將資金轉移給其他使用者。例如，這可能是消費者。
-- 賣方（或收款人）：這是接受付款的一方。他們需要流入的流動資金才能接受付款到他們的節點。例如，這可能是一個企業或網上商店。
+- 付款人：這是付款者。他們需要[流出的流動資金](https://planb.academy/resources/glossary/outbound-capacity)，才能將資金轉移給其他使用者。例如，這可能是消費者。
+- 賣方（或收款人）：這是接受付款的一方。他們需要[流入的流動資金](https://planb.academy/resources/glossary/inbound-capacity)才能接受付款到他們的節點。例如，這可能是一個企業或網上商店。
 - 路由器：中介節點 (intermediary node)，通常專門負責路由付款，必須優化其在每個通道的流動性，以路由盡可能多的付款並賺取費用。
 
 這些設定檔顯然不是固定的；用戶可以根據交易在付款人和收款人之間切換。舉例來說，Bob 可以透過 Lightning 從他的雇主領取薪水，這讓他處於需要流入流動資金的「賣方」位置。隨後，如果他想用自己的工資購買食物，他就變成了 「付款人」，必須有流出的流動資金。
@@ -1092,7 +1092,7 @@ Lightning 上有三種主要的用戶類型，每種類型都有特定的流動�
 
 - 通道開啟：通道的建立透過 Bitcoin 交易完成，該交易將資金鎖定在 2/2 多重簽章 Address 中。此存款代表 Blockchain 上的 Lightning 通道。
 
-![LNP201](assets/en/076.webp) 2. **Transactions in the Channel**: In this channel, it is then possible to carry out numerous transactions without having to publish them on the blockchain. Each Lightning transaction creates a new state of the channel reflected in a commitment transaction.
+![LNP201](assets/en/076.webp) 2. **Transactions in the Channel**: In this channel, it is then possible to carry out numerous transactions without having to publish them on the blockchain. Each Lightning transaction creates a new state of the channel reflected in a [commitment transaction](https://planb.academy/resources/glossary/commitment-transaction).
 
 ![LNP201](assets/en/077.webp)
 
@@ -1139,6 +1139,10 @@ Lightning 上有三種主要的用戶類型，每種類型都有特定的流動�
 - 合作開倉：也有一些平台可供連接進行三角開盤，並有流入的流動資金。
 
 ![LNP201](assets/en/084.webp)
+
+既然您已經理解了 Lightning Network 的理論運作方式，便可以進入實作階段，建立您的第一個 Lightning 節點，以在使用中獲得更大的自主性。為此，請修讀 LNP 202 課程：
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 # 總結
 

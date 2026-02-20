@@ -1,6 +1,7 @@
 ---
 term: VIN
 
+definition: Bitcoin-rahansiirron osa, joka määrittää varojen lähteen viittaamalla aiempaan UTXOon.
 ---
 Bitcoin-tapahtuman erityinen elementti, joka määrittelee lähteen, josta varat on käytetty tuotosten tyydyttämiseen. Jokainen `vin` viittaa edellisen transaktion käyttämättömään tuotokseen (UTXO). Transaktio voi sisältää useita tuloja, joista jokainen tunnistetaan yhdistelmällä `txid` (alkuperäisen transaktion tunniste) ja `vout` (kyseisen transaktion tuotoksen indeksi).
 

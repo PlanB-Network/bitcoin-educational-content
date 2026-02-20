@@ -1386,7 +1386,7 @@ Je bent nu verbonden met je Dojo.
 
 
 
-Dojo installeert automatisch een Block explorer, [BTC-RPC Explorer] (https://github.com/janoside/btc-RPC-explorer), die direct put uit gegevens van je eigen Bitcoin node. Een explorer geeft je toegang tot ruwe informatie van Blockchain en je Mempool via een eenvoudig te begrijpen Interface web. Zo kun je bijvoorbeeld gemakkelijk de status van een lopende transactie controleren, het saldo van een Address bekijken of de samenstelling van een blok onderzoeken.
+Dojo installeert automatisch een Block explorer, [BTC-RPC Explorer](https://github.com/janoside/btc-RPC-explorer), die direct put uit gegevens van je eigen Bitcoin node. Een explorer geeft je toegang tot ruwe informatie van Blockchain en je Mempool via een eenvoudig te begrijpen Interface web. Zo kun je bijvoorbeeld gemakkelijk de status van een lopende transactie controleren, het saldo van een Address bekijken of de samenstelling van een blok onderzoeken.
 
 
 
@@ -1422,7 +1422,7 @@ Als je al verbonden bent met je DMT, kun je deze Address ook vinden in het "*Pai
 
 
 
-Om toegang te krijgen tot je browser vanaf elke machine op elk netwerk (zelfs op afstand), open je [Tor Browser] (https://www.torproject.org/download/) en voer je de URL in die je zojuist hebt opgehaald.
+Om toegang te krijgen tot je browser vanaf elke machine op elk netwerk (zelfs op afstand), open je [Tor Browser](https://www.torproject.org/download/) en voer je de URL in die je zojuist hebt opgehaald.
 
 
 

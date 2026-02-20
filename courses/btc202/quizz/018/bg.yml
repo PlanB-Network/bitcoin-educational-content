@@ -1,5 +1,5 @@
-question: Коя е най-широко използваната реализация на възел Bitcoin?
-answer: Ядро Bitcoin
+question: Коя е най-широко използваната реализация на възел за Bitcoin?
+answer: Bitcoin core
 wrong_answers:
   - Bitcoin Knots
   - Bitcoin Classic

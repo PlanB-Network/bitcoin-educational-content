@@ -1,5 +1,6 @@
 ---
-term: SCRIPTWITNESS
+term: Scriptwitness
+definition: SegWit-element som innehåller signaturer och offentliga nycklar för att låsa upp bitcoins.
 ---
 
 Ett element i SegWit-transaktionsposter som innehåller de signaturer och publika nycklar som krävs för att låsa upp de bitcoins som skickats i transaktionen. I likhet med `scriptSig` i Legacy-transaktioner är `scriptWitness` dock inte placerat på samma plats. Det är faktiskt denna del, som kallas "vittnet" (`*witness*` på engelska), som flyttas till en separat databas för att lösa problemet med transaktionens formbarhet. Varje SegWit-ingång har sitt eget `scriptWitness`, och alla `scriptWitness` Elements bildar tillsammans transaktionens `Witness`-fält.

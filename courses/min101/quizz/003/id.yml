@@ -1,0 +1,9 @@
+question: Di Bitcoin, bukti apa yang paling sering digunakan untuk membuka kunci UTXO?
+answer: Tanda tangan digital
+wrong_answers:
+  - Kata sandi akun
+  - Hash blok saat ini
+  - Sertifikat SSL
+explanation: |
+  Kondisi pengeluaran biasanya memerlukan tanda tangan yang dihasilkan dengan kunci pribadi yang sesuai.
+reviewed: false

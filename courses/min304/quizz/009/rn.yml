@@ -1,0 +1,12 @@
+question: Ni uruhara uruhe rwa porogarame muri Bitcoin Mining kandi rufasha gute mu gukora neza?
+answer: Porogarame ziri muri Bitcoin Mining, nka BraiinsOS Plus, zisubirira sisiteme za mbere z’imashini za Mining, bikaba bituma ivyo bikorwa nyene bishobora gukorwa neza. Bishobora kwongera ubushobozi bw’imashini kugeza kubice 25%, bisobanura ko ku muyagankuba ungana n’uwo, iyo mashini ishobora gutanga 25% vy’inyongera vya Hashrate, gutyo bikongera agashimwe  umu miner aronka.
+wrong_answers:
+  - Porogarame ziri muri Bitcoin Mining zikoreshwa mu gukurikirana igitigiri ca Bitcoin zicukurwa kandi ntizigira ico zikoze ku bushobozi.
+  - Porogarame ziri muri Bitcoin Mining zitanga gusa uruja n’uruza rwiza rwa internet ku mashini ya Mining, zishobora kwongera ubushobozi bw’iyo mashini ku rugero rwa 14%, iyo hakoreshejwe imwe mu nzira nshasha.
+  - Porogarame ziri muri Bitcoin Mining zikoreshwa mu gukanyisha imashini ya Mining kandi ntizigira ico zikoze ku bushobozi.
+explanation: |
+  Ico gice kirasigura ko porogarama nka BraiinsOS Plus zishobora 
+  gusubirira sisiteme z'umwimerere zizanana n'imashini za Mining, zikemerera
+  ko ivyo bikorwa nyene bikorwa neza cane mu buryo bubereye. Ukugukora neza kw'iyi porogarame ni ikintu c'ngirakamaro
+  mw'ihiganwa muri Bitcoin Mining.
+reviewed: true

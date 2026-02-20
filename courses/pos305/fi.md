@@ -74,7 +74,7 @@ Nicolasin sanojen jälkeen oli aika aloittaa rakentaminen. Merkittävä määrä
 Mitä avoimella lähdekoodilla tarkoitetaan ja mitä tällaiseen hankkeeseen kuuluu?
 
 
-FOSS on lyhenne sanoista Free & Open-Source Software. Ensin mainittu viittaa ehtoihin, joiden mukaan kuka tahansa voi kopioida, muokata ja jopa levittää ohjelmistoversioita (jopa voiton tavoittelemiseksi). Jälkimmäisellä tarkoitetaan lähdekoodin avointa jakamista ja yleisön kannustamista osallistumaan ja parantamaan sitä.
+[FOSS](https://planb.academy/resources/glossary/foss) on lyhenne sanoista Free & Open-Source Software. Ensin mainittu viittaa ehtoihin, joiden mukaan kuka tahansa voi kopioida, muokata ja jopa levittää ohjelmistoversioita (jopa voiton tavoittelemiseksi). Jälkimmäisellä tarkoitetaan lähdekoodin avointa jakamista ja yleisön kannustamista osallistumaan ja parantamaan sitä.
 
 Tämä houkuttelee kokeneita käyttäjiä, jotka ovat innostuneita osallistumaan ohjelmistojen kehittämiseen, joita he jo käyttävät ja joista he saavat arvoa, ja tämä on lopulta osoittautunut onnistuneemmaksi käyttöönotossa kuin omistusoikeudelliset ohjelmistot. Se on yhdenmukainen Bitcoin:n eetoksen kanssa, jonka mukaan "tieto kaipaa vapautta" Se kokoaa yhteen intohimoisia ihmisiä, jotka muodostavat yhteisön, ja se on yksinkertaisesti hauskempaa. Kuten Bitcoin, FOSS on väistämätön.
 
@@ -122,13 +122,13 @@ BTCPay Server Foundation, jonka ansiosta Alekos ja Bas saivat kirjoittaa tämän
 Tämä on luokkahuoneharjoitus, joten jos osallistut kurssille itse, et voi suorittaa sitä, mutta voit silti käydä tämän harjoituksen läpi. Tämän tehtävän suorittamiseen tarvitaan vähintään 9-11 henkilöä.
 
 
-Harjoitus alkaa BBC:n esittelyn "How Bitcoin and the Blockchain works" katsomisen jälkeen.
+Harjoitus alkaa BBC:n esittelyn "How Bitcoin and the [Blockchain](https://planb.academy/resources/glossary/blockchain) works" katsomisen jälkeen.
 
 
 :::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
 
-Tähän harjoitukseen tarvitaan vähintään yhdeksän osallistujaa. Harjoituksen tavoitteena on antaa fyysinen käsitys Bitcoin:n toiminnasta. Pelaamalla kutakin roolia verkossa voitte oppia vuorovaikutteisesti ja leikkimielisesti. Tässä harjoituksessa ei käytetä Lightning Network:ää.
+Tähän harjoitukseen tarvitaan vähintään yhdeksän osallistujaa. Harjoituksen tavoitteena on antaa fyysinen käsitys Bitcoin:n toiminnasta. Pelaamalla kutakin roolia verkossa voitte oppia vuorovaikutteisesti ja leikkimielisesti. Tässä harjoituksessa ei käytetä [Lightning Network](https://planb.academy/resources/glossary/lightning-network):ää.
 
 
 ### Esimerkki: Vaatii 9 / 11 henkilöä
@@ -140,7 +140,7 @@ Roolit ovat:
 
 - 1 asiakas
 - 1 kauppias
-- 7-9 Bitcoin-solmua
+- 7-9 Bitcoin-[solmua](https://planb.academy/resources/glossary/node)
 
 
 **Asetukset ovat seuraavat:**
@@ -154,7 +154,7 @@ Asiakkaat ostavat tuotteen kaupasta Bitcoin:llä.
 
 
 - Järjestä:
-  - Katso kaaviot/selitykset liitteenä olevasta Figjam - [toimintakaavio] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
+  - Katso kaaviot/selitykset liitteenä olevasta Figjam - [toimintakaavio](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
   - Hanki kolme vapaaehtoista opiskelijaa esittämään asiakkaan (Alice), kauppiaan (Bob) ja pankin rooleja.
 - Näyttele tapahtumien kulku:
   - Asiakas - selaa verkkokauppaa ja löytää haluamansa tuotteen 25 dollarilla ja ilmoittaa kauppiaalle haluavansa ostaa sen
@@ -176,7 +176,7 @@ Asiakkaat ostavat tuotteen kaupasta Bitcoin:llä.
 
 
 - Järjestä:
-  - Katso kaaviot/selitykset liitteenä olevasta Figjam - [toimintakaavio] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
+  - Katso kaaviot/selitykset liitteenä olevasta Figjam - [toimintakaavio](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
   - Korvaa pankki yhdeksällä oppilaalla, jotka toimivat tietokoneen (Bitcoin solmua/kaukoputkea) roolissa verkossa, joka korvaa pankin.
 - Kullakin yhdeksästä tietokoneesta on täydellinen historiatieto kaikista koskaan tehdyistä tapahtumista (siten tarkat saldot ilman väärennöksiä) sekä joukko sääntöjä:
   - Tarkista, että tapahtuma on asianmukaisesti allekirjoitettu (thekeyfitsthelock)
@@ -192,7 +192,7 @@ Asiakkaat ostavat tuotteen kaupasta Bitcoin:llä.
   - Tapahtuma on allekirjoitettu asianmukaisesti ("avattu" asiakkaan toimesta)
   - Jos näin ei ole, tapahtumaa ei siirretä verkon kautta, ja jos näin on, se siirretään ja pidetään odottamassa.
   - Kauppiaat voivat tarkistaa, että maksutapahtuma on vireillä ja odottaa.
-- Yksi tietokone valitaan "satunnaisesti" ehdottamaan ehdotetun transaktion viimeistelyä lähettämällä sen sisältävä "lohko"; jos se on oikein, se saa BTC-palkkion.
+- Yksi tietokone valitaan "satunnaisesti" ehdottamaan ehdotetun transaktion viimeistelyä lähettämällä sen sisältävä "[lohko](https://planb.academy/resources/glossary/block)"; jos se on oikein, se saa BTC-palkkion.
   - VALINNAINEN/LISÄVALINTAINEN - sen sijaan, että tietokone valitaan satunnaisesti, voidaan simuloida Mining:tä antamalla tietokoneiden heittää noppaa, kunnes jokin ennalta määrätty tulos tulee (esim. valitaan se, joka heittää ensimmäisenä tuplakuutosia)
   - Se voi myös näytellä, mitä tapahtuisi, jos kaksi tietokonetta voittaisi suunnilleen samanaikaisesti, jolloin ketju jakautuisi.
   - Tietokoneet tarkistavat voimassaolon, päivittävät/lisäävät tietueita pääkirjoihinsa, jos säännöt täyttyvät, ja lähettävät transaktiolohkon vertaisverkoille.
@@ -234,15 +234,15 @@ Määrittele seuraavat edellisessä jaksossa esitellyt keskeiset termit:
 
 
 - Solmu
-- Mempool
-- Vaikeusaste Tavoite
+- [Mempool](https://planb.academy/resources/glossary/mempool)
+- [Vaikeusaste](https://planb.academy/resources/glossary/difficulty) Tavoite
 - Lohko
 
 
 **Keskustelkaa ryhmässä joidenkin muiden termien merkityksestä:**
 
 
-Blockchain, transaktio, tuplalaskutus, Bysantin kenraaliongelma, Mining, Proof of Work (PoW), Hash Funktio, Block reward, Blockchain, pisin ketju, 51% hyökkäys, ulostulo, ulostulon lukitus, muutos, Satoshi, julkinen/yksityinen avain, Address, julkisen avaimen salaus, digitaalinen allekirjoitus, Wallet
+Blockchain, transaktio, tuplalaskutus, Bysantin kenraaliongelma, Mining, Proof of Work (PoW), Hash Funktio, Block reward, Blockchain, pisin ketju, 51% hyökkäys, ulostulo, ulostulon lukitus, muutos, [Satoshi](https://planb.academy/resources/glossary/satoshi-sat), julkinen/yksityinen avain, Address, julkisen avaimen salaus, [digitaalinen allekirjoitus](https://planb.academy/resources/glossary/digital-signature), Wallet
 
 
 # BTCPay-palvelimen esittely
@@ -573,7 +573,7 @@ Tässä jaksossa opit:
 ### Mitä Bitcoin-avainten tuottamiseen liittyy?
 
 
-Bitcoin-lompakot luovat luodessaan niin sanotun "seed:n". Viimeisessä tavoitteessa luot "seed", Ennen luotu sanasarja tunnetaan myös nimellä Mnemonic-lauseet. seed:tä käytetään yksittäisten Bitcoin-avainten tuottamiseen ja sitä käytetään Bitcoin:n lähettämiseen tai vastaanottamiseen. seed-lauseita ei saa koskaan jakaa kolmansille osapuolille tai epäluotettaville vertaisille.
+Bitcoin-lompakot luovat luodessaan niin sanotun "[seed](https://planb.academy/resources/glossary/seed):n". Viimeisessä tavoitteessa luot "seed", Ennen luotu sanasarja tunnetaan myös nimellä Mnemonic-lauseet. seed:tä käytetään yksittäisten Bitcoin-avainten tuottamiseen ja sitä käytetään Bitcoin:n lähettämiseen tai vastaanottamiseen. seed-lauseita ei saa koskaan jakaa kolmansille osapuolille tai epäluotettaville vertaisille.
 
 
 seed:n sukupolvi tuotetaan teollisuusstandardin mukaisesti, joka tunnetaan nimellä "hierarkkinen deterministinen" (HD) kehys.
@@ -596,7 +596,7 @@ Address johdetaan julkisesta avaimesta "hashausalgoritmin" avulla Useimmat lompa
 
 
 
-- Osoitteet, jotka alkavat sanoilla `bc1...`, ovat hitaasti siirtymässä hyvin yleisiin osoitteisiin. Näitä kutsutaan (natiiveiksi) SegWit-osoitteiksi. Nämä tarjoavat paremman maksurakenteen kuin muut mainitut osoitteet. Natiivit SegWit-osoitteet käyttävät Bech32-koodausta ja sallivat vain pienet kirjaimet.
+- Osoitteet, jotka alkavat sanoilla `bc1...`, ovat hitaasti siirtymässä hyvin yleisiin osoitteisiin. Näitä kutsutaan (natiiveiksi) [SegWit](https://planb.academy/resources/glossary/segwit)-osoitteiksi. Nämä tarjoavat paremman maksurakenteen kuin muut mainitut osoitteet. Natiivit SegWit-osoitteet käyttävät Bech32-koodausta ja sallivat vain pienet kirjaimet.
 
 
 
@@ -618,7 +618,7 @@ Julkisia avaimia käytetään nykyään käytännössä harvemmin. Bitcoin-käyt
 
 
 
-- HD-lompakoissa käytetään kuitenkin erilaista rakennetta. `xpub...`, `ypub...` tai `zpub...` kutsutaan laajennetuiksi julkisiksi avaimiksi eli xpubs. Näitä avaimia käytetään monien julkisten avainten johtamiseen osana HD Wallet:ää. Koska xpub-avaimesi sisältää koko historiasi eli aiemmat ja tulevat tapahtumat, älä koskaan jaa niitä epäluotettaville osapuolille.
+- HD-lompakoissa käytetään kuitenkin erilaista rakennetta. `xpub...`, `ypub...` tai `zpub...` kutsutaan laajennetuiksi julkisiksi avaimiksi eli [xpubs](https://planb.academy/resources/glossary/xpub). Näitä avaimia käytetään monien julkisten avainten johtamiseen osana HD Wallet:ää. Koska xpub-avaimesi sisältää koko historiasi eli aiemmat ja tulevat tapahtumat, älä koskaan jaa niitä epäluotettaville osapuolille.
 
 
 ### Taitojen yhteenveto
@@ -670,7 +670,7 @@ Hot-lompakot ovat kätevin tapa olla vuorovaikutuksessa Bitcoin:n kanssa mobiili
 Yksityishenkilöt siirtävät Bitcoin:nsä Cold:een Wallet:een, koska se voi eristää yksityiset avaimet internetistä ja suojata niitä siten mahdollisilta verkkouhilta. Internet-yhteyden poistaminen yhtälöstä vähentää haittaohjelmien, vakoiluohjelmien ja SIM-korttien vaihtamisen riskiä. Cold-tallennuksen uskotaan olevan turvallisuudeltaan ja riippumattomuudeltaan parempi kuin Hot-tallennuksen, kunhan Bitcoin:n yksityisten avainten katoamisen estämiseksi on toteutettu riittävät varotoimet. Cold-tallennus soveltuu parhaiten suurille Bitcoin-määrille, joita ei ole tarkoitus käyttää usein Wallet-asetusten monimutkaisuuden vuoksi.
 
 
-Bitcoin-avainten tallentamiseen Cold-varastoon on olemassa erilaisia menetelmiä paperilompakoista aivolompakoihin, laitteistolompakoihin tai alusta alkaen Wallet-tiedostoon. Useimmat lompakot käyttävät BIP 39 generate seed-lauseen BIP 39. Bitcoin core-ohjelmiston sisällä ei kuitenkaan ole vielä päästy yksimielisyyteen sen käytöstä. Bitcoin core-ohjelmisto käyttää edelleen generate Wallet.dat-tiedostoa, joka on tallennettava turvalliseen offline-sijaintiin.
+Bitcoin-avainten tallentamiseen Cold-varastoon on olemassa erilaisia menetelmiä paperilompakoista aivolompakoihin, laitteistolompakoihin tai alusta alkaen Wallet-tiedostoon. Useimmat lompakot käyttävät [BIP](https://planb.academy/resources/glossary/bip) 39 generate seed-lauseen BIP 39. Bitcoin core-ohjelmiston sisällä ei kuitenkaan ole vielä päästy yksimielisyyteen sen käytöstä. Bitcoin core-ohjelmisto käyttää edelleen generate Wallet.dat-tiedostoa, joka on tallennettava turvalliseen offline-sijaintiin.
 
 
 ### Taitojen yhteenveto
@@ -717,7 +717,7 @@ BTCPay Server sisältää seuraavat Wallet:n vakio-ominaisuudet:
 - Tarkista
 - Vedä maksut
 - Maksut
-- PSBT
+- [PSBT](https://planb.academy/resources/glossary/psbt)
 - Yleiset asetukset
 
 
@@ -727,14 +727,15 @@ BTCPay Server sisältää seuraavat Wallet:n vakio-ominaisuudet:
 Järjestelmänvalvojat näkevät tapahtumanäkymässä kyseiseen varastoon liitettyjen On-Chain Wallet:n saapuvat ja lähtevät tapahtumat. Jokaisessa tapahtumassa on eroteltu vastaanotetut ja lähetetyt summat. Vastaanotetut tapahtumat ovat Green, ja lähtevät tapahtumat ovat punaisia. BTCPay-palvelimen tapahtumanäkymässä ylläpitäjät näkevät myös joukon vakiotarroja.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| Tapahtumatyyppi | Kuvaus                                           |
+| ---------------- | ------------------------------------------------- |
+| Sovellus         | Maksu vastaanotettiin sovelluksen luoman laskun kautta |
+| Lasku            | Maksu vastaanotettiin laskun kautta               |
+| [Payjoin](https://planb.academy/resources/glossary/payjoin)          | Ei maksettu, laskun ajastin ei ole vielä umpeutunut |
+| Payjoin-paljastettu | [UTXO](https://planb.academy/resources/glossary/utxo) paljastettiin laskun payjoin-ehdotuksen kautta |
+| Maksupyyntö      | Maksu vastaanotettiin maksupyynnön kautta         |
+| Maksu            | Maksu lähetettiin maksun tai hyvityksen kautta    |
 
 ### Kuinka lähettää
 
@@ -1805,28 +1806,30 @@ Jokaisella tyypillä on omat täytettävät parametrit. Kaupan omistaja voi aset
 BTCPay Serverin avulla voit myös rakentaa lomakkeita koodilla. Erityisesti JSON. Sen sijaan, että katsoisit editoria, kaupan omistajat voivat klikata CODE-painiketta editorin vieressä ja päästä lomakkeidensa koodiin. Kenttämäärittelyssä voidaan asettaa vain seuraavat kentät; kenttien arvot tallennetaan Invoice:n metatietoihin:
 
 
-| Field                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+| Kenttä | Kuvaus |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| .fields.constant      | If true, the .value must be set in the form definition, and the user will not be able to change the field's value. ( example: the form definition's version)                                                                                                                                                                                                                                                                                                       |
-| .fields.type          | The HTML input type text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel                                                                                                                                                                                                                                                                                                |
-| .fields.options       | If .fields.type is select, the list of selectable values                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.options.text  | The text displayed for this option                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| .fields.options.value | The value of the field if this option is selected                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| .fields.type=fieldset | Create a HTML fieldset around the children .fields.fields (see below)                                                                                                                                                                                                                                                                                                                                                                                              |
-| .fields.name          | The JSON property name of the field as it will appear in the invoice's metadata                                                                                                                                                                                                                                                                                                                                                                                    |
-| .fields.value         | The default value of the field                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| .fields.required      | if true, the field will be required                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| .fields.label         | The label of the field                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| .fields.helpText      | Additional text to provide an explanation for the field.                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.fields        | You can organize your fields in a hierarchy, allowing child fields to be nested within the invoice’s metadata. This structure can help you better organize and manage the collected information, making it easier to access and interpret. For example, if you have a form that collects customer information, you can group the fields under a parent field called customer. Within this parent field, you might have child fields like name, Email, and address. |
+| .fields.constant | Jos true, .value on määritettävä lomakkeen määrittelyssä, eikä käyttäjä voi muuttaa kentän arvoa. (esimerkki: lomakkeen määrittelyn versio) |
+| .fields.type | HTML-syötetyyppi: text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | Jos .fields.type on select, valittavissa olevien arvojen luettelo |
+| .fields.options.text | Tälle vaihtoehdolle näytettävä teksti |
+| .fields.options.value | Kentän arvo, jos tämä vaihtoehto on valittuna |
+| .fields.type=fieldset | Luo HTML-fieldset-elementin lapsikenttien .fields.fields ympärille (katso alta) |
+| .fields.name | Kentän JSON-ominaisuuden nimi sellaisena kuin se näkyy laskun metatiedoissa |
+| .fields.value | Kentän oletusarvo |
+| .fields.required | jos true, kenttä on pakollinen |
+| .fields.label | Kentän nimiö |
+| .fields.helpText | Lisäteksti, joka antaa selityksen kentälle. |
+| .fields.fields | Voit järjestää kentät hierarkiaan, jolloin alikentät voidaan sisällyttää laskun metatietoihin. Tämä rakenne auttaa sinua järjestämään ja hallitsemaam kerättyjä tietoja paremmin, mikä helpottaa niiden käyttöä ja tulkintaa. Jos sinulla on esimerkiksi lomake, joka kerää asiakastietoja, voit ryhmitellä kentät yläkentän customer alle. Tämän yläkentän alla voi olla alikenttiä, kuten name, Email ja address. |
 
 Kentän nimi edustaa JSON-ominaisuuden nimeä, joka tallentaa käyttäjän antaman arvon Invoice:n metatietoihin. Joitakin tunnettuja nimiä voidaan tulkita ja muuttaa Invoice:n asetusten mukauttamiseksi.
 
 
-| Field name       | Description            |
+
+| Kentän nimi      | Kuvaus                |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Laskun summa          |
+| invoice_currency | Laskun valuutta       |
 
 Voit esitäyttää Invoice-lomakkeen kentät automaattisesti lisäämällä lomakkeen URL-osoitteeseen kyselymerkkijonoja, kuten "?your_field=value".
 
@@ -2276,7 +2279,8 @@ docker logs --tail 100 generated_btcpayserver_1
 ```
 
 
-| Logs for     | Container Name                    |
+
+| Lokit         | Säiliön nimi                       |
 | ------------ | --------------------------------- |
 | BTCPayServer | generated_btcpayserver_1          |
 | NBXplorer    | generated_nbxplorer_1             |
@@ -2467,21 +2471,22 @@ Ellet käytä sisäänrakennettua [Wallet](https://docs.btcpayserver.org/Wallet/
 Alla olevassa taulukossa luetellaan ja kuvataan BTCPayn Invoice-standarditilat sekä ehdotetut yleiset toimenpiteet. Toimenpiteet ovat vain suosituksia. Käyttäjien on itse määriteltävä omaan käyttötilanteeseensa ja liiketoimintaansa parhaiten sopiva toimintatapa.
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| Laskun tila | Kuvaus | Toimenpide |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | Ei maksettu, laskun ajastin ei ole vielä umpeutunut | Ei mitään |
+| New (paidPartial) | Maksettu osittain, laskun ajastin ei ole vielä umpeutunut | Ei mitään |
+| Expired | Ei maksettu, laskun ajastin on umpeutunut | Ei mitään |
+| Expired (paidPartial) ** | Maksettu osittain ja umpeutunut | Ota yhteyttä ostajaan palautuksen järjestämiseksi tai pyydä maksua. Merkitse lasku valinnaisesti tilaan settled tai invalid |
+| Expired (paidLate) | Maksettu kokonaisuudessaan laskun ajastimen umpeutumisen jälkeen | Ota yhteyttä ostajaan palautuksen järjestämiseksi tai käsittele tilaus, jos myöhäiset vahvistukset hyväksytään. |
+| Settled (paidOver) | Maksettu yli laskun summan, tilitys valmis, riittävä määrä vahvistuksia saatu | Ota yhteyttä ostajaan liian suuren summan palauttamiseksi tai odota valinnaisesti ostajan yhteydenottoa |
+| Processing | Maksettu kokonaan, mutta kaupan asetuksissa määritettyä riittävää vahvistusmäärää ei ole saatu | Ota yhteyttä ostajaan liian suuren summan palauttamiseksi tai odota valinnaisesti ostajan yhteydenottoa |
+| Processing (paidOver) | Maksettu yli laskun summan, riittävää määrää vahvistuksia ei ole saatu | Odota tilitystä, ota sitten yhteyttä ostajaan palautuksen järjestämiseksi tai odota ostajan yhteydenottoa |
+| Settled | Maksettu kokonaan, riittävä määrä vahvistuksia saatu kaupassa | Toimita tilaus |
+| Settled (marked) | Tila muutettiin manuaalisesti tilasta processing tai invalid tilaan settled | Kaupan ylläpitäjä on merkinnyt maksun tilaksi settled |
+| Invalid* | Maksettu, mutta riittävää määrää vahvistuksia ei saatu kaupan asetuksissa määritetyssä ajassa | Tarkista tapahtuma lohkoketjun selaimesta; jos vahvistuksia on riittävästi, merkitse tilaksi settled |
+| Invalid (marked) | Tila muutettiin manuaalisesti tilasta settled tai expired tilaan invalid | Kaupan ylläpitäjä on merkinnyt maksun tilaksi invalid |
+| Invalid (paidOver) | Maksettu yli laskun summan, mutta riittävää määrää vahvistuksia ei saatu kaupan asetusten puitteissa | Tarkista tapahtuma lohkoketjun selaimesta; jos vahvistuksia on riittävästi, merkitse tilaksi settled |
 
 #### Invoice tiedot
 
@@ -2670,7 +2675,7 @@ Entä jos sen sijaan, että lähettäjä työntää maksun, lähettäjä antaa v
 ### Maksut
 
 
-Maksutoiminto on sidottu [Pull Payments] (https://docs.btcpayserver.org/PullPayments/) -toimintoon. Tämän ominaisuuden avulla voit luoda maksuja BTCPayn sisällä. Tämän ominaisuuden avulla voit käsitellä pull-maksuja (palautuksia, palkanmaksuja tai nostoja).
+Maksutoiminto on sidottu [Pull Payments](https://docs.btcpayserver.org/PullPayments/) -toimintoon. Tämän ominaisuuden avulla voit luoda maksuja BTCPayn sisällä. Tämän ominaisuuden avulla voit käsitellä pull-maksuja (palautuksia, palkanmaksuja tai nostoja).
 
 
 #### Esimerkki 1: Palautus
@@ -2700,7 +2705,7 @@ Asiakas päivitetään nyt Vaatimus-sivulle. Hän voi seurata tapahtumaa, koska 
 #### Esimerkki 2: Palkka
 
 
-Seuraavaksi käsitellään palkanmaksua, sillä sitä ohjataan myymälän sisältä eikä asiakkaan pyynnön mukaan. Peruskonsepti on sama; siinä hyödynnetään pull-maksuja. Mutta sen sijaan, että luomme palautuksen, teemme [Pull Payment] (https://docs.btcpayserver.org/PullPayments/).
+Seuraavaksi käsitellään palkanmaksua, sillä sitä ohjataan myymälän sisältä eikä asiakkaan pyynnön mukaan. Peruskonsepti on sama; siinä hyödynnetään pull-maksuja. Mutta sen sijaan, että luomme palautuksen, teemme [Pull Payment](https://docs.btcpayserver.org/PullPayments/).
 
 
 Siirry BTCPay-palvelimesi Pull Payments -välilehdelle. Napsauta oikeassa yläkulmassa Create Pull Payment -painiketta.

@@ -1,0 +1,8 @@
+question: Która składnia wzorca makra poprawnie dopasowałaby zero lub więcej wyrażeń oddzielonych przecinkami w niestandardowym makrze podobnym do funkcji?
+answer: $($x:expr),*
+wrong_answers:
+  - $($x:expr)*,
+  - $[x:expr],*
+  - ${$x:expr},*
+explanation: |
+  Poprawna składnia $($x:expr),* używa wzorca powtórzeń Rust, gdzie znak dolara wprowadza grupę powtórzeń, $x:expr dopasowuje każde wyrażenie ze specyfikatorem fragmentu expr, przecinek działa jako separator między wyrażeniami, a gwiazdka (*) wskazuje zero lub więcej powtórzeń. Błędne odpowiedzi zawierają błędy składniowe: $($x:expr)*, umieszcza przecinek poza grupą powtórzeń, $[x:expr],* używa nawiasów kwadratowych zamiast nawiasów i pomija znak dolara przed x, a ${$x:expr},* używa nawiasów klamrowych zamiast nawiasów dla grupy powtórzeń.

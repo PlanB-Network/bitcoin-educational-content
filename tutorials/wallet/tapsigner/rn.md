@@ -58,7 +58,7 @@ Umaze kwakira Tapsigner yawe, intambwe ya mbere ni ugusuzuma igipapuro kugira ng
 ![TAPSIGNER NUNCHUK](assets/notext/02.webp)
 
 
-Kugira ngo dushobore gucunga Wallet, tuzokoresha porogarama yo kuri telefone ngendanwa **Nunchuk Wallet**. Raba neza ko telefone yawe y’amaboko ihuye na NFC, hanyuma ushire Nunchuk mu [Iduka rya Google Play], mu [Iduka ry’Iporogarama] (Iduka ry’Iporogarama] (Iduka ry’Iporogarama. canke biciye ku dosiye yayo [`.apk`](ibisohoka).
+Kugira ngo dushobore gucunga Wallet, tuzokoresha porogarama yo kuri telefone ngendanwa **Nunchuk Wallet**. Raba neza ko telefone yawe y’amaboko ihuye na NFC, hanyuma ushire Nunchuk mu [Iduka rya Google Play], mu [Iduka ry’Iporogarama](Iduka ry’Iporogarama] (Iduka ry’Iporogarama. canke biciye ku dosiye yayo [`.apk`](ibisohoka).
 
 
 ![TAPSIGNER NUNCHUK](assets/notext/03.webp)

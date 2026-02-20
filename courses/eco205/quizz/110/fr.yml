@@ -1,0 +1,8 @@
+question: Pourquoi l'échange volontaire est-il possible entre deux individus selon la théorie autrichienne de la formation des prix?
+answer: Parce que les deux parties valorisent différemment les biens échangés, chacune préférant ce qu'elle reçoit à ce qu'elle donne
+wrong_answers:
+  - Parce que les deux parties attribuent une valeur objective identique aux biens échangés basée sur leur coût de production
+  - "Parce que les prix sont fixés par l'égalité entre l'utilité marginale et le coût marginal de chaque bien échangé"
+  - "Parce que l'État garantit que chaque échange respecte une équivalence stricte entre les valeurs des biens échangés"
+explanation: |
+  L'échange volontaire n'est possible que grâce à la différence de valorisation subjective entre les parties. Si la boulangère et l'acheteur valorisaient identiquement la baguette et l'argent, aucun échange n'aurait lieu. C'est précisément cette discordance des jugements de valeur qui rend l'échange mutuellement bénéfique. Les autres réponses reflètent des conceptions objectives ou interventionnistes contraires à la théorie autrichienne qui insiste sur la subjectivité des valorisations individuelles.

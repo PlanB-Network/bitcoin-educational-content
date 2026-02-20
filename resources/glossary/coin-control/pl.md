@@ -1,5 +1,6 @@
 ---
-term: KONTROLA MONET
+term: Coin control
+definition: Funkcja umożliwiająca ręczny wybór UTXO, które mają zostać użyte jako wejścia transakcji.
 ---
 
 Funkcja występująca w niektórych programach Bitcoin Wallet, która daje użytkownikom możliwość ręcznego wyboru określonych UTXO (Unspent Transaction Outputs) do wykorzystania jako dane wejściowe przy dokonywaniu transakcji. Innymi słowy, kontrola monet oferuje możliwość precyzyjnego wyboru, które kawałki bitcoinów zostaną wydane. Ta funkcjonalność jest podobna do działania polegającego na wybraniu konkretnej monety z Wallet, aby zapłacić za bagietkę.

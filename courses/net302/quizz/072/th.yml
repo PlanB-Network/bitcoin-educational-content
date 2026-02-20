@@ -1,0 +1,9 @@
+question: บล็อก IPv6 ประเภทใดที่อนุญาตให้บริษัทเก็บคำนำหน้าไว้ได้แม้จะเปลี่ยน ISP?
+answer: PI (Provider Independent)
+wrong_answers:
+  - PA (Provider Aggregatable)
+  - LIR (Local Internet Registry)
+  - IP (ผู้ให้บริการที่สามารถเปลี่ยนได้)
+explanation: |
+  บล็อก PI (Provider Independent) ถูกจัดสรรโดยตรงให้กับองค์กรโดย RIR โดยไม่ขึ้นกับผู้ให้บริการอินเทอร์เน็ต
+reviewed: false

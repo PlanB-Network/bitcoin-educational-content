@@ -1,0 +1,9 @@
+question: Quelle information la watchtower reçoit-elle pour surveiller la triche ?
+answer: TXID partiel de la TX de triche
+wrong_answers:
+  - Clé privée du canal
+  - État complet du canal
+  - TXID de la TX de triche
+explanation: |
+  La watchtower reçoit seulement une partie du TXID de la TX de triche pour identifier une transaction suspecte sans connaître le canal.
+reviewed: false

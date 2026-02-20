@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: Vodič za postavljanje vašeg RaspiBlitz-a
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 
 RaspiBlitz je uradi-sam Lightning Node (LND i/ili Core Lightning) koji radi zajedno sa Bitcoin kompletnim node-om na RaspberryPi (1TB SSD) i lepim ekranom za jednostavno podešavanje i praćenje.
@@ -17,7 +17,7 @@ RaspiBlitz je prvenstveno namenjen učenju kako da pokrenete svoj čvor decentra
 RASPIBLITZ - Kako pokrenuti Lightning i Bitcoin kompletni node po BTC sesiji
 
 
-# Parmanov vodič za postavljanje Raspiblitz-a
+## Parmanov vodič za postavljanje Raspiblitz-a
 
 
 Raspiblitz je odličan sistem za pokretanje Bitcoin noda i povezanih aplikacija. Preporučujem ovo i MyNode nod većini korisnika (idealno imati dva noda radi redundanse). Jedna velika prednost je to što je Raspiblitz nod „Free Open Source Software“, za razliku od MyNode ili Umbrel. [Zašto je to važno? Vlad Costa objašnjava.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Takođe možete pokrenuti Raspiblitz preko WiFi veze umesto ethernet – evo [dopunskog vodiča](https://armantheparman.com/headless-wifi/) za to. (Nisam pronašao način da ovo uradim sa MyNode).
@@ -32,7 +32,7 @@ Možete kupiti gotov čvor sa priloženim mini ekranom, ili ga možete sami napr
 U suštini, proces je veoma sličan procesu postavljanja [MyNode noda](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/) sa Raspberry Pi 4. Raspiblitz vodič predlaže da kupite monitor, ali vam zaista nije potreban i ja to ne bih preporučio. Ne treba vam čak ni dodatna tastatura ili miš. Samo pristupite terminal meniju uređaja preko računara na istoj kućnoj mreži i koristite ssh komandu u terminalu. Ovo je moguće sa Linux/Mac (lako) i malo teže sa Windowsom.
 
 
-## Korak 1: Kupite opremu.
+### Korak 1: Kupite opremu.
 
 
 Treba vam tačno ista oprema koja vam je potrebna za pokretanje MyNode čvora. Možete probati jedno ili drugo, jedina razlika je u podacima na micro SD kartici.
@@ -69,7 +69,7 @@ Ovo je brže, ali nepotrebno skupo:
 ![image](assets/3.webp)
 
 
-## Korak 2: Preuzmite Raspiblitz sliku
+### Korak 2: Preuzmite Raspiblitz sliku
 
 
 Idite na [Raspiblitz GitHub veb stranicu](https://github.com/rootzoll/raspiblitz) i pronađite link „download image“:
@@ -84,7 +84,7 @@ Sha-256 heš preuzetog fajla je dostupan na veb-sajtu. Menjaće se sa svakim až
 ![image](assets/5.webp)
 
 
-## Korak 3: Verifikuj sliku
+### Korak 3: Verifikuj sliku
 
 
 Pre nego što nastavite, ako ne znate kako da se krećete kroz sistem datoteka u komandnoj liniji, lako je naučiti, i trebalo bi.
@@ -129,7 +129,7 @@ gde je `xxxxxxxxxxxxxx` naziv fajla koji ste upravo preuzeli. Ako niste u direkt
 Računar razmišlja oko 20 sekundi. Proverite da li izlazna hash datoteka odgovara onoj preuzetoj sa vebsajta u prethodnom koraku. Ako je identična, možete nastaviti.
 
 
-## Korak 4: Flashujte SD karticu
+### Korak 4: Flashujte SD karticu
 
 
 Možete koristiti Balena Etcher da to uradite. [Preuzmite ga ovde](https://www.balena.io/etcher/).
@@ -153,7 +153,7 @@ Etcher je sam po sebi jasan za korišćenje. Ubacite svoju micro SD karticu i fl
 Jednom kada završite, disk više neće biti čitljiv. Možda ćete dobiti grešku od operativnog sistema, a disk bi trebalo da nestane sa radne površine. Izvucite karticu.
 
 
-## Korak 5: Postavite Pi i umetnite SD karticu
+### Korak 5: Postavite Pi i umetnite SD karticu
 
 
 Delovi (kućište nije prikazano):
@@ -183,7 +183,7 @@ Konačno, povežite napajanje:
 ![image](assets/14.webp)
 
 
-## Korak 6: Pronađite IP adresu od Pi
+### Korak 6: Pronađite IP adresu od Pi
 
 
 Nikada vam nije potreban monitor sa Raspiblitz-om. Međutim, potreban vam je drugi računar na kućnoj mreži. Ako vaš Pi nije povezan putem eterneta, a želite da se oslonite na WiFi, pronalaženje IP adrese zahteva određene računarske veštine. Ne mogu vam pomoći, izvinite. Potrebna vam je ethernet veza. (Problem dolazi od potrebe za pristupom monitoru i operativnom sistemu kako biste povezali WiFi i uneli lozinku.)
@@ -201,7 +201,7 @@ Pronalaženje IP-a je ključno.
 **Napomena:** možete koristiti terminal na Mac ili Linux mašini da pronađete IP adresu svih uređaja povezanih putem Ethernet-a na kućnoj mreži koristeći komandu “arp -a”. Izlaz nije tako lep kao ono što će ruter prikazati, ali sve informacije koje su vam potrebne su tu. Ako nije očigledno koji je Pi, koristite metodu pokušaja i greške.
 
 
-## Korak 7: SSH veza ka Pi
+### Korak 7: SSH veza ka Pi
 
 
 Zapamti da ubaciš SD karticu u Pi pre nego što ga uključiš. Sačekaj nekoliko minuta, a zatim na drugom Linux/Mac uređaju otvori terminal.

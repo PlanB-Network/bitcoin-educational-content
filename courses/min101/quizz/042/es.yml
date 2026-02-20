@@ -1,0 +1,9 @@
+question: ¿Qué significa ASIC?
+answer: Application-Specific Integrated Circuits
+wrong_answers:
+  - Advanced Secure Integrated Circuit
+  - Automated Silicon Integrated Circuit
+  - Application-Shared Integrated Circuit
+explanation: |
+  Un ASIC es un chip diseñado para una única tarea. Por lo tanto, es un Application-Specific Integrated Circuits.
+reviewed: false

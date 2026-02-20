@@ -1,0 +1,9 @@
+question: Nach wie vielen Bestätigungen werden die Outputs einer Coinbase-Transaktion ausgebbar?
+answer: 101 Bestätigungen
+wrong_answers:
+  - 6 Bestätigungen
+  - 201 Bestätigungen
+  - 210 Bestätigungen
+explanation: |
+  Die Reifezeit beträgt 100 Blöcke, daher sind 101 Bestätigungen erforderlich, um diese UTXOs ausgebbar zu machen.
+reviewed: false

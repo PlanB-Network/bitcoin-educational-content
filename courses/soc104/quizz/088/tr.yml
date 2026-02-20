@@ -1,0 +1,9 @@
+question: Karl Popper'ın çerçevesine göre, açık bir toplumu kapalı bir toplumdan ayıran temel özellik nedir?
+answer: Bireylerin karar vermede eleştirel muhakeme ve kişisel sorumluluk kullanma becerisi
+wrong_answers:
+  - Ekonomik özgürlük derecesi ve farklı sosyal gruplar arasındaki piyasa temelli alışverişler
+  - Toplumun ulaştığı teknolojik ilerleme ve bilimsel gelişme düzeyi
+  - Siyasi karar alma süreçlerinde demokratik katılımın ve çoğunluk yönetiminin kapsamı
+explanation: |
+  Popper açık toplumu, bireylerin kişisel kararlarla karşı karşıya kaldığı ve eleştirel yargıda bulunabildiği, kapalı toplumu ise eleştirel özgürlüğü ve bireysel sorumluluğu reddeden bir toplum olarak tanımlar.
+  Bu ayrım temelde ekonomik sistemler, teknolojik ilerleme ya da demokratik prosedürlerden ziyade bilişsel ve ahlaki özerklikle ilgilidir. Kapalı toplumlar değişim ve eleştiriden korkar, statik düzeni idealize ederken, açık toplumlar dinamik eleştiriyi ve soyut davranış kuralları dahilinde bireysel seçimi benimser.

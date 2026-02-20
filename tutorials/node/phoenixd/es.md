@@ -99,7 +99,7 @@ Phoenixd requiere un entorno Linux (se recomienda Ubuntu/Debian), con algunos co
 
 
 
-Vaya a la página [GitHub releases] (https://github.com/ACINQ/phoenixd/releases) y descargue la última versión para su arquitectura:
+Vaya a la página [GitHub releases](https://github.com/ACINQ/phoenixd/releases) y descargue la última versión para su arquitectura:
 
 
 

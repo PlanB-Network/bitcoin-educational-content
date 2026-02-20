@@ -1,0 +1,9 @@
+question: Je, jukwaa la biashara la Bitcoinica lilipata udukuzi wangapi tofauti kabla ya kutangaza kufilisika?
+answer: 3
+wrong_answers:
+  - 1
+  - 2
+  - 4
+explanation: |
+ Udukuzi tatu ulikuwa kama ifuatavyo: udukuzi wa akaunti ya Linode na kusababisha mfumo kupoteza bitcoin 43,554; udukuzi wa akaunti yake ya Rackspace ambao ulisababisha upotevu wa bitcoin 18,574; udukuzi wa akaunti ya Mt. Gox ambapo mdukuzi huyo alitoa bitcoin 40,000 na LR-USD 40,000. Kufilisika kwa Bitcoinica kulitangazwa mnamo Agosti 1, 2012.
+reviewed: true

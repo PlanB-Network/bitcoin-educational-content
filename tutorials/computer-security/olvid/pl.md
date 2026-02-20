@@ -62,7 +62,7 @@ Olvid jest dostępny na wszystkich platformach. Aplikację można pobrać bezpo�
 
 
 
-W systemie Android możliwa jest również [instalacja przez APK] (https://www.olvid.io/download/).
+W systemie Android możliwa jest również [instalacja przez APK](https://www.olvid.io/download/).
 
 
 

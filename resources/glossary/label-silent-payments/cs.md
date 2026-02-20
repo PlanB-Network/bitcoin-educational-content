@@ -1,6 +1,7 @@
 ---
-term: (TICHÉ PLATBY)
+term: Label (silent payments)
 
+definition: Celá čísla používaná k vytváření odvozených statických adres oddělujících použití v Silent Payments.
 ---
 V protokolu Silent Payments jsou štítky celá čísla, která se používají k úpravě počáteční statické adresy za účelem vytvoření mnoha dalších statických adres. Použití těchto štítků umožňuje oddělit platby zasílané prostřednictvím tichých plateb tím, že se pro každé použití použijí jiné statické adresy, aniž by se nadměrně zvýšila provozní zátěž při zjišťování těchto plateb (skenování). Bob používá statickou adresu $B$ složenou ze dvou veřejných klíčů: $B_{\text{scan}}$ pro skenování a $B_{\text{spend}}$ pro utrácení. K veřejnému klíči $B_{\text{skenování}}$ a celému číslu $m$, skalárně vynásobenému generátorovým bodem $G$, se přidá hash $B_{\text{výdaje}}$ a vytvoří se tak jakýsi nový veřejný klíč $B_m$:
 

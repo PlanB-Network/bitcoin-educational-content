@@ -1,8 +1,9 @@
-question: Ni igiki Voltaire akora mu gitabu L’Homme aux écus?
-answer: Ivyiyumviro vy'imisoro vy'abanyafiziyokarate
+question: Ni igiki Voltaire atangura mu gitabu L’Homme aux écus?
+answer: Ivyiyumviro vy'amakori vy'aba Physiocrats
 wrong_answers:
-  - Ivyiyumviro vy'amahera vy'abanyafiziyokarate
-  - Ivyiyumviro vya politike vy'abanyafiziyokarate
-  - Ivyiyumviro vy'agaciro vy'abanyafiziyokarate
+  - Ivyiyumviro vy'amahera vy'aba Physiocrats
+  - Ivyiyumviro vya politike vy'aba Physiocrats
+  - Ivyiyumviro vy'agaciro vy'aba Physiocrats
 explanation: |
-  Voltaire anegura inyigisho y'imisoro y'abafiziyokarate mu gitabu "L'Homme aux quarante écus", inkuru ya filozofiya aho atwengera mw'ijigo umusoro umwe abafiziyokarate bashaka ku butaka.
+  Voltaire anegura inyigisho y'amakori y'aba Physiocrats mu gitabu "L'Homme aux quarante écus", inkuru ya filozofiya aho atwengera mw'ijigo umusoro umwe aba Physiocrats bashaka ku butaka.
+reviewed: true

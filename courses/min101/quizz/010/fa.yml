@@ -1,0 +1,9 @@
+question: اندازه نانس (nonce) در هدر بلاک چقدر است؟
+answer: ۳۲ بیت
+wrong_answers:
+  - ۱۲۸ بیت
+  - ۶۴ بیت
+  - ۲۵۶ بیت
+explanation: |
+  نانس یک فیلد ۳۲ بیتی در هدر است.
+reviewed: false

@@ -459,29 +459,30 @@ Mari kita rangkum beberapa tugas dasar Kali Linux dalam sebuah tabel.
 
 
 
-| **Catégorie**              | **Tâche de base**                      | **Description / Objectif**                                 | **Méthode principale**                                       |
+
+| **Kategori** | **Tugas Dasar** | **Deskripsi / Tujuan** | **Metode Utama** |
 | -------------------------- | -------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------ |
-| **Navigation système**     | Ouvrir le terminal                     | Accéder à la ligne de commande principale de Kali          | Cliquez sur l’icône du terminal ou utilisez `Ctrl + Alt + T` |
-|                            | Parcourir les dossiers                 | Se déplacer dans l’arborescence du système                 | `cd /chemin/du/dossier`, `ls` pour lister les fichiers       |
-|                            | Créer / supprimer un dossier           | Organiser les fichiers                                     | `mkdir nom_dossier`, `rm -r nom_dossier`                     |
-| **Gestion des fichiers**   | Copier / déplacer un fichier           | Manipuler des fichiers dans le terminal                    | `cp fichier destination`, `mv fichier destination`           |
-|                            | Supprimer un fichier                   | Libérer de l’espace disque                                 | `rm nom_du_fichier`                                          |
-|                            | Afficher le contenu d’un fichier texte | Lire rapidement un fichier                                 | `cat fichier.txt`, `less fichier.txt`                        |
-| **Gestion du système**     | Mettre à jour Kali Linux               | Installer les dernières versions et correctifs de sécurité | `sudo apt update && sudo apt full-upgrade -y`                |
-|                            | Installer un logiciel                  | Ajouter un nouvel outil ou utilitaire                      | `sudo apt install nom_du_paquet`                             |
-|                            | Supprimer un logiciel                  | Nettoyer le système                                        | `sudo apt remove nom_du_paquet`                              |
-|                            | Nettoyer les dépendances inutiles      | Gagner de l’espace disque                                  | `sudo apt autoremove`                                        |
-| **Réseau et Internet**     | Vérifier la connexion réseau           | Tester l’accès à Internet                                  | `ping google.com`                                            |
-|                            | Identifier l’adresse IP                | Connaître sa configuration réseau                          | `ip a` ou `ifconfig`                                         |
-|                            | Changer de réseau Wi-Fi                | Se connecter à un autre point d’accès                      | Icône réseau → Sélectionner le Wi-Fi voulu                   |
-| **Comptes et permissions** | Exécuter une commande administrateur   | Obtenir les droits root temporairement                     | `sudo commande`                                              |
-|                            | Créer un nouvel utilisateur            | Ajouter un compte local                                    | `sudo adduser nom_utilisateur`                               |
-|                            | Modifier un mot de passe               | Sécuriser un compte                                        | `passwd`                                                     |
-| **Apparence et confort**   | Changer le fond d’écran                | Personnaliser le bureau                                    | Clic droit sur le bureau → **Paramètres du bureau**          |
-|                            | Modifier le thème / icônes             | Améliorer la lisibilité et l’esthétique                    | Paramètres → Apparence / Thèmes                              |
-| **Outils Kali**            | Ouvrir le menu des outils              | Explorer les outils de test et de sécurité                 | Menu **Applications → Kali Linux**                           |
-|                            | Lancer un outil (ex : nmap, wireshark) | Découverte pratique des utilitaires de sécurité            | `sudo nmap`, `wireshark`, etc.                               |
-| **Aide et documentation**  | Obtenir de l’aide sur une commande     | Comprendre une commande avant de l’utiliser                | `man commande` ou `commande --help`                          |
+| **Navigasi Sistem** | Buka terminal | Mengakses baris perintah utama Kali | Klik ikon terminal atau gunakan `Ctrl + Alt + T` |
+| | Telusuri folder | Berpindah dalam struktur direktori sistem | `cd /jalur/ke/folder`, `ls` untuk daftar file |
+| | Buat / hapus folder | Mengatur file | `mkdir nama_folder`, `rm -r nama_folder` |
+| **Manajemen File** | Salin / pindahkan file | Memanipulasi file di terminal | `cp file tujuan`, `mv file tujuan` |
+| | Hapus file | Membebaskan ruang disk | `rm nama_file` |
+| | Tampilkan isi file teks | Membaca file dengan cepat | `cat file.txt`, `less file.txt` |
+| **Manajemen Sistem** | Perbarui Kali Linux | Menginstal versi terbaru dan patch keamanan | `sudo apt update && sudo apt full-upgrade -y` |
+| | Instal perangkat lunak | Menambahkan alat atau utilitas baru | `sudo apt install nama_paket` |
+| | Hapus perangkat lunak | Membersihkan sistem | `sudo apt remove nama_paket` |
+| | Bersihkan dependensi yang tidak perlu | Menghemat ruang disk | `sudo apt autoremove` |
+| **Jaringan dan Internet** | Periksa koneksi jaringan | Menguji akses internet | `ping google.com` |
+| | Identifikasi alamat IP | Mengetahui konfigurasi jaringan Anda | `ip a` atau `ifconfig` |
+| | Ganti jaringan Wi-Fi | Terhubung ke titik akses lain | Ikon jaringan → Pilih Wi-Fi yang diinginkan |
+| **Akun dan Izin** | Jalankan perintah administrator | Mendapatkan hak akses root sementara | `sudo perintah` |
+| | Buat pengguna baru | Menambahkan akun lokal | `sudo adduser nama_pengguna` |
+| | Ubah kata sandi | Mengamankan akun | `passwd` |
+| **Tampilan dan Kenyamanan** | Ganti wallpaper | Personalisasi desktop | Klik kanan pada desktop → **Pengaturan Desktop** |
+| | Ubah tema / ikon | Meningkatkan keterbacaan dan estetika | Pengaturan → Tampilan / Tema |
+| **Alat Kali** | Buka menu alat | Menjelajahi alat pengujian dan keamanan | Menu **Aplikasi → Kali Linux** |
+| | Jalankan alat (cth: nmap, wireshark) | Penemuan praktis utilitas keamanan | `sudo nmap`, `wireshark`, dll. |
+| **Bantuan dan Dokumentasi** | Dapatkan bantuan perintah | Memahami perintah sebelum menggunakannya | `man perintah` atau `perintah --help` |
 
 ## Kesimpulan
 

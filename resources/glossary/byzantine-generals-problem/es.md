@@ -1,6 +1,7 @@
 ---
-term: PROBLEMA DE LOS GENERALES BIZANTINOS
+term: Problema de los generales bizantinos
 
+definition: Problema que ilustra los retos de coordinación en un sistema distribuido donde los actores no pueden confiar entre sí.
 ---
 El problema fue formulado por primera vez por Leslie Lamport, Robert Shostak y Marshall Pease en la revista especializada *ACM Transactions on Programming Languages and Systems, vol 4, n° 3* ["The Byzantine Generals Problem"](https://lamport.azurewebsites.net/pubs/byz.pdf) en julio de 1982. Se utiliza hoy para ilustrar los retos en términos de toma de decisiones cuando un sistema distribuido no puede confiar en ningún actor.
 

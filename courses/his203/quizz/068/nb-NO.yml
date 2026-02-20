@@ -1,0 +1,10 @@
+question: Hvilken børsplattform ble frastjålet 24 000 bitcoins i begynnelsen av september 2012?
+answer: Bitfloor
+wrong_answers:
+  - Mt. Gox
+  - Tradehill
+  - BTC-e
+explanation: |
+ Natt mellom 3. og 4. september 2012 fikk en hacker tilgang til en ukryptert sikkerhetskopi av Bitfloors wallet-nøkler, og klarte å ta ut i overkant av 24 000 BTC, eller
+ rundt 250 000 dollar på det tidspunktet.
+reviewed: true

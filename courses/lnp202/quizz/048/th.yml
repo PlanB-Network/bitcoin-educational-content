@@ -1,0 +1,9 @@
+question: โซลูชันฟรีสำหรับสภาพคล่องขาเข้าที่อิงตามความร่วมมือคืออะไร?
+answer: LN+
+wrong_answers:
+  - แมกมา
+  - Boltz
+  - 1ML
+explanation: |
+  Lightning Network Plus ให้สภาพคล่องขาเข้าผ่านการเปิดช่องทางแบบวงกลม
+reviewed: false

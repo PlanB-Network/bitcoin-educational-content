@@ -1,6 +1,7 @@
 ---
-term: NODO PRUNITO
+term: Nodo potato
 
+definition: Nodo completo che elimina i vecchi blocchi verificati per risparmiare spazio di archiviazione.
 ---
 Un nodo potato, in inglese "Pruned Node", è un nodo completo che esegue la potatura della blockchain. Questo comporta la progressiva rimozione dei blocchi più vecchi, dopo averli debitamente verificati, per conservare solo i blocchi più recenti. Il limite di conservazione è specificato nel file `bitcoin.conf` tramite il parametro `prune=n`, dove `n` è la dimensione massima assunta dai blocchi in megabyte (MB). Se dopo questo parametro viene indicato `0`, il pruning viene disabilitato e il nodo conserva la blockchain nella sua interezza.
 

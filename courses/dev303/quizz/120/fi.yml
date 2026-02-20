@@ -1,0 +1,8 @@
+question: Mikä on merkittävin yksityisyyden suojaa heikentävä tekijä, kun siirrytään itse hallinnoidusta LDK-toteutuksesta Breez SDK:n pilvipohjaiseen arkkitehtuuriin?
+answer: Greenlight saa pilvipohjaisen reitityksen avulla potentiaalista näkyvyyttä maksukohteisiin ja laskunmuodostustoimintoihin
+wrong_answers:
+  - "Yksityiset avaimet tallennetaan Blockstreamin palvelimille eikä paikallisesti käyttäjän laitteelle"
+  - Kanavan tilaa koskevat tiedot tulevat julkisesti näkyviin Lightning Network-kuvaajassa Greenlight-solmujen kautta
+  - LSP-palvelut voivat nyt seurata kaikkia on-chain-toimia ja yhdistää ne Lightning-maksumalleihin
+explanation: |
+  Oikea vastaus tunnistaa keskeisen yksityisyyden suojan heikkenemisen: pilvipohjainen reititys antaa Greenlightille mahdollisuuden tarkkailla maksujen määränpäätä, kun taas pilvipohjainen laskunmuodostus laajentaa tietojen paljastumista pidemmälle kuin mitä perinteiset vain LSP-arkkitehtuurit paljastivat. Väärät vastaukset ovat virheellisiä, koska: yksityiset avaimet pysyvät käyttäjän hallinnassa pilviarkkitehtuurista huolimatta; kanavien tiloja ei tehdä julkisesti näkyviksi reitityksen avulla; ja LSP:t eivät saa lisää on-chain-tapahtumien seurantavalmiuksia tämän arkkitehtuurimuutoksen ansiosta.

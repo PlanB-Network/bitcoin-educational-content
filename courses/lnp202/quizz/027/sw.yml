@@ -1,0 +1,9 @@
+question: Ni taarifa gani ambayo watchtower hupokea ili kufuatilia udanganyifu?
+answer: Sehemu ya TXID ya muamala wa udanganyifu
+wrong_answers:
+  - Ufunguo wa kituo cha faragha
+  - Hali kamili ya kituo
+  - TXID ya muamala wa udanganyifu
+explanation: |
+  Mnara wa ulinzi hupokea sehemu tu ya TXID ya muamala wa udanganyifu ili kutambua muamala unaotiliwa shaka bila kujua njia.
+reviewed: false

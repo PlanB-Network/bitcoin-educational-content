@@ -1,0 +1,9 @@
+question: Ni igiki gishobora guhindurwa mu mirongo y’umuravyo iteye imbere?
+answer: Izina rusangi ry'urudodo
+wrong_answers:
+  - Amategeko y'ubumwe
+  - Urufunguzo rw'ibanga rw'uruzitiro
+  - Inzira zatowe n'urudodo
+explanation: |
+  Amagenamiterere ateye imbere aragufasha guhindura ibintu vy'indangamuntu, ataco bihinduye ku kwumvikana canke ku mikorere y'urubuga rwa Lightning.
+reviewed: false

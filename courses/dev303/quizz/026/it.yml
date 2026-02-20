@@ -1,0 +1,8 @@
+question: Qual è il vantaggio principale degli enum Rust, che possono trasportare dati all'interno di ogni variante?
+answer: Previene le discrepanze tra gli indicatori di tipo e i dati associati, raggruppandoli insieme
+wrong_answers:
+  - Permette agli enum di implementare automaticamente tutti i tratti standard senza dichiarazione esplicita
+  - Consente di utilizzare gli enum come parametri generici in qualsiasi funzione o metodo
+  - Fa sì che gli enum consumino meno memoria rispetto alle strutture tradizionali con dati simili
+explanation: |
+  Gli enum Rust possono allegare i dati direttamente a ogni variante, eliminando così il comune errore di programmazione di mantenere variabili separate per gli indicatori di tipo e i dati associati. Questo design garantisce che i dati corrispondano sempre alla variante, evitando incongruenze che potrebbero causare errori di runtime. A differenza di altri linguaggi, in cui si potrebbe avere un enum separato per il tipo e variabili per i dati, Rust raggruppa tutto insieme, rendendo impossibile che il tipo e i dati non corrispondano.

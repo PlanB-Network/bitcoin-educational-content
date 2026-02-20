@@ -1,0 +1,9 @@
+question: RPOW යන කෙටි යෙදුමෙන් අදහස් කරන්නේ කුමක්ද?
+answer: Reusable Proofs of Work
+wrong_answers:
+  - Recursive Proofs of Work
+  - Random Proofs of Work
+  - Replayed Proofs of Work
+explanation: |
+  RPOW යනු 2004 දී Hal Finney විසින් යෝජනා කරන ලද නැවත භාවිතා කළ හැකි සහ හුවමාරු කළ හැකි වැඩ පිළිබඳ සාක්ෂි (proofs of work) වේ.
+reviewed: false

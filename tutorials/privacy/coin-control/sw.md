@@ -13,7 +13,7 @@ description: Anza kutumia Coin Control, chombo muhimu cha kulinda faragha yako k
 
 
 
-Uthabiti wa itifaki ya Bitcoin unahakikishwa na dhana kuu rahisi. Miongoni mwa hizi, uwazi unajitokeza: miamala yote ya Bitcoin ni ya umma na inaweza kuthibitishwa kwa urahisi na mtu yeyote. Ingawa kipengele hiki ni msingi wa itifaki, kwa kuwa kinazuia udanganyifu na kuhakikisha uhalisi wa fedha, pia kinaweza kuwakilisha changamoto kwa usiri. **Je, umewahi kujiuliza kama uwazi mkubwa namna hii unaweza kudhuru faragha yako?**
+Uthabiti wa protocol ya Bitcoin unahakikishwa na dhana kuu rahisi. Miongoni mwa hizi, uwazi unajitokeza: miamala yote ya Bitcoin ni ya umma na inaweza kuthibitishwa kwa urahisi na mtu yeyote. Ingawa kipengele hiki ni msingi wa protocol, kwa kuwa kinazuia udanganyifu na kuhakikisha uhalisi wa fedha, pia kinaweza kuwakilisha changamoto kwa usiri. **Je, umewahi kujiuliza kama uwazi mkubwa namna hii unaweza kudhuru faragha yako?**
 
 
 
@@ -29,7 +29,7 @@ Kutumia Bitcoin sio tu kuhamisha thamani kwa mtu mwingine.
 
 
 
-Kwa kutumia moja ya UTXO zako, lazima utimize masharti yaliyowekwa kwa uwazi wa itifaki, kwa sababu una wajibu wa kuthibitisha kuwa unamiliki fedha hizo. Kwa hivyo unajifanya kuwajibika kwa:
+Kwa kutumia moja ya UTXO zako, lazima utimize masharti yaliyowekwa kwa uwazi wa protocol, kwa sababu una wajibu wa kuthibitisha kuwa unamiliki fedha hizo. Kwa hivyo unajifanya kuwajibika kwa:
 
 
 
@@ -43,29 +43,29 @@ Kwa hivyo wakati wa matumizi ndio muhimu zaidi: **kutumia Bitcoin ni kitendo cha
 
 
 
-## Udhibiti wa Coin
+## Coin control
 
 
 
-Katika itifaki ya Bitcoin, vipengee kama vile _account_ au _monetary units_ havipo. Wazo la UTXO limeelezewa vyema katika kozi ifuatayo, ambayo ninapendekeza sana:
+Katika protocol ya Bitcoin, vipengee kama vile _account_ au _monetary units_ havipo. Wazo la UTXO limeelezewa vyema katika kozi ifuatayo, ambayo ninapendekeza sana:
 
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Ukiwa na Bitcoin unachokusanya na kutumia baadaye ni vitengo vidogo au vikubwa vya akaunti vinavyopimwa katika Satoshi, vinavyowakilishwa na `matokeo ya miamala ambayo hayajatumika`, **UTXO**, pia huitwa `sarafu`. Unapotumia UTXO kuunda shughuli, zinaharibiwa kabisa na UTXO zingine huundwa mahali pao.
+Ukiwa na Bitcoin unachokusanya na kutumia baadaye ni vitengo vidogo au vikubwa vya akaunti vinavyopimwa katika Satoshi, vinavyowakilishwa na `matokeo ya miamala ambayo haijatumika`, **UTXO**, pia huitwa `sarafu`. Unapotumia UTXO kuunda Mimala, zinaharibiwa kabisa na UTXO zingine huundwa mahali pao.
 
 
 
-Programu Pochi hutengenezwa ili kufanya chaguo hili kiotomatiki, kwa kutumia sarafu "nasibu" zilizochaguliwa, kupitisha algorithms fulani iliyotolewa na itifaki. Kigezo pekee ambacho algoriti hizi hukutana, ni kufidia kiasi kinachohitajika kwa matumizi.
+Programu ya wallet hutengenezwa ili kufanya chaguo hili kiotomatiki, kwa kutumia sarafu "nasibu" zilizochaguliwa, kupitisha algorithms fulani iliyotolewa na protocol. Kigezo pekee ambacho algoriti hizi hukutana, ni kufidia kiasi kinachohitajika kwa matumizi.
 
 
 
-Zinaweza kuchanganya pamoja UTXO za rika tofauti, au kupendelea matumizi mapya zaidi au "zamani zaidi," kulingana na kanuni iliyochaguliwa na wasanidi programu. Pochi bora za Programu, pia zinapanga kumwacha mtumiaji chaguo muhimu.
+Zinaweza kuchanganya pamoja UTXO za peer tofauti, au kupendelea matumizi mapya zaidi au "zamani zaidi," kulingana na kanuni iliyochaguliwa na wasanidi programu. Wallet bora za Programu, pia zinapanga kumwacha mtumiaji chaguo muhimu.
 
 
 
-Mwongozo wa `Coin Control`, ambao unaweza pia kupata unajulikana kama `Coin Selection`, ni kipengele cha baadhi ya Programu za Pochi ambacho hukuruhusu **kuchagua mwenyewe UTXO za kutumia unapounda muamala wako**.
+Mwongozo wa `Coin Control`, ambao unaweza pia kupata unajulikana kama `Coin Selection`, ni kipengele cha baadhi ya Programu za wallets ambazo hukuruhusu **kuchagua mwenyewe UTXO za kutumia unapounda muamala wako**.
 
 
 
@@ -85,7 +85,7 @@ Iwapo itabidi utumie 24,000 Sats na kuruhusu algoriti ifanye uteuzi wa kiotomati
 
 
 
-Baada ya shughuli, hali mpya katika Wallet, kuhesabu UTXO pekee, inaweza kufupishwa kama ifuatavyo.
+Baada ya muamala, hali mpya katika Wallet, kuhesabu UTXO pekee, inaweza kufupishwa kama ifuatavyo.
 
 
 
@@ -133,7 +133,7 @@ Kuchagua UTXO hukuruhusu kupendelea vipengele vingine kuliko vingine. Chaguo kwe
 
 
 
-Moja ya faida kuu, linapokuja suala la udhibiti wa Coin, ni **faragha kubwa zaidi kwa mtumia pesa**. Wacha tuchukue mfano wetu kila wakati: matumizi ya 24,000 Satoshi *bila uteuzi wa mwongozo wa Coin*. Kwa kuwa Blockchain ya Bitcoin ni rekodi ya umma, mwangalizi wa nje anaweza kutangaza, bila kivuli cha shaka, kwamba pembejeo `UTXO1 ya 21,000 Sats` na `UTXO2 ya 42,000 Sats`, pamoja na nyinginezo, `UTXO5 kutoka 38,333` **ni mali ya mtumiaji sawa Sats**.
+Moja ya faida kuu, linapokuja suala la udhibiti wa Coin, ni **faragha kubwa zaidi kwa mtumia pesa**. Wacha tuchukue mfano wetu kila wakati: matumizi ya 24,000 Satoshi *bila uteuzi wa Coin control*. Kwa kuwa Blockchain ya Bitcoin ni rekodi ya umma, mwangalizi wa nje anaweza kutangaza, bila kivuli cha shaka, kwamba pembejeo `UTXO1 ya 21,000 Sats` na `UTXO2 ya 42,000 Sats`, pamoja na nyinginezo, `UTXO5 kutoka 38,333` **ni mali ya mtumiaji sawa Sats**.
 
 
 
@@ -149,11 +149,11 @@ Kwa kuchagua mwenyewe `UTXO2`, kwa upande mwingine, `UTXO1` inasalia kuhifadhiwa
 
 
 
-Jaribu basi kuzingatia kwamba Pochi zinazotumia uteuzi wa mwongozo wa UTXO, kwa mfano, huruhusu **kutenganisha UTXO moja au zaidi**, chaguo la kukokotoa la kutumika wakati hali kama hizi zinatokea.
+Jaribu basi kuzingatia kwamba wallet zinazotumia uteuzi wa mwongozo wa UTXO, kwa mfano, huruhusu **kutenganisha UTXO moja au zaidi**, chaguo la kukokotoa la kutumika wakati hali kama hizi zinatokea.
 
 
 
-Ingawa nina hakika kwamba pesa za KYC zinapaswa kuwekwa katika Wallet tofauti na Bitcoin iliyonunuliwa bila kyc, ikiwa hii ndiyo kesi yako kutenganisha baadhi ya anwani zako ni usaidizi muhimu, ambao unaweza kunufaika nao kwa kujifunza kuchagua mwenyewe pembejeo za matumizi.
+Ingawa nina hakika kwamba Bitcoin zilizonunuliwa kwa KYC zinapaswa kuhifadhiwa katika wallet tofauti na Bitcoin zilizonunuliwa bila KYC, ikiwa hii ndiyo hali yako, kutenganisha baadhi ya anwani zako ni msaada muhimu. Hili ni jambo ambalo unaweza kunufaika nalo kwa kujifunza kuchagua mwenyewe pembejeo za matumizi.
 
 
 
@@ -165,11 +165,11 @@ Kuchagua UTXO sahihi ili kufanya matumizi, **huruhusu uboreshaji wa ada**. Tena 
 
 
 
-Kutumia udhibiti wa mwongozo wa Coin, kwa upande mwingine, unaweza kuchagua moja tu ambayo ni ya kutosha kufunika kiasi, kuokoa ada kwa kupunguza "uzito" wa shughuli.
+Kutumia udhibiti wa Coin Control, kwa upande mwingine, unaweza kuchagua moja tu ambayo ni ya kutosha kufunika kiasi, kuokoa ada kwa kupunguza "uzito" wa muamala.
 
 
 
-Katika nyakati ambazo ada ni kubwa, lakini unalazimika kutumia Bitcoin On-Chain (kwa mfano, kufungua kituo cha Lightning Network), hapo ndipo udhibiti wa Coin unageuka kuwa motisha sahihi ya kiuchumi ya kurejea.
+Katika nyakati ambazo ada ni kubwa, lakini unalazimika kutumia Bitcoin On-Chain (kwa mfano, kufungua kituo cha Lightning Network), hapo ndipo Coin control unageuka kuwa motisha sahihi ya kiuchumi ya kurejea.
 
 
 
@@ -181,7 +181,7 @@ Unapofanya malipo na kutumia Bitcoin On-Chain, uwezekano wa kupokea mabadiliko k
 
 
 
-Kwa kuzingatia kwamba Wallet HDs generate anwani maalum kwa mabaki, unaweza kuzitambua kwa urahisi na "kutenganisha" mabaki yote ya shughuli mbalimbali zilizofanywa; zikiwa zimefikia kiasi fulani unaweza kuzichagua wewe mwenyewe na kuziunganisha, au ubadilishe hadi Lightning Network (njia ninayopendelea) na kuzichakata ili kurejesha faragha iliyopotea katika matumizi.
+Kwa kuzingatia kwamba Wallet HDs hugenerate address maalum kwa mabaki, unaweza kuzitambua kwa urahisi na "kutenganisha" mabaki yote ya miamala mbalimbali zilizofanywa; zikiwa zimefikia kiasi fulani unaweza kuzichagua wewe mwenyewe na kuziunganisha, au ubadilishe hadi Lightning Network (njia ninayopendelea) na kuzichakata ili kurejesha faragha iliyopotea katika matumizi.
 
 
 
@@ -193,14 +193,14 @@ Cold Wallet ni chombo ambacho mtu anaweza kupata kiwango kizuri cha usalama, kuh
 
 
 
-Sijui ni wangapi wanaweza kushiriki mbinu yangu, lakini ushauri wangu ni **usiwahi kufanya matumizi moja kwa moja kutoka kwa Cold Wallet, ili kuepuka kupokea mabadiliko kati ya anwani za sawa**. Jifunze kuchagua mwenyewe UTXO zinazohitajika ili kulipia gharama, zihamishe hadi Wallet Hot na uandae muamala wako kutoka kwa za mwisho. Mabadiliko yoyote, basi, unaweza kuirejesha kwa Cold Wallet Address (kama kiasi kinatosha), itumie kwa gharama zingine, au bado itenge kama tulivyoona.
+Sijui ni wangapi wanaweza kushiriki mbinu yangu, lakini ushauri wangu ni **usiwahi kufanya matumizi moja kwa moja kutoka kwa Cold Wallet, ili kuepuka kupokea mabadiliko kati ya address sawa**. Jifunze kuchagua mwenyewe UTXO zinazohitajika ili kulipia gharama, zihamishe hadi Hot Wallet na uandae muamala wako kutoka kwa za mwisho. Mabadiliko yoyote, basi, unaweza kuirejesha kwa Cold Wallet Address (kama kiasi kinatosha), itumie kwa gharama zingine, au bado itenge kama tulivyoona.
 
 
 
 ## Uwasilishaji wa vitendo
 
 
-Baada ya utangulizi wa kiufundi wa `kwanini`, wacha tuone jinsi ya kutekeleza udhibiti wa mwongozo wa Coin ukitumia programu tofauti, kompyuta ya mezani na ya simu. Tutatumia Wallet BIP39 sawa kila wakati, iliyoingizwa katika kila zana iliyochaguliwa, ili kukuonyesha tofauti ndogo kati yao.
+Baada ya utangulizi wa kiufundi wa `kwanini`, wacha tuone jinsi ya kutekeleza Coin control ukitumia programu tofauti, kompyuta ya mezani na ya simu. Tutatumia Wallet BIP39 sawa kila wakati, iliyoingizwa katika kila zana iliyochaguliwa, ili kukuonyesha tofauti ndogo kati yao.
 
 
 
@@ -272,7 +272,7 @@ Hata ukiwa na programu hii unaweza kuchagua zaidi ya UTXO moja, ukisaidia na kit
 
 
 
-Graphically Electrum itakuonyesha uteuzi kwa kuonyesha UTXOs zilizochaguliwa katika Green, wakati bar inaonekana chini, iliyoonyeshwa kwa rangi sawa, kuonyesha usawa unaopatikana baada ya udhibiti wa Coin.
+Graphically Electrum itakuonyesha uteuzi kwa kuonyesha UTXOs zilizochaguliwa katika Green, wakati bar inaonekana chini, iliyoonyeshwa kwa rangi sawa, kuonyesha usawa unaopatikana baada ya Coin control.
 
 
 
@@ -316,7 +316,7 @@ Hii inafungua dirisha ambalo lina UTXO zote kwenye Wallet yako, ambapo unaweza k
 
 
 
-Baada ya hapo unaweza kuingia Address lengwa na kuweka kiasi na ada.
+Baada ya hapo unaweza kuingiza Address lengwa na kuweka kiasi na ada.
 
 
 
@@ -340,7 +340,7 @@ Kwa ajili ya ukamilifu, Nunchuk pia inaruhusu kati ya vipengele vyake, kutengani
 
 
 
-Unaweza pia kubofya katika nafasi iliyohifadhiwa kwa ajili ya UTXO, ili kufikia kidirisha cha _Coin details. Hapa amri ya kufunga/kufungua UTXO inayohusika inaonekana kwenye kona ya juu kulia.
+Unaweza pia kubofya katika nafasi iliyohifadhiwa kwa ajili ya UTXO, ili kufikia kidirisha cha _Coin details_. Hapa amri ya kufunga/kufungua UTXO inayohusika inaonekana kwenye kona ya juu kulia.
 
 
 
@@ -348,7 +348,7 @@ Unaweza pia kubofya katika nafasi iliyohifadhiwa kwa ajili ya UTXO, ili kufikia 
 
 
 
-### Programu ya kuzuia mkondo
+### Programu ya Blockstream
 
 
 
@@ -360,7 +360,7 @@ Kompyuta ya mezani ya Blockstream App, ambayo hapo awali ilijulikana kama Green,
 
 
 
-Bandika fikio la Address kwenye sehemu inayofaa kisha uchague _Mwongozo wa Coin uteuzi_.
+Bandika fikio la Address kwenye sehemu inayofaa kisha uchague _Coin control.
 
 
 
@@ -392,15 +392,15 @@ Weka kiasi na ada kisha uendelee kama kawaida na muamala wako.
 
 
 
-Pochi pia inaweza kuchaguliwa kutoka kwa rununu, ambayo inaruhusu UTXO kuchaguliwa kwa mikono. Wacha tuone Bluu Wallet kama mfano wa kwanza.
+Wallet pia inaweza kuchaguliwa kutoka kwa rununu, ambayo inaruhusu UTXO kuchaguliwa kwa mikono. Wacha tuone Blue Wallet kama mfano wa kwanza.
 
 
 
-### Bluu Wallet
+### Blue Wallet
 
 
 
-Ikiwa wewe ni mtumiaji wa Wallet hii, ifungue na ubofye ili kuingiza skrini za udhibiti zinazohusiana na mojawapo ya Wallet zako. Ili kufikia mwongozo wa udhibiti wa Coin lazima uweke awamu ya matumizi, kisha ubofye _Send_.
+Ikiwa wewe ni mtumiaji wa Wallet hii, ifungue na ubofye ili kuingiza skrini za udhibiti zinazohusiana na mojawapo ya Wallet zako. Ili kufikia mwongozo wa Coin control lazima uweke awamu ya matumizi, kisha ubofye _Send_.
 
 
 
@@ -416,7 +416,7 @@ Kwenye skrini inayofuata chagua menyu zilizoonyeshwa na vitone vitatu kwenye kon
 
 
 
-Katika hatua hii Bluu Wallet inaonyesha UTXO zako zote. Mbali na kiasi, hutofautishwa graphically na rangi tofauti.
+Katika hatua hii Blue Wallet inaonyesha UTXO zako zote. Mbali na kiasi, hutofautishwa graphically na rangi tofauti.
 
 
 
@@ -432,7 +432,7 @@ Chagua UTXO ili kuchagua kisha chagua _Tumia Coin_.
 
 
 
-Wallet ya Bluu inakurudisha kwenye dirisha la _Send_ ili kuendelea kutengeneza muamala. Rekebisha kiasi na ada, kisha utachagua _Next_.
+Wallet ya Blue inakurudisha kwenye dirisha la _Send_ ili kuendelea kutengeneza muamala. Rekebisha kiasi na ada, kisha utachagua _Next_.
 
 
 
@@ -448,7 +448,7 @@ Katika hatua hii unaweza kumaliza muamala, kama kawaida.
 
 
 
-Bluu Wallet pia inakuwezesha kutenganisha UTXO, na kuwafanya kutopatikana kwa matumizi ambayo sio kazi mbaya kwa Wallet kutoka kwa simu ya mkononi. Unafikia kidhibiti cha Coin kwa utaratibu uliofafanuliwa hivi punde na, baada ya kuchagua UTXO, chagua _Freeze_ badala ya _Use Coin_.
+Blue Wallet pia inakuwezesha kutenganisha UTXO, na kuwafanya kutopatikana kwa matumizi ambayo sio kazi mbaya kwa Wallet kutoka kwa simu ya mkononi. Unafikia Coin control kwa utaratibu uliofafanuliwa hivi punde na, baada ya kuchagua UTXO, chagua _Freeze_ badala ya _Use Coin_.
 
 
 
@@ -460,7 +460,7 @@ Bluu Wallet pia inakuwezesha kutenganisha UTXO, na kuwafanya kutopatikana kwa ma
 
 
 
-Toleo la rununu la Nunchuk pia hutoa uwezo kwa mtumiaji kufanya udhibiti wa Coin. Ikiwa unatumia programu hii kutoka kwa simu ya mkononi, ifungue na uende kwenye menyu ya _Wallet_. Kutoka hapo chagua _Tazama sarafu_.
+Toleo la rununu la Nunchuk pia hutoa uwezo kwa mtumiaji kufanya Coin control. Ikiwa unatumia programu hii kutoka kwa simu ya mkononi, ifungue na uende kwenye menyu ya _Wallet_. Kutoka hapo chagua _Tazama sarafu_.
 
 
 
@@ -492,7 +492,7 @@ Sasa unaweza kukamilisha muamala, ukichagua kiasi na kubofya _Endelea_.
 
 
 
-Endelea kama unavyofanya kila mara, kubandika lengwa la Address, maelezo na kubinafsisha mipangilio ya ada.
+Endelea kama unavyofanya kawaida, kwa kubandika lengwa la address, maelezo, na kubinafsisha mipangilio ya ada.
 
 
 
@@ -520,7 +520,7 @@ Utaona nafasi iliyohifadhiwa kwa maelezo ya _Coin_, ambapo unaweza kuchagua _Fun
 
 
 
-Bitcoin Keeper ndio Wallet ya mwisho tutakayoona katika mwongozo huu. Tunaona utendakazi wake ukitumika kwa udhibiti wa Coin kwa kutumia sig moja ya Wallet, ingawa matumizi kama hayo si madhumuni ya programu hii mahususi. Baada ya kusanidi Kilinda kwenye simu yako, izindua na ufungue Wallet iliyo na pesa. Katikati ya skrini kuu bofya _Tazama Sarafu Zote_.
+Bitcoin Keeper ndio Wallet ya mwisho tutakayoona katika mwongozo huu. Tunaona utendakazi wake ukitumika kwa udhibiti wa Coin kwa kutumia single sig ya Wallet, ingawa matumizi kama hayo si madhumuni ya programu hii mahususi. Baada ya kusanidi Kilinda kwenye simu yako, izindua na ufungue Wallet iliyo na pesa. Katikati ya skrini kuu bofya _Tazama Sarafu Zote_.
 
 
 
@@ -556,7 +556,7 @@ Bitcoin Keeper inakupeleka moja kwa moja hadi kwenye menyu ya _Send_, ambapo una
 
 
 
-Kila programu ya Pochi inayoonekana katika mwongozo huu inaweza kuwa Interface ya saa pekee kwa mojawapo ya Wallet zako za Maunzi. Inamaanisha kuwa kidhibiti cha Coin cha kifaa cha kuambatisha cheti nje ya mtandao kinatekelezwa kwa hatua zinazoonekana kufikia sasa.
+Kila programu ya wallet inayoonekana katika mwongozo huu inaweza kuwa Interface ya saa pekee kwa mojawapo ya hardware wallet. Inamaanisha kuwa Coin control ya kifaa cha kuambatisha cheti nje ya mtandao kinatekelezwa kwa hatua zinazoonekana kufikia sasa.
 
 
 
@@ -564,7 +564,7 @@ Kila programu ya Pochi inayoonekana katika mwongozo huu inaweza kuwa Interface y
 
 
 
-Udhibiti wa Coin ni mazoezi madhubuti sana ya kuchagua ingizo lako la muamala. Uteuzi wa mtu mwenyewe ni mzuri zaidi ikiwa, unaponunua/kupokea pesa zako, umeweka lebo ya chanzo cha Satoshi yako vizuri. Ikiwa ungependa kujifunza mbinu hii vizuri, napendekeza mafunzo yafuatayo:
+Coin control ni mazoezi madhubuti sana ya kuchagua ingizo lako la muamala. Uteuzi wa mtu mwenyewe ni mzuri zaidi ikiwa, unaponunua/kupokea pesa zako, umeweka lebo ya chanzo cha Satoshi yako vizuri. Ikiwa ungependa kujifunza mbinu hii vizuri, napendekeza mafunzo yafuatayo:
 
 
 

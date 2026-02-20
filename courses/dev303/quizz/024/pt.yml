@@ -1,0 +1,8 @@
+question: Que sintaxe é utilizada para aceder ao primeiro campo de uma estrutura de tuplas no Rust?
+answer: Notação de ponto com índice 0 (por exemplo, instance.0)
+wrong_answers:
+  - Parênteses rectos com índice 0 (por exemplo, instance[0])
+  - Notação de seta com índice 0 (por exemplo, instância->0)
+  - Dois pontos duplos com índice 0 (por exemplo, instance::0)
+explanation: |
+  As estruturas de tuplas no Rust utilizam a notação de ponto seguida do índice do campo para aceder aos seus campos não nomeados. O primeiro campo é acedido com .0, o segundo com .1, e assim por diante. Isto é diferente das matrizes ou vectores que utilizam parênteses rectos, e ao contrário do C++ que utiliza a notação de seta para apontadores. A sintaxe de dois pontos duplos é reservada para funções associadas e namespacing, não para acesso a campos.

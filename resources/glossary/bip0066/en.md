@@ -1,5 +1,6 @@
 ---
 term: BIP0066
+definition: Standardization of the signature format using strict DER encoding, avoiding discrepancies between systems.
 ---
 
 Introduced a standardization of the signature format in transactions. 

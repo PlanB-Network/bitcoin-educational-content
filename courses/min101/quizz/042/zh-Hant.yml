@@ -1,0 +1,9 @@
+question: ASIC 是什麼意思？
+answer: Application-Specific Integrated Circuits（專用積體電路）
+wrong_answers:
+  - Advanced Secure Integrated Circuit
+  - Automated Silicon Integrated Circuit
+  - Application-Shared Integrated Circuit
+explanation: |
+  ASIC 是專為單一任務設計的晶片。因此，它是 Application-Specific Integrated Circuits。
+reviewed: false

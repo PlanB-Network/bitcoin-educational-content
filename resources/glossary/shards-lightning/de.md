@@ -1,5 +1,6 @@
 ---
-term: SCHERBEN (BLITZSCHLAG)
+term: Shards (Lightning)
+definition: Teil einer Zahlung, der separat über verschiedene Lightning-Routen (MPP/AMP) geleitet wird.
 ---
 
 Im Zusammenhang mit *Multi-Path Payments (MPP)* oder *Atomic Multi-Path Payments (AMP)* ist ein Shard ein Bruchteil einer globalen Zahlung. Jeder Shard stellt einen Teil der Gesamtzahlung dar, der separat über eine andere Route auf Lightning geleitet wird.

@@ -1,0 +1,9 @@
+question: Koji mehanizam proširuje prostor za pretragu kada se iscrpi 32-bitni nonce?
+answer: Extra-nonce
+wrong_answers:
+  - Super-nonce
+  - Coinbase-nonce
+  - Double-nonce
+explanation: |
+  Izmenom extra-nonce-a u scriptSig-u coinbase transakcije menja se Merkle koren, a time i zaglavlje.
+reviewed: false

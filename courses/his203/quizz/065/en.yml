@@ -1,0 +1,11 @@
+question: How many separate hacks did the Bitcoinica trading platform experience before declaring bankruptcy?
+answer: 3
+wrong_answers:
+  - 1
+  - 2
+  - 4
+explanation: |
+ The three hacks were as follows: the hack of the Linode account causing the platform to lose 43,554 bitcoins; the hack of its Rackspace account which led to the
+ loss of 18,574 bitcoins; the hack of the Mt. Gox account during which the hacker withdrew 40,000 bitcoins and 40,000 LR-USD. The liquidation of Bitcoinica 
+ was announced on August 1, 2012.
+reviewed: true

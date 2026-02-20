@@ -83,7 +83,7 @@ Czytelnikom, którzy po zapoznaniu się z tym wprowadzeniem chcieliby poszukać 
 **Wkład**
 
 
-Prosimy o zapoznanie się z [plikiem wkładu w repozytorium] (https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) w celu uzyskania wskazówek, jak wspierać projekt.
+Prosimy o zapoznanie się z [plikiem wkładu w repozytorium](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) w celu uzyskania wskazówek, jak wspierać projekt.
 
 
 
@@ -135,7 +135,7 @@ Gotowy na poznanie fascynującego świata kryptografii? Do dzieła!
 <chapterId>ae674346-4789-5ab1-9b6f-c8989d83be89</chapterId>
 
 
-Zacznijmy nasze badanie dziedziny kryptografii od jednego z bardziej uroczych i zabawnych epizodów w jej historii: szyfrów Beale'a. [1]
+Zacznijmy nasze badanie dziedziny [kryptografii](https://planb.academy/resources/glossary/cryptography) od jednego z bardziej uroczych i zabawnych epizodów w jej historii: szyfrów Beale'a. [1]
 
 
 Historia szyfrów Beale'a jest moim zdaniem bardziej fikcją niż rzeczywistością. Ale podobno wyglądało to następująco.
@@ -147,7 +147,7 @@ Zimą 1820 i 1822 roku niejaki Thomas J. Beale zatrzymał się w gospodzie nale�
 Kilka miesięcy później Morriss otrzymał list od Beale'a datowany na 9 maja 1822 roku. Podkreślał on wielką wartość zawartości żelaznej skrzyni i zawierał pewne instrukcje dla Morrissa: jeśli ani Beale, ani żaden z jego współpracowników nigdy nie zgłosi się po skrzynię, powinien ją otworzyć dokładnie dziesięć lat od daty listu (tj. 9 maja 1832 r.). Niektóre z dokumentów w środku byłyby napisane zwykłym tekstem. Kilka innych byłoby jednak "niezrozumiałych bez pomocy klucza" Ten "klucz" miał zostać dostarczony Morrissowi przez nienazwanego przyjaciela Beale'a w czerwcu 1832 roku.
 
 
-Pomimo jasnych instrukcji, Morriss nie otworzył skrzynki w maju 1832 roku, a tajemniczy przyjaciel Beale'a nigdy nie pojawił się w czerwcu tego samego roku. Dopiero w 1845 roku właściciel zajazdu zdecydował się w końcu otworzyć skrzynkę. Morriss znalazł w niej notatkę wyjaśniającą, w jaki sposób Beale i jego współpracownicy odkryli złoto i srebro na Zachodzie i zakopali je wraz z biżuterią na przechowanie. Ponadto pudełko zawierało trzy **szyfrogramy**, czyli teksty napisane kodem, które wymagają **klucza kryptograficznego** lub sekretu i towarzyszącego mu algorytmu do odblokowania. Proces odblokowywania szyfrogramu znany jest jako **decryption**, podczas gdy proces blokowania znany jest jako **encryption**. (Jak wyjaśniono w rozdziale 3, termin szyfr może przybierać różne znaczenia. W nazwie "szyfry Beale'a" jest to skrót od ciphertexts)
+Pomimo jasnych instrukcji, Morriss nie otworzył skrzynki w maju 1832 roku, a tajemniczy przyjaciel Beale'a nigdy nie pojawił się w czerwcu tego samego roku. Dopiero w 1845 roku właściciel zajazdu zdecydował się w końcu otworzyć skrzynkę. Morriss znalazł w niej notatkę wyjaśniającą, w jaki sposób Beale i jego współpracownicy odkryli złoto i srebro na Zachodzie i zakopali je wraz z biżuterią na przechowanie. Ponadto pudełko zawierało trzy **szyfrogramy**, czyli teksty napisane kodem, które wymagają **klucza kryptograficznego** lub sekretu i towarzyszącego mu algorytmu do odblokowania. Proces odblokowywania szyfrogramu znany jest jako **decryption**, podczas gdy proces blokowania znany jest jako **[encryption](https://planb.academy/resources/glossary/encryption-encrypt)**. (Jak wyjaśniono w rozdziale 3, termin szyfr może przybierać różne znaczenia. W nazwie "szyfry Beale'a" jest to skrót od ciphertexts)
 
 
 Trzy szyfrogramy, które Morriss znalazł w żelaznej skrzyni, składają się z serii liczb oddzielonych przecinkami. Zgodnie z notatką Beale'a, szyfrogramy te oddzielnie podają lokalizację skarbu, zawartość skarbu oraz listę nazwisk prawowitych spadkobierców skarbu i ich udziałów (ta ostatnia informacja jest istotna na wypadek, gdyby Beale i jego współpracownicy nigdy nie odebrali skrzyni).
@@ -185,7 +185,7 @@ Po odszyfrowaniu druga wiadomość zawiera szczegółową zawartość skarbu (z�
 **Uwagi:**
 
 
-[1] Dobre podsumowanie tej historii można znaleźć w Simon Singh, *The Code Book*, Fourth Estate (Londyn, 1999), s. 82-99. Krótki film przedstawiający tę historię został nakręcony przez Andrew Allena w 2010 roku. Można go znaleźć pod tytułem "The Thomas Beale Cipher" [na jego stronie internetowej] (http://www.thomasbealecipher.com/).
+[1] Dobre podsumowanie tej historii można znaleźć w Simon Singh, *The Code Book*, Fourth Estate (Londyn, 1999), s. 82-99. Krótki film przedstawiający tę historię został nakręcony przez Andrew Allena w 2010 roku. Można go znaleźć pod tytułem "The Thomas Beale Cipher" [na jego stronie internetowej](http://www.thomasbealecipher.com/).
 
 
 [2] Ten obraz jest dostępny na stronie Wikipedii poświęconej szyfrom Beale'a.
@@ -212,7 +212,7 @@ Ważnym rozróżnieniem, o którym należy pamiętać, jest zatem rozróżnienie
 Zagadnienia integralności i autentyczności są równie ważne jak tajność. Nasze nowoczesne systemy komunikacyjne nie byłyby w stanie funkcjonować bez gwarancji dotyczących integralności i autentyczności komunikacji. Niezaprzeczalność jest również ważną kwestią, na przykład w przypadku umów cyfrowych, ale jest mniej potrzebna w zastosowaniach kryptograficznych niż tajność, integralność i autentyczność.
 
 
-Po drugie, klasyczne schematy szyfrowania, takie jak szyfry Beale'a, zawsze obejmują jeden klucz, który był współdzielony przez wszystkie odpowiednie strony. Jednak wiele nowoczesnych schematów kryptograficznych obejmuje nie tylko jeden, ale dwa klucze: **prywatny** i **publiczny**. Podczas gdy ten pierwszy powinien pozostać prywatny we wszystkich zastosowaniach, drugi jest zazwyczaj wiedzą publiczną (stąd ich nazwy). W dziedzinie szyfrowania, klucz publiczny może być użyty do zaszyfrowania wiadomości, podczas gdy klucz prywatny może być użyty do odszyfrowania.
+Po drugie, klasyczne schematy szyfrowania, takie jak szyfry Beale'a, zawsze obejmują jeden klucz, który był współdzielony przez wszystkie odpowiednie strony. Jednak wiele nowoczesnych schematów kryptograficznych obejmuje nie tylko jeden, ale dwa klucze: **prywatny** i **publiczny**. Podczas gdy ten pierwszy powinien pozostać prywatny we wszystkich zastosowaniach, drugi jest zazwyczaj wiedzą publiczną (stąd ich nazwy). W dziedzinie szyfrowania, [klucz publiczny](https://planb.academy/resources/glossary/public-key) może być użyty do zaszyfrowania wiadomości, podczas gdy [klucz prywatny](https://planb.academy/resources/glossary/private-key) może być użyty do odszyfrowania.
 
 
 Gałąź kryptografii zajmująca się schematami, w których wszystkie strony dzielą jeden klucz, znana jest jako **kryptografia symetryczna**. Pojedynczy klucz w takim schemacie jest zwykle nazywany **kluczem prywatnym** (lub kluczem tajnym). Gałąź kryptografii, która zajmuje się schematami wymagającymi pary kluczy prywatny-publiczny, znana jest jako **kryptografia asymetryczna**. Gałęzie te są czasami nazywane odpowiednio **kryptografią klucza prywatnego** i **kryptografią klucza publicznego** (choć może to powodować zamieszanie, ponieważ schematy kryptograficzne z kluczem publicznym mają również klucze prywatne).
@@ -221,7 +221,7 @@ Gałąź kryptografii zajmująca się schematami, w których wszystkie strony dz
 Pojawienie się kryptografii asymetrycznej pod koniec lat 70. było jednym z najważniejszych wydarzeń w historii kryptografii. Bez niej większość naszych nowoczesnych systemów komunikacyjnych, w tym Bitcoin, nie byłaby możliwa lub przynajmniej bardzo niepraktyczna.
 
 
-Co ważne, współczesna kryptografia nie polega wyłącznie na badaniu schematów kryptograficznych z kluczem symetrycznym i asymetrycznym (choć obejmuje to znaczną część dziedziny). Na przykład kryptografia zajmuje się również funkcjami Hash i generatorami liczb pseudolosowych, a na tych prymitywach można budować aplikacje, które nie są związane z kryptografią kluczy symetrycznych lub asymetrycznych.
+Co ważne, współczesna kryptografia nie polega wyłącznie na badaniu schematów kryptograficznych z kluczem symetrycznym i asymetrycznym (choć obejmuje to znaczną część dziedziny). Na przykład kryptografia zajmuje się również [funkcjami Hash](https://planb.academy/resources/glossary/hash-function) i generatorami liczb pseudolosowych, a na tych prymitywach można budować aplikacje, które nie są związane z kryptografią kluczy symetrycznych lub asymetrycznych.
 
 
 Po trzecie, klasyczne schematy szyfrowania, takie jak te stosowane w szyfrach Beale'a, były bardziej sztuką niż nauką. Ich postrzegane bezpieczeństwo było w dużej mierze oparte na intuicjach dotyczących ich złożoności. Zazwyczaj były one łatane, gdy poznano nowy atak na nie, lub całkowicie porzucane, jeśli atak był szczególnie poważny. Współczesna kryptografia jest jednak rygorystyczną nauką z formalnym, matematycznym podejściem zarówno do opracowywania, jak i analizowania schematów kryptograficznych. [5]
@@ -2464,7 +2464,7 @@ Przynajmniej jedną z głównych motywacji dla ich przedsięwzięcia było przew
 Wytrwałość Diffiego, Hellmana i Merkle'a opłaciła się. Pierwszą publikacją ich wyników był artykuł Diffiego i Helmanna z 1976 roku zatytułowany "New Directions in Cryptography" Przedstawili w nim dwa oryginalne sposoby na rozwiązanie problemów z dystrybucją i zarządzaniem kluczami w Address.
 
 
-Pierwszym zaproponowanym przez nich rozwiązaniem był zdalny *protokół klucza Exchange*, czyli zestaw reguł dla Exchange jednego lub więcej kluczy symetrycznych przez niezabezpieczony kanał komunikacyjny. Protokół ten jest obecnie znany jako *Diffie-Helmann key Exchange* lub *Diffie-Helmann-Merkle key Exchange*. [2]
+Pierwszym zaproponowanym przez nich rozwiązaniem był zdalny *protokół klucza Exchange*, czyli zestaw reguł dla Exchange jednego lub więcej kluczy symetrycznych przez niezabezpieczony kanał komunikacyjny. Protokół ten jest obecnie znany jako *[Diffie-Helmann](https://planb.academy/resources/glossary/diffiehellman) key Exchange* lub *Diffie-Helmann-Merkle key Exchange*. [2]
 
 
 W przypadku klucza Diffiego-Helmanna Exchange, dwie strony najpierw publicznie Exchange pewne informacje na niezabezpieczonym kanale, takim jak Internet. Następnie na podstawie tych informacji niezależnie tworzą klucz symetryczny (lub parę kluczy symetrycznych) do bezpiecznej komunikacji. Podczas gdy obie strony tworzą swoje klucze niezależnie, informacje, które udostępniły publicznie, zapewniają, że proces tworzenia klucza daje taki sam wynik dla obu stron.
@@ -2616,7 +2616,7 @@ Innym przykładem są podpisy cyfrowe, które są ważnym aspektem bezpiecznej d
 Ostatnim przykładem potęgi podpisów cyfrowych jest Bitcoin. Jednym z najczęstszych błędnych przekonań na temat Bitcoin, szczególnie w mediach, jest to, że transakcje są szyfrowane: nie są. Zamiast tego transakcje Bitcoin współpracują z podpisami cyfrowymi w celu zapewnienia bezpieczeństwa.
 
 
-Bitcoiny istnieją w partiach zwanych niewydanymi transakcjami (lub **UTXO**). Załóżmy, że otrzymałeś trzy płatności na konkretnym Bitcoin Address po 2 bitcoiny każda. Technicznie rzecz biorąc, nie masz teraz 6 bitcoinów na tym Address. Zamiast tego masz trzy partie po 2 bitcoiny, które są zablokowane przez problem kryptograficzny związany z tym Address. Do każdej płatności możesz użyć jednej, dwóch lub wszystkich trzech partii, w zależności od tego, ile potrzebujesz do transakcji.
+Bitcoiny istnieją w partiach zwanych niewydanymi transakcjami (lub **[UTXO](https://planb.academy/resources/glossary/utxo)**). Załóżmy, że otrzymałeś trzy płatności na konkretnym Bitcoin Address po 2 bitcoiny każda. Technicznie rzecz biorąc, nie masz teraz 6 bitcoinów na tym Address. Zamiast tego masz trzy partie po 2 bitcoiny, które są zablokowane przez problem kryptograficzny związany z tym Address. Do każdej płatności możesz użyć jednej, dwóch lub wszystkich trzech partii, w zależności od tego, ile potrzebujesz do transakcji.
 
 
 Dowód Ownership na niewydanych wynikach transakcji jest zwykle przedstawiany za pomocą jednego lub więcej podpisów cyfrowych. Bitcoin działa właśnie dlatego, że prawidłowe podpisy cyfrowe na niewydanych wynikach transakcji są obliczeniowo niewykonalne, chyba że jesteś w posiadaniu tajnych informacji wymaganych do ich wykonania.
@@ -2686,7 +2686,7 @@ Zacznijmy od zdefiniowania funkcji Hash. Funkcja **Hash** to dowolna efektywnie 
 W kontekście kryptografii "funkcja Hash" zazwyczaj odnosi się do kryptograficznej funkcji Hash. Przyjmę tę praktykę od teraz.
 
 
-Przykładem popularnej funkcji Hash jest **SHA-256** (bezpieczny algorytm Hash 256). Niezależnie od rozmiaru danych wejściowych (np. 15 bitów, 100 bitów lub 10 000 bitów), funkcja ta da 256-bitową wartość Hash. Poniżej znajduje się kilka przykładowych wyników funkcji SHA-256.
+Przykładem popularnej funkcji Hash jest **[SHA-256](https://planb.academy/resources/glossary/sha256)** (bezpieczny algorytm Hash 256). Niezależnie od rozmiaru danych wejściowych (np. 15 bitów, 100 bitów lub 10 000 bitów), funkcja ta da 256-bitową wartość Hash. Poniżej znajduje się kilka przykładowych wyników funkcji SHA-256.
 
 
 "Hello": `185f8db32271fe25f561a6fc938b2e264306ec304eda518007d1764826381969`
@@ -2715,11 +2715,11 @@ O funkcji Hash $H$ mówi się, że jest **odporna na kolizje**, jeśli nie jest 
 Odporne na kolizje funkcje Hash są ważne na przykład przy weryfikacji oprogramowania. Załóżmy, że chcesz pobrać wersję Bitcoin Core 0.21.0 dla systemu Windows (aplikacja serwerowa do przetwarzania ruchu sieciowego Bitcoin). Główne kroki, które należałoby wykonać, aby zweryfikować legalność oprogramowania, są następujące:
 
 
-1.	Najpierw należy pobrać i zaimportować klucze publiczne jednego lub więcej współtwórców Bitcoin Core do oprogramowania, które może weryfikować podpisy cyfrowe (np. Kleopetra). Te klucze publiczne można znaleźć [tutaj] (https://github.com/Bitcoin/Bitcoin/blob/master/contrib/builder-keys/keys.txt). Zaleca się zweryfikowanie oprogramowania Bitcoin Core za pomocą kluczy publicznych od wielu dostawców.
+1.	Najpierw należy pobrać i zaimportować klucze publiczne jednego lub więcej współtwórców Bitcoin Core do oprogramowania, które może weryfikować podpisy cyfrowe (np. Kleopetra). Te klucze publiczne można znaleźć [tutaj](https://github.com/Bitcoin/Bitcoin/blob/master/contrib/builder-keys/keys.txt). Zaleca się zweryfikowanie oprogramowania Bitcoin Core za pomocą kluczy publicznych od wielu dostawców.
 
 2.	Następnie należy zweryfikować zaimportowane klucze publiczne. Przynajmniej jednym krokiem, który powinieneś podjąć, jest sprawdzenie, czy znalezione klucze publiczne są takie same, jak opublikowane w różnych innych lokalizacjach. Możesz na przykład zapoznać się z osobistymi stronami internetowymi, stronami Twittera lub stronami Github osób, których klucze publiczne zaimportowałeś. Zazwyczaj porównanie kluczy publicznych odbywa się poprzez porównanie krótkiego Hash klucza publicznego znanego jako odcisk palca.
 
-3.	Następnie należy pobrać plik wykonywalny dla Bitcoin Core z ich [strony internetowej] (www.bitcoincore.org). Dostępne będą pakiety dla systemów operacyjnych Linux, Windows i MAC.
+3.	Następnie należy pobrać plik wykonywalny dla Bitcoin Core z ich [strony internetowej](www.bitcoincore.org). Dostępne będą pakiety dla systemów operacyjnych Linux, Windows i MAC.
 
 4.	Następnie należy zlokalizować dwa pliki wydania. Pierwszy z nich zawiera oficjalny SHA-256 Hash dla pobranego pliku wykonywalnego wraz ze skrótami wszystkich innych wydanych pakietów. Kolejny plik wydania będzie zawierał podpisy różnych współtwórców nad plikiem wydania wraz ze skrótami pakietów. Oba te pliki powinny znajdować się na stronie Bitcoin Core.
 

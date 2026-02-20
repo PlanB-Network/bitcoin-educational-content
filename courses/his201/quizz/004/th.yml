@@ -1,0 +1,9 @@
+question: แนวคิด eCash ของ David Chaum ถูกนำมาใช้ในปีใด?
+answer: 1994
+wrong_answers:
+  - 1993
+  - 1995
+  - 1996
+explanation: |
+  มันถูกนำมาใช้ครั้งแรกโดยกลุ่มไซเฟอร์พังค์ในเดือนกุมภาพันธ์ และ Digicash ได้ทดลองใช้ในเดือนตุลาคมโดยการออก CyberBucks
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - Garantizar que cada mensaje tenga una clave única
 explanation: |
   De acuerdo con el principio de Kerckhoff, la seguridad de un sistema criptográfico debe depender únicamente de la clave secreta, y no del secreto del algoritmo en sí.
-reviewed: false
+reviewed: true

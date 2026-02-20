@@ -1,0 +1,9 @@
+question: Kdo stojí za konceptem Bit Gold?
+answer: Nick Szabo
+wrong_answers:
+  - Satoshi Nakamoto
+  - Hal Finney
+  - Wei Dai
+explanation: |
+  Bit Gold je koncepční projekt systému elektronických peněz navržený Nickem Szabem.
+reviewed: false

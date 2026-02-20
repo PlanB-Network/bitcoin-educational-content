@@ -1,0 +1,9 @@
+question: ブロック報酬は何で構成されていますか？
+answer: 補助金 + 手数料
+wrong_answers:
+  - 補助金 + 難易度
+  - 手数料 + nonce
+  - ハッシュレート + 手数料
+explanation: |
+  報酬は、ブロック補助金と含まれるトランザクションのすべての手数料を合計したものです。
+reviewed: false

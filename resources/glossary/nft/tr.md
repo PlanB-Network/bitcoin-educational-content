@@ -1,5 +1,6 @@
 ---
 term: NFT
+definition: Bir protokol aracılığıyla harici bir varlıkla ilişkilendirilen ve gayri-misli (non-fungible) olarak yorumlanan bitcoin birimi.
 ---
 
 Değiştirilemez token için kısaltma. Bir NFT, ikinci bir Layer protokolünün kullanıcıları tarafından değiştirilemez olarak yorumlanan ve bir görüntü veya başka bir veri türü gibi Bitcoin'in dışındaki bir varlığın *Ownership*'ı ile ilişkilendirilen bir Bitcoin birimini temsil eder.

@@ -5,8 +5,5 @@ wrong_answers:
   - Dependencia de intermediarios
   - Control centralizado sobre las transacciones
 explanation: |
-  La red descentralizada de Bitcoin proporciona una manera segura y eficiente de 
-  realizar transacciones sin la necesidad de intermediarios o terceras partes. Esto 
-  reduce el riesgo de censura y cambios no autorizados en las transacciones,
-  así como aumenta la privacidad.
-reviewed: false
+  La red descentralizada de Bitcoin proporciona una manera segura y eficiente de realizar transacciones sin la necesidad de intermediarios o terceras partes. Esto reduce el riesgo de censura y cambios no autorizados en las transacciones, así como aumenta la privacidad.
+reviewed: true

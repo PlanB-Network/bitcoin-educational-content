@@ -1,0 +1,9 @@
+question: 휴대폰에서 실제 라이트닝 노드를 실행할 수 있는 솔루션은 무엇인가요?
+answer: 임베디드 LN 노드
+wrong_answers:
+  - 커스터디 라이트닝 wallet
+  - 라이트닝 원자 스왑
+  - 페더레이션 채널
+explanation: |
+  Phoenix 또는 Zeus Embedded와 같은 솔루션은 애플리케이션에 정품 Lightning 노드를 직접 내장합니다.
+reviewed: false

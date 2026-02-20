@@ -1,0 +1,9 @@
+question: ฐานข้อมูลใดที่โหนด Bitcoin เก็บไว้ในเครื่องเพื่อติดตามเอาต์พุตที่ยังไม่ได้ใช้?
+answer: ชุด UTXO
+wrong_answers:
+  - The Mempool
+  - The Blockchain
+  - ประวัติศาสตร์ Wallet
+explanation: |
+  โหนดเก็บชุด UTXO ซึ่งเป็นชุดของเอาต์พุตที่ยังไม่ได้ใช้ซึ่งมีอยู่สำหรับธุรกรรมในอนาคต
+reviewed: true

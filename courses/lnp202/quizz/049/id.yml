@@ -1,0 +1,9 @@
+question: Platform mana yang memungkinkan Anda membeli likuiditas yang masuk?
+answer: Magma
+wrong_answers:
+  - Inti Bitcoin
+  - 1ML
+  - Boltz
+explanation: |
+  Magma memudahkan pembelian likuiditas yang masuk melalui pasar otomatis.
+reviewed: false

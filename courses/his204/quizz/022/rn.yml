@@ -1,8 +1,9 @@
-question: Ni uwuhe munyabwenge abbé de Saint-Pierre aboneka nk’intango y’umugambi wiwe w’amahoro ahoraho?
-answer: Emanweli Kanti
+question: Ni uwuhe munyabwenge(w'umufirozofe) abbé de Saint-Pierre aboneka nk’intango y’umugambi wiwe w’amahoro ahoraho?
+answer: Emmanuel Kant
 wrong_answers:
-  - Yeremi Bentamu
-  - Jean-Jac Rousseau
-  - Baruki Sipinoza
+  - Jeremy Bentham
+  - Jean-Jacques Rousseau
+  - Baruch Spinoza
 explanation: |
   Umugambi wa Abbé de Saint-Pierre wo kurondera amahoro ahoraho ubonwa ko ari wo wari intango y’ivyiyumviro vya Immanuel Kant ku bijanye n’amahoro kw’isi yose. Abo biyumvira bompi barashigikiye ko hashingwa ishirahamwe mpuzamakungu rishobora gutuma haba amahoro hagati y’ibihugu.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Warum unterscheidet sich die Coinbase-Transaktion von anderen Transaktionen?
+answer: Sie gibt keine echten UTXOs aus
+wrong_answers:
+  - Sie hat keine TXID
+  - Sie hat keine Outputs
+  - Sie befindet sich nicht im Merkle-Baum
+explanation: |
+  Ihr Input weist auf ein fiktives UTXO hin, was die Erstellung der Block-Subvention und die Vereinnahmung der Gebühren ermöglicht.
+reviewed: false

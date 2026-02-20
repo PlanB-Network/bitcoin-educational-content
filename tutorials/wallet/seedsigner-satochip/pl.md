@@ -7,7 +7,7 @@ description: Jak używać Satochip z SeedSigner?
 
 
 
-*Podziękowania dla [Crypto Guide] (https://www.youtube.com/@CryptoGuide/) za fork oprogramowania SeedSigner do obsługi kart inteligentnych, którego użyjemy w tym samouczku
+*Podziękowania dla [Crypto Guide](https://www.youtube.com/@CryptoGuide/) za fork oprogramowania SeedSigner do obsługi kart inteligentnych, którego użyjemy w tym samouczku
 
 
 
@@ -96,7 +96,7 @@ Aby używać SeedSigner z Satochip, należy zainstalować alternatywne oprogramo
 
 
 
-Jeśli jeszcze go nie masz, pobierz oprogramowanie [Balena Etcher] (https://etcher.balena.io/), a następnie wykonaj następujące czynności:
+Jeśli jeszcze go nie masz, pobierz oprogramowanie [Balena Etcher](https://etcher.balena.io/), a następnie wykonaj następujące czynności:
 
 
 
@@ -933,6 +933,6 @@ Jeśli ta konfiguracja cię przekonała, nie wahaj się wspierać projektów, kt
 
 
 
-- Kupując sprzęt bezpośrednio [na stronie internetowej Satochip] (https://satochip.io/shop/);
+- Kupując sprzęt bezpośrednio [na stronie internetowej Satochip](https://satochip.io/shop/);
 - Przekazując [darowiznę na rzecz projektu SeedSigner](https://seedsigner.com/donate/);
-- Subskrybując kanał YouTube [Crypto Guide] (https://www.youtube.com/@CryptoGuide/), prowadzony przez osobę, która utrzymuje repozytorium GitHub zawierające zmodyfikowane oprogramowanie układowe, którego używaliśmy w tym samouczku.
+- Subskrybując kanał YouTube [Crypto Guide](https://www.youtube.com/@CryptoGuide/), prowadzony przez osobę, która utrzymuje repozytorium GitHub zawierające zmodyfikowane oprogramowanie układowe, którego używaliśmy w tym samouczku.

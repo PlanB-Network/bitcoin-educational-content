@@ -1,5 +1,6 @@
 ---
-term: MAGIC NETWORK
+term: Magic network
+definition: 4-bajta konstante koje identifikuju mrežu (mainnet, testnet, regtest) u porukama između čvorova.
 ---
 
 Konstante korišćene u Bitcoin protokolu za identifikaciju specifične mreže (Mainnet, Testnet, regtest...) poruke razmenjene između čvorova. Ove vrednosti su upisane na početku svake poruke kako bi se olakšala njihova identifikacija u toku podataka. Magic Networks su dizajnirane da budu retko prisutne u običnim komunikacionim podacima. Zaista, ovi 4 bajta su retki u ASCII, nevažeći su u UTF-8, a generate je veoma veliki 32-bitni ceo broj, bez obzira na format skladištenja podataka. Magic Networks su (u little-endian formatu):

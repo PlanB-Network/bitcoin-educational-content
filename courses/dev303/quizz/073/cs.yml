@@ -1,0 +1,8 @@
+question: Kdy by měl být při zpracování chyb Rust upřednostněn operátor otazníku (?) před metodami unwrap() nebo expect()?
+answer: Pokud potřebujete šířit chyby nahoru po zásobníku volání, aby je volající funkce mohla zpracovat
+wrong_answers:
+  - Pokud chcete poskytnout vlastní chybové zprávy pro ladění neúspěšných operací
+  - Pokud jste si jisti, že operace proběhne úspěšně, a chcete se vyhnout zpracování chyb
+  - Pokud potřebujete převést chyby na výchozí hodnotu a pokračovat ve vykonávání programu
+explanation: |
+  Operátor s otazníkem (?) je určen pro šíření chyb - vytahuje hodnoty úspěchu, ale okamžitě vrací chyby z aktuální funkce, aby je volající mohli zpracovat. Na rozdíl od unwrap()/expect(), které při chybách panikaří, nebo unwrap_or(), který poskytuje výchozí hodnoty, operátor ? zachovává kontext chyby a předává odpovědnost kódu vyšší úrovně, který může učinit příslušná rozhodnutí o zpracování.

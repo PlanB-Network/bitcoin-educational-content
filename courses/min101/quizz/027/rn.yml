@@ -1,0 +1,9 @@
+question: Bacala gute amafaranga y'agashirukanyota (fees) ku buremanyi?
+answer: Inputs minus outputs
+wrong_answers:
+  - Outputs minus inputs
+  - Inputs plus outputs
+  - Outputs zigabuye na inputs
+explanation: |
+  Amafaranga y'agashirukanyota ahura n'agaciro kakoreshejwe muri inputs katarimwe muri outputs.
+reviewed: false

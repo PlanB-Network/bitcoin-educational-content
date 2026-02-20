@@ -1,12 +1,13 @@
 ---
-term: RESYNKRONOINTI
+term: Uudelleensynkronointi
 
+definition: Lohkoketjun osan korvaaminen kilpailevalla ketjulla, jolla on enemmän kertynyttä työtä.
 ---
 Viittaa ilmiöön, jossa lohkoketjun rakenne muuttuu, koska samalla korkeudella olevat kilpailevat lohkot ovat olemassa. Tämä tapahtuu, kun osa lohkoketjusta korvataan toisella ketjulla, jossa on enemmän kertynyttä työtä.
 
 Nämä uudelleensynkronoinnit ovat osa Bitcoinin luonnollista toimintaa, jossa eri louhijat voivat löytää uusia lohkoja lähes samanaikaisesti, jolloin Bitcoin-verkko jakautuu kahtia. Tällaisissa tapauksissa verkko voi jakautua väliaikaisesti kilpaileviin ketjuihin. Lopulta, kun yhteen näistä ketjuista kertyy enemmän työtä, solmut hylkäävät muut ketjut, ja niiden lohkoista tulee niin sanottuja "vanhentuneita lohkoja" tai "orpoja lohkoja" Tämä prosessi, jossa yksi ketju korvataan toisella, on uudelleensynkronointia.
 
-![](../../dictionnaire/assets/9.webp)
+
 
 Uudelleen synkronoinnilla voi olla erilaisia seurauksia. Ensinnäkin, jos käyttäjän transaktio on vahvistettu lohkossa, joka osoittautuu hylätyksi, mutta tätä transaktiota ei löydy lopullisesti voimassa olevasta ketjusta, hänen transaktiostaan tulee jälleen vahvistamaton. Tämän vuoksi on suositeltavaa odottaa aina vähintään 6 vahvistusta, jotta transaktio voidaan katsoa todella muuttumattomaksi. Kuuden lohkon jälkeen uudelleen synkronoinnit ovat niin epätodennäköisiä, että niiden todennäköisyyttä voidaan pitää lähes olemattomana.
 

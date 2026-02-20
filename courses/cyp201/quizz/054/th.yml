@@ -1,0 +1,9 @@
+question: บทบาทหลักของ passphrase ใน Bitcoin HD wallet คืออะไร?
+answer: การปรับเปลี่ยนการสืบทอดคีย์เพื่อเพิ่มความปลอดภัย
+wrong_answers:
+  - ถอดรหัสธุรกรรมที่รอดำเนินการ
+  - สร้าง UTXOs ของ wallet
+  - ปกป้องการเข้าถึง wallet ด้วย Face ID
+explanation: |
+  passphrase ทำหน้าที่เป็นปัจจัยที่สองของความปลอดภัย โดยเปลี่ยนการสืบทอดคีย์ seed เพื่อป้องกันการเข้าถึง wallet ในกรณีที่วลีช่วยจำถูกละเมิด
+reviewed: false

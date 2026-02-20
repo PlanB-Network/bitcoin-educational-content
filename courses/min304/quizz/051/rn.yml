@@ -1,0 +1,11 @@
+question: Ni akamaro akahe nyamukuru kogucukura bitcoins z’isugi?
+answer: Ntizirigera zikoreshwa kandi ata mateka zifise.
+wrong_answers:
+  - Bishobora kugurishwa ku giciro kinini.
+  - Bishobora gukoreshwa mu bikorwa bitemewe n’amategeko.
+  - Bishobora kubikwa igihe kirekire ataco bitakaje.
+explanation: |
+  Inyungu nyamukuru yo gucukura ama bitcoins y’isugi ni uko zitarigera zikoreshwa kandi ata mateka zifise.
+  Izo bitcoins akenshi zibonwa ko zifise agaciro kanini kubera ko zitigeze "zihumanywa," 
+  zitanga icemezo kinaka co kutankwa n'abagenzuzi canke imbuga zikomeye zo guhanahana.
+reviewed: true

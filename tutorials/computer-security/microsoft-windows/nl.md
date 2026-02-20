@@ -14,7 +14,7 @@ In deze zelfstudie leren we hoe je Windows 11 automatisch installeert met een an
 Het eerste wat je nodig hebt is een installatiebestand. De veiligste en meest betrouwbare plaats om het te downloaden is rechtstreeks van de officiële website van Microsoft.
 
 
-Ga gewoon naar de onderstaande koppeling en volg de instructies om het [Windows 11 ISO-bestand] (https://www.microsoft.com/en-us/software-download/windows11) te downloaden
+Ga gewoon naar de onderstaande koppeling en volg de instructies om het [Windows 11 ISO-bestand](https://www.microsoft.com/en-us/software-download/windows11) te downloaden
 
 
 ![Image](assets/en/02.webp)
@@ -62,7 +62,7 @@ Het bestand is ongeveer 5,5 GB groot en de gegenereerde link is 24 uur geldig.
 In dit stadium moeten we wijzigingen aanbrengen in de standaard Windows-installatie. In dit stadium bepalen we met behulp van Unattended install welke onderdelen worden geïnstalleerd, zonder dat de gebruiker daar achteraf iets voor hoeft te doen. In feite wordt bij deze methode een XML-bestand gebruikt om de installatiestappen en de geïnstalleerde services in Windows te configureren. Met andere woorden, het gebruik van het bestand Unattended.xml creëert een automatiseringsproces tijdens de installatie, waardoor het niet nodig is om meerdere opties te selecteren en de vervelende stappen die meestal nodig zijn tijdens de installatie worden vermeden. Deze methode is een ongebruikelijke maar standaardmethode die door Microsoft is geïntroduceerd. Meer informatie is beschikbaar op [officiële website van Microsoft](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/update-windows-settings-and-scripts-create-your-own-answer-file-sxs?view=windows-11).
 
 
-Er zijn verschillende tools beschikbaar op het internet voor het genereren van Unattended bestanden. Sommige zijn online, andere offline. Een van de online tools voor het maken van dit bestand is [deze website] (https://schneegans.de/windows/unattend-generator). Na het openen krijgen we de volgende pagina te zien:
+Er zijn verschillende tools beschikbaar op het internet voor het genereren van Unattended bestanden. Sommige zijn online, andere offline. Een van de online tools voor het maken van dit bestand is [deze website](https://schneegans.de/windows/unattend-generator). Na het openen krijgen we de volgende pagina te zien:
 
 
 ![Image](assets/en/06.webp)

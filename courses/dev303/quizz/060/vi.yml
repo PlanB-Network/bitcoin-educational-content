@@ -1,0 +1,8 @@
+question: Khi phát triển một macro tùy chỉnh giống như hàm trong Rust, mục đích chính của việc sử dụng các bộ chỉ định đoạn như `expr`, `ty` và `ident` trong việc khớp mẫu là gì?
+answer: Xác định loại phần tử mã nào có thể được khớp và đảm bảo đầu vào hợp lệ về mặt cú pháp.
+wrong_answers:
+  - Để xác định kiểu trả về của mã được tạo ra và tối ưu hóa hiệu suất biên dịch.
+  - Để xác định thứ tự thực thi của các nhánh macro và xử lý việc kiểm tra kiểu dữ liệu trong thời gian chạy.
+  - Để kiểm soát các mẫu phân bổ bộ nhớ và xác định các quy tắc phạm vi biến trong mã mở rộng.
+explanation: |
+  Các bộ chỉ định đoạn trong các mẫu macro đóng vai trò là các ràng buộc kiểu, xác thực cú pháp của các mã thông báo đầu vào trong quá trình mở rộng macro. Chúng đảm bảo rằng macro nhận được đúng loại phần tử mã (biểu thức, kiểu, định danh, v.v.) và cung cấp các thông báo lỗi rõ ràng khi gặp cú pháp không hợp lệ. Điều này xảy ra tại thời điểm biên dịch trong quá trình khớp mẫu, chứ không phải trong quá trình thực thi thời gian chạy, và chúng không trực tiếp kiểm soát việc phân bổ bộ nhớ, thứ tự thực thi hoặc kiểu trả về của mã được tạo ra.

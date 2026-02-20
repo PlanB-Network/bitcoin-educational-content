@@ -47,7 +47,7 @@ Phần này nhằm hiểu các cơ chế cấu trúc khiến siêu lạm phát t
 
 ### Định nghĩa về lạm phát
 
-Lạm phát là một khái niệm thường bị hiểu nhầm do có nhiều định nghĩa liên quan đến nó. Cách nhìn nhận về lạm phát khác nhau giữa các nhóm như những người ủng hộ bitcoin và các nhà kinh tế học truyền thống. Đầu tiên, hãy làm rõ các định nghĩa trước khi thảo luận về siêu lạm phát:
+[Lạm phát](https://planb.academy/resources/glossary/inflation) là một khái niệm thường bị hiểu nhầm do có nhiều định nghĩa liên quan đến nó. Cách nhìn nhận về lạm phát khác nhau giữa các nhóm như những người ủng hộ bitcoin và các nhà kinh tế học truyền thống. Đầu tiên, hãy làm rõ các định nghĩa trước khi thảo luận về siêu lạm phát:
 
 - Định nghĩa từ Robert: Lạm phát là sự gia tăng quá mức của các công cụ thanh toán (tiền giấy, vốn) gây ra sự tăng giá và mất giá của tiền tệ.
 
@@ -74,7 +74,7 @@ Khi đề cập đến hiện tượng tiền tệ, chúng ta đang nói về c�
 
 ![image](assets/vi/002.webp)
 
-Điều quan trọng cần nhấn mạnh là siêu lạm phát chủ yếu được quan sát với các đồng tiền pháp định không liên kết với tài sản cơ bản của chúng, như kim loại quý. Lịch sử cho thấy, khi một đồng tiền được bảo chứng bởi những tài sản như vậy, đã có các đợt lạm phát (ví dụ, thông qua việc phá giá bằng cách làm giảm hàm lượng kim loại), nhưng những đợt này không bao giờ đạt đến mức độ của siêu lạm phát. Trong các phần tiếp theo, chúng ta sẽ nghiên cứu chi tiết các thời kỳ đồng tiền bị phá giá và hậu quả của các hệ thống tiền tệ khác nhau này đối với lạm phát.
+Điều quan trọng cần nhấn mạnh là siêu lạm phát chủ yếu được quan sát với các [đồng tiền pháp định](https://planb.academy/resources/glossary/fiat) không liên kết với tài sản cơ bản của chúng, như kim loại quý. Lịch sử cho thấy, khi một đồng tiền được bảo chứng bởi những tài sản như vậy, đã có các đợt lạm phát (ví dụ, thông qua việc phá giá bằng cách làm giảm hàm lượng kim loại), nhưng những đợt này không bao giờ đạt đến mức độ của siêu lạm phát. Trong các phần tiếp theo, chúng ta sẽ nghiên cứu chi tiết các thời kỳ đồng tiền bị phá giá và hậu quả của các hệ thống tiền tệ khác nhau này đối với lạm phát.
 
 ### Nghiên cứu về các thời kỳ phá giá đồng tiền
 
@@ -272,7 +272,7 @@ Một ví dụ minh họa của MMT là phức hợp quân sự-công nghiệp c
 
 Nhật Bản thường được các nhà ủng hộ MMT trích dẫn là một ví dụ khác về sự vắng mặt của lạm phát bất chấp việc in tiền đáng kể. Tuy nhiên, tình hình ở Nhật Bản cũng làm nổi bật những hạn chế của các biện pháp đo lường lạm phát truyền thống như CPI. Ở Nhật Bản, một phần lớn tiền in ra hoặc được tiết kiệm hoặc được đầu tư vào thị trường bất động sản hoặc thị trường chứng khoán, thay vì chi tiêu trong nền kinh tế tiêu dùng hiện tại. CPI, bằng cách không hoàn toàn tính đến những động lực này, có thể đánh giá thấp lạm phát thực tế.
 
-Phân tích về Nhật Bản (https://ideas.repec.org/p/ces/ceswps/_9821.html) cũng làm nổi bật rằng hành vi của các chủ thể kinh tế, như tiết kiệm hoặc đầu tư vào tài sản không được bao gồm trong CPI, có thể che giấu tác động lạm phát của việc in tiền. Hơn nữa, khả năng của các ngành khác nhau trong việc hấp thụ lượng tiền được bơm vào đóng một vai trò quan trọng trong việc liệu có xảy ra lạm phát hay không.
+[Phân tích về Nhật Bản](https://ideas.repec.org/p/ces/ceswps/_9821.html) cũng làm nổi bật rằng hành vi của các tác nhân kinh tế, như tiết kiệm hoặc đầu tư vào các tài sản không được đưa vào CPI, có thể che giấu tác động lạm phát của việc in tiền. Ngoài ra, khả năng của các lĩnh vực khác nhau trong việc hấp thụ lượng thanh khoản được bơm vào đóng vai trò then chốt trong việc lạm phát có xuất hiện hay không.
 
 #### Bảng cân đối kế toán của Ngân hàng và Ngân hàng trung ương
 
@@ -757,7 +757,7 @@ Hiện tượng các công ty “xác sống” không chỉ giới hạn trong 
 
 #### 6. Làm giàu nhanh chóng!
 
-Trong lịch sử, có thể thấy những thời điểm khi con người tìm cách làm giàu nhanh chóng, như ở Weimar và Zimbabwe thông qua hoạt động kinh doanh chênh lệch giá. Ngày nay, một xu hướng tương tự được ghi nhận với sự xuất hiện của một số loại tiền điện tử. Mọi người bị cám dỗ bởi những khoản lợi nhuận nhanh, chấp nhận rủi ro với hy vọng đầu tư của họ sẽ nhân lên nhiều lần. Cách tiếp cận này gợi nhớ đến những gì được thấy trong thời kỳ siêu lạm phát, khi việc kinh doanh chênh lệch giá được sử dụng để đạt được lợi nhuận nhanh, thường gây thiệt hại cho người khác.
+Trong lịch sử, có thể thấy những thời điểm khi con người tìm cách làm giàu nhanh chóng, như ở Weimar và Zimbabwe thông qua hoạt động kinh doanh chênh lệch giá. Ngày nay, một xu hướng tương tự được ghi nhận với sự xuất hiện của một số loại [tiền điện tử](https://planb.academy/resources/glossary/cryptocurrency). Mọi người bị cám dỗ bởi những khoản lợi nhuận nhanh, chấp nhận rủi ro với hy vọng đầu tư của họ sẽ nhân lên nhiều lần. Cách tiếp cận này gợi nhớ đến những gì được thấy trong thời kỳ siêu lạm phát, khi việc kinh doanh chênh lệch giá được sử dụng để đạt được lợi nhuận nhanh, thường gây thiệt hại cho người khác.
 
 ![image](assets/vi/052.webp)
 

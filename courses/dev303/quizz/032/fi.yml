@@ -1,0 +1,8 @@
+question: Mikä on ensisijainen ero palautettavien ja palauttamattomien virheiden välillä Rust:n virheenkäsittelyjärjestelmässä?
+answer: Korjattavissa olevat virheet voidaan käsitellä tyylikkäästi, jolloin ohjelmat voivat jatkua, kun taas korjaamattomat virheet lopettavat ohjelman
+wrong_answers:
+  - Korjattavissa olevat virheet käyttävät panic! -makroa, kun taas korjaamattomat virheet käyttävät Result-luokitusta asianmukaiseen virheiden hallintaan
+  - Korjattavissa olevat virheet tapahtuvat kääntämisen aikana, kun taas korjaamattomat virheet tapahtuvat vasta ohjelman suoritusaikana
+  - Korjattavissa olevat virheet edellyttävät pinon purkamista, kun taas kutsuva koodi voi jättää korjaamattomat virheet huomiotta
+explanation: |
+  Rust luokittelee virheet sen perusteella, voivatko ohjelmat kohtuullisesti toipua niistä. Toipumiskelpoiset virheet edustavat odotettavissa olevia vikatilanteita, kuten puuttuvia tiedostoja tai verkko-ongelmia, joita ohjelmat voivat käsitellä hienovaraisesti käyttämällä Result-tyyppejä, jolloin suoritus voi jatkua asianmukaisen virheenkäsittelyn jälkeen. Korjaamattomat virheet ilmaisevat perustavanlaatuisia ongelmia, kuten muistin turvallisuusrikkomuksia tai logiikkavirheitä, joiden vuoksi ohjelmaa ei voida turvallisesti jatkaa, ja ne aiheuttavat paniikkitilanteita, jotka keskeyttävät suorituksen uusien vikojen estämiseksi.

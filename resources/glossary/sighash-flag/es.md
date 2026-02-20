@@ -1,6 +1,7 @@
 ---
-term: BANDERA SIGHASH
+term: Flag de sighash
 
+definition: Parámetro que determina qué componentes de una transacción están cubiertos por la firma.
 ---
 Un parámetro en una transacción Bitcoin que determina qué componentes de una transacción (entradas y salidas) están cubiertos por la firma asociada, convirtiéndose así en inmutables. El SigHash Flag es un byte que se añade a la firma digital de cada entrada. Por lo tanto, la elección del SigHash Flag afecta directamente a qué partes de la transacción quedan congeladas por la firma y cuáles pueden seguir siendo modificadas posteriormente. Este mecanismo garantiza que las firmas comprometen de forma precisa y segura los datos de la transacción de acuerdo con la intención del firmante. Existen tres banderas SigHash principales:
 

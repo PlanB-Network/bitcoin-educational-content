@@ -9,7 +9,7 @@ Se você está lendo isso, há uma grande probabilidade de você receber um Cert
 
 Neste tutorial, vamos ver como a Rede Plan ₿ emite prova verificável para o seu Certificado Bitcoin ou qualquer Diploma de Conclusão de Curso. Em seguida, na segunda parte, veremos como verificar a autenticidade dessas provas.
 
-# Mecanismo de prova da Rede Plan ₿
+## Mecanismo de prova da Rede Plan ₿
 
 Na Rede Plan ₿, oferecemos a você um certificado e diplomas que são assinados criptograficamente por nós e carimbados no Timechain (ou seja, o blockchain do Bitcoin). Para alcançar isso, tivemos que criar um mecanismo de prova que depende de 2 operações criptográficas:
 
@@ -23,7 +23,7 @@ Acreditamos que este simples mecanismo de prova nos permite emitir certificados 
 
 Note que, graças a este mecanismo de prova, qualquer tentativa de alterar até o menor detalhe do seu certificado ou diploma criará um hash sha256 completamente diferente do arquivo assinado, o que revelaria imediatamente a adulteração porque a assinatura e o carimbo de tempo não seriam mais válidos. Além disso, se alguém tentar forjar maliciosamente alguns certificados ou diplomas em nome da Rede Plan ₿, uma simples verificação da assinatura revelaria a fraude.
 
-## Como funciona a assinatura GPG?
+### Como funciona a assinatura GPG?
 
 A assinatura GPG é obtida com o uso de um software de código aberto chamado GNU Private Guard. Este software permite que qualquer pessoa crie facilmente chaves privadas, assine e verifique assinaturas e também criptografe e descriptografe arquivos. Para o escopo deste tutorial, saiba que a Rede Plan ₿ usa GPG para criar sua chave privada/pública e para assinar qualquer Certificado Bitcoin ou Diploma de Conclusão de Curso.
 
@@ -31,15 +31,15 @@ Por outro lado, se alguém quiser verificar a autenticidade de um arquivo assina
 
 Para aqueles que estão curiosos e querem aprender mais sobre este fantástico software, você pode se referir a ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html)
 
-## Como funciona o carimbo de tempo?
+### Como funciona o carimbo de tempo?
 
 Qualquer pessoa pode usar o OpenTimestamps para carimbar um arquivo no tempo e obter uma prova verificável da existência do arquivo. Em outras palavras, ele não fornece uma prova de quando o arquivo foi criado, mas uma prova de existência não posterior a um determinado momento.
 O OpenTimestamps é capaz de oferecer este serviço gratuitamente graças a uma maneira altamente eficiente de armazenar tal prova no Blockchain do Bitcoin. Ele usa o hash sha256 do arquivo como um identificador único do seu arquivo e constrói uma árvore de Merkle com outros hashes de arquivos enviados por outros usuários e apenas ancora o hash da estrutura da Árvore de Merkle em uma Transação OpReturn.
 Uma vez que esta transação estiver em algum bloco, qualquer pessoa com o arquivo inicial e o arquivo `.ots` associado a ele pode verificar a autenticidade da marcação de tempo. Na segunda parte do tutorial, veremos como verificar seu Certificado Bitcoin ou qualquer Diploma de Conclusão de Curso com um terminal e com uma interface gráfica através do site do OpenTimestamps.
 
-# Como verificar um Certificado da Rede Plan ₿ ou Diploma
+## Como verificar um Certificado da Rede Plan ₿ ou Diploma
 
-## Passo 1. Baixe seu Certificado ou Diploma
+### Passo 1. Baixe seu Certificado ou Diploma
 
 Faça login no seu painel Plan ₿ Academy pessoal.
 
@@ -59,14 +59,14 @@ Extraia o conteúdo clicando com o botão direito no arquivo `.zip` e selecionan
 - Arquivo de timestamp aberto (OTS) (por exemplo, certificate.txt.ots)
 - Certificado em PDF (por exemplo, certificate.pdf)
 
-## Passo 2: Verificando a Assinatura do Arquivo de Texto
+### Passo 2: Verificando a Assinatura do Arquivo de Texto
 
 Primeiro abra um terminal na pasta onde os arquivos estão (clicando com o botão direito na janela da pasta e clicando em "Abrir no Terminal"). Em seguida, siga as instruções abaixo
 
 1. Importe a chave pública PGP da Rede Plan ₿ com o seguinte comando:
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
 ```
 
 Você deve ver uma mensagem como a seguinte se você importou a Chave PGP com sucesso
@@ -102,9 +102,9 @@ gpg: Good signature from "Plan ₿ Academy (used for Plan ₿ Academy platform) 
 
 Se você ver uma mensagem como "BAD signature", isso significa que o arquivo foi adulterado.
 
-## Passo 3: Verificando o Open Timestamp
+### Passo 3: Verificando o Open Timestamp
 
-### Verificando via Interface Gráfica
+#### Verificando via Interface Gráfica
 
 1. Visite o site do OpenTimestamps: https://opentimestamps.org/
 2. Clique na aba "Stamp & Verify".
@@ -115,7 +115,7 @@ Se você ver uma mensagem como "BAD signature", isso significa que o arquivo foi
 Se você ver uma mensagem como a seguinte, seu timestamp é válido:
 ![cover](assets/opentimestamp_wegui_verified.webp)
 
-### Método CLI
+#### Método CLI
 
 NOTA: este procedimento **exigirá um nó local do Bitcoin em execução**
 
@@ -139,7 +139,7 @@ Este comando irá:
 - Mostrar exatamente quando o arquivo foi carimbado com data e hora
 - Confirmar a autenticidade do carimbo de tempo
 
-### Resultados finais
+#### Resultados finais
 
 Note que a verificação é bem-sucedida se **ambas** as mensagens a seguir forem exibidas:
 

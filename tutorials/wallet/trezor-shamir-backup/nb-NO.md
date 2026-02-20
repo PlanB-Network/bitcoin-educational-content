@@ -285,6 +285,6 @@ Hvis du fant denne opplæringen nyttig, ville jeg være takknemlig hvis du legge
 
 
 
-- [SLIP-0039: Shamirs hemmelighetsdeling for Mnemonic-koder] (https://github.com/satoshilabs/slips/blob/master/slip-0039.md);
-- [Multi-share Backup på Trezor] (https://trezor.io/learn/a/multi-share-backup-on-trezor);
-- [Wikipedia: Shamirs hemmelige deling] (https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing).
+- [SLIP-0039: Shamirs hemmelighetsdeling for Mnemonic-koder](https://github.com/satoshilabs/slips/blob/master/slip-0039.md);
+- [Multi-share Backup på Trezor](https://trezor.io/learn/a/multi-share-backup-on-trezor);
+- [Wikipedia: Shamirs hemmelige deling](https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing).

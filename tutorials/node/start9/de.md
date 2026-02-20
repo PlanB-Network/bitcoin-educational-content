@@ -26,7 +26,7 @@ Start9 ist ein 2020 gegründetes Unternehmen, das vor allem für die Entwicklung
 ### Welche Möglichkeiten gibt es?
 
 
-Start9 bietet sowohl vorgefertigte als auch DIY-Installationsoptionen an. Der [**Server One**] (https://store.start9.com/collections/servers/products/server-one) und der [**Server Pure**] (https://store.start9.com/collections/servers/products/server-pure) sind offizielle Hardware-Geräte mit Hochleistungskomponenten: Der Server One verwendet einen **AMD Ryzen 7 5825U**-Prozessor mit konfigurierbarem RAM (16GB-64GB) und Speicher (2TB-4TB NVMe SSD), während der Server Pure mit einem **Intel i7-10710U** ausgestattet ist und ebenfalls konfigurierbare RAM- und Speicheroptionen bietet. Beide beinhalten **lebenslangen technischen Support**, wenn sie direkt von Start9 erworben werden. Für Benutzer, die Flexibilität bevorzugen, kann StartOS kostenlos auf einer Vielzahl von vorhandener Hardware installiert werden, einschließlich Laptops, Desktops, Mini-PCs und Einplatinencomputern, oder innerhalb von VMs.
+Start9 bietet sowohl vorgefertigte als auch DIY-Installationsoptionen an. Der [**Server One**](https://store.start9.com/collections/servers/products/server-one) und der [**Server Pure**](https://store.start9.com/collections/servers/products/server-pure) sind offizielle Hardware-Geräte mit Hochleistungskomponenten: Der Server One verwendet einen **AMD Ryzen 7 5825U**-Prozessor mit konfigurierbarem RAM (16GB-64GB) und Speicher (2TB-4TB NVMe SSD), während der Server Pure mit einem **Intel i7-10710U** ausgestattet ist und ebenfalls konfigurierbare RAM- und Speicheroptionen bietet. Beide beinhalten **lebenslangen technischen Support**, wenn sie direkt von Start9 erworben werden. Für Benutzer, die Flexibilität bevorzugen, kann StartOS kostenlos auf einer Vielzahl von vorhandener Hardware installiert werden, einschließlich Laptops, Desktops, Mini-PCs und Einplatinencomputern, oder innerhalb von VMs.
 
 
 ![image](assets/en/01.webp)
@@ -43,13 +43,13 @@ https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 ## 2️⃣ DIY-Voraussetzungen: Minimale und empfohlene Spezifikationen
 
 
-Für die grundlegende Nutzung mit minimalen Diensten sind die **Mindestanforderungen** folgende: **1 vCPU-Kern (2,0 GHz+ Boost), 4 GB RAM, 64 GB Speicher** und ein Ethernet-Anschluss. Ich würde jedoch empfehlen, weit darüber hinauszugehen, insbesondere wenn Sie einen Bitcoin-Knoten betreiben. Ich persönlich habe mit 1 TB angefangen und hatte schnell keinen Platz mehr. Streben Sie lieber **mindestens 2 TB Speicherplatz** an, zusammen mit einer **Quad-Core-CPU (2,5 GHz+)** und **8 GB+ RAM**. Das macht einen großen Unterschied bei der Leistung und Langlebigkeit aus. Wenn Sie tiefer eintauchen wollen, finden Sie hier einen aktuellen Community-Thread über [Hardware, die für die Ausführung von StartOS geeignet ist] (https://community.start9.com/t/known-good-hardware-master-list-hardware-capable-of-running-startos/66/229).
+Für die grundlegende Nutzung mit minimalen Diensten sind die **Mindestanforderungen** folgende: **1 vCPU-Kern (2,0 GHz+ Boost), 4 GB RAM, 64 GB Speicher** und ein Ethernet-Anschluss. Ich würde jedoch empfehlen, weit darüber hinauszugehen, insbesondere wenn Sie einen Bitcoin-Knoten betreiben. Ich persönlich habe mit 1 TB angefangen und hatte schnell keinen Platz mehr. Streben Sie lieber **mindestens 2 TB Speicherplatz** an, zusammen mit einer **Quad-Core-CPU (2,5 GHz+)** und **8 GB+ RAM**. Das macht einen großen Unterschied bei der Leistung und Langlebigkeit aus. Wenn Sie tiefer eintauchen wollen, finden Sie hier einen aktuellen Community-Thread über [Hardware, die für die Ausführung von StartOS geeignet ist](https://community.start9.com/t/known-good-hardware-master-list-hardware-capable-of-running-startos/66/229).
 
 
 ## 3️⃣ Herunterladen und Flashen der Firmware
 
 
-Um mit der Einrichtung zu beginnen, besuchen Sie von einem anderen Computer aus die [Start9-Website] (https://start9.com/), und navigieren Sie zum Abschnitt "Dokumentation", indem Sie auf "DOCS" klicken. Rufen Sie von dort aus die "Flashing Guides" auf, um die passende Version von StartOS zu finden. Zwei Optionen sind verfügbar:
+Um mit der Einrichtung zu beginnen, besuchen Sie von einem anderen Computer aus die [Start9-Website](https://start9.com/), und navigieren Sie zum Abschnitt "Dokumentation", indem Sie auf "DOCS" klicken. Rufen Sie von dort aus die "Flashing Guides" auf, um die passende Version von StartOS zu finden. Zwei Optionen sind verfügbar:
 
 
 
@@ -75,7 +75,7 @@ Nach dem Herunterladen und Verifizieren des StartOS-Images muss dieses auf ein U
 ## 4️⃣ Ersteinrichtung
 
 
-Informationen zur Ersteinrichtung finden Sie auf der Seite Start9 [Dokumentation] (https://docs.start9.com/0.3.5.x/) unter "BENUTZERHANDBUCH", gefolgt von "Erste Schritte - Ersteinrichtung".  Dieses offizielle Handbuch sollte für die aktuellsten Informationen herangezogen werden.
+Informationen zur Ersteinrichtung finden Sie auf der Seite Start9 [Dokumentation](https://docs.start9.com/0.3.5.x/) unter "BENUTZERHANDBUCH", gefolgt von "Erste Schritte - Ersteinrichtung".  Dieses offizielle Handbuch sollte für die aktuellsten Informationen herangezogen werden.
 
 
 Es werden zwei Optionen vorgestellt:
@@ -92,7 +92,7 @@ Für eine neue Serverinstallation wählen Sie "Neu starten". Schließen Sie den 
 Sie können den Server von einem beliebigen Computer im selben Netzwerk aus fernsteuern. Öffnen Sie einen Webbrowser und navigieren Sie zu `http://start.local`.
 
 
-**Hinweis**: Wenn es bei dieser Adresse zu Verbindungsproblemen kommt, liegt das oft daran, dass die Heimnetzwerke die `.local'-Domänennamen nicht auflösen können. Das Problem kann behoben werden, indem Sie direkt über die IP-Adresse auf den Server zugreifen. Die IP-Adresse kann ermittelt werden, indem man sich in die Verwaltungsoberfläche des Routers einloggt (in der Regel unter "192.168.1.1" oder einer ähnlichen Adresse) und das Gerät in der Liste der DHCP-Clients oder der Netzwerkübersicht ausfindig macht. Geben Sie dann die vollständige IP-Adresse (z. B. "http://192.168.1.105") in den Browser ein. Dadurch wird die DNS-Auflösung umgangen. Wenn die Probleme weiterhin bestehen, konsultieren Sie die Seite [Allgemeine Probleme] (https://docs.start9.com/0.3.5.x/support/common-issues.html#setup-troubleshoot) oder [wenden Sie sich an den Support] (https://start9.com/contact/)
+**Hinweis**: Wenn es bei dieser Adresse zu Verbindungsproblemen kommt, liegt das oft daran, dass die Heimnetzwerke die `.local'-Domänennamen nicht auflösen können. Das Problem kann behoben werden, indem Sie direkt über die IP-Adresse auf den Server zugreifen. Die IP-Adresse kann ermittelt werden, indem man sich in die Verwaltungsoberfläche des Routers einloggt (in der Regel unter "192.168.1.1" oder einer ähnlichen Adresse) und das Gerät in der Liste der DHCP-Clients oder der Netzwerkübersicht ausfindig macht. Geben Sie dann die vollständige IP-Adresse (z. B. "http://192.168.1.105") in den Browser ein. Dadurch wird die DNS-Auflösung umgangen. Wenn die Probleme weiterhin bestehen, konsultieren Sie die Seite [Allgemeine Probleme](https://docs.start9.com/0.3.5.x/support/common-issues.html#setup-troubleshoot) oder [wenden Sie sich an den Support](https://start9.com/contact/)
 
 
 Der StartOS-Einrichtungsbildschirm sollte erscheinen. Klicken Sie auf "Neu starten", um die Einrichtung des neuen Servers zu beginnen.

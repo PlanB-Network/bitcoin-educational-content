@@ -5,5 +5,5 @@ wrong_answers:
   - Mempool.datとip.dat
   - ip.datとanchors.dat
 explanation: |
-  Bitcoin coreはまずanchors.dat（以前の発信ピア）を参照し、次にpeers.dat（既知のAddressブック）を参照して再接続する。
+  ビットコインコアはまずanchors.dat（以前の発信ピア）を参照し、次にpeers.dat（既知のアドレスブック）を参照して再接続する。
 reviewed: true

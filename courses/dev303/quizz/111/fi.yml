@@ -1,0 +1,8 @@
+question: Mikä on ensisijainen arkkitehtuurinen kompromissi, jonka Breez SDK tekee yksinkertaisemman Lightning-integraation saavuttamiseksi säilyttäen samalla, että ei-luottamukselliset periaatteet säilyvät?
+answer: Käyttäjät menettävät jonkin verran yksityisyyttä, koska Greenlight voi tarkkailla kanavien tiloja ja reititystietoja, mutta säilyttävät yksityisten avainten ja rahastojen käytön täyden hallinnan
+wrong_answers:
+  - Käyttäjien on luotettava Greenlightille varojen osittainen säilytys vastineeksi automatisoidusta kanavahallinnasta ja toiminnan monimutkaisuuden vähentämisestä
+  - Kehittäjät menettävät pääsyn Lightningin kehittyneisiin ominaisuuksiin, kuten mukautettuun reititykseen ja kanavakäytäntöihin, mutta saavat vastineeksi yksinkertaistetun API-integraation ja alustarajat ylittävän tuen
+  - Sovellukset luopuvat reaaliaikaisista maksujenkäsittelyominaisuuksista ja saavat vastineeksi paremman turvallisuuden kaikkien Lightning-transaktioiden pilvipohjaisen validoinnin ansiosta
+explanation: |
+  Breez SDK:n arkkitehtuuri edustaa huolellisesti harkittua kompromissia yksityisyyden suojan ja käytettävyyden välillä. Vaikka Greenlight voi tarkkailla kanavien tiloja ja reititystietoja (mikä vähentää yksityisyyttä), käyttäjät säilyttävät täydellisen määräysvallan yksityisiin avaimiinsa, jotka eivät koskaan poistu heidän laitteistaan. Näin varmistetaan, että varoja ei voida käyttää ilman käyttäjän lupaa, mikä säilyttää keskeisen ei-hallinnollisen periaatteen. Väärissä vastauksissa ehdotetaan virheellisesti rahastojen säilytystä, toimintorajoituksia tai käsittelyviiveitä - mikään näistä ei ole todellinen kompromissi SDK:n suunnittelussa.

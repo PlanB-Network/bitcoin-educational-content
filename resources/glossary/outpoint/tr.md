@@ -1,5 +1,6 @@
 ---
-term: ÇIKIŞ NOKTASI
+term: Outpoint
+definition: txid ve çıktı dizininden oluşan bir UTXO'ya yönelik benzersiz referans.
 ---
 
 Harcanmamış bir işlem çıktısına (UTXO) benzersiz bir referans. İki Elements'dan oluşur:

@@ -1,0 +1,9 @@
+question: O jaki czynnik wzrosła trudność wydobycia między połową 2010 a połową 2011 roku?
+answer: 1000
+wrong_answers:
+  - 100
+  - 500
+  - 50
+explanation: |
+  W tym okresie nastąpił 1000-krotny wzrost trudności, głównie z powodu użycia procesorów GPU.
+reviewed: false

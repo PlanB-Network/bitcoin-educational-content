@@ -1,0 +1,10 @@
+question: Mida tähendab "basseinihüplemine" kaevuri jaoks, kes delegeerib oma hash-kiiruse mining basseini?
+answer: mining-poolilt ühenduse katkestamine, kui teatud arv aktsiaid on tsükli jooksul esitatud, ja arvutusvõimsuse ümberpaigutamine oma kontole või mõnda teise mining-pooli
+wrong_answers:
+  - Võtta kasutusele ribalaiust nõudev sideprotokoll mining basseiniga suhtlemiseks, et vähendada vananenud aktsiaid, ühtlustades uute plokkide väljakuulutamist
+  - Mitme fiktiivse tehingu läbiviimine mining basseinis, et simuleerida bitcoini omandiõiguse üleminekut ja suurendada delegeeritud kaevurite konfidentsiaalsust
+  - mining basseini nime kirjutamine kaevandatud ploki tasustamistehingu sisendväljale, et muuta mining basseinide toimimine läbipaistvamaks
+explanation: |
+ Seda meetodit kirjeldas 2011. aasta veebruaris Raulo, kes hindas, et üksikisik võib sel viisil saada 28% rohkem bitcoine. See ajendas kasutusele võtma
+ "pettusevastane" skoor Slush-kooperatiivis.
+reviewed: true

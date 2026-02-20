@@ -1,0 +1,9 @@
+question: Apa risiko utama yang ingin dicegah oleh menara pengawas?
+answer: Menyontek dengan keadaan lama
+wrong_answers:
+  - 51% serangan
+  - Pencurian benih
+  - Curang dengan status baru
+explanation: |
+  Menara pengawas melindungi dari publikasi status saluran lama yang bertujuan untuk menggelapkan dana.
+reviewed: false

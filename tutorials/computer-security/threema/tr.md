@@ -74,7 +74,7 @@ Android'de [APK ile yüklemek](https://shop.threema.ch/en/download) de mümkünd
 
 
 
-Ayrıca [bilgisayar sürümleri] (https://threema.ch/download) (MacOS, Linux ve Windows) de vardır. Bu eğitim size bunları nasıl senkronize edeceğinizi gösterecektir.
+Ayrıca [bilgisayar sürümleri](https://threema.ch/download) (MacOS, Linux ve Windows) de vardır. Bu eğitim size bunları nasıl senkronize edeceğinizi gösterecektir.
 
 
 

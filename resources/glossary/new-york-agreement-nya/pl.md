@@ -1,5 +1,6 @@
 ---
-term: UMOWA Z NOWYM JORKIEM (NYA)
+term: Porozumienie z Nowego Jorku (NYA)
+definition: Spotkanie w 2017 roku, na którym zaproponowano SegWit2x, ostatecznie porzucone z powodu braku konsensusu.
 ---
 
 Prywatne spotkanie, które odbyło się w 2017 r. i zgromadziło ponad 50 firm z ekosystemu Bitcoin po konferencji Consensus 2017. Celem tego spotkania było zakończenie długotrwałej debaty na temat skalowania Bitcoin poprzez osiągnięcie porozumienia. Spotkanie to doprowadziło do zaproponowania SegWit2x, czerpiąc inspirację z poprzedniej propozycji SegWit2Mb. Zaplanowano dwie główne modyfikacje protokołu Bitcoin:

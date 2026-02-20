@@ -8,10 +8,10 @@ description: Hoe gebruik je een krachtig LN knooppunt op je mobiel?
 Deze gids is bedoeld voor alle nieuwe gebruikers die Bitcoin Lightning Network (LN) GRATIS OPEN SOURCE, VOLLEDIG NIET-CUSTODIEEL willen gaan gebruiken.
 
 
-Met [Blixt Wallet] (https://blixtwallet.com/), een volledig LN knooppunt op je mobiel, waar je ook bent.
+Met [Blixt Wallet](https://blixtwallet.com/), een volledig LN knooppunt op je mobiel, waar je ook bent.
 
 
-Als je nog nooit Bitcoin Lightning Network hebt gebruikt, [lees dan eerst deze eenvoudige uitleganalogie over Lightning Network (LN)] (https://darth-Coin.github.io/beginner/LN-airport-analogy-en.html).
+Als je nog nooit Bitcoin Lightning Network hebt gebruikt, [lees dan eerst deze eenvoudige uitleganalogie over Lightning Network (LN)](https://darth-Coin.github.io/beginner/LN-airport-analogy-en.html).
 
 
 ## BELANGRIJKE ASPECTEN:
@@ -26,7 +26,7 @@ Als je nog nooit Bitcoin Lightning Network hebt gebruikt, [lees dan eerst deze e
 
 
 
-- Aan het einde van deze gids vind je een speciale sectie met ["tips en trucs"] (https://darth-Coin.github.io/wallets/getting-started-blixt-Wallet-en.html#tips)
+- Aan het einde van deze gids vind je een speciale sectie met ["tips en trucs"](https://darth-Coin.github.io/wallets/getting-started-blixt-Wallet-en.html#tips)
 
 
 
@@ -95,7 +95,7 @@ Je kunt ook op de knop "Toon LND log" (A) klikken als je meer technische details
 B - Hier hebt u toegang tot alle Blixt-instellingen, en dat zijn er heel wat! Blixt biedt vele uitgebreide functies en opties om uw LN node te beheren als een pro. Al deze opties worden in detail uitgelegd in "[Blixt Functies Pagina](https://blixtwallet.github.io/features#blixt-options) - Opties Menu".
 
 
-C - Hier heb je het "Magische lade" menu, [hier ook in detail uitgelegd] (https://blixtwallet.github.io/features#blixt-drawer). Hier is de "Onchain Wallet" (B), Lightning Kanalen (C), Contacten, Kanalen status icoon (A), Keysend (D).
+C - Hier heb je het "Magische lade" menu, [hier ook in detail uitgelegd](https://blixtwallet.github.io/features#blixt-drawer). Hier is de "Onchain Wallet" (B), Lightning Kanalen (C), Contacten, Kanalen status icoon (A), Keysend (D).
 
 
 ![blixt](assets/en/05.webp)
@@ -161,7 +161,7 @@ Open Blixt en ga naar de bovenste lade - Lightning Kanalen en klik op de "+" kno
 Klik nu op de (A) camera om de QR code van de Amboss pagina te scannen en de node details worden ingevuld. Voeg het bedrag van de Sats toe voor het kanaal dat je wilt en selecteer dan het tarief voor de tx. Je kunt het automatisch laten (B) voor een snellere bevestiging of het handmatig aanpassen door de knop te verschuiven. Je kunt ook lang op het nummer drukken en het naar wens aanpassen.
 
 
-Plaats niet minder dan 1 sat/vbyte! Meestal is het beter om de [Mempool tarieven] (https://Mempool.space/) te raadplegen voordat je een kanaal opent en een geschikt tarief te kiezen.
+Plaats niet minder dan 1 sat/vbyte! Meestal is het beter om de [Mempool tarieven](https://Mempool.space/) te raadplegen voordat je een kanaal opent en een geschikt tarief te kiezen.
 
 
 Klaar, klik nu op de knop "open kanaal" en wacht op 3 bevestigingen, dat duurt meestal 30 minuten (1 blok aprox elke 10min).
@@ -206,7 +206,7 @@ Welke opties heb je als je meer Sats dan LN wilt ontvangen?
 
 
 
-- Open een Dunder-kanaal, met Blixt node of een andere Dunder LSP provider. Een Dunder-kanaal is een eenvoudige manier om wat INBOUND liquiditeit te krijgen, maar tegelijkertijd stort je wat Sats in dat kanaal. Het is ook goed omdat het kanaal wordt geopend met een [UTXO] (https://en.Bitcoin.it/wiki/UTXO) die niet van je Blixt Wallet is. Dat voegt wat privacy toe. Is ook goed, want als je geen Sats hebt in een Wallet op de ketting, om een normaal LN kanaal te openen, maar je hebt ze wel in een andere Wallet LN, kun je gewoon van die andere Wallet betalen via LN voor het openen en storten (aan jouw kant) van dat Dunder-kanaal. [Meer details over hoe Dunder werkt en hoe je je eigen server hier kunt runnen] (https://github.com/hsjoberg/dunder-lsp).
+- Open een Dunder-kanaal, met Blixt node of een andere Dunder LSP provider. Een Dunder-kanaal is een eenvoudige manier om wat INBOUND liquiditeit te krijgen, maar tegelijkertijd stort je wat Sats in dat kanaal. Het is ook goed omdat het kanaal wordt geopend met een [UTXO](https://en.Bitcoin.it/wiki/UTXO) die niet van je Blixt Wallet is. Dat voegt wat privacy toe. Is ook goed, want als je geen Sats hebt in een Wallet op de ketting, om een normaal LN kanaal te openen, maar je hebt ze wel in een andere Wallet LN, kun je gewoon van die andere Wallet betalen via LN voor het openen en storten (aan jouw kant) van dat Dunder-kanaal. [Meer details over hoe Dunder werkt en hoe je je eigen server hier kunt runnen](https://github.com/hsjoberg/dunder-lsp).
 
 
 ![blixt](assets/en/11.webp)
@@ -218,7 +218,7 @@ Hier zijn de stappen om het openen van een Dunder-kanaal te activeren:
 
 - Ga naar Instellingen, activeer in de sectie "Experimenten" het vakje voor "Dunder LSP inschakelen".
 - Als je dat gedaan hebt, ga dan terug naar de "Lightning Network" sectie en je zult zien dat de optie "Dunder LSP Server Instellen" is verschenen. Daar is standaard "https://dunder.blixtwallet.com" ingesteld, maar u kunt dit veranderen met elke andere Dunder LSP-provider Address. [Hier is een Blixt community lijst](https://github.com/hsjoberg/blixt-Wallet/issues/1033) met knooppunten die Dudner LSP-kanalen voor uw Blixt kunnen leveren.
-- Nu kun je naar het hoofdscherm gaan en op de knop "Ontvangen" klikken. Volg dan deze procedure [uitgelegd in deze handleiding] (https://blixtwallet.github.io/guides#guide-lsp).
+- Nu kun je naar het hoofdscherm gaan en op de knop "Ontvangen" klikken. Volg dan deze procedure [uitgelegd in deze handleiding](https://blixtwallet.github.io/guides#guide-lsp).
 
 
 OK, dus nadat het Dunder-kanaal is bevestigd (duurt een paar minuten) zul je uiteindelijk 2 LN-kanalen hebben: één die in eerste instantie is geopend met de automatische piloot (kanaal A) en één met meer inkomende liquiditeit, geopend met Dunder (kanaal B).
@@ -251,7 +251,7 @@ Laten we nu eens bespreken hoe je een gecrashte Blixt Wallet of een andere LND n
 ### OPTIE B - Wallet herstellen
 
 
-In het verleden heb ik een speciale gids geschreven over [hoe herstel ik een gecrashte Umbrel node] (https://darth-Coin.github.io/nodes/shtf-restore-LND-node-en.html), waarin ik ook de methode noemde om Blixt te gebruiken als snel herstelproces, met behulp van het seed + channel.backup bestand van Umbrel.
+In het verleden heb ik een speciale gids geschreven over [hoe herstel ik een gecrashte Umbrel node](https://darth-Coin.github.io/nodes/shtf-restore-LND-node-en.html), waarin ik ook de methode noemde om Blixt te gebruiken als snel herstelproces, met behulp van het seed + channel.backup bestand van Umbrel.
 
 
 Ik heb ook een handleiding geschreven hoe je je Blixt node kunt herstellen of hoe je je Blixt kunt migreren naar een ander apparaat, [hier](https://blixtwallet.github.io/faq#blixt-restore).
@@ -328,7 +328,7 @@ Nu kun je naar Magic Drawer gaan (menu linksboven) - Lightning Channels, en je k
 ![blixt](assets/en/18.webp)
 
 
-Dat blok nummer 764272 is wanneer de fondsen kunnen worden gebruikt in uw Bitcoin onchain Address. En het kan tot 144 blokken duren vanaf het 1e bevestigingsblok totdat ze worden vrijgegeven. [Dus controleer dat in de Mempool] (https://Mempool.space/).
+Dat blok nummer 764272 is wanneer de fondsen kunnen worden gebruikt in uw Bitcoin onchain Address. En het kan tot 144 blokken duren vanaf het 1e bevestigingsblok totdat ze worden vrijgegeven. [Dus controleer dat in de Mempool](https://Mempool.space/).
 
 
 En dat is het. Wacht geduldig tot alle kanalen gesloten zijn en geld teruggaat naar uw Wallet.
@@ -348,7 +348,7 @@ Als u uw bestaande (werkende) Blixt node wilt migreren naar een ander nieuw appa
 - Ga op het oude apparaat naar "Instellingen" - debuggedeelte - "LND database comprimeren". Deze stap is optioneel, maar aanbevolen als je het channel.db bestand kleiner wilt hebben. Dit bestand is meestal vrij groot, afhankelijk van de activiteit op de node. Dit herstart Blixt en comprimeert de grootte van het db-bestand.
 - Ga na het herstarten naar "Instellingen" en verander je normale aliasnaam in "Hampus". Dit zal de verborgen opties activeren, alleen voor geavanceerde gebruikers.
 - Ga helemaal naar beneden naar de "Debug" sectie en je ziet een nieuwe optie "Exporteer kanaal.db bestand". WAARSCHUWING! Zodra je deze export uitvoert, wordt het bestaande Blixt LN knooppunt uitgeschakeld op dit oude apparaat en wordt de gehele knooppuntdatabase (channel.db) geëxporteerd, klaar om te worden geïmporteerd in een nieuw apparaat.
-- Dit db-bestand wordt opgeslagen in een aangewezen map op je oude apparaat (Documenten of Downloads) en vanaf daar moet je het in de huidige staat overzetten naar je nieuwe apparaat. Je kunt bijvoorbeeld [LocalSend FOSS app] (https://github.com/localsend/localsend) gebruiken om het bestand direct over te zetten tussen apparaten.
+- Dit db-bestand wordt opgeslagen in een aangewezen map op je oude apparaat (Documenten of Downloads) en vanaf daar moet je het in de huidige staat overzetten naar je nieuwe apparaat. Je kunt bijvoorbeeld [LocalSend FOSS app](https://github.com/localsend/localsend) gebruiken om het bestand direct over te zetten tussen apparaten.
 - Op dit moment MOET je oude Blixt uitgeschakeld blijven. NIET OPNIEUW OPENEN!
 - Zodra je het channel.db bestand hebt overgezet naar het nieuwe apparaat, start je de nieuwe installatie van Blixt en kies je "Wallet herstellen" in het eerste scherm.
 - Op de knop waar staat "Selecteer SCB-bestand" lang drukken (NIET simpel klikken!) en dan zie je de optie om een channel.db bestand te selecteren waar je het lokaal opslaat in het nieuwe apparaat. Als je gewoon op die knop drukt, wordt standaard een SCB-bestand gebruikt (met afsluitende kanalen), het werkt niet voor volledige back-ups van live kanalen.
@@ -367,7 +367,7 @@ En GEDAAN! Nu heb je een volledig hersteld Blixt LN knooppunt. Het kan ook werke
 ## Blixt - Vierde contact
 
 
-Dit hoofdstuk gaat over het aanpassen en beter leren kennen van de Blixt Node. Ik zal niet alle beschikbare functies beschrijven, dat zijn er te veel en die zijn al uitgelegd in de [Blixt Functies Pagina] (https://blixtwallet.github.io/features).
+Dit hoofdstuk gaat over het aanpassen en beter leren kennen van de Blixt Node. Ik zal niet alle beschikbare functies beschrijven, dat zijn er te veel en die zijn al uitgelegd in de [Blixt Functies Pagina](https://blixtwallet.github.io/features).
 
 
 Maar ik zal er een paar noemen die nodig zijn om je Blixt te kunnen gebruiken en een geweldige ervaring te hebben.
@@ -418,7 +418,7 @@ Op dit moment stuurt de Blixt server alleen de betalingen door naar LN adressen 
 Bekijk in de release notes de video demo over hoe je je LN Address in Blixt instelt.
 
 
-Deze LN Address geïmplementeerd in de Blixt Wallet app, is als een chat over LN, direct en leuk, en ondersteunt ook [LUD-18] (https://github.com/lnurl/luds/blob/luds/18.md) (een aliasnaam toevoegen aan een betaling). Je kunt al je LN adressen die je regelmatig gebruikt toevoegen aan je contactenlijst en bij de hand hebben om te chatten. Blixt kan nu beschouwd worden als een volwaardige LN chat app 😂😂.
+Deze LN Address geïmplementeerd in de Blixt Wallet app, is als een chat over LN, direct en leuk, en ondersteunt ook [LUD-18](https://github.com/lnurl/luds/blob/luds/18.md) (een aliasnaam toevoegen aan een betaling). Je kunt al je LN adressen die je regelmatig gebruikt toevoegen aan je contactenlijst en bij de hand hebben om te chatten. Blixt kan nu beschouwd worden als een volwaardige LN chat app 😂😂.
 
 
 Een andere handige functie is de volledige ondersteuning voor LUD-18 (die ook door [Stacker.News](https://stacker.news/r/DarthCoin) en anderen wordt ondersteund).
@@ -436,7 +436,7 @@ Deze optie van LUD-18 kan ook nuttig zijn voor abonnementsdiensten, waar gebruik
 Hier is de code voor [Lightning Box](https://github.com/hsjoberg/lightning-box) als je het voor jezelf uitvoert, voor je familie en vrienden, op je eigen node.
 
 
-Hier kunt u ook de [LSP Dunder server] (https://github.com/hsjoberg/dunder-lsp) draaien voor Blixt mobiele nodes en liquiditeit aanbieden voor Blixt gebruikers als u een goede publieke LN node heeft (werkt alleen met LND).
+Hier kunt u ook de [LSP Dunder server](https://github.com/hsjoberg/dunder-lsp) draaien voor Blixt mobiele nodes en liquiditeit aanbieden voor Blixt gebruikers als u een goede publieke LN node heeft (werkt alleen met LND).
 
 
 ### C - Back-up LN kanalen en seed woorden
@@ -488,8 +488,8 @@ Al deze problemen beginnen omdat UW APPARAAT NIET GOED SYNCEN. Begrijp alsjeblie
 
 
 
-- Hier is een minder technische uitleg van [Bitcoin Magazine] (https://bitcoinmagazine.com/technical/why-Bitcoin-wallets-need-block-filters)
-- Hier zijn meer technische bronnen van [Bitcoin Optech] (https://bitcoinops.org/en/topics/compact-block-filters/)
+- Hier is een minder technische uitleg van [Bitcoin Magazine](https://bitcoinmagazine.com/technical/why-Bitcoin-wallets-need-block-filters)
+- Hier zijn meer technische bronnen van [Bitcoin Optech](https://bitcoinops.org/en/topics/compact-block-filters/)
 - Hier staat hoe je Neutrino op je eigen home node kunt activeren en blokkeerfilters voor je mobiele node kunt serveren, van [Docs Lightning Engineering](https://docs.lightning.engineering/lightning-network-tools/LND/enable-neutrino-mode-in-Bitcoin-core)
 
 
@@ -606,7 +606,7 @@ HERINNERING:
 
 - Maak altijd een back-up van je kanaalstatus (SCB) NA elke keer dat je een kanaal opent of sluit. Het duurt maar een paar seconden om dit te doen.
 - Bewaar de oude SCB-bestanden niet om ze niet te verwarren en te herstellen. Ze zijn totaal nutteloos en kunnen een boeteprocedure veroorzaken als u ze in beslag neemt. Gebruik altijd de laatste versie van het SCB-bestand als u gaat herstellen.
-- Sla het SCB-bestand (is een gecodeerde tekst met de extensie .bin) buiten uw apparaat op, op een veilige plaats. U kunt [LocalSend] (https://github.com/localsend/localsend) gebruiken om dit bestand naar een pc of ander apparaat te verplaatsen.
+- Sla het SCB-bestand (is een gecodeerde tekst met de extensie .bin) buiten uw apparaat op, op een veilige plaats. U kunt [LocalSend](https://github.com/localsend/localsend) gebruiken om dit bestand naar een pc of ander apparaat te verplaatsen.
 - Bewaar ook de seed van uw Blixt Wallet op een veilige plaats, bijvoorbeeld een offline wachtwoordmanager / versleutelde USB.
 
 

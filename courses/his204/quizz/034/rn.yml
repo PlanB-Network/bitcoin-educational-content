@@ -1,8 +1,9 @@
-question: Ni nde muri abo banditsi yahumekewe canecane na Gournay?
+question: Ni nde muri abo banditsi yisunze cane Gournay?
 answer: Turgot
 wrong_answers:
-  - Yosiya Umwana
-  - Faransuwa Keseni
-  - Adamu Smith
+  - Josiah Child
+  - François Quesnay
+  - Adam Smith
 explanation: |
   Turgot yarakozweko cane n’ivyiyumviro vya Gournay, cane cane ukuntu yaburanira umwidegemvyo mu vy’ubutunzi no ku vyo yanegura ko Leta yinjiramwo.
+reviewed: true

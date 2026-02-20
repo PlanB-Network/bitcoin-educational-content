@@ -66,7 +66,7 @@ Ve třetí části našeho vzdělávacího kurzu přejdeme k samotné podstatě:
 
 ![BTC204](assets/cs/003.webp)
 
-**Oddíl 4: Porozumění transakcím coinjoin**
+**Oddíl 4: Porozumění transakcím [coinjoin](https://planb.academy/resources/glossary/coinjoin)**
 
 Jak můžeme mluvit o soukromí v Bitcoinu, aniž bychom zmínili coinjoiny? V části 4 se dozvíte vše, co potřebujete vědět o této metodě míchání. Dozvíte se, co jsou coinjoiny, jaká je jejich historie a cíle a jaké různé typy coinjoinů existují. Nakonec se pro zkušenější uživatele podíváme na to, co jsou to anonsety a entropie a jak je vypočítat.
 
@@ -74,7 +74,7 @@ Jak můžeme mluvit o soukromí v Bitcoinu, aniž bychom zmínili coinjoiny? V �
 
 **Oddíl 5: Porozumění problémům dalších pokročilých technik utajení**
 
-V páté části se podíváme na všechny ostatní dostupné techniky ochrany soukromí na Bitcoinu, kromě coinjoinu. V průběhu let prokázali vývojáři pozoruhodnou kreativitu při navrhování nástrojů věnovaných ochraně soukromí. Podíváme se na všechny tyto metody, jako je payjoin, kolaborativní transakce, coin swap a atomic swap, a podrobně popíšeme, jak fungují, jaké jsou jejich cíle a případné slabiny.
+V páté části se podíváme na všechny ostatní dostupné techniky ochrany soukromí na Bitcoinu, kromě coinjoinu. V průběhu let prokázali vývojáři pozoruhodnou kreativitu při navrhování nástrojů věnovaných ochraně soukromí. Podíváme se na všechny tyto metody, jako je [payjoin](https://planb.academy/resources/glossary/payjoin), kolaborativní transakce, coin swap a atomic swap, a podrobně popíšeme, jak fungují, jaké jsou jejich cíle a případné slabiny.
 
 Budeme se také zabývat soukromím na úrovni sítě uzlů a šířením transakcí. Probereme také různé protokoly, které byly v průběhu let navrženy ke zvýšení soukromí uživatelů v Bitcoinu, včetně protokolů statických adres.
 
@@ -85,7 +85,7 @@ Připraveni prozkoumat zákoutí soukromí na Bitcoinu? Jdeme na to!
 
 <partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>
 
-## Model UTXO společnosti Bitcoin
+## Model [UTXO](https://planb.academy/resources/glossary/utxo) společnosti Bitcoin
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
@@ -96,7 +96,7 @@ Bitcoin je především měna, ale víte, jak jsou BTC v protokolu zastoupeny?
 
 ### UTXO na Bitcoinu: co to je?
 
-Protokol bitcoinu je založen na modelu UTXO, což je zkratka pro "Unspent Transaction Output".
+Protokol bitcoinu je založen na modelu [UTXO](https://planb.academy/resources/glossary/utxo), což je zkratka pro "Unspent Transaction Output".
 
 Tento model se výrazně liší od tradičních bankovních systémů, které se při sledování finančních toků spoléhají na mechanismus účtů a zůstatků. V bankovním systému jsou totiž jednotlivé zůstatky vedeny na účtech spojených s identitou. Když si například koupíte bagetu u pekaře, vaše banka jednoduše odečte částku nákupu z vašeho účtu, čímž se sníží váš zůstatek, zatímco na účet pekaře se připíše stejná částka, čímž se zvýší jeho zůstatek. V tomto systému neexistuje žádná vazba mezi penězi, které na váš účet přicházejí, a penězi, které z něj odcházejí, kromě záznamů o transakcích.
 
@@ -104,15 +104,15 @@ Tento model se výrazně liší od tradičních bankovních systémů, které se
 
 Bitcoin funguje jinak. Koncept účtu neexistuje a peněžní jednotky nejsou spravovány prostřednictvím zůstatků, ale prostřednictvím UTXO. UTXO představuje určité množství bitcoinů, které ještě nebylo utraceno, a tvoří tak "kus bitcoinu", který může být velký nebo malý. Jedno UTXO může mít například hodnotu `500 BTC` nebo jednoduše `700 SATS`.
 
-**Připomenout:** Satoshi, často zkracovaný na sat, je nejmenší jednotka bitcoinu, srovnatelná s centem ve fiat měnách.
+**Připomenout:** [Satoshi](https://planb.academy/resources/glossary/satoshi-sat), často zkracovaný na sat, je nejmenší jednotka bitcoinu, srovnatelná s centem ve [fiat](https://planb.academy/resources/glossary/fiat) měnách.
 
 ```plaintext
 1 BTC = 100 000 000 SATS
 ```
 
-Teoreticky může jeden UTXO představovat libovolnou hodnotu v bitcoinech, od jedné sedmičky až po teoretické maximum kolem 21 milionů BTC. Je však logicky nemožné vlastnit všech 21 milionů bitcoinů a existuje spodní ekonomická hranice zvaná "prach", pod kterou je UTXO považováno za ekonomicky nevýhodné utratit.
+Teoreticky může jeden UTXO představovat libovolnou hodnotu v bitcoinech, od jedné sedmičky až po teoretické maximum kolem 21 milionů BTC. Je však logicky nemožné vlastnit všech 21 milionů bitcoinů a existuje spodní ekonomická hranice zvaná "[prach](https://planb.academy/resources/glossary/dust)", pod kterou je UTXO považováno za ekonomicky nevýhodné utratit.
 
-**Věděli jste?** Největší UTXO, které kdy bylo na Bitcoinu vytvořeno, mělo hodnotu `500 000 BTC`. Vytvořila ho platforma MtGox během konsolidační operace v listopadu 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
+**Věděli jste?** Největší UTXO, které kdy bylo na Bitcoinu vytvořeno, mělo hodnotu `500 000 BTC`. Vytvořila ho platforma MtGox během [konsolidační](https://planb.academy/resources/glossary/consolidation) operace v listopadu 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
 ### UTXO a podmínky výdajů
 
@@ -120,7 +120,7 @@ UTXO jsou směnné nástroje na Bitcoinu. Výsledkem každé transakce je spotř
 
 ![BTC204](assets/cs/007.webp)
 
-Všechny UTXO jsou zabezpečeny skripty, které definují podmínky, za nichž je lze utratit. Aby mohl uživatel UTXO spotřebovat, musí síti prokázat, že splňuje podmínky stanovené skriptem, který dané UTXO zajišťuje. Obvykle jsou UTXO chráněny veřejným klíčem (nebo přijímací adresou, která tento veřejný klíč zastupuje). Aby mohl uživatel utratit UTXO spojený s tímto veřejným klíčem, musí prokázat, že je držitelem odpovídajícího soukromého klíče, a to předložením digitálního podpisu vytvořeného tímto klíčem. Proto říkáme, že vaše bitcoinová peněženka ve skutečnosti neobsahuje bitcoiny, ale uchovává vaše soukromé klíče, které vám následně umožňují přístup k UTXO a následně i k bitcoinům, které představují.
+Všechny UTXO jsou zabezpečeny [skripty](https://planb.academy/resources/glossary/script), které definují podmínky, za nichž je lze utratit. Aby mohl uživatel UTXO spotřebovat, musí síti prokázat, že splňuje podmínky stanovené skriptem, který dané UTXO zajišťuje. Obvykle jsou UTXO chráněny [veřejným klíčem](https://planb.academy/resources/glossary/public-key) (nebo [přijímací adresou](https://planb.academy/resources/glossary/receiving-address), která tento veřejný klíč zastupuje). Aby mohl uživatel utratit UTXO spojený s tímto veřejným klíčem, musí prokázat, že je držitelem odpovídajícího [soukromého klíče](https://planb.academy/resources/glossary/private-key), a to předložením [digitálního podpisu](https://planb.academy/resources/glossary/digital-signature) vytvořeného tímto klíčem. Proto říkáme, že vaše bitcoinová [peněženka](https://planb.academy/resources/glossary/wallet) ve skutečnosti neobsahuje bitcoiny, ale uchovává vaše soukromé klíče, které vám následně umožňují přístup k UTXO a následně i k bitcoinům, které představují.
 
 ![BTC204](assets/cs/008.webp)
 
@@ -146,15 +146,15 @@ Celkový zůstatek vašeho portfolia bude `17 BTC`.
 
 ### Vstupy a výstupy transakcí
 
-Transakce s bitcoiny je operace zaznamenaná v blockchainu, která převádí vlastnictví bitcoinů z jedné osoby na druhou. Přesněji řečeno, protože jsme na modelu UTXO a neexistují žádné účty, transakce splňuje podmínky výdajů, které zajišťují jedno nebo více UTXO, spotřebovává je a ekvivalentně vytváří nové UTXO s novými podmínkami výdajů. Stručně řečeno, transakce přesouvá bitcoiny ze splněného skriptu do nového skriptu určeného k jejich zajištění.
+Transakce s bitcoiny je operace zaznamenaná v [blockchainu](https://planb.academy/resources/glossary/blockchain), která převádí vlastnictví bitcoinů z jedné osoby na druhou. Přesněji řečeno, protože jsme na modelu UTXO a neexistují žádné účty, transakce splňuje podmínky výdajů, které zajišťují jedno nebo více UTXO, spotřebovává je a ekvivalentně vytváří nové UTXO s novými podmínkami výdajů. Stručně řečeno, transakce přesouvá bitcoiny ze splněného skriptu do nového skriptu určeného k jejich zajištění.
 
 ![BTC204](assets/cs/010.webp)
 
-Každá bitcoinová transakce se proto skládá z jednoho nebo více vstupů a jednoho nebo více výstupů. Vstupy jsou UTXO spotřebované transakcí k vytvoření výstupů. Výstupy jsou nové UTXO, které lze použít jako vstupy pro budoucí transakce.
+Každá bitcoinová transakce se proto skládá z jednoho nebo více [vstupů](https://planb.academy/resources/glossary/input) a jednoho nebo více [výstupů](https://planb.academy/resources/glossary/output). Vstupy jsou UTXO spotřebované transakcí k vytvoření výstupů. Výstupy jsou nové UTXO, které lze použít jako vstupy pro budoucí transakce.
 
 ![BTC204](assets/cs/011.webp)
 
-**Věděli jste?** Teoreticky může mít bitcoinová transakce nekonečný počet vstupů a výstupů. Jediným omezením je maximální velikost bloku.
+**Věděli jste?** Teoreticky může mít bitcoinová transakce nekonečný počet vstupů a výstupů. Jediným omezením je maximální velikost [bloku](https://planb.academy/resources/glossary/block).
 
 Každý vstup v transakci bitcoinu se vztahuje k předchozímu nevydanému UTXO. Aby bylo možné UTXO použít jako vstup, musí jeho držitel prokázat, že je oprávněným vlastníkem, a to ověřením souvisejícího skriptu, tj. splněním uložené podmínky utracení. Obecně to znamená předložit digitální podpis vytvořený pomocí soukromého klíče odpovídajícího veřejnému klíči, který původně zabezpečil toto UTXO. Skript tedy spočívá v ověření, že podpis odpovídá veřejnému klíči použitému při přijetí prostředků.
 
@@ -162,7 +162,7 @@ Každý vstup v transakci bitcoinu se vztahuje k předchozímu nevydanému UTXO.
 
 Každý výstup zase určuje částku bitcoinů, která má být převedena, a příjemce. Ten je definován novým skriptem, který obvykle zablokuje nově vytvořené UTXO s adresou příjemce nebo novým veřejným klíčem.
 
-Aby byla transakce považována za platnou podle pravidel konsensu, musí být celkový výstup menší nebo roven celkovému vstupu. Jinými slovy, součet nových UTXO vygenerovaných transakcí nesmí být vyšší než součet UTXO spotřebovaných jako vstupy. Tento princip je logický: pokud máte pouze `500 000 SATS`, nemůžete provést nákup `700 000 SATS`.
+Aby byla transakce považována za platnou podle [pravidel konsensu](https://planb.academy/resources/glossary/consensus-rules), musí být celkový výstup menší nebo roven celkovému vstupu. Jinými slovy, součet nových UTXO vygenerovaných transakcí nesmí být vyšší než součet UTXO spotřebovaných jako vstupy. Tento princip je logický: pokud máte pouze `500 000 SATS`, nemůžete provést nákup `700 000 SATS`.
 
 ### Výměna a sloučení v transakci Bitcoin
 
@@ -170,7 +170,7 @@ Transakci bitcoinu na UTXO tak lze přirovnat k přetavení zlaté mince. UTXO t
 
 Tento mechanismus je podobný mechanismu zlaté mince. Řekněme, že vlastníte minci o váze 2 unce a chcete zaplatit 1 unci za předpokladu, že vám prodávající nemůže vrátit drobné. Museli byste svou minci roztavit a odlít 2 nové po 1 unci.
 
-Bitcoin funguje podobně. Představme si, že Alice má UTXO ve výši `10 000 SATS` a chce si koupit bagetu v ceně `4 000 SATS`. Alice provede transakci s 1 UTXO ve výši `10 000 SATS` jako vstupem, který celý spotřebuje, a 2 UTXO ve výši `4 000 SATS` a `6 000 SATS` jako výstupem. UTXO ve výši `4 000 SATS` bude odesláno pekaři jako platba za bagetu, zatímco UTXO ve výši `6 000 SATS` se vrátí Alici ve formě drobných. Toto UTXO, které se vrací původnímu emitentovi transakce, se v bitcoinovém žargonu nazývá "výměna".
+Bitcoin funguje podobně. Představme si, že Alice má UTXO ve výši `10 000 SATS` a chce si koupit bagetu v ceně `4 000 SATS`. Alice provede transakci s 1 UTXO ve výši `10 000 SATS` jako vstupem, který celý spotřebuje, a 2 UTXO ve výši `4 000 SATS` a `6 000 SATS` jako výstupem. UTXO ve výši `4 000 SATS` bude odesláno pekaři jako platba za bagetu, zatímco UTXO ve výši `6 000 SATS` se vrátí Alici ve formě drobných. Toto UTXO, které se vrací původnímu emitentovi transakce, se v bitcoinovém žargonu nazývá "[výměna](https://planb.academy/resources/glossary/change)".
 
 ![BTC204](assets/cs/013.webp)
 
@@ -183,23 +183,23 @@ Nyní si představme, že Alice nemá jeden UTXO o kapacitě `10 000 SATS`, ale 
 Intuitivně by se mohlo zdát, že transakční náklady představují také výstup transakce. Ve skutečnosti tomu tak ale není. Transakční náklady představují rozdíl mezi celkovými vstupy a celkovými výstupy. To znamená, že po použití části hodnoty vstupů na pokrytí požadovaných výstupů v transakci zůstává určitá suma vstupů nevyužita. Tato zbývající částka představuje transakční náklady.
 
 ```plaintext
-Frais = total inputs - total outputs
+Transakční poplatky = total inputs - total outputs
 ```
 
-Vezměme si příklad Alice, která má UTXO ve výši `10 000 SATS` a chce si koupit bagetu za `4 000 SATS`. Alice vytvoří transakci, jejímž vstupem bude její UTXO ve výši `10 000 SATS`. Poté vygeneruje výstup ve výši `4 000 SATS` pro pekaře, který zaplatí za bagetu. Aby Alice povzbudila těžaře k začlenění její transakce do bloku, přidělí jim `200 SATS` jako poplatky. Poté vytvoří druhý výstup, směnu, která jí bude vrácena, ve výši `5 800 SATS`.
+Vezměme si příklad Alice, která má UTXO ve výši `10 000 SATS` a chce si koupit bagetu za `4 000 SATS`. Alice vytvoří transakci, jejímž vstupem bude její UTXO ve výši `10 000 SATS`. Poté vygeneruje výstup ve výši `4 000 SATS` pro pekaře, který zaplatí za bagetu. Aby Alice povzbudila [těžaře](https://planb.academy/resources/glossary/miner) k začlenění její transakce do bloku, přidělí jim `200 SATS` jako poplatky. Poté vytvoří druhý výstup, směnu, která jí bude vrácena, ve výši `5 800 SATS`.
 
 ![BTC204](assets/cs/015.webp)
 
 Podle vzorce pro výpočet poplatků zjistíme, že nezletilým skutečně zbývá 200 SATS:
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+Transakční poplatky = total inputs - total outputs
+Transakční poplatky = 10 000 - (4 000 + 5 800)
+Transakční poplatky = 10 000 - 9 800
+Transakční poplatky = 200
 ```
 
-Když se těžaři podaří blok validovat, je oprávněn vybírat tyto poplatky za všechny transakce zahrnuté v jeho bloku, a to prostřednictvím tzv. "coinbase" transakce.
+Když se těžaři podaří blok validovat, je oprávněn vybírat tyto poplatky za všechny transakce zahrnuté v jeho bloku, a to prostřednictvím tzv. "[coinbase](https://planb.academy/resources/glossary/coinbase-transaction)" transakce.
 
 ### Vytváření UTXO v systému Bitcoin
 
@@ -207,13 +207,13 @@ Pokud jste pozorně sledovali předchozí odstavce, víte, že UTXO lze vytvoři
 
 Odpověď je v **transakční bázi mincí**.
 
-Coinbase je specifický typ transakce bitcoinu, který je pro každý blok jedinečný a je vždy první z nich. Umožňuje těžaři, který našel platný důkaz práce, získat odměnu za svůj blok. Tato odměna se skládá ze dvou prvků: **dotace bloku** a **poplatku za transakci**, o nichž jsme hovořili v předchozí části.
+Coinbase je specifický typ transakce bitcoinu, který je pro každý blok jedinečný a je vždy první z nich. Umožňuje těžaři, který našel platný [důkaz práce](https://planb.academy/resources/glossary/proof-of-work), získat odměnu za svůj blok. Tato odměna se skládá ze dvou prvků: **[dotace bloku](https://planb.academy/resources/glossary/block-subsidy)** a **poplatku za transakci**, o nichž jsme hovořili v předchozí části.
 
 Transakce coinbase je jedinečná v tom, že jako jediná dokáže vytvářet bitcoiny ex nihilo, aniž by bylo nutné spotřebovávat vstupy pro generování výstupů. Tyto nově vytvořené bitcoiny bychom mohli nazvat "původní UTXO".
 
 ![BTC204](assets/cs/016.webp)
 
-Blokově dotované bitcoiny jsou nové BTC vytvořené od nuly podle předem stanoveného harmonogramu vydávání v pravidlech konsensu. Bloková dotace se snižuje na polovinu každých 210 000 bloků, tj. přibližně každé čtyři roky, v procesu známém jako "halving". Původně bylo s každou dotací vytvořeno 50 bitcoinů, ale toto množství se postupně snižovalo; v současnosti činí 3,125 bitcoinu na blok.
+Blokově dotované bitcoiny jsou nové BTC vytvořené od nuly podle předem stanoveného [harmonogramu vydávání](https://planb.academy/resources/glossary/limite-demission) v pravidlech konsensu. Bloková dotace se snižuje na polovinu každých 210 000 bloků, tj. přibližně každé čtyři roky, v procesu známém jako "[halving](https://planb.academy/resources/glossary/halving)". Původně bylo s každou dotací vytvořeno 50 bitcoinů, ale toto množství se postupně snižovalo; v současnosti činí 3,125 bitcoinu na blok.
 
 Co se týče transakčních poplatků, ty sice také představují nově vytvořené BTC, ale nesmí překročit rozdíl mezi celkovými vstupy a výstupy všech transakcí v bloku. Již dříve jsme viděli, že tyto poplatky představují část vstupů, která není použita ve výstupech transakcí. Tato část je technicky vzato "ztracena" během transakce a těžař má právo tuto hodnotu znovu vytvořit ve formě jednoho nebo více nových UTXO. Jedná se o převod hodnoty mezi emitentem transakce a těžařem, který ji přidává do blockchainu.
 
@@ -223,7 +223,7 @@ Co se týče transakčních poplatků, ty sice také představují nově vytvoř
 
 Především model UTXO přímo ovlivňuje transakční poplatky Bitcoinu. Protože kapacita každého bloku je omezená, těžaři upřednostňují transakce, které nabízejí nejlepší poplatky v poměru k prostoru, který v bloku zaberou. Čím více UTXO totiž transakce obsahuje na svých vstupech a výstupech, tím je těžší, a proto vyžaduje vyšší poplatky. To je jeden z důvodů, proč se často snažíme snížit počet UTXO v našem portfoliu, což může mít vliv i na důvěrnost, což je téma, kterému se budeme podrobně věnovat ve třetí části tohoto kurzu.
 
-Za druhé, jak bylo zmíněno v předchozích částech, mince Bitcoin jsou v podstatě řetězcem UTXO. Každá transakce tak vytváří spojení mezi minulým UTXO a budoucím UTXO. UTXO tedy umožňují explicitně sledovat cestu bitcoinů od jejich vzniku až po jejich současné výdaje. Tuto transparentnost lze vnímat pozitivně, neboť umožňuje každému uživateli přesvědčit se o pravosti přijatých bitcoinů. Na tomto principu sledovatelnosti a auditovatelnosti je však založena i analýza blockchainu, což je postup, který má ohrozit důvěrnost. Na tuto praxi se podrobně podíváme ve druhé části kurzu.
+Za druhé, jak bylo zmíněno v předchozích částech, mince Bitcoin jsou v podstatě řetězcem UTXO. Každá transakce tak vytváří spojení mezi minulým UTXO a budoucím UTXO. UTXO tedy umožňují explicitně sledovat cestu bitcoinů od jejich vzniku až po jejich současné výdaje. Tuto transparentnost lze vnímat pozitivně, neboť umožňuje každému uživateli přesvědčit se o pravosti přijatých bitcoinů. Na tomto principu sledovatelnosti a auditovatelnosti je však založena i [analýza blockchainu](https://planb.academy/resources/glossary/chain-analysis), což je postup, který má ohrozit důvěrnost. Na tuto praxi se podrobně podíváme ve druhé části kurzu.
 
 ## Model soukromí bitcoinu
 
@@ -250,7 +250,7 @@ Pokud používáte fyzickou měnu, je to první charakteristika, kterou je nejsl
 
 Pravost je také obtížné ověřit na fyzickém peněžním nosiči. Dnešní techniky boje proti padělaným penězům jsou stále složitější, což nutí prodejce investovat do nákladných ověřovacích systémů.
 
-Na druhou stranu, vzhledem k jejich povaze není dvojí utrácení pro fyzické měny problémem. Pokud vám dám bankovku v hodnotě 10 EUR, neodvolatelně opouští mé vlastnictví a vstupuje do vašeho, což přirozeně vylučuje jakoukoli možnost vícenásobného utrácení peněžních jednotek, které ztělesňuje. Stručně řečeno, tuto bankovku v hodnotě 10 € nebudu moci utratit znovu.
+Na druhou stranu, vzhledem k jejich povaze není [dvojí utrácení](https://planb.academy/resources/glossary/double-spending-attack) pro fyzické měny problémem. Pokud vám dám bankovku v hodnotě 10 EUR, neodvolatelně opouští mé vlastnictví a vstupuje do vašeho, což přirozeně vylučuje jakoukoli možnost vícenásobného utrácení peněžních jednotek, které ztělesňuje. Stručně řečeno, tuto bankovku v hodnotě 10 € nebudu moci utratit znovu.
 
 ![BTC204](assets/cs/019.webp)
 
@@ -266,11 +266,11 @@ Jediným způsobem, jak se této duplikaci digitálního aktiva vyhnout, je mít
 
 ![BTC204](assets/cs/021.webp)
 
-U bitcoinu se dvojímu utrácení brání stejným způsobem. Snažíme se potvrdit neexistenci transakce, při které již byly dané mince utraceny. Pokud mince nebyly nikdy použity, můžeme si být jisti, že k dvojímu utracení nedojde. Tento princip popsal Satoshi Nakamoto v Bílé knize slavnou větou:
+U bitcoinu se dvojímu utrácení brání stejným způsobem. Snažíme se potvrdit neexistenci transakce, při které již byly dané mince utraceny. Pokud mince nebyly nikdy použity, můžeme si být jisti, že k dvojímu utracení nedojde. Tento princip popsal [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) v [Bílé knize](https://planb.academy/resources/glossary/white-paper) slavnou větou:
 
 **Jediný způsob, jak potvrdit neexistenci transakce, je mít povědomí o všech transakcích**
 
-Na rozdíl od bankovního modelu však v případě Bitcoinu nechceme důvěřovat centrálnímu subjektu. Všichni uživatelé tedy musí mít možnost potvrdit tuto absenci dvojího utrácení, aniž by se museli spoléhat na třetí stranu. Všichni tedy musí mít přehled o všech bitcoinových transakcích. Proto jsou transakce Bitcoinu veřejně vysílány ve všech uzlech sítě a zaznamenávány v čistém textu v blockchainu.
+Na rozdíl od bankovního modelu však v případě Bitcoinu nechceme důvěřovat centrálnímu subjektu. Všichni uživatelé tedy musí mít možnost potvrdit tuto absenci dvojího utrácení, aniž by se museli spoléhat na třetí stranu. Všichni tedy musí mít přehled o všech bitcoinových transakcích. Proto jsou transakce Bitcoinu veřejně vysílány ve všech [uzlech](https://planb.academy/resources/glossary/node) sítě a zaznamenávány v čistém textu v blockchainu.
 
 Právě toto veřejné šíření informací komplikuje ochranu soukromí v bitcoinech. V tradičním bankovním systému teoreticky ví o provedených transakcích pouze finanční instituce. U Bitcoinu jsou naopak o všech transakcích informováni všichni uživatelé, a to prostřednictvím svých uzlů.
 
@@ -307,7 +307,7 @@ Protože jsou však transakce bitcoinů zveřejňovány, je možné mezi nimi vy
 
 ### Definice a fungování
 
-Analýza blockchainu se zabývá sledováním toku bitcoinů v blockchainu. Obecně řečeno, analýza řetězce je založena na pozorování charakteristik ve vzorcích předchozích transakcí. Poté spočívá v identifikaci stejných charakteristik na transakci, kterou chceme analyzovat, a odvození pravděpodobných interpretací z nich. Tato metoda řešení problému, založená na praktickém přístupu k nalezení dostatečně dobrého řešení, je známá jako "heuristika".
+Analýza blockchainu se zabývá sledováním toku bitcoinů v blockchainu. Obecně řečeno, analýza řetězce je založena na pozorování charakteristik ve vzorcích předchozích transakcí. Poté spočívá v identifikaci stejných charakteristik na transakci, kterou chceme analyzovat, a odvození pravděpodobných interpretací z nich. Tato metoda řešení problému, založená na praktickém přístupu k nalezení dostatečně dobrého řešení, je známá jako "[heuristika](https://planb.academy/resources/glossary/analysis-heuristic)".
 
 Laicky řečeno, analýza řetězce má tři hlavní fáze:
 
@@ -335,9 +335,9 @@ Teoreticky je toto tvrzení správné. V první části tohoto kurzu jsme viděl
 
 Praktická realita je však mnohem složitější. Existuje množství chování, které může spojit skutečnou identitu s aktivitou v řetězci. V analýze se tomu říká vstupní bod a existuje jich velké množství.
 
-Nejběžnější je KYC (*Know Your Customer*). Pokud vybíráte své bitcoiny z regulované platformy na jednu z vašich osobních přijímacích adres, někteří lidé jsou schopni spojit vaši identitu s touto adresou. V širším smyslu může být vstupním bodem jakákoli forma interakce mezi vaším reálným životem a bitcoinovou transakcí. Pokud například zveřejníte přijímací adresu na svých sociálních sítích, může to být vstupní bod pro analýzu. Pokud provedete platbu v Bitcoinech svému pekaři, bude moci spojit váš obličej (součást vaší identity) s bitcoinovou adresou.
+Nejběžnější je [KYC](https://planb.academy/resources/glossary/kyc-know-your-customer) (*Know Your Customer*). Pokud vybíráte své bitcoiny z regulované platformy na jednu z vašich osobních přijímacích adres, někteří lidé jsou schopni spojit vaši identitu s touto adresou. V širším smyslu může být vstupním bodem jakákoli forma interakce mezi vaším reálným životem a bitcoinovou transakcí. Pokud například zveřejníte přijímací adresu na svých sociálních sítích, může to být vstupní bod pro analýzu. Pokud provedete platbu v Bitcoinech svému pekaři, bude moci spojit váš obličej (součást vaší identity) s bitcoinovou adresou.
 
-Těmto vstupním bodům se při používání Bitcoinu prakticky nelze vyhnout. I když se můžeme snažit omezit jejich rozsah, budou vždy přítomny. Proto je zásadní kombinovat metody zaměřené na ochranu soukromí. Udržování oddělení vaší skutečné identity od vašich transakcí je sice zajímavý přístup, ale v dnešní době je stále nedostatečný. Pokud totiž lze všechny vaše aktivity v onchainu seskupit, pak i ten nejmenší vstupní bod pravděpodobně ohrozí jedinou vrstvu důvěrnosti, kterou jste si vytvořili.
+Těmto vstupním bodům se při používání Bitcoinu prakticky nelze vyhnout. I když se můžeme snažit omezit jejich rozsah, budou vždy přítomny. Proto je zásadní kombinovat metody zaměřené na ochranu soukromí. Udržování oddělení vaší skutečné identity od vašich transakcí je sice zajímavý přístup, ale v dnešní době je stále nedostatečný. Pokud totiž lze všechny vaše aktivity v [onchainu](https://planb.academy/resources/glossary/onchain) seskupit, pak i ten nejmenší vstupní bod pravděpodobně ohrozí jedinou vrstvu důvěrnosti, kterou jste si vytvořili.
 
 ![BTC204](assets/cs/029.webp)
 
@@ -347,13 +347,13 @@ Při používání Bitcoinu si tedy musíme umět poradit i s analýzou blockcha
 
 ![BTC204](assets/cs/030.webp)
 
-Jak lépe čelit analýze blockchainu, než se seznámit s metodami, které se při ní používají? Pokud chcete vědět, jak zlepšit své soukromí na Bitcoinu, musíte těmto metodám porozumět. Díky tomu lépe pochopíte techniky, jako je coinjoin nebo payjoin (techniky, na které se podíváme v závěrečných částech kurzu), a omezíte chyby, kterých se můžete dopustit.
+Jak lépe čelit analýze blockchainu, než se seznámit s metodami, které se při ní používají? Pokud chcete vědět, jak zlepšit své soukromí na Bitcoinu, musíte těmto metodám porozumět. Díky tomu lépe pochopíte techniky, jako je [coinjoin](https://planb.academy/resources/glossary/coinjoin) nebo [payjoin](https://planb.academy/resources/glossary/payjoin) (techniky, na které se podíváme v závěrečných částech kurzu), a omezíte chyby, kterých se můžete dopustit.
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
 https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
-V tomto ohledu můžeme najít analogii s kryptografií a kryptoanalýzou. Dobrý kryptograf je především dobrý kryptoanalytik. Chcete-li vymyslet nový šifrovací algoritmus, musíte vědět, jakým útokům bude čelit, a také studovat, proč byly předchozí algoritmy prolomeny. Stejný princip platí i pro soukromí Bitcoinu. Pochopení metod analýzy blockchainu je klíčem k ochraně před nimi. Proto jsem do tohoto školení zařadil celou část o analýze řetězců.
+V tomto ohledu můžeme najít analogii s [kryptografií](https://planb.academy/resources/glossary/cryptography) a kryptoanalýzou. Dobrý kryptograf je především dobrý kryptoanalytik. Chcete-li vymyslet nový šifrovací algoritmus, musíte vědět, jakým útokům bude čelit, a také studovat, proč byly předchozí algoritmy prolomeny. Stejný princip platí i pro soukromí Bitcoinu. Pochopení metod analýzy blockchainu je klíčem k ochraně před nimi. Proto jsem do tohoto školení zařadil celou část o analýze řetězců.
 
 ### Metody analýzy řetězce
 
@@ -373,8 +373,8 @@ Tyto známé heuristiky lze rozdělit do různých kategorií, které si podrobn
 První dvě heuristiky analýzy řetězce objevil sám Satoshi Nakamoto. Hovoří o nich v 10. části Bílé knihy Bitcoinu. Jsou to :
 
 
-- cIOH (*Common Input Ownership Heuristic*);
-- a opakované použití adresy.
+- [cIOH](https://planb.academy/resources/glossary/cioh) (*Common Input Ownership Heuristic*);
+- a [opakované použití adresy](https://planb.academy/resources/glossary/address-reuse).
 
 ![BTC204](assets/cs/031.webp)
 
@@ -433,7 +433,7 @@ Interpretace tohoto modelu je taková, že se nacházíme v přítomnosti samop�
 
 Pak víme, že sledovaný uživatel pravděpodobně stále vlastní toto UTXO. V kontextu řetězové analýzy, pokud víme, že UTXO použitý jako vstup transakce patří Alici, můžeme předpokládat, že UTXO použitý jako výstup patří také jí. Zajímavým se později stane nalezení heuristik pro vnitřní transakce, které by mohly tento předpoklad posílit (těmto heuristikám se budeme věnovat v kapitole 3.3).
 
-Zde je například transakce s bitcoiny, která využívá vzor sweep:
+Zde je například transakce s bitcoiny, která využívá vzor [sweep](https://planb.academy/resources/glossary/sweep-transaction):
 
 ```plaintext
 35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d
@@ -479,7 +479,7 @@ Tento model se vyznačuje spotřebou několika UTXO jako vstupů (často jen jed
 
 ![BTC204](assets/cs/040.webp)
 
-Interpretace tohoto modelu je taková, že se jedná o seskupené výdaje. Jedná se o praxi, která pravděpodobně odhaluje velmi rozsáhlou ekonomickou aktivitu, například výměnnou platformu. Seskupené výdaje umožňují těmto subjektům ušetřit náklady tím, že spojí své výdaje do jedné transakce.
+Interpretace tohoto modelu je taková, že se jedná o [seskupené výdaje](https://planb.academy/resources/glossary/batched-spending). Jedná se o praxi, která pravděpodobně odhaluje velmi rozsáhlou ekonomickou aktivitu, například výměnnou platformu. Seskupené výdaje umožňují těmto subjektům ušetřit náklady tím, že spojí své výdaje do jedné transakce.
 
 Z tohoto modelu můžeme odvodit, že UTXO na vstupu pochází z podniku s vysokou úrovní ekonomické aktivity a že UTXO na výstupu se rozptýlí. Mnoho z nich bude patřit zákazníkům společnosti, kteří si z platformy vybrali bitcoiny. Další mohou připadnout partnerským společnostem. A nakonec se jistě jedna nebo více směn vrátí zpět k vydávající společnosti.
 
@@ -558,7 +558,7 @@ Tyto podobnosti mezi vstupy a výstupy nekončí u opakovaného použití adresy
 
 ![BTC204](assets/cs/047.webp)
 
-Na tomto diagramu vidíme, že vstup č. 0 odemyká skript P2WPKH (SegWit V0 začínající na `bc1q`). Výstup č. 0 používá stejný typ skriptu. Výstup č. 1 naopak používá skript P2TR (SegWit V1 začínající na `bc1p`). Interpretace této vlastnosti je taková, že je pravděpodobné, že adresa se stejným verzováním jako vstup je výměnnou adresou. Bude tedy vždy patřit stejnému uživateli.
+Na tomto diagramu vidíme, že vstup č. 0 odemyká skript [P2WPKH](https://planb.academy/resources/glossary/p2wpkh) (SegWit V0 začínající na `bc1q`). Výstup č. 0 používá stejný typ skriptu. Výstup č. 1 naopak používá skript [P2TR](https://planb.academy/resources/glossary/p2tr) (SegWit V1 začínající na `bc1p`). Interpretace této vlastnosti je taková, že je pravděpodobné, že adresa se stejným verzováním jako vstup je výměnnou adresou. Bude tedy vždy patřit stejnému uživateli.
 
 Zde je transakce, na kterou lze tuto heuristiku pravděpodobně použít:
 
@@ -570,7 +570,7 @@ db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578
 
 Source : [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578)
 
-Na druhém z nich vidíme, že vstup č. 0 a výstup č. 1 používají skripty P2WPKH (SegWit V0), zatímco výstup č. 0 používá jiný skript P2PKH (Legacy).
+Na druhém z nich vidíme, že vstup č. 0 a výstup č. 1 používají skripty P2WPKH (SegWit V0), zatímco výstup č. 0 používá jiný skript [P2PKH](https://planb.academy/resources/glossary/p2pkh) (Legacy).
 
 Na počátku roku 2010 byla tato heuristika založená na verzování skriptů poměrně neužitečná vzhledem k omezenému počtu dostupných typů skriptů. Postupem času a s postupnými aktualizacemi systému Bitcoin však byla zavedena stále větší rozmanitost typů skriptů. Tato heuristika se proto stává stále relevantnější, protože s širší škálou typů skriptů se uživatelé rozdělují do menších skupin, čímž se zvyšuje šance na uplatnění této interní heuristiky opakovaného použití verzí. Z tohoto důvodu je pouze z hlediska důvěrnosti vhodné zvolit nejběžnější typ skriptu. Například v době, kdy píšu tyto řádky, jsou skripty Taproot (`bc1p`) používány méně často než skripty SegWit V0 (`bc1q`). Ačkoli první z nich nabízí v určitých specifických kontextech ekonomické výhody a výhody v oblasti důvěrnosti, pro tradičnější použití s jedním podpisem může mít smysl zůstat u staršího standardu z důvodu důvěrnosti, dokud se nový standard nerozšíří.
 
@@ -722,7 +722,7 @@ Analytik má také možnost vycházet z analýz, které byly dříve zveřejněn
 
 Stejným způsobem můžete provést analýzu vylučovací metodou. Například pokud se při analýze transakce se dvěma výstupy jeden z nich vztahuje k již známému shluku adres, ale odlišnému od sledované entity, pak můžeme interpretovat, že druhý výstup pravděpodobně představuje výměnu.
 
-Analýza kanálů zahrnuje také poněkud obecnější složku OSINT (*Open Source Intelligence*), která zahrnuje vyhledávání na internetu. Z tohoto důvodu nedoporučujeme zveřejňovat adresy přímo na sociálních sítích nebo na webových stránkách, ať už se jedná o pseudonymy nebo ne.
+Analýza kanálů zahrnuje také poněkud obecnější složku [OSINT](https://planb.academy/resources/glossary/osint) (*Open Source Intelligence*), která zahrnuje vyhledávání na internetu. Z tohoto důvodu nedoporučujeme zveřejňovat adresy přímo na sociálních sítích nebo na webových stránkách, ať už se jedná o pseudonymy nebo ne.
 
 ![BTC204](assets/cs/063.webp)
 
@@ -958,7 +958,7 @@ a6dbebebca119af3d05c0196b76f80fdbf78f20368ebef1b7fd3476d0814517d
 
 Pokud se podíváme na model této transakce, je zřejmé, že se jedná o vázané výdaje. Transakce má totiž jeden vstup a 51 výstupů, což svědčí o vysoké míře ekonomické aktivity. Můžeme tedy vyslovit hypotézu, že Loïc vybral bitcoiny z výměnné platformy.
 
-Tuto hypotézu podporuje několik faktorů. Zaprvé, typ skriptu použitý k zabezpečení vstupu UTXO je multisig skript P2SH 2/3, což naznačuje pokročilou úroveň zabezpečení typickou pro výměnné platformy:
+Tuto hypotézu podporuje několik faktorů. Zaprvé, typ skriptu použitý k zabezpečení vstupu UTXO je multisig skript [P2SH](https://planb.academy/resources/glossary/p2sh) 2/3, což naznačuje pokročilou úroveň zabezpečení typickou pro výměnné platformy:
 
 ```plaintext
 OP_PUSHNUM_2
@@ -1070,7 +1070,7 @@ Technicky vzato přijímací adresa bitcoinu "nepřijímá" bitcoiny v pravém s
 
 Adresy bitcoinů jsou různých typů v závislosti na použitém modelu skriptování. První modely, známé jako **Legacy**, zahrnují adresy `P2PKH` (*Pay-to-PubKey-Hash*) a `P2SH` (*Pay-to-Script-Hash*). Adresy P2PKH začínají vždy na `1` a adresy P2SH na `3`. Ačkoli jsou tyto formáty stále bezpečné, jsou nyní zastaralé, protože s sebou nesou vyšší transakční náklady a nabízejí menší důvěrnost než nové standardy.
 
-Adresy SegWit V0 (`P2WPKH` a `P2WSH`) a Taproot / SegWit V1 (`P2TR`) představují moderní formáty. Adresy SegWit začínají na `bc1q` a adresy Taproot, zavedené v roce 2021, začínají na `bc1p`.
+Adresy SegWit V0 (`P2WPKH` a `P2WSH`) a [Taproot](https://planb.academy/resources/glossary/taproot) / SegWit V1 (`P2TR`) představují moderní formáty. Adresy SegWit začínají na `bc1q` a adresy Taproot, zavedené v roce 2021, začínají na `bc1p`.
 
 Například zde je adresa příjmu Taproot:
 
@@ -1283,7 +1283,7 @@ V předchozích částech jsme se zabývali ručním výběrem UTXO, které se m
 
 Metody výběru UTXO, jako jsou FIFO (*First In First Out*) a LIFO (*Last In First Out*), patří k nejjednodušším, ale také nejméně efektivním. Při FIFO se nejprve použijí nejstarší části portfolia. Tento přístup je obecně neefektivní jak z hlediska minimalizace transakčních nákladů, tak z hlediska zachování důvěrnosti, s výjimkou případů, kdy se používají relativní časové zámky, které je třeba pravidelně obnovovat. Naopak LIFO upřednostňuje použití nejnovějších UTXO. Obě metody jsou sice jednoduché, ale často se ukazují jako neefektivní.
 
-Pokročilejší metodou je *Knapsack Solver*. Ten se používal v peněžence Bitcoin Core do verze 0.17. Spočívá v iterativním a náhodném výběru UTXO z peněženky, jejich sečtení v podmnožinách a ponechání řešení, které co nejvíce snižuje váhu transakce, aby se snížily náklady pro uživatele.
+Pokročilejší metodou je *Knapsack Solver*. Ten se používal v peněžence [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core) do verze 0.17. Spočívá v iterativním a náhodném výběru UTXO z peněženky, jejich sečtení v podmnožinách a ponechání řešení, které co nejvíce snižuje váhu transakce, aby se snížily náklady pro uživatele.
 
 *Branch-and-Bound* (BNB), často přezdívaný "Murchův algoritmus" podle svého vynálezce, nahradil od verze 0.17 v jádře bitcoinu *Knapsack Solver*. Cílem této pokročilejší metody je najít množinu UTXO, která přesně odpovídá částce potřebné k uspokojení výstupů transakce. Cílem BNB je minimalizovat směnnou částku i poplatky, a to snížením tzv. kritéria odpadu, které zohledňuje jak okamžité náklady, tak očekávané budoucí náklady na směnu. Tato metoda je odvozena z původní koncepce *Branch-and-Bound*, kterou v roce 1960 vymyslely Ailsa Landová a Alison Harcourtová, a nabízí přesnější optimalizaci poplatků než *Knapsack Solver*.
 
@@ -1550,7 +1550,7 @@ V tomto příkladu sice transakce B nabízí vyšší celkový poplatek, ale tě
 
 ```text
 TXA : 1994 / 141 = 14 sats/vB
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 To znamená, že na každou jednotku váhy nabízí transakce A vyšší náklady než transakce B, i když transakce B nabízí vyšší náklady v absolutním vyjádření.
@@ -1637,7 +1637,7 @@ Pokud nemáte vlastní uzel Bitcoin, budete nuceni použít uzel třetí strany,
 
 ![BTC204](assets/cs/105.webp)
 
-Hlavním rizikem v případě, že nepoužíváte svůj vlastní uzel Bitcoin, je, že provozovatel cizího uzlu může sledovat vaše aktivity v blockchainu, nebo dokonce tyto informace sdílet s jinými subjekty. Chcete-li toto riziko omezit, je přechodným řešením použití softwaru peněženky, který maskuje vaše připojení přes Tor. To může snížit odhalení vašich údajů. Optimálním řešením je však mít vlastní uzel Bitcoin a používat jej k vysílání svých transakcí. Samozřejmě si také musíte dát pozor, aby prostřednictvím vašeho uzlu neunikly žádné informace, ale to je další téma, kterému se budeme věnovat v dalších částech.
+Hlavním rizikem v případě, že nepoužíváte svůj vlastní uzel Bitcoin, je, že provozovatel cizího uzlu může sledovat vaše aktivity v blockchainu, nebo dokonce tyto informace sdílet s jinými subjekty. Chcete-li toto riziko omezit, je přechodným řešením použití softwaru peněženky, který maskuje vaše připojení přes [Tor](https://planb.academy/resources/glossary/tor). To může snížit odhalení vašich údajů. Optimálním řešením je však mít vlastní uzel Bitcoin a používat jej k vysílání svých transakcí. Samozřejmě si také musíte dát pozor, aby prostřednictvím vašeho uzlu neunikly žádné informace, ale to je další téma, kterému se budeme věnovat v dalších částech.
 
 Kromě zjevné výhody pro vaše soukromí vám vlastní kompletní uzel také zaručuje pravdivost dat v blockchainu, chrání vás před cenzurou a umožňuje vám aktivně se podílet na správě Bitcoinu. Používáním vlastního uzlu přispíváte svou ekonomickou vahou do vámi zvoleného řetězce, což je důležité během konfliktů uvnitř komunity, jako například během války o velikost bloku v letech 2015 až 2017. V případě forku by vás používání cizího uzlu mohlo vést k podpoře řetězce, který nechcete upřednostňovat, protože provozovatel uzlu rozhoduje za vás.
 
@@ -1647,7 +1647,7 @@ Jak vidíte, v zájmu zachování důvěrnosti a individuální suverenity je ne
 
 Obecněji řečeno, je důležité porozumět heuristikám, o kterých jsme hovořili v předchozí části, abychom se jim mohli lépe vyhnout nebo je oklamat. Přijetí řady osvědčených postupů může být přínosné, i když nejsou nezbytné. Nabízejí další vrstvu ochrany, která může být důležitá pro zachování důvěrnosti při používání Bitcoinu.
 
-První rada, kterou bych vám mohl dát, je splynout s nejhustším davem. U Bitcoinu to znamená používat nejrozšířenější šablony skriptů. Například skripty P2WSH, které se často používají pro multisig konfigurace SegWit V0, jsou velmi neobvyklé. Neumožňují skrýt se ve velké sadě anonymity. Totéž platí pro starší modely, jako jsou P2PKH nebo P2SH. Ačkoli jsou v sadě UTXO hojně zastoupeny, pro nové transakce se používají stále méně.
+První rada, kterou bych vám mohl dát, je splynout s nejhustším davem. U Bitcoinu to znamená používat nejrozšířenější šablony skriptů. Například skripty [P2WSH](https://planb.academy/resources/glossary/p2wsh), které se často používají pro multisig konfigurace SegWit V0, jsou velmi neobvyklé. Neumožňují skrýt se ve velké sadě anonymity. Totéž platí pro starší modely, jako jsou P2PKH nebo P2SH. Ačkoli jsou v sadě UTXO hojně zastoupeny, pro nové transakce se používají stále méně.
 
 Obecně platí, že je rozumnější zvolit nejnovější standard skriptování, pokud byl dostatečně přijat. Takže pokud bych v roce 2022 nedoporučoval používat P2TR (Taproot) kvůli jeho nízkému přijetí, v roce 2024 bych doporučil zvolit místo něj tento typ skriptu, nebo v opačném případě skript SegWit V0, protože počet transakcí využívajících P2TR začíná představovat velmi významný podíl.
 
@@ -1745,7 +1745,7 @@ Metoda coinjoin však nabízí také možnost posílení důvěrnosti při anal�
 
 ![BTC204](assets/cs/118.webp)
 
-V prvním příkladu jsme viděli, jak může coinjoin chránit soukromí místnosti ve vztahu k její minulosti, a ve druhém příkladu, jak může také zabezpečit historii místnosti ve vztahu k její budoucnosti. Proto jsem zmínil, že coinjoin je třeba vnímat jako jednorázovou událost, která rozděluje část historie oběma směry:
+V prvním příkladu jsme viděli, jak může coinjoin chránit soukromí mince ve vztahu k její minulosti, a ve druhém příkladu, jak může rovněž zabezpečit historii mince ve vztahu k její budoucnosti. Proto jsem uvedl, že coinjoin by měl být vnímán jako jednorázová událost, která segmentuje historii mince v obou směrech:
 
 ![BTC204](assets/cs/119.webp)
 
@@ -1864,7 +1864,7 @@ Ve stejném vlákně nalezneme [zprávu od hashcoinu v reakci na Duncana Townsen
 
 ### Zerolink
 
-Zerolink je komplexní směšovací protokol, který zahrnuje Chaumianova spojení a různé strategie na ochranu anonymity uživatelů před několika formami analýzy řetězců, zejména minimalizací chyb spojených se správou portfolia. Tento protokol [představili nopara73 a TDevD v roce 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).
+[Zerolink](https://planb.academy/resources/glossary/zerolink) je komplexní směšovací protokol, který zahrnuje Chaumianova spojení a různé strategie na ochranu anonymity uživatelů před několika formami analýzy řetězců, zejména minimalizací chyb spojených se správou portfolia. Tento protokol [představili nopara73 a TDevD v roce 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
 ![BTC204](assets/cs/132.webp)
 
@@ -1939,7 +1939,7 @@ Metody správy výměny rovněž odlišovaly obě implementace. U Whirlpoolu byl
 
 ![BTC204](assets/cs/139.webp)
 
-Wasabi ve verzi 2.0 přizpůsobilo svůj přístup k coinjoins přístupu společnosti Whirlpool. Přestože transakce coinjoin zůstávají velmi rozsáhlé, je nyní možné řetězit několik po sobě jdoucích cyklů podle modelu Whirlpool. Zvláštní pozornost byla věnována také řízení směnného kurzu: na rozdíl od verze Wasabi 1.0, kde byl směnný kurz přímo vázán na vstupy od uživatelů, se Wabisabi snaží rozdělit směnný kurz na několik malých částek, rozdělených na stejné nominální hodnoty pro všechny účastníky.
+S Wabisabi verze 2.0 přizpůsobila svůj přístup ke coinjoinům tak, aby se přiblížila modelu Whirlpool. Přestože coinjoin transakce zůstávají velmi velké, je nyní možné řetězit několik po sobě jdoucích cyklů, čímž se následuje model Whirlpool. Zvláštní důraz byl kladen také na správu drobných: na rozdíl od Wasabi 1.0, kde byly drobné přímo navázány na vstupy uživatelů, se Wabisabi snaží rozdělit drobné do několika menších částek, rozdělených do stejných nominálních hodnot pro všechny účastníky.
 
 Ukažme si to na zjednodušeném příkladu, který zahrnuje pouze 2 uživatele: Alice si přeje smíchat 115 000 satelitů a Bob 210 000 satelitů. Pomineme-li poplatky, s Wasabi 1.0 by transakce coinjoin vygenerovala 3 výstupy po 100 000 satech plus 1 výměnu 15 000 satech pro Alici a 1 výměnu 10 000 satech pro Boba. Výstupy z výměny by byly stále propojeny se vstupy:
 
@@ -2117,7 +2117,7 @@ Podívejme se na jednotlivé fáze spojení Whirlpool coinjoin v rámci těchto 
 
 Výchozím bodem každého připojení k účtu Whirlpool je **vkladový** účet. Jedná se o účet, který automaticky použijete při vytvoření nové bitcoinové peněženky. Na tento účet bude třeba připsat bitcoiny, které chcete smíchat.
 
-Tx0" je prvním krokem v procesu míchání společnosti Whirlpool. Jeho účelem je připravit a vyrovnat UTXO pro coinjoin, rozdělit je na jednotky odpovídající množství vybraného poolu, aby bylo zajištěno homogenní míchání. Takto vyrovnané UTXO jsou poté odeslány na účet **premix**. Pokud jde o rozdíl, který nemůže vstoupit do poolu, je oddělen na zvláštní účet: **špatný bank** (neboli "doxxic change").
+`Tx0` je prvním krokem v procesu míchání společnosti Whirlpool. Jeho účelem je připravit a vyrovnat UTXO pro coinjoin, rozdělit je na jednotky odpovídající množství vybraného poolu, aby bylo zajištěno homogenní míchání. Takto vyrovnané UTXO jsou poté odeslány na účet **premix**. Pokud jde o rozdíl, který nemůže vstoupit do poolu, je oddělen na zvláštní účet: **špatný bank** (neboli "doxxic change").
 
 Tato počáteční transakce `Tx0` slouží také k zaplacení poplatku za službu koordinátorovi spojení mincí. Na rozdíl od následujících kroků tato transakce není kooperativní, takže uživatel musí nést plné náklady na těžbu:
 
@@ -2155,7 +2155,7 @@ Na konci těchto prvních mixů bude účet **premix** prázdný, zatímco naše
 
 ### Remixy
 
-Po počátečním smíchání jsou prostředky UTXO převedeny na účet **postmix**. Tento účet shromažďuje již smíchané UTXO a ty, které čekají na remixování. Když je zákazník Whirlpool aktivní, UTXO nacházející se na účtu **postmix** jsou automaticky k dispozici pro remixy a budou náhodně vybrány pro účast v těchto nových cyklech.
+Po provedení počátečního mixu jsou UTXO převedeny do účtu **postmix**. Tento účet shromažďuje již smíchané UTXO a ty, které čekají na remixování. Když je klient Whirlpool aktivní, UTXO nacházející se v účtu **postmix** jsou automaticky k dispozici pro remixování a budou náhodně vybírány k účasti v těchto nových cyklech.
 
 Připomínáme, že remixy jsou pak 100% zdarma: nevyžadují se žádné další poplatky za služby nebo těžbu. Ponechání UTXO na účtu **postmix** tedy zachovává jejich hodnotu a zároveň zlepšuje jejich anonsety. Proto je důležité umožnit těmto mincím účast v několika cyklech coinjoinu. Nestojí vás to vůbec nic a zvyšuje to úroveň jejich anonymity.
 
@@ -2310,7 +2310,7 @@ Například jednoduchá platební transakce s 1 vstupem a 2 výstupy bude mít p
 
 ![BTC204](assets/cs/165.webp)
 
-Naproti tomu rohová hra Whirlpool 5x5 má $1,496$ možných kombinací:
+Naproti tomu coinjoin strukturovaný podle modelu Whirlpool 5x5 nabízí $1\,496$ možných kombinací:
 
 ![BTC204](assets/cs/166.webp)
 
@@ -2488,7 +2488,7 @@ Boltzmannovo skóre se vypočítá vydělením počtu interpretací, v nichž se
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}
@@ -2656,7 +2656,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d
 :::video id=1f33e8f1-e41d-4480-a388-e283ef51cc17:::
 
 
-Pokud chcete provést platební transakci při zachování určitého stupně důvěrnosti, je payjoin dobrou volbou. Jak jsme si však právě ukázali, payjoin vyžaduje zapojení příjemce. Co tedy dělat, když se příjemce odmítne payjoin zúčastnit nebo když ho prostě raději nezapojíte? Jednou z alternativ je použití transakce Stonewall nebo Stonewall x2. Podívejme se na tyto dva typy transakcí blíže.
+Pokud chcete provést platební transakci při zachování určitého stupně důvěrnosti, je payjoin dobrou volbou. Jak jsme si však právě ukázali, payjoin vyžaduje zapojení příjemce. Co tedy dělat, když se příjemce odmítne payjoin zúčastnit nebo když ho prostě raději nezapojíte? Jednou z alternativ je použití transakce [Stonewall](https://planb.academy/resources/glossary/stonewall) nebo Stonewall x2. Podívejme se na tyto dva typy transakcí blíže.
 
 ### Transakce Stonewall
 
@@ -2873,13 +2873,13 @@ Tato naivní metoda však představuje vysoké riziko z hlediska důvěryhodnost
 
 ![BTC204](assets/cs/201.webp)
 
-Navíc není zaručeno, že Alice neobdrží Bobův soukromý klíč $B$ a nepředá mu výměnou svůj soukromý klíč $A$. Tato výměna tedy závisí na přílišné důvěře mezi stranami a je neúčinná při zajišťování bezpečného tajného převodu vlastnictví.
+Navíc neexistuje žádná záruka, že Alice poté, co obdrží Bobův soukromý klíč $B$, předá na oplátku svůj soukromý klíč $A$. Tato výměna tedy spočívá na obrovské důvěře mezi stranami a ukazuje se jako neúčinná pro zajištění tajného převodu vlastnictví zabezpečeným způsobem.
 
 ![BTC204](assets/cs/202.webp)
 
 Abychom tyto problémy vyřešili a umožnili výměnu mezi stranami, které si navzájem nedůvěřují, použijeme místo toho systémy chytrých smluv. Chytrá smlouva je program, který se automaticky spustí, když jsou splněny předem definované podmínky. V našem případě zajistí, že výměna majetku proběhne automaticky, bez nutnosti vzájemné důvěry.
 
-Toho lze dosáhnout pomocí HTLC (*Hash Time-Locked Contracts*) nebo PTLC (*Point Time-Locked Contracts*). Tyto dva protokoly fungují podobným způsobem a používají systém časového zámku, který zajišťuje, že výměna bude buď úspěšně dokončena, nebo zcela zrušena, čímž je chráněna integrita prostředků obou stran. Hlavní rozdíl mezi HTLC a PTLC spočívá v tom, že HTLC používá k zabezpečení transakce hashe a předobrazy, zatímco PTLC používá podpisy adaptérů.
+Toho lze dosáhnout pomocí [HTLC](https://planb.academy/resources/glossary/htlc) (*Hash Time-Locked Contracts*) nebo PTLC (*Point Time-Locked Contracts*). Tyto dva protokoly fungují podobným způsobem a používají systém časového zámku, který zajišťuje, že výměna bude buď úspěšně dokončena, nebo zcela zrušena, čímž je chráněna integrita prostředků obou stran. Hlavní rozdíl mezi HTLC a PTLC spočívá v tom, že HTLC používá k zabezpečení transakce hashe a předobrazy, zatímco PTLC používá podpisy adaptérů.
 
 Ve scénáři výměny mincí pomocí HTLC nebo PTLC mezi Alicí a Bobem probíhá výměna bezpečně: buď se podaří a každý obdrží BTC toho druhého, nebo se nepodaří a každý si ponechá svůj vlastní BTC. Tím je znemožněno, aby kterákoli ze stran podváděla nebo ukradla BTC druhé strany.
 
@@ -2942,7 +2942,7 @@ Podobně jako u coinswapu a s využitím stejných typů chytrých smluv je mož
 
 ![BTC204](assets/cs/203.webp)
 
-Atomic swap a coinswap mají podobný způsob fungování a nabízejí stejné výhody i nevýhody z hlediska důvěrnosti. Z pohledu Bitcoinu je totiž atomický swap srovnatelný s coinswapem prováděným ve dvou fázích. Nejprve vyměníme svůj BTC za jinou kryptoměnu, poté lze tuto kryptoměnu směnit za jiné BTC. Nakonec získáme zpět BTC jiného uživatele. Proto v analýze otázek důvěrnosti řadím tyto dva protokoly do kategorie vlastních tajných výměn.
+[Atomic swap](https://planb.academy/resources/glossary/atomic-swap) a coinswap mají podobný způsob fungování a nabízejí stejné výhody i nevýhody z hlediska důvěrnosti. Z pohledu Bitcoinu je totiž atomický swap srovnatelný s coinswapem prováděným ve dvou fázích. Nejprve vyměníme svůj BTC za jinou kryptoměnu, poté lze tuto kryptoměnu směnit za jiné BTC. Nakonec získáme zpět BTC jiného uživatele. Proto v analýze otázek důvěrnosti řadím tyto dva protokoly do kategorie vlastních tajných výměn.
 
 ![BTC204](assets/cs/204.webp)
 
@@ -2985,7 +2985,7 @@ V části 4 jsme se zabývali důležitostí používání kompletního uzlu pro
 
 ### Pampeliška
 
-Jedním ze způsobů, jak se vyhnout různým deanonymizačním útokům, je použití návrhu Dandelion. Tento vysílací protokol byl formalizován v BIP156, ale nikdy nebyl implementován v Bitcoinu.
+Jedním ze způsobů, jak se vyhnout různým deanonymizačním útokům, je použití návrhu [Dandelion](https://planb.academy/resources/glossary/dandelion). Tento vysílací protokol byl formalizován v BIP156, ale nikdy nebyl implementován v Bitcoinu.
 
 Myšlenkou projektu Dandelion je zlepšit důvěrnost směrování transakcí v síti Bitcoin a čelit tak různým formám útoků. Jeho hlavním cílem je skrýt zdrojový uzel, který transakci v síti původně vysílal. Odhalení tohoto uzlu by mohlo umožnit spojit transakci v Bitcoinech s konkrétní IP adresou (pokud uzel funguje v síti clearnet), což by mohlo poskytnout vstupní bod pro analýzu řetězce.
 
@@ -3186,7 +3186,7 @@ Konkrétně při generování komprimovaného veřejného klíče a řetězcové
 
 ### Diffie-Hellmanova výměna klíčů na eliptických křivkách (ECDH)
 
-Kryptografický protokol, který je základem protokolu BIP47, je znám pod zkratkou ECDH, což znamená *Elliptic-Curve Diffie-Hellman*. Tato metoda je variantou původní Diffie-Hellmanovy výměny klíčů.
+Kryptografický protokol, který je základem protokolu BIP47, je znám pod zkratkou [ECDH](https://planb.academy/resources/glossary/ecdh), což znamená *Elliptic-Curve Diffie-Hellman*. Tato metoda je variantou původní Diffie-Hellmanovy výměny klíčů.
 
 Diffie-Hellmanův protokol byl představen v roce 1976 a umožňuje dvěma stranám, z nichž každá je vybavena párem klíčů (veřejným a soukromým), dohodnout se na společném tajemství, i když komunikují pouze veřejným, nezabezpečeným kanálem.
 

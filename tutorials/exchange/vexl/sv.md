@@ -19,7 +19,7 @@ Vexl är ett peer-to-peer socialt nätverk som kopplar samman Bitcoin köpare oc
 
 
 
-Att komma igång med Vexl är ganska enkelt: besök den [officiella webbplatsen] (https://vexl.it) och ladda sedan ner mobilappen till din iOS- eller Android-telefon.
+Att komma igång med Vexl är ganska enkelt: besök den [officiella webbplatsen](https://vexl.it) och ladda sedan ner mobilappen till din iOS- eller Android-telefon.
 
 
 

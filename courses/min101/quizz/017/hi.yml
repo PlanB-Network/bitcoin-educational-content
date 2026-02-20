@@ -1,0 +1,9 @@
+question: बिट गोल्ड (Bit Gold) की अवधारणा किसके द्वारा दी गई थी?
+answer: Nick Szabo
+wrong_answers:
+  - Satoshi Nakamoto
+  - Hal Finney
+  - Wei Dai
+explanation: |
+  बिट गोल्ड निक सजाबो द्वारा प्रस्तावित एक इलेक्ट्रॉनिक मनी सिस्टम की वैचारिक परियोजना है।
+reviewed: false

@@ -1,0 +1,9 @@
+question: බිට් 32 nonce එක අවසන් වූ විට සෙවුම් ඉඩ (search space) පුළුල් කරන්නේ කුමන යාන්ත්‍රණය මගින්ද?
+answer: Extra-nonce
+wrong_answers:
+  - Super-nonce
+  - Coinbase-nonce
+  - Double-nonce
+explanation: |
+  coinbase එකේ scriptSig තුළ extra-nonce වෙනස් කිරීමෙන්, Merkle root එක වෙනස් වන අතර එමඟින් ශීර්ෂය (header) ද වෙනස් වේ.
+reviewed: false

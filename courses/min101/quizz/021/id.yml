@@ -1,0 +1,9 @@
+question: Setiap berapa blok target kesulitan disesuaikan?
+answer: 2016 blok
+wrong_answers:
+  - 2000 blok
+  - 2100 blok
+  - 4096 blok
+explanation: |
+  Penyesuaian dilakukan setiap 2016 blok, atau sekitar dua minggu dengan asumsi 10 menit per blok.
+reviewed: false

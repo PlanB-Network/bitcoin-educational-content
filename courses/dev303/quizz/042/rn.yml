@@ -1,0 +1,8 @@
+question: Ni akamaro akahe nyamukuru k’abasubiramwo kuba abanebwe muri Rust?
+answer: Nta gikorwa na kimwe bakora gushika bapfuye, bikaba vyemerera gukora neza ata gukora amakoraniro yo hagati
+wrong_answers:
+  - Bica bihuza ibikorwa mu bice vyinshi vya CPU kugira ngo bikore neza
+  - Babika ibisubizo vya kera mu bubiko kugira ngo ntibasubire guharura agaciro kamwe incuro nyinshi
+  - Bakoresha ubwonko buke mu kubika ibisobanuro gusa aho gukopa agaciro k'amakuru nyayo
+explanation: |
+  Igenzura ry'ubunebwe mu bisubizo vya Rust bisigura ko badakora igikorwa na kimwe gushika uburyo bwo gukoresha buhamagawe. Ibi bigufasha gufatanya ibikorwa vyinshi nk'ikarata, akayunguruzo, n'ibindi bikoresho hamwe ata gukora amakoraniro hagati y'intambwe imwe imwe. Igikoresho gishobora gutuma uruhererekane rwose ruhinduka kode nziza ikora ibintu kimwe kimwe biciye mu guhindura kwose, aho kurema amavecteur y’igihe gito canke ayandi makoraniro ku ntambwe yose.

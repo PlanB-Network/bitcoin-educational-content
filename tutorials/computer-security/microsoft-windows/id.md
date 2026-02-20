@@ -62,7 +62,7 @@ Ukuran file sekitar 5,5 GB, dan tautan yang dihasilkan akan berlaku selama 24 ja
 Pada tahap ini, kita perlu membuat perubahan pada instalasi Windows standar. Pada tahap ini, dengan menggunakan penginstalan tanpa pengawasan, kami menentukan item mana yang akan diinstal, tanpa masukan dari pengguna setelahnya. Bahkan, dalam metode ini, file XML digunakan untuk mengonfigurasi langkah-langkah instalasi dan layanan yang diinstal di Windows. Dengan kata lain, penggunaan file Unattended.xml menciptakan proses otomatisasi selama instalasi, mencegah kebutuhan untuk memilih beberapa opsi dan menghindari langkah-langkah membosankan yang biasanya diperlukan selama pengaturan. Metode ini adalah metode yang tidak biasa tetapi standar yang telah diperkenalkan oleh Microsoft. Informasi lebih lanjut tersedia di [situs web resmi Microsoft](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/update-windows-settings-and-scripts-create-your-own-answer-file-sxs?view=windows-11).
 
 
-Ada berbagai alat yang tersedia di internet untuk menghasilkan file tanpa pengawasan. Beberapa di antaranya online, sementara yang lainnya offline. Salah satu alat online untuk membuat file ini adalah [situs web ini] (https://schneegans.de/windows/unattend-generator). Setelah membukanya, kita akan dihadapkan pada halaman berikut:
+Ada berbagai alat yang tersedia di internet untuk menghasilkan file tanpa pengawasan. Beberapa di antaranya online, sementara yang lainnya offline. Salah satu alat online untuk membuat file ini adalah [situs web ini](https://schneegans.de/windows/unattend-generator). Setelah membukanya, kita akan dihadapkan pada halaman berikut:
 
 
 ![Image](assets/en/06.webp)

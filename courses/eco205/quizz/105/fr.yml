@@ -1,0 +1,8 @@
+question: Selon la théorie autrichienne de Menger, pourquoi l'émergence de la monnaie représente-t-elle un processus auto-renforçant une fois qu'une marchandise commence à être adoptée comme intermédiaire d'échange?
+answer: Car l'adoption crée un effet d'externalité de réseau où plus la marchandise est utilisée, plus elle devient échangeable, attirant davantage d'utilisateurs
+wrong_answers:
+  - "Car les autorités centrales interviennent progressivement pour soutenir et légitimer l'usage de cette marchandise émergente"
+  - Car la rareté croissante de la marchandise augmente automatiquement sa valeur et donc son attractivité pour les échanges
+  - "Car les premiers adoptants manipulent artificiellement le marché pour forcer l'adoption généralisée de leur marchandise préférée"
+explanation: |
+  Menger identifie un mécanisme d'auto-renforcement basé sur l'externalité de réseau : plus une marchandise est adoptée comme monnaie, plus elle devient échangeable, ce qui attire de nouveaux utilisateurs et renforce son statut monétaire. Ce cercle vertueux s'explique par le fait que l'utilité d'une monnaie augmente avec le nombre de personnes qui l'acceptent, créant une dynamique naturelle d'adoption progressive sans intervention externe.

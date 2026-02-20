@@ -122,16 +122,17 @@ Hieronder vind je een overzichtstabel met de algemene technische specificaties v
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| Kenmerk                                      | Waarde                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
 | Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| Stroomverbruik                              | 800 W                                                     |
+| Geluid                                                | 35-55 dB                                                  |
+| Uitgangsluchttemperatuur                       | 60-70°C (bij omgevingstemperatuur 25°C)                  |
+| Vereisten voor omgevingstemperatuur voor gebruik | -5° C - 40°C                                              |
+| Ingangsspanningsbereik van het apparaat                         | 110V-240V AC 50/60Hz                                      |
+| Machinegrootte                                 | Lengte: 760 mm / Diepte: 104 mm / Hoogte: 214.5 mm |
+| Machinegewicht                                  |  8.35 kg                                                  |
 
 ## Aansluiten op een Mining pool
 

@@ -1,5 +1,6 @@
 ---
-term: ABASINIYE
+term: Abashira umukono ku citunza
+definition: Imirwi ishinzwe kwubaka no kwemeza ibice (blocks) muri sidechain ya Liquid.
 ---
 
 Mu bijanye na Liquid (a Bitcoin Sidechain), abashirako umukono ku mabarabara ni bo bajejwe kwubaka no kwemeza amabarabara ku rubuga.

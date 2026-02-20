@@ -1,0 +1,9 @@
+question: Từ giữa năm 2010 đến giữa năm 2011, độ khó khai thác đã tăng lên gấp bao nhiêu lần?
+answer: 1000
+wrong_answers:
+  - 100
+  - 500
+  - 50
+explanation: |
+  Đã có sự gia tăng gấp 1.000 lần trong giai đoạn này, đặc biệt là do việc sử dụng GPU.
+reviewed: false

@@ -127,7 +127,7 @@ wallet 하드웨어를 선택합니다. 이 예에서는 콜드카드 MK4를 사
 
 
 
-https://planb.academy/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.academy/tutorials/wallet/hardware/coldcard-mk4-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
 콜드카드의 경우, USB 연결 또는 microSD 카드를 통해 wallet 하드웨어에서 공개 키를 내보내야 합니다.
 

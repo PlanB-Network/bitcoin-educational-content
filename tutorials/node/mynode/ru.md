@@ -3,7 +3,7 @@ name: My Node
 description: Настройка вашего bitcoin MyNode
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 https://mynodebtc.com/
 

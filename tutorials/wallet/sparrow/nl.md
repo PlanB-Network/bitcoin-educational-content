@@ -32,7 +32,7 @@ Wat de verbinding betreft, kun je met Sparrow verbinding maken met je eigen Bitc
 ## Sparrow wallet installeren
 
 
-Ga naar [de officiële Sparrow wallet downloadpagina] (https://sparrowwallet.com/download/) en kies de softwareversie die overeenkomt met jouw besturingssysteem.
+Ga naar [de officiële Sparrow wallet downloadpagina](https://sparrowwallet.com/download/) en kies de softwareversie die overeenkomt met jouw besturingssysteem.
 
 
 ![Image](assets/fr/01.webp)
@@ -146,10 +146,11 @@ Vergeet niet om de software opnieuw op te starten nadat je deze wijzigingen hebt
 Ga dan terug naar Sparrow wallet en voer het pad naar je cookie-bestand in, meestal in dezelfde map als `Bitcoin.conf`, afhankelijk van je besturingssysteem:
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 
@@ -180,10 +181,11 @@ server=1
 Nadat je het bestand hebt bewerkt, moet je ervoor zorgen dat je het opslaat in de juiste map voor je besturingssysteem:
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 Deze handeling kan ook worden uitgevoerd via de grafische Interface Bitcoin-QT. Ga naar het menu "*Instellingen*", dan "*Opties...*" en activeer de optie "*RPC server inschakelen*" door het overeenkomstige vakje aan te vinken. Als het bestand `Bitcoin.conf` niet bestaat, kun je het direct vanaf deze Interface aanmaken door op "*Open Configuration File*" te klikken.
 
@@ -191,7 +193,7 @@ Deze handeling kan ook worden uitgevoerd via de grafische Interface Bitcoin-QT. 
 ![Image](assets/fr/12.webp)
 
 
-Zoek het IP Address van de machine die Bitcoin core host op je lokale netwerk. Om dit te doen, kunt u een tool zoals [Angry IP Scanner] (https://angryip.org/) gebruiken. Laten we omwille van het argument aannemen dat het IP Address van uw knooppunt `192.168.1.18` is.
+Zoek het IP Address van de machine die Bitcoin core host op je lokale netwerk. Om dit te doen, kunt u een tool zoals [Angry IP Scanner](https://angryip.org/) gebruiken. Laten we omwille van het argument aannemen dat het IP Address van uw knooppunt `192.168.1.18` is.
 
 
 Voeg in het `Bitcoin.conf` bestand de volgende regels toe en stel `rpcbind=192.168.1.18` in zodat dit overeenkomt met het IP Address van je node.

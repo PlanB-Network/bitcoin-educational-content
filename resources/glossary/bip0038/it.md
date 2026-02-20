@@ -1,6 +1,7 @@
 ---
 term: BIP0038
 
+definition: Standard per la crittografia delle chiavi private Bitcoin con una passphrase, utilizzato in particolare per proteggere i paper wallet.
 ---
 Una proposta di miglioramento di Bitcoin che introduce un meccanismo di crittografia per aggiungere una protezione supplementare alle chiavi private attraverso una passphrase. BIP38 assicura che anche se una terza parte ottiene fisicamente la chiave privata crittografata, non può usarla senza conoscere la sua passphrase. Questo aggiunge un ulteriore livello di sicurezza per proteggere i bitcoin dal furto, soprattutto per la sicurezza dei vecchi portafogli cartacei.
 

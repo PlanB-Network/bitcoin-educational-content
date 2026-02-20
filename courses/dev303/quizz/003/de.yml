@@ -1,0 +1,8 @@
+question: Welcher Cargo-Befehl führt Kompilierungsprüfungen durch, ohne eine ausführbare Datei zu erzeugen?
+answer: frachtkontrolle
+wrong_answers:
+  - ladung bauen
+  - lastfahrt
+  - frachtprüfung
+explanation: |
+  Der Befehl "cargo check" führt alle Kompilierungsprüfungen durch und prüft, ob Ihr Code korrekt kompiliert wurde, ohne die endgültige ausführbare Datei zu erzeugen. Dadurch ist er wesentlich schneller als ein vollständiger Build, wenn Sie lediglich die Korrektheit des Codes überprüfen wollen. Im Gegensatz dazu kompiliert "cargo build" und erzeugt ausführbare Dateien, "cargo run" kompiliert und führt das Programm aus und "cargo test" kompiliert und führt Tests aus.

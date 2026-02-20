@@ -1,0 +1,9 @@
+question: Mitä ongelmaa Hashcash pyrki ensisijaisesti vähentämään?
+answer: Sähköpostiroskaposti
+wrong_answers:
+  - Kaksinkertainen kulutus
+  - DNS-tietojenkalastelu
+  - Yksityisten avainten varkaus
+explanation: |
+  Hashcash asettaa viestikohtaisen laskentakustannuksen tehdäkseen sähköpostien massalähetyksestä kannattamatonta.
+reviewed: false

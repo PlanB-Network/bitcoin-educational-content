@@ -1,10 +1,10 @@
-question: Op welk niveau ligt ongeveer het totale hergebruik van Address op Bitcoin?
+question: Op welk niveau ligt ongeveer het totale adreshergebruik op Bitcoin?
 answer: Ongeveer 50%
 wrong_answers:
   - Ongeveer 5%
   - Ongeveer 15%
   - Ongeveer 40%
 explanation: |
-  Sinds het begin van de jaren 2010 schommelt het totale percentage hergebruik van Address op Bitcoin rond de 50%.
+  Sinds het begin van de jaren 2010 schommelt het totale percentage van adreshergebruik op Bitcoin rond de 50%.
   
 reviewed: false

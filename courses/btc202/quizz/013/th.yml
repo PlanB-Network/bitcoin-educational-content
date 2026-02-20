@@ -1,0 +1,9 @@
+question: อุปกรณ์ประเภทใดที่ใช้ในปัจจุบันในการทำเหมือง Bitcoin อย่างมีประสิทธิภาพ?
+answer: ASIC
+wrong_answers:
+  - Classic CPU
+  - GPU
+  - FPGA
+explanation: |
+  วันนี้ Bitcoin mining ดำเนินการโดยใช้ ASICs ซึ่งเป็นชิปเฉพาะสำหรับอัลกอริธึม SHA-256
+reviewed: true

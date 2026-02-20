@@ -105,7 +105,7 @@ Lightning Network의 기술적 메커니즘을 알아볼 준비가 되셨나요?
 
 
 
-Lightning Network는 Bitcoin 프로토콜 위에 구축된 결제 채널 네트워크로, 빠르고 저렴한 거래를 가능하게 하는 것을 목표로 합니다. 이를 통해 참여자 간에 결제 채널을 생성할 수 있으며, 그 안에서 각 거래를 Blockchain에 개별적으로 기록할 필요 없이 최소한의 수수료로 거의 즉시 거래가 이루어질 수 있습니다. 따라서 Lightning Network는 Bitcoin의 확장성을 향상시키고 저가치 거래에 더 적합하게 만드는 것을 목표로 합니다.
+[Lightning Network](https://planb.academy/resources/glossary/lightning-network)는 Bitcoin 프로토콜 위에 구축된 [결제 채널](https://planb.academy/resources/glossary/payment-channel) 네트워크로, 빠르고 저렴한 거래를 가능하게 하는 것을 목표로 합니다. 이를 통해 참여자 간에 결제 채널을 생성할 수 있으며, 그 안에서 각 거래를 [Blockchain](https://planb.academy/resources/glossary/blockchain)에 개별적으로 기록할 필요 없이 최소한의 수수료로 거의 즉시 거래가 이루어질 수 있습니다. 따라서 Lightning Network는 Bitcoin의 [확장성](https://planb.academy/resources/glossary/scalability)을 향상시키고 저가치 거래에 더 적합하게 만드는 것을 목표로 합니다.
 
 
 '네트워크' 측면을 살펴보기 전에 Lightning에서 **결제 채널**의 개념, 작동 방식 및 세부 사항을 이해하는 것이 중요합니다. 이것이 이 첫 번째 장의 주제입니다.
@@ -120,7 +120,7 @@ Lightning Network는 Bitcoin 프로토콜 위에 구축된 결제 채널 네트�
 ![LNP201](assets/en/001.webp)
 
 
-이 예에서 Alice는 채널에 100,000개의 사토시를 보유하고 있고, Bob은 30,000개의 사토시를 보유하고 있어 총 130,000개의 사토시가 **채널 용량**을 구성합니다.
+이 예에서 Alice는 채널에 100,000개의 [사토시](https://planb.academy/resources/glossary/satoshi-sat)를 보유하고 있고, Bob은 30,000개의 사토시를 보유하고 있어 총 130,000개의 사토시가 **[채널 용량](https://planb.academy/resources/glossary/lightning-channel-capacity)**을 구성합니다.
 
 
 **Satoshi이란 무엇인가요?**
@@ -194,7 +194,7 @@ Lightning Network는 Bitcoin 프로토콜 위에 구축된 결제 채널 네트�
 ### Bitcoin 주소, 개인 키 및 공개 키
 
 
-Bitcoin Address은 **공개 키**에서 파생된 일련의 문자로, **개인 키**에서 계산됩니다. 아시다시피 비트코인을 잠그는 데 사용되며, 이는 Wallet에서 비트코인을 받는 것과 동일합니다.
+Bitcoin Address은 **[공개 키](https://planb.academy/resources/glossary/public-key)**에서 파생된 일련의 문자로, **[개인 키](https://planb.academy/resources/glossary/private-key)**에서 계산됩니다. 아시다시피 비트코인을 잠그는 데 사용되며, 이는 Wallet에서 비트코인을 받는 것과 동일합니다.
 
 
 비공개 키는 절대 공유해서는 안 되는 비밀 요소인 반면, 공개 키와 Address은 보안 위험 없이 공유할 수 있습니다(공개 시 개인 정보에 대한 위험만 발생함). 다음은 이 교육 전반에 걸쳐 적용할 공통된 표현입니다:
@@ -209,7 +209,7 @@ Bitcoin Address은 **공개 키**에서 파생된 일련의 문자로, **개인 
 ### Bitcoin 거래: 자금 및 스크립트 보내기
 
 
-Bitcoin에서 거래는 한 Address에서 다른 Address으로 자금을 송금하는 것을 포함합니다. Alice가 0.002 Bitcoin을 Bob에게 보내는 예를 들어보겠습니다. Alice는 Address과 연결된 개인 키를 사용해 트랜잭션에 **서명**함으로써 실제로 이 자금을 사용할 수 있음을 증명합니다. 하지만 이 거래 뒤에는 정확히 어떤 일이 일어날까요? Bitcoin의 자금은 자금 사용에 특정 조건을 부과하는 일종의 미니 프로그램인 **스크립트**에 의해 잠깁니다.
+Bitcoin에서 거래는 한 Address에서 다른 Address으로 자금을 송금하는 것을 포함합니다. Alice가 0.002 Bitcoin을 Bob에게 보내는 예를 들어보겠습니다. Alice는 Address과 연결된 개인 키를 사용해 트랜잭션에 **[서명](https://planb.academy/resources/glossary/digital-signature)**함으로써 실제로 이 자금을 사용할 수 있음을 증명합니다. 하지만 이 거래 뒤에는 정확히 어떤 일이 일어날까요? Bitcoin의 자금은 자금 사용에 특정 조건을 부과하는 일종의 미니 프로그램인 **[스크립트](https://planb.academy/resources/glossary/script)**에 의해 잠깁니다.
 
 
 가장 일반적인 스크립트에는 Address와 연결된 개인 키로 서명이 필요합니다. Alice가 자신의 개인 키로 거래에 서명하면 자금을 차단하는 **스크립트의** 잠금이 해제되고 자금을 이체할 수 있습니다. 자금을 이체하려면 이 자금에 새 스크립트를 추가하여 이번에 자금을 사용하려면 **Bob의** 개인 키 서명이 필요하다는 것을 명시해야 합니다.
@@ -306,9 +306,9 @@ Lightning Network에서 Exchange의 다양한 레벨을 명확하게 구분하�
 
 
 
-- **피어투피어 통신(라이트닝 프로토콜)**: 이것은 라이트닝 노드가 통신을 위해 서로에게 보내는 메시지입니다. 다이어그램에서는 이러한 메시지를 검은색 점선으로 표시하겠습니다.
+- **[피어투피어](https://planb.academy/resources/glossary/peertopeer-p2p) 통신(라이트닝 프로토콜)**: 이것은 [라이트닝 노드](https://planb.academy/resources/glossary/lightning-node)가 통신을 위해 서로에게 보내는 메시지입니다. 다이어그램에서는 이러한 메시지를 검은색 점선으로 표시하겠습니다.
 - **결제 채널(라이트닝 프로토콜)**: 라이트닝에서 자금을 교환하는 경로로, 검은색 실선으로 표시합니다.
-- **Bitcoin 트랜잭션(Bitcoin 프로토콜)**: 주황색 선으로 표시할 On-Chain 트랜잭션입니다.
+- **Bitcoin 트랜잭션(Bitcoin 프로토콜)**: 주황색 선으로 표시할 [On-Chain](https://planb.academy/resources/glossary/onchain) 트랜잭션입니다.
 
 
 ![LNP201](assets/en/010.webp)
@@ -365,7 +365,7 @@ Lightning Network에서 Exchange의 다양한 레벨을 명확하게 구분하�
 ### 채널은 언제 오픈하나요?
 
 
-입금 트랜잭션이 Bitcoin 블록에 포함되고 특정 확인 수(즉, Blockchain에 추가된 후속 블록 수)에 도달하면 채널이 열려 있는 것으로 간주됩니다.
+입금 트랜잭션이 Bitcoin [블록](https://planb.academy/resources/glossary/block)에 포함되고 특정 [확인 수](https://planb.academy/resources/glossary/confirmation)(즉, Blockchain에 추가된 후속 블록 수)에 도달하면 채널이 열려 있는 것으로 간주됩니다.
 
 
 **이 장에서 기억해야 할 사항**
@@ -413,7 +413,7 @@ Lightning Network에서 Exchange의 다양한 레벨을 명확하게 구분하�
 ### 게시되지 않은 트랜잭션: Commitment 트랜잭션
 
 
-Alice가 채널에서 Bob로 자금을 송금하는 트랜잭션을 생성하면, 자금 분배에 이러한 변화를 반영하기 위해 새로운 Bitcoin 트랜잭션이 생성됩니다. 이 트랜잭션은 **Commitment Transaction**이라고 하며, Blockchain에 게시되지는 않지만 라이트닝 트랜잭션에 따른 채널의 새로운 상태를 나타냅니다.
+Alice가 채널에서 Bob로 자금을 송금하는 트랜잭션을 생성하면, 자금 분배에 이러한 변화를 반영하기 위해 새로운 Bitcoin 트랜잭션이 생성됩니다. 이 트랜잭션은 **[Commitment Transaction](https://planb.academy/resources/glossary/commitment-transaction)**이라고 하며, Blockchain에 게시되지는 않지만 라이트닝 트랜잭션에 따른 채널의 새로운 상태를 나타냅니다.
 
 
 Alice이 Bob로 30,000개의 사토시를 전송하는 경우를 예로 들어보겠습니다:
@@ -523,10 +523,10 @@ Alice의 이러한 부정 행위를 방지하기 위해 Lightning Network에서�
 
 
 
-- **타임락**: 각 Commitment Transaction에는 Alice의 자금에 대한 타임락이 포함되어 있습니다. 타임락은 트랜잭션이 블록에 추가되기 위해 충족되어야 하는 시간 조건을 설정하는 Smart contract 프리미티브입니다. 즉, Alice가 Commitment 트랜잭션 중 하나를 게시할 경우 특정 블록 수가 지나기 전까지는 자금을 회수할 수 없습니다. 이 타임록은 Commitment Transaction의 확인부터 적용되기 시작합니다. 이 기간은 일반적으로 채널의 크기에 비례하지만 수동으로 구성할 수도 있습니다.
+- **[타임락](https://planb.academy/resources/glossary/timelock)**: 각 Commitment Transaction에는 Alice의 자금에 대한 타임락이 포함되어 있습니다. 타임락은 트랜잭션이 블록에 추가되기 위해 충족되어야 하는 시간 조건을 설정하는 [Smart contract](https://planb.academy/resources/glossary/smart-contract) 프리미티브입니다. 즉, Alice가 Commitment 트랜잭션 중 하나를 게시할 경우 특정 블록 수가 지나기 전까지는 자금을 회수할 수 없습니다. 이 타임록은 Commitment Transaction의 확인부터 적용되기 시작합니다. 이 기간은 일반적으로 채널의 크기에 비례하지만 수동으로 구성할 수도 있습니다.
 - 취소 열쇠**: 취소 키**를 가지고 있으면 Alice의 자금을 Bob가 즉시 사용할 수 있습니다. 이 열쇠는 Alice가 보유한 비밀과 Bob가 보유한 비밀로 구성됩니다. 이 비밀은 Commitment Transaction마다 다르다는 점에 유의하세요.
 
-이 두 가지 메커니즘이 결합된 덕분에 Bob은 Alice의 부정 행위를 감지하고 취소 키로 그의 출력을 검색하여 처벌할 수 있으며, 이는 Bob의 경우 채널의 모든 자금을 회수하는 것을 의미합니다. 이제 새로운 Commitment Transaction의 모습은 다음과 같습니다:
+이 두 가지 메커니즘이 결합된 덕분에 Bob은 Alice의 부정 행위를 감지하고 취소 키로 그의 [출력](https://planb.academy/resources/glossary/output)을 검색하여 처벌할 수 있으며, 이는 Bob의 경우 채널의 모든 자금을 회수하는 것을 의미합니다. 이제 새로운 Commitment Transaction의 모습은 다음과 같습니다:
 
 
 ![LNP201](assets/en/025.webp)
@@ -543,7 +543,7 @@ Alice과 Bob가 새로운 라이트닝 트랜잭션으로 채널 상태를 업�
 
 
 - Alice와 Bob에는 라이트닝 거래 후 현재 자금 분배를 나타내는 Commitment Transaction이 새로 생겼습니다.
-- 각 노드는 이전 트랜잭션에 대한 상대방의 비밀을 가지고 있으므로, 둘 중 한 명이 Bitcoin 노드의 멤풀에 이전 상태의 트랜잭션을 게시하여 속이려고 시도하는 경우에만 해지 키를 사용할 수 있습니다. 실제로 상대방을 처벌하기 위해서는 서명된 입력이 포함된 비밀과 상대방의 Commitment Transaction을 모두 보유해야 합니다. 이 트랜잭션이 없으면 해지 키는 그 자체로는 쓸모가 없습니다. 이 트랜잭션을 얻는 유일한 방법은 멤풀(즉, 확인을 기다리는 트랜잭션) 또는 타임락 중에 Blockchain의 확인된 트랜잭션에서 검색하는 것이며, 이는 상대방이 고의적이든 아니든 속이려고 시도하고 있음을 증명하는 것입니다.
+- 각 노드는 이전 트랜잭션에 대한 상대방의 비밀을 가지고 있으므로, 둘 중 한 명이 Bitcoin 노드의 [멤풀](https://planb.academy/resources/glossary/mempool)에 이전 상태의 트랜잭션을 게시하여 속이려고 시도하는 경우에만 해지 키를 사용할 수 있습니다. 실제로 상대방을 처벌하기 위해서는 서명된 [입력](https://planb.academy/resources/glossary/input)이 포함된 비밀과 상대방의 Commitment Transaction을 모두 보유해야 합니다. 이 트랜잭션이 없으면 해지 키는 그 자체로는 쓸모가 없습니다. 이 트랜잭션을 얻는 유일한 방법은 멤풀(즉, 확인을 기다리는 트랜잭션) 또는 타임락 중에 Blockchain의 확인된 트랜잭션에서 검색하는 것이며, 이는 상대방이 고의적이든 아니든 속이려고 시도하고 있음을 증명하는 것입니다.
 
 
 이 과정을 잘 이해하기 위해 한 가지 예를 들어 보겠습니다:
@@ -648,7 +648,7 @@ Commitment의 **Lightning Network 거래**에는 부정 행위의 위험과 부�
 
 
 
-- Alice와 Bob은 **마감 거래**의 수수료를 함께 협상합니다. 이러한 수수료는 일반적으로 청산 시점의 Bitcoin 수수료 시장을 기준으로 계산됩니다. 청산 수수료를 지불하는 사람은 항상 채널을 개설한 사람(이 예에서는 Alice)이라는 점에 유의해야 합니다.
+- Alice와 Bob은 **마감 거래**의 [수수료](https://planb.academy/resources/glossary/transaction-fees)를 함께 협상합니다. 이러한 수수료는 일반적으로 청산 시점의 Bitcoin 수수료 시장을 기준으로 계산됩니다. 청산 수수료를 지불하는 사람은 항상 채널을 개설한 사람(이 예에서는 Alice)이라는 점에 유의해야 합니다.
 - 이들은 새로운 **마감 트랜잭션**을 생성합니다. 이 거래는 Commitment Transaction과 비슷하지만 양 당사자가 협력하고 부정 행위의 위험이 없기 때문에 타임락이나 취소 메커니즘이 없습니다. 따라서 이 협력 청산 트랜잭션은 Commitment 트랜잭션과 다릅니다.
 
 
@@ -732,13 +732,13 @@ Bob는 이러한 부정 행위를 방지하기 위해 Bitcoin과 그 Blockchain�
 :::video id=38419c23-5592-4573-b0a7-84824a5bfb77:::
 
 
-이 장에서는 결제 채널을 통해 직접 연결되지 않은 경우에도 Lightning Network에서 결제금이 수취인에게 전달될 수 있는 방법을 살펴보겠습니다. 실제로 라이트닝은 **결제 채널 네트워크**로, 다른 참여자의 채널을 통해 멀리 떨어진 노드에 자금을 전송할 수 있습니다. 네트워크를 통해 결제가 라우팅되는 방식, 채널 간에 유동성이 전송되는 방식, 거래 수수료가 계산되는 방식에 대해 살펴보겠습니다.
+이 장에서는 결제 채널을 통해 직접 연결되지 않은 경우에도 Lightning Network에서 결제금이 수취인에게 전달될 수 있는 방법을 살펴보겠습니다. 실제로 라이트닝은 **결제 채널 네트워크**로, 다른 참여자의 채널을 통해 멀리 떨어진 노드에 자금을 전송할 수 있습니다. 네트워크를 통해 결제가 라우팅되는 방식, 채널 간에 [유동성](https://planb.academy/resources/glossary/liquidity-lightning)이 전송되는 방식, 거래 수수료가 계산되는 방식에 대해 살펴보겠습니다.
 
 
 ### 결제 채널 네트워크
 
 
-Lightning Network에서 트랜잭션은 두 노드 간의 자금 이체에 해당합니다. 이전 챕터에서 살펴본 것처럼 라이트닝 트랜잭션을 수행하려면 누군가와 채널을 개설해야 합니다. 이 채널은 off-chain 트랜잭션을 거의 무한대로 수행할 수 있으며, 채널이 닫히기 전까지 On-Chain 잔액을 회수할 수 있습니다. 하지만 이 방법은 상대방과 직접 채널을 통해 자금을 받거나 보내야 한다는 단점이 있으며, 이는 각 채널마다 개장 거래와 청산 거래가 필요하다는 것을 의미합니다. 이 사람과 많은 금액을 결제할 계획이라면 채널을 개설하고 닫는 것이 비용적으로 효율적입니다. 반대로 라이트닝 트랜잭션을 몇 개만 수행해야 하는 경우 직접 채널을 개설하는 것은 제한된 수의 off-chain 트랜잭션에 대해 두 개의 On-Chain 트랜잭션이 발생하기 때문에 유리하지 않습니다. 예를 들어 재방문할 계획 없이 판매자에게서 Lightning으로 결제하려는 경우에 이러한 경우가 발생할 수 있습니다.
+Lightning Network에서 트랜잭션은 두 노드 간의 자금 이체에 해당합니다. 이전 챕터에서 살펴본 것처럼 라이트닝 트랜잭션을 수행하려면 누군가와 채널을 개설해야 합니다. 이 채널은 [off-chain](https://planb.academy/resources/glossary/offchain) 트랜잭션을 거의 무한대로 수행할 수 있으며, 채널이 닫히기 전까지 On-Chain 잔액을 회수할 수 있습니다. 하지만 이 방법은 상대방과 직접 채널을 통해 자금을 받거나 보내야 한다는 단점이 있으며, 이는 각 채널마다 개장 거래와 청산 거래가 필요하다는 것을 의미합니다. 이 사람과 많은 금액을 결제할 계획이라면 채널을 개설하고 닫는 것이 비용적으로 효율적입니다. 반대로 라이트닝 트랜잭션을 몇 개만 수행해야 하는 경우 직접 채널을 개설하는 것은 제한된 수의 off-chain 트랜잭션에 대해 두 개의 On-Chain 트랜잭션이 발생하기 때문에 유리하지 않습니다. 예를 들어 재방문할 계획 없이 판매자에게서 Lightning으로 결제하려는 경우에 이러한 경우가 발생할 수 있습니다.
 
 
 이 문제를 해결하기 위해 Lightning Network은 여러 채널과 중개 노드를 통해 결제를 라우팅하여 상대방과 직접 채널 없이도 거래할 수 있도록 지원합니다.
@@ -958,7 +958,7 @@ Alice, Suzie 및 Bob의 예에서 이 프로세스가 작동하는 방식은 다
 ![LNP201](assets/en/048.webp)
 
 
-**비밀 생성하기**: Bob은 _s_로 표시된 임의의 비밀(프리이미지)을 생성하고 _h_로 표시된 Hash 함수를 사용하여 _r_로 표시된 Hash을 계산합니다. 우리는 가지고 있습니다:
+**비밀 생성하기**: Bob은 _s_로 표시된 임의의 비밀(프리이미지)을 생성하고 _h_로 표시된 [Hash 함수](https://planb.academy/resources/glossary/hash-function)를 사용하여 _r_로 표시된 Hash을 계산합니다. 우리는 가지고 있습니다:
 
 
 $$
@@ -1116,7 +1116,7 @@ HTLC를 사용하면 여러 노드를 신뢰하지 않고도 여러 노드를 �
 ### 네트워크 맵 업데이트
 
 
-네트워크 맵을 최신 상태로 유지하기 위해 노드는 "**_gossip_**"라는 알고리즘을 통해 정기적으로 Exchange 메시지를 전송합니다. 이는 네트워크의 모든 노드에 정보를 전파하는 데 사용되는 분산 알고리즘으로, 몇 번의 통신 주기 내에 Exchange와 채널의 Global State를 동기화할 수 있게 해줍니다. 각 노드는 무작위로 선택된 하나 이상의 이웃 노드에 정보를 전파하고, 이 노드는 다시 다른 이웃 노드에 정보를 전파하는 식으로 전 세계적으로 동기화된 상태에 도달할 때까지 정보를 전파합니다.
+네트워크 맵을 최신 상태로 유지하기 위해 노드는 "**_[gossip](https://planb.academy/resources/glossary/gossip)_**"라는 알고리즘을 통해 정기적으로 Exchange 메시지를 전송합니다. 이는 네트워크의 모든 노드에 정보를 전파하는 데 사용되는 분산 알고리즘으로, 몇 번의 통신 주기 내에 Exchange와 채널의 Global State를 동기화할 수 있게 해줍니다. 각 노드는 무작위로 선택된 하나 이상의 이웃 노드에 정보를 전파하고, 이 노드는 다시 다른 이웃 노드에 정보를 전파하는 식으로 전 세계적으로 동기화된 상태에 도달할 때까지 정보를 전파합니다.
 
 
 라이트닝 노드 간에 주고받는 두 가지 주요 메시지는 다음과 같습니다:
@@ -1228,7 +1228,7 @@ Bob는 라우팅을 용이하게 하기 위해 **Invoice**의 정보를 Alice에
 :::video id=309c3412-506e-4189-ad46-5e5088c55008:::
 
 
-이 장에서는 수신자 노드에서 발신자 노드로 보내는 결제 요청, 즉 라이트닝 **인보이스**의 작동에 대해 자세히 살펴보겠습니다. 목표는 라이트닝에서 결제하고 결제금을 받는 방법을 이해하는 것입니다. 또한 기존 인보이스에 대한 두 가지 대안에 대해서도 논의할 것입니다: LNURL과 Keysend.
+이 장에서는 수신자 노드에서 발신자 노드로 보내는 결제 요청, 즉 라이트닝 **인보이스**의 작동에 대해 자세히 살펴보겠습니다. 목표는 라이트닝에서 결제하고 결제금을 받는 방법을 이해하는 것입니다. 또한 기존 인보이스에 대한 두 가지 대안에 대해서도 논의할 것입니다: [LNURL](https://planb.academy/resources/glossary/lnurl)과 Keysend.
 
 
 ![LNP201](assets/en/068.webp)
@@ -1339,7 +1339,7 @@ Invoice의 페이로드에는 결제 처리에 필요한 몇 가지 정보가 �
 - **서명**: 모든 정보를 인증하여 Invoice의 무결성을 보장합니다.
 
 
-그런 다음 송장은 Bitcoin SegWit 주소와 동일한 형식인 **bech32**로 인코딩됩니다(`bc1`로 시작하는 형식).
+그런 다음 송장은 Bitcoin [SegWit](https://planb.academy/resources/glossary/segwit) 주소와 동일한 형식인 **[bech32](https://planb.academy/resources/glossary/bech32-and-bech32m)**로 인코딩됩니다(`bc1`로 시작하는 형식).
 
 
 ### LNURL 출금
@@ -1404,8 +1404,8 @@ Lightning에는 세 가지 주요 사용자 프로필이 있으며, 각 프로�
 
 
 
-- **결제자**: 결제를 하는 사람입니다. 이들은 다른 사용자에게 자금을 이체하기 위해 송금 유동성이 필요합니다. 예를 들어 소비자가 이에 해당할 수 있습니다.
-- **판매자(또는 수취인)**: 대금을 받는 사람입니다. 판매자는 노드로의 결제를 수락하기 위해 유입되는 유동성이 필요합니다. 예를 들어, 비즈니스 또는 온라인 상점이 될 수 있습니다.
+- **결제자**: 결제를 하는 사람입니다. 이들은 다른 사용자에게 자금을 이체하기 위해 [송금 유동성](https://planb.academy/resources/glossary/outbound-capacity)이 필요합니다. 예를 들어 소비자가 이에 해당할 수 있습니다.
+- **판매자(또는 수취인)**: 대금을 받는 사람입니다. 판매자는 노드로의 결제를 수락하기 위해 [유입되는 유동성](https://planb.academy/resources/glossary/inbound-capacity)이 필요합니다. 예를 들어, 비즈니스 또는 온라인 상점이 될 수 있습니다.
 - **라우터**: 결제 라우팅을 전문으로 하는 중개 노드로, 각 채널에서 유동성을 최적화하여 가능한 한 많은 결제를 라우팅하고 수수료를 벌어들여야 합니다.
 
 
@@ -1524,7 +1524,7 @@ LNP201 교육의 마지막을 장식하는 이 마지막 장에서는 지금까�
 - **채널 개설**: 채널 생성은 2/2 다중서명 Address에 자금을 잠그는 Bitcoin 트랜잭션을 통해 이루어집니다. 이 예치금은 Blockchain의 라이트닝 채널을 나타냅니다.
 
 
-![LNP201](assets/en/076.webp) 2. **Transactions in the Channel**: In this channel, it is possible to carry out numerous transactions without publishing them on the blockchain. Each Lightning transaction creates a new state of the channel reflected in a commitment transaction.
+![LNP201](assets/en/076.webp) 2. **Transactions in the Channel**: In this channel, it is possible to carry out numerous transactions without publishing them on the blockchain. Each Lightning transaction creates a new state of the channel reflected in a [commitment transaction](https://planb.academy/resources/glossary/commitment-transaction).
 
 ![LNP201](assets/en/077.webp)
 
@@ -1591,6 +1591,10 @@ LNP201 교육의 마지막을 장식하는 이 마지막 장에서는 지금까�
 
 ![LNP201](assets/en/084.webp)
 
+
+이제 Lightning Network의 이론적 작동 방식을 이해했으므로, 실제로 첫 번째 Lightning 노드를 구축하여 사용에 있어 더 큰 자율성을 확보할 수 있습니다. 이를 위해 LNP 202 과정을 따라가세요:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 # 최종 섹션
 

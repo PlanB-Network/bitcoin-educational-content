@@ -101,7 +101,7 @@ Limit: 50 gleichzeitige Positionen. Ideal für den Einstieg in den gehebelten Ha
 
 
 
-Gehen Sie zu [lnmarkets.com] (https://lnmarkets.com) und klicken Sie auf "App öffnen".
+Gehen Sie zu [lnmarkets.com](https://lnmarkets.com) und klicken Sie auf "App öffnen".
 
 
 

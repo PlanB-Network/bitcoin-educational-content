@@ -1,0 +1,9 @@
+question: Quel risque financier existe avec un wallet Lightning custodial ?
+answer: Réserve fractionnaire
+wrong_answers:
+  - Augmentation arbitraire des frais de minage
+  - Attaque des 51 %
+  - Blocage définitif du bear market
+explanation: |
+  L’utilisateur ne peut pas vérifier que les soldes affichés correspondent réellement à des bitcoins détenus. Il y a donc un risque de réserve fractionnaire.
+reviewed: false

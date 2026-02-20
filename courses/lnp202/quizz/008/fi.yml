@@ -1,0 +1,9 @@
+question: Kuka omistaa bitcoinit, kun kyseessä on Lightning wallet?
+answer: Yritys
+wrong_answers:
+  - Käyttäjä
+  - Lightning-verkko
+  - Bitcoin ydin
+explanation: |
+  Säilytysmallissa yritys pitää avaimet hallussaan ja valvoo varoja, kun taas käyttäjällä on vain kirjanpidollinen saldo.
+reviewed: false

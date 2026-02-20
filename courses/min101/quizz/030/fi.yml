@@ -1,0 +1,9 @@
+question: Millä lohkokorkeudella neljäs puoliintuminen (halving) tapahtui?
+answer: 840 000
+wrong_answers:
+  - 880 000
+  - 860 000
+  - 900 000
+explanation: |
+  Neljäs puoliintuminen tapahtui korkeudella 840 000 huhtikuun 20. päivänä 2024.
+reviewed: false

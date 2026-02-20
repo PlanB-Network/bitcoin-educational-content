@@ -84,7 +84,7 @@ Wakati wa kuchagua duka la vitufe, ni muhimu kuchagua _Tumia kifaa cha maunzi_.
 
 
 
-Electrum huanza kuchanganua kifaa cha maunzi.
+Electrum huanza kuchanganua kifaa cha hardware.
 
 
 
@@ -165,7 +165,7 @@ Baada ya kupokea satss, unaweza kuangalia kuwasili kwao kwenye menyu ya _Histori
 
 
 
-Mara tu shughuli imethibitishwa, unaweza kutumia UTXO hii na kumaliza jaribio.
+Mara tu muamala umethibitishwa, unaweza kutumia UTXO hii na kumaliza jaribio.
 
 
 
@@ -185,7 +185,7 @@ Ukimaliza, bonyeza _Pay_.
 
 
 
-Dirisha la shughuli linafungua, ambalo ni muhimu kuweka ada sahihi za manunuzi. Ukimaliza mipangilio yote bofya _Preview_ kwenye kona ya chini kulia.
+Window ya muamala inafungua, ambayo ni muhimu kuweka ada sahihi za manunuzi. Ukimaliza mipangilio yote bofya _Preview_ kwenye kona ya chini kulia.
 
 
 
@@ -193,7 +193,7 @@ Dirisha la shughuli linafungua, ambalo ni muhimu kuweka ada sahihi za manunuzi. 
 
 
 
-Dirisha la muamala linaonyesha baadhi ya maelezo muhimu, kwanza kabisa hali: `Haijasainiwa`.
+Window ya muamala linaonyesha baadhi ya maelezo muhimu, kwanza kabisa hali: `Haijasainiwa`.
 
 
 
@@ -257,4 +257,4 @@ wallet, iliyojaribiwa hivyo, inaweza kutumika kupokea UTXO iliyokusudiwa kuhifad
 
 
 
-Mwongozo huu ni mfano wa jinsi ya kutumia Jade yako, iliyounganishwa kupitia USB, kwa saa ya wallet pekee. Electrum ni mfano wa kawaida, lakini unaweza kupendelea programu zingine za wallet. Jade husafirisha ufunguo wa umma kwa pochi nyingine nyingi: pata vipengele sawa na unavyosoma katika somo hili, ili kukuongoza na kupata jinsi ya kukitumia programu yako unayoipenda ya companio.
+Mwongozo huu ni mfano wa jinsi ya kutumia Jade yako, iliyounganishwa kupitia USB, kama wallet ya kusoma tu (watch-only wallet). Electrum ni mfano wa kawaida, lakini unaweza kupendelea programu nyingine za wallet. Jade husafirisha ufunguo wa umma kwenda kwenye wallet nyingine nyingi; tafuta vipengele vinavyofanana na vile vilivyoelezwa katika somo hili ili vikusaidie kuelewa jinsi ya kutumia programu yako unayoipenda ya companion.

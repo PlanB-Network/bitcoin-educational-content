@@ -1,0 +1,9 @@
+question: Kiedy transakcje w bloku stają się potwierdzone?
+answer: Gdy blok zostanie dodany do blockchaina
+wrong_answers:
+  - Gdy transakcja zostanie podpisana przez górnika
+  - Gdy transakcja zostanie rozesłana przez węzeł
+  - Gdy górnik zacznie szukać dowodu
+explanation: |
+  Potwierdzenie płatności w sieci Bitcoin jest konsekwencją dodania bloku zawierającego tę płatność do blockchaina.
+reviewed: false

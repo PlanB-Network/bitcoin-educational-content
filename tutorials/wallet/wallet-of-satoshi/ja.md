@@ -4,6 +4,12 @@ description: 最もシンプルなカストーディアルWallet
 ---
 ![cover](assets/cover.webp)
 
+---
+
+*注意: 2026年の初め以降、このチュートリアルで紹介されているカストディアルモードのWallet of Satoshiは、欧州連合内では利用できなくなりました。この地域に居住しており、引き続きこのツールを使用したい場合は、EU خارجに設置されたVPNを使用する必要があります。別の選択肢として、Wallet of Satoshiをセルフカストディアルモードで使用する方法があります。専用のチュートリアルは近日中にPlan ₿ Academyで公開される予定です。*
+
+---
+
 このチュートリアルを書いたのは_ [Bitcoinキャンパス](https://linktr.ee/bitcoincampus_)
 
 

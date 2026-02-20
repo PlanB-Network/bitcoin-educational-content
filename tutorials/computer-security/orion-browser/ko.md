@@ -522,15 +522,16 @@ Orion+는 프로젝트의 독립성을 보장합니다: "여러분의 재정적 
 
 
 
-| Critère | Orion | Safari | Chrome | Firefox | Brave |
+
+| 기준 | Orion | Safari | Chrome | Firefox | Brave |
 |---------|-------|--------|---------|----------|--------|
-| **Télémétrie** | Aucune | Minimale | Extensive | Modérée | Minimale |
-| **Bloqueur natif** | 99,9% efficace | Basique | Absent | Partiel | Complet |
-| **Extensions** | Chrome + Firefox | Limitées | Chrome uniquement | Firefox uniquement | Chrome uniquement |
-| **Performance Mac** | Excellente | Excellente | Bonne | Moyenne | Bonne |
-| **Consommation RAM** | Très faible | Faible | Élevée | Moyenne | Moyenne |
-| **Open Source** | Partiel | Partiel (WebKit) | Partiel | Complet | Complet |
-| **Plateformes** | Mac/iOS | Mac/iOS | Toutes | Toutes | Toutes |
+| **원격 측정** | 없음 | 최소 | 광범위 | 중간 | 최소 |
+| **기본 차단기** | 99.9% 효과적 | 기본 | 없음 | 부분 | 완전 |
+| **확장** | Chrome + Firefox | 제한됨 | Chrome만 | Firefox만 | Chrome만 |
+| **Mac 성능** | 우수 | 우수 | 양호 | 평균 | 양호 |
+| **RAM 소비** | 매우 낮음 | 낮음 | 높음 | 평균 | 평균 |
+| **오픈 소스** | 부분 | 부분 (WebKit) | 부분 | 완전 | 완전 |
+| **플랫폼** | Mac/iOS | Mac/iOS | 모두 | 모두 | 모두 |
 
 **사파리 대비**: Orion은 고급 차단기 및 확장 프로그램 지원으로 탁월한 보호 기능을 제공하면서 WebKit 성능을 유지합니다.
 

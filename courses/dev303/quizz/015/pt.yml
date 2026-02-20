@@ -1,0 +1,8 @@
+question: Qual é o principal mecanismo que o Rust usa para evitar erros relacionados à memória, como use-after-free e buffer overflows?
+answer: Análise estática realizada inteiramente em tempo de compilação
+wrong_answers:
+  - Recolha de lixo em tempo de execução com limpeza automática de memória
+  - Verificação dinâmica da memória durante a execução do programa
+  - Gestão manual da memória com chamadas de atribuição explícitas
+explanation: |
+  O Rust evita erros relacionados com a memória através da análise estática efectuada inteiramente em tempo de compilação, em que o compilador examina o código-fonte e determina com certeza se as operações de memória são seguras. Isso difere da coleta de lixo (usada por Java/Go), que introduz uma sobrecarga em tempo de execução, da verificação dinâmica, que requer verificação em tempo de execução, e do gerenciamento manual de memória (usado por C/C++), que depende da disciplina do programador. A abordagem de tempo de compilação do Rust garante a segurança da memória sem custos de tempo de execução ou pausas imprevisíveis.

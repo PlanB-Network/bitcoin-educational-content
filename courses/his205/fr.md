@@ -192,7 +192,7 @@ On distingue ainsi plusieurs formes de troc :
 
 **Entre communautés différentes**, l'absence de liens de confiance personnelle favorise l'émergence d'échanges plus formalisés. Certains biens acquièrent progressivement un statut particulier par leur capacité à être demandés par des groupes extérieurs, préfigurant les premières formes de proto-monnaie.
 
-L'école autrichienne d'économie interprète cette évolution comme l'émergence spontanée de biens d'échange privilégiés. Les coquillages, attestés archéologiquement dès le mésolithique, illustrent ce phénomène : retrouvés loin de leur origine géographique (coquillages méditerranéens dans l'ouest de la France, coquillages nordiques sur d'autres sites), ils témoignent d'une reconnaissance commune de leur valeur d'échange.
+L'[école autrichienne](https://planb.academy/resources/glossary/austrian-school) d'économie interprète cette évolution comme l'émergence spontanée de biens d'échange privilégiés. Les coquillages, attestés archéologiquement dès le mésolithique, illustrent ce phénomène : retrouvés loin de leur origine géographique (coquillages méditerranéens dans l'ouest de la France, coquillages nordiques sur d'autres sites), ils témoignent d'une reconnaissance commune de leur valeur d'échange.
 
 Ces biens se distinguent par leur **capacité à être demandés par autrui**, qualité essentielle qui préfigure la fonction monétaire. Sans atteindre la standardisation des monnaies historiques, ils constituent les premiers jalons vers des systèmes d'échange dépersonnalisés, condition nécessaire au développement de sociétés complexes dépassant le cadre tribal.
 
@@ -325,7 +325,7 @@ Les temples sumériens incarnent parfaitement cette tension : ils utilisaient le
 
 L'expérience mésopotamienne établit des precedents durables pour l'évolution des systèmes financiers. Elle démontre que **la sophistication financière précède souvent de plusieurs millénaires les innovations technologiques** qu'on lui associe habituellement. Les concepts d'intérêt, de crédit, de titre négociable et de garantie hypothécaire n'attendent pas l'invention de la monnaie métallique pour se développer.
 
-Cette période fondatrice révèle également les enjeux de pouvoir inhérents à toute innovation monétaire : qui contrôle la technologie, qui définit les règles, et comment s'articulent systèmes formels et pratiques populaires. Ces questions traversent l'histoire économique jusqu'aux débats contemporains sur les monnaies numériques et les cryptomonnaies.
+Cette période fondatrice révèle également les enjeux de pouvoir inhérents à toute innovation monétaire : qui contrôle la technologie, qui définit les règles, et comment s'articulent systèmes formels et pratiques populaires. Ces questions traversent l'histoire économique jusqu'aux débats contemporains sur les monnaies numériques et les [cryptomonnaies](https://planb.academy/resources/glossary/cryptocurrency).
 
 # Économie et monnaie dans les civilisations antiques 
 <partId>a16bcf4c-8c3a-11f0-9e79-2bd363a484bd</partId>
@@ -343,7 +343,7 @@ Les Incas n'avaient pas de système monétaire, mais avait une abondance de mét
 > Plus une société est stratifiée, et plus son système de planification est méticuleusement efficace, moins l'utilisation de la monnaie est nécessaire pour sa population. Cela peut expliquer pourquoi les conquistadors espagnols découvrirent que les Mexicains, dont le gouvernement était relativement plus libéral, utilisaient régulièrement de la poudre d'or (conservée dans des tubes transparents) et des fèves de cacao (conservées pour de gros paiements en sacs de 24 000 unités) comme monnaie, tandis qu’à l'inverse, les Incas, organisés selon une hiérarchie beaucoup plus rigide, n'avaient aucune monnaie : une exception confirmée par une règle stricte. L'origine de la monnaie en Chine s’est faite de manière totalement indépendante des autres civilisations ; cependant, la proximité relative des civilisations sumérienne, égyptienne et minoenne laisse subsister des doutes quant à leur degré d'ignorance respective sur leurs pratiques monétaires, surtout compte tenu des échanges commerciaux importants établis dès des périodes très anciennes.
 
 
-En Chine, les pièces de monnaie ont été développées avec une approche complètement différente des traditions occidentales. C'était du fiat dès l'origine. C'était de la monnaie coulée.  
+En Chine, les pièces de monnaie ont été développées avec une approche complètement différente des traditions occidentales. C'était du [fiat](https://planb.academy/resources/glossary/fiat) dès l'origine. C'était de la monnaie coulée.  
 Et ici, M. Davies mentionne des échanges. Il y avait en effet des échanges entre les Chinois et d'autres populations à certaines époques mais l'intermédiaire d'échange était plutôt la soie pour faire du commerce extérieur. Et on peut aussi noter qu'en Chine, et on le verra plus tard, que dans les régions frontalière, avec moins de population chinoises, on utilisait l'or. Et même pas pour le commerce international, pour ça, c'était la soie.
 
 Donc, j'imagine que peut-être pour le format des pièces, ils ont peut-être pu être influencés par d'autres civilisations de la même époque qui ont développé cette technologie.  
@@ -522,7 +522,7 @@ Ainsi, en Chine, la valeur monétaire était totalement fiduciaire et reposait s
 
 L'État chinois utilisait la monnaie comme un instrument de régulation économique : en période d'abondance monétaire, la valeur de la monnaie diminuait, facilitant l'achat par les populations, tandis qu'en période de pénurie monétaire, celle-ci gagnait en valeur, renforçant ainsi le pouvoir d'achat étatique pour ses prochaines opérations.
 
-On peut faire ici un lien avec l'inflation et la déflation. Lorsqu’on a une masse monétaire fixe, si on augmente la productivité de l’économie, la valeur de la monnaie monte. Si la productivité baisse, la valeur de monnaie diminue. Mais par contre, dans cet exemple ci-haut, c'est un peu l'inverse. Probablement parce que le Prince n’avait pas un monopole complet sur la production de la monnaie, mais ça dénote quand même une notion que la valeur de la monnaie était liée aux conditions économiques.
+On peut faire ici un lien avec [l'inflation](https://planb.academy/resources/glossary/inflation) et la déflation. Lorsqu’on a une masse monétaire fixe, si on augmente la productivité de l’économie, la valeur de la monnaie monte. Si la productivité baisse, la valeur de monnaie diminue. Mais par contre, dans cet exemple ci-haut, c'est un peu l'inverse. Probablement parce que le Prince n’avait pas un monopole complet sur la production de la monnaie, mais ça dénote quand même une notion que la valeur de la monnaie était liée aux conditions économiques.
 
 Le philosophe Mo Di (Ve-IVe siècle av. J.-C.) avait déjà analysé cette relation entre prix et valeur : selon lui, les variations des prix ne reflètent pas une réelle notion de bon marché ou de cherté absolue, mais plutôt un rapport fluctuant entre biens et monnaie, indépendamment de la valeur nominale stable du signe monétaire.
 
@@ -1850,7 +1850,7 @@ Est-ce que la monnaie émane bien d'une marchandise qui émerge du besoin d'éch
 
 Déplaçons-nous maintenant en Suède où la toute première banque centrale fut créée.
 
-**La Suède** fut pionnière en matière de banque centrale : en 1657, Johan Palmstruch créa le **Stockholm Banco**, autorisé à prêter plus que ses réserves en métal, donc ici on a la naissance de la réserve fractionnaire. Mais l’émission excessive de billets provoqua une panique et une ruée vers la banque dès 1663\. Tiens tiens ..
+**La Suède** fut pionnière en matière de banque centrale : en 1657, Johan Palmstruch créa le **Stockholm Banco**, autorisé à prêter plus que ses réserves en métal, donc ici on a la naissance de la [réserve fractionnaire](https://planb.academy/resources/glossary/fractional-reserves). Mais l’émission excessive de billets provoqua une panique et une ruée vers la banque dès 1663\. Tiens tiens ..
 
 En 1668, pour pallier ces dérives, Riksens Ständers Bank, la première banque centrale du monde, fut fondée à Stockholm. Toutefois, elle aussi subit des crises (1709, 1715…) liées à l’abus de billets, souvent pour financer les guerres du royaume.
 

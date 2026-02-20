@@ -1,5 +1,6 @@
 ---
 term: P2SH-P2WPKH
+definition: 為了兼容性而包裝在 P2SH 中的 SegWit 腳本 (P2WPKH)，地址以 3 開頭。
 ---
 
 P2SH-P2WPKH 代表 * 付費給腳本 Hash - 付費給見證公開金鑰 Hash*。它是一個標準的腳本模式，用來建立 UTXO 的支出條件，也稱為「巢狀 SegWit」。

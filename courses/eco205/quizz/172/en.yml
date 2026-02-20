@@ -1,0 +1,8 @@
+question: According to the Kantian philosophy that influences Austrian praxeology, to which category does the axiom of human action belong?
+answer: To a priori synthetic propositions whose truth is established without empirical observation
+wrong_answers:
+  - "To a posteriori analytical proposals derived from market experience"
+  - "To a posteriori synthetic proposals based on behavioral observation"
+  - To a priori analytical propositions derived from pure logical definitions
+explanation: |
+  Hans-Hermann Hoppe points out that Mises can be called a Kantian precisely because he subscribes to the existence of a priori true synthetic propositions. The axiom of human action belongs to this specific category, where truth value can be established without recourse to empirical observation, unlike a posteriori propositions that depend on experience, or analytic propositions that are true by definition.

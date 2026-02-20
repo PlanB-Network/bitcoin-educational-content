@@ -1,0 +1,9 @@
+question: Trong một giao dịch Bitcoin, các đầu vào (inputs) tiêu thụ cái gì?
+answer: Các UTXO hiện có
+wrong_answers:
+  - Các đầu ra (outputs) tương lai
+  - Các khối hiện có
+  - Các địa chỉ tương lai
+explanation: |
+  Một đầu vào tham chiếu đến một đầu ra chưa chi tiêu từ một giao dịch trước đó, được gọi là UTXO.
+reviewed: false

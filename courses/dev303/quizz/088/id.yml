@@ -1,0 +1,8 @@
+question: Tantangan mendasar apa yang dihadapi UniFFI dalam pengembangan lintas platform ketika bekerja dengan pustaka Rust?
+answer: Kebutuhan untuk membuat kode pengikatan khusus secara manual untuk setiap bahasa target ketika mengekspos FFI tingkat rendah Rust
+wrong_answers:
+  - Ketidakmampuan Rust untuk mengkompilasi ke binari asli yang dapat berjalan di beberapa sistem operasi
+  - Kurangnya jaminan keamanan memori ketika kode Rust berinteraksi dengan bahasa yang mengumpulkan sampah
+  - "Biaya tambahan kinerja yang muncul saat menerjemahkan model kepemilikan Rust ke bahasa yang dihitung berdasarkan referensi"
+explanation: |
+  UniFFI secara khusus memecahkan masalah penulisan kode pengikatan secara manual untuk setiap bahasa target. Ketika Rust dikompilasi menjadi keluaran biner, ia menghasilkan Fungsi Asing Interface (FFI) yang tingkatnya rendah dan sulit untuk digunakan secara langsung dari bahasa yang lebih tinggi. Secara tradisional, pengembang harus menulis kode pengikatan khusus untuk setiap bahasa target (Python, Swift, Kotlin, dll.), sehingga menciptakan hambatan yang signifikan untuk diadopsi. UniFFI menghilangkan redundansi ini dengan secara otomatis menghasilkan binding ini melalui sistem spesifikasi UDL.

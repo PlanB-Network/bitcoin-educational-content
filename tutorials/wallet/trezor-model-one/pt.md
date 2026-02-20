@@ -77,7 +77,7 @@ A navegação no dispositivo é muito simples:
 
 
 
-Neste tutorial, vou mostrar-lhe como utilizar o Trezor Model One com o [software de gestão de carteiras Sparrow Wallet] (https://sparrowwallet.com/download/). Se ainda não instalou este software, faça-o agora. Se precisar de ajuda, também temos um tutorial detalhado sobre a configuração do Sparrow Wallet :
+Neste tutorial, vou mostrar-lhe como utilizar o Trezor Model One com o [software de gestão de carteiras Sparrow Wallet](https://sparrowwallet.com/download/). Se ainda não instalou este software, faça-o agora. Se precisar de ajuda, também temos um tutorial detalhado sobre a configuração do Sparrow Wallet :
 
 
 
@@ -87,7 +87,7 @@ Também é necessário o software Trezor Suite para configurar o Model One, veri
 
 
 
-[Descarregar o Trezor Suite a partir do sítio Web oficial] (https://trezor.io/trezor-suite)
+[Descarregar o Trezor Suite a partir do sítio Web oficial](https://trezor.io/trezor-suite)
 
 
 
@@ -307,7 +307,7 @@ O software Trezor Suite já não é necessário, exceto para atualizar regularme
 
 
 
-Comece por descarregar e instalar o Sparrow Wallet [a partir do site oficial] (https://sparrowwallet.com/) no seu computador, caso ainda não o tenha feito.
+Comece por descarregar e instalar o Sparrow Wallet [a partir do site oficial](https://sparrowwallet.com/) no seu computador, caso ainda não o tenha feito.
 
 
 
@@ -501,7 +501,7 @@ Selecionar o montante a enviar para este Address.
 
 
 
-Ajuste a taxa da sua transação de acordo com o mercado atual. Por exemplo, pode utilizar [Mempool.space] (https://Mempool.space/) para escolher uma taxa de comissão adequada.
+Ajuste a taxa da sua transação de acordo com o mercado atual. Por exemplo, pode utilizar [Mempool.space](https://Mempool.space/) para escolher uma taxa de comissão adequada.
 
 
 

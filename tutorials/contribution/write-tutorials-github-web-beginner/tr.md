@@ -16,7 +16,7 @@ Sende zaten var:
 
 
 - Eğitiminiz için bir tema seçin;
-- Plan ₿ Academy ekibiyle [Telegram grubu] (https://t.me/PlanBNetwork_ContentBuilder) veya paolo@planb.network üzerinden iletişime geçin;
+- Plan ₿ Academy ekibiyle [Telegram grubu](https://t.me/PlanBNetwork_ContentBuilder) veya paolo@planb.network üzerinden iletişime geçin;
 - Katkı araçlarınızı seçin.
 
 
@@ -197,7 +197,7 @@ reward:
 
 
 
-- **project_id**: Eğitimde sunulan aracın arkasındaki şirket veya kuruluşun UUID'si [proje listesinden] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Örneğin, Green Wallet yazılımı hakkında bir eğitim oluşturuyorsanız, bu `project_id`yi aşağıdaki dosyada bulabilirsiniz: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Bu bilgi öğreticinizin YAML dosyasına eklenir çünkü Plan ₿ Academy, Bitcoin veya ilgili projeler üzerinde faaliyet gösteren tüm şirket ve kuruluşların bir veritabanını tutar. Öğreticinize bağlı varlığın `project_id` bilgisini ekleyerek, iki Elements arasında bir bağlantı oluşturursunuz;
+- **project_id**: Eğitimde sunulan aracın arkasındaki şirket veya kuruluşun UUID'si [proje listesinden](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Örneğin, Green Wallet yazılımı hakkında bir eğitim oluşturuyorsanız, bu `project_id`yi aşağıdaki dosyada bulabilirsiniz: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Bu bilgi öğreticinizin YAML dosyasına eklenir çünkü Plan ₿ Academy, Bitcoin veya ilgili projeler üzerinde faaliyet gösteren tüm şirket ve kuruluşların bir veritabanını tutar. Öğreticinize bağlı varlığın `project_id` bilgisini ekleyerek, iki Elements arasında bir bağlantı oluşturursunuz;
 
 
 
@@ -442,7 +442,7 @@ Assets` klasöründeki dil alt klasörü (benim örneğimde: `/assets/en`) eğit
 Resimlerinizi adlandırmak için, öğreticideki görünüm sıralarına karşılık gelen numaraları iki basamaklı olarak biçimlendirilmiş şekilde kullanın (veya öğreticiniz 99'dan fazla resim içeriyorsa üç basamaklı). Örneğin, ilk resminizi `01.webp`, ikincisini `02.webp` olarak adlandırın ve bu şekilde devam edin.
 
 
-Resimleriniz sadece `.webp` formatında olmalıdır. Gerekirse, [görüntü dönüştürme yazılımımı] (https://github.com/LoicPandul/ImagesConverter) kullanabilirsiniz.
+Resimleriniz sadece `.webp` formatında olmalıdır. Gerekirse, [görüntü dönüştürme yazılımımı](https://github.com/LoicPandul/ImagesConverter) kullanabilirsiniz.
 
 
 ![GITHUB](assets/fr/32.webp)
@@ -489,7 +489,7 @@ Kendi şemalarınızı oluşturmak isterseniz, görsel tutarlılığı sağlamak
 **Eğitimlerinize entegre edilen tüm görsellerin telif hakkı içermemesi veya kaynak dosya lisansına uyması zorunludur**. Bu nedenle, Plan ₿ Academy'te yayınlanan tüm diyagramlar, metinle aynı şekilde CC-BY-SA lisansı altında kullanıma sunulmaktadır.
 
 
-**-> İpucu:** Görüntüler gibi dosyaları herkese açık olarak paylaşırken, gereksiz meta verileri kaldırmak önemlidir. Bunlar konum verileri, oluşturma tarihleri ve yazar ayrıntıları gibi hassas bilgiler içerebilir. Gizliliğinizi korumak için bu meta verileri kaldırmak iyi bir fikirdir. Bu işlemi basitleştirmek için, bir belgenin meta verilerini basit bir sürükle ve bırak ile temizlemenizi sağlayan [Exif Cleaner] (https://exifcleaner.com/) gibi özel araçları kullanabilirsiniz.
+**-> İpucu:** Görüntüler gibi dosyaları herkese açık olarak paylaşırken, gereksiz meta verileri kaldırmak önemlidir. Bunlar konum verileri, oluşturma tarihleri ve yazar ayrıntıları gibi hassas bilgiler içerebilir. Gizliliğinizi korumak için bu meta verileri kaldırmak iyi bir fikirdir. Bu işlemi basitleştirmek için, bir belgenin meta verilerini basit bir sürükle ve bırak ile temizlemenizi sağlayan [Exif Cleaner](https://exifcleaner.com/) gibi özel araçları kullanabilirsiniz.
 
 
 ## 9 - Öğreticiyi önerin
@@ -543,4 +543,4 @@ PR'nizi gönderdikten sonra katkınızda değişiklik yapmak isterseniz, izlenec
 - PR'nizin ana dalla zaten birleştirilmiş olması durumunda, yeni bir dal oluşturarak ve ardından yeni bir PR göndererek işlemi baştan yapmanız gerekecektir. Devam etmeden önce Fork'ünüzün `dev' dalındaki Plan ₿ Academy kaynak deposu ile senkronize olduğundan emin olun.
 
 
-Öğreticinizi gönderirken teknik zorluklar yaşıyorsanız, lütfen [katkılar için özel Telegram grubumuz] (https://t.me/PlanBNetwork_ContentBuilder) üzerinden yardım istemekten çekinmeyin. Çok teşekkür ederim!
+Öğreticinizi gönderirken teknik zorluklar yaşıyorsanız, lütfen [katkılar için özel Telegram grubumuz](https://t.me/PlanBNetwork_ContentBuilder) üzerinden yardım istemekten çekinmeyin. Çok teşekkür ederim!

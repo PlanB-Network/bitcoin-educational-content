@@ -1,0 +1,9 @@
+question: Secondo la teoria della conoscenza dispersa di Hayek, perché le economie pianificate centralmente non riescono a ottenere un'allocazione efficiente delle risorse rispetto ai sistemi di libero mercato?
+answer: I pianificatori centrali non possono accedere alle conoscenze frammentate e localizzate che solo i singoli partecipanti al mercato possiedono sulle loro specifiche esigenze, preferenze e circostanze
+wrong_answers:
+  - I pianificatori centrali non dispongono della potenza di calcolo e degli algoritmi avanzati necessari per elaborare tutti i dati economici richiesti per l'allocazione ottimale delle risorse
+  - I pianificatori centrali sono intrinsecamente corrotti ed egoisti, e privilegiano il loro guadagno personale rispetto al benessere della società nel suo complesso
+  - I pianificatori centrali sono ideologicamente prevenuti e si rifiutano di implementare soluzioni basate sul mercato, anche quando ne riconoscono la superiore efficienza
+explanation: |
+  L'intuizione fondamentale di Hayek sulla conoscenza dispersa rivela che le informazioni sulle preferenze individuali, sulle condizioni locali e sulle valutazioni soggettive esistono solo in forma frammentata tra milioni di individui. Questa conoscenza non può essere raccolta o aggregata a livello centrale perché è tacita, in continuo cambiamento e spesso contraddittoria. I mercati liberi risolvono questo problema attraverso il meccanismo dei prezzi, che coordina spontaneamente queste informazioni disperse attraverso scambi volontari.
+  Le altre opzioni si concentrano erroneamente sui limiti tecnici, sulle carenze morali o sui pregiudizi ideologici, piuttosto che sul problema epistemologico centrale, ovvero che nessuna autorità centrale può possedere la conoscenza distribuita necessaria per un coordinamento efficiente.

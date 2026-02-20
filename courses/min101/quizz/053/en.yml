@@ -1,0 +1,9 @@
+question: Before being added to the blockchain, what are transactions grouped into?
+answer: In a block
+wrong_answers:
+  - In a UTXO
+  - In an ASIC
+  - In a scriptSig
+explanation: |
+  The transaction is not written instantly to the blockchain. It is first included into a block.
+reviewed: true

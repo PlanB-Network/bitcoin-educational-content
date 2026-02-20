@@ -1,5 +1,6 @@
 ---
-term: FORCE CLOSE
+term: Tvungen lukking
+definition: Ensidig stenging av en Lightning-kanal ved å kringkaste den siste signerte forpliktelsestransaksjonen.
 ---
 
 Ikke-samarbeidende mekanisme for stenging av Lightning-kanaler. Når to brukere åpner en kanal med en Multisig 2/2, kan hver av dem ensidig stenge kanalen ved å kringkaste den siste Commitment Transaction som allerede har blitt signert, for å få tilbake sine bitcoins i kjeden. Dette er kjent som "force close".

@@ -11,7 +11,7 @@ objectives:
 
 Hva kreves for å bygge på Bitcoin? Dette 20-timers kurset tar deg under overflaten av Bitcoin og Lightning Network, og utforsker protokollene som driver verdens mest motstandsdyktige finansielle infrastruktur. Enten du ønsker å bidra til åpen kildekode-prosjekter eller bygge neste generasjon Bitcoin-applikasjoner, vil du få den tekniske dybden som trengs for å begynne å jobbe selvsikkert i dette økosystemet.
 
-Innspilt under CUBO+ 2023 bootcamp i El Salvador, samler dette kurset perspektiver fra ledende Bitcoin-utviklere og undervisere som har formet teknologien. Det beste? Det er helt gratis, gjort mulig av Fulgure Venture, Bitcoin Office og DecouvreBitcoin. Hvis du har vært nysgjerrig på hvordan Bitcoin virkelig fungerer på protokollnivå, er dette din sjanse til å finne ut av det.
+Innspilt under CUBO+ 2023 bootcamp i El Salvador, samler dette kurset perspektiver fra ledende Bitcoin-utviklere og undervisere som har formet teknologien. Det beste? Det er helt gratis, gjort mulig av Fulgure Ventures, Bitcoin Office og DecouvreBitcoin. Hvis du har vært nysgjerrig på hvordan Bitcoin virkelig fungerer på protokollnivå, er dette din sjanse til å finne ut av det.
 +++
 # Introduksjon og forberedende kurs
 
@@ -59,7 +59,7 @@ Gjennom hele kurset vil deltakerne benytte seg av viktige verktøy som vil hjelp
 
 :::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
-Velkommen til den første forelesningen i **Cubo Plus** utdanningsprogram. I dag dykker vi ned i Bitcoin-verdenen, ledet av Ricky, grunnleggeren av **Bitcoin Italia Podcast**. Ricky er en lidenskapelig menneskerettighetsaktivist som bruker Bitcoin som et verktøy for å beskytte og fremme menneskerettighetene. Med over seks års erfaring har Ricky reist mye rundt og dokumentert Bitcoin-innføring i fremvoksende markeder som El Salvador og Guatemala. Han er også aktiv på YouTube (**Bitcoin Explorers**) og Twitter (**BTC Explorer**, **Ricky6**). Rickys Commitment til Bitcoin stammer fra hans tro på at det tilbyr økonomisk frihet og personvern, og utfordrer tradisjonelle, sentraliserte banksystemer.
+Velkommen til den første forelesningen i **Cubo Plus** utdanningsprogram. I dag dykker vi ned i Bitcoin-verdenen, ledet av Rikki, grunnleggeren av **Bitcoin Italia Podcast**. Rikki er en lidenskapelig menneskerettighetsaktivist som bruker Bitcoin som et verktøy for å beskytte og fremme menneskerettighetene. Med over seks års erfaring har Rikki reist mye rundt og dokumentert Bitcoin-innføring i fremvoksende markeder som El Salvador og Guatemala. Han er også aktiv på YouTube (**Bitcoin Explorers**) og Twitter (**BTC Explorer**, **Rikki6**). Rikkis Commitment til Bitcoin stammer fra hans tro på at det tilbyr økonomisk frihet og personvern, og utfordrer tradisjonelle, sentraliserte banksystemer.
 
 
 ![Unbanked Population](assets/en/001.webp)
@@ -70,30 +70,30 @@ _The Global Unbanked Population_ _Den globale befolkningen uten bank
 ### Bitcoin: økonomisk frihet og dens innvirkning på El Salvador
 
 
-Dette foredraget, **"Hvorfor El Salvador trenger Bitcoin"**, gir en oversikt over **Bitcoin-protokollen**, dens røtter i **Cypherpunk-bevegelsen**, og dens rolle som et verktøy for å muliggjøre **usensurerte penger**, **finansiell inkludering** og mye mer.
+Dette foredraget, **"Hvorfor El Salvador trenger Bitcoin"**, gir en oversikt over **Bitcoin-protokollen**, dens røtter i **[Cypherpunk-bevegelsen](https://planb.academy/resources/glossary/cypherpunks)**, og dens rolle som et verktøy for å muliggjøre **usensurerte penger**, **finansiell inkludering** og mye mer.
 
 
 **Definisjoner:**
 
 
 - _Bitcoin-protokollen:_ Reglene og strukturen som styrer hvordan Bitcoin fungerer som en desentralisert digital valuta.
-- _Cypherpunk-bevegelsen:_ En gruppe som tar til orde for bruk av kryptografi for å sikre personvern og frihet i digitale rom.
+- _Cypherpunk-bevegelsen:_ En gruppe som tar til orde for bruk av [kryptografi](https://planb.academy/resources/glossary/cryptography) for å sikre personvern og frihet i digitale rom.
 - _Finansiell inkludering:_ Å gi tilgang til finansielle tjenester for mennesker som har vært ekskludert fra tradisjonelle banksystemer, ofte omtalt som "de som ikke har bank"
 - usensurerte penger: Penger som ikke kan kontrolleres eller begrenses av myndigheter eller finansinstitusjoner.
 
-#### Rickys bakgrunn og Bitcoin-engasjement
+#### Rikkis bakgrunn og Bitcoin-engasjement
 
 
-Rickys reise inn i Bitcoin er forankret i hans arbeid som menneskerettighetsforkjemper. Han mener at Bitcoin kan gi enkeltpersoner kontroll over økonomien sin, slik at de kan beskytte personvernet sitt og unngå begrensningene til sentraliserte banker. Hans utforskning av hvordan Bitcoin har blitt tatt i bruk på steder som El Salvador, viser hvordan denne teknologien kan gi mennesker i fremvoksende markeder mulighet til å oppnå økonomisk uavhengighet.
+Rikkis reise inn i Bitcoin er forankret i hans arbeid som menneskerettighetsforkjemper. Han mener at Bitcoin kan gi enkeltpersoner kontroll over økonomien sin, slik at de kan beskytte personvernet sitt og unngå begrensningene til sentraliserte banker. Hans utforskning av hvordan Bitcoin har blitt tatt i bruk på steder som El Salvador, viser hvordan denne teknologien kan gi mennesker i fremvoksende markeder mulighet til å oppnå økonomisk uavhengighet.
 
 
 ### Den globale betydningen av og utfordringene med Bitcoin
 
 
-Bitcoin er mye mer enn bare en digital valuta. Det er et verktøy for å beskytte personvernet og sikre økonomisk frihet. Ved å bruke **private nøkler**, som fungerer som hovedpassord, kan brukerne administrere Bitcoin på en sikker måte og ha full kontroll over midlene sine.
+Bitcoin er mye mer enn bare en digital valuta. Det er et verktøy for å beskytte personvernet og sikre økonomisk frihet. Ved å bruke **[private nøkler](https://planb.academy/resources/glossary/private-key)**, som fungerer som hovedpassord, kan brukerne administrere Bitcoin på en sikker måte og ha full kontroll over midlene sine.
 
 
-I autoritære regimer, der økonomisk undertrykkelse er vanlig, gjør Bitcoins **ikke-sensoriske natur** det mulig for folk å gjøre transaksjoner uten frykt for at midlene deres blir frosset eller konfiskert. Den **åpne kilden** oppmuntrer til global deltakelse og fremmer et fellesskap som kontinuerlig forbedrer nettverket.
+I autoritære regimer, der økonomisk undertrykkelse er vanlig, gjør Bitcoins **ikke-sensoriske natur** det mulig for folk å gjøre [transaksjoner](https://planb.academy/resources/glossary/transaction-tx) uten frykt for at midlene deres blir frosset eller konfiskert. Den **[åpne kilden](https://planb.academy/resources/glossary/foss)** oppmuntrer til global deltakelse og fremmer et fellesskap som kontinuerlig forbedrer nettverket.
 
 
 ![Image](assets/en/002.webp)
@@ -143,7 +143,7 @@ Oppsummert kan vi si at Bitcoin er en lovende løsning for økonomisk myndiggjø
 #### Østerriksk økonomi
 
 
-Samtidig la **Østerriksk økonomi** grunnlaget for Bitcoins monetære prinsipper. Økonomer som **Ludwig von Mises** og **Friedrich Hayek** argumenterte for at sunne penger skulle være knappe, holdbare og et godt verdioppbevaringsmiddel - kjerneprinsipper som formet utformingen av Bitcoin.
+Samtidig la **[Østerriksk økonomi](https://planb.academy/resources/glossary/austrian-school)** grunnlaget for Bitcoins monetære prinsipper. Økonomer som **Ludwig von Mises** og **Friedrich Hayek** argumenterte for at sunne penger skulle være knappe, holdbare og et godt verdioppbevaringsmiddel - kjerneprinsipper som formet utformingen av Bitcoin.
 
 
 **Definisjon:**
@@ -221,7 +221,7 @@ Takk for at du engasjerer deg i dette materialet!
 
 :::video id=2c008198-7f4e-4e60-87a0-0af17528ad2f:::
 
-I den første forelesningen i kurset "Hvordan Bitcoin" begynte vi å utforske teknologistakken som ligger til grunn for Bitcoin-nettverket. Vi gikk gjennom emner som **Hashcash**, **transaksjoner**, **Blockchain**, **Lightning Network** og andre nøkkelkomponenter i Bitcoin-protokollen.
+I den første forelesningen i kurset "Hvordan Bitcoin" begynte vi å utforske teknologistakken som ligger til grunn for Bitcoin-nettverket. Vi gikk gjennom emner som **Hashcash**, **transaksjoner**, **[Blockchain](https://planb.academy/resources/glossary/blockchain)**, **[Lightning Network](https://planb.academy/resources/glossary/lightning-network)** og andre nøkkelkomponenter i Bitcoin-protokollen.
 
 
 ### Bitcoins teknologiske stabel del 2
@@ -234,13 +234,13 @@ Under den andre forelesningen av "How Bitcoin" gikk vi mer i dybden på Bitcoins
 ### Bitcoin-struktur
 
 
-Opprinnelsen til Bitcoin er basert på flere viktige innovasjoner, som starter med **Adam Backs Hashcash**, et Proof-of-Work-system (PoW) som er utviklet for å forhindre e-postspam og tjenestenektangrep ved å kreve at avsendere fullfører beregningsoppgaver. Dette PoW-konseptet ble en hjørnestein i Bitcoins sikkerhet.
+Opprinnelsen til Bitcoin er basert på flere viktige innovasjoner, som starter med **Adam Backs Hashcash**, et [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work)-system (PoW) som er utviklet for å forhindre e-postspam og tjenestenektangrep ved å kreve at avsendere fullfører beregningsoppgaver. Dette PoW-konseptet ble en hjørnestein i Bitcoins sikkerhet.
 
 
-Bitcoin er avhengig av **digitale signaturer** som bruker **elliptisk kurvekryptografi** for å sikre og verifisere transaksjoner. Den **Elliptic Curve Digital Signature Algorithm (ECDSA)** sikrer at bare den rettmessige eieren av Bitcoin kan godkjenne transaksjoner uten å avsløre sine private nøkler.
+Bitcoin er avhengig av **[digitale signaturer](https://planb.academy/resources/glossary/digital-signature)** som bruker **elliptisk kurvekryptografi** for å sikre og verifisere transaksjoner. Den **Elliptic Curve Digital Signature Algorithm ([ECDSA](https://planb.academy/resources/glossary/ecdsa))** sikrer at bare den rettmessige eieren av Bitcoin kan godkjenne transaksjoner uten å avsløre sine private nøkler.
 
 
-**Satoshi Nakamoto**, Bitcoins pseudonyme opphavsmann, videreutviklet disse ideene ved å overføre PoW-modellen til en desentralisert **Blockchain**. Dette gjorde det mulig for et distribuert nettverk av noder å validere og registrere transaksjoner uten en sentral myndighet, noe som markerte en betydelig utvikling fra tidligere forsøk på digital valuta.
+**Satoshi Nakamoto**, Bitcoins pseudonyme opphavsmann, videreutviklet disse ideene ved å overføre PoW-modellen til en desentralisert **Blockchain**. Dette gjorde det mulig for et distribuert nettverk av [noder](https://planb.academy/resources/glossary/node) å validere og registrere transaksjoner uten en sentral myndighet, noe som markerte en betydelig utvikling fra tidligere forsøk på digital valuta.
 
 
 **Definisjoner:**
@@ -252,16 +252,16 @@ Bitcoin er avhengig av **digitale signaturer** som bruker **elliptisk kurvekrypt
 ### Blockchain-mekanikk og transaksjonsvalidering
 
 
-Bitcoin-transaksjoner valideres og legges til i blokker av **miners**, som konkurrerer om å løse et kryptografisk puslespill ved hjelp av Proof-of-Work-algoritmen. Dette innebærer å finne en Hash med et bestemt antall ledende nuller ved å justere en **Nonce**-verdi til den riktige Hash er oppdaget.
+Bitcoin-transaksjoner valideres og legges til i blokker av **miners**, som konkurrerer om å løse et kryptografisk puslespill ved hjelp av Proof-of-Work-algoritmen. Dette innebærer å finne en [Hash](https://planb.academy/resources/glossary/hash-function) med et bestemt antall ledende nuller ved å justere en **[Nonce](https://planb.academy/resources/glossary/nonce)**-verdi til den riktige Hash er oppdaget.
 
 
-Hver **blokk** i Blockchain består av en **header** (med data som den forrige blokkens Hash) og en liste over transaksjoner. Den første blokken, kjent som **Genesis-blokken**, er unik fordi den ikke har noen forgjenger.
+Hver **[blokk](https://planb.academy/resources/glossary/block)** i Blockchain består av en **[header](https://planb.academy/resources/glossary/block-header)** (med data som den forrige blokkens Hash) og en liste over transaksjoner. Den første blokken, kjent som **[Genesis-blokken](https://planb.academy/resources/glossary/genesis-block)**, er unik fordi den ikke har noen forgjenger.
 
 
 ![Image](assets/en/004.webp)
 
 
-Før transaksjonene inkluderes i en blokk, befinner de seg i **Mempool**, der de venter på validering. Når de er validert, blir transaksjonene lagt til i den nylig utvunnede blokken og deretter i Blockchain.
+Før transaksjonene inkluderes i en blokk, befinner de seg i **[Mempool](https://planb.academy/resources/glossary/mempool)**, der de venter på validering. Når de er validert, blir transaksjonene lagt til i den nylig utvunnede blokken og deretter i Blockchain.
 
 
 **Definisjoner:**
@@ -274,13 +274,13 @@ Før transaksjonene inkluderes i en blokk, befinner de seg i **Mempool**, der de
 ### Skalerbarhet, personvern og utvikling i Bitcoin
 
 
-Bitcoin står overfor utfordringer knyttet til skalerbarhet og personvern. Den begrensede transaksjonskapasiteten til Blockchain gjør det vanskelig å håndtere store transaksjonsvolumer. Løsninger som **Lightning Network** Address løser disse utfordringene ved å muliggjøre off-chain-transaksjoner gjennom betalingskanaler, noe som øker hastigheten og personvernet.
+Bitcoin står overfor utfordringer knyttet til skalerbarhet og personvern. Den begrensede transaksjonskapasiteten til Blockchain gjør det vanskelig å håndtere store transaksjonsvolumer. Løsninger som **Lightning Network** Address løser disse utfordringene ved å muliggjøre off-chain-transaksjoner gjennom [betalingskanaler](https://planb.academy/resources/glossary/payment-channel), noe som øker hastigheten og personvernet.
 
 
-Å kjøre en **Full node** er avgjørende for å sikre desentralisering og sikkerhet, men **Simplified Payment Verification (SPV)-noder** tillater lettere deltakelse på bekostning av noe sikkerhet.
+Å kjøre en **[Full node](https://planb.academy/resources/glossary/full-node)** er avgjørende for å sikre desentralisering og sikkerhet, men **Simplified Payment Verification (SPV)-noder** tillater lettere deltakelse på bekostning av noe sikkerhet.
 
 
-Bitcoin har blitt utviklet for å forbedre ytelse og sikkerhet. Blant de viktigste oppgraderingene er **Segregated Witness (SegWit)**, som tar for seg transaksjonsfeil og øker den effektive blokkstørrelsen, og **Taproot**, som forbedrer personvernet og gir mulighet for mer komplekse kontrakter ved hjelp av **Merkleized Abstract Syntax Trees (MAST)**.
+Bitcoin har blitt utviklet for å forbedre ytelse og sikkerhet. Blant de viktigste oppgraderingene er **Segregated Witness ([SegWit](https://planb.academy/resources/glossary/segwit))**, som tar for seg transaksjonsfeil og øker den effektive blokkstørrelsen, og **[Taproot](https://planb.academy/resources/glossary/taproot)**, som forbedrer personvernet og gir mulighet for mer komplekse kontrakter ved hjelp av **Merkleized Abstract Syntax Trees (MAST)**.
 
 
 **Definisjoner:**
@@ -307,7 +307,7 @@ Bitcoins struktur og pågående utvikling viser teknologiens innovasjon og tilpa
 
 :::video id=c5e2e575-fa9d-4430-805f-205c2cf6f2a5:::
 
-I dette foredraget avliver vi vanlige myter rundt **Bitcoin**, **blokkjeder** og **kryptovalutaer**. La oss Address misoppfatninger om Bitcoins energiforbruk, kriminell bruk og den bredere "FUD" (frykt, usikkerhet, tvil) som spres om denne teknologien.
+I dette foredraget avliver vi vanlige myter rundt **Bitcoin**, **blokkjeder** og **[kryptovalutaer](https://planb.academy/resources/glossary/cryptocurrency)**. La oss Address misoppfatninger om Bitcoins energiforbruk, kriminell bruk og den bredere "FUD" (frykt, usikkerhet, tvil) som spres om denne teknologien.
 
 
 ### Bitcoin vs. Blockchain
@@ -325,7 +325,7 @@ En vanlig misforståelse er at **Bitcoin** og **Blockchain** er det samme. Mens 
 ### Bitcoin vs. Crypto
 
 
-En annen viktig forskjell er at **Bitcoin** ble opprettet med det ene formålet å tilby en desentralisert, sensurresistent form for penger, uten kontroll fra noe selskap eller noen myndighet. I motsetning til dette er kryptovalutaer **shitcoins** ofte designet med sentralisert kontroll, og eksisterer først og fremst for å berike selskapene bak dem gjennom rovpraksis, pump-and-dump-ordninger eller regelrett svindel. Disse tokens tjener vanligvis ikke noe genuint formål utover å gi skaperne en rask fortjeneste på bekostning av uinformerte investorer. Bitcoin står imidlertid alene som den eneste virkelig desentraliserte digitale valutaen med dokumentert sikkerhet og robusthet.
+En annen viktig forskjell er at **Bitcoin** ble opprettet med det ene formålet å tilby en desentralisert, sensurresistent form for penger, uten kontroll fra noe selskap eller noen myndighet. I motsetning til dette er kryptovalutaer **[shitcoins](https://planb.academy/resources/glossary/shitcoin)** ofte designet med sentralisert kontroll, og eksisterer først og fremst for å berike selskapene bak dem gjennom rovpraksis, pump-and-dump-ordninger eller regelrett svindel. Disse tokens tjener vanligvis ikke noe genuint formål utover å gi skaperne en rask fortjeneste på bekostning av uinformerte investorer. Bitcoin står imidlertid alene som den eneste virkelig desentraliserte digitale valutaen med dokumentert sikkerhet og robusthet.
 
 
 **Definisjoner:**
@@ -339,7 +339,7 @@ En annen viktig forskjell er at **Bitcoin** ble opprettet med det ene formålet 
 ### Energiforbruk og miljøpåvirkning
 
 
-En av de vanligste kritikkene mot Bitcoin er dens **energiforbruk**. Selv om Bitcoin Mining bruker energi, står den for mindre enn 1 % av det globale strømforbruket og mindre enn 3 % av den bortkastede energien. I tillegg utnytter **Bitcoin Mining** ofte ubrukte eller fornybare energikilder, noe som gjør den grønnere enn det som ofte fremstilles.
+En av de vanligste kritikkene mot Bitcoin er dens **energiforbruk**. Selv om Bitcoin [Mining](https://planb.academy/resources/glossary/mining) bruker energi, står den for mindre enn 1 % av det globale strømforbruket og mindre enn 3 % av den bortkastede energien. I tillegg utnytter **Bitcoin Mining** ofte ubrukte eller fornybare energikilder, noe som gjør den grønnere enn det som ofte fremstilles.
 
 
 **Definisjoner:**
@@ -356,7 +356,7 @@ Bitcoin blir ofte kritisert for å bli brukt i kriminelle aktiviteter. Blockchai
 ### Personvern og fungibilitet
 
 
-**Privatliv** og **fungibilitet** er viktige funksjoner i Bitcoin. Personvern beskytter brukere i undertrykkende regimer, og fungibilitet sikrer at alle Bitcoin er like, uavhengig av historikk. Dette gjør Bitcoin til en pålitelig og rettferdig form for penger.
+**Privatliv** og **[fungibilitet](https://planb.academy/resources/glossary/fungibility)** er viktige funksjoner i Bitcoin. Personvern beskytter brukere i undertrykkende regimer, og fungibilitet sikrer at alle Bitcoin er like, uavhengig av historikk. Dette gjør Bitcoin til en pålitelig og rettferdig form for penger.
 
 
 **Definisjoner:**
@@ -397,7 +397,7 @@ I den første forelesningen i den fjerde modulen utforsket vi Bitcoins arkitektu
 
 **1. Introduksjonsreferat**
 
-Velkommen tilbake! I forrige økt gikk vi gjennom de grunnleggende konseptene bak Bitcoin-arkitekturen, inkludert det kryptografiske grunnlaget og peer-to-peer-nettverksstrukturen. I dag går vi fra teori til praksis ved å demonstrere hvordan du installerer og konfigurerer en Bitcoin-node.
+Velkommen tilbake! I forrige økt gikk vi gjennom de grunnleggende konseptene bak Bitcoin-arkitekturen, inkludert det kryptografiske grunnlaget og [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p)-nettverksstrukturen. I dag går vi fra teori til praksis ved å demonstrere hvordan du installerer og konfigurerer en Bitcoin-node.
 
 
 **2. Praktisk oversikt over økten**
@@ -850,7 +850,7 @@ Det første trinnet i installasjonsprosessen vår innebærer å laste ned Spectr
 For å konfigurere Specter må du koble den til en Bitcoin core- eller Electrum-server. Disse serverne leverer de nødvendige Blockchain-dataene for Wallet-operasjoner. Konfigurasjonen innebærer å angi serverens Address i Spectreters innstillinger og sørge for en stabil tilkobling.
 
 
-**Forklarer avledningsstier og gjenfinning av offentlige nøkler**
+**Forklarer avledningsstier og gjenfinning av [offentlige nøkler](https://planb.academy/resources/glossary/public-key)**
 
 
 Å forstå avledningsstier er avgjørende for Wallet-administrasjon. Avledningsstier definerer hvordan nøkler genereres fra en hovednøkkel. I Specter kan du hente offentlige nøkler ved å koble til Hardware Wallet (eller emulatoren) og navigere gjennom Wallet Interface. Sørg for at du dokumenterer disse banene for fremtidig referanse.
@@ -1008,7 +1008,7 @@ Arbeidet med å forbedre brukervennligheten til Bitcoin går ofte på bekostning
 #### Avveininger mellom skalerbarhet og personvern
 
 
-Skalerbarhet og personvern står ofte i motsetning til hverandre i Bitcoin-nettverket. Forbedringer som øker skalerbarheten, for eksempel større UTXO-er eller redusert kryptografisk tilsløring, reduserer generelt personvernet. Omvendt forbedrer personvernfokuserte teknikker som Moneros ringsignaturer brukernes anonymitet, men påvirker skalerbarheten negativt. Innføringen av tilstandsbaserte kontrakter, som i Ethereum, gir dessuten økt fleksibilitet på bekostning av redusert sikkerhet og skalerbarhet. Å balansere disse avveiningene er en kompleks utfordring som krever nøye overveielser.
+Skalerbarhet og personvern står ofte i motsetning til hverandre i Bitcoin-nettverket. Forbedringer som øker skalerbarheten, for eksempel større [UTXO](https://planb.academy/resources/glossary/utxo)-er eller redusert kryptografisk tilsløring, reduserer generelt personvernet. Omvendt forbedrer personvernfokuserte teknikker som Moneros ringsignaturer brukernes anonymitet, men påvirker skalerbarheten negativt. Innføringen av tilstandsbaserte kontrakter, som i Ethereum, gir dessuten økt fleksibilitet på bekostning av redusert sikkerhet og skalerbarhet. Å balansere disse avveiningene er en kompleks utfordring som krever nøye overveielser.
 
 
 ### Teknikker for personvern
@@ -1144,7 +1144,7 @@ For å sikre valg kan man for eksempel implementere upartisk tilsyn eller overv�
 #### Bekreftelse av tillit
 
 
-Tillitsverifisering kan illustreres med PGP-verifisering (Pretty Good Privacy). Ved å verifisere fingeravtrykkene og signaturene til PGP-nøkler kan brukerne fastslå ektheten til digitale identiteter. Tilsvarende praksis er viktig for å verifisere programvareintegritet ved hjelp av Hash-matching (f.eks. SHA-256).
+Tillitsverifisering kan illustreres med PGP-verifisering (Pretty Good Privacy). Ved å verifisere fingeravtrykkene og signaturene til PGP-nøkler kan brukerne fastslå ektheten til digitale identiteter. Tilsvarende praksis er viktig for å verifisere programvareintegritet ved hjelp av Hash-matching (f.eks. [SHA-256](https://planb.academy/resources/glossary/sha256)).
 
 
 #### Etablering av tillitsveier
@@ -1260,7 +1260,7 @@ Velkommen! I dag skal vi dykke ned i de viktigste aspektene ved kryptografi som 
 ### Kryptografiske kjernekonsepter for Bitcoin-utviklere
 
 
-I denne delen går vi nærmere inn på de viktigste kryptografiske konseptene som er essensielle for Bitcoin -utviklere, inkludert Hash -funksjoner, Merkle-trær, digitale signaturer og elliptiske kurver.
+I denne delen går vi nærmere inn på de viktigste kryptografiske konseptene som er essensielle for Bitcoin -utviklere, inkludert Hash -funksjoner, [Merkle-trær](https://planb.academy/resources/glossary/merkle-tree), digitale signaturer og elliptiske kurver.
 
 
 ![Image](assets/en/014.webp)
@@ -1314,7 +1314,7 @@ I denne delen skal vi se nærmere på hvordan disse konseptene kan brukes i den 
 **Sikkerhetsmessige konsekvenser**: Historiske eksempler viser betydelige økonomiske tap på grunn av gjenbruk av Nonce. Det er avgjørende å forstå viktigheten av å generere unike nonces. Bruk av pålitelige biblioteker som LibSecP256k1 sikrer robuste og sikre kryptografiske operasjoner.
 
 
-**Elliptisk kurvekryptografi (ECC)**: Signaturordninger har utviklet seg fra identitetsprotokoller til ordninger som Schnorr-signaturer, som for tiden brukes i Bitcoin (BIP 340). Kunnskap om elliptiske kurver og aritmetikk med endelige felt sikrer sikre kryptografiske implementasjoner.
+**Elliptisk kurvekryptografi (ECC)**: Signaturordninger har utviklet seg fra identitetsprotokoller til ordninger som [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol)-signaturer, som for tiden brukes i Bitcoin ([BIP](https://planb.academy/resources/glossary/bip) 340). Kunnskap om elliptiske kurver og aritmetikk med endelige felt sikrer sikre kryptografiske implementasjoner.
 
 
 **Generelle råd til utviklere**: Kryptografiske protokoller må gjennomgå grundige fagfellevurderinger. Utviklere må være presise og forstå hvert trinn i kryptografiske prosedyrer fullt ut. Bevissthet om vanlige fallgruver i kryptografiske implementasjoner kan forhindre betydelige sårbarheter.
@@ -1470,7 +1470,7 @@ Mining kompleksitet i forbindelse med Bitcoin innebærer først og fremst de tek
 
 5. **Nettverksvansker**: Nettverksvanskelighetsgraden representerer hvor mye Hashrate som i gjennomsnitt trengs for å utvinne en blokk på 10 minutter.
 
-6. **Strategiske verktøy**: Verktøy som [braiins.com] (https://insights.braiins.com) er uvurderlige for å beregne lønnsomhet og hjelpe gruvearbeidere med å ta datadrevne beslutninger.
+6. **Strategiske verktøy**: Verktøy som [braiins.com](https://insights.braiins.com) er uvurderlige for å beregne lønnsomhet og hjelpe gruvearbeidere med å ta datadrevne beslutninger.
 
 
 #### Praktisk anvendelse
@@ -1556,7 +1556,7 @@ Regulering spiller en viktig rolle i utformingen av Mining-landskapet. For eksem
 
 1. **Tilgjengelighet og kostnader for maskinvare**: Prisen og tilgjengeligheten på ASIC-minere påvirkes av markedsprisen på Bitcoin. Høy etterspørsel i oppgangstider fører til knapphet og oppblåste priser.
 
-2. **Hash-verdi og Hash-pris**: Det er viktig å forstå forskjellen mellom Hash-verdi (satoshier tjent per terahash per dag) og Hash-pris (pengeverdien av Hash-raten). Begge påvirkes av nettverkets vanskelighetsgrad og Bitcoins markedspris.
+2. **Hash-verdi og Hash-pris**: Det er viktig å forstå forskjellen mellom Hash-verdi (satoshier tjent per terahash per dag) og Hash-pris (pengeverdien av Hash-raten). Begge påvirkes av nettverkets [vanskelighetsgrad](https://planb.academy/resources/glossary/difficulty) og Bitcoins markedspris.
 
 
 #### Mining-pooler og belønningsmekanismer
@@ -1979,7 +1979,7 @@ Legg til assertions for å verifisere at ingen byte ikke blir etterlatt uparsert
 #### Spesielle tilfeller som coinbase-transaksjoner
 
 
-Coinbase-transaksjoner, som er den første transaksjonen i en blokk som brukes til å kreve Block reward, har unike egenskaper. Vi må håndtere disse spesialtilfellene på riktig måte.
+[Coinbase](https://planb.academy/resources/glossary/coinbase-transaction)-transaksjoner, som er den første transaksjonen i en blokk som brukes til å kreve Block reward, har unike egenskaper. Vi må håndtere disse spesialtilfellene på riktig måte.
 
 
 ```Rust
@@ -2084,7 +2084,7 @@ Bruk av kompakte blokker brukes i dag for å effektivisere dataoverføringen mel
 #### Bruk av eksisterende biblioteker
 
 
-For konsensuskritiske applikasjoner anbefales det å bruke eksisterende biblioteker for å unngå feil og ivareta sikkerheten, for eksempel [Rust-Bitcoin] (https://docs.rs/Bitcoin/latest/Bitcoin/) eller [Bitcoin-dev-kit] (https://docs.rs/BDK/latest/BDK/). Det kan være lærerikt å implementere din egen parser, men det kan også være risikabelt i produksjonsmiljøer.
+For konsensuskritiske applikasjoner anbefales det å bruke eksisterende biblioteker for å unngå feil og ivareta sikkerheten, for eksempel [Rust-Bitcoin](https://docs.rs/Bitcoin/latest/Bitcoin/) eller [Bitcoin-dev-kit](https://docs.rs/BDK/latest/BDK/). Det kan være lærerikt å implementere din egen parser, men det kan også være risikabelt i produksjonsmiljøer.
 
 
 ![libraries](assets/en/035.webp)
@@ -2211,7 +2211,7 @@ make install # optional
 
 
 
-- Kjører tester for å sikre at alt fungerer som det skal. Instruksjoner finner du [her] (https://github.com/Bitcoin/Bitcoin/blob/master/test/README.md)
+- Kjører tester for å sikre at alt fungerer som det skal. Instruksjoner finner du [her](https://github.com/Bitcoin/Bitcoin/blob/master/test/README.md)
 
 
 ```Bash
@@ -2598,7 +2598,7 @@ For å løse Address disse begrensningene foreslo Manny Rosenfeld i 2012 konsept
 ### Hashed Time Lock Contract (HTLC) og implementering
 
 
-Begrensningene og ulempene ved sentraliserte humlehopp krevde en sikrere og mer desentralisert løsning. Dette behovet førte til utviklingen av Hashed Time Lock Contract (HTLC), som ble foreslått i 2015 av Joseph Poon og Thaddeus Dreijer som en del av Lightning Network. HTLC kombinerer prinsippene for tidslåser og Hash-låser for å sikre atomicitet og pålitelighet i transaksjoner. Dette betyr at en transaksjon enten fullføres helt eller ikke gjennomføres i det hele tatt, noe som reduserer risikoen forbundet med ufullstendige betalinger.
+Begrensningene og ulempene ved sentraliserte humlehopp krevde en sikrere og mer desentralisert løsning. Dette behovet førte til utviklingen av Hashed Time Lock Contract ([HTLC](https://planb.academy/resources/glossary/htlc)), som ble foreslått i 2015 av Joseph Poon og Thaddeus Dreijer som en del av Lightning Network. HTLC kombinerer prinsippene for tidslåser og Hash-låser for å sikre atomicitet og pålitelighet i transaksjoner. Dette betyr at en transaksjon enten fullføres helt eller ikke gjennomføres i det hele tatt, noe som reduserer risikoen forbundet med ufullstendige betalinger.
 
 
 Arbeidsflyten til HTLC involverer en flertrinnsprosess som sørger for sikker ruting gjennom flere mellomledd. Anta at Alice ønsker å betale Eric gjennom mellommennene Bob, Carol og Diana. Hvert trinn i prosessen innebærer å opprette Commitment-transaksjoner med avtagende tidssperrer og beløp. Om nødvendig kan det siste trinnet sendes til Bitcoin-nettverket for å fullføre transaksjonen.
@@ -2690,7 +2690,7 @@ Lightning Network utfyller Bitcoin-nettverket ved å ta tak i dets begrensninger
 ### **Lightning Network spesifikasjoner**
 
 
-Lightning Network-protokollen er nøye definert gjennom 10 BOLT-er (Basis of Lightning Technology). Disse BOLT-ene ble vedtatt under en konferanse i Milano og danner grunnlaget for ulike implementeringer av Lightning Network.
+Lightning Network-protokollen er nøye definert gjennom 10 [BOLT-er](https://planb.academy/resources/glossary/bolt) (Basis of Lightning Technology). Disse BOLT-ene ble vedtatt under en konferanse i Milano og danner grunnlaget for ulike implementeringer av Lightning Network.
 
 
 ![bolt](assets/en/049.webp)_BOLT Diagram _
@@ -2764,7 +2764,7 @@ Betalinger rutes ved hjelp av Onion-routing, som innebærer å lage krypterte pa
 ### Invoice-struktur
 
 
-Lightning Network-fakturaer (Bolt 11) er kodet i Bech32 og inneholder detaljer som betaling Hash, beskrivelse og utløp. Hver Invoice må brukes én gang for å forhindre gjenbruksproblemer.
+Lightning Network-[fakturaer](https://planb.academy/resources/glossary/invoice-lightning) (Bolt 11) er kodet i Bech32 og inneholder detaljer som betaling Hash, beskrivelse og utløp. Hver Invoice må brukes én gang for å forhindre gjenbruksproblemer.
 
 
 ![Invoice structure](assets/en/051.webp)_BOLT11 Invoice_
@@ -3430,5 +3430,5 @@ Utvidelsen og integreringen av Lightning-betalinger gjennom ulike protokoller og
 
 :::video id=b89f2064-f2e1-49c3-97d0-580891eee1dd:::
 
-Adam Gibson gir innsikt i Joinmarket, og beskriver hvordan denne CoinJoin-implementeringen forbedrer Bitcoins personvern og fungibilitet. Han diskuterer hvordan Joinmarket legger til rette for samarbeid, Trustless og anonyme transaksjoner i Bitcoin-økosystemet. I den andre delen viser han hvordan man kjører Joinmarket i Signet.
+Adam Gibson gir innsikt i Joinmarket, og beskriver hvordan denne [CoinJoin](https://planb.academy/resources/glossary/coinjoin)-implementeringen forbedrer Bitcoins personvern og fungibilitet. Han diskuterer hvordan Joinmarket legger til rette for samarbeid, Trustless og anonyme transaksjoner i Bitcoin-økosystemet. I den andre delen viser han hvordan man kjører Joinmarket i Signet.
 

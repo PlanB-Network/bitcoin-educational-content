@@ -1,0 +1,9 @@
+question: Mitä lohkosubsidio (block subsidy) vastaa?
+answer: Rahaluonti
+wrong_answers:
+  - Siirtomaksut
+  - Käyttäjien talletus
+  - Roskapostirangaistus
+explanation: |
+  Subsidio on se osa palkkiota, joka luo uusia bitcoineja tyhjästä (ex nihilo) protokollan sääntöjen mukaisesti.
+reviewed: false

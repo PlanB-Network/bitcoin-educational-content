@@ -1,8 +1,9 @@
 ---
-term: BİZANS GENERALLERİ SORUNU
+term: Bizans generalleri problemi
+definition: Aktörlerin birbirine güvenemediği dağıtık bir sistemde koordinasyonun zorluklarını gösteren problem.
 ---
 
-Bu problem ilk olarak Leslie Lamport, Robert Shostak ve Marshall Pease tarafından Temmuz 1982'de *ACM Transactions on Programming Languages and Systems, vol 4, n° 3* ["The Byzantine Generals Problem"] (https://lamport.azurewebsites.net/pubs/byz.pdf) adlı özel dergide formüle edilmiştir. Günümüzde, dağıtık bir sistem herhangi bir aktöre güvenemediğinde karar verme açısından karşılaşılan zorlukları göstermek için kullanılmaktadır.
+Bu problem ilk olarak Leslie Lamport, Robert Shostak ve Marshall Pease tarafından Temmuz 1982'de *ACM Transactions on Programming Languages and Systems, vol 4, n° 3* ["The Byzantine Generals Problem"](https://lamport.azurewebsites.net/pubs/byz.pdf) adlı özel dergide formüle edilmiştir. Günümüzde, dağıtık bir sistem herhangi bir aktöre güvenemediğinde karar verme açısından karşılaşılan zorlukları göstermek için kullanılmaktadır.
 
 
 Bu metaforda, bir grup Bizanslı general ve orduları, saldırmak veya kuşatmak istedikleri bir şehrin etrafında kamp kurmuşlardır. Generaller coğrafi olarak birbirlerinden ayrıdır ve stratejilerini koordine etmek için haberci aracılığıyla iletişim kurmaları gerekir. Tüm generaller fikir birliğine vardığı sürece saldırmaları ya da geri çekilmeleri önemli değildir.

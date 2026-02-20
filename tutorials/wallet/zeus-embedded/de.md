@@ -38,7 +38,7 @@ Andererseits glaube ich nicht, dass es derzeit für Anfänger geeignet ist, die 
 
 
 
-Rufen Sie [die Projektwebsite] (https://zeusln.com/) auf, um die Anwendung für das Betriebssystem Ihres Smartphones herunterzuladen:
+Rufen Sie [die Projektwebsite](https://zeusln.com/) auf, um die Anwendung für das Betriebssystem Ihres Smartphones herunterzuladen:
 
 
 

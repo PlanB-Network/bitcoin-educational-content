@@ -1,0 +1,8 @@
+question: Enligt Hayeks teori om spridd kunskap, varför är central planering i grunden bristfällig som ekonomisk samordningsmekanism?
+answer: Kunskap finns bara som spridda fragment bland individer, vilket gör det omöjligt för centrala planerare att få tillgång till den fullständiga information som krävs för effektiv samordning
+wrong_answers:
+  - Centralplanerare saknar moralisk auktoritet att fatta beslut åt andra, även om de har fullständig marknadsinformation
+  - Politisk korruption och egenintresse hindrar centralplanerare från att genomföra ekonomiskt optimala lösningar trots att de har tillgång till all nödvändig information
+  - Centralplanering kräver för mycket datorkraft och teknik som inte fanns tillgänglig på Hayeks tid men som skulle kunna fungera idag
+explanation: |
+  Hayeks kritik mot centralplanering är kunskapsteoretisk, inte moralisk eller teknisk. Han hävdade att kunskap aldrig existerar i koncentrerad form utan endast som "spridda fragment av ofullständig och ofta motsägelsefull kunskap som alla olika individer besitter" Detta problem med spridd kunskap innebär att centralplanerare inte kan få tillgång till de subjektiva kostnader, fördelar och lokala preferenser som bara individer har, vilket omöjliggör effektiv ekonomisk samordning oavsett deras avsikter eller datorkapacitet.

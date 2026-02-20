@@ -127,7 +127,7 @@ Se não estiver familiarizado com a utilização das carteiras Bitcoin, Lightnin
 
 https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Também pode explorar [os nossos tutoriais detalhados sobre as melhores carteiras Bitcoin] (https://planb.academy/tutorials/wallet).
+Também pode explorar [os nossos tutoriais detalhados sobre as melhores carteiras Bitcoin](https://planb.academy/tutorials/wallet).
 
 Em seguida, confirme a sua compra clicando em "*Confirmar compra*".
 

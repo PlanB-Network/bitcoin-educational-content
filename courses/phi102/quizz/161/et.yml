@@ -1,0 +1,8 @@
+question: Milline põhiline mehhanism takistab Tocqueville'i demokraatlike ühiskondade analüüsi kohaselt valitsustel avaliku sektori kulutustega säästlikult ümber käia?
+answer: Kodanikud kipuvad loomulikult tagasi lükkama iseendale kehtestatud maksud, kui nad saavad kasu, katkestades seose teenuste nautimise ja nende kulude kandmise vahel
+wrong_answers:
+  - Demokraatlikel valitsustel puuduvad erasektori juhtidega võrreldes tehnilised teadmised avalike ressursside tõhusaks haldamiseks
+  - Põhiseaduslikud piirangud takistavad demokraatlikel juhtidel majanduskriisi ajal kiireid otsuseid eelarvekärbete kohta teha
+  - Valimistsüklid sunnivad poliitikuid eelistama lühiajalist populaarsust pikaajalisele eelarvepoliitilisele vastutusele ja majanduse planeerimisele
+explanation: |
+  Tocqueville leidis, et põhiprobleem peitub inimloomuses endas - inimesed tahavad loomulikult kulusid teistele üle kanda, säilitades samal ajal kasu endale. See katkestab olulise seose avalike teenuste kasutamise ja nende kulude kandmise vahel. See mehhanism võimaldab puudujäägi kulutamist ja võlgade kuhjumist, sest praegused kodanikud saavad nautida teenuseid, lükates samal ajal finantskoormuse tulevastele põlvkondadele, kes ei saa oma huve kaitsta, sest neid ei ole veel olemas ega hääleta.

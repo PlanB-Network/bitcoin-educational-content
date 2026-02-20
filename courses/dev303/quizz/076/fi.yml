@@ -1,0 +1,8 @@
+question: Miksi expect():n käyttäminen kovakoodattuihin arvoihin, jotka vaikuttavat kääntäjän vahvistamilta, voi olla ongelmallista tuotantokoodissa?
+answer: Kovakoodatut arvot voivat kehittyä ajan mittaan refaktoroinnin myötä, jolloin aiemmin kelvolliset arvot muuttuvat virheiksi ajonaikana
+wrong_answers:
+  - Kääntäjä ei voi tarkistaa kovakoodattujen arvojen oikeellisuutta kääntämisen aikana, mikä tekee expect()-ohjelmasta epäluotettavan
+  - Kovakoodatut arvot kuluttavat enemmän muistia kuin dynaamiset arvot, mikä aiheuttaa suorituskykyongelmia expect():n kanssa
+  - Expect()-menetelmä lisää tarpeetonta yleiskustannusta verrattuna unwrap()-menetelmään, kun kyseessä ovat tunnetut kelvolliset arvot
+explanation: |
+  Oikea vastaus korostaa kriittistä oivallusta luvusta: jopa näennäisen turvalliset kovakoodatut arvot voivat ajan mittaan muuttua vaarallisiksi. Esimerkki osoittaa, miten kelvollinen IP-osoite voidaan muuttaa vakioksi ja muuttaa myöhemmin muotoon 'localhost', jolloin alkuperäinen oletus rikkoutuu. Väärät vastaukset ovat virheellisiä, koska: kääntäjä voi tarkistaa kovakoodatut arvot kääntämisaikana, muistin kulutus ei ole expect()-menetelmän ongelma, eikä expect()-menetelmällä ole merkittävää suorituskykyyn liittyvää ylikuormitusta verrattuna unwrap()-menetelmään.

@@ -2,7 +2,9 @@
 # generate a random uuid v4
 id: bf76be99-bf95-4606-8103-e7a072839ee9
 
-# Characteristic of tutorial
+# insert when the tutorial received a big content update, see below
+# 2 options avilable: the date of first publication, the date of last relevant edit
+last_update_date: YYYY-MM-DD
 
 # Project
 # Write the project name

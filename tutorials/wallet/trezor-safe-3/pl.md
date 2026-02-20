@@ -93,7 +93,7 @@ Nawigacja na urządzeniu jest prosta: prawy przycisk służy do przewijania w pr
 
 
 
-W tym samouczku pokażę, jak korzystać z Trezor Safe 3 z [oprogramowaniem do zarządzania portfelem Sparrow Wallet] (https://sparrowwallet.com/download/). Jeśli jeszcze nie zainstalowałeś tego oprogramowania, zrób to teraz. Jeśli potrzebujesz pomocy, mamy również szczegółowy samouczek dotyczący konfiguracji Sparrow Wallet:
+W tym samouczku pokażę, jak korzystać z Trezor Safe 3 z [oprogramowaniem do zarządzania portfelem Sparrow Wallet](https://sparrowwallet.com/download/). Jeśli jeszcze nie zainstalowałeś tego oprogramowania, zrób to teraz. Jeśli potrzebujesz pomocy, mamy również szczegółowy samouczek dotyczący konfiguracji Sparrow Wallet:
 
 
 

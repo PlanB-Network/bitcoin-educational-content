@@ -1,0 +1,9 @@
+question: Vilken mening sammanfattar tjänsten som tillhandahålls av en miningpool?
+answer: Den säljer förutsägbarhet
+wrong_answers:
+  - Den säljer mining-svårighetsgrad
+  - Den säljer större block
+  - Den säljer mining-maskiner
+explanation: |
+  Genom att dela på resurserna omvandlas en mycket volatil inkomst till mer regelbundna utbetalingar, mot delning och avgifter.
+reviewed: false

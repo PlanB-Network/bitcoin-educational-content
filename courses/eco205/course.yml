@@ -1,0 +1,24 @@
+id: 332837c9-ff11-4a45-be06-a80207627592
+test_only: true
+published_at: 2026-01-22
+topic: social studies
+subtopic: economy
+type: theory
+level: intermediate
+hours: 9
+professors_id:
+  - c8afbf6b-e7d7-43d9-bd44-cb4c020761a2
+contributor_names:
+  - Asi0Flammeus
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2026-01-22
+    urgency: 1
+    contributor_names:
+      - Asi0Flammeus
+    reward: 7.91
+tags:
+  - finance
+  - historical
+  - deep-dive

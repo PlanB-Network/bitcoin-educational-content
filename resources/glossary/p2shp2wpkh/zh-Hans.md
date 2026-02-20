@@ -1,6 +1,7 @@
 ---
-term: P2SH-P2WPKH (支付到脚本哈希-支付到隔离见证公钥哈希)
+term: P2SH-P2WPKH
 
+definition: 为了兼容性而包装在 P2SH 中的 SegWit 脚本 (P2WPKH)，地址以 3 开头。
 ---
 P2SH-P2WPKH 代表*支付到脚本哈希-支付到见证公钥哈希*。这是一种标准脚本模式，用于在UTXO上建立消费条件，也被称为“嵌套式隔离见证”。
 

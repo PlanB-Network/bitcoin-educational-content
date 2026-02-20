@@ -1,0 +1,9 @@
+question: Que condição torna um bloco válido no Bitcoin?
+answer: SHA256d(cabeçalho do bloco) <= alvo
+wrong_answers:
+  - SHA256d(cabeçalho do bloco) >= alvo
+  - SHA256d(bloco) >= alvo
+  - SHA256d(cabeçalho do bloco) > alvo
+explanation: |
+  Para que um bloco seja válido no Bitcoin, o hash do seu cabeçalho, interpretado como um número, deve ser inferior ou igual (<=) ao alvo.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Po ilu potwierdzeniach wyjścia coinbase stają się możliwe do wydania?
+answer: 101 potwierdzeń
+wrong_answers:
+  - 6 potwierdzeń
+  - 201 potwierdzeń
+  - 210 potwierdzeń
+explanation: |
+  Okres dojrzewania wynosi 100 bloków, więc potrzeba 101 potwierdzeń, aby te UTXO stały się możliwe do wydania.
+reviewed: false

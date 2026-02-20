@@ -1,0 +1,8 @@
+question: Wat maakt het type-systeem van Rust bijzonder effectief voor het voorkomen van geheugen-gerelateerde kwetsbaarheden in Bitcoin toepassingen?
+answer: Het typesysteem regelt zowel de modellering van bedrijfslogica als de controle op geheugeneigendom via hetzelfde mechanisme
+wrong_answers:
+  - De compiler genereert automatisch geheugentoewijzingsroutines die bufferoverloopaanvallen voorkomen
+  - Statisch typen vereist dat alle geheugenadressen worden gedeclareerd tijdens het compileren in plaats van tijdens runtime
+  - Strong typing zet alle pointerbewerkingen om in veilige array bounds checking tijdens uitvoering
+explanation: |
+  Rust's typesysteem is uniek omdat het een dubbel doel dient - het modelleert complexe bedrijfslogica en beheert tegelijkertijd geheugenveiligheid door eigendom, lenen en referentietelling. Deze integratie betekent dat dezelfde typecontrole die zorgt voor correcte programmalogica, ook geheugenlekken, dubbelvrije fouten en "race conditions" elimineert tijdens het compileren. De foute antwoorden beschrijven mechanismen die niet bestaan in Rust: de compiler gebruikt geen auto-generate toewijzingsroutines, geheugenadressen hoeven geen compileerbare constanten te zijn en de veiligheid van pointer komt van eigendomsregels in plaats van runtime bounds checking.

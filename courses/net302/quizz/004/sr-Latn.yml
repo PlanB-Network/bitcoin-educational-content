@@ -3,7 +3,7 @@ answer: Kako su uređaji međusobno povezani
 wrong_answers:
   - Brzina internet konekcije
   - Tip protokola koji se koristi za komunikaciju
-  - Na marku rutera korišćenih na mreži
+  - Marka rutera korišćenih na mreži
 explanation: |
   Topologija se odnosi na fizičku ili logičku strukturu mreže i način na koji su njene komponente povezane.
-reviewed: false
+reviewed: true

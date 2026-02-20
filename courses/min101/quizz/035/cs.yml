@@ -1,0 +1,9 @@
+question: Kam se od SegWitu ukládá závazek svědků (witness commitment) bloku?
+answer: V výstupu coinbase transakce
+wrong_answers:
+  - V scriptSig coinbase transakce
+  - V poli verze
+  - V poplatcích coinbase transakce
+explanation: |
+  SegWit využívá závazek zapsaný v coinbase transakci prostřednictvím výstupu OP_RETURN.
+reviewed: false

@@ -178,6 +178,6 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 تبریک! محیط کاری شما اکنون برای مشارکت در شبکه PlanB آماده شده است. اکنون می‌توانید آموزش‌های خاص دیگر ما را برای هر نوع مشارکت (ترجمه، ویرایش، نوشتن) بررسی کنید.
 
 
-https://planb.academy/tutorials/others
+https://planb.academy/tutorials/contribution
 
 ..).

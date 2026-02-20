@@ -222,7 +222,7 @@ Voor deze installatie heb je nodig :
 
 
 
-- Bezoek de [officiële website] (https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
+- Bezoek de [officiële website](https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
 - Download de nieuwste versie van UmbrelOS voor Raspberry Pi 5
 
 
@@ -236,7 +236,7 @@ Voor deze installatie heb je nodig :
 
 
 
-- Download en installeer [Balena Etcher] (https://www.balena.io/etcher/) op uw computer
+- Download en installeer [Balena Etcher](https://www.balena.io/etcher/) op uw computer
 
 
 
@@ -739,10 +739,10 @@ Uw Umbrel is nu klaar voor gebruik. U neemt actief deel aan het Bitcoin netwerk 
 
 
 
-- [Bitcoin core] (https://Bitcoin.org/fr/)
+- [Bitcoin core](https://Bitcoin.org/fr/)
 - [Electrs](https://github.com/romanz/electrs)
-- [Mempool] (https://Mempool.space)
-- [Sparrow wallet] (https://sparrowwallet.com)
+- [Mempool](https://Mempool.space)
+- [Sparrow wallet](https://sparrowwallet.com)
 
 
 

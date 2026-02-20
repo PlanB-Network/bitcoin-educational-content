@@ -51,7 +51,7 @@ Bitcoin에는 많은 사람들이 참여하고 있으며, 그 중 일부는 반�
 <chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
 
 
-Bitcoin 개발 철학에 대한 PHI 301 강좌에 오신 것을 환영합니다.
+Bitcoin 개발 철학에 대한 BTC 303 강좌에 오신 것을 환영합니다.
 
 
 Bitcoin는 단순한 암호화폐가 아니라 탈중앙화, 프라이버시, 무신뢰성, 복원력에 대한 철학적 비전을 구현합니다. 이 과정은 Bitcoin의 기술적 기반에 이미 익숙한 개발자를 위해 특별히 고안되었으며, 이제 Bitcoin의 설계와 거버넌스를 뒷받침하는 원칙에 대해 더 깊이 이해하고자 하는 개발자를 위해 마련되었습니다.
@@ -75,8 +75,6 @@ Bitcoin의 복잡한 거버넌스 환경을 탐색하려면 기술적 전문성�
 Bitcoin 여정의 다음 단계로 나아갈 준비가 되셨나요? 시작하세요!
 
 
-***N.B.**: 수강 중 Bitcoin와 관련된 생소한 용어가 나오면 [용어집](https://planb.academy/resources/glossary)을 참조하여 정의를 찾아보세요*
-
 
 
 
@@ -94,7 +92,7 @@ Bitcoin 여정의 다음 단계로 나아갈 준비가 되셨나요? 시작하�
 
 탈중앙화란 무엇이며 왜 Bitcoin가 작동하는 데 필수적인지 분석합니다. 저희는
 
-채굴자의 탈중앙화와 풀 노드의 탈중앙화를 살펴보고, Bitcoin의 가장 핵심적인 속성 중 하나인 검열 저항을 위해 무엇을 가져올 수 있는지 논의합니다.
+[채굴자](https://planb.academy/resources/glossary/mining)의 탈중앙화와 [풀 노드](https://planb.academy/resources/glossary/full-node)의 탈중앙화를 살펴보고, Bitcoin의 가장 핵심적인 속성 중 하나인 검열 저항을 위해 무엇을 가져올 수 있는지 논의합니다.
 
 
 그런 다음 탈중앙화 시스템의 필수 속성인 사용자, 채굴자, 개발자에 대한 중립성, 즉 무허가성을 이해하는 것으로 논의의 중심을 옮깁니다. 마지막으로 Bitcoin과 같은 탈중앙화 시스템을 이해하는 데 도움이 될 수 있는 몇 가지 정신 모델을 제시합니다.
@@ -109,7 +107,7 @@ Bitcoin 여정의 다음 단계로 나아갈 준비가 되셨나요? 시작하�
 Bitcoin의 탈중앙화에는 크게 두 가지 측면이 있습니다: Miner 탈중앙화와 Full node 탈중앙화입니다.
 
 
-Miner 탈중앙화는 트랜잭션 처리가 중앙 기관에 의해 수행되거나 조정되지 않는다는 사실을 의미합니다. Full node 탈중앙화는 블록, 즉 채굴자가 출력하는 데이터의 유효성 검사가 소수의 신뢰할 수 있는 기관이 아닌 네트워크의 가장자리에서, 궁극적으로는 사용자가 수행한다는 사실을 의미합니다.
+Miner 탈중앙화는 [트랜잭션](https://planb.academy/resources/glossary/transaction-tx) 처리가 중앙 기관에 의해 수행되거나 조정되지 않는다는 사실을 의미합니다. Full node 탈중앙화는 [블록](https://planb.academy/resources/glossary/block), 즉 채굴자가 출력하는 데이터의 유효성 검사가 소수의 신뢰할 수 있는 기관이 아닌 네트워크의 가장자리에서, 궁극적으로는 사용자가 수행한다는 사실을 의미합니다.
 
 
 ![](assets/ko/001.webp)
@@ -125,10 +123,10 @@ Bitcoin 이전에도 디지털 화폐를 만들려는 시도가 있었지만, �
 Miner의 탈중앙화는 *거래 주문*이 단일 주체 또는 고정된 주체 집합에 의해 수행되지 않는다는 것을 의미합니다. 이는 참여를 원하는 모든 주체들이 공동으로 수행하며, 이 채굴자 집단은 역동적인 사용자 집합입니다. 누구나 원하는 대로 참여하거나 탈퇴할 수 있습니다. 이러한 특성으로 인해 Bitcoin은 검열에 강합니다.
 
 
-Bitcoin가 중앙 집중화되면 정부 등 검열을 원하는 사람들에게 취약해질 것입니다. 디지털 화폐를 만들려는 이전의 시도와 같은 운명을 맞이하게 될 것입니다. "페깅된 사이드체인으로 Blockchain 혁신 구현하기"라는 제목의 [논문](https://www.blockstream.com/sidechains.pdf)의 서론에서 저자는 초기 버전의 디지털 화폐가 어떻게 적대적 환경에 대비하지 못했는지 설명합니다(다음 부분의 적대적 사고 장도 참조하세요).
+Bitcoin가 중앙 집중화되면 정부 등 검열을 원하는 사람들에게 취약해질 것입니다. 디지털 화폐를 만들려는 이전의 시도와 같은 운명을 맞이하게 될 것입니다. "페깅된 사이드체인으로 [Blockchain](https://planb.academy/resources/glossary/blockchain) 혁신 구현하기"라는 제목의 [논문](https://www.blockstream.com/sidechains.pdf)의 서론에서 저자는 초기 버전의 디지털 화폐가 어떻게 적대적 환경에 대비하지 못했는지 설명합니다(다음 부분의 적대적 사고 장도 참조하세요).
 
 
-데이비드 차움은 1983년 Double-spending을 방지하기 위해 신뢰할 수 있는 중앙 서버가 있는 환경에서 디지털 현금을 연구 주제로 도입했습니다. 이 신뢰할 수 있는 중앙 서버로부터 개인의 프라이버시 위험을 완화하고 대체 가능성을 강화하기 위해 차움은 블라인드 서명을 도입하여 중앙 서버의 서명(코인을 나타내는)이 연결되는 것을 방지하는 암호화 수단을 제공하는 동시에 중앙 서버가 이중 지출 방지를 수행할 수 있도록 했습니다.
+데이비드 차움은 1983년 [Double-spending](https://planb.academy/resources/glossary/double-spending-attack)을 방지하기 위해 신뢰할 수 있는 중앙 서버가 있는 환경에서 디지털 현금을 연구 주제로 도입했습니다. 이 신뢰할 수 있는 중앙 서버로부터 개인의 프라이버시 위험을 완화하고 [대체 가능성](https://planb.academy/resources/glossary/fungibility)을 강화하기 위해 차움은 [블라인드 서명](https://planb.academy/resources/glossary/blind-signature)을 도입하여 중앙 서버의 서명(코인을 나타내는)이 연결되는 것을 방지하는 암호화 수단을 제공하는 동시에 중앙 서버가 이중 지출 방지를 수행할 수 있도록 했습니다.
 
 중앙 서버에 대한 요구 사항은 디지털 화폐의 아킬레스건이 되었습니다[Gri99]. 중앙 서버의 서명을 여러 서명자의 임계값 서명으로 대체하여 이 단일 장애 지점을 분산할 수는 있지만, 감사 가능성을 위해 서명자가 구별되고 식별 가능한지 확인하는 것이 중요합니다. 이렇게 해도 각 서명자가 하나씩 실패하거나 실패하도록 만들 수 있기 때문에 시스템은 여전히 실패에 취약합니다.
 
@@ -154,24 +152,24 @@ Bitcoin를 검열할 수 있다면 어떤 일이 벌어질지 생각해 봅시�
 이러한 옵션 중 어느 것도 사용자에게 유익하지 않습니다.
 
 
-탈중앙화를 통한 검열 저항은 Bitcoin을 다른 화폐 시스템과 차별화하는 요소이지만, *Double-spending 문제*로 인해 달성하기는 쉽지 않습니다. 이는 탈중앙화 방식으로는 해결이 불가능하다고 생각했던 문제, 즉 누구도 동일한 Coin를 두 번 사용할 수 없도록 하는 문제입니다. Satoshi 나카모토는 [Bitcoin 백서](https://planb.academy/bitcoin.pdf)에서 Double-spending 문제를 해결하는 방법에 대해 설명합니다:
+탈중앙화를 통한 검열 저항은 Bitcoin을 다른 화폐 시스템과 차별화하는 요소이지만, *Double-spending 문제*로 인해 달성하기는 쉽지 않습니다. 이는 탈중앙화 방식으로는 해결이 불가능하다고 생각했던 문제, 즉 누구도 동일한 Coin를 두 번 사용할 수 없도록 하는 문제입니다. Satoshi [나카모토](https://planb.academy/resources/glossary/nakamoto-satoshi)는 [Bitcoin 백서](https://planb.academy/bitcoin.pdf)에서 Double-spending 문제를 해결하는 방법에 대해 설명합니다:
 
 
 > 이 논문에서는 피어 투 피어 분산 Timestamp 서버를 사용하여 트랜잭션의 시간 순서에 대한 generate 계산 증명에 대한 Double-spending 문제에 대한 해결책을 제안합니다.
 
 
-여기서 그는 "피어 투 피어 분산 Timestamp 서버"라는 특이한 문구를 사용합니다. 여기서 핵심 키워드는 *분산형*이며, 이 문맥에서는 중앙 통제 지점이 없다는 것을 의미합니다. 이어서 나카모토는 Proof-of-Work이 어떻게 해결책이 되는지 설명합니다.
+여기서 그는 "피어 투 피어 분산 Timestamp 서버"라는 특이한 문구를 사용합니다. 여기서 핵심 키워드는 *분산형*이며, 이 문맥에서는 중앙 통제 지점이 없다는 것을 의미합니다. 이어서 나카모토는 [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work)이 어떻게 해결책이 되는지 설명합니다.
 
 그래도 이보다 더 잘 설명할 수 있는 것은 없습니다
 
-(https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/)에서 잠재적인 51% 공격을 피하기 위해 채굴자의 Hash 파워를 제한하자는 제안에 대해 답변하고 있습니다:
+(https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/)에서 잠재적인 51% 공격을 피하기 위해 채굴자의 [Hash 파워](https://planb.academy/resources/glossary/hashrate)를 제한하자는 제안에 대해 답변하고 있습니다:
 
 
 > Bitcoin과 같은 탈중앙화 시스템은 공개 선거를 사용합니다. 하지만 탈중앙화 시스템에서는 중앙화된 당사자가 사람들에게 투표 권한을 부여해야 하므로 '사람'의 투표만으로는 투표를 진행할 수 없습니다. 대신 Bitcoin은 중앙화된 기관의 도움 없이도 컴퓨팅 파워를 검증할 수 있기 때문에 컴퓨팅 파워 투표를 사용합니다
 타사.
 
 
-이 게시물에서는 탈중앙화된 Bitcoin 네트워크가 어떻게 Proof-of-Work을 사용하여 거래 주문에 대한 합의를 도출할 수 있는지 설명합니다.
+이 게시물에서는 탈중앙화된 Bitcoin 네트워크가 어떻게 Proof-of-Work을 사용하여 거래 주문에 대한 [합의](https://planb.academy/resources/glossary/consensus)를 도출할 수 있는지 설명합니다.
 
 
 그런 다음 그는 51% 공격은 사람들이 Bitcoin의 탈중앙화 속성에 대해 관심을 갖지 않거나 이해하지 못하는 것에 비하면 특별히 걱정할 만한 수준은 아니라고 결론을 내립니다:
@@ -189,10 +187,10 @@ Bitcoin를 검열할 수 있다면 어떤 일이 벌어질지 생각해 봅시�
 위 단락에서는 주로 Miner 탈중앙화와 채굴자를 중앙화하면 어떻게 검열을 허용할 수 있는지에 대해 이야기했습니다. 하지만 탈중앙화의 또 다른 측면, 즉 *Full node 탈중앙화*도 있습니다.
 
 
-Full node 탈중앙화의 중요성은 무신뢰성과 관련이 있습니다. 예를 들어 사용자가 운영 비용이 엄청나게 증가하여 자체 Full node의 운영을 중단한다고 가정해 보겠습니다. 이 경우 사용자는 웹 지갑이나 라이트월렛을 사용하는 등 다른 방식으로 Bitcoin 네트워크와 상호 작용해야 하며, 이러한 서비스 제공자에 대한 일정 수준의 신뢰가 필요합니다.
+Full node 탈중앙화의 중요성은 무신뢰성과 관련이 있습니다. 예를 들어 사용자가 운영 비용이 엄청나게 증가하여 자체 Full node의 운영을 중단한다고 가정해 보겠습니다. 이 경우 사용자는 웹 [지갑](https://planb.academy/resources/glossary/wallet)이나 라이트월렛을 사용하는 등 다른 방식으로 Bitcoin 네트워크와 상호 작용해야 하며, 이러한 서비스 제공자에 대한 일정 수준의 신뢰가 필요합니다.
 
 
-사용자는 네트워크 합의 규칙을 직접 시행하는 것에서 다른 사람이 시행할 것이라고 신뢰하는 단계로 넘어갑니다. 이제 대부분의 사용자가 합의 시행을 신뢰할 수 있는 기관에 위임한다고 가정해 보겠습니다. 이 경우 네트워크는 빠르게 중앙집권화될 수 있으며, 악의적인 행위자에 의해 네트워크 규칙이 변경될 수 있습니다.
+사용자는 네트워크 [합의 규칙](https://planb.academy/resources/glossary/consensus-rules)을 직접 시행하는 것에서 다른 사람이 시행할 것이라고 신뢰하는 단계로 넘어갑니다. 이제 대부분의 사용자가 합의 시행을 신뢰할 수 있는 기관에 위임한다고 가정해 보겠습니다. 이 경우 네트워크는 빠르게 중앙집권화될 수 있으며, 악의적인 행위자에 의해 네트워크 규칙이 변경될 수 있습니다.
 
 
 A]에서
@@ -588,7 +586,7 @@ Blockchain이 개인 정보 유출의 악명 높은 출처인 것은 사실이�
 
 > 금융 프라이버시는 Bitcoin의 대체 가능성에 필수적인 요소입니다: 하나의 Coin를 의미 있게 구별할 수 있다면 대체 가능성이 약하다는 뜻입니다. 만약 중요한 누군가가 도난당한 코인 목록을 발표하면 해당 목록에서 파생된 코인을 받지 않겠다고 하면, 여러분은 해당 목록과 대조하여 수락하는 코인을 신중하게 확인하고 실패한 코인은 반환해야 합니다.  누구나 여러 기관에서 발행한 블랙리스트를 확인해야 하는 이유는 나쁜 코인에 휘말리고 싶지 않기 때문입니다. 이는 마찰과 거래 비용을 증가시키고 Bitcoin의 화폐로서의 가치를 떨어뜨립니다.
 
-여기서 그는 대체 가능성 부족으로 인한 위험에 대해 이야기합니다. UTXO이 있다고 가정해 봅시다. 이 UTXO의 이력은 일반적으로 여러 홉을 거슬러 올라가 수많은 이전 출력으로 확장될 수 있습니다. 이러한 출력 중 불법적이거나 원치 않는 활동 또는 의심스러운 활동에 관련된 것이 있다면 Coin의 일부 잠재적 수신자가 이를 거부할 수 있습니다. 수취인이 중앙화된 화이트리스트나 블랙리스트 서비스를 통해 코인을 확인한다고 생각한다면, 안전을 위해 받는 코인도 확인하기 시작할 수 있습니다. 결과적으로 나쁜 대체 가능성은 더 나쁜 대체 가능성을 강화할 것입니다.
+여기서 그는 대체 가능성 부족으로 인한 위험에 대해 이야기합니다. [UTXO](https://planb.academy/resources/glossary/utxo)이 있다고 가정해 봅시다. 이 UTXO의 이력은 일반적으로 여러 홉을 거슬러 올라가 수많은 이전 출력으로 확장될 수 있습니다. 이러한 출력 중 불법적이거나 원치 않는 활동 또는 의심스러운 활동에 관련된 것이 있다면 Coin의 일부 잠재적 수신자가 이를 거부할 수 있습니다. 수취인이 중앙화된 화이트리스트나 블랙리스트 서비스를 통해 코인을 확인한다고 생각한다면, 안전을 위해 받는 코인도 확인하기 시작할 수 있습니다. 결과적으로 나쁜 대체 가능성은 더 나쁜 대체 가능성을 강화할 것입니다.
 
 
 2016년 밀라노에서 열린 Scaling Bitcoin에서 아담 백과 매트 코랄로는 대체 가능성에 대한 프레젠테이션을 진행했습니다(https://btctranscripts.com/scalingbitcoin/milan-2016/fungibility-overview/). 두 사람은 같은 생각을 하고 있었습니다:
@@ -674,7 +672,7 @@ Bitcoin에서 적절한 프라이버시를 확보하려면 적극적인 조치�
 ![](assets/ko/006.webp)
 
 
-이 장에서는 Bitcoin Supply의 2100만 BTC 한도, 즉 실제로 얼마나 되는지 살펴봅니다 이 한도가 어떻게 시행되는지, 그리고 한도가 준수되고 있는지 확인하기 위해 무엇을 할 수 있는지에 대해 이야기합니다. 또한, Block reward이 보조금 기반에서 수수료 기반으로 전환될 때 발생할 역학 관계에 대해 논의합니다.
+이 장에서는 Bitcoin Supply의 2100만 BTC 한도, 즉 실제로 얼마나 되는지 살펴봅니다 이 한도가 어떻게 시행되는지, 그리고 한도가 준수되고 있는지 확인하기 위해 무엇을 할 수 있는지에 대해 이야기합니다. 또한, [Block reward](https://planb.academy/resources/glossary/block-reward)이 보조금 기반에서 수수료 기반으로 전환될 때 발생할 역학 관계에 대해 논의합니다.
 
 
 잘 알려진 2100만 BTC의 유한한 Supply는 Bitcoin의 기본 속성으로 간주됩니다. 하지만 정말 확정된 것일까요?
@@ -685,7 +683,7 @@ Bitcoin에서 적절한 프라이버시를 확보하려면 적극적인 조치�
 
 > 이 모든 숫자를 합치면 20999999.9769 BTC가 됩니다.
 
-그러나 코인베이스 거래의 초기 문제, 의도치 않게 허용된 것보다 적은 금액을 청구하는 채굴자, 개인 키 분실 등 여러 가지 이유로 인해 이 상한선에 도달하지 못할 것입니다. 우일은 결론을 내립니다:
+그러나 [코인베이스 거래](https://planb.academy/resources/glossary/coinbase-transaction)의 초기 문제, 의도치 않게 허용된 것보다 적은 금액을 청구하는 채굴자, 개인 키 분실 등 여러 가지 이유로 인해 이 상한선에 도달하지 못할 것입니다. 우일은 결론을 내립니다:
 
 
 > 그러면 20999817.31308491 BTC가 남습니다(528333 블록까지 모두 고려)
@@ -718,7 +716,7 @@ Bitcoin에서 적절한 프라이버시를 확보하려면 적극적인 조치�
 
 
 
-Block reward는 블록 보조금과 트랜잭션 수수료로 구성됩니다. Block reward는 Bitcoin의 보안 비용을 충당해야 합니다. 블록 보조금, 거래 수수료, Bitcoin 가격, Mempool 크기, Hash 파워, 탈중앙화 정도 등과 관련하여 오늘날의 조건에서 모든 플레이어가 규칙을 따르는 인센티브는 안전한 통화 시스템을 유지하기에 충분히 높다고 확신할 수 있습니다.
+Block reward는 [블록 보조금](https://planb.academy/resources/glossary/block-subsidy)과 트랜잭션 수수료로 구성됩니다. Block reward는 Bitcoin의 보안 비용을 충당해야 합니다. 블록 보조금, [거래 수수료](https://planb.academy/resources/glossary/transaction-fees), Bitcoin 가격, [Mempool](https://planb.academy/resources/glossary/mempool) 크기, Hash 파워, 탈중앙화 정도 등과 관련하여 오늘날의 조건에서 모든 플레이어가 규칙을 따르는 인센티브는 안전한 통화 시스템을 유지하기에 충분히 높다고 확신할 수 있습니다.
 
 
 블록 보조금이 0에 가까워지면 어떻게 되나요? 간단하게 설명하기 위해 실제로 0과 같다고 가정해 보겠습니다. 이 시점에서 시스템의 보안 비용은 트랜잭션 수수료로만 충당됩니다. 이런 상황이 발생했을 때 어떤 미래가 펼쳐질지는 알 수 없습니다. 불확실성 요인은 무수히 많으며 추측에 맡길 수밖에 없습니다. 예를 들어, 폴 슈토르크의 트루스코인 블로그(https://www.truthcoin.info/blog/security-budget/)에서 이 주제에 대한 그의 글은 대부분 추측이지만, 적어도 한 가지 확실한 점은 있습니다(슈토르크가 언급한 M2는 법정화폐 Supply의 측정치라는 점에 유의하시기 바랍니다):
@@ -735,7 +733,7 @@ Block reward는 블록 보조금과 트랜잭션 수수료로 구성됩니다. B
 시간이 지남에 따라 보안 비용 부담은 보유자에서 소비자로 이동합니다
 
 
-거래 수수료가 Mining의 주요 동기가 되면 인센티브가 바뀝니다. 특히 Miner의 Mempool에 충분한 거래 수수료가 포함되어 있지 않은 경우, 해당 Miner은 Bitcoin의 기록을 연장하는 것보다 다시 작성하는 것이 더 유리할 수 있습니다. Bitcoin 옵텍에는 데이비드 하딩이 작성한 *수수료 스나이핑*이라는 특정 [이 동작에 대한 섹션](https://bitcoinops.org/en/topics/fee-sniping/)이 있습니다:
+거래 수수료가 Mining의 주요 동기가 되면 인센티브가 바뀝니다. 특히 Miner의 Mempool에 충분한 거래 수수료가 포함되어 있지 않은 경우, 해당 Miner은 Bitcoin의 기록을 연장하는 것보다 다시 작성하는 것이 더 유리할 수 있습니다. Bitcoin 옵텍에는 데이비드 하딩이 작성한 *[수수료 스나이핑](https://planb.academy/resources/glossary/fee-sniping)*이라는 특정 [이 동작에 대한 섹션](https://bitcoinops.org/en/topics/fee-sniping/)이 있습니다:
 
 
 > 수수료 스나이핑은 Bitcoin의 보조금이 계속 감소하고 거래 수수료가 Bitcoin의 블록 보상을 지배하기 시작하면서 발생할 수 있는 문제입니다. 거래 수수료가 중요한 것이라면, Hash 수수료의 `x` 퍼센트를 받는 Miner은 다음 블록에서 Mining이 될 확률이 `x` 퍼센트이므로, 정직한 Mining의 기대 가치는 Mempool에서 [최상의 거래 수수료 세트](https://bitcoinops.org/en/newsletters/2021/06/02/#candidate-set-based-csb-block-template-construction)의 `x` 퍼센트입니다.
@@ -816,7 +814,7 @@ Bitcoin을 안전한 방식으로 업그레이드하는 것은 매우 어려울 
 반대로 [하위 호환성](https://en.wikipedia.org/wiki/Backward_compatibility)은 이전 소프트웨어의 데이터를 최신 소프트웨어에서 사용할 수 있는 경우를 말합니다. 변경 사항이 포워드 호환성과 백워드 호환성을 모두 지원하는 경우 완전 호환성이 있다고 합니다.
 
 
-Bitcoin 합의 규칙에 대한 변경은 완전히 호환되는 경우 *Soft Fork*이라고 합니다. 이는 이 장에서 자세히 설명할 여러 가지 이유로 인해 Bitcoin를 업그레이드하는 가장 일반적인 방법입니다. Bitcoin 합의 규칙의 변경 사항이 이전 버전과 호환되지만 앞으로는 호환되지 않는 경우 이를 *Hard Fork*이라고 합니다.
+Bitcoin 합의 규칙에 대한 변경은 완전히 호환되는 경우 *[Soft Fork](https://planb.academy/resources/glossary/soft-fork)*이라고 합니다. 이는 이 장에서 자세히 설명할 여러 가지 이유로 인해 Bitcoin를 업그레이드하는 가장 일반적인 방법입니다. Bitcoin 합의 규칙의 변경 사항이 이전 버전과 호환되지만 앞으로는 호환되지 않는 경우 이를 *[Hard Fork](https://planb.academy/resources/glossary/hard-fork)*이라고 합니다.
 
 
 Soft 포크와 Hard 포크에 대한 기술 개요는 [그로킹 Bitcoin의 11장](https://rosenbaum.se/book/grokking-Bitcoin-11.html)을 참조하세요. 여기에는 이러한 용어에 대한 설명과 업그레이드 메커니즘에 대해서도 자세히 설명되어 있습니다. 꼭 필요한 것은 아니지만 계속 읽기 전에 이 내용을 숙지하는 것이 좋습니다.
@@ -831,24 +829,24 @@ Bitcoin은 Genesis 블록이 만들어졌을 때와 현재가 다릅니다. 수�
 
 > 사실 Bitcoin에 Hard-Fork가 있었는데, Satoshi은 이런 식으로 하지 않을 것인데, 꽤 나쁜 방법이다. 여기 [[757f076](https://github.com/Bitcoin/Bitcoin/commit/757f0769d8360ea043f469f3a35f6ec204740446)]의 git 커밋 설명을 보면 makefile.unix wx-config 버전 0.3.6을 되돌린 것에 대해 언급하고 있습니다. 맞다. 그게 전부입니다. 여기에는 획기적인 변경 사항이 있다는 표시가 전혀 없습니다. 그는 기본적으로 거기에 그것을 숨기고 있었습니다. 그는 또한 [비트코인토크에 게시](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451)를 통해 최대한 빨리 0.3.6으로 업그레이드하시기 바란다고 말했습니다. 가짜 거래가 승인된 것으로 표시될 수 있는 구현 버그를 수정했습니다. 0.3.6으로 업그레이드할 때까지 Bitcoin 결제를 수락하지 마세요. 당장 업그레이드할 수 없다면 업그레이드할 때까지 Bitcoin 노드를 종료하는 것이 가장 좋습니다. 그리고 왜 이렇게 하기로 결정했는지 모르겠지만 동일한 코드에 몇 가지 최적화를 추가하기로 결정했습니다. 버그를 수정하고 최적화를 추가합니다.
 
-그는 의도적이든 아니든 이 Hard Fork가 향후 Soft 포크, 즉 스크립트 연산자(opcode) OP_NOP1-OP_NOP10을 위한 기회를 만들었다고 지적합니다. 이 코드 변경에 대해서는 cve-2010-5141에서 자세히 살펴보겠습니다. 이 옵코드는 지금까지 두 번의 Soft 포크에 사용되었습니다:
+그는 의도적이든 아니든 이 Hard Fork가 향후 Soft 포크, 즉 스크립트 연산자([opcode](https://planb.academy/resources/glossary/opcodes)) OP_NOP1-OP_NOP10을 위한 기회를 만들었다고 지적합니다. 이 코드 변경에 대해서는 cve-2010-5141에서 자세히 살펴보겠습니다. 이 옵코드는 지금까지 두 번의 Soft 포크에 사용되었습니다:
 
 
 - [bip65](https://github.com/Bitcoin/BIPs/blob/master/BIP-0065.mediawiki) (op_checklocktimeverify)
 - [bip113](https://github.com/Bitcoin/BIPs/blob/master/BIP-0112.mediawiki) (op_sequenceverify).
 
 
-롬브로조는 또한 2017년까지 수년간 업그레이드 메커니즘이 어떻게 발전해왔는지에 대한 개요도 제공합니다. 그 이후로 단 한 번의 주요 업그레이드인 Taproot만이 배포되었습니다. 이 업그레이드가 활성화되기까지 길고 다소 혼란스러웠던 과정을 통해 Bitcoin의 업그레이드 메커니즘에 대한 더 많은 인사이트를 얻을 수 있었습니다.
+롬브로조는 또한 2017년까지 수년간 업그레이드 메커니즘이 어떻게 발전해왔는지에 대한 개요도 제공합니다. 그 이후로 단 한 번의 주요 업그레이드인 [Taproot](https://planb.academy/resources/glossary/taproot)만이 배포되었습니다. 이 업그레이드가 활성화되기까지 길고 다소 혼란스러웠던 과정을 통해 Bitcoin의 업그레이드 메커니즘에 대한 더 많은 인사이트를 얻을 수 있었습니다.
 
 
 #### SegWit 업그레이드
 
 
 
-SegWit 이전의 모든 업그레이드가 어느 정도 순조로웠던 반면, 이번 업그레이드는 달랐습니다. 2016년 10월, SegWit 활성화 코드가 공개되었을 때 Bitcoin 사용자들 사이에서 압도적인 지지를 받는 듯했지만 어떤 이유에서인지 채굴자들이 이 업그레이드에 대한 지지를 표명하지 않아 활성화는 해결의 실마리를 찾지 못한 채 중단되었습니다.
+[SegWit](https://planb.academy/resources/glossary/segwit) 이전의 모든 업그레이드가 어느 정도 순조로웠던 반면, 이번 업그레이드는 달랐습니다. 2016년 10월, SegWit 활성화 코드가 공개되었을 때 Bitcoin 사용자들 사이에서 압도적인 지지를 받는 듯했지만 어떤 이유에서인지 채굴자들이 이 업그레이드에 대한 지지를 표명하지 않아 활성화는 해결의 실마리를 찾지 못한 채 중단되었습니다.
 
 
-아론 반 위르둠은 Bitcoin 매거진 기사 [SegWit로 가는 긴 여정](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality)에서 이 구불구불한 여정에 대해 설명합니다. 그는 SegWit가 무엇이며 이것이 블록 크기 논쟁과 어떻게 연관되어 있는지 설명하는 것으로 시작합니다. 그런 다음 반 우르둠은 최종 활성화로 이어진 일련의 과정을 설명합니다. 이 과정의 중심에는 *사용자 활성화 Soft Fork*, 줄여서 UASF라고 불리는 업그레이드 메커니즘이 있었으며, 이는 사용자 Shaolinfry가 제안한 것입니다:
+아론 반 위르둠은 Bitcoin 매거진 기사 [SegWit로 가는 긴 여정](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality)에서 이 구불구불한 여정에 대해 설명합니다. 그는 SegWit가 무엇이며 이것이 블록 크기 논쟁과 어떻게 연관되어 있는지 설명하는 것으로 시작합니다. 그런 다음 반 우르둠은 최종 활성화로 이어진 일련의 과정을 설명합니다. 이 과정의 중심에는 *사용자 활성화 Soft Fork*, 줄여서 [UASF](https://planb.academy/resources/glossary/uasf)라고 불리는 업그레이드 메커니즘이 있었으며, 이는 사용자 Shaolinfry가 제안한 것입니다:
 
 
 > 샤오린프라이가 제안한 대안은 사용자 활성화 Soft Fork(UASF)이었습니다. 사용자 활성화 Soft Fork은 Hash 전원 활성화 대신 "미래의 미리 정해진 시간에 노드가 시행을 시작하는 '플래그 데이 활성화'를 수행합니다." 경제적 다수에 의해 이러한 UASF가 시행되는 한, 대다수의 채굴자가 Soft Fork을 따르거나 활성화하도록 강제할 수 있습니다.
@@ -1029,7 +1027,7 @@ Bitcoin를 조화롭게 유지하기 위해 Soft 포크가 앞으로 나아갈 �
 이 장에서는 *적대적 사고*, 즉 무엇이 잘못될 수 있고 적들이 어떻게 행동할 수 있는지에 초점을 맞추는 사고방식을 다룹니다. 먼저 Bitcoin의 보안 가정과 보안 모델에 대해 논의한 다음, 일반 사용자가 적대적 사고를 통해 자기 주권을 향상하고 Bitcoin의 Full node 탈중앙화를 개선할 수 있는 방법을 설명합니다. 그런 다음 Bitcoin에 대한 몇 가지 실제 위협과 공격자의 심리를 살펴봅니다. 마지막으로, 사람들이 Bitcoin을 개발하는 이유를 이해하는 데 도움이 될 수 있는 *저항의 공리*에 대해 이야기합니다.
 
 
-다양한 시스템 내에서 보안에 대해 논의할 때는 보안 가정이 무엇인지 이해하는 것이 중요합니다. Bitcoin의 일반적인 보안 가정은 "이산 로그 문제는 풀어야 할 Hard"으로, 간단히 말해 특정 공개 키에 대응하는 개인 키를 찾는 것이 사실상 불가능하다는 것을 의미합니다. 또 다른 매우 강력한 보안 가정은 네트워크 해시파워의 대다수가 정직하며 규칙을 따른다는 것입니다. 이러한 가정이 틀렸다는 것이 증명된다면 Bitcoin는 문제가 있는 것입니다.
+다양한 시스템 내에서 보안에 대해 논의할 때는 보안 가정이 무엇인지 이해하는 것이 중요합니다. Bitcoin의 일반적인 보안 가정은 "[이산 로그](https://planb.academy/resources/glossary/discrete-logarithm) 문제는 풀어야 할 Hard"으로, 간단히 말해 특정 [공개 키](https://planb.academy/resources/glossary/public-key)에 대응하는 [개인 키](https://planb.academy/resources/glossary/private-key)를 찾는 것이 사실상 불가능하다는 것을 의미합니다. 또 다른 매우 강력한 보안 가정은 네트워크 해시파워의 대다수가 정직하며 규칙을 따른다는 것입니다. 이러한 가정이 틀렸다는 것이 증명된다면 Bitcoin는 문제가 있는 것입니다.
 
 
 2015년 앤드류 포엘스트라는 홍콩에서 열린 스케일링 Bitcoin 컨퍼런스에서 [강연](https://btctranscripts.com/scalingbitcoin/hong-kong-2015/security-assumptions/)을 통해 Bitcoin의 보안 가정에 대해 분석했습니다. 그는 먼저 많은 시스템이 어느 정도는 적을 무시한다는 점을 지적하며, 예를 들어 모든 유형의 적으로부터 건물을 보호하는 것은 실제로 Hard입니다. 대신, 우리는 일반적으로 누군가 건물을 불태울 수 있다는 가능성을 받아들이고 법 집행 등을 통해 이러한 행위 및 기타 적대적인 행위를 어느 정도 방지합니다.
@@ -1066,7 +1064,7 @@ Bitcoin를 조화롭게 유지하기 위해 Soft 포크가 앞으로 나아갈 �
 
 
 
-적대적 사고의 중요성은 하드코어 Bitcoin 개발자와 전문가뿐만 아니라 일상적인 Bitcoin 사용자에게도 어느 정도 적용됩니다. 라그나 리프타시르는 [트윗스톰](https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking)에서 Bitcoin에 대한 단순한 서술(예: "그냥 HODL")이 얼마나 Bitcoin 자체를 비하할 수 있는지를 언급하며 다음과 같이 결론을 내렸습니다
+적대적 사고의 중요성은 하드코어 Bitcoin 개발자와 전문가뿐만 아니라 일상적인 Bitcoin 사용자에게도 어느 정도 적용됩니다. 라그나 리프타시르는 [트윗스톰](https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking)에서 Bitcoin에 대한 단순한 서술(예: "그냥 [HODL](https://planb.academy/resources/glossary/hodl)")이 얼마나 Bitcoin 자체를 비하할 수 있는지를 언급하며 다음과 같이 결론을 내렸습니다
 
 
 > Bitcoin와 우리 자신을 더 강하게 만들려면 Bitcoin에 기여하는 소프트웨어 엔지니어들처럼 생각해야 합니다. 그들은 동료 검토를 통해 무자비하게 결함을 찾습니다. 기술 이벤트에서 그들은 제안이 실패할 수 있는 모든 방법에 대해 이야기합니다. 그들은 적대적으로 생각합니다. 보수적입니다
@@ -1085,10 +1083,10 @@ Wallet 도난 및 서비스 거부 공격:
 
 > 공격자가 자신이 제어하는 클라이언트로 네트워크를 채우려고 시도하면 공격자 노드에만 연결될 가능성이 매우 높습니다. Bitcoin는 노드 수를 절대 사용하지 않지만, 정상 네트워크에서 노드를 완전히 격리하면 다른 공격을 실행하는 데 도움이 될 수 있습니다.
 
-이러한 유형의 공격을 *Sybil Attack*이라고 하며, 단일 엔티티가 네트워크의 여러 노드를 제어하고 이를 사용하여 여러 엔티티로 표시할 때 발생합니다.
+이러한 유형의 공격을 *[Sybil Attack](https://planb.academy/resources/glossary/sybil-attack)*이라고 하며, 단일 엔티티가 네트워크의 여러 [노드](https://planb.academy/resources/glossary/node)를 제어하고 이를 사용하여 여러 엔티티로 표시할 때 발생합니다.
 
 
-인용문에서도 언급했듯이 Sybil Attack은 노드나 기타 수치화된 개체를 통한 투표가 아닌 컴퓨팅 파워를 통한 투표이기 때문에 Bitcoin 네트워크에서는 효과적이지 않습니다. 그럼에도 불구하고 이러한 평면적인 구조는 시스템을 다른 공격에 취약하게 만듭니다. Bitcoin 위키 페이지에는 정보 숨기기(종종 *이클립스 공격*이라고도 함)와 같은 다른 가능한 공격과 이러한 공격에 대한 Bitcoin core의 휴리스틱 대응 방식에 대한 설명도 나와 있습니다.
+인용문에서도 언급했듯이 Sybil Attack은 노드나 기타 수치화된 개체를 통한 투표가 아닌 컴퓨팅 파워를 통한 투표이기 때문에 Bitcoin 네트워크에서는 효과적이지 않습니다. 그럼에도 불구하고 이러한 평면적인 구조는 시스템을 다른 공격에 취약하게 만듭니다. Bitcoin 위키 페이지에는 정보 숨기기(종종 *[이클립스 공격](https://planb.academy/resources/glossary/eclipse-attack)*이라고도 함)와 같은 다른 가능한 공격과 이러한 공격에 대한 [Bitcoin core](https://planb.academy/resources/glossary/bitcoin-core)의 휴리스틱 대응 방식에 대한 설명도 나와 있습니다.
 
 
 위의 예는 주의해야 할 실제 위협의 예입니다.
@@ -1110,7 +1108,7 @@ Wallet 도난 및 서비스 거부 공격:
 예를 들어, 침투자가 어떻게 조직을 교란시킬 수 있는지에 대한 섹션이 있습니다. 이러한 전술이 누구나 참여할 수 있는 Bitcoin 개발 프로세스를 표적으로 삼는 데 어떻게 사용될 수 있는지 살펴보는 것은 Hard이 아닙니다. 전담 공격자는 관련 없는 문제를 끊임없이 제기하여 진행을 지연시키고, 정확한 표현을 놓고 흥정하고, 이미 포괄적으로 다루어진 논의를 되풀이하려고 시도할 수 있습니다. 공격자는 또한 자신의 효과를 배가하기 위해 트롤 군대를 고용할 수 있으며, 이를 소셜 Sybil Attack이라고 부를 수 있습니다. 소셜 Sybil Attack을 사용하면 제안된 변경 사항에 대해 실제보다 더 많은 저항이 있는 것처럼 보이게 만들 수 있습니다.
 
 
-이는 결단력 있는 국가는 적을 내부로부터 무너뜨리는 것을 포함하여 적을 파괴하기 위해 모든 것을 할 수 있고 할 것이라는 점을 강조합니다. Bitcoin는 기존 법정 화폐와 경쟁하는 화폐의 한 형태이기 때문에 국가는 Bitcoin를 적으로 간주할 가능성이 높습니다.
+이는 결단력 있는 국가는 적을 내부로부터 무너뜨리는 것을 포함하여 적을 파괴하기 위해 모든 것을 할 수 있고 할 것이라는 점을 강조합니다. Bitcoin는 기존 [법정 화폐](https://planb.academy/resources/glossary/fiat)와 경쟁하는 화폐의 한 형태이기 때문에 국가는 Bitcoin를 적으로 간주할 가능성이 높습니다.
 
 
 ### 저항의 공리
@@ -1150,7 +1148,7 @@ Bitcoin을 안전하게 지키려면 적과 그들의 동기를 알아야 합니
 ![](assets/ko/010.webp)
 
 
-Bitcoin는 오픈 소스 소프트웨어를 사용하여 구축되었습니다. 이 장에서는 이것이 무엇을 의미하는지, 소프트웨어의 유지 관리가 어떻게 이루어지는지, Bitcoin의 오픈 소스 소프트웨어가 어떻게 무허가 개발을 가능하게 하는지 분석합니다. 암호화 시스템에서 라이브러리의 선택과 사용을 다루는 *선택 암호화*에 대해서도 살펴봅니다. 이 장에서는 Bitcoin의 검토 프로세스에 대한 섹션과 Bitcoin 개발자가 자금을 조달하는 방법에 대한 섹션이 이어집니다. 마지막 섹션에서는 Bitcoin의 오픈소스 문화가 외부에서 보기에 어떻게 이상하게 보일 수 있는지, 그리고 왜 이렇게 이상하게 인식되는 것이 오히려 좋은 징조인지에 대해 이야기합니다.
+Bitcoin는 오픈 소스 소프트웨어를 사용하여 구축되었습니다. 이 장에서는 이것이 무엇을 의미하는지, 소프트웨어의 유지 관리가 어떻게 이루어지는지, Bitcoin의 오픈 소스 소프트웨어가 어떻게 무허가 개발을 가능하게 하는지 분석합니다. [암호화](https://planb.academy/resources/glossary/cryptography) 시스템에서 라이브러리의 선택과 사용을 다루는 *선택 암호화*에 대해서도 살펴봅니다. 이 장에서는 Bitcoin의 검토 프로세스에 대한 섹션과 Bitcoin 개발자가 자금을 조달하는 방법에 대한 섹션이 이어집니다. 마지막 섹션에서는 Bitcoin의 오픈소스 문화가 외부에서 보기에 어떻게 이상하게 보일 수 있는지, 그리고 왜 이렇게 이상하게 인식되는 것이 오히려 좋은 징조인지에 대해 이야기합니다.
 
 
 대부분의 Bitcoin 소프트웨어, 특히 Bitcoin core은 오픈 소스입니다. 즉, 소프트웨어의 소스 코드를 일반 대중이 조사, 수정, 수정 및 재배포할 수 있도록 공개합니다. 오픈 소스의 정의는 [](https://opensource.org/osd)에서 다음과 같은 중요한 사항을 포함하고 있습니다:
@@ -1168,14 +1166,14 @@ Bitcoin core는 [MIT 라이선스](https://github.com/Bitcoin/Bitcoin/blob/maste
 
 
 ```
-The MIT License (MIT)
+MIT 라이선스 (MIT)
 
-Copyright (c) 2009-2022 The Bitcoin Core developers
-Copyright (c) 2009-2022 Bitcoin Developers
+Copyright (c) 2009-2022 Bitcoin Core 개발자들
+Copyright (c) 2009-2022 Bitcoin 개발자들
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+이 소프트웨어 및 관련 문서 파일("소프트웨어")의 사본을 취득하는 모든 사람에게 무료로 사용, 복사, 수정, 병합, 게시, 배포, 재라이선스 및/또는 소프트웨어 사본 판매 권한을 포함하되 이에 국한되지 않는 제한 없이 소프트웨어를 취급할 수 있는 권한이 부여되며, 소프트웨어가 제공되는 사람에게도 다음 조건에 따라 동일한 권한이 허용됩니다:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+위의 저작권 고지 및 이 허가 고지는 소프트웨어의 모든 사본 또는 상당 부분에 포함되어야 합니다.
 ```
 
 
@@ -1189,7 +1187,7 @@ The above copyright notice and this permission notice shall be included in all c
 
 
 
-Bitcoin core의 소스 코드는 [GitHub](https://github.com/Bitcoin/Bitcoin)에서 호스팅되는 Git 리포지토리에서 유지 관리됩니다. 누구나 허가 없이 바로 이 리포지토리를 복제하여 로컬에서 검사, 빌드 또는 변경할 수 있습니다. 즉, 전 세계에 수천 개의 리포지토리 사본이 퍼져 있다는 뜻입니다. 모두 같은 리포지토리의 복사본인데, 이 특정 GitHub Bitcoin core 리포지토리가 특별한 이유는 무엇일까요? 기술적으로는 전혀 특별하지 않지만 사회적으로는 Bitcoin 개발의 중심이 되었습니다.
+Bitcoin core의 소스 코드는 [GitHub](https://github.com/Bitcoin/Bitcoin)에서 호스팅되는 [Git](https://planb.academy/resources/glossary/git) 리포지토리에서 유지 관리됩니다. 누구나 허가 없이 바로 이 리포지토리를 복제하여 로컬에서 검사, 빌드 또는 변경할 수 있습니다. 즉, 전 세계에 수천 개의 리포지토리 사본이 퍼져 있다는 뜻입니다. 모두 같은 리포지토리의 복사본인데, 이 특정 GitHub Bitcoin core 리포지토리가 특별한 이유는 무엇일까요? 기술적으로는 전혀 특별하지 않지만 사회적으로는 Bitcoin 개발의 중심이 되었습니다.
 
 
 Bitcoin 및 보안 전문가 제임스 롭은 [블로그 게시물](https://blog.lopp.net/who-controls-Bitcoin-core-/)에서 "누가 Bitcoin core을 제어하는가?"라는 제목으로 이에 대해 잘 설명합니다:
@@ -1230,10 +1228,10 @@ Bitcoin core 개발자인 에릭 롬브로조는 [미디엄 포스트](https://m
 
 
 
-- Lightning Network: 아주 적은 금액을 빠르게 결제할 수 있는 결제 네트워크입니다. On-Chain Bitcoin 트랜잭션이 매우 적게 필요합니다. 코어 라이트닝](https://github.com/ElementsProject/lightning), [LND](https://github.com/lightningnetwork/LND), [에클레어](https://github.com/ACINQ/eclair), [라이트닝 개발 키트](https://github.com/lightningdevkit) 등 다양한 상호 운용 가능한 구현이 존재합니다.
-- CoinJoin: 여러 당사자가 협력하여 결제를 단일 트랜잭션으로 결합하여 Address 클러스터링을 더 어렵게 만듭니다. 다양한 구현이 존재합니다.
-- 사이드체인: 이 시스템은 Bitcoin의 Coin를 다른 Blockchain에서 잠금 해제하기 위해 Bitcoin의 Blockchain에 Coin를 잠글 수 있습니다. 이를 통해 비트코인을 다른 Blockchain, 즉 Sidechain로 이동하여 해당 Sidechain에서 사용할 수 있는 기능을 사용할 수 있습니다. 예를 들면 [블록스트림의 Elements](https://github.com/ElementsProject/Elements) 등이 있습니다.
-- 오픈타임스탬프: 비공개 방식으로 Bitcoin의 Blockchain에 [문서 Timestamp](https://opentimestamps.org/)을 생성할 수 있습니다. 그런 다음 해당 Timestamp을 사용하여 특정 시간 이전에 문서가 존재했음을 증명할 수 있습니다.
+- [Lightning Network](https://planb.academy/resources/glossary/lightning-network): 아주 적은 금액을 빠르게 결제할 수 있는 결제 네트워크입니다. [On-Chain](https://planb.academy/resources/glossary/onchain) Bitcoin 트랜잭션이 매우 적게 필요합니다. 코어 라이트닝](https://github.com/ElementsProject/lightning), [LND](https://github.com/lightningnetwork/LND), [에클레어](https://github.com/ACINQ/eclair), [라이트닝 개발 키트](https://github.com/lightningdevkit) 등 다양한 상호 운용 가능한 구현이 존재합니다.
+- [CoinJoin](https://planb.academy/resources/glossary/coinjoin): 여러 당사자가 협력하여 결제를 단일 트랜잭션으로 결합하여 Address 클러스터링을 더 어렵게 만듭니다. 다양한 구현이 존재합니다.
+- 사이드체인: 이 시스템은 Bitcoin의 Coin를 다른 Blockchain에서 잠금 해제하기 위해 Bitcoin의 Blockchain에 Coin를 잠글 수 있습니다. 이를 통해 비트코인을 다른 Blockchain, 즉 [Sidechain](https://planb.academy/resources/glossary/sidechain)로 이동하여 해당 Sidechain에서 사용할 수 있는 기능을 사용할 수 있습니다. 예를 들면 [블록스트림의 Elements](https://github.com/ElementsProject/Elements) 등이 있습니다.
+- 오픈타임스탬프: 비공개 방식으로 Bitcoin의 Blockchain에 [문서 Timestamp](https://opentimestamps.org/)을 생성할 수 있습니다. 그런 다음 해당 [Timestamp](https://planb.academy/resources/glossary/timestamp)을 사용하여 특정 시간 이전에 문서가 존재했음을 증명할 수 있습니다.
 
 
 허가 없는 개발이 없었다면 이러한 프로젝트 중 상당수는 불가능했을 것입니다. 중립성 장에서 언급했듯이, 개발자가 Bitcoin을 기반으로 프로토콜을 개발하기 위해 허가를 요청해야 한다면 중앙 개발자 승인 위원회에서 허용한 프로토콜만 개발될 것입니다.
@@ -1326,7 +1324,7 @@ Bitcoin에서 가장 잘 알려진 가명은 Satoshi 나카모토입니다. 그�
 
 
 - Bitcoin-dev 메일링 리스트에 아이디어가 게시되었습니다
-- 이 아이디어는 Bitcoin 개선 제안(BIP)으로 공식화되었습니다
+- 이 아이디어는 Bitcoin 개선 제안([BIP](https://planb.academy/resources/glossary/bip))으로 공식화되었습니다
 - BIP는 Bitcoin core에 대한 풀 리퀘스트(PR)로 구현됩니다
 - 배포 메커니즘에 대해 설명합니다
 - 일부 경쟁 배포 메커니즘은 Bitcoin core에 대한 풀 리퀘스트에서 구현됩니다
@@ -1382,7 +1380,7 @@ Bitcoin의 지속적인 성공에 관심이 있는 기업, 개인, 단체는 직
 사람들은 때때로 Bitcoin 개발자들 사이에 내분이 많고 끝없는 격론이 벌어지며 의사 결정을 내리지 못한다는 인상을 받기도 합니다.
 
 
-예를 들어, Taproot 배포 메커니즘은 오랜 기간에 걸쳐 논의되었으며, 이 과정에서 두 개의 '진영'이 형성되었습니다. 한 진영은 특정 시점 이후에도 채굴자들이 압도적으로 새 규칙에 찬성하지 않으면 업그레이드를 '실패'시키기를 원했고, 다른 진영은 그 시점 이후에는 무슨 일이 있어도 규칙을 시행하길 원했습니다. 마이클 포크슨이 Bitcoin 개발 메일링 리스트에 보낸 [이메일](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html)에서 두 진영의 주장을 요약해 보았습니다.
+예를 들어, Taproot 배포 메커니즘은 오랜 기간에 걸쳐 논의되었으며, 이 과정에서 두 개의 '진영'이 형성되었습니다. 한 진영은 특정 시점 이후에도 [채굴자](https://planb.academy/resources/glossary/miner)들이 압도적으로 새 규칙에 찬성하지 않으면 업그레이드를 '실패'시키기를 원했고, 다른 진영은 그 시점 이후에는 무슨 일이 있어도 규칙을 시행하길 원했습니다. 마이클 포크슨이 Bitcoin 개발 메일링 리스트에 보낸 [이메일](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html)에서 두 진영의 주장을 요약해 보았습니다.
 
 
 논쟁은 영원히 계속될 것 같았고, 이에 대한 합의가 조만간 형성될 것으로 예상되는 것은 정말 Hard이었습니다. 이로 인해 사람들은 좌절감을 느꼈고 그 결과 열기는 더욱 뜨거워졌습니다. 그레고리 맥스웰(사용자 nullc)은 [Reddit에서](https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3) 긴 토론으로 인해 업그레이드의 안전성이 떨어질까 봐 걱정했습니다:
@@ -1390,7 +1388,7 @@ Bitcoin의 지속적인 성공에 관심이 있는 기업, 개인, 단체는 직
 
 > 현 시점에서는 추가 지연이 더 많은 검토와 확실성을 추가하는 것이 아닙니다. 대신, 추가 지연은 사람들이 세부 사항을 잊어버리고, 다운스트림 사용(예: Wallet 지원)에 대한 작업을 지연시키고, 활성화 기간에 대한 확신이 있다면 투자할 만큼의 추가 검토 노력을 투자하지 않기 때문에 관성을 약화시키고 잠재적으로 위험을 다소 증가시킬 수 있습니다.
 
-결국 이 분쟁은 데이비드 하딩과 러셀 오코너가 제안한 스피디 트라이얼이라는 새로운 제안 덕분에 해결되었는데, 이는 채굴자들이 Taproot의 활성화를 잠그거나 빠르게 실패할 수 있는 비교적 짧은 신호 기간을 수반하는 것이었습니다. 해당 기간 동안 Taproot을 활성화하면 약 6개월 후에 Taproot이 배포될 것입니다.
+결국 이 분쟁은 데이비드 하딩과 러셀 오코너가 제안한 [스피디 트라이얼](https://planb.academy/resources/glossary/speedy-trial)이라는 새로운 제안 덕분에 해결되었는데, 이는 채굴자들이 Taproot의 활성화를 잠그거나 빠르게 실패할 수 있는 비교적 짧은 신호 기간을 수반하는 것이었습니다. 해당 기간 동안 Taproot을 활성화하면 약 6개월 후에 Taproot이 배포될 것입니다.
 
 
 Bitcoin의 개발 과정에 익숙하지 않은 사람이라면 이러한 열띤 논쟁이 끔찍하게 나쁘고 심지어 독성이 있다고 생각할 수도 있습니다. 어떤 사람들의 눈에는 적어도 두 가지 요소가 나쁘게 보일 수 있습니다:
@@ -1414,7 +1412,7 @@ Bitcoin의 개발 과정에 익숙하지 않은 사람이라면 이러한 열띤
 재현 가능한 빌드, 새로운 종속성을 추가했거나 코드가 Bitcoin의 [모범 사례](https://github.com/Bitcoin/Bitcoin/blob/master/doc/developer-notes.md)를 따르지 않은 경우입니다.
 
 
-신규(및 기존) 개발자는 이 때문에 좌절할 수 있습니다. 하지만 오픈 소스 소프트웨어의 관례에 따라 언제든지 리포지토리를 Fork로 만들고, 원하는 것을 자신의 Fork에 병합하고, 자신만의 바이너리를 빌드하고 실행할 수 있습니다.
+신규(및 기존) 개발자는 이 때문에 좌절할 수 있습니다. 하지만 오픈 소스 소프트웨어의 관례에 따라 언제든지 리포지토리를 [Fork](https://planb.academy/resources/glossary/fork)로 만들고, 원하는 것을 자신의 Fork에 병합하고, 자신만의 바이너리를 빌드하고 실행할 수 있습니다.
 
 
 ### 오픈 소스에 대한 결론
@@ -1452,7 +1450,7 @@ Bitcoin의 맥락에서, 그리고 이 책의 목적을 위해 확장이란 *검
 
 - 트랜잭션 입력에 더 적은 바이트를 사용하도록 만들기
 - 서명 확인 성능 개선
-- P2P 네트워크의 대역폭 사용량 줄이기
+- [P2P](https://planb.academy/resources/glossary/peertopeer-p2p) 네트워크의 대역폭 사용량 줄이기
 - 트랜잭션 일괄 처리
 - 계층화된 아키텍처
 
@@ -1464,7 +1462,7 @@ Bitcoin의 맥락에서, 그리고 이 책의 목적을 위해 확장이란 *검
 
 
 
-스케일링은 Bitcoin의 Genesis 이후 논의의 초점이 되어왔습니다. Satoshi가 Cryptography 메일링 리스트에 Bitcoin 백서를 발표했을 때 보낸 [첫 번째 이메일](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html)의 첫 문장은 실제로 스케일링에 관한 것이었습니다:
+스케일링은 Bitcoin의 Genesis 이후 논의의 초점이 되어왔습니다. Satoshi가 Cryptography 메일링 리스트에 Bitcoin [백서](https://planb.academy/resources/glossary/white-paper)를 발표했을 때 보낸 [첫 번째 이메일](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html)의 첫 문장은 실제로 스케일링에 관한 것이었습니다:
 
 
 > Satoshi 나카모토가 썼습니다:
@@ -1521,7 +1519,7 @@ Bitcoin에서 수직 확장을 위해 가장 일반적으로 논의되는 기술
 - 블록을 검증하는 데는 시간이 걸립니다.
 
 
-블록 7이 네트워크를 통해 전파되는 동안 많은 채굴자는 아직 블록 7을 수신하고 검증하지 않았기 때문에 여전히 블록 6 위에 Mining을 가지고 있습니다. 이 기간 동안 이러한 채굴자 중 누구라도 높이 7에서 새로운 블록을 발견하면 해당 높이에서 두 개의 경쟁 블록이 존재하게 됩니다. 높이 7(또는 다른 높이)에는 하나의 블록만 있을 수 있으며, 이는 두 후보 중 하나가 부실해져야 함을 의미합니다.
+블록 7이 네트워크를 통해 전파되는 동안 많은 채굴자는 아직 블록 7을 수신하고 검증하지 않았기 때문에 여전히 블록 6 위에 Mining을 가지고 있습니다. 이 기간 동안 이러한 채굴자 중 누구라도 높이 7에서 새로운 블록을 발견하면 해당 높이에서 두 개의 경쟁 블록이 존재하게 됩니다. 높이 7(또는 다른 높이)에는 하나의 블록만 있을 수 있으며, 이는 두 후보 중 하나가 [부실](https://planb.academy/resources/glossary/stale-block)해져야 함을 의미합니다.
 
 
 즉, 부실 블록은 각 블록이 전파되는 데 시간이 걸리기 때문에 발생하며, 전파 시간이 길수록 부실 블록이 발생할 확률이 높아집니다.
@@ -1537,7 +1535,7 @@ Bitcoin에서 수직 확장을 위해 가장 일반적으로 논의되는 기술
 
 
 - 들어오는 블록의 유효성 검사를 연기하는 것으로, *무검증 Mining*라고도 합니다. 채굴자는 전체 블록을 다운로드하고 유효성을 검사하는 동안 블록 헤더의 Proof-of-Work을 확인하고 그 위에 채굴할 수 있습니다.
-- 더 큰 대역폭과 연결성을 갖춘 Mining pool에 연결합니다.
+- 더 큰 대역폭과 연결성을 갖춘 Mining [pool](https://planb.academy/resources/glossary/pool-mining)에 연결합니다.
 
 
 무검증 Mining은 Miner가 적어도 일시적으로 들어오는 블록을 신뢰하기 때문에 Full node 탈중앙화를 더욱 약화시킵니다. 또한 네트워크 컴퓨팅 파워의 일부가 가장 강력하고 유효한 체인에 구축되는 것이 아니라 잠재적으로 유효하지 않은 Blockchain에 구축되기 때문에 보안이 어느 정도 손상됩니다.
@@ -1594,7 +1592,7 @@ Bitcoin에서 수직 확장을 위해 가장 일반적으로 논의되는 기술
 개선 사항은 공간(RAM, 디스크, 대역폭 등) 절약 또는 컴퓨팅 성능 절약으로 분류할 수 있습니다. 두 범주 모두 위 다이어그램의 개선에 기여합니다.
 
 
-계산 개선의 좋은 예는 디지털 서명을 만들고 검증하는 데 필요한 암호화 프리미티브를 구현하는 [libsecp256k1](https://github.com/Bitcoin-core/secp256k1) 라이브러리에서 찾을 수 있습니다. 이 라이브러리의 기여자 중 한 명인 Pieter Wuille은 다양한 풀 리퀘스트를 통해 달성한 성능 개선을 소개하는 [Twitter 스레드](https://twitter.com/pwuille/status/1450471673321381896)를 작성했습니다.
+계산 개선의 좋은 예는 [디지털 서명](https://planb.academy/resources/glossary/digital-signature)을 만들고 검증하는 데 필요한 암호화 프리미티브를 구현하는 [libsecp256k1](https://github.com/Bitcoin-core/secp256k1) 라이브러리에서 찾을 수 있습니다. 이 라이브러리의 기여자 중 한 명인 Pieter Wuille은 다양한 풀 리퀘스트를 통해 달성한 성능 개선을 소개하는 [Twitter 스레드](https://twitter.com/pwuille/status/1450471673321381896)를 작성했습니다.
 
 
 ![](assets/ko/013.webp)
@@ -1617,7 +1615,7 @@ Bitcoin에서 수직 확장을 위해 가장 일반적으로 논의되는 기술
 다양한 지출 유형, Taproot 및 레거시 버전에 대한 공간 절약.
 
 
-기본 SegWit를 사용하는 2/3 Multisig의 경우 총 104.5+43vB = 147.5vB가 필요한 반면, 가장 공간 절약적인 Taproot의 경우 표준 사용 사례에서 57.5+43vB = 100.5vB만 필요합니다. 어떤 이유로 표준 서명자를 사용할 수 없는 경우와 같이 최악의 경우와 드문 경우에 Taproot은 107.5+43vB = 150.5vB를 사용합니다. 모든 세부 사항을 이해할 필요는 없지만 개발자가 공간 절약에 대해 어떻게 생각하는지, 모든 작은 바이트가 중요하다는 것을 알 수 있습니다.
+기본 SegWit를 사용하는 2/3 [Multisig](https://planb.academy/resources/glossary/multisig)의 경우 총 104.5+43vB = 147.5vB가 필요한 반면, 가장 공간 절약적인 Taproot의 경우 표준 사용 사례에서 57.5+43vB = 100.5vB만 필요합니다. 어떤 이유로 표준 서명자를 사용할 수 없는 경우와 같이 최악의 경우와 드문 경우에 Taproot은 107.5+43vB = 150.5vB를 사용합니다. 모든 세부 사항을 이해할 필요는 없지만 개발자가 공간 절약에 대해 어떻게 생각하는지, 모든 작은 바이트가 중요하다는 것을 알 수 있습니다.
 
 
 Bitcoin 소프트웨어의 내부 확장 외에도 사용자가 내부 확장에 기여할 수 있는 몇 가지 방법이 있습니다. 트랜잭션을 보다 지능적으로 처리하여 트랜잭션 수수료를 절감하는 동시에 Full node 요구사항에 대한 풋프린트를 줄일 수 있습니다. 이러한 목표를 위해 일반적으로 사용되는 두 가지 기술은 트랜잭션 일괄 처리와 출력 통합입니다.
@@ -1667,7 +1665,7 @@ Bitcoin 소프트웨어의 내부 확장 외에도 사용자가 내부 확장에
 시작 트랜잭션이 Blockchain에 있으면 프로토콜이 해야 할 일을 할 수 있습니다. 예를 들어, 참가자 간의 초고속 결제, 개인 정보 보호 강화 기술 구현, Bitcoin에서는 지원되지 않는 고급 스크립팅을 수행할 수 있습니다.
 
 
-구체적인 프로토콜의 작동 방식은 자세히 설명하지 않겠지만, 이전 그림에서 볼 수 있듯이 Blockchain은 프로토콜의 수명 주기 동안 거의 사용되지 않습니다. 모든 중요한 작업은 *off-chain*에서 이루어집니다. 이 프로토콜을 올바르게 사용하면 개인정보 보호에 도움이 될 뿐만 아니라 확장성 측면에서도 이점이 될 수 있습니다.
+구체적인 프로토콜의 작동 방식은 자세히 설명하지 않겠지만, 이전 그림에서 볼 수 있듯이 Blockchain은 프로토콜의 수명 주기 동안 거의 사용되지 않습니다. 모든 중요한 작업은 *[off-chain](https://planb.academy/resources/glossary/offchain)*에서 이루어집니다. 이 프로토콜을 올바르게 사용하면 개인정보 보호에 도움이 될 뿐만 아니라 확장성 측면에서도 이점이 될 수 있습니다.
 
 
 "달 여행에는 여러 단계의 로켓이 필요하며, 그렇지 않으면 로켓 방정식이 점심을 잡아먹을 것입니다... 광대 차 스타일로 모두를 트레버켓에 태우고 성공을 기대하는 것은 옳지 않습니다."라는 제목의 [Reddit 게시물](https://www.reddit.com/r/Bitcoin/comments/438hx0/a_trip_to_the_moon_requires_a_rocket_with/)에서 Gregory Maxwell은 레이어링이 Bitcoin의 규모를 수 배로 확대하는 데 가장 좋은 방법인 이유를 설명합니다.
@@ -1747,7 +1745,7 @@ Bitcoin는 사람이 만듭니다. 사람들이 소프트웨어를 작성하고 
   - 마스터에서 현재 릴리스된 버전으로 수정 또는 해결 방법을 백포트합니다
 - 개발자는 취약점에 대한 정보를 받지 못한 숙련된 개발자에게 제안된 수정 사항을 제공하여 취약점을 수정한다고 알리고 취약점을 식별하도록 요청함으로써 수정 사항의 공개로 인해 취약점의 특성이 드러나지 않도록 합니다.
 - 개발자는 취약점을 공개하지 않고도 취약점 수정을 적용할 수 있는 경우(예: 수정이 포함을 정당화할 만한 상당한 성능 이점이 있는 경우) 수정이 공개되고 널리 배포되기 전에 다른 Bitcoin 구현에 취약점 수정을 채택할 것을 권장할 수 있습니다.
-- 취약점이 공개되기 전에 개발자는 일반적으로 우호적인 Altcoin 개발자에게 수정 사항을 따라잡으라고 권장합니다. 하지만 이는 Bitcoin 네트워크에 수정 사항이 널리 배포된 후에나 가능합니다.
+- 취약점이 공개되기 전에 개발자는 일반적으로 우호적인 [Altcoin](https://planb.academy/resources/glossary/altcoin) 개발자에게 수정 사항을 따라잡으라고 권장합니다. 하지만 이는 Bitcoin 네트워크에 수정 사항이 널리 배포된 후에나 가능합니다.
 - 개발자는 일반적으로 적대적인 방식으로 행동(예: 취약점을 사용하여 다른 사람을 공격하거나 엠바고를 위반하는 행위)을 한 Altcoin 개발자에게는 알리지 않습니다.
 - Bitcoin 개발자는 Bitcoin 노드의 80% 이상이 수정 사항을 배포할 때까지 취약점 세부 정보를 공개하지 않습니다. 취약점 발견은 권장되며 동일한 정책을 따르도록 요청됩니다. [1] [6]
 
@@ -1808,7 +1806,7 @@ pc = pend;
 break;
 ```
 
-Pc = pend;`의 효과는 프로그램의 나머지 부분을 건너뛰는 것이었고, 이는 scriptPubKey의 모든 잠금 스크립트가 무시된다는 것을 의미했습니다. 수정은 `OP_RETURN`의 의미를 변경하여 즉시 실패하도록 하는 것으로 이루어졌습니다.
+Pc = pend;`의 효과는 프로그램의 나머지 부분을 건너뛰는 것이었고, 이는 scriptPubKey의 모든 잠금 스크립트가 무시된다는 것을 의미했습니다. 수정은 `[OP_RETURN](https://planb.academy/resources/glossary/op-return-0x6a)`의 의미를 변경하여 즉시 실패하도록 하는 것으로 이루어졌습니다.
 
 
 ```
@@ -2065,12 +2063,12 @@ BIP66을 둘러싼 사건의 타임라인. 검은색으로 표시된 항목은 �
 
 
 
-아무도 이 문제에 대해 알지 못했다면, 트랜잭션 위변조 가능성을 줄이기 위한 제안인 현재 확대된 BIP62로 해결할 수 있었을 것입니다. BIP62에서 제안된 변경 사항 중에는 서명 인코딩에 대한 합의 규칙, 즉 "엄격한 DER 인코딩"의 강화가 포함되어 있었습니다. 피터 우일은 2014년 7월에 이 문제를 해결할 수 있는 BIP에 대한 몇 가지 조정을 제안했습니다:
+아무도 이 문제에 대해 알지 못했다면, 트랜잭션 위변조 가능성을 줄이기 위한 제안인 현재 확대된 BIP62로 해결할 수 있었을 것입니다. BIP62에서 제안된 변경 사항 중에는 서명 인코딩에 대한 합의 규칙, 즉 "엄격한 [DER](https://planb.academy/resources/glossary/der) 인코딩"의 강화가 포함되어 있었습니다. 피터 우일은 2014년 7월에 이 문제를 해결할 수 있는 BIP에 대한 몇 가지 조정을 제안했습니다:
 
 
 > 2014-Jul-18: Bitcoin의 서명 인코딩 규칙이 OpenSSL의 특정 파서에 의존하지 않도록 하기 위해, 저는 엄격한 DER 서명 요구 사항이 버전 1 트랜잭션에도 적용되도록 BIP62 제안을 수정했습니다. 당시에는 더 이상 비 DER 서명이 블록으로 채굴되지 않았기 때문에 이는 아무런 영향을 미치지 않는다고 가정했습니다. Https://github.com/Bitcoin/BIPs/pull/90 및 http://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2014-July/006299.html 참조. 당시에는 알려지지 않았지만, 배포되었다면 이 취약점이 해결되었을 것입니다.
 
-이 BIP는 "엄격한 DER 인코딩" 이상의 광범위한 내용을 다루었기 때문에 끊임없이 변경되었고 배포에 근접하지 못했습니다. 이후 분리된 증인인 BIP141이 트랜잭션 가변성을 보다 완벽하고 다른 방식으로 해결했기 때문에 BIP는 철회되었습니다.
+이 BIP는 "엄격한 DER 인코딩" 이상의 광범위한 내용을 다루었기 때문에 끊임없이 변경되었고 배포에 근접하지 못했습니다. 이후 분리된 증인인 BIP141이 [트랜잭션 가변성](https://planb.academy/resources/glossary/malleability-transaction)을 보다 완벽하고 다른 방식으로 해결했기 때문에 BIP는 철회되었습니다.
 
 
 ##### 발견 후

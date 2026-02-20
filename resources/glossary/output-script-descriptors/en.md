@@ -1,5 +1,6 @@
 ---
-term: OUTPUT SCRIPT DESCRIPTORS
+term: Output script descriptors
+definition: Structured expressions describing an output script and the information to restore a wallet.
 ---
 
 Output script descriptors, or simply descriptors, are structured expressions that fully describe an output script (`scriptPubKey`) and provide all the necessary information to track transactions to or from a specific script. These descriptors facilitate the management of keys in HD wallets through a standard description of the structure and types of addresses used.

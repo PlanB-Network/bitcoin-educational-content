@@ -1,0 +1,9 @@
+question: Který statistický princip vysvětluje, že frekvence nalezených bloků v dlouhodobém horizontu konverguje k podílu hashrate?
+answer: Zákon velkých čísel
+wrong_answers:
+  - Bayesova věta
+  - Narozeninový paradox
+  - Princip nejmenší akce
+explanation: |
+  Konvergence výsledků je způsobena zákonem velkých čísel, protože každý hash je nezávislý pokus.
+reviewed: false

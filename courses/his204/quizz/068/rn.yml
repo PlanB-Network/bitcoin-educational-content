@@ -1,8 +1,9 @@
-question: Ni kubera iki Dupont de Nemours yari umuntu adasanzwe mw’ishure ry’ubuhinga bw’umubiri?
+question: Ni kubera iki Dupont de Nemours yari umuntu adasanzwe mw’ishure ry'aba Physiocrats?
 answer: Ni we yari umuto .
 wrong_answers:
-  - Ni we yari umukuru kuruta abandi bose .
+  - Ni we yari afise imyaka myinshi .
   - Ni we yari umutunzi kuruta abandi bose .
   - Ni we yari azi kuvuga neza kuruta abandi bose .
 explanation: |
-  Dupont de Nemours yari umwe mu batoyi cane bo mw’ishure ry’ubuhinga bw’umubiri, ivyo bikaba vyatumye ashobora gukora igihe kirekire kandi kidasanzwe mu vya politike no mu vy’ubutunzi.
+  Dupont de Nemours yari umwe mu batoyi cane bo mw’ishure ry’ubuhinga b'aba Physiocrats, ivyo bikaba vyatumye ashobora gukora igihe kirekire kandi kidasanzwe mu vya politike no mu vy’ubutunzi.
+reviewed: true

@@ -1,6 +1,7 @@
 ---
-term: STONEWALL
+term: Stonewall
 
+definition: Transaksi Bitcoin non-kolaboratif yang meniru coinjoin untuk meningkatkan privasi saat membelanjakan dana.
 ---
 Sebuah bentuk transaksi Bitcoin khusus yang bertujuan untuk meningkatkan privasi pengguna selama melakukan pembelanjaan dengan meniru koin bersama antara dua orang, tanpa benar-benar menjadi satu. Memang, transaksi ini tidak bersifat kolaboratif. Seorang pengguna dapat membuatnya sendiri, dengan hanya melibatkan UTXO mereka sendiri sebagai input. Oleh karena itu, Anda dapat membuat transaksi Stonewall untuk setiap kesempatan, tanpa perlu melakukan sinkronisasi dengan pengguna lain.
 
@@ -11,7 +12,7 @@ Dengan demikian, hanya ada 2 peran dalam transaksi Stonewall:
 - Pengirim, yang melakukan pembayaran yang sebenarnya;
 - Penerima, yang mungkin tidak menyadari sifat spesifik dari transaksi dan hanya menunggu pembayaran dari pengirim.
 
-![](../../dictionnaire/assets/33.webp)
+
 
 Transaksi Stonewall tersedia di aplikasi Samourai Wallet dan perangkat lunak Sparrow Wallet.
 

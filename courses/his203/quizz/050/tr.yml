@@ -1,0 +1,10 @@
+question: Ross Ulbricht Şubat 2012'den itibaren Silk Road'un yöneticisi olarak hangi takma adı kullanmıştır?
+answer: Dread Pirate Roberts
+wrong_answers:
+  - Altoid
+  - Harbringer'ın Gölgesi
+  - Kırk Yaşında Korsan
+explanation: |
+ Ross Ulbricht bu takma adı 1987 yapımı The Princess Bride filmine atıfta bulunarak seçmiştir. Bu filmde isim, bir korsandan diğerine geçebilen bir tür unvandır
+ taşıyıcının gerçek kimliğinin gizlenmesini ve düşmanlarına "gerekli korkuyu salmasını" sağlar.
+reviewed: true

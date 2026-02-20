@@ -5,7 +5,5 @@ wrong_answers:
   - Proponer e implementar cambios en el código base de Bitcoin
   - Competir con otros mineros
 explanation: |
-  Los nodos son esenciales para la integridad y seguridad de la red de Bitcoin.
-  Actúan como los guardianes del sistema, asegurando que las transacciones
-  se procesen de manera precisa y de acuerdo con las reglas.
-reviewed: false
+  Los nodos son esenciales para la integridad y seguridad de la red de Bitcoin. Actúan como los guardianes del sistema, asegurando que las transacciones se procesen de manera precisa y de acuerdo con las reglas.
+reviewed: true

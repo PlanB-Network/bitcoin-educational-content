@@ -1,5 +1,6 @@
 ---
 term: Bitcoin XT
+definition: Gaffel (fork) från 2015 som föreslog att öka blockstorleken till 8 MB, ursprunget till Blocksize War.
 ---
 
 Bitcoin XT är en Fork av Bitcoin som lanserades 2015 av den välkända utvecklaren Mike Hearn och stöds av Gavin Andresen (tidigare huvudansvarig för Bitcoin efter Satoshi:s avgång). Ursprungligen var Bitcoin XT en implementering av Bitcoin-protokollet som var kompatibel med Bitcoin Core. I augusti 2015 antog dock Bitcoin XT version 0.11A BIP101: ett föreslaget Hard Fork för att öka blockstorleksgränsen från 1 MB till 8 MB, med en planerad fördubbling av denna storlek vartannat år tills den når drygt 8 GB per block 2036. Detta förslag var en av huvudorsakerna till Blocksize War som pågick mellan 2015 och 2017. Det stöddes av en betydande del av miners och av inflytelserika företag som BitPay, Blockchain.info och Circle. I slutändan lyckades Bitcoin XT inte få tillräckligt med stöd från communityn, och Mike Hearn skulle så småningom meddela att han lämnade communityn och sålde sina bitcoins. Han uttryckte sin besvikelse i ett blogginlägg, där han framför allt konstaterade att Bitcoin hade misslyckats.

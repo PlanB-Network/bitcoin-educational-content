@@ -1,4 +1,4 @@
-question: Un desarrollador quiere probar la emisión de activos en Elements sin dependencias externas ni esperar confirmaciones de bloque: ¿qué configuración debe utilizar?
+question: "Un desarrollador quiere probar la emisión de activos en Elements sin dependencias externas ni esperar confirmaciones de bloque: ¿qué configuración debe utilizar?"
 answer: Establezca chain=elementsregtest para crear un entorno de pruebas local con generación instantánea de bloques
 wrong_answers:
   - Establezca chain=liquidv1 para conectarse a la red principal de Liquid para realizar pruebas inmediatas

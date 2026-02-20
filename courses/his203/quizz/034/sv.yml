@@ -1,0 +1,10 @@
+question: Vad var konceptet bakom P2Pool, den distribuerade mining-poolen som skapades av Forrest Voight 2011?
+answer: Aktiekedjan
+wrong_answers:
+  - Lång polling
+  - Coinbase-signaturen
+  - FPGA:n
+explanation: |
+ "Aktiekedjan", eller sharechain, bestod av partiella bevis på arbete som deltagarna bidragit med. Den upprätthölls av deltagarna, som var anslutna
+ peer-to-peer. Varje andel innehöll fingeravtrycket från den föregående andelen, vilket säkerställde helheten.
+reviewed: true

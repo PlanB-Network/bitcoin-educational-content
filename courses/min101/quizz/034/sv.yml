@@ -1,0 +1,9 @@
+question: Vad ändrar halveringen i Bitcoin?
+answer: Blocksubventionen
+wrong_answers:
+  - Transaktionsavgifter
+  - Blockstorlek
+  - Svårighetsmål
+explanation: |
+  Halveringen halverar den maximala subventionen som skapas per block, utan att påverka avgifterna.
+reviewed: false

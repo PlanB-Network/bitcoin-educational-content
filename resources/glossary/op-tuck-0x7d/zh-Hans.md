@@ -1,6 +1,7 @@
 ---
-term: OP_TUCK (0x7D)
+term: OP_TUCK (0X7D)
 
+definition: 复制堆栈顶部并将其插入第三个位置的Opcode。
 ---
 复制堆栈顶部的项目，并将其插入堆栈的第二和第三个项目之间。例如，如果堆栈为：
 

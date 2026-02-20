@@ -58,7 +58,7 @@ Desde 2017, o Arch Linux já não suporta arquitecturas de 32 bits. Apenas estã
 
 
 
-- Visite [o sítio Web oficial] (https://mir.archlinux.fr/iso/latest/) para transferir a versão oficial mais recente da imagem ISO.
+- Visite [o sítio Web oficial](https://mir.archlinux.fr/iso/latest/) para transferir a versão oficial mais recente da imagem ISO.
 
 
 
@@ -72,7 +72,7 @@ Para criar uma unidade flash USB de arranque, pode utilizar uma ferramenta como 
 
 
 
-- Descarregar o Balena Etcher a partir do [sítio Web oficial] (https://etcher.balena.io).
+- Descarregar o Balena Etcher a partir do [sítio Web oficial](https://etcher.balena.io).
 - Inicie o software, selecione a imagem ISO do Arch Linux.
 - Escolha a sua chave USB como dispositivo de destino.
 - Clique em **Flash** para começar a criar a chave de arranque.
@@ -265,20 +265,22 @@ Escolha **GPT** se estiver na UEFI, **DOS** se estiver na BIOS.
 
 
 
-| Point de montage sur le système installé | Partition                 | Type de partition       | Taille suggérée |
+
+| Ponto de montagem no sistema instalado | Partição                 | Tipo de partição       | Tamanho sugerido |
 | ---------------------------------------- | ------------------------- | ----------------------- | --------------- |
-| /boot1                                   | /dev/efi_system_partition | Partition système EFI   | 1 Go            |
-| [SWAP]                                   | /dev/swap_partition       | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition       | Racine Linux x86-64 (/) | Reste du disque |
+| /boot1                                   | /dev/efi_system_partition | Partição do Sistema EFI   | 1 GB            |
+| [SWAP]                                   | /dev/swap_partition       | Espaço de troca (swap) | Pelo menos 4 GB   |
+| /                                        | /dev/root_partition       | Linux x86-64 raiz (/) | Resto do disco |
 
 - Na BIOS
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| Ponto de montagem no sistema instalado | Partição           | Tipo de partição       | Tamanho sugerido |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | Espaço de troca (swap) | Pelo menos 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | Resto do disco |
 
 ![0_10](assets/fr/10.webp)
 

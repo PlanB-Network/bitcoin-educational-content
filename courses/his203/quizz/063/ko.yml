@@ -1,0 +1,10 @@
+question: 2012년 3월 1일에 발생한 리노드 호스팅 서비스 해킹의 영향을 받지 않은 Bitcoin 생태계 서비스는 무엇인가요?
+answer: 찰리 슈렘이 관리하는 비트인스턴트 외환 서비스
+wrong_answers:
+  - 저우퉁이 관리하는 Bitcoinica 거래 플랫폼
+  - 슬러시에서 관리하는 BitcoinCZ Mining mining 협동조합
+  - 개빈 안드레센이 관리하는 Bitcoin 수도꼭지
+explanation: |
+ 해커는 회사의 고객 서비스 포털에 접속하여 8개의 계정을 장악했는데, 이 계정들은 모두 Bitcoin와 관련이 있었습니다. 그는 43,554개의
+ 비트코인을 압수하고, Slush의 협동 핫 wallet에서 3,094 비트코인을 빼냈으며, 개빈의 Bitcoin 수도꼭지에 있던 5 비트코인을 손에 넣었습니다.
+reviewed: true

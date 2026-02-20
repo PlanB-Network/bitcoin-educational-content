@@ -1,0 +1,9 @@
+question: 記錄比特幣支付歷史的共享公共帳本稱為什麼？
+answer: 區塊鏈
+wrong_answers:
+  - 記憶體池 (mempool)
+  - 錢包 (wallet)
+  - 算力 (hashrate)
+explanation: |
+  包含所有交易的共享公共帳本就是區塊鏈。
+reviewed: false

@@ -1,0 +1,8 @@
+question: Ni itandukaniro irihe rikomeye hagati y’ingene ubwoba n’Inyishu bifata amakosa mu bikorwa vya Rust?
+answer: Ubwoba burahagarika gukora ubwo nyene kandi ntibushobora gukira, mu gihe Result ireka abahamagara bagafata neza amakosa .
+wrong_answers:
+  - Ubwoba butanga amakuru y'ido n'ido y'ikosa mu gihe Igisubizo kigaragaza gusa ukuroranirwa canke ukunanirwa ataco bivuze
+  - Ubwoba ni thread-safe kandi bushobora gukorwa ku ndodo zose, mu gihe amakosa y'Igisubizo agarukira ku ndodo imwe
+  - Ubwoba buca bufata amakosa muri sisitemu mu gihe igisubizo gisaba kwandika amakosa n'amaboko no gutanga raporo
+explanation: |
+  Ubwoba bugereranya amakosa adashobora gusubirwamwo ahita ahagarika igikorwa biciye mu gufungura canke gukuraho, bikaba bidashoboka ko kode yo guhamagara ishobora gukorana n’iryo kosa no kubandanya. Igisubizo, nk'ibara ririmwo Ok(agaciro) canke Err(ikosa), rihatira abahamagara kwemera ko hariho ukunanirwa no guhitamwo ingene bovyishura - haba mu gufata ikosa, gutanga ivya kera, canke kurikwiragiza hejuru y'ikirundo c'amahamagara. Iryo tandukaniro ry’ishimikiro rituma Result ari yo ihitamwo ryiza ku makosa ashobora gusubirwamwo mu mategeko y’uguhingura, mu gihe ubwoba bukwiye gushirwa ku bihe vy’ukuri bidashobora gusubirwamwo canke ku bintu vy’iterambere.

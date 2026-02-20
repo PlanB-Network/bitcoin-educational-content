@@ -1,0 +1,8 @@
+question: Que limitação crítica dos ecossistemas de aplicações móveis foi revelada pela aplicação Breez original que influenciou o desenvolvimento da arquitetura do SDK?
+answer: As aplicações móveis não podem comunicar facilmente entre si, obrigando os programadores a criar todas as funcionalidades do Lightning em aplicações únicas, em vez de partilharem a infraestrutura do Lightning
+wrong_answers:
+  - Os dispositivos móveis não têm poder computacional suficiente para executar nós de iluminação de forma fiável, exigindo uma infraestrutura baseada na nuvem para tratar de cálculos de encaminhamento complexos
+  - Os sistemas operativos móveis restringem demasiado os processos em segundo plano, impedindo os nós Lightning de manterem ligações persistentes à rede
+  - As lojas de aplicações móveis proíbem as aplicações financeiras sem custódia, obrigando os programadores a implementar soluções de custódia para obter a aprovação da loja de aplicações
+explanation: |
+  O aplicativo Breez original demonstrou que os ecossistemas móveis não facilitam a comunicação entre aplicativos, impedindo que aplicativos especializados aproveitem a infraestrutura compartilhada do Lightning. Esta limitação arquitetónica forçou toda a funcionalidade do Lightning a aplicações monolíticas. As outras opções estão incorrectas: os dispositivos móveis podem executar nós Lightning (como o Breez provou), as restrições de fundo são geríveis com uma arquitetura adequada e as lojas de aplicações geralmente permitem aplicações financeiras sem custódia.

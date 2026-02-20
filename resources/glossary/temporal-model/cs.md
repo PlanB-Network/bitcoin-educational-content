@@ -1,6 +1,7 @@
 ---
-term: DOČASNÝ MODEL
+term: Časový model
 
+definition: Analýza časů šíření transakcí k odvození povahy nebo polohy on-chain subjektu.
 ---
 Určité lidské chování je rozpoznatelné v řetězci. Snad nejužitečnější v řetězové analýze je váš spánkový vzorec! Ano, když spíte, pravděpodobně nevysíláte bitcoinové transakce. Obecně platí, že spíte přibližně ve stejnou dobu. Proto se při analýze řetězce běžně používají časové analýzy. Ta jednoduše spočívá v zaznamenávání časů, kdy jsou transakce daného subjektu vysílány do sítě Bitcoin. Analýza těchto časových vzorců nám umožňuje odvodit řadu informací.
 

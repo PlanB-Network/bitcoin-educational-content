@@ -1,5 +1,6 @@
 ---
-term: MERCHANT
+term: Händler
 
+definition: Person oder Einrichtung, die bereit ist, Waren oder Dienstleistungen gegen Bitcoins einzutauschen.
 ---
 Jede natürliche oder juristische Person, die sich bereit erklärt, eine Ware oder Dienstleistung gegen Bitcoins einzutauschen. Es sind diese Händler, die dem Bitcoin seinen Nutzen verleihen. Je mehr eine Währung von einem breiten Spektrum von Händlern akzeptiert wird, desto nützlicher wird sie für den Einzelnen. Da Händler die Möglichkeit haben, den Nutzen einer Währung zu bestimmen, indem sie zustimmen, sie gegen Waren und Dienstleistungen einzutauschen, haben sie im Fall von Bitcoin auch einen erheblichen Einfluss auf die Wahl der Konsensregeln. Jeder hat eine gewisse Macht, die proportional zu der wirtschaftlichen Aktivität ist, die er in eine Abspaltung einbringen kann. Unter den Händlern gibt es natürlich Unternehmen, aber auch Tauschplattformen, Miner und Nutzer.

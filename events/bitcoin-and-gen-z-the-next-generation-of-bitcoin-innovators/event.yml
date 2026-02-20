@@ -1,0 +1,25 @@
+id: f4aacfec-0728-45e3-8676-7db4a17a4b0b
+start_date: 2026-02-24 17:00:00
+end_date: 2026-02-24 20:00:00
+timezone: Europe/Madrid
+address_city_country: Barcelona, Spain
+address_line_2: Pg. de Gràcia, 19, Planta Baja
+address_line_3: L'Eixample, 08007
+name: Bitcoin and Gen Z - The next generation of Bitcoin Innovators
+type: workshop
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: |
+  A Barcelona Bitcoin Hub event featuring Autumn Domingo, a Gen Z voice in Bitcoin, discussing how younger generations are transforming the workplace and Bitcoin's role as an opportunity for the future. The event includes a talk on bridging the gap between education and market demands, followed by networking with drinks and optional dinner.
+  
+  Warning: information may change. Booking and up-to-date information are on SATLANTIS.
+language:
+  - en
+links:
+  website: https://www.satlantis.io/events/1710/Bitcoin-and-Gen-Z---The-next-generation-of-Bitcoin-Innovators
+  replay_url: 
+  live_url: 
+tags:
+  - adoption
+  - innovation

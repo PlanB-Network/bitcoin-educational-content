@@ -1,5 +1,6 @@
 ---
-term: PRETPOSTAVI VAŽEĆE
+term: Assume valid
+definition: Parametar Bitcoin Core-a koji omogućava preskakanje verifikacije potpisa za blokove pre određene tačke, ubrzavajući inicijalnu sinhronizaciju.
 ---
 
 Konfiguracioni parametar u većinskom klijentu Bitcoin Core koji omogućava čvoru koji je upravo inicijalizovan (ali još nije izvršio IBD) da preskoči verifikaciju potpisa za sve transakcije uključene u blokove pre određenog datog bloka. Ovaj poznati blok je definisan otiskom njegovog zaglavlja, tj. njegovim Hash. Izabrani blok se obnavlja sa svakom novom verzijom Bitcoin Core. Po svojoj inicijalizaciji, ako je čvor aktivirao ovaj parametar, proveriće lanac zaglavlja blokova kako bi pronašao granu sa najviše akumuliranog rada. Ako čvor detektuje Hash koji je obezbedio Core u grani koju je izabrao, izostaviće verifikaciju potpisa za prethodne blokove. U suprotnom, čvor će nastaviti sa tradicionalnom sinhronizacijom (IBD) kako bi sve proverio samostalno.

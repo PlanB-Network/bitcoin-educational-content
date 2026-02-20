@@ -1,0 +1,8 @@
+question: Amri ya `cargo new project_name` huunda nini kiotomatiki kama sehemu ya muundo wa mradi?
+answer: Hifadhi ya Git, faili ya Cargo.toml, na faili ya msingi ya main.rs yenye programu ya Hello World
+wrong_answers:
+  - Faili ya usanidi wa Cargo.toml pekee na muundo tupu wa saraka chanzo
+  - Seti kamili ya majaribio, faili za nyaraka, na usanidi ulio tayari kwa uzalishaji
+  - Faili zinazoweza kutekelezwa za binary, saraka lengwa, na usanidi wa muundo wa kutolewa
+explanation: |
+  Amri ya `cargo new` huunda msingi kamili wa mradi ikijumuisha hazina ya Git kwa ajili ya udhibiti wa matoleo, faili ya Cargo.toml kwa ajili ya usanidi na utegemezi wa mradi, na faili ya msingi ya main.rs iliyo na programu ya 'Hello, world!'. Hii hutoa kila kitu kinachohitajika ili kuanza uundaji mara moja. Chaguzi zingine si sahihi kwa sababu cargo new haiundi vyumba vya majaribio, faili za nyaraka, jozi zinazoweza kutekelezwa, au kujenga mabaki - inaweka tu muundo wa awali wa mradi.

@@ -1,5 +1,6 @@
 ---
-term: 無聲支付
+term: 靜默支付 (Silent payments)
+definition: 一種通過靜態地址接收付款而無需重複使用地址的方法。
 ---
 
 使用靜態 Bitcoin 位址接收付款的方法，無需 Address 重複使用、無需互動，且不同付款與靜態 Address 之間無可見的 On-Chain 連結。此技術不需要為每筆交易 generate 新的、未使用的收款位址，因此避免了 Bitcoin 中收款人必須提供新的 Address 給付款人的一般互動。

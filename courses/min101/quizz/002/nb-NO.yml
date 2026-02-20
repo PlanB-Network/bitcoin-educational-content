@@ -1,0 +1,9 @@
+question: Hvilken påstand om mempoolen er korrekt?
+answer: Hver node har sin egen mempool
+wrong_answers:
+  - Det finnes én enkelt unik mempool
+  - Mempoolen er en fil som finnes i hver blokk
+  - Mempoolen er en sentral server
+explanation: |
+  Mempoolen er lokal for hver node, så innholdet kan variere fra node til node avhengig av reglene hver node bruker.
+reviewed: false

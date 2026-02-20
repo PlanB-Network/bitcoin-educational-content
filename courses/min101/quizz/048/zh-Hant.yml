@@ -1,0 +1,9 @@
+question: 比特幣歷史上第一個礦池是什麼？
+answer: Braiins Pool
+wrong_answers:
+  - Foundry USA
+  - AntPool
+  - F2Pool
+explanation: |
+  Braiins Pool（原名 Slush Pool 和 Bitcoin CZ）是比特幣上第一個礦池，創建於 2010 年。
+reviewed: false

@@ -1,4 +1,4 @@
-question: Proč analytik nepoužije COINJOIN na transakci typu Stonewall?
+question: Proč analytik nepoužije CIOH na transakci typu Stonewall?
 
 answer: Protože existují 2 výstupy se stejnými částkami
 
@@ -8,6 +8,7 @@ wrong_answers:
   - Protože je více výstupů než vstupů
 
 explanation: |
-  Analýza transakce typu Stonewall z vnějšího pohledu nevede k použití COINJOIN, protože přítomnost dvou výstupů se stejnými částkami naznačuje vzor coinjoin. Z vnějšího pohledu tedy není COINJOIN v tomto konkrétním případě aplikovatelný.
+
+  Analýza transakce Stonewall zvenčí nevede k aplikaci CIOH, protože přítomnost dvou outputs stejné částky naznačuje pattern coinjoin. Z vnějšího pohledu tedy CIOH není v tomto specifickém případě použitelná.
 
 reviewed: false

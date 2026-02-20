@@ -1,0 +1,8 @@
+question: Milline on tulemuste tüüpide puhul map() ja map_err() meetodite kasutamise peamine eelis võrreldes traditsiooniliste try-catch veakäitlusmustritega?
+answer: Need võimaldavad funktsionaalses stiilis operatsioonide aheldamist, hoides samas veakäitluse lähedal operatsioonidele, mis võivad ebaõnnestuda
+wrong_answers:
+  - Nad teisendavad automaatselt kõik veatüübid string-teadete jaoks, et hõlbustada vigade kõrvaldamist ja kasutaja kuvamist
+  - Nad kaotavad vajaduse küsimärgi operaatori järele, pakkudes sisseehitatud vea leviku mehhanisme
+  - Nad hoiavad ära paanikatingimused, mähkides kõik potentsiaalselt ebaõnnestuvad operatsioonid turvalistesse Result-konteineritesse
+explanation: |
+  Meetodid map() ja map_err() võimaldavad funktsionaalses stiilis veakäsitlust, mille puhul saab operatsioone aheldada ja muuta väärtusi või vigu otse kohas, kus need esinevad. See hoiab veakäsitlusloogika operatsioonide lähedal, mis võivad ebaõnnestuda, erinevalt try-catch plokkidest, kus veakäsitlus on eraldatud tegelikest operatsioonidest. Teised valikud on valed: map-meetodid ei teisenda vigu stringideks (see on igatahes nende roll), nad töötavad koos küsimärgi operaatoriga, mitte ei asenda seda, ja nad ei takista paanikat, vaid pakuvad struktureeritud veakäitlust tulemuste jaoks.

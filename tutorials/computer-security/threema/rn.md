@@ -74,7 +74,7 @@ Kuri Android, birashoboka kandi [gushiramwo biciye kuri APK](https://iduka.three
 
 
 
-Hariho kandi [amaverisiyo ya mudasobwa] (MacOS, Linux na Windows). Iyi nyigisho izokwereka ingene wobihuza.
+Hariho kandi [amaverisiyo ya mudasobwa](MacOS, Linux na Windows). Iyi nyigisho izokwereka ingene wobihuza.
 
 
 

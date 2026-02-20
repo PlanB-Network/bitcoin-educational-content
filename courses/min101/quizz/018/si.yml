@@ -1,0 +1,9 @@
+question: Hashcash මූලික වශයෙන් අඩු කිරීමට උත්සාහ කළ ගැටලුව කුමක්ද?
+answer: ඊමේල් ස්පෑම් (Email spam)
+wrong_answers:
+  - ද්විත්ව වියදම් (Double spending)
+  - DNS ෆිෂිං (DNS phishing)
+  - පුද්ගලික යතුරු සොරකම් කිරීම
+explanation: |
+  විශාල වශයෙන් ඊමේල් යැවීම ලාභදායී නොවන බවට පත් කිරීම සඳහා Hashcash විසින් පණිවිඩයකට ගණනය කිරීමේ පිරිවැයක් පනවනු ලබයි.
+reviewed: false

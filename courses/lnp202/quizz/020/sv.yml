@@ -1,0 +1,9 @@
+question: Varför är det farligt att återställa en gammal channel.db?
+answer: Risk för påföljd
+wrong_answers:
+  - Förlust av seed
+  - Skvaller korruption
+  - Blockering av routing
+explanation: |
+  Ett föråldrat tillstånd kan tolkas som ett försök att fuska och leda till förlust av kanalmedel.
+reviewed: false

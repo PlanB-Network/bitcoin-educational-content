@@ -146,10 +146,11 @@ Bu değişiklikleri yaptıktan sonra yazılımı yeniden başlatmayı unutmayın
 Ardından Sparrow wallet'e dönün ve işletim sisteminize bağlı olarak genellikle `Bitcoin.conf` ile aynı klasörde bulunan çerez dosyanızın yolunu girin:
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 
@@ -180,10 +181,11 @@ server=1
 Dosyayı düzenledikten sonra, işletim sisteminiz için uygun klasöre kaydettiğinizden emin olun:
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 Bu işlem Bitcoin-QT Interface grafiksel Interface üzerinden de gerçekleştirilebilir. "*Ayarlar*" menüsüne gidin, ardından "*Seçenekler...*" ve ilgili kutuyu işaretleyerek "*RPC sunucusunu etkinleştir*" seçeneğini etkinleştirin. Eğer `Bitcoin.conf` dosyası mevcut değilse, "*Open Configuration File*" seçeneğine tıklayarak doğrudan bu Interface'den oluşturabilirsiniz.
 
@@ -191,7 +193,7 @@ Bu işlem Bitcoin-QT Interface grafiksel Interface üzerinden de gerçekleştiri
 ![Image](assets/fr/12.webp)
 
 
-Yerel ağınızda Bitcoin core'ü barındıran makinenin IP Address'ini bulun. Bunu yapmak için [Angry IP Scanner] (https://angryip.org/) gibi bir araç kullanabilirsiniz. Tartışma adına, düğümünüzün IP Address'inin `192.168.1.18` olduğunu varsayalım.
+Yerel ağınızda Bitcoin core'ü barındıran makinenin IP Address'ini bulun. Bunu yapmak için [Angry IP Scanner](https://angryip.org/) gibi bir araç kullanabilirsiniz. Tartışma adına, düğümünüzün IP Address'inin `192.168.1.18` olduğunu varsayalım.
 
 
 Bitcoin.conf` dosyasına aşağıdaki satırları ekleyin ve `rpcbind=192.168.1.18` ayarını düğümünüzün IP Address'sı ile eşleşecek şekilde yapın.

@@ -1,9 +1,9 @@
-question: Secondo l'argomentazione di Shaolinfry per le forchette Soft attivate dall'utente (UASF), qual è il problema principale delle forchette morbide attivate dai minatori per quanto riguarda l'implementazione degli aggiornamenti?
-answer: Una piccola percentuale di hashrate può porre il veto agli aggiornamenti per tutti, creando inerzia sugli aggiornamenti
+question: Secondo l'argomentazione di Shaolinfry per le soft fork attivate dall'utente (UASF), qual è il problema principale delle soft fork attivate dai miner per quanto riguarda l'implementazione degli aggiornamenti?
+answer: Una piccola percentuale di hashrate può porre il veto agli aggiornamenti per tutti, creando inerzia negli aggiornamenti
 wrong_answers:
-  - I minatori possono invertire le attivazioni soft fork dopo l'implementazione attraverso il consenso di maggioranza
-  - I nodi economici perdono il controllo sulle regole di convalida quando i minatori ne segnalano l'attivazione
-  - I cambiamenti Soft fork diventano permanenti e non possono essere modificati una volta che i minatori li attivano
+  - I miner possono invertire le attivazioni soft fork dopo l'implementazione attraverso il consenso di maggioranza
+  - I nodi economici perdono il controllo sulle regole di convalidazione quando i miner ne segnalano l'attivazione
+  - I cambiamenti soft fork diventano permanenti e non possono essere modificati una volta che i miner li attivano
 explanation: |
-  Shaolinfry ha individuato che la segnalazione dei minatori crea un sistema di veto naturale in cui anche una piccola percentuale di hashrate può impedire l'attivazione degli aggiornamenti per l'intera rete. Questa "inerzia all'aggiornamento" diventa più problematica man mano che il mining diventa più decentralizzato, bloccando potenzialmente miglioramenti vantaggiosi del protocollo. Le altre opzioni travisano il funzionamento dei soft fork: i minatori non possono annullare unilateralmente le attivazioni, i nodi economici mantengono l'autorità di convalida e i soft fork possono teoricamente essere modificati attraverso aggiornamenti successivi.
-reviewed: false
+  Shaolinfry ha individuato che la segnalazione dei miner crea un sistema di veto naturale in cui anche una piccola percentuale di hashrate può impedire l'attivazione degli aggiornamenti per l'intera rete. Questa "inerzia all'aggiornamento" diventa più problematica man mano che il mining diventa più decentralizzato, bloccando potenzialmente miglioramenti vantaggiosi del protocollo. Le altre opzioni non descrivono correttamente il funzionamento delle soft fork: i miner non possono annullare unilateralmente le attivazioni, i nodi economici mantengono l'autorità di convalida e le soft fork possono teoricamente essere modificati attraverso aggiornamenti successivi.
+reviewed: true

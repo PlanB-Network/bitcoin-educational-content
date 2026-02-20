@@ -1,0 +1,9 @@
+question: Bitcoin'de bir UTXO'nun kilidini açmak için en sık hangi kanıt kullanılır?
+answer: Dijital imza
+wrong_answers:
+  - Hesap şifresi
+  - Mevcut bloğun hash'i
+  - SSL sertifikası
+explanation: |
+  Harcama koşulu genellikle ilgili özel anahtarla oluşturulmuş bir imza gerektirir.
+reviewed: false

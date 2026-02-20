@@ -1,0 +1,9 @@
+question: Welk probleem probeerde Hashcash voornamelijk te verminderen?
+answer: E-mailspam
+wrong_answers:
+  - Dubbele uitgaven
+  - DNS-phishing
+  - Diefstal van privésleutels
+explanation: |
+  Hashcash legt een rekenkost per bericht op om het massaal verzenden van e-mails onrendabel te maken.
+reviewed: false

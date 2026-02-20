@@ -1,0 +1,12 @@
+question: Ni isano irihe riri hagati y’ikiguzi co gukora Bitcoin n’igiciro cayo kw’isoko?
+answer: Muri rusangi, ikiguzi ca Bitcoin kijanye n’igiciro cayo.
+wrong_answers:
+  - Igiciro ca Bitcoin gihuye n’igiciro cayo .
+  - Igiciro ca Bitcoin kirashirwaho, mu rugero runaka, ku giciro cayo .
+  - Igiciro ca Bitcoin cama ari kinini kuruta igiciro cayo .
+explanation: |
+  Ikiguzi ca Bitcoin, kikaba gifitaniye isano n’umuyagankuba ukenewe kugira ngo umuntu akoreshe
+  imashini za mining, muri rusangi, ikiguzi ca Bitcoin kijanye n’igiciro cayo.
+  Gutahura neza uguhinduka kw'ibiciro n'ivyizigiro vya kazoza
+  
+reviewed: true

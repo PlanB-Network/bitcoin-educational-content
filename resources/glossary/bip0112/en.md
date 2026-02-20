@@ -1,5 +1,6 @@
 ---
 term: BIP0112
+definition: Introduction of the OP_CHECKSEQUENCEVERIFY (CSV) opcode allowing relative timelocks to be created in scripts.
 ---
 
 Introduces the opcode `OP_CHECKSEQUENCEVERIFY` (CSV) in the Bitcoin Script language. This opcode allows the creation of transactions that are only valid after a relative delay from a previous transaction, defined either by the number of blocks or by elapsed time. `OP_CHECKSEQUENCEVERIFY` compares the value at the top of the stack with the `nSequence` value  of the input. 

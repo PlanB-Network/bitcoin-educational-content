@@ -6,4 +6,4 @@ wrong_answers:
   - P2PK ditujukan untuk multisig, sementara P2PKH untuk skrip sederhana.
 explanation: |
   P2PK mengunci dana dengan kunci publik mentah, sedangkan P2PKH menggunakan hash dari kunci publik.
-ditinjau: false
+reviewed: true

@@ -76,7 +76,7 @@ Peki ya günümüz ekonomisini anlamanın anahtarı birkaç yüzyıllık bir teo
 ### Para Nasıl Yaratılır
 
 
-Günümüz para sisteminde para, esas olarak "kısmi rezerv bankacılığı" olarak bilinen bir bankacılık uygulaması yoluyla yaratılmaktadır Bu terim esasen bankaların mevduat olarak aldıkları kadar rezerv tutmak zorunda olmadıkları anlamına gelir. Sonuç olarak, kredi verirken yeni satın alma gücü yaratabilir ve tersine, müşteriler kredilerini geri ödediğinde satın alma gücünü azaltabilirler.
+Günümüz para sisteminde para, esas olarak "[kısmi rezerv bankacılığı](https://planb.academy/resources/glossary/fractional-reserves)" olarak bilinen bir bankacılık uygulaması yoluyla yaratılmaktadır Bu terim esasen bankaların mevduat olarak aldıkları kadar rezerv tutmak zorunda olmadıkları anlamına gelir. Sonuç olarak, kredi verirken yeni satın alma gücü yaratabilir ve tersine, müşteriler kredilerini geri ödediğinde satın alma gücünü azaltabilirler.
 
 
 Örneğin, bir ev satın almak için ipotek almak üzere yerel bankanıza başvurursanız, banka tarafından size ödünç verilen para bir defter tutma girişi olarak ortaya çıkar. Muhasebede, genellikle bir bireyin net servetini iki tarafı olan bir bilanço ile temsil ederiz: herhangi bir mülk, finansal sözleşme, envanter veya sahip olunan diğer servet biçimlerini içeren varlık tarafı ve varlık tarafında listelenen sermayeyi oluşturmak için kullanılan fonların kaynağını gösteren yükümlülük tarafı. Varlıklar ve yükümlülükler arasındaki fark "özkaynak" olarak adlandırılır ve işletmenin net serveti olarak düşünülebilir.
@@ -100,7 +100,7 @@ Evi satın aldıktan sonra, bankacınıza satıcının hesabına para aktarması
 > Henry Ford
 
 
-Bu süreç, bankaların belirli bir süre boyunca (genellikle bir hafta veya bir ay) banka havaleleri, kredi kartı alımları ve çekler de dahil olmak üzere tüm işlemleri kaydetmelerine olanak tanır. Daha sonra bu işlemleri, halk tarafından asla kullanılmayan başka bir fiat para birimi olan banka rezervlerini kullanarak birbirleriyle kapatırlar. Banka rezervleri merkez bankasında sadece lisanslı banka ve finans kuruluşlarının erişebildiği özel bir hesapta tutulur.
+Bu süreç, bankaların belirli bir süre boyunca (genellikle bir hafta veya bir ay) banka havaleleri, kredi kartı alımları ve çekler de dahil olmak üzere tüm işlemleri kaydetmelerine olanak tanır. Daha sonra bu işlemleri, halk tarafından asla kullanılmayan başka bir [fiat para birimi](https://planb.academy/resources/glossary/fiat) olan banka rezervlerini kullanarak birbirleriyle kapatırlar. Banka rezervleri merkez bankasında sadece lisanslı banka ve finans kuruluşlarının erişebildiği özel bir hesapta tutulur.
 
 
 ### Kısmi Rezerv Bankacılığının İstikrarsızlığı ve Son Kredi Mercii
@@ -175,7 +175,7 @@ ZIRP'ın bir başka istenmeyen sonucu da hükümetleri kapsamlı harcamalar yapm
 Şekil 6: GSYİH'nin Yüzdesi Olarak Kamu ve Özel Borçlar (Dünya, ülke başına GSYİH'ye göre ağırlıklandırılmış) / Kaynak IMF
 
 
-COVID ile ilgili kilitlenmelere yanıt olarak önemli miktarda para yaratılması nedeniyle enflasyon yükselirken, merkez bankacıları şimdi enflasyonu kontrol altına almak amacıyla politika faizlerini yükseltiyor. Ancak bu durum tüm sistem için önemli bir zorluk teşkil ediyor. Bankalar her zamankinden daha fazla kaldıraçlı, hükümetler tarihsel olarak yüksek düzeyde borç taşıyor, ekonomik büyüme durgun, açıklar artıyor ve temel mallar için artan fiyatlarla boğuşan tüketiciler ay sonunu getirmekte zorlanıyor. Enflasyonun kontrol altına alınması için faiz oranlarının hükümetleri iflas ettirebilecek bir seviyeye yükseltilmesi gerekirken, bireyler tasarruflarını giderek pahalılaşan temel ihtiyaçlara harcadıkça ya da enflasyona karşı korunmak için Hard varlıklarına ve para piyasası fonlarına sığındıkça bankalar mevduat sahiplerini kaybetme riskiyle karşı karşıya kalmaktadır.
+COVID ile ilgili kilitlenmelere yanıt olarak önemli miktarda para yaratılması nedeniyle [enflasyon](https://planb.academy/resources/glossary/inflation) yükselirken, merkez bankacıları şimdi enflasyonu kontrol altına almak amacıyla politika faizlerini yükseltiyor. Ancak bu durum tüm sistem için önemli bir zorluk teşkil ediyor. Bankalar her zamankinden daha fazla kaldıraçlı, hükümetler tarihsel olarak yüksek düzeyde borç taşıyor, ekonomik büyüme durgun, açıklar artıyor ve temel mallar için artan fiyatlarla boğuşan tüketiciler ay sonunu getirmekte zorlanıyor. Enflasyonun kontrol altına alınması için faiz oranlarının hükümetleri iflas ettirebilecek bir seviyeye yükseltilmesi gerekirken, bireyler tasarruflarını giderek pahalılaşan temel ihtiyaçlara harcadıkça ya da enflasyona karşı korunmak için Hard varlıklarına ve para piyasası fonlarına sığındıkça bankalar mevduat sahiplerini kaybetme riskiyle karşı karşıya kalmaktadır.
 
 
 ### Sonuç
@@ -190,7 +190,7 @@ COVID ile ilgili kilitlenmelere yanıt olarak önemli miktarda para yaratılmas�
 Özünde, sistemimiz önemli zorluklarla karşı karşıyadır ve KİS-7 tek güvenilir alternatif olarak ortaya çıkmaktadır. Ancak, KİS-7 tek başına parasal sistemimizdeki sorunları çözemez. Her şeyden önce, Bitcoin meraklıları arasında temel ekonomik ilkeleri anlayan bireylere ihtiyacımız var, bu da medeniyetimiz için başka bir kırılgan finansal temel inşa etmekten bizi uzaklaştıracak daha geniş bir farkındalık ve ekonomik sağduyu sağlar. Bu kursun öncelikli amacı yeni Bitcoin meraklılarını sağlam ekonomik ilkeler konusunda eğitmektir.
 
 
-Bu amaca ulaşmak için, metodolojik geleneği 16. yüzyıla kadar uzanan ve ekonomik kısıtlamalar altında insan eylemlerine ilişkin içgörüler sağlayan bir ekonomik düşünce okulu olan "Avusturya Ekonomisi "nin temel ilkelerini açıklayacağız. Bu girişle birlikte, artık para yaratmanın temellerini ve finansal ve parasal sistemimizin mevcut durumunu kavrayabilirsiniz.
+Bu amaca ulaşmak için, metodolojik geleneği 16. yüzyıla kadar uzanan ve ekonomik kısıtlamalar altında insan eylemlerine ilişkin içgörüler sağlayan bir ekonomik düşünce okulu olan "[Avusturya Ekonomisi](https://planb.academy/resources/glossary/austrian-school) "nin temel ilkelerini açıklayacağız. Bu girişle birlikte, artık para yaratmanın temellerini ve finansal ve parasal sistemimizin mevcut durumunu kavrayabilirsiniz.
 
 
 Bir sonraki bölümde, tüm ekonomik düşünce okullarının temel taşı olan değer teorisini inceleyeceğiz. Sonraki bölümlerde sosyal bir kurum olarak para, sermaye teorisi ve iş döngüsü, ekonomik hesaplama zorluğu ve Avusturya Ekonomi Okulu'nun tarihi ve metodolojisine kısa bir genel bakış ele alınacaktır.
@@ -770,10 +770,9 @@ Bu yanlış tahsisin sonuçları arasında finansal ve ekonomik krizler, ekonomi
 Günümüzde ekonomik hesaplama tartışması, öncelikle Green gündemi tarafından yönlendirilen yanlış yatırımların giderek daha belirgin hale geldiği enerji tartışmalarında yeniden ortaya çıkmaktadır. Avusturyalı iktisatçılar, ana akım iktisatçıların öngöremediği 2008 krizinin, uzun süreli düşük faiz oranları nedeniyle konut piyasasına aşırı yatırım yapılmasıyla karakterize edilen klasik bir patlama ve çöküş döngüsü olduğuna işaret ederek, para piyasalarıyla ilgili tartışmalarda da ortaya çıkmaktadır. Dahası, neo-Marksistler ve diğer sosyalist gruplar, yapay zekanın ortaya çıkışının ekonomik hesaplama sorununu çözebileceği fikrini yaymaktadır. Ancak bu bakış açısı, konunun hatalı bir şekilde anlaşılmasından kaynaklanmaktadır; ekonomik hesaplama sorunu bir hesaplama gücü meselesi değil, üretim ve kaynak tahsisi ile ilgili bilgi üretme ve dağıtma meselesidir. Bu bilgi yalnızca uzmanlaşmış bilgiye sahip ve sonuçtan çıkar sağlayan aracılar tarafından yerel olarak üretilebilir. Yapay zeka bu aşağıdan yukarıya sürecin yerini alamaz ve bu nedenle merkezi planlamacılara kaynak tahsisi sorununda yardımcı olamaz. Ne yazık ki, yüzyıllık bir yanlış anlama nedeniyle, YZ'nin serbest piyasaların başarısızlıklarını düzeltebilecek aydınlanmış merkezi planlamacılar tarafından yönetilen yeni bir ekonomik refah çağını başlatacağına dair iddiaların çoğalmasını bekliyoruz.
 
 
-Ekonomik hesaplama probleminin güncel bir duruma somut bir uygulaması için, modern Çin'de kaynak tahsisi sorununu ele alan bu makaleye başvurabilirsiniz.
+Ekonomik hesaplama sorununu çağdaş bir duruma somut biçimde uygulamak için, modern Çin’de kaynak tahsisini ele alan bu makaleye başvurabilirsiniz: *[The Road to Financial Repression: China the Paper Tiger](https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web)*, Théo Mogenet tarafından.
 
 
-> Finansal Baskıya Giden Yol: Kağıttan Kaplan Çin, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 
 ### Sonuç

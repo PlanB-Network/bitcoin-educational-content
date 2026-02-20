@@ -1,0 +1,8 @@
+question: Šta razlikuje greške resursa u vreme izvršavanja od grešaka nevažećeg unosa i logičkih grešaka u razvoju aplikacije Bitcoin?
+answer: Greške resursa u vreme izvršavanja nastaju kada spoljne zavisnosti kao što su fajlovi ili mrežne veze nisu dostupne, što zahteva popravke u okruženju umesto promena u kodu.
+wrong_answers:
+  - "Greške resursa u vreme izvođenja dešavaju se kada parametri funkcije ne ispunjavaju zahteve, što ukazuje na kršenje ugovora između pozivaoca i funkcije"
+  - Greške resursa u vreme izvršavanja predstavljaju greške u implementaciji programa koje zahtevaju otklanjanje grešaka i modifikaciju koda kako bi se pravilno rešile.
+  - Greške resursa u vreme izvođenja se javljaju kada sistem tipova ne uspe da uhvati nepodudarnosti, omogućavajući netačnim tipovima podataka da se šire kroz sistem.
+explanation: |
+  Greške resursa u vreme izvršavanja su spoljašnje u odnosu na logiku programa i javljaju se kada zavisnosti kao što su fajlovi, mrežne veze ili uređaji za skladištenje nisu dostupni. Za razliku od grešaka nevažećeg unosa (koje uključuju kršenje ugovora o parametrima) ili logičkih grešaka (koje su greške u implementaciji), greške resursa u vreme izvršavanja obično zahtevaju popravke u okruženju, a ne promene u kodu. Aplikacija mora da ih obradi na odgovarajući način jer su često privremene i van direktne kontrole programa.

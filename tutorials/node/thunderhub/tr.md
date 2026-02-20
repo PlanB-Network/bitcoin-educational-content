@@ -114,7 +114,7 @@ Umbrel, ThunderHub'a arka planda LND bağlantı bilgilerini (TLS sertifikası, y
 
 
 
-Umbrel dışındaki kullanıcılar için (örneğin kişisel bir sunucuda, RaspiBlitz'li bir Raspberry Pi'de veya *tek başına* bir kurulumda), ThunderHub kurulumu birkaç ekstra adım gerektirir. Aşağıda [resmi ThunderHub belgelerine] (https://docs.thunderhub.io) göre kaynaktan kurulumu ve yapılandırmayı açıklıyoruz.
+Umbrel dışındaki kullanıcılar için (örneğin kişisel bir sunucuda, RaspiBlitz'li bir Raspberry Pi'de veya *tek başına* bir kurulumda), ThunderHub kurulumu birkaç ekstra adım gerektirir. Aşağıda [resmi ThunderHub belgelerine](https://docs.thunderhub.io) göre kaynaktan kurulumu ve yapılandırmayı açıklıyoruz.
 
 
 
@@ -136,7 +136,7 @@ Umbrel dışındaki kullanıcılar için (örneğin kişisel bir sunucuda, Raspi
 
 
 
-**1. ThunderHub kodunu alın:** Projenin GitHub deposunu [kurulum belgelerinde] (https://docs.thunderhub.io/installation) açıklandığı gibi klonlayın:
+**1. ThunderHub kodunu alın:** Projenin GitHub deposunu [kurulum belgelerinde](https://docs.thunderhub.io/installation) açıklandığı gibi klonlayın:
 
 
 

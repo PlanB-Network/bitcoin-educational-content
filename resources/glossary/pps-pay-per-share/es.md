@@ -1,6 +1,7 @@
 ---
-term: PPS (PAGO POR ACCIÓN)
+term: PPS (pago por acción)
 
+definition: Método de remuneración fija por participación (share) enviada, independientemente de los bloques encontrados.
 ---
 Método para calcular la remuneración de los mineros en el contexto de los pools de minería. PPS es un sistema en el que se paga a los mineros por cada acción válida enviada, independientemente de si el pool encuentra un bloque o no. Por tanto, se les remunera en función del valor esperado. Se trata de un método de remuneración basado en tareas.
 

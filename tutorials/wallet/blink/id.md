@@ -79,7 +79,7 @@ Inilah yang mengejutkan banyak pengguna: Menyiapkan Blink lebih cepat daripada m
 ![image](assets/fr/02.webp)
 
 
-Ketika Anda membuka [Blink Wallet] (https://blink.sv/) untuk pertama kalinya, Anda akan melihat sesuatu yang bersih dan menyegarkan. Tidak ada grafik yang meneriaki Anda, tidak ada angka yang berkedip, hanya saldo Anda dan beberapa tombol sederhana.
+Ketika Anda membuka [Blink Wallet](https://blink.sv/) untuk pertama kalinya, Anda akan melihat sesuatu yang bersih dan menyegarkan. Tidak ada grafik yang meneriaki Anda, tidak ada angka yang berkedip, hanya saldo Anda dan beberapa tombol sederhana.
 
 
 ### Ikhtisar Layar Utama
@@ -381,7 +381,7 @@ Setelah Anda merasa nyaman dengan Blink, Anda mungkin ingin menjelajah:
 ![image](assets/fr/03.webp)
 
 
-[Blink Wallet] (https://blink.sv/) menyediakan titik masuk yang sangat baik ke dalam dunia Bitcoin. Kombinasi kemudahan penggunaan, dukungan mata uang ganda, dan integrasi [Lightning Network] (https://www.blink.sv/blog/what-is-the-lightning-network) membuatnya ideal untuk:
+[Blink Wallet](https://blink.sv/) menyediakan titik masuk yang sangat baik ke dalam dunia Bitcoin. Kombinasi kemudahan penggunaan, dukungan mata uang ganda, dan integrasi [Lightning Network](https://www.blink.sv/blog/what-is-the-lightning-network) membuatnya ideal untuk:
 
 
 

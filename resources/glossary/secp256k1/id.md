@@ -1,6 +1,7 @@
 ---
 term: SECP256K1
 
+definition: Kurva elips yang digunakan pada Bitcoin untuk tanda tangan digital ECDSA dan Schnorr.
 ---
 Nama yang diberikan kepada kurva elips tertentu yang digunakan dalam protokol Bitcoin untuk implementasi ECDSA (*Eliptic Curve Digital Signature Algorithm*) dan algoritma tanda tangan digital Schnorr. Kurva `secp256k1` dipilih oleh penemu Bitcoin, Satoshi Nakamoto. Kurva ini memiliki beberapa sifat yang menarik, terutama dalam aspek manfaat kinerja.
 

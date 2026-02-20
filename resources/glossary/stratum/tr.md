@@ -1,5 +1,6 @@
 ---
-term: STRATUM
+term: Stratum
+definition: Bireysel madenciler ile madencilik havuzu sunucuları arasındaki iletişimi optimize eden ağ protokolü.
 ---
 
 Bireysel madenciler ile Mining pool sunucuları arasındaki iletişimi optimize ederek karlılıklarını artırmak için özel olarak tasarlanmış Bitcoin'in üzerine yerleştirilmiş bir ağ protokolü. Stratum, daha çok "Slush" takma adıyla bilinen ve ilk Mining pool olan Slush Pool'un kurucusu Marek Palatinus tarafından 2011'in sonlarında duyuruldu. Stratum, artık kullanılmayan eski Getwork protokolünün yerini aldı.

@@ -3,7 +3,7 @@ name: My Node
 description: Seadista oma bitcoin MyNode
 ---
 
-![pilt](assets/0.webp)
+![pilt](assets/cover.webp)
 
 https://mynodebtc.com/
 

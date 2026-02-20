@@ -1,0 +1,9 @@
+question: Secondo la teoria della conoscenza dispersa di Hayek, perché le economie pianificate centralmente hanno difficoltà a fissare i prezzi rispetto ai mercati liberi?
+answer: I pianificatori centrali non possono accedere alla conoscenza soggettiva e localizzata dei costi, dei benefici e delle preferenze individuali che solo i partecipanti al mercato possiedono
+wrong_answers:
+  - I pianificatori centrali non dispongono di una potenza di calcolo sufficiente e di algoritmi avanzati per elaborare tutti i dati economici a loro disposizione
+  - I pianificatori centrali sono intrinsecamente corrotti e fissano i prezzi per avvantaggiare se stessi piuttosto che la società, a differenza degli operatori di mercato che sono altruisti
+  - I pianificatori centrali si concentrano troppo sulla stabilità economica a lungo termine piuttosto che rispondere alle fluttuazioni immediate della domanda e dell'offerta
+explanation: |
+  L'intuizione chiave di Hayek è che la conoscenza esiste solo come "frammenti dispersi di una conoscenza incompleta e spesso contraddittoria posseduta da tutti gli individui distinti" Questa conoscenza è soggettiva e localizzata: solo gli individui conoscono i propri costi, benefici e preferenze. I mercati liberi, attraverso lo scambio volontario e la negoziazione dei prezzi, permettono a questa conoscenza dispersa di emergere e coordinare l'attività economica.
+  I pianificatori centrali, a prescindere dalle loro intenzioni o capacità, non possono accedere a queste informazioni soggettive e disperse che esistono nella mente di milioni di individui, rendendo impossibile un'efficace determinazione dei prezzi.

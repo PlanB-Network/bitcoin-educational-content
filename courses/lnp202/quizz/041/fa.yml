@@ -1,0 +1,9 @@
+question: کجا ThunderHub را روی Umbrel نصب کنم؟
+answer: فروشگاه برنامه‌ها
+wrong_answers:
+  - کنسول SSH
+  - تنظیمات سیستم
+  - Interface Bitcoin هسته
+explanation: |
+  ‏ThunderHub به عنوان یک برنامه از طریق فروشگاه برنامه Umbrel نصب می‌شود.
+reviewed: false

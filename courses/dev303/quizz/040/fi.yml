@@ -1,0 +1,8 @@
+question: Mitä tapahtuu sulkutyypin päättelylle, kun sulkua kutsutaan tietyillä tyypeillä?
+answer: Nämä tyypit muuttuvat kiinteiksi kyseiselle sulkemiskohteelle
+wrong_answers:
+  - Sulkeminen voi edelleen hyväksyä eri tyyppejä tulevissa puheluissa
+  - Kääntäjä nollaa tyypit seuraavaa funktiokutsua varten
+  - Tyypit pysyvät joustavina ja voivat muuttua asiayhteyden mukaan
+explanation: |
+  Rust:ssa sulkimet hyötyvät automaattisesta tyypin päättelystä, mutta tällä joustavuudella on rajansa. Kun sulkua kutsutaan tietyillä parametrityypeillä, kääntäjä lukitsee nämä tyypit kyseiselle sulkukappaleelle. Tämä tarkoittaa, että samaa sulkeumaa ei voi myöhemmin kutsua eri tyypeillä - se muuttuu monomorfiseksi ensimmäisten kohtaamiensa tyyppien suhteen. Tämä eroaa geneerisistä funktioista, joita voidaan kutsua eri tyypeillä, koska jokainen kutsu luo erillisen instanssin. Muut vaihtoehdot ovat virheellisiä, koska ne viittaavat jatkuvaan joustavuuteen, jota ei ole, kun sulkeuman tyypit on määritetty.

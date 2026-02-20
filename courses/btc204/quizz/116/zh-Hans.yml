@@ -1,6 +1,6 @@
-question: 弹道技术的主要目标是什么？
+question: Ricochet 技术的主要目标是什么？
 
-answer: 模糊一个硬币过去的痕迹
+answer: 模糊一个 UTXO 过去的痕迹
 
 wrong_answers:
   - 增加交易的潜在匿名集
@@ -8,4 +8,4 @@ wrong_answers:
   - 未来支付更少的交易费用
 
 explanation: |
-  弹道的目标是通过模糊其过去的痕迹来模拟比特币硬币所有权的变更，以恢复其可替代性。
+  Ricochet 的目标是通过模糊其过去的痕迹来模拟比特币所有权的转移，以保持其可替代性。

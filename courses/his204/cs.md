@@ -317,7 +317,7 @@ V reakci na zkušenost Johna Lawa Cantillon vysvětluje, co se stane nebo musí 
 ![image](assets/cs/017.webp)
 
 
-Vidí dva hlavní důsledky nahrazení měny bez reálné hodnoty, jako jsou papírové peníze, kovovými penězi. Prvním důsledkem je to, co nazývá "lidovým odmítáním", což znamená rostoucí nedůvěru k bezcenným penězům. Druhým důsledkem je inflace: oslabení měny zdražuje zboží.
+Vidí dva hlavní důsledky nahrazení měny bez reálné hodnoty, jako jsou papírové peníze, kovovými penězi. Prvním důsledkem je to, co nazývá "lidovým odmítáním", což znamená rostoucí nedůvěru k bezcenným penězům. Druhým důsledkem je [inflace](https://planb.academy/resources/glossary/inflation): oslabení měny zdražuje zboží.
 
 
 Za čtvrté, Cantillon šel ve své analýze **inflace** dále než jeho současníci. Poté, co pozoroval zhroucení Lawova systému, si Cantillon uvědomil, že měnová inflace nepostihuje všechny stejně. Naopak, některé obohacuje, zatímco jiné ochuzuje. Dospěl k závěru, že inflace má přerozdělovací účinek: ti, kteří dostávají nově emitované peníze jako první, těží ze zvýšené kupní síly, zatímco ti, kteří je dostávají později, chudnou v důsledku toho, že nové peníze byly emitovány v důsledku růstu míry inflace.
@@ -608,7 +608,7 @@ Intelektuální dílo Gournayova kruhu mělo zásadní vliv na dějiny idejí. V
 ![image](assets/cs/035.webp)
 
 
-Gournay a jeho přátelé se snažili rozšířit mezi francouzským obyvatelstvem zálibu v ekonomických diskusích a zpřístupnit je prostřednictvím románů. Po *Memoáru o řemeslech*, který kritizoval cechy, pomohli Gournay a Cliquot-Blervache Gabrielovi-Françoisovi Coyerovi napsat krátký satirický román s názvem Chinki: [Cochinchinská povídka platná pro jiné národy] (https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
+Gournay a jeho přátelé se snažili rozšířit mezi francouzským obyvatelstvem zálibu v ekonomických diskusích a zpřístupnit je prostřednictvím románů. Po *Memoáru o řemeslech*, který kritizoval cechy, pomohli Gournay a Cliquot-Blervache Gabrielovi-Françoisovi Coyerovi napsat krátký satirický román s názvem Chinki: [Cochinchinská povídka platná pro jiné národy](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
 
 
 ![image](assets/cs/036.webp)
@@ -1498,7 +1498,7 @@ Od té doby se Condorcetova kariéra změnila, když vstoupil do ekonomické deb
 V letech 1774 až 1776, během Turgotova ministrování, Condorcet učinil řadu zásahů, které se vyznačovaly jeho postojem Commitment k laissez-faire. Mezi jeho díla patří *Dopisy pikardského farmáře panu Neckerovi*, v nichž obhajuje volný obchod, *Monopoly a monopolisté*, v nichž obhajuje volnou soutěž, *Úvahy o korvech*, v nichž vyzývá k jejich zrušení, a *Úvahy o obchodu s obilím*, v nichž opět chválí volný obchod a kritizuje Neckerovu knihu na stejné téma.
 
 
-Ve svých [Listech o obchodu s obilím] (https://archive.org/details/bub_gb_hg8jFw-y6bwC) Condorcet uvádí několik klíčových bodů.
+Ve svých [Listech o obchodu s obilím](https://archive.org/details/bub_gb_hg8jFw-y6bwC) Condorcet uvádí několik klíčových bodů.
 
 
 ![image](assets/cs/089.webp)

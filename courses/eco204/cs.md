@@ -65,7 +65,7 @@ Co kdyby se měnová historie opakovala před našima očima? Posuďte sami v n�
 ### Definice inflace
 
 
-Inflace je pojem, který bývá často nesprávně chápán, protože má mnoho definic a výkladů. Vnímání inflace se liší mezi různými skupinami, například mezi bitcoinisty a tradičními ekonomy. Než začneme diskutovat o hyperinflaci, objasněme si nejprve definice:
+[Inflace](https://planb.academy/resources/glossary/inflation) je pojem, který bývá často nesprávně chápán, protože má mnoho definic a výkladů. Vnímání inflace se liší mezi různými skupinami, například mezi bitcoinisty a tradičními ekonomy. Než začneme diskutovat o hyperinflaci, objasněme si nejprve definice:
 
 
 
@@ -111,7 +111,7 @@ Další metodou bylo snížení množství drahých kovů v měnách založenýc
 ![image](assets/cs/002.webp)
 
 
-Je důležité zdůraznit, že hyperinflace se projevuje především u fiat měn, které nejsou kryty podkladovými aktivy, jako jsou například drahé kovy. V minulosti, kdy byla měna založena na takovýchto aktivech, docházelo k epizodám inflace (např. znehodnocením obsahu kovů), ale tyto epizody nikdy nedosáhly extrémních úrovní hyperinflace. V následujících částech se budeme podrobně zabývat obdobími znehodnocování měny a důsledky těchto různých měnových systémů na inflaci.
+Je důležité zdůraznit, že hyperinflace se projevuje především u [fiat měn](https://planb.academy/resources/glossary/fiat), které nejsou kryty podkladovými aktivy, jako jsou například drahé kovy. V minulosti, kdy byla měna založena na takovýchto aktivech, docházelo k epizodám inflace (např. znehodnocením obsahu kovů), ale tyto epizody nikdy nedosáhly extrémních úrovní hyperinflace. V následujících částech se budeme podrobně zabývat obdobími znehodnocování měny a důsledky těchto různých měnových systémů na inflaci.
 
 
 ### Studie období měnové devalvace
@@ -423,7 +423,7 @@ Názorným příkladem MMT je americký vojensko-průmyslový komplex. Podle MMT
 Zastánci MMT často uvádějí Japonsko jako další příklad absence inflace navzdory výraznému měnovému tisku. Situace v Japonsku však také poukazuje na omezení tradičních měřítek inflace, jako je index spotřebitelských cen (CPI). V Japonsku je značná část natištěných peněz buď uložena, nebo investována do nemovitostí či akciového trhu, nikoliv utracena na běžnou spotřebu. Protože index spotřebitelských cen tuto dynamiku plně nezachycuje, může skutečnou inflaci podhodnocovat.
 
 
-Analýza Japonska (https://ideas.repec.org/p/ces/ceswps/_9821.html) také zdůrazňuje, že chování ekonomických subjektů, jako jsou úspory nebo investice do aktiv nezahrnutých do indexu spotřebitelských cen, může maskovat inflační dopad měnového tisku. Navíc schopnost různých sektorů absorbovat napumpovanou likviditu hraje zásadní roli při určování toho, zda dojde k inflaci.
+[Analýza Japonska](https://ideas.repec.org/p/ces/ceswps/_9821.html) rovněž ukazuje, že chování ekonomických subjektů, jako je spoření nebo investování do aktiv nezahrnutých v indexu spotřebitelských cen, může maskovat inflační dopad měnové expanze. Dále schopnost jednotlivých sektorů absorbovat vstřikovanou likviditu hraje klíčovou roli v tom, zda se inflace projeví, či nikoli.
 
 
 #### Rozvahy bank a centrálních bank
@@ -1160,7 +1160,7 @@ Fenomén zombie společností se neomezuje pouze na poválečné Německo. I v s
 #### 6. Rychle zbohatněte!
 
 
-Historie zná případy, kdy se jednotlivci snažili rychle nahromadit bohatství, jako tomu bylo ve Výmaru a Zimbabwe prostřednictvím arbitráže. Dnes lze podobný trend pozorovat při vzestupu některých kryptoměn. Lidé se nechávají zlákat rychlým ziskem a podstupují riziko v naději na exponenciální nárůst své investice. Tento přístup připomíná přístup pozorovaný v obdobích hyperinflace, kdy se k získání rychlých zisků využívala arbitráž, často na úkor ostatních.
+Historie zná případy, kdy se jednotlivci snažili rychle nahromadit bohatství, jako tomu bylo ve Výmaru a Zimbabwe prostřednictvím arbitráže. Dnes lze podobný trend pozorovat při vzestupu některých [kryptoměn](https://planb.academy/resources/glossary/cryptocurrency). Lidé se nechávají zlákat rychlým ziskem a podstupují riziko v naději na exponenciální nárůst své investice. Tento přístup připomíná přístup pozorovaný v obdobích hyperinflace, kdy se k získání rychlých zisků využívala arbitráž, často na úkor ostatních.
 
 
 ![image](assets/cs/052.webp)

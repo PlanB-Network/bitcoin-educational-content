@@ -28,7 +28,7 @@ BTC304 kursusel vaatame, miks kogukonna loomine on oluline, uurime tööriistu t
 
 
 
-Tere tulemast BTC302!
+Tere tulemast BTC 304!
 
 
 
@@ -39,7 +39,7 @@ Alates 2009. aastast on Bitcoin pidevalt kasvanud. See kasv on võtnud kuju uute
 Selle areng on ilmne ka On-Chain puhul, kus tehingute arv kasvab pidevalt.
 
 
-Näiteks ajavahemikul 1. jaanuarist 2018 kuni 1. jaanuarini 2024 on tehingute arv Bitcoin peamisel Layer-l hinnanguliselt [kasvanud 66,2%] (https://dune.com/queries/3375917/5663935). Vahepeal, 2021. aasta augusti ja 2023. aasta augusti vahel, on Lightning Network avalike tehingute arv [tõusnud 1212%](https://river.com/learn/files/river-lightning-report-2023.pdf).
+Näiteks ajavahemikul 1. jaanuarist 2018 kuni 1. jaanuarini 2024 on tehingute arv Bitcoin peamisel Layer-l hinnanguliselt [kasvanud 66,2%](https://dune.com/queries/3375917/5663935). Vahepeal, 2021. aasta augusti ja 2023. aasta augusti vahel, on Lightning Network avalike tehingute arv [tõusnud 1212%](https://river.com/learn/files/river-lightning-report-2023.pdf).
 
 
 
@@ -193,7 +193,7 @@ Bitcoin kogukonnad taotlevad sageli laiemaid eesmärke, eriti avalikku haridust:
 4. Mõnede avaliku elu tegelaste ja meedia poolt esitatud eksitavate või alusetute väidete ümberlükkamine;
 
 
-5. Põhilised erinevused Bitcoin ja teiste krüptovaluutade vahel;
+5. Põhilised erinevused Bitcoin ja teiste [krüptovaluutade](https://planb.academy/resources/glossary/cryptocurrency) vahel;
 
 
 Ehitades esimesed homsed "linnakud", **Bitcoin kogukonnad üle maailma on kaitsevalliks desinformatsiooni ja tsensuuri vastu, pakkudes samal ajal viljakat pinnast Bitcoin põhialuste õppimiseks**. Nad pakuvad uustulnukatele, isegi skeptikutele, ressursse ja ühendusi, mis on vajalikud Bitcoin tõelise potentsiaali uurimiseks.
@@ -302,7 +302,7 @@ Kuid **jõudude ühendamine on sageli mõistlikum kui lähedaste kogukondade jag
 Selles mõttes võib aidata lihtne "rusikareegel": kui 30-45 minuti raadiuses teie elukohast ei ole aktiivset Bitcoin kogukonda, võib tasub alustada uut kogukonda. See tähendab, et te võite alati teha, mida soovite.
 
 
-Ja muidugi, kui vanem kogukond on "arenenud" suunas, mis ei vasta enam teie väärtustele, ja teil ei ole aega või motivatsiooni neid "oranžida", siis on alati võimalus luua oma Fork.
+Ja muidugi, kui vanem kogukond on "arenenud" suunas, mis ei vasta enam teie väärtustele, ja teil ei ole aega või motivatsiooni neid "[oranžida](https://planb.academy/resources/glossary/orange-pill)", siis on alati võimalus luua oma [Fork](https://planb.academy/resources/glossary/fork).
 
 
 
@@ -688,7 +688,7 @@ Selleks on saadaval mitu tehisintellekti. Nende hulka kuuluvad
 - [midjourney](https://docs.midjourney.com/docs/quick-start) (tasuline);
 - [leonardo](https://leonardo.ai/) (tasuta, piiratud kasutajakontoga);
 - [copilot](https://copilot.microsoft.com/) (tasuta, piiratud kasutajakontoga);
-- [DALL-E] (https://www.dall-efree.com/) (tasuline).
+- [DALL-E](https://www.dall-efree.com/) (tasuline).
 
 
 Viimasel ajal on tekkinud palju muid tehisintellekti vahendeid, nii et see loetelu ei ole kaugeltki ammendav.
@@ -1342,7 +1342,7 @@ Nüüd, kui teie suhtluskanalid ja sotsiaalvõrgustikud on loodud ja peegeldavad
 
 
 
-Alustage Twitteris Bitcoin ülemaailmselt propageerivate võtmekontode, nagu [@Bitcoin] (https://twitter.com/Bitcoin) ja [@planb_network] (https://twitter.com/planb_network), samuti selliste algatuste nagu [@FBCEglobal] (https://twitter.com/FBCEglobal) jälgimisest. Võite ka retweetida [@halfin](https://twitter.com/halfin) kuulsat "Running Bitcoin" säutsu 11. jaanuarist 2009. Ja mis veelgi tähtsam, **jälgige Bitcoin kogukondade ja kohtumiste kontosid oma riigis**.
+Alustage Twitteris Bitcoin ülemaailmselt propageerivate võtmekontode, nagu [@Bitcoin](https://twitter.com/Bitcoin) ja [@planb_network](https://twitter.com/planb_network), samuti selliste algatuste nagu [@FBCEglobal](https://twitter.com/FBCEglobal) jälgimisest. Võite ka retweetida [@halfin](https://twitter.com/halfin) kuulsat "Running Bitcoin" säutsu 11. jaanuarist 2009. Ja mis veelgi tähtsam, **jälgige Bitcoin kogukondade ja kohtumiste kontosid oma riigis**.
 
 
 See loob **võimalusi üksteise jälgimiseks, üksteise märgistamiseks ja kollektiivse nähtavuse suurendamiseks**. See on juba tavaline tava ~50 Bitcoin kogukonna seas Prantsusmaal, "Satoshi Spritz" algatuste seas Itaalias ja "Einundzwanzig" gruppide seas Saksamaal.
@@ -1391,7 +1391,7 @@ Nende hulka kuuluvad:
 
 
 
-- [Btcmap.org](https://btcmap.org/)**, veebisait, kus on kaks kaarti, mida uuendatakse iga päev: **[maailma kaart ettevõtetest, mis aktsepteerivad Bitcoin](https://btcmap.org/map)** ja **[maailma kogukondade kaart](https://btcmap.org/communities/map)**. Paljud bitcoin'i kasutajad vaatavad neid kaarte regulaarselt, kas nad reisivad või elavad oma igapäevaelu, et kohtuda uute inimestega või leida kohti, kus oma Sats kulutada. Btcmap on ülemaailmne viide ja oma kogukonna loetellu kandmine seal on nähtavuse jaoks väga oluline.**
+- [Btcmap.org](https://btcmap.org/)**, veebisait, kus on kaks kaarti, mida uuendatakse iga päev: **[maailma kaart ettevõtetest, mis aktsepteerivad Bitcoin](https://btcmap.org/map)** ja **[maailma kogukondade kaart](https://btcmap.org/communities/map)**. Paljud bitcoin'i kasutajad vaatavad neid kaarte regulaarselt, kas nad reisivad või elavad oma igapäevaelu, et kohtuda uute inimestega või leida kohti, kus oma [Sats](https://planb.academy/resources/glossary/satoshi-sat) kulutada. Btcmap on ülemaailmne viide ja oma kogukonna loetellu kandmine seal on nähtavuse jaoks väga oluline.**
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), veebisait, mille on loonud bitcoiners, bitcoiners. **See võimaldab teil postitada oma kogukonna eelseisvaid üritusi**. Prantsusmaal ei kasutata seda siiski veel laialdaselt.
 - sõltuvalt teie riigist võivad olla ka muud kohalikud algatused. Prantsusmaal on näiteks [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), kus **kuulub iga kuu kümneid Bitcoin üritusi**. Nii et kui te ei ole neile veel Twitteris järgnenud või nendega ühendust võtnud, et jagada teavet oma kogukonna ja ürituste kohta, on nüüd õige aeg! **Kui aitaksite hoida Prantsuse sündmuste kalendrit ajakohasena, oleks tore, kui kõik Prantsuse Bitcoin kogukonnad võtaksid harjumuseks:**
     - mainides @bitcoinpointfr Twitteris iga uue kogukonna sündmuse puhul
@@ -1547,7 +1547,7 @@ Teisel juhul võiks teine igakuine üritus olla pühendatud konkreetsele teemale
 
 
 
-Pidage meeles, et **see nõuab rohkem organiseerimist ja rohkem teie aega**. Õnneks leiate [selle kursuse 6/8. osast] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) hulga taaskasutatavaid avatud lähtekoodiga ressursse, mis aitavad.
+Pidage meeles, et **see nõuab rohkem organiseerimist ja rohkem teie aega**. Õnneks leiate [selle kursuse 6/8. osast](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) hulga taaskasutatavaid avatud lähtekoodiga ressursse, mis aitavad.
 
 
 Igal juhul sõltub kõik sellest, millise lühi-, keskpika ja pikaajalise tegevuskava te või teie kogukond endale seadsite.
@@ -1820,7 +1820,7 @@ Lisaks tugevale hariduslikule väärtusele võimaldab selline lähenemisviis jag
 Allpool on esitatud 2023-2024. aasta prantsuse kohtumiste kulg. Iga teema kohta on saadaval avatud esitlus ja video, mis võivad anda teile ideid teemade kohta, mida võiksite oma ürituste puhul käsitleda.
 
 
-Täiendavad redigeeritavad materjalid leiate ka [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)!
+Teised ressursid on samuti saadaval Plan ₿ Academy jaotises ["Educator Content"](https://planb.academy/educator-content), mis on koostööruum, kus Bitcoini hariduslikud töötajad üle maailma jagavad ja teevad kättesaadavaks oma õppematerjale (esitlused, flaierid, juhendid, plakatid...) kasutamisvalmis või muudetavates formaatides. Eesmärk: ühendada jõupingutused, et mitte alustada iga kord nullist!
 
 
 
@@ -1958,7 +1958,7 @@ Selle soodustuse saamiseks võtke lihtsalt **kontakti [kirjastus Konsensus](http
 Kui teil ei ole sularaha, võite siiski anda allahindlust edasi oma kogukonna liikmetele.
 
 
-Kui teil endal ei ole vahendeid, saate allahindlust siiski oma liikmetele edasi anda. Näiteks võiks üks korraldaja koguda liikmetelt tellimusi, teha kogutellimuse soodushinnaga ja jagada raamatuid järgmisel kokkusaamisel, kusjuures makse kogutakse sel ajal välkkiirelt.
+Kui teil endal ei ole vahendeid, saate allahindlust siiski oma liikmetele edasi anda. Näiteks võiks üks korraldaja koguda liikmetelt tellimusi, teha kogutellimuse soodushinnaga ja jagada raamatuid järgmisel kokkusaamisel, kusjuures makse kogutakse sel ajal [välkkiirelt](https://planb.academy/resources/glossary/lightning-network).
 
 
 Samuti võiksite oma kohtumistel välja panna raamatute laenutamise põhikirja, et selgitada uutele tulijatele selgelt laenutamise reegleid.
@@ -2006,7 +2006,7 @@ Samuti võiksite kujundada oma kogukonnale või kokkusaamisele omase infolehe, m
 Mitmed flaierid on juba **saadavaks avatud lähtekoodiga [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** planB.network'is ja aja jooksul lisandub veel rohkem.
 
 
-Üks näide on [täielik infoleht] (https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), milles on 21 põhjust Bitcoin kasutamiseks. Selle kujundus on samuti [avatud lähtekoodiga](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), mida saate muuta, kohandada ja jagada. Lihtsalt ärge unustage, et viitaksite oma allikatele.
+Üks näide on [täielik infoleht](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), milles on 21 põhjust Bitcoin kasutamiseks. Selle kujundus on samuti [avatud lähtekoodiga](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), mida saate muuta, kohandada ja jagada. Lihtsalt ärge unustage, et viitaksite oma allikatele.
 
 
 
@@ -2165,7 +2165,7 @@ Kui soovite tellida rohkem kui 50 NFC-kaarti, võite võtta ettevõttega ühendu
 
 
 
-Näiteks 2023. aastal tellis Prantsuse ühing [Bitcoin Lille] (https://twitter.com/BitcoinLille) partii NFC-kaarte, mille disain oli kohandatud. Iga uus liige sai aasta jooksul ühe oma tervituspakendis. Seda ideed saab hõlpsasti kohandada ja isikupärastada oma kogukonna jaoks.
+Näiteks 2023. aastal tellis Prantsuse ühing [Bitcoin Lille](https://twitter.com/BitcoinLille) partii NFC-kaarte, mille disain oli kohandatud. Iga uus liige sai aasta jooksul ühe oma tervituspakendis. Seda ideed saab hõlpsasti kohandada ja isikupärastada oma kogukonna jaoks.
 
 
 Nende kaartide ühikuhind jääb tavaliselt vahemikku 2,50-5 eurot, sõltuvalt tellimuse suurusest ja turutingimustest, kusjuures suuremate koguste puhul on hind madalam.
@@ -2218,11 +2218,11 @@ Populaarsed platvormid on järgmised:
 
 
 - [**YouTube**](https://www.youtube.com/), mida kasutatakse laialdaselt, kuid mis ei ole tsensuurikindel.
-- [**Odyssee**] (https://odysee.com/), mis on vähem populaarne, kuid detsentraliseeritud peer-to-peer-tehnoloogia abil.
+- [**Odyssee**](https://odysee.com/), mis on vähem populaarne, kuid detsentraliseeritud peer-to-peer-tehnoloogia abil.
 - [**peertube**](https://joinpeertube.org/fr_FR), võimaldab teil oma videoplatvormi hallata, kuigi selle seadistamine on keerulisem.
 
 
-Olenemata sellest, millise platvormi te valite, kujundage oma kanali atraktiivseks muutmiseks platvormipõhine visuaalne kujundus. Canva, mida mainiti [osa 2/8] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef), pakub kategooriat "YouTube'i pisipilt", kus on eelnevalt valmistatud ja kohandatavad kujundused.
+Olenemata sellest, millise platvormi te valite, kujundage oma kanali atraktiivseks muutmiseks platvormipõhine visuaalne kujundus. Canva, mida mainiti [osa 2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef), pakub kategooriat "YouTube'i pisipilt", kus on eelnevalt valmistatud ja kohandatavad kujundused.
 
 
 
@@ -2262,12 +2262,12 @@ Populaarsed podcast-platvormid on järgmised:
 - [**Google podcast**](https://podcasts.google.com/).
 
 
-Igal platvormil on oma sihtrühm, nii et mitmel platvormil osalemine laiendab teie haardeulatust. **[Spotify for podcasters] (https://podcasters.spotify.com/) teeb selle lihtsaks, võimaldades teil oma podcasti üks kord üles laadida ja generate RSS-voo teistele platvormidele**.
+Igal platvormil on oma sihtrühm, nii et mitmel platvormil osalemine laiendab teie haardeulatust. **[Spotify for podcasters](https://podcasters.spotify.com/) teeb selle lihtsaks, võimaldades teil oma podcasti üks kord üles laadida ja generate RSS-voo teistele platvormidele**.
 
 Seega, kui töö on "Spotify for Podcasters" jaoks tehtud, jääb vaid sisu vormindamine teiste platvormide jaoks, mis on suhteliselt kiire protsess.
 
 
-Salvestamiseks on [Audacity] (https://www.audacityteam.org/) tasuta ja võimaldab teil reguleerida helitaset, lisada efekte, näiteks fade, ja suurendada selgust redigeerimise ajal. Sellega on lihtne oma häält salvestada ja luua professionaalse kvaliteediga podcast.
+Salvestamiseks on [Audacity](https://www.audacityteam.org/) tasuta ja võimaldab teil reguleerida helitaset, lisada efekte, näiteks fade, ja suurendada selgust redigeerimise ajal. Sellega on lihtne oma häält salvestada ja luua professionaalse kvaliteediga podcast.
 
 
 Siin on lühike 10-minutiline õpetus, mis hõlmab Audacityga podcasti loomise põhitõdesid:
@@ -2599,7 +2599,7 @@ Selle osavõtu suurenemisega:
     - kui leiate, et osalejate arv muutub üle jõu käivaks, võite tulevaste kokkusaamiste puhul kas **nõuda osalejatelt registreerimist** (Meetupi rakenduse või lihtsa vormi kaudu) või **pidada iga kuu mitu kokkusaamist** (näiteks: algajate kokkusaamine, keskastme kokkusaamine ja edasijõudnute kokkusaamine).
     - Samal ajal on oodata ökosüsteemi palju uusi tulijaid, kelle peamine eesmärk on sageli raha teenimine. Selleks, et **suhtlused keskenduksid Bitcoin-le** nendel kiiresti kasvavatel kohtumistel, on hea mõte:
 
-a) kaasata nende ürituste ajal **Bitcoin-teemaline esitlus**, sest see suunab loomulikult suure osa vestlusest sellele teemale (ja eemale viimasest väidetavalt "revolutsioonilisest" shitcoin-projektist);
+a) kaasata nende ürituste ajal **Bitcoin-teemaline esitlus**, sest see suunab loomulikult suure osa vestlusest sellele teemale (ja eemale viimasest väidetavalt "revolutsioonilisest" [shitcoin-projektist](https://planb.academy/resources/glossary/shitcoin));
 
 b) **Vältige ainult bitcoin'idega**. Selle asemel tehke endale eesmärgiks **läheneda uutele tulijatele**, isegi kui see tähendab, et peate neid tervitama ruumi tagumises otsas. Sealt saate rääkida sellest, miks nad tulid, mida nad otsivad, millised on teie kogukonna eesmärgid (või isegi põhiprintsiibid) jne.
 
@@ -2831,14 +2831,14 @@ Selle asemel **otsige abi bitcoini kasutajatelt, kes on juba käinud sama tunnel
 
 
 
-## BTC302, mis saab edasi
+## BTC 304, mis saab edasi
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-Selles BTC302 kursuses oleme lähemalt käsitlenud, kuidas luua kogukond või kohtumine ning kuidas käivitada erinevaid projekte.
+Selles BTC 304 kursuses oleme lähemalt käsitlenud, kuidas luua kogukond või kohtumine ning kuidas käivitada erinevaid projekte.
 
 
 Kui teie kogukond on valmis astuma järgmise sammu, **võite luua ametliku ühingu**.

@@ -6,4 +6,4 @@ wrong_answers:
   - Desencripta mensajes usando una clave pública.
 explanation: |
   Una función hash genera un hash de longitud fija, sin importar el tamaño de la entrada.
-reviewed: false
+reviewed: true

@@ -1,0 +1,9 @@
+question: Setelah verifikasi, apa yang dilakukan node Bitcoin dengan transaksi yang valid tetapi belum dikonfirmasi?
+answer: Meneruskannya ke rekan-rekannya (peers)
+wrong_answers:
+  - Menambahkannya ke salinan lokal blockchain-nya
+  - Menandatanganinya dengan kunci pribadinya
+  - Mengenkripsinya dengan kunci publiknya
+explanation: |
+  Dalam jaringan Bitcoin, setiap node menyebarkan transaksi yang valid ke node-node yang terhubung dengannya.
+reviewed: false

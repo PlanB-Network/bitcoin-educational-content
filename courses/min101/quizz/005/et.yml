@@ -1,0 +1,9 @@
+question: Millele vastab nbits väli ploki päises?
+answer: Kodeeritud raskusastme sihtväärtus
+wrong_answers:
+  - Ploki suurus baitides
+  - Tehingute arv plokis
+  - Ploki ajatempel
+explanation: |
+  Väli nbits kodeerib aktiivse raskusastme sihtväärtuse.
+reviewed: false

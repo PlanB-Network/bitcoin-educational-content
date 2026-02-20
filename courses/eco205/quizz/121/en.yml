@@ -1,0 +1,8 @@
+question: According to Hayek's theory, why is the price system more efficient than a central planner at coordinating the economy?
+answer: Because it spontaneously aggregates information dispersed among all agents, without any central authority having access to this information
+wrong_answers:
+  - "Because it enables central planners to calculate optimal prices more quickly using market data"
+  - "Because it completely eliminates uncertainty by providing perfect information to all market participants."
+  - "Because it automatically guarantees income equality between all participating economic players."
+explanation: |
+  Hayek demonstrates that economic information is always dispersed, incomplete and constantly changing. The price system succeeds in coordinating the actions of millions of individuals by spontaneously aggregating this dispersed information, which no central planner can achieve because he cannot access all this information. The other answers are incorrect, because Hayek rejects central planning, recognizes that information remains imperfect, and is not interested in income equality but in the efficiency of coordination.

@@ -4,7 +4,7 @@ description: Открийте и започнете да използвате No
 ---
 
 
-![A new challenger has arrived](assets/1.webp)
+![A new challenger has arrived](assets/cover.webp)
 
 
 

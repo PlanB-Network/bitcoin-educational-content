@@ -1,6 +1,7 @@
 ---
-term: SIGOPS (OPERACIONES DE FIRMA)
+term: Sigops (operaciones de firma)
 
+definition: Operaciones de firma digital necesarias para validar las transacciones de Bitcoin.
 ---
 Se refiere a las operaciones de firma digital necesarias para validar transacciones. Cada transacción Bitcoin puede contener múltiples entradas, cada una de las cuales puede requerir una o más firmas para ser considerada válida. La verificación de estas firmas se realiza mediante el uso de opcodes específicos llamados "sigops". En concreto, se incluyen `OP_CHECKSIG`, `OP_CHECKSIGVERIFY`, `OP_CHECKMULTISIG`, y `OP_CHECKMULTISIGVERIFY`. Estas operaciones imponen una cierta carga de trabajo a los nodos de la red que deben verificarlas. Para evitar ataques DoS mediante la inflación artificial del número de sigops, el protocolo impone un límite al número de sigops permitidos por bloque, para garantizar que la carga de validación siga siendo manejable para los nodos. Este límite está fijado actualmente en un máximo de 80.000 sigops por bloque. Para contar, los nodos siguen estas reglas
 

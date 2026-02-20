@@ -1,10 +1,11 @@
 ---
-term: MINISCRIPT
+term: Miniscript
 
+definition: Kerangka kerja yang menyederhanakan pembuatan, analisis, dan verifikasi skrip Bitcoin.
 ---
 Kerangka kerja yang dirancang untuk menyediakan kerangka kerja untuk memprogram skrip dengan aman di Bitcoin. Bahasa asli Bitcoin disebut skrip. Script ini cukup rumit untuk digunakan dalam praktiknya, terutama untuk aplikasi yang canggih dan disesuaikan. Terlebih lagi, sangat sulit untuk memverifikasi batasan-batasan skrip. _Miniscript_ menggunakan bagian dari skrip Bitcoin untuk menyederhanakan pembuatan, analisis, dan verifikasi. Setiap miniscript setara dengan skrip asli. Bahasa kebijakan yang mudah digunakan digunakan, yang kemudian dikompilasi ke dalam _Miniscript_, untuk akhirnya sesuai dengan skrip asli.
 
-![](../../dictionnaire/assets/30.webp)
+
 
 Dengan demikian, _Miniscript_ memungkinkan para pengembang untuk membuat skrip yang canggih dengan cara yang lebih aman dan dapat diandalkan. Sifat-sifat penting dari _miniscript_ adalah sebagai berikut:
 

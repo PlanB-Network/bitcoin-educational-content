@@ -1,0 +1,8 @@
+question: What fundamental economic principle explains why voluntary contracts create mutual enrichment rather than zero-sum competition between parties?
+answer: Each party finds greater advantage in participating than abstaining, making contracts positive-sum games where both sides benefit
+wrong_answers:
+  - Contracts redistribute wealth from stronger to weaker parties through negotiated compromises that balance power imbalances
+  - Government regulation ensures fair terms that prevent exploitation, creating artificial equality between contracting parties
+  - Market competition forces parties to accept losses in some contracts to gain advantages in future transactions
+explanation: |
+  The text emphasizes that voluntary contracts represent positive-sum games where each individual finds satisfaction in acting rather than abstaining. This occurs because contracts are always chosen options among alternatives - people only contract when they perceive advantage in the transaction. This principle distinguishes voluntary exchange from coercive redistribution, regulated markets, or competitive loss scenarios, as it's based on mutual benefit rather than external intervention or strategic sacrifice.

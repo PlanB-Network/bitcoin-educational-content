@@ -64,7 +64,7 @@ Ili kutumia SeedSigner yako na Mtunza Mbegu, unahitaji kusakinisha programu mbad
 
 
 
-Ikiwa tayari huna, pakua programu ya [Balena Etcher] (https://etcher.balena.io/), kisha uendelee kama ifuatavyo:
+Ikiwa tayari huna, pakua programu ya [Balena Etcher](https://etcher.balena.io/), kisha uendelee kama ifuatavyo:
 
 
 

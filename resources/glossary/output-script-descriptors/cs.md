@@ -1,6 +1,7 @@
 ---
-term: DESKRIPTORY VÝSTUPNÍHO SKRIPTU
+term: Output script descriptors
 
+definition: Strukturované výrazy popisující výstupní skript a informace pro obnovu peněženky.
 ---
 Deskriptory výstupních skriptů nebo jednoduše deskriptory jsou strukturované výrazy, které plně popisují výstupní skript (`scriptPubKey`) a poskytují všechny potřebné informace pro sledování transakcí do nebo z konkrétního skriptu. Tyto deskriptory usnadňují správu klíčů v peněženkách HD prostřednictvím standardního popisu struktury a typů použitých adres.
 

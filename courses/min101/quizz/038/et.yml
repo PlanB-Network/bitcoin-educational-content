@@ -1,0 +1,9 @@
+question: Mida peab alates BIP-34-st sisaldama coinbase'i scriptSig-i algus?
+answer: Ploki kõrgust
+wrong_answers:
+  - Kaevandaja hashrate'i
+  - Raskusastme sihti
+  - Ploki jäljendit
+explanation: |
+  BIP-34 nõuab ploki kõrguse märkimist coinbase'i scriptSig-i.
+reviewed: false

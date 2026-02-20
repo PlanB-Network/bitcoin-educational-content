@@ -1,0 +1,8 @@
+question: UniFFI xử lý việc lan truyền lỗi từ các hàm Rust đến các ngôn ngữ đích như Kotlin và Python như thế nào?
+answer: Các hàm trả về kiểu Result được đánh dấu bằng 'throws' trong UDL và các ngoại lệ gốc generate trong ngôn ngữ đích.
+wrong_answers:
+  - Các loại lỗi được tự động chuyển đổi thành thông báo chuỗi và trả về dưới dạng giá trị tùy chọn trong tất cả các ngôn ngữ đích.
+  - Tất cả các lỗi Rust đều được gói gọn trong một kiểu lỗi UniFFI chung mà các nhà phát triển phải tự tay tách ra.
+  - Việc xử lý lỗi yêu cầu các nhà phát triển phải tự tay triển khai mã dịch lỗi cho từng nền tảng ngôn ngữ mục tiêu.
+explanation: |
+  UniFFI cung cấp khả năng xử lý lỗi tinh vi, bảo toàn mô hình lỗi dựa trên Kết quả của Rust trong khi dịch nó một cách phù hợp cho từng ngôn ngữ đích. Các hàm trả về kiểu Kết quả trong Rust được đánh dấu bằng từ khóa 'throws' trong UDL, và việc xử lý ngoại lệ gốc của generate trong các ngôn ngữ đích - các phương thức Kotlin ném ngoại lệ theo quy ước của Java/Kotlin, trong khi Python sử dụng mô hình ngoại lệ của Python. Điều này đảm bảo việc xử lý lỗi cảm thấy tự nhiên và phù hợp với từng ngôn ngữ trong khi vẫn bảo toàn ý nghĩa ngữ nghĩa của các kiểu lỗi Rust gốc, không giống như các trình bao bọc chung chung hoặc các phương pháp dịch thủ công.

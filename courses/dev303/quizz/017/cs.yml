@@ -1,0 +1,8 @@
+question: Jaké tři komponenty tvoří strukturu řetězce v paměťovém uspořádání Rust?
+answer: Ukazatel na data haldy, aktuální délku a celkovou kapacitu
+wrong_answers:
+  - Ukazatel na data zásobníku, aktuální velikost a maximální délku
+  - Adresa paměti, počet znaků a typ alokace
+  - Odkaz na data, velikost bajtu a stav vlastnictví
+explanation: |
+  Řetězec v Rust se skládá přesně ze tří složek uložených na zásobníku: ukazatele na znaková data alokovaná na hromadě, aktuální délky obsahu řetězce a celkové kapacity alokované vyrovnávací paměti. Tato struktura umožňuje efektivní zvětšování a zmenšování řetězců při zachování znalosti jejich hranic. Ostatní možnosti jsou nesprávné, protože buď odkazují na nesprávná místa (zásobník místo haldy), používají nepřesnou terminologii (velikost vs. délka, počet znaků vs. délka bajtu), nebo obsahují neexistující komponenty, jako je typ alokace nebo stav vlastnictví.

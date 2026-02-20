@@ -23,7 +23,7 @@ StashPay adalah Wallet kustodian mandiri Lightning yang dikenal terutama karena 
 
 
 
-StashPay adalah sebuah proyek sumber terbuka yang dikembangkan di React Native dan bertujuan untuk memecahkan masalah biaya transaksi yang tinggi bahkan dengan transaksi pada rantai utama protokol Bitcoin. Ini tersedia sebagai aplikasi seluler di platform Android dan iOS melalui tautan unduhan yang ada di [situs web] (https://stashpay.me/).
+StashPay adalah sebuah proyek sumber terbuka yang dikembangkan di React Native dan bertujuan untuk memecahkan masalah biaya transaksi yang tinggi bahkan dengan transaksi pada rantai utama protokol Bitcoin. Ini tersedia sebagai aplikasi seluler di platform Android dan iOS melalui tautan unduhan yang ada di [situs web](https://stashpay.me/).
 
 
 

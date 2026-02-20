@@ -498,7 +498,7 @@ For å koble deg til en motpart (Lightning-node) trenger du tre opplysninger:
 
 
 
-Du kan finne noder du kan koble deg til på [amboss] (https://amboss.space/), en plattform som viser informasjon om Lightning-noder.
+Du kan finne noder du kan koble deg til på [amboss](https://amboss.space/), en plattform som viser informasjon om Lightning-noder.
 
 
 

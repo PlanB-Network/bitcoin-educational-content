@@ -1,5 +1,6 @@
 ---
-term: MIESZANIE
+term: Miksowanie
+definition: Właściwość systemu, w którym elementy są równomiernie wymieszane, używana do oceny jakości coinjoinów.
 ---
 
 W ogólnej dziedzinie matematyki mieszanie lub mieszanie odnosi się do właściwości układu dynamicznego, w którym po pewnym czasie wszystkie części przestrzeni początkowej mogą teoretycznie zostać zmieszane z dowolną inną częścią. Mieszanie oznacza, że położenie cząstki lub stan systemu ewoluuje w taki sposób, że jego przyszły rozkład jest niezależny od jego początkowego rozkładu, osiągając w ten sposób stan, w którym cechy stanu początkowego są równomiernie rozłożone w przestrzeni systemu. W kontekście Bitcoin pojęcie to można wykorzystać do oceny jakości procesu mieszania monet, takiego jak CoinJoin.

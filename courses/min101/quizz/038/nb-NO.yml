@@ -1,0 +1,9 @@
+question: Siden BIP-34, hva må starten av coinbase scriptSig inneholde?
+answer: Blokkhøyden
+wrong_answers:
+  - Minerens hashrate
+  - Vanskelighetsmålet
+  - Blokkavtrykket
+explanation: |
+  BIP-34 krever at blokkhøyden skrives inn i coinbase scriptSig.
+reviewed: false

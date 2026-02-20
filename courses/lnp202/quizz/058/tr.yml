@@ -1,0 +1,9 @@
+question: NWC protokolünde, uygulama ile düğüm arasında talebi iletmek için hangi mekanizma kullanılır?
+answer: Nostr rölelerindeki olaylar
+wrong_answers:
+  - LND'e doğrudan REST çağrıları
+  - Noktadan noktaya VPN bağlantısı
+  - Şifrelenmiş DNS istekleri
+explanation: |
+  Talep şifrelenir ve daha sonra düğümün eylemi gerçekleştirmek için okuduğu bir Nostr aktarıcısında olay olarak yayınlanır.
+reviewed: false

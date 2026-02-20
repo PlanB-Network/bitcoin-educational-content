@@ -1,5 +1,6 @@
 ---
 term: OP_2 DO OP_16 (0X52 DO 0X60)
+definition: Opkodovi koji postavljaju numeričke vrednosti od 2 do 16 na stek.
 ---
 
 Opcodi od `OP_2` do `OP_16` postavljaju odgovarajuće numeričke vrednosti od 2 do 16 na stek. Koriste se za pojednostavljenje skripti omogućavajući umetanje malih numeričkih vrednosti. Ovaj tip opkoda se naročito koristi u skriptama sa višestrukim potpisima. Evo primera `scriptPubKey` za 2/3 Multisig:

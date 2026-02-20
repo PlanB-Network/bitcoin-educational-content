@@ -1,0 +1,9 @@
+question: Berapa banyak kata yang terkandung dalam frasa mnemonik LND?
+answer: 24 kata
+wrong_answers:
+  - 10 kata
+  - 18 kata
+  - 36 kata
+explanation: |
+  LND generate adalah frasa mnemonik 24 kata untuk pencadangan dan pemulihan node.
+reviewed: false

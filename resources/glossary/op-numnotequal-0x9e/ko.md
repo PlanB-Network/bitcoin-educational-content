@@ -1,5 +1,6 @@
 ---
-term: OP_NUMNOTEQUAL (0x9E)
+term: OP_NUMNOTEQUAL (0X9E)
+definition: 스택 최상단의 두 요소가 수치적으로 다른지 확인하는 Opcode.
 ---
 
 스택에서 가장 위에 있는 두 개의 Elements을 비교하여 숫자가 같지 않은지 확인합니다. 값이 같지 않으면 `1`(참)을 스택에 밀어넣고, 그렇지 않으면 `0`(거짓)을 밀어넣습니다. 이것은 `OP_NUMEQUAL`과 반대입니다.

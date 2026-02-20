@@ -1,5 +1,6 @@
 ---
-term: op_1negate (0x4f)
+term: OP_1NEGATE (0X4F)
+definition: 將值-1推入堆疊的操作碼。
 ---
 
 將值 `-1` 推入堆疊。這個操作碼在腳本中用來表示負值 `-1`。

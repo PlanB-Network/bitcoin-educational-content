@@ -1,0 +1,9 @@
+question: Kuhu on alates SegWitist märgitud ploki tunnistajate (witness) kohustus?
+answer: Coinbase'i väljundisse (output)
+wrong_answers:
+  - Coinbase'i scriptSig-i
+  - Versiooni väljale
+  - Coinbase'i tasudesse
+explanation: |
+  SegWit kasutab coinbase'i sisse kirjutatud kohustust OP_RETURN väljundi kaudu.
+reviewed: false

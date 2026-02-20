@@ -1,9 +1,9 @@
-question: Ni amakuru ayahe yo mu karere ashoboza abamamaza gukurikirana ingeso zawe zo gusura ku mbuga nyinshi?
-answer: Amakuki y'uwundi muntu
+question: Ni amakuru ayahe yo mu karere ashoboza abamamaza gukurikirana ingeso zawe kuvyo urondera ku mbuga nyinshi?
+answer: cookies z’abandi
 wrong_answers:
-  - Kode y'inyandiko ya Java
-  - Amateka y'aho hantu
+  - Kode ya JavaScript 
+  - Amateka yo mu karere
   - Icemezo ca SSL
 explanation: |
-  Ama cookies y’abandi, ashirwaho n’amashirahamwe yo hanze y’ivyamamaza, akoreshwa mu gukurikirana ibikorwa vy’abakoresha ku mbuga zitandukanye no gushinga urutonde rw’ivyamamaza.
-reviewed: false
+  Ama cookies y’abandi, ashirwaho n’amashirahamwe yo hanze y’ivyamamaza, akoreshwa mu gukurikirana ibikorwa vy’abakoresha ku mbuga zitandukanye no gushiraho urutonde rw’ivyamamazwa.
+reviewed: true

@@ -1,5 +1,6 @@
 ---
-term: BECH32 NA BECH32M
+term: Bech32 na bech32m
+definition: Uburyo bwo kwandika ama aderesi ya SegWit (atangurwa na bc1), butanga uburyo bwiza bwo gutahura amakosa n'isomeka ryiza ugereranije n'ama aderesi ya Legacy.
 ---
 
 `Bech32` na `Bech32m` ni uburyo bubiri bwo gushiramwo amakuru Bitcoin Address. Bishingiye ku nsiguro yahinduwe gatoyi y’ishimikiro rya 32 kandi birimwo igiharuro c’igenzura gishingiye ku nzira y’ugutahura amakosa izwi nka BCH (*Bose-Chaudhuri-Hocquenghem*). Ugereranije n'amaderesi y'Iragi, ashizwe muri `Base58check`, aderesi za `Bech32` na `Bech32m` zifise umubare w'isuzuma ukora neza, ushobora gutuma amakosa amenyekana neza kandi, rimwe na rimwe, n'ubushobozi bwo gukosora amakosa yo kwandika. Ivyo bimenyetso biratuma kandi umuntu ashobora gusoma neza, kuko bikoresha inyuguti ntoyi gusa. Aha niho hari inyishu y'inyongezo y'iyi miterere kuva ku ntango 10:

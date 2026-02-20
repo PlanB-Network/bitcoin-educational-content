@@ -1,9 +1,9 @@
 question: Bitcoin Blockchain 目前的尺寸是多少？
-answer: 約 500GB。
+answer: 約 660GB
 wrong_answers:
-  - 約 100GB。
-  - 約 1 TB。
-  - 約 2 TB。
+  - 約 110GB
+  - 約 1TB
+  - 約 2TB
 explanation: |
-  截至 2023 年，Bitcoin Blockchain 的大小約為 500GB。
+  截至 2025 年，Bitcoin Blockchain 的大小約為 660GB。
 reviewed: true

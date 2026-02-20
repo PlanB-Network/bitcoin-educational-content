@@ -10,7 +10,7 @@ Ginger Wallet är en Bitcoin-portfölj med öppen källkod som inte är frihetsb
 
 
 
-Ginger Wallet behåller Wasabis tekniska arkitektur men lägger till några specifika funktioner. Enligt [Ginger Wallet documentation] (https://docs.gingerwallet.io/why-ginger/difference.html#gingerwallet) betonar Wasabi **autonomi och kontroll**, medan Ginger fokuserar på **användarvänlighet, säkerhet och en förenklad upplevelse**, vilket gör den tillgänglig för dem som är mindre bekanta med tekniska aspekter.
+Ginger Wallet behåller Wasabis tekniska arkitektur men lägger till några specifika funktioner. Enligt [Ginger Wallet documentation](https://docs.gingerwallet.io/why-ginger/difference.html#gingerwallet) betonar Wasabi **autonomi och kontroll**, medan Ginger fokuserar på **användarvänlighet, säkerhet och en förenklad upplevelse**, vilket gör den tillgänglig för dem som är mindre bekanta med tekniska aspekter.
 
 
 
@@ -44,7 +44,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-För att installera Ginger Wallet, besök webbplatsen [Ginger Wallet] (https://gingerwallet.io).
+För att installera Ginger Wallet, besök webbplatsen [Ginger Wallet](https://gingerwallet.io).
 
 
 
@@ -56,7 +56,7 @@ Tryck på **Download** för att ladda ner rätt version för din dator (Windows 
 
 
 
-Ett annat alternativ är att gå till projektets [GitHub] (https://github.com/GingerPrivacy/GingerWallet/releases) för att ladda ner den.
+Ett annat alternativ är att gå till projektets [GitHub](https://github.com/GingerPrivacy/GingerWallet/releases) för att ladda ner den.
 
 
 

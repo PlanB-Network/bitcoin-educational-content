@@ -1,0 +1,8 @@
+question: Quelle différence fondamentale Friedrich von Wieser établit-il entre le coût d'opportunité et le coût historique d'une ressource?
+answer: Le coût d'une ressource n'est pas lié à son coût réel passé, mais à la valeur des usages alternatifs auxquels on renonce
+wrong_answers:
+  - "Le coût historique est subjectif tandis que le coût d'opportunité est objectif et mesurable mathématiquement"
+  - "Le coût d'opportunité se calcule uniquement sur les résultats passés contrairement au coût historique qui anticipe l'avenir"
+  - "Le coût historique inclut tous les usages alternatifs possibles alors que le coût d'opportunité ne considère que le meilleur choix"
+explanation: |
+  Wieser révolutionne la conception du coût en montrant que la valeur d'une ressource ne dépend pas de ce qu'elle a coûté historiquement, mais de ce à quoi on renonce en l'utilisant. Cette distinction est cruciale car elle place la valeur dans le présent et l'avenir (les alternatives sacrifiées) plutôt que dans le passé. Les autres réponses inversent incorrectement les caractéristiques de ces concepts ou confondent leurs définitions respectives.

@@ -1,0 +1,9 @@
+question: 区块头中 nonce 的大小是多少？
+answer: 32 位 (bits)
+wrong_answers:
+  - 128 位
+  - 64 位
+  - 256 位
+explanation: |
+  nonce 是区块头中的一个 32 位字段。
+reviewed: false

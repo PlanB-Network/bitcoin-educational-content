@@ -74,7 +74,7 @@ Nach den Worten von Nicolas war es an der Zeit, mit dem Bau zu beginnen. Eine be
 Was bedeutet Open Source, und was gehört zu einem solchen Projekt?
 
 
-FOSS steht für Free & Open-Source Software. Ersteres bezieht sich auf Begriffe, die es jedem erlauben, die Software zu kopieren, zu verändern und sogar zu vertreiben (sogar mit Gewinn). Letzteres bezieht sich auf die offene Freigabe des Quellcodes und ermutigt die Öffentlichkeit, Beiträge zu leisten und die Software zu verbessern.
+[FOSS](https://planb.academy/resources/glossary/foss) steht für Free & Open-Source Software. Ersteres bezieht sich auf Begriffe, die es jedem erlauben, die Software zu kopieren, zu verändern und sogar zu vertreiben (sogar mit Gewinn). Letzteres bezieht sich auf die offene Freigabe des Quellcodes und ermutigt die Öffentlichkeit, Beiträge zu leisten und die Software zu verbessern.
 
 Dies zieht erfahrene Benutzer an, die mit Begeisterung einen Beitrag zu der Software leisten, die sie bereits benutzen und aus der sie einen Nutzen ziehen, und die sich letztendlich als erfolgreicher in der Annahme erweist als proprietäre Software. Es steht im Einklang mit dem Bitcoin-Ethos, dass "Information frei sein will" Es bringt leidenschaftliche Menschen zusammen, die eine Gemeinschaft bilden, und es macht einfach mehr Spaß. Wie Bitcoin ist auch FOSS unvermeidlich.
 
@@ -122,13 +122,13 @@ Die BTCPay Server Foundation, die es Alekos und Bas ermöglicht hat, diesen Kurs
 Dies ist eine Klassenraumübung. Wenn Sie diesen Kurs selbst besuchen, können Sie ihn nicht durchführen, aber Sie können diese Übung trotzdem durchlaufen. Um diese Aufgabe zu lösen, sind mindestens 9 bis 11 Personen erforderlich.
 
 
-Die Übung beginnt nach dem Anschauen der Einführung "How Bitcoin and the Blockchain works" von der BBC.
+Die Übung beginnt nach dem Anschauen der Einführung "How Bitcoin and the [Blockchain](https://planb.academy/resources/glossary/blockchain) works" von der BBC.
 
 
 :::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
 
-Diese Übung erfordert eine Mindestanzahl von neun Teilnehmern. Diese Übung zielt darauf ab, ein physisches Verständnis dafür zu vermitteln, wie Bitcoin funktioniert. Indem Sie jede Rolle im Netzwerk spielen, können Sie auf interaktive und spielerische Weise lernen. Diese Übung beinhaltet nicht Lightning Network.
+Diese Übung erfordert eine Mindestanzahl von neun Teilnehmern. Diese Übung zielt darauf ab, ein physisches Verständnis dafür zu vermitteln, wie Bitcoin funktioniert. Indem Sie jede Rolle im Netzwerk spielen, können Sie auf interaktive und spielerische Weise lernen. Diese Übung beinhaltet nicht [Lightning Network](https://planb.academy/resources/glossary/lightning-network).
 
 
 ### Beispiel: Benötigt 9 / 11 Personen
@@ -154,7 +154,7 @@ Kunden kaufen ein Produkt im Laden mit Bitcoin.
 
 
 - Einrichten:
-  - Siehe Diagramme/Erläuterungen im beigefügten Figjam - [Aktivitätsschema] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
+  - Siehe Diagramme/Erläuterungen im beigefügten Figjam - [Aktivitätsschema](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
   - Bitten Sie drei freiwillige Schüler, die Rollen des Kunden (Alice), des Händlers (Bob) und der Bank zu übernehmen.
 - Spielen Sie die Abfolge der Ereignisse nach:
   - Ein Kunde, der online im Laden stöbert und einen Artikel für 25 $ findet, den er haben möchte, informiert den Händler, dass er ihn kaufen möchte
@@ -176,23 +176,23 @@ Kunden kaufen ein Produkt im Laden mit Bitcoin.
 
 
 - Einrichten:
-  - Siehe Diagramme/Erläuterungen im beigefügten Figjam - [Aktivitätsschema] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
+  - Siehe Diagramme/Erläuterungen im beigefügten Figjam - [Aktivitätsschema](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
   - Ersetzen Sie die Bank durch neun Schüler, die die Rolle eines Computers (Bitcoin-Knoten/Miners) in einem Netzwerk spielen, das die Bank ersetzen soll.
 - Jeder der 9 Computer verfügt über eine vollständige historische Aufzeichnung aller jemals getätigten Transaktionen (daher genaue Bilanzen ohne Fälschungen) sowie über ein Regelwerk:
   - Überprüfen Sie, ob die Transaktion ordnungsgemäß signiert ist (thekeyfitsthelock)
   - Senden und Empfangen von gültigen Transaktionen an Peers im Netzwerk, Verwerfen von ungültigen Transaktionen (einschließlich solcher, die versuchen, denselben Betrag zweimal auszugeben)
-- Regelmäßige Aktualisierung/Hinzufügung von Datensätzen mit neuen Transaktionen, die vom "Zufalls"-Computer empfangen werden, sofern alle Inhalte gültig sind (Anmerkung: wir ignorieren der Einfachheit halber die Proof of Work-Komponente bei all dem), andernfalls werden diese zurückgewiesen und wie zuvor fortgesetzt, bis der nächste "Zufalls"-Computer eine Aktualisierung sendet
+- Regelmäßige Aktualisierung/Hinzufügung von Datensätzen mit neuen Transaktionen, die vom "Zufalls"-Computer empfangen werden, sofern alle Inhalte gültig sind (Anmerkung: wir ignorieren der Einfachheit halber die [Proof of Work](https://planb.academy/resources/glossary/proof-of-work)-Komponente bei all dem), andernfalls werden diese zurückgewiesen und wie zuvor fortgesetzt, bis der nächste "Zufalls"-Computer eine Aktualisierung sendet
   - Der richtige Betrag wurde belohnt, wenn der Inhalt gültig war.
 - Spielen Sie die Abfolge der Ereignisse nach:
   - Ein Kunde, der online im Laden stöbert und einen Artikel für 25 $ findet, den er haben möchte, informiert den Händler, dass er ihn kaufen möchte
-  - Händler - bittet um Zahlung, indem er dem Kunden ein Invoice/Address von seinem Wallet aus schickt.
+  - Händler - bittet um Zahlung, indem er dem Kunden ein Invoice/Address von seinem [Wallet](https://planb.academy/resources/glossary/wallet) aus schickt.
   - Der Kunde führt eine Transaktion durch (Senden von BTC im Wert von 25 $ an ein vom Händler bereitgestelltes Address) und sendet sie an das Bitcoin-Netzwerk.
 - Computer - empfangen die Transaktion und überprüfen sie:
   - Im Address befinden sich mindestens 25 $ BTC, die von
   - Die Transaktion wird ordnungsgemäß signiert ("freigeschaltet" durch den Kunden)
   - Ist dies nicht der Fall, wird die Transaktion nicht über das Netz weitergegeben, und wenn doch, wird sie weitergegeben und in Wartestellung gehalten.
   - Die Händler können überprüfen, ob die Transaktion noch nicht abgeschlossen ist und warten.
-- Ein Computer wird "zufällig" ausgewählt, um vorzuschlagen, die vorgeschlagene Transaktion abzuschließen, indem er einen "Block" sendet, der sie enthält; wenn sie erfolgreich ist, erhält er eine BTC-Belohnung.
+- Ein Computer wird "zufällig" ausgewählt, um vorzuschlagen, die vorgeschlagene Transaktion abzuschließen, indem er einen "[Block](https://planb.academy/resources/glossary/block)" sendet, der sie enthält; wenn sie erfolgreich ist, erhält er eine BTC-Belohnung.
   - OPTIONAL/ERWEITERT - anstatt einen Computer zufällig auszuwählen, simulieren Sie Mining, indem Sie die Computer würfeln lassen, bis ein bestimmtes Ergebnis eintritt (z. B. der erste, der zwei Sechsen würfelt, wird ausgewählt)
   - Es kann auch durchspielen, was passieren würde, wenn zwei Computer ungefähr gleichzeitig gewinnen, was zu einer Kettenaufteilung führt.
   - Die Computer prüfen die Gültigkeit, aktualisieren die Datensätze in ihren Hauptbüchern, wenn die Regeln erfüllt sind, und senden den Transaktionsblock an die Peers.
@@ -234,15 +234,15 @@ Definieren Sie die folgenden, im vorherigen Abschnitt eingeführten Schlüsselbe
 
 
 - Knotenpunkt
-- Mempool
-- Schwierigkeit Ziel
+- [Mempool](https://planb.academy/resources/glossary/mempool)
+- [Schwierigkeit](https://planb.academy/resources/glossary/difficulty) Ziel
 - Block
 
 
 **Diskutieren Sie in der Gruppe die Bedeutung einiger zusätzlicher Begriffe:**
 
 
-Blockchain, Transaktion, Doppelausgabe, Byzantinisches Problem der Generäle, Mining, Proof of Work (PoW), Hash Funktion, Block reward, Blockchain, Längste Kette, 51%-Angriff, Ausgabe, Ausgabesperre, Änderung, Satoshis, Öffentlicher/Privater Schlüssel, Address, Public-Key-Kryptographie, Digitale Signatur, Wallet
+Blockchain, Transaktion, Doppelausgabe, Byzantinisches Problem der Generäle, [Mining](https://planb.academy/resources/glossary/mining), Proof of Work (PoW), Hash Funktion, Block reward, Blockchain, Längste Kette, 51%-Angriff, Ausgabe, Ausgabesperre, Änderung, [Satoshis](https://planb.academy/resources/glossary/satoshi-sat), Öffentlicher/Privater Schlüssel, Address, Public-Key-[Kryptographie](https://planb.academy/resources/glossary/cryptography), [Digitale Signatur](https://planb.academy/resources/glossary/digital-signature), Wallet
 
 
 # Einführung von BTCPay Server
@@ -573,7 +573,7 @@ In diesem Abschnitt haben Sie gelernt:
 ### Wie werden Bitcoin-Schlüssel erzeugt?
 
 
-Bitcoin-Geldbörsen erzeugen, wenn sie erstellt werden, einen so genannten "seed". Im letzten Ziel haben Sie einen "seed" erstellt. Die zuvor erzeugte Wortfolge ist auch als Mnemonic-Phrase bekannt. Der seed wird zur Ableitung individueller Bitcoin-Schlüssel verwendet und zum Senden oder Empfangen von Bitcoin genutzt. seed-Phrasen sollten niemals an Dritte oder nicht vertrauenswürdige Peers weitergegeben werden.
+Bitcoin-Geldbörsen erzeugen, wenn sie erstellt werden, einen so genannten "[seed](https://planb.academy/resources/glossary/seed)". Im letzten Ziel haben Sie einen "seed" erstellt. Die zuvor erzeugte Wortfolge ist auch als Mnemonic-Phrase bekannt. Der seed wird zur Ableitung individueller Bitcoin-Schlüssel verwendet und zum Senden oder Empfangen von Bitcoin genutzt. seed-Phrasen sollten niemals an Dritte oder nicht vertrauenswürdige Peers weitergegeben werden.
 
 
 Die seed-Generierung erfolgt nach dem Industriestandard "Hierarchical Deterministic" (HD).
@@ -596,11 +596,11 @@ Ein Address wird durch einen "Hashing-Algorithmus" aus dem öffentlichen Schlüs
 
 
 
-- Adressen, die mit `bc1...` beginnen, werden langsam zu den sehr verbreiteten Adressen. Diese sind als (native) SegWit-Adressen bekannt. Diese bieten eine bessere Gebührenstruktur als die anderen genannten Adressen. Native SegWit-Adressen verwenden die Bech32-Kodierung und lassen nur Kleinbuchstaben zu.
+- Adressen, die mit `bc1...` beginnen, werden langsam zu den sehr verbreiteten Adressen. Diese sind als (native) [SegWit](https://planb.academy/resources/glossary/segwit)-Adressen bekannt. Diese bieten eine bessere Gebührenstruktur als die anderen genannten Adressen. Native SegWit-Adressen verwenden die Bech32-Kodierung und lassen nur Kleinbuchstaben zu.
 
 
 
-- Adressen, die mit `3...` beginnen, werden häufig noch von Börsen für Einzahlungsadressen verwendet. Diese Adressen werden im Kapitel "Erstellen einer neuen Filiale" erwähnt, umhüllte oder verschachtelte SegWit-Adressen. Sie können jedoch auch als "Multisig Address" verwendet werden. Wenn sie als SegWit Address verwendet werden, ergeben sich einige Einsparungen bei den Transaktionsgebühren, allerdings weniger als bei den nativen SegWit. P2SH-Adressen verwenden die Base58-Kodierung. Dies macht sie, wie die alten Address, case-sensitiv.
+- Adressen, die mit `3...` beginnen, werden häufig noch von Börsen für Einzahlungsadressen verwendet. Diese Adressen werden im Kapitel "Erstellen einer neuen Filiale" erwähnt, umhüllte oder verschachtelte SegWit-Adressen. Sie können jedoch auch als "Multisig Address" verwendet werden. Wenn sie als SegWit Address verwendet werden, ergeben sich einige Einsparungen bei den [Transaktionsgebühren](https://planb.academy/resources/glossary/transaction-fees), allerdings weniger als bei den nativen SegWit. P2SH-Adressen verwenden die Base58-Kodierung. Dies macht sie, wie die alten Address, case-sensitiv.
 
 
 
@@ -618,7 +618,7 @@ Ein Address wird durch einen "Hashing-Algorithmus" aus dem öffentlichen Schlüs
 
 
 
-- HD-Wallets verwenden jedoch eine andere Struktur. xpub...`, `ypub...` oder `zpub...` werden als erweiterte öffentliche Schlüssel, oder xpubs, bezeichnet. Diese Schlüssel werden zur Ableitung vieler öffentlicher Schlüssel als Teil des HD Wallet verwendet. Da Ihr xpub die Aufzeichnungen Ihrer gesamten Historie, d. h. vergangener und zukünftiger Transaktionen, enthält, sollten Sie diese niemals mit nicht vertrauenswürdigen Parteien teilen.
+- HD-Wallets verwenden jedoch eine andere Struktur. [xpub](https://planb.academy/resources/glossary/xpub)...`, `ypub...` oder `zpub...` werden als erweiterte öffentliche Schlüssel, oder xpubs, bezeichnet. Diese Schlüssel werden zur Ableitung vieler öffentlicher Schlüssel als Teil des HD Wallet verwendet. Da Ihr xpub die Aufzeichnungen Ihrer gesamten Historie, d. h. vergangener und zukünftiger Transaktionen, enthält, sollten Sie diese niemals mit nicht vertrauenswürdigen Parteien teilen.
 
 
 ### Zusammenfassung der Fertigkeiten
@@ -649,7 +649,7 @@ Beschreiben Sie den Vorteil der Verwendung neuer Adressen für jede Transaktion 
 Nach der Erstellung einer seed-Phrase muss die in diesem Buch erstellte Liste von 12 bis 24 Wörtern ordnungsgemäß gesichert werden, da diese Wörter die einzige Möglichkeit sind, den Zugriff auf einen Wallet wiederherzustellen. Die Struktur von HD Wallets und die Art und Weise, wie Adressen deterministisch mit einem einzigen seed generiert werden, bedeutet, dass alle von Ihnen erstellten Adressen mit dieser einen Liste von Mnemonic-Wörtern gesichert werden, die Ihr seed oder Ihre Wiederherstellungsphrase darstellt.
 
 
-Bewahren Sie Ihren Wiederherstellungssatz sicher auf. Wenn jemand darauf zugreift, insbesondere in böswilliger Absicht, kann er Ihr Geld bewegen. Bewahren Sie den seed sicher auf und bedenken Sie dabei, dass er auf Gegenseitigkeit beruht. Es gibt verschiedene Methoden zur Speicherung der privaten Bitcoin-Schlüssel, jede mit ihren eigenen Vor- und Nachteilen in Bezug auf Sicherheit, Datenschutz, Bequemlichkeit und physische Aufbewahrung. Aufgrund der Bedeutung privater Schlüssel neigen Bitcoin-Nutzer dazu, diese Schlüssel selbst zu verwahren und sicher aufzubewahren, anstatt "Verwahrungsdienste" wie Banken zu nutzen. Je nach Benutzer müssen sie entweder eine Cold-Speicherlösung oder ein Hot-Wallet verwenden.
+Bewahren Sie Ihren Wiederherstellungssatz sicher auf. Wenn jemand darauf zugreift, insbesondere in böswilliger Absicht, kann er Ihr Geld bewegen. Bewahren Sie den seed sicher auf und bedenken Sie dabei, dass er auf Gegenseitigkeit beruht. Es gibt verschiedene Methoden zur Speicherung der privaten Bitcoin-Schlüssel, jede mit ihren eigenen Vor- und Nachteilen in Bezug auf Sicherheit, Datenschutz, Bequemlichkeit und physische Aufbewahrung. Aufgrund der Bedeutung [privater Schlüssel](https://planb.academy/resources/glossary/private-key) neigen Bitcoin-Nutzer dazu, diese Schlüssel selbst zu verwahren und sicher aufzubewahren, anstatt "Verwahrungsdienste" wie Banken zu nutzen. Je nach Benutzer müssen sie entweder eine Cold-Speicherlösung oder ein Hot-Wallet verwenden.
 
 
 ### Hot und Cold Speicherung von Bitcoin-Schlüsseln
@@ -667,10 +667,10 @@ Hot-Geldbörsen sind die bequemste Art der Interaktion mit Bitcoin über Mobil-,
 ### Cold Wallet
 
 
-Privatpersonen setzen ihren Bitcoin in einen Cold Wallet um, weil dieser die privaten Schlüssel vom Internet isolieren kann und sie so vor potenziellen Online-Bedrohungen schützt. Das Entfernen der Internetverbindung aus der Gleichung reduziert das Risiko von Malware, Spyware und SIM-Austausch. Man geht davon aus, dass die Cold-Speicherung der Hot-Speicherung in Bezug auf Sicherheit und Autonomie überlegen ist, vorausgesetzt, es werden angemessene Vorkehrungen getroffen, um den Verlust der privaten Bitcoin-Schlüssel zu verhindern. Die Cold-Speicherung eignet sich am besten für große Mengen von Bitcoin, die aufgrund der Komplexität der Wallet-Einrichtung nicht oft ausgegeben werden sollen.
+Privatpersonen setzen ihren Bitcoin in einen [Cold Wallet](https://planb.academy/resources/glossary/cold-wallet) um, weil dieser die privaten Schlüssel vom Internet isolieren kann und sie so vor potenziellen Online-Bedrohungen schützt. Das Entfernen der Internetverbindung aus der Gleichung reduziert das Risiko von Malware, Spyware und SIM-Austausch. Man geht davon aus, dass die Cold-Speicherung der Hot-Speicherung in Bezug auf Sicherheit und Autonomie überlegen ist, vorausgesetzt, es werden angemessene Vorkehrungen getroffen, um den Verlust der privaten Bitcoin-Schlüssel zu verhindern. Die Cold-Speicherung eignet sich am besten für große Mengen von Bitcoin, die aufgrund der Komplexität der Wallet-Einrichtung nicht oft ausgegeben werden sollen.
 
 
-Es gibt verschiedene Methoden zur Speicherung von Bitcoin-Schlüsseln in Cold-Speichern, von Papiergeldbörsen über Brain Wallets bis hin zu Hardware-Wallets oder, von Anfang an, einer Wallet-Datei. Die meisten Geldbörsen verwenden BIP 39, um den generate Satz zu speichern. Innerhalb der Bitcoin core-Software muss jedoch noch ein Konsens über die Verwendung dieses Begriffs erzielt werden. Die Bitcoin core-Software erstellt weiterhin eine Wallet.dat-Datei, die Sie an einem sicheren Offline-Speicherort aufbewahren müssen.
+Es gibt verschiedene Methoden zur Speicherung von Bitcoin-Schlüsseln in Cold-Speichern, von Papiergeldbörsen über Brain Wallets bis hin zu Hardware-Wallets oder, von Anfang an, einer Wallet-Datei. Die meisten Geldbörsen verwenden [BIP](https://planb.academy/resources/glossary/bip) 39, um den generate Satz zu speichern. Innerhalb der Bitcoin core-Software muss jedoch noch ein Konsens über die Verwendung dieses Begriffs erzielt werden. Die Bitcoin core-Software erstellt weiterhin eine Wallet.dat-Datei, die Sie an einem sicheren Offline-Speicherort aufbewahren müssen.
 
 
 ### Zusammenfassung der Fertigkeiten
@@ -717,7 +717,7 @@ BTCPay Server besteht aus den folgenden Standard-Wallet-Funktionen:
 - Neu scannen
 - Zahlungen ziehen
 - Auszahlungen
-- PSBT
+- [PSBT](https://planb.academy/resources/glossary/psbt)
 - Allgemeine Einstellungen
 
 
@@ -727,14 +727,15 @@ BTCPay Server besteht aus den folgenden Standard-Wallet-Funktionen:
 Administratoren können in der Transaktionsansicht die eingehenden und ausgehenden Transaktionen für die On-Chain Wallet sehen, die mit diesem spezifischen Speicher verbunden sind. Bei jeder Transaktion wird zwischen den empfangenen und gesendeten Beträgen unterschieden. Empfangene Transaktionen sind Green, und ausgehende Transaktionen sind rot. In der Transaktionsansicht des BTCPay-Servers sehen Administratoren auch eine Reihe von Standardetiketten.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| Transaktionstyp | Beschreibung                                        |
+| --------------- | ---------------------------------------------------- |
+| App             | Zahlung wurde über eine von einer App erstellte Rechnung empfangen |
+| Rechnung        | Zahlung wurde über eine Rechnung empfangen           |
+| [Payjoin](https://planb.academy/resources/glossary/payjoin)         | Nicht bezahlt, der Rechnungs-Timer ist noch nicht abgelaufen |
+| Payjoin-offengelegt | [UTXO](https://planb.academy/resources/glossary/utxo) wurde über einen Payjoin-Vorschlag in einer Rechnung offengelegt |
+| Zahlungsanforderung | Zahlung wurde über eine Zahlungsanforderung empfangen |
+| Auszahlung      | Zahlung wurde über eine Auszahlung oder Rückerstattung gesendet |
 
 ### Wie man sendet
 
@@ -812,7 +813,7 @@ Die Coin-Auswahl ist eine fortschrittliche Funktion zur Verbesserung der Privats
 Die Coin-Auswahl funktioniert nativ mit der Wallet-Etikettenfunktion. Damit können Sie eingehende Mittel für eine reibungslosere UTXO-Verwaltung und -Ausgabe kennzeichnen.
 
 
-BTCPay Server unterstützt BIP-329 für die Etikettenverwaltung. Wenn Sie von einem Wallet umziehen, der BIP-329 unterstützt, und bereits Labels gesetzt haben, erkennt und importiert BTCPay Server diese automatisch. Bei der Migration von Servern können diese Informationen auch exportiert und in die neue Umgebung importiert werden.
+BTCPay Server unterstützt BIP-329 für die Etikettenverwaltung. Wenn Sie von einem Wallet umziehen, der BIP-329 unterstützt, und bereits [Labels](https://planb.academy/resources/glossary/label) gesetzt haben, erkennt und importiert BTCPay Server diese automatisch. Bei der Migration von Servern können diese Informationen auch exportiert und in die neue Umgebung importiert werden.
 
 
 ### Wie man empfängt
@@ -838,7 +839,7 @@ Die Rescan-Funktion stützt sich auf Bitcoin core 0.17.0's "Scantxoutset", um de
 
 1. Problem der Lückenbegrenzung - Die meisten Geldbörsen von Drittanbietern sind leichte Geldbörsen, die sich einen Knoten mit vielen Benutzern teilen. Leichte und Full node-abhängige Wallets begrenzen die Anzahl (normalerweise 20) der Adressen ohne Guthaben, die sie auf dem Blockchain verfolgen, um Leistungsprobleme zu vermeiden. BTCPay Server generiert einen neuen Address für jeden Invoice. Nachdem BTCPay Server 20 aufeinanderfolgende unbezahlte Rechnungen generiert hat, hört der externe Wallet auf, die Transaktionen abzurufen, vorausgesetzt, es sind keine neuen Transaktionen aufgetreten. Ihr externer Wallet wird sie nicht mehr anzeigen, wenn die Rechnungen am 21., 22. usw. bezahlt werden. Der interne Wallet des BTCPay-Servers hingegen verfolgt jeden Address, den er generiert, zusammen mit einem deutlich höheren Gap-Limit. Er ist nicht von einer dritten Partei abhängig und kann immer einen korrekten Saldo ausweisen.
 
-2. Die Gap-Limit-Lösung - Wenn Ihr [externer/existierender Wallet] (https://docs.btcpayserver.org/WalletSetup/#use-an-existing-Wallet) die Konfiguration des Gap-Limits zulässt, ist die einfache Lösung, es zu erhöhen. Die Mehrheit der Geldbörsen erlaubt dies jedoch nicht. Die einzigen uns bekannten Geldbörsen, die derzeit eine Gap-Limit-Konfiguration unterstützen, sind Electrum, Wasabi und Sparrow wallet. Leider werden Sie bei vielen anderen Geldbörsen wahrscheinlich auf ein Problem stoßen. Für die beste Benutzererfahrung und den besten Datenschutz sollten Sie den internen Wallet des BTCPay-Servers anstelle von externen Wallets verwenden.
+2. Die Gap-Limit-Lösung - Wenn Ihr [externer/existierender Wallet](https://docs.btcpayserver.org/WalletSetup/#use-an-existing-Wallet) die Konfiguration des Gap-Limits zulässt, ist die einfache Lösung, es zu erhöhen. Die Mehrheit der Geldbörsen erlaubt dies jedoch nicht. Die einzigen uns bekannten Geldbörsen, die derzeit eine Gap-Limit-Konfiguration unterstützen, sind Electrum, Wasabi und Sparrow wallet. Leider werden Sie bei vielen anderen Geldbörsen wahrscheinlich auf ein Problem stoßen. Für die beste Benutzererfahrung und den besten Datenschutz sollten Sie den internen Wallet des BTCPay-Servers anstelle von externen Wallets verwenden.
 
 
 #### BTCPay Server verwendet "mempoolfullrbf=1"
@@ -1130,7 +1131,7 @@ Unter der Option Lightning Wallet in der linken Menüleiste finden Server-Admini
 #### Interne Knoteninformationen
 
 
-Serveradministratoren können auf die internen Knoteninformationen klicken, um ihren Serverstatus (Online/Offline) und die Verbindungszeichenfolge für Clearnet oder Tor anzuzeigen.
+Serveradministratoren können auf die internen Knoteninformationen klicken, um ihren Serverstatus (Online/Offline) und die Verbindungszeichenfolge für Clearnet oder [Tor](https://planb.academy/resources/glossary/tor) anzuzeigen.
 
 
 ![image](assets/en/033.webp)
@@ -1805,28 +1806,30 @@ Jeder Typ hat seine eigenen Parameter, die es auszufüllen gilt. Der Ladenbesitz
 Mit BTCPay Server können Sie auch Formulare im Code erstellen. JSON, insbesondere. Statt auf den Editor zu schauen, können Shop-Betreiber auf die CODE-Schaltfläche direkt neben dem Editor klicken und in den Code ihrer Formulare einsteigen. In einer Felddefinition können nur die folgenden Felder festgelegt werden; die Werte der Felder werden in den Metadaten des Invoice gespeichert:
 
 
-| Field                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+| Feld | Beschreibung |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| .fields.constant      | If true, the .value must be set in the form definition, and the user will not be able to change the field's value. ( example: the form definition's version)                                                                                                                                                                                                                                                                                                       |
-| .fields.type          | The HTML input type text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel                                                                                                                                                                                                                                                                                                |
-| .fields.options       | If .fields.type is select, the list of selectable values                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.options.text  | The text displayed for this option                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| .fields.options.value | The value of the field if this option is selected                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| .fields.type=fieldset | Create a HTML fieldset around the children .fields.fields (see below)                                                                                                                                                                                                                                                                                                                                                                                              |
-| .fields.name          | The JSON property name of the field as it will appear in the invoice's metadata                                                                                                                                                                                                                                                                                                                                                                                    |
-| .fields.value         | The default value of the field                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| .fields.required      | if true, the field will be required                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| .fields.label         | The label of the field                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| .fields.helpText      | Additional text to provide an explanation for the field.                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.fields        | You can organize your fields in a hierarchy, allowing child fields to be nested within the invoice’s metadata. This structure can help you better organize and manage the collected information, making it easier to access and interpret. For example, if you have a form that collects customer information, you can group the fields under a parent field called customer. Within this parent field, you might have child fields like name, Email, and address. |
+| .fields.constant | Wenn true, muss .value in der Formulardefinition festgelegt werden und der Benutzer kann den Wert des Feldes nicht ändern. (Beispiel: die Version der Formulardefinition) |
+| .fields.type | Der HTML-Input-Typ: text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | Wenn .fields.type gleich select ist, die Liste der auswählbaren Werte |
+| .fields.options.text | Der für diese Option angezeigte Text |
+| .fields.options.value | Der Wert des Feldes, wenn diese Option ausgewählt ist |
+| .fields.type=fieldset | Erstellt ein HTML-fieldset um die untergeordneten .fields.fields (siehe unten) |
+| .fields.name | Der JSON-Eigenschaftsname des Feldes, wie er in den Metadaten der Rechnung erscheint |
+| .fields.value | Der Standardwert des Feldes |
+| .fields.required | Wenn true, ist das Feld ein Pflichtfeld |
+| .fields.label | Die Beschriftung des Feldes |
+| .fields.helpText | Zusätzlicher Text zur Erläuterung des Feldes. |
+| .fields.fields | Sie können Ihre Felder in einer Hierarchie organisieren, sodass untergeordnete Felder in den Metadaten der Rechnung verschachtelt werden können. Diese Struktur hilft Ihnen, die gesammelten Informationen besser zu organisieren und zu verwalten, was den Zugriff und die Interpretation erleichtert. Wenn Sie beispielsweise ein Formular haben, das Kundeninformationen sammelt, können Sie die Felder unter einem übergeordneten Feld namens customer gruppieren. Innerhalb dieses übergeordneten Feldes können Sie untergeordnete Felder wie name, Email und address haben. |
 
 Der Feldname stellt den JSON-Eigenschaftsnamen dar, der den vom Benutzer bereitgestellten Wert in den Metadaten des Invoice speichert. Einige bekannte Namen können interpretiert und geändert werden, um die Einstellungen des Invoice anzupassen.
 
 
-| Field name       | Description            |
+
+| Feldname         | Beschreibung          |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Betrag der Rechnung   |
+| invoice_currency | Währung der Rechnung  |
 
 Sie können die Felder eines Invoice automatisch ausfüllen, indem Sie Abfragezeichenfolgen zur URL des Formulars hinzufügen, z. B. "?your_field=value".
 
@@ -2222,7 +2225,7 @@ Versuchen Sie zuallererst herauszufinden, wann das Problem auftritt. Versuchen S
 ##### Aktualisierung des Servers
 
 
-Überprüfen Sie Ihre Version von BTCPay Server, wenn sie viel älter ist als die [neueste Version] (https://github.com/btcpayserver/btcpayserver/releases) von BTCPay Server. Eine Aktualisierung Ihres Servers kann das Problem beheben.
+Überprüfen Sie Ihre Version von BTCPay Server, wenn sie viel älter ist als die [neueste Version](https://github.com/btcpayserver/btcpayserver/releases) von BTCPay Server. Eine Aktualisierung Ihres Servers kann das Problem beheben.
 
 
 ##### Neustart des Servers
@@ -2276,7 +2279,8 @@ docker logs --tail 100 generated_btcpayserver_1
 ```
 
 
-| Logs for     | Container Name                    |
+
+| Protokolle für | Containername                      |
 | ------------ | --------------------------------- |
 | BTCPayServer | generated_btcpayserver_1          |
 | NBXplorer    | generated_nbxplorer_1             |
@@ -2452,7 +2456,7 @@ In BTCPay Server stellt ein Invoice ein Dokument dar, das innerhalb eines bestim
 Das Herzstück von BTCPay Server ist die Fähigkeit, als Bitcoin Invoice-Verwaltungssystem zu fungieren. Ein Invoice ist ein unverzichtbares Werkzeug für die Verfolgung und Verwaltung eingegangener Zahlungen.
 
 
-Sofern Sie nicht ein integriertes [Wallet] (https://docs.btcpayserver.org/Wallet/) verwenden, um Zahlungen manuell zu empfangen, werden alle Zahlungen innerhalb eines Geschäfts auf der Seite Rechnungen angezeigt. Diese Seite sortiert die Zahlungen kumulativ nach Datum und dient als zentrale Ressource für die Invoice-Verwaltung und die Fehlerbehebung bei Zahlungen.
+Sofern Sie nicht ein integriertes [Wallet](https://docs.btcpayserver.org/Wallet/) verwenden, um Zahlungen manuell zu empfangen, werden alle Zahlungen innerhalb eines Geschäfts auf der Seite Rechnungen angezeigt. Diese Seite sortiert die Zahlungen kumulativ nach Datum und dient als zentrale Ressource für die Invoice-Verwaltung und die Fehlerbehebung bei Zahlungen.
 
 
 ![image](assets/en/093.webp)
@@ -2467,21 +2471,22 @@ Sofern Sie nicht ein integriertes [Wallet] (https://docs.btcpayserver.org/Wallet
 In der folgenden Tabelle werden die Standard-Invoice-Status in BTCPay aufgelistet und beschrieben, zusammen mit Vorschlägen für allgemeine Maßnahmen. Die Maßnahmen sind lediglich Empfehlungen. Es liegt an den Benutzern, die beste Vorgehensweise für ihren Anwendungsfall und ihr Unternehmen zu definieren.
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| Rechnungsstatus | Beschreibung | Aktion |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | Nicht bezahlt, Rechnungstimer ist noch nicht abgelaufen | Keine |
+| New (paidPartial) | Teilweise bezahlt, Rechnungstimer ist noch nicht abgelaufen | Keine |
+| Expired | Nicht bezahlt, Rechnungstimer abgelaufen | Keine |
+| Expired (paidPartial) ** | Teilweise bezahlt und abgelaufen | Käufer kontaktieren, um Rückerstattung zu vereinbaren oder Restzahlung anfordern. Optional Rechnung als settled oder invalid markieren |
+| Expired (paidLate) | Vollständig bezahlt, nachdem der Rechnungstimer abgelaufen war | Käufer kontaktieren, um Rückerstattung zu vereinbaren oder Bestellung bearbeiten, falls späte Bestätigungen akzeptabel sind. |
+| Settled (paidOver) | Mehr als den Rechnungsbetrag bezahlt, abgerechnet, ausreichend Bestätigungen erhalten | Käufer kontaktieren, um Rückerstattung des Mehrbetrags zu vereinbaren, oder optional warten, bis der Käufer Sie kontaktiert |
+| Processing | Vollständig bezahlt, aber noch nicht ausreichend Bestätigungen gemäß Shopeinstellungen erhalten | Käufer kontaktieren, um Rückerstattung des Mehrbetrags zu vereinbaren, oder optional warten, bis der Käufer Sie kontaktiert |
+| Processing (paidOver) | Mehr als den Rechnungsbetrag bezahlt, noch nicht ausreichend Bestätigungen erhalten | Warten, bis der Status auf settled wechselt, dann Käufer für Rückerstattung kontaktieren oder auf Kontaktaufnahme warten |
+| Settled | Vollständig bezahlt, ausreichend Bestätigungen im Shop erhalten | Bestellung ausführen |
+| Settled (marked) | Status wurde manuell von processing oder invalid auf settled geändert | Shop-Admin hat die Zahlung als settled markiert |
+| Invalid* | Bezahlt, aber innerhalb der Shopeinstellungen nicht ausreichend Bestätigungen erhalten | Transaktion im Blockchain-Explorer prüfen; falls ausreichend Bestätigungen vorliegen, als settled markieren |
+| Invalid (marked) | Status wurde manuell von settled oder expired auf invalid geändert | Shop-Admin hat die Zahlung als invalid markiert |
+| Invalid (paidOver) | Mehr als Rechnungsbetrag bezahlt, aber nicht ausreichend Bestätigungen innerhalb der Zeitvorgabe erhalten | Transaktion im Blockchain-Explorer prüfen; falls ausreichend Bestätigungen vorliegen, als settled markieren |
 
 #### Invoice Einzelheiten
 
@@ -2670,13 +2675,13 @@ Wie wäre es, wenn der Sender die Zahlung nicht schiebt, sondern dem Empfänger 
 ### Auszahlungen
 
 
-Die Auszahlungsfunktion ist an die Funktion [Pull Payments] (https://docs.btcpayserver.org/PullPayments/) gebunden. Diese Funktion ermöglicht es Ihnen, Auszahlungen innerhalb Ihres BTCPay zu erstellen. Mit dieser Funktion können Sie Pull-Zahlungen (Erstattungen, Gehaltsauszahlungen oder Abhebungen) verarbeiten.
+Die Auszahlungsfunktion ist an die Funktion [Pull Payments](https://docs.btcpayserver.org/PullPayments/) gebunden. Diese Funktion ermöglicht es Ihnen, Auszahlungen innerhalb Ihres BTCPay zu erstellen. Mit dieser Funktion können Sie Pull-Zahlungen (Erstattungen, Gehaltsauszahlungen oder Abhebungen) verarbeiten.
 
 
 #### Beispiel 1: Erstattung
 
 
-Beginnen wir mit dem Beispiel der Rückerstattung. Der Kunde hat einen Artikel in Ihrem Geschäft gekauft, muss ihn aber leider zurückgeben. Er möchte eine Rückerstattung. Innerhalb von BTCPay können Sie eine [Rückerstattung] (https://docs.btcpayserver.org/Refund/) erstellen und dem Kunden den Link zur Verfügung stellen, über den er sein Geld anfordern kann. Sobald der Kunde seine Address angegeben und das Geld eingefordert hat, wird es im Abschnitt Auszahlungen angezeigt.
+Beginnen wir mit dem Beispiel der Rückerstattung. Der Kunde hat einen Artikel in Ihrem Geschäft gekauft, muss ihn aber leider zurückgeben. Er möchte eine Rückerstattung. Innerhalb von BTCPay können Sie eine [Rückerstattung](https://docs.btcpayserver.org/Refund/) erstellen und dem Kunden den Link zur Verfügung stellen, über den er sein Geld anfordern kann. Sobald der Kunde seine Address angegeben und das Geld eingefordert hat, wird es im Abschnitt Auszahlungen angezeigt.
 
 
 Der erste Status, den es hat, ist Warten auf Genehmigung. Die Mitarbeiter in der Filiale können prüfen, ob mehrere Anträge vorliegen, und nachdem sie eine Auswahl getroffen haben, verwenden sie die Schaltfläche "Aktionen".
@@ -2700,7 +2705,7 @@ Der Kunde wird nun auf der Claiming-Seite aktualisiert. Er kann die Transaktion 
 #### Beispiel 2: Gehalt
 
 
-Kommen wir nun zur Auszahlung von Gehältern, da diese von der Filiale aus gesteuert wird und nicht auf Anfrage des Kunden erfolgt. Das zugrundeliegende Konzept ist dasselbe; es verwendet Pull-Zahlungen. Aber anstatt eine Rückzahlung zu erstellen, werden wir eine [Pull-Zahlung] (https://docs.btcpayserver.org/PullPayments/) vornehmen.
+Kommen wir nun zur Auszahlung von Gehältern, da diese von der Filiale aus gesteuert wird und nicht auf Anfrage des Kunden erfolgt. Das zugrundeliegende Konzept ist dasselbe; es verwendet Pull-Zahlungen. Aber anstatt eine Rückzahlung zu erstellen, werden wir eine [Pull-Zahlung](https://docs.btcpayserver.org/PullPayments/) vornehmen.
 
 
 Gehen Sie auf die Registerkarte Pull-Zahlungen auf Ihrem BTCPay-Server. Klicken Sie oben rechts auf die Schaltfläche Pull-Zahlung erstellen.
@@ -2744,7 +2749,7 @@ Danach kann der Sender die Pull-Zahlung über einen Link mit dem Empfänger teil
 Sobald eine Auszahlung erstellt ist, wird sie auf das Limit der Abrufzahlung für den aktuellen Zeitraum angerechnet. Der Absender genehmigt dann die Auszahlung, indem er den Satz festlegt, zu dem die Auszahlung gesendet werden soll, und führt die Zahlung durch.
 
 
-Für den Absender bieten wir eine einfach zu bedienende Methode für das Stapeln von mehreren Auszahlungen aus dem [BTCPay Internal Wallet] (https://docs.btcpayserver.org/Wallet/).
+Für den Absender bieten wir eine einfach zu bedienende Methode für das Stapeln von mehreren Auszahlungen aus dem [BTCPay Internal Wallet](https://docs.btcpayserver.org/Wallet/).
 
 
 #### Greenfield API

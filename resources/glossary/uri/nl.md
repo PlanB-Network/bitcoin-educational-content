@@ -1,5 +1,6 @@
 ---
 term: URI
+definition: Gestandaardiseerd formaat voor het coderen van een Bitcoin-adres en transactieparameters om betalingen te vergemakkelijken.
 ---
 
 Acroniem voor "*Uniform Resource Identifier*". Het is een gestandaardiseerde tekenreeksindeling die wordt gebruikt om een bron op het internet te identificeren. Een URI kan een URL (*Uniform Resource Locator*) zijn, die een middel biedt om toegang te krijgen tot een bron door de locatie ervan op een computernetwerk aan te geven, of een URN (*Uniform Resource Name*), die de bron een naam geeft zonder aan te geven hoe deze gelokaliseerd moet worden. URI's zijn belangrijk voor de werking van het *World Wide Web* omdat ze toegang geven tot bronnen zoals webpagina's, documenten en diensten.

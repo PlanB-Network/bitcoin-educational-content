@@ -5,5 +5,5 @@ wrong_answers:
   - Recuperar la factura de electricidad del hasher cada mes
   - Recuperar pruebas de trabajo producidas en una red de menor dificultad, como BitDNS
 explanation: |
-  Este método simple fue propuesto por ribuck, Nils Schneider y Gavin Andresen [en el foro](https: //bitcointalk.org/index.php?topic=1458.msg16951#msg16951) el 14 de octubre de 2010. ()
+  Este método simple fue propuesto por ribuck, Nils Schneider y Gavin Andresen [en el foro](https://bitcointalk.org/index.php?topic=1458.msg16951#msg16951) el 14 de octubre de 2010. ()
 reviewed: false

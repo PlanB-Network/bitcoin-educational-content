@@ -1,0 +1,9 @@
+question: Jakým faktorem se znásobila těžební obtížnost mezi polovinou roku 2010 a polovinou roku 2011?
+answer: 1000
+wrong_answers:
+  - 100
+  - 500
+  - 50
+explanation: |
+  Během tohoto období došlo k znásobení 1 000krát, zejména díky používání GPU.
+reviewed: false

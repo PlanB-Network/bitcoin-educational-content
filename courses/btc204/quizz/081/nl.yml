@@ -1,10 +1,10 @@
 question: Welke cryptografische methode wordt gebruikt om te voorkomen dat de coördinator de inputs en outputs in een CoinJoin kan koppelen?
-answer: Chaum blinde handtekeningen.
+answer: Chaum's blinde handtekeningen.
 wrong_answers:
   - Schnorr handtekeningen.
   - P2SH adressen.
   - P2TR adressen.
 explanation: |
-  Bij zogenaamde Chaumian coinjoins worden het gebruik van Tor en de blinde handtekeningen van David Chaum gecombineerd om ervoor te zorgen dat de coördinator niet kan weten welke uitvoer aan welke gebruiker toebehoort.
+  Bij zogenaamde Chaumian-coinjoins worden het gebruik van Tor en David Chaum's blinde handtekeningen gecombineerd om ervoor te zorgen dat de coördinator niet kan weten welke output aan welke gebruiker toebehoort.
   
 reviewed: false

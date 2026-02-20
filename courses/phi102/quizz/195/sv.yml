@@ -1,0 +1,8 @@
+question: Vad är det som gör att konsekvenserna av politiska beslut är särskilt svåra för enskilda medborgare att bedöma jämfört med personliga ekonomiska val?
+answer: Politiska konsekvenser är kollektiva och utspridda i tiden, vilket gör det omöjligt för enskilda personer att direkt observera deras fullständiga inverkan på osynliga berörda parter
+wrong_answers:
+  - Politiska beslut kräver specialkunskaper som endast utbildade ekonomer och politiska experter kan förstå och utvärdera på ett adekvat sätt
+  - Politiska val innefattar moraliska överväganden som går utöver rationell beräkning, till skillnad från ekonomiska beslut som är rent utilitaristiska
+  - Politiska system döljer avsiktligt information för att behålla makten, medan marknader ger transparenta prissignaler för alla deltagare
+explanation: |
+  I texten förklaras särskilt att politiska beslut har kollektiva konsekvenser som är "svåra att undersöka för varje enskild individ" och att "en politisk åtgärd mycket väl kan skada människor som medborgaren inte ser direkt" Denna tidsmässiga och rumsliga separation från konsekvenserna, i kombination med deras kollektiva natur, gör att politiska val i sig är svårare att utvärdera än omedelbara, personliga ekonomiska beslut där resultaten är direkt observerbara och justerbara.

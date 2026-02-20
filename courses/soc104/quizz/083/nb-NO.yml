@@ -1,0 +1,9 @@
+question: Hvorfor klarer ikke planøkonomier å oppnå effektiv ressursallokering sammenlignet med frie markedssystemer, ifølge Hayeks teori om spredt kunnskap?
+answer: Sentrale planleggere har ikke tilgang til den fragmenterte, lokale kunnskapen som bare de enkelte markedsaktørene besitter om sine spesifikke behov, preferanser og omstendigheter
+wrong_answers:
+  - Sentrale planleggere mangler regnekraften og de avanserte algoritmene som er nødvendige for å behandle alle de økonomiske dataene som kreves for optimal ressursallokering
+  - Sentralplanleggere er iboende korrupte og egennyttige, og prioriterer personlig vinning fremfor samfunnets velferd som helhet
+  - Sentrale planleggere er ideologisk forutinntatte og nekter å implementere markedsbaserte løsninger, selv når de innser at de er mer effektive
+explanation: |
+  Hayeks grunnleggende innsikt om spredt kunnskap viser at informasjon om individuelle preferanser, lokale forhold og subjektive vurderinger bare finnes i fragmentert form hos millioner av individer. Denne kunnskapen kan ikke samles eller aggregeres sentralt, fordi den er taus, i stadig endring og ofte motstridende. Frie markeder løser dette gjennom prismekanismen, som spontant koordinerer denne spredte informasjonen gjennom frivillige utvekslinger.
+  De andre alternativene fokuserer feilaktig på tekniske begrensninger, moralske mangler eller ideologiske skjevheter i stedet for det epistemologiske kjerneproblemet, nemlig at ingen sentral myndighet kan besitte den distribuerte kunnskapen som er nødvendig for effektiv koordinering.

@@ -1,0 +1,8 @@
+question: Selon l'école autrichienne, pourquoi Bitcoin permet-il un meilleur calcul économique que les monnaies fiduciaires?
+answer: Parce qu'il échappe aux contrôles étatiques et permet l'émergence de prix qui reflètent véritablement l'offre et la demande
+wrong_answers:
+  - "Parce qu'il utilise une technologie blockchain qui automatise les calculs économiques complexes"
+  - "Parce qu'il élimine complètement les intermédiaires financiers et réduit les coûts de transaction"
+  - "Parce qu'il permet une traçabilité parfaite de toutes les transactions économiques"
+explanation: |
+  Ludwig von Mises a démontré que le calcul économique nécessite des prix libres, non manipulés. Bitcoin, avec son offre fixe et son protocole immuable, échappe aux manipulations des banques centrales qui faussent les signaux prix. Les prix exprimés en bitcoin reflètent ainsi les véritables préférences temporelles et coûts d'opportunité, contrairement aux monnaies fiduciaires corrompues par l'inflation monétaire qui rendent ce calcul économique de plus en plus difficile.

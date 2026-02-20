@@ -1,0 +1,9 @@
+question: Tỷ lệ băm (hashrate) đo lường điều gì?
+answer: Số hàm băm mỗi giây
+wrong_answers:
+  - Số khối mỗi giây
+  - Số giao dịch mỗi giây
+  - Số byte mỗi giây
+explanation: |
+  Tỷ lệ băm thể hiện số lần thử băm được thực hiện mỗi giây, tính bằng H/s.
+reviewed: false

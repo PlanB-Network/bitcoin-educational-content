@@ -1,0 +1,9 @@
+question: รูปแบบแพ็คเกจใดที่ Canonical พัฒนาเพื่อแยกแอปพลิเคชันและการพึ่งพาของพวกเขา?
+answer: Snap
+wrong_answers:
+  - AppImage
+  - พอร์เทจ
+  - RPM
+explanation: |
+  รูปแบบ Snap ที่พัฒนาโดย Canonical ช่วยให้สามารถติดตั้งซอฟต์แวร์ที่มีความเป็นอิสระ แยกออกจากระบบและอัปเดตได้อย่างอิสระ
+reviewed: false

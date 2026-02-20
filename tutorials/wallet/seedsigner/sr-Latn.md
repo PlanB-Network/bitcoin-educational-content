@@ -289,7 +289,7 @@ Uspešna verifikacija garantuje da je vaš `.img` fajl i autentičan (potpisan o
 
 
 
-Ako ga već nemate, preuzmite softver [Balena Etcher] (https://etcher.balena.io/), zatim :
+Ako ga već nemate, preuzmite softver [Balena Etcher](https://etcher.balena.io/), zatim :
 
 
 

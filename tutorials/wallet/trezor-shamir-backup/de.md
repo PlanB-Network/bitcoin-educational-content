@@ -285,6 +285,6 @@ Wenn Sie diese Anleitung nützlich fanden, wäre ich Ihnen dankbar, wenn Sie unt
 
 
 
-- [SLIP-0039: Shamir's Secret-Sharing für Mnemonic Codes] (https://github.com/satoshilabs/slips/blob/master/slip-0039.md);
+- [SLIP-0039: Shamir's Secret-Sharing für Mnemonic Codes](https://github.com/satoshilabs/slips/blob/master/slip-0039.md);
 - [Multi-share Backup auf Trezor](https://trezor.io/learn/a/multi-share-backup-on-trezor);
-- [Wikipedia: Shamirs geheime Teilung] (https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing).
+- [Wikipedia: Shamirs geheime Teilung](https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing).

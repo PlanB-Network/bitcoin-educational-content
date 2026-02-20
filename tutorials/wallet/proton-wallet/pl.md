@@ -25,7 +25,7 @@ https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b0
 ## Połączenie z Proton Wallet
 
 
-Wejdź na [stronę internetową Proton Wallet] (https://proton.me/Wallet) i kliknij przycisk "*Get Proton Wallet*".
+Wejdź na [stronę internetową Proton Wallet](https://proton.me/Wallet) i kliknij przycisk "*Get Proton Wallet*".
 
 
 ![Image](assets/fr/01.webp)

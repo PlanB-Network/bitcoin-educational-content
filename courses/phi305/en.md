@@ -564,7 +564,7 @@ But as Spinoza says, "the delusion of men does not end there", and among all the
 ![image](assets/en/034.webp)
 
 
-The definition of inflation given by Keynesian economists and advocates of the welfare state, for example, also illustrates this paradox very well. According to them, inflation is an increase in prices which, according to some central bankers, comes either from "nowhere", or from geopolitical contexts which nobody can control or anticipate. While an increase in prices can indeed lead to cyclical inflation - for example, when the price of oil rises, the prices of certain processed goods will also rise - the real structural causes of inflation are primarily linked to an increase in the money supply, which in turn implies a fall in the value of money and, ipso facto, a mechanical rise in prices.
+The definition of [inflation](https://planb.academy/resources/glossary/inflation) given by Keynesian economists and advocates of the welfare state, for example, also illustrates this paradox very well. According to them, inflation is an increase in prices which, according to some central bankers, comes either from "nowhere", or from geopolitical contexts which nobody can control or anticipate. While an increase in prices can indeed lead to cyclical inflation - for example, when the price of oil rises, the prices of certain processed goods will also rise - the real structural causes of inflation are primarily linked to an increase in the money supply, which in turn implies a fall in the value of money and, ipso facto, a mechanical rise in prices.
 
 
 Believing, or having others believe, the opposite is tantamount to dreaming with one's eyes open, as Spinoza mockingly put it, and constructing a line of reasoning that is false, or misleading, and which is all the easier to get accepted because it is heard as an expected response to prove oneself right. In this case, when advocates of state intervention consider inflation to be the best way to solve economic problems.
@@ -792,7 +792,7 @@ Spinoza takes the example of hatred, which he sees as a passive affect, turned t
 In other words, if we hate a foreigner, it's because we associate this foreigner with the idea we have of him, for reasons we don't understand, since he is foreign and different by nature. It's this idea of an external cause - an idea which, moreover, always mechanically motivates the ignorant to speak ill of a concept they don't know.
 
 
-This is particularly true, by the way, in the field of cryptocurrencies.
+This is particularly true, by the way, in the field of [cryptocurrencies](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 ![image](assets/en/048.webp)
@@ -863,7 +863,7 @@ This is precisely what the Enlightenment rational philosophy was all about, than
 
 In other words, he says, if we think for ourselves, if we reason as rational adults, and if we therefore strive to attach ourselves to the causal links between things, we will no longer need a moral authority to teach us, for example, the true virtues of religion or true ethical values in the political and economic spheres.
 
-It's a line of reasoning that makes the link with the Austrian school of liberal economics, born in the extremely fertile intellectual atmosphere of Vienna before the First World War. For it was in this context that intellectuals such as Carl Menger (1840-1921), Ludwig von Mises (1883-1979) and Friedrich Hayek (1899-1992) laid the foundations for a new school of liberal economics, which was to become the foundation for the convictions of future cypherpunks. And hence the creation of Bitcoin.
+It's a line of reasoning that makes the link with the [Austrian](https://planb.academy/resources/glossary/austrian-school) school of liberal economics, born in the extremely fertile intellectual atmosphere of Vienna before the First World War. For it was in this context that intellectuals such as Carl Menger (1840-1921), Ludwig von Mises (1883-1979) and Friedrich Hayek (1899-1992) laid the foundations for a new school of liberal economics, which was to become the foundation for the convictions of future [cypherpunks](https://planb.academy/resources/glossary/cypherpunks). And hence the creation of Bitcoin.
 
 
 ![image](assets/en/052.webp)
@@ -896,13 +896,13 @@ These are the political and economic arguments put forward by the first cypherpu
 ![image](assets/en/055.webp)
 
 
-Particularly when he inscribed the Times headline of January 3, 2009 in the coinbase of the Genesis block of Blockchain Bitcoin to illustrate the end of one era, Keynesian, and the beginning of another with liberal, anarchist and libertarian aspirations.
+Particularly when he inscribed the Times headline of January 3, 2009 in the [coinbase](https://planb.academy/resources/glossary/coinbase-transaction) of the [Genesis block](https://planb.academy/resources/glossary/genesis-block) of [Blockchain](https://planb.academy/resources/glossary/blockchain) Bitcoin to illustrate the end of one era, Keynesian, and the beginning of another with liberal, anarchist and libertarian aspirations.
 
 
 ![image](assets/en/056.webp)
 
 
-The White Paper published on October 31, 2008 presents Bitcoin as a means of exchanging value on the Internet without a trusted third party, based on a decentralized protocol. A "Copernican" revolution that will finally enable people to regain their ability to act, i.e. their freedom, their freedom to trade, their right to property and respect for their privacy.
+The [White Paper](https://planb.academy/resources/glossary/white-paper) published on October 31, 2008 presents Bitcoin as a means of exchanging value on the Internet without a trusted third party, based on a decentralized protocol. A "Copernican" revolution that will finally enable people to regain their ability to act, i.e. their freedom, their freedom to trade, their right to property and respect for their privacy.
 
 Why? Because Bitcoin allows us to extricate ourselves from this servitude in Spinoza's way, thanks to reason, thanks to Galileo's language of mathematics. And, as Hayek suggests, without the state being able to oppose it. And peacefully, without coercion or proselytizing.
 

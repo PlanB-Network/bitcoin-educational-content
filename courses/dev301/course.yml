@@ -1,0 +1,31 @@
+id: 92ce15a2-9325-4ec0-a7b7-4b97efd09fc9
+
+testnet_only: true
+
+topic: protocol
+subtopic: development
+type: theory
+level: advanced
+hours: 10
+
+tags:
+  - software
+  - deep-dive
+  - guides
+
+professors_id:
+  - 35bf2149-18ad-4afd-89c6-1f1349967edc
+
+published_at: 2026-01-21
+contributor_names:
+  - Asi0Flammeus
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2026-01-21
+    urgency: 1
+    contributor_names:
+      - Asi0Flammeus
+    reward: 11.13

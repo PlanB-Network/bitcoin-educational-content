@@ -1,0 +1,8 @@
+question: Kuidas käsitleb UniFFI vigade levikut Rust funktsioonidest sihtkeeltesse nagu Kotlin ja Python?
+answer: Funktsioonid, mis tagastavad tulemitüüpe, on UDLis ja generate sihtkeeltes tähistatud "throws" (viskab)
+wrong_answers:
+  - Veatüübid teisendatakse automaatselt stringiteadeteks ja tagastatakse kõigis sihtkeeltes valikuliste väärtustena
+  - Kõik Rust vead on pakitud üldisele UniFFI veatüübile, mille arendajad peavad käsitsi lahti pakkima
+  - Veakäitlus nõuab arendajatelt iga sihtkeele platvormi jaoks käsitsi vigade tõlkekoodi rakendamist
+explanation: |
+  UniFFI pakub keerukat veakäsitlust, mis säilitab Rust tulemuspõhise veamudeli, kuid tõlgib selle iga sihtkeele jaoks asjakohaselt. Funktsioonid, mis Rust-s tagastavad Result-tüüpi, on UDL-is tähistatud võtmesõnaga "throws" ja need generate emakeelsed erandite käsitlused sihtkeeltes - Kotlini meetodid viskavad erandeid vastavalt Java/Kotlini konventsioonidele, Python aga kasutab Pythoni erandite mudelit. See tagab, et veakäitlus tundub igas keeles loomulik ja idiomaatiline, säilitades samal ajal Rust algsete veatüüpide semantilise tähenduse, erinevalt üldistest mähistest või käsitsi tõlkimise lähenemisviisidest.

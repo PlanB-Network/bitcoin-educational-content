@@ -5,6 +5,6 @@ wrong_answers:
   - Een gezamenlijke transactie met drie deelnemers
   - Een transactie waarbij de ontvanger betrokken is bij de inputs
 explanation: |
-  Stonewall is een specifieke vorm van Bitcoin transactie gericht op het verhogen van de privacy van gebruikers tijdens een uitgave door een mini-CoinJoin tussen twee mensen na te bootsen, zonder er daadwerkelijk een te zijn.
+  Stonewall is een specifieke vorm van Bitcoin-transactie gericht op het verhogen van de privacy van gebruikers tijdens een output door een mini-CoinJoin tussen twee mensen na te bootsen, zonder er daadwerkelijk een te zijn.
   
 reviewed: false

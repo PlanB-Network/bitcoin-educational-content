@@ -1,0 +1,8 @@
+question: Koju ulogu ima datoteka Unified Definition Language (UDL) u toku rada UniFFI?
+answer: Deluje kao specifikacija interfejsa koja opisuje koje delove Rust biblioteke treba izložiti drugim jezicima.
+wrong_answers:
+  - Sadrži stvarni Rust implementacijski kod koji se kompajlira u ciljne jezičke veze.
+  - Služi kao datoteka za konfiguraciju u vreme izvršavanja koja upravlja alokacijom memorije između različitih jezičkih okruženja.
+  - Pruža okvir za testiranje za proveru ispravnosti generisanih veza na više platformi.
+explanation: |
+  UDL datoteka služi kao ugovor ili specifikacija između Rust implementacije i generisanih jezičkih veza. Ona ne sadrži sam Rust kod, niti upravlja operacijama u runtime-u ili testiranjem. Umesto toga, deklarativno definiše koje funkcije, tipove i interfejse iz Rust biblioteke treba učiniti dostupnim drugim jezicima, specificirajući kako treba da budu mapirani i predstavljeni u izvornom interfejsu ciljanog jezika.

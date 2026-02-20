@@ -66,7 +66,7 @@ Trong phần thứ ba của khóa đào tạo, chúng ta sẽ đi sâu vào vấ
 
 ![BTC204](assets/vi/003.webp)
 
-**Phần 4: Hiểu về giao dịch coinjoin**
+**Phần 4: Hiểu về giao dịch [coinjoin](https://planb.academy/resources/glossary/coinjoin)**
 
 Làm sao chúng ta có thể nói về quyền riêng tư trên Bitcoin mà không nhắc đến coinjoin? Trong phần 4, bạn sẽ tìm hiểu tất cả những gì bạn cần biết về phương pháp trộn này. Bạn sẽ tìm hiểu coinjoin là gì, lịch sử và mục tiêu của chúng, cũng như các loại coinjoin khác nhau hiện có. Cuối cùng, đối với người dùng có nhiều kinh nghiệm hơn, chúng ta sẽ xem xét anonset và entropy là gì và cách tính chúng.
 
@@ -74,7 +74,7 @@ Làm sao chúng ta có thể nói về quyền riêng tư trên Bitcoin mà khô
 
 **Phần 5: Hiểu những thách thức của các kỹ thuật bảo mật tiên tiến khác**
 
-Trong phần thứ năm, chúng ta sẽ xem xét tất cả các kỹ thuật khác có sẵn để bảo vệ quyền riêng tư của bạn trên Bitcoin, ngoài coinjoin. Trong nhiều năm qua, các nhà phát triển đã thể hiện sự sáng tạo đáng kể trong việc thiết kế các công cụ dành riêng cho quyền riêng tư. Chúng ta sẽ xem xét tất cả các phương pháp này, chẳng hạn như payjoin, giao dịch hợp tác, Coin Swap và Atomic Swap, trình bày chi tiết cách chúng hoạt động, mục tiêu của chúng và bất kỳ điểm yếu nào.
+Trong phần thứ năm, chúng ta sẽ xem xét tất cả các kỹ thuật khác có sẵn để bảo vệ quyền riêng tư của bạn trên Bitcoin, ngoài coinjoin. Trong nhiều năm qua, các nhà phát triển đã thể hiện sự sáng tạo đáng kể trong việc thiết kế các công cụ dành riêng cho quyền riêng tư. Chúng ta sẽ xem xét tất cả các phương pháp này, chẳng hạn như [payjoin](https://planb.academy/resources/glossary/payjoin), giao dịch hợp tác, Coin Swap và Atomic Swap, trình bày chi tiết cách chúng hoạt động, mục tiêu của chúng và bất kỳ điểm yếu nào.
 
 Chúng ta cũng sẽ xem xét quyền riêng tư ở cấp độ mạng lưới các nút và việc phân phối giao dịch. Chúng ta cũng sẽ thảo luận về các giao thức khác nhau đã được đề xuất trong nhiều năm để tăng cường quyền riêng tư của người dùng trên Bitcoin, bao gồm các giao thức địa chỉ tĩnh.
 
@@ -85,7 +85,7 @@ Sẵn sàng khám phá những ngóc ngách về quyền riêng tư trên Bitcoi
 
 <partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>
 
-## Mô hình UTXO của Bitcoin
+## Mô hình [UTXO](https://planb.academy/resources/glossary/utxo) của Bitcoin
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
@@ -96,7 +96,7 @@ Bitcoin trước hết là một loại tiền tệ, nhưng bạn có thực s�
 
 ### UTXO trên Bitcoin: chúng là gì?
 
-Giao thức Bitcoin dựa trên mô hình UTXO, viết tắt của "Đầu ra giao dịch chưa chi".
+Giao thức Bitcoin dựa trên mô hình [UTXO](https://planb.academy/resources/glossary/utxo), viết tắt của "Đầu ra giao dịch chưa chi".
 
 Mô hình này khác biệt sâu sắc so với các hệ thống ngân hàng truyền thống, vốn dựa vào cơ chế tài khoản và số dư để theo dõi dòng tiền. Thật vậy, trong hệ thống ngân hàng, số dư cá nhân được duy trì trong các tài khoản gắn liền với một danh tính. Ví dụ, khi bạn mua một ổ bánh mì dài từ một người thợ làm bánh, ngân hàng của bạn chỉ cần ghi nợ số tiền mua hàng từ tài khoản của bạn, làm giảm số dư của bạn, trong khi tài khoản của người thợ làm bánh được ghi có cùng số tiền đó, làm tăng số dư của nó. Trong hệ thống này, không có khái niệm về mối liên hệ giữa số tiền vào tài khoản của bạn và số tiền ra khỏi tài khoản, ngoài các hồ sơ giao dịch.
 
@@ -104,15 +104,15 @@ Mô hình này khác biệt sâu sắc so với các hệ thống ngân hàng tr
 
 Bitcoin hoạt động theo cách khác. Khái niệm về tài khoản không tồn tại và các đơn vị tiền tệ không được quản lý thông qua số dư mà thông qua UTXO. UTXO biểu thị một lượng bitcoin cụ thể chưa được chi tiêu, do đó tạo thành một "mảnh bitcoin", có thể lớn hoặc nhỏ. Ví dụ, một UTXO có thể có giá trị là `500 BTC` hoặc đơn giản là `700 SATS`.
 
-**Nhắc lại:** Satoshi, thường được viết tắt là sat, là đơn vị nhỏ nhất của Bitcoin, tương đương với centime trong các loại tiền pháp định.
+**Nhắc lại:** [Satoshi](https://planb.academy/resources/glossary/satoshi-sat), thường được viết tắt là sat, là đơn vị nhỏ nhất của Bitcoin, tương đương với centime trong các loại [tiền pháp định](https://planb.academy/resources/glossary/fiat).
 
 ```plaintext
 1 BTC = 100 000 000 SATS
 ```
 
-Về mặt lý thuyết, một UTXO có thể đại diện cho bất kỳ giá trị nào trong bitcoin, từ sat đến mức tối đa lý thuyết là khoảng 21 triệu BTC. Tuy nhiên, về mặt logic, không thể sở hữu tất cả 21 triệu bitcoin và có một ngưỡng kinh tế thấp hơn được gọi là "bụi", dưới ngưỡng này, một UTXO được coi là không có lợi về mặt kinh tế để chi tiêu.
+Về mặt lý thuyết, một UTXO có thể đại diện cho bất kỳ giá trị nào trong bitcoin, từ sat đến mức tối đa lý thuyết là khoảng 21 triệu BTC. Tuy nhiên, về mặt logic, không thể sở hữu tất cả 21 triệu bitcoin và có một ngưỡng kinh tế thấp hơn được gọi là "[bụi](https://planb.academy/resources/glossary/dust)", dưới ngưỡng này, một UTXO được coi là không có lợi về mặt kinh tế để chi tiêu.
 
-**Bạn có biết không?** UTXO lớn nhất từng được tạo trên Bitcoin có giá trị là `500.000 BTC`. Nó được tạo ra bởi nền tảng MtGox trong một hoạt động hợp nhất vào tháng 11 năm 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
+**Bạn có biết không?** UTXO lớn nhất từng được tạo trên Bitcoin có giá trị là `500.000 BTC`. Nó được tạo ra bởi nền tảng MtGox trong một hoạt động [hợp nhất](https://planb.academy/resources/glossary/consolidation) vào tháng 11 năm 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
 ### UTXO và điều kiện chi tiêu
 
@@ -120,7 +120,7 @@ UTXO là công cụ trao đổi trên Bitcoin. Mỗi giao dịch dẫn đến vi
 
 ![BTC204](assets/vi/007.webp)
 
-Tất cả UTXO đều được bảo mật bằng các tập lệnh xác định các điều kiện mà chúng có thể được chi tiêu. Để sử dụng UTXO, người dùng phải chứng minh với mạng rằng anh ta hoặc cô ta đáp ứng các điều kiện do tập lệnh quy định để bảo mật UTXO đó. Thông thường, UTXO được bảo vệ bằng khóa công khai (hoặc địa chỉ nhận đại diện cho khóa công khai này). Để chi tiêu UTXO được liên kết với khóa công khai này, người dùng phải chứng minh rằng anh ta nắm giữ khóa riêng tương ứng, bằng cách cung cấp chữ ký số được tạo bằng khóa này. Đây là lý do tại sao chúng tôi nói rằng ví Bitcoin của bạn không thực sự chứa bitcoin, mà lưu trữ khóa riêng của bạn, từ đó cung cấp cho bạn quyền truy cập vào UTXO của mình và theo nghĩa mở rộng, vào bitcoin mà chúng đại diện.
+Tất cả UTXO đều được bảo mật bằng các [tập lệnh](https://planb.academy/resources/glossary/script) xác định các điều kiện mà chúng có thể được chi tiêu. Để sử dụng UTXO, người dùng phải chứng minh với mạng rằng anh ta hoặc cô ta đáp ứng các điều kiện do tập lệnh quy định để bảo mật UTXO đó. Thông thường, UTXO được bảo vệ bằng [khóa công khai](https://planb.academy/resources/glossary/public-key) (hoặc [địa chỉ nhận](https://planb.academy/resources/glossary/receiving-address) đại diện cho khóa công khai này). Để chi tiêu UTXO được liên kết với khóa công khai này, người dùng phải chứng minh rằng anh ta nắm giữ [khóa riêng](https://planb.academy/resources/glossary/private-key) tương ứng, bằng cách cung cấp [chữ ký số](https://planb.academy/resources/glossary/digital-signature) được tạo bằng khóa này. Đây là lý do tại sao chúng tôi nói rằng [ví Bitcoin](https://planb.academy/resources/glossary/wallet) của bạn không thực sự chứa bitcoin, mà lưu trữ khóa riêng của bạn, từ đó cung cấp cho bạn quyền truy cập vào UTXO của mình và theo nghĩa mở rộng, vào bitcoin mà chúng đại diện.
 
 ![BTC204](assets/vi/008.webp)
 
@@ -146,15 +146,15 @@ Tổng số dư danh mục đầu tư của bạn sẽ là `17 BTC`.
 
 ### Đầu vào và đầu ra giao dịch
 
-Giao dịch Bitcoin là một hoạt động được ghi lại trên blockchain chuyển quyền sở hữu bitcoin từ người này sang người khác. Chính xác hơn, vì chúng ta đang ở trên mô hình UTXO và không có tài khoản, giao dịch đáp ứng các điều kiện chi tiêu bảo đảm một hoặc nhiều UTXO, tiêu thụ chúng và tương đương tạo ra các UTXO mới với các điều kiện chi tiêu mới. Tóm lại, một giao dịch di chuyển bitcoin từ một tập lệnh đã thỏa mãn sang một tập lệnh mới được thiết kế để bảo đảm chúng.
+Giao dịch Bitcoin là một hoạt động được ghi lại trên [blockchain](https://planb.academy/resources/glossary/blockchain) chuyển quyền sở hữu bitcoin từ người này sang người khác. Chính xác hơn, vì chúng ta đang ở trên mô hình UTXO và không có tài khoản, giao dịch đáp ứng các điều kiện chi tiêu bảo đảm một hoặc nhiều UTXO, tiêu thụ chúng và tương đương tạo ra các UTXO mới với các điều kiện chi tiêu mới. Tóm lại, một giao dịch di chuyển bitcoin từ một tập lệnh đã thỏa mãn sang một tập lệnh mới được thiết kế để bảo đảm chúng.
 
 ![BTC204](assets/vi/010.webp)
 
-Do đó, mỗi giao dịch Bitcoin bao gồm một hoặc nhiều đầu vào và một hoặc nhiều đầu ra. Đầu vào là UTXO được giao dịch sử dụng để tạo ra đầu ra. Đầu ra là UTXO mới có thể được sử dụng làm đầu vào cho các giao dịch trong tương lai.
+Do đó, mỗi giao dịch Bitcoin bao gồm một hoặc nhiều [đầu vào](https://planb.academy/resources/glossary/input) và một hoặc nhiều [đầu ra](https://planb.academy/resources/glossary/output). Đầu vào là UTXO được giao dịch sử dụng để tạo ra đầu ra. Đầu ra là UTXO mới có thể được sử dụng làm đầu vào cho các giao dịch trong tương lai.
 
 ![BTC204](assets/vi/011.webp)
 
-**Bạn có biết không?** Về mặt lý thuyết, một giao dịch bitcoin có thể có vô số đầu vào và đầu ra. Giới hạn duy nhất là kích thước khối tối đa.
+**Bạn có biết không?** Về mặt lý thuyết, một giao dịch bitcoin có thể có vô số đầu vào và đầu ra. Giới hạn duy nhất là kích thước [khối](https://planb.academy/resources/glossary/block) tối đa.
 
 Mỗi đầu vào trong giao dịch Bitcoin đều tham chiếu đến một UTXO chưa chi trước đó. Để sử dụng UTXO làm đầu vào, người nắm giữ UTXO phải chứng minh rằng mình là chủ sở hữu hợp pháp bằng cách xác thực tập lệnh liên quan, tức là bằng cách đáp ứng điều kiện chi tiêu được áp đặt. Nói chung, điều này có nghĩa là cung cấp chữ ký số được tạo bằng khóa riêng tương ứng với khóa công khai ban đầu bảo mật UTXO này. Do đó, tập lệnh bao gồm việc xác minh rằng chữ ký tương ứng với khóa công khai được sử dụng khi nhận tiền.
 
@@ -162,7 +162,7 @@ Mỗi đầu vào trong giao dịch Bitcoin đều tham chiếu đến một UTX
 
 Mỗi đầu ra, lần lượt, chỉ định số lượng bitcoin cần chuyển, cũng như người nhận. Người nhận được xác định bằng một tập lệnh mới, thường chặn UTXO mới được tạo bằng địa chỉ nhận hoặc khóa công khai mới.
 
-Để một giao dịch được coi là hợp lệ theo các quy tắc đồng thuận, tổng đầu ra phải nhỏ hơn hoặc bằng tổng đầu vào. Nói cách khác, tổng số UTXO mới được tạo ra bởi giao dịch không được vượt quá tổng số UTXO được sử dụng làm đầu vào. Nguyên tắc này là hợp lý: nếu bạn chỉ có `500.000 SATS`, bạn không thể mua `700.000 SATS`.
+Để một giao dịch được coi là hợp lệ theo các [quy tắc đồng thuận](https://planb.academy/resources/glossary/consensus-rules), tổng đầu ra phải nhỏ hơn hoặc bằng tổng đầu vào. Nói cách khác, tổng số UTXO mới được tạo ra bởi giao dịch không được vượt quá tổng số UTXO được sử dụng làm đầu vào. Nguyên tắc này là hợp lý: nếu bạn chỉ có `500.000 SATS`, bạn không thể mua `700.000 SATS`.
 
 ### Trao đổi và hợp nhất trong giao dịch Bitcoin
 
@@ -170,7 +170,7 @@ Do đó, hành động của giao dịch Bitcoin trên UTXO có thể được s
 
 Cơ chế này tương tự như cơ chế của đồng tiền vàng. Giả sử bạn sở hữu một đồng tiền 2 ounce và muốn thanh toán 1 ounce, giả sử người bán không thể trả lại tiền thừa cho bạn. Bạn sẽ phải nấu chảy đồng tiền của mình và đúc 2 đồng tiền mới, mỗi đồng 1 ounce.
 
-Bitcoin hoạt động theo cách tương tự. Hãy tưởng tượng rằng Alice có UTXO là `10.000 SATS` và muốn mua một chiếc bánh mì dài giá `4.000 SATS`. Alice sẽ thực hiện một giao dịch với 1 UTXO là `10.000 SATS` làm đầu vào, mà cô ấy sẽ tiêu thụ hết, và 2 UTXO là `4.000 SATS` và `6.000 SATS` làm đầu ra. UTXO là `4.000 SATS` sẽ được gửi đến thợ làm bánh để thanh toán cho chiếc bánh mì dài, trong khi UTXO là `6.000 SATS` sẽ trả lại cho Alice dưới dạng tiền thừa. UTXO này, trả lại cho bên phát hành ban đầu của giao dịch, được gọi là "trao đổi" trong thuật ngữ Bitcoin.
+Bitcoin hoạt động theo cách tương tự. Hãy tưởng tượng rằng Alice có UTXO là `10.000 SATS` và muốn mua một chiếc bánh mì dài giá `4.000 SATS`. Alice sẽ thực hiện một giao dịch với 1 UTXO là `10.000 SATS` làm đầu vào, mà cô ấy sẽ tiêu thụ hết, và 2 UTXO là `4.000 SATS` và `6.000 SATS` làm đầu ra. UTXO là `4.000 SATS` sẽ được gửi đến thợ làm bánh để thanh toán cho chiếc bánh mì dài, trong khi UTXO là `6.000 SATS` sẽ trả lại cho Alice dưới dạng tiền thừa. UTXO này, trả lại cho bên phát hành ban đầu của giao dịch, được gọi là "[trao đổi](https://planb.academy/resources/glossary/change)" trong thuật ngữ Bitcoin.
 
 ![BTC204](assets/vi/013.webp)
 
@@ -180,26 +180,26 @@ Bây giờ hãy tưởng tượng rằng Alice không có một UTXO duy nhất 
 
 ### Phí giao dịch
 
-Theo trực giác, người ta có thể nghĩ rằng chi phí giao dịch cũng đại diện cho đầu ra của một giao dịch. Nhưng trên thực tế, điều này không đúng. Chi phí giao dịch đại diện cho sự khác biệt giữa tổng đầu vào và tổng đầu ra. Điều này có nghĩa là, sau khi sử dụng một phần giá trị của các đầu vào để trang trải các đầu ra mong muốn trong một giao dịch, một số lượng đầu vào nhất định vẫn chưa được sử dụng. Tổng số còn lại này cấu thành nên chi phí giao dịch.
+Theo trực giác, người ta có thể nghĩ rằng chi phí giao dịch cũng đại diện cho đầu ra của một giao dịch. Nhưng trên thực tế, điều này không đúng. [Chi phí giao dịch](https://planb.academy/resources/glossary/transaction-fees) đại diện cho sự khác biệt giữa tổng đầu vào và tổng đầu ra. Điều này có nghĩa là, sau khi sử dụng một phần giá trị của các đầu vào để trang trải các đầu ra mong muốn trong một giao dịch, một số lượng đầu vào nhất định vẫn chưa được sử dụng. Tổng số còn lại này cấu thành nên chi phí giao dịch.
 
 ```plaintext
-Frais = total inputs - total outputs
+Phí giao dịch = total inputs - total outputs
 ```
 
-Hãy lấy ví dụ về Alice, người có UTXO là `10.000 SATS` và muốn mua một ổ bánh mì dài với giá `4.000 SATS`. Alice tạo một giao dịch với UTXO của cô ấy là `10.000 SATS` làm đầu vào. Sau đó, cô ấy tạo ra đầu ra là `4.000 SATS` để thợ làm bánh trả tiền cho ổ bánh mì dài. Để khuyến khích thợ đào tích hợp giao dịch của cô ấy vào một khối, Alice phân bổ `200 SATS` phí. Sau đó, cô ấy tạo ra đầu ra thứ hai, là giao dịch, sẽ được trả lại cho cô ấy, với số tiền là `5.800 SATS`.
+Hãy lấy ví dụ về Alice, người có UTXO là `10.000 SATS` và muốn mua một ổ bánh mì dài với giá `4.000 SATS`. Alice tạo một giao dịch với UTXO của cô ấy là `10.000 SATS` làm đầu vào. Sau đó, cô ấy tạo ra đầu ra là `4.000 SATS` để thợ làm bánh trả tiền cho ổ bánh mì dài. Để khuyến khích [thợ đào](https://planb.academy/resources/glossary/miner) tích hợp giao dịch của cô ấy vào một khối, Alice phân bổ `200 SATS` phí. Sau đó, cô ấy tạo ra đầu ra thứ hai, là giao dịch, sẽ được trả lại cho cô ấy, với số tiền là `5.800 SATS`.
 
 ![BTC204](assets/vi/015.webp)
 
 Áp dụng công thức tính lệ phí, chúng ta thấy rằng thực sự còn lại `200 SATS` cho trẻ vị thành niên:
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+Phí giao dịch = total inputs - total outputs
+Phí giao dịch = 10 000 - (4 000 + 5 800)
+Phí giao dịch = 10 000 - 9 800
+Phí giao dịch = 200
 ```
 
-Khi thợ đào thành công trong việc xác thực một khối, anh ta được phép thu các khoản phí này cho tất cả các giao dịch có trong khối của mình, thông qua cái gọi là giao dịch "coinbase".
+Khi thợ đào thành công trong việc xác thực một khối, anh ta được phép thu các khoản phí này cho tất cả các giao dịch có trong khối của mình, thông qua cái gọi là giao dịch "[coinbase](https://planb.academy/resources/glossary/coinbase-transaction)".
 
 ### Tạo UTXO trên Bitcoin
 
@@ -207,13 +207,13 @@ Nếu bạn đã theo dõi cẩn thận các đoạn trước, giờ bạn sẽ 
 
 Câu trả lời nằm ở **giao dịch coinbase**.
 
-Coinbase là một loại giao dịch Bitcoin cụ thể, là duy nhất cho mỗi khối và luôn là khối đầu tiên trong số các khối này. Nó cho phép thợ đào tìm thấy bằng chứng công việc hợp lệ để nhận phần thưởng khối của mình. Phần thưởng này bao gồm hai yếu tố: **tiền thưởng khối** và **phí giao dịch**, đã thảo luận ở phần trước.
+Coinbase là một loại giao dịch Bitcoin cụ thể, là duy nhất cho mỗi khối và luôn là khối đầu tiên trong số các khối này. Nó cho phép thợ đào tìm thấy [bằng chứng công việc](https://planb.academy/resources/glossary/proof-of-work) hợp lệ để nhận phần thưởng khối của mình. Phần thưởng này bao gồm hai yếu tố: **[tiền thưởng khối](https://planb.academy/resources/glossary/block-subsidy)** và **phí giao dịch**, đã thảo luận ở phần trước.
 
 Giao dịch coinbase là duy nhất có khả năng tạo ra bitcoin ex nihilo, mà không cần phải sử dụng đầu vào để tạo ra đầu ra. Những bitcoin mới được tạo ra này là những gì chúng ta có thể gọi là "UTXO gốc".
 
 ![BTC204](assets/vi/016.webp)
 
-Bitcoin được trợ cấp theo khối là BTC mới được tạo ra từ đầu, theo lịch phát hành được thiết lập trước trong các quy tắc đồng thuận. Khoản trợ cấp khối được chia đôi sau mỗi 210.000 khối, tức là khoảng bốn năm một lần, trong một quy trình được gọi là "chia đôi". Ban đầu, 50 bitcoin được tạo ra với mỗi khoản trợ cấp, nhưng số lượng này đã giảm dần; hiện tại, là 3.125 bitcoin cho mỗi khối.
+Bitcoin được trợ cấp theo khối là BTC mới được tạo ra từ đầu, theo [lịch phát hành](https://planb.academy/resources/glossary/limite-demission) được thiết lập trước trong các quy tắc đồng thuận. Khoản trợ cấp khối được [chia đôi](https://planb.academy/resources/glossary/halving) sau mỗi 210.000 khối, tức là khoảng bốn năm một lần, trong một quy trình được gọi là "chia đôi". Ban đầu, 50 bitcoin được tạo ra với mỗi khoản trợ cấp, nhưng số lượng này đã giảm dần; hiện tại, là 3.125 bitcoin cho mỗi khối.
 
 Đối với phí giao dịch, mặc dù chúng cũng đại diện cho BTC mới tạo, nhưng chúng không được vượt quá chênh lệch giữa tổng đầu vào và đầu ra của tất cả các giao dịch trong một khối. Chúng ta đã thấy trước đó rằng các khoản phí này đại diện cho phần đầu vào không được sử dụng trong đầu ra giao dịch. Về mặt kỹ thuật, phần này "bị mất" trong quá trình giao dịch và thợ đào có quyền tạo lại giá trị này dưới dạng một hoặc nhiều UTXO mới. Đây là sự chuyển giao giá trị giữa bên phát hành giao dịch và thợ đào thêm nó vào blockchain.
 
@@ -223,7 +223,7 @@ Bitcoin được trợ cấp theo khối là BTC mới được tạo ra từ đ
 
 Trước hết, mô hình UTXO ảnh hưởng trực tiếp đến phí giao dịch của Bitcoin. Vì dung lượng của mỗi khối bị giới hạn nên thợ đào thích các giao dịch cung cấp mức phí tốt nhất liên quan đến không gian mà chúng sẽ chiếm trong khối. Thật vậy, giao dịch càng bao gồm nhiều UTXO trong đầu vào và đầu ra thì giao dịch đó càng nặng và do đó đòi hỏi mức phí cao hơn. Đây là một trong những lý do tại sao chúng tôi thường cố gắng giảm số lượng UTXO trong danh mục đầu tư của mình, điều này cũng có thể ảnh hưởng đến tính bảo mật, một chủ đề mà chúng tôi sẽ giải quyết chi tiết trong phần thứ ba của khóa học này.
 
-Thứ hai, như đã đề cập trong các phần trước, đồng Bitcoin về cơ bản là một chuỗi UTXO. Do đó, mỗi giao dịch tạo ra một liên kết giữa UTXO trong quá khứ và UTXO trong tương lai. Do đó, UTXO giúp theo dõi rõ ràng đường đi của Bitcoin từ khi chúng được tạo ra cho đến khi chúng được chi tiêu. Tính minh bạch này có thể được xem là tích cực vì nó cho phép mỗi người dùng xác định tính xác thực của bitcoin đã nhận. Tuy nhiên, phân tích blockchain cũng dựa trên nguyên tắc truy xuất nguồn gốc và khả năng kiểm toán này, một hoạt động được thiết kế để xâm phạm tính bảo mật của bạn. Chúng ta sẽ xem xét sâu hơn về hoạt động này trong phần thứ hai của khóa học.
+Thứ hai, như đã đề cập trong các phần trước, đồng Bitcoin về cơ bản là một chuỗi UTXO. Do đó, mỗi giao dịch tạo ra một liên kết giữa UTXO trong quá khứ và UTXO trong tương lai. Do đó, UTXO giúp theo dõi rõ ràng đường đi của Bitcoin từ khi chúng được tạo ra cho đến khi chúng được chi tiêu. Tính minh bạch này có thể được xem là tích cực vì nó cho phép mỗi người dùng xác định tính xác thực của bitcoin đã nhận. Tuy nhiên, [phân tích blockchain](https://planb.academy/resources/glossary/chain-analysis) cũng dựa trên nguyên tắc truy xuất nguồn gốc và khả năng kiểm toán này, một hoạt động được thiết kế để xâm phạm tính bảo mật của bạn. Chúng ta sẽ xem xét sâu hơn về hoạt động này trong phần thứ hai của khóa học.
 
 ## Mô hình riêng tư của Bitcoin
 
@@ -244,7 +244,7 @@ Một trong những chức năng của tiền là giải quyết vấn đề tr�
 
 Để tiền xu giải quyết được vấn đề này, điều quan trọng là bên cung cấp hàng hóa hoặc dịch vụ phải tin tưởng vào khả năng chi tiêu số tiền đó sau này. Do đó, bất kỳ cá nhân lý trí nào muốn chấp nhận một đồng xu, dù là kỹ thuật số hay vật lý, sẽ đảm bảo rằng nó đáp ứng hai tiêu chí cơ bản:
 - **Bài viết phải có tính toàn vẹn và chân thực ;**
-- **và không được chi tiêu gấp đôi.**
+- **và không được [chi tiêu gấp đôi](https://planb.academy/resources/glossary/double-spending-attack).**
 
 Nếu bạn sử dụng tiền vật lý, thì đây là đặc điểm đầu tiên phức tạp nhất để khẳng định. Vào các giai đoạn khác nhau trong lịch sử, tính toàn vẹn của đồng tiền kim loại thường bị ảnh hưởng bởi các hoạt động như cắt tỉa hoặc đục lỗ. Ví dụ, ở Rome cổ đại, người dân thường cạo các cạnh của đồng tiền vàng để thu thập một ít kim loại quý, đồng thời giữ lại để giao dịch trong tương lai. Do đó, giá trị nội tại của đồng tiền đã giảm, nhưng mệnh giá của nó vẫn giữ nguyên. Đây là một trong những lý do tại sao sau này, cạnh của đồng tiền được khía rãnh.
 
@@ -266,11 +266,11 @@ Cách duy nhất để tránh sự trùng lặp này của một tài sản kỹ
 
 ![BTC204](assets/vi/021.webp)
 
-Trên Bitcoin, việc chi tiêu gấp đôi cũng được ngăn chặn theo cách tương tự. Chúng tôi tìm cách xác nhận không có giao dịch nào đã chi tiêu số tiền đang được đề cập. Nếu số tiền chưa bao giờ được sử dụng, thì chúng tôi có thể chắc chắn rằng sẽ không xảy ra tình trạng chi tiêu gấp đôi. Nguyên tắc này đã được Satoshi Nakamoto mô tả trong Sách trắng với câu nói nổi tiếng:
+Trên Bitcoin, việc chi tiêu gấp đôi cũng được ngăn chặn theo cách tương tự. Chúng tôi tìm cách xác nhận không có giao dịch nào đã chi tiêu số tiền đang được đề cập. Nếu số tiền chưa bao giờ được sử dụng, thì chúng tôi có thể chắc chắn rằng sẽ không xảy ra tình trạng chi tiêu gấp đôi. Nguyên tắc này đã được [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) mô tả trong [Sách trắng](https://planb.academy/resources/glossary/white-paper) với câu nói nổi tiếng:
 
 **Cách duy nhất để xác nhận sự vắng mặt của giao dịch là nhận thức được tất cả các giao dịch**
 
-Nhưng không giống như mô hình ngân hàng, chúng ta không muốn phải tin tưởng một thực thể trung tâm trên Bitcoin. Vì vậy, tất cả người dùng cần có khả năng xác nhận sự vắng mặt của chi tiêu gấp đôi này, mà không cần dựa vào bên thứ ba. Vì vậy, mọi người cần phải biết về tất cả các giao dịch Bitcoin. Đây là lý do tại sao các giao dịch Bitcoin được phát sóng công khai trên tất cả các nút mạng và được ghi lại dưới dạng văn bản rõ trên blockchain.
+Nhưng không giống như mô hình ngân hàng, chúng ta không muốn phải tin tưởng một thực thể trung tâm trên Bitcoin. Vì vậy, tất cả người dùng cần có khả năng xác nhận sự vắng mặt của chi tiêu gấp đôi này, mà không cần dựa vào bên thứ ba. Vì vậy, mọi người cần phải biết về tất cả các giao dịch Bitcoin. Đây là lý do tại sao các giao dịch Bitcoin được phát sóng công khai trên tất cả các [nút](https://planb.academy/resources/glossary/node) mạng và được ghi lại dưới dạng văn bản rõ trên blockchain.
 
 Chính sự phổ biến thông tin công khai này làm phức tạp thêm việc bảo vệ quyền riêng tư trong Bitcoin. Trong hệ thống ngân hàng truyền thống, về mặt lý thuyết, chỉ có tổ chức tài chính mới biết được các giao dịch được thực hiện. Ngược lại, với Bitcoin, tất cả người dùng đều được thông báo về tất cả các giao dịch thông qua các nút tương ứng của họ.
 
@@ -307,7 +307,7 @@ Nhưng vì các giao dịch Bitcoin được công khai nên vẫn có thể thi
 
 ### Định nghĩa và hoạt động
 
-Phân tích chuỗi khối là hoạt động theo dõi luồng bitcoin trên chuỗi khối. Nói chung, phân tích chuỗi dựa trên việc quan sát các đặc điểm trong các mẫu giao dịch trước đó. Sau đó, nó bao gồm việc xác định các đặc điểm tương tự này trên một giao dịch mà chúng ta muốn phân tích và suy ra các diễn giải hợp lý từ chúng. Phương pháp giải quyết vấn đề này, dựa trên cách tiếp cận thực tế để tìm ra giải pháp đủ tốt, được gọi là "phương pháp tìm kiếm".
+Phân tích chuỗi khối là hoạt động theo dõi luồng bitcoin [trên chuỗi](https://planb.academy/resources/glossary/onchain) khối. Nói chung, phân tích chuỗi dựa trên việc quan sát các đặc điểm trong các mẫu giao dịch trước đó. Sau đó, nó bao gồm việc xác định các đặc điểm tương tự này trên một giao dịch mà chúng ta muốn phân tích và suy ra các diễn giải hợp lý từ chúng. Phương pháp giải quyết vấn đề này, dựa trên cách tiếp cận thực tế để tìm ra giải pháp đủ tốt, được gọi là "[phương pháp tìm kiếm](https://planb.academy/resources/glossary/analysis-heuristic)".
 
 Nói một cách dễ hiểu, có ba giai đoạn chính trong phân tích chuỗi:
 1. **Quan sát blockchain ;**
@@ -332,7 +332,7 @@ Về mặt lý thuyết, tuyên bố này là đúng. Trong phần đầu của 
 
 Tuy nhiên, thực tế phức tạp hơn nhiều. Có rất nhiều hành vi có thể liên kết danh tính thực với hoạt động trên chuỗi. Trong phân tích, đây được gọi là điểm vào và có rất nhiều điểm vào.
 
-Phổ biến nhất là KYC (*Biết khách hàng của bạn*). Nếu bạn rút Bitcoin của mình từ một nền tảng được quản lý đến một trong những địa chỉ nhận cá nhân của bạn, thì một số người có thể liên kết danh tính của bạn với địa chỉ đó. Nói rộng hơn, điểm vào có thể là bất kỳ hình thức tương tác nào giữa cuộc sống thực của bạn và giao dịch Bitcoin. Ví dụ: nếu bạn công bố địa chỉ nhận trên mạng xã hội của mình, thì đây có thể là điểm vào để phân tích. Nếu bạn thực hiện thanh toán bằng Bitcoin cho thợ làm bánh của mình, anh ta sẽ có thể liên kết khuôn mặt của bạn (một phần danh tính của bạn) với một địa chỉ Bitcoin.
+Phổ biến nhất là [KYC](https://planb.academy/resources/glossary/kyc-know-your-customer) (*Biết khách hàng của bạn*). Nếu bạn rút Bitcoin của mình từ một nền tảng được quản lý đến một trong những địa chỉ nhận cá nhân của bạn, thì một số người có thể liên kết danh tính của bạn với địa chỉ đó. Nói rộng hơn, điểm vào có thể là bất kỳ hình thức tương tác nào giữa cuộc sống thực của bạn và giao dịch Bitcoin. Ví dụ: nếu bạn công bố địa chỉ nhận trên mạng xã hội của mình, thì đây có thể là điểm vào để phân tích. Nếu bạn thực hiện thanh toán bằng Bitcoin cho thợ làm bánh của mình, anh ta sẽ có thể liên kết khuôn mặt của bạn (một phần danh tính của bạn) với một địa chỉ Bitcoin.
 
 Những điểm vào này hầu như không thể tránh khỏi khi sử dụng Bitcoin. Mặc dù chúng ta có thể tìm cách hạn chế phạm vi của chúng, nhưng chúng sẽ luôn hiện hữu. Đó là lý do tại sao việc kết hợp các phương pháp nhằm bảo vệ quyền riêng tư của bạn là rất quan trọng. Mặc dù duy trì sự tách biệt giữa danh tính thực và các giao dịch của bạn là một cách tiếp cận thú vị, nhưng hiện nay vẫn chưa đủ. Thật vậy, nếu tất cả các hoạt động trên chuỗi của bạn có thể được nhóm lại với nhau, thì ngay cả điểm vào nhỏ nhất cũng có khả năng làm tổn hại đến lớp bảo mật duy nhất mà bạn đã thiết lập.
 
@@ -344,13 +344,13 @@ Vì vậy, chúng ta cũng cần có khả năng đối phó với phân tích b
 
 ![BTC204](assets/vi/030.webp)
 
-Còn cách nào tốt hơn để chống lại phân tích blockchain hơn là tìm hiểu về các phương pháp được sử dụng trong đó? Nếu bạn muốn biết cách cải thiện quyền riêng tư của mình trên Bitcoin, bạn cần hiểu các phương pháp này. Điều này sẽ giúp bạn nắm bắt tốt hơn các kỹ thuật như coinjoin hoặc payjoin (các kỹ thuật chúng ta sẽ xem xét trong các phần cuối của khóa học) và giảm thiểu các lỗi bạn có thể mắc phải.
+Còn cách nào tốt hơn để chống lại phân tích blockchain hơn là tìm hiểu về các phương pháp được sử dụng trong đó? Nếu bạn muốn biết cách cải thiện quyền riêng tư của mình trên Bitcoin, bạn cần hiểu các phương pháp này. Điều này sẽ giúp bạn nắm bắt tốt hơn các kỹ thuật như [coinjoin](https://planb.academy/resources/glossary/coinjoin) hoặc [payjoin](https://planb.academy/resources/glossary/payjoin) (các kỹ thuật chúng ta sẽ xem xét trong các phần cuối của khóa học) và giảm thiểu các lỗi bạn có thể mắc phải.
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
 https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
-Trong phần này, chúng ta có thể rút ra sự tương đồng với mật mã học và phân tích mật mã. Một nhà mật mã học giỏi trước hết và quan trọng nhất là một nhà phân tích mật mã giỏi. Để thiết kế một thuật toán mã hóa mới, bạn cần biết thuật toán đó sẽ phải đối mặt với những cuộc tấn công nào và cũng cần nghiên cứu lý do tại sao các thuật toán trước đó đã bị phá vỡ. Nguyên tắc tương tự cũng áp dụng cho quyền riêng tư của Bitcoin. Hiểu các phương pháp phân tích chuỗi khối là chìa khóa để bảo vệ chống lại chúng. Đó là lý do tại sao tôi đã đưa toàn bộ một phần về phân tích chuỗi vào khóa đào tạo này.
+Trong phần này, chúng ta có thể rút ra sự tương đồng với [mật mã học](https://planb.academy/resources/glossary/cryptography) và phân tích mật mã. Một nhà mật mã học giỏi trước hết và quan trọng nhất là một nhà phân tích mật mã giỏi. Để thiết kế một thuật toán mã hóa mới, bạn cần biết thuật toán đó sẽ phải đối mặt với những cuộc tấn công nào và cũng cần nghiên cứu lý do tại sao các thuật toán trước đó đã bị phá vỡ. Nguyên tắc tương tự cũng áp dụng cho quyền riêng tư của Bitcoin. Hiểu các phương pháp phân tích chuỗi khối là chìa khóa để bảo vệ chống lại chúng. Đó là lý do tại sao tôi đã đưa toàn bộ một phần về phân tích chuỗi vào khóa đào tạo này.
 
 ### Phương pháp phân tích chuỗi
 
@@ -370,8 +370,8 @@ Những phương pháp tìm kiếm thông tin nổi tiếng này có thể đư�
 Hai phương pháp phân tích chuỗi đầu tiên được chính Satoshi Nakamoto phát hiện. Ông nói về chúng trong Phần 10 của Sách trắng Bitcoin. Chúng là:
 
 
-- cIOH (*Thuật toán sở hữu đầu vào chung*);
-- và tái sử dụng địa chỉ.
+- [cIOH](https://planb.academy/resources/glossary/cioh) (*Thuật toán sở hữu đầu vào chung*);
+- và [tái sử dụng địa chỉ](https://planb.academy/resources/glossary/address-reuse).
 
 ![BTC204](assets/vi/031.webp)
 
@@ -430,7 +430,7 @@ Diễn giải của mô hình này là chúng ta đang ở trong sự tự chuy�
 
 Sau đó, chúng ta biết rằng người dùng được quan sát có thể vẫn sở hữu UTXO này. Trong bối cảnh phân tích chuỗi, nếu chúng ta biết rằng UTXO được sử dụng làm đầu vào cho giao dịch thuộc về Alice, chúng ta có thể cho rằng UTXO được sử dụng làm đầu ra cũng thuộc về cô ấy. Điều sẽ trở nên thú vị sau này là tìm ra các phương pháp tìm kiếm nội bộ giao dịch có thể củng cố cho giả định này (chúng ta sẽ xem xét các phương pháp tìm kiếm này trong chương 3.3).
 
-Ví dụ, đây là giao dịch Bitcoin áp dụng mô hình quét:
+Ví dụ, đây là giao dịch Bitcoin áp dụng mô hình [quét](https://planb.academy/resources/glossary/sweep-transaction):
 
 ```plaintext
 35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d
@@ -476,7 +476,7 @@ Mô hình này được đặc trưng bởi việc sử dụng một số UTXO l
 
 ![BTC204](assets/vi/040.webp)
 
-Diễn giải của mô hình này là chúng ta đang ở trong sự hiện diện của chi tiêu theo nhóm. Đây là một hoạt động có thể tiết lộ một hoạt động kinh tế rất lớn, chẳng hạn như một nền tảng trao đổi. Chi tiêu theo nhóm cho phép các thực thể này tiết kiệm chi phí bằng cách kết hợp chi phí của họ trong một giao dịch duy nhất.
+Diễn giải của mô hình này là chúng ta đang ở trong sự hiện diện của [chi tiêu theo nhóm](https://planb.academy/resources/glossary/batched-spending). Đây là một hoạt động có thể tiết lộ một hoạt động kinh tế rất lớn, chẳng hạn như một nền tảng trao đổi. Chi tiêu theo nhóm cho phép các thực thể này tiết kiệm chi phí bằng cách kết hợp chi phí của họ trong một giao dịch duy nhất.
 
 Chúng ta có thể suy ra từ mô hình này rằng UTXO trong đầu vào đến từ một công ty có mức độ hoạt động kinh tế cao và UTXO trong đầu ra sẽ phân tán. Nhiều UTXO sẽ thuộc về khách hàng của công ty đã rút bitcoin khỏi nền tảng. Những UTXO khác có thể chuyển đến các công ty đối tác. Cuối cùng, chắc chắn sẽ có một hoặc nhiều sàn giao dịch quay trở lại công ty phát hành.
 
@@ -555,7 +555,7 @@ Những điểm tương đồng giữa đầu vào và đầu ra này không d�
 
 ![BTC204](assets/vi/047.webp)
 
-Trên sơ đồ này, chúng ta có thể thấy rằng đầu vào n° 0 mở khóa một tập lệnh P2WPKH (SegWit V0 bắt đầu bằng `bc1q`). Đầu ra n° 0 sử dụng cùng loại tập lệnh. Mặt khác, đầu ra n° 1 sử dụng một tập lệnh P2TR (SegWit V1 bắt đầu bằng `bc1p`). Giải thích về tính năng này là có khả năng địa chỉ có cùng phiên bản với đầu vào là địa chỉ trao đổi. Do đó, nó sẽ luôn thuộc về cùng một người dùng.
+Trên sơ đồ này, chúng ta có thể thấy rằng đầu vào n° 0 mở khóa một tập lệnh [P2WPKH](https://planb.academy/resources/glossary/p2wpkh) (SegWit V0 bắt đầu bằng `bc1q`). Đầu ra n° 0 sử dụng cùng loại tập lệnh. Mặt khác, đầu ra n° 1 sử dụng một tập lệnh [P2TR](https://planb.academy/resources/glossary/p2tr) (SegWit V1 bắt đầu bằng `bc1p`). Giải thích về tính năng này là có khả năng địa chỉ có cùng phiên bản với đầu vào là địa chỉ trao đổi. Do đó, nó sẽ luôn thuộc về cùng một người dùng.
 
 Sau đây là một giao dịch mà phương pháp này có thể được áp dụng:
 
@@ -567,7 +567,7 @@ db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578
 
 Nguồn: [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578)
 
-Ở phần sau, chúng ta có thể thấy rằng đầu vào số 0 và đầu ra số 1 sử dụng tập lệnh P2WPKH (SegWit V0), trong khi đầu ra số 0 sử dụng tập lệnh P2PKH khác (Legacy).
+Ở phần sau, chúng ta có thể thấy rằng đầu vào số 0 và đầu ra số 1 sử dụng tập lệnh P2WPKH (SegWit V0), trong khi đầu ra số 0 sử dụng tập lệnh [P2PKH](https://planb.academy/resources/glossary/p2pkh) khác (Legacy).
 
 Vào đầu những năm 2010, phương pháp tìm kiếm dựa trên phiên bản tập lệnh này tương đối không hữu ích do các loại tập lệnh có sẵn bị hạn chế. Tuy nhiên, theo thời gian và với các bản cập nhật Bitcoin liên tiếp, sự đa dạng ngày càng tăng của các loại tập lệnh đã được giới thiệu. Do đó, phương pháp tìm kiếm này ngày càng trở nên phù hợp, vì với nhiều loại tập lệnh hơn, người dùng chia thành các nhóm nhỏ hơn, do đó tăng khả năng áp dụng phương pháp tìm kiếm tái sử dụng phiên bản nội bộ này. Vì lý do này, chỉ xét về góc độ bảo mật, nên chọn loại tập lệnh phổ biến nhất. Ví dụ, khi tôi viết những dòng này, tập lệnh Taproot (`bc1p`) ít được sử dụng hơn tập lệnh SegWit V0 (`bc1q`). Mặc dù các tập lệnh trước mang lại lợi ích về mặt kinh tế và bảo mật trong một số bối cảnh cụ thể, nhưng đối với các mục đích sử dụng chữ ký đơn truyền thống hơn, việc sử dụng tiêu chuẩn cũ hơn vì lý do bảo mật có thể hợp lý, cho đến khi tiêu chuẩn mới được áp dụng rộng rãi hơn.
 
@@ -719,7 +719,7 @@ Nhà phân tích cũng có tùy chọn dựa vào các phân tích trước đâ
 
 Tương tự như vậy, bạn có thể thực hiện phân tích bằng cách loại trừ. Ví dụ, nếu khi phân tích một giao dịch có hai đầu ra, một trong số chúng liên quan đến một cụm địa chỉ đã biết, nhưng khác với thực thể chúng ta đang theo dõi, thì chúng ta có thể diễn giải rằng đầu ra kia có thể biểu diễn cho trao đổi.
 
-Phân tích kênh cũng bao gồm một thành phần OSINT (*Trí tuệ nguồn mở*) tổng quát hơn một chút, liên quan đến tìm kiếm trên internet. Vì lý do này, chúng tôi khuyên bạn không nên công bố địa chỉ trực tiếp trên mạng xã hội hoặc trên trang web, cho dù có ẩn danh hay không.
+Phân tích kênh cũng bao gồm một thành phần [OSINT](https://planb.academy/resources/glossary/osint) (*Trí tuệ nguồn mở*) tổng quát hơn một chút, liên quan đến tìm kiếm trên internet. Vì lý do này, chúng tôi khuyên bạn không nên công bố địa chỉ trực tiếp trên mạng xã hội hoặc trên trang web, cho dù có ẩn danh hay không.
 
 ![BTC204](assets/vi/063.webp)
 
@@ -955,7 +955,7 @@ a6dbebebca119af3d05c0196b76f80fdbf78f20368ebef1b7fd3476d0814517d
 
 Nếu chúng ta xem xét mô hình của giao dịch này, rõ ràng đây là một khoản chi tiêu được đóng gói. Thật vậy, giao dịch có một đầu vào duy nhất và 51 đầu ra, cho thấy mức độ hoạt động kinh tế cao. Do đó, chúng ta có thể đưa ra giả thuyết rằng Loïc đã rút bitcoin khỏi một nền tảng trao đổi.
 
-Một số yếu tố củng cố giả thuyết này. Đầu tiên, loại tập lệnh được sử dụng để bảo mật đầu vào UTXO là tập lệnh đa chữ ký P2SH 2/3, cho biết mức độ bảo mật nâng cao đặc trưng của các nền tảng trao đổi:
+Một số yếu tố củng cố giả thuyết này. Đầu tiên, loại tập lệnh được sử dụng để bảo mật đầu vào UTXO là tập lệnh đa chữ ký [P2SH](https://planb.academy/resources/glossary/p2sh) 2/3, cho biết mức độ bảo mật nâng cao đặc trưng của các nền tảng trao đổi:
 
 ```plaintext
 OP_PUSHNUM_2
@@ -1067,7 +1067,7 @@ Về mặt kỹ thuật, một địa chỉ nhận Bitcoin không "nhận" bitco
 
 Địa chỉ Bitcoin có nhiều loại khác nhau, tùy thuộc vào mô hình tập lệnh được sử dụng. Các mô hình đầu tiên, được gọi là **Legacy**, bao gồm các địa chỉ `P2PKH` (*Pay-to-PubKey-Hash*) và `P2SH` (*Pay-to-Script-Hash*). Địa chỉ P2PKH luôn bắt đầu bằng `1` và P2SH bằng `3`. Mặc dù vẫn an toàn, nhưng các định dạng này hiện đã lỗi thời vì chúng đòi hỏi chi phí giao dịch cao hơn và ít bảo mật hơn so với các tiêu chuẩn mới.
 
-Địa chỉ SegWit V0 (`P2WPKH` và `P2WSH`) và Taproot / SegWit V1 (`P2TR`) đại diện cho các định dạng hiện đại. Địa chỉ SegWit bắt đầu bằng `bc1q` và địa chỉ Taproot, được giới thiệu vào năm 2021, bắt đầu bằng `bc1p`.
+Địa chỉ SegWit V0 (`P2WPKH` và `P2WSH`) và [Taproot](https://planb.academy/resources/glossary/taproot) / SegWit V1 (`P2TR`) đại diện cho các định dạng hiện đại. Địa chỉ SegWit bắt đầu bằng `bc1q` và địa chỉ Taproot, được giới thiệu vào năm 2021, bắt đầu bằng `bc1p`.
 
 Ví dụ, đây là địa chỉ tiếp nhận của Taproot:
 
@@ -1280,7 +1280,7 @@ Trong các phần trước, chúng ta đã thảo luận về việc lựa chọ
 
 Các phương pháp lựa chọn UTXO như FIFO (*First In First Out*) và LIFO (*Last In First Out*) là một trong những phương pháp đơn giản nhất, nhưng cũng kém hiệu quả nhất. Với FIFO, các phần cũ nhất trong danh mục đầu tư được sử dụng trước. Cách tiếp cận này thường không hiệu quả trong việc giảm thiểu chi phí giao dịch và bảo vệ tính bảo mật, ngoại trừ trong trường hợp sử dụng khóa thời gian tương đối và cần được gia hạn thường xuyên. Ngược lại, LIFO ưu tiên sử dụng các UTXO mới nhất. Cả hai phương pháp, mặc dù đơn giản, thường tỏ ra không hiệu quả.
 
-Một phương pháp tiên tiến hơn là *Knapsack Solver*. Phương pháp này được sử dụng trên ví Bitcoin Core cho đến phiên bản 0.17. Phương pháp này bao gồm việc chọn ngẫu nhiên và lặp lại các UTXO từ ví, thêm chúng vào các tập hợp con và giữ nguyên giải pháp giúp giảm trọng lượng giao dịch càng nhiều càng tốt, nhằm giảm chi phí cho người dùng.
+Một phương pháp tiên tiến hơn là *Knapsack Solver*. Phương pháp này được sử dụng trên ví [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core) cho đến phiên bản 0.17. Phương pháp này bao gồm việc chọn ngẫu nhiên và lặp lại các UTXO từ ví, thêm chúng vào các tập hợp con và giữ nguyên giải pháp giúp giảm trọng lượng giao dịch càng nhiều càng tốt, nhằm giảm chi phí cho người dùng.
 
 *Branch-and-Bound* (BNB), thường được gọi là "Thuật toán Murch" theo tên người phát minh ra nó, đã thay thế *Knapsack Solver* trong Bitcoin Core kể từ phiên bản 0.17. Phương pháp tiên tiến hơn này nhằm mục đích tìm một tập hợp UTXO tương ứng chính xác với số tiền cần thiết để đáp ứng các đầu ra của một giao dịch. Mục tiêu của BNB là giảm thiểu số tiền trao đổi cũng như phí, bằng cách giảm cái gọi là tiêu chí lãng phí, tính đến cả chi phí tức thời và chi phí tương lai dự kiến của giao dịch. Phương pháp này bắt nguồn từ khái niệm ban đầu của *Branch-and-Bound*, được Ailsa Land và Alison Harcourt hình thành vào năm 1960, và cung cấp khả năng tối ưu hóa phí chính xác hơn *Knapsack Solver*.
 
@@ -1547,7 +1547,7 @@ Trong ví dụ này, mặc dù giao dịch B cung cấp tổng phí cao hơn, th
 
 ```text
 TXA : 1994 / 141 = 14 sats/vB
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 Điều này có nghĩa là đối với mỗi đơn vị trọng lượng, giao dịch A tốn nhiều chi phí hơn giao dịch B, mặc dù xét về mặt tuyệt đối thì giao dịch B tốn nhiều chi phí hơn.
@@ -1634,7 +1634,7 @@ Nếu bạn không có nút Bitcoin của riêng mình, bạn sẽ buộc phải
 
 ![BTC204](assets/vi/105.webp)
 
-Rủi ro chính khi bạn không sử dụng nút Bitcoin của riêng mình là người điều hành nút của bên thứ ba có thể theo dõi hoạt động của bạn trên blockchain hoặc thậm chí chia sẻ thông tin này với các thực thể khác. Để hạn chế rủi ro này, một giải pháp trung gian là sử dụng phần mềm ví ẩn kết nối của bạn qua Tor. Điều này có thể làm giảm khả năng dữ liệu của bạn bị lộ. Tuy nhiên, giải pháp tối ưu là có nút Bitcoin của riêng bạn và sử dụng nó để phát các giao dịch của bạn. Tất nhiên, bạn cũng cần phải cẩn thận để không rò rỉ bất kỳ thông tin nào qua nút của mình, nhưng đó là một chủ đề khác mà chúng ta sẽ xem xét trong các phần sau.
+Rủi ro chính khi bạn không sử dụng nút Bitcoin của riêng mình là người điều hành nút của bên thứ ba có thể theo dõi hoạt động của bạn trên blockchain hoặc thậm chí chia sẻ thông tin này với các thực thể khác. Để hạn chế rủi ro này, một giải pháp trung gian là sử dụng phần mềm ví ẩn kết nối của bạn qua [Tor](https://planb.academy/resources/glossary/tor). Điều này có thể làm giảm khả năng dữ liệu của bạn bị lộ. Tuy nhiên, giải pháp tối ưu là có nút Bitcoin của riêng bạn và sử dụng nó để phát các giao dịch của bạn. Tất nhiên, bạn cũng cần phải cẩn thận để không rò rỉ bất kỳ thông tin nào qua nút của mình, nhưng đó là một chủ đề khác mà chúng ta sẽ xem xét trong các phần sau.
 
 Ngoài lợi thế rõ ràng cho quyền riêng tư của bạn, việc có nút hoàn chỉnh của riêng bạn cũng đảm bảo tính xác thực của dữ liệu trên blockchain, bảo vệ bạn khỏi kiểm duyệt và cho phép bạn tích cực tham gia vào quá trình quản trị Bitcoin. Bằng cách sử dụng nút của riêng bạn, bạn đóng góp sức mạnh kinh tế của mình vào chuỗi mà bạn lựa chọn, điều này rất quan trọng trong các cuộc xung đột trong cộng đồng, chẳng hạn như trong Chiến tranh kích thước khối từ năm 2015 đến năm 2017. Trong trường hợp phân nhánh, việc sử dụng nút của bên thứ ba có thể khiến bạn ủng hộ một chuỗi mà bạn không muốn ủng hộ, vì người vận hành nút sẽ đưa ra lựa chọn thay cho bạn.
 
@@ -1644,7 +1644,7 @@ Như bạn thấy, vì lợi ích của tính bảo mật và chủ quyền cá 
 
 Nói rộng hơn, điều quan trọng là phải hiểu các phương pháp tìm kiếm mà chúng ta đã nói đến ở phần trước, để có thể tránh hoặc đánh lừa chúng tốt hơn. Việc áp dụng một loạt các biện pháp thực hành tốt nhất có thể có lợi, ngay cả khi chúng không phải là điều cần thiết. Chúng cung cấp một lớp bảo vệ bổ sung có thể quan trọng trong việc duy trì tính bảo mật khi sử dụng Bitcoin.
 
-Lời khuyên đầu tiên tôi có thể đưa ra là hãy hòa nhập vào đám đông đông đúc nhất. Trên Bitcoin, điều này có nghĩa là sử dụng các mẫu tập lệnh được áp dụng rộng rãi nhất. Ví dụ, các tập lệnh P2WSH, thường được sử dụng cho các cấu hình đa chữ ký SegWit V0, rất hiếm. Chúng không cho phép bạn ẩn trong một tập hợp ẩn danh lớn. Tương tự như vậy đối với các mô hình cũ hơn như P2PKH hoặc P2SH. Mặc dù chúng hiện diện rộng rãi trong tập hợp UTXO, nhưng chúng ngày càng ít được sử dụng cho các giao dịch mới.
+Lời khuyên đầu tiên tôi có thể đưa ra là hãy hòa nhập vào đám đông đông đúc nhất. Trên Bitcoin, điều này có nghĩa là sử dụng các mẫu tập lệnh được áp dụng rộng rãi nhất. Ví dụ, các tập lệnh [P2WSH](https://planb.academy/resources/glossary/p2wsh), thường được sử dụng cho các cấu hình đa chữ ký SegWit V0, rất hiếm. Chúng không cho phép bạn ẩn trong một tập hợp ẩn danh lớn. Tương tự như vậy đối với các mô hình cũ hơn như P2PKH hoặc P2SH. Mặc dù chúng hiện diện rộng rãi trong tập hợp UTXO, nhưng chúng ngày càng ít được sử dụng cho các giao dịch mới.
 
 Nói chung, sẽ khôn ngoan hơn nếu chọn chuẩn tập lệnh mới nhất, miễn là chuẩn đó đã được chấp nhận đầy đủ. Vì vậy, nếu vào năm 2022, tôi khuyên không nên sử dụng P2TR (Taproot) do mức độ chấp nhận thấp, thì vào năm 2024, tôi khuyên bạn nên chọn loại tập lệnh này thay thế, hoặc nếu không, hãy chọn tập lệnh SegWit V0, vì số lượng giao dịch sử dụng P2TR đang bắt đầu chiếm tỷ lệ rất đáng kể.
 
@@ -1742,7 +1742,7 @@ Tuy nhiên, coinjoin cũng cung cấp khả năng tăng cường tính bảo m�
 
 ![BTC204](assets/vi/118.webp)
 
-Trong ví dụ đầu tiên, chúng ta đã thấy cách coinjoin có thể bảo vệ quyền riêng tư của một phòng liên quan đến quá khứ của nó, và trong ví dụ thứ hai, cách nó cũng có thể bảo vệ lịch sử của một phòng liên quan đến tương lai của nó. Đó là lý do tại sao tôi đề cập rằng coinjoin nên được coi là một sự kiện một lần phân đoạn một phần lịch sử theo cả hai hướng:
+Trong ví dụ đầu tiên, chúng ta đã thấy coinjoin có thể bảo vệ quyền riêng tư của một đồng tiền như thế nào đối với quá khứ của nó, và trong ví dụ thứ hai, nó cũng có thể bảo vệ lịch sử của một đồng tiền như thế nào đối với tương lai của nó. Đó là lý do tại sao tôi đã đề cập rằng coinjoin nên được xem như một sự kiện diễn ra một lần, phân tách lịch sử của đồng tiền theo cả hai hướng:
 
 ![BTC204](assets/vi/119.webp)
 
@@ -1861,7 +1861,7 @@ Trong cùng một chủ đề, chúng ta có thể tìm thấy [một tin nhắn
 
 ### Liên kết số không
 
-Zerolink là một giao thức trộn toàn diện kết hợp Chaumian coinjoin và nhiều chiến lược khác nhau để bảo vệ tính ẩn danh của người dùng trước nhiều hình thức phân tích chuỗi, đặc biệt là bằng cách giảm thiểu lỗi liên quan đến quản lý danh mục đầu tư. Giao thức này [được nopara73 và TDevD giới thiệu vào năm 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).
+[Zerolink](https://planb.academy/resources/glossary/zerolink) là một giao thức trộn toàn diện kết hợp Chaumian coinjoin và nhiều chiến lược khác nhau để bảo vệ tính ẩn danh của người dùng trước nhiều hình thức phân tích chuỗi, đặc biệt là bằng cách giảm thiểu lỗi liên quan đến quản lý danh mục đầu tư. Giao thức này [được nopara73 và TDevD giới thiệu vào năm 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
 ![BTC204](assets/vi/132.webp)
 
@@ -1936,7 +1936,7 @@ Các phương pháp quản lý trao đổi cũng phân biệt hai triển khai. 
 
 ![BTC204](assets/vi/139.webp)
 
-Với Wabisabi, Wasabi phiên bản 2.0 đã điều chỉnh cách tiếp cận của mình đối với coinjoin để phù hợp với Whirlpool. Mặc dù các giao dịch coinjoin vẫn rất lớn, nhưng giờ đây có thể nối nhiều chu kỳ liên tiếp, theo mô hình Whirlpool. Sự chú ý đặc biệt cũng được dành cho việc quản lý tỷ giá hối đoái: không giống như Wasabi 1.0, nơi tỷ giá hối đoái được liên kết trực tiếp với dữ liệu đầu vào của người dùng, Wabisabi tìm cách chia nhỏ tỷ giá hối đoái thành nhiều khoản tiền nhỏ, chia thành các mệnh giá bằng nhau cho tất cả những người tham gia.
+Với Wabisabi, phiên bản 2.0 đã điều chỉnh cách tiếp cận đối với coinjoin để tiến gần hơn đến mô hình của Whirlpool. Mặc dù các giao dịch coinjoin vẫn có quy mô rất lớn, hiện nay đã có thể liên kết nhiều chu kỳ liên tiếp, theo đúng mô hình Whirlpool. Một nỗ lực đặc biệt cũng đã được dành cho việc quản lý tiền thừa: trái với Wasabi 1.0, nơi tiền thừa gắn trực tiếp với các đầu vào của người dùng, Wabisabi tìm cách chia tiền thừa thành nhiều khoản nhỏ, được phân phối theo các mệnh giá bằng nhau cho tất cả những người tham gia.
 
 Hãy minh họa điều này bằng một ví dụ đơn giản chỉ liên quan đến 2 người dùng: Alice muốn trộn 115.000 sats và Bob, 210.000 sats. Bỏ qua phí, với Wasabi 1.0, một giao dịch coinjoin sẽ tạo ra 3 đầu ra là 100.000 sats, cộng với 1 lần trao đổi 15.000 sats cho Alice và 1 lần trao đổi 10.000 sats cho Bob. Các đầu ra trao đổi vẫn sẽ được liên kết với các đầu vào:
 
@@ -2113,7 +2113,7 @@ Chúng ta hãy cùng xem xét các giai đoạn khác nhau của Whirlpool coinj
 
 Điểm khởi đầu của bất kỳ Whirlpool coinjoin nào là tài khoản **gửi tiền**. Đây là tài khoản bạn tự động sử dụng khi tạo ví Bitcoin mới. Tài khoản này sẽ cần được ghi có số bitcoin bạn muốn trộn.
 
-Tx0" là bước đầu tiên trong quy trình trộn của Whirlpool. Mục đích của nó là chuẩn bị và cân bằng các UTXO cho coinjoin, chia chúng thành các đơn vị tương ứng với số lượng của nhóm đã chọn, để đảm bảo trộn đồng nhất. Các UTXO được cân bằng như vậy sau đó được gửi đến tài khoản **premix**. Đối với phần chênh lệch không thể nhập vào nhóm, nó được tách thành một tài khoản cụ thể: **bad bank** (hoặc "doxxic change").
+`Tx0` là bước đầu tiên trong quy trình trộn của Whirlpool. Mục đích của nó là chuẩn bị và cân bằng các UTXO cho coinjoin, chia chúng thành các đơn vị tương ứng với số lượng của nhóm đã chọn, để đảm bảo trộn đồng nhất. Các UTXO được cân bằng như vậy sau đó được gửi đến tài khoản **premix**. Đối với phần chênh lệch không thể nhập vào nhóm, nó được tách thành một tài khoản cụ thể: **bad bank** (hoặc "doxxic change").
 
 Giao dịch `Tx0` ban đầu này cũng được sử dụng để thanh toán phí dịch vụ cho điều phối viên coinjoin. Không giống như các bước sau, giao dịch này không mang tính cộng tác, do đó người dùng phải chịu toàn bộ chi phí khai thác:
 
@@ -2151,7 +2151,7 @@ Vào cuối những lần trộn đầu tiên này, tài khoản **premix** sẽ
 
 ### Bản phối lại
 
-Sau lần trộn ban đầu, các UTXO được chuyển đến tài khoản **postmix**. Tài khoản này thu thập các UTXO đã trộn và những UTXO đang chờ trộn lại. Khi khách hàng Whirlpool hoạt động, các UTXO nằm trong tài khoản **postmix** sẽ tự động có sẵn để trộn lại và sẽ được chọn ngẫu nhiên để tham gia vào các chu kỳ mới này.
+Sau khi thực hiện lần mix ban đầu, các UTXO được chuyển vào tài khoản **postmix**. Tài khoản này tập hợp các UTXO đã được mix cũng như những UTXO đang chờ được remix. Khi ứng dụng Whirlpool đang hoạt động, các UTXO nằm trong tài khoản **postmix** sẽ tự động sẵn sàng cho việc remix và được lựa chọn ngẫu nhiên để tham gia vào các chu kỳ mới này.
 
 Xin nhắc lại, các bản phối lại sau đó hoàn toàn miễn phí: không cần thêm bất kỳ khoản phí dịch vụ hoặc phí khai thác nào. Do đó, việc giữ UTXO trong tài khoản **postmix** sẽ giữ nguyên giá trị của chúng và đồng thời cải thiện tính ẩn danh của chúng. Đó là lý do tại sao việc cho phép các đồng tiền này tham gia vào một số chu kỳ coinjoin là rất quan trọng. Bạn hoàn toàn không mất gì cả và tăng mức độ ẩn danh của chúng.
 
@@ -2306,7 +2306,7 @@ Ví dụ, một giao dịch thanh toán đơn giản với 1 đầu vào và 2 �
 
 ![BTC204](assets/vi/165.webp)
 
-Mặt khác, một góc Whirlpool 5x5 có $1\,496$ tổ hợp có thể xảy ra:
+Ngược lại, một coinjoin được cấu trúc theo mô hình Whirlpool 5x5 có $1\,496$ tổ hợp khả dĩ:
 
 ![BTC204](assets/vi/166.webp)
 
@@ -2484,7 +2484,7 @@ Rõ ràng, mỗi đầu vào đều có cơ hội như nhau để liên kết v�
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}
@@ -2652,7 +2652,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d
 :::video id=1f33e8f1-e41d-4480-a388-e283ef51cc17:::
 
 
-Khi bạn muốn thực hiện giao dịch thanh toán trong khi vẫn duy trì một mức độ bảo mật nhất định, payjoin là một lựa chọn tốt. Nhưng như chúng ta vừa thấy, payjoin đòi hỏi sự tham gia của người nhận. Vậy bạn sẽ làm gì nếu người nhận từ chối tham gia payjoin hoặc nếu bạn chỉ đơn giản là không muốn họ tham gia? Một giải pháp thay thế là sử dụng giao dịch Stonewall hoặc Stonewall x2. Chúng ta hãy xem xét kỹ hơn hai loại giao dịch này.
+Khi bạn muốn thực hiện giao dịch thanh toán trong khi vẫn duy trì một mức độ bảo mật nhất định, payjoin là một lựa chọn tốt. Nhưng như chúng ta vừa thấy, payjoin đòi hỏi sự tham gia của người nhận. Vậy bạn sẽ làm gì nếu người nhận từ chối tham gia payjoin hoặc nếu bạn chỉ đơn giản là không muốn họ tham gia? Một giải pháp thay thế là sử dụng giao dịch [Stonewall](https://planb.academy/resources/glossary/stonewall) hoặc Stonewall x2. Chúng ta hãy xem xét kỹ hơn hai loại giao dịch này.
 
 ### Giao dịch Stonewall
 
@@ -2717,7 +2717,7 @@ Trong ví dụ này, tôi cố tình bỏ qua phí để dễ hiểu hơn. Trên
 
 Giống như cấu trúc Stonewall, cấu trúc Stonewall x2 thêm rất nhiều entropy vào giao dịch và gây nhầm lẫn cho phân tích chuỗi. Nhìn từ bên ngoài, một giao dịch như vậy có thể được hiểu là một sự kết hợp nhỏ giữa hai người. Nhưng trên thực tế, đó là một khoản thanh toán. Do đó, phương pháp này tạo ra sự không chắc chắn trong phân tích chuỗi hoặc thậm chí dẫn đến những đầu mối sai.
 
-Hãy lấy ví dụ về Alice, Bob the Baker và Charles. Giao dịch trên blockchain sẽ trông như thế này:
+Hãy lấy ví dụ về Alice, Bob the baker và Charles. Giao dịch trên blockchain sẽ trông như thế này:
 
 ![BTC204](assets/vi/184.webp)
 
@@ -2790,7 +2790,7 @@ Tùy thuộc vào cách bạn định sử dụng phần của mình sau các ch
 
 ### Đạn nảy là gì?
 
-Ricochet là một kỹ thuật bao gồm việc thực hiện một số giao dịch giả định đối với chính mình (sweep) để mô phỏng việc chuyển giao quyền sở hữu bitcoin. Công cụ này khác với các cấu trúc giao dịch khác mà chúng ta đã thảo luận ở chỗ nó không đạt được tính ẩn danh tiềm năng mà là một dạng ẩn danh hồi tố. Trên thực tế, ricochet làm mờ đi các đặc điểm cụ thể có thể làm giảm khả năng thay thế của một đồng Bitcoin do quá khứ của nó.
+[Ricochet](https://planb.academy/resources/glossary/ricochet) là một kỹ thuật bao gồm việc thực hiện một số giao dịch giả định đối với chính mình (sweep) để mô phỏng việc chuyển giao quyền sở hữu bitcoin. Công cụ này khác với các cấu trúc giao dịch khác mà chúng ta đã thảo luận ở chỗ nó không đạt được tính ẩn danh tiềm năng mà là một dạng ẩn danh hồi tố. Trên thực tế, ricochet làm mờ đi các đặc điểm cụ thể có thể làm giảm khả năng thay thế của một đồng Bitcoin do quá khứ của nó.
 
 Để làm phẳng dấu ấn do sự kiện trong quá khứ để lại trên một đồng tiền, chẳng hạn như chu kỳ coinjoin, ricochet thực hiện bốn giao dịch liên tiếp trong đó người dùng chuyển tiền cho chính mình tại các địa chỉ khác nhau.
 
@@ -2869,13 +2869,13 @@ Tuy nhiên, phương pháp ngây thơ này có rủi ro cao về mặt lòng tin
 
 ![BTC204](assets/vi/201.webp)
 
-Hơn nữa, không có gì đảm bảo rằng Alice sẽ không nhận được khóa riêng $B$ của Bob và không bao giờ chuyển khóa riêng $A$ của cô ấy để đổi lại. Do đó, việc trao đổi này dựa trên sự tin tưởng quá mức giữa các bên và không hiệu quả trong việc đảm bảo chuyển giao quyền sở hữu bí mật an toàn.
+Hơn nữa, không có gì đảm bảo rằng Alice, sau khi nhận được khóa bí mật $B$ của Bob, sẽ gửi lại khóa bí mật $A$ của mình để trao đổi. Do đó, việc trao đổi này dựa trên sự tin tưởng rất lớn giữa các bên và tỏ ra không hiệu quả trong việc đảm bảo chuyển giao quyền sở hữu bí mật một cách an toàn.
 
 ![BTC204](assets/vi/202.webp)
 
 Để giải quyết những vấn đề này và cho phép trao đổi giữa các bên không tin tưởng lẫn nhau, chúng ta sẽ sử dụng hệ thống hợp đồng thông minh thay thế. Hợp đồng thông minh là một chương trình tự động thực hiện khi các điều kiện được xác định trước được đáp ứng. Trong trường hợp của chúng tôi, điều này đảm bảo rằng việc trao đổi tài sản diễn ra tự động, không cần sự tin tưởng lẫn nhau.
 
-Điều này có thể đạt được bằng cách sử dụng HTLC (*Hash Time-Locked Contracts*) hoặc PTLC (*Point Time-Locked Contracts*). Hai giao thức này hoạt động theo cách tương tự nhau, sử dụng hệ thống khóa thời gian đảm bảo rằng việc trao đổi được hoàn tất thành công hoặc bị hủy hoàn toàn, do đó bảo vệ tính toàn vẹn của tiền của cả hai bên. Sự khác biệt chính giữa HTLC và PTLC là HTLC sử dụng băm và tiền ảnh để bảo mật giao dịch, trong khi PTLC sử dụng chữ ký bộ điều hợp.
+Điều này có thể đạt được bằng cách sử dụng [HTLC](https://planb.academy/resources/glossary/htlc) (*Hash Time-Locked Contracts*) hoặc PTLC (*Point Time-Locked Contracts*). Hai giao thức này hoạt động theo cách tương tự nhau, sử dụng hệ thống khóa thời gian đảm bảo rằng việc trao đổi được hoàn tất thành công hoặc bị hủy hoàn toàn, do đó bảo vệ tính toàn vẹn của tiền của cả hai bên. Sự khác biệt chính giữa HTLC và PTLC là HTLC sử dụng băm và tiền ảnh để bảo mật giao dịch, trong khi PTLC sử dụng chữ ký bộ điều hợp.
 
 Trong kịch bản trao đổi tiền xu sử dụng HTLC hoặc PTLC giữa Alice và Bob, việc trao đổi diễn ra an toàn: hoặc là thành công và mỗi bên nhận được BTC của bên kia, hoặc là thất bại và mỗi bên giữ BTC của riêng mình. Điều này khiến cho không bên nào có thể gian lận hoặc đánh cắp BTC của bên kia.
 
@@ -2938,7 +2938,7 @@ Tương tự như coinswap và sử dụng cùng loại hợp đồng thông min
 
 ![BTC204](assets/vi/203.webp)
 
-Atomic swap và coinswap có chung một phương thức hoạt động và cung cấp những ưu điểm và nhược điểm giống nhau về mặt bảo mật. Thật vậy, theo quan điểm của Bitcoin, atomic swap có thể so sánh với coinswap được thực hiện theo hai giai đoạn. Đầu tiên, chúng ta đổi BTC của mình lấy một loại tiền điện tử khác, sau đó loại tiền điện tử này có thể được đổi lấy BTC khác. Cuối cùng, chúng ta khôi phục BTC của người dùng khác. Đây là lý do tại sao, khi phân tích các vấn đề về bảo mật, tôi nhóm hai giao thức này vào danh mục trao đổi bí mật độc quyền.
+[Atomic swap](https://planb.academy/resources/glossary/atomic-swap) và coinswap có chung một phương thức hoạt động và cung cấp những ưu điểm và nhược điểm giống nhau về mặt bảo mật. Thật vậy, theo quan điểm của Bitcoin, atomic swap có thể so sánh với coinswap được thực hiện theo hai giai đoạn. Đầu tiên, chúng ta đổi BTC của mình lấy một loại tiền điện tử khác, sau đó loại tiền điện tử này có thể được đổi lấy BTC khác. Cuối cùng, chúng ta khôi phục BTC của người dùng khác. Đây là lý do tại sao, khi phân tích các vấn đề về bảo mật, tôi nhóm hai giao thức này vào danh mục trao đổi bí mật độc quyền.
 
 ![BTC204](assets/vi/204.webp)
 
@@ -2981,7 +2981,7 @@ Trong Phần 4, chúng ta đã thảo luận về tầm quan trọng của việ
 
 ### Bồ công anh
 
-Một cách để tránh các cuộc tấn công hủy ẩn danh khác nhau là sử dụng đề xuất Dandelion. Giao thức phát sóng này đã được chính thức hóa trong BIP156, nhưng chưa bao giờ được triển khai trên Bitcoin.
+Một cách để tránh các cuộc tấn công hủy ẩn danh khác nhau là sử dụng đề xuất [Dandelion](https://planb.academy/resources/glossary/dandelion). Giao thức phát sóng này đã được chính thức hóa trong BIP156, nhưng chưa bao giờ được triển khai trên Bitcoin.
 
 Ý tưởng đằng sau Dandelion là cải thiện tính bảo mật của định tuyến giao dịch trong mạng Bitcoin để chống lại nhiều hình thức tấn công khác nhau. Mục tiêu chính của nó là ẩn nút nguồn ban đầu phát sóng giao dịch trên mạng. Việc tiết lộ nút này có thể giúp liên kết giao dịch Bitcoin với một địa chỉ IP cụ thể (nếu nút hoạt động trên clearnet), có thể cung cấp điểm vào để phân tích chuỗi.
 
@@ -3182,7 +3182,7 @@ Cụ thể hơn, để tạo khóa công khai nén và mã chuỗi liên kết v
 
 ### Trao đổi khóa Diffie-Hellman trên đường cong elliptic (ECDH)
 
-Giao thức mật mã cốt lõi của BIP47 được biết đến với tên viết tắt là ECDH, viết tắt của *Elliptic-Curve Diffie-Hellman*. Phương pháp này là một biến thể của trao đổi khóa Diffie-Hellman ban đầu.
+Giao thức mật mã cốt lõi của BIP47 được biết đến với tên viết tắt là [ECDH](https://planb.academy/resources/glossary/ecdh), viết tắt của *Elliptic-Curve Diffie-Hellman*. Phương pháp này là một biến thể của trao đổi khóa Diffie-Hellman ban đầu.
 
 Được giới thiệu vào năm 1976, Diffie-Hellman là một giao thức thỏa thuận khóa cho phép hai bên, mỗi bên được trang bị một cặp khóa (công khai và riêng tư), đồng ý về một bí mật chung, ngay cả khi chỉ liên lạc qua kênh công khai, không an toàn.
 

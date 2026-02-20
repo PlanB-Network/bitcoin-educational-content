@@ -94,8 +94,8 @@ För att bygga din SeedSigner behöver du följande komponenter:
 
 - Bostäder (frivilligt men rekommenderas)** (frivilligt men rekommenderas)** (frivilligt men rekommenderas)** (frivilligt men rekommenderas)** (frivilligt men rekommenderas)**)
     - Skyddar enheten och gör den enkel att använda.
-    - Den mest populära modellen är "*Orange Pill Case*", för vilken [STL-filer med öppen källkod finns tillgängliga för 3D-utskrift] (https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
-    - Boxar finns också tillgängliga från [oberoende återförsäljare som är kopplade till projektet] (https://seedsigner.com/hardware/).
+    - Den mest populära modellen är "*Orange Pill Case*", för vilken [STL-filer med öppen källkod finns tillgängliga för 3D-utskrift](https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
+    - Boxar finns också tillgängliga från [oberoende återförsäljare som är kopplade till projektet](https://seedsigner.com/hardware/).
 
 
 
@@ -119,7 +119,7 @@ När du har fått ihop din hårdvara måste du förbereda microSD-kortet genom a
 
 
 
-Gå till [projektets officiella GitHub-repository] (https://github.com/SeedSigner/seedsigner/releases). För den senaste versionen av programvaran, ladda ner :
+Gå till [projektets officiella GitHub-repository](https://github.com/SeedSigner/seedsigner/releases). För den senaste versionen av programvaran, ladda ner :
 
 
 
@@ -174,7 +174,7 @@ Om allt är korrekt ska utmatningen vara `God signatur`. Det betyder att filen `
 
 
 
-För att göra detta jämför du de sista 16 tecknen i det fingeravtryck som visas med de som finns på [Keybase.io/SeedSigner] (https://keybase.io/seedsigner), på deras [officiella Twitter] (https://twitter.com/SeedSigner/status/1530555252373704707) eller i filen som publicerats på [SeedSigner.com] (https://seedsigner.com/keybase.txt). Om dessa identifierare matchar exakt kan du vara säker på att nyckeln verkligen är projektets. Om du är osäker, sluta omedelbart och be SeedSigner-communityn (Telegram, X, GitHub ...) om hjälp.
+För att göra detta jämför du de sista 16 tecknen i det fingeravtryck som visas med de som finns på [Keybase.io/SeedSigner](https://keybase.io/seedsigner), på deras [officiella Twitter](https://twitter.com/SeedSigner/status/1530555252373704707) eller i filen som publicerats på [SeedSigner.com](https://seedsigner.com/keybase.txt). Om dessa identifierare matchar exakt kan du vara säker på att nyckeln verkligen är projektets. Om du är osäker, sluta omedelbart och be SeedSigner-communityn (Telegram, X, GitHub ...) om hjälp.
 
 
 
@@ -207,7 +207,7 @@ Det förväntade resultatet är ett "OK" bredvid filen "img". Detta bekräftar a
 
 
 
-På Windows är proceduren liknande men kommandona är annorlunda. Börja med att installera [Gpg4win] (https://www.gpg4win.org/) och öppna programmet *Kleopatra*. Importera den publika nyckeln för SeedSigner-projektet från URL Keybase :
+På Windows är proceduren liknande men kommandona är annorlunda. Börja med att installera [Gpg4win](https://www.gpg4win.org/) och öppna programmet *Kleopatra*. Importera den publika nyckeln för SeedSigner-projektet från URL Keybase :
 
 
 
@@ -239,7 +239,7 @@ Om allt är korrekt ska utmatningen vara `God signatur`. Det betyder att filen `
 
 
 
-För att göra detta jämför du de sista 16 tecknen i det fingeravtryck som visas med de som finns på [Keybase.io/SeedSigner] (https://keybase.io/seedsigner), på deras [officiella Twitter] (https://twitter.com/SeedSigner/status/1530555252373704707) eller i filen som publicerats på [SeedSigner.com] (https://seedsigner.com/keybase.txt). Om dessa identifierare matchar exakt kan du vara säker på att nyckeln verkligen är projektets. Om du är osäker, sluta omedelbart och be SeedSigner-communityn (Telegram, X, GitHub ...) om hjälp.
+För att göra detta jämför du de sista 16 tecknen i det fingeravtryck som visas med de som finns på [Keybase.io/SeedSigner](https://keybase.io/seedsigner), på deras [officiella Twitter](https://twitter.com/SeedSigner/status/1530555252373704707) eller i filen som publicerats på [SeedSigner.com](https://seedsigner.com/keybase.txt). Om dessa identifierare matchar exakt kan du vara säker på att nyckeln verkligen är projektets. Om du är osäker, sluta omedelbart och be SeedSigner-communityn (Telegram, X, GitHub ...) om hjälp.
 
 
 
@@ -289,7 +289,7 @@ En lyckad verifiering garanterar att din `.img`-fil är både autentisk (signera
 
 
 
-Om du inte redan har det, ladda ner programvaran [Balena Etcher] (https://etcher.balena.io/), sedan :
+Om du inte redan har det, ladda ner programvaran [Balena Etcher](https://etcher.balena.io/), sedan :
 
 
 
@@ -753,10 +753,10 @@ För att göra detta behöver du ett tomt papper eller en QR-kod i metall som mo
 
 
 
-- [12-ordsformat] (https://github.com/SeedSigner/seedsigner/blob/dev/docs/seed_qr/printable_templates/grid_25x25.pdf)
-- [24 ords format] (https://github.com/SeedSigner/seedsigner/blob/dev/docs/seed_qr/printable_templates/grid_29x29.pdf)
-- [Kompakt format 12 ord] (https://github.com/SeedSigner/seedsigner/blob/dev/docs/seed_qr/printable_templates/grid_21x21.pdf)
-- [Kompakt format 24 ord] (https://github.com/SeedSigner/seedsigner/blob/dev/docs/seed_qr/printable_templates/grid_25x25.pdf)
+- [12-ordsformat](https://github.com/SeedSigner/seedsigner/blob/dev/docs/seed_qr/printable_templates/grid_25x25.pdf)
+- [24 ords format](https://github.com/SeedSigner/seedsigner/blob/dev/docs/seed_qr/printable_templates/grid_29x29.pdf)
+- [Kompakt format 12 ord](https://github.com/SeedSigner/seedsigner/blob/dev/docs/seed_qr/printable_templates/grid_21x21.pdf)
+- [Kompakt format 24 ord](https://github.com/SeedSigner/seedsigner/blob/dev/docs/seed_qr/printable_templates/grid_25x25.pdf)
 
 
 
@@ -1239,4 +1239,4 @@ https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1
 
 
 
-*Några av bilderna i den här handledningen kommer från [SeedSigner-projektets officiella webbplats] (https://seedsigner.com/) och [GitHub-arkivet] (https://github.com/SeedSigner/seedsigner).*
+*Några av bilderna i den här handledningen kommer från [SeedSigner-projektets officiella webbplats](https://seedsigner.com/) och [GitHub-arkivet](https://github.com/SeedSigner/seedsigner).*

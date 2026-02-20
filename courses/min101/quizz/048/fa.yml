@@ -1,0 +1,9 @@
+question: اولین استخر استخراج بیت‌کوین کدام است؟
+answer: Braiins Pool
+wrong_answers:
+  - Foundry USA
+  - AntPool
+  - F2Pool
+explanation: |
+  استخر Braiins Pool که قبلاً با نام Slush Pool و Bitcoin CZ شناخته می‌شد، اولین استخر استخراج بیت‌کوین است که در سال ۲۰۱۰ ایجاد شد.
+reviewed: false

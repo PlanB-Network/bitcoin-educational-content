@@ -1,0 +1,10 @@
+question: 2012 年 1 月 6 日，為了 「保護 」Bitcoin 生態系統，Luke-Jr 對加密貨幣 Coiledcoin 採取了什麼具爭議性的行動？
+answer: 他使用 Eligius mining 池對 Coiledcoin 進行審查攻擊
+wrong_answers:
+  - 他向 GitHub 提交了一份針對 Coinledcoin 侵犯版權的 DMCA 移除通知
+  - 他編輯了 Coiledcoin 維基百科頁面，公開稱其為金字塔計劃
+  - 由於 OP_RETURN 的緣故，他在 Coiledcoin 區塊鏈上發佈了群發消息
+explanation: |
+ 這種審查攻擊（空區塊的 mining）是由於結合了 mining 與 Bitcoin，他在他的 mining 池中實施了這種攻擊。他以
+ 他的理由是沒有任何 Eligius 礦工受到傷害。Luke-Jr 確實向 GitHub 提交了一份 DMCA 移除通知，但針對的是 SolidCoin。
+reviewed: true

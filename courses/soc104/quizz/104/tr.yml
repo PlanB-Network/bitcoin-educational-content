@@ -1,0 +1,9 @@
+question: Liberteryen felsefeye göre, devlet parası (fiat) ile Bitcoin gibi piyasa parası arasındaki temel fark nedir?
+answer: Devlet parası zorlayıcı ve merkezidir, piyasa parası ise gönüllü olarak ortaya çıkar ve uzun vadeli değerini korur
+wrong_answers:
+  - Devlet parası daha istikrarlı ve düzenlidir, piyasa parası ise değişken ve öngörülemezdir
+  - Devlet parası sosyal refah hedeflerine hizmet ederken, piyasa parası sadece zengin yatırımcılara fayda sağlar
+  - Piyasa parası anonim geliştiriciler tarafından kontrol edilirken, devlet parası demokratik ve hesap verebilirdir
+explanation: |
+  Bu bölüm, değer kaybetme eğiliminde olan zorlayıcı, merkezi bir sistem olarak devlet parası (fiat) ile gönüllü, kendiliğinden ortaya çıkan ve uzun vadede değerini koruyan Bitcoin gibi piyasa parası arasında net bir ayrım yapmaktadır.
+  Bu, zorlayıcı sistemlere karşı gönüllü sistemlerin daha geniş özgürlükçü ilkesini yansıtmaktadır. Yanlış cevaplar, gönüllü ve zorlayıcı parasal sistemler arasındaki felsefi ayrımdan ziyade geleneksel ekonomik argümanlara odaklanarak özgürlükçü eleştiriyi yanlış temsil etmektedir.

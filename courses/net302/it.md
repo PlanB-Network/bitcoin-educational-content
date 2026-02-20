@@ -90,8 +90,6 @@ Siete pronti a tuffarvi nel mondo delle reti informatiche? Andiamo!
 **NOTA**: Le descrizioni sono basate su un sistema GNU/Linux CentOS 7. Tuttavia, le configurazioni di rete sono in gran parte le stesse quando si confronta un sistema Debian con uno CentOS. Pertanto, non faremo alcuna distinzione. Quando c'è una distinzione, la prefissiamo con un logo specifico.
 
 
-**N.B.**: Se durante il corso si incontrano termini non familiari, si prega di consultare [il glossario](https://planb.academy/resources/glossary) per le definizioni.
-
 
 
 # Protocolli TCP/IP
@@ -306,18 +304,19 @@ Il primo campo dell'intestazione si chiama Versione. Questo valore di 4 bit spec
 
 
 
-| Version Number | Protocol   | Version Description         | Reference               |
+
+| Numero di versione | Protocollo | Descrizione della versione | Riferimento |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+| 0–1 | Riservato | Riservato | |
+| 2–3 | Non assegnato | Non assegnato | |
+| 4 | IP | Protocollo Internet | RFC 791 |
+| **5** | **ST** | **Modalità datagramma ST** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | Protocollo Internet versione 6 | RFC 8200 |
+| 7 | TP/IX | Il prossimo Internet | RFC 1475 |
+| 8 | PIP | Il protocollo Internet P | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | Non assegnato | Non assegnato | |
+| 15 | Riservato | Riservato | |
 
 Tra questi c'è l'IPv5 che, sebbene sia in gran parte sconosciuto al pubblico, esisteva come ST (_Stream Protocol_). Sviluppato negli anni '80, l'IPv5 è stato progettato per rispondere a un'esigenza sempre più sentita all'epoca: fornire "qualità del servizio" (QoS) a determinati flussi di dati che richiedevano una trasmissione continua e stabile, come il Voice over IP o i flussi multimediali. L'obiettivo era quello di garantire la larghezza di banda e la priorità end-to-end, un concetto simile a quello che oggi offre l'RSVP (_Resource Reservation Protocol_) per riservare dinamicamente le risorse di rete sui router moderni.
 
@@ -485,14 +484,15 @@ Storicamente, il sistema IPv4 si basava su uno schema basato su classi, etichett
 
 
 
-| **Class** | **IPv4 Address Range**            | **Usage**                    |
+
+| **Classe** | **Intervallo di indirizzi IPv4** | **Utilizzo**                |
 | --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x to 126.x.x.x              | Unicast addresses            |
-|           | (127.x.x.x reserved for loopback) | Local loopback               |
-| B         | 128.0.x.x to 191.255.x.x          | Unicast addresses            |
-| C         | 192.0.0.x to 223.255.255.x        | Unicast addresses            |
-| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 to 255.255.255.255      | Reserved for experimentation |
+| A         | 1.x.x.x a 126.x.x.x               | Indirizzi unicast            |
+|           | (127.x.x.x riservato al loopback) | Loopback locale              |
+| B         | 128.0.x.x a 191.255.x.x           | Indirizzi unicast            |
+| C         | 192.0.0.x a 223.255.255.x         | Indirizzi unicast            |
+| D         | 224.0.0.0 a 239.255.255.255       | IP Multicast                 |
+| E         | 240.0.0.0 a 255.255.255.255       | Riservato per sperimentazione |
 
 Non tutti i valori possibili possono essere assegnati agli host. Ad esempio, in una **classe C** Address, l'ultimo byte offre 8 bit (256 valori). Ma due di questi sono riservati:
 
@@ -573,13 +573,14 @@ Vogliamo 4 sottoreti con un massimo di 60 host ciascuna.
 
 
 
-| Subnet ID (bits) | Subnet Address   | Subnet Mask     | Address Range                 | Broadcast Address |
+
+
+| ID subnet (bit) | Indirizzo subnet | Maschera subnet | Intervallo di indirizzi    | Indirizzo broadcast |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
 | 10               | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191     |
 | 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
-
 
 **Fase 5**: In questo modo si creano quattro sottoreti, ognuna delle quali supporta fino a 62 macchine, mantenendo efficiente lo schema di indirizzamento complessivo. La parte _hostid_ è divisa in una parte _subnetid_ e una parte host.
 
@@ -623,7 +624,9 @@ Un blocco /17 contiene 2^(32-17) indirizzi, quindi 2^15 = 32.768 indirizzi total
 Per facilitare la comprensione del dimensionamento CIDR, ecco una tabella dei prefissi più comuni e delle relative maschere di sottorete e indirizzi utilizzabili equivalenti:
 
 
-| CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
+
+
+| Prefisso CIDR | Bit host disponibili | Maschera di sottorete | Indirizzi host utilizzabili |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -635,9 +638,8 @@ Per facilitare la comprensione del dimensionamento CIDR, ecco una tabella dei pr
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (solo punto-punto)   |
+| /32         | 0                   | 255.255.255.255 | 1 (solo indirizzo host)      |
 
 **NOTA**: Storicamente, l'RFC 950 scoraggiava l'uso della subnet zero, principalmente per evitare confusione nell'instradamento.  Questa restrizione è diventata obsoleta con la RFC 1878, che ne consente pienamente l'uso. La vecchia limitazione era dovuta principalmente all'incompatibilità con l'hardware più vecchio che non poteva gestire correttamente il CIDR. Le apparecchiature moderne non hanno questo problema.
 
@@ -819,12 +821,13 @@ L'architettura a strati segue il principio secondo cui ogni Layer elabora solo l
 La tabella seguente riassume i termini dei contesti TCP e UDP:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| Livello TCP/IP       | Nome unità (TCP) | Nome unità (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| Livello applicazione | Flusso           | Messaggio        |
+| Livello di trasporto | Segmento         | Pacchetto        |
+| Livello Internet     | Datagramma       | Datagramma       |
+| Livello di accesso alla rete | Frame    | Frame            |
 
 ### Primitive di servizio e unità di dati
 
@@ -907,7 +910,8 @@ La tabella seguente illustra questa corrispondenza:
 
 
 
-| Binary Code | Activated Bit Values          | Decimal Value |
+
+| Codice binario | Valori dei bit attivati     | Valore decimale |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -922,7 +926,8 @@ La tabella seguente illustra questa corrispondenza:
 Per convertire il binario in decimale, sommare i pesi dei bit impostati a 1.
 
 
-| Binary     | Decimal Value |
+
+| Binario    | Valore decimale |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |
@@ -961,13 +966,14 @@ Originariamente, le reti IPv4 erano suddivise in cinque **classi**: (A, B, C, D 
 
 
 
-| Class | Leading Bits | First Byte Range | Default Subnet Mask | Purpose                          |
+
+| Classe | Bit iniziali | Intervallo del primo byte | Maschera di sottorete predefinita | Scopo                          |
 | ----- | ------------ | ---------------- | ------------------- | -------------------------------- |
-| A     | 0            | 0 – 127          | 255.0.0.0           | Very large networks              |
-| B     | 10           | 128 – 191        | 255.255.0.0         | Medium-sized networks            |
-| C     | 110          | 192 – 223        | 255.255.255.0       | Small networks                   |
-| D     | 1110         | 224 – 239        | N/A                 | Multicast addresses              |
-| E     | 1111         | 240 – 255        | N/A                 | Experimental (not publicly used) |
+| A     | 0            | 0 – 127          | 255.0.0.0           | Reti molto grandi                |
+| B     | 10           | 128 – 191        | 255.255.0.0         | Reti di medie dimensioni         |
+| C     | 110          | 192 – 223        | 255.255.255.0       | Reti piccole                     |
+| D     | 1110         | 224 – 239        | N/A                 | Indirizzi multicast              |
+| E     | 1111         | 240 – 255        | N/A                 | Sperimentale (non usato pubblicamente) |
 
 Indirizzi speciali:
 
@@ -1222,7 +1228,8 @@ La tabella di routing, gestita manualmente (routing statico) o dinamicamente (ro
 La tabella di routing funge da tabella di mappatura tra gli indirizzi IP di destinazione e i gateway successivi. Di solito memorizza gli identificatori di rete (_network ID_) anziché ogni singolo host Address, riducendo così notevolmente le sue dimensioni.
 
 
-| Destination Address | Next-Hop Router Address | Interface |
+
+| Indirizzo di destinazione | Indirizzo del router di next-hop | Interfaccia |
 | ------------------- | ----------------------- | --------- |
 
 Grazie a queste voci, il router può determinare rapidamente attraverso quale Interface e a quale nodo deve essere inviato ogni datagramma. In combinazione con ARP per la risoluzione degli indirizzi MAC corrispondenti, questo assicura un trasferimento efficiente e affidabile dei dati attraverso la rete.
@@ -1298,10 +1305,11 @@ Questo principio di traduzione dinamica si basa su una gestione precisa della ta
 esempio di tabella di traduzione NAT semplificata
 
 
-| Internal IP   | External IP    | Duration (sec) | Reusable? |
+
+| IP interno | IP esterno | Durata (sec) | Riutilizzabile? |
 | ------------- | -------------- | -------------- | --------- |
 | 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | yes       |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | sì        |
 | 10.100.0.89   | 193.48.100.46  | 0              | no        |
 
 In questo esempio, se per la seconda voce non è transitato alcun pacchetto in oltre un'ora (3.600 secondi), essa viene contrassegnata come riutilizzabile. Al contrario, una durata pari a zero indica una comunicazione attiva, con la mappatura bloccata.
@@ -1766,13 +1774,14 @@ Un Address IPv6 non specificato è rappresentato da `::` o, più esplicitamente,
 
 
 
-| IPv6 Address Prefix | Description                                 |
+
+| Prefisso indirizzo IPv6 | Descrizione                       |
 | ------------------- | ------------------------------------------- |
-|::/8                | Reserved addresses                          |
-| 2000::/3            | Unicast addresses, routable on the Internet |
-| fc00::/7            | Unique local addresses (1)                  |
-| fe80::/10           | Link-local addresses                        |
-| ff00::/8            | Multicast addresses                         |
+|::/8                | Indirizzi riservati                         |
+| 2000::/3            | Indirizzi unicast, instradabili su Internet |
+| fc00::/7            | Indirizzi locali univoci (1)                |
+| fe80::/10           | Indirizzi link-local                        |
+| ff00::/8            | Indirizzi multicast                         |
 
 (1): *In una LAN privata, il prefisso `fd00::/8` è preferibile per l'assegnazione di indirizzi interni che non sono instradabili su Internet.*
 
@@ -1854,24 +1863,28 @@ Infine, gli indirizzi locali unici (_ULA_, per _Unique Local Addresses_) sono in
 Concettualmente, gli indirizzi IPv6 sono spesso rappresentati come una struttura binaria in cui la prima metà (i primi 64 bit) identifica il prefisso di rete e la seconda metà (anch'essa di 64 bit) identifica in modo univoco il Interface del dispositivo su quella rete. Questa suddivisione facilita l'autoconfigurazione Address attraverso meccanismi come SLAAC (_Stateless Address Autoconfiguration_), che consentono alle macchine di assegnare automaticamente generate un Address stabile basato sul MAC Address o su un identificatore pseudo-casuale.
 
 
-| Field     | Prefix | L | Global ID | Subnet | Interface ID |
+
+| Campo     | Prefisso | L | ID globale | Sottorete | ID interfaccia |
 |-----------|--------|---|-----------|--------|---------------|
-| Bits      | 7      | 1 | 40        | 16     | 64            |
+| Bit       | 7      | 1 | 40        | 16     | 64            |
 
 L'architettura IPv6 segue il modello di routing globale gerarchico dell'attuale Internet. Il partizionamento dei prefissi consente ai registri regionali e agli operatori di rete di gestire l'assegnazione dei Address in modo decentralizzato, garantendo al contempo l'unicità globale. In questo contesto, lo stesso host può possedere contemporaneamente un Address unicast globale per le comunicazioni Internet e un Address link-local per le interazioni locali, ad esempio con il vicinato immediato o per i messaggi di scoperta dei router.
 
 
-| Field     | Prefix | Zero | Interface ID |
+
+
+| Campo     | Prefisso | Zero | ID interfaccia |
 |-----------|--------|------|--------------|
-| Bits      | 10     | 54   | 64           |
+| Bit       | 10     | 54   | 64           |
 
 **Gli indirizzi anycast** rappresentano un concetto intermedio che si basa sul modello unicast ma che in alcuni casi può comportarsi come il multicast. Un Address anycast è, in sostanza, un Address unicast assegnato a più interfacce distribuite su diversi nodi di rete. Quando un pacchetto viene inviato a un Address anycast, il protocollo IPv6 mira a consegnarlo a uno degli host che condividono quel Address, in genere quello più vicino in termini di topologia di routing. Questo approccio ottimizza la velocità di elaborazione delle query e migliora la resilienza dei servizi distribuiti. Un esempio classico sono i server DNS root, dove l'indirizzamento anycast indirizza automaticamente le query al punto di presenza più vicino.
 
 
 
-| Field     | Prefix | Subnet | Interface ID |
-|-----------|--------|--------|--------------|
-| Bits      | 48     | 16     | 64           |
+
+| Campo     | Prefisso | Subnet | ID interfaccia |
+|-----------|--------|--------|______________|
+| Bit      | 48     | 16     | 64           |
 
 Nell'IPv6, gli **indirizzi multicast** sostituiscono il meccanismo di broadcast, considerato troppo costoso e inadatto a una rete su scala globale. Un Address multicast identifica un gruppo di interfacce, in genere tra più host, che desiderano ricevere gli stessi pacchetti contemporaneamente.
 
@@ -1893,9 +1906,10 @@ La struttura di un Address multicast IPv6 comprende:
 - un campo di identificazione (112 bit) che identifica il numero del gruppo multicast.
 
 
-| Field      | Prefix | Flags | Scope | Group ID |
+
+| Campo      | Prefisso | Flag | Ambito | ID gruppo |
 |------------|--------|--------|--------|----------|
-| Bits       | 8      | 4      | 4      | 112      |
+| Bit       | 8      | 4      | 4      | 112      |
 
 Un noto esempio di multicast IPv6 in azione è il _Neighbor Discovery Protocol_ (NDP). Invece di usare ARP come in IPv4, NDP si basa su indirizzi multicast come `ff02::1:ff00:0/104` per trasmettere richieste di neighbor discovery, indirizzate solo agli host rilevanti sullo stesso link.
 
@@ -2013,8 +2027,9 @@ Dal 2006, ogni RIR riceve dalla IANA un blocco IPv6 /12, una dimensione fissa pe
 La gerarchia di allocazione tipica è la seguente:
 
 
-| IANA | RIR | LIR | Customer | Subnet | Interface |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Cliente | Subnet | Interfaccia |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Con questa abbondanza di indirizzi, il NAT (*Network Address Translation*), un tempo essenziale in IPv4 per far fronte alla carenza di Address, non è più necessario. Ogni host può avere un Address pubblico unico e instradabile a livello globale, semplificando la connettività end-to-end e rendendo più facile l'uso di protocolli come IPSec, VoIP o connessioni in entrata.

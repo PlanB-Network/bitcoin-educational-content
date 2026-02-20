@@ -1,5 +1,6 @@
 ---
-term: Bitcoin.CONF
+term: bitcoin.conf
+definition: Bitcoin Core 노드 매개변수를 사용자 정의할 수 있게 해주는 설정 파일.
 ---
 
 Bitcoin core 클라이언트를 실행하는 Bitcoin 노드의 작동을 사용자 지정하는 데 사용되는 구성 파일입니다. Bitcoin core 데이터 디렉토리에 있는 이 텍스트 파일을 통해 노드 운영자는 노드의 동작에 영향을 미치는 다양한 파라미터와 옵션을 정의할 수 있습니다.

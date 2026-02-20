@@ -1,0 +1,8 @@
+question: Jaká je hlavní funkce aplikace Clippy ve vývojovém ekosystému Rust?
+answer: Pokročilý linter, který analyzuje kód a navrhuje vylepšení pro lepší idiomy Rust
+wrong_answers:
+  - Správce balíčků, který se stará o řešení závislostí a sestavování projektů
+  - Nástroj pro překladač, který transformuje zdrojový kód Rust na spustitelné binární soubory
+  - Generátor dokumentace, který automaticky vytváří referenční materiály API
+explanation: |
+  Clippy je pokročilý liner, který jde nad rámec základní kontroly syntaxe, analyzuje kód Rust a poskytuje návrhy na vylepšení. Na rozdíl od jednoduchých kontrolorů syntaxe rozumí Clippy idiomům jazyka Rust a dokáže doporučit efektivnější nebo idiomatičtější způsoby provádění konkrétních úloh. Ostatní možnosti popisují různé nástroje: Cargo je správce balíčků, který se stará o závislosti a sestavení, rustc je kompilátor, který převádí zdrojový kód na spustitelné soubory, a rustdoc je generátor dokumentace. Clippy se konkrétně zaměřuje na analýzu kvality kódu a pomáhá vývojářům psát lepší a lépe udržovatelný kód Rust tím, že navrhuje osvědčené postupy.

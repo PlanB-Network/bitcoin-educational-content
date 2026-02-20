@@ -1,6 +1,7 @@
 ---
-term: NORMA DE TRANSACCIÓN
+term: Transacción estándar
 
+definition: Transacción que respeta tanto las reglas de consenso como las reglas de estandarización predeterminadas de los nodos Bitcoin Core.
 ---
 Una transacción Bitcoin que, además de adherirse a las reglas de consenso, también entra dentro de las reglas de estandarización establecidas por defecto en los nodos Bitcoin Core. Estas reglas de estandarización son impuestas individualmente por cada nodo Bitcoin, además de las reglas de consenso, para definir la estructura de las transacciones no confirmadas que acepta en su mempool y difunde a sus pares.
 

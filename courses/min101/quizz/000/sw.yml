@@ -1,0 +1,9 @@
+question: Katika muamala wa Bitcoin, pembejeo (inputs) hutumia nini?
+answer: UTXO zilizopo
+wrong_answers:
+  - Pato (outputs) la baadaye
+  - Bloku zilizopo
+  - Anwani za baadaye
+explanation: |
+  Input hurejelea pato ambalo halijatumiwa kutoka kwa muamala uliopita, ambalo huitwa UTXO.
+reviewed: false

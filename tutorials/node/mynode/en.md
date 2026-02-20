@@ -3,7 +3,7 @@ name: My Node
 description: Set up your bitcoin MyNode
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 [My Node](https://mynodebtc.com/) is the easiest, most powerful way to run a Bitcoin and Lightning node! We combine the best open source software with our interface, management, and support so you can easily, privately, and securely use Bitcoin and Lightning.
 

@@ -1,0 +1,8 @@
+question: Koliko često Rust objavljuje novu stabilnu verziju prema njihovom rasporedu objavljivanja?
+answer: Otprilike svakih šest nedelja
+wrong_answers:
+  - Otprilike svakih tri meseca
+  - Otprilike svake dve nedelje
+  - Otprilike svakih četiri meseca
+explanation: |
+  Rust prati predvidljiv raspored izdavanja sa novim stabilnim verzijama koje izlaze otprilike svakih šest nedelja. Ovaj čest ciklus izdavanja osigurava da nove funkcije i poboljšanja redovno stižu do korisnika, uz održavanje stabilnosti. Ostali vremenski okviri su netačni - tri meseca i četiri meseca bi bili mnogo sporiji od stvarnog tempa Rust, dok bi dve nedelje bile nerealno brze za stabilna izdanja koja zahtevaju temeljno testiranje.

@@ -7,11 +7,11 @@ description: Utforsk hovedlaget i Bitcoin og Liquid Network
 
 
 
-Blockstream Explorer er et prosjekt som gjør det lettere å utforske transaksjoner og den globale tilstanden til Bitcoin-protokollen, samt [*sidekjeden*] (https://planb.academy/en/resources/glossary/sidechain) Liquid utviklet av Blockstream-selskapet.
+Blockstream Explorer er et prosjekt som gjør det lettere å utforske transaksjoner og den globale tilstanden til Bitcoin-protokollen, samt [*sidekjeden*](https://planb.academy/en/resources/glossary/sidechain) Liquid utviklet av Blockstream-selskapet.
 
 
 
-Utforskeren [blockstream.info] (https://blockstream.info) ble startet i 2014 av Blockstream, et selskap grunnlagt av Adam Back, og har som mål å tilby en robust infrastruktur for Bitcoin, som garanterer interoperabilitet og transaksjonssporing mellom lagene (on-chain og Liquid), samtidig som brukernes sikkerhet og personvern forbedres.
+Utforskeren [blockstream.info](https://blockstream.info) ble startet i 2014 av Blockstream, et selskap grunnlagt av Adam Back, og har som mål å tilby en robust infrastruktur for Bitcoin, som garanterer interoperabilitet og transaksjonssporing mellom lagene (on-chain og Liquid), samtidig som brukernes sikkerhet og personvern forbedres.
 
 
 
@@ -91,7 +91,7 @@ Under denne detaljseksjonen finner vi alle transaksjonene som er inkludert i den
 
 
 
-Den aller første transaksjonen i blokken kalles **transaction coinbase**. Den brukes til å tildele utvinnerens mining-belønning (alle avgifter knyttet til transaksjonene som inngår i blokken og blokktilskuddet). Bitcoinsene som skapes av denne transaksjonen, kan bare brukes når ytterligere 100 påfølgende blokker har blitt utvunnet. Med andre ord, for å kunne bruke dem, må utvinneren vente på produksjonen av blokk **919430**. Dette er kjent som [*"forfallsperioden"*] (https://planb.academy/fr/resources/glossary/maturity-period).
+Den aller første transaksjonen i blokken kalles **transaction coinbase**. Den brukes til å tildele utvinnerens mining-belønning (alle avgifter knyttet til transaksjonene som inngår i blokken og blokktilskuddet). Bitcoinsene som skapes av denne transaksjonen, kan bare brukes når ytterligere 100 påfølgende blokker har blitt utvunnet. Med andre ord, for å kunne bruke dem, må utvinneren vente på produksjonen av blokk **919430**. Dette er kjent som [*"forfallsperioden"*](https://planb.academy/fr/resources/glossary/maturity-period).
 
 
 
@@ -142,7 +142,7 @@ Fra denne siden kan du finne ut hvilken blokk transaksjonen var inkludert i. Avh
 
 
 
-Liquid Network er en [*sidekjede*] (https://planb.academy/en/resources/glossary/sidechain) og en åpen kildekodeløsning på nivå 2 for Bitcoin-protokollen. Den muliggjør raskere og mer konfidensielle bitcoin-transaksjoner.
+Liquid Network er en [*sidekjede*](https://planb.academy/en/resources/glossary/sidechain) og en åpen kildekodeløsning på nivå 2 for Bitcoin-protokollen. Den muliggjør raskere og mer konfidensielle bitcoin-transaksjoner.
 
 
 

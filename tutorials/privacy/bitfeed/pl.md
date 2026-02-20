@@ -11,7 +11,7 @@ Bitfeed to platforma do wizualizacji warstwy onchain protokołu Bitcoin. Został
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 W tym samouczku przyjrzymy się temu narzędziu, które pozwala przeglądać wszystkie transakcje i bloki w sieci.
 
@@ -95,7 +95,7 @@ Pierwsza transakcja tego bloku reprezentuje transakcję **coinbase**, która umo
 
 
 
-https://planb.academy/courses/obtenir-ses-premiers-bitcoins-f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 Domyślnie transakcje w bloku są reprezentowane według dwóch kryteriów:
 

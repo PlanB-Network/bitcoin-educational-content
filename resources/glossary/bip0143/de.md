@@ -1,6 +1,7 @@
 ---
 term: BIP0143
 
+definition: Neuer Hashing-Algorithmus für SegWit-Signaturen, der das quadratische Wachstum löst und den Wert der Inputs einbezieht.
 ---
 Führt eine neue Methode zum Hashing der Transaktion für die Signaturprüfung in Post-SegWit-Skripten ein. Ziel ist es, redundante Operationen während der Überprüfung zu minimieren und den Wert der UTXOs in der Eingabe in die Signatur aufzunehmen. Damit werden zwei wesentliche Probleme des ursprünglichen Transaktions-Hashing-Algorithmus gelöst:
 

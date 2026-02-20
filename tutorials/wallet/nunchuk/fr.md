@@ -13,7 +13,7 @@ Nunchuk est apparu fin 2020 avec une philosophie claire : faire de la multi-sign
 
 
 
-Après plus de 4 ans de développement et d’utilisation, il est prêt à être testé à grande échelle. Si vous êtes débutant et que vous ne connaissez pas Nunchuk, ce guide vous aidera à faire vos premiers pas et à découvrir ce logiciel, dont vous pourrez ensuite approfondir les fonctions avancées après avoir surmonté la première impression. Le tutoriel lui-même s’adresse aux utilisateurs intermédiaires disposant des compétences nécessaires pour suivre toutes les étapes, mais il peut aussi être une source d’inspiration pour quiconque souhaite développer ses connaissances. Nous commencerons avec la version mobile, et cette précision est nécessaire puisque Nunchuk dispose également d’un logiciel pour ordinateurs.
+Après plus de 4 ans de développement et d’utilisation, il est prêt à être testé à grande échelle. Si vous êtes débutant et que vous ne connaissez pas Nunchuk, ce guide vous aidera à faire vos premiers pas et à découvrir ce logiciel, dont vous pourrez ensuite approfondir les fonctions avancées après avoir surmonté la première impression. Le tutoriel lui-même s’adresse aux utilisateurs intermédiaires disposant des compétences nécessaires pour suivre toutes les étapes, mais il peut aussi être une source d’inspiration pour quiconque souhaitant développer ses connaissances. Nous commencerons avec la version mobile, et cette précision est nécessaire puisque Nunchuk dispose également d’un logiciel pour ordinateurs.
 
 
 
@@ -24,7 +24,7 @@ La première étape consiste évidemment à choisir où télécharger l’applic
 
 
 
-📌 Pour ce tutoriel, j’ai choisi de vous montrer comment télécharger le portefeuille logiciel depuis le dépôt Github et comment vérifier la publication avant de l’installer sur votre téléphone. **La procédure suivante ne peut être réalisée que depuis un ordinateur**, je vous recommande donc d’effectuer toutes ces étapes sur votre poste fixe ou portable et – après toutes les vérifications – de transférer le fichier `.apk` sur votre téléphone.
+📌 Pour ce tutoriel, j’ai choisi de vous montrer comment télécharger le portefeuille logiciel depuis le dépôt Github et comment vérifier la publication avant de l’installer sur votre téléphone. **La procédure suivante ne peut être réalisée que depuis un ordinateur**, je vous recommande donc d’effectuer toutes ces étapes sur votre poste fixe ou portable et, après toutes les vérifications, de transférer le fichier `.apk` sur votre téléphone.
 
 
 
@@ -92,7 +92,7 @@ Dans la fenêtre qui s’ouvre, vous trouverez des champs à « remplir » : cli
 
 
 
-**N.B. La capture d’écran provient d’un PC sous Windows, mais la même pratique peut être appliquée sur tout système d’exploitation, à condition d’avoir installé – et vérifié – le portefeuille Sparrow.**
+**N.B. La capture d’écran provient d’un PC sous Windows, mais la même pratique peut être appliquée sur tout système d’exploitation, à condition d’avoir installé, et vérifié, le portefeuille Sparrow.**
 
 
 
@@ -126,7 +126,7 @@ Avant de lancer Nunchuk sur votre téléphone, ouvrez Orbot et ajoutez la nouvel
 
 
 
-Lancez maintenant Nunchuk. En raison des caractéristiques du projet – qui ne sont pas l’objet de ce tutoriel –, Nunchuk, une fois ouvert, vous invitera à vous connecter via une adresse e-mail ou un profil Google. Tant que vous n’avez pas prévu de profiter des offres avancées de Nunchuk Inc., **évitez de vous connecter** et continuez en choisissant l’option _Continue as guest_.
+Lancez maintenant Nunchuk. En raison des caractéristiques du projet, qui ne sont pas l’objet de ce tutoriel, Nunchuk, une fois ouvert, vous invitera à vous connecter via une adresse e-mail ou un profil Google. Tant que vous n’avez pas prévu de profiter des offres avancées de Nunchuk Inc., **évitez de vous connecter** et continuez en choisissant l’option _Continue as guest_.
 
 
 
@@ -674,7 +674,7 @@ ou encore affichez tous vos portefeuilles dans le _Home_ de l’application.
 ## À garder à l’esprit pour continuer de façon autonome
 
 
-De la même manière qu’il existe un ordre pour la création — d’abord générer les clés, puis créer le portefeuille —, il faut respecter l’ordre inverse lors de la suppression de ces éléments dans l’application.
+De la même manière qu’il existe un ordre pour la création, d’abord générer les clés, puis créer le portefeuille, il faut respecter l’ordre inverse lors de la suppression de ces éléments dans l’application.
 
 
 

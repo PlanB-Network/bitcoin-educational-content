@@ -172,7 +172,7 @@ Noterai subito le aree colorate di arancione. Come puoi vedere, si tratta delle 
 
 ## Aggiungi community
 
-BTC Map consente di [aggiungere la propria community] (https://btcmap.org/communities/add/). Vediamo come farlo, passo dopo passo:
+BTC Map consente di [aggiungere la propria community](https://btcmap.org/communities/add/). Vediamo come farlo, passo dopo passo:
 
 ![image](assets/fr/10.webp)
 

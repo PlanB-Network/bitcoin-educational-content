@@ -1,0 +1,8 @@
+question: Pourquoi les entrepreneurs interprètent-ils incorrectement les signaux économiques lorsque les banques centrales maintiennent des taux directeurs artificiellement bas?
+answer: Ils croient à tort qu'une épargne réelle importante est disponible pour financer la consommation future, alors que la consommation reste élevée
+wrong_answers:
+  - Ils sous-estiment la demande des consommateurs et investissent insuffisamment dans les secteurs de production à court terme
+  - "Ils surestiment les risques d'inflation future et reportent leurs investissements vers des projets moins rentables mais plus sûrs"
+  - "Ils anticipent une hausse prochaine des taux d'intérêt et accélèrent leurs emprunts pour des projets à faible valeur ajoutée"
+explanation: |
+  Selon la théorie autrichienne, les taux bas créent une illusion de disponibilité du capital qui suggère une épargne importante destinée à la consommation future. En réalité, cette épargne n'existe pas et la consommation reste élevée. Les entrepreneurs, trompés par ce faux signal, s'engagent dans des détours de production inadaptés aux véritables préférences temporelles des consommateurs, créant les conditions d'un faux boom économique.

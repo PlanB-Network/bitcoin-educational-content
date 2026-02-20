@@ -1,6 +1,7 @@
 ---
-term: NEWYORSKÁ DOHODA (NYA)
+term: New York agreement (nya)
 
+definition: Setkání v roce 2017, které navrhlo SegWit2x, nakonec opuštěné pro nedostatek konsensu.
 ---
 Neveřejné setkání, které se konalo v roce 2017 a na kterém se sešlo více než 50 společností z bitcoinového ekosystému v návaznosti na konferenci Consensus 2017. Cílem tohoto setkání bylo ukončit dlouhotrvající debatu o škálování Bitcoinu dosažením dohody. Toto setkání vedlo k návrhu SegWit2x, který čerpal inspiraci z předchozího návrhu SegWit2Mb. Plánoval dvě zásadní úpravy protokolu Bitcoinu:
 

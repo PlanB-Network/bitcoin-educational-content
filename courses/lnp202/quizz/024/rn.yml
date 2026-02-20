@@ -1,0 +1,9 @@
+question: Ni kuki gusubiza inyuma urudodo rw’umuravyo bitoroshe kuruta urudodo rwa Bitcoin wallet?
+answer: Uko imirongo iri biriko biratera imbere
+wrong_answers:
+  - Ubushobozi bwo gutanga amahera buvana na mempool
+  - Kwandika urusaku rw'urubuga rwa Lightning
+  - Imfunguruzo zo gukuraho zirahera mu gihe
+explanation: |
+  Imirongo y’umuravyo irahindura uko imeze igihe cose umuntu yishuye, bigatuma ububiko bworoshe buhoraho canke buhoraho butera akaga.
+reviewed: false

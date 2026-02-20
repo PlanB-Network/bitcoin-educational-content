@@ -352,7 +352,7 @@ Existem vários tipos de troca direta:
 
 
 
-A escola austríaca de economia interpreta esta evolução como a emergência espontânea de bens de troca privilegiados. As conchas, arqueologicamente comprovadas desde o Mesolítico, ilustram este fenómeno: encontradas longe da sua origem geográfica (conchas mediterrânicas no Oeste de França, conchas nórdicas noutros sítios), testemunham um reconhecimento comum do seu valor de troca.
+A [escola austríaca de economia](https://planb.academy/resources/glossary/austrian-school) interpreta esta evolução como a emergência espontânea de bens de troca privilegiados. As conchas, arqueologicamente comprovadas desde o Mesolítico, ilustram este fenómeno: encontradas longe da sua origem geográfica (conchas mediterrânicas no Oeste de França, conchas nórdicas noutros sítios), testemunham um reconhecimento comum do seu valor de troca.
 
 
 
@@ -605,7 +605,7 @@ A experiência da Mesopotâmia estabelece precedentes duradouros para a evoluç�
 
 
 
-Este período seminal revela também as questões de poder inerentes a qualquer inovação monetária: quem controla a tecnologia, quem define as regras e como se articulam os sistemas formais e as práticas populares. Estas questões fundamentais persistiram ao longo da história económica, estendendo-se aos debates contemporâneos sobre moedas digitais e criptomoedas.
+Este período seminal revela também as questões de poder inerentes a qualquer inovação monetária: quem controla a tecnologia, quem define as regras e como se articulam os sistemas formais e as práticas populares. Estas questões fundamentais persistiram ao longo da história económica, estendendo-se aos debates contemporâneos sobre moedas digitais e [criptomoedas](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 
@@ -637,7 +637,7 @@ Os Incas não tinham um sistema monetário, mas tinham uma abundância de metais
 > Quanto mais estratificada for uma sociedade e quanto mais meticulosamente eficiente for o seu sistema de planeamento, menos necessário será o uso do dinheiro para a sua população. Isto pode explicar porque é que os conquistadores espanhóis descobriram que os mexicanos, cujo governo era relativamente mais liberal, utilizavam regularmente ouro em pó (guardado em tubos transparentes) e grãos de cacau (guardados para grandes pagamentos em sacos de 24.000 unidades) como moeda, enquanto que, pelo contrário, os incas, organizados segundo uma hierarquia muito mais rígida, não tinham qualquer moeda: uma exceção confirmada por uma regra estrita. A origem da moeda na China foi totalmente independente de outras civilizações; no entanto, a relativa proximidade das civilizações suméria, egípcia e minóica levanta dúvidas quanto à extensão do seu desconhecimento das práticas monetárias, especialmente tendo em conta o vasto comércio estabelecido desde os tempos mais remotos.
 
 
-Na China, as moedas foram desenvolvidas com uma abordagem completamente diferente das tradições ocidentais. Desde o início que se tratava de moeda fiduciária. As moedas eram fundidas.
+Na China, as moedas foram desenvolvidas com uma abordagem completamente diferente das tradições ocidentais. Desde o início que se tratava de [moeda fiduciária](https://planb.academy/resources/glossary/fiat). As moedas eram fundidas.
 
 
 E aqui, o Sr. Davies menciona o comércio. Houve, de facto, trocas entre os chineses e outras populações em determinadas épocas, mas o meio de troca para o comércio externo era bastante a seda. Como veremos mais adiante, o ouro era também utilizado nas regiões fronteiriças da China, onde a população chinesa era mais reduzida. E nem sequer para o comércio internacional; para isso, era a seda.
@@ -994,7 +994,7 @@ O Estado chinês utilizava a moeda como instrumento de regulação económica: e
 
 
 
-Pode estabelecer-se aqui uma ligação com a inflação e a deflação. Com uma massa monetária fixa, se a produtividade da economia aumentar, o valor da moeda aumenta. Inversamente, se a produtividade diminuir, o valor da moeda diminui. Neste exemplo, porém, dá-se o contrário. Provavelmente porque o príncipe não detinha o monopólio total da produção de moeda, mas isso não deixa de indicar que o valor da moeda estava ligado às condições económicas.
+Pode estabelecer-se aqui uma ligação com a [inflação](https://planb.academy/resources/glossary/inflation) e a deflação. Com uma massa monetária fixa, se a produtividade da economia aumentar, o valor da moeda aumenta. Inversamente, se a produtividade diminuir, o valor da moeda diminui. Neste exemplo, porém, dá-se o contrário. Provavelmente porque o príncipe não detinha o monopólio total da produção de moeda, mas isso não deixa de indicar que o valor da moeda estava ligado às condições económicas.
 
 
 
@@ -3616,7 +3616,7 @@ Passemos à Suécia, onde foi criado o primeiro banco central.
 
 
 
-**A Suécia** foi pioneira na banca central: em 1657, Johan Palmstruch criou o **Stockholm Banco**, autorizado a emprestar mais do que as suas reservas metálicas, marcando assim o nascimento da banca de reserva fraccionada. Mas a emissão excessiva de notas levou ao pânico e a uma corrida ao banco em 1663. Bem, bem...
+**A Suécia** foi pioneira na banca central: em 1657, Johan Palmstruch criou o **Stockholm Banco**, autorizado a emprestar mais do que as suas reservas metálicas, marcando assim o nascimento da banca de [reserva fraccionada](https://planb.academy/resources/glossary/fractional-reserves). Mas a emissão excessiva de notas levou ao pânico e a uma corrida ao banco em 1663. Bem, bem...
 
 
 

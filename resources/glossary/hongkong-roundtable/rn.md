@@ -1,5 +1,6 @@
 ---
-term: IMEZA YA HONGO KONG
+term: Hong-kong roundtable
+definition: Inama y'amateka yo mu 2016 hagati y'abatera imbere ba Bitcoin Core n'abacukuzi ku bijanye n'iyaguka rya Bitcoin.
 ---
 
 Ivyabaye mu mateka vy’intambara ya Blocksize yabaye ku wa 20 Ruhuhuma 2016, i Hong Kong. Yari inama ikomeye hagati y’abahinguzi ba Bitcoin core n’abacukuzi b’amabuye y’agaciro kugira ngo baganire ku bijanye n’ingene iyo nzira ishobora gutera imbere n’ingene yoshobora gutera imbere. Imbere y’iyo nama, amahane yari menshi cane cane kubera ukuduga kwa Bitcoin Classic, igitekerezo ca Hard Fork cashigikiwe na Gavin Andressen kigamije kwongera ubunini bw’ibarabara kugera kuri 2 MB. Abantu b’abanyabubasha mu bijanye n’ibidukikije bari muri izo mpari, harimwo Jihan Wu na Micree Zhan, abashinze Bitmain, Adam Back, umukuru wa Blockstream, na Luke Dashjr, Matt Corallo na Peter Todd.

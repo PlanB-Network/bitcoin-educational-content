@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto ได้โอนการควบคุมเว็บไซต์ (รวมถึงฟอรัมและวิกิ) ให้กับใครเมื่อเขาจากไป?
+answer: Martti Malmi
+wrong_answers:
+  - กาวิน แอนเดรเซน
+  - Hal Finney
+  - ไมค์ เฮิร์น
+explanation: |
+  เขาไม่มีเวลาจัดการและได้มอบหมายงานอย่างรวดเร็ว เว็บไซต์และฟอรั่มถูกดูแลโดย Theymos และ Cøbra
+reviewed: true

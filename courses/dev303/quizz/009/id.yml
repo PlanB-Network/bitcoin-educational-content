@@ -1,0 +1,8 @@
+question: Apa yang secara otomatis dibuat oleh perintah `cargo new project_name` sebagai bagian dari struktur proyek?
+answer: Repositori Git, file Cargo.toml, dan file main.rs dasar dengan program Hello World
+wrong_answers:
+  - Hanya file konfigurasi Cargo.toml dan struktur direktori sumber yang kosong
+  - Rangkaian uji coba lengkap, file dokumentasi, dan konfigurasi siap produksi
+  - File yang dapat dieksekusi biner, direktori target, dan konfigurasi build rilis
+explanation: |
+  Perintah `cargo new` membuat fondasi proyek yang komprehensif termasuk repositori Git untuk kontrol versi, file Cargo.toml untuk konfigurasi dan ketergantungan proyek, dan file main.rs dasar yang berisi program 'Halo, dunia! Ini menyediakan semua yang dibutuhkan untuk memulai pengembangan dengan segera. Opsi lainnya tidak benar karena cargo new tidak membuat rangkaian uji coba, berkas dokumentasi, binari yang dapat dieksekusi, atau membangun artefak - ini hanya mengatur struktur proyek awal.

@@ -1,0 +1,9 @@
+question: Какой механизм расширяет пространство поиска, когда 32-битный нонс (nonce) исчерпан?
+answer: Extra-nonce
+wrong_answers:
+  - Super-nonce
+  - Coinbase-nonce
+  - Double-nonce
+explanation: |
+  Изменяя extra-nonce в scriptSig coinbase-транзакции, мы меняем корень Меркла и, следовательно, заголовок.
+reviewed: false

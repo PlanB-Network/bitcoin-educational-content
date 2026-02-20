@@ -1,5 +1,6 @@
 ---
-term: INSCRIPTIONS
+term: Inscriptions
+definition: Arbitrary content engraved on satoshis via the Ordinals protocol, creating digital artifacts.
 ---
 
 In the context of Ordinals Theory, inscriptions are arbitrary content engraved on sats, turning them into native Bitcoin digital artifacts. Inscriptions are made through transactions that expose the content of the information in the script of a Taproot input in this manner:

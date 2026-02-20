@@ -28,7 +28,7 @@ In BTC304 kijken we naar waarom gemeenschapsopbouw belangrijk is, verkennen we t
 
 
 
-Welkom bij BTC302!
+Welkom bij BTC 304!
 
 
 
@@ -193,7 +193,7 @@ Bitcoin gemeenschappen streven vaak bredere doelen na, vooral op het gebied van 
 4. Misleidende of ongegronde beweringen van sommige publieke figuren en media ontkrachten;
 
 
-5. De fundamentele verschillen tussen Bitcoin en andere cryptocurrencies;
+5. De fundamentele verschillen tussen Bitcoin en andere [cryptocurrencies](https://planb.academy/resources/glossary/cryptocurrency);
 
 
 Door de eerste "burchten" van morgen te bouwen, dienen **Bitcoin gemeenschappen wereldwijd als een bolwerk tegen desinformatie en censuur, terwijl ze een vruchtbare bodem vormen voor het leren van Bitcoin's grondbeginselen**. Ze bieden nieuwkomers, zelfs sceptici, de middelen en connecties die nodig zijn om het ware potentieel van Bitcoin te verkennen.
@@ -302,7 +302,7 @@ Echter, **het bundelen van krachten is vaak zinvoller dan het opsplitsen van nab
 In dit opzicht kan een eenvoudige "vuistregel" helpen: als er geen actieve Bitcoin gemeenschap is binnen 30-45 minuten van waar je woont, kan het de moeite waard zijn om een nieuwe te beginnen. Dat gezegd hebbende, je bent altijd vrij om te doen wat je wilt.
 
 
-En natuurlijk, als een oudere gemeenschap "geëvolueerd" is in een richting die niet langer overeenkomt met jouw waarden, en je hebt niet de tijd of motivatie om ze te "oranje-pillen", dan is het creëren van je eigen Fork altijd een optie.
+En natuurlijk, als een oudere gemeenschap "geëvolueerd" is in een richting die niet langer overeenkomt met jouw waarden, en je hebt niet de tijd of motivatie om ze te "[oranje-pillen](https://planb.academy/resources/glossary/orange-pill)", dan is het creëren van je eigen [Fork](https://planb.academy/resources/glossary/fork) altijd een optie.
 
 
 
@@ -866,7 +866,7 @@ Voor de tutorials hieronder hebben we oorspronkelijk de "Telegram+" APK gebruikt
 Als je een plek wilt creëren waar je leden rechtstreeks met elkaar kunnen praten, op elkaar kunnen reageren, enz., dan kun je beter een Telegram-groep maken en geen Telegram-kanaal!
 
 
-Ga direct naar het volgende gedeelte, getiteld [Een Telegram-groep maken] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
+Ga direct naar het volgende gedeelte, getiteld [Een Telegram-groep maken](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
 
 
 
@@ -1260,7 +1260,7 @@ Daarnaast zijn **een paar privacy-instellingen het aanpassen waard**:
 Voor elk evenement zul je Twitter waarschijnlijk gebruiken om nuttige informatie te delen. Maar zoals bij de meeste sociale netwerken is **zichtbaarheid alles**.
 
 
-Om je veel tijd te besparen, hebben we de tijd genomen om [Twitter's open-source rangschikkingsalgoritme] (https://github.com/twitter) te bestuderen.
+Om je veel tijd te besparen, hebben we de tijd genomen om [Twitter's open-source rangschikkingsalgoritme](https://github.com/twitter) te bestuderen.
 
 
 Dit zijn de **belangrijkste dingen waarop je je moet richten om je zichtbaarheid te vergroten**:
@@ -1391,7 +1391,7 @@ Deze omvatten:
 
 
 
-- [Btcmap.org](https://btcmap.org/)**, een website met twee kaarten die dagelijks worden bijgewerkt: **[de wereldkaart van bedrijven die Bitcoin accepteren](https://btcmap.org/map)** en **[de wereldkaart van gemeenschappen](https://btcmap.org/communities/map)**. Veel bitcoiners bekijken deze kaarten regelmatig, of ze nu op reis zijn of hun dagelijks leven leiden, om nieuwe mensen te ontmoeten of plekken te vinden om hun Sats uit te geven. Btcmap is de wereldwijde referentie en het is essentieel voor de zichtbaarheid om je gemeenschap daar te vermelden.**
+- [Btcmap.org](https://btcmap.org/)**, een website met twee kaarten die dagelijks worden bijgewerkt: **[de wereldkaart van bedrijven die Bitcoin accepteren](https://btcmap.org/map)** en **[de wereldkaart van gemeenschappen](https://btcmap.org/communities/map)**. Veel bitcoiners bekijken deze kaarten regelmatig, of ze nu op reis zijn of hun dagelijks leven leiden, om nieuwe mensen te ontmoeten of plekken te vinden om hun [Sats](https://planb.academy/resources/glossary/satoshi-sat) uit te geven. Btcmap is de wereldwijde referentie en het is essentieel voor de zichtbaarheid om je gemeenschap daar te vermelden.**
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), een website gemaakt door bitcoiners, voor bitcoiners. **Je kunt er de komende evenementen van je gemeenschap posten**. In Frankrijk wordt het echter nog niet veel gebruikt.
 - afhankelijk van je land kunnen er andere lokale initiatieven zijn. In Frankrijk is er bijvoorbeeld [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), die **elke maand een lijst maakt van tientallen Bitcoin evenementen**. Dus als je hen nog niet volgt op Twitter of contact met hen opneemt om informatie over jouw gemeenschap en evenementen te delen, dan is het nu tijd! **Om de Franse evenementenkalender up-to-date te houden, zou het geweldig zijn als alle Franse Bitcoin gemeenschappen er een gewoonte van maken om:**
     - vermelding van @bitcoinpointfr op Twitter voor elk nieuw gemeenschapsevenement
@@ -1820,7 +1820,7 @@ Naast de sterke educatieve waarde, maakt deze aanpak het mogelijk om open-source
 Hieronder staat de progressie van de Franse meetups voor 2023-2024. Voor elk thema zijn een open-source presentatie en een video beschikbaar, die je op ideeën kunnen brengen voor onderwerpen die je voor je eigen evenementen zou kunnen behandelen.
 
 
-Extra bewerkbaar materiaal is ook te vinden in de [Bitcoin Teaching Toolbox] (https://planb.academy/fr/resources/bet)!
+Andere bronnen zijn ook beschikbaar in het gedeelte ["Educator Content"](https://planb.academy/educator-content) van Plan ₿ Academy, een samenwerkingsruimte waar Bitcoin-docenten van over de hele wereld hun educatieve materialen (presentaties, flyers, gidsen, posters...) in kant-en-klare of bewerkbare formaten delen en beschikbaar stellen. Het doel: inspanningen bundelen om niet elke keer opnieuw te beginnen!
 
 
 
@@ -1936,7 +1936,7 @@ Controleer in privégelegenheden zoals concerten, bars of stadions of er al stic
 Een ander project dat je gemakkelijk kunt opzetten is **een bibliotheek maken bij je meet-ups**.
 
 
-Je zou deelnemers die hun leesmateriaal willen delen kunnen uitnodigen om een Bitcoin-gerelateerd boek mee te nemen. Als iemand anders op de meet-up het wil lenen, kan een lening worden geregeld met de eigenaar in Exchange tegen een borg, bijvoorbeeld 21.000 satoshis via Lightning.
+Je zou deelnemers die hun leesmateriaal willen delen kunnen uitnodigen om een Bitcoin-gerelateerd boek mee te nemen. Als iemand anders op de meet-up het wil lenen, kan een lening worden geregeld met de eigenaar in Exchange tegen een borg, bijvoorbeeld 21.000 satoshis via [Lightning](https://planb.academy/resources/glossary/lightning-network).
 
 
 Voor de eigenaar helpt deze borg om mogelijk verlies of diefstal te dekken. Voor de lener is het een stimulans om terug te komen naar een toekomstige ontmoeting om zijn borg op te halen.
@@ -2195,7 +2195,7 @@ Later kun je je eigen domeinnaam kopen of de site zelfs op je eigen server hoste
 Hoewel er andere CMS-platforms bestaan, sommige met eenvoudigere, beginnersvriendelijkere interfaces, zijn ze meestal veel minder aanpasbaar. Daarom is WordPress over het algemeen het beste uitgangspunt.
 
 
-WordPress ondersteunt ook een breed scala aan plug-ins (sommige betaald, maar van hoge kwaliteit) die de mogelijkheden van je site aanzienlijk kunnen uitbreiden zonder dat je codeervaardigheden nodig hebt. Een voorbeeld is het [premium "Uncode" thema] (https://undsgn.com/uncode/)
+WordPress ondersteunt ook een breed scala aan plug-ins (sommige betaald, maar van hoge kwaliteit) die de mogelijkheden van je site aanzienlijk kunnen uitbreiden zonder dat je codeervaardigheden nodig hebt. Een voorbeeld is het [premium "Uncode" thema](https://undsgn.com/uncode/)
 
 
 
@@ -2300,7 +2300,7 @@ Bij een andere, meer traditionele aanpak kun je deelnemers aan elk evenement vra
 Hoewel dit een beetje formeel is, kan dit leden helpen om gemakkelijker gemeenschappelijke interesses en gespreksonderwerpen te vinden, en het maakt het ook gemakkelijker voor nieuwkomers om de organisatoren (of officiële leden van de gemeenschap/vereniging) te herkennen.
 
 
-Verschillende badgesjablonen gebruikt door de vereniging Bitcoin Lille zijn [beschikbaar in open-source op Canva] (https://www.canva.com/design/DAGHAsT15MU/AIA7-L_xBjNdsuxdD4-h-Q/edit?utm_content=DAGHAsT15MU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Verschillende badgesjablonen gebruikt door de vereniging Bitcoin Lille zijn [beschikbaar in open-source op Canva](https://www.canva.com/design/DAGHAsT15MU/AIA7-L_xBjNdsuxdD4-h-Q/edit?utm_content=DAGHAsT15MU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 
@@ -2334,7 +2334,7 @@ Het is verstandig om samen met je gemeenschap vooraf een duidelijke procedure op
 
 Het hebben van een standaardprotocol voorkomt ook dat iemand, lid of gast, misbruik maakt van de situatie om geld te stelen.
 
-Je zou een speciale werkgroep kunnen vormen om dit proces te definiëren. De vereniging Bitcoin Lille werkt al aan een dergelijk [document] (https://docs.google.com/document/d/1TDfLZjuictC5s3PEM2Z7WmkxIDSJ8Q1E4xevm52pVgU/edit?usp=sharing), dat ze in de komende maanden als open-source willen vrijgeven.
+Je zou een speciale werkgroep kunnen vormen om dit proces te definiëren. De vereniging Bitcoin Lille werkt al aan een dergelijk [document](https://docs.google.com/document/d/1TDfLZjuictC5s3PEM2Z7WmkxIDSJ8Q1E4xevm52pVgU/edit?usp=sharing), dat ze in de komende maanden als open-source willen vrijgeven.
 
 
 
@@ -2599,7 +2599,7 @@ Met deze stijging in bezoekersaantallen:
     - als je merkt dat het aantal deelnemers overweldigend wordt, kun je voor toekomstige meetups ofwel **vereisen dat deelnemers zich registreren** (via de Meetup-app of een eenvoudig formulier) of **meerdere meetups per maand houden** (bijvoorbeeld: een meetup voor beginners, een voor gevorderden en een voor vergevorderden).
     - Verwacht tegelijkertijd veel nieuwkomers in het ecosysteem, vaak met het hoofddoel om geld te verdienen. Om **de gesprekken gericht te houden op Bitcoin** in deze snelgroeiende meetups, is het een goed idee om:
 
-a) Neem een **Bitcoin thema-presentatie** op tijdens deze evenementen, omdat dit natuurlijk een groot deel van het gesprek in de richting van dat onderwerp zal sturen (en weg van het laatste zogenaamd "revolutionaire" shitcoin project);
+a) Neem een **Bitcoin thema-presentatie** op tijdens deze evenementen, omdat dit natuurlijk een groot deel van het gesprek in de richting van dat onderwerp zal sturen (en weg van het laatste zogenaamd "revolutionaire" [shitcoin](https://planb.academy/resources/glossary/shitcoin) project);
 
 b) **Vermijd het om alleen met mede-bitcoiners om te gaan.** Maak er in plaats daarvan een punt van om **nieuwkomers** te benaderen, zelfs als dat betekent dat je achter in de kamer moet staan om ze te begroeten. Van daaruit kunt u praten over waarom ze gekomen zijn, wat ze zoeken, de doelen (of zelfs de kernprincipes) van uw gemeenschap, enzovoort.
 
@@ -2619,7 +2619,7 @@ Gelukkig zijn deze situaties zeldzaam en vaak eerder absurd dan bedreigend, maar
 Voor je gemoedsrust: zolang je niet persoonlijk de wet overtreedt of direct illegale transacties faciliteert, ben je niet wettelijk verantwoordelijk voor de acties van anderen op je evenement (tenminste volgens de Franse wet).
 
 
-In een ideale wereld zou je een **ruimte hebben die groot genoeg is om enkele tientallen mensen** te huisvesten terwijl je gemeenschap groeit en je zou ook **sterke relaties opbouwen tussen bitcoiners** en toekomstige bitcoiners tijdens de dalende markt, zodat wanneer de stijgende markt komt, je zoveel mogelijk mensen hebt die klaar staan om anderen te oranje pillen.
+In een ideale wereld zou je een **ruimte hebben die groot genoeg is om enkele tientallen mensen** te huisvesten terwijl je gemeenschap groeit en je zou ook **sterke relaties opbouwen tussen bitcoiners** en toekomstige bitcoiners tijdens de [dalende markt](https://planb.academy/resources/glossary/bear-market), zodat wanneer de [stijgende markt](https://planb.academy/resources/glossary/bull-market) komt, je zoveel mogelijk mensen hebt die klaar staan om anderen te oranje pillen.
 
 
 
@@ -2831,14 +2831,14 @@ In je eentje kun je snel een van de vele tunnels in het Bitcoin konijnenhol verk
 
 
 
-## BTC302, Wat is de volgende stap?
+## BTC 304, Wat is de volgende stap?
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-In deze BTC302-cursus zijn we in detail ingegaan op hoe je een community of meet-up opzet en hoe je verschillende projecten lanceert.
+In deze BTC 304-cursus zijn we in detail ingegaan op hoe je een community of meet-up opzet en hoe je verschillende projecten lanceert.
 
 
 Als je gemeenschap klaar is om de volgende stap te zetten, **kan je een formele vereniging oprichten**.

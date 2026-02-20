@@ -1,0 +1,10 @@
+question: Para além do identificador da sua piscina mining, o que continha a maioria das inscrições feitas por Luke-Jr através de Eligius em agosto de 2011?
+answer: Orações
+wrong_answers:
+  - Pornografia infantil
+  - Memes
+  - Mensagens políticas
+explanation: |
+ De acordo com a sua fé católica (sedevacantista), Luke-Jr incluiu orações e textos sagrados na transação de recompensa dos blocos extraídos pelo seu grupo mining,
+ Eligius, sem consultar os mineiros em causa, o que provocou um debate animado.
+reviewed: true

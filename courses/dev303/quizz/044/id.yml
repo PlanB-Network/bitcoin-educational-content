@@ -1,0 +1,8 @@
+question: Apa sifat paling dasar yang diterapkan oleh semua penutupan dalam hirarki sifat penutupan Rust?
+answer: FnSekali
+wrong_answers:
+  - FnMut
+  - Fn
+  - Iterator
+explanation: |
+  FnOnce adalah sifat paling dasar yang diimplementasikan oleh semua penutupan di Rust. Ini mewakili penutupan yang dapat dipanggil setidaknya sekali, menjadikannya dasar dari hirarki sifat penutupan. FnMut dan Fn adalah sifat-sifat yang lebih terbatas yang dibangun di atas FnOnce - FnMut mengizinkan beberapa pemanggilan dengan mutasi, sementara Fn mengizinkan beberapa pemanggilan tanpa mutasi. Iterator tidak berhubungan dengan sifat penutupan dan digunakan untuk memproses urutan data.

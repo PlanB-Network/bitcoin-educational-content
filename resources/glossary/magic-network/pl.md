@@ -1,5 +1,6 @@
 ---
-term: SIEĆ MAGICZNA
+term: Magic network
+definition: 4-bajtowe stałe identyfikujące sieć (mainnet, testnet, regtest) w komunikatach między węzłami.
 ---
 
 Stałe używane w protokole Bitcoin do identyfikacji konkretnej sieci (Mainnet, Testnet, regtest...) wiadomości wymienianej między węzłami. Wartości te są wpisywane na początku każdej wiadomości, aby ułatwić ich identyfikację w strumieniu danych. Magic Networks są zaprojektowane tak, aby rzadko występowały w zwykłych danych komunikacyjnych. Rzeczywiście, te 4 bajty są rzadkie w ASCII, są nieprawidłowe w UTF-8, a generate jest bardzo dużą 32-bitową liczbą całkowitą, niezależnie od formatu przechowywania danych. Magic Networks to (w formacie little-endian):

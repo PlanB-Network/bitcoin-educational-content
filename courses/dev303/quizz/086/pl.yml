@@ -1,0 +1,8 @@
+question: Jaki jest główny cel deklaracji przestrzeni nazw w pliku UniFFI UDL?
+answer: Zapewnienie kontenera dla funkcji, które mogą być wywoływane bezpośrednio, bez konieczności tworzenia instancji obiektu
+wrong_answers:
+  - Aby zdefiniować strukturę pakietów i zależności importu dla wygenerowanych powiązań językowych
+  - Aby określić docelowe języki programowania, które będą korzystać z biblioteki Rust za pośrednictwem UniFFI
+  - Ustanowienie strategii zarządzania pamięcią dla międzyjęzykowych operacji skalowania danych
+explanation: |
+  Przestrzeń nazw w UDL UniFFI służy jako kontener dla samodzielnych funkcji, które mogą być wywoływane bezpośrednio bez wcześniejszego tworzenia obiektów. Te funkcje przestrzeni nazw zazwyczaj obsługują proste operacje, które przyjmują wartości jako parametry i zwracają wyniki. Pozostałe opcje są nieprawidłowe, ponieważ: struktura pakietów i importy są obsługiwane automatycznie przez proces generowania powiązań, języki docelowe są określane podczas procesu kompilacji, a nie w pliku UDL, a zarządzanie pamięcią jest obsługiwane w sposób przejrzysty przez warstwę wykonawczą UniFFI, a nie jest jawnie zadeklarowane w przestrzeniach nazw.

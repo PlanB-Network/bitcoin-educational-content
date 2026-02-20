@@ -300,7 +300,7 @@ Por isso, vou acrescentar a palavra **contrib** a linhas como estas.
 
 
 
-Os restantes passos estão listados no site [NtopNG] (https://packages.ntop.org/apt/) onde, para Debian 11, é necessário adicionar as fontes Ntop para instalação futura. Esta adição é automatizada usando um arquivo:
+Os restantes passos estão listados no site [NtopNG](https://packages.ntop.org/apt/) onde, para Debian 11, é necessário adicionar as fontes Ntop para instalação futura. Esta adição é automatizada usando um arquivo:
 
 
 

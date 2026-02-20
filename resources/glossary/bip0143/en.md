@@ -1,5 +1,6 @@
 ---
 term: BIP0143
+definition: New hashing algorithm for SegWit signatures, solving quadratic growth and including input values.
 ---
 
 Introduces a new way of hashing the transaction for signature verification in post-SegWit scripts. The goal is to minimize redundant operations during verification and to include the input UTXO values in the signature. This solves two major issues with the original transaction hashing algorithm:

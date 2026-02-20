@@ -3,6 +3,6 @@ answer: Sie können falsch-positive, aber niemals falsch-negative Ergebnisse lie
 wrong_answers:
   - Sie können falsch-negative, aber niemals falsch-positive Ergebnisse liefern und stellen sicher, dass Kunden nur Blöcke herunterladen, die ihre Transaktionen enthalten
   - Sie eliminieren sowohl falsch-positive als auch falsch-negative Ergebnisse, indem sie eine deterministische Filterung auf der Grundlage von wallet-Adressen verwenden
-  - "Sie produzieren zu gleichen Teilen falsch-positive und falsch-negative Ergebnisse, um die tatsächlichen Transaktionsmuster des Kunden zu verschleiern
+  - "Sie produzieren zu gleichen Teilen falsch-positive und falsch-negative Ergebnisse, um die tatsächlichen Transaktionsmuster des Kunden zu verschleiern"
 explanation: |
   Kompakte Blockfilter sind mit einem asymmetrischen Fehlermodell konzipiert: Sie können anzeigen, dass ein Block relevante Transaktionen enthält, obwohl dies nicht der Fall ist (falsch positiv), aber sie werden niemals einen Block übersehen, der tatsächlich relevante Transaktionen enthält (keine falschen Negative). Diese Konstruktion ist von entscheidender Bedeutung, da falsch-negative Meldungen bedeuten würden, dass tatsächliche Zahlungen verpasst werden, während falsch-positive Meldungen nur dazu führen, dass unnötige Blöcke heruntergeladen werden. Die Falsch-Positiv-Rate gewährleistet den Schutz der Privatsphäre, da die Kunden gezwungen sind, einige irrelevante Blöcke herunterzuladen, so dass Beobachter nicht feststellen können, welche Blöcke tatsächlich die Transaktionen des Kunden enthalten.

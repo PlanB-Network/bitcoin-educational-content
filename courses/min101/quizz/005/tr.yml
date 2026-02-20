@@ -1,0 +1,9 @@
+question: Blok başlığındaki nbits alanı neye karşılık gelir?
+answer: Kodlanmış zorluk hedefi
+wrong_answers:
+  - Bayt cinsinden blok boyutu
+  - Bloktaki işlem sayısı
+  - Bloğun zaman damgası
+explanation: |
+  nbits alanı aktif zorluk hedefini kodlar.
+reviewed: false

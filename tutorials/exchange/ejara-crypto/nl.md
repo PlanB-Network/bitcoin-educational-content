@@ -644,7 +644,7 @@ Aangezien het doel is om sparen te digitaliseren en het gemakkelijker te maken o
 
 
 
-Je kunt een vraag direct in de app sturen of contact opnemen met hun zeer ijverige [klantenservice] (https://t.me/EjaraCSbot) via Telegram.
+Je kunt een vraag direct in de app sturen of contact opnemen met hun zeer ijverige [klantenservice](https://t.me/EjaraCSbot) via Telegram.
 
 
 

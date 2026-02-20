@@ -1,5 +1,6 @@
 ---
-term: MZIGO MUHIMU
+term: Payload
+definition: Data muhimu zinazobebwa ndani ya pakiti kubwa ya data.
 ---
 
 Katika muktadha wa jumla wa kompyuta, mzigo wa malipo ni data muhimu iliyobebwa katika pakiti kubwa ya data. Kwa mfano, katika SegWit V0 juu ya Bitcoin Address, malipo ya malipo yanafanana na Hash ya ufunguo wa umma, bila metadata mbalimbali (HRP, separator, toleo la SegWit na checksum). Kwa mfano, katika Address `bc1qc2eukw7reasfcmrafevp5dhv8635yuqays50gj`, tuna :

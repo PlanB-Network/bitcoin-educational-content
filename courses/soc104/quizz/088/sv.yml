@@ -1,0 +1,9 @@
+question: Vilken är, enligt Karl Poppers ramverk, den grundläggande egenskap som skiljer ett öppet samhälle från ett slutet samhälle?
+answer: Individens förmåga att utöva kritiskt omdöme och ta personligt ansvar i beslutsfattandet
+wrong_answers:
+  - Graden av ekonomisk frihet och marknadsbaserat utbyte mellan olika samhällsgrupper
+  - Den nivå av teknisk utveckling och vetenskapliga framsteg som samhället uppnår
+  - Graden av demokratiskt deltagande och majoritetsstyre i politiska beslutsprocesser
+explanation: |
+  Popper definierar det öppna samhället som ett samhälle där individer konfronteras med personliga beslut och kan utöva ett kritiskt omdöme, medan det slutna samhället vägrar kritisk frihet och individuellt ansvar.
+  Distinktionen handlar i grunden om kognitiv och moralisk autonomi snarare än om ekonomiska system, tekniska framsteg eller demokratiska förfaranden. Slutna samhällen fruktar förändring och kritik och idealiserar statisk ordning, medan öppna samhällen välkomnar dynamisk kritik och individuella val inom ramen för abstrakta uppföranderegler.

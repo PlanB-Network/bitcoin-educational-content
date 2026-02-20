@@ -435,9 +435,9 @@ LibreWolf представлява отлично решение за тези, 
 
 
 
-- [Официален уебсайт на LibreWolf] (https://librewolf.net)
+- [Официален уебсайт на LibreWolf](https://librewolf.net)
 - [Изходен код в Codeberg](https://codeberg.org/librewolf)
-- [Официални често задавани въпроси] (https://librewolf.net/docs/faq)
+- [Официални често задавани въпроси](https://librewolf.net/docs/faq)
 
 
 
@@ -457,4 +457,4 @@ LibreWolf представлява отлично решение за тези, 
 
 
 - [Subreddit r/LibreWolf](https://www.reddit.com/r/LibreWolf/)
-- [Canal Matrix LibreWolf] (https://matrix.to/#/#librewolf:matrix.org)
+- [Canal Matrix LibreWolf](https://matrix.to/#/#librewolf:matrix.org)

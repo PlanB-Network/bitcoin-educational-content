@@ -1,0 +1,9 @@
+question: What practical problem does a mining pool primarily seek to solve?
+answer: Income variance
+wrong_answers:
+  - Network difficulty
+  - Block size
+  - ASIC prices
+explanation: |
+  By pooling hashrate, a pool transforms a very irregular income into more regular payments. This reduces income variance for the miner.
+reviewed: true

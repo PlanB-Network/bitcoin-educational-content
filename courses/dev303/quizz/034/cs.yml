@@ -1,0 +1,8 @@
+question: Která metoda umožňuje extrahovat hodnotu z výsledku a zároveň poskytnout vlastní panickou zprávu, pokud dojde k chybě?
+answer: očekávejte
+wrong_answers:
+  - unwrap_or_else
+  - unwrap_with_message
+  - panic_with
+explanation: |
+  Metoda expect je speciálně navržena tak, aby z výsledku získala hodnotu úspěchu a zároveň umožnila zadat vlastní panickou zprávu, která se zobrazí v případě chyby. To usnadňuje ladění ve srovnání s metodou unwrap, která používá obecnou panickou zprávu. Metoda unwrap_or_else nepanikaří, ale místo toho při výskytu chyby provede uzávěr. Ostatní možnosti (unwrap_with_message a panic_with) nejsou skutečné metody Rust pro zpracování typů Result.

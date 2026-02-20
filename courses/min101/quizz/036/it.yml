@@ -1,0 +1,9 @@
+question: Dopo quante conferme gli output di una coinbase diventano spendibili?
+answer: 101 conferme
+wrong_answers:
+  - 6 conferme
+  - 201 conferme
+  - 210 conferme
+explanation: |
+  Il periodo di maturazione è di 100 blocchi, quindi sono necessarie 101 conferme per rendere questi UTXO spendibili.
+reviewed: false

@@ -1,6 +1,7 @@
 ---
-term: SEGWIT (隔离见证)
+term: Segwit
 
+definition: 2017年的更新，通过分离签名来增加容量并解决延展性（malleability）问题。
 ---
 SegWit 是 Segregated Witness 的首字母缩写，是 2017年 8月推出的比特币协议更新版。它旨在解决几个技术问题，包括网络交易容量问题、交易可熔融性问题，以及促进未来的协议更改。
 

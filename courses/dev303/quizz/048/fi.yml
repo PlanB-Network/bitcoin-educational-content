@@ -1,0 +1,8 @@
+question: Mikä on RC:n ja RefCellin yhdistämisen ensisijainen tarkoitus Rust-ohjelmoinnissa?
+answer: Jotta useat omistajat voivat jakaa ja muuttaa samaa tietoa ja tehdä lainaustarkastuksia ajonaikaisesti
+wrong_answers:
+  - Siirtää lainaussääntöjen noudattamisen valvonta ajonaikaisesta ajasta takaisin käännösaikaan paremman suorituskyvyn saavuttamiseksi
+  - Luoda muuttumatonta jaettua dataa, jota voidaan käyttää turvallisesti useiden säikeiden välillä
+  - Viittaussyklien ja muistivuodon estämiseksi, kun tietoja jaetaan useiden omistajien kesken
+explanation: |
+  RC<RefCell<T>> yhdistää viitteiden laskennan jaettua omistajuutta varten ja sisäisen muunneltavuuden ajoaikatarkastettuja muunnoksia varten. RC mahdollistaa sen, että useat koodin osat voivat omistaa samaa dataa, kun taas RefCell mahdollistaa mutaation muuttumattomien viittausten kautta tarkistamalla lainaussäännöt ajonaikaisesti. Muut vaihtoehdot ovat virheellisiä: tämä malli siirtää tarkistukset itse asiassa ajonaikaan (ei käännösaikaan), luo muuttuvaa (ei muuttumatonta) jaettua dataa ja voi itse asiassa aiheuttaa viittaussyklejä sen sijaan, että estäisi niitä.

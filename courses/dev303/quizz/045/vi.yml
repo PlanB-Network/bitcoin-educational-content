@@ -1,0 +1,8 @@
+question: Lợi ích chính của các tính năng lập trình hàm của Rust trong việc duy trì các trừu tượng không tốn chi phí là gì?
+answer: Chúng tạo ra mã máy hiệu quả tương đương với các phương pháp dựa trên vòng lặp truyền thống mà không làm giảm hiệu suất.
+wrong_answers:
+  - Chúng tự động xử lý việc cấp phát và giải phóng bộ nhớ để ngăn chặn hoàn toàn chi phí phát sinh trong quá trình thực thi.
+  - Chúng loại bỏ nhu cầu kiểm tra kiểu dữ liệu tại thời điểm biên dịch trong khi vẫn duy trì các đảm bảo an toàn.
+  - Chúng cung cấp chức năng thu gom rác tự động mà không ảnh hưởng đến tốc độ thực thi chương trình.
+explanation: |
+  Các trừu tượng không tốn chi phí trong các tính năng lập trình hàm của Rust có nghĩa là việc sử dụng closure và iterator không làm giảm hiệu năng để đổi lấy khả năng diễn đạt. Trình biên dịch Rust tối ưu hóa các cấu trúc cấp cao này để tạo ra mã máy có hiệu năng tương đương với các vòng lặp truyền thống được viết tay. Điều này cho phép các nhà phát triển viết mã dễ hiểu và biểu đạt hơn mà không phải trả giá bằng hiệu năng khi chạy, đây là một nguyên tắc cốt lõi trong triết lý thiết kế của Rust.

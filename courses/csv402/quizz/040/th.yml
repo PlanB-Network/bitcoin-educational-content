@@ -1,0 +1,9 @@
+question: วัตถุประสงค์หลักของการรวม RGB เข้ากับ Lightning Network คืออะไร?
+answer: โอนสินทรัพย์ RGB ผ่านช่องทาง off-chain
+wrong_answers:
+  - การดำเนินการสัญญา RGB โดยตรงบนบล็อกเชน Bitcoin
+  - แทนที่ธุรกรรม Lightning แบบดั้งเดิมด้วยสัญญาอัจฉริยะ RGB
+  - เพิ่มความจุช่องสัญญาณโดยการเพิ่ม UTXOs ใหม่
+explanation: |
+  RGB รวมเข้ากับ Lightning Network ช่วยให้สินทรัพย์ RGB สามารถเคลื่อนย้ายผ่านการเปลี่ยนสถานะที่ฝังอยู่ในธุรกรรมการผูกพัน ในขณะที่ยังคงเป็น off-chain อยู่
+reviewed: false

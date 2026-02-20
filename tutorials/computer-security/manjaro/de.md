@@ -100,7 +100,7 @@ Damit Manjaro optimal funktioniert, muss Ihr Computer einige Mindestanforderunge
 
 
 
-Gehen Sie zum Herunterladen auf [die offizielle Manjaro-Website] (https://manjaro.org/) und wählen Sie die Edition, die Ihren Anforderungen am besten entspricht. Sobald Sie die Datei heruntergeladen haben, müssen Sie einen bootfähigen USB-Stick mit dem Manjaro ISO-Image erstellen.
+Gehen Sie zum Herunterladen auf [die offizielle Manjaro-Website](https://manjaro.org/) und wählen Sie die Edition, die Ihren Anforderungen am besten entspricht. Sobald Sie die Datei heruntergeladen haben, müssen Sie einen bootfähigen USB-Stick mit dem Manjaro ISO-Image erstellen.
 
 
 

@@ -1,0 +1,9 @@
+question: کدام فایل حاوی وضعیت کانال دقیق LND است؟
+answer: channel.db
+wrong_answers:
+  - wallet.db
+  - لایتنینگ.db
+  - peers.db
+explanation: |
+  فایل channel.db وضعیت کانال‌ها، همتایان و commitment transactionها را ذخیره می‌کند.
+reviewed: false

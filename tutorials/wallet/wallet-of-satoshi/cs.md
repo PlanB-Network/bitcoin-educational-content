@@ -4,6 +4,12 @@ description: Nejjednodušší opatrovnictví Wallet pro začátek
 ---
 ![cover](assets/cover.webp)
 
+---
+
+*Upozornění: od začátku roku 2026 již Wallet of Satoshi v custodial režimu (jak je představen v tomto návodu) není v rámci Evropské unie dostupný. Pokud v této oblasti žijete a chcete tento nástroj nadále používat, budete muset využít VPN umístěnou mimo EU. Další možností je používat Wallet of Satoshi v self-custodial režimu. Samostatný návod bude brzy zveřejněn na Plan ₿ Academy.*
+
+---
+
 _Tento návod napsal_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 

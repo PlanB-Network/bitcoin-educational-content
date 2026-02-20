@@ -1,0 +1,10 @@
+question: ¿Qué problema pretendía resolver Namecoin, la primera criptomoneda alternativa al Bitcoin?
+answer: Centralización de nombres de dominio
+wrong_answers:
+  - Gestión de la reputación en línea
+  - El problema de la varianza mining
+  - El desigual reparto de bitcoins
+explanation: |
+ El sistema de nombres de dominio está supervisado por ICANN, una corporación sin ánimo de lucro constituida al amparo de la legislación californiana, lo que plantea problemas de censura. El concepto de BitDNS
+ (posteriormente rebautizado Namecoin) consistía en colocar la gestión de estos nombres de dominio en una blockchain similar a Bitcoin para sortear este problema.
+reviewed: true

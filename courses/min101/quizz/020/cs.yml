@@ -1,0 +1,9 @@
+question: Na jaký průměrný interval mezi bloky Bitcoin cílí?
+answer: 10 minut
+wrong_answers:
+  - 1 minuta
+  - 30 minut
+  - 60 minut
+explanation: |
+  Protokol cílí na průměr přibližně jednoho bloku každých 10 minut v dlouhém časovém období.
+reviewed: false

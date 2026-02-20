@@ -1,6 +1,7 @@
 ---
-term: MODELO TEMPORAL
+term: Modelo temporal
 
+definition: Análisis de los horarios de difusión de las transacciones para deducir la naturaleza o la ubicación de una entidad on-chain.
 ---
 Ciertos comportamientos humanos son reconocibles en la cadena. Quizás el más útil en el análisis de la cadena es su patrón de sueño Sí, cuando está durmiendo, presumiblemente no está emitiendo transacciones Bitcoin. Generalmente, usted duerme alrededor de las mismas horas. Por lo tanto, los análisis temporales se utilizan comúnmente en el análisis de cadenas. Se trata simplemente de registrar las horas a las que las transacciones de una entidad determinada se emiten a la red Bitcoin. El análisis de estos patrones temporales permite deducir numerosas informaciones.
 

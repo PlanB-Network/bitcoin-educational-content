@@ -1,0 +1,9 @@
+question: 比特幣挖礦使用哪種哈希函數？
+answer: SHA256d
+wrong_answers:
+  - SHA1d
+  - RIPEMD160d
+  - SHA512d
+explanation: |
+  比特幣挖礦使用兩次 SHA256 計算，通常記為 SHA256d。
+reviewed: false

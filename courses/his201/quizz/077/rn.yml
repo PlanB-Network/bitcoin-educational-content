@@ -1,9 +1,9 @@
-question: Ni itariki iyihe urutonde rw’abarungika ubutumwa ku bijanye n’iterambere rya Bitcoin rwaremewe?
-answer: Kamena 2011
+question: Ni itariki iyihe urutonde rw’abarungika ubutumwa ku bijanye n’iterambere rya Bitcoin rwaremeweko?
+answer: Ruheshi 2011
 wrong_answers:
-  - Mutarama 2011
-  - Ntwarante 2011
-  - Nzero 2011
+  - 13 Nzero 2011
+  - 7 Ntwarante 2011
+  - 19 Nyakanga 2011
 explanation: |
   Yaremwe n'umuhinguzi Jeff Garzik kandi yemerewe ibiganiro ku mahinduka ya Bitcoin.
 reviewed: true

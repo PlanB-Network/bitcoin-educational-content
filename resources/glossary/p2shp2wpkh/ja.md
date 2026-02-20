@@ -1,5 +1,6 @@
 ---
 term: P2SH-P2WPKH
+definition: 互換性のためにP2SHでラップされたSegWitスクリプト（P2WPKH）。アドレスは3で始まる。
 ---
 P2SH-P2WPKHは、*Pay to Script Hash - Pay to Witness Public Key Hash*の略です。これは、UTXOの支出条件を確立するために使用される標準的なスクリプトモデルであり、「ネストされたSegWit」としても知られています。
 

@@ -1,0 +1,8 @@
+question: Vilken specifik egenskap hos LDK:s händelsestyrda arkitektur gör det möjligt för applikationer att upprätthålla en ren separation mellan Lightning-protokollogik och applikationsspecifika svar?
+answer: Asynkrona meddelanden tillhandahålls för alla viktiga operationer och tillståndsändringar, vilket gör att anpassade händelsehanterare kan implementeras oberoende av varandra
+wrong_answers:
+  - Synkrona återuppringningar utlöses direkt i kanalhanteraren, vilket kräver omedelbara svar för att upprätthålla protokollöverensstämmelse
+  - Händelsehanterare genereras automatiskt baserat på applikationskonfigurationen, vilket eliminerar behovet av anpassad implementeringslogik
+  - Alla händelser köas i en central buffert och behandlas sekventiellt för att säkerställa ett deterministiskt applikationsbeteende
+explanation: |
+  LDK:s händelsesystem tillhandahåller asynkrona meddelanden för alla Lightning-operationer, inklusive peer-anslutningar, betalningar och kanaländringar. Detta gör att utvecklare kan implementera anpassade händelsehanterare som svarar på lämpligt sätt samtidigt som de upprätthåller en ren separation mellan LDK:s kärnfunktionalitet och applikationslogik. De andra alternativen är felaktiga eftersom LDK inte använder synkrona callbacks som blockerar protokolloperationer, inte använder auto-generate-hanterare och inte tvingar fram sekventiell bearbetning av händelser.

@@ -1,5 +1,6 @@
 ---
 term: BIP0093
+definition: Codex32 standard allowing a seed to be backed up by splitting it into several parts via Shamir's secret sharing.
 ---
 
 Informational BIP that suggests a standard for saving and restoring the seed of a hierarchical deterministic wallet (according to BIP32) using Shamir's Secret Sharing.

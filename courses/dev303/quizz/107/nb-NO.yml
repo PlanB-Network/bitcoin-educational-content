@@ -1,0 +1,8 @@
+question: Hvilken kritisk funksjonalitet gjør at LDK kan opprettholde Lightning-funksjonalitet på tvers av mobile lommebøker med intermitterende tilkobling sammenlignet med tradisjonelle daemon-baserte Lightning-noder?
+answer: LDKs evne til å synkronisere med Lightning Service Providers (LSP-er) når de kommer på nett, samtidig som den private nøkkelen ikke er under kontroll
+wrong_answers:
+  - "LDKs innebygde offline betalingsbehandlingssystem som setter transaksjoner i kø til nettverkstilkoblingen er gjenopprettet"
+  - "LDKs distribuerte system for sikkerhetskopiering av kanalstatus som automatisk replikerer data på tvers av flere skyleverandører"
+  - "LDKs peer-to-peer mesh-nettverksprotokoll som muliggjør direkte lynbetalinger fra enhet til enhet uten internett"
+explanation: |
+  LDKs modulære arkitektur gjør det mulig for mobilapplikasjoner å implementere periodiske tilkoblingsmønstre ved å synkronisere med LSP-er når de kommer på nett, slik at brukerne kan motta betalinger og administrere kanaler selv når mobilenheten var frakoblet. Dette skiller seg fundamentalt fra tradisjonelle Lightning-daemoner som krever kontinuerlig drift. De gale svarene beskriver ikke-eksisterende funksjoner - LDK har ikke innebygd offline betalingsbehandling, distribuerte sikkerhetskopier eller mesh-nettverksfunksjoner.

@@ -1,0 +1,10 @@
+question: Welche technische Neuerung bei SatoshiDICE ermöglichte es den Spielern, zu überprüfen, ob das Casino nicht betrügt?
+answer: Die Veröffentlichung eines geheimen Hashes auf der Blockchain, gefolgt von der Veröffentlichung dieser Geheimnisse, um die Neuberechnung der Ergebnisse zu ermöglichen
+wrong_answers:
+  - Der Einsatz einer dezentralen Validierungs-Blockchain, bei der jede Transaktion von mehreren unabhängigen Knotenpunkten überprüft wird
+  - Die Verwendung fester Adressen in der Blockchain, die es ermöglichen, die Ziehungen zu überprüfen und so ihre Fairness zu gewährleisten
+  - Die Ausführung von Wahrscheinlichkeitsberechnungen direkt auf der Blockchain durch autonome öffentliche Verträge
+explanation: |
+ SatoshiDICE war insofern revolutionär, als es "mit Sicherheit fair" war. Jede wahrscheinlichkeitsabhängige Ziehung hing von einem geheimen generated zu Beginn des Tages ab, dessen
+ dessen Hash in der Blockchain veröffentlicht wurde. Das Geheimnis selbst wurde ein paar Tage später enthüllt, so dass die Nutzer das Ergebnis selbst neu berechnen konnten.
+reviewed: true

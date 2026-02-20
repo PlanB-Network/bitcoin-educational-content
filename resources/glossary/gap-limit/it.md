@@ -1,6 +1,7 @@
 ---
-term: LIMITE DI GAP
+term: Gap limit
 
+definition: Numero massimo di indirizzi consecutivi inutilizzati prima di interrompere la ricerca di transazioni.
 ---
 Parametro utilizzato nel software dei portafogli Bitcoin per determinare il numero massimo di indirizzi consecutivi inutilizzati da generare prima di interrompere la ricerca di transazioni aggiuntive. La regolazione di questo parametro è spesso necessaria durante il recupero di un portafoglio per garantire che tutte le transazioni vengano trovate. Un Gap Limit insufficiente potrebbe far perdere alcune transazioni se gli indirizzi sono stati saltati durante le fasi di derivazione. L'aumento del Gap Limit consente al portafoglio di cercare ulteriormente nella sequenza degli indirizzi, al fine di recuperare tutte le transazioni associate.
 

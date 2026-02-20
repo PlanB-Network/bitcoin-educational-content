@@ -1,5 +1,6 @@
 ---
 term: BIP0001
+definition: Hati ya kwanza inayofafanua mchakato wa kupendekeza maboresho ya Bitcoin, kuanzisha kategoria za Standards Track, Informational, na Process.
 ---
 
 Hati inayofafanua mchakato wa kuunda na kutekeleza maboresho yaliyopendekezwa kwa itifaki ya Bitcoin. Imeandikwa na Amir Taaki mnamo Agosti 2011, inaweka mbinu ya kawaida ya kupendekeza na kuweka kumbukumbu marekebisho yanayowezekana. Mapendekezo ya BIP basi yameainishwa katika makundi matatu:

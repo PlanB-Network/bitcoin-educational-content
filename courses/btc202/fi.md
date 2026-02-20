@@ -133,7 +133,7 @@ Oletko valmis käynnistämään ensimmäisen Bitcoin-solmusi? Aseta kurssi kohti
 
 
 
-Kuten sen luoja Satoshi Nakamoto kuvailee, Bitcoin on vertaisvertainen sähköinen käteisjärjestelmä. Tämä yksinkertainen lause, joka on valkoisen kirjan otsikko, sisältää monia vihjeitä Bitcoin:n luonteesta:
+Kuten sen luoja [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) kuvailee, Bitcoin on [vertaisvertainen](https://planb.academy/resources/glossary/peertopeer-p2p) sähköinen käteisjärjestelmä. Tämä yksinkertainen lause, joka on [valkoisen kirjan](https://planb.academy/resources/glossary/white-paper) otsikko, sisältää monia vihjeitä Bitcoin:n luonteesta:
 
 
 
@@ -144,7 +144,7 @@ Kuten sen luoja Satoshi Nakamoto kuvailee, Bitcoin on vertaisvertainen sähköin
 
 
 
-Koska Bitcoin on järjestelmä, sitä on välttämättä käytettävä tietokoneissa. Ja koska se on luonteeltaan vertaisverkkojärjestelmä, käyttäjät ottavat itse vastuun näiden koneiden käyttämisestä. Kutsumme "Bitcoin-solmuksi" juuri sitä tietokonetta, jolla Bitcoin-protokollaa (kuten Bitcoin core:ää, mutta palaamme siihen myöhemmin) toteuttava ohjelmisto on käynnissä. Tämän ansiosta Bitcoin voi toimia ilman keskusviranomaista: validointi suoritetaan hajautetusti tuhansien käyttäjien tuhansien itsenäisten koneiden toimesta.
+Koska Bitcoin on järjestelmä, sitä on välttämättä käytettävä tietokoneissa. Ja koska se on luonteeltaan vertaisverkkojärjestelmä, käyttäjät ottavat itse vastuun näiden koneiden käyttämisestä. Kutsumme "[Bitcoin-solmuksi](https://planb.academy/resources/glossary/node)" juuri sitä tietokonetta, jolla Bitcoin-protokollaa (kuten [Bitcoin core](https://planb.academy/resources/glossary/bitcoin-core):ää, mutta palaamme siihen myöhemmin) toteuttava ohjelmisto on käynnissä. Tämän ansiosta Bitcoin voi toimia ilman keskusviranomaista: validointi suoritetaan [hajautetusti](https://planb.academy/resources/glossary/distributed) tuhansien käyttäjien tuhansien itsenäisten koneiden toimesta.
 
 
 
@@ -156,7 +156,7 @@ Nakamoto, S. (2008). *Bitcoin: Peer-to-Peer Electronic Cash System*. https://Bit
 
 
 
-Juuri nämä käyttäjät takaavat Bitcoin:n turvallisuuden. Kuten Eric Voskuil selittää kirjassaan *Cryptoeconomics*, Bitcoin:n turvallisuus ei perustu Blockchain:een, hashing-tehoon, validointiin, hajauttamiseen, kryptografiaan, avoimeen lähdekoodiin eikä peliteoriaan. Bitcoin:n turvallisuus riippuu ensisijaisesti henkilöistä, jotka ovat valmiita ottamaan henkilökohtaisen riskin. Hajauttamisen ansiosta tämä riski voidaan jakaa suureen määrään yksilöitä, ja vain heidän kykynsä vastustaa sitä takaa järjestelmän kestävyyden.
+Juuri nämä käyttäjät takaavat Bitcoin:n turvallisuuden. Kuten Eric Voskuil selittää kirjassaan *Cryptoeconomics*, Bitcoin:n turvallisuus ei perustu [Blockchain](https://planb.academy/resources/glossary/blockchain):een, [hashing-tehoon](https://planb.academy/resources/glossary/hashrate), validointiin, hajauttamiseen, [kryptografiaan](https://planb.academy/resources/glossary/cryptography), [avoimeen lähdekoodiin](https://planb.academy/resources/glossary/foss) eikä peliteoriaan. Bitcoin:n turvallisuus riippuu ensisijaisesti henkilöistä, jotka ovat valmiita ottamaan henkilökohtaisen riskin. Hajauttamisen ansiosta tämä riski voidaan jakaa suureen määrään yksilöitä, ja vain heidän kykynsä vastustaa sitä takaa järjestelmän kestävyyden.
 
 
 
@@ -175,7 +175,7 @@ Voimme siis erottaa ja nimetä useita käsitteitä, jotta asiat selkiytyisivät 
 
 - Bitcoin-valuutta: tässä järjestelmässä tapahtuvissa liiketoimissa käytettävä laskentayksikkö;
 - Bitcoin-verkko: kaikkien toisiinsa liitettyjen solmujen joukko;
-- Bitcoin-solmut: koneet, joilla on Bitcoin-toteutus;
+- Bitcoin-solmut: koneet, joilla on [Bitcoin-toteutus](https://planb.academy/resources/glossary/bitcoin-implementation);
 - Bitcoin-toteutukset: ohjelmistot, jotka kääntävät protokollan suoritettaviksi ohjeiksi;
 - Bitcoin-protokolla: järjestelmän toimintaa ohjaavien sääntöjen kokonaisuus;
 - Bitcoin-järjestelmä: kaikkien näiden Elements-järjestelmien johdonmukainen yhdistelmä.
@@ -190,7 +190,7 @@ Bitcoin-solmut muodostavat yhdessä niin sanotun Bitcoin-verkon. Niiden avulla k
 
 
 
-Bitcoin suunniteltiin alusta alkaen siten, että jokainen käyttäjä voi käyttää henkilökohtaista solmua. Tämä pätee edelleen nykyiseen Bitcoin core-ohjelmistoon, jossa yhdistyvät Wallet:n ja solmun roolit. Nykyään tämä toiminto on kuitenkin usein eriytetty: monet nykyaikaiset Bitcoin-lompakot ovat vain lompakoita, jotka ovat yhteydessä ulkoisiin solmuihin (jotka voivat olla saman henkilön omistamia tai ei).
+Bitcoin suunniteltiin alusta alkaen siten, että jokainen käyttäjä voi käyttää henkilökohtaista solmua. Tämä pätee edelleen nykyiseen Bitcoin core-ohjelmistoon, jossa yhdistyvät Wallet:n ja solmun roolit. Nykyään tämä toiminto on kuitenkin usein eriytetty: monet nykyaikaiset Bitcoin-lompakot ovat vain [lompakoita](https://planb.academy/resources/glossary/wallet), jotka ovat yhteydessä ulkoisiin solmuihin (jotka voivat olla saman henkilön omistamia tai ei).
 
 
 
@@ -198,7 +198,7 @@ Bitcoin suunniteltiin alusta alkaen siten, että jokainen käyttäjä voi käytt
 
 
 
-Solmun ensimmäinen tehtävä on ylläpitää paikallista kopiota Blockchain:stä. Double-spending:n estämiseksi Bitcoin:lla ilman keskusviranomaisen osallistumista, jokaisen käyttäjän on tarkistettava, ettei järjestelmässä ole tapahtumaa. Ainoa tapa olla varma tästä on tietää kaikki Bitcoin:ssa tehdyt transaktiot. Tästä syystä kaikki transaktiot leimataan aikaleimalla ja ryhmitellään lohkoihin, ja jokainen solmu tallentaa koko Blockchain:n.
+Solmun ensimmäinen tehtävä on ylläpitää paikallista kopiota Blockchain:stä. [Double-spending](https://planb.academy/resources/glossary/double-spending-attack):n estämiseksi Bitcoin:lla ilman keskusviranomaisen osallistumista, jokaisen käyttäjän on tarkistettava, ettei järjestelmässä ole tapahtumaa. Ainoa tapa olla varma tästä on tietää kaikki Bitcoin:ssa tehdyt [transaktiot](https://planb.academy/resources/glossary/transaction-tx). Tästä syystä kaikki transaktiot leimataan [aikaleimalla](https://planb.academy/resources/glossary/timestamp) ja ryhmitellään [lohkoihin](https://planb.academy/resources/glossary/block), ja jokainen solmu tallentaa koko Blockchain:n.
 
 
 
@@ -208,7 +208,7 @@ Nakamoto, S. (2008). *Bitcoin: Peer-to-Peer sähköinen käteisrahajärjestelmä
 
 
 
-Blockchain on siis kehittyvä rekisteri: aina kun Miner julkaisee uuden lohkon, solmu tarkistaa sen kelpoisuuden ennen kuin se lisää sen omaan paikalliseen kopioonsa ketjusta. Tällä hetkellä (heinäkuussa 2025) koko Blockchain:n koko on yli 675 gigatavua, ja tämä koko kasvaa edelleen, sillä uusi lohko lisätään keskimäärin 10 minuutin välein.
+Blockchain on siis kehittyvä rekisteri: aina kun [Miner](https://planb.academy/resources/glossary/miner) julkaisee uuden lohkon, solmu tarkistaa sen kelpoisuuden ennen kuin se lisää sen omaan paikalliseen kopioonsa ketjusta. Tällä hetkellä (heinäkuussa 2025) koko Blockchain:n koko on yli 675 gigatavua, ja tämä koko kasvaa edelleen, sillä uusi lohko lisätään keskimäärin 10 minuutin välein.
 
 
 
@@ -216,7 +216,7 @@ Blockchain on siis kehittyvä rekisteri: aina kun Miner julkaisee uuden lohkon, 
 
 
 
-Solmu ylläpitää myös paikallista tietuetta kaikista tiettynä ajankohtana olemassa olevista UTXO:ista, jota kutsutaan nimellä **UTXO set**. Tämä tietokanta sisältää kaikki käyttämättömät Bitcoin-fragmentit. Käymme tätä aihetta yksityiskohtaisesti läpi kurssin viimeisessä osassa.
+Solmu ylläpitää myös paikallista tietuetta kaikista tiettynä ajankohtana olemassa olevista [UTXO](https://planb.academy/resources/glossary/utxo):ista, jota kutsutaan nimellä **[UTXO set](https://planb.academy/resources/glossary/utxo-set)**. Tämä tietokanta sisältää kaikki käyttämättömät Bitcoin-fragmentit. Käymme tätä aihetta yksityiskohtaisesti läpi kurssin viimeisessä osassa.
 
 
 
@@ -224,14 +224,14 @@ Solmu ylläpitää myös paikallista tietuetta kaikista tiettynä ajankohtana ol
 
 
 
-Solmun toinen tehtävä on varmistaa tapahtumien todentaminen ja siirtäminen. Kun uusi transaktio saapuu solmuun (joko Wallet-ohjelmiston tai toisen solmun kautta), se tarkistaa, että se on sääntöjen mukainen (konsensussäännöt ja välityssäännöt). Esimerkiksi:
+Solmun toinen tehtävä on varmistaa tapahtumien todentaminen ja siirtäminen. Kun uusi transaktio saapuu solmuun (joko Wallet-ohjelmiston tai toisen solmun kautta), se tarkistaa, että se on sääntöjen mukainen ([konsensussäännöt](https://planb.academy/resources/glossary/consensus-rules) ja [välityssäännöt](https://planb.academy/resources/glossary/relay)). Esimerkiksi:
 
 
 
 
 - käytettyjä bitcoineja on oltava sen UTXO-sarjassa (tietokannassa, jossa on käyttämättömiä tuotoksia);
-- allekirjoituksen on oltava pätevä ja kaikkien menoehtojen on täytyttävä (pätevä käsikirjoitus);
-- tuotosten kokonaismäärä ei saa ylittää panosten kokonaismäärää, mikä tarkoittaa, että kustannukset eivät voi olla negatiivisia.
+- [allekirjoituksen](https://planb.academy/resources/glossary/digital-signature) on oltava pätevä ja kaikkien menoehtojen on täytyttävä (pätevä [käsikirjoitus](https://planb.academy/resources/glossary/script));
+- [tuotosten](https://planb.academy/resources/glossary/output) kokonaismäärä ei saa ylittää [panosten](https://planb.academy/resources/glossary/input) kokonaismäärää, mikä tarkoittaa, että [kustannukset](https://planb.academy/resources/glossary/transaction-fees) eivät voi olla negatiivisia.
 
 
 
@@ -239,7 +239,7 @@ Solmun toinen tehtävä on varmistaa tapahtumien todentaminen ja siirtäminen. K
 
 
 
-Vahvistuksen jälkeen tapahtuma tallennetaan solmun Mempool:ään, joka on väliaikainen muistitila, joka on varattu vahvistamattomille tapahtumille, ja välitetään sitten muille verkon vertaisverkoille, joihin solmulla on yhteys. Tämä jakelu- ja validointimekanismi jatkuu solmusta toiseen. Tällä tavoin transaktio leviää Bitcoin-verkon kautta, ja jokainen solmu tallentaa sen Mempool:ään, kunnes Miner sisällyttää sen kelvolliseen lohkoon, joka toimii sen jälkeen sen ensimmäisen vahvistuksen perusteella.
+Vahvistuksen jälkeen tapahtuma tallennetaan solmun [Mempool](https://planb.academy/resources/glossary/mempool):ään, joka on väliaikainen muistitila, joka on varattu vahvistamattomille tapahtumille, ja välitetään sitten muille verkon vertaisverkoille, joihin solmulla on yhteys. Tämä jakelu- ja validointimekanismi jatkuu solmusta toiseen. Tällä tavoin transaktio leviää Bitcoin-verkon kautta, ja jokainen solmu tallentaa sen Mempool:ään, kunnes Miner sisällyttää sen kelvolliseen lohkoon, joka toimii sen jälkeen sen ensimmäisen [vahvistuksen](https://planb.academy/resources/glossary/confirmation) perusteella.
 
 
 
@@ -247,7 +247,7 @@ Vahvistuksen jälkeen tapahtuma tallennetaan solmun Mempool:ään, joka on väli
 
 
 
-Solmun kolmas tehtävä on louhittujen lohkojen hallinta. Kun Miner havaitsee uuden lohkon, jolla on voimassa oleva Proof of Work, se lähetetään verkkoon. Solmut vastaanottavat sen, tarkistavat, että se on kaikkien protokollasääntöjen mukainen, ja liittävät sen sitten omaan paikalliseen Blockchain-kopioonsa, jos se on kelvollinen.  Tämä prosessi jatkuu, kunnes kaikki Bitcoin-verkon solmut ovat tietoisia uudesta lohkosta.
+Solmun kolmas tehtävä on louhittujen lohkojen hallinta. Kun Miner havaitsee uuden lohkon, jolla on voimassa oleva [Proof of Work](https://planb.academy/resources/glossary/proof-of-work), se [lähetetään](https://planb.academy/resources/glossary/diffusion) verkkoon. Solmut vastaanottavat sen, tarkistavat, että se on kaikkien protokollasääntöjen mukainen, ja liittävät sen sitten omaan paikalliseen Blockchain-kopioonsa, jos se on kelvollinen.  Tämä prosessi jatkuu, kunnes kaikki Bitcoin-verkon solmut ovat tietoisia uudesta lohkosta.
 
 
 
@@ -304,7 +304,7 @@ Kun Satoshi Nakamoto käynnisti Bitcoin:n vuonna 2009, jokaisen käyttäjän odo
 
 
 
-Bitcoin:n asteittaisen yleistymisen ja kaivostyöntekijöiden määrän kasvun myötä Mining:n kilpailutilanne on kuitenkin muuttunut radikaalisti. Nykyään Mining:stä on tullut erittäin kilpailtu toiminta, jota hallitsevat erikoistuneilla infrastruktuureilla varustetut teolliset toimijat. Uuden lohkon louhimiseen tarvittava teho on nyt niin suuri, että yksittäisen käyttäjän on käytännössä mahdotonta saavuttaa sitä vain tavanomaisella tietokoneella. Tämän seurauksena Mining:n louhinta tapahtuu nykyään pääasiassa ASIC-koneiden (*Application-Specific Integrated Circuits*) avulla. Nämä piirit on optimoitu yksinomaan suorittamaan kaksinkertaista SHA-256:ta, Mining:ssä käytettyä algoritmia Bitcoin:ssa.
+Bitcoin:n asteittaisen yleistymisen ja kaivostyöntekijöiden määrän kasvun myötä Mining:n kilpailutilanne on kuitenkin muuttunut radikaalisti. Nykyään Mining:stä on tullut erittäin kilpailtu toiminta, jota hallitsevat erikoistuneilla infrastruktuureilla varustetut teolliset toimijat. Uuden lohkon louhimiseen tarvittava teho on nyt niin suuri, että yksittäisen käyttäjän on käytännössä mahdotonta saavuttaa sitä vain tavanomaisella tietokoneella. Tämän seurauksena Mining:n louhinta tapahtuu nykyään pääasiassa [ASIC](https://planb.academy/resources/glossary/asic)-koneiden (*Application-Specific Integrated Circuits*) avulla. Nämä piirit on optimoitu yksinomaan suorittamaan kaksinkertaista [SHA-256](https://planb.academy/resources/glossary/sha256):ta, Mining:ssä käytettyä algoritmia Bitcoin:ssa.
 
 
 
@@ -328,7 +328,7 @@ Miner tarvitsee Bitcoin-solmun ollakseen yhteydessä verkkoon.
 
 
 
-Miner:n rooli on myös toisinaan erotettu kopterin roolista. Hakkuri on kone, jonka tehtävänä on Hash mallilohkojen, jotka poolipalvelin toimittaa, hakeminen etsimällä hasheja, jotka täyttävät osuuksille määritellyn vaikeustavoitteen, ei Bitcoin:n. Loput Mining-prosessista, johon kuuluu varsinainen lohkojen rakentaminen, transaktioiden valinta tai Bitcoin:n oman vaikeusasteen mukainen Proof-of-Work-haku sekä jakelu, suoritetaan suoraan poolien toimesta.
+Miner:n rooli on myös toisinaan erotettu grind roolista. Grind on kone, jonka tehtävänä on Hash mallilohkojen, jotka poolipalvelin toimittaa, hakeminen etsimällä hasheja, jotka täyttävät osuuksille määritellyn vaikeustavoitteen, ei Bitcoin:n. Loput Mining-prosessista, johon kuuluu varsinainen lohkojen rakentaminen, transaktioiden valinta tai Bitcoin:n oman vaikeusasteen mukainen Proof-of-Work-haku sekä jakelu, suoritetaan suoraan poolien toimesta.
 
 
 
@@ -598,7 +598,7 @@ Nämä ovat Bitcoin-protokollan perussäännöt, joilla varmistetaan järjestelm
 
 
 
-Näiden sääntöjen muuttaminen vastaa protokollan ja siten valuutan muuttamista (Hard Fork). Vaikka sääntöjä ei yritettäisikään muuttaa, pelkkä olemassa olevien sääntöjen tiukka soveltaminen antaa kuitenkin tietynlaisen vallan: jos lohko rikkoo sääntöjä, solmu hylkää sen välittömästi.
+Näiden sääntöjen muuttaminen vastaa protokollan ja siten valuutan muuttamista ([Hard Fork](https://planb.academy/resources/glossary/hard-fork)). Vaikka sääntöjä ei yritettäisikään muuttaa, pelkkä olemassa olevien sääntöjen tiukka soveltaminen antaa kuitenkin tietynlaisen vallan: jos lohko rikkoo sääntöjä, solmu hylkää sen välittömästi.
 
 
 
@@ -722,7 +722,7 @@ Full node:n ei tarvitse luottaa kehenkään, koska se validoi ja tuntee kaikki j
 
 
 
-Käytännössä Full node vaatii huomattavia resursseja, kuten useita satoja gigatavuja lohkotiedostoja varten, prosessorin, joka pystyy validoimaan skriptejä, RAM-muistia Mempool:lle ja välimuisteille sekä vakaan kaistanleveyden. Ensimmäinen synkronointi (*IBD*) lukee ja tarkistaa koko historian: se on intensiivinen, mutta tapahtuu vain kerran. Full node osallistuu aktiivisesti verkkoon, välittää lohkoja ja transaktioita ja voi ottaa vastaan saapuvia yhteyksiä auttaakseen muita vertaisia.
+Käytännössä Full node vaatii huomattavia resursseja, kuten useita satoja gigatavuja lohkotiedostoja varten, prosessorin, joka pystyy validoimaan skriptejä, RAM-muistia Mempool:lle ja välimuisteille sekä vakaan kaistanleveyden. Ensimmäinen synkronointi (*[IBD](https://planb.academy/resources/glossary/initial-block-download-ibd)*) lukee ja tarkistaa koko historian: se on intensiivinen, mutta tapahtuu vain kerran. Full node osallistuu aktiivisesti verkkoon, välittää lohkoja ja transaktioita ja voi ottaa vastaan saapuvia yhteyksiä auttaakseen muita vertaisia.
 
 
 
@@ -758,7 +758,7 @@ Lyhyesti sanottuna Wallet-seuranta toimii ongelmitta pruned-solmussa, jos luot u
 
 
 
-SPV-solmu (*Simplified Payment Verification*) eli kevytsolmu säilyttää vain lohkojen otsikot, ei transaktiotietoja, ja se luottaa siihen, että muut täysimittaiset solmut saavat todisteet siitä, että transaktio on lohkossa (Merkle-todisteet puiden kautta), jonka otsikko sillä on. Yksinkertaistetun maksujen todentamisen käsite ei ole uusi, sillä Satoshi Nakamoto itse ehdotti sitä valkoisen kirjan osassa 8.
+[SPV](https://planb.academy/resources/glossary/spv-node-light-node)-solmu (*Simplified Payment Verification*) eli kevytsolmu säilyttää vain lohkojen otsikot, ei transaktiotietoja, ja se luottaa siihen, että muut täysimittaiset solmut saavat todisteet siitä, että transaktio on lohkossa ([Merkle](https://planb.academy/resources/glossary/merkle-tree)-todisteet puiden kautta), jonka otsikko sillä on. Yksinkertaistetun maksujen todentamisen käsite ei ole uusi, sillä Satoshi Nakamoto itse ehdotti sitä valkoisen kirjan osassa 8.
 
 
 
@@ -812,7 +812,7 @@ Keskitason käyttäjä, jolla on tietokone, voi asentaa pruned-solmun ja hyöty�
 
 
 
-Full node on edelleen paras ratkaisu, jos haluat olla täysin riippumaton Bitcoin:n käytössä etkä rajoittaa itseäsi myöhemmin edistyneempiin käyttötarkoituksiin, kuten indeksointiin, Lightning-solmuun tai jopa Block explorer:een. Juuri tätä aiomme tutkia tällä kurssilla!
+Full node on edelleen paras ratkaisu, jos haluat olla täysin riippumaton Bitcoin:n käytössä etkä rajoittaa itseäsi myöhemmin edistyneempiin käyttötarkoituksiin, kuten indeksointiin, [Lightning](https://planb.academy/resources/glossary/lightning-network)-solmuun tai jopa Block explorer:een. Juuri tätä aiomme tutkia tällä kurssilla!
 
 
 
@@ -853,7 +853,7 @@ Tämä on kaikkein suvereenein ja joustavin lähestymistapa: tiedät tarkalleen,
 
 
 
-[Bitcoin core on verkon ylivoimainen enemmistöasiakas](https://bitcoincore.org/). Se lataa, validoi ja ylläpitää Blockchain:ää, tarjoaa RPC/REST API:t ja voi integroida Wallet:n. Jos pidät enemmän vakiotyökaluista ja tunnet olosi mukavaksi lisätä palveluja itse (kuten Electrum-palvelin, explorer ja LND), sinun on parempi käyttää Corea sellaisenaan.
+[Bitcoin core on verkon ylivoimainen enemmistöasiakas](https://bitcoincore.org/). Se lataa, validoi ja ylläpitää Blockchain:ää, tarjoaa [RPC](https://planb.academy/resources/glossary/rpc-remote-procedure-call)/REST API:t ja voi integroida Wallet:n. Jos pidät enemmän vakiotyökaluista ja tunnet olosi mukavaksi lisätä palveluja itse (kuten Electrum-palvelin, explorer ja LND), sinun on parempi käyttää Corea sellaisenaan.
 
 
 
@@ -1437,7 +1437,7 @@ Umbrel tarjoaa kaksi erilaista lähestymistapaa:
 
 
 
-- [**Umbrel Home**] (https://umbrel.com/umbrel-home): Tämä on käyttövalmis minipalvelin, joka on erityisesti suunniteltu ja optimoitu umbrelOS:lle. Kompakti, hiljainen, Ethernet-yhteydellä varustettu, varustettu NVMe SSD-levyllä (jopa 4TB valinnaisesti), 16GB RAM-muistilla ja neliydinsuorittimella. Tilaat sen, kytket sen ja menet osoitteeseen `umbrel.local`. Saat toimivan Umbrelin käyttöön muutamassa minuutissa. Tämä on plug-and-play-vaihtoehto.
+- [**Umbrel Home**](https://umbrel.com/umbrel-home): Tämä on käyttövalmis minipalvelin, joka on erityisesti suunniteltu ja optimoitu umbrelOS:lle. Kompakti, hiljainen, Ethernet-yhteydellä varustettu, varustettu NVMe SSD-levyllä (jopa 4TB valinnaisesti), 16GB RAM-muistilla ja neliydinsuorittimella. Tilaat sen, kytket sen ja menet osoitteeseen `umbrel.local`. Saat toimivan Umbrelin käyttöön muutamassa minuutissa. Tämä on plug-and-play-vaihtoehto.
 
 
 
@@ -1970,7 +1970,7 @@ Mitä tulee etäyhteyteen Torin kautta, jos et tarvitse sitä, suosittelen jätt
 
 
 
-Jos otat tämän ominaisuuden käyttöön, mikä tahansa kone maailmassa voi teoriassa yrittää muodostaa yhteyden solmuun, kunhan se tuntee Tor Address:n. Salasanasi ja 2FA suojaavat sinua kuitenkin edelleen.
+Jos otat tämän ominaisuuden käyttöön, mikä tahansa kone maailmassa voi teoriassa yrittää muodostaa yhteyden solmuun, kunhan se tuntee [Tor](https://planb.academy/resources/glossary/tor) Address:n. Salasanasi ja 2FA suojaavat sinua kuitenkin edelleen.
 
 
 
@@ -2514,9 +2514,11 @@ Lopuksi suosittelen *Lightning Network+*-sovellusta, jonka avulla voit löytää
 
 
 
-Umbrelin ansiosta henkilökohtaisen Lightning-solmun hallinta on yksinkertaistunut huomattavasti, mutta se on silti suhteellisen monimutkaista. Tästä syystä tarkastelemme aihetta tarkemmin tulevalla kurssilla, joka on omistettu kokonaan tälle käyttötarkoitukselle.
+Umbrelin ansiosta henkilökohtaisen Lightning-solmun hallinta on yksinkertaistunut, mutta se on silti suhteellisen monimutkaista. Tästä syystä suosittelen osallistumaan LNP 202 -kurssille, joka on looginen jatko BTC 202 -kurssille ja jossa opastan teitä vaihe vaiheelta Lightning-solmunne käyttöönotossa ja hallinnassa Umbrelissa.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Tailscale
 
@@ -2604,7 +2606,7 @@ https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b
 
 
 
-BTCPay Server on ilmainen, avoimen lähdekoodin maksuprosessori, jonka avulla voit hyväksyä maksuja Bitcoin- ja Lightning Network-maksujen kautta ilman välikäsiä ja säilyttää samalla varojen itsesäilytyksen.
+[BTCPay Server](https://planb.academy/resources/glossary/btcpay-server) on ilmainen, avoimen lähdekoodin maksuprosessori, jonka avulla voit hyväksyä maksuja Bitcoin- ja Lightning Network-maksujen kautta ilman välikäsiä ja säilyttää samalla varojen itsesäilytyksen.
 
 
 
@@ -2781,7 +2783,7 @@ Näiden yksinkertaisten tapojen avulla Umbrel-solmusi pysyy vakaana, turvallisen
 
 
 
-Bitcoin-solmusi käynnistyy ilman ennakkotietoja tapahtumahistoriasta. Aluksi se on vain tietokone, jossa on ohjelmisto (Bitcoin core tai vastaava). Jotta siitä tulisi täysin synkronoitu ja toimiva Bitcoin-solmu, sen on paikallisesti rekonstruoitava Ledger:n tila tarkistamalla kaikki lohkot, jotka on julkaistu Genesis-lohkon (lohko 0, jonka Satoshi Nakamoto julkaisi 3. tammikuuta 2009) jälkeen. Tätä vaihetta kutsutaan **IBD:ksi (_Initial Block Download_)**.
+Bitcoin-solmusi käynnistyy ilman ennakkotietoja tapahtumahistoriasta. Aluksi se on vain tietokone, jossa on ohjelmisto (Bitcoin core tai vastaava). Jotta siitä tulisi täysin synkronoitu ja toimiva Bitcoin-solmu, sen on paikallisesti rekonstruoitava Ledger:n tila tarkistamalla kaikki lohkot, jotka on julkaistu [Genesis-lohkon](https://planb.academy/resources/glossary/genesis-block) (lohko 0, jonka Satoshi Nakamoto julkaisi 3. tammikuuta 2009) jälkeen. Tätä vaihetta kutsutaan **IBD:ksi (_Initial Block Download_)**.
 
 
 
@@ -2815,7 +2817,7 @@ Muistutuksena mainittakoon, että Bitcoin-lohko koostuu 80 tavun otsikosta ja tr
 - Merkle Root liiketoimista
 - Timestamp (suurempi kuin 11 edellisen lohkon mediaaniaika)
 - vaikeustavoite
-- Nonce
+- [Nonce](https://planb.academy/resources/glossary/nonce)
 
 
 
@@ -2823,7 +2825,7 @@ Muistutuksena mainittakoon, että Bitcoin-lohko koostuu 80 tavun otsikosta ja tr
 
 
 
-Tapahtumat siirretään Merkle Tree:een. Tämä on rakenne, joka tiivistää suuren datajoukon (tässä tapauksessa kaikki lohkon transaktiot) aggregoimalla niiden hasheja asteittain kaksi kerrallaan yhteen "juureen", mikä osoittaa, että elementti kuuluu joukkoon (ja havaitsee mahdolliset muutokset). Tällä tavoin kaikki transaktion muutokset muuttavat myös Merkle Tree:n juurta ja siten lohkon otsikon sormenjälkeä. SegWit on ottanut käyttöön erillisen ylimääräisen Commitment:n evästeitä (allekirjoituksia) varten, joka on sijoitettu kolikkopankkiin.
+Tapahtumat siirretään Merkle Tree:een. Tämä on rakenne, joka tiivistää suuren datajoukon (tässä tapauksessa kaikki lohkon transaktiot) aggregoimalla niiden hasheja asteittain kaksi kerrallaan yhteen "juureen", mikä osoittaa, että elementti kuuluu joukkoon (ja havaitsee mahdolliset muutokset). Tällä tavoin kaikki transaktion muutokset muuttavat myös Merkle Tree:n juurta ja siten lohkon otsikon sormenjälkeä. [SegWit](https://planb.academy/resources/glossary/segwit) on ottanut käyttöön erillisen ylimääräisen Commitment:n evästeitä (allekirjoituksia) varten, joka on sijoitettu kolikkopankkiin.
 
 
 
@@ -2847,7 +2849,7 @@ Kun IBD on valmis, solmu siirtyy normaaliin vaiheeseensa: se validoi uudet lohko
 
 
 
-Bitcoin core sisältää mekanismin, joka on suunniteltu lyhentämään aikaa, joka kuluu ennen kuin solmu on täysin toimintakykyinen, säilyttäen samalla autonomisen todentamisperiaatteen olennaisen sisällön: AssumeValid.
+Bitcoin core sisältää mekanismin, joka on suunniteltu lyhentämään aikaa, joka kuluu ennen kuin solmu on täysin toimintakykyinen, säilyttäen samalla autonomisen todentamisperiaatteen olennaisen sisällön: [AssumeValid](https://planb.academy/resources/glossary/assume-valid).
 
 
 
@@ -3007,7 +3009,7 @@ Jotta uudelleenjärjestelyn aikana voidaan palata ajassa taaksepäin, Core talle
 
 
 
-Lohkon etsiminen suoraan tasotiedostoista olisi liian aikaa vievää. Core ylläpitää sen vuoksi LevelDB-tietokantaa osoitteessa `blocks/index/`, jossa luetellaan jokaisen tunnetun lohkon metatiedot, kuten Hash, korkeus, validointitilanne, `blk`-tiedosto ja offset, jossa lohko sijaitsee. Kun vertaisohjelma pyytää lohkoa tai kun sisäisen komponentin on päästävä tiettyyn lohkoon käsiksi, tämä indeksi tarjoaa nopean pääsyn. Ilman tätä indeksiä tarvittaisiin liian monta operaatiota.
+Lohkon etsiminen suoraan tasotiedostoista olisi liian aikaa vievää. Core ylläpitää sen vuoksi [LevelDB](https://planb.academy/resources/glossary/leveldb)-tietokantaa osoitteessa `blocks/index/`, jossa luetellaan jokaisen tunnetun lohkon metatiedot, kuten Hash, korkeus, validointitilanne, `blk`-tiedosto ja offset, jossa lohko sijaitsee. Kun vertaisohjelma pyytää lohkoa tai kun sisäisen komponentin on päästävä tiettyyn lohkoon käsiksi, tämä indeksi tarjoaa nopean pääsyn. Ilman tätä indeksiä tarvittaisiin liian monta operaatiota.
 
 
 
@@ -3049,7 +3051,7 @@ Kaikkien näiden osien kokonaisuus tietyllä hetkellä T muodostaa UTXO-sarjan: 
 
 
 
-UTXO-sarja on tallennettu `chainstate/`-kansioon kompaktina LevelDB-tietokantana. Jokainen osa yhdistää avaimen, joka on johdettu transaktion Hash:sta, ja lähtöindeksin arvoon, joka sisältää: summan, `scriptPubKey`-lukituksen, luomislohkon korkeuden ja coinbase-indikaattorin.
+UTXO-sarja on tallennettu `chainstate/`-kansioon kompaktina LevelDB-tietokantana. Jokainen osa yhdistää avaimen, joka on johdettu transaktion Hash:sta, ja lähtöindeksin arvoon, joka sisältää: summan, `scriptPubKey`-lukituksen, luomislohkon korkeuden ja [coinbase](https://planb.academy/resources/glossary/coinbase-transaction)-indikaattorin.
 
 
 
@@ -3073,13 +3075,13 @@ Huomaa, että UTXO-joukko on usein Bitcoin:n hajauttamista koskevien huolenaihei
 
 
 
-UTXO-sarjan kasvu johtuu myös Bitcoin:n yksinkertaisten maksutapahtumien rakenteesta. Kun maksat maksun, kulutat yhden UTXO:n syötteenä ja luot kaksi uutta UTXO:ta tuotoksena (toinen maksua ja toinen Exchange:aa varten). Ketjuanalyysin heuristiikka, nimeltään CIOH (*Common Input Ownership Heuristic*), tarjoaa lisäkannustimen välttää Coin:n konsolidointia.
+UTXO-sarjan kasvu johtuu myös Bitcoin:n yksinkertaisten maksutapahtumien rakenteesta. Kun maksat maksun, kulutat yhden UTXO:n syötteenä ja luot kaksi uutta UTXO:ta tuotoksena (toinen maksua ja toinen Exchange:aa varten). Ketjuanalyysin heuristiikka, nimeltään [CIOH](https://planb.academy/resources/glossary/cioh) (*Common Input Ownership Heuristic*), tarjoaa lisäkannustimen välttää Coin:n konsolidointia.
 
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Koska osa siitä on pidettävä RAM-muistissa, jotta tapahtumat voidaan tarkistaa kohtuullisessa ajassa, UTXO-sarja voi vähitellen tehdä Full node:n käytöstä liian kallista. Tämän ongelman ratkaisemiseksi on jo olemassa muutamia ehdotuksia, erityisesti [Utreexo](https://planb.academy/resources/glossary/utreexo).
+Koska osa siitä on pidettävä RAM-muistissa, jotta tapahtumat voidaan tarkistaa kohtuullisessa ajassa, UTXO-sarja voi vähitellen tehdä Full node:n käytöstä liian kallista. Tämän ongelman ratkaisemiseksi on jo olemassa muutamia ehdotuksia, erityisesti Utreexo.
 
 
 
@@ -3106,7 +3108,7 @@ On tärkeää huomata, että solmujen mempoolilla ei ole konsensusarvoa. Bitcoin
 
 
 
-Kun maksutapahtuma vastaanotetaan, Core suorittaa sarjan tarkistuksia konsensussääntöjen (syntaksi, kelvolliset skriptit, ei tuplakäyttöä jne.) ja Mempool-sääntöjen perusteella, jotka ovat paikallinen käytäntö (RBF, vähimmäismaksukynnykset, datarajoitus OP_RETURN:ssä jne.). Jos tapahtuma noudattaa näitä sääntöjä, se tallennetaan muistiin.
+Kun maksutapahtuma vastaanotetaan, Core suorittaa sarjan tarkistuksia konsensussääntöjen (syntaksi, kelvolliset skriptit, ei tuplakäyttöä jne.) ja Mempool-sääntöjen perusteella, jotka ovat paikallinen käytäntö ([RBF](https://planb.academy/resources/glossary/rbf-replacebyfee), vähimmäismaksukynnykset, datarajoitus OP_RETURN:ssä jne.). Jos tapahtuma noudattaa näitä sääntöjä, se tallennetaan muistiin.
 
 
 
@@ -3347,7 +3349,7 @@ Verkkotasolla meillä on myös:
 
 
 
-Oletusarvoisesti solmusi kommunikoi clearnetin, Torin ja I2P:n kautta. Tämä tarkoittaa, että vertaisverkot, joihin se on yhteydessä clearnetissä, näkevät julkisen IP-osoitteesi Address, ja Internet-palveluntarjoajasi pystyy todennäköisesti havaitsemaan, että käytät Bitcoin-solmua (vaikkakin P2P Transport V2 vaikeuttaa Internet-palveluntarjoajan salakuuntelua). Tämä ei välttämättä ole ongelma, mutta jos haluat välttää näiden tietojen vuotamisen, voit liittää solmusi yksinomaan Tor-verkon kautta.
+Oletusarvoisesti solmusi kommunikoi clearnetin, Torin ja I2P:n kautta. Tämä tarkoittaa, että vertaisverkot, joihin se on yhteydessä clearnetissä, näkevät julkisen IP-osoitteesi Address, ja Internet-palveluntarjoajasi pystyy todennäköisesti havaitsemaan, että käytät Bitcoin-solmua (vaikkakin [P2P Transport V2](https://planb.academy/resources/glossary/p2p-transport-v2) vaikeuttaa Internet-palveluntarjoajan salakuuntelua). Tämä ei välttämättä ole ongelma, mutta jos haluat välttää näiden tietojen vuotamisen, voit liittää solmusi yksinomaan Tor-verkon kautta.
 
 
 
@@ -3466,7 +3468,7 @@ Tässä ovat Mempool:n ja välityskäytännön lisäasetukset. Jos olet aloittel
 
 
 
-- `permitbaremultisig=1`: Sallii *bare-Multisig* P2MS-tapahtumien välittämisen (oletus: `1`). Tämä on vanhin skriptimalli UTXO:n monisignatuuriehtojen luomiseen (Gavin Andresen keksi sen vuonna 2011).
+- `permitbaremultisig=1`: Sallii *bare-[Multisig](https://planb.academy/resources/glossary/multisig)* P2MS-tapahtumien välittämisen (oletus: `1`). Tämä on vanhin skriptimalli UTXO:n monisignatuuriehtojen luomiseen (Gavin Andresen keksi sen vuonna 2011).
 
 
 
@@ -3894,11 +3896,13 @@ Voit nyt siirtyä kurssin viimeiseen osaan, jossa voit arvioida BTC 202:n ja teh
 
 
 
-Sinulla on nyt useita vaihtoehtoja. Seuraava looginen askel on perustaa oma Lightning-solmusi, jolloin voit olla täysin riippumaton off-chain-tapahtumissasi. Tämä on aiheena tulevassa kurssissa, joka julkaistaan syksyllä 2025 Plan ₿ Academy:sta.
+Useita polkuja on nyt avoinna edessäsi. Seuraava looginen askel on oman Lightning-solmun perustaminen, jotta olisit täysin itsenäinen off-chain-transaktioissasi. Juuri tästä aiheesta käsittelee toinen kurssi Plan ₿ Academyssa:
 
 
 
-Sillä välin kutsun sinut tutustumaan BTC 204 -koulutukseen, jonka avulla voit ymmärtää ja hallita yksityisyyden suojan periaatteet Bitcoin:n käytössäsi:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Kutsun teid myös tutustumaan koulutukseen BTC 204, jonka avulla voitte ymmärtää ja hallita yksityisyyden suojan periaatteita Bitcoinin käytössänne:
 
 
 

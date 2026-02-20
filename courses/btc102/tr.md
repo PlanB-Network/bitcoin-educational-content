@@ -101,8 +101,6 @@ Bu eğitimin sonunda, Bitcoin ekosisteminde güvenle gezinmek ve en gelişmiş k
 Bitcoin dünyasına yolculuğunuza başlamaya hazır mısınız? Hadi başlayalım!
 
 
-**N.B.**: Kurs sırasında bilmediğiniz terimlerle karşılaşırsanız, lütfen tanımlar için [sözlüğe] (https://planb.academy/resources/glossary) başvurunuz.
-
 
 # Bitcoin'yi anlamak için ön koşullar
 
@@ -133,7 +131,7 @@ Daha ileri gitmeden önce, temelde farklı olan iki dünya arasında net bir ayr
 
 
 
-- Öte yandan kripto para sektörü** çok daha büyüktür ve her biri kendi token'üne sahip on binlerce farklı proje içerir. Bu alan genellikle hızlı inovasyon, yutturmaca ve kısa vadeli finansal spekülasyonlarla yönlendirilmektedir. Bu projelerin çoğu merkezileştirilmiş, daha az güvenli ve cesur vaatlere ve gösterişli pazarlamaya rağmen çok fazla gerçek değer sunmuyor.
+- Öte yandan [kripto para](https://planb.academy/resources/glossary/cryptocurrency) sektörü** çok daha büyüktür ve her biri kendi token'üne sahip on binlerce farklı proje içerir. Bu alan genellikle hızlı inovasyon, yutturmaca ve kısa vadeli finansal spekülasyonlarla yönlendirilmektedir. Bu projelerin çoğu merkezileştirilmiş, daha az güvenli ve cesur vaatlere ve gösterişli pazarlamaya rağmen çok fazla gerçek değer sunmuyor.
 
 
 ![BTC102-Bitcoin](assets/tr/001.webp)
@@ -544,7 +542,7 @@ Bitcoin dünyasının derinliklerine daldıkça, Wallet'ünüzün değeri arttı
 Kısacası: siber güvenliği hafife almayın, temelleri kurmak için zaman ayırın ve tutarlılığın anahtar olduğunu unutmayın. İyi bir dijital hijyen olmadan, en iyi araçlar bile sizin için fazla bir şey yapmayacaktır.
 
 
-Ayrıca Plan ₿ Academy'teki [bilgisayar güvenliği eğitimlerimize] (https://planb.academy/tutorials/computer-security) göz attığınızdan emin olun.
+Ayrıca Plan ₿ Academy'teki [bilgisayar güvenliği eğitimlerimize](https://planb.academy/tutorials/computer-security) göz attığınızdan emin olun.
 
 
 ![BTC102-Bitcoin](assets/tr/016.webp)
@@ -845,13 +843,13 @@ Yıllar içinde Bitcoin küresel bir para ağı olarak tanınırlık kazanmışt
 #### Cypherpunks ve bankacılık kontrolünün ötesinde bir sistemin icadı
 
 
-Bitcoin bir gecede doğmadı. Kriptografi, bilgisayar bilimi ve para teorisi alanlarında onlarca yıl süren araştırma ve deneylerin sonucudur. 2009'da piyasaya sürülmeden önce, birkaç proje (eCash, b-money, Bit Gold ve RPOW gibi) dijital para birimleri yaratmaya çalıştı. Hepsi aynı temel sorunla karşı karşıyaydı: merkezi olmayan bir sistemde merkezi bir otoriteye güvenmeden çifte harcamanın nasıl önleneceği.
+Bitcoin bir gecede doğmadı. [Kriptografi](https://planb.academy/resources/glossary/cryptography), bilgisayar bilimi ve para teorisi alanlarında onlarca yıl süren araştırma ve deneylerin sonucudur. 2009'da piyasaya sürülmeden önce, birkaç proje (eCash, b-money, Bit Gold ve RPOW gibi) dijital para birimleri yaratmaya çalıştı. Hepsi aynı temel sorunla karşı karşıyaydı: merkezi olmayan bir sistemde merkezi bir otoriteye güvenmeden çifte harcamanın nasıl önleneceği.
 
 
-Bu sorun, Satoshi Nakamoto adını kullanan birinin Bitcoin teknik incelemesini yayınladığı 2008 yılının sonlarına kadar çözümsüz kaldı. Birkaç ay sonra, Bitcoin'nın açık kaynaklı yazılımının ilk sürümü yayınlanarak bankalardan veya hükümetlerden bağımsız olarak çalışabilecek bir sistem başlatıldı.
+Bu sorun, Satoshi Nakamoto adını kullanan birinin Bitcoin [teknik incelemesini](https://planb.academy/resources/glossary/white-paper) yayınladığı 2008 yılının sonlarına kadar çözümsüz kaldı. Birkaç ay sonra, Bitcoin'nın [açık kaynaklı](https://planb.academy/resources/glossary/foss) yazılımının ilk sürümü yayınlanarak bankalardan veya hükümetlerden bağımsız olarak çalışabilecek bir sistem başlatıldı.
 
 
-Proje, çevrimiçi bireysel özgürlükleri korumak için kriptografiyi kullanmaya inanan geliştiriciler ve düşünürlerden oluşan bir topluluk olan Cypherpunk ethosundan büyük ölçüde etkilenmiştir. Onlar için gizlilik ve ademi merkeziyetçilik teknik tercihler değil, ideolojik gerekliliklerdi. Bitcoin bu ideallerin en başarılı uygulaması olarak ortaya çıktı: herkesin kullanabileceği, kimsenin kontrol edemeyeceği ve herkesin doğrulayabileceği eşler arası bir para ağı.
+Proje, çevrimiçi bireysel özgürlükleri korumak için kriptografiyi kullanmaya inanan geliştiriciler ve düşünürlerden oluşan bir topluluk olan [Cypherpunk](https://planb.academy/resources/glossary/cypherpunks) ethosundan büyük ölçüde etkilenmiştir. Onlar için gizlilik ve ademi merkeziyetçilik teknik tercihler değil, ideolojik gerekliliklerdi. Bitcoin bu ideallerin en başarılı uygulaması olarak ortaya çıktı: herkesin kullanabileceği, kimsenin kontrol edemeyeceği ve herkesin doğrulayabileceği [eşler arası](https://planb.academy/resources/glossary/peertopeer-p2p) bir para ağı.
 
 
 ![BTC102-Bitcoin](assets/tr/035.webp)
@@ -2116,7 +2114,7 @@ Kimliğinizi açıklamadan Bitcoin satın almak, gizliliğe öncelik verenler i�
 - P2P Platformları**: Bisq, RoboSats ve Peach gibi platformlar, işlemleri güvence altına almak için emanet sistemleri kullanarak kimlik doğrulamasına gerek kalmadan özel kişiler arasında alışverişi kolaylaştırır. Bu platformlar, karşı tarafın işbirliği yapmaması halinde hırsızlık riskini hala taşımaktadır, ancak risk emanet hizmetleri ile en aza indirilmiştir.
 - Bitcoin Otomatik Vezne Makineleri (ATM'ler)**: Bazı ATM'ler (kiosklar) nakit para ile Bitcoin satın almanıza izin verir, ancak ücretler yüksek olma eğilimindedir ve bazıları daha büyük işlemler için kimlik doğrulaması gerektirir.
 - KYC içermeyen Exchange platformları**: Özellikle İsviçre'deki bazı platformlar, kimlik doğrulaması gerektirmeden küçük miktarlarda Bitcoin satın almanıza izin verir.
-- Mining**: Bireyler Bitcoin madenciliği yapabilir. Daha eski veya daha küçük makinelere erişilebilir ve KYC olmadan Bitcoin elde etmek için geleneksel olmayan bir yol sağlar. Bir Mining pool'e katılarak, temel ekipmanlarla bile düzenli ödemeler kazanabilirsiniz. Daha fazla bilgi için [Mining eğitimlerimize göz atın] (https://planb.academy/tutorials/mining).
+- Mining**: Bireyler Bitcoin madenciliği yapabilir. Daha eski veya daha küçük makinelere erişilebilir ve KYC olmadan Bitcoin elde etmek için geleneksel olmayan bir yol sağlar. Bir Mining pool'e katılarak, temel ekipmanlarla bile düzenli ödemeler kazanabilirsiniz. Daha fazla bilgi için [Mining eğitimlerimize göz atın](https://planb.academy/tutorials/mining).
 - Ödemeler / Maaş bitcoin olarak**: Eğer bir işletme işletiyorsanız, ödeme olarak Bitcoin kabul edebilirsiniz. Çalışıyorsanız, yargı alanınıza bağlı olarak, Bitcoin ile ödeme yapılmasını isteyebilirsiniz. Bu yöntemler KYC olmadan Bitcoin elde etmenizi sağlar.
 
 
@@ -2815,7 +2813,7 @@ Bitcoin harcama tercihi sıklıkla eleştiri konusu olmaktadır. Bazı Bitcoin k
 Daha mantıklı bir yaklaşım "Harca ve Değiştir" yöntemidir. Bu, daha önce bahsedilen tüm nedenlerle Bitcoin harcamak ve ardından Bitcoin birikimlerinizin azalmasına izin vermek yerine, fiat para birimi ile yenilerini satın alarak harcanan Sats'ü değiştirmek anlamına gelir.
 
 
-Bitcoin harcamalarını kolaylaştırmak için, dünya çapında Bitcoin kabul eden tüccarları gösteren [BTC Map] (https://btcmap.org/) gibi birçok araç mevcuttur. Bu tüccarlardan bazıları çevrimiçi sipariş vermenize ve ürünlerin teslim edilmesine bile izin verir.
+Bitcoin harcamalarını kolaylaştırmak için, dünya çapında Bitcoin kabul eden tüccarları gösteren [BTC Map](https://btcmap.org/) gibi birçok araç mevcuttur. Bu tüccarlardan bazıları çevrimiçi sipariş vermenize ve ürünlerin teslim edilmesine bile izin verir.
 
 
 Hala tüm günlük tüccarların BTC'yi kabul etmediği bir geçiş aşamasında olduğumuz için, bazı basit ama etkili geçici çözümler var. Örneğin, Bitcoin ile hediye kartları satın almak pratik bir çözümdür ve Bitrefill, Coinsbee veya The Bitcoin Company gibi birçok sağlayıcı bu hizmeti sunmaktadır.
@@ -2910,7 +2908,7 @@ Paranoyak kullanıcı fonları asla kaynağına veya kullanımına göre karış
 
 
 
-- Bir Cold Wallet (hava boşluklu ve/veya kendin yap)** Uzun vadeli varlıklar yüksek güvenlikli, hava boşluklu veya kendin yap cüzdanlarda saklanır. Bunlar genellikle açık kaynaklı cihazlar veya Jade, Coldcard, SeedSigner, Portal veya Passport gibi doğrulanabilir koda sahip cihazlardır... Mümkün olduğunda, bu cihazları anonim olarak edinecekler; ya nakit ödeme yaparak ya da fiziksel bir mağazada Bitcoin kullanarak ya da gizli nakliye seçenekleri ve BTC ödemeleri ile çevrimiçi sipariş vererek. Örneğin Fransa'da [Bitcoin Bazar] (https://bitcoinbazar.fr/) böyle bir mağaza. Bölgenizdeki benzer sağlayıcıları arayabilirsiniz.
+- Bir Cold Wallet (hava boşluklu ve/veya kendin yap)** Uzun vadeli varlıklar yüksek güvenlikli, hava boşluklu veya kendin yap cüzdanlarda saklanır. Bunlar genellikle açık kaynaklı cihazlar veya Jade, Coldcard, SeedSigner, Portal veya Passport gibi doğrulanabilir koda sahip cihazlardır... Mümkün olduğunda, bu cihazları anonim olarak edinecekler; ya nakit ödeme yaparak ya da fiziksel bir mağazada Bitcoin kullanarak ya da gizli nakliye seçenekleri ve BTC ödemeleri ile çevrimiçi sipariş vererek. Örneğin Fransa'da [Bitcoin Bazar](https://bitcoinbazar.fr/) böyle bir mağaza. Bölgenizdeki benzer sağlayıcıları arayabilirsiniz.
 
 
 https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
@@ -2922,7 +2920,7 @@ https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
 
-- Günlük işlemler için bir Hot Wallet**, Düzenli harcamalar için paranoyak kullanıcılar Ashigaru, Wasabi Wallet veya Sparrow wallet gibi gizlilik odaklı cüzdanları tercih eder. Bu cüzdanlar, mini CoinJoin harcama işlemleri, payjoins, potansiyel CoinJoin araçları, Coin kontrolü, UTXO etiketleme veya kendi Bitcoin düğümünüz üzerinden bağlanma yeteneği gibi gelişmiş özellikleri destekler.
+- Günlük işlemler için bir Hot Wallet**, Düzenli harcamalar için paranoyak kullanıcılar Ashigaru, Wasabi Wallet veya Sparrow wallet gibi gizlilik odaklı cüzdanları tercih eder. Bu cüzdanlar, mini [CoinJoin](https://planb.academy/resources/glossary/coinjoin) harcama işlemleri, payjoins, potansiyel CoinJoin araçları, Coin kontrolü, UTXO etiketleme veya kendi Bitcoin düğümünüz üzerinden bağlanma yeteneği gibi gelişmiş özellikleri destekler.
 
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
@@ -3184,7 +3182,7 @@ Miras planı için sadece 15 dakika ila bir saat harcamak büyük fark yaratabil
 ### Bitcoin Yedekleme Planının Hedefleri
 
 
-Pamela Morgan, *[Cryptoasset Inheritance Planning] (https://www.amazon.com/gp/product/1947910116/)* adlı kitabında, sağlam bir miras planı için dört temel hedefin ana hatlarını çizmektedir:
+Pamela Morgan, *[Cryptoasset Inheritance Planning](https://www.amazon.com/gp/product/1947910116/)* adlı kitabında, sağlam bir miras planı için dört temel hedefin ana hatlarını çizmektedir:
 
 
 
@@ -3600,7 +3598,7 @@ Bitcoin finansal bir araçtan daha fazlasıdır; bu bir harekettir. Becerilerini
 - Yerel bir topluluğa katılın**: Diğer bitcoin kullanıcılarıyla tanışmak ve en son gelişmeler hakkında Exchange görüşlerini almak için etkinliklere, buluşmalara ve forumlara katılın.
 
 
-Başkalarını eğitmeye yardımcı olmak isterseniz, Plan ₿ Academy her zaman katkıda bulunacak kişiler arıyor! Tüm eğitim içeriğimiz açık kaynaklıdır ve GitHub'da barındırılmaktadır. İçeriği düzeltmeye ve çeşitli dillere çevirmeye yardımcı olacak katılımcıları bekliyoruz; birkaç Sats için Exchange'da! İster şimdi ister daha sonra Bitcoin yolculuğunuzda, Plan ₿ Academy'un [katkıda bulunanlar için Telegram grubumuza] (https://t.me/PlanBNetwork_ContentBuilder) katılmaya davetlisiniz.
+Başkalarını eğitmeye yardımcı olmak isterseniz, Plan ₿ Academy her zaman katkıda bulunacak kişiler arıyor! Tüm eğitim içeriğimiz açık kaynaklıdır ve GitHub'da barındırılmaktadır. İçeriği düzeltmeye ve çeşitli dillere çevirmeye yardımcı olacak katılımcıları bekliyoruz; birkaç Sats için Exchange'da! İster şimdi ister daha sonra Bitcoin yolculuğunuzda, Plan ₿ Academy'un [katkıda bulunanlar için Telegram grubumuza](https://t.me/PlanBNetwork_ContentBuilder) katılmaya davetlisiniz.
 
 
 ### Son Sözler

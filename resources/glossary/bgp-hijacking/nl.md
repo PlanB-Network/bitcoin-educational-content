@@ -1,5 +1,6 @@
 ---
-term: BGP AFLUISTEREN
+term: BGP-hijacking
+definition: Aanval die internet-routing manipuleert om verkeer om te leiden naar een kwaadaardig netwerk, wat kan worden gebruikt om Bitcoin-nodes te isoleren.
 ---
 
 Aanval waarbij een kwaadwillende actor BGP-advertenties manipuleert om internetverkeer om te leiden naar zijn eigen netwerk. Door zich voor te doen als de legitieme herkomst van bepaalde IP Address reeksen, kan de aanvaller verkeer bestemd voor deze adressen onderscheppen, controleren of blokkeren.

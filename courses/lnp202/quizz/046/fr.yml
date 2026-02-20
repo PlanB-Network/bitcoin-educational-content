@@ -1,0 +1,9 @@
+question: Pourquoi un paiement sortant crée-t-il mécaniquement de la liquidité entrante ?
+answer: Déplacement de la liquidité
+wrong_answers:
+  - Création de nouveaux canaux
+  - Augmentation de la capacité
+  - Réduction des frais de routage
+explanation: |
+  Un paiement sortant déplace les sats vers le pair, ce qui crée de la liquidité entrante de ce côté du canal.
+reviewed: false

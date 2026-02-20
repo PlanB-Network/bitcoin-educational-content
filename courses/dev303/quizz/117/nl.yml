@@ -1,0 +1,8 @@
+question: Wat is de fundamentele reden waarom de architectuur van de Breez SDK hindernissen in de regelgeving, die gewoonlijk van invloed zijn op custodial Lightning-diensten, voorkomt?
+answer: Gebruikers behouden volledige controle over hun privésleutels die hun apparaten nooit verlaten, waardoor het geen onbewaringseffecten heeft
+wrong_answers:
+  - De SDK werkt via gedecentraliseerde LSP's die de regelgevende verantwoordelijkheid verdelen over meerdere rechtsgebieden
+  - Greenlight-infrastructuur wordt gehost in regelgevende rechtsgebieden die cloud-gebaseerde Lightning-diensten vrijstellen
+  - Het just-in-time kanaalmechanisme creëert tijdelijke betalingskanalen die buiten de traditionele financiële regelgeving vallen
+explanation: |
+  De Breez SDK vermijdt wettelijke hindernissen omdat het niet-custodial principes handhaaft - de private sleutels van gebruikers verlaten nooit hun apparaten en Greenlight kan geen toegang krijgen tot gebruikersfondsen of ongeautoriseerde operaties uitvoeren. Deze niet-custodiale architectuur betekent dat de software geen geld van klanten vasthoudt, in tegenstelling tot custodial services die worden geconfronteerd met aanzienlijke wettelijke vereisten omdat ze activa van gebruikers controleren. De andere opties suggereren ten onrechte dat de voordelen op het gebied van regelgeving voortkomen uit technische kenmerken of juridische strategieën, terwijl het belangrijkste voordeel simpelweg is dat niet-custodial software wereldwijd met minder barrières op het gebied van regelgeving te maken heeft.

@@ -14,7 +14,7 @@ Uidhinishaji wa Bitcoin umekuwa mkubwa kote ulimwenguni, kutokana na uwezekano u
 
 
 
-Flash ni jukwaa linalokuwezesha, kama mfanyabiashara au mjasiriamali, kukusanya malipo kulingana na kuwekelea kwa umeme wa itifaki ya Bitcoin. Jukwaa ni angavu, na tangu mwanzo hukuchukua kupitia hatua zinazohusika katika kusanidi shirika lako.
+Flash ni jukwaa linalokuwezesha, kama mfanyabiashara au mjasiriamali, kukusanya malipo kulingana na kuwekelea kwa bitcoin lightning protocol Jukwaa ni angavu, na tangu mwanzo hukuchukua kupitia hatua zinazohusika katika kusanidi shirika lako.
 
 
 
@@ -59,13 +59,13 @@ Mfumo wa Flash hukubali biashara kutoka mabara yote, ikiwa ni pamoja na Afrika (
 
 
 
-Kulingana na Umeme Wallet unayotumia, utapata chaguzi zifuatazo:
+Kulingana na lightning Wallet unayotumia, utapata chaguzi zifuatazo:
 
 
 
 
 
-- Alby Hub** kwa pochi za Alby Go, kiendelezi cha Alby kwa kivinjari chako.
+- **Alby Hub** kwa wallet za Alby Go, kiendelezi cha Alby kwa kivinjari chako.
 
 
 
@@ -73,9 +73,9 @@ https://planb.academy/tutorials/wallet/mobile/alby-go-40202802-b346-4a3c-9863-46
 
 
 
-- Coinos** kuunganisha mtandao wa Bitcoin CoinOS Wallet.
-- Flash Wallet** kwa ajili ya kuunganisha kwa Flash Wallet.
-- Kiungo cha LN**
+- **Coinos** kuunganisha mtandao wa Bitcoin CoinOS Wallet.
+- **Flash Wallet** kwa ajili ya kuunganisha kwa Flash Wallet.
+- **Kiungo cha LN**
 
 
 
@@ -114,7 +114,7 @@ Mara tu unapounganisha Bitcoin Wallet yako, bainisha vipengele vinavyokuvutia na
 
 
 
-Ukishakamilisha usanidi huu wa awali, katika sehemu ya juu ya mkono wa kulia wa Coin ya dashibodi yako, utaweza kuangalia kama akaunti yako iko na inafanya kazi.
+Ukishakamilisha usanidi huu wa awali, unaweza kuangalia kama akaunti yako ipo na inafanya kazi kupitia sehemu ya juu kulia ya dashibodi ya Coin.
 
 
 
@@ -122,7 +122,7 @@ Ukishakamilisha usanidi huu wa awali, katika sehemu ya juu ya mkono wa kulia wa 
 
 
 
-Je, tayari una duka halisi katika eneo lako na ungependa kukubali malipo ya Bitcoin? Chaguo la **Pointi ya Uuzaji** la Flash ndilo suluhu sahihi kwako.
+Je, tayari una duka halisi katika eneo lako na ungependa kukubali malipo ya Bitcoin? Chaguo la **Point of sale** la Flash ndilo suluhu sahihi kwako.
 
 
 
@@ -144,7 +144,7 @@ Kwenye ukurasa wako wa dashibodi, bofya kwenye **Anza** katika roboduara ya **Nj
 
 
 
-Kabla ya kwenda kwenye Interface hii ili kuanza kukusanya malipo katika Bitcoin, tunapendekeza uunde bidhaa zinazopatikana katika duka lako kwa ufuatiliaji bora zaidi, ili kuwa na hesabu kwenye Flash.
+Kabla hujaingia kwenye kiolesura hiki ili kuanza kukubali malipo kwa Bitcoin, tunapendekeza uunde bidhaa ambazo zitawekwa kwenye duka lako. Hii itasaidia ufuatiliaji wa bei na biashara vizuri zaidi, na kuhakikisha una kumbukumbu ya manunuzi ndani ya Flash.
 
 
 
@@ -172,7 +172,7 @@ Unaweza kufikia menyu ya Pointi za Uuzaji kwa kubofya jina la eneo lako la mauzo
 
 
 
-Nakili kiungo cha Interface cha sehemu yako ya mauzo na uifikie. Katika sehemu ya **Bidhaa**, utapata orodha ya bidhaa zote ambazo umehusisha na duka hili. Basi unaweza ankara za generate Bitcoin (Umeme) ili kuwatoza wateja wako.
+Nakili kiungo cha Interface cha sehemu yako ya mauzo na uifikie. Katika sehemu ya **Bidhaa**, utapata orodha ya bidhaa zote ambazo umehusisha na duka hili. Basi unaweza generate nkara za Bitcoin (lightning) ili kuwatoza wateja wako.
 
 
 
@@ -281,7 +281,7 @@ Katika menyu, nenda kwa Interface kwa chaguo la **Duka**, kisha ubofye **Duka ji
 
 
 
-Sanidi maelezo ya duka lako kwa kuweka jina la kipekee linaloonekana kwako tu, jina la umma kwa wageni wako, maelezo ya duka lako na taswira za utambulisho wa chapa yako (nembo, bango la jalada). Chagua sarafu ambayo ungependa kuweka bidhaa kwenye tovuti yako. Bei za bidhaa hizi zitabadilishwa kuwa Bitcoin kwa kutumia kiwango cha sasa cha ubadilishaji wa soko, na kuunganisha Bitcoin Wallet ambayo ungependa kupokea malipo.
+Sanidi maelezo ya duka lako kwa kuweka jina la kipekee linaloonekana kwako tu, jina la umma kwa wageni wako, maelezo ya duka lako na taswira za chapa yako (nembo, bango au jalada). Chagua sarafu unayotaka kutumia kuweka bidhaa kwenye tovuti yako. Bei za bidhaa hizi zitabadilishwa kuwa Bitcoin kulingana na kiwango cha sasa cha ubadilishaji wa soko, na uunganishe Bitcoin wallet ambayo utapokea malipo kupitia nayo.
 
 
 

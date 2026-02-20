@@ -54,7 +54,7 @@ https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb
 
 
 
-В този урок ще ви покажа как да направите Multisig със [софтуер за управление на Sparrow Wallet wallet] (https://sparrowwallet.com/download/). Ако все още не сте инсталирали този софтуер, моля, направете го сега. Ако имате нужда от помощ, имаме и подробно ръководство за конфигуриране на Sparrow Wallet Wallet :
+В този урок ще ви покажа как да направите Multisig със [софтуер за управление на Sparrow Wallet wallet](https://sparrowwallet.com/download/). Ако все още не сте инсталирали този софтуер, моля, направете го сега. Ако имате нужда от помощ, имаме и подробно ръководство за конфигуриране на Sparrow Wallet Wallet :
 
 
 

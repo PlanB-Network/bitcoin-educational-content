@@ -1,0 +1,9 @@
+question: Blok başlığındaki nonce ne işe yarar?
+answer: Yeniden denemek için başlığı değiştirmeye
+wrong_answers:
+  - Blok boyutunu artırmaya
+  - Bloktaki işlemlerin tamamını temsil etmeye
+  - Zorluk hedefini belirtmeye
+explanation: |
+  Nonce'un değiştirilmesi hash girişini değiştirir ve tamamen farklı bir parmak izi üretir. Bu da geçerli bir hash bulmak için yeniden denemeye olanak sağlar.
+reviewed: false

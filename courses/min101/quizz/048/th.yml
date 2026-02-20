@@ -1,0 +1,9 @@
+question: สระ mining แรกสุดใน Bitcoin คืออะไร?
+answer: Braiins Pool
+wrong_answers:
+  - Foundry USA
+  - AntPool
+  - F2Pool
+explanation: |
+  Braiins Pool ซึ่งเดิมชื่อ Slush Pool และ Bitcoin CZ เป็นสระ mining แรกใน Bitcoin ที่สร้างขึ้นในปี 2010
+reviewed: true

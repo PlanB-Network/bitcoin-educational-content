@@ -1,0 +1,8 @@
+question: Ni ubuhe bwoko bw'igikorwa Rust ikora ku buryo busanzwe igihe itanga umuhinduzi umwe w'urudodo ku wundi?
+answer: Igikorwa kija kwimurira ubwiwe kandi kigahindura ubusa umuhinduzi w'inkomoko
+wrong_answers:
+  - Kopi yimbitse yisubiriza amakuru yose y'ikirundo kugira ngo ureme imirongo yigenga
+  - Kopi y'igitutu irema ibimenyetso bibiri ku bubiko bumwe bw'ikirundo
+  - Irema ry'inyandiko ryemerera ibihinduka vyose gusangira gusoma gusa
+explanation: |
+  Rust ikora igikorwa co kwimura ku buryo busanzwe iyo itanga ubwoko bugoranye nka String. Ivyo bihindura ubuninahazwa buva ku nkomoko buja ku mpinduka y'aho ija mu gihe bihindura ubusa inkomoko, bikabuza ibintu biteye akaga aho imihinduzi myinshi yoshobora guhindura ubwonko bumwe bw'ikirundo. Kopi yimbitse yoba idakora neza ku mirongo minini, kopi idakomeye yotuma haba ibibazo vy'umutekano w'ubwenge n'ibimenyetso vyinshi ku makuru amwe, kandi gukora ibisobanuro bisaba insiguro igaragara n'umukoresha w'ampersand.

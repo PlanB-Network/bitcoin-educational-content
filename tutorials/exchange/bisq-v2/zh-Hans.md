@@ -90,7 +90,7 @@ https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21
 
 ### 2.根据系统进行安装
 
-请按照适合您操作系统的安装步骤进行安装。如果在安装过程中遇到任何困难，可以查阅 [Bisq 官方维基] (https://bisq.wiki/Downloading_and_installing) 上的详细指南。
+请按照适合您操作系统的安装步骤进行安装。如果在安装过程中遇到任何困难，可以查阅 [Bisq 官方维基](https://bisq.wiki/Downloading_and_installing) 上的详细指南。
 
 ### 3.首次启动
 

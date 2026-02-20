@@ -1,6 +1,7 @@
 ---
-term: LOMMEBOKENS FOTAVTRYKK
+term: Lommebokavtrykk
 
+definition: Særpregede egenskaper observerbare i en lommeboks transaksjoner som gjør det mulig å spore dens aktiviteter.
 ---
 Et sett med karakteristiske kjennetegn som kan observeres i transaksjoner utført av den samme Bitcoin-lommeboken. Disse kjennetegnene kan inkludere likheter i bruken av skripttyper, gjenbruk av adresser, rekkefølgen på UTXO-er, plasseringen av endringsutganger, signaleringen av RBF (*Replace-by-Fee*), versjonsnummeret, `nSequence`-feltet og `nLockTime`-feltet.
 

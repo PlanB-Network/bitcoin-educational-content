@@ -1,0 +1,9 @@
+question: Hva brukes noncen til i blokkhodet?
+answer: Variere blokkhodet for et nytt forsøk
+wrong_answers:
+  - Øke blokkstørrelsen
+  - Representere alle transaksjonene i blokken
+  - Angi vanskelighetsmålet
+explanation: |
+  Endring av noncen endrer inndataene til hashen og produserer et helt annet fingeravtrykk. Dette gjør det mulig å prøve på nytt å finne en gyldig hash.
+reviewed: false

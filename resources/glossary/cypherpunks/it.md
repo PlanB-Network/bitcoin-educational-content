@@ -1,6 +1,7 @@
 ---
-term: CIFRE
+term: Cypherpunks
 
+definition: Comunità che promuove la crittografia come mezzo per proteggere le libertà individuali su Internet.
 ---
 Una comunità informale e internazionale di individui che promuove l'uso della crittografia come mezzo per garantire le libertà individuali su Internet. I cypherpunk sostengono il diritto fondamentale degli individui a proteggere la propria privacy, soprattutto in un contesto di crescente sorveglianza statale e di sfruttamento dei dati da parte di entità private. Il loro nome deriva dalle parole inglesi *cypher*, che significa "codice segreto", e *punk*. È un gioco di parole con il termine *cyberpunk*, che descrive un genere letterario che descrive un futuro distopico in cui la tecnologia all'avanguardia si intreccia con il vizio e il crimine in una società in decadenza.
 

@@ -1,0 +1,13 @@
+question: Was ist die Rolle von Nodes im Bitcoin-Netzwerk?
+answer: Nodes erhalten die Integrität, indem sie Transaktionen und Blöcke verifizieren und validieren.
+wrong_answers:
+  - Nodes erstellen und validieren Blöcke.
+  - Nodes verifizieren nur Transaktionen.
+  - Nodes haben keine Rolle im Bitcoin-Netzwerk.
+explanation: |
+  Im Bitcoin-Netzwerk erhalten Nodes die Integrität des
+  Netzwerks, indem sie Transaktionen und Blöcke verifizieren
+  und validieren. Ein inkorrekter oder betrügerischer Block
+  wird von den Nodes abgelehnt, was die Sicherheit des
+  Netzwerks bewahrt.
+reviewed: true

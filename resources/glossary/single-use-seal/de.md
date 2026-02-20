@@ -1,5 +1,6 @@
 ---
-term: Single-Use Seal
+term: Einmalsiegel
+definition: Kryptografischer Mechanismus, der die Einzigartigkeit der Validierung garantiert und bei RGB gegen Double-Spending eingesetzt wird.
 ---
 
 Bezieht sich auf ein kryptografisches Versprechen von Commitment, das sich auf eine noch unbekannte Nachricht bezieht, die nur einmal in der Zukunft offenbart wird und für die Gesamtheit eines bestimmten Publikums zugänglich sein muss. Mit diesem Mechanismus soll verhindert werden, dass mehrere konkurrierende Zusagen für dieselbe Seal erstellt werden, wodurch die Einzigartigkeit jeder Validierung gewährleistet wird. Durch die Auferlegung dieser Einwegbeschränkung wird Single-Use Seal auf RGB verwendet, um Double-spending zu vermeiden.

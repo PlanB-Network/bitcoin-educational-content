@@ -42,7 +42,7 @@ Bạn không cần bất kỳ kiến thức chuyên môn hay kiến thức sâu 
 
 
 
-Truy cập trang web [Coinos] (https://coinos.io/) trên trình duyệt của bạn và nhấp vào **Bắt đầu sau vài giây**.
+Truy cập trang web [Coinos](https://coinos.io/) trên trình duyệt của bạn và nhấp vào **Bắt đầu sau vài giây**.
 
 
 

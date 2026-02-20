@@ -1,0 +1,8 @@
+question: Selon l'individualisme méthodologique de l'école autrichienne, comment doit-on analyser les phénomènes économiques?
+answer: En partant des actions et intentions individuelles pour comprendre les phénomènes collectifs
+wrong_answers:
+  - En utilisant des modèles mathématiques pour analyser les comportements des groupes sociaux
+  - "En étudiant les forces collectives abstraites qui déterminent l'économie dans son ensemble"
+  - En appliquant des lois historiques déterministes aux grands agrégats économiques
+explanation: |
+  L'individualisme méthodologique affirme que les phénomènes économiques ne peuvent être compris qu'en les ramenant aux actions individuelles. Cette approche s'oppose aux méthodes qui privilégient l'analyse par agrégats, modèles mathématiques standardisés ou forces collectives abstraites. Pour l'école autrichienne, les phénomènes macroéconomiques résultent de millions de décisions individuelles subjectives et dynamiques.

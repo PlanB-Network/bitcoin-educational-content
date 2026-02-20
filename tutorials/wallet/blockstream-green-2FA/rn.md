@@ -77,7 +77,7 @@ Intambwe ya mbere ni ugukuraho porogarama ya Green. Genda mu bubiko bwawe bw'ibi
 
 
 - [Ku bijanye na Android](https://gukina.google.com/iduka/amaporogarama/ibisobanuro?id=com.aderesi y'icatsi kibisi.ibice_vyatsi_vyatsi_vyatsi_vyatsi_vyatsi_vyatsi_vyatsi_vyatsi_vyatsi_vyatsi_vyatsi_vyatsi_vyatsi_vyatsi_vyatsi_vyatsi_vyatsi_vyatsi_vyatsi_vyatsi_vyatsi_vyatsi
-- [Ku bijanye na Apple] (imbuga ngurukanabumenyi).
+- [Ku bijanye na Apple](imbuga ngurukanabumenyi).
 
 ![GREEN 2FA MULTISIG](assets/fr/03.webp)
 

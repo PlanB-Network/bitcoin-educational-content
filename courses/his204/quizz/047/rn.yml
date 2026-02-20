@@ -1,8 +1,9 @@
-question: Ni kuki François Quesnay yagumye i Versailles, mu nzu y’imbere y’amazu ya Madamu de Pompadour?
+question: Ni kuki François Quesnay yagumye i Versailles, Imbere y’amazu mu vyumba vya Madamu de Pompadour?
 answer: Yari umuganga wiwe bwite .
 wrong_answers:
   - Ni kimwe muvyo yakunda cane .
-  - Yaramurondeye uburinzi n’ivyiza .
+  - Yaramuronderako uburinzi n’ivyiza .
   - Yari umujanama wiwe mu vy'amahera .
 explanation: |
-  Quesnay yari umuganga wa Madame de Pompadour, ivyo bikaba vyatuma agira agateka ko kuja mu rubanza, kandi bikamufasha kugira ico akoze ku ngingo za politike.
+  Quesnay yari umuganga wa Madame de Pompadour, ivyo bikaba vyatuma agira agateka ko kuja mu ibwami, kandi bikamufasha kugira ico akoze ku ngingo za politike.
+reviewed: true

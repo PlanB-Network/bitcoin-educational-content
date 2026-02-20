@@ -90,7 +90,7 @@ BTCPay Server dapat diinstal dengan beberapa cara yang berbeda. Bergantung pada 
 
 
 - Server BTCPay yang dihosting oleh pihak ketiga**: Anda menggunakan platform yang menghosting layanan untuk Anda. Sederhana, tetapi biasanya tidak gratis.
-- Server BTCPay dihosting sendiri di server cloud** (misalnya melalui [btcpayprovider] (https://btcpayprovider.com/), [Bitcoin People] (http://bitcoinpeople.it/) atau penyedia lainnya). Ini adalah solusi yang direkomendasikan untuk sebagian besar pedagang pemula.
+- Server BTCPay dihosting sendiri di server cloud** (misalnya melalui [btcpayprovider](https://btcpayprovider.com/), [Bitcoin People](http://bitcoinpeople.it/) atau penyedia lainnya). Ini adalah solusi yang direkomendasikan untuk sebagian besar pedagang pemula.
 - Server BTCPay diinstal pada perangkat keras Anda sendiri (secara lokal)**: di komputer, mini-PC atau Umbrel. Metode ini lebih bersifat teknis, tetapi menawarkan kemandirian total.
 
 
@@ -113,7 +113,7 @@ BTCPay Server dapat digunakan dengan cepat dari sejumlah penyedia hosting. Di an
 
 
 
-Kunjungi [situs web resmi Voltage] (https://voltage.cloud).
+Kunjungi [situs web resmi Voltage](https://voltage.cloud).
 
 
 

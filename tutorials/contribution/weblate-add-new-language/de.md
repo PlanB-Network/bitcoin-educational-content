@@ -10,14 +10,14 @@ Unsere Website bietet derzeit eine Reihe von Sprachen, und wir arbeiten ständig
 
 Wenn Ihre Muttersprache noch nicht auf unserer Website verfügbar ist und Sie sie hinzufügen möchten, ist dieses Tutorial genau das Richtige für Sie!
 
-Nehmen Sie zunächst Kontakt mit dem Team des Plan ₿ Academy über unsere [Telegram-Gruppe] (https://t.me/PlanBNetwork_ContentBuilder) auf. Wenn Sie kein Telegram haben, können Sie eine E-Mail an mari@planb.network senden. Stellen Sie sicher, dass Sie eine kleine Präsentation darüber schreiben, wer Sie sind und welche Sprachen Sie sprechen.
+Nehmen Sie zunächst Kontakt mit dem Team des Plan ₿ Academy über unsere [Telegram-Gruppe](https://t.me/PlanBNetwork_ContentBuilder) auf. Wenn Sie kein Telegram haben, können Sie eine E-Mail an mari@planb.network senden. Stellen Sie sicher, dass Sie eine kleine Präsentation darüber schreiben, wer Sie sind und welche Sprachen Sie sprechen.
 
 ## Prüfen, ob eine Sprache auf dem Weblate vorhanden ist
 
 Um zu prüfen, ob Ihre Sprache bereits zu den Sprachen gehört, an denen wir arbeiten.
 
 
-- Gehen Sie zu [unserer Weblate-Plattform] (https://weblate.planb.network/projects/planb-network-website/):
+- Gehen Sie zu [unserer Weblate-Plattform](https://weblate.planb.network/projects/planb-network-website/):
 
 ![language](assets/01.webp)
 
@@ -45,7 +45,7 @@ Wenn Ihre Sprache dort nicht vorhanden ist, folgen Sie der nachstehenden Anleitu
 ![language](assets/04.webp)
 
 
-- Öffnen Sie die Dropdown-Liste und wählen Sie die Sprache aus, die Sie hinzufügen möchten. Wenn die von Ihnen gesuchte Sprache nicht in der Dropdown-Liste verfügbar ist, können Sie sich an die [Telegram-Gruppe] (https://t.me/PlanBNetwork_ContentBuilder) wenden, damit unser Team sie manuell erstellen kann:
+- Öffnen Sie die Dropdown-Liste und wählen Sie die Sprache aus, die Sie hinzufügen möchten. Wenn die von Ihnen gesuchte Sprache nicht in der Dropdown-Liste verfügbar ist, können Sie sich an die [Telegram-Gruppe](https://t.me/PlanBNetwork_ContentBuilder) wenden, damit unser Team sie manuell erstellen kann:
 
 ![language](assets/05.webp)
 

@@ -95,13 +95,14 @@ server=1
 
 然后返回 Sparrow Wallet，输入 cookie 文件的路径，通常与 `Bitcoin.conf`位于同一文件夹，具体取决于操作系统：
 
-| **macOS** | ~/Library/Application Support/Bitcoin | **macOS** | ~/Library/Application Support/Bitcoin
 
+
+
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-
-| **Windows** | %APPDATA%\Bitcoin | %APPDATA%\Bitcoin | %APPDATA%\Bitcoin
-
-| **Linux** | ~/.Bitcoin | **Bitcoin**
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 
@@ -123,13 +124,14 @@ server=1
 
 编辑文件后，确保将其保存在操作系统的相应文件夹中：
 
-| **macOS** | ~/Library/Application Support/Bitcoin | **macOS** | ~/Library/Application Support/Bitcoin
 
+
+
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-
-| **Windows** | %APPDATA%\Bitcoin | %APPDATA%\Bitcoin | %APPDATA%\Bitcoin
-
-| **Linux** | ~/.Bitcoin | **Linux** | ~/.Bitcoin
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 也可通过 Bitcoin-QT Interface 图形化 Interface 执行此操作。进入 "*设置*"菜单，然后是 "*选项...*"，勾选相应复选框激活 "*启用 RPC 服务器*"选项。如果 "Bitcoin.conf "文件不存在，您可以点击 "*Open Configuration File*（*打开配置文件*）"，直接从 Interface 创建该文件。
 

@@ -1,0 +1,9 @@
+question: Kusudi kuu la kipanga njia kwenye Lightning ni lipi?
+answer: Pata pesa kwa ada za uelekezaji
+wrong_answers:
+  - Pata pesa kwa kuonyesha njia
+  - Kupata pesa kwa kuuza ukwasi unaoingia
+  - Pata pesa kwa kuchapisha hali za chaneli zilizopitwa na wakati
+explanation: |
+  Kipanga njia hutafuta kuelekeza malipo kutoka kwa wengine kwa kukusanya ada za kuelekeza.
+reviewed: false

@@ -496,7 +496,7 @@ torsocks wget http://zkaan2xfbuxia2wpf7ofnkbz6r5zdbbvxbunvp5g2iebopbfc4iqmbad.on
 
 
 
-Recuperare l'archivio compresso contenente il codice sorgente di Dojo. In questo esempio, la versione più recente è la `1.27.0`: modificare il comando secondo [l'ultima versione qui sul repository ufficiale di GitHub] (https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases).
+Recuperare l'archivio compresso contenente il codice sorgente di Dojo. In questo esempio, la versione più recente è la `1.27.0`: modificare il comando secondo [l'ultima versione qui sul repository ufficiale di GitHub](https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases).
 
 
 
@@ -1103,7 +1103,7 @@ Lo strumento di manutenzione Dojo è un Interface sicuro, basato sul web, che co
 
 
 
-Per accedervi, è necessario conoscere l'URL del proprio DMT e connettersi ad esso [tramite il browser Tor] (https://www.torproject.org/download/). Per farlo, aprire un terminale e andare nella cartella `/my-dojo`:
+Per accedervi, è necessario conoscere l'URL del proprio DMT e connettersi ad esso [tramite il browser Tor](https://www.torproject.org/download/). Per farlo, aprire un terminale e andare nella cartella `/my-dojo`:
 
 
 

@@ -1,5 +1,6 @@
 ---
-term: UFUNGUO ULIOpanuliwa
+term: Ufunguo uliopanuliwa
+definition: Msururu unaounganisha kitufe, chain code yake, na metadata kwa ajili ya derivation katika pochi za HD.
 ---
 
 Msururu wa herufi unaochanganya ufunguo (wa umma au wa faragha), msimbo wake wa mnyororo unaohusishwa, na mfululizo wa metadata. Ufunguo uliopanuliwa hujumuisha Elements zote zinazohitajika ili kupata funguo za watoto kuwa kitambulisho kimoja. Zinatumika katika pochi za kuamua na za viwango na zinaweza kuwa za aina mbili: ufunguo wa umma uliopanuliwa (hutumika kupata funguo za umma za watoto) au ufunguo wa faragha uliopanuliwa (hutumika kupata funguo za kibinafsi na za umma). Ufunguo uliopanuliwa kwa hivyo unajumuisha vipande kadhaa tofauti vya data, vilivyoelezewa katika BIP32, kwa mpangilio:

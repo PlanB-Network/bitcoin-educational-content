@@ -1,0 +1,11 @@
+question: Ni gute abacukuzi ba Bitcoin bashobora gufasha mu gucunga inguvu zirengako kuzikenewe no gutuma amahinguriro y’umuyagankuba adahungabana?
+answer: Abacukuzi ba Bitcoin barashobora gufata uwo muyagankuba urengako, bagahindura ubusabe bw’umuyagankuba aho guhindura uwukorwa. Mu isi aho umuyagankuba ukomoka ku masoko yamako (atagenzurwa) aguma yiyongera, aba miners barashobora kugira uruhara runini mu gutuma amahinguriro y’umuyagankuba wacu agira uburinganire, mu gihe bungukira mukuronka umuyagankuba uzimbutse canke urenga kuwukenewe kugira ngo bashobore gukora ibikorwa vyabo vya mining.
+wrong_answers:
+  - Abacukuzi ba Bitcoin barashobora gufasha mu gucunga inguvu zirengeye mu kubika inguvu zirengeye mu mabati.
+  - Abacukuzi ba Bitcoin barashobora gufasha mu gucunga inguvu zisigaye mu kugurisha inguvu zisigaye zigasubira ku ruzitiro.
+  - Abacukuzi ba Bitcoin barashobora gufasha mu gucunga inguvu zirengeye mu guhindura inguvu zirengeye zikaba ubushuhe.
+explanation: |
+  Igice kirasigura ko abacukuzi ba Bitcoin bashobora gufata uwo muyagankuba 
+  urengako, bagahindura ubusabe bw’umuyagankuba aho guhindura uwukorwa. Ibi birashobora gufasha mu gucunga neza inguvu zumurengera 
+  n’ugutuma amahinguriro ashikama.
+reviewed: true

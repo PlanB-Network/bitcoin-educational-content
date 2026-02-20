@@ -1,0 +1,9 @@
+question: Pada ketinggian blok berapakah halving keempat terjadi?
+answer: 840.000
+wrong_answers:
+  - 880.000
+  - 860.000
+  - 900.000
+explanation: |
+  Halving keempat terjadi pada ketinggian 840.000, pada 20 April 2024.
+reviewed: false

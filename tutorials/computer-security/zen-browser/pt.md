@@ -731,7 +731,7 @@ Para bitcoiners e utilizadores de tecnologia que valorizam tanto a produtividade
 - [Site oficial do Zen Browser](https://zen-browser.app)
 - [Documentação completa](https://docs.zen-browser.app)
 - [Código-fonte do GitHub](https://github.com/zen-browser/desktop)
-- [Página de descarregamento] (https://zen-browser.app/download)
+- [Página de descarregamento](https://zen-browser.app/download)
 
 
 ### Comunidade e apoio

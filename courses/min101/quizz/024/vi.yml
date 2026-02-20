@@ -1,0 +1,9 @@
+question: Hiện tượng nào làm cho độ trễ giữa hai khối thay đổi về mặt cơ bản?
+answer: Tính xác suất của hàm băm
+wrong_answers:
+  - Tính xác định của hàm băm
+  - Tính đệ quy của hàm băm
+  - Tính định kỳ của hàm băm
+explanation: |
+  Mỗi lần băm là một lần thử độc lập, điều này làm cho thời gian tìm thấy khối là ngẫu nhiên ngay cả khi tỷ lệ băm không đổi.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
 term: BIP0123
+definition: Classificatie van BIP's in 4 categorieën Consensus, Peer Services, API/RPC en Applications.
 ---
 
 Stelt een nieuw gestandaardiseerd proces in voor de classificatie van voorstellen voor Bitcoin verbeteringen. GIP's moeten nu worden ingedeeld in 4 categorieën:

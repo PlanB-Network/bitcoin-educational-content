@@ -1,0 +1,9 @@
+question: Mikä on keynesiläisen talousteorian mukaan valtion toimien ensisijainen tehtävä taloudessa?
+answer: Käyttää finanssi- ja rahapolitiikkaa talouden vakauttamiseksi elvyttämällä kysyntää taantumien aikana ja jäähdyttämällä sitä ylikuumenemisen aikana
+wrong_answers:
+  - Vapaiden markkinamekanismien täydellinen poistaminen ja korvaaminen keskitetyllä valtiollisella suunnittelulla kaikilla talouden aloilla
+  - Säilytetään ehdoton laissez-faire -politiikka ja annetaan markkinoiden säännellä itseään ilman minkäänlaista valtion puuttumista asiaan
+  - Keskitytään yksinomaan julkisten menojen ja verotuksen vähentämiseen ja minimoidaan samalla kaikenlainen julkisen sektorin osallistuminen
+explanation: |
+  Keynesiläinen teoria edustaa keskustalaista "kolmannen tien" lähestymistapaa, jossa torjutaan sekä puhdas laissez-faire-kapitalismi että täydellinen valtionvalvonta.
+  Keynes kannatti valtion aktiivista väliintuloa finanssipolitiikan (menot ja verotus) ja rahapolitiikan (korot) avulla taloussyklien hallitsemiseksi. Tällä lähestymistavalla pyritään tasapainoon markkinoiden vapauden ja valtion ohjauksen välillä, edistetään kokonaiskysyntää laskusuhdanteiden aikana ja hillitään sitä talouden ylikuumenemisen aikana, mikä ilmentää pragmaattisen maltillisuuden keskustalaista filosofiaa.

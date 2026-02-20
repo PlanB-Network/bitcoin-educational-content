@@ -1,0 +1,9 @@
+question: Koji mining protokol je razvijen u septembru 2012. godine od strane Mareka Palatinusa, poznatog kao Slush, kako bi se poboljšala razmena između rudara i mining bazena?
+answer: Stratum
+wrong_answers:
+  - Electrum
+  - Getwork
+  - Getblocktemplate (GBT)
+explanation: |
+ Stratum je bio mining protokol za tanke klijente. Brzo je zamenio rudimentarnu getwork funkciju koja se koristila do tada i ustalio se na račun konkurentskog getblocktemplate predloga.
+reviewed: true

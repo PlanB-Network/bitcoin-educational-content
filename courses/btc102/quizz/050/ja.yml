@@ -1,9 +1,9 @@
-question: 低コストのBitcoin支払いを行うには、どのようなソリューションが推奨されますか？
-answer: Lightning Network
+question: 低額のビットコイン支払いを行うには、どのような方法が推奨されますか？
+answer: ライトニング・ネットワーク
 wrong_answers:
-  - Hardware Wallet
+  - ハードウェアウォレット
   - 銀行口座
-  - RGB Layer
+  - RGBレイヤー
 explanation: |
-  Lightningは、日々の買い物を迅速かつ低コストで可能にする。アクティブなユーザーにとって理想的なツールです。
+  ライトニング決済は、日々の買い物を迅速かつ低コストで可能にする。アクティブなユーザーにとって理想的なツールです。
 reviewed: false

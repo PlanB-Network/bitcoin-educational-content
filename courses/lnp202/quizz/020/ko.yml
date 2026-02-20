@@ -1,0 +1,9 @@
+question: 이전 channel.db를 복원하는 것이 왜 위험한가요?
+answer: 위약금 위험
+wrong_answers:
+  - seed 손실
+  - 가십 부패
+  - 라우팅 차단
+explanation: |
+  오래된 상태는 부정 행위를 시도한 것으로 해석되어 채널 자금이 손실될 수 있습니다.
+reviewed: false

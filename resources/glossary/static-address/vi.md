@@ -1,6 +1,7 @@
 ---
-term: STATIC ADDRESS
+term: Địa chỉ tĩnh
 
+definition: mã định danh duy nhất cho Silent Payments cho phép nhận thanh toán mà không cần tái sử dụng địa chỉ hoặc liên kết on-chain hiển thị.
 ---
 In the context of Silent Payments, refers to a unique identifier that allows for the receipt of payments without address reuse, without interaction, and without a visible on-chain link between the various payments and the static address. This technique eliminates the need to generate new, unused receiving addresses for each transaction, thereby avoiding the usual interactions in Bitcoin where the recipient must provide a new address to the payer. It is somewhat equivalent to the reusable payment code in the context of BIP47.
 

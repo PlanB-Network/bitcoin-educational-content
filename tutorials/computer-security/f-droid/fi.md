@@ -167,7 +167,7 @@ Tämän jälkeen sinun on laadittava YAML-tiedosto (metatiedot), jossa kuvataan 
 
 
 
-[Dokumentaation] (https://f-droid.org/en/docs/) **Kehittäjät** -osiosta löydät kaikki resurssit, joita tarvitset sovellusten julkaisemiseen ja ylläpitoon F-Droidissa.
+[Dokumentaation](https://f-droid.org/en/docs/) **Kehittäjät** -osiosta löydät kaikki resurssit, joita tarvitset sovellusten julkaisemiseen ja ylläpitoon F-Droidissa.
 
 
 

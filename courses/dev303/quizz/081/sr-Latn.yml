@@ -1,0 +1,8 @@
+question: Koja je primarna svrha korišćenja map_err() prilikom ulančavanja operacija sa Result tipovima u Rust?
+answer: Da transformiš tipove grešaka dok ostavljaš uspešne vrednosti nepromenjene tokom propagacije grešaka
+wrong_answers:
+  - Da transformišeš vrednosti uspeha dok automatski propagiraš greške bez modifikacije
+  - Da biste konvertovali tipove Result u tipove Option kada greške treba ignorisati
+  - Da bi se sprečila propagacija grešaka konvertovanjem svih grešaka u podrazumevane vrednosti uspeha
+explanation: |
+  Metoda map_err() je specifično dizajnirana za transformisanje tipova grešaka dok uspešne vrednosti ostaju nepromenjene. Ovo je ključno za izgradnju slojevitih aplikacija gde različite komponente zahtevaju različite reprezentacije grešaka. Na primer, možete konvertovati greške niskog nivoa parsiranja u greške specifične za domen koje pružaju bolji kontekst. Ostale opcije su netačne: map() transformiše uspešne vrednosti (ne map_err()), map_err() ne konvertuje u Option tipove, i ne sprečava propagaciju niti kreira podrazumevane uspešne vrednosti.

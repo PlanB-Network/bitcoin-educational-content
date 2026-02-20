@@ -71,7 +71,7 @@ Bu kursun amacı sizi Bitcoin kullanımınızda tamamen anonim hale getirmek de�
 **Bölüm 1: Tanımlar ve anahtar kavramlar**
 
 
-Başlangıç olarak, Bitcoin'un çalışmasını yöneten temel ilkeleri gözden geçireceğiz, böylece gizlilikle ilgili kavramları sakin bir şekilde ele alabiliriz. İlerleyen bölümlerde ele alacağımız kavramları tam olarak anlayabilmeniz için UTXO, adres alma ve komut dosyası oluşturma gibi birkaç temel kavrama hakim olmanız çok önemlidir. Ayrıca, Satoshi Nakamoto tarafından hayal edildiği şekliyle Bitcoin'un genel gizlilik modelini tanıtacağız, bu da ilgili riskleri ve riskleri kavramamızı sağlayacaktır.
+Başlangıç olarak, Bitcoin'un çalışmasını yöneten temel ilkeleri gözden geçireceğiz, böylece gizlilikle ilgili kavramları sakin bir şekilde ele alabiliriz. İlerleyen bölümlerde ele alacağımız kavramları tam olarak anlayabilmeniz için [UTXO](https://planb.academy/resources/glossary/utxo), adres alma ve komut dosyası oluşturma gibi birkaç temel kavrama hakim olmanız çok önemlidir. Ayrıca, Satoshi Nakamoto tarafından hayal edildiği şekliyle Bitcoin'un genel gizlilik modelini tanıtacağız, bu da ilgili riskleri ve riskleri kavramamızı sağlayacaktır.
 
 
 ![BTC204](assets/tr/001.webp)
@@ -98,7 +98,7 @@ Kursumuzun üçüncü bölümünde işin özüne iniyoruz: pratik! Amaç, herhan
 **Bölüm 4: CoinJoin işlemlerini anlama**
 
 
-Bitcoin'de coinjoins'den bahsetmeden gizlilik hakkında nasıl konuşabiliriz? Bölüm 4'te bu karıştırma yöntemi hakkında bilmeniz gereken her şeyi öğreneceksiniz. Eş birleşimlerin ne olduğunu, tarihçesini ve amaçlarını, ayrıca var olan farklı CoinJoin türlerini öğreneceksiniz. Son olarak, daha deneyimli kullanıcılar için, anonset ve entropinin ne olduğuna ve nasıl hesaplanacağına bir göz atacağız.
+Bitcoin'de [coinjoin](https://planb.academy/resources/glossary/coinjoin)s'den bahsetmeden gizlilik hakkında nasıl konuşabiliriz? Bölüm 4'te bu karıştırma yöntemi hakkında bilmeniz gereken her şeyi öğreneceksiniz. Eş birleşimlerin ne olduğunu, tarihçesini ve amaçlarını, ayrıca var olan farklı CoinJoin türlerini öğreneceksiniz. Son olarak, daha deneyimli kullanıcılar için, anonset ve entropinin ne olduğuna ve nasıl hesaplanacağına bir göz atacağız.
 
 
 ![BTC204](assets/tr/004.webp)
@@ -139,7 +139,7 @@ Bitcoin her şeyden önce bir para birimidir, ancak BTC'nin protokolde nasıl te
 ### Bitcoin'daki UTXO'lar: bunlar nedir?
 
 
-Bitcoin protokolü, "Harcanmamış İşlem Çıkışı" anlamına gelen UTXO modeline dayanmaktadır.
+Bitcoin protokolü, "Harcanmamış İşlem Çıkışı" anlamına gelen [UTXO](https://planb.academy/resources/glossary/utxo) modeline dayanmaktadır.
 
 
 Bu model, finansal akışları izlemek için bir hesap ve bakiye mekanizmasına dayanan geleneksel bankacılık sistemlerinden oldukça farklıdır. Gerçekten de bankacılık sisteminde bireysel bakiyeler bir kimliğe bağlı hesaplarda tutulur. Örneğin, bir fırıncıdan ekmek satın aldığınızda, bankanız satın aldığınız miktarı hesabınızdan çekerek bakiyenizi azaltırken, fırıncının hesabına aynı miktarda alacak kaydederek bakiyesini artırır. Bu sistemde, işlem kayıtları dışında, hesabınıza giren para ile hesabınızdan çıkan para arasında bir bağlantı kavramı yoktur.
@@ -151,7 +151,7 @@ Bu model, finansal akışları izlemek için bir hesap ve bakiye mekanizmasına 
 Bitcoin farklı çalışır. Hesap kavramı mevcut değildir ve parasal birimler bakiyeler aracılığıyla değil UTXO'lar aracılığıyla yönetilir. Bir UTXO, henüz harcanmamış belirli miktarda bitcoini temsil eder, böylece büyük veya küçük olabilen bir "Bitcoin parçası" oluşturur. Örneğin, bir UTXO `500 BTC` ya da basitçe `700 Sats` değerinde olabilir.
 
 
-**Genellikle sat olarak kısaltılan Satoshi, Bitcoin'in en küçük birimidir ve fiat para birimlerindeki centime ile karşılaştırılabilir.**
+**Genellikle sat olarak kısaltılan [Satoshi](https://planb.academy/resources/glossary/satoshi-sat), Bitcoin'in en küçük birimidir ve [fiat](https://planb.academy/resources/glossary/fiat) para birimlerindeki centime ile karşılaştırılabilir.**
 
 
 ```plaintext
@@ -159,10 +159,10 @@ Bitcoin farklı çalışır. Hesap kavramı mevcut değildir ve parasal birimler
 ```
 
 
-Teorik olarak bir UTXO, bir sattan teorik olarak maksimum 21 milyon BTC'ye kadar değişen herhangi bir bitcoin değerini temsil edebilir. Bununla birlikte, 21 milyon bitcoinin tamamına sahip olmak mantıksal olarak imkansızdır ve "Dust" adı verilen ve altında bir UTXO'in ekonomik olarak harcanmasının karsız olduğu düşünülen daha düşük bir ekonomik eşik vardır.
+Teorik olarak bir UTXO, bir sattan teorik olarak maksimum 21 milyon BTC'ye kadar değişen herhangi bir bitcoin değerini temsil edebilir. Bununla birlikte, 21 milyon bitcoinin tamamına sahip olmak mantıksal olarak imkansızdır ve "[Dust](https://planb.academy/resources/glossary/dust)" adı verilen ve altında bir UTXO'in ekonomik olarak harcanmasının karsız olduğu düşünülen daha düşük bir ekonomik eşik vardır.
 
 
-**UTXO üzerinde şimdiye kadar yaratılan en büyük Bitcoin `500.000 BTC` değerine sahipti. MtGox platformu tarafından Kasım 2011'de bir konsolidasyon operasyonu sırasında oluşturulmuştur:** [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://Mempool.space/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
+**UTXO üzerinde şimdiye kadar yaratılan en büyük Bitcoin `500.000 BTC` değerine sahipti. MtGox platformu tarafından Kasım 2011'de bir [konsolidasyon](https://planb.academy/resources/glossary/consolidation) operasyonu sırasında oluşturulmuştur:** [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://Mempool.space/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
 
 ### UTXO'lar ve harcama koşulları
@@ -174,7 +174,7 @@ UTXO'lar Exchange'nin Bitcoin üzerindeki araçlarıdır. Her işlem UTXO'ların
 ![BTC204](assets/tr/007.webp)
 
 
-Tüm UTXO'lar, harcanabilecekleri koşulları tanımlayan senaryolarla güvence altına alınmıştır. Bir UTXO'i tüketmek için, bir kullanıcı ağa UTXO'i güvence altına alan komut dosyası tarafından öngörülen koşulları karşıladığını göstermelidir. Tipik olarak, UTXO'lar bir genel anahtar (veya bu genel anahtarı temsil eden bir alıcı Address) tarafından korunur. Bu genel anahtarla ilişkili bir UTXO'i harcamak için kullanıcı, bu anahtarla yapılmış bir dijital imza sağlayarak ilgili özel anahtara sahip olduğunu kanıtlamalıdır. Bu nedenle Bitcoin Wallet'nizin aslında bitcoin içermediğini, ancak özel anahtarlarınızı sakladığını ve bunun da UTXO'larınıza ve dolayısıyla temsil ettikleri bitcoinlere erişmenizi sağladığını söylüyoruz.
+Tüm UTXO'lar, harcanabilecekleri koşulları tanımlayan [senaryolarla](https://planb.academy/resources/glossary/script) güvence altına alınmıştır. Bir UTXO'i tüketmek için, bir kullanıcı ağa UTXO'i güvence altına alan komut dosyası tarafından öngörülen koşulları karşıladığını göstermelidir. Tipik olarak, UTXO'lar bir [genel anahtar](https://planb.academy/resources/glossary/public-key) (veya bu genel anahtarı temsil eden bir [alıcı Address](https://planb.academy/resources/glossary/receiving-address)) tarafından korunur. Bu genel anahtarla ilişkili bir UTXO'i harcamak için kullanıcı, bu anahtarla yapılmış bir [dijital imza](https://planb.academy/resources/glossary/digital-signature) sağlayarak ilgili [özel anahtara](https://planb.academy/resources/glossary/private-key) sahip olduğunu kanıtlamalıdır. Bu nedenle [Bitcoin Wallet](https://planb.academy/resources/glossary/wallet)'nizin aslında bitcoin içermediğini, ancak özel anahtarlarınızı sakladığını ve bunun da UTXO'larınıza ve dolayısıyla temsil ettikleri bitcoinlere erişmenizi sağladığını söylüyoruz.
 
 
 ![BTC204](assets/tr/008.webp)
@@ -209,19 +209,19 @@ Wallet'inizin toplam bakiyesi `17 BTC` olacaktır.
 ### İşlem girdileri ve çıktıları
 
 
-Bir Bitcoin işlemi, Blockchain üzerinde kaydedilen ve Ownership bitcoinleri bir kişiden diğerine aktaran bir işlemdir. Daha açık bir ifadeyle, bir UTXO modelinde olduğumuzdan ve hesap olmadığından, işlem bir veya daha fazla UTXO'yu güvence altına alan harcama koşullarını yerine getirir, bunları tüketir ve eşdeğer olarak yeni harcama koşullarına sahip yeni UTXO'lar oluşturur. Kısacası, bir işlem bitcoinleri tatmin edilmiş bir senaryodan onları güvence altına almak için tasarlanmış yeni bir senaryoya taşır.
+Bir Bitcoin işlemi, [Blockchain](https://planb.academy/resources/glossary/blockchain) üzerinde kaydedilen ve Ownership bitcoinleri bir kişiden diğerine aktaran bir işlemdir. Daha açık bir ifadeyle, bir UTXO modelinde olduğumuzdan ve hesap olmadığından, işlem bir veya daha fazla UTXO'yu güvence altına alan harcama koşullarını yerine getirir, bunları tüketir ve eşdeğer olarak yeni harcama koşullarına sahip yeni UTXO'lar oluşturur. Kısacası, bir işlem bitcoinleri tatmin edilmiş bir senaryodan onları güvence altına almak için tasarlanmış yeni bir senaryoya taşır.
 
 
 ![BTC204](assets/tr/010.webp)
 
 
-Bu nedenle her Bitcoin işlemi bir veya daha fazla giriş ve bir veya daha fazla çıkıştan oluşur. Girişler, işlem tarafından generate çıkışlarına tüketilen UTXO'lardır. Çıktılar, gelecekteki işlemler için girdi olarak kullanılabilecek yeni UTXO'lardır.
+Bu nedenle her Bitcoin işlemi bir veya daha fazla [giriş](https://planb.academy/resources/glossary/input) ve bir veya daha fazla çıkıştan oluşur. Girişler, işlem tarafından generate çıkışlarına tüketilen UTXO'lardır. Çıktılar, gelecekteki işlemler için girdi olarak kullanılabilecek yeni UTXO'lardır.
 
 
 ![BTC204](assets/tr/011.webp)
 
 
-**Teorik olarak, bir Bitcoin işlemi sonsuz sayıda giriş ve çıkışa sahip olabilir. Tek sınır maksimum blok boyutudur.**
+**Teorik olarak, bir Bitcoin işlemi sonsuz sayıda giriş ve [çıkışa](https://planb.academy/resources/glossary/output) sahip olabilir. Tek sınır maksimum blok boyutudur.**
 
 
 Bir Bitcoin işlemindeki her girdi, daha önce harcanmamış bir UTXO'i ifade eder. Bir UTXO'i girdi olarak kullanmak için, sahibinin ilgili senaryoyu doğrulayarak, yani uygulanan harcama koşulunu yerine getirerek hak sahibi olduğunu göstermesi gerekir. Genel olarak bu, bu UTXO'i başlangıçta güvence altına alan açık anahtara karşılık gelen özel anahtarla üretilen bir dijital imza sağlamak anlamına gelir. Bu nedenle senaryo, imzanın fonlar alındığında kullanılan açık anahtara karşılık geldiğini doğrulamaktan ibarettir.
@@ -233,7 +233,7 @@ Bir Bitcoin işlemindeki her girdi, daha önce harcanmamış bir UTXO'i ifade ed
 Her çıktı, sırayla, transfer edilecek bitcoin miktarını ve alıcıyı belirtir. İkincisi, genellikle yeni oluşturulan UTXO'ü alıcı bir Address veya yeni bir ortak anahtarla engelleyen yeni bir komut dosyası tarafından tanımlanır.
 
 
-Bir işlemin mutabakat kurallarına göre geçerli sayılabilmesi için toplam çıktıların toplam girdilere eşit veya daha az olması gerekir. Başka bir deyişle, işlem tarafından üretilen yeni UTXO'ların toplamı, girdi olarak tüketilen UTXO'ların toplamını aşmamalıdır. Bu prensip mantıklıdır: eğer sadece `500,000 Sats`ünüz varsa, `700,000 Sats` satın alamazsınız.
+Bir işlemin [mutabakat kurallarına](https://planb.academy/resources/glossary/consensus-rules) göre geçerli sayılabilmesi için toplam çıktıların toplam girdilere eşit veya daha az olması gerekir. Başka bir deyişle, işlem tarafından üretilen yeni UTXO'ların toplamı, girdi olarak tüketilen UTXO'ların toplamını aşmamalıdır. Bu prensip mantıklıdır: eğer sadece `500,000 Sats`ünüz varsa, `700,000 Sats` satın alamazsınız.
 
 
 ### Exchange ve bir Bitcoin işleminde birleştirme
@@ -245,7 +245,7 @@ Bitcoin işleminin UTXO üzerindeki etkisi bu nedenle altın bir Coin'in yeniden
 Bu mekanizma altın Coin'inkine benzer. Diyelim ki 2 onsluk bir Coin'e sahipsiniz ve satıcının size para üstü veremeyeceğini varsayarak 1 onsluk bir ödeme yapmak istiyorsunuz. Coin'inizi eritmeniz ve her biri 1 onsluk 2 yeni Coin dökmeniz gerekecektir.
 
 
-Bitcoin de benzer şekilde çalışır. Alice'ün `10,000 Sats` değerinde bir UTXO'e sahip olduğunu ve `4,000 Sats` değerinde ekmek satın almak istediğini düşünelim. Alice, girdi olarak tamamını tüketeceği 1 adet `10.000 Sats` değerinde UTXO ve çıktı olarak `4.000 Sats` ve `6.000 Sats` değerinde 2 adet UTXO ile bir işlem yapacaktır. 4.000 Sats`lük UTXO, baget için ödeme olarak fırıncıya gönderilirken, 6.000 Sats`lük UTXO, para üstü olarak Alice'e geri dönecektir. İşlemin asıl düzenleyicisine geri dönen bu UTXO, Bitcoin jargonunda "Exchange" olarak bilinir.
+Bitcoin de benzer şekilde çalışır. Alice'ün `10,000 Sats` değerinde bir UTXO'e sahip olduğunu ve `4,000 Sats` değerinde ekmek satın almak istediğini düşünelim. Alice, girdi olarak tamamını tüketeceği 1 adet `10.000 Sats` değerinde UTXO ve çıktı olarak `4.000 Sats` ve `6.000 Sats` değerinde 2 adet UTXO ile bir işlem yapacaktır. 4.000 Sats`lük UTXO, baget için ödeme olarak fırıncıya gönderilirken, 6.000 Sats`lük UTXO, para üstü olarak Alice'e geri dönecektir. İşlemin asıl düzenleyicisine geri dönen bu UTXO, Bitcoin jargonunda "[Exchange](https://planb.academy/resources/glossary/change)" olarak bilinir.
 
 
 ![BTC204](assets/tr/013.webp)
@@ -260,11 +260,11 @@ Bitcoin de benzer şekilde çalışır. Alice'ün `10,000 Sats` değerinde bir U
 ### İşlem ücretleri
 
 
-Sezgisel olarak, işlem maliyetlerinin de bir işlemin çıktısını temsil ettiği düşünülebilir. Ancak gerçekte durum böyle değildir. İşlem maliyetleri toplam girdiler ile toplam çıktılar arasındaki farkı temsil eder. Bu, bir işlemde istenen çıktıları karşılamak için girdilerin değerinin bir kısmı kullanıldıktan sonra, girdilerin belirli bir toplamının kullanılmadan kaldığı anlamına gelir. Bu kalan miktar işlem maliyetlerini oluşturmaktadır.
+Sezgisel olarak, işlem maliyetlerinin de bir işlemin çıktısını temsil ettiği düşünülebilir. Ancak gerçekte durum böyle değildir. [İşlem maliyetleri](https://planb.academy/resources/glossary/transaction-fees) toplam girdiler ile toplam çıktılar arasındaki farkı temsil eder. Bu, bir işlemde istenen çıktıları karşılamak için girdilerin değerinin bir kısmı kullanıldıktan sonra, girdilerin belirli bir toplamının kullanılmadan kaldığı anlamına gelir. Bu kalan miktar işlem maliyetlerini oluşturmaktadır.
 
 
 ```plaintext
-Frais = total inputs - total outputs
+İşlem ücretleri = total inputs - total outputs
 ```
 
 
@@ -278,14 +278,14 @@ UTXO`i `10,000 Sats` olan ve `4,000 Sats`dan ekmek almak isteyen Alice örneğin
 
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+İşlem ücretleri = total inputs - total outputs
+İşlem ücretleri = 10 000 - (4 000 + 5 800)
+İşlem ücretleri = 10 000 - 9 800
+İşlem ücretleri = 200
 ```
 
 
-Bir Miner bir bloğu doğrulamayı başardığında, bloğunda yer alan tüm işlemler için "coinbase" işlemi aracılığıyla bu ücretleri tahsil etme yetkisine sahip olur.
+Bir Miner bir bloğu doğrulamayı başardığında, bloğunda yer alan tüm işlemler için "[coinbase](https://planb.academy/resources/glossary/coinbase-transaction)" işlemi aracılığıyla bu ücretleri tahsil etme yetkisine sahip olur.
 
 
 ### Bitcoin üzerinde UTXO'lar Oluşturma
@@ -297,7 +297,7 @@ Bir Miner bir bloğu doğrulamayı başardığında, bloğunda yer alan tüm iş
 Cevap **transaction coinbase**'de.
 
 
-Coinbase, her blok için benzersiz olan ve her zaman bunlardan ilki olan belirli bir Bitcoin işlem türüdür. Geçerli bir Proof of Work bulan Miner'ün Block reward'sini almasını sağlar. Bu ödül iki Elements'den oluşur: *önceki bölümde tartışılan* **blok hibesi** ve **işlem ücreti**.
+Coinbase, her blok için benzersiz olan ve her zaman bunlardan ilki olan belirli bir Bitcoin işlem türüdür. Geçerli bir [Proof of Work](https://planb.academy/resources/glossary/proof-of-work) bulan Miner'ün Block reward'sini almasını sağlar. Bu ödül iki Elements'den oluşur: *önceki bölümde tartışılan* **[blok hibesi](https://planb.academy/resources/glossary/block-subsidy)** ve **işlem ücreti**.
 
 
 Coinbase Transaction, generate çıktıları için girdileri tüketmeye gerek kalmadan ex nihilo bitcoin yaratabilen tek sistem olması bakımından benzersizdir. Bu yeni yaratılan bitcoinler "orijinal UTXO'lar" olarak adlandırabileceğimiz şeylerdir.
@@ -306,7 +306,7 @@ Coinbase Transaction, generate çıktıları için girdileri tüketmeye gerek ka
 ![BTC204](assets/tr/016.webp)
 
 
-Blok sübvansiyonlu bitcoinler, mutabakat kurallarında önceden belirlenmiş bir ihraç programına göre sıfırdan yaratılan yeni BTC'lerdir. Blok sübvansiyonu her 210.000 blokta bir, yani yaklaşık her dört yılda bir, "Halving" olarak bilinen bir süreçte yarıya indirilir. Başlangıçta, her sübvansiyonla 50 bitcoin yaratılıyordu, ancak bu miktar kademeli olarak azaldı; şu anda blok başına 3.125 bitcoin.
+Blok sübvansiyonlu bitcoinler, mutabakat kurallarında önceden belirlenmiş bir [ihraç programına](https://planb.academy/resources/glossary/limite-demission) göre sıfırdan yaratılan yeni BTC'lerdir. Blok sübvansiyonu her 210.000 blokta bir, yani yaklaşık her dört yılda bir, "[Halving](https://planb.academy/resources/glossary/halving)" olarak bilinen bir süreçte yarıya indirilir. Başlangıçta, her sübvansiyonla 50 bitcoin yaratılıyordu, ancak bu miktar kademeli olarak azaldı; şu anda blok başına 3.125 bitcoin.
 
 
 İşlem ücretlerine gelince, bunlar da yeni yaratılan BTC'leri temsil etse de, bir bloktaki tüm işlemlerin toplam girdileri ve çıktıları arasındaki farkı aşmamalıdır. Bu ücretlerin girdilerin işlem çıktılarında kullanılmayan kısmını temsil ettiğini daha önce görmüştük. Bu kısım işlem sırasında teknik olarak "kaybolur" ve Miner bu değeri bir veya daha fazla yeni UTXO şeklinde yeniden yaratma hakkına sahiptir. Bu, işlemi düzenleyen ile bunu Blockchain'e ekleyen Miner arasında bir değer transferidir.
@@ -321,7 +321,7 @@ Blok sübvansiyonlu bitcoinler, mutabakat kurallarında önceden belirlenmiş bi
 Her şeyden önce, UTXO modeli Bitcoin'un işlem ücretlerini doğrudan etkilemektedir. Her bloğun kapasitesi sınırlı olduğundan, madenciler blokta kaplayacakları alana göre en iyi ücretleri sunan işlemleri tercih eder. Gerçekten de, bir işlem girdi ve çıktılarında ne kadar çok UTXO içeriyorsa, o kadar ağırdır ve bu nedenle daha yüksek ücretler gerektirir. Bu, Wallet'umuzdaki UTXO'ların sayısını azaltmaya çalışmamızın nedenlerinden biridir; bu, bu dersin üçüncü bölümünde ayrıntılı olarak ele alacağımız bir konu olan gizliliği de etkileyebilir.
 
 
-İkinci olarak, önceki bölümlerde de belirtildiği gibi, Bitcoin coinleri esasen bir UTXO zinciridir. Dolayısıyla her işlem geçmişteki bir UTXO ile gelecekteki bir UTXO arasında bir bağlantı oluşturur. UTXO'lar bu nedenle Bitcoin'lerin yaratılışlarından mevcut harcamalarına kadar izledikleri yolu açıkça takip etmeyi mümkün kılmaktadır. Bu şeffaflık, her kullanıcının aldığı bitcoinlerin gerçekliğini tespit etmesini sağladığı için olumlu görülebilir. Bununla birlikte, gizliliğinizi tehlikeye atmak için tasarlanmış bir uygulama olan Blockchain analizi de bu izlenebilirlik ve denetlenebilirlik ilkesine dayanmaktadır. Kursun ikinci bölümünde bu uygulamayı derinlemesine inceleyeceğiz.
+İkinci olarak, önceki bölümlerde de belirtildiği gibi, Bitcoin coinleri esasen bir UTXO zinciridir. Dolayısıyla her işlem geçmişteki bir UTXO ile gelecekteki bir UTXO arasında bir bağlantı oluşturur. UTXO'lar bu nedenle Bitcoin'lerin yaratılışlarından mevcut harcamalarına kadar izledikleri yolu açıkça takip etmeyi mümkün kılmaktadır. Bu şeffaflık, her kullanıcının aldığı bitcoinlerin gerçekliğini tespit etmesini sağladığı için olumlu görülebilir. Bununla birlikte, gizliliğinizi tehlikeye atmak için tasarlanmış bir uygulama olan [Blockchain analizi](https://planb.academy/resources/glossary/chain-analysis) de bu izlenebilirlik ve denetlenebilirlik ilkesine dayanmaktadır. Kursun ikinci bölümünde bu uygulamayı derinlemesine inceleyeceğiz.
 
 
 ## Bitcoin'in gizlilik modeli
@@ -363,7 +363,7 @@ Fiziksel para birimi kullanıyorsanız, iddia edilmesi en karmaşık olan ilk ö
 Orijinallik aynı zamanda fiziksel bir parasal araç üzerinde doğrulanması zor bir özelliktir. Günümüzde sahte para ile mücadele teknikleri giderek daha karmaşık hale gelmekte ve perakendecileri maliyetli doğrulama sistemlerine yatırım yapmaya zorlamaktadır.
 
 
-Öte yandan, doğaları gereği, çifte harcama fiziksel para birimleri için bir sorun değildir. Eğer size 10 €'luk bir banknot verirsem, bu banknot geri dönülemez bir şekilde benim mülkiyetimden çıkar ve sizin mülkiyetinize girer; bu da doğal olarak içerdiği parasal birimlerin birden fazla kez harcanması olasılığını ortadan kaldırır. Kısacası, bu 10 €'luk banknotu tekrar harcayamayacağım.
+Öte yandan, doğaları gereği, [çifte harcama](https://planb.academy/resources/glossary/double-spending-attack) fiziksel para birimleri için bir sorun değildir. Eğer size 10 €'luk bir banknot verirsem, bu banknot geri dönülemez bir şekilde benim mülkiyetimden çıkar ve sizin mülkiyetinize girer; bu da doğal olarak içerdiği parasal birimlerin birden fazla kez harcanması olasılığını ortadan kaldırır. Kısacası, bu 10 €'luk banknotu tekrar harcayamayacağım.
 
 
 ![BTC204](assets/tr/019.webp)
@@ -387,13 +387,13 @@ Bir dijital varlığın bu şekilde çoğaltılmasını önlemenin tek yolu, sis
 ![BTC204](assets/tr/021.webp)
 
 
-Bitcoin'de Double-spending aynı şekilde engellenir. Söz konusu madeni paraları zaten harcamış olan bir işlemin olmadığını teyit etmeye çalışırız. Madeni paralar hiç kullanılmamışsa, çifte harcama yapılmayacağından emin olabiliriz. Bu ilke Satoshi Nakamoto tarafından Beyaz Kitap'ta ünlü cümle ile açıklanmıştır:
+Bitcoin'de Double-spending aynı şekilde engellenir. Söz konusu madeni paraları zaten harcamış olan bir işlemin olmadığını teyit etmeye çalışırız. Madeni paralar hiç kullanılmamışsa, çifte harcama yapılmayacağından emin olabiliriz. Bu ilke [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) tarafından [Beyaz Kitap](https://planb.academy/resources/glossary/white-paper)'ta ünlü cümle ile açıklanmıştır:
 
 
 **Bir işlemin olmadığını teyit etmenin tek yolu tüm işlemlerden haberdar olmaktır**
 
 
-Ancak bankacılık modelinden farklı olarak, Bitcoin'da merkezi bir varlığa güvenmek zorunda kalmak istemiyoruz. Bu nedenle tüm kullanıcıların üçüncü bir tarafa güvenmeden bu çifte harcamanın olmadığını teyit edebilmeleri gerekir. Yani herkesin tüm Bitcoin işlemlerinden haberdar olması gerekiyor. Bu nedenle Bitcoin işlemleri tüm ağ düğümlerinde herkese açık olarak yayınlanır ve Blockchain'da açık metin olarak kaydedilir.
+Ancak bankacılık modelinden farklı olarak, Bitcoin'da merkezi bir varlığa güvenmek zorunda kalmak istemiyoruz. Bu nedenle tüm kullanıcıların üçüncü bir tarafa güvenmeden bu çifte harcamanın olmadığını teyit edebilmeleri gerekir. Yani herkesin tüm Bitcoin işlemlerinden haberdar olması gerekiyor. Bu nedenle Bitcoin işlemleri tüm ağ [düğümlerinde](https://planb.academy/resources/glossary/node) herkese açık olarak yayınlanır ve Blockchain'da açık metin olarak kaydedilir.
 
 
 Bitcoin'de mahremiyetin korunmasını zorlaştıran da tam olarak bu kamuya açık bilgi yayılımıdır. Geleneksel bankacılık sisteminde, teorik olarak, gerçekleştirilen işlemlerden yalnızca finans kurumu haberdardır. Öte yandan, Bitcoin ile tüm kullanıcılar kendi düğümleri aracılığıyla tüm işlemlerden haberdar olur.
@@ -420,7 +420,7 @@ Geleneksel sistemde, banka hesabınız kimliğinizle bağlantılıdır. Bankacı
 ![BTC204](assets/tr/024.webp)
 
 
-Örneğin, fırıncıdan BTC ile ödeme yaparak ekmek satın alırsanız, kendi Full node'ü olan komşunuz, sistemdeki diğer tüm işlemleri görebildiği gibi, işleminizin gerçekleştiğini de görebilir. Ancak, gizlilik ilkelerine uyulduğu takdirde, bu belirli işlemi sizin kimliğinizle ilişkilendirememelidir.
+Örneğin, fırıncıdan BTC ile ödeme yaparak ekmek satın alırsanız, kendi full node'ü olan komşunuz, sistemdeki diğer tüm işlemleri görebildiği gibi, işleminizin gerçekleştiğini de görebilir. Ancak, gizlilik ilkelerine uyulduğu takdirde, bu belirli işlemi sizin kimliğinizle ilişkilendirememelidir.
 
 
 ![BTC204](assets/tr/025.webp)
@@ -447,7 +447,7 @@ Ancak Bitcoin işlemleri kamuya açık olduğundan, ilgili taraflar hakkında bi
 ### Tanım ve işleyiş
 
 
-Blockchain analizi, Blockchain üzerindeki bitcoin akışını izleme uygulamasıdır. Genel olarak zincir analizi, önceki işlem örneklerindeki özelliklerin gözlemlenmesine dayanır. Daha sonra, analiz etmek istediğimiz bir işlemde aynı özelliklerin tanımlanması ve bunlardan makul yorumların çıkarılmasından oluşur. Yeterince iyi bir çözüm bulmak için pratik bir yaklaşıma dayanan bu problem çözme yöntemi "sezgisel" olarak bilinir.
+Blockchain analizi, Blockchain üzerindeki bitcoin akışını izleme uygulamasıdır. Genel olarak zincir analizi, önceki işlem örneklerindeki özelliklerin gözlemlenmesine dayanır. Daha sonra, analiz etmek istediğimiz bir işlemde aynı özelliklerin tanımlanması ve bunlardan makul yorumların çıkarılmasından oluşur. Yeterince iyi bir çözüm bulmak için pratik bir yaklaşıma dayanan bu problem çözme yöntemi "[sezgisel](https://planb.academy/resources/glossary/analysis-heuristic)" olarak bilinir.
 
 
 Daha basit bir ifadeyle, zincir analizinde üç ana aşama vardır:
@@ -465,7 +465,7 @@ Daha basit bir ifadeyle, zincir analizinde üç ana aşama vardır:
 ![BTC204](assets/tr/026.webp)
 
 
-Blockchain analizi herkes tarafından gerçekleştirilebilir. İhtiyacınız olan tek şey, işlem hareketlerini gözlemlemek ve hipotezler oluşturmak için bir Full node aracılığıyla Blockchain'ın genel bilgilerine erişmektir. Bu bölümün son iki bölümünde ayrıntılı olarak inceleyeceğimiz [OXT.me] (https://oxt.me/) gibi bu analizi kolaylaştıran ücretsiz araçlar da vardır. Ancak, gizliliğe yönelik asıl risk, dizgi analizi konusunda uzmanlaşmış şirketlerden gelmektedir. Bu şirketler Blockchain analizini endüstriyel bir ölçeğe taşımış ve hizmetlerini finansal kurumlara ve hükümetlere satmaktadır. Bu şirketler arasında Chainalysis kesinlikle en iyi bilinendir.
+Blockchain analizi herkes tarafından gerçekleştirilebilir. İhtiyacınız olan tek şey, işlem hareketlerini gözlemlemek ve hipotezler oluşturmak için bir full node aracılığıyla Blockchain'ın genel bilgilerine erişmektir. Bu bölümün son iki bölümünde ayrıntılı olarak inceleyeceğimiz [OXT.me](https://oxt.me/) gibi bu analizi kolaylaştıran ücretsiz araçlar da vardır. Ancak, gizliliğe yönelik asıl risk, dizgi analizi konusunda uzmanlaşmış şirketlerden gelmektedir. Bu şirketler Blockchain analizini endüstriyel bir ölçeğe taşımış ve hizmetlerini finansal kurumlara ve hükümetlere satmaktadır. Bu şirketler arasında Chainalysis kesinlikle en iyi bilinendir.
 
 
 ### Zincir analizi hedefleri
@@ -477,10 +477,10 @@ Blockchain analizinin amaçlarından biri, Bitcoin üzerindeki çeşitli faaliye
 ![BTC204](assets/tr/027.webp)
 
 
-Bir önceki bölümü hatırlayın. Bitcoin'in gizlilik modelinin neden başlangıçta kullanıcı kimliğinin işlemlerden ayrılmasına dayandığını açıklamıştım. Bu nedenle Blockchain analizinin işe yaramaz olduğunu düşünmek cazip gelebilir çünkü zincir üzerindeki faaliyetleri bir araya getirmeyi başarsak bile bunları gerçek bir kimlikle ilişkilendiremeyiz.
+Bir önceki bölümü hatırlayın. Bitcoin'in gizlilik modelinin neden başlangıçta kullanıcı kimliğinin işlemlerden ayrılmasına dayandığını açıklamıştım. Bu nedenle Blockchain analizinin işe yaramaz olduğunu düşünmek cazip gelebilir çünkü [zincir üzerindeki](https://planb.academy/resources/glossary/onchain) faaliyetleri bir araya getirmeyi başarsak bile bunları gerçek bir kimlikle ilişkilendiremeyiz.
 
 
-Teorik olarak bu ifade doğrudur. Bu kursun ilk bölümünde, kriptografik anahtar çiftlerinin UTXO üzerinde koşullar oluşturmak için kullanıldığını gördük. Esasen, bu anahtar çiftleri sahiplerinin kimliği hakkında hiçbir bilgi vermez. Dolayısıyla, farklı anahtar çiftleriyle ilişkili faaliyetleri bir araya getirmeyi başarsak bile, bu bize bu faaliyetlerin arkasındaki varlık hakkında hiçbir şey söylemez.
+Teorik olarak bu ifade doğrudur. Bu kursun ilk bölümünde, [kriptografik](https://planb.academy/resources/glossary/cryptography) anahtar çiftlerinin UTXO üzerinde koşullar oluşturmak için kullanıldığını gördük. Esasen, bu anahtar çiftleri sahiplerinin kimliği hakkında hiçbir bilgi vermez. Dolayısıyla, farklı anahtar çiftleriyle ilişkili faaliyetleri bir araya getirmeyi başarsak bile, bu bize bu faaliyetlerin arkasındaki varlık hakkında hiçbir şey söylemez.
 
 
 ![BTC204](assets/tr/028.webp)
@@ -489,7 +489,7 @@ Teorik olarak bu ifade doğrudur. Bu kursun ilk bölümünde, kriptografik anaht
 Ancak pratik gerçeklik çok daha karmaşıktır. Gerçek bir kimliği zincir üzerindeki faaliyetlere bağlayabilecek çok sayıda davranış vardır. Analizde buna giriş noktası denir ve bunlardan çok sayıda vardır.
 
 
-En yaygın olanı KYC'dir (*Müşterini Tanı*). Bitcoinlerinizi düzenlenmiş bir platformdan kişisel alıcı adreslerinizden birine çekerseniz, bazı kişiler kimliğinizi bu Address ile ilişkilendirebilir. Daha geniş anlamda, bir giriş noktası gerçek hayatınız ile bir Bitcoin işlemi arasındaki herhangi bir etkileşim şekli olabilir. Örneğin, sosyal ağlarınızda bir alıcı Address yayınlarsanız, bu analiz için bir giriş noktası olabilir. Fırıncınıza Bitcoin ile bir ödeme yaparsanız, yüzünüzü (kimliğinizin bir parçası) bir Bitcoin Address ile ilişkilendirebilecektir.
+En yaygın olanı [KYC](https://planb.academy/resources/glossary/kyc-know-your-customer)'dir (*Müşterini Tanı*). Bitcoinlerinizi düzenlenmiş bir platformdan kişisel alıcı adreslerinizden birine çekerseniz, bazı kişiler kimliğinizi bu Address ile ilişkilendirebilir. Daha geniş anlamda, bir giriş noktası gerçek hayatınız ile bir Bitcoin işlemi arasındaki herhangi bir etkileşim şekli olabilir. Örneğin, sosyal ağlarınızda bir alıcı Address yayınlarsanız, bu analiz için bir giriş noktası olabilir. Fırıncınıza Bitcoin ile bir ödeme yaparsanız, yüzünüzü (kimliğinizin bir parçası) bir Bitcoin Address ile ilişkilendirebilecektir.
 
 
 Bitcoin kullanılırken bu giriş noktaları neredeyse kaçınılmazdır. Kapsamlarını kısıtlamaya çalışsak da, her zaman mevcut olacaklardır. Bu nedenle gizliliğinizi korumaya yönelik yöntemleri birleştirmek çok önemlidir. Gerçek kimliğiniz ile işlemleriniz arasındaki ayrımı korumak ilginç bir yaklaşım olsa da, günümüzde yetersiz kalmaktadır. Gerçekten de, zincir üzerindeki tüm faaliyetleriniz bir arada gruplandırılabiliyorsa, en küçük giriş noktası bile oluşturduğunuz tek Layer gizliliğini tehlikeye atabilir.
@@ -507,7 +507,7 @@ Dolayısıyla, Bitcoin kullanımımızda Blockchain analiziyle de başa çıkabi
 ![BTC204](assets/tr/030.webp)
 
 
-Blockchain analizine karşı koymanın, bu analizde kullanılan yöntemleri öğrenmekten daha iyi bir yolu var mı? Bitcoin'te gizliliğinizi nasıl geliştireceğinizi bilmek istiyorsanız, bu yöntemleri anlamanız gerekir. Bu size CoinJoin veya PayJoin gibi teknikleri (kursun son bölümlerinde inceleyeceğimiz teknikler) daha iyi kavramanızı sağlayacak ve yapabileceğiniz hataları azaltacaktır.
+Blockchain analizine karşı koymanın, bu analizde kullanılan yöntemleri öğrenmekten daha iyi bir yolu var mı? Bitcoin'te gizliliğinizi nasıl geliştireceğinizi bilmek istiyorsanız, bu yöntemleri anlamanız gerekir. Bu size [CoinJoin](https://planb.academy/resources/glossary/coinjoin) veya [PayJoin](https://planb.academy/resources/glossary/payjoin) gibi teknikleri (kursun son bölümlerinde inceleyeceğimiz teknikler) daha iyi kavramanızı sağlayacak ve yapabileceğiniz hataları azaltacaktır.
 
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
@@ -544,8 +544,8 @@ Bu ünlü sezgisel yöntemler, aşağıda ayrıntılı olarak açıklayacağım�
 
 
 
-- cIOH (*Common Input Ownership Heuristic*);
-- ve Address'ün yeniden kullanımı.
+- [cIOH](https://planb.academy/resources/glossary/cioh) (*Common Input Ownership Heuristic*);
+- ve [Address'ün yeniden kullanımı](https://planb.academy/resources/glossary/address-reuse).
 
 
 ![BTC204](assets/tr/031.webp)
@@ -631,7 +631,7 @@ Bu modelin yorumu, bir öz-transferin varlığında olduğumuzdur. Kullanıcı b
 O halde gözlemlenen kullanıcının muhtemelen hala bu UTXO'a sahip olduğunu biliyoruz. Bir zincir analizi bağlamında, işleme girdi olarak kullanılan UTXO'un Alice'e ait olduğunu biliyorsak, çıktı olarak kullanılan UTXO'un da ona ait olduğunu varsayabiliriz. Daha sonra ilginç hale gelecek olan şey, bu varsayımı güçlendirebilecek işlem içi sezgisel yöntemler bulmaktır (bu sezgisel yöntemlere bölüm 3.3'te bakacağız).
 
 
-Örneğin, burada süpürme modelini benimseyen bir Bitcoin işlemi bulunmaktadır:
+Örneğin, burada [süpürme](https://planb.academy/resources/glossary/sweep-transaction) modelini benimseyen bir Bitcoin işlemi bulunmaktadır:
 
 
 ```plaintext
@@ -698,7 +698,7 @@ Bu model, girdi olarak birkaç UTXO'nun (genellikle sadece bir tane) tüketimi v
 ![BTC204](assets/tr/040.webp)
 
 
-Bu modelin yorumu, gruplandırılmış harcamaların varlığında olduğumuzdur. Bu muhtemelen Exchange platformu gibi çok büyük bir ekonomik faaliyeti ortaya çıkaran bir uygulamadır. Gruplandırılmış harcama, bu kuruluşların harcamalarını tek bir işlemde birleştirerek maliyetten tasarruf etmelerini sağlar.
+Bu modelin yorumu, [gruplandırılmış harcamaların](https://planb.academy/resources/glossary/batched-spending) varlığında olduğumuzdur. Bu muhtemelen Exchange platformu gibi çok büyük bir ekonomik faaliyeti ortaya çıkaran bir uygulamadır. Gruplandırılmış harcama, bu kuruluşların harcamalarını tek bir işlemde birleştirerek maliyetten tasarruf etmelerini sağlar.
 
 
 Bu modelden, girdideki UTXO'nın yüksek düzeyde ekonomik faaliyeti olan bir şirketten geldiği ve çıktıdaki UTXO'ların dağılacağı sonucunu çıkarabiliriz. Birçoğu şirketin platformdan bitcoin çeken müşterilerine ait olacaktır. Diğerleri ortak şirketlere gidebilir. Son olarak, kesinlikle ihraç eden şirkete geri dönen bir veya daha fazla değişiklik olacaktır.
@@ -812,7 +812,7 @@ Girdiler ve çıktılar arasındaki bu benzerlikler Address'in yeniden kullanım
 ![BTC204](assets/tr/047.webp)
 
 
-Bu diyagramda, 0 numaralı girdinin bir P2WPKH komut dosyasını (`bc1q` ile başlayan SegWit V0) açtığını görebiliriz. Çıkış n° 0 aynı türde bir komut dosyası kullanır. Öte yandan, 1 numaralı çıktı bir P2TR komut dosyası (`bc1p` ile başlayan SegWit V1) kullanır. Bu özelliğin yorumu, girdi ile aynı sürümlendirmeye sahip Address'un Address değişikliği olma ihtimalinin yüksek olduğudur. Bu nedenle her zaman aynı kullanıcıya ait olacaktır.
+Bu diyagramda, 0 numaralı girdinin bir [P2WPKH](https://planb.academy/resources/glossary/p2wpkh) komut dosyasını (`bc1q` ile başlayan SegWit V0) açtığını görebiliriz. Çıkış n° 0 aynı türde bir komut dosyası kullanır. Öte yandan, 1 numaralı çıktı bir [P2TR](https://planb.academy/resources/glossary/p2tr) komut dosyası (`bc1p` ile başlayan SegWit V1) kullanır. Bu özelliğin yorumu, girdi ile aynı sürümlendirmeye sahip Address'un Address değişikliği olma ihtimalinin yüksek olduğudur. Bu nedenle her zaman aynı kullanıcıya ait olacaktır.
 
 
 İşte bu sezgiselliğin muhtemelen uygulanabileceği bir işlem:
@@ -829,7 +829,7 @@ db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578
 Kaynak: [Mempool.space](https://Mempool.space/tx/db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578)
 
 
-İkincisinde, 0 numaralı giriş ve 1 numaralı çıkışın P2WPKH komut dosyalarını (SegWit V0) kullandığını, 0 numaralı çıkışın ise farklı bir P2PKH komut dosyası (Legacy) kullandığını görebiliriz.
+İkincisinde, 0 numaralı giriş ve 1 numaralı çıkışın P2WPKH komut dosyalarını (SegWit V0) kullandığını, 0 numaralı çıkışın ise farklı bir [P2PKH](https://planb.academy/resources/glossary/p2pkh) komut dosyası (Legacy) kullandığını görebiliriz.
 
 
 2010'ların başında, komut dosyası sürümlendirmesine dayalı bu sezgisel yöntem, mevcut komut dosyası türlerinin sınırlı olması nedeniyle nispeten yararsızdı. Ancak, zaman içinde ve birbirini izleyen Bitcoin güncellemeleriyle, artan çeşitlilikte komut dosyası türleri kullanıma sunulmuştur. Bu nedenle bu sezgisel yöntem giderek daha önemli hale gelmektedir, çünkü daha geniş bir komut dosyası türü yelpazesi ile kullanıcılar daha küçük gruplara ayrılmakta ve böylece bu dahili sürümleme yeniden kullanım sezgisel yönteminin uygulanma şansı artmaktadır. Bu nedenle, yalnızca gizlilik açısından bakıldığında, en yaygın komut dosyası türünü tercih etmeniz önerilir. Örneğin, ben bu satırları yazarken, Taproot betikleri (`bc1p`) SegWit V0 betiklerine (`bc1q`) göre daha az kullanılmaktadır. Her ne kadar eski standart bazı özel bağlamlarda ekonomik ve gizlilik avantajları sunsa da, daha geleneksel tek imzalı kullanımlar için, yeni standart daha yaygın bir şekilde benimsenene kadar gizlilik nedenleriyle eski bir standarda bağlı kalmak mantıklı olabilir.
@@ -1051,7 +1051,7 @@ Analist ayrıca daha önce açık kaynaklı olarak yapılan analizlere veya kend
 Aynı şekilde, eleme yoluyla bir analiz gerçekleştirebilirsiniz. Örneğin, iki çıktısı olan bir işlemi analiz ederken, bunlardan biri zaten bilinen bir Address kümesiyle ilgiliyse, ancak izlediğimiz varlıktan farklıysa, diğer çıktının muhtemelen değişikliği temsil ettiği yorumunu yapabiliriz.
 
 
-Kanal analizi ayrıca internet aramalarını içeren biraz daha genel bir OSINT (*Açık Kaynak İstihbaratı*) bileşeni de içerir. Bu nedenle, takma isim olsun ya da olmasın, adreslerin doğrudan sosyal ağlarda veya bir web sitesinde yayınlanmamasını tavsiye ediyoruz.
+Kanal analizi ayrıca internet aramalarını içeren biraz daha genel bir [OSINT](https://planb.academy/resources/glossary/osint) (*Açık Kaynak İstihbaratı*) bileşeni de içerir. Bu nedenle, takma isim olsun ya da olmasın, adreslerin doğrudan sosyal ağlarda veya bir web sitesinde yayınlanmamasını tavsiye ediyoruz.
 
 
 ![BTC204](assets/tr/063.webp)
@@ -1386,7 +1386,7 @@ a6dbebebca119af3d05c0196b76f80fdbf78f20368ebef1b7fd3476d0814517d
 Bu işlemin modeline bakacak olursak, bunun paketlenmiş bir harcama olduğu açıktır. Gerçekten de, işlemin tek bir girdisi ve 51 çıktısı vardır, bu da yüksek düzeyde bir ekonomik faaliyete işaret eder. Bu nedenle Loïc'in bir Exchange platformundan bitcoin çektiğini varsayabiliriz.
 
 
-Birkaç faktör bu hipotezi güçlendirmektedir. İlk olarak, UTXO girdisini güvence altına almak için kullanılan komut dosyası türü bir P2SH 2/3 Multisig komut dosyasıdır ve bu da Exchange platformlarına özgü gelişmiş bir güvenlik seviyesine işaret etmektedir:
+Birkaç faktör bu hipotezi güçlendirmektedir. İlk olarak, UTXO girdisini güvence altına almak için kullanılan komut dosyası türü bir [P2SH](https://planb.academy/resources/glossary/p2sh) 2/3 Multisig komut dosyasıdır ve bu da Exchange platformlarına özgü gelişmiş bir güvenlik seviyesine işaret etmektedir:
 
 
 ```plaintext
@@ -1533,7 +1533,7 @@ Teknik olarak, Bitcoin alan bir Address gerçek anlamda bitcoin "almaz", daha zi
 Bitcoin adresleri, kullanılan komut dosyası modeline bağlı olarak farklı türlerde gelir. **Legacy** olarak bilinen ilk modeller `P2PKH` (*Pay-to-PubKey-Hash*) ve `P2SH` (*Pay-to-Script-Hash*) adreslerini içerir. P2PKH adresleri her zaman `1` ile, P2SH ise `3` ile başlar. Hala güvenli olmalarına rağmen, bu formatlar daha yüksek işlem maliyetleri gerektirdiğinden ve yeni standartlardan daha az gizlilik sunduğundan artık kullanılmamaktadır.
 
 
-SegWit V0 (`P2WPKH` ve `P2WSH`) ve Taproot / SegWit V1 (`P2TR`) adresleri modern formatları temsil eder. SegWit adresleri `bc1q` ile başlar ve 2021 yılında tanıtılan Taproot adresleri `bc1p` ile başlar.
+SegWit V0 (`P2WPKH` ve `P2WSH`) ve [Taproot](https://planb.academy/resources/glossary/taproot) / SegWit V1 (`P2TR`) adresleri modern formatları temsil eder. SegWit adresleri `bc1q` ile başlar ve 2021 yılında tanıtılan Taproot adresleri `bc1p` ile başlar.
 
 
 Örneğin, burada bir Taproot alımı Address bulunmaktadır:
@@ -2017,7 +2017,7 @@ Bununla birlikte, kişisel güvenlik için riskler vardır. Ana tehlike, Exchang
 ![BTC204](assets/tr/089.webp)
 
 
-Bu riski sınırlamak için, aile üyeleri veya yakın arkadaşlar gibi güvenilir kişilerle nakit işlem yapmayı tercih etmenizi tavsiye ederim. Alternatif olarak, birkaç kez katıldıktan sonra [yerel Bitcoin buluşmalarında] (https://btcmap.org/communities/map) işlem yapmayı da düşünebilirsiniz. Bu, diğer katılımcıları daha iyi tanımanızı ve fiziksel olarak alışveriş yaparken yalnız kalmamanızı sağlayacaktır. Bununla birlikte, P2P nakit takaslarının doğası gereği kişisel güvenliğiniz için düzenlenmiş bir platform ve banka hesabınız aracılığıyla satın alırken var olmayan riskler taşıdığını kabul etmek önemlidir.
+Bu riski sınırlamak için, aile üyeleri veya yakın arkadaşlar gibi güvenilir kişilerle nakit işlem yapmayı tercih etmenizi tavsiye ederim. Alternatif olarak, birkaç kez katıldıktan sonra [yerel Bitcoin buluşmalarında](https://btcmap.org/communities/map) işlem yapmayı da düşünebilirsiniz. Bu, diğer katılımcıları daha iyi tanımanızı ve fiziksel olarak alışveriş yaparken yalnız kalmamanızı sağlayacaktır. Bununla birlikte, P2P nakit takaslarının doğası gereği kişisel güvenliğiniz için düzenlenmiş bir platform ve banka hesabınız aracılığıyla satın alırken var olmayan riskler taşıdığını kabul etmek önemlidir.
 
 
 Dahası, yaşadığınız yere bağlı olarak, ister Bitcoin ister nakit olsun, büyük miktarlarda paranın taşınması ve saklanması riskli olabilir.
@@ -2068,7 +2068,7 @@ Bir kez daha, P2P alımlarının bir diğer dezavantajı, fiyatın genellikle d�
 ![BTC204](assets/tr/095.webp)
 
 
-Çözümler söz konusu olduğunda, kişisel olarak her zaman [Bisq] (https://bisq.network/) kullandım ve bundan çok memnunum. Sistemleri denenmiş ve test edilmiş ve güvenilir görünüyor. Ancak Bisq sadece PC'de kullanılabiliyor ve Interface yeni başlayanlar için çok karmaşık olabilir. Bir diğer dezavantajı ise Bisq'in yalnızca zincir içi işlemlerle çalışmasıdır ki bu da Bitcoin işlem ücretlerinin yüksek olduğu dönemlerde maliyetli hale gelebilir.
+Çözümler söz konusu olduğunda, kişisel olarak her zaman [Bisq](https://bisq.network/) kullandım ve bundan çok memnunum. Sistemleri denenmiş ve test edilmiş ve güvenilir görünüyor. Ancak Bisq sadece PC'de kullanılabiliyor ve Interface yeni başlayanlar için çok karmaşık olabilir. Bir diğer dezavantajı ise Bisq'in yalnızca zincir içi işlemlerle çalışmasıdır ki bu da Bitcoin işlem ücretlerinin yüksek olduğu dönemlerde maliyetli hale gelebilir.
 
 
 -> Bisq eğitimimize bakın.
@@ -2084,7 +2084,7 @@ Daha basit bir seçenek için, alıcıları ve satıcıları yerleşik bir anla�
 
 https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-Bir başka çevrimiçi seçenek de, şahsen test etmemiş olsam da, iyi likidite sunan köklü bir platform olan [HodlHodl] (https://hodlhodl.com/).
+Bir başka çevrimiçi seçenek de, şahsen test etmemiş olsam da, iyi likidite sunan köklü bir platform olan [HodlHodl](https://hodlhodl.com/).
 
 
 -> HodlHodl eğitimimize bakın.
@@ -2207,7 +2207,7 @@ Bu örnekte, B işlemi daha yüksek bir toplam ücret sunsa da, madenciler ücre
 
 ```text
 TXA: 1994 / 141 = 14 sats/vB
-TXB: 2640 / 220 = 12 sats / vB
+TXB: 2640 / 220 = 12 sats/vB
 ```
 
 
@@ -2307,7 +2307,7 @@ Bitcoin'te gizliliğinizi optimize etmek için diğer birkaç en iyi uygulamaya 
 ### Tam düğüm
 
 
-Bitcoin'lerinize kendi gözetiminizde sahip olmak harika, ancak kendi Full node'ünüzü kullanmak daha da iyi! İşte Bitcoin'i tamamen egemen bir şekilde kullanmak için kendi node'unuza sahip olmanın neden çok önemli olduğu:
+Bitcoin'lerinize kendi gözetiminizde sahip olmak harika, ancak kendi full node'ünüzü kullanmak daha da iyi! İşte Bitcoin'i tamamen egemen bir şekilde kullanmak için kendi node'unuza sahip olmanın neden çok önemli olduğu:
 
 
 
@@ -2316,10 +2316,10 @@ Bitcoin'lerinize kendi gözetiminizde sahip olmak harika, ancak kendi Full node'
 - **Üçüncü taraflardan bağımsızlık**: Artık Blockchain verilerini doğrulamak için herhangi bir harici hizmete bağımlı değilsiniz;
 - **Aktif katılım**: Kendi doğrulama kurallarınızı tanımlayabilir ve fikir birliğine doğrudan katılabilirsiniz;
 - **Ağ katkısı**: Bir düğüm çalıştırarak Bitcoin ağını güçlendirmeye ve dağıtmaya yardımcı olursunuz;
-- **Teknik eğitim**: Bir Full node'i yönetmek, Bitcoin hakkındaki teknik bilginizi derinleştirmek için harika bir yoldur.
+- **Teknik eğitim**: Bir full node'i yönetmek, Bitcoin hakkındaki teknik bilginizi derinleştirmek için harika bir yoldur.
 
 
-Bu avantajlara ek olarak, bir Full node kullanmak işlemlerinizi yayınlarken gizliliğinizi de artırır. Bir işlem yayınladığınızda, ilk olarak Wallet'niz aracılığıyla oluşturulur ve imzalanır. Bitcoin ağında yayınlamak için en az bir düğüm tarafından bilinmesi gerekir. Kendi düğümünüzü kullanarak bu dağıtım üzerinde doğrudan kontrol sahibi olursunuz, böylece gizliliğinizi güçlendirir ve veri sızıntısı riskini sınırlandırırsınız.
+Bu avantajlara ek olarak, bir full node kullanmak işlemlerinizi yayınlarken gizliliğinizi de artırır. Bir işlem yayınladığınızda, ilk olarak Wallet'niz aracılığıyla oluşturulur ve imzalanır. Bitcoin ağında yayınlamak için en az bir düğüm tarafından bilinmesi gerekir. Kendi düğümünüzü kullanarak bu dağıtım üzerinde doğrudan kontrol sahibi olursunuz, böylece gizliliğinizi güçlendirir ve veri sızıntısı riskini sınırlandırırsınız.
 
 
 ![BTC204](assets/tr/104.webp)
@@ -2331,13 +2331,13 @@ Kendi Bitcoin düğümünüz yoksa, Wallet yazılım sağlayıcınız tarafında
 ![BTC204](assets/tr/105.webp)
 
 
-Kendi Bitcoin düğümünüzü kullanmadığınızda ana risk, üçüncü taraf düğümün operatörünün Blockchain üzerindeki faaliyetlerinizi gözlemleyebilmesi ve hatta bu bilgileri diğer kuruluşlarla paylaşabilmesidir. Bu riski sınırlamak için, bağlantılarınızı Tor üzerinden maskeleyen Wallet yazılımını kullanmak bir ara çözümdür. Bu, verilerinizin açığa çıkmasını azaltabilir. Bununla birlikte, en uygun çözüm kendi Bitcoin düğümünüze sahip olmak ve işlemlerinizi yayınlamak için bunu kullanmaktır. Elbette, düğümünüz aracılığıyla herhangi bir bilgi sızdırmamaya da dikkat etmeniz gerekecektir, ancak bu daha sonraki bölümlerde inceleyeceğimiz başka bir konudur.
+Kendi Bitcoin düğümünüzü kullanmadığınızda ana risk, üçüncü taraf düğümün operatörünün Blockchain üzerindeki faaliyetlerinizi gözlemleyebilmesi ve hatta bu bilgileri diğer kuruluşlarla paylaşabilmesidir. Bu riski sınırlamak için, bağlantılarınızı [Tor](https://planb.academy/resources/glossary/tor) üzerinden maskeleyen Wallet yazılımını kullanmak bir ara çözümdür. Bu, verilerinizin açığa çıkmasını azaltabilir. Bununla birlikte, en uygun çözüm kendi Bitcoin düğümünüze sahip olmak ve işlemlerinizi yayınlamak için bunu kullanmaktır. Elbette, düğümünüz aracılığıyla herhangi bir bilgi sızdırmamaya da dikkat etmeniz gerekecektir, ancak bu daha sonraki bölümlerde inceleyeceğimiz başka bir konudur.
 
 
-Kendi Full node'unuzun olması, gizliliğiniz açısından sağladığı bariz avantajın ötesinde, Blockchain'deki verilerin doğruluğunu garanti eder, sizi sansüre karşı korur ve Bitcoin'ın yönetimine aktif olarak katılmanızı sağlar. Kendi node'unuzu kullanarak, seçtiğiniz zincire ekonomik ağırlığınızla katkıda bulunursunuz ki bu, örneğin 2015'ten 2017'ye kadar süren Blocksize Savaşı sırasında olduğu gibi topluluk içindeki çatışmalar sırasında önemlidir. Bir Fork durumunda, üçüncü taraf bir node kullanmak, node operatörü sizin için seçim yaptığından, tercih etmek istemediğiniz bir zinciri desteklemenize neden olabilir.
+Kendi full node'unuzun olması, gizliliğiniz açısından sağladığı bariz avantajın ötesinde, Blockchain'deki verilerin doğruluğunu garanti eder, sizi sansüre karşı korur ve Bitcoin'ın yönetimine aktif olarak katılmanızı sağlar. Kendi node'unuzu kullanarak, seçtiğiniz zincire ekonomik ağırlığınızla katkıda bulunursunuz ki bu, örneğin 2015'ten 2017'ye kadar süren Blocksize Savaşı sırasında olduğu gibi topluluk içindeki çatışmalar sırasında önemlidir. Bir Fork durumunda, üçüncü taraf bir node kullanmak, node operatörü sizin için seçim yaptığından, tercih etmek istemediğiniz bir zinciri desteklemenize neden olabilir.
 
 
-Gördüğünüz gibi, gizlilik ve bireysel egemenlik adına, kendi Full node'nizi çalıştırmanız ve kullanmanız çok önemlidir!
+Gördüğünüz gibi, gizlilik ve bireysel egemenlik adına, kendi full node'nizi çalıştırmanız ve kullanmanız çok önemlidir!
 
 
 ### Aldatıcı analiz sezgiselleri
@@ -2346,7 +2346,7 @@ Gördüğünüz gibi, gizlilik ve bireysel egemenlik adına, kendi Full node'niz
 Daha genel olarak, bir önceki bölümde bahsettiğimiz sezgisel yöntemleri anlamak, onlardan daha iyi kaçınmak veya onları kandırmak için önemlidir. Bir dizi en iyi uygulamayı benimsemek, gerekli olmasalar bile faydalı olabilir. Bitcoin kullanırken gizliliğin korunmasında önemli olabilecek ekstra bir Layer koruması sunarlar.
 
 
-Verebileceğim ilk tavsiye, en yoğun kalabalığın arasına karışmaktır. Bitcoin'da bu, en yaygın olarak benimsenen komut dosyası şablonlarını kullanmak anlamına gelir. Örneğin, genellikle SegWit V0 Multisig yapılandırmaları için kullanılan P2WSH betikleri çok nadirdir. Büyük bir anonimlik setinde saklanmanıza izin vermezler. Aynı şey P2PKH veya P2SH gibi eski modeller için de geçerlidir. UTXO setinde yaygın olarak bulunmalarına rağmen, yeni işlemler için giderek daha az kullanılmaktadırlar.
+Verebileceğim ilk tavsiye, en yoğun kalabalığın arasına karışmaktır. Bitcoin'da bu, en yaygın olarak benimsenen komut dosyası şablonlarını kullanmak anlamına gelir. Örneğin, genellikle SegWit V0 Multisig yapılandırmaları için kullanılan [P2WSH](https://planb.academy/resources/glossary/p2wsh) betikleri çok nadirdir. Büyük bir anonimlik setinde saklanmanıza izin vermezler. Aynı şey P2PKH veya P2SH gibi eski modeller için de geçerlidir. UTXO setinde yaygın olarak bulunmalarına rağmen, yeni işlemler için giderek daha az kullanılmaktadırlar.
 
 
 Genel olarak konuşmak gerekirse, yeterince benimsenmiş olması koşuluyla, en yeni komut dosyası standardını tercih etmek daha akıllıca olacaktır. Dolayısıyla, 2022'de düşük benimsenme oranı nedeniyle P2TR'nin (Taproot) kullanılmamasını tavsiye ettiysem, 2024'te bunun yerine bu tür bir komut dosyasını veya bu mümkün değilse SegWit V0 komut dosyasını tercih etmenizi tavsiye ederim, çünkü P2TR kullanan işlemlerin sayısı çok önemli bir oranı temsil etmeye başlamıştır.
@@ -2495,7 +2495,7 @@ Bununla birlikte, CoinJoin, ileri anonset olarak bilinen geçmişten günümüze
 ![BTC204](assets/tr/118.webp)
 
 
-İlk örnekte CoinJoin'in bir odanın mahremiyetini geçmişiyle bağlantılı olarak nasıl koruyabileceğini, ikinci örnekte ise bir odanın geçmişini geleceğiyle bağlantılı olarak nasıl güvence altına alabileceğini gördük. Bu nedenle CoinJoin'in her iki yönde de bir UTXO geçmişini bölümlere ayıran tek seferlik bir olay olarak görülmesi gerektiğini belirttim:
+İlk örnekte, coinjoin'in bir coinin geçmişine göre gizliliğini nasıl koruyabildiğini ve ikinci örnekte, bir coinin geleceğine göre geçmişini nasıl güvence altına alabildiğini gördük. Bu nedenle coinjoin'in, bir coinin geçmişini her iki yönde de segmentlere ayıran tek seferlik bir olay olarak algılanması gerektiğini belirttim:
 
 
 ![BTC204](assets/tr/119.webp)
@@ -2653,7 +2653,7 @@ David Chaum'un kör imzalarının kullanılmasıyla mümkün kılınan bu 2 kamu
 ### CoinJoin konseptini kim icat etti?
 
 
-CoinJoin fikrini Bitcoin'e ilk kimin sunduğunu ve David Chaum'un kör imzalarını bu bağlamda kullanma fikrini kimin ortaya attığını kesin olarak söylemek Hard'dir. Genellikle bu fikirden ilk kez Gregory Maxwell'in [2013 yılında BitcoinTalk'taki bir mesajda] (https://bitcointalk.org/index.php?topic=279249.0) bahsettiği düşünülmektedir:
+CoinJoin fikrini Bitcoin'e ilk kimin sunduğunu ve David Chaum'un kör imzalarını bu bağlamda kullanma fikrini kimin ortaya attığını kesin olarak söylemek Hard'dir. Genellikle bu fikirden ilk kez Gregory Maxwell'in [2013 yılında BitcoinTalk'taki bir mesajda](https://bitcointalk.org/index.php?topic=279249.0) bahsettiği düşünülmektedir:
 
 
 > *"Chaum'un kör imzalarını kullanmak: Kullanıcılar oturum açar ve girdilerin (ve Exchange adreslerinin) yanı sıra özel UTXO'larını göndermek istedikleri Address'ün kriptografik olarak blinded versiyonunu sağlar; sunucu belirteçleri imzalar ve geri gönderir. Kullanıcılar anonim olarak yeniden bağlanır, çıktı adreslerinin maskesini kaldırır ve bunları sunucuya geri gönderir. Sunucu, tüm çıktıların kendisi tarafından imzalandığını ve sonuç olarak tüm çıktıların geçerli katılımcılardan geldiğini görebilir. Daha sonra, insanlar yeniden bağlanır ve oturum açar"*
@@ -2663,10 +2663,10 @@ Maxwell, G. (2013, 22 Ağustos). *CoinJoin: Gerçek dünya için Bitcoin gizlili
 ![BTC204](assets/tr/130.webp)
 
 
-Bununla birlikte, hem UTXO karıştırıcı olarak Chaum imzaları hem de coinjoinler için daha önce bahsedilen başka şeyler de vardır. [Haziran 2011'de Duncan Townsend BitcoinTalk'ta] (https://bitcointalk.org/index.php?topic=12751.0) Chaum imzalarını modern Chaumian coinjoin'lere oldukça benzer bir şekilde kullanan bir karıştırıcı sunmuştur.
+Bununla birlikte, hem UTXO karıştırıcı olarak Chaum imzaları hem de coinjoinler için daha önce bahsedilen başka şeyler de vardır. [Haziran 2011'de Duncan Townsend BitcoinTalk'ta](https://bitcointalk.org/index.php?topic=12751.0) Chaum imzalarını modern Chaumian coinjoin'lere oldukça benzer bir şekilde kullanan bir karıştırıcı sunmuştur.
 
 
-Aynı başlıkta, karıştırıcısını geliştirmek için [Duncan Townsend'e yanıt olarak hashcoin'den bir mesaj] (https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) bulabiliriz. Bu mesajda açıklanan süreç tam olarak coinjoins'in ne olduğu ile ilgilidir. Benzer bir sistemden söz eden Alex Mizrahi'nin daha sonra Litecoin'in yaratılmasına temel teşkil eden ilk altcoinlerden biri olan Tenebrix'in yaratıcılarına danışmanlık yaptığı [2012'de Alex Mizrahi'den gelen bir mesaj](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry) da bulunabilir. "CoinJoin" teriminin kendisinin bile Greg Maxwell tarafından icat edilmediği, Peter Todd'un bir fikrinden ortaya çıktığı söylenmektedir.
+Aynı başlıkta, karıştırıcısını geliştirmek için [Duncan Townsend'e yanıt olarak hashcoin'den bir mesaj](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) bulabiliriz. Bu mesajda açıklanan süreç tam olarak coinjoins'in ne olduğu ile ilgilidir. Benzer bir sistemden söz eden Alex Mizrahi'nin daha sonra Litecoin'in yaratılmasına temel teşkil eden ilk altcoinlerden biri olan Tenebrix'in yaratıcılarına danışmanlık yaptığı [2012'de Alex Mizrahi'den gelen bir mesaj](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry) da bulunabilir. "CoinJoin" teriminin kendisinin bile Greg Maxwell tarafından icat edilmediği, Peter Todd'un bir fikrinden ortaya çıktığı söylenmektedir.
 
 
 ![BTC204](assets/tr/131.webp)
@@ -2675,7 +2675,7 @@ Aynı başlıkta, karıştırıcısını geliştirmek için [Duncan Townsend'e y
 ### Zerolink
 
 
-Zerolink, Chaumian coinjoins ve özellikle Wallet yönetimiyle ilgili hataları en aza indirerek kullanıcıların anonimliğini çeşitli zincir analizi biçimlerine karşı korumak için çeşitli stratejiler içeren kapsamlı bir karıştırma protokolüdür. Bu protokol [2017 yılında nopara73 ve TDevD tarafından tanıtılmıştır] (https://github.com/nopara73/ZeroLink/blob/master/README.md).
+[Zerolink](https://planb.academy/resources/glossary/zerolink), Chaumian coinjoins ve özellikle Wallet yönetimiyle ilgili hataları en aza indirerek kullanıcıların anonimliğini çeşitli zincir analizi biçimlerine karşı korumak için çeşitli stratejiler içeren kapsamlı bir karıştırma protokolüdür. Bu protokol [2017 yılında nopara73 ve TDevD tarafından tanıtılmıştır](https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
 
 ![BTC204](assets/tr/132.webp)
@@ -2783,7 +2783,7 @@ Exchange yönetim yöntemleri de iki uygulamayı birbirinden ayırıyordu. Whirl
 ![BTC204](assets/tr/139.webp)
 
 
-Wabisabi ile Wasabi sürüm 2.0, coinjoins yaklaşımını Whirlpool'ünkine uyacak şekilde uyarlamıştır. CoinJoin işlemleri çok büyük kalmaya devam etse de, artık Whirlpool modelini izleyerek birbirini takip eden birkaç döngüyü zincirlemek mümkündür. Exchange oran yönetimine de özellikle dikkat edilmiştir: değişimin doğrudan kullanıcı girdilerine bağlı olduğu Wasabi 1.0'dan farklı olarak, Wabisabi değişimi tüm katılımcılar için eşit değerlere bölünmüş birkaç küçük toplama bölmeyi amaçlamaktadır.
+Wabisabi ile birlikte 2.0 sürümü, coinjoin yaklaşımını Whirlpool modeline daha da yaklaştıracak şekilde uyarlamıştır. Coinjoin işlemleri hâlâ çok büyük boyutlarda olsa da, artık Whirlpool modelini takip ederek birden fazla ardışık döngüyü zincirlemek mümkündür. Ayrıca para üstü yönetimine de özel bir önem verilmiştir: Wasabi 1.0’da para üstü doğrudan kullanıcı girdilerine bağlıyken, Wabisabi para üstünü birkaç küçük meblağa bölerek tüm katılımcılar arasında eşit birimlerde dağıtmayı amaçlamaktadır.
 
 
 Bunu sadece 2 kullanıcıyı içeren basitleştirilmiş bir örnekle açıklayalım: Alice 115.000 Sats ve Bob, 210.000 Sats'i karıştırmak istiyor. Ücretler göz ardı edildiğinde, Wasabi 1.0 ile bir CoinJoin işlemi 100.000 Sats'lik 3 çıktı, artı Alice için 15.000 Sats'lik 1 değişiklik ve Bob için 10.000 Sats'lik 1 değişiklik üretecektir. Değişiklik çıktıları hala girdilerle bağlantılı olacaktır:
@@ -3033,7 +3033,7 @@ Tüm bu hesaplar tek bir seed'ye bağlanarak kullanıcının kurtarma cümlesini
 Herhangi bir Whirlpool CoinJoin'nın başlangıç noktası **deposit** hesabıdır. Bu, yeni bir Bitcoin Wallet oluşturduğunuzda otomatik olarak kullandığınız hesaptır. Bu hesaba karıştırmak istediğiniz bitcoinlerin yatırılması gerekecektir.
 
 
-Tx0" Whirlpool'un karıştırma işlemindeki ilk adımdır. Amacı, CoinJoin için UTXO'ları hazırlamak ve eşitlemek, homojen karışımı sağlamak için seçilen havuzun miktarına karşılık gelen birimlere bölmektir. Bu şekilde eşitlenen UTXO'lar daha sonra **premix** hesabına gönderilir. Havuza giremeyen farka gelince, belirli bir hesaba ayrılır: **kötü banka** (veya "doxxic change").
+`Tx0` Whirlpool'un karıştırma işlemindeki ilk adımdır. Amacı, CoinJoin için UTXO'ları hazırlamak ve eşitlemek, homojen karışımı sağlamak için seçilen havuzun miktarına karşılık gelen birimlere bölmektir. Bu şekilde eşitlenen UTXO'lar daha sonra **premix** hesabına gönderilir. Havuza giremeyen farka gelince, belirli bir hesaba ayrılır: **kötü banka** (veya "doxxic change").
 
 
 Bu ilk `Tx0' işlemi aynı zamanda CoinJoin koordinatörüne ödenmesi gereken hizmet ücretini ödemek için de kullanılır. Aşağıdaki adımlardan farklı olarak, bu işlem işbirliğine dayalı değildir, bu nedenle kullanıcı Mining'nin tüm maliyetini üstlenmelidir:
@@ -3089,7 +3089,7 @@ Bu ilk karışımların sonunda, **premix** hesabı boş olacak ve bu ilk CoinJo
 ### Remixler
 
 
-İlk miksten sonra UTXO'lar **postmix** hesabına aktarılır. Bu hesap, halihazırda karıştırılmış olan ve yeniden karıştırılmayı bekleyen UTXO'ları toplar. Whirlpool müşterisi aktif olduğunda, **postmix** hesabında bulunan UTXO'lar otomatik olarak remiksler için kullanılabilir hale gelir ve bu yeni döngülere katılmak üzere rastgele seçilir.
+İlk miks işlemi gerçekleştirildikten sonra UTXO’lar **postmix** hesabına aktarılır. Bu hesap, halihazırda mikslenmiş UTXO’ları ve yeniden mikslenmeyi bekleyenleri bir araya getirir. Whirlpool istemcisi aktif olduğunda, **postmix** hesabında bulunan UTXO’lar otomatik olarak yeniden miksleme için kullanılabilir hâle gelir ve bu yeni döngülere katılmak üzere rastgele seçilir.
 
 
 Bir hatırlatma olarak, remiksler %100 ücretsizdir: ek hizmet ücreti veya Mining ücreti gerekmez. UTXO'ları **postmix** hesabında tutmak, bu nedenle değerlerini korur ve aynı zamanda anonsetlerini geliştirir. Bu nedenle, bu coinlerin birkaç CoinJoin döngüsüne katılmasına izin vermek önemlidir. Bunun size hiçbir maliyeti yoktur ve anonimlik seviyelerini artırır.
@@ -3311,7 +3311,7 @@ Bir Bitcoin işleminde gözlemlenebilecek ilk gösterge, dışarıdan bir gözle
 ![BTC204](assets/tr/165.webp)
 
 
-Öte yandan, Whirlpool 5x5 köşesinde 1\,496$ olası kombinasyon vardır:
+Buna karşılık, Whirlpool 5x5 modeline göre yapılandırılmış bir coinjoin $1\,496$ olası kombinasyon sunar:
 
 
 ![BTC204](assets/tr/166.webp)
@@ -3332,7 +3332,7 @@ Bir Bitcoin işleminin yorumlanma sayısından entropisini hesaplayabiliriz.
 Genel kriptografi ve bilgi bağlamında entropi, bir veri kaynağı veya rastgele süreçle ilişkili belirsizliğin veya öngörülemezliğin nicel bir ölçüsüdür. Başka bir deyişle entropi, bir bilgi parçasının tahmin edilmesinin veya tahmin edilmesinin ne kadar zor olduğunu ölçmenin bir yoludur.
 
 
-Blockchain analizinin özel bağlamında, entropi aynı zamanda Shannon'un entropisinden türetilen ve [LaurentMT tarafından icat edilen] (https://gist.github.com/LaurentMT/e758767ca4038ac40aaf), bir Bitcoin işlemi üzerinde hesaplanabilen bir göstergenin adıdır.
+Blockchain analizinin özel bağlamında, entropi aynı zamanda Shannon'un entropisinden türetilen ve [LaurentMT tarafından icat edilen](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf), bir Bitcoin işlemi üzerinde hesaplanabilen bir göstergenin adıdır.
 
 
 Bir işlem çok sayıda olası yorum sunduğunda, genellikle entropisine başvurmak daha uygun olur. Bu gösterge analistlerin işlemin tam konfigürasyonu hakkındaki bilgi eksikliğini ölçer. Başka bir deyişle, entropi ne kadar yüksekse, analistlerin girdiler ve çıktılar arasındaki bitcoin akışını tespit etmesi o kadar zorlaşır.
@@ -3536,7 +3536,7 @@ Boltzmann puanı, belirli bir olayın gerçekleştiği yorumların sayısının 
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}
@@ -3561,9 +3561,9 @@ Bir Whirlpool 8x8 Dalgalanma Döngüsü CoinJoin örneğini ele alırsak, Boltzm
 Ancak, tek bir girdi ve 2 çıktıya sahip basit bir işlem söz konusu olduğunda durum farklıdır:
 
 
-| Output 0 | Output 1 |
-|----------|----------|
-| Input 0  | 100%     | 100%    |
+| %       | Output 0 | Output 1 |
+|---------|----------|----------|
+| Input 0 | 100%     | 100%     |
 
 
 Burada, her bir çıktının #0 numaralı girdiden kaynaklanma olasılığının %100 olduğunu görüyoruz. Dolayısıyla daha düşük bir olasılık, girdiler ve çıktılar arasındaki doğrudan bağlantıları seyrelterek daha fazla gizliliği yansıtır.
@@ -3634,7 +3634,7 @@ Bununla birlikte, ödemelerin pratik bir şekilde yapılmasına olanak tanıyan 
 PayJoin, ödeme alıcısı ile işbirliği yaparak harcama yaparken kullanıcı gizliliğini artıran özel bir Bitcoin işlem yapısıdır.
 
 
-LaurentMT, [burada] (https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt) bulunan bir belgeye göre, bu yöntemi ilk olarak 2015 yılında "*steganografik işlemler*" adı altında tartıştı. Bu teknik daha sonra Samourai Wallet tarafından benimsenmiş ve 2018'de Stowaway aracını kullanarak bunu uygulayan ilk istemci olmuştur. PayJoin kavramı [BIP79](https://github.com/Bitcoin/bips/blob/master/bip-0079.mediawiki), [BIP78](https://github.com/Bitcoin/bips/blob/master/bip-0078.mediawiki) ve [BIP77](https://PayJoin.org/docs/how-it-works/PayJoin-v2-bip-77/)'de de yer almaktadır. Bu nedenle bir PayJoin'a atıfta bulunmak için çeşitli terimler kullanılmaktadır:
+LaurentMT, [burada](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt) bulunan bir belgeye göre, bu yöntemi ilk olarak 2015 yılında "*steganografik işlemler*" adı altında tartıştı. Bu teknik daha sonra Samourai Wallet tarafından benimsenmiş ve 2018'de Stowaway aracını kullanarak bunu uygulayan ilk istemci olmuştur. PayJoin kavramı [BIP79](https://github.com/Bitcoin/bips/blob/master/bip-0079.mediawiki), [BIP78](https://github.com/Bitcoin/bips/blob/master/bip-0078.mediawiki) ve [BIP77](https://PayJoin.org/docs/how-it-works/PayJoin-v2-bip-77/)'de de yer almaktadır. Bu nedenle bir PayJoin'a atıfta bulunmak için çeşitli terimler kullanılmaktadır:
 
 
 
@@ -3756,7 +3756,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d
 
 
 
-Belirli bir gizlilik derecesini koruyarak bir ödeme işlemi gerçekleştirmek istediğinizde, PayJoin iyi bir seçenektir. Ancak az önce gördüğümüz gibi, PayJoin alıcının katılımını gerektirir. Peki alıcı PayJoin'e katılmayı reddederse ya da siz onu dahil etmemeyi tercih ederseniz ne yaparsınız? Alternatiflerden biri Stonewall veya Stonewall x2 işlemi kullanmaktır. Şimdi bu iki işlem türüne daha yakından bakalım.
+Belirli bir gizlilik derecesini koruyarak bir ödeme işlemi gerçekleştirmek istediğinizde, PayJoin iyi bir seçenektir. Ancak az önce gördüğümüz gibi, PayJoin alıcının katılımını gerektirir. Peki alıcı PayJoin'e katılmayı reddederse ya da siz onu dahil etmemeyi tercih ederseniz ne yaparsınız? Alternatiflerden biri [Stonewall](https://planb.academy/resources/glossary/stonewall) veya Stonewall x2 işlemi kullanmaktır. Şimdi bu iki işlem türüne daha yakından bakalım.
 
 
 ### Stonewall işlemi
@@ -3853,7 +3853,7 @@ Bu örnekte, anlaşılmasını kolaylaştırmak için kasıtlı olarak ücretler
 Stonewall yapısı gibi, Stonewall x2 yapısı da işleme büyük miktarda entropi ekler ve zincir analizini karıştırır. Dışarıdan bakıldığında, böyle bir işlem iki kişi arasında küçük bir CoinJoin olarak yorumlanabilir. Ancak gerçekte bu bir ödemedir. Dolayısıyla bu yöntem zincir analizinde belirsizlikler yaratır, hatta yanlış ipuçlarına yol açar.
 
 
-Alice, Bob the Baker ve Charles örneklerini ele alalım. Blockchain'deki işlem şöyle görünecektir:
+Alice, Bob the baker ve Charles örneklerini ele alalım. Blockchain'deki işlem şöyle görünecektir:
 
 
 ![BTC204](assets/tr/184.webp)
@@ -3949,7 +3949,7 @@ UTXO'nizi CoinJoin döngülerinden sonra nasıl kullanmayı planladığınıza b
 ![BTC204](assets/tr/190.webp)
 
 
-Bir Bitcoin Coin'un geçmişinin izlerini bulanıklaştırarak bir tür değiştirilebilirliği yeniden tesis edebilecek bir araç var. Ricochet'in amacı da tam olarak budur.
+Bir Bitcoin Coin'un geçmişinin izlerini bulanıklaştırarak bir tür değiştirilebilirliği yeniden tesis edebilecek bir araç var. [Ricochet](https://planb.academy/resources/glossary/ricochet)'in amacı da tam olarak budur.
 
 
 ![BTC204](assets/tr/191.webp)
@@ -4075,7 +4075,7 @@ Ancak bu naif yöntem güven açısından yüksek bir risk teşkil etmektedir. A
 ![BTC204](assets/tr/201.webp)
 
 
-Ayrıca, Alice'nin Bob'in özel anahtarı $B$'yi almayacağının ve Exchange'da kendi özel anahtarı $A$'yı asla aktarmayacağının garantisi yoktur. Bu nedenle bu Exchange taraflar arasında aşırı güvene dayanır ve Ownership'in güvenli bir gizli transferini sağlamada etkisizdir.
+Ayrıca, Alice'in Bob'un özel anahtarı $B$'yi aldıktan sonra karşılığında kendi özel anahtarı $A$'yı ileteceğinin hiçbir garantisi yoktur. Dolayısıyla bu değişim, taraflar arasındaki büyük bir güvene dayanmaktadır ve mülkiyetin gizli transferini güvenli bir şekilde sağlamada yetersiz kalmaktadır.
 
 
 ![BTC204](assets/tr/202.webp)
@@ -4084,7 +4084,7 @@ Ayrıca, Alice'nin Bob'in özel anahtarı $B$'yi almayacağının ve Exchange'da
 Bu sorunları çözmek ve birbirlerine güvenmeyen taraflar arasında alışverişi mümkün kılmak için bunun yerine Smart contract sistemlerini kullanacağız. Smart contract, önceden tanımlanmış koşullar karşılandığında otomatik olarak çalışan bir programdır. Bizim durumumuzda bu, Exchange mülkünün karşılıklı güvene ihtiyaç duymadan otomatik olarak gerçekleşmesini sağlar.
 
 
-Bu, HTLC (*Hash Zaman Kilitli Sözleşmeler*) veya PTLC (*Nokta Zaman Kilitli Sözleşmeler*) kullanılarak gerçekleştirilebilir. Bu iki protokol, Exchange'ün ya başarıyla tamamlanmasını ya da tamamen iptal edilmesini sağlayan ve böylece her iki tarafın fonlarının bütünlüğünü koruyan bir zaman kilitleme sistemi kullanarak benzer şekilde çalışır. HTLC ve PTLC arasındaki temel fark, HTLC'in işlemi güvence altına almak için hash ve preimages kullanırken PTLC'nin Adaptor Signatures kullanmasıdır.
+Bu, [HTLC](https://planb.academy/resources/glossary/htlc) (*Hash Zaman Kilitli Sözleşmeler*) veya PTLC (*Nokta Zaman Kilitli Sözleşmeler*) kullanılarak gerçekleştirilebilir. Bu iki protokol, Exchange'ün ya başarıyla tamamlanmasını ya da tamamen iptal edilmesini sağlayan ve böylece her iki tarafın fonlarının bütünlüğünü koruyan bir zaman kilitleme sistemi kullanarak benzer şekilde çalışır. HTLC ve PTLC arasındaki temel fark, HTLC'in işlemi güvence altına almak için hash ve preimages kullanırken PTLC'nin Adaptor Signatures kullanmasıdır.
 
 
 HTLC veya Alice ve Bob arasında PTLC kullanan bir coin takası senaryosunda, Exchange güvenli bir şekilde gerçekleşir: ya başarılı olur ve her biri diğerinin BTC'sini alır ya da başarısız olur ve her biri kendi BTC'sini tutar. Bu, taraflardan birinin hile yapmasını veya diğerinin BTC'sini çalmasını imkansız hale getirir.
@@ -4169,13 +4169,13 @@ $$(s_A' + t) \cdot G = N_A + T + H(N_A + T \paralel P_A \paralel m_A) \cdot P_A$
 Adaptör İmzasının bir coin takasında nasıl çalıştığını özetleyelim. Başlangıçta Alice, Bob'e bir adaptörle birlikte imzasız bir işlem göndererek Bob'in daha sonra açıklanacak sırrın kendisine bitcoinlere erişim sağlayacağını doğrulamasını sağlar. Buna karşılık Bob de Alice'ye kendi imzasız işlemini ve adaptörünü gönderir. Alice daha sonra Bob'in işlemini sonuçlandırabilir ve sır sayesinde geçerli bir işlem yayınlayarak bitcoinleri geri alabilir. Bu işlem Blockchain'te yayınlandığında, Bob sırrı çıkarma ve böylece Alice'nin işleminin kilidini açma yeteneğine sahiptir. Sonuç olarak, Alice Bob'in Bitcoin'sının transferini başlatırsa, Bob de karşılıklı güvene ihtiyaç duymadan Alice'nin Bitcoin'sına erişebilir.
 
 
-Coinwaps'in ilk olarak [Gregory Maxwell tarafından Ekim 2013'te BitcoinTalk'ta] (https://bitcointalk.org/index.php?topic=321228.0) önerildiğini unutmayın.
+Coinwaps'in ilk olarak [Gregory Maxwell tarafından Ekim 2013'te BitcoinTalk'ta](https://bitcointalk.org/index.php?topic=321228.0) önerildiğini unutmayın.
 
 
 ### Atomik takas
 
 
-Coinswap'e benzer bir şekilde ve aynı akıllı sözleşme türlerini kullanarak atomik swaplar gerçekleştirmek de mümkündür. Atomik takas, BTC ve XMR gibi farklı kripto paraların iki kullanıcı arasında güvene ya da bir aracının müdahalesine gerek kalmadan doğrudan Exchange ile takas edilmesini sağlar. Bu takaslar "atomik" olarak adlandırılır çünkü yalnızca iki olası sonucu vardır: ya takas başarılı olur ve her iki taraf da memnun kalır ya da başarısız olur ve her biri orijinal kripto paralarını korur ve diğer tarafa güvenme ihtiyacını ortadan kaldırır.
+[Coinswap](https://planb.academy/resources/glossary/coinswap)'e benzer bir şekilde ve aynı akıllı sözleşme türlerini kullanarak atomik swaplar gerçekleştirmek de mümkündür. Atomik takas, BTC ve XMR gibi farklı kripto paraların iki kullanıcı arasında güvene ya da bir aracının müdahalesine gerek kalmadan doğrudan Exchange ile takas edilmesini sağlar. Bu takaslar "atomik" olarak adlandırılır çünkü yalnızca iki olası sonucu vardır: ya takas başarılı olur ve her iki taraf da memnun kalır ya da başarısız olur ve her biri orijinal kripto paralarını korur ve diğer tarafa güvenme ihtiyacını ortadan kaldırır.
 
 
 ![BTC204](assets/tr/203.webp)
@@ -4238,13 +4238,13 @@ Gizli Ownership transfer yöntemlerinin gerçekten etkili olabilmesi ve bir $A$ 
 
 
 
-4. bölümde, işlemlerinizin gizliliğini korumak için bir Full node kullanmanın öneminden bahsetmiştik. Ancak, düğümünüzün kendisinin de faaliyetleriniz hakkında bilgi almak isteyen saldırılara maruz kalabileceğini anlamak önemlidir. Bu nedenle bu bölümde, gizliliğinizi korumak için alabileceğiniz çeşitli önlemlere bakacağız, işlemlerin kendileri veya Bitcoin akışları düzeyinde değil, ağ düzeyinde.
+4. bölümde, işlemlerinizin gizliliğini korumak için bir full node kullanmanın öneminden bahsetmiştik. Ancak, düğümünüzün kendisinin de faaliyetleriniz hakkında bilgi almak isteyen saldırılara maruz kalabileceğini anlamak önemlidir. Bu nedenle bu bölümde, gizliliğinizi korumak için alabileceğiniz çeşitli önlemlere bakacağız, işlemlerin kendileri veya Bitcoin akışları düzeyinde değil, ağ düzeyinde.
 
 
 ### Karahindiba
 
 
-Çeşitli anonimleştirme saldırılarından kaçınmanın bir yolu Dandelion önerisini kullanmaktır. Bu yayın protokolü BIP156'da resmileştirilmiştir, ancak Bitcoin'de hiç uygulanmamıştır.
+Çeşitli anonimleştirme saldırılarından kaçınmanın bir yolu [Dandelion](https://planb.academy/resources/glossary/dandelion) önerisini kullanmaktır. Bu yayın protokolü BIP156'da resmileştirilmiştir, ancak Bitcoin'de hiç uygulanmamıştır.
 
 
 Dandelion'un arkasındaki fikir, çeşitli saldırı biçimlerine karşı koymak için Bitcoin ağındaki işlem yönlendirmesinin gizliliğini artırmaktır. Ana hedefi, ağda bir işlemi ilk yayınlayan kaynak düğümü gizlemektir. Bu düğümün ifşa edilmesi, bir Bitcoin işleminin belirli bir IP Address'e (düğüm clearnet üzerinde çalışıyorsa) bağlanmasını mümkün kılabilir ve bu da zincir analizi için bir giriş noktası sağlayabilir.
@@ -4310,7 +4310,7 @@ BIP156, Bitcoin core'ya entegre edilmemiştir ve şu anda "reddedilmiş" olarak 
 P2P transport V2, BIP324'te sunulan başka bir ağ protokolüdür. Düğümler arasındaki iletişimin gizliliğini ve güvenliğini artırmak için fırsatçı şifreleme içeren Bitcoin P2P taşıma protokolünün yeni bir sürümüdür.
 
 
-Bu geliştirme, P2P protokolünün temel versiyonuyla ilgili birkaç sorunu çözmek için tasarlanmıştır. Bir yandan, değiş tokuş edilen verileri pasif bir gözlemci için İnternet üzerinde dolaşan diğer veri türlerinden ayırt edilemez hale getirir. Ana amaç, hükümetlerin, İSS'lerin ve VPN sağlayıcılarının Bitcoin kullanıcılarını kitlesel olarak izlemesini önlemektir. Bu aynı zamanda bu kuruluşların bir İnternet kullanıcısının aynı zamanda bir Bitcoin kullanıcısı olup olmadığını, yani bir Full node çalıştırıp çalıştırmadığını belirlemesini zorlaştırır.
+Bu geliştirme, P2P protokolünün temel versiyonuyla ilgili birkaç sorunu çözmek için tasarlanmıştır. Bir yandan, değiş tokuş edilen verileri pasif bir gözlemci için İnternet üzerinde dolaşan diğer veri türlerinden ayırt edilemez hale getirir. Ana amaç, hükümetlerin, İSS'lerin ve VPN sağlayıcılarının Bitcoin kullanıcılarını kitlesel olarak izlemesini önlemektir. Bu aynı zamanda bu kuruluşların bir İnternet kullanıcısının aynı zamanda bir Bitcoin kullanıcısı olup olmadığını, yani bir full node çalıştırıp çalıştırmadığını belirlemesini zorlaştırır.
 
 
 P2P V2 ayrıca veri paketlerindeki belirli kalıpları tespit ederek sansür ve saldırı riskini azaltmaya yardımcı olur. Ağ düzeyinde çeşitli Sybil saldırılarının yürütülmesini zorlaştırır ve daha maliyetli hale getirir. Sybil saldırısı, bir aktör haksız bir avantaj elde etmek için birden fazla sahte kimlik oluşturduğunda meydana gelir. Bitcoin ağı bağlamında, bu genellikle bir aktörün çok sayıda tam düğümü kontrol etmesi ve bunları bağlantıları çoğaltmak için agresif bir şekilde kullanması şeklinde kendini gösterir. Sybil saldırıları, bilgi toplamak ve kullanıcı gizliliğini tehlikeye atmak için pasif veya Eclipse saldırıları şeklinde aktif olabilir. İkincisi, belirli bir düğümü ağın geri kalanından izole ederek kullanıcıyı sansürler ya da aldığı verileri değiştirir. Son olarak, P2P V2 ayrıca *Ortadaki Adam* (MITM) saldırılarını daha maliyetli ve tespit edilmesi daha kolay hale getirir.
@@ -4531,7 +4531,7 @@ Somut olarak, generate sıkıştırılmış açık anahtar ve yeniden kullanıla
 ### Eliptik eğriler üzerinde Diffie-Hellman anahtarı Exchange (ECDH)
 
 
-BIP47'nin kalbinde yer alan kriptografik protokol *Eliptic-Curve Diffie-Hellman* için ECDH kısaltmasıyla bilinir. Bu yöntem orijinal Diffie-Hellman anahtarı Exchange'ın bir varyantıdır.
+BIP47'nin kalbinde yer alan kriptografik protokol *Eliptic-Curve Diffie-Hellman* için [ECDH](https://planb.academy/resources/glossary/ecdh) kısaltmasıyla bilinir. Bu yöntem orijinal Diffie-Hellman anahtarı Exchange'ın bir varyantıdır.
 
 
 1976 yılında tanıtılan Diffie-Hellman, her biri bir anahtar çiftine (açık ve özel) sahip iki tarafın, yalnızca açık, güvenli olmayan bir kanal üzerinden iletişim kurarken bile ortak bir sır üzerinde anlaşmasını sağlayan bir anahtar anlaşma protokolüdür.
@@ -4963,7 +4963,7 @@ Bir bildirim işlemi gerçekleştirmek için az önce birlikte gördüğümüz a
 ### İşlem bildirimi: pratik bir çalışma
 
 
-Nasıl çalıştığını ve özellikle `OP_RETURN`in kullanımını daha ayrıntılı olarak anlamak için gerçek bir bildirim işlemine göz atalım. Böyle bir işlemi [buraya tıklayarak] (https://Mempool.space/Testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e) bulabileceğiniz Testnet üzerinde gerçekleştirdim.
+Nasıl çalıştığını ve özellikle `OP_RETURN`in kullanımını daha ayrıntılı olarak anlamak için gerçek bir bildirim işlemine göz atalım. Böyle bir işlemi [buraya tıklayarak](https://Mempool.space/Testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e) bulabileceğiniz Testnet üzerinde gerçekleştirdim.
 
 
 ![BTC204](assets/tr/233.webp)
@@ -5636,7 +5636,7 @@ $$ P = B + \text{Hash}(a \cdot B) \cdot G $$
 Bu denklemde Alice basitçe kendi özel anahtarı $a$ ile Bob'ün açık anahtarı $B$'nin skaler çarpımını hesaplamıştır. Bu sonucu herkes tarafından bilinen bir Hash fonksiyonuna aktarmıştır. Elde edilen değer daha sonra eliptik eğri `secp256k1`in üretme noktası $G$ ile skaler olarak çarpılır. Son olarak, Alice elde edilen noktayı Bob'ün açık anahtarına $B$ ekler. Alice bu Address $P$'ye sahip olduğunda, bunu bir işlemde çıktı olarak kullanır, yani ona bitcoin gönderir.
 
 
-> *Sessiz Ödemeler bağlamında, "Hash" işlevi, özellikle `BIP0352/SharedSecret` ile etiketlenmiş bir SHA256 Hash işlevine karşılık gelir; bu, üretilen karmaların bu protokole özgü olmasını ve diğer bağlamlarda yeniden kullanılamamasını sağlarken, imzalarda nonces'lerin yeniden kullanımına karşı ek koruma sunar. Bu standart, `secp256k1` üzerindeki [Schnorr imzaları için BIP340'ta belirtilen] (https://github.com/Bitcoin/bips/blob/master/bip-0340.mediawiki) standarda karşılık gelir.*
+> *Sessiz Ödemeler bağlamında, "Hash" işlevi, özellikle `BIP0352/SharedSecret` ile etiketlenmiş bir SHA256 Hash işlevine karşılık gelir; bu, üretilen karmaların bu protokole özgü olmasını ve diğer bağlamlarda yeniden kullanılamamasını sağlarken, imzalarda nonces'lerin yeniden kullanımına karşı ek koruma sunar. Bu standart, `secp256k1` üzerindeki [Schnorr imzaları için BIP340'ta belirtilen](https://github.com/Bitcoin/bips/blob/master/bip-0340.mediawiki) standarda karşılık gelir.*
 ECDH'nin dayandığı eliptik eğrinin özellikleri sayesinde şunu biliyoruz:
 
 
@@ -6093,7 +6093,7 @@ Yakında size kendi Sessiz Ödemeler statik Address'nızı nasıl kuracağınız
 Bu özellik yeni olduğundan, dikkatli olmanızı ve Mainnet'de büyük miktarlar için Sessiz Ödemeleri kullanmaktan kaçınmanızı tavsiye ederiz.
 
 
-*Sessiz Ödemeler hakkındaki bu bölümü oluşturmak için [Sessiz Ödemeler açıklama sitesi] (https://silentpayments.xyz/) ve [BIP352 açıklama belgesi] (https://github.com/Bitcoin/bips/blob/master/bip-0352.mediawiki) kullandım.*
+*Sessiz Ödemeler hakkındaki bu bölümü oluşturmak için [Sessiz Ödemeler açıklama sitesi](https://silentpayments.xyz/) ve [BIP352 açıklama belgesi](https://github.com/Bitcoin/bips/blob/master/bip-0352.mediawiki) kullandım.*
 
 
 # Son Bölüm

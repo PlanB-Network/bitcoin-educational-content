@@ -1,0 +1,8 @@
+question: Jaka jest podstawowa zaleta architektoniczna podejścia Breez SDK do zarządzania węzłami Lightning w porównaniu z tradycyjnymi, samoobsługowymi implementacjami Lightning?
+answer: Użytkownicy utrzymują własne węzły Lightning w infrastrukturze Greenlight, zachowując wyłączną kontrolę nad kluczami prywatnymi, które nigdy nie opuszczają ich urządzeń
+wrong_answers:
+  - Użytkownicy współdzielą połączone kanały Lightning zarządzane przez Breez, zachowując jednocześnie indywidualną opiekę nad środkami dzięki uzgodnieniom z wieloma podpisami
+  - "Użytkownicy uruchamiają lokalnie lekkie węzły Lightning, które synchronizują się z węzłami głównymi Breez w celu zwiększenia niezawodności i zmniejszenia wymagań dotyczących przepustowości"
+  - Użytkownicy delegują zarządzanie kanałami do dostawców usług Lightning, jednocześnie zachowując nadzór dzięki sprzętowym modułom bezpieczeństwa zintegrowanym z urządzeniami mobilnymi
+explanation: |
+  Architektura Breez SDK zapewnia każdemu użytkownikowi własny dedykowany węzeł Lightning działający w infrastrukturze chmury Greenlight, ale co najważniejsze, klucze prywatne nigdy nie opuszczają urządzenia użytkownika. Oznacza to, że Greenlight nie może wykonywać żadnych operacji Lightning bez aktywnego podpisywania transakcji przez aplikację użytkownika. Różni się to od współdzielonych pul kanałów, lokalnych lekkich węzłów lub sprzętowych modułów bezpieczeństwa - jest to unikalne podejście hybrydowe, które eliminuje złożoność operacyjną przy jednoczesnym zachowaniu prawdziwych zasad samokontroli.

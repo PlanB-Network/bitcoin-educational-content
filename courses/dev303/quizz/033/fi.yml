@@ -1,0 +1,8 @@
+question: Mikä ympäristömuuttuja voidaan asettaa näyttämään täydellinen kutsupinon jälki, kun Rust:ssa tapahtuu paniikki?
+answer: RUST_BACKTRACE
+wrong_answers:
+  - RUST_STACKTRACE
+  - RUST_DEBUG_TRACE
+  - RUST_PANIC_TRACE
+explanation: |
+  RUST_BACKTRACE on oikea ympäristömuuttuja, joka antaa ylimääräistä vianmääritystietoa näyttämällä täydellisen kutsupinon, joka johti paniikkiin. Tämä auttaa kehittäjiä jäljittämään tarkalleen, mikä funktiokutsujen sarja johti virheeseen. Muut vaihtoehdot (RUST_STACKTRACE, RUST_DEBUG_TRACE ja RUST_PANIC_TRACE) eivät ole kelvollisia Rust-ympäristömuuttujia, eivätkä ne tuota minkäänlaista virheenkorjaustulostetta paniikin sattuessa.

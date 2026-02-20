@@ -534,7 +534,7 @@ Joinstr generiert derzeit im Durchschnitt Pools von **2 bis 5 Teilnehmern**. Die
 
 
 
-💡 **Um die Anonymitätssätze und ihre Berechnung im Detail zu verstehen**, siehe unseren vollständigen Kurs: [Anonymitätssätze] (https://planb.academy/fr/courses/65c138b0-4161-4958-bbe3-c12916bc959c/les-ensembles-danonymat-be1093dc-1a74-40e5-9545-2b97a7d7d431).
+💡 **Um die Anonymitätssätze und ihre Berechnung im Detail zu verstehen**, siehe unseren vollständigen Kurs: [Anonymitätssätze](https://planb.academy/fr/courses/65c138b0-4161-4958-bbe3-c12916bc959c/les-ensembles-danonymat-be1093dc-1a74-40e5-9545-2b97a7d7d431).
 
 
 
@@ -542,13 +542,14 @@ Joinstr generiert derzeit im Durchschnitt Pools von **2 bis 5 Teilnehmern**. Die
 
 
 
-| Aspect | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
+
+| Aspekt | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
 |--------|--------|--------------------|------------|-------------|
-| **Participants par pool** | 50-100 | 5-10 | Variable (P2P) | **2-5** |
-| **Coordinateur** | Centralisé (fermé 2024) | Centralisé (actif) | P2P maker/taker | **Aucun (Nostr)** |
-| **Résistance à la censure** | Faible | Moyenne | Très élevée | **Très élevée** |
-| **Frais de coordination** | Pourcentage | Frais d'entrée | Payés aux makers | **Aucun** |
-| **Discrimination UTXO** | Oui (blacklists) | Non | Non | **Non** |
+| **Teilnehmer pro Pool** | 50-100 | 5-10 | Variabel (P2P) | **2-5** |
+| **Koordinator** | Zentralisiert (2024 geschlossen) | Zentralisiert (aktiv) | P2P maker/taker | **Keine (Nostr)** |
+| **Zensurresistenz** | Schwach | Mittel | Sehr hoch | **Sehr hoch** |
+| **Koordinationsgebühren** | Prozentsatz | Eintrittgebühr | An Hersteller gezahlt | **Keine** |
+| **UTXO-Diskriminierung** | Ja (Blacklists) | Nein | Nein | **Nein** |
 
 💡 **Andere aktive CoinJoin-Lösungen** :
 
@@ -651,9 +652,9 @@ Vor dem Hintergrund zunehmender finanzieller Kontrolle werden dezentralisierte I
 
 - [Joinstr offizielle Website](https://joinstr.xyz)
 - [Benutzerdokumentation](https://docs.joinstr.xyz/users/using-joinstr)
-- [Technische Dokumentation] (https://docs.joinstr.xyz/overview/how-does-it-work)
+- [Technische Dokumentation](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [GitLab-Quellcode](https://gitlab.com/invincible-privacy/joinstr)
-- [Android-Anwendung] (https://gitlab.com/invincible-privacy/joinstr-kmp/-/releases)
+- [Android-Anwendung](https://gitlab.com/invincible-privacy/joinstr-kmp/-/releases)
 
 
 

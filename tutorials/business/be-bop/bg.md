@@ -255,12 +255,13 @@ be-BOP ви позволява да приемате плащания по Bitco
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Поле                  | Описание                                               | Пример за използване                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **BIP стандарт**       | Типът на използвания адресен формат                               | BIP84 (за адреси в формат bech32, които започват с `bc1`) |
+| **Разширен публичен ключ** | Вашият Zpub (или Xpub според използвания портфейл)        | `zpub...` (извлечен от вашия Bitcoin портфейл) |
+| **Derivation Index**   | Начальният индекс за генериране на адреси         | `1`                                              |
+| **Mempool URL**        | URL адресът на услугата mempool, използвана за проследяване на трансакции | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 
@@ -348,7 +349,7 @@ be-BOP може също да приема незабавни плащания �
 
 
 
-**Забележка:** За да можете да използвате тези идентификатори, трябва да имате бизнес акаунт в PayPal. Можете да ги получите чрез портала [за разработчици] (https://developer.paypal.com)
+**Забележка:** За да можете да използвате тези идентификатори, трябва да имате бизнес акаунт в PayPal. Можете да ги получите чрез портала [за разработчици](https://developer.paypal.com)
 
 
 
@@ -849,12 +850,13 @@ be-BOP предлага и пълна интеграция с **Stripe**, едн
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Платформа        | Продуктът е видим | Добавяне към кошницата |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (публичен сайт)        | ✔️              | ✔️                  |
+| Retail POS (терминал за продажби)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (продажба чрез бот)  | ✔️              | ✔️                  |
 
 Отбележете само каналите, които искате да използвате.
 
@@ -1024,14 +1026,15 @@ be-BOP предлага и пълна интеграция с **Stripe**, едн
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Цел                 | Етикет за вмъкване                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Показване на продукт      | `[Product=slug?display=img-1]`        |
+| Показване на изображение       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Интегриране на плъзгач       | `[Slider=slug?autoplay=3000]`         |
+| Добавяне на предизвикателство     | `[Challenge=slug]`                    |
+| Добавяне на обратно отброяване | `[Countdown=slug]`                 |
+| Интегриране на формуляр   | `[Form=slug]`                         |
 
 **Текущи параметри**:
 
@@ -1813,14 +1816,15 @@ URL адресът `/pos/session` е предназначен за **втори�
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Функция                         | Описание                                             |
+|----------------------------------|---------------------------------------------------------|
+| Роля POS                         | Присвоена чрез ARM                                         |
+| Главен интерфейс             | `/pos` или `/pos/touch`                                 |
+| Дисплей за клиент (екран 2)       | `/pos/session`                                         |
+| Плащане                         | Брой, карта, Lightning и т.н.                         |
+| Добавяне на продукт                    | Псевдоним или сканиране на баркод                              |
+| Отстъпки / ДДС                    | Със задължително управленско обосноваване              |
 
 Благодарим ви, че следвате внимателно този урок.

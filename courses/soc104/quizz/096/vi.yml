@@ -1,0 +1,10 @@
+question: Theo Tuyên ngôn Cypherpunk của Eric Hughes, phương pháp chính mà các nhà mật mã học nên sử dụng để đạt được mục tiêu về quyền riêng tư và tự do là gì?
+answer: Viết mã để xây dựng các hệ thống mật mã giúp xóa bỏ sự chia rẽ chính trị.
+wrong_answers:
+  - Vận động chính phủ ban hành các luật và quy định bảo vệ quyền riêng tư mạnh mẽ hơn.
+  - Tổ chức các cuộc biểu tình quy mô lớn và các chiến dịch bất tuân dân sự chống lại hoạt động giám sát.
+  - Xây dựng các chương trình giáo dục nhằm nâng cao nhận thức cộng đồng về quyền riêng tư kỹ thuật số.
+explanation: |
+  Eric Hughes đã tuyên bố rõ ràng rằng "Những người theo chủ nghĩa cypherpunk viết mã" là phương pháp cơ bản của họ. Bản tuyên ngôn nhấn mạnh rằng những người theo chủ nghĩa cypherpunk không tìm thấy sự an ủi trong hy vọng và ước muốn, mà chủ động can thiệp bằng cách xây dựng các hệ thống ẩn danh thông qua mật mã học.
+  
+  Điều này biến những ý tưởng trừu tượng về tự do thành hiện thực kinh tế và xã hội cụ thể, khiến cho sự chia rẽ chính trị trở nên tùy tiện và không cần thiết. Các lựa chọn khác đại diện cho hoạt động chính trị truyền thống, trái ngược với triết lý cypherpunk về các giải pháp công nghệ thay vì cải cách thể chế.

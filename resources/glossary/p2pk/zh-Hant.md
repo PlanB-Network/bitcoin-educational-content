@@ -1,5 +1,6 @@
 ---
 term: P2PK
+definition: 直接將比特幣鎖定在公鑰上（無哈希）的腳本。
 ---
 
 P2PK 是 *Pay to Public Key* 的縮寫。它是 Bitcoin 上使用的標準腳本模型，用來在 UTXO 上建立支出條件。它允許直接將 bitcoins 鎖定在公開金鑰上，而不是 Address。

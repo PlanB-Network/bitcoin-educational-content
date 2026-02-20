@@ -1,5 +1,6 @@
 ---
-term: OKRĄGŁY STÓŁ HONGKONG
+term: Hong-kong roundtable
+definition: Historyczne spotkanie z 2016 roku pomiędzy deweloperami Bitcoin Core a górnikami na temat skalowalności systemu.
 ---
 
 Historyczne wydarzenie Blocksize War, które miało miejsce 20 lutego 2016 r. w Hongkongu. Było to ważne spotkanie pomiędzy deweloperami Bitcoin Core i górnikami w celu omówienia skalowalności systemu i strategii jego skalowania. Napięcie przed spotkaniem było wysokie, szczególnie ze względu na wzrost Bitcoin Classic, propozycji Hard Fork wspieranej przez Gavina Andressena, mającej na celu zwiększenie rozmiaru bloku do 2 MB. W debatach wzięły udział wpływowe postacie ekosystemu, w tym Jihan Wu i Micree Zhan, współzałożyciele Bitmain, Adam Back, prezes Blockstream, oraz Luke Dashjr, Matt Corallo i Peter Todd.

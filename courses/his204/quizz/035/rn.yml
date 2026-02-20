@@ -1,8 +1,9 @@
-question: Ni iciyumviro ikihe categuwe na Ekleziya Gatolika Gournay yateye?
-answer: Ugukumira inguzanyo zifise inyungu
+question: Ni iciyumviro ikihe categuwe na Ekleziya Gatolika Gournay yateye ivyatsi?
+answer: Uguheba ingurane zirihanwa inyungu
 wrong_answers:
-  - Ubuntu bw'abakene
-  - Ubuzima bwo kwitunga bw’ababikira .
-  - Ic’icumi .
+  - Ugufashwa kw'abakene
+  - Ubuzima bwo kwitunga bw’abapadiri .
+  - Intererano y'itegeko .
 explanation: |
-  Gournay yaneguye uburenganzira bwo kubuza inguzanyo zifise inyungu kubera zibuza iterambere ry’ubutunzi mu kubuza abashoramari kuronka inguzanyo.
+  Gournay yaneguye uburenganzira bwo kubuza ingurane zifise inyungu kubera zibuza iterambere ry’ubutunzi mu kubuza abashoramari kuronka ingurane.
+reviewed: true

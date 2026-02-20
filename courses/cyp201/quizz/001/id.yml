@@ -6,3 +6,4 @@ wrong_answers:
   - Second preimage resistance
 explanation: |
   Preimage resistance memastikan bahwa secara praktis tidak mungkin untuk menemukan pesan asli dari hash-nya.
+reviewed: true

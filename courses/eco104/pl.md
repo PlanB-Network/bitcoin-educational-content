@@ -76,7 +76,7 @@ zaledwie [20%](https://freedomhouse.org/sites/default/files/2022-02/FIW_2022_PDF
 ● [1,4](https://www.worldbank.org/en/news/feature/2022/07/21/covid-19-boosted-the-adoption-of-digital-financial-services#:~:text=Globally%2C%20some%201.4%20billion%20adults,go%2C%20much%20more%20is%20needed.) miliarda dorosłych na całym świecie pozostaje nieubankowionych, podczas gdy niezliczona liczba innych jest ograniczona do ograniczonych usług bankowych.
 
 
-do końca [2022 r.] (https://Elements.visualcapitalist.com/mapped-countries-with-highest-inflation-rate/) prawie połowa świata stanęła w obliczu dwucyfrowej stopy inflacji, co spowodowało erozję wartości pieniędzy zarobionych w Hard. Aby spojrzeć na to z perspektywy, przy stopie inflacji wynoszącej 10% w ciągu dekady, straciłbyś oszałamiające 65% swojej siły nabywczej.
+do końca [2022 r.](https://Elements.visualcapitalist.com/mapped-countries-with-highest-inflation-rate/) prawie połowa świata stanęła w obliczu dwucyfrowej stopy inflacji, co spowodowało erozję wartości pieniędzy zarobionych w Hard. Aby spojrzeć na to z perspektywy, przy stopie inflacji wynoszącej 10% w ciągu dekady, straciłbyś oszałamiające 65% swojej siły nabywczej.
 
 
 i nawet bez długotrwałych okresów takiej inflacji, USD, prawdopodobnie najsilniejsza globalna waluta, doświadczyła [96%](https://www.visualcapitalist.com/purchasing-power-of-the-u-s-dollar-over-time/) utraty siły nabywczej w ciągu ostatniego stulecia.
@@ -184,7 +184,7 @@ Przyjrzyjmy się każdemu z nich:
 
 1. **Przechowywanie wartości:** Pieniądze służą jako środek do przechowywania wartości do wykorzystania w przyszłości, umożliwiając posiadaczowi zachowanie siły nabywczej w czasie. W ten sposób zapewnia posiadaczowi możliwość oszczędzania i planowania przyszłości. Złoto jest doskonałym przykładem takiego środka przechowywania wartości, ponieważ przez wieki było w stanie kupić przyzwoity garnitur za zaledwie jedną uncję.
 
-2. **Środek Exchange:** Aby pieniądz mógł służyć jako realny środek Exchange dla towarów i usług, musi być łatwo wymienialny. Podczas gdy każdy zasób może być technicznie użyty jako pieniądz, większe i nieruchome aktywa, takie jak domy, nie są praktyczne do wykorzystania jako środek Exchange.
+2. **Środek Exchange:** Aby pieniądz mógł służyć jako realny środek Exchange dla towarów i usług, musi być łatwo [wymienialny](https://planb.academy/resources/glossary/fungibility). Podczas gdy każdy zasób może być technicznie użyty jako pieniądz, większe i nieruchome aktywa, takie jak domy, nie są praktyczne do wykorzystania jako środek Exchange.
 
 3. **Jednostka rozliczeniowa:** Wreszcie, pieniądz powinien funkcjonować jako standardowa jednostka miary dla cen towarów i usług. Oznacza to, że przedmioty są wyceniane i wyceniane w kategoriach tego pieniądza, co pozwala na łatwe porównanie względnej wartości różnych produktów i usług.
 
@@ -219,7 +219,7 @@ Aby pieniądz utrzymał swoją siłę nabywczą w czasie, musi być:
 **Niedobór:** Kiedy pieniądze oferują niedobór, mamy na myśli ograniczoną dostępność Supply. Jest to ważne w przypadku przechowywania wartości, ponieważ jeśli danej waluty jest zbyt dużo, może ona stracić na wartości. W przypadku rzadkiej waluty istnieje większe prawdopodobieństwo, że utrzyma ona swoją wartość w czasie, co czyni ją niezawodnym magazynem bogactwa. Pomyśl o niej jak o przedmiocie z limitowanej edycji - jeśli jest ich tylko kilka, są one bardziej wartościowe i poszukiwane niż gdyby istniały nieograniczone Supply. Podobnie, rzadka waluta z większym prawdopodobieństwem utrzyma swoją wartość i siłę nabywczą, co czyni ją lepszą opcją do przechowywania bogactwa.
 
 
-**Niezmienność:** Aby pieniądz oferował niezmienność, powinien być odporny na odwrócenie lub zmianę po dokonaniu transakcji. Jest to kluczowa cecha niezawodnego środka przechowywania wartości, ponieważ zapewnia, że wartość pieniądza nie podlega arbitralnym zmianom lub manipulacjom. Na przykład, jeśli kupisz coś za gotówkę, nie możesz później zmienić zdania i cofnąć transakcji. Podobnie w przypadku kryptowalut, takich jak Bitcoin, po zarejestrowaniu transakcji w Blockchain nie można jej zmienić ani cofnąć. Ta niezmienność zapewnia poczucie bezpieczeństwa i niezawodności zarówno kupującym, jak i sprzedającym w transakcjach finansowych.
+**Niezmienność:** Aby pieniądz oferował niezmienność, powinien być odporny na odwrócenie lub zmianę po dokonaniu transakcji. Jest to kluczowa cecha niezawodnego środka przechowywania wartości, ponieważ zapewnia, że wartość pieniądza nie podlega arbitralnym zmianom lub manipulacjom. Na przykład, jeśli kupisz coś za gotówkę, nie możesz później zmienić zdania i cofnąć transakcji. Podobnie w przypadku [kryptowalut](https://planb.academy/resources/glossary/cryptocurrency), takich jak Bitcoin, po zarejestrowaniu transakcji w [Blockchain](https://planb.academy/resources/glossary/blockchain) nie można jej zmienić ani cofnąć. Ta niezmienność zapewnia poczucie bezpieczeństwa i niezawodności zarówno kupującym, jak i sprzedającym w transakcjach finansowych.
 
 
 #### Medium Exchange
@@ -252,7 +252,7 @@ Wnioski
 Pieniądze są kluczową i fascynującą częścią naszego codziennego życia. Służy jako pośrednik, pozwalając nam handlować towarami i usługami między sobą. Jednak nie wszystkie pieniądze są sobie równe. Niektóre formy pieniądza są lepsze jako magazyn wartości, jak złote monety, podczas gdy inne mogą być bardziej skuteczne jako środek Exchange, dolar amerykański. Jednakże, gdy te funkcje są spełnione w całości, umożliwia nam to dokonywanie transakcji w sposób pewny i łatwy, co nie tylko pomaga nam jako jednostkom, ale także sprzyja większemu wzrostowi gospodarczemu i dobrobytowi naszej gospodarki.
 
 
-W nadchodzących modułach zbadamy dwie popularne formy pieniądza: Bitcoin i stablecoiny. Analizując je za pomocą treści omówionych w tej sekcji, zbadamy, w jaki sposób spełniają one różne funkcje waluty i jak mogą przynieść znaczne korzyści społeczeństwu.
+W nadchodzących modułach zbadamy dwie popularne formy pieniądza: Bitcoin i [stablecoiny](https://planb.academy/resources/glossary/stablecoin). Analizując je za pomocą treści omówionych w tej sekcji, zbadamy, w jaki sposób spełniają one różne funkcje waluty i jak mogą przynieść znaczne korzyści społeczeństwu.
 
 
 Od wymiany barterowej po wynalezienie monet i papierowej waluty, pieniądze przeszły szereg transformacji, aby dostosować się do stale zmieniających się potrzeb społeczeństwa. Przechodząc do następnego rozdziału, zmieńmy kurs, kierując naszą uwagę na ewolucję pieniądza.
@@ -293,9 +293,9 @@ Mając to na uwadze, przyjrzyjmy się podstawowym formom Exchange, które są ob
 
 4. **Pieniądz papierowy zabezpieczony metalem:** Pieniądz papierowy zabezpieczony fizycznym towarem, takim jak złoto lub srebro.
 
-5. **Pieniądz fiducjarny:** Waluta, która nie jest zabezpieczona fizycznym towarem, ale ma wartość, ponieważ rząd deklaruje, że jest prawnym środkiem płatniczym.
+5. **[Pieniądz fiducjarny](https://planb.academy/resources/glossary/fiat):** Waluta, która nie jest zabezpieczona fizycznym towarem, ale ma wartość, ponieważ rząd deklaruje, że jest prawnym środkiem płatniczym.
 
-6. **Kryptowaluty:** Cyfrowe lub wirtualne tokeny, które wykorzystują kryptografię do zabezpieczania transakcji i kontrolowania tworzenia nowych jednostek.
+6. **Kryptowaluty:** Cyfrowe lub wirtualne tokeny, które wykorzystują [kryptografię](https://planb.academy/resources/glossary/cryptography) do zabezpieczania transakcji i kontrolowania tworzenia nowych jednostek.
 
 
 Mając to na uwadze, przeanalizujmy każdy z nich, aby uzyskać bardziej holistyczne zrozumienie tego, jak znaleźliśmy się w miejscu, w którym jesteśmy dzisiaj.
@@ -334,7 +334,7 @@ Gdy barter zaczął wykazywać swoją słabość w handlu, zarówno jednostki, j
 Wspaniałą rzeczą w wyborze predefiniowanego nośnika Exchange było to, że społeczności mogły wybrać coś, co oferowało rzadkość i nie psuło się, czyniąc go bardziej trwałym magazynem wartości. Rzeczy takie jak szklane paciorki, sól i muszelki szybko stały się poszukiwane, ponieważ były policzone, dość trwałe i przenośne w workach. W szczególności sól była popularna, ponieważ była użyteczna - między innymi do peklowania mięsa.
 
 
-Jednak gdy podróżowanie stało się łatwiejsze, świat zaczął się otwierać, a ludzie zdali sobie sprawę, że ograniczone zasoby w jednym obszarze są obfite w innych. Doprowadziło to do wyzysku, rozcieńczenia Supply i zapoczątkowało wydarzenia takie jak handel niewolnikami. Na przykład europejscy osadnicy odkrywający Afrykę zauważyli, że lokalne społeczności używają szklanych paciorków jako formy pieniądza. Ze względu na łatwość produkcji szkła w Europie, osadnicy przywozili duże ilości tych paciorków do Afryki, rozcieńczając ich wartość. Niektórzy twierdzą nawet, że to rozcieńczenie było jednym z czynników, które zapoczątkowały [handel niewolnikami] (https://breedlove22.medium.com/masters-and-slaves-of-money-255ecc93404f), co przyczyniło się do upadku afrykańskiej gospodarki.
+Jednak gdy podróżowanie stało się łatwiejsze, świat zaczął się otwierać, a ludzie zdali sobie sprawę, że ograniczone zasoby w jednym obszarze są obfite w innych. Doprowadziło to do wyzysku, rozcieńczenia Supply i zapoczątkowało wydarzenia takie jak handel niewolnikami. Na przykład europejscy osadnicy odkrywający Afrykę zauważyli, że lokalne społeczności używają szklanych paciorków jako formy pieniądza. Ze względu na łatwość produkcji szkła w Europie, osadnicy przywozili duże ilości tych paciorków do Afryki, rozcieńczając ich wartość. Niektórzy twierdzą nawet, że to rozcieńczenie było jednym z czynników, które zapoczątkowały [handel niewolnikami](https://breedlove22.medium.com/masters-and-slaves-of-money-255ecc93404f), co przyczyniło się do upadku afrykańskiej gospodarki.
 
 
 Ogólnie rzecz biorąc, pieniądz towarowy odegrał istotną rolę w rozwoju handlu, ponieważ zapewnił znormalizowane środki Exchange, które były powszechnie akceptowane. Jednak w miarę jak społeczeństwa stawały się coraz bardziej zaawansowane, zaczęły pojawiać się inne formy pieniądza, które były wygodniejsze i bardziej podzielne.
@@ -352,7 +352,7 @@ Choć technicznie rzecz biorąc wciąż był to pieniądz towarowy, w miarę jak
 Co więcej, metale takie jak złoto były jednymi z najbardziej obojętnych Elements w układzie okresowym, dzięki czemu były niezwykle trwałe i odporne na korozję.
 
 
-Wraz z postępem technologicznym, złoto i srebro zostały poddane procesowi transformacji, zostały stopione, ukształtowane i wybite w monety, zwiększając łatwość Exchange. Znormalizowana wartość i oznaczenia na tych monetach znacznie obniżyły koszty związane z weryfikacją wagi i czystości metali szlachetnych. Jednak, jak w przypadku większości dobrych rzeczy, ktoś zawsze znajdzie sposób, by to wykorzystać. Wycinanie monet stało się powszechne, zarówno osoby prywatne, jak i rządy wycinały części monet, aby zmniejszyć ich wagę metalu szlachetnego, próbując jednocześnie zachować ich pierwotną wartość nominalną. Doprowadziło to do pierwszej formy dewaluacji waluty, prowadzącej do inflacji.
+Wraz z postępem technologicznym, złoto i srebro zostały poddane procesowi transformacji, zostały stopione, ukształtowane i wybite w monety, zwiększając łatwość Exchange. Znormalizowana wartość i oznaczenia na tych monetach znacznie obniżyły koszty związane z weryfikacją wagi i czystości metali szlachetnych. Jednak, jak w przypadku większości dobrych rzeczy, ktoś zawsze znajdzie sposób, by to wykorzystać. Wycinanie monet stało się powszechne, zarówno osoby prywatne, jak i rządy wycinały części monet, aby zmniejszyć ich wagę metalu szlachetnego, próbując jednocześnie zachować ich pierwotną wartość nominalną. Doprowadziło to do pierwszej formy dewaluacji waluty, prowadzącej do [inflacji](https://planb.academy/resources/glossary/inflation).
 
 
 Co gorsza, w miarę jak świat stawał się coraz bardziej globalny, złoto i srebro stawały się coraz bardziej kłopotliwe w transporcie i transakcjach, zwłaszcza dla marynarzy.
@@ -373,7 +373,7 @@ Pomyśl o tym: koniec z noszeniem ciężkich worków ze złotem lub martwieniem 
 Ale jak w przypadku każdej nowej technologii, zaczęły pojawiać się problemy.
 
 
-Po pierwsze, magazyny złota, zdając sobie sprawę, że ich klienci rzadko wracali, aby wycofać złoto, do którego rościli sobie prawo, zaczęły wydawać papierowe pokwitowania bez zabezpieczenia w złocie, co doprowadziło do potajemnego stworzenia pierwszego systemu bankowości rezerwy cząstkowej (emitenci przechowują tylko część depozytów klientów jako rezerwy i pożyczają resztę). A nawet gdy kraje próbowały zabezpieczyć swoje waluty złotem, często nadużywały tego systemu, co prowadziło do zawirowań gospodarczych.
+Po pierwsze, magazyny złota, zdając sobie sprawę, że ich klienci rzadko wracali, aby wycofać złoto, do którego rościli sobie prawo, zaczęły wydawać papierowe pokwitowania bez zabezpieczenia w złocie, co doprowadziło do potajemnego stworzenia pierwszego systemu bankowości [rezerwy cząstkowej](https://planb.academy/resources/glossary/fractional-reserves) (emitenci przechowują tylko część depozytów klientów jako rezerwy i pożyczają resztę). A nawet gdy kraje próbowały zabezpieczyć swoje waluty złotem, często nadużywały tego systemu, co prowadziło do zawirowań gospodarczych.
 
 
 Po drugie, papierowe pieniądze na podkładzie metalowym nie były odporne na fałszerstwa. Nawet z zabezpieczeniami, fałszerze nadal mogli tworzyć fałszywe banknoty, które były trudne do wykrycia.
@@ -571,7 +571,7 @@ Ten balans nie idzie zgodnie z planem..
 ![image](assets/en/001.webp)
 
 
-Wykres [Dług a PKB] (https://www.longtermtrends.net/us-debt-to-gdp/)
+Wykres [Dług a PKB](https://www.longtermtrends.net/us-debt-to-gdp/)
 
 
 Gdy zsumujemy zadłużenie federalne, korporacyjne i gospodarstw domowych, otrzymamy oszałamiającą kwotę 63,14 bln USD, w przeciwieństwie do Produktu Krajowego Brutto (PKB) Stanów Zjednoczonych w wysokości 26,13 bln USD. Oznacza to, że całkowity stosunek zadłużenia USA do PKB wynosi 241%. Innymi słowy, na każdy wygenerowany 1 USD PKB przypada aż 2,41 USD długu.
@@ -586,7 +586,7 @@ Załóżmy konserwatywnie, że średnie oprocentowanie tego długu wynosi 3%.
 3% \* 241% = 7.23%
 
 
-Skala zadłużenia Stanów Zjednoczonych jest taka, że nawet obsługa płatności odsetek od długu wymagałaby rocznej stopy wzrostu w wysokości 7,23% - stopy znacznie wyższej niż średnia stopa wzrostu PKB wynosząca [3,13%] (https://tradingeconomics.com/united-states/gdp-growth-annual.) w ciągu ostatnich 70 lat.
+Skala zadłużenia Stanów Zjednoczonych jest taka, że nawet obsługa płatności odsetek od długu wymagałaby rocznej stopy wzrostu w wysokości 7,23% - stopy znacznie wyższej niż średnia stopa wzrostu PKB wynosząca [3,13%](https://tradingeconomics.com/united-states/gdp-growth-annual.) w ciągu ostatnich 70 lat.
 
 
 7.23% - 3.13% = 4.1%
@@ -734,10 +734,10 @@ Pod koniec tego modułu będziesz miał solidne zrozumienie pochodzenia, funkcji
 ### Co to jest Bitcoin?
 
 
-Bitcoin to Trustless i zdecentralizowana waluta cyfrowa bez zezwoleń. Może to brzmieć myląco, więc pozwól nam wyjaśnić. Ponieważ żaden rząd ani instytucja nie kontroluje Bitcoin, nie musisz ufać żadnym stronom trzecim ani wymagać pozwolenia, aby z niego korzystać. Zamiast tego jest ona utrzymywana przez sieć użytkowników na całym świecie, którzy zatwierdzają i przetwarzają transakcje na czymś, co nazywa się Blockchain.
+Bitcoin to Trustless i zdecentralizowana waluta cyfrowa bez zezwoleń. Może to brzmieć myląco, więc pozwól nam wyjaśnić. Ponieważ żaden rząd ani instytucja nie kontroluje Bitcoin, nie musisz ufać żadnym stronom trzecim ani wymagać pozwolenia, aby z niego korzystać. Zamiast tego jest ona utrzymywana przez sieć użytkowników na całym świecie, którzy zatwierdzają i przetwarzają [transakcje](https://planb.academy/resources/glossary/transaction-tx) na czymś, co nazywa się Blockchain.
 
 
-Potraktuj Blockchain jako gigantyczny Ledger lub cyfrowy arkusz kalkulacyjny, który prowadzi rejestr każdej transakcji dokonanej za pośrednictwem Bitcoin. Ponieważ każdy na świecie z połączeniem internetowym może monitorować, zatwierdzać lub przetwarzać transakcje, zapewnia to, że waluta jest bezpieczna i nie można jej podrobić.
+Potraktuj Blockchain jako gigantyczny [Ledger](https://planb.academy/resources/glossary/ledger) lub cyfrowy arkusz kalkulacyjny, który prowadzi rejestr każdej transakcji dokonanej za pośrednictwem Bitcoin. Ponieważ każdy na świecie z połączeniem internetowym może monitorować, zatwierdzać lub przetwarzać transakcje, zapewnia to, że waluta jest bezpieczna i nie można jej podrobić.
 
 
 Bitcoin jest również wyjątkowy, ponieważ ma ograniczoną liczbę Supply. Tylko 21 milionów Bitcoin zostanie kiedykolwiek stworzonych, co nadaje mu rzadkość, podobnie jak złoto i inne metale szlachetne. Ta rzadkość jest częścią tego, co nadaje Bitcoin jego wartość.
@@ -758,13 +758,13 @@ Przed stworzeniem Bitcoin garstka wizjonerów położyła podwaliny pod Bitcoin,
 #### The Cypherpunks
 
 
-Cypherpunks to grupa zaawansowanych technologicznie buntowników, którzy zebrali się w latach 80., aby walczyć o wolność jednostki i swobody obywatelskie za pomocą jednego potężnego narzędzia: kryptografii. Wierzyli, że zdolność do szyfrowania informacji da ludziom siłę do przejęcia kontroli od scentralizowanych władz. Wyobraź sobie, że jesteś w stanie zachować swoją komunikację online prywatną i bezpieczną przed wścibskimi oczami - o to właśnie walczyli!
+[Cypherpunks](https://planb.academy/resources/glossary/cypherpunks) to grupa zaawansowanych technologicznie buntowników, którzy zebrali się w latach 80., aby walczyć o wolność jednostki i swobody obywatelskie za pomocą jednego potężnego narzędzia: kryptografii. Wierzyli, że zdolność do szyfrowania informacji da ludziom siłę do przejęcia kontroli od scentralizowanych władz. Wyobraź sobie, że jesteś w stanie zachować swoją komunikację online prywatną i bezpieczną przed wścibskimi oczami - o to właśnie walczyli!
 
 
 Jednym z najbardziej znaczących rezultatów działalności Cypherpunks była lista mailingowa Cypherpunks, założona w 1992 roku. Za pośrednictwem tej listy osoby mogły dzielić się pomysłami i dyskutować na temat technologii kryptograficznych, koncepcji walut cyfrowych i inicjatyw skoncentrowanych na prywatności. Doprowadziło to do powstania społeczności osób o podobnych poglądach, w tym programistów, aktywistów i badaczy.
 
 
-Dziś wizjonerskie pomysły cypherpunksów nadal kształtują ewolucję naszego cyfrowego krajobrazu, dając jednostkom większą kontrolę nad ich danymi i komunikacją. Jedną z ich najbardziej znaczących spuścizn jest Bitcoin, ponieważ w dużej mierze czerpie z Hashcash - technologii opracowanej przez Cypherpunk Adam Back w 1997 roku w celu zwalczania spamu e-mail.
+Dziś wizjonerskie pomysły cypherpunksów nadal kształtują ewolucję naszego cyfrowego krajobrazu, dając jednostkom większą kontrolę nad ich danymi i komunikacją. Jedną z ich najbardziej znaczących spuścizn jest Bitcoin, ponieważ w dużej mierze czerpie z [Hashcash](https://planb.academy/resources/glossary/hashcash) - technologii opracowanej przez Cypherpunk Adam Back w 1997 roku w celu zwalczania spamu e-mail.
 
 
 Inni znani Cypherpunks to:
@@ -773,9 +773,9 @@ Inni znani Cypherpunks to:
 
 - **Timothy May:** Założyciel listy mailingowej Cypherpunks i pisał obszernie na temat kryptografii i prywatności w latach 90. i na początku XXI wieku. Jego prace położyły podwaliny pod dyskusje na temat prywatności cyfrowej i elektronicznych systemów gotówkowych.
 - **Eric Hughes:** Kolejny członek-założyciel Cypherpunks i współautor "A Cypherpunk's Manifesto", który podkreślał znaczenie prywatności i anonimowości w erze cyfrowej.
-- **Whitfield Diffie i Martin Hellman:** Opracowali koncepcję kryptografii klucza publicznego, rewolucjonizując bezpieczną komunikację internetową.
+- **Whitfield Diffie i Martin Hellman:** Opracowali koncepcję kryptografii [klucza publicznego](https://planb.academy/resources/glossary/public-key), rewolucjonizując bezpieczną komunikację internetową.
 - **Julian Assange:** Założyciel WikiLeaks, który publikuje tajne i poufne informacje w celu promowania przejrzystości i odpowiedzialności.
-- **Bram Cohen:** Stworzył BitTorrent, protokół wymiany plików peer-to-peer, który zdecentralizował dystrybucję treści i umożliwił szybsze pobieranie.
+- **Bram Cohen:** Stworzył BitTorrent, protokół wymiany plików [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p), który zdecentralizował dystrybucję treści i umożliwił szybsze pobieranie.
 - **John Gilmore:** Przedsiębiorca i libertarianin, który był współzałożycielem Electronic Frontier Foundation (EFF) i opowiadał się za prawami cyfrowymi i prywatnością w Internecie.
 
 
@@ -785,7 +785,7 @@ Inni znani Cypherpunks to:
 #### David Chaum (ojciec cyfrowej waluty)
 
 
-Na początku lat 80-tych David Chaum zrewolucjonizował świat walut cyfrowych dzięki swojej przełomowej pracy nad "podpisami blinded" Umożliwiło to kryptograficzne podpisanie wiadomości bez znajomości jej treści, zapewniając prywatność i bezpieczeństwo transakcji cyfrowych. W 1982 roku David Chaum opracował koncepcję Ecash, anonimowego elektronicznego systemu gotówkowego wykorzystującego kryptografię, który został później wdrożony przez jego korporację Digicash.
+Na początku lat 80-tych David Chaum zrewolucjonizował świat walut cyfrowych dzięki swojej przełomowej pracy nad "[podpisami blinded](https://planb.academy/resources/glossary/blind-signature)" Umożliwiło to kryptograficzne podpisanie wiadomości bez znajomości jej treści, zapewniając prywatność i bezpieczeństwo transakcji cyfrowych. W 1982 roku David Chaum opracował koncepcję [Ecash](https://planb.academy/resources/glossary/ecash-david-chaum), anonimowego elektronicznego systemu gotówkowego wykorzystującego kryptografię, który został później wdrożony przez jego korporację Digicash.
 
 
 Chociaż Digicash był używany jako system mikropłatności w jednym z amerykańskich banków w latach 1995-1998, Chaum ostatecznie ogłosił upadłość. Niemniej jednak, jego innowacyjne pomysły zainspirowały innych do zbadania walut cyfrowych, torując drogę do rozwoju nowoczesnych kryptowalut, takich jak Bitcoin.
@@ -806,7 +806,7 @@ Pomimo ostatecznej porażki, E-gold był kluczowym krokiem w ewolucji walut cyfr
 Biorąc pod uwagę błyskawiczny wzrost Bitcoin, wiele osób błędnie uważa, że była to pierwsza waluta cyfrowa, jaka kiedykolwiek istniała. Jednak, jak mamy nadzieję, jest to obecnie oczywiste, założenie to jest dalekie od prawdy. Pojawienie się Bitcoin było wynikiem dziesięcioleci badań i eksperymentów prowadzonych przez pionierów w dziedzinie kryptografii. Bez wkładu powyższych osób i wielu innych, Bitcoin mógł nigdy nie powstać. Chociaż te wczesne waluty cyfrowe ostatecznie zawiodły, Bitcoin wyciągnął wnioski z ich błędów, ostatecznie stając się walutą cyfrową, którą znamy dzisiaj.
 
 
-To powiedziawszy, gdyby nie jedna osoba... lub grupa (nie wiemy na pewno), Bitcoin nie istniałby. A jest nią Satoshi Nakamoto. Enigmatyczny twórca.
+To powiedziawszy, gdyby nie jedna osoba... lub grupa (nie wiemy na pewno), Bitcoin nie istniałby. A jest nią [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi). Enigmatyczny twórca.
 
 
 #### Satoshi Nakamoto
@@ -824,13 +824,13 @@ Satoshi Nakamoto pojawił się w Internecie w 2008 roku z rewolucyjnym pomysłem
 Jednak po dwóch latach pracy nad projektem, Satoshi zniknął bez śladu, z [jego ostatnim wiarygodnym komunikatem](https://plan99.net/~mike/Satoshi-emails/thread5.html) 23 kwietnia 2011 r., w którym stwierdził, że "przeszedł do innych rzeczy"
 
 
-Tajemnicze zniknięcie Satoshi Nakamoto doprowadziło do różnych teorii na temat tego, dokąd się udał. Niektórzy spekulują, że czuł, że osiągnął to, co zamierzał zrobić, podczas gdy inni uważają, że czuł się niekomfortowo z powodu uwagi, jaką przyciągał Bitcoin. W grudniu [2010] (https://www.forbes.com/sites/andygreenberg/2010/12/07/visa-mastercard-move-to-choke-wikileaks/?sh=614d78052cad), kiedy WikiLeaks otrzymał zakaz korzystania z tradycyjnych metod płatności, zwrócił się do Bitcoin o finansowanie. Obawy Satoshi związane ze zwiększonym zainteresowaniem Bitcoin i potencjalnymi konsekwencjami prawnymi tworzenia waluty wykorzystywanej do ingerowania w geopolityczne interesy USA mogły skłonić go do wycofania się. Alternatywnie, mógł on skupić się na innych projektach, nadal wnosić wkład w Bitcoin pod innymi nazwami lub nawet umrzeć.
+Tajemnicze zniknięcie Satoshi Nakamoto doprowadziło do różnych teorii na temat tego, dokąd się udał. Niektórzy spekulują, że czuł, że osiągnął to, co zamierzał zrobić, podczas gdy inni uważają, że czuł się niekomfortowo z powodu uwagi, jaką przyciągał Bitcoin. W grudniu [2010](https://www.forbes.com/sites/andygreenberg/2010/12/07/visa-mastercard-move-to-choke-wikileaks/?sh=614d78052cad), kiedy WikiLeaks otrzymał zakaz korzystania z tradycyjnych metod płatności, zwrócił się do Bitcoin o finansowanie. Obawy Satoshi związane ze zwiększonym zainteresowaniem Bitcoin i potencjalnymi konsekwencjami prawnymi tworzenia waluty wykorzystywanej do ingerowania w geopolityczne interesy USA mogły skłonić go do wycofania się. Alternatywnie, mógł on skupić się na innych projektach, nadal wnosić wkład w Bitcoin pod innymi nazwami lub nawet umrzeć.
 
 
 Chociaż możemy nie wiedzieć, kim jest Satoshi, mamy jaśniejszy obraz jego intencji stojących za Bitcoin. Stworzył on Bitcoin w odpowiedzi na globalny kryzys finansowy z 2008 roku i wynikający z niego brak zaufania do tradycyjnych systemów bankowych i walut kontrolowanych przez rząd.
 
 
-W swojej komunikacji online wyrażał cynizm wobec scentralizowanej natury pieniądza i bankowości, podkreślając niebezpieczeństwa związane z zaufaniem bankom centralnym, że nie zdewaluują swojej waluty. Przykładem tego jest pierwszy blok Bitcoin:
+W swojej komunikacji online wyrażał cynizm wobec scentralizowanej natury pieniądza i bankowości, podkreślając niebezpieczeństwa związane z zaufaniem bankom centralnym, że nie zdewaluują swojej waluty. Przykładem tego jest pierwszy [blok](https://planb.academy/resources/glossary/block) Bitcoin:
 
 
 "The Times 03/Jan/2009 Kanclerz na krawędzi drugiego ratunku dla banków"
@@ -856,7 +856,7 @@ Podsumowując, Bitcoin zrewolucjonizował sposób, w jaki myślimy o pieniądzac
 
 - **Peer-to-Peer:** Bitcoin umożliwia osobom fizycznym wysyłanie i otrzymywanie płatności bezpośrednio, bez potrzeby korzystania z pośredników, takich jak banki lub podmioty przetwarzające płatności.
 - **Zdecentralizowany:** Bitcoin działa w zdecentralizowanej sieci, co oznacza, że nie ma centralnego organu ani kontroli nad walutą.
-- **Bezpieczeństwo:** Transakcje Bitcoin są zabezpieczone przy użyciu kryptografii, co utrudnia podrabianie monet Double-spending.
+- **Bezpieczeństwo:** Transakcje Bitcoin są zabezpieczone przy użyciu kryptografii, co utrudnia podrabianie monet [Double-spending](https://planb.academy/resources/glossary/double-spending-attack).
 - Ograniczona liczba Supply i podzielna: **Supply z Bitcoin jest skończona - istnieje tylko 21 milionów monet - a jednocześnie jest podzielna do ośmiu miejsc po przecinku, umożliwiając transakcje za ułamek centa.** Ta rzadkość ma na celu nadanie walucie wartości i zapobieganie inflacji.
 - **Pseudoanonimowość:** Chociaż transakcje Bitcoin nie są całkowicie anonimowe, oferują poziom prywatności i pseudonimowości, którego nie zapewniają tradycyjne metody płatności.
 
@@ -901,7 +901,7 @@ W porównaniu z tradycyjnymi systemami bankowymi, podczas gdy Bitcoin funkcjonal
 Podczas gdy banki pełnią te role we własnym zakresie, co daje im pełną kontrolę nad procesem, Bitcoin wymaga współpracy społeczności w celu pełnienia tych ról. Innymi słowy, aby Bitcoin mógł powielić te procesy w zdecentralizowanym systemie, Bitcoin musi zlecić każde z tych zadań na zewnątrz, aby zapewnić, że żadna osoba lub scentralizowany podmiot nie ma nadmiernej kontroli nad systemem.
 
 
-Aby osiągnąć ten rewolucyjny wyczyn, Bitcoin podzielił te zadania na trzy kluczowe role: węzły, górników i programistów. Węzły weryfikują transakcje oraz ustalają i egzekwują zasady, górnicy zlecają i potwierdzają transakcje, a deweloperzy aktualizują sieć i proponują aktualizacje. Rozdzielając te zadania między tych kluczowych graczy, Bitcoin stworzył system, który jest bezpieczny, przejrzysty i odpowiedzialny przed wszystkimi użytkownikami.
+Aby osiągnąć ten rewolucyjny wyczyn, Bitcoin podzielił te zadania na trzy kluczowe role: [węzły](https://planb.academy/resources/glossary/node), [górników](https://planb.academy/resources/glossary/miner) i programistów. Węzły weryfikują transakcje oraz ustalają i egzekwują zasady, górnicy zlecają i potwierdzają transakcje, a deweloperzy aktualizują sieć i proponują aktualizacje. Rozdzielając te zadania między tych kluczowych graczy, Bitcoin stworzył system, który jest bezpieczny, przejrzysty i odpowiedzialny przed wszystkimi użytkownikami.
 
 
 Przyjrzyjmy się zatem każdej z tych ról..
@@ -913,7 +913,7 @@ Przyjrzyjmy się zatem każdej z tych ról..
 #### Węzły
 
 
-Węzły mają zasadnicze znaczenie dla integralności i bezpieczeństwa sieci Bitcoin. Służą one jako strażnicy systemu, zapewniając, że transakcje są przetwarzane dokładnie i zgodnie z zasadami. Każdy węzeł pobiera i lokalnie weryfikuje pełną kopię Blockchain, który jest zasadniczo cyfrowym Ledger, który rejestruje każdą transakcję kiedykolwiek dokonaną w sieci Bitcoin. Dzięki konsensusowi węzły uzgadniają ważność każdej transakcji i zapewniają przestrzeganie zasad. Oznacza to, że węzły odrzucą transakcję, jeśli ktoś spróbuje oszukać system, np. wysyłając więcej Bitcoin niż faktycznie posiada lub próbując wydać ten sam Bitcoin dwa razy.
+Węzły mają zasadnicze znaczenie dla integralności i bezpieczeństwa sieci Bitcoin. Służą one jako strażnicy systemu, zapewniając, że transakcje są przetwarzane dokładnie i zgodnie z zasadami. Każdy węzeł pobiera i lokalnie weryfikuje pełną kopię Blockchain, który jest zasadniczo cyfrowym Ledger, który rejestruje każdą transakcję kiedykolwiek dokonaną w sieci Bitcoin. Dzięki [konsensusowi](https://planb.academy/resources/glossary/consensus) węzły uzgadniają ważność każdej transakcji i zapewniają przestrzeganie zasad. Oznacza to, że węzły odrzucą transakcję, jeśli ktoś spróbuje oszukać system, np. wysyłając więcej Bitcoin niż faktycznie posiada lub próbując wydać ten sam Bitcoin dwa razy.
 
 
 Aby dalej rozwinąć tę ideę konsensusu, gdy programiści proponują zmiany lub aktualizacje Bitcoin, węzły odgrywają rolę w przyjmowaniu lub odrzucaniu tych zmian. Robią to poprzez uaktualnienie swojego oprogramowania do nowej wersji lub kontynuowanie działania starej wersji. Proces ten często obejmuje dyskusje i debaty w ramach społeczności Bitcoin w celu osiągnięcia konsensusu. To powiedziawszy, konsensus Bitcoin nie jest tak czarno-biały jak maszyna do głosowania. Większość niekoniecznie rządzi. Jeśli niektóre osoby nie zgadzają się ze zmianą, mogą uruchomić nowy token wywodzący się z Bitcoin. Teraz istnieje oryginalny Bitcoin bez zmiany i nowy ze zmianą. Poprzez kupno i sprzedaż, społeczność może wskazać, którą wersję uważa za bardziej wartościową. Ten mechanizm konsensusu zapewnia, że wszelkie zmiany wprowadzone do protokołu Bitcoin są uzgadniane przez całą społeczność, co utrudnia każdej osobie lub grupie manipulowanie systemem dla własnych korzyści.
@@ -925,7 +925,7 @@ Ważne jest również, aby pamiętać, że węzeł jest po prostu oprogramowanie
 #### Górnicy
 
 
-Z drugiej strony, górnicy Bitcoin odgrywają kluczową rolę w prowadzeniu rejestrów, ponieważ są odpowiedzialni za zamawianie i potwierdzanie transakcji. Aby to zrobić, górnicy używają wyspecjalizowanych komputerów do wykonywania funkcji zwanej hashowaniem. Bez zagłębiania się w szczegóły hashowania, pomyśl o tym, że górnicy konkurują ze sobą, aby dodać nowe transakcje do Blockchain, publicznego Ledger transakcji. W Exchange za swoją pracę górnicy są nagradzani nowo utworzonymi Bitcoin i opłatami transakcyjnymi za wszelkie przetworzone transakcje. Proces Mining został zaprojektowany tak, aby był trudny, konkurencyjny i losowy, z ograniczoną liczbą nowych Bitcoin wydawanych każdego roku, zapewniając, że Supply Bitcoin jest ograniczony, a ich wartość jest utrzymywana. Bez górników transakcje nie byłyby przetwarzane.
+Z drugiej strony, górnicy Bitcoin odgrywają kluczową rolę w prowadzeniu rejestrów, ponieważ są odpowiedzialni za zamawianie i potwierdzanie transakcji. Aby to zrobić, górnicy używają wyspecjalizowanych komputerów do wykonywania funkcji zwanej [hashowaniem](https://planb.academy/resources/glossary/hash-function). Bez zagłębiania się w szczegóły hashowania, pomyśl o tym, że górnicy konkurują ze sobą, aby dodać nowe transakcje do Blockchain, publicznego Ledger transakcji. W Exchange za swoją pracę górnicy są nagradzani nowo utworzonymi Bitcoin i [opłatami transakcyjnymi](https://planb.academy/resources/glossary/transaction-fees) za wszelkie przetworzone transakcje. Proces [Mining](https://planb.academy/resources/glossary/mining) został zaprojektowany tak, aby był trudny, konkurencyjny i losowy, z ograniczoną liczbą nowych Bitcoin wydawanych każdego roku, zapewniając, że Supply Bitcoin jest ograniczony, a ich wartość jest utrzymywana. Bez górników transakcje nie byłyby przetwarzane.
 
 
 Biorąc pod uwagę, że górnicy muszą konkurować ze sobą, aby przetwarzać transakcje i są za to nagradzani, konkurencja ta minimalizuje szansę, że jakikolwiek pojedynczy Miner lub podmiot może kontrolować sieć i zachęca górników do uczciwego działania i przestrzegania zasad. Jeśli Miner próbuje oszukiwać lub łamać zasady, ryzykuje utratę nagrody, więc istnieje silna zachęta do przestrzegania zasad.
@@ -955,10 +955,10 @@ Aby zrozumieć, jak wszystkie te podmioty współpracują ze sobą, wyobraźmy s
 #### Inicjacja transakcji
 
 
-Każda transakcja Bitcoin rozpoczyna się od jej zainicjowania, gdy nadawca, w tym przypadku Alice, tworzy transakcję określającą odbiorcę, Boba, oraz kwotę, 0.00100000 Bitcoin. Węzeł powiązany z Wallet Alicji następnie transmituje transakcję do sieci, gdzie węzły potwierdzają jej ważność i jest ona wysyłana do górników w celu potwierdzenia.
+Każda transakcja Bitcoin rozpoczyna się od jej zainicjowania, gdy nadawca, w tym przypadku Alice, tworzy transakcję określającą odbiorcę, Boba, oraz kwotę, 0.00100000 Bitcoin. Węzeł powiązany z [Wallet](https://planb.academy/resources/glossary/wallet) Alicji następnie transmituje transakcję do sieci, gdzie węzły potwierdzają jej ważność i jest ona wysyłana do górników w celu potwierdzenia.
 
 
-W tym momencie transakcja trafia do tzw. Mempool, czyli poczekalni dla transakcji gotowych do dodania do Blockchain. Potraktuj to jako listę oczekujących transakcji, podobnie jak te, które widzisz na wyciągu z karty kredytowej, które zostały zainicjowane, ale czekają na przetworzenie. Gdy transakcja zostanie zainicjowana i znajdzie się w Mempool, jest teraz w rękach górników.
+W tym momencie transakcja trafia do tzw. [Mempool](https://planb.academy/resources/glossary/mempool), czyli poczekalni dla transakcji gotowych do dodania do Blockchain. Potraktuj to jako listę oczekujących transakcji, podobnie jak te, które widzisz na wyciągu z karty kredytowej, które zostały zainicjowane, ale czekają na przetworzenie. Gdy transakcja zostanie zainicjowana i znajdzie się w Mempool, jest teraz w rękach górników.
 
 
 #### Potwierdzenie transakcji
@@ -1052,7 +1052,7 @@ Chociaż Bitcoin nie jest jeszcze tak globalnie akceptowany jak waluty fiducjarn
 
 
 - **Przenośny:** Bitcoin, będąc walutą cyfrową, pozwala na transfery bez granic i bez pośredników między osobami fizycznymi, co czyni go wygodnym i dostępnym środkiem Exchange. Podczas gdy niektóre waluty fiducjarne oferują również rozwiązania cyfrowe, osoby w krajach rozwijających się lub rozdartych wojną mogą mieć trudności z dostępem do usług bankowych, które spełniają tę potrzebę. Zdecentralizowany charakter Bitcoin sprawia, że jest on dostępny dla każdego, kto ma połączenie z Internetem, zapewniając realną alternatywę dla tradycyjnych systemów bankowych na obszarach o ograniczonym dostępie do usług finansowych.
-- **Podzielność:** Ekstremalna podzielność Bitcoin jest jedną z jego kluczowych zalet jako waluty. Z każdym Bitcoin podzielnym do ośmiu miejsc po przecinku, najmniejsza jednostka, Satoshi, jest warta zaledwie ułamek centa. W zależności od metody transakcji, tj. Layer jeden lub dwa, sprawia to, że Bitcoin jest wysoce przystosowany do transakcji o dowolnej wielkości, od małych zakupów po duże inwestycje.
+- **Podzielność:** Ekstremalna podzielność Bitcoin jest jedną z jego kluczowych zalet jako waluty. Z każdym Bitcoin podzielnym do ośmiu miejsc po przecinku, najmniejsza jednostka, [Satoshi](https://planb.academy/resources/glossary/satoshi-sat), jest warta zaledwie ułamek centa. W zależności od metody transakcji, tj. Layer jeden lub dwa, sprawia to, że Bitcoin jest wysoce przystosowany do transakcji o dowolnej wielkości, od małych zakupów po duże inwestycje.
 - **Akceptowane:** Chociaż akceptacja Bitcoin nie jest jeszcze powszechna, jego rosnąca akceptacja przez sprzedawców, instytucje i osoby fizyczne na całym świecie sugeruje, że staje się on coraz bardziej akceptowany jako legalna forma płatności.
 
 
@@ -1120,7 +1120,7 @@ Bitcoin daje sprzedawcom bezprecedensową kontrolę nad ich transakcjami, pozwal
 #### Inflacja
 
 
-Pod koniec 2022 r. prawie [połowa świata] (https://Elements.visualcapitalist.com/mapped-countries-with-highest-inflation-rate/#:~:text=Inflation%20is%20surging%20nearly%20everywhere,digit%20inflation%20rates%20or%20higher.) zmagała się z dwucyfrową inflacją, co czyni ją palącym problemem. Jeśli stopy inflacji utrzymają się na tym poziomie przez następną dekadę, spowoduje to 65% utratę siły nabywczej. Jednak Bitcoin oferuje teraz każdemu wyjście. Będąc naprawdę rzadkim aktywem, jego wartość nie może ulec erozji w wyniku ekspansji Supply, oferując nam ucieczkę od negatywnych skutków debetowania walut.
+Pod koniec 2022 r. prawie [połowa świata](https://Elements.visualcapitalist.com/mapped-countries-with-highest-inflation-rate/#:~:text=Inflation%20is%20surging%20nearly%20everywhere,digit%20inflation%20rates%20or%20higher.) zmagała się z dwucyfrową inflacją, co czyni ją palącym problemem. Jeśli stopy inflacji utrzymają się na tym poziomie przez następną dekadę, spowoduje to 65% utratę siły nabywczej. Jednak Bitcoin oferuje teraz każdemu wyjście. Będąc naprawdę rzadkim aktywem, jego wartość nie może ulec erozji w wyniku ekspansji Supply, oferując nam ucieczkę od negatywnych skutków debetowania walut.
 
 
 #### Ucieczka z krajów ogarniętych wojną lub niestabilnych
@@ -1237,16 +1237,16 @@ Istnieją również niezliczone inne rozwiązania Wallet dostępne dla urządze�
 
 **Portfele bez aresztu (tzw. self-custody)**
 
-Portfele typu non-custodial to rodzaj Bitcoin Wallet, w którym użytkownik jest jedynym powiernikiem swoich środków, co oznacza, że ma pełną kontrolę nad kluczami prywatnymi. Klucze prywatne są jak hasło do Wallet i służą do podpisywania i autoryzowania transakcji. Bez nich nie można uzyskać dostępu ani przenieść Bitcoin.
+Portfele typu non-custodial to rodzaj Bitcoin Wallet, w którym użytkownik jest jedynym powiernikiem swoich środków, co oznacza, że ma pełną kontrolę nad [kluczami prywatnymi](https://planb.academy/resources/glossary/private-key). Klucze prywatne są jak hasło do Wallet i służą do podpisywania i autoryzowania transakcji. Bez nich nie można uzyskać dostępu ani przenieść Bitcoin.
 
 
-Portfele typu non-custodial oferują wyższy poziom bezpieczeństwa i prywatności w porównaniu z portfelami typu custodial, ponieważ tylko użytkownik jest odpowiedzialny za bezpieczeństwo swoich środków. Przykłady portfeli niepowierniczych obejmują portfele sprzętowe, takie jak [Coldcard](https://store.coinkite.com/store/coldcard) i [Trezor](https://trezor.io/), które są fizycznymi urządzeniami przechowującymi klucze prywatne w trybie offline i zapewniającymi dodatkowe Layer bezpieczeństwa. Innymi popularnymi portfelami niebędącymi portfelami powierniczymi są portfele programowe, takie jak [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home) i [Blockstream Green](https://blockstream.com/Green/), które można pobrać i zainstalować na komputerze lub urządzeniu mobilnym.
+Portfele typu non-custodial oferują wyższy poziom bezpieczeństwa i prywatności w porównaniu z portfelami typu custodial, ponieważ tylko użytkownik jest odpowiedzialny za bezpieczeństwo swoich środków. Przykłady portfeli niepowierniczych obejmują [portfele sprzętowe](https://planb.academy/resources/glossary/hardware-wallet), takie jak [Coldcard](https://store.coinkite.com/store/coldcard) i [Trezor](https://trezor.io/), które są fizycznymi urządzeniami przechowującymi klucze prywatne w trybie offline i zapewniającymi dodatkowe Layer bezpieczeństwa. Innymi popularnymi portfelami niebędącymi portfelami powierniczymi są portfele programowe, takie jak [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home) i [Blockstream Green](https://blockstream.com/Green/), które można pobrać i zainstalować na komputerze lub urządzeniu mobilnym.
 
 
 *Chociaż nie możemy polecić konkretnego Wallet, zdecydowanie zalecamy przejęcie kontroli nad Bitcoin poprzez samodzielną lub wspólną opiekę, która obejmuje wybór Wallet, który odpowiada Twoim potrzebom i preferencjom. Przed podjęciem decyzji o wyborze Wallet należy przeprowadzić dokładne badania, aby upewnić się, że spełnia on wymagania dotyczące bezpieczeństwa i użyteczności*
 
 
-Chociaż portfele powiernicze mogą wydawać się wygodne, wiążą się one ze znacznym ryzykiem. Przekazując kontrolę nad kluczami prywatnymi podmiotowi zewnętrznemu, w rzeczywistości dajesz mu kontrolę nad swoimi środkami. Jeśli powiernik stanie się niewypłacalny, zostanie zhakowany lub zakończy działalność, możesz stracić dostęp do swoich Bitcoin. Zdarzało się to przy niezliczonych okazjach, z głośnymi przykładami, takimi jak włamania na Mt. Gox i QuadrigaCX skutkujące utratą środków klientów lub FTX, Voyager, BlockFi i Celsius doświadczające katastrofalnej niewypłacalności, co doprowadziło do utraty środków klientów. Zwłaszcza w przypadku oszczędności, praktykowanie samodzielnego przechowywania i branie odpowiedzialności za zabezpieczenie Bitcoin ma kluczowe znaczenie.
+Chociaż portfele powiernicze mogą wydawać się wygodne, wiążą się one ze znacznym ryzykiem. Przekazując kontrolę nad kluczami prywatnymi podmiotowi zewnętrznemu, w rzeczywistości dajesz mu kontrolę nad swoimi środkami. Jeśli powiernik stanie się niewypłacalny, zostanie zhakowany lub zakończy działalność, możesz stracić dostęp do swoich Bitcoin. Zdarzało się to przy niezliczonych okazjach, z głośnymi przykładami, takimi jak włamania na Mt. Gox i QuadrigaCX skutkujące utratą środków klientów lub FTX, Voyager, BlockFi i Celsius doświadczające katastrofalnej niewypłacalności, co doprowadziło do utraty środków klientów. Zwłaszcza w przypadku oszczędności, praktykowanie [samodzielnego przechowywania](https://planb.academy/resources/glossary/selfcustody) i branie odpowiedzialności za zabezpieczenie Bitcoin ma kluczowe znaczenie.
 
 
 #### Wskazówki dotyczące bezpieczeństwa
@@ -1255,7 +1255,7 @@ Chociaż portfele powiernicze mogą wydawać się wygodne, wiążą się one ze 
 Gdy już zdecydujesz się na Wallet, zabawa i gry jeszcze się nie skończyły. Teraz nadszedł czas, aby zminimalizować ryzyko straty. Aby chronić swój Bitcoin, rozważ następujące kroki po wybraniu Wallet:
 
 
-1. Przede wszystkim należy wykonać kopię zapasową Wallet podczas samodzielnego przechowywania. Portfele sprzętowe są dostarczane z frazą odzyskiwania seed, zestawem słów, które można wykorzystać do odzyskania kluczy prywatnych w przypadku utraty lub uszkodzenia urządzenia. Utwórz fizyczną kopię, taką jak metalowa płytka seed, tej [frazy seed](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/) i przechowuj ją w bezpiecznym miejscu. Ważne jest, aby zachować tę frazę seed w bezpiecznym miejscu. NIGDY nikomu jej nie udostępniaj.
+1. Przede wszystkim należy wykonać kopię zapasową Wallet podczas samodzielnego przechowywania. Portfele sprzętowe są dostarczane z [frazą odzyskiwania seed](https://planb.academy/resources/glossary/recovery-phrase), zestawem słów, które można wykorzystać do odzyskania kluczy prywatnych w przypadku utraty lub uszkodzenia urządzenia. Utwórz fizyczną kopię, taką jak metalowa płytka seed, tej [frazy seed](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/) i przechowuj ją w bezpiecznym miejscu. Ważne jest, aby zachować tę frazę seed w bezpiecznym miejscu. NIGDY nikomu jej nie udostępniaj.
 
 2. Zabezpieczając znaczną ilość Bitcoin, która przekracza próg, którego nie chciałbyś stracić, ważne jest, aby zbadać opcje planowania nieruchomości na wypadek nieprzewidzianego zdarzenia Twojej śmierci. Zapewni to rodzinie i bliskim dostęp do Bitcoin i skuteczne zarządzanie nim.
 
@@ -1279,7 +1279,7 @@ A jeśli używasz Exchange:
 2. Włącz uwierzytelnianie dwuskładnikowe (2FA), gdy tylko jest to możliwe. Dodaje to dodatkowy Layer bezpieczeństwa, wymagając kodu z telefonu lub urządzenia sprzętowego oprócz hasła.
 
 
-Jeśli nadal nie jesteś pewien, zalecamy sprawdzenie Bena z [BTCsessions] (https://www.youtube.com/c/BTCSessions) na YouTube.
+Jeśli nadal nie jesteś pewien, zalecamy sprawdzenie Bena z [BTCsessions](https://www.youtube.com/c/BTCSessions) na YouTube.
 
 
 Pamiętaj, że z wielką mocą wiąże się wielka odpowiedzialność, a poświęcenie czasu na prawidłowe zabezpieczenie Bitcoin ma zasadnicze znaczenie dla ochrony Twojej finansowej przyszłości.
@@ -1362,7 +1362,7 @@ Biorąc pod uwagę cyfrowy charakter Bitcoin, jest on zawsze otwarty dla biznesu
 Łatwo jest przeoczyć te fakty, dopóki nie zacznie się liczyć liczb.
 
 
-Po pierwsze, [jedna czwarta] (https://www.worldbank.org/en/publication/globalfindex) osób na całym świecie jest uważana za nieubankowione. Oznacza to, że ponad miliard osób nie może dokonywać transakcji cyfrowych, nie mówiąc już o bezpiecznym oszczędzaniu.
+Po pierwsze, [jedna czwarta](https://www.worldbank.org/en/publication/globalfindex) osób na całym świecie jest uważana za nieubankowione. Oznacza to, że ponad miliard osób nie może dokonywać transakcji cyfrowych, nie mówiąc już o bezpiecznym oszczędzaniu.
 
 
 Po drugie, biorąc pod uwagę 8760 godzin w roku i fakt, że przeciętny bank działa tylko od 10:00 do 17:00 od poniedziałku do soboty i jest zamknięty w niedziele i święta, przeciętny bank jest otwarty tylko przez 2100 godzin w roku. To zaledwie 24% czasu!
@@ -1374,7 +1374,7 @@ Tak więc, poza miliardami, które nie mają dostępu do usług bankowych i usł
 Co gorsza, o ile nie uciekamy się do gotówki, wszystkie nasze fundusze podlegają ograniczeniom tradycyjnej bankowości. Stanowi to poważne ryzyko, gdyby nasz rząd narzucił nadmierną reformę bankową, jak miało to miejsce podczas bankructwa greckiego rządu w 2015 roku.
 
 
-Podczas tego kryzysu banki zostały zamknięte, wypłaty z bankomatów ograniczono do zaledwie \67 USD dziennie, a mimo to rząd nadal wycofał znaczną [część] (https://cointelegraph.com/news/greek-banks-plan-for-bail-in-withdrawals-from-consumer-deposits) depozytów bankowych osób fizycznych, aby sfinansować swoją nieodpowiedzialność fiskalną.
+Podczas tego kryzysu banki zostały zamknięte, wypłaty z bankomatów ograniczono do zaledwie \67 USD dziennie, a mimo to rząd nadal wycofał znaczną [część](https://cointelegraph.com/news/greek-banks-plan-for-bail-in-withdrawals-from-consumer-deposits) depozytów bankowych osób fizycznych, aby sfinansować swoją nieodpowiedzialność fiskalną.
 
 
 Chociaż gotówka może stanowić obejście takiego kryzysu, poleganie na fizycznej walucie w świecie, w którym transakcje cyfrowe są koniecznością, nie jest realnym rozwiązaniem długoterminowym.
@@ -1491,7 +1491,7 @@ Podsumowując, stablecoiny przeszły długą drogę od czasu ich powstania. Od w
 Jak powinno być już oczywiste, stablecoin to rodzaj cyfrowego tokena zaprojektowanego w celu utrzymania stabilnej wartości w oparciu o bazowy pegged asset. Aktywa te mogą obejmować walutę fiducjarną, metale szlachetne, towary lub ich kombinację (np. koszyk walut fiducjarnych).
 
 
-Celem stablecoina, takiego jak USDt, jest zapewnienie stosunkowo stabilnego cyfrowego magazynu wartości w porównaniu ze zmiennością, jakiej doświadczają nie tylko inne kryptowaluty, ale także inne waluty fiducjarne, takie jak argentyńskie peso, które straciło [97%] (https://www.statista.com/statistics/316750/inflation-rate-in-argentina/) swojej siły nabywczej w latach 2012-2022.
+Celem stablecoina, takiego jak USDt, jest zapewnienie stosunkowo stabilnego cyfrowego magazynu wartości w porównaniu ze zmiennością, jakiej doświadczają nie tylko inne kryptowaluty, ale także inne waluty fiducjarne, takie jak argentyńskie peso, które straciło [97%](https://www.statista.com/statistics/316750/inflation-rate-in-argentina/) swojej siły nabywczej w latach 2012-2022.
 
 
 Zasadniczo stablecoin działa jako pomost między tradycyjnymi aktywami a Bitcoin, umożliwiając użytkownikom dokonywanie transakcji z większą pewnością i przewidywalnością.
@@ -1622,7 +1622,7 @@ Chociaż stablecoiny są często uważane za bezpieczne ze względu na ich "stab
 <chapterId>a6806b45-b92e-5791-8f5f-804098a522b2</chapterId>
 
 
-Poznaj Adannę, młodą kobietę mieszkającą w wiejskiej afrykańskiej wiosce, gdzie frank CFA, który stracił oszałamiające [99,5%] (https://bitcoinmagazine.com/culture/Bitcoin-a-currency-of-decolonization) swojej siły nabywczej w ciągu ostatnich 70 lat, jest jedyną dostępną walutą - co sprawia, że oszczędzanie jest niemożliwe.
+Poznaj Adannę, młodą kobietę mieszkającą w wiejskiej afrykańskiej wiosce, gdzie frank CFA, który stracił oszałamiające [99,5%](https://bitcoinmagazine.com/culture/Bitcoin-a-currency-of-decolonization) swojej siły nabywczej w ciągu ostatnich 70 lat, jest jedyną dostępną walutą - co sprawia, że oszczędzanie jest niemożliwe.
 
 
 Adanna zawsze była zaintrygowana pomysłem posiadania kontroli nad swoimi pieniędzmi, ale do niedawna pozostawało to niemożliwym marzeniem. Waluta, której używa, jest nadzorowana przez osoby, które okazały się nie mieć na uwadze najlepszych interesów swoich ludzi, a jej wiejska lokalizacja ogranicza jej dostęp do usług bankowych. W rezultacie Adanna nie ma innego wyboru, jak tylko polegać na fizycznej gotówce, co naraża ją na kradzież i utratę, a także spadek siły nabywczej.
@@ -1656,7 +1656,7 @@ Przyjrzyjmy się zatem niektórym z innych możliwości, które zostały nam prz
 Wyobraź sobie przez chwilę, że urodziłeś się i wychowałeś w Tonga. Ale choć kochasz swój rodzinny kraj, w młodym wieku zdajesz sobie sprawę, że możliwości zatrudnienia w lokalnej społeczności są ograniczone. Tak więc, gdy tylko się wyprowadzasz, decydujesz się opuścić Tonga i przenieść się do kraju z większą pulą możliwości zatrudnienia. W ten sposób możesz teraz lepiej wspierać swoją rodzinę, wysyłając część swojej wypłaty do domu.
 
 
-Chociaż ten scenariusz może wydawać się nieprawdopodobny, w rzeczywistości jest rzeczywistością dla miliardów ludzi na całym świecie, zwłaszcza tych w Tonga. Od 2021 r. przekazy pieniężne - akt wysyłania pieniędzy z powrotem do bliskich w celu uzyskania wsparcia - stanowiły zdumiewające [45,5%] (https://www.theglobaleconomy.com/Tonga/remittances_percent_GDP/#:~:text=Remittances%20as%20percent%20of%20GDP&text=The%20average%20value%20for%20Tonga,171%20countries%20is%205.66%20percent.) produktu krajowego brutto (PKB) Tonga.
+Chociaż ten scenariusz może wydawać się nieprawdopodobny, w rzeczywistości jest rzeczywistością dla miliardów ludzi na całym świecie, zwłaszcza tych w Tonga. Od 2021 r. przekazy pieniężne - akt wysyłania pieniędzy z powrotem do bliskich w celu uzyskania wsparcia - stanowiły zdumiewające [45,5%](https://www.theglobaleconomy.com/Tonga/remittances_percent_GDP/#:~:text=Remittances%20as%20percent%20of%20GDP&text=The%20average%20value%20for%20Tonga,171%20countries%20is%205.66%20percent.) produktu krajowego brutto (PKB) Tonga.
 
 
 Prawdopodobnie zastanawiasz się: W czym problem?
@@ -1665,18 +1665,18 @@ Prawdopodobnie zastanawiasz się: W czym problem?
 Wysyłanie pieniędzy z powrotem za granicę za pośrednictwem usługi przekazu pieniężnego, takiej jak Western Union, nie jest darmowe. To kosztuje, i to nie tylko trochę, ale znaczną kwotę.
 
 
-Wysłanie 100 USD z powrotem do Tonga wiąże się z kosztem [12,61 USD] (https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) plus dodatkową stratą w wysokości 8,60 USD z powodu niekorzystnego kursu Exchange. Oznacza to, że ponad 21% całkowitej wysłanej kwoty trafia do Western Union, międzynarodowej korporacji. W rezultacie znaczna suma, która mogła trafić w ręce zasłużonych tongańskich rodzin, kończy w kieszeniach dostawcy usług transferu pieniędzy.
+Wysłanie 100 USD z powrotem do Tonga wiąże się z kosztem [12,61 USD](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) plus dodatkową stratą w wysokości 8,60 USD z powodu niekorzystnego kursu Exchange. Oznacza to, że ponad 21% całkowitej wysłanej kwoty trafia do Western Union, międzynarodowej korporacji. W rezultacie znaczna suma, która mogła trafić w ręce zasłużonych tongańskich rodzin, kończy w kieszeniach dostawcy usług transferu pieniędzy.
 
 Czy możesz sobie wyobrazić korzyści płynące z dodania dodatkowych 21% do swojego dochodu?
 
 
-Co więcej, biorąc pod uwagę, że PKB Tonga wyniósł [469] (https://tradingeconomics.com/tonga/gdp) mln USD w 2021 r., a 45,5% tego PKB pochodzi z przekazów pieniężnych, wygórowane opłaty pobierane za wysyłanie pieniędzy z powrotem do domu oznaczają, że Tonga traci dodatkowe 45,2 mln USD. Kwota ta przełożyłaby się na wzrost PKB o 9,6%, gdyby nie te opłaty.
+Co więcej, biorąc pod uwagę, że PKB Tonga wyniósł [469](https://tradingeconomics.com/tonga/gdp) mln USD w 2021 r., a 45,5% tego PKB pochodzi z przekazów pieniężnych, wygórowane opłaty pobierane za wysyłanie pieniędzy z powrotem do domu oznaczają, że Tonga traci dodatkowe 45,2 mln USD. Kwota ta przełożyłaby się na wzrost PKB o 9,6%, gdyby nie te opłaty.
 
 
 A jeśli myślałeś, że Tonga jest w tym osamotniona, zgadnij jeszcze raz.
 
 
-Oto przykładowa kwota, jaką Western Union [pobiera] (https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) za wysłanie 100 USD do kilku innych znanych krajów:
+Oto przykładowa kwota, jaką Western Union [pobiera](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) za wysłanie 100 USD do kilku innych znanych krajów:
 
 
 
@@ -1691,7 +1691,7 @@ Jest to oszałamiająca kwota pieniędzy, która znajduje się obecnie w rękach
 W przeciwieństwie do tradycyjnych usług przelewów pieniężnych, USDt jest walutą cyfrową, która na potrzeby transakcji porusza się po szynach Blockchain. Ponieważ nie wymaga pośredników, takich jak banki lub usługi przekazów pieniężnych, opłaty są znacznie niższe. Ponadto, ponieważ transakcje są wykonywane na publicznym Blockchain, zapewnia to większą przejrzystość, a także prywatność. Oznacza to, że osoby fizyczne mogą wysyłać pieniądze do swoich bliskich w innych krajach niemal natychmiast, bezpiecznie i po znacznie niższych kosztach.
 
 
-Na przykład USDt, który działa głównie na blockchainach Ethereum i Tron, w ciągu ostatniego roku uśrednił opłaty transakcyjne odpowiednio [1,02 USD] (https://ycharts.com/indicators/ethereum_average_transaction_fee#:~:text=Ethereum%20Average%20Transaction%20Fee%20is,20.90%25%20from%20one%20year%20ago.) i [0,000005 USD] (https://bitpowr.com/blog/how-to-send-fee-less-tron-transactions), niezależnie od wysłanej kwoty - opłata pozostaje taka sama niezależnie od tego, czy wysyłasz 5 USD, czy 10 000 USD. W chwili obecnej deweloperzy pracują nad [stablecoinami](https://www.coindesk.com/tech/2022/09/28/lightning-labs-releases-software-to-allow-Bitcoin-developers-to-mint-and-transfer-assets-on-the-Blockchain/) zbudowanymi na Bitcoin's Lightning Network, w przypadku których opłaty wyniosłyby około [0,0003 USD](https://www.nasdaq.com/articles/the-state-of-lightning-network-adoption).
+Na przykład USDt, który działa głównie na blockchainach Ethereum i Tron, w ciągu ostatniego roku uśrednił opłaty transakcyjne odpowiednio [1,02 USD](https://ycharts.com/indicators/ethereum_average_transaction_fee#:~:text=Ethereum%20Average%20Transaction%20Fee%20is,20.90%25%20from%20one%20year%20ago.) i [0,000005 USD](https://bitpowr.com/blog/how-to-send-fee-less-tron-transactions), niezależnie od wysłanej kwoty - opłata pozostaje taka sama niezależnie od tego, czy wysyłasz 5 USD, czy 10 000 USD. W chwili obecnej deweloperzy pracują nad [stablecoinami](https://www.coindesk.com/tech/2022/09/28/lightning-labs-releases-software-to-allow-Bitcoin-developers-to-mint-and-transfer-assets-on-the-Blockchain/) zbudowanymi na Bitcoin's Lightning Network, w przypadku których opłaty wyniosłyby około [0,0003 USD](https://www.nasdaq.com/articles/the-state-of-lightning-network-adoption).
 
 
 Dzięki USDt Tongańczycy, a także wszyscy inni, którzy wysyłają pieniądze z powrotem do swoich rodzin, mogą otrzymywać znacznie więcej swoich przekazów pieniężnych, co może znacznie poprawić ich jakość życia i przyczynić się do rozwoju gospodarczego ich kraju.
@@ -1898,10 +1898,10 @@ Wreszcie, całkowita wartość rynkowa Bitcoin wynosi zaledwie 550 miliardów do
 
 
 
-- Globalny rynek akcji: [124,4 bln USD] (https://www.sifma.org/resources/research/fact-book/)
+- Globalny rynek akcji: [124,4 bln USD](https://www.sifma.org/resources/research/fact-book/)
 - Globalny rynek obligacji o stałym dochodzie: \126,9 bln USD
-- Globalny rynek nieruchomości: [326,5 bln USD] (https://www.savills.com/impacts/market-trends/the-total-value-of-global-real-estate.html)
-- Globalny rynek instrumentów pochodnych: Szacowany na ponad [1 bilion USD] (https://www.investopedia.com/ask/answers/052715/how-big-derivatives-market.asp)
+- Globalny rynek nieruchomości: [326,5 bln USD](https://www.savills.com/impacts/market-trends/the-total-value-of-global-real-estate.html)
+- Globalny rynek instrumentów pochodnych: Szacowany na ponad [1 bilion USD](https://www.investopedia.com/ask/answers/052715/how-big-derivatives-market.asp)
 
 
 Podsumowując, kiedy ludzie nazywają Bitcoin bańką, albo:
@@ -1921,13 +1921,13 @@ Krytycy często wskazują, że zmienność Bitcoin sprawia, że jest to kiepska 
 Po pierwsze, zmienność Bitcoin jest tematem debaty i spowodowała, że niektórzy krytykują aktywa za gwałtowne wahania cen. Uważamy, że jest to wąskie spojrzenie na zmienność, ponieważ zmienność mierzy ruch cen aktywów, a nie tylko ich spadki. Ci, którzy wykazali się hartem ducha, by utrzymać Bitcoin podczas jego wahań, zostali sowicie wynagrodzeni. Weźmy na przykład aktywa A i B. Aktywa A rosną średnio o 10% rocznie z odchyleniem 15%, podczas gdy aktywa B zmieniają się o 5% rocznie z odchyleniem 10%. Chociaż aktywa B mają niższą zmienność niż aktywa A, aktywa A osiągają lepsze wyniki niż aktywa B w dłuższej perspektywie. Musisz być gotów znieść zmienność, aby czerpać korzyści z ruchów cen Bitcoin. Co więcej, USD może być mniej zmienny z dnia na dzień. Jeśli jednak posiadałeś tę walutę przez ostatnie 100 lat, straciłeś [96%](https://www.visualcapitalist.com/purchasing-power-of-the-u-s-dollar-over-time/) swojej siły nabywczej.
 
 
-Po drugie, zmienność jest naturalnym zjawiskiem, jeśli chodzi o przyjęcie technologii. Kiedy wprowadzana jest nowa technologia, z pewnością pojawia się niepewność i spekulacje na temat jej potencjału, co prowadzi do wahań cen. Sztuczna inteligencja (AI) jest doskonałym przykładem wysoce niestabilnego sektora. W latach [2021-2022] (https://www.precedenceresearch.com/artificial-intelligence-market#:~:text=The%20global%20artificial%20intelligence%20(AI,USD%2051%20billion%20in%2021.) całkowita wartość AI wzrosła z 51 mld USD do 119 mld USD. Jednak pomimo jej zmienności, nie można ignorować korzyści płynących z inwestowania w sztuczną inteligencję. Od autonomicznych samochodów po spersonalizowaną opiekę zdrowotną, potencjalne zastosowania sztucznej inteligencji są ogromne. Jeśli więc interesujesz się sztuczną inteligencją, nie chciałbyś przegapić możliwości, jakie stwarza, tylko ze względu na jej zmienność.
+Po drugie, zmienność jest naturalnym zjawiskiem, jeśli chodzi o przyjęcie technologii. Kiedy wprowadzana jest nowa technologia, z pewnością pojawia się niepewność i spekulacje na temat jej potencjału, co prowadzi do wahań cen. Sztuczna inteligencja (AI) jest doskonałym przykładem wysoce niestabilnego sektora. W latach [2021-2022](https://www.precedenceresearch.com/artificial-intelligence-market#:~:text=The%20global%20artificial%20intelligence%20(AI,USD%2051%20billion%20in%2021.) całkowita wartość AI wzrosła z 51 mld USD do 119 mld USD. Jednak pomimo jej zmienności, nie można ignorować korzyści płynących z inwestowania w sztuczną inteligencję. Od autonomicznych samochodów po spersonalizowaną opiekę zdrowotną, potencjalne zastosowania sztucznej inteligencji są ogromne. Jeśli więc interesujesz się sztuczną inteligencją, nie chciałbyś przegapić możliwości, jakie stwarza, tylko ze względu na jej zmienność.
 
 
 Co więcej, zmienność Bitcoin nie jest wyjątkowa. Tradycyjne rynki finansowe również doświadczają wahań cen aktywów, takich jak rynek akcji, rynek towarów, a nawet waluty. W rzeczywistości zmienność Bitcoin jest prawdopodobnie mniejsza niż w przypadku wielu innych aktywów.
 
 
-Wreszcie, argument, że Bitcoin jest nadmiernie zmienny, nie uwzględnia istotnego aspektu: jego wycena jest obecnie powiązana z walutą fiducjarną. Obserwowane wahania wartości Bitcoin wynikają przede wszystkim z nieodłącznej niestabilności bazowej jednostki miary, takiej jak dolar lub inne waluty. Jak trafnie wskazuje Lawrence White w swojej książce [Better Money] (https://amzn.to/3NZnCTm), te wahania cen w dużej mierze wynikają z tego, że ludzie szukają zabezpieczenia przed inflacją. Innymi słowy, w naszym systemie rezerwy cząstkowej zarządzanym przez banki centralne, osoby na stanowiskach władzy mają możliwość zmiany Supply pieniądza w obiegu. W rezultacie, gdy prowadzą politykę pieniężną, taką jak luzowanie ilościowe, ceny aktywów rosną, a gdy zacieśniają politykę, ceny spadają. Ten efekt bicza jest produktem ubocznym scentralizowanego systemu monetarnego, tworząc niepewność i niestabilność na rynkach finansowych. W związku z tym ocena zmienności Bitcoin na podstawie jego zachowania w standardzie fiat jest myląca. Zasadniczo podkreśla to jedynie nieodłączną zmienność walut fiducjarnych.
+Wreszcie, argument, że Bitcoin jest nadmiernie zmienny, nie uwzględnia istotnego aspektu: jego wycena jest obecnie powiązana z walutą fiducjarną. Obserwowane wahania wartości Bitcoin wynikają przede wszystkim z nieodłącznej niestabilności bazowej jednostki miary, takiej jak dolar lub inne waluty. Jak trafnie wskazuje Lawrence White w swojej książce [Better Money](https://amzn.to/3NZnCTm), te wahania cen w dużej mierze wynikają z tego, że ludzie szukają zabezpieczenia przed inflacją. Innymi słowy, w naszym systemie rezerwy cząstkowej zarządzanym przez banki centralne, osoby na stanowiskach władzy mają możliwość zmiany Supply pieniądza w obiegu. W rezultacie, gdy prowadzą politykę pieniężną, taką jak luzowanie ilościowe, ceny aktywów rosną, a gdy zacieśniają politykę, ceny spadają. Ten efekt bicza jest produktem ubocznym scentralizowanego systemu monetarnego, tworząc niepewność i niestabilność na rynkach finansowych. W związku z tym ocena zmienności Bitcoin na podstawie jego zachowania w standardzie fiat jest myląca. Zasadniczo podkreśla to jedynie nieodłączną zmienność walut fiducjarnych.
 
 
 W przeciwieństwie do tego, Bitcoin działa w zdecentralizowanej sieci, w której Supply jest stały i nie może być manipulowany przez organ centralny. Chociaż oznacza to, że może wystąpić krótkoterminowa zmienność, niedobór i przewidywalność Bitcoin najprawdopodobniej zmniejszy zmienność i zwiększy stabilność w dłuższej perspektywie.
@@ -2024,10 +2024,10 @@ Pomimo licznych badań obalających fałszywe twierdzenia, Bitcoin jest nadal cz
 Jedno [badanie](https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) przeprowadzone przez byłego zastępcę dyrektora CIA wykazało, że "szerokie uogólnienia dotyczące wykorzystania Bitcoin w nielegalnym finansowaniu są znacznie zawyżone" W rzeczywistości od 2016 r. mniej niż 1% całkowitego wolumenu transakcji Bitcoin zostało wykorzystane do nielegalnej działalności. Dla porównania, "niektórzy szacują podziemną gospodarkę na 11% do 12% produktu krajowego brutto USA (https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp)", z czego większość jest ułatwiona przy użyciu dolara amerykańskiego.
 
 
-Według raportu Chainalysis z 2020 r., nielegalna działalność stanowi jedynie około [0,34%] (https://www.europol.europa.eu/cms/sites/default/files/documents/Europol Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) wszystkich transakcji Bitcoin.
+Według raportu Chainalysis z 2020 r., nielegalna działalność stanowi jedynie około [0,34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) wszystkich transakcji Bitcoin.
 
 
-Jednak nawet w obliczu tych dowodów, rządzący nadal wygłaszają wprowadzające w błąd oświadczenia, takie jak sekretarz skarbu USA Janet Yellen [twierdząca] (https://home.treasury.gov/news/press-releases/jy0023), że "kryptowaluty były wykorzystywane do prania zysków internetowych handlarzy narkotyków; były narzędziem finansowania terroryzmu"
+Jednak nawet w obliczu tych dowodów, rządzący nadal wygłaszają wprowadzające w błąd oświadczenia, takie jak sekretarz skarbu USA Janet Yellen [twierdząca](https://home.treasury.gov/news/press-releases/jy0023), że "kryptowaluty były wykorzystywane do prania zysków internetowych handlarzy narkotyków; były narzędziem finansowania terroryzmu"
 
 
 Chociaż niezliczone badania obalają takie fałszywe twierdzenia, jasne jest, że niektóre osoby mają agendę i są zdeterminowane, aby budować negatywne i nierzeczywiste narracje wokół Bitcoin. W rzeczywistości Bitcoin ma potencjał do wprowadzenia znaczących pozytywnych zmian na świecie, od zapewnienia dostępu do usług finansowych dla osób nieubankowionych po zmniejszenie kosztów transakcji i zwiększenie wolności finansowej.
@@ -2159,11 +2159,11 @@ I na koniec..
 Chcemy zacząć od stwierdzenia: **Wszystko zużywa energię**, niezależnie od tego, czy zdajemy sobie z tego sprawę, czy nie. Nawet tak prosta czynność, jak bieganie z psem, wymaga dostarczenia energii sobie i swojemu futrzanemu towarzyszowi. Zarówno ty, jak i twój pies jesteście konsumentami energii.
 
 
-Naszym zamiarem nie jest krytykowanie innych branż za ich zużycie energii, ponieważ, jak wspomniano powyżej, zużycie energii oznacza wartość, jaką ludzie znajdują w dostarczanych usługach lub produktach. Istotne jest jednak, aby spojrzeć na zużycie energii przez Bitcoin z odpowiedniej perspektywy. Rozważmy następujące [porównania] (https://bitcoinmagazine.com/business/Bitcoin-energy-use-compare-industry):
+Naszym zamiarem nie jest krytykowanie innych branż za ich zużycie energii, ponieważ, jak wspomniano powyżej, zużycie energii oznacza wartość, jaką ludzie znajdują w dostarczanych usługach lub produktach. Istotne jest jednak, aby spojrzeć na zużycie energii przez Bitcoin z odpowiedniej perspektywy. Rozważmy następujące [porównania](https://bitcoinmagazine.com/business/Bitcoin-energy-use-compare-industry):
 
 
 
-- Pralki zużywają [18%] (https://energypedia.info/wiki/The_Overall_Worldwide_Saving_Potential_from_Domestic_Washing_Machines#:~:text=Today%2C%20840%20million%20domestic%20washing,about%2019%20km3%20of%20water.) więcej energii niż Bitcoin.
+- Pralki zużywają [18%](https://energypedia.info/wiki/The_Overall_Worldwide_Saving_Potential_from_Domestic_Washing_Machines#:~:text=Today%2C%20840%20million%20domestic%20washing,about%2019%20km3%20of%20water.) więcej energii niż Bitcoin.
 - Złoto Mining i produkcja biżuterii zużywa dziesięć razy więcej energii niż Bitcoin.
 - Transport morski zużywa ponad 51 razy więcej energii niż Bitcoin.
 - Sektor finansowy i ubezpieczeniowy zużywa 62 razy więcej energii niż Bitcoin.
@@ -2223,10 +2223,10 @@ Nie dotyczy to jednak wszystkich stablecoinów, a wiele z nich nie oferuje takie
 Inną powszechną krytyką jest to, że stablecoiny często nie są w pełni zabezpieczone gotówką, ale raczej "gotówką i jej ekwiwalentami" jest to techniczny termin określający gotówkę i rezerwy podobne do gotówki, które można łatwo zamienić na gotówkę. Ważne jest jednak, aby wziąć pod uwagę dwie kwestie:
 
 
-Po pierwsze, emitenci stablecoinów często inwestują w ekwiwalenty środków pieniężnych zamiast utrzymywać gotówkę, ponieważ gotówka może znacząco wpłynąć na bilans emitenta stablecoinów. Przy obecnych przepisach bankowych wszelkie aktywa bilansowe, takie jak gotówka, podlegają potencjalnej utracie w przypadku bankructwa, a Federalna Korporacja Ubezpieczeń Depozytów (FDIC) zapewnia ochronę ubezpieczeniową tylko do kwoty 250 000 USD, przy czym kwoty przekraczające ten limit są zagrożone. Aby złagodzić tę ekspozycję, stablecoiny mające na celu zabezpieczenie użytkowników przed nieprzewidzianymi zdarzeniami często inwestują w bony skarbowe emitowane przez rząd. Inwestując w aktywa takie jak papiery skarbowe, nie tylko generate uzyskują zysk, ale aktywa te można uznać za pozabilansowe papiery wartościowe. W rezultacie emitenci stablecoinów mogą chronić swoje fundusze w przypadku bankructwa banku, ponieważ te papiery wartościowe mogą zostać zwrócone klientowi. Istotna ilustracja tego miała miejsce w lutym/marcu 2023 r., z udziałem Silicon Valley Bank (SVB) i Circle, firmy stojącej za stablecoinem USDC. W tym czasie Circle miał znaczną [3,3 miliarda dolarów] (https://www.coindesk.com/business/2023/03/11/circle-confirms-33b-of-usdcs-cash-reserves-stuck-at-failed-silicon-valley-bank/#:~:text=Stablecoin%20issuer%20Circle%20said%20late,reserves%20backing%20Circle's%20stablecoin%20USDC.) w gotówce zdeponowanej w SVB. A potem SVB zbankrutował. Aby zapobiec katastrofie finansowej, FDIC interweniowała, aby uratować Circle i inne dotknięte firmy, pokrywając brakujące fundusze. Nie jest to jednak standardowy sposób działania. To bezprecedensowe wydarzenie było pierwszym w historii, w którym doszło do takiej sytuacji. Gdyby nie interwencja FDIC, Circle również groziłoby bankructwo.
+Po pierwsze, emitenci stablecoinów często inwestują w ekwiwalenty środków pieniężnych zamiast utrzymywać gotówkę, ponieważ gotówka może znacząco wpłynąć na bilans emitenta stablecoinów. Przy obecnych przepisach bankowych wszelkie aktywa bilansowe, takie jak gotówka, podlegają potencjalnej utracie w przypadku bankructwa, a Federalna Korporacja Ubezpieczeń Depozytów (FDIC) zapewnia ochronę ubezpieczeniową tylko do kwoty 250 000 USD, przy czym kwoty przekraczające ten limit są zagrożone. Aby złagodzić tę ekspozycję, stablecoiny mające na celu zabezpieczenie użytkowników przed nieprzewidzianymi zdarzeniami często inwestują w bony skarbowe emitowane przez rząd. Inwestując w aktywa takie jak papiery skarbowe, nie tylko generate uzyskują zysk, ale aktywa te można uznać za pozabilansowe papiery wartościowe. W rezultacie emitenci stablecoinów mogą chronić swoje fundusze w przypadku bankructwa banku, ponieważ te papiery wartościowe mogą zostać zwrócone klientowi. Istotna ilustracja tego miała miejsce w lutym/marcu 2023 r., z udziałem Silicon Valley Bank (SVB) i Circle, firmy stojącej za stablecoinem USDC. W tym czasie Circle miał znaczną [3,3 miliarda dolarów](https://www.coindesk.com/business/2023/03/11/circle-confirms-33b-of-usdcs-cash-reserves-stuck-at-failed-silicon-valley-bank/#:~:text=Stablecoin%20issuer%20Circle%20said%20late,reserves%20backing%20Circle's%20stablecoin%20USDC.) w gotówce zdeponowanej w SVB. A potem SVB zbankrutował. Aby zapobiec katastrofie finansowej, FDIC interweniowała, aby uratować Circle i inne dotknięte firmy, pokrywając brakujące fundusze. Nie jest to jednak standardowy sposób działania. To bezprecedensowe wydarzenie było pierwszym w historii, w którym doszło do takiej sytuacji. Gdyby nie interwencja FDIC, Circle również groziłoby bankructwo.
 
 
-Po drugie, często krytykujemy emitentów stablecoinów za inwestowanie w aktywa bezgotówkowe, a przecież nasz istniejący system bankowy działa na zasadzie rezerwy cząstkowej. Mówiąc prościej, banki nie utrzymują wystarczających rezerw, aby sprostać wymaganiom klientów w zakresie wypłat. Gdyby znaczna część populacji naszego kraju wycofała swoje depozyty, sektor bankowy szybko by się załamał. W rzeczywistości od 2020 r. rezerwa obowiązkowa w Stanach Zjednoczonych została ustalona na poziomie [zero] (https://www.federalreserve.gov/monetarypolicy/reservereq.htm), co oznacza, że banki nie są zobowiązane do utrzymywania **ŻADNYCH** depozytów klientów.
+Po drugie, często krytykujemy emitentów stablecoinów za inwestowanie w aktywa bezgotówkowe, a przecież nasz istniejący system bankowy działa na zasadzie rezerwy cząstkowej. Mówiąc prościej, banki nie utrzymują wystarczających rezerw, aby sprostać wymaganiom klientów w zakresie wypłat. Gdyby znaczna część populacji naszego kraju wycofała swoje depozyty, sektor bankowy szybko by się załamał. W rzeczywistości od 2020 r. rezerwa obowiązkowa w Stanach Zjednoczonych została ustalona na poziomie [zero](https://www.federalreserve.gov/monetarypolicy/reservereq.htm), co oznacza, że banki nie są zobowiązane do utrzymywania **ŻADNYCH** depozytów klientów.
 
 
 Chcemy wyrazić się jasno. Obserwacja ta nie oznacza, że powinniśmy lekceważyć obawy dotyczące stablecoinów zastępujących rezerwy gotówkowe aktywami, które mogą stracić na wartości, potencjalnie destabilizując stablecoina. Zamiast tego powinniśmy uznać podwójne standardy między tradycyjnymi a nowoczesnymi finansami kryptograficznymi.
@@ -2268,7 +2268,7 @@ Podsumowując, następnym razem, gdy stablecoin będzie handlowany powyżej lub 
 Odnosząc się do błędnego przekonania, że stablecoiny mogą zamrozić twoje fundusze ze względu na ich scentralizowany charakter, ważne jest, aby podkreślić różnicę między scentralizowanymi i zdecentralizowanymi podmiotami, z których każdy ma swoje zalety i wady. Chociaż zdecydowanie opowiadamy się za zdecentralizowanymi aktywami, takimi jak Bitcoin, nie oznacza to, że scentralizowane stablecoiny są pozbawione wartości lub korzyści.
 
 
-Jedną z głównych zalet centralizacji jest możliwość interweniowania, gdy leży to w najlepszym interesie użytkowników i ogólnej stabilności systemu. Chociaż prawdą jest, że emitenci stablecoinów mają możliwość zamrożenia środków. Zasadniczo we wszystkich przypadkach nie jest to wykorzystywane jako złośliwy atak na posiadacza stablecoina. Zamiast tego odbywa się to we współpracy z organami ścigania w celu ochrony konsumentów. Godnym uwagi przykładem jest przypadek upadku FTX Exchange. We współpracy z organami ścigania, Tether zamroził [46 milionów dolarów] (https://www.coindesk.com/business/2022/11/10/tether-freezes-46m-of-usdt-following-law-enforcement-request/) USDt, aby chronić fundusze konsumentów.
+Jedną z głównych zalet centralizacji jest możliwość interweniowania, gdy leży to w najlepszym interesie użytkowników i ogólnej stabilności systemu. Chociaż prawdą jest, że emitenci stablecoinów mają możliwość zamrożenia środków. Zasadniczo we wszystkich przypadkach nie jest to wykorzystywane jako złośliwy atak na posiadacza stablecoina. Zamiast tego odbywa się to we współpracy z organami ścigania w celu ochrony konsumentów. Godnym uwagi przykładem jest przypadek upadku FTX Exchange. We współpracy z organami ścigania, Tether zamroził [46 milionów dolarów](https://www.coindesk.com/business/2022/11/10/tether-freezes-46m-of-usdt-following-law-enforcement-request/) USDt, aby chronić fundusze konsumentów.
 
 
 Kolejny przykład pokazujący korzyści płynące ze scentralizowanej interwencji miał miejsce po [KuCoin hack](https://cointelegraph.com/news/tether-freezes-150-million-in-usdt) we wrześniu 2020 roku. Tether zamroził USDt o wartości około 35 milionów dolarów, aby uniemożliwić hakerom czerpanie korzyści z ich nielegalnej działalności. Przykłady te podkreślają, w jaki sposób scentralizowane stablecoiny, w pewnych scenariuszach, mogą szybko reagować na złośliwe podmioty i chronić interesy swoich użytkowników.
@@ -2328,7 +2328,7 @@ Oto tylko kilka przykładów warunków, w jakich do dziś żyją kobiety na cał
 
 2. Zależność od męskich krewnych: W wielu patriarchalnych społeczeństwach kobiety są zależne od męskich krewnych w zakresie wsparcia finansowego. Oznacza to, że nie są one w stanie samodzielnie podejmować decyzji finansowych i często są zdane na łaskę swoich męskich krewnych. Na przykład w Afganistanie kobiety często muszą polegać na męskich członkach rodziny w zakresie pomocy finansowej i mogą nie mieć dostępu do usług finansowych bez zgody męskiego opiekuna.
 
-3. Ograniczenia dotyczące zatrudnienia: W niektórych krajach kobiety nie mogą pracować poza domem, co utrudnia im osiągnięcie niezależności finansowej. Na przykład w Syrii, Iraku, Afganistanie, Algierii, Palestynie, Jordanii i Iranie kobiety stanowią jedynie [15-18%] (https://www.worldatlas.com/articles/countries-where-women-are-least-likely-to-join-the-labor-force.html) siły roboczej.
+3. Ograniczenia dotyczące zatrudnienia: W niektórych krajach kobiety nie mogą pracować poza domem, co utrudnia im osiągnięcie niezależności finansowej. Na przykład w Syrii, Iraku, Afganistanie, Algierii, Palestynie, Jordanii i Iranie kobiety stanowią jedynie [15-18%](https://www.worldatlas.com/articles/countries-where-women-are-least-likely-to-join-the-labor-force.html) siły roboczej.
 
 4. Brak praw własności: Nadal istnieje [75](https://blogs.worldbank.org/opendata/where-world-do-women-still-face-legal-barriers-own-and-administer-assets) krajów na całym świecie, w których kobiety nie mają praw własności, co oznacza, że ich zdolność do posiadania ziemi lub innych aktywów jest ograniczona. Utrudnia im to zakładanie firm lub dostęp do kredytów, ponieważ nie mają żadnego zabezpieczenia. Na przykład w niektórych częściach Indii kobiety nie mogą posiadać własności i nie mogą uzyskać dostępu do kredytu bez zgody męskiego krewnego.
 
@@ -2345,10 +2345,10 @@ Przyjrzyjmy się jednemu z przykładów tego, jak Bitcoin zmienił życie kobiet
 Afganistan to kraj od dziesięcioleci targany konfliktami, a sytuacja kobiet w tym kraju jest szczególnie tragiczna. Opresyjny reżim talibów, który rządził w latach 1996-2001, pozbawił kobiety ich podstawowych praw, w tym prawa do edukacji i prawa do pracy. Nawet po upadku talibów kobiety w Afganistanie nadal stoją przed poważnymi wyzwaniami, w tym ograniczonym dostępem do edukacji i możliwości zatrudnienia oraz brakiem niezależności finansowej.
 
 
-Jednak w ostatnich latach Bitcoin stał się potężnym narzędziem do wzmocnienia pozycji finansowej, zwłaszcza dla kobiet, które często są marginalizowane. Jedną z osób, która wykorzystała potencjał Bitcoin, jest [Roya Mahboob] (https://twitter.com/royamahboob), afgańska przedsiębiorczyni, która wykorzystała cyfrową walutę, aby pomóc kobietom w swoim kraju uzyskać dostęp do usług finansowych i odzyskać godność.
+Jednak w ostatnich latach Bitcoin stał się potężnym narzędziem do wzmocnienia pozycji finansowej, zwłaszcza dla kobiet, które często są marginalizowane. Jedną z osób, która wykorzystała potencjał Bitcoin, jest [Roya Mahboob](https://twitter.com/royamahboob), afgańska przedsiębiorczyni, która wykorzystała cyfrową walutę, aby pomóc kobietom w swoim kraju uzyskać dostęp do usług finansowych i odzyskać godność.
 
 
-Podczas gdy świat z przerażeniem patrzył, jak talibowie przejmują kontrolę nad Afganistanem w [1996 r.] (https://bitcoinmagazine.com/culture/Bitcoin-financial-freedom-in-afghanistan#:~:text=She%20and%20the%20women%20liked,privacy%20and%20peace%20of%20mind.%E2%80%9D), ta młoda dziewczyna Roya żyła w samym sercu konfliktu. W wieku zaledwie siedmiu lat znalazła się w zawirowaniach i niepewności wojny, gdy jej rodzinne miasto zostało najechane i zajęte przez talibów. Pomimo niebezpieczeństwa i przeciwności losu, z którymi musiała się zmierzyć, a także faktu, że nie mogła chodzić do szkoły, Roya nie dała się pokonać. Zamiast tego zwróciła się do edukacji jako sposobu na przezwyciężenie ograniczeń narzuconych jej przez okoliczności.
+Podczas gdy świat z przerażeniem patrzył, jak talibowie przejmują kontrolę nad Afganistanem w [1996 r.](https://bitcoinmagazine.com/culture/Bitcoin-financial-freedom-in-afghanistan#:~:text=She%20and%20the%20women%20liked,privacy%20and%20peace%20of%20mind.%E2%80%9D), ta młoda dziewczyna Roya żyła w samym sercu konfliktu. W wieku zaledwie siedmiu lat znalazła się w zawirowaniach i niepewności wojny, gdy jej rodzinne miasto zostało najechane i zajęte przez talibów. Pomimo niebezpieczeństwa i przeciwności losu, z którymi musiała się zmierzyć, a także faktu, że nie mogła chodzić do szkoły, Roya nie dała się pokonać. Zamiast tego zwróciła się do edukacji jako sposobu na przezwyciężenie ograniczeń narzuconych jej przez okoliczności.
 
 
 ![image](assets/en/005.webp)

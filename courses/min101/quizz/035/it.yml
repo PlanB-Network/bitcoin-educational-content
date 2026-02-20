@@ -1,0 +1,9 @@
+question: Da SegWit, dove viene inserito l'impegno dei testimoni (witness commitment) del blocco?
+answer: In un output della coinbase
+wrong_answers:
+  - Nel scriptSig della coinbase
+  - Nel campo versione
+  - Nelle commissioni della coinbase
+explanation: |
+  SegWit utilizza un impegno iscritto nella coinbase tramite un output OP_RETURN.
+reviewed: false

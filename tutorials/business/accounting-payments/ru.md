@@ -45,7 +45,7 @@ https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 ![image](assets/en/01.webp)
 
 
-Это один из двух способов доступа к функции "Точка продажи". Другой способ - через специальное приложение [Wallet of Satoshi PoS app] (https://www.walletofsatoshi.com/pos.)
+Это один из двух способов доступа к функции "Точка продажи". Другой способ - через специальное приложение [Wallet of Satoshi PoS app](https://www.walletofsatoshi.com/pos.)
 
 
 Преимущества использования функции Point of Sale заключаются в трех аспектах:

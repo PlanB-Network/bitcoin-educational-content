@@ -1,0 +1,9 @@
+question: 什麼是比特幣中的候選區塊？
+answer: 由礦工準備但尚未有效的區塊
+wrong_answers:
+  - 由網絡驗證但尚未共享的區塊
+  - 由錢包創建但尚未有效的區塊
+  - 存儲在 mempool 中的區塊
+explanation: |
+  每個礦工在嘗試尋找有效的算力證明之前，都會在本地組裝一個候選區塊。
+reviewed: false

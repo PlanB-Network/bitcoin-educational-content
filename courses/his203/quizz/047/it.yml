@@ -1,0 +1,10 @@
+question: Qual è stato il marketing del Litecoin, la criptovaluta creata da Charlie Lee nell'ottobre 2011?
+answer: Essere per l'argento quello che il Bitcoin è per l'oro
+wrong_answers:
+  - Creare una moneta spirituale
+  - Succederà al Bitcoin quando collasserà
+  - Finanziare il mondo del software libero
+explanation: |
+ Il Litecoin era sia più veloce (il tempo di blocco è di 2 minuti e 30 invece di 10 minuti) che meno scarso (84 milioni di unità invece di 21) del Bitcoin, da cui l'analogia con i metalli preziosi
+ metalli preziosi. È stato lo stesso Charlie Lee a includere questo confronto nella descrizione iniziale della sua criptovaluta.
+reviewed: true

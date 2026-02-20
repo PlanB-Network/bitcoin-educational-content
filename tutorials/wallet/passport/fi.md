@@ -79,7 +79,7 @@ Seuraavaksi tarkistat laitteesi. Tämä vahvistaa passisi aitouden ja varmistaa,
 
 ![Image](assets/fr/08.webp)
 
-Mene [viralliselle varmennussivustolle] (https://validate.foundationdevices.com/) ja valitse "*Passi*".
+Mene [viralliselle varmennussivustolle](https://validate.foundationdevices.com/) ja valitse "*Passi*".
 
 ![Image](assets/fr/09.webp)
 

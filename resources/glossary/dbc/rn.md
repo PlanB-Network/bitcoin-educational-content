@@ -1,5 +1,6 @@
 ---
 term: DBC
+definition: Amategeko yo kwandika amasezerano adahinduka mu vunjisha rya Bitcoin, akoreshwa mu itegeko rya RGB.
 ---
 
 Mugufi ni "Deterministic Bitcoin Commitment". Ni amategeko ashoboza Commitment kwinjira mu gucuruza Bitcoin mu buryo bugaragara kandi budasanzwe. Mu masezerano ya RGB, hari uburyo bubiri nyamukuru bwa CAD:

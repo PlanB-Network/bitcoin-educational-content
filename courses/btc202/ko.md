@@ -133,7 +133,7 @@ Bitcoin 노드를 쉽고 독립적으로 설치, 구성, 사용하는 방법을 
 
 
 
-창시자 Satoshi 나카모토가 설명한 것처럼, Bitcoin은 P2P 전자 현금 시스템입니다. 백서의 제목이기도 한 이 간단한 문장은 Bitcoin의 본질에 대한 많은 단서를 담고 있습니다:
+창시자 [Satoshi 나카모토](https://planb.academy/resources/glossary/nakamoto-satoshi)가 설명한 것처럼, Bitcoin은 [P2P](https://planb.academy/resources/glossary/peertopeer-p2p) 전자 현금 시스템입니다. [백서](https://planb.academy/resources/glossary/white-paper)의 제목이기도 한 이 간단한 문장은 Bitcoin의 본질에 대한 많은 단서를 담고 있습니다:
 
 
 
@@ -144,7 +144,7 @@ Bitcoin 노드를 쉽고 독립적으로 설치, 구성, 사용하는 방법을 
 
 
 
-Bitcoin은 시스템이기 때문에 반드시 컴퓨터에서 실행해야 합니다. 그리고 피어투피어의 특성으로 인해 이러한 컴퓨터의 실행을 책임지는 것은 사용자 자신입니다. 우리가 'Bitcoin 노드'라고 부르는 것은 바로 Bitcoin 프로토콜을 구현하는 소프트웨어(Bitcoin core과 유사하지만 나중에 다시 설명하겠습니다)가 실행되고 있는 컴퓨터입니다. 수천 명의 사용자가 소유한 수천 대의 독립적인 컴퓨터가 분산된 방식으로 검증을 수행하기 때문에 Bitcoin은 중앙 기관 없이도 작동할 수 있습니다.
+Bitcoin은 시스템이기 때문에 반드시 컴퓨터에서 실행해야 합니다. 그리고 피어투피어의 특성으로 인해 이러한 컴퓨터의 실행을 책임지는 것은 사용자 자신입니다. 우리가 'Bitcoin [노드](https://planb.academy/resources/glossary/node)'라고 부르는 것은 바로 Bitcoin 프로토콜을 구현하는 소프트웨어([Bitcoin core](https://planb.academy/resources/glossary/bitcoin-core)과 유사하지만 나중에 다시 설명하겠습니다)가 실행되고 있는 컴퓨터입니다. 수천 명의 사용자가 소유한 수천 대의 독립적인 컴퓨터가 [분산된 방식](https://planb.academy/resources/glossary/distributed)으로 검증을 수행하기 때문에 Bitcoin은 중앙 기관 없이도 작동할 수 있습니다.
 
 
 
@@ -156,7 +156,7 @@ Nakamoto, S. (2008). *Bitcoin: 피어투피어 전자 현금 시스템*. https:/
 
 
 
-Bitcoin의 보안을 보장하는 것은 바로 이러한 사용자들입니다. 에릭 보스퀼이 그의 저서 *암호경제학*에서 설명했듯이, Bitcoin의 보안은 Blockchain이나 해싱 파워, 검증, 탈중앙화, 암호화, 오픈 소스, 게임 이론에 의존하지 않습니다. Bitcoin의 보안은 주로 개인적 위험에 기꺼이 자신을 노출하려는 개인에게 달려 있습니다. 탈중앙화를 통해 이러한 위험을 다수의 개인에게 분산시킬 수 있으며, 이들의 저항 능력만이 시스템의 견고함을 보장합니다.
+Bitcoin의 보안을 보장하는 것은 바로 이러한 사용자들입니다. 에릭 보스퀼이 그의 저서 *암호경제학*에서 설명했듯이, Bitcoin의 보안은 [Blockchain](https://planb.academy/resources/glossary/blockchain)이나 [해싱 파워](https://planb.academy/resources/glossary/hashrate), 검증, 탈중앙화, [암호화](https://planb.academy/resources/glossary/cryptography), [오픈 소스](https://planb.academy/resources/glossary/foss), 게임 이론에 의존하지 않습니다. Bitcoin의 보안은 주로 개인적 위험에 기꺼이 자신을 노출하려는 개인에게 달려 있습니다. 탈중앙화를 통해 이러한 위험을 다수의 개인에게 분산시킬 수 있으며, 이들의 저항 능력만이 시스템의 견고함을 보장합니다.
 
 
 
@@ -175,7 +175,7 @@ Bitcoin의 보안을 보장하는 것은 바로 이러한 사용자들입니다.
 
 - Bitcoin 통화: 이 시스템 내에서 거래에 사용되는 계정 단위입니다;
 - Bitcoin 네트워크: 연결된 모든 노드의 집합입니다;
-- Bitcoin 노드: Bitcoin 구현을 실행하는 머신;
+- Bitcoin 노드: [Bitcoin 구현](https://planb.academy/resources/glossary/bitcoin-implementation)을 실행하는 머신;
 - Bitcoin 구현: 프로토콜을 실행 가능한 명령어로 변환하는 소프트웨어입니다;
 - Bitcoin 프로토콜: 시스템 운영을 관리하는 일련의 규칙입니다;
 - Bitcoin 시스템: 이 모든 Elements의 일관된 조합입니다.
@@ -190,7 +190,7 @@ Bitcoin 노드는 함께 Bitcoin 네트워크라고 알려진 것을 형성합�
 
 
 
-처음부터 Bitcoin은 각 사용자가 개인 노드를 운영할 수 있도록 설계되었습니다. 이 사례는 Wallet와 노드의 역할을 결합한 오늘날의 Bitcoin core 소프트웨어에서도 여전히 유효합니다. 하지만 오늘날에는 이 기능이 분리된 경우가 많습니다. 많은 최신 Bitcoin 지갑은 외부 노드(동일인이 소유하든 아니든)에 연결되는 지갑일 뿐입니다.
+처음부터 Bitcoin은 각 사용자가 개인 노드를 운영할 수 있도록 설계되었습니다. 이 사례는 [Wallet](https://planb.academy/resources/glossary/wallet)와 노드의 역할을 결합한 오늘날의 Bitcoin core 소프트웨어에서도 여전히 유효합니다. 하지만 오늘날에는 이 기능이 분리된 경우가 많습니다. 많은 최신 Bitcoin 지갑은 외부 노드(동일인이 소유하든 아니든)에 연결되는 지갑일 뿐입니다.
 
 
 
@@ -198,7 +198,7 @@ Bitcoin 노드는 함께 Bitcoin 네트워크라고 알려진 것을 형성합�
 
 
 
-노드의 첫 번째 임무는 Blockchain의 로컬 복사본을 유지하는 것입니다. 중앙 기관의 개입 없이 Bitcoin에서 Double-spending을 방지하려면 각 사용자가 시스템에 트랜잭션이 없는지 확인해야 합니다. 이를 확인할 수 있는 유일한 방법은 Bitcoin에서 이루어진 모든 트랜잭션을 아는 것입니다. 이러한 이유로 모든 트랜잭션은 타임스탬프가 찍히고 블록으로 그룹화되며, 각 노드는 전체 Blockchain을 저장합니다.
+노드의 첫 번째 임무는 Blockchain의 로컬 복사본을 유지하는 것입니다. 중앙 기관의 개입 없이 Bitcoin에서 [Double-spending](https://planb.academy/resources/glossary/double-spending-attack)을 방지하려면 각 사용자가 시스템에 [트랜잭션](https://planb.academy/resources/glossary/transaction-tx)이 없는지 [확인](https://planb.academy/resources/glossary/confirmation)해야 합니다. 이를 확인할 수 있는 유일한 방법은 Bitcoin에서 이루어진 모든 트랜잭션을 아는 것입니다. 이러한 이유로 모든 트랜잭션은 [타임스탬프](https://planb.academy/resources/glossary/timestamp)가 찍히고 [블록](https://planb.academy/resources/glossary/block)으로 그룹화되며, 각 노드는 전체 Blockchain을 저장합니다.
 
 
 
@@ -208,7 +208,7 @@ Nakamoto, S. (2008). *Bitcoin: 피어투피어 전자 현금 시스템*. https:/
 
 
 
-따라서 Blockchain은 진화하는 레지스터이며, Miner에 의해 새로운 블록이 게시될 때마다 노드는 해당 블록의 유효성을 확인한 후 자체 로컬 체인 사본에 추가합니다. 현재(2025년 7월) 전체 Blockchain은 675GB를 초과하며, 평균 10분마다 새로운 블록이 추가됨에 따라 이 크기는 계속 증가하고 있습니다.
+따라서 Blockchain은 진화하는 레지스터이며, [Miner](https://planb.academy/resources/glossary/miner)에 의해 새로운 블록이 게시될 때마다 노드는 해당 블록의 유효성을 확인한 후 자체 로컬 체인 사본에 추가합니다. 현재(2025년 7월) 전체 Blockchain은 675GB를 초과하며, 평균 10분마다 새로운 블록이 추가됨에 따라 이 크기는 계속 증가하고 있습니다.
 
 
 
@@ -216,7 +216,7 @@ Nakamoto, S. (2008). *Bitcoin: 피어투피어 전자 현금 시스템*. https:/
 
 
 
-또한 노드는 **UTXO 세트**라고 하는 특정 시점에 존재하는 모든 UTXO에 대한 로컬 기록을 유지합니다. 이 데이터베이스에는 사용되지 않은 모든 Bitcoin 조각이 포함되어 있습니다. 이 주제는 강좌의 마지막 부분에서 자세히 다시 살펴보겠습니다.
+또한 노드는 **[UTXO 세트](https://planb.academy/resources/glossary/utxo-set)**라고 하는 특정 시점에 존재하는 모든 [UTXO](https://planb.academy/resources/glossary/utxo)에 대한 로컬 기록을 유지합니다. 이 데이터베이스에는 사용되지 않은 모든 Bitcoin 조각이 포함되어 있습니다. 이 주제는 강좌의 마지막 부분에서 자세히 다시 살펴보겠습니다.
 
 
 
@@ -224,14 +224,14 @@ Nakamoto, S. (2008). *Bitcoin: 피어투피어 전자 현금 시스템*. https:/
 
 
 
-노드의 두 번째 역할은 트랜잭션의 검증과 전파를 보장하는 것입니다. 새 트랜잭션이 노드에 도달하면(Wallet 소프트웨어 또는 다른 노드를 통해) 노드는 일련의 규칙(합의 규칙 및 릴레이 규칙)을 준수하는지 확인합니다. 예를 들어
+노드의 두 번째 역할은 트랜잭션의 검증과 [전파](https://planb.academy/resources/glossary/diffusion)를 보장하는 것입니다. 새 트랜잭션이 노드에 도달하면(Wallet 소프트웨어 또는 다른 노드를 통해) 노드는 일련의 규칙([합의 규칙](https://planb.academy/resources/glossary/consensus-rules) 및 [릴레이 규칙](https://planb.academy/resources/glossary/relay))을 준수하는지 확인합니다. 예를 들어
 
 
 
 
 - 사용한 비트코인은 UTXO 세트(미사용 결과물 데이터베이스)에 존재해야 합니다;
-- 서명이 유효해야 하며 모든 지출 조건이 충족되어야 합니다(유효한 스크립트);
-- 출력의 총량이 입력의 총량을 초과해서는 안 되며, 이는 비용이 음수가 될 수 없음을 의미합니다.
+- [서명](https://planb.academy/resources/glossary/digital-signature)이 유효해야 하며 모든 지출 조건이 충족되어야 합니다(유효한 [스크립트](https://planb.academy/resources/glossary/script));
+- [출력](https://planb.academy/resources/glossary/output)의 총량이 [입력](https://planb.academy/resources/glossary/input)의 총량을 초과해서는 안 되며, 이는 [비용](https://planb.academy/resources/glossary/transaction-fees)이 음수가 될 수 없음을 의미합니다.
 
 
 
@@ -239,7 +239,7 @@ Nakamoto, S. (2008). *Bitcoin: 피어투피어 전자 현금 시스템*. https:/
 
 
 
-유효성 검사 후 트랜잭션은 노드의 Mempool, 즉 미확인 트랜잭션을 위해 예약된 임시 메모리 공간에 저장된 다음 연결된 다른 네트워크 피어로 전달됩니다. 이러한 배포 및 검증 메커니즘은 노드에서 노드로 계속 이어집니다. 이러한 방식으로 트랜잭션은 Bitcoin 네트워크를 통해 전파되고, 각 노드는 Miner에 의해 유효한 블록에 포함될 때까지 Mempool에 저장한 다음 첫 번째 확인 작업을 수행합니다.
+유효성 검사 후 트랜잭션은 노드의 [Mempool](https://planb.academy/resources/glossary/mempool), 즉 미확인 트랜잭션을 위해 예약된 임시 메모리 공간에 저장된 다음 연결된 다른 네트워크 피어로 전달됩니다. 이러한 배포 및 검증 메커니즘은 노드에서 노드로 계속 이어집니다. 이러한 방식으로 트랜잭션은 Bitcoin 네트워크를 통해 전파되고, 각 노드는 Miner에 의해 유효한 블록에 포함될 때까지 Mempool에 저장한 다음 첫 번째 확인 작업을 수행합니다.
 
 
 
@@ -247,7 +247,7 @@ Nakamoto, S. (2008). *Bitcoin: 피어투피어 전자 현금 시스템*. https:/
 
 
 
-노드의 세 번째 역할은 채굴된 블록을 관리하는 것입니다. Miner가 유효한 Proof of Work를 가진 새 블록을 발견하면 네트워크에 브로드캐스트됩니다. 노드는 이를 수신하고 모든 프로토콜 규칙을 준수하는지 확인한 다음, 유효한 경우 자신의 로컬 Blockchain 사본에 통합합니다. 트랜잭션과 마찬가지로 새로 유효성이 검증된 블록은 노드에 연결된 모든 피어에게 전달됩니다. 이 과정은 Bitcoin 네트워크의 모든 노드가 새 블록을 인식할 때까지 계속됩니다.
+노드의 세 번째 역할은 채굴된 블록을 관리하는 것입니다. Miner가 유효한 [Proof of Work](https://planb.academy/resources/glossary/proof-of-work)를 가진 새 블록을 발견하면 네트워크에 브로드캐스트됩니다. 노드는 이를 수신하고 모든 프로토콜 규칙을 준수하는지 확인한 다음, 유효한 경우 자신의 로컬 Blockchain 사본에 통합합니다. 트랜잭션과 마찬가지로 새로 유효성이 검증된 블록은 노드에 연결된 모든 피어에게 전달됩니다. 이 과정은 Bitcoin 네트워크의 모든 노드가 새 블록을 인식할 때까지 계속됩니다.
 
 
 
@@ -304,7 +304,7 @@ Full node와 Wallet의 역할을 동시에 하는 Bitcoin core의 경우처럼 �
 
 
 
-그러나 Bitcoin이 점차 대중화되고 채굴자 수가 증가함에 따라 Mining의 경쟁 환경은 급격한 변화를 겪었습니다. 오늘날 Mining는 전문 인프라를 갖춘 업계 플레이어들이 주도하는 극도로 경쟁적인 활동이 되었습니다. 이제 새로운 블록을 채굴하는 데 필요한 파워가 너무 커져서 개인 사용자가 기존 컴퓨터만으로는 이를 달성하는 것이 사실상 불가능합니다. 그 결과, Mining는 주로 ASIC(*응용 프로그램별 집적 회로*)라는 특수 기계를 사용하여 수행됩니다. 이 칩은 Mining에 사용되는 알고리즘인 이중 SHA-256을 Bitcoin에서 실행하는 데만 최적화되어 있습니다.
+그러나 Bitcoin이 점차 대중화되고 채굴자 수가 증가함에 따라 Mining의 경쟁 환경은 급격한 변화를 겪었습니다. 오늘날 Mining는 전문 인프라를 갖춘 업계 플레이어들이 주도하는 극도로 경쟁적인 활동이 되었습니다. 이제 새로운 블록을 채굴하는 데 필요한 파워가 너무 커져서 개인 사용자가 기존 컴퓨터만으로는 이를 달성하는 것이 사실상 불가능합니다. 그 결과, Mining는 주로 [ASIC](https://planb.academy/resources/glossary/asic)(*응용 프로그램별 집적 회로*)라는 특수 기계를 사용하여 수행됩니다. 이 칩은 Mining에 사용되는 알고리즘인 이중 [SHA-256](https://planb.academy/resources/glossary/sha256)을 Bitcoin에서 실행하는 데만 최적화되어 있습니다.
 
 
 
@@ -328,7 +328,7 @@ Miner이 네트워크와 상호 작용하려면 Bitcoin 노드가 필요합니�
 
 
 
-Miner의 역할은 때때로 초퍼의 역할과 구분되기도 합니다. 채굴기는 풀 서버에서 제공하는 블록을 Hash 템플릿화하여 공유에 대해 정의된 난이도 목표를 충족하는 해시를 찾는 역할을 하는 기계로, Bitcoin의 역할은 하지 않습니다. 실제 블록 구성, 트랜잭션 선택, Bitcoin의 자체 난이도에 따른 Proof-of-Work 검색, 분배 등 나머지 Mining 프로세스는 풀에서 직접 수행합니다.
+Miner의 역할은 때때로 grind의 역할과 구분되기도 합니다. grind는 [풀](https://planb.academy/resources/glossary/pool-mining) 서버에서 제공하는 블록을 Hash 템플릿화하여 공유에 대해 정의된 난이도 목표를 충족하는 해시를 찾는 역할을 하는 기계로, Bitcoin의 역할은 하지 않습니다. 실제 블록 구성, 트랜잭션 선택, Bitcoin의 자체 난이도에 따른 Proof-of-Work 검색, 분배 등 나머지 Mining 프로세스는 풀에서 직접 수행합니다.
 
 
 
@@ -722,7 +722,7 @@ Full node는 시스템의 모든 정보를 검증하고 알고 있기 때문에 
 
 
 
-실제로 Full node에는 블록 파일을 위한 수백 기가바이트, 스크립트를 검증할 수 있는 프로세서, Mempool 및 캐시를 위한 RAM, 안정적인 대역폭 등 적지 않은 리소스가 필요합니다. 첫 번째 동기화(*IBD*)는 전체 기록을 읽고 확인하는 작업으로, 집약적이지만 단 한 번만 수행됩니다. Full node는 네트워크에 적극적으로 참여하여 블록과 트랜잭션을 중계하고 다른 피어를 지원하기 위해 들어오는 연결을 수락할 수 있습니다.
+실제로 Full node에는 블록 파일을 위한 수백 기가바이트, 스크립트를 검증할 수 있는 프로세서, Mempool 및 캐시를 위한 RAM, 안정적인 대역폭 등 적지 않은 리소스가 필요합니다. 첫 번째 동기화(*[IBD](https://planb.academy/resources/glossary/initial-block-download-ibd)*)는 전체 기록을 읽고 확인하는 작업으로, 집약적이지만 단 한 번만 수행됩니다. Full node는 네트워크에 적극적으로 참여하여 블록과 트랜잭션을 중계하고 다른 피어를 지원하기 위해 들어오는 연결을 수락할 수 있습니다.
 
 
 
@@ -758,7 +758,7 @@ pruned 노드는 Genesis 블록부터 가장 많은 작업을 수행한 체인 �
 
 
 
-SPV(*간단결제 검증*) 노드 또는 라이트웨이트 노드는 거래 내역이 아닌 블록 헤더만 보유하며, 헤더가 있는 블록에 거래가 있다는 증거(트리를 통한 머클 증명)를 얻기 위해 다른 풀 노드에 의존합니다. 간소화된 결제 확인이라는 개념은 나카모토 Satoshi가 백서 8장에서 직접 제안한 것으로, 새로운 개념은 아닙니다.
+[SPV](https://planb.academy/resources/glossary/spv-node-light-node)(*간단결제 검증*) 노드 또는 라이트웨이트 노드는 거래 내역이 아닌 블록 헤더만 보유하며, 헤더가 있는 블록에 거래가 있다는 증거(트리를 통한 머클 증명)를 얻기 위해 다른 풀 노드에 의존합니다. 간소화된 결제 확인이라는 개념은 나카모토 Satoshi가 백서 8장에서 직접 제안한 것으로, 새로운 개념은 아닙니다.
 
 
 
@@ -853,7 +853,7 @@ Bitcoin를 완전히 독립적으로 사용하고 나중에 인덱서, 라이트
 
 
 
-[Bitcoin core은 네트워크의 초다수 클라이언트입니다](https://bitcoincore.org/). Blockchain을 다운로드, 검증 및 유지 관리하고, RPC/REST API를 제공하며, Wallet을 통합할 수 있습니다. 표준 도구를 선호하고 Electrum 서버, 탐색기, LND와 같은 서비스를 직접 추가하는 것이 편하다면 Core를 그대로 사용하는 것이 좋습니다.
+[Bitcoin core은 네트워크의 초다수 클라이언트입니다](https://bitcoincore.org/). Blockchain을 다운로드, 검증 및 유지 관리하고, [RPC](https://planb.academy/resources/glossary/rpc-remote-procedure-call)/REST API를 제공하며, Wallet을 통합할 수 있습니다. 표준 도구를 선호하고 Electrum 서버, 탐색기, LND와 같은 서비스를 직접 추가하는 것이 편하다면 Core를 그대로 사용하는 것이 좋습니다.
 
 
 
@@ -1928,7 +1928,7 @@ https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb
     - 컴퓨터를 업데이트, 재시작 또는 중지하세요;
     - 사용 가능한 저장 공간, RAM 사용량 및 프로세서 온도를 참조하세요;
     - 배경화면 변경하기;
-    - Tor를 통해 원격 액세스를 관리하고, Wi-Fi 또는 2FA를 활성화하세요.
+    - [Tor](https://planb.academy/resources/glossary/tor)를 통해 원격 액세스를 관리하고, Wi-Fi 또는 2FA를 활성화하세요.
 
 
 
@@ -2168,7 +2168,7 @@ Bitcoin core에는 과거 작업의 흔적인 선택적 트랜잭션 인덱서(`
 
 
 
-반면에 Mempool.Locally 실행과 같은 고급 소프트웨어를 사용하려면 공간 Block explorer에 Address 인덱서 설치가 필수적입니다.
+반면에 mempool.space 블록 탐색기를 로컬에서 실행하는 것과 같은 고급 소프트웨어를 사용하려면 주소 인덱서 설치가 필수적입니다.
 
 
 
@@ -2514,9 +2514,11 @@ https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-
 
 
 
-엄브렐 덕분에 개인 라이트닝 노드 관리가 크게 간소화되었지만, 여전히 비교적 복잡합니다. 이러한 이유로 향후 이 사용법에 대한 강좌에서 이 주제에 대해 자세히 살펴보도록 하겠습니다.
+Umbrel 덕분에 개인 Lightning 노드의 관리는 간소화되었지만, 여전히 비교적 복잡합니다. 따라서 BTC 202 과정의 논리적 연속인 LNP 202 과정을 수강하시기를 권장하며, 이 과정에서 Umbrel에서 Lightning 노드를 설정하고 관리하는 방법을 단계별로 안내해 드립니다.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### 테일 스케일
 
@@ -2797,7 +2799,7 @@ IBD는 합의 규칙을 적용하여 각 블록과 트랜잭션을 개별적으�
 
 
 
-동기화는 _**헤더 우선**_ 단계로 시작됩니다. 노드는 여러 피어에게 블록 헤더의 순서를 요청하고, 각 헤더에 대해 Proof of Work, 난이도 조정, 구문, Timestamp 및 버전 번호 규칙을 확인합니다. 간단히 말해, 노드는 수신된 각 헤더가 합의 규칙을 준수하는지 확인합니다.
+동기화는 _**헤더 우선**_ 단계로 시작됩니다. 노드는 여러 피어에게 블록 헤더의 순서를 요청하고, 각 헤더에 대해 Proof of Work, [난이도 조정](https://planb.academy/resources/glossary/difficulty-adjustment), 구문, Timestamp 및 버전 번호 규칙을 확인합니다. 간단히 말해, 노드는 수신된 각 헤더가 합의 규칙을 준수하는지 확인합니다.
 
 
 
@@ -2823,7 +2825,7 @@ IBD는 합의 규칙을 적용하여 각 블록과 트랜잭션을 개별적으�
 
 
 
-트랜잭션은 Merkle Tree에 커밋됩니다. 이는 대규모 데이터 세트(이 경우 블록의 모든 트랜잭션)를 하나의 '루트'까지 점진적으로 두 개씩 해시를 합산하여 요약하는 구조로, 요소가 세트에 속해 있음을 증명하고 수정 사항을 감지합니다(모든 수정 사항 감지). 이러한 방식으로 트랜잭션이 수정되면 Merkle Tree의 루트도 수정되므로 블록 헤더의 핑거프린트도 수정됩니다. SegWit은 쿠키(서명)를 위한 별도의 추가 Commitment을 도입하여 코인베이스에 배치했습니다.
+트랜잭션은 Merkle Tree에 커밋됩니다. 이는 대규모 데이터 세트(이 경우 블록의 모든 트랜잭션)를 하나의 '루트'까지 점진적으로 두 개씩 해시를 합산하여 요약하는 구조로, 요소가 세트에 속해 있음을 증명하고 수정 사항을 감지합니다(모든 수정 사항 감지). 이러한 방식으로 트랜잭션이 수정되면 Merkle Tree의 루트도 수정되므로 블록 헤더의 핑거프린트도 수정됩니다. [SegWit](https://planb.academy/resources/glossary/segwit)은 쿠키(서명)를 위한 별도의 추가 Commitment을 도입하여 코인베이스에 배치했습니다.
 
 
 
@@ -2847,7 +2849,7 @@ IBD가 완료되면 노드는 새로운 블록이 게시될 때 유효성을 검
 
 
 
-Bitcoin core는 자율 검증 원칙의 본질을 유지하면서 노드가 완전히 작동하기까지 필요한 시간을 줄이기 위해 설계된 메커니즘을 통합합니다: AssumeValid.
+Bitcoin core는 자율 검증 원칙의 본질을 유지하면서 노드가 완전히 작동하기까지 필요한 시간을 줄이기 위해 설계된 메커니즘을 통합합니다: [AssumeValid](https://planb.academy/resources/glossary/assume-valid).
 
 
 
@@ -2867,7 +2869,7 @@ Bitcoin core는 자율 검증 원칙의 본질을 유지하면서 노드가 완�
 
 
 
-assumeutxo`는 또 다른 기존 매개변수이지만 `assumevalid`와 달리 기본적으로 활성화되지 않습니다. 이 메커니즘을 통해 소프트웨어는 메타데이터와 함께 UTXO 세트의 스냅샷을 로드하고 헤더가 실제로 가장 많은 작업을 하는 Blockchain으로 연결되는지 확인한 후 이를 참조 상태로 잠정적으로 간주할 수 있습니다.
+[assumeutxo](https://planb.academy/resources/glossary/assume-utxo)`는 또 다른 기존 매개변수이지만 `assumevalid`와 달리 기본적으로 활성화되지 않습니다. 이 메커니즘을 통해 소프트웨어는 메타데이터와 함께 UTXO 세트의 스냅샷을 로드하고 헤더가 실제로 가장 많은 작업을 하는 Blockchain으로 연결되는지 확인한 후 이를 참조 상태로 잠정적으로 간주할 수 있습니다.
 
 
 
@@ -3007,7 +3009,7 @@ pruned 모드에서 노드는 디스크 공간을 제한하기 위해 이러한 
 
 
 
-플랫 파일에서 직접 블록을 검색하는 것은 너무 많은 시간이 소요됩니다. 따라서 Core는 알려진 각 블록에 대해 Hash, 높이, 유효성 검사 상태, `blk` 파일, 위치 오프셋 등의 메타데이터를 나열하는 LevelDB 데이터베이스를 `blocks/index/`에 유지 관리합니다. 피어가 블록을 요청하거나 내부 구성 요소가 특정 블록에 액세스해야 할 때 이 인덱스는 빠른 액세스를 제공합니다. 이 인덱스가 없으면 너무 많은 작업이 필요합니다.
+플랫 파일에서 직접 블록을 검색하는 것은 너무 많은 시간이 소요됩니다. 따라서 Core는 알려진 각 블록에 대해 Hash, 높이, 유효성 검사 상태, `blk` 파일, 위치 오프셋 등의 메타데이터를 나열하는 [LevelDB](https://planb.academy/resources/glossary/leveldb) 데이터베이스를 `blocks/index/`에 유지 관리합니다. 피어가 블록을 요청하거나 내부 구성 요소가 특정 블록에 액세스해야 할 때 이 인덱스는 빠른 액세스를 제공합니다. 이 인덱스가 없으면 너무 많은 작업이 필요합니다.
 
 
 
@@ -3049,7 +3051,7 @@ UTXO(*미사용 거래 출력*) 모델은 Bitcoin을 회계적으로 표현한 �
 
 
 
-UTXO 세트는 `chainstate/` 폴더에 컴팩트한 LevelDB 데이터베이스로 저장됩니다. 각 부분은 트랜잭션의 Hash에서 파생된 키와 출력 인덱스를 금액, `scriptPubKey` 잠금, 생성 블록의 높이, 코인베이스 표시기를 포함하는 값과 연결합니다.
+UTXO 세트는 `chainstate/` 폴더에 컴팩트한 LevelDB 데이터베이스로 저장됩니다. 각 부분은 트랜잭션의 Hash에서 파생된 키와 출력 인덱스를 금액, `scriptPubKey` 잠금, 생성 블록의 높이, [코인베이스](https://planb.academy/resources/glossary/coinbase-transaction) 표시기를 포함하는 값과 연결합니다.
 
 
 
@@ -3073,13 +3075,13 @@ UTXO 세트는 자연스럽게 크기가 급격히 증가하기 때문에 Bitcoi
 
 
 
-UTXO 세트의 성장은 Bitcoin의 간편결제 거래 구조에서도 기인합니다. 실제로 결제를 하면 하나의 UTXO를 입력으로 소비하고 2개의 새로운 UTXO를 출력으로 생성합니다(하나는 결제용, 다른 하나는 Exchange용). 마지막으로, CIOH(*공통 입력 Ownership 휴리스틱*)라고 하는 체인 분석 휴리스틱은 Coin 통합을 피할 수 있는 추가적인 인센티브를 제공합니다.
+UTXO 세트의 성장은 Bitcoin의 간편결제 거래 구조에서도 기인합니다. 실제로 결제를 하면 하나의 UTXO를 입력으로 소비하고 2개의 새로운 UTXO를 출력으로 생성합니다(하나는 결제용, 다른 하나는 Exchange용). 마지막으로, [CIOH](https://planb.academy/resources/glossary/cioh)(*공통 입력 Ownership 휴리스틱*)라고 하는 체인 분석 휴리스틱은 Coin 통합을 피할 수 있는 추가적인 인센티브를 제공합니다.
 
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-합리적인 시간 내에 트랜잭션을 확인하기 위해 그 일부를 RAM에 보관해야 하므로, UTXO 세트는 점차 Full node의 작동 비용이 너무 높아질 수 있습니다. 이 문제를 해결하기 위한 몇 가지 제안이 이미 존재하며, 특히 [Utreexo](https://planb.academy/resources/glossary/utreexo)가 대표적입니다.
+합리적인 시간 내에 트랜잭션을 확인하기 위해 그 일부를 RAM에 보관해야 하므로, UTXO 세트는 점차 Full node의 작동 비용이 너무 높아질 수 있습니다. 이 문제를 해결하기 위한 몇 가지 제안이 이미 존재하며, 특히 Utreexo가 대표적입니다.
 
 
 
@@ -3106,7 +3108,7 @@ Mempool은 수신되었지만 아직 확인되지 않은 유효한 트랜잭션�
 
 
 
-트랜잭션이 수신되면 코어는 합의 규칙(구문, 유효한 스크립트, 이중 지출 금지 등)과 로컬 정책인 Mempool 규칙(RBF, 최소 청구 임계값, `OP_RETURN`의 데이터 제한 등)에 대해 일련의 확인을 적용합니다. 트랜잭션이 이러한 규칙을 준수하면 메모리에 저장됩니다.
+트랜잭션이 수신되면 코어는 합의 규칙(구문, 유효한 스크립트, 이중 지출 금지 등)과 로컬 정책인 Mempool 규칙([RBF](https://planb.academy/resources/glossary/rbf-replacebyfee), 최소 청구 임계값, `OP_RETURN`의 데이터 제한 등)에 대해 일련의 확인을 적용합니다. 트랜잭션이 이러한 규칙을 준수하면 메모리에 저장됩니다.
 
 
 
@@ -3490,7 +3492,7 @@ DNS 확인을 피하려면 설정에 `dnsseed=0` 및 `dns=0`을 추가하면 됩
 
 
 
-- `peerbloomfilters=1` : 블룸 필터(BIP37) 지원을 활성화하여 경량 클라이언트에 필터링된 블록/트랜잭션을 제공합니다(기본값: `0`). 주의, 이는 리소스 부하를 증가시킵니다.
+- `peerbloomfilters=1` : [블룸 필터](https://planb.academy/resources/glossary/bloom-filter)(BIP37) 지원을 활성화하여 경량 클라이언트에 필터링된 블록/트랜잭션을 제공합니다(기본값: `0`). 주의, 이는 리소스 부하를 증가시킵니다.
 
 
 
@@ -3894,11 +3896,13 @@ DNS 확인을 피하려면 설정에 `dnsseed=0` 및 `dns=0`을 추가하면 됩
 
 
 
-이제 몇 가지 옵션이 열려 있습니다. 다음 논리적 단계는 자체적인 라이트닝 노드를 설정하여 off-chain 트랜잭션에 대해 완전히 독립적으로 운영할 수 있도록 하는 것입니다. 이는 2025년 가을에 Plan ₿ Network에 게시될 예정인 강좌의 주제가 될 것입니다.
+이제 여러 가지 선택지가 여러분 앞에 놓여 있습니다. 다음으로 논리적인 단계는 오프체인 거래에서 완전한 독립성을 확보하기 위해 자신의 Lightning 노드를 구축하는 것입니다. 이것이 바로 Plan ₿ Academy의 또 다른 강의 주제입니다:
 
 
 
-그동안 Bitcoin 사용 시 개인정보 보호 원칙을 이해하고 숙달할 수 있는 BTC 204 교육에 참여해 보시기 바랍니다:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+또한 비트코인 사용에 있어 개인정보 보호의 원칙을 이해하고 숙달할 수 있도록 해주는 BTC 204 교육 과정을 살펴보시기를 권합니다:
 
 
 

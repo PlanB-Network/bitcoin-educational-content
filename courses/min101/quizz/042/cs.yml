@@ -1,0 +1,9 @@
+question: Co znamená zkratka ASIC?
+answer: Application-Specific Integrated Circuits
+wrong_answers:
+  - Advanced Secure Integrated Circuit
+  - Automated Silicon Integrated Circuit
+  - Application-Shared Integrated Circuit
+explanation: |
+  ASIC je čip navržený pro jediný úkol. Jde tedy o Application-Specific Integrated Circuits (integrovaný obvod specifický pro aplikaci).
+reviewed: false

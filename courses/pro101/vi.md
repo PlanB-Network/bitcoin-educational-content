@@ -11,7 +11,7 @@ objectives:
 
 Cần gì để xây dựng trên Bitcoin? Khóa học 20 giờ này đưa bạn đi sâu vào bề mặt của Bitcoin và Mạng Lightning, khám phá các giao thức cung cấp sức mạnh cho cơ sở hạ tầng tài chính kiên cường nhất thế giới. Cho dù bạn đang tìm cách đóng góp cho các dự án mã nguồn mở hay xây dựng thế hệ ứng dụng Bitcoin tiếp theo, bạn sẽ có được chiều sâu kỹ thuật cần thiết để bắt đầu làm việc một cách tự tin trong hệ sinh thái này.
 
-Được ghi hình trong bootcamp CUBO+ 2023 tại El Salvador, khóa học này tập hợp các quan điểm từ các nhà phát triển và giáo viên Bitcoin hàng đầu đã định hình nên công nghệ. Phần tuyệt vời nhất? Nó hoàn toàn miễn phí, được thực hiện nhờ Fulgure Venture, Bitcoin Office và DecouvreBitcoin. Nếu bạn tò mò về cách Bitcoin thực sự hoạt động ở cấp độ giao thức, đây là cơ hội để bạn tìm hiểu.
+Được ghi hình trong bootcamp CUBO+ 2023 tại El Salvador, khóa học này tập hợp các quan điểm từ các nhà phát triển và giáo viên Bitcoin hàng đầu đã định hình nên công nghệ. Phần tuyệt vời nhất? Nó hoàn toàn miễn phí, được thực hiện nhờ Fulgure Ventures, Bitcoin Office và DecouvreBitcoin. Nếu bạn tò mò về cách Bitcoin thực sự hoạt động ở cấp độ giao thức, đây là cơ hội để bạn tìm hiểu.
 +++
 # Khóa học giới thiệu và dự bị
 
@@ -59,7 +59,7 @@ Trong suốt khóa học, học viên sẽ được tận dụng các công cụ
 
 :::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
-Chào mừng bạn đến với bài giảng đầu tiên của chương trình giáo dục **Cubo Plus**. Hôm nay, chúng ta sẽ khám phá thế giới của Bitcoin, do Ricky, người sáng lập **Bitcoin Italia Podcast** dẫn dắt. Ricky là một nhà hoạt động nhân quyền nhiệt thành, người sử dụng Bitcoin như một công cụ để bảo vệ và thúc đẩy nhân quyền. Với hơn sáu năm kinh nghiệm, Ricky đã đi khắp nơi, ghi lại quá trình áp dụng Bitcoin tại các thị trường mới nổi như El Salvador và Guatemala. Công việc của anh không chỉ dừng lại ở podcasting; anh còn hoạt động trên YouTube (**Bitcoin Explorers**) và Twitter (**BTC Explorer**, **Ricky6**). Từ Commitment đến Bitcoin của Ricky bắt nguồn từ niềm tin của anh rằng nó mang lại sự tự do tài chính và quyền riêng tư, thách thức các hệ thống ngân hàng tập trung truyền thống.
+Chào mừng bạn đến với bài giảng đầu tiên của chương trình giáo dục **Cubo Plus**. Hôm nay, chúng ta sẽ khám phá thế giới của Bitcoin, do Rikki, người sáng lập **Bitcoin Italia Podcast** dẫn dắt. Rikki là một nhà hoạt động nhân quyền nhiệt thành, người sử dụng Bitcoin như một công cụ để bảo vệ và thúc đẩy nhân quyền. Với hơn sáu năm kinh nghiệm, Rikki đã đi khắp nơi, ghi lại quá trình áp dụng Bitcoin tại các thị trường mới nổi như El Salvador và Guatemala. Công việc của anh không chỉ dừng lại ở podcasting; anh còn hoạt động trên YouTube (**Bitcoin Explorers**) và Twitter (**BTC Explorer**, **Rikki6**). Từ Commitment đến Bitcoin của Rikki bắt nguồn từ niềm tin của anh rằng nó mang lại sự tự do tài chính và quyền riêng tư, thách thức các hệ thống ngân hàng tập trung truyền thống.
 
 
 ![Unbanked Population](assets/en/001.webp)
@@ -70,30 +70,30 @@ _Dân số toàn cầu không có tài khoản ngân hàng_
 ### Bitcoin: tự do tài chính và tác động của nó đến El Salvador
 
 
-Bài giảng này, **"Tại sao El Salvador cần Bitcoin,"** cung cấp tổng quan về **giao thức Bitcoin**, nguồn gốc của giao thức này trong **phong trào Cypherpunk** và vai trò của giao thức này như một công cụ cho tự do—cho phép **tiền tệ không bị kiểm duyệt**, **hòa nhập tài chính** và nhiều hơn nữa.
+Bài giảng này, **"Tại sao El Salvador cần Bitcoin,"** cung cấp tổng quan về **giao thức Bitcoin**, nguồn gốc của giao thức này trong **phong trào [Cypherpunk](https://planb.academy/resources/glossary/cypherpunks)** và vai trò của giao thức này như một công cụ cho tự do—cho phép **tiền tệ không bị kiểm duyệt**, **hòa nhập tài chính** và nhiều hơn nữa.
 
 
 **Định nghĩa:**
 
 
 - _Giao thức Bitcoin:_ Các quy tắc và cấu trúc chi phối cách Bitcoin hoạt động như một loại tiền kỹ thuật số phi tập trung.
-- _Phong trào Cypherpunk:_ Một nhóm ủng hộ việc sử dụng mật mã để đảm bảo quyền riêng tư và tự do trong không gian kỹ thuật số.
+- _Phong trào Cypherpunk:_ Một nhóm ủng hộ việc sử dụng [mật mã](https://planb.academy/resources/glossary/cryptography) để đảm bảo quyền riêng tư và tự do trong không gian kỹ thuật số.
 - _Tăng cường tài chính:_ Cung cấp khả năng tiếp cận các dịch vụ tài chính cho những người bị loại khỏi hệ thống ngân hàng truyền thống, thường được gọi là "những người không có tài khoản ngân hàng".
 - _Tiền không kiểm duyệt:_ Tiền không thể bị chính phủ hoặc các tổ chức tài chính kiểm soát hoặc hạn chế.
 
-#### Bối cảnh của Ricky và hoạt động ủng hộ Bitcoin
+#### Bối cảnh của Rikki và hoạt động ủng hộ Bitcoin
 
 
-Hành trình của Ricky đến với Bitcoin bắt nguồn từ công việc của anh với tư cách là một nhà hoạt động nhân quyền. Anh tin rằng Bitcoin có thể cung cấp cho cá nhân quyền kiểm soát tài chính, cho phép họ bảo vệ quyền riêng tư và tránh những hạn chế của các ngân hàng tập trung. Việc anh tìm hiểu về việc áp dụng Bitcoin ở những nơi như El Salvador làm nổi bật cách công nghệ này có thể trao quyền cho người dân ở các thị trường mới nổi đạt được sự độc lập về tài chính.
+Hành trình của Rikki đến với Bitcoin bắt nguồn từ công việc của anh với tư cách là một nhà hoạt động nhân quyền. Anh tin rằng Bitcoin có thể cung cấp cho cá nhân quyền kiểm soát tài chính, cho phép họ bảo vệ quyền riêng tư và tránh những hạn chế của các ngân hàng tập trung. Việc anh tìm hiểu về việc áp dụng Bitcoin ở những nơi như El Salvador làm nổi bật cách công nghệ này có thể trao quyền cho người dân ở các thị trường mới nổi đạt được sự độc lập về tài chính.
 
 
 ### Ý nghĩa và thách thức toàn cầu của Bitcoin
 
 
-Bitcoin không chỉ là một loại tiền kỹ thuật số. Nó là một công cụ bảo vệ quyền riêng tư và đảm bảo tự do tài chính. Bằng cách sử dụng **khóa riêng**, hoạt động như mật khẩu chính, người dùng có thể quản lý Bitcoin của mình một cách an toàn, với toàn quyền kiểm soát tiền của mình.
+Bitcoin không chỉ là một loại tiền kỹ thuật số. Nó là một công cụ bảo vệ quyền riêng tư và đảm bảo tự do tài chính. Bằng cách sử dụng **[khóa riêng](https://planb.academy/resources/glossary/private-key)**, hoạt động như mật khẩu chính, người dùng có thể quản lý Bitcoin của mình một cách an toàn, với toàn quyền kiểm soát tiền của mình.
 
 
-Trong các chế độ độc tài, nơi sự đàn áp tài chính là phổ biến, bản chất **không thể kiểm duyệt** của Bitcoin cho phép mọi người giao dịch mà không sợ tiền của họ bị đóng băng hoặc tịch thu. Bản chất **mã nguồn mở** của nó khuyến khích sự tham gia toàn cầu, thúc đẩy một cộng đồng liên tục cải thiện mạng lưới.
+Trong các chế độ độc tài, nơi sự đàn áp tài chính là phổ biến, bản chất **không thể kiểm duyệt** của Bitcoin cho phép mọi người [giao dịch](https://planb.academy/resources/glossary/transaction-tx) mà không sợ tiền của họ bị đóng băng hoặc tịch thu. Bản chất **[mã nguồn mở](https://planb.academy/resources/glossary/foss)** của nó khuyến khích sự tham gia toàn cầu, thúc đẩy một cộng đồng liên tục cải thiện mạng lưới.
 
 
 ![Image](assets/en/002.webp)
@@ -143,7 +143,7 @@ Phong trào Cypherpunk nổi lên vào cuối thế kỷ 20, ủng hộ quyền 
 #### Kinh tế học Áo
 
 
-Đồng thời, **Kinh tế học Áo** đã đặt nền móng cho các nguyên tắc tiền tệ của Bitcoin. Các nhà kinh tế như **Ludwig von Mises** và **Friedrich Hayek** lập luận rằng đồng tiền lành mạnh phải khan hiếm, bền vững và là một kho lưu trữ giá trị tốt—những nguyên tắc cốt lõi đã định hình nên thiết kế của Bitcoin.
+Đồng thời, **[Kinh tế học Áo](https://planb.academy/resources/glossary/austrian-school)** đã đặt nền móng cho các nguyên tắc tiền tệ của Bitcoin. Các nhà kinh tế như **Ludwig von Mises** và **Friedrich Hayek** lập luận rằng đồng tiền lành mạnh phải khan hiếm, bền vững và là một kho lưu trữ giá trị tốt—những nguyên tắc cốt lõi đã định hình nên thiết kế của Bitcoin.
 
 
 **Sự định nghĩa:**
@@ -221,7 +221,7 @@ Cảm ơn bạn đã quan tâm tới tài liệu này!
 
 :::video id=2c008198-7f4e-4e60-87a0-0af17528ad2f:::
 
-Trong bài giảng đầu tiên của khóa học "Cách thức hoạt động của Bitcoin", chúng ta đã bắt đầu khám phá nền tảng công nghệ làm nền tảng cho mạng lưới Bitcoin. Chúng ta đã tìm hiểu các chủ đề như **Hashcash**, **giao dịch**, **Blockchain**, **Lightning Network** và các thành phần chính khác của giao thức Bitcoin.
+Trong bài giảng đầu tiên của khóa học "Cách thức hoạt động của Bitcoin", chúng ta đã bắt đầu khám phá nền tảng công nghệ làm nền tảng cho mạng lưới Bitcoin. Chúng ta đã tìm hiểu các chủ đề như **Hashcash**, **giao dịch**, **[Blockchain](https://planb.academy/resources/glossary/blockchain)**, **[Lightning Network](https://planb.academy/resources/glossary/lightning-network)** và các thành phần chính khác của giao thức Bitcoin.
 
 
 ### Cơ sở công nghệ của Bitcoin phần 2
@@ -234,13 +234,13 @@ Trong bài giảng thứ hai về 'Cách thức hoạt động của Bitcoin', c
 ### Cấu trúc Bitcoin
 
 
-Nguồn gốc của Bitcoin dựa trên một số cải tiến quan trọng, bắt đầu với **Hashcash của Adam Back**, một hệ thống Proof-of-Work (PoW) được thiết kế để ngăn chặn thư rác email và các cuộc tấn công từ chối dịch vụ bằng cách yêu cầu người gửi hoàn thành các tác vụ tính toán. Khái niệm PoW này đã trở thành nền tảng bảo mật của Bitcoin.
+Nguồn gốc của Bitcoin dựa trên một số cải tiến quan trọng, bắt đầu với **Hashcash của Adam Back**, một hệ thống [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) (PoW) được thiết kế để ngăn chặn thư rác email và các cuộc tấn công từ chối dịch vụ bằng cách yêu cầu người gửi hoàn thành các tác vụ tính toán. Khái niệm PoW này đã trở thành nền tảng bảo mật của Bitcoin.
 
 
-Bitcoin dựa vào **chữ ký số** sử dụng **mật mã đường cong elliptic** để bảo mật và xác minh giao dịch. **Thuật toán chữ ký số đường cong elliptic (ECDSA)** đảm bảo rằng chỉ chủ sở hữu hợp pháp của Bitcoin mới có thể ủy quyền giao dịch mà không tiết lộ khóa riêng của họ.
+Bitcoin dựa vào **[chữ ký số](https://planb.academy/resources/glossary/digital-signature)** sử dụng **mật mã đường cong elliptic** để bảo mật và xác minh giao dịch. **Thuật toán chữ ký số đường cong elliptic ([ECDSA](https://planb.academy/resources/glossary/ecdsa))** đảm bảo rằng chỉ chủ sở hữu hợp pháp của Bitcoin mới có thể ủy quyền giao dịch mà không tiết lộ khóa riêng của họ.
 
 
-**Satoshi Nakamoto**, người sáng lập ẩn danh của Bitcoin, đã mở rộng những ý tưởng này bằng cách chuyển đổi mô hình PoW sang mô hình phi tập trung **Blockchain**. Điều này cho phép một mạng lưới các nút phân tán xác thực và ghi lại các giao dịch mà không cần cơ quan quản lý trung ương, đánh dấu một bước tiến đáng kể so với các nỗ lực tiền kỹ thuật số trước đây.
+**Satoshi Nakamoto**, người sáng lập ẩn danh của Bitcoin, đã mở rộng những ý tưởng này bằng cách chuyển đổi mô hình PoW sang mô hình phi tập trung **Blockchain**. Điều này cho phép một mạng lưới các [nút](https://planb.academy/resources/glossary/node) phân tán xác thực và ghi lại các giao dịch mà không cần cơ quan quản lý trung ương, đánh dấu một bước tiến đáng kể so với các nỗ lực tiền kỹ thuật số trước đây.
 
 
 **Định nghĩa:**
@@ -252,16 +252,16 @@ Bitcoin dựa vào **chữ ký số** sử dụng **mật mã đường cong ell
 ### Cơ chế Blockchain và xác thực giao dịch
 
 
-Các giao dịch Bitcoin được xác thực và thêm vào khối bởi các **thợ đào**, những người cạnh tranh để giải một câu đố mật mã bằng thuật toán Proof-of-Work. Điều này bao gồm việc tìm kiếm một Hash với một số lượng số 0 cụ thể ở đầu bằng cách điều chỉnh giá trị **Nonce** cho đến khi tìm ra Hash chính xác.
+Các giao dịch Bitcoin được xác thực và thêm vào [khối](https://planb.academy/resources/glossary/block) bởi các **thợ đào**, những người cạnh tranh để giải một câu đố mật mã bằng thuật toán Proof-of-Work. Điều này bao gồm việc tìm kiếm một [Hash](https://planb.academy/resources/glossary/hash-function) với một số lượng số 0 cụ thể ở đầu bằng cách điều chỉnh giá trị **[Nonce](https://planb.academy/resources/glossary/nonce)** cho đến khi tìm ra Hash chính xác.
 
 
-Mỗi **khối** trong Blockchain bao gồm một **tiêu đề** (với dữ liệu tương tự như Hash của khối trước đó) và một danh sách các giao dịch. Khối đầu tiên, được gọi là **Khối Genesis**, là duy nhất vì nó không có khối tiền nhiệm.
+Mỗi **khối** trong Blockchain bao gồm một **[tiêu đề](https://planb.academy/resources/glossary/block-header)** (với dữ liệu tương tự như Hash của khối trước đó) và một danh sách các giao dịch. Khối đầu tiên, được gọi là **[Khối Genesis](https://planb.academy/resources/glossary/genesis-block)**, là duy nhất vì nó không có khối tiền nhiệm.
 
 
 ![Image](assets/en/004.webp)
 
 
-Trước khi các giao dịch được đưa vào một khối, chúng nằm trong **Mempool**, chờ xác thực. Sau khi được xác thực, các giao dịch này được thêm vào khối mới được khai thác và sau đó vào Blockchain.
+Trước khi các giao dịch được đưa vào một khối, chúng nằm trong **[Mempool](https://planb.academy/resources/glossary/mempool)**, chờ xác thực. Sau khi được xác thực, các giao dịch này được thêm vào khối mới được khai thác và sau đó vào Blockchain.
 
 
 **Định nghĩa:**
@@ -274,13 +274,13 @@ Trước khi các giao dịch được đưa vào một khối, chúng nằm tro
 ### Khả năng mở rộng, quyền riêng tư và phát triển trong Bitcoin
 
 
-Bitcoin đang đối mặt với những thách thức liên quan đến khả năng mở rộng và quyền riêng tư. Khả năng giao dịch hạn chế của Blockchain khiến việc xử lý khối lượng giao dịch lớn trở nên khó khăn. Các giải pháp như **Lightning Network** Address giải quyết những thách thức này bằng cách cho phép off-chain giao dịch thông qua các kênh thanh toán, giúp tăng tốc độ và quyền riêng tư.
+Bitcoin đang đối mặt với những thách thức liên quan đến khả năng mở rộng và quyền riêng tư. Khả năng giao dịch hạn chế của Blockchain khiến việc xử lý khối lượng giao dịch lớn trở nên khó khăn. Các giải pháp như **Lightning Network** Address giải quyết những thách thức này bằng cách cho phép off-chain giao dịch thông qua các [kênh thanh toán](https://planb.academy/resources/glossary/payment-channel), giúp tăng tốc độ và quyền riêng tư.
 
 
-Việc chạy **Full node** là điều cần thiết để đảm bảo tính phi tập trung và bảo mật, nhưng **các nút Xác minh thanh toán đơn giản (SPV)** cho phép ít người tham gia hơn với cái giá phải trả là một số bảo mật.
+Việc chạy **[Full node](https://planb.academy/resources/glossary/full-node)** là điều cần thiết để đảm bảo tính phi tập trung và bảo mật, nhưng **các nút Xác minh thanh toán đơn giản (SPV)** cho phép ít người tham gia hơn với cái giá phải trả là một số bảo mật.
 
 
-Quá trình phát triển Bitcoin đã được cải thiện để nâng cao hiệu suất và bảo mật. Các nâng cấp chính bao gồm **Segregated Witness (SegWit)**, giải quyết vấn đề về tính linh hoạt của giao dịch và tăng kích thước khối hiệu dụng, và **Taproot**, cải thiện quyền riêng tư và cho phép các hợp đồng phức tạp hơn sử dụng **Merkleized Abstract Syntax Trees (MAST)**.
+Quá trình phát triển Bitcoin đã được cải thiện để nâng cao hiệu suất và bảo mật. Các nâng cấp chính bao gồm **Segregated Witness ([SegWit](https://planb.academy/resources/glossary/segwit))**, giải quyết vấn đề về tính linh hoạt của giao dịch và tăng kích thước khối hiệu dụng, và **[Taproot](https://planb.academy/resources/glossary/taproot)**, cải thiện quyền riêng tư và cho phép các hợp đồng phức tạp hơn sử dụng **Merkleized Abstract Syntax Trees (MAST)**.
 
 
 **Định nghĩa:**
@@ -307,7 +307,7 @@ Cấu trúc và sự phát triển liên tục của Bitcoin thể hiện sự �
 
 :::video id=c5e2e575-fa9d-4430-805f-205c2cf6f2a5:::
 
-Trong bài giảng này, chúng ta sẽ vạch trần những quan niệm sai lầm phổ biến xung quanh **Bitcoin**, **blockchain** và **tiền điện tử**. Cùng Address giải đáp những hiểu lầm về mức tiêu thụ năng lượng, việc sử dụng trái phép của Bitcoin và "FUD" (sợ hãi, bất định, nghi ngờ) lan truyền rộng rãi về công nghệ này.
+Trong bài giảng này, chúng ta sẽ vạch trần những quan niệm sai lầm phổ biến xung quanh **Bitcoin**, **blockchain** và **[tiền điện tử](https://planb.academy/resources/glossary/cryptocurrency)**. Cùng Address giải đáp những hiểu lầm về mức tiêu thụ năng lượng, việc sử dụng trái phép của Bitcoin và "FUD" (sợ hãi, bất định, nghi ngờ) lan truyền rộng rãi về công nghệ này.
 
 
 ### Bitcoin so với Blockchain
@@ -339,7 +339,7 @@ Một điểm khác biệt quan trọng nữa là **Bitcoin** được tạo ra 
 ### Tiêu thụ năng lượng và tác động môi trường
 
 
-Một trong những lời chỉ trích phổ biến nhất về Bitcoin là mức tiêu thụ năng lượng. Mặc dù Bitcoin và Mining có sử dụng năng lượng, nhưng nó chỉ chiếm chưa đến 1% tổng mức tiêu thụ điện toàn cầu và chưa đến 3% lượng năng lượng bị lãng phí. Hơn nữa, Bitcoin và Mining** thường khai thác các nguồn năng lượng chưa sử dụng hoặc tái tạo, khiến nó xanh hơn so với những gì thường được mô tả.
+Một trong những lời chỉ trích phổ biến nhất về Bitcoin là mức tiêu thụ năng lượng. Mặc dù Bitcoin và [Mining](https://planb.academy/resources/glossary/mining) có sử dụng năng lượng, nhưng nó chỉ chiếm chưa đến 1% tổng mức tiêu thụ điện toàn cầu và chưa đến 3% lượng năng lượng bị lãng phí. Hơn nữa, Bitcoin và Mining** thường khai thác các nguồn năng lượng chưa sử dụng hoặc tái tạo, khiến nó xanh hơn so với những gì thường được mô tả.
 
 
 **Định nghĩa:**
@@ -362,7 +362,7 @@ Bitcoin thường bị chỉ trích vì được sử dụng trong các hoạt �
 **Định nghĩa:**
 
 
-- _Tính thay thế:_ Tính chất của tiền tệ mà mỗi đơn vị có thể hoán đổi cho nhau, đảm bảo giá trị ngang nhau.
+- _[Tính thay thế](https://planb.academy/resources/glossary/fungibility):_ Tính chất của tiền tệ mà mỗi đơn vị có thể hoán đổi cho nhau, đảm bảo giá trị ngang nhau.
 
 ### Xử lý FUD và động lực thị trường
 
@@ -397,7 +397,7 @@ Trong bài giảng đầu tiên của mô-đun thứ 4, chúng ta đã khám ph�
 
 **1. Tóm tắt phần giới thiệu**
 
-Chào mừng bạn trở lại! Trong buổi trước, chúng ta đã tìm hiểu các khái niệm cơ bản về kiến trúc của Bitcoin, bao gồm nền tảng mật mã và cấu trúc mạng ngang hàng. Hôm nay, chúng ta sẽ chuyển từ lý thuyết sang thực hành bằng cách trình bày cách cài đặt và cấu hình một nút Bitcoin.
+Chào mừng bạn trở lại! Trong buổi trước, chúng ta đã tìm hiểu các khái niệm cơ bản về kiến trúc của Bitcoin, bao gồm nền tảng mật mã và cấu trúc mạng [ngang hàng](https://planb.academy/resources/glossary/peertopeer-p2p). Hôm nay, chúng ta sẽ chuyển từ lý thuyết sang thực hành bằng cách trình bày cách cài đặt và cấu hình một nút Bitcoin.
 
 
 **2. Tổng quan về buổi thực hành**
@@ -405,7 +405,7 @@ Chào mừng bạn trở lại! Trong buổi trước, chúng ta đã tìm hiể
 Trong buổi học này, Alekos sẽ hướng dẫn chúng ta quy trình thiết lập một node Bitcoin bằng máy ảo. Hướng dẫn thực hành này được thiết kế để giúp bạn làm quen với các bước cấu hình node của mình để tham gia vào mạng Bitcoin.
 
 
-Việc vận hành một nút Bitcoin bao gồm việc xác thực giao dịch và khối, thực thi các quy tắc đồng thuận và hỗ trợ tính phi tập trung của mạng. Việc thiết lập một nút đảm bảo bạn có kết nối trực tiếp với mạng Bitcoin, cho phép bạn đóng góp vào tính bảo mật và toàn vẹn của mạng.
+Việc vận hành một nút Bitcoin bao gồm việc xác thực giao dịch và khối, thực thi các quy tắc [đồng thuận](https://planb.academy/resources/glossary/consensus) và hỗ trợ tính phi tập trung của mạng. Việc thiết lập một nút đảm bảo bạn có kết nối trực tiếp với mạng Bitcoin, cho phép bạn đóng góp vào tính bảo mật và toàn vẹn của mạng.
 
 
 Trong bài giảng này, bạn sẽ tìm thấy hướng dẫn cài đặt và chạy Bitcoin core của riêng mình, tìm hiểu cách tinh chỉnh Blockchain để tiết kiệm không gian và bắt đầu thử nghiệm phần mềm. Alekos sẽ hướng dẫn bạn từng bước trong quá trình thú vị này.
@@ -620,7 +620,7 @@ C-Lightning, còn được gọi là Core-Lightning, là giao thức Layer 2 h�
 
 **Tầm quan trọng của tính mô-đun và khả năng mở rộng với các plugin**
 
-Thiết kế mô-đun của C-Lightning cho phép bạn thêm hoặc bớt các tính năng khi cần, cho phép bạn tùy chỉnh hệ thống theo các trường hợp sử dụng cụ thể. Các trường hợp sử dụng ví dụ bao gồm:
+Thiết kế mô-đun của C-Lightning cho phép bạn thêm hoặc bớt các tính năng khi cần, cho phép bạn tùy chỉnh hệ thống theo các trường hợp sử dụng cụ thể. Các trường hợp sử dụng [ví](https://planb.academy/resources/glossary/wallet) dụ bao gồm:
 
 
 
@@ -850,7 +850,7 @@ Bước đầu tiên trong quy trình thiết lập của chúng tôi là tải 
 Để cấu hình Spectre, bạn cần kết nối nó với máy chủ Bitcoin core hoặc Electrum. Các máy chủ này cung cấp dữ liệu Blockchain cần thiết cho hoạt động Wallet. Việc cấu hình bao gồm thiết lập máy chủ Address trong phần cài đặt của Spectre và đảm bảo kết nối ổn định.
 
 
-**Giải thích các đường dẫn phái sinh và truy xuất khóa công khai**
+**Giải thích các đường dẫn phái sinh và truy xuất [khóa công khai](https://planb.academy/resources/glossary/public-key)**
 
 
 Hiểu rõ các đường dẫn phái sinh là điều cần thiết cho việc quản lý Wallet. Đường dẫn phái sinh xác định cách khóa được tạo từ khóa chính. Trong Spectre, bạn có thể truy xuất khóa công khai bằng cách kết nối Hardware Wallet (hoặc trình giả lập) và điều hướng qua Wallet Interface. Hãy đảm bảo ghi lại các đường dẫn này để tham khảo trong tương lai.
@@ -1008,7 +1008,7 @@ Những nỗ lực nhằm nâng cao khả năng sử dụng của Bitcoin thư�
 #### Sự đánh đổi về khả năng mở rộng và quyền riêng tư
 
 
-Khả năng mở rộng và quyền riêng tư thường xung đột với nhau trong mạng lưới Bitcoin. Những cải tiến giúp tăng khả năng mở rộng, chẳng hạn như UTXO lớn hơn hoặc giảm thiểu việc che giấu mật mã, thường làm giảm tính riêng tư. Ngược lại, các kỹ thuật tập trung vào quyền riêng tư như chữ ký vòng của Monero giúp tăng cường tính ẩn danh của người dùng nhưng lại tác động tiêu cực đến khả năng mở rộng. Hơn nữa, việc giới thiệu các hợp đồng có trạng thái, như đã thấy trong Ethereum, mang lại sự linh hoạt hơn nhưng lại làm giảm tính bảo mật và khả năng mở rộng. Việc cân bằng những đánh đổi này là một thách thức phức tạp đòi hỏi sự cân nhắc kỹ lưỡng.
+Khả năng mở rộng và quyền riêng tư thường xung đột với nhau trong mạng lưới Bitcoin. Những cải tiến giúp tăng khả năng mở rộng, chẳng hạn như [UTXO](https://planb.academy/resources/glossary/utxo) lớn hơn hoặc giảm thiểu việc che giấu mật mã, thường làm giảm tính riêng tư. Ngược lại, các kỹ thuật tập trung vào quyền riêng tư như chữ ký vòng của Monero giúp tăng cường tính ẩn danh của người dùng nhưng lại tác động tiêu cực đến khả năng mở rộng. Hơn nữa, việc giới thiệu các hợp đồng có trạng thái, như đã thấy trong Ethereum, mang lại sự linh hoạt hơn nhưng lại làm giảm tính bảo mật và khả năng mở rộng. Việc cân bằng những đánh đổi này là một thách thức phức tạp đòi hỏi sự cân nhắc kỹ lưỡng.
 
 
 ### Kỹ thuật bảo mật
@@ -1144,7 +1144,7 @@ Ví dụ, để bảo vệ các cuộc bầu cử, có thể áp dụng giám s�
 #### Xác minh độ tin cậy
 
 
-Xác minh độ tin cậy có thể được minh họa bằng xác minh PGP (Pretty Good Privacy). Bằng cách xác minh dấu vân tay và chữ ký của khóa PGP, người dùng có thể xác định tính xác thực của danh tính kỹ thuật số. Các phương pháp tương tự rất cần thiết để xác minh tính toàn vẹn của phần mềm thông qua việc so khớp Hash (ví dụ: SHA-256).
+Xác minh độ tin cậy có thể được minh họa bằng xác minh PGP (Pretty Good Privacy). Bằng cách xác minh dấu vân tay và chữ ký của khóa PGP, người dùng có thể xác định tính xác thực của danh tính kỹ thuật số. Các phương pháp tương tự rất cần thiết để xác minh tính toàn vẹn của phần mềm thông qua việc so khớp Hash (ví dụ: [SHA-256](https://planb.academy/resources/glossary/sha256)).
 
 
 #### Thiết lập con đường tin cậy
@@ -1156,7 +1156,7 @@ Việc xây dựng lòng tin không phải là việc tức thời; nó đòi h�
 #### Các ưu đãi cho an ninh
 
 
-Hiểu được vai trò của các ưu đãi là rất quan trọng trong việc duy trì bảo mật. Ví dụ, mô hình bảo mật của Bitcoin dựa trên các ưu đãi của thợ đào và sự xác thực của người tham gia mạng lưới, làm nổi bật tầm quan trọng của các ưu đãi kinh tế trong việc bảo vệ hệ sinh thái kỹ thuật số.
+Hiểu được vai trò của các ưu đãi là rất quan trọng trong việc duy trì bảo mật. Ví dụ, mô hình bảo mật của Bitcoin dựa trên các ưu đãi của [thợ đào](https://planb.academy/resources/glossary/miner) và sự xác thực của người tham gia mạng lưới, làm nổi bật tầm quan trọng của các ưu đãi kinh tế trong việc bảo vệ hệ sinh thái kỹ thuật số.
 
 
 #### Bảo mật ví Bitcoin
@@ -1260,7 +1260,7 @@ Chào mừng! Hôm nay, chúng ta sẽ đi sâu vào các khía cạnh quan tr�
 ### Các khái niệm mật mã cốt lõi dành cho nhà phát triển Bitcoin
 
 
-Trong phần này, chúng ta sẽ đi sâu vào các khái niệm mật mã quan trọng cần thiết cho các nhà phát triển Bitcoin, bao gồm các hàm Hash, cây Merkle, chữ ký số và đường cong elliptic.
+Trong phần này, chúng ta sẽ đi sâu vào các khái niệm mật mã quan trọng cần thiết cho các nhà phát triển Bitcoin, bao gồm các hàm Hash, [cây Merkle](https://planb.academy/resources/glossary/merkle-tree), chữ ký số và đường cong elliptic.
 
 
 ![Image](assets/en/014.webp)
@@ -1314,7 +1314,7 @@ Trong phần này, chúng ta sẽ khám phá ứng dụng của các khái niệ
 **Ảnh hưởng đến bảo mật**: Các ví dụ lịch sử cho thấy tổn thất tài chính đáng kể do việc tái sử dụng Nonce. Việc hiểu rõ tầm quan trọng của việc tạo ra các nonce duy nhất là rất quan trọng. Việc sử dụng các thư viện đáng tin cậy như LibSecP256k1 đảm bảo các hoạt động mã hóa mạnh mẽ và an toàn.
 
 
-**Mã hóa Đường cong Elliptic (ECC)**: Các lược đồ chữ ký đã phát triển từ các giao thức nhận dạng sang các lược đồ như chữ ký Schnorr, hiện đang được sử dụng trong Bitcoin (BIP 340). Kiến thức về đường cong Elliptic và số học trường hữu hạn đảm bảo việc triển khai mật mã an toàn.
+**Mã hóa Đường cong Elliptic (ECC)**: Các lược đồ chữ ký đã phát triển từ các giao thức nhận dạng sang các lược đồ như chữ ký [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol), hiện đang được sử dụng trong Bitcoin ([BIP](https://planb.academy/resources/glossary/bip) 340). Kiến thức về đường cong Elliptic và số học trường hữu hạn đảm bảo việc triển khai mật mã an toàn.
 
 
 **Lời khuyên chung cho các nhà phát triển**: Các giao thức mã hóa phải trải qua quá trình đánh giá ngang hàng kỹ lưỡng. Các nhà phát triển phải chính xác và hiểu đầy đủ từng bước của quy trình mã hóa. Nhận thức được những cạm bẫy thường gặp trong quá trình triển khai mã hóa có thể ngăn ngừa các lỗ hổng nghiêm trọng.
@@ -1468,7 +1468,7 @@ Ajelex tập trung vào khía cạnh kinh doanh của Bitcoin và Mining, xem x�
 
 4. **Giá BTC**: Giá BTC là yếu tố quan trọng để xác định lợi nhuận của Mining.
 
-5. **Độ khó của mạng**: Độ khó của mạng biểu thị lượng Hashrate trung bình cần thiết để khai thác một khối trong 10 phút.
+5. **[Độ khó](https://planb.academy/resources/glossary/difficulty) của mạng**: Độ khó của mạng biểu thị lượng Hashrate trung bình cần thiết để khai thác một khối trong 10 phút.
 
 6. **Công cụ chiến lược**: Các công cụ như [braiins.com](https://insights.braiins.com) rất hữu ích trong việc tính toán lợi nhuận và giúp thợ đào đưa ra quyết định dựa trên dữ liệu.
 
@@ -1979,7 +1979,7 @@ Thêm các khẳng định để xác minh rằng không có byte nào chưa đ�
 #### Các trường hợp đặc biệt như giao dịch Coinbase
 
 
-Giao dịch Coinbase, tức là giao dịch đầu tiên trong một khối được sử dụng để xác nhận Block reward, có những đặc điểm riêng. Chúng ta cần xử lý những trường hợp đặc biệt này một cách phù hợp.
+Giao dịch [Coinbase](https://planb.academy/resources/glossary/coinbase-transaction), tức là giao dịch đầu tiên trong một khối được sử dụng để xác nhận Block reward, có những đặc điểm riêng. Chúng ta cần xử lý những trường hợp đặc biệt này một cách phù hợp.
 
 
 ```Rust
@@ -2598,7 +2598,7 @@ Trong các cuộc thảo luận trước, chúng ta đã đề cập đến nh�
 ### Khóa thời gian băm Contract (HTLC) và triển khai
 
 
-Những hạn chế và nhược điểm của các bước nhảy tập trung đòi hỏi một giải pháp an toàn và phi tập trung hơn. Nhu cầu này đã dẫn đến sự phát triển của Hashed Time Lock Contract (HTLC), được Joseph Poon và Thaddeus Dreijer đề xuất vào năm 2015 như một phần của Lightning Network. HTLC kết hợp các nguyên tắc của khóa thời gian và khóa Hash để đảm bảo tính nguyên tử và không cần tin cậy trong các giao dịch. Điều này có nghĩa là một giao dịch hoặc hoàn tất hoàn toàn hoặc không xảy ra, giảm thiểu rủi ro liên quan đến việc thanh toán không đầy đủ.
+Những hạn chế và nhược điểm của các bước nhảy tập trung đòi hỏi một giải pháp an toàn và phi tập trung hơn. Nhu cầu này đã dẫn đến sự phát triển của Hashed Time Lock Contract ([HTLC](https://planb.academy/resources/glossary/htlc)), được Joseph Poon và Thaddeus Dreijer đề xuất vào năm 2015 như một phần của Lightning Network. HTLC kết hợp các nguyên tắc của khóa thời gian và khóa Hash để đảm bảo tính nguyên tử và không cần tin cậy trong các giao dịch. Điều này có nghĩa là một giao dịch hoặc hoàn tất hoàn toàn hoặc không xảy ra, giảm thiểu rủi ro liên quan đến việc thanh toán không đầy đủ.
 
 
 Quy trình làm việc của HTLC bao gồm một quy trình nhiều bước đảm bảo định tuyến an toàn thông qua nhiều trung gian. Giả sử Alice muốn thanh toán cho Eric thông qua các trung gian Bob, Carol và Diana. Mỗi bước trong quy trình bao gồm việc tạo các giao dịch Commitment với khóa thời gian và số tiền giảm dần. Nếu cần, bước cuối cùng có thể được phát sóng đến mạng Bitcoin để hoàn tất giao dịch.
@@ -2678,7 +2678,7 @@ Mạng lưới Bitcoin hoạt động như một hệ thống Trustless giá tr�
 Hãy cùng tìm hiểu về Lightning Network, hoạt động như một Layer thứ hai trên Bitcoin Blockchain. Mạng lưới thanh toán này được thiết kế để tạo điều kiện cho các giao dịch nhanh chóng và chi phí thấp. Bằng cách mở một kênh thanh toán giữa hai bên, họ có thể giao dịch off-chain, chỉ ghi lại số dư ban đầu và cuối cùng trên Bitcoin Blockchain. Điều này giúp giảm đáng kể tải cho mạng lưới chính, tăng cường khả năng mở rộng và giúp các giao dịch vi mô trở nên khả thi.
 
 
-Để hiểu rõ hơn khái niệm này, hãy xem xét ví dụ về một hóa đơn tại quầy bar. Khi bạn mở một hóa đơn tại quầy bar, bạn có thể liên tục gọi đồ uống mà không cần trả tiền sau mỗi lần. Cuối cùng, bạn sẽ thanh toán toàn bộ số tiền vào cuối đêm. Tương tự, một kênh Lightning cho phép nhiều giao dịch (off-chain), và chúng chỉ được thanh toán (On-Chain) khi kênh đóng. Một ví dụ khác là sân bay, nơi việc định tuyến thanh toán qua nhiều nút (node) giống như việc nối chuyến để đến đích. Mỗi nút (hay "chuyến bay") giúp chuyển hướng khoản thanh toán của bạn đến đúng nơi cần đến, đảm bảo định tuyến hiệu quả.
+Để hiểu rõ hơn khái niệm này, hãy xem xét ví dụ về một [hóa đơn](https://planb.academy/resources/glossary/invoice-lightning) tại quầy bar. Khi bạn mở một hóa đơn tại quầy bar, bạn có thể liên tục gọi đồ uống mà không cần trả tiền sau mỗi lần. Cuối cùng, bạn sẽ thanh toán toàn bộ số tiền vào cuối đêm. Tương tự, một kênh Lightning cho phép nhiều giao dịch (off-chain), và chúng chỉ được thanh toán (On-Chain) khi kênh đóng. Một ví dụ khác là sân bay, nơi việc định tuyến thanh toán qua nhiều nút (node) giống như việc nối chuyến để đến đích. Mỗi nút (hay "chuyến bay") giúp chuyển hướng khoản thanh toán của bạn đến đúng nơi cần đến, đảm bảo định tuyến hiệu quả.
 
 
 ![airport analogy](assets/en/048.webp)_The airport analogy of LN_
@@ -2690,7 +2690,7 @@ Về bản chất, Lightning Network bổ sung cho mạng Bitcoin bằng cách k
 ### **Thông số kỹ thuật của Lightning Network**
 
 
-Giao thức Lightning Network được định nghĩa tỉ mỉ thông qua 10 BOLT (Cơ sở Công nghệ Sét). Các BOLT này đã được thống nhất trong một hội nghị ở Milan và đóng vai trò là nền tảng cho nhiều triển khai khác nhau của Lightning Network.
+Giao thức Lightning Network được định nghĩa tỉ mỉ thông qua 10 [BOLT](https://planb.academy/resources/glossary/bolt) (Cơ sở Công nghệ Sét). Các BOLT này đã được thống nhất trong một hội nghị ở Milan và đóng vai trò là nền tảng cho nhiều triển khai khác nhau của Lightning Network.
 
 
 ![bolt](assets/en/049.webp)_BOLT Diagram _
@@ -3430,5 +3430,5 @@ Việc mở rộng và tích hợp thanh toán Lightning thông qua nhiều giao
 
 :::video id=b89f2064-f2e1-49c3-97d0-580891eee1dd:::
 
-Adam Gibson chia sẻ góc nhìn sâu sắc về Joinmarket, trình bày chi tiết cách triển khai CoinJoin này nâng cao tính riêng tư và khả năng thay thế của Bitcoin. Ông thảo luận về cách Joinmarket tạo điều kiện cho các giao dịch cộng tác, Trustless và ẩn danh trong hệ sinh thái Bitcoin. Sau đó, trong phần thứ hai, ông sẽ hướng dẫn cách vận hành Joinmarket trong Signet.
+Adam Gibson chia sẻ góc nhìn sâu sắc về Joinmarket, trình bày chi tiết cách triển khai [CoinJoin](https://planb.academy/resources/glossary/coinjoin) này nâng cao tính riêng tư và khả năng thay thế của Bitcoin. Ông thảo luận về cách Joinmarket tạo điều kiện cho các giao dịch cộng tác, Trustless và ẩn danh trong hệ sinh thái Bitcoin. Sau đó, trong phần thứ hai, ông sẽ hướng dẫn cách vận hành Joinmarket trong Signet.
 

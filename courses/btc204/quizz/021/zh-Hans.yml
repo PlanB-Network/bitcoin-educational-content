@@ -1,9 +1,9 @@
-question: 比特币简化支付的模式是什么？
-answer: 输入中有1个或多个UTXO，输出中有2个UTXO。
+question: 比特币单次付款的模式是什么？
+answer: 输入中有 1 个或多个 UTXO，输出中有 2 个 UTXO。
 wrong_answers:
-  - 输入中有1个UTXO，输出中有1个UTXO
-  - 输入中有几个UTXO，输出中有1个UTXO
-  - 输入中有5个UTXO，输出中也有5个UTXO
+  - 输入中有 1 个UTXO，输出中有 1 个 UTXO
+  - 输入中有几个UTXO，输出中有 1 个 UTXO
+  - 输入中有 5 个 UTXO，输出中也有 5 个 UTXO
 explanation:
-  在简化支付中，用户使用一个或多个UTXO作为输入，以完成支付UTXO和找零UTXO（因此有2个UTXO）的输出。
+  在单次付款中，用户使用一个或多个 UTXO 作为输入，以完成支付，结果有两个 UTXO：支付和找零作为输出。
 reviewed: true

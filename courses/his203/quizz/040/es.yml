@@ -1,0 +1,10 @@
+question: ¿En qué consiste el esquema de guiones Pay-to-Script-Hash (P2SH)?
+answer: Bloqueo de fondos con el hash de un script, que debe ejecutarse al desbloquearse
+wrong_answers:
+  - Requerir M firmas de N participantes para autorizar el gasto de la transacción
+  - Hacer que el gasto de bitcoins dependa de proporcionar una firma vinculada a una única clave pública
+  - Escribir datos arbitrarios en la cadena de bloques haciendo que UTXO no se pueda gastar
+explanation: |
+ Se trata de pagar por el hash de un script y proporcionar dicho script al desbloquear los fondos. Lo que lo diferencia de la propuesta de OP_EVAL es que es
+ reconocido automáticamente por la máquina virtual, por lo que puede ejecutarse sin necesidad de instrucciones explícitas.
+reviewed: true

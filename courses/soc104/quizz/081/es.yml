@@ -1,0 +1,9 @@
+question: Según la teoría del conocimiento disperso de Hayek, ¿por qué las economías de planificación centralizada no consiguen asignar eficazmente los recursos en comparación con los sistemas de libre mercado?
+answer: Los planificadores centrales no pueden acceder al conocimiento fragmentado y localizado que poseen los individuos sobre sus necesidades, preferencias y circunstancias específicas, lo que imposibilita una asignación eficiente de los recursos.
+wrong_answers:
+  - Los planificadores centrales carecen de la potencia de cálculo y los algoritmos avanzados necesarios para procesar todos los datos económicos y tomar decisiones de asignación óptimas para la sociedad.
+  - Los planificadores centrales son intrínsecamente corruptos e interesados, y dan prioridad a su propio bienestar frente a la asignación eficiente de recursos para la población en general.
+  - Los planificadores centrales se centran demasiado en los beneficios políticos a corto plazo en lugar de en la eficiencia económica a largo plazo, lo que conduce a decisiones de asignación de recursos subóptimas.
+explanation: |
+  El concepto de conocimiento disperso de Hayek subraya que la información económica crucial sólo existe como fragmentos dispersos entre individuos que conocen sus circunstancias locales, sus preferencias subjetivas y sus costes de oportunidad.
+  Este conocimiento no puede recogerse o agregarse de forma centralizada porque es contextual y cambia constantemente. Los mercados libres coordinan este conocimiento disperso a través del sistema de precios, donde los intercambios voluntarios revelan las preferencias y las escaseces relativas. Los planificadores centrales, independientemente de sus intenciones o capacidades, no pueden reproducir este proceso de coordinación espontánea porque el conocimiento necesario no existe de forma concentrada.

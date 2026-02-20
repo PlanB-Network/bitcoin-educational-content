@@ -1,5 +1,6 @@
 ---
-term: Bitcoin-DEV
+term: Bitcoin-dev
+definition: Lista de correo electrónico dedicada a discusiones técnicas sobre el desarrollo del protocolo Bitcoin.
 ---
 
 Lista de correo electrónico dedicada al desarrollo del protocolo Bitcoin. Bitcoin-dev fue creada por Jeff Garzik en 2011 y alojada inicialmente en Sourceforge.net. Posteriormente, la lista de correo se trasladó a Linux Foundation, después a Open Source Lab y, por último, desde febrero de 2024, está alojada en Google Groups: https://groups.google.com/g/bitcoindev

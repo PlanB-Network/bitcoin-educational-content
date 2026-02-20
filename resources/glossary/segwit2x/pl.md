@@ -1,5 +1,6 @@
 ---
-term: SEGWIT2X
+term: Segwit2x
+definition: Kontrowersyjna próba hard forka w celu podwojenia rozmiaru bloku, anulowana w listopadzie 2017 roku.
 ---
 
 Kontrowersyjna próba Hard Fork miała na celu podwojenie limitu rozmiaru bloku w Bitcoin, przy jednoczesnej integracji SegWit. SegWit2x został wprowadzony podczas New York Agreement w 2017 r., poufnego spotkania ponad 50 firm z ekosystemu, którego celem było znalezienie rozwiązania dla skalowania systemu. SegWit2x miał na celu zwiększenie zdolności transakcyjnej Bitcoin poprzez zwiększenie maksymalnego rozmiaru bloku do 2 MB z początkowego 1 MB. Hard Fork został zaplanowany na blok 494 784, co miało miejsce w listopadzie 2017 roku.

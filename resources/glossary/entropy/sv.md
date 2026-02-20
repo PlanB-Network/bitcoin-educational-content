@@ -1,5 +1,6 @@
 ---
-term: ENTROPY
+term: Entropi
+definition: Mått på oförutsägbarheten hos en datakälla, avgörande för generering av säkra nycklar.
 ---
 
 Entropi är i samband med kryptografi och information ett kvantitativt mått på den osäkerhet eller oförutsägbarhet som är förknippad med en datakälla eller en slumpmässig process. Entropi spelar en avgörande roll för säkerheten i kryptografiska system, särskilt när det gäller generering av nycklar och slumptal. Hög entropi säkerställer att de genererade nycklarna är tillräckligt oförutsägbara och motståndskraftiga mot brute-force-attacker, där en angripare försöker gissa sig till nyckeln genom att prova alla möjliga kombinationer.

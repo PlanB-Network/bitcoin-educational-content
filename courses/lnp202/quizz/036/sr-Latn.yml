@@ -1,0 +1,9 @@
+question: Zašto je teško učiniti rutiranje na Lightning mreži profitabilnim?
+answer: Troškovi i konkurencija
+wrong_answers:
+  - Ograničenje kanala
+  - Nema zahteva
+  - Nedostatak globalne likvidnosti
+explanation: |
+  Troškovi na lancu, konkurencija i operativni zahtevi čine profitabilnost poslovanja usmeravanja neizvesnom.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Wat gebeurt er tijdens het afwikkelproces als er paniek optreedt in Rust?
+answer: Rust loopt terug door de aanroepstapel om een gedetailleerde stacktrace te geven
+wrong_answers:
+  - Rust beëindigt het programma onmiddellijk zonder opruiming of informatie
+  - Rust zet de paniek automatisch om in een herstelbaar resultaattype
+  - Rust herstart de mislukte bewerking vanaf het begin van de functie
+explanation: |
+  Wanneer er een panic optreedt in Rust, loopt het afwikkelproces terug door de aanroepstack om een gedetailleerde stacktrace te geven die precies laat zien waar de panic optrad. Dit helpt ontwikkelaars de bron van problemen te identificeren tijdens het debuggen. De andere opties zijn onjuist: Rust eindigt niet onmiddellijk zonder cleanup (dat gebeurt alleen als afwikkelen is uitgeschakeld), panics kunnen niet automatisch worden geconverteerd naar Result types, en Rust herstart mislukte operaties niet.

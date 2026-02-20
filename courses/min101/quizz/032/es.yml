@@ -1,0 +1,9 @@
+question: ¿Cuál era el monto del subsidio de bloque al lanzamiento de Bitcoin en 2009?
+answer: 50 BTC
+wrong_answers:
+  - 25 BTC
+  - 12,5 BTC
+  - 100 BTC
+explanation: |
+  El subsidio inicial era de 50 BTC por bloque, antes de las divisiones sucesivas.
+reviewed: false

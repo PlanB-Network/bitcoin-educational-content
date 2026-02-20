@@ -4,5 +4,5 @@ wrong_answers:
   - Ils éliminent la nécessité de vérifier le hachage du bloc par rapport à la cible de difficulté, ce qui réduit les besoins de calcul pour les clients légers
   - Ils fournissent une preuve cryptographique qui empêche les attaques double-spending en validant toutes les entrées de transaction dans le bloc
   - Ils permettent aux clients SPV de reconstituer l'historique complet des transactions sans avoir à se connecter simultanément à plusieurs nœuds complets
-explanation: |
+explanation: | 
   Les preuves de Merkle exploitent la propriété de croissance logarithmique des arbres de Merkle, ce qui permet aux clients SPV de vérifier l'inclusion d'une transaction en utilisant uniquement les hachages des frères et sœurs le long du chemin menant à la racine. Cette méthode ne nécessite que quelques centaines d'octets, quelle que soit la taille du bloc, ce qui la rend pratique pour les clients légers. Les mauvaises réponses confondent les preuves de Merkle avec d'autres mécanismes Bitcoin - elles n'éliminent pas la vérification de la difficulté, n'empêchent pas directement double-spending et ne reconstruisent pas l'historique des transactions.

@@ -1,5 +1,6 @@
 ---
-term: GUSHIRAHO INANGA
+term: Ancrage bilatéral
+definition: Uburyo bwemerera ukunguruza abiticoini hagati y'uruhererekane rw'amaburoko nyamukuru n'uruhererekane rwegereye (sidechain) mu gufunga amafaranga ku ruhererekane rumwe kugira ngo yugururwe ku rundi.
 ---
 
 Uburyo bushinga isano hagati y’urutonde nyamukuru rwa Bitcoin na Sidechain (canke uruzitiro rw’umuduga). Ivyuma bifatanya (bikunze kwitwa peg y’inzira zibiri canke 2WP) bituma habaho isano ry’agaciro hagati y’ama bitcoins ku Blockchain nyamukuru n’itunga rihuye kuri Sidechain, bikaba bituma ama bitcoins ashobora guca hagati y’iyo minyororo ibiri.

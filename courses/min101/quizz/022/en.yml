@@ -1,0 +1,9 @@
+question: What does the hashrate measure?
+answer: Hashes per second
+wrong_answers:
+  - Blocks per second
+  - Transactions per second
+  - Bytes per second
+explanation: |
+  The hashrate expresses the number of hashing attempts made each second, in H/s.
+reviewed: true

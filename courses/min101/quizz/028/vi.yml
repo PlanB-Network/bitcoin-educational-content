@@ -1,0 +1,9 @@
+question: Trợ cấp khối (block subsidy) tương ứng với điều gì?
+answer: Tạo tiền tệ
+wrong_answers:
+  - Phí giao dịch
+  - Tiền gửi của người dùng
+  - Hình phạt spam
+explanation: |
+  Trợ cấp là phần thưởng tạo ra các bitcoin mới từ hư vô (ex nihilo) theo các quy tắc của giao thức.
+reviewed: false

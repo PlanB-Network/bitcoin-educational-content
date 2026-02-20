@@ -1,0 +1,9 @@
+question: คำสั่งใดที่สามารถใช้เพื่อติดตั้งซอฟต์แวร์จากที่เก็บข้อมูลอย่างเป็นทางการของ Ubuntu?
+answer: sudo apt install
+wrong_answers:
+  - sudo yum install
+  - sudo snap create
+  - ติดตั้งซอฟต์แวร์
+explanation: |
+  คำสั่ง "sudo apt install" ติดตั้งแพ็คเกจซอฟต์แวร์ผ่านตัวจัดการแพ็คเกจ APT ซึ่งเป็นวิธีการพื้นเมืองบน Ubuntu
+reviewed: false

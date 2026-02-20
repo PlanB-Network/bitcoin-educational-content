@@ -1,0 +1,9 @@
+question: Avant d’être ajoutées à la blockchain, dans quoi les transactions sont-elles regroupées ?
+answer: Dans un bloc
+wrong_answers:
+  - Dans un UTXO
+  - Dans un ASIC
+  - Dans un scriptSig
+explanation: |
+  La transaction n’est pas écrite instantanément dans la blockchain. Elle est d'abord intégrée dans un bloc.
+reviewed: false

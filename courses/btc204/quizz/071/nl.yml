@@ -1,10 +1,10 @@
-question: Welke tussenmaatregel kan genomen worden om verbindingen te verbergen wanneer je niet je eigen Bitcoin knooppunt gebruikt?
+question: Welke tussenmaatregel kan genomen worden om verbindingen te verbergen wanneer je niet je eigen Bitcoin-node gebruikt?
 answer: Gebruik van Tor.
 wrong_answers:
   - Gebruik van een firewall.
-  - Gebruik van een versleutelde Wallet.
-  - Gebruik van een dubbele Wallet.
+  - Gebruik van een versleutelde wallet.
+  - Gebruik van een dubbele wallet.
 explanation: |
-  Om het risico om geobserveerd te worden te beperken, is een tussenoplossing om Wallet software te gebruiken waarmee je je verbindingen via Tor kunt verbergen.
+  Om het risico om geobserveerd te worden te beperken, is een tussenoplossing om wallet-software te gebruiken waarmee je je verbindingen via Tor kunt verbergen.
   
 reviewed: false

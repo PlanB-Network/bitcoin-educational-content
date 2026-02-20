@@ -127,7 +127,7 @@ Specter Desktop поддерживает множество аппаратных
 
 
 
-https://planb.academy/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.academy/tutorials/wallet/hardware/coldcard-mk4-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
 Для Coldcard необходимо экспортировать открытые ключи с оборудования wallet либо через USB-соединение, либо на карту памяти microSD.
 

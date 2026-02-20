@@ -729,9 +729,9 @@ För bitcoiners och teknikanvändare som värdesätter både produktivitet och i
 
 
 - [Zen Browser officiella webbplats](https://zen-browser.app)
-- [Komplett dokumentation] (https://docs.zen-browser.app)
-- [GitHub-källkod] (https://github.com/zen-browser/desktop)
-- [Ladda ner sidan] (https://zen-browser.app/download)
+- [Komplett dokumentation](https://docs.zen-browser.app)
+- [GitHub-källkod](https://github.com/zen-browser/desktop)
+- [Ladda ner sidan](https://zen-browser.app/download)
 
 
 ### Gemenskap och stöd

@@ -1,5 +1,6 @@
 ---
 term: OP_2DUP (0X6E)
+definition: Opcode inayozidisha vipengele viwili vilivyo juu ya rundo.
 ---
 
 Hunakili Elements mbili za juu za rafu, kisha huziweka juu ya rafu. Kwa mfano, ikiwa safu ni:

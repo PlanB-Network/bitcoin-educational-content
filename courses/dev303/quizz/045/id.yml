@@ -1,0 +1,8 @@
+question: Apa manfaat utama dari fitur pemrograman fungsional Rust yang mempertahankan abstraksi tanpa biaya?
+answer: Mereka menghasilkan kode mesin yang efisien yang sebanding dengan pendekatan berbasis perulangan tradisional tanpa mengorbankan kinerja
+wrong_answers:
+  - Mereka secara otomatis menangani alokasi dan deallokasi memori untuk mencegah overhead runtime sepenuhnya
+  - Mereka menghilangkan kebutuhan untuk pemeriksaan tipe pada waktu kompilasi sambil mempertahankan jaminan keamanan
+  - Mereka menyediakan fungsionalitas pengumpulan sampah yang berjalan tanpa memengaruhi kecepatan eksekusi program
+explanation: |
+  Abstraksi tanpa biaya dalam fitur pemrograman fungsional Rust berarti bahwa penggunaan closure dan iterator tidak mengorbankan kinerja demi ekspresifitas. Kompiler Rust mengoptimalkan konstruksi tingkat tinggi ini untuk menghasilkan kode mesin yang berkinerja sebaik perulangan tradisional yang ditulis tangan. Hal ini memungkinkan pengembang untuk menulis kode yang lebih ekspresif dan mudah dibaca tanpa membayar penalti kinerja saat runtime, yang merupakan prinsip utama filosofi desain Rust.

@@ -1,8 +1,9 @@
-question: Mu mushinga w’itegeko washikirijwe Inama Nshingamateka, ni igiki Dupont de Nemours yasavye ko cobuzwa?
-answer: Intambara zitera
+question: Mu mugambi w’itegeko washikirijwe Inama Nshingamateka, ni igiki Dupont de Nemours yasavye ko cobuzwa?
+answer: Intambara zo gutera
 wrong_answers:
   - Intambara z'ubudandaji
   - Intambara zo kwikingira
   - Intambara zose
 explanation: |
-  Dupont de Nemours, akurikije ingingo ngenderwako z’ubutegetsi bw’igihugu, yasavye ko intambara zitera zibujijwe, kuko yabona ko zishobora gutuma ubutunzi butera imbere be n’ukumererwa neza kw’abanyagihugu.
+  Dupont de Nemours, akurikije ingingo ngenderwako z’ubutegetsi bw’igihugu, yasavye ko intambara zitera zohagarikwa, kuko yabona ko zishobora kubuza ubutunzi gutera imbere be n’ukumererwa neza kw’abanyagihugu.
+reviewed: true

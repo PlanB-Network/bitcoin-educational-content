@@ -1,0 +1,8 @@
+question: Rust enumlarının her bir varyant içinde veri taşıyabilmesinin birincil avantajı nedir?
+answer: Tip göstergeleri ve ilişkili verileri bir araya getirerek bunlar arasındaki uyumsuzlukları önler
+wrong_answers:
+  - Enum'ların açık bildirim olmadan tüm standart özellikleri otomatik olarak uygulamasına izin verir
+  - Enumların herhangi bir işlev veya yöntemde genel parametreler olarak kullanılmasını sağlar
+  - Enumların benzer verilere sahip geleneksel yapılara göre daha az bellek tüketmesini sağlar
+explanation: |
+  Rust enum'ları her bir değişkene doğrudan veri ekleyebilir, bu da tip göstergeleri ve bunlarla ilişkili veriler için ayrı değişkenler tutmanın yaygın programlama hatasını ortadan kaldırır. Bu tasarım, verilerin her zaman varyantla eşleşmesini sağlayarak çalışma zamanı hatalarına yol açabilecek tutarsızlıkları önler. Tip için ayrı bir enum ve veri için ayrı değişkenler kullanabileceğiniz diğer dillerin aksine, Rust her şeyi bir araya getirerek tip ve verinin uyumsuz olmasını imkansız hale getirir.

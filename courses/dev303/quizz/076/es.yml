@@ -1,0 +1,8 @@
+question: ¿Por qué el uso de expect() en valores codificados que parecen verificados por el compilador es potencialmente problemático en el código de producción?
+answer: Los valores codificados pueden evolucionar con el tiempo a través de la refactorización, convirtiendo valores previamente válidos en fallos en tiempo de ejecución
+wrong_answers:
+  - El compilador no puede verificar la validez de los valores codificados en tiempo de compilación, por lo que expect() no es fiable
+  - Los valores codificados consumen más memoria que los dinámicos, lo que provoca problemas de rendimiento con expect()
+  - El método expect() añade una sobrecarga innecesaria en comparación con unwrap() cuando se trata de valores válidos conocidos
+explanation: |
+  La respuesta correcta subraya una idea crítica del capítulo: incluso los valores codificados aparentemente seguros pueden volverse peligrosos con el tiempo. El ejemplo muestra cómo una dirección IP válida puede ser refactorizada en una constante y más tarde cambiada a 'localhost', rompiendo la suposición original. Las respuestas erróneas son incorrectas porque: el compilador puede verificar los valores codificados en tiempo de compilación, el consumo de memoria no es el problema con expect(), y expect() no tiene una sobrecarga de rendimiento significativa en comparación con unwrap().

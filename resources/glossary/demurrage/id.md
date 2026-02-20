@@ -1,5 +1,6 @@
 ---
-term: DEMURRAGE
+term: Demurrage
+definition: Biaya yang terkait dengan kepemilikan mata uang, terkadang digunakan untuk menghukum tabungan jangka panjang.
 ---
 
 Biaya yang terkait dengan memegang mata uang. Lebih jauh lagi, _demeurage_ terkadang menunjuk pada mekanisme moneter di mana kepemilikan yang berkepanjangan dari sebuah mata uang mengakibatkan penalti bagi pemiliknya, misalnya, dengan secara bertahap mengurangi nilainya. Tujuannya sering kali adalah untuk meningkatkan kecepatan sirkulasi uang dengan mencegah tabungan jangka panjang.

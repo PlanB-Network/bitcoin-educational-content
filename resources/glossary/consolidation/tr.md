@@ -1,5 +1,6 @@
 ---
-term: KONSOLİDASYON
+term: Konsolidasyon
+definition: Gelecekteki ücretleri azaltmak için birkaç küçük UTXO'yu tek bir büyük UTXO'da birleştiren işlem.
 ---
 
 Birden fazla küçük UTXO'nun çıktı olarak tek ve daha büyük bir UTXO oluşturmak üzere tek bir girdide birleştirildiği özel bir işlem. Bu işlem kişinin kendi Wallet'ine yapılan bir işlemdir. Konsolidasyonun amacı, Bitcoin ağındaki ücretlerin düşük olduğu dönemlerden yararlanarak birkaç küçük UTXO'yu değer olarak daha büyük bir UTXO'da birleştirmektir. Böylece, ücret artışları durumunda zorunlu harcamaları öngörerek gelecekteki işlem ücretlerinden tasarruf edilmesini sağlar.
@@ -11,4 +12,3 @@ Gerçekten de çok sayıda girdisi olan işlemler daha ağır ve dolayısıyla d
 Ancak, konsolidasyon işlemlerinin bir zincir analizi sırasında fark edilebileceğini unutmamak önemlidir. Böyle bir işlem Ortak Girdi Ownership Sezgiselini (CIOH) gösterir, yani konsolidasyon işleminin girdilerinin tek bir varlığa ait olduğu anlamına gelir. Bu, kullanıcı için gizlilik açısından sonuçlar doğurabilir.
 
 
-![](../../dictionnaire/assets/7.webp)

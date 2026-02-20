@@ -1,0 +1,9 @@
+question: 比特币 ASIC 专门设计用于运行哪种算法？
+answer: SHA256d
+wrong_answers:
+  - SHA512d
+  - SHA1
+  - SHA512
+explanation: |
+  比特币 ASIC 专用于比特币工作量证明所使用的双重 SHA256 算法。
+reviewed: false

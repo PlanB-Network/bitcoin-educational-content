@@ -8,7 +8,6 @@ wrong_answers:
   - Car il y a plus d'outputs que d'inputs.
 
 explanation: |
-  L'analyse d'une transaction Stonewall de l'extérieur ne conduit pas à l'application de la CIOH, car la présence de deux outputs de même montant suggère un pattern de coinjoin. 
-  D'un point de vue extérieur, la CIOH n'est donc pas applicable dans ce cas spécifique.
+  L'analyse d'une transaction Stonewall de l'extérieur ne conduit pas à l'application de la CIOH, car la présence de deux outputs de même montant suggère un pattern de coinjoin. D'un point de vue extérieur, la CIOH n'est donc pas applicable dans ce cas spécifique.
 
-reviewed: true 
+reviewed: true

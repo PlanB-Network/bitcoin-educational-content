@@ -1,5 +1,6 @@
 ---
-term: LIGHTNING NODE (闪电节点)
+term: Lightning 节点
 
+definition: 运行 Lightning Network 实现以创建和管理支付通道的计算机。
 ---
 运行闪电网络（Eclair、LND、C-Lightning等）的计算机。闪电节点建立在比特币节点上，可以创建和管理不同用户之间的双向支付通道。闪电节点相互连接，形成一个支付通道网络。这些通道实现几乎无限数量的交易，而无需在比特币区块链上单独发布交易记录。

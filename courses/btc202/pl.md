@@ -133,7 +133,7 @@ Czy jesteś gotowy, aby włączyć swój pierwszy węzeł Bitcoin? Wyznacz kurs 
 
 
 
-Zgodnie z opisem jego twórcy, Satoshi Nakamoto, Bitcoin przedstawia się jako elektroniczny system gotówkowy peer-to-peer. To proste zdanie, będące tytułem Białej Księgi, zawiera wiele wskazówek dotyczących natury Bitcoin:
+Zgodnie z opisem jego twórcy, [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi), Bitcoin przedstawia się jako elektroniczny system gotówkowy [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p). To proste zdanie, będące tytułem [Białej Księgi](https://planb.academy/resources/glossary/white-paper), zawiera wiele wskazówek dotyczących natury Bitcoin:
 
 
 
@@ -144,7 +144,7 @@ Zgodnie z opisem jego twórcy, Satoshi Nakamoto, Bitcoin przedstawia się jako e
 
 
 
-Ponieważ Bitcoin jest systemem, musi być koniecznie uruchamiany na komputerach. A ze względu na jego naturę peer-to-peer, to sami użytkownicy biorą odpowiedzialność za uruchomienie tych maszyn. To, co nazywamy "węzłem Bitcoin", jest dokładnie tym komputerem, na którym działa oprogramowanie implementujące protokół Bitcoin (podobnie jak Bitcoin core, ale do tego wrócimy później). To właśnie umożliwia Bitcoin działanie bez centralnego organu: walidacja jest przeprowadzana w sposób rozproszony, przez tysiące niezależnych maszyn należących do tysięcy użytkowników.
+Ponieważ Bitcoin jest systemem, musi być koniecznie uruchamiany na komputerach. A ze względu na jego naturę peer-to-peer, to sami użytkownicy biorą odpowiedzialność za uruchomienie tych maszyn. To, co nazywamy "[węzłem Bitcoin](https://planb.academy/resources/glossary/node)", jest dokładnie tym komputerem, na którym działa oprogramowanie implementujące protokół Bitcoin (podobnie jak [Bitcoin core](https://planb.academy/resources/glossary/bitcoin-core), ale do tego wrócimy później). To właśnie umożliwia Bitcoin działanie bez centralnego organu: walidacja jest przeprowadzana w sposób [rozproszony](https://planb.academy/resources/glossary/distributed), przez tysiące niezależnych maszyn należących do tysięcy użytkowników.
 
 
 
@@ -156,7 +156,7 @@ Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://B
 
 
 
-To właśnie ci użytkownicy zapewniają bezpieczeństwo Bitcoin. Jak wyjaśnia Eric Voskuil w swojej książce *Cryptoeconomics*, bezpieczeństwo Bitcoin nie zależy ani od Blockchain, ani od mocy haszującej, ani od walidacji, decentralizacji, kryptografii, open source, ani teorii gier. Bezpieczeństwo Bitcoin zależy przede wszystkim od osób, które są skłonne narazić się na osobiste ryzyko. Decentralizacja pozwala na rozłożenie tego ryzyka na dużą liczbę osób i tylko ich zdolność do stawienia oporu zapewnia solidność systemu.
+To właśnie ci użytkownicy zapewniają bezpieczeństwo Bitcoin. Jak wyjaśnia Eric Voskuil w swojej książce *Cryptoeconomics*, bezpieczeństwo Bitcoin nie zależy ani od [Blockchain](https://planb.academy/resources/glossary/blockchain), ani od [mocy haszującej](https://planb.academy/resources/glossary/hashrate), ani od walidacji, decentralizacji, [kryptografii](https://planb.academy/resources/glossary/cryptography), [open source](https://planb.academy/resources/glossary/foss), ani teorii gier. Bezpieczeństwo Bitcoin zależy przede wszystkim od osób, które są skłonne narazić się na osobiste ryzyko. Decentralizacja pozwala na rozłożenie tego ryzyka na dużą liczbę osób i tylko ich zdolność do stawienia oporu zapewnia solidność systemu.
 
 
 
@@ -175,7 +175,7 @@ Możemy zatem rozróżnić i nazwać kilka pojęć, aby wyjaśnić sprawy do ko�
 
 - Waluta Bitcoin: jednostka rozliczeniowa używana do transakcji w tym systemie;
 - Sieć Bitcoin: zbiór wszystkich połączonych węzłów;
-- Węzły Bitcoin: maszyny z uruchomioną implementacją Bitcoin;
+- Węzły Bitcoin: maszyny z uruchomioną [implementacją Bitcoin](https://planb.academy/resources/glossary/bitcoin-implementation);
 - Implementacje Bitcoin: oprogramowanie, które tłumaczy protokół na instrukcje wykonywalne;
 - Protokół Bitcoin: zestaw zasad regulujących działanie systemu;
 - System Bitcoin: spójne połączenie wszystkich Elements.
@@ -190,7 +190,7 @@ Węzły Bitcoin tworzą razem tak zwaną sieć Bitcoin. Umożliwiają one dział
 
 
 
-Od samego początku Bitcoin został zaprojektowany, aby umożliwić każdemu użytkownikowi uruchomienie osobistego węzła. Przypadek ten pozostaje aktualny w przypadku dzisiejszego oprogramowania Bitcoin core, które łączy role Wallet i węzła. Jednak obecnie funkcja ta jest często rozdzielana: wiele nowoczesnych portfeli Bitcoin to po prostu portfele, które łączą się z zewnętrznymi węzłami (należącymi do tej samej osoby lub nie).
+Od samego początku Bitcoin został zaprojektowany, aby umożliwić każdemu użytkownikowi uruchomienie osobistego węzła. Przypadek ten pozostaje aktualny w przypadku dzisiejszego oprogramowania Bitcoin core, które łączy role Wallet i węzła. Jednak obecnie funkcja ta jest często rozdzielana: wiele nowoczesnych [portfeli](https://planb.academy/resources/glossary/wallet) Bitcoin to po prostu portfele, które łączą się z zewnętrznymi węzłami (należącymi do tej samej osoby lub nie).
 
 
 
@@ -198,7 +198,7 @@ Od samego początku Bitcoin został zaprojektowany, aby umożliwić każdemu uż
 
 
 
-Pierwszym zadaniem węzła jest utrzymanie lokalnej kopii Blockchain. Aby zapobiec Double-spending na Bitcoin bez angażowania centralnego organu, każdy użytkownik musi sprawdzić, czy w systemie nie istnieje żadna transakcja. Jedynym sposobem, aby być tego pewnym, jest znajomość wszystkich transakcji dokonanych na Bitcoin. Z tego powodu wszystkie transakcje są znakowane czasem i grupowane w bloki, a każdy węzeł przechowuje cały Blockchain.
+Pierwszym zadaniem węzła jest utrzymanie lokalnej kopii Blockchain. Aby zapobiec [Double-spending](https://planb.academy/resources/glossary/double-spending-attack) na Bitcoin bez angażowania centralnego organu, każdy użytkownik musi sprawdzić, czy w systemie nie istnieje żadna [transakcja](https://planb.academy/resources/glossary/transaction-tx). Jedynym sposobem, aby być tego pewnym, jest znajomość wszystkich transakcji dokonanych na Bitcoin. Z tego powodu wszystkie transakcje są [znakowane czasem](https://planb.academy/resources/glossary/timestamp) i grupowane w [bloki](https://planb.academy/resources/glossary/block), a każdy węzeł przechowuje cały Blockchain.
 
 
 
@@ -208,7 +208,7 @@ Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://B
 
 
 
-Blockchain jest zatem rejestrem ewoluującym: za każdym razem, gdy nowy blok jest publikowany przez Miner, węzeł sprawdza jego ważność przed dodaniem go do własnej lokalnej kopii łańcucha. Na dzień dzisiejszy (lipiec 2025 r.) kompletny Blockchain przekracza 675 GB, a rozmiar ten nadal rośnie, ponieważ nowy blok jest dodawany średnio co 10 minut.
+Blockchain jest zatem rejestrem ewoluującym: za każdym razem, gdy nowy blok jest publikowany przez [Miner](https://planb.academy/resources/glossary/miner), węzeł sprawdza jego ważność przed dodaniem go do własnej lokalnej kopii łańcucha. Na dzień dzisiejszy (lipiec 2025 r.) kompletny Blockchain przekracza 675 GB, a rozmiar ten nadal rośnie, ponieważ nowy blok jest dodawany średnio co 10 minut.
 
 
 
@@ -216,7 +216,7 @@ Blockchain jest zatem rejestrem ewoluującym: za każdym razem, gdy nowy blok je
 
 
 
-Węzeł utrzymuje również lokalny zapis wszystkich UTXO istniejących w danym momencie, znany jako **zestaw UTXO**. Ta baza danych zawiera wszystkie niewydane fragmenty Bitcoin. Powrócimy do tego tematu w szczegółach w ostatniej części kursu.
+Węzeł utrzymuje również lokalny zapis wszystkich [UTXO](https://planb.academy/resources/glossary/utxo) istniejących w danym momencie, znany jako **[zestaw UTXO](https://planb.academy/resources/glossary/utxo-set)**. Ta baza danych zawiera wszystkie niewydane fragmenty Bitcoin. Powrócimy do tego tematu w szczegółach w ostatniej części kursu.
 
 
 
@@ -224,14 +224,14 @@ Węzeł utrzymuje również lokalny zapis wszystkich UTXO istniejących w danym 
 
 
 
-Drugą rolą węzła jest zapewnienie weryfikacji i propagacji transakcji. Gdy nowa transakcja dociera do węzła (za pośrednictwem oprogramowania Wallet lub innego węzła), węzeł sprawdza, czy jest ona zgodna z zestawem reguł (reguły konsensusu i reguły przekazywania). Na przykład:
+Drugą rolą węzła jest zapewnienie weryfikacji i propagacji transakcji. Gdy nowa transakcja dociera do węzła (za pośrednictwem oprogramowania Wallet lub innego węzła), węzeł sprawdza, czy jest ona zgodna z zestawem reguł ([reguły konsensusu](https://planb.academy/resources/glossary/consensus-rules) i reguły [przekazywania](https://planb.academy/resources/glossary/relay)). Na przykład:
 
 
 
 
 - wydane bitcoiny muszą istnieć w jego zestawie UTXO (baza danych niewydanych wyjść);
-- podpis musi być ważny, a wszystkie warunki wydatków muszą być spełnione (ważny skrypt);
-- całkowita kwota wyników nie może przekraczać całkowitej kwoty nakładów, co oznacza, że koszty nie mogą być ujemne.
+- [podpis](https://planb.academy/resources/glossary/digital-signature) musi być ważny, a wszystkie warunki wydatków muszą być spełnione (ważny [skrypt](https://planb.academy/resources/glossary/script));
+- całkowita kwota [wyników](https://planb.academy/resources/glossary/output) nie może przekraczać całkowitej kwoty [nakładów](https://planb.academy/resources/glossary/input), co oznacza, że [koszty](https://planb.academy/resources/glossary/transaction-fees) nie mogą być ujemne.
 
 
 
@@ -239,7 +239,7 @@ Drugą rolą węzła jest zapewnienie weryfikacji i propagacji transakcji. Gdy n
 
 
 
-Po zatwierdzeniu transakcja jest przechowywana w Mempool węzła, tymczasowej przestrzeni pamięci zarezerwowanej dla niepotwierdzonych transakcji, a następnie przekazywana do innych sieci równorzędnych, z którymi jest połączona. Ten mechanizm dystrybucji i walidacji jest kontynuowany od węzła do węzła. W ten sposób transakcja jest propagowana w całej sieci Bitcoin, a każdy węzeł przechowuje ją w Mempool, dopóki nie zostanie włączona do ważnego bloku przez Miner, który następnie działa na jej pierwsze potwierdzenie.
+Po zatwierdzeniu transakcja jest przechowywana w [Mempool](https://planb.academy/resources/glossary/mempool) węzła, tymczasowej przestrzeni pamięci zarezerwowanej dla niepotwierdzonych transakcji, a następnie przekazywana do innych sieci równorzędnych, z którymi jest połączona. Ten mechanizm dystrybucji i walidacji jest kontynuowany od węzła do węzła. W ten sposób transakcja jest [propagowana](https://planb.academy/resources/glossary/diffusion) w całej sieci Bitcoin, a każdy węzeł przechowuje ją w Mempool, dopóki nie zostanie włączona do ważnego bloku przez Miner, który następnie działa na jej pierwsze [potwierdzenie](https://planb.academy/resources/glossary/confirmation).
 
 
 
@@ -247,7 +247,7 @@ Po zatwierdzeniu transakcja jest przechowywana w Mempool węzła, tymczasowej pr
 
 
 
-Trzecia rola węzła obejmuje zarządzanie wydobytymi blokami. Gdy Miner wykryje nowy blok z ważnym Proof of Work, jest on rozgłaszany w sieci. Węzły odbierają go, sprawdzają, czy jest zgodny ze wszystkimi zasadami protokołu, a następnie integrują go z własną lokalną kopią Blockchain, jeśli jest ważny. Podobnie jak w przypadku transakcji, nowo zweryfikowane bloki są następnie przekazywane do wszystkich węzłów równorzędnych podłączonych do węzła. Proces ten trwa do momentu, aż wszystkie węzły w sieci Bitcoin będą świadome nowego bloku.
+Trzecia rola węzła obejmuje zarządzanie wydobytymi blokami. Gdy Miner wykryje nowy blok z ważnym [Proof of Work](https://planb.academy/resources/glossary/proof-of-work), jest on rozgłaszany w sieci. Węzły odbierają go, sprawdzają, czy jest zgodny ze wszystkimi zasadami protokołu, a następnie integrują go z własną lokalną kopią Blockchain, jeśli jest ważny. Podobnie jak w przypadku transakcji, nowo zweryfikowane bloki są następnie przekazywane do wszystkich węzłów równorzędnych podłączonych do węzła. Proces ten trwa do momentu, aż wszystkie węzły w sieci Bitcoin będą świadome nowego bloku.
 
 
 
@@ -304,7 +304,7 @@ Początkowo, gdy Bitcoin został uruchomiony przez Satoshi Nakamoto w 2009 roku,
 
 
 
-Jednak wraz ze stopniową popularyzacją Bitcoin i wzrostem liczby górników, krajobraz konkurencyjny w Mining uległ radykalnej zmianie. Obecnie Mining stał się niezwykle konkurencyjną działalnością, zdominowaną przez graczy przemysłowych wyposażonych w wyspecjalizowaną infrastrukturę. Moc wymagana do wydobycia nowego bloku jest obecnie tak duża, że jest to praktycznie niemożliwe dla indywidualnego użytkownika przy użyciu tylko konwencjonalnego komputera. W rezultacie Mining jest obecnie przeprowadzany głównie przy użyciu wyspecjalizowanych maszyn zwanych ASIC (*Application-Specific Integrated Circuits*). Układy te są zoptymalizowane wyłącznie do uruchamiania podwójnego SHA-256, algorytmu używanego w Mining na Bitcoin.
+Jednak wraz ze stopniową popularyzacją Bitcoin i wzrostem liczby górników, krajobraz konkurencyjny w Mining uległ radykalnej zmianie. Obecnie Mining stał się niezwykle konkurencyjną działalnością, zdominowaną przez graczy przemysłowych wyposażonych w wyspecjalizowaną infrastrukturę. Moc wymagana do wydobycia nowego bloku jest obecnie tak duża, że jest to praktycznie niemożliwe dla indywidualnego użytkownika przy użyciu tylko konwencjonalnego komputera. W rezultacie Mining jest obecnie przeprowadzany głównie przy użyciu wyspecjalizowanych maszyn zwanych [ASIC](https://planb.academy/resources/glossary/asic) (*Application-Specific Integrated Circuits*). Układy te są zoptymalizowane wyłącznie do uruchamiania podwójnego [SHA-256](https://planb.academy/resources/glossary/sha256), algorytmu używanego w Mining na Bitcoin.
 
 
 
@@ -328,7 +328,7 @@ Miner potrzebuje węzła Bitcoin do interakcji z siecią.
 
 
 
-Rola Miner jest również czasami odróżniana od roli rozdrabniacza. Rozdrabniacz to maszyna, której zadaniem jest Hash szablonów bloków dostarczanych przez serwer puli, szukając hashy, które spełniają cel trudności zdefiniowany dla udziałów, a nie Bitcoin. Pozostała część procesu Mining, która obejmuje faktyczną budowę bloku, wybór transakcji lub wyszukiwanie Proof-of-Work zgodnie z trudnością Bitcoin, a także dystrybucję, jest przeprowadzana bezpośrednio przez pule.
+Rola Miner jest również czasami odróżniana od roli grind. Grind to maszyna, której zadaniem jest Hash szablonów bloków dostarczanych przez serwer puli, szukając hashy, które spełniają cel trudności zdefiniowany dla udziałów, a nie Bitcoin. Pozostała część procesu Mining, która obejmuje faktyczną budowę bloku, wybór transakcji lub wyszukiwanie Proof-of-Work zgodnie z trudnością Bitcoin, a także dystrybucję, jest przeprowadzana bezpośrednio przez pule.
 
 
 
@@ -598,7 +598,7 @@ Są to podstawowe zasady protokołu Bitcoin, zapewniające integralność system
 
 
 
-Zmiana tych zasad jest równoznaczna ze zmianą protokołu, a tym samym waluty (Hard Fork). Jednak nawet bez próby ich modyfikacji, prosty fakt ścisłego stosowania istniejących zasad nadaje pewną moc: jeśli blok narusza zasady, węzeł natychmiast go odrzuca.
+Zmiana tych zasad jest równoznaczna ze zmianą protokołu, a tym samym waluty ([Hard Fork](https://planb.academy/resources/glossary/hard-fork)). Jednak nawet bez próby ich modyfikacji, prosty fakt ścisłego stosowania istniejących zasad nadaje pewną moc: jeśli blok narusza zasady, węzeł natychmiast go odrzuca.
 
 
 
@@ -722,7 +722,7 @@ Full node nie musi nikomu ufać, ponieważ weryfikuje i zna wszystkie informacje
 
 
 
-W praktyce Full node wymaga nietrywialnych zasobów, w tym kilkuset gigabajtów na pliki blokowe, procesora zdolnego do sprawdzania poprawności skryptów, pamięci RAM dla Mempool i pamięci podręcznych oraz stabilnej przepustowości. Pierwsza synchronizacja (*IBD*) odczytuje i weryfikuje całą historię: jest intensywna, ale odbywa się tylko raz. Full node aktywnie uczestniczy w sieci, przekazując bloki i transakcje, i może akceptować połączenia przychodzące, aby pomagać innym peerom.
+W praktyce Full node wymaga nietrywialnych zasobów, w tym kilkuset gigabajtów na pliki blokowe, procesora zdolnego do sprawdzania poprawności skryptów, pamięci RAM dla Mempool i pamięci podręcznych oraz stabilnej przepustowości. Pierwsza synchronizacja (*[IBD](https://planb.academy/resources/glossary/initial-block-download-ibd)*) odczytuje i weryfikuje całą historię: jest intensywna, ale odbywa się tylko raz. Full node aktywnie uczestniczy w sieci, przekazując bloki i transakcje, i może akceptować połączenia przychodzące, aby pomagać innym peerom.
 
 
 
@@ -758,7 +758,7 @@ Krótko mówiąc, śledzenie Wallet działa bezproblemowo na węźle pruned, je�
 
 
 
-Węzeł SPV (*Simplified Payment Verification*), czyli węzeł lekki, zachowuje tylko nagłówki bloków, a nie szczegóły transakcji, i polega na innych pełnych węzłach w celu uzyskania dowodu, że transakcja znajduje się w bloku (dowody Merkle'a za pośrednictwem drzew), dla którego posiada nagłówek. Koncepcja uproszczonej weryfikacji płatności nie jest nowa, została zaproponowana przez samego Satoshi Nakamoto w części 8 Białej Księgi.
+Węzeł [SPV](https://planb.academy/resources/glossary/spv-node-light-node) (*Simplified Payment Verification*), czyli węzeł lekki, zachowuje tylko nagłówki bloków, a nie szczegóły transakcji, i polega na innych pełnych węzłach w celu uzyskania dowodu, że transakcja znajduje się w bloku (dowody [Merkle](https://planb.academy/resources/glossary/merkle-tree)'a za pośrednictwem drzew), dla którego posiada nagłówek. Koncepcja uproszczonej weryfikacji płatności nie jest nowa, została zaproponowana przez samego Satoshi Nakamoto w części 8 Białej Księgi.
 
 
 
@@ -812,7 +812,7 @@ Dla początkującego użytkownika posiadającego tylko Wallet w aplikacji mobiln
 
 
 
-Full node pozostaje najlepszym rozwiązaniem, jeśli chcesz być całkowicie niezależny w korzystaniu z Bitcoin i nie ograniczać się później do zaawansowanych zastosowań, takich jak indeksator, węzeł Lightning, a nawet Block explorer. Dokładnie to zamierzamy zbadać w tym kursie!
+Full node pozostaje najlepszym rozwiązaniem, jeśli chcesz być całkowicie niezależny w korzystaniu z Bitcoin i nie ograniczać się później do zaawansowanych zastosowań, takich jak indeksator, węzeł [Lightning](https://planb.academy/resources/glossary/lightning-network), a nawet Block explorer. Dokładnie to zamierzamy zbadać w tym kursie!
 
 
 
@@ -853,7 +853,7 @@ Jest to najbardziej suwerenne i elastyczne podejście: wiesz dokładnie, co jest
 
 
 
-[Bitcoin core jest ultra-większościowym klientem sieci](https://bitcoincore.org/). Pobiera, weryfikuje i utrzymuje Blockchain, zapewnia interfejsy API RPC/REST i może zintegrować Wallet. Jeśli wolisz standardowe narzędzia i czujesz się komfortowo, dodając usługi samodzielnie (takie jak serwer Electrum, eksplorator i LND), lepiej będzie, jeśli użyjesz Core w obecnej formie.
+[Bitcoin core jest ultra-większościowym klientem sieci](https://bitcoincore.org/). Pobiera, weryfikuje i utrzymuje Blockchain, zapewnia interfejsy API [RPC](https://planb.academy/resources/glossary/rpc-remote-procedure-call)/REST i może zintegrować Wallet. Jeśli wolisz standardowe narzędzia i czujesz się komfortowo, dodając usługi samodzielnie (takie jak serwer Electrum, eksplorator i LND), lepiej będzie, jeśli użyjesz Core w obecnej formie.
 
 
 
@@ -1521,7 +1521,7 @@ Jedną z kluczowych przewag Umbrel nad konkurencją jest ogromna i bardzo aktywn
 
 
 
-Kod Umbrel jest publicznie dostępny (można go przeglądać, Fork i modyfikować), ale nie jest objęty prawdziwą licencją open-source. W rzeczywistości umbrelOS jest rozpowszechniany na licencji [*PolyForm Noncommercial 1.0*] (https://polyformproject.org/licenses/noncommercial/1.0.0/), chociaż niektóre powiązane narzędzia programistyczne są dostępne na licencji MIT.
+Kod Umbrel jest publicznie dostępny (można go przeglądać, Fork i modyfikować), ale nie jest objęty prawdziwą licencją open-source. W rzeczywistości umbrelOS jest rozpowszechniany na licencji [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0/), chociaż niektóre powiązane narzędzia programistyczne są dostępne na licencji MIT.
 
 
 
@@ -1856,7 +1856,7 @@ Aby rozpocząć konfigurację Umbrel, kliknij przycisk "*Start*".
 
 
 
-Wybierz pseudonim lub wprowadź swoje imię i nazwisko, a następnie ustaw silne hasło. Bądź ostrożny: to hasło jest jedyną barierą chroniącą dostęp do Umbrel z twojej sieci (a zatem potencjalnie do twoich bitcoinów, jeśli uruchomisz węzeł Lightning na Umbrel). Chroni również zdalny dostęp przez Tor lub VPN, jeśli te usługi są włączone.
+Wybierz pseudonim lub wprowadź swoje imię i nazwisko, a następnie ustaw silne hasło. Bądź ostrożny: to hasło jest jedyną barierą chroniącą dostęp do Umbrel z twojej sieci (a zatem potencjalnie do twoich bitcoinów, jeśli uruchomisz węzeł Lightning na Umbrel). Chroni również zdalny dostęp przez [Tor](https://planb.academy/resources/glossary/tor) lub VPN, jeśli te usługi są włączone.
 
 
 
@@ -2514,9 +2514,11 @@ Na koniec polecam aplikację *Lightning Network+*, która pozwala znaleźć part
 
 
 
-Dzięki Umbrel zarządzanie osobistym węzłem Lightning zostało znacznie uproszczone, ale nadal jest stosunkowo złożone. Z tego powodu przyjrzymy się bliżej temu tematowi w przyszłym kursie poświęconym w całości temu zastosowaniu.
+Dzięki Umbrel zarządzanie osobistym węzłem Lightning jest uproszczone, jednak nadal pozostaje stosunkowo złożone. Dlatego polecam Państwu udział w kursie LNP 202, który stanowi logiczną kontynuację kursu BTC 202 i w ramach którego krok po kroku przeprowadzam Państwa przez proces konfiguracji i zarządzania węzłem Lightning na Umbrel.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Skala ogonowa
 
@@ -2604,7 +2606,7 @@ https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b
 
 
 
-BTCPay Server to darmowy procesor płatności typu open-source, który umożliwia przyjmowanie płatności za pośrednictwem Bitcoin i Lightning Network bez pośredników, przy jednoczesnym zachowaniu własnego przechowywania środków.
+[BTCPay Server](https://planb.academy/resources/glossary/btcpay-server) to darmowy procesor płatności typu open-source, który umożliwia przyjmowanie płatności za pośrednictwem Bitcoin i Lightning Network bez pośredników, przy jednoczesnym zachowaniu własnego przechowywania środków.
 
 
 
@@ -2781,7 +2783,7 @@ Dzięki tym prostym nawykom węzeł Umbrel pozostanie stabilny, bezpieczny i uż
 
 
 
-Węzeł Bitcoin uruchamia się bez wcześniejszej wiedzy o historii transakcji. Początkowo jest to tylko komputer z uruchomionym oprogramowaniem (Bitcoin core lub podobnym). Aby stać się w pełni zsynchronizowanym i działającym węzłem Bitcoin, musi on lokalnie zrekonstruować stan Ledger poprzez sprawdzenie wszystkich bloków opublikowanych od bloku Genesis (blok 0, opublikowany przez Satoshi Nakamoto 3 stycznia 2009 r.). Krok ten nazywany jest **IBD (_Initial Block Download_)**.
+Węzeł Bitcoin uruchamia się bez wcześniejszej wiedzy o historii transakcji. Początkowo jest to tylko komputer z uruchomionym oprogramowaniem (Bitcoin core lub podobnym). Aby stać się w pełni zsynchronizowanym i działającym węzłem Bitcoin, musi on lokalnie zrekonstruować stan Ledger poprzez sprawdzenie wszystkich bloków opublikowanych od [bloku Genesis](https://planb.academy/resources/glossary/genesis-block) (blok 0, opublikowany przez Satoshi Nakamoto 3 stycznia 2009 r.). Krok ten nazywany jest **IBD (_Initial Block Download_)**.
 
 
 
@@ -2797,7 +2799,7 @@ IBD polega na pobieraniu i weryfikowaniu każdego bloku i transakcji indywidualn
 
 
 
-Synchronizacja rozpoczyna się od kroku _**headers-first**_. Węzeł żąda sekwencji nagłówków bloków od kilku elementów równorzędnych i dla każdego z nich weryfikuje Proof of Work, dostosowanie trudności, składnię, a także Timestamp i reguły numeru wersji. Krótko mówiąc, upewnia się, że każdy otrzymany nagłówek jest zgodny z regułami konsensusu.
+Synchronizacja rozpoczyna się od kroku _**headers-first**_. Węzeł żąda sekwencji nagłówków bloków od kilku elementów równorzędnych i dla każdego z nich weryfikuje Proof of Work, [dostosowanie trudności](https://planb.academy/resources/glossary/difficulty-adjustment), składnię, a także Timestamp i reguły numeru wersji. Krótko mówiąc, upewnia się, że każdy otrzymany nagłówek jest zgodny z regułami konsensusu.
 
 
 
@@ -2815,7 +2817,7 @@ Dla przypomnienia, blok Bitcoin składa się z 80-bajtowego nagłówka i listy t
 - Merkle Root transakcji
 - Timestamp (dłuższy niż mediana czasu poprzednich 11 bloków)
 - docelowy poziom trudności
-- Nonce
+- [Nonce](https://planb.academy/resources/glossary/nonce)
 
 
 
@@ -2823,7 +2825,7 @@ Dla przypomnienia, blok Bitcoin składa się z 80-bajtowego nagłówka i listy t
 
 
 
-Transakcje są zapisywane w Merkle Tree. Jest to struktura, która podsumowuje duży zestaw danych (w tym przypadku wszystkie transakcje w bloku), agregując ich skróty stopniowo dwa po dwa do pojedynczego "korzenia", udowadniając w ten sposób, że element należy do zestawu (i wykrywając wszelkie modyfikacje). W ten sposób każda modyfikacja transakcji modyfikuje również korzeń Merkle Tree, a tym samym odcisk palca nagłówka bloku. SegWit wprowadził oddzielny dodatkowy Commitment dla plików cookie (podpisów), umieszczony w bazie monet.
+Transakcje są zapisywane w Merkle Tree. Jest to struktura, która podsumowuje duży zestaw danych (w tym przypadku wszystkie transakcje w bloku), agregując ich skróty stopniowo dwa po dwa do pojedynczego "korzenia", udowadniając w ten sposób, że element należy do zestawu (i wykrywając wszelkie modyfikacje). W ten sposób każda modyfikacja transakcji modyfikuje również korzeń Merkle Tree, a tym samym odcisk palca nagłówka bloku. [SegWit](https://planb.academy/resources/glossary/segwit) wprowadził oddzielny dodatkowy Commitment dla plików cookie (podpisów), umieszczony w bazie monet.
 
 
 
@@ -2847,7 +2849,7 @@ Po zakończeniu IBD węzeł wchodzi w normalną fazę: weryfikuje nowe bloki, gd
 
 
 
-Bitcoin core zawiera mechanizm zaprojektowany w celu skrócenia czasu potrzebnego do pełnego uruchomienia węzła, przy jednoczesnym zachowaniu istoty zasady autonomicznej weryfikacji: AssumeValid.
+Bitcoin core zawiera mechanizm zaprojektowany w celu skrócenia czasu potrzebnego do pełnego uruchomienia węzła, przy jednoczesnym zachowaniu istoty zasady autonomicznej weryfikacji: [AssumeValid](https://planb.academy/resources/glossary/assume-valid).
 
 
 
@@ -2891,7 +2893,7 @@ Gdy węzeł uruchamia się ponownie po tym, jak był już używany, Core najpier
 
 
 
-W tym przypadku oprogramowanie wysyła zapytanie do _**DNS seeds**_. Są to [serwery utrzymywane przez uznanych twórców ekosystemu](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), które zwracają listę adresów IP przypuszczalnie aktywnych węzłów. Adresy te umożliwiają nowemu węzłowi zainicjowanie pierwszych połączeń i zażądanie niezbędnych danych z IBD. Oto lista *DNS seeds* aktywnych do tej pory (sierpień 2025):
+W tym przypadku oprogramowanie wysyła zapytanie do _**[DNS seeds](https://planb.academy/resources/glossary/dns-seeds)**_. Są to [serwery utrzymywane przez uznanych twórców ekosystemu](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), które zwracają listę adresów IP przypuszczalnie aktywnych węzłów. Adresy te umożliwiają nowemu węzłowi zainicjowanie pierwszych połączeń i zażądanie niezbędnych danych z IBD. Oto lista *DNS seeds* aktywnych do tej pory (sierpień 2025):
 
 
 
@@ -3007,7 +3009,7 @@ Aby móc cofnąć się w czasie podczas reorganizacji, Core zapisuje, równolegl
 
 
 
-Wyszukiwanie bloku bezpośrednio w płaskich plikach byłoby zbyt czasochłonne. Dlatego też Core utrzymuje bazę danych LevelDB w `blocks/index/`, która wymienia, dla każdego znanego bloku, metadane takie jak Hash, wysokość, status walidacji, plik `blk` i offset, w którym się znajduje. Gdy peer żąda bloku lub gdy wewnętrzny komponent musi uzyskać dostęp do określonego bloku, indeks ten zapewnia szybki dostęp. Bez tego indeksu wymagana byłaby zbyt duża liczba operacji.
+Wyszukiwanie bloku bezpośrednio w płaskich plikach byłoby zbyt czasochłonne. Dlatego też Core utrzymuje bazę danych [LevelDB](https://planb.academy/resources/glossary/leveldb) w `blocks/index/`, która wymienia, dla każdego znanego bloku, metadane takie jak Hash, wysokość, status walidacji, plik `blk` i offset, w którym się znajduje. Gdy peer żąda bloku lub gdy wewnętrzny komponent musi uzyskać dostęp do określonego bloku, indeks ten zapewnia szybki dostęp. Bez tego indeksu wymagana byłaby zbyt duża liczba operacji.
 
 
 
@@ -3049,7 +3051,7 @@ Całość wszystkich tych części w danym momencie T stanowi zestaw UTXO: duż�
 
 
 
-Zestaw UTXO jest przechowywany w folderze `chainstate/` jako kompaktowa baza danych LevelDB. Każda część kojarzy klucz pochodzący z Hash transakcji i indeksu wyjściowego z wartością zawierającą: kwotę, blokadę `scriptPubKey`, wysokość utworzonego bloku i wskaźnik coinbase.
+Zestaw UTXO jest przechowywany w folderze `chainstate/` jako kompaktowa baza danych LevelDB. Każda część kojarzy klucz pochodzący z Hash transakcji i indeksu wyjściowego z wartością zawierającą: kwotę, blokadę `scriptPubKey`, wysokość utworzonego bloku i wskaźnik [coinbase](https://planb.academy/resources/glossary/coinbase-transaction).
 
 
 
@@ -3073,13 +3075,13 @@ Należy zauważyć, że zestaw UTXO jest często w centrum obaw o decentralizacj
 
 
 
-Wzrost zestawu UTXO wynika również ze struktury prostych transakcji płatniczych na Bitcoin. Rzeczywiście, kiedy dokonujesz płatności, zużywasz pojedynczy UTXO jako dane wejściowe i tworzysz 2 nowe UTXO jako dane wyjściowe (jeden dla płatności, a drugi dla Exchange). Wreszcie, heurystyka analizy łańcucha, zwana CIOH (*Common Input Ownership Heuristic*), stanowi dodatkową zachętę do unikania konsolidacji Coin.
+Wzrost zestawu UTXO wynika również ze struktury prostych transakcji płatniczych na Bitcoin. Rzeczywiście, kiedy dokonujesz płatności, zużywasz pojedynczy UTXO jako dane wejściowe i tworzysz 2 nowe UTXO jako dane wyjściowe (jeden dla płatności, a drugi dla Exchange). Wreszcie, heurystyka analizy łańcucha, zwana [CIOH](https://planb.academy/resources/glossary/cioh) (*Common Input Ownership Heuristic*), stanowi dodatkową zachętę do unikania konsolidacji Coin.
 
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Ponieważ jego część musi być przechowywana w pamięci RAM, aby zweryfikować transakcje w rozsądnym czasie, zestaw UTXO może stopniowo uczynić działanie Full node zbyt kosztownym. Aby rozwiązać ten problem, istnieje już kilka propozycji, w szczególności [Utreexo](https://planb.academy/resources/glossary/utreexo).
+Ponieważ jego część musi być przechowywana w pamięci RAM, aby zweryfikować transakcje w rozsądnym czasie, zestaw UTXO może stopniowo uczynić działanie Full node zbyt kosztownym. Aby rozwiązać ten problem, istnieje już kilka propozycji, w szczególności Utreexo.
 
 
 
@@ -3106,7 +3108,7 @@ Należy zauważyć, że mempoole węzłów nie mają wartości konsensusu. Bitco
 
 
 
-Gdy transakcja zostanie odebrana, Core stosuje serię sprawdzeń pod kątem reguł konsensusu (składnia, prawidłowe skrypty, brak podwójnych wydatków itp.) oraz reguł Mempool, które są lokalną polityką (RBF, minimalne progi opłat, limit danych w `OP_RETURN` itp.). Jeśli transakcja jest zgodna z tymi zasadami, jest przechowywana w pamięci.
+Gdy transakcja zostanie odebrana, Core stosuje serię sprawdzeń pod kątem reguł konsensusu (składnia, prawidłowe skrypty, brak podwójnych wydatków itp.) oraz reguł Mempool, które są lokalną polityką ([RBF](https://planb.academy/resources/glossary/rbf-replacebyfee), minimalne progi opłat, limit danych w `OP_RETURN` itp.). Jeśli transakcja jest zgodna z tymi zasadami, jest przechowywana w pamięci.
 
 
 
@@ -3347,7 +3349,7 @@ Na poziomie sieci mamy również:
 
 
 
-Domyślnie węzeł komunikuje się przez clearnet, Tor i I2P. Oznacza to, że peery, z którymi łączy się w clearnecie, mogą zobaczyć twój publiczny adres IP Address, a twój dostawca usług internetowych prawdopodobnie będzie w stanie wykryć, że używasz węzła Bitcoin (chociaż P2P Transport V2 utrudnia podsłuchiwanie przez dostawcę usług internetowych). Nie jest to koniecznie problem, ale jeśli chcesz uniknąć wycieku tych informacji, możesz połączyć swój węzeł wyłącznie za pośrednictwem sieci Tor.
+Domyślnie węzeł komunikuje się przez clearnet, Tor i I2P. Oznacza to, że peery, z którymi łączy się w clearnecie, mogą zobaczyć twój publiczny adres IP Address, a twój dostawca usług internetowych prawdopodobnie będzie w stanie wykryć, że używasz węzła Bitcoin (chociaż [P2P Transport V2](https://planb.academy/resources/glossary/p2p-transport-v2) utrudnia podsłuchiwanie przez dostawcę usług internetowych). Nie jest to koniecznie problem, ale jeśli chcesz uniknąć wycieku tych informacji, możesz połączyć swój węzeł wyłącznie za pośrednictwem sieci Tor.
 
 
 
@@ -3466,7 +3468,7 @@ Poniżej znajdują się zaawansowane ustawienia dla Mempool i polityki przekaźn
 
 
 
-- `permitbaremultisig=1`: Zezwala na przekazywanie *bare-Multisig* transakcji P2MS (domyślnie: `1`). Jest to najstarszy szablon skryptu do ustanawiania warunków wielopodpisu na UTXO (wynaleziony w 2011 roku przez Gavina Andresena).
+- `permitbaremultisig=1`: Zezwala na przekazywanie *bare-[Multisig](https://planb.academy/resources/glossary/multisig)* transakcji P2MS (domyślnie: `1`). Jest to najstarszy szablon skryptu do ustanawiania warunków wielopodpisu na UTXO (wynaleziony w 2011 roku przez Gavina Andresena).
 
 
 
@@ -3490,7 +3492,7 @@ Poniżej znajdują się zaawansowane ustawienia dla Mempool i polityki przekaźn
 
 
 
-- `peerbloomfilters=1` : Aktywuje obsługę filtrów Blooma (BIP37), aby dostarczać przefiltrowane bloki/transakcje lekkim klientom (domyślnie: `0`). Uwaga, zwiększa to obciążenie zasobów.
+- `peerbloomfilters=1` : Aktywuje obsługę [filtrów Blooma](https://planb.academy/resources/glossary/bloom-filter) (BIP37), aby dostarczać przefiltrowane bloki/transakcje lekkim klientom (domyślnie: `0`). Uwaga, zwiększa to obciążenie zasobów.
 
 
 
@@ -3894,11 +3896,13 @@ Możesz teraz przejść do ostatniej części kursu, w której będziesz mógł 
 
 
 
-Dostępnych jest teraz kilka opcji. Następnym logicznym krokiem jest skonfigurowanie własnego węzła Lightning, co pozwoli ci być w pełni niezależnym od transakcji off-chain. Będzie to przedmiotem nadchodzącego kursu, który zostanie opublikowany jesienią 2025 r. na Plan ₿ Academy.
+Przed Państwem otwiera się teraz kilka ścieżek. Kolejnym logicznym krokiem jest uruchomienie własnego węzła Lightning, aby być w pełni niezależnym w zakresie transakcji off-chain. Właśnie temu poświęcony jest kolejny kurs na Plan ₿ Academy:
 
 
 
-W międzyczasie zapraszam do zapoznania się ze szkoleniem BTC 204, które pozwoli Ci zrozumieć i opanować zasady ochrony prywatności podczas korzystania z Bitcoin:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Zachęcam Państwa również do zapoznania się ze szkoleniem BTC 204, które pozwoli zrozumieć i opanować zasady ochrony prywatności w korzystaniu z Bitcoina:
 
 
 

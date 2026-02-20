@@ -57,9 +57,9 @@ Prêt à explorer le potentiel de Elements et de la sidechain Liquid ? C'est par
 
 :::video id=eae666b4-eddc-4e00-adea-2a5f94396044:::
 
-Elements est une plateforme blockchain open source, compatible avec la sidechain, qui donne accès à de puissantes fonctionnalités développées par les membres de la communauté, telles que les transactions confidentielles et les actifs émis.
+Elements est une plateforme [blockchain](https://planb.academy/resources/glossary/blockchain) open source, compatible avec la sidechain, qui donne accès à de puissantes fonctionnalités développées par les membres de la communauté, telles que les [transactions](https://planb.academy/resources/glossary/transaction-tx) confidentielles et les actifs émis.
 
-Elements est, à la base, un protocole qui permet de former un consensus autour de l'historique des transactions et des règles qui régissent le transfert et la création d'actifs stockés dans un grand livre distribué de la blockchain.
+Elements est, à la base, un protocole qui permet de former un [consensus](https://planb.academy/resources/glossary/consensus) autour de l'historique des transactions et des règles qui régissent le transfert et la création d'actifs stockés dans un grand livre distribué de la blockchain.
 
 De plus amples informations sur Elements sont disponibles sur le site web du projet Elements (https://elementsproject.org/), sur le blog officiel de Liquid (https://blog.liquid.net/) et sur le portail des développeurs (https://liquid.net/devs).
 
@@ -85,7 +85,7 @@ Elements est une plateforme blockchain à usage général qui peut également ê
 
 #### Signed Blocks (Blocs Signés)
 
-Elements utilise une fédération forte de signataires, appelés signataires de blocs, qui signent et créent des blocs de manière fiable et opportune. Cela supprime la latence de transaction du processus minier PoW, qui est sujet à une grande variance de temps de bloc en raison de sa distribution aléatoire de poisson. Le processus de signature de blocs fédérés permet de créer des blocs fiables sans qu'il soit nécessaire de recourir à la confiance d'un tiers ou à l'exploitation minière basée sur un `algorithme` de calcul.
+Elements utilise une fédération forte de signataires, appelés signataires de [blocs](https://planb.academy/resources/glossary/block), qui signent et créent des blocs de manière fiable et opportune. Cela supprime la latence de transaction du processus minier PoW, qui est sujet à une grande variance de temps de bloc en raison de sa distribution aléatoire de poisson. Le processus de signature de blocs fédérés permet de créer des blocs fiables sans qu'il soit nécessaire de recourir à la confiance d'un tiers ou à l'exploitation minière basée sur un `algorithme` de calcul.
 
 Elements ajoute toutes ces fonctionnalités à la base de code Bitcoin Core, étendant la capacité du protocole de la chaîne principale et permettant de nouveaux cas d'utilisation commerciale lorsqu'ils sont déployés en tant que chaîne latérale ou en tant que solution de chaîne de blocs autonome.
 
@@ -99,7 +99,7 @@ Elements ajoute toutes ces fonctionnalités à la base de code Bitcoin Core, ét
 
 :::video id=7c8c7981-11e5-47a2-a257-ef998f4892f5:::
 
-Elements apporte une solution technique aux problèmes auxquels les utilisateurs de la blockchain sont confrontés quotidiennement : latence des transactions, manque de confidentialité et risque de fongibilité.
+Elements apporte une solution technique aux problèmes auxquels les utilisateurs de la blockchain sont confrontés quotidiennement : latence des transactions, manque de confidentialité et risque de [fongibilité](https://planb.academy/resources/glossary/fungibility).
 
 Elements surmonte ces problèmes grâce à l'utilisation de la Signature par Blocs Fédérés et des Transactions Confidentielles.
 
@@ -123,7 +123,7 @@ Les actions qu'un membre d'une Fédération Forte peut effectuer sont réparties
 
 Combinés, les rôles de ces participants permettent à Elements d'offrir à la fois une création rapide de blocs (confirmation plus rapide et définitive des transactions) et des actifs garantis et transférables (actifs rattachés directement liés à une autre blockchain).
 
-Vous pouvez lire le livre blanc sur les Fédérations Fortes ici : https://blockstream.com/strong-federations.pdf
+Vous pouvez lire le [livre blanc](https://planb.academy/resources/glossary/white-paper) sur les Fédérations Fortes ici : https://blockstream.com/strong-federations.pdf
 
 ### Signataires de bloc
 
@@ -150,7 +150,7 @@ Pour qu'une sidechain fonctionne de manière fiable, elle doit permettre aux par
 
 La fonction Federated 2-way Peg permet à un actif d'être interopérable avec d'autres blockchains et d'être représentatif de l'actif natif d'une autre blockchain. En associant votre blockchain à une autre, vous pouvez étendre les capacités de la chaîne principale et surmonter certaines de ses limites inhérentes.
 
-À un niveau élevé, les transferts dans la sidechain se produisent lorsque quelqu'un envoie des actifs de la chaîne principale à une adresse contrôlée par un portefeuille Watchmen à signatures multiples. Cela a pour effet de geler les actifs sur la chaîne principale. Watchmen valide alors la transaction et libère le même montant de l'actif associé dans la sidechain. Les actifs libérés sont envoyés à un portefeuille de la sidechain qui peut prouver qu'il revendique les actifs originaux de la mainchain. Ce processus permet de déplacer les actifs de la chaîne principale vers la sidechain.
+À un niveau élevé, les transferts dans la sidechain se produisent lorsque quelqu'un envoie des actifs de la chaîne principale à une adresse contrôlée par un [portefeuille](https://planb.academy/resources/glossary/wallet) Watchmen à signatures multiples. Cela a pour effet de geler les actifs sur la chaîne principale. Watchmen valide alors la transaction et libère le même montant de l'actif associé dans la sidechain. Les actifs libérés sont envoyés à un portefeuille de la sidechain qui peut prouver qu'il revendique les actifs originaux de la mainchain. Ce processus permet de déplacer les actifs de la chaîne principale vers la sidechain.
 
 Afin de transférer des actifs vers la chaîne principale, un utilisateur effectue une transaction spéciale de retrait sur la chaîne secondaire. Cette transaction est vérifiée par les Watchmen, qui signent ensuite une dépense de transaction à partir du portefeuille multi-signature qu'ils contrôlent sur la chaîne principale. Un nombre seuil de participants à la fédération doit signer pour que la transaction sur la chaîne principale devienne valide. Lorsque les Watchmen renvoient un actif sur la chaîne principale, ils détruisent également le montant correspondant sur la chaîne secondaire, transférant ainsi efficacement les actifs entre les chaînes de blocs.
 
@@ -162,7 +162,7 @@ Afin de transférer des actifs vers la chaîne principale, un utilisateur effect
 
 Comme Elements est basé sur la base de code de Bitcoin, les composants qui constituent un réseau fonctionnel sont très similaires.
 
-Le logiciel du nœud Elements lui-même s'appelle `elementsd` et fonctionne comme un deamon sur la machine de l'utilisateur. Un deamon (ou service dans Windows) est un programme qui fonctionne en arrière-plan sans nécessiter le contrôle direct d'un utilisateur connecté.
+Le logiciel du [nœud](https://planb.academy/resources/glossary/node) Elements lui-même s'appelle `elementsd` et fonctionne comme un deamon sur la machine de l'utilisateur. Un deamon (ou service dans Windows) est un programme qui fonctionne en arrière-plan sans nécessiter le contrôle direct d'un utilisateur connecté.
 
 Note : Dans ce document, nous ferons toujours référence à elementsd comme étant la version deamon, mais tout peut être fait avec elements-qt, à condition que l'option serveur soit activée.
 
@@ -196,8 +196,8 @@ Certains éléments peuvent être modifiés à l'aide de ces paramètres :
 - L'actif à utiliser pour payer les frais de transaction sur le réseau.
 - L'emplacement de stockage des fichiers de données de la blockchain.
 - Les informations d'identification RPC utilisées pour se connecter à un nœud Bitcoin.
-- Le seuil `n de m` à respecter et les clés publiques valides qui peuvent signer les blocs.
-- Le script qui doit être satisfait afin de transférer des actifs vers ou depuis une sidechain.
+- Le seuil `n de m` à respecter et les [clés publiques](https://planb.academy/resources/glossary/public-key) valides qui peuvent signer les blocs.
+- Le [script](https://planb.academy/resources/glossary/script) qui doit être satisfait afin de transférer des actifs vers ou depuis une sidechain.
 - La connexion ou non à un nœud Bitcoin en tant que sidechain.
 
 Beaucoup d'entre eux font partie des règles de consensus du réseau, il est donc important qu'ils soient appliqués à tous les nœuds au démarrage. Certains peuvent être modifiés après l'initialisation d'une chaîne, mais d'autres doivent être corrigés après avoir été utilisés pour initialiser une chaîne.
@@ -301,7 +301,7 @@ Cela renvoie les détails de la transaction brute. Si vous regardez dans la sect
 
 Les deux premières sections de la VOUT sont des "blinded ranges" (fourchettes masquées) des montants en valeur et des données d'engagement qui servent de preuve du montant et du type d'actif réellement échangé.
 
-Même si nous importions la clé privée de e2 dans le portefeuille de e1, ce dernier ne serait toujours pas en mesure de voir les montants et le type d'actifs échangés, car il n'a toujours pas connaissance de la clé masquée utilisée par e2. Nous allons le prouver en important la clé privée utilisée par le portefeuille de e2 dans celui de e1. Tout d'abord, nous devons exporter la clé de e2
+Même si nous importions la [clé privée](https://planb.academy/resources/glossary/private-key) de e2 dans le portefeuille de e1, ce dernier ne serait toujours pas en mesure de voir les montants et le type d'actifs échangés, car il n'a toujours pas connaissance de la clé masquée utilisée par e2. Nous allons le prouver en important la clé privée utilisée par le portefeuille de e2 dans celui de e1. Tout d'abord, nous devons exporter la clé de e2
 
 ```
 e2-cli dumpprivkey <address>
@@ -361,7 +361,7 @@ Un Issued Assets bénéficie également de Transactions Confidentielles et peut 
 
 La première étape consiste à accéder à deux nœuds Elements, que nous appellerons e1 et e2. Les blockchains de ces nœuds ont été réinitialisées et l'actif par défaut a été réparti entre eux.
 
-Les deux nœuds se trouvent sur le même réseau local et sont connectés l'un à l'autre. Ils partagent donc les mêmes transactions dans leur mempool de transactions et des blockchains identiques. Bien qu'ils fonctionnent sur la même machine, il convient de noter qu'ils ne partagent pas les mêmes fichiers de blockchain. Chaque nœud gère sa propre copie locale de la blockchain, qui contient le même historique de transactions parce qu'ils sont en consensus et adhèrent aux mêmes règles de protocole les uns que les autres.
+Les deux nœuds se trouvent sur le même réseau local et sont connectés l'un à l'autre. Ils partagent donc les mêmes transactions dans leur [mempool](https://planb.academy/resources/glossary/mempool) de transactions et des blockchains identiques. Bien qu'ils fonctionnent sur la même machine, il convient de noter qu'ils ne partagent pas les mêmes fichiers de blockchain. Chaque nœud gère sa propre copie locale de la blockchain, qui contient le même historique de transactions parce qu'ils sont en consensus et adhèrent aux mêmes règles de protocole les uns que les autres.
 
 Commençons par vérifier la vision qu'à chaque nœud des émissions d'actifs existantes sur le réseau.
 
@@ -891,7 +891,7 @@ e1-cli importprivkey <priv-key-1>
 e2-cli importprivkey <priv-key-1>
 ```
 
-Nous devons maintenant faire mûrir certains blocs sur les deux chaînes. La maturité des blocs est une exigence du processus de rattachement, car elle protège contre les réorganisations de blocs sur la chaîne principale conduisant à une inflation de l'offre d'actifs rattachés dans la chaîne secondaire.
+Nous devons maintenant faire mûrir certains blocs sur les deux chaînes. La maturité des blocs est une exigence du processus de rattachement, car elle protège contre les réorganisations de blocs sur la chaîne principale conduisant à une [inflation](https://planb.academy/resources/glossary/inflation) de l'offre d'actifs rattachés dans la chaîne secondaire.
 
 Pour que cette section reste centrée sur le peg fédéré, nous allons générer des blocs sans utiliser le modèle de signature des blocs que nous avons étudiés dans la dernière section, et revenir à l'utilisation de la commande "generate" pour créer de nouveaux blocs.
 
@@ -1015,7 +1015,7 @@ Dans cette section, nous avons vu comment
 
 ### FederatedPegScript
 
-Afin de permettre à Elements de fonctionner comme une sidechain, le bloc genesis dans sa blockchain doit être créé avec un `fedpegscript` en place. Cela se fait en passant le paramètre `fedpegscript` au démarrage du nœud. Le script fera alors partie des règles de consensus de la blockchain Elements et permettra aux demandes de peg-in et de peg-out d'être validées et prises en compte.
+Afin de permettre à Elements de fonctionner comme une sidechain, le [bloc genesis](https://planb.academy/resources/glossary/genesis-block) dans sa blockchain doit être créé avec un `fedpegscript` en place. Cela se fait en passant le paramètre `fedpegscript` au démarrage du nœud. Le script fera alors partie des règles de consensus de la blockchain Elements et permettra aux demandes de peg-in et de peg-out d'être validées et prises en compte.
 
 Le `fedpegscript` est composé de clés publiques contrôlées par les personnes autorisées à effectuer les actions du peg. L'exemple suivant montre le format d'un fedpegscript multisig 2 sur 2 :
 

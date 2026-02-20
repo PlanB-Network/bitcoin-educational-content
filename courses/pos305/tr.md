@@ -128,7 +128,7 @@ BBC'nin "Bitcoin ve Blockchain nasıl çalışır?" başlıklı giriş bölümü
 :::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
 
-Bu alıştırma en az dokuz katılımcı gerektirmektedir. Bu alıştırma, Bitcoin'in nasıl çalıştığına dair fiziksel bir anlayış sağlamayı amaçlamaktadır. Ağdaki her bir rolü oynayarak, interaktif ve eğlenceli bir öğrenme yöntemine sahip olacaksınız. Bu alıştırma Lightning Network'yi içermez.
+Bu alıştırma en az dokuz katılımcı gerektirmektedir. Bu alıştırma, Bitcoin'in nasıl çalıştığına dair fiziksel bir anlayış sağlamayı amaçlamaktadır. Ağdaki her bir rolü oynayarak, interaktif ve eğlenceli bir öğrenme yöntemine sahip olacaksınız. Bu alıştırma [Lightning Network](https://planb.academy/resources/glossary/lightning-network)'yi içermez.
 
 
 ### Örnek: 9 / 11 kişi gerektirir
@@ -140,7 +140,7 @@ Roller şunlar:
 
 - 1 Müşteri
 - 1 Tüccar
-- 7 ila 9 Bitcoin düğümü
+- 7 ila 9 Bitcoin [düğümü](https://planb.academy/resources/glossary/node)
 
 
 **Kurulum aşağıdaki gibidir:**
@@ -154,7 +154,7 @@ Müşteriler mağazadan Bitcoin ile bir ürün satın alır.
 
 
 - Hazırlan:
-  - Ekteki Figjam - [Etkinlik Şeması] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0) içindeki diyagramlara/açıklayıcıya bakınız.
+  - Ekteki Figjam - [Etkinlik Şeması](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0) içindeki diyagramlara/açıklayıcıya bakınız.
   - Müşteri (Alice), Tüccar (Bob) ve Banka rollerini oynayacak üç gönüllü öğrenci bulun.
 - Olayların sırasını canlandırın:
   - Müşteri - mağazayı online olarak gezer ve istediği 25$'lık bir ürünü bulur ve satın almak istediğini satıcıya bildirir
@@ -176,7 +176,7 @@ Müşteriler mağazadan Bitcoin ile bir ürün satın alır.
 
 
 - Hazırlan:
-  - Ekteki Figjam - [Etkinlik Şeması] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0) içindeki diyagramlara/açıklayıcıya bakınız.
+  - Ekteki Figjam - [Etkinlik Şeması](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0) içindeki diyagramlara/açıklayıcıya bakınız.
   - Bankanın yerine geçecek bir ağda Bilgisayar (Bitcoin Düğümler/Minerler) rolünü oynayacak dokuz öğrenci ile Bankayı değiştirin.
 - 9 Bilgisayarın her biri, şimdiye kadar yapılmış tüm geçmiş işlemlerin eksiksiz bir tarihsel kaydına (böylece sahtecilik olmadan doğru bakiyeler) ve bir dizi kurala sahiptir:
   - İşlemin düzgün imzalandığını doğrulayın (thekeyfitsthelock)
@@ -573,7 +573,7 @@ Bu bölümde şunları öğrendiniz:
 ### Bitcoin anahtarlarının oluşturulmasında neler yer alır?
 
 
-Bitcoin cüzdanları oluşturulduklarında "seed" olarak adlandırılan bir cüzdan oluştururlar. Son hedefte, bir "seed" oluşturdunuz, Daha önce oluşturulan kelime dizileri Mnemonic cümleleri olarak da bilinir. seed, bireysel Bitcoin Anahtarlarını türetmek için kullanılır ve Bitcoin göndermek veya almak için kullanılır. seed cümleleri asla üçüncü taraflarla veya güvenilmeyen eşlerle paylaşılmamalıdır.
+Bitcoin cüzdanları oluşturulduklarında "[seed](https://planb.academy/resources/glossary/seed)" olarak adlandırılan bir cüzdan oluştururlar. Son hedefte, bir "seed" oluşturdunuz, Daha önce oluşturulan kelime dizileri Mnemonic cümleleri olarak da bilinir. seed, bireysel Bitcoin Anahtarlarını türetmek için kullanılır ve Bitcoin göndermek veya almak için kullanılır. seed cümleleri asla üçüncü taraflarla veya güvenilmeyen eşlerle paylaşılmamalıdır.
 
 
 seed üretimi "Hiyerarşik Deterministik" (HD) çerçevesi olarak bilinen endüstri standardına göre gerçekleştirilir.
@@ -727,14 +727,15 @@ BTCPay Sunucusu aşağıdaki standart Wallet özelliklerinden oluşur:
 Yöneticiler, işlemler görünümünde bu belirli mağazaya bağlı On-Chain Wallet için gelen ve giden işlemleri görebilir. Her işlemde alınan ve gönderilen tutarlar arasında bir ayrım vardır. Alınan Green ve giden işlemler kırmızı olacaktır. BTCPay Server işlem görünümünde, yöneticiler bir dizi standart etiket de göreceklerdir.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| İşlem Türü | Açıklama                                           |
+| ----------- | -------------------------------------------------- |
+| Uygulama    | Ödeme, uygulama tarafından oluşturulan bir fatura aracılığıyla alındı |
+| Fatura      | Ödeme bir fatura aracılığıyla alındı               |
+| Payjoin     | Ödenmedi, fatura zamanlayıcısı henüz dolmadı       |
+| Payjoin-açığa çıkarıldı | UTXO, faturadaki bir payjoin teklifi aracılığıyla açığa çıkarıldı |
+| Ödeme talebi | Ödeme bir ödeme talebi aracılığıyla alındı        |
+| Ödeme       | Ödeme bir ödeme veya iade yoluyla gönderildi      |
 
 ### Nasıl Gönderilir
 
@@ -1130,7 +1131,7 @@ Sol menü çubuğundaki Lightning Wallet seçeneğinde, sunucu yöneticileri RTL
 #### Dahili düğüm bilgisi
 
 
-Sunucu yöneticileri, sunucu durumlarını (Çevrimiçi/Çevrimdışı) ve Clearnet veya Tor için bağlantı dizesini görüntülemek için dahili düğüm bilgilerine tıklayabilirler.
+Sunucu yöneticileri, sunucu durumlarını (Çevrimiçi/Çevrimdışı) ve Clearnet veya [Tor](https://planb.academy/resources/glossary/tor) için bağlantı dizesini görüntülemek için dahili düğüm bilgilerine tıklayabilirler.
 
 
 ![image](assets/en/033.webp)
@@ -1805,28 +1806,30 @@ Her tür, doldurulması gereken parametreleriyle birlikte gelir. Mağaza sahibi 
 BTCPay Server ayrıca kod içinde Formlar oluşturmanıza da olanak tanır. Özellikle JSON. Mağaza sahipleri editöre bakmak yerine, editörün hemen yanındaki KOD düğmesine tıklayabilir ve Formlarının koduna girebilirler. Bir alan tanımında yalnızca aşağıdaki alanlar ayarlanabilir; alanların değerleri Invoice'in meta verilerinde saklanır:
 
 
-| Field                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+| Alan | Açıklama |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| .fields.constant      | If true, the .value must be set in the form definition, and the user will not be able to change the field's value. ( example: the form definition's version)                                                                                                                                                                                                                                                                                                       |
-| .fields.type          | The HTML input type text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel                                                                                                                                                                                                                                                                                                |
-| .fields.options       | If .fields.type is select, the list of selectable values                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.options.text  | The text displayed for this option                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| .fields.options.value | The value of the field if this option is selected                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| .fields.type=fieldset | Create a HTML fieldset around the children .fields.fields (see below)                                                                                                                                                                                                                                                                                                                                                                                              |
-| .fields.name          | The JSON property name of the field as it will appear in the invoice's metadata                                                                                                                                                                                                                                                                                                                                                                                    |
-| .fields.value         | The default value of the field                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| .fields.required      | if true, the field will be required                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| .fields.label         | The label of the field                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| .fields.helpText      | Additional text to provide an explanation for the field.                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.fields        | You can organize your fields in a hierarchy, allowing child fields to be nested within the invoice’s metadata. This structure can help you better organize and manage the collected information, making it easier to access and interpret. For example, if you have a form that collects customer information, you can group the fields under a parent field called customer. Within this parent field, you might have child fields like name, Email, and address. |
+| .fields.constant | Eğer true ise, .value form tanımında ayarlanmalıdır ve kullanıcı alanın değerini değiştiremeyecektir. (örnek: form tanımının versiyonu) |
+| .fields.type | HTML girdi türü: text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | Eğer .fields.type select ise, seçilebilir değerlerin listesi |
+| .fields.options.text | Bu seçenek için görüntülenen metin |
+| .fields.options.value | Bu seçenek seçilirse alanın değeri |
+| .fields.type=fieldset | Alt .fields.fields öğelerinin etrafında bir HTML fieldset oluşturun (aşağıya bakın) |
+| .fields.name | Alanın fatura meta verilerinde görüneceği JSON özellik adı |
+| .fields.value | Alanın varsayılan değeri |
+| .fields.required | eğer true ise, alan zorunlu olacaktır |
+| .fields.label | Alanın etiketi |
+| .fields.helpText | Alan için bir açıklama sağlamak üzere ek metin. |
+| .fields.fields | Alanlarınızı bir hiyerarşi içinde düzenleyebilir, alt alanların fatura meta verileri içinde iç içe geçmesine olanak tanıyabilirsiniz. Bu yapı, toplanan bilgileri daha iyi organize etmenize ve yönetmenize yardımcı olarak erişimi ve yorumlamayı kolaylaştırabilir. Örneğin, müşteri bilgilerini toplayan bir formunuz varsa, alanları customer adlı bir ana alan altında gruplandırabilirsiniz. Bu ana alan içinde name, Email ve address gibi alt alanlarınız olabilir. |
 
 Alan adı, kullanıcı tarafından sağlanan değeri Invoice'nın meta verilerinde saklayan JSON özellik adını temsil eder. Bazı iyi bilinen isimler yorumlanabilir ve Invoice'nın ayarlarını yapmak için değiştirilebilir.
 
 
-| Field name       | Description            |
+
+| Alan adı         | Açıklama              |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Fatura tutarı         |
+| invoice_currency | Fatura para birimi    |
 
 Formun URL'sine "?your_field=value" gibi sorgu dizeleri ekleyerek bir Invoice'nin alanlarını otomatik olarak önceden doldurabilirsiniz.
 
@@ -2222,7 +2225,7 @@ Sorunun tanımlanması çok önemlidir.
 ##### Sunucunun güncellenmesi
 
 
-BTCPay Server sürümünüzün BTCPay Server'ın [en son sürümünden] (https://github.com/btcpayserver/btcpayserver/releases) çok daha eski olup olmadığını kontrol edin. Sunucunuzu güncellemek sorunu çözebilir.
+BTCPay Server sürümünüzün BTCPay Server'ın [en son sürümünden](https://github.com/btcpayserver/btcpayserver/releases) çok daha eski olup olmadığını kontrol edin. Sunucunuzu güncellemek sorunu çözebilir.
 
 
 ##### Sunucuyu yeniden başlatma
@@ -2276,7 +2279,8 @@ docker logs --tail 100 generated_btcpayserver_1
 ```
 
 
-| Logs for     | Container Name                    |
+
+| Loglar        | Konteyner Adı                      |
 | ------------ | --------------------------------- |
 | BTCPayServer | generated_btcpayserver_1          |
 | NBXplorer    | generated_nbxplorer_1             |
@@ -2467,21 +2471,22 @@ BTCPay Server'ın özü, bir Bitcoin Invoice yönetim sistemi olarak hareket etm
 Aşağıdaki tabloda BTCPay'deki standart Invoice durumları, önerilen ortak eylemlerle birlikte listelenmekte ve açıklanmaktadır. Eylemler sadece tavsiyedir. Kendi kullanım durumları ve işleri için en iyi eylem planını tanımlamak kullanıcılara bağlıdır.
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| Fatura Durumu | Açıklama | İşlem |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | Ödenmedi, fatura zamanlayıcısı henüz dolmadı | Yok |
+| New (paidPartial) | Kısmen ödendi, fatura zamanlayıcısı henüz dolmadı | Yok |
+| Expired | Ödenmedi, fatura zamanlayıcısı doldu | Yok |
+| Expired (paidPartial) ** | Kısmen ödendi ve süresi doldu | İade ayarlamak için alıcıyla iletişime geçin veya bakiyeyi ödemesini isteyin. İsteğe bağlı olarak settled veya invalid işaretleyin |
+| Expired (paidLate) | Fatura süresi dolduktan sonra tam tutar ödendi | İade için alıcıyla iletişime geçin veya geç onaylar kabul ediliyorsa siparişi işleme alın. |
+| Settled (paidOver) | Fatura tutarından fazla ödendi, kapatıldı, yeterli onay alındı | Fazla tutarın iadesi için alıcıyla iletişime geçin veya alıcının size ulaşmasını bekleyin |
+| Processing | Tam ödendi ancak mağaza ayarlarında belirtilen onay sayısına henüz ulaşmadı | Fazla tutarın iadesi için alıcıyla iletişime geçin veya alıcının size ulaşmasını bekleyin |
+| Processing (paidOver) | Fatura tutarından fazla ödendi, yeterli onay alınmadı | settled olmasını bekleyin, sonra iade için alıcıyla iletişime geçin veya alıcının ulaşmasını bekleyin |
+| Settled | Tam ödendi, mağazada yeterli onay alındı | Siparişi tamamlayın |
+| Settled (marked) | Durum, processing veya invalid'den manuel olarak settled'a çevrildi | Mağaza yöneticisi ödemeyi settled olarak işaretledi |
+| Invalid* | Ödendi ancak mağaza ayarlarındaki süre içinde yeterli onay alınamadı | İşlemi bir blok zinciri gezgininde kontrol edin; yeterli onay varsa settled olarak işaretleyin |
+| Invalid (marked) | Durum, settled veya expired'dan manuel olarak invalid'e çevrildi | Mağaza yöneticisi ödemeyi invalid olarak işaretledi |
+| Invalid (paidOver) | Fatura tutarından fazla ödendi ancak süre içinde yeterli onay alınamadı | İşlemi bir blok zinciri gezgininde kontrol edin; yeterli onay varsa settled olarak işaretleyin |
 
 #### Invoice ayrıntıları
 
@@ -2621,7 +2626,7 @@ Alacaklı ve talep eden, ödeme gönderildikten sonra ödeme talebinin durumunu 
 Açıklama içeriği, ödeme talebinin metin düzenleyicisi kullanılarak düzenlenebilir. Ek renk temaları veya özel CSS stilleri kullanmak istiyorsanız her iki seçenek de mevcuttur.
 
 
-Teknik olmayan kullanıcılar bir [bootstrap teması] (https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes) kullanabilir. Aşağıda gösterildiği gibi ek CSS kodu sağlayarak daha fazla özelleştirme yapılabilir.
+Teknik olmayan kullanıcılar bir [bootstrap teması](https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes) kullanabilir. Aşağıda gösterildiği gibi ek CSS kodu sağlayarak daha fazla özelleştirme yapılabilir.
 
 
 ```css
@@ -2670,13 +2675,13 @@ Peki ya gönderici ödemeyi itmek yerine, alıcının uygun gördüğü bir zama
 ### Ödemeler
 
 
-Ödeme işlevi [Pull Payments] (https://docs.btcpayserver.org/PullPayments/) özelliğine bağlıdır. Bu özellik, BTCPay'inizde ödeme oluşturmanıza olanak tanır. Bu özellik, çekme ödemelerini (geri ödemeler, maaş ödemeleri veya para çekme işlemleri) işleme koymanıza olanak tanır.
+Ödeme işlevi [Pull Payments](https://docs.btcpayserver.org/PullPayments/) özelliğine bağlıdır. Bu özellik, BTCPay'inizde ödeme oluşturmanıza olanak tanır. Bu özellik, çekme ödemelerini (geri ödemeler, maaş ödemeleri veya para çekme işlemleri) işleme koymanıza olanak tanır.
 
 
 #### Örnek 1: Para İadesi
 
 
-Para iadesi örneğiyle başlayalım. Müşteri mağazanızdan bir ürün satın aldı, ancak ne yazık ki iade etmek zorunda. Para iadesi istiyorlar. BTCPay'de bir [Refund] (https://docs.btcpayserver.org/Refund/) oluşturabilir ve müşteriye fonlarını talep etmesi için bağlantı sağlayabilirsiniz. Müşteri Address'ünü girdikten ve parayı talep ettikten sonra, Ödemeler bölümünde görüntülenecektir.
+Para iadesi örneğiyle başlayalım. Müşteri mağazanızdan bir ürün satın aldı, ancak ne yazık ki iade etmek zorunda. Para iadesi istiyorlar. BTCPay'de bir [Refund](https://docs.btcpayserver.org/Refund/) oluşturabilir ve müşteriye fonlarını talep etmesi için bağlantı sağlayabilirsiniz. Müşteri Address'ünü girdikten ve parayı talep ettikten sonra, Ödemeler bölümünde görüntülenecektir.
 
 
 Sahip olduğu ilk durum Onay Bekliyor'dur. Mağaza görevlileri birden fazla bekleyen olup olmadığını kontrol edebilir ve seçimi yaptıktan sonra Eylemler düğmesini kullanırsınız.
@@ -2700,7 +2705,7 @@ Müşteri artık Talep sayfasında güncellenir. Kendisine bir Block explorer ba
 #### Örnek 2: Maaş
 
 
-Şimdi Maaş ödemesine geçelim, çünkü bu Müşterinin talebine göre değil, mağazanın içinden yönlendirilir. Temel konsept aynıdır; çekme ödemelerini kullanır. Ancak bir geri ödeme oluşturmak yerine, bir [Çekme Ödemesi] (https://docs.btcpayserver.org/PullPayments/) yapacağız.
+Şimdi Maaş ödemesine geçelim, çünkü bu Müşterinin talebine göre değil, mağazanın içinden yönlendirilir. Temel konsept aynıdır; çekme ödemelerini kullanır. Ancak bir geri ödeme oluşturmak yerine, bir [Çekme Ödemesi](https://docs.btcpayserver.org/PullPayments/) yapacağız.
 
 
 BTCPay sunucunuzdaki Çekme Ödemeleri sekmesine gidin. Sağ üstte, Çekme Ödemesi Oluştur Düğmesine tıklayın.
@@ -2744,7 +2749,7 @@ Bundan sonra, gönderici alıcı ile bir bağlantı kullanarak çekme ödemesini
 Bir ödeme oluşturulduktan sonra, mevcut dönem için çekme ödemesi limitine sayılacaktır. Gönderen daha sonra ödemenin gönderileceği oranı ayarlayarak ödemeyi onaylayacak ve ödemeye devam edecektir.
 
 
-Gönderen için, [BTCPay Internal Wallet] (https://docs.btcpayserver.org/Wallet/) üzerinden birden fazla ödemeyi toplu hale getirmek için kullanımı kolay bir yöntem sunuyoruz.
+Gönderen için, [BTCPay Internal Wallet](https://docs.btcpayserver.org/Wallet/) üzerinden birden fazla ödemeyi toplu hale getirmek için kullanımı kolay bir yöntem sunuyoruz.
 
 
 #### Greenfield API

@@ -1,6 +1,7 @@
 ---
-term: BYZANTINE GENERALS PROBLEM
+term: Bài toán các vị tướng Byzantine
 
+definition: Bài toán minh họa những thách thức trong việc phối hợp trong một hệ thống phân tán nơi các tác nhân không thể tin tưởng lẫn nhau.
 ---
 The problem was first formulated by Leslie Lamport, Robert Shostak, and Marshall Pease in the specialized magazine *ACM Transactions on Programming Languages and Systems, vol 4, n° 3* ["The Byzantine Generals Problem"](https://lamport.azurewebsites.net/pubs/byz.pdf) in July 1982. It is used today to illustrate the challenges in terms of decision-making when a distributed system cannot trust any actor.
 

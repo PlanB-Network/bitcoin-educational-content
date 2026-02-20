@@ -1,0 +1,24 @@
+id: aa7fcdb5-4ea1-4009-8096-1d8681aea0a2
+start_date: 2026-06-11 07:00:00
+end_date: 2026-06-13 16:00:00
+timezone: Europe/Prague
+address_city_country: Prague, Czech Republic
+address_line_2: PVA EXPO
+address_line_3:
+name: BTC Prague 2026
+type: conference
+book_online: false
+book_in_person: false
+description: |
+  One of Europe's largest Bitcoin-only conferences, combining a conference with an expo area, making it accessible to both newcomers and experienced Bitcoiners.
+language:
+  - en
+links:
+  website: https://btcprague.com/
+  replay_url:
+  live_url:
+project_id: 0726adb9-4d45-4e5c-af2c-0a26db29d9b3
+tags:
+  - historical
+  - innovation
+  - business

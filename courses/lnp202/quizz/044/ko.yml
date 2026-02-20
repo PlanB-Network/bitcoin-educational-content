@@ -1,0 +1,9 @@
+question: ThunderHub은 LND 노드와 관련하여 어떤 역할을 하나요?
+answer: Interface 관리
+wrong_answers:
+  - 라이트닝 구현
+  - 보관 서비스
+  - 라우팅 노드
+explanation: |
+  ThunderHub은 LND에 연결하여 노드를 관리하는 인터페이스입니다.
+reviewed: false

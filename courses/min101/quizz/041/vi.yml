@@ -1,0 +1,9 @@
+question: Thuật toán nào được thiết kế đặc biệt để ASIC Bitcoin thực thi?
+answer: SHA256d
+wrong_answers:
+  - SHA512d
+  - SHA1
+  - SHA512
+explanation: |
+  ASIC Bitcoin được chuyên biệt hóa cho SHA256 kép được sử dụng bởi bằng chứng công việc của Bitcoin.
+reviewed: false

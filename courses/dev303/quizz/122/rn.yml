@@ -1,0 +1,8 @@
+question: Ni ingorane iyihe ikomeye cane yo gusubirana iyo abakoresha bahura na yo iyo amahera yabo acungiwe biciye ku nyubakwa y’imirongo y’umuravyo ishingiye ku gicu ya Greenlight?
+answer: Abakoresha bokenera ubuhinga bwo guhindura ama node yigenga ya Core Lightning no kugarura imirongo y'imirongo ata bikorwa remezo vya Greenlight
+wrong_answers:
+  - "Abakoresha baratakaza uburenganzira bwo gukoresha imfunguruzo zabo z'ibanga zibitswe gusa kuri server za Blockstream"
+  - "Ibihugu vy'imirongo bipfutse hakoreshejwe imfunguruzo za Greenlight bituma gusubiza amafaranga bidashoboka mu mibare"
+  - "Imirongo y'umuravyo irahera inyuma y'imisi 30 ata bikorwa vya Greenlight bikomeza kubibungabunga"
+explanation: |
+  Inyishu ibereye irerekana ubuhinga nyakuri bwo gusubiza amahera mu nyubakwa za Greenlight. Naho abakoresha bagumana imfunguruzo zabo z’ibanga, kuronka amahera ata Greenlight bisaba gukoresha ama node ya Core Lightning no kugarura n’amaboko imirongo y’imirongo - igikorwa kirenze ubushobozi bw’abakoresha benshi. Inyishu zitari zo ntizibereye kubera ko: abakoresha baragenzura imfunguruzo zabo z’ibanga (ntizibikwa kuri server), ibihugu vy’imirongo bikoresha amategeko asanzwe ya Lightning (atari ugushiramwo amakuru), kandi imirongo ya Lightning nta bihe vy’iherezo vy’iherezo biboshe ku batanga serivisi.

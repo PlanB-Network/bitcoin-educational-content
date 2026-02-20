@@ -1,0 +1,9 @@
+question: Wo ist seit SegWit das Witness-Commitment des Blocks festgelegt?
+answer: In einem Output der Coinbase-Transaktion
+wrong_answers:
+  - Im scriptSig der Coinbase-Transaktion
+  - Im Version-Feld
+  - In den Gebühren der Coinbase-Transaktion
+explanation: |
+  SegWit verwendet ein Commitment, das über einen OP_RETURN-Output in die Coinbase-Transaktion eingeschrieben wird.
+reviewed: false

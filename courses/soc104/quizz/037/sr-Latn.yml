@@ -1,0 +1,8 @@
+question: Prema Friedmanovoj perspektivi, glavni problem sa ocenjivanjem socijalnih politika na osnovu njihovih deklarisanih namera, umesto stvarnih ishoda, jeste taj što se time može zanemariti stvarna efikasnost i posledice tih politika.
+answer: Dobronamerne politike često stvaraju nenamerne posledice poput ekonomske zavisnosti i tržišnih distorzija koje su u suprotnosti sa njihovim originalnim ciljevima.
+wrong_answers:
+  - Namere su previše teške za objektivno merenje u poređenju sa jednostavnim ocenjivanjem ishoda i rezultata politike.
+  - Političari namerno obmanjuju javnost o svojim pravim namerama, čineći procenu zasnovanu na namerama suštinski nepouzdanom i varljivom.
+  - Namere se prečesto menjaju tokom sprovođenja politike, što ih čini nestabilnom osnovom za dugoročno ocenjivanje politike.
+explanation: |
+  Friedman tvrdi da politike sa velikodušnim namerama mogu proizvesti perverzne efekte suprotne njihovim ciljevima, kao što je stvaranje zavisnosti među onima kojima žele pomoći. Problem nije u poteškoćama merenja, političkoj obmani ili promeni namera, već u tome što dobre namere ne garantuju pozitivne rezultate. Zato se strukturalne definicije koje se fokusiraju na uočljive karakteristike i merljive ishode preferiraju u odnosu na namerne definicije koje se oslanjaju na izjavljene motive.

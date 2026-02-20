@@ -1,0 +1,8 @@
+question: Ni irihe jambo ry’ingenzi rikoreshwa mu guhatira ugufunga gufata uburenganzira bw’ibihinduka vyafashwe aho kubigura?
+answer: kwimuka
+wrong_answers:
+  - ubwiwe
+  - gufata
+  - gufata
+explanation: |
+  Ijambo ry'ingenzi `kwimura` rikoreshwa imbere y'imirongo y'ugufunga kugira ngo uhatire ugufunga gufata uburenganzira ku bihinduka vyose vyafashwe bivuye mu bidukikije vyavyo. Ivyo ni ngombwa igihe ugufunga bishobora kubaho kuruta urugero aho ibihinduka vyasobanuwe mu ntango, nk'igihe indodo zivyara. Ata `kwimura`, gufunga bifatwa n'uburyo buke cane (ivyerekanwa bitahinduka, hanyuma ivyerekanwa bihinduka, hanyuma ubutunzi), ariko `kwimura` birarengera iyo nyifato yihuta kugira ngo ubutunzi buhinduke. Ayandi mahitamwo (`wiwe`, `gufata`, `gufata`) si amajambo y'ingenzi ya Rust ku bw'iyo ntumbero.

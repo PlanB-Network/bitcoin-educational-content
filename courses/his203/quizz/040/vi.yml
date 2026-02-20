@@ -1,0 +1,9 @@
+question: Sơ đồ kịch bản Pay-to-Script-Hash (P2SH) bao gồm những gì?
+answer: Khóa tiền bằng mã băm của một đoạn mã, đoạn mã này phải được thực thi khi mở khóa
+wrong_answers:
+  - Cần có M chữ ký từ N người tham gia để ủy quyền cho việc chi tiêu số tiền giao dịch
+  - Việc chi tiêu bitcoin phụ thuộc vào việc cung cấp chữ ký liên kết với một khóa công khai duy nhất
+  - Ghi dữ liệu tùy ý lên blockchain bằng cách khiến UTXO không thể chi tiêu được
+explanation: |
+ Điều này bao gồm việc trả tiền cho mã băm của tập lệnh và cung cấp tập lệnh đó khi mở khóa tiền. Điểm khác biệt so với đề xuất OP_EVAL là nó được máy ảo tự động nhận dạng, do đó có thể được thực thi mà không cần bất kỳ hướng dẫn rõ ràng nào.
+reviewed: true

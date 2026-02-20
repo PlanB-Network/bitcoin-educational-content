@@ -1,0 +1,11 @@
+question: Que funcionalidade adicionada pelo serviço de câmbio BitInstant em dezembro de 2011 foi explorada por Robert Faiella, também conhecido como BTCKing, para o seu negócio de revenda na Internet obscura?
+answer: Depósito em numerário
+wrong_answers:
+  - Compras gratuitas
+  - Transferências imediatas
+  - Conformidade regulamentar
+explanation: |
+ A BitInstant adicionou este método de pagamento à sua oferta em 21 de dezembro de 2011. Era possível aos cidadãos norte-americanos depositarem dinheiro em locais específicos e serem
+ creditados quase instantaneamente em dólares na plataforma de câmbio de sua escolha. Robert Faiella, também conhecido como BTCKing, aproveitou a relativa confidencialidade
+ relativa confidencialidade deste método para operar um negócio de revenda na Silk Road, mediante o pagamento de uma taxa mais elevada.
+reviewed: true

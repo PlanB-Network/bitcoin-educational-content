@@ -1,0 +1,10 @@
+question: Ni igiki cari akamaro nyamukuru k’igenzura ry’ukwishyura ryoroshe (SPV) ryashizwe mu ngiro muri BitCoinJ kandi rikoreshwa n’ama wallets yoroshe nka Bitcoin Wallet ya Android?
+answer: Yatumye amafaranga akoreshwa ashobora kugenzurwa ataco akeneye gukuraho blockchain yose 
+wrong_answers:
+  - Yaciye yihindura bitcoins iyo yakiriye amahera kugira ngo itere imbere mu kuba ibanga 
+  - Yashizeko amakuru ya wallet ikoresheje ubuhinga bwa AES-256 kugira ngo ntihagire ubusuma bw’ifarashi ya Trojan 
+  - Yatumye bishoboka gukingira ubufatanye n'uruzitiro rwariho kugira ngo ntihagire ibitero bikoresha ubushobozi bwo guhindura ibikorwa 
+explanation: |
+ Igenzura ry’ukwishyura ryoroshe (SPV) ryari ubuhinga buhambaye cane bwavuzwe mu gitabu cera ca Bitcoin bwashoboje abaguzi bafise umubiri mutoyi kugenzura ko amafaranga yabo . 
+ yari ku rubuga rwa blockchain ataco akeneye gukura no kubika amakuru yose.
+reviewed: true

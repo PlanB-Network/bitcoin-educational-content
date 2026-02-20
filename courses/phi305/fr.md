@@ -23,12 +23,12 @@ Apprenez des outils pratiques issus de l'éthique de Spinoza pour comprendre les
 
 
 
-Je suis heureux de vous présenter dans ce cours la philosophie de Baruch de Spinoza (1632-1677), célèbre philosophe du 17e siècle considéré comme le père de la philosophie rationnelle des Lumières. 
+Je suis heureux de vous présenter dans ce cours la philosophie de Baruch de Spinoza (1632-1677), célèbre philosophe du XVIIe siècle considéré comme le père de la philosophie rationnelle des Lumières. 
 
 ![image](assets/fr/001.webp)
 Portrait de Spinoza
 
-Sachez que ces cours sont construits à partir des deux essais que j’ai consacrés au sujet, « La religion vraie de Spinoza » et « Bitcoin, l’évangile de la liberté » disponibles sous forme papier en ligne ou directement sur mon site web et sous forme électronique Kindle Amazon. 
+Sachez que ces cours sont construits à partir des deux essais que j’ai consacrés au sujet: « La religion vraie de Spinoza » et « Bitcoin, l’évangile de la liberté » disponibles sous forme papier en ligne ou directement sur mon site web et sous forme électronique Kindle Amazon. 
 
 Le but de ce cours est d’abord de comprendre de manière simplifiée une philosophie considérée souvent comme très complexe et inaccessible, malgré le regain d’intérêt qu’elle connaît aujourd’hui.
 
@@ -36,7 +36,7 @@ En effet, cette philosophie nous permet non seulement de nous interroger sur le 
 
 Quand la vie nous sourit et que nous estimerions, par exemple, ne pas avoir à nous poser de questions en considérant avec un orgueil vu comme illusoire et servile que notre bonheur, ou que notre réussite, ne viendrait que de notre talent, de notre travail ou de nos choix prétendus libres. Bref, de notre seule et libre volonté opposée au déterminisme auquel nous sommes soumis.
 
-Nous pourrons ainsi faire le lien entre cette philosophie pratique tournée vers la liberté ou, comme le dit Spinoza, « vers les moyens pour y parvenir », et le nouveau monde technologique qui nous intéresse ici, la crypto en général et Bitcoin en particulier. 
+Nous pourrons ainsi faire le lien entre cette philosophie pratique tournée vers la liberté ou, comme le dit Spinoza, « vers les moyens pour y parvenir » et le nouveau monde technologique qui nous intéresse ici; la crypto en général et Bitcoin en particulier. 
 
 Et notamment dans son aspect philosophique qui nous fait précisément réfléchir à la notion de liberté, la liberté de penser, de s’exprimer, le respect de la vie privée et, évidemment pour ce qui nous concerne, la liberté d’échanger.
 
@@ -50,7 +50,7 @@ Nous verrons ensuite ce qu’est cette nouvelle philosophie rationnelle selon la
 
 C’est l’idée qu’on ne peut comprendre le monde et la nature humaine qu’en fonction du lien de causalité des choses selon lequel un effet a toujours une cause, et que cette cause est elle-même l’effet d’une autre cause et ainsi de suite, jusqu’à remonter à la cause première à laquelle nous n’avons pas accès et qui est, selon Spinoza, la Nature. 
 
-La Nature, autrement dit Dieu, c’est le fameux « Deus sive Natura » en latin qui illustre tout le sens du spinozisme.
+La Nature, autrement dit Dieu, c’est le fameux _« Deus sive Natura »_ en latin qui illustre tout le sens du spinozisme.
 
 Nous verrons aussi les deux œuvres majeures de Spinoza, avec d’abord l’Éthique, publiée à titre posthume en 1677, et qui est donc entièrement tournée vers la liberté et le besoin de nous extraire des servitudes qui nous enferment. 
 
@@ -62,7 +62,7 @@ Puis nous verrons le Traité théologico-Politique publié, lui, de son vivant e
 
 Nous verrons enfin pourquoi le spinozisme est donc une révolution copernicienne des idées et en quoi il s’agit d’une nouvelle définition du monde et de la nature humaine en étudiant les 3 illusions fondamentales dénoncées par Spinoza que sont l’illusion du libre arbitre, l’illusion des causes finales ou le finalisme et l’illusion théologique.
 
-Grâce à la théorie des affects développés à la façon des géomètres, « more geometrico », nous verrons enfin comment Spinoza nous propose donc une méthode pratique afin de nous extraire ou de tenter de nous extraire, des servitudes propres à la nature humaine et aux passions extérieures. Un mécanisme rationnel qui, pour lutter contre l’ignorance, se compare à l’idée que les trois angles d’un triangle font toujours 180° et nous permettra de faire le lien entre l’esprit des Lumières qui en découle et les courants libéraux du 19e siècle ou libertarien du 20e siècle qui sont, eux, directement liés à l’invention de Satoshi Nakamoto, Bitcoin.
+Grâce à la théorie des affects développés à la façon des géomètres, _« more geometrico »_, nous verrons enfin comment Spinoza nous propose donc une méthode pratique afin de nous extraire ou de tenter de nous extraire, des servitudes propres à la nature humaine et aux passions extérieures. Un mécanisme rationnel qui, pour lutter contre l’ignorance, se compare à l’idée que les trois angles d’un triangle font toujours 180° et nous permettra de faire le lien entre l’esprit des Lumières qui en découle et les courants libéraux du XIXe siècle ou libertarien du XXe siècle qui sont, eux, directement liés à l’invention de Satoshi Nakamoto, Bitcoin.
 
 ![image](assets/fr/005.webp)
 
@@ -82,7 +82,7 @@ Même si, vous le savez, les choses sont actuellement en train d’évoluer dans
 
 Qui est donc Baruch de Spinoza ? Eh bien il s’agit d’un philosophe hollandais né en 1632 et mort à l’âge de 45 ans, en 1677. 
 
-De confession juive, il était membre de la communauté portugaise séfarade descendant des marranes chassés d’Espagne par les catholiques au 15e siècle et il fut donc élevé dans un milieu religieux et intellectuel, conscient de ce que signifie être persécuté. 
+De confession juive, il était membre de la communauté portugaise séfarade descendant des marranes chassés d’Espagne par les catholiques au XVe siècle et il fut donc élevé dans un milieu religieux et intellectuel, conscient de ce que signifie être persécuté. 
 
 ![image](assets/fr/006.webp)
 
@@ -108,7 +108,7 @@ Et c’est cette approche qui fait le lien entre Spinoza et la philosophie des L
 
 Or, pour commencer à lier cette philosophie avec Bitcoin, il est important de signaler que Spinoza est né dans une époque très particulière. 
 
-Car les Provinces-Unies du 17e siècle sont alors non seulement le pays le plus libre du monde du point de vue des idées, politiques et religieuses, mais aussi le pays le plus riche du monde. Autrement dit, le pays le plus en avance d’un point de vue économique et technologique.
+Car les Provinces-Unies du XVIIe siècle sont alors non seulement le pays le plus libre du monde du point de vue des idées politiques et religieuses, mais aussi le pays le plus riche du monde. Autrement dit, le pays le plus en avance d’un point de vue économique et technologique.
 
 Une richesse qui n’est toutefois pas liée à une ressource naturelle, ni à l’exploitation et à la spoliation de colonies ou à l’esclavage mais qui est liée, bel et bien, au commerce et au négoce international dans un esprit libéral et entrepreneurial. Un esprit qui sera plus tard défendu par un spinoziste célèbre, Voltaire (1694-1778), pour qui dans une salle de marché un homme d’affaire, ou un entrepreneur d’obédience libérale, ne sera jamais exclu, ne sera jamais traité d’infidèle ou excommunié dit-il, en fonction de sa religion ou de ses origines, mais seulement s’il a fait banqueroute.
 
@@ -122,7 +122,7 @@ Autrement dit, ce sont bien toutes ces valeurs de liberté et de progrès véhic
 
 Un monde, pourtant, dans lequel tous les moyens sont utiles pour nous en sortir, pour nous extraire des servitudes qui nous enferment et être libre en acceptant le monde tel qu’il est, pas tel que nous voudrions qu’il soit.
 
-Que ces moyens soient d’ordre philosophiques ou technologiques, comme l’est donc, et c’est ce que nous verrons par la suite, cet outil de liberté qu’est Bitcoin. Un outil pour que nous puissions, nous individus mais aussi les États, nous extraire des servitudes et notamment monétaires.
+Que ces moyens soient d’ordre philosophiques ou technologiques, comme l’est donc, cet outil de liberté qu’est Bitcoin. Et c'est d'ailleurs ce que nous allons voir par la suite. Un outil pour que nous puissions, nous individus mais aussi les États, nous extraire des servitudes et notamment monétaires.
 
 
 # Les œuvres majeures, Éthique et politique
@@ -196,7 +196,7 @@ Il s’agit du Traité théologico-politique, dit le TTP, publié anonymement en
 
 ![image](assets/fr/015.webp)
 
-Cet ouvrage, Spinoza (1632-1677) l’a écrit en interrompant la rédaction de son Éthique pour tenter de mettre fin à un malentendu qui court malgré tout encore aujourd’hui. C’est l’idée selon laquelle il serait athée.
+Cet ouvrage, Spinoza (1632-1677) l’a écrit en interrompant la rédaction de son Éthique pour tenter de mettre fin à un malentendu qui court encore aujourd'hui, malgré tout. C’est l’idée selon laquelle il serait athée.
 Or, comme nous l’avons vu, le concept de Dieu chez Spinoza fait l‘objet de toute la première partie de l’Éthique dans laquelle il démontre que non seulement Dieu existe mais aussi quelle est sa vraie nature. 
 
 ![image](assets/fr/016.webp)
@@ -235,7 +235,7 @@ Et bien au-delà d’accabler la main de Dieu, Jean-Jacques Rousseau (1712-1778)
 À quoi, Voltaire (1694-1778), spinoziste s’il en est, lui répondit que cette catastrophe naturelle devait surtout nous faire comprendre que les moyens scientifiques de se protéger de la nature existaient et que l’enjeu de leur époque était donc de se demander si les hommes pouvaient, grâce à la connaissance et au progrès, prendre leur avenir en main et se libérer de la théologie et de la superstition.
 
 Et s’il ne s’agissait bien sûr pas d’empêcher les tremblements de terre qui sont encore aujourd’hui non seulement imprévisibles mais aussi tout à fait incontrôlables, il s’agissait plutôt de faire en sorte que, par exemple, les habitations soient construites pour pouvoir y résister. 
-C’est pourquoi le 18e siècle des Lumières, grâce à l’exercice de la raison, aux sciences et à la technologie, est le siècle du progrès. Autrement dit, le progrès vu comme outil de liberté.
+C’est pourquoi le XVIIIe siècle des Lumières, grâce à l’exercice de la raison, aux sciences et à la technologie, est le siècle du progrès. Autrement dit, le progrès vu comme outil de liberté.
 
 # La révolution spinoziste, les trois illusions
 <partId>f5d45c2b-28da-527a-ab20-dd255e9a9e0d</partId>
@@ -261,9 +261,9 @@ Avant lui, la philosophie grecque classique proposait une vision ordonnée et hi
 
 ![image](assets/fr/022.webp)
 
-La cosmologie scolastique du Moyen-Âge, essentiellement à partir du 12e siècle, fut alors une évolution vers plus de raisonnements afin d‘harmoniser la raison et la foi pour expliquer un univers toujours hiérarchisé mais qui correspondait mieux à la philosophie chrétienne.
+La cosmologie scolastique du Moyen-Âge, essentiellement à partir du XIIe siècle, fut alors une évolution vers plus de raisonnements afin d‘harmoniser la raison et la foi pour expliquer un univers toujours hiérarchisé mais qui correspondait mieux à la philosophie chrétienne.
 
-Mais avec la nouvelle physique de Copernic (1473-1543) du 15e siècle, la cosmologie connut un tournant majeur dans la compréhension de l’univers dont le modèle géocentrique fut donc remis en question au profit du système héliocentrique qui ouvrit la voie à la science moderne, et notamment la nouvelle physique et l’astronomie de Kepler (1571-1630) et de Galilée (1564-1642). Puis de Isaac Newton (1643-1727) et enfin d’Albert Einstein (1879-1955), lui-même un spinoziste convaincu.
+Mais avec la nouvelle physique de Copernic (1473-1543) du XVe siècle, la cosmologie connut un tournant majeur dans la compréhension de l’univers dont le modèle géocentrique fut donc remis en question au profit du système héliocentrique qui ouvrit la voie à la science moderne, et notamment la nouvelle physique et l’astronomie de Kepler (1571-1630) et de Galilée (1564-1642). Puis de Isaac Newton (1643-1727) et enfin d’Albert Einstein (1879-1955), lui-même un spinoziste convaincu.
 
 ![image](assets/fr/023.webp)
 
@@ -329,7 +329,7 @@ Bien sûr, le problème qui se pose est celui de la responsabilité des hommes e
 
 Ce serait par contre illusoire de croire que les actions, par exemple, d’un criminel ne sont jamais liées à son propre déterminisme. Et s’il ne s’agit bien sûr pas de les excuser, il s’agit au moins de tenter de les comprendre. C’est d’ailleurs ce que fait la justice qui, au-delà de punir les actions illégales, joue le rôle de prévoir et de protéger l’avenir et c’est la raison pour laquelle certains crimes ne sont pas seulement punis mais font aussi l’objet de soins, compte tenu du passé familial, social et psychologique du délinquant.
 
-Or, cette façon d’envisager la liberté comme une capacité d’agir est le lien que l’on peut faire avec la philosophie des Lumières du 18e siècle. Selon un de ses plus grands ambassadeurs, le philosophe allemand Emmanuel Kant (1724-1804), les Lumières sont effectivement le moyen de sortir les hommes de l’état de tutelle, ou de servitude volontaire aurait dit Étienne de la Boétie (1530-1563), dont ils sont eux-mêmes responsables. 
+Or, cette façon d’envisager la liberté comme une capacité d’agir est le lien que l’on peut faire avec la philosophie des Lumières du XVIIIe siècle. Selon un de ses plus grands ambassadeurs, le philosophe allemand Emmanuel Kant (1724-1804), les Lumières sont effectivement le moyen de sortir les hommes de l’état de tutelle, ou de servitude volontaire aurait dit Étienne de la Boétie (1530-1563), dont ils sont eux-mêmes responsables. 
 
 ![image](assets/fr/029.webp)
 
@@ -337,7 +337,7 @@ La devise de Kant est d’ailleurs « Penser par soi-même » et « Oser savo
 
 La capacité d’agir de Spinoza est ainsi le pouvoir que l’homme a en lui de comprendre sa propre condition animale et de comprendre la nature et ses phénomènes, positifs ou négatifs, en les rapportant à des causes objectives pour ne pas s’en remettre à des explications morales, fausses et illusoires, c’est-à-dire qui nous conviennent en fonction de nos désirs. Mais plutôt à chercher à les expliquer, grâce à la raison, en étant tourné vers l’émancipation et la liberté.
 
-Et le progrès, grâce auquel vont apparaître les premières révolutions technologiques et les premières idées libérales et entrepreneuriales de la fin du 18e siècle, notamment avec le philosophe libéral anglais John Locke (1632-1704) ou encore l’économiste anglais Adam Smith (1723-1790).
+Et le progrès, grâce auquel vont apparaître les premières révolutions technologiques et les premières idées libérales et entrepreneuriales de la fin du XVIIIe siècle, notamment avec le philosophe libéral anglais John Locke (1632-1704) ou encore l’économiste anglais Adam Smith (1723-1790).
 
 Et il est ici utile de se rappeler la définition que fait Sigmund Freud (1856-1939) de l’illusion. Selon le père de la psychanalyse qui a toujours reconnu l’influence de Spinoza sur son travail, une illusion est précisément « une croyance motivée par la réalisation d’un désir en ne tenant pas compte, de ce fait, de la réalité ».
 
@@ -357,7 +357,7 @@ Enfin, si la croyance au libre arbitre est une illusion dont il est extrêmement
 
 
 
-Nous avons vu dans le précédant chapitre que l’illusion du libre arbitre consiste à croire que l’on pourrait donc commencer quelque chose à partir de rien, que seule notre volonté nous permettrait de diriger notre vie et que nous disposerions d’un pouvoir de décision indéterminé. C’est l’idée que l’homme serait en mesure de troubler l’ordre de la Nature plus qu’il ne le subit.
+Nous avons vu dans le précédent chapitre que l’illusion du libre arbitre consiste à croire que l’on pourrait donc commencer quelque chose à partir de rien, que seule notre volonté nous permettrait de diriger notre vie et que nous disposerions d’un pouvoir de décision indéterminé. C’est l’idée que l’homme serait en mesure de troubler l’ordre de la Nature plus qu’il ne le subit.
 
 Mais pour Spinoza (1632-1677), l’homme n’est pas « un empire dans un empire », c’est-à-dire qu’il n’est pas, contrairement à ce qu’établissait Descartes (1596-1650), une exception dans la nature et qu’il n’est jamais exonéré du prolongement de l’enchaînement déterministe des causes et des effets. 
 
@@ -369,7 +369,7 @@ C‘est-à-dire en fonction de leurs désirs, de leurs espoirs et de leurs crain
 
 Ce raisonnement est illustré par cette illusion des causes finales qui est un obstacle majeur à la pensée et à l’exercice de la raison car elle exprime tout simplement notre besoin de faire correspondre les effets d’une chose non pas à ses vraies causes mais à une croyance, même absurde, même infantilisante.
 
-Une croyance qui exprime une intention, notamment divine, et qui, dans la façon que nous avons de l’interpréter, relève souvent de la superstition. Ou de l’ignorance. 
+Une croyance qui exprime une intention, notamment divine, et qui, dans la façon que nous avons de l’interpréter, relève souvent de la superstition ou de l’ignorance. 
 
 Et c’est pourquoi les nouvelles maladies comme le Sida dans les années 90 ou la covid en 2020 ont toujours été perçues par certains comme l’expression d’une intention, divine et souvent punitive, selon un raisonnement contraire, de ce fait, avec le principe de causalité fondateur du rationalisme et de la science moderne établie depuis Copernic (1473-1543), Kepler (1571-1630) et Galilée (1564-1727).
 
@@ -387,7 +387,7 @@ Mais comme dit Spinoza, « le délire des hommes ne s’arrête pas là » et 
 
 ![image](assets/fr/034.webp)
 
-Et la définition que les économistes Keynésiens et les défenseurs de l’État providence donnent par exemple de l’inflation illustre aussi très bien ce paradoxe. Selon eux, l’inflation serait une augmentation des prix qui, d’après certains banquiers centraux, viendrait soit de « nulle part », soit de contextes géopolitiques que personne ne peut donc ni maîtriser, ni anticiper. Alors que si une augmentation des prix peut effectivement aboutir à une inflation conjoncturelle, par exemple quand le prix du pétrole augmente, les prix de certains biens transformés augmenteront également, les vraies causes structurelles de l’inflation sont d’abord liées à une augmentation de la masse monétaire qui implique, elle, une baisse de la valeur de la monnaie et, ipso facto, une augmentation mécanique des prix.
+Et la définition que les économistes Keynésiens et les défenseurs de l’État providence donnent par exemple de l’[inflation](https://planb.academy/resources/glossary/inflation) illustre aussi très bien ce paradoxe. Selon eux, l’inflation serait une augmentation des prix qui, d’après certains banquiers centraux, viendrait soit de « nulle part », soit de contextes géopolitiques que personne ne peut donc ni maîtriser, ni anticiper. Alors que si une augmentation des prix peut effectivement aboutir à une inflation conjoncturelle, par exemple quand le prix du pétrole augmente, les prix de certains biens transformés augmenteront également, les vraies causes structurelles de l’inflation sont d’abord liées à une augmentation de la masse monétaire qui implique, elle, une baisse de la valeur de la monnaie et, _ipso facto_, une augmentation mécanique des prix.
 
 Croire ou faire croire le contraire revient ainsi à rêver les yeux ouverts, comme le dit Spinoza moqueur, et à construire un raisonnement qui est faux, ou mensonger, et qui est d’autant plus facile à faire accepter qu’il est entendu comme une réponse attendue pour se donner raison. En l’espèce, quand les défenseurs de l’intervention de l’État considèrent que l’inflation est le meilleur moyen de résoudre les problèmes économiques. 
 
@@ -445,7 +445,7 @@ Autrement dit « L’infâme » selon Voltaire (1694-1778) pour qui la superst
 
 Car sous l’apparence de nous soulager, de nous permettre d’imaginer un monde meilleur, la superstition nous enferme en réalité malgré nous dans nos illusions et nos propres mensonges. Dans des servitudes desquelles nous aurons beaucoup de mal à nous extirper.
 
-C’est ce que défendront donc les Lumières allemandes, anglaises et françaises dès le 18e siècle en affirmant que la superstition empêche simplement les hommes de devenir adulte, non seulement en limitant l’exercice de la raison, mais aussi, et surtout, en faisant naître l’intolérance dont elle est le meilleur instrument pour asseoir la domination d’un pouvoir. Qu’il soit d’ordre politique ou religieux.
+C’est ce que défendront donc les Lumières allemandes, anglaises et françaises dès le XVIIIe siècle en affirmant que la superstition empêche simplement les hommes de devenir adulte, non seulement en limitant l’exercice de la raison, mais aussi, et surtout, en faisant naître l’intolérance dont elle est le meilleur instrument pour asseoir la domination d’un pouvoir. Qu’il soit d’ordre politique ou religieux.
 
 ![image](assets/fr/040.webp)
 
@@ -524,7 +524,7 @@ Son système, il le développe dans la troisième partie de l’Éthique. Il s�
 
 ![image](assets/fr/046.webp)
 
-Le principe est que les affects humains sont, dit Spinoza, des modifications, actives ou passives, du corps et de la pensée qui influencent notre puissance d’agir, c’est-à-dire nos comportements. 
+Le principe est que les affects humains sont, dit Spinoza, des modifications actives ou passives, du corps et de la pensée qui influencent notre puissance d’agir, c’est-à-dire nos comportements. 
 
 Or, en fonction des affects propres à la fois à la nature humaine et de ceux issus du monde extérieur, nous sommes tout à fait capables de former des idées vraies, de raisonner et d’exprimer de la joie. 
 
@@ -540,7 +540,7 @@ Spinoza prend ainsi l’exemple de la haine qu’il considère comme un affect p
 
 C’est-à-dire que, si, par exemple, on ressent de la haine vis-à-vis d’un étranger, c’est qu’on associe cet étranger à l’idée qu’on se fait de lui pour des raisons qui nous échappent puisqu’il est étranger et par nature différent. C’est cette idée de cause extérieure, idée à cause de laquelle l’ignorant aura d’ailleurs toujours mécaniquement une forte propension à dire du mal d’un concept qu’il ne connaît pas.
 
-Ce qui est particulièrement vrai, soit dit en passant, dans le domaine des cryptomonnaies.
+Ce qui est particulièrement vrai, soit dit en passant, dans le domaine des [cryptomonnaies](https://planb.academy/resources/glossary/cryptocurrency).
 
 ![image](assets/fr/048.webp)
 
@@ -590,7 +590,7 @@ C’est précisément le propos de la philosophie rationnelle des Lumières, et 
 ![image](assets/fr/051.webp)
 
 En d’autres termes, dit-il, si nous pensons par nous-mêmes, si nous raisonnons en adulte rationnel et si nous nous évertuons, de ce fait, à nous attacher aux liens de causalité des choses, nous n’aurons plus besoin d'une autorité morale pour nous enseigner, par exemple, les vraies vertus de la religion ou les vraies valeurs éthiques dans les domaines politiques et économiques. 
-Un raisonnement qui fera le lien avec l’école d’économie libérale autrichienne née dans l’atmosphère intellectuelle extrêmement fertile de Vienne avant la première guerre mondiale. Car c’est dans ce contexte que des intellectuels comme Carl Menger (1840-1921), Ludwig von Mises (1883-1979) et Friedrich Hayek (1899-1992) vont poser les bases d’une nouvelle école d’obédience libérale à l’origine des convictions des cypherpunks à venir. Et donc de la création de Bitcoin.
+Un raisonnement qui fera le lien avec l’école d’économie libérale [autrichienne](https://planb.academy/resources/glossary/austrian-school) née dans l’atmosphère intellectuelle extrêmement fertile de Vienne avant la première guerre mondiale. Car c’est dans ce contexte que des intellectuels comme Carl Menger (1840-1921), Ludwig von Mises (1883-1979) et Friedrich Hayek (1899-1992) vont poser les bases d’une nouvelle école d’obédience libérale à l’origine des convictions des [cypherpunks](https://planb.academy/resources/glossary/cypherpunks) à venir. Et donc de la création de Bitcoin.
 
 ![image](assets/fr/052.webp)
 
@@ -611,16 +611,16 @@ Et ce sont bien ces arguments politiques et économiques défendus par les premi
 
 ![image](assets/fr/055.webp)
 
-Notamment lorsqu’il inscrit le titre du Times du 3 janvier 2009 dans le coinbase du bloc genesis de la Blockchain Bitcoin pour illustrer la fin d’une époque, keynésienne, et le début d’une autre époque aux aspirations libérales, anarchistes et libertariennes.
+Notamment lorsqu’il inscrit le titre du Times du 3 janvier 2009 dans le [coinbase](https://planb.academy/resources/glossary/coinbase-transaction) du [bloc genesis](https://planb.academy/resources/glossary/genesis-block) de la [Blockchain](https://planb.academy/resources/glossary/blockchain) Bitcoin pour illustrer la fin d’une époque, keynésienne, et le début d’une autre époque aux aspirations libérales, anarchistes et libertariennes.
 
 ![image](assets/fr/056.webp)
 
-Le White Paper publié le 31 octobre 2008 présente ainsi Bitcoin comme un moyen d’échanger de la valeur sur internet sans tiers de confiance, en se fondant sur un protocole décentralisé. Une révolution « copernicienne » qui permet enfin aux hommes de retrouver leur capacité d’agir, c’est-à-dire leur liberté, leur liberté d’échanger, leur droit de propriété et le respect de leur vie privée. 
-Pourquoi ? Car Bitcoin permet de nous extraire de cette servitude à la façon de Spinoza, grâce à la raison, grâce au langage de Galilée que sont les mathématiques. Et comme le suggère Hayek, sans que les État puissent s’y opposer. Et de façon pacifique, sans contrainte et donc sans prosélytisme.
+Le [White Paper](https://planb.academy/resources/glossary/white-paper) publié le 31 octobre 2008 présente ainsi Bitcoin comme un moyen d’échanger de la valeur sur internet sans tiers de confiance, en se fondant sur un protocole décentralisé. Une révolution « copernicienne » qui permet enfin aux hommes de retrouver leur capacité d’agir, c’est-à-dire leur liberté, leur liberté d’échanger, leur droit de propriété et le respect de leur vie privée. 
+Pourquoi ? Car Bitcoin permet de nous extraire de cette servitude à la façon de Spinoza, grâce à la raison, grâce au langage de Galilée que sont les mathématiques. Et comme le suggère Hayek, sans que les États puissent s’y opposer. Et de façon pacifique, sans contrainte et donc sans prosélytisme.
 
-C’est d’ailleurs le dernier parallèle que je ferai entre le spinozisme et Bitcoin pour montrer qu’il ne sert à rien de convaincre quiconque n’adhère pas à un concept copernicien ou disruptif autrement que par la raison, l’entendement, la curiosité ou la bonne volonté. 
+C’est d’ailleurs le dernier parallèle que je ferai entre le spinozisme et le Bitcoin pour montrer qu’il ne sert à rien de convaincre. Quiconque n’adhère à un concept copernicien ou disruptif autrement que par la raison, l’entendement, la curiosité ou la bonne volonté. 
 
-À rien et surtout pas par la contrainte, ni par la violence. Car le fait est que Copernic, Galilée, Newton, Darwin, Einstein, Hayek, Spinoza ou Satoshi Nakamoto n’ont ainsi jamais menacé quiconque ne croyait pas en leurs idées et en leurs démonstrations. 
+À rien et surtout pas, par la contrainte, ni par la violence. Car le fait est que Copernic, Galilée, Newton, Darwin, Einstein, Hayek, Spinoza ou Satoshi Nakamoto n’ont ainsi jamais menacé quiconque ne croyait en leurs idées et en leurs démonstrations. 
 
 
 # Section finale

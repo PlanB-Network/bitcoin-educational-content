@@ -234,7 +234,7 @@ Para esta instalação, é necessário :
 
 
 
-- Descarregar e instalar [Balena Etcher] (https://www.balena.io/etcher/) no seu computador
+- Descarregar e instalar [Balena Etcher](https://www.balena.io/etcher/) no seu computador
 
 
 
@@ -728,7 +728,7 @@ O seu Umbrel está agora pronto a ser utilizado. Participa ativamente na rede Bi
 
 - [Sítio Web oficial da Umbrel](https://umbrel.com)
 - [Documentação da Umbrel](https://github.com/getumbrel/umbrel/wiki)
-- [Guarda-chuva da App Store] (https://apps.umbrel.com)
+- [Guarda-chuva da App Store](https://apps.umbrel.com)
 
 
 

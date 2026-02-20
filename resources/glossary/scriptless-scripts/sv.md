@@ -1,5 +1,6 @@
 ---
-term: SKRIPTLÖSA SKRIPT
+term: Scriptless scripts
+definition: Smarta kontrakt som körs off-chain utan att exponera logiken på Bitcoins blockchain.
 ---
 
 Detta koncept, som ursprungligen utvecklades av Andrew Poelstra, möjliggör exekvering av smarta kontrakt utan att explicit exponera Contract:s logik på Bitcoin Blockchain. Som namnet "scriptless scripts" antyder bygger idén på att exekvera script (eller kontrakt) utan att uttryckligen använda script. Dessa kontrakt utnyttjar egenskaperna hos Schnorr-signaturer, vilket möjliggör användning av *Adaptorsignaturer*, särskilt för att genomföra *Atomic Swaps*. Contract-villkoren tillämpas och verkställs off-chain av de inblandade parterna, som är de enda som känner till villkoren. Till skillnad från traditionella smarta kontrakt minimerar *Scriptless Scripts* sitt fotavtryck på Blockchain och minskar därmed driftskostnaden. Dessa kontrakt är också mer diskreta än traditionella smarta kontrakt, som lämnar spår på Blockchain. Således liknar de vanliga transaktioner, vilket ökar deras anonymitetsuppsättning.

@@ -133,7 +133,7 @@ Så, är du redo att slå på din första Bitcoin-nod? Sätt kurs mot suveränit
 
 
 
-Såsom det beskrivs av dess skapare, Satoshi Nakamoto, presenterar sig Bitcoin som ett elektroniskt kontantsystem peer-to-peer. Denna enkla mening, som är titeln på vitboken, innehåller många ledtrådar till Bitcoin:s natur:
+Såsom det beskrivs av dess skapare, [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi), presenterar sig Bitcoin som ett elektroniskt kontantsystem [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p). Denna enkla mening, som är titeln på [vitboken](https://planb.academy/resources/glossary/white-paper), innehåller många ledtrådar till Bitcoin:s natur:
 
 
 
@@ -144,7 +144,7 @@ Såsom det beskrivs av dess skapare, Satoshi Nakamoto, presenterar sig Bitcoin s
 
 
 
-Eftersom Bitcoin är ett system måste det nödvändigtvis köras på datorer. Och på grund av dess peer-to-peer-karaktär är det användarna själva som tar ansvar för att köra dessa maskiner. Vad vi kallar en "Bitcoin-nod" är just den dator på vilken programvara som implementerar Bitcoin-protokollet (som Bitcoin core, men vi återkommer till det senare) körs. Det är detta som gör att Bitcoin kan fungera utan en central myndighet: validering utförs på ett distribuerat sätt, av tusentals oberoende maskiner som tillhör tusentals användare.
+Eftersom Bitcoin är ett system måste det nödvändigtvis köras på datorer. Och på grund av dess peer-to-peer-karaktär är det användarna själva som tar ansvar för att köra dessa maskiner. Vad vi kallar en "[Bitcoin-nod](https://planb.academy/resources/glossary/node)" är just den dator på vilken programvara som implementerar Bitcoin-protokollet (som [Bitcoin core](https://planb.academy/resources/glossary/bitcoin-core), men vi återkommer till det senare) körs. Det är detta som gör att Bitcoin kan fungera utan en central myndighet: validering utförs på ett [distribuerat](https://planb.academy/resources/glossary/distributed) sätt, av tusentals oberoende maskiner som tillhör tusentals användare.
 
 
 
@@ -156,7 +156,7 @@ Nakamoto, S. (2008). *Bitcoin: Ett elektroniskt peer-to-peer-kontantsystem*. htt
 
 
 
-Det är just dessa användare som säkerställer Bitcoin:s säkerhet. Som Eric Voskuil förklarar i sin bok *Cryptoeconomics* är säkerheten för Bitcoin varken beroende av Blockchain, hashkraft, validering, decentralisering, kryptografi, öppen källkod eller spelteori. Säkerheten för Bitcoin beror främst på de individer som är villiga att utsätta sig för personlig risk. Decentralisering gör att denna risk kan spridas över ett stort antal individer, och det är bara deras förmåga att stå emot som säkerställer systemets robusthet.
+Det är just dessa användare som säkerställer Bitcoin:s säkerhet. Som Eric Voskuil förklarar i sin bok *Cryptoeconomics* är säkerheten för Bitcoin varken beroende av [Blockchain](https://planb.academy/resources/glossary/blockchain), [hashkraft](https://planb.academy/resources/glossary/hashrate), validering, decentralisering, [kryptografi](https://planb.academy/resources/glossary/cryptography), [öppen källkod](https://planb.academy/resources/glossary/foss) eller spelteori. Säkerheten för Bitcoin beror främst på de individer som är villiga att utsätta sig för personlig risk. Decentralisering gör att denna risk kan spridas över ett stort antal individer, och det är bara deras förmåga att stå emot som säkerställer systemets robusthet.
 
 
 
@@ -175,7 +175,7 @@ Vi kan alltså urskilja och namnge flera begrepp för att klargöra saker och ti
 
 - Bitcoin valuta: den beräkningsenhet som används för transaktioner inom detta system;
 - Bitcoin-nätverket: uppsättningen av alla anslutna noder;
-- Bitcoin-noder: maskiner som kör en implementation av Bitcoin;
+- Bitcoin-noder: maskiner som kör en [implementation av Bitcoin](https://planb.academy/resources/glossary/bitcoin-implementation);
 - Bitcoin-implementeringar: programvara som översätter protokollet till körbara instruktioner;
 - Bitcoin protokoll: den uppsättning regler som styr systemets funktion;
 - Bitcoin-systemet: den sammanhängande kombinationen av alla dessa Elements.
@@ -190,7 +190,7 @@ Bitcoin-noderna bildar tillsammans det så kallade Bitcoin-nätverket. De gör d
 
 
 
-Bitcoin var från början utformad för att varje användare skulle kunna köra en personlig nod. Detta är fortfarande fallet med dagens Bitcoin core-programvara, som kombinerar rollerna som Wallet och nod. Men nuförtiden är denna funktion ofta åtskild: många moderna Bitcoin-plånböcker är bara plånböcker som ansluter till externa noder (som ägs av samma person eller inte).
+Bitcoin var från början utformad för att varje användare skulle kunna köra en personlig nod. Detta är fortfarande fallet med dagens Bitcoin core-programvara, som kombinerar rollerna som Wallet och nod. Men nuförtiden är denna funktion ofta åtskild: många moderna Bitcoin-[plånböcker](https://planb.academy/resources/glossary/wallet) är bara plånböcker som ansluter till externa noder (som ägs av samma person eller inte).
 
 
 
@@ -198,7 +198,7 @@ Bitcoin var från början utformad för att varje användare skulle kunna köra 
 
 
 
-Den första uppgiften för en nod är att upprätthålla en lokal kopia av Blockchain. För att förhindra Double-spending på Bitcoin utan att involvera en central myndighet måste varje användare kontrollera att det inte finns någon transaktion i systemet. Det enda sättet att vara säker på detta är att känna till alla transaktioner som gjorts på Bitcoin. Av denna anledning tidsstämplas alla transaktioner och grupperas i block, och varje nod lagrar hela Blockchain.
+Den första uppgiften för en nod är att upprätthålla en lokal kopia av Blockchain. För att förhindra [Double-spending](https://planb.academy/resources/glossary/double-spending-attack) på Bitcoin utan att involvera en central myndighet måste varje användare kontrollera att det inte finns någon [transaktion](https://planb.academy/resources/glossary/transaction-tx) i systemet. Det enda sättet att vara säker på detta är att känna till alla transaktioner som gjorts på Bitcoin. Av denna anledning [tidsstämplas](https://planb.academy/resources/glossary/timestamp) alla transaktioner och grupperas i [block](https://planb.academy/resources/glossary/block), och varje nod lagrar hela Blockchain.
 
 
 
@@ -208,7 +208,7 @@ Nakamoto, S. (2008). *Bitcoin: Ett elektroniskt peer-to-peer-system för kontant
 
 
 
-Blockchain är därför ett register som utvecklas: varje gång ett nytt block publiceras av en Miner kontrollerar noden dess giltighet innan den lägger till det i sin egen lokala kopia av kedjan. I dag (juli 2025) är hela Blockchain över 675 GB, och storleken fortsätter att växa eftersom ett nytt block läggs till i genomsnitt var 10:e minut.
+Blockchain är därför ett register som utvecklas: varje gång ett nytt block publiceras av en [Miner](https://planb.academy/resources/glossary/miner) kontrollerar noden dess giltighet innan den lägger till det i sin egen lokala kopia av kedjan. I dag (juli 2025) är hela Blockchain över 675 GB, och storleken fortsätter att växa eftersom ett nytt block läggs till i genomsnitt var 10:e minut.
 
 
 
@@ -216,7 +216,7 @@ Blockchain är därför ett register som utvecklas: varje gång ett nytt block p
 
 
 
-Noden upprätthåller också ett lokalt register över alla UTXO som finns vid en given tidpunkt, känt som **UTXO-uppsättningen**. Denna databas innehåller alla oanvända Bitcoin-fragment. Vi återvänder till detta ämne i detalj i den sista delen av kursen.
+Noden upprätthåller också ett lokalt register över alla [UTXO](https://planb.academy/resources/glossary/utxo) som finns vid en given tidpunkt, känt som **[UTXO-uppsättningen](https://planb.academy/resources/glossary/utxo-set)**. Denna databas innehåller alla oanvända Bitcoin-fragment. Vi återvänder till detta ämne i detalj i den sista delen av kursen.
 
 
 
@@ -224,14 +224,14 @@ Noden upprätthåller också ett lokalt register över alla UTXO som finns vid e
 
 
 
-Den andra rollen för en nod är att säkerställa verifiering och spridning av transaktioner. När en ny transaktion når noden (antingen via Wallet-mjukvaran eller en annan nod) kontrollerar den att den följer en uppsättning regler (konsensusregler och reläregler). Ett exempel:
+Den andra rollen för en nod är att säkerställa verifiering och spridning av transaktioner. När en ny transaktion når noden (antingen via Wallet-mjukvaran eller en annan nod) kontrollerar den att den följer en uppsättning regler ([konsensusregler](https://planb.academy/resources/glossary/consensus-rules) och [reläregler](https://planb.academy/resources/glossary/relay)). Ett exempel:
 
 
 
 
 - förbrukade bitcoins måste finnas i dess UTXO-uppsättning (databasen med outnyttjade utgångar);
-- signaturen måste vara giltig och alla utgiftsvillkor måste vara uppfyllda (giltigt manus);
-- den totala mängden prestationer får inte överstiga den totala mängden insatser, vilket innebär att kostnaderna inte kan vara negativa.
+- [signaturen](https://planb.academy/resources/glossary/digital-signature) måste vara giltig och alla utgiftsvillkor måste vara uppfyllda (giltigt [manus](https://planb.academy/resources/glossary/script));
+- den totala mängden [prestationer](https://planb.academy/resources/glossary/output) får inte överstiga den totala mängden [insatser](https://planb.academy/resources/glossary/input), vilket innebär att [kostnaderna](https://planb.academy/resources/glossary/transaction-fees) inte kan vara negativa.
 
 
 
@@ -239,7 +239,7 @@ Den andra rollen för en nod är att säkerställa verifiering och spridning av 
 
 
 
-Efter validering lagras transaktionen i nodens Mempool, ett tillfälligt minnesutrymme som reserverats för obekräftade transaktioner, och vidarebefordras sedan till de andra nätverksmotparter som den är ansluten till. Denna distributions- och valideringsmekanism fortsätter från nod till nod. På så sätt sprids transaktionen över Bitcoin-nätverket och varje nod lagrar den i Mempool tills den inkluderas i ett giltigt block av en Miner, som sedan agerar på dess första bekräftelse.
+Efter validering lagras transaktionen i nodens [Mempool](https://planb.academy/resources/glossary/mempool), ett tillfälligt minnesutrymme som reserverats för obekräftade transaktioner, och vidarebefordras sedan till de andra nätverksmotparter som den är ansluten till. Denna distributions- och valideringsmekanism fortsätter från nod till nod. På så sätt sprids transaktionen över Bitcoin-nätverket och varje nod lagrar den i Mempool tills den inkluderas i ett giltigt block av en Miner, som sedan agerar på dess första [bekräftelse](https://planb.academy/resources/glossary/confirmation).
 
 
 
@@ -247,7 +247,7 @@ Efter validering lagras transaktionen i nodens Mempool, ett tillfälligt minnesu
 
 
 
-Nodens tredje roll handlar om att hantera minade block. När en Miner upptäcker ett nytt block med en giltig Proof of Work sänds det ut i nätverket. Noderna tar emot det, kontrollerar att det överensstämmer med alla protokollregler och integrerar det sedan i sin egen lokala kopia av Blockchain om det är giltigt. Precis som med transaktioner vidarebefordras nyligen validerade block till alla peers som är anslutna till noden. Denna process fortsätter tills alla noder i Bitcoin-nätverket är medvetna om det nya blocket.
+Nodens tredje roll handlar om att hantera minade block. När en Miner upptäcker ett nytt block med en giltig [Proof of Work](https://planb.academy/resources/glossary/proof-of-work) [sänds](https://planb.academy/resources/glossary/diffusion) det ut i nätverket. Noderna tar emot det, kontrollerar att det överensstämmer med alla protokollregler och integrerar det sedan i sin egen lokala kopia av Blockchain om det är giltigt. Precis som med transaktioner vidarebefordras nyligen validerade block till alla peers som är anslutna till noden. Denna process fortsätter tills alla noder i Bitcoin-nätverket är medvetna om det nya blocket.
 
 
 
@@ -281,7 +281,7 @@ En Bitcoin Wallet är å andra sidan en programvara som är utformad för att la
 
 
 
-I vissa fall samexisterar dessa två funktioner inom samma programvara, vilket är fallet med Bitcoin core, som fungerar som både en Full node och en Wallet. Många populära Wallet-program (Sparrow, BlueWallet etc.) kräver dock en anslutning till en extern nod (antingen din egen eller en tredje parts) för att sända transaktioner och fastställa Wallet-saldot.
+I vissa fall samexisterar dessa två funktioner inom samma programvara, vilket är fallet med Bitcoin core, som fungerar som både en [Full node](https://planb.academy/resources/glossary/full-node) och en Wallet. Många populära Wallet-program (Sparrow, BlueWallet etc.) kräver dock en anslutning till en extern nod (antingen din egen eller en tredje parts) för att sända transaktioner och fastställa Wallet-saldot.
 
 
 
@@ -304,7 +304,7 @@ När Bitcoin lanserades av Satoshi Nakamoto 2009 förväntades varje användare 
 
 
 
-I och med den gradvisa populariseringen av Bitcoin och ökningen av antalet gruvarbetare har dock konkurrenslandskapet i Mining genomgått en radikal förändring. Idag har Mining blivit en extremt konkurrensutsatt aktivitet som domineras av industriella aktörer utrustade med specialiserad infrastruktur. Den kraft som krävs för att bryta ett nytt block är nu så stor att det är praktiskt taget omöjligt för en enskild användare att åstadkomma detta med hjälp av endast en konventionell dator. Som ett resultat av detta utförs Mining nu främst med hjälp av specialiserade maskiner som kallas ASICs (*Application-Specific Integrated Circuits*). Dessa chip är optimerade uteslutande för att köra dubbel SHA-256, den algoritm som används för Mining på Bitcoin.
+I och med den gradvisa populariseringen av Bitcoin och ökningen av antalet gruvarbetare har dock konkurrenslandskapet i Mining genomgått en radikal förändring. Idag har Mining blivit en extremt konkurrensutsatt aktivitet som domineras av industriella aktörer utrustade med specialiserad infrastruktur. Den kraft som krävs för att bryta ett nytt block är nu så stor att det är praktiskt taget omöjligt för en enskild användare att åstadkomma detta med hjälp av endast en konventionell dator. Som ett resultat av detta utförs Mining nu främst med hjälp av specialiserade maskiner som kallas [ASICs](https://planb.academy/resources/glossary/asic) (*Application-Specific Integrated Circuits*). Dessa chip är optimerade uteslutande för att köra dubbel [SHA-256](https://planb.academy/resources/glossary/sha256), den algoritm som används för Mining på Bitcoin.
 
 
 
@@ -328,7 +328,7 @@ En Miner behöver en Bitcoin-nod för att interagera med nätverket.
 
 
 
-Miner:s roll skiljer sig också ibland från hackarens. En huggare är en maskin vars uppgift är att Hash mallblock som levereras av en pools server, leta efter hashes som uppfyller svårighetsmålet som definierats för aktier, och inte Bitcoin. Resten av Mining-processen, som inkluderar faktisk blockkonstruktion, transaktionsval eller Proof-of-Work-sökning enligt Bitcoin:s egen svårighetsgrad, samt distribution, utförs direkt av poolerna.
+Miner:s roll skiljer sig också ibland från grind. En grind är en maskin vars uppgift är att Hash mallblock som levereras av en [pools](https://planb.academy/resources/glossary/pool-mining) server, leta efter hashes som uppfyller svårighetsmålet som definierats för aktier, och inte Bitcoin. Resten av Mining-processen, som inkluderar faktisk blockkonstruktion, transaktionsval eller Proof-of-Work-sökning enligt Bitcoin:s egen svårighetsgrad, samt distribution, utförs direkt av poolerna.
 
 
 
@@ -598,7 +598,7 @@ Dessa är de grundläggande reglerna i Bitcoin-protokollet, som säkerställer s
 
 
 
-Att ändra dessa regler är detsamma som att ändra protokollet och därmed valutan (Hard Fork). Men även utan att försöka ändra dem ger det enkla faktum att de befintliga reglerna tillämpas strikt en viss makt: om ett block bryter mot reglerna avvisar noden det omedelbart.
+Att ändra dessa regler är detsamma som att ändra protokollet och därmed valutan ([Hard Fork](https://planb.academy/resources/glossary/hard-fork)). Men även utan att försöka ändra dem ger det enkla faktum att de befintliga reglerna tillämpas strikt en viss makt: om ett block bryter mot reglerna avvisar noden det omedelbart.
 
 
 
@@ -722,7 +722,7 @@ Full node behöver inte lita på någon eftersom den validerar och känner till 
 
 
 
-I praktiken kräver en Full node icke-triviala resurser, inklusive flera hundra gigabyte för blockfiler, en processor som kan validera skript, RAM-minne för Mempool och cacheminnet samt stabil bandbredd. Den första synkroniseringen (*IBD*) läser och verifierar hela historiken: det är intensivt, men sker bara en gång. En Full node deltar aktivt i nätverket, vidarebefordrar block och transaktioner och kan acceptera inkommande anslutningar för att hjälpa andra peers.
+I praktiken kräver en Full node icke-triviala resurser, inklusive flera hundra gigabyte för blockfiler, en processor som kan validera skript, RAM-minne för Mempool och cacheminnet samt stabil bandbredd. Den första synkroniseringen (*[IBD](https://planb.academy/resources/glossary/initial-block-download-ibd)*) läser och verifierar hela historiken: det är intensivt, men sker bara en gång. En Full node deltar aktivt i nätverket, vidarebefordrar block och transaktioner och kan acceptera inkommande anslutningar för att hjälpa andra peers.
 
 
 
@@ -758,7 +758,7 @@ Kort sagt fungerar Wallet-spårning utan problem på en pruned-nod om du skapar 
 
 
 
-En SPV-nod (*Simplified Payment Verification*), eller lättviktsnod, behåller endast blockheaders, inte transaktionsdetaljer, och förlitar sig på andra fullständiga noder för att få bevis på att en transaktion finns i ett block (Merkle-bevis via träd) för vilket den har headern. Konceptet med förenklad betalningsverifiering är inte nytt, utan har föreslagits av Satoshi Nakamoto själv i del 8 av vitboken.
+En [SPV](https://planb.academy/resources/glossary/spv-node-light-node)-nod (*Simplified Payment Verification*), eller lättviktsnod, behåller endast blockheaders, inte transaktionsdetaljer, och förlitar sig på andra fullständiga noder för att få bevis på att en transaktion finns i ett block ([Merkle](https://planb.academy/resources/glossary/merkle-tree)-bevis via träd) för vilket den har headern. Konceptet med förenklad betalningsverifiering är inte nytt, utan har föreslagits av Satoshi Nakamoto själv i del 8 av vitboken.
 
 
 
@@ -812,7 +812,7 @@ En mellananvändare med en PC kan installera en pruned-nod för att dra nytta av
 
 
 
-En Full node är fortfarande den bästa lösningen om du vill vara helt oberoende i din användning av Bitcoin och inte begränsa dig själv senare till avancerade användningsområden som en indexerare, en Lightning-nod eller till och med en Block explorer. Det är precis vad vi kommer att utforska i den här kursen!
+En Full node är fortfarande den bästa lösningen om du vill vara helt oberoende i din användning av Bitcoin och inte begränsa dig själv senare till avancerade användningsområden som en indexerare, en [Lightning](https://planb.academy/resources/glossary/lightning-network)-nod eller till och med en Block explorer. Det är precis vad vi kommer att utforska i den här kursen!
 
 
 
@@ -853,7 +853,7 @@ Det här är det mest suveräna och flexibla tillvägagångssättet: du vet exak
 
 
 
-[Bitcoin core är nätverkets ultramajoritetsklient] (https://bitcoincore.org/). Den hämtar, validerar och underhåller Blockchain, tillhandahåller RPC/REST API:er och kan integrera en Wallet. Om du föredrar standardverktyg och känner dig bekväm med att lägga till tjänster själv (t.ex. Electrum-server, explorer och LND) är det bättre att använda Core som det är.
+[Bitcoin core är nätverkets ultramajoritetsklient](https://bitcoincore.org/). Den hämtar, validerar och underhåller Blockchain, tillhandahåller [RPC](https://planb.academy/resources/glossary/rpc-remote-procedure-call)/REST API:er och kan integrera en Wallet. Om du föredrar standardverktyg och känner dig bekväm med att lägga till tjänster själv (t.ex. Electrum-server, explorer och LND) är det bättre att använda Core som det är.
 
 
 
@@ -974,7 +974,7 @@ https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-8905
 
 
 
-[MyNode är en distribution som uteslutande fokuserar på Bitcoin och Lightning] (https://mynodebtc.com/) och erbjuder en webb Interface, en marknadsplats för applikationer och uppgraderingar med ett klick. Du kan antingen köpa färdig hårdvara (*Model Two* finns för 549 dollar) eller installera MyNode gratis på din egen maskin. Projektet erbjuder också en *Premium*-version av programvaran (94 dollar), som inkluderar prioriterad support och avancerade funktioner.
+[MyNode är en distribution som uteslutande fokuserar på Bitcoin och Lightning](https://mynodebtc.com/) och erbjuder en webb Interface, en marknadsplats för applikationer och uppgraderingar med ett klick. Du kan antingen köpa färdig hårdvara (*Model Two* finns för 549 dollar) eller installera MyNode gratis på din egen maskin. Projektet erbjuder också en *Premium*-version av programvaran (94 dollar), som inkluderar prioriterad support och avancerade funktioner.
 
 
 
@@ -1010,7 +1010,7 @@ https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-
 
 
 
-[RoninDojo är en integritetsfokuserad node-in-a-box] (https://wiki.ronindojo.io/en/home) som automatiserar distributionen av Samurai Dojo och Whirlpool, med en dedikerad Interface och plugins som är särskilt utformade för Samurai-ekosystemet.
+[RoninDojo är en integritetsfokuserad node-in-a-box](https://wiki.ronindojo.io/en/home) som automatiserar distributionen av Samurai Dojo och Whirlpool, med en dedikerad Interface och plugins som är särskilt utformade för Samurai-ekosystemet.
 
 
 
@@ -1032,7 +1032,7 @@ https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4
 
 
 
-En annan [node-in-a-box-lösning är Nodl] (https://www.nodl.eu/). Precis som med de tidigare projekten kan du antingen köpa den förkonfigurerade hårdvaran (mellan 599 och 799 euro, beroende på modell) eller installera den själv i DIY-läge.
+En annan [node-in-a-box-lösning är Nodl](https://www.nodl.eu/). Precis som med de tidigare projekten kan du antingen köpa den förkonfigurerade hårdvaran (mellan 599 och 799 euro, beroende på modell) eller installera den själv i DIY-läge.
 
 
 
@@ -1509,7 +1509,7 @@ Genom att distribuera applikationer i containrar kan du forma Umbrel som du vill
 
 
 
-En av Umbrels viktigaste fördelar jämfört med sina konkurrenter är dess stora och mycket aktiva användargemenskap. Du kan nå dem främst via [deras Discord] (https://discord.gg/efNtFzqtdx) och [deras onlineforum] (https://community.umbrel.com/). Här hittar du inte bara praktiska råd utan framför allt lösningar för att lösa problem eller fixa buggar. Det är ett bra ställe att börja, att utvecklas och så småningom hjälpa andra användare, så att du inte blir ensam med din Coin.
+En av Umbrels viktigaste fördelar jämfört med sina konkurrenter är dess stora och mycket aktiva användargemenskap. Du kan nå dem främst via [deras Discord](https://discord.gg/efNtFzqtdx) och [deras onlineforum](https://community.umbrel.com/). Här hittar du inte bara praktiska råd utan framför allt lösningar för att lösa problem eller fixa buggar. Det är ett bra ställe att börja, att utvecklas och så småningom hjälpa andra användare, så att du inte blir ensam med din Coin.
 
 
 
@@ -1633,7 +1633,7 @@ Gå till [den officiella Umbrel-webbplatsen för att ladda ner ISO-bilden](https
 
 
 
-För att skapa det startbara USB-minnet använder du ett enkelt plattformsoberoende verktyg som heter [Balena Etcher] (https://www.balena.io/etcher/). Ladda ner och installera det på din dator.
+För att skapa det startbara USB-minnet använder du ett enkelt plattformsoberoende verktyg som heter [Balena Etcher](https://www.balena.io/etcher/). Ladda ner och installera det på din dator.
 
 
 
@@ -1856,7 +1856,7 @@ För att börja konfigurera din Umbrel, klicka på knappen "*Start*".
 
 
 
-Välj en pseudonym eller ange ditt namn och ange sedan ett starkt lösenord. Var försiktig: detta lösenord är den enda barriären som skyddar åtkomst till din Umbrel från ditt nätverk (och därför potentiellt till dina bitcoins om du kör en Lightning-nod på Umbrel). Det skyddar också fjärråtkomst via Tor eller VPN, om dessa tjänster är aktiverade.
+Välj en pseudonym eller ange ditt namn och ange sedan ett starkt lösenord. Var försiktig: detta lösenord är den enda barriären som skyddar åtkomst till din Umbrel från ditt nätverk (och därför potentiellt till dina bitcoins om du kör en Lightning-nod på Umbrel). Det skyddar också fjärråtkomst via [Tor](https://planb.academy/resources/glossary/tor) eller VPN, om dessa tjänster är aktiverade.
 
 
 
@@ -2042,7 +2042,7 @@ Var försiktig så att du inte allokerar ett värde som är för stort för din 
 
 
 
-Om du vill veta mer om hur parametern `dbcache` påverkar den initiala synkroniseringen rekommenderar jag den här analysen av Jameson Lopp: [*Effects of DBcache Size on Bitcoin Node Sync Speed*] (https://blog.lopp.net/effects-dbcache-size-Bitcoin-node-sync-speed/)
+Om du vill veta mer om hur parametern `dbcache` påverkar den initiala synkroniseringen rekommenderar jag den här analysen av Jameson Lopp: [*Effects of DBcache Size on Bitcoin Node Sync Speed*](https://blog.lopp.net/effects-dbcache-size-Bitcoin-node-sync-speed/)
 
 
 
@@ -2514,9 +2514,11 @@ Slutligen rekommenderar jag applikationen * Lightning Network+*, som gör det m�
 
 
 
-Tack vare Umbrel har det blivit mycket enklare att hantera en personlig Lightning-nod, men det är fortfarande relativt komplext. Av denna anledning kommer vi att titta närmare på detta ämne i en framtida kurs som helt ägnas åt denna användning.
+Tack vare Umbrel är hanteringen av en personlig Lightning-nod förenklad, men den förblir ändå relativt komplex. Därför rekommenderar jag att du följer kursen LNP 202, som utgör den logiska fortsättningen på kursen BTC 202, och i vilken jag steg för steg guidar dig i installationen och hanteringen av din Lightning-nod på Umbrel.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Svansvåg
 
@@ -2604,7 +2606,7 @@ https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b
 
 
 
-BTCPay Server är en kostnadsfri betalningsprocessor med öppen källkod som gör att du kan ta emot betalningar via Bitcoin och Lightning Network utan mellanhänder, samtidigt som du behåller egen förvaring av medel.
+[BTCPay Server](https://planb.academy/resources/glossary/btcpay-server) är en kostnadsfri betalningsprocessor med öppen källkod som gör att du kan ta emot betalningar via Bitcoin och Lightning Network utan mellanhänder, samtidigt som du behåller egen förvaring av medel.
 
 
 
@@ -2761,7 +2763,7 @@ I händelse av en bugg på din Umbrel, först generate ett diagnostikpaket via f
 
 
 
-Om problemet kvarstår rekommenderar jag att du [går med i Umbrels användargrupp på deras Discord] (https://discord.gg/efNtFzqtdx). Börja med att göra en sökning för att avgöra om någon redan har stött på samma problem och hittat en lösning. Om inte, kan du posta ett meddelande i kanalen `general-support`. Du kan också använda [the Umbrel forum](https://community.umbrel.com/).
+Om problemet kvarstår rekommenderar jag att du [går med i Umbrels användargrupp på deras Discord](https://discord.gg/efNtFzqtdx). Börja med att göra en sökning för att avgöra om någon redan har stött på samma problem och hittat en lösning. Om inte, kan du posta ett meddelande i kanalen `general-support`. Du kan också använda [the Umbrel forum](https://community.umbrel.com/).
 
 
 
@@ -2815,7 +2817,7 @@ Som en påminnelse består ett Bitcoin-block av en header på 80 byte och en lis
 - Merkle Root av transaktioner
 - Timestamp (längre än mediantiden för de föregående 11 blocken)
 - svårighet mål
-- Nonce
+- [Nonce](https://planb.academy/resources/glossary/nonce)
 
 
 
@@ -2823,7 +2825,7 @@ Som en påminnelse består ett Bitcoin-block av en header på 80 byte och en lis
 
 
 
-Transaktionerna överförs till ett Merkle Tree. Detta är en struktur som sammanfattar en stor uppsättning data (i det här fallet alla transaktioner i blocket) genom att aggregera deras hashvärden successivt två och två ner till en enda "rot", vilket bevisar att ett element tillhör uppsättningen (och upptäcker eventuella ändringar). På så sätt modifierar varje ändring av en transaktion också roten i Merkle Tree och därmed blockhuvudets fingeravtryck. SegWit har infört en separat ytterligare Commitment för cookies (signaturer), placerad i myntbasen.
+Transaktionerna överförs till ett Merkle Tree. Detta är en struktur som sammanfattar en stor uppsättning data (i det här fallet alla transaktioner i blocket) genom att aggregera deras hashvärden successivt två och två ner till en enda "rot", vilket bevisar att ett element tillhör uppsättningen (och upptäcker eventuella ändringar). På så sätt modifierar varje ändring av en transaktion också roten i Merkle Tree och därmed blockhuvudets fingeravtryck. [SegWit](https://planb.academy/resources/glossary/segwit) har infört en separat ytterligare Commitment för cookies (signaturer), placerad i myntbasen.
 
 
 
@@ -2891,7 +2893,7 @@ När noden startas om efter att redan ha använts försöker Core först återan
 
 
 
-I detta fall ställer programvaran frågor till _**DNS seeds**_. Dessa är [servrar som underhålls av erkända ekosystemutvecklare](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), som returnerar en lista med IP-adresser till förmodat aktiva noder. Dessa adresser gör det möjligt för den nya noden att initiera sina första anslutningar och begära nödvändiga data från IBD. Här är listan över *DNS seeds* som är aktiva hittills (augusti 2025):
+I detta fall ställer programvaran frågor till _**[DNS seeds](https://planb.academy/resources/glossary/dns-seeds)**_. Dessa är [servrar som underhålls av erkända ekosystemutvecklare](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), som returnerar en lista med IP-adresser till förmodat aktiva noder. Dessa adresser gör det möjligt för den nya noden att initiera sina första anslutningar och begära nödvändiga data från IBD. Här är listan över *DNS seeds* som är aktiva hittills (augusti 2025):
 
 
 
@@ -3007,7 +3009,7 @@ För att kunna gå tillbaka i tiden under en omorganisation sparar Core, paralle
 
 
 
-Att söka efter ett block direkt i de platta filerna skulle vara för tidskrävande. Core upprätthåller därför en LevelDB-databas i `blocks/index/` som för varje känt block listar metadata som Hash, höjd, valideringsstatus, `blk`-fil och offset där det finns. När en peer begär ett block, eller när en intern komponent behöver komma åt ett specifikt block, ger detta index snabb åtkomst. Utan detta index skulle det krävas alltför många operationer.
+Att söka efter ett block direkt i de platta filerna skulle vara för tidskrävande. Core upprätthåller därför en [LevelDB](https://planb.academy/resources/glossary/leveldb)-databas i `blocks/index/` som för varje känt block listar metadata som Hash, höjd, valideringsstatus, `blk`-fil och offset där det finns. När en peer begär ett block, eller när en intern komponent behöver komma åt ett specifikt block, ger detta index snabb åtkomst. Utan detta index skulle det krävas alltför många operationer.
 
 
 
@@ -3049,7 +3051,7 @@ Alla dessa delar vid en given tidpunkt T utgör UTXO-uppsättningen: en stor lis
 
 
 
-UTXO-uppsättningen lagras i mappen `chainstate/` som en kompakt LevelDB-databas. Varje del associerar en nyckel som härrör från Hash för transaktionen och utgångsindexet med ett värde som innehåller: beloppet, `scriptPubKey` -låset, höjden på skapelseblocket och en coinbase-indikator.
+UTXO-uppsättningen lagras i mappen `chainstate/` som en kompakt LevelDB-databas. Varje del associerar en nyckel som härrör från Hash för transaktionen och utgångsindexet med ett värde som innehåller: beloppet, `scriptPubKey` -låset, höjden på skapelseblocket och en [coinbase](https://planb.academy/resources/glossary/coinbase-transaction)-indikator.
 
 
 
@@ -3073,13 +3075,13 @@ Observera att UTXO-uppsättningen ofta är kärnan i oron för Bitcoin:s decentr
 
 
 
-Tillväxten av UTXO-uppsättningen härrör också från strukturen för enkla betalningstransaktioner på Bitcoin. När du gör en betalning konsumerar du faktiskt en enda UTXO som input och skapar 2 nya UTXO som output (en för betalningen och den andra för Exchange). Slutligen ger en heuristik för kedjeanalys, kallad CIOH (*Common Input Ownership Heuristic*), ytterligare ett incitament att undvika konsolidering av Coin.
+Tillväxten av UTXO-uppsättningen härrör också från strukturen för enkla betalningstransaktioner på Bitcoin. När du gör en betalning konsumerar du faktiskt en enda UTXO som input och skapar 2 nya UTXO som output (en för betalningen och den andra för Exchange). Slutligen ger en heuristik för kedjeanalys, kallad [CIOH](https://planb.academy/resources/glossary/cioh) (*Common Input Ownership Heuristic*), ytterligare ett incitament att undvika konsolidering av Coin.
 
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Eftersom en del av den måste förvaras i RAM-minnet för att transaktioner ska kunna verifieras inom rimlig tid, kan UTXO-uppsättningen gradvis göra driften av en Full node alltför kostsam. För att lösa detta problem finns det redan några förslag, bland annat [Utreexo] (https://planb.academy/resources/glossary/utreexo).
+Eftersom en del av den måste förvaras i RAM-minnet för att transaktioner ska kunna verifieras inom rimlig tid, kan UTXO-uppsättningen gradvis göra driften av en Full node alltför kostsam. För att lösa detta problem finns det redan några förslag, bland annat Utreexo.
 
 
 
@@ -3106,7 +3108,7 @@ Det är viktigt att notera att nodernas mempooler inte har något konsensusvärd
 
 
 
-När en transaktion tas emot gör Core en rad kontroller mot konsensusregler (syntax, giltiga skript, inga dubbla utgifter etc.) och Mempool-regler, som är en lokal policy (RBF, lägsta avgiftströsklar, datagräns i `OP_RETURN` etc.). Om transaktionen följer dessa regler lagras den i minnet.
+När en transaktion tas emot gör Core en rad kontroller mot konsensusregler (syntax, giltiga skript, inga dubbla utgifter etc.) och Mempool-regler, som är en lokal policy ([RBF](https://planb.academy/resources/glossary/rbf-replacebyfee), lägsta avgiftströsklar, datagräns i `OP_RETURN` etc.). Om transaktionen följer dessa regler lagras den i minnet.
 
 
 
@@ -3347,7 +3349,7 @@ På nätverksnivå har vi också:
 
 
 
-Som standard kommunicerar din nod över clearnet, Tor och I2P. Detta innebär att de peers som den ansluter till på clearnet kan se din offentliga IP Address, och din internetleverantör kommer sannolikt att kunna upptäcka att du kör en Bitcoin-nod (även om P2P Transport V2 gör det svårare för en internetleverantör att avlyssna). Det här är inte nödvändigtvis ett problem, men om du vill undvika att den här informationen läcker ut kan du ansluta din nod uteslutande via Tor-nätverket.
+Som standard kommunicerar din nod över clearnet, Tor och I2P. Detta innebär att de peers som den ansluter till på clearnet kan se din offentliga IP Address, och din internetleverantör kommer sannolikt att kunna upptäcka att du kör en Bitcoin-nod (även om [P2P Transport V2](https://planb.academy/resources/glossary/p2p-transport-v2) gör det svårare för en internetleverantör att avlyssna). Det här är inte nödvändigtvis ett problem, men om du vill undvika att den här informationen läcker ut kan du ansluta din nod uteslutande via Tor-nätverket.
 
 
 
@@ -3490,7 +3492,7 @@ Här är de avancerade inställningarna för Mempool och reläpolicy. Om du är 
 
 
 
-- `peerbloomfilters=1` : Aktiverar stöd för Bloom-filter (BIP37) för att tillhandahålla filtrerade block/transaktioner till lätta klienter (standard: `0`). Observera att detta ökar belastningen på dina resurser.
+- `peerbloomfilters=1` : Aktiverar stöd för [Bloom-filter](https://planb.academy/resources/glossary/bloom-filter) (BIP37) för att tillhandahålla filtrerade block/transaktioner till lätta klienter (standard: `0`). Observera att detta ökar belastningen på dina resurser.
 
 
 
@@ -3882,7 +3884,7 @@ Slutligen kan du i filen `Bitcoin.conf` även konfigurera åtkomstparametrarna f
 
 
 
-Vi är nu färdiga med att lista de flesta konfigurationsparametrarna. Denna fil `Bitcoin.conf` utgör således den verkliga instrumentpanelen för din nod: den definierar nätverkskonfiguration, Mempool-hantering, disk- och minnesanvändning, indexering och allmän administration. Om du vill lära dig mer om den här filen och skapa en som är skräddarsydd efter dina behov rekommenderar jag att du använder [Jameson Lopps generator] (https://jlopp.github.io/Bitcoin-core-config-generator/).
+Vi är nu färdiga med att lista de flesta konfigurationsparametrarna. Denna fil `Bitcoin.conf` utgör således den verkliga instrumentpanelen för din nod: den definierar nätverkskonfiguration, Mempool-hantering, disk- och minnesanvändning, indexering och allmän administration. Om du vill lära dig mer om den här filen och skapa en som är skräddarsydd efter dina behov rekommenderar jag att du använder [Jameson Lopps generator](https://jlopp.github.io/Bitcoin-core-config-generator/).
 
 
 
@@ -3894,11 +3896,13 @@ Du kan nu gå vidare till den sista delen av kursen, där du kommer att kunna ut
 
 
 
-Du har nu flera alternativ öppna för dig. Nästa logiska steg är att sätta upp din egen Lightning-nod, så att du kan vara helt oberoende för dina off-chain-transaktioner. Detta kommer att bli föremål för en kommande kurs, som kommer att publiceras i höst 2025 på Plan ₿ Academy.
+Flera vägar står nu öppna för dig. Nästa logiska steg är att sätta upp din egen Lightning-nod, för att vara helt oberoende när det gäller dina off-chain-transaktioner. Det är just detta som är ämnet för en annan kurs på Plan ₿ Academy:
 
 
 
-Under tiden inbjuder jag dig att upptäcka BTC 204-utbildningen, som gör det möjligt för dig att förstå och behärska principerna för integritetsskydd i din användning av Bitcoin:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Jag bjuder även in dig att upptäcka utbildningen BTC 204, som gör det möjligt för dig att förstå och behärska principerna för integritetsskydd i din användning av Bitcoin:
 
 
 

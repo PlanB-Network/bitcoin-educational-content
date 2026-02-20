@@ -1,5 +1,6 @@
 ---
-term: Halving
+term: Yarılanma (Halving)
+definition: Madenci ödülünü her 210.000 blokta bir yarıya indiren olay.
 ---
 
 "Halving" terimi, blok sübvansiyonu yoluyla madencilere kazılan her blok için verilen ödülü yarıya indiren planlanmış bir olayı ifade eder. Bu azalma özellikle blok sübvansiyonunun havadan yaratılan yeni bitcoinlerden oluşan kısmı için geçerlidir. Halving, Bitcoin'in yaratıcısı Satoshi Nakamoto tarafından enflasyonu kontrol etmek ve sınırlı bir Supply bitcoin sağlamak için bir mekanizma olarak tasarlanmıştır.

@@ -1,6 +1,7 @@
 ---
-term: OUTPOINT
+term: Outpoint
 
+definition: Referensi unik ke UTXO, yang terdiri dari txid dan indeks output.
 ---
 Referensi unik untuk output transaksi yang tidak terpakai (UTXO). Terdiri dari dua elemen:
 

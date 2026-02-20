@@ -64,7 +64,7 @@ PureOS:n asentaminen ja konfigurointi tietokoneeseen edellyttää seuraavia mini
 
 
 
-Siirry [PureOS:n viralliselle verkkosivustolle] (https://pureos.net/) ja lataa käyttöjärjestelmän ISO-kuva koneesi arkkitehtuurin mukaan.
+Siirry [PureOS:n viralliselle verkkosivustolle](https://pureos.net/) ja lataa käyttöjärjestelmän ISO-kuva koneesi arkkitehtuurin mukaan.
 
 
 

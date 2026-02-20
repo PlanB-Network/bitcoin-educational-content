@@ -39,8 +39,8 @@ Bitstack е френска инвестиционна платформа за б
 
 
 
-- [Изтегляне от Google Play Store] (https://play.google.com/store/apps/details?id=com.bitstack.app&hl=fr)
-- [Изтегляне от App Store] (https://apps.apple.com/fr/app/bitstack-%C3%A9pargner-en-bitcoin/id1608783388)
+- [Изтегляне от Google Play Store](https://play.google.com/store/apps/details?id=com.bitstack.app&hl=fr)
+- [Изтегляне от App Store](https://apps.apple.com/fr/app/bitstack-%C3%A9pargner-en-bitcoin/id1608783388)
 
 
 ![Image](assets/fr/02.webp)

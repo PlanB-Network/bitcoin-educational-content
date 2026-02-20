@@ -1,6 +1,7 @@
 ---
-term: BYSANTIN EPÄONNISTUMINEN
+term: Bysanttilainen vika
 
+definition: Järjestelmän käyttäytyminen, joka ei vastaa sen määrittelyjä; voi olla luonnollista tai tahallista.
 ---
 Bysanttihäiriö tai Bysantti-käyttäytyminen tarkoittaa järjestelmän käyttäytymistä, joka ei noudata sen omia määrittelyjä ja tuottaa poikkeavia tuloksia.
 

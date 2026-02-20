@@ -28,7 +28,7 @@ https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a
 
 
 
-Gå til [det offisielle Kraken-nettstedet] (https://www.kraken.com/). På hjemmesiden finner du og klikker på "Registrer deg" øverst i høyre hjørne for å begynne å opprette kontoen din.
+Gå til [det offisielle Kraken-nettstedet](https://www.kraken.com/). På hjemmesiden finner du og klikker på "Registrer deg" øverst i høyre hjørne for å begynne å opprette kontoen din.
 
 
 

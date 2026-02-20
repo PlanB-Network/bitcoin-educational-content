@@ -58,7 +58,7 @@ Od 2017 roku Arch Linux nie obsługuje już architektur 32-bitowych. Dostępne s
 
 
 
-- Odwiedź [oficjalną stronę internetową] (https://mir.archlinux.fr/iso/latest/), aby pobrać najnowszą oficjalną wersję obrazu ISO.
+- Odwiedź [oficjalną stronę internetową](https://mir.archlinux.fr/iso/latest/), aby pobrać najnowszą oficjalną wersję obrazu ISO.
 
 
 
@@ -72,7 +72,7 @@ Aby utworzyć bootowalną pamięć flash USB, można użyć narzędzia takiego j
 
 
 
-- Pobierz Balena Etcher z [oficjalnej strony internetowej] (https://etcher.balena.io).
+- Pobierz Balena Etcher z [oficjalnej strony internetowej](https://etcher.balena.io).
 - Uruchom oprogramowanie i wybierz obraz ISO systemu Arch Linux.
 - Wybierz klucz USB jako urządzenie docelowe.
 - Kliknij **Flash**, aby rozpocząć tworzenie klucza rozruchowego.
@@ -265,20 +265,22 @@ Wybierz **GPT** jeśli jesteś w UEFI, **DOS** jeśli jesteś w BIOS.
 
 
 
-| Point de montage sur le système installé | Partition                 | Type de partition       | Taille suggérée |
+
+| Punkt montażu w zainstalowanym systemie | Partycja                 | Typ partycji       | Sugerowany rozmiar |
 | ---------------------------------------- | ------------------------- | ----------------------- | --------------- |
-| /boot1                                   | /dev/efi_system_partition | Partition système EFI   | 1 Go            |
-| [SWAP]                                   | /dev/swap_partition       | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition       | Racine Linux x86-64 (/) | Reste du disque |
+| /boot1                                   | /dev/efi_system_partition | Partycja systemowa EFI   | 1 GB            |
+| [SWAP]                                   | /dev/swap_partition       | Przestrzeń wymiany (swap) | Co najmniej 4 GB   |
+| /                                        | /dev/root_partition       | Linux x86-64 root (/) | Pozostałość dysku |
 
 - W BIOS-ie
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| Punkt montażu w zainstalowanym systemie | Partycja           | Typ partycji       | Sugerowany rozmiar |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | Przestrzeń wymiany (swap) | Co najmniej 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | Pozostałość dysku |
 
 ![0_10](assets/fr/10.webp)
 

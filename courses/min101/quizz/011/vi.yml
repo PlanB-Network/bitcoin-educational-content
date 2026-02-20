@@ -1,0 +1,9 @@
+question: Nonce trong tiêu đề khối có tác dụng gì?
+answer: Thay đổi tiêu đề để thử lại
+wrong_answers:
+  - Tăng kích thước khối
+  - Đại diện cho tất cả các giao dịch trong khối
+  - Chỉ ra mục tiêu độ khó
+explanation: |
+  Việc thay đổi nonce sẽ thay đổi đầu vào của hàm băm và tạo ra một dấu vân tay hoàn toàn khác. Điều này cho phép thử lại để tìm một mã băm hợp lệ.
+reviewed: false

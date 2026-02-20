@@ -14,7 +14,7 @@ Der Mini Miner braiins BMM 100 ist ein Produkt von Mining pool Braiins. Dieses G
 
 
 
-Viele weitere wichtige Informationen finden Sie auch in der vollständigen Anleitung direkt auf der [Herstellerseite] (https://braiins.com/hardware/mini-Miner-bmm-100).
+Viele weitere wichtige Informationen finden Sie auch in der vollständigen Anleitung direkt auf der [Herstellerseite](https://braiins.com/hardware/mini-Miner-bmm-100).
 
 
 
@@ -168,7 +168,7 @@ und wir müssen auf die violette Schaltfläche auf der rechten Seite klicken, au
 
 
 
-Hier erscheint das Fenster mit den Informationen, die wir benötigen, um unseren Mini-Miner an den Pool anzuschließen. Die einzige Änderung, die wir hier vornehmen können, ist die Auswahl von Stratum V2. Um herauszufinden, was Stratum v2 ist, lesen Sie diesen Eintrag im [Glossar] (https://planb.academy/en/resources/glossary/stratum-v2).
+Hier erscheint das Fenster mit den Informationen, die wir benötigen, um unseren Mini-Miner an den Pool anzuschließen. Die einzige Änderung, die wir hier vornehmen können, ist die Auswahl von Stratum V2. Um herauszufinden, was Stratum v2 ist, lesen Sie diesen Eintrag im [Glossar](https://planb.academy/en/resources/glossary/stratum-v2).
 
 
 

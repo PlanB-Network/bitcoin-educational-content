@@ -1,5 +1,6 @@
 ---
 term: BIP0125
+definition: Replace-by-Fee (RBF) 標準，允許用手續費更高的版本替換未確認的交易。
 ---
 
 定義了 *Replace-by-fee*（RBF）的概念，允許發送方用另一個包含更高交易費用的版本取代未確認的交易。BIP125 為在交易中發出 RBF 信號以及網路節點接受 RBF 提供了一個框架。

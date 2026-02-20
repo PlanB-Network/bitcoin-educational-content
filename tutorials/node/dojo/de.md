@@ -7,7 +7,7 @@ description: Ein quelloffener Bitcoin-Knoten für Privatsphäre und Autonomie
 
 
 
-*Dieses Tutorial basiert auf [der offiziellen Ashigaru-Dokumentation] (https://ashigaru.rs/docs/), die ich übernommen und erweitert habe. Ich habe alle Abschnitte umgeschrieben, um die Übersichtlichkeit zu verbessern, und weitere detaillierte Erklärungen sowie Illustrationen für Anfänger hinzugefügt, um die Installation und Verwendung leichter verständlich zu machen.*
+*Dieses Tutorial basiert auf [der offiziellen Ashigaru-Dokumentation](https://ashigaru.rs/docs/), die ich übernommen und erweitert habe. Ich habe alle Abschnitte umgeschrieben, um die Übersichtlichkeit zu verbessern, und weitere detaillierte Erklärungen sowie Illustrationen für Anfänger hinzugefügt, um die Installation und Verwendung leichter verständlich zu machen.*
 
 
 
@@ -132,7 +132,7 @@ Nachdem Sie die gewählte Hardware vorbereitet haben, ist es an der Zeit, ein Be
 
 
 
-Laden Sie von einem bereits funktionierenden Computer (Ihrem üblichen Rechner) das Ubuntu LTS-ISO-Image [von der offiziellen Website] (https://ubuntu.com/download/desktop) herunter (zum Zeitpunkt der Erstellung dieses Dokuments `24.04`, aber nehmen Sie das neueste, falls ein anderes verfügbar ist).
+Laden Sie von einem bereits funktionierenden Computer (Ihrem üblichen Rechner) das Ubuntu LTS-ISO-Image [von der offiziellen Website](https://ubuntu.com/download/desktop) herunter (zum Zeitpunkt der Erstellung dieses Dokuments `24.04`, aber nehmen Sie das neueste, falls ein anderes verfügbar ist).
 
 
 
@@ -140,7 +140,7 @@ Laden Sie von einem bereits funktionierenden Computer (Ihrem üblichen Rechner) 
 
 
 
-Stecken Sie einen USB-Stick von mindestens 8 GB in diesen Computer und erstellen Sie dann einen bootfähigen Stick mit einer Software wie [Balena Etcher] (https://etcher.balena.io/). Wählen Sie das soeben heruntergeladene Ubuntu-ISO-Image aus, wählen Sie den USB-Stick als Zielgerät und starten Sie dann den Erstellungsprozess (haben Sie etwas Geduld, es kann einige Minuten dauern).
+Stecken Sie einen USB-Stick von mindestens 8 GB in diesen Computer und erstellen Sie dann einen bootfähigen Stick mit einer Software wie [Balena Etcher](https://etcher.balena.io/). Wählen Sie das soeben heruntergeladene Ubuntu-ISO-Image aus, wählen Sie den USB-Stick als Zielgerät und starten Sie dann den Erstellungsprozess (haben Sie etwas Geduld, es kann einige Minuten dauern).
 
 
 
@@ -1386,7 +1386,7 @@ Sie sind jetzt mit Ihrem Dojo verbunden.
 
 
 
-Dojo installiert automatisch einen Block explorer, [BTC-RPC Explorer] (https://github.com/janoside/btc-RPC-explorer), der direkt auf die Daten Ihres eigenen Bitcoin Knotens zugreift. Ein Explorer ermöglicht Ihnen den Zugriff auf Rohdaten von Blockchain und Ihrem Mempool über ein leicht verständliches Interface-Web. So können Sie z. B. den Status einer ausstehenden Transaktion überprüfen, den Saldo eines Address einsehen oder die Zusammensetzung eines Blocks mit Leichtigkeit untersuchen.
+Dojo installiert automatisch einen Block explorer, [BTC-RPC Explorer](https://github.com/janoside/btc-RPC-explorer), der direkt auf die Daten Ihres eigenen Bitcoin Knotens zugreift. Ein Explorer ermöglicht Ihnen den Zugriff auf Rohdaten von Blockchain und Ihrem Mempool über ein leicht verständliches Interface-Web. So können Sie z. B. den Status einer ausstehenden Transaktion überprüfen, den Saldo eines Address einsehen oder die Zusammensetzung eines Blocks mit Leichtigkeit untersuchen.
 
 
 
@@ -1422,7 +1422,7 @@ Wenn Sie bereits mit Ihrem DMT verbunden sind, können Sie diesen Address auch i
 
 
 
-Um von einem beliebigen Rechner in einem beliebigen Netzwerk (auch aus der Ferne) auf deinen Browser zuzugreifen, öffne [Tor Browser] (https://www.torproject.org/download/) und gib die URL ein, die du gerade abgerufen hast.
+Um von einem beliebigen Rechner in einem beliebigen Netzwerk (auch aus der Ferne) auf deinen Browser zuzugreifen, öffne [Tor Browser](https://www.torproject.org/download/) und gib die URL ein, die du gerade abgerufen hast.
 
 
 

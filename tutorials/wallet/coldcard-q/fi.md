@@ -55,7 +55,7 @@ Ohjelmistopuolella COLDCARD Q on yhtä hyvin varustettu kuin muutkin Coinkiten l
 
 Lyhyesti sanottuna COLDCARD Q tarjoaa paremman käyttökokemuksen kuin MK4, ja se voi olla ihanteellinen keskitason tai edistyneemmille käyttäjille, jotka etsivät suurempaa helppokäyttöisyyttä.
 
-COLDCARD Q on myynnissä [Coinkiten virallisilla verkkosivuilla] (https://store.coinkite.com/store/coldcard). Sen voi ostaa myös jälleenmyyjältä.
+COLDCARD Q on myynnissä [Coinkiten virallisilla verkkosivuilla](https://store.coinkite.com/store/coldcard). Sen voi ostaa myös jälleenmyyjältä.
 
 ## Ohjeen valmistelu
 

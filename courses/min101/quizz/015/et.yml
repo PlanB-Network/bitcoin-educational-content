@@ -1,0 +1,9 @@
+question: Mis aastal pakuti välja Hashcash?
+answer: 1997
+wrong_answers:
+  - 1993
+  - 2004
+  - 1995
+explanation: |
+  Hashcashist teatati esimest korda 1997. aasta märtsis.
+reviewed: false

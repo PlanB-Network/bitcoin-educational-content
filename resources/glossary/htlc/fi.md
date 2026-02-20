@@ -1,5 +1,6 @@
 ---
 term: HTLC
+definition: Älysopimus, joka asettaa siirron ehdoksi salaisuuden paljastamisen tietyn ajan kuluessa.
 ---
 
 Tarkoittaa "*Hashed Timelock Contract*". Tämä on Smart contract-mekanismi, jota käytetään pääasiassa Lightningissa. Sitä esiintyy joskus myös atomivaihdoissa. Periaatteessa HTLC asettaa rahansiirron ehdoksi salaisuuden paljastumisen ja sisältää myös aikaehdon, joka suojaa lähettäjän rahoja epäonnistuneen transaktion sattuessa.

@@ -221,7 +221,7 @@ LND imaze gukora, urashobora gufungura umurongo wawe wa mbere wa Lightning. Kugi
 
 
 
-Nk’akarorero, [urudodo rwa ACINQ] (urudodo rwa ACINQ) ni urudodo rwemewe rw’imibare n’ubushobozi bwo gukoresha amahera.
+Nk’akarorero, [urudodo rwa ACINQ](urudodo rwa ACINQ) ni urudodo rwemewe rw’imibare n’ubushobozi bwo gukoresha amahera.
 
 
 
@@ -455,7 +455,7 @@ Ivyo bihitamwo si ngombwa, kandi umuti wa Tor + Zeus urakora neza kenshi.
 
 > **Ibikoresho vy'ingirakamaro:**
 > - [Inyandiko za Zewu - Ihuza ry'umutaka](https://umuryango.umutaka.com/t/zeus-LN-mobile/7619) - Inyobora yemewe yo guhuza Zewu n'umutaka
-> - [Zewu GitHub] (Zewu LN/Zewu) - Umugambi wa Zewu w'inkomoko yuguruye
+> - [Zewu GitHub](Zewu LN/Zewu) - Umugambi wa Zewu w'inkomoko yuguruye
 > - [Umuryango w'Umutaka - Guhuza Zewu biciye ku Murizo](https://umuryango.umutaka.com/t/ingene-wokoresha-umurizo-n'umutaka/6782) - Inyobora yo guhuza Zewu n'Umutaka ukoresheje Umurizo
 
 ## 5. Umutekano n’ingene wobikora neza
@@ -709,7 +709,7 @@ Ivyo bikoresho birashobora gushirwa mu gukanda guke gusa biciye ku Umbrel App St
 
 - [Inkuba.io - Ibiranga](https://inkuba.io) - Incamake y'ibiranga ThunderHub
 - [Amakuru y'ugutwara umuravyo (RTL)](https://www.amakuru y'ugutwara umuravyo/) - Inyandiko za RTL
-- [Dawidi Kaspar - Gusubira gufatanya biciye ku rubuga rwa ThunderHub] (https://blog.davidkaspar.com) - Inyobora ngirakamaro yo gusubira gufatanya
+- [Dawidi Kaspar - Gusubira gufatanya biciye ku rubuga rwa ThunderHub](https://blog.davidkaspar.com) - Inyobora ngirakamaro yo gusubira gufatanya
 - [Inyigisho "Gucungera Ivyuma vy'Imiravyo"](https://github.com/openoms/ugucungera Ivyuma vy'Imiravyo) - Inyandiko ziteye imbere ku bakoresha ububasha
 
 

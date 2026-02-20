@@ -14,7 +14,7 @@ Mini Miner Braiins BMM 100 to produkt stworzony przez Mining pool Braiins. Urzą
 
 
 
-Znacznie więcej ważnych informacji można również znaleźć w kompletnym przewodniku bezpośrednio na stronie [strona producenta] (https://braiins.com/hardware/mini-Miner-bmm-100).
+Znacznie więcej ważnych informacji można również znaleźć w kompletnym przewodniku bezpośrednio na stronie [strona producenta](https://braiins.com/hardware/mini-Miner-bmm-100).
 
 
 
@@ -168,7 +168,7 @@ i musimy kliknąć fioletowy przycisk po prawej stronie z napisem "Połącz prac
 
 
 
-Tutaj pojawia się okno z informacjami potrzebnymi do podłączenia naszego mini Miner do puli. Tutaj jedyną zmianą, jaką możemy wprowadzić, jest wybranie Stratum V2. Aby dowiedzieć się, czym jest Stratum v2, zobacz ten wpis w [glosariuszu] (https://planb.academy/en/resources/glossary/stratum-v2).
+Tutaj pojawia się okno z informacjami potrzebnymi do podłączenia naszego mini Miner do puli. Tutaj jedyną zmianą, jaką możemy wprowadzić, jest wybranie Stratum V2. Aby dowiedzieć się, czym jest Stratum v2, zobacz ten wpis w [glosariuszu](https://planb.academy/en/resources/glossary/stratum-v2).
 
 
 

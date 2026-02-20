@@ -101,8 +101,6 @@ Etter dette kurset vil du ha alle de praktiske verktøyene du trenger for å nav
 Er du klar til å begynne din reise inn i Bitcoins verden? Da setter vi i gang!
 
 
-**Merk**: Hvis du støter på ukjente begreper i løpet av kurset, vennligst se [ordlisten](https://planb.academy/resources/glossary) for definisjoner.
-
 # Forutsetninger for å forstå Bitcoin
 
 
@@ -177,7 +175,7 @@ Disse svindelforsøkene inneholder vanligvis :
 Til syvende og sist er alle pyramide- og pyramidespill dømt til å mislykkes. Deres grunnleggende svakhet ligger i det konstante behovet for å hente inn nye investorer for å betale avkastning til tidligere deltakere. Dette behovet blir matematisk umulig å opprettholde over tid, fordi antallet nye rekrutter som kreves, øker eksponentielt etter hvert som systemet vokser. Når et kritisk punkt er nådd, begynner deltakerne å tvile, tilliten forsvinner, og hele pyramiden kollapser. På dette stadiet mister de siste som blir med, ofte de minst informerte, hele investeringen sin uten mulighet til å få den tilbake, mens arrangørene eller de tidlige investorene vanligvis allerede har trukket ut pengene sine og forlatt systemet.
 
 
-I kryptovalutaverdenen kan pyramidespill ta mange former, ofte designet for å skjule sin bedragerske natur bak en teknologisk eller finansiell maske. Disse svindlene kan fremstå som nye token-tilbud eller Initial Coin Offerings (ICO-er), som er innsamlingsaksjoner der en ny kryptovaluta selges til publikum. Bak tekniske termer som "Blockchain", "smartkontrakter" eller "staking" skjuler noen prosjekter komplekse pyramidespill. Andre hevder å tilby høy avkastning ved å kombinere tvilsomme kryptoaktiva med kompensasjonssystemer som er helt avhengige av en kontinuerlig tilstrømning av nye investorer.
+I kryptovalutaverdenen kan pyramidespill ta mange former, ofte designet for å skjule sin bedragerske natur bak en teknologisk eller finansiell maske. Disse svindlene kan fremstå som nye token-tilbud eller Initial Coin Offerings (ICO-er), som er innsamlingsaksjoner der en ny [kryptovaluta](https://planb.academy/resources/glossary/cryptocurrency) selges til publikum. Bak tekniske termer som "Blockchain", "smartkontrakter" eller "staking" skjuler noen prosjekter komplekse pyramidespill. Andre hevder å tilby høy avkastning ved å kombinere tvilsomme kryptoaktiva med kompensasjonssystemer som er helt avhengige av en kontinuerlig tilstrømning av nye investorer.
 
 
 I den senere tid har pyramidespill også spredt seg til desentralisert finans (DeFi). Selv om DeFi er ment å tilby finansielle tjenester uten mellomledd, bruker noen prosjekter det til å gi en falsk følelse av legitimitet til svindlene sine. Enkelte DeFi-plattformer lover høy, garantert avkastning i Exchange for innskudd av kryptovaluta i automatiserte protokoller. Disse attraktive løftene støttes ofte av ugjennomsiktige og uverifiserbare mekanismer, med tokens som er opprettet spesielt for svindelen. I virkeligheten har disse systemene ingen bærekraftig forretningsmodell - avkastningen betales ganske enkelt fra nye brukeres midler, akkurat som i et tradisjonelt pyramidespill. Når tilliten begynner å forvitre eller tilstrømningen av nye deltakere avtar, kollapser disse systemene uunngåelig, noe som fører til betydelige tap for intetanende investorer.
@@ -256,13 +254,13 @@ Sentraliserte kryptovaluta-prosjekter tilbyr noen ganger gratis tokens ("*airdro
 Angriperne bruker ofte falske nettsteder, kontoer på sosiale medier eller villedende e-poster for å stjele pengene dine. Disse svindlene kan komme gjennom alle kommunikasjonskanaler: e-post, sosiale nettverk, telefonsamtaler eller til og med tradisjonell post...
 
 
-Dobbeltsjekk alltid avsenderens identitet før du klikker på en lenke eller utfører en handling. Hvis du er i tvil, bør du besøke nettstedet manuelt i stedet for å bruke en oppgitt lenke. Og viktigst av alt: Del aldri dine private nøkler eller passord med noen.
+Dobbeltsjekk alltid avsenderens identitet før du klikker på en lenke eller utfører en handling. Hvis du er i tvil, bør du besøke nettstedet manuelt i stedet for å bruke en oppgitt lenke. Og viktigst av alt: Del aldri dine [private nøkler](https://planb.academy/resources/glossary/private-key) eller passord med noen.
 
 
 #### Bitcoin Hardgaffel
 
 
-I løpet av årene har Bitcoin opplevd flere *Hard-forks*, noe som har resultert i opprettelsen av alternative versjoner av den opprinnelige kryptovalutaen. Enkelt sagt er en *Hard Fork* en splittelse i nettverket som fører til to separate blokkjeder, som begge deler den samme historien frem til splittelsesøyeblikket. Disse splittelsene skjer vanligvis når en del av utviklermiljøet eller det bredere Bitcoin-økosystemet ønsker å innføre store endringer i den opprinnelige protokollen, men ikke kan oppnå bred enighet. I stedet for å forlate ideene sine, bestemmer de seg for å lansere en ny versjon av Bitcoin (med endrede regler) i håp om at brukere og utvinnere vil velge å følge deres Fork i stedet.
+I løpet av årene har Bitcoin opplevd flere *Hard-forks*, noe som har resultert i opprettelsen av alternative versjoner av den opprinnelige kryptovalutaen. Enkelt sagt er en *Hard Fork* en splittelse i nettverket som fører til to separate [blokkjeder](https://planb.academy/resources/glossary/blockchain), som begge deler den samme historien frem til splittelsesøyeblikket. Disse splittelsene skjer vanligvis når en del av utviklermiljøet eller det bredere Bitcoin-økosystemet ønsker å innføre store endringer i den opprinnelige protokollen, men ikke kan oppnå bred enighet. I stedet for å forlate ideene sine, bestemmer de seg for å lansere en ny versjon av Bitcoin (med endrede regler) i håp om at brukere og utvinnere vil velge å følge deres Fork i stedet.
 
 
 ![image](assets/nb-NO/011.webp)
@@ -543,7 +541,7 @@ Etter hvert som du dykker dypere inn i Bitcoin-verdenen, vil du legge merke til 
 Kort sagt: Ikke undervurder cybersikkerhet, ta deg tid til å sette opp det grunnleggende, og husk at konsistens er nøkkelen. Uten god digital hygiene vil selv de beste verktøyene ikke hjelpe deg stort.
 
 
-Ta også en titt på [våre veiledninger om datasikkerhet] (https://planb.academy/tutorials/computer-security) på Plan ₿ Academy.
+Ta også en titt på [våre veiledninger om datasikkerhet](https://planb.academy/tutorials/computer-security) på Plan ₿ Academy.
 
 
 ![image](assets/nb-NO/020.webp)
@@ -571,7 +569,7 @@ Her er de viktigste punktene som vi skal gå gjennom sammen:
 
 
 
-- Pass opp for **Shitcoins** og andre ubrukelige kryptovalutaer;
+- Pass opp for **[Shitcoins](https://planb.academy/resources/glossary/shitcoin)** og andre ubrukelige kryptovalutaer;
 - Invester bare **penger du har råd til å tape**;
 - Kjenn forskjellen mellom **handel** og **investering**;
 - Vær oppmerksom på **skattekonsekvensene** av investeringene dine;
@@ -843,13 +841,13 @@ I årenes løp har Bitcoin fått anerkjennelse som et globalt monetært nettverk
 #### Cypherpunks og oppfinnelsen av et system utenfor bankenes kontroll
 
 
-Bitcoin ble ikke født over natten. Det er resultatet av flere tiår med forskning og eksperimentering innen kryptografi, informatikk og monetær teori. Før lanseringen i 2009 forsøkte flere prosjekter (som eCash, b-money, Bit Gold og RPOW) å skape digitale valutaer. Alle stod overfor det samme kjerneproblemet: hvordan forhindre dobbeltbruk i et desentralisert system uten å være avhengig av en sentral myndighet.
+Bitcoin ble ikke født over natten. Det er resultatet av flere tiår med forskning og eksperimentering innen [kryptografi](https://planb.academy/resources/glossary/cryptography), informatikk og monetær teori. Før lanseringen i 2009 forsøkte flere prosjekter (som eCash, b-money, Bit Gold og RPOW) å skape digitale valutaer. Alle stod overfor det samme kjerneproblemet: hvordan forhindre dobbeltbruk i et desentralisert system uten å være avhengig av en sentral myndighet.
 
 
-Denne utfordringen forble uløst frem til slutten av 2008, da en person som brukte navnet Satoshi Nakamoto, publiserte hvitboken Bitcoin. Noen måneder senere ble den første versjonen av Bitcoins programvare med åpen kildekode lansert, og dermed ble et system lansert som kunne operere uavhengig av banker eller myndigheter.
+Denne utfordringen forble uløst frem til slutten av 2008, da en person som brukte navnet Satoshi Nakamoto, publiserte [hvitboken](https://planb.academy/resources/glossary/white-paper) Bitcoin. Noen måneder senere ble den første versjonen av Bitcoins programvare med [åpen kildekode](https://planb.academy/resources/glossary/foss) lansert, og dermed ble et system lansert som kunne operere uavhengig av banker eller myndigheter.
 
 
-Prosjektet var sterkt påvirket av Cypherpunk-etoset; et fellesskap av utviklere og tenkere som trodde på å bruke kryptografi for å beskytte individuelle friheter på nettet. For dem var personvern og desentralisering ikke tekniske preferanser, men ideologiske nødvendigheter. Bitcoin ble den mest vellykkede legemliggjøringen av disse idealene: et peer-to-peer-pengenettverk som alle kunne bruke, som ingen kunne kontrollere, og som alle kunne verifisere.
+Prosjektet var sterkt påvirket av [Cypherpunk](https://planb.academy/resources/glossary/cypherpunks)-etoset; et fellesskap av utviklere og tenkere som trodde på å bruke kryptografi for å beskytte individuelle friheter på nettet. For dem var personvern og desentralisering ikke tekniske preferanser, men ideologiske nødvendigheter. Bitcoin ble den mest vellykkede legemliggjøringen av disse idealene: et [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p)-pengenettverk som alle kunne bruke, som ingen kunne kontrollere, og som alle kunne verifisere.
 
 
 ![image](assets/nb-NO/030.webp)
@@ -875,7 +873,7 @@ Ideen om en digital valuta som opererer uavhengig av en sentral myndighet (som B
 Bitcoin dukket ikke bare opp fra ingensteds. Den ble skapt på et helt bestemt tidspunkt - rett etter den globale finanskrisen i 2008. Kollapsen i det amerikanske boligmarkedet og subprimelånekrisen førte til at store banker gikk over ende, og rokket ved folks tillit til hele finanssystemet.
 
 
-Det var i dette miljøet preget av frykt og usikkerhet at Bitcoin ble født. Skaperen, kjent som Satoshi Nakamoto, inkluderte et svært symbolsk budskap i den aller første blokken av Bitcoin Blockchain, kjent som Genesis-blokken. Budskapet var
+Det var i dette miljøet preget av frykt og usikkerhet at Bitcoin ble født. Skaperen, kjent som Satoshi Nakamoto, inkluderte et svært symbolsk budskap i den aller første blokken av Bitcoin Blockchain, kjent som [Genesis-blokken](https://planb.academy/resources/glossary/genesis-block). Budskapet var
 
 
 > **"The Times 03/Jan/2009 Chancellor on brink of second bailout for banks"**
@@ -903,7 +901,7 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 #### Peer-to-peer og ingen sentral instans
 
 
-Bitcoin er definert som et "peer-to-peer-system for elektroniske kontanter" Det betyr at hvem som helst kan koble seg til nettverket ved hjelp av riktig programvare (en Bitcoin-node) og samhandle direkte med andre brukere, uten å være avhengig av en sentral server. Målet med denne desentraliseringen er å forhindre at en enkelt enhet (for eksempel en bank, en myndighet eller et stort selskap) kan kontrollere, sensurere eller stoppe systemet. Bitcoin er i drift døgnet rundt, globalt, og er tilgjengelig for alle uten noen betingelser.
+Bitcoin er definert som et "peer-to-peer-system for elektroniske kontanter" Det betyr at hvem som helst kan koble seg til nettverket ved hjelp av riktig programvare (en Bitcoin-[node](https://planb.academy/resources/glossary/node)) og samhandle direkte med andre brukere, uten å være avhengig av en sentral server. Målet med denne desentraliseringen er å forhindre at en enkelt enhet (for eksempel en bank, en myndighet eller et stort selskap) kan kontrollere, sensurere eller stoppe systemet. Bitcoin er i drift døgnet rundt, globalt, og er tilgjengelig for alle uten noen betingelser.
 
 
 ![image](assets/nb-NO/034.webp)
@@ -930,7 +928,7 @@ Tenk på Blockchain som en gigantisk regnskaps-Ledger, der hver linje represente
 #### Hvordan blokker opprettes: Mining
 
 
-Mining er prosessen der datamaskiner (eller store Mining-farmer) bidrar med **beregningskraft** for å sikre Bitcoins transaksjonshistorikk og skape nye blokker. Utvinnere konkurrerer om å løse et matematisk puslespill - nærmere bestemt å finne en delvis Hash-kollisjon. Denne prosessen krever betydelig energi og ressurser. Når en Miner finner en gyldig løsning, sender de blokken til nettverket, som verifiserer og aksepterer den som gyldig.
+[Mining](https://planb.academy/resources/glossary/mining) er prosessen der datamaskiner (eller store Mining-farmer) bidrar med **beregningskraft** for å sikre Bitcoins transaksjonshistorikk og skape nye blokker. Utvinnere konkurrerer om å løse et matematisk puslespill - nærmere bestemt å finne en delvis Hash-kollisjon. Denne prosessen krever betydelig energi og ressurser. Når en [Miner](https://planb.academy/resources/glossary/miner) finner en gyldig løsning, sender de blokken til nettverket, som verifiserer og aksepterer den som gyldig.
 
 Som belønning mottar Miner nyopprettede bitcoins (kalt blokksubsidiet) sammen med transaksjonsgebyrene fra alle transaksjoner som inngår i den aktuelle blokken.
 
@@ -952,12 +950,12 @@ Til slutt, rundt år 2140, vil subsidien nå null, ettersom Bitcoins totale Supp
 #### Knapphet og en fast pengepolitikk
 
 
-En av Bitcoins kraftigste egenskaper er dens *forutsigbare og uforanderlige pengepolitikk*. I motsetning til tradisjonelle fiat-valutaer (som dollar, euro eller yen), som kan trykkes etter eget ønske av sentralbanker (noe som ofte fører til inflasjon eller økonomiske forvrengninger), opererer Bitcoin under et transparent sett med regler som er innebygd i koden.
+En av Bitcoins kraftigste egenskaper er dens *forutsigbare og uforanderlige pengepolitikk*. I motsetning til tradisjonelle fiat-valutaer (som dollar, euro eller yen), som kan trykkes etter eget ønske av sentralbanker (noe som ofte fører til [inflasjon](https://planb.academy/resources/glossary/inflation) eller økonomiske forvrengninger), opererer Bitcoin under et transparent sett med regler som er innebygd i koden.
 
 Det vil alltid bare finnes 21 millioner bitcoins, og alle i nettverket vet på forhånd i hvilken takt nye mynter blir utstedt.
 
 
-Ingen myndigheter, institusjoner eller enkeltpersoner kan ensidig endre dette Supply-taket eller distribusjonsreglene. Den eneste måten å endre disse parameterne på ville være å endre Bitcoins protokoll, og selv det ville kreve konsensus fra et flertall av nettverkets økonomiske deltakere.
+Ingen myndigheter, institusjoner eller enkeltpersoner kan ensidig endre dette Supply-taket eller distribusjonsreglene. Den eneste måten å endre disse parameterne på ville være å endre Bitcoins protokoll, og selv det ville kreve [konsensus](https://planb.academy/resources/glossary/consensus) fra et flertall av nettverkets økonomiske deltakere.
 
 
 Denne innebygde knappheten er et stort trekkplaster for dem som ønsker å velge bort uforutsigbar pengepolitikk eller unngå en gradvis uthuling av kjøpekraften på grunn av inflasjon. Over tid kan dette representere et skifte i finansiell tenkning, der sparing i en deflatorisk eiendel som Bitcoin blir mer attraktivt enn å stole på tradisjonelle, inflasjonsutsatte valutaer.
@@ -978,7 +976,7 @@ En av Bitcoins mest undervurderte styrker er dens delbarhet. Hver Bitcoin kan de
 #### En offentlig protokoll, verifiserbar av alle
 
 
-Bitcoin kjører på en offentlig protokoll med **åpen kildekode** (særlig gjennom [Bitcoin Core] (https://github.com/Bitcoin/Bitcoin)). Dette betyr at koden er fritt tilgjengelig for alle som ønsker å inspisere, revidere og forbedre den. Det finnes ingen skjulte mekanismer eller lukkede systemer; alt om hvordan Bitcoin fungerer er åpent tilgjengelig.
+Bitcoin kjører på en offentlig protokoll med **åpen kildekode** (særlig gjennom [Bitcoin Core](https://github.com/Bitcoin/Bitcoin)). Dette betyr at koden er fritt tilgjengelig for alle som ønsker å inspisere, revidere og forbedre den. Det finnes ingen skjulte mekanismer eller lukkede systemer; alt om hvordan Bitcoin fungerer er åpent tilgjengelig.
 
 Denne åpenheten gjør det utrolig vanskelig å innføre bakdører eller gjøre hemmelige endringer. Alle med teknisk kompetanse kan drive en node, bidra til utviklingen eller bygge kompatible verktøy. I Bitcoin oppnås tillit gjennom kode og konsensus, ikke gjennom sentralisert kontroll.
 
@@ -1233,7 +1231,7 @@ Bitcoinere kommer fra alle samfunnslag, men de deler en felles visjon: en verden
 - **Cypherpunks**, som kjemper for personvern og mot overvåkning;
 - **Undertrykte borgere** som søker tilflukt fra autoritære regimer og kapitalkontroll;
 - **Anarkister**, som ser på Bitcoin som et verktøy for frigjøring fra statlig kontroll;
-- **Østerrikske økonomer**, som går inn for sunne penger og frihet fra statlig manipulasjon;
+- **[Østerrikske økonomer](https://planb.academy/resources/glossary/austrian-school)**, som går inn for sunne penger og frihet fra statlig manipulasjon;
 - Ingeniører, finansfolk og ytringsfrihetsforkjempere, som innser de dyptgripende samfunnsmessige konsekvensene av dette nye pengeparadigmet.
 
 
@@ -1549,7 +1547,7 @@ Lommebøker spiller en grunnleggende rolle i Bitcoin og vil bli utforsket mer in
 #### Bitcoin Mining
 
 
-Mining er en kjernefunksjon i Bitcoin-nettverket. Den sørger for systemets sikkerhet og holder Blockchain i drift. Utvinnere validerer transaksjoner og sikrer nettverket ved å utføre energikrevende beregninger, kjent som Proof of Work. Hver ny utvunnet blokk legger til en gruppe transaksjoner i Blockchain og frigjør nye bitcoins i henhold til protokollens utstedelsesplan.
+Mining er en kjernefunksjon i Bitcoin-nettverket. Den sørger for systemets sikkerhet og holder Blockchain i drift. Utvinnere validerer transaksjoner og sikrer nettverket ved å utføre energikrevende beregninger, kjent som [Proof of Work](https://planb.academy/resources/glossary/proof-of-work). Hver ny utvunnet blokk legger til en gruppe transaksjoner i Blockchain og frigjør nye bitcoins i henhold til protokollens utstedelsesplan.
 
 
 I Bitcoins tidlige dager kunne Mining gjøres fra en PC. I dag er det en konkurranseutsatt, global industri som domineres av selskaper med betydelige økonomiske og tekniske ressurser. Jakten på billige energikilder har blitt et hovedfokus, og utvinnerne har som mål å optimalisere driftskostnader og lønnsomhet. Mining-driften spenner nå fra massive industrianlegg til småskalaanlegg som drives hjemme eller i garasjen.
@@ -1584,7 +1582,7 @@ Utviklingen av Bitcoin kan forstås gjennom noen få, distinkte grupper av bidra
 - **Uavhengige utviklere**. Disse utviklerne fokuserer på å lage verktøy og applikasjoner for å forbedre brukeropplevelsen, for eksempel Mempool.space (en visuell Interface for sporing av transaksjonsaktivitet) eller Alby (verktøy for bruk av Lightning-betalinger i nettlesere og apper).
 
 
-Hvem som helst kan foreslå endringer i Bitcoin Core, men prosessen er med hensikt streng. Det tar ofte flere år å finpusse nye ideer, og de krever dyp teknisk forståelse, bredt samfunnsengasjement og flere lag med gjennomgang. Forslag sendes vanligvis inn i form av **Bitcoin Improvement Proposals (BIPs)**, hvorav noen aldri kommer inn i protokollen.
+Hvem som helst kan foreslå endringer i Bitcoin Core, men prosessen er med hensikt streng. Det tar ofte flere år å finpusse nye ideer, og de krever dyp teknisk forståelse, bredt samfunnsengasjement og flere lag med gjennomgang. Forslag sendes vanligvis inn i form av **Bitcoin Improvement Proposals ([BIPs](https://planb.academy/resources/glossary/bip))**, hvorav noen aldri kommer inn i protokollen.
 
 Innovasjon er velkomment, men bare når det er støttet av solid argumentasjon, konsensus i samfunnet og nøye testing.
 
@@ -1668,7 +1666,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 RGB er et desentralisert og personvernfokusert Smart contract-system som er utformet for å fungere på toppen av Bitcoin og Lightning Network. I motsetning til tradisjonelle Smart contract-plattformer bruker RGB en Client-side Validation-modell (noe som betyr at hele Contract State er lagret off-chain, og at bare kryptografiske forpliktelser publiseres til Bitcoin Blockchain). Denne utformingen forbedrer både skalerbarheten og personvernet. Med RGB kan brukere opprette avanserte smartkontrakter for utstedelse av tokens, NFT-er, desentraliserte identiteter eller til og med DeFi-applikasjoner, direkte på Bitcoin eller Lightning.
 
 
-En viktig egenskap ved RGB er beskyttelsen mot Double-spending, som oppnås ved hjelp av en kryptografisk teknikk kalt Single-use Seals. Denne mekanismen baserer seg på det faktum at Bitcoins UTXO-er (Unspent Transaction Outputs) bare kan brukes én gang. Tokenenes autentisitet sikres ved at hele Contracts historikk (fra opprettelsen til den nåværende tilstanden) valideres på brukersiden.
+En viktig egenskap ved RGB er beskyttelsen mot Double-spending, som oppnås ved hjelp av en kryptografisk teknikk kalt Single-use Seals. Denne mekanismen baserer seg på det faktum at Bitcoins [UTXO](https://planb.academy/resources/glossary/utxo)-er (Unspent Transaction Outputs) bare kan brukes én gang. Tokenenes autentisitet sikres ved at hele Contracts historikk (fra opprettelsen til den nåværende tilstanden) valideres på brukersiden.
 
 
 ![image](assets/nb-NO/062.webp)
@@ -2112,7 +2110,7 @@ Det er derfor viktig å forstå at det å gå gjennom KYC ikke bare er et mindre
 - **P2P-plattformer**: Plattformer som Bisq, RoboSats og Peach legger til rette for utveksling mellom privatpersoner uten behov for identitetsverifisering, og bruker escrow-systemer for å sikre transaksjoner. Disse plattformene innebærer fortsatt en risiko for tyveri hvis den andre parten ikke samarbeider, men risikoen minimeres ved hjelp av escrow-tjenester.
 - **Bitcoin i minibanker (Automated Teller Machines)**: Noen minibanker (kiosker) lar deg kjøpe Bitcoin med kontanter, men gebyrene har en tendens til å være høye, og noen krever ID-verifisering for større transaksjoner.
 - **KYC-frie Exchange-plattformer**: Noen plattformer, særlig i Sveits, lar deg kjøpe små mengder Bitcoin uten å kreve ID-verifisering.
-- **Mining**: Privatpersoner kan utvinne Bitcoin. Eldre eller mindre maskiner er tilgjengelige, noe som gir en utradisjonell måte å anskaffe Bitcoin på uten KYC. Ved å bli med i en Mining pool kan du tjene regelmessige utbetalinger, selv med grunnleggende utstyr. For mer informasjon, [sjekk ut våre Mining-veiledninger] (https://planb.academy/tutorials/mining).
+- **Mining**: Privatpersoner kan utvinne Bitcoin. Eldre eller mindre maskiner er tilgjengelige, noe som gir en utradisjonell måte å anskaffe Bitcoin på uten KYC. Ved å bli med i en Mining pool kan du tjene regelmessige utbetalinger, selv med grunnleggende utstyr. For mer informasjon, [sjekk ut våre Mining-veiledninger](https://planb.academy/tutorials/mining).
 - **Betalinger / Lønn i bitcoins**: Hvis du driver en bedrift, kan du akseptere Bitcoin som betaling. Hvis du er ansatt, kan du, avhengig av jurisdiksjonen din, be om å få betalt i Bitcoin. Disse metodene lar deg anskaffe Bitcoin uten KYC.
 
 
@@ -2808,7 +2806,7 @@ Valget av å bruke bitcoins er ofte gjenstand for kritikk. Noen Bitcoin-brukere 
 En mer logisk tilnærming er "Bruk og erstatt"-metoden. Dette betyr at du bruker Bitcoin av alle de grunnene som er nevnt tidligere, og i stedet for å la sparepengene dine krympe, erstatter du de brukte Sats ved å kjøpe nye Sats med fiat-valuta.
 
 
-For å gjøre det enklere å bruke Bitcoin finnes det mange tilgjengelige verktøy, for eksempel [BTC Map] (https://btcmap.org/), som viser deg kjøpmenn over hele verden som godtar Bitcoin. Noen av disse forhandlerne lar deg til og med bestille på nettet og få produktene levert.
+For å gjøre det enklere å bruke Bitcoin finnes det mange tilgjengelige verktøy, for eksempel [BTC Map](https://btcmap.org/), som viser deg kjøpmenn over hele verden som godtar Bitcoin. Noen av disse forhandlerne lar deg til og med bestille på nettet og få produktene levert.
 
 
 Siden vi fortsatt er i en overgangsfase der ikke alle dagligvarebutikker godtar BTC, finnes det noen enkle, men effektive løsninger. For eksempel er det en praktisk løsning å kjøpe gavekort med Bitcoin, og mange leverandører som Bitrefill, Coinsbee eller The Bitcoin Company tilbyr denne tjenesten.
@@ -2902,7 +2900,7 @@ Den paranoide brukeren blander aldri midler basert på opprinnelse eller bruk. I
 
 
 
-- En Cold Wallet (luftgapet og/eller DIY) **Langsiktige beholdninger lagres i svært sikre, luftgapede eller DIY-lommebøker.** Dette er vanligvis åpen kildekode-enheter eller enheter med verifiserbar kode, for eksempel Jade, Coldcard, SeedSigner, Portal eller Passport... Når det er mulig, skaffer de seg disse enhetene anonymt; enten ved å betale kontant eller bruke Bitcoin i en fysisk butikk, eller ved å bestille på nettet med diskrete fraktalternativer og BTC-betalinger. I Frankrike er for eksempel [Bitcoin Bazar] (https://bitcoinbazar.fr/) en slik butikk. Du kan søke etter lignende leverandører i din region.
+- En Cold Wallet (luftgapet og/eller DIY) **Langsiktige beholdninger lagres i svært sikre, luftgapede eller DIY-lommebøker.** Dette er vanligvis åpen kildekode-enheter eller enheter med verifiserbar kode, for eksempel Jade, Coldcard, SeedSigner, Portal eller Passport... Når det er mulig, skaffer de seg disse enhetene anonymt; enten ved å betale kontant eller bruke Bitcoin i en fysisk butikk, eller ved å bestille på nettet med diskrete fraktalternativer og BTC-betalinger. I Frankrike er for eksempel [Bitcoin Bazar](https://bitcoinbazar.fr/) en slik butikk. Du kan søke etter lignende leverandører i din region.
 
 
 https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
@@ -3077,7 +3075,7 @@ Selv etter å ha anskaffet mynter anonymt, er det fortsatt mulig å lekke person
 - **Merking av UTXO-er**;
 - Øve på hjørnekontroll når du bruker penger;
 - Unngå konsolidering av **UTXOer**;
-- Bruk av transaksjonsstrukturer som beskytter personvernet: **coinjoins, payjoins, ricochets og mini-payment coinjoins**...
+- Bruk av transaksjonsstrukturer som beskytter personvernet: **[coinjoins](https://planb.academy/resources/glossary/coinjoin), payjoins, ricochets og mini-payment coinjoins**...
 
 
 De er også kjent med det grunnleggende i Blockchain-overvåking og vet hvordan selskaper sporer aktivitet. Ved å forstå heuristikken og mønstrene som brukes av kjedeanalyseselskaper, kan de ta aktive skritt for å unngå å gå i kjente feller.
@@ -3175,7 +3173,7 @@ Du har da to alternativer:
 ### Målene med en Bitcoin-etterfølgerplan
 
 
-Pamela Morgan skisserer i sin bok *[Cryptoasset Inheritance Planning] (https://www.amazon.com/gp/product/1947910116/)* fire viktige mål for en solid arveplan:
+Pamela Morgan skisserer i sin bok *[Cryptoasset Inheritance Planning](https://www.amazon.com/gp/product/1947910116/)* fire viktige mål for en solid arveplan:
 
 
 
@@ -3188,7 +3186,7 @@ Pamela Morgan skisserer i sin bok *[Cryptoasset Inheritance Planning] (https://w
 En gjennomtenkt plan handler ikke bare om å overføre formue, men også om å beskytte dine nærmeste mot vanlige feil og potensielle trusler.
 
 
-Dette kapittelet er inspirert av arbeidet til [Pamela Morgan] (https://x.com/pamelawjd). [Hennes bok](https://www.amazon.com/gp/product/1947910116/), og selv om boken hennes tilbyr en detaljert og ekspertvalidert metode for å lage en Bitcoin-arvplan, **utgjør ikke dette innholdet juridisk rådgivning**.  Det er en velprøvd tilnærming, men hver person bør gjøre sine egne undersøkelser og tilpasse anbefalingene til sin personlige situasjon og jurisdiksjon.
+Dette kapittelet er inspirert av arbeidet til [Pamela Morgan](https://x.com/pamelawjd). [Hennes bok](https://www.amazon.com/gp/product/1947910116/), og selv om boken hennes tilbyr en detaljert og ekspertvalidert metode for å lage en Bitcoin-arvplan, **utgjør ikke dette innholdet juridisk rådgivning**.  Det er en velprøvd tilnærming, men hver person bør gjøre sine egne undersøkelser og tilpasse anbefalingene til sin personlige situasjon og jurisdiksjon.
 
 
 [Pamela Morgan](https://x.com/pamelawjd) har generøst autorisert bruken av [hennes arbeid](https://www.amazon.com/gp/product/1947910116/) til dette kurset, og vi vil følge hennes tilnærming for å lage en konkret Bitcoin-arvplan. I dette kapittelet fokuserer vi på den første delen av boken hennes.
@@ -3460,10 +3458,10 @@ Ved behov kan du rådføre deg med en advokat eller notarius publicus for å int
 
 https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
-Referanse: [*Planlegging av arv etter kryptoaktiva, en enkel veiledning for eiere* - Pamela Morgan, 2018] (https://www.amazon.com/gp/product/1947910116/)
+Referanse: [*Planlegging av arv etter kryptoaktiva, en enkel veiledning for eiere* - Pamela Morgan, 2018](https://www.amazon.com/gp/product/1947910116/)
 
 
-En spesiell takk til [Pamela Morgan] (https://x.com/pamelawjd) for hennes arbeid og for å ha tillatt at dette innholdet ble tilpasset.
+En spesiell takk til [Pamela Morgan](https://x.com/pamelawjd) for hennes arbeid og for å ha tillatt at dette innholdet ble tilpasset.
 
 
 
@@ -3590,7 +3588,7 @@ Bitcoin er mer enn bare et økonomisk verktøy; det er en bevegelse. Avhengig av
 - **Bli med i et lokalt fellesskap**: Delta i arrangementer, møter og fora for å møte andre bitcoinere og Exchange synspunkter på den siste utviklingen.
 
 
-Hvis du vil bidra til å utdanne andre, er Plan ₿ Academy alltid på utkikk etter bidragsytere! Alt vårt pedagogiske innhold er åpen kildekode og ligger på GitHub. Vi ønsker bidragsytere velkommen til å hjelpe oss med å korrekturlese og oversette innhold til ulike språk; i Exchange for noen få Sats! Enten det er nå eller senere i din Bitcoin-reise, er du invitert til å bli med i [vår Telegram-gruppe for bidragsytere] (https://t.me/PlanBNetwork_ContentBuilder) i Plan ₿ Academy.
+Hvis du vil bidra til å utdanne andre, er Plan ₿ Academy alltid på utkikk etter bidragsytere! Alt vårt pedagogiske innhold er åpen kildekode og ligger på GitHub. Vi ønsker bidragsytere velkommen til å hjelpe oss med å korrekturlese og oversette innhold til ulike språk; i Exchange for noen få Sats! Enten det er nå eller senere i din Bitcoin-reise, er du invitert til å bli med i [vår Telegram-gruppe for bidragsytere](https://t.me/PlanBNetwork_ContentBuilder) i Plan ₿ Academy.
 
 
 ### Siste ord

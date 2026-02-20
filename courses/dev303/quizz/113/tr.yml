@@ -1,0 +1,8 @@
+question: Orijinal Breez uygulaması, SDK mimarisinin geliştirilmesini etkileyen mobil uygulama ekosistemlerinin hangi kritik sınırlamasını ortaya çıkardı?
+answer: Mobil uygulamalar birbirleriyle kolayca iletişim kuramıyor, bu da geliştiricileri Lightning altyapısını paylaşmak yerine tüm Lightning özelliklerini tek bir uygulamada oluşturmaya zorluyor
+wrong_answers:
+  - Mobil cihazlar, Lightning düğümlerini güvenilir bir şekilde çalıştırmak için yeterli hesaplama gücünden yoksundur ve karmaşık yönlendirme hesaplamalarını işlemek için bulut tabanlı altyapı gerektirir
+  - Mobil işletim sistemleri arka plan süreçlerini çok ciddi şekilde kısıtlayarak Lightning düğümlerinin ağa kalıcı bağlantılar kurmasını engeller
+  - Mobil uygulama mağazaları saklama amaçlı olmayan finansal uygulamaları yasaklıyor ve geliştiricileri uygulama mağazası onayı almak için saklama amaçlı çözümler uygulamaya zorluyor
+explanation: |
+  Orijinal Breez uygulaması, mobil ekosistemlerin uygulamalar arası iletişimi kolaylaştırmadığını ve özel uygulamaların paylaşılan Lightning altyapısından yararlanmasını engellediğini gösterdi. Bu mimari sınırlama, tüm Lightning işlevselliğini monolitik uygulamalara zorladı. Diğer seçenekler yanlıştır: mobil cihazlar Lightning düğümlerini çalıştırabilir (Breez'in kanıtladığı gibi), arka plan kısıtlamaları uygun mimari ile yönetilebilir ve uygulama mağazaları genellikle gözetim dışı finansal uygulamalara izin verir.

@@ -1,0 +1,9 @@
+question: Wat is de grootte van de nonce in de block header?
+answer: 32 bits
+wrong_answers:
+  - 128 bits
+  - 64 bits
+  - 256 bits
+explanation: |
+  De nonce is een 32-bits veld in de header.
+reviewed: false

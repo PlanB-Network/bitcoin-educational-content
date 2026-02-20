@@ -542,13 +542,14 @@ CoinJoin की दक्षता उसके **अनॉनसेट** से
 
 
 
-| Aspect | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
+
+| पहलू | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
 |--------|--------|--------------------|------------|-------------|
-| **Participants par pool** | 50-100 | 5-10 | Variable (P2P) | **2-5** |
-| **Coordinateur** | Centralisé (fermé 2024) | Centralisé (actif) | P2P maker/taker | **Aucun (Nostr)** |
-| **Résistance à la censure** | Faible | Moyenne | Très élevée | **Très élevée** |
-| **Frais de coordination** | Pourcentage | Frais d'entrée | Payés aux makers | **Aucun** |
-| **Discrimination UTXO** | Oui (blacklists) | Non | Non | **Non** |
+| **प्रति पूल प्रतिभागी** | 50-100 | 5-10 | चर (P2P) | **2-5** |
+| **समन्वयकर्ता** | केंद्रीकृत (2024 में बंद) | केंद्रीकृत (सक्रिय) | P2P maker/taker | **कोई नहीं (Nostr)** |
+| **सेंसरशिप प्रतिरोध** | कमजोर | मध्यम | बहुत अधिक | **बहुत अधिक** |
+| **समन्वय शुल्क** | प्रतिशत | प्रवेश शुल्क | निर्माताओं को भुगतान किया | **कोई नहीं** |
+| **UTXO भेदभाव** | हां (ब्लैकलिस्ट) | नहीं | नहीं | **नहीं** |
 
 💡 **अन्य सक्रिय CoinJoin समाधान** :
 

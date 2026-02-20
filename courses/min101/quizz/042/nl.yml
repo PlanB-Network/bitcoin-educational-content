@@ -1,0 +1,9 @@
+question: Wat betekent ASIC?
+answer: Application-Specific Integrated Circuits
+wrong_answers:
+  - Advanced Secure Integrated Circuit
+  - Automated Silicon Integrated Circuit
+  - Application-Shared Integrated Circuit
+explanation: |
+  Een ASIC is een chip die is ontworpen voor een enkele taak. Het is dus een Application-Specific Integrated Circuits.
+reviewed: false

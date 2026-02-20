@@ -1,0 +1,10 @@
+question: Kuka toteutti muistia vaativan Scrypt-funktion GPU-kestävänä mining-algoritmina Tenebrix-kryptovaluutassa vuonna 2011?
+answer: ArtForz
+wrong_answers:
+  - Charlie Lee
+  - Lolcust
+  - Colin Percival
+explanation: |
+ Scrypt on kanadalainen tietotekniikan tutkija Colin Percivalin vuonna 2009 suunnittelema avainten johdannaisfunktio. Sen otti käyttöön louhija ArtForz, joka auttoi
+ Lolcustin kehittää syyskuussa 2011 lanseerattua Tenebrix-kryptovaluuttaa. Charlie Lee otti mallin käyttöön lokakuussa debytoineeseen Litecoiniin.
+reviewed: true

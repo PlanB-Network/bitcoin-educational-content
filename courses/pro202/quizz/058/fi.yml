@@ -2,7 +2,7 @@ question: Kun Bitcoin wallet skannaa lohkoja saapuvien maksujen varalta, miksi k
 answer: Kokonaislohkojen lataaminen suojaa yksityisyyttä paremmin, koska se ei paljasta, mitä tiettyjä liiketoimia tai osoitteita wallet on kiinnostunut seuraamaan
 wrong_answers:
   - Kokonaisten lohkojen lataaminen on laskennallisesti tehokkaampaa, koska se vaatii vähemmän kryptografisia hash-operaatioita tapahtuman aitouden tarkistamiseksi
-  - 
+  - Kokonaisten lohkojen lataaminen varmistaa nopeamman synkronoinnin, koska vertaiset voivat lähettää pakattua lohkodataa yksittäisten tapahtumavastausten sijaan
   - Kokonaislohkojen lataaminen tarjoaa paremman turvallisuuden, koska wallet voi tarkistaa koko proof-of-work:n jokaisen tapahtuman osalta
 explanation: |
   Tietosuoja on lohkopohjaisen haun tärkein etu. Kun wallet pyytää tiettyjä tapahtumia, se vuotaa voimakkaita signaaleja käyttäjän toiminnasta ja paljastaa, mitkä osoitteet kuuluvat kyseiselle wallet:lle. Kokonaislohkojen lataaminen peittää wallet:n todelliset intressit kaikkien lohkotapahtumien joukossa. Väärissä vastauksissa keskitytään tehokkuuteen, nopeuteen tai turvallisuushyötyihin, jotka eivät ole ensisijainen motiivi - yksittäiset transaktiopyynnöt voisivat teoriassa olla yhtä turvallisia tai tehokkaita, mutta ne vaarantavat pohjimmiltaan yksityisyyden paljastamalla wallet:n seurantamallit verkon vertaisille.

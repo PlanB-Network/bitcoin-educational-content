@@ -1,0 +1,9 @@
+question: Hangi çözüm cep telefonlarında gerçek bir Lightning düğümü çalıştırmanızı sağlar?
+answer: Gömülü LN düğümü
+wrong_answers:
+  - Gözetim Yıldırım wallet
+  - Yıldırım atomik takası
+  - Birleştirilmiş kanallar
+explanation: |
+  Phoenix veya Zeus Embedded gibi çözümler, gerçek bir Lightning düğümünü doğrudan uygulamanın içine yerleştirir.
+reviewed: false

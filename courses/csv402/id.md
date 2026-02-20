@@ -80,30 +80,30 @@ Siap menyelami dunia RGB yang kompleks dan menarik? Ayo mulai!
 
 :::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
-RGB adalah sebuah protokol yang didesain untuk menerapkan dan menegakkan hak-hak digital (dalam bentuk kontrak dan aset) dengan cara yang terukur dan rahasia, berdasarkan aturan konsensus dan operasi blockchain Bitcoin. Tujuan dari bab pertama ini adalah untuk menyajikan konsep dasar dan terminologi seputar protokol RGB, menyoroti secara khusus hubungan eratnya dengan konsep komputasi terdistribusi dasar seperti Validasi Sisi Klien dan Segel Sekali Pakai.
+RGB adalah sebuah protokol yang didesain untuk menerapkan dan menegakkan hak-hak digital (dalam bentuk kontrak dan aset) dengan cara yang terukur dan rahasia, berdasarkan [aturan konsensus](https://planb.academy/resources/glossary/consensus-rules) dan operasi [blockchain](https://planb.academy/resources/glossary/blockchain) Bitcoin. Tujuan dari bab pertama ini adalah untuk menyajikan konsep dasar dan terminologi seputar protokol RGB, menyoroti secara khusus hubungan eratnya dengan konsep komputasi terdistribusi dasar seperti Validasi Sisi Klien dan Segel Sekali Pakai.
 
 Pada bab ini, kita akan membahas dasar-dasar **sistem konsensus terdistribusi** dan melihat bagaimana RGB cocok dengan keluarga teknologi ini. Kami juga akan memperkenalkan prinsip-prinsip utama yang membantu kita memahami mengapa RGB bertujuan untuk dapat diperluas dan tidak bergantung pada mekanisme konsensus Bitcoin, namun tetap bergantung pada mekanisme konsensus Bitcoin ketika diperlukan.
 
 ### Pendahuluan
 
-Komputasi terdistribusi, sebuah cabang ilmu komputer yang spesifik, mempelajari protokol yang digunakan untuk mengedarkan dan memproses informasi pada jaringan node. Bersama-sama, node-node ini dan aturan protokol membentuk apa yang dikenal sebagai sistem terdistribusi. Di antara sifat-sifat penting yang mencirikan sistem tersebut adalah :
+Komputasi terdistribusi, sebuah cabang ilmu komputer yang spesifik, mempelajari protokol yang digunakan untuk mengedarkan dan memproses informasi pada jaringan [node](https://planb.academy/resources/glossary/node). Bersama-sama, node-node ini dan aturan protokol membentuk apa yang dikenal sebagai sistem terdistribusi. Di antara sifat-sifat penting yang mencirikan sistem tersebut adalah :
 
 
 - Kemampuan verifikasi dan validasi independen **kemampuan verifikasi dan validasi** data tertentu oleh setiap node;
 - Kemungkinan bagi node untuk membangun (tergantung pada protokol) tampilan informasi yang lengkap atau sebagian. Tampilan ini adalah **state** dari sistem terdistribusi;
-- Urutan kronologis operasi, sehingga data dapat dicap waktu dengan andal dan ada konsensus tentang urutan kejadian (urutan status).
+- Urutan kronologis operasi, sehingga data dapat [dicap waktu](https://planb.academy/resources/glossary/timestamp) dengan andal dan ada konsensus tentang urutan kejadian (urutan status).
 
 Secara khusus, pengertian **konsensus** dalam sistem terdistribusi mencakup dua aspek:
 
 
 - **Pengakuan keabsahan** perubahan status (sesuai dengan aturan protokol);
-- Kesepakatan mengenai urutan perubahan status ini, yang membuatnya tidak mungkin untuk menulis ulang atau membalikkan operasi yang telah divalidasi secara a posteriori (hal ini juga dikenal dalam Bitcoin sebagai "proteksi pembelanjaan ganda").
+- Kesepakatan mengenai urutan perubahan status ini, yang membuatnya tidak mungkin untuk menulis ulang atau membalikkan operasi yang telah divalidasi secara a posteriori (hal ini juga dikenal dalam Bitcoin sebagai "proteksi [pembelanjaan ganda](https://planb.academy/resources/glossary/double-spending-attack)").
 
-Implementasi mekanisme konsensus terdistribusi yang fungsional dan bebas izin pertama kali diperkenalkan oleh Satoshi Nakamoto dengan Bitcoin, berkat penggunaan gabungan struktur data blockchain dan algoritma Proof-of-Work (PoW). Dalam sistem ini, kredibilitas riwayat blok bergantung pada daya komputasi yang dicurahkan oleh node (penambang). Oleh karena itu, Bitcoin merupakan contoh utama dan bersejarah dari sistem konsensus terdistribusi yang terbuka untuk semua orang (*permissionless*).
+Implementasi mekanisme konsensus terdistribusi yang fungsional dan bebas izin pertama kali diperkenalkan oleh Satoshi Nakamoto dengan Bitcoin, berkat penggunaan gabungan struktur data blockchain dan algoritma [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) (PoW). Dalam sistem ini, kredibilitas riwayat blok bergantung pada daya komputasi yang dicurahkan oleh node ([penambang](https://planb.academy/resources/glossary/miner)). Oleh karena itu, Bitcoin merupakan contoh utama dan bersejarah dari sistem konsensus terdistribusi yang terbuka untuk semua orang (*permissionless*).
 
-Dalam dunia blockchain dan komputasi terdistribusi, kita dapat membedakan dua paradigma mendasar: **blockchain** dalam pengertian tradisional, dan **state channels**, contoh terbaiknya adalah Lightning Network. Blockchain didefinisikan sebagai daftar peristiwa yang diurutkan secara kronologis, direplikasi oleh konsensus dalam jaringan terbuka dan bebas izin. Di sisi lain, state channel adalah saluran peer-to-peer yang memungkinkan dua (atau lebih) peserta untuk mempertahankan state yang diperbarui di luar rantai, menggunakan blockchain hanya ketika membuka dan menutup saluran ini.
+Dalam dunia blockchain dan komputasi terdistribusi, kita dapat membedakan dua paradigma mendasar: **blockchain** dalam pengertian tradisional, dan **state channels**, contoh terbaiknya adalah [Lightning Network](https://planb.academy/resources/glossary/lightning-network). Blockchain didefinisikan sebagai daftar peristiwa yang diurutkan secara kronologis, direplikasi oleh konsensus dalam jaringan terbuka dan bebas izin. Di sisi lain, state channel adalah saluran peer-to-peer yang memungkinkan dua (atau lebih) peserta untuk mempertahankan state yang diperbarui di luar rantai, menggunakan blockchain hanya ketika membuka dan menutup saluran ini.
 
-Dalam konteks Bitcoin, Anda tentu sudah tidak asing lagi dengan prinsip-prinsip penambangan, desentralisasi, dan finalitas transaksi pada blockchain, serta cara kerja saluran pembayaran. Dengan RGB, kami memperkenalkan paradigma baru yang disebut **Validasi Sisi Klien**, yang tidak seperti blockchain atau Lightning, terdiri dari penyimpanan dan validasi secara lokal (sisi klien) untuk memvalidasi transisi status kontrak pintar. Ini juga berbeda dari teknik "DeFi" lainnya (_rollups_, _plasma_, _ARK_, dll.), karena Validasi Sisi Klien bergantung pada blockchain untuk mencegah pengeluaran ganda dan memiliki sistem stempel waktu, sambil tetap menyimpan daftar status dan transisi off-chain, hanya dengan peserta yang bersangkutan.
+Dalam konteks Bitcoin, Anda tentu sudah tidak asing lagi dengan prinsip-prinsip penambangan, desentralisasi, dan finalitas transaksi pada blockchain, serta cara kerja [saluran pembayaran](https://planb.academy/resources/glossary/payment-channel). Dengan RGB, kami memperkenalkan paradigma baru yang disebut **Validasi Sisi Klien**, yang tidak seperti blockchain atau Lightning, terdiri dari penyimpanan dan validasi secara lokal (sisi klien) untuk memvalidasi transisi status [kontrak pintar](https://planb.academy/resources/glossary/smart-contract). Ini juga berbeda dari teknik "DeFi" lainnya (_rollups_, _plasma_, _ARK_, dll.), karena Validasi Sisi Klien bergantung pada blockchain untuk mencegah pengeluaran ganda dan memiliki sistem stempel waktu, sambil tetap menyimpan daftar status dan transisi off-chain, hanya dengan peserta yang bersangkutan.
 
 ![RGB-Bitcoin](assets/en/003.webp)
 
@@ -174,7 +174,7 @@ Blockchain (dalam hal ini, Bitcoin) berfungsi terutama sebagai mekanisme _waktu-
 
 Sharding adalah sebuah konsep yang berasal dari database terdistribusi (misalnya MySQL untuk jejaring sosial seperti Facebook atau Twitter). Untuk mengatasi masalah volume data dan latensi sinkronisasi, basis data disegmentasi ke dalam _shard_ (Amerika Serikat, Eropa, Asia, dll.). Setiap segmen konsisten secara lokal dan hanya sebagian yang disinkronkan dengan yang lain.
 
-Untuk smart contract tipe RGB, kami melakukan shard sesuai dengan kontrak itu sendiri. Setiap kontrak adalah _shard_ independen. Misalnya, jika Anda hanya memiliki token USDT, Anda tidak perlu menyimpan atau memvalidasi seluruh riwayat token lain seperti USDC. Pada Bitcoin, blockchain tidak melakukan _sharding_: Anda memiliki satu set global UTXO. Dengan Validasi Sisi Klien, setiap peserta hanya menyimpan data kontrak yang dipegang atau digunakannya.
+Untuk smart contract tipe RGB, kami melakukan shard sesuai dengan kontrak itu sendiri. Setiap kontrak adalah _shard_ independen. Misalnya, jika Anda hanya memiliki token USDT, Anda tidak perlu menyimpan atau memvalidasi seluruh riwayat token lain seperti USDC. Pada Bitcoin, blockchain tidak melakukan _sharding_: Anda memiliki satu set global [UTXO](https://planb.academy/resources/glossary/utxo). Dengan Validasi Sisi Klien, setiap peserta hanya menyimpan data kontrak yang dipegang atau digunakannya.
 
 Oleh karena itu, kita dapat membayangkan ekosistem sebagai berikut:
 
@@ -226,7 +226,7 @@ Validasi sisi klien didasarkan pada ide yang berlawanan: daripada mengharuskan s
 
 Pada saat yang sama, agar seluruh jaringan (atau lebih tepatnya, lapisan yang mendasari, seperti Bitcoin) dapat mengunci keadaan akhir tanpa melihat rincian data ini, Validasi Sisi Klien bergantung pada gagasan ***komitmen***.
 
-Sebuah *commitment* adalah sebuah komitmen kriptografi, biasanya berupa _hash_ (SHA-256 misalnya) yang dimasukkan ke dalam sebuah transaksi Bitcoin, yang membuktikan bahwa data pribadi telah disertakan, tanpa mengungkapkan data ini.
+Sebuah *commitment* adalah sebuah komitmen kriptografi, biasanya berupa _hash_ ([SHA-256](https://planb.academy/resources/glossary/sha256) misalnya) yang dimasukkan ke dalam sebuah transaksi Bitcoin, yang membuktikan bahwa data pribadi telah disertakan, tanpa mengungkapkan data ini.
 
 Berkat _komitmen_ ini, kami dapat membuktikannya:
 
@@ -279,7 +279,7 @@ Ketika menerima aset seperti mata uang, dua jaminan sangat penting:
 
 Untuk aset fisik, seperti uang kertas, keberadaan fisik sudah cukup untuk membuktikan bahwa aset tersebut belum diduplikasi. Namun, di dunia digital, di mana aset murni berupa informasi, verifikasi ini lebih kompleks, karena informasi dapat dengan mudah berkembang biak dan diduplikasi.
 
-Seperti yang telah kita lihat sebelumnya, pengungkapan pengirim mengenai sejarah transisi status memungkinkan kita untuk memastikan keaslian token RGB. Dengan memiliki akses ke semua transaksi sejak transaksi awal, kita dapat memastikan keaslian token tersebut. Prinsip ini mirip dengan Bitcoin, di mana sejarah koin dapat ditelusuri kembali ke transaksi coinbase asli untuk memverifikasi keabsahannya. Namun, tidak seperti Bitcoin, riwayat transisi status dalam RGB bersifat pribadi dan disimpan di sisi klien.
+Seperti yang telah kita lihat sebelumnya, pengungkapan pengirim mengenai sejarah transisi status memungkinkan kita untuk memastikan keaslian token RGB. Dengan memiliki akses ke semua transaksi sejak transaksi awal, kita dapat memastikan keaslian token tersebut. Prinsip ini mirip dengan Bitcoin, di mana sejarah koin dapat ditelusuri kembali ke transaksi [coinbase](https://planb.academy/resources/glossary/coinbase-transaction) asli untuk memverifikasi keabsahannya. Namun, tidak seperti Bitcoin, riwayat transisi status dalam RGB bersifat pribadi dan disimpan di sisi klien.
 
 Untuk mencegah penggunaan ganda token RGB, kami menggunakan mekanisme yang disebut "**Single-use Seal**". Sistem ini memastikan bahwa setiap token, setelah digunakan, tidak dapat digunakan kembali secara curang untuk kedua kalinya.
 
@@ -307,7 +307,7 @@ Tidak seperti _komitmen_ (hash) atau stempel waktu yang sederhana, yang membukti
 Perbandingan berikut ini membantu untuk memahami prinsip ini:
 
 
-- **Komitmen kriptografi (hash)**: Dengan fungsi hash, Anda dapat berkomitmen pada sepotong data (angka) dengan menerbitkan hash-nya. Data tetap rahasia sampai Anda mengungkapkan pra-gambar, tetapi Anda dapat membuktikan bahwa Anda sudah mengetahuinya sebelumnya;
+- **Komitmen kriptografi (hash)**: Dengan [fungsi hash](https://planb.academy/resources/glossary/hash-function), Anda dapat berkomitmen pada sepotong data (angka) dengan menerbitkan hash-nya. Data tetap rahasia sampai Anda mengungkapkan pra-gambar, tetapi Anda dapat membuktikan bahwa Anda sudah mengetahuinya sebelumnya;
 - **Stempel waktu (blockchain)**: Dengan memasukkan hash ini ke dalam blockchain, kita juga membuktikan bahwa kita mengetahuinya pada saat yang tepat (saat dimasukkan ke dalam blok);
 - **Segel sekali pakai**: Dengan segel sekali pakai, kami melangkah lebih jauh dengan membuat komitmen yang unik. Dengan satu hash, Anda dapat membuat beberapa komitmen yang bertentangan secara paralel (masalah dokter yang mengumumkan "*Ini anak laki-laki*" kepada keluarga dan "*Ini anak perempuan*" dalam buku harian pribadinya). Segel Sekali Pakai menghilangkan kemungkinan ini dengan menghubungkan komitmen ke media bukti publikasi, seperti blockchain Bitcoin, sehingga pengeluaran UTXO secara definitif menyegel komitmen tersebut. Setelah dibelanjakan, UTXO yang sama tidak dapat dibelanjakan kembali untuk menggantikan komitmen.
 
@@ -400,7 +400,7 @@ Perlu dicatat bahwa batu bata perangkat lunak ini bersifat agnostik terhadap Bit
 
 #### Menuju penggunaan Segel Sekali Pakai yang lebih luas
 
-Peter Todd juga menciptakan protokol _Open Timestamps_, dan konsep Segel Sekali Pakai merupakan perluasan alami dari ide-ide ini. Di luar RGB, kasus penggunaan lain dapat dipertimbangkan, seperti pembangunan _sidechain_ tanpa menggunakan _merge mining_ atau proposal terkait drivechain seperti BIP300. Sistem apa pun yang membutuhkan komitmen tunggal pada prinsipnya dapat mengeksploitasi primitif kriptografi ini. Saat ini, RGB merupakan implementasi skala penuh yang pertama.
+Peter Todd juga menciptakan protokol _Open Timestamps_, dan konsep Segel Sekali Pakai merupakan perluasan alami dari ide-ide ini. Di luar RGB, kasus penggunaan lain dapat dipertimbangkan, seperti pembangunan _[sidechain](https://planb.academy/resources/glossary/sidechain)_ tanpa menggunakan _merge mining_ atau proposal terkait drivechain seperti BIP300. Sistem apa pun yang membutuhkan komitmen tunggal pada prinsipnya dapat mengeksploitasi primitif kriptografi ini. Saat ini, RGB merupakan implementasi skala penuh yang pertama.
 
 #### Masalah ketersediaan data
 
@@ -408,7 +408,7 @@ Karena dalam Validasi Sisi Klien, setiap pengguna menyimpan bagian riwayatnya se
 
 #### Isolasi pecahan dan kontrak
 
-Setiap kontrak mewakili _shard_ yang terisolasi: USDT dan USDC, misalnya, tidak harus berbagi sejarah. Pertukaran atom masih dimungkinkan, tetapi ini tidak melibatkan penggabungan register mereka. Semuanya dilakukan dengan komitmen kriptografi, tanpa mengungkapkan seluruh grafik riwayat kepada setiap peserta.
+Setiap kontrak mewakili _shard_ yang terisolasi: USDT dan USDC, misalnya, tidak harus berbagi sejarah. [Pertukaran atom](https://planb.academy/resources/glossary/atomic-swap) masih dimungkinkan, tetapi ini tidak melibatkan penggabungan register mereka. Semuanya dilakukan dengan komitmen kriptografi, tanpa mengungkapkan seluruh grafik riwayat kepada setiap peserta.
 
 ### Kesimpulan
 
@@ -424,11 +424,11 @@ Sebelum masuk ke dalam detail yang lebih teknis pada bab kedua, jangan ragu untu
 
 :::video id=73ddea2d-c243-479d-a3dc-12d7db8eef70:::
 
-Pada bab ini, kita akan melihat implementasi Validasi Sisi Klien dan Segel Sekali Pakai di dalam blockchain Bitcoin. Kami akan menyajikan prinsip-prinsip utama dari **lapisan komitmen** (lapisan 1) RGB, dengan fokus khusus pada skema **TxO2**, yang digunakan RGB untuk mendefinisikan dan menutup segel dalam transaksi Bitcoin. Selanjutnya, kita akan membahas dua poin penting yang belum dibahas secara mendetail:
+Pada bab ini, kita akan melihat implementasi [Validasi Sisi Klien](https://planb.academy/resources/glossary/client-side-validation) dan [Segel Sekali Pakai](https://planb.academy/resources/glossary/single-use-seal) di dalam blockchain Bitcoin. Kami akan menyajikan prinsip-prinsip utama dari **lapisan komitmen** (lapisan 1) RGB, dengan fokus khusus pada skema **TxO2**, yang digunakan RGB untuk mendefinisikan dan menutup segel dalam transaksi Bitcoin. Selanjutnya, kita akan membahas dua poin penting yang belum dibahas secara mendetail:
 
 
 - Komitmen Bitcoin yang bersifat deterministik;
-- Komitmen multi-protokol.
+- [Komitmen multi-protokol](https://planb.academy/resources/glossary/multi-protocol-commitment).
 
 Kombinasi dari konsep-konsep inilah yang memungkinkan kita untuk menumpangkan beberapa sistem atau kontrak di atas satu UTXO dan oleh karena itu menjadi satu blockchain.
 
@@ -446,23 +446,23 @@ Untuk memahami logikanya, mari kita ingat kembali prinsip dasarnya: untuk menutu
 Kita dapat memutuskan bahwa kunci atau alamat publik tertentu adalah _segel sekali pakai_. Segera setelah kunci atau alamat ini muncul secara berantai dalam sebuah transaksi, ini berarti segel tersebut ditutup dengan pesan tertentu.
 
 
-- Menggunakan hasil transaksi **Bitcoin**
+- Menggunakan [hasil transaksi](https://planb.academy/resources/glossary/output) **Bitcoin**
 
-Ini berarti bahwa segel sekali pakai didefinisikan sebagai _outpoint_ yang tepat (pasangan nomor TXID + nomor keluaran). Segera setelah _outpoint_ ini dihabiskan, segel ditutup.
+Ini berarti bahwa segel sekali pakai didefinisikan sebagai _[outpoint](https://planb.academy/resources/glossary/outpoint)_ yang tepat (pasangan nomor [TXID](https://planb.academy/resources/glossary/txid-transaction-identifier) + nomor keluaran). Segera setelah _outpoint_ ini dihabiskan, segel ditutup.
 
 Ketika mengerjakan RGB, kami mengidentifikasi setidaknya 4 cara berbeda untuk mengimplementasikan segel ini pada Bitcoin:
 
 
-- Tentukan segel melalui kunci publik, dan tutup dalam _output_ ;
+- Tentukan segel melalui [kunci publik](https://planb.academy/resources/glossary/public-key), dan tutup dalam _output_ ;
 - Tentukan segel dengan _outpoint_ dan tutup dengan _output_ ;
-- Tentukan segel melalui nilai kunci publik, dan tutup dalam _input_ ;
+- Tentukan segel melalui nilai kunci publik, dan tutup dalam _[input](https://planb.academy/resources/glossary/input)_ ;
 - Tentukan segel melalui _outpoint_, dan tutup dengan _input_.
 
 | Nama Skema  | Definisi Segel           | Penutupan Segel         | Persyaratan Tambahan                                            | Aplikasi Utama             | Skema Komitmen yang Mungkin       |
 | ----------- | ------------------------ | ----------------------- | -------------------------------------------------------------- | -------------------------- | ---------------------------------- |
 | PkO         | Nilai Kunci Publik       | Keluaran Transaksi      | P2(W)PKH                                                        | Belum ada saat ini        | Keytweak, taptweak, opret         |
 | TxO2        | Keluaran Transaksi       | Keluaran Transaksi      | Memerlukan komitmen deterministik di Bitcoin                    | RGBv1 (universal)         | Keytweak, tapret, opret           |
-| PkI         | Nilai Kunci Publik       | Masukan Transaksi       | Hanya Taproot & tidak kompatibel dengan dompet Legacy           | Identitas berbasis Bitcoin | Sigtweak, witweak                 |
+| PkI         | Nilai Kunci Publik       | Masukan Transaksi       | Hanya [Taproot](https://planb.academy/resources/glossary/taproot) & tidak kompatibel dengan dompet Legacy           | Identitas berbasis Bitcoin | Sigtweak, witweak                 |
 | TxO1        | Keluaran Transaksi       | Masukan Transaksi       | Hanya Taproot & tidak kompatibel dengan dompet Legacy           | Belum ada saat ini        | Sigtweak, witweak                 |
 
 Kita tidak akan membahas secara detail mengenai masing-masing konfigurasi ini, karena dalam RGB kita telah memilih untuk menggunakan _outpoint_ sebagai definisi **seal**, dan menempatkan _commitment_ pada keluaran transaksi yang menggunakan _outpoint_ ini. Oleh karena itu, kita dapat memperkenalkan konsep-konsep berikut untuk sekuelnya:
@@ -481,7 +481,7 @@ Sebagai pengingat, mendefinisikan _single-use seal_ tidak selalu membutuhkan pen
 
 ![RGB-Bitcoin](assets/en/024.webp)
 
-Pada hari ketika ia ingin menutup segel (untuk menandakan sebuah peristiwa, atau untuk menambatkan pesan tertentu), ia akan menggunakan UTXO ini dalam sebuah transaksi baru (transaksi ini sering disebut dengan "_witness transaction_" (tidak ada hubungannya dengan _segwit_, ini hanyalah istilah yang kami berikan). Transaksi baru ini akan berisi _commitment_ untuk pesan tersebut.
+Pada hari ketika ia ingin menutup segel (untuk menandakan sebuah peristiwa, atau untuk menambatkan pesan tertentu), ia akan menggunakan UTXO ini dalam sebuah transaksi baru (transaksi ini sering disebut dengan "_[witness transaction](https://planb.academy/resources/glossary/witness-transaction)_" (tidak ada hubungannya dengan _segwit_, ini hanyalah istilah yang kami berikan). Transaksi baru ini akan berisi _commitment_ untuk pesan tersebut.
 
 ![RGB-Bitcoin](assets/en/025.webp)
 
@@ -547,18 +547,18 @@ Pada bagian sebelumnya, kita telah membahas secara singkat bagaimana model Valid
 
 Ketika Anda memberikan bukti kepada seseorang bahwa sebuah pesan tertentu tertanam dalam sebuah transaksi, Anda harus dapat menjamin bahwa tidak ada bentuk komitmen lain (pesan kedua yang tersembunyi) dalam transaksi yang sama yang belum diungkapkan kepada Anda. Agar validasi dari sisi klien tetap kuat, Anda membutuhkan sebuah mekanisme **deterministik** untuk menempatkan sebuah _komitmen_ dalam transaksi yang menutup _segel sekali pakai_.
 
-Transaksi _witness_ menghabiskan UTXO yang terkenal (atau _seal definition_) dan pengeluaran ini sesuai dengan penutupan segel. Secara teknis, kita tahu bahwa setiap titik keluar hanya dapat dibelanjakan satu kali. Inilah yang mendasari perlawanan Bitcoin terhadap pengeluaran ganda. Namun, transaksi pengeluaran dapat memiliki beberapa _input_, beberapa _output_, atau disusun dengan cara yang rumit (coinjoin, Lightning channel, dll.). Oleh karena itu, kita perlu mendefinisikan dengan jelas di mana kita harus memasukkan _commitment_ dalam struktur ini, dengan jelas dan seragam.
+Transaksi _witness_ menghabiskan UTXO yang terkenal (atau _seal definition_) dan pengeluaran ini sesuai dengan penutupan segel. Secara teknis, kita tahu bahwa setiap titik keluar hanya dapat dibelanjakan satu kali. Inilah yang mendasari perlawanan Bitcoin terhadap pengeluaran ganda. Namun, transaksi pengeluaran dapat memiliki beberapa _input_, beberapa _output_, atau disusun dengan cara yang rumit ([coinjoin](https://planb.academy/resources/glossary/coinjoin), Lightning channel, dll.). Oleh karena itu, kita perlu mendefinisikan dengan jelas di mana kita harus memasukkan _commitment_ dalam struktur ini, dengan jelas dan seragam.
 
 Apapun metodenya (PkO, TxO2, dll.), _commitment_ dapat disisipkan:
 
 
 - Dalam sebuah **Input** melalui :
-- **Sigtweak** (memodifikasi komponen `r` dari tanda tangan ECDSA, mirip dengan prinsip "Tanda tangan-ke-kontrak");
+- **Sigtweak** (memodifikasi komponen `r` dari [tanda tangan](https://planb.academy/resources/glossary/digital-signature) [ECDSA](https://planb.academy/resources/glossary/ecdsa), mirip dengan prinsip "Tanda tangan-ke-kontrak");
 - **Witweak** (data _segregated witness_ transaksi dimodifikasi).
 - Dalam sebuah **Output** melalui :
 - **Keytweak** (kunci publik penerima "diutak-atik" dengan pesan);
 - **Opret** (pesan ditempatkan dalam output yang tidak dapat dihabiskan `OP_RETURN`);
-- **Tapret** (atau _Taptweak_), yang bergantung pada taproot untuk menyisipkan komitmen ke dalam bagian skrip dari kunci taproot, sehingga memodifikasi kunci publik secara deterministik.
+- **Tapret** (atau _Taptweak_), yang bergantung pada taproot untuk menyisipkan komitmen ke dalam bagian [skrip](https://planb.academy/resources/glossary/script) dari kunci taproot, sehingga memodifikasi kunci publik secara deterministik.
 
 ![RGB-Bitcoin](assets/en/035.webp)
 
@@ -568,7 +568,7 @@ Berikut ini adalah rincian dari masing-masing metode:
 
 ***Sig tweak (tanda tangan untuk kontrak) :***
 
-Skema sebelumnya melibatkan eksploitasi bagian acak dari tanda tangan (ECDSA atau Schnorr) untuk menyematkan _komitmen_: ini adalah teknik yang dikenal sebagai "**Sign-to-contract**". Anda mengganti nonce yang dihasilkan secara acak dengan hash yang berisi data. Dengan cara ini, tanda tangan secara implisit mengungkapkan komitmen Anda, tanpa ruang tambahan dalam transaksi. Pendekatan ini memiliki beberapa keuntungan:
+Skema sebelumnya melibatkan eksploitasi bagian acak dari tanda tangan (ECDSA atau [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol)) untuk menyematkan _komitmen_: ini adalah teknik yang dikenal sebagai "**Sign-to-contract**". Anda mengganti [nonce](https://planb.academy/resources/glossary/nonce) yang dihasilkan secara acak dengan hash yang berisi data. Dengan cara ini, tanda tangan secara implisit mengungkapkan komitmen Anda, tanpa ruang tambahan dalam transaksi. Pendekatan ini memiliki beberapa keuntungan:
 
 
 - Tidak ada kelebihan beban pada rantai (Anda menggunakan tempat yang sama dengan nonce dasar);
@@ -577,14 +577,14 @@ Skema sebelumnya melibatkan eksploitasi bagian acak dari tanda tangan (ECDSA ata
 Namun demikian, ada 2 kelemahan utama yang muncul:
 
 
-- Multisig sebelum Taproot: ketika Anda memiliki beberapa penandatangan, Anda harus memutuskan tanda tangan mana yang akan membawa _commitment_. Tanda tangan dapat dipesan secara berbeda, dan jika penandatangan menolak, Anda kehilangan kendali atas hasil _commitment_;
+- [Multisig](https://planb.academy/resources/glossary/multisig) sebelum Taproot: ketika Anda memiliki beberapa penandatangan, Anda harus memutuskan tanda tangan mana yang akan membawa _commitment_. Tanda tangan dapat dipesan secara berbeda, dan jika penandatangan menolak, Anda kehilangan kendali atas hasil _commitment_;
 - MuSig dan nonce bersama: dengan Schnorr multisig (*MuSig*), pembuatan nonce merupakan sebuah algoritma multipartai, dan hampir tidak mungkin untuk mengubah nonce satu per satu.
 
-Dalam praktiknya, **sig tweak** juga tidak terlalu kompatibel dengan perangkat keras yang ada (dompet perangkat keras) dan format (Lightning, dll.). Jadi, ide yang bagus ini sulit untuk dipraktikkan.
+Dalam praktiknya, **sig tweak** juga tidak terlalu kompatibel dengan perangkat keras yang ada ([dompet perangkat keras](https://planb.academy/resources/glossary/hardware-wallet)) dan format (Lightning, dll.). Jadi, ide yang bagus ini sulit untuk dipraktikkan.
 
 ***Key tweak (bayar sesuai kontrak) :***
 
-Tweak kunci ini mengambil konsep historis dari _bayar-ke-kontrak_. Kita mengambil kunci publik `X` dan mengubahnya dengan menambahkan nilai `H(pesan)`. Secara khusus, jika `X = x * G` dan `h = H(pesan)`, maka kunci baru akan menjadi `X' = X + h * G`. Kunci yang telah diubah ini menyembunyikan komitmen terhadap `pesan`. Pemegang kunci privat yang asli dapat, dengan menambahkan `h` ke kunci privatnya `x`, membuktikan bahwa ia memiliki kunci untuk mengeluarkan output. Secara teori, ini adalah hal yang elegan, karena :
+Tweak kunci ini mengambil konsep historis dari _bayar-ke-kontrak_. Kita mengambil kunci publik `X` dan mengubahnya dengan menambahkan nilai `H(pesan)`. Secara khusus, jika `X = x * G` dan `h = H(pesan)`, maka kunci baru akan menjadi `X' = X + h * G`. Kunci yang telah diubah ini menyembunyikan komitmen terhadap `pesan`. Pemegang [kunci privat](https://planb.academy/resources/glossary/private-key) yang asli dapat, dengan menambahkan `h` ke kunci privatnya `x`, membuktikan bahwa ia memiliki kunci untuk mengeluarkan output. Secara teori, ini adalah hal yang elegan, karena :
 
 
 - Komitmen_ dimasukkan tanpa menambahkan kolom tambahan;
@@ -623,11 +623,11 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 
 ### Tapret
 
-Opsi terakhir adalah penggunaan **Taproot** (diperkenalkan dengan BIP341) dengan skema *Tapret*. *Tapret* adalah bentuk komitmen deterministik yang lebih kompleks, yang membawa peningkatan dalam hal jejak pada blockchain dan kerahasiaan untuk operasi kontrak. Ide utamanya adalah untuk menyembunyikan komitmen di bagian `Script Path Spend` dari [transaksi taproot] (https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki).
+Opsi terakhir adalah penggunaan **Taproot** (diperkenalkan dengan BIP341) dengan skema *Tapret*. *Tapret* adalah bentuk komitmen deterministik yang lebih kompleks, yang membawa peningkatan dalam hal jejak pada blockchain dan kerahasiaan untuk operasi kontrak. Ide utamanya adalah untuk menyembunyikan komitmen di bagian `Script Path Spend` dari [transaksi taproot](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki).
 
 ![RGB-Bitcoin](assets/en/036.webp)
 
-Sebelum menjelaskan bagaimana komitmen dimasukkan ke dalam transaksi taproot, mari kita lihat **bentuk yang tepat** dari komitmen, yang harus **secara imperatif** sesuai dengan string 64-byte [constructed] (https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) sebagai berikut:
+Sebelum menjelaskan bagaimana komitmen dimasukkan ke dalam transaksi taproot, mari kita lihat **bentuk yang tepat** dari komitmen, yang harus **secara imperatif** sesuai dengan string 64-byte [constructed](https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) sebagai berikut:
 
 ```txt
 64-byte_Tapret_Commitment =
@@ -640,7 +640,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 
 - 29 byte `OP_RESERVED`, diikuti dengan `OP_RETURN`, lalu `OP_PUSHBYTE_33`, membentuk bagian _prefix_ sebanyak 31 byte;
-- Berikutnya adalah 32-byte _commitment_ (biasanya akar Merkle dari **MPC**), yang kemudian kita tambahkan 1 byte dari **Nonce** (total 33 byte untuk bagian kedua ini).
+- Berikutnya adalah 32-byte _commitment_ (biasanya [akar Merkle](https://planb.academy/resources/glossary/merkle-root) dari **MPC**), yang kemudian kita tambahkan 1 byte dari **Nonce** (total 33 byte untuk bagian kedua ini).
 
 Jadi metode `Tapret` 64-byte terlihat seperti sebuah `Opret` yang mana kita telah mengawali 29 byte dari `OP_RESERVED` dan menambahkan byte tambahan sebagai Nonce.
 
@@ -660,8 +660,8 @@ Dalam kasus pertama ini, kita mulai dari kunci keluaran taproot (*Kunci Keluaran
 
 
 - `P`: kunci publik internal untuk _Key Path Spend_.
-- `G`: titik pembangkit kurva elips [secp256k1] (https://en.bitcoin.it/wiki/Secp256k1).
-- t = tH_TWEAK(P)` adalah faktor tweak, yang dihitung melalui hash yang ditandai (misalnya `SHA-256(SHA-256(TapTweak) || P)`), sesuai dengan [BIP86] (https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki#address-derivation). Ini membuktikan bahwa tidak ada skrip yang tersembunyi.
+- `G`: titik pembangkit [kurva elips](https://planb.academy/resources/glossary/elliptic-curve) [secp256k1](https://en.bitcoin.it/wiki/Secp256k1).
+- t = tH_TWEAK(P)` adalah faktor tweak, yang dihitung melalui hash yang ditandai (misalnya `SHA-256(SHA-256(TapTweak) || P)`), sesuai dengan [BIP86](https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki#address-derivation). Ini membuktikan bahwa tidak ada skrip yang tersembunyi.
 
 Untuk menyertakan komitmen **Tapret**, tambahkan **Skrip Jalur Pengeluaran** dengan **skrip unik**, sebagai berikut:
 
@@ -809,7 +809,7 @@ Secara konkret, setiap _bundel transisi_ adalah milik kontrak tertentu. Semua in
 
 #### Hash Akar MPC
 
-Nilai yang sebenarnya ditulis secara on-chain (dalam `Opret` atau `Tapret`) disebut `mpc::Commitment`. Ini dihitung dalam bentuk [BIP-341] (https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki), menurut rumus :
+Nilai yang sebenarnya ditulis secara on-chain (dalam `Opret` atau `Tapret`) disebut `mpc::Commitment`. Ini dihitung dalam bentuk [BIP-341](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki), menurut rumus :
 
 ```txt
 mpc::Commitment = SHA-256(SHA-256(mpc_tag) || SHA-256(mpc_tag) || depth || cofactor || mpc::Root )
@@ -846,7 +846,7 @@ di mana `cofactor` adalah bilangan bulat yang meningkatkan probabilitas untuk me
 - Kami mencoba `cofactor` yang berbeda (hingga `w/2`, atau maksimum 500 untuk alasan performa);
 - Jika kita gagal memposisikan semua kontrak tanpa tabrakan, kita menambah `d` dan memulai lagi.
 
-Tujuannya adalah untuk menghindari pohon yang terlalu tinggi, sekaligus menjaga risiko tabrakan seminimal mungkin. Perlu diketahui bahwa fenomena tabrakan mengikuti logika distribusi acak, yang terkait dengan [Paradoks Hari Jadi] (https://en.wikipedia.org/wiki/Birthday_problem).
+Tujuannya adalah untuk menghindari pohon yang terlalu tinggi, sekaligus menjaga risiko tabrakan seminimal mungkin. Perlu diketahui bahwa fenomena tabrakan mengikuti logika distribusi acak, yang terkait dengan [Paradoks Hari Jadi](https://en.wikipedia.org/wiki/Birthday_problem).
 
 #### Daun yang dihuni
 
@@ -928,7 +928,7 @@ Mekanisme ini memastikan bahwa :
 
 Multi Protocol Commitment (MPC) adalah prinsip yang memungkinkan RGB untuk menggabungkan beberapa kontrak ke dalam satu transaksi Bitcoin, dengan tetap menjaga keunikan komitmen dan kerahasiaan terhadap partisipan lainnya. Berkat konstruksi pohon yang deterministik, setiap kontrak diberikan posisi yang unik, dan adanya daun "dummy" (*Entropy Leaves*) menutupi sebagian jumlah total kontrak yang berpartisipasi dalam transaksi.
 
-Seluruh pohon Merkle tidak pernah disimpan pada klien. Kami hanya membuat _Merkle path_ untuk setiap kontrak yang bersangkutan, untuk dikirimkan ke penerima (yang kemudian dapat memvalidasi komitmen). Dalam beberapa kasus, Anda mungkin memiliki beberapa aset yang telah melewati UTXO yang sama. Anda kemudian dapat menggabungkan beberapa _Merkle path_ ke dalam apa yang disebut _block komitmen multi-protokol_, untuk menghindari duplikasi data yang terlalu banyak.
+Seluruh [pohon Merkle](https://planb.academy/resources/glossary/merkle-tree) tidak pernah disimpan pada klien. Kami hanya membuat _Merkle path_ untuk setiap kontrak yang bersangkutan, untuk dikirimkan ke penerima (yang kemudian dapat memvalidasi komitmen). Dalam beberapa kasus, Anda mungkin memiliki beberapa aset yang telah melewati UTXO yang sama. Anda kemudian dapat menggabungkan beberapa _Merkle path_ ke dalam apa yang disebut _block komitmen multi-protokol_, untuk menghindari duplikasi data yang terlalu banyak.
 
 Oleh karena itu, setiap _Merkle proof_ ringan, terutama karena kedalaman pohon tidak akan melebihi 32 dalam RGB. Ada juga gagasan tentang "blok Merkle", yang menyimpan lebih banyak informasi (penampang melintang, entropi, dll.), yang berguna untuk menggabungkan atau memisahkan beberapa cabang.
 
@@ -1429,7 +1429,7 @@ Definisi Segel, dalam bentuknya yang terungkap, memiliki empat bidang dasar: `tx
         - Sebuah `txid` sederhana, jika menunjuk ke UTXO tertentu,
         - Atau `WitnessTx`, yang menunjukkan referensi mandiri: segel menunjuk ke transaksi itu sendiri. Ini sangat berguna ketika tidak ada UTXO eksternal yang tersedia, misalnya dalam transaksi pembukaan saluran Lightning, atau jika penerima tidak memiliki UTXO.
 - **vout** : nomor keluaran dari transaksi yang ditunjukkan oleh `txptr`. Hanya ada untuk segel Graph standar (bukan untuk `WitnessTx`);
-- **blinding**: angka acak 8 byte, untuk memperkuat kerahasiaan dan mencegah upaya brute force pada identitas UTXO;
+- **blinding**: angka acak 8 byte, untuk memperkuat kerahasiaan dan mencegah upaya [brute force](https://planb.academy/resources/glossary/brute-force-attack) pada identitas UTXO;
 - **method** : menunjukkan metode penahan yang digunakan (`Tapret` atau `Opret`).
 
 Bentuk *disembunyikan* dari Definisi Segel adalah hash SHA256 (ditandai) dari gabungan 4 bidang ini, dengan tag khusus untuk RGB.
@@ -1448,7 +1448,7 @@ RGB mendefinisikan empat jenis status yang mungkin (*StateTypes*) untuk Status M
 
 
 - **Deklaratif**: tidak berisi data numerik, hanya hak deklaratif (misalnya hak untuk memilih). Bentuk yang tersembunyi dan yang terungkap adalah identik;
-- **Fungible**: mewakili kuantitas yang dapat dipertukarkan (seperti token). Dalam bentuk terbuka, kita memiliki `jumlah` dan `kebodohan`. Dalam bentuk tersembunyi, kita memiliki satu *komitmen Pedersen* yang menyembunyikan jumlah dan blinding;
+- **Fungible**: mewakili kuantitas yang dapat dipertukarkan (seperti token). Dalam bentuk terbuka, kita memiliki `jumlah` dan `kebodohan`. Dalam bentuk tersembunyi, kita memiliki satu *[komitmen Pedersen](https://planb.academy/resources/glossary/pedersen-commitment)* yang menyembunyikan jumlah dan blinding;
 - **Terstruktur**: menyimpan data terstruktur (hingga 64 kB). Dalam bentuk yang terlihat, ini adalah gumpalan data. Dalam bentuk tersembunyi, ini adalah hash yang ditandai dari gumpalan ini:
 
 ```txt
@@ -1630,12 +1630,12 @@ Selain versi kode semantik, RGB mencakup sistem untuk mengembangkan atau memperb
 Kemajuan cepat terjadi ketika aturan yang sebelumnya tidak valid menjadi valid. Misalnya, jika kontrak berevolusi untuk mengizinkan jenis baru `TipePenugasan` atau bidang baru:
 
 
-- Ini tidak dapat dibandingkan dengan hardfork blockchain klasik, karena RGB bekerja dalam validasi sisi klien dan tidak memengaruhi kompatibilitas blockchain secara keseluruhan;
+- Ini tidak dapat dibandingkan dengan [hardfork](https://planb.academy/resources/glossary/hard-fork) blockchain klasik, karena RGB bekerja dalam validasi sisi klien dan tidak memengaruhi kompatibilitas blockchain secara keseluruhan;
 - Dalam istilah praktis, jenis perubahan ini ditunjukkan oleh bidang `Ffv` (*fast-forward version*) dalam operasi kontrak;
 - Pemegang saat ini tidak dirugikan: status mereka tetap berlaku;
 - Di sisi lain, penerima baru (atau pengguna baru), perlu memperbarui perangkat lunak mereka (dompet mereka) untuk mengenali aturan baru.
 
-Push-back berarti bahwa aturan yang sebelumnya valid menjadi tidak valid. Oleh karena itu, ini adalah "pengerasan" aturan, tetapi tidak sepenuhnya merupakan softfork:
+Push-back berarti bahwa aturan yang sebelumnya valid menjadi tidak valid. Oleh karena itu, ini adalah "pengerasan" aturan, tetapi tidak sepenuhnya merupakan [softfork](https://planb.academy/resources/glossary/soft-fork):
 
 
 - Pemegang yang sudah ada mungkin akan terkena dampak (mereka mungkin mendapati diri mereka dengan aset yang dianggap usang atau tidak valid dalam versi baru);
@@ -1813,7 +1813,7 @@ Implementasi Antarmuka adalah serangkaian deklarasi yang menghubungkan **Interfa
 
 #### Faktur
 
-Faktur berbentuk URL yang dikodekan dalam [base58] (https://en.wikipedia.org/wiki/Binary-to-text_encoding#Base58), yang menyematkan data yang diperlukan untuk pembuatan **Transisi Status** (oleh pembayar). Dengan kata lain, faktur ini memungkinkan rekanan (*pembayar*) untuk membuat transisi yang sesuai untuk mentransfer aset atau memperbarui status kontrak.
+Faktur berbentuk URL yang dikodekan dalam [base58](https://en.wikipedia.org/wiki/Binary-to-text_encoding#Base58), yang menyematkan data yang diperlukan untuk pembuatan **Transisi Status** (oleh pembayar). Dengan kata lain, faktur ini memungkinkan rekanan (*pembayar*) untuk membuat transisi yang sesuai untuk mentransfer aset atau memperbarui status kontrak.
 
 #### Jaringan Petir
 
@@ -1895,7 +1895,7 @@ State Transition adalah operasi yang mengubah status kontrak RGB ke status baru.
 
 #### Akar tunggang
 
-Mengacu pada format transaksi Segwit v1 Bitcoin, yang diperkenalkan oleh [BIP341] (https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) dan [BIP342] (https://github.com/bitcoin/bips/blob/master/bip-0342.mediawiki). Taproot meningkatkan kerahasiaan dan fleksibilitas skrip, khususnya dengan membuat transaksi menjadi lebih ringkas dan lebih sulit untuk dibedakan satu sama lain.
+Mengacu pada format transaksi Segwit v1 Bitcoin, yang diperkenalkan oleh [BIP341](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) dan [BIP342](https://github.com/bitcoin/bips/blob/master/bip-0342.mediawiki). Taproot meningkatkan kerahasiaan dan fleksibilitas skrip, khususnya dengan membuat transaksi menjadi lebih ringkas dan lebih sulit untuk dibedakan satu sama lain.
 
 #### Terminal Konsinyasi - Titik Akhir Konsinyasi
 
@@ -2313,7 +2313,7 @@ Tentu saja, tergantung pada tanggal Anda membaca kursus ini, antarmuka-antarmuka
 
 #### Contoh antarmuka
 
-Potongan kode Rust ini menunjukkan Antarmuka [RGB20] (https://github.com/RGB-WG/rgb-std/blob/master/src/interface/rgb20.rs) (aset yang dapat dipertukarkan). Kode ini diambil dari file `rgb20.rs` dalam pustaka RGB standar. Mari kita lihat untuk memahami struktur Antarmuka dan bagaimana ia menyediakan jembatan antara, di satu sisi, logika bisnis (didefinisikan dalam Skema) dan, di sisi lain, fungsi yang terpapar ke dompet dan pengguna.
+Potongan kode Rust ini menunjukkan Antarmuka [RGB20](https://github.com/RGB-WG/rgb-std/blob/master/src/interface/rgb20.rs) (aset yang dapat dipertukarkan). Kode ini diambil dari file `rgb20.rs` dalam pustaka RGB standar. Mari kita lihat untuk memahami struktur Antarmuka dan bagaimana ia menyediakan jembatan antara, di satu sisi, logika bisnis (didefinisikan dalam Skema) dan, di sisi lain, fungsi yang terpapar ke dompet dan pengguna.
 
 ```rust
 // ...
@@ -3169,7 +3169,7 @@ Ini dapat dikirimkan ke Bob melalui saluran apa pun (teks, kode QR, dll.).
 Untuk mentransfer dari faktur ini :
 
 
-- Bob (yang menyimpan token dalam simpanannya) memiliki dompet Bitcoin. Dia perlu menyiapkan transaksi Bitcoin (dalam bentuk PSBT, misalnya `tx.psbt`) yang membelanjakan UTXO di mana token RGB yang diperlukan berada, ditambah satu UTXO untuk mata uang (penukaran);
+- Bob (yang menyimpan token di stash miliknya) memiliki sebuah wallet Bitcoin. Ia harus menyiapkan sebuah transaksi Bitcoin (dalam bentuk PSBT, misalnya `tx.psbt`) yang membelanjakan UTXO tempat token RGB yang diperlukan berada, ditambah satu UTXO untuk kembalian (change);
 - Bob menjalankan perintah berikut:
 
 ```bash
@@ -3391,7 +3391,7 @@ Dengan **RGB20**, kita mendefinisikan token yang dapat dipertukarkan pada Bitcoi
 
 ### Solusi Bitmask: dompet untuk RGB
 
-Untuk mengeksploitasi kemampuan RGB dalam praktiknya, proyek **DIBA** telah mendesain sebuah dompet yang disebut [Bitmask] (https://bitmask.app/). Idenya adalah untuk menyediakan alat berbasis Taproot yang tidak dikurung, yang dapat diakses sebagai aplikasi web atau ekstensi peramban. Bitmask mengelola aset RGB20 dan RGB21, dan mengintegrasikan berbagai mekanisme keamanan:
+Untuk mengeksploitasi kemampuan RGB dalam praktiknya, proyek **DIBA** telah mendesain sebuah dompet yang disebut [Bitmask](https://bitmask.app/). Idenya adalah untuk menyediakan alat berbasis Taproot yang tidak dikurung, yang dapat diakses sebagai aplikasi web atau ekstensi peramban. Bitmask mengelola aset RGB20 dan RGB21, dan mengintegrasikan berbagai mekanisme keamanan:
 
 
 - Kode inti ditulis dalam Rust, kemudian dikompilasi dalam WebAssembly untuk dijalankan dalam lingkungan JavaScript (React);

@@ -1,0 +1,9 @@
+question: In parole povere, cos'è un blocco su Bitcoin?
+answer: Un pacchetto di transazioni
+wrong_answers:
+  - Un pagamento
+  - Un server centrale
+  - Una chiave privata
+explanation: |
+  Semplificando, un blocco è semplicemente un insieme di transazioni raggruppate.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: NSEQUENCE
+term: nSequence
+definition: Transaktionsinmatningsfält som tillåter relativ tidslåsning eller RBF-signalering.
 ---
 
 Fältet `nSequence` i en Bitcoin-transaktionspost används för att ange hur denna post är tidslåst. Ursprungligen var det tänkt att möjliggöra dynamisk ersättning av transaktioner i mempools för att möjliggöra ett betalningssystem som liknar Lightning. Användningen har dock utvecklats i och med införandet av relativ tidslåsning genom BIP68. Fältet `nSequence` kan nu ange en relativ fördröjning innan en transaktion kan inkluderas i ett block. Denna fördröjning kan definieras i termer av antalet block eller som en multipel av 512 sekunder (dvs. realtid). Det är viktigt att notera att denna nya tolkning av fältet `nSequence` endast är giltig om fältet `nVersion` är större än eller lika med `2`. Denna tolkning av fältet `nSequence` ligger på samma nivå som Bitcoin:s konsensusregler. På nivån för standardiseringsregler används detta fält dessutom för att signalera RBF (Replace-by-fee). Om en transaktion innehåller en `nSequence` som är lägre än `0xfffffffe`, kan den ersättas via RBF på noder som följer denna policy.

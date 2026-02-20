@@ -1,0 +1,9 @@
+question: Mục tiêu độ khó được điều chỉnh sau mỗi bao nhiêu khối?
+answer: 2016 khối
+wrong_answers:
+  - 2000 khối
+  - 2100 khối
+  - 4096 khối
+explanation: |
+  Việc điều chỉnh được thực hiện sau mỗi 2016 khối, tức là khoảng hai tuần với tốc độ 10 phút mỗi khối.
+reviewed: false

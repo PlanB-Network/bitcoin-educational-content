@@ -1,0 +1,8 @@
+question: Rust kütüphanelerini Swift veya Kotlin gibi hedef dillerle entegre ederken UniFFI'nin katmanlı yaklaşımının birincil mimari faydası nedir?
+answer: Bağlama katmanı, hedef dile tamamen yerel bir arayüz sunarken tür çevirisini ve bellek yönetimini gerçekleştirir
+wrong_answers:
+  - UDL dosyası, Rust kodunu otomatik olarak mobil platformlarda çeviri olmadan yerel olarak çalışabilen bayt koduna derler
+  - Rust kütüphane kodu, yabancı işlev arayüz çağrılarını ortadan kaldırmak için hedef dil sözdiziminde otomatik olarak yeniden yazılır
+  - Hedef dil uygulamaları, Rust bellek yapılarına paylaşılan işaretçiler aracılığıyla doğrudan erişerek veri taşıma ek yükünden kaçınır
+explanation: |
+  UniFFI'nin mimarisi, oluşturulan bağlayıcı kodun hedef dil ile Rust arasında bir çeviri katmanı görevi gördüğü bir ayrım yaratır. Bu katman, veri türlerinin karmaşık marshaling/unmarshaling işlemlerini gerçekleştirir, belleği dil sınırları arasında güvenli bir şekilde yönetir ve hedef dil kurallarına uygun olarak hata işleme sağlar. Diğer seçenekler yanlıştır çünkü UniFFI bytecode'a derleme yapmaz (bağlama oluşturur), Rust kodunu diğer dillerde yeniden yazmaz (orijinal Rust uygulamasını korur) ve paylaşılan bellek erişimi kullanmaz (verileri sınırlar arasında güvenli bir şekilde marshall eder).

@@ -1,0 +1,8 @@
+question: Mikä Lightning Development Kitin (LDK) perustavanlaatuinen arkkitehtuurinen rajoitus aiheuttaa suurimman operatiivisen riskin wallet-mobiilikäyttäjille verkkomaksupiikkien aikana?
+answer: Ankkurilähtöjen puuttuminen estää kanavan pakkosulkemisen, kun ennalta asetetut maksut eivät riitä tapahtuman vahvistamiseen
+wrong_answers:
+  - LNURL-tuen puuttuminen edellyttää manuaalista laskunmuodostusta ja maksujen käsittelyä kaikkien Lightning-tapahtumien osalta
+  - Puuttuva verkon graafin synkronointi aiheuttaa maksujen reititysvirheitä, kun mobiilisovellukset käynnistyvät uudelleen pitkien ajanjaksojen jälkeen
+  - Riittämätön kanavareservin hallinta johtaa rahastojen lukkiutumiseen, kun käyttäjät yrittävät käyttää koko näytetyn saldonsa
+explanation: |
+  LDK:n ankkurilähtöjen puuttuminen aiheuttaa kriittisen haavoittuvuuden, jossa kanavia ei voida sulkea väkisin maksuhuippujen aikana, koska esiasetetut maksut eivät riitä lohkoketjun vahvistamiseen. Tämä on erityisen vaarallista mobiililompakoille, joissa käyttäjät voivat hylätä sovelluksen ilman yhteistoiminnallista sulkemista, jolloin varoja voi jäädä määräämättömäksi ajaksi. Vaikka LNURL:n puuttuminen vaikuttaa käyttäjäkokemukseen ja reititysongelmat vaikuttavat luotettavuuteen, kumpikaan niistä ei aiheuta sellaista eksistentiaalista riskiä rahastojen takaisinperinnälle, jonka ankkurilähdön rajoitukset aiheuttavat korkeiden maksujen aikana.

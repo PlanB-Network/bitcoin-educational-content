@@ -1,5 +1,6 @@
 ---
-term: Bitcoin-DEV
+term: Bitcoin-dev
+definition: فهرست ایمیل اختصاص‌یافته به مباحث فنی در مورد توسعه پروتکل Bitcoin.
 ---
 
 فهرست پستی ایمیل اختصاص داده شده به توسعه پروتکل Bitcoin. Bitcoin-dev توسط جف گارزیک در سال 2011 ایجاد شد و در ابتدا در Sourceforge.net میزبانی شد. سپس فهرست پستی به بنیاد لینوکس منتقل شد، سپس به آزمایشگاه منبع باز، و در نهایت، از فوریه 2024، در Google Groups میزبانی شده است: https://groups.google.com/g/bitcoindev

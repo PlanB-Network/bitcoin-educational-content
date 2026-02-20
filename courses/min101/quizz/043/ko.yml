@@ -1,0 +1,9 @@
+question: 2010년 중반에서 2011년 중반 사이, 채굴 난이도는 몇 배로 증가했습니까?
+answer: 1000
+wrong_answers:
+  - 100
+  - 500
+  - 50
+explanation: |
+  이 기간 동안 주로 GPU의 사용으로 인해 1,000배의 증가가 일어났습니다.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Was ist laut Satoshi Nakamotos fundamentaler Kritik das Kernproblem herkömmlicher Fiat-Währungssysteme?
+answer: Sie erfordern ein übermäßiges Vertrauen in zentralisierte Institutionen, die dieses Vertrauen in der Vergangenheit durch die Entwertung der Währung missbraucht haben
+wrong_answers:
+  - Sie verfügen über keine ausreichende technologische Infrastruktur, um moderne digitale Transaktionen effizient und sicher abzuwickeln
+  - Sie führen zu einer zu großen Volatilität der Wechselkurse und machen den internationalen Handel unberechenbar und kostspielig
+  - Sie generate überhöhte Transaktionsgebühren, die Micropayments für normale Nutzer wirtschaftlich unrentabel machen
+explanation: |
+  Satoshi Nakamoto erklärte ausdrücklich, dass "das Grundproblem bei konventionellen Währungen das Vertrauen ist, das erforderlich ist, damit sie funktionieren" und dass "die Geschichte der Fiat-Währungen voll von Verstößen gegen dieses Vertrauen ist"
+  Seine Kritik konzentrierte sich auf das grundsätzliche Vertrauen in die Zentralbanken, die Währung nicht zu entwerten, was sie wiederholt nicht eingehalten haben. Die anderen Optionen sind zwar potenziell berechtigte Bedenken gegenüber traditionellen Systemen, gehen aber an Nakamotos philosophischem Kerneinwand gegen vertrauensbasierte Geldsysteme und seiner Motivation für die Schaffung einer vertrauenslosen Alternative vorbei.

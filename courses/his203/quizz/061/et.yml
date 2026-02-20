@@ -1,0 +1,10 @@
+question: Millisel internetibörsil viis Erik Voorhees 2012. aasta augustis läbi mitteametliku IPO, et kasvatada SatoshiDICE online-kasiinot?
+answer: MPEx
+wrong_answers:
+  - GLBSE
+  - Bitcoinica
+  - Bitoption.org
+explanation: |
+ MPEx oli Mircea Popescu juhitud platvorm, mis käivitati paar kuud varem. Erik Voorhees emiteeris 100 miljonit aktsiat (aktsiasümboliga S.DICE) ja
+ müüs 10, et koguda 34 500 bitcoinit ehk umbes 372 000 dollarit.
+reviewed: true

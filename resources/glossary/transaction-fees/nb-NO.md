@@ -1,6 +1,7 @@
 ---
-term: TRANSAKSJONSGEBYRER
+term: Transaksjonsgebyrer
 
+definition: Beløp som belønner utvinnere for å inkludere en transaksjon i en blokk, beregnet som differansen mellom innganger og utganger.
 ---
 Transaksjonsavgifter er en sum som skal kompensere utvinnerne for deres deltakelse i proof of work-mekanismen. Disse avgiftene oppmuntrer utvinnere til å inkludere transaksjoner i blokkene de lager. De oppstår som følge av differansen mellom den totale mengden input og den totale mengden output i en transaksjon:
 
@@ -22,4 +23,3 @@ I dette konkrete eksempelet var det en transaksjon initiert av direktøren for F
 
 Det er også nødvendig å ta hensyn til grensene for rensing. I perioder med høy overbelastning renser nodenes mempools sine ventende transaksjoner under en viss terskel, for å respektere deres tildelte RAM-grense. Denne grensen velges fritt av brukeren, men mange lar standardverdien til Bitcoin Core være 300 MB. Den kan endres i filen `bitcoin.conf` med parameteren `maxmempool`.
 
-> på engelsk kaller vi det "transaction fees"

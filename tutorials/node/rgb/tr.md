@@ -111,16 +111,16 @@ RGB, Bitcoin tavşan deliğinin içinde kendi tavşan deliğine sahiptir, ben on
 - 5 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0021.md
 
 
-# RGB-node Eğitimi
+## RGB-node Eğitimi
 
 
-## Giriş
+### Giriş
 
 
 Bu eğitimde, değiştirilebilir bir token oluşturmak için RGB-node'un nasıl kullanılacağını ve nasıl aktarılacağını açıklıyoruz, bu belge RGB-node demosuna dayanmaktadır ve bu eğitimin gerçek Testnet verilerini kullanması bakımından farklılık göstermektedir ve bunun için bundan sonra kendi Partially Signed Bitcoin Transaction, PSBT'mizi oluşturmalıyız.
 
 
-## Gereksinimler
+### Gereksinimler
 
 
 Bir Linux dağıtımının kullanılması tavsiye edilir, bu eğitim Ubuntu tabanlı Pop!OS kullanılarak yazılmıştır ve ihtiyacınız olacaktır:
@@ -298,7 +298,7 @@ $ rgbd -vvvv -b ~/.cargo/bin -d ./data1 -n testnet
 ```
 
 
-## İhraç
+### İhraç
 
 
 Bir varlık ihraç etmek için rgb0-CLI'i fungible issue alt komutlarıyla çalıştırıyoruz, ardından argümanları, USDT ticker'ını, "USD Tether" adını ve tahsisatta ihraç miktarını ve aşağıda gördüğümüz gibi issuance_utxo'yu kullanacağız:
@@ -356,7 +356,7 @@ ticker: USDT
 ```
 
 
-## generate blinded UTXO
+### generate blinded UTXO
 
 
 Yeni USDT'yi almak için, RGB-node-1'in varlığı tutmak için receive_utxo'ya karşılık gelen bir generate blinded UTXO'e ihtiyacı vardır.
@@ -373,7 +373,7 @@ Outpoint blinding secret: 1679197189805229975
 Bu UTXO ile ilgili transferleri kabul edebilmek için orijinal receive_utxo ve blinding_factor'a ihtiyacımız olacak.
 
 
-## Transfer
+### Transfer
 
 
 Varlığın bir miktarını RGB-node-1'e aktarmak için bunu blinded UTXO'e göndermemiz gerekir, RGB-node-0'ın bir Consignment ve bir açıklama oluşturması ve bunu bir Bitcoin işlemine işlemesi gerekir. Daha sonra, commit'i içerecek şekilde değiştireceğimiz bir PSBT'ye ihtiyacımız olacak. Ek olarak, -i ve -a seçenekleri, varlığın kaynağı olacak bir giriş çıkış noktası ve değişikliği alacağımız bir tahsisat sağlamamıza izin verir, bunu aşağıdaki şekilde belirtmeliyiz @<change_utxo>.
@@ -390,7 +390,7 @@ Consignment data to share:consignment1qxz4g7ec6da33llaxe97u9hx8p9wcgp2yv46ycudwy
 Bu üç yeni dosya yazacaktır, Consignment, açıklama ve ince ayar içeren PSBT, bu PSBT Witness Transaction olarak adlandırılır, Consignment RGB-node-1'e gönderilir.
 
 
-## Tanık
+### Tanık
 
 
 Witness Transaction imzalanmalı ve yayınlanmalıdır, bunun için onu base64 kodlamamız gerekir.
@@ -427,7 +427,7 @@ $ bcli finalizepsbt "cHNidP8BAHECAAAAAe2pydT0BqfK5nBCdBSbm3W/vNKE/QxTr4eJcjwjDLD
 ```
 
 
-## Yayın
+### Yayın
 
 
 Blockchain'e onaylatmak için sendrawtransaction alt komutunu kullanarak yayınlayın.
@@ -439,7 +439,7 @@ $ bcli sendrawtransaction "02000000000101eda9c9d4f406a7cae6704274149b9b75bfbcd28
 ```
 
 
-## Kabul et
+### Kabul et
 
 
 Gelen bir aktarımı kabul etmek için RGB-düğüm-1, RGB-düğüm-0'dan Consignment dosyasını almış olmalı, receive_utxo ve ilgili blinding_factor, UTXO'nin körleştirilmesi sırasında üretilmiş olmalıdır.
@@ -570,7 +570,7 @@ blinding: ddba9e0efdd614614420fa0b68ecd2d3376a05dd3d809b2ad1f5fe0f6ed75ea2
 ```
 
 
-## Sonuçlar
+### Sonuçlar
 
 
 Değiştirilebilir bir varlık yaratabildik ve bir işlemden diğerine özel bir şekilde taşıyabildik, bir Block explorer'te onaylanmış işlemi kontrol edersek, normal işlemden farklı bir şey bulamayız, bu, RGB'ün işlemleri değiştirmek için tek kullanımlık mühürler kullanması sayesinde, Bu yazıda, RGB'ün nasıl çalıştığına bir giriş yapıyorum.

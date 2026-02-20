@@ -1,0 +1,9 @@
+question: Si o alvo de dificuldade diminuir, o que acontece com a mineração?
+answer: Torna-se mais difícil
+wrong_answers:
+  - Torna-se mais fácil
+  - Permanece idêntica
+  - Torna-se impossível
+explanation: |
+  Um alvo mais baixo deixa menos resultados possíveis abaixo do limite, portanto são necessárias mais tentativas para encontrar um hash válido. Isso significa que a mineração é mais difícil.
+reviewed: false

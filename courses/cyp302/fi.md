@@ -94,7 +94,7 @@ Oletko valmis tutkimaan kryptografian kiehtovaa maailmaa? Lähdetään liikkeell
 
 <chapterId>ae674346-4789-5ab1-9b6f-c8989d83be89</chapterId>
 
-Aloitetaan kryptografian alan tutkiminen yhdellä sen historian viehättävimmistä ja viihdyttävimmistä jaksoista: Bealen salakirjoitukset. [1]
+Aloitetaan [kryptografian](https://planb.academy/resources/glossary/cryptography) alan tutkiminen yhdellä sen historian viehättävimmistä ja viihdyttävimmistä jaksoista: Bealen salakirjoitukset. [1]
 
 Tarina Bealen salakirjoituksista on mielestäni todennäköisemmin fiktiota kuin todellisuutta. Mutta sen oletetaan tapahtuneen seuraavasti.
 
@@ -102,7 +102,7 @@ Sekä talvella 1820 että talvella 1822 Thomas J. Beale -niminen mies yöpyi Rob
 
 Muutamaa kuukautta myöhemmin Morriss sai Bealelta kirjeen, joka oli päivätty 9. toukokuuta 1822. Siinä korostettiin rautalaatikon sisällön suurta arvoa ja kerrottiin Morrissille joitakin ohjeita: jos Beale tai kukaan hänen kumppaneistaan ei koskaan tulisi hakemaan laatikkoa, hänen tulisi avata se tasan kymmenen vuoden kuluttua kirjeen päiväyksestä (eli 9. toukokuuta 1832). Osa laatikon sisältämistä papereista olisi kirjoitettu tavallisella tekstillä. Useat muut olisivat kuitenkin "käsittämättömiä ilman avainta" Tämän "avaimen" toimitti Morrissille Bealen nimeämätön ystävä kesäkuussa 1832.
 
-Selkeistä ohjeista huolimatta Morriss ei avannut laatikkoa toukokuussa 1832, eikä Bealen salaperäinen ystävä ilmestynyt paikalle saman vuoden kesäkuussa. Vasta vuonna 1845 majatalon isäntä päätti vihdoin avata laatikon. Morriss löysi laatikosta viestin, jossa selitettiin, kuinka Beale ja hänen kumppaninsa olivat löytäneet kultaa ja hopeaa lännestä ja haudanneet sen sekä joitakin koruja turvaan. Lisäksi laatikko sisälsi kolme **kryptotekstiä** eli koodilla kirjoitettuja tekstejä, joiden avaamiseen tarvitaan **kryptografinen avain** eli salaisuus ja siihen liittyvä algoritmi. Salatekstin lukituksen avaamista kutsutaan **purkamiseksi**, kun taas lukitusprosessia kutsutaan **kryptaamiseksi**. (Kuten luvussa 3 selitetään, termillä salakirjoitus voi olla erilaisia merkityksiä. Nimessä "Beale-salakirjoitukset" se on lyhenne sanoista salakirjoitustekstit)
+Selkeistä ohjeista huolimatta Morriss ei avannut laatikkoa toukokuussa 1832, eikä Bealen salaperäinen ystävä ilmestynyt paikalle saman vuoden kesäkuussa. Vasta vuonna 1845 majatalon isäntä päätti vihdoin avata laatikon. Morriss löysi laatikosta viestin, jossa selitettiin, kuinka Beale ja hänen kumppaninsa olivat löytäneet kultaa ja hopeaa lännestä ja haudanneet sen sekä joitakin koruja turvaan. Lisäksi laatikko sisälsi kolme **kryptotekstiä** eli koodilla kirjoitettuja tekstejä, joiden avaamiseen tarvitaan **kryptografinen avain** eli salaisuus ja siihen liittyvä algoritmi. Salatekstin lukituksen avaamista kutsutaan **purkamiseksi**, kun taas lukitusprosessia kutsutaan **[kryptaamiseksi](https://planb.academy/resources/glossary/encryption-encrypt)**. (Kuten luvussa 3 selitetään, termillä salakirjoitus voi olla erilaisia merkityksiä. Nimessä "Beale-salakirjoitukset" se on lyhenne sanoista salakirjoitustekstit)
 
 Morrissin rautalaatikosta löytämät kolme salakirjoitusta koostuvat kukin sarjasta pilkulla erotettuja numeroita. Bealen muistiinpanon mukaan näissä salakirjoituksissa ilmoitetaan erikseen aarteen sijainti, aarteen sisältö ja luettelo nimistä, joissa on aarteen lailliset perilliset ja heidän osuutensa (jälkimmäinen tieto on merkityksellinen siltä varalta, että Beale ja hänen kumppaninsa eivät koskaan tulisi hakemaan laatikkoa).
 
@@ -144,13 +144,13 @@ Tärkeä ero, joka on syytä pitää mielessä, on siis **salausjärjestelmän**
 
 Rehellisyys ja aitous ovat yhtä tärkeitä teemoja kuin salassapito. Nykyaikaiset viestintäjärjestelmämme eivät voisi toimia ilman takeita viestinnän eheydestä ja aitoudesta. Kiistämättömyys on myös tärkeä huolenaihe esimerkiksi digitaalisten sopimusten yhteydessä, mutta sitä ei tarvita niinkään kaikkialla kryptografiasovelluksissa kuin salassapitoa, eheyttä ja aitoutta.
 
-Toiseksi, klassisissa salausjärjestelmissä, kuten Beale-salauksissa, on aina yksi avain, joka jaetaan kaikkien osapuolten kesken. Monissa nykyaikaisissa salausmenetelmissä on kuitenkin yhden avaimen lisäksi kaksi avainta: **yksityinen** ja **julkinen** avain. Ensimmäisen avaimen pitäisi pysyä yksityisenä kaikissa sovelluksissa, mutta jälkimmäinen on yleensä julkista tietoa (tästä johtuvat myös niiden nimet). Salausjärjestelmässä julkista avainta voidaan käyttää viestin salaamiseen, kun taas yksityistä avainta voidaan käyttää salauksen purkamiseen.
+Toiseksi, klassisissa salausjärjestelmissä, kuten Beale-salauksissa, on aina yksi avain, joka jaetaan kaikkien osapuolten kesken. Monissa nykyaikaisissa salausmenetelmissä on kuitenkin yhden avaimen lisäksi kaksi avainta: **yksityinen** ja **julkinen** avain. Ensimmäisen avaimen pitäisi pysyä yksityisenä kaikissa sovelluksissa, mutta jälkimmäinen on yleensä julkista tietoa (tästä johtuvat myös niiden nimet). Salausjärjestelmässä julkista avainta voidaan käyttää viestin salaamiseen, kun taas [yksityistä avainta](https://planb.academy/resources/glossary/private-key) voidaan käyttää salauksen purkamiseen.
 
 Kryptografian haara, joka käsittelee järjestelmiä, joissa kaikki osapuolet jakavat yhden avaimen, tunnetaan nimellä **symmetrinen kryptografia**. Tällaisessa järjestelmässä yksittäistä avainta kutsutaan yleensä **yksityiseksi avaimeksi** (tai salaiseksi avaimeksi). Kryptografian haara, joka käsittelee järjestelmiä, jotka edellyttävät yksityisen ja julkisen avaimen paria, tunnetaan nimellä **asymmetrinen kryptografia**. Näihin haaroihin viitataan joskus myös nimillä **yksityisavainten kryptografia** ja **julkisten avainten kryptografia** (tämä voi tosin aiheuttaa sekaannusta, koska julkisten avainten kryptografiajärjestelmissä on myös yksityisiä avaimia).
 
 Epäsymmetrisen salauksen tulo 1970-luvun lopulla on ollut yksi tärkeimmistä tapahtumista salauksen historiassa. Ilman sitä useimmat nykyaikaiset viestintäjärjestelmämme, Bitcoin mukaan lukien, eivät olisi mahdollisia tai ainakin hyvin epäkäytännöllisiä.
 
-Tärkeää on, että nykyaikainen kryptografia ei ole yksinomaan symmetristen ja assymetristen salausjärjestelmien tutkimusta (vaikka ne kattavatkin suuren osan alasta). Kryptografia käsittelee esimerkiksi myös hash-funktioita ja pseudosatunnaislukugeneraattoreita, ja näiden primitiivien varaan voi rakentaa sovelluksia, jotka eivät liity symmetriseen tai assimetriseen avainsalakirjoitukseen.
+Tärkeää on, että nykyaikainen kryptografia ei ole yksinomaan symmetristen ja assymetristen salausjärjestelmien tutkimusta (vaikka ne kattavatkin suuren osan alasta). Kryptografia käsittelee esimerkiksi myös [hash-funktioita](https://planb.academy/resources/glossary/hash-function) ja pseudosatunnaislukugeneraattoreita, ja näiden primitiivien varaan voi rakentaa sovelluksia, jotka eivät liity symmetriseen tai assimetriseen avainsalakirjoitukseen.
 
 Kolmanneksi, klassiset salausmenetelmät, kuten Bealen salakirjoituksissa käytetyt, olivat enemmän taidetta kuin tiedettä. Niiden koettu turvallisuus perustui pitkälti niiden monimutkaisuutta koskeviin intuitioihin. Niitä yleensä korjattiin, kun saatiin selville uusi hyökkäys niitä vastaan, tai niistä luovuttiin kokonaan, jos hyökkäys oli erityisen vakava. Nykyaikainen salakirjoitus on kuitenkin tiukka tiede, jossa salausjärjestelmien kehittämiseen ja analysointiin sovelletaan muodollista, matemaattista lähestymistapaa. [5]
 
@@ -1736,7 +1736,7 @@ Ainakin yksi tärkeimmistä motiiveista heidän yritykselleen oli ennakointi sii
 
 Diffien, Hellmanin ja Merklen sitkeys kannatti. Ensimmäinen julkaisu heidän tuloksistaan oli Diffien ja Helmannin vuonna 1976 julkaisema artikkeli "New Directions in Cryptography" Siinä he esittivät kaksi omaperäistä tapaa ratkaista avainjakelu- ja avainhallintaongelmat.
 
-Ensimmäinen heidän tarjoamansa ratkaisu oli etäkäyttöön tarkoitettu *avaintenvaihtoprotokolla*, eli joukko sääntöjä yhden tai useamman symmetrisen avaimen vaihtamiseksi turvattomalla viestintäkanavalla. Tämä protokolla tunnetaan nykyään nimellä *Diffie-Helmann-avaimenvaihto* tai *Diffie-Helmann-Merkle-avaimenvaihto*. [2]
+Ensimmäinen heidän tarjoamansa ratkaisu oli etäkäyttöön tarkoitettu *avaintenvaihtoprotokolla*, eli joukko sääntöjä yhden tai useamman symmetrisen avaimen vaihtamiseksi turvattomalla viestintäkanavalla. Tämä protokolla tunnetaan nykyään nimellä *[Diffie-Helmann](https://planb.academy/resources/glossary/diffiehellman)-avaimenvaihto* tai *Diffie-Helmann-Merkle-avaimenvaihto*. [2]
 
 Diffie-Helmann-avaintenvaihdossa kaksi osapuolta vaihtaa ensin julkisesti tietoja turvattomalla kanavalla, kuten Internetissä. Näiden tietojen perusteella he luovat sitten itsenäisesti symmetrisen avaimen (tai symmetrisen avainparin) turvallista viestintää varten. Vaikka molemmat osapuolet luovat avaimensa itsenäisesti, niiden julkisesti jakamat tiedot varmistavat, että avaimen luomisprosessi tuottaa molemmille saman tuloksen.
 
@@ -1770,7 +1770,7 @@ Epäsymmetrisessä salauksessa (ja Diffie-Helmann-avainten vaihdossa) käytetyt 
 
 **Diskreetin logaritmin ongelma** on ongelma, joka esiintyy syklisissä ryhmissä. Kun tietyn syklisen ryhmän generaattori on annettu, on laskettava yksikäsitteinen eksponentti, joka tarvitaan, jotta generaattorista saadaan toinen ryhmän alkio.
 
-Diskreettiin logaritmiin perustuvat järjestelmät tukeutuvat kahdenlaisiin syklisiin ryhmiin: kokonaislukujen multiplikatiivisiin ryhmiin ja ryhmiin, jotka sisältävät elliptisten käyrien pisteitä. Alkuperäinen Diffie-Helmann-avaimenvaihto, joka esiteltiin kirjassa "New Directions in Cryptography", toimii syklisellä kokonaislukujen multiplikatiivisella ryhmällä. Bitcoinin digitaalinen allekirjoitusalgoritmi ja hiljattain esitelty Schnorrin allekirjoitusjärjestelmä (2021) perustuvat molemmat diskreetin logaritmin ongelmaan tietylle elliptisen käyrän sykliselle ryhmälle.
+Diskreettiin logaritmiin perustuvat järjestelmät tukeutuvat kahdenlaisiin syklisiin ryhmiin: kokonaislukujen multiplikatiivisiin ryhmiin ja ryhmiin, jotka sisältävät [elliptisten käyrien](https://planb.academy/resources/glossary/elliptic-curve) pisteitä. Alkuperäinen Diffie-Helmann-avaimenvaihto, joka esiteltiin kirjassa "New Directions in Cryptography", toimii syklisellä kokonaislukujen multiplikatiivisella ryhmällä. Bitcoinin [digitaalinen allekirjoitusalgoritmi](https://planb.academy/resources/glossary/digital-signature) ja hiljattain esitelty [Schnorrin allekirjoitusjärjestelmä](https://planb.academy/resources/glossary/schnorr-protocol) (2021) perustuvat molemmat diskreetin logaritmin ongelmaan tietylle elliptisen käyrän sykliselle ryhmälle.
 
 Seuraavaksi luodaan yleiskatsaus salassapitoon ja todentamiseen epäsymmetrisessä ympäristössä. Sitä ennen meidän on kuitenkin tehtävä lyhyt historiallinen huomautus.
 
@@ -1834,7 +1834,7 @@ Digitaaliset allekirjoitukset ovat esimerkiksi tärkeä osa turvallista ohjelmis
 
 Viimeinen esimerkki digitaalisten allekirjoitusten voimasta on Bitcoin. Yksi yleisimmistä Bitcoiniin liittyvistä väärinkäsityksistä, erityisesti tiedotusvälineissä, on se, että maksutapahtumat ovat salattuja: näin ei ole. Sen sijaan Bitcoin-tapahtumissa käytetään digitaalisia allekirjoituksia turvallisuuden varmistamiseksi.
 
-Bitcoineja on olemassa erissä, joita kutsutaan nimellä unspent transaction outputs (tai **UTXO:t**). Oletetaan, että saat kolme maksua tiettyyn Bitcoin-osoitteeseen 2 bitcoinia kumpaankin. Teknisesti sinulla ei ole nyt 6 bitcoinia kyseisessä osoitteessa. Sen sijaan sinulla on kolme 2 bitcoinin erää, jotka on lukittu kyseiseen osoitteeseen liittyvän kryptografisen ongelman vuoksi. Mihin tahansa maksuun voit käyttää yhtä, kahta tai kaikkia kolmea näistä eristä riippuen siitä, kuinka paljon tarvitset maksutapahtumaan.
+Bitcoineja on olemassa erissä, joita kutsutaan nimellä unspent transaction outputs (tai **[UTXO](https://planb.academy/resources/glossary/utxo):t**). Oletetaan, että saat kolme maksua tiettyyn Bitcoin-osoitteeseen 2 bitcoinia kumpaankin. Teknisesti sinulla ei ole nyt 6 bitcoinia kyseisessä osoitteessa. Sen sijaan sinulla on kolme 2 bitcoinin erää, jotka on lukittu kyseiseen osoitteeseen liittyvän kryptografisen ongelman vuoksi. Mihin tahansa maksuun voit käyttää yhtä, kahta tai kaikkia kolmea näistä eristä riippuen siitä, kuinka paljon tarvitset maksutapahtumaan.
 
 Käyttämättä jääneiden transaktiotulojen omistusoikeus osoitetaan yleensä yhdellä tai useammalla digitaalisella allekirjoituksella. Bitcoin toimii juuri siksi, että käyttämättömiä transaktiotuloksia koskevia kelvollisia digitaalisia allekirjoituksia on laskennallisesti mahdoton tehdä, ellei sinulla ole hallussasi niiden tekemiseen tarvittavia salaisia tietoja.
 
@@ -1880,7 +1880,7 @@ Aloitetaan määrittelemällä hash-funktio. **Hash-funktio** on mikä tahansa t
 
 Kryptografian yhteydessä "hash-funktiolla" tarkoitetaan yleensä kryptografista hash-funktiota. Tästä lähtien noudatan tätä käytäntöä.
 
-Esimerkki suositusta hash-funktiosta on **SHA-256** (secure hash algorithm 256). Riippumatta syötteen koosta (esim. 15 bittiä, 100 bittiä tai 10 000 bittiä) tämä funktio tuottaa 256-bittisen hash-arvon. Alla näet muutamia esimerkkejä SHA-256-funktion tuloksista.
+Esimerkki suositusta hash-funktiosta on **[SHA-256](https://planb.academy/resources/glossary/sha256)** (secure hash algorithm 256). Riippumatta syötteen koosta (esim. 15 bittiä, 100 bittiä tai 10 000 bittiä) tämä funktio tuottaa 256-bittisen hash-arvon. Alla näet muutamia esimerkkejä SHA-256-funktion tuloksista.
 
 "Hei": `185f8db32271fe25f561a6fc938b2e264306ec304eda518007d1764826381969`
 

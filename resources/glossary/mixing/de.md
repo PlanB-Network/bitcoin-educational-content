@@ -1,6 +1,7 @@
 ---
-term: MIXING
+term: Mixing
 
+definition: Eigenschaft eines Systems, bei dem Elemente gleichmäßig gemischt werden, verwendet zur Bewertung der Qualität von Coinjoins.
 ---
 Im allgemeinen Bereich der Mathematik bezieht sich der Begriff "Vermischung" auf die Eigenschaft eines dynamischen Systems, bei dem sich nach einer bestimmten Zeit alle Teile des ursprünglichen Raums theoretisch mit jedem anderen Teil vermischen können. Vermischung bedeutet, dass sich die Position eines Teilchens oder der Zustand eines Systems so entwickelt, dass seine zukünftige Verteilung unabhängig von seiner anfänglichen Verteilung ist und somit ein Zustand erreicht wird, in dem die Merkmale des Anfangszustands gleichmäßig im gesamten Raum des Systems verteilt sind. Im Kontext von Bitcoin kann dieser Begriff verwendet werden, um die Qualität eines Münzmischprozesses wie eines Coinjoin zu bewerten.
 

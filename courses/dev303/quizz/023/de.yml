@@ -1,0 +1,8 @@
+question: Was passiert mit der ursprünglichen Strukturinstanz, wenn Sie die Syntax für die Strukturaktualisierung mit Nicht-Copy-Typen verwenden?
+answer: Felder, die kopiert werden, werden in der ursprünglichen Instanz aufgrund der Verschiebungssemantik unbrauchbar
+wrong_answers:
+  - Die ursprüngliche Instanz bleibt völlig unverändert und vollständig zugänglich
+  - Die gesamte ursprüngliche Instanz wird geklont, wobei beide Instanzen voll funktionsfähig bleiben
+  - Nur die Felder, die Sie explizit ändern, werden im Original unzugänglich
+explanation: |
+  Bei der Verwendung der Syntax für die Strukturaktualisierung mit Nicht-Copy-Typen verschiebt das Eigentumssystem von Rust die kopierten Felder von der ursprünglichen Instanz in die neue. Das bedeutet, dass diese spezifischen Felder in der ursprünglichen Instanz unbrauchbar werden, obwohl Felder, die nicht kopiert wurden, zugänglich bleiben. Der Compiler verfolgt diese Teilverschiebungen auf intelligente Weise und verhindert den Zugriff auf verschobene Felder, während er die weitere Verwendung der nicht verschobenen Felder erlaubt. Dieses Verhalten gewährleistet die Speichersicherheit, indem es mehrere Eigentümer derselben Daten verhindert.

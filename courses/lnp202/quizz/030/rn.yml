@@ -1,0 +1,9 @@
+question: Uvuye ku mbonerahamwe y’urudodo rwawe, ni gute ugusangira kw’intango kw’amahera amaze gufungura umuhora?
+answer: 100% gusohoka
+wrong_answers:
+  - 50% yinjira 50% isohoka
+  - 100% binjira
+  - 90% gusohoka 10% kwinjira
+explanation: |
+  Iyo umuhora ufunguwe, amahera yose aba mu ntango ari ku ruhande rw’uwatanguje.
+reviewed: false

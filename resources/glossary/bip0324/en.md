@@ -1,5 +1,6 @@
 ---
 term: BIP0324
+definition: V2 P2P Transport with opportunistic encryption of communications between Bitcoin nodes.
 ---
 
 Introduces a new version of the Bitcoin P2P transport protocol incorporating opportunistic encryption to enhance the privacy and security of communications between nodes. 

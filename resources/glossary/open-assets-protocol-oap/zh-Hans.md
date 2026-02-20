@@ -1,5 +1,6 @@
 ---
-term: OPEN ASSETS PROTOCOL (开放资产协议，简称OAP)
+term: Open assets protocol (OAP)
 
+definition: 在比特币上存储非原生资产的第一个 Colored Coins 实现。
 ---
 开放资产协议（OAP）由 Flavien Charlon 于 2013 年设计，是彩色币的第一个功能实现方案。该协议允许在比特币区块链上以代币 “彩色币” 的形式存储和转移非本地资产。这些代币具有特殊标记，象征着用实物或服务交换的正式或非正式承诺。

@@ -1,5 +1,6 @@
 ---
-term: ANYPREVOUT (APO)
+term: Anyprevout (apo)
+definition: Pendekezo (BIP118) linaloongeza bendera mpya za SigHash linaloruhusu kuundwa kwa saini ambazo hazifiki ingine mahsusu ya miamala.
 ---
 
-Jina lililopewa BIP118 ambalo linapendekeza kuongezwa kwa virekebishaji viwili vipya vya Bendera ya SigHash, vinavyoitwa `SIGHASH_ANYPREVOUT` na `SIGHASH_ANYPREVOUTANYSCRIPT`. Neno "*AnyPrevOut*" linatokana na upunguzaji wa "*Any Output*" ambayo inaweza kutafsiriwa kwa Kifaransa kama "toute sortie précédente".
+Jina lililopewa BIP118, linalopendekeza kuongezwa kwa virekebishi viwili vipya vya bendera za SigHash, vinavyoitwa `SIGHASH_ANYPREVOUT` na `SIGHASH_ANYPREVOUTANYSCRIPT`. Neno "*AnyPrevOut*" linatokana na ufupisho wa "*Any Previous Output*".

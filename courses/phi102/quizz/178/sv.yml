@@ -1,0 +1,8 @@
+question: Enligt den liberala analys som presenteras, varför skulle pressfrihet vara omöjlig att upprätthålla under ett kollektivistiskt ekonomiskt system?
+answer: Staten kontrollerar alla produktionsmedel, inklusive tryckpressar, och bestämmer vad som ska publiceras
+wrong_answers:
+  - Enskilda journalister skulle sakna ekonomiska incitament att producera innehåll av hög kvalitet
+  - Privata tidningar skulle vara för dyra för medborgarna att köpa under statligt kontrollerad prissättning
+  - Politiska partier skulle konkurrera alltför intensivt om mediekontrollen, vilket skulle leda till censur
+explanation: |
+  Den liberala analysen identifierar en strukturell omöjlighet: eftersom staten äger alla produktionsmedel i ett kollektivistiskt system kontrollerar den med nödvändighet tryckpressar och infrastruktur för publicering. Detta ger staten absolut makt att bestämma vad som ska tryckas och distribueras, vilket omöjliggör oberoende pressfrihet oavsett politiska avsikter. De andra alternativen missar denna grundläggande punkt om att ekonomisk kontroll avgör politiska möjligheter.

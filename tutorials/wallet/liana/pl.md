@@ -17,7 +17,7 @@ Jeśli chcesz odzyskać środki z istniejącego Liana Wallet, przeczytaj poniżs
 ## Przedstawiamy oprogramowanie Liana
 
 
-Liana to pakiet oprogramowania typu open source przeznaczony do tworzenia i zarządzania zaawansowanymi portfelami, w szczególności jako część zautomatyzowanego systemu dziedziczenia lub solidnego mechanizmu tworzenia kopii zapasowych. Projekt jest rozwijany od 2022 roku przez Wizardsardine, firmę współzałożoną przez Kévina Loaeca i Antoine'a Poinsota. Na oficjalnej stronie internetowej Liana jest przedstawiany jako "prosty Wallet do osobistej kurateli, z funkcjami odzyskiwania i dziedziczenia". Oprogramowanie działa na komputerach - Linux, MacOS, Windows - a jego (otwarty) kod źródłowy jest dostępny [na GitHub] (https://github.com/wizardsardine/Liana).
+Liana to pakiet oprogramowania typu open source przeznaczony do tworzenia i zarządzania zaawansowanymi portfelami, w szczególności jako część zautomatyzowanego systemu dziedziczenia lub solidnego mechanizmu tworzenia kopii zapasowych. Projekt jest rozwijany od 2022 roku przez Wizardsardine, firmę współzałożoną przez Kévina Loaeca i Antoine'a Poinsota. Na oficjalnej stronie internetowej Liana jest przedstawiany jako "prosty Wallet do osobistej kurateli, z funkcjami odzyskiwania i dziedziczenia". Oprogramowanie działa na komputerach - Linux, MacOS, Windows - a jego (otwarty) kod źródłowy jest dostępny [na GitHub](https://github.com/wizardsardine/Liana).
 
 
 Liana opiera się na programowalności Bitcoin, tworząc zaawansowany Wallet. W szczególności wykorzystuje on blokady czasowe (*timelocks*), które pozwalają na wydawanie środków dopiero po upływie określonego czasu i które są zaangażowane w odzyskiwanie Bitcoinów. Liana Wallet składa się zatem z kilku ścieżek wydawania:

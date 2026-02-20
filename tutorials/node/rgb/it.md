@@ -77,13 +77,13 @@ RGB ha la sua tana del coniglio all'interno della tana del coniglio di Bitcoin, 
 - 4 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0020.md
 - 5 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0021.md
 
-# Tutorial di RGB-node
+## Tutorial di RGB-node
 
-## Introduzione
+### Introduzione
 
 In questo tutorial spieghiamo come utilizzare RGB-node per creare un token fungibile e come trasferirlo, questo documento si basa sulla demo di RGB-node e si differenzia perché questo tutorial utilizza dati reali di testnet e per questo motivo dobbiamo costruire la nostra transazione Bitcoin parzialmente firmata, psbt da ora in poi.
 
-## Requisiti
+### Requisiti
 
 L'uso di una distribuzione Linux è consigliato, questo tutorial è stato scritto utilizzando Pop!/\_OS, che si basa su Ubuntu e avrai bisogno di:
 
@@ -222,7 +222,7 @@ $ rgbd -vvvv -b ~/.cargo/bin -d ./data0 -n testnet
 $ rgbd -vvvv -b ~/.cargo/bin -d ./data1 -n testnet
 ```
 
-## Emissione
+### Emissione
 
 Per emettere un asset eseguiamo rgb0-cli con i sottocomandi di emissione fungibile, quindi gli argomenti, il ticker USDT, il nome "USD Tether" e nell'allocazione utilizzeremo l'importo di emissione e l'issuance_utxo come vediamo di seguito:
 
@@ -268,7 +268,7 @@ $ rgb0-cli fungible list
   ticker: USDT
 ```
 
-## Genera UTXO oscurato
+### Genera UTXO oscurato
 
 Per poter ricevere i nuovi USDT, rgb-node-1 deve generare un UTXO oscurato corrispondente a receive_utxo per contenere l'asset.
 
@@ -281,7 +281,7 @@ Segreto di oscuramento dell'outpoint: 1679197189805229975
 
 Per poter accettare trasferimenti relativi a questo UTXO, avremo bisogno del receive_utxo originale e del blinding_factor.
 
-## Trasferimento
+### Trasferimento
 
 Per trasferire una certa quantità dell'asset a rgb-node-1, dobbiamo inviarlo all'UTXO oscurato, rgb-node-0 deve creare una consignment e una disclosure, e commetterle in una transazione bitcoin. Successivamente avremo bisogno di un psbt che modificheremo per includere il commit. Inoltre, le opzioni -i e -a ci consentono di fornire un outpoint di input che sarà l'origine dell'asset e un'allocazione in cui riceveremo il resto, dobbiamo indicarlo nel seguente modo @<change_utxo>.
 
@@ -293,7 +293,7 @@ Dati di spedizione da condividere: consignment1qxz4g7ec6da33llaxe97u9hx8p9wcgp2y
 
 Questo scriverà tre nuovi file, consignment, disclosure e il psbt incluso il tweak, questo psbt è chiamato transazione dei testimoni, la consignment viene inviata a rgb-node-1.
 
-## Testimoni
+### Testimoni
 
 La transazione dei testimoni dovrebbe essere firmata e trasmessa, per questo dobbiamo codificarla nuovamente in base64.
 
@@ -322,11 +322,11 @@ $ bcli finalizepsbt "cHNidP8BAHECAAAAAe2pydT0BqfK5nBCdBSbm3W/vNKE/QxTr4eJcjwjDLD
 }
 ```
 
-## Trasmissione
+### Trasmissione
 
 Trasmettilo utilizzando il sottocomando sendrawtransaction per confermarlo nella blockchain.
 
-## Accettare
+### Accettare
 
 Per accettare un trasferimento in entrata, rgb-node-1 deve aver ricevuto il file di consegna da rgb-node-0, avere l'utxo di ricezione e il corrispondente blinding_factor generato durante la generazione dell'utxo di occultamento.
 
@@ -444,7 +444,7 @@ descrizione: ~  knownCirculating: 1000
         blinding: ddba9e0efdd614614420fa0b68ecd2d3376a05dd3d809b2ad1f5fe0f6ed75ea2
 ```
 
-## Conclusioni
+### Conclusioni
 
 Siamo stati in grado di creare un asset fungibile e spostarlo da una transazione all'altra in modo privato, se controlliamo la transazione confermata in un esploratore di blocchi non troveremmo nulla di diverso da una transazione normale, questo grazie al fatto che RGB utilizza sigilli monouso per modificare le transazioni. In questo post, faccio un'introduzione su come funziona RGB.
 

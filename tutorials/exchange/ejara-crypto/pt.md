@@ -537,7 +537,7 @@ Depois de ter comprado os seus primeiros bitcoins on-chain ou uma quantidade sub
 
 
 
-Se ainda não sabe como utilizar um portefólio Bitcoin, convido-o a explorar [a secção "Wallet" na Academia do Plano ₿] (https://planb.academy/tutorials/wallet).
+Se ainda não sabe como utilizar um portefólio Bitcoin, convido-o a explorar [a secção "Wallet" na Academia do Plano ₿](https://planb.academy/tutorials/wallet).
 
 
 
@@ -656,7 +656,7 @@ A aplicação Ejara Crypto permite receber, enviar, comprar ou vender bitcoins a
 
 
 
-Veja também o nosso tutorial sobre o Flash, uma plataforma de troca desenvolvida pela [BlockSolut] (https://bitcoinflash.xyz/) para comprar bitcoins a partir de 100 francos CFA graças ao poder do Lightning em vários países da África Ocidental.
+Veja também o nosso tutorial sobre o Flash, uma plataforma de troca desenvolvida pela [BlockSolut](https://bitcoinflash.xyz/) para comprar bitcoins a partir de 100 francos CFA graças ao poder do Lightning em vários países da África Ocidental.
 
 
 

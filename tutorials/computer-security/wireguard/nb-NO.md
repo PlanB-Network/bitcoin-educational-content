@@ -51,7 +51,7 @@ Når det gjelder den kryptografiske delen, er de ulike algoritmene som brukes, h
 
 
 
-Det offisielle nettstedet for prosjektet: [wireguard.com] (https://www.wireguard.com/)
+Det offisielle nettstedet for prosjektet: [wireguard.com](https://www.wireguard.com/)
 
 
 
@@ -63,7 +63,7 @@ Er du overbevist om denne løsningen etter å ha lest denne innledningen? Da gje
 
 
 
-Før jeg presenterer min lab for å sette opp WireGuard, bør du vite at du kan tenke deg å **bruke WireGuard til å koble sammen to eksterne infrastrukturer**, men også til å **koble en ekstern klient til en infrastruktur som et bedriftsnettverk eller hjemmenettverket ditt**. Dette er i samme ånd som med OpenVPN, som vi nylig så i veiledningen "[OpenVPN på Synology] (https://www.it-connect.fr/tuto-vpn-configurer-openvpn-server-sur-un-nas-synology/)".
+Før jeg presenterer min lab for å sette opp WireGuard, bør du vite at du kan tenke deg å **bruke WireGuard til å koble sammen to eksterne infrastrukturer**, men også til å **koble en ekstern klient til en infrastruktur som et bedriftsnettverk eller hjemmenettverket ditt**. Dette er i samme ånd som med OpenVPN, som vi nylig så i veiledningen "[OpenVPN på Synology](https://www.it-connect.fr/tuto-vpn-configurer-openvpn-server-sur-un-nas-synology/)".
 
 
 
@@ -282,7 +282,7 @@ For øyeblikket lar vi konfigurasjonen av WireGuards serverside ligge.
 
 
 
-For at Debian 11-maskinen vår skal kunne **rute pakker mellom forskjellige nettverk (som en ruter)**, dvs. mellom VPN-nettverket og det lokale nettverket, må vi aktivere [IP Forwarding] (https://www.it-connect.fr/activer-lip-forwarding-sous-linux-ipv4ipv6/). Som standard er denne funksjonen deaktivert.
+For at Debian 11-maskinen vår skal kunne **rute pakker mellom forskjellige nettverk (som en ruter)**, dvs. mellom VPN-nettverket og det lokale nettverket, må vi aktivere [IP Forwarding](https://www.it-connect.fr/activer-lip-forwarding-sous-linux-ipv4ipv6/). Som standard er denne funksjonen deaktivert.
 
 
 
@@ -447,7 +447,7 @@ Den første delen av konfigurasjonen av Debian-serveren er nå fullført.
 
 
 
-WireGuard-klienten er tilgjengelig for Windows, macOS, Android osv. Dette er gode nyheter. Alle nedlastinger er tilgjengelige på denne siden: [WireGuard Client] (https://www.wireguard.com/install/). I dette eksemplet skal jeg sette opp klienten på Windows. For å sette opp WireGuard-klienten på Linux følger du samme prinsipp som for å opprette wg0.conf-filen på Debian-maskinen (uten alt NAT osv.).
+WireGuard-klienten er tilgjengelig for Windows, macOS, Android osv. Dette er gode nyheter. Alle nedlastinger er tilgjengelige på denne siden: [WireGuard Client](https://www.wireguard.com/install/). I dette eksemplet skal jeg sette opp klienten på Windows. For å sette opp WireGuard-klienten på Linux følger du samme prinsipp som for å opprette wg0.conf-filen på Debian-maskinen (uten alt NAT osv.).
 
 
 

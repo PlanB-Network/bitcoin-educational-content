@@ -127,7 +127,7 @@ https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-https://planb.academy/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.academy/tutorials/wallet/hardware/coldcard-mk4-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
 कोल्डकार्ड के लिए, आपको wallet हार्डवेयर से सार्वजनिक कुंजियों को USB कनेक्शन या माइक्रोएसडी कार्ड के माध्यम से निर्यात करना होगा।
 

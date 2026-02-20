@@ -6,4 +6,4 @@ wrong_answers:
   - No necesitan actualizaciones de clave
 explanation: |
   Los cifrados de flujo pseudorandom son más prácticos porque permiten que una clave corta se extienda en un flujo de clave más largo, evitando la necesidad de almacenar una clave tan larga como el mensaje en sí.
-reviewed: false
+reviewed: true

@@ -41,7 +41,7 @@ Dans ce cours, vous construirez progressivement une bibliothèque Bitcoin en Pyt
 ### Concepts mathématiques essentiels pour Bitcoin
 
 
-Cette première section pose les bases mathématiques indispensables. Vous mettrez en œuvre l'arithmétique des corps finis et les opérations sur les courbes elliptiques (loi de groupe, addition, doublement, multiplication scalaire...) - les prérequis de l'ECDSA. L'objectif est double : comprendre la structure algébrique qui rend possible les signatures cryptographiques et construire des outils Python fiables pour les manipuler.
+Cette première section pose les bases mathématiques indispensables. Vous mettrez en œuvre l'arithmétique des corps finis et les opérations sur les courbes elliptiques (loi de groupe, addition, doublement, multiplication scalaire...), les prérequis de l'ECDSA. L'objectif est double : comprendre la structure algébrique qui rend possible les signatures cryptographiques et construire des outils Python fiables pour les manipuler.
 
 
 Vous formaliserez ensuite les composants de l'ECDSA : génération de clés, formatage de points, hachage, création de signatures et vérification. Cette section relie directement la théorie à la pratique, en mettant l'accent sur les détails d'implémentation et la robustesse du modèle de sécurité sous-jacent.
@@ -92,7 +92,7 @@ Comme pour tous les cours sur le Plan ₿ Academy, la dernière section comprend
 ### Bitcoin Fondements de la programmation : Structures mathématiques de base
 
 
-Ce cours condense les mathématiques essentielles derrière les systèmes cryptographiques de Bitcoin dans un flux de travail très pratique. Les concepts sont expliqués, démontrés à l'aide d'exemples, puis mis en œuvre dans Jupyter Notebook. L'idée directrice est simple : on ne comprend vraiment une primitive cryptographique qu'une fois qu'on l'a codée. Au cours des deux jours, les étudiants generate testnet addresses, construisent et diffusent des transactions, et finalement interagissent avec le réseau sans explorateurs de blocs. Tout cela nécessite des bases solides en matière de champs finis et de courbes elliptiques.
+Ce cours condense les mathématiques essentielles derrière les systèmes cryptographiques de Bitcoin dans un flux de travail très pratique. Les concepts sont expliqués, démontrés à l'aide d'exemples, puis mis en œuvre dans Jupyter Notebook. L'idée directrice est simple : on ne comprend vraiment une primitive cryptographique qu'une fois qu'on l'a codée. Au cours des deux jours, les étudiants generate testnet addresses, construisent et diffusent des [transactions](https://planb.academy/resources/glossary/transaction-tx), et finalement interagissent avec le réseau sans explorateurs de blocs. Tout cela nécessite des bases solides en matière de champs finis et de courbes elliptiques.
 
 
 ### Champs finis : Le moteur arithmétique de la cryptographie
@@ -103,7 +103,7 @@ Un corps fini F(p) est un système arithmétique défini par un nombre premier p
 
 #### Comportement multiplicatif
 
-La multiplication de tout élément non nul k par tous les éléments d'un champ de nombres premiers produit une permutation du champ. Cette propriété garantit l'uniformité et prévient les faiblesses structurelles, ce qui rend les champs de nombres premiers idéaux pour la génération de clés sécurisées et les signatures numériques.
+La multiplication de tout élément non nul k par tous les éléments d'un champ de nombres premiers produit une permutation du champ. Cette propriété garantit l'uniformité et prévient les faiblesses structurelles, ce qui rend les champs de nombres premiers idéaux pour la génération de clés sécurisées et les [signatures numériques](https://planb.academy/resources/glossary/digital-signature).
 
 
 #### Division et petit théorème de Fermat
@@ -112,7 +112,7 @@ La division est mise en œuvre par le biais d'inverses multiplicatifs. Le petit 
 
 n^(p-1) ≡ 1 (mod p),
 
-donc l'inverse est n^(p-2). Python le supporte directement avec `pow(n, -1, p)`. Ces opérations apparaissent constamment dans les routines cryptographiques sous-jacentes de l'ECDSA et du Bitcoin.
+donc l'inverse est n^(p-2). Python le supporte directement avec `pow(n, -1, p)`. Ces opérations apparaissent constamment dans les routines cryptographiques sous-jacentes de l'[ECDSA](https://planb.academy/resources/glossary/ecdsa) et du Bitcoin.
 
 
 ### Courbes elliptiques : Structures non linéaires pour la sécurité des clés publiques
@@ -120,14 +120,13 @@ donc l'inverse est n^(p-2). Python le supporte directement avec `pow(n, -1, p)`.
 
 Les courbes elliptiques suivent l'équation y² = x³ + ax + b. Bitcoin utilise secp256k1, définie comme y² = x³ + 7 sur un corps fini. Les points d'une courbe elliptique forment un groupe mathématique sous addition de points. Une ligne tracée à partir de deux points P et Q coupe la courbe en un troisième point R ; la réflexion de R sur l'axe des x donne P + Q. Ce système est associatif et comprend un élément d'identité : le point à l'infini.
 
-
 Le doublement d'un point utilise une ligne tangente au lieu d'une ligne sécante, la pente étant dérivée de la dérivée de la courbe. Bien que ces formules fassent appel au calcul sur les nombres réels, elles deviennent totalement discrètes et exactes lorsque la courbe est définie sur un corps fini - le contexte utilisé dans Bitcoin.
 
 
 ### Des mathématiques à la cryptographie Bitcoin
 
 
-Les champs finis fournissent une arithmétique déterministe et inversible ; les courbes elliptiques fournissent une structure non linéaire où le calcul de k-P est facile mais où l'inversion est infaisable. La combinaison de ces deux éléments constitue la base des clés publiques/privées de Bitcoin, des signatures ECDSA et de la sécurité des transactions. La compréhension de ces principes fondamentaux prépare les étudiants à mettre en œuvre les clés, les transactions et les signatures directement, sans abstractions ni outils externes.
+Les champs finis fournissent une arithmétique déterministe et inversible ; les courbes elliptiques fournissent une structure non linéaire où le calcul de k·P est facile mais où l'inversion est infaisable. La combinaison de ces deux éléments constitue la base des clés publiques/privées de Bitcoin, des signatures ECDSA et de la sécurité des transactions. La compréhension de ces principes fondamentaux prépare les étudiants à mettre en œuvre les clés, les transactions et les signatures directement, sans abstractions ni outils externes.
 
 
 ## Cryptographie à courbe elliptique
@@ -138,7 +137,7 @@ Les champs finis fournissent une arithmétique déterministe et inversible ; les
 ![lecture](https://www.youtube.com/watch?v=xOXdKuF3UFw)
 
 
-Ce chapitre présente les courbes elliptiques définies sur des corps finis et explique pourquoi elles constituent l'épine dorsale mathématique de la cryptographie Bitcoin. Alors que les courbes elliptiques sur les nombres réels semblent lisses et continues, l'application des mêmes équations sur un corps fini crée un ensemble de points discrets et dispersés. Malgré la différence visuelle, toutes les formules d'addition de points, les pentes et les règles algébriques se comportent exactement de la même manière, seule l'arithmétique se transforme en arithmétique modulaire. Bitcoin utilise la courbe y² = x³ + 7 (secp256k1), qui préserve la symétrie et le comportement non linéaire essentiels à la sécurité cryptographique.
+Ce chapitre présente les courbes elliptiques définies sur des corps finis et explique pourquoi elles constituent l'épine dorsale mathématique de la [cryptographie](https://planb.academy/resources/glossary/cryptography) Bitcoin. Alors que les courbes elliptiques sur les nombres réels semblent lisses et continues, l'application des mêmes équations sur un corps fini crée un ensemble de points discrets et dispersés. Malgré la différence visuelle, toutes les formules d'addition de points, les pentes et les règles algébriques se comportent exactement de la même manière, seule l'arithmétique se transforme en arithmétique modulaire. Bitcoin utilise la courbe y² = x³ + 7 (secp256k1), qui préserve la symétrie et le comportement non linéaire essentiels à la sécurité cryptographique.
 
 
 ### Vérification des points et mise en œuvre des champs finis
@@ -155,7 +154,7 @@ Les points de la courbe elliptique forment un groupe mathématique sous addition
 ### Groupes cycliques et problème du logarithme discret
 
 
-Le choix d'un point générateur G sur une courbe nous permet de generate un groupe cyclique : G, 2G, 3G, ..., nG = 0. Les points apparaissent non linéaires et imprévisibles, même lorsqu'ils sont générés de manière séquentielle. Cette imprévisibilité est à la base du problème du logarithme discret : il est facile de calculer P = sG, mais il est impossible de déterminer s à partir de P pour les grands groupes. C'est cette fonction à sens unique qui assure la sécurité de la cryptographie à clé publique. Les scalaires (clés privées) sont écrites en minuscules, les points (clés publiques) en majuscules.
+Le choix d'un point générateur G sur une courbe nous permet de générer un groupe cyclique : G, 2G, 3G, ..., nG = 0. Les points apparaissent non linéaires et imprévisibles, même lorsqu'ils sont générés de manière séquentielle. Cette imprévisibilité est à la base du problème du logarithme discret : il est facile de calculer P = sG, mais il est impossible de déterminer s à partir de P pour les grands groupes. C'est cette fonction à sens unique qui assure la sécurité de la cryptographie à clé publique. Les scalaires ([clés privées](https://planb.academy/resources/glossary/private-key)) sont écrites en minuscules, les points ([clés publiques](https://planb.academy/resources/glossary/public-key)) en majuscules.
 
 
 #### Multiplication scalaire efficace
@@ -166,19 +165,19 @@ Pour calculer efficacement sG, les implémentations utilisent l'algorithme de do
 #### La courbe secp256k1 chez Bitcoin
 
 
-Bitcoin utilise la courbe secp256k1, définie par y² = x³ + 7 sur un corps premier où p = 2²⁵⁶ - 2³² - 977. Le point générateur G a des coordonnées fixes choisies en utilisant une procédure déterministe NUMS ("nothing up my sleeve"). L'ordre du groupe n est un grand nombre premier proche de 2²⁵⁶, ce qui garantit que chaque point non nul génère le même groupe. La taille de 2²⁵⁶ (~10⁷⁷) est astronomique, ce qui rend le renforcement brutal des clés privées physiquement impossible. Même un trillion de superordinateurs fonctionnant pendant un trillion d'années ne réduirait pas de manière significative l'espace des clés.
+Bitcoin utilise la courbe secp256k1, définie par y² = x³ + 7 sur un corps premier où p = 2²⁵⁶ - 2³² - 977. Le point générateur G a des coordonnées fixes choisies en utilisant une procédure déterministe NUMS ("nothing up my sleeve"). L'ordre du groupe n est un grand nombre premier proche de 2²⁵⁶, ce qui garantit que chaque point non nul génère le même groupe. La taille de 2²⁵⁶ (~10⁷⁷) est astronomique, ce qui rend le brute force des clés privées physiquement impossible. Même un trillion de superordinateurs fonctionnant pendant un trillion d'années ne réduirait pas de manière significative l'espace des clés.
 
 
 ### Clés publiques, clés privées et sérialisation SEC
 
 
-La clé privée est un scalaire aléatoire s ; la clé publique est P = sG. La résolution du problème du logarithme discret étant infaisable, P peut être partagée sans révéler s. Les clés publiques doivent être sérialisées pour être transmises au moyen du format SEC. Le format SEC non compressé utilise 65 octets : préfixe 0x04 + coordonnées x + coordonnées y. Le format compressé n'utilise que 33 octets. Le format compressé n'utilise que 33 octets : préfixe 0x02 ou 0x03 (selon la parité de y) + coordonnée x. Bitcoin utilisait à l'origine des clés non compressées, mais préfère désormais les clés compressées pour des raisons d'efficacité.
+La clé privée est un scalaire aléatoire s ; la clé publique est P = sG. La résolution du problème du logarithme discret étant infaisable, P peut être partagé sans révéler s. Les clés publiques doivent être sérialisées pour être transmises au moyen du format SEC. Le format SEC non compressé utilise 65 octets : préfixe 0x04 + coordonnées x + coordonnées y. Le format compressé n'utilise que 33 octets. Le format compressé n'utilise que 33 octets : préfixe 0x02 ou 0x03 (selon la parité de y) + coordonnée x. Bitcoin utilisait à l'origine des clés non compressées, mais préfère désormais les clés compressées pour des raisons d'efficacité.
 
 
 #### Bitcoin Address Création
 
 
-Les adresses Bitcoin sont des hachages de clés publiques, et non les clés brutes elles-mêmes. Pour obtenir une adresse generate, il faut sérialiser la clé publique au format SEC, calculer le hash160 (SHA-256 puis RIPEMD-160), ajouter le préfixe du réseau (0x00 pour mainnet, 0x6F pour testnet), calculer une somme de contrôle en utilisant le double de SHA-256, ajouter les quatre premiers octets de la somme de contrôle et encoder le résultat en utilisant Base58. Ce codage supprime les caractères ambigus et inclut la somme de contrôle pour éviter les erreurs de transcription. Le pipeline en plusieurs étapes cache la clé publique jusqu'à ce qu'une dépense se produise, ajoute l'identification du réseau et garantit des adresses lisibles par l'homme et résistantes aux erreurs.
+Les adresses Bitcoin sont des hachages de clés publiques, et non les clés brutes elles-mêmes. Pour obtenir une adresse générée, il faut sérialiser la clé publique au format SEC, calculer le hash160 ([SHA-256](https://planb.academy/resources/glossary/sha256) puis RIPEMD-160), ajouter le préfixe du réseau (0x00 pour mainnet, 0x6F pour testnet), calculer une somme de contrôle en utilisant le double de SHA-256, ajouter les quatre premiers octets de la somme de contrôle et encoder le résultat en utilisant Base58. Ce codage supprime les caractères ambigus et inclut la somme de contrôle pour éviter les erreurs de transcription. Le pipeline en plusieurs étapes cache la clé publique jusqu'à ce qu'une dépense se produise, ajoute l'identification du réseau et garantit des adresses lisibles par l'homme et résistantes aux erreurs.
 
 
 # Fonctionnement interne de la transaction Bitcoin
@@ -197,7 +196,7 @@ Les adresses Bitcoin sont des hachages de clés publiques, et non les clés brut
 ### Comprendre l'ECDSA : la fondation de la signature numérique de Bitcoin
 
 
-Le Bitcoin s'appuie sur l'ECDSA, un système de signature basé sur la courbe elliptique qui offre une grande sécurité avec des tailles de clés beaucoup plus petites que le RSA. Sa sécurité provient du problème du logarithme discret de la courbe elliptique : étant donné P = eG, il est facile de calculer P, mais dériver e de P est infaisable sur le plan informatique. Cette asymétrie permet la cryptographie à clé publique tout en préservant la sécurité des clés privées.
+Le Bitcoin s'appuie sur l'ECDSA, un système de signature basé sur la courbe elliptique qui offre une grande sécurité avec des tailles de clés beaucoup plus petites que le RSA. Sa sécurité provient du problème du logarithme discret de la courbe elliptique : étant donné P = eG, il est facile de calculer eG, mais dériver e à partir de P est infaisable sur le plan informatique. Cette asymétrie permet la cryptographie à clé publique tout en préservant la sécurité des clés privées.
 
 
 #### Encodage DER des signatures ECDSA
@@ -212,13 +211,13 @@ Le Bitcoin encode les signatures ECDSA en utilisant le format DER :
 - 0x02 + longueur + S octets
 
 
-Cela ajoute une surcharge, faisant passer une signature de 64 octets à environ 71-72 octets. Taproot élimine cette inefficacité en adoptant des signatures Schnorr de taille fixe.
+Cela ajoute une surcharge, faisant passer une signature de 64 octets à environ 71-72 octets. [Taproot](https://planb.academy/resources/glossary/taproot) élimine cette inefficacité en adoptant des signatures [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol) de taille fixe.
 
 
 ### Engagements de signature et processus de signature
 
 
-Les signatures ECDSA reposent sur une équation d'engagement : UG + VP = KG. Le signataire sélectionne des valeurs U et V non nulles, ainsi qu'un nonce aléatoire K, prouvant ainsi qu'il connaît la clé privée sans la révéler. Le message est haché en Z, un K aléatoire est généré, R est la coordonnée x de KG et S = (Z + RE)/K. La signature est la paire (R, S). La sécurité dépend essentiellement de l'utilisation d'un K unique et imprévisible - si K est réutilisé ou fuit, la clé privée est compromise. Les implémentations modernes utilisent la génération déterministe de K (RFC 6979) pour éviter les défaillances du RNG.
+Les signatures ECDSA reposent sur une équation d'engagement : UG + VP = KG. Le signataire sélectionne des valeurs U et V non nulles, ainsi qu'un [nonce](https://planb.academy/resources/glossary/nonce) aléatoire K, prouvant ainsi qu'il connaît la clé privée sans la révéler. Le message est haché en Z, un K aléatoire est généré, R est la coordonnée x de KG et S = (Z + RE)/K. La signature est la paire (R, S). La sécurité dépend essentiellement de l'utilisation d'un K unique et imprévisible : si K est réutilisé ou fuit, la clé privée est compromise. Les implémentations modernes utilisent la génération déterministe de K (RFC 6979) pour éviter les défaillances du RNG.
 
 
 #### Vérification de la signature
@@ -229,7 +228,7 @@ Les signatures ECDSA reposent sur une équation d'engagement : UG + VP = KG. Le 
 #### Signatures Schnorr et contexte historique
 
 
-Les signatures Schnorr sont mathématiquement plus propres et prennent en charge les fonctions d'agrégation, mais elles étaient brevetées au moment du lancement de Bitcoin. L'ECDSA offrait une alternative gratuite, mais avec plus de complexité et des signatures plus grandes. Les brevets ayant expiré, Bitcoin a ajouté les signatures Schnorr via Taproot, fournissant des signatures fixes de 64 octets et améliorant la confidentialité. L'ECDSA reste pris en charge pour des raisons de compatibilité.
+Les signatures Schnorr sont mathématiquement plus propres et prennent en charge les fonctions d'agrégation, mais elles étaient brevetées au moment du lancement de Bitcoin. L'ECDSA offrait une alternative gratuite, mais avec plus de complexité et des signatures plus grandes. Les brevets ayant expiré, Bitcoin a ajouté les signatures Schnorr via Taproot, fournissant des signatures fixes de 64 octets et améliorant la confidentialité. L'ECDSA reste prise en charge pour des raisons de compatibilité.
 
 
 
@@ -241,16 +240,16 @@ Une transaction Bitcoin consiste en
 
 - version (4 octets, little-endian)
 - liste des entrées
-- liste de sortie
+- liste des sorties
 - locktime (4 octets)
 
 
-Les entrées font référence aux UTXO précédentes par leur numéro de transaction et leur index de sortie, et comprennent un script de déverrouillage (scriptSig) et un numéro de séquence utilisé pour les timelocks ou RBF. Les sorties précisent le montant (8 octets) et le script de verrouillage (scriptPubKey), définissant les conditions de dépense. Les adresses Bitcoin sont des représentations de ces scripts.
+Les entrées font référence aux [UTXO](https://planb.academy/resources/glossary/utxo) précédentes par leur numéro de transaction et leur index de sortie, et comprennent un [script](https://planb.academy/resources/glossary/script) de déverrouillage (scriptSig) et un numéro de séquence utilisé pour les timelocks ou RBF. Les sorties précisent le montant (8 octets) et le script de verrouillage (scriptPubKey), définissant les conditions de dépense. Les adresses Bitcoin sont des représentations de ces scripts.
 
 
 #### Le modèle UTXO
 
-La Bitcoin suit les produits non dépensés plutôt que les soldes des comptes. Les UTXO doivent être dépensés entièrement - les dépenses partielles sont impossibles. Pour dépenser 1 BTC d'un UTXO de 100 BTC, une transaction doit inclure une sortie de changement. L'oubli de la sortie de changement transforme le reste en frais de minage.
+Le Bitcoin suit les produits non dépensés plutôt que les soldes des comptes. Les UTXO doivent être dépensés entièrement - les dépenses partielles sont impossibles. Pour dépenser 1 BTC d'un UTXO de 100 BTC, une transaction doit inclure une sortie de changement. L'oubli de la sortie de changement transforme le reste en frais de [minage](https://planb.academy/resources/glossary/mining).
 
 
 #### Sérialisation et analyse des transactions
@@ -265,7 +264,7 @@ Les transactions utilisent un format binaire compact. Après le champ de la vers
 - séquence (4 octets)
 
 
-Les sorties comprennent un montant de 8 octets et scriptPubKey (varstr). Le temps de blocage détermine le moment où la transaction devient valide. La sérialisation utilise l'ordre little-endian pour la plupart des entiers. Les analyseurs consomment les octets de manière séquentielle et délèguent à des classes spécialisées pour les entrées, les sorties et les scripts.
+Les sorties comprennent un montant de 8 octets et le scriptPubKey (varstr). Le temps de blocage détermine le moment où la transaction devient valide. La sérialisation utilise l'ordre little-endian pour la plupart des entiers. Les analyseurs consomment les octets de manière séquentielle et délèguent à des classes spécialisées pour les entrées, les sorties et les scripts.
 
 
 ### Frais, changement et malléabilité
@@ -275,7 +274,7 @@ Les frais sont implicites :
 
 fee = somme(valeurs d'entrée) - somme(valeurs de sortie).
 
-Toute valeur non attribuée devient un droit, ce qui rend essentielle la construction d'une sortie de modification correcte. Avant SegWit, les signatures permettaient la malléabilité - modifier S en N-S produisait une nouvelle transaction valide avec un ID différent. La Bitcoin applique désormais une règle de faible S, et la SegWit isole les signatures du calcul de la txid, ce qui rend les ID stables et permet des protocoles de deuxième couche comme Lightning.
+Toute valeur non attribuée devient un droit, ce qui rend essentielle la construction d'une sortie de changement correcte. Avant [SegWit](https://planb.academy/resources/glossary/segwit), les signatures permettaient la malléabilité - modifier S en N-S produisait une nouvelle transaction valide avec un ID différent. Le Bitcoin applique désormais une règle de faible S, et SegWit isole les signatures du calcul de la txid, ce qui rend les ID stables et permet des protocoles de deuxième couche comme [Lightning](https://planb.academy/resources/glossary/lightning-network).
 
 
 ## Bitcoin Validation des scripts et des transactions
@@ -292,7 +291,7 @@ Bitcoin Script est un petit langage de contrat intelligent basé sur une pile qu
 ### Opérations de script et modèle d'exécution
 
 
-Un script est une séquence d'éléments de données et d'opcodes. Les poussées de données (signatures, clés publiques, hachages) sont placées sur la pile, tandis que les opcodes commençant par `OP_` transforment la pile. Après l'exécution, l'élément supérieur de la pile doit être différent de zéro pour que le script aboutisse. Exemples : `OP_DUP` duplique l'élément supérieur, `OP_HASH160` applique SHA256 puis RIPEMD160, et `OP_CHECKSIG` vérifie une signature par rapport au sighash de la transaction et à une clé publique, en poussant 1 pour valide, 0 pour invalide. Les règles d'analyse font la distinction entre les données brutes (longueur préfixée) et les opcodes (recherchés par valeur d'octet), et une petite machine virtuelle les exécute de manière déterministe sur chaque nœud.
+Un script est une séquence d'éléments de données et d'opcodes. Les poussées de données (signatures, clés publiques, hachages) sont placées sur la pile, tandis que les opcodes commençant par `OP_` transforment la pile. Après l'exécution, l'élément supérieur de la pile doit être différent de zéro pour que le script aboutisse. Exemples : `OP_DUP` duplique l'élément supérieur, `OP_HASH160` applique SHA256 puis RIPEMD160, et `OP_CHECKSIG` vérifie une signature par rapport au sighash de la transaction et à une clé publique, en poussant 1 pour valide, 0 pour invalide. Les règles d'analyse font la distinction entre les données brutes (longueur préfixée) et les opcodes (recherchés par valeur d'octet), et une petite machine virtuelle les exécute de manière déterministe sur chaque [nœud](https://planb.academy/resources/glossary/node).
 
 
 ### P2PK et P2PKH : modèles de paiement de base
@@ -313,12 +312,12 @@ Un nœud validant une transaction doit s'assurer que
 
 1) Chaque entrée fait référence à une sortie existante et non dépensée.
 
-2) Valeur totale des intrants ≥ valeur totale des extrants (la différence est la redevance).
+2) La valeur totale des intrants ≥ la valeur totale des extrants (la différence est la redevance).
 
-3) Chaque scriptSig déverrouille correctement la clé scriptPubKey à laquelle il fait référence.
+3) Chaque scriptSig déverrouille correctement le scriptPubKey à laquelle il fait référence.
 
 
-La vérification de la signature nécessite la construction du message exact qui a été signé, appelé sighash. Pour l'ancien ECDSA, la validation vide tous les scriptSig, remplace le scriptSig de l'entrée courante par la clé scriptPubKey correspondante, ajoute un type de hachage de 4 octets (habituellement `SIGHASH_ALL`), et double le hachage du résultat. Cette valeur de 256 bits est celle utilisée par `OP_CHECKSIG`. D'autres types de hachage (par exemple, `SINGLE`, `NONE`, avec ou sans `ANYONECANPAY`) changent les parties de la transaction qui sont engagées, permettant des cas d'utilisation de niche comme le financement collaboratif ou les transactions partiellement spécifiées, mais ils sont rarement utilisés dans la pratique.
+La vérification de la signature nécessite la construction du message exact qui a été signé, appelé sighash. Pour l'ancien ECDSA, la validation vide tous les scriptSig, remplace le scriptSig de l'entrée courante par le scriptPubKey correspondante, ajoute un type de hachage de 4 octets (habituellement `SIGHASH_ALL`), et double le hachage du résultat. Cette valeur de 256 bits est celle utilisée par `OP_CHECKSIG`. D'autres types de hachage (par exemple, `SINGLE`, `NONE`, avec ou sans `ANYONECANPAY`) changent les parties de la transaction qui sont engagées, permettant des cas d'utilisation de niche comme le financement collaboratif ou les transactions partiellement spécifiées, mais ils sont rarement utilisés dans la pratique.
 
 
 #### Hachage quadratique et SegWit
@@ -329,7 +328,7 @@ La vérification de la signature nécessite la construction du message exact qui
 ### Casse-tête de script et leçons de sécurité
 
 
-Les scripts peuvent exprimer bien plus qu'un simple "une signature déverrouille ces pièces" Les puzzles Script le démontrent en encodant des conditions arbitraires - problèmes mathématiques, défis de préimage de hachage, ou même primes de collision - où quiconque fournit les données correctes peut dépenser les pièces. Cependant, les résultats qui reposent uniquement sur des données publiques (pas de signatures) sont vulnérables au minage en amont : une fois qu'une solution valide apparaît dans le mempool, n'importe quel mineur peut la copier et rediriger le paiement à son profit.
+Les scripts peuvent exprimer bien plus qu'un simple "une signature déverrouille ces pièces". Les puzzles Script le démontrent en encodant des conditions arbitraires - problèmes mathématiques, défis de préimage de hachage, ou même primes de collision - où quiconque fournit les données correctes peut dépenser les pièces. Cependant, les résultats qui reposent uniquement sur des données publiques (pas de signatures) sont vulnérables au minage en amont : une fois qu'une solution valide apparaît dans le [mempool](https://planb.academy/resources/glossary/mempool), n'importe quel [mineur](https://planb.academy/resources/glossary/miner) peut la copier et rediriger le paiement à son profit.
 
 
 La leçon pratique est que les contrats du monde réel comprennent presque toujours des contrôles de signature, même lorsqu'ils contiennent une logique plus complexe telle que le multisig, les timelocks ou les hashlocks. Les signatures lient la solution à une partie spécifique, préservant les incitations et empêchant les autres de voler le paiement. Comprendre le modèle de pile de Script, les modèles standard et les pièges subtils est essentiel pour concevoir des contrats intelligents Bitcoin sécurisés et pour raisonner sur la façon dont les transactions sont réellement validées sur le réseau.
@@ -359,12 +358,12 @@ Chaque entrée de transaction fait référence à une sortie précédente par tx
 ### Transactions multi-signatures
 
 
-Bare multisig utilise `OP_CHECKMULTISIG` pour exiger m-de-n signatures. En raison d'un bug précoce, OP_CHECKMULTISIG consomme un élément de pile supplémentaire, nécessitant un `OP_0` initial dans le ScriptSig. Le multisig nu est fonctionnel mais inefficace : toutes les clés publiques apparaissent on-chain, ce qui rend les scriptPubKeys volumineuses, coûteuses et difficiles à coder en tant qu'adresses. Ces limitations ont motivé l'introduction du pay-to-script-hash.
+Bare multisig utilise `OP_CHECKMULTISIG` pour exiger m-de-n signatures. En raison d'un bug précoce, OP_CHECKMULTISIG consomme un élément de pile supplémentaire, nécessitant un `OP_0` initial dans le ScriptSig. Le multisig nu est fonctionnel mais inefficace : toutes les clés publiques apparaissent on-chain, ce qui rend les scriptPubKeys volumineux, coûteuses et difficiles à coder en tant qu'adresses. Ces limitations ont motivé l'introduction du pay-to-script-hash.
 
 
 #### Architecture P2SH
 
-P2SH cache les scripts complexes derrière un HASH160 de 20 octets. La clé scriptPubKey est fixe : `OP_HASH160 <20-byte hash> OP_EQUAL`. Le script de rédemption sous-jacent, qui contient du multisig, des timelocks ou d'autres conditions, n'est révélé et exécuté qu'au moment de la dépense. L'expéditeur ne voit que le hachage, tandis que le destinataire gère le script de rachat en privé. Cette conception réduit la taille de la on-chain, améliore la confidentialité et permet de conclure des contrats complexes sans alourdir le fardeau des expéditeurs.
+P2SH cache les scripts complexes derrière un HASH160 de 20 octets. La clé scriptPubKey est fixe : `OP_HASH160 <20-byte hash> OP_EQUAL`. Le script de rédemption sous-jacent, qui contient du multisig, des timelocks ou d'autres conditions, n'est révélé et exécuté qu'au moment de la dépense. L'expéditeur ne voit que le hachage, tandis que le destinataire gère le script de rachat en privé. Cette conception réduit la taille on-chain, améliore la confidentialité et permet de conclure des contrats complexes sans alourdir le fardeau des expéditeurs.
 
 
 ### Dépenses et mise en œuvre du P2SH
@@ -377,14 +376,13 @@ Pour dépenser une sortie P2SH, le ScriptSig doit inclure les données de déver
 2) Après vérification, le script de rachat est exécuté avec les données fournies.
 
 
-Lorsqu'il génère des signatures pour une entrée P2SH, le processus sighash utilise le script redeem à la place de la clé scriptPubKey. Chaque signataire doit posséder le script de rachat complet pour que les signatures generate soient valides. Les adresses P2SH utilisent l'octet de version 0x05 sur mainnet (adresses "3...") et 0xC4 sur testnet (adresses "2...").
+Lorsqu'il génère des signatures pour une entrée P2SH, le processus sighash utilise le script redeem à la place de la clé scriptPubKey. Chaque signataire doit posséder le script de rachat complet pour que les signatures générées soient valides. Les adresses P2SH utilisent l'octet de version 0x05 sur mainnet (adresses "3...") et 0xC4 sur testnet (adresses "2...").
 
 
 #### Considérations pratiques sur la sécurité
 
 
-La perte d'un script de rachat signifie la perte de fonds : les dépenses nécessitent à la fois les clés privées et le script de rachat lui-même. Les participants à la Multisig doivent vérifier que leurs clés publiques sont correctement incluses avant d'accepter des dépôts. P2SH supporte des constructions avancées comme le multisig, les timelocks et les hashlocks, mais les erreurs dans la logique du script peuvent bloquer les fonds de façon permanente, c'est pourquoi il est essentiel de tester sur testnet.
-
+La perte d'un script de rachat signifie la perte de fonds : les dépenses nécessitent à la fois les clés privées et le script de rachat lui-même. Les participants à la multisig doivent vérifier que leurs clés publiques sont correctement incluses avant d'accepter des dépôts. P2SH supporte des constructions avancées comme le multisig, les timelocks et les hashlocks, mais les erreurs dans la logique du script peuvent bloquer les fonds de façon permanente, c'est pourquoi il est essentiel de tester sur testnet.
 
 La P2SH améliore la confidentialité en masquant les conditions de dépense jusqu'à la première dépense, mais une fois que le script de remboursement apparaît on-chain, il devient visible en permanence. Malgré cela, les avantages de la taille réduite, de la rétrocompatibilité et de la prise en charge de contrats flexibles ont fait de la P2SH une étape majeure, qui a influencé les mises à jour ultérieures telles que la SegWit et la Taproot.
 
@@ -402,13 +400,13 @@ La P2SH améliore la confidentialité en masquant les conditions de dépense jus
 ![lecture](https://www.youtube.com/watch?v=lJYSM1iLWQU)
 
 
-Les blocs Bitcoin regroupent les transactions et les sécurisent à l'aide de proof of work. Chaque bloc comprend un en-tête de 80 octets et une liste de transactions. Malgré le coût énergétique élevé de la production d'un bloc valide, sa vérification est peu coûteuse : le stockage de l'ensemble des quelque 900 000 en-têtes ne nécessite que 72 Mo, ce qui permet même aux petits appareils de vérifier efficacement le proof of work de la chaîne.
+Les [blocs](https://planb.academy/resources/glossary/block) Bitcoin regroupent les transactions et les sécurisent à l'aide de [proof-of-work](https://planb.academy/resources/glossary/proof-of-work). Chaque bloc comprend un [en-tête](https://planb.academy/resources/glossary/block-header) de 80 octets et une liste de transactions. Malgré le coût énergétique élevé de la production d'un bloc valide, sa vérification est peu coûteuse : le stockage de l'ensemble des quelque 900 000 en-têtes ne nécessite que 72 Mo, ce qui permet même aux petits appareils de vérifier efficacement le proof of work de la chaîne.
 
 
 ### Transactions Coinbase et Block Rewards
 
 
-Chaque bloc commence par une transaction Coinbase, la seule façon pour les nouveaux bitcoins d'entrer en circulation. Il possède un hachage prev-tx réduit à zéro et un index de 0xffffffff, qui l'identifie de manière unique. La subvention a commencé à 50 BTC et diminue de moitié tous les 210 000 blocs (50, 25, 12,5, 6,25, 3,125, ...). Les mineurs incluent également des frais de transaction. Le nonce de 4 octets étant trop petit pour les ASIC modernes, les mineurs modifient les données dans la transaction Coinbase pour changer la racine de Merkle et créer un espace de recherche supplémentaire. Le BIP34 exige l'intégration de la hauteur du bloc dans le scriptSig de Coinbase afin de garantir que chaque txid de Coinbase est unique.
+Chaque bloc commence par une [transaction Coinbase](https://planb.academy/resources/glossary/coinbase-transaction), la seule façon pour les nouveaux bitcoins d'entrer en circulation. Il possède un hachage prev-tx réduit à zéro et un index de 0xffffffff, qui l'identifie de manière unique. La subvention a commencé à 50 BTC et diminue de moitié tous les 210 000 blocs (50, 25, 12,5, 6,25, 3,125, ...). Les mineurs incluent également des frais de transaction. Le nonce de 4 octets étant trop petit pour les ASIC modernes, les mineurs modifient les données dans la transaction Coinbase pour changer la racine de [Merkle](https://planb.academy/resources/glossary/merkle-tree) et créer un espace de recherche supplémentaire. Le [BIP](https://planb.academy/resources/glossary/bip)34 exige l'intégration de la hauteur du bloc dans le scriptSig de Coinbase afin de garantir que chaque txid de Coinbase est unique.
 
 
 ### Champs d'en-tête de bloc et signalisation Soft Fork
@@ -419,27 +417,27 @@ L'en-tête de 80 octets contient
 
 - version (4 octets)
 - hachage du bloc précédent (32 octets)
-- Racine de Merkle (32 octets)
+- racine de Merkle (32 octets)
 - horodatage (4 octets)
-- bits (cible de difficulté, 4 octets)
+- bits (cible de [difficulté](https://planb.academy/resources/glossary/difficulty), 4 octets)
 - nonce (4 octets)
 
 
-Les numéros de version ont évolué vers un système de signalisation par champ binaire via le BIP9, permettant aux mineurs de coordonner l'état de préparation du soft-fork. L'horodatage est une valeur temporelle Unix de 32 bits et devra être mis à jour autour de l'année 2106.
+Les numéros de version ont évolué vers un système de signalisation par champ binaire via le BIP9, permettant aux mineurs de coordonner l'état de préparation du [soft-fork](https://planb.academy/resources/glossary/soft-fork). L'horodatage est une valeur temporelle Unix de 32 bits et devra être mis à jour autour de l'année 2106.
 
 
 #### Champ de bits et cibles
 
-Le champ "bits" code la cible sous forme compacte : cible = coefficient × 256^(exposant-3). Les hachages de blocs valides doivent être numériquement inférieurs à cette cible. Les hachages étant interprétés comme des entiers de petite taille, les hachages valides apparaissent souvent avec de nombreux zéros de fin lorsqu'ils sont affichés en hexadécimal.
+Le champ "bits" code la cible sous forme compacte : cible = coefficient × 256^(exposant-3). Les hachages de blocs valides doivent être numériquement inférieurs à cette cible. Les hachages étant interprétés comme des entiers de grands taille, les hachages valides apparaissent souvent avec de nombreux zéros de fin lorsqu'ils sont affichés en hexadécimal.
 
 
 ### Difficulté, validation et ajustements
 
 
-La difficulté est définie comme la cible la plus basse / la cible actuelle, ce qui indique à quel point mining est plus difficile aujourd'hui par rapport à la difficulté la plus facile possible. La validation ne nécessite que la comparaison du hachage de l'en-tête avec la cible - extrêmement bon marché par rapport à mining.
+La difficulté est définie comme la cible la plus basse / la cible actuelle, ce qui indique à quel point le mining est plus difficile aujourd'hui par rapport à la difficulté la plus facile possible. La validation ne nécessite que la comparaison du hachage de l'en-tête avec la cible - extrêmement bon marché par rapport au mining.
 
 
-Tous les blocs de 2016, Bitcoin ajuste la difficulté pour cibler des intervalles de blocs d'environ 10 minutes. L'ajustement compare le temps réel des blocs 2016 précédents avec les deux semaines prévues. Les limites limitent les ajustements à un facteur de quatre. Des événements majeurs du monde réel, tels que l'interdiction du mining en Chine, ont démontré la résilience de ce mécanisme lorsque le taux de hachage a chuté brusquement et que la difficulté a été ajustée à la baisse pour compenser.
+Tous les blocs de 2016, Bitcoin ajuste la difficulté pour cibler des intervalles de blocs d'environ 10 minutes. L'ajustement compare le temps réel des 2016 blocs précédents avec les deux semaines prévues. Les limites limitent les ajustements à un facteur de quatre. Des événements majeurs du monde réel, tels que l'interdiction du mining en Chine, ont démontré la résilience de ce mécanisme lorsque le taux de hachage a chuté brusquement et que la difficulté a été ajustée à la baisse pour compenser.
 
 
 ### Subvention globale et total Supply
@@ -459,7 +457,7 @@ La subvention à la hauteur h est calculée comme suit : subvention = 5_000_000_
 ### Bitcoin Architecture du réseau
 
 
-Le réseau pair-à-pair de Bitcoin fonctionne comme un système de rumeurs décentralisé dans lequel les nœuds relaient les transactions et les blocs sans se faire confiance. Les nouveaux nœuds s'amorcent en contactant des graines DNS codées en dur et gérées par les développeurs principaux. Ces graines DNS renvoient les adresses IP des pairs actifs, ce qui permet aux nœuds de découvrir le réseau et de demander des pairs supplémentaires via getaddr. Le réseau n'est intentionnellement pas critique pour le consensus, de sorte que les implémentations peuvent différer tant que les règles de consensus restent inchangées.
+Le réseau [pair-à-pair](https://planb.academy/resources/glossary/peertopeer-p2p) de Bitcoin fonctionne comme un système de rumeurs décentralisé dans lequel les nœuds relaient les transactions et les blocs sans se faire confiance. Les nouveaux nœuds s'amorcent en contactant des graines DNS codées en dur et gérées par les développeurs principaux. Ces graines DNS renvoient les adresses IP des pairs actifs, ce qui permet aux nœuds de découvrir le réseau et de demander des pairs supplémentaires via getaddr. Le réseau n'est intentionnellement pas critique pour le [consensus](https://planb.academy/resources/glossary/consensus), de sorte que les implémentations peuvent différer tant que les règles de consensus restent inchangées.
 
 
 ### Structure du message et poignée de main
@@ -474,12 +472,12 @@ La poignée de main commence lorsqu'un nœud de connexion envoie un message de v
 ### Arbres de Merkle et racines de Merkle
 
 
-Bitcoin stocke une racine Merkle unique de 32 octets dans l'en-tête de chaque bloc en tant qu'engagement pour toutes les transactions du bloc. Les transactions sont hachées (hash256), appariées, concaténées et hachées à plusieurs reprises jusqu'à ce qu'il ne reste plus qu'un seul hachage. Lorsqu'un niveau a un nombre impair, le dernier hachage est dupliqué. En interne, les hachages sont big-endian, alors que les données sérialisées des blocs sont little-endian, ce qui nécessite des inversions avant et après la construction de l'arbre.
+Bitcoin stocke une racine Merkle unique de 32 octets dans l'en-tête de chaque bloc en tant qu'engagement pour toutes les transactions du bloc. Les transactions sont hachées (hash256), appariées, concaténées et hachées à plusieurs reprises jusqu'à ce qu'il ne reste plus qu'un seul [hachage](https://planb.academy/resources/glossary/hash-function). Lorsqu'un niveau a un nombre impair, le dernier hachage est dupliqué. En interne, les hachages sont big-endian, alors que les données sérialisées des blocs sont little-endian, ce qui nécessite des inversions avant et après la construction de l'arbre.
 
 
 #### Preuves de Merkle et SPV
 
-Les preuves de Merkle permettent de vérifier qu'une transaction est incluse dans un bloc sans télécharger le bloc entier. La preuve consiste en des hachages de frères et sœurs le long du chemin menant à la racine. Les clients SPV légers ne stockent que les en-têtes de blocs et demandent ces preuves aux nœuds complets. Étant donné qu'un arbre de Merkle croît de manière logarithmique, la preuve de l'inclusion dans un bloc contenant des milliers de transactions ne nécessite que quelques centaines d'octets.
+Les preuves de Merkle permettent de vérifier qu'une transaction est incluse dans un bloc sans télécharger le bloc entier. La preuve consiste en des hachages de frères et sœurs le long du chemin menant à la racine. Les clients SPV légers ne stockent que les en-têtes de blocs et demandent ces preuves aux [nœuds complets](https://planb.academy/resources/glossary/full-node). Étant donné qu'un arbre de Merkle croît de manière logarithmique, la preuve de l'inclusion dans un bloc contenant des milliers de transactions ne nécessite que quelques centaines d'octets.
 
 
 Taproot étend ce concept en engageant les conditions de dépenses dans un arbre de script Merklized (MAST), ne révélant que la branche exécutée avec une preuve de Merkle. Cela améliore à la fois l'efficacité et la confidentialité.
@@ -515,18 +513,18 @@ Cette session unifie la mise en réseau avancée P2P avec Segregated Witness, en
 ### Recherche de transactions par blocs et protection de la vie privée
 
 
-Les portefeuilles doivent détecter les paiements entrants en analysant les blocs à la recherche de sorties correspondant à leur clé scriptPubKey. La récupération de blocs entiers protège mieux la vie privée que la demande de transactions individuelles, qui révèle des signaux forts sur l'activité de l'utilisateur. Même les demandes de blocs peuvent donner lieu à des fuites d'informations sur les chaînes à faible volume, ce qui rend les filtres de blocs compacts (BIP158) essentiels pour les clients légers préservant la confidentialité. Les filtres peuvent produire des faux positifs mais jamais de faux négatifs, ce qui permet aux clients de ne télécharger que les blocs potentiellement pertinents sans révéler d'adresses spécifiques.
+Les [portefeuilles](https://planb.academy/resources/glossary/wallet) doivent détecter les paiements entrants en analysant les blocs à la recherche de sorties correspondant à leur clé scriptPubKey. La récupération de blocs entiers protège mieux la vie privée que la demande de transactions individuelles, qui révèle des signaux forts sur l'activité de l'utilisateur. Même les demandes de blocs peuvent donner lieu à des fuites d'informations sur les chaînes à faible volume, ce qui rend les filtres de blocs compacts (BIP158) essentiels pour les clients légers préservant la confidentialité. Les filtres peuvent produire des faux positifs mais jamais de faux négatifs, ce qui permet aux clients de ne télécharger que les blocs potentiellement pertinents sans révéler d'adresses spécifiques.
 
 
 ### Trustless Interaction en réseau
 
 
-Le flux de travail `get_block` démontre une utilisation correcte du réseau : envoyer getdata, recevoir un bloc, puis vérifier indépendamment sa racine Merkle et proof of work. Un bloc n'est accepté que si le hachage de l'en-tête reçu correspond au hachage demandé et si la racine Merkle calculée correspond à l'en-tête. Cette méthode incarne le principe "ne pas faire confiance, vérifier", garantissant que même des pairs malveillants ne peuvent pas inciter les nœuds à accepter des données modifiées.
+Le flux de travail `get_block` démontre une utilisation correcte du réseau : envoyer getdata, recevoir un bloc, puis vérifier indépendamment sa racine Merkle et son proof of work. Un bloc n'est accepté que si le hachage de l'en-tête reçu correspond au hachage demandé et si la racine Merkle calculée correspond à l'en-tête. Cette méthode incarne le principe "ne pas faire confiance, vérifier", garantissant que même des pairs malveillants ne peuvent pas inciter les nœuds à accepter des données modifiées.
 
 
 #### Récupération des transactions dans les blocs
 
-Les transactions d'un bloc peuvent être analysées à la recherche de scriptPubKeys correspondants par simple itération. Les portefeuilles de production effectuent cette opération en continu au fur et à mesure de l'arrivée de nouveaux blocs, en prouvant la propriété des résultats strictement par validation cryptographique plutôt qu'en s'appuyant sur des API tierces.
+Les transactions d'un bloc peuvent être analysées à la recherche de scriptPubKeys correspondantes par simple itération. Les portefeuilles de production effectuent cette opération en continu au fur et à mesure de l'arrivée de nouveaux blocs, en prouvant la propriété des résultats strictement par validation cryptographique plutôt qu'en s'appuyant sur des API tierces.
 
 
 ### SegWit Objectifs et conception
@@ -593,13 +591,13 @@ Les scripts SegWit complexes peuvent également être enveloppés de P2SH :
 - témoin : signatures + witnessScript
 
 
-La validation passe par trois générations de règles, exactement comme avec P2SH-P2WPKH. Cette enveloppe était essentielle pour les premiers déploiements de Lightning qui nécessitaient une signature multiple sans malléabilité. Bien que le P2WSH natif soit préféré aujourd'hui, la forme enveloppée assure la compatibilité avec les anciens systèmes wallet.
+La validation passe par trois générations de règles, exactement comme avec P2SH-P2WPKH. Cette enveloppe était essentielle pour les premiers déploiements de Lightning qui nécessitaient une signature multiple sans malléabilité. Bien que le P2WSH natif soit préféré aujourd'hui, la forme enveloppée assure la compatibilité avec les anciens systèmes de wallet.
 
 
 ### L'impact du SegWit
 
 
-SegWit fourni :
+SegWit fournit :
 
 
 - les identifiants de transactions stables

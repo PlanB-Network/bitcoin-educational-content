@@ -45,7 +45,7 @@ En litt mer avansert konfigurasjon er å bruke Wallet av Satoshis Point of Sale-
 ![image](assets/en/01.webp)
 
 
-Dette er én av to måter å få tilgang til Point of Sale-funksjonen på. Den andre metoden er gjennom den dedikerte [Wallet of Satoshi PoS-appen] (https://www.walletofsatoshi.com/pos.)
+Dette er én av to måter å få tilgang til Point of Sale-funksjonen på. Den andre metoden er gjennom den dedikerte [Wallet of Satoshi PoS-appen](https://www.walletofsatoshi.com/pos.)
 
 
 Fordelene med å bruke Point of Sale-funksjonen er tredelt:

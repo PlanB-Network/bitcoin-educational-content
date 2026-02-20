@@ -1,0 +1,10 @@
+question: Siapa yang menciptakan layanan pencampuran Bitcoin pertama, yang disebut BitLaundry, pada bulan September 2010?
+answer: Peter Vessenes
+wrong_answers:
+  - Roman Sterlingov
+  - Benjamin Reeves
+  - Gregory Maxwell
+explanation: |
+ Peter Venesses adalah seorang wirausahawan Amerika dengan gelar sarjana kriptografi yang menemukan Bitcoin pada saat slashdotting. Dia mengembangkan layanan ini untuk membuat
+ lebih sulit untuk melacak dana. Pada bulan Mei 2011, setelah merasakan adanya komplikasi hukum di masa depan, ia menjual layanan ini kepada aktivis Mike Gogulski.
+reviewed: true

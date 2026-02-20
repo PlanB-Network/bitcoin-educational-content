@@ -156,8 +156,6 @@ Kas olete valmis võtma täielikult kontrolli oma IT-turvalisuse üle, tugevdama
 
 
 
-**NB:** Kui kursuse käigus satute mõne tundmatu terminiga kokku, vaadake [sõnastik](https://planb.academy/resources/glossary), et leida mõisted
-
 
 
 ## SCU101 oluline kokkuvõte
@@ -1242,7 +1240,7 @@ Parrot OS on samuti tuletatud Debianist. See pakub keskkonda pentestimiseks, rü
 
 
 
-Tails on Debianil põhinev, privaatsusele keskendunud live-distributsioon. Kõik liigub läbi Tor-võrgu ja midagi ei salvestata kasutaja seansside vahel. See on ideaalne distributsioon tundlikuks ühekordseks kasutamiseks (ajakirjandus, aktivism, seed Bitcoin genereerimine...).
+Tails on Debianil põhinev, privaatsusele keskendunud live-distributsioon. Kõik liigub läbi [Tor](https://planb.academy/resources/glossary/tor)-võrgu ja midagi ei salvestata kasutaja seansside vahel. See on ideaalne distributsioon tundlikuks ühekordseks kasutamiseks (ajakirjandus, aktivism, [seed](https://planb.academy/resources/glossary/seed) Bitcoin genereerimine...).
 
 
 
@@ -4057,7 +4055,7 @@ Teine vahend on digitaalallkiri. Sellega kontrollitakse paigaldustarkvara autent
 
 
 
-See süsteem tugineb asümmeetrilisele krüptograafiale ja sellistele vahenditele nagu GnuPG (käsurea) või Kleopatra (Interface graafiline Windowsile). Need tööriistad peavad olema nõuetekohaselt konfigureeritud ja arendaja avalik võti peab olema kontrollitud turvalise kanali kaudu (ametlik veebisait, sõrmejälg Twitteris...). Vaatame praktilisi asjaolusid.
+See süsteem tugineb asümmeetrilisele krüptograafiale ja sellistele vahenditele nagu GnuPG (käsurea) või Kleopatra (Interface graafiline Windowsile). Need tööriistad peavad olema nõuetekohaselt konfigureeritud ja arendaja [avalik võti](https://planb.academy/resources/glossary/public-key) peab olema kontrollitud turvalise kanali kaudu (ametlik veebisait, sõrmejälg Twitteris...). Vaatame praktilisi asjaolusid.
 
 
 
@@ -5556,7 +5554,7 @@ Selle peatüki eesmärk on aidata teil valida teie vajadustele kõige paremini v
 
 
 
-[Chrome] (https://www.google.com/chrome/) saab kasu kiirest ja pidevast arengust, mida juhib peamiselt Google. See on tuntud oma suure jõudluse, kiiruse, laiaulatusliku ühilduvuse kaasaegsete veebistandarditega ja Google'i teenuste hea integreerimise poolest.
+[Chrome](https://www.google.com/chrome/) saab kasu kiirest ja pidevast arengust, mida juhib peamiselt Google. See on tuntud oma suure jõudluse, kiiruse, laiaulatusliku ühilduvuse kaasaegsete veebistandarditega ja Google'i teenuste hea integreerimise poolest.
 
 
 
@@ -5588,7 +5586,7 @@ https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6dd
 
 
 
-[Brave] (https://brave.com/) põhineb Blinkil (nagu Chrome), kuid erineb radikaalselt oma privaatsuskeskse lähenemise poolest. Brave blokeerib vaikimisi reklaame ja jälgimisseadmeid, integreerib *HTTPS Everywhere* ning pakub täiustatud kaitset sõrmejälgede ja kolmandate osapoolte skriptide vastu. Selle ärimudel põhineb osaliselt integreeritud privaatsussõbralikul reklaamil, kuid see on vabatahtlik ja kergesti deaktiveeritav.
+[Brave](https://brave.com/) põhineb Blinkil (nagu Chrome), kuid erineb radikaalselt oma privaatsuskeskse lähenemise poolest. Brave blokeerib vaikimisi reklaame ja jälgimisseadmeid, integreerib *HTTPS Everywhere* ning pakub täiustatud kaitset sõrmejälgede ja kolmandate osapoolte skriptide vastu. Selle ärimudel põhineb osaliselt integreeritud privaatsussõbralikul reklaamil, kuid see on vabatahtlik ja kergesti deaktiveeritav.
 
 
 
@@ -5642,7 +5640,7 @@ Selleks, et kontrollida, kas teie brauseri sõrmejälg teeb teid ainulaadseks v�
 
 
 
-[Vivaldi] (https://vivaldi.com/), mille on asutanud Opera endine tegevjuht, on suunatud edasijõudnud kasutajatele, kes otsivad sügavamat isikupärastamist ja täiustatud funktsioone, nagu külgpaneelid, täiustatud vahekaardihaldur ja integreeritud märkmete tegemine.
+[Vivaldi](https://vivaldi.com/), mille on asutanud Opera endine tegevjuht, on suunatud edasijõudnud kasutajatele, kes otsivad sügavamat isikupärastamist ja täiustatud funktsioone, nagu külgpaneelid, täiustatud vahekaardihaldur ja integreeritud märkmete tegemine.
 
 
 
@@ -5684,7 +5682,7 @@ Blink-põhised brauserid hõlmavad ka mitmeid marginaalsemaid brausereid, mis on
 
 
 
-The Browser Company poolt välja töötatud [Arc] (https://arc.net/) pakub kasutajale radikaalselt erinevat lähenemist Interface. See asendab traditsioonilised vahekaardid "*ruumide*" süsteemiga, ühtse küljeriba ja integreerib loomingulised tööriistad, nagu kommenteeritavad jäädvustused ja lihtsa saidi redaktori. Rõhuasetus on kasutatavusel, visuaalsel kohandamisel ja kasutuse sujuvusel, mistõttu on see mõnede spetsialistide poolt soositud tööriist.
+The Browser Company poolt välja töötatud [Arc](https://arc.net/) pakub kasutajale radikaalselt erinevat lähenemist Interface. See asendab traditsioonilised vahekaardid "*ruumide*" süsteemiga, ühtse küljeriba ja integreerib loomingulised tööriistad, nagu kommenteeritavad jäädvustused ja lihtsa saidi redaktori. Rõhuasetus on kasutatavusel, visuaalsel kohandamisel ja kasutuse sujuvusel, mistõttu on see mõnede spetsialistide poolt soositud tööriist.
 
 
 
@@ -5722,7 +5720,7 @@ Polypane on Chromiumil põhinev tasuline patenteeritud brauser, mis muudab selle
 
 
 
-[Firefox] (https://www.mozilla.org/firefox/new/) on kõige tuntum brauser, mis kasutab Gecko renderdusmootorit. Mozilla Foundationi poolt välja töötatud Firefox paistab silma selge privaatsuspoliitika poolest: täiustatud jälgimiskaitse, täiustatud võimalused kolmandate osapoolte küpsiste blokeerimiseks, eraldatud vahekaardikonteinerid ja turvalisusele suunatud laienduste integreerimine.
+[Firefox](https://www.mozilla.org/firefox/new/) on kõige tuntum brauser, mis kasutab Gecko renderdusmootorit. Mozilla Foundationi poolt välja töötatud Firefox paistab silma selge privaatsuspoliitika poolest: täiustatud jälgimiskaitse, täiustatud võimalused kolmandate osapoolte küpsiste blokeerimiseks, eraldatud vahekaardikonteinerid ja turvalisusele suunatud laienduste integreerimine.
 
 
 
@@ -5799,7 +5797,7 @@ https://planb.academy/tutorials/computer-security/communication/librewolf-1783e9
 
 #### Zen brauser
 
-[Zen Browser] (https://zen-browser.app/) on 2024. aastal turule toodud tasuta ja avatud lähtekoodiga brauser, mis põhineb Firefoxil (Gecko mootor). Selle eesmärk on pakkuda moodsat, elegantset, väga hästi kohandatavat ja eelkõige privaatsusele suunatud sirvimiskogemust, sõltumata Chromiumist.
+[Zen Browser](https://zen-browser.app/) on 2024. aastal turule toodud tasuta ja avatud lähtekoodiga brauser, mis põhineb Firefoxil (Gecko mootor). Selle eesmärk on pakkuda moodsat, elegantset, väga hästi kohandatavat ja eelkõige privaatsusele suunatud sirvimiskogemust, sõltumata Chromiumist.
 
 Zen paistab silma oma radikaalse lähenemise poolest Interface-le ja kasutatavusele, mis on suuresti inspireeritud Arc-brauserist, kuid mis on sellest vabanenud tänu avatud lähtekoodile ja Gecko mootorile. See sisaldab :
 
@@ -5819,7 +5817,7 @@ https://planb.academy/tutorials/computer-security/communication/zen-browser-f1af
 
 #### Safari
 
-Peamine brauser, mis kasutab endiselt WebKit renderdusmootorit (mitte Fork nagu Blink), on Safari. [Safari] (https://www.apple.com/safari/) on Apple'i eksklusiivne brauser macOSi jaoks. See pakub suurepärast integratsiooni Apple'i ökosüsteemiga, suurt jõudlust ja sisaldab nüüd tugevamat kaitset jälgimise ja sõrmejälgede võtmise vastu.
+Peamine brauser, mis kasutab endiselt WebKit renderdusmootorit (mitte Fork nagu Blink), on Safari. [Safari](https://www.apple.com/safari/) on Apple'i eksklusiivne brauser macOSi jaoks. See pakub suurepärast integratsiooni Apple'i ökosüsteemiga, suurt jõudlust ja sisaldab nüüd tugevamat kaitset jälgimise ja sõrmejälgede võtmise vastu.
 
 Safari on siiski endiselt suletud, selle töölauaversioon on piiratud macOSiga ja sõltub Apple'i ökosüsteemist. Kuigi Apple'il on tugev privaatsuspoliitika, mille ärimudel põhineb peamiselt riistvara müügil, mitte reklaamil, on teatud sisemised tavad endiselt ebaselged.
 
@@ -6308,7 +6306,7 @@ Eesmärk on lihtne: ennetada, et konkreetse tegevusega seotud intsident (näitek
 
 
 
-- **Kasutage sisseehitatud konteinereid**: Firefox pakub laiendust [Multi-Account Containers] (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), mis võimaldab teil avada eraldi vahekaardid, millel on oma sisselogimine ja küpsised. Te saate ka automaatselt määrata teatud saite konkreetsele konteinerile, et hoida neid iga kord eraldi, kui neid avatakse.
+- **Kasutage sisseehitatud konteinereid**: Firefox pakub laiendust [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), mis võimaldab teil avada eraldi vahekaardid, millel on oma sisselogimine ja küpsised. Te saate ka automaatselt määrata teatud saite konkreetsele konteinerile, et hoida neid iga kord eraldi, kui neid avatakse.
 
 
 
@@ -6605,7 +6603,7 @@ Mõned tootjad keelavad või raskendavad seda toimingut või isegi lülitavad te
 #### GrapheneOS
 
 
-[GrapheneOS] (https://grapheneos.org/) on täiustatud AOSP ROM, mis on loodud pakkuma kõrgemat turvalisuse taset kui tavaline Android. Selle on välja töötanud sõltumatu meeskond ja seda on auditeerinud eksperdid. Graphene rakendab täiustatud turvamehhanisme, sealhulgas:
+[GrapheneOS](https://grapheneos.org/) on täiustatud AOSP ROM, mis on loodud pakkuma kõrgemat turvalisuse taset kui tavaline Android. Selle on välja töötanud sõltumatu meeskond ja seda on auditeerinud eksperdid. Graphene rakendab täiustatud turvamehhanisme, sealhulgas:
 
 
 
@@ -6631,7 +6629,7 @@ https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08
 #### CalyxOS
 
 
-[CalyxOS] (https://calyxos.org/) on vahesüsteem, mille eesmärk on ühitada privaatsus, turvalisus ja ühilduvus igapäevase kasutamisega. See põhineb samuti AOSP-l, kuid on täiustatud turvalisuse osas. Selle eripäraks on MicroG, Google'i teenuste vaba ümberkujundamine, mille integreerimine on vabatahtlik. See võimaldab käivitada enamikku Google'i teenustest sõltuvaid Androidi rakendusi, ilma et oleks vaja kasutada ametlikke patenteeritud binaarsüsteeme.
+[CalyxOS](https://calyxos.org/) on vahesüsteem, mille eesmärk on ühitada privaatsus, turvalisus ja ühilduvus igapäevase kasutamisega. See põhineb samuti AOSP-l, kuid on täiustatud turvalisuse osas. Selle eripäraks on MicroG, Google'i teenuste vaba ümberkujundamine, mille integreerimine on vabatahtlik. See võimaldab käivitada enamikku Google'i teenustest sõltuvaid Androidi rakendusi, ilma et oleks vaja kasutada ametlikke patenteeritud binaarsüsteeme.
 
 
 CalyxOS pakub ka eelinstalleeritud rakendusi (Signal, F-Droid, Aurora Store, integreeritud VPN...) ja puhas Interface. Seda on lihtne paigaldada graafilise tööriista abil Pixel kasutajatele. Calyx ühildub peamiselt Google Pixeli, aga ka mõnede Fairphone'i ja Motorola mudelitega.
@@ -6643,7 +6641,7 @@ CalyxOS pakub ka eelinstalleeritud rakendusi (Signal, F-Droid, Aurora Store, int
 #### LineageOS
 
 
-[LineageOS] (https://lineageos.org/), CyanogenModi järeltulija, on kõige laialdasemalt ühilduv alternatiivne ROM. See toetab mitusada mudelit, tänu suurele toetajate kogukonnale. Põhineb AOSP-l, see rõhutab kohandamist, lihtsust ja kasutusvabadust.
+[LineageOS](https://lineageos.org/), CyanogenModi järeltulija, on kõige laialdasemalt ühilduv alternatiivne ROM. See toetab mitusada mudelit, tänu suurele toetajate kogukonnale. Põhineb AOSP-l, see rõhutab kohandamist, lihtsust ja kasutusvabadust.
 
 
 LineageOS annab teile Androidi süsteemi, millel ei ole tootja pealekandmist, ei ole paisutatud tarkvara, täielik õiguste haldamine, lihtne uuendamine ja lihtsustatud Interface. Saate lisada Google'i teenuseid või valida 100% tasuta kasutamise.
@@ -8238,7 +8236,7 @@ Neid porte kasutatakse ka sellistes süsteemides nagu Bitcoin või Tor, kus konk
 
 - Bitcoin Mainnet P2P ühenduste jaoks kasutatakse porti "8333"
 - Porti "18333" kasutatakse P2P ühenduste jaoks Bitcoin Testnet puhul
-- Interface RPC Bitcoin sõlme jaoks kasutatakse porti "8332"
+- Interface RPC Bitcoin [sõlme](https://planb.academy/resources/glossary/node) jaoks kasutatakse porti "8332"
 - Porti `9050` kasutab Tori SOCKS5 proxy
 - Tor Browser kasutab porti `9150`
 

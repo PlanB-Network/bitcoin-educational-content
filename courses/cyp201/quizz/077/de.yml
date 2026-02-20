@@ -1,5 +1,5 @@
 question: Warum sind Deskriptoren besonders nützlich für Multisignatur-Wallets?
-answer: Sie beinhalten den xpub jedes Faktors und beschreiben die Multisignatur-Struktur
+answer: Sie beinhalten den xpub jeden Faktors und beschreiben die Multisignatur-Struktur
 wrong_answers:
   - Sie eliminieren die Notwendigkeit einer mnemonischen Phrase
   - Sie vereinfachen die Erzeugung von gehärteten Schlüsseln

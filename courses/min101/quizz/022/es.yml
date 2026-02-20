@@ -1,0 +1,9 @@
+question: ¿Qué mide el hashrate?
+answer: Hashes por segundo
+wrong_answers:
+  - Bloques por segundo
+  - Transacciones por segundo
+  - Bytes por segundo
+explanation: |
+  El hashrate expresa el número de intentos de hash realizados cada segundo, en H/s.
+reviewed: false

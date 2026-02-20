@@ -1,9 +1,9 @@
-question: Ni uwuhe mucukumbuzi atanga amatangazo n’ugukurikirana, uburinzi bw’ibimenyetso vy’intoke kandi ashingiye kuri Chromium?
-answer: Intwari
+question: Ni iyihe mucukumbuzi itanga uburyo bwo guhagarika amatangazo n’ugukurikiranwa, ikagukingira fingerprinting kandi ikaba ishingiye kuri Chromium?
+answer: Brave
 wrong_answers:
   - Firefox
   - Tor
   - Chrome
 explanation: |
-  Brave ifise uburinzi bwo kwamamaza, abakurikirana n'uburinzi bw'intoke buteye imbere, vyose bishingiye kuri Chromium.
-reviewed: false
+  Brave ifise uburyo bwo guhagarika amatangazo, ikakurinda gukurikiranwa na fingerprinting, vyose bishingiye kuri Chromium.
+reviewed: true

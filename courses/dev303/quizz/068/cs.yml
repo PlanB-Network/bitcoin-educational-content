@@ -1,0 +1,8 @@
+question: Jaká je hlavní výhoda přístupu statického typování Rust oproti dynamickému typování při vývoji aplikací Bitcoin?
+answer: Chyby typu jsou zachyceny při kompilaci před nasazením, což zabraňuje selhání za běhu při zpracování uživatelských prostředků
+wrong_answers:
+  - Statické psaní umožňuje rychlejší provádění transakcí Bitcoin v blockchainu
+  - "Dynamické psaní vyžaduje více alokace paměti, což je v rozporu s požadavky na odlehčené uzly Bitcoin."
+  - Statické typování umožňuje automatické generování kódu pro implementace protokolů Bitcoin a chytrých smluv
+explanation: |
+  Statické typování v systému Rust zachycuje typové neshody během kompilace a zajišťuje, že chyby jsou vyřešeny ještě před sestavením nebo nasazením softwaru. To je pro vývoj Bitcoin klíčové, protože jakmile software pracuje s prostředky reálných uživatelů, typové chyby za běhu by mohly způsobit nevratné finanční ztráty. Dynamické typování odhalí chyby až během provádění, případně po nasazení, kdy jsou peníze uživatelů v ohrožení. Ostatní možnosti jsou nesprávné, protože hlavním přínosem statického typování není rychlost provádění, využití paměti nebo generování kódu, ale spíše prevence chyb při kompilaci.

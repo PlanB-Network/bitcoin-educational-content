@@ -48,6 +48,17 @@ Finally, we will conclude the training by recapping the concepts covered and pav
 
 Ready to uncover the technical mechanisms of the Lightning Network? Let’s dive in!
 
+---
+*Here are some terms you will encounter in the course diagrams, along with a brief definition to help you better understand them:*
+
+| English           | Definition                                          |
+| ----------------- | --------------------------------------------------- |
+| *timelock*        | A mechanism that locks funds until a specific time  |
+| *Revocation Key*  | A cryptographic key used to revoke a previous state |
+| *invoice*         | A payment request containing amount and details     |
+| *sig* (signature) | A cryptographic proof of transaction authorization  |
+| *Preimage*        | The original value that produces a hash when hashed |
+
 # The Fundamentals
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>
@@ -59,7 +70,7 @@ Ready to uncover the technical mechanisms of the Lightning Network? Let’s dive
 :::video id=4315a277-12fe-4946-bb49-a807e60c09a7:::
 
 
-The Lightning Network is a network of payment channels built on top of the Bitcoin protocol, aiming to enable fast and low-cost transactions. It enables the creation of payment channels between participants, within which transactions can be made almost instantly and with minimal fees, without requiring the recording of each transaction individually on the blockchain. Thus, the Lightning Network aims to enhance Bitcoin's scalability and make it more suitable for low-value transactions.
+The [Lightning Network](https://planb.academy/resources/glossary/lightning-network) is a network of [payment channels](https://planb.academy/resources/glossary/payment-channel) built on top of the Bitcoin protocol, aiming to enable fast and low-cost transactions. It enables the creation of payment channels between participants, within which transactions can be made almost instantly and with minimal fees, without requiring the recording of each transaction individually on the [blockchain](https://planb.academy/resources/glossary/blockchain). Thus, the Lightning Network aims to enhance Bitcoin's [scalability](https://planb.academy/resources/glossary/scalability) and make it more suitable for low-value transactions.
 
 Before exploring the "network" aspect, it is essential to understand the concept of a **payment channel** on Lightning, its operation, and its specifics. This is the subject of this first chapter.
 
@@ -69,7 +80,7 @@ A payment channel allows two parties, here **Alice** and **Bob**, to exchange fu
 
 ![LNP201](assets/en/001.webp)
 
-In our example, Alice has 100,000 satoshis on her side of the channel, and Bob has 30,000, totaling 130,000 satoshis, which constitutes the **channel capacity**.
+In our example, Alice has 100,000 [satoshis](https://planb.academy/resources/glossary/satoshi-sat) on her side of the channel, and Bob has 30,000, totaling 130,000 satoshis, which constitutes the **[channel capacity](https://planb.academy/resources/glossary/lightning-channel-capacity)**.
 
 **But what is a satoshi?**
 
@@ -118,7 +129,7 @@ This chapter is a bit special since it will not be directly dedicated to Lightni
 
 ### Bitcoin Addresses, Private Keys, and Public Keys
 
-A Bitcoin address is a series of characters derived from a **public key**, which is itself calculated from a **private key**. As you surely know, it is used to lock bitcoins, which is equivalent to receiving them in our wallet.
+A Bitcoin address is a series of characters derived from a **[public key](https://planb.academy/resources/glossary/public-key)**, which is itself calculated from a **[private key](https://planb.academy/resources/glossary/private-key)**. As you surely know, it is used to lock bitcoins, which is equivalent to receiving them in our wallet.
 
 The private key is a secret element that **should never be shared**, while the public key and the address can be shared without security risk (their disclosure only represents a risk to your privacy). Here is a common representation that we will adopt throughout this training:
 
@@ -128,9 +139,9 @@ The private key is a secret element that **should never be shared**, while the p
 
 ### Bitcoin Transactions: Sending Funds and Scripts
 
-On Bitcoin, a transaction involves sending funds from one address to another. Let's take the example of Alice sending 0.002 Bitcoin to Bob. Alice uses the private key associated with her address to **sign** the transaction, thereby proving that she is indeed able to spend these funds. But what exactly happens behind this transaction? The funds on a Bitcoin address are locked by a **script**, a type of mini-program that imposes specific conditions for spending the funds.
+On Bitcoin, a transaction involves sending funds from one address to another. Let's take the example of Alice sending 0.002 Bitcoin to Bob. Alice uses the private key associated with her address to **sign** the transaction, thereby proving that she is indeed able to spend these funds. But what exactly happens behind this transaction? The funds on a Bitcoin address are locked by a **[script](https://planb.academy/resources/glossary/script)**, a type of mini-program that imposes specific conditions for spending the funds.
 
-The most common script requires a signature with the private key associated with the address. When Alice signs a transaction with her private key, she **unlocks the script** that blocks the funds, and they can then be transferred. The transfer of funds involves adding a new script to these funds, stipulating that to spend them this time, **Bob's** private key signature will be required.
+The most common script requires a [signature](https://planb.academy/resources/glossary/digital-signature) with the private key associated with the address. When Alice signs a transaction with her private key, she **unlocks the script** that blocks the funds, and they can then be transferred. The transfer of funds involves adding a new script to these funds, stipulating that to spend them this time, **Bob's** private key signature will be required.
 
 ![LNP201](assets/en/005.webp)
 
@@ -192,9 +203,9 @@ As we saw in the first chapter, a **payment channel** on Lightning can be compar
 
 It's crucial to clearly distinguish the different levels of exchange on the Lightning Network:
 
-- **Peer-to-peer communications (Lightning protocol)**: These are the messages that Lightning nodes send to each other to communicate. We will represent these messages with dashed black lines in our diagrams.
+- **[Peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) communications (Lightning protocol)**: These are the messages that [Lightning nodes](https://planb.academy/resources/glossary/lightning-node) send to each other to communicate. We will represent these messages with dashed black lines in our diagrams.
 - **Payment channels (Lightning protocol)**: These are the paths for exchanging funds on Lightning, which we will represent with solid black lines.
-- **Bitcoin transactions (Bitcoin protocol)**: These are the transactions made on-chain, which we will represent with orange lines.
+- **Bitcoin transactions (Bitcoin protocol)**: These are the transactions made [on-chain](https://planb.academy/resources/glossary/onchain), which we will represent with orange lines.
 
 ![LNP201](assets/en/010.webp)
 
@@ -228,7 +239,7 @@ It's worth noting that a Lightning node can communicate via the P2P protocol wit
 
 ### When is the channel open?
 
-The channel is considered open once the deposit transaction is included in a Bitcoin block and has reached a certain depth of confirmations (i.e., the number of subsequent blocks that have been added to the blockchain).
+The channel is considered open once the deposit transaction is included in a Bitcoin [block](https://planb.academy/resources/glossary/block) and has reached a certain depth of [confirmations](https://planb.academy/resources/glossary/confirmation) (i.e., the number of subsequent blocks that have been added to the blockchain).
 
 **What should you remember from this chapter?**
 
@@ -260,7 +271,7 @@ At the time of opening the channel, Alice deposited **130,000 satoshis** on the 
 
 ### Unpublished Transactions: The Commitment Transactions
 
-When Alice makes a transaction in the channel to send funds to Bob, a new Bitcoin transaction is created to reflect this change in the distribution of funds. This transaction, called a **commitment transaction**, is not published on the blockchain but represents the new state of the channel following the Lightning transaction.
+When Alice makes a transaction in the channel to send funds to Bob, a new Bitcoin transaction is created to reflect this change in the distribution of funds. This transaction, called a **[commitment transaction](https://planb.academy/resources/glossary/commitment-transaction)**, is not published on the blockchain but represents the new state of the channel following the Lightning transaction.
 
 Let's take an example with Alice sending 30,000 satoshis to Bob:
 
@@ -331,9 +342,9 @@ Even worse, Alice could publish the very first withdrawal transaction, the one b
 
 To prevent this kind of cheating by Alice, on the Lightning Network, **security mechanisms** are added to the commitment transactions:
 
-- **The timelock**: Each commitment transaction includes a timelock for Alice's funds. The timelock is a smart contract primitive that sets a time condition that must be met for a transaction to be added to a block. This means that Alice cannot recover her funds until a certain number of blocks have passed if she publishes one of the commitment transactions. This timelock starts to apply from the confirmation of the commitment transaction. Its duration is generally proportional to the size of the channel, but it can also be manually configured.
+- **The [timelock](https://planb.academy/resources/glossary/timelock)**: Each commitment transaction includes a timelock for Alice's funds. The timelock is a [smart contract](https://planb.academy/resources/glossary/smart-contract) primitive that sets a time condition that must be met for a transaction to be added to a block. This means that Alice cannot recover her funds until a certain number of blocks have passed if she publishes one of the commitment transactions. This timelock starts to apply from the confirmation of the commitment transaction. Its duration is generally proportional to the size of the channel, but it can also be manually configured.
 - **Revocation Key**: Alice's funds can also be immediately spent by Bob if he possesses the **revocation key**. This key consists of a secret held by Alice and a secret held by Bob. Note that this secret is different for each commitment transaction.
-   Thanks to these 2 combined mechanisms, Bob has the time to detect Alice's attempt to cheat and to punish her by retrieving his output with the revocation key, which, for Bob, means recovering all the funds of the channel. Our new commitment transaction will now look like this:
+   Thanks to these 2 combined mechanisms, Bob has the time to detect Alice's attempt to cheat and to punish her by retrieving his [output](https://planb.academy/resources/glossary/output) with the revocation key, which, for Bob, means recovering all the funds of the channel. Our new commitment transaction will now look like this:
 
 ![LNP201](assets/en/025.webp)
 
@@ -344,7 +355,7 @@ Let's detail the functioning of this mechanism together.
 When Alice and Bob update the state of the channel with a new Lightning transaction, they exchange their respective **secrets** in advance for the previous commitment transaction (the one that will become obsolete and could allow one of them to cheat). This means that, in the new state of the channel:
 
 - Alice and Bob have a new commitment transaction representing the current distribution of funds after the Lightning transaction.
-- Each has the other's secret for the previous transaction, which allows them to use the revocation key only if one of them tries to cheat by publishing a transaction with an old state in the Bitcoin nodes' mempools. Indeed, to punish the other party, it is necessary to hold both secrets and the other's commitment transaction, which includes the signed input. Without this transaction, the revocation key is useless on its own. The only way to obtain this transaction is to retrieve it from the mempools (i.e., transactions waiting for confirmation) or from the confirmed transactions on the blockchain during the timelock, which proves that the other party is attempting to cheat, whether intentionally or not.
+- Each has the other's secret for the previous transaction, which allows them to use the revocation key only if one of them tries to cheat by publishing a transaction with an old state in the Bitcoin nodes' [mempools](https://planb.academy/resources/glossary/mempool). Indeed, to punish the other party, it is necessary to hold both secrets and the other's commitment transaction, which includes the signed [input](https://planb.academy/resources/glossary/input). Without this transaction, the revocation key is useless on its own. The only way to obtain this transaction is to retrieve it from the mempools (i.e., transactions waiting for confirmation) or from the confirmed transactions on the blockchain during the timelock, which proves that the other party is attempting to cheat, whether intentionally or not.
 
 Let's take an example to understand this process well:
 
@@ -412,7 +423,7 @@ In a **cooperative closure**, Alice and Bob agree to close the channel. Here's h
 
 ![LNP201](assets/en/031.webp)
 
-- Alice and Bob negotiate together the fees of the **closing transaction**. These fees are generally calculated based on the Bitcoin fee market at the time of closure. It is essential to note that **it is always the person who opened the channel** (in our example, Alice) who pays the closing fees.
+- Alice and Bob negotiate together the [fees](https://planb.academy/resources/glossary/transaction-fees) of the **closing transaction**. These fees are generally calculated based on the Bitcoin fee market at the time of closure. It is essential to note that **it is always the person who opened the channel** (in our example, Alice) who pays the closing fees.
 - They construct a new **closing transaction**. This transaction resembles a commitment transaction, but without timelocks or revocation mechanisms, since both parties are cooperating and there is no risk of cheating. This cooperative closing transaction is therefore different from commitment transactions.
 
 For example, if Alice owns **100,000 satoshis** and Bob owns **30,000 satoshis**, the closing transaction will send **100,000 satoshis** to Alice's address and **30,000 satoshis** to Bob's address, without timelock constraints. Once this transaction is signed by both parties, it is published by Alice. Once the transaction is confirmed on the Bitcoin blockchain, the Lightning channel will be officially closed.
@@ -468,11 +479,11 @@ In the upcoming chapters, we will explore the Lightning Network from a broader p
 
 :::video id=38419c23-5592-4573-b0a7-84824a5bfb77:::
 
-In this chapter, we will explore how payments on the Lightning Network can reach a recipient even if they are not directly connected by a payment channel. Lightning is, indeed, a **network of payment channels**, which allows funds to be sent to a distant node through the channels of other participants. We will explore how payments are routed across the network, how liquidity is transferred between channels, and how transaction fees are calculated.
+In this chapter, we will explore how payments on the Lightning Network can reach a recipient even if they are not directly connected by a payment channel. Lightning is, indeed, a **network of payment channels**, which allows funds to be sent to a distant node through the channels of other participants. We will explore how payments are routed across the network, how [liquidity](https://planb.academy/resources/glossary/liquidity-lightning) is transferred between channels, and how transaction fees are calculated.
 
 ### The Network of Payment Channels
 
-On the Lightning Network, a transaction corresponds to a transfer of funds between two nodes. As seen in previous chapters, it is necessary to open a channel with someone to perform Lightning transactions. This channel allows for an almost infinite number of off-chain transactions before it is closed, reclaiming the on-chain balance. However, this method has the disadvantage of requiring a direct channel with the other person to receive or send funds, which implies an opening transaction and a closing transaction for each channel. If I plan to make a large number of payments with this person, opening and closing a channel becomes cost-effective. Conversely, if I only need to perform a few Lightning transactions, opening a direct channel is not advantageous, as it would incur two on-chain transactions for a limited number of off-chain transactions. This case might occur, for example, when wanting to pay with Lightning at a merchant without planning to return.
+On the Lightning Network, a transaction corresponds to a transfer of funds between two nodes. As seen in previous chapters, it is necessary to open a channel with someone to perform Lightning transactions. This channel allows for an almost infinite number of [off-chain](https://planb.academy/resources/glossary/offchain) transactions before it is closed, reclaiming the on-chain balance. However, this method has the disadvantage of requiring a direct channel with the other person to receive or send funds, which implies an opening transaction and a closing transaction for each channel. If I plan to make a large number of payments with this person, opening and closing a channel becomes cost-effective. Conversely, if I only need to perform a few Lightning transactions, opening a direct channel is not advantageous, as it would incur two on-chain transactions for a limited number of off-chain transactions. This case might occur, for example, when wanting to pay with Lightning at a merchant without planning to return.
 
 To solve this problem, the Lightning Network enables routing a payment through several channels and intermediary nodes, thus allowing for a transaction without a direct channel with the other person.
 
@@ -612,7 +623,7 @@ Here's how this process works in our example with Alice, Suzie, and Bob:
 
 ![LNP201](assets/en/048.webp)
 
-**Creating the secret**: Bob generates a random secret noted as _s_ (the preimage), and calculates its hash noted as _r_ with the hash function noted as _h_. We have:
+**Creating the secret**: Bob generates a random secret noted as _s_ (the preimage), and calculates its hash noted as _r_ with the [hash function](https://planb.academy/resources/glossary/hash-function) noted as _h_. We have:
 
 $$
 r = h(s)
@@ -717,7 +728,7 @@ Even with this topology of the Lightning Network, essential information for rout
 
 ### Network Map Update
 
-To keep their network map up to date, nodes regularly exchange messages through an algorithm called "**_gossip_**". This is a distributed algorithm used to disseminate information in an epidemic manner to all nodes in the network, enabling the exchange and synchronization of the global state of the channels within a few communication cycles. Each node propagates information to one or more neighbors, chosen at random or not; these, in turn, propagate the information to other neighbors, and so on, until a globally synchronized state is achieved.
+To keep their network map up to date, nodes regularly exchange messages through an algorithm called "**_[gossip](https://planb.academy/resources/glossary/gossip)_**". This is a distributed algorithm used to disseminate information in an epidemic manner to all nodes in the network, enabling the exchange and synchronization of the global state of the channels within a few communication cycles. Each node propagates information to one or more neighbors, chosen at random or not; these, in turn, propagate the information to other neighbors, and so on, until a globally synchronized state is achieved.
 
 The 2 main messages exchanged between Lightning nodes are as follows:
 
@@ -793,7 +804,7 @@ In the following chapter, we will specifically study the functioning of invoices
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
 :::video id=309c3412-506e-4189-ad46-5e5088c55008:::
 
-In this chapter, we will take a closer look at the operation of Lightning **invoices**, that is, payment requests sent by the recipient node to the sender node. The goal is to understand how to pay and receive payments on Lightning. We will also discuss 2 alternatives to classic invoices: LNURL and Keysend.
+In this chapter, we will take a closer look at the operation of Lightning **invoices**, that is, payment requests sent by the recipient node to the sender node. The goal is to understand how to pay and receive payments on Lightning. We will also discuss 2 alternatives to classic invoices: [LNURL](https://planb.academy/resources/glossary/lnurl) and Keysend.
 
 ![LNP201](assets/en/068.webp)
 
@@ -870,7 +881,7 @@ The payload of an invoice includes several pieces of information necessary for p
 - **Routing Hints**: Additional information provided by the recipient to help the sender optimize the payment route.
 - **The Signature**: Guarantees the integrity of the invoice by authenticating all the information.
 
-The invoices are then encoded in **bech32**, the same format as for Bitcoin SegWit addresses (format starting with `bc1`).
+The invoices are then encoded in **[bech32](https://planb.academy/resources/glossary/bech32-and-bech32m)**, the same format as for Bitcoin [SegWit](https://planb.academy/resources/glossary/segwit) addresses (format starting with `bc1`).
 
 ### LNURL Withdrawal
 
@@ -912,8 +923,8 @@ In this chapter, we will explore strategies for effectively managing liquidity o
 
 There are three main user profiles on Lightning, each with specific liquidity needs:
 
-- **The Payer**: This is the one who makes payments. They require outgoing liquidity to transfer funds to other users. For example, this could be a consumer.
-- **The Seller (or Payee)**: This is the one who receives payments. They need incoming liquidity to accept payments to their node. For example, this could be a business or an online store.
+- **The Payer**: This is the one who makes payments. They require [outgoing liquidity](https://planb.academy/resources/glossary/outbound-capacity) to transfer funds to other users. For example, this could be a consumer.
+- **The Seller (or Payee)**: This is the one who receives payments. They need [incoming liquidity](https://planb.academy/resources/glossary/inbound-capacity) to accept payments to their node. For example, this could be a business or an online store.
 - **The Router**: An intermediary node, often specialized in routing payments, that must optimize its liquidity in each channel to route as many payments as possible and earn fees.
 
 These profiles are obviously not fixed; a user can switch between payer and payee depending on the transactions. For example, Bob could receive his salary on Lightning from his employer, placing him in the position of a "seller" requiring incoming liquidity. Subsequently, if he wants to use his salary to buy food, he becomes a "payer" and must then have outgoing liquidity.
@@ -1027,6 +1038,10 @@ We have observed that liquidity management poses a challenge on Lightning, neces
 - **Collaborative Openings**: There are also platforms available for connecting to perform triangular openings and to have incoming liquidity.
 
 ![LNP201](assets/en/084.webp)
+
+Now that you have understood the theoretical functioning of the Lightning Network, you can move on to practice and set up your first Lightning node in order to gain greater autonomy in your usage. To do so, follow the LNP 202 course:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 # Final Section
 

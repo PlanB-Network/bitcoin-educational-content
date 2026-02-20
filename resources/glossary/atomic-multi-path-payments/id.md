@@ -1,6 +1,7 @@
 ---
-term: ATOMIC MULTI-PATH PAYMENTS (AMP)
+term: Atomic multi-path payments
 
+definition: Versi yang ditingkatkan dari pembayaran multi-path di Lightning di mana setiap fragmen memiliki rahasia yang berbeda, memastikan pembayaran diselesaikan sepenuhnya atau tidak sama sekali.
 ---
 
 Versi MPP (*Multi-Path Payments*) yang disempurnakan di mana setiap fragmen pembayaran memiliki rahasia parsial yang berbeda, memastikan bahwa transaksi diselesaikan secara atomik, yaitu secara penuh atau tidak diselesaikan sama sekali.

@@ -1,5 +1,6 @@
 ---
-term: KONSOLIDACJA
+term: Konsolidacja
+definition: Transakcja łącząca kilka małych UTXO w jeden większy w celu obniżenia przyszłych opłat.
 ---
 
 Określona transakcja, w której wiele małych UTXO jest łączonych w jedno wejście w celu utworzenia pojedynczego, większego UTXO jako wyjścia. Ta operacja jest transakcją wykonywaną na własnym Wallet. Celem konsolidacji jest wykorzystanie okresów, w których opłaty w sieci Bitcoin są niskie, aby połączyć kilka małych UTXO w jedno o większej wartości. W ten sposób przewiduje się obowiązkowe wydatki w przypadku wzrostu opłat, co pozwala zaoszczędzić na przyszłych opłatach transakcyjnych.
@@ -11,4 +12,3 @@ Rzeczywiście, transakcje z wieloma danymi wejściowymi są cięższe, a co za t
 Należy jednak zauważyć, że transakcje konsolidacyjne są rozpoznawalne podczas analizy łańcucha. Taka transakcja wskazuje na Common Input Ownership Heuristic (CIOH), co oznacza, że dane wejściowe transakcji konsolidacyjnej są własnością jednego podmiotu. Może to mieć wpływ na prywatność użytkownika.
 
 
-![](../../dictionnaire/assets/7.webp)

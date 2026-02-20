@@ -6,4 +6,4 @@ wrong_answers:
   - Porque la clave varía con cada cifrado
 explanation: |
   El cifrado por desplazamiento se considera un cifrado simétrico porque utiliza la misma clave para cifrar y descifrar un mensaje, asegurando así la confidencialidad entre las partes que comparten esta clave.
-reviewed: false
+reviewed: true

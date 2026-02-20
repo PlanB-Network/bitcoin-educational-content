@@ -69,7 +69,7 @@ O SimpleX Chat está disponível em todas as plataformas. Pode descarregar a apl
 
 
 
-No Android, também é possível [instalar via APK] (https://github.com/simplex-chat/simplex-chat/releases).
+No Android, também é possível [instalar via APK](https://github.com/simplex-chat/simplex-chat/releases).
 
 
 

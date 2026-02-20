@@ -1,0 +1,8 @@
+question: Jaký je hlavní mechanismus, který Rust používá k prevenci chyb souvisejících s pamětí, jako je use-after-free a přetečení bufferu?
+answer: Statická analýza prováděná výhradně v době kompilace
+wrong_answers:
+  - Runtime garbage collection s automatickým čištěním paměti
+  - Dynamická kontrola paměti během provádění programu
+  - Ruční správa paměti s explicitním voláním alokace
+explanation: |
+  Rust zabraňuje chybám souvisejícím s pamětí pomocí statické analýzy prováděné výhradně v době kompilace, kdy překladač zkoumá zdrojový kód a s jistotou určuje, zda jsou operace s pamětí bezpečné. Tím se liší od garbage collection (používaného v jazycích Java/Go), který přináší režii za běhu, dynamické kontroly, která vyžaduje ověření za běhu, a ruční správy paměti (používané v jazycích C/C++), která závisí na disciplíně programátora. Přístup Rust v době kompilace zajišťuje bezpečnost paměti bez nákladů za běhu a nepředvídatelných pauz.

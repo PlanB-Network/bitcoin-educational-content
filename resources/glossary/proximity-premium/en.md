@@ -1,5 +1,6 @@
 ---
-term: PROXIMITY BONUS
+term: Proximity premium
+definition: Financial advantage for miners obtained by reducing network communication latency.
 ---
 
 In the context of Bitcoin mining, refers to the financial advantage miners gain by reducing communication latency on the network. Miners located closer together receive new valid blocks more quickly, enabling them to stop wasting resources on a candidate block that is on a branch with less accumulated work. This reduction in latency improves miners' returns, which naturally encourages them to group together geographically to maximize their revenues.

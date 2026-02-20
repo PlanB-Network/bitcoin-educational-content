@@ -1,0 +1,9 @@
+question: 瞭望塔旨在防范的主要风险是什么？
+answer: 与旧州作弊
+wrong_answers:
+  - 51% 攻击
+  - 偷盗种子
+  - 用新状态作弊
+explanation: |
+  一个瞭望塔可以防止旨在挪用资金的旧频道国家的出版。
+reviewed: false

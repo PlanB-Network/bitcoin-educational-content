@@ -87,7 +87,7 @@ Ente Auth zostało opracowane przez zespół stojący za Ente Photos, kompleksow
 
 
 
-Ente Auth jest dostępny na większości popularnych platform. Aplikację można pobrać z [oficjalnej strony internetowej] (https://ente.io/auth) lub z oficjalnych sklepów.
+Ente Auth jest dostępny na większości popularnych platform. Aplikację można pobrać z [oficjalnej strony internetowej](https://ente.io/auth) lub z oficjalnych sklepów.
 
 
 
@@ -109,7 +109,7 @@ Dostępnych jest kilka opcji:
 
 - **Sklep Google Play**: Wyszukaj "Ente Auth" dla klasycznej instalacji
 - **F-Droid**: Dostępne z katalogu aplikacji open-source dla systemu Android, z gwarancją sprawdzonej konstrukcji i braku zastrzeżonych treści
-- **Instalacja ręczna**: Pliki APK można pobrać z [strony GitHub projektu] (https://github.com/ente-io/auth/releases) ze zintegrowanymi powiadomieniami o nowych wersjach
+- **Instalacja ręczna**: Pliki APK można pobrać z [strony GitHub projektu](https://github.com/ente-io/auth/releases) ze zintegrowanymi powiadomieniami o nowych wersjach
 
 
 
@@ -350,7 +350,7 @@ Ente Auth oferuje kilka praktycznych funkcji:
 
 
 
-**Ikony automatyczne**: Każdy wpis może być zilustrowany logo serwisu, dzięki integracji pakietu ikon [Simple Icons] (https://simpleicons.org/).
+**Ikony automatyczne**: Każdy wpis może być zilustrowany logo serwisu, dzięki integracji pakietu ikon [Simple Icons](https://simpleicons.org/).
 
 
 
@@ -554,13 +554,14 @@ Model biznesowy Ente opiera się na płatnej usłudze Ente Photos, umożliwiają
 
 
 
-| Application              | Open Source | Sauvegarde Cloud | E2EE | Sync multi-devices | Plateformes                                        |
+
+| Aplikacja              | Otwarte źródło | Kopia zapasowa w chmurze | E2EE | Synchronizacja między urządzeniami | Platformy                                        |
 | ------------------------ | ----------- | ---------------- | ---- | ------------------ | -------------------------------------------------- |
 | **Ente Auth**            | ✅           | ✅                | ✅    | ✅                  | Android, iOS, Linux, macOS, Windows                |
-| **Google Authenticator** | ❌           | ✅ (sans E2EE)    | ❌    | ✅                  | Android, iOS                                       |
+| **Google Authenticator** | ❌           | ✅ (bez E2EE)    | ❌    | ✅                  | Android, iOS                                       |
 | **Aegis**                | ✅           | ❌                | ✅    | ❌                  | Android                                            |
-| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(apps desktop supprimées août 2024)* |
-| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(récent, moins établi)*              |
+| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(aplikacje desktop usunięte sierpień 2024)* |
+| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(niedawny, mniej ugruntowany)*              |
 
 Ente Auth wyróżnia się jako jedno z niewielu rozwiązań łączących wszystkie zalety: przejrzystość kodu źródłowego, szyfrowane kopie zapasowe w chmurze i synchronizację między platformami.
 

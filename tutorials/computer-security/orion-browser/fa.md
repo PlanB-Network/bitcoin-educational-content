@@ -522,15 +522,16 @@ Orion+ استقلال پروژه را تضمین می‌کند: "کمک مالی
 
 
 
-| Critère | Orion | Safari | Chrome | Firefox | Brave |
+
+| معیار | Orion | Safari | Chrome | Firefox | Brave |
 |---------|-------|--------|---------|----------|--------|
-| **Télémétrie** | Aucune | Minimale | Extensive | Modérée | Minimale |
-| **Bloqueur natif** | 99,9% efficace | Basique | Absent | Partiel | Complet |
-| **Extensions** | Chrome + Firefox | Limitées | Chrome uniquement | Firefox uniquement | Chrome uniquement |
-| **Performance Mac** | Excellente | Excellente | Bonne | Moyenne | Bonne |
-| **Consommation RAM** | Très faible | Faible | Élevée | Moyenne | Moyenne |
-| **Open Source** | Partiel | Partiel (WebKit) | Partiel | Complet | Complet |
-| **Plateformes** | Mac/iOS | Mac/iOS | Toutes | Toutes | Toutes |
+| **تله‌متری** | هیچ | حداقل | گسترده | متوسط | حداقل |
+| **بلاکر بومی** | 99.9٪ مؤثر | پایه‌ای | غیر موجود | جزئی | کامل |
+| **افزونه‌ها** | Chrome + Firefox | محدود | فقط Chrome | فقط Firefox | فقط Chrome |
+| **عملکرد Mac** | عالی | عالی | خوب | متوسط | خوب |
+| **مصرف RAM** | بسیار کم | کم | زیاد | متوسط | متوسط |
+| **منبع باز** | جزئی | جزئی (WebKit) | جزئی | کامل | کامل |
+| **پلتفرم‌ها** | Mac/iOS | Mac/iOS | همه | همه | همه |
 
 **در مقابل Safari**: اوریون با مسدودکننده پیشرفته و پشتیبانی از افزونه‌ها، حفاظت بهتری ارائه می‌دهد و در عین حال عملکرد WebKit را حفظ می‌کند.
 

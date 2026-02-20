@@ -1,5 +1,6 @@
 ---
-term: THÊM-Nonce
+term: Extra-nonce
+definition: Trường trong coinbase cho phép mở rộng không gian tìm kiếm vượt ra ngoài nonce cổ điển để đào coin.
 ---
 
 Trường được sử dụng trong `scriptSig` của Coinbase Transaction trong khối, cho phép kiểm tra nhiều khả năng hơn để có Hash thấp hơn mục tiêu độ khó, ngoài Nonce cổ điển, nằm trực tiếp trong tiêu đề của mỗi khối.

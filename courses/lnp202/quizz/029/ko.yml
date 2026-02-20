@@ -1,0 +1,9 @@
+question: 워치타워가 예방하고자 하는 주요 위험은 무엇인가요?
+answer: 이전 상태로 부정 행위
+wrong_answers:
+  - 51% 공격
+  - 종자 도난
+  - 새로운 상태로 치트
+explanation: |
+  망루는 자금 횡령을 목적으로 하는 오래된 채널 상태의 공개를 방지합니다.
+reviewed: false

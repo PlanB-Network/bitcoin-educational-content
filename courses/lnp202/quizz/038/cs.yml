@@ -1,0 +1,9 @@
+question: Proč je snadné spravovat profil spotřebitele?
+answer: Malá potřeba příchozí likvidity
+wrong_answers:
+  - Není vyžadován žádný kanál
+  - Malá potřeba odchozí likvidity
+  - Není třeba zálohovat
+explanation: |
+  Spotřebitelé nepotřebují mnoho příchozí likvidity a odchozí platby přirozeně vytvářejí určitou příchozí likviditu bez složité strategie.
+reviewed: false

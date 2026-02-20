@@ -289,7 +289,7 @@ CertUtil -hashfile seedsigner_os.0.8.6.pi02w.img SHA256
 
 
 
-Если у вас его еще нет, загрузите программу [Balena Etcher] (https://etcher.balena.io/), затем :
+Если у вас его еще нет, загрузите программу [Balena Etcher](https://etcher.balena.io/), затем :
 
 
 

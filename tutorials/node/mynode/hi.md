@@ -2,7 +2,7 @@
 name: My Node
 description: अपने Bitcoin MyNode को सेट अप करें
 ---
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 [माय नोड](https://mynodebtc.com/) सबसे आसान और शक्तिशाली तरीका है Bitcoin और लाइटनिंग नोड चलाने का! हम बेहतरीन ओपन सोर्स सॉफ़्टवेयर को अपने Interface, प्रबंधन, और समर्थन के साथ जोड़ते हैं ताकि आप Bitcoin और लाइटनिंग को आसानी से, निजी तौर पर और सुरक्षित रूप से उपयोग कर सकें।
 

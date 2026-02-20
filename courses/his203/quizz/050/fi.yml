@@ -1,0 +1,10 @@
+question: Mitä salanimeä Ross Ulbricht käytti helmikuusta 2012 lähtien Silk Roadin ylläpitäjänä?
+answer: Dread Pirate Roberts
+wrong_answers:
+  - Altoid
+  - Harbringerin varjo
+  - Merirosvo neljässäkymmenessä
+explanation: |
+ Ross Ulbricht valitsi tämän salanimen viitaten vuonna 1987 julkaistuun elokuvaan Prinsessan morsian. Elokuvassa nimi on eräänlainen titteli, joka voidaan siirtää merirosvolta toiselle
+ toiselle, jolloin haltijan todellinen henkilöllisyys voidaan salata ja "herättää tarvittavaa pelkoa" vihollisissa.
+reviewed: true

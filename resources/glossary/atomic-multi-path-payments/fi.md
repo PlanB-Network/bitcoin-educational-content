@@ -1,5 +1,6 @@
 ---
-term: ATOMISET MONIPOLKUMAKSUT
+term: Atomic multi-path payments
+definition: Lightning-verkon usean polun maksujen parannettu versio, jossa jokaisella fragmentilla on erillinen salaisuus, takaa että maksu ratkaistaaan kokonaan tai ei lainkaan.
 ---
 
 Parannettu versio MPP:stä (*Multi-Path Payments*), jossa kullakin maksupätkällä on erillinen osittainen salaisuus, jolla varmistetaan, että maksutapahtuma selvitetään atomisesti eli joko kokonaan tai ei ollenkaan.

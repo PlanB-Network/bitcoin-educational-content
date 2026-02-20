@@ -459,29 +459,30 @@ Wacha tufanye muhtasari wa kazi za kimsingi za Kali Linux kwenye jedwali.
 
 
 
-| **Catégorie**              | **Tâche de base**                      | **Description / Objectif**                                 | **Méthode principale**                                       |
+
+| **Kundi** | **Kazi ya Msingi** | **Maelezo / Lengo** | **Njia Kuu** |
 | -------------------------- | -------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------ |
-| **Navigation système**     | Ouvrir le terminal                     | Accéder à la ligne de commande principale de Kali          | Cliquez sur l’icône du terminal ou utilisez `Ctrl + Alt + T` |
-|                            | Parcourir les dossiers                 | Se déplacer dans l’arborescence du système                 | `cd /chemin/du/dossier`, `ls` pour lister les fichiers       |
-|                            | Créer / supprimer un dossier           | Organiser les fichiers                                     | `mkdir nom_dossier`, `rm -r nom_dossier`                     |
-| **Gestion des fichiers**   | Copier / déplacer un fichier           | Manipuler des fichiers dans le terminal                    | `cp fichier destination`, `mv fichier destination`           |
-|                            | Supprimer un fichier                   | Libérer de l’espace disque                                 | `rm nom_du_fichier`                                          |
-|                            | Afficher le contenu d’un fichier texte | Lire rapidement un fichier                                 | `cat fichier.txt`, `less fichier.txt`                        |
-| **Gestion du système**     | Mettre à jour Kali Linux               | Installer les dernières versions et correctifs de sécurité | `sudo apt update && sudo apt full-upgrade -y`                |
-|                            | Installer un logiciel                  | Ajouter un nouvel outil ou utilitaire                      | `sudo apt install nom_du_paquet`                             |
-|                            | Supprimer un logiciel                  | Nettoyer le système                                        | `sudo apt remove nom_du_paquet`                              |
-|                            | Nettoyer les dépendances inutiles      | Gagner de l’espace disque                                  | `sudo apt autoremove`                                        |
-| **Réseau et Internet**     | Vérifier la connexion réseau           | Tester l’accès à Internet                                  | `ping google.com`                                            |
-|                            | Identifier l’adresse IP                | Connaître sa configuration réseau                          | `ip a` ou `ifconfig`                                         |
-|                            | Changer de réseau Wi-Fi                | Se connecter à un autre point d’accès                      | Icône réseau → Sélectionner le Wi-Fi voulu                   |
-| **Comptes et permissions** | Exécuter une commande administrateur   | Obtenir les droits root temporairement                     | `sudo commande`                                              |
-|                            | Créer un nouvel utilisateur            | Ajouter un compte local                                    | `sudo adduser nom_utilisateur`                               |
-|                            | Modifier un mot de passe               | Sécuriser un compte                                        | `passwd`                                                     |
-| **Apparence et confort**   | Changer le fond d’écran                | Personnaliser le bureau                                    | Clic droit sur le bureau → **Paramètres du bureau**          |
-|                            | Modifier le thème / icônes             | Améliorer la lisibilité et l’esthétique                    | Paramètres → Apparence / Thèmes                              |
-| **Outils Kali**            | Ouvrir le menu des outils              | Explorer les outils de test et de sécurité                 | Menu **Applications → Kali Linux**                           |
-|                            | Lancer un outil (ex : nmap, wireshark) | Découverte pratique des utilitaires de sécurité            | `sudo nmap`, `wireshark`, etc.                               |
-| **Aide et documentation**  | Obtenir de l’aide sur une commande     | Comprendre une commande avant de l’utiliser                | `man commande` ou `commande --help`                          |
+| **Urambazaji wa Mfumo** | Fungua terminal | Pata ufikiaji wa mstari mkuu wa amri wa Kali | Bonyeza ikona ya terminal au tumia `Ctrl + Alt + T` |
+| | Vinjari folda | Sogeza kwenye muundo wa folda za mfumo | `cd /njia/ya/folda`, `ls` kuorodhesha faili |
+| | Unda / futa folda | Panga faili | `mkdir jina_la_folda`, `rm -r jina_la_folda` |
+| **Usimamizi wa Faili** | Nakili / sogeza faili | Shughulikia faili kwenye terminal | `cp faili lengo`, `mv faili lengo` |
+| | Futa faili | Punguza nafasi kwenye diski | `rm jina_la_faili` |
+| | Onyesha maudhui ya faili ya maandishi | Soma faili haraka | `cat faili.txt`, `less faili.txt` |
+| **Usimamizi wa Mfumo** | Sasisha Kali Linux | Sakinisha matoleo mapya na viraka vya usalama | `sudo apt update && sudo apt full-upgrade -y` |
+| | Sakinisha programu | Ongeza zana mpya au huduma | `sudo apt install jina_la_kifurushi` |
+| | Futa programu | Safisha mfumo | `sudo apt remove jina_la_kifurushi` |
+| | Safisha utegemezi usiohitajika | Pata nafasi kwenye diski | `sudo apt autoremove` |
+| **Mtandao na Intaneti** | Angalia muunganisho wa mtandao | Jaribu ufikiaji wa Intaneti | `ping google.com` |
+| | Tambua anwani ya IP | Jua usanidi wako wa mtandao | `ip a` au `ifconfig` |
+| | Badilisha mtandao wa Wi-Fi | Unganisha kwenye sehemu nyingine ya ufikiaji | Ikona ya mtandao → Chagua Wi-Fi unayotaka |
+| **Akaunti na Ruhusa** | Tekeleza amri ya msimamizi | Pata haki za root kwa muda | `sudo amri` |
+| | Unda mtumiaji mpya | Ongeza akaunti ya ndani | `sudo adduser jina_la_mtumiaji` |
+| | Badilisha nenosiri | Linda akaunti | `passwd` |
+| **Muonekano na Faraja** | Badilisha mandhari ya nyuma | Binafsisha desktop | Bonyeza kulia kwenye desktop → **Mipangilio ya Desktop** |
+| | Badilisha mandhari / ikona | Boresha usomaji na urembo | Mipangilio → Muonekano / Mandhari |
+| **Zana za Kali** | Fungua menyu ya zana | Chunguza zana za majaribio na usalama | Menyu ya **Programu → Kali Linux** |
+| | Zindua zana (mfano: nmap, wireshark) | Ugunduzi wa vitendo wa huduma za usalama | `sudo nmap`, `wireshark`, nk. |
+| **Msaada na Nyaraka** | Pata msaada kuhusu amri | Elewa amri kabla ya kuitumia | `man amri` au `amri --help` |
 
 ## Hitimisho
 

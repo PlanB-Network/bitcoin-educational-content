@@ -1,0 +1,9 @@
+question: Koji prosečni interval između svakog bloka Bitcoin cilja?
+answer: 10 minuta
+wrong_answers:
+  - 1 minut
+  - 30 minuta
+  - 60 minuta
+explanation: |
+  Protokol cilja na prosek od otprilike jednog bloka svakih 10 minuta tokom dugog perioda.
+reviewed: false

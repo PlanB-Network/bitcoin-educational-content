@@ -1,0 +1,10 @@
+question: Theo Tuyên ngôn Cypherpunk của Eric Hughes, trách nhiệm chính trong việc bảo vệ quyền riêng tư trong một xã hội điện tử mở thuộc về ai?
+answer: Mỗi cá nhân phải chủ động bảo vệ quyền riêng tư của mình thay vì dựa vào chính phủ hoặc các tập đoàn để bảo vệ quyền riêng tư đó.
+wrong_answers:
+  - Chính phủ nên thiết lập các quy định bảo vệ quyền riêng tư toàn diện để bảo vệ công dân khỏi sự giám sát của các tập đoàn.
+  - Các tổ chức lớn phải tự nguyện thực hiện các biện pháp bảo vệ quyền riêng tư như một phần trách nhiệm xã hội của doanh nghiệp.
+  - Cần đàm phán các hiệp ước quốc tế để tạo ra các tiêu chuẩn bảo mật phổ quát được thực thi bởi các cơ quan siêu quốc gia.
+explanation: |
+  Hughes đã tuyên bố rõ ràng rằng "Chúng ta không thể trông chờ vào chính phủ, các tập đoàn hoặc các tổ chức lớn ẩn danh khác đảm bảo tính bảo mật cho chúng ta" và mục tiêu chính của Cypherpunk là "khiến mọi người tự bảo vệ tính bảo mật của mình, thay vì dựa vào người khác để cung cấp điều đó".
+  
+  Điều này phản ánh triết lý cốt lõi của Cypherpunk về trách nhiệm cá nhân và sự thiếu tin tưởng vào các thể chế tập trung. Phong trào này tin rằng các công cụ mật mã nên trao quyền cho cá nhân tự bảo vệ mình thay vì phụ thuộc vào chính những thể chế mà họ coi là mối đe dọa tiềm tàng đối với quyền riêng tư và tự do.

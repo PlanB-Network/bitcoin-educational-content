@@ -1,0 +1,8 @@
+question: Enligt den liberala analys som presenteras, vad är det som gör sofismer särskilt farliga som hinder för friheten i samhället?
+answer: De ger ett intellektuellt rättfärdigande för system som inte är fria, samtidigt som de bygger på välmenande men felaktiga resonemang
+wrong_answers:
+  - De skapas avsiktligt av illvilliga aktörer som försöker förstöra friheten för personlig vinning
+  - De representerar gamla filosofiska misstag som modern ekonomisk vetenskap definitivt har motbevisat genom empiriska bevis
+  - De uppstår ur den naturliga mänskliga tendensen att föredra säkerhet framför frihet i tider av social osäkerhet
+explanation: |
+  Sofismer är särskilt farliga eftersom de kombinerar goda avsikter med bristfälliga resonemang och skapar intellektuella fundament som legitimerar frihetsinskränkningar. Till skillnad från avsiktlig illvilja består sofismer eftersom de verkar rimliga och främjas av välmenande människor. Detta gör dem svårare att bekämpa än direkt fientlighet mot frihet, eftersom de maskeras som legitima intellektuella argument samtidigt som de faktiskt undergräver friheten genom konceptuella fel.

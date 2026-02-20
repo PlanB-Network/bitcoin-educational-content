@@ -1,0 +1,9 @@
+question: Wat is de allereerste mining pool op Bitcoin?
+answer: Braiins Pool
+wrong_answers:
+  - Foundry USA
+  - AntPool
+  - F2Pool
+explanation: |
+  Braiins Pool, voorheen Slush Pool en Bitcoin CZ, is de eerste mining pool op Bitcoin, opgericht in 2010.
+reviewed: false

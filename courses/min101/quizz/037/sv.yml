@@ -1,0 +1,9 @@
+question: Vilken mekanism utökar sökutrymmet när 32-bitars nonce är uttömt?
+answer: Extra-nonce
+wrong_answers:
+  - Super-nonce
+  - Coinbase-nonce
+  - Double-nonce
+explanation: |
+  Genom att ändra extra-nonce i coinbase scriptSig ändras Merkle-roten och därmed headern.
+reviewed: false

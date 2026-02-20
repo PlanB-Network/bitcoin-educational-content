@@ -1,0 +1,9 @@
+question: Mitme kinnituse järel muutuvad coinbase'i väljundid kulutatavaks?
+answer: 101 kinnitust
+wrong_answers:
+  - 6 kinnitust
+  - 201 kinnitust
+  - 210 kinnitust
+explanation: |
+  Küpsusperiood on 100 plokki, seega on vaja 101 kinnitust, et muuta need UTXO-d kulutatavaks.
+reviewed: false

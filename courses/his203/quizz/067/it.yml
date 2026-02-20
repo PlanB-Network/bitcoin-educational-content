@@ -1,0 +1,10 @@
+question: Quale percentuale approssimativa dei bitcoin in circolazione rappresentava il denaro gestito dal fondo Bitcoin Savings & Trust al suo apice?
+answer: Circa 5%
+wrong_answers:
+  - Circa 0,05
+  - Circa 0,5
+  - Circa 50%
+explanation: |
+ Al suo apice, nell'agosto 2012, il fondo di Trendon Shavers (alias PirateAt40) gestiva oltre 500.000 bitcoin, pari a circa il 5% dei 9,7 milioni di bitcoin in circolazione
+ circolazione! Bitcoin Savings & Trust è crollato subito dopo, con l'evaporazione della fiducia.
+reviewed: true

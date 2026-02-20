@@ -1,5 +1,6 @@
 ---
-term: ATOMAIRE MEERPADENBETALINGEN
+term: Atomic multi-path payments
+definition: Een verbeterde versie van multi-path-betalingen op Lightning waarbij elk fragment een ander geheim heeft, wat garandeert dat de betaling volledig wordt verwerkt of helemaal niet.
 ---
 
 Verbeterde versie van MPP (*Multi-Path Payments*) waarbij elk betalingsfragment een apart deelgeheim heeft, zodat de transactie atomisch wordt afgewikkeld, d.w.z. volledig of helemaal niet.

@@ -55,7 +55,7 @@ Mis siis, kui tänapäeva majanduse mõistmise võti peitub sajanditevanuses teo
 
 ### Kuidas Raha Luuakse
 
-Meie praeguses rahandussüsteemis luuakse raha peamiselt panganduspraktika kaudu, mida tuntakse "osareservpangandusena". See termin tähendab põhimõtteliselt, et pankadel ei ole nõutud hoida reservis sama palju, kui nad saavad hoiustena. Seetõttu saavad nad luua uut ostujõudu, andes laene ja vastupidi, vähendada ostujõudu, kui kliendid laene tagasi maksavad.
+Meie praeguses rahandussüsteemis luuakse raha peamiselt panganduspraktika kaudu, mida tuntakse "[osareservpangandusena](https://planb.academy/resources/glossary/fractional-reserves)". See termin tähendab põhimõtteliselt, et pankadel ei ole nõutud hoida reservis sama palju, kui nad saavad hoiustena. Seetõttu saavad nad luua uut ostujõudu, andes laene ja vastupidi, vähendada ostujõudu, kui kliendid laene tagasi maksavad.
 
 Näiteks, kui läheneksite oma kohalikule pangale, et saada hüpoteeklaenu maja ostmiseks, tekiks teile laenatud raha pangaraamatupidamisesse kande näol. Raamatupidamises esitame tavaliselt üksikisiku netovara bilansina, millel on kaks poolt: varade pool, sealhulgas kõik omand, finantslepingud, inventar või muud rikkuse vormid, ja kohustuste pool, näidates vahendite allikat, mida kasutati varade poolel loetletud kapitali loomiseks. Varade ja kohustuste vahe nimetatakse "omakapitaliks" ja seda võib mõelda kui üksuse netovara.
 
@@ -119,7 +119,7 @@ Teine ZIRP-i tahtmatu tagajärg on see, et see julgustab valitsusi ulatuslikult 
 
 Joonis 6: Avalik & Eravõlg SKP-st % (Maailm, kaalutud riigi SKP järgi) / Allikas IMF
 
-Inflatsiooni tõustes märkimisväärse rahaloome tõttu vastusena COVID-iga seotud lukustustele, tõstavad keskpankurid nüüd poliitikamäärasid, üritades inflatsiooni ohjeldada. Siiski esitab see kogu süsteemile olulise väljakutse. Pangad on rohkem võimendatud kui kunagi varem, valitsused kannavad ajalooliselt kõrgeid võlatasemeid, majanduskasv on aeglane, puudujäägid on kasvamas ja tarbijad, kes võitlevad oluliste kaupade hinnatõusuga, raskustes ots otsaga kokku tulema. Inflatsiooni kontrollimine nõuaks intressimäärade tõstmist tasemele, mis võiks pankrotistada valitsused, samal ajal kui pangad riskivad deposiitide kaotamisega, kuna inimesed kulutavad oma säästud üha kallimatele esmatarbekaupadele või otsivad varjupaika kõvades varades ja rahaturufondides, et kaitsta end inflatsiooni eest.
+[Inflatsiooni](https://planb.academy/resources/glossary/inflation) tõustes märkimisväärse rahaloome tõttu vastusena COVID-iga seotud lukustustele, tõstavad keskpankurid nüüd poliitikamäärasid, üritades inflatsiooni ohjeldada. Siiski esitab see kogu süsteemile olulise väljakutse. Pangad on rohkem võimendatud kui kunagi varem, valitsused kannavad ajalooliselt kõrgeid võlatasemeid, majanduskasv on aeglane, puudujäägid on kasvamas ja tarbijad, kes võitlevad oluliste kaupade hinnatõusuga, raskustes ots otsaga kokku tulema. Inflatsiooni kontrollimine nõuaks intressimäärade tõstmist tasemele, mis võiks pankrotistada valitsused, samal ajal kui pangad riskivad deposiitide kaotamisega, kuna inimesed kulutavad oma säästud üha kallimatele esmatarbekaupadele või otsivad varjupaika kõvades varades ja rahaturufondides, et kaitsta end inflatsiooni eest.
 
 ### Järeldus
 
@@ -127,7 +127,7 @@ Inflatsiooni tõustes märkimisväärse rahaloome tõttu vastusena COVID-iga seo
 > John Maynard Keynes
 > Olemuselt seisab meie süsteem silmitsi oluliste väljakutsetega ja Bitcoin kerkib esile ainsa usaldusväärse alternatiivina. Siiski ei suuda Bitcoin üksi lahendada meie rahandussüsteemi probleeme. Eelkõige vajame inimesi, kes mõistavad majanduse põhiprintsiipe Bitcoin'i entusiastide seas, võimaldades laiemat teadlikkust ja majanduslikku terve mõistust, mis juhiks meid eemale teise hapra finantsaluse loomisest meie tsivilisatsioonile. Selle kursuse peamine eesmärk on harida uusi Bitcoin'i huvilisi terviklike majanduspõhimõtete alal.
 
-Selle eesmärgi saavutamiseks selgitame "Austria Majanduse" põhiprintsiipe, mis on majanduskoolkond, millel on metodoloogiline traditsioon, mis ulatub tagasi 16. sajandisse, pakkudes teadmisi inimtegevusest majanduslike piirangute all. Selle sissejuhatusega mõistate nüüd raha loomise põhitõdesid ja meie finants- ja rahandussüsteemi praegust olukorda.
+Selle eesmärgi saavutamiseks selgitame "[Austria Majanduse](https://planb.academy/resources/glossary/austrian-school)" põhiprintsiipe, mis on majanduskoolkond, millel on metodoloogiline traditsioon, mis ulatub tagasi 16. sajandisse, pakkudes teadmisi inimtegevusest majanduslike piirangute all. Selle sissejuhatusega mõistate nüüd raha loomise põhitõdesid ja meie finants- ja rahandussüsteemi praegust olukorda.
 
 Järgmises peatükis süveneme mis tahes majanduskoolkonna alustalasse: väärtusteooriasse. Järgnevad peatükid uurivad raha kui sotsiaalset institutsiooni, kapitali ja äritsüklite teooriat, majandusliku arvutamise väljakutset ning Austria Majanduskooli ajaloo ja metodoloogia lühikirjeldust.
 
@@ -492,9 +492,8 @@ Sellise vale jaotuse tagajärjed hõlmavad finants- ja majanduskriise, majandust
 
 Tänapäeval kerkib majandusarvestuse debatt esile peamiselt energiaküsimustes, kus roheagendast ajendatud valeinvesteeringud muutuvad üha ilmsemaks. Samuti tõstatub see rahaturgude aruteludes, kus Austria majandusteadlased osutavad, et 2008. aasta kriis, mida peavoolu majandusteadlased ei suutnud ennustada, oli klassikaline buumi ja languse tsükkel, mida iseloomustas üleinvesteering eluasemeturule pikaajaliste madalate intressimäärade tõttu. Lisaks levitavad neo-marksistid ja teised sotsialistlikud fraktsioonid arvamust, et tehisintellekti tekkimine võiks lahendada majandusarvestuse probleemi. Siiski põhineb see vaatenurk probleemi valest mõistmisest; majandusarvestuse probleem ei ole arvutusvõimsuse küsimus, vaid pigem tootmise ja ressursside jaotamisega seotud informatsiooni genereerimise ja levitamise küsimus. Seda informatsiooni saab genereerida ainult kohapeal agentide poolt, kellel on spetsialiseeritud teadmised ja otsene huvi tulemuse vastu. Tehisintellekt ei saa asendada seda alt-üles protsessi ja seetõttu ei saa aidata keskplaneerijatel lahendada ressursside jaotamise probleemi. Kahjuks on sajandi vältel tekkinud arusaamatusi tõttu oodata paljude väidete levikut, et tehisintellekt toob kaasa uue majandusliku õitsengu ajastu, mida juhivad valgustatud keskplaneerijad, kes tehisintellekti abil suudavad parandada vabaturu ebaõnnestumisi.
 
-Konkreetse näite majandusarvestuse probleemi rakendamisest kaasaegses olukorras leiate sellest artiklist, mis käsitleb ressursside jaotamise probleemi kaasaegses Hiinas.
+Majandusarvutuse probleemi konkreetseks rakendamiseks tänapäevases olukorras võite viidata sellele artiklile, mis käsitleb ressursside jaotamist tänapäeva Hiinas: *[The Road to Financial Repression: China the Paper Tiger](https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web)*, autor Théo Mogenet.
 
-> The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### Järeldus
 

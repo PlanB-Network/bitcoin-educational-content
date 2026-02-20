@@ -1,0 +1,9 @@
+question: Kako se izračunavaju naknade za transakciju?
+answer: Ulazi minus izlazi
+wrong_answers:
+  - Izlazi minus ulazi
+  - Ulazi plus izlazi
+  - Izlazi podeljeno sa ulazima
+explanation: |
+  Naknade odgovaraju vrednosti potrošenoj u ulazima koja nije ponovo stvorena u izlazima.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Na koji ekonomski mehanizam se prvenstveno oslanja sloboda ugovaranja kako bi se osiguralo da obe strane imaju koristi od dobrovoljnih razmena?
+answer: Subjektivna procena svake strane koja čini razmenu poželjnijom od uzdržavanja od nje
+wrong_answers:
+  - Vladina regulativa koja osigurava ravnomernu raspodelu beneficija između ugovornih strana
+  - Kontrola tržišnih cena koja garantuje fer nadoknadu za sve učesnike u razmeni
+  - Objektivno merenje vrednosti koje stvara matematički ekvivalentne dobitke za obe strane
+explanation: |
+  Dobrovoljni ugovori stvaraju međusobno obogaćivanje jer svaki pojedinac odlučuje da učestvuje samo kada subjektivno vrednuje ono što dobija više od onoga čega se odriče. Ova subjektivna preferencija, a ne bilo kakva spoljašnja regulacija ili objektivno merenje vrednosti, pokreće prirodu dobrovoljne razmene sa pozitivnim ishodom. Vladina regulacija ili kontrole cena zapravo bi potkopale ovaj dobrovoljni mehanizam, dok objektivno merenje vrednosti ignoriše lične preferencije koje motivišu pojedince da uopšte sklope ugovor.

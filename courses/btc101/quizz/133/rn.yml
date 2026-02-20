@@ -1,9 +1,9 @@
 question: None Bitcoin Blockchain ubu ifise ubunini bungana iki?
-answer: Nk’ibice 500GB.
+answer: Nk'ibice 660GB
 wrong_answers:
-  - Nk’ibice 100GB.
-  - Nk’ibice 1TB.
-  - Nk’ibice 2TB.
+  - Nk'ibice 110GB
+  - Nk'ibice 1TB
+  - Nk'ibice 2TB
 explanation: |
-  Bitcoin Blockchain ni nk'ibice 500GB mu bunini kuva mu 2023.
+  Bitcoin Blockchain ni nk'ibice 660GB mu bunini mu 2025.
 reviewed: true

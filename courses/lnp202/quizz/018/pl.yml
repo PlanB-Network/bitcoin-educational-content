@@ -1,0 +1,9 @@
+question: Ile słów zawiera mnemoniczna fraza LND?
+answer: 24 słowa
+wrong_answers:
+  - 10 słów
+  - 18 słów
+  - 36 słów
+explanation: |
+  LND generate to 24-wyrazowa fraza mnemoniczna do tworzenia kopii zapasowych i odzyskiwania węzłów.
+reviewed: false

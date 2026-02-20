@@ -1,0 +1,9 @@
+question: Yıldırım cezasını etkili kılan koşullar nelerdir?
+answer: Zaman kilidinin bitiminden önce algılama
+wrong_answers:
+  - Zaman kilidi başlamadan önce algılama
+  - Hile TX'in yayın öncesi tespiti
+  - Zaman kilidinin bitiminden sonra algılama
+explanation: |
+  Hilenin yaptırıma tabi tutulması için adalet işleminin zaman kilidi sona ermeden önce yayınlanması gerekir. Zaman kilidi başlamadan veya TX yayınlanmadan önce serbest bırakılamaz, çünkü bu, hilenin gerçekleşmediği anlamına gelir.
+reviewed: false

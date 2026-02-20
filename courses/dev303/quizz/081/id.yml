@@ -1,0 +1,8 @@
+question: Apa tujuan utama dari penggunaan map_err() ketika merantai operasi dengan tipe Result di Rust?
+answer: Untuk mengubah jenis kesalahan sambil membiarkan nilai keberhasilan tidak berubah selama propagasi kesalahan
+wrong_answers:
+  - Untuk mengubah nilai keberhasilan sambil secara otomatis menyebarkan kesalahan tanpa modifikasi
+  - Untuk mengonversi tipe Hasil menjadi tipe Opsi saat kesalahan perlu diabaikan
+  - Untuk mencegah penyebaran kesalahan dengan mengubah semua kesalahan menjadi nilai keberhasilan default
+explanation: |
+  Metode map_err() secara khusus dirancang untuk mengubah jenis kesalahan sambil mempertahankan nilai keberhasilan yang tidak berubah. Hal ini sangat penting untuk membangun aplikasi berlapis di mana komponen yang berbeda membutuhkan representasi kesalahan yang berbeda. Sebagai contoh, Anda dapat mengubah kesalahan penguraian tingkat rendah menjadi kesalahan spesifik domain yang memberikan konteks yang lebih baik. Opsi lainnya tidak benar: map() mengubah nilai keberhasilan (bukan map_err()), map_err() tidak mengkonversi ke tipe Option, dan tidak mencegah penyebaran atau membuat nilai keberhasilan default.

@@ -317,10 +317,11 @@ server=1
 سپس به نرم‌افزار مدیریت Wallet خود (مثلاً Sparrow wallet یا Liana) بروید و مسیر فایل کوکی خود را وارد کنید، که معمولاً در همان پوشه‌ای که `Bitcoin.conf` قرار دارد، بسته به سیستم‌عامل شما، واقع شده است:
 
 
-|**macOS**|~/Library/Application Support/Bitcoin|
-|---|---|
-|**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 
@@ -345,10 +346,11 @@ server=1
 پس از ویرایش فایل، مطمئن شوید که آن را در پوشه مناسب برای سیستم عامل خود ذخیره کنید:
 
 
+
 |**macOS**|~/Library/Application Support/Bitcoin|
 |---|---|
 |**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 این عملیات همچنین می‌تواند از طریق گرافیک‌های Bitcoin-QT's Interface انجام شود. به منوی "*Settings*" بروید، سپس "*Options...*" را انتخاب کنید و گزینه "*Enable RPC server*" را با علامت زدن کادر مربوطه فعال کنید. اگر فایل `Bitcoin.conf` وجود ندارد، می‌توانید آن را مستقیماً از این Interface با کلیک بر روی "*Open Configuration File*" ایجاد کنید.
 

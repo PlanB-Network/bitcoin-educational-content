@@ -1,0 +1,8 @@
+question: Que perceção fundamental sobre a adoção do Lightning levou a Breez a passar da criação de uma única aplicação móvel para o desenvolvimento de uma arquitetura SDK?
+answer: O ecossistema de aplicações móveis não facilita a comunicação entre aplicações, impedindo que as aplicações especializadas tirem partido da infraestrutura Lightning partilhada
+wrong_answers:
+  - Os dispositivos móveis não têm potência computacional suficiente para executar os nós de iluminação de forma fiável, exigindo uma infraestrutura baseada na nuvem para um funcionamento adequado
+  - A conformidade regulamentar exige que a funcionalidade Lightning seja centralizada em SDKs em vez de distribuída em aplicações móveis individuais
+  - A investigação sobre a experiência do utilizador mostrou que os consumidores preferem que os pagamentos relâmpago sejam geridos por serviços de terceiros em vez de aplicações individuais
+explanation: |
+  A resposta correta identifica a principal limitação arquitetônica descoberta por meio do aplicativo Breez original: os ecossistemas móveis não permitem uma comunicação fácil entre aplicativos, forçando os desenvolvedores a criar todos os recursos do Lightning em aplicativos únicos em vez de criar aplicativos especializados que compartilham a infraestrutura do Lightning. Essa perceção levou à abordagem do SDK que permite que vários aplicativos se conectem ao mesmo nó do Lightning. As respostas erradas centram-se nas limitações técnicas, nas questões regulamentares ou nas preferências dos utilizadores, mas estas não foram a perceção arquitetónica fundamental que impulsionou a mudança estratégica para um modelo SDK.

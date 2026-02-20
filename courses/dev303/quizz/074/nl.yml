@@ -1,0 +1,8 @@
+question: Wat is de belangrijkste beperking van het gebruik van de anyhow bibliotheek voor foutafhandeling in Rust bibliotheekontwikkeling?
+answer: Het converteert alle fouten naar tekenreeksberichten, zodat consumenten niet programmatisch kunnen reageren op verschillende foutcondities
+wrong_answers:
+  - Het werkt alleen met Resultaat-types en kan niet overweg met Optie-types, wat het nut beperkt in gemengde scenario's
+  - Het vereist handmatige foutconversie voor elk fouttype, waardoor het langdradiger is dan standaard Resultaatverwerking
+  - Het raakt automatisch in paniek bij bepaalde fouttypes, waardoor het ongeschikt is voor productiebibliotheekcode
+explanation: |
+  Het belangrijkste nadeel van de anyhow bibliotheek voor bibliotheekontwikkeling is dat het in wezen alle fouten afvlakt tot tekenreeksen, waardoor de gestructureerde foutinformatie verloren gaat die bibliotheekgebruikers nodig hebben om programmatische beslissingen te nemen. Hoewel anyhow uitblinkt in het vereenvoudigen van foutafhandeling voor eindgebruikertoepassingen waar fouten voornamelijk worden weergegeven, moeten bibliotheken specifieke fouttypes bieden waarmee gebruikers onderscheid kunnen maken tussen verschillende foutmodi (zoals ongeldige invoer versus runtime fouten) en op de juiste manier kunnen reageren. De andere opties zijn onjuist: anyhow werkt prima met zowel Resultaat- als Optietypes, vermindert in feite verbositeit door automatische conversie en veroorzaakt geen paniek.

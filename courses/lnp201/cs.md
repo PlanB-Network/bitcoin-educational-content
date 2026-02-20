@@ -77,7 +77,7 @@ Připraveni objevit technické mechanismy Lightning Network? Pojďme na to!
 :::video id=4315a277-12fe-4946-bb49-a807e60c09a7:::
 
 
-Lightning Network je síť platebních kanálů postavená na protokolu Bitcoinu, která má umožnit rychlé a nízkonákladové transakce. Umožňuje vytváření platebních kanálů mezi účastníky, v rámci kterých mohou být transakce prováděny téměř okamžitě a s minimálními poplatky, aniž by bylo nutné zaznamenávat každou transakci jednotlivě na blockchainu. Tímto způsobem se Lightning Network snaží zlepšit škálovatelnost Bitcoinu a učinit jej použitelným pro platby nízké hodnoty.
+[Lightning Network](https://planb.academy/resources/glossary/lightning-network) je síť [platebních kanálů](https://planb.academy/resources/glossary/payment-channel) postavená na protokolu Bitcoinu, která má umožnit rychlé a nízkonákladové transakce. Umožňuje vytváření platebních kanálů mezi účastníky, v rámci kterých mohou být transakce prováděny téměř okamžitě a s minimálními poplatky, aniž by bylo nutné zaznamenávat každou transakci jednotlivě na [blockchainu](https://planb.academy/resources/glossary/blockchain). Tímto způsobem se Lightning Network snaží zlepšit [škálovatelnost](https://planb.academy/resources/glossary/scalability) Bitcoinu a učinit jej použitelným pro platby nízké hodnoty.
 
 Před prozkoumáním aspektu "sítě" je důležité pochopit koncept **platebního kanálu** na Lightning, jak funguje a jeho specifika. To je předmětem této první kapitoly.
 
@@ -87,7 +87,7 @@ Platební kanál umožňuje dvěma stranám, zde **Alice** a **Bob**, vyměňova
 
 ![LNP201](assets/en/001.webp)
 
-V našem příkladu má Alice na své straně kanálu 100 000 satoshi a Bob 30 000, což dává dohromady 130 000 satoshi, což představuje **kapacitu kanálu**.
+V našem příkladu má Alice na své straně kanálu 100 000 [satoshi](https://planb.academy/resources/glossary/satoshi-sat) a Bob 30 000, což dává dohromady 130 000 satoshi, což představuje **[kapacitu kanálu](https://planb.academy/resources/glossary/lightning-channel-capacity)**.
 
 **Ale co je satoshi?**
 
@@ -135,7 +135,7 @@ Tato kapitola je trochu speciální, protože nebude přímo věnována Lightnin
 
 ### Bitcoinové Adresy, Soukromé a Veřejné Klíče
 
-Bitcoinová adresa je řada znaků odvozených z **veřejného klíče**, který je sám vypočítán z **soukromého klíče**. Jak jistě víte, používá se k uzamčení bitcoinů, což je ekvivalentní jejich přijetí do naší peněženky.
+Bitcoinová adresa je řada znaků odvozených z **[veřejného klíče](https://planb.academy/resources/glossary/public-key)**, který je sám vypočítán z **[soukromého klíče](https://planb.academy/resources/glossary/private-key)**. Jak jistě víte, používá se k uzamčení bitcoinů, což je ekvivalentní jejich přijetí do naší peněženky.
 
 Soukromý klíč je tajný prvek, který by **nikdy neměl být sdílen**, zatímco veřejný klíč a adresa mohou být sdíleny bez rizika pro bezpečnost (jejich zveřejnění představuje pouze riziko pro vaše soukromí). Zde je běžná reprezentace, kterou budeme v průběhu tohoto školení používat:
 
@@ -145,9 +145,9 @@ Soukromý klíč je tajný prvek, který by **nikdy neměl být sdílen**, zatí
 
 ### Bitcoinové Transakce: Odesílání Fondů a Skripty
 
-Na Bitcoinu transakce zahrnuje odeslání fondů z jedné adresy na druhou. Vezměme si příklad Alice, která posílá 0.002 Bitcoinu Bobovi. Alice použije soukromý klíč spojený s její adresou k **podepsání** transakce, čímž prokáže, že je skutečně schopna tyto fondy utratit. Ale co přesně se děje za touto transakcí? Fondy na Bitcoinové adrese jsou uzamčeny **skriptem**, jakýmsi mini-programem, který klade určité podmínky pro utrácení fondů.
+Na Bitcoinu transakce zahrnuje odeslání fondů z jedné adresy na druhou. Vezměme si příklad Alice, která posílá 0.002 Bitcoinu Bobovi. Alice použije soukromý klíč spojený s její adresou k **podepsání** transakce, čímž prokáže, že je skutečně schopna tyto fondy utratit. Ale co přesně se děje za touto transakcí? Fondy na Bitcoinové adrese jsou uzamčeny **[skriptem](https://planb.academy/resources/glossary/script)**, jakýmsi mini-programem, který klade určité podmínky pro utrácení fondů.
 
-Nejběžnější skript vyžaduje podpis soukromým klíčem spojeným s adresou. Když Alice podepíše transakci svým soukromým klíčem, **odemkne skript**, který blokuje fondy, a ty pak mohou být převedeny. Převod fondů zahrnuje přidání nového skriptu k těmto fondům, který stanoví, že pro jejich utrácení tentokrát bude vyžadován podpis **Bobova** soukromého klíče.
+Nejběžnější skript vyžaduje [podpis](https://planb.academy/resources/glossary/digital-signature) soukromým klíčem spojeným s adresou. Když Alice podepíše transakci svým soukromým klíčem, **odemkne skript**, který blokuje fondy, a ty pak mohou být převedeny. Převod fondů zahrnuje přidání nového skriptu k těmto fondům, který stanoví, že pro jejich utrácení tentokrát bude vyžadován podpis **Bobova** soukromého klíče.
 
 ![LNP201](assets/en/005.webp)
 
@@ -209,9 +209,9 @@ Jak jsme viděli v první kapitole, **platební kanál** na Lightningu lze přir
 
 Je zásadní jasně rozlišovat různé úrovně výměny na Lightning Network:
 
-- **Peer-to-peer komunikace (protokol Lightning)**: Jsou to zprávy, které si Lightning uzly posílají navzájem pro komunikaci. Tyto zprávy budeme na našich diagramech znázorňovat čárkovanými černými čarami.
+- **[Peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) komunikace (protokol Lightning)**: Jsou to zprávy, které si [Lightning uzly](https://planb.academy/resources/glossary/lightning-node) posílají navzájem pro komunikaci. Tyto zprávy budeme na našich diagramech znázorňovat čárkovanými černými čarami.
 - **Platební kanály (protokol Lightning)**: Jsou to cesty pro výměnu prostředků na Lightningu, které budeme znázorňovat plnými černými čarami.
-- **Bitcoinové transakce (protokol Bitcoin)**: Jsou to transakce provedené onchain, které budeme znázorňovat oranžovými čarami.
+- **Bitcoinové transakce (protokol Bitcoin)**: Jsou to transakce provedené [onchain](https://planb.academy/resources/glossary/onchain), které budeme znázorňovat oranžovými čarami.
 
 ![LNP201](assets/en/010.webp)
 Je důležité poznamenat, že Lightning node může komunikovat prostřednictvím P2P protokolu bez otevření kanálu, ale pro výměnu finančních prostředků je kanál nezbytný.
@@ -244,7 +244,7 @@ Je důležité poznamenat, že Lightning node může komunikovat prostřednictv�
 
 ### Kdy je kanál otevřen?
 
-Kanál je považován za otevřený, jakmile je transakce vkladu zahrnuta do Bitcoinového bloku a dosáhne určité hloubky potvrzení (počet následujících bloků).
+Kanál je považován za otevřený, jakmile je transakce vkladu zahrnuta do Bitcoinového [bloku](https://planb.academy/resources/glossary/block) a dosáhne určité hloubky [potvrzení](https://planb.academy/resources/glossary/confirmation) (počet následujících bloků).
 
 **Co si z této kapitoly máte zapamatovat?**
 
@@ -337,9 +337,9 @@ Ještě hůře, Alice by mohla publikovat úplně první výběrovou transakci, 
 
 Aby se zabránilo tomuto druhu podvodu ze strany Alice, na Lightning Network jsou do transakcí závazku přidány **bezpečnostní mechanismy**:
 
-- **Časový zámek**: Každá transakce závazku zahrnuje časový zámek pro prostředky Alice. Časový zámek je primitivum chytré smlouvy, které nastavuje časovou podmínku, která musí být splněna, aby byla transakce přidána do bloku. To znamená, že Alice nemůže získat zpět své prostředky, dokud neprojde určitý počet bloků, pokud publikuje jednu z transakcí závazku. Tento časový zámek začíná platit od potvrzení transakce závazku. Jeho délka je obecně proporcionální velikosti kanálu, ale může být také manuálně konfigurována.
+- **[Časový zámek](https://planb.academy/resources/glossary/timelock)**: Každá transakce závazku zahrnuje časový zámek pro prostředky Alice. Časový zámek je primitivum [chytré smlouvy](https://planb.academy/resources/glossary/smart-contract), které nastavuje časovou podmínku, která musí být splněna, aby byla transakce přidána do bloku. To znamená, že Alice nemůže získat zpět své prostředky, dokud neprojde určitý počet bloků, pokud publikuje jednu z transakcí závazku. Tento časový zámek začíná platit od potvrzení transakce závazku. Jeho délka je obecně proporcionální velikosti kanálu, ale může být také manuálně konfigurována.
 - **Revokační klíč**: Prostředky Alice mohou být také okamžitě utraceny Bobem, pokud má **revokační klíč**. Tento klíč se skládá z tajemství drženého Alicí a tajemství drženého Bobem. Poznamenejme, že toto tajemství je pro každou transakci závazku jiné.
-   Díky kombinaci těchto dvou mechanismů má Bob čas odhalit pokus Alice o podvod a potrestat ji tím, že pomocí revokačního klíče získá zpět svůj výstup, což pro Boba znamená získání všech prostředků kanálu. Náš nový závazný transakční záznam bude nyní vypadat takto:
+   Díky kombinaci těchto dvou mechanismů má Bob čas odhalit pokus Alice o podvod a potrestat ji tím, že pomocí revokačního klíče získá zpět svůj [výstup](https://planb.academy/resources/glossary/output), což pro Boba znamená získání všech prostředků kanálu. Náš nový závazný transakční záznam bude nyní vypadat takto:
    ![LNP201](assets/en/025.webp)
 
 Podívejme se podrobněji na fungování tohoto mechanismu.
@@ -349,7 +349,7 @@ Podívejme se podrobněji na fungování tohoto mechanismu.
 Když Alice a Bob aktualizují stav kanálu novou Lightning transakcí, vymění si předem své příslušné **tajemství** pro předchozí závazný transakční záznam (ten, který se stane zastaralým a mohl by umožnit jednomu z nich podvádět). To znamená, že v novém stavu kanálu:
 
 - Alice a Bob mají nový závazný transakční záznam reprezentující aktuální rozdělení prostředků po Lightning transakci.
-- Každý z nich má tajemství toho druhého pro předchozí transakci, což jim umožňuje použít revokační klíč, pouze pokud se jeden z nich pokusí podvádět zveřejněním transakce se starým stavem v mempoolech Bitcoin uzlů. Skutečně, aby bylo možné potrestat druhou stranu, je nutné držet obě tajemství a závazný transakční záznam toho druhého, který zahrnuje podepsaný vstup. Bez této transakce je revokační klíč sám o sobě k ničemu. Jediný způsob, jak získat tuto transakci, je její získání z mempoolů (v transakcích čekajících na potvrzení) nebo v potvrzených transakcích na blockchainu během časového zámku, což dokazuje, že druhá strana se pokouší podvádět, ať už úmyslně nebo ne.
+- Každý z nich má tajemství toho druhého pro předchozí transakci, což jim umožňuje použít revokační klíč, pouze pokud se jeden z nich pokusí podvádět zveřejněním transakce se starým stavem v [mempoolech](https://planb.academy/resources/glossary/mempool) Bitcoin uzlů. Skutečně, aby bylo možné potrestat druhou stranu, je nutné držet obě tajemství a závazný transakční záznam toho druhého, který zahrnuje [podepsaný vstup](https://planb.academy/resources/glossary/input). Bez této transakce je revokační klíč sám o sobě k ničemu. Jediný způsob, jak získat tuto transakci, je její získání z mempoolů (v transakcích čekajících na potvrzení) nebo v potvrzených transakcích na blockchainu během časového zámku, což dokazuje, že druhá strana se pokouší podvádět, ať už úmyslně nebo ne.
 
 Pojďme si vzít příklad, abychom tento proces dobře pochopili:
 
@@ -416,7 +416,7 @@ Při **kooperativním uzavření** se Alice a Bob dohodnou na uzavření kanálu
 
 ![LNP201](assets/en/031.webp)
 
-- Alice a Bob společně vyjednávají poplatky za **uzavírací transakci**. Tyto poplatky jsou obvykle vypočítány na základě trhu s poplatky Bitcoinu v době uzavření. Je důležité poznamenat, že **vždy osoba, která kanál otevřela** (v našem příkladu Alice), platí poplatky za uzavření.
+- Alice a Bob společně vyjednávají [poplatky](https://planb.academy/resources/glossary/transaction-fees) za **uzavírací transakci**. Tyto poplatky jsou obvykle vypočítány na základě trhu s poplatky Bitcoinu v době uzavření. Je důležité poznamenat, že **vždy osoba, která kanál otevřela** (v našem příkladu Alice), platí poplatky za uzavření.
 - Sestaví novou **uzavírací transakci**. Tato transakce se podobá commitment transakci, ale bez časových zámků nebo mechanismů pro odvolání, protože obě strany spolupracují a neexistuje riziko podvodu. Tato kooperativní uzavírací transakce se tedy liší od commitment transakcí.
    Například, pokud Alice vlastní **100 000 satoshi** a Bob **30 000 satoshi**, závěrečná transakce pošle **100 000 satoshi** na adresu Alice a **30 000 satoshi** na adresu Boba, bez omezení timelock. Jakmile je tato transakce podepsána oběma stranami, publikuje ji Alice. Jakmile je transakce potvrzena na Bitcoin blockchainu, Lightning kanál je oficiálně uzavřen.
    ![LNP201](assets/en/032.webp)
@@ -469,7 +469,7 @@ Existují tři způsoby, jak uzavřít kanál:
 :::video id=38419c23-5592-4573-b0a7-84824a5bfb77:::
 
 
-V této kapitole prozkoumáme, jak mohou platby na Lightning Network dosáhnout příjemce, i když nejsou přímo spojeni platebním kanálem. Lightning je skutečně **síť platebních kanálů**, která umožňuje posílání prostředků na vzdálený uzel prostřednictvím kanálů ostatních účastníků. Zjistíme, jak jsou platby směrovány napříč sítí, jak se likvidita pohybuje mezi kanály a jak se vypočítávají transakční poplatky.
+V této kapitole prozkoumáme, jak mohou platby na Lightning Network dosáhnout příjemce, i když nejsou přímo spojeni platebním kanálem. Lightning je skutečně **síť platebních kanálů**, která umožňuje posílání prostředků na vzdálený uzel prostřednictvím kanálů ostatních účastníků. Zjistíme, jak jsou platby směrovány napříč sítí, jak se [likvidita](https://planb.academy/resources/glossary/liquidity-lightning) pohybuje mezi kanály a jak se vypočítávají transakční poplatky.
 
 ### Síť platebních kanálů
 
@@ -608,7 +608,7 @@ HTLC je speciální kontrakt založený na dvou principech:
 Takto tento proces funguje v našem příkladu s Alicí, Suzie a Bobem:
 
 ![LNP201](assets/en/048.webp)
-**Vytvoření tajemství**: Bob vygeneruje náhodné tajemství označené jako _s_ (předobraz) a vypočítá jeho hash označený jako _r_ pomocí hashovací funkce označené jako _h_. Platí:
+**Vytvoření tajemství**: Bob vygeneruje náhodné tajemství označené jako _s_ (předobraz) a vypočítá jeho hash označený jako _r_ pomocí [hashovací funkce](https://planb.academy/resources/glossary/hash-function) označené jako _h_. Platí:
 
 $$
 r = h(s)
@@ -713,7 +713,7 @@ I s touto topologií sítě Lightning existují zásadní informace pro směrov�
 
 ### Aktualizace mapy sítě
 
-Aby uzly udržely svou mapu sítě aktuální, pravidelně si vyměňují zprávy prostřednictvím algoritmu nazvaného "**_gossip_**". Jedná se o distribuovaný algoritmus používaný k šíření informací epidemiologickým způsobem mezi všechny uzly v síti, což umožňuje výměnu a synchronizaci globálního stavu kanálů v několika komunikačních cyklech. Každý uzel šíří informace jednomu nebo více sousedům vybraným náhodně nebo ne, ti zase šíří informace dalším sousedům a tak dále, dokud není dosaženo globálně synchronizovaného stavu.
+Aby uzly udržely svou mapu sítě aktuální, pravidelně si vyměňují zprávy prostřednictvím algoritmu nazvaného "**_[gossip](https://planb.academy/resources/glossary/gossip)_**". Jedná se o distribuovaný algoritmus používaný k šíření informací epidemiologickým způsobem mezi všechny uzly v síti, což umožňuje výměnu a synchronizaci globálního stavu kanálů v několika komunikačních cyklech. Každý uzel šíří informace jednomu nebo více sousedům vybraným náhodně nebo ne, ti zase šíří informace dalším sousedům a tak dále, dokud není dosaženo globálně synchronizovaného stavu.
 
 2 hlavní zprávy vyměňované mezi uzly Lightning jsou následující:
 
@@ -786,7 +786,7 @@ V následující kapitole se budeme konkrétně zabývat fungováním faktur, kr
 
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
 :::video id=309c3412-506e-4189-ad46-5e5088c55008:::
-V této kapitole se podrobněji podíváme na fungování Lightning **faktur**, tedy platebních požadavků, které odesílá příjemce uzlu odesílateli. Cílem je pochopit, jak platit a přijímat platby na Lightning. Také probereme 2 alternativy klasických faktur: LNURL a Keysend.
+V této kapitole se podrobněji podíváme na fungování Lightning **faktur**, tedy platebních požadavků, které odesílá příjemce uzlu odesílateli. Cílem je pochopit, jak platit a přijímat platby na Lightning. Také probereme 2 alternativy klasických faktur: [LNURL](https://planb.academy/resources/glossary/lnurl) a Keysend.
 ![LNP201](assets/en/068.webp)
 
 ### Struktura Lightning faktur
@@ -861,7 +861,7 @@ Obsah faktury zahrnuje několik informací nezbytných pro zpracování platby:
 - **Nápovědy pro směrování**: Další informace poskytnuté příjemcem, které pomáhají odesílateli optimalizovat trasu platby.
 - **Podpis**: Zaručuje integritu faktury ověřením všech informací.
 
-Faktury jsou poté zakódovány ve formátu **bech32**, stejně jako adresy Bitcoin SegWit (formát začínající `bc1`).
+Faktury jsou poté zakódovány ve formátu **[bech32](https://planb.academy/resources/glossary/bech32-and-bech32m)**, stejně jako adresy Bitcoin [SegWit](https://planb.academy/resources/glossary/segwit) (formát začínající `bc1`).
 
 ### LNURL Výběr
 
@@ -902,8 +902,8 @@ V této kapitole prozkoumáme strategie pro efektivní správu likvidity na Ligh
 
 Na Lightning existují tři hlavní uživatelské profily, z nichž každý má specifické potřeby v oblasti likvidity:
 
-- **Platící (The Payer)**: Toto je ten, kdo provádí platby. Potřebují odchozí likviditu, aby mohli převádět prostředky ostatním uživatelům. Například to může být spotřebitel.
-- **Prodávající (The Seller or Payee)**: Toto je ten, kdo přijímá platby. Potřebují příchozí likviditu, aby mohli přijímat platby na svůj uzel. Například to může být podnik nebo internetový obchod.
+- **Platící (The Payer)**: Toto je ten, kdo provádí platby. Potřebují [odchozí likviditu](https://planb.academy/resources/glossary/outbound-capacity), aby mohli převádět prostředky ostatním uživatelům. Například to může být spotřebitel.
+- **Prodávající (The Seller or Payee)**: Toto je ten, kdo přijímá platby. Potřebují [příchozí likviditu](https://planb.academy/resources/glossary/inbound-capacity), aby mohli přijímat platby na svůj uzel. Například to může být podnik nebo internetový obchod.
 - **Router**: Prostředník, uzel často specializovaný na směrování plateb, který musí optimalizovat svou likviditu v každém kanálu, aby mohl směrovat co nejvíce plateb a vydělávat poplatky.
 
 Tyto profily samozřejmě nejsou pevně dané; uživatel může přecházet mezi rolí platícího a příjemce v závislosti na transakcích. Například Bob může přijímat svůj plat na Lightning od svého zaměstnavatele, což ho staví do pozice "prodávajícího", který potřebuje příchozí likviditu. Následně, pokud chce použít svůj plat na nákup jídla, stává se "platícím" a musí pak mít odchozí likviditu.
@@ -1012,6 +1012,10 @@ Viděli jsme, že správa likvidity je na Lightning výzvou, aby se zajistil ply
 - **Spolupracující otevření**: Existují také platformy dostupné pro spojení k provádění trojúhelníkových otevření a získání příchozí likvidity.
 
 ![LNP201](assets/en/084.webp)
+
+Nyní, když jste pochopili teoretické fungování Lightning Network, můžete přejít k praxi a nastavit svůj první Lightning uzel, abyste získali větší autonomii při jeho používání. Za tímto účelem sledujte kurz LNP 202:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 # Sekce finále
 

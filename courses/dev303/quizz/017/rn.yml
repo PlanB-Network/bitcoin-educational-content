@@ -1,0 +1,8 @@
+question: Ni ibihe bice bitatu bigize imiterere ya String mu ntumbero y’ukwibuka kwa Rust?
+answer: Ikimenyetso c'ikirundo c'amakuru, uburebure bw'ubu, n'ubushobozi bwose
+wrong_answers:
+  - Ikimenyetso co guteranya amakuru, ubunini bwa none, n'uburebure burengeye
+  - Aderesi y'ububiko, igiharuro c'inyuguti, n'ubwoko bw'ugutanga
+  - Igisobanuro c'amakuru, ubunini bwa byte, n'imimerere y'ubunywanyi
+explanation: |
+  Urudodo muri Rust rugizwe n'ibice bitatu vy'ukuri bibitswe ku rutonde: ikimenyetso c'amakuru y'inyuguti yatanzwe n'ikirundo, uburebure bw'ubu bw'ibirimwo urudodo, n'ubushobozi bwose bw'ububiko bwatanzwe. Uwo mubumbe utuma imirongo ikura neza kandi igabanuka mu gihe iguma izi imbibe zayo. Ayandi mahitamwo ntaco amaze kuko yerekana ahantu hatabereye (ikirundo aho gukoresha ikirundo), akoresha amajambo adatomoye (ubunini vs uburebure, igitigiri c'inyuguti vs uburebure bwa byte), canke ashiramwo ibice bitabaho nk'ubwoko bw'ugutanga canke ikibanza c'ubunywanyi.

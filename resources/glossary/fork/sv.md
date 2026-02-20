@@ -1,5 +1,6 @@
 ---
 term: Fork
+definition: Uppsplittring av nodnätverket eller modifiering av Bitcoin-protokollets regler.
 ---
 
 Begreppet "Fork" har flera betydelser i samband med Bitcoin. Det kan avse antingen en uppdelning av nätverket av noder i flera separata grupper, vilket leder till skapandet av flera olika blockkedjor, eller en ändring av protokollreglerna, eller båda samtidigt. För att förenkla kan vi urskilja 4 huvudkategorier av gafflar:

@@ -1,5 +1,6 @@
 ---
-term: ÇİFTE HARCAMA (SALDIRI)
+term: Çifte harclama
+definition: Karşı tarafları dolandırmak için aynı bitcoinleri birden fazla kez kullanmaya çalışan saldırı.
 ---
 
 Kötü niyetli bir kullanıcının aynı UTXO'i (*Harcama Yapılmamış İşlem Çıktısı*) birden fazla kez kullanarak işlemlere dahil olan tarafların zararına kendilerini zenginleştirmeye çalıştığı bir saldırı. Prensip olarak, bir işlem bir blokta onaylandıktan ve Blockchain'a eklendikten sonra, bu bitcoinlerin kullanımı kalıcı olarak kaydedilir ve aynı bitcoinlerin daha fazla harcanması önlenir. Çifte harcamayı önlemek bile Blockchain'ın birincil faydasıdır.

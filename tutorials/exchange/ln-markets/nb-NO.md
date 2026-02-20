@@ -101,7 +101,7 @@ Begrensning: 50 samtidige posisjoner. Ideell for nybegynnere som vil begynne å 
 
 
 
-Gå til [lnmarkets.com] (https://lnmarkets.com) og klikk på "Åpne app".
+Gå til [lnmarkets.com](https://lnmarkets.com) og klikk på "Åpne app".
 
 
 
@@ -299,7 +299,7 @@ Bitcoin og syntetiske USD-saldoer med historikk for innskudd, uttak, kryssoverf�
 
 
 
-LN Markets tilbyr en komplett API REST (V2 og V3) for å automatisere handelen din fullt ut via skript eller roboter. Du kan opprette API-nøkler med tilpassbare tillatelser (skrivebeskyttet, handel, uttak) direkte fra grensesnittet. Offisielle TypeScript- og Python-SDK-er er tilgjengelige for enkel integrering. Full API V3-dokumentasjon er tilgjengelig på [api.lnmarkets.com/v3] (https://api.lnmarkets.com/v3).
+LN Markets tilbyr en komplett API REST (V2 og V3) for å automatisere handelen din fullt ut via skript eller roboter. Du kan opprette API-nøkler med tilpassbare tillatelser (skrivebeskyttet, handel, uttak) direkte fra grensesnittet. Offisielle TypeScript- og Python-SDK-er er tilgjengelige for enkel integrering. Full API V3-dokumentasjon er tilgjengelig på [api.lnmarkets.com/v3](https://api.lnmarkets.com/v3).
 
 
 
@@ -679,4 +679,4 @@ Begynn i det små, test med noen få tusen satellitter, og utforsk gradvis denne
 
 
 - [LN Markets offisielle nettside](https://lnmarkets.com)
-- [Dokumentasjon] (https://docs.lnmarkets.com)
+- [Dokumentasjon](https://docs.lnmarkets.com)

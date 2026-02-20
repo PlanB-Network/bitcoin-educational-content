@@ -38,7 +38,7 @@ Satodime, ett **carte au porteur, tillhör den som fysiskt innehar det**, utan b
 
 
 
-Applikationen utvecklas regelbundet. Kontrollera Satochips webbplats eller butiker för uppdateringar. Till exempel kan nya blockkedjor eller köpfunktioner läggas till. Kontrollera [Satochip GitHub] (https://github.com/Toporin/Satodime-Applet) för pågående utveckling.
+Applikationen utvecklas regelbundet. Kontrollera Satochips webbplats eller butiker för uppdateringar. Till exempel kan nya blockkedjor eller köpfunktioner läggas till. Kontrollera [Satochip GitHub](https://github.com/Toporin/Satodime-Applet) för pågående utveckling.
 
 
 
@@ -67,10 +67,10 @@ Innan du börjar använda **Satodime** ska du se till att du har följande saker
 
 
 - Ladda ner ansökan** :
- - [App Store] (https://apps.apple.com/be/app/satodime/id1672273462)** (iOS)
- - [Google Play Store] (https://play.google.com/store/apps/details?id=org.satochip.satodimeapp)** (Android)
+ - [App Store](https://apps.apple.com/be/app/satodime/id1672273462)** (iOS)
+ - [Google Play Store](https://play.google.com/store/apps/details?id=org.satochip.satodimeapp)** (Android)
  - Kontrollera utvecklaren (Satochip) för att undvika bedrägeri.
- - Satodime är **öppen källkod**. Källkod : [Satochips GitHub] (https://github.com/Toporin/Satodime-Applet).
+ - Satodime är **öppen källkod**. Källkod : [Satochips GitHub](https://github.com/Toporin/Satodime-Applet).
 
 
 
@@ -124,7 +124,7 @@ Vid första användningen måste du bli ägare till kortet för att säkra det:
 - Klicka på "*Take Ownership*" i appen.
 - Bekräfta åtgärden: detta genererar en unik ägarnyckel.
 - Skanna kartan igen för att tillämpa ändringarna.
-- Varning**: Detta steg är irreversibelt. Se [artikeln om *äganderätt*] (https://satochip.io/satodime-ownership-explained/).
+- Varning**: Detta steg är irreversibelt. Se [artikeln om *äganderätt*](https://satochip.io/satodime-ownership-explained/).
 
 
 
@@ -300,8 +300,8 @@ Specifikt för Satodime :
 
 
 
-- [Satodime-produkt] (https://satochip.io/fr/product/satodime/)
-- [Mobilguide] (https://satochip.io/wp-content/uploads/2024/11/Satodime-FR-Short-tuto-app-mobile.pdf)
+- [Satodime-produkt](https://satochip.io/fr/product/satodime/)
+- [Mobilguide](https://satochip.io/wp-content/uploads/2024/11/Satodime-FR-Short-tuto-app-mobile.pdf)
 
 
 
@@ -340,8 +340,8 @@ https://planb.academy/tutorials/computer-security/authentication/seedkeeper-pass
 
 
 
-- [Site Satochip] (https://satochip.io/fr/)
-- [GitHub] (https://github.com/Toporin/Satodime-Applet)
+- [Site Satochip](https://satochip.io/fr/)
+- [GitHub](https://github.com/Toporin/Satodime-Applet)
 - Support: info@satochip.io
 
 

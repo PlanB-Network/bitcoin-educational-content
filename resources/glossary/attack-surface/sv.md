@@ -1,5 +1,6 @@
 ---
-term: ATTACK YTA
+term: Attackyta
+definition: En uppsättning potentiella ingångspunkter som en angripare kan exploatera för att få åtkomst till ett system. Att minska denna yta förbättrar säkerheten.
 ---
 
 Avser det totala antalet potentiella ingångspunkter som en angripare kan utnyttja för att få tillgång till ett system. Attackytan omfattar alla gränssnitt, tjänster, portar, protokoll och andra kommunikationsvektorer som kan exponeras. En utökad attackyta ökar sårbarheterna och gör därmed systemet mer mottagligt för attacker. Att minska attackytan är en god säkerhetspraxis som innebär att onödiga tjänster inaktiveras. När det gäller Bitcoin har till exempel hårdvaruplånböcker en mycket mindre attackyta än mjukvaruplånböcker. De isolerar nycklarna på en enhet som inte är ansluten till internet och som har mycket få gränssnitt och tjänster. Programvaruplånböcker installeras däremot på mångsidiga datorer, som har en mycket större angreppsyta på grund av de många funktioner och nätverksanslutningar som de stöder.

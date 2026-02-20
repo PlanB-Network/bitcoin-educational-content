@@ -31,10 +31,10 @@ Kode QR adalah cara default bagi Specter untuk berkomunikasi dengan host. Kode Q
 Untuk penyimpanan rahasia, kami mendukung mode agnostik (wallet melupakan semua rahasia saat dimatikan), mode sembrono (menyimpan rahasia dalam flash mikrokontroler aplikasi) dan integrasi secure element akan segera hadir.
 
 
-Fokus utama kami adalah pengaturan multisignature dengan dompet perangkat keras lainnya, tetapi wallet juga dapat berfungsi sebagai penandatangan tunggal. Kami mencoba untuk membuatnya kompatibel dengan Bitcoin Core jika kami bisa - PSBT untuk transaksi yang tidak ditandatangani, deskriptor wallet untuk mengimpor/mengekspor dompet multisig. Untuk berkomunikasi dengan Bitcoin Core dengan lebih mudah, kami juga sedang mengerjakan [aplikasi Specter Desktop] (https://github.com/cryptoadvance/specter-desktop) - sebuah server flask python kecil yang berbicara dengan node Bitcoin Core Anda.
+Fokus utama kami adalah pengaturan multisignature dengan dompet perangkat keras lainnya, tetapi wallet juga dapat berfungsi sebagai penandatangan tunggal. Kami mencoba untuk membuatnya kompatibel dengan Bitcoin Core jika kami bisa - PSBT untuk transaksi yang tidak ditandatangani, deskriptor wallet untuk mengimpor/mengekspor dompet multisig. Untuk berkomunikasi dengan Bitcoin Core dengan lebih mudah, kami juga sedang mengerjakan [aplikasi Specter Desktop](https://github.com/cryptoadvance/specter-desktop) - sebuah server flask python kecil yang berbicara dengan node Bitcoin Core Anda.
 
 
-Sebagian besar firmware ditulis dalam MicroPython yang membuat kode mudah untuk diaudit dan diubah. Kami menggunakan pustaka [secp256k1] (https://github.com/bitcoin-core/secp256k1) dari Bitcoin Core untuk perhitungan kurva elips dan pustaka [LittlevGL] (https://lvgl.io/) untuk GUI.
+Sebagian besar firmware ditulis dalam MicroPython yang membuat kode mudah untuk diaudit dan diubah. Kami menggunakan pustaka [secp256k1](https://github.com/bitcoin-core/secp256k1) dari Bitcoin Core untuk perhitungan kurva elips dan pustaka [LittlevGL](https://lvgl.io/) untuk GUI.
 
 
 ## Penafian
@@ -59,7 +59,7 @@ Bagian utama perangkat ini adalah papan pengembang:
 
 
 
-- Papan pengembang STM32F469I-DISCO (yaitu dari [Mouser] (https://eu.mouser.com/ProductDetail/STMicroelectronics/STM32F469I-DISCO?qs=kWQV1gtkNndotCjy2DKZ4w==) atau [Digikey] (https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F469I-DISCO/497-15990-ND/5428811))
+- Papan pengembang STM32F469I-DISCO (yaitu dari [Mouser](https://eu.mouser.com/ProductDetail/STMicroelectronics/STM32F469I-DISCO?qs=kWQV1gtkNndotCjy2DKZ4w==) atau [Digikey](https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F469I-DISCO/497-15990-ND/5428811))
 - Kabel Mini**USB
 - Kabel MicroUSB standar untuk berkomunikasi melalui USB
 
@@ -67,7 +67,7 @@ Bagian utama perangkat ini adalah papan pengembang:
 Opsional, tetapi direkomendasikan:
 
 
-- [Pemindai kode QR Waveshare] (https://www.waveshare.com/barcode-scanner-module.htm) dengan header pin panjang seperti [ini] (https://eu.mouser.com/ProductDetail/Samtec/DW-02-10-T-S-571?qs=sGAEpiMZZMvlX3nhDDO4AE5PKXAQeC6NPk%2FcLBS9yKI%3D) atau [ini] (https://www.amazon.com/gp/product/B015KA0RRU/) untuk menghubungkan pemindai ke papan (diperlukan 4 header pin).
+- [Pemindai kode QR Waveshare](https://www.waveshare.com/barcode-scanner-module.htm) dengan header pin panjang seperti [ini](https://eu.mouser.com/ProductDetail/Samtec/DW-02-10-T-S-571?qs=sGAEpiMZZMvlX3nhDDO4AE5PKXAQeC6NPk%2FcLBS9yKI%3D) atau [ini](https://www.amazon.com/gp/product/B015KA0RRU/) untuk menghubungkan pemindai ke papan (diperlukan 4 header pin).
 
 
 Saat ini kami sedang mengerjakan papan ekstensi yang mencakup slot kartu pintar, pemindai kode QR, baterai, dan casing cetak 3d, tetapi tidak termasuk bagian utama - papan penemuan yang perlu Anda pesan secara terpisah. Dengan cara ini, serangan rantai pasokan masih belum menjadi masalah karena komponen-komponen yang sangat penting bagi keamanan dibeli dari toko elektronik secara acak.
@@ -94,7 +94,7 @@ Tidak perlu menyolder, tetapi jika Anda memiliki keterampilan menyolder, Anda bi
 **Opsi 2.** Pemindai yang sangat bagus dari Mikroe tetapi cukup mahal (150$):
 
 
-[Klik Barcode] (https://www.mikroe.com/barcode-click) + [Adaptor] (https://www.mikroe.com/arduino-uno-click-shield)
+[Klik Barcode](https://www.mikroe.com/barcode-click) + [Adaptor](https://www.mikroe.com/arduino-uno-click-shield)
 
 
 **Opsi 3.** Pemindai QR lainnya
@@ -138,7 +138,7 @@ Berikut ini cara Anda menghubungkan pemindai ke papan tulis:
 ![image](assets/fr/02.webp)
 
 
-Untuk kenyamanan, Anda dapat membeli pelindung Arduino Protype dan menyolder & memasang semua yang ada di atasnya (misalnya [yang ini] (https://www.digikey.com/catalog/en/partgroup/proto-shield-rev3-uno-size/79347))
+Untuk kenyamanan, Anda dapat membeli pelindung Arduino Protype dan menyolder & memasang semua yang ada di atasnya (misalnya [yang ini](https://www.digikey.com/catalog/en/partgroup/proto-shield-rev3-uno-size/79347))
 
 
 ### Manajemen daya
@@ -150,7 +150,7 @@ Di sisi atas papan terdapat jumper yang menentukan di mana ia akan mengambil day
 ### Kandang untuk DIY
 
 
-Lihat folder [lampiran] (https://github.com/cryptoadvance/specter-diy/tree/master/docs/enclosures).
+Lihat folder [lampiran](https://github.com/cryptoadvance/specter-diy/tree/master/docs/enclosures).
 
 
 ### Jadilah kreatif!
@@ -159,7 +159,7 @@ Lihat folder [lampiran] (https://github.com/cryptoadvance/specter-diy/tree/maste
 Rakitlah Specter-DIY Anda sendiri dan kirimkan gambar-gambarnya kepada kami (buatlah pull request atau hubungi kami).
 
 
-Lihatlah [Galeri] (https://github.com/cryptoadvance/specter-diy/blob/master/docs/pictures/gallery/README.md) dengan Specters yang dikumpulkan oleh komunitas!
+Lihatlah [Galeri](https://github.com/cryptoadvance/specter-diy/blob/master/docs/pictures/gallery/README.md) dengan Specters yang dikumpulkan oleh komunitas!
 
 
 
@@ -202,7 +202,7 @@ Jika selalu gagal, Anda dapat menggunakan alat sumber terbuka [stlink](https://g
 
 
 
-- Unduh `specter_upgrade_<version>.bin` dari [rilis] (https://github.com/cryptoadvance/specter-diy/releases).
+- Unduh `specter_upgrade_<version>.bin` dari [rilis](https://github.com/cryptoadvance/specter-diy/releases).
 - Salin biner ini ke root kartu SD (berformat FAT, maksimal 32 GB)
  - Pastikan hanya ada satu file `specter_upgrade***.bin` di direktori root
 - Masukkan kartu SD ke slot SD pada papan penemuan dan nyalakan papan
@@ -339,10 +339,10 @@ Deskriptor `wpkh(xpub)` akan dikonversi menjadi `wpkh(xpub/{0,1}/*)`.
 ### Miniscript
 
 
-Specter mendukung miniscript, tetapi tidak mendukung kompilasi policy-to-miniscript (karena terlalu mahal). Kami melakukan beberapa pemeriksaan pada miniscipt, sehingga hanya skrip `B` yang diperbolehkan pada level teratas dan semua argumen dalam sub-miniscript harus memiliki properti yang sesuai dengan [spec] (http://bitcoin.sipa.be/miniscript/).
+Specter mendukung miniscript, tetapi tidak mendukung kompilasi policy-to-miniscript (karena terlalu mahal). Kami melakukan beberapa pemeriksaan pada miniscipt, sehingga hanya skrip `B` yang diperbolehkan pada level teratas dan semua argumen dalam sub-miniscript harus memiliki properti yang sesuai dengan [spec](http://bitcoin.sipa.be/miniscript/).
 
 
-Anda dapat menggunakan [bitcoin.sipa.be] (http://bitcoin.sipa.be/miniscript/) untuk generate deskriptor dari kebijakan dan kemudian mengimpornya ke wallet.
+Anda dapat menggunakan [bitcoin.sipa.be](http://bitcoin.sipa.be/miniscript/) untuk generate deskriptor dari kebijakan dan kemudian mengimpornya ke wallet.
 
 
 Sebagai contoh, kebijakan "Saya dapat membelanjakan sekarang, atau dalam 100 hari istri saya dapat membelanjakan" dapat dikonversi ke dalam wallet seperti itu:

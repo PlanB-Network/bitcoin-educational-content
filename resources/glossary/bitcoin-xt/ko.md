@@ -1,5 +1,6 @@
 ---
 term: Bitcoin XT
+definition: 블록 크기를 8MB로 늘릴 것을 제안한 2015년의 포크로, 블록 크기 전쟁(Blocksize War)의 시초가 됨.
 ---
 
 Bitcoin의 Fork는 2015년에 유명 개발자 Mike Hearn이 시작했으며, Satoshi가 떠난 후 Bitcoin의 수석 유지 관리자였던 Gavin Andresen이 지원했습니다.

@@ -74,7 +74,7 @@ Después de las palabras pronunciadas por Nicolas, era hora de empezar a constru
 ¿Qué significa código abierto y qué implica un proyecto de este tipo?
 
 
-FOSS son las siglas de Free & Open-Source Software (software libre y de código abierto). El primero se refiere a los términos que permiten a cualquiera copiar, modificar e incluso distribuir versiones (incluso con ánimo de lucro) del software. El segundo se refiere a compartir abiertamente el código fuente, animando al público a contribuir y mejorarlo.
+[FOSS](https://planb.academy/resources/glossary/foss) son las siglas de Free & Open-Source Software (software libre y de código abierto). El primero se refiere a los términos que permiten a cualquiera copiar, modificar e incluso distribuir versiones (incluso con ánimo de lucro) del software. El segundo se refiere a compartir abiertamente el código fuente, animando al público a contribuir y mejorarlo.
 
 Esto atrae a usuarios experimentados que se muestran entusiastas a la hora de contribuir al software que ya utilizan y del que obtienen valor, lo que en última instancia demuestra tener más éxito en la adopción que el software propietario. Es coherente con la ética de Bitcoin de que "la información anhela ser libre" Reúne a personas apasionadas que forman una comunidad y, sencillamente, es más divertido. Al igual que Bitcoin, el software libre es inevitable.
 
@@ -122,13 +122,13 @@ La fundación BTCPay Server, que permitió a Alekos y Bas escribir este curso, e
 Se trata de un ejercicio presencial, por lo que si realizas este curso por tu cuenta, no podrás llevarlo a cabo. Para completar esta tarea, se necesita un mínimo de 9 a 11 personas.
 
 
-El ejercicio comienza después de ver la introducción "Cómo funcionan Bitcoin y Blockchain" de la BBC.
+El ejercicio comienza después de ver la introducción "Cómo funcionan Bitcoin y [Blockchain](https://planb.academy/resources/glossary/blockchain)" de la BBC.
 
 
 :::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
 
-Este ejercicio requiere un mínimo de nueve participantes. El objetivo de este ejercicio es proporcionar una comprensión física del funcionamiento de Bitcoin. Desempeñando cada papel en la red, tendrás una forma interactiva y lúdica de aprender. En este ejercicio no interviene Lightning Network.
+Este ejercicio requiere un mínimo de nueve participantes. El objetivo de este ejercicio es proporcionar una comprensión física del funcionamiento de Bitcoin. Desempeñando cada papel en la red, tendrás una forma interactiva y lúdica de aprender. En este ejercicio no interviene [Lightning Network](https://planb.academy/resources/glossary/lightning-network).
 
 
 ### Ejemplo: Requiere 9 / 11 personas
@@ -140,7 +140,7 @@ Los papeles son:
 
 - 1 Cliente
 - 1 Comerciante
-- 7 a 9 nodos Bitcoin
+- 7 a 9 [nodos](https://planb.academy/resources/glossary/node) Bitcoin
 
 
 **La configuración es la siguiente:**
@@ -192,7 +192,7 @@ Los clientes compran un producto en la tienda con Bitcoin.
   - La transacción está firmada correctamente ("desbloqueada" por el cliente)
   - Si no es el caso, entonces la transacción no se propagará por la red, y si es así, entonces se propaga y se mantiene en espera.
   - Los comerciantes pueden comprobar que la transacción está pendiente y en espera.
-- Se elige "al azar" un ordenador para que proponga finalizar la transacción propuesta emitiendo "un bloque" que la contenga; si se verifica, recibirán una recompensa de BTC.
+- Se elige "al azar" un ordenador para que proponga finalizar la transacción propuesta emitiendo "un [bloque](https://planb.academy/resources/glossary/block)" que la contenga; si se verifica, recibirán una recompensa de BTC.
   - OPCIONAL/ADVANZADO - en lugar de seleccionar aleatoriamente un Ordenador, simule Mining haciendo que los Ordenadores tiren dados hasta que se produzca algún resultado predeterminado (por ejemplo, se selecciona al primero que saque doble seis)
   - También puede reproducir lo que ocurriría si dos Ordenadores ganaran aproximadamente al mismo tiempo, lo que daría lugar a una división en cadena.
   - Los ordenadores comprueban la validez, actualizan/añaden registros a sus libros de contabilidad si se cumplen las normas y difunden el bloque de transacciones a los pares.
@@ -205,7 +205,7 @@ Los clientes compran un producto en la tienda con Bitcoin.
   - No se requiere confianza entre las personas (aparte del Comerciante que envía el artículo), como una compra en efectivo en muchos sentidos.
   - El dinero pertenece directamente a los particulares.
   - La Bitcoin Ledger se representa en dólares para simplificar, pero en realidad es BTC.
-  - Simulamos que se emite una única transacción, pero en realidad hay múltiples transacciones pendientes en la red, y los bloques incluyen miles de transacciones a la vez. Los nodos también verifican que no haya transacciones de doble gasto pendientes (yo descartaría todas menos una en este caso).
+  - Simulamos que se emite una única transacción, pero en realidad hay múltiples transacciones pendientes en la red, y los bloques incluyen miles de transacciones a la vez. Los nodos también verifican que no haya transacciones de [doble gasto](https://planb.academy/resources/glossary/double-spending-attack) pendientes (yo descartaría todas menos una en este caso).
 - Escenarios de engaño:
   - ¿Y si el cliente no dispusiera de 25 BTC?
     - No podrían crear la transacción porque "desbloquear" y "Ownership" son la misma cosa, y los ordenadores comprueban que la transacción esté correctamente firmada; de lo contrario, la rechazan
@@ -234,15 +234,15 @@ Defina los siguientes términos clave introducidos en la sección anterior:
 
 
 - Nodo
-- Mempool
-- Dificultad Objetivo
+- [Mempool](https://planb.academy/resources/glossary/mempool)
+- [Dificultad](https://planb.academy/resources/glossary/difficulty) Objetivo
 - Bloque
 
 
 **Discutir en grupo el significado de algunos términos adicionales:**
 
 
-Blockchain, Transacción, Doble Gasto, Problema de los Generales Bizantinos, Mining, Proof of Work (PoW), Hash Función, Block reward, Blockchain, Cadena más larga, Ataque del 51%, Salida, Bloqueo de salida, Cambio, Satoshis, Clave pública/privada, Address, Criptografía de clave pública, Firma digital, Wallet
+Blockchain, Transacción, Doble Gasto, Problema de los Generales Bizantinos, Mining, Proof of Work (PoW), Hash Función, Block reward, Blockchain, Cadena más larga, Ataque del 51%, Salida, Bloqueo de salida, Cambio, [Satoshis](https://planb.academy/resources/glossary/satoshi-sat), [Clave pública](https://planb.academy/resources/glossary/public-key)/privada, Address, [Criptografía](https://planb.academy/resources/glossary/cryptography) de clave pública, [Firma digital](https://planb.academy/resources/glossary/digital-signature), Wallet
 
 
 # Presentación del servidor BTCPay
@@ -596,7 +596,7 @@ Una Address se deriva de la clave pública a través de un "algoritmo hashing" L
 
 
 
-- Las direcciones que empiezan por `bc1...` se están convirtiendo poco a poco en direcciones muy comunes. Se conocen como direcciones (nativas) SegWit. Estas ofrecen una mejor estructura de tarifas que las otras Direcciones mencionadas. Las Direcciones SegWit nativas utilizan codificación Bech32 y sólo permiten letras minúsculas.
+- Las direcciones que empiezan por `bc1...` se están convirtiendo poco a poco en direcciones muy comunes. Se conocen como direcciones (nativas) [SegWit](https://planb.academy/resources/glossary/segwit). Estas ofrecen una mejor estructura de tarifas que las otras Direcciones mencionadas. Las Direcciones SegWit nativas utilizan codificación Bech32 y sólo permiten letras minúsculas.
 
 
 
@@ -618,7 +618,7 @@ Hoy en día, las claves públicas se utilizan menos en la práctica. Con el tiem
 
 
 
-- Los monederos HD, sin embargo, utilizan una estructura diferente. `xpub...`, `ypub...` o `zpub...` se denominan claves públicas extendidas, o xpubs. Estas claves se utilizan para derivar muchas claves públicas como parte de la HD Wallet. Dado que su xpub contiene los registros de todo su historial, es decir, las transacciones pasadas y futuras, no las comparta nunca con personas que no sean de confianza.
+- Los monederos HD, sin embargo, utilizan una estructura diferente. `xpub...`, `ypub...` o `zpub...` se denominan claves públicas extendidas, o [xpubs](https://planb.academy/resources/glossary/xpub). Estas claves se utilizan para derivar muchas claves públicas como parte de la HD Wallet. Dado que su xpub contiene los registros de todo su historial, es decir, las transacciones pasadas y futuras, no las comparta nunca con personas que no sean de confianza.
 
 
 ### Resumen de habilidades
@@ -670,7 +670,7 @@ Los monederos Hot son la forma más cómoda de interactuar con Bitcoin a través
 Los particulares trasladan su Bitcoin a una Cold Wallet porque puede aislar las claves privadas de Internet, protegiéndolas así de posibles amenazas en línea. Al eliminar la conexión a Internet de la ecuación, se reduce el riesgo de malware, spyware e intercambio de SIM. Se cree que el almacenamiento Cold es superior al Hot en cuanto a seguridad y autonomía, siempre que se tomen las precauciones adecuadas para evitar la pérdida de las claves privadas Bitcoin. El almacenamiento Cold es el más adecuado para grandes cantidades de Bitcoin, que no están pensadas para gastarse a menudo debido a la complejidad de la configuración de Wallet.
 
 
-Existen varios métodos para almacenar claves Bitcoin en Cold, desde monederos de papel a monederos cerebrales, monederos de hardware o, desde el principio, un archivo Wallet. La mayoría de los monederos utilizan BIP 39 para generate la frase seed. Sin embargo, dentro del software Bitcoin core aún no se ha llegado a un consenso sobre su uso. El software Bitcoin core todavía generate un archivo Wallet.dat, que debe almacenar en una ubicación segura fuera de línea.
+Existen varios métodos para almacenar claves Bitcoin en Cold, desde monederos de papel a monederos cerebrales, monederos de hardware o, desde el principio, un archivo Wallet. La mayoría de los monederos utilizan [BIP](https://planb.academy/resources/glossary/bip) 39 para generate la frase seed. Sin embargo, dentro del software Bitcoin core aún no se ha llegado a un consenso sobre su uso. El software Bitcoin core todavía generate un archivo Wallet.dat, que debe almacenar en una ubicación segura fuera de línea.
 
 
 ### Resumen de habilidades
@@ -717,24 +717,25 @@ BTCPay Server consta de las siguientes características estándar de Wallet:
 - Volver a escanear
 - Tirar de los pagos
 - Pagos
-- PSBT
+- [PSBT](https://planb.academy/resources/glossary/psbt)
 - Configuración general
 
 
 ### Transacciones
 
 
-Los administradores pueden ver las transacciones entrantes y salientes de los On-Chain Wallet conectados a este almacén específico en la vista de transacciones. Cada transacción tiene una distinción entre las cantidades recibidas y enviadas. Recibido será Green, y las transacciones salientes serán de color rojo. Dentro de la vista de transacciones del servidor BTCPay, los administradores también verán un conjunto de etiquetas estándar.
+Los administradores pueden ver las transacciones entrantes y salientes de los On-Chain Wallet conectados a este almacén específico en la vista de transacciones. Cada transacción tiene una distinción entre las cantidades recibidas y enviadas. Recibido será Green, y las transacciones salientes serán de color rojo. Dentro de la vista de transacciones del servidor BTCPay, los administradores también verán un conjunto de [etiquetas](https://planb.academy/resources/glossary/label) estándar.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| Tipo de transacción | Descripción                                      |
+| ------------------- | ------------------------------------------------- |
+| App                 | El pago se recibió a través de una factura creada por una aplicación |
+| Factura             | El pago se recibió a través de una factura        |
+| [Payjoin](https://planb.academy/resources/glossary/payjoin)             | No pagado, el temporizador de la factura aún no ha expirado |
+| Payjoin-expuesto    | El [UTXO](https://planb.academy/resources/glossary/utxo) fue expuesto a través de una propuesta de payjoin en una factura |
+| Solicitud de pago   | El pago se recibió a través de una solicitud de pago |
+| Pago                | El pago se envió a través de un pago o un reembolso |
 
 ### Cómo enviar
 
@@ -1130,7 +1131,7 @@ En la opción Lightning Wallet de la barra de menús de la izquierda, los admini
 #### Información interna del nodo
 
 
-Los administradores del servidor pueden hacer clic en la información del nodo interno para ver el estado de su servidor (Online/Offline) y la cadena de conexión para Clearnet o Tor.
+Los administradores del servidor pueden hacer clic en la información del nodo interno para ver el estado de su servidor (Online/Offline) y la cadena de conexión para Clearnet o [Tor](https://planb.academy/resources/glossary/tor).
 
 
 ![image](assets/en/033.webp)
@@ -1805,28 +1806,30 @@ Cada tipo viene con sus parámetros a rellenar. El propietario de la tienda pued
 BTCPay Server también le permite construir Formularios en código. JSON, en particular. En lugar de mirar el editor, los propietarios de las tiendas pueden hacer clic en el botón CÓDIGO situado justo al lado del editor y entrar en el código de sus Formularios. En una definición de campo, sólo se pueden establecer los siguientes campos; los valores de los campos se almacenan en los metadatos del Invoice:
 
 
-| Field                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+| Campo | Descripción |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| .fields.constant      | If true, the .value must be set in the form definition, and the user will not be able to change the field's value. ( example: the form definition's version)                                                                                                                                                                                                                                                                                                       |
-| .fields.type          | The HTML input type text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel                                                                                                                                                                                                                                                                                                |
-| .fields.options       | If .fields.type is select, the list of selectable values                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.options.text  | The text displayed for this option                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| .fields.options.value | The value of the field if this option is selected                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| .fields.type=fieldset | Create a HTML fieldset around the children .fields.fields (see below)                                                                                                                                                                                                                                                                                                                                                                                              |
-| .fields.name          | The JSON property name of the field as it will appear in the invoice's metadata                                                                                                                                                                                                                                                                                                                                                                                    |
-| .fields.value         | The default value of the field                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| .fields.required      | if true, the field will be required                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| .fields.label         | The label of the field                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| .fields.helpText      | Additional text to provide an explanation for the field.                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.fields        | You can organize your fields in a hierarchy, allowing child fields to be nested within the invoice’s metadata. This structure can help you better organize and manage the collected information, making it easier to access and interpret. For example, if you have a form that collects customer information, you can group the fields under a parent field called customer. Within this parent field, you might have child fields like name, Email, and address. |
+| .fields.constant | Si es true, el .value debe establecerse en la definición del formulario y el usuario no podrá cambiar el valor del campo. (ejemplo: la versión de la definición del formulario) |
+| .fields.type | El tipo de entrada HTML: text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | Si .fields.type es select, la lista de valores seleccionables |
+| .fields.options.text | El texto mostrado para esta opción |
+| .fields.options.value | El valor del campo si se selecciona esta opción |
+| .fields.type=fieldset | Crea un fieldset HTML alrededor de los hijos .fields.fields (ver abajo) |
+| .fields.name | El nombre de la propiedad JSON del campo tal como aparecerá en los metadatos de la factura |
+| .fields.value | El valor predeterminado del campo |
+| .fields.required | si es true, el campo será obligatorio |
+| .fields.label | La etiqueta del campo |
+| .fields.helpText | Texto adicional para proporcionar una explicación del campo. |
+| .fields.fields | Puede organizar sus campos en una jerarquía, permitiendo que los campos hijos se aniden dentro de los metadatos de la factura. Esta estructura puede ayudarle a organizar y gestionar mejor la información recopilada, facilitando su acceso e interpretación. Por ejemplo, si tiene un formulario que recopila información del cliente, puede agrupar los campos bajo un campo primario llamado customer. Dentro de este campo primario, puede tener campos hijos como name, Email y address. |
 
 El nombre del campo representa el nombre de la propiedad JSON que almacena el valor proporcionado por el usuario en los metadatos de Invoice. Algunos nombres conocidos pueden interpretarse y modificarse para ajustar la configuración de Invoice.
 
 
-| Field name       | Description            |
+
+| Nombre del campo | Descripción           |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Importe de la factura |
+| invoice_currency | Moneda de la factura  |
 
 Puede rellenar automáticamente los campos de un Invoice añadiendo cadenas de consulta a la URL del formulario, como "?your_field=value".
 
@@ -2276,7 +2279,8 @@ docker logs --tail 100 generated_btcpayserver_1
 ```
 
 
-| Logs for     | Container Name                    |
+
+| Registros para | Nombre del contenedor              |
 | ------------ | --------------------------------- |
 | BTCPayServer | generated_btcpayserver_1          |
 | NBXplorer    | generated_nbxplorer_1             |
@@ -2467,21 +2471,22 @@ A menos que utilice una [Wallet](https://docs.btcpayserver.org/Wallet/) incorpor
 La siguiente tabla enumera y describe los estados estándar de Invoice en BTCPay, junto con las acciones comunes sugeridas. Las acciones son sólo recomendaciones. Depende de los usuarios definir el mejor curso de acción para su caso de uso y negocio.
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| Estado de la factura | Descripción | Acción |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | No pagada, el temporizador de la factura aún no ha expirado | Ninguna |
+| New (paidPartial) | Pagada parcialmente, el temporizador de la factura aún no ha expirado | Ninguna |
+| Expired | No pagada, el temporizador de la factura ha expirado | Ninguna |
+| Expired (paidPartial) ** | Pagada parcialmente y expirada | Contactar al comprador para acordar un reembolso o pedirle que pague lo adeudado. Opcionalmente marcar como settled o invalid |
+| Expired (paidLate) | Pagada en su totalidad después de que el temporizador expiró | Contactar al comprador para acordar un reembolso o procesar el pedido si las confirmaciones tardías son aceptables. |
+| Settled (paidOver) | Pagado más del importe de la factura, liquidada, se recibió suficiente cantidad de confirmaciones | Contactar al comprador para acordar el reembolso del monto extra, o esperar a que el comprador le contacte |
+| Processing | Pagada íntegramente, pero no ha recibido suficientes confirmaciones según la configuración de la tienda | Contactar al comprador para acordar el reembolso del monto extra, o esperar a que el comprador le contacte |
+| Processing (paidOver) | Pagado más del importe de la factura, no se han recibido suficientes confirmaciones | Esperar a que se liquide, luego contactar al comprador para el reembolso del extra, o esperar a que le contacten |
+| Settled | Pagada en su totalidad, se recibió suficiente cantidad de confirmaciones en la tienda | Completar el pedido |
+| Settled (marked) | El estado se cambió manualmente a liquidado desde un estado de procesamiento o inválido | El administrador de la tienda ha marcado el pago como settled |
+| Invalid* | Pagada, pero no se recibieron suficientes confirmaciones en el tiempo especificado por la tienda | Verifique la transacción en un explorador de bloques; si tiene suficientes confirmaciones, márquela como settled |
+| Invalid (marked) | El estado se cambió manualmente a inválido desde un estado liquidado o expirado | El administrador de la tienda ha marcado el pago como invalid |
+| Invalid (paidOver) | Pagado más del importe, pero no se recibieron suficientes confirmaciones en el tiempo especificado | Verifique la transacción en un explorador de bloques; si tiene suficientes confirmaciones, márquela como settled |
 
 #### Invoice detalles
 

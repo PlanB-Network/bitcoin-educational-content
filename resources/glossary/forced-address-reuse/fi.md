@@ -1,6 +1,7 @@
 ---
-term: PAKOTETTU OSOITTEEN UUDELLEENKÄYTTÖ
+term: Pakotettu osoitteen uudelleenkäyttö
 
+definition: Hyökkäys, jossa lähetetään pieniä määriä siirtojen jäljittämiseksi ja osoitteiden omistajien tunnistamiseksi.
 ---
 Hyökkäys, jossa lähetetään pieniä määriä bitcoineja suureen määrään vastaanottavia osoitteita. Hyökkääjän tavoitteena on pakottaa vastaanottajat yhdistämään nämä määrät muihin UTXOihin. Tämän jälkeen hyökkääjä seuraa näiden pienten bitcoin-määrien tulevia liikkeitä ja pyrkii muodostamaan osoitteista klustereita eli määrittämään, kuuluuko useampi osoite samalle taholle. Vertailemalla hyökkäyksen aikana kerättyjä tietoja muihin ketjuanalyysissä käytettyihin tietoihin ja heuristiikkoihin hyökkääjä voi tunnistaa tietyt yksiköt ja niihin liittyvät osoitteet. Tämä menetelmä uhkaa ainoastaan käyttäjien yksityisyyttä, mutta ei vaikuta heidän varojensa turvallisuuteen.
 

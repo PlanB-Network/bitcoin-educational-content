@@ -1,5 +1,6 @@
 ---
 term: LNURL
+definition: Protocolo que simplifica as interações do Lightning através de URLs codificados em bech32.
 ---
 
 Protocolo de comunicação que especifica um conjunto de caraterísticas concebidas para simplificar as interações entre nós e clientes do Lightning, bem como aplicações de terceiros. Este protocolo baseia-se no HTTP e permite a criação de ligações para várias operações, como um pedido de pagamento, um pedido de levantamento ou outras funcionalidades que melhoram a experiência do utilizador. Cada LNURL é um URL codificado em bech32 com o prefixo `lnurl`, que, ao ser analisado, desencadeia uma série de acções automáticas no Lightning Wallet.

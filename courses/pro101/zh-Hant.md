@@ -11,7 +11,7 @@ objectives:
 
 在比特幣上構建需要什麼？這門 20 小時的課程將帶您深入比特幣和閃電網絡的表面之下,探索支撐世界上最具韌性的金融基礎設施的協議。無論您是想為開源項目做出貢獻,還是構建下一代比特幣應用程序,您都將獲得在這個生態系統中自信工作所需的技術深度。
 
-本課程錄製於 2023 年在薩爾瓦多舉行的 CUBO+ 訓練營,匯集了塑造這項技術的領先比特幣開發者和教育工作者的觀點。最棒的部分？它完全免費,由 Fulgure Venture、比特幣辦公室和 DecouvreBitcoin 提供支持。如果您一直對比特幣在協議層面的實際運作方式感到好奇,這就是您了解的機會。
+本課程錄製於 2023 年在薩爾瓦多舉行的 CUBO+ 訓練營,匯集了塑造這項技術的領先比特幣開發者和教育工作者的觀點。最棒的部分？它完全免費,由 Fulgure Ventures、比特幣辦公室和 DecouvreBitcoin 提供支持。如果您一直對比特幣在協議層面的實際運作方式感到好奇,這就是您了解的機會。
 +++
 # 簡介與預備課程
 
@@ -59,7 +59,7 @@ Filippo 和 Mario 提供了 CUBO+ 2023 的介紹性講座，為等待中的全�
 
 :::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
-歡迎來到**Cubo Plus**教育計畫的第一講。今天，我們將在**Bitcoin Italia Podcast**創辦人 Ricky 的帶領下，深入了解 Bitcoin 的世界。Ricky 是一位熱心的人權活動家，他使用 Bitcoin 作為保護和促進人權的工具。Ricky 擁有超過六年的經驗，他走遍各地，記錄薩爾瓦多、危地馬拉等新興市場採用 Bitcoin 的情況。他的工作不僅限於播客；他也活躍於 YouTube (**Bitcoin Explorers**) 和 Twitter (**BTC Explorer**, **Ricky6**)。Ricky 之所以選擇 Commitment 到 Bitcoin，是因為他相信 Bitcoin 能提供財務自由和隱私，挑戰傳統的中央銀行系統。
+歡迎來到**Cubo Plus**教育計畫的第一講。今天，我們將在**Bitcoin Italia Podcast**創辦人 Rikki 的帶領下，深入了解 Bitcoin 的世界。Rikki 是一位熱心的人權活動家，他使用 Bitcoin 作為保護和促進人權的工具。Rikki 擁有超過六年的經驗，他走遍各地，記錄薩爾瓦多、危地馬拉等新興市場採用 Bitcoin 的情況。他的工作不僅限於播客；他也活躍於 YouTube (**Bitcoin Explorers**) 和 Twitter (**BTC Explorer**, **Rikki6**)。Rikki 之所以選擇 Commitment 到 Bitcoin，是因為他相信 Bitcoin 能提供財務自由和隱私，挑戰傳統的中央銀行系統。
 
 
 ![Unbanked Population](assets/en/001.webp)
@@ -70,30 +70,30 @@ _全球無銀行戶籍人口_
 ### Bitcoin：財務自由及其對薩爾瓦多的影響
 
 
-本演講**「為什麼薩爾瓦多需要 Bitcoin」**概述了**Bitcoin 協定**、其在**Cypherpunk 運動中的根源**，以及其作為促進自由的**不加密貨幣**、**金融包容性**等工具的作用。
+本演講**「為什麼薩爾瓦多需要 Bitcoin」**概述了**Bitcoin 協定**、其在**[Cypherpunk](https://planb.academy/resources/glossary/cypherpunks) 運動中的根源**，以及其作為促進自由的**不加密貨幣**、**金融包容性**等工具的作用。
 
 
 **定義：**
 
 
 - 比特幣協定：_規範 Bitcoin 作為分散式數位貨幣如何運作的規則和結構。
-- _Cypherpunk movement:_一個提倡使用密碼學來確保數位空間隱私與自由的團體。
+- _Cypherpunk movement:_一個提倡使用[密碼學](https://planb.academy/resources/glossary/cryptography)來確保數位空間隱私與自由的團體。
 - _金融包容性：_為被排除在傳統銀行體系之外的人提供金融服務，這些人通常被稱為 「沒有銀行服務的人」。
 - 不受政府或金融機構控制或限制的貨幣。
 
-#### Ricky 的背景和 Bitcoin 的倡議
+#### Rikki 的背景和 Bitcoin 的倡議
 
 
-Ricky 的 Bitcoin 之旅源於他身為人權倡導者的工作。他相信 Bitcoin 可以讓個人控制自己的財務，讓他們保護自己的隱私，避免中央銀行的限制。他對 Bitcoin 在薩爾瓦多等地採用的探索，突顯了這項技術如何能讓新興市場的人們獲得財務獨立。
+Rikki 的 Bitcoin 之旅源於他身為人權倡導者的工作。他相信 Bitcoin 可以讓個人控制自己的財務，讓他們保護自己的隱私，避免中央銀行的限制。他對 Bitcoin 在薩爾瓦多等地採用的探索，突顯了這項技術如何能讓新興市場的人們獲得財務獨立。
 
 
 ### Bitcoin 的全球意義與挑戰
 
 
-Bitcoin 不只是一種數位貨幣。它是保護隱私和確保財務自由的工具。透過使用像主密碼一樣的**私人金鑰**，使用者可以安全地管理他們的 Bitcoin，並完全控制他們的資金。
+Bitcoin 不只是一種數位貨幣。它是保護隱私和確保財務自由的工具。透過使用像主密碼一樣的**[私人金鑰](https://planb.academy/resources/glossary/private-key)**，使用者可以安全地管理他們的 Bitcoin，並完全控制他們的資金。
 
 
-在專制政權下，金融鎮壓很常見，Bitcoin 的**不可感知性**可讓人們進行交易，而不必擔心資金會被凍結或沒收。Bitcoin 的**開放源碼**性質鼓勵全球參與，促進社群持續改善網路。
+在專制政權下，金融鎮壓很常見，Bitcoin 的**不可感知性**可讓人們進行[交易](https://planb.academy/resources/glossary/transaction-tx)，而不必擔心資金會被凍結或沒收。Bitcoin 的**[開放源碼](https://planb.academy/resources/glossary/foss)**性質鼓勵全球參與，促進社群持續改善網路。
 
 
 ![Image](assets/en/002.webp)
@@ -143,7 +143,7 @@ Bitcoin 不只是一種數位貨幣。它是保護隱私和確保財務自由的
 #### 奧地利經濟學
 
 
-同時，**奧地利經濟學**為 Bitcoin 的貨幣原則奠定了基礎。路德維希‧馮‧米塞斯（**Ludwig von Mises**）和弗里德里希‧哈耶克（**Friedrich Hayek**）等經濟學家認為，健全的貨幣應該是稀缺的、持久的，並且是良好的價值儲存工具，這些核心原則塑造了 Bitcoin 的設計。
+同時，**[奧地利經濟學](https://planb.academy/resources/glossary/austrian-school)**為 Bitcoin 的貨幣原則奠定了基礎。路德維希‧馮‧米塞斯（**Ludwig von Mises**）和弗里德里希‧哈耶克（**Friedrich Hayek**）等經濟學家認為，健全的貨幣應該是稀缺的、持久的，並且是良好的價值儲存工具，這些核心原則塑造了 Bitcoin 的設計。
 
 
 **定義：**
@@ -221,7 +221,7 @@ Bitcoin在**Cypherpunk運動**和**奧地利經濟學**的基礎上，使其成�
 
 :::video id=2c008198-7f4e-4e60-87a0-0af17528ad2f:::
 
-在「如何使用 Bitcoin」課程的第一講中，我們開始探索 Bitcoin 網路的技術堆疊。我們涵蓋的主題包括**Hashcash**、**transactions**、**Blockchain**、**Lightning Network**，以及 Bitcoin 通訊協定的其他關鍵元件。
+在「如何使用 Bitcoin」課程的第一講中，我們開始探索 Bitcoin 網路的技術堆疊。我們涵蓋的主題包括**Hashcash**、**transactions**、**[Blockchain](https://planb.academy/resources/glossary/blockchain)**、**[Lightning Network](https://planb.academy/resources/glossary/lightning-network)**，以及 Bitcoin 通訊協定的其他關鍵元件。
 
 
 ### Bitcoin 的技術堆疊第二部分
@@ -234,13 +234,13 @@ Bitcoin在**Cypherpunk運動**和**奧地利經濟學**的基礎上，使其成�
 ### Bitcoin 結構
 
 
-Bitcoin 的起源是基於幾項重要的創新，首先是 **Adam Back 的 Hashcash**，這是一個 Proof-of-Work (PoW) 系統，目的是透過要求寄件者完成計算任務來防止垃圾郵件和拒絕服務攻擊。這個 PoW 概念成為 Bitcoin 安全性的基石。
+Bitcoin 的起源是基於幾項重要的創新，首先是 **Adam Back 的 Hashcash**，這是一個 [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) (PoW) 系統，目的是透過要求寄件者完成計算任務來防止垃圾郵件和拒絕服務攻擊。這個 PoW 概念成為 Bitcoin 安全性的基石。
 
 
-Bitcoin 依賴**數位簽章**，使用**橢圓曲線加密**來保護和驗證交易。橢圓曲線數位簽章演算法 (ECDSA)** 可確保只有 Bitcoin 的合法擁有者才能授權交易，而不會洩露其私人金鑰。
+Bitcoin 依賴**[數位簽章](https://planb.academy/resources/glossary/digital-signature)**，使用**橢圓曲線加密**來保護和驗證交易。橢圓曲線數位簽章演算法 ([ECDSA](https://planb.academy/resources/glossary/ecdsa))** 可確保只有 Bitcoin 的合法擁有者才能授權交易，而不會洩露其私人金鑰。
 
 
-*Bitcoin 的化名創造者 *Satoshi Nakamoto** 將 PoW 模式轉換為分散式的 **Blockchain**，從而擴展了這些想法。這使得分散式節點網路可以在沒有中央機關的情況下驗證和記錄交易，標誌著之前數位貨幣嘗試的重大演進。
+*Bitcoin 的化名創造者 *Satoshi Nakamoto** 將 PoW 模式轉換為分散式的 **Blockchain**，從而擴展了這些想法。這使得分散式[節點](https://planb.academy/resources/glossary/node)網路可以在沒有中央機關的情況下驗證和記錄交易，標誌著之前數位貨幣嘗試的重大演進。
 
 
 **定義：**
@@ -252,16 +252,16 @@ Bitcoin 依賴**數位簽章**，使用**橢圓曲線加密**來保護和驗證�
 ### Blockchain 機制和交易驗證
 
 
-Bitcoin 交易由 **miners** 驗證並加到區塊中，這些 miners** 競爭使用 Proof-of-Work 演算法解決加密謎題。這包括透過調整 **Nonce** 值，找出具有特定前導零數目的 Hash，直到找到正確的 Hash。
+Bitcoin 交易由 **miners** 驗證並加到[區塊](https://planb.academy/resources/glossary/block)中，這些 miners** 競爭使用 Proof-of-Work 演算法解決加密謎題。這包括透過調整 **[Nonce](https://planb.academy/resources/glossary/nonce)** 值，找出具有特定前導零數目的 [Hash](https://planb.academy/resources/glossary/hash-function)，直到找到正確的 Hash。
 
 
-Blockchain 中的每個**區塊**都由一個**標頭**（包含類似前一個區塊 Hash 的資料）和一個交易清單組成。第一個區塊稱為 **Genesis 區塊**，由於沒有前一個區塊，因此是獨一無二的。
+Blockchain 中的每個**區塊**都由一個**[標頭](https://planb.academy/resources/glossary/block-header)**（包含類似前一個區塊 Hash 的資料）和一個交易清單組成。第一個區塊稱為 **[Genesis 區塊](https://planb.academy/resources/glossary/genesis-block)**，由於沒有前一個區塊，因此是獨一無二的。
 
 
 ![Image](assets/en/004.webp)
 
 
-在交易納入區塊之前，它們會存放在 **Mempool**，等待驗證。一經驗證，這些交易就會加入新挖出的區塊，然後再加入 Blockchain。
+在交易納入區塊之前，它們會存放在 **[Mempool](https://planb.academy/resources/glossary/mempool)**，等待驗證。一經驗證，這些交易就會加入新挖出的區塊，然後再加入 Blockchain。
 
 
 **定義：**
@@ -274,13 +274,13 @@ Blockchain 中的每個**區塊**都由一個**標頭**（包含類似前一個�
 ### Bitcoin 中的可擴展性、隱私和開發
 
 
-Bitcoin 面臨與擴充性和隱私權相關的挑戰。Blockchain 的交易容量有限，難以處理大量交易。類似 **Lightning Network** Address 的解決方案可透過付款管道進行 off-chain 交易，提高速度和隱私性，從而克服這些挑戰。
+Bitcoin 面臨與擴充性和隱私權相關的挑戰。Blockchain 的交易容量有限，難以處理大量交易。類似 **Lightning Network** Address 的解決方案可透過[付款管道](https://planb.academy/resources/glossary/payment-channel)進行 off-chain 交易，提高速度和隱私性，從而克服這些挑戰。
 
 
-運行**Full node**對於確保分散性和安全性至關重要，但**簡化支付驗證 (SPV) 節點**允許以犧牲部分安全性為代價的輕度參與。
+運行**[Full node](https://planb.academy/resources/glossary/full-node)**對於確保分散性和安全性至關重要，但**簡化支付驗證 (SPV) 節點**允許以犧牲部分安全性為代價的輕度參與。
 
 
-Bitcoin 的開發已演進至提升效能與安全性。主要升級包括**分離見證 (SegWit)**，可解決交易可篡改性問題，並增加有效區塊大小；以及**Taproot**，可改善隱私性，並允許使用**抽象語法樹 (MAST)** 來簽訂更複雜的合約。
+Bitcoin 的開發已演進至提升效能與安全性。主要升級包括**分離見證 ([SegWit](https://planb.academy/resources/glossary/segwit))**，可解決交易可篡改性問題，並增加有效區塊大小；以及**[Taproot](https://planb.academy/resources/glossary/taproot)**，可改善隱私性，並允許使用**抽象語法樹 (MAST)** 來簽訂更複雜的合約。
 
 
 **定義：**
@@ -307,7 +307,7 @@ Bitcoin 的結構和持續演進展示了其技術的創新性和適應性。從
 
 :::video id=c5e2e575-fa9d-4430-805f-205c2cf6f2a5:::
 
-在本講座中，我們將揭開圍繞**Bitcoin**、**區塊鏈**和**加密貨幣**的常見迷思。讓我們來 Address 關於 Bitcoin 能源消耗、犯罪用途的錯誤觀念，以及對這項技術散播的廣泛「FUD」（恐懼、不確定、懷疑）。
+在本講座中，我們將揭開圍繞**Bitcoin**、**區塊鏈**和**[加密貨幣](https://planb.academy/resources/glossary/cryptocurrency)**的常見迷思。讓我們來 Address 關於 Bitcoin 能源消耗、犯罪用途的錯誤觀念，以及對這項技術散播的廣泛「FUD」（恐懼、不確定、懷疑）。
 
 
 ### Bitcoin vs. Blockchain
@@ -325,7 +325,7 @@ Bitcoin 的結構和持續演進展示了其技術的創新性和適應性。從
 ### Bitcoin 對 Crypto
 
 
-另一個關鍵區別是，**Bitcoin** 創建的唯一目的是提供一種去中心化、抗審查的貨幣形式，不受任何公司或政府的控制。相比之下，加密貨幣 **shitcoins** 的設計通常是集中式控制，主要是為了讓背後的公司透過掠奪式行為、抽水拋售計劃或徹頭徹尾的詐騙賺錢而存在。這些代幣除了讓其創造者快速獲利之外，通常都沒有真正的目的，而是犧牲不明真相的投資者。然而，Bitcoin 是唯一真正去中心化的數位貨幣，其安全性和復原能力已獲得證實。
+另一個關鍵區別是，**Bitcoin** 創建的唯一目的是提供一種去中心化、抗審查的貨幣形式，不受任何公司或政府的控制。相比之下，加密貨幣 **[shitcoins](https://planb.academy/resources/glossary/shitcoin)** 的設計通常是集中式控制，主要是為了讓背後的公司透過掠奪式行為、抽水拋售計劃或徹頭徹尾的詐騙賺錢而存在。這些代幣除了讓其創造者快速獲利之外，通常都沒有真正的目的，而是犧牲不明真相的投資者。然而，Bitcoin 是唯一真正去中心化的數位貨幣，其安全性和復原能力已獲得證實。
 
 
 **定義：**
@@ -339,7 +339,7 @@ Bitcoin 的結構和持續演進展示了其技術的創新性和適應性。從
 ### 能源消耗與環境影響
 
 
-對 Bitcoin 最常見的批評之一是其**能源消耗。雖然 Bitcoin Mining 確實會使用能源，但它只佔全球耗電量不到 1%，而且浪費的能源也不到 3%。此外，**Bitcoin Mining** 經常利用未使用或可再生的能源，使其比通常所描述的更環保。
+對 Bitcoin 最常見的批評之一是其**能源消耗。雖然 Bitcoin [Mining](https://planb.academy/resources/glossary/mining) 確實會使用能源，但它只佔全球耗電量不到 1%，而且浪費的能源也不到 3%。此外，**Bitcoin Mining** 經常利用未使用或可再生的能源，使其比通常所描述的更環保。
 
 
 **定義：**
@@ -356,7 +356,7 @@ Bitcoin 常被批評為用於犯罪活動。然而，Blockchain 分析顯示，�
 ### 隱私與可替代性
 
 
-**隱私性**和可替代性**是 Bitcoin 的基本特征。隱私性可保護在壓迫制度下的使用者，而可替代性則可確保每個 Bitcoin 都是平等的，不論其歷史如何。這使得 Bitcoin 成為一種可靠且公平的貨幣形式。
+**隱私性**和[可替代性](https://planb.academy/resources/glossary/fungibility)**是 Bitcoin 的基本特征。隱私性可保護在壓迫制度下的使用者，而可替代性則可確保每個 Bitcoin 都是平等的，不論其歷史如何。這使得 Bitcoin 成為一種可靠且公平的貨幣形式。
 
 
 **定義：**
@@ -405,7 +405,7 @@ Bitcoin 常被批評為用於犯罪活動。然而，Blockchain 分析顯示，�
 在這一課中，Alekos 將教我們如何使用虛擬機器設定 Bitcoin 節點。本教學旨在讓您熟悉設定節點參與 Bitcoin 網路的步驟。
 
 
-運行 Bitcoin 節點包括驗證交易和區塊、執行共識規則以及支援網路的去中心化。建立節點可確保您與 Bitcoin 網路直接連線，讓您為其安全性和完整性做出貢獻。
+運行 Bitcoin 節點包括驗證交易和區塊、執行[共識](https://planb.academy/resources/glossary/consensus)規則以及支援網路的去中心化。建立節點可確保您與 Bitcoin 網路直接連線，讓您為其安全性和完整性做出貢獻。
 
 
 在本講座中，您將找到安裝和運行自己的 Bitcoin core 的指南，學習如何修剪 Blockchain 以節省空間，並開始使用軟體進行實驗。Alekos 將逐步引導您完成這個令人興奮的過程。
@@ -820,7 +820,7 @@ lightning-cli getinfo
 **工具：Specter 桌面 Wallet 和 Ledger 模擬器**
 
 
-Specter 是一個桌面 Wallet 設計，方便建立和管理 Bitcoin 錢包，尤其是使用硬體設備的錢包。在示範中，我們將採用 Ledger 模擬器，模仿 Ledger Hardware Wallet 的功能。
+Specter 是一個桌面 Wallet 設計，方便建立和管理 Bitcoin [錢包](https://planb.academy/resources/glossary/wallet)，尤其是使用硬體設備的錢包。在示範中，我們將採用 Ledger 模擬器，模仿 Ledger Hardware Wallet 的功能。
 
 
 **Ledger裝置與公司爭議的差異**
@@ -1008,7 +1008,7 @@ Bitcoin 通訊協定的彈性對於改善隱私、安全性和擴充性是必要
 #### 擴充性與隱私權的權衡
 
 
-在 Bitcoin 網路中，可擴充性與隱私權經常會發生衝突。提高可擴展性的增強功能，如更大的 UTXO 或減少加密混淆，通常會降低隱私性。相反地，Monero 的環狀簽章等注重隱私的技術會增強使用者的匿名性，但卻會對可擴展性造成負面影響。此外，有狀合約的引入（如在 Ethereum 中所見）提供了更大的靈活性，但卻以降低安全性和可擴展性為代價。平衡這些權衡是一項複雜的挑戰，需要仔細的考量。
+在 Bitcoin 網路中，可擴充性與隱私權經常會發生衝突。提高可擴展性的增強功能，如更大的 [UTXO](https://planb.academy/resources/glossary/utxo) 或減少加密混淆，通常會降低隱私性。相反地，Monero 的環狀簽章等注重隱私的技術會增強使用者的匿名性，但卻會對可擴展性造成負面影響。此外，有狀合約的引入（如在 Ethereum 中所見）提供了更大的靈活性，但卻以降低安全性和可擴展性為代價。平衡這些權衡是一項複雜的挑戰，需要仔細的考量。
 
 
 ### 隱私技術
@@ -1144,7 +1144,7 @@ Bitcoin 協定的變更需要大量的協調與社群共識。Bitcoin 的分散�
 #### 信任驗證
 
 
-信任驗證可以用 PGP (Pretty Good Privacy) 驗證來說明。透過驗證 PGP 金鑰的指紋和簽章，使用者可以建立數位身分的真實性。類似的做法對於透過 Hash 比對（例如 SHA-256）來驗證軟體完整性也是非常重要的。
+信任驗證可以用 PGP (Pretty Good Privacy) 驗證來說明。透過驗證 PGP 金鑰的指紋和簽章，使用者可以建立數位身分的真實性。類似的做法對於透過 Hash 比對（例如 [SHA-256](https://planb.academy/resources/glossary/sha256)）來驗證軟體完整性也是非常重要的。
 
 
 #### 建立信任途徑
@@ -1156,7 +1156,7 @@ Bitcoin 協定的變更需要大量的協調與社群共識。Bitcoin 的分散�
 #### 安全獎勵
 
 
-了解獎勵機制的作用對維護安全性至關重要。例如，Bitcoin 的安全模型依賴於礦工的獎勵和網路參與者的驗證，突顯了經濟獎勵在維護數位生態系統中的重要性。
+了解獎勵機制的作用對維護安全性至關重要。例如，Bitcoin 的安全模型依賴於[礦工](https://planb.academy/resources/glossary/miner)的獎勵和網路參與者的驗證，突顯了經濟獎勵在維護數位生態系統中的重要性。
 
 
 #### 保護 Bitcoin 錢包
@@ -1260,7 +1260,7 @@ Bitcoin core 就是一個成功的例子，它是 Bitcoin 基礎架構的重要�
 ### Bitcoin 開發人員的核心密碼概念
 
 
-在本節中，我們將深入探討 Bitcoin 開發人員必備的主要加密概念，包括 Hash 函數、Merkle 樹、數位簽章和橢圓曲線。
+在本節中，我們將深入探討 Bitcoin 開發人員必備的主要加密概念，包括 Hash 函數、[Merkle 樹](https://planb.academy/resources/glossary/merkle-tree)、數位簽章和橢圓曲線。
 
 
 ![Image](assets/en/014.webp)
@@ -1314,7 +1314,7 @@ Bitcoin core 就是一個成功的例子，它是 Bitcoin 基礎架構的重要�
 **安全影響**：歷史案例顯示 Nonce 重複使用造成重大財務損失。了解產生獨特非ces 的重要性至關重要。使用類似 LibSecP256k1 的可信賴程式庫，可確保穩健且安全的加密作業。
 
 
-**Elliptic Curve Cryptography (ECC)**：簽章方案已從身份通訊協定演進到目前用於 Bitcoin (BIP 340) 的 Schnorr 簽章等方案。橢圓曲線和有限域演算法的知識可確保安全的加密實作。
+**Elliptic Curve Cryptography (ECC)**：簽章方案已從身份通訊協定演進到目前用於 Bitcoin ([BIP](https://planb.academy/resources/glossary/bip) 340) 的 [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol) 簽章等方案。橢圓曲線和有限域演算法的知識可確保安全的加密實作。
 
 
 **給開發人員的一般建議**：加密協定必須經過徹底的同業審查。開發人員必須精確並充分瞭解加密程序的每個步驟。意識到加密實作中常見的陷阱可以避免重大的漏洞。
@@ -1468,7 +1468,7 @@ Bitcoin 範圍內的 Mining 複雜性主要涉及決定 Mining 營運利潤的�
 
 4. **BTC 價格**：BTC 價格是決定 Mining 獲利能力的必要條件。
 
-5. **網路難度**：網路難度代表在 10 分鐘內挖掘一個區塊所需的平均 Hashrate 數量。
+5. **網路[難度](https://planb.academy/resources/glossary/difficulty)**：網路難度代表在 10 分鐘內挖掘一個區塊所需的平均 Hashrate 數量。
 
 6. **策略工具**：[braiins.com](https://insights.braiins.com) 之類的工具對於計算獲利能力和幫助礦工做出以數據為導向的決策非常寶貴。
 
@@ -1820,7 +1820,7 @@ UTXO 集代表 Bitcoin 的當前狀態，列出所有未使用的交易輸出。
 
 
 - 我們將專注於解析前 SegWit（傳統）區塊，避免增加 Segregated Witness 的複雜性。
-- 我們將跳過 Bitcoin 腳本語言中的某些操作碼，專注於我們需要解析完整區塊的幾個操作碼。
+- 我們將跳過 Bitcoin [腳本](https://planb.academy/resources/glossary/script)語言中的某些操作碼，專注於我們需要解析完整區塊的幾個操作碼。
 
 
 #### 交易結構
@@ -1979,7 +1979,7 @@ transactions: Vec<Transaction>,
 #### 特殊情況如 coinbase 交易
 
 
-Coinbase 交易是用於認領 Block reward 的區塊中的第一筆交易，具有獨特的特性。我們需要適當處理這些特殊情況。
+[Coinbase](https://planb.academy/resources/glossary/coinbase-transaction) 交易是用於認領 Block reward 的區塊中的第一筆交易，具有獨特的特性。我們需要適當處理這些特殊情況。
 
 
 ```Rust
@@ -2598,7 +2598,7 @@ Bitcoin 的分散式驗證程序需要大量的計算資源。每筆交易都必
 ### 哈希時間鎖 Contract (HTLC) 與實作
 
 
-集中式跳數的限制與缺點，需要更安全且分散的解決方案。在此需求下，Joseph Poon 和 Thaddeus Dreijer 於 2015 年提出哈希時間鎖 Contract (HTLC)，作為 Lightning Network 的一部分。HTLC 結合了時間鎖和 Hash 鎖的原理，以確保交易的原子性和不可信性。這表示交易要麼完全完成，要麼根本不會發生，降低了與不完全支付相關的風險。
+集中式跳數的限制與缺點，需要更安全且分散的解決方案。在此需求下，Joseph Poon 和 Thaddeus Dreijer 於 2015 年提出哈希時間鎖 Contract ([HTLC](https://planb.academy/resources/glossary/htlc))，作為 Lightning Network 的一部分。HTLC 結合了時間鎖和 Hash 鎖的原理，以確保交易的原子性和不可信性。這表示交易要麼完全完成，要麼根本不會發生，降低了與不完全支付相關的風險。
 
 
 HTLC 的工作流程涉及多個步驟，可確保透過多個中介人進行安全路由。假設 Alice 想要透過中介人 Bob、Carol 和 Diana 支付 Eric。流程中的每個步驟都涉及建立時間鎖與金額遞減的 Commitment 交易。如有必要，最後一個步驟可以廣播到 Bitcoin 網路，以完成交易。
@@ -2690,7 +2690,7 @@ Bitcoin 網路以 Trustless 價值 Exchange 系統的方式運作，主要作為
 ### **Lightning Network 規格**
 
 
-Lightning Network 通訊協定透過 10 個 BOLT（閃電技術基礎）進行仔細定義。這些 BOLTs 是在米蘭的一次會議上商定的，並作為各種 Lightning Network 實作的基礎。
+Lightning Network 通訊協定透過 10 個 [BOLT](https://planb.academy/resources/glossary/bolt)（閃電技術基礎）進行仔細定義。這些 BOLTs 是在米蘭的一次會議上商定的，並作為各種 Lightning Network 實作的基礎。
 
 
 ![bolt](assets/en/049.webp)_BOLT Diagram _
@@ -2764,7 +2764,7 @@ Commitment 交易結合了 nLockTime、OPCheckSequenceVerify 和撤銷金鑰等�
 ### Invoice 結構
 
 
-Lightning Network 發票 (Bolt 11) 以 Bech32 編碼，包含付款 Hash、說明和到期日等詳細資訊。每個 Invoice 必須使用一次，以防止重複使用的問題。
+Lightning Network [發票](https://planb.academy/resources/glossary/invoice-lightning) (Bolt 11) 以 Bech32 編碼，包含付款 Hash、說明和到期日等詳細資訊。每個 Invoice 必須使用一次，以防止重複使用的問題。
 
 
 ![Invoice structure](assets/en/051.webp)_BOLT11 Invoice_
@@ -3437,5 +3437,5 @@ Lightning 支付通過各種協定和用例進行擴展和整合，展示了 Lig
 
 :::video id=b89f2064-f2e1-49c3-97d0-580891eee1dd:::
 
-Adam Gibson 深入介紹 Joinmarket，詳細說明這個 CoinJoin 實作如何增強 Bitcoin 的隱私與可替代性。他討論 Joinmarket 如何在 Bitcoin 生態系統裡促進協作、Trustless 及匿名交易。然後，在第二部分，他展示如何在 Signet 執行 Joinmarket。
+Adam Gibson 深入介紹 Joinmarket，詳細說明這個 [CoinJoin](https://planb.academy/resources/glossary/coinjoin) 實作如何增強 Bitcoin 的隱私與可替代性。他討論 Joinmarket 如何在 Bitcoin 生態系統裡促進協作、Trustless 及匿名交易。然後，在第二部分，他展示如何在 Signet 執行 Joinmarket。
 

@@ -20,7 +20,7 @@ description: Blink Wallet Eğitimini Tamamlayın - Bitcoin'ı Kolaylıkla Gönde
 Bitcoin cüzdanlarının karmaşık olduğu hakkında bildiğinizi düşündüğünüz her şeyi unutun. Blink, Bitcoin cüzdanlarının iPhone'udur.
 
 
-Eskiden Bitcoin Beach Wallet olarak bilinen Blink, Bitcoin'ü dünyanın her yerinde herkese ulaştıran kullanıcı dostu bir mobil uygulamadır. İlk olarak El Salvador'daki [Bitcoin Beach topluluğu için] (https://bitcoinmagazine.com/business/Bitcoin-beach-Wallet-renamed-to-blink) geliştirildi ve şu anda dünyanın dört bir yanındaki insanların zahmetsizce Bitcoin göndermesine, almasına ve kullanmasına yardımcı oluyor.
+Eskiden Bitcoin Beach Wallet olarak bilinen Blink, Bitcoin'ü dünyanın her yerinde herkese ulaştıran kullanıcı dostu bir mobil uygulamadır. İlk olarak El Salvador'daki [Bitcoin Beach topluluğu için](https://bitcoinmagazine.com/business/Bitcoin-beach-Wallet-renamed-to-blink) geliştirildi ve şu anda dünyanın dört bir yanındaki insanların zahmetsizce Bitcoin göndermesine, almasına ve kullanmasına yardımcı oluyor.
 
 
 İster Bitcoin'da yeni olun ister deneyimli bir kullanıcı, bu kılavuz size başlamak için bilmeniz gereken her şeyi anlatıyor.
@@ -62,7 +62,7 @@ Başlamadan önce şunlara ihtiyacınız olacak:
 
 - Blink Wallet'ü indirin
  - Cihazınıza bağlı olarak [App Store](https://apps.apple.com/ng/app/Bitcoin-beach-Wallet/id1531383905) (iOS), [Google Play](https://play.google.com/store/apps/details?id=com.galoyapp) (Android) veya [App Gallery](https://appgallery.huawei.com/app/C105387593) (Huawei) üzerinde "Blink Wallet" için arama yapın.
- - Ayrıca doğrudan [Blink Wallet web sitesinden] (https://blink.sv) indirebilirsiniz.
+ - Ayrıca doğrudan [Blink Wallet web sitesinden](https://blink.sv) indirebilirsiniz.
 - Bir Wallet oluşturun
  - "Yeni Wallet Oluştur "a dokunun
  - Hüküm ve koşulları kabul edin
@@ -305,7 +305,7 @@ Blink bir emanetçi Wallet'dir, yani fonlarınızı sizin adınıza tutar ve yö
 
 
 - Artıları Basit kurulum, kullanıcı dostu Interface, müşteri desteği mevcut
-- Eksileri: [Özel anahtarlarınızı] (https://www.blink.sv/blog/not-your-keys-not-your-coins) kontrol edemezsiniz, bu da fonlarınızı yönetmek için Blink'e güvendiğiniz anlamına gelir
+- Eksileri: [Özel anahtarlarınızı](https://www.blink.sv/blog/not-your-keys-not-your-coins) kontrol edemezsiniz, bu da fonlarınızı yönetmek için Blink'e güvendiğiniz anlamına gelir
 
 
 ### İşlem Limitleri
@@ -359,7 +359,7 @@ Blink bir emanetçi Wallet'dir, yani fonlarınızı sizin adınıza tutar ve yö
 - Blink'in belgelerini ve [SSS](https://faq.blink.sv/) adresini kontrol edin
 - Uygulama üzerinden müşteri desteğine ulaşın
 - Blink destek sayfasını] kontrol edin (https://www.blink.sv/en/support)
-- Genel sorular için [Blink Telegram topluluğuna] (https://t.me/blinkbtc) katılın
+- Genel sorular için [Blink Telegram topluluğuna](https://t.me/blinkbtc) katılın
 
 
 ### Bitcoin Yolculuğunuzu İlerletmek:

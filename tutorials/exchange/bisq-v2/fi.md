@@ -90,7 +90,7 @@ https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21
 
 ### 2. Asennus järjestelmän mukaan
 
-Noudata käyttöjärjestelmääsi sopivia asennusvaiheita. Jos asennuksen aikana ilmenee ongelmia, voit tutustua [virallisen Bisq-wikin] (https://bisq.wiki/Downloading_and_installing) yksityiskohtaisiin ohjeisiin.
+Noudata käyttöjärjestelmääsi sopivia asennusvaiheita. Jos asennuksen aikana ilmenee ongelmia, voit tutustua [virallisen Bisq-wikin](https://bisq.wiki/Downloading_and_installing) yksityiskohtaisiin ohjeisiin.
 
 ### 3. Ensimmäinen käynnistys
 

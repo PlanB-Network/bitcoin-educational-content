@@ -7,7 +7,7 @@ description: Jade veya Jade Plus'ınızı Electrum (masaüstü) ile kullanma
 
 
 
-_Bu kılavuz bir [Bitcoin Atölye Çalışmaları dersinden] (https://officinebitcoin.it/lezioni/jadeele/index.html)_ alınmıştır
+_Bu kılavuz bir [Bitcoin Atölye Çalışmaları dersinden](https://officinebitcoin.it/lezioni/jadeele/index.html)_ alınmıştır
 
 
 

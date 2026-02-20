@@ -1,0 +1,9 @@
+question: Co musí od BIP-34 obsahovat začátek scriptSig coinbase transakce?
+answer: Výšku bloku
+wrong_answers:
+  - Hashrate těžaře
+  - Cíl obtížnosti (difficulty target)
+  - Otisk bloku
+explanation: |
+  BIP-34 vyžaduje zápis výšky bloku do scriptSig coinbase transakce.
+reviewed: false

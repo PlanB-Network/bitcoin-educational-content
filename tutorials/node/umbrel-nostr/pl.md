@@ -137,7 +137,7 @@ Na tej stronie wklej adres URL skopiowanego wcześniej przekaźnika Umbrel. Moż
 
 
 
-**Połączenie:** noStrudel oferuje kilka opcji połączenia. W naszym przypadku wybierzemy "Klucz prywatny" i wkleimy wcześniej wygenerowany klucz prywatny Nostr. Jeśli nie masz jeszcze klucza, możesz zainstalować rozszerzenie [Nostr Connect] (https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj), aby utworzyć i/lub zapisać klucze Nostr, a tym samym bezpieczniej komunikować się z różnymi aplikacjami Nostr.
+**Połączenie:** noStrudel oferuje kilka opcji połączenia. W naszym przypadku wybierzemy "Klucz prywatny" i wkleimy wcześniej wygenerowany klucz prywatny Nostr. Jeśli nie masz jeszcze klucza, możesz zainstalować rozszerzenie [Nostr Connect](https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj), aby utworzyć i/lub zapisać klucze Nostr, a tym samym bezpieczniej komunikować się z różnymi aplikacjami Nostr.
 
 
 

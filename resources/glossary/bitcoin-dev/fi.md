@@ -1,5 +1,6 @@
 ---
-term: Bitcoin-DEV
+term: Bitcoin-dev
+definition: Sähköpostilista, joka on omistettu teknisille keskusteluille Bitcoin-protokollan kehittämisestä.
 ---
 
 Sähköpostilista, joka on omistettu Bitcoin-protokollan kehittämiselle. Bitcoin-dev:n perusti Jeff Garzik vuonna 2011, ja sitä ylläpidettiin aluksi Sourceforge.netissä. Sen jälkeen postituslista siirrettiin Linux Foundationiin, sitten Open Source Labiin ja lopulta helmikuusta 2024 lähtien se on ollut Google Groupsissa: https://groups.google.com/g/bitcoindev

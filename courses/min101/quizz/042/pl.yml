@@ -1,0 +1,9 @@
+question: Co oznacza skrót ASIC?
+answer: Application-Specific Integrated Circuits
+wrong_answers:
+  - Advanced Secure Integrated Circuit
+  - Automated Silicon Integrated Circuit
+  - Application-Shared Integrated Circuit
+explanation: |
+  ASIC to układ scalony zaprojektowany do jednego konkretnego zadania. Jest to zatem Application-Specific Integrated Circuits.
+reviewed: false

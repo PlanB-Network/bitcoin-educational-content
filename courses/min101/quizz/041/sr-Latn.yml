@@ -1,0 +1,9 @@
+question: Koji algoritam je Bitcoin ASIC specifično dizajniran da izvršava?
+answer: SHA256d
+wrong_answers:
+  - SHA512d
+  - SHA1
+  - SHA512
+explanation: |
+  Bitcoin ASIC-ovi su specijalizovani za dvostruki SHA256 koji koristi Bitcoin-ov proof-of-work.
+reviewed: false

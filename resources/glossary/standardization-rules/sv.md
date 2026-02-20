@@ -1,5 +1,6 @@
 ---
-term: STANDARDISERINGSREGLER
+term: Standardiseringsregler
+definition: Lokala regler som definierar strukturen för obekräftade transaktioner som en nod accepterar i sin mempool.
 ---
 
 Standardiseringsregler antas individuellt av varje Bitcoin-nod, utöver konsensusreglerna, för att definiera strukturen för obekräftade transaktioner som den accepterar i sin Mempool och sänder till sina peers. Dessa regler konfigureras och verkställs således lokalt av varje nod och kan variera från en nod till en annan. De gäller uteslutande obekräftade transaktioner. Därför kommer en nod endast att acceptera en transaktion som den anser vara icke-standardiserad om den redan ingår i ett giltigt block.

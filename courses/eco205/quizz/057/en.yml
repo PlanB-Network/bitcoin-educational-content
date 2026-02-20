@@ -1,0 +1,8 @@
+question: According to Austrian capital theory, what role do savings play in the economy?
+answer: It is a signal that current consumption is satisfied, and enables entrepreneurs to invest in other stages of production
+wrong_answers:
+  - It directly represents the quantity of production goods available for immediate consumption
+  - "It automatically determines the conversion of capital goods from one sector to another, more productive sector."
+  - "It measures an economy's ability to maintain a homogeneous and balanced capital stock."
+explanation: |
+  According to the Austrian school of thought, savings act as a crucial economic signal. It indicates that present consumption needs have been met, enabling entrepreneurs to direct resources towards investment in stages of production further away from final consumption. Savings and its price (the interest rate) thus guide production towards the right temporality, enabling the development of the capital structure.

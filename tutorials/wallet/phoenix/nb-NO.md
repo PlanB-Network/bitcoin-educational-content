@@ -26,12 +26,12 @@ Etter min mening representerer Phoenix en utmerket mellomløsning mellom depotba
 Gå til applikasjonsbutikken din og installer Phoenix :
 
 
-- På [Google Play Store] (https://play.google.com/store/apps/details?id=fr.acinq.phoenix.mainnet);
-- På [App Store] (https://apps.apple.com/fr/app/phoenix-wallet/id1544097028?l=en-GB).
+- På [Google Play Store](https://play.google.com/store/apps/details?id=fr.acinq.phoenix.mainnet);
+- På [App Store](https://apps.apple.com/fr/app/phoenix-wallet/id1544097028?l=en-GB).
 
 ![Image](assets/fr/02.webp)
 
-Du kan også installere applikasjonen [med apk-filen på GitHub-depotet] (https://github.com/ACINQ/phoenix/releases).
+Du kan også installere applikasjonen [med apk-filen på GitHub-depotet](https://github.com/ACINQ/phoenix/releases).
 
 ![Image](assets/fr/03.webp)
 

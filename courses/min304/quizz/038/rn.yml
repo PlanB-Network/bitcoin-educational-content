@@ -1,0 +1,12 @@
+question: Ni umugambi uwuhe wa Attakai mu bijanye n’ivyo Bitcoin Mining?
+answer: Igitekerezo kigamije gutuma mining ishobora gushikirwa n’abantu benshi kandi ntigire ingaruka mbi mu gihe itanga umusada ku muhora.
+wrong_answers:
+  - Igikorwa kigamije kwongera igiciro ca Bitcoin.
+  - Igitekerezo kigamije kugabanya Hashrate y’urubuga
+  - Igitekerezo kigamije gushiramwo ububasha bwo gukora hashing
+explanation: |
+  Umugambi wa Attakai ugamije gutuma mining ishobora gushikirwa
+  n’abantu benshi kandi ntigire ingaruka mbi. Uhimiriza abantu gukora home mining ufise ibikoresho
+  woronka n'imiti yo kugabanya ubuhumane bw’urusaku. Uwo mugambi kandi ushimika ku akamaro ko 
+  gutanga umusada mu mutekano no gukwiragiza umuhora wa Bitcoin.
+reviewed: true

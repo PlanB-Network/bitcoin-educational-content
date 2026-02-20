@@ -6,4 +6,4 @@ wrong_answers:
   - El elemento asociativo
 explanation: |
   El elemento identidad de un grupo es el elemento único que, al aplicarse a otro elemento, lo deja sin cambio. Por ejemplo, en el grupo de los enteros bajo la suma, el elemento identidad es 0.
-reviewed: false
+reviewed: true

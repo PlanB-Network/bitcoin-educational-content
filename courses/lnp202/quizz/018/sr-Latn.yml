@@ -1,0 +1,9 @@
+question: Koliko reči sadrži LND mnemonička fraza?
+answer: 24 reči
+wrong_answers:
+  - 10 reči
+  - 18 reči
+  - 36 reči
+explanation: |
+  LND generates 24-rečenička mnemonička fraza za rezervnu kopiju i oporavak čvora.
+reviewed: false

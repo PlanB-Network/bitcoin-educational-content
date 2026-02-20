@@ -1,5 +1,6 @@
 ---
-term: ECLAIR
+term: Eclair
+definition: Acinq tarafından geliştirilen, Scala dilinde Lightning Network protokolü uygulaması.
 ---
 
 Scala dilinde yazılmış Lightning Network protokolünün büyük bir uygulaması. Eclair, Fransız Acinq şirketi tarafından geliştirilmiştir.

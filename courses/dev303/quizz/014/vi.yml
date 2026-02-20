@@ -1,0 +1,8 @@
+question: Sự khác biệt chính giữa một chuỗi (String) và một chuỗi ký tự (&str) trong Rust là gì?
+answer: Chuỗi `string` quản lý bộ nhớ heap được cấp phát động và có thể được sửa đổi, trong khi `&str` là một khung nhìn vào dữ liệu chuỗi bất biến.
+wrong_answers:
+  - Chuỗi ký tự (String) được lưu trữ trên ngăn xếp trong khi biến `&str` được lưu trữ trên vùng nhớ heap để có hiệu suất tốt hơn.
+  - Chuỗi String chỉ có thể chứa các ký tự ASCII, trong khi &str có thể chứa bất kỳ ký tự Unicode nào.
+  - Chuỗi String tự động thực hiện việc mượn trong khi &str yêu cầu chuyển quyền sở hữu rõ ràng.
+explanation: |
+  String và &str đại diện cho hai cách tiếp cận khác nhau trong việc xử lý chuỗi trong Rust. String là một kiểu chuỗi được cấp phát trên heap, có thể mở rộng, sở hữu dữ liệu của chính nó và có thể được sửa đổi trong thời gian chạy. Ngược lại, &str (một phần của chuỗi) là một tham chiếu bất biến đến dữ liệu chuỗi, thường trỏ đến các chuỗi ký tự được nhúng trong tệp nhị phân của chương trình hoặc các phần của dữ liệu String hiện có. Sự khác biệt này cho phép Rust tối ưu hóa cả tính linh hoạt (String cho nội dung động) và hiệu quả (&str cho truy cập chỉ đọc mà không cần cấp phát bộ nhớ).

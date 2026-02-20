@@ -1,0 +1,9 @@
+question: Welke uitspraak over de mempool is juist?
+answer: Elke node heeft zijn eigen mempool
+wrong_answers:
+  - Er is één enkele unieke mempool
+  - De mempool is een bestand in elk blok
+  - De mempool is een centrale server
+explanation: |
+  De mempool is lokaal voor elke node, dus de inhoud kan van node tot node verschillen, afhankelijk van de regels die elke node toepast.
+reviewed: false

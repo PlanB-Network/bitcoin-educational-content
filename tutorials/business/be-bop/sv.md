@@ -255,12 +255,13 @@ med be-BOP kan du ta emot Bitcoin-betalningar direkt på Blockchain (On-Chain), 
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Fält                  | Beskrivning                                               | Exempel att Använda                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **BIP Standard**       | Typen av adressering som används                               | BIP84 (för adresser i bech32-format som börjar med `bc1`) |
+| **Utökad offentlig nyckel** | Din Zpub (eller Xpub beroende på använd plånbok)        | `zpub...` (extraherad från din Bitcoin-plånbok) |
+| **Derivation Index**   | Startindexet för adressgenerering         | `1`                                              |
+| **Mempool URL**        | URL:en till mempool-tjänsten som används för att spåra transaktioner | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 
@@ -849,12 +850,13 @@ Detta avsnitt bestämmer **var** och **hur** produkten kan ses och köpas:
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Plattform        | Produkt Synlig | Läggas till Varukorgen |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (offentlig webbplats)        | ✔️              | ✔️                  |
+| Retail POS (försäljningsställe)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (försäljning via bot)  | ✔️              | ✔️                  |
 
 Markera endast de kanaler som du vill använda.
 
@@ -1024,14 +1026,15 @@ Använd **shortcodes** i innehållet på dina CMS-sidor:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Mål                 | Tagg att Infoga                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Visa en produkt      | `[Product=slug?display=img-1]`        |
+| Visa en bild       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Integrera en skjutreglage       | `[Slider=slug?autoplay=3000]`         |
+| Lägg till en utmaning     | `[Challenge=slug]`                    |
+| Lägg till en nedräkning | `[Countdown=slug]`                 |
+| Integrera ett formulär   | `[Form=slug]`                         |
 
 **Aktuella parametrar**:
 
@@ -1813,14 +1816,15 @@ Poster:
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Funktion                         | Beskrivning                                             |
+|----------------------------------|---------------------------------------------------------|
+| POS-roll                         | Tilldelad via ARM                                         |
+| Huvudgränssnitt             | `/pos` eller `/pos/touch`                                 |
+| Kunddisplay (skärm 2)       | `/pos/session`                                         |
+| Betalning                         | Kontanter, kort, Lightning osv.                         |
+| Produkttillägg                    | Alias eller streckkodsskanning                              |
+| Rabatter / moms                    | Med obligatorisk ledningsbegäring              |
 
 Tack för att du följer denna handledning noggrant.

@@ -6,7 +6,7 @@ description: Come posso aggiungere o modificare il mio profilo di insegnante su 
 
 Se si intende contribuire a Plan ₿ Academy scrivendo un nuovo tutorial o un nuovo corso, è necessario avere un profilo docente. Questo profilo vi consentirà di ricevere i crediti appropriati per i contenuti che contribuite alla piattaforma.
 
-Chi ha già partecipato alla creazione di contenuti didattici su Plan ₿ Academy probabilmente ha già un profilo di insegnante. Lo si può trovare nella cartella `/professori` [sul nostro repository GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Se il vostro profilo esiste già, trovate il vostro login nel file `professor.yml`.
+Chi ha già partecipato alla creazione di contenuti didattici su Plan ₿ Academy probabilmente ha già un profilo di insegnante. Lo si può trovare nella cartella `/professori` [sul nostro repository GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Se il vostro profilo esiste già, trovate il vostro login nel file `professor.yml`.
 
 Per apportare modifiche al proprio profilo, andare alla sezione "Modifica del profilo del docente" alla fine di questa guida.
 

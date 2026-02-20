@@ -1,0 +1,9 @@
+question: Ai đã phát minh ra Hashcash?
+answer: Adam Back
+wrong_answers:
+  - Nick Szabo
+  - Hal Finney
+  - David Chaum
+explanation: |
+  Hashcash được phát minh bởi Adam Back. Đây là cơ chế bằng chứng công việc đầu tiên.
+reviewed: false

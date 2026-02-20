@@ -1,6 +1,7 @@
 ---
-term: NÓ
+term: Nó
 
+definition: Computador que executa um cliente Bitcoin, participando na rede ao manter uma cópia da blockchain.
 ---
 Na rede Bitcoin, um nó (ou "node" em inglês) é um computador que executa um cliente do protocolo Bitcoin (como o Bitcoin Core, por exemplo). Participa na rede mantendo uma cópia da cadeia de blocos, retransmitindo e verificando transacções e novos blocos e, opcionalmente, participando no processo de mineração. A soma de todos os nós Bitcoin representa a própria rede Bitcoin.
 

@@ -1,0 +1,8 @@
+question: "`Fn` trait"
+answer: Fn
+wrong_answers:
+  - FnOnce
+  - FnMut
+  - FnCapture
+explanation: |
+  Fn je najrestriktivniji closure trait koji predstavlja closure-e koji se mogu pozivati više puta bez menjanja njihovog uhvaćenog okruženja. Ovi closure-i hvataju samo po nepromenljivoj referenci i mogu se pozivati bezbedno istovremeno. FnOnce predstavlja closure-e koji se mogu pozvati samo jednom, dok FnMut predstavlja closure-e koji se mogu pozivati više puta, ali mogu menjati svoje uhvaćeno okruženje. FnCapture nije pravi Rust trait.

@@ -56,7 +56,7 @@ Bitcoin 或穩定幣如何融入這一切？
 
 ● [1.4](https://www.worldbank.org/en/news/feature/2022/07/21/covid-19-boosted-the-adoption-of-digital-financial-services#:~:text=Globally%2C%20some%201.4%20billion%20adults,go%2C%20much%20more%20is%20needed.) 全球仍有十億成年人沒有銀行服務，而其他無數人則只能使用有限的銀行服務。
 
-到 [2022] (https://Elements.visualcapitalist.com/mapped-countries-with-highest-inflation-rate/) 年底，全球幾乎有一半的國家面臨兩位數字的通貨膨脹率，侵蝕 Hard 所賺錢的價值。從這個角度來看，如果十年內通貨膨脹率為 10%，您將損失 65% 的購買力。
+到 [2022](https://Elements.visualcapitalist.com/mapped-countries-with-highest-inflation-rate/) 年底，全球幾乎有一半的國家面臨兩位數字的通貨膨脹率，侵蝕 Hard 所賺錢的價值。從這個角度來看，如果十年內通貨膨脹率為 10%，您將損失 65% 的購買力。
 
 即使沒有持續的通貨膨脹，美元這種可以說是全球最強大的貨幣，在過去一個世紀中已經喪失了[96%](https://www.visualcapitalist.com/purchasing-power-of-the-u-s-dollar-over-time/)的購買力。
 
@@ -156,7 +156,7 @@ Bitcoin 或穩定幣如何融入這一切？
 
 **稀缺性：** 當貨幣提供稀缺性時，我們是指可用的 Supply 有限。這對於價值儲存非常重要，因為如果某種貨幣數量太多，它的價值就會降低。稀少的貨幣更有可能長時間保持其價值，使其成為可靠的財富儲存工具。想想看，就像限量版商品一樣 - 如果只有少量的話，它們就會比無限量的 Supply 更有價值，更受歡迎。同樣地，稀有的貨幣更有可能保值並維持其購買力，使其成為儲存財富的最佳選擇。
 
-**不可篡改：** 要使貨幣具有不可篡改性，它應該在交易完成後不被逆轉或改變。這是可靠的儲值工具的重要特徵，因為它確保了貨幣的價值不會被任意改變或操控。例如，如果您使用現金購買某樣東西，您就無法在之後改變主意並取消交易。同樣，對於像 Bitcoin 這樣的加密貨幣，一旦交易記錄在 Blockchain 上，就無法更改或推翻。這種不可更改性為金融交易中的買方和賣方提供了安全感和可靠性。
+**不可篡改：** 要使貨幣具有不可篡改性，它應該在交易完成後不被逆轉或改變。這是可靠的儲值工具的重要特徵，因為它確保了貨幣的價值不會被任意改變或操控。例如，如果您使用現金購買某樣東西，您就無法在之後改變主意並取消交易。同樣，對於像 Bitcoin 這樣的[加密貨幣](https://planb.academy/resources/glossary/cryptocurrency)，一旦交易記錄在 [Blockchain](https://planb.academy/resources/glossary/blockchain) 上，就無法更改或推翻。這種不可更改性為金融交易中的買方和賣方提供了安全感和可靠性。
 
 #### Exchange 的媒介
 
@@ -172,13 +172,13 @@ Bitcoin 或穩定幣如何融入這一切？
 
 若要使用貨幣作為衡量商品和服務價值的通用尺度，它必須是
 
-**可替代性：** 當貨幣被稱為可替代性時，每一單位的貨幣都可以與任何其他單位互換。簡單來說，這意味著貨幣是統一的和相同的，無論它來自哪裡或誰擁有它。例如，如果你欠某人10美元 你給他10美元的鈔票 不管這張鈔票是來自你的Wallet還是別人的Wallet只要它是真實的10美元鈔票 它就被認為是等值的可替代性的概念非常重要，因為它使貨幣作為通用的計量單位有效地運行，使交易更簡單、更有效率。
+**[可替代性](https://planb.academy/resources/glossary/fungibility)：** 當貨幣被稱為可替代性時，每一單位的貨幣都可以與任何其他單位互換。簡單來說，這意味著貨幣是統一的和相同的，無論它來自哪裡或誰擁有它。例如，如果你欠某人10美元 你給他10美元的鈔票 不管這張鈔票是來自你的Wallet還是別人的Wallet只要它是真實的10美元鈔票 它就被認為是等值的可替代性的概念非常重要，因為它使貨幣作為通用的計量單位有效地運行，使交易更簡單、更有效率。
 
 總結
 
 貨幣是我們日常生活中一個重要而迷人的部分。它充當中介人的角色，讓我們可以互相交易商品和服務。然而，並非所有的錢都是一樣的。有些形式的貨幣作為儲值工具更為優越，例如金幣，而有些形式的貨幣作為 GW 媒介可能更為有效，例如美元。然而，當這些功能都得到完整的滿足時，就能讓我們自信且輕鬆地進行交易，這不僅對我們個人有幫助，也能促進我們經濟的更大成長與繁榮。
 
-在接下來的模組中，我們將探討兩種流行的貨幣形式：Bitcoin 和穩定幣。透過本節討論的內容來檢視它們，我們將探討它們如何實現貨幣的各種功能，以及它們如何為社會帶來巨大裨益。
+在接下來的模組中，我們將探討兩種流行的貨幣形式：Bitcoin 和[穩定幣](https://planb.academy/resources/glossary/stablecoin)。透過本節討論的內容來檢視它們，我們將探討它們如何實現貨幣的各種功能，以及它們如何為社會帶來巨大裨益。
 
 從以物易物到硬幣和紙幣的發明，貨幣經歷了一系列的變革，以適應不斷變化的社會需求。當我們進入下一章時，讓我們改變方向，將注意力引向貨幣的演變。
 
@@ -208,9 +208,9 @@ Bitcoin 或穩定幣如何融入這一切？
 
 4. **金屬背書紙幣：** 以黃金或白銀等實物商品背書的紙幣。
 
-5. **法定貨幣：** 貨幣並非由實體商品所支持，而是因為政府宣布其為法定貨幣而具有價值。
+5. **[法定貨幣](https://planb.academy/resources/glossary/fiat)：** 貨幣並非由實體商品所支持，而是因為政府宣布其為法定貨幣而具有價值。
 
-6. **加密貨幣：** 數位或虛擬代幣，使用加密技術確保交易安全，並控制新單位的創建。
+6. **加密貨幣：** 數位或虛擬代幣，使用[加密技術](https://planb.academy/resources/glossary/cryptography)確保交易安全，並控制新單位的創建。
 
 有鑑於此，讓我們逐一檢視，以便更全面地瞭解我們是如何走到今天這一步的。
 
@@ -248,7 +248,7 @@ Bitcoin 或穩定幣如何融入這一切？
 
 此外，金等金屬是週期表中惰性最高的 Elements 之一，因此非常耐用且耐腐蝕。
 
-隨著技術的進步，金銀經歷了一個轉化過程，被熔化、成形並壓印成錢幣，增加了 Exchange 的便利性。這些錢幣上的標準化價值和標記顯著降低了驗證貴金屬重量和純度的相關成本。但是，就像大多數美好的事物一樣，總會有人找到利用的方法。剝削硬幣的行為變得猖獗，個人和政府都剝削硬幣的一部分，以減少其貴重金屬的重量，同時試圖保留其原始面值。這導致了第一種形式的貨幣貶值，導致了通貨膨脹。
+隨著技術的進步，金銀經歷了一個轉化過程，被熔化、成形並壓印成錢幣，增加了 Exchange 的便利性。這些錢幣上的標準化價值和標記顯著降低了驗證貴金屬重量和純度的相關成本。但是，就像大多數美好的事物一樣，總會有人找到利用的方法。剝削硬幣的行為變得猖獗，個人和政府都剝削硬幣的一部分，以減少其貴重金屬的重量，同時試圖保留其原始面值。這導致了第一種形式的貨幣貶值，導致了[通貨膨脹](https://planb.academy/resources/glossary/inflation)。
 
 更糟糕的是，隨著世界變得更加全球化，黃金和白銀的運輸和交易變得越來越麻煩，尤其是對海員而言。
 
@@ -262,7 +262,7 @@ Bitcoin 或穩定幣如何融入這一切？
 
 但與任何新技術一樣，問題也開始浮現。
 
-首先，黃金倉庫意識到他們的客戶很少會回來提取收據上的黃金，因此開始發行沒有黃金支持的紙質收據，這導致了第一個部分儲備金銀行系統的隱蔽創建（發行者只持有客戶存款的一部分作為儲備，並將其餘部分借出）。甚至當各國嘗試以黃金支持其貨幣時，他們往往濫用該制度，導致經濟動盪。
+首先，黃金倉庫意識到他們的客戶很少會回來提取收據上的黃金，因此開始發行沒有黃金支持的紙質收據，這導致了第一個[部分儲備金](https://planb.academy/resources/glossary/fractional-reserves)銀行系統的隱蔽創建（發行者只持有客戶存款的一部分作為儲備，並將其餘部分借出）。甚至當各國嘗試以黃金支持其貨幣時，他們往往濫用該制度，導致經濟動盪。
 
 其次，金屬支持的紙幣也無法避免偽造。即使具有防偽功能，偽造者仍然可以製造出難以察覺的假紙幣。
 
@@ -514,9 +514,9 @@ Bitcoin 真正獨特之處在於它是一種數位不記名工具，意即不需
 
 ### 這個叫 Bitcoin 的東西是什麼？
 
-Bitcoin 是一種 Trustless 和無允許的去中心化數位貨幣。這聽起來可能令人困惑，讓我們來解釋一下。由於沒有政府或機構控制 Bitcoin，因此您不必信任任何第三方，也不需要許可即可使用。取而代之的是，它由世界各地的用戶網路維護，這些用戶在稱為 Blockchain 的東西上驗證和處理交易。
+Bitcoin 是一種 Trustless 和無允許的去中心化數位貨幣。這聽起來可能令人困惑，讓我們來解釋一下。由於沒有政府或機構控制 Bitcoin，因此您不必信任任何第三方，也不需要許可即可使用。取而代之的是，它由世界各地的用戶網路維護，這些用戶在稱為 Blockchain 的東西上驗證和處理[交易](https://planb.academy/resources/glossary/transaction-tx)。
 
-將 Blockchain 視為一個巨大的 Ledger 或數位試算表，可記錄透過 Bitcoin 進行的每筆交易。由於全球任何擁有網際網路連線的人都可以監控、驗證或處理交易，因此可確保貨幣的安全性，不會被偽造。
+將 Blockchain 視為一個巨大的 [Ledger](https://planb.academy/resources/glossary/ledger) 或數位試算表，可記錄透過 Bitcoin 進行的每筆交易。由於全球任何擁有網際網路連線的人都可以監控、驗證或處理交易，因此可確保貨幣的安全性，不會被偽造。
 
 Bitcoin 的獨特之處還在於它的限量版 Supply。只有 2,100 萬個 Bitcoin 會被創造出來，這使它具有稀缺性，就像黃金和其他貴金屬一樣。這種稀缺性正是 Bitcoin 的價值所在。
 
@@ -530,27 +530,27 @@ Bitcoin 的獨特之處還在於它的限量版 Supply。只有 2,100 萬個 Bit
 
 #### Cypherpunks
 
-Cypherpunks 是一群精通技術的反叛者，他們在 80 年代聚集在一起，利用一個強大的工具：加密技術，爭取個人自由和公民自由。他們相信，將資訊加密的能力將賦予人們從中央政府手中奪回控制權的力量。試想一下，如果您能夠保持線上通訊的隱私和安全，不被窺視，這就是他們為之奮鬥的目標！
+[Cypherpunks](https://planb.academy/resources/glossary/cypherpunks) 是一群精通技術的反叛者，他們在 80 年代聚集在一起，利用一個強大的工具：加密技術，爭取個人自由和公民自由。他們相信，將資訊加密的能力將賦予人們從中央政府手中奪回控制權的力量。試想一下，如果您能夠保持線上通訊的隱私和安全，不被窺視，這就是他們為之奮鬥的目標！
 
 Cypherpunks 最顯著的成果之一是成立於 1992 年的 Cypherpunks 郵件列表。透過這個列表，個人可以分享想法並討論密碼技術、數位貨幣概念，以及以隱私為重點的計畫。這促成了一個由志同道合者組成的社群，包括開發人員、活躍分子和研究人員。
 
-時至今日，cypherpunks 有遠見的想法持續塑造我們數位環境的演進，讓個人能夠更有效地控制他們的資料和通訊。Bitcoin 是他們最重要的遺產之一，因為它在很大程度上借鑒了 Hashcash - 由 Cypherpunk Adam Back 在 1997 年為了對抗垃圾郵件而開發的一項技術。
+時至今日，cypherpunks 有遠見的想法持續塑造我們數位環境的演進，讓個人能夠更有效地控制他們的資料和通訊。Bitcoin 是他們最重要的遺產之一，因為它在很大程度上借鑒了 [Hashcash](https://planb.academy/resources/glossary/hashcash) - 由 Cypherpunk Adam Back 在 1997 年為了對抗垃圾郵件而開發的一項技術。
 
 其他著名的 Cypherpunks 包括
 
 
 - Timothy May：**Cypherpunks 郵件列表的創始成員，在 90 年代和 21 世紀初寫了大量關於密碼學和隱私權的文章。他的著作為數位隱私和電子現金系統的討論奠定了基礎。**
 - Eric Huges：**Cypherpunks 的另一位創始成員，也是 "A Cypherpunk's Manifesto" 的合著者，該書強調數位時代隱私及匿名的重要性。**
-- Whitfield Diffie 和 Martin Hellman：**開發了公開密碼匙加密技術的概念，徹底改變了安全的網際網路通訊。**
+- Whitfield Diffie 和 Martin Hellman：**開發了[公開密碼匙加密技術](https://planb.academy/resources/glossary/public-key)的概念，徹底改變了安全的網際網路通訊。**
 - Julian Assange：**WikiLeaks 的創辦人，該組織發布機密和敏感資訊，以提高透明度和問責性。**
-- Bram Cohen：**創建了點對點檔案分享協定 BitTorrent，將內容分發分散化，並加快下載速度。**
+- Bram Cohen：**創建了[點對點](https://planb.academy/resources/glossary/peertopeer-p2p)檔案分享協定 BitTorrent，將內容分發分散化，並加快下載速度。**
 - John Gilmore：**一位企業家和自由主義者，共同創立了電子前線基金會 (EFF)，提倡數位權利和線上隱私。**
 
 ...等等，不勝枚舉。
 
 #### David Chaum（數位貨幣之父）
 
-20 世紀 80 年代初，David Chaum 憑藉其在 「blinded 簽署 」方面的開創性工作，為數位貨幣世界帶來了革命性的變化。這使得在不知道訊息內容的情況下對訊息進行加密簽名，確保了數位交易的隱私性和安全性。1982 年，David Chaum 構想出使用密碼技術的匿名電子現金系統 Ecash，後來透過他的公司 Digicash 實現。
+20 世紀 80 年代初，David Chaum 憑藉其在 「[blinded 簽署](https://planb.academy/resources/glossary/blind-signature) 」方面的開創性工作，為數位貨幣世界帶來了革命性的變化。這使得在不知道訊息內容的情況下對訊息進行加密簽名，確保了數位交易的隱私性和安全性。1982 年，David Chaum 構想出使用密碼技術的匿名電子現金系統 [Ecash](https://planb.academy/resources/glossary/ecash-david-chaum)，後來透過他的公司 Digicash 實現。
 
 雖然在 1995 年到 1998 年間，Digicash 曾被一家美國銀行用作微額支付系統，但 Chaum 最終還是申請了破產。儘管如此，他的創新想法啟發了其他人對數位貨幣的探索，為現代加密貨幣（如 Bitcoin）的發展鋪路。
 
@@ -564,7 +564,7 @@ Cypherpunks 最顯著的成果之一是成立於 1992 年的 Cypherpunks 郵件�
 
 鑒於 Bitcoin 的迅速崛起，許多人誤認爲它是有史以來第一種數位貨幣。然而，現在很明顯，這個假設與事實相去甚遠。Bitcoin 的出現是密碼學領域的先驅們數十年研究與實驗的成果。如果沒有上述人士和其他許多人的貢獻，Bitcoin 可能永遠也不會被創造出來。雖然這些早期的數位貨幣最終都失敗了，但 Bitcoin 從他們的錯誤中學習，最終成為了我們今天所熟悉的數位貨幣。
 
-話雖如此，如果不是一個人......或團體（我們不確定），Bitcoin 將不會存在。他就是 Satoshi Nakamoto。神秘的創造者。
+話雖如此，如果不是一個人......或團體（我們不確定），Bitcoin 將不會存在。他就是 [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi)。神秘的創造者。
 
 #### Satoshi Nakamoto
 
@@ -580,7 +580,7 @@ Satoshi Nakamoto 的神秘消失引發了各種關於他去向的猜測。有些
 
 雖然我們可能不知道 Satoshi 是誰，但我們對 Bitcoin 背後的意圖有更清楚的了解。他創造 Bitcoin 是為了回應 2008 年全球金融危機，以及由此產生的對傳統銀行體系和政府控制貨幣的不信任。
 
-在他的線上通訊中，他對於貨幣與銀行的中央集权本質表示憤世嫉俗，強調相信中央銀行不會讓貨幣貶值的危險性。寫入第一個 Bitcoin 區塊的例子是：
+在他的線上通訊中，他對於貨幣與銀行的中央集权本質表示憤世嫉俗，強調相信中央銀行不會讓貨幣貶值的危險性。寫入第一個 Bitcoin [區塊](https://planb.academy/resources/glossary/block)的例子是：
 
 「泰晤士報」 2009年1月3日 「財政大臣瀕臨第二次救助銀行」。
 
@@ -599,7 +599,7 @@ Satoshi Nakamoto 的神秘消失引發了各種關於他去向的猜測。有些
 
 - **Peer-to-Peer:** Bitcoin 可讓個人直接發送和接收付款，而不需要銀行或支付處理商等中介。
 - 去中心化：**Bitcoin 在去中心化的網路中運作，這意味著沒有中央機構或對貨幣的控制。**
-- 安全性：**Bitcoin 交易使用加密技術保護，使偽冒或 Double-spending 硬幣難以偽造。**
+- 安全性：**Bitcoin 交易使用加密技術保護，使偽冒或 [Double-spending](https://planb.academy/resources/glossary/double-spending-attack) 硬幣難以偽造。**
 - Supply 的有限性與可分割性：**Bitcoin 的 Supply 是有限的，僅有 2100 萬枚錢幣存在，同時，它可分割至小數點後八位，使交易價格僅為零點幾美分。這種稀缺性旨在賦予貨幣價值，防止通貨膨脹。**
 - **Psuedoanonymous:** 雖然 Bitcoin 交易並非完全匿名，但它提供了傳統付款方式所沒有的隱私和假名程度。
 
@@ -631,7 +631,7 @@ Bitcoin 通常被稱為神奇的網路貨幣......這是有充分理由的。想
 
 銀行在內部執行這些任務，讓銀行完全控制整個流程，而 Bitcoin 則需要社群合作來執行這些任務。換句話說，Bitcoin 若要在分散式系統中複製這些流程，就必須將這些任務逐一外包，以確保沒有任何個人或集中式實體能對系統擁有過大的控制權。
 
-為了達成這項革命性的壯舉，Bitcoin 將這些任務分為三個關鍵角色：節點、礦工和開發者。節點負責驗證交易、設定並執行規則，礦工負責下單並確認交易，而開發人員則負責保持網路的最新狀態並建議升級。Bitcoin 將這些任務分配給這些關鍵角色，創造了一個安全、透明且對所有使用者負責的系統。
+為了達成這項革命性的壯舉，Bitcoin 將這些任務分為三個關鍵角色：[節點](https://planb.academy/resources/glossary/node)、[礦工](https://planb.academy/resources/glossary/miner)和開發者。節點負責驗證交易、設定並執行規則，礦工負責下單並確認交易，而開發人員則負責保持網路的最新狀態並建議升級。Bitcoin 將這些任務分配給這些關鍵角色，創造了一個安全、透明且對所有使用者負責的系統。
 
 因此，讓我們逐一來看看這些角色...
 
@@ -639,7 +639,7 @@ Bitcoin 通常被稱為神奇的網路貨幣......這是有充分理由的。想
 
 #### 節點
 
-節點對 Bitcoin 網路的完整性和安全性至關重要。它們是系統的看門人，確保交易依規定準確處理。每個節點都會下載並本機驗證 Blockchain 的完整副本，Blockchain 本質上是數位 Ledger，記錄了 Bitcoin 網路上的每筆交易。透過共識，節點會同意每筆交易的有效性，並確保遵守規則。這表示，如果有人試圖欺騙系統，例如傳送比實際擁有更多的 Bitcoin 或試圖花費相同的 Bitcoin 兩次，節點就會拒絕交易。
+節點對 Bitcoin 網路的完整性和安全性至關重要。它們是系統的看門人，確保交易依規定準確處理。每個節點都會下載並本機驗證 Blockchain 的完整副本，Blockchain 本質上是數位 Ledger，記錄了 Bitcoin 網路上的每筆交易。透過[共識](https://planb.academy/resources/glossary/consensus)，節點會同意每筆交易的有效性，並確保遵守規則。這表示，如果有人試圖欺騙系統，例如傳送比實際擁有更多的 Bitcoin 或試圖花費相同的 Bitcoin 兩次，節點就會拒絕交易。
 
 為了進一步闡述這個共識的概念，當開發人員提出 Bitcoin 的變更或升級時，節點就會扮演採納或拒絕這些變更的角色。他們的做法是將軟體升級到新版本或繼續執行舊版本。這個過程通常需要在 Bitcoin 社群內進行討論和辯論，以達成共識。雖然如此，Bitcoin 的共識並非像投票機一樣黑白分明。多數人不一定統治一切。如果有些人不同意改變，他們可以推出新的 Bitcoin 衍生代幣。現在，沒有改變的原始 Bitcoin 和有改變的新 Bitcoin 都存在。透過買賣，由社群來強調他們認為更有價值的版本。這種共識機制可確保對 Bitcoin 協定所做的任何變更都經過整個社群的同意，使得任何個人或團體都難以為了自己的利益而操控系統。
 
@@ -647,7 +647,7 @@ Bitcoin 通常被稱為神奇的網路貨幣......這是有充分理由的。想
 
 #### 礦工
 
-另一方面，Bitcoin 礦工在記錄保存方面扮演著重要角色，因為他們負責訂購和確認交易。為此，礦工使用專門的電腦執行稱為散列的功能。在不深入探討雜湊的細節的情況下，可以將其理解為礦工們互相競爭，將新的交易添加到 Blockchain，即交易的公共 Ledger。在 Exchange 的工作中，礦工會獲得新創建的 Bitcoin 以及所處理的任何交易的交易費作為獎勵。Mining 過程被設計為困難、競爭和隨機化，每年只釋放有限數量的新 Bitcoin，確保 Bitcoin 的 Supply 有限，並維持其價值。沒有礦工，交易就無法處理。
+另一方面，Bitcoin 礦工在記錄保存方面扮演著重要角色，因為他們負責訂購和確認交易。為此，礦工使用專門的電腦執行稱為[散列](https://planb.academy/resources/glossary/hash-function)的功能。在不深入探討雜湊的細節的情況下，可以將其理解為礦工們互相競爭，將新的交易添加到 Blockchain，即交易的公共 Ledger。在 Exchange 的工作中，礦工會獲得新創建的 Bitcoin 以及所處理的任何交易的[交易費](https://planb.academy/resources/glossary/transaction-fees)作為獎勵。[Mining](https://planb.academy/resources/glossary/mining) 過程被設計為困難、競爭和隨機化，每年只釋放有限數量的新 Bitcoin，確保 Bitcoin 的 Supply 有限，並維持其價值。沒有礦工，交易就無法處理。
 
 鑑於礦工必須彼此競爭才能處理交易，並因此獲得獎勵，這種競爭可將任何單一 Miner 或實體控制網路的機會降到最低，並激勵礦工誠實行事、遵守規則。如果 Miner 試圖作弊或違反規則，他們就有可能失去獎金，因此有強烈的誘因讓他們遵守規則。
 
@@ -667,9 +667,9 @@ Bitcoin 通常被稱為神奇的網路貨幣......這是有充分理由的。想
 
 #### 交易啟動
 
-每筆 Bitcoin 交易都從發件開始，發件人 (在本例中為 Alice) 會建立一筆交易，指定收件人 Bob 和金額 0.00100000 Bitcoin。與 Alice 的 Wallet 相關聯的節點會將該交易廣播至網路，節點會確認交易的有效性，然後將交易傳送至礦工進行確認。
+每筆 Bitcoin 交易都從發件開始，發件人 (在本例中為 Alice) 會建立一筆交易，指定收件人 Bob 和金額 0.00100000 Bitcoin。與 Alice 的 [Wallet](https://planb.academy/resources/glossary/wallet) 相關聯的節點會將該交易廣播至網路，節點會確認交易的有效性，然後將交易傳送至礦工進行確認。
 
-此時，交易會進入所謂的 Mempool，基本上是準備加入 Blockchain 的交易等待室。就像您在信用卡帳單上看到的待處理交易清單一樣，這些交易已經啟動，但仍在等待處理。一旦交易已啟動並存放在 Mempool 中，它現在就掌握在礦工手中。
+此時，交易會進入所謂的 [Mempool](https://planb.academy/resources/glossary/mempool)，基本上是準備加入 Blockchain 的交易等待室。就像您在信用卡帳單上看到的待處理交易清單一樣，這些交易已經啟動，但仍在等待處理。一旦交易已啟動並存放在 Mempool 中，它現在就掌握在礦工手中。
 
 #### 交易確認
 
@@ -737,7 +737,7 @@ _**Fun Fact:** 即使在 Bitcoin 交易確認之後，如果節點拒絕區塊�
 
 
 - 可攜性：**Bitcoin作為數位貨幣，允許個人之間進行無國界、無中介的轉移，使其成為一種方便易得的Exchange媒介。雖然有些法定貨幣也提供數位化解決方案，但那些身處發展中國家或戰亂國家的人可能難以獲得滿足此需求的銀行服務。Bitcoin 的去中心化特性使任何有網路連線的人都能使用，在金融服務有限的地區提供了傳統銀行系統的可行替代方案。**
-- 可分割性：**Bitcoin 極高的可分割性是其作為貨幣的主要優勢之一。**每個 Bitcoin 最多可分割到小數點後八位，最小單位 Satoshi 的價值僅是美分的幾分之一。根據不同的交易方法，即 Layer 1 或 2，這使得 Bitcoin 非常適合用於任何規模的交易，從小型購買到大型投資。
+- 可分割性：**Bitcoin 極高的可分割性是其作為貨幣的主要優勢之一。**每個 Bitcoin 最多可分割到小數點後八位，最小單位 [Satoshi](https://planb.academy/resources/glossary/satoshi-sat) 的價值僅是美分的幾分之一。根據不同的交易方法，即 Layer 1 或 2，這使得 Bitcoin 非常適合用於任何規模的交易，從小型購買到大型投資。
 - 接受：**儘管 Bitcoin 還未被普遍接受，但世界各地的商家、機構和個人越來越多地採用 Bitcoin，這表明 Bitcoin 作為一種合法的支付方式正被越來越多的人所接受。**
 
 ### 會計單位
@@ -847,7 +847,7 @@ Bitcoin Lightning Network 是建構在 Bitcoin Layer 一種之上的 Layer 兩�
 
 ### 安全保護您的 Bitcoin
 
-Bitcoin 的革命性之處在於，我們有史以來第一次可以自我保管數位資產。這個壯舉再怎麼強調也不為過！就像我們可以將現金儲存在枕頭底下一樣，我們也可以用 Bitcoin 做同樣的事，不過是以數位方式。然而，我們對金錢的這種新程度的控制也帶來了新的責任。為了確保 Bitcoin 的安全，我們必須學習如何妥善保護它。這意味著要採取措施防止遺失、盜竊和黑客嘗試。
+Bitcoin 的革命性之處在於，我們有史以來第一次可以[自我保管](https://planb.academy/resources/glossary/selfcustody)數位資產。這個壯舉再怎麼強調也不為過！就像我們可以將現金儲存在枕頭底下一樣，我們也可以用 Bitcoin 做同樣的事，不過是以數位方式。然而，我們對金錢的這種新程度的控制也帶來了新的責任。為了確保 Bitcoin 的安全，我們必須學習如何妥善保護它。這意味著要採取措施防止遺失、盜竊和黑客嘗試。
 
 #### 儲存 Bitcoin 的位置
 
@@ -863,9 +863,9 @@ Bitcoin 的革命性之處在於，我們有史以來第一次可以自我保管
 
 **非保管式錢包（又稱自我保管）**
 
-非保管型錢包是 Bitcoin Wallet 的一種，您是您資金的唯一保管人，這意味著您可以完全控制您的私人密碼匙。私人密碼匙就像 Wallet 的密碼，用於簽署和授權交易。沒有私人密碼匙，您就無法存取或轉移您的 Bitcoin。
+非保管型錢包是 Bitcoin Wallet 的一種，您是您資金的唯一保管人，這意味著您可以完全控制您的[私人密碼匙](https://planb.academy/resources/glossary/private-key)。私人密碼匙就像 Wallet 的密碼，用於簽署和授權交易。沒有私人密碼匙，您就無法存取或轉移您的 Bitcoin。
 
-與託管式錢包相較，非託管式錢包具有更高的安全性和隱私性，因為您是唯一對您的資金安全負責的人。非保管式錢包的例子包括硬體錢包，例如 [Coldcard](https://store.coinkite.com/store/coldcard) 和 [Trezor](https://trezor.io/)，這些硬體錢包是離線儲存私人金鑰的實體裝置，並提供額外的 Layer 安全性。其他流行的非保管式錢包是軟體錢包，如 [Sparrow](https://sparrowwallet.com/)、[Electrum](https://electrum.org/#home) 和 [Blockstream Green](https://blockstream.com/Green/)，它們可以下載並安裝在您的電腦或行動裝置上。
+與託管式錢包相較，非託管式錢包具有更高的安全性和隱私性，因為您是唯一對您的資金安全負責的人。非保管式錢包的例子包括[硬體錢包](https://planb.academy/resources/glossary/hardware-wallet)，例如 [Coldcard](https://store.coinkite.com/store/coldcard) 和 [Trezor](https://trezor.io/)，這些硬體錢包是離線儲存私人金鑰的實體裝置，並提供額外的 Layer 安全性。其他流行的非保管式錢包是軟體錢包，如 [Sparrow](https://sparrowwallet.com/)、[Electrum](https://electrum.org/#home) 和 [Blockstream Green](https://blockstream.com/Green/)，它們可以下載並安裝在您的電腦或行動裝置上。
 
 *雖然我們無法推薦特定的 Wallet，但我們強烈建議透過自我保管或合作保管的方式來控制您的 Bitcoin，這包括選擇適合您的需求和偏好的 Wallet。在決定選購 Wallet 之前，請務必進行詳細研究，以確保它符合您的安全性與可用性需求。*
 
@@ -875,7 +875,7 @@ Bitcoin 的革命性之處在於，我們有史以來第一次可以自我保管
 
 一旦您決定了 Wallet，有趣的遊戲還沒有結束。現在是將損失風險降至最低的時候了。為了保護您的 Bitcoin，在選好 Wallet 之後，請考慮以下步驟：
 
-1.首先，也是最重要的，在自我保管時，請備份您的 Wallet。硬體錢包附有恢復 seed 短語，這是一組字詞，可在裝置遺失或損壞時用來恢復您的私密金鑰。請將這個 [seed phrase](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/) 建立一個實體複本，例如金屬 seed 板，並將其存放在安全的地方。妥善保管此復原 seed 短語非常重要。切勿與任何人分享。
+1.首先，也是最重要的，在自我保管時，請備份您的 Wallet。硬體錢包附有[恢復 seed 短語](https://planb.academy/resources/glossary/recovery-phrase)，這是一組字詞，可在裝置遺失或損壞時用來恢復您的私密金鑰。請將這個 [seed phrase](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/) 建立一個實體複本，例如金屬 seed 板，並將其存放在安全的地方。妥善保管此復原 seed 短語非常重要。切勿與任何人分享。
 
 2.當您的 Bitcoin 保護金額超過您不想失去的臨界值時，探索遺產規劃選項以防萬一您不幸過世，是非常重要的。這可確保您的家人和摯愛能夠有效地存取和管理您的 Bitcoin。
 
@@ -1645,7 +1645,7 @@ _**Figure:** Flare [Gas](https://arstechnica.com/science/2022/09/oil-industry-fl
 
 然而，近年來，Bitcoin 已經成為金融授權的有力工具，特別是對於經常被邊緣化的婦女而言。Roya Mahboob](https://twitter.com/royamahboob)是一位利用 Bitcoin 潛力的個人，她是一位阿富汗企業家，利用數位貨幣幫助她的國家的婦女獲得金融服務，重拾尊嚴。
 
-當全世界驚恐地目睹塔利班在 [1996] (https://bitcoinmagazine.com/culture/Bitcoin-financial-freedom-in-afghanistan#:~:text=She%20and%20the%20women%20liked,privacy%20and%20peace%20of%20mind.%E2%80%9D) 奪取阿富汗的控制權時，這個年幼的女孩 Roya 正生活在衝突的中心。當她的家鄉被塔利班入侵和佔領時，年僅七歲的她發現自己陷入了戰爭的動盪和不確定之中。儘管面臨危險和逆境，加上無法上學，Roya 拒絕被打敗。相反，她轉而接受教育，以克服環境對她的限制。
+當全世界驚恐地目睹塔利班在 [1996](https://bitcoinmagazine.com/culture/Bitcoin-financial-freedom-in-afghanistan#:~:text=She%20and%20the%20women%20liked,privacy%20and%20peace%20of%20mind.%E2%80%9D) 奪取阿富汗的控制權時，這個年幼的女孩 Roya 正生活在衝突的中心。當她的家鄉被塔利班入侵和佔領時，年僅七歲的她發現自己陷入了戰爭的動盪和不確定之中。儘管面臨危險和逆境，加上無法上學，Roya 拒絕被打敗。相反，她轉而接受教育，以克服環境對她的限制。
 
 ![image](assets/en/005.webp)
 

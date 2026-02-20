@@ -4,5 +4,5 @@ wrong_answers:
   - P2PK nécessite plusieurs signatures pour la validation, tandis que P2PKH ne nécessite qu'une seule signature pour débloquer les pièces
   - P2PK utilise un algorithme de hachage différent de celui de P2PKH, ce qui le rend plus sûr contre les attaques de l'informatique quantique
   - P2PK stocke la clé privée dans ScriptPubKey, tandis que P2PKH ne stocke que le résultat de la vérification de la signature
-explanation: |
+explanation: | 
   P2PK verrouille les pièces directement sur une clé publique complète qui est visible dans le ScriptPubKey avant toute dépense. P2PKH améliore la confidentialité en ne montrant qu'un hachage de 20 octets de la clé publique dans le ScriptPubKey, cachant la clé publique réelle jusqu'à ce que le propriétaire la fournisse dans le ScriptSig lors de la dépense. Cette amélioration de la confidentialité est l'un des principaux avantages de P2PKH par rapport à l'ancien modèle P2PK.

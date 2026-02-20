@@ -1,0 +1,8 @@
+question: ¿Qué combinación de características de Rust la hace especialmente adecuada para gestionar la naturaleza irreversible de las transacciones de Bitcoin?
+answer: Sistema de tipado estático robusto que detecta errores en tiempo de compilación y evita vulnerabilidades relacionadas con la memoria
+wrong_answers:
+  - Tipado dinámico con comprobaciones en tiempo de ejecución y recogida automática de basura para la gestión de la memoria
+  - Sistema de tipos débil con conversiones flexibles y gestión manual de la memoria para optimizar el rendimiento
+  - Compilación "justo a tiempo" con optimización en tiempo de ejecución y gestión de errores interpretados para mayor flexibilidad
+explanation: |
+  El sistema estático de tipos fuertes de Rust es crucial para el desarrollo de Bitcoin, ya que detecta desajustes de tipos y errores lógicos antes de que se ejecute el programa, evitando así problemas que podrían afectar a los fondos de los usuarios. La naturaleza estática significa que los errores se detectan en tiempo de compilación y no en tiempo de ejecución cuando se manejan transacciones reales. Además, el sistema de tipos de Rust gestiona la propiedad de la memoria y evita las vulnerabilidades relacionadas con la memoria, como los errores doblemente libres y las condiciones de carrera. Esto es esencial para las aplicaciones Bitcoin, en las que los errores son irreversibles y no hay ninguna autoridad a la que recurrir para recuperar los fondos, a diferencia de los sistemas financieros tradicionales con mecanismos de devolución de cargos.

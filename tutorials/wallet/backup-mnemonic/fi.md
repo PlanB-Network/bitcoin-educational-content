@@ -1,5 +1,5 @@
 ---
-name: Tallenna muistisääntösi
+name: Tallenna oma mnemoninen lause
 description: Tutustu parhaisiin käytäntöihin Bitcoin-lompakkosi suojaamiseksi
 ---
 ![cover](assets/cover.webp)

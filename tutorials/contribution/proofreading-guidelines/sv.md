@@ -12,7 +12,7 @@ Välkommen till denna handledning om **riktlinjer att följa när du korrekturl�
 Genom att bidra till Plan ₿ Academy [public repository](https://github.com/PlanB-Network/bitcoin-educational-content) får du först och främst chansen att skriva handledning, korrekturläsa befintligt innehåll eller till och med föreslå att ett nytt språk läggs till på plattformen. Om du vill veta mer kan du först gå med i vår [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder) och skriva en kort presentation om dig och de språk du kan tala.
 
 
-Den här handledningen är avsedd för bidragsgivare som vill korrekturläsa innehåll. De flesta av dem vet inte mycket om [Github] (https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) eller [Markdown-språket] (https://www.markdownguide.org/basic-syntax/) som vi använder i arkivet, så det är viktigt att dela med sig av några insikter om de nyckelfaktorer som är inblandade i denna uppgift.
+Den här handledningen är avsedd för bidragsgivare som vill korrekturläsa innehåll. De flesta av dem vet inte mycket om [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) eller [Markdown-språket](https://www.markdownguide.org/basic-syntax/) som vi använder i arkivet, så det är viktigt att dela med sig av några insikter om de nyckelfaktorer som är inblandade i denna uppgift.
 
 
 Här nedan har jag samlat de vanligaste problemen som korrekturläsare stöter på. Kom gärna med fler förslag, eftersom det kan hjälpa andra att förbättra sig.
@@ -60,7 +60,7 @@ Först och främst ska du ** ALLTID komma ihåg att synkronisera ditt repo på "
 
 
 
-När du har synkroniserat kan du direkt komma åt det innehåll du är intresserad av och skapa en ny filial, som visas i denna [handledning] (https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Annars kan du öppna en ny filial där du ska arbeta genom att klicka på "Branches", som visas nedan.
+När du har synkroniserat kan du direkt komma åt det innehåll du är intresserad av och skapa en ny filial, som visas i denna [handledning](https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Annars kan du öppna en ny filial där du ska arbeta genom att klicka på "Branches", som visas nedan.
 
 
 
@@ -368,7 +368,7 @@ När du skickar din PR skulle det vara fantastiskt om du namngav den i det här 
 
 Dessutom kan du i **kommentaravsnittet i PR** skriva "stängs" + numret på den utgåva som samordnaren skickade till dig när du påbörjade korrekturläsningsuppgiften, föregånget av ``#``.
 
-Om du till exempel just skickat en PR med korrekturläsning av cyp201 + frågesporter kan du skriva "stänger [#2934] (https://github.com/PlanB-Network/bitcoin-educational-content/issues/2934)".
+Om du till exempel just skickat en PR med korrekturläsning av cyp201 + frågesporter kan du skriva "stänger [#2934](https://github.com/PlanB-Network/bitcoin-educational-content/issues/2934)".
 
 
 På så sätt kopplas PR-meddelandet och frågan samman, och den som läser det offentliga Github-arkivet kan enkelt hitta information.

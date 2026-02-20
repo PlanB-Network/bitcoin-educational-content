@@ -229,7 +229,7 @@ Skriv deretter inn PIN-koden på Jade, og du vil være tilkoblet igjen.
 
 ![JADE-PLUS-GREEN](assets/fr/34.webp)
 
-Jade låses opp via Blockstreams "virtuelle sikre element" (se første del av denne veiledningen). Dette krever en Bluetooth-forbindelse med Green-applikasjonen. Hvis du støter på problemer med Bluetooth-tilkoblingen under opplåsingen, kan du prøve å koble fra og koble til de to enhetene på nytt. Hvis problemet vedvarer, kan du likevel låse opp Jade ved å velge alternativet "*QR Scan*" og følge instruksjonene som er tilgjengelige [på Blockstreams nettsted] (https://jadefw.blockstream.com/pinqr/index.html).
+Jade låses opp via Blockstreams "virtuelle sikre element" (se første del av denne veiledningen). Dette krever en Bluetooth-forbindelse med Green-applikasjonen. Hvis du støter på problemer med Bluetooth-tilkoblingen under opplåsingen, kan du prøve å koble fra og koble til de to enhetene på nytt. Hvis problemet vedvarer, kan du likevel låse opp Jade ved å velge alternativet "*QR Scan*" og følge instruksjonene som er tilgjengelige [på Blockstreams nettsted](https://jadefw.blockstream.com/pinqr/index.html).
 
 Før du mottar dine første bitcoins i lommeboken din, ** anbefaler jeg deg på det sterkeste å utføre en tom gjenopprettingstest**. Noter litt referanseinformasjon, for eksempel din xpub eller første mottaksadresse, og slett deretter lommeboken din i Green-appen og på Jade Plus mens den fortsatt er tom (`Options -> Device -> Factory Reset`). Prøv deretter å gjenopprette lommeboken din ved hjelp av papirsikkerhetskopiene av den mnemoniske frasen. Sjekk at cookie-informasjonen som genereres etter gjenopprettingen samsvarer med den du opprinnelig skrev ned. Hvis den gjør det, kan du være trygg på at papirsikkerhetskopiene dine er pålitelige. Hvis du vil vite mer om hvordan du utfører en testgjenoppretting, kan du lese denne andre veiledningen :
 
@@ -267,7 +267,7 @@ Velg betalingsbeløpet.
 
 ![JADE-PLUS-GREEN](assets/fr/41.webp)
 
-Nederst på skjermen kan du velge gebyrsats for denne transaksjonen. Du kan velge om du vil følge programmets anbefalinger eller tilpasse gebyrene selv. Jo høyere gebyret er i forhold til andre ventende transaksjoner, desto raskere vil transaksjonen bli behandlet. For informasjon om gebyrmarkedet, se [Mempool.space] (https://mempool.space/) i delen "*Transaksjonsgebyrer*".
+Nederst på skjermen kan du velge gebyrsats for denne transaksjonen. Du kan velge om du vil følge programmets anbefalinger eller tilpasse gebyrene selv. Jo høyere gebyret er i forhold til andre ventende transaksjoner, desto raskere vil transaksjonen bli behandlet. For informasjon om gebyrmarkedet, se [Mempool.space](https://mempool.space/) i delen "*Transaksjonsgebyrer*".
 
 ![JADE-PLUS-GREEN](assets/fr/42.webp)
 

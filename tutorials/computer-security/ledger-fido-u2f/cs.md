@@ -46,7 +46,7 @@ Připojte zařízení Ledger k počítači a odemkněte jej.
 
 
 
-Chcete-li aplikaci nainstalovat, otevřete software [Ledger Live] (https://www.Ledger.com/Ledger-live) a přejděte na kartu "*My Ledger*". Najděte aplikaci "*Security Key*" a nainstalujte ji do svého zařízení.
+Chcete-li aplikaci nainstalovat, otevřete software [Ledger Live](https://www.Ledger.com/Ledger-live) a přejděte na kartu "*My Ledger*". Najděte aplikaci "*Security Key*" a nainstalujte ji do svého zařízení.
 
 
 

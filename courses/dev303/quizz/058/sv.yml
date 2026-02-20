@@ -1,0 +1,8 @@
+question: När du skapar ett anpassat funktionsliknande makro som behöver hantera olika antal inmatningsargument, vilken fragmentspecifikator och repetitionsmönsterkombination skulle vara lämpligast?
+answer: Använd $($x:expr),* för att matcha noll eller flera uttryck åtskilda med kommatecken
+wrong_answers:
+  - Använd $($x:ident)+ för att matcha en eller flera identifierare utan separatorer
+  - Använd $($x:ty);* för att matcha noll eller flera typer åtskilda av semikolon
+  - Använd $($x:expr)? för att matcha ett valfritt enstaka uttryck utan upprepning
+explanation: |
+  Mönstret $($x:expr),* är särskilt utformat för makron med variabla argument, där expr matchar vilket uttryck som helst och syntaxen ,* hanterar noll eller flera upprepningar åtskilda av kommatecken. Detta är precis vad som behövs för makron som vec! som kan acceptera varierande antal argument. De andra alternativen är felaktiga eftersom: ident endast matchar identifierare (inte fullständiga uttryck), ty matchar typer (inte värden) och ? matchar valfria enskilda objekt i stället för variabla upprepningar.

@@ -1,0 +1,8 @@
+question: Koja se sintaksa koristi za definisanje parametara u Rust zatvaranjima?
+answer: Koristite znakove cevi (|) za obuhvatanje parametara
+wrong_answers:
+  - Zagrade () za obuhvatanje parametara
+  - Kvadratne zagrade [] za obuhvatanje parametara
+  - Uvijene zagrade {} za obuhvatanje parametara
+explanation: |
+  Zatvaranja u Rust koriste znakove cevi (|) za definisanje parametara, što ih razlikuje od regularnih funkcija koje koriste zagrade. Na primer, zatvaranje bez parametara se piše kao ||, dok zatvaranje sa parametrima izgleda kao |x, y|. Ova jedinstvena sintaksa čini zatvaranja lako prepoznatljivim i razlikuje ih od definicija funkcija. Zagrade se koriste za regularne funkcije, dok se uglaste i viticaste zagrade koriste za druge svrhe u Rust sintaksi.

@@ -1,5 +1,6 @@
 ---
-term: AGORISME
+term: Agorisme
 
+definition: En libertariansk politisk filosofi som tar til orde for økonomisk handling utenfor statens kontroll (motøkonomi) for gradvis å undergrave statens makt.
 ---
 En politisk filosofi grunnlagt av Samuel Edward Konkin III på 1980-tallet. Den er en videreutvikling av libertarianismen, og legger vekt på direkte handling for å frigjøre seg fra statsmaktens lenker gjennom motøkonomi, en økonomisk praksis som foregår utenfor statlig regulerte rammer. Den agoristiske ideologien er basert på naturrettsteori, som hevder at individets naturlige rettigheter er overordnet lover pålagt av staten. Dette omfatter blant annet privateiendommens forrang, respekt for fysisk integritet og kontraktsfrihet. Agoristene avviser alle former for tradisjonell politisk deltakelse, som for eksempel stemmegivning, som de ser på som en bekreftelse av statens tvangsmakt. De ønsker et samfunn der økonomiske og sosiale utvekslinger skjer fritt på et åpent marked, kalt Agoraen, og tar sikte på en fredelig revolusjon for gradvis å undergrave statens makt. Deres emblem er "A3", som står for "Agora, Anarchy, Action". Agorismens prinsipp er beskrevet i det *Nye libertarianske manifestet* som ble publisert i 1980. Dette dokumentet er basert på *Libertarian Manifesto* av Murray Rothbard, men det går enda lenger. Mange Bitcoin-entusiaster identifiserer seg med agorisme og mener at Bitcoin er det perfekte verktøyet for dette.

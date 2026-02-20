@@ -1,0 +1,11 @@
+question: Ni igiki gitera intege mu vy’ubutunzi gituma wokoresha Bitcoin miner aho gukoresha igikoresho co gushusha gikoresha umuyagankuba gisanzwe?
+answer: Miner ntitanga ubushuhe gusa ariko kandi iratanga n’agahembo ka Bitcoin.
+wrong_answers:
+  - Miner ikoresha umuyagankuba mutoyi kuruta igikoresho gikoreshwa n’umuyagankuba gisanzwe.
+  - Miner itanga ubushuhe bwinshi kuruta igikoresho gisanzwe gikoreshwa n’umuyagankuba.
+  - Miner irahenda cane kuruta igikoresho co gushushanya c’umuyagankuba gisanzwe.
+explanation: |
+  Itandukaniro aho riri ni mu kuba iyo Miner idatanga ubushuhe gusa ariko kandi 
+  itanga n'agashimwe ka Bitcoin. Ako gashimwe k’inyongera koshobora gufasha kugabanya
+  amaganya/impungenge zerekeye ukuntu aba miners bakoresha inguvu nyinshi.
+reviewed: true

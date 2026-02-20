@@ -72,10 +72,10 @@ Järgmisel ekraanil saate esitatud numbrit uuesti kontrollida. Kui see on õige,
 Telegram on nüüd mobiilis täielikult toimiv, võime liikuda edasi esimeste põhiseadete juurde.
 
 
-# Turvalisuse ja privaatsuse seaded
+## Turvalisuse ja privaatsuse seaded
 
 
-## Kasutajanime konfiguratsioon
+### Kasutajanime konfiguratsioon
 
 
 Telegrami kasutajanimi - mida mõnikord nimetatakse ka "käepidemeks" - on palju enamat kui pelgalt väljamõeldis. Käepide on tõepoolest **ühiklik iga kasutaja jaoks**.
@@ -129,7 +129,7 @@ Tänu kasutajanime ainulaadsusele ei saa nad seda teha.
 **Mida nad võivad teha, on näidata "sarnast" käepidet, muutes seda veidi (täht/number), nii et ainult tähelepanelik silm näeb selgelt, et tegemist on petturiga**. Pöörake alati suurt tähelepanu kasutajanimele ja te näete, et petturitel ei ole lihtne mäng.
 
 
-## Privaatsus
+### Privaatsus
 
 
 Teine oluline ettevaatusabinõu, mida saate rakendada, on piirata teavet, mida oma äsja loodud kontolt välja lasete.
@@ -165,7 +165,7 @@ Need on meetmed, mis takistavad teie telefoninumbri avalikustamist, nii et te ei
 Nüüd, kui teie Telegram-konto on loodud ja te olete saanud natuke privaatsust, võite hakata seda kasutama.
 
 
-## Kontaktide ja vestluste lisamine
+### Kontaktide ja vestluste lisamine
 
 
 Kui teie konto on äsja loodud, on tõenäoline, et pealeht on täiesti tühi.
@@ -229,7 +229,7 @@ Vaikimisi on kõik, alates üksikutest kasutajatest kuni temaatiliste kanaliteni
 ⚠️Attention: **Vältige liitumist rühmade ja kanalitega ilma nende autentsust kontrollimata**. Et leida ettevõtte või teema ametlik Telegram-kanal/grupp, mida soovite jälgida, otsige abi ametlike veebilehtede _Contacts_-osast või väga usaldusväärsetest allikatest.
 
 
-### Täiustatud sõnumite funktsioonid
+#### Täiustatud sõnumite funktsioonid
 
 
 Telegram võimaldab teil kasutada sõnumite vahetamisel unikaalseid täiustatud funktsioone. Astuge vestlusse ja klõpsake taustal, mis tahes teise saatja sõnumi kõrval.
@@ -257,7 +257,7 @@ Saate lisada ka suuri faile, vahetades "rasket" meediat hõlpsasti, palju rohkem
 ![image](assets/en/46.webp)
 
 
-### Isiklik pilv
+#### Isiklik pilv
 
 
 Telegrami paljude uskumatute funktsioonide hulgas on ka isiklik pilv, mis on - käesoleva artikli kirjutamise ajal - **piiramatu**.
@@ -285,7 +285,7 @@ Jututuba ilmub esiplaanile, valmis kasutamiseks.
 ***
 
 
-## Sõnumite ajastamine ja vaikne saatmine
+### Sõnumite ajastamine ja vaikne saatmine
 
 
 Muud kasulikud täiustatud funktsioonid võimaldavad saata sõnumeid, mis austavad vastuvõtjate privaatsust, valida vaikiva saatmise vahel ning planeerida sõnumi saatmist sobivatel kellaaegadel ja päevadel.
@@ -301,7 +301,7 @@ Kõik, mida peate tegema, on sõnumi kirjutamine, kuid selle asemel, et seda koh
 ![image](assets/en/48.webp)
 
 
-### Telefoni vahemälu tühjendamine
+#### Telefoni vahemälu tühjendamine
 
 
 Veel üks kasulik tava, et hoida oma telefon tõhusalt töötavana, on aeg-ajalt Telegrami vahemälu tühjendada. Sõltuvalt sellest, kui palju gruppe ja kanaleid te tegelikult jälgite, võib neist allikatest tulev teave ja meedia koguneda vahemällu, muutes teie telefoni aeglaseks.
@@ -350,7 +350,7 @@ Järgmisel pildil näete, kust see seade leida.
 ![image](assets/en/28.webp)
 
 
-## Telegrammi töölaud
+### Telegrammi töölaud
 
 
 Telegrami saab kasutada arvutist, nii et see on sünkroonitud telefonis kuvatava kontoga. Saate valida, kas soovite rakendust mitte alla laadida ja kasutada seda ainult veebi kaudu. Sellel versioonil on aga piirangud võrreldes arvutis käivitatava versiooniga, mistõttu soovitan selle alla laadida ja installida, et seda võimsat tööriista maksimaalselt ära kasutada.
@@ -421,7 +421,7 @@ Teie telefonis kuvatakse teade, et uus seade on edukalt lisatud.
 Eelkõige on Telegram aktiivne ja kasutatav ka teie lauaarvutis.
 
 
-### Rühmakõne
+#### Rühmakõne
 
 
 Kui olete Telegrami grupi administraator või omanik, saate kõne käivitada grupi menüüst. Nii saate teha otseülekandeid mitme osalejaga, salvestada neid heli- ja videosalvestusi, jagada neid või kasutada neid näiteks hariduslikel eesmärkidel.
@@ -433,7 +433,7 @@ Järgneval pildil näete, kuidas alustada grupikõnet Telegrami töölaua abil: 
 ![image](assets/en/47.webp)
 
 
-### Lõplikud kaalutlused
+#### Lõplikud kaalutlused
 
 
 Nüüd, kui olete selle õpetuse läbi lugenud, olete täiesti võimeline valima, kuidas Telegrami kasutada, ilma et teid mõjutaks selle kasutajate hype'i või peavoolu poolt tekitatud müra. Võite alustada leebe lähenemisega ja seejärel avastada, kuidas seda sõnumsiderakendust oma isiklike vajaduste jaoks kõige paremini ära kasutada.

@@ -1,0 +1,9 @@
+question: Enligt Hayeks teori om spridd kunskap, varför misslyckas centralt planerade ekonomier med att uppnå effektiv resursfördelning jämfört med fria marknadssystem?
+answer: Centrala planerare har inte tillgång till den fragmenterade, lokala kunskap som endast enskilda marknadsaktörer besitter om sina specifika behov, preferenser och omständigheter
+wrong_answers:
+  - Centralplanerare saknar den datorkraft och de avancerade algoritmer som krävs för att bearbeta alla ekonomiska data som krävs för optimal resursfördelning
+  - Centralplanerare är till sin natur korrupta och egennyttiga och prioriterar sin egen vinning framför samhällets välfärd som helhet
+  - Centralplanerare är ideologiskt färgade och vägrar att implementera marknadsbaserade lösningar även om de inser att de är mer effektiva
+explanation: |
+  Hayeks grundläggande insikt om spridd kunskap visar att information om individuella preferenser, lokala förhållanden och subjektiva värderingar endast finns i fragmenterad form hos miljontals individer. Denna kunskap kan inte samlas in eller aggregeras centralt eftersom den är tyst, ständigt föränderlig och ofta motsägelsefull. Fria marknader löser detta genom prismekanismen, som spontant samordnar denna spridda information genom frivilliga utbyten.
+  De andra alternativen fokuserar felaktigt på tekniska begränsningar, moraliska misslyckanden eller ideologiska fördomar snarare än det centrala epistemologiska problemet att ingen central myndighet kan besitta den distribuerade kunskap som krävs för effektiv samordning.

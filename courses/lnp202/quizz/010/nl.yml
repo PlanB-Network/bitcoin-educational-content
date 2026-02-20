@@ -1,0 +1,9 @@
+question: Welke criteria bepalen je keuze voor een Lightning-oplossing?
+answer: Gebruiksfrequentie en bereidheid om te beheren
+wrong_answers:
+  - Uitgewisselde bedragen en protocolsnelheid
+  - Geolocatie en onderwijs
+  - Risicotolerantie en softwareontwerp
+explanation: |
+  De keuze hangt vooral af van hoe vaak Lightning wordt gebruikt en hoeveel je van technisch beheer houdt.
+reviewed: false

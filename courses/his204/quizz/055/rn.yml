@@ -1,8 +1,9 @@
-question: Ni mu bihugu ibihe ivugurura ry’ubutunzi ryahumekewe na Physiocracy ryakoreshejwe?
-answer: Ubufaransa, Ubutaliyano, Ubudage
+question: Ni mu bihugu ibihe vyimpinduka mu butunzi ryisunze ivyiyumviro vya Physiocracy ryakoreshejwe?
+answer: Ubufaransa, Ubutaliyano, Ubudagi
 wrong_answers:
-  - Ubwongereza, Ubufaransa, Ubudage
+  - Ubwongereza, Ubufaransa, Ubudagi
   - Ubuholandi, Ubutaliyano, Suède
   - Esupanye, Portigal, Uburusiya
 explanation: |
-  Impinduka z’ubuhinga bwa none zageragejwe mu Bufaransa, mu Butaliyano no mu Budagi, ariko kenshi ntizamara igihe gito kubera ukurwanywa n’inyungu zashinzwe.
+  Impinduka za Physiocratic z’ubuhinga bwa none zageragejwe mu Bufaransa, mu Butaliyano no mu Budagi, ariko kenshi zamara igihe gito kubera ukurwanywa n’inyungu zikeneye.
+reviewed: true

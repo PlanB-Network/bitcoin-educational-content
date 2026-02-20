@@ -1,0 +1,11 @@
+question: Jaki pseudonim nosił pierwotny twórca internetowej gry w kości SatoshiDICE?
+answer: Fireduck
+wrong_answers:
+  - Evoorhees
+  - Tuxavant
+  - Hippich
+explanation: |
+ Joseph Gleason, znany również jako Fireduck, był 30-letnim amerykańskim deweloperem. Po zaprogramowaniu kilku narzędzi programistycznych dla Bitcoin, opracował on kasyno bitcoinowe SatoshiDICE
+ (które prezentowało się jako gra w kości) 9 kwietnia 2012 roku. Kilka tygodni później sprzedał platformę Erikowi Voorheesowi (Evoorhees) za 40 bitcoinów, czyli około 200 dolarów
+ około 200 dolarów.
+reviewed: true

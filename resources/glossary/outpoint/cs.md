@@ -1,6 +1,7 @@
 ---
-term: OUTPOINT
+term: Outpoint
 
+definition: Jedinečný odkaz na UTXO skládající se z txid a indexu výstupu.
 ---
 Jedinečný odkaz na výstup nevyčerpané transakce (UTXO). Skládá se ze dvou prvků:
 

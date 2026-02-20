@@ -1,0 +1,9 @@
+question: බිට්කොයින් හි මුල්ම මයිනින් පූල් (mining pool) එක කුමක්ද?
+answer: Braiins Pool
+wrong_answers:
+  - Foundry USA
+  - AntPool
+  - F2Pool
+explanation: |
+  Braiins Pool, පෙර Slush Pool සහ Bitcoin CZ ලෙස හැඳින්වුණු අතර, එය 2010 දී නිර්මාණය කරන ලද බිට්කොයින් හි පළමු මයිනින් පූල් එකයි.
+reviewed: false

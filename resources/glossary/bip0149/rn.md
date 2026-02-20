@@ -1,5 +1,6 @@
 ---
 term: BIP0149
+definition: Isubirira rya BIP148 rishikiriza SegWit biciye kuri BIP8 mu buryo buke buke kandi butarimwo amatati menshi.
 ---
 
 Iciyumviro ca Shaolin Fry co gukoresha SegWit (BIP141, BIP143, na BIP147) hakoreshejwe uburyo bwo gukoresha BIP8 n'`LOT=ukuri`, iyo gukoresha SegWit biciye kuri BIP9 kwananiwe gukoresha imbere y'igenekerezo rya 15 Ugushyingo 2019.

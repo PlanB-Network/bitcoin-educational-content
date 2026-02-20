@@ -90,8 +90,6 @@ Bạn đã sẵn sàng khám phá thế giới mạng máy tính chưa? Bắt đ
 **LƯU Ý**: Các mô tả được dựa trên hệ thống GNU/Linux CentOS 7. Tuy nhiên, cấu hình mạng phần lớn giống nhau khi so sánh Debian với hệ thống CentOS. Vì vậy, chúng tôi sẽ không phân biệt. Nếu có, chúng tôi sẽ thêm một logo cụ thể vào trước.
 
 
-**Lưu ý**: Nếu bạn gặp bất kỳ thuật ngữ nào không quen thuộc trong suốt khóa học, vui lòng tham khảo [thuật ngữ](https://planb.academy/resources/glossary) để biết định nghĩa.
-
 
 
 # Giao thức TCP/IP
@@ -306,18 +304,19 @@ Trường đầu tiên trong tiêu đề được gọi là Phiên bản (Versio
 
 
 
-| Version Number | Protocol   | Version Description         | Reference               |
+
+| Số Phiên bản | Giao thức | Mô tả Phiên bản | Tham chiếu |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+| 0–1 | Được bảo lưu | Được bảo lưu | |
+| 2–3 | Chưa được chỉ định | Chưa được chỉ định | |
+| 4 | IP | Giao thức Internet | RFC 791 |
+| **5** | **ST** | **Chế độ truyền gói tin ST** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | Giao thức Internet phiên bản 6 | RFC 8200 |
+| 7 | TP/IX | Internet Tiếp theo | RFC 1475 |
+| 8 | PIP | Giao thức Internet P | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | Chưa được chỉ định | Chưa được chỉ định | |
+| 15 | Được bảo lưu | Được bảo lưu | |
 
 Trong số đó có IPv5, mặc dù phần lớn chưa được công chúng biết đến, nhưng đã tồn tại dưới dạng ST (Giao thức luồng). Được phát triển vào những năm 1980, IPv5 được thiết kế để đáp ứng nhu cầu ngày càng tăng vào thời điểm đó: cung cấp "Chất lượng Dịch vụ" (QoS) cho một số luồng dữ liệu nhất định yêu cầu truyền tải liên tục, ổn định, chẳng hạn như Thoại qua IP (VoIP) hoặc các luồng đa phương tiện. Mục tiêu của nó là đảm bảo băng thông và mức độ ưu tiên từ đầu đến cuối, một khái niệm tương tự như RSVP (Giao thức Đặt trước Tài nguyên) hiện nay, cho phép đặt trước tài nguyên mạng một cách linh hoạt trên các bộ định tuyến hiện đại.
 
@@ -485,14 +484,15 @@ Trước đây, hệ thống IPv4 dựa trên sơ đồ phân lớp, được đ
 
 
 
-| **Class** | **IPv4 Address Range**            | **Usage**                    |
+
+| **Lớp** | **Phạm vi địa chỉ IPv4**          | **Mục đích sử dụng**         |
 | --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x to 126.x.x.x              | Unicast addresses            |
-|           | (127.x.x.x reserved for loopback) | Local loopback               |
-| B         | 128.0.x.x to 191.255.x.x          | Unicast addresses            |
-| C         | 192.0.0.x to 223.255.255.x        | Unicast addresses            |
-| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 to 255.255.255.255      | Reserved for experimentation |
+| A         | 1.x.x.x đến 126.x.x.x             | Địa chỉ unicast              |
+|           | (127.x.x.x dành riêng cho loopback)| Loopback cục bộ           |
+| B         | 128.0.x.x đến 191.255.x.x         | Địa chỉ unicast              |
+| C         | 192.0.0.x đến 223.255.255.x       | Địa chỉ unicast              |
+| D         | 224.0.0.0 đến 239.255.255.255     | IP Multicast                 |
+| E         | 240.0.0.0 đến 255.255.255.255     | Dành riêng cho thử nghiệm    |
 
 Không phải tất cả các giá trị khả thi đều có thể được gán cho máy chủ. Ví dụ, trong **lớp C** Address, byte cuối cùng cung cấp 8 bit (256 giá trị). Tuy nhiên, hai trong số này được dành riêng:
 
@@ -573,13 +573,14 @@ Chúng tôi muốn có 4 mạng con, mỗi mạng có tối đa 60 máy chủ.
 
 
 
-| Subnet ID (bits) | Subnet Address   | Subnet Mask     | Address Range                 | Broadcast Address |
+
+
+| ID mạng con (bit) | Địa chỉ mạng con | Mặt nạ mạng con | Phạm vi địa chỉ          | Địa chỉ broadcast |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
 | 10               | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191     |
 | 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
-
 
 **Bước 5**: Thao tác này tạo ra bốn mạng con, mỗi mạng hỗ trợ tối đa 62 máy, đồng thời vẫn đảm bảo tính hiệu quả của sơ đồ địa chỉ tổng thể. Phần _hostid_ được chia thành phần _subnetid_ và phần host.
 
@@ -623,7 +624,9 @@ Khối /17 chứa 2^(32-17) địa chỉ, do đó tổng cộng 2^15 = 32.768 đ
 Để giúp bạn hiểu rõ hơn về kích thước CIDR, dưới đây là bảng các tiền tố phổ biến cùng mặt nạ mạng con tương đương và địa chỉ có thể sử dụng:
 
 
-| CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
+
+
+| Tiền tố CIDR | Số bit host khả dụng | Mặt nạ mạng con | Địa chỉ host có thể sử dụng |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -635,9 +638,8 @@ Khối /17 chứa 2^(32-17) địa chỉ, do đó tổng cộng 2^15 = 32.768 đ
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (chỉ point-to-point) |
+| /32         | 0                   | 255.255.255.255 | 1 (chỉ địa chỉ host)         |
 
 **LƯU Ý**: Trước đây, RFC 950 không khuyến khích sử dụng subnet zero, chủ yếu để tránh nhầm lẫn trong định tuyến. Hạn chế này đã trở nên lỗi thời với RFC 1878, phiên bản cho phép sử dụng hoàn toàn. Hạn chế cũ chủ yếu là do không tương thích với phần cứng cũ không thể xử lý CIDR chính xác. Thiết bị hiện đại không gặp vấn đề tương tự.
 
@@ -819,12 +821,13 @@ Kiến trúc phân lớp tuân theo nguyên tắc rằng mỗi Layer chỉ xử 
 Bảng dưới đây tóm tắt các thuật ngữ cho bối cảnh TCP và UDP:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| Tầng TCP/IP          | Tên đơn vị (TCP) | Tên đơn vị (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| Tầng ứng dụng        | Luồng            | Thông điệp       |
+| Tầng vận chuyển      | Phân đoạn        | Gói              |
+| Tầng Internet        | Datagram         | Datagram         |
+| Tầng truy cập mạng   | Khung            | Khung            |
 
 ### Các nguyên mẫu dịch vụ và đơn vị dữ liệu
 
@@ -907,7 +910,8 @@ Bảng dưới đây minh họa sự tương ứng này:
 
 
 
-| Binary Code | Activated Bit Values          | Decimal Value |
+
+| Mã nhị phân | Giá trị bit được kích hoạt   | Giá trị thập phân |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -922,7 +926,8 @@ Bảng dưới đây minh họa sự tương ứng này:
 Để chuyển đổi nhị phân sang thập phân, hãy cộng trọng số của các bit được đặt thành 1.
 
 
-| Binary     | Decimal Value |
+
+| Nhị phân   | Giá trị thập phân |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |
@@ -961,13 +966,14 @@ Ban đầu, mạng IPv4 được chia thành năm **lớp**: (A, B, C, D và E).
 
 
 
-| Class | Leading Bits | First Byte Range | Default Subnet Mask | Purpose                          |
+
+| Lớp | Bit dẫn đầu | Phạm vi byte đầu tiên | Mặt nạ mạng con mặc định | Mục đích                      |
 | ----- | ------------ | ---------------- | ------------------- | -------------------------------- |
-| A     | 0            | 0 – 127          | 255.0.0.0           | Very large networks              |
-| B     | 10           | 128 – 191        | 255.255.0.0         | Medium-sized networks            |
-| C     | 110          | 192 – 223        | 255.255.255.0       | Small networks                   |
-| D     | 1110         | 224 – 239        | N/A                 | Multicast addresses              |
-| E     | 1111         | 240 – 255        | N/A                 | Experimental (not publicly used) |
+| A     | 0            | 0 – 127          | 255.0.0.0           | Mạng rất lớn                     |
+| B     | 10           | 128 – 191        | 255.255.0.0         | Mạng cỡ trung                    |
+| C     | 110          | 192 – 223        | 255.255.255.0       | Mạng nhỏ                         |
+| D     | 1110         | 224 – 239        | Không áp dụng        | Địa chỉ multicast                |
+| E     | 1111         | 240 – 255        | Không áp dụng        | Thử nghiệm (không dùng công khai) |
 
 Địa chỉ đặc biệt:
 
@@ -1222,7 +1228,8 @@ Bảng định tuyến, được quản lý thủ công (định tuyến tĩnh) 
 Bảng định tuyến hoạt động như một bảng ánh xạ giữa các địa chỉ IP đích và các cổng tiếp theo. Nó thường lưu trữ mã định danh mạng (_network ID_) thay vì từng máy chủ Address riêng lẻ, giúp giảm đáng kể kích thước của nó.
 
 
-| Destination Address | Next-Hop Router Address | Interface |
+
+| Địa chỉ đích | Địa chỉ bộ định tuyến bước nhảy tiếp theo | Giao diện |
 | ------------------- | ----------------------- | --------- |
 
 Sử dụng các mục nhập này, bộ định tuyến có thể nhanh chóng xác định Interface nào và nút nào mà mỗi gói dữ liệu nên được gửi. Kết hợp với ARP để phân giải các địa chỉ MAC trùng khớp, điều này đảm bảo truyền dữ liệu hiệu quả và đáng tin cậy trên toàn mạng.
@@ -1298,11 +1305,12 @@ Nguyên lý dịch chuyển động này dựa trên việc quản lý bảng ch
 _Ví dụ về bảng dịch NAT được đơn giản hóa:_
 
 
-| Internal IP   | External IP    | Duration (sec) | Reusable? |
+
+| IP nội bộ | IP bên ngoài | Thời lượng (giây) | Có thể tái sử dụng? |
 | ------------- | -------------- | -------------- | --------- |
-| 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | yes       |
-| 10.100.0.89   | 193.48.100.46  | 0              | no        |
+| 10.101.10.20  | 193.48.100.174 | 1,200          | không     |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | có        |
+| 10.100.0.89   | 193.48.100.46  | 0              | không     |
 
 Trong ví dụ này, nếu không có gói tin nào được chuyển qua cho mục nhập thứ hai trong hơn một giờ (3.600 giây), nó được đánh dấu là có thể sử dụng lại. Ngược lại, thời lượng bằng 0 biểu thị giao tiếp đang hoạt động, với ánh xạ bị khóa.
 
@@ -1766,13 +1774,14 @@ Một Address IPv6 không xác định được biểu thị bằng `::` hoặc,
 
 
 
-| IPv6 Address Prefix | Description                                 |
+
+| Tiền tố địa chỉ IPv6 | Mô tả                                  |
 | ------------------- | ------------------------------------------- |
-|::/8                | Reserved addresses                          |
-| 2000::/3            | Unicast addresses, routable on the Internet |
-| fc00::/7            | Unique local addresses (1)                  |
-| fe80::/10           | Link-local addresses                        |
-| ff00::/8            | Multicast addresses                         |
+|::/8                | Địa chỉ được dành riêng                   |
+| 2000::/3            | Địa chỉ unicast, có thể định tuyến trên Internet |
+| fc00::/7            | Địa chỉ cục bộ duy nhất (1)               |
+| fe80::/10           | Địa chỉ link-local                        |
+| ff00::/8            | Địa chỉ multicast                         |
 
 (1): *Trên mạng LAN riêng, tiền tố `fd00::/8` được ưu tiên để chỉ định các địa chỉ nội bộ không thể định tuyến trên Internet.*
 
@@ -1854,24 +1863,28 @@ Cuối cùng, các địa chỉ cục bộ duy nhất (_ULA_, viết tắt của
 Về mặt khái niệm, địa chỉ IPv6 thường được biểu diễn dưới dạng nhị phân, trong đó nửa đầu (64 bit đầu tiên) xác định tiền tố mạng, và nửa sau (cũng 64 bit) xác định duy nhất Interface của thiết bị trên mạng đó. Sự phân chia này giúp việc tự động cấu hình Address dễ dàng hơn thông qua các cơ chế như SLAAC (_Stateless Address Autoconfiguration_), cho phép máy tự động generate một Address ổn định dựa trên MAC Address hoặc một mã định danh giả ngẫu nhiên.
 
 
-| Field     | Prefix | L | Global ID | Subnet | Interface ID |
+
+| Trường    | Tiền tố | L | ID toàn cục | Mạng con | ID giao diện |
 |-----------|--------|---|-----------|--------|---------------|
-| Bits      | 7      | 1 | 40        | 16     | 64            |
+| Bit       | 7      | 1 | 40        | 16     | 64            |
 
 Kiến trúc IPv6 tuân theo mô hình định tuyến toàn cầu phân cấp của Internet ngày nay. Phân vùng tiền tố cho phép các cơ quan đăng ký khu vực và nhà điều hành mạng quản lý việc phân bổ Address theo cách phi tập trung, đồng thời đảm bảo tính duy nhất toàn cầu. Trong khuôn khổ này, cùng một máy chủ có thể đồng thời giữ một Address đơn hướng toàn cầu cho giao tiếp internet và một Address liên kết cục bộ cho các tương tác cục bộ, ví dụ như với các vùng lân cận hoặc cho các thông báo khám phá bộ định tuyến.
 
 
-| Field     | Prefix | Zero | Interface ID |
+
+
+| Trường    | Tiền tố | Số không | ID giao diện |
 |-----------|--------|------|--------------|
-| Bits      | 10     | 54   | 64           |
+| Bit       | 10     | 54   | 64           |
 
 **Địa chỉ Anycast** đại diện cho một khái niệm trung gian được xây dựng dựa trên mô hình đơn hướng nhưng có thể hoạt động như đa hướng trong một số trường hợp. Về bản chất, Anycast Address là một Unicast Address được gán cho nhiều giao diện phân tán trên các nút mạng khác nhau. Khi một gói tin được gửi đến Anycast Address, giao thức IPv6 sẽ chuyển gói tin đó đến một trong các máy chủ chia sẻ Address đó, thường là máy chủ gần nhất về mặt cấu trúc định tuyến. Cách tiếp cận này tối ưu hóa tốc độ xử lý truy vấn và cải thiện khả năng phục hồi của các dịch vụ phân tán. Một ví dụ điển hình là các máy chủ DNS gốc, nơi địa chỉ Anycast tự động chuyển hướng truy vấn đến điểm hiện diện gần nhất.
 
 
 
-| Field     | Prefix | Subnet | Interface ID |
-|-----------|--------|--------|--------------|
-| Bits      | 48     | 16     | 64           |
+
+| Trường     | Tiền tố | Mạng con | ID Giao diện |
+|-----------|--------|--------|______________|
+| Bit      | 48     | 16     | 64           |
 
 Trong IPv6, **địa chỉ đa hướng** thay thế cơ chế phát sóng, vốn được coi là quá tốn kém và không phù hợp với mạng lưới toàn cầu. Address đa hướng xác định một nhóm giao diện, thường trên nhiều máy chủ, muốn nhận cùng một gói tin đồng thời.
 
@@ -1893,9 +1906,10 @@ Cấu trúc của IPv6 multicast Address bao gồm:
 - trường nhận dạng (112 bit) xác định số nhóm đa hướng.
 
 
-| Field      | Prefix | Flags | Scope | Group ID |
+
+| Trường      | Tiền tố | Cờ | Phạm vi | ID nhóm |
 |------------|--------|--------|--------|----------|
-| Bits       | 8      | 4      | 4      | 112      |
+| Bit       | 8      | 4      | 4      | 112      |
 
 Một ví dụ nổi tiếng về multicast IPv6 đang hoạt động là _Giao thức Khám phá Hàng xóm_ (NDP). Thay vì sử dụng ARP như trong IPv4, NDP dựa vào các địa chỉ multicast như `ff02::1:ff00:0/104` để phát các yêu cầu khám phá hàng xóm, chỉ nhắm mục tiêu đến các máy chủ liên quan trên cùng một liên kết.
 
@@ -2013,8 +2027,9 @@ Từ năm 2006, mỗi RIR đều nhận được một khối IPv6 /12 từ IANA
 Hệ thống phân bổ điển hình trông như thế này:
 
 
-| IANA | RIR | LIR | Customer | Subnet | Interface |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Khách hàng | Mạng con | Giao diện |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Với sự phong phú của địa chỉ này, NAT (*Network Address Translation*), vốn từng là yếu tố thiết yếu trong IPv4 để đối phó với tình trạng thiếu hụt Address, giờ đây không còn cần thiết nữa. Mỗi máy chủ có thể có một Address công cộng duy nhất, có thể định tuyến toàn cầu, giúp đơn giản hóa kết nối đầu cuối và giúp các giao thức như IPSec, VoIP hoặc kết nối đến dễ sử dụng hơn.

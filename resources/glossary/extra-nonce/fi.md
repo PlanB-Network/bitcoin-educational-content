@@ -1,5 +1,6 @@
 ---
-term: EXTRA-Nonce
+term: Extra-nonce
+definition: Coinbase-tapahtumassa oleva kenttä, jonka avulla hakuavaruutta voidaan laajentaa perinteistä noncea suuremmaksi louhinnassa.
 ---
 
 Kenttä, jota käytetään lohkon Coinbase Transaction:n `scriptSig`-kentässä, joka mahdollistaa suuremman määrän testattavia vaihtoehtoja, jotta Hash olisi vaikeustavoitetta alhaisempi, klassisen Nonce:n lisäksi, joka löytyy suoraan kunkin lohkon otsikosta.

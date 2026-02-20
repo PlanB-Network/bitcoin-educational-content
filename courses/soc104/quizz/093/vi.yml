@@ -1,0 +1,9 @@
+question: Theo triết lý của Satoshi Nakamoto, Bitcoin hướng đến giải quyết vấn đề cơ bản nào của các loại tiền tệ truyền thống?
+answer: Sự tin tưởng thái quá đặt vào các thể chế tập trung, những thể chế vốn đã vi phạm lòng tin đó trong quá khứ thông qua việc phá giá tiền tệ.
+wrong_answers:
+  - Sự thiếu hiệu quả về mặt kỹ thuật của các hệ thống thanh toán truyền thống, xử lý giao dịch quá chậm so với nhu cầu thương mại toàn cầu.
+  - Tác động môi trường của việc sản xuất tiền mặt và lượng khí thải carbon của cơ sở hạ tầng ngân hàng
+  - Những hạn chế về mặt địa lý của các loại tiền tệ quốc gia cản trở sự thông suốt của thương mại và giao dịch quốc tế.
+explanation: |
+  Satoshi đã nêu rõ rằng "vấn đề cốt lõi của tiền tệ truyền thống là tất cả sự tin tưởng cần thiết để nó hoạt động" và lưu ý rằng "lịch sử của tiền tệ pháp định đầy rẫy những vi phạm lòng tin đó."
+  Bitcoin được thiết kế như một hệ thống không cần sự tin tưởng để loại bỏ sự phụ thuộc vào các ngân hàng trung ương, những ngân hàng đã từng làm giảm giá trị tiền tệ. Các lựa chọn khác, mặc dù có thể là những mối lo ngại chính đáng, nhưng không phải là động lực triết học nền tảng đằng sau sự ra đời của Bitcoin như được người sáng lập trình bày.

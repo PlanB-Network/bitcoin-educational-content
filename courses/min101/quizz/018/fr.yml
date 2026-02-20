@@ -1,0 +1,9 @@
+question: Quel problème Hashcash cherchait-il principalement à réduire ?
+answer: Le spam e-mail
+wrong_answers:
+  - La double dépense
+  - Le phishing DNS
+  - Le vol de clés privées
+explanation: |
+  Hashcash impose un coût de calcul par message pour rendre l’envoi massif d'e-mails non rentable.
+reviewed: false

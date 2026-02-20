@@ -1,0 +1,9 @@
+question: Koji problem je Hashcash prvenstveno pokušavao da smanji?
+answer: Email spam
+wrong_answers:
+  - Dupla potrošnja
+  - DNS phishing
+  - Krađa privatnih ključeva
+explanation: |
+  Hashcash nameće računarski trošak po poruci kako bi masovno slanje e-pošte učinio neisplativim.
+reviewed: false

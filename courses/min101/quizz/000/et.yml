@@ -1,0 +1,9 @@
+question: Mida tarbivad sisendid (inputs) Bitcoini tehingus?
+answer: Olemasolevad UTXO-d
+wrong_answers:
+  - Tulevased väljundid (outputs)
+  - Olemasolevad blokid
+  - Tulevased aadressid
+explanation: |
+  Sisend viitab varasema tehingu kulutamata väljundile, mida nimetatakse UTXO-ks.
+reviewed: false

@@ -1,1300 +1,640 @@
 ---
 name: Bull Bitcoin Wallet
-description: WalletブルBitcoinの使い方はこちら
+description: Wallet Bull Bitcoinの使い方を知る
 ---
 
 ![cover](assets/cover.webp)
 
 
+![video](https://www.youtube.com/watch?v=6b0xTB2sE8E)
 
-このガイドでは、Bull Bitcoin Mobileのインストール、設定、使用方法について説明します。onchain、Liquid、Lightningの3つのネットワークで資金を受取り、送金する方法、そしてBitcoinを1つのネットワークから別のネットワークに移行する方法を学びます。付録として、リソースや連絡先、背景情報、技術的コンセプトの簡単な説明が掲載されています。
 
+*BTCセッションズのビデオチュートリアルでは、Bull Bitcoin Walletのセットアップと使用方法について説明します。
+
+
+このガイドでは、Bull Bitcoin Wallet のインストール、設定、使用方法について説明します。BitcoinのOn-Chain、Liquid、ライトニング・ネットワークでの送受信や、Bitcoin間の移動方法について学びます。walletの豊富な機能は、Bitcoinを管理するための強力なオールインワン・ツールです。さあ、始めましょう。
 
 
 ## はじめに
 
 
-
-**ブルBitcoinモバイル**は、**[ブルBitcoin](https://www.bullbitcoin.com/)**（[アカウント作成](https://app.bullbitcoin.com/registration/orangepeel)）によって開発された**自己完結型**Bitcoin Walletであり、サードパーティに依存することなく、秘密鍵、ひいては資金を完全に管理することができます。オープンソースでCypherpunkの哲学に根ざしたこのWalletは、シンプルさ、機密性、そしてクロスネットワークスワップやPayJoinサポートなどの高度な機能を兼ね備えています。3つのネットワークでビットコインを管理することができます： **Bitcoin onchain**、**Liquid**、**Lightning**の3つのネットワークでビットコインを管理できます。
-
+Bull Bitcoin](https://www.bullbitcoin.com/)によって開発されたBull Bitcoin Walletは、**自己完結型**のBitcoin walletであり、サードパーティに依存することなく、秘密鍵、ひいては資金を完全に管理することができます。オープンソースでCypherpunkの哲学に根ざしたこのWalletは、シンプルさ、機密性、そしてクロスネットワークスワップやPayJoinサポートなどの高度な機能を兼ね備えています。3つのネットワークでビットコインを管理できます： **Bitcoin onchain**、**Liquid**、**Lightning**の3つのネットワークでビットコインを管理できます。BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49)では、現在のトピックや今後の開発をチェックすることができます。このプロジェクトは100％オープンソースで「公開で構築」されているため、提案や遭遇したバグを送ることもできる。現在、いくつかのウォレットが複数のネットワークをサポートしていますが、Bull Bitcoin Walletはすべてのネットワークにわたってプライバシー機能を深く統合することによって際立っており、すべての主要なネットワークにわたってあなたのBitcoinを管理するための強力なツールとなっています。
 
 
-### 開発の背景
+## 1️⃣ 前提条件
 
 
-
-Walletは大きな課題に対応する：Bitcoinのネットワーク料金は、少額の支払いや、小規模な自営ライトニング・チャネルの開設には不向きです。WalletブルBitcoinモバイルは、3つの主要なBitcoinネットワークに依存しながら、セルフ・カストディアル・ソリューションを提供します：
+Bull Bitcoin Wallet**を使い始める前に、以下のものが揃っていることを確認してください：
 
 
 
-
-
-- Bitcoinネットワーク（onchain）**：UTXOの中長期保管や大口取引に最適で、手数料はごくわずか。**
-- **Liquid Network**：高速（～2分）、より機密性（金額を隠す）、低コストの取引用に設計されており、少額の積み立てやプライバシーの保護に最適です。
-- **Lightning**ネットワーク：インスタントで低コストの決済に最適化されており、日常的な小額から中額の取引に適している。
-
-
-
-例えば、ブルBitcoinモバイルでは、**Liquid**や**ライトニング**のポートフォリオに少額を積み立て、相当額に達したら、：
-
-
-
-
-
-- Liquidおよび/またはLightningの上流で機密性が向上し、1回の取引にオンチェーン手数料がかかるため、安全な中長期保管のためにオンチェーンネットワークに転送する。
-
-
-
-### 絶え間ない進化
-
-
-
-Walletは常に進化しているので、このチュートリアルとあなたの最新のアプリケーションの間に矛盾が見つかっても驚かないでください。
-
-
-
-
-- 例えば、2025年7月19日現在、**"Buy / Sell / Pay "**ボタンは表示されていますが、アプリケーション内ではグレーアウトされています。これは、Exchange [bullbitcoin.com](https://app.bullbitcoin.com/registration/orangepeel) で利用可能なこれらのオプションが間もなく統合され、統一されたエクスペリエンスになるためです。これらの使用は完全にオプションのままです。マルチWallet管理、passphrase、ハードウェアウォレットとの互換性...。
-- BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49)では、現在のトピックや今後の開発をチェックすることができます。このプロジェクトは100%オープンソースで「公開で構築」されているため、あなたの提案や遭遇したバグを私たちに送ることもできます。
-
-
-
-
-## 1.前提条件
-
-
-
-**BULL Bitcoin Mobile**を使い始める前に、以下のものが揃っていることを確認してください：
-
-
-
-
-
-- 対応スマートフォン**iOS**（iPhoneまたはiPad）または**Android**デバイス
+- 対応スマートフォンiOS**（iPhoneまたはiPad）または**Android**デバイス
 - インターネット接続
-- 安全なバックアップメディア：あなたの**回復フレーズ**（12語）を紙や金属に書き、安全な場所に保管してください。
-- **基礎知識**：Bitcoinの概念（アドレス、トランザクション、手数料）を最低限理解していると便利ですが、このチュートリアルでは初心者向けに各ステップを説明しています。
+- 安全なバックアップメディア**：あなたの**回復フレーズ**（12語）を紙や金属に書き、安全な場所に保管してください。
+- 基礎知識**：Bitcoinの概念（アドレス、トランザクション、手数料）を最低限理解していると便利ですが、このチュートリアルでは初心者向けに各ステップを説明しています。
+
+
+## 2️⃣ インストール
+
+
+アプリケーションのインストールは
 
 
 
-## 2.インストール
+- [Apple App Store](https://apps.apple.com/app/bull-bitcoin/id6743380972)[ ](https://apps.apple.com/us/app/bitchat-mesh/id6748219622)(iOS デバイス用)
+- [Google Playストア](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&hl=en) (Android端末向け)
+
+
+Androidユーザーには別の選択肢もある：
 
 
 
+- GitHubリリース](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases)のページから直接APKをダウンロードするか、または
+- Nostr対応[Zapstore](https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq7xwd748yfjrsu5yuerm56fcn9tntmyv04w95etn0e23xrczvvraqqtxxmmd9e382mrvvf5hgcm0d9hzumt0vf5kcegnah0ap)からインストールする。
 
 
-- **申請書をダウンロードする**：
-- [Google Playストア](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share) **Android端末向けアプリケーションストアからダウンロードする。**
-- [GitHub](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) Androidデバイス用のAPKを直接ダウンロードする。
-- [iOS](https://testflight.apple.com/join/FJbE4JPN) **アップルデバイス用TestFlight経由でダウンロードする。**
- - 不正な申請を避けるため、開発者名（Bull Bitcoin）を確認する。
- - ダウンロードしたバージョンが、GitHubに記載されている最新の安定版と一致していることを確認してください。
- - Bull Bitcoin Mobileは**オープンソース**です。コードを見るには[BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49)
+アプリケーションのインストール後、ウェルカムスクリーンに従ってアカウントを設定してください。
 
 
+## 3️⑬ 初期設定
 
 
-
-- アプリケーションをインストールする
+開くと、以下のオプションが表示されます：
 
 
 
-
-## 3.初期設定
-
-
-
-### 3.1 アプリケーションを起動します：
+- 新しいWalletを作成する
+- リカバーWallet」と
+- 詳細オプション
 
 
-
-このアプリケーションでは、両ポートフォリオにユニークな12語のリカバリーフレーズを使用する：
-
+まずは「詳細オプション」をタップしてみよう。
 
 
-
-- 安全な**Bitcoin Wallet**：Bitcoinネットワーク上の取引用（オンチェーン）
-- インスタント・ペイメントの**Wallet**：LiquidおよびLightningネットワークでの即時取引用
+ここでは、walletを作成または復旧する前に、詳細設定を行うことができる：
 
 
+1.Torネットワーク上でトラフィックをルーティングするために`Torプロキシ`を有効にする。
 
-開くと、既存のリカバリーフレーズをインポートするか、新しいWalletを作成するかを尋ねられます：
+1.有効にする前に、[Orbot app](https://orbot.app/en/) をインストールして実行する必要があります。
 
+2.Tor ProxyはBitcoinにのみ適用され、Liquidには適用されません。
 
+2.カスタムElectrum Server`を設定する。
 
-![image](assets/fr/02.webp)
-
-
-
-### 3.2 回復フレーズ：
-
+3.Recover Bull`の設定を調整する。リカバー・ブル](https://recoverbull.com/)については後で詳しく説明する。
 
 
-既存のWalletを再利用する場合は、"**Recover Wallet**"をクリックし、回復フレーズの12語を記入してください。
+オプションの調整をすべて終えたら、`Done`をタップします。既存のWalletを再利用したい場合は、`Recover Wallet` をクリックし、リカバリーフレーズの12語を記入してください。
 
 
+そうでなければ、`Create a New Wallet`をクリックする。
 
-そうでない場合は、"**Create New Wallet**"をクリックしてください：
 
+![image](assets/en/01.webp)
+
+
+## 4️⃣ ホーム画面
+
+
+さらに理解を深める前に、「ホーム画面」を見てみよう：
 
 
 
-- リカバリーのフレーズを細心の注意を払って書き留める。紙または金属に書き留め、安全な場所（貸金庫、オフラインの場所）に保管してください。このフレーズは、デバイスの紛失やアプリケーションの削除の際に、ビットコインにアクセスする唯一の手段となります。
+- トランザクションの概要」と「設定メニュー」は一番上にあります。
+- 利用可能残高」にはプライバシー・オプションがあり、「オン」または「オフ」にすることができます。
+- Bitcoin Bull Exchange` にアクセスし、`購入、売却、支払い`を行う（これは管轄地域によって異なり、KYCが必要になる場合もある）。
+- ウォレット間の資金移動
+- セキュアBitcoin`はオンチェーンBitcoin Walletに等しい。
+- Lightningを利用した「即時決済」 / Liquid Network *（注：Bull Bitcoin WalletではLightningを利用した決済が可能。Lightning経由で受け取った資金は、[*Boltz exchange](https://boltz.exchange/)を介した自動スワップにより、[*Liquid network](https://liquid.net/)(Walletインスタントペイメント内)に保管されます。これにより、流動性チャネルを管理することなく、自己カストディのままLightningとやり取りすることができます)*。
+- 資金の「送信」と「受信
+
+
+![image](assets/en/02.webp)
+
+
+まず、いくつかの重要な設定を行い、`バックアップ`から始めよう。
+
+
+## 5️⃣ バックアップ
+
+
+バックアッププロセスを開始するには、アプリの右上にある歯車のアイコン(↪So_99)`をタップし、`Wallet Backup`を選択します。walletを保護するための2つの方法が表示されます：`Encrypted Vault`と`Physical Backup`です。それぞれについて調べてみよう。
+
+
+![image](assets/en/03.webp)
+
+
+### 物理的バックアップ
+
+
+物理的バックアップ」をタップすると、あなたのリカバリーまたはseedのフレーズを表す12の単語のリストが表示されます。下記を参考にしてください：
+
+
+
+- 回復のためのフレーズ」を細心の注意を払って書き留める。紙や金属に書き留め、安全な場所（貸金庫やオフラインの場所）に保管してください。このフレーズは、デバイスの紛失やアプリケーションの削除があった場合に、あなたのビットコインにアクセスする唯一の手段となります。
 - また、このフレーズを使っている人なら誰でも、あなたのビットコインをすべて盗むことができるという点にも注意が必要です。決してデジタルに保存しないでください：
- - スクリーンショットなし
- - クラウド、電子メール、メッセージングバックアップなし
- - コピー／ペーストができない（クリップボードに保存される危険性がある）
+- スクリーンショットなし
+- クラウド、電子メール、メッセージングバックアップなし
+- コピー／ペーストができない（クリップボードに保存される危険性がある）
 
 
+![image](assets/en/25.webp)
 
-**!この点が重要です**。さらに詳しいサポートは：
 
+次の画面では、seedのフレーズが正しいかどうかを確認するために、単語を正しい順番に並べます。テストが終了し、成功すると確認が表示されます。
+
+
+! **この点が重要です**。さらに詳しいサポートは：
 
 
 https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-### 3.3 アクセスの確保 ：
+### 暗号化された金庫
 
 
+暗号化された匿名クラウドバックアップという選択肢もある。しかし、最後の段落で、クラウドバックアップはリスクが高いので避けるべきだと述べただろう？しかし、Bull Bitcoinチームはこのプロセスを安全にする賢い方法を開発した。その方法はこうだ：
 
 
+Recoverbull`は、バックアップを2つの部分に分割することで、Bitcoin walletのセキュリティを簡素化するバックアッププロトコルです。まず、walletのバックアップファイルは強力な暗号化キーを使ってデバイス上で暗号化されます。この暗号化されたファイルは、Googleドライブやデバイスなど、お好きな場所に保存することができます。次に、ファイルのロックを解除するために必要な暗号化キーは、Recoverbull Key Serverによって保存されます。walletを復元するには、暗号化されたバックアップファイルとPINまたはパスワードでアクセスするキーの両方が必要です。この設計により、クラウドバックアップだけでは役に立たず、特定のバックアップファイルがなければキーサーバーだけでは役に立ちません。このため、一部分が危険にさらされても、資金は安全に保護されます。
 
-- 設定から**PINコード**をクリックしてください。
-- アプリケーションへのアクセスを保護するために、堅牢な**PINコード**を設定します。
-- このステップはオプションですが、あなたの携帯電話にアクセスできる人があなたのWalletにアクセスするのを防ぐために強くお勧めします。
 
+貸金庫のようなものだと考えてほしい。暗号化されたバックアップファイルは*ボックス*で、どこにでも保存できます（Googleドライブなど）。回復用暗証番号は*鍵*で、Recoverbull Key Serverによって別に保管されます。窃盗犯が開けるには、特定のボックスと特定のキーの両方を入手する必要があります。この設計により、たとえ誰かがお客様のバックアップファイルを入手したとしても、サーバーからのキーがなければ役に立たず、サーバーのキーもお客様固有のバックアップファイルがなければ役に立ちません。
 
 
-![image](assets/fr/03.webp)
+Recoverbull`のwalletバックアッププロトコルの詳細は[こちら](https://recoverbull.com/)。
 
 
+暗号化されたデータ保管庫」をタップし、「続行」をタップしてデフォルトサーバーの使用を確認します。接続はプライバシーと匿名性を確保するために `Tor` ネットワークを経由します。
 
-### 3.4 個人ノードへの接続（オプション）：
 
+**暗証番号**の理解
 
 
-WalletのBullBitcoinは、デフォルトでElectrumのサーバーに接続する。Bull Bitcoinが管理する最初のサーバーと、Blockstreamのセカンダリー・サーバーで、どちらもログを残さないと考えられ、トラッキングのリスクを軽減する。
 
+- アプリのロック解除PIN`**:** 設定 > セキュリティPIN`で設定した任意のPINで、携帯電話のアプリをロックします。
+- Recovery PIN`**:** `Encrypted Vault`のバックアッププロセス中に作成された必須PINで、リカバリ時にバックアップファイルの暗号化を解除するために使用されます。
 
 
-より高い機密性を確保するために、Electrumサーバーを経由して自分のBitcoinノードにアプリケーションを接続することができます（手順は[BullBitcoinのGitHub](https://github.com/orgs/SatoshiPortal/projects/49)にあります）。
+これらは2つの別々の暗証番号です。wallet を復元するために必要不可欠ですので、リカバリー PIN を忘れないようにしてください。"
 
 
+*回復用暗証番号の設定：***。
 
 
-## 4.資金の受け取り
 
+- walletへのアクセスを回復するには、PINまたはパスワードを作成する必要があります。
+- PIN/パスワードは6桁以上でなければなりません（例えば、123456のような単純なシーケンスは受け付けられません）。
+- この暗証番号がなければ、walletのリカバリーは不可能だ。
 
 
-Bull Bitcoin Mobile**での資金のお受取りは、**.NETをご利用の場合でも、お客様のニーズに合わせてシンプルに行うことができます：
+次に、保管庫プロバイダーを選択します：
 
 
 
+- グーグルドライブ
+- カスタムロケーション`（例：あなたのデバイス）
 
-- Bitcoin (onchain)**ネットワークを長期保存する、
 
-Looking at this line, I can see there's an unbalanced `**` marker after "onchain". The `**` appears to be opening a bold section but there's no closing `**`. 
+![image](assets/en/04.webp)
 
-Since the text seems to be describing Bitcoin's onchain network for long-term storage, I'll remove the unbalanced marker:
 
-- Bitcoin (onchain)ネットワークを長期保存する、
-- **Liquid**ネットワークは、Confidential Transactionsをより高速にします、
-- **Lightning**ネットワークで、即時、低額決済が可能。
+バックアップファイル`を保存します。次に、`Test Recovery`をタップし、保存したバックアップファイルまたはデータ保管庫を選択し、`Decrypt Vault`をタップします。PIN`または`パスワード`を入力します。すべてがうまくいくと、`Test completed successfully`画面が表示されます。
 
 
+### 輸出入ラベル
 
-このアプリケーションは、選択したネットワークに応じて、ライトニング受信またはInvoiceアドレスを自動的に生成します。各ネットワークの手順は以下の通りです。
 
+さて、バックアップを作成したところで、`ラベル`について見てみましょう。  Bull Bitcoin walletでは、受信アドレスや取引にカスタムラベルを作成できるため、プライバシーと整理整頓が強化されます。これらのラベルは、ラベルの付いたアドレスに送信されたトランザクションはそのラベルを継承するので、資金を分類するのに役立ちます。walletは[BIP-329](https://bip329.org/)規格を完全にサポートしています。つまり、すべてのラベルをファイルにエクスポートし、別のwalletにインポートすることができます。この機能により、取引履歴や分類をシームレスにバックアップしたり、walletの異なるインスタンス間で移行したりすることができます。
 
 
-### 4.1.オンチェーン（Bitcoinネットワーク）
+![image](assets/en/05.webp)
 
 
+## 6️⃣ セッティング
 
-ホーム画面では、：
 
+プライマリ・バックアップが確保されたので、設定で利用可能な他の機能を探ってみよう。
 
 
+### A - アクセスの確保
 
-- または、**Secure Bitcoin Wallet**を選択し、"**Receive "**をクリックします：
 
+アプリを保護するには、`Settings` に移動し、`Security PIN` を選択して PIN Code を選択します。あなたのwalletへのアクセスをロックするために強力なPINを作成します。このステップは任意ですが、他人があなたの携帯電話を使用する場合、不正アクセスを防ぐために強くお勧めします。
 
 
-![image](assets/fr/04.webp)
+![image](assets/en/06.webp)
 
 
+### B - 個人ノードへの接続（オプション）
 
 
+WalletのBullBitcoinは、デフォルトでElectrumのサーバーに接続する。Bull Bitcoinが管理するファーストサーバーと、Blockstreamのセカンダリーサーバーで、どちらもログを残さないとされており、トラッキングのリスクを軽減している。
 
-- または "**受信 "**をクリックし、**Bitcoin**ネットワークを選択します：
 
+機密性を高めるために、Electrumサーバーを経由してアプリケーションを自分のBitcoinノードに接続することができます。これを行うには、`Settings` > `Bitcoin Settings` > `Electrum Server Settings` をタップし、`+ Add Custom Server` をタップしてサーバーのアドレスと認証情報を入力します。
 
 
-![image](assets/fr/05.webp)
+![image](assets/en/07.webp)
 
 
+### C - 通貨
 
-#### 4.1.1.コピーまたはスキャン Address のみ」オプション無効（デフォルト）
 
+利用可能残高はメイン画面に `sats` と `USD` の両方で表示されます。これを変更するには、`Settings` > `Currency` に移動します。そこで、`sats/BTC`を切り替え、`デフォルトの不換紙幣`を選択することができます。
 
 
-![image](assets/fr/06.webp)
+![image](assets/en/08.webp)
 
 
+### D - Bitcoinの設定
 
 
+Bitcoinの設定」メニューは、walletのコア設定とデータへの深いアクセスを提供します。ここでは、`Secure Bitcoin`と`Instant payments wallets`の基本的な詳細を検査することができ、完全な透明性とコントロールを提供します。このメニューの主な機能は以下の通りです：
 
-- これにより、オプションの詳細パラメータにアクセスできる。指定できるのは ：
- - BTC、Satsまたはフィアットでの**金額**。
- - URI/QRコードのコピーに記載する**パーソナルノート**。
-- **PayJoin**（詳細は付録3を参照）の有効化により、送信者と受信者のエントリーを組み合わせることで機密性を向上。
 
 
+- Walletの詳細：** 特定の情報を表示するには、セキュアBitcoinまたはインスタントペイメントwalletに移動します。
+- Walletフィンガープリント：** walletのユニークな識別子。
+- 公開鍵(Pubkey):** generateの受信アドレスに使用される鍵。
+- Descriptor：**あなたのwalletの構造に関する技術的な要約。
+- 導出パス:** マスター秘密鍵からすべてのアドレスをgenerateするために使用される特定のパス。
+- Address View: ** 未使用の受信アドレスのリストにアクセスし、アドレスを変更する（近日公開予定）
 
 
+さらに、以下のオプションもある：
 
-- **自動的に生成されるURIの例**：
 
+
+- 自動送金を有効にする」設定により、インスタントwalletの最大残高が設定され、安全なビットコインwalletに自動的に送金されます。
+- Mnemonic` フレーズを使ってジェネリックウォレットをインポートするか、`watch-only` をインポートする。
+- ハードウェアウォレットの接続：現在サポートされているデバイスは、ColdcardQ、SeedSigner、Specter、Krux、Blockstream Jade、Foundation Passportです。
+
+
+## 7️⃣ Bull Bitcoin Exchange
+
+
+walletから直接、[Bull Bitcoin取引所](https://www.bullbitcoin.com/)にアクセスし、アプリから離れることなくBitcoinの売買や支払いができます。この統合により、Bitcoinのニーズ管理に便利なソリューションが提供されます。取引所およびそのサービスへのアクセスは、お住まいの法域によって制限される場合があり、規制基準に準拠し、プラットフォームの全機能を使用するには、Know Your Customer (KYC) 検証の完了が必要となる場合があることをご了承ください。
+
+
+まずは右下の`Exchange`をタップし、`サインアップ`または`ログイン`してください。
+
+
+この取引所では、以下のような[特徴](https://www.bullbitcoin.com/)を提供している：
+
+
+
+- 銀行口座からBitcoinをセルフカストディで購入する
+- 非監護
+- 個人または法人
+- 即時引き出し
+- 隠れた手数料なし
+- Lightning Networkあり
+- 取引制限なし
+- 定期購入オプション
+
+
+![image](assets/en/09.webp)
+
+
+詳しくはこちらのチュートリアルをご覧ください：
+
+
+https://planb.academy/en/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+
+## 8️ ⃣ 資金の受け取り
+
+
+Bull Bitcoin Wallet**での資金の受け取りは簡単で柔軟性があり、異なる使用ケースに合わせた3つの異なるネットワークをサポートしている：
+
+
+
+- 安全な長期保管のための`Bitcoin（onchain）`ネットワーク。
+- Liquid`ネットワークは、より速く、より機密性の高い取引を実現する。
+- インスタントで低コストの支払いを実現する「Lightning」ネットワーク。
+
+
+このアプリは、選択したネットワークに基づいて適切な住所または請求書を自動的に生成します。各ネットワークの手順は以下の通りです。
+
+
+### Onchain（Bitcoinネットワーク）経由の受信
+
+
+on-chainの資金を受け取るには、ホーム画面から`Secure Bitcoin Wallet`を選択し、`Receive`をタップするか、メインの`Receive`ボタンをタップし、`Bitcoin network`を選択します。
+
+
+受信アドレスの生成には、主に2つのモードがある：
+
+
+**デフォルトモード（入力パラメータを追加したURI）
+
+
+デフォルトでは、walletは[BIP21 URI](https://bips.dev/21/)を生成する。これは、金額、個人的なメモ、およびプライバシーを強化するためのPayJoinパラメータを含む、単純な住所よりも多くの情報をパッケージ化した標準化されたフォーマットである。この包括的なURIはQRコードにエンコードされ、コピーできるようになる。フォーマットは次のようになる：bitcoin:<アドレス>?<パラメータ1>=<値1>&<パラメータ2>=<値2>`。
+
+
+
+- その他の入力パラメーター:**
+    - 金額:** BTC、sats、またはフィアット通貨で希望金額を指定してください。
+    - メッセージ:** 送信者に見えるように個人的なメモを追加します。
+    - PayJoin:**このオプションを有効にすると、トランザクションの送信者と受信者の両方からの入力が結合され、プライバシーが向上します。
+
+
+URIの例：
 
 
 ```
-bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=2.1e-7&message=Exemple+de+note&pj=HTTPS%3A%2F%2FPAYJO.IN%2FUJA9LJ6L4CMHY%23RK1QT3YSGFC6PMKRUXND2DSGQMLESTUNH29AY0305XAQ678742CVT5ES+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1RRH8C6Q
+bitcoin:bc1q0vv86t2sj7daduvdc50njms6u6jzh2y54xxxxx?amount=0.0005&message=Tip+for+tutorial&pj=HTTPS%3A%2F%2FPAYJO.IN%2F78UH9WZUP8KKJ%23RK1Q2H30FASCU9WW09DQY2LK0K8P2DPRJ99V72CA78ACQAEL675QYTMQ+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1L0LYV6G
 ```
 
 
+*重要：このチュートリアルのアドレスには送金しないでください。
 
 
+![image](assets/en/10.webp)
 
-- 使い方：送信者と共有するためにURIをコピーするか、QRコードをスキャンさせる。
 
+**コピーまたはスキャン Address オプションのみ有効
 
 
-#### 4.1.2.コピーまたはスキャン Address のみ」オプション有効
-
-
-
-![image](assets/fr/07.webp)
-
-
-
-
-
-- Addressのみコピーまたはスキャン "**オプションを有効にすると、アプリケーションはBitcoin AddressをSegWit(bech32)フォーマットで生成します。
-
-
-
-
-
-- 例
-
-
-
-```
-bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq
-```
-
-
-
-金額やメモを入力しても、QRコードやAddressの控えには含まれません。
-
-
-
-
-
-- 使い方：Addressをコピーして送信者と共有するか、送信者にQRコードをスキャンさせます。
-
-
-
-#### 4.1.3.新しいAddressの生成
-
-
-
-
-
-- なぜ取引のたびに新しいAddressを使うのですか？複数の支払いが同じAddressにリンクされるのを防ぎ、Blockchainでの追跡の可能性を制限することで、**プライバシーを保護**します。
- - デフォルトでは、ブルBitcoinは自動的に未使用のAddress.**を生成する。
- - 画面下部の**"New Address"**をクリックすると、強制的に新規Addressを作成することができる。
- - すべての住所はseedのフレーズにリンクされています：あなたが使用しているアドレスの数に関係なく、ポートフォリオは単一の残高を表示し、出荷が行われたときに自動的に資金を統合することができます。
-
-
-
-
-
-- ヒントブルBitcoinが提供する新しい**Address**は、特別な必要がない限り、常に使用すること（例えば、寄付を受けるためのパブリック**Address**）。
-
-
-
-### 4.2.Liquid
-
-
-
-ホーム画面では、：
-
-
-
-
-- または、**即時支払いWallet**を選択し、**"受信 "**をクリックし、**"Liquid"**：
-
-
-
-![image](assets/fr/08.webp)
-
-
-
-
-
-- または "**受信 "**をクリックし、**Liquid**ネットワークを選択する：
-
-
-
-![image](assets/fr/09.webp)
-
-
-
-受信」**画面になったら、Liquid Addressをコピーしてください：**
-
-
-
-
-
-- 金額や注記はありません。例
-
-
-
-```
-lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz
-```
-
-
-
-
-
-- または、URI/QRコードのコピーに含める**金額**（BTC、Satsまたはフィアット）および/または**個人メモ**を指定することによって。例
-
-
-
-```
-liquidnetwork:lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz?amount=2.1e-7&message=Test+de+note+Liquid&assetid=6f0279e9ed041c3d710a9f57d0c02928416460c4b722ae3457a11eec381c526d
-```
-
-
-
-**使用方法**：Address/URIをコピーして送信者と共有するか、QRコードをスキャンさせる。
-
-
-
-### 4.3.雷
-
-
-
-ホーム画面では、：
-
-
-
-
-- または、**即時支払いWallet**を選択し、"**受信 "**をクリックします：
-
-
-
-![image](assets/fr/10.webp)
-
-
-
-
-
-- または "**Receive "**をクリックし、**Lightning**ネットワークを選択する：
-
-
-
-![image](assets/fr/11.webp)
-
-
-
-#### 4.3.1.操作、限界、利点
-
-
-
-
-
-- メカニズムBull Bitcoin Walletは、Lightning経由での支払いを可能にするWalletです。Lightning経由で受け取った資金は、**Boltz**経由の自動スワップにより、**Liquid**ネットワーク（Wallet Instant Payments内）に保管されます。これにより、流動性チャネルを管理することなく、自己カストディのままライトニングとやり取りすることができます。
-
-
-
-
-
-- **制限:**
-- generate、Invoiceをご利用の場合、最低金額**は100サトシ**（2025年7月19日現在）。
- - Walletライトニングネイティブでは、送金額とは別に送金手数料を送金者が負担します。2025年7月19日現在、47Satsが送金額から差し引かれます。
-
-
-
-
-
-- **福利厚生**：
-- **自己管理**：お客様の資金はLiquid Networkに保管され、お客様の管理下にあります。
-- **高額なオンチェーン手数料が不要**：Liquidに保管することで、Lightningチャネルの開設や流動性の追加にかかる高額なオンチェーン入金を回避できます。これらの操作は、Liquidに蓄積された金額が手数料に見合うようになったときに、後で実行することができます。
-
-
-
-
-
-- ヒント：**送信者がWalletブルBitcoinを持っている場合、スワップ料金を避けるために直接Liquid Networkを使用してください。**
-
-
-
-#### 4.3.2.generate Invoice
-
-
-
-
-
-- **金額**（BTC、Satsまたはフィアット）を入力します。
-
-
-
-
-
-- Invoiceに統合される**パーソナルノート**を追加します。送信者がInvoiceを支払うと、Walletの取引詳細にもその旨が記載されます。
-
-
-
-
-
-- Invoiceの有効期限：**ライトニングInvoiceの有効期限は12時間です。この時間を過ぎると有効期限切れとなり、支払いはできなくなる。新しいInvoiceを作成する必要があります。**
-
-
-
-
-
-- 使い方：Invoiceをコピーして送信者と共有するか、QRコードをスキャンさせてください。
-
-
-
-
-## 5.資金を送る
-
-
-
-### 5.1.基本原則
-
-
-
-ホームページから、または財布から：
-
-
-
-![image](assets/fr/12.webp)
-
-
-
-をクリックして送信画面にアクセスします：
-
-
-
-![image](assets/fr/13.webp)
-
-
-
-**ブルBitcoinモバイル**は、入力（コピーまたはQRコードでスキャン）されたAddressまたはInvoiceに基づいてネットワーク（Bitcoin、Liquid、またはLightning）を自動的に検出することにより、送金を簡単にします。
-
-
-
-### 5.2.オンチェーン伝送（Bitcoinネットワーク）
-
-
-
-#### 5.2.1.送信画面
-
-
-
-**アクションBitcoinのオンチェーンAddressを入力またはスキャンする。**
-
-
-
-
-
-- 金額が定義されていない場合、例えば：
-
-
-
-```
-bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq
-```
-
-
-
-
-
-- その後、送信画面で選択することができます：
- - BTC、satまたはフィアットでの金額。最低額：546サトシ、22/07/2025。
- - 取引を識別するためのオプションのメモ。トランザクションの詳細で、あなただけが見ることができます。
-
-
-
-![image](assets/fr/14.webp)
-
-
-
-
-
-- 金額がすでに定義されている場合、例えば ：
-
-
-
-```
-bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=0.000006&pj=HTTPS%3A%2F%2FPAYJO.IN%2F7GAEA52UMTYQ7%23RK1QVJZYR38X2MC585ZPZ60QY72DMXHWT67LERFWW6GQ4LDEA7MRP78X+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1EJ78U6Q
-```
-
-
-
-その後、以下の確認画面が表示されます。
-
-
-
-#### 5.2.2 確認画面
-
-
-
-すべてのパラメーター、特に金額、目的地Address、手数料を時間をかけてチェックすること。
-
-
-それからパラメーターを調整することができる：
-
-
-
-![image](assets/fr/15.webp)
-
-
-
-
-- **料金**：をお選びいただけます：
-- お取引の実行速度**と関連手数料**のいずれかが見積もられます。
-- 手数料は、絶対手数料（サトシ単位の手数料合計）または相対手数料（バイト単位の手数料）のどちらかのモードで、お客様の取引速度が推定されます。
-
-
-
-
-
-- **詳細設定**：
-
-
-
-
-
-- **Replace-by-fee (RBF)**：この機能はデフォルトで有効になっており、高い手数料を支払うことで取引を高速化する（詳細は付録4を参照）。
-
-
-
-
-
-- **UTXO**の手動選択：資金が複数の異なるWalletアドレスに保管されている場合、資金を送金するアドレスを選択することができます。なぜそうする必要があるのでしょうか？Bitcoinの普及に伴い、送金手数料が高騰しています。少額を複数のアドレスから送金することは、1つのAddressから送金するよりも割高になりますが、今やっておくことで、後で手数料がさらに高くなることを避けることができます。これを**UTXOの統合**と呼ぶ。
-
-
-
-![image](assets/fr/16.webp)
-
-
-
-
-
-- **PayJoin**で送信する：この機能が、URIを提供した受信者によって有効化されている場合、例えば：
-
-
-
-```
-bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=0.000006&pj=HTTPS%3A%2F%2FPAYJO.IN%2F7GAEA52UMTYQ7%23RK1QVJZYR38X2MC585ZPZ60QY72DMXHWT67LERFWW6GQ4LDEA7MRP78X+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1EJ78U6Q
-```
-
-
-
-その後、Bull Bitcoin Mobileは、あなたのUTXOと受信者のUTXOを入力として組み合わせて送信を構成し、機密性を向上させます（詳細は付録3を参照）。
-
-
-
-### 5.3.Liquidへ送信
-
-
-
-#### 5.3.1 送信画面
-
-
-
-Liquid**ネットワーク**は、高速取引（1分間に1ブロックのため～2分）、オンチェーンネットワークよりも高い機密性（マスクされた金額）、非常に低い手数料を可能にします。資金は**Instant Payments Wallet**から引き出されます。
-
-
-
-**アクション**：Liquid Address を入力またはスキャンする。
-
-
-
-
-
-- 金額が定義されていない場合、例えば：
-
-
-
-```
-lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz
-```
-
-
-
-その後、送信画面で選択することができます：
-
-
-
-
-- BTC、satまたはフィアットでの金額。最低額なし、1Satoshi可能；
-- 取引を識別するためのオプションのメモ。トランザクションの詳細で、あなただけが見ることができます。
-
-
-
-![image](assets/fr/17.webp)
-
-
-
-
-
-- 金額がすでに定義されている場合、例えば ：
-
-
-
-```
-liquidnetwork:lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz?amount=2.1e-7&message=Test+de+note+Liquid&assetid=6f0279e9ed041c3d710a9f57d0c02928416460c4b722ae3457a11eec381c526d
-```
-
-
-
-その後、以下の確認画面に直接移動します。
-
-
-
-#### 5.3.2 確認画面
-
-
-
-すべてのパラメーター、特に量と行き先のAddressを時間をかけてチェックする。
-
-
-
-![image](assets/fr/18.webp)
-
-
-
-
-
-- 手数料：取引の複雑さに比例し、通常0.1 sat/vBベース、つまり単純な取引で20～40 satoshis（2025年7月22日現在33 Sats）。
-
-
-
-### 5.4.ライトニングに送信
-
-
-
-#### 5.4.1 送信画面
-
-
-
-**Lightning**ネットワークは、少額決済を瞬時に低コストで行うことができ、日々の少額取引に最適です。
-
-
-
-**アクションライトニング Invoice を入力またはスキャンする。**
-
-
-
-
-
-- 金額を設定できるLN-URL Addressをスキャンした場合
-
-
-例: `orangepeel@walletofsatoshi.com`.
-
-
-その後、送信画面で選択することができます：
-
-
-
-
- - BTC、Sat、またはフィアットでの金額。2025年7月23日に最低1000サトシから。
- - 取引を識別するためのオプションのメモ。受取人に送信されます。
-
-
-
-![image](assets/fr/19.webp)
-
-
-
-
-
-- ライトニングInvoiceをスキャンした場合、定義された量が含まれています。
+Addressのみをコピーまたはスキャンするオプション`を有効にすると、アプリケーションはSegWit(bech32)フォーマットのシンプルなBitcoinアドレスを生成する。
 
 
 例
 
 
-
-```
-lnbc210n1p58hhk6bullbitcoint4a9jq34dmrmcrursjmw3wjf8elz0nxtdsw9pscqzyssp52jg9dm8vc3xy26er5rc965lxjllhd82je97au7ysvv6lpq7r7shs9q7sqqqqqqqqqqqqqqqqqqqsqqqqqysgqdqqmqz9gxqyjw5qrzjqwryaup9lh50kkranzgcdnn2fgvx390wgj5jd07rwr3vxeje0glclle6wrlm37k39uqqqqlgqqqqqeqqjqnf7w9f2evnzptm2vtdknk7483hsndkl98c4mv2kfe64v5pkq0j6x2dqt9y9wayszv3z33az7c8hkj3yqj9jd7ans7ugq8xv0xefp23gqltph72
-```
-
-
-
-その後、以下の確認画面が表示されます。
-
-
-
-注：金額は2025年7月23日の21Satsを上回っていなければならない。
-
-
-
-#### 5.4.2 運用、限界、メリット
-
-
-
-
-
-- 仕組み資金は**インスタント・ペイメントWallet**（Liquid）から引き出され、**ボルツ**との**Liquid→ライトニング**スワップを通じて変換される。
-
-
-
-
-
-- **制限:**
-- Walletライトニング・ネイティブ（上記参照）より高い最低額。
-- 経費**＋Liquid → ボルツ経由でのライトニング交換
-
-The line appears to have an unbalanced ** marker. Here's the corrected version:
-
-- 経費＋Liquid → ボルツ経由でのライトニング交換
-
-
-
-
-
-- **福利厚生**：
-- **自己管理**：資金はLiquid Networkに保管され、必要に応じてLightning経由で送金可能です。
-- **高額なオンチェーン手数料が不要**：Liquidに保管することで、Lightningチャネルの開設や流動性の追加にかかるオンチェーン入金費用を節約できます。これらの操作は、Liquidに蓄積された金額が手数料に見合うようになったときに、後で実行することができます。
-
-
-
-
-
-- ヒント：**受信者がWalletブルBitcoinを持っている場合は、スワップコストを避けるために直接Liquid Networkを使用してください。**
-
-
-
-#### 5.3.3 確認画面
-
-
-
-時間をかけてすべてのパラメーター、特に量と行き先のAddressをチェックする。
-
-
-
-![image](assets/fr/20.webp)
-
-
-
-
-## 6.履歴を見る
-
-
-
-**Bull Bitcoin Mobile** は、**Bitcoin (onchain)**、**Liquid**、**Lightning** ネットワークでの取引を簡単に追跡できます。履歴は2つの方法でアクセスでき、取引の種類ごとに詳細な情報が表示されます。また、外部ブロックブラウザを使用して取引を確認することもできます。
-
-
-
-### 6.1.アクセス履歴
-
-
-
-
-
-- **ホーム画面経由**：
-- **Bitcoin Wallet**をクリックすると**オンチェーン**取引が、**Liquid**および**ライトニング**取引は**インスタント・ペイメント Wallet**をクリックしてください。
- - 履歴は、選択されたWalletのタイプに従ってフィルタリングされ、ポートフォリオ合計の真下に表示されます。
-
-
-
-![image](assets/fr/21.webp)
-
-
-
-
-
-- 専用ページから：
- - ホーム画面で、**履歴マーク**（時計のアイコンなど）をクリックします。
- - 全取引の一覧ページにアクセスする： **Send**、**Receive**、**Swap**、**PayJoin**、**Sell**、**Buy**（注：SellとBuyは開発中のため、2025年7月20日の現時点では利用できません）。
-
-
-
-![image](assets/fr/22.webp)
-
-
-
-### 6.2.取引内容
-
-
-
-各トランザクションは、ネットワークとアクションのタイプ（送信または受信）に応じて特定の情報を表示します。以下は**トランザクション・オンチェーン**で利用可能な詳細である：
-
-
-
-![image](assets/fr/23.webp)
-
-
-
-### 6.3.Block explorerによるチェック
-
-
-
-Bitcoinオンチェーン、**Liquid**および**ライトニング**ネットワークの探検家のリストは付録4にある。
-
-
-
-Lightning**の場合、パブリックブラウザでは取引が表示されません。詳細（BoltzのスワップIDを含む）はアプリでご確認ください。
-
-
-
-
-## 7.設定
-
-
-
-設定 "ページは、ブルBitcoinアプリケーションのホームページから直接アクセスでき、ポートフォリオとユーザーエクスペリエンスの様々な側面を設定、管理するために使用されます。
-
-
-
-![image](assets/fr/24.webp)
-
-
-
-
-
-- Walletバックアップ：安全なバックアップのためのポートフォリオの復旧フレーズを表示します。リカバリーフレーズの管理と保存のベストプラクティスについては、ポートフォリオ作成のセクション3.を参照。
-
-
-
-
-
-- **Wallet 詳細**：
-- **Pubkey**：generate Bitcoin の受信アドレスに使用される Wallet に関連する公開鍵。
-- 派生パス：generate Wallet のアドレスを秘密鍵から導出するために使用される導出パス。
-
-
-
-
-
-- Electrumサーバー（Bitcoinノード）：オンチェーン取引用にカスタマイズされたBitcoinノードへの接続を設定します。
-
-
-
-
-
-- PIN コード：アプリケーションおよびWallet機能へのアクセスを保護するために、セキュリティ・コードを有効化または変更します。
-
-
-
-
-
-- 通貨：金額をBTCで表示するかSatsで表示するか、またデフォルトの不換紙幣（ドル、ユーロなど）を選択します。
-
-
-
-
-
-- **オートスワップ設定**: オートスワップ設定は、**インスタント・ペイメントWallet (Liquid)** から**Bitcoin On-Chain** Wallet へのBTCの送金を、取引手数料を正当化するのに十分な閾値に達した時点で自動化する機能です。
-
-
-
-
-
-- **ログ**：トラブルシューティングを容易にするために、テクニカルサポートと共有することができます。
-
-
-
-
-
-- **サポート用Telegramアクセス**：公式Telegramチャンネルに直接リンクし、ユーザーサポートを受けることができます。
-
-
-
-
-
-- **Githubアクセス** ：[Bull Bitcoin Githubリポジトリ](https://github.com/SatoshiPortal)にリンクし、オープンソースのコードを閲覧したり、問題を報告することができます。
-
-
-
-
-## 付録
-
-
-
-### A1.PayJoin（P2EP）の説明
-
-
-
-![image](assets/fr/25.webp)
-
-
-
-**定義** ：
-
-
-
-
-- PayJoin、または**Pay-to-EndPoint (P2EP)**は、**オンチェーン**ネットワーク上の機密性を高めるBitcoinトランザクション技術である。PayJoinは送金者と受取人の入力を1つの取引にまとめ、金額と住所を追跡することをより困難にする。
-
-
-
-**オペレーション：**。
-
-
-
-
-- PayJoinトランザクションでは、送り手と受け手は、互換性のあるPayJoinサーバーを介して、generate共同トランザクションのために協力する。
-- 送信者だけがエントリーを提供する(UTXO)代わりに、受信者もそれ自身のUTXOの1つで貢献する。これは、Blockchainに表示される情報をぼかす。実際の金額に対応する1つのエントリーの代わりに、現在2つのエントリーがあり、出力は交換された金額を直接反映しない。
-- 最終的なトランザクションは標準的なBitcoinトランザクション（マルチ入力／マルチ出力）に似ているが、ステガノグラフィ構造によって実際の送信額とアドレス間のリンクを隠している。
-
-
-
-**ブルBitcoinモバイル用**。
-
-
-
-
-- 受信**（Address Supply）**：PayJoinはデフォルトで有効。
-- **送信**：Walletは自動的にPayJoin URIを検出し、それに応じてトランザクションを構成する：
-
-
-
-```
-bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPAYJO.IN%2F475QR36G3ZCFZ%23...
+```javascript
+bc1q0vv86t2sj7daduvdc50njms6u6jzh2y54x3g56
 ```
 
 
+金額やメモを入力しても、QRコードやコピーされたアドレスには含まれません。
 
 
-**メリット**
+![image](assets/en/11.webp)
 
 
+### Liquid Network経由での受信
 
 
-- **機密性の強化**：PayJoinは、トランザクションのすべてのエントリが単一のエンティティに属するという仮定を無効にする。PayJoinでは、入力は送信者と受信者の両方から行われるため、この仮定は崩れる。
-- **金額のマスキング**：交換された実際の金額は、出力には直接表示されない。受信者のUTXOのインバウンドとアウトバウンドの差として計算されるため、分析が誤解を招く。
+Liquid Network で支払いを受け取ることができます。受取」画面では、支払依頼を作成するための同じ2つのオプションがあります：
 
 
+**1.シンプルなAddress:** 標準の`Liquidアドレス`をコピーしてください。これはLiquidネットワーク上であなたのwalletを一意に識別するもので、特定の金額やメッセージは含まれません。
 
-**限界**
 
+例Address：
 
 
+```javascript
+lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7xxxxxxx
+```
 
-- PayJoinでは、送信者と受信者が互換性のあるウォレットを使用する必要があり、そうでない場合は標準的なオンチェーン取引が使用される。
-- 取引は若干複雑になり（インプットとアウトプットが増える）、その結果、コストは若干高くなる。
-- 標準的なトランザクションに似せて設計されてはいるが、高度なヒューリスティック（あいまいな出力、既知のPayJoinサーバーなど）により、絶対的な確信はないものの、その使用を疑うことができる。
 
+**2.詳細な支払いリクエスト（URI）:** より構造化されたリクエストには、金額と個人的なメモを指定できます。この情報は自動的に共有可能なURIと対応するQRコードにエンコードされます。
 
 
-**詳細はこちら**
 
+- 金額:** Bitcoin（BTC）、サトシ（Sats）、または不換紙幣で金額を設定できます。
+- 注: ** 取引を識別するために個人的なメッセージを追加します。
 
 
+**URIの例
 
-- [用語集](https://planb.academy/fr/resources/glossary/payjoin)
-- Chapitre [Les transactions PayJoin](https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c/c1e90b95-f709-4574-837b-2ec26b11286f)
 
+```javascript
+liquidnetwork:lq1qqdhgs7w537nun55a5sdy4gxkd08pclk3d7v4qz36sy4xp0cq6gvl52fcfv7kdgkgzmfycrud0zsygqgyjclycckpasxxxxxx?amount=0.00001&message=Test&assetid=6f0279e9ed041c3d710a9f57d0c02928416460c4b722ae3457a11eec381c526d
+```
 
 
+トランザクションを完了するには、送信者に`住所`または`URI`を提供します。これは、クリップボードにコピーするか、あなたの画面から直接QRコードをスキャンさせることによって行うことができます。
 
-### A2.Replace-by-fee（RBF）の説明
 
+![image](assets/en/12.webp)
 
 
-**定義**：Replace-by-fee（RBF）はBitcoinネットワークの機能であり、送信者が高い手数料を支払うことに同意することで、**オンチェーン**トランザクションの確認を早めることができる。
+### Lightning経由での受信
 
 
 
-**限界** ：
+Bull Bitcoin Walletはまた、Lightning Networkを介して支払いを送受信することができます。主な特徴は、Lightning経由で受け取った資金が自動的にスワップされ、「Liquid Network」の「Instant Payments Wallet」に保存されることだ。このサービスは`Boltz`によって提供される。この設計により、資金の完全な自己保管を維持しながら、流動性チャネルを管理する複雑さを伴わずに、Lightningのスピードと低コストを享受することができます。このハイブリッド・アプローチはセルフ・カストディであり、チャネル管理の複雑さを回避する一方で、サードパーティ・サービス（Boltz）、少額のスワップ手数料、キーホルダーとしてのLiquid Networkのファンクショナリー・フェデレーションへの依存を導入しており、従来の非カストディのLightning walletとは異なり、お客様自身でチャネルを管理します。Liquidとそのガバナンス・モデルについては、こちらをご覧ください：
 
 
+https://planb.academy/en/courses/e17ee350-41d4-49fa-b270-29e4d26d22f8/overview-of-liquid-architecture-and-governance-model-17650c4b-cd1f-4bc6-b490-708f92dc9306
 
 
-- RBFは、LiquidまたはLightning取引では利用できない。
-- 最初のトランザクションは、作成時にRBF互換とマークされなければならない。
+- 制限:**
+    - 最低請求金額：** 最低請求金額が必要となります。現在の限度額はアプリでご確認ください。
+    - 手数料:** 受取人であるお客様には、少額のスワップ手数料をご負担いただきます。この手数料は送金者の送金額から差し引かれ、変更される場合があります。
+- 福利厚生:**
+    - 自己管理:** お客様の資金は、Liquidネットワークで保護され、常にお客様の管理下にあります。
+    - 高額なOn-Chain手数料を回避:** Lightningを使用し、Liquidに保管することで、従来のLightningチャネル開設に伴うon-chain手数料を回避できます。また、資金をon-chainチャネルに移動させることも可能です。
+    - ヒント:** 2人のBull Bitcoinユーザー間で最も費用対効果の高い取引を行うには、**Liquidネットワークを直接**使用し、Lightningスワップ手数料を完全に回避してください。
 
 
+支払いを受けるには、generateの「Lightning invoice」が必要です：
 
-**詳細はこちら**
 
+1.金額を入力`**:** 受け取りたい金額をBitcoin(BTC)、サトシ(Sats)、または不換紙幣で指定してください。
 
+2.メモを追加` **(オプション):** メモや注釈を含めます。これは請求書に埋め込まれ、支払いが完了すると取引履歴に表示されるため、識別が容易になります。
 
+3.Invoice 有効期間`**:** ライトニングの請求書は一刻を争うものであり、**12時間**後に失効します。この期間内にお支払いがない場合、請求書は無効となり、新しい請求書を作成する必要があります。
 
-- [用語集](https://planb.academy/fr/resources/glossary/rbf-replacebyfee)
 
+送り主に請求書を渡すには、クリップボードにコピーするか、画面に表示されたQRコードをスキャンさせます。
 
 
+![image](assets/en/13.webp)
 
-### A3.ベストプラクティス
 
+## 9️ ⃣ 資金の送金
 
 
-**Bull Bitcoin Mobile** を安全かつ効率的に使用するには、以下の推奨事項に従ってください。これらの推奨事項は、**Bitcoin (onchain)**、**Liquid**、および**Lightning**ネットワーク上でお客様の資金を保護し、取引を最適化し、機密性を保持するのに役立ちます。
+送信画面には、ホームページから直接アクセスすることも、ウォレットの中からアクセスすることもできます。Bull Bitcoin Walletでは、入力された住所や請求書、QRコードを貼り付けたり読み取ったりすることで、送信先のネットワーク（Bitcoin、Liquid、Lightning）を自動的に判別し、送信処理を簡略化します。
 
 
+### Bitcoinネットワーク経由のOn-Chain送信
 
 
+on-chain送金は、あなたの取引がBitcoinブロックチェーンに直接記録されることを意味します。この方法は、より大きな送金や時間的制約のない送金に最適です。まず、右下の`送金ボタン`をタップし、`標準的なBitcoinアドレス`をスキャンするか入力します。
 
-- **リカバリーフレーズの確保**：
- - チュートリアル[Save your Mnemonic phrase](https://planb.academy/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
- - Cours [La phrase mnémonique](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8f9340c1-e6dc-5557-a2f2-26c9669987d5)
 
+入力したアドレスに具体的な金額が含まれていない場合は、送信画面で詳細を入力するよう求められます。BTC、サトシ、またはフィアット等、ご希望の単位で金額を指定することができます。また、個人メモを追加するオプションもあります。個人メモとは、後で取引を特定するために参照するためのプライベートなメモです。このメモは受取人と共有されることはありません。
 
 
+逆に、スキャンまたは貼り付けした支払依頼書に、あらかじめ定義された金額の BIP21 URI など、必要な詳細情報がすべて含まれている場合、wallet はデータ入力画面をバイパスし、支払を承認するための確認画面に直接進みます。
 
 
-- **安全な認証を使用する**：
- - アプリケーションへのアクセスを保護するために、**強力な暗証番号**または**生体認証**（指紋または顔認証）を有効にします。
- - 暗証番号や生体認証データは絶対に共有しないでください。
+![image](assets/en/14.webp)
 
 
+取引がブロードキャストされる前に、確認画面が表示されます。受信者アドレス、送信金額、ネットワーク手数料に細心の注意を払いながら、時間をかけてすべてのパラメータを注意深く確認することが重要です。この画面では、トランザクションをカスタマイズするための強力なツールも提供されます。
 
 
+手数料は主に2つの方法でコントロールできます。一つ目の方法は、低速、中速、高速など希望する取引速度を選択すると、walletが自動的に適切な手数料を計算します。2つ目の方法は、サトシ単位での絶対的な合計、またはバイトあたりの相対的なレートとして、特定の手数料を設定することにより、より正確な制御を可能にし、その後、推定確認時間を提供します。
 
-- **プライバシーの保護**：
- - generateは、Blockchainのトレースを制限するために、オンチェーンまたはLiquidの受信ごとに新しいAddressを作成する。
- - PayJoinが利用可能な場合は、オンチェーンの送信量に関する機密性を高めるために使用する。
- - 最大限の機密性を確保するためには、Walletを公開ノードではなく、Electrumサーバー経由で自分のBitcoinノードに接続してください。
 
+上級ユーザーのために、walletはトランザクションを微調整するためのいくつかの設定を提供する。Replace-by-Fee`（RBF）はデフォルトで有効になっており、トランザクションがメンプールでスタックした場合に、より高い手数料で再ブロードキャストすることでトランザクションを高速化できる貴重な機能である。また、どの `Unspent Transaction Outputs` (UTXOs) から使用するかを手動で選択することもできる。これはUTXOのコンソリデーション（複数の小さなインプットを1つの大きなインプットにまとめる戦略）のための強力なツールである。現在の取引では手数料が高くつくかもしれませんが、将来の取引、特にネットワーク手数料の上昇が予想される場合には、手数料を大幅に削減することができます。
 
 
+![image](assets/en/15.webp)
 
 
-- お客様のニーズに最適なネットワークをお選びください：
-- オンチェーン：長期保管や大口取引に有利（手数料は金額に対してごくわずか）。
-- **Liquid**：機密性を高めた高速、低コストの転送に使用。
-- ライトニング：少額を即座に低コストで送金する場合に選択します。Wallet Bull Bitcoinの2つのユーザーであれば、Boltz経由のLightning <> Liquidのスワップ手数料を避けるためにLiquidを選択してください。
+pj=`パラメータを含む受取人の支払いリクエスト（BIP21 URI）をスキャンすると、PayJoinは自動的に試行されます。余分なパラメータのないプレーンなアドレスを単に貼り付けた場合、この機能は有効になりません。この協調的な方法は、送信者と受信者の両方からの入力を組み合わせることでプライバシーを強化し、共通入力所有ヒューリスティックを打破し、状況によってはより良いスケーリングと手数料の節約も可能にする。
 
 
+### Liquid Networkへの送信
 
 
+Liquid Network`は、最小限の手数料で迅速かつ機密性の高い取引のために設計されています。Liquidで送金すると、Walletから引き落とされます。手続きは簡単で、受取人の`Liquidアドレス`を入力またはスキャンするだけです。
 
-- 発送先住所は必ずご確認ください：
- - 送金する前に、Addressをよく確認してください。間違った Address に送金された資金は永遠に失われます。コピー・ペーストか QR コード・スキャンを使用し、決して Address を手でコピー/変更しないでください。
 
+アドレスに金額が指定されていない場合は、送信画面で金額を入力するよう求められます。金額はBTC、サトシ、またはフィアットで入力できます。Liquidの主な利点は、最低閾値が低いことです。on-chainの取引と同様に、オプションで個人的なメモを追加することができます。支払いリクエストにすでに金額が含まれている場合、walletは確認画面に直接進みます。
 
 
+Liquid取引の確認画面で詳細を確認します。手数料は特に低く、取引の複雑さに応じて計算される。手数料は通常0.1sat/vB程度で、単純な取引の場合、わずか20～40satoshisに相当する（例えば、2025年12月21日現在、26satoshis）。
 
 
-- **コストの最適化**：
- - オンチェーン取引では、緊急度とネットワークの混雑度に応じて適切な手数料（低速、中速、高速）を選択する。
- - 少量の場合はLiquid、またはライトニングを使用する。
- - 確認を早める必要があると予想される場合は、Replace-by-fee（RBF）（付録4参照）をオンチェーン出荷用にアクティブにする。
+![image](assets/en/16.webp)
 
 
+### Lightning Networkへの送信
 
 
+ライトニングAddress（例：`runningbitcoin@rizful.com`）をスキャンし、金額と受取人への任意のメモを設定するか、あらかじめ金額が設定された請求書をスキャンし、確認画面に直接移動することができます。
 
-- アプリケーションを最新の状態に保つ
 
+*最低金額と手数料が適用されることに注意。
 
 
+Bull Bitcoin Walletは、インスタント・ペイメントWallet（Liquid上）から資金を引き出し、Boltzを経由してスワップすることで、ライトニング・ペイメントを送信します。このハイブリッド・アプローチは完全に自己完結型であり、専用のLightningチャネルを管理するための高額なon-chain手数料を回避できますが、`スワップ手数料`を支払う必要があります。最も低いコストで送信するには、受信者がBull Bitcoin walletも使用している場合、受信者のLiquidアドレスに直接送信します。
 
-### A4.追加リソース
 
+## 🔟 財布間の資金移動
 
 
+Bull Bitcoin では、Liquid Network の `Secure Bitcoin` と wallet の `Instant Payments Wallet` の間、または外部の Wallet` に Bitcoin を移動することができます。転送を実行するには、`転送`セクションに移動し、転送元と転送先のウォレットを選択し、転送したい金額を入力し、トランザクションを確定するだけです。
 
 
-- 公式リンクとサポート:
-- [staff@bitcoinsupport.com](mailto:staff@bitcoinsupport.com), **support@bullbitcoin.com** : サポートメール
-- [Bull Bitcoin公式サイト](https://bullbitcoin.com/) : **Bull Bitcoinのサービス、アカウント作成、アプリケーションへのアクセスに関する情報。**
-- [GitHub Bull Bitcoin Mobile](https://github.com/SatoshiPortal/bullbitcoin-mobile): **コード、進化、ロードマップの閲覧、開発への貢献...**
-- [アカウントX - ツイッター・ブル Bitcoin](https://x.com/BullBitcoin_)
-- Walletモバイル用Telegram**グループ**：サポートとのグループチャット、「設定」ページをご覧ください。
+![image](assets/en/17.webp)
 
 
+## 1️⃣ 1️⃣ Bull Bitcoin Wallet のリカバリー
 
 
+このセクションでは、デバイスを紛失した場合、アプリをアンインストールした場合、または単に新しいデバイスに切り替える必要がある場合に、Bull Bitcoin Wallet資金へのアクセスを回復する方法について説明します。すでに説明したように、回復には主に2つの方法があります：独自の`Recoverbull`メソッドを使用することと、標準的な`BIP39 seedフレーズ`を使用することです。
 
-- ブロック・エクスプローラー
- - on chain ： **[Mempool.space](https://Mempool.space/)**
- - Liquid ： **ブロックストリーム情報](https://blockstream.info/Liquid)**
- - ライトニング **[1ML (Lightning Network)](https://1ml.com/)**
 
+### 方法1：リカバーブル
 
 
+振り返る：Walletバックアップはローカルで暗号化される。暗号化されたファイルはクラウドストレージや他のデバイスに保存することができます。暗号化キーはRecoverbull Key Serverによって保存されます。両者は別々に保管され、walletを復元するには組み合わせる必要があります。
 
 
-- 学習と個別指導: **[Plan ₿ Academy](https://planb.academy/)**：
- - 回復フレーズの確保
+手始めにWalletを全資金とともに削除し、walletを再インストールする。再び「ようこそ」画面に戻る。今度は`Walletを復旧する`オプションを選択する。次に、`Encrypted Vault` メソッドに移動し、`Default Key server` を使用することを確認し、バックアップ・ファイルを保存した場所または `Vault provider` を選択します。
 
 
+![image](assets/en/18.webp)
 
-https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
+保管庫が正常にインポートされたことが表示されます。保管庫の復号化」ボタンをタップし、「PIN」を入力します。次の画面では、「残高」と「復元された取引数」が表示されます。
 
 
-https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+![image](assets/en/19.webp)
 
 
+### 方法2：シード・フレーズ
 
 
-- **Liquid Network**：
-- [用語集](https://planb.academy/resources/glossary/liquid-network)
+この方法は、walletのマスター・リカバリ・フレーズ（資金の究極のバックアップとして機能する標準的な12語のリスト）を使用します。特定のサービスやサーバーに縛られないため、Bitcoin wallet を復元する最も普遍的な方法です。このフレーズさえあれば、Bull Bitcoinキー・サーバーにアクセスできなくても、互換性のあるデバイスでwalletを復元することができます。
 
 
+Welcome 画面から、`Recover Wallet` を選択します。今回は「物理的バックアップ」を選択する。アプリが単語のグリッドを表示します。12語のseedフレーズの各単語を正しい順番で慎重に選択してください。一つでも間違えると、間違ったwalletになってしまうので、細心の注意を払ってください。
 
 
-https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+## 1️⃣ 2️⃣ Hardware Wallet の接続
 
 
+最高レベルのセキュリティのために、多くのBitcoinユーザーは資金を`コールドストレージ`に保管することを選択します。これはBitcoinをコントロールする`秘密鍵`をインターネットに接続されていないデバイスに保管することを意味します。ハードウェアwallet（または署名デバイス）はこの目的のために設計された特別な物理デバイスです。ハードウェアwalletは、あなたの鍵のデジタル保管庫のような役割を果たし、オンラインのコンピューターやスマートフォンの潜在的な脅威にさらされることはありません。
 
 
+ハードウェア wallet を Bull Bitcoin アプリに接続することで、Bull Bitcoin wallet のパワフルな機能とユーザーフレンドリーなインターフェイスに加え、秘密鍵のコールド・ストレージによる妥協のないセキュリティーを手に入れることができます。この最終章では、[Coldcard Q](https://coldcard.com/q)のようなハードウェア wallet を Bull Bitcoin wallet に接続する方法をご紹介します。このチュートリアルでは、Coldcard Qのセットアップについては詳しく説明しません：
 
-- **Lightning Network**：
-- [用語集](https://planb.academy/resources/glossary/lightning-network)
 
+https://planb.academy/en/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
+https://planb.academy/en/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
+### Walletのインポート
 
-https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
+![image](assets/en/26.webp)
 
-### A5.ブル Bitcoin
 
+まず、Coldcard Q のメインメニューから、`Export Wallet` を選択し、次に `Bull Wallet` を選択します。あなたの Coldcard に generate QR コードが表示されます。
 
 
-#### 会社概要
+![image](assets/en/20.webp)
 
 
+Bull Bitcoin Walletを開き、`Settings` > `Bitcoin Settings` > `Import wallet`に移動し、携帯電話で`Coldcard Q`を選択し、`Open camera`をタップしてこのQRコードをスキャンし、ハードウェアwalletの公開鍵をインポートします。
 
-**Bull Bitcoin](https://www.bullbitcoin.com/fr)**は、2013年にカナダのモントリオールにあるBitcoin大使館で設立された、Bitcoinのみに特化した最古の非預託型Exchangeプラットフォームです。Bitcoinエコシステムのパイオニアとして知られるFrancis Pouliot氏が率いる同社は、金融主権とユーザーの自主性を促進する重要な役割を担っている。その使命は、Bitcoin以外の不換紙幣や暗号通貨を拒否する一方で、Bitcoinを自由と決済のツールとして使用することにより、個人が自分のお金をコントロールできるようにすることである。
 
+![image](assets/en/21.webp)
 
 
-![image](assets/fr/26.webp)
+### コールドカードQでのレシーブ
 
 
+接続された Coldcard Q を使用して Bitcoin を受信する場合、デバイスを携帯電話に物理的に接続する必要はありません。Bull Bitcoin Wallet は既に必要な公開鍵をインポートしており、単独で generate アドレスを受信できます。
 
-[アカウント作成](https://app.bullbitcoin.com/registration/orangepeel) Bitcoinの購入と販売に0.25%の割引が適用されます。
 
+1.インポートした Coldcard Q 署名デバイスをタップし、「受信」を選択します。
 
+2.このアプリは、Coldcardのwalletから新しいBitcoinアドレスを自動的に表示します。
 
-#### 価値観と哲学
+3.このアドレスを使用して資金を受け取る。Bitcoinはハードウェアwalletの鍵に直接セキュアとなる。
 
 
+![image](assets/en/22.webp)
 
-ブルBitcoinは、CommitmentからCypherpunkの原則とBitcoinの倫理で際立っている：
 
+### コールドカードQでの送信
 
 
+Coldcard Q で Bitcoin を送信するには、トランザクションを承認するための物理的な確認が必要です。ブル Wallet アプリは取引の構築に使用されますが、最終的な署名はハードウェア wallet 自体でのみ作成できます。
 
 
-- **Bitcoinに独占フォーカス**：このプラットフォームは、分散型で検閲に強い通貨というビジョンに忠実です。
+まず、walletの「Coldcard Q」を開き、「送信」をタップします。次に、「カメラを開く」ボタンを押して、受信アドレスのQRコードをスキャンします。スキャン後、送りたい金額を入力し、必要に応じて手数料の優先順位を調整する。
 
 
+より多くのオプションについては、「詳細設定」をご覧ください。このオプションはデフォルトで有効になっており、スタックしたトランザクションを後でスピードアップすることができます。また、`Coin Control`オプションもあり、これは使いたいUTXOを手動で選択することができます。
 
 
+すべての詳細を確認したら、「Show PSBT」をタップして取引の準備をします。
 
-- **非カストディアン**：ユーザーは自分のポートフォリオに資金を送ることで、自分のビットコインを完全に管理することができます。
 
+![image](assets/en/23.webp)
 
 
+Coldcard Q の「スキャン」ボタンをタップし、カメラを使って携帯電話に表示された QR コードをスキャンします。Coldcard の画面に取引の詳細が表示されます。金額、受取人の住所、変更先の住所を慎重に確認します。すべてが正しければ、Coldcard Q の「Enter」ボタンを押して取引に署名します。次に、署名された取引の QR コードが画面に表示されます。
 
 
-- 機密性：個人情報の収集を最小限に抑え、999米ドル以下の取引ではKYC不要の購入オプションを提供。データは規制（カナダのFINTRAC、フランスのAMF）に従って保護されています。
+![image](assets/en/24.webp)
 
 
+Bull walletで、`I'm done`をタップし、`Camera`ボタンをタップして、Coldcard Qから`署名された取引`のQRコードをスキャンする。最後にもう一度確認し、`Broadcast` Transactionをタップします。これで、Bitcoinネットワークにトランザクションが送信され、資金が送金されます。
 
 
+## 結論
 
-- **透明性**：隠れた手数料はなく、費用はスプレッド（購入価格と売却価格の差額）に含まれています。
 
+これでBull Bitcoin Walletの旅は終了です。このアプリは、強力なプライバシーとセキュリティツールをあなたの指先に置き、高度な機能を簡単に使えるようにします。ブロックチェーン上のあなたの取引を隠す`PayJoin`や、詮索好きな目からあなたのネットワーク活動を隠す`Tor integration`などの機能で、あなたがプライベートを保つのを助けます。究極のコントロールが必要な場合は、`Bitcoinノード`に接続することで、サードパーティのサーバーに依存する必要がなくなり、`ハードウェアwallet`を使用することで、秘密鍵を完全にオフラインで安全に保管することができる。スマートなバックアップ・オプションと、Bitcoin、Liquid、Lightningのシームレスなサポートにより、Bull Bitcoin Walletは、資金をプライベートに、安全に、そして完全に自分自身で管理することを真剣に考える人にとって、強力なオールインワンの選択肢となります。
 
 
+## ブル Wallet リソース
 
 
-- 金融主権：**Bitcoin**は、伝統的な銀行システムや中央集権的な機関からの独立を促進する。
-
-
-
-#### 主なサービス
-
-
-
-
-
-- **フィアット入金**：ユーザーはBull Bitcoin口座に不換紙幣（CAD、EURなど）を銀行振り込み、または一部のカナダの郵便局で現金/デビットカードで入金することができます。
-
-
-
-
-
-- **Bitcoinの購入**：ユーザーはBitcoinを購入することができ、そのBitcoinは非預託ポートフォリオに直接送られるため、資金の完全な管理が保証される。
-
-
-
-
-
-- **Bitcoinの定期購入**：ブルBitcoinは、定期的な自動定期購入サービス（DCA - ドルコスト平均法）を提供し、利用可能な残高を引き出し、ビットコインをユーザーが管理するWalletに直接送金することで、価格変動の影響を軽減します。
-
-
-
-AutoBuy "と呼ばれるオプションは、フィアットがブルBitcoinの残高に触れるとすぐに換金し、ビットコインをご自身のWalletに送ることができます。このオプションは、DCAを行うために銀行とスケジュールされた定期的な銀行送金と組み合わせることもできます。このオプションは、アプリケーションを開くことなく、Bitcoinの積み立てを自動化します。
-
-
-
-
-
-
-- Bitcoinを固定価格で買う「指値注文」：ユーザーがあらかじめ指定した価格でBitcoinを買うことができ、Bull Bitcoinの指数価格が設定した指値に達するか、または指値を下回ったときに自動的に約定します。
-
-
-
-
-
-- **Bitcoin**の売却：ユーザーはビットコインを売却し、銀行送金またはSEPA送金を介して直接銀行口座に不換紙幣で資金を受け取ることができます。
-
-
-
-
-
-- 第三者決済：Bull Bitcoinは、ユーザーがビットコインから銀行口座に不換紙幣を送金することを可能にする。
-
-
-
-
-
-- **ブルBitcoinプライム**：Bull Bitcoin Primeは、富裕層や企業のお客様向けのプレミアム・サービスで、カスタマイズされたソリューションとプレミアム・サポートを提供します。このサービスには、手数料の割引、専任の口座マネージャー、およびカスタマイズされた法人向けサービスのご利用が含まれます。このサービスは、詳細な専門知識と優先的な取り扱いを求める機関投資家、プロのトレーダー、法人のお客様を対象としています。
-
-
-
-
-
-- モバイルWalletブルBitcoinは、オンチェーン、LiquidおよびLightning Networkトランザクションをサポートする、AndroidおよびiOSで利用可能なオープンソースの自己完結型モバイルWalletを提供しています。
-
-
-
-
-
-- **教育サポート**：ユーザーがBitcoinポートフォリオを作成、確保、管理できるよう、無料のガイドと個別コーチングを提供。
-
-
-
-#### コンプライアンスと安全性
-
-
-
-
-
-- 規制：FINTRAC（カナダ）およびAMF（フランス）に登録され、Bull BitcoinはKYC/AML要件に準拠しています。
-
-
-
-
-
-- セキュリティ：安全なポートフォリオの使用とオフラインストレージの推奨。個人データはBullのBitcoinインフラでホストされており、100％セルフホストで、いかなる第三者にも依存していません。
+[Github】(https://github.com/SatoshiPortal/bullbitcoin-mobile)｜【ウェブサイト】(https://www.bullbitcoin.com/)｜【Recoverbull】(https://recoverbull.com/)

@@ -19,7 +19,7 @@ A Vexl é uma rede social peer-to-peer que liga compradores e vendedores de Bitc
 
 
 
-Começar a utilizar o Vexl é bastante simples: visite o [sítio Web oficial] (https://vexl.it) e, em seguida, transfira a aplicação móvel para o seu telemóvel iOS ou Android.
+Começar a utilizar o Vexl é bastante simples: visite o [sítio Web oficial](https://vexl.it) e, em seguida, transfira a aplicação móvel para o seu telemóvel iOS ou Android.
 
 
 

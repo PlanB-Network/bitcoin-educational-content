@@ -1,6 +1,7 @@
 ---
-term: ASICBOOST
+term: Asicboost
 
+definition: Algoritmioptimisaatio, joka mahdollistaa louhintatehokkuuden parantamisen noin 20 % poikkeaman käyttämällä osaa hash-laskelmista uudelleen useiden yritysten välillä.
 ---
 ASICBOOST on vuonna 2016 keksitty algoritminen optimointimenetelmä, joka on suunniteltu lisäämään Bitcoin-louhinnan tehokkuutta noin 20 prosentilla vähentämällä kunkin otsikon hash-yrityksen edellyttämien laskutoimitusten määrää. Tässä tekniikassa hyödynnetään louhinnassa käytettävän SHA256-hash-funktion ominaisuutta, joka jakaa tiedot lohkoihin ennen niiden käsittelyä. ASICBOOST säilyttää yhden näistä lohkoista muuttumattomana useiden hashausyritysten aikana, jolloin louhijan on tehtävä vain osa tämän lohkon työstä useiden yritysten aikana. Tämä tietojen jakaminen mahdollistaa aiempien laskutoimitusten tulosten uudelleenkäytön, mikä vähentää kelvollisen hash-tunnisteen löytämiseen tarvittavien laskutoimitusten kokonaismäärää.
 

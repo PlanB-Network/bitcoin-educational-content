@@ -1,0 +1,9 @@
+question: เครื่องมือสมัยใหม่ที่มาแทนที่ arp บนการแจกจ่าย Linux รุ่นใหม่คือ ip neighbor
+answer: ip neigh
+wrong_answers:
+  - ifconfig
+  - traceroute
+  - เส้นทาง
+explanation: |
+  ip neigh จากชุด iproute2 แทนที่ arp สำหรับจัดการการเชื่อมโยง IP/MAC บน Linux สมัยใหม่
+reviewed: false

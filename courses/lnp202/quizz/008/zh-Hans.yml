@@ -1,0 +1,9 @@
+question: 有了托管闪电 wallet，谁拥有比特币？
+answer: 该公司
+wrong_answers:
+  - 用户
+  - 闪电网络
+  - Bitcoin 核心
+explanation: |
+  在托管模式中，公司持有钥匙并控制资金，而用户只有会计余额。
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: SCRIPTWITNESS
+term: Scriptwitness
+definition: Bitcoinlerin kilidini açmak için imzaları ve genel anahtarları içeren SegWit öğesi.
 ---
 
 SegWit işlem girdilerinde, işlemde gönderilen bitcoinlerin kilidini açmak için gerekli imzaları ve genel anahtarları içeren bir öğe. Legacy işlemlerindeki `scriptSig`e benzer şekilde, `scriptWitness` aynı konumda yer almaz. Aslında, "tanık" (İngilizce'de `*witness*`) olarak adlandırılan bu kısım, işlemin değiştirilebilirlik sorununu çözmek için ayrı bir veritabanına taşınmıştır. Her SegWit girdisinin kendi `scriptWitness`ı vardır ve tüm `scriptWitness` Elements birlikte işlemin `Witness` alanını oluşturur.

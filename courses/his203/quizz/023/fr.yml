@@ -1,0 +1,9 @@
+question: Qui a créé la bourse en ligne GLBSE en avril 2011, une plateforme qui permettait aux acteurs de l'écosystème de Bitcoin d'émettre des titres financiers comme des actions ou des obligations pour se financer ?
+answer: James McCarthy (Nefario)
+wrong_answers:
+  - Charlie Shrem (Yankee)
+  - Mircea Popescu (MPOE-PR)
+  - Nathaniel Theis (Cuddlefish)
+explanation: |
+ C'était un Irlandais vivant en Chine, qui occupait un poste de professeur d'anglais dans une université. Il s'intéressait à l'école autrichienne et aux idées des cypherpunks. En avril 2011, il a lancé GLBSE qui offrait toutes sortes de serices financiers à ses clients, dont la possibilité d'émettre des actions et des obligations.
+reviewed: false

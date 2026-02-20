@@ -1,5 +1,6 @@
 ---
-term: Bitcoin Amafaranga (BCH)
+term: Bitcoin cash (bch)
+definition: Ifaranga rya dijital ryamutse kuri hard fork ya Bitcoin mu 2017, ryongereye ingano y'ibice (blocks) gushika kuri 8 MB.
 ---
 
 Uburyo bw’amahera y’ibanga buva kuri Hard Fork ya Bitcoin (BTC) yabaye ku wa 1 Myandagaro 2017, ku nzu 478.558.
@@ -11,4 +12,3 @@ Mu gihe Bitcoin yashize mu ngiro SegWit (a Soft Fork) kugira ngo ishike ku kwiyo
 Intumbero yari iyo kugabanya amafaranga y’ugucuruza no gutuma ibihe vyo kwemeza bigenda neza.
 
 
-![](../../dictionnaire/assets/49.webp)

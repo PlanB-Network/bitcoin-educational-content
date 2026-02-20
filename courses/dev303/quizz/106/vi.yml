@@ -1,0 +1,8 @@
+question: Nguyên tắc thiết kế cơ bản nào cho phép LDK tạo ra các HSM nhận biết Lightning có khả năng đánh giá một cách thông minh xem một giao dịch có phải là định tuyến thanh toán hợp pháp hay là các nỗ lực có khả năng độc hại?
+answer: Kiến trúc mô-đun của LDK cho phép trích xuất các thành phần ký và xác minh giao dịch cụ thể trong khi vẫn duy trì nhận thức về ngữ cảnh của giao thức Lightning.
+wrong_answers:
+  - "Hệ thống dựa trên sự kiện của LDK tự động gắn cờ các giao dịch đáng ngờ thông qua các thuật toán máy học được tích hợp vào quy trình ký kết cốt lõi."
+  - "Lớp trừu tượng blockchain của LDK cung cấp khả năng phát hiện gian lận theo thời gian thực bằng cách đối chiếu tất cả các giao dịch với dữ liệu lan truyền trên mạng."
+  - "Hệ thống quản lý ngang hàng của LDK triển khai các chữ ký mật mã tiên tiến, có khả năng phân biệt một cách tự nhiên giữa các mẫu giao dịch hợp pháp và độc hại."
+explanation: |
+  Thiết kế dạng mô-đun của LDK cho phép các nhà phát triển chỉ trích xuất các thành phần ký và xác minh trong khi vẫn giữ được khả năng hiểu ngữ cảnh giao dịch cần thiết. Điều này cho phép các HSM đưa ra quyết định sáng suốt về chuyển tiếp thanh toán, hoạt động kênh và các mối đe dọa bảo mật thay vì ký giao dịch một cách mù quáng. Các câu trả lời sai thường gán khả năng này cho việc phát hiện gian lận tự động, giám sát blockchain hoặc chữ ký mật mã, trong khi thực tế, chính khả năng duy trì nhận thức giao thức trong các thành phần riêng biệt của kiến trúc mô-đun mới cho phép đánh giá giao dịch một cách thông minh.

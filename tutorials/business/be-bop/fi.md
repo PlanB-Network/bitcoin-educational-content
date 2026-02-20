@@ -255,12 +255,13 @@ be-BOP:n avulla voit hyväksyä Bitcoin-maksuja suoraan Blockchain:lla (On-Chain
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Kenttä                  | Kuvaus                                               | Käyttöesimerkki                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **BIP-standardi**       | Käytetty osoitteistyyppi                               | BIP84 (osoitteille bech32-muodossa, jotka alkavat `bc1`:llä) |
+| **Laajennettu julkinen avain** | Sinun Zpub (tai Xpub käytetystä lompakon mukaan)        | `zpub...` (poimittu Bitcoin-lompakostasi) |
+| **Derivation Index**   | Aloitusindeksi osoitteiden luomiseen         | `1`                                              |
+| **Mempool URL**        | Mempool-palvelun URL, jota käytetään transaktioiden seuraamiseen | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 
@@ -849,12 +850,13 @@ Tässä osassa määritellään, **missä** ja **miten** tuotetta voi tarkastell
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Alusta        | Tuote näkyvissä | Lisättävä ostoskoriin |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (julkinen sivusto)        | ✔️              | ✔️                  |
+| Retail POS (myyntipiste)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (myynti botin kautta)  | ✔️              | ✔️                  |
 
 Tarkista vain ne kanavat, joita haluat käyttää.
 
@@ -1024,14 +1026,15 @@ Käytä CMS-sivujesi sisällössä **lyhytkoodeja**:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Tavoite                 | Lisättävä tunniste                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Tuotteen näyttäminen      | `[Product=slug?display=img-1]`        |
+| Kuvan näyttäminen       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Liukusäädin integroiminen       | `[Slider=slug?autoplay=3000]`         |
+| Haasteen lisääminen     | `[Challenge=slug]`                    |
+| Taaksepäin laskemisen lisääminen | `[Countdown=slug]`                 |
+| Lomakkeen integroiminen   | `[Form=slug]`                         |
 
 **Tämänhetkiset parametrit**:
 
@@ -1813,14 +1816,15 @@ Juliste:
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Toiminto                         | Kuvaus                                             |
+|----------------------------------|---------------------------------------------------------|
+| POS-rooli                         | Määritetty ARM-järjestelmän kautta                                         |
+| Pääliittymä             | `/pos` tai `/pos/touch`                                 |
+| Asiakkaan näyttö (näyttö 2)       | `/pos/session`                                         |
+| Maksu                         | Käteinen, kortti, Lightning jne.                         |
+| Tuotteen lisääminen                    | Alias tai viivakodin skannaus                              |
+| Alennukset / ALV                    | Pakollisella johdon perustelulla              |
 
 Kiitos, että seuraat tätä ohjetta huolellisesti.

@@ -1,6 +1,7 @@
 ---
 term: BIP0044
 
+definition: Standard che definisce la struttura completa dei percorsi di derivazione per i portafogli HD purpose, coin_type, account, change e address_index.
 ---
 Una proposta di miglioramento che introduce una struttura di derivazione gerarchica standard per i portafogli HD. Il BIP44 si basa sui principi stabiliti dal BIP32 per la derivazione delle chiavi e sul BIP43 per l'uso del campo "purpose". Introduce una struttura di derivazione a cinque livelli: `m / purpose' / coin_type' / account' / change / address_index'. Ecco i dettagli di ogni livello:
 

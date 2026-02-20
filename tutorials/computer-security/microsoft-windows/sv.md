@@ -14,7 +14,7 @@ I den här handledningen lär vi oss hur du installerar Windows 11 automatiskt m
 Det första du behöver är en installationsfil. Den säkraste och mest pålitliga platsen att ladda ner den är direkt från Microsofts officiella webbplats.
 
 
-Besök bara länken nedan och följ instruktionerna för att ladda ner [Windows 11 ISO-fil] (https://www.microsoft.com/en-us/software-download/windows11)
+Besök bara länken nedan och följ instruktionerna för att ladda ner [Windows 11 ISO-fil](https://www.microsoft.com/en-us/software-download/windows11)
 
 
 ![Image](assets/en/02.webp)
@@ -59,10 +59,10 @@ Filstorleken är ca 5,5 GB och den genererade länken är giltig i 24 timmar.
 ## Automation!
 
 
-I det här skedet måste vi göra ändringar i standardinstallationen av Windows. I det här steget, med hjälp av Unattended install, bestämmer vi vilka objekt som ska installeras, utan användarens inmatning efteråt. I själva verket används i denna metod en XML-fil för att konfigurera installationsstegen och tjänsterna som installeras i Windows. Användningen av filen Unattended.xml skapar med andra ord en automatiseringsprocess under installationen, vilket gör att användaren inte behöver välja flera alternativ och slipper de tråkiga steg som vanligtvis krävs under installationen. Den här metoden är en ovanlig men standardiserad metod som har introducerats av Microsoft. Mer information finns på [Microsofts officiella webbplats] (https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/update-windows-settings-and-scripts-create-your-own-answer-file-sxs?view=windows-11).
+I det här skedet måste vi göra ändringar i standardinstallationen av Windows. I det här steget, med hjälp av Unattended install, bestämmer vi vilka objekt som ska installeras, utan användarens inmatning efteråt. I själva verket används i denna metod en XML-fil för att konfigurera installationsstegen och tjänsterna som installeras i Windows. Användningen av filen Unattended.xml skapar med andra ord en automatiseringsprocess under installationen, vilket gör att användaren inte behöver välja flera alternativ och slipper de tråkiga steg som vanligtvis krävs under installationen. Den här metoden är en ovanlig men standardiserad metod som har introducerats av Microsoft. Mer information finns på [Microsofts officiella webbplats](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/update-windows-settings-and-scripts-create-your-own-answer-file-sxs?view=windows-11).
 
 
-Det finns olika verktyg tillgängliga på internet för att generera Unattended-filer. Vissa av dem är online, medan andra är offline. Ett av onlineverktygen för att skapa den här filen är [denna webbplats] (https://schneegans.de/windows/unattend-generator). Efter att ha öppnat den presenteras vi med följande sida:
+Det finns olika verktyg tillgängliga på internet för att generera Unattended-filer. Vissa av dem är online, medan andra är offline. Ett av onlineverktygen för att skapa den här filen är [denna webbplats](https://schneegans.de/windows/unattend-generator). Efter att ha öppnat den presenteras vi med följande sida:
 
 
 ![Image](assets/en/06.webp)

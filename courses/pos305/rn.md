@@ -74,7 +74,7 @@ Inyuma y’amajambo Nicolas yavuze, igihe co gutangura kwubaka carashitse. Ibiko
 Open source bisobanura iki, kandi ni igiki kija muri uwo mugambi?
 
 
-FOSS ni ijambo risobanura Porogaramu y’Ubuntu n’Ifunguye. Iryo rya mbere ryerekeza ku majambo yemerera umuntu wese gukopa, guhindura, mbere no gukwiragiza amaverisiyo (mbere no kugira ngo aronke inyungu) y’iyo porogarama. Ivyo vya nyuma vyerekeye gusangira ku mugaragaro kode y’inkomoko, guhimiriza abantu bose gutanga umusanzu no kuyinoza.
+[FOSS](https://planb.academy/resources/glossary/foss) ni ijambo risobanura Porogaramu y’Ubuntu n’Ifunguye. Iryo rya mbere ryerekeza ku majambo yemerera umuntu wese gukopa, guhindura, mbere no gukwiragiza amaverisiyo (mbere no kugira ngo aronke inyungu) y’iyo porogarama. Ivyo vya nyuma vyerekeye gusangira ku mugaragaro kode y’inkomoko, guhimiriza abantu bose gutanga umusanzu no kuyinoza.
 
 Ivyo bikwegera abakoresha bazi utuntu n’utundi bafise igishika co gutanga umusanzu kuri porogarama bamaze gukoresha kandi bagakuramwo agaciro, amaherezo bikaba vyerekana ko baroraniwe mu kwemera kuruta porogarama z’abanyagihugu. Bihuye n’inyifato runtu ya Bitcoin ivuga ko “amakuru yipfuza kuba ataco amaze.” Bihuza abantu bafise urukundo rwinshi bagakora umuryango kandi biraryoshe cane. Cokimwe na Bitcoin, FOSS ntaco ishobora gukora.
 
@@ -128,7 +128,7 @@ Ivyo bizotangura inyuma yo kuraba intangamarara “Uko Bitcoin na Blockchain bik
 :::id ya videwo = c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
 
-Ico gikorwa gisaba abantu n’imiburiburi icenda. Iyi nyigisho igamije gutanga ugutahura kw’umubiri kw’ingene Bitcoin ikora. Mu gukina uruhara rumwe rumwe mu rubuga, uzogira uburyo bwo kwiga bujanye n’ugukorana n’abandi kandi bugakina. Ivyo bikorwa ntibirimwo Lightning Network.
+Ico gikorwa gisaba abantu n’imiburiburi icenda. Iyi nyigisho igamije gutanga ugutahura kw’umubiri kw’ingene Bitcoin ikora. Mu gukina uruhara rumwe rumwe mu rubuga, uzogira uburyo bwo kwiga bujanye n’ugukorana n’abandi kandi bugakina. Ivyo bikorwa ntibirimwo [Lightning Network](https://planb.academy/resources/glossary/lightning-network).
 
 
 ### Akarorero: Bisaba abantu 9 / 11
@@ -181,7 +181,7 @@ Abaguzi bagura ikintu mw’iduka bafise Bitcoin.
 - Imwe muri izo mudasobwa 9 irafise inyandiko yuzuye y’amateka y’ibikorwa vyose vya kera vyigeze gukorwa (gutyo ni uburinganire butagiramwo uburyarya), hamwe n’amategeko:
   - Genzura ko ubucuruzi bwashizweko umukono neza (urufunguzo rujanye n'urufunguzo)
   - Gutangaza no kwakira amafaranga y’agaciro ku bagenzi bawe bo mu rubuga, guta ayatagira akamaro (harimwo n’ayo yose agerageza gukoresha amafaranga amwe amwe incuro zibiri)
-- Guhindura/Kwongerako amakuru mu bihe bitandukanye n’amafaranga mashasha yaronswe na mudasobwa “y’imburakimazi” igihe cose ibirimwo vyose bifise akamaro (iciyumviro: turiko turirengagiza, ubu, igice ca Proof of Work kuri ivyo vyose, kugira ngo vyorohe), ahandi ho ivyo ubihebe maze ukomeze nk’uko vyari kera gushika mudasobwa “imburakimazi” ikurikira yohereje ivugurura .
+- Guhindura/Kwongerako amakuru mu bihe bitandukanye n’amafaranga mashasha yaronswe na mudasobwa “y’imburakimazi” igihe cose ibirimwo vyose bifise akamaro (iciyumviro: turiko turirengagiza, ubu, igice ca [Proof of Work](https://planb.academy/resources/glossary/proof-of-work) kuri ivyo vyose, kugira ngo vyorohe), ahandi ho ivyo ubihebe maze ukomeze nk’uko vyari kera gushika mudasobwa “imburakimazi” ikurikira yohereje ivugurura .
   - Amahera akwiye yarahembwa iyo ibirimwo vyari bibereye.
 - Gukina urutonde rw'ibintu vyabaye:
   - Umukiriya- asuzumye iduka kuri internet akabona ikintu c’amadolari 25 ashaka, akamenyesha umucuruzi ko ashaka kugura
@@ -234,8 +234,8 @@ Sigura amajambo nyamukuru akurikira yashizwemwo mu gice c’imbere:
 
 
 - Urudodo
-- Mempool
-- Intumbero y'ingorane
+- [Mempool](https://planb.academy/resources/glossary/mempool)
+- Intumbero y'[ingorane](https://planb.academy/resources/glossary/difficulty)
 - Uruzitiro
 
 
@@ -436,9 +436,9 @@ Hashingiwe ku buhinga bwa telefone yawe ngendanwa (Android canke iOS), abakoresh
 1. Gukuraho igikoresho co kwemeza ko umuntu ari we afise ibintu bibiri.
 
 
-   - Uburenganzira bwa [Android] (ibisobanuro?id=com.uburenganzira) canke [iOS](iOS]
+   - Uburenganzira bwa [Android](ibisobanuro?id=com.uburenganzira) canke [iOS](iOS]
    - Igikoresho co kwemeza ivy'ukuri ca Microsoft kuri [Android](ibisobanuro?id=com.azure.igikoresho co kwemeza ivy'ukuri) canke [iOS]
-   - Igikoresho co kwemeza ivy'ukuri ca Google kuri [Android] (ibisobanuro? id=com.google.iporogaramu.
+   - Igikoresho co kwemeza ivy'ukuri ca Google kuri [Android](ibisobanuro? id=com.google.iporogaramu.
 
 2. Uhejeje gukuraho no gushiramwo App y’Ivyemezo.
 
@@ -573,7 +573,7 @@ Muri iki gice, mwarize:
 ### Ni igiki kijanye n’uguhingura imfunguruzo za Bitcoin?
 
 
-Amasakoshi ya Bitcoin, iyo aremwe, akora ico bita "seed". Mu ntumbero ya nyuma, wararemye "seed", Urutonde rw'amajambo yavutse imbere ruzwi kandi nk'amajambo ya Mnemonic. seed ikoreshwa mu gukuraho imfunguruzo za Bitcoin kandi ikoreshwa mu kohereza canke kwakira Bitcoin. Amajambo ya seed ntashobora kwigera asangizwa n’abandi canke abo mu runganwe rwawe batizigira.
+Amasakoshi ya Bitcoin, iyo aremwe, akora ico bita "[seed](https://planb.academy/resources/glossary/seed)". Mu ntumbero ya nyuma, wararemye "seed", Urutonde rw'amajambo yavutse imbere ruzwi kandi nk'amajambo ya Mnemonic. seed ikoreshwa mu gukuraho imfunguruzo za Bitcoin kandi ikoreshwa mu kohereza canke kwakira Bitcoin. Amajambo ya seed ntashobora kwigera asangizwa n’abandi canke abo mu runganwe rwawe batizigira.
 
 
 Igihugu ca seed gikorwa hakurikijwe ingingo ngenderwako y'inganda izwi kw'izina rya "Hierarchical Deterministic" (HD).
@@ -596,7 +596,7 @@ Address iva ku rufunguzo rwa bose biciye ku “buryo bwo gukora hashing.” Arik
 
 
 
-- Amaderesi atangura na `bc1...` ariko aragenda buhoro buhoro aja mu maderesi asanzwe cane. Ivyo bizwi kw’izina rya (akavukire) Aderesi za SegWit. Ivyo bitanga urutonde rwiza rw’amahera kuruta ayandi Maderesi yavuzwe. Amaderesi y'imvukira SegWit akoresha ubuhinga bwa Bech32 kandi yemera gusa inyuguti ntoya.
+- Amaderesi atangura na `bc1...` ariko aragenda buhoro buhoro aja mu maderesi asanzwe cane. Ivyo bizwi kw’izina rya (akavukire) Aderesi za [SegWit](https://planb.academy/resources/glossary/segwit). Ivyo bitanga urutonde rwiza rw’amahera kuruta ayandi Maderesi yavuzwe. Amaderesi y'imvukira SegWit akoresha ubuhinga bwa Bech32 kandi yemera gusa inyuguti ntoya.
 
 
 
@@ -618,7 +618,7 @@ Imfunguruzo za bose ntizikoreshwa cane mu bikorwa muri iki gihe. Igihe kirenze, 
 
 
 
-- Ariko rero, amasakoshi ya HD akoresha uburyo butandukanye. `xpub...`, `ypub...` canke `zpub...` vyitwa imfunguruzo za bose zagutse, canke xpubs. Izo mfunguruzo zikoreshwa mu gukura imfunguruzo nyinshi za bose nk'igice ca HD Wallet. Nk’uko xpub yawe ifise amakuru y’amateka yawe yose, bisobanura amafaranga yawe ya kera n’ayo muri kazoza, ntukigere ubisangira n’abantu utizigira.
+- Ariko rero, amasakoshi ya HD akoresha uburyo butandukanye. `xpub...`, `ypub...` canke `zpub...` vyitwa imfunguruzo za bose zagutse, canke [xpubs](https://planb.academy/resources/glossary/xpub). Izo mfunguruzo zikoreshwa mu gukura imfunguruzo nyinshi za bose nk'igice ca HD Wallet. Nk’uko xpub yawe ifise amakuru y’amateka yawe yose, bisobanura amafaranga yawe ya kera n’ayo muri kazoza, ntukigere ubisangira n’abantu utizigira.
 
 
 ### Incamake y'ubuhinga
@@ -670,7 +670,7 @@ Hot wallets ni uburyo bwiza bwo gukorana na Bitcoin biciye ku mbuga ngurukanabum
 Abantu ku giti cabo bimurira Bitcoin yabo mu Cold Wallet kuko ishobora gutandukanya imfunguruzo z’ibanga kuri internet, gutyo ikabakingira ibintu bishobora kubatera ubwoba kuri internet. Gukuraho uruja n’uruza rwa internet mu nzira y’ubuhinga bigabanya ingorane z’ubuhinga butari bwiza, ubuhinga bw’ubutasi, n’uguhindura SIM. Ububiko bwa Cold bwemerwa ko buruta ububiko bwa Hot ku bijanye n’umutekano n’ukwigenga, igihe cose hafashwe ingingo zihagije kugira ngo umuntu ntatakaze imfunguruzo z’ibanga za Bitcoin. Ububiko bwa Cold burabereye cane ku bipimo vyinshi vya Bitcoin, bitagenewe gukoreshwa kenshi kubera ukuntu Wallet igoranye.
 
 
-Hari uburyo butandukanye bwo kubika imfunguruzo za Bitcoin mu bubiko bwa Cold, kuva ku masakoshi y’impapuro gushika ku masakoshi y’ubwonko, ku masakoshi y’ibikoresho, canke, kuva mu ntango, dosiye ya Wallet. Ivyuma vyinshi bikoresha BIP 39 gushika generate ijambo seed. Ariko rero, muri porogarama ya Bitcoin core, nta n’umwe yemeranya ku bijanye n’ingene yokoreshwa. Porogaramu ya Bitcoin core izoguma generate dosiye ya Wallet.dat, ukeneye kubika ahantu hatagira umurongo.
+Hari uburyo butandukanye bwo kubika imfunguruzo za Bitcoin mu bubiko bwa Cold, kuva ku masakoshi y’impapuro gushika ku masakoshi y’ubwonko, ku masakoshi y’ibikoresho, canke, kuva mu ntango, dosiye ya Wallet. Ivyuma vyinshi bikoresha [BIP](https://planb.academy/resources/glossary/bip) 39 gushika generate ijambo seed. Ariko rero, muri porogarama ya Bitcoin core, nta n’umwe yemeranya ku bijanye n’ingene yokoreshwa. Porogaramu ya Bitcoin core izoguma generate dosiye ya Wallet.dat, ukeneye kubika ahantu hatagira umurongo.
 
 
 ### Incamake y'ubuhinga
@@ -717,7 +717,7 @@ BTCPay Server igizwe n'ibi bikurikira bimenyerewe Wallet:
 - Gusubira gupima
 - Gukuraho ukwishyura
 - Ivyo kwishura
-- PSBT
+- [PSBT](https://planb.academy/resources/glossary/psbt)
 - Amagenamiterere rusangi
 
 
@@ -727,14 +727,15 @@ BTCPay Server igizwe n'ibi bikurikira bimenyerewe Wallet:
 Abarongozi barashobora kubona amafaranga yinjira n’asohoka ya On-Chain Wallet ihuye n’iri duka ryihariye mu mbonerahamwe y’amafaranga. Igicuruzwa cose gifise itandukaniro hagati y’amahera yakiriwe n’ayoherejwe. Ivyo bizokwakirwa ni Green, kandi amahera azosohoka azoba ari umutuku. Mu mbonerahamwe y'ibikorwa vya BTCPay Server, abarongozi bazobona kandi urutonde rw'ibimenyetso bimenyerewe.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| Ubwoko bw'ikorwa | Insobanuro                                      |
+| ----------------- | ----------------------------------------------- |
+| Porogaramu        | Ubwishyu bwakiriwe binyuze kuri fagitire yakozwe na porogaramu |
+| Fagitire          | Ubwishyu bwakiriwe binyuze kuri fagitire         |
+| [Payjoin](https://planb.academy/resources/glossary/payjoin)           | Ntabwo yishyuwe, igihe ntarengwa cya fagitire ntikirarangira |
+| Payjoin-yagaragajwe | [UTXO](https://planb.academy/resources/glossary/utxo) yagaragajwe binyuze mu gitekerezo cya payjoin muri fagitire |
+| Gusaba kwishyura  | Ubwishyu bwakiriwe binyuze mu gusaba kwishyura  |
+| Kwishyura         | Ubwishyu bwoherejwe binyuze mu kwishyura cyangwa gusubizwa |
 
 ### Uko worungika
 
@@ -821,7 +822,7 @@ Serveri ya BTCPay ishigikira BIP-329 ku bijanye n’ugucungera ibimenyetso. Iyo 
 Iyo ukanda kuri buto yakira muri BTCPay Server, itanga Address itakoreshejwe ishobora gukoreshwa mu kwakira amahera. Abarongozi barashobora kandi generate Address nshasha mu guhingura “Invoice” nshasha.
 
 
-BTCPay Server izokwama igusaba gukoresha generate Address ikurikira iriho kugira ngo ntusubire gukoresha Address. Amaze gukanda “generate ikurikira BTC Address iboneka,” Server ya BTCPay yarasohoye Address n’i QR nshasha. Iragufasha kandi gushiramwo Label kuri Address kugira ngo ushobore gucunga neza amaderesi yawe.
+BTCPay Server izokwama igusaba gukoresha generate Address ikurikira iriho kugira ngo ntusubire gukoresha Address. Amaze gukanda “generate ikurikira BTC Address iboneka,” Server ya BTCPay yarasohoye Address n’i QR nshasha. Iragufasha kandi gushiramwo [Label](https://planb.academy/resources/glossary/label) kuri Address kugira ngo ushobore gucunga neza amaderesi yawe.
 
 
 ![image](assets/en/018.webp)
@@ -1130,7 +1131,7 @@ Mu mahitamwo ya Lightning Wallet mu murongo w’ibikubiyemo w’ibubamfu, abaron
 #### Amakuru y'urudodo rw'imbere
 
 
-Abarongozi ba server bashobora gukanda ku makuru y'imbere kugira ngo babone uko server yabo imeze (Ku murongo/Ku murongo) n'urudodo rw'ihuriro rya Clearnet canke Tor.
+Abarongozi ba server bashobora gukanda ku makuru y'imbere kugira ngo babone uko server yabo imeze (Ku murongo/Ku murongo) n'urudodo rw'ihuriro rya Clearnet canke [Tor](https://planb.academy/resources/glossary/tor).
 
 
 ![image](assets/en/033.webp)
@@ -1805,28 +1806,30 @@ Ubwoko bwose buzana n’ibipimo vyabwo vyo kwuzuza. Nyir’iduka arashobora kuyi
 BTCPay Server nayo iragufasha kwubaka amafomu muri kode. JSON, cane cane. Aho kuraba umuhinduzi, ba nyen’amaduka barashobora gufyonda kuri buto ya CODE iri iruhande nyene y’umuhinduzi maze bakinjira muri kode y’amafomu yabo. Mu nsobanuro y'umurima, imirima ikurikira gusa ni yo ishobora gushirwaho; agaciro k'imirima kabitswe mu makuru y'imbere ya Invoice:
 
 
-| Field                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+| Ikibanza | Ibivunzwe |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| .fields.constant      | If true, the .value must be set in the form definition, and the user will not be able to change the field's value. ( example: the form definition's version)                                                                                                                                                                                                                                                                                                       |
-| .fields.type          | The HTML input type text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel                                                                                                                                                                                                                                                                                                |
-| .fields.options       | If .fields.type is select, the list of selectable values                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.options.text  | The text displayed for this option                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| .fields.options.value | The value of the field if this option is selected                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| .fields.type=fieldset | Create a HTML fieldset around the children .fields.fields (see below)                                                                                                                                                                                                                                                                                                                                                                                              |
-| .fields.name          | The JSON property name of the field as it will appear in the invoice's metadata                                                                                                                                                                                                                                                                                                                                                                                    |
-| .fields.value         | The default value of the field                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| .fields.required      | if true, the field will be required                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| .fields.label         | The label of the field                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| .fields.helpText      | Additional text to provide an explanation for the field.                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.fields        | You can organize your fields in a hierarchy, allowing child fields to be nested within the invoice’s metadata. This structure can help you better organize and manage the collected information, making it easier to access and interpret. For example, if you have a form that collects customer information, you can group the fields under a parent field called customer. Within this parent field, you might have child fields like name, Email, and address. |
+| .fields.constant | Nimba ari true, .value itegerezwa gushirwa mu nsobanuro y'ifomu, kandi uwukoresha ntazoshobora guhindura agaciro k'ikibanza. (akarorero: verisiyo y'insobanuro y'ifomu) |
+| .fields.type | Ubwoko bw'iyinjizwa rya HTML: text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | Nimba .fields.type ari select, urutonde rw'agaciro gashobora guhitwa |
+| .fields.options.text | Ivyanditse vyerekanywe kuri aya mahitamo |
+| .fields.options.value | Agaciro k'ikibanza nimba aya mahitamo ahitishijwe |
+| .fields.type=fieldset | Kora HTML fieldset ikikuje abana .fields.fields (raba musi) |
+| .fields.name | Izina ry'indangamutungo ya JSON y'ikibanza nk'uko rizoseruka mu metadata y'itike (invoice) |
+| .fields.value | Agaciro gasanzwe k'ikibanza |
+| .fields.required | nimba ari true, ikibanza kizoba gikenewe |
+| .fields.label | Ikiranga (label) c'ikibanza |
+| .fields.helpText | Ivyanditse vyongereweko kugira bitange insobanuro y'ikibanza. |
+| .fields.fields | Urashobora gutunganya ibibanza vyawe mu nzego, ukemerera ibibanza vy'abana gushirwa mu metadata y'itike. Uyu muvure urashobora kugufasha gutunganya neza no gucunga amakuru yakusanyijwe, bikatuma yorohera kuyashikirwa no kuyasobanura. Akarorero, nimba ufise ifomu ikusanya amakuru y'umukiliya, urashobora gushira hamwe ibibanza musi y'ikibanza c'umuvyeyi citwa customer. Muri iki kibanza c'umuvyeyi, urashobora kugira ibibanza vy'abana nka name, Email, na address. |
 
 Izina ry’umurima rigereranya izina ry’umutungo wa JSON ribika agaciro katanzwe n’ukoresha mu makuru ya Invoice. Amazina amwe amwe azwi cane arashobora gusobanurwamwo no guhindurwa kugira ngo ahindure imiterere ya Invoice.
 
 
-| Field name       | Description            |
+
+| Izina ry’umwanya | Insiguro              |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Igiciro ya fagitire   |
+| invoice_currency | Ifaranga rya fagitire |
 
 Ushobora kwuzuza mbere ivyicaro vya Invoice ubwo nyene wongeyeko imirongo y'ibibazo kuri URL y'ifomu, nka "?your_field=value".
 
@@ -2276,7 +2279,8 @@ docker logs --tail 100 generated_btcpayserver_1
 ```
 
 
-| Logs for     | Container Name                    |
+
+| Ibigezane     | Izina rya dosiye                   |
 | ------------ | --------------------------------- |
 | BTCPayServer | generated_btcpayserver_1          |
 | NBXplorer    | generated_nbxplorer_1             |
@@ -2452,7 +2456,7 @@ Mu BTCPay Server, Invoice igereranya inyandiko itegerezwa kwishurwa mu kiringo c
 Ishingiro rya BTCPay Server ni ubushobozi bwo gukora nk’uburyo bwo gucunga Bitcoin Invoice. Invoice ni igikoresho gihambaye co gukurikirana no gucunga amahera yaronse.
 
 
-Keretse ukoresheje [Wallet] (https://docs.btcpayserver.org/Wallet/) yubatswemwo kugira ngo wakire amahera n’amaboko, amahera yose yishuye mu iduka azokwerekanwa kuri paji y’Ifagitire. Iyi paji itoranya amahera yishurwa hakurikijwe itariki kandi ikora nk’uburyo nyamukuru bwo gucunga Invoice no gutorera umuti ingorane z’amahera yishurwa.
+Keretse ukoresheje [Wallet](https://docs.btcpayserver.org/Wallet/) yubatswemwo kugira ngo wakire amahera n’amaboko, amahera yose yishuye mu iduka azokwerekanwa kuri paji y’Ifagitire. Iyi paji itoranya amahera yishurwa hakurikijwe itariki kandi ikora nk’uburyo nyamukuru bwo gucunga Invoice no gutorera umuti ingorane z’amahera yishurwa.
 
 
 ![image](assets/en/093.webp)
@@ -2467,21 +2471,22 @@ Keretse ukoresheje [Wallet] (https://docs.btcpayserver.org/Wallet/) yubatswemwo 
 Imbonerahamwe iri musi iratanga urutonde kandi idondora ivyerekeye Invoice mu BTCPay, hamwe n’ibikorwa rusangi vyerekanwa. Ibikorwa ni impanuro gusa. Ni abakoresha gusobanura inzira nziza yo gukora ku bijanye n’ikoreshwa ryabo n’ubucuruzi bwabo.
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| Uko invoice imere | Ibivunzwe | Igikorwa |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | Ntishuwe, igihe c'invoice ntikirarengana | Nta na kimwe |
+| New (paidPartial) | Ishuwe kumpande, igihe c'invoice ntikirarengana | Nta na kimwe |
+| Expired | Ntishuwe, igihe c'invoice cararenganye | Nta na kimwe |
+| Expired (paidPartial) ** | Ishuwe kumpande, kandi yararengeje igihe | Hamagara uwaguze muganire ivy'isubizwa ry'amahera canke umusabe kwishura ibisigaye. Hitamo kuyishira kuri settled canke invalid |
+| Expired (paidLate) | Ishuwe yose, inyuma y'uko igihe c'invoice camaze kurengana | Hamagara uwaguze muganire ivy'isubizwa ry'amahera canke utunganye komande nimba kwemeza kw'itevye kwemerwa. |
+| Settled (paidOver) | Ishuwe arenga ayari kw'invoice, yarangiye, yakiriye ivyemezo bikwiye | Hamagara uwaguze kugira umusubize ayarenze, canke urindire ko ari we aguhamagara |
+| Processing | Ishuwe yose, ariko ntiyakiriye ivyemezo bikwiye nk'uko biri mu bipimo vy'ishaka | Hamagara uwaguze kugira umusubize ayarenze, canke urindire ko ari we aguhamagara |
+| Processing (paidOver) | Ishuwe arenga ayari kw'invoice, ntiyakiriye ivyemezo bikwiye | Rindira ko ija kuri settled, ubone guhamagara uwaguze musubize ayarenze, canke urindire aguhamagare |
+| Settled | Ishuwe yose, yakiriye ivyemezo bikwiye mw'ishaka | Rungika ivyo yaguze |
+| Settled (marked) | Uko imere kwahinduwe n'intoke kuva kuri processing canke invalid uja kuri settled | Umuyobozi w'ishaka yashize amayeri ko ishuwe (settled) |
+| Invalid* | Ishuwe, ariko ntiyakiriye ivyemezo bikwiye mu gihe cashinzwe mu bipimo vy'ishaka | Raba iyo transaction kuri blockchain explorer, nimba yakiriye ivyemezo bikwiye, yishire kuri settled |
+| Invalid (marked) | Uko imere kwahinduwe n'intoke kuva kuri settled canke expired uja kuri invalid | Umuyobozi w'ishaka yashize amayeri ko ari invalid |
+| Invalid (paidOver) | Ishuwe arenga ayari kw'invoice, ariko ntiyakiriye ivyemezo bikwiye mu gihe cashinzwe | Raba iyo transaction kuri blockchain explorer, nimba yakiriye ivyemezo bikwiye, yishire kuri settled |
 
 #### Invoice ibisobanuro
 

@@ -390,12 +390,13 @@ https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-b
 
 
 
-| Service | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Montant minimum |
-|---------|-------------------------|----------------------|-----------------|
-| **Zeus Swap** | ~0.1% + frais minage | 0.5% + frais minage | 25 000 sats |
-| **Boltz** | 0.2% + frais minage | 0.5% + frais minage | 50 000 sats |
-| **Phoenix** | Frais minage uniquement | 0.4% fixe | 10 000 sats |
-| **Breez** | 0.25% + frais réseau | 0.5% + frais minage | 50 000 sats |
+
+| 서비스 | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | 최소 금액 |
+| ------------- | ----------------------- | --------------------- | --------------- |
+| **Zeus Swap** | ~0.1% + 채굴 수수료 | 0.5% + 채굴 수수료 | 25,000 sats |
+| **Boltz** | 0.2% + 채굴 수수료 | 0.5% + 채굴 수수료 | 50,000 sats |
+| **Phoenix** | 채굴 수수료만 부과 | 0.4% 고정 | 10,000 sats |
+| **Breez** | 0.25% + 네트워크 수수료 | 0.5% + 채굴 수수료 | 50,000 sats |
 
 제우스 스왑은 사용 편의성과 기술적 제어 사이의 균형을 제공합니다. 볼츠보다 접근성이 높고, 피닉스/브리즈보다 유연하며, 엄격한 비수탁 방식입니다.
 

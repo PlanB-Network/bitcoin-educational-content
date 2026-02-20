@@ -70,7 +70,7 @@ O Threema está disponível em todas as plataformas. Pode descarregar a aplicaç
 
 
 
-No Android, também é possível [instalar via APK] (https://shop.threema.ch/en/download).
+No Android, também é possível [instalar via APK](https://shop.threema.ch/en/download).
 
 
 
@@ -332,7 +332,7 @@ Aqui pode personalizar o seu perfil: adicionar uma fotografia, escolher quem o p
 
 
 
-Se quiser aceder às suas conversas no seu PC, pode sincronizar a sua conta Threema com o software dedicado. Descarregue o software para o seu sistema operativo [a partir do sítio Web oficial] (https://threema.ch/en/download).
+Se quiser aceder às suas conversas no seu PC, pode sincronizar a sua conta Threema com o software dedicado. Descarregue o software para o seu sistema operativo [a partir do sítio Web oficial](https://threema.ch/en/download).
 
 
 

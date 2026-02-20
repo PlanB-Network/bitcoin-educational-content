@@ -1,6 +1,7 @@
 ---
 term: XOR
 
+definition: Základní booleovská logická operace v kryptografii, která vrací pravdu pouze tehdy, když se oba operandy liší.
 ---
 Zkratka pro operaci "Exclusive or", francouzsky "Ou exclusif" Jedná se o základní funkci booleovské logiky. Tato operace přijímá dva booleovské operandy, z nichž každý je $pravdivý$ nebo $nepravdivý$, a dává výstup $pravdivý$ pouze tehdy, když se oba operandy liší. Jinými slovy, výstup operace XOR je $pravdivý$, pokud je přesně jeden (ale ne oba) z operandů $pravdivý$. Například výsledkem operace XOR mezi $1$ a $0$ bude $1$. Poznamenáváme:
 

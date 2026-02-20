@@ -1,0 +1,8 @@
+question: Vad är det främsta tekniska skälet till att Greenlight-drivna plånböcker uppnår överlägsen tillförlitlighet i betalningsförmedlingen jämfört med traditionella mobila Lightning-implementeringar?
+answer: Greenlight-noderna körs kontinuerligt i molnet och upprätthåller synkronisering av nätverksgrafer i realtid och omedelbar tillgång till fullständig grafdata
+wrong_answers:
+  - Greenlight använder avancerade maskininlärningsalgoritmer för att förutse optimala betalningsvägar baserat på historiska transaktionsmönster
+  - Greenlight implementerar egenutvecklad multi-path payment splitting som distribuerar transaktioner över flera kanaler samtidigt för redundans
+  - Greenlight upprätthåller dedikerade anslutningar med hög bandbredd till stora Lightning-hubbar, vilket säkerställer prioriterad dirigering genom de mest likvida kanalerna
+explanation: |
+  Det rätta svaret identifierar den grundläggande arkitektoniska fördelen med Greenlights molnbaserade metod. Traditionella mobila Lightning-plånböcker måste synkronisera nätverksgrafdata när de startar, vilket skapar fördröjningar och potentiellt arbetar med inaktuell routinginformation. Greenlight löser detta genom att köra Lightning-noder kontinuerligt i molnet, vilket säkerställer att de alltid har aktuell nätverkskunskap och omedelbart kan tillhandahålla fullständig grafdata när användare ansluter. De felaktiga svaren beskriver rimliga men obefintliga funktioner - Greenlight använder inte ML-routingalgoritmer, proprietär betalningsdelning utöver standardprotokoll för Lightning eller speciella hubbanslutningar för prioriterad routing.

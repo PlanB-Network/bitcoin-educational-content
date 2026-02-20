@@ -1,5 +1,6 @@
 ---
 term: BIP0123
+definition: Klassificering av BIPer i 4 kategorier Consensus, Peer Services, API/RPC och Applications.
 ---
 
 Etablerar en ny standardiserad process för klassificering av Bitcoin förbättringsförslag. BIP:er måste nu klassificeras i 4 kategorier:

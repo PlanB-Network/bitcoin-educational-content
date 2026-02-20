@@ -1,5 +1,6 @@
 ---
-term: 共享代幣
+term: Sharedcoin
+definition: 由 Blockchain.info 於 2013 年推出的舊比特幣混幣服務，現已停止運行。
 ---
 
 Bitcoin 混合服務於 2013 年由 Blockchain.info 推出，但目前已停止運作。該服務使用類似於 Coinjoins 的混合技術，將用戶的交易與其他人的交易結合，為用戶提供了一種在 Bitcoin 上提高隱私的方式。SharedCoin 提供了一種無需信任協調者的隱私形式，因為在整個過程中，用戶的錢幣仍然在他們的控制之下。與當時的集中式混合服務不同，比特幣不會被中間人盜取。SharedCoin 隨後在 2014 年初夏面臨了一些問題，導致部分混幣被去匿名化。

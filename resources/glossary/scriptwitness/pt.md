@@ -1,6 +1,7 @@
 ---
-term: TESTEMUNHA DE ESCRITA
+term: Scriptwitness
 
+definition: Elemento SegWit que contém as assinaturas e chaves públicas para desbloquear bitcoins.
 ---
 Um elemento nas entradas de transações SegWit que contém as assinaturas e chaves públicas necessárias para desbloquear os bitcoins enviados na transação. Semelhante ao `scriptSig` das transacções Legacy, o `scriptWitness` não é, no entanto, colocado no mesmo local. De facto, é esta parte, referida como a "testemunha" (`*witness*` em inglês), que é movida para uma base de dados separada de forma a resolver o problema da maleabilidade da transação. Cada entrada SegWit tem o seu próprio `scriptWitness`, e todos os elementos `scriptWitness` juntos formam o campo `Witness` da transação.
 

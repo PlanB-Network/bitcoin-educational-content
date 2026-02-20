@@ -1,0 +1,10 @@
+question: Charlie Lee tarafından Ekim 2011'de yaratılan kripto para birimi Litecoin'in pazarlama konuşması neydi?
+answer: Bitcoin altın için neyse gümüş için de o olsun
+wrong_answers:
+  - Ruhani bir para birimi yaratmak
+  - Çöktüğünde Bitcoin'i takip eden
+  - Özgür yazılım dünyasının finansmanı
+explanation: |
+ Litecoin, Bitcoin'den hem daha hızlı (blok süresi 10 dakika yerine 2 dakika 30) hem de daha az kıttı (84 yerine 21 milyon birim), dolayısıyla değerli
+ metal benzetmesi. Bu karşılaştırmayı kripto para biriminin ilk açıklamasına dahil eden Charlie Lee'nin kendisiydi.
+reviewed: true

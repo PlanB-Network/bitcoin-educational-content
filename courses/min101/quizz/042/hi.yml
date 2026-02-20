@@ -1,0 +1,9 @@
+question: ASIC का क्या अर्थ है?
+answer: Application-Specific Integrated Circuits
+wrong_answers:
+  - Advanced Secure Integrated Circuit
+  - Automated Silicon Integrated Circuit
+  - Application-Shared Integrated Circuit
+explanation: |
+  ASIC एक चिप है जिसे एक ही कार्य के लिए डिज़ाइन किया गया है। इसलिए यह Application-Specific Integrated Circuits है।
+reviewed: false

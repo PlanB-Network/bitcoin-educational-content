@@ -1,0 +1,8 @@
+question: Mikä erottaa liberaalin yhteiskunnan edut primitiivisten yhteiskuntien eduista Bastiat'n teoksessa "Les Harmonies économiques" esittämän analyysin mukaan?
+answer: Liberaaleissa yhteiskunnissa intressit ovat sopusoinnussa vapaaehtoisen vaihdon kautta, jolloin molemmat osapuolet hyötyvät, toisin kuin primitiivisissä yhteiskunnissa, joissa intressit olivat aidosti vastakkaisia rajallisista resursseista käytävän nollasummakilpailun vuoksi
+wrong_answers:
+  - Liberaalit yhteiskunnat luovat monimutkaisempia luokkien välisiä vastakkainasetteluja, kun taas primitiivisissä yhteiskunnissa oli yksinkertaisempia mutta suorempia konflikteja välittömistä selviytymistarpeista
+  - Liberaalit yhteiskunnat tukahduttavat luonnolliset kilpailuvaistot sääntelyllä, kun taas primitiiviset yhteiskunnat sallivat ristiriitaisten etujen vapaan ilmaisun suoran vastakkainasettelun kautta
+  - Liberaalit yhteiskunnat muuttavat vastakkaiset intressit yhteistyöhön perustuviksi hallitusten väliintulon avulla, kun taas primitiivisissä yhteiskunnissa ei ollut institutionaalisia mekanismeja konfliktien ratkaisemiseksi
+explanation: |
+  Bastiat väittää, että vapaaehtoinen vaihto liberaalissa yhteiskunnassa luo molemminpuolista hyötyä, jolloin edut ovat pikemminkin sopusoinnussa kuin ristiriidassa. Hän asettaa tämän vastakohdaksi alkukantaiset yhteiskunnat, joissa aito niukkuus (kuten kahden heimon kilpaileminen samasta metsästysmaasta) loi todellisia vastakkainasetteluja. Väärät vastaukset vääristelevät hänen teoriaansa viittaamalla luokkakonfliktiin, sääntelyn tukahduttamiseen tai hallituksen väliintuloon keskeisinä tekijöinä, vaikka Bastiat korostaa, että harmonia syntyy luonnollisesti vapaaehtoisista markkinasuhteista ilman pakkoa.

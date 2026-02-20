@@ -1,0 +1,8 @@
+question: What is the main difference between the Hayekian conception of price and the traditional mainstream economic approach?
+answer: Hayek sees price as an information signal that coordinates individual actions, while the traditional approach sees it as a simple mathematical equilibrium result
+wrong_answers:
+  - "Hayek believes that prices must be set by the state to be effective, in contrast to the traditional free-market approach."
+  - "The traditional approach emphasizes the informational function of prices, whereas Hayek focuses solely on their mathematical aspect."
+  - "Hayek proposes that prices should be determined by central planning, while mainstream economics favors free competition"
+explanation: |
+  Hayek's conceptual revolution lies in his vision of price as a vector of information and a mechanism of spontaneous coordination, going beyond the traditional mathematical vision. Contrary to other proposals that incorrectly invert positions or falsely attribute to Hayek a preference for state intervention, his theory rightly advocates the spontaneous, informational nature of the price system in a free market.

@@ -1,0 +1,8 @@
+question: According to the Austrian school of thought, what happens naturally in a sound-money economy when interest rates are set artificially low?
+answer: The shortage of savings is reflected in the reduction of available capital, leading to a natural rise in rates that restores equilibrium
+wrong_answers:
+  - "Savings increase automatically to compensate for low rates and maintain capital market equilibrium"
+  - Entrepreneurs cut back on investments in stages far removed from consumption to preserve capital
+  - "Collective time preference spontaneously adjusts towards a stronger valuation of the future compared to the present."
+explanation: |
+  In an economy with sound money, artificial manipulation of interest rates is impossible, as the market automatically corrects imbalances. When interest rates are set too low, this creates an excessive demand for capital that does not correspond to the real savings available. In practice, this shortage of savings translates into a reduction in available capital, which naturally pushes rates back up until the balance between capital supply and demand is restored. The other answers describe mechanisms that do not correspond to the natural functioning of the capital market according to Austrian theory.

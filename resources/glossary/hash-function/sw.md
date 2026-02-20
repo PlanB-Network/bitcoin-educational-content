@@ -1,5 +1,6 @@
 ---
-term: KAZI YA Hash
+term: Kazi ya hashi
+definition: Kazi ya hisabati inayozalisha pato la saizi maalum kutoka kwa pembejeo ya saizi inayobadilika.
 ---
 
 Chaguo za kukokotoa za hisabati ambazo huchukua ingizo la ukubwa tofauti (unaoitwa ujumbe) na kutoa towe la saizi isiyobadilika (inayoitwa Hash, hashing, digest au alama ya vidole). Vitendaji vya Hash vinatumika sana katika kriptografia. Zinaonyesha sifa mahususi zinazozifanya zinafaa kutumika katika miktadha salama:
@@ -19,4 +20,3 @@ Katika muktadha wa Bitcoin, chaguo za kukokotoa za Hash hutumiwa kwa madhumuni k
 - `HASH160`, ambayo inaelezea matumizi mfululizo ya `SHA256` na `RIPEMD160`. `HASH160` hutumika katika mchakato wa kuzalisha anwani za kupokea (isipokuwa P2PK na P2TR) na katika kukokotoa alama za vidole za ufunguo wa mzazi kwa funguo zilizopanuliwa.
 
 
-> ► *Kwa Kiingereza, inarejelewa kama "tendakazi ya Hash".*

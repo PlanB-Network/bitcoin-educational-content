@@ -1,0 +1,9 @@
+question: 區塊頭中 nonce 的大小是多少？
+answer: 32 位元 (bits)
+wrong_answers:
+  - 128 位元
+  - 64 位元
+  - 256 位元
+explanation: |
+  nonce 是區塊頭中的一個 32 位元欄位。
+reviewed: false

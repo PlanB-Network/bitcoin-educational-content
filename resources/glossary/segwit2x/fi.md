@@ -1,6 +1,7 @@
 ---
-term: SEGWIT2X
+term: Segwit2x
 
+definition: Kiistanalainen hard fork -yritys lohkokoon tuplaamiseksi, peruttiin marraskuussa 2017.
 ---
 Kiistelty yritys hard fork, jonka tavoitteena on kaksinkertaistaa Bitcoinin lohkokokorajoitus ja integroida SegWit. SegWit2x esiteltiin New Yorkin sopimuksen aikana vuonna 2017, jolloin yli 50 ekosysteemiin kuuluvaa yritystä kokoontui luottamuksellisesti ja pyrki löytämään ratkaisun järjestelmän skaalaamiseen. SegWit2x:llä pyrittiin lisäämään Bitcoinin transaktiokapasiteettia nostamalla lohkojen enimmäiskoko 2 megatavuun alkuperäisestä 1 megatavusta. Hard fork oli ajoitettu lohkolle 494 784, joka oli marraskuun 2017 aikana.
 

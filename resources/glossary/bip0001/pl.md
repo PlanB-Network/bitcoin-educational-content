@@ -1,5 +1,6 @@
 ---
 term: BIP0001
+definition: Pierwszy dokument definiujący proces proponowania ulepszeń dla Bitcoina, ustanawiający kategorie Standards Track, Informational i Process.
 ---
 
 Dokument definiujący proces opracowywania i wdrażania proponowanych ulepszeń protokołu Bitcoin. Napisany przez Amira Taaki w sierpniu 2011 roku, ustanawia standardową metodologię proponowania i dokumentowania potencjalnych modyfikacji. Propozycje BIP są następnie klasyfikowane w trzech kategoriach:

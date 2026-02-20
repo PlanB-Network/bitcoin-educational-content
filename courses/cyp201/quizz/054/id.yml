@@ -5,5 +5,5 @@ wrong_answers:
   - Menghasilkan UTXO dompet
   - Melindungi akses dompet dengan identifikasi wajah
 explanation: |
-  Passphrase berfungsi sebagai faktor keamanan kedua, mengubah benih derivasi kunci untuk mencegah akses ke dompet jika frasa mnemonik dikompromikan.
-ditinjau: false
+  Passphrase berfungsi sebagai faktor keamanan kedua, mengubah seed derivasi kunci untuk mencegah akses ke dompet jika frasa mnemonik dikompromikan.
+reviewed: true

@@ -76,7 +76,7 @@ description: درک و استفاده از تراکنش‌های Stonewall در 
 
 
 
-[**-> درباره تراکنش‌های Stonewall x2 بیشتر بدانید**](https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
+[**-> درباره تراکنش‌های Stonewall x2 بیشتر بدانید**](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
 
 
 

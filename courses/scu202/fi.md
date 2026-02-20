@@ -156,8 +156,6 @@ Oletko valmis ottamaan tietoturvan täysin haltuun, vahvistamaan henkilökohtais
 
 
 
-**HUOM:** Jos kurssin aikana tulee vastaan tuntemattomia termejä, katso määritelmät [sanastosta](https://planb.academy/resources/glossary)
-
 
 
 ## SCU101:n olennainen yhteenveto
@@ -1242,7 +1240,7 @@ Parrot OS on myös johdettu Debianista. Se tarjoaa ympäristön pentestejä, hy�
 
 
 
-Tails on Debian-pohjainen, yksityisyyteen keskittyvä live-jakelu. Kaikki kulkee Tor-verkon kautta, eikä mitään tallenneta käyttäjäistuntojen välillä. Se on ihanteellinen jakelu arkaluonteiseen kertakäyttöön (journalismi, aktivismi, seed Bitcoin:n tuottaminen...).
+Tails on Debian-pohjainen, yksityisyyteen keskittyvä live-jakelu. Kaikki kulkee [Tor](https://planb.academy/resources/glossary/tor)-verkon kautta, eikä mitään tallenneta käyttäjäistuntojen välillä. Se on ihanteellinen jakelu arkaluonteiseen kertakäyttöön (journalismi, aktivismi, [seed](https://planb.academy/resources/glossary/seed) Bitcoin:n tuottaminen...).
 
 
 
@@ -4053,11 +4051,11 @@ Laillinen kehittäjä julkaisee yleensä alkuperäisen tiedoston Hash:n virallis
 
 
 
-Toinen työkalu on digitaalinen allekirjoitus. Sillä todennetaan asennusohjelmiston aitous. Kehittäjä allekirjoittaa Hash:n sisältävän tiedoston yksityisellä avaimellaan, ja voit tarkistaa tämän allekirjoituksen käyttämällä vastaavaa julkista avainta. Tämä todistaa, että tiedoston on julkaissut oikea henkilö.
+Toinen työkalu on [digitaalinen allekirjoitus](https://planb.academy/resources/glossary/digital-signature). Sillä todennetaan asennusohjelmiston aitous. Kehittäjä allekirjoittaa Hash:n sisältävän tiedoston yksityisellä avaimellaan, ja voit tarkistaa tämän allekirjoituksen käyttämällä vastaavaa julkista avainta. Tämä todistaa, että tiedoston on julkaissut oikea henkilö.
 
 
 
-Tämä järjestelmä perustuu epäsymmetriseen salaukseen ja työkaluihin, kuten GnuPG (komentorivi) tai Kleopatra (Interface graafinen Windowsille). Nämä työkalut on konfiguroitava oikein, ja kehittäjän julkinen avain on varmennettava suojatun kanavan kautta (virallinen verkkosivusto, sormenjälki Twitterissä...). Katsotaanpa käytännön asioita.
+Tämä järjestelmä perustuu epäsymmetriseen salaukseen ja työkaluihin, kuten GnuPG (komentorivi) tai Kleopatra (Interface graafinen Windowsille). Nämä työkalut on konfiguroitava oikein, ja kehittäjän [julkinen avain](https://planb.academy/resources/glossary/public-key) on varmennettava suojatun kanavan kautta (virallinen verkkosivusto, sormenjälki Twitterissä...). Katsotaanpa käytännön asioita.
 
 
 
@@ -5556,7 +5554,7 @@ Tämän luvun tavoitteena on auttaa sinua valitsemaan tarpeisiisi parhaiten sopi
 
 
 
-[Chrome] (https://www.google.com/chrome/) hyötyy nopeasta ja jatkuvasta kehityksestä, jota johtaa pääasiassa Google. Se on tunnettu suuresta suorituskyvystään, nopeudestaan, laajasta yhteensopivuudestaan nykyaikaisten verkkostandardien kanssa ja hyvästä integroinnista Googlen palveluihin.
+[Chrome](https://www.google.com/chrome/) hyötyy nopeasta ja jatkuvasta kehityksestä, jota johtaa pääasiassa Google. Se on tunnettu suuresta suorituskyvystään, nopeudestaan, laajasta yhteensopivuudestaan nykyaikaisten verkkostandardien kanssa ja hyvästä integroinnista Googlen palveluihin.
 
 
 
@@ -5588,7 +5586,7 @@ https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6dd
 
 
 
-[Brave] (https://brave.com/) perustuu Blinkiin (kuten Chrome), mutta eroaa siitä radikaalisti yksityisyyden suojaan keskittyvän lähestymistapansa osalta. Brave estää oletusarvoisesti mainokset ja jäljittäjät, integroi *HTTPS Everywhere*:n ja tarjoaa kehittyneen suojan sormenjälkiä ja kolmannen osapuolen skriptejä vastaan. Sen liiketoimintamalli perustuu osittain integroituun yksityisyyden suojaa edistävään mainontaan, mutta se on valinnainen ja helposti pois käytöstä.
+[Brave](https://brave.com/) perustuu Blinkiin (kuten Chrome), mutta eroaa siitä radikaalisti yksityisyyden suojaan keskittyvän lähestymistapansa osalta. Brave estää oletusarvoisesti mainokset ja jäljittäjät, integroi *HTTPS Everywhere*:n ja tarjoaa kehittyneen suojan sormenjälkiä ja kolmannen osapuolen skriptejä vastaan. Sen liiketoimintamalli perustuu osittain integroituun yksityisyyden suojaa edistävään mainontaan, mutta se on valinnainen ja helposti pois käytöstä.
 
 
 
@@ -5684,7 +5682,7 @@ Blink-pohjaisiin selaimiin kuuluu myös joukko marginaalisempia selaimia, jotka 
 
 
 
-The Browser Companyn kehittämä [Arc] (https://arc.net/) tarjoaa käyttäjälle täysin erilaisen lähestymistavan Interface. Se korvaa perinteiset välilehdet "*tilojen*" järjestelmällä, yhtenäisellä sivupalkilla ja integroi luovia työkaluja, kuten kommentoitavia kuvakaappauksia ja yksinkertaisen sivuston editorin. Painopiste on käytettävyydessä, visuaalisessa mukauttamisessa ja käytön sujuvuudessa, minkä vuoksi tämä on joidenkin ammattilaisten suosima työkalu.
+The Browser Companyn kehittämä [Arc](https://arc.net/) tarjoaa käyttäjälle täysin erilaisen lähestymistavan Interface. Se korvaa perinteiset välilehdet "*tilojen*" järjestelmällä, yhtenäisellä sivupalkilla ja integroi luovia työkaluja, kuten kommentoitavia kuvakaappauksia ja yksinkertaisen sivuston editorin. Painopiste on käytettävyydessä, visuaalisessa mukauttamisessa ja käytön sujuvuudessa, minkä vuoksi tämä on joidenkin ammattilaisten suosima työkalu.
 
 
 
@@ -5702,7 +5700,7 @@ Teknisesti Arc perustuu Chromiumiin, mutta se on edelleen oma ohjelmisto. Se ei 
 
 
 
-[Polypane] (https://polypane.app/) on suunnattu erityisesti front-end-kehittäjille ja UX-suunnittelijoille. Sen päätehtävänä on näyttää samanaikaisesti useita saman sivuston instansseja eri näytön resoluutioilla, jotta voidaan testata Interface:n *reagoivaa* käyttäytymistä reaaliajassa. Se tarjoaa myös esteettömyystyökaluja, HTML/CSS-validointilaitteita, värisokeussimulaattoreita ja suorituskykymittareita.
+[Polypane](https://polypane.app/) on suunnattu erityisesti front-end-kehittäjille ja UX-suunnittelijoille. Sen päätehtävänä on näyttää samanaikaisesti useita saman sivuston instansseja eri näytön resoluutioilla, jotta voidaan testata Interface:n *reagoivaa* käyttäytymistä reaaliajassa. Se tarjoaa myös esteettömyystyökaluja, HTML/CSS-validointilaitteita, värisokeussimulaattoreita ja suorituskykymittareita.
 
 
 
@@ -5722,7 +5720,7 @@ Polypane on Chromiumiin perustuva, maksullinen oma selain, joka sopii erinomaise
 
 
 
-[Firefox] (https://www.mozilla.org/firefox/new/) on tunnetuin selain, joka käyttää Gecko-renderöintimoottoria. Mozilla Foundationin kehittämä Firefox erottuu selkeällä tietosuojakäytännöllään: parannettu jäljityssuojaus, edistyneet vaihtoehdot kolmansien osapuolten evästeiden estämiseen, erilliset välilehtipakkaukset ja turvallisuuteen keskittyvien laajennusten integrointi.
+[Firefox](https://www.mozilla.org/firefox/new/) on tunnetuin selain, joka käyttää Gecko-renderöintimoottoria. Mozilla Foundationin kehittämä Firefox erottuu selkeällä tietosuojakäytännöllään: parannettu jäljityssuojaus, edistyneet vaihtoehdot kolmansien osapuolten evästeiden estämiseen, erilliset välilehtipakkaukset ja turvallisuuteen keskittyvien laajennusten integrointi.
 
 
 
@@ -5799,7 +5797,7 @@ https://planb.academy/tutorials/computer-security/communication/librewolf-1783e9
 
 #### Zen-selain
 
-[Zen Browser] (https://zen-browser.app/) on ilmainen ja avoimen lähdekoodin selain, joka perustuu Firefoxiin (Gecko-moottori) ja julkaistiin vuonna 2024. Sen tavoitteena on tarjota moderni, tyylikäs, hyvin muokattavissa oleva ja ennen kaikkea yksityisyyden suojaan keskittyvä selauskokemus ilman riippuvuutta Chromiumista.
+[Zen Browser](https://zen-browser.app/) on ilmainen ja avoimen lähdekoodin selain, joka perustuu Firefoxiin (Gecko-moottori) ja julkaistiin vuonna 2024. Sen tavoitteena on tarjota moderni, tyylikäs, hyvin muokattavissa oleva ja ennen kaikkea yksityisyyden suojaan keskittyvä selauskokemus ilman riippuvuutta Chromiumista.
 
 Zen erottuu edukseen radikaalin Interface- ja käytettävyyslähestymistapansa vuoksi, joka on pitkälti Arc-selaimen innoittama, mutta vapautuu siitä avoimen lähdekoodin ja Gecko-moottorin ansiosta. Se sisältää :
 
@@ -6423,7 +6421,7 @@ Tämän seurannan rajoittamiseksi suosittelemme valitsemaan yksityisyyttä kunni
 
 - [Aloitussivu](https://www.startpage.com/);
 - [Kagi Search](https://kagi.com/);
-- [Qwant] (https://www.qwant.com/);
+- [Qwant](https://www.qwant.com/);
 - [Mojeek](https://www.mojeek.com/);
 - [SearXNG](https://docs.searxng.org/) (joka voi olla itse isännöity).
 
@@ -6605,7 +6603,7 @@ Jotkin valmistajat kieltävät tai vaikeuttavat tätä toimenpidettä tai jopa p
 #### GrapheneOS
 
 
-[GrapheneOS] (https://grapheneos.org/) on parannettu AOSP ROM, joka on suunniteltu tarjoamaan korkeamman turvallisuustason kuin tavallinen Android. Sen on kehittänyt riippumaton tiimi, ja asiantuntijat ovat tarkastaneet sen. Graphene toteuttaa kehittyneitä turvamekanismeja, joihin kuuluu mm:
+[GrapheneOS](https://grapheneos.org/) on parannettu AOSP ROM, joka on suunniteltu tarjoamaan korkeamman turvallisuustason kuin tavallinen Android. Sen on kehittänyt riippumaton tiimi, ja asiantuntijat ovat tarkastaneet sen. Graphene toteuttaa kehittyneitä turvamekanismeja, joihin kuuluu mm:
 
 
 
@@ -6631,7 +6629,7 @@ https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08
 #### CalyxOS
 
 
-[CalyxOS] (https://calyxos.org/) on välijärjestelmä, jonka tavoitteena on sovittaa yhteen yksityisyys, turvallisuus ja yhteensopivuus jokapäiväisen käytön kanssa. Se perustuu myös AOSP:hen, mutta siihen on tehty tietoturvaparannuksia. Sen erityispiirre on MicroG:n, Googlen palveluiden ilmaisen uudelleentoteutuksen, valinnainen integrointi. Tämä mahdollistaa useimpien Googlen palveluista riippuvaisten Android-sovellusten käyttämisen ilman virallisia, omia binäärejä.
+[CalyxOS](https://calyxos.org/) on välijärjestelmä, jonka tavoitteena on sovittaa yhteen yksityisyys, turvallisuus ja yhteensopivuus jokapäiväisen käytön kanssa. Se perustuu myös AOSP:hen, mutta siihen on tehty tietoturvaparannuksia. Sen erityispiirre on MicroG:n, Googlen palveluiden ilmaisen uudelleentoteutuksen, valinnainen integrointi. Tämä mahdollistaa useimpien Googlen palveluista riippuvaisten Android-sovellusten käyttämisen ilman virallisia, omia binäärejä.
 
 
 CalyxOS tarjoaa myös esiasennettuja sovelluksia (Signal, F-Droid, Aurora Store, integroitu VPN...) ja siistin Interface:n. Se on helppo asentaa graafisen työkalun kautta Pixel-käyttäjille. Calyx on pääasiassa yhteensopiva Googlen Pixeleiden kanssa, mutta myös joidenkin Fairphonen ja Motorolan mallien kanssa.
@@ -7310,7 +7308,7 @@ Useimmat klassiset karttasovellukset, kuten Google Maps, Waze tai Citymapper, ke
 - [Orgaaniset kartat](https://organicmaps.app/)
 
 
-Organic Maps on ilmainen offline-navigointisovellus. Se perustuu [OpenStreetMapin] (https://www.openstreetmap.org) tietoihin, joka on avoin, yhteistoiminnallinen tietokanta. Lataat kartat alueilta, joista olet kiinnostunut, ja navigoit sitten ilman verkkoa.
+Organic Maps on ilmainen offline-navigointisovellus. Se perustuu [OpenStreetMapin](https://www.openstreetmap.org) tietoihin, joka on avoin, yhteistoiminnallinen tietokanta. Lataat kartat alueilta, joista olet kiinnostunut, ja navigoit sitten ilman verkkoa.
 
 
 Se ei sisällä mainontaa, seurantaa tai tiedonkeruuta. Sovellus soveltuu erityisesti jalkaisin, pyörällä tai autolla tehtäviin matkoihin, sillä Interface on yksinkertainen, nopea ja häiriötön.
@@ -8238,7 +8236,7 @@ Näitä portteja käytetään myös Bitcoin:n tai Torin kaltaisissa järjestelmi
 
 - Porttia "8333" käytetään P2P-yhteyksiin Bitcoin:ssa Mainnet:ssa
 - Porttia "18333" käytetään P2P-yhteyksiin Bitcoin:ssä Testnet:ssa
-- Porttia "8332" käytetään Bitcoin-solmun Interface RPC:ssa
+- Porttia "8332" käytetään Bitcoin-[solmun](https://planb.academy/resources/glossary/node) Interface RPC:ssa
 - Torin SOCKS5-välityspalvelin käyttää porttia `9050`
 - Tor-selain käyttää porttia `9150`
 

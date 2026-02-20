@@ -9,11 +9,11 @@ description: Un nœud Bitcoin open-source orienté confidentialité et autonomie
 
 ---
 
-Dojo est un logiciel libre conçu pour servir de serveur backend à certains portefeuilles Bitcoin axés sur la confidentialité, en s'appuyant sur un nœud Bitcoin Core. Historiquement, il a été développé pour fonctionner avec Samourai Wallet, un portefeuille mobile qui proposait des fonctionnalités avancées de confidentialité comme Whirlpool (coinjoin), Ricochet, Stonewall, PayNym... Samourai Wallet est aujourd’hui à l’arrêt suite à l'arrestation de ses développeurs, mais son successeur communautaire, **Ashigaru Wallet**, a pris le relais et continue de s’appuyer sur Dojo pour offrir une expérience complète aux utilisateurs souhaitant garder le contrôle de leurs données lors de leur utilisation de Bitcoin.
+Dojo est un logiciel libre conçu pour servir de serveur backend à certains portefeuilles Bitcoin axés sur la confidentialité, en s'appuyant sur un nœud Bitcoin Core. Historiquement, il a été initialement développé pour fonctionner avec Samourai Wallet, un portefeuille mobile qui proposait des fonctionnalités avancées de confidentialité telles que Whirlpool (coinjoin), Ricochet, Stonewall, PayNym... Samourai Wallet est aujourd’hui à l’arrêt suite à l'arrestation de ses développeurs, mais son successeur communautaire, **Ashigaru Wallet**, prend le relais et continue de s’appuyer sur Dojo pour offrir une expérience complète aux utilisateurs souhaitant garder le contrôle de leurs données lors de leur utilisation de Bitcoin.
 
 ![Image](assets/fr/01.webp)
 
-Concrètement, Dojo agit comme une passerelle entre votre portefeuille et le réseau Bitcoin. Sans Dojo, un portefeuille mobile léger doit interroger des serveurs tiers pour obtenir l’état de vos UTXOs et votre historique ou pour diffuser vos transactions. Cela implique une dépendance et une fuite de données sensibles vers un serveur tiers (adresses utilisées, montants, fréquence des paiements...). Avec Dojo, vous hébergez vous-même ce serveur, directement connecté à votre propre nœud Bitcoin. Ainsi, toutes les requêtes de votre portefeuille passent par une infrastructure que vous contrôlez, sans intermédiaire, ce qui renforce votre confidentialité et votre souveraineté.
+Concrètement, Dojo agit comme une passerelle entre votre portefeuille et le réseau Bitcoin. Sans Dojo, un portefeuille mobile léger doit interroger des serveurs tiers pour connaître l’état de vos UTXOs, votre historique ou pour diffuser vos transactions. Cela crée une dépendance et une fuite de données sensibles vers un serveur tiers (adresses utilisées, montants, fréquence des paiements...). Avec Dojo, vous hébergez vous-même ce serveur, directement connecté à votre nœud Bitcoin. Toutes les requêtes de votre portefeuille passent alors par une infrastructure que vous contrôlez, sans intermédiaire, ce qui renforce votre confidentialité et votre souveraineté.
 
 ## Prérequis pour installer un Dojo
 
@@ -30,7 +30,7 @@ Chaque option présente des avantages et des inconvénients :
 - Le prix : un mini-PC ou un ordinateur de bureau reconditionné sera souvent moins cher qu’un portable neuf.
 - L’encombrement : un mini-PC prend moins de place.
 - L’alimentation électrique : un portable a l’avantage d’avoir une batterie, ce qui lui évite de s’éteindre en cas de micro-coupure, contrairement à un mini-PC.
-- Les possibilités d’évolution : les barbones permettent généralement d’ajouter de la mémoire ou de remplacer facilement un disque dur.
+- Les possibilités d’évolution : les barbones (ordinateurs de bureau) permettent généralement d’ajouter de la mémoire ou de remplacer facilement un disque dur.
 
 Pour plus d'information sur le choix de votre matériel, je vous conseille de suivre cette formation :
 
@@ -38,7 +38,7 @@ https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 ### Matériel recommandé
 
-Il n’est pas nécessaire d’acheter une machine neuve. Un ordinateur reconditionné avec les caractéristiques ci-dessous donnera de bien meilleures performances que les cartes électroniques monocartes (comme le Raspberry Pi).
+Il n’est pas nécessaire d’acheter une ordinateur neuf. Un ordinateur reconditionné présentant les caractéristiques ci-dessous donnera de bien meilleures performances qu'une cartes électronique monocarte (comme le Raspberry Pi).
 
 **Spécifications minimales :**
 - Architecture x86-64 (processeur 64 bits).
@@ -56,15 +56,15 @@ Il n’est pas nécessaire d’acheter une machine neuve. Un ordinateur recondit
 - Intel NUC
 - etc.
 
-Il est tout à fait possible de faire tourner un serveur Dojo sur d’autres configurations matérielles. Cependant, pour obtenir les meilleures performances et limiter les problèmes, il est conseillé de respecter les recommandations ci-dessus.
+Il est tout à fait possible d'exécuter un serveur Dojo sur d’autres configurations matérielles. Cependant, pour garantir de meilleures performances et limiter les problèmes, il est conseillé de suivre les recommandations ci-dessus.
 
-Dans ce tutoriel, je vais utiliser un vieux ThinkCentre Tiny avec un processeur Intel Pentium Dual-Core G4400T, 8 Go de RAM et un SSD de 2 To.
+Dans ce tutoriel, nous utiliserons un ancien ThinkCentre Tiny équipé d'un processeur Intel Pentium Dual-Core G4400T, 8 Go de RAM et un SSD de 2 To.
 
 ## 1 - Installer Ubuntu
 
 *Si vous souhaitez installer Dojo sur un appareil déjà configuré, vous pouvez ignorer cette étape et passer directement à l’étape 2.*
 
-Après avoir préparé le matériel choisi, il faut maintenant y installer un système d’exploitation. Vous pouvez utiliser pratiquement n’importe quelle distribution Debian, mais je vous recommande d’opter pour une version LTS d’Ubuntu, car c'est parfaitement adapté à notre usage. Voici les étapes à suivre :  
+Une fois le matériel prêt, il faut maintenant y installer un système d’exploitation. Vous pouvez utiliser presque n’importe quelle distribution Debian, mais il est recommandé de choisir une version LTS d’Ubuntu, car c'est parfaitement adapté à notre usage. Voici les étapes à suivre :  
 
 ### 1.1. Créer la clé USB amorçable
 
@@ -72,7 +72,7 @@ Depuis un ordinateur déjà fonctionnel (votre machine habituelle), télécharge
 
 ![Image](assets/fr/02.webp)
 
-Insérez une clé USB d’au moins 8 Go dans cet ordinateur, puis créez une clé amorçable à l’aide d’un logiciel comme [Balena Etcher](https://etcher.balena.io/). Sélectionnez l’image ISO d’Ubuntu que vous venez de télécharger, choisissez la clé USB comme périphérique cible, puis lancez la création (ayez patience, cela peut prendre plusieurs minutes).
+Insérez une clé USB d’au moins 8 Go dans cet ordinateur, puis créez une clé amorçable avec un logiciel tel que [Balena Etcher](https://etcher.balena.io/). Sélectionnez l’image ISO d’Ubuntu que vous venez de télécharger, choisissez la clé USB comme périphérique cible, puis lancez la création (ayez patience, cela peut prendre plusieurs minutes).
 
 ![Image](assets/fr/03.webp)
 

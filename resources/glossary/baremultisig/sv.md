@@ -1,5 +1,6 @@
 ---
-term: BARE-Multisig
+term: Bare-multisig
+definition: Standardscript (P2MS) som gör det möjligt att låsa bitcoins med flera publika nycklar, vilket kräver ett minsta antal signaturer för att spendera dem.
 ---
 
 Standardskriptmodell P2MS som används för att fastställa utgiftsvillkor på en UTXO. Den gör det möjligt att låsa bitcoins med flera offentliga nycklar. För att spendera dessa bitcoins måste en signatur med ett fördefinierat antal associerade privata nycklar tillhandahållas. Till exempel har en `2/3` P2MS `3` publika nycklar med `3` associerade hemliga privata nycklar. För att spendera de bitcoins som är låsta med detta P2MS-skript måste en signatur med minst `2` av de `3` privata nycklarna göras. Detta är ett tröskelsäkerhetssystem. Detta skript uppfanns 2011 av Gavin Andresen när han just hade tagit över underhållet av den huvudsakliga Bitcoin-klienten. Idag används P2MS endast marginellt av vissa applikationer. De allra flesta moderna multisignaturer använder andra skriptmodeller som P2SH eller P2WSH. Jämfört med dessa är P2MS extremt trivialt. De publika nycklar som den består av avslöjas när transaktionen tas emot. Att använda en P2MS är också dyrare än andra multisignaturskript.

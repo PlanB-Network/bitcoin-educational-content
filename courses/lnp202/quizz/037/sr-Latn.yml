@@ -1,0 +1,9 @@
+question: Koji je glavni prioritet Lightning trgovca?
+answer: Sticanje dolazne likvidnosti
+wrong_answers:
+  - Sticanje odlazne likvidnosti
+  - Uštede na troškovima rutiranja
+  - Sticanje dobrih LN+ recenzija
+explanation: |
+  Trgovac mora biti u mogućnosti da unovči bez greške, što zahteva dovoljnu dolaznu likvidnost.
+reviewed: false

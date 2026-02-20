@@ -1,5 +1,6 @@
 ---
 term: ラベリング
+definition: 資金管理とプライバシーを容易にするために、UTXOに注釈を割り当てる習慣。
 ---
 ビットコインウォレットの特定の UTXO に注釈またはラベルを割り当てること。例えば、BisqでCharlesとP2Pで購入したUTXOがある場合、「`Non-KYC Bisq Charles`」とラベルを付けることがある。
 

@@ -1,5 +1,6 @@
 ---
 term: URI
+definition: Standardized format for encoding a Bitcoin address and transaction parameters to facilitate payments.
 ---
 
 Acronym for "*Uniform Resource Identifier*". It is a standardized string format used to identify a resource on the Internet. A URI can be either a URL (*Uniform Resource Locator*), which provides a means to access a resource by indicating its location on a computer network, or a URN (*Uniform Resource Name*), which names the resource without specifying how to locate it. URIs are important in the functioning of the *World Wide Web*, as they enable access to resources such as web pages, documents, and services.

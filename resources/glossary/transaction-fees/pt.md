@@ -1,6 +1,7 @@
 ---
-term: TAXAS DE TRANSACÇÃO
+term: Taxas de transação
 
+definition: Montante que recompensa os mineradores por incluírem uma transação num bloco, calculado como a diferença entre inputs e outputs.
 ---
 As taxas de transação representam um montante que visa compensar os mineiros pela sua participação no mecanismo de prova de trabalho. Estas taxas incentivam os mineiros a incluir transacções nos blocos que criam. Resultam da diferença entre o montante total de entradas e o montante total de saídas de uma transação:
 
@@ -22,4 +23,3 @@ Neste exemplo específico, foi uma transação iniciada pelo diretor do pool de 
 
 É igualmente necessário ter em conta os limites da purga. Durante os períodos de elevado congestionamento, os mempools dos nós purgam as suas transacções pendentes abaixo de um determinado limiar, a fim de respeitar o seu limite de RAM atribuído. Este limite é escolhido livremente pelo usuário, mas muitos deixam o valor padrão do Bitcoin Core em 300 MB. Ele pode ser modificado no arquivo `bitcoin.conf` com o parâmetro `maxmempool`.
 
-> ► *Em inglês, designa-se por "transaction fees"*

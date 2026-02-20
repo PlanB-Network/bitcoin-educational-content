@@ -75,13 +75,13 @@ RGB hat seinen eigenen Kaninchenbau innerhalb des Bitcoin-Kaninchenbaus. Währen
 - 4 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0020.md
 - 5 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0021.md
 
-# RGB-Node-Tutorial
+## RGB-Node-Tutorial
 
-## Einführung
+### Einführung
 
 In diesem Tutorial erklären wir, wie man RGB-Node verwendet, um einen fungiblen Token zu erstellen und wie man ihn überträgt. Dieses Dokument basiert auf der RGB-Node-Demo und unterscheidet sich darin, dass dieses Tutorial echte Testnet-Daten verwendet und dafür müssen wir unsere eigene teilweise signierte Bitcoin-Transaktion, PSBT genannt, erstellen.
 
-## Anforderungen
+### Anforderungen
 
 Die Verwendung einer Linux-Distribution wird empfohlen. Dieses Tutorial wurde mit Pop!/\_OS erstellt, das auf Ubuntu basiert, und Sie benötigen Folgendes:
 
@@ -219,7 +219,7 @@ $ rgbd -vvvv -b ~/.cargo/bin -d ./data0 -n testnet
 $ rgbd -vvvv -b ~/.cargo/bin -d ./data1 -n testnet
 ```
 
-## Ausgabe
+### Ausgabe
 
 Um ein Asset auszugeben, führen wir rgb0-cli mit den fungible issue-Unterbefehlen aus, dann die Argumente, das Ticker-Symbol USDT, den Namen "USD Tether" und in der Zuweisung verwenden wir den Ausgabebetrag und die issuance_utxo wie unten gezeigt:
 
@@ -266,7 +266,7 @@ $ rgb0-cli fungible list
   ticker: USDT
 ```
 
-## Generiere geblinde UTXO
+### Generiere geblinde UTXO
 
 Um die neuen USDT zu erhalten, muss rgb-node-1 eine geblinde UTXO generieren, die der receive_utxo entspricht, um das Asset zu halten.
 
@@ -279,7 +279,7 @@ Outpoint-Blinding-Geheimnis: 1679197189805229975
 
 Um Transfers im Zusammenhang mit dieser UTXO akzeptieren zu können, benötigen wir die ursprüngliche receive_utxo und den Blinding-Faktor.
 
-## Übertragung
+### Übertragung
 
 Um einen bestimmten Betrag des Assets an rgb-node-1 zu übertragen, müssen wir es an die geblinde UTXO senden. Rgb-node-0 muss eine Konsignation und eine Offenlegung erstellen und sie in eine Bitcoin-Transaktion einbinden. Dann benötigen wir eine PSBT, die wir ändern werden, um die Konsignation einzuschließen. Zusätzlich ermöglichen uns die Optionen -i und -a, einen Eingabe-Outpoint anzugeben, der den Ursprung des Assets darstellt, und eine Zuweisung, in der wir das Wechselgeld erhalten werden. Wir müssen es folgendermaßen angeben: @<change_utxo>.
 
@@ -291,7 +291,7 @@ Consignment data to share: `consignment1qxz4g7ec6da33llaxe97u9hx8p9wcgp2yv46ycud
 
 Dies wird drei neue Dateien schreiben: consignment, disclosure und das psbt einschließlich des Tweaks. Dieses psbt wird als Witness-Transaktion bezeichnet. Die Konsignation wird an rgb-node-1 gesendet.
 
-## Witness
+### Witness
 
 Die Witness-Transaktion sollte signiert und übertragen werden. Dafür müssen wir sie zurück in Base64 kodieren.
 
@@ -320,11 +320,11 @@ Jetzt abschließen und den Hex-Wert erhalten.
 }
 ```
 
-## Übertragen
+### Übertragen
 
 Übertragen Sie es mit dem Befehl "sendrawtransaction", um es in der Blockchain bestätigen zu lassen.
 
-## Akzeptieren
+### Akzeptieren
 
 Um einen eingehenden Transfer zu akzeptieren, muss rgb-node-1 die Konsignationsdatei von rgb-node-0 erhalten haben, die receive_utxo und den entsprechenden blinding_factor, die während der Verblindung der UTXO-Generierung generiert wurden.
 
@@ -440,7 +440,7 @@ $ rgb0-cli fungible list -l
         blinding: ddba9e0efdd614614420fa0b68ecd2d3376a05dd3d809b2ad1f5fe0f6ed75ea2
 ```
 
-## Schlussfolgerungen
+### Schlussfolgerungen
 
 Wir konnten eine fungible Vermögenswert erstellen und ihn von einer Transaktion in eine andere auf eine private Weise verschieben. Wenn wir die bestätigte Transaktion in einem Block Explorer überprüfen würden, würden wir nichts Unterschiedliches zu einer regulären Transaktion finden. Dies liegt daran, dass RGB Einwegverschlüsse verwendet, um die Transaktionen anzupassen. In diesem Beitrag gebe ich eine Einführung, wie RGB funktioniert.
 

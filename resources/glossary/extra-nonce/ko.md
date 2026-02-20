@@ -1,5 +1,6 @@
 ---
-term: EXTRA-Nonce
+term: Extra-nonce
+definition: 채굴 시 기존의 논스(nonce) 범위를 넘어 탐색 공간을 확장할 수 있게 해주는 코인베이스(coinbase) 내의 필드.
 ---
 
 각 블록의 헤더에서 직접 찾을 수 있는 기존 Nonce 외에도 난이도 목표보다 낮은 Hash을 얻기 위해 더 많은 가능성을 테스트할 수 있는 블록의 Coinbase Transaction의 '스크립트시그'에 사용되는 필드입니다.

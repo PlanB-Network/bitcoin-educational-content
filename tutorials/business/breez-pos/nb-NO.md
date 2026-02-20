@@ -15,7 +15,7 @@ Siden covid-19-pandemien har kontaktløse digitale betalinger blitt utbredt, sel
 
 
 
-Breez POS er en selvforvaringstjeneste som leveres av Breez wallet. Formålet med denne tjenesten er å gjøre det mulig for kjøpmenn å samle inn betalinger via Bitcoin, samtidig som de forblir i et enkelt grensesnitt, veldig likt de ulike Lightning-lommebøkene. Breez POS er tilgjengelig på nedlastingsplattformene [Google Play Store] (https://play.google.com/store/apps/details?id=com.breez.client) (Android) og [App Store] (https://apps.apple.com/app/breez-lightning-client-pos/id1463604142) (iOS).
+Breez POS er en selvforvaringstjeneste som leveres av Breez wallet. Formålet med denne tjenesten er å gjøre det mulig for kjøpmenn å samle inn betalinger via Bitcoin, samtidig som de forblir i et enkelt grensesnitt, veldig likt de ulike Lightning-lommebøkene. Breez POS er tilgjengelig på nedlastingsplattformene [Google Play Store](https://play.google.com/store/apps/details?id=com.breez.client) (Android) og [App Store](https://apps.apple.com/app/breez-lightning-client-pos/id1463604142) (iOS).
 
 
 

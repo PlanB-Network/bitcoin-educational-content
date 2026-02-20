@@ -65,7 +65,7 @@ Bimeze gute iyo amateka y’amahera asubiramwo imbere y’amaso yacu? Ube umucam
 ### Insobanuro z'ugutera imbere kw'ibiciro
 
 
-Inflation ni iciyumviro gikunda gutahurwa nabi kubera insobanuro n’insobanuro nyinshi gifise. Uko abantu babona ivy’ugutera imbere kw’ibiciro biratandukanye n’imigwi itandukanye, nk’abakoresha ama bitcoin n’abahinga mu vy’ubutunzi ba kera. Reka tubanze dusobanure insobanuro imbere yo kuganira ku bijanye n’ugutera imbere kw’ibiciro:
+[Inflation](https://planb.academy/resources/glossary/inflation) ni iciyumviro gikunda gutahurwa nabi kubera insobanuro n’insobanuro nyinshi gifise. Uko abantu babona ivy’ugutera imbere kw’ibiciro biratandukanye n’imigwi itandukanye, nk’abakoresha ama bitcoin n’abahinga mu vy’ubutunzi ba kera. Reka tubanze dusobanure insobanuro imbere yo kuganira ku bijanye n’ugutera imbere kw’ibiciro:
 
 
 
@@ -423,7 +423,7 @@ Akarorero k’akarorero ka MMT ni ikibanza c’igisirikare n’inganda c’Abany
 Ubuyapani bwakunda kuvugwa n’abashigikiye MMT nk’akandi karorero k’ukutagira ugutera imbere kw’ibiciro naho nyene hariho icapa ry’amahera ryinshi. Ariko rero, ivyabaye mu Buyapani biragaragaza kandi aho ingero za kera zo gupima ugutera imbere kw’ibiciro zifise aho zigarukira, nk’Ikigereranyo c’Ibiciro vy’Abaguzi (CPI). Mu Buyapani, igice kinini c’amahera acapwe arazigama canke agashirwa mu bikorwa vy’ubudandaji canke mu masoko y’ivy’ubutunzi, aho kuyakoresha mu vyo umuntu akoresha muri iki gihe. CPI, mu kutafata neza ivyo bihinduka, ishobora gufata minenerwe ugutera imbere kw’ibiciro nyakuri.
 
 
-Isesengura ry’Ubuyapani (https://ideas.repec.org/p/ces/ceswps/_9821.html) na ryo nyene rirerekana ko inyifato y’abakozi b’ubutunzi, nk’ukuzigama canke gushiramwo amahera mu mitungo itari muri CPI, ishobora gupfuka ingaruka z’ugutera imbere kw’ibiciro z’icapa ry’amahera. Ikindi kandi, ubushobozi bw’imice itandukanye bwo gufata amafaranga yinjijwe burafise uruhara runini mu kumenya nimba inflation ibaho.
+[Isesengura ry’Ubuyapani](https://ideas.repec.org/p/ces/ceswps/_9821.html) rirasobanura kandi ko inyifato y’abakora mu vy’ubutunzi, nk’ukwizigamira canke gushora imari mu butunzi butari mu rutonde rwa IPC, ishobora guhisha ingaruka z’ugutera amafaranga mu gutuma habaho ihindagurika ry’ibiciro. Vyongeye, ubushobozi bw’imirima itandukanye bwo kwakira amahera yinjijwe bugira uruhara rukomeye mu kwibonekeza canke kutibonekeza kw’ihindagurika ry’ibiciro.
 
 
 #### Igitabo c'imibare ya banki na banki nkuru
@@ -482,7 +482,7 @@ Izo ngero zirashobora gukoreshwa mu biganiro kugira ngo umuntu asigure igituma u
 ![image](assets/rn/023.webp)
 
 
-Kuko, nk’uko uru [rudodo] (https/safedean/status) rwerekana: Inflation ni vyose kiretse ikosa ry’amabanki akomeye.
+Kuko, nk’uko uru [rudodo](https/safedean/status) rwerekana: Inflation ni vyose kiretse ikosa ry’amabanki akomeye.
 
 
 
@@ -1421,7 +1421,7 @@ Iciyumviro nyamukuru ni uko hariho ingamba nyinshi zo gutsinda ugutera imbere kw
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
 
-[Tora ivyo bitabo vyakozwe mu gitabu ca *Bitcoin Educational Toolkit* (navyo ushobora kubironka mu gice ca *Ibikoresho* co muri Plan ₿ Academy urubuga.] (urubuga rwa penpot.umugambi 4-4f081b21defb&igice=imigenderanire&urutonde=0&sangira-id=7154756b-3ebd-8040-8004-6475c2af5889&imigenderanire-uburyo=kwerekana-ku-gukanda)
+[Tora ivyo bitabo vyakozwe mu gitabu ca *Bitcoin Educational Toolkit* (navyo ushobora kubironka mu gice ca *Ibikoresho* co muri Plan ₿ Academy urubuga.](urubuga rwa penpot.umugambi 4-4f081b21defb&igice=imigenderanire&urutonde=0&sangira-id=7154756b-3ebd-8040-8004-6475c2af5889&imigenderanire-uburyo=kwerekana-ku-gukanda)
 
 
 ![image](assets/rn/068.webp)

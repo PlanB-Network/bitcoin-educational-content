@@ -1,0 +1,9 @@
+question: Čemu odpovídá pole nbits v hlavičce bloku?
+answer: Zakódovanému cíli obtížnosti
+wrong_answers:
+  - Velikost bloku v bajtech
+  - Počet transakcí v bloku
+  - Časové razítko bloku
+explanation: |
+  Pole nbits kóduje aktivní cíl obtížnosti.
+reviewed: false

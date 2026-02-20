@@ -1,0 +1,9 @@
+question: Was kann in den erweiterten Einstellungen des Lightning-Knotens angepasst werden?
+answer: Der öffentliche Name des Knotens
+wrong_answers:
+  - Konsensregeln für Knotenpunkte
+  - Die privaten Schlüssel des Knotens
+  - Die vom Knoten gewählten Routen
+explanation: |
+  Mit den erweiterten Einstellungen können Sie die Elemente zur Knotenidentifizierung anpassen, ohne den Konsens oder den Betrieb des Lightning-Netzwerks zu beeinträchtigen.
+reviewed: false

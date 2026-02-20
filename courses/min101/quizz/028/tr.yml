@@ -1,0 +1,9 @@
+question: Blok sübvansiyonu neye karşılık gelir?
+answer: Parasal genişleme
+wrong_answers:
+  - İşlem ücretleri
+  - Kullanıcı mevduatı
+  - Spam cezası
+explanation: |
+  Sübvansiyon, protokol kurallarına göre ex nihilo yeni bitcoinler oluşturan ödülün bir parçasıdır.
+reviewed: false

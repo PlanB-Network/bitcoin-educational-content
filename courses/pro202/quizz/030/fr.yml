@@ -1,7 +1,7 @@
 question: Quel est l'objectif principal du processus de construction du sighash dans le cadre de la validation des transactions Bitcoin ?
 answer: Pour créer le message exact qui a été signé à l'origine par la clé privée pour la vérification de la signature
 wrong_answers:
-  - A generate un identifiant unique pour la transaction qui empêche les attaques de double-spending
+  - À générer un identifiant unique pour la transaction qui empêche les attaques de double-spending
   - Compresser les données de la transaction dans un format plus petit pour une transmission efficace sur le réseau
   - Pour crypter le contenu de la transaction afin que seul le destinataire puisse décrypter et dépenser les pièces
 explanation: |

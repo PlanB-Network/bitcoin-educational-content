@@ -1,0 +1,8 @@
+question: Apa perbedaan utama antara metode unwrap_or() dan unwrap_or_default() ketika menangani tipe Result dan Option?
+answer: unwrap_or() mengharuskan Anda untuk menentukan nilai fallback, sementara unwrap_or_default() menggunakan implementasi default tipe
+wrong_answers:
+  - unwrap_or() panik pada kesalahan sementara unwrap_or_default() mengembalikan None, memberikan penanganan kesalahan yang lebih aman dalam produksi
+  - unwrap_or() hanya bekerja dengan tipe Hasil sementara unwrap_or_default() bekerja secara eksklusif dengan tipe Opsi untuk ekstraksi nilai
+  - unwrap_or() menyebarkan kesalahan ke atas tumpukan panggilan sementara unwrap_or_default() mengubah semua kesalahan menjadi pesan string default
+explanation: |
+  Metode unwrap_or() memungkinkan Anda untuk memberikan nilai fallback tertentu ketika Hasil berisi kesalahan atau Opsi berisi Tidak Ada, memberikan Anda kontrol atas nilai apa yang akan digunakan dalam kasus kegagalan. Sebaliknya, unwrap_or_default() secara otomatis menggunakan implementasi sifat Default dari tipe, yang akan lebih mudah jika nilai default sesuai dengan kasus penggunaan Anda. Kedua metode ini bekerja dengan tipe Result dan Option dan tidak menimbulkan kepanikan atau menyebarkan kesalahan - keduanya memberikan degradasi yang anggun dengan mengembalikan nilai yang dapat digunakan alih-alih gagal.

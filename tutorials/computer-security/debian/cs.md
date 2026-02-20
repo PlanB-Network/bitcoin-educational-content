@@ -77,7 +77,7 @@ Výběr obrazu Debianu závisí na architektuře procesoru:
 
 
 
-- **AMD64**: stáhněte si "live hybrid" edici ze seznamu [download] (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
+- **AMD64**: stáhněte si "live hybrid" edici ze seznamu [download](https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
 - **ARM64**: získejte obraz DVD z oficiálních stránek [Debianu](https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
 - **Ostatní architektury**: najděte ISO odpovídající vaší architektuře [zde](https://debian.obspm.fr/debian-cd/12.11.0/).
 

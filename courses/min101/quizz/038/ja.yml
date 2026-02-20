@@ -1,0 +1,9 @@
+question: BIP-34以降、コインベースのscriptSigの開始部分には何を含める必要がありますか？
+answer: ブロックの高さ（block height）
+wrong_answers:
+  - マイナーのハッシュレート
+  - 難易度ターゲット
+  - ブロックのフットプリント
+explanation: |
+  BIP-34は、コインベースのscriptSigにブロックの高さを記録することを義務付けています。
+reviewed: false

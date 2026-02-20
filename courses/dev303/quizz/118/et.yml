@@ -1,0 +1,8 @@
+question: Mis on peamine tehniline põhjus, miks Greenlight'i rahakottide abil saavutatakse parem maksete marsruutimise usaldusväärsus võrreldes traditsiooniliste mobiilse Lightning'i rakendustega?
+answer: Greenlight'i sõlmed töötavad pidevalt pilves, säilitades reaalajas võrgu graafi sünkroniseerimise ja kohese täieliku graafi andmetele juurdepääsu
+wrong_answers:
+  - Greenlight kasutab täiustatud masinõppe algoritme, et ennustada optimaalseid makseviise varasemate tehingumustrite põhjal
+  - Greenlight rakendab patenteeritud mitmepoolset maksete jagamist, mis jaotab tehingud korraga mitmesse kanalisse, et tagada koondamine
+  - Greenlight säilitab spetsiaalsed suure ribalaiusega ühendused peamiste Lightning-keskuste vahel, tagades prioriteetset marsruutimist kõige likviidsemate kanalite kaudu
+explanation: |
+  Õige vastus määratleb Greenlight'i pilvepõhise lähenemisviisi põhilise arhitektuurilise eelise. Traditsioonilised mobiilsed Lightning rahakotid peavad käivitamisel sünkroonima võrgu graafikuandmeid, mis tekitab viivitusi ja võib töötada aegunud marsruutimisandmetega. Greenlight lahendab selle probleemi, käivitades Lightning-sõlmed pidevalt pilves, tagades, et neil on alati ajakohased võrguandmed ja nad suudavad kasutajate ühendamisel koheselt pakkuda täielikke graafiandmeid. Valed vastused kirjeldavad usutavaid, kuid olematuid funktsioone - Greenlight ei kasuta ML marsruutimisalgoritme, patenteeritud maksete jagamist standardsetest Lightning-protokollidest kaugemale ega spetsiaalseid sõlmeühendusi prioriteetseks marsruutimiseks.

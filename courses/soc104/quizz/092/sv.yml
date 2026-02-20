@@ -1,0 +1,9 @@
+question: Enligt Satoshi Nakamotos filosofi, vilket grundläggande problem med konventionella valutor försöker Bitcoin lösa?
+answer: Det överdrivna förtroende som krävs för centraliserade institutioner som historiskt sett bryter mot detta förtroende genom valutaförsvagning
+wrong_answers:
+  - Den tekniska ineffektiviteten i traditionella system för betalningshantering som skapar förseningar i internationella transaktioner
+  - Miljöpåverkan från fysisk valutatillverkning och koldioxidavtrycket från traditionell bankinfrastruktur
+  - Den nuvarande penningpolitikens matematiska komplexitet som gör det svårt för medborgarna att förstå ekonomiska beslut
+explanation: |
+  Satoshi Nakamoto sade uttryckligen att "grundproblemet med konventionell valuta är allt förtroende som krävs för att få den att fungera" och att "fiatvalutornas historia är full av brott mot detta förtroende".
+  Detta citat avslöjar Bitcoin:s huvudsyfte: att eliminera behovet av att lita på att centralbanker inte förfalskar valuta. Genesis-blockets hänvisning till bankräddningspaket förstärker denna kritik av institutionella misslyckanden. De felaktiga svaren fokuserar på tekniska, miljömässiga eller komplexa frågor som, även om de potentiellt kan vara giltiga, inte var den grundläggande filosofiska motivationen bakom Bitcoin:s skapande, såsom den formulerades av dess skapare.

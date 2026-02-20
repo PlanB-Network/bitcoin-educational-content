@@ -1,5 +1,6 @@
 ---
 term: LIBSECP256K1
+definition: Maktaba ya kriptografia ya C kwa saini na shughuli kwenye secp256k1 elliptic curve inayotumiwa na Bitcoin.
 ---
 
 Utendaji wa hali ya juu, maktaba ya C yenye usalama wa juu kwa sahihi za dijitali na maandishi mengine ya awali ya kriptografia kwenye mkunjo wa mviringo wa `secp256k1`. Kwa kuwa curve hii haijawahi kutumika sana nje ya Bitcoin (tofauti na mseto wa `secp256r1` unaopendekezwa mara nyingi), maktaba hii inalenga kuwa marejeleo ya kina zaidi kwa matumizi yake. Utengenezaji wa libsecp256k1 ulilenga hasa mahitaji ya Bitcoin, na vipengele vilivyokusudiwa kwa programu zingine vinaweza kujaribiwa au kuthibitishwa kidogo. Matumizi ifaayo ya maktaba hii yanahitaji uangalizi makini, ili kuhakikisha kuwa inafaa kwa madhumuni mahususi ya programu zingine isipokuwa Bitcoin.

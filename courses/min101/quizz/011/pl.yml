@@ -1,0 +1,9 @@
+question: Do czego służy nonce w nagłówku bloku?
+answer: Do zmiany nagłówka w celu ponowienia próby
+wrong_answers:
+  - Do zwiększenia rozmiaru bloku
+  - Do reprezentowania wszystkich transakcji w bloku
+  - Do wskazywania celu trudności
+explanation: |
+  Zmiana nonce zmienia dane wejściowe hasza i generuje zupełnie inny odcisk. Pozwala to na ponowną próbę znalezienia prawidłowego hasza.
+reviewed: false

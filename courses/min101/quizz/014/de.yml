@@ -1,0 +1,9 @@
+question: Welche Hash-Funktion wird für das Mining in Bitcoin verwendet?
+answer: SHA256d
+wrong_answers:
+  - SHA1d
+  - RIPEMD160d
+  - SHA512d
+explanation: |
+  Das Bitcoin-Mining verwendet zweimal angewendetes SHA256, was im Allgemeinen als SHA256d bezeichnet wird.
+reviewed: false

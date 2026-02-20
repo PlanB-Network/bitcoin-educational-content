@@ -1,0 +1,8 @@
+question: Mida võimaldab struktuuri uuendamise süntaks teha uute struktuuriinstantside loomisel Rust-s?
+answer: Loo uus instants, määrates ainult muudetud väljad, kopeerides ülejäänud väljad olemasolevast instantsist
+wrong_answers:
+  - Olemasolevate struktuuriväljade muutmine ilma uue instantsi loomiseta
+  - Automaatselt generate vaikeväärtused määramata väljadele, kasutades tunnust Default (Vaikimisi)
+  - Mitme struktuuriüksuse instantsi ühendamine üheks kombineeritud instantsiks
+explanation: |
+  Rust struktuuri uuendamise süntaks võimaldab teil luua uue struktuuri eksemplari, määrates ainult need väljad, mida soovite muuta, kopeerides samal ajal automaatselt kõik muud väljad olemasolevast eksemplarist. Selleks kasutatakse süntaksit `..existing_instance`. Teised võimalused on valed: struct update süntaks loob alati uue instantsi, mitte ei muuda olemasolevaid, ta ei tee generate vaikeväärtusi, vaid kopeerib olemasolevatest instantsidest, ja ta töötab ühe lähteinstantsiga, mitte ei ühenda mitut instantsi kokku.

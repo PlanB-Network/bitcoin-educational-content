@@ -1,0 +1,8 @@
+question: Jaki jest główny cel połączenia RC z RefCell w programowaniu Rust?
+answer: Umożliwienie wielu właścicielom współdzielenia i mutowania tych samych danych z kontrolą pożyczania w czasie wykonywania
+wrong_answers:
+  - Aby przenieść egzekwowanie reguł pożyczania z czasu wykonywania z powrotem do czasu kompilacji w celu uzyskania lepszej wydajności
+  - Aby utworzyć niezmienne współdzielone dane, do których można bezpiecznie uzyskać dostęp w wielu wątkach
+  - Aby zapobiec cyklom referencyjnym i wyciekom pamięci podczas udostępniania danych wielu właścicielom
+explanation: |
+  RC<RefCell<T>> łączy liczenie referencji dla współdzielonej własności z wewnętrzną mutowalnością dla mutacji sprawdzanych w czasie wykonywania. RC pozwala wielu częściom kodu na posiadanie tych samych danych, podczas gdy RefCell umożliwia mutację poprzez niezmienne referencje poprzez sprawdzanie reguł pożyczania w czasie wykonywania. Pozostałe opcje są niepoprawne: ten wzorzec w rzeczywistości przenosi sprawdzanie do czasu wykonywania (a nie kompilacji), tworzy mutowalne (a nie niezmienne) współdzielone dane i może powodować cykle referencyjne zamiast im zapobiegać.

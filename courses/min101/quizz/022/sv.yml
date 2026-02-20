@@ -1,0 +1,9 @@
+question: Vad mäter hashrate?
+answer: Hasher per sekund
+wrong_answers:
+  - Block per sekund
+  - Transaktioner per sekund
+  - Bytes per sekund
+explanation: |
+  Hashrate uttrycker antalet hashningsförsök som görs varje sekund, i H/s.
+reviewed: false

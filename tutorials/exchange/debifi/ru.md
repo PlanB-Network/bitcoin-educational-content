@@ -165,7 +165,7 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-Посетите [официальный сайт Дебифи] (https://debifi.com/app).
+Посетите [официальный сайт Дебифи](https://debifi.com/app).
 
 
 

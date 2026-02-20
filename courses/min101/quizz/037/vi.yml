@@ -1,0 +1,9 @@
+question: Cơ chế nào mở rộng không gian tìm kiếm khi nonce 32 bit bị cạn kiệt?
+answer: Extra-nonce
+wrong_answers:
+  - Super-nonce
+  - Coinbase-nonce
+  - Double-nonce
+explanation: |
+  Bằng cách sửa đổi extra-nonce trong scriptSig của coinbase, gốc Merkle bị thay đổi và do đó tiêu đề (header) cũng thay đổi.
+reviewed: false

@@ -1,6 +1,7 @@
 ---
-term: PPS (PAY PER SHARE)
+term: PPS (trả theo cổ phần)
 
+definition: Phương thức trả thù lao cố định trên mỗi cổ phần (share) được gửi, bất kể các khối được tìm thấy.
 ---
 Method for calculating the remuneration of miners within the context of mining pools. PPS is a system where miners are paid for each valid share submitted, regardless of whether the pool finds a block or not. They are therefore compensated based on the expected value. It is a task-based remuneration method.
 

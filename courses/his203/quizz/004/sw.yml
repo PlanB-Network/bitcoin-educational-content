@@ -1,0 +1,9 @@
+question: Makala ya Adrian Chen ilichapishwa katika vyombo gani vya habari vya mtandaoni ambayo ilileta umakini wa umma kwenye Barabara ya Silk mnamo Juni 1, 2011?
+answer: Gawker
+wrong_answers:
+  - Gizmodo
+  - Slashdot
+  - Habari za Hacker
+explanation: |
+ Gawker.com ilikuwa blogu yenye ushawishi mkubwa ambapo waandishi wengi walichapisha makala zenye utata wakati mwingine. Ilifilisika mwaka wa 2016, kufuatia kesi ya Hulk Hogan na Peter Thiel.
+reviewed: true

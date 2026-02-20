@@ -1,0 +1,9 @@
+question: Trong quy trình NWC, quá trình mã hóa diễn ra ở phía ứng dụng khi nào?
+answer: Trước khi công bố trên kênh chuyển tiếp
+wrong_answers:
+  - Sau khi đọc nút
+  - Sau khi được đăng tải trên máy chủ chuyển tiếp
+  - Không bao giờ
+explanation: |
+  Ứng dụng sẽ tuần tự hóa yêu cầu, mã hóa nó, sau đó phát hành nó như một sự kiện trên bộ chuyển tiếp Nostr.
+reviewed: false

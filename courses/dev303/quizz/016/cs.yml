@@ -1,0 +1,8 @@
+question: Jaký typ operace provádí Rust ve výchozím nastavení při přiřazení jedné proměnné String jiné?
+answer: Operace přesunu, která přenáší vlastnictví a zneplatňuje zdrojovou proměnnou
+wrong_answers:
+  - Hloubková kopie, která duplikuje všechna data na haldě a vytváří nezávislé řetězce
+  - Mělké kopírování, které vytvoří dva ukazatele na stejnou paměť haldy
+  - Vytvoření reference, která umožňuje oběma proměnným sdílet přístup pouze pro čtení
+explanation: |
+  Při přiřazování složených typů, jako je String, provádí Rust standardně operaci přesunu. Tím se převede vlastnictví ze zdrojové proměnné na cílovou a zároveň se zneplatní zdrojová proměnná, čímž se zabrání nebezpečným scénářům, kdy by více proměnných mohlo modifikovat stejnou paměť haldy. Hluboké kopírování by bylo neefektivní pro velké řetězce, mělké kopírování by způsobilo problémy s paměťovou bezpečností při více ukazatelích na stejná data a vytváření odkazů vyžaduje explicitní syntaxi pomocí operátoru ampersand.

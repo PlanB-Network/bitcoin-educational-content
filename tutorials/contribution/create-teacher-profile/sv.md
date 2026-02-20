@@ -8,7 +8,7 @@ description: Hur lägger jag till eller ändrar min lärarprofil på Plan ₿ Ac
 Om du planerar att bidra till Plan ₿ Academy genom att skriva en ny handledning eller kurs behöver du en lärarprofil. Denna profil gör det möjligt för dig att få lämpliga krediter för det innehåll du bidrar med till plattformen.
 
 
-För de av er som redan har varit involverade i att skapa utbildningsinnehåll på Plan ₿ Academy har ni förmodligen redan en lärarprofil. Du hittar den i mappen `/professors` [på vårt GitHub-arkiv] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Om din profil redan existerar hittar du din inloggning i filen `professor.yml`.
+För de av er som redan har varit involverade i att skapa utbildningsinnehåll på Plan ₿ Academy har ni förmodligen redan en lärarprofil. Du hittar den i mappen `/professors` [på vårt GitHub-arkiv](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Om din profil redan existerar hittar du din inloggning i filen `professor.yml`.
 
 
 För att göra ändringar i din profil, gå till avsnittet "Redigera din lärarprofil" i slutet av denna handledning.
@@ -23,7 +23,7 @@ Det enklaste sättet att skapa din lärarprofil på Plan ₿ Academy är att anv
 ### 1 - Konfigurera din lokala miljö
 
 
-Du måste ha din egen Fork från [Plan ₿ Academy repository on GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content).
+Du måste ha din egen Fork från [Plan ₿ Academy repository on GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
 Synkronisera huvudgrenen (`dev`) i din Fork med källkatalogen.
@@ -157,7 +157,7 @@ För nybörjare rekommenderar jag att du gör modifieringen direkt via GitHubs I
 
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Gå till [Plan ₿ Academy:s GitHub-arkiv för data] (https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
+Gå till [Plan ₿ Academy:s GitHub-arkiv för data](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
 
 
 ![Image](assets/fr/03.webp)
@@ -226,4 +226,4 @@ Din PR kommer då att synas på fliken "*Pull Request*" i Plan ₿ Academy:s huv
 ![Image](assets/fr/12.webp)
 
 
-Om du stöter på några tekniska svårigheter när du skickar in din ändring, tveka inte att be om hjälp på [vår Telegramgrupp för bidrag] (https://t.me/PlanBNetwork_ContentBuilder). Tack så mycket!
+Om du stöter på några tekniska svårigheter när du skickar in din ändring, tveka inte att be om hjälp på [vår Telegramgrupp för bidrag](https://t.me/PlanBNetwork_ContentBuilder). Tack så mycket!

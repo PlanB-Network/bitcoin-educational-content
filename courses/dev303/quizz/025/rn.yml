@@ -1,0 +1,8 @@
+question: Ni irihe jambo ry’ingenzi rikoreshwa mu gusobanura amabuye y’ishyirwa mu ngiro arimwo uburyo n’ibikorwa bijanye n’imibumbe iri muri Rust?
+answer: impl
+wrong_answers:
+  - ubugyo
+  - imibumbe
+  - fn
+explanation: |
+  Ijambo ry'ingenzi `impl` rikoreshwa cane cane mu kurema ibice vy'ishyirwa mu ngiro aho usobanura uburyo n'ibikorwa bijanye n'imiterere. Naho `struct` isobanura imiterere ubwayo, `fn` isobanura ibikorwa vy'umuntu ku giti ciwe, kandi `method` si ijambo ry'ingenzi rya Rust na gato, `impl` gusa ni yo irema igice kirimwo inyifato ijana n'ubwoko. Ivyiyumviro vy'ugushirwa mu ngiro bikoresheje `impl` bigufasha kwongerako ibikorwa ku mibumbe yawe, bikayigira ibirenze ibikoresho vy'amakuru gusa.

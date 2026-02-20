@@ -46,7 +46,7 @@ Huza Ledger yawe na mudasobwa yawe maze uyifungure.
 
 
 
-Kugira ngo ushiremwo iyo porogarama, fungura porogarama [Ledger Live] (https://www.Ledger.com/Ledger-live), hanyuma ugende ku rubuga rwitwa "*My Ledger*". Rondera porogaramu "*Urufunguzo rw'umutekano*" maze uyishire ku gikoresho cawe.
+Kugira ngo ushiremwo iyo porogarama, fungura porogarama [Ledger Live](https://www.Ledger.com/Ledger-live), hanyuma ugende ku rubuga rwitwa "*My Ledger*". Rondera porogaramu "*Urufunguzo rw'umutekano*" maze uyishire ku gikoresho cawe.
 
 
 

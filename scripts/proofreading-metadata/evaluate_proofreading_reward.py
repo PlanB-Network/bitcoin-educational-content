@@ -22,8 +22,7 @@ def get_manual_input():
     urgency = float(input("Enter the urgency factor (e.g., 1.0 for normal, 1.5 for urgent): "))
     proofreading_iteration = int(input("Enter the number of proofreading iterations: "))
     language_factor = float(input("Enter the language factor: "))
-    difficulty_factor = float(input("Enter the difficulty factor: "))
-    return words, urgency, proofreading_iteration, language_factor, difficulty_factor
+    return words, urgency, proofreading_iteration, language_factor
 
 def main():
     print("Let's update proofreading data!")
@@ -46,9 +45,8 @@ def main():
                     language_factor = float(input("What's the language factor? "))
                     urgency = float(input("What's the urgency? "))
                     words = get_words(file_path)
-                    difficulty_factor = get_difficulty_factor(data)
                     proofread_iteration = 0
-                    reward = compute_reward(words, difficulty_factor, language_factor, urgency, BASE_FEE, proofread_iteration)
+                    reward = compute_reward(words, language_factor, urgency, BASE_FEE, proofread_iteration)
                     
                 else:
                     selected_language = select_language(selected_subfolder_path)
@@ -58,15 +56,15 @@ def main():
                 print()
                 print(f"For {content_name}:")
                 print(f"The proofreading reward is: {reward} sats")
-                left = 3 - proofread_iteration
+                left = 2 - proofread_iteration
                 print(f"{left} proofreading(s) are/is missing for {selected_language}")
                 print()
                     
             else:
                 print("No valid subfolder with specific files was found.")
         elif user_response == 'n':
-            words, urgency, proofreading_iteration, language_factor, difficulty_factor = get_manual_input()
-            reward = compute_reward(words, difficulty_factor, language_factor, urgency, BASE_FEE, proofreading_iteration)
+            words, urgency, proofreading_iteration, language_factor = get_manual_input()
+            reward = compute_reward(words, language_factor, urgency, BASE_FEE, proofreading_iteration)
             print(f"\nThe calculated proofreading reward is: {reward} sats")
         
         continue_question = "Do you want to calculate another reward? "

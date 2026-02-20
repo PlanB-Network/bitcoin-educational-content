@@ -1,51 +1,57 @@
 ---
-name: Dấu thời gian của bằng cấp Plan ₿ Academy
-description: Hiểu cách Plan ₿ Academy cấp các bằng chứng có thể xác minh được cho chứng chỉ và bằng cấp của bạn
+name: Nhãn thời gian (Timestamp) cho chứng chỉ và bằng cấp Plan ₿ Academy
+description: Hiểu cách Plan ₿ Academy phát hành các bằng chứng có thể xác minh cho chứng chỉ và bằng cấp của bạn
 ---
 
 ![cover](assets/cover.webp)
 
-Nếu bạn đang đọc điều này, có khả năng cao là bạn đã nhận được một Chứng chỉ Bitcoin hoặc bằng tốt nghiệp cho một trong những khóa học bạn đã tham gia trên Plan ₿ Academy, vì vậy xin chúc mừng bạn đã đạt được thành tựu này!
+Nếu bạn đang đọc những dòng này, rất có thể bạn vừa nhận được một chứng chỉ cho bài kiểm tra ₿-CERT hoặc một bằng cấp hoàn thành khóa học trên Plan ₿ Academy. Vì vậy, xin chúc mừng bạn đã đạt được thành tựu này!
 
-Trong hướng dẫn này, chúng tôi sẽ xem xét cách Plan ₿ Academy cấp các bằng chứng có thể xác minh được cho Chứng chỉ Bitcoin hoặc bất kỳ Bằng tốt nghiệp khoá học nào của bạn. Sau đó, trong phần thứ hai, chúng tôi sẽ xem cách xác minh tính xác thực của những bằng chứng này.
+Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách Plan ₿ Academy cấp các bằng chứng có thể xác minh cho chứng chỉ ₿-CERT hoặc chứng nhận hoàn thành khóa học. Ở phần thứ hai, chúng ta sẽ xem cách xác minh tính xác thực của các bằng chứng này.
 
-# Cơ chế tạo bằng chứng của Plan ₿ Academy
 
-Tại Plan ₿ Academy, chúng tôi cung cấp cho bạn chứng chỉ và bằng cấp đã được chúng tôi ký bằng mật mã và dấu thời gian trên Timechain (tức là Blockchain Bitcoin). Để thực hiện điều này, chúng tôi đã phải tìm ra một cơ chế tạo bằng chứng dựa trên 2 thao tác mật mã:
+## Cơ chế tạo bằng chứng của Plan ₿ Academy
 
-1. Một chữ ký GPG trên một tệp văn bản tổng hợp thành tựu của bạn
-2. Gán nhãn thời gian cho tệp đã ký thông qua [opentimestamps](https://opentimestamps.org/).
+Tại Plan ₿ Academy, chúng tôi cấp các chứng chỉ và bằng cấp được ký bằng mật mã và được gắn nhãn thời gian (timestamp) trên Timechain (tức là blockchain Bitcoin). Để làm được điều này, chúng tôi đã thiết kế một cơ chế bằng chứng dựa trên hai thao tác mật mã:
 
-Cơ bản thì thao tác đầu tiên cho phép bạn xác minh ai là người cấp chứng chỉ (hoặc bằng cấp) trong khi thao tác thứ hai cho phép bạn xác minh khi nào nó được cấp.
+1. Một chữ ký GPG trên một file văn bản tổng hợp thành tựu của bạn
+2. Gán nhãn thời gian cho file đã ký thông qua [opentimestamps](https://opentimestamps.org/).
+
+Thao tác đầu tiên cho phép bạn xác minh đơn vị cấp chứng chỉ (hoặc bằng cấp), trong khi thao tác thứ hai cho phép bạn xác minh thời điểm được cấp.  
 Chúng tôi tin rằng cơ chế cấp bằng chứng đơn giản này cho phép chúng tôi cấp chứng chỉ và bằng cấp với bằng chứng không thể chối cãi mà bất kỳ ai cũng có thể tự mình xác minh.
 
 ![image](./assets/proof-mechanism.webp)
 
-Lưu ý rằng nhờ vào cơ chế chứng minh này, bất kỳ nỗ lực nào nhằm thay đổi ngay cả chi tiết nhỏ nhất của chứng chỉ hoặc bằng cấp của bạn sẽ tạo ra một mã hash sha256 hoàn toàn khác của tệp đã ký, điều này sẽ lập tức tiết lộ sự can thiệp bởi vì chữ ký và dấu thời gian sẽ không còn hợp lệ nữa. Hơn nữa, nếu ai đó cố gắng giả mạo một số chứng chỉ hoặc bằng cấp do Plan ₿ Academy cấp, việc xác minh chữ ký đơn giản sẽ tiết lộ gian lận.
+Nhờ vào cơ chế này, bất kỳ nỗ lực nào nhằm thay đổi ngay cả chi tiết nhỏ nhất của chứng chỉ hoặc bằng cấp của bạn sẽ tạo ra một mã băm SHA-256 hoàn toàn khác so với file đã ký. Khi đó, việc giả mạo chứng chỉ hoặc bằng cấp do Plan ₿ Academy cấp sẽ ngay lập tức bị phát hiện vì chữ ký và nhãn thời gian không còn hợp lệ.  
 
-## Chữ ký GPG hoạt động như thế nào?
 
-Chữ ký GPG có được nhờ sử dụng phần mềm mã nguồn mở có tên GNU Private Guard. Phần mềm này cho phép bất kỳ ai cũng dễ dàng tạo ra khóa riêng, ký và xác minh chữ ký cũng như mã hóa và giải mã tệp tin. Trong phạm vi của hướng dẫn này, bạn chỉ cần biết rằng Plan ₿ Academy sử dụng GPG để tạo khóa riêng/công khai của mình và để ký vào bất kỳ Chứng chỉ Bitcoin hoặc Bằng tốt nghiệp khoá học nào của nền tảng.
+### Chữ ký GPG hoạt động như thế nào?
 
-Mặt khác, nếu ai đó muốn xác minh tính xác thực của một tệp đã ký, họ có thể sử dụng GPG để nhập khóa công khai của người phát hành và xác minh. Trong phần thứ hai của hướng dẫn, chúng ta sẽ xem cách làm điều này với một terminal.
+Chữ ký GPG được tạo ra bằng một phần mềm mã nguồn mở có tên là GNU Privacy Guard. Phần mềm này cho phép bất kỳ ai dễ dàng tạo khóa riêng (private key), ký và xác minh chữ ký cũng như mã hóa và giải mã files. Trong phạm vi của hướng dẫn này, bạn chỉ cần biết rằng Plan ₿ Academy sử dụng GPG để tạo cặp khóa riêng/khóa công khai, và để ký vào bất kỳ chứng chỉ ₿-CERT hoặc chứng nhận hoàn thành khoá học của nền tảng.
 
-Đối với những ai tò mò và muốn tìm hiểu thêm về phần mềm tuyệt vời này, bạn có thể tham khảo ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html)
+Mặt khác, nếu ai đó muốn xác minh tính xác thực của một file đã ký, họ có thể sử dụng GPG để nhập khóa công khai của người phát hành và xác minh. Trong phần thứ hai của hướng dẫn, chúng ta sẽ xem cách thực hiện việc này thông qua terminal.
 
-## Nhãn thời gian hoạt động như thế nào?
+Nếu bạn tò mò và muốn tìm hiểu sâu hơn về phần mềm tuyệt vời này, bạn có thể tham khảo tài liệu ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html).
 
-Bất kỳ ai cũng có thể sử dụng OpenTimestamps để gán nhãn thời gian cho một tệp tin và nhận được bằng chứng có thể xác minh về sự tồn tại của tệp tin đó. Nói cách khác, nó không cung cấp cho bạn bằng chứng về thời điểm tệp được tạo ra mà là bằng chứng về sự tồn tại không muộn hơn một thời điểm nhất định.
-OpenTimestamps có thể cung cấp dịch vụ này miễn phí là nhờ vào việc lưu trữ hiệu quả một bằng chứng như vậy trong Blockchain Bitcoin. Nó sử dụng mã hash sha256 của tệp như một định danh duy nhất của tệp của bạn và xây dựng một cây merkle với các hash khác của tệp được gửi từ người dùng khác và chỉ neo hash của cấu trúc cây Merkle trong một giao dịch OpReturn.
-Sau khi giao dịch này được đưa vào một khối, bất kỳ ai có tập tin gốc và file `.ots` liên quan đến nó có thể xác minh tính xác thực của việc gán nhãn thời gian. Trong phần thứ hai của hướng dẫn, chúng ta sẽ xem cách xác minh Chứng chỉ Bitcoin của bạn hoặc bất kỳ Bằng tốt nghiệp khoá học nào với một terminal và với giao diện đồ họa qua trang web của OpenTimestamps.
+### Nhãn thời gian (timestamp) hoạt động như thế nào?
 
-# Cách xác minh Chứng chỉ hoặc Bằng tốt nghiẹp của Plan ₿ Academy
+Bất kỳ ai cũng có thể sử dụng OpenTimestamps để gán nhãn thời gian cho một file và nhận được bằng chứng có thể xác minh về sự tồn tại của file đó. Nói cách khác, OpenTimestamps không cho bạn biết tệp được tạo ra khi nào, mà chỉ chứng minh rằng tệp đó đã tồn tại muộn nhất tại một thời điểm nhất định.
 
-## Bước 1. Tải xuống Chứng chỉ hoặc Bằng tốt nghiệp của bạn
+OpenTimestamps có thể cung cấp dịch vụ này miễn phí là nhờ vào việc lưu trữ hiệu quả một bằng chứng như vậy trong Blockchain Bitcoin. Nó sử dụng mã hash sha256 của file như một định danh duy nhất của file của bạn và xây dựng một cấu trúc cây Merkle với các hash khác của file được gửi từ người dùng khác và chỉ neo hash của cấu trúc cây Merkle trong một giao dịch OpReturn.
 
-Đăng nhập vào bảng điều khiển Plan ₿ Academy cá nhân của bạn.
+OpenTimestamps cung cấp dịch vụ này hoàn toàn miễn phí nhờ một phương pháp rất hiệu quả để lưu trữ bằng chứng trên blockchain Bitcoin. Hệ thống sử dụng mã băm SHA-256 của file làm mã định danh duy nhất và xây dựng một cây Merkle cùng với các mã băm của những file khác do người dùng gửi lên. Chỉ có hàm băm của cấu trúc cây Merkle được neo (anchored) trong giao dịch OpReturn.
+
+Khi giao dịch này được đưa vào một khối, bất kỳ ai có tệp gốc và tệp `.ots` liên kết của nó đều có thể xác minh tính xác thực của dấu thời gian. Trong phần thứ hai của hướng dẫn này, chúng ta sẽ xem cách xác minh chứng chỉ kiểm tra ₿-CERT hoặc bất kỳ chứng nhận hoàn thành khóa học nào bằng cách sử dụng thiết bị đầu cuối và giao diện đồ họa thông qua trang web OpenTimestamps.
+
+## Cách xác minh chứng chỉ hoặc bằng cấp Plan ₿ Academy ₿-CERT
+
+### Bước 1. Tải xuống chứng chỉ hoặc bằng cấp của bạn
+
+Đăng nhập vào bảng điều khiển cá nhân của bạn trên [Plan ₿ Academy](https://planb.academy/vi/certifications/certificates).
 
 ![image](./assets/login.webp)
 
-Truy cập trang Các chứng chỉ - Credentials bằng cách nhấp vào menu bên trái, và chọn phiên thi của bạn hoặc Bằng tốt nghiệp khoá học của bạn.
+Truy cập trang "Chứng chỉ" bằng cách nhấp vào menu bên trái và chọn chứng chỉ hoặc bằng cấp của bạn.
 
 ![image](./assets/credential.webp)
 
@@ -56,20 +62,20 @@ Tải xuống file zip.
 Giải nén nội dung bằng cách nhấp chuột phải vào file `.zip` và chọn "Extract". Bạn sẽ tìm thấy ba file khác nhau bên trong:
 
 - File văn bản đã ký (ví dụ, certificate.txt)
-- File Open timestamp (OTS) (ví dụ, certificate.txt.ots)
+- File Opentimestamp (OTS) (ví dụ, certificate.txt.ots)
 - Chứng chỉ PDF (ví dụ, certificate.pdf)
 
-## Bước 2: Xác minh Chữ ký của File văn bản
+### Bước 2: Xác minh chữ ký của file văn bản
 
-Đầu tiên mở một terminal trong thư mục chứa các file (nhấp chuột phải vào cửa sổ thư mục và nhấp vào "Open in Terminal"). Sau đó làm theo các hướng dẫn dưới đây
+Trước tiên, hãy mở cửa sổ terminal trong thư mục chứa các tệp bằng cách nhấp chuột phải vào cửa sổ thư mục và chọn "Open in Terminal". Sau đó làm theo hướng dẫn bên dưới:
 
-1. Nhập khóa công khai PGP của Plan ₿ Academy với lệnh sau:
+1. Nhập khóa công khai (public key) PGP của Plan ₿ Academy với lệnh sau:
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
 ```
 
-Bạn nên thấy một thông báo như sau nếu bạn đã nhập khóa PGP thành công
+Nếu bạn đã nhập khóa PGP thành công, bạn sẽ thấy một thông báo tương tự như sau.
 
 ```
 gpg: key 8F12D0C63B1A606E: public key "Plan ₿ Academy (used for Plan ₿ Academy platform) <admin@planb.network>" imported
@@ -77,21 +83,21 @@ gpg: Total number processed: 1
 gpg:               imported: 1
 ```
 
-LƯU Ý: nếu bạn thấy rằng 1 khóa đã được xử lý và 0 được nhập, có khả năng bạn đã nhập cùng một khóa trước đó và điều đó là ổn.
+**LƯU Ý**: Nếu bạn thấy một khóa đã được xử lý nhưng không có khóa nào được nhập, có thể bạn đã nhập khóa này trước đó rồi, điều này hoàn toàn bình thường.
 
-2. Xác minh chữ ký của chứng chỉ hoặc bằng tốt nghiệp với lệnh sau:
+2. Xác minh chữ ký của chứng chỉ hoặc bằng cấp với lệnh sau:
 
 ```bash
 gpg --verify certificate.txt
 ```
 
-Lệnh này sẽ hiển thị cho bạn các chi tiết về chữ ký, bao gồm:
+Lệnh này sẽ hiển thị thông tin chi tiết về chữ ký, bao gồm:
 
-- Ai đã ký nó (Plan ₿ Academy)
+- Ai đã ký (Plan ₿ Academy)
 - Khi nào nó được ký
 - Liệu chữ ký có hợp lệ không
 
-Đây là một ví dụ về kết quả:
+Dưới đây là một ví dụ về kết quả:
 
 ```
 gpg: Signature made lun 11 nov 2024, 00:39:04 CET
@@ -102,32 +108,33 @@ gpg: Good signature from "Plan ₿ Academy (used for Plan ₿ Academy platform) 
 
 Nếu bạn thấy một thông báo như "BAD signature", điều đó có nghĩa là file đã bị thay đổi.
 
-## Bước 3: Xác minh Open Timestamp
+### Bước 3: Xác minh Open Timestamp
 
-### Xác minh qua Giao diện Đồ họa
+#### Xác minh bằng giao diện
 
 1. Truy cập trang web OpenTimestamps: https://opentimestamps.org/
-2. Nhấp vào tab "Stamp & Verify".
-3. Kéo và thả file OTS (ví dụ, `certificate.txt.ots`) vào khu vực được chỉ định.
-4. Kéo và thả file đã được gán nhãn thời gian (ví dụ, `certificate.txt`) vào khu vực được chỉ định.
-5. Trang web sẽ tự động xác minh open timestamp và hiển thị kết quả.
+2. Nhấn vào tab "Stamp & Verify".
+3. Kéo thả file OTS (ví dụ, `certificate.txt.ots`) vào khu vực được chỉ định.
+4. Kéo thả file đã được gán nhãn thời gian (ví dụ, `certificate.txt`) vào khu vực được chỉ định.
+5. Trang web sẽ tự động xác minh "open timestamp" và hiển thị kết quả.
 
-Nếu bạn thấy một thông báo như sau thì timestamp của bạn là hợp lệ:
+Nếu bạn thấy một thông báo như sau thì nhãn thời gian của bạn hợp lệ:
+'
 ![cover](assets/opentimestamp_wegui_verified.webp)
 
-### Phương pháp CLI
+#### Sử dụng CLI
 
-LƯU Ý: quy trình này **sẽ yêu cầu một node Bitcoin địa phương đang chạy**
+**LƯU Ý: Quy trình này yêu cầu phải có một node Bitcoin cục bộ đang hoạt động.**
 
-1. Cài đặt OpenTimestamps client từ kho chính thức: https://github.com/opentimestamps/opentimestamps-client bằng cách chạy lệnh sau:
+1. Cài đặt OpenTimestamps client từ [repository chính thức](https://github.com/opentimestamps/opentimestamps-client) bằng cách chạy lệnh sau:
 
 ```
 pip install opentimestamps-client
 ```
 
-2. Di chuyển đến thư mục chứa các tệp chứng chỉ đã giải nén.
+2. Di chuyển đến thư mục chứa các file chứng chỉ đã giải nén.
 
-3. Chạy lệnh sau để xác minh dấu thời gian mở:
+3. Chạy lệnh sau để xác minh "open timestamp":
 
 ```
 ots verify certificate.txt.ots
@@ -136,14 +143,14 @@ ots verify certificate.txt.ots
 Lệnh này sẽ:
 
 - Kiểm tra dấu thời gian so với blockchain của Bitcoin
-- Hiển thị cho bạn thời điểm chính xác tệp được gán nhãn thời gian
+- Hiển thị chính xác thời điểm file được gắn nhãn thời gian;
 - Xác nhận tính xác thực của nhãn thời gian
 
-### Kết quả cuối cùng
+#### Kết quả cuối cùng
 
 Lưu ý rằng việc xác minh thành công nếu **cả hai** thông điệp sau được hiển thị:
 
-1. Chữ ký GPG được báo cáo là **"Chữ ký tốt từ Plan ₿ Academy"**
-2. Xác minh OpenTimestamps hiển thị một nhãn thời gian khối Bitcoin cụ thể và báo cáo **"Thành công! Khối Bitcoin [blockheight] chứng thực dữ liệu tồn tại kể từ [timestamp]"**
+1. Chữ ký GPG được đánh dấu là **"Good signature from Plan ₿ Academy"**
+2. Quá trình xác minh OpenTimestamps hiển thị nhãn thời gian của khối Bitcoin cụ thể và thông báo **"Thành công! Khối Bitcoin [chiều cao khối] chứng thực dữ liệu tồn tại kể từ [nhãn thời gian]"**
 
-Giờ đây, bạn đã biết cách Plan ₿ Academy phát hành bằng chứng có thể xác minh được cho bất kỳ Chứng chỉ Bitcoin và Bằng tốt nghiệp khóa học nào, bạn có thể dễ dàng xác minh tính toàn vẹn của nó.
+Giờ đây, bạn đã biết cách Plan ₿ Academy cung cấp bằng chứng có thể xác minh được cho bất kỳ chứng chỉ ₿-CERT và chứng nhận hoàn thành khóa học nào, bạn có thể dễ dàng kiểm chứng tính xác thực của chúng.

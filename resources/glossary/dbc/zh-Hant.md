@@ -1,5 +1,6 @@
 ---
 term: DBC
+definition: 在比特幣交易中註冊確定性承諾的規則，用於 RGB 協定。
 ---
 
 Deterministic Bitcoin Commitment 的縮寫。它是一套規則，使 Commitment 能夠以可證明的唯一方式輸入到 Bitcoin 交易中。在 RGB 協定中，CAD 有兩種主要形式：

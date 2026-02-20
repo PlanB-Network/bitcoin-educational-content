@@ -1,6 +1,7 @@
 ---
-term: BLOCK
+term: Khối
 
+definition: Cấu trúc dữ liệu chứa các giao dịch đã được xác thực và siêu dữ liệu, được liên kết với các khối khác bằng băm.
 ---
 Data structure in the Bitcoin system. A block contains a set of valid transactions and metadata contained in its header. Each block is linked to the next by the hash of its header, thus forming the blockchain. The blockchain acts as a timestamping server that allows every user to know all past transactions, in order to verify the non-existence of a transaction and prevent double spending. Transactions are organized in a Merkle tree. This cryptographic accumulator allows for the production of a digest of all the transactions in a block, called the "Merkle root." The header of a block contains 6 elements:
 

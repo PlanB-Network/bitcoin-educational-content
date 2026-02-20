@@ -1,0 +1,10 @@
+question: Ni agashimwe akahe k’abacukuzi mu muhora wa Bitcoin?
+answer: Bitcoins nshasha n’amafaranga akatwa kubikorwa.
+wrong_answers:
+  - Bitcoins nshasha gusa.
+  - Amafaranga y’ugucuruza gusa.
+  - Nta gashimwe k’abacukuzi.
+explanation: |
+  Abacukuzi bo mu muhora wa Bitcoin bahembwa Bitcoins nshasha n'amafaranga akatwa kubikorwa no kwemeza
+  no kurema block.
+reviewed: true

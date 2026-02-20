@@ -1,5 +1,6 @@
 ---
-term: passphrase (BIP39)
+term: Hasło (BIP39)
+definition: Opcjonalne hasło dodawane do frazy odzyskiwania w celu zabezpieczenia portfela HD.
 ---
 
 Opcjonalne hasło, które w połączeniu z frazą odzyskiwania zapewnia dodatkowe zabezpieczenie Layer dla deterministycznych i hierarchicznych portfeli Bitcoin. Portfele HD są zwykle generowane na podstawie frazy odzyskiwania składającej się z 12 lub 24 słów. Ta fraza odzyskiwania jest bardzo ważna, ponieważ pozwala na przywrócenie wszystkich kluczy w Wallet w przypadku ich utraty. Stanowi ona jednak pojedynczy punkt awarii (SPOF). Jeśli zostanie on naruszony, bitcoiny są zagrożone. W tym miejscu pojawia się passphrase. Jest to opcjonalne hasło, wybrane przez użytkownika, które jest dodawane do frazy odzyskiwania w celu zwiększenia bezpieczeństwa Wallet. Nie mylić z kodem PIN lub zwykłym hasłem, passphrase odgrywa rolę w wyprowadzaniu kluczy kryptograficznych.

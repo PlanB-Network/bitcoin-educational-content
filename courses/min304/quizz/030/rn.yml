@@ -1,0 +1,10 @@
+question: Ni igiki giteye amakenga kuri Proof of Stake mu muhora wa Bitcoin?
+answer: Abasanzwe bafise amafaranga menshi barafise ububasha butangana, ivyo bikaba vyerekana ubusumbane bw’ububasha buriho.
+wrong_answers:
+  - Vyoba ari intambamyi ikomeye ku bashingira intahe bafise amahera menshi.
+  - Ntivyemera ko umuntu agira uruhara mu rugero rutoyi.
+  - Ntibisaba ubutunzi buboneka.
+explanation: |
+  Mu nzira y'umuhora wa Proof of Stake abasanzwe bafise amafaranga menshi barafise ububasha butangana.
+  Ivyo bishobora gutuma haguma kubaho gukoranizwa hamwe (centralization) no kwibanda mu minwe y’abantu bake kw'ububasha.
+reviewed: true

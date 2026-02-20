@@ -1,5 +1,6 @@
 ---
-term: 拜占庭大將問題
+term: 拜占庭將軍問題
+definition: 說明分散式系統中協調挑戰的問題，其中各方無法相互信任。
 ---
 
 這個問題是由 Leslie Lamport、Robert Shostak 和 Marshall Pease 於 1982 年 7 月在專業雜誌 *ACM Transactions on Programming Languages and Systems, vol 4, n° 3* [「拜占庭大將問題」](https://lamport.azurewebsites.net/pubs/byz.pdf) 中首次提出的。今天，它被用來說明分散式系統無法信任任何參與者時，在決策方面所面臨的挑戰。

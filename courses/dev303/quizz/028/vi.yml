@@ -1,0 +1,8 @@
+question: Điều gì xảy ra trong quá trình giải tỏa căng thẳng khi xảy ra tình trạng hoảng loạn ở Rust?
+answer: Rust sẽ truy ngược lại ngăn xếp cuộc gọi để cung cấp dấu vết ngăn xếp chi tiết.
+wrong_answers:
+  - Rust ngay lập tức chấm dứt chương trình mà không thực hiện bất kỳ thao tác dọn dẹp hay cung cấp thông tin nào.
+  - Rust tự động chuyển đổi trạng thái lỗi (panic) thành loại Kết quả có thể phục hồi (recoverable Result type).
+  - Rust khởi động lại thao tác bị lỗi từ đầu hàm.
+explanation: |
+  Khi xảy ra lỗi nghiêm trọng (panic) trong Rust, quá trình giải nén (unwinding) sẽ truy ngược lại ngăn xếp cuộc gọi để cung cấp dấu vết ngăn xếp chi tiết, hiển thị chính xác vị trí xảy ra lỗi. Điều này giúp các nhà phát triển xác định nguồn gốc sự cố trong quá trình gỡ lỗi. Các tùy chọn khác không chính xác: Rust không kết thúc ngay lập tức mà không cần dọn dẹp (điều này chỉ xảy ra khi quá trình giải nén bị vô hiệu hóa), các lỗi nghiêm trọng không thể tự động chuyển đổi thành kiểu Kết quả (Result), và Rust không khởi động lại các thao tác bị lỗi.

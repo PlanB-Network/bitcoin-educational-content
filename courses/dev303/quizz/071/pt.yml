@@ -1,0 +1,8 @@
+question: Qual é a resposta mais apropriada quando uma aplicação Bitcoin encontra um erro de entrada inválido, como receber um valor negativo para um campo que requer apenas números inteiros positivos?
+answer: Rejeita a entrada e devolve uma indicação de erro ao autor da chamada
+wrong_answers:
+  - Converter o valor negativo no seu valor absoluto e continuar o processamento
+  - Registar o erro mas prosseguir com a operação utilizando um valor predefinido
+  - Terminar imediatamente toda a aplicação para evitar a corrupção de dados
+explanation: |
+  Os erros de entrada inválidos representam violações de contrato entre o chamador e a função, em que os parâmetros fornecidos não cumprem os requisitos da função. A abordagem correta é rejeitar a entrada e devolver uma indicação de erro, permitindo que o chamador trate a situação de forma adequada. A conversão de valores negativos em positivos mascara silenciosamente o erro e pode levar a um comportamento não intencional. A utilização de valores por defeito ignora a intenção do autor da chamada e pode processar dados incorrectos. Terminar toda a aplicação é excessivo para falhas de validação de entrada e criaria uma má experiência para o utilizador em aplicações Bitcoin, em que o tratamento gracioso de erros é crucial.

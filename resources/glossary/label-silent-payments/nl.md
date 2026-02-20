@@ -1,5 +1,6 @@
 ---
-term: LABEL (STILLE BETALINGEN)
+term: Label (silent payments)
+definition: Gehele getallen die worden gebruikt om afgeleide statische adressen te maken die het gebruik in Silent Payments scheiden.
 ---
 
 Binnen het Silent Payments protocol zijn labels gehele getallen die worden gebruikt om de initiële statische Address te wijzigen om zo vele andere statische adressen te creëren. Het gebruik van deze labels maakt het mogelijk om betalingen die via Stille Betalingen worden verzonden te scheiden, door verschillende statische adressen te gebruiken voor elk gebruik, zonder de operationele last voor het detecteren van deze betalingen (scannen) al te zeer te verhogen. Bob gebruikt een statische Address $B$, samengesteld uit twee publieke sleutels: $B_{scan}}$ voor scannen en $B_{spend}}$ voor uitgeven. De Hash van $b_{\text{scan}}$ en een geheel getal $m$, scalair vermenigvuldigd met het generatorpunt $G$, wordt toegevoegd aan de openbare sleutel $B_{\text{spend}}$ voor uitgaven om een soort nieuwe openbare sleutel $B_m$ voor uitgaven te maken:

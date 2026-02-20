@@ -1,0 +1,8 @@
+question: Milline kriitiline võime võimaldab LDK-l säilitada Lightning-funktsionaalsust mobiilsete rahakottide vahelduva ühendusega võrreldes traditsiooniliste daemon-põhiste Lightning-sõlmedega?
+answer: LDK võime sünkroniseerida Lightning Service Providers (LSPd) võrgus olles, säilitades samal ajal mittekaitstava privaatvõtme kontrolli
+wrong_answers:
+  - "LDK sisseehitatud offline-maksete töötlemise süsteem, mis seab tehingud järjekorda, kuni võrguühendus taastub"
+  - "LDK hajutatud kanali oleku varundussüsteem, mis replitseerib andmeid automaatselt mitme pilvepakkuja vahel"
+  - "LDK peer-to-peer võrgusüsteemi protokoll, mis võimaldab otsese seadmelt seadmele välkmakseid ilma internetita"
+explanation: |
+  LDK modulaarne arhitektuur võimaldab mobiilirakendustel rakendada katkendlikke ühendusvõimalusi, sünkroonides LSPdega võrgus olles, võimaldades kasutajatel makseid vastu võtta ja kanaleid hallata ka siis, kui mobiilse seadme ühendus oli välja lülitatud. See erineb põhimõtteliselt traditsioonilistest Lightning'i deemonitest, mis nõuavad pidevat tööd. Valed vastused kirjeldavad olematuid funktsioone - LDK-l ei ole sisseehitatud offline-maksete töötlemist, hajutatud varukoopiaid ega võrkude võrgutamisvõimalusi.

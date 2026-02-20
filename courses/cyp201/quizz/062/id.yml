@@ -6,3 +6,4 @@ wrong_answers:
   - Kedua kunci privat anak yang diperkeras dan normal
 explanation: |
   Kunci publik yang diperluas hanya memungkinkan penurunan dari kunci publik anak normal, bukan kunci privat atau kunci yang diperkeras.
+reviewed: true

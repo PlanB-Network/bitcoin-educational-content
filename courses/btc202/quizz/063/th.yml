@@ -1,0 +1,9 @@
+question: มีการใช้งาน Lightning Network สองแบบใดบ้างที่มีอยู่บน Umbrel?
+answer: LND และ Core Lightning
+wrong_answers:
+  - Electrs และ Fulcrum
+  - Bitcoin Core และ Bitcoin Knots
+  - Ride The Lightning และ ThunderHub
+explanation: |
+  Umbrel ให้คุณเลือกใช้ระหว่าง LND และ Core Lightning เป็นการใช้งานของ Lightning Network
+reviewed: true

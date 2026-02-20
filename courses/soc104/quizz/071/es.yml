@@ -1,0 +1,9 @@
+question: ¿Qué familia política apoyaría más probablemente una política que combinara el acceso universal a la sanidad con mecanismos de innovación y eficiencia del sector privado?
+answer: Los centristas, partidarios de sistemas mixtos que equilibren las garantías públicas con las aportaciones del sector privado
+wrong_answers:
+  - Socialistas, que priorizan el acceso universal a través de sistemas sanitarios exclusivamente públicos
+  - Los libertarios, que abogan por la privatización total y la elección individual en los mercados sanitarios
+  - Los conservadores, que prefieren los mercados privados con una intervención estatal mínima para los más vulnerables
+explanation: |
+  Los centristas abogan explícitamente por sistemas sanitarios mixtos que garanticen el acceso universal a través de la participación del Estado, incorporando al mismo tiempo elementos del sector privado en aras de la innovación y la eficiencia.
+  Los socialistas rechazan la participación privada y consideran que la asistencia sanitaria es un derecho fundamental que requiere una prestación pública. Los libertarios se oponen totalmente a la intervención del Estado y prefieren soluciones basadas en el mercado. Los conservadores son partidarios de sistemas predominantemente privados con un papel mínimo del Estado, y no de enfoques mixtos equilibrados.

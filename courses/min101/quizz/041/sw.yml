@@ -1,0 +1,9 @@
+question: Ni algorithm gani ambayo ASIC ya Bitcoin imeundwa mahususi kutekeleza?
+answer: SHA256d
+wrong_answers:
+  - SHA512d
+  - SHA1
+  - SHA512
+explanation: |
+  ASIC za Bitcoin zimebobea kwa SHA256 mara mbili inayotumiwa na proof-of-work ya Bitcoin.
+reviewed: false

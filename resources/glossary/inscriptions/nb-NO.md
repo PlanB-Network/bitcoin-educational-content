@@ -1,6 +1,7 @@
 ---
-term: INSCRIPTIONS
+term: Inscriptions
 
+definition: Vilkårlig innhold inngravert på satoshis via Ordinals-protokollen, som skaper digitale artefakter.
 ---
 I Ordinals Theory-sammenheng er inskripsjoner vilkårlig innhold som graveres inn i satsene og gjør dem til digitale Bitcoin-artefakter. Inskripsjoner gjøres gjennom transaksjoner som eksponerer innholdet av informasjonen i skriptet til en Taproot-inngang på denne måten:
 

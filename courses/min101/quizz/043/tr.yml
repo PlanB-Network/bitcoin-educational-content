@@ -1,0 +1,9 @@
+question: 2010 ortası ile 2011 ortası arasında, madencilik zorluğu hangi faktörle katlandı?
+answer: 1000
+wrong_answers:
+  - 100
+  - 500
+  - 50
+explanation: |
+  Özellikle GPU'ların kullanımı nedeniyle bu dönemde 1.000 katlık bir artış yaşandı.
+reviewed: false

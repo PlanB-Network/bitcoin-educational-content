@@ -1,0 +1,9 @@
+question: What specific constraint on Android is mentioned regarding the use of Tailscale?
+answer: One VPN at a time
+wrong_answers:
+  - Bluetooth mandatory for VPN
+  - DNS-over-HTTPS incompatible
+  - Requires phone root
+explanation: |
+  Android doesn't allow you to use two VPNs simultaneously, so you need to disable any other active VPN before using Tailscale.
+reviewed: false

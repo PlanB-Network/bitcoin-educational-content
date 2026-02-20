@@ -45,7 +45,7 @@ Ett operativsystem (OS) är den huvudsakliga programvaran som hanterar alla dato
 
 
 
-- Gå till [ubuntu.com/download] (https://ubuntu.com/download)
+- Gå till [ubuntu.com/download](https://ubuntu.com/download)
 - Välj den stabila versionen (LTS rekommenderas)
 - Ladda ner ISO-bild
 
@@ -64,7 +64,7 @@ Du kan använda flera verktyg, till exempel Balena Etcher:
 
 
 
-- Ladda ner och installera [Balena Etcher] (https://etcher.balena.io/)
+- Ladda ner och installera [Balena Etcher](https://etcher.balena.io/)
 
 
 ![Page de téléchargement Balena Etcher](assets/fr/03.webp)

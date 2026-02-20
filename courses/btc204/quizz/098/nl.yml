@@ -1,10 +1,10 @@
-question: Wat meet voorwaartse anonimiteit?
+question: Wat meet prospectieve anonimiteit?
 answer: De weerstand van privacy tegen een analyse van verleden tot heden.
 wrong_answers:
   - De weerstand van privacy tegen een heden-tot-verleden-analyse.
   - De weerstand van privacy tegen een toekomst-naar-heden analyse.
   - De weerstand van privacy tegen een toekomst-naar-verleden analyse.
 explanation: |
-  Voorwaartse anonimiteit meet de weerstand van de privacy van een munt tegen een analyse van verleden naar heden (invoer naar uitvoer).
+  Prospectieve anonimiteit meet de weerstand van de privacy van een UTXO tegen een analyse van verleden naar heden (inpur naar output).
   
 reviewed: false

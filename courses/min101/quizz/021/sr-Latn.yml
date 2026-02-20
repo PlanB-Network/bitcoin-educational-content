@@ -1,0 +1,9 @@
+question: Na svakih koliko blokova se prilagođava cilj težine?
+answer: 2016 blokova
+wrong_answers:
+  - 2000 blokova
+  - 2100 blokova
+  - 4096 blokova
+explanation: |
+  Prilagođavanje se vrši na svakih 2016 blokova, što je otprilike dve nedelje pri brzini od 10 minuta po bloku.
+reviewed: false

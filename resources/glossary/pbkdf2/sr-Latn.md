@@ -1,5 +1,6 @@
 ---
 term: PBKDF2
+definition: Funkcija za izvođenje kriptografskih ključeva iz lozinke putem iteracija.
 ---
 
 `PBKDF2` označava *Password-Based Key Derivation Function 2*. To je metoda za kreiranje kriptografskih ključeva iz lozinke korišćenjem funkcije derivacije. Kao ulaz uzima lozinku, kriptografski salt, i iterativno primenjuje unapred određenu funkciju (često Hash funkciju kao što je `SHA256` ili `HMAC`) na ove podatke. Ovaj proces se ponavlja mnogo puta da bi se dobio kriptografski ključ.

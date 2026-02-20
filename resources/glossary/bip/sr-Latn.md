@@ -1,5 +1,6 @@
 ---
 term: BIP
+definition: Bitcoin Improvement Proposal. Formalni proces koji omogućava zajednici da predlaže, diskutuje i dokumentuje poboljšanja Bitcoin protokola.
 ---
 
 Akronim za "Bitcoin Improvement Proposal." Bitcoin Improvement Proposal (BIP) je formalan proces za predlaganje i dokumentovanje poboljšanja i promena Bitcoin protokola i njegovih standarda. Pošto Bitcoin nema centralni entitet koji odlučuje o ažuriranjima, BIP-ovi omogućavaju zajednici da predlaže, diskutuje i implementira poboljšanja na strukturiran i transparentan način. Svaki BIP detaljno opisuje ciljeve predloženog poboljšanja, opravdanja, potencijalne uticaje na kompatibilnost, kao i prednosti i nedostatke. BIP-ove može pisati bilo koji član zajednice, ali ih moraju odobriti drugi programeri i urednici koji održavaju Bitcoin Core GitHub bazu podataka: Bryan Bishop, Jon Atack, Luke Dashjr, Mark Erhardt (Murch), Olaoluwa Osuntokun i Ruben Somsen. Međutim, važno je razumeti da uloga ovih pojedinaca u uređivanju BIP-ova ne znači da oni kontrolišu Bitcoin. Ako neko predloži poboljšanje koje nije prihvaćeno u okviru formalnog BIP okvira, i dalje ga može predstaviti direktno Bitcoin zajednici ili čak kreirati Fork uključujući svoju modifikaciju. Prednost BIP procesa leži u njegovoj formalnosti i centralizaciji, što olakšava debatu kako bi se izbegla podela među Bitcoin korisnicima, nastojeći da se ažuriranja implementiraju na konsenzualan način. Na kraju, princip ekonomske većine određuje dinamiku moći unutar protokola.
@@ -38,7 +39,6 @@ BIP-ovi zatim prolaze kroz različite statusne faze tokom svog životnog ciklusa
 - Zamenjeno / Zastarelo: BIP više nije primenljiv ili je zamenjen novijim predlogom koji ga čini nepotrebnim.
 
 
-![](../../dictionnaire/assets/25.webp)
 
 
-> ► *BIP je akronim za "Bitcoin Improvement Proposal". Na francuskom se može prevesti kao "Proposition d'amélioration de Bitcoin". Međutim, većina francuskih tekstova direktno koristi akronim "BIP" kao zajedničku imenicu, ponekad ženskog, ponekad muškog roda.*
+

@@ -1,0 +1,8 @@
+question: Sonuç türleri ile kullanıldığında Rust'ın soru işareti operatörünün (?) birincil amacı nedir?
+answer: Başarılı değerleri otomatik olarak açmak ve hataları geçerli işlevden hemen döndürmek için
+wrong_answers:
+  - Daha kolay null işleme için tüm Sonuç türlerini Seçenek türlerine dönüştürmek için
+  - Herhangi bir hata oluştuğunda özel bir mesajla otomatik olarak panik yapmak için
+  - Ekstra güvenlik için başarılı değerleri ek bir Sonuç katmanına sarmak için
+explanation: |
+  Soru işareti operatörü (?) özellikle Rust'de hata yayılımı için tasarlanmıştır. Bir Sonuca uygulandığında, işlem başarılı olduysa başarı değerini çıkarır ve kodun bu değerle devam etmesini sağlar. Ancak, bir hata oluşmuşsa, ? operatörü hatayı hemen geçerli fonksiyondan döndürerek çağrı yığınına etkili bir şekilde yayar. Bu, açık hata işleme semantiğini korurken ayrıntılı eşleşme ifadelerine olan ihtiyacı ortadan kaldırır. İşleç, yalnızca Sonuç türlerini döndüren işlevlerde kullanılabilir ve uygun hata yayma modellerini sağlar.

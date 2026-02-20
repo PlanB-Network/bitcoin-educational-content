@@ -74,7 +74,7 @@ Pärast Nicolas'i sõnu oli aeg hakata ehitama. Märkimisväärne hulk tööd ku
 Mida tähendab avatud lähtekood ja mida tähendab selline projekt?
 
 
-FOSS tähendab vaba ja avatud lähtekoodiga tarkvara. Esimene viitab tingimustele, mis lubavad igaühel kopeerida, muuta ja isegi levitada tarkvara versioone (isegi kasumi saamise eesmärgil). Viimane viitab lähtekoodi avalikule jagamisele, julgustades avalikkust panustama ja täiustama.
+[FOSS](https://planb.academy/resources/glossary/foss) tähendab vaba ja avatud lähtekoodiga tarkvara. Esimene viitab tingimustele, mis lubavad igaühel kopeerida, muuta ja isegi levitada tarkvara versioone (isegi kasumi saamise eesmärgil). Viimane viitab lähtekoodi avalikule jagamisele, julgustades avalikkust panustama ja täiustama.
 
 See tõmbab ligi kogenud kasutajaid, kes on entusiastlikud panustama tarkvarasse, mida nad juba kasutavad ja millest nad saavad kasu, mis osutub lõppkokkuvõttes edukamaks vastuvõtmiseks kui patenteeritud tarkvara. See on kooskõlas Bitcoin eetosega, et "teave ihkab olla vaba" See toob kokku kirglikud inimesed, kes moodustavad kogukonna ja on lihtsalt lõbusam. Nagu Bitcoin, on ka FOSS paratamatu.
 
@@ -122,13 +122,13 @@ BTCPay Server Foundation, mis võimaldas Alekosel ja Basil selle kursuse kirjuta
 See on klassiruumi harjutus, nii et kui te ise selle kursuse läbite, ei saa te seda sooritada, kuid saate selle harjutuse siiski läbi teha. Selle ülesande täitmiseks on vaja vähemalt 9-11 inimest.
 
 
-Harjutus algab pärast BBC sissejuhatuse "Kuidas Bitcoin ja Blockchain töötab" vaatamist.
+Harjutus algab pärast BBC sissejuhatuse "Kuidas Bitcoin ja [Blockchain](https://planb.academy/resources/glossary/blockchain) töötab" vaatamist.
 
 
 :::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
 
-Selleks on vaja vähemalt üheksa osalejat. Selle harjutuse eesmärk on anda füüsiline arusaam Bitcoin toimimisest. Mängides iga rolli võrgus, saate interaktiivse ja mängulise õppimisviisi. See harjutus ei hõlma Lightning Network.
+Selleks on vaja vähemalt üheksa osalejat. Selle harjutuse eesmärk on anda füüsiline arusaam Bitcoin toimimisest. Mängides iga rolli võrgus, saate interaktiivse ja mängulise õppimisviisi. See harjutus ei hõlma [Lightning Network](https://planb.academy/resources/glossary/lightning-network).
 
 
 ### Näide: Vajab 9 / 11 inimest
@@ -140,7 +140,7 @@ Rollid on järgmised:
 
 - 1 klient
 - 1 kaupmees
-- 7 kuni 9 Bitcoin sõlme
+- 7 kuni 9 Bitcoin [sõlme](https://planb.academy/resources/glossary/node)
 
 
 **Setup on järgmine:**
@@ -234,15 +234,15 @@ Määratlege järgmised eelnevas punktis tutvustatud põhiterminid:
 
 
 - Sõlme
-- Mempool
-- Raskusaste Eesmärk
+- [Mempool](https://planb.academy/resources/glossary/mempool)
+- [Raskusaste](https://planb.academy/resources/glossary/difficulty) Eesmärk
 - Plokk
 
 
 **Rühmana arutleda mõnede täiendavate terminite tähenduse üle:**
 
 
-Blockchain, tehing, topeltkulu, Bütsantsi kindlusprobleem, Mining, Proof of Work (PoW), Hash funktsioon, Block reward, Blockchain, pikim ahel, 51% rünnak, väljund, väljundlukk, muudatus, Satoshis, avalik/privaatvõti, Address, avaliku võtme krüptograafia, digitaalne allkiri, Wallet
+Blockchain, tehing, topeltkulu, Bütsantsi kindlusprobleem, Mining, Proof of Work (PoW), Hash funktsioon, Block reward, Blockchain, pikim ahel, 51% rünnak, väljund, väljundlukk, muudatus, [Satoshis](https://planb.academy/resources/glossary/satoshi-sat), avalik/privaatvõti, Address, avaliku võtme [krüptograafia](https://planb.academy/resources/glossary/cryptography), digitaalne allkiri, Wallet
 
 
 # BTCPay serveri tutvustamine
@@ -573,7 +573,7 @@ Selles osas õppisite:
 ### Mis on seotud Bitcoin võtmete genereerimisega?
 
 
-Bitcoin rahakotide loomisel luuakse nn "seed". Viimases eesmärgis lõid sa "seed", Enne loodud sõnade rida on tuntud ka kui Mnemonic fraasid. seed kasutatakse individuaalsete Bitcoin võtmete tuletamiseks ja Bitcoin saatmiseks või vastuvõtmiseks. seed fraase ei tohi kunagi jagada kolmandate isikute või usaldamata partneritega.
+Bitcoin rahakotide loomisel luuakse nn "[seed](https://planb.academy/resources/glossary/seed)". Viimases eesmärgis lõid sa "seed", Enne loodud sõnade rida on tuntud ka kui Mnemonic fraasid. seed kasutatakse individuaalsete Bitcoin võtmete tuletamiseks ja Bitcoin saatmiseks või vastuvõtmiseks. seed fraase ei tohi kunagi jagada kolmandate isikute või usaldamata partneritega.
 
 
 seed genereerimine toimub vastavalt tööstusstandardile, mida tuntakse kui "hierarhilist deterministlikku" (HD) raamistikku.
@@ -596,11 +596,11 @@ Address saadakse avalikust võtmest "hashing-algoritmi" abil Enamik rahakotte ja
 
 
 
-- Aadressid algusega `bc1...` liiguvad aeglaselt väga levinud aadresside hulka. Neid tuntakse kui (algupäraseid) SegWit-aadresse. Need pakuvad paremat tasustruktuuri kui teised mainitud aadressid. Natiivsed SegWit aadressid kasutavad Bech32 kodeeringut ja lubavad ainult väikseid tähti.
+- Aadressid algusega `bc1...` liiguvad aeglaselt väga levinud aadresside hulka. Neid tuntakse kui (algupäraseid) [SegWit](https://planb.academy/resources/glossary/segwit)-aadresse. Need pakuvad paremat tasustruktuuri kui teised mainitud aadressid. Natiivsed SegWit aadressid kasutavad Bech32 kodeeringut ja lubavad ainult väikseid tähti.
 
 
 
-- Aadressid, mis algavad numbritega `3...`, on börsidel ikka veel levinud hoiuseaadressid. Need aadressid on mainitud peatükis "Uue poe loomine", pakitud või nested SegWit aadressid. Need võivad aga toimida ka kui "Multisig Address". Kui neid kasutatakse SegWit Address-aadressidena, on tehingutasude osas mõningane kokkuhoid, jällegi vähem kui natiivse SegWit puhul. P2SH aadressid kasutavad Base58 kodeeringut. See muudab selle juhtumitundlikuks, nagu vanad Address.
+- Aadressid, mis algavad numbritega `3...`, on börsidel ikka veel levinud hoiuseaadressid. Need aadressid on mainitud peatükis "Uue poe loomine", pakitud või nested SegWit aadressid. Need võivad aga toimida ka kui "Multisig Address". Kui neid kasutatakse SegWit Address-aadressidena, on [tehingutasude](https://planb.academy/resources/glossary/transaction-fees) osas mõningane kokkuhoid, jällegi vähem kui natiivse SegWit puhul. P2SH aadressid kasutavad Base58 kodeeringut. See muudab selle juhtumitundlikuks, nagu vanad Address.
 
 
 
@@ -618,7 +618,7 @@ Avalikke võtmeid kasutatakse tänapäeval praktikas harvemini. Aja jooksul on B
 
 
 
-- HD rahakotid kasutavad aga teistsugust struktuuri. `xpub...`, `ypub...` või `zpub...` nimetatakse laiendatud avalikeks võtmeteks ehk xpubideks. Neid võtmeid kasutatakse paljude avalike võtmete tuletamiseks HD Wallet osana. Kuna teie xpub sisaldab andmeid kogu teie ajaloo kohta, st varasemate ja tulevaste tehingute kohta, ärge kunagi jagage neid usaldamatutele osapooltele.
+- HD rahakotid kasutavad aga teistsugust struktuuri. `xpub...`, `ypub...` või `zpub...` nimetatakse laiendatud avalikeks võtmeteks ehk xpubideks. Neid võtmeid kasutatakse paljude avalike võtmete tuletamiseks HD Wallet osana. Kuna teie [xpub](https://planb.academy/resources/glossary/xpub) sisaldab andmeid kogu teie ajaloo kohta, st varasemate ja tulevaste tehingute kohta, ärge kunagi jagage neid usaldamatutele osapooltele.
 
 
 ### Oskuste kokkuvõte
@@ -670,7 +670,7 @@ Hot rahakotid on kõige mugavam viis Bitcoin-ga suhtlemiseks mobiil-, veebi- võ
 Üksikisikud viivad oma Bitcoin Cold Wallet-sse, sest see suudab eralisi võtmeid internetist isoleerida, kaitstes neid seega võimalike veebiohtude eest. Internetiühenduse eemaldamine vähendab pahavara, nuhkvara ja SIM-kaardi vahetamise ohtu. Usutakse, et Cold mälu on turvalisuse ja sõltumatuse poolest parem kui Hot mälu, tingimusel et võetakse piisavaid ettevaatusabinõusid, et vältida Bitcoin privaatvõtmete kaotamist. Cold säilitamine on kõige sobivam suurte Bitcoin koguste jaoks, mida ei kavatseta Wallet seadistuse keerukuse tõttu sageli kulutada.
 
 
-Bitcoin võtmete Cold salvestamiseks on erinevaid meetodeid, alates paberist rahakotidest kuni ajukotideni, riistvara rahakottideni või algusest peale Wallet failini. Enamik rahakotte kasutab BIP 39 generate fraasi seed jaoks. Bitcoin core tarkvaras ei ole aga veel saavutatud üksmeelt selle kasutamise osas. Bitcoin core tarkvara generate ikkagi Wallet.dat faili, mida peate salvestama turvalisse offline-kohta.
+Bitcoin võtmete Cold salvestamiseks on erinevaid meetodeid, alates paberist rahakotidest kuni ajukotideni, riistvara rahakottideni või algusest peale Wallet failini. Enamik rahakotte kasutab [BIP](https://planb.academy/resources/glossary/bip) 39 generate fraasi seed jaoks. Bitcoin core tarkvaras ei ole aga veel saavutatud üksmeelt selle kasutamise osas. Bitcoin core tarkvara generate ikkagi Wallet.dat faili, mida peate salvestama turvalisse offline-kohta.
 
 
 ### Oskuste kokkuvõte
@@ -717,24 +717,25 @@ BTCPay Server koosneb järgmistest standardsetest Wallet funktsioonidest:
 - Rescan
 - Tõmba makseid
 - Väljamaksed
-- PSBT
+- [PSBT](https://planb.academy/resources/glossary/psbt)
 - Üldised seaded
 
 
 ### Tehingud
 
 
-Administraatorid saavad näha selle konkreetse kauplusega ühendatud On-Chain Wallet sissetulevaid ja väljaminevaid tehinguid tehingute vaates. Iga tehingu puhul eristatakse saadud ja saadetud summad. Saadud on Green ja väljaminevad tehingud on punased. BTCPay Serveri tehingute vaates näevad administraatorid ka standardseid silte.
+Administraatorid saavad näha selle konkreetse kauplusega ühendatud On-Chain Wallet sissetulevaid ja väljaminevaid tehinguid tehingute vaates. Iga tehingu puhul eristatakse saadud ja saadetud summad. Saadud on Green ja väljaminevad tehingud on punased. BTCPay Serveri tehingute vaates näevad administraatorid ka standardseid [silte](https://planb.academy/resources/glossary/label).
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| Tehingu tüüp | Kirjeldus                                          |
+| ------------- | -------------------------------------------------- |
+| Rakendus      | Makse saadi rakenduse loodud arve kaudu            |
+| Arve          | Makse saadi arve kaudu                             |
+| [Payjoin](https://planb.academy/resources/glossary/payjoin)       | Pole makstud, arve taimer ei ole veel aegunud      |
+| Payjoin-paljastatud | [UTXO](https://planb.academy/resources/glossary/utxo) paljastati arve payjoin-ettepaneku kaudu |
+| Maksepäring   | Makse saadi maksepäringu kaudu                     |
+| Väljamakse    | Makse saadeti väljamakse või tagasimakse kaudu     |
 
 ### Kuidas saata
 
@@ -1130,7 +1131,7 @@ Vasakpoolse menüüriba valikust Lightning Wallet leiavad serveri administraator
 #### Sisene sõlme info
 
 
-Serveri administraatorid saavad klõpsata sisemise sõlme infolehel, et vaadata oma serveri olekut (Online/Offline) ja Clearneti või Tori ühendusstringi.
+Serveri administraatorid saavad klõpsata sisemise sõlme infolehel, et vaadata oma serveri olekut (Online/Offline) ja Clearneti või [Tori](https://planb.academy/resources/glossary/tor) ühendusstringi.
 
 
 ![image](assets/en/033.webp)
@@ -1805,28 +1806,30 @@ Igal tüübil on oma parameetrid, mida täita. Poe omanik saab selle seadistada 
 BTCPay Server võimaldab teil ka vormide koostamist koodis. JSON, eriti. Selle asemel, et vaadata redaktorit, saavad poeomanikud klõpsata nupule CODE otse redaktori kõrval ja pääseda oma Vormide koodi sisse. Välja määratluses saab määrata ainult järgmisi välju; väljade väärtused on salvestatud Invoice metaandmetesse:
 
 
-| Field                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+| Väli | Kirjeldus |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| .fields.constant      | If true, the .value must be set in the form definition, and the user will not be able to change the field's value. ( example: the form definition's version)                                                                                                                                                                                                                                                                                                       |
-| .fields.type          | The HTML input type text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel                                                                                                                                                                                                                                                                                                |
-| .fields.options       | If .fields.type is select, the list of selectable values                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.options.text  | The text displayed for this option                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| .fields.options.value | The value of the field if this option is selected                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| .fields.type=fieldset | Create a HTML fieldset around the children .fields.fields (see below)                                                                                                                                                                                                                                                                                                                                                                                              |
-| .fields.name          | The JSON property name of the field as it will appear in the invoice's metadata                                                                                                                                                                                                                                                                                                                                                                                    |
-| .fields.value         | The default value of the field                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| .fields.required      | if true, the field will be required                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| .fields.label         | The label of the field                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| .fields.helpText      | Additional text to provide an explanation for the field.                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.fields        | You can organize your fields in a hierarchy, allowing child fields to be nested within the invoice’s metadata. This structure can help you better organize and manage the collected information, making it easier to access and interpret. For example, if you have a form that collects customer information, you can group the fields under a parent field called customer. Within this parent field, you might have child fields like name, Email, and address. |
+| .fields.constant | Kui on true, peab .value olema määratud vormi definitsioonis ja kasutaja ei saa välja väärtust muuta. (näide: vormi definitsiooni versioon) |
+| .fields.type | HTML sisenditüüp: text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | Kui .fields.type on select, siis valitavate väärtuste loend |
+| .fields.options.text | Selle valiku puhul kuvatav tekst |
+| .fields.options.value | Välja väärtus, kui see valik on märgitud |
+| .fields.type=fieldset | Loob HTML fieldset-i alamväljade .fields.fields ümber (vt allpool) |
+| .fields.name | Välja JSON-omaduse nimi, nagu see ilmub arve metaandmetes |
+| .fields.value | Välja vaikeväärtus |
+| .fields.required | kui on true, on väli kohustuslik |
+| .fields.label | Välja silt |
+| .fields.helpText | Täiendav tekst välja selgitamiseks. |
+| .fields.fields | Saate oma välju organiseerida hierarhiliselt, võimaldades alamväljade pesastamist arve metaandmetesse. See struktuur aitab teil kogutud teavet paremini organiseerida ja hallata, muutes sellele juurdepääsu ja tõlgendamise lihtsamaks. Näiteks kui teil on vorm, mis kogub klienditeavet, saate rühmitada väljad ülemvälja customer alla. Selle ülemvälja sees võivad olla alamväljad nagu name, Email ja address. |
 
 Välja nimi kujutab endast JSON-omaduse nime, mis salvestab kasutaja poolt antud väärtuse Invoice metaandmetes. Mõningaid tuntud nimesid saab tõlgendada ja muuta, et kohandada Invoice seadeid.
 
 
-| Field name       | Description            |
+
+| Välja nimi       | Kirjeldus             |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Arve summa            |
+| invoice_currency | Arve valuuta          |
 
 Invoice väljad saab automaatselt eeltäita, lisades vormi URL-ile päringustringid, näiteks "?your_field=value".
 
@@ -2276,7 +2279,8 @@ docker logs --tail 100 generated_btcpayserver_1
 ```
 
 
-| Logs for     | Container Name                    |
+
+| Logid         | Konteineri nimi                    |
 | ------------ | --------------------------------- |
 | BTCPayServer | generated_btcpayserver_1          |
 | NBXplorer    | generated_nbxplorer_1             |
@@ -2467,21 +2471,22 @@ Kui te ei kasuta maksete käsitsi vastuvõtmiseks sisseehitatud [Wallet](https:/
 Alljärgnevas tabelis on loetletud ja kirjeldatud Invoice standardseisundid BTCPays koos soovitatud üldiste tegevustega. Tegevused on vaid soovitused. Kasutajad peavad ise määrama oma kasutusjuhtumi ja ettevõtte jaoks parima tegutsemisviisi.
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| Arve olek | Kirjeldus | Tegevus |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | Tasumata, arve taimer pole veel aegunud | Puudub |
+| New (paidPartial) | Tasutud osaliselt, arve taimer pole veel aegunud | Puudub |
+| Expired | Tasumata, arve taimer on aegunud | Puudub |
+| Expired (paidPartial) ** | Tasutud osaliselt ja aegunud | Võtke ostjaga ühendust tagasimakseks või paluge tasuda võlgnevus. Valikuliselt märkige arve settled või invalid |
+| Expired (paidLate) | Tasutud täies mahus pärast arve taimeri aegumist | Võtke ostjaga ühendust tagasimakseks või töötlege tellimus, kui hilised kinnitused on aktsepteeritavad. |
+| Settled (paidOver) | Tasutud arvel olevast summast rohkem, laekunud piisav arv kinnitusi | Võtke ostjaga ühendust enamtasutud summa tagastamiseks või oodake, kuni ostja teiega ühendust võtab |
+| Processing | Tasutud täies mahus, kuid pole laekunud piisavalt kinnitusi (vastavalt poe seadetele) | Võtke ostjaga ühendust enamtasutud summa tagastamiseks või oodake, kuni ostja teiega ühendust võtab |
+| Processing (paidOver) | Tasutud arvel olevast summast rohkem, pole laekunud piisavalt kinnitusi | Oodake olekut settled, seejärel võtke ostjaga ühendust tagasimakseks või oodake ostja kontakti |
+| Settled | Tasutud täies mahus, poes on laekunud piisav arv kinnitusi | Täitke tellimus |
+| Settled (marked) | Olek muudeti käsitsi processing või invalid olekust settled olekusse | Poe administraator märkis makse olekuks settled |
+| Invalid* | Tasutud, kuid määratud aja jooksul ei laekunud piisavalt kinnitusi | Kontrollige tehingut plokiahela sirvijas; kui kinnitusi on piisavalt, märkige settled |
+| Invalid (marked) | Olek muudeti käsitsi settled või expired olekust invalid olekusse | Poe administraator märkis makse olekuks invalid |
+| Invalid (paidOver) | Tasutud arvest rohkem, kuid määratud aja jooksul ei laekunud piisavalt kinnitusi | Kontrollige tehingut plokiahela sirvijas; kui kinnitusi on piisavalt, märkige settled |
 
 #### Invoice üksikasjad
 
@@ -2670,7 +2675,7 @@ Mis siis, kui selle asemel, et saatja lükkab makse, lubab saatja vastuvõtjal t
 ### Väljamaksed
 
 
-Väljamaksefunktsioon on seotud funktsiooniga [Pull Payments] (https://docs.btcpayserver.org/PullPayments/). See funktsioon võimaldab teil luua väljamakseid oma BTCPay raames. See funktsioon võimaldab teil töödelda pull-makseid (tagasimaksed, palga väljamaksed või väljamaksed).
+Väljamaksefunktsioon on seotud funktsiooniga [Pull Payments](https://docs.btcpayserver.org/PullPayments/). See funktsioon võimaldab teil luua väljamakseid oma BTCPay raames. See funktsioon võimaldab teil töödelda pull-makseid (tagasimaksed, palga väljamaksed või väljamaksed).
 
 
 #### Näide 1: Tagasimakse
@@ -2700,7 +2705,7 @@ Klient saab nüüd nõude esitamise lehel ajakohastatud. Ta saab jälgida tehing
 #### Näide 2: Palk
 
 
-Nüüd vaatleme palga väljamaksmist, sest seda juhitakse poe seest, mitte kliendi soovil. Alusidee on sama; see kasutab pull-makseid. Kuid selle asemel, et luua tagasimakse, teeme [Pull Payment] (https://docs.btcpayserver.org/PullPayments/).
+Nüüd vaatleme palga väljamaksmist, sest seda juhitakse poe seest, mitte kliendi soovil. Alusidee on sama; see kasutab pull-makseid. Kuid selle asemel, et luua tagasimakse, teeme [Pull Payment](https://docs.btcpayserver.org/PullPayments/).
 
 
 Mine oma BTCPay serveris vahekaardile Pull Payments. Klõpsake üleval paremal pool nupul Create Pull Payment.

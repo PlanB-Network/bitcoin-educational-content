@@ -1,10 +1,12 @@
 ---
-term: REUTILIZACIÓN DE DIRECCIONES
+term: Reutilización de direcciones
 
+definition: Una práctica desaconsejada de usar la misma dirección Bitcoin varias veces para recibir pagos, lo que perjudica la privacidad al permitir rastrear los fondos.
 ---
 La reutilización de direcciones se refiere a la práctica de utilizar la misma dirección receptora para bloquear múltiples UTXOs, a veces dentro de varias transacciones diferentes. Los bitcoins suelen bloquearse mediante un par de claves criptográficas que corresponden a una dirección única. Como la blockchain es pública, es fácil ver qué direcciones están asociadas a cuántos bitcoins. En el caso de reutilizar la misma dirección para múltiples pagos, es razonable imaginar que todos los UTXO asociados pertenecen a la misma entidad. Por lo tanto, la reutilización de direcciones plantea un problema para la privacidad del usuario. Permite establecer vínculos deterministas entre múltiples transacciones y UTXOs, así como perpetuar el seguimiento de fondos en la cadena. Satoshi Nakamoto ya mencionó este problema en su Libro Blanco:
 
-> "*Como cortafuegos adicional, se podría utilizar un nuevo par de claves para cada transacción para evitar que se vinculen a un propietario común.*" - Nakamoto, S. (2008). "Bitcoin: Un sistema de dinero electrónico entre iguales". Consultado en https://bitcoin.org/bitcoin.pdf.
-Para preservar al máximo la privacidad, se recomienda encarecidamente utilizar cada dirección de recepción una sola vez. Para cada nuevo pago, conviene generar una nueva dirección. Para las salidas de cambio, también conviene utilizar una nueva dirección. Afortunadamente, gracias a los monederos deterministas y jerárquicos, ahora es muy fácil utilizar multitud de direcciones. Todos los pares de claves asociados a un monedero pueden regenerarse fácilmente a partir de la semilla. Esta es también la razón por la que el software del monedero siempre genera una dirección nueva y diferente cuando se pulsa el botón "Recibir".
+> *Como cortafuegos adicional, debe utilizarse un nuevo par de claves para cada transacción a fin de evitar que se vinculen a un propietario común.*
 
-> ► *En inglés se denomina "Address Reuse "*
+Nakamoto, S. (2008). "*Bitcoin: A Peer-to-Peer Electronic Cash System*". https://bitcoin.org/bitcoin.pdf.
+
+Para preservar al máximo la privacidad, se recomienda encarecidamente utilizar cada dirección de recepción una sola vez. Para cada nuevo pago, conviene generar una nueva dirección. Para las salidas de cambio, también conviene utilizar una nueva dirección. Afortunadamente, gracias a los monederos deterministas y jerárquicos, ahora es muy fácil utilizar multitud de direcciones. Todos los pares de claves asociados a un monedero pueden regenerarse fácilmente a partir de la semilla. Esta es también la razón por la que el software del monedero siempre genera una dirección nueva y diferente cuando se pulsa el botón "Recibir".

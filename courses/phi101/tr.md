@@ -27,7 +27,7 @@ Antik Çağ'dan Aydınlanma'ya kadar, toplumlar hoşgörüyü ve ekonomik bağı
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
 
-PHI201'e hoş geldiniz!
+PHI101'e hoş geldiniz!
 
 
 Bu ders sizi, özgürlüğü şekillendiren başlıca düşünce ekollerini analiz ederek özgürlüğün tarih boyunca geçirdiği evrimi keşfetmeye davet ediyor. Özgürlük kavramının yüzyıllar boyunca iktidara karşı ya da iktidarla işbirliği içinde nasıl evrildiğini Antik Çağ'dan çağdaş tartışmalara uzanan tarihsel bir yolculukla keşfedeceksiniz.
@@ -191,7 +191,7 @@ Tarihteki her türlü baskının kökeninde güce duyulan açlık yatmaktadır. 
 Dolayısıyla tarih iki ilke arasındaki bir mücadeledir: özgürlük ve baskı.
 
 
-> Özgürlük! Nihayetinde uyumlu ilke budur. Baskı! Bu uyumsuz ilkedir; bu iki gücün mücadelesi insanlığın tarihini doldurur. ([_Ekonomik Uyumlar_] (http://bastiat.org/fr/conclusion_eo_harmonies.html), orijinal baskının sonucu).
+> Özgürlük! Nihayetinde uyumlu ilke budur. Baskı! Bu uyumsuz ilkedir; bu iki gücün mücadelesi insanlığın tarihini doldurur. ([_Ekonomik Uyumlar_](http://bastiat.org/fr/conclusion_eo_harmonies.html), orijinal baskının sonucu).
 
 ### Baskı nedir?
 
@@ -205,7 +205,7 @@ Tek kelimeyle, yağmadır. Bastiat, yönetici elitlerden kaynaklanan başlıca y
 Üretim ile yağma arasındaki fark nedir? İşte Bastiat'nın cevabı:
 
 
-> Üretmek için kişi tüm yetilerini doğaya hükmetmeye yöneltmelidir; çünkü savaşılması, evcilleştirilmesi ve köleleştirilmesi gereken doğadır. Sabana dönüştürülmüş demirin üretimin simgesi olmasının nedeni budur. Yağmalamak için, kişi tüm yetilerini insanlara hükmetmeye yöneltmelidir; çünkü savaşılması, öldürülmesi ya da köleleştirilmesi gereken onlardır. İşte bu yüzden kılıca dönüştürülmüş demir yağmanın amblemidir. ([_Ekonomik Uyumlar_] (http://bastiat.org/fr/guerre.html), Savaş).
+> Üretmek için kişi tüm yetilerini doğaya hükmetmeye yöneltmelidir; çünkü savaşılması, evcilleştirilmesi ve köleleştirilmesi gereken doğadır. Sabana dönüştürülmüş demirin üretimin simgesi olmasının nedeni budur. Yağmalamak için, kişi tüm yetilerini insanlara hükmetmeye yöneltmelidir; çünkü savaşılması, öldürülmesi ya da köleleştirilmesi gereken onlardır. İşte bu yüzden kılıca dönüştürülmüş demir yağmanın amblemidir. ([_Ekonomik Uyumlar_](http://bastiat.org/fr/guerre.html), Savaş).
 
 Başka bir deyişle, üretim doğa üzerinde bir iktidar biçimidir. Yağma ise insanlar üzerindeki güçtür. Ancak yağmanın iki biçimi vardır: yasal ve yasadışı.
 
@@ -215,7 +215,7 @@ Yasadışı yağma, bir vatandaşın diğerine karşı işlediği hırsızlık v
 Bastiat bize hala iki tür yasal yağma olduğunu söyler:
 
 
-> Dış yağma savaş, fetihler ve sömürgeler olarak adlandırılır. İç yağma ise genellikle vergiler, mevkiler ve tekeller olarak adlandırılır. ([Cobden and the League_] (http://bastiat.org/fr/introduction_cobden_ligue.html), Giriş).
+> Dış yağma savaş, fetihler ve sömürgeler olarak adlandırılır. İç yağma ise genellikle vergiler, mevkiler ve tekeller olarak adlandırılır. ([Cobden and the League_](http://bastiat.org/fr/introduction_cobden_ligue.html), Giriş).
 
 The Physiology of Plunder_] (http://bastiat.org/fr/physiologie_de_la_spoliation.html) adlı kitabında ayrıntılı olarak açıklamaktadır:
 
@@ -234,8 +234,8 @@ Tarihsel olarak, yönetici elitler her zaman yağma ile yaşamışlardır. Basti
 > Yağma için uygulanan güç, insanlık tarihinin temelidir. Tarihinin izini sürmek, neredeyse tüm halkların tarihini yeniden üretmek anlamına gelecektir: Asurlular, Babilliler, Medler, Persler, Mısırlılar, Yunanlılar, Romalılar, Gotlar, Franklar, Hunlar, Türkler, Araplar, Moğollar, Tatarlar, Amerika'daki İspanyollar, Hindistan'daki İngilizler, Afrika'daki Fransızlar, Asya'daki Ruslar vs.
 >
 
-> ([_Economic Sophisms_] (http://bastiat.org/fr/conclusion_sophismes.html), Birinci cildin sonuç bölümü).
-> Yağma, en acımasız haliyle, meşale ve kılıçla silahlanmış olarak insanlık tarihinin yıllıklarını dolduruyor. Tarihi özetleyen isimler nelerdir? Kiros, Sesostris, İskender, Scipio, Sezar, Attila, Timurlenk, Muhammed, Pizarro, Fatih William; bu, fetihler yoluyla saf yağmadır. Defneler, anıtlar, heykeller ve zafer takları buna aittir. ([_Ekonomik Uyumlar_] (http://bastiat.org/fr/conclusion_eo_harmonies.html), orijinal baskının sonucu).
+> ([_Economic Sophisms_](http://bastiat.org/fr/conclusion_sophismes.html), Birinci cildin sonuç bölümü).
+> Yağma, en acımasız haliyle, meşale ve kılıçla silahlanmış olarak insanlık tarihinin yıllıklarını dolduruyor. Tarihi özetleyen isimler nelerdir? Kiros, Sesostris, İskender, Scipio, Sezar, Attila, Timurlenk, Muhammed, Pizarro, Fatih William; bu, fetihler yoluyla saf yağmadır. Defneler, anıtlar, heykeller ve zafer takları buna aittir. ([_Ekonomik Uyumlar_](http://bastiat.org/fr/conclusion_eo_harmonies.html), orijinal baskının sonucu).
 > Dünya tarihi, bir grup insanın diğerlerini savaş, kölelik ve teokrasi yoluyla genellikle sistematik olarak nasıl yağmaladığının tarihidir. Günümüzde ise tekel, yani Devlet tarafından müşterilerine dağıtılan ekonomik ayrıcalıklar söz konusudur.
 
 Bastiat, 1850 yılında Roma'da ölmeden birkaç gün önce arkadaşı Prosper Paillottet'ye içini döktü:
@@ -262,10 +262,10 @@ Tarihi galiplerin yazdığı bilinmektedir. Dikkatler genellikle iktidarın feth
 
 Bu durum özellikle devlet okulları için hazırlanan ve devlet tarafından istihdam edilen profesörler tarafından yazılan ders kitapları için geçerlidir.
 
-Cambridge'li bir tarihçi olan [Lord Acton] (https://www.lesbelleslettres.com/livre/9782251447858/le-pouvoir-corrompt) tarafından 19. yüzyılda yazılmış iki ciltlik bir eser için durum böyle değildir. Tam adı John Emerich Edward Dalberg, Acton Baronu (1834-1902). Kendisi _History of Liberty in Antiquity and Christianity_ kitabının yazarıdır. Çalışması bu konudaki en önemli çalışmalardan biri olarak kabul edilir ve kariyerinin büyük bir bölümünü bu çalışmaya adamıştır. Çalışması tamamlanmamış olmasına rağmen, gücün kötüye kullanılmasının tehlikelerine karşı güçlü bir uyarı niteliğindedir ve özgürlük ve bireysel sorumluluk savunusu bugün de geçerliliğini korumaktadır.
+Cambridge'li bir tarihçi olan [Lord Acton](https://www.lesbelleslettres.com/livre/9782251447858/le-pouvoir-corrompt) tarafından 19. yüzyılda yazılmış iki ciltlik bir eser için durum böyle değildir. Tam adı John Emerich Edward Dalberg, Acton Baronu (1834-1902). Kendisi _History of Liberty in Antiquity and Christianity_ kitabının yazarıdır. Çalışması bu konudaki en önemli çalışmalardan biri olarak kabul edilir ve kariyerinin büyük bir bölümünü bu çalışmaya adamıştır. Çalışması tamamlanmamış olmasına rağmen, gücün kötüye kullanılmasının tehlikelerine karşı güçlü bir uyarı niteliğindedir ve özgürlük ve bireysel sorumluluk savunusu bugün de geçerliliğini korumaktadır.
 
 
-Bu yazar en çok şu özdeyişiyle tanınır: "Güç yozlaştırma eğilimindedir ve mutlak güç mutlak yozlaştırır." Bu formül Montesquieu'nun [_The Spirit of the Laws_] (https://fr.wikisource.org/wiki/Page:Montesquieu_-_Esprit_des_Lois_-_Tome_1.djvu/316) adlı eserinde kullandığı formülle aynıdır:
+Bu yazar en çok şu özdeyişiyle tanınır: "Güç yozlaştırma eğilimindedir ve mutlak güç mutlak yozlaştırır." Bu formül Montesquieu'nun [_The Spirit of the Laws_](https://fr.wikisource.org/wiki/Page:Montesquieu_-_Esprit_des_Lois_-_Tome_1.djvu/316) adlı eserinde kullandığı formülle aynıdır:
 
 
 > Güce sahip olan her insanın bunu kötüye kullanma eğiliminde olduğu ebedi bir deneyimdir.
@@ -295,7 +295,7 @@ Temel tezi, "özgürlüğün güçler çatışması tarafından tesis edildiği 
 Ancak Avrupa'da özgürlüğün, mutlak hakimiyetin kurulmasını engelleyen çeşitli iktidar sahipleri arasındaki iç mücadelelerden doğduğu fikri Acton'a özgü değildir. Voltaire ve Condorcet gibi düşünürlerde zaten bulunabilir.
 
 
-Bu nedenle Voltaire, [_Philosophical Letters_] (https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6) adlı eserinde, İngiliz özgürlüğünü krallar ve soylular arasındaki çatışmalara bağlar, bu da gücün aşırı yoğunlaşmasını engellemiştir. Ve şunu not eder:
+Bu nedenle Voltaire, [_Philosophical Letters_](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6) adlı eserinde, İngiliz özgürlüğünü krallar ve soylular arasındaki çatışmalara bağlar, bu da gücün aşırı yoğunlaşmasını engellemiştir. Ve şunu not eder:
 
 
 > İngiltere'de tek bir din olsaydı, despotluğundan korkulurdu; iki din olsaydı, birbirlerinin boğazını keserlerdi; ama otuz tane var ve barış ve mutluluk içinde yaşıyorlar. ([Presbiteryenler Üzerine](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6))
@@ -303,10 +303,10 @@ Bu nedenle Voltaire, [_Philosophical Letters_] (https://fr.wikisource.org/wiki/L
 ![image](assets/tr/012.webp)
 
 
-Condorcet, [_Sketch for a Historical Picture of the Progress of the Human Mind_] (https://fr.wikisource.org/wiki/Esquisse_d%E2%80%99un_tableau_historique_des_progr%C3%A8s_de_l%E2%80%99esprit_humain) adlı eserinde, İtalya'daki merkezi olmayan iktidar yapısını, birçok bağımsız şehir devletinin gelişmesine izin veren papa ve imparator arasındaki rekabete bağlar.
+Condorcet, [_Sketch for a Historical Picture of the Progress of the Human Mind_](https://fr.wikisource.org/wiki/Esquisse_d%E2%80%99un_tableau_historique_des_progr%C3%A8s_de_l%E2%80%99esprit_humain) adlı eserinde, İtalya'daki merkezi olmayan iktidar yapısını, birçok bağımsız şehir devletinin gelişmesine izin veren papa ve imparator arasındaki rekabete bağlar.
 
 
-Bu tez 1983 tarihli anıtsal bir eserde de yer almaktadır: _Hukuk ve Devrim: The Formation of the Western Legal Tradition_, Harold J. Berman ([Raoul Audouin'in Fransızca çevirisi] (https://www.eyrolles.com/Entreprise/Livre/droit-et-revolution-9782903449667/), 2002 yılında Aix en Provence Üniversitesi Kitabevi tarafından basılmıştır). Berman'ın analizi, hukuki çoğulculuğun Batı tarihindeki hayati rolünü vurgulamaktadır. Bu sistem, sadece bir karmaşıklık kaynağı olmaktan öte, gelişimin, özgürlüğün ve yeniliğin itici gücü olmuş ve Batı hukuk geleneklerini kalıcı bir şekilde şekillendirmiştir.
+Bu tez 1983 tarihli anıtsal bir eserde de yer almaktadır: _Hukuk ve Devrim: The Formation of the Western Legal Tradition_, Harold J. Berman ([Raoul Audouin'in Fransızca çevirisi](https://www.eyrolles.com/Entreprise/Livre/droit-et-revolution-9782903449667/), 2002 yılında Aix en Provence Üniversitesi Kitabevi tarafından basılmıştır). Berman'ın analizi, hukuki çoğulculuğun Batı tarihindeki hayati rolünü vurgulamaktadır. Bu sistem, sadece bir karmaşıklık kaynağı olmaktan öte, gelişimin, özgürlüğün ve yeniliğin itici gücü olmuş ve Batı hukuk geleneklerini kalıcı bir şekilde şekillendirmiştir.
 
 
 ## Marx: Sınıf Mücadelesi Olarak Tarih
@@ -1219,7 +1219,7 @@ Ekonomik yasaların sistematik olarak incelenmesi Yüksek Orta Çağ'da başlam�
 ![image](assets/tr/049.webp)
 
 
-Parasal analizinin merkezinde paranın "mutasyonları", yani sikkelerin metalik içeriğindeki ve değerindeki değişiklikler sorunu yatmaktadır. Bu değişiklikler zamanın başlangıcından beri meydana gelmiştir ve Antik Çağ ve Orta Çağ için iyi belgelenmiştir. Bunların en görünür etkisi, para biriminin satın alma gücünü değiştirmek, özellikle de azaltmaktır. Bu, Oresme'nin açıkça bir kötülük olarak kınadığı ilkel bir enflasyon biçimidir.
+Parasal analizinin merkezinde paranın "mutasyonları", yani sikkelerin metalik içeriğindeki ve değerindeki değişiklikler sorunu yatmaktadır. Bu değişiklikler zamanın başlangıcından beri meydana gelmiştir ve Antik Çağ ve Orta Çağ için iyi belgelenmiştir. Bunların en görünür etkisi, para biriminin satın alma gücünü değiştirmek, özellikle de azaltmaktır. Bu, Oresme'nin açıkça bir kötülük olarak kınadığı ilkel bir enflasyon [biçimidir](https://planb.academy/resources/glossary/inflation).
 
 
 Oresme hemen temel bir soruyu gündeme getiriyor: Enflasyon toplum için faydalı mıdır? Enflasyonun parayı mübadeleler için daha fazla ya da daha az kullanışlı hale getirmediğini savunarak olumsuz yanıt verir. Ekonomi, fiyat seviyesinden ve dolayısıyla nominal para Supply'ten bağımsız olarak iyi işleyebilir.
@@ -1885,7 +1885,7 @@ Bastiat'nın sözlerine göre, o zaman Devlet
 
 
 > herkesin bir diğerinin zararına yaşamaya çalıştığı büyük kurgu. ([_Devlet_](http://bastiat.org/fr/l_etat.html))
-> Bastiat aynı zamanda hukukun hak ettiği rolden saptığında çatışmanın ortaya çıktığı fikrini de geliştirir. Ünlü broşüründe [_The Law_] (http://bastiat.org/fr/la_loi.html), hukukun neden ve nasıl "tüm açgözlülüklerin savaş alanı" haline geldiğini, yani ayrıcalıkların, durumsal rantların ve keyfi vergilendirmenin kaynağı olduğunu gösterir. Yasanın gerçek misyonundan saptırılabileceği, mülkleri güvence altına almak yerine ihlal edebileceği ilkesel olarak kabul edilir edilmez, ya yağmaya karşı savunmak ya da bunu kendi yararına düzenlemek için zorunlu olarak bir sınıf mücadelesi başlar.
+> Bastiat aynı zamanda hukukun hak ettiği rolden saptığında çatışmanın ortaya çıktığı fikrini de geliştirir. Ünlü broşüründe [_The Law_](http://bastiat.org/fr/la_loi.html), hukukun neden ve nasıl "tüm açgözlülüklerin savaş alanı" haline geldiğini, yani ayrıcalıkların, durumsal rantların ve keyfi vergilendirmenin kaynağı olduğunu gösterir. Yasanın gerçek misyonundan saptırılabileceği, mülkleri güvence altına almak yerine ihlal edebileceği ilkesel olarak kabul edilir edilmez, ya yağmaya karşı savunmak ya da bunu kendi yararına düzenlemek için zorunlu olarak bir sınıf mücadelesi başlar.
 
 ![image](assets/tr/077.webp)
 
@@ -1988,7 +1988,7 @@ Ludwig von Mises, Marx'ın insan haklarının burjuva ideolojisine ilişkin olan
 Murray Rothbard, _The Ethics of Liberty_ ve _Anatomy of the State_ adlı eserlerinde sömürünün yalnızca özel mülkiyete karşı bir saldırı olarak anlamlı olduğunu ve yalnızca Devletin gelirlerini saldırganlık yoluyla, yani vergilendirme, borçlanma, para basma ve dolayısıyla enflasyon yoluyla elde ettiğini açıklamıştır. Gerçekte, toplumdaki şiddet ve çatışmaların kaynağı sınıf mücadelesi değil, devlet müdahalesidir. Devlet, kaynaklara el koyarak ve ekonomiyi düzenleyerek, çatışmalara ve baskıya yol açan çarpıklıklar ve adaletsizlikler yaratır. Dolayısıyla sömürüyü sona erdirmek, yağmacı kastın, yani Devletin gücünü azaltmayı gerektirir.
 
 
-Bu konuda ayrıca bkz: _Marksist ve Avusturyacı Sınıf Analizi_, Hans Hermann Hoppe, Liberter Çalışmalar Dergisi, Cilt IX No. 2, Güz 1990. [François Guillaumat'ın çevirisi] (https://fr.liberpedia.org/L%E2%80%99analyse_de_classe_marxiste_et_celle_des_Autrichiens). The Economics and Ethics of Private Property_ (Boston: Kluwer Academic Publishers, 1993) kitabının 4. Bölümü olarak yer almaktadır.
+Bu konuda ayrıca bkz: _Marksist ve Avusturyacı Sınıf Analizi_, Hans Hermann Hoppe, Liberter Çalışmalar Dergisi, Cilt IX No. 2, Güz 1990. [François Guillaumat'ın çevirisi](https://fr.liberpedia.org/L%E2%80%99analyse_de_classe_marxiste_et_celle_des_Autrichiens). The Economics and Ethics of Private Property_ (Boston: Kluwer Academic Publishers, 1993) kitabının 4. Bölümü olarak yer almaktadır.
 
 
 ### Polilojizm
@@ -2289,7 +2289,7 @@ Hayek'e göre piyasa ekonomisinin geçmişteki istikrarsızlığı, piyasa mekan
 ![image](assets/tr/101.webp)
 
 
-Hayek, özel para birimlerinden oluşan serbest bir piyasanın daha fazla parasal istikrara yol açacağına inanıyordu. Yaklaşık 50 yıl sonra, Bitcoin gibi bir kripto para birimi, merkez bankalarının tekelci sistemine merkezi olmayan bir alternatif sunarak Hayek'in rekabetçi vizyonunu somutlaştırıyor. Bitcoin, 21 milyon birimlik sabit emisyon limiti ile enflasyona ve düzenleyicilerin keyfiliğine karşı bir koruma görevi görüyor.
+Hayek, özel para birimlerinden oluşan serbest bir piyasanın daha fazla parasal istikrara yol açacağına inanıyordu. Yaklaşık 50 yıl sonra, Bitcoin gibi bir [kripto para birimi](https://planb.academy/resources/glossary/cryptocurrency), merkez bankalarının tekelci sistemine merkezi olmayan bir alternatif sunarak Hayek'in rekabetçi vizyonunu somutlaştırıyor. Bitcoin, 21 milyon birimlik sabit emisyon limiti ile enflasyona ve düzenleyicilerin keyfiliğine karşı bir koruma görevi görüyor.
 
 
 

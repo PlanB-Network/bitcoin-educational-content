@@ -20,7 +20,7 @@ Med Nakamochi kan hvem som helst sette opp og drive en node hjemmefra, noe som g
 
 Nakamochi er en fullverdig Bitcoin-node som støtter både Bitcoin- og Lightning-nettverkene. Den inkluderer en integrert Bitcoin- og Lightning-lommebok, slik at brukerne kan kjøre en sikker, selvsuveren Bitcoin-node samtidig som de drar nytte av Lightning-nettverkets hastighet og lave transaksjonskostnader.
 
-Nakamochi-noden din administreres via en mobilapp, [BitBanana (Android)] (https://bitbanana.app) og [Zeus (iOS)] (https://bitbanana.app), slik at du enkelt kan kontrollere den fra hvor som helst. Disse appene fungerer som en fjernkontroll for noden din, slik at du enkelt kan betale direkte med Bitcoin eller Lightning, administrere transaksjoner, åpne eller lukke kanaler, sjekke saldoer og overvåke nodens ytelse.
+Nakamochi-noden din administreres via en mobilapp, [BitBanana (Android)](https://bitbanana.app) og [Zeus (iOS)](https://bitbanana.app), slik at du enkelt kan kontrollere den fra hvor som helst. Disse appene fungerer som en fjernkontroll for noden din, slik at du enkelt kan betale direkte med Bitcoin eller Lightning, administrere transaksjoner, åpne eller lukke kanaler, sjekke saldoer og overvåke nodens ytelse.
 
 ## Det tar bare 5 minutter å sette opp Nakamochi
 

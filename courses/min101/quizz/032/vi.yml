@@ -1,0 +1,9 @@
+question: Số tiền trợ cấp khối tại thời điểm ra mắt Bitcoin vào năm 2009 là bao nhiêu?
+answer: 50 BTC
+wrong_answers:
+  - 25 BTC
+  - 12,5 BTC
+  - 100 BTC
+explanation: |
+  Mức trợ cấp ban đầu là 50 BTC mỗi khối, trước các lần chia liên tiếp.
+reviewed: false

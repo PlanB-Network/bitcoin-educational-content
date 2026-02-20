@@ -23,7 +23,7 @@ Sebelum memulai, pastikan Anda telah menyiapkan dompet Bitcoin di Ledger Anda. P
 Hubungkan Ledger ke komputer Anda dan buka kuncinya.
 ![Image](assets/fr/01.webp)
 
-Untuk menginstal aplikasi, buka perangkat lunak [Ledger Live] (https://www.Ledger.com/Ledger-live), lalu pergi ke tab "*My Ledger*". Temukan aplikasi "*Security Key*" dan instal di perangkat Anda.
+Untuk menginstal aplikasi, buka perangkat lunak [Ledger Live](https://www.Ledger.com/Ledger-live), lalu pergi ke tab "*My Ledger*". Temukan aplikasi "*Security Key*" dan instal di perangkat Anda.
 ![Image](assets/fr/02.webp)
 
 Aplikasi "*Security Key*" seharusnya kini muncul bersamaan dengan aplikasi lain yang terinstal di Ledger Anda.

@@ -144,7 +144,7 @@ Dilerseniz e-posta ile gelen linke tıklayarak işletmenizin tanıtımını yapa
 
 ![SWISS BITCOIN PAY](assets/notext/16.webp)
 
-PoS'u bir akıllı telefon veya tablette kullanmak istiyorsanız, iki seçeneğiniz vardır: uygulamayı yüklemek veya web sürümünü doğrudan tarayıcınızdan kullanmak. İkinci seçenek için, [İsviçre Bitcoin Pay sitesi] (https://dashboard.swiss-Bitcoin-pay.ch/signin) adresinde oturum açarak kontrol panelinize erişin.
+PoS'u bir akıllı telefon veya tablette kullanmak istiyorsanız, iki seçeneğiniz vardır: uygulamayı yüklemek veya web sürümünü doğrudan tarayıcınızdan kullanmak. İkinci seçenek için, [İsviçre Bitcoin Pay sitesi](https://dashboard.swiss-Bitcoin-pay.ch/signin) adresinde oturum açarak kontrol panelinize erişin.
 
 ![SWISS BITCOIN PAY](assets/notext/17.webp)
 
@@ -152,7 +152,7 @@ Ardından, Interface'ünüzde bulunan QR kodunu seçtiğiniz cihazla taramanız 
 
 ![SWISS BITCOIN PAY](assets/notext/18.webp)
 
-PoS'un bir uygulama şeklinde olmasını tercih ediyorsanız, uygulama mağazanıza [Google Play Store](https://play.google.com/store/apps/details?id=ch.swissbitcoinpay.checkout) veya [App Store](https://apps.apple.com/us/app/swiss-Bitcoin-pay/id6444370155) gidin ve Swiss Bitcoin Pay'i yükleyin. Uygulama ayrıca doğrudan web sitelerinde veya [F-Droid mağazasında] (https://f-droid.org/packages/ch.swissbitcoinpay.checkout/) `.apk` formatında da mevcuttur.
+PoS'un bir uygulama şeklinde olmasını tercih ediyorsanız, uygulama mağazanıza [Google Play Store](https://play.google.com/store/apps/details?id=ch.swissbitcoinpay.checkout) veya [App Store](https://apps.apple.com/us/app/swiss-Bitcoin-pay/id6444370155) gidin ve Swiss Bitcoin Pay'i yükleyin. Uygulama ayrıca doğrudan web sitelerinde veya [F-Droid mağazasında](https://f-droid.org/packages/ch.swissbitcoinpay.checkout/) `.apk` formatında da mevcuttur.
 
 ![SWISS BITCOIN PAY](assets/notext/19.webp)
 

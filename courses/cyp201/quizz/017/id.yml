@@ -6,4 +6,4 @@ wrong_answers:
   - P-384
 explanation: |
   Bitcoin menggunakan kurva secp256k1, yang didefinisikan oleh persamaan y² = x³ + 7, untuk operasi kriptografinya.
-ditinjau: false
+reviewed: true

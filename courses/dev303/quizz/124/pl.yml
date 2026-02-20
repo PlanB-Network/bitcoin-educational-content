@@ -1,0 +1,8 @@
+question: Jaki jest główny mechanizm techniczny, który umożliwia Breez SDK prezentowanie użytkownikom ujednoliconej równowagi przy jednoczesnym zachowaniu funkcjonalności Lightning i on-chain Bitcoin?
+answer: Usługi automatycznej zamiany, które w razie potrzeby konwertują między Lightning i on-chain Bitcoin za kulisami
+wrong_answers:
+  - Agregacja salda w czasie rzeczywistym, która wyświetla sumę środków Lightning i on-chain bez faktycznej konwersji
+  - Łączenie rezerw kanałowych, które umożliwia swobodny przepływ środków między stanami Lightning i on-chain w ramach tego samego UTXO
+  - Dwuwarstwowe generowanie adresów, które tworzy adresy hybrydowe zdolne do odbierania zarówno płatności Lightning, jak i on-chain
+explanation: |
+  Prawidłową odpowiedzią jest automatyczna zamiana usług, ponieważ Breez SDK specjalnie implementuje funkcję zamiany on-chain, aby płynnie konwertować między Lightning i on-chain Bitcoin, gdy użytkownicy muszą dokonywać różnych rodzajów płatności. Pozwala to użytkownikom zobaczyć pojedyncze saldo, podczas gdy system obsługuje techniczną złożoność przenoszenia środków między warstwami. Błędne odpowiedzi opisują nieistniejące lub technicznie niemożliwe mechanizmy - agregacja salda wyświetlałaby tylko połączone kwoty bez włączania funkcji między warstwami, rezerwy kanałów nie mogą przenosić środków do stanów on-chain, a adresy hybrydowe nie istnieją w protokole Bitcoin.

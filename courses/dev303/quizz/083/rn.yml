@@ -1,0 +1,8 @@
+question: Ni gute UniFFI ikora ku gukwiragiza amakosa kuva ku bikorwa vya Rust gushika ku ndimi zigenewe nka Kotlin na Python?
+answer: Imikorere igaruka Ubwoko bw'ibisubizo bugaragazwa n''ugutera' muri UDL na generate ibidasanzwe mu ndimi zigenewe
+wrong_answers:
+  - Ubwoko bw'amakosa burahindurwa ubwabwo mu butumwa bw'urudodo maze bugasubira nk'agaciro k'ubudasa mu ndimi zose zigenewe
+  - Amakosa yose ya Rust azingiwe mu bwoko bw'ikosa rusangi bwa UniFFI ategerezwa gufungurwa n'amaboko n'abahinguzi
+  - Gutorera umuti amakosa bisaba abahinguzi gushiramwo n'amaboko kode y'ubuhinduzi bw'amakosa ku rurimi rwose
+explanation: |
+  UniFFI itanga uburyo buteye imbere bwo gutorera umuti amakosa buzigama urugero rw'amakosa rushingiye ku ngaruka rwa Rust mu gihe ruhindura neza ururimi rwose rwo gukoresha. Imikorere igarura Ubwoko bw'Ibisubizo muri Rust igaragazwa n'ijambo ry'ingenzi 'throws' muri UDL, kandi izo generate zikoresha ibidasanzwe mu ndimi zigenewe - Uburyo bwa Kotlin butera ibidasanzwe bikurikira amasezerano ya Java/Kotlin, mu gihe Python ikoresha uburyo budasanzwe bwa Python. Ivyo bituma gufata amakosa bimeze nk’ibisanzwe kandi bimeze nk’ibisanzwe mu rurimi rwose mu gihe bizigama insobanuro y’ubwoko bw’amakosa y’intango ya Rust, bitandukanye n’uburyo bwo guhindura amajambo rusangi canke uburyo bwo guhindura amajambo n’amaboko.

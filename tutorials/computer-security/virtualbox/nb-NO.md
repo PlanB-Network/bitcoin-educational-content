@@ -43,7 +43,7 @@ Min konfigurasjon: **en Windows 11-arbeidsstasjon der jeg skal installere Virtua
 
 
 
-For å laste ned VirtualBox for installasjon på en Windows-maskin, finnes det bare én god Address: [official VirtualBox website] (https://www.virtualbox.org/wiki/Downloads) i "**Downloads**"-delen. Bare klikk på "Windows hosts" for å starte nedlastingen av denne kjørbare filen, som er litt over 100 MB stor.
+For å laste ned VirtualBox for installasjon på en Windows-maskin, finnes det bare én god Address: [official VirtualBox website](https://www.virtualbox.org/wiki/Downloads) i "**Downloads**"-delen. Bare klikk på "Windows hosts" for å starte nedlastingen av denne kjørbare filen, som er litt over 100 MB stor.
 
 
 

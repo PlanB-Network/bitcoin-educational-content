@@ -1,6 +1,7 @@
 ---
-term: FRÁZE PRO OBNOVU
+term: Fráze pro obnovu
 
+definition: Sekvence 12 nebo 24 slov umožňující zálohování a obnovu bitcoinové peněženky.
 ---
 Obnovovací fráze, někdy také nazývaná mnemotechnická fráze, klíčová fráze nebo tajná fráze, je posloupnost obvykle složená z 12 nebo 24 slov, která je generována pseudonáhodným způsobem ze zdroje entropie. Pseudonáhodná posloupnost je vždy doplněna kontrolním součtem. Mnemotechnická fráze se spolu s volitelnou přístupovou frází používá k deterministickému odvození všech klíčů přidružených k peněžence HD (Hierarchical Deterministic). To znamená, že z této fráze je možné deterministicky vygenerovat a znovu vytvořit všechny soukromé a veřejné klíče peněženky Bitcoin a následně získat přístup k finančním prostředkům s ní spojeným. Účelem obnovovací fráze je poskytnout prostředek zálohování a obnovy bitcoinů, který je bezpečný a snadno použitelný.
 

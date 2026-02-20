@@ -1,0 +1,9 @@
+question: ThunderHub ina jukumu gani kuhusiana na nodi yako ya LND?
+answer: Usimamizi wa Interface
+wrong_answers:
+  - Utekelezaji wa umeme
+  - Huduma ya uangalizi
+  - Nodi ya uelekezaji
+explanation: |
+  ThunderHub ni kiolesura kinachounganisha kwenye LND ili kudhibiti nodi.
+reviewed: false

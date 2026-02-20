@@ -1,0 +1,9 @@
+question: Je, ni hatari gani kuu ambayo mnara unalenga kuzuia?
+answer: Kudanganya na serikali ya zamani
+wrong_answers:
+  - Shambulio la 51%
+  - Wizi wa mbegu
+  - Kudanganya na jimbo jipya
+explanation: |
+  Mnara wa ulinzi hulinda dhidi ya kuchapishwa kwa hali ya zamani ya chaneli inayolenga kuiba fedha.
+reviewed: false

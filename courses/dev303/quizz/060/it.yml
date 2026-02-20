@@ -1,0 +1,8 @@
+question: Quando si sviluppa una macro personalizzata simile a una funzione in Rust, qual è lo scopo principale dell'uso di specificatori di frammenti come `expr`, `ty` e `ident` nella corrispondenza dei pattern?
+answer: Per definire il tipo di elementi di codice che possono essere abbinati e garantire un input sintatticamente valido
+wrong_answers:
+  - Per specificare il tipo di ritorno del codice generato e ottimizzare le prestazioni di compilazione
+  - Per determinare l'ordine di esecuzione dei rami delle macro e gestire il controllo di tipo in fase di esecuzione
+  - Per controllare i modelli di allocazione della memoria e definire le regole di scoping delle variabili nel codice esteso
+explanation: |
+  Gli specificatori di frammento nei modelli di macro servono come vincoli di tipo che convalidano la sintassi dei token in ingresso durante l'espansione della macro. Assicurano che la macro riceva il tipo corretto di elemento di codice (espressione, tipo, identificatore, ecc.) e forniscono chiari messaggi di errore quando viene incontrata una sintassi non valida. Questo avviene a tempo di compilazione durante la corrispondenza dei pattern, non durante l'esecuzione a tempo di esecuzione, e non controllano direttamente l'allocazione della memoria, l'ordine di esecuzione o i tipi di ritorno del codice generato.

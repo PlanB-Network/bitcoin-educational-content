@@ -289,7 +289,7 @@ Igenzura ryiza ryemeza ko dosiye yawe `.img` ari iyo ukuri (yashizweko umukono n
 
 
 
-Niba utarayigira, fungura porogarama ya [Balena Etcher] (https://etcher.balena.io/), hanyuma :
+Niba utarayigira, fungura porogarama ya [Balena Etcher](https://etcher.balena.io/), hanyuma :
 
 
 

@@ -1,5 +1,6 @@
 ---
 term: P2WSH
+definition: スクリプトのハッシュにビットコインをロックするネイティブSegWitスクリプト。アドレスはbc1q。
 ---
 P2WSHは*Pay to Witness Script Hash*の略です。UTXOの支出条件を確立するために使用される標準的なスクリプトモデルです。P2WSHは2017年8月のSegWitの実装とともに導入されました。
 

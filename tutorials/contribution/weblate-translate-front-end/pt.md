@@ -12,12 +12,12 @@ Neste tutorial, vamos mostrar-lhe como contribuir facilmente para a tradução d
 - os dados/elementos estáticos do frontend (páginas, botões, etc.);
 - o conteúdo educativo (tutoriais, cursos, recursos...).
 
-Para traduzir os conteúdos educativos, utilizamos [inteligência artificial] (https://github.com/Asi0Flammeus/LLM-Translator). Depois, para corrigir os eventuais erros nestes ficheiros, convidamos os revisores a contribuir. Se quiser rever algum conteúdo, consulte o seguinte tutorial:
+Para traduzir os conteúdos educativos, utilizamos [inteligência artificial](https://github.com/Asi0Flammeus/LLM-Translator). Depois, para corrigir os eventuais erros nestes ficheiros, convidamos os revisores a contribuir. Se quiser rever algum conteúdo, consulte o seguinte tutorial:
 
 https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 Por outro lado, se estiver interessado em traduzir os elementos estáticos do sítio Web (excluindo os conteúdos educativos), está no sítio certo! Para traduzir eficazmente o frontend, utilizamos a ferramenta Weblate, que é muito simples de utilizar e facilita a abordagem à tradução.
 
-Se desejar acrescentar uma língua completamente nova à Plan ₿ Academy, não se esqueça de contactar a equipa da Plan ₿ Academy através do nosso [grupo Telegram] (https://t.me/PlanBNetwork_ContentBuilder). Se não tiver telegrama, pode enviar um e-mail para mari@planb.network. Não te esqueças de escrever uma pequena apresentação sobre quem és e as línguas que falas.
+Se desejar acrescentar uma língua completamente nova à Plan ₿ Academy, não se esqueça de contactar a equipa da Plan ₿ Academy através do nosso [grupo Telegram](https://t.me/PlanBNetwork_ContentBuilder). Se não tiver telegrama, pode enviar um e-mail para mari@planb.network. Não te esqueças de escrever uma pequena apresentação sobre quem és e as línguas que falas.
 
 Os membros da nossa equipa dar-lhe-ão instruções específicas e abrirão as "questões" relacionadas no Github para coordenar o seu trabalho.
 
@@ -29,7 +29,7 @@ Quando estiver pronto para começar a traduzir, volte a este tutorial e percorra
 ## Registo no Weblate
 
 
-- Aceder ao [Weblate auto-hospedado do Plan ₿ Academy] (https://weblate.planb.network/):
+- Aceder ao [Weblate auto-hospedado do Plan ₿ Academy](https://weblate.planb.network/):
 
 ![weblate](assets/01.webp)
 
@@ -157,5 +157,5 @@ Quando estiver pronto para começar a traduzir, volte a este tutorial e percorra
 
 ![weblate](assets/23.webp)
 
-Agradecemos desde já a vossa contribuição para a tradução de Plan ₿ Academy! Se você tiver alguma pergunta ou comentário específico para nós, sinta-se à vontade para nos contactar através do [grupo Telegram] (https://t.me/PlanBNetwork_ContentBuilder).
+Agradecemos desde já a vossa contribuição para a tradução de Plan ₿ Academy! Se você tiver alguma pergunta ou comentário específico para nós, sinta-se à vontade para nos contactar através do [grupo Telegram](https://t.me/PlanBNetwork_ContentBuilder).
 

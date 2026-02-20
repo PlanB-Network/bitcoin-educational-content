@@ -1,0 +1,8 @@
+question: Was geschieht während des Kompilierungsprozesses, wenn der Rust-Compiler auf einen Makroaufruf stößt?
+answer: Der Compiler gleicht die Eingabe mit definierten Mustern ab und ersetzt den Makroaufruf durch generierten Code, bevor eine Typüberprüfung stattfindet
+wrong_answers:
+  - Der Compiler verschiebt die Makroexpansion bis nach der Typüberprüfung und Optimierung, um die Gültigkeit des Codes zu gewährleisten
+  - Der Compiler speichert den Makroaufruf als Bytecode und expandiert ihn dynamisch während der Laufzeitausführung
+  - Der Compiler validiert die Makrosyntax, überlässt aber die eigentliche Expansion dem Linker
+explanation: |
+  Makros werden während der Kompilierung erweitert, bevor die Typüberprüfung und Optimierung erfolgt. Wenn der Compiler auf einen Makroaufruf stößt, gleicht er die Eingabe sofort mit den definierten Mustern des Makros ab und ersetzt den gesamten Makroaufruf durch den generierten Code. Dieser erweiterte Code durchläuft dann die normalen Kompilierungsprozesse einschließlich der Typüberprüfung. Die anderen Optionen sind falsch, da Makros zur Kompilier- und nicht zur Laufzeit arbeiten und die Expansion vor der Typüberprüfung erfolgen muss, da der generierte Code auf Korrektheit überprüft werden muss.

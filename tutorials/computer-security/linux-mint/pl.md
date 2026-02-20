@@ -56,7 +56,6 @@ Unikaj:
 - Chromebooki - często pojemność pamięci jest zbyt mała
 - Dowolny komputer z dyskiem eMMC; jeśli ma dysk SSD, to idealnie
 - Komputery Mac - są drogie, a z mojego doświadczenia wynika, że sprzęt nie współpracuje dobrze z systemami operacyjnymi Linux
-- Cokolwiek odnowionego lub z drugiej ręki (nie jest to jednak bezwzględne kryterium)
 
 
 Zamiast tego poszukaj laptopa z systemem Windows 11 (obecnie Windows 11 jest najnowszą wersją. Nie martw się, pozbędziemy się tego oprogramowania). Wyszukałem na amazon.com hasło "Windows 11 Laptop" i znalazłem ten dobry przykład:

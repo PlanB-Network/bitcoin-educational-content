@@ -91,10 +91,10 @@ description: Blockstream App instellen op mobiel en onchain-transacties beheren
 
 
 - Voor **Android**:
-    - Download [Blockstream App] (https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) uit de Google Play Store.
-    - Alternatief: Installeer via het APK-bestand dat beschikbaar is op [Blockstream's officiële GitHub] (https://github.com/Blockstream/green_android).
+    - Download [Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) uit de Google Play Store.
+    - Alternatief: Installeer via het APK-bestand dat beschikbaar is op [Blockstream's officiële GitHub](https://github.com/Blockstream/green_android).
 - Voor **iOS**:
-    - Download [Blockstream App] (https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) van de App Store.
+    - Download [Blockstream App](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) van de App Store.
 - **Opmerking**: Zorg ervoor dat je downloadt van officiële bronnen om frauduleuze toepassingen te voorkomen.
 
 

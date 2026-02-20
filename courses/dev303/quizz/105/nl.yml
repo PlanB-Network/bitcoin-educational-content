@@ -1,0 +1,8 @@
+question: Wat is het cruciale verschil tussen het ontwerp van de persistentielaag van LDK en het traditionele gegevensbeheer van Lightning-knooppunten, waardoor platformoverschrijdende implementatieflexibiliteit mogelijk is?
+answer: LDK biedt abstracte binaire gegevensblobs voor opslag terwijl applicaties hun eigen opslagmechanismen implementeren
+wrong_answers:
+  - LDK gebruikt gestandaardiseerde SQL-databases terwijl traditionele knooppunten aangepaste implementaties van bestandssystemen vereisen
+  - LDK synchroniseert gegevens automatisch op meerdere platforms, terwijl traditionele knooppunten gegevens alleen lokaal opslaan
+  - LDK versleutelt standaard alle persistentiegegevens, terwijl traditionele knooppunten vertrouwen op versleuteling op applicatieniveau
+explanation: |
+  De persistentielaag van LDK abstraheert opslag door applicaties te voorzien van geserialiseerde binaire gegevensblobs die betrouwbaar moeten worden opgeslagen en opgehaald, terwijl alle complexiteit van het serialiseren van Lightning channel toestanden en netwerkgegevens intern wordt afgehandeld. Hierdoor kunnen applicaties elke opslagoplossing kiezen (bestandssystemen, cloudopslag, databases) die past bij hun platformvereisten. Traditionele Lightning nodes implementeren meestal hun eigen specifieke gegevensbeheersystemen die gekoppeld zijn aan bepaalde opslagmechanismen, waardoor ze minder flexibel zijn voor verschillende implementatieomgevingen.

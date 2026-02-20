@@ -1,0 +1,10 @@
+question: Milline oli Charlie Lee poolt 2011. aasta oktoobris loodud krüptovaluuta Litecoini turunduspakkumine?
+answer: Ole hõbeda jaoks see, mis Bitcoin on kulla jaoks
+wrong_answers:
+  - Vaimse valuuta loomine
+  - Järgneb Bitcoin, kui see variseb kokku
+  - Vaba tarkvara maailma rahastamine
+explanation: |
+ Litecoin oli nii kiirem (plokkide aeg on 2 minutit 30 asemel 10 minutit) ja vähem napib (84 miljonit ühikut asemel 21) kui Bitcoin, seega on väärtuslikud
+ metallide analoogia. Just Charlie Lee ise lisas selle võrdluse oma krüptoraha esialgsesse kirjeldusse.
+reviewed: true

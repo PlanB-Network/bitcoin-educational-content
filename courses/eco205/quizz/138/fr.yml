@@ -1,0 +1,8 @@
+question: Quelle est la conséquence principale de l'assouplissement quantitatif sur les détenteurs d'obligations selon l'analyse présentée?
+answer: Il permet aux vendeurs d'obligations d'accroître leur trésorerie et de créer une expansion monétaire en cascade
+wrong_answers:
+  - "Il réduit directement les taux d'intérêt commerciaux en diminuant la demande d'obligations sur le marché"
+  - "Il stabilise les prix des actifs financiers en créant un équilibre entre l'offre et la demande d'obligations"
+  - "Il encourage l'épargne réelle en augmentant la rentabilité des obligations d'État pour les investisseurs"
+explanation: |
+  L'assouplissement quantitatif consiste en des achats massifs d'obligations par la banque centrale avec de l'argent créé ex nihilo. Cet argent se retrouve chez les vendeurs (banques, fonds d'investissement, États) qui peuvent alors accroître leur trésorerie, se désendetter ou acheter d'autres titres. Ces achats supplémentaires créent une expansion monétaire en cascade difficile à contrôler, amplifiant la distorsion des signaux économiques.

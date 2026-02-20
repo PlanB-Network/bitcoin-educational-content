@@ -1,7 +1,7 @@
-question: Welche Art von Maschine wird als der beste Kompromiss für einen Bitcoin-Heimknoten dargestellt?
+question: Welche Art von Maschine wird als der beste Kompromiss für eine Bitcoin Node dargestellt?
 answer: Ein Mini-PC vom Typ NUC
 wrong_answers:
-  - Laptop-Computer
+  - Laptop
   - Ein Supercomputer
   - Eine Spielkonsole
 explanation: |

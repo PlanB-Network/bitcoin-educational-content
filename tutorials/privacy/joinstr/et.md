@@ -542,13 +542,14 @@ Joinstr genereerib praegu keskmiselt **2 kuni 5 osalejat**. Need arvud on väiks
 
 
 
-| Aspect | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
+
+| Aspekt | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
 |--------|--------|--------------------|------------|-------------|
-| **Participants par pool** | 50-100 | 5-10 | Variable (P2P) | **2-5** |
-| **Coordinateur** | Centralisé (fermé 2024) | Centralisé (actif) | P2P maker/taker | **Aucun (Nostr)** |
-| **Résistance à la censure** | Faible | Moyenne | Très élevée | **Très élevée** |
-| **Frais de coordination** | Pourcentage | Frais d'entrée | Payés aux makers | **Aucun** |
-| **Discrimination UTXO** | Oui (blacklists) | Non | Non | **Non** |
+| **Osalejad basseini kohta** | 50-100 | 5-10 | Muutuv (P2P) | **2-5** |
+| **Koordinaator** | Tsentraliseeritud (suletud 2024) | Tsentraliseeritud (aktiivne) | P2P maker/taker | **Puudub (Nostr)** |
+| **Tsensuuritakistus** | Nõrk | Keskmine | Väga kõrge | **Väga kõrge** |
+| **Koordinatsioonikulud** | Protsent | Sisengemaks | Maksutud tootjatele | **Puudub** |
+| **UTXO diskrimineerimine** | Jah (mustad nimekirjad) | Ei | Ei | **Ei** |
 
 💡 **Muud aktiivsed CoinJoin lahendused** :
 

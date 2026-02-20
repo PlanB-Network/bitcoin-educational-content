@@ -1,6 +1,7 @@
 ---
 term: HASH160
 
+definition: Funksjon som kombinerer SHA256 og deretter RIPEMD160, brukt til å generere Bitcoin-adresser.
 ---
 Kryptografisk funksjon som brukes i Bitcoin, særlig for å generere Legacy- og SegWit v0-mottakeradresser. Den kombinerer to hashfunksjoner som kjøres suksessivt på inndataene: først SHA256, deretter RIPEMD160. Resultatet av denne funksjonen er derfor 160 bits.
 

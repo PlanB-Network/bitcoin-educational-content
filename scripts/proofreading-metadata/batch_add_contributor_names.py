@@ -716,30 +716,38 @@ def main():
             main_folder_path = content_path
             print(f"\nWorking with glossary directory")
         elif content_choice == 3:
-            # Quizzes - show course folders for selection
+            # Quizzes - show course folders for selection (multi-select)
             course_folders = get_subfolders(content_path)
             if not course_folders:
                 print(f"No course folders found in the '{content_type}' directory.")
                 continue
 
+            sorted_courses = sorted(course_folders)
             print(f"\nCourse folders in '{content_type}' directory:")
-            for i, folder in enumerate(sorted(course_folders)):
+            for i, folder in enumerate(sorted_courses):
                 print(f"{i + 1:2d}. {folder}")
 
-            # Input for course folder selection
+            # Input for course folder selection (supports multiple)
             try:
-                course_choice = int(input(f"\nSelect a course folder (1-{len(course_folders)}): "))
-                if 1 <= course_choice <= len(course_folders):
-                    selected_course_folder = sorted(course_folders)[course_choice - 1]
-                    main_folder_path = content_path / selected_course_folder
+                selection = input(f"\nSelect course folders (comma-separated numbers, or 'all'): ").strip()
+
+                if selection.lower() == 'all':
+                    selected_quiz_courses = sorted_courses
                 else:
-                    print("Invalid selection.")
-                    continue
-            except ValueError:
-                print("Invalid input. Please enter a number.")
+                    selected_indices = [int(num.strip()) for num in selection.split(',')]
+                    selected_quiz_courses = [sorted_courses[i - 1] for i in selected_indices if 1 <= i <= len(sorted_courses)]
+
+                    if not selected_quiz_courses:
+                        print("No valid selections made.")
+                        continue
+            except (ValueError, IndexError):
+                print("Invalid input.")
                 continue
 
-            print(f"\nSelected course: {selected_course_folder}")
+            selected_course_paths = [content_path / course for course in selected_quiz_courses]
+            # Set main_folder_path to first for compatibility with single-course processing modes
+            main_folder_path = selected_course_paths[0]
+            print(f"\nSelected {len(selected_quiz_courses)} course(s): {', '.join(selected_quiz_courses)}")
         else:
             # Courses - work directly with the courses folder
             main_folder_path = content_path
@@ -769,14 +777,15 @@ def main():
                             all_subfolders = get_subfolders(main_folder_path)
                             process_glossary_subfolders(main_folder_path, language, contributor_name, all_subfolders)
                         elif content_choice == 3:
-                            # For quizzes, get quiz subfolders from the quizz directory
-                            quiz_path = main_folder_path / 'quizz'
-                            if quiz_path.exists():
-                                all_quiz_subfolders = get_subfolders(quiz_path)
-                                process_quiz_subfolders(main_folder_path, language, contributor_name, all_quiz_subfolders)
-                            else:
-                                print(f"  ⚠ No 'quizz' folder found in {main_folder_path.name}")
-                                continue
+                            # For quizzes, process all selected courses
+                            for course_path in selected_course_paths:
+                                print(f"\n--- Course: {course_path.name} ---")
+                                quiz_path = course_path / 'quizz'
+                                if quiz_path.exists():
+                                    all_quiz_subfolders = get_subfolders(quiz_path)
+                                    process_quiz_subfolders(course_path, language, contributor_name, all_quiz_subfolders)
+                                else:
+                                    print(f"  ⚠ No 'quizz' folder found in {course_path.name}")
                         else:  # content_choice == 4
                             # For courses, get all course folders
                             all_courses = get_subfolders(main_folder_path)
@@ -788,7 +797,9 @@ def main():
                         elif content_choice == 2:
                             process_alphabetical_range_glossary(main_folder_path, language, contributor_name)
                         elif content_choice == 3:
-                            process_alphabetical_range_quiz(main_folder_path, language, contributor_name)
+                            for course_path in selected_course_paths:
+                                print(f"\n--- Course: {course_path.name} ---")
+                                process_alphabetical_range_quiz(course_path, language, contributor_name)
                         else:  # content_choice == 4
                             process_alphabetical_range_course(main_folder_path, language, contributor_name)
                     else:
@@ -805,7 +816,9 @@ def main():
                 elif content_choice == 2:
                     process_glossary_subfolders(main_folder_path, language, contributor_name)
                 elif content_choice == 3:
-                    process_quiz_subfolders(main_folder_path, language, contributor_name)
+                    for course_path in selected_course_paths:
+                        print(f"\n--- Course: {course_path.name} ---")
+                        process_quiz_subfolders(course_path, language, contributor_name)
                 else:  # content_choice == 4
                     process_course_folders(main_folder_path, language, contributor_name)
             else:

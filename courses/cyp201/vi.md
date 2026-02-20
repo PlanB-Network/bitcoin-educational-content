@@ -35,7 +35,7 @@ Chào mừng bạn đến với khóa học CYP201, nơi chúng ta sẽ khám ph
 Mục tiêu của khóa học này là cung cấp cho bạn chìa khóa để nắm vững các công cụ bạn hàng ngày sử dụng. Ví Bitcoin HD, nằm ở trung tâm trải nghiệm người dùng của bạn, dựa trên một số khái niệm phức tạp, mà chúng tôi sẽ cố gắng làm cho dễ tiếp cận. Cùng nhau, chúng ta sẽ làm sáng tỏ chúng!
 
 Trước khi đi sâu vào chi tiết cấu trúc và hoạt động của ví Bitcoin, chúng ta sẽ bắt đầu với một số chương về các nguyên tắc mã hóa cần biết cho phần sau.
-Chúng ta sẽ bắt đầu với hàm băm mã hóa, cơ bản cho cả ví và chính giao thức Bitcoin. Bạn sẽ khám phá các đặc điểm chính, các hàm cụ thể được sử dụng trong Bitcoin, và trong một chương kỹ thuật hơn, bạn sẽ học chi tiết về cách thức hoạt động của hàm băm hàng đầu: SHA256.
+Chúng ta sẽ bắt đầu với hàm băm mã hóa, cơ bản cho cả ví và chính giao thức Bitcoin. Bạn sẽ khám phá các đặc điểm chính, các hàm cụ thể được sử dụng trong Bitcoin, và trong một chương kỹ thuật hơn, bạn sẽ học chi tiết về cách thức hoạt động của hàm băm hàng đầu: [SHA256](https://planb.academy/resources/glossary/sha256).
 ![CYP201](assets/en/001.webp)
 
 Tiếp theo, chúng ta sẽ thảo luận về cách thức hoạt động của các thuật toán chữ ký số mà bạn sử dụng hàng ngày để bảo vệ UTXOs của mình. Bitcoin sử dụng hai loại: ECDSA và giao thức Schnorr. Bạn sẽ học về các nguyên tắc toán học đằng sau các thuật toán này và cách chúng đảm bảo an toàn cho giao dịch.
@@ -45,7 +45,7 @@ Tiếp theo, chúng ta sẽ thảo luận về cách thức hoạt động của
 Một khi chúng ta đã hiểu rõ về những yếu tố này của mã hóa, chúng ta cuối cùng sẽ chuyển sang trọng tâm của khóa học: ví xác định và phân cấp! Đầu tiên, có một phần dành riêng cho cụm từ ghi nhớ, những chuỗi từ 12 hoặc 24 từ giúp bạn tạo và khôi phục ví của mình. Bạn sẽ khám phá cách những từ này được tạo ra từ một nguồn entropy và làm thế nào chúng giúp việc sử dụng Bitcoin trở nên dễ dàng.
 
 ![CYP201](assets/en/003.webp)
-Khóa học sẽ tiếp tục với việc nghiên cứu về cụm từ BIP39, hạt giống (không nên nhầm lẫn với cụm từ ghi nhớ), mã chuỗi chủ, và khóa chủ. Chúng ta sẽ xem chi tiết những yếu tố này là gì, vai trò tương ứng của chúng, và cách chúng được tính toán.
+Khóa học sẽ tiếp tục với việc nghiên cứu về cụm từ [BIP39](https://planb.academy/resources/glossary/bip0039), hạt giống (không nên nhầm lẫn với cụm từ ghi nhớ), mã chuỗi chủ, và khóa chủ. Chúng ta sẽ xem chi tiết những yếu tố này là gì, vai trò tương ứng của chúng, và cách chúng được tính toán.
 
 ![CYP201](assets/en/004.webp)
 
@@ -93,14 +93,14 @@ Bảng này cung cấp cho bạn bản dịch các thuật ngữ tiếng Anh ch�
 
 :::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
 
-Loại thuật toán mật mã đầu tiên được sử dụng trên Bitcoin bao gồm các hàm băm. Chúng đóng một vai trò thiết yếu ở các cấp độ khác nhau của giao thức, nhưng cũng trong ví Bitcoin. Hãy cùng khám phá xem hàm băm là gì và nó được sử dụng như thế nào trong Bitcoin.
+Loại thuật toán mật mã đầu tiên được sử dụng trên Bitcoin bao gồm các hàm băm. Chúng đóng một vai trò thiết yếu ở các cấp độ khác nhau của giao thức, nhưng cũng trong [ví](https://planb.academy/resources/glossary/wallet) Bitcoin. Hãy cùng khám phá xem hàm băm là gì và nó được sử dụng như thế nào trong Bitcoin.
 
 ### Định nghĩa và Nguyên tắc của Băm
 
 Băm là quá trình biến đổi thông tin có độ dài tùy ý thành một mảnh thông tin có độ dài cố định thông qua một hàm băm mật mã. Nói cách khác, một hàm băm nhận đầu vào bất kỳ và chuyển đổi nó thành một dấu vân tay cố định, gọi là "băm".
 Băm cũng đôi khi được gọi là "digest", "condensate", "condensed", hoặc "hashed".
 
-Ví dụ, hàm băm SHA256 tạo ra một băm có độ dài cố định 256 bit. Vì vậy, nếu chúng ta sử dụng đầu vào "_PlanB_", một thông điệp có độ dài tùy ý, băm được tạo ra sẽ là dấu vân tay 256-bit sau đây:
+Ví dụ, hàm băm [SHA256](https://planb.academy/resources/glossary/sha256) tạo ra một băm có độ dài cố định 256 bit. Vì vậy, nếu chúng ta sử dụng đầu vào "_PlanB_", một thông điệp có độ dài tùy ý, băm được tạo ra sẽ là dấu vân tay 256-bit sau đây:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -177,16 +177,16 @@ Do đó, khả năng chống preimage thứ hai tương tự như khả năng ch
 
 Hàm băm được sử dụng nhiều nhất trong Bitcoin là **SHA256** ("_Secure Hash Algorithm 256 bits"_). Được thiết kế vào đầu những năm 2000 bởi NSA và được chuẩn hóa bởi NIST, nó tạo ra một đầu ra băm 256-bit.
 
-Hàm này được sử dụng trong nhiều khía cạnh của Bitcoin. Ở cấp độ giao thức, nó được sử dụng trong cơ chế Chứng minh Công việc, nơi nó được áp dụng băm kép để tìm kiếm một va chạm một phần giữa tiêu đề của một khối ứng viên, được tạo bởi một thợ mỏ, và mục tiêu khó khăn. Nếu va chạm một phần này được tìm thấy, khối ứng viên trở nên hợp lệ và có thể được thêm vào blockchain.
+Hàm này được sử dụng trong nhiều khía cạnh của Bitcoin. Ở cấp độ giao thức, nó được sử dụng trong cơ chế Chứng minh Công việc, nơi nó được áp dụng băm kép để tìm kiếm một va chạm một phần giữa tiêu đề của một [khối](https://planb.academy/resources/glossary/block) ứng viên, được tạo bởi một thợ mỏ, và mục tiêu khó khăn. Nếu va chạm một phần này được tìm thấy, khối ứng viên trở nên hợp lệ và có thể được thêm vào [blockchain](https://planb.academy/resources/glossary/blockchain).
 
-SHA256 cũng được sử dụng trong việc xây dựng một cây Merkle, đây là bộ tích lũy được sử dụng để ghi lại các giao dịch trong các khối. Cấu trúc này cũng được tìm thấy trong giao thức Utreexo, cho phép giảm kích thước của Bộ UTXO. Ngoài ra, với sự giới thiệu của Taproot vào năm 2021, SHA256 được khai thác trong MAST (_Merkelised Alternative Script Tree_), cho phép chỉ tiết lộ các điều kiện chi tiêu thực sự được sử dụng trong một script, mà không tiết lộ các lựa chọn khác có thể. Nó cũng được sử dụng trong việc tính toán các định danh giao dịch, trong truyền dẫn các gói tin qua mạng P2P, trong chữ ký điện tử... Cuối cùng, và đây là điều đặc biệt quan tâm trong khóa học này, SHA256 được sử dụng ở cấp độ ứng dụng để xây dựng ví Bitcoin và phát sinh địa chỉ.
+SHA256 cũng được sử dụng trong việc xây dựng một [cây Merkle](https://planb.academy/resources/glossary/merkle-tree), đây là bộ tích lũy được sử dụng để ghi lại các giao dịch trong các khối. Cấu trúc này cũng được tìm thấy trong giao thức [Utreexo](https://planb.academy/resources/glossary/utreexo), cho phép giảm kích thước của Bộ UTXO. Ngoài ra, với sự giới thiệu của [Taproot](https://planb.academy/resources/glossary/taproot) vào năm 2021, SHA256 được khai thác trong [MAST](https://planb.academy/resources/glossary/mast) (_Merkelised Alternative [Script](https://planb.academy/resources/glossary/script) Tree_), cho phép chỉ tiết lộ các điều kiện chi tiêu thực sự được sử dụng trong một script, mà không tiết lộ các lựa chọn khác có thể. Nó cũng được sử dụng trong việc tính toán các định danh giao dịch, trong truyền dẫn các gói tin qua mạng P2P, trong chữ ký điện tử... Cuối cùng, và đây là điều đặc biệt quan tâm trong khóa học này, SHA256 được sử dụng ở cấp độ ứng dụng để xây dựng ví Bitcoin và phát sinh địa chỉ.
 
-Hầu hết thời gian, khi bạn gặp việc sử dụng SHA256 trên Bitcoin, thực tế nó sẽ là một băm kép SHA256, được ghi chú là "**HASH256**", chỉ đơn giản là áp dụng SHA256 hai lần liên tiếp:
+Hầu hết thời gian, khi bạn gặp việc sử dụng SHA256 trên Bitcoin, thực tế nó sẽ là một băm kép SHA256, được ghi chú là "**[HASH256](https://planb.academy/resources/glossary/hash256)**", chỉ đơn giản là áp dụng SHA256 hai lần liên tiếp:
 HASH256(m) = SHA256(SHA256(m))
 
 Thực hành băm kép này thêm một lớp bảo mật chống lại một số cuộc tấn công tiềm năng, mặc dù một SHA256 đơn lẻ ngày nay được coi là an toàn về mặt mật mã.
 
-Một hàm băm khác có sẵn trong ngôn ngữ Script và được sử dụng để phát sinh địa chỉ nhận là hàm RIPEMD160. Hàm này tạo ra một băm 160-bit (do đó ngắn hơn SHA256). Nó thường được kết hợp với SHA256 để tạo thành hàm HASH160:
+Một hàm băm khác có sẵn trong ngôn ngữ Script và được sử dụng để phát sinh [địa chỉ nhận](https://planb.academy/resources/glossary/receiving-address) là hàm [RIPEMD160](https://planb.academy/resources/glossary/ripemd160). Hàm này tạo ra một băm 160-bit (do đó ngắn hơn SHA256). Nó thường được kết hợp với SHA256 để tạo thành hàm HASH160:
 
 $$
 \text{HASH160}(m) = \text{RIPEMD160}(\text{SHA256}(m))
@@ -194,7 +194,7 @@ $$
 
 Sự kết hợp này được sử dụng để tạo ra các băm ngắn hơn, đặc biệt trong việc tạo ra một số địa chỉ Bitcoin đại diện cho các băm của khóa hoặc băm của script, cũng như để sản xuất dấu vân tay khóa.
 
-Cuối cùng, chỉ ở cấp độ ứng dụng, hàm SHA512 đôi khi cũng được sử dụng, đóng vai trò gián tiếp trong việc phát sinh khóa cho ví. Hàm này rất giống với SHA256 trong cách hoạt động; cả hai đều thuộc về cùng một gia đình SHA2, nhưng SHA512 tạo ra, như tên gọi của nó, một băm 512-bit, so với 256 bit của SHA256. Chúng tôi sẽ chi tiết về việc sử dụng nó trong các chương sau.
+Cuối cùng, chỉ ở cấp độ ứng dụng, hàm [SHA512](https://planb.academy/resources/glossary/sha512) đôi khi cũng được sử dụng, đóng vai trò gián tiếp trong việc phát sinh khóa cho ví. Hàm này rất giống với SHA256 trong cách hoạt động; cả hai đều thuộc về cùng một gia đình SHA2, nhưng SHA512 tạo ra, như tên gọi của nó, một băm 512-bit, so với 256 bit của SHA256. Chúng tôi sẽ chi tiết về việc sử dụng nó trong các chương sau.
 
 Bây giờ bạn đã biết những kiến thức cơ bản thiết yếu về hàm băm cho những gì tiếp theo. Trong chương tiếp theo, tôi đề xuất khám phá chi tiết hơn về cơ chế hoạt động của hàm nằm ở trung tâm của Bitcoin: SHA256. Chúng ta sẽ phân tích nó để hiểu cách nó đạt được các đặc tính mà chúng ta đã mô tả ở đây. Chương tiếp theo khá dài và kỹ thuật, nhưng không cần thiết để theo dõi phần còn lại của khóa học. Vì vậy, nếu bạn gặp khó khăn trong việc hiểu nó, đừng lo lắng và chuyển thẳng sang chương tiếp theo, sẽ dễ tiếp cận hơn nhiều.
 
@@ -538,7 +538,7 @@ Hàm nén cũng sử dụng phép toán $\text{ShR}$. Phép toán này loại b�
 
 Cuối cùng, đối với đặc tính kháng va chạm, có nhiều yếu tố đóng vai trò. Quá trình tiền xử lý thông điệp gốc đóng một vai trò thiết yếu. Nếu không có quá trình tiền xử lý này, việc tìm ra va chạm trên hàm có thể dễ dàng hơn. Mặc dù, về lý thuyết, va chạm tồn tại (do nguyên lý nhốt chim), cấu trúc của hàm băm, kết hợp với các tính chất đã nêu, làm cho xác suất tìm thấy một va chạm cực kỳ thấp.
 Đối với một hàm băm để có khả năng kháng va chạm, điều cần thiết là:
-- Đầu ra không dự đoán được: Bất kỳ tính dự đoán nào cũng có thể được khai thác để tìm va chạm nhanh hơn so với tấn công bằng lực lượng mù. Hàm đảm bảo rằng mỗi bit của đầu ra phụ thuộc vào đầu vào một cách không tầm thường. Nói cách khác, hàm được thiết kế sao cho mỗi bit của kết quả cuối cùng có xác suất độc lập là 0 hoặc 1, ngay cả khi sự độc lập này không tuyệt đối trong thực tế.
+- Đầu ra không dự đoán được: Bất kỳ tính dự đoán nào cũng có thể được khai thác để tìm va chạm nhanh hơn so với tấn công bằng [lực lượng mù](https://planb.academy/resources/glossary/brute-force-attack). Hàm đảm bảo rằng mỗi bit của đầu ra phụ thuộc vào đầu vào một cách không tầm thường. Nói cách khác, hàm được thiết kế sao cho mỗi bit của kết quả cuối cùng có xác suất độc lập là 0 hoặc 1, ngay cả khi sự độc lập này không tuyệt đối trong thực tế.
 - Phân phối của các băm là giả ngẫu nhiên: Điều này đảm bảo rằng các băm được phân phối đều.
 - Kích thước của băm là đáng kể: không gian kết quả càng lớn, việc tìm ra va chạm càng khó khăn.
 
@@ -548,7 +548,7 @@ Các nhà mật mã học thiết kế các hàm này bằng cách đánh giá c
 
 Cấu trúc của SHA256 dựa trên cấu trúc Merkle-Damgård, cho phép biến đổi một hàm nén thành một hàm băm có thể xử lý các thông điệp với độ dài tùy ý. Đây chính xác là những gì chúng ta đã thấy trong chương này.
 Tuy nhiên, một số hàm băm cũ như SHA1 hoặc MD5, sử dụng cấu trúc đặc biệt này, lại dễ bị tấn công mở rộng độ dài. Đây là một kỹ thuật cho phép kẻ tấn công biết được băm của một thông điệp $M$ và độ dài của $M$ (mà không cần biết nội dung thông điệp) để tính toán băm của một thông điệp $M'$ được tạo ra bằng cách nối $M$ với nội dung bổ sung.
-SHA256, mặc dù sử dụng cùng một loại cấu trúc, lại có khả năng lý thuyết chống lại loại tấn công này, không giống như SHA1 và MD5. Điều này có thể giải thích bí ẩn của việc băm kép được thực hiện xuyên suốt Bitcoin bởi Satoshi Nakamoto. Để tránh loại tấn công này, Satoshi có thể đã ưu tiên sử dụng SHA256 kép:
+SHA256, mặc dù sử dụng cùng một loại cấu trúc, lại có khả năng lý thuyết chống lại loại tấn công này, không giống như SHA1 và MD5. Điều này có thể giải thích bí ẩn của việc băm kép được thực hiện xuyên suốt Bitcoin bởi [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi). Để tránh loại tấn công này, Satoshi có thể đã ưu tiên sử dụng SHA256 kép:
 
 
 $$
@@ -658,17 +658,17 @@ Phương pháp mật mã thứ hai được sử dụng trong Bitcoin liên quan
 
 ### Bitcoin, UTXOs và Điều Kiện Chi Tiêu
 
-Thuật ngữ "*ví*" trong Bitcoin có thể gây nhầm lẫn cho người mới bắt đầu. Thực tế, cái được gọi là ví Bitcoin là phần mềm không trực tiếp giữ bitcoin của bạn, không giống như một ví vật lý có thể giữ tiền xu hoặc tiền giấy. Bitcoin chỉ đơn giản là đơn vị tài khoản. Đơn vị tài khoản này được biểu diễn bởi **UTXO** (*Unspent Transaction Outputs*), là các đầu ra giao dịch chưa được chi tiêu. Nếu những đầu ra này chưa được chi tiêu, điều đó có nghĩa là chúng thuộc về một người dùng. UTXOs, theo một cách nào đó, là các mảnh của bitcoin, có kích thước biến đổi, thuộc về một người dùng.
+Thuật ngữ "*ví*" trong Bitcoin có thể gây nhầm lẫn cho người mới bắt đầu. Thực tế, cái được gọi là ví Bitcoin là phần mềm không trực tiếp giữ bitcoin của bạn, không giống như một ví vật lý có thể giữ tiền xu hoặc tiền giấy. Bitcoin chỉ đơn giản là đơn vị tài khoản. Đơn vị tài khoản này được biểu diễn bởi **[UTXO](https://planb.academy/resources/glossary/utxo)** (*Unspent Transaction Outputs*), là các đầu ra giao dịch chưa được chi tiêu. Nếu những đầu ra này chưa được chi tiêu, điều đó có nghĩa là chúng thuộc về một người dùng. UTXOs, theo một cách nào đó, là các mảnh của bitcoin, có kích thước biến đổi, thuộc về một người dùng.
 
 Giao thức Bitcoin là phân tán và hoạt động mà không cần một cơ quan trung ương. Do đó, nó không giống như hồ sơ ngân hàng truyền thống, nơi các euro thuộc về bạn chỉ đơn giản được liên kết với danh tính cá nhân của bạn. Trên Bitcoin, UTXOs của bạn thuộc về bạn vì chúng được bảo vệ bởi các điều kiện chi tiêu được chỉ định trong ngôn ngữ Script. Để đơn giản hóa, có hai loại script: script khóa (*scriptPubKey*), bảo vệ một UTXO, và script mở khóa (*scriptSig*), cho phép mở khóa một UTXO và do đó chi tiêu các đơn vị bitcoin mà nó đại diện.
-Hoạt động ban đầu của Bitcoin với script P2PK liên quan đến việc sử dụng một khóa công khai để khóa quỹ, chỉ định trong một *scriptPubKey* rằng người muốn chi tiêu UTXO này phải cung cấp một chữ ký hợp lệ với khóa riêng tương ứng với khóa công khai này. Để mở khóa UTXO này, do đó, cần phải cung cấp một chữ ký hợp lệ trong *scriptSig*. Như tên của chúng, khóa công khai được biết đến bởi tất cả mọi người vì nó được phát sóng trên blockchain, trong khi khóa riêng chỉ được biết đến bởi chủ sở hữu hợp pháp của quỹ.
-Đây là hoạt động cơ bản của Bitcoin, nhưng theo thời gian, hoạt động này trở nên phức tạp hơn. Đầu tiên, Satoshi cũng giới thiệu script P2PKH, sử dụng một địa chỉ nhận trong *scriptPubKey*, đại diện cho hash của khóa công khai. Sau đó, hệ thống trở nên phức tạp hơn nữa với sự xuất hiện của SegWit và sau đó là Taproot. Tuy nhiên, nguyên tắc chung vẫn cơ bản giống nhau: một khóa công khai hoặc một biểu diễn của khóa này được sử dụng để khóa UTXOs, và một khóa riêng tương ứng được yêu cầu để mở khóa chúng và do đó chi tiêu chúng.
+Hoạt động ban đầu của Bitcoin với script [P2PK](https://planb.academy/resources/glossary/p2pk) liên quan đến việc sử dụng một khóa công khai để khóa quỹ, chỉ định trong một *scriptPubKey* rằng người muốn chi tiêu UTXO này phải cung cấp một chữ ký hợp lệ với khóa riêng tương ứng với khóa công khai này. Để mở khóa UTXO này, do đó, cần phải cung cấp một chữ ký hợp lệ trong *scriptSig*. Như tên của chúng, khóa công khai được biết đến bởi tất cả mọi người vì nó được phát sóng trên blockchain, trong khi khóa riêng chỉ được biết đến bởi chủ sở hữu hợp pháp của quỹ.
+Đây là hoạt động cơ bản của Bitcoin, nhưng theo thời gian, hoạt động này trở nên phức tạp hơn. Đầu tiên, Satoshi cũng giới thiệu script [P2PKH](https://planb.academy/resources/glossary/p2pkh), sử dụng một địa chỉ nhận trong *scriptPubKey*, đại diện cho hash của khóa công khai. Sau đó, hệ thống trở nên phức tạp hơn nữa với sự xuất hiện của [SegWit](https://planb.academy/resources/glossary/segwit) và sau đó là Taproot. Tuy nhiên, nguyên tắc chung vẫn cơ bản giống nhau: một khóa công khai hoặc một biểu diễn của khóa này được sử dụng để khóa UTXOs, và một khóa riêng tương ứng được yêu cầu để mở khóa chúng và do đó chi tiêu chúng.
 Người dùng muốn thực hiện giao dịch Bitcoin do đó cần tạo một chữ ký số bằng khóa riêng của mình trên giao dịch đó. Chữ ký này có thể được các thành viên khác trong mạng xác minh. Nếu chữ ký hợp lệ, điều này có nghĩa là người khởi xướng giao dịch thực sự là chủ sở hữu của khóa riêng, và do đó là chủ sở hữu của số bitcoin mà họ muốn chi tiêu. Các người dùng khác sau đó có thể chấp nhận và lan truyền giao dịch.
 
 Kết quả là, người dùng sở hữu bitcoin được khóa bằng khóa công khai phải tìm cách lưu trữ an toàn cái cho phép mở khóa quỹ của họ: khóa riêng. Một ví Bitcoin chính xác là một thiết bị sẽ cho phép bạn dễ dàng giữ tất cả các khóa của mình mà không cho người khác truy cập vào chúng. Do đó, nó giống như một móc khóa hơn là một ví.
 
-Mối liên kết toán học giữa khóa công khai và khóa riêng, cũng như khả năng thực hiện chữ ký để chứng minh sở hữu khóa riêng mà không tiết lộ nó, được thực hiện bởi thuật toán chữ ký số. Trong giao thức Bitcoin, 2 thuật toán chữ ký được sử dụng: **ECDSA** (*Elliptic Curve Digital Signature Algorithm*) và **Schnorr signature scheme**. ECDSA là giao thức chữ ký số được sử dụng trong Bitcoin từ những ngày đầu. Schnorr là mới hơn trong Bitcoin, khi nó được giới thiệu vào tháng 11 năm 2021 với bản cập nhật Taproot.
-Hai thuật toán này khá giống nhau về cơ chế của chúng. Cả hai đều dựa trên mật mã học đường cong elliptic. Sự khác biệt lớn giữa hai giao thức này nằm ở cấu trúc của chữ ký và một số tính chất toán học cụ thể. Chúng ta sẽ do đó nghiên cứu cách hoạt động của các thuật toán này, bắt đầu với cái cũ nhất: ECDSA.
+Mối liên kết toán học giữa khóa công khai và khóa riêng, cũng như khả năng thực hiện chữ ký để chứng minh sở hữu khóa riêng mà không tiết lộ nó, được thực hiện bởi thuật toán chữ ký số. Trong giao thức Bitcoin, 2 thuật toán chữ ký được sử dụng: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (*Elliptic Curve Digital Signature Algorithm*) và **[Schnorr](https://planb.academy/resources/glossary/schnorr-protocol) signature scheme**. ECDSA là giao thức chữ ký số được sử dụng trong Bitcoin từ những ngày đầu. Schnorr là mới hơn trong Bitcoin, khi nó được giới thiệu vào tháng 11 năm 2021 với bản cập nhật Taproot.
+Hai thuật toán này khá giống nhau về cơ chế của chúng. Cả hai đều dựa trên mật mã học [đường cong elliptic](https://planb.academy/resources/glossary/elliptic-curve). Sự khác biệt lớn giữa hai giao thức này nằm ở cấu trúc của chữ ký và một số tính chất toán học cụ thể. Chúng ta sẽ do đó nghiên cứu cách hoạt động của các thuật toán này, bắt đầu với cái cũ nhất: ECDSA.
 ### Mật mã học đường cong Elliptic
 
 Mật mã học đường cong Elliptic (ECC) là một tập hợp các thuật toán sử dụng một đường cong elliptic với các tính chất toán học và hình học đa dạng của nó cho mục đích mật mã. Sự an toàn của các thuật toán này dựa trên sự khó khăn của bài toán logarit rời rạc trên đường cong elliptic. Đường cong elliptic đặc biệt được sử dụng cho trao đổi khóa, mã hóa không đối xứng, hoặc tạo chữ ký số.
@@ -692,7 +692,7 @@ $$
 
 Để sử dụng ECDSA hoặc Schnorr, người ta phải chọn các tham số của đường cong elliptic, tức là giá trị của $a$ và $b$ trong phương trình đường cong. Có các tiêu chuẩn khác nhau của đường cong elliptic được coi là an toàn về mặt mật mã. Tiêu chuẩn được biết đến nhiều nhất là đường cong *secp256r1*, được xác định và khuyến nghị bởi NIST (*Viện Tiêu chuẩn và Công nghệ Quốc gia*).
 
-Tuy nhiên, Satoshi Nakamoto, người sáng lập Bitcoin, đã chọn không sử dụng đường cong này. Lý do cho sự lựa chọn này không rõ ràng, nhưng một số người tin rằng ông ấy đã muốn tìm một lựa chọn thay thế vì các tham số của đường cong này có thể chứa một cửa hậu. Thay vào đó, giao thức Bitcoin sử dụng tiêu chuẩn đường cong ***secp256k1***. Đường cong này được xác định bởi các tham số $a = 0$ và $b = 7$. Phương trình của nó do đó là:
+Tuy nhiên, Satoshi Nakamoto, người sáng lập Bitcoin, đã chọn không sử dụng đường cong này. Lý do cho sự lựa chọn này không rõ ràng, nhưng một số người tin rằng ông ấy đã muốn tìm một lựa chọn thay thế vì các tham số của đường cong này có thể chứa một cửa hậu. Thay vào đó, giao thức Bitcoin sử dụng tiêu chuẩn đường cong ***[secp256k1](https://planb.academy/resources/glossary/secp256k1)***. Đường cong này được xác định bởi các tham số $a = 0$ và $b = 7$. Phương trình của nó do đó là:
 
 
 $$
@@ -750,7 +750,7 @@ https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 :::video id=2fddfb16-5ae3-41da-92f8-ef5d09789804:::
 
-Như đã thấy trước đây, các thuật toán chữ ký số trên Bitcoin dựa trên một cặp khóa riêng và khóa công khai có liên kết toán học với nhau. Hãy cùng khám phá liên kết toán học này là gì và chúng được tạo ra như thế nào.
+Như đã thấy trước đây, các thuật toán chữ ký số trên Bitcoin dựa trên một cặp [khóa riêng](https://planb.academy/resources/glossary/private-key) và [khóa công khai](https://planb.academy/resources/glossary/public-key) có liên kết toán học với nhau. Hãy cùng khám phá liên kết toán học này là gì và chúng được tạo ra như thế nào.
 
 ### Khóa Riêng
 
@@ -937,7 +937,7 @@ $$
 e = \text{HASH}(m)
 $$
 
-Tiếp theo, chúng ta tính một nonce. Trong mật mã, nonce đơn giản chỉ là một số được tạo ra một cách ngẫu nhiên hoặc giả ngẫu nhiên và chỉ được sử dụng một lần. Nói cách khác, mỗi lần một chữ ký số mới được tạo với cặp khóa này, sẽ rất quan trọng khi sử dụng một nonce khác nhau, nếu không, nó sẽ làm suy yếu bảo mật của khóa riêng. Do đó, chỉ cần xác định một số nguyên ngẫu nhiên và duy nhất $r$ sao cho $1 \leq r \leq n-1$, nơi $n$ là thứ tự của điểm sinh $G$ của đường cong elliptic.
+Tiếp theo, chúng ta tính một [nonce](https://planb.academy/resources/glossary/nonce). Trong mật mã, nonce đơn giản chỉ là một số được tạo ra một cách ngẫu nhiên hoặc giả ngẫu nhiên và chỉ được sử dụng một lần. Nói cách khác, mỗi lần một chữ ký số mới được tạo với cặp khóa này, sẽ rất quan trọng khi sử dụng một nonce khác nhau, nếu không, nó sẽ làm suy yếu bảo mật của khóa riêng. Do đó, chỉ cần xác định một số nguyên ngẫu nhiên và duy nhất $r$ sao cho $1 \leq r \leq n-1$, nơi $n$ là thứ tự của điểm sinh $G$ của đường cong elliptic.
 
 Sau đó, chúng ta sẽ tính điểm $R$ trên đường cong elliptic với tọa độ $(x_R, y_R)$ sao cho:
 
@@ -1188,7 +1188,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Ví HD (_Hierarchical Deterministic_)
 
-Để giải quyết hạn chế của ví JBOK, một cấu trúc ví mới sau đó được sử dụng. Vào năm 2012, Pieter Wuille đã giới thiệu một cải tiến với BIP32, giới thiệu ví phân cấp xác định (HD wallets). Nguyên tắc của một ví HD là phái sinh tất cả các khóa riêng từ một nguồn thông tin duy nhất, được gọi là hạt giống, theo một cách xác định và phân cấp. Hạt giống này được tạo ngẫu nhiên khi ví được tạo và tạo thành một bản sao lưu duy nhất cho phép tái tạo tất cả các khóa riêng của ví. Do đó, người dùng có thể tạo ra một số lượng rất lớn các khóa riêng để tránh tái sử dụng địa chỉ và bảo vệ sự riêng tư của họ, trong khi chỉ cần thực hiện một bản sao lưu duy nhất của ví thông qua hạt giống.
+Để giải quyết hạn chế của ví JBOK, một cấu trúc ví mới sau đó được sử dụng. Vào năm 2012, Pieter Wuille đã giới thiệu một cải tiến với [BIP32](https://planb.academy/resources/glossary/bip0032), giới thiệu ví phân cấp xác định (HD wallets). Nguyên tắc của một ví HD là phái sinh tất cả các khóa riêng từ một nguồn thông tin duy nhất, được gọi là hạt giống, theo một cách xác định và phân cấp. Hạt giống này được tạo ngẫu nhiên khi ví được tạo và tạo thành một bản sao lưu duy nhất cho phép tái tạo tất cả các khóa riêng của ví. Do đó, người dùng có thể tạo ra một số lượng rất lớn các khóa riêng để tránh tái sử dụng địa chỉ và bảo vệ sự riêng tư của họ, trong khi chỉ cần thực hiện một bản sao lưu duy nhất của ví thông qua hạt giống.
 ![CYP201](assets/en/039.webp)
 
 Trong ví HD, việc phái sinh khóa được thực hiện theo một cấu trúc phân cấp cho phép các khóa được tổ chức vào các không gian phái sinh con, mỗi không gian con có thể được chia nhỏ hơn nữa, để tạo thuận lợi cho việc quản lý quỹ và tương thích giữa các phần mềm ví khác nhau. Ngày nay, tiêu chuẩn này được đa số người dùng Bitcoin chấp nhận. Vì lý do này, chúng ta sẽ xem xét nó chi tiết trong các chương tiếp theo.
@@ -1207,7 +1207,7 @@ Trong các chương tiếp theo, chúng ta sẽ khám phá cơ chế hoạt đ�
 
 :::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
 
-Ví HD hiện đại (xác định và phân cấp) dựa vào một mảnh thông tin ban đầu gọi là "entropy" để tạo ra toàn bộ bộ khóa ví một cách xác định. Entropy này là một số ngẫu nhiên giả có mức độ hỗn loạn phần nào xác định mức độ an toàn của ví.
+Ví HD hiện đại (xác định và phân cấp) dựa vào một mảnh thông tin ban đầu gọi là "[entropy](https://planb.academy/resources/glossary/entropy)" để tạo ra toàn bộ bộ khóa ví một cách xác định. Entropy này là một số ngẫu nhiên giả có mức độ hỗn loạn phần nào xác định mức độ an toàn của ví.
 
 ### Định Nghĩa của Entropy
 
@@ -1236,12 +1236,12 @@ Trong chương tiếp theo, chúng ta sẽ xem làm thế nào chúng ta đi t�
 
 :::video id=6218472e-b965-484f-b56b-e363f65d2827:::
 
-Cụm từ ghi nhớ, còn được gọi là "cụm từ khôi phục", "cụm từ bí mật", hoặc "cụm từ 24 từ", là một chuỗi thường gồm 12 hoặc 24 từ, được tạo ra từ entropy. Nó được sử dụng để suy ra một cách xác định tất cả các khóa của một ví HD. Điều này có nghĩa là từ cụm từ này, có thể tạo ra và tái tạo tất cả các khóa riêng tư và khóa công khai của ví Bitcoin một cách xác định, và do đó truy cập vào các quỹ được bảo vệ bằng nó. Mục đích của cụm từ ghi nhớ là cung cấp một phương tiện sao lưu và khôi phục bitcoin một cách an toàn và dễ sử dụng. Nó được giới thiệu vào các tiêu chuẩn vào năm 2013 với BIP39.
+Cụm từ ghi nhớ, còn được gọi là "cụm từ khôi phục", "cụm từ bí mật", hoặc "cụm từ 24 từ", là một chuỗi thường gồm 12 hoặc 24 từ, được tạo ra từ entropy. Nó được sử dụng để suy ra một cách xác định tất cả các khóa của một ví HD. Điều này có nghĩa là từ cụm từ này, có thể tạo ra và tái tạo tất cả các khóa riêng tư và khóa công khai của ví Bitcoin một cách xác định, và do đó truy cập vào các quỹ được bảo vệ bằng nó. Mục đích của cụm từ ghi nhớ là cung cấp một phương tiện sao lưu và khôi phục bitcoin một cách an toàn và dễ sử dụng. Nó được giới thiệu vào các tiêu chuẩn vào năm 2013 với [BIP39](https://planb.academy/resources/glossary/bip0039).
 Hãy cùng khám phá cách chuyển từ entropy sang cụm từ ghi nhớ.
 
 ### Checksum
 
-Để chuyển đổi entropy thành cụm từ ghi nhớ, trước tiên phải thêm một checksum (hoặc "tổng kiểm soát") vào cuối entropy. Checksum là một chuỗi bit ngắn đảm bảo tính toàn vẹn của dữ liệu bằng cách xác minh rằng không có sự thay đổi nào không mong muốn được giới thiệu.
+Để chuyển đổi entropy thành cụm từ ghi nhớ, trước tiên phải thêm một [checksum](https://planb.academy/resources/glossary/checksum) (hoặc "tổng kiểm soát") vào cuối entropy. Checksum là một chuỗi bit ngắn đảm bảo tính toàn vẹn của dữ liệu bằng cách xác minh rằng không có sự thay đổi nào không mong muốn được giới thiệu.
 
 Để tính toán checksum, hàm băm SHA256 được áp dụng cho entropy (chỉ một lần; đây là một trong những trường hợp hiếm hoi trong Bitcoin khi một hàm băm SHA256 đơn được sử dụng thay vì một hàm băm kép). Thao tác này tạo ra một băm 256-bit. Checksum bao gồm các bit đầu tiên của băm này, và độ dài của nó phụ thuộc vào độ dài của entropy, theo công thức sau:
 
@@ -1790,12 +1790,12 @@ Một đường dẫn phái sinh, do đó, đề cập đến chuỗi các chỉ
 
 Cấp độ này tương ứng với khóa riêng chính và mã chuỗi chính của ví. Nó được biểu diễn bằng ký hiệu $m/$.
 
-**Cấp độ 1: Mục đích (BIP43)**
-Mục tiêu xác định cấu trúc logic của quá trình suy luận. Ví dụ, một địa chỉ P2WPKH sẽ có $/84'/$ tại độ sâu 1 (theo BIP84), trong khi một địa chỉ P2TR sẽ có $/86'/$ (theo BIP86). Lớp này tạo điều kiện tương thích giữa các ví bằng cách chỉ ra các số chỉ mục tương ứng với các số BIP.
+**Cấp độ 1: Mục đích ([BIP43](https://planb.academy/resources/glossary/bip0043))**
+Mục tiêu xác định cấu trúc logic của quá trình suy luận. Ví dụ, một địa chỉ P2WPKH sẽ có $/84'/$ tại độ sâu 1 (theo [BIP84](https://planb.academy/resources/glossary/bip0084)), trong khi một địa chỉ P2TR sẽ có $/86'/$ (theo [BIP86](https://planb.academy/resources/glossary/bip0086)). Lớp này tạo điều kiện tương thích giữa các ví bằng cách chỉ ra các số chỉ mục tương ứng với các số BIP.
 
 Nói cách khác, một khi bạn có khóa chính và mã chuỗi chính, chúng phục vụ như một cặp khóa cha để suy ra một cặp khóa con. Chỉ mục được sử dụng trong quá trình suy ra này có thể là, ví dụ, $/84'/$ nếu ví được dự định sử dụng kịch bản loại SegWit v0. Cặp khóa này sau đó ở độ sâu 1. Vai trò của nó không phải là để khóa bitcoin, mà chỉ đơn giản là phục vụ như một điểm dừng trong hệ thống phân cấp suy ra.
 
-**Độ Sâu 2: Loại Tiền Tệ (BIP44)**
+**Độ Sâu 2: Loại Tiền Tệ ([BIP44](https://planb.academy/resources/glossary/bip0044))**
 
 Từ cặp khóa ở độ sâu 1, một quá trình suy ra mới được thực hiện để thu được cặp khóa ở độ sâu 2. Độ sâu này cho phép phân biệt các tài khoản Bitcoin với các loại tiền điện tử khác trong cùng một ví.
 
@@ -1866,7 +1866,7 @@ Trong chương tiếp theo, chúng ta sẽ khám phá xem "*output script descri
 
 Người ta thường nói rằng chỉ cần cụm từ ghi nhớ là đủ để khôi phục quyền truy cập vào ví. Trên thực tế, mọi thứ phức tạp hơn một chút. Trong chương trước, chúng ta đã xem xét cấu trúc phái sinh của ví HD, và bạn có thể đã nhận thấy quy trình này khá phức tạp. Đường dẫn phái sinh chỉ cho phần mềm biết hướng nào để phái sinh các khóa của người dùng. Tuy nhiên, khi khôi phục ví Bitcoin, nếu không biết những đường dẫn này, chỉ có cụm từ ghi nhớ thôi là không đủ. Nó cho phép lấy khóa chính và mã chuỗi chính, nhưng sau đó cần phải biết các chỉ số được sử dụng để đạt đến các khóa con.
 
-Lý thuyết, sẽ cần phải lưu không chỉ cụm từ ghi nhớ của ví mà còn cả các đường dẫn đến các tài khoản mà chúng ta sử dụng. Trên thực tế, thường có thể lấy lại quyền truy cập vào các khóa con mà không cần thông tin này, miễn là đã tuân theo các tiêu chuẩn. Bằng cách kiểm tra từng tiêu chuẩn một, thường là có thể lấy lại quyền truy cập vào các bitcoin. Tuy nhiên, điều này không được đảm bảo và đặc biệt phức tạp đối với người mới bắt đầu. Ngoài ra, với sự đa dạng hóa của các loại script và sự xuất hiện của các cấu hình phức tạp hơn, thông tin này có thể trở nên khó khăn để suy luận, do đó biến dữ liệu này thành thông tin riêng tư và khó khôi phục bằng cách sử dụng lực lượng cưỡng bức. Đó là lý do tại sao một sự đổi mới gần đây đã được giới thiệu và bắt đầu được tích hợp vào phần mềm ví yêu thích của bạn: các *output script descriptors*.
+Lý thuyết, sẽ cần phải lưu không chỉ cụm từ ghi nhớ của ví mà còn cả các đường dẫn đến các tài khoản mà chúng ta sử dụng. Trên thực tế, thường có thể lấy lại quyền truy cập vào các khóa con mà không cần thông tin này, miễn là đã tuân theo các tiêu chuẩn. Bằng cách kiểm tra từng tiêu chuẩn một, thường là có thể lấy lại quyền truy cập vào các bitcoin. Tuy nhiên, điều này không được đảm bảo và đặc biệt phức tạp đối với người mới bắt đầu. Ngoài ra, với sự đa dạng hóa của các loại script và sự xuất hiện của các cấu hình phức tạp hơn, thông tin này có thể trở nên khó khăn để suy luận, do đó biến dữ liệu này thành thông tin riêng tư và khó khôi phục bằng cách sử dụng lực lượng cưỡng bức. Đó là lý do tại sao một sự đổi mới gần đây đã được giới thiệu và bắt đầu được tích hợp vào phần mềm ví yêu thích của bạn: các *[output script descriptors](https://planb.academy/resources/glossary/output-script-descriptors)*.
 
 ### Descriptor là gì?
 
@@ -1919,13 +1919,13 @@ Chính xác thì trong *scriptPubKey* là nơi tìm thấy các địa chỉ nh�
 
 
 
-| Tiêu chuẩn             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| Tiêu chuẩn             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _[witness](https://planb.academy/resources/glossary/scriptwitness)_ |
 | ------------------------ | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
 | P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
 | P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
-| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Dữ liệu tùy ý | |
-| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
-| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| [P2SH](https://planb.academy/resources/glossary/p2sh)                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Dữ liệu tùy ý | |
+| [P2WPKH](https://planb.academy/resources/glossary/p2wpkh)               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| [P2WSH](https://planb.academy/resources/glossary/p2wsh)                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
 | P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
 | P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
@@ -1989,7 +1989,7 @@ Mô hình kịch bản này được giới thiệu trong phiên bản đầu ti
 
 **P2PKH (*Pay-to-PubKey-Hash*)**:
 
-Giống như P2PK, kịch bản P2PKH được giới thiệu ngay từ khi Bitcoin ra đời. Khác với người tiền nhiệm, nó khóa bitcoin sử dụng băm của khóa công khai, thay vì sử dụng trực tiếp khóa công khai thô. *scriptSig* sau đó phải cung cấp khóa công khai liên kết với địa chỉ nhận, cũng như một chữ ký hợp lệ. Các địa chỉ tương ứng với mô hình này bắt đầu với `1` và được mã hóa trong *base58check*. Kịch bản này cũng thuộc về tiêu chuẩn "*Legacy*".
+Giống như P2PK, kịch bản P2PKH được giới thiệu ngay từ khi Bitcoin ra đời. Khác với người tiền nhiệm, nó khóa bitcoin sử dụng băm của khóa công khai, thay vì sử dụng trực tiếp khóa công khai thô. *scriptSig* sau đó phải cung cấp khóa công khai liên kết với địa chỉ nhận, cũng như một chữ ký hợp lệ. Các địa chỉ tương ứng với mô hình này bắt đầu với `1` và được mã hóa trong *[base58check](https://planb.academy/resources/glossary/base58check)*. Kịch bản này cũng thuộc về tiêu chuẩn "*Legacy*".
 
 **P2SH (*Pay-to-Script-Hash*)**:
 Được giới thiệu vào năm 2012 với BIP16, mô hình P2SH cho phép sử dụng băm của một kịch bản tùy ý trong *scriptPubKey*. Kịch bản băm này, được gọi là "*redeemScript*", chứa các điều kiện để mở khóa quỹ. Để chi tiêu một UTXO bị khóa bằng P2SH, cần phải cung cấp một *scriptSig* chứa *redeemScript* gốc cũng như dữ liệu cần thiết để xác thực nó. Mô hình này đặc biệt được sử dụng cho multisigs cũ. Các địa chỉ liên kết với P2SH bắt đầu bằng `3` và được mã hóa trong *base58check*. Kịch bản này cũng thuộc về tiêu chuẩn "*Legacy*".
@@ -1997,7 +1997,7 @@ Giống như P2PK, kịch bản P2PKH được giới thiệu ngay từ khi Bitc
 **P2WPKH (*Pay-to-Witness-PubKey-Hash*)**:
 Kịch bản này tương tự như P2PKH, vì nó cũng khóa bitcoins bằng cách sử dụng băm của một khóa công khai. Tuy nhiên, không giống như P2PKH, *scriptSig* được chuyển sang một phần riêng biệt được gọi là "*Witness*". Đôi khi điều này được gọi là "*scriptWitness*" để chỉ bộ bao gồm chữ ký và khóa công khai. Mỗi đầu vào SegWit có *scriptWitness* riêng của mình, và tập hợp các *scriptWitnesses* tạo thành trường *Witness* của giao dịch. Việc di chuyển dữ liệu chữ ký này là một đổi mới được giới thiệu bởi bản cập nhật SegWit, nhằm mục đích đặc biệt là ngăn chặn sự biến đổi của giao dịch do chữ ký ECDSA.
 
-Địa chỉ P2WPKH sử dụng mã hóa *bech32* và luôn bắt đầu bằng `bc1q`. Loại kịch bản này tương ứng với đầu ra SegWit phiên bản 0.
+Địa chỉ P2WPKH sử dụng mã hóa *[bech32](https://planb.academy/resources/glossary/bech32-and-bech32m)* và luôn bắt đầu bằng `bc1q`. Loại kịch bản này tương ứng với đầu ra SegWit phiên bản 0.
 
 **P2WSH (*Pay-to-Witness-Script-Hash*)**:
 

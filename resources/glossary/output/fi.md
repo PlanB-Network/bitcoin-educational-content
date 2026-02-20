@@ -1,5 +1,6 @@
 ---
-term: OUTPUT
+term: Output
+definition: Transaktion tuloste, joka luo uuden osoitteelle tarkoitetun UTXOn.
 ---
 
 Bitcoin:n yhteydessä tapahtuman tuotos tarkoittaa _Unspent Transaction Outputs_ (UTXOs), jotka luodaan maksun kohdevaroiksi. Tarkemmin sanottuna se on mekanismi, jolla transaktio jakaa varoja. Transaktio ottaa UTXO:t eli bitcoin-bitit "syötteinä" ja luo uusia UTXO:ita "tuotoksina". Näissä tuotoksissa määrätään tietty määrä bitcoineja, jotka usein osoitetaan tietylle Address:lle, sekä ehdot, joiden mukaisesti nämä varat voidaan käyttää myöhemmin.

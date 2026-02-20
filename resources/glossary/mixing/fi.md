@@ -1,6 +1,7 @@
 ---
-term: MIXING
+term: Miksaus
 
+definition: Järjestelmän ominaisuus, jossa elementit sekoitetaan tasaisesti, käytetään coinjoin-toimintojen laadun arviointiin.
 ---
 Yleisellä matematiikan alalla sekoittumisella tai sekoittumisella tarkoitetaan dynaamisen järjestelmän ominaisuutta, jossa tietyn ajan kuluttua kaikki alkuperäisen tilan osat voivat teoriassa sekoittua minkä tahansa muun osan kanssa. Sekoittuminen merkitsee sitä, että hiukkasen sijainti tai systeemin tila kehittyy siten, että sen tuleva jakauma on riippumaton sen alkujakaumasta, jolloin saavutetaan tila, jossa alkutilan ominaisuudet jakautuvat tasaisesti koko systeemin tilaan. Bitcoinin yhteydessä tätä käsitettä voidaan käyttää arvioitaessa kolikoiden sekoitusprosessin, kuten coinjoinin, laatua.
 

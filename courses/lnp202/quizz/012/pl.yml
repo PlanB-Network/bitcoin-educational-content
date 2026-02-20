@@ -1,0 +1,9 @@
+question: Jaki jest główny kompromis z węzłami pokładowymi LN?
+answer: Zależność od operatora
+wrong_answers:
+  - Utrata kluczy prywatnych
+  - Brak samoopieki
+  - Płatności onchain obowiązkowe dla wszystkich transakcji Lightning
+explanation: |
+  Użytkownik jest w dużym stopniu zależny od głównego operatora w zakresie łączności i zarządzania kanałami.
+reviewed: false

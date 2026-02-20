@@ -1,0 +1,8 @@
+question: Warum ist die "move fast and break things"-Philosophie für die Bitcoin-Entwicklung im Vergleich zur traditionellen Softwareentwicklung besonders ungeeignet?
+answer: Bitcoin-Transaktionen sind unumkehrbar, und es gibt keine zentrale Behörde, die Gelder aus Fehlern zurückfordert
+wrong_answers:
+  - Bitcoin-Entwicklung erfordert schnellere Iterationszyklen als traditionelle Webanwendungen
+  - "Der Compiler von Rust verhindert das für die Blockchain-Innovation erforderliche schnelle Prototyping"
+  - "Der Open-Source-Charakter von Bitcoin macht es schwieriger, Fehler nach der Bereitstellung zu beheben"
+explanation: |
+  Die richtige Antwort unterstreicht das grundlegende Merkmal von Bitcoin: Sein dezentraler Charakter bedeutet, dass es keine Behörde gibt, an die man sich wenden kann, um Gelder zurückzubekommen, sobald Transaktionen übertragen wurden. Im Gegensatz zu traditionellen Finanzsystemen mit regulatorischen Schutzmaßnahmen und Rückbuchungsmechanismen sind Bitcoin-Fehler dauerhaft und unumkehrbar. Die falschen Antworten missverstehen das Kernproblem - es geht nicht um Entwicklungsgeschwindigkeit, Compiler-Beschränkungen oder Open-Source-Herausforderungen, sondern um die Unumkehrbarkeit von Finanztransaktionen in einem dezentralisierten System, bei dem die Gelder der Nutzer permanent gefährdet sind.

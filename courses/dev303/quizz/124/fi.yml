@@ -1,0 +1,8 @@
+question: Mikä on ensisijainen tekninen mekanismi, jonka avulla Breez SDK voi tarjota käyttäjille yhtenäisen tasapainon säilyttäen samalla sekä Lightning- että on-chain Bitcoin-toiminnot?
+answer: Automaattiset vaihtopalvelut, jotka vaihtavat Lightningin ja on-chain Bitcoin:n välillä kulissien takana tarpeen mukaan
+wrong_answers:
+  - Reaaliaikainen saldojen yhdistäminen, joka näyttää Lightning- ja on-chain-varojen summan ilman varsinaista muuntamista
+  - Kanavavarantojen yhdistäminen, jonka ansiosta varat voivat liikkua vapaasti Lightning- ja on-chain-valtioiden välillä saman UTXO-valtion sisällä
+  - Kaksikerroksinen osoitteenmuodostus, joka luo hybridiosoitteita, jotka pystyvät vastaanottamaan sekä Lightning- että on-chain-maksuja
+explanation: |
+  Oikea vastaus on automaattiset vaihtopalvelut, koska Breez SDK toteuttaa nimenomaan on-chain:n vaihtotoiminnallisuuden, joka muuntaa saumattomasti Lightningin ja on-chain Bitcoin:n välillä, kun käyttäjien on suoritettava erityyppisiä maksuja. Näin käyttäjät näkevät vain yhden saldon, kun järjestelmä hoitaa teknisesti monimutkaisen varojen siirtämisen kerrosten välillä. Väärät vastaukset kuvaavat olemattomia tai teknisesti mahdottomia mekanismeja - saldojen yhdistäminen näyttäisi vain yhteenlasketut summat ilman kerrostenvälisen toiminnallisuuden mahdollistamista, kanavavaraukset eivät voi siirtää varoja on-chain-tiloihin, ja Bitcoin:n protokollassa ei ole hybridiosoitteita.

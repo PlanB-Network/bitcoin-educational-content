@@ -1,0 +1,8 @@
+question: Jakiego mechanizmu używa Rust do automatycznego czyszczenia zmiennych i ich zasobów po wyjściu poza zakres?
+answer: Mechanizm upuszczania, który wywołuje funkcje upuszczania na zmiennych
+wrong_answers:
+  - Garbage collector, który okresowo wyszukuje nieużywaną pamięć
+  - Ręczne usuwanie pamięci poprzez jawne wywołania funkcji free()
+  - Zliczanie referencji, które śledzi, ile wskaźników odwołuje się do każdej wartości
+explanation: |
+  Rust wykorzystuje mechanizm drop do automatycznego czyszczenia zasobów, gdy zmienne wychodzą poza zakres. System ten niejawnie wywołuje funkcję drop na każdej zmiennej, gdy wychodzi ona poza zakres, oznaczając pamięć jako dostępną do ponownego użycia i wykonując wszelkie niezbędne operacje czyszczenia, takie jak zamykanie uchwytów plików. Podejście to, zapożyczone z wzorca RAII języka C++, zapewnia automatyczne zarządzanie zasobami bez konieczności odśmiecania, ręcznego zarządzania pamięcią lub systemów zliczania referencji używanych w innych językach.

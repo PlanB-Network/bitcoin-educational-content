@@ -1,0 +1,8 @@
+question: Jakou roli hraje soubor Unified Definition Language (UDL) v pracovním postupu UniFFI?
+answer: Funguje jako specifikace rozhraní, která popisuje, které části knihovny Rust by měly být vystaveny jiným jazykům
+wrong_answers:
+  - Obsahuje skutečný implementační kód Rust, který se zkompiluje do vazeb cílového jazyka
+  - Slouží jako konfigurační soubor pro běh, který spravuje přidělování paměti mezi různými jazykovými prostředími
+  - Poskytuje testovací rámec pro ověřování správnosti generovaných vazeb na různých platformách
+explanation: |
+  Soubor UDL slouží jako smlouva nebo specifikace mezi implementací Rust a generovanými jazykovými vazbami. Neobsahuje samotný kód Rust ani neřeší běhové operace nebo testování. Místo toho deklarativně definuje, které funkce, typy a rozhraní z knihovny Rust mají být zpřístupněny jiným jazykům, a určuje, jak mají být mapovány a prezentovány v nativním rozhraní cílového jazyka.

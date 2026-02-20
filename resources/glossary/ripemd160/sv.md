@@ -1,5 +1,6 @@
 ---
 term: RIPEMD160
+definition: Kryptografisk hashfunktion som genererar ett 160-bitars sammandrag, använd för Bitcoin-adresser.
 ---
 
 Akronym för *Forskning och utveckling inom avancerad kommunikationsteknik i Europa Integrity Primitives Evaluation Message Digest 160*. Det är en kryptografisk Hash-funktion som genererar en 160-bitars sammanställning från en godtycklig indata. Den används i Bitcoin för att omvandla en publik nyckel till en mottagande Address för Legacy- och SegWit v0-standarder (för SegWit v1 hashas inte den publika nyckeln). Processen omfattar först tillämpning av Hash-funktionen `SHA256` på den publika nyckeln, följt av tillämpning av `RIPEMD160` på resultatet. Denna kombination av två olika Hash-funktioner kallas `HASH160` i Bitcoin-sammanhang. `RIPEMD160` används också i deterministiska och hierarkiska plånböcker för att beräkna nyckelfingeravtryck. Specifikt används `HASH160` för att beräkna fingeravtrycket för en överordnad nyckel, som sedan ingår i metadata för en utökad nyckel (xpub, xprv...).

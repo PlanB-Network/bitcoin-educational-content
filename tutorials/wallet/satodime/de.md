@@ -124,7 +124,7 @@ Bei der ersten Verwendung müssen Sie Eigentümer der Karte werden, um sie zu si
 - Klicken Sie in der App auf "*Ownership* nehmen".
 - Bestätigen Sie den Vorgang: Dadurch wird ein eindeutiger Eigentümerschlüssel erzeugt.
 - Scannen Sie die Karte erneut, um die Änderungen zu übernehmen.
-- Warnung**: Dieser Schritt ist unumkehrbar. Bitte lesen Sie [den Artikel über *Eigentum*] (https://satochip.io/satodime-ownership-explained/).
+- Warnung**: Dieser Schritt ist unumkehrbar. Bitte lesen Sie [den Artikel über *Eigentum*](https://satochip.io/satodime-ownership-explained/).
 
 
 
@@ -305,7 +305,7 @@ Spezifisch für Satodime :
 
 
 
-[Plan ₿ Academy] (https://planb.academy/) für Tutorials zu Selbstverwahrung, privaten Schlüsseln usw.
+[Plan ₿ Academy](https://planb.academy/) für Tutorials zu Selbstverwahrung, privaten Schlüsseln usw.
 
 
 

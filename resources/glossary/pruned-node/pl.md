@@ -1,5 +1,6 @@
 ---
-term: PRZYCIĘTY WĘZEŁ
+term: Węzeł przycięty
+definition: Pełny węzeł usuwający stare zweryfikowane bloki w celu zaoszczędzenia miejsca na dysku.
 ---
 
 Przycięty węzeł, w języku angielskim "Pruned Node", to Full node, który wykonuje przycinanie Blockchain. Polega to na stopniowym usuwaniu najstarszych bloków, po ich należytej weryfikacji, aby zachować tylko najnowsze bloki. Limit retencji jest określony w pliku `Bitcoin.conf` poprzez parametr `prune=n`, gdzie `n` jest maksymalnym rozmiarem bloków w megabajtach (MB). Jeśli po tym parametrze podano `0`, przycinanie jest wyłączone, a węzeł zachowuje Blockchain w całości.

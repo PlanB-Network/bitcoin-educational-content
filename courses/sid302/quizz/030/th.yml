@@ -1,0 +1,8 @@
+question: วัตถุประสงค์หลักของกลไกการแลกเปลี่ยนกุญแจ ECDH ในสถาปัตยกรรม Liquid ของ Confidential Transactions คืออะไร?
+answer: เพื่อให้ผู้ส่งสามารถเข้ารหัสจำนวนและประเภทของสินทรัพย์โดยใช้กุญแจสาธารณะบลายด์ของผู้รับในขณะที่สร้างหลักฐานช่วงที่ตรวจสอบได้
+wrong_answers:
+  - เพื่อสร้างช่องทางการสื่อสารที่ปลอดภัยระหว่างเซิร์ฟเวอร์ AMP และลูกค้า wallet ในระหว่างกระบวนการอนุมัติธุรกรรม
+  - ในการสร้างความลับร่วมกันสำหรับการลงทะเบียนตัวบ่งชี้หลายลายเซ็นระหว่างกระเป๋าเงินและโครงสร้างพื้นฐานเซิร์ฟเวอร์ AMP
+  - ถึง generate ลายเซ็นดิจิทัลที่พิสูจน์ความเป็นเจ้าของสินทรัพย์โดยไม่เปิดเผยข้อมูลคีย์ส่วนตัวที่อยู่เบื้องหลัง
+explanation: |
+  ECDH (Elliptic Curve Diffie-Hellman) key exchange in Liquid's Confidential Transactions specifically enables privacy-preserving asset transfers by allowing senders to encrypt transaction output values using the receiver's blinding public key. This creates a shared secret that only the receiver can decrypt with their private blinding key, while simultaneously generating range proofs that allow network validators to verify transaction validity without seeing the actual amounts. The other options incorrectly describe ECDH as serving communication security, descriptor registration, or ownership proof functions, which are handled by different cryptographic mechanisms in the Liquid ecosystem.

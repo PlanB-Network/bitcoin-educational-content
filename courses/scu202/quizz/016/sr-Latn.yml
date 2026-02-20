@@ -6,4 +6,4 @@ wrong_answers:
   - Slackware
 explanation: |
   RPM format je pokrenuo Red Hat i predstavlja osnovu za Fedora, RHEL, CentOS, AlmaLinux, Rocky Linux i druge povezane distribucije.
-reviewed: false
+reviewed: true

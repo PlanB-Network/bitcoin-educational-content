@@ -1,8 +1,9 @@
-question: None Marquis d’Argenson yagereranije ikibano n’iki?
-answer: Ku ruzi, rutemba mu buryo busanzwe ata mategeko yinjiramwo .
+question: None Marquis d’Argenson agereranya ikibano n’iki?
+answer: Ku ruzi, rutemba mu buryo busanzwe ata mategeko aruvangira .
 wrong_answers:
-  - Ku mw’ishamba, aho itegeko ry’abakomeye gusa ari ryo riganza .
+  - Ku mw’ishamba, aho itegeko ritwara ari iry'uwukomeye kurusha abandi .
   - Ku muzinga w’inzuki, aho udukoko twose dukora nk’uko twipfuza, ivyo bikaba bituma bose bamererwa neza .
-  - Imashini igoye cane isaba guhora itunganywa
+  - Imashini igoye cane isaba kwama itunganwa neza
 explanation: |
-  Marquis d’Argenson yagereranije ikibano n’uruzi, ashimika ku kamaro ko kureka ibintu bikagenda nk’uko bisanzwe, ata Leta yinjiramwo birenze urugero. Yarizera ko ubutunzi bufise amategeko yabwo, kandi ko ari vyiza kuyabaha aho kugerageza kuyagenzura.
+  Marquis d’Argenson yagereranije ikibano nk’uruzi, ashimika ku kamaro ko kureka ibintu bikagenda nk’uko bisanzwe, ata Leta yinjiramwo birenze urugero. Yarizera ko ubutunzi bufise amategeko yabwo, kandi ko ari vyiza kuyabaha aho kugerageza kuyagenzura.
+reviewed: true

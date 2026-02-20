@@ -1,0 +1,9 @@
+question: ไฟล์ใดที่เคยใช้สำหรับการแก้ไขปัญหาในท้องถิ่นก่อนที่จะมี DNS ทั่วโลก?
+answer: /etc/hosts
+wrong_answers:
+  - /etc/dns
+  - /etc/network
+  - /etc/resolve
+explanation: |
+  ก่อนที่ DNS จะได้รับความนิยม การแก้ไขชื่อจะพึ่งพาไฟล์ /etc/hosts แบบคงที่บนระบบ Unix/Linux
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: UKUTA WA MAWE
+term: Stonewall
+definition: Muamala wa Bitcoin usio wa ushirikiano unaoiga coinjoin ili kuongeza faragha wakati wa kutumia.
 ---
 
 Aina mahususi ya shughuli ya Bitcoin inayolenga kuongeza faragha ya mtumiaji wakati wa matumizi kwa kuiga CoinJoin kati ya watu wawili, bila kuwa mmoja. Hakika, shughuli hii si shirikishi. Mtumiaji anaweza kuijenga peke yake, akihusisha tu UTXO zao kama pembejeo. Kwa hivyo, unaweza kuunda muamala wa Stonewall kwa hafla yoyote, bila kuhitaji kusawazisha na mtumiaji mwingine.
@@ -15,7 +16,7 @@ Kwa hivyo, kuna majukumu 2 tu katika shughuli ya Stonewall:
 - Mpokeaji, ambaye huenda hajui aina mahususi ya muamala na anasubiri tu malipo kutoka kwa mtumaji.
 
 
-![](../../dictionnaire/assets/33.webp)
+
 
 Shughuli za Stonewall zinapatikana kwenye programu ya Samourai Wallet na programu ya Sparrow Wallet.
 

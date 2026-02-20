@@ -1,0 +1,9 @@
+question: Mitä keskimääräistä aikaväliä lohkojen välillä Bitcoin tavoittelee?
+answer: 10 minuuttia
+wrong_answers:
+  - 1 minuutti
+  - 30 minuuttia
+  - 60 minuuttia
+explanation: |
+  Protokolla tavoittelee keskimäärin noin yhtä lohkoa 10 minuutin välein pitkällä aikavälillä.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Según el sistema de propiedad de Rust, ¿cuántos propietarios puede tener un valor en un momento dado?
+answer: Exactamente un propietario
+wrong_answers:
+  - Se permiten varios propietarios
+  - Dos propietarios como máximo
+  - Sin propietarios hasta el acceso
+explanation: |
+  El sistema de propiedad de Rust opera sobre tres reglas fundamentales, siendo la primera que cada valor tiene exactamente un propietario en un momento dado. Este principio de propiedad única es crucial para la seguridad de la memoria porque impide que varias partes del programa intenten liberar la misma memoria o modificar datos simultáneamente. Tener varios propietarios provocaría errores de uso después de la liberación y carreras de datos, mientras que no tener ningún propietario significaría que la memoria nunca podría limpiarse correctamente.

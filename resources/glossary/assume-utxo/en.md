@@ -1,12 +1,15 @@
 ---
-term: ASSUME UTXO
+term: Assume utxo
+definition: A Bitcoin Core parameter allowing quick synchronization of a new node by using a snapshot of the UTXO set presumed valid, before verifying the history in the background.
 ---
+Configuration parameter in the majority Bitcoin Core client that allows a node that has just been initialized (but has not yet done the IBD) to postpone the verification of transactions and the UTXO set before a given snapshot. The concept is based on the use of a UTXO set (list of all existing UTXOs at a given time) provided by Core and presumed accurate, which allows the node to be synchronized very quickly on the chain with the most accumulated work. Since the node skips the long IBD step, it is very quickly functional for its user.
 
-A configuration parameter in the Bitcoin Core client that allows a newly initialized node (one that hasn’t yet performed Initial Block Download, or IBD) to postpone the verification of transactions and the UTXO set prior to a given snapshot. The concept relies on using a UTXO set (a list of all existing UTXOs at a certain point in time) provided by Core and assumed to be accurate This enables the node to quickly synchronize with the chain that has the most accumulated work. 
+Assume UTXO divides the synchronization (IBD) into two parts: First, the node performs Header First Sync (headers verification only) and considers the UTXO set provided by Core as valid; Then, once it is functional, the node will verify the full block history in the background, updating a new UTXO set that it will have verified itself. If the latter does not match the UTXO set provided by Core, it will provide an error message.
 
-Since the node skips the lengthy IBD process, it becomes operational for the user much faster. Assume UTXO splits the synchronization (IBD) into two phases:
+Assume UTXO therefore allows for accelerating the preparation of a new Bitcoin node by postponing the transaction and UTXO set verification process thanks to an updated snapshot provided in Core.
 
-* First, the node performs the Header First Sync (verification of headers only) and considers the UTXO set provided by Core as valid;
-*Then, once it is up and running, the node begins verifying the full block history in the background, building its own UTXO set. If this new UTXO set does not match the one provided by Core, it will produce an error message.*
 
-Therefore, Assume UTXO speeds up the preparation of a new Bitcoin node by postponing the transaction verification process and the UTXO set through an updated snapshot provided in Core.
+
+
+
+

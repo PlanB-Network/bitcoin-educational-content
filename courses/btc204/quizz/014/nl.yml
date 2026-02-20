@@ -5,5 +5,5 @@ wrong_answers:
   - Transacties zijn versleuteld en onzichtbaar op het netwerk.
   - Alleen overheden hebben toegang tot de transactiegegevens.
 explanation: |
-  In het geval van Bitcoin, aangezien de informatiestroom niet kan worden verbroken tussen de transacties en het publieke domein, berust het privacymodel op de scheiding tussen de identiteit van de gebruiker en de transacties.
+  Bij Bitcoin kan de informatiestroom tussen de transacties en het publieke domein niet worden verbroken. Het privacymodel berust op de scheiding tussen de identiteit van de gebruiker en de transacties.
 reviewed: false

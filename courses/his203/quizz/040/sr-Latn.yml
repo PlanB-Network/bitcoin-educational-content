@@ -1,0 +1,9 @@
+question: Od čega se sastoji šema skripte Pay-to-Script-Hash (P2SH)?
+answer: Zaključavanje sredstava hešom skripte, koja mora biti izvršena prilikom otključavanja
+wrong_answers:
+  - Zahtijevanje M potpisa od N učesnika za autorizaciju trošenja izlaza transakcije
+  - Uslovljavanje trošenja bitkoina obezbeđivanjem potpisa povezanog sa jednim javnim ključem
+  - Pisanje proizvoljnih podataka na blockchain čineći UTXO nepotrošivim
+explanation: |
+ Ovo uključuje plaćanje za hash skripte i obezbeđivanje navedene skripte prilikom otključavanja sredstava. Ono što ga razlikuje od OP_EVAL predloga je to što ga virtuelna mašina automatski prepoznaje, tako da se može izvršiti bez potrebe za bilo kakvim eksplicitnim instrukcijama.
+reviewed: true

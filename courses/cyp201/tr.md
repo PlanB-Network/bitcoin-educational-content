@@ -47,7 +47,7 @@ Bu eğitimin amacı, günlük olarak kullandığınız araçlarda ustalaşmanız
 
 Bitcoin cüzdanlarının yapımı ve işleyişinin ayrıntılarına girmeden önce, bundan sonrası için bilinmesi gereken kriptografik ilkellere ilişkin birkaç bölümle başlayacağız.
 
-Hem cüzdanlar hem de Bitcoin protokolünün kendisi için temel olan kriptografik Hash işlevleriyle başlayacağız. Ana özelliklerini, Bitcoin'de kullanılan belirli işlevleri keşfedecek ve daha teknik bir bölümde, Hash işlevlerinin kraliçesinin işleyişi hakkında ayrıntılı bilgi edineceksiniz: SHA256.
+Hem cüzdanlar hem de Bitcoin protokolünün kendisi için temel olan kriptografik Hash işlevleriyle başlayacağız. Ana özelliklerini, Bitcoin'de kullanılan belirli işlevleri keşfedecek ve daha teknik bir bölümde, Hash işlevlerinin kraliçesinin işleyişi hakkında ayrıntılı bilgi edineceksiniz: [SHA256](https://planb.academy/resources/glossary/sha256).
 
 
 ![CYP201](assets/en/001.webp)
@@ -65,7 +65,7 @@ Kriptografinin bu Elements'sini iyi bir şekilde anladıktan sonra, nihayet eği
 ![CYP201](assets/en/003.webp)
 
 
-Eğitim BIP39 passphrase, seed (Mnemonic ifadesiyle karıştırılmamalıdır), ana chain code ve ana anahtarın incelenmesiyle devam edecektir. Bu Elements'in ne olduğunu, ilgili rollerini ve nasıl hesaplandıklarını ayrıntılı olarak göreceğiz.
+Eğitim [BIP39](https://planb.academy/resources/glossary/bip0039) passphrase, seed (Mnemonic ifadesiyle karıştırılmamalıdır), ana chain code ve ana anahtarın incelenmesiyle devam edecektir. Bu Elements'in ne olduğunu, ilgili rollerini ve nasıl hesaplandıklarını ayrıntılı olarak göreceğiz.
 
 
 ![CYP201](assets/en/004.webp)
@@ -133,7 +133,7 @@ Hashing, rastgele uzunluktaki bilgileri kriptografik bir Hash fonksiyonu aracıl
 Hash bazen "digest", "condensate", "condensed" veya "hashed" olarak da adlandırılabilir.
 
 
-Örneğin, SHA256 Hash işlevi 256 bitlik sabit uzunlukta bir Hash üretir. Dolayısıyla, rastgele uzunlukta bir mesaj olan "_PlanB_" girdisini kullanırsak, üretilen Hash aşağıdaki 256 bitlik parmak izi olacaktır:
+Örneğin, [SHA256](https://planb.academy/resources/glossary/sha256) Hash işlevi 256 bitlik sabit uzunlukta bir Hash üretir. Dolayısıyla, rastgele uzunlukta bir mesaj olan "_PlanB_" girdisini kullanırsak, üretilen Hash aşağıdaki 256 bitlik parmak izi olacaktır:
 
 
 ```text
@@ -248,14 +248,14 @@ Bitcoin'te en çok kullanılan Hash işlevi **SHA256**'dır ("_Secure Hash Algor
 Bu fonksiyon Bitcoin'un birçok alanında kullanılmaktadır. Protokol düzeyinde, bir Miner tarafından oluşturulan bir aday bloğun başlığı ile zorluk hedefi arasında kısmi bir çarpışma aramak için çift hashing uygulandığı Proof-of-Work mekanizmasında yer alır. Bu kısmi çarpışma bulunursa, aday blok geçerli hale gelir ve Blockchain'e eklenebilir.
 
 
-SHA256 aynı zamanda bloklar halinde işlemlerin kaydedilmesi için kullanılan akümülatör olan Merkle Tree'in yapımında da kullanılır. Bu yapı, UTXO Setinin boyutunun azaltılmasına olanak tanıyan Utreexo protokolünde de bulunur. Ek olarak, 2021'de Taproot'ün piyasaya sürülmesiyle birlikte SHA256, diğer olası seçenekleri ifşa etmeden yalnızca bir komut dosyasında gerçekten kullanılan harcama koşullarını ortaya çıkarmaya izin veren MAST'ta (_Merkelised Alternative Script Tree_) kullanılmaktadır. Ayrıca işlem tanımlayıcılarının hesaplanmasında, paketlerin P2P ağı üzerinden iletiminde, elektronik imzalarda da kullanılmaktadır... Son olarak ve bu eğitimde özellikle ilgi çekici olan SHA256, Bitcoin cüzdanlarının oluşturulması ve adreslerin türetilmesi için uygulama düzeyinde kullanılır.
+SHA256 aynı zamanda bloklar halinde işlemlerin kaydedilmesi için kullanılan akümülatör olan Merkle Tree'in yapımında da kullanılır. Bu yapı, UTXO Setinin boyutunun azaltılmasına olanak tanıyan Utreexo protokolünde de bulunur. Ek olarak, 2021'de Taproot'ün piyasaya sürülmesiyle birlikte SHA256, diğer olası seçenekleri ifşa etmeden yalnızca bir komut dosyasında gerçekten kullanılan harcama koşullarını ortaya çıkarmaya izin veren MAST'[ta (](https://planb.academy/resources/glossary/mast)_Merkelised Alternative Script Tree_) kullanılmaktadır. Ayrıca işlem tanımlayıcılarının hesaplanmasında, paketlerin P2P ağı üzerinden iletiminde, elektronik imzalarda da kullanılmaktadır... Son olarak ve bu eğitimde özellikle ilgi çekici olan SHA256, Bitcoin cüzdanlarının oluşturulması ve adreslerin türetilmesi için uygulama düzeyinde kullanılır.
 
 
 Çoğu zaman, Bitcoin'da SHA256 kullanımına rastladığınızda, bu aslında SHA256'nın art arda iki kez uygulanmasından oluşan "**HASH256**" olarak belirtilen çift Hash SHA256 olacaktır:
 
 
 $$
-\text{HASH256}(m) = \text{SHA256}(\text{SHA256}(m))
+\text{HASH2[56}(m) ](https://planb.academy/resources/glossary/hash256)= \text{SHA256}(\text{SHA256}(m))
 $$
 
 
@@ -933,7 +933,7 @@ Bitcoin'te kullanılan ikinci kriptografik yöntem dijital imza algoritmaların�
 ### Bitcoinler, UTXO'lar ve Harcama Koşulları
 
 
-Bitcoin'teki "_wallet_" terimi yeni başlayanlar için oldukça kafa karıştırıcı olabilir. Aslında, Bitcoin Wallet olarak adlandırılan şey, madeni para veya banknot tutabilen fiziksel bir Wallet'in aksine, bitcoinlerinizi doğrudan tutmayan bir yazılımdır. Bitcoinler basitçe hesap birimleridir. Bu hesap birimi, harcanmamış işlem çıktıları olan **UTXO** (_Harcanmamış İşlem Çıktıları_) ile temsil edilir. Bu çıktılar harcanmamışsa, bir kullanıcıya ait oldukları anlamına gelir. UTXO'lar, bir bakıma, bir kullanıcıya ait değişken büyüklükte bitcoin parçalarıdır.
+Bitcoin'teki "_wallet_" terimi yeni başlayanlar için oldukça kafa karıştırıcı olabilir. Aslında, Bitcoin Wallet olarak adlandırılan şey, madeni para veya banknot tutabilen fiziksel bir Wallet'in aksine, bitcoinlerinizi doğrudan tutmayan bir yazılımdır. Bitcoinler basitçe hesap birimleridir. Bu hesap birimi, harcanmamış işlem çıktıları olan **[UTXO](https://planb.academy/resources/glossary/utxo)** (_Harcanmamış İşlem Çıktıları_) ile temsil edilir. Bu çıktılar harcanmamışsa, bir kullanıcıya ait oldukları anlamına gelir. UTXO'lar, bir bakıma, bir kullanıcıya ait değişken büyüklükte bitcoin parçalarıdır.
 
 
 Bitcoin protokolü dağıtıktır ve merkezi bir otorite olmadan çalışır. Bu nedenle, size ait olan avroların sadece kişisel kimliğinizle ilişkilendirildiği geleneksel bankacılık kayıtları gibi değildir. Bitcoin'de UTXO'larınız size aittir çünkü Komut Dosyası dilinde belirtilen harcama koşulları ile korunmaktadırlar. Basitleştirmek gerekirse, iki tür komut dosyası vardır: bir UTXO'i koruyan kilitleme komut dosyası (_scriptPubKey_) ve bir UTXO'in kilidini açmaya ve böylece temsil ettiği Bitcoin birimlerini harcamaya izin veren kilit açma komut dosyası (_scriptSig_).
@@ -1067,7 +1067,7 @@ https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 :::video id=2fddfb16-5ae3-41da-92f8-ef5d09789804:::
 
-Daha önce görüldüğü gibi, Bitcoin'taki dijital imza algoritmaları matematiksel olarak bağlantılı bir çift özel ve açık anahtara dayanmaktadır. Bu matematiksel bağlantının ne olduğunu ve nasıl üretildiklerini birlikte inceleyelim.
+Daha önce görüldüğü gibi, Bitcoin'taki dijital imza algoritmaları matematiksel olarak bağlantılı bir çift [özel](https://planb.academy/resources/glossary/private-key) ve [açık anahtara](https://planb.academy/resources/glossary/public-key) dayanmaktadır. Bu matematiksel bağlantının ne olduğunu ve nasıl üretildiklerini birlikte inceleyelim.
 
 
 ### Özel Anahtar
@@ -1715,7 +1715,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ### HD Cüzdanlar
 
 
-Address JBOK cüzdanlarının sınırlandırılması için daha sonra yeni bir Wallet yapısı kullanılmıştır. 2012 yılında Pieter Wuille, HD (Hiyerarşik Deterministik) cüzdanları tanıtan BIP32 ile bir iyileştirme önerdi. Bir HD Wallet'nin prensibi, tüm özel anahtarları deterministik ve hiyerarşik bir şekilde seed adı verilen tek bir bilgi kaynağından türetmektir. Bu seed, Wallet oluşturulduğunda rastgele oluşturulur ve Wallet'nin tüm özel anahtarlarının yeniden oluşturulmasına olanak tanıyan benzersiz bir yedek oluşturur. Böylece kullanıcı, Address'in yeniden kullanılmasını önlemek ve gizliliğini korumak için çok sayıda özel anahtarı generate yapabilirken, Wallet'sinin seed aracılığıyla yalnızca tek bir yedeğini alması gerekir.
+Address JBOK cüzdanlarının sınırlandırılması için daha sonra yeni bir Wallet yapısı kullanılmıştır. 2012 yılında Pieter Wuille, HD (Hiyerarşik Deterministik) cüzdanları tanıtan [BIP32](https://planb.academy/resources/glossary/bip0032) ile bir iyileştirme önerdi. Bir HD Wallet'nin prensibi, tüm özel anahtarları deterministik ve hiyerarşik bir şekilde [seed](https://planb.academy/resources/glossary/seed) adı verilen tek bir bilgi kaynağından türetmektir. Bu seed, Wallet oluşturulduğunda rastgele oluşturulur ve Wallet'nin tüm özel anahtarlarının yeniden oluşturulmasına olanak tanıyan benzersiz bir yedek oluşturur. Böylece kullanıcı, Address'in yeniden kullanılmasını önlemek ve gizliliğini korumak için çok sayıda özel anahtarı generate yapabilirken, Wallet'sinin seed aracılığıyla yalnızca tek bir yedeğini alması gerekir.
 
 
 ![CYP201](assets/en/039.webp)
@@ -1743,7 +1743,7 @@ Mnemonic ifadesi kullanıcı için yedeklemeyi büyük ölçüde basitleştirir.
 
 :::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
 
-Modern HD cüzdanları, tüm generate anahtar setini deterministik olarak Wallet'e dönüştürmek için "entropi" adı verilen tek bir başlangıç bilgisine dayanır. Bu entropi, Wallet'in güvenliğini kısmen belirleyen sözde rastgele bir sayıdır.
+Modern HD cüzdanları, tüm generate anahtar setini deterministik olarak Wallet'e dönüştürmek için "[entropi](https://planb.academy/resources/glossary/entropy)" adı verilen tek bir başlangıç bilgisine dayanır. Bu entropi, Wallet'in güvenliğini kısmen belirleyen sözde rastgele bir sayıdır.
 
 
 ### Entropinin Tanımı
@@ -1785,7 +1785,7 @@ Bir sonraki bölümde, rastgele bir sayıdan 12 veya 24 kelimelik bir Mnemonic i
 
 :::video id=6218472e-b965-484f-b56b-e363f65d2827:::
 
-"Mnemonic cümlesi", "seed cümlesi", "kurtarma cümlesi", "gizli cümle" veya "24 kelimelik cümle" olarak da adlandırılan seed cümlesi, genellikle 12 veya 24 kelimeden oluşan ve entropiden üretilen bir dizidir. Bir HD Wallet'ün tüm anahtarlarını deterministik olarak türetmek için kullanılır. Bu, bu ifadeden, generate'in tüm özel ve açık anahtarlarını deterministik olarak Bitcoin Wallet oluşturmak ve sonuç olarak onunla korunan fonlara erişmek mümkün olduğu anlamına gelir. Mnemonic ifadesinin amacı, bitcoinlerin hem güvenli hem de kullanımı kolay bir şekilde yedeklenmesi ve kurtarılması için bir araç sağlamaktır. BIP39 standardı ile 2013 yılında tanıtılmıştır.
+"Mnemonic cümlesi", "seed cümlesi", "kurtarma cümlesi", "gizli cümle" veya "24 kelimelik cümle" olarak da adlandırılan seed cümlesi, genellikle 12 veya 24 kelimeden oluşan ve entropiden üretilen bir dizidir. Bir HD Wallet'ün tüm anahtarlarını deterministik olarak türetmek için kullanılır. Bu, bu ifadeden, generate'in tüm özel ve açık anahtarlarını deterministik olarak Bitcoin Wallet oluşturmak ve sonuç olarak onunla korunan fonlara erişmek mümkün olduğu anlamına gelir. Mnemonic ifadesinin amacı, bitcoinlerin hem güvenli hem de kullanımı kolay bir şekilde yedeklenmesi ve kurtarılması için bir araç sağlamaktır. [BIP39](https://planb.academy/resources/glossary/bip0039) standardı ile 2013 yılında tanıtılmıştır.
 
 
 Entropiden Mnemonic ifadesine nasıl geçileceğini birlikte keşfedelim.
@@ -2101,7 +2101,7 @@ Aşağıdaki Elements ile HD Wallet'in türetilmesine devam etmeden önce, bir s
 :::video id=bbca9cca-62a0-4b4e-93d5-3757dc100123:::
 
 
-Genişletilmiş bir anahtar basitçe bir anahtarın (özel veya genel) ve ilişkili chain code'un birleştirilmesidir. Bu chain code alt anahtarların türetilmesi için gereklidir, çünkü bu olmadan bir üst anahtardan alt anahtarları türetmek mümkün değildir, ancak bu süreci bir sonraki bölümde daha ayrıntılı olarak keşfedeceğiz. Dolayısıyla bu genişletilmiş anahtarlar, alt anahtarları türetmek için gerekli tüm bilgilerin bir araya getirilmesini sağlar ve böylece bir HD Wallet içinde hesap yönetimini basitleştirir.
+Genişletilmiş bir anahtar basitçe bir anahtarın (özel veya genel) ve ilişkili [chain code](https://planb.academy/resources/glossary/chain-code)'un birleştirilmesidir. Bu chain code alt anahtarların türetilmesi için gereklidir, çünkü bu olmadan bir üst anahtardan alt anahtarları türetmek mümkün değildir, ancak bu süreci bir sonraki bölümde daha ayrıntılı olarak keşfedeceğiz. Dolayısıyla bu genişletilmiş anahtarlar, alt anahtarları türetmek için gerekli tüm bilgilerin bir araya getirilmesini sağlar ve böylece bir HD Wallet içinde hesap yönetimini basitleştirir.
 
 
 ![CYP201](assets/en/051.webp)
@@ -2672,7 +2672,7 @@ Teorik olarak, sadece Mnemonic'umuzun Wallet ifadesini değil, aynı zamanda kul
 ### "Descriptor" nedir?
 
 
-"*output script descriptors*" ya da kısaca "*descriptors*", bir çıktı komut dosyasını (*scriptPubKey*) tam olarak tanımlayan ve belirli bir komut dosyasıyla ilişkili işlemleri takip etmek için gerekli tüm bilgileri sağlayan yapılandırılmış ifadelerdir. Wallet yapısının ve kullanılan adres türlerinin standartlaştırılmış ve eksiksiz bir tanımını sunarak HD cüzdanlarındaki anahtarların yönetimini kolaylaştırırlar.
+"*[output script descriptors](https://planb.academy/resources/glossary/output-script-descriptors)*" ya da kısaca "*descriptors*", bir çıktı komut dosyasını (*scriptPubKey*) tam olarak tanımlayan ve belirli bir komut dosyasıyla ilişkili işlemleri takip etmek için gerekli tüm bilgileri sağlayan yapılandırılmış ifadelerdir. Wallet yapısının ve kullanılan adres türlerinin standartlaştırılmış ve eksiksiz bir tanımını sunarak HD cüzdanlarındaki anahtarların yönetimini kolaylaştırırlar.
 
 
 Tanımlayıcıların ana avantajı, bir Wallet'yı geri yüklemek için gerekli tüm bilgileri tek bir dizede (kurtarma ifadesine ek olarak) kapsülleme yeteneklerinde yatmaktadır. Bir Descriptor'ü ilişkili Mnemonic ifadeleriyle birlikte kaydederek, özel anahtarları hiyerarşideki konumlarını tam olarak bilerek geri yüklemek mümkün hale gelir. Yedeklemesi başlangıçta daha karmaşık olan Multisig cüzdanları için, Descriptor her bir faktörün `xpub`ını içerir, böylece bir sorun olması durumunda adresleri yeniden oluşturma imkanı sağlar.
@@ -2752,13 +2752,13 @@ Alıcı adresleri tam olarak *scriptPubKey* içinde bulunur. Ancak, bunların ku
 
 
 
-| Standart             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| Standart             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _[witness](https://planb.academy/resources/glossary/scriptwitness)_ |
 | ---------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
 | P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
 | P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
-| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Keyfi veriler | |
-| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
-| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| [P2SH](https://planb.academy/resources/glossary/p2sh)                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Keyfi veriler | |
+| [P2WPKH](https://planb.academy/resources/glossary/p2wpkh)               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| [P2WSH](https://planb.academy/resources/glossary/p2wsh)                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
 | P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
 | P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |

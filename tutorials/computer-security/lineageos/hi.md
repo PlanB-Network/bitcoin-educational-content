@@ -685,13 +685,14 @@ LineageOS में एक बेहद आसान ओवर-द-एयर अ
 
 
 
-| **Aspect** | **GrapheneOS** | **LineageOS** |
+
+| **पहलू** | **GrapheneOS** | **LineageOS** |
 |------------|----------------|---------------|
-| **Compatibilité** | Pixels uniquement | Centaines d'appareils |
-| **Sécurité** | Mitigations avancées | Sécurité AOSP standard |
-| **Google Play** | Sandboxé optionnel | Installation classique possible |
-| **Installation** | Interface web + USB | Procédure manuelle technique |
-| **Philosophie** | Sécurité avant tout | Équilibre et liberté de choix |
+| **संगतता** | केवल पिक्सेल | सैकड़ों उपकरण |
+| **सुरक्षा** | उन्नत कमजोरियां | मानक AOSP सुरक्षा |
+| **Google Play** | वैकल्पिक सैंडबॉक्स | क्लासिक इंस्टॉलेशन संभव |
+| **इंस्टॉलेशन** | वेब इंटरफेस + USB | तकनीकी मैनुअल प्रक्रिया |
+| **दर्शन** | सुरक्षा सर्वोपरि | संतुलन और पसंद की स्वतंत्रता |
 
 ### उपयोग के लिए सिफारिशें
 

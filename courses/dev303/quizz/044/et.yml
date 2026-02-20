@@ -1,0 +1,8 @@
+question: Milline on kõige põhilisem tunnus, mida kõik sulgemised Rust sulgemishierarhias rakendavad?
+answer: FnOnce
+wrong_answers:
+  - FnMut
+  - Fn
+  - Iteraator
+explanation: |
+  FnOnce on kõige põhilisem tunnus, mida kõik sulgemised Rust-s rakendavad. See esindab sulgemisi, mida saab kutsuda vähemalt üks kord, mistõttu on see sulgemiste omaduste hierarhia alus. FnMut ja Fn on piiravamad tunnused, mis põhinevad FnOnce'il - FnMut võimaldab mitmekordseid kutsungeid koos mutatsiooniga, samas kui Fn võimaldab mitmekordseid kutsungeid ilma mutatsioonita. Iterator ei ole seotud sulgemisomadustega ja seda kasutatakse andmete jadade töötlemiseks.

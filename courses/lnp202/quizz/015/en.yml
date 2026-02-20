@@ -1,0 +1,9 @@
+question: What can be customized in the Lightning node's advanced settings?
+answer: The node's public name
+wrong_answers:
+  - Node consensus rules
+  - The node's private keys
+  - The routes chosen by the node
+explanation: |
+  Advanced settings let you customize node identification elements, without impacting consensus or Lightning network operation.
+reviewed: false

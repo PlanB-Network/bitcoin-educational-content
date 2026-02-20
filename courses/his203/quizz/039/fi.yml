@@ -1,0 +1,10 @@
+question: Mikä vaikutus OP_EVAL:n toimintakoodilla oli Bitcoin:n sisäiseen ohjelmointijärjestelmään?
+answer: Skriptin suorittaminen skriptin sisällä
+wrong_answers:
+  - Pyydä osallistujien allekirjoituksia
+  - Pilkkoa skripti ja vertaa tulosta toimitettuun jalanjälkeen
+  - Tarkista, että kaksi arvoa on yhtä suuri
+explanation: |
+ Sen on kuvannut Nicolas van Saberhagen eli ByteCoin, joka suunnitteli sen 1. ja 2. lokakuuta 2011 välisenä yönä. Toimintakoodi suoritetaan lukituksen lopussa
+ skriptin lopussa, jotta voidaan arvioida toimitetun skriptin pätevyys, jonka hash-arvoa verrataan annettuun sormenjälkeen.
+reviewed: true

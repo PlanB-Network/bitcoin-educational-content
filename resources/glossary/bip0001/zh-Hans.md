@@ -1,6 +1,7 @@
 ---
 term: BIP0001
 
+definition: 定义比特币改进提案流程的第一份文档，设立了标准轨道（Standards Track）、信息类（Informational）和流程类（Process）类别。
 ---
 该文件描述了开发和实施比特币协议改进建议的流程。该文件由 Amir Taaki 于 2011 年 8 月撰写，确立了提出和记录潜在修改的标准方法。BIP 提案被分为三类：
 

@@ -137,7 +137,7 @@ På den här sidan klistrar du in webbadressen till ditt Umbrel-relä som du kop
 
 
 
-**Anslutning:** noStrudel erbjuder dig flera anslutningsalternativ. I vårt fall väljer vi "Private Key" och klistrar in din tidigare genererade Nostr privata nyckel. Om du ännu inte har någon nyckel kan du installera tillägget [Nostr Connect] (https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) för att skapa och/eller spara dina Nostr-nycklar och på så sätt kommunicera säkrare med de olika Nostr-applikationerna.
+**Anslutning:** noStrudel erbjuder dig flera anslutningsalternativ. I vårt fall väljer vi "Private Key" och klistrar in din tidigare genererade Nostr privata nyckel. Om du ännu inte har någon nyckel kan du installera tillägget [Nostr Connect](https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) för att skapa och/eller spara dina Nostr-nycklar och på så sätt kommunicera säkrare med de olika Nostr-applikationerna.
 
 
 

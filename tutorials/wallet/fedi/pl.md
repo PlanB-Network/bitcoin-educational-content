@@ -141,7 +141,7 @@ Odbiorca będzie musiał zeskanować wygenerowany kod QR, aby odebrać satoshis.
 
 
 
-Płatności offline dokonywane są głównie za pomocą [e-cash] (https://planb.academy/resources/glossary/ecash-david-chaum). Transakcja jest przechowywana w telefonie, a gdy tylko uzyskasz dostęp do Internetu, potwierdzenie transakcji stanie się automatyczne. Płatność można również potwierdzić ręcznie, klikając przycisk **Potwierdź transakcję**.
+Płatności offline dokonywane są głównie za pomocą [e-cash](https://planb.academy/resources/glossary/ecash-david-chaum). Transakcja jest przechowywana w telefonie, a gdy tylko uzyskasz dostęp do Internetu, potwierdzenie transakcji stanie się automatyczne. Płatność można również potwierdzić ręcznie, klikając przycisk **Potwierdź transakcję**.
 
 
 

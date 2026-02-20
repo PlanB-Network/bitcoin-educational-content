@@ -1,0 +1,9 @@
+question: Jos vaikeustavoite laskee, mitä louhinnalle tapahtuu?
+answer: Siitä tulee vaikeampaa
+wrong_answers:
+  - Siitä tulee helpompaa
+  - Se pysyy samana
+  - Siitä tulee mahdotonta
+explanation: |
+  Alempi tavoite jättää vähemmän mahdollisia tuloksia kynnyksen alapuolelle, joten voimassa olevan tiivisteen löytämiseksi tarvitaan enemmän yrityksiä. Tämä tarkoittaa, että louhinta on vaikeampaa.
+reviewed: false

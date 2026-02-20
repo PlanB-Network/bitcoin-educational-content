@@ -1,0 +1,9 @@
+question: Millist algoritmi on Bitcoini ASIC spetsiaalselt loodud täitma?
+answer: SHA256d
+wrong_answers:
+  - SHA512d
+  - SHA1
+  - SHA512
+explanation: |
+  Bitcoini ASIC-id on spetsialiseerunud topelt SHA256-le, mida kasutatakse Bitcoini töö tõendamiseks.
+reviewed: false

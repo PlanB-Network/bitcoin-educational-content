@@ -6,4 +6,4 @@ wrong_answers:
   - Elimina las letras después de la letra Z
 explanation: |
   La operación módulo 26 permite que las letras vuelvan al inicio después de la Z para asegurar que cada letra encriptada permanezca dentro de las 26 letras del alfabeto.
-reviewed: false
+reviewed: true

@@ -1,10 +1,10 @@
-question: Waarom kan de coördinator de CoinJoin transactie niet wijzigen nadat hij de handtekeningen van alle deelnemers heeft verzameld?
+question: Waarom kan de coördinator de CoinJoin-transactie niet wijzigen nadat hij de handtekeningen van alle deelnemers heeft verzameld?
 answer: Als je het wijzigt, wordt de transactie ongeldig.
 wrong_answers:
   - Ze hebben geen toegang tot de ontvangstadressen van de deelnemers.
   - De handtekeningen zijn gecodeerd.
-  - De transactie is al uitgezonden op het Bitcoin netwerk.
+  - De transactie is al uitgezonden op het Bitcoin-netwerk.
 explanation: |
-  Zodra de deelnemers de totale transactie hebben ondertekend, nadat ze er zeker van zijn dat alles correct is, kan de coördinator deze transactie niet meer wijzigen, inclusief de uitvoer, zonder deze ongeldig te maken, omdat de handtekening de hele transactie dekt.
+  Zodra de deelnemers de totale transactie hebben ondertekend, nadat ze er zeker van zijn dat alles correct is, kan de coördinator deze transactie niet meer wijzigen, inclusief de output, zonder deze ongeldig te maken, omdat de handtekening de hele transactie dekt.
   
 reviewed: false

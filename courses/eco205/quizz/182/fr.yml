@@ -1,0 +1,8 @@
+question: Quelle est la principale faiblesse théorique que Carl Menger identifie dans l'approche statistique de l'école historique allemande de Schmoller?
+answer: Les statistiques ne représentent que des instantanés d'un passé révolu, incapables de révéler les principes intemporels qui guident l'économie
+wrong_answers:
+  - "Les données statistiques sont trop complexes à analyser et nécessitent des outils mathématiques que l'école historique ne maîtrise pas"
+  - "L'approche statistique ignore complètement les facteurs politiques et sociaux qui influencent les phénomènes économiques de chaque époque"
+  - "Les méthodes de collecte de données de l'époque sont insuffisamment précises pour permettre une analyse scientifique rigoureuse"
+explanation: |
+  Menger critique l'école historique car elle se contente d'accumuler des données statistiques qui ne sont que des 'bilans' figés dans le temps. Ces instantanés du passé ne peuvent révéler les lois universelles et les principes causaux intemporels que recherche la science économique selon Menger. Cette critique s'inscrit dans sa démarche de recherche de principes généraux guidant l'action humaine, contrairement à l'historicisme qui nie l'existence de lois économiques universelles.

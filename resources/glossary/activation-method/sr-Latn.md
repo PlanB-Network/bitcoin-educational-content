@@ -1,5 +1,6 @@
 ---
-term: METODA AKTIVACIJE
+term: Metoda aktivacije
+definition: Proces preko kojeg zajednica Bitcoina odlučuje da aktivira soft fork, tražeći konsenzus između rudaraca i korisnika kako bi se izbegla podela blokčejna.
 ---
 
 Metod aktivacije je proces kojim korisnička zajednica odlučuje o implementaciji Soft Fork na Bitcoin protokol, s ciljem izbegavanja podele Blockchain. Ovaj proces uključuje traženje mišljenja rudara kako bi odobrili Soft Fork pre njegove aktivacije. Ako značajna većina prihvati Soft Fork, rizik od podele Blockchain je minimiziran. Ovaj konsenzus je ključan jer, ako većina rudara odbije da izvrši modifikaciju, Soft Fork bi mogao stvoriti dva različita lanca: jedan sa modifikovanim pravilima i drugi bez njih. Postoje 2 glavne kategorije metoda aktivacije:

@@ -6,4 +6,4 @@ wrong_answers:
   - Una copia digital de una firma manuscrita
 explanation: |
   Una firma digital es una técnica criptográfica que demuestra que un mensaje fue realmente creado por el propietario de la clave privada correspondiente, asegurando así su autenticidad.
-reviewed: false
+reviewed: true

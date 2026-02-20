@@ -1,0 +1,9 @@
+question: Mu ntango ya Bitcoin, mining yakorwa cane cane hakoreshejwe ibihe bikoresho?
+answer: CPU
+wrong_answers:
+  - GPU
+  - ASIC
+  - FPGA
+explanation: |
+  Igitangura, software yakora kuri mudasobwa isanzwe ikoresha cane cane processor.
+reviewed: false

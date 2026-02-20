@@ -1,0 +1,9 @@
+question: mining ส่วนใหญ่ดำเนินการด้วยฮาร์ดแวร์ประเภทใดในช่วงเริ่มต้นของ Bitcoin?
+answer: CPU
+wrong_answers:
+  - GPU
+  - ASIC
+  - FPGA
+explanation: |
+  เมื่อเปิดตัว ซอฟต์แวร์ทำงานบนคอมพิวเตอร์ส่วนบุคคลและใช้โปรเซสเซอร์เป็นหลัก
+reviewed: true

@@ -94,8 +94,8 @@ Para construir o seu SeedSigner, precisará dos seguintes componentes:
 
 - Habitação (facultativa mas recomendada)** (facultativa mas recomendada)** (facultativa mas recomendada)** (facultativa mas recomendada)**)
     - Protege o dispositivo e torna-o fácil de utilizar.
-    - O modelo mais popular é a "*Orange Pill Case*", para a qual estão disponíveis [ficheiros STL de código aberto para impressão 3D] (https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
-    - As caixas também estão disponíveis em [revendedores independentes ligados ao projeto] (https://seedsigner.com/hardware/).
+    - O modelo mais popular é a "*Orange Pill Case*", para a qual estão disponíveis [ficheiros STL de código aberto para impressão 3D](https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
+    - As caixas também estão disponíveis em [revendedores independentes ligados ao projeto](https://seedsigner.com/hardware/).
 
 
 
@@ -207,7 +207,7 @@ O resultado esperado é um `OK` ao lado do ficheiro `.img`. Isto confirma que a 
 
 
 
-No Windows, o procedimento é semelhante, mas os comandos são diferentes. Comece por instalar o [Gpg4win] (https://www.gpg4win.org/) e abra a aplicação *Kleopatra*. Importe a chave pública do projeto SeedSigner a partir do URL Keybase :
+No Windows, o procedimento é semelhante, mas os comandos são diferentes. Comece por instalar o [Gpg4win](https://www.gpg4win.org/) e abra a aplicação *Kleopatra*. Importe a chave pública do projeto SeedSigner a partir do URL Keybase :
 
 
 
@@ -289,7 +289,7 @@ Uma verificação bem sucedida garante que seu arquivo `.img` é autêntico (ass
 
 
 
-Se ainda não o tiver, descarregue o software [Balena Etcher] (https://etcher.balena.io/) e, em seguida, :
+Se ainda não o tiver, descarregue o software [Balena Etcher](https://etcher.balena.io/) e, em seguida, :
 
 
 
@@ -753,8 +753,8 @@ Para isso, é necessário um papel em branco ou um código QR metálico correspo
 
 
 
-- [formato de 12 palavras] (https://github.com/SeedSigner/seedsigner/blob/dev/docs/seed_qr/printable_templates/grid_25x25.pdf)
-- [formato de 24 palavras] (https://github.com/SeedSigner/seedsigner/blob/dev/docs/seed_qr/printable_templates/grid_29x29.pdf)
+- [formato de 12 palavras](https://github.com/SeedSigner/seedsigner/blob/dev/docs/seed_qr/printable_templates/grid_25x25.pdf)
+- [formato de 24 palavras](https://github.com/SeedSigner/seedsigner/blob/dev/docs/seed_qr/printable_templates/grid_29x29.pdf)
 - [Formato compacto 12 palavras](https://github.com/SeedSigner/seedsigner/blob/dev/docs/seed_qr/printable_templates/grid_21x21.pdf)
 - [Formato compacto 24 palavras](https://github.com/SeedSigner/seedsigner/blob/dev/docs/seed_qr/printable_templates/grid_25x25.pdf)
 

@@ -1,0 +1,8 @@
+question: Ekonomi teorisine göre serbest piyasa ekonomisinde fiyatların birincil işlevi nedir?
+answer: Üreticilere ne, ne zaman, nerede ve nasıl mal ve hizmet üretecekleri konusunda yol gösteren temel sinyaller olarak hizmet ederler
+wrong_answers:
+  - Öncelikle devletin vergi gelirlerini en üst düzeye çıkarma ve kamu hizmetlerini verimli bir şekilde finanse etme işlevi görürler
+  - Esas olarak servetin toplumun tüm üyeleri arasında eşit dağılımını sağlamaya hizmet ederler
+  - Öncelikle aşırı üretimi önlemek ve sektörler arasında istikrarlı istihdam seviyelerini korumak için işlev görürler
+explanation: |
+  Fiyatlar, serbest piyasalarda tüketici tercihlerini ve kaynak kıtlığını üreticilere ileten önemli bilgi sinyalleri olarak işlev görür. Fiyatlar yükseldiğinde, artan talebe veya azalan arza işaret ederek girişimcileri karlı fırsatlara yönlendirir. Bu sinyal mekanizması, merkezi planlama olmaksızın ekonomik faaliyetleri koordine ederek piyasaların değişen koşullara etkin bir şekilde yanıt vermesini sağlar. Diğer seçenekler yanlış bir şekilde fiyatların yeniden dağıtıcı, mali veya istihdamı dengeleyici işlevlere hizmet ettiğini öne sürmektedir ki bunlar piyasanın birincil rolü değildir.

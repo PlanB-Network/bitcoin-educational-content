@@ -1,9 +1,9 @@
-question: Ni ryari Exchange ya mbere hagati ya Bitcoin n’idolari yabaye?
-answer: Ukwakira 2009
+question: Ni ryari ukuvunja kwa mbere hagati ya Bitcoin n’idolari kwabaye?
+answer: Kuwa 12 Gitugutu 2009
 wrong_answers:
-  - Gicurasi 2009
-  - Ukuboza 2009
-  - Ntwarante 2010
+  - Kuwa 8 Ndamukiza 2009
+  - kuwa 30 Kigarama 2009
+  - 11 Ntwarante 2010
 explanation: |
-  Martti yarungikiye NLS ama bitcoins 5.050, na yo ica yohereza amadolari 5.02 kuri konti yiwe ya PayPal. Ivyo vyahuye n’igiciro c’ikintu kimwe c’amadolari nka 0,001.
+  Martti yarungikiye NLS ama bitcoins 5.050, na yo ica imurungikira amadolari 5.02 kuri konti yiwe ya PayPal. Ivyo vyahuye n’igiciro k'ingero imwe y’amadolari nka 0,001.
 reviewed: true

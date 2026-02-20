@@ -1,0 +1,9 @@
+question: Mekanisme apa yang memperluas ruang pencarian ketika nonce 32-bit habis?
+answer: Extra-nonce
+wrong_answers:
+  - Super-nonce
+  - Coinbase-nonce
+  - Double-nonce
+explanation: |
+  Dengan memodifikasi extra-nonce dalam scriptSig coinbase, akar Merkle berubah dan dengan demikian header juga berubah.
+reviewed: false

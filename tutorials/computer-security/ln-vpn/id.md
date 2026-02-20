@@ -8,7 +8,7 @@ description: Konfigurasikan LN VPN dengan Lightning untuk VPN anonim dan sesuai 
 
 LN VPN adalah layanan VPN yang dapat disesuaikan dan hanya menerima pembayaran melalui Lightning Network. Hari ini, saya akan menunjukkan cara menggunakannya dan meninggalkan jejak yang lebih sedikit saat menjelajahi internet.
 
-Ada banyak penyedia layanan VPN berkualitas, dan kami telah melakukan tinjauan komprehensif dalam artikel ini (hyperlink). Namun, LN VPN menonjol, dan kami tidak ingin melewatkan kesempatan untuk memperkenalkannya kepada Anda.
+Ada banyak penyedia layanan VPN berkualitas, tetapi LN VPN menonjol, dan kami tidak ingin melewatkan kesempatan untuk memperkenalkannya kepada Anda.
 
 Sebagian besar penyedia layanan VPN seperti ProtonVPN dan Mullvad menawarkan opsi pembayaran dengan Bitcoin tetapi mensyaratkan pembuatan akun dan pembelian paket untuk jangka waktu yang lebih panjang atau lebih pendek, yang mungkin tidak sesuai dengan anggaran semua orang.
 

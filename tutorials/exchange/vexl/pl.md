@@ -19,7 +19,7 @@ Vexl to sieć społecznościowa peer-to-peer, która łączy kupujących i sprze
 
 
 
-Rozpoczęcie korzystania z Vexl jest dość proste: odwiedź [oficjalną stronę internetową] (https://vexl.it), a następnie pobierz aplikację mobilną na swój telefon z systemem iOS lub Android.
+Rozpoczęcie korzystania z Vexl jest dość proste: odwiedź [oficjalną stronę internetową](https://vexl.it), a następnie pobierz aplikację mobilną na swój telefon z systemem iOS lub Android.
 
 
 

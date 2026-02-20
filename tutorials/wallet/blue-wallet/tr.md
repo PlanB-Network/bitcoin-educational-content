@@ -263,7 +263,7 @@ Blue Wallet'ın standart Bitcoin portföyünde olduğu gibi, **Alıcı ekle** se
 
 
 
-İkinci Wallet imza sahibi de bir kullanıcıysa, İnternet dışında olsa bile (Wi-Fi yok, mobil veri yok) yeni oluşturduğunuz [kısmen imzalanmış işlemin] (https://planb.academy/resources/glossary/psbt) QR kodunu tarayarak işlemi imzalayabilir.
+İkinci Wallet imza sahibi de bir kullanıcıysa, İnternet dışında olsa bile (Wi-Fi yok, mobil veri yok) yeni oluşturduğunuz [kısmen imzalanmış işlemin](https://planb.academy/resources/glossary/psbt) QR kodunu tarayarak işlemi imzalayabilir.
 
 
 

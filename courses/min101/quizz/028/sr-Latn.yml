@@ -1,0 +1,9 @@
+question: Čemu odgovara subvencija bloka?
+answer: Monetarna emisija
+wrong_answers:
+  - Naknade za transakcije
+  - Depozit korisnika
+  - Kazna za spam
+explanation: |
+  Subvencija je deo nagrade koji stvara nove bitkoine ex nihilo prema pravilima protokola.
+reviewed: false

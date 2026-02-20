@@ -39,17 +39,18 @@ Una vez sacado todo de la caja, esto es lo que hay: la propia máquina, por supu
 
 A continuación encontrarás una tabla que resume las especificaciones técnicas generales del Nano 3S:
 
-| Caractéristicas                                      | Valor                                                   |
+
+| Característica                                      | Valor                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------- |
-| Tasa de Hash                                         | 6 Th/s +- 5%                                            |
-| Consumo de energía                                   | 140 W                                                   |
+| Tasa de hash                                      | 6 Th/s +- 5%                                            |
+| Consumo de energía                               | 140 W                                                   |
 | Ruido                                                | 30 - 40 dB                                              |
-| Temperatura del aire de salida                       | 60-70°C (a temperatura ambiente 25°C)                   |
-| Requisitos de temperatura ambiente para su uso       | de -5 a 30°C                                            |
-| Rango de entrada del dispositivo                     | 28V 5A continua                                         |
-| Rango de entrada del adaptador                       | 110-240V AC 50/60Hz                                     |
-| Tamaño del dispositivo                               | Largo: 205 mm /  alto: 115 mm / profundo:  58.5 mm      |
-| Peso del dispositivo                                 | 0.86 kg                                                 |
+| Rango de temperatura del aire de salida                 | 60-70°C (a temperatura ambiente 25°C)                |
+| Requisitos de temperatura ambiente para el uso | de -5 a 30°C                                            |
+| Rango de voltaje de entrada del dispositivo                         | 28V 5A continuo                                          |
+| Rango de voltaje de entrada del adaptador                       | 110-240V AC 50/60Hz                                     |
+| Tamaño del dispositivo                                 | Largo: 205 mm / Ancho: 115 mm / Alto: 58.5 mm |
+| Peso del dispositivo                                  | 0.86 kg                                                 |
 
 ## Encendido y conexión a la red local
 

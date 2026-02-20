@@ -1,0 +1,9 @@
+question: Bir gözetleme kulesinin önlemeyi amaçladığı temel risk nedir?
+answer: Eski devletle aldatma
+wrong_answers:
+  - 51 saldırı
+  - Tohum hırsızlığı
+  - Yeni durum ile hile
+explanation: |
+  Bir gözetleme kulesi, fonları zimmete geçirmeyi amaçlayan eski bir kanal devletinin yayınlanmasına karşı koruma sağlar.
+reviewed: false

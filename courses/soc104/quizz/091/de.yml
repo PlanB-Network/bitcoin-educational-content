@@ -1,0 +1,9 @@
+question: Was ist laut Satoshi Nakamotos fundamentaler Kritik das Kernproblem herkömmlicher Fiat-Währungen, das Bitcoin lösen sollte?
+answer: Das übermäßige Vertrauen in zentralisierte Institutionen, die dieses Vertrauen in der Vergangenheit wiederholt durch die Entwertung von Währungen missbraucht haben
+wrong_answers:
+  - Die fehlende digitale Infrastruktur und die im Vergleich zu modernen Zahlungssystemen langsamen Bearbeitungszeiten für Transaktionen
+  - Die Unmöglichkeit, internationale Transaktionen ohne teure Vermittler und Währungsumrechnungsgebühren durchzuführen
+  - Die Anfälligkeit für Fälschungen und physischen Diebstahl aufgrund der Abhängigkeit von Papiergeld und physischer Lagerung
+explanation: |
+  Satoshi Nakamoto erklärte ausdrücklich, dass "das Grundproblem bei konventionellen Währungen das Vertrauen ist, das erforderlich ist, damit sie funktionieren" und dass "die Geschichte der Fiat-Währungen voll von Verstößen gegen dieses Vertrauen ist"
+  Diese philosophische Grundlage war ausschlaggebend für das Design von Bitcoin als vertrauensloses System, das kein Vertrauen in Zentralbanken oder Regierungen benötigt, um die Geldstabilität aufrechtzuerhalten, und das sich direkt mit dem historischen Muster der Geldentwertung durch exzessives Gelddrucken auseinandersetzt.

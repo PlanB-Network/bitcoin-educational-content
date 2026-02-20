@@ -1,0 +1,9 @@
+question: Kolik slov obsahuje mnemotechnická fráze LND?
+answer: 24 slov
+wrong_answers:
+  - 10 slov
+  - 18 slov
+  - 36 slov
+explanation: |
+  LND generates 24slovná mnemotechnická fráze pro zálohování a obnovu uzlů.
+reviewed: false

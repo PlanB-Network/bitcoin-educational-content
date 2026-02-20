@@ -1,0 +1,9 @@
+question: Milline on peamine oht, mida vahitorniga püütakse ennetada?
+answer: Vana riigiga petmine
+wrong_answers:
+  - 51% rünnak
+  - Seemnete vargus
+  - Pettus uue riigiga
+explanation: |
+  Valvetorn kaitseb vana kanali riigi avaldamise eest, mille eesmärk on rahaliste vahendite omastamine.
+reviewed: false

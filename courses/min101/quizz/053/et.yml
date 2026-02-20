@@ -1,0 +1,9 @@
+question: Milleks rühmitatakse tehingud enne plokiahelasse lisamist?
+answer: Blokki
+wrong_answers:
+  - UTXO-sse
+  - ASIC-isse
+  - scriptSig-isse
+explanation: |
+  Tehingut ei kirjutata kohe plokiahelasse. See lisatakse esmalt blokki.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Eric Hughes'un Cypherpunk Manifestosu'na göre, cypherpunk'ların gizlilik ve özgürlük hedeflerine ulaşmak için kullanmaları gereken birincil yöntem nedir?
+answer: Siyasi bölünmeleri önemsiz hale getiren kriptografik sistemler oluşturmak için kod yazmak
+wrong_answers:
+  - Daha güçlü gizlilik koruma yasaları ve yönetmelikleri geçirmeleri için hükümetlere lobi yapmak
+  - Gözetime karşı kitlesel protestolar ve sivil itaatsizlik kampanyaları düzenlemek
+  - Dijital gizlilik hakları konusunda kamu bilincini artırmak için eğitim programları oluşturmak
+explanation: |
+  Eric Hughes, temel yaklaşımları olarak açıkça 'Cypherpunk'ların kod yazdığını' belirtmiştir. Manifesto, cypherpunk'ların umut ve dileklerle avunmadıklarını, kriptografi yoluyla anonim sistemler inşa ederek aktif olarak müdahale ettiklerini vurgulamaktadır.
+  Bu, soyut özgürlük fikirlerini somut ekonomik ve toplumsal gerçekliğe dönüştürerek siyasi bölünmeleri keyfi ve gereksiz hale getirir. Diğer seçenekler ise geleneksel siyasi aktivizmi temsil ediyor ki bu da cypherpunk'ın kurumsal reform yerine teknolojik çözümler felsefesiyle çelişiyor.

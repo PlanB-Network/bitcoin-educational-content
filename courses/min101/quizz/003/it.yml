@@ -1,0 +1,9 @@
+question: Su Bitcoin, quale prova viene utilizzata più spesso per sbloccare un UTXO?
+answer: Una firma digitale
+wrong_answers:
+  - Una password dell'account
+  - Un hash del blocco corrente
+  - Un certificato SSL
+explanation: |
+  La condizione di spesa richiede generalmente una firma prodotta con la chiave privata corrispondente.
+reviewed: false

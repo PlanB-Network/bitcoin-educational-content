@@ -116,7 +116,7 @@ Laitteistolompakot tuovat kuitenkin omat uhkansa. Sinun on luotettava siihen, et
 ## Mitä me rakennamme?
 
 
-Käytämme yleistä laitteistoa, LilyGo T-Display -näyttöä, ja vilautamme siihen Jade SDK -firmwarea. [Jade Plus] (https://blockstream.com/jade/jade-plus/) on avoimen lähdekoodin wallet, joka yleensä maksaa 150 dollaria:
+Käytämme yleistä laitteistoa, LilyGo T-Display -näyttöä, ja vilautamme siihen Jade SDK -firmwarea. [Jade Plus](https://blockstream.com/jade/jade-plus/) on avoimen lähdekoodin wallet, joka yleensä maksaa 150 dollaria:
 
 
 ![image](assets/fr/02.webp)

@@ -1,9 +1,9 @@
 question: Wat zijn de 2 privacyrisico's die gepaard gaan met het selecteren van munten?
-answer: Het CIOH en de koppeling tussen invoer / identiteit door de ontvanger.
+answer: Het CIOH en de koppeling tussen input / identiteit door de ontvanger.
 wrong_answers:
-  - IP Address volgen en activiteiten correleren.
-  - Temporele tracking en hergebruik van Address.
-  - Address hergebruik en de link tussen invoer / identiteit door een externe waarnemer.
+  - IP-adres volgen en activiteiten correleren.
+  - Temporele tracking en adreshergebruik.
+  - Adreshergebruik en de link tussen input / identiteit door een externe waarnemer.
 explanation: |
   Bij de selectie van munten moeten twee risico's in overweging worden genomen: de mogelijkheid voor de ontvanger van de betaling om een deel van je identiteit te koppelen aan de UTXO's die als input worden gebruikt en de mogelijkheid voor een externe waarnemer om verbanden te leggen tussen alle UTXO's die als input worden gebruikt (CIOH).
   

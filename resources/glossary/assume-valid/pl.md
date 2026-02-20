@@ -1,5 +1,6 @@
 ---
-term: ZAKŁADAĆ WAŻNOŚĆ
+term: Assume valid
+definition: Parametr Bitcoin Core umożliwiający pominięcie weryfikacji podpisu dla bloków poprzedzających określony punkt, przyspieszając synchronizację początkową.
 ---
 
 Parametr konfiguracyjny w większościowym kliencie Bitcoin Core, który pozwala węzłowi, który właśnie został zainicjowany (ale jeszcze nie wykonał IBD), pominąć weryfikację podpisów dla wszystkich transakcji zawartych w blokach przed określonym blokiem. Ten słynny blok jest zdefiniowany przez odcisk jego nagłówka, czyli jego Hash. Wybrany blok jest odnawiany z każdą nową wersją Bitcoin Core. Po inicjalizacji, jeśli węzeł aktywował ten parametr, sprawdzi łańcuch nagłówków bloków, aby znaleźć gałąź z największą ilością zgromadzonej pracy. Jeśli węzeł wykryje Hash dostarczony przez Core w wybranej gałęzi, pominie weryfikację podpisów dla poprzednich bloków. W przeciwnym razie węzeł przejdzie do tradycyjnej synchronizacji (IBD), aby zweryfikować wszystko samodzielnie.

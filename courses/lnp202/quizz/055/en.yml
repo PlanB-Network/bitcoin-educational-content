@@ -1,0 +1,9 @@
+question: In the NWC flow, when does encryption take place on the application side?
+answer: Before publication on the relay
+wrong_answers:
+  - After reading the node
+  - After publication on the relay
+  - Never
+explanation: |
+  The application serializes the request, encrypts it, then publishes it as an event on a Nostr relay.
+reviewed: false

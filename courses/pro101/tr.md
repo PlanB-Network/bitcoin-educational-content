@@ -11,7 +11,7 @@ objectives:
 
 Bitcoin üzerinde inşa etmek için ne gerekir? Bu 20 saatlik kurs sizi Bitcoin ve Lightning Network'ün yüzeyinin altına götürerek, dünyanın en dayanıklı finansal altyapısını güçlendiren protokolleri keşfetmenizi sağlar. İster açık kaynak projelerine katkıda bulunmak ister yeni nesil Bitcoin uygulamaları oluşturmak isteyin, bu ekosistemde güvenle çalışmaya başlamak için gereken teknik derinliği kazanacaksınız.
 
-El Salvador'daki CUBO+ 2023 bootcamp'i sırasında kaydedilen bu kurs, teknolojiyi şekillendirmiş önde gelen Bitcoin geliştiricilerinin ve eğitimcilerinin bakış açılarını bir araya getiriyor. En iyi yanı? Fulgure Venture, Bitcoin Office ve DecouvreBitcoin tarafından mümkün kılınan tamamen ücretsiz. Bitcoin'in protokol düzeyinde gerçekten nasıl çalıştığını merak ediyorsanız, bunu öğrenme şansınız bu.
+El Salvador'daki CUBO+ 2023 bootcamp'i sırasında kaydedilen bu kurs, teknolojiyi şekillendirmiş önde gelen Bitcoin geliştiricilerinin ve eğitimcilerinin bakış açılarını bir araya getiriyor. En iyi yanı? Fulgure Ventures, Bitcoin Office ve DecouvreBitcoin tarafından mümkün kılınan tamamen ücretsiz. Bitcoin'in protokol düzeyinde gerçekten nasıl çalıştığını merak ediyorsanız, bunu öğrenme şansınız bu.
 +++
 # Giriş ve Hazırlık Kursları
 
@@ -59,7 +59,7 @@ Kurs boyunca katılımcılar, anlayışlarına yardımcı olacak ve öğrenme de
 
 :::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
-Cubo Plus** eğitim programının ilk dersine hoş geldiniz. Bugün, **Bitcoin Italia Podcast**'in kurucusu Ricky'nin liderliğinde Bitcoin dünyasına dalıyoruz. Ricky, Bitcoin'yı insan haklarını korumak ve teşvik etmek için bir araç olarak kullanan tutkulu bir insan hakları aktivistidir. Altı yılı aşkın deneyimiyle Ricky, El Salvador ve Guatemala gibi gelişmekte olan pazarlarda Bitcoin'nın benimsenmesini belgelemek için kapsamlı seyahatler gerçekleştirmiştir. Çalışmaları podcast yayıncılığının ötesine geçiyor; YouTube (**Bitcoin Explorers**) ve Twitter'da (**BTC Explorer**, **Ricky6**) da aktif. Ricky'nin Commitment'ten Bitcoin'ya geçişi, geleneksel, merkezi bankacılık sistemlerine meydan okuyarak finansal özgürlük ve gizlilik sunduğuna olan inancından kaynaklanıyor.
+Cubo Plus** eğitim programının ilk dersine hoş geldiniz. Bugün, **Bitcoin Italia Podcast**'in kurucusu Rikki'nin liderliğinde Bitcoin dünyasına dalıyoruz. Rikki, Bitcoin'yı insan haklarını korumak ve teşvik etmek için bir araç olarak kullanan tutkulu bir insan hakları aktivistidir. Altı yılı aşkın deneyimiyle Rikki, El Salvador ve Guatemala gibi gelişmekte olan pazarlarda Bitcoin'nın benimsenmesini belgelemek için kapsamlı seyahatler gerçekleştirmiştir. Çalışmaları podcast yayıncılığının ötesine geçiyor; YouTube (**Bitcoin Explorers**) ve Twitter'da (**BTC Explorer**, **Rikki6**) da aktif. Rikki'nin Commitment'ten Bitcoin'ya geçişi, geleneksel, merkezi bankacılık sistemlerine meydan okuyarak finansal özgürlük ve gizlilik sunduğuna olan inancından kaynaklanıyor.
 
 
 ![Unbanked Population](assets/en/001.webp)
@@ -81,10 +81,10 @@ _Bankasız Küresel Nüfus_
 - finansal içerme:_ Geleneksel bankacılık sistemlerinden dışlanmış olan ve genellikle "bankasızlar" olarak adlandırılan kişilerin finansal hizmetlere erişiminin sağlanması
 - sansürsüz para:_ Hükümetler veya finansal kurumlar tarafından kontrol edilemeyen veya kısıtlanamayan para.
 
-#### Ricky'nin geçmişi ve Bitcoin savunuculuğu
+#### Rikki'nin geçmişi ve Bitcoin savunuculuğu
 
 
-Ricky'nin Bitcoin'ye yolculuğu, bir insan hakları savunucusu olarak yaptığı çalışmalara dayanıyor. Bitcoin'nin bireylere mali durumları üzerinde kontrol sağlayarak mahremiyetlerini korumalarına ve merkezi bankaların sınırlamalarından kaçınmalarına olanak tanıyabileceğine inanıyor. Bitcoin'nin El Salvador gibi yerlerde benimsenmesini araştırması, bu teknolojinin gelişmekte olan pazarlardaki insanları finansal bağımsızlık kazanmaları için nasıl güçlendirebileceğini vurgulamaktadır.
+Rikki'nin Bitcoin'ye yolculuğu, bir insan hakları savunucusu olarak yaptığı çalışmalara dayanıyor. Bitcoin'nin bireylere mali durumları üzerinde kontrol sağlayarak mahremiyetlerini korumalarına ve merkezi bankaların sınırlamalarından kaçınmalarına olanak tanıyabileceğine inanıyor. Bitcoin'nin El Salvador gibi yerlerde benimsenmesini araştırması, bu teknolojinin gelişmekte olan pazarlardaki insanları finansal bağımsızlık kazanmaları için nasıl güçlendirebileceğini vurgulamaktadır.
 
 
 ### Bitcoin'ün küresel önemi ve karşılaştığı zorluklar
@@ -221,7 +221,7 @@ Bu materyalle ilgilendiğiniz için teşekkür ederiz!
 
 :::video id=2c008198-7f4e-4e60-87a0-0af17528ad2f:::
 
-'Nasıl Bitcoin' kursunun ilk dersinde, Bitcoin ağının temelini oluşturan teknoloji yığınını keşfetmeye başladık. Hashcash**, **transactions**, **Blockchain**, **Lightning Network** ve Bitcoin protokolünün diğer temel bileşenleri gibi konuları ele aldık.
+'Nasıl Bitcoin' kursunun ilk dersinde, Bitcoin ağının temelini oluşturan teknoloji yığınını keşfetmeye başladık. Hashcash**, **transactions**, **[Blockchain](https://planb.academy/resources/glossary/blockchain)**, **[Lightning Network](https://planb.academy/resources/glossary/lightning-network)** ve Bitcoin protokolünün diğer temel bileşenleri gibi konuları ele aldık.
 
 
 ### Bitcoin'nın teknolojik yığını bölüm 2
@@ -234,10 +234,10 @@ Bu materyalle ilgilendiğiniz için teşekkür ederiz!
 ### Bitcoin yapısı
 
 
-Bitcoin'ın kökenleri, gönderenlerin hesaplama görevlerini tamamlamalarını gerektirerek e-posta spam'lerini ve hizmet reddi saldırılarını önlemek için tasarlanmış bir Proof-of-Work (PoW) sistemi olan **Adam Back'in Hashcash** ile başlayan birkaç önemli yeniliğe dayanmaktadır. Bu PoW konsepti, Bitcoin'ın güvenliğinin temel taşı haline geldi.
+Bitcoin'ın kökenleri, gönderenlerin hesaplama görevlerini tamamlamalarını gerektirerek e-posta spam'lerini ve hizmet reddi saldırılarını önlemek için tasarlanmış bir [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) (PoW) sistemi olan **Adam Back'in Hashcash** ile başlayan birkaç önemli yeniliğe dayanmaktadır. Bu PoW konsepti, Bitcoin'ın güvenliğinin temel taşı haline geldi.
 
 
-Bitcoin, işlemleri güvence altına almak ve doğrulamak için **eliptik eğri kriptografisi** kullanan **dijital imzalara** dayanır. Eliptik Eğri Dijital İmza Algoritması (ECDSA)**, yalnızca Bitcoin'in gerçek sahibinin özel anahtarlarını ifşa etmeden işlemleri yetkilendirebilmesini sağlar.
+Bitcoin, işlemleri güvence altına almak ve doğrulamak için **eliptik eğri kriptografisi** kullanan **[dijital imzalara](https://planb.academy/resources/glossary/digital-signature)** dayanır. Eliptik Eğri Dijital İmza Algoritması (ECDSA)**, yalnızca Bitcoin'in gerçek sahibinin özel anahtarlarını ifşa etmeden işlemleri yetkilendirebilmesini sağlar.
 
 
 *gW-63'ün takma adlı yaratıcısı *Satoshi Nakamoto**, PoW modelini merkezi olmayan bir **Blockchain**'ye geçirerek bu fikirleri genişletti. Bu, merkezi bir otorite olmadan işlemleri doğrulamak ve kaydetmek için dağıtılmış bir düğüm ağına izin verdi ve önceki dijital para birimi girişimlerinden önemli bir evrime işaret etti.
@@ -397,7 +397,7 @@ Dördüncü modülün ilk dersinde Bitcoin'ün mimarisini ve bir Bitcoin core d�
 
 **1. Giriş özeti**
 
-Tekrar hoş geldiniz! Bir önceki oturumda, kriptografik temelleri ve eşler arası ağ yapısı da dahil olmak üzere Bitcoin'nın mimarisinin arkasındaki temel kavramları ele aldık. Bugün, bir Bitcoin düğümünün nasıl kurulacağını ve yapılandırılacağını göstererek teoriden pratiğe geçeceğiz.
+Tekrar hoş geldiniz! Bir önceki oturumda, kriptografik temelleri ve [eşler arası](https://planb.academy/resources/glossary/peertopeer-p2p) ağ yapısı da dahil olmak üzere Bitcoin'nın mimarisinin arkasındaki temel kavramları ele aldık. Bugün, bir Bitcoin düğümünün nasıl kurulacağını ve yapılandırılacağını göstererek teoriden pratiğe geçeceğiz.
 
 
 **2. Pratik oturuma genel bakış**
@@ -1008,7 +1008,7 @@ Bitcoin'ün kullanılabilirliğini artırma çabaları genellikle güvenlik ve g
 #### Ölçeklenebilirlik ve gizlilik ödünleşimleri
 
 
-Ölçeklenebilirlik ve gizlilik Bitcoin ağında genellikle çelişkilidir. Daha büyük UTXO'lar veya azaltılmış kriptografik gizleme gibi ölçeklenebilirliği artıran geliştirmeler genellikle gizliliği azaltır. Tersine, Monero'nun halka imzaları gibi gizlilik odaklı teknikler kullanıcı anonimliğini artırır ancak ölçeklenebilirliği olumsuz etkiler. Ayrıca, Ethereum'da görüldüğü gibi durum bilgisine dayalı sözleşmelerin devreye girmesi, güvenlik ve ölçeklenebilirliğin azalması pahasına daha fazla esneklik sunar. Bu ödünleşimlerin dengelenmesi, titiz bir değerlendirme gerektiren karmaşık bir zorluktur.
+Ölçeklenebilirlik ve gizlilik Bitcoin ağında genellikle çelişkilidir. Daha büyük [UTXO](https://planb.academy/resources/glossary/utxo)'lar veya azaltılmış kriptografik gizleme gibi ölçeklenebilirliği artıran geliştirmeler genellikle gizliliği azaltır. Tersine, Monero'nun halka imzaları gibi gizlilik odaklı teknikler kullanıcı anonimliğini artırır ancak ölçeklenebilirliği olumsuz etkiler. Ayrıca, Ethereum'da görüldüğü gibi durum bilgisine dayalı sözleşmelerin devreye girmesi, güvenlik ve ölçeklenebilirliğin azalması pahasına daha fazla esneklik sunar. Bu ödünleşimlerin dengelenmesi, titiz bir değerlendirme gerektiren karmaşık bir zorluktur.
 
 
 ### Gizlilik teknikleri
@@ -1144,7 +1144,7 @@ Tehdit modellemesi, potansiyel güvenlik tehditlerini belirleme ve bunları hafi
 #### Güven doğrulama
 
 
-Güven doğrulaması PGP (Pretty Good Privacy) doğrulaması ile örneklendirilebilir. Kullanıcılar PGP anahtarlarının parmak izlerini ve imzalarını doğrulayarak dijital kimliklerin gerçekliğini tespit edebilirler. Benzer uygulamalar Hash eşleştirmesi (örneğin SHA-256) yoluyla yazılım bütünlüğünün doğrulanması için de gereklidir.
+Güven doğrulaması PGP (Pretty Good Privacy) doğrulaması ile örneklendirilebilir. Kullanıcılar PGP anahtarlarının parmak izlerini ve imzalarını doğrulayarak dijital kimliklerin gerçekliğini tespit edebilirler. Benzer uygulamalar Hash eşleştirmesi (örneğin [SHA-256](https://planb.academy/resources/glossary/sha256)) yoluyla yazılım bütünlüğünün doğrulanması için de gereklidir.
 
 
 #### Güven yollarının oluşturulması
@@ -1260,7 +1260,7 @@ Hoş geldiniz! Bugün, her Bitcoin geliştiricisinin bilmesi gereken kriptografi
 ### Bitcoin geliştiricileri için temel kriptografik kavramlar
 
 
-Bu bölümde, Bitcoin fonksiyonları, Merkle ağaçları, dijital imzalar ve eliptik eğriler de dahil olmak üzere Hash geliştiricileri için gerekli olan temel kriptografik kavramları inceleyeceğiz.
+Bu bölümde, Bitcoin fonksiyonları, [Merkle ağaçları](https://planb.academy/resources/glossary/merkle-tree), dijital imzalar ve eliptik eğriler de dahil olmak üzere Hash geliştiricileri için gerekli olan temel kriptografik kavramları inceleyeceğiz.
 
 
 ![Image](assets/en/014.webp)
@@ -1314,7 +1314,7 @@ Bu bölümde, bu kavramların gerçek dünyadaki Bitcoin geliştirmesinde uygula
 **Güvenlik etkileri**: Geçmiş örnekler, Nonce'in yeniden kullanımı nedeniyle önemli mali kayıplar yaşandığını göstermektedir. Benzersiz nonce'lar oluşturmanın önemini anlamak çok önemlidir. LibSecP256k1 gibi güvenilir kütüphanelerin kullanılması sağlam ve güvenli kriptografik işlemler sağlar.
 
 
-**Eliptik Eğri Kriptografisi (ECC)**: İmza şemaları, kimlik protokollerinden şu anda Bitcoin'da (BIP 340) kullanılan Schnorr imzaları gibi şemalara doğru gelişmiştir. Eliptik eğriler ve sonlu alan aritmetiği bilgisi güvenli kriptografik uygulamalar sağlar.
+**Eliptik Eğri Kriptografisi (ECC)**: İmza şemaları, kimlik protokollerinden şu anda Bitcoin'da (BIP [340](https://planb.academy/resources/glossary/bip)) kullanılan Schnorr imzaları gibi şemalara doğru gelişmiştir. Eliptik eğriler ve sonlu alan aritmetiği bilgisi güvenli kriptografik uygulamalar sağlar.
 
 
 **Geliştiriciler için genel tavsiye**: Kriptografik protokoller kapsamlı akran değerlendirmelerinden geçmelidir. Geliştiriciler hassas olmalı ve kriptografik prosedürlerin her adımını tam olarak anlamalıdır. Kriptografik uygulamalardaki yaygın tuzakların farkında olmak önemli güvenlik açıklarını önleyebilir.
@@ -2598,7 +2598,7 @@ Bu sınırlamaları ortadan kaldırmak için Manny Rosenfeld 2012 yılında merk
 ### Karma Zaman Kilidi Contract (HTLC) ve uygulaması
 
 
-Merkezi atlamaların sınırlamaları ve dezavantajları, daha güvenli ve merkezi olmayan bir çözüm gerektiriyordu. Bu ihtiyaç, 2015 yılında Joseph Poon ve Thaddeus Dreijer tarafından Lightning Network'in bir parçası olarak önerilen Hashed Time Lock Contract'nin (HTLC) geliştirilmesine yol açmıştır. HTLC'ler, işlemlerde atomikliği ve güvenilirliği sağlamak için zaman kilitleri ve Hash kilitlerinin ilkelerini birleştirir. Bu, bir işlemin ya tamamen tamamlandığı ya da hiç gerçekleşmediği anlamına gelir ve tamamlanmamış ödemelerle ilişkili riskleri azaltır.
+Merkezi atlamaların sınırlamaları ve dezavantajları, daha güvenli ve merkezi olmayan bir çözüm gerektiriyordu. Bu ihtiyaç, 2015 yılında Joseph Poon ve Thaddeus Dreijer tarafından Lightning Network'in bir parçası olarak önerilen Hashed Time Lock Contract'nin ([HTLC](https://planb.academy/resources/glossary/htlc)) geliştirilmesine yol açmıştır. HTLC'ler, işlemlerde atomikliği ve güvenilirliği sağlamak için zaman kilitleri ve Hash kilitlerinin ilkelerini birleştirir. Bu, bir işlemin ya tamamen tamamlandığı ya da hiç gerçekleşmediği anlamına gelir ve tamamlanmamış ödemelerle ilişkili riskleri azaltır.
 
 
 HTLC'in iş akışı, birden fazla aracı aracılığıyla güvenli yönlendirme sağlayan çok adımlı bir süreç içerir. Alice'nin Eric'e Bob, Carol ve Diana aracıları üzerinden ödeme yapmak istediğini varsayalım. Süreçteki her adım, azalan zaman kilitleri ve tutarlarla Commitment işlemlerinin oluşturulmasını içerir. Gerekirse, son adım işlemi sonuçlandırmak için Bitcoin ağına yayınlanabilir.
@@ -3430,5 +3430,5 @@ Lightning ödemelerinin çeşitli protokoller ve kullanım durumları aracılı�
 
 :::video id=b89f2064-f2e1-49c3-97d0-580891eee1dd:::
 
-Adam Gibson, Joinmarket hakkında bilgi vererek bu CoinJoin uygulamasının Bitcoin'nın gizliliğini ve değiştirilebilirliğini nasıl geliştirdiğini detaylandırıyor. Joinmarket'in Bitcoin ekosisteminde işbirliğine dayalı, Trustless ve anonim işlemleri nasıl kolaylaştırdığını tartışıyor. Ardından ikinci bölümde Joinmarket'in Signet'te nasıl çalıştırılacağını gösteriyor.
+Adam Gibson, Joinmarket hakkında bilgi vererek bu [CoinJoin](https://planb.academy/resources/glossary/coinjoin) uygulamasının Bitcoin'nın gizliliğini ve değiştirilebilirliğini nasıl geliştirdiğini detaylandırıyor. Joinmarket'in Bitcoin ekosisteminde işbirliğine dayalı, Trustless ve anonim işlemleri nasıl kolaylaştırdığını tartışıyor. Ardından ikinci bölümde Joinmarket'in Signet'te nasıl çalıştırılacağını gösteriyor.
 

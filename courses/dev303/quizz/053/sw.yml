@@ -1,0 +1,8 @@
+question: Ni utaratibu gani wa msingi unaowezesha RC kuruhusu umiliki mwingi huku ikidumisha usalama wa kumbukumbu?
+answer: Kihesabu cha ndani kinachofuatilia marejeleo na kutoa kumbukumbu huru tu wakati kihesabu kinafikia sifuri
+wrong_answers:
+  - Uchambuzi wa wakati wa kukusanya unaothibitisha mifumo yote ya marejeleo kabla ya utekelezaji wa programu
+  - Mkusanyaji wa takataka ambaye huchanganua na kusafisha mara kwa mara mgao wa kumbukumbu usiofikika
+  - Mfumo unaotegemea kufuli unaosawazisha ufikiaji kati ya wamiliki wengi wa data moja
+explanation: |
+  RC hudumisha kihesabu cha marejeleo cha ndani ambacho huongeza wakati kinapoundwa na hupungua wakati kinapoangushwa, kuhakikisha kumbukumbu inaachiliwa tu wakati hakuna marejeleo yanayobaki. Hii inatofautiana na uchanganuzi wa muda wa kukusanya (ambao Box hutumia), ukusanyaji wa taka (ambao Rust haitumii), au mifumo ya kufunga (ambayo hutumika kwa usawazishaji wa nyuzi, sio ufuatiliaji wa umiliki). Mbinu ya kukabiliana inaruhusu umiliki salama wa pamoja bila gharama ya ziada ya ukusanyaji wa taka au vikwazo vya umiliki mmoja.

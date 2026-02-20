@@ -6,7 +6,7 @@ description: Como participar na revisão dos conteúdos educativos na Rede Plan 
 
 ## Em resumo
 
-Se quiseres participar na revisão e correção de conteúdos para a Plan ₿ Academy, junta-te ao [nosso grupo do Telegram] (https://t.me/PlanBNetwork_ContentBuilder) dedicado às contribuições. Apresenta-te brevemente, depois especifica o conteúdo que gostarias de rever e a língua. Faça suas correções em um ramo de trabalho e envie um PR assim que sua revisão for concluída.
+Se quiseres participar na revisão e correção de conteúdos para a Plan ₿ Academy, junta-te ao [nosso grupo do Telegram](https://t.me/PlanBNetwork_ContentBuilder) dedicado às contribuições. Apresenta-te brevemente, depois especifica o conteúdo que gostarias de rever e a língua. Faça suas correções em um ramo de trabalho e envie um PR assim que sua revisão for concluída.
 
 Se não percebeu a parte acima, não se preocupe - este tutorial é para si!
 
@@ -37,16 +37,16 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 ## 1. Criar uma conta
 
 
-- Crie uma conta no [GitHub] (https://github.com/) para começar a contribuir. Se pretender obter orientação sobre como criar a sua conta GitHub, também temos um tutorial detalhado:
+- Crie uma conta no [GitHub](https://github.com/) para começar a contribuir. Se pretender obter orientação sobre como criar a sua conta GitHub, também temos um tutorial detalhado:
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-- É também necessária uma conta na aplicação de mensagens [Telegram] (https://telegram.org/).
+- É também necessária uma conta na aplicação de mensagens [Telegram](https://telegram.org/).
 
 ## 2. Juntar-se ao grupo Telegram
 
 
-- Junte-se [ao grupo Plan ₿ Academy Content Builder] (https://t.me/PlanBNetwork_ContentBuilder) no Telegram.
+- Junte-se [ao grupo Plan ₿ Academy Content Builder](https://t.me/PlanBNetwork_ContentBuilder) no Telegram.
 
 ![REVIEW](assets/fr/01.webp)
 
@@ -154,5 +154,5 @@ Para saber mais sobre as diretrizes a serem seguidas ao revisar no Plan ₿ Acad
 ![REVIEW](assets/fr/16.webp)
 
 
-- Se tiver quaisquer observações, perguntas ou comentários sobre este projeto, não hesite em enviar um DM [para o grupo de Telegrama dos contribuidores] (https://t.me/PlanBNetwork_ContentBuilder).
+- Se tiver quaisquer observações, perguntas ou comentários sobre este projeto, não hesite em enviar um DM [para o grupo de Telegrama dos contribuidores](https://t.me/PlanBNetwork_ContentBuilder).
 

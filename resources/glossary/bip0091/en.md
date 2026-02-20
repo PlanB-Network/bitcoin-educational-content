@@ -1,5 +1,6 @@
 ---
 term: BIP0091
+definition: Mechanism that allowed the activation of SegWit in 2017 with an 80% threshold, avoiding the UASF conflict of BIP148.
 ---
 
 Proposal by James Hilliard (engineer at Bitmain) to facilitate the activation of the SegWit soft fork, defined in BIP141, BIP143, and BIP147, through a MASF without directly reaching the required threshold of 95% of computing power signaling support via bit 1. 

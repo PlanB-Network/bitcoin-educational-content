@@ -1,6 +1,7 @@
 ---
-term: GASTOS DE TRANSACCIÓN
+term: Comisiones de transacción
 
+definition: Suma que remunera a los mineros por incluir una transacción en un bloque, calculada como la diferencia entre inputs y outputs.
 ---
 Las comisiones por transacción representan una cantidad que pretende compensar a los mineros por su participación en el mecanismo de prueba de trabajo. Estas comisiones animan a los mineros a incluir transacciones en los bloques que crean. Resultan de la diferencia entre la cantidad total de entradas y la cantidad total de salidas en una transacción:
 
@@ -22,4 +23,3 @@ En este ejemplo concreto, se trataba de una transacción iniciada por el directo
 
 También es necesario considerar los límites de la purga. Durante los periodos de alta congestión, los mempools de los nodos purgan sus transacciones pendientes por debajo de un cierto umbral, con el fin de respetar su límite de RAM asignada. Este límite es elegido libremente por el usuario, pero muchos dejan el valor por defecto de Bitcoin Core en 300 MB. Puede ser modificado en el archivo `bitcoin.conf` con el parámetro `maxmempool`.
 
-> ► *En inglés, lo denominamos "transaction fees "*

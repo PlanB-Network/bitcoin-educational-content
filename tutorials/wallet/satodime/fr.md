@@ -134,12 +134,12 @@ La réinitialisation du coffre rend le slot vide et prêt pour un nouveau coffre
 
 ## 9. Transférer la propriété
 
-Pour - par exemple - offrir des bitcoins grâce à Satodime, vous devez : 
+Pour, par exemple, offrir des bitcoins grâce à Satodime, vous devez : 
 - Prendre la propriété de la carte,
 - Créer un coffre Bitcoin,
 - Y transférer des sats,
 - Transférer la propriété de la carte : le prochain à scanner la carte deviendra propriétaire,
-- Donner la carte Satodime à la personne de votre choix, et l'inviter à télécharger l'application puis à scanner la carte pour en prendre la propriété - et donc accéder aux bitcoins qui y sont 'stockés'.
+- Donner la carte Satodime à la personne de votre choix, et l'inviter à télécharger l'application puis à scanner la carte pour en prendre la propriété, et donc accéder aux bitcoins qui y sont 'stockés'.
 
 ![image](assets/fr/10.webp)
 

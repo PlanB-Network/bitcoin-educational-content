@@ -1,5 +1,6 @@
 ---
-term: 实用负载
+term: 有效负载
+definition: 包含在大型数据包中的核心数据内容。
 ---
 
 在计算的一般情况下，有效载荷是较大数据包中的基本数据。例如，在 Bitcoin Address 上的 SegWit V0 中，有效载荷相当于公钥的 Hash，不包含各种元数据（HRP、分隔符、SegWit 版本和校验和）。例如，在 Address `bc1qc2eukw7reasfcmrafevp5dhv8635yuqays50gj` 中，我们有 ：

@@ -1,0 +1,11 @@
+question: Ni uruhara uruhe abacukuzi bafise mu muhora wa Bitcoin?
+answer: Abacukuzi barafise uruhara runini mu kwemeza no guhingura ama block.
+wrong_answers:
+  - Abacukuzi ni bo bemeza gusa amafaranga.
+  - Abacukuzi ni bo bagenzura igiciro ca Bitcoin.
+  - Abacukuzi nta ruhara bafise mu murongo wa Bitcoin.
+explanation: |
+  Abacukuzi barafise uruhara runini mu muhora wa Bitcoin mu kwemeza no guhingura ama blocks
+  Bakomeza umuhora wa Bitcoin ku bijanye n’ukugenzurwa mu gukoresha umuyagankuba
+  kugira ngo haharurwe Proof of Work ya Bitcoin.
+reviewed: true

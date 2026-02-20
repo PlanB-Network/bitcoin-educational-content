@@ -114,7 +114,7 @@ Ifuatayo, unaweza kurekebisha chaguo chini ya mipangilio ya mtaalam.
 
 
 
-Ifuatayo, unahitaji kufafanua **nenosiri linalolingana na ufunguo wa usimbuaji**. Nenosiri hili litakuwezesha **kufungua salama ya Cryptomator** na kufikia data yake. **Ukiipoteza, utapoteza ufikiaji wa data yako**. Hatimaye, bado una chaguo la **kuunda ufunguo mbadala** kwa kuangalia chaguo la "**Ndiyo, salama kuliko samahani**", kwa nia sawa na ufunguo wa urejeshi wa [BitLocker] (https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/). Hili linapendekezwa, lakini usihifadhi ufunguo huu wa chelezo kwenye mzizi wa OneDrive yako!
+Ifuatayo, unahitaji kufafanua **nenosiri linalolingana na ufunguo wa usimbuaji**. Nenosiri hili litakuwezesha **kufungua salama ya Cryptomator** na kufikia data yake. **Ukiipoteza, utapoteza ufikiaji wa data yako**. Hatimaye, bado una chaguo la **kuunda ufunguo mbadala** kwa kuangalia chaguo la "**Ndiyo, salama kuliko samahani**", kwa nia sawa na ufunguo wa urejeshi wa [BitLocker](https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/). Hili linapendekezwa, lakini usihifadhi ufunguo huu wa chelezo kwenye mzizi wa OneDrive yako!
 
 
 

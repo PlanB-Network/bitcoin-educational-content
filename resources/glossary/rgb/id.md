@@ -1,5 +1,6 @@
 ---
 term: RGB
+definition: Sistem kontrak pintar terdesentralisasi dan rahasia yang berjalan di atas Bitcoin.
 ---
 
 Sistem kontrak pintar yang terdesentralisasi dan rahasia yang dirancang untuk bekerja dengan Bitcoin dan Jaringan Lightning. RGB bekerja pada model _Client-side Validation_ dan memisahkan penyimpanan _Contract State_ dari _Blockchain_, sehingga hanya komitmen kriptografi yang disimpan di dalamnya. Dengan cara ini, riwayat status lengkap disimpan di luar rantai, memungkinkan skalabilitas dan kerahasiaan yang lebih besar. Dengan demikian, RGB memungkinkan pembuatan kontrak yang kompleks untuk menyimpan token, NFT, identitas terdesentralisasi, atau solusi DeFi, langsung di atas Bitcoin.

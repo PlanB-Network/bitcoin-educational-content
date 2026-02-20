@@ -1,0 +1,9 @@
+question: Jaký mechanismus se v protokolu NWC používá pro přenos požadavku mezi aplikací a uzlem?
+answer: Události na relé Nostr
+wrong_answers:
+  - Přímá volání REST na LND
+  - Připojení VPN z bodu do bodu
+  - Šifrované požadavky DNS
+explanation: |
+  Požadavek je zašifrován a poté publikován jako událost na přenosovém serveru Nostr, kterou uzel přečte a provede akci.
+reviewed: false

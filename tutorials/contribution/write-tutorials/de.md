@@ -68,7 +68,7 @@ Wie auch immer Sie sich entscheiden, bedenken Sie bitte, dass alle im Plan ₿ A
 
 ## 2 - Kontaktieren Sie das Plan ₿ Academy Team
 
-Wenn Sie das Thema für Ihr Tutorial ausgewählt haben, müssen Sie uns im nächsten Schritt mitteilen, dass Sie diesen Inhalt auf die Plattform stellen möchten. Der einfachste Weg, wenn Sie ein Telegram-Konto haben, ist [unserer Gruppe beizutreten] (https://t.me/PlanBNetwork_ContentBuilder).
+Wenn Sie das Thema für Ihr Tutorial ausgewählt haben, müssen Sie uns im nächsten Schritt mitteilen, dass Sie diesen Inhalt auf die Plattform stellen möchten. Der einfachste Weg, wenn Sie ein Telegram-Konto haben, ist [unserer Gruppe beizutreten](https://t.me/PlanBNetwork_ContentBuilder).
 
 ![TUTO](assets/fr/39.webp)
 

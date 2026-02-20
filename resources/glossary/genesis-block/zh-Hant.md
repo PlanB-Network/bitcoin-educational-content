@@ -1,5 +1,6 @@
 ---
-term: Genesis BLOCK
+term: 創世區塊
+definition: 由 Satoshi Nakamoto 於 2009 年 1 月 3 日建立的比特幣系統第一個區塊。
 ---
 
 Genesis Block 是 Bitcoin 系統的第一個區塊。它標誌著 Bitcoin 的具體啟動。Genesis 區塊由 Bitcoin 的匿名創始人 Satoshi Nakamoto 於 2009 年 1 月 3 日創建。它的 Hash 是

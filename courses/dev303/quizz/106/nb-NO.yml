@@ -1,0 +1,8 @@
+question: Hvilket grunnleggende designprinsipp gjør det mulig for LDK å lage lynbevisste HSM-er som på en intelligent måte kan vurdere om en transaksjon representerer legitim betalingsruting eller potensielt ondsinnede forsøk?
+answer: LDKs modulære arkitektur gjør det mulig å trekke ut spesifikke transaksjonssignerings- og verifiseringskomponenter samtidig som Lightning-protokollens kontekstbevissthet opprettholdes
+wrong_answers:
+  - "LDKs hendelsesstyrte system flagger automatisk mistenkelige transaksjoner ved hjelp av maskinlæringsalgoritmer som er integrert i kjernesigneringsprosessen."
+  - "LDKs blockchain-abstraksjonslag gir svindeloppdagelse i sanntid ved å kryssreferere alle transaksjoner mot sladderdata fra nettverket"
+  - "LDKs peer management-system implementerer avanserte kryptografiske signaturer som i seg selv skiller mellom legitime og ondsinnede transaksjonsmønstre."
+explanation: |
+  LDKs modulære design gjør det mulig for utviklere å trekke ut bare signerings- og verifiseringskomponentene, samtidig som Lightning-protokollens intelligens som trengs for å forstå transaksjonskonteksten, beholdes. Dette gjør det mulig for HSM-er å ta informerte beslutninger om videresending av betalinger, kanaloperasjoner og sikkerhetstrusler i stedet for å signere transaksjoner i blinde. Feil svar tilskriver feilaktig denne muligheten til automatisert svindeloppdagelse, blokkjedeovervåking eller kryptografiske signaturer, mens det faktisk er den modulære arkitekturens evne til å opprettholde protokollbevissthet i isolerte komponenter som muliggjør intelligent transaksjonsevaluering.

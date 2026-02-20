@@ -1,0 +1,10 @@
+question: 美國哪個自由主義者的電台節目最先提到絲綢之路市場的存在？
+answer: Free Talk Live
+wrong_answers:
+  - Bitcoin Show
+  - 萬事俱備
+  - Infowars 晚間新聞
+explanation: |
+ Free Talk Live 由 Ian Freeman 和 Mark Edge 主持，他們於 2010 年 12 月發現 Bitcoin，並於 2011 年 2 月認識 Gavin Andresen。2011 年 3 月 16 日，有一半的
+ 絲路上使用 Bitcoin，這說服了 Roger Ver 更多的參與 Bitcoin。
+reviewed: true

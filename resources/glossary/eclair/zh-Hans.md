@@ -1,6 +1,7 @@
 ---
-term: ECLAIR
+term: Eclair
 
+definition: 由 Acinq 开发的 Scala 语言版本的 Lightning Network 协议实现。
 ---
 用 Scala 语言编写的闪电网络协议的主要实施方案。Eclair 由法国 Acinq 公司开发。
 

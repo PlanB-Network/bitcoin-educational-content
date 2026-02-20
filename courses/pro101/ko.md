@@ -11,7 +11,7 @@ objectives:
 
 Bitcoin에서 구축하려면 무엇이 필요할까요? 이 20시간 과정은 Bitcoin과 Lightning Network의 표면 아래로 여러분을 안내하며, 세계에서 가장 회복력 있는 금융 인프라를 구동하는 프로토콜을 탐구합니다. 오픈 소스 프로젝트에 기여하거나 차세대 Bitcoin 애플리케이션을 구축하려는 경우, 이 생태계에서 자신 있게 작업을 시작하는 데 필요한 기술적 깊이를 얻게 될 것입니다.
 
-엘살바도르에서 열린 CUBO+ 2023 부트캠프 동안 녹화된 이 과정은 기술을 형성해 온 주요 Bitcoin 개발자와 교육자들의 관점을 한데 모았습니다. 가장 좋은 점은? Fulgure Venture, Bitcoin Office 및 DecouvreBitcoin이 가능하게 한 완전히 무료입니다. Bitcoin이 프로토콜 수준에서 실제로 어떻게 작동하는지 궁금했다면, 이것이 알아볼 기회입니다.
+엘살바도르에서 열린 CUBO+ 2023 부트캠프 동안 녹화된 이 과정은 기술을 형성해 온 주요 Bitcoin 개발자와 교육자들의 관점을 한데 모았습니다. 가장 좋은 점은? Fulgure Ventures, Bitcoin Office 및 DecouvreBitcoin이 가능하게 한 완전히 무료입니다. Bitcoin이 프로토콜 수준에서 실제로 어떻게 작동하는지 궁금했다면, 이것이 알아볼 기회입니다.
 +++
 # 입문 및 준비 과정
 
@@ -59,7 +59,7 @@ Bitcoin에서 구축하려면 무엇이 필요할까요? 이 20시간 과정은 
 
 :::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
-큐보 플러스** 교육 프로그램의 첫 번째 강의에 오신 것을 환영합니다. 오늘은 **Bitcoin 이탈리아 팟캐스트**의 창립자 리키가 이끄는 Bitcoin의 세계로 들어가 보겠습니다. 리키는 Bitcoin을 인권 보호와 증진을 위한 도구로 사용하는 열정적인 인권 운동가입니다. 6년 이상의 경험을 가진 리키는 엘살바도르와 과테말라 같은 신흥 시장에서의 Bitcoin 채택을 기록하면서 광범위한 여행을 해왔습니다. 그는 팟캐스트뿐만 아니라 유튜브(**Bitcoin Explorer**)와 트위터(**BTC Explorer**, **Ricky6**)에서도 활발히 활동하고 있습니다. 리키의 Commitment에서 Bitcoin은 금융의 자유와 프라이버시를 제공하고 기존의 중앙화된 은행 시스템에 도전한다는 그의 신념에서 비롯되었습니다.
+큐보 플러스** 교육 프로그램의 첫 번째 강의에 오신 것을 환영합니다. 오늘은 **Bitcoin 이탈리아 팟캐스트**의 창립자 리키가 이끄는 Bitcoin의 세계로 들어가 보겠습니다. 리키는 Bitcoin을 인권 보호와 증진을 위한 도구로 사용하는 열정적인 인권 운동가입니다. 6년 이상의 경험을 가진 리키는 엘살바도르와 과테말라 같은 신흥 시장에서의 Bitcoin 채택을 기록하면서 광범위한 여행을 해왔습니다. 그는 팟캐스트뿐만 아니라 유튜브(**Bitcoin Explorer**)와 트위터(**BTC Explorer**, **Rikki6**)에서도 활발히 활동하고 있습니다. 리키의 Commitment에서 Bitcoin은 금융의 자유와 프라이버시를 제공하고 기존의 중앙화된 은행 시스템에 도전한다는 그의 신념에서 비롯되었습니다.
 
 
 ![Unbanked Population](assets/en/001.webp)
@@ -70,14 +70,14 @@ Bitcoin에서 구축하려면 무엇이 필요할까요? 이 20시간 과정은 
 ### Bitcoin: 금융 자유와 엘살바도르에 미치는 영향
 
 
-"엘살바도르에 Bitcoin가 필요한 이유"라는 이 강연에서는 **Bitcoin 프로토콜**에 대한 개요와 **Cypherpunk 운동에 뿌리를 두고 있으며 **검열받지 않는 돈**, **금융 포용** 등을 가능하게 하는 도구로서의 역할에 대해 설명합니다.
+"엘살바도르에 Bitcoin가 필요한 이유"라는 이 강연에서는 **Bitcoin 프로토콜**에 대한 개요와 **[Cypherpunk](https://planb.academy/resources/glossary/cypherpunks) 운동에 뿌리를 두고 있으며 **검열받지 않는 돈**, **금융 포용** 등을 가능하게 하는 도구로서의 역할에 대해 설명합니다.
 
 
 **정의:**
 
 
 -  비트코인 프로토콜:_ Bitcoin이 탈중앙화 디지털 화폐로 운영되는 방식을 규정하는 규칙과 구조입니다.
--  사이퍼펑크 운동_ 디지털 공간에서 프라이버시와 자유를 보장하기 위해 암호화를 사용해야 한다고 주장하는 그룹입니다.
+-  사이퍼펑크 운동_ 디지털 공간에서 프라이버시와 자유를 보장하기 위해 [암호화](https://planb.academy/resources/glossary/cryptography)를 사용해야 한다고 주장하는 그룹입니다.
 -  금융 포용성:_ 전통적인 은행 시스템에서 소외된 사람들, 흔히 "금융소외계층"이라고 불리는 사람들에게 금융 서비스에 대한 접근성을 제공합니다
 -  검열되지 않은 화폐:_ 정부나 금융 기관이 통제하거나 제한할 수 없는 화폐입니다.
 
@@ -90,10 +90,10 @@ Bitcoin에서 구축하려면 무엇이 필요할까요? 이 20시간 과정은 
 ### Bitcoin의 글로벌 중요성과 과제
 
 
-Bitcoin는 단순한 디지털 화폐 그 이상입니다. 프라이버시를 보호하고 재정적 자유를 보장하는 도구입니다. 마스터 비밀번호와 같은 역할을 하는 **개인 키**를 사용하여 사용자는 자신의 자금을 완벽하게 제어하면서 Bitcoin를 안전하게 관리할 수 있습니다.
+Bitcoin는 단순한 디지털 화폐 그 이상입니다. 프라이버시를 보호하고 재정적 자유를 보장하는 도구입니다. 마스터 비밀번호와 같은 역할을 하는 **[개인 키](https://planb.academy/resources/glossary/private-key)**를 사용하여 사용자는 자신의 자금을 완벽하게 제어하면서 Bitcoin를 안전하게 관리할 수 있습니다.
 
 
-금융 탄압이 흔한 권위주의 체제에서 Bitcoin의 **검열 불가능성**은 사람들이 자금 동결이나 압수에 대한 두려움 없이 거래할 수 있게 해줍니다. 오픈 소스**의 특성은 전 세계의 참여를 장려하여 네트워크를 지속적으로 개선하는 커뮤니티를 육성합니다.
+금융 탄압이 흔한 권위주의 체제에서 Bitcoin의 **검열 불가능성**은 사람들이 자금 동결이나 압수에 대한 두려움 없이 [거래](https://planb.academy/resources/glossary/transaction-tx)할 수 있게 해줍니다. [오픈 소스](https://planb.academy/resources/glossary/foss)**의 특성은 전 세계의 참여를 장려하여 네트워크를 지속적으로 개선하는 커뮤니티를 육성합니다.
 
 
 ![Image](assets/en/002.webp)
@@ -143,7 +143,7 @@ Bitcoin은 그 잠재력에도 불구하고 상당한 도전에 직면해 있습
 #### 오스트리아 경제학
 
 
-동시에 **오스트리아 경제학**은 Bitcoin의 통화 원칙의 토대를 제공했습니다. 루드비히 폰 미제스**와 프리드리히 하이에크** 같은 경제학자들은 건전한 화폐는 희소성이 있어야 하고, 내구성이 있어야 하며, 가치를 잘 저장할 수 있어야 한다고 주장했고, 이러한 원칙이 Bitcoin의 설계에 영향을 미쳤습니다.
+동시에 **[오스트리아 경제학](https://planb.academy/resources/glossary/austrian-school)**은 Bitcoin의 통화 원칙의 토대를 제공했습니다. 루드비히 폰 미제스**와 프리드리히 하이에크** 같은 경제학자들은 건전한 화폐는 희소성이 있어야 하고, 내구성이 있어야 하며, 가치를 잘 저장할 수 있어야 한다고 주장했고, 이러한 원칙이 Bitcoin의 설계에 영향을 미쳤습니다.
 
 
 **정의:**
@@ -221,7 +221,7 @@ Bitcoin은 **Cypherpunk 운동**과 **오스트리아 경제학**에 기반을 �
 
 :::video id=2c008198-7f4e-4e60-87a0-0af17528ad2f:::
 
-'How Bitcoin' 과정의 첫 번째 강의에서는 Bitcoin 네트워크를 뒷받침하는 기술 스택을 살펴보기 시작했습니다. 해시캐시**, **트랜잭션**, **Blockchain**, **Lightning Network** 및 기타 Bitcoin 프로토콜의 주요 구성 요소와 같은 주제를 다뤘습니다.
+'How Bitcoin' 과정의 첫 번째 강의에서는 Bitcoin 네트워크를 뒷받침하는 기술 스택을 살펴보기 시작했습니다. 해시캐시**, **트랜잭션**, **[Blockchain](https://planb.academy/resources/glossary/blockchain)**, **[Lightning Network](https://planb.academy/resources/glossary/lightning-network)** 및 기타 Bitcoin 프로토콜의 주요 구성 요소와 같은 주제를 다뤘습니다.
 
 
 ### Bitcoin의 기술 스택 파트 2
@@ -234,13 +234,13 @@ Bitcoin은 **Cypherpunk 운동**과 **오스트리아 경제학**에 기반을 �
 ### Bitcoin 구조
 
 
-Bitcoin의 기원은 발신자가 계산 작업을 완료하도록 하여 이메일 스팸 및 서비스 거부 공격을 방지하도록 설계된 Proof-of-Work(작업 증명) 시스템인 **Adam Back의 해시캐시**를 시작으로 몇 가지 주요 혁신에 기반을 두고 있습니다. 이 작업 증명 개념은 Bitcoin 보안의 초석이 되었습니다.
+Bitcoin의 기원은 발신자가 계산 작업을 완료하도록 하여 이메일 스팸 및 서비스 거부 공격을 방지하도록 설계된 [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work)(작업 증명) 시스템인 **Adam Back의 해시캐시**를 시작으로 몇 가지 주요 혁신에 기반을 두고 있습니다. 이 작업 증명 개념은 Bitcoin 보안의 초석이 되었습니다.
 
 
-Bitcoin은 **타원 곡선 암호화**를 사용하는 **디지털 서명**을 사용하여 거래를 보호하고 검증합니다. 타원 곡선 디지털 서명 알고리즘(ECDSA)**은 Bitcoin의 정당한 소유자만 개인 키를 공개하지 않고 거래를 승인할 수 있도록 보장합니다.
+Bitcoin은 **타원 곡선 암호화**를 사용하는 **[디지털 서명](https://planb.academy/resources/glossary/digital-signature)**을 사용하여 거래를 보호하고 검증합니다. 타원 곡선 디지털 서명 알고리즘([ECDSA](https://planb.academy/resources/glossary/ecdsa))**은 Bitcoin의 정당한 소유자만 개인 키를 공개하지 않고 거래를 승인할 수 있도록 보장합니다.
 
 
-*gW-63의 익명의 창시자인 *Satoshi 나카모토**는 이러한 아이디어를 확장하여 작업 증명 모델을 탈중앙화된 **Blockchain**로 전환했습니다. 이를 통해 중앙 기관 없이도 분산된 노드 네트워크가 거래를 검증하고 기록할 수 있게 되었으며, 이는 이전의 디지털 화폐 시도에서 크게 발전한 것입니다.
+*gW-63의 익명의 창시자인 *Satoshi 나카모토**는 이러한 아이디어를 확장하여 작업 증명 모델을 탈중앙화된 **Blockchain**로 전환했습니다. 이를 통해 중앙 기관 없이도 분산된 [노드](https://planb.academy/resources/glossary/node) 네트워크가 거래를 검증하고 기록할 수 있게 되었으며, 이는 이전의 디지털 화폐 시도에서 크게 발전한 것입니다.
 
 
 **정의:**
@@ -252,16 +252,16 @@ Bitcoin은 **타원 곡선 암호화**를 사용하는 **디지털 서명**을 �
 ### Blockchain 메커니즘 및 트랜잭션 유효성 검사
 
 
-Bitcoin 트랜잭션은 **채굴자**에 의해 검증되고 블록에 추가되며, 이들은 Proof-of-Work 알고리즘을 사용해 암호화 퍼즐을 풀기 위해 경쟁합니다. 여기에는 올바른 Hash가 발견될 때까지 **Nonce** 값을 조정하여 특정 수의 선행 0이 포함된 Hash를 찾는 과정이 포함됩니다.
+Bitcoin 트랜잭션은 **채굴자**에 의해 검증되고 [블록](https://planb.academy/resources/glossary/block)에 추가되며, 이들은 Proof-of-Work 알고리즘을 사용해 암호화 퍼즐을 풀기 위해 경쟁합니다. 여기에는 올바른 [Hash](https://planb.academy/resources/glossary/hash-function)가 발견될 때까지 **[Nonce](https://planb.academy/resources/glossary/nonce)** 값을 조정하여 특정 수의 선행 0이 포함된 Hash를 찾는 과정이 포함됩니다.
 
 
-Blockchain의 각 **블록**은 **헤더**(이전 블록의 Hash와 같은 데이터 포함)와 트랜잭션 목록으로 구성됩니다. 첫 번째 블록인 **Genesis 블록**은 이전 블록이 없기 때문에 고유합니다.
+Blockchain의 각 **블록**은 **[헤더](https://planb.academy/resources/glossary/block-header)**(이전 블록의 Hash와 같은 데이터 포함)와 트랜잭션 목록으로 구성됩니다. 첫 번째 블록인 **[Genesis 블록](https://planb.academy/resources/glossary/genesis-block)**은 이전 블록이 없기 때문에 고유합니다.
 
 
 ![Image](assets/en/004.webp)
 
 
-트랜잭션이 블록에 포함되기 전에는 **Mempool**에 상주하며 유효성 검사를 기다립니다. 검증이 완료되면 이러한 트랜잭션은 새로 채굴된 블록에 추가된 다음 Blockchain에 추가됩니다.
+트랜잭션이 블록에 포함되기 전에는 **[Mempool](https://planb.academy/resources/glossary/mempool)**에 상주하며 유효성 검사를 기다립니다. 검증이 완료되면 이러한 트랜잭션은 새로 채굴된 블록에 추가된 다음 Blockchain에 추가됩니다.
 
 
 **정의:**
@@ -274,13 +274,13 @@ Blockchain의 각 **블록**은 **헤더**(이전 블록의 Hash와 같은 데�
 ### Bitcoin의 확장성, 개인 정보 보호 및 개발
 
 
-Bitcoin은 확장성 및 개인정보 보호와 관련된 문제에 직면해 있습니다. Blockchain의 제한된 트랜잭션 용량으로 인해 많은 거래량을 처리하기 어렵습니다. Lightning Network** Address와 같은 솔루션은 결제 채널을 통해 off-chain 거래를 활성화하여 속도와 프라이버시를 향상시킴으로써 이러한 문제를 해결합니다.
+Bitcoin은 확장성 및 개인정보 보호와 관련된 문제에 직면해 있습니다. Blockchain의 제한된 트랜잭션 용량으로 인해 많은 거래량을 처리하기 어렵습니다. Lightning Network** Address와 같은 솔루션은 [결제 채널](https://planb.academy/resources/glossary/payment-channel)을 통해 off-chain 거래를 활성화하여 속도와 프라이버시를 향상시킴으로써 이러한 문제를 해결합니다.
 
 
-탈중앙화와 보안을 보장하려면 **Full node**를 실행하는 것이 필수적이지만, **간편 결제 검증(SPV) 노드를 사용하면 일부 보안을 희생하는 대신 더 가볍게 참여할 수 있습니다.
+탈중앙화와 보안을 보장하려면 **[Full node](https://planb.academy/resources/glossary/full-node)**를 실행하는 것이 필수적이지만, **간편 결제 검증(SPV) 노드를 사용하면 일부 보안을 희생하는 대신 더 가볍게 참여할 수 있습니다.
 
 
-Bitcoin 개발은 성능과 보안을 개선하기 위해 발전해왔습니다. 주요 업그레이드에는 트랜잭션 가변성을 해결하고 유효 블록 크기를 증가시키는 **분리된 증인(SegWit)**과 개인 정보 보호를 개선하고 **MAST(머클화된 추상 구문 트리)**를 사용해 더 복잡한 계약을 허용하는 **Taproot**이 있습니다.
+Bitcoin 개발은 성능과 보안을 개선하기 위해 발전해왔습니다. 주요 업그레이드에는 트랜잭션 가변성을 해결하고 유효 블록 크기를 증가시키는 **분리된 증인([SegWit](https://planb.academy/resources/glossary/segwit))**과 개인 정보 보호를 개선하고 **MAST(머클화된 추상 구문 트리)**를 사용해 더 복잡한 계약을 허용하는 **[Taproot](https://planb.academy/resources/glossary/taproot)**이 있습니다.
 
 
 **정의:**
@@ -307,7 +307,7 @@ Bitcoin의 구조와 지속적인 진화는 기술의 혁신과 적응성을 보
 
 :::video id=c5e2e575-fa9d-4430-805f-205c2cf6f2a5:::
 
-이 강연에서는 **Bitcoin**, **블록체인**, **암호화폐**를 둘러싼 일반적인 통념을 파헤칩니다. Bitcoin의 에너지 소비, 범죄적 사용, 그리고 이 기술에 대한 광범위한 'FUD'(공포, 불확실성, 의심)에 대한 99가지 오해를 바로잡아 보겠습니다.
+이 강연에서는 **Bitcoin**, **블록체인**, **[암호화폐](https://planb.academy/resources/glossary/cryptocurrency)**를 둘러싼 일반적인 통념을 파헤칩니다. Bitcoin의 에너지 소비, 범죄적 사용, 그리고 이 기술에 대한 광범위한 'FUD'(공포, 불확실성, 의심)에 대한 99가지 오해를 바로잡아 보겠습니다.
 
 
 ### Bitcoin와 Blockchain 비교
@@ -339,7 +339,7 @@ Bitcoin의 구조와 지속적인 진화는 기술의 혁신과 적응성을 보
 ### 에너지 소비 및 환경 영향
 
 
-Bitcoin에 대한 가장 일반적인 비판 중 하나는 **에너지 소비량**입니다. Bitcoin Mining는 에너지를 사용하지만, 전 세계 전력 소비량의 1% 미만을 차지하며 낭비되는 에너지의 비율은 3% 미만입니다. 또한, **Bitcoin Mining**는 종종 미사용 또는 재생 가능한 에너지원을 활용하기 때문에 흔히 묘사되는 것보다 더 친환경적입니다.
+Bitcoin에 대한 가장 일반적인 비판 중 하나는 **에너지 소비량**입니다. Bitcoin [Mining](https://planb.academy/resources/glossary/mining)는 에너지를 사용하지만, 전 세계 전력 소비량의 1% 미만을 차지하며 낭비되는 에너지의 비율은 3% 미만입니다. 또한, **Bitcoin Mining**는 종종 미사용 또는 재생 가능한 에너지원을 활용하기 때문에 흔히 묘사되는 것보다 더 친환경적입니다.
 
 
 **정의:**
@@ -356,7 +356,7 @@ Bitcoin은 종종 범죄 활동에 사용된다는 비판을 받습니다. 그�
 ### 개인 정보 보호 및 활용성
 
 
-**프라이버시**와 **복제가능성**은 Bitcoin의 필수 기능입니다. 프라이버시는 억압적인 체제에서 사용자를 보호하고, 대체 가능성은 기록에 관계없이 모든 Bitcoin이 동등하다는 것을 보장합니다. 이를 통해 Bitcoin은 신뢰할 수 있고 공정한 형태의 화폐가 될 수 있습니다.
+**프라이버시**와 **복제가능성**은 Bitcoin의 필수 기능입니다. 프라이버시는 억압적인 체제에서 사용자를 보호하고, [대체 가능성](https://planb.academy/resources/glossary/fungibility)은 기록에 관계없이 모든 Bitcoin이 동등하다는 것을 보장합니다. 이를 통해 Bitcoin은 신뢰할 수 있고 공정한 형태의 화폐가 될 수 있습니다.
 
 
 **정의:**
@@ -405,7 +405,7 @@ Bitcoin의 에너지 소비량, 프라이버시 기능, 범죄 예방에서의 �
 이 세션에서는 알레코스가 가상 머신을 사용하여 Bitcoin 노드를 설정하는 과정을 안내합니다. 이 실습 튜토리얼은 Bitcoin 네트워크에 참여하도록 노드를 구성하는 단계에 익숙해지도록 설계되었습니다.
 
 
-Bitcoin 노드를 운영하려면 트랜잭션과 블록을 검증하고, 합의 규칙을 적용하며, 네트워크의 탈중앙화를 지원해야 합니다. 노드를 설정하면 Bitcoin 네트워크에 직접 연결할 수 있으므로 네트워크의 보안과 무결성에 기여할 수 있습니다.
+Bitcoin 노드를 운영하려면 트랜잭션과 블록을 검증하고, [합의](https://planb.academy/resources/glossary/consensus) 규칙을 적용하며, 네트워크의 탈중앙화를 지원해야 합니다. 노드를 설정하면 Bitcoin 네트워크에 직접 연결할 수 있으므로 네트워크의 보안과 무결성에 기여할 수 있습니다.
 
 
 이 강의에서는 Bitcoin core를 직접 설치 및 실행하고, 공간을 절약하기 위해 Blockchain을 정리하는 방법을 배우고, 소프트웨어 실험을 시작하는 가이드를 찾을 수 있습니다. 알레코스가 이 흥미로운 과정을 단계별로 안내해 드립니다.
@@ -820,7 +820,7 @@ Bitcoin의 보안 및 기기 설정에 대한 강의에 오신 것을 환영합�
 **도구: 스펙터 데스크톱 Wallet 및 Ledger 에뮬레이터**
 
 
-스펙터는 특히 하드웨어 장치를 사용하는 Bitcoin 지갑의 생성과 관리를 용이하게 하도록 설계된 데스크톱 Wallet입니다. 데모에서는 Ledger Hardware Wallet의 기능을 모방한 Ledger 에뮬레이터를 사용하겠습니다.
+스펙터는 특히 하드웨어 장치를 사용하는 Bitcoin [지갑](https://planb.academy/resources/glossary/wallet)의 생성과 관리를 용이하게 하도록 설계된 데스크톱 Wallet입니다. 데모에서는 Ledger Hardware Wallet의 기능을 모방한 Ledger 에뮬레이터를 사용하겠습니다.
 
 
 **Ledger 디바이스와 회사 간의 차이점 논란**
@@ -850,7 +850,7 @@ Bitcoin 보안의 핵심은 다중 서명(multi-sig) 지갑을 활용하는 것�
 스펙터를 구성하려면 Bitcoin core 또는 일렉트럼 서버에 연결해야 합니다. 이러한 서버는 Wallet 작동에 필요한 Blockchain 데이터를 제공합니다. 구성에는 Specter의 설정에서 서버 Address를 설정하고 안정적인 연결을 보장하는 것이 포함됩니다.
 
 
-**파생 경로 및 공개 키 검색에 대한 설명**
+**파생 경로 및 [공개 키](https://planb.academy/resources/glossary/public-key) 검색에 대한 설명**
 
 
 파생 경로를 이해하는 것은 Wallet 관리에 필수적입니다. 파생 경로는 마스터 키에서 키가 생성되는 방법을 정의합니다. Specter에서는 Hardware Wallet(또는 에뮬레이터)을 연결하고 Wallet Interface을 탐색하여 공개 키를 검색할 수 있습니다. 나중에 참조할 수 있도록 이러한 경로를 문서화하세요.
@@ -1008,7 +1008,7 @@ Bitcoin의 사용성을 개선하기 위한 노력은 종종 보안과 프라이
 #### 확장성 및 개인정보 보호 절충안
 
 
-Bitcoin 네트워크에서는 확장성과 개인정보 보호가 상충되는 경우가 많습니다. 확장성을 향상시키는 개선 사항(예: 더 큰 UTXO 또는 암호화 난독화 감소)은 일반적으로 프라이버시를 약화시킵니다. 반대로 모네로의 링 서명과 같은 프라이버시 중심 기술은 사용자 익명성을 강화하지만 확장성에는 부정적인 영향을 미칩니다. 또한, 이더리움에서 볼 수 있듯이 스테이트풀 컨트랙트를 도입하면 보안과 확장성이 저하되는 대신 유연성이 향상됩니다. 이러한 장단점의 균형을 맞추는 것은 세심한 고려가 필요한 복잡한 과제입니다.
+Bitcoin 네트워크에서는 확장성과 개인정보 보호가 상충되는 경우가 많습니다. 확장성을 향상시키는 개선 사항(예: 더 큰 [UTXO](https://planb.academy/resources/glossary/utxo) 또는 암호화 난독화 감소)은 일반적으로 프라이버시를 약화시킵니다. 반대로 모네로의 링 서명과 같은 프라이버시 중심 기술은 사용자 익명성을 강화하지만 확장성에는 부정적인 영향을 미칩니다. 또한, 이더리움에서 볼 수 있듯이 스테이트풀 컨트랙트를 도입하면 보안과 확장성이 저하되는 대신 유연성이 향상됩니다. 이러한 장단점의 균형을 맞추는 것은 세심한 고려가 필요한 복잡한 과제입니다.
 
 
 ### 개인 정보 보호 기술
@@ -1144,7 +1144,7 @@ Bitcoin의 프로토콜을 변경하려면 상당한 조정과 커뮤니티 합�
 #### 신뢰 확인
 
 
-신뢰 검증은 PGP(Pretty Good Privacy) 검증으로 설명할 수 있습니다. 사용자는 PGP 키의 지문과 서명을 확인함으로써 디지털 ID의 진위 여부를 확인할 수 있습니다. Hash 매칭(예: SHA-256)을 통해 소프트웨어 무결성을 검증할 때도 유사한 방식이 필수적입니다.
+신뢰 검증은 PGP(Pretty Good Privacy) 검증으로 설명할 수 있습니다. 사용자는 PGP 키의 지문과 서명을 확인함으로써 디지털 ID의 진위 여부를 확인할 수 있습니다. Hash 매칭(예: [SHA-256](https://planb.academy/resources/glossary/sha256))을 통해 소프트웨어 무결성을 검증할 때도 유사한 방식이 필수적입니다.
 
 
 #### 신뢰 경로 설정
@@ -1156,7 +1156,7 @@ Bitcoin의 프로토콜을 변경하려면 상당한 조정과 커뮤니티 합�
 #### 보안을 위한 인센티브
 
 
-보안을 유지하려면 인센티브의 역할을 이해하는 것이 중요합니다. 예를 들어, Bitcoin의 보안 모델은 채굴자의 인센티브와 네트워크 참여자의 검증에 의존하며, 디지털 생태계를 보호하는 데 있어 경제적 인센티브의 중요성을 강조합니다.
+보안을 유지하려면 인센티브의 역할을 이해하는 것이 중요합니다. 예를 들어, Bitcoin의 보안 모델은 [채굴자](https://planb.academy/resources/glossary/miner)의 인센티브와 네트워크 참여자의 검증에 의존하며, 디지털 생태계를 보호하는 데 있어 경제적 인센티브의 중요성을 강조합니다.
 
 
 #### Bitcoin 지갑 보호
@@ -1260,7 +1260,7 @@ MIT, GPL, AGPL과 같은 오픈소스 라이선스도 오픈소스 소프트웨�
 ### Bitcoin 개발자를 위한 핵심 암호화 개념
 
 
-이 섹션에서는 Hash 함수, 머클 트리, 디지털 서명, 타원 곡선 등 Bitcoin 개발자에게 필수적인 주요 암호화 개념에 대해 자세히 알아보겠습니다.
+이 섹션에서는 Hash 함수, [머클 트리](https://planb.academy/resources/glossary/merkle-tree), 디지털 서명, 타원 곡선 등 Bitcoin 개발자에게 필수적인 주요 암호화 개념에 대해 자세히 알아보겠습니다.
 
 
 ![Image](assets/en/014.webp)
@@ -1314,7 +1314,7 @@ MIT, GPL, AGPL과 같은 오픈소스 라이선스도 오픈소스 소프트웨�
 **보안 영향**: 과거 사례에 따르면 Nonce 재사용으로 인해 상당한 재정적 손실이 발생했습니다. 고유한 논스를 생성하는 것의 중요성을 이해하는 것이 중요합니다. LibSecP256k1과 같은 신뢰할 수 있는 라이브러리를 사용하면 강력하고 안전한 암호화 작업을 보장할 수 있습니다.
 
 
-**타원 곡선 암호화(ECC)**: 서명 체계는 신원 프로토콜에서 슈노르 서명과 같은 체계로 발전해 왔으며 현재 Bitcoin(BIP 340)에서 사용되고 있습니다. 타원 곡선과 유한 필드 산술에 대한 지식은 안전한 암호화 구현을 보장합니다.
+**타원 곡선 암호화(ECC)**: 서명 체계는 신원 프로토콜에서 슈노르 서명과 같은 체계로 발전해 왔으며 현재 Bitcoin([BIP](https://planb.academy/resources/glossary/bip) 340)에서 사용되고 있습니다. 타원 곡선과 유한 필드 산술에 대한 지식은 안전한 암호화 구현을 보장합니다.
 
 
 **개발자를 위한 일반적인 조언**: 암호화 프로토콜은 철저한 동료 검토를 거쳐야 합니다. 개발자는 암호화 절차의 모든 단계를 정확하고 완벽하게 이해해야 합니다. 암호화 구현의 일반적인 함정을 인식하면 심각한 취약점을 예방할 수 있습니다.
@@ -1468,7 +1468,7 @@ Mining의 복잡성은 주로 Bitcoin 운영의 수익성을 결정하는 기술
 
 4. **BTC 가격**: BTC 가격은 Mining의 수익성을 결정하는 데 필수적입니다.
 
-5. **네트워크 난이도**: 네트워크 난이도는 10분 동안 블록을 채굴하는 데 필요한 평균 Hashrate의 양을 나타냅니다.
+5. **네트워크 [난이도](https://planb.academy/resources/glossary/difficulty)**: 네트워크 난이도는 10분 동안 블록을 채굴하는 데 필요한 평균 Hashrate의 양을 나타냅니다.
 
 6. **전략적 도구**: Braiins.com](https://insights.braiins.com)과 같은 도구는 수익성을 계산하고 채굴자가 데이터에 기반한 의사 결정을 내리는 데 매우 유용합니다.
 
@@ -1836,7 +1836,7 @@ Bitcoin 블록의 각 트랜잭션에는 다음이 포함됩니다:
   - 이전 출력(아웃포인트)**: 이전 출력 레퍼런스입니다.
     - Hash**: 참조된 트랜잭션의 Hash입니다.
     - 인덱스**: "vout"이라고 하는 트랜잭션의 특정 출력의 인덱스입니다.
-  - 스크립트 길이**: 서명 스크립트의 길이입니다.
+  - [스크립트](https://planb.academy/resources/glossary/script) 길이**: 서명 스크립트의 길이입니다.
   - 서명 스크립트**: 거래 승인 확인을 위한 스크립트입니다.
   - 시퀀스**: 발신자가 정의한 트랜잭션 버전입니다.
 - 출력 수**: 트랜잭션 출력의 개수입니다.
@@ -2598,7 +2598,7 @@ Address의 비효율성과 개인정보 보호 문제를 해결하기 위해 결
 ### 해시된 시간 잠금 Contract(HTLC) 및 구현
 
 
-중앙화된 홉의 한계와 단점으로 인해 보다 안전하고 탈중앙화된 솔루션이 필요했습니다. 이러한 필요성에 따라 2015년 Joseph Poon과 Thaddeus Dreijer가 Lightning Network의 일부로 제안한 해시된 시간 잠금 Contract(HTLC)가 개발되었습니다. HTLC는 시간 잠금과 Hash 잠금의 원리를 결합하여 트랜잭션의 원자성과 무신뢰성을 보장합니다. 즉, 트랜잭션이 완전히 완료되거나 전혀 발생하지 않으므로 불완전한 결제와 관련된 위험을 완화할 수 있습니다.
+중앙화된 홉의 한계와 단점으로 인해 보다 안전하고 탈중앙화된 솔루션이 필요했습니다. 이러한 필요성에 따라 2015년 Joseph Poon과 Thaddeus Dreijer가 Lightning Network의 일부로 제안한 해시된 시간 잠금 Contract([HTLC](https://planb.academy/resources/glossary/htlc))가 개발되었습니다. HTLC는 시간 잠금과 Hash 잠금의 원리를 결합하여 트랜잭션의 원자성과 무신뢰성을 보장합니다. 즉, 트랜잭션이 완전히 완료되거나 전혀 발생하지 않으므로 불완전한 결제와 관련된 위험을 완화할 수 있습니다.
 
 
 HTLC의 워크플로에는 여러 중개자를 통한 안전한 라우팅을 보장하는 다단계 프로세스가 포함되어 있습니다. Alice이 중개자 Bob, 캐롤, 다이애나를 통해 에릭에게 지급하고자 한다고 가정해 보겠습니다. 프로세스의 각 단계에는 시간 잠금과 금액이 줄어드는 Commitment 트랜잭션을 생성하는 것이 포함됩니다. 필요한 경우 마지막 단계를 Bitcoin 네트워크로 브로드캐스트하여 트랜잭션을 마무리할 수 있습니다.
@@ -2690,7 +2690,7 @@ Bitcoin Blockchain 위에 두 번째 Layer로 작동하는 Lightning Network을 
 ### **Lightning Network 사양**
 
 
-Lightning Network 프로토콜은 10개의 BOLT(Basis of Lightning Technology)를 통해 세심하게 정의되어 있습니다. 이 볼트들은 밀라노에서 열린 컨퍼런스에서 합의된 것으로, Lightning Network의 다양한 구현을 위한 기반이 됩니다.
+Lightning Network 프로토콜은 10개의 [BOLT](https://planb.academy/resources/glossary/bolt)(Basis of Lightning Technology)를 통해 세심하게 정의되어 있습니다. 이 볼트들은 밀라노에서 열린 컨퍼런스에서 합의된 것으로, Lightning Network의 다양한 구현을 위한 기반이 됩니다.
 
 
 ![bolt](assets/en/049.webp)_BOLT Diagram _
@@ -2764,7 +2764,7 @@ Commitment 트랜잭션은 자금을 보호하고 도난을 방지하기 위해 
 ### Invoice 구조
 
 
-Lightning Network 송장(Bolt 11)은 Bech32로 인코딩되며 결제 Hash, 설명, 만료일 등의 세부 정보를 포함합니다. 각 Invoice는 재사용 문제를 방지하기 위해 한 번만 사용해야 합니다.
+Lightning Network [송장](https://planb.academy/resources/glossary/invoice-lightning)(Bolt 11)은 Bech32로 인코딩되며 결제 Hash, 설명, 만료일 등의 세부 정보를 포함합니다. 각 Invoice는 재사용 문제를 방지하기 위해 한 번만 사용해야 합니다.
 
 
 ![Invoice structure](assets/en/051.webp)_BOLT11 Invoice_
@@ -3430,5 +3430,5 @@ LNURL** 및 **Bolt 12**와 같은 프로토콜은 수동 상호작용을 줄여 
 
 :::video id=b89f2064-f2e1-49c3-97d0-580891eee1dd:::
 
-아담 깁슨이 Joinmarket에 대한 인사이트를 제공하며, 이 CoinJoin 구현이 어떻게 Bitcoin의 개인정보 보호와 대체 가능성을 향상시키는지 자세히 설명합니다. 그는 Joinmarket이 어떻게 Bitcoin 생태계 내에서 공동 작업, Trustless 및 익명 거래를 촉진하는지에 대해 설명합니다. 그런 다음 두 번째 파트에서는 Signet에서 Joinmarket을 실행하는 방법을 보여드립니다.
+아담 깁슨이 Joinmarket에 대한 인사이트를 제공하며, 이 [CoinJoin](https://planb.academy/resources/glossary/coinjoin) 구현이 어떻게 Bitcoin의 개인정보 보호와 대체 가능성을 향상시키는지 자세히 설명합니다. 그는 Joinmarket이 어떻게 Bitcoin 생태계 내에서 공동 작업, Trustless 및 익명 거래를 촉진하는지에 대해 설명합니다. 그런 다음 두 번째 파트에서는 Signet에서 Joinmarket을 실행하는 방법을 보여드립니다.
 

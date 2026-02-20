@@ -522,15 +522,16 @@ Ili kuweka Orion haraka na ya faragha:
 
 
 
-| Critère | Orion | Safari | Chrome | Firefox | Brave |
+
+| Kigezo | Orion | Safari | Chrome | Firefox | Brave |
 |---------|-------|--------|---------|----------|--------|
-| **Télémétrie** | Aucune | Minimale | Extensive | Modérée | Minimale |
-| **Bloqueur natif** | 99,9% efficace | Basique | Absent | Partiel | Complet |
-| **Extensions** | Chrome + Firefox | Limitées | Chrome uniquement | Firefox uniquement | Chrome uniquement |
-| **Performance Mac** | Excellente | Excellente | Bonne | Moyenne | Bonne |
-| **Consommation RAM** | Très faible | Faible | Élevée | Moyenne | Moyenne |
-| **Open Source** | Partiel | Partiel (WebKit) | Partiel | Complet | Complet |
-| **Plateformes** | Mac/iOS | Mac/iOS | Toutes | Toutes | Toutes |
+| **Telemetry** | Hakuna | Kidogo | Kubwa | Ya kawaida | Kidogo |
+| **Kizuizi cha asili** | 99.9% inayofanya kazi | Msingi | Hamna | Sehemu | Kamili |
+| **Matangazo** | Chrome + Firefox | Ndogo | Chrome tu | Firefox tu | Chrome tu |
+| **Utendaji wa Mac** | Kamili | Kamili | Nzuri | Kawaida | Nzuri |
+| **Matumizi ya RAM** | Chini sana | Chini | Juu | Kawaida | Kawaida |
+| **Chanzo Huria** | Sehemu | Sehemu (WebKit) | Sehemu | Kamili | Kamili |
+| **Majukwaa** | Mac/iOS | Mac/iOS | Yote | Yote | Yote |
 
 **Dhidi ya Safari**: Orion inatoa ulinzi wa hali ya juu kwa kutumia block yake ya hali ya juu na usaidizi wa kiendelezi, huku ikidumisha utendakazi wa WebKit.
 
@@ -665,7 +666,7 @@ Baada ya kusanidi, jaribu usanidi wako:
 
 
 
-### Njia mbadala kwenye Plan ₿ Network
+### Njia mbadala kwenye Plan ₿ Academy
 
 
 Kwa ulinzi wa hali ya juu, wasiliana na miongozo yetu mingine:
@@ -673,14 +674,14 @@ Kwa ulinzi wa hali ya juu, wasiliana na miongozo yetu mingine:
 
 
 
-- [Firefox imeimarishwa](https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Usanidi wa hali ya juu wa majukwaa mengi
-- [Tor Browser](https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Kamilisha kutokujulikana kwa mtandao
-- [Mullvad Browser](https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Ulinzi wa juu zaidi wa alama za vidole
+- [Firefox imeimarishwa](https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Usanidi wa hali ya juu wa majukwaa mengi
+- [Tor Browser](https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Kamilisha kutokujulikana kwa mtandao
+- [Mullvad Browser](https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Ulinzi wa juu zaidi wa alama za vidole
 
 
 
-Iwapo ungependa kujifunza zaidi kuhusu historia na uendeshaji wa vivinjari, pamoja na vitu vikuu vya kidijitali katika maisha yako ya kila siku, ninakualika ugundue kozi yetu mpya ya mafunzo bila malipo SCU 202, inayopatikana kwenye Plan ₿ Network:
+Iwapo ungependa kujifunza zaidi kuhusu historia na uendeshaji wa vivinjari, pamoja na vitu vikuu vya kidijitali katika maisha yako ya kila siku, ninakualika ugundue kozi yetu mpya ya mafunzo bila malipo SCU 202, inayopatikana kwenye Plan ₿ Academy:
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

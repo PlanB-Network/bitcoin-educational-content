@@ -1,0 +1,9 @@
+question: Jaki praktyczny problem stara się rozwiązać przede wszystkim pula wydobywcza?
+answer: Zmienność dochodów
+wrong_answers:
+  - Trudność sieci
+  - Wielkość bloków
+  - Cena układów ASIC
+explanation: |
+  Poprzez współdzielenie hashrate'u, pula przekształca bardzo nieregularny dochód w bardziej regularne wypłaty. Jest to zmniejszenie zmienności dochodów dla górnika.
+reviewed: false

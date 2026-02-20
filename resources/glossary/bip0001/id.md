@@ -1,6 +1,7 @@
 ---
 term: BIP0001
 
+definition: Dokumen pertama yang mendefinisikan proses pengusulan perbaikan untuk Bitcoin, menetapkan kategori Standards Track, Informational, dan Process.
 ---
 Dokumen yang memaparkan alur proses untuk mengembangkan dan mengimplementasikan perubahan yang diusulkan pada protokol Bitcoin. BIP ini ditulis oleh Amir Taaki pada bulan Agustus 2011, dokumen ini menetapkan metodologi standar untuk mengusulkan dan mendokumentasikan modifikasi. Proposal BIP kemudian diklasifikasikan ke dalam tiga kategori:
 

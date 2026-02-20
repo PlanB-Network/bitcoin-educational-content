@@ -20,7 +20,7 @@ Wallet of Satoshi est un portefeuille Lightning, de garde, et très simple d'uti
 Dans le cadre du cours [BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), il est utilisé pour les bons Redeem Lightning Network.
 
 
-**N'oubliez jamais** : ***not your keys, not your coins*** (_pas vos clés, pas vos pièces_).
+**N'oubliez jamais :** ***not your keys, not your coins*** (_pas vos clés, pas vos pièces_).
 
 
 Les portefeuilles de dépôt ne permettent pas aux utilisateurs d'exercer un contrôle total sur leurs fonds. Ils ne sont normalement pas recommandés, sauf pour les débutants. WoS doit être utilisé comme un portefeuille transitoire ou pour conserver de l'argent de poche, et non pour accumuler des fonds à long terme.
@@ -43,13 +43,13 @@ Allez sur le Play Store et téléchargez WoS.
 ![image](assets/it/01.webp)
 
 
-**Note :** WoS n'est téléchargé qu'à partir des magasins officiels. Si le système d'exploitation de l'appareil est programmé, l'ouverture de WoS est précédée d'une vérification par le système d'exploitation lui-même. Après la phase de vérification, choisissez _Ouvrir_.
+**Note :** WoS n'est a télécharger qu'à partir des magasins officiels. Si le système d'exploitation de l'appareil est programmé, l'ouverture de WoS est précédée d'une vérification par le système d'exploitation lui-même. Après la phase de vérification, choisissez _Ouvrir_.
 
 
 ![image](assets/it/02.webp)
 
 
-Wallet of Satoshi s'ouvre avec l'écran suivant, et il faut cliquer sur _Début_.
+Wallet of Satoshi s'ouvre avec l'écran suivant, cliquez sur _Début_.
 
 
 ![image](assets/it/03.webp)
@@ -58,7 +58,7 @@ Wallet of Satoshi s'ouvre avec l'écran suivant, et il faut cliquer sur _Début_
 ### Création d'un compte sur Wallet of Satoshi
 
 
-À ce stade, le portefeuille est déjà opérationnel, mais pour plus de sécurité, nous procédons à la configuration d'un compte : il sera nécessaire pour récupérer les fonds en cas de dysfonctionnement ou de perte de l'appareil. Sélectionnez donc le menu en haut à gauche.
+À ce stade, le portefeuille est déjà opérationnel, mais pour plus de sécurité, nous procédons à la configuration d'un compte : il sera nécessaire pour récupérer les fonds en cas de dysfonctionnement ou de perte de l'appareil. Sélectionnez le menu en haut à gauche.
 
 
 ![image](assets/it/04.webp)
@@ -97,13 +97,13 @@ Après avoir transcrit les deux mots, cliquez sur _OK_.
 ![image](assets/it/11.webp)
 
 
-Le résultat devrait être une image apparaissant en haut, avec le symbole de la coche pour la vérification.
+Le symbole de la coche devrait apparaître en haut à droite pour indiquer que la vérification est réussie.
 
 
 ![image](assets/it/12.webp)
 
 
-Alors que dans la section des paramètres, la barre rouge _Connexion / Enregistrement_ affiche désormais l'adresse email de l'utilisateur.
+Dans la section des paramètres, la barre rouge _Connexion / Enregistrement_ affiche désormais l'adresse email de l'utilisateur.
 
 
 ![image](assets/it/13.webp)
@@ -133,13 +133,13 @@ Vous pouvez recevoir :
 ### Création d'une invoice
 
 
-Cliquez sur _Recevoir_ et choisissez la commande avec le symbole Lightning Network.
+Cliquez sur _Recevoir_ et choisissez la commande avec le symbole "Lightning Network".
 
 
 ![image](assets/it/16.webp)
 
 
-Le menu de création de l'invoice apparaît, où l'on clique sur _Montant / Remarque_ pour écrire le montant exact et ajouter une description, dans cet exemple, "my first invoice".
+Le menu de création de l'invoice s'affiche. Cliquez sur _Montant / Remarque_ pour saisir le montant exact et ajouter une description, dans cet exemple, "my first invoice".
 
 
 ![image](assets/it/17.webp)
@@ -190,7 +190,7 @@ Vous pouvez ensuite la montrer, par exemple, à un client.
 ![image](assets/it/24.webp)
 
 
-Ce paiement est également perçu !
+Ce paiement est également reçu !
 
 
 ![image](assets/it/25.webp)
@@ -247,10 +247,10 @@ Nous allons maintenant voir comment installer WoS sur un nouvel appareil ; cela 
 Un message nous avertit qu'un courriel a été envoyé avec la procédure de réactivation du compte. Vous devez ouvrir votre boîte de réception.
 
 
-**IMPORTANT** : ouvrez l'e-mail à partir d'un PC ou, en tout cas, d'un appareil différent de celui sur lequel vous vous apprêtez à récupérer le compte WoS. Dans la boîte de réception, nous trouvons un message qui nous montre un QR code à scanner.
+**IMPORTANT** : ouvrez l'email à partir d'un PC ou, en tout cas, d'un appareil différent de celui sur lequel vous vous apprêtez à récupérer le compte WoS. Dans la boîte de réception, nous trouvons un message qui nous montre un QR code à encadrer.
 
 
 ![image](assets/it/34.webp)
 
 
-Une fois le QR code encadré, le compte récupéré apparaît sur la page principale de WoS, avec le solde et l'historique.
+Une fois le QR code scanné, le compte récupéré apparaît sur la page principale de WoS, avec le solde et l'historique.

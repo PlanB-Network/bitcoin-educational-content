@@ -370,7 +370,7 @@ Lebih jauh lagi, dalam sebuah konferensi pers, Senator Schumer [menuduh] (https:
 
 
 
-Dengan perhatian dari pers, Silk Road melejit dan akhirnya menjadi menguntungkan. Pada akhir musim panas, aktivitas situs ini telah berkembang menjadi [mewakili] (https://www.chainalysis.com/blog/silk-road-doj-seizure-november-2020/) hampir 10% dari volume yang diperdagangkan pada rantai Bitcoin. Situs tersebut, yang didanai oleh komisi penjualan, kemudian [menghasilkan pendapatan] (https://antilop.cc/sr/exhibits/253456480-Silk-Road-exhibits-GX-250.pdf) dalam puluhan ribu dolar per bulan, dengan biaya operasional yang jauh lebih rendah. Ross sekarang mampu membayar dirinya sendiri dengan gaji yang besar dan mengakhiri pekerjaan resminya.
+Dengan perhatian dari pers, Silk Road melejit dan akhirnya menjadi menguntungkan. Pada akhir musim panas, aktivitas situs ini telah berkembang menjadi [mewakili](https://www.chainalysis.com/blog/silk-road-doj-seizure-november-2020/) hampir 10% dari volume yang diperdagangkan pada rantai Bitcoin. Situs tersebut, yang didanai oleh komisi penjualan, kemudian [menghasilkan pendapatan](https://antilop.cc/sr/exhibits/253456480-Silk-Road-exhibits-GX-250.pdf) dalam puluhan ribu dolar per bulan, dengan biaya operasional yang jauh lebih rendah. Ross sekarang mampu membayar dirinya sendiri dengan gaji yang besar dan mengakhiri pekerjaan resminya.
 
 
 
@@ -409,7 +409,7 @@ Jadi, lebih dari setahun setelah penjualan pizza Laszlo, Silk Road menjadi lamba
 
 
 
-Periode yang dimulai pada musim semi 2011 ditandai dengan perkembangan aktivitas pertukaran antara bitcoin dan mata uang tradisional, seperti dolar dan euro. Jenis layanan ini memainkan peran penting dalam ekonomi Bitcoin, yang terlalu kecil untuk beroperasi dalam loop tertutup. Miner perlu menjual reward mereka untuk membayar tagihan listrik. Para pedagang, termasuk para pedagang di Jalur Sutra, perlu mengumpulkan dolar untuk membayar pemasok mereka. Pelanggan mereka, yang umumnya tidak memiliki bitcoin, perlu mendapatkannya terlebih dahulu. Ada juga permintaan spekulatif yang kuat, dari orang-orang yang melihat mata uang kripto sebagai sebuah investasi.
+Periode yang dimulai pada musim semi 2011 ditandai dengan perkembangan aktivitas pertukaran antara bitcoin dan mata uang tradisional, seperti dolar dan euro. Jenis layanan ini memainkan peran penting dalam ekonomi Bitcoin, yang terlalu kecil untuk beroperasi dalam sistem tertutup. Miner perlu menjual reward mereka untuk membayar tagihan listrik. Para pedagang, termasuk para pedagang di Jalur Sutra, perlu mengumpulkan dolar untuk membayar pemasok mereka. Pelanggan mereka, yang umumnya tidak memiliki bitcoin, perlu mendapatkannya terlebih dahulu. Ada juga permintaan spekulatif yang kuat, dari orang-orang yang melihat mata uang kripto sebagai sebuah investasi.
 
 
 
@@ -442,7 +442,7 @@ Ia mengetahui tentang Bitcoin pada musim gugur 2010 dari seorang pelanggan Pranc
 
 > "Yang membuat saya tertarik dengan bitcoin adalah aspek teknologinya. Dengan kata lain, fakta mempertahankan basis data global dengan cara yang aman. Fakta bahwa setiap klien memiliki wallet pribadi yang aman. Memiliki sistem yang sepenuhnya terdesentralisasi. Selain itu, bitcoin memungkinkan Anda untuk memiliki basis data yang bersifat publik."
 
-Segera setelah ia menemukannya, ia membenamkan diri dalam cara kerja Bitcoin dan mulai menulis program untuk memanfaatkannya. Pada bulan November, dia [mulai] (https://bitcointalk.org/index.php?topic=30.msg20699#msg20699) menerima pembayaran bitcoin dengan KalyHost (Ross Ulbricht [akan menggunakan] (https://cdn.arstechnica.net/wp-content/uploads/2015/01/Govt.motion.1.19.pdf) layanan ini untuk meng-host halaman web Silkroadmarket.org). Pada bulan Desember 2010, dia [membuat](https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872) sebuah wiki baru, Bitcoin.it, yang akan segera menjadi wiki utama Bitcoin. Dia juga mulai mengembangkan implementasi perangkat lunak, yang dijuluki [QBitcoin] (https://web.archive.org/web/20110326023018/http://bitcoinweekly.com/articles/interview-with-magicaltux-on-qbitcoin), tetapi tidak ditindaklanjuti.
+Segera setelah ia menemukannya, ia langsung mempelajari cara kerja Bitcoin dan mulai menulis program untuk memanfaatkannya. Pada bulan November, dia [mulai] (https://bitcointalk.org/index.php?topic=30.msg20699#msg20699) menerima pembayaran bitcoin dengan KalyHost (Ross Ulbricht [akan menggunakan] (https://cdn.arstechnica.net/wp-content/uploads/2015/01/Govt.motion.1.19.pdf) layanan ini untuk meng-host halaman web Silkroadmarket.org). Pada bulan Desember 2010, dia [membuat](https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872) sebuah wiki baru, Bitcoin.it, yang akan segera menjadi wiki utama Bitcoin. Dia juga mulai mengembangkan implementasi perangkat lunak, yang dijuluki [QBitcoin] (https://web.archive.org/web/20110326023018/http://bitcoinweekly.com/articles/interview-with-magicaltux-on-qbitcoin), tetapi tidak ditindaklanjuti.
 
 
 

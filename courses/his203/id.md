@@ -776,7 +776,8 @@ Penganut libertarian lainnya, seperti blogger [Michael Suede] (https://web.archi
 
 
 
-### Acara radio Siaran Langsung Bicara Gratis
+### Acara radio Free Talk Live
+
 
 
 
@@ -1047,7 +1048,7 @@ Secara bertahap, harga kembali naik hingga melebihi $4 lagi pada akhir Desember,
 
 
 
-### BitInstant, pusat pusat untuk pertukaran bitcoin
+### BitInstant, pusat pertukaran bitcoin
 
 
 

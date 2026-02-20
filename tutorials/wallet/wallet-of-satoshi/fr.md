@@ -43,7 +43,7 @@ Allez sur le Play Store et téléchargez WoS.
 ![image](assets/it/01.webp)
 
 
-**Note :** WoS n'est a télécharger qu'à partir des magasins officiels. Si le système d'exploitation de l'appareil est programmé, l'ouverture de WoS est précédée d'une vérification par le système d'exploitation lui-même. Après la phase de vérification, choisissez _Ouvrir_.
+**Note :** WoS n'est à télécharger qu'à partir des magasins officiels. Si le système d'exploitation de l'appareil est programmé, l'ouverture de WoS est précédée d'une vérification par le système d'exploitation lui-même. Après la phase de vérification, choisissez _Ouvrir_.
 
 
 ![image](assets/it/02.webp)

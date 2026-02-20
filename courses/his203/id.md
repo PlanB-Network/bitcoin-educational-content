@@ -1457,7 +1457,7 @@ Gregory Maxwell memiliki banyak ide tentang cara meningkatkan penggunaan Bitcoin
 
 
 
-> "Bitcoin benar-benar harus menawarkan dan secara default menggunakan wallet yang deterministik.   Keamanan tambahan dari pra-generated saat ini cukup kecil mengingat bagaimana kebanyakan orang menggunakan bitcoin dan tanggung jawab bahaya karena cadangan yang tidak mencukupi dan peningkatan tekanan untuk menjaga satu wallet online sangat besar."
+> "Bitcoin benar-benar harus menawarkan dan secara default menggunakan wallet yang deterministik. Keamanan tambahan dari pra-generated saat ini cukup kecil mengingat bagaimana kebanyakan orang menggunakan bitcoin dan tanggung jawab bahaya karena cadangan yang tidak mencukupi dan peningkatan tekanan untuk menjaga satu wallet online sangat besar."
 
 Ada dua jenis derivasi yang dipertimbangkan. Satu tipe (tipe 1) sangat mudah, menghasilkan kunci privat secara langsung dari seed. Tipe lainnya (tipe 2) lebih kompleks, tetapi memungkinkan alamat diturunkan dari [kunci publik](https://planb.academy/resources/glossary/public-key) utama yang diperoleh dari seed. Tipe lainnya (tipe 2) lebih kompleks, tetapi memungkinkan alamat diturunkan dari kunci publik utama yang diperoleh dari seed, tanpa mengakses seed itu sendiri. Hal ini memungkinkan perangkat lunak pemrosesan pembayaran untuk memberikan alamat kepada generate untuk setiap transaksi, tanpa mengekspos kunci privat.
 
@@ -1601,11 +1601,11 @@ Kepraktisan wallet membuatnya sangat populer. Layanan ini dengan cepat menarik r
 
 
 
-### Penyimpanan Cold dan kertas wallet
+### Penyimpanan dingin (cold storage) dan dompet kertas (paper wallets)
 
 
 
-tahun 2011 juga melihat kemunculan kertas wallet, sebuah aplikasi dari konsep cold storage. Menyimpan bitcoin berarti menyimpan informasi tertentu yang terlindungi dari risiko, baik dari kehilangan yang tidak disengaja maupun keingintahuan orang lain (pencurian). Informasi ini - kunci pribadi - dapat disimpan [generated](https://bitcointalk.org/index.php?topic=1610.msg19131#msg19131) oleh perangkat yang tidak pernah terhubung ke Internet. Hal ini telah dikenal sebagai cold storage [pada tahun 2011] (https://en.bitcoin.it/w/index.php?title=Cold_storage&oldid=16769).
+Tahun 2011 juga melihat kemunculan kertas wallet, sebuah aplikasi dari konsep cold storage. Menyimpan bitcoin berarti menyimpan informasi tertentu yang terlindungi dari risiko, baik dari kehilangan yang tidak disengaja maupun keingintahuan orang lain (pencurian). Informasi ini - kunci pribadi - dapat disimpan [generated](https://bitcointalk.org/index.php?topic=1610.msg19131#msg19131) oleh perangkat yang tidak pernah terhubung ke Internet. Hal ini telah dikenal sebagai cold storage [pada tahun 2011] (https://en.bitcoin.it/w/index.php?title=Cold_storage&oldid=16769).
 
 
 

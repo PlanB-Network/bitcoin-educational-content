@@ -1,0 +1,11 @@
+question: Vem var indirekt ansvarig för det senaste Bitcoinica-hacket som ägde rum i juli 2012?
+answer: Amir Taaki
+wrong_answers:
+  - Zhou Tong
+  - Chen Jianhai
+  - Mark Karpelès
+explanation: |
+ Han släppte plattformens fullständiga källkod den 7 juli, som innehöll lösenordet till Bitcoinicas LastPass kassaskåp, vilket i sin tur innehöll lösenordet till hans
+ Mt. Gox-konto. 40 000 bitcoins och 40 000 LR-USD togs ut. Amir Taaki erkände denna åtgärd, men lade skulden på Bitcoinicas ledning,
+ som han var i konflikt med.
+reviewed: true

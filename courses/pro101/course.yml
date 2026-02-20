@@ -46,10 +46,11 @@ proofreading:
       - ProfScofield21
     reward: 10.31
   - language: it
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 20.61
+      - GoodKidd0
+    reward: 10.31
   - language: ja
     last_contribution_date:
     urgency: 1

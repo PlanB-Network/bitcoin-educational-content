@@ -317,7 +317,7 @@ In reactie op de John Law ervaring legt Cantillon uit wat er gebeurt of moet geb
 ![image](assets/nl/017.webp)
 
 
-Hij ziet twee belangrijke gevolgen van het vervangen van een metalen valuta door een valuta zonder echte waarde, zoals papiergeld. Het eerste gevolg is wat hij "volksafwijzing" noemt, wat een groeiend wantrouwen tegen waardeloos geld betekent. Het tweede gevolg is inflatie: monetaire verzwakking maakt goederen duurder.
+Hij ziet twee belangrijke gevolgen van het vervangen van een metalen valuta door een valuta zonder echte waarde, zoals papiergeld. Het eerste gevolg is wat hij "volksafwijzing" noemt, wat een groeiend wantrouwen tegen waardeloos geld betekent. Het tweede gevolg is [inflatie](https://planb.academy/resources/glossary/inflation): monetaire verzwakking maakt goederen duurder.
 
 
 Ten vierde ging Cantillon in zijn analyse van **inflatie** verder dan zijn tijdgenoten. Nadat hij de ineenstorting van het systeem van Law had gezien, realiseerde Cantillon zich dat monetaire inflatie niet iedereen in gelijke mate treft. Integendeel, sommigen worden er rijker van en anderen armer. Hij concludeerde dat inflatie een herverdelend effect heeft: degenen die het nieuw uitgegeven geld ontvangen profiteren eerst van de toegenomen koopkracht, terwijl degenen die het later ontvangen armer worden als gevolg van de uitgifte van het nieuwe geld door de stijging van de inflatiepercentages.

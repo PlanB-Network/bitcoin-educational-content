@@ -1,0 +1,10 @@
+question: Jak wyglądał marketing Litecoina, kryptowaluty stworzonej przez Charliego Lee w październiku 2011 roku?
+answer: Być dla srebra tym, czym Bitcoin jest dla złota
+wrong_answers:
+  - Tworzenie duchowej waluty
+  - Następca Bitcoin po jego upadku
+  - Finansowanie świata wolnego oprogramowania
+explanation: |
+ Litecoin był zarówno szybszy (czas bloku to 2 minuty 30 zamiast 10 minut), jak i mniej rzadki (84 miliony jednostek zamiast 21) niż Bitcoin, stąd analogia do metali szlachetnych
+ metale szlachetne. To sam Charlie Lee zawarł to porównanie w początkowym opisie swojej kryptowaluty.
+reviewed: true

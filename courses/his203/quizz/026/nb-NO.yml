@@ -1,0 +1,10 @@
+question: Hva var den største fordelen med den forenklede betalingsbekreftelsen (SPV) som ble implementert i BitCoinJ og brukt av lette wallet-er som Bitcoin Wallet for Android?
+answer: Det gjorde det mulig å verifisere transaksjoner uten å måtte laste ned hele blokkjeden
+wrong_answers:
+  - Den stokket automatisk bitcoins ved mottak av en betaling for å forbedre konfidensialiteten
+  - Den krypterte wallet-data ved hjelp av AES-256-algoritmen for å forhindre tyveri fra trojanske hester
+  - Det gjorde det mulig å sikre forbindelsen til en eksisterende node for å forhindre angrep som utnytter transaksjonenes manipulerbarhet
+explanation: |
+ Simplified Payment Verification (SPV) var en viktig innovasjon som ble beskrevet i Bitcoin-hvitboken, og som gjorde det mulig for tynne klienter å verifisere at transaksjonene deres
+ transaksjonene deres hørte hjemme i blokkjeden uten å måtte laste ned og lagre hele dataene.
+reviewed: true

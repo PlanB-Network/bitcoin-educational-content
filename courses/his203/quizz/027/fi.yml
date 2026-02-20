@@ -1,0 +1,11 @@
+question: Minkä ongelman ratkaisi deterministinen wallet-konsepti, jonka kehittäjä Gregory Maxwell virallisti kesäkuussa 2011?
+answer: Yksityisten avainten säännöllisen varmuuskopioinnin tarve bitcoinien turvaamiseksi
+wrong_answers:
+  - Piratismin riski, joka liittyy bitcoinien tallentamiseen Internet-yhteydellä varustetussa laitteessa
+  - Satunnaislukugeneraattoreiden alhaisesta entropiasta johtuva haavoittuvuus brute force -hyökkäyksille
+  - Tilin uudelleenkäyttö toisessa laitteessa on mahdotonta
+explanation: |
+ Deterministiset wallet:t soveltavat avainten johtamista: sen sijaan, että ne johdettaisiin generated:nä erikseen satunnaisesti, kuten pääohjelmistossa tehtiin, yksityiset avaimet johdetaan
+ deterministisesti tiedoista (joita kutsutaan seed:ksi) käyttäen kryptografisia funktioita. Tätä menetelmää sovellettiin BitcoinSpinner- ja Electrum -ohjelmistoissa
+ wallet:ssä vuoden 2011 lopussa.
+reviewed: true

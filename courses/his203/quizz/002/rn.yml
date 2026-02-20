@@ -1,0 +1,10 @@
+question: Ni iyihe protocole yatumye isoko ry’inzira ya Silk Road ridafunga ataco rihinduye n’abategetsi?
+answer: Tor
+wrong_answers:
+  - I2P
+  - Ubuntu
+  - BitTorrent
+explanation: |
+ Tor, ni ijambo ry’inyongera ry’ikirundi risobanura The Onion Router, ni umurongo ushigikira urubuga rwa mudasobwa rwo kw’isi yose, rwo mu rwego rwo hejuru (ruzwi cane kw’izina rya darknet). 
+ Bituma imbuga zishobora kwakirwa ata n’umwe azi kandi ata n’umwe ayicengera, kandi yari ibereye cane umugambi wa Ross Ulbricht.
+reviewed: true

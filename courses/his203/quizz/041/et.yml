@@ -1,0 +1,10 @@
+question: Milline Bitcoin arendaja oli ägedalt vastu Pay to Script Hash uuendamisele?
+answer: Luke Dashjr
+wrong_answers:
+  - Amir Taaki
+  - Gregory Maxwell
+  - Gavin Andresen
+explanation: |
+ Luke Dashjr leidis, et OP_EVAL ettepanek oli palju parem, sest see oli elegantsem; et P2SH asendas skriptisüsteemi "ühe erimudeliga".
+ Samuti kritiseeris ta Gavinit selle eest, et tarkvara sisaldab vaikimisi aruandlust. Vastuseks töötas Luke-Jr välja oma töökoodi OP_CHECKHASHVERIFY (BIP 17).
+reviewed: true

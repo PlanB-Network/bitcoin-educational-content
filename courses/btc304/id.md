@@ -193,7 +193,7 @@ Komunitas Bitcoin sering kali mengejar tujuan yang lebih luas, terutama pendidik
 4. Membantah klaim yang menyesatkan atau tidak berdasar yang dibuat oleh beberapa tokoh masyarakat dan media;
 
 
-5. Perbedaan mendasar antara Bitcoin dan mata uang kripto lainnya;
+5. Perbedaan mendasar antara Bitcoin dan [mata uang kripto](https://planb.academy/resources/glossary/cryptocurrency) lainnya;
 
 
 Dengan membangun "benteng" pertama di masa depan, **Komunitas Bitcoin di seluruh dunia berfungsi sebagai benteng melawan disinformasi dan penyensoran sekaligus menyediakan lahan subur untuk mempelajari dasar-dasar Bitcoin**. Mereka menawarkan kepada para pendatang baru, bahkan yang skeptis sekalipun, sumber daya dan koneksi yang dibutuhkan untuk mengeksplorasi potensi Bitcoin yang sebenarnya.
@@ -302,7 +302,7 @@ Namun, **bergabung dengan komunitas lain sering kali lebih masuk akal daripada m
 Dalam hal ini, "aturan praktis" sederhana dapat membantu: jika tidak ada komunitas Bitcoin yang aktif dalam waktu 30-45 menit dari tempat tinggal Anda, mungkin ada baiknya Anda memulai yang baru. Meskipun demikian, Anda selalu bebas melakukan apa pun yang Anda inginkan.
 
 
-Dan tentu saja, jika komunitas yang lebih tua telah "berevolusi" ke arah yang tidak lagi selaras dengan nilai-nilai Anda, dan Anda tidak memiliki waktu atau motivasi untuk "memoles" mereka, maka membuat Fork Anda sendiri selalu menjadi pilihan.
+Dan tentu saja, jika komunitas yang lebih tua telah "berevolusi" ke arah yang tidak lagi selaras dengan nilai-nilai Anda, dan Anda tidak memiliki waktu atau motivasi untuk "[memoles](https://planb.academy/resources/glossary/orange-pill)" mereka, maka membuat [Fork](https://planb.academy/resources/glossary/fork) Anda sendiri selalu menjadi pilihan.
 
 
 
@@ -1391,7 +1391,7 @@ Ini termasuk:
 
 
 
-- [Btcmap.org](https://btcmap.org/)**, sebuah situs web dengan dua peta yang diperbarui setiap hari: **[peta dunia bisnis yang menerima Bitcoin](https://btcmap.org/map)** dan **[peta komunitas dunia](https://btcmap.org/communities/map)**. Banyak pengguna bitcoin yang memeriksa peta-peta ini secara teratur, baik ketika mereka bepergian atau menjalani kehidupan sehari-hari, untuk bertemu dengan orang-orang baru atau menemukan tempat untuk membelanjakan Sats mereka. Btcmap adalah referensi global, dan mendaftarkan komunitas Anda di sana sangat penting untuk visibilitas.**
+- [Btcmap.org](https://btcmap.org/)**, sebuah situs web dengan dua peta yang diperbarui setiap hari: **[peta dunia bisnis yang menerima Bitcoin](https://btcmap.org/map)** dan **[peta komunitas dunia](https://btcmap.org/communities/map)**. Banyak pengguna bitcoin yang memeriksa peta-peta ini secara teratur, baik ketika mereka bepergian atau menjalani kehidupan sehari-hari, untuk bertemu dengan orang-orang baru atau menemukan tempat untuk membelanjakan [Sats](https://planb.academy/resources/glossary/satoshi-sat) mereka. Btcmap adalah referensi global, dan mendaftarkan komunitas Anda di sana sangat penting untuk visibilitas.**
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), sebuah situs web yang dibuat oleh para bitcoiners, untuk para bitcoiners. **Situs ini memungkinkan Anda untuk memposting acara-acara yang akan diadakan oleh komunitas Anda. Namun, di Prancis, situs ini masih belum banyak digunakan.**
 - tergantung pada negara Anda, mungkin ada inisiatif lokal lainnya. Di Prancis, misalnya, ada [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), yang **mencantumkan lusinan acara Bitcoin setiap bulannya**. Jadi, jika Anda belum mengikuti mereka di Twitter atau menghubungi mereka untuk berbagi informasi tentang komunitas dan acara Anda, sekaranglah saatnya! **Untuk membantu menjaga agar kalender acara di Perancis tetap up-to-date, akan sangat baik jika semua komunitas Bitcoin Perancis membiasakan diri untuk:**
     - menyebut @bitcoinpointfr di Twitter untuk setiap acara komunitas baru
@@ -1820,7 +1820,7 @@ Di luar nilai pendidikannya yang kuat, pendekatan ini memungkinkan untuk berbagi
 Di bawah ini adalah perkembangan pertemuan Prancis 2023-2024. Untuk setiap tema, tersedia presentasi sumber terbuka dan video, yang dapat memberi Anda ide untuk topik yang dapat Anda bahas untuk acara Anda sendiri.
 
 
-Materi tambahan yang dapat diedit juga dapat ditemukan di [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)!
+Sumber daya lainnya juga tersedia di bagian ["Educator Content"](https://planb.academy/educator-content) dari Plan ₿ Academy, sebuah ruang kolaboratif di mana para pendidik Bitcoin dari seluruh dunia berbagi dan menyediakan materi pendidikan mereka (presentasi, selebaran, panduan, poster...) dalam format siap pakai atau dapat diedit. Tujuannya: mengumpulkan upaya agar tidak memulai dari nol setiap kali!
 
 
 
@@ -1936,7 +1936,7 @@ Di tempat pribadi seperti konser, bar, atau stadion, periksa apakah stiker sudah
 Proyek lain yang dapat Anda siapkan dengan mudah adalah **membuat perpustakaan di pertemuan Anda**.
 
 
-Anda dapat mengundang peserta yang ingin berbagi bahan bacaan untuk membawa buku yang berhubungan dengan Bitcoin. Jika ada orang lain yang ingin meminjamnya, Anda dapat mengatur peminjaman dengan pemiliknya di Exchange dengan membayar uang jaminan, misalnya 21.000 satoshi melalui Lightning.
+Anda dapat mengundang peserta yang ingin berbagi bahan bacaan untuk membawa buku yang berhubungan dengan Bitcoin. Jika ada orang lain yang ingin meminjamnya, Anda dapat mengatur peminjaman dengan pemiliknya di Exchange dengan membayar uang jaminan, misalnya 21.000 satoshi melalui [Lightning](https://planb.academy/resources/glossary/lightning-network).
 
 
 Bagi pemilik, deposit ini membantu menutupi potensi kehilangan atau pencurian. Bagi peminjam, ini adalah insentif untuk kembali ke pertemuan berikutnya untuk mengambil deposit mereka.
@@ -2599,7 +2599,7 @@ Dengan lonjakan kehadiran ini:
     - jika Anda menemukan bahwa jumlah peserta menjadi sangat banyak, Anda dapat, untuk pertemuan berikutnya, **mengharuskan peserta untuk mendaftar** (melalui aplikasi Meetup atau formulir sederhana) atau **mengadakan beberapa pertemuan setiap bulannya** (misalnya: pertemuan pemula, pertemuan menengah, dan pertemuan lanjutan).
     - Pada saat yang sama, diharapkan ada banyak pendatang baru di ekosistem ini, yang sering kali memiliki tujuan utama untuk menghasilkan uang. Untuk **menjaga agar percakapan tetap terfokus pada Bitcoin** dalam pertemuan yang berkembang pesat ini, adalah ide yang bagus:
 
-a) Sertakan presentasi bertema **Bitcoin** selama acara-acara ini, karena hal ini secara alami akan mengarahkan sebagian besar pembicaraan ke topik tersebut (dan menjauh dari proyek shitcoin terbaru yang konon "revolusioner");
+a) Sertakan presentasi bertema **Bitcoin** selama acara-acara ini, karena hal ini secara alami akan mengarahkan sebagian besar pembicaraan ke topik tersebut (dan menjauh dari proyek [shitcoin](https://planb.academy/resources/glossary/shitcoin) terbaru yang konon "revolusioner");
 
 b) **Hindari bergaul hanya dengan sesama pengguna bitcoin**. Sebaliknya, cobalah untuk **mendekati para pendatang baru**, bahkan jika itu berarti nongkrong di bagian belakang ruangan untuk menyapa mereka. Dari sana, Anda dapat berbicara tentang mengapa mereka datang, apa yang mereka cari, tujuan (atau bahkan prinsip-prinsip inti) komunitas Anda, dan seterusnya.
 
@@ -2619,7 +2619,7 @@ Untungnya, situasi seperti ini jarang terjadi dan sering kali lebih tidak masuk 
 Untuk ketenangan pikiran: selama Anda tidak melanggar hukum atau secara langsung memfasilitasi transaksi ilegal, Anda tidak bertanggung jawab secara hukum atas tindakan orang lain di acara Anda (setidaknya menurut hukum Prancis).
 
 
-Dalam dunia yang ideal, Anda akan memiliki **ruang yang cukup besar untuk menampung beberapa lusin orang** seiring dengan pertumbuhan komunitas Anda dan Anda juga akan membangun **hubungan yang kuat antara para bitcoiners** dan calon bitcoiners selama pasar bearish, sehingga saat bull run tiba, Anda memiliki sebanyak mungkin orang yang siap membantu orang lain.
+Dalam dunia yang ideal, Anda akan memiliki **ruang yang cukup besar untuk menampung beberapa lusin orang** seiring dengan pertumbuhan komunitas Anda dan Anda juga akan membangun **hubungan yang kuat antara para bitcoiners** dan calon bitcoiners selama pasar [bearish](https://planb.academy/resources/glossary/bear-market), sehingga saat [bull](https://planb.academy/resources/glossary/bull-market) run tiba, Anda memiliki sebanyak mungkin orang yang siap membantu orang lain.
 
 
 

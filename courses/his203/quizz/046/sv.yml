@@ -1,0 +1,10 @@
+question: Vem implementerade den minnesintensiva Scrypt-funktionen som en GPU-resistent mining-algoritm i Tenebrix-kryptovalutan 2011?
+answer: ArtForz
+wrong_answers:
+  - Charlie Lee
+  - Lolcust
+  - Colin Percival
+explanation: |
+ Scrypt är en nyckelfunktion som ursprungligen designades 2009 av den kanadensiska datavetaren Colin Percival. Den plockades upp av gruvarbetaren ArtForz, som hjälpte
+ Lolcust med att utveckla kryptovalutan Tenebrix, som lanserades i september 2011. Charlie Lee tog upp modellen för att inkludera den i Litecoin, som lanserades i oktober.
+reviewed: true

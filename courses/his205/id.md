@@ -352,7 +352,7 @@ Ada beberapa jenis barter:
 
 
 
-Mazhab ekonomi Austria menafsirkan evolusi ini sebagai kemunculan spontan dari barang pertukaran yang istimewa. Kerang, yang secara arkeologis dibuktikan sejak zaman Mesolitikum, menggambarkan fenomena ini: ditemukan jauh dari asal geografisnya (kerang Mediterania di Prancis barat, kerang Nordik di situs lain), mereka menjadi bukti pengakuan umum atas nilai tukarnya.
+[Mazhab ekonomi Austria](https://planb.academy/resources/glossary/austrian-school) menafsirkan evolusi ini sebagai kemunculan spontan dari barang pertukaran yang istimewa. Kerang, yang secara arkeologis dibuktikan sejak zaman Mesolitikum, menggambarkan fenomena ini: ditemukan jauh dari asal geografisnya (kerang Mediterania di Prancis barat, kerang Nordik di situs lain), mereka menjadi bukti pengakuan umum atas nilai tukarnya.
 
 
 
@@ -605,7 +605,7 @@ Pengalaman Mesopotamia menjadi preseden abadi bagi evolusi sistem keuangan. Hal 
 
 
 
-Periode penting ini juga mengungkapkan masalah kekuasaan yang melekat pada setiap inovasi moneter: siapa yang mengendalikan teknologi, siapa yang menentukan aturan, dan bagaimana sistem formal dan praktik populer diartikulasikan. Pertanyaan-pertanyaan mendasar ini terus berlanjut sepanjang sejarah ekonomi, meluas ke perdebatan kontemporer tentang mata uang digital dan mata uang kripto.
+Periode penting ini juga mengungkapkan masalah kekuasaan yang melekat pada setiap inovasi moneter: siapa yang mengendalikan teknologi, siapa yang menentukan aturan, dan bagaimana sistem formal dan praktik populer diartikulasikan. Pertanyaan-pertanyaan mendasar ini terus berlanjut sepanjang sejarah ekonomi, meluas ke perdebatan kontemporer tentang mata uang digital dan [mata uang kripto](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 
@@ -994,7 +994,7 @@ Negara Tiongkok menggunakan uang sebagai instrumen pengaturan ekonomi: pada saat
 
 
 
-Di sini dapat dikaitkan dengan inflasi dan deflasi. Dengan jumlah uang beredar yang tetap, jika produktivitas ekonomi meningkat, nilai uang akan naik. Sebaliknya, jika produktivitas turun, nilai uang menurun. Namun, dalam contoh ini, yang terjadi adalah sebaliknya. Mungkin karena sang pangeran tidak memiliki monopoli penuh atas produksi uang, namun hal ini masih menunjukkan bahwa nilai uang terkait dengan kondisi ekonomi.
+Di sini dapat dikaitkan dengan [inflasi](https://planb.academy/resources/glossary/inflation) dan deflasi. Dengan jumlah uang beredar yang tetap, jika produktivitas ekonomi meningkat, nilai uang akan naik. Sebaliknya, jika produktivitas turun, nilai uang menurun. Namun, dalam contoh ini, yang terjadi adalah sebaliknya. Mungkin karena sang pangeran tidak memiliki monopoli penuh atas produksi uang, namun hal ini masih menunjukkan bahwa nilai uang terkait dengan kondisi ekonomi.
 
 
 
@@ -3616,7 +3616,7 @@ Mari kita beralih ke Swedia, tempat bank sentral pertama didirikan.
 
 
 
-**Swedia merupakan pelopor dalam perbankan sentral: pada tahun 1657, Johan Palmstruch mendirikan **Stockholm Banco**, yang diberi wewenang untuk meminjamkan lebih banyak daripada cadangan logamnya, sehingga menandai lahirnya perbankan cadangan fraksional. Namun, penerbitan uang kertas yang berlebihan menyebabkan kepanikan dan bank tersebut bangkrut pada tahun 1663. Ya, ya...
+**Swedia merupakan pelopor dalam perbankan sentral: pada tahun 1657, Johan Palmstruch mendirikan **Stockholm Banco**, yang diberi wewenang untuk meminjamkan lebih banyak daripada cadangan logamnya, sehingga menandai lahirnya [perbankan cadangan fraksional](https://planb.academy/resources/glossary/fractional-reserves). Namun, penerbitan uang kertas yang berlebihan menyebabkan kepanikan dan bank tersebut bangkrut pada tahun 1663. Ya, ya...
 
 
 

@@ -1,0 +1,11 @@
+question: Pro které případy použití byla aktualizace Pay to Script Hash konkrétně nasazena?
+answer: Pro zajištění finančních prostředků pomocí podpisu více stran (multisig)
+wrong_answers:
+  - Pro služby escrow
+  - Zvýšení výpočetního výkonu sítě díky sloučenému systému mining
+  - Pro zasílání převodů do zahraničí
+explanation: |
+ Zajištění finančních prostředků je v současné době velmi důležitou otázkou vzhledem k rostoucímu počtu pirátských útoků. Toto téma bylo předloženo na jednání 23. srpna 2011
+ gavin Andresen, vedoucí projektu, který chtěl urychlit standardizaci funkce multisignature, která je již v protokolu přítomna.
+ To vedlo k vývoji OP_EVAL a následně P2SH v průběhu zimy.
+reviewed: true

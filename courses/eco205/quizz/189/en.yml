@@ -1,0 +1,8 @@
+question: According to the marginalist revolution, why are people's subjective evaluations considered ordinal rather than cardinal in the formation of value?
+answer: Because we may prefer one good to another without being able to precisely measure the difference between the two
+wrong_answers:
+  - "Because value depends solely on the chronological order in which consumers acquire goods"
+  - Because individual preferences necessarily follow a numerical ranking based on market prices
+  - Because cardinal measurement requires objective quantification of the labor incorporated in each good
+explanation: |
+  The correct answer reflects Menger's fundamental innovation: preferences are ordinal because they establish a ranking (I prefer A to B) without quantifying the intensity of this preference. Other answers are incorrect because they confuse temporal order with preference order, assume dependence on market prices (which would reverse causality), or revert to the labor theory of value that Menger specifically rejects.

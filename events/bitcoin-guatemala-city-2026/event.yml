@@ -1,0 +1,26 @@
+id: ce018c5b-beb6-465d-8eaa-ed255fbaaa16
+start_date: 2026-02-12 19:00:00
+end_date: 2026-02-12 20:00:00
+timezone: America/Guatemala
+address_city_country: Guatemala City, Guatemala
+address_line_2: La Aurora International Airport
+address_line_3: Ciudad de, 9 Avenida 14-75, Cdad. de Guatemala 00013
+name: Bitcoin Guatemala City 2026
+type: meetup
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: |
+  Bitcoin 2026 is a conference in Guatemala City focused on masterclasses, projections, strategies, and financial sovereignty. The event covers Bitcoin education, investment strategies, and the path to financial independence through Bitcoin adoption.
+  
+  Warning: information may change. Booking and up-to-date information are on SATLANTIS.
+language:
+  - es
+links:
+  website: https://osmomoney.com/private
+  replay_url: 
+  live_url: 
+tags:
+  - adoption
+  - investment
+  - finance

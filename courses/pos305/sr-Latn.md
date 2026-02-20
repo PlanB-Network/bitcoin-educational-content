@@ -72,7 +72,7 @@ Nakon ovih reči koje je izgovorio Nicolas, bilo je vreme da se počne sa izgrad
 Šta znači open source i šta je potrebno za takav projekat?
 
 
-FOSS označava Free & Open-Source Software. Prvi deo se odnosi na uslove koji omogućavaju svakome da kopira, modifikuje i čak distribuira verzije (čak i za profit) softvera. Drugi deo se odnosi na otvoreno deljenje izvornog koda, podstičući javnost da doprinese i poboljša ga.
+[FOSS](https://planb.academy/resources/glossary/foss) označava Free & Open-Source Software. Prvi deo se odnosi na uslove koji omogućavaju svakome da kopira, modifikuje i čak distribuira verzije (čak i za profit) softvera. Drugi deo se odnosi na otvoreno deljenje izvornog koda, podstičući javnost da doprinese i poboljša ga.
 
 Ovo privlači iskusne korisnike koji su entuzijastični da doprinosu softveru koji već koriste i od kojeg imaju koristi, što se vremenom pokazuje kao uspešnije u usvajanju u odnosu na vlasnički softver. To je u skladu sa Bitcoin etosom da „informacije žele biti slobodne.“ Okuplja strastvene ljude koji formiraju zajednicu i jednostavno je zabavnije. Kao i Bitcoin, FOSS je neizbežan.
 
@@ -120,7 +120,7 @@ Fondacija BTCPay Server, koja je omogućila Alekosu i Basu da napišu ovaj kurs,
 Ovo je vežba u učionici, tako da ako sami pohađate ovaj kurs, ne možete je izvesti, ali i dalje možete proći kroz ovu vežbu. Da biste završili ovaj zadatak, minimalan broj ljudi je između 9 i 11.
 
 
-Vežba počinje nakon gledanja uvodnog videa „Kako Bitcoin i Blockchain rade“ od strane BBC-a.
+Vežba počinje nakon gledanja uvodnog videa „Kako Bitcoin i [Blockchain](https://planb.academy/resources/glossary/blockchain) rade“ od strane BBC-a.
 
 
 :::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
@@ -183,14 +183,14 @@ Kupci kupuju proizvod iz prodavnice za Bitcoin.
   - Odgovarajući iznos je nagrađen ako je sadržaj bio važeći.
 - Izvedite sledeći redosled događaja:
   - Kupac - pretražuje online prodavnicu i pronalazi artikal za $25 koji želi, i obaveštava trgovca da bi želeo da ga kupi.
-  - Trgovac- traži uplatu slanjem kupcu fakture/adrese sa njihovog novčanika.
+  - Trgovac- traži uplatu slanjem kupcu fakture/adrese sa njihovog [novčanika](https://planb.academy/resources/glossary/wallet).
   - Kupac - konstruira transakciju (šalje $25 vrednosti BTC na adresu koji je obezbedio trgovac) i emituje je na Bitcoin mreži.
 - Računari- primaju transakciju i verifikuju:
   - Na adresi sa koje se šalje ima najmanje $25 BTC-a
   - Transakcija je ispravno potpisana („otključana“ od strane kupca)
   - Ako nije slučaj, transakcija neće biti propagirana kroz mrežu, a ako jeste, onda se propagira i drži na čekanju.
   - Trgovci mogu proveriti da je transakcija na čekanju i u procesu čekanja.
-- Jedan računar je „nasumično“ izabran da predloži finalizaciju predložene transakcije emitovanjem „bloka“ koji je sadrži; ako je ispravan, dobiće BTC nagradu.
+- Jedan računar je „nasumično“ izabran da predloži finalizaciju predložene transakcije emitovanjem „[bloka](https://planb.academy/resources/glossary/block)“ koji je sadrži; ako je ispravan, dobiće BTC nagradu.
   - OPCIONALNO/NAPREDNO - umesto nasumičnog odabira računara, simulirajte rudarenje, eng. mining  tako što će računari bacati kockice dok se ne dogodi neki unapred određeni ishod (npr. prvi koji baci dve šestice zaredom je odabran)
   - Takođe može simulirati šta bi se desilo ako dva računara pobede približno istovremeno, što bi rezultiralo podelom lanca.
   - Računari proveravaju validnost, ažuriraju/dodaju zapise u svoje knjige ako su pravila ispunjena, i emituju blok ka vršnjacima.
@@ -232,15 +232,15 @@ Definišite sledeće ključne pojmove predstavljene u prethodnom delu:
 
 
 - Čvor
-- Mempool
-- Ciljna težina
+- [Mempool](https://planb.academy/resources/glossary/mempool)
+- Ciljna [težina](https://planb.academy/resources/glossary/difficulty)
 - Blok
 
 
 **Razgovarajte o značenju nekih dodatnih pojmova kao grupa:**
 
 
-Blockchain, Transakcija, Dvostruko trošenje, Problem vizantijskog generala, Mining, Proof of Work (PoW), Hash Funkcija, Block nagrada, Blockchain, Najduži lanac, 51% Napad, Izlaz, Zaključavanje izlaza, Kusur, Satošiji, Javni/Privatni ključ, adresa, Kriptografija javnog ključa, Digitalni potpis, novčanik
+Blockchain, Transakcija, Dvostruko trošenje, Problem vizantijskog generala, Mining, Proof of Work (PoW), Hash Funkcija, Block nagrada, Blockchain, Najduži lanac, 51% Napad, Izlaz, Zaključavanje izlaza, Kusur, Satošiji, Javni/Privatni ključ, adresa, [Kriptografija](https://planb.academy/resources/glossary/cryptography) javnog ključa, [Digitalni potpis](https://planb.academy/resources/glossary/digital-signature), novčanik
 
 
 # Predstavljamo BTCPay Server
@@ -571,7 +571,7 @@ U ovom odeljku ste naučili:
 ### Šta je uključeno u generisanje Bitcoin ključeva?
 
 
-Bitcoin novčanici, kada se kreiraju, kreiraju takozvani "seed". U prethodnom poglavlju, kreirali ste "seed". Niz reči generisanih ranije takođe je poznat kao mnemonic fraza ili bezbednosna fraza. Seed se koristi za izvođenje pojedinačnih Bitcoin ključeva i koristi se za slanje ili primanje bitcoina. Seed fraze nikada ne bi trebalo deliti sa trećim stranama ili nepouzdanim osobama.
+Bitcoin novčanici, kada se kreiraju, kreiraju takozvani "[seed](https://planb.academy/resources/glossary/seed)". U prethodnom poglavlju, kreirali ste "seed". Niz reči generisanih ranije takođe je poznat kao mnemonic fraza ili bezbednosna fraza. Seed se koristi za izvođenje pojedinačnih Bitcoin ključeva i koristi se za slanje ili primanje bitcoina. Seed fraze nikada ne bi trebalo deliti sa trećim stranama ili nepouzdanim osobama.
 
 
 Generisanje seed-a je urađeno prema industrijskom standardu poznatom kao "Hijerarhijski Deterministički" (HD) okvir.
@@ -594,7 +594,7 @@ Adresa se dobija iz javnog ključa putem „algoritma heširanja“. Većina nov
 
 
 
-- Adrese koje počinju sa `bc1...` polako postaju veoma uobičajene adrese. One su poznate kao (native) SegWit adrese. Ove adrese nude bolju strukturu naknada od drugih pomenutih adresa. Native SegWit adrese koriste Bech32 kodiranje i dozvoljavaju samo mala slova.
+- Adrese koje počinju sa `bc1...` polako postaju veoma uobičajene adrese. One su poznate kao (native) [SegWit](https://planb.academy/resources/glossary/segwit) adrese. Ove adrese nude bolju strukturu naknada od drugih pomenutih adresa. Native SegWit adrese koriste Bech32 kodiranje i dozvoljavaju samo mala slova.
 
 
 
@@ -616,7 +616,7 @@ Javni ključevi se danas manje koriste u praksi. Vremenom su ih Bitcoin korisnic
 
 
 
-- HD novčanici, međutim, koriste drugačiju strukturu. `xpub...`, `ypub...` ili `zpub...` se nazivaju proširenim javnim ključevima, odnosno xpubs. Ovi ključevi se koriste za izvođenje mnogih javnih ključeva kao deo HD novčanika. Pošto vaš xpub sadrži zapise vaše celokupne istorije, što znači prošlih i budućih transakcija, nikada ih ne delite sa nepouzdanim stranama.
+- HD novčanici, međutim, koriste drugačiju strukturu. `xpub...`, `ypub...` ili `zpub...` se nazivaju proširenim javnim ključevima, odnosno [xpubs](https://planb.academy/resources/glossary/xpub). Ovi ključevi se koriste za izvođenje mnogih javnih ključeva kao deo HD novčanika. Pošto vaš xpub sadrži zapise vaše celokupne istorije, što znači prošlih i budućih transakcija, nikada ih ne delite sa nepouzdanim stranama.
 
 
 ### Sažetak veština
@@ -664,10 +664,10 @@ Online novčanici su najprikladniji način za interakciju sa Bitcoin-om putem mo
 ### Offline novčanik
 
 
-Pojedinci premeštaju svoj Bitcoin u hladni novčanik jer on može izolovati privatne ključeve od interneta, čime ih štiti od potencijalnih pretnji sa mreže. Uklanjanje internet konekcije iz jednačine smanjuje rizik od malvera, špijunskog softvera i zamene SIM kartica. Veruje se da je offline skladištenje superiornije od online skladištenja u pogledu sigurnosti i autonomije, pod uslovom da se preduzmu adekvatne mere predostrožnosti kako bi se izbegao gubitak Bitcoin privatnih ključeva. Offline skladištenje je najpogodnije za velike količine Bitcoin-a, koje nisu namenjene za čestu potrošnju zbog složenosti postavke novčanika.
+Pojedinci premeštaju svoj Bitcoin u [hladni novčanik](https://planb.academy/resources/glossary/cold-wallet) jer on može izolovati privatne ključeve od interneta, čime ih štiti od potencijalnih pretnji sa mreže. Uklanjanje internet konekcije iz jednačine smanjuje rizik od malvera, špijunskog softvera i zamene SIM kartica. Veruje se da je offline skladištenje superiornije od online skladištenja u pogledu sigurnosti i autonomije, pod uslovom da se preduzmu adekvatne mere predostrožnosti kako bi se izbegao gubitak Bitcoin privatnih ključeva. Offline skladištenje je najpogodnije za velike količine Bitcoin-a, koje nisu namenjene za čestu potrošnju zbog složenosti postavke novčanika.
 
 
-Postoje različite metode čuvanja Bitcoin ključeva u hladnom skladištu, od papirnih novčanika i mentalnih (brain) novčanika, preko hardverskih novčanika, pa sve do početnih datoteka novčanika. Većina novčanika koristi BIP 39 za generisanje seed fraze. Međutim, unutar Bitcoin osnovnog softvera, konsenzus još nije postignut o njegovom korišćenju. Bitcoin osnovni softver će i dalje generisati Wallet.dat datoteku koju treba da čuvate na sigurnom offline mestu.
+Postoje različite metode čuvanja Bitcoin ključeva u hladnom skladištu, od papirnih novčanika i mentalnih (brain) novčanika, preko hardverskih novčanika, pa sve do početnih datoteka novčanika. Većina novčanika koristi [BIP](https://planb.academy/resources/glossary/bip) 39 za generisanje seed fraze. Međutim, unutar Bitcoin osnovnog softvera, konsenzus još nije postignut o njegovom korišćenju. Bitcoin osnovni softver će i dalje generisati Wallet.dat datoteku koju treba da čuvate na sigurnom offline mestu.
 
 
 ### Sažetak veština
@@ -714,14 +714,14 @@ BTCPay Server se sastoji od sledećih standardnih funkcija novčanika:
 - Ponovno skeniraj
 - Povuci plaćanje (eng. Pull Payments)
 - Isplate
-- PSBT
+- [PSBT](https://planb.academy/resources/glossary/psbt)
 - Opšta podešavanja
 
 
 ### Transakcije
 
 
-Administratori mogu videti dolazne i odlazne transakcije za On-Chain novčanik povezane sa ovom specifičnom prodavnicom u prikazu transakcija. Svaka transakcija ima razliku između primljenih i poslatih iznosa. Primljene će biti označene zelenom bojom, a odlazne transakcije će biti crvene. U okviru prikaza transakcija na BTCPay Server-u, administratori će takođe videti skup standardnih oznaka.
+Administratori mogu videti dolazne i odlazne transakcije za On-Chain novčanik povezane sa ovom specifičnom prodavnicom u prikazu transakcija. Svaka transakcija ima razliku između primljenih i poslatih iznosa. Primljene će biti označene zelenom bojom, a odlazne transakcije će biti crvene. U okviru prikaza transakcija na BTCPay Server-u, administratori će takođe videti skup standardnih [oznaka](https://planb.academy/resources/glossary/label).
 
 
 
@@ -729,8 +729,8 @@ Administratori mogu videti dolazne i odlazne transakcije za On-Chain novčanik p
 | ---------------- | ------------------------------------------------ |
 | Aplikacija       | Plaćanje je primljeno putem fakture kreirane od strane aplikacije |
 | Faktura          | Plaćanje je primljeno putem fakture              |
-| Payjoin          | Nije plaćeno, tajmer fakture još uvek nije istekao |
-| Payjoin-otkriven | UTXO je otkriven putem payjoin predloga u fakturi |
+| [Payjoin](https://planb.academy/resources/glossary/payjoin)          | Nije plaćeno, tajmer fakture još uvek nije istekao |
+| Payjoin-otkriven | [UTXO](https://planb.academy/resources/glossary/utxo) je otkriven putem payjoin predloga u fakturi |
 | Zahtev za plaćanje | Plaćanje je primljeno putem zahteva za plaćanje |
 | Isplata          | Plaćanje je poslato putem isplate ili povraćaja  |
 
@@ -1129,7 +1129,7 @@ U okviru opcije Lightning novčanik u levoj traci menija, administratori servera
 #### Informacije o internom čvoru
 
 
-Administratori servera mogu kliknuti na informacije o internom čvoru i baciti pogled na status svog servera (Online/Offline) i string za povezivanje za Clearnet ili Tor.
+Administratori servera mogu kliknuti na informacije o internom čvoru i baciti pogled na status svog servera (Online/Offline) i string za povezivanje za Clearnet ili [Tor](https://planb.academy/resources/glossary/tor).
 
 
 ![image](assets/en/033.webp)

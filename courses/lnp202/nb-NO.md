@@ -92,7 +92,7 @@ Hvis du følger dette LNP202-kurset i riktig rekkefølge, vil du ved slutten av 
 
 
 
-Før du lanserer din egen node, vil dette kapittelet gi en kort gjennomgang av den grunnleggende teorien bak Lightning Network. Det er viktig å forstå mekanismene som ligger bak, slik at du kan identifisere risikoer og ta i bruk gode fremgangsmåter for å begrense dem. Jeg vil imidlertid ikke gå i detalj her, siden dette ikke er hovedmålet med dette kurset. Hvis du ønsker å gå dypere inn i emnet, anbefaler jeg på det sterkeste at du leser Fanis Michalakis' LNP 201-kurs, som er en referanse på området:
+Før du lanserer din egen node, vil dette kapittelet gi en kort gjennomgang av den grunnleggende teorien bak [Lightning Network](https://planb.academy/resources/glossary/lightning-network). Det er viktig å forstå mekanismene som ligger bak, slik at du kan identifisere risikoer og ta i bruk gode fremgangsmåter for å begrense dem. Jeg vil imidlertid ikke gå i detalj her, siden dette ikke er hovedmålet med dette kurset. Hvis du ønsker å gå dypere inn i emnet, anbefaler jeg på det sterkeste at du leser Fanis Michalakis' LNP 201-kurs, som er en referanse på området:
 
 
 
@@ -102,20 +102,20 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-La oss gå tilbake til det grunnleggende: Før vi definerer hva en node er, må vi forstå hva Lightning Network er. Det er en topplagsprotokoll, bygget på toppen av Bitcoin, designet for å muliggjøre BTC-transaksjoner utenfor kjeden som er raske (med nesten øyeblikkelig finalitet) og generelt billige. "Offchain" betyr at transaksjoner som utføres på Lightning, ikke er ment å vises på den viktigste Bitcoin-blokkjeden. Lightning er også et delvis svar på den økende bruken av Bitcoin og på overbelastning i kjeden, noe som gir grunn til bekymring for systemets skalerbarhet.
+La oss gå tilbake til det grunnleggende: Før vi definerer hva en node er, må vi forstå hva Lightning Network er. Det er en topplagsprotokoll, bygget på toppen av Bitcoin, designet for å muliggjøre BTC-transaksjoner utenfor kjeden som er raske (med nesten øyeblikkelig finalitet) og generelt billige. "[Offchain](https://planb.academy/resources/glossary/offchain)" betyr at transaksjoner som utføres på Lightning, ikke er ment å vises på den viktigste [Bitcoin-blokkjeden](https://planb.academy/resources/glossary/blockchain). Lightning er også et delvis svar på den økende bruken av Bitcoin og på overbelastning [i kjeden](https://planb.academy/resources/glossary/onchain), noe som gir grunn til bekymring for systemets [skalerbarhet](https://planb.academy/resources/glossary/scalability).
 
 
 
-For å fungere er Lightning avhengig av at det åpnes betalingskanaler mellom deltakerne, der transaksjoner kan utføres nesten umiddelbart, ofte med minimale gebyrer, uten at det er nødvendig å registrere dem én etter én på Bitcoin-blokkjeden. Disse kanalene kan forbli åpne i svært lang tid, og krever kun transaksjoner i kjeden når de åpnes og lukkes.
+For å fungere er Lightning avhengig av at det åpnes [betalingskanaler](https://planb.academy/resources/glossary/payment-channel) mellom deltakerne, der transaksjoner kan utføres nesten umiddelbart, ofte med minimale gebyrer, uten at det er nødvendig å registrere dem én etter én på Bitcoin-blokkjeden. Disse kanalene kan forbli åpne i svært lang tid, og krever kun transaksjoner i kjeden når de åpnes og lukkes.
 
 
 
-En Lightning-node er en deltaker i Lightning-nettverket, som åpner kanaler og utfører betalinger med andre noder. Konkret er en Lightning-node en programvare som kjører på en datamaskin og implementerer Lightning Network-protokollen. Eksempler på dette er LND, Core Lightning eller Eclair. Hovedoppgaven til denne programvaren er å
+En [Lightning-node](https://planb.academy/resources/glossary/lightning-node) er en deltaker i Lightning-nettverket, som åpner kanaler og utfører betalinger med andre noder. Konkret er en Lightning-node en programvare som kjører på en datamaskin og implementerer Lightning Network-protokollen. Eksempler på dette er LND, Core Lightning eller Eclair. Hovedoppgaven til denne programvaren er å
 
 
 
 
-- koble seg til en Bitcoin-node for å innhente informasjon fra hovedblokkjeden;
+- koble seg til en [Bitcoin-node](https://planb.academy/resources/glossary/full-node) for å innhente informasjon fra hovedblokkjeden;
 - opprette og administrere toveis betalingskanaler med andre noder;
 - utveksle meldinger med hele Lightning-nettverket.
 
@@ -129,7 +129,7 @@ En Lightning-node er en deltaker i Lightning-nettverket, som åpner kanaler og u
 
 
 
-På Bitcoin (onchain) refererer "*wallet*" til programvare som administrerer dine private nøkler, beregner saldoen din fra dine UTXO-er og bygger transaksjonene dine. Denne wallet kan være basert på din egen Bitcoin-node eller på en annens, men i dag er nodens rolle og rollen til wallet i kjeden klart adskilt.
+På Bitcoin (onchain) refererer "*[wallet](https://planb.academy/resources/glossary/wallet)*" til programvare som administrerer dine [private nøkler](https://planb.academy/resources/glossary/private-key), beregner saldoen din fra dine [UTXO](https://planb.academy/resources/glossary/utxo)-er og bygger transaksjonene dine. Denne wallet kan være basert på din egen Bitcoin-node eller på en annens, men i dag er nodens rolle og rollen til wallet i kjeden klart adskilt.
 
 
 
@@ -141,7 +141,7 @@ På Lightning er det vanskeligere å gjenbruke denne typen vokabular uten å ska
 
 
 
-- Slik bruker du en depottjeneste: Du bruker en applikasjon som viser deg en saldo i sats på Lightning, men i bakgrunnen befinner midlene seg på en leverandørs node (f.eks. Wallet of Satoshi). Du har verken nøkler eller kontroll over kanalene. Saldoen din er bare en regnskapspost i selskapets database. Det kan sammenlignes med å la bitcoinsene dine ligge på en vekslingsplattform, med alle de tilhørende risikoene. I dette tilfellet er din "*Lightning wallet*" bare en tilgang til en konto som administreres av en operatør, som i sin tur driver en ekte Lightning-node.
+- Slik bruker du en depottjeneste: Du bruker en applikasjon som viser deg en saldo i [sats](https://planb.academy/resources/glossary/satoshi-sat) på Lightning, men i bakgrunnen befinner midlene seg på en leverandørs node (f.eks. Wallet of Satoshi). Du har verken nøkler eller kontroll over kanalene. Saldoen din er bare en regnskapspost i selskapets database. Det kan sammenlignes med å la bitcoinsene dine ligge på en vekslingsplattform, med alle de tilhørende risikoene. I dette tilfellet er din "*Lightning wallet*" bare en tilgang til en konto som administreres av en operatør, som i sin tur driver en ekte Lightning-node.
 
 
 
@@ -161,7 +161,7 @@ I denne delen vil jeg gi deg en rask påminnelse om hvordan Lightning fungerer. 
 
 
 
-Hjertet i Lightning-nettverket er basert på toveis betalingskanaler. En kanal kan åpnes (dvs. opprettes), oppdateres etter hvert som Lightning-transaksjoner finner sted, og til slutt lukkes. Fra kjedens synspunkt er en kanal ikke noe annet enn en 2/2 multisignaturutgang.
+Hjertet i Lightning-nettverket er basert på toveis betalingskanaler. En kanal kan åpnes (dvs. opprettes), oppdateres etter hvert som Lightning-transaksjoner finner sted, og til slutt lukkes. Fra kjedens synspunkt er en kanal ikke noe annet enn en 2/2 [multisignaturutgang](https://planb.academy/resources/glossary/output).
 
 
 
@@ -169,7 +169,7 @@ Hjertet i Lightning-nettverket er basert på toveis betalingskanaler. En kanal k
 
 
 
-Fra Lightnings synspunkt er det en betalingskanal med likviditet delt mellom de to deltakerne.
+Fra Lightnings synspunkt er det en betalingskanal med [likviditet](https://planb.academy/resources/glossary/liquidity-lightning) delt mellom de to deltakerne.
 
 
 
@@ -183,7 +183,7 @@ Fra Lightnings synspunkt er det en betalingskanal med likviditet delt mellom de 
 
 
 
-To noder bestemmer seg for å åpne en kanal. En av dem forplikter bitcoins i en transaksjon i kjeden som kalles *finansieringstransaksjon*. Denne transaksjonen skaper en utgang basert på et 2-av-2 multisignaturskript, noe som betyr at bruk av disse midlene på Bitcoin krever signatur fra begge nodene i kanalen. Før denne transaksjonen utstedes, ber den parten som gir pengene, den andre parten om å signere en *uttakstransaksjon*, som ikke utstedes i kjeden, men som gjør det mulig å få tilbake pengene hvis det skulle oppstå et problem.
+To noder bestemmer seg for å åpne en kanal. En av dem forplikter bitcoins i en transaksjon i kjeden som kalles *finansieringstransaksjon*. Denne transaksjonen skaper en utgang basert på et 2-av-2 [multisignaturskript](https://planb.academy/resources/glossary/script), noe som betyr at bruk av disse midlene på Bitcoin krever [signatur](https://planb.academy/resources/glossary/digital-signature) fra begge nodene i kanalen. Før denne transaksjonen utstedes, ber den parten som gir pengene, den andre parten om å signere en *uttakstransaksjon*, som ikke utstedes i kjeden, men som gjør det mulig å få tilbake pengene hvis det skulle oppstå et problem.
 
 
 
@@ -197,7 +197,7 @@ To noder bestemmer seg for å åpne en kanal. En av dem forplikter bitcoins i en
 
 
 
-Kanalens tilstand (dvs. fordelingen av sats mellom A og B) representeres av en *commitment transaction*, som er kjent for begge nodene, men som ikke umiddelbart kringkastes på blokkjeden. Denne transaksjonen beskriver hvordan kanalens midler skal omfordeles i kjeden i henhold til betalingene som er gjort på Lightning.
+Kanalens tilstand (dvs. fordelingen av sats mellom A og B) representeres av en *[commitment transaction](https://planb.academy/resources/glossary/commitment-transaction)*, som er kjent for begge nodene, men som ikke umiddelbart kringkastes på blokkjeden. Denne transaksjonen beskriver hvordan kanalens midler skal omfordeles i kjeden i henhold til betalingene som er gjort på Lightning.
 
 
 
@@ -237,7 +237,7 @@ Før vi går videre, vil vi ta for oss to viktige begreper for å forstå hvorda
 
 
 - Liquidity*: mengden sats som er tilgjengelig på den ene siden av kanalen;
-- Kapasiteten*: Det er det totale beløpet som er låst i 2/2 multisig-utgangen, dvs. summen av likviditeten på begge sider av kanalen.
+- [Kapasiteten](https://planb.academy/resources/glossary/lightning-channel-capacity)*: Det er det totale beløpet som er låst i 2/2 multisig-utgangen, dvs. summen av likviditeten på begge sider av kanalen.
 
 
 
@@ -249,7 +249,7 @@ En kanal er ikke bare for betalinger mellom to noder: Den er en del av et global
 
 
 
-Hver node kjenner, via sladreprotokollen, et kart over dette nettverket: hvilke kanaler som finnes, hvilke noder som er forbundet med en toveis kanal, og hvilke kapasiteter som er publisert. For å sende en betaling til en mottaker uten en direkte kanal beregner noden din en rute som består av flere hopp: noden din → node X → node Y → mottakernode. Ved hvert hopp går betalingen gjennom en kanal som må ha tilstrekkelig likviditet i betalingsretningen.
+Hver node kjenner, via [sladreprotokollen](https://planb.academy/resources/glossary/gossip), et kart over dette nettverket: hvilke kanaler som finnes, hvilke noder som er forbundet med en toveis kanal, og hvilke kapasiteter som er publisert. For å sende en betaling til en mottaker uten en direkte kanal beregner noden din en rute som består av flere hopp: noden din → node X → node Y → mottakernode. Ved hvert hopp går betalingen gjennom en kanal som må ha tilstrekkelig likviditet i betalingsretningen.
 
 
 
@@ -265,7 +265,7 @@ Likviditeten i en kanal er derfor ikke symmetrisk: Den ene siden kan være tungt
 
 
 
-For at betalinger skal kunne gå gjennom mellomliggende noder uten behov for tillit, bruker Lightning smartkontrakter kalt *HTLC* (*Hashed Time-Locked Contracts*). Enkelt forklart gjør en HTLC overføring av penger betinget av at en hemmelighet avsløres, og inneholder en tidsbegrensning for å beskytte avsenderen i tilfelle transaksjonen mislykkes. Hver betaling er derfor betinget av at det presenteres et forhåndsbilde (en hemmelighet hvis hash-kode tilsvarer en avtalt verdi). Hvis den endelige mottakeren oppgir dette forhåndsbildet, kan han eller hun gjøre krav på pengene, noe som i sin tur gjør det mulig for hver mellomliggende node å få tilbake sine egne midler.
+For at betalinger skal kunne gå gjennom mellomliggende noder uten behov for tillit, bruker Lightning [smartkontrakter](https://planb.academy/resources/glossary/smart-contract) kalt *[HTLC](https://planb.academy/resources/glossary/htlc)* (*Hashed Time-Locked Contracts*). Enkelt forklart gjør en HTLC overføring av penger betinget av at en hemmelighet avsløres, og inneholder en tidsbegrensning for å beskytte avsenderen i tilfelle transaksjonen mislykkes. Hver betaling er derfor betinget av at det presenteres et forhåndsbilde (en hemmelighet hvis [hash](https://planb.academy/resources/glossary/hash-function)-kode tilsvarer en avtalt verdi). Hvis den endelige mottakeren oppgir dette forhåndsbildet, kan han eller hun gjøre krav på pengene, noe som i sin tur gjør det mulig for hver mellomliggende node å få tilbake sine egne midler.
 
 
 
@@ -281,7 +281,7 @@ Jeg skal spare deg for de tekniske detaljene om hvordan HTLC fungerer, da de ikk
 
 
 
-I likhet med Bitcoin finnes det flere implementeringer av Lightning-protokollen. En rekke uavhengige team utvikler sine egne versjoner, som alle er interoperable siden de følger de samme spesifikasjonene (BOLT-ene). Her er de viktigste implementeringene som er i bruk i dag.
+I likhet med Bitcoin finnes det flere implementeringer av Lightning-protokollen. En rekke uavhengige team utvikler sine egne versjoner, som alle er interoperable siden de følger de samme spesifikasjonene ([BOLT](https://planb.academy/resources/glossary/bolt)-ene). Her er de viktigste implementeringene som er i bruk i dag.
 
 
 
@@ -399,7 +399,7 @@ I dag er det mulig å ha en brukeropplevelse som ligger svært nær den til en w
 
 
 
-Den første løsningen er rett og slett ikke å bruke Lightning nativt, men å bruke en Bitcoin eller Liquid wallet som bygger inn atomic swaps. Aqua- eller Bull Bitcoin Wallet-applikasjoner bruker for eksempel denne metoden, ved å gjøre det mulig å betale Lightning-fakturaer uten å drifte en Lightning-node selv, samtidig som de forblir i eget depot.
+Den første løsningen er rett og slett ikke å bruke Lightning nativt, men å bruke en Bitcoin eller [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet som bygger inn [atomic swaps](https://planb.academy/resources/glossary/atomic-swap). Aqua- eller Bull Bitcoin Wallet-applikasjoner bruker for eksempel denne metoden, ved å gjøre det mulig å betale [Lightning-fakturaer](https://planb.academy/resources/glossary/invoice-lightning) uten å drifte en Lightning-node selv, samtidig som de forblir i eget depot.
 
 
 
@@ -411,7 +411,7 @@ Prinsippet er enkelt: Pengene dine forblir i Bitcoin, enten on-chain eller Liqui
 
 
 
-Den største fordelen med denne tilnærmingen, sammenlignet med en konvensjonell Lightning-depot wallet, er at du til enhver tid har 100 % kontroll over midlene dine. Bitcoinsene er i din onchain eller Liquid wallet, med din egen mnemoniske frase. Selv under byttet forblir du i besittelse av midlene dine, fordi byttet er atomisk. Den er avhengig av en kryptografisk mekanisme som sikrer at det bare er to mulige utfall: enten lykkes byttet helt, eller så mislykkes det, og tjenesten kan ikke tilegne seg pengene dine.
+Den største fordelen med denne tilnærmingen, sammenlignet med en konvensjonell Lightning-depot wallet, er at du til enhver tid har 100 % kontroll over midlene dine. Bitcoinsene er i din onchain eller Liquid wallet, med din egen [mnemoniske frase](https://planb.academy/resources/glossary/seed). Selv under byttet forblir du i besittelse av midlene dine, fordi byttet er atomisk. Den er avhengig av en kryptografisk mekanisme som sikrer at det bare er to mulige utfall: enten lykkes byttet helt, eller så mislykkes det, og tjenesten kan ikke tilegne seg pengene dine.
 
 
 
@@ -423,7 +423,7 @@ Denne løsningen gir også interessante fordeler når det gjelder konfidensialit
 
 
 
-På den annen side har denne tilnærmingen sine begrensninger. For det første er den ikke uforanderlig: Du er avhengig av byttetjenestens tilgjengelighet og velvilje. Hvis den ikke lenger ønsker å behandle kontoen din, eller opphører å fungere, kan du ikke lenger betale lynfakturaer gjennom den. I tillegg kommer de ikke ubetydelige gebyrene: Du betaler både transaksjonsgebyrene i kjeden eller Liquid og swap-tjenestens provisjon. Hvis onchain-gebyrene stiger kraftig, kan det dessuten bli svært dyrt å bruke Lightning.
+På den annen side har denne tilnærmingen sine begrensninger. For det første er den ikke uforanderlig: Du er avhengig av byttetjenestens tilgjengelighet og velvilje. Hvis den ikke lenger ønsker å behandle kontoen din, eller opphører å fungere, kan du ikke lenger betale lynfakturaer gjennom den. I tillegg kommer de ikke ubetydelige gebyrene: Du betaler både [transaksjonsgebyrene](https://planb.academy/resources/glossary/transaction-fees) i kjeden eller Liquid og swap-tjenestens provisjon. Hvis onchain-gebyrene stiger kraftig, kan det dessuten bli svært dyrt å bruke Lightning.
 
 
 
@@ -479,7 +479,7 @@ Den tredje løsningen, som vi skal se nærmere på i dette LNP202-kurset, er å 
 
 
 
-Med "klassisk" mener jeg at du selv installerer og konfigurerer en Lightning-implementering (f.eks. LND) på toppen av din egen Bitcoin-node. Du velger dine peers, åpner kanalene dine, administrerer innkommende og utgående likviditet og fastsetter retningslinjene for rutingavgifter.
+Med "klassisk" mener jeg at du selv installerer og konfigurerer en Lightning-implementering (f.eks. LND) på toppen av din egen Bitcoin-node. Du velger dine peers, åpner kanalene dine, administrerer [innkommende og utgående likviditet](https://planb.academy/resources/glossary/inbound-capacity) og fastsetter retningslinjene for rutingavgifter.
 
 
 
@@ -616,7 +616,7 @@ Du kommer da til Lightning-nodens hovedgrensesnitt. Til venstre finner du Bitcoi
 
 
 
-I midten finner du din Lightning wallet. Den representerer faktisk dine utgående kontanter, dvs. bitcoinsene du eier i Lightning-kanalene dine.
+I midten finner du din Lightning wallet. Den representerer faktisk dine [utgående kontanter](https://planb.academy/resources/glossary/outbound-capacity), dvs. bitcoinsene du eier i Lightning-kanalene dine.
 
 
 

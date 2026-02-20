@@ -193,7 +193,7 @@ As comunidades Bitcoin têm frequentemente objectivos mais amplos, nomeadamente 
 4. Desmentir afirmações enganosas ou infundadas feitas por algumas figuras públicas e pelos meios de comunicação social;
 
 
-5. As diferenças fundamentais entre o Bitcoin e outras criptomoedas;
+5. As diferenças fundamentais entre o Bitcoin e outras [criptomoedas](https://planb.academy/resources/glossary/cryptocurrency);
 
 
 Ao construir as primeiras "cidadelas" do futuro, as **comunidades Bitcoin em todo o mundo servem de baluarte contra a desinformação e a censura, ao mesmo tempo que proporcionam um terreno fértil para a aprendizagem dos fundamentos do Bitcoin**. Oferecem aos recém-chegados, mesmo aos cépticos, os recursos e as ligações necessárias para explorar o verdadeiro potencial do Bitcoin.
@@ -302,7 +302,7 @@ No entanto, **juntar forças faz muitas vezes mais sentido do que dividir comuni
 Neste sentido, uma simples "regra de ouro" pode ajudar: se não houver uma comunidade Bitcoin ativa num raio de 30-45 minutos do local onde vive, pode valer a pena começar uma nova. Dito isto, és sempre livre de fazer o que quiseres.
 
 
-E, claro, se uma comunidade mais antiga "evoluiu" numa direção que já não está de acordo com os seus valores, e não tem tempo ou motivação para a "polir", então criar o seu próprio Fork é sempre uma opção.
+E, claro, se uma comunidade mais antiga "evoluiu" numa direção que já não está de acordo com os seus valores, e não tem tempo ou motivação para a "[polir](https://planb.academy/resources/glossary/orange-pill)", então criar o seu próprio [Fork](https://planb.academy/resources/glossary/fork) é sempre uma opção.
 
 
 
@@ -1391,7 +1391,7 @@ Estes incluem:
 
 
 
-- [Btcmap.org](https://btcmap.org/), um sítio Web com dois mapas actualizados diariamente: **[o mapa mundial das empresas que aceitam Bitcoin](https://btcmap.org/map)** e **[o mapa mundial das comunidades](https://btcmap.org/communities/map)**. Muitos bitcoiners consultam estes mapas regularmente, quer estejam a viajar ou a fazer a sua vida quotidiana, para conhecer novas pessoas ou encontrar locais onde gastar os seus Sats. O Btcmap é a referência global, e listar a sua comunidade lá é essencial para a visibilidade
+- [Btcmap.org](https://btcmap.org/), um sítio Web com dois mapas actualizados diariamente: **[o mapa mundial das empresas que aceitam Bitcoin](https://btcmap.org/map)** e **[o mapa mundial das comunidades](https://btcmap.org/communities/map)**. Muitos bitcoiners consultam estes mapas regularmente, quer estejam a viajar ou a fazer a sua vida quotidiana, para conhecer novas pessoas ou encontrar locais onde gastar os seus [Sats](https://planb.academy/resources/glossary/satoshi-sat). O Btcmap é a referência global, e listar a sua comunidade lá é essencial para a visibilidade
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), um sítio Web criado por bitcoiners, para bitcoiners. **Permite-lhe publicar os próximos eventos da sua comunidade**. Em França, no entanto, ainda não é muito utilizado.
 - dependendo do seu país, pode haver outras iniciativas locais. Em França, por exemplo, existe o [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), que **lista dezenas de eventos Bitcoin todos os meses**. Por isso, se ainda não os seguiu no Twitter ou não os contactou para partilhar informações sobre a sua comunidade e eventos, chegou a altura! **Para ajudar a manter o calendário de eventos francês atualizado, seria ótimo se todas as comunidades francesas do Bitcoin tivessem o hábito de**
     - mencionar @bitcoinpointfr no Twitter para cada novo evento da comunidade
@@ -1820,7 +1820,7 @@ Para além do seu forte valor pedagógico, esta abordagem permite partilhar docu
 Abaixo está a progressão dos encontros franceses de 2023-2024. Para cada tema, estão disponíveis uma apresentação de código aberto e um vídeo, que podem dar ideias de tópicos que podem ser abordados nos seus próprios eventos.
 
 
-Também é possível encontrar materiais editáveis adicionais na [Caixa de ferramentas de ensino Bitcoin](https://planb.academy/fr/resources/bet)!
+Outros recursos também estão disponíveis na seção ["Educator Content"](https://planb.academy/educator-content) da Plan ₿ Academy, um espaço colaborativo onde educadores Bitcoin de todo o mundo compartilham e disponibilizam seus materiais educacionais (apresentações, panfletos, guias, cartazes...) em formatos prontos para uso ou editáveis. O objetivo: unir esforços para não começar do zero todas as vezes!
 
 
 
@@ -1936,7 +1936,7 @@ Em locais privados, como concertos, bares ou estádios, verifique se já existem
 Outro projeto que pode ser facilmente implementado é **criar uma biblioteca nos seus encontros**.
 
 
-Os participantes que desejem partilhar o seu material de leitura podem ser convidados a trazer um livro relacionado com a Bitcoin. Se alguém no encontro o quiser emprestar, pode ser feito um empréstimo ao proprietário na Exchange mediante um depósito, por exemplo, de 21 000 satoshis via Lightning.
+Os participantes que desejem partilhar o seu material de leitura podem ser convidados a trazer um livro relacionado com a Bitcoin. Se alguém no encontro o quiser emprestar, pode ser feito um empréstimo ao proprietário na Exchange mediante um depósito, por exemplo, de 21 000 satoshis via [Lightning](https://planb.academy/resources/glossary/lightning-network).
 
 
 Para o proprietário, este depósito ajuda a cobrir eventuais perdas ou roubos. Para o mutuário, é um incentivo para voltar a um futuro encontro para recuperar o seu depósito.
@@ -2599,7 +2599,7 @@ Com este aumento da afluência:
     - se achar que o número de participantes se torna excessivo, pode, para futuros encontros, **exigir que os participantes se registem** (através da aplicação Meetup ou de um formulário simples) ou **realizar vários encontros por mês** (por exemplo: um encontro para principiantes, um intermédio e um avançado).
     - Ao mesmo tempo, espera-se um grande número de recém-chegados ao ecossistema, muitas vezes com o objetivo principal de ganhar dinheiro. Para **manter as conversas focadas no Bitcoin** nestes encontros de rápido crescimento, é uma boa ideia
 
-a) Incluir uma **apresentação temática do Bitcoin** durante estes eventos, uma vez que isso irá naturalmente orientar grande parte da conversa para esse tópico (e para longe do último projeto supostamente "revolucionário" de shitcoin);
+a) Incluir uma **apresentação temática do Bitcoin** durante estes eventos, uma vez que isso irá naturalmente orientar grande parte da conversa para esse tópico (e para longe do último projeto supostamente "revolucionário" de [shitcoin](https://planb.academy/resources/glossary/shitcoin));
 
 b) **Evitar ficar apenas com colegas bitcoiners**. Em vez disso, faça questão de **abordar os recém-chegados**, mesmo que isso signifique ficar no fundo da sala para os cumprimentar. A partir daí, pode falar sobre o motivo pelo qual vieram, o que procuram, os objectivos (ou mesmo os princípios fundamentais) da sua comunidade, etc.
 
@@ -2619,7 +2619,7 @@ Felizmente, estas situações são raras e muitas vezes mais absurdas do que ame
 Para sua tranquilidade: desde que não esteja a infringir a lei ou a facilitar diretamente transacções ilegais, não é legalmente responsável pelas acções dos outros no seu evento (pelo menos ao abrigo da lei francesa).
 
 
-Num mundo ideal, teria um **espaço suficientemente grande para acolher várias dezenas de pessoas** à medida que a sua comunidade crescesse e também construiria **relações fortes entre bitcoiners** e futuros bitcoiners durante o mercado em baixa, para que, quando a corrida de alta chegasse, tivesse o maior número possível de pessoas prontas para dar uma pílula de laranja aos outros.
+Num mundo ideal, teria um **espaço suficientemente grande para acolher várias dezenas de pessoas** à medida que a sua comunidade crescesse e também construiria **relações fortes entre bitcoiners** e futuros bitcoiners durante o [mercado em baixa](https://planb.academy/resources/glossary/bear-market), para que, quando a corrida de alta chegasse, tivesse o maior número possível de pessoas prontas para dar uma pílula de laranja aos outros.
 
 
 

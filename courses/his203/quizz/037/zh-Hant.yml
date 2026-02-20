@@ -1,0 +1,11 @@
+question: Wladimir van der Laan 在 2011 年為主要軟體開發的圖形介面名稱是什麼？
+answer: Bitcoin-Qt
+wrong_answers:
+  - wxWindows-Bitcoin
+  - bitcoind
+  - Bitcoin 核心
+explanation: |
+ Bitcoin-Qt 是對 Bitcoin 圖形介面的全面改造。它從 2011 年 6 月開始開發，並在 0.5 版整合到主軟體中、
+ 版本中整合到主軟體中。它以 Qt 圖形框架為基礎，取代了 Satoshi 最初使用的 wxWindows 函式庫。該軟體自此稱為
+ Bitcoin-Qt。
+reviewed: true

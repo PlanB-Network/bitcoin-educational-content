@@ -70,7 +70,7 @@ _Globalna populacija bez bankovnih usluga_
 ### Bitcoin: finansijska sloboda i njen uticaj na El Salvador
 
 
-Ovo predavanje, **"Zašto El Salvador treba Bitcoin,"** pruža pregled **Bitcoin protokola**, njegovih korena u **Cypherpunk pokretu**, i njegove uloge kao alata za slobodu—omogućavajući **necenzurisani novac**, **finansijsku inkluziju**, i još mnogo toga.
+Ovo predavanje, **"Zašto El Salvador treba Bitcoin,"** pruža pregled **Bitcoin protokola**, njegovih korena u **[Cypherpunk](https://planb.academy/resources/glossary/cypherpunks) pokretu**, i njegove uloge kao alata za slobodu—omogućavajući **necenzurisani novac**, **finansijsku inkluziju**, i još mnogo toga.
 
 
 **Definicije:**
@@ -90,10 +90,10 @@ Rikkijevo putovanje u Bitcoin ukorenjeno je u njegovom radu kao zagovornika ljud
 ### Globalni značaj i izazovi Bitcoin
 
 
-Bitcoin je mnogo više od samo digitalne valute. To je alat za zaštitu privatnosti i osiguranje finansijske slobode. Korišćenjem **privatnih ključeva**, koji deluju kao glavne lozinke, korisnici mogu sigurno upravljati svojim Bitcoin, sa potpunom kontrolom nad svojim sredstvima.
+Bitcoin je mnogo više od samo digitalne valute. To je alat za zaštitu privatnosti i osiguranje finansijske slobode. Korišćenjem **[privatnih ključeva](https://planb.academy/resources/glossary/private-key)**, koji deluju kao glavne lozinke, korisnici mogu sigurno upravljati svojim Bitcoin, sa potpunom kontrolom nad svojim sredstvima.
 
 
-U autoritarnim režimima, gde je finansijska represija uobičajena, **necenzurisana priroda** Bitcoin omogućava ljudima da obavljaju transakcije bez straha da će njihova sredstva biti zamrznuta ili konfiskovana. Njegova **open-source** priroda podstiče globalno učešće, negujući zajednicu koja kontinuirano unapređuje mrežu.
+U autoritarnim režimima, gde je finansijska represija uobičajena, **necenzurisana priroda** Bitcoin omogućava ljudima da obavljaju [transakcije](https://planb.academy/resources/glossary/transaction-tx) bez straha da će njihova sredstva biti zamrznuta ili konfiskovana. Njegova **[open-source](https://planb.academy/resources/glossary/foss)** priroda podstiče globalno učešće, negujući zajednicu koja kontinuirano unapređuje mrežu.
 
 
 ![Image](assets/en/002.webp)
@@ -132,7 +132,7 @@ Ukratko, Bitcoin ima ogroman potencijal za finansijsko osnaživanje i inkluziju,
 #### Cypherpunk pokret
 
 
-Pokret **Cypherpunk** pojavio se krajem 20. veka, zalažući se za privatnost i slobodu kroz kriptografiju. Pioniri poput **Erica Hughesa** i **Tima Maya** verovali su da je jaka enkripcija ključna za zaštitu lične slobode u digitalnom svetu. Njihove ideje su u velikoj meri uticale na stvaranje Bitcoin.
+Pokret **Cypherpunk** pojavio se krajem 20. veka, zalažući se za privatnost i slobodu kroz [kriptografiju](https://planb.academy/resources/glossary/cryptography). Pioniri poput **Erica Hughesa** i **Tima Maya** verovali su da je jaka enkripcija ključna za zaštitu lične slobode u digitalnom svetu. Njihove ideje su u velikoj meri uticale na stvaranje Bitcoin.
 
 
 **Definicija:**
@@ -143,7 +143,7 @@ Pokret **Cypherpunk** pojavio se krajem 20. veka, zalažući se za privatnost i 
 #### Austrijska ekonomija
 
 
-U isto vreme, **Austrijska ekonomija** je pružila osnovu za monetarne principe Bitcoin. Ekonomisti poput **Ludwig von Mises** i **Friedrich Hayek** su tvrdili da zdrava valuta treba da bude oskudna, dugotrajna i dobra za čuvanje vrednosti—osnovni principi koji su oblikovali dizajn Bitcoin.
+U isto vreme, **[Austrijska ekonomija](https://planb.academy/resources/glossary/austrian-school)** je pružila osnovu za monetarne principe Bitcoin. Ekonomisti poput **Ludwig von Mises** i **Friedrich Hayek** su tvrdili da zdrava valuta treba da bude oskudna, dugotrajna i dobra za čuvanje vrednosti—osnovni principi koji su oblikovali dizajn Bitcoin.
 
 
 **Definicija:**
@@ -221,7 +221,7 @@ Hvala što ste se uključili u ovaj materijal!
 
 :::video id=2c008198-7f4e-4e60-87a0-0af17528ad2f:::
 
-Na prvom predavanju kursa 'How Bitcoin', počeli smo istraživati tehnološki stack koji podržava Bitcoin mrežu. Pokrili smo teme kao što su **Hashcash**, **transakcije**, **Blockchain**, **Lightning Network**, i druge ključne komponente Bitcoin protokola.
+Na prvom predavanju kursa 'How Bitcoin', počeli smo istraživati tehnološki stack koji podržava Bitcoin mrežu. Pokrili smo teme kao što su **Hashcash**, **transakcije**, **[Blockchain](https://planb.academy/resources/glossary/blockchain)**, **[Lightning Network](https://planb.academy/resources/glossary/lightning-network)**, i druge ključne komponente Bitcoin protokola.
 
 
 ### Tehnološki stack Bitcoin, deo 2
@@ -234,13 +234,13 @@ Tokom drugog predavanja 'How Bitcoin', sproveli smo detaljnije ispitivanje tehno
 ### Bitcoin struktura
 
 
-Poreklo Bitcoin zasniva se na nekoliko ključnih inovacija, počevši od **Adam Backovog Hashcash-a**, Proof-of-Work (PoW) sistema dizajniranog da spreči neželjenu poštu i napade uskraćivanjem usluge zahtevajući od pošiljalaca da izvrše računarske zadatke. Ovaj PoW koncept postao je kamen temeljac sigurnosti Bitcoin.
+Poreklo Bitcoin zasniva se na nekoliko ključnih inovacija, počevši od **Adam Backovog Hashcash-a**, [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) (PoW) sistema dizajniranog da spreči neželjenu poštu i napade uskraćivanjem usluge zahtevajući od pošiljalaca da izvrše računarske zadatke. Ovaj PoW koncept postao je kamen temeljac sigurnosti Bitcoin.
 
 
-Bitcoin se oslanja na **digitalne potpise** koristeći **kriptografiju eliptičkih krivih** za osiguranje i verifikaciju transakcija. **Algoritam za digitalni potpis eliptičkih krivih (ECDSA)** osigurava da samo zakoniti vlasnik Bitcoin može autorizovati transakcije bez otkrivanja svojih privatnih ključeva.
+Bitcoin se oslanja na **[digitalne potpise](https://planb.academy/resources/glossary/digital-signature)** koristeći **kriptografiju eliptičkih krivih** za osiguranje i verifikaciju transakcija. **Algoritam za digitalni potpis eliptičkih krivih ([ECDSA](https://planb.academy/resources/glossary/ecdsa))** osigurava da samo zakoniti vlasnik Bitcoin može autorizovati transakcije bez otkrivanja svojih privatnih ključeva.
 
 
-**Satoshi Nakamoto**, pseudonimni tvorac Bitcoin, proširio je ove ideje prelaskom sa PoW modela na decentralizovani **Blockchain**. Ovo je omogućilo distribuiranoj mreži čvorova da validira i beleži transakcije bez centralnog autoriteta, označavajući značajnu evoluciju u odnosu na prethodne pokušaje digitalne valute.
+**Satoshi Nakamoto**, pseudonimni tvorac Bitcoin, proširio je ove ideje prelaskom sa PoW modela na decentralizovani **Blockchain**. Ovo je omogućilo distribuiranoj mreži [čvorova](https://planb.academy/resources/glossary/node) da validira i beleži transakcije bez centralnog autoriteta, označavajući značajnu evoluciju u odnosu na prethodne pokušaje digitalne valute.
 
 
 **Definicije:**
@@ -252,16 +252,16 @@ Bitcoin se oslanja na **digitalne potpise** koristeći **kriptografiju eliptičk
 ### Mehanika Blockchain i validacija transakcija
 
 
-Transakcije Bitcoin validiraju i dodaju u blokove **rudari**, koji se takmiče u rešavanju kriptografskog zadatka koristeći algoritam Proof-of-Work. Ovo uključuje pronalaženje Hash sa specifičnim brojem vodećih nula podešavanjem vrednosti **Nonce** dok se ne otkrije tačan Hash.
+Transakcije Bitcoin validiraju i dodaju u blokove **rudari**, koji se takmiče u rešavanju kriptografskog zadatka koristeći algoritam Proof-of-Work. Ovo uključuje pronalaženje [Hash](https://planb.academy/resources/glossary/hash-function) sa specifičnim brojem vodećih nula podešavanjem vrednosti **[Nonce](https://planb.academy/resources/glossary/nonce)** dok se ne otkrije tačan Hash.
 
 
-Svaki **blok** u Blockchain sastoji se od **zaglavlja** (sa podacima kao što je prethodni blokov Hash) i liste transakcija. Prvi blok, poznat kao **Genesis Blok**, je jedinstven jer nema prethodnika.
+Svaki **[blok](https://planb.academy/resources/glossary/block)** u Blockchain sastoji se od **[zaglavlja](https://planb.academy/resources/glossary/block-header)** (sa podacima kao što je prethodni blokov Hash) i liste transakcija. Prvi blok, poznat kao **[Genesis Blok](https://planb.academy/resources/glossary/genesis-block)**, je jedinstven jer nema prethodnika.
 
 
 ![Image](assets/en/004.webp)
 
 
-Pre nego što transakcije budu uključene u blok, one se nalaze u **Mempool**, gde čekaju validaciju. Kada budu validirane, ove transakcije se dodaju u novo iskopani blok, a zatim u Blockchain.
+Pre nego što transakcije budu uključene u blok, one se nalaze u **[Mempool](https://planb.academy/resources/glossary/mempool)**, gde čekaju validaciju. Kada budu validirane, ove transakcije se dodaju u novo iskopani blok, a zatim u Blockchain.
 
 
 **Definicije:**
@@ -274,13 +274,13 @@ Pre nego što transakcije budu uključene u blok, one se nalaze u **Mempool**, g
 ### Skalabilnost, privatnost i razvoj u Bitcoin
 
 
-Bitcoin se suočava sa izazovima vezanim za skalabilnost i privatnost. Ograničeni kapacitet transakcija Blockchain otežava rukovanje velikim obimom transakcija. Rešenja kao što su **Lightning Network** Address ove izazove omogućavajući off-chain transakcije kroz platne kanale, što povećava brzinu i privatnost.
+Bitcoin se suočava sa izazovima vezanim za skalabilnost i privatnost. Ograničeni kapacitet transakcija Blockchain otežava rukovanje velikim obimom transakcija. Rešenja kao što su **Lightning Network** Address ove izazove omogućavajući off-chain transakcije kroz [platne kanale](https://planb.academy/resources/glossary/payment-channel), što povećava brzinu i privatnost.
 
 
-Pokretanje **Full node** je ključno za osiguranje decentralizacije i bezbednosti, ali **čvorovi za pojednostavljenu verifikaciju plaćanja (SPV)** omogućavaju lakše učešće uz određeni gubitak bezbednosti.
+Pokretanje **[Full node](https://planb.academy/resources/glossary/full-node)** je ključno za osiguranje decentralizacije i bezbednosti, ali **čvorovi za pojednostavljenu verifikaciju plaćanja (SPV)** omogućavaju lakše učešće uz određeni gubitak bezbednosti.
 
 
-Razvoj Bitcoin evoluirao je kako bi poboljšao performanse i sigurnost. Glavne nadogradnje uključuju **Segregated Witness (SegWit)**, koji rešava problem promenljivosti transakcija i povećava efektivnu veličinu bloka, i **Taproot**, koji poboljšava privatnost i omogućava složenije ugovore koristeći **Merkleized Abstract Syntax Trees (MAST)**.
+Razvoj Bitcoin evoluirao je kako bi poboljšao performanse i sigurnost. Glavne nadogradnje uključuju **Segregated Witness ([SegWit](https://planb.academy/resources/glossary/segwit))**, koji rešava problem promenljivosti transakcija i povećava efektivnu veličinu bloka, i **[Taproot](https://planb.academy/resources/glossary/taproot)**, koji poboljšava privatnost i omogućava složenije ugovore koristeći **Merkleized Abstract Syntax Trees (MAST)**.
 
 
 **Definicije:**
@@ -325,7 +325,7 @@ U ovom predavanju razotkrivamo uobičajene mitove oko **Bitcoin**, **blokčejnov
 ### Bitcoin vs. Crypto
 
 
-Još jedna ključna razlika je da je **Bitcoin** stvoren s isključivom svrhom pružanja decentralizovanog, cenzuri otpornog oblika novca, slobodnog od kontrole bilo koje kompanije ili vlade. Nasuprot tome, kriptovalute **shitcoins** su često dizajnirane sa centralizovanom kontrolom, prvenstveno postojeći da obogate kompanije iza njih kroz predatorske prakse, pump-and-dump šeme ili otvorene prevare. Ovi tokeni obično nemaju pravu svrhu osim brze zarade za svoje tvorce na račun neinformisanih investitora. Bitcoin, međutim, stoji sam kao jedina istinski decentralizovana digitalna valuta sa dokazanim rekordom sigurnosti i otpornosti.
+Još jedna ključna razlika je da je **Bitcoin** stvoren s isključivom svrhom pružanja decentralizovanog, cenzuri otpornog oblika novca, slobodnog od kontrole bilo koje kompanije ili vlade. Nasuprot tome, [kriptovalute](https://planb.academy/resources/glossary/cryptocurrency) **[shitcoins](https://planb.academy/resources/glossary/shitcoin)** su često dizajnirane sa centralizovanom kontrolom, prvenstveno postojeći da obogate kompanije iza njih kroz predatorske prakse, pump-and-dump šeme ili otvorene prevare. Ovi tokeni obično nemaju pravu svrhu osim brze zarade za svoje tvorce na račun neinformisanih investitora. Bitcoin, međutim, stoji sam kao jedina istinski decentralizovana digitalna valuta sa dokazanim rekordom sigurnosti i otpornosti.
 
 
 **Definicije:**
@@ -339,7 +339,7 @@ Još jedna ključna razlika je da je **Bitcoin** stvoren s isključivom svrhom p
 ### Potrošnja energije i uticaj na životnu sredinu
 
 
-Jedna od najčešćih kritika na račun Bitcoin je njegova **potrošnja energije**. Iako Bitcoin Mining koristi energiju, on čini manje od 1% globalne potrošnje električne energije i manje od 3% izgubljene energije. Štaviše, **Bitcoin Mining** često koristi neiskorišćene ili obnovljive izvore energije, što ga čini ekološki prihvatljivijim nego što se često prikazuje.
+Jedna od najčešćih kritika na račun Bitcoin je njegova **potrošnja energije**. Iako Bitcoin [Mining](https://planb.academy/resources/glossary/mining) koristi energiju, on čini manje od 1% globalne potrošnje električne energije i manje od 3% izgubljene energije. Štaviše, **Bitcoin Mining** često koristi neiskorišćene ili obnovljive izvore energije, što ga čini ekološki prihvatljivijim nego što se često prikazuje.
 
 
 **Definicije:**
@@ -362,7 +362,7 @@ Bitcoin se često kritikuje zbog korišćenja u kriminalnim aktivnostima. Međut
 **Definicije:**
 
 
-- _Fungibilnost:_ Svojstvo novca gde je svaka jedinica zamenljiva drugom, obezbeđujući jednaku vrednost.
+- _[Fungibilnost](https://planb.academy/resources/glossary/fungibility):_ Svojstvo novca gde je svaka jedinica zamenljiva drugom, obezbeđujući jednaku vrednost.
 
 ### Rukovanje FUD-om i tržišnom dinamikom
 
@@ -397,7 +397,7 @@ U prvom predavanju 4. modula, istražili smo arhitekturu Bitcoin i instalaciju B
 
 **1. Uvodni rezime**
 
-Dobrodošli nazad! U prethodnoj sesiji pokrili smo osnovne pojmove iza arhitekture Bitcoin, uključujući njene kriptografske osnove i strukturu peer-to-peer mreže. Danas ćemo preći sa teorije na praksu demonstrirajući kako instalirati i konfigurisati Bitcoin čvor.
+Dobrodošli nazad! U prethodnoj sesiji pokrili smo osnovne pojmove iza arhitekture Bitcoin, uključujući njene kriptografske osnove i strukturu [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) mreže. Danas ćemo preći sa teorije na praksu demonstrirajući kako instalirati i konfigurisati Bitcoin čvor.
 
 
 **2. Pregled praktične sesije**
@@ -405,7 +405,7 @@ Dobrodošli nazad! U prethodnoj sesiji pokrili smo osnovne pojmove iza arhitektu
 U ovoj sesiji, Alekos će nas provesti kroz proces postavljanja Bitcoin čvora koristeći virtuelnu mašinu. Ovaj praktični vodič je dizajniran da vas upozna sa koracima uključenim u konfigurisanje vašeg čvora za učešće u Bitcoin mreži.
 
 
-Pokretanje Bitcoin čvora uključuje validaciju transakcija i blokova, sprovođenje pravila konsenzusa i podršku decentralizaciji mreže. Postavljanje čvora osigurava direktnu vezu sa Bitcoin mrežom, omogućavajući vam da doprinesete njenoj sigurnosti i integritetu.
+Pokretanje Bitcoin čvora uključuje validaciju transakcija i blokova, sprovođenje pravila [konsenzusa](https://planb.academy/resources/glossary/consensus) i podršku decentralizaciji mreže. Postavljanje čvora osigurava direktnu vezu sa Bitcoin mrežom, omogućavajući vam da doprinesete njenoj sigurnosti i integritetu.
 
 
 U ovom predavanju, naći ćete vodič za instalaciju i pokretanje vašeg sopstvenog Bitcoin core, naučiti kako da obrežete Blockchain kako biste uštedeli prostor, i započeti eksperimentisanje sa softverom. Alekos će vas voditi korak po korak kroz ovaj uzbudljiv proces.
@@ -849,7 +849,7 @@ Specter je desktop Wallet dizajniran da olakša kreiranje i upravljanje Bitcoin 
 Uređaj Ledger, popularni Hardware Wallet, poznat je po svojoj robusnoj sigurnosti. Međutim, kompanija iza Ledger suočila se sa ispitivanjem zbog raznih kontroverzi u vezi sa privatnošću korisničkih podataka. Razumevanje razlike između sigurnosti fizičkog uređaja i praksi kompanije je ključno za informisano korišćenje.
 
 
-**Bezbednosni modeli: važnost multi-sig novčanika i raznovrsnog hardvera**
+**Bezbednosni modeli: važnost multi-sig [novčanika](https://planb.academy/resources/glossary/wallet) i raznovrsnog hardvera**
 
 
 Ključni aspekt sigurnosti Bitcoin je korišćenje multi-potpisnih (multi-sig) novčanika. multi-sig novčanici zahtevaju više privatnih ključeva za autorizaciju transakcije, što značajno poboljšava sigurnost. Pored toga, korišćenje različitih tipova hardverskih novčanika diversifikuje rizik i jača sigurnosni model.
@@ -1028,7 +1028,7 @@ Napori da se poboljša upotrebljivost Bitcoin često dolaze na račun sigurnosti
 #### Skalabilnost i kompromisi privatnosti
 
 
-Skalabilnost i privatnost često su u sukobu u Bitcoin mreži. Poboljšanja koja unapređuju skalabilnost, kao što su veći UTXO-ovi ili smanjena kriptografska obfuscacija, generalno umanjuju privatnost. S druge strane, tehnike fokusirane na privatnost, poput Monero-ovih prstenastih potpisa, poboljšavaju anonimnost korisnika, ali negativno utiču na skalabilnost. Nadalje, uvođenje stateful ugovora, kao što je viđeno u Ethereum-u, nudi povećanu fleksibilnost na račun smanjene sigurnosti i skalabilnosti. Balansiranje ovih kompromisa je složen izazov koji zahteva pažljivo razmatranje.
+Skalabilnost i privatnost često su u sukobu u Bitcoin mreži. Poboljšanja koja unapređuju skalabilnost, kao što su veći [UTXO](https://planb.academy/resources/glossary/utxo)-ovi ili smanjena kriptografska obfuscacija, generalno umanjuju privatnost. S druge strane, tehnike fokusirane na privatnost, poput Monero-ovih prstenastih potpisa, poboljšavaju anonimnost korisnika, ali negativno utiču na skalabilnost. Nadalje, uvođenje stateful ugovora, kao što je viđeno u Ethereum-u, nudi povećanu fleksibilnost na račun smanjene sigurnosti i skalabilnosti. Balansiranje ovih kompromisa je složen izazov koji zahteva pažljivo razmatranje.
 
 
 ### Tehnike privatnosti
@@ -1164,7 +1164,7 @@ Da bi se zaštitili izbori, na primer, može se sprovesti nepristrasni nadzor il
 #### Provera poverenja
 
 
-Provera poverenja može biti ilustrovana sa PGP (Pretty Good Privacy) verifikacijom. Verifikovanjem otisaka prstiju i potpisa PGP ključeva, korisnici mogu uspostaviti autentičnost digitalnih identiteta. Slične prakse su ključne u proveri integriteta softvera kroz Hash podudaranje (npr. SHA-256).
+Provera poverenja može biti ilustrovana sa PGP (Pretty Good Privacy) verifikacijom. Verifikovanjem otisaka prstiju i potpisa PGP ključeva, korisnici mogu uspostaviti autentičnost digitalnih identiteta. Slične prakse su ključne u proveri integriteta softvera kroz Hash podudaranje (npr. [SHA-256](https://planb.academy/resources/glossary/sha256)).
 
 
 #### Uspostavljanje puteva poverenja
@@ -1334,7 +1334,7 @@ U ovom odeljku ćemo istražiti primenu ovih koncepata u razvoju Bitcoin u stvar
 **Implikacije bezbednosti**: Istorijski primeri pokazuju značajne finansijske gubitke zbog ponovne upotrebe Nonce. Razumevanje važnosti generisanja jedinstvenih nonce-a je ključno. Korišćenje pouzdanih biblioteka kao što je LibSecP256k1 obezbeđuje robusne i sigurne kriptografske operacije.
 
 
-**Elliptic Curve Cryptography (ECC)**: Šeme potpisa su evoluirale od identitetskih protokola do šema poput Schnorr potpisa, trenutno korišćenih u Bitcoin (BIP 340). Poznavanje eliptičnih krivih i aritmetike konačnih polja osigurava sigurne kriptografske implementacije.
+**Elliptic Curve Cryptography (ECC)**: Šeme potpisa su evoluirale od identitetskih protokola do šema poput [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol) potpisa, trenutno korišćenih u Bitcoin ([BIP](https://planb.academy/resources/glossary/bip) 340). Poznavanje eliptičnih krivih i aritmetike konačnih polja osigurava sigurne kriptografske implementacije.
 
 
 **Opšti saveti za programere**: Kriptografski protokoli moraju proći temeljne recenzije od strane stručnjaka. Programeri moraju biti precizni i potpuno razumeti svaki korak kriptografskih procedura. Svest o uobičajenim zamkama u implementaciji kriptografije može sprečiti značajne ranjivosti.
@@ -1346,7 +1346,7 @@ U ovom odeljku ćemo istražiti primenu ovih koncepata u razvoju Bitcoin u stvar
 #### Zaključak
 
 
-U ovom predavanju, istražili smo osnovne kriptografske koncepte koji podržavaju sigurnost i funkcionalnost Bitcoin. Od ključnih uloga Hash funkcija, Merkle stabala i digitalnih potpisa do složene matematike eliptičke kriptografije, ovi Elements čine okosnicu decentralizovane mreže Bitcoin. Razumevanje ovih koncepata nije samo u shvatanju teorije—radi se o prepoznavanju praktičnih implikacija i potencijalnih zamki u razvoju u stvarnom svetu.
+U ovom predavanju, istražili smo osnovne kriptografske koncepte koji podržavaju sigurnost i funkcionalnost Bitcoin. Od ključnih uloga Hash funkcija, [Merkle stabala](https://planb.academy/resources/glossary/merkle-tree) i digitalnih potpisa do složene matematike eliptičke kriptografije, ovi Elements čine okosnicu decentralizovane mreže Bitcoin. Razumevanje ovih koncepata nije samo u shvatanju teorije—radi se o prepoznavanju praktičnih implikacija i potencijalnih zamki u razvoju u stvarnom svetu.
 
 
 Kao Bitcoin developeri, neophodno je pristupiti kriptografskim implementacijama sa oprezom i preciznošću. Bezbednost Bitcoin mreže u velikoj meri zavisi od pravilne i sigurne primene ovih kriptografskih principa. Bilo da verifikujete transakcije, dizajnirate nove funkcije ili osiguravate integritet Blockchain, duboko poznavanje kriptografije omogućiće vam da izgradite robusnija, sigurnija i inovativnija rešenja unutar Bitcoin ekosistema.
@@ -1488,7 +1488,7 @@ Složenost Mining u kontekstu Bitcoin prvenstveno uključuje tehnički i strate�
 
 4. **BTC cena**: BTC cena je ključna za određivanje profitabilnosti Mining.
 
-5. **Težina mreže**: Težina mreže predstavlja količinu Hashrate u proseku potrebnu za rudarenje bloka u 10 minuta.
+5. **[Težina](https://planb.academy/resources/glossary/difficulty) mreže**: Težina mreže predstavlja količinu Hashrate u proseku potrebnu za rudarenje bloka u 10 minuta.
 
 6. **Strateški alati**: Alati kao što je [braiins.com](https://insights.braiins.com) su neprocenjivi za izračunavanje profitabilnosti i pomoć rudarima da donose odluke zasnovane na podacima.
 
@@ -1999,7 +1999,7 @@ Dodajte tvrdnje kako biste potvrdili da nijedan bajt nije ostao neparsiran nakon
 #### Posebni slučajevi kao što su coinbase transakcije
 
 
-Transakcije Coinbase, koje su prva transakcija u bloku korišćena za potraživanje Block reward, imaju jedinstvene karakteristike. Moramo pravilno obraditi ove posebne slučajeve.
+Transakcije [Coinbase](https://planb.academy/resources/glossary/coinbase-transaction), koje su prva transakcija u bloku korišćena za potraživanje Block reward, imaju jedinstvene karakteristike. Moramo pravilno obraditi ove posebne slučajeve.
 
 
 ```Rust
@@ -2618,7 +2618,7 @@ Za Address ova ograničenja, Manny Rosenfeld je 2012. godine predložio koncept 
 ### Hashed Time Lock Contract (HTLC) i implementacija
 
 
-Ograničenja i nedostaci centralizovanih čvorišta zahtevali su sigurnije i decentralizovano rešenje. Ova potreba je dovela do razvoja Hashed Time Lock Contract (HTLC), koji su 2015. godine predložili Joseph Poon i Thaddeus Dreijer kao deo Lightning Network. HTLCs kombinuju principe vremenskih zaključavanja i Hash zaključavanja kako bi osigurali atomarnost i nepovredivost u transakcijama. To znači da se transakcija ili u potpunosti završi ili se uopšte ne dogodi, čime se smanjuju rizici povezani sa nepotpunim plaćanjima.
+Ograničenja i nedostaci centralizovanih čvorišta zahtevali su sigurnije i decentralizovano rešenje. Ova potreba je dovela do razvoja Hashed Time Lock Contract ([HTLC](https://planb.academy/resources/glossary/htlc)), koji su 2015. godine predložili Joseph Poon i Thaddeus Dreijer kao deo Lightning Network. HTLCs kombinuju principe vremenskih zaključavanja i Hash zaključavanja kako bi osigurali atomarnost i nepovredivost u transakcijama. To znači da se transakcija ili u potpunosti završi ili se uopšte ne dogodi, čime se smanjuju rizici povezani sa nepotpunim plaćanjima.
 
 
 Tok rada HTLC uključuje višestepeni proces koji osigurava sigurno usmeravanje kroz više posrednika. Pretpostavimo da Alice želi da plati Ericu preko posrednika Bob, Carol i Diana. Svaki korak u procesu uključuje kreiranje Commitment transakcija sa smanjujućim vremenskim zaključavanjima i iznosima. Ako je potrebno, poslednji korak može biti emitovan na Bitcoin mrežu kako bi se finalizovala transakcija.
@@ -2710,7 +2710,7 @@ U suštini, Lightning Network dopunjuje mrežu Bitcoin rešavajući njene nedost
 ### **Specifikacije Lightning Network**
 
 
-Protokol Lightning Network je precizno definisan kroz 10 BOLT-ova (Osnova Tehnologije Munje). Ovi BOLT-ovi su dogovoreni tokom konferencije u Milanu i služe kao osnova za različite implementacije Lightning Network.
+Protokol Lightning Network je precizno definisan kroz 10 [BOLT-ova](https://planb.academy/resources/glossary/bolt) (Osnova Tehnologije Munje). Ovi BOLT-ovi su dogovoreni tokom konferencije u Milanu i služe kao osnova za različite implementacije Lightning Network.
 
 
 ![bolt](assets/en/049.webp)_BOLT Diagram _
@@ -2784,7 +2784,7 @@ Plaćanja se usmeravaju koristeći Onion routing, što podrazumeva kreiranje enk
 ### struktura Invoice
 
 
-Fakture Lightning Network (Bolt 11) su kodirane u Bech32 i uključuju detalje kao što su plaćanje Hash, opis i isteknuće. Svaki Invoice mora biti korišćen jednom kako bi se sprečili problemi ponovne upotrebe.
+[Fakture](https://planb.academy/resources/glossary/invoice-lightning) Lightning Network (Bolt 11) su kodirane u Bech32 i uključuju detalje kao što su plaćanje Hash, opis i isteknuće. Svaki Invoice mora biti korišćen jednom kako bi se sprečili problemi ponovne upotrebe.
 
 
 ![Invoice structure](assets/en/051.webp)_BOLT11 Invoice_
@@ -3450,5 +3450,5 @@ Proširenje i integracija Lightning plaćanja kroz različite protokole i sluča
 
 :::video id=b89f2064-f2e1-49c3-97d0-580891eee1dd:::
 
-Adam Gibson nudi uvid u Joinmarket, objašnjavajući kako ova implementacija CoinJoin poboljšava privatnost i fungibilnost Bitcoin. On diskutuje o tome kako Joinmarket omogućava kolaborativne, Trustless, i anonimne transakcije unutar Bitcoin ekosistema. Zatim u drugom delu, pokazuje kako pokrenuti Joinmarket u Signet.
+Adam Gibson nudi uvid u Joinmarket, objašnjavajući kako ova implementacija [CoinJoin](https://planb.academy/resources/glossary/coinjoin) poboljšava privatnost i fungibilnost Bitcoin. On diskutuje o tome kako Joinmarket omogućava kolaborativne, Trustless, i anonimne transakcije unutar Bitcoin ekosistema. Zatim u drugom delu, pokazuje kako pokrenuti Joinmarket u Signet.
 

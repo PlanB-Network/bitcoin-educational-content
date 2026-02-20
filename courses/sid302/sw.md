@@ -63,22 +63,22 @@ Jijumuishe katika ulimwengu wa Liquid sidechain na ufungue uwezo wake kamili sas
 ### Usanifu wa Liquid Network na Mfano wa Makubaliano
 
 
-Liquid Network ni mnyororo wa kando uliounganishwa uliojengwa kwenye msingi wa msimbo wa Elements, iliyoundwa kupanua uwezo wa Bitcoin huku ikitegemea usalama wake wa msingi. Tofauti na Proof-of-Work ya Bitcoin, Liquid inafanya kazi kwa mfumo wa Makubaliano ya Shirikisho. Mtandao huu unadumishwa na kundi la wanachama waliosambaa duniani kote, ikiwa ni pamoja na kubadilishana, dawati la biashara, na watoa huduma za miundombinu. Kutoka kwa uanachama huu, "watendaji" kumi na watano huchaguliwa kutenda kama watia saini wa vitalu.
+Liquid Network ni mnyororo wa kando uliounganishwa uliojengwa kwenye msingi wa msimbo wa Elements, iliyoundwa kupanua uwezo wa Bitcoin huku ikitegemea usalama wake wa msingi. Tofauti na [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) ya Bitcoin, Liquid inafanya kazi kwa mfumo wa [Makubaliano](https://planb.academy/resources/glossary/consensus) ya Shirikisho. Mtandao huu unadumishwa na kundi la wanachama waliosambaa duniani kote, ikiwa ni pamoja na kubadilishana, dawati la biashara, na watoa huduma za miundombinu. Kutoka kwa uanachama huu, "watendaji" kumi na watano huchaguliwa kutenda kama watia saini wa [vitalu](https://planb.academy/resources/glossary/block).
 
 
-Watendaji hawa hutoa vitalu kwa mtindo wa mzunguko wa robin unaoamua, huku kizuizi kipya kikitolewa kila dakika. Muda huu sahihi unasimama tofauti na vipindi vya dakika kumi vya uwezekano wa Bitcoin. Ili kizuizi kiwe halali, kinahitaji sahihi kutoka kwa angalau watendaji 11 kati ya 15 (theluthi mbili pamoja na kizingiti kimoja). Utaratibu huu hutoa Liquid na "mwisho wa vitalu viwili," ikimaanisha kwamba mara tu muamala unapokuwa na uthibitisho mbili (takriban dakika mbili), haiwezekani kimahesabu kupanga upya mnyororo. Kasi na uhakika huu ni muhimu kwa usuluhishi, biashara otomatiki, na utatuzi wa haraka wa kubadilishana.
+Watendaji hawa hutoa vitalu kwa mtindo wa mzunguko wa robin unaoamua, huku kizuizi kipya kikitolewa kila dakika. Muda huu sahihi unasimama tofauti na vipindi vya dakika kumi vya uwezekano wa Bitcoin. Ili kizuizi kiwe halali, kinahitaji sahihi kutoka kwa angalau watendaji 11 kati ya 15 (theluthi mbili pamoja na kizingiti kimoja). Utaratibu huu hutoa Liquid na "mwisho wa vitalu viwili," ikimaanisha kwamba mara tu [muamala](https://planb.academy/resources/glossary/transaction-tx) unapokuwa na uthibitisho mbili (takriban dakika mbili), haiwezekani kimahesabu kupanga upya mnyororo. Kasi na uhakika huu ni muhimu kwa usuluhishi, biashara otomatiki, na utatuzi wa haraka wa kubadilishana.
 
 
-Shirikisho linabadilika. Kupitia itifaki ya Shirikisho Linalobadilika (Dynafed), mtandao unaweza kuzungusha vitendaji au kusasisha vigezo bila kuhitaji fork ngumu. Hii inaruhusu mfumo kubadilika na kubadilisha vifaa au wanachama bila shida huku ukidumisha uendeshaji endelevu.
+Shirikisho linabadilika. Kupitia itifaki ya Shirikisho Linalobadilika (Dynafed), mtandao unaweza kuzungusha vitendaji au kusasisha vigezo bila kuhitaji [fork](https://planb.academy/resources/glossary/fork) ngumu. Hii inaruhusu mfumo kubadilika na kubadilisha vifaa au wanachama bila shida huku ukidumisha uendeshaji endelevu.
 
 
 ### Confidential Transactions na Usimamizi wa Mali
 
 
-Kipengele kinachofafanua Liquid ni usaidizi wake wa asili kwa Confidential Transactions (CT) na mali nyingi. Kwenye mnyororo mkuu wa Bitcoin, maelezo yote ya muamala—mtumaji, mpokeaji, na kiasi—ni ya umma. Katika Liquid, CT hutumia ahadi za kriptografia kuficha aina ya mali na kiasi kutoka kwa leja ya umma huku bado ikiruhusu mtandao kuthibitisha kwamba muamala ni halali (yaani, hakuna mfumuko wa bei uliotokea). Ni washiriki walio na funguo za kuficha pekee ndio wanaweza kuona thamani maalum, wakitoa kiwango cha faragha ya kibiashara muhimu kwa taasisi zinazohamia nafasi kubwa.
+Kipengele kinachofafanua Liquid ni usaidizi wake wa asili kwa Confidential Transactions (CT) na mali nyingi. Kwenye mnyororo mkuu wa Bitcoin, maelezo yote ya muamala—mtumaji, mpokeaji, na kiasi—ni ya umma. Katika Liquid, CT hutumia ahadi za kriptografia kuficha aina ya mali na kiasi kutoka kwa leja ya umma huku bado ikiruhusu mtandao kuthibitisha kwamba muamala ni halali (yaani, hakuna [mfumuko wa bei](https://planb.academy/resources/glossary/inflation) uliotokea). Ni washiriki walio na funguo za kuficha pekee ndio wanaweza kuona thamani maalum, wakitoa kiwango cha faragha ya kibiashara muhimu kwa taasisi zinazohamia nafasi kubwa.
 
 
-Liquid huchukulia mali zote kama raia "wa asili" wa blockchain. Hii inajumuisha Liquid Bitcoin (LBTC), sarafu thabiti kama USDT, na tokeni za usalama. Kutoa mali hakuhitaji mikataba tata mahiri; ni kazi ya msingi ya itifaki.
+Liquid huchukulia mali zote kama raia "wa asili" wa [blockchain](https://planb.academy/resources/glossary/blockchain). Hii inajumuisha Liquid Bitcoin (LBTC), sarafu thabiti kama USDT, na tokeni za usalama. Kutoa mali hakuhitaji mikataba tata mahiri; ni kazi ya msingi ya itifaki.
 
 
 #### Mali Zinazodhibitiwa na AMP
@@ -97,7 +97,7 @@ Mchakato wa "kuondoa pesa" huwawezesha watumiaji kukomboa LBTC kwa Bitcoin. Hii 
 
 #### Moduli za Usalama wa Vifaa (HSMs)
 
-Usalama unatekelezwa kwa ukamilifu kupitia vifaa. Watendaji hawaweki funguo za kibinafsi kwenye seva za kawaida; badala yake, wanatumia Moduli za Usalama wa Vifaa (HSMs). Vifaa hivi vimetenganishwa na mantiki ya seva mwenyeji na vimepangwa kwa sheria kali. Kwa mfano, HSM itakataa kusaini kizuizi ikiwa urefu wake si mkubwa kuliko ule uliopita, na kuzuia historia kuandikwa upya. Mfumo huu wa usalama wa "upinzani" unadhania kuwa seva mwenyeji inaweza kuathiriwa, na kuhakikisha funguo zinabaki salama hata kama eneo halisi limevunjwa.
+Usalama unatekelezwa kwa ukamilifu kupitia vifaa. Watendaji hawaweki [funguo za kibinafsi](https://planb.academy/resources/glossary/private-key) kwenye seva za kawaida; badala yake, wanatumia Moduli za Usalama wa Vifaa (HSMs). Vifaa hivi vimetenganishwa na mantiki ya seva mwenyeji na vimepangwa kwa sheria kali. Kwa mfano, HSM itakataa kusaini kizuizi ikiwa urefu wake si mkubwa kuliko ule uliopita, na kuzuia historia kuandikwa upya. Mfumo huu wa usalama wa "upinzani" unadhania kuwa seva mwenyeji inaweza kuathiriwa, na kuhakikisha funguo zinabaki salama hata kama eneo halisi limevunjwa.
 
 
 ## Misingi ya Elements
@@ -114,7 +114,7 @@ Usalama unatekelezwa kwa ukamilifu kupitia vifaa. Watendaji hawaweki funguo za k
 Elements ni jukwaa la blockchain la chanzo huria linalotokana na msimbo wa Bitcoin Core. Inapanua utendaji wa Bitcoin kwa kuwezesha minyororo ya kando—minyororo ya kuzuia isiyojitegemea ambayo inaweza kuhamisha mali kwenda na kutoka Bitcoin. Ingawa Bitcoin Core inaendesha mtandao wa Bitcoin, Elements ni injini ya programu nyuma ya minyororo ya kando mingine maalum.
 
 
-Uhusiano ni rahisi: Liquid ni "mfano" maalum wa mnyororo wa kando wa Elements, ulioundwa kwa ajili ya matumizi ya uzalishaji na modeli ya makubaliano ya pamoja. Wasanidi programu wanaofahamu Bitcoin watapata Elements kuwa rahisi, kwani inahifadhi kiolesura sawa cha RPC (Wito wa Utaratibu wa Mbali) na muundo wa mstari wa amri (`elements-cli`, `elements-d`, `elements-qt`). Tofauti kuu iko katika usanidi: kuweka `chain=liquidv1` huunganisha nodi kwenye mtandao mkuu wa Liquid, huku `chain=elementsregtest` ikizungusha mazingira ya majaribio ya urejeshaji wa ndani ambapo watengenezaji wanaweza kuzuia generate mara moja na kujaribu bila utegemezi wa nje.
+Uhusiano ni rahisi: Liquid ni "mfano" maalum wa mnyororo wa kando wa Elements, ulioundwa kwa ajili ya matumizi ya uzalishaji na modeli ya makubaliano ya pamoja. Wasanidi programu wanaofahamu Bitcoin watapata Elements kuwa rahisi, kwani inahifadhi kiolesura sawa cha RPC (Wito wa Utaratibu wa Mbali) na muundo wa mstari wa amri (`elements-cli`, `elements-d`, `elements-qt`). Tofauti kuu iko katika usanidi: kuweka `chain=liquidv1` huunganisha [nodi](https://planb.academy/resources/glossary/node) kwenye mtandao mkuu wa Liquid, huku `chain=elementsregtest` ikizungusha mazingira ya majaribio ya urejeshaji wa ndani ambapo watengenezaji wanaweza kuzuia generate mara moja na kujaribu bila utegemezi wa nje.
 
 
 #### Utoaji wa Mali
@@ -152,7 +152,7 @@ Kuingiliana na nodi ya Elements hufanywa hasa kupitia kiolesura chake cha JSON-R
 
 - Usanidi:** Msanidi programu kwa kawaida huanza katika hali ya `regtest`. Hii inaruhusu uzalishaji wa papo hapo wa vitalu (`generateblock`) ili kuthibitisha miamala mara moja, ikipita muda wa kuzuia wa dakika 1 wa mtandao wa moja kwa moja.
 - Amri:** Amri za kawaida za Bitcoin kama vile `getblockchaininfo` zinapatikana, pamoja na amri maalum za Elements kama vile `dumpblindingkey` (kwa ajili ya kukagua CTs) au `pegin` (kwa ajili ya kuhamisha BTC kwenye mnyororo wa pembeni).
-- Majina bandia:** Ili kudhibiti nodi nyingi (k.m., "mtumaji" na "mpokeaji" kwa ajili ya majaribio), watengenezaji mara nyingi hutumia majina bandia kama vile `e1-cli` na `e2-cli` wakielekeza kwenye saraka tofauti za data, wakiiga mtandao wa rika-kwa-rika kwenye mashine moja.
+- Majina bandia:** Ili kudhibiti nodi nyingi (k.m., "mtumaji" na "mpokeaji" kwa ajili ya majaribio), watengenezaji mara nyingi hutumia majina bandia kama vile `e1-cli` na `e2-cli` wakielekeza kwenye saraka tofauti za data, wakiiga mtandao wa [rika-kwa-rika](https://planb.academy/resources/glossary/peertopeer-p2p) kwenye mashine moja.
 
 
 Usanifu huu unawawezesha watengenezaji kujenga programu za kifedha za kisasa—kama vile majukwaa ya dhamana au malango ya malipo ya kibinafsi—kwa kutumia zana imara na zinazojulikana za mfumo ikolojia wa Bitcoin.
@@ -169,10 +169,10 @@ Usanifu huu unawawezesha watengenezaji kujenga programu za kifedha za kisasa—k
 ### Miundombinu na HTLC za Mtambuka-Layer
 
 
-Mfumo ikolojia wa Bitcoin umebadilika na kuwa usanifu wa tabaka nyingi, huku Mainchain ikitoa makazi, Umeme ukitoa kasi, na Liquid ikiwezesha uwezo wa hali ya juu wa mali. Kuhamisha thamani kati ya tabaka hizi bila wapatanishi wa kati kunahitaji mfumo wa awali wa kriptografia usioaminika: Hash Time Locked Contract (HTLC).
+Mfumo ikolojia wa Bitcoin umebadilika na kuwa usanifu wa tabaka nyingi, huku Mainchain ikitoa makazi, Umeme ukitoa kasi, na Liquid ikiwezesha uwezo wa hali ya juu wa mali. Kuhamisha thamani kati ya tabaka hizi bila wapatanishi wa kati kunahitaji mfumo wa awali wa kriptografia usioaminika: Hash Time Locked Contract ([HTLC](https://planb.academy/resources/glossary/htlc)).
 
 
-HTLC huunda njia ya malipo ya masharti inayounganisha mifumo huru kiatomiki. Inafanya kazi kupitia vikwazo viwili vya msingi: **kufuli la hashi** na **kufuli la muda**.
+HTLC huunda [njia ya malipo](https://planb.academy/resources/glossary/payment-channel) ya masharti inayounganisha mifumo huru kiatomiki. Inafanya kazi kupitia vikwazo viwili vya msingi: **kufuli la [hashi](https://planb.academy/resources/glossary/hash-function)** na **kufuli la muda**.
 
 
 - Kufuli la Hash:** Fedha zinaweza kutumika mara moja ikiwa mpokeaji atafichua "picha ya awali" ya siri inayolingana na hashi maalum ya usimbaji wa siri.
@@ -185,20 +185,20 @@ Muundo huu wa njia mbili huhakikisha usalama. Katika ubadilishaji wa safu mtambu
 ### Uboreshaji wa Taproot na MuSig2
 
 
-HTLC za zamani (SegWit v0) zilifanya kazi vizuri lakini zilikumbwa na vikwazo vya faragha na ufanisi. Zilihitaji kuchapisha mantiki nzima ya hati on-chain, na kufanya miamala ya kubadilishana iwe rahisi kutambulika kwa wachambuzi wa blockchain na kuwa ghali zaidi kutokana na ukubwa wa data zao. Kuanzishwa kwa Taproot (SegWit v1) na itifaki ya MuSig2 kumebadilisha usanifu huu.
+HTLC za zamani ([SegWit](https://planb.academy/resources/glossary/segwit) v0) zilifanya kazi vizuri lakini zilikumbwa na vikwazo vya faragha na ufanisi. Zilihitaji kuchapisha mantiki nzima ya [hati](https://planb.academy/resources/glossary/script) on-chain, na kufanya miamala ya kubadilishana iwe rahisi kutambulika kwa wachambuzi wa blockchain na kuwa ghali zaidi kutokana na ukubwa wa data zao. Kuanzishwa kwa [Taproot](https://planb.academy/resources/glossary/taproot) (SegWit v1) na itifaki ya MuSig2 kumebadilisha usanifu huu.
 
 
 Taproot inaruhusu **Ujumlishaji wa Funguo** kupitia MuSig2. Badala ya kufichua hati changamano yenye funguo nyingi za umma, MuSig2 huwaruhusu washiriki wa kubadilishana kuchanganya funguo zao na kuwa ufunguo mmoja wa umma uliojumlishwa.
 
 
 - "Njia Muhimu ya Ushirika":** Ikiwa pande zote mbili zinakubali kubadilishana ("njia ya furaha"), wanasaini kwa pamoja muamala. Kwa mtandao, hii inaonekana sawa na malipo ya kawaida, yenye sahihi moja. Inatumia nafasi ndogo ya kuzuia na haionyeshi taarifa yoyote kuhusu masharti ya kubadilishana.
-- "Njia ya Hati ya Upinzani":** Ikiwa upande mmoja hautaitikia au kuwa na nia mbaya, hati ya msingi (iliyo na hash/time locks) hufichuliwa hapo tu. Hii imepangwa katika mti wa Merkle, ikiruhusu upande mwaminifu kufichua tawi maalum linalohitajika ili kurejesha fedha, na kuweka mantiki iliyobaki ya mkataba ikiwa imefichwa.
+- "Njia ya Hati ya Upinzani":** Ikiwa upande mmoja hautaitikia au kuwa na nia mbaya, hati ya msingi (iliyo na hash/time locks) hufichuliwa hapo tu. Hii imepangwa katika [mti wa Merkle](https://planb.academy/resources/glossary/merkle-tree), ikiruhusu upande mwaminifu kufichua tawi maalum linalohitajika ili kurejesha fedha, na kuweka mantiki iliyobaki ya mkataba ikiwa imefichwa.
 
 
 ### Utekelezaji wa Vitendo: Liquid-Lightning Swaps
 
 
-Kwa vitendo, itifaki hizi huwezesha ubadilishanaji usio na mshono kati ya tabaka za Bitcoin. Ubadilishaji wa kawaida wa Liquid-hadi-Lightning huanza na mteja kuomba ubadilishanaji kutoka kwa mtoa huduma. Mteja hutoa ankara ya Lightning, na mtoa huduma hufunga Liquid Bitcoin (L-BTC) sawa na hiyo kwenye anwani ya HTLC inayowezeshwa na Taproot.
+Kwa vitendo, itifaki hizi huwezesha ubadilishanaji usio na mshono kati ya tabaka za Bitcoin. Ubadilishaji wa kawaida wa Liquid-hadi-Lightning huanza na mteja kuomba ubadilishanaji kutoka kwa mtoa huduma. Mteja hutoa [ankara ya Lightning](https://planb.academy/resources/glossary/invoice-lightning), na mtoa huduma hufunga Liquid Bitcoin (L-BTC) sawa na hiyo kwenye anwani ya HTLC inayowezeshwa na Taproot.
 
 
 Atomiki hutekelezwa wakati malipo yanapokamilika. Ili kudai L-BTC, mtoa huduma lazima awe na picha ya awali. Wanapata picha hii ya awali tu wanapolipa ankara ya Lightning ya mteja kwa mafanikio. Mara tu malipo ya Lightning yanapokamilika, picha ya awali hufichuliwa, ikimruhusu mtoa huduma kufungua fedha za Liquid.
@@ -206,7 +206,7 @@ Atomiki hutekelezwa wakati malipo yanapokamilika. Ili kudai L-BTC, mtoa huduma l
 
 #### Ufupisho wa Wallet na Usimamizi wa UTXO
 
-Kwa watumiaji wa mwisho, ugumu huu umefupishwa kabisa. Pochi za kisasa kama Aqua hushughulikia uzalishaji muhimu, uundaji wa ankara, na michakato ya kusaini chinichini. Mtumiaji "hulipa" ankara ya Lightning kwa kutumia salio lake la Liquid. Nyuma ya pazia, huduma husimamia ujumuishaji wa UTXO, mara kwa mara huingiza matokeo madogo, yasiyodaiwa, au yanayorejeshwa ili kudumisha ufanisi wa wallet na kupunguza athari za ada wakati wa vipindi vya trafiki nyingi.
+Kwa watumiaji wa mwisho, ugumu huu umefupishwa kabisa. Pochi za kisasa kama Aqua hushughulikia uzalishaji muhimu, uundaji wa ankara, na michakato ya kusaini chinichini. Mtumiaji "hulipa" ankara ya Lightning kwa kutumia salio lake la Liquid. Nyuma ya pazia, huduma husimamia ujumuishaji wa [UTXO](https://planb.academy/resources/glossary/utxo), mara kwa mara huingiza matokeo madogo, yasiyodaiwa, au yanayorejeshwa ili kudumisha ufanisi wa [wallet](https://planb.academy/resources/glossary/wallet) na kupunguza athari za ada wakati wa vipindi vya trafiki nyingi.
 
 
 ## Muhtasari wa Liquid Network
@@ -220,7 +220,7 @@ Kwa watumiaji wa mwisho, ugumu huu umefupishwa kabisa. Pochi za kisasa kama Aqua
 ### Usanifu na Makubaliano ya Liquid Network
 
 
-Liquid Network inafanya kazi kama mnyororo wa kando uliounganishwa uliojengwa juu ya msingi wa msimbo wa **Elements**. Ingawa Elements—fork ya Bitcoin Core—hutoa msingi wa programu, Liquid ni utekelezaji wa mtandao wa uzalishaji. Tofauti na Proof-of-Work ya Bitcoin, ambayo inategemea mining yenye ushindani, Liquid hutumia modeli ya **Makubaliano ya Shirikisho**.
+Liquid Network inafanya kazi kama mnyororo wa kando uliounganishwa uliojengwa juu ya msingi wa msimbo wa **Elements**. Ingawa Elements—fork ya Bitcoin Core—hutoa msingi wa programu, Liquid ni utekelezaji wa mtandao wa uzalishaji. Tofauti na Proof-of-Work ya Bitcoin, ambayo inategemea [mining](https://planb.academy/resources/glossary/mining) yenye ushindani, Liquid hutumia modeli ya **Makubaliano ya Shirikisho**.
 
 
 Mtandao unasimamiwa na "vitengo" kumi na tano vilivyosambazwa duniani kote. Vyombo hivi huendesha seva maalum zinazofanya majukumu mawili muhimu:
@@ -283,7 +283,7 @@ Ili kuhakikisha muda mrefu, Liquid inatumia Dynafed, itifaki inayoruhusu mtandao
 ### Liquid Network: Mkakati wa Biashara na Mfumo Ekolojia
 
 
-Liquid ni zaidi ya mnyororo wa kiufundi; ni safu ya miundombinu inayolenga biashara iliyoundwa kushughulikia mahitaji tata ya masoko ya mitaji ambayo Bitcoin mainchain haiwezi kuhimili kwa ufanisi. Ingawa Lightning Network huboresha malipo ya mara kwa mara na yenye thamani ya chini, Liquid inalenga uhamisho wa thamani ya juu, utoaji wa mali, na malipo kati ya fedha za kigeni.
+Liquid ni zaidi ya mnyororo wa kiufundi; ni safu ya miundombinu inayolenga biashara iliyoundwa kushughulikia mahitaji tata ya masoko ya mitaji ambayo Bitcoin mainchain haiwezi kuhimili kwa ufanisi. Ingawa [Lightning Network](https://planb.academy/resources/glossary/lightning-network) huboresha malipo ya mara kwa mara na yenye thamani ya chini, Liquid inalenga uhamisho wa thamani ya juu, utoaji wa mali, na malipo kati ya fedha za kigeni.
 
 
 Mfumo ikolojia unaendeshwa na **Liquid Federation**, muungano wa makampuni ~73 ikiwa ni pamoja na masoko ya fedha, madawati ya biashara, na watoa huduma za miundombinu. Mfumo huu wa ushirikiano unaakisi mifumo ya kawaida ya kifedha lakini hufanya kazi kwa uwazi zaidi na muda wa malipo uliopunguzwa kwa kiasi kikubwa (dakika 2 dhidi ya siku T+2).
@@ -358,7 +358,7 @@ Pendekezo la thamani kuu la jukwaa hili linategemea uwezo mbili kuu: mwonekano k
 
 #### Makubaliano ya Uendeshaji
 
-Usanifu huu unaleta mabadiliko maalum. Mfumo hutegemea upatikanaji wa seva ya AMP; ikiwa seva itatenda kama mshiriki wa kusaini na kuacha kufanya kazi nje ya mtandao, ukwasi wa mali husimama. Zaidi ya hayo, huku faragha ya mtumiaji kwa mtumiaji ikidumishwa, wawekezaji lazima wakubali kwamba mtoaji ana mwonekano kamili katika umiliki wake. Mfano huu ni bora kwa tokeni za usalama zinazofuata sheria lakini haufai kwa sarafu za kidijitali zinazostahimili udhibiti.
+Usanifu huu unaleta mabadiliko maalum. Mfumo hutegemea upatikanaji wa seva ya AMP; ikiwa seva itatenda kama mshiriki wa kusaini na kuacha kufanya kazi nje ya mtandao, ukwasi wa mali husimama. Zaidi ya hayo, huku faragha ya mtumiaji kwa mtumiaji ikidumishwa, wawekezaji lazima wakubali kwamba mtoaji ana mwonekano kamili katika umiliki wake. Mfano huu ni bora kwa tokeni za usalama zinazofuata sheria lakini haufai kwa [sarafu za kidijitali](https://planb.academy/resources/glossary/cryptocurrency) zinazostahimili udhibiti.
 
 
 ### Mageuzi ya Usanifu na Njia za Ujumuishaji

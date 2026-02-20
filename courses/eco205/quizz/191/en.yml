@@ -1,0 +1,8 @@
+question: According to the Austrian school of thought, why is Bitcoin a better economic calculation than fiat currencies?
+answer: Because it escapes state control and allows the emergence of prices that truly reflect supply and demand
+wrong_answers:
+  - "Because it uses blockchain technology that automates complex economic calculations."
+  - "Because it completely eliminates financial intermediaries and reduces transaction costs"
+  - "Because it allows perfect traceability of all economic transactions"
+explanation: |
+  Ludwig von Mises demonstrated that economic calculation requires free, unmanipulated prices. Bitcoin, with its fixed supply and immutable protocol, escapes central bank manipulations that distort price signals. Prices expressed in bitcoin thus reflect true time preferences and opportunity costs, unlike fiat currencies corrupted by monetary inflation, which make this economic calculation increasingly difficult.

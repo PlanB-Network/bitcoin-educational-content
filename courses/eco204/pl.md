@@ -65,7 +65,7 @@ Co by było, gdyby historia monetarna powtarzała się na naszych oczach? Ty bę
 ### Definicje inflacji
 
 
-Inflacja to pojęcie, które jest często źle rozumiane ze względu na jego liczne definicje i interpretacje. Postrzeganie inflacji różni się w różnych grupach, takich jak bitcoinery i tradycyjni ekonomiści. Najpierw wyjaśnijmy definicje, zanim omówimy hiperinflację:
+[Inflacja](https://planb.academy/resources/glossary/inflation) to pojęcie, które jest często źle rozumiane ze względu na jego liczne definicje i interpretacje. Postrzeganie inflacji różni się w różnych grupach, takich jak bitcoinery i tradycyjni ekonomiści. Najpierw wyjaśnijmy definicje, zanim omówimy hiperinflację:
 
 
 
@@ -111,7 +111,7 @@ Inną metodą było zmniejszenie ilości metali szlachetnych w walutach opartych
 ![image](assets/pl/002.webp)
 
 
-Należy podkreślić, że hiperinflację obserwuje się głównie w przypadku walut fiducjarnych, które nie są zabezpieczone aktywami bazowymi, takimi jak metale szlachetne. W przeszłości, gdy waluta była oparta na takich aktywach, zdarzały się epizody inflacji (np. poprzez dewaluację zawartości metalu), ale epizody te nigdy nie osiągnęły ekstremalnych poziomów hiperinflacji. W kolejnych sekcjach szczegółowo przeanalizujemy okresy dewaluacji pieniądza i wpływ tych różnych systemów monetarnych na inflację.
+Należy podkreślić, że hiperinflację obserwuje się głównie w przypadku [walut fiducjarnych](https://planb.academy/resources/glossary/fiat), które nie są zabezpieczone aktywami bazowymi, takimi jak metale szlachetne. W przeszłości, gdy waluta była oparta na takich aktywach, zdarzały się epizody inflacji (np. poprzez dewaluację zawartości metalu), ale epizody te nigdy nie osiągnęły ekstremalnych poziomów hiperinflacji. W kolejnych sekcjach szczegółowo przeanalizujemy okresy dewaluacji pieniądza i wpływ tych różnych systemów monetarnych na inflację.
 
 
 ### Badanie okresów dewaluacji monetarnej
@@ -1161,7 +1161,7 @@ Zjawisko firm-zombie nie ogranicza się do powojennych Niemiec. Nawet dziś wiel
 #### 6. Bogać się szybko!
 
 
-Historia ujawnia przypadki, w których jednostki starały się szybko gromadzić bogactwo, jak miało to miejsce w Weimarze i Zimbabwe poprzez arbitraż. Dziś podobny trend można zaobserwować wraz ze wzrostem popularności niektórych kryptowalut. Ludzie są kuszeni szybkimi zyskami, podejmując ryzyko w nadziei na wykładniczy wzrost inwestycji. Podejście to przypomina to obserwowane w okresach hiperinflacji, gdzie arbitraż był wykorzystywany do uzyskiwania szybkich zysków, często kosztem innych.
+Historia ujawnia przypadki, w których jednostki starały się szybko gromadzić bogactwo, jak miało to miejsce w Weimarze i Zimbabwe poprzez arbitraż. Dziś podobny trend można zaobserwować wraz ze wzrostem popularności niektórych [kryptowalut](https://planb.academy/resources/glossary/cryptocurrency). Ludzie są kuszeni szybkimi zyskami, podejmując ryzyko w nadziei na wykładniczy wzrost inwestycji. Podejście to przypomina to obserwowane w okresach hiperinflacji, gdzie arbitraż był wykorzystywany do uzyskiwania szybkich zysków, często kosztem innych.
 
 
 ![image](assets/pl/052.webp)

@@ -1,0 +1,11 @@
+question: Ni msanidi programu gani wa Bitcoin aliyepinga vikali uboreshaji wa Hash wa Pay to Script?
+answer: Luke Dashjr
+wrong_answers:
+  - Amir Taaki
+  - Gregory Maxwell
+  - Gavin Andresen
+explanation: |
+ Luke Dashjr alihisi kwamba pendekezo la OP_EVAL lilikuwa bora zaidi, kwa sababu lilikuwa la kifahari zaidi; kwamba P2SH ilibadilisha mfumo wa hati na "modeli moja maalum".
+ 
+ Pia alimkosoa Gavin kwa kujumuisha kuripoti chaguo-msingi katika programu. Kujibu, Luke-Jr aliunda msimbo wake wa uendeshaji, OP_CHECKHASHVERIFY (BIP 17).
+reviewed: true

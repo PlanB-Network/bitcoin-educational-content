@@ -1,0 +1,10 @@
+question: Jaký protokol zabránil uzavření tržiště Silk Road přímo úřady?
+answer: Tor
+wrong_answers:
+  - I2P
+  - Freenet
+  - BitTorrent
+explanation: |
+ Tor, lexikalizovaný akronym pro The Onion Router, je protokol podporující globální, decentralizovanou překryvnou počítačovou síť (běžně známou jako darknet).
+ Umožňuje anonymní hostování webových stránek bez cenzury a pro projekt Rosse Ulbrichta se ideálně hodil.
+reviewed: true

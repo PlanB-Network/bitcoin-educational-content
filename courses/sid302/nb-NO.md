@@ -63,22 +63,22 @@ Dykk ned i Liquid-sidekjedens verden og utløs dens fulle potensial akkurat nå!
 ### Liquid Network Arkitektur og konsensusmodell
 
 
-Liquid Network er en føderert sidekjede bygget på Elements-kodebasen, designet for å utvide Bitcoins muligheter samtidig som den baserer seg på dens grunnleggende sikkerhet. I motsetning til Bitcoins Proof-of-Work, opererer Liquid på en føderert konsensusmodell. Nettverket vedlikeholdes av en globalt distribuert gruppe av medlemmer, inkludert børser, trading desks og infrastrukturleverandører. Fra denne gruppen velges femten "funksjonærer" ut til å fungere som blokkunderskrivere.
+Liquid Network er en føderert sidekjede bygget på Elements-kodebasen, designet for å utvide Bitcoins muligheter samtidig som den baserer seg på dens grunnleggende sikkerhet. I motsetning til Bitcoins [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work), opererer Liquid på en føderert [konsensusmodell](https://planb.academy/resources/glossary/consensus). Nettverket vedlikeholdes av en globalt distribuert gruppe av medlemmer, inkludert børser, trading desks og infrastrukturleverandører. Fra denne gruppen velges femten "funksjonærer" ut til å fungere som blokkunderskrivere.
 
 
-Disse funksjonærene produserer blokker på en deterministisk måte, med en ny blokk generert hvert minutt. Denne presise timingen står i kontrast til Bitcoins probabilistiske ti-minutters intervaller. For at en blokk skal være gyldig, må den være signert av minst 11 av de 15 funksjonærene (en terskel på to tredjedeler pluss én). Denne mekanismen gir Liquid "to-blokk-finalitet", noe som betyr at når en transaksjon har fått to bekreftelser (omtrent to minutter), er det matematisk umulig å reorganisere kjeden. Denne hastigheten og sikkerheten er avgjørende for arbitrasje, automatisert handel og raske oppgjør mellom børser.
+Disse funksjonærene produserer blokker på en deterministisk måte, med en ny [blokk](https://planb.academy/resources/glossary/block) generert hvert minutt. Denne presise timingen står i kontrast til Bitcoins probabilistiske ti-minutters intervaller. For at en blokk skal være gyldig, må den være signert av minst 11 av de 15 funksjonærene (en terskel på to tredjedeler pluss én). Denne mekanismen gir Liquid "to-blokk-finalitet", noe som betyr at når en [transaksjon](https://planb.academy/resources/glossary/transaction-tx) har fått to bekreftelser (omtrent to minutter), er det matematisk umulig å reorganisere kjeden. Denne hastigheten og sikkerheten er avgjørende for arbitrasje, automatisert handel og raske oppgjør mellom børser.
 
 
-Føderasjonen er dynamisk. Gjennom Dynamic Federation (Dynafed)-protokollen kan nettverket rotere funksjonærer eller oppdatere parametere uten at det kreves en hard fork. Dette gjør at systemet kan utvikle seg og skifte ut maskinvare eller medlemmer sømløst, samtidig som det opprettholder kontinuerlig drift.
+Føderasjonen er dynamisk. Gjennom Dynamic Federation (Dynafed)-protokollen kan nettverket rotere funksjonærer eller oppdatere parametere uten at det kreves en [hard fork](https://planb.academy/resources/glossary/fork). Dette gjør at systemet kan utvikle seg og skifte ut maskinvare eller medlemmer sømløst, samtidig som det opprettholder kontinuerlig drift.
 
 
 ### Confidential Transactions og kapitalforvaltning
 
 
-Et av de viktigste kjennetegnene ved Liquid er at den støtter Confidential Transactions (CT) og flere aktiva. I Bitcoin-hovedkjeden er alle transaksjonsdetaljer - avsender, mottaker og beløp - offentlige. I Liquid bruker CT kryptografiske forpliktelser til å skjule aktivatypen og beløpet fra den offentlige hovedboken, samtidig som nettverket kan verifisere at transaksjonen er gyldig (dvs. at det ikke har forekommet inflasjon). Bare deltakerne som har blindingnøklene, kan se de spesifikke verdiene, noe som gir et nivå av kommersielt personvern som er avgjørende for institusjoner som flytter store posisjoner.
+Et av de viktigste kjennetegnene ved Liquid er at den støtter Confidential Transactions (CT) og flere aktiva. I Bitcoin-hovedkjeden er alle transaksjonsdetaljer - avsender, mottaker og beløp - offentlige. I Liquid bruker CT kryptografiske forpliktelser til å skjule aktivatypen og beløpet fra den offentlige hovedboken, samtidig som nettverket kan verifisere at transaksjonen er gyldig (dvs. at det ikke har forekommet [inflasjon](https://planb.academy/resources/glossary/inflation)). Bare deltakerne som har blindingnøklene, kan se de spesifikke verdiene, noe som gir et nivå av kommersielt personvern som er avgjørende for institusjoner som flytter store posisjoner.
 
 
-Liquid behandler alle eiendeler som "innfødte" borgere av blokkjeden. Dette inkluderer Liquid Bitcoin (LBTC), stablecoins som USDT og sikkerhetstokener. Utstedelse av en eiendel krever ikke komplekse smartkontrakter; det er en grunnleggende funksjon i protokollen.
+Liquid behandler alle eiendeler som "innfødte" borgere av [blokkjeden](https://planb.academy/resources/glossary/blockchain). Dette inkluderer Liquid Bitcoin (LBTC), stablecoins som USDT og sikkerhetstokener. Utstedelse av en eiendel krever ikke komplekse smartkontrakter; det er en grunnleggende funksjon i protokollen.
 
 
 #### Regulerte eiendeler og AMP
@@ -97,7 +97,7 @@ Forbindelsen mellom Liquid og Bitcoin opprettholdes gjennom en toveis peg. For �
 
 #### Maskinvare-sikkerhetsmoduler (HSM)
 
-Sikkerheten håndheves strengt gjennom maskinvare. Funksjonærene oppbevarer ikke private nøkler på standardservere, men bruker i stedet maskinvaresikkerhetsmoduler (HSM-er). Disse enhetene er adskilt fra logikken på vertsserveren og er programmert med strenge regler. En HSM vil for eksempel nekte å signere en blokk hvis høyden ikke er større enn den forrige, noe som forhindrer omskriving av historikk. Denne "kontradiktoriske" sikkerhetsmodellen forutsetter at vertsserveren kan bli kompromittert, slik at nøklene forblir sikre selv om den fysiske lokasjonen blir brutt opp.
+Sikkerheten håndheves strengt gjennom maskinvare. Funksjonærene oppbevarer ikke [private nøkler](https://planb.academy/resources/glossary/private-key) på standardservere, men bruker i stedet maskinvaresikkerhetsmoduler (HSM-er). Disse enhetene er adskilt fra logikken på vertsserveren og er programmert med strenge regler. En HSM vil for eksempel nekte å signere en blokk hvis høyden ikke er større enn den forrige, noe som forhindrer omskriving av historikk. Denne "kontradiktoriske" sikkerhetsmodellen forutsetter at vertsserveren kan bli kompromittert, slik at nøklene forblir sikre selv om den fysiske lokasjonen blir brutt opp.
 
 
 ## Grunnleggende om Elements
@@ -152,7 +152,7 @@ Samhandling med en Elements-node skjer primært gjennom JSON-RPC-grensesnittet. 
 
 - Oppsett:** En utvikler starter vanligvis i "regtest"-modus. Dette gjør det mulig å generere blokker umiddelbart (`generateblock`) for å bekrefte transaksjoner umiddelbart, uten å måtte bruke 1 minutt på å generere blokker i det aktive nettverket.
 - Kommandoer:** Standard Bitcoin-kommandoer som `getblockchaininfo` er tilgjengelige, sammen med Elements-spesifikke kommandoer som `dumpblindingkey` (for revisjon av CT-er) eller `pegin` (for å flytte BTC inn i sidekjeden).
-- Aliaser:** For å administrere flere noder (f.eks. en "sender" og en "mottaker" for testing) bruker utviklere ofte skallaliaser som `e1-cli` og `e2-cli`, som peker til forskjellige datakataloger og simulerer et peer-to-peer-nettverk på én enkelt maskin.
+- Aliaser:** For å administrere flere [noder](https://planb.academy/resources/glossary/node) (f.eks. en "sender" og en "mottaker" for testing) bruker utviklere ofte skallaliaser som `e1-cli` og `e2-cli`, som peker til forskjellige datakataloger og simulerer et [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p)-nettverk på én enkelt maskin.
 
 
 Denne arkitekturen gjør det mulig for utviklere å bygge sofistikerte finansapplikasjoner - for eksempel verdipapirplattformer eller private betalingsgatewayer - ved hjelp av de robuste og velkjente verktøyene i Bitcoin-økosystemet.
@@ -169,10 +169,10 @@ Denne arkitekturen gjør det mulig for utviklere å bygge sofistikerte finansapp
 ### Infrastruktur på tvers av Layer og HTLC-er
 
 
-Bitcoin-økosystemet har utviklet seg til en flerlagsarkitektur, med Mainchain som sørger for oppgjør, Lightning som tilbyr hastighet, og Liquid som muliggjør avanserte aktivafunksjoner. Å flytte verdier mellom disse lagene uten sentraliserte mellomledd krever en tillitsløs kryptografisk primitivitet: Hash Time Locked Contract (HTLC).
+Bitcoin-økosystemet har utviklet seg til en flerlagsarkitektur, med Mainchain som sørger for oppgjør, Lightning som tilbyr hastighet, og Liquid som muliggjør avanserte aktivafunksjoner. Å flytte verdier mellom disse lagene uten sentraliserte mellomledd krever en tillitsløs kryptografisk primitivitet: [Hash](https://planb.academy/resources/glossary/hash-function) Time Locked Contract ([HTLC](https://planb.academy/resources/glossary/htlc)).
 
 
-En HTLC skaper en betinget betalingskanal som kobler sammen uavhengige systemer på atomisk vis. Den fungerer gjennom to primære begrensninger: en **hash-lås** og en **tidslås**.
+En HTLC skaper en betinget [betalingskanal](https://planb.academy/resources/glossary/payment-channel) som kobler sammen uavhengige systemer på atomisk vis. Den fungerer gjennom to primære begrensninger: en **hash-lås** og en **tidslås**.
 
 
 - Hash Lock:** Midler kan brukes umiddelbart hvis mottakeren avslører et hemmelig "forhåndsbilde" som samsvarer med en bestemt kryptografisk hash.
@@ -185,20 +185,20 @@ Denne strukturen med to veier sørger for sikkerhet. I en utveksling på tvers a
 ### Taproot og MuSig2-oppgradering
 
 
-Eldre HTLC-er (SegWit v0) fungerte bra, men hadde personvern- og effektivitetsulemper. De krevde publisering av hele skriptlogikken on-chain, noe som gjorde byttetransaksjoner lett identifiserbare for blockchain-analytikere og dyrere på grunn av datastørrelsen. Introduksjonen av Taproot (SegWit v1) og MuSig2-protokollen har revolusjonert denne arkitekturen.
+Eldre HTLC-er ([SegWit](https://planb.academy/resources/glossary/segwit) v0) fungerte bra, men hadde personvern- og effektivitetsulemper. De krevde publisering av hele [skriptlogikken](https://planb.academy/resources/glossary/script) on-chain, noe som gjorde byttetransaksjoner lett identifiserbare for blockchain-analytikere og dyrere på grunn av datastørrelsen. Introduksjonen av [Taproot](https://planb.academy/resources/glossary/taproot) (SegWit v1) og MuSig2-protokollen har revolusjonert denne arkitekturen.
 
 
-Taproot gir mulighet for **nøkkelaggregering** via MuSig2. I stedet for å avsløre et komplekst skript med flere offentlige nøkler, lar MuSig2 byttedeltakerne kombinere nøklene sine til én samlet offentlig nøkkel.
+Taproot gir mulighet for **nøkkelaggregering** via MuSig2. I stedet for å avsløre et komplekst skript med flere [offentlige nøkler](https://planb.academy/resources/glossary/public-key), lar MuSig2 byttedeltakerne kombinere nøklene sine til én samlet offentlig nøkkel.
 
 
 - Samarbeidende "Key Path":** Hvis begge parter er enige om byttet (den "lykkelige veien"), signerer de transaksjonen sammen. For nettverket ser dette identisk ut som en standard betaling med én signatur. Den bruker minimalt med blokkplass og avslører absolutt ingen informasjon om byttebetingelsene.
-- Hvis en av partene ikke svarer eller er ondsinnet, avsløres det underliggende skriptet (som inneholder hash-/tidslåsene) først da. Dette er organisert i et Merkle-tre, slik at den ærlige parten bare kan avsløre den spesifikke grenen som trengs for å få tilbake penger, mens resten av kontraktslogikken holdes skjult.
+- Hvis en av partene ikke svarer eller er ondsinnet, avsløres det underliggende skriptet (som inneholder hash-/tidslåsene) først da. Dette er organisert i et [Merkle-tre](https://planb.academy/resources/glossary/merkle-tree), slik at den ærlige parten bare kan avsløre den spesifikke grenen som trengs for å få tilbake penger, mens resten av kontraktslogikken holdes skjult.
 
 
 ### Praktisk implementering: Liquid-Lightning Swaps
 
 
-I praksis muliggjør disse protokollene sømløs utveksling mellom Bitcoin-lagene. Et typisk Liquid-til-Lightning-bytte begynner med at en kunde ber om et bytte fra en tjenesteleverandør. Kunden oppgir en Lightning-faktura, og leverandøren låser den tilsvarende Liquid Bitcoin (L-BTC) til en Taproot-aktivert HTLC-adresse.
+I praksis muliggjør disse protokollene sømløs utveksling mellom Bitcoin-lagene. Et typisk Liquid-til-Lightning-bytte begynner med at en kunde ber om et bytte fra en tjenesteleverandør. Kunden oppgir en [Lightning-faktura](https://planb.academy/resources/glossary/invoice-lightning), og leverandøren låser den tilsvarende Liquid Bitcoin (L-BTC) til en Taproot-aktivert HTLC-adresse.
 
 
 Atomariteten håndheves når betalingen gjøres opp. For å gjøre krav på L-BTC må tjenesteleverandøren ha preimage. De får dette preimage bare når de betaler kundens Lightning-faktura. I det øyeblikket Lightning-betalingen er fullført, avsløres forhåndsbildet, slik at leverandøren kan låse opp Liquid-midlene.
@@ -206,7 +206,7 @@ Atomariteten håndheves når betalingen gjøres opp. For å gjøre krav på L-BT
 
 #### Wallet-abstraksjon og UTXO-administrasjon
 
-For sluttbrukerne er denne kompleksiteten helt abstrahert. Moderne lommebøker som Aqua håndterer nøkkelgenerering, fakturaskaping og signeringsprosesser i bakgrunnen. Brukeren "betaler" ganske enkelt en Lightning-faktura ved hjelp av Liquid-saldoen. Bak kulissene administrerer tjenesten UTXO-konsolidering, og feier med jevne mellomrom små, uavhentede eller refunderte utganger for å opprettholde wallet-effektiviteten og minimere gebyrpåvirkningen i perioder med høy trafikk.
+For sluttbrukerne er denne kompleksiteten helt abstrahert. Moderne lommebøker som Aqua håndterer nøkkelgenerering, fakturaskaping og signeringsprosesser i bakgrunnen. Brukeren "betaler" ganske enkelt en Lightning-faktura ved hjelp av Liquid-saldoen. Bak kulissene administrerer tjenesten [UTXO](https://planb.academy/resources/glossary/utxo)-konsolidering, og feier med jevne mellomrom små, uavhentede eller refunderte utganger for å opprettholde [wallet](https://planb.academy/resources/glossary/wallet)-effektiviteten og minimere gebyrpåvirkningen i perioder med høy trafikk.
 
 
 ## Liquid Network Oversikt
@@ -220,7 +220,7 @@ For sluttbrukerne er denne kompleksiteten helt abstrahert. Moderne lommebøker s
 ### Liquid Network Arkitektur og konsensus
 
 
-Liquid Network fungerer som en føderert sidekjede bygget på **Elements**-kodebasen. Mens Elements - en fork av Bitcoin Core - leverer programvaregrunnlaget, er Liquid implementeringen av produksjonsnettverket. I motsetning til Bitcoins Proof-of-Work, som er avhengig av konkurrerende mining, bruker Liquid en **Føderert konsensus**-modell.
+Liquid Network fungerer som en føderert sidekjede bygget på **Elements**-kodebasen. Mens Elements - en fork av Bitcoin Core - leverer programvaregrunnlaget, er Liquid implementeringen av produksjonsnettverket. I motsetning til Bitcoins Proof-of-Work, som er avhengig av konkurrerende [mining](https://planb.academy/resources/glossary/mining), bruker Liquid en **Føderert konsensus**-modell.
 
 
 Nettverket vedlikeholdes av femten globalt distribuerte "funksjonærer" Disse enhetene driver spesialiserte servere som utfører to viktige oppgaver:
@@ -283,7 +283,7 @@ For å sikre lang levetid bruker Liquid Dynafed, en protokoll som gjør det muli
 ### Liquid Network: Forretningsstrategi og økosystem
 
 
-Liquid er mer enn en teknisk sidekjede; det er et forretningsfokusert infrastrukturlag som er utviklet for å håndtere de komplekse kravene i kapitalmarkedene som Bitcoin mainchain ikke kan støtte effektivt. Mens Lightning Network er optimalisert for høyfrekvente betalinger med lav verdi, er Liquid rettet mot overføringer med høy verdi, utstedelse av aktiva og oppgjør mellom børser.
+Liquid er mer enn en teknisk sidekjede; det er et forretningsfokusert infrastrukturlag som er utviklet for å håndtere de komplekse kravene i kapitalmarkedene som Bitcoin mainchain ikke kan støtte effektivt. Mens [Lightning Network](https://planb.academy/resources/glossary/lightning-network) er optimalisert for høyfrekvente betalinger med lav verdi, er Liquid rettet mot overføringer med høy verdi, utstedelse av aktiva og oppgjør mellom børser.
 
 
 Økosystemet drives av **Liquid Federation**, et konsortium bestående av ca. 73 selskaper, inkludert børser, trading desks og infrastrukturleverandører. Denne samarbeidsmodellen gjenspeiler tradisjonelle finansielle clearinghus, men opererer med større åpenhet og betydelig kortere oppgjørstid (2 minutter mot T+2 dager).
@@ -358,7 +358,7 @@ Plattformens kjerneverdi hviler på to primære egenskaper: omfattende utsteders
 
 #### Operasjonelle avveininger
 
-Denne arkitekturen innebærer spesifikke avveininger. Systemet er avhengig av AMP-serverens tilgjengelighet; hvis serveren fungerer som medunderskriver og går offline, stanser likviditeten i aktivaene. I tillegg må investorene akseptere at utstederen har fullt innsyn i beholdningene deres, samtidig som personvernet mellom brukerne opprettholdes. Denne modellen er ideell for kompatible sikkerhetstokener, men uegnet for sensurresistente kryptovalutaer.
+Denne arkitekturen innebærer spesifikke avveininger. Systemet er avhengig av AMP-serverens tilgjengelighet; hvis serveren fungerer som medunderskriver og går offline, stanser likviditeten i aktivaene. I tillegg må investorene akseptere at utstederen har fullt innsyn i beholdningene deres, samtidig som personvernet mellom brukerne opprettholdes. Denne modellen er ideell for kompatible sikkerhetstokener, men uegnet for sensurresistente [kryptovalutaer](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 ### Arkitekturutvikling og integrasjonsveier

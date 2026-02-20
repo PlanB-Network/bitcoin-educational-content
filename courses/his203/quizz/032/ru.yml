@@ -1,0 +1,10 @@
+question: Какой протокол mining был разработан в сентябре 2012 года Мареком Палатинусом, известным как Slush, для улучшения обмена между майнерами и пулами mining?
+answer: Стратум
+wrong_answers:
+  - Electrum
+  - Getwork
+  - Getblocktemplate (GBT)
+explanation: |
+ Stratum был протоколом mining для тонких клиентов. Он быстро заменил рудиментарную функцию getwork, использовавшуюся до тех пор, и утвердился за счет
+ конкурирующего предложения getblocktemplate.
+reviewed: true

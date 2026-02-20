@@ -1,0 +1,11 @@
+question: Jakiej metody użył Tony76 do skonfigurowania swojego oszustwa z 20 kwietnia 2012 r. na rynku Silk Road?
+answer: Wykorzystanie jego nienagannej reputacji jako sprzedawcy do żądania wcześniejszego sfinalizowania transakcji
+wrong_answers:
+  - Wykorzystanie luki technicznej w przetwarzaniu płatności bitcoinowych na platformie
+  - Manipulowanie ceną bitcoina w celu sztucznego zawyżania cen na Silk Road
+  - Szantażowanie pracownika Silk Road do drukowania fałszywych opisów produktów
+explanation: |
+ Tony76 cieszył się doskonałą reputacją, co pozwoliło mu wymagać od kupujących wczesnej finalizacji zamiast escrow. 20 kwietnia to symboliczna data dla konsumentów
+ konopi indyjskich, oferował z tej okazji wiele zniżek na swoje zwykłe produkty, a zamówienia napływały. Później zniknął z bitcoinami i nigdy nie
+ i nigdy nie zrealizował swoich zamówień.
+reviewed: true

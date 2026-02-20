@@ -1,0 +1,10 @@
+question: Wie lautete die Werbung für Litecoin, die von Charlie Lee im Oktober 2011 geschaffene Kryptowährung?
+answer: Sei für Silber, was Bitcoin für Gold ist
+wrong_answers:
+  - Eine spirituelle Währung schaffen
+  - Nachfolger von Bitcoin, wenn er zusammenbricht
+  - Die Finanzierung der Welt der freien Software
+explanation: |
+ Litecoin war sowohl schneller (die Blockzeit beträgt 2 Minuten 30 anstelle von 10 Minuten) als auch weniger knapp (84 Millionen Einheiten anstelle von 21) als Bitcoin, daher die Analogie zu Edelmetallen
+ edelmetall-Analogie. Es war Charlie Lee selbst, der diesen Vergleich in die ursprüngliche Beschreibung seiner Kryptowährung aufnahm.
+reviewed: true

@@ -219,7 +219,7 @@ Da bi novac zadržao svoju kupovnu moć tokom vremena, mora biti:
 **Scarce:** Kada novac nudi oskudicu, mislimo na ograničenu dostupnost Supply. Ovo je važno za čuvanje vrednosti jer ako postoji previše određene valute, njena vrednost može opasti. Oskudna valuta je verovatnije da će zadržati svoju vrednost tokom vremena, čineći je pouzdanim čuvarom bogatstva. Zamislite to kao predmet ograničenog izdanja - ako ih ima samo nekoliko, vredniji su i traženiji nego ako bi postojala neograničena Supply. Slično tome, oskudna valuta je verovatnije da će zadržati svoju vrednost i održati svoju kupovnu moć, čineći je boljom opcijom za čuvanje bogatstva.
 
 
-**Nepromenljiv:** Da bi novac ponudio nepromenljivost, treba da bude otporan na poništavanje ili izmenu nakon što je transakcija izvršena. Ovo je ključna karakteristika pouzdanog sredstva čuvanja vrednosti jer osigurava da vrednost novca nije podložna proizvoljnim promenama ili manipulacijama. Na primer, ako nešto kupite gotovinom, ne možete kasnije promeniti mišljenje i poništiti transakciju. Slično tome, sa kriptovalutama kao što je Bitcoin, kada je transakcija zabeležena na Blockchain, ne može biti izmenjena ili poništena. Ova nepromenljivost pruža osećaj sigurnosti i pouzdanosti za kupce i prodavce u finansijskim transakcijama.
+**Nepromenljiv:** Da bi novac ponudio nepromenljivost, treba da bude otporan na poništavanje ili izmenu nakon što je transakcija izvršena. Ovo je ključna karakteristika pouzdanog sredstva čuvanja vrednosti jer osigurava da vrednost novca nije podložna proizvoljnim promenama ili manipulacijama. Na primer, ako nešto kupite gotovinom, ne možete kasnije promeniti mišljenje i poništiti transakciju. Slično tome, sa [kriptovalutama](https://planb.academy/resources/glossary/cryptocurrency) kao što je Bitcoin, kada je transakcija zabeležena na [Blockchain](https://planb.academy/resources/glossary/blockchain), ne može biti izmenjena ili poništena. Ova nepromenljivost pruža osećaj sigurnosti i pouzdanosti za kupce i prodavce u finansijskim transakcijama.
 
 
 #### Srednji Exchange
@@ -243,7 +243,7 @@ Da bi novac bio efikasan posrednik za kupovinu i prodaju robe i usluga, mora bit
 Da bi novac bio korišćen kao zajednička mera vrednosti dobara i usluga, mora biti:
 
 
-**Fungible:** Kada se kaže da je novac fungibilan, svaki novčani jedinica je zamenljiva sa bilo kojom drugom jedinicom. Jednostavnije rečeno, to znači da je novac uniforman i identičan, bez obzira odakle dolazi ili ko ga poseduje. Na primer, ako dugujete nekome \$10 i date im novčanicu od \$10, nije važno da li je novčanica došla iz vašeg Wallet ili iz nečijeg drugog Wallet. Sve dok je to prava novčanica od \$10, smatra se da ima jednaku vrednost. Koncept fungibilnosti je važan jer omogućava novcu da efikasno funkcioniše kao zajednička jedinica mere, čineći transakcije jednostavnijim i efikasnijim.
+**Fungible:** Kada se kaže da je novac [fungibilan](https://planb.academy/resources/glossary/fungibility), svaki novčani jedinica je zamenljiva sa bilo kojom drugom jedinicom. Jednostavnije rečeno, to znači da je novac uniforman i identičan, bez obzira odakle dolazi ili ko ga poseduje. Na primer, ako dugujete nekome \$10 i date im novčanicu od \$10, nije važno da li je novčanica došla iz vašeg Wallet ili iz nečijeg drugog Wallet. Sve dok je to prava novčanica od \$10, smatra se da ima jednaku vrednost. Koncept fungibilnosti je važan jer omogućava novcu da efikasno funkcioniše kao zajednička jedinica mere, čineći transakcije jednostavnijim i efikasnijim.
 
 
 Zaključak
@@ -252,7 +252,7 @@ Zaključak
 Novac je ključni i fascinantni deo naših svakodnevnih života. Služi kao posrednik, omogućavajući nam da razmenjujemo robu i usluge jedni s drugima. Međutim, nije sav novac stvoren jednak. Neki oblici novca su superiorniji kao čuvari vrednosti, poput zlatnog novca, dok drugi mogu biti efikasniji kao sredstvo Exchange, američki dolar. Međutim, kada su ove funkcije u potpunosti ispunjene, omogućava nam da transakcije obavljamo sa poverenjem i lakoćom, što ne samo da pomaže nama kao pojedincima, već podstiče veći ekonomski rast i prosperitet za našu ekonomiju.
 
 
-U narednim modulima, istražićemo dva popularna oblika novca: Bitcoin i stablecoins. Ispitujući ih kroz sadržaj obrađen u ovom delu, istražićemo kako ispunjavaju različite funkcije valute i kako mogu značajno koristiti društvu.
+U narednim modulima, istražićemo dva popularna oblika novca: Bitcoin i [stablecoins](https://planb.academy/resources/glossary/stablecoin). Ispitujući ih kroz sadržaj obrađen u ovom delu, istražićemo kako ispunjavaju različite funkcije valute i kako mogu značajno koristiti društvu.
 
 
 Od trampanja do izuma novčića i papirnog novca, novac je prošao kroz niz transformacija kako bi se prilagodio stalno promenljivim potrebama društva. Kako prelazimo na sledeće poglavlje, hajde da promenimo kurs, usmeravajući našu pažnju ka evoluciji novca.
@@ -293,9 +293,9 @@ Imajući ovo na umu, hajde da pogledamo primarne oblike Exchange koji su ili u u
 
 4. **Papirni novac podržan metalom:** Papirni novac podržan fizičkom robom, kao što je zlato ili srebro.
 
-5. **Fiat Money:** Valuta koja nije podržana fizičkom robom, već ima vrednost jer je vlada proglašava zakonskim sredstvom plaćanja.
+5. **[Fiat Money](https://planb.academy/resources/glossary/fiat):** Valuta koja nije podržana fizičkom robom, već ima vrednost jer je vlada proglašava zakonskim sredstvom plaćanja.
 
-6. **Kriptovalute:** Digitalni ili virtuelni tokeni koji koriste kriptografiju za osiguranje transakcija i kontrolu stvaranja novih jedinica.
+6. **Kriptovalute:** Digitalni ili virtuelni tokeni koji koriste [kriptografiju](https://planb.academy/resources/glossary/cryptography) za osiguranje transakcija i kontrolu stvaranja novih jedinica.
 
 
 Imajući ovo na umu, hajde da ispitamo svaki od njih kako bismo stekli potpunije razumevanje kako smo dospeli tu gde smo danas.
@@ -352,7 +352,7 @@ Iako su tehnički još uvek bila roba, dok su ljudi nastavili svoju potragu za s
 Štaviše, metali kao što je zlato bili su jedan od najinertnijih Elements u periodnom sistemu, što ih čini izuzetno izdržljivim i otpornim na koroziju.
 
 
-Kako je tehnologija napredovala, zlato i srebro su prošli kroz transformativni proces, bivajući topljeni, oblikovani i utisnuti u novčiće, čime je povećana lakoća Exchange. Standardizovana vrednost i oznake na ovim novčićima značajno su smanjile troškove povezane sa proverom težine i čistoće plemenitih metala. Ali, kao i sa većinom dobrih stvari, neko uvek pronađe način da iskoristi situaciju. Sečenje novčića postalo je rasprostranjeno, pri čemu su i pojedinci i vlade sekli delove novčića kako bi smanjili njihovu težinu plemenitog metala, dok su pokušavali da zadrže njihovu originalnu nominalnu vrednost. Ovo je dovelo do prvog oblika devalvacije valute, što je dovelo do inflacije.
+Kako je tehnologija napredovala, zlato i srebro su prošli kroz transformativni proces, bivajući topljeni, oblikovani i utisnuti u novčiće, čime je povećana lakoća Exchange. Standardizovana vrednost i oznake na ovim novčićima značajno su smanjile troškove povezane sa proverom težine i čistoće plemenitih metala. Ali, kao i sa većinom dobrih stvari, neko uvek pronađe način da iskoristi situaciju. Sečenje novčića postalo je rasprostranjeno, pri čemu su i pojedinci i vlade sekli delove novčića kako bi smanjili njihovu težinu plemenitog metala, dok su pokušavali da zadrže njihovu originalnu nominalnu vrednost. Ovo je dovelo do prvog oblika devalvacije valute, što je dovelo do [inflacije](https://planb.academy/resources/glossary/inflation).
 
 
 Da stvar bude još gora, kako je svet postajao globalniji, zlato i srebro postajali su sve nezgodniji za transport i trgovinu, posebno za pomorce.
@@ -373,7 +373,7 @@ Razmislite o tome: nema više tegljenja teških torbi sa zlatom ili brige o kra�
 Ali kao i kod svake nove tehnologije, problemi su počeli da se pojavljuju.
 
 
-Prvo, skladišta zlata, prepoznajući da se njihovi klijenti retko vraćaju da povuku zlato na koje su priznanice polagale pravo, počela su izdavati papirne priznanice bez zlatne podloge, što je dovelo do tajnog stvaranja prvog sistema bankarstva sa frakcionalnim rezervama (izdavaoci drže samo deo depozita klijenata kao rezerve i pozajmljuju ostatak). Čak i kada su zemlje pokušavale da podrže svoje valute zlatom, često su zloupotrebljavale sistem, što je dovodilo do ekonomskih previranja.
+Prvo, skladišta zlata, prepoznajući da se njihovi klijenti retko vraćaju da povuku zlato na koje su priznanice polagale pravo, počela su izdavati papirne priznanice bez zlatne podloge, što je dovelo do tajnog stvaranja prvog sistema bankarstva sa [frakcionalnim rezervama](https://planb.academy/resources/glossary/fractional-reserves) (izdavaoci drže samo deo depozita klijenata kao rezerve i pozajmljuju ostatak). Čak i kada su zemlje pokušavale da podrže svoje valute zlatom, često su zloupotrebljavale sistem, što je dovodilo do ekonomskih previranja.
 
 
 Drugo, papirni novac podržan metalom nije bio imun na falsifikovanje. Čak i sa sigurnosnim obeležjima, falsifikatori su i dalje mogli da kreiraju lažne novčanice koje je bilo teško otkriti.
@@ -734,10 +734,10 @@ Do kraja ovog modula, imaćete solidno razumevanje porekla, karakteristika i pot
 ### Šta je ova stvar nazvana Bitcoin
 
 
-Bitcoin je Trustless i decentralizovana digitalna valuta bez dozvola. To može zvučati zbunjujuće, pa dozvolite da objasnimo. Pošto nijedna vlada ili institucija ne kontroliše Bitcoin, ne morate verovati trećim stranama niti vam je potrebna dozvola da biste ga koristili. Umesto toga, njime upravlja mreža korisnika širom sveta koji potvrđuju i obrađuju transakcije na nečemu što se zove Blockchain.
+Bitcoin je Trustless i decentralizovana digitalna valuta bez dozvola. To može zvučati zbunjujuće, pa dozvolite da objasnimo. Pošto nijedna vlada ili institucija ne kontroliše Bitcoin, ne morate verovati trećim stranama niti vam je potrebna dozvola da biste ga koristili. Umesto toga, njime upravlja mreža korisnika širom sveta koji potvrđuju i obrađuju [transakcije](https://planb.academy/resources/glossary/transaction-tx) na nečemu što se zove Blockchain.
 
 
-Zamislite Blockchain kao džinovski Ledger ili digitalnu tabelu koja vodi evidenciju o svakoj transakciji obavljenoj putem Bitcoin. Kako bilo ko na svetu sa internet konekcijom može da prati, validira ili obrađuje transakcije, ovo osigurava da je valuta bezbedna i da se ne može falsifikovati.
+Zamislite Blockchain kao džinovski [Ledger](https://planb.academy/resources/glossary/ledger) ili digitalnu tabelu koja vodi evidenciju o svakoj transakciji obavljenoj putem Bitcoin. Kako bilo ko na svetu sa internet konekcijom može da prati, validira ili obrađuje transakcije, ovo osigurava da je valuta bezbedna i da se ne može falsifikovati.
 
 
 Bitcoin je takođe jedinstven po tome što ima ograničen Supply. Samo 21 milion Bitcoin će ikada biti stvoren, što mu daje oskudicu, poput zlata i drugih plemenitih metala. Ova oskudica je deo onoga što daje Bitcoin njegovu vrednost.
@@ -758,13 +758,13 @@ Pre nego što je Bitcoin stvoren, nekolicina vizionara postavila je temelje za B
 #### Cypherpunks
 
 
-Cypherpunks su grupa tehnički potkovanih buntovnika koji su se okupili 80-ih godina kako bi se borili za individualnu slobodu i građanske slobode koristeći jedno moćno oružje: kriptografiju. Verovali su da će sposobnost šifrovanja informacija omogućiti ljudima da povrate kontrolu od centralizovanih vlasti. Zamislite da možete zadržati svoju online komunikaciju privatnom i sigurnom od znatiželjnih očiju - za to su se oni borili!
+[Cypherpunks](https://planb.academy/resources/glossary/cypherpunks) su grupa tehnički potkovanih buntovnika koji su se okupili 80-ih godina kako bi se borili za individualnu slobodu i građanske slobode koristeći jedno moćno oružje: kriptografiju. Verovali su da će sposobnost šifrovanja informacija omogućiti ljudima da povrate kontrolu od centralizovanih vlasti. Zamislite da možete zadržati svoju online komunikaciju privatnom i sigurnom od znatiželjnih očiju - za to su se oni borili!
 
 
 Jedan od najznačajnijih ishoda Cypherpunks-a bila je Cypherpunks mailing lista, uspostavljena 1992. godine. Kroz ovu listu, pojedinci su mogli deliti ideje i diskutovati o kriptografskim tehnologijama, konceptima digitalne valute i inicijativama fokusiranim na privatnost. Ovo je dovelo do formiranja zajednice istomišljenika, uključujući developere, aktiviste i istraživače.
 
 
-Danas, vizionarske ideje cypherpunks-a nastavljaju da oblikuju evoluciju našeg digitalnog pejzaža, osnažujući pojedince većom kontrolom nad njihovim podacima i komunikacijama. Jedno od njihovih najznačajnijih nasleđa je Bitcoin, jer u velikoj meri crpi iz Hashcash-a— tehnologije koju je razvio Cypherpunk Adam Back 1997. godine za borbu protiv neželjene e-pošte.
+Danas, vizionarske ideje cypherpunks-a nastavljaju da oblikuju evoluciju našeg digitalnog pejzaža, osnažujući pojedince većom kontrolom nad njihovim podacima i komunikacijama. Jedno od njihovih najznačajnijih nasleđa je Bitcoin, jer u velikoj meri crpi iz [Hashcash](https://planb.academy/resources/glossary/hashcash)-a— tehnologije koju je razvio Cypherpunk Adam Back 1997. godine za borbu protiv neželjene e-pošte.
 
 
 Ostali značajni Cypherpunks uključuju:
@@ -773,9 +773,9 @@ Ostali značajni Cypherpunks uključuju:
 
 - **Timothy May:** Osnivač mejling liste Cypherpunks i pisao je opširno o kriptografiji i privatnosti tokom 90-ih i ranih 2000-ih. Njegovo pisanje postavilo je temelje za diskusije o digitalnoj privatnosti i elektronskim sistemima gotovine.
 - **Eric Huges:** Još jedan od osnivača Cypherpunksa i koautor "A Cypherpunk's Manifesto," koji je naglašavao važnost privatnosti i anonimnosti u digitalnom dobu.
-- **Whitfield Diffie i Martin Hellman:** Razvili su koncept kriptografije javnog ključa, revolucionirajući sigurnu internet komunikaciju.
+- **Whitfield Diffie i Martin Hellman:** Razvili su koncept kriptografije [javnog ključa](https://planb.academy/resources/glossary/public-key), revolucionirajući sigurnu internet komunikaciju.
 - **Julian Assange:** Osnivač WikiLeaksa, koji objavljuje poverljive i osetljive informacije kako bi promovisao transparentnost i odgovornost.
-- **Bram Cohen:** Kreirao BitTorrent, peer-to-peer protokol za deljenje fajlova koji je decentralizovao distribuciju sadržaja i omogućio brže preuzimanje.
+- **Bram Cohen:** Kreirao BitTorrent, [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) protokol za deljenje fajlova koji je decentralizovao distribuciju sadržaja i omogućio brže preuzimanje.
 - **John Gilmore:** Preduzetnik i libertarijanac koji je suosnivač Electronic Frontier Foundation (EFF) i zagovornik digitalnih prava i privatnosti na internetu.
 
 
@@ -785,7 +785,7 @@ Ostali značajni Cypherpunks uključuju:
 #### David Chaum (Otac digitalne valute)
 
 
-Početkom 1980-ih, David Chaum je revolucionirao svet digitalnih valuta svojim revolucionarnim radom na "blinded potpisima." Ovo je omogućilo kriptografsko potpisivanje poruke bez poznavanja njenog sadržaja, osiguravajući privatnost i sigurnost u digitalnim transakcijama. Godine 1982, David Chaum je konceptualizovao Ecash, anoniman elektronski novčani sistem koji je koristio kriptografiju, a kasnije je implementiran kroz njegovu korporaciju Digicash.
+Početkom 1980-ih, David Chaum je revolucionirao svet digitalnih valuta svojim revolucionarnim radom na "[blinded potpisima](https://planb.academy/resources/glossary/blind-signature)." Ovo je omogućilo kriptografsko potpisivanje poruke bez poznavanja njenog sadržaja, osiguravajući privatnost i sigurnost u digitalnim transakcijama. Godine 1982, David Chaum je konceptualizovao [Ecash](https://planb.academy/resources/glossary/ecash-david-chaum), anoniman elektronski novčani sistem koji je koristio kriptografiju, a kasnije je implementiran kroz njegovu korporaciju Digicash.
 
 
 Iako je Digicash korišćen kao sistem za mikroplaćanja u jednoj američkoj banci od 1995. do 1998. godine, Chaum je na kraju podneo zahtev za bankrot. Ipak, njegove inovativne ideje inspirisale su druge da istraže digitalne valute, utirući put razvoju modernih kriptovaluta, kao što je Bitcoin.
@@ -806,7 +806,7 @@ Uprkos svom konačnom neuspehu, E-gold je bio ključni korak u evoluciji digital
 S obzirom na meteorski uspon Bitcoin, mnogi ljudi pogrešno veruju da je to bila prva digitalna valuta ikada. Međutim, kao što se nadamo da je sada očigledno, ova pretpostavka je daleko od istine. Pojava Bitcoin je rezultat decenija istraživanja i eksperimentisanja pionira u oblasti kriptografije. Bez doprinosa gore pomenutih pojedinaca i mnogih drugih, Bitcoin možda nikada ne bi bio stvoren. Iako su ove rane digitalne valute na kraju propale, Bitcoin je naučio iz njihovih grešaka, konačno postajući digitalna valuta koju danas poznajemo.
 
 
-To je rečeno, da nije bilo jedne osobe... ili grupe (ne znamo tačno), Bitcoin ne bi postojao. A to je Satoshi Nakamoto. Enigmatični tvorac.
+To je rečeno, da nije bilo jedne osobe... ili grupe (ne znamo tačno), Bitcoin ne bi postojao. A to je [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi). Enigmatični tvorac.
 
 
 #### Satoshi Nakamoto
@@ -856,7 +856,7 @@ Da rezimiramo, Bitcoin je revolucionisao način na koji razmišljamo o novcu i v
 
 - **Peer-to-Peer:** Bitcoin omogućava pojedincima da šalju i primaju uplate direktno bez potrebe za posrednicima, kao što su banke ili procesori plaćanja.
 - **Decentralised:** Bitcoin funkcioniše na decentralizovanoj mreži, što znači da ne postoji centralna vlast ili kontrola nad valutom.
-- **Sigurno:** Bitcoin transakcije su osigurane korišćenjem kriptografije, što otežava falsifikovanje ili Double-spending novčića.
+- **Sigurno:** Bitcoin transakcije su osigurane korišćenjem kriptografije, što otežava falsifikovanje ili [Double-spending](https://planb.academy/resources/glossary/double-spending-attack) novčića.
 - **Ograničeno u Supply i Deljivo:** Supply od Bitcoin je konačan—sa samo 21 milionom kovanica u opticaju—dok je istovremeno deljiv na osam decimalnih mesta, omogućavajući transakcije za delić centa. Ova oskudica je dizajnirana da daje vrednost valuti i sprečava inflaciju.
 - **Psuedoanonymous:** Iako Bitcoin transakcije nisu potpuno anonimne, one nude nivo privatnosti i pseudonimnosti koji tradicionalne metode plaćanja ne pružaju.
 
@@ -901,7 +901,7 @@ Kada se uporede sa tradicionalnim bankarskim sistemima, iako Bitcoin funkcioniš
 Iako banke obavljaju ove uloge interno, što im daje potpunu kontrolu nad procesom, Bitcoin zahteva saradnju zajednice za obavljanje ovih uloga. Drugim rečima, da bi Bitcoin replicirao ove procese u decentralizovanom sistemu, Bitcoin mora da eksternalizuje svaki od ovih zadataka kako bi osigurao da nijedna pojedinačna ili centralizovana entitet nema prekomernu kontrolu nad sistemom.
 
 
-Da bi postigao ovo revolucionarno dostignuće, Bitcoin je podelio ove zadatke u tri ključne uloge: čvorovi, rudari i programeri. Gde čvorovi verifikuju transakcije i postavljaju i sprovode pravila, rudari uređuju i potvrđuju transakcije, a programeri održavaju mrežu ažurnom i predlažu nadogradnje. Distribucijom ovih zadataka među ključnim igračima, Bitcoin je stvorio sistem koji je siguran, transparentan i odgovoran prema svim korisnicima.
+Da bi postigao ovo revolucionarno dostignuće, Bitcoin je podelio ove zadatke u tri ključne uloge: [čvorovi](https://planb.academy/resources/glossary/node), [rudari](https://planb.academy/resources/glossary/miner) i programeri. Gde čvorovi verifikuju transakcije i postavljaju i sprovode pravila, rudari uređuju i potvrđuju transakcije, a programeri održavaju mrežu ažurnom i predlažu nadogradnje. Distribucijom ovih zadataka među ključnim igračima, Bitcoin je stvorio sistem koji je siguran, transparentan i odgovoran prema svim korisnicima.
 
 
 Hajde, dakle, da pogledamo svaku od ovih uloga…
@@ -913,7 +913,7 @@ Hajde, dakle, da pogledamo svaku od ovih uloga…
 #### Čvorovi
 
 
-Čvorovi su ključni za integritet i sigurnost Bitcoin mreže. Oni služe kao čuvari sistema, osiguravajući da se transakcije obrađuju tačno i u skladu sa pravilima. Svaki čvor preuzima i lokalno verifikuje kompletnu kopiju Blockchain, što je u suštini digitalni Ledger koji beleži svaku transakciju ikada napravljenu na Bitcoin mreži. Kroz konsenzus, čvorovi se slažu o validnosti svake transakcije i osiguravaju da se pravila poštuju. To znači da će čvorovi odbiti transakciju ako neko pokuša da prevari sistem, npr. slanjem više Bitcoin nego što zapravo ima ili pokušajem da potroši isti Bitcoin dvaput.
+Čvorovi su ključni za integritet i sigurnost Bitcoin mreže. Oni služe kao čuvari sistema, osiguravajući da se transakcije obrađuju tačno i u skladu sa pravilima. Svaki čvor preuzima i lokalno verifikuje kompletnu kopiju Blockchain, što je u suštini digitalni Ledger koji beleži svaku transakciju ikada napravljenu na Bitcoin mreži. Kroz [konsenzus](https://planb.academy/resources/glossary/consensus), čvorovi se slažu o validnosti svake transakcije i osiguravaju da se pravila poštuju. To znači da će čvorovi odbiti transakciju ako neko pokuša da prevari sistem, npr. slanjem više Bitcoin nego što zapravo ima ili pokušajem da potroši isti Bitcoin dvaput.
 
 
 Da bi se dodatno elaborirala ova ideja konsenzusa, kada programeri predlažu izmene ili nadogradnje za Bitcoin, čvorovi igraju ulogu u usvajanju ili odbijanju tih promena. Oni to čine ili nadogradnjom svog softvera na novu verziju ili nastavljanjem rada sa starom verzijom. Ovaj proces često uključuje diskusije i debate unutar Bitcoin zajednice kako bi se postigao konsenzus. Ipak, konsenzus Bitcoin nije crno-beli kao glasačka mašina. Većina ne vlada nužno. Ako se neki pojedinci ne slažu sa promenom, mogu pokrenuti novi token izveden iz Bitcoin. Sada, originalni Bitcoin postoji bez promene, a novi sa promenom. Kroz kupovinu i prodaju, na zajednici je da istakne koju verziju smatra vrednijom. Ovaj mehanizam konsenzusa osigurava da se sve promene napravljene na Bitcoin protokolu dogovaraju od strane cele zajednice, čineći teško za bilo kojeg pojedinca ili grupu da manipuliše sistemom za svoju korist.
@@ -925,7 +925,7 @@ Važno je napomenuti da je čvor jednostavno softver koji svako može pokrenuti 
 #### Rudari
 
 
-S druge strane, Bitcoin rudari igraju ključnu ulogu u vođenju evidencije, jer su odgovorni za redosled i potvrđivanje transakcija. Da bi to uradili, rudari koriste specijalizovane računare za obavljanje funkcije zvane heširanje. Bez ulaska u detalje heširanja, zamislite to kao takmičenje rudara da dodaju nove transakcije u Blockchain, javni Ledger transakcija. U Exchange za svoj rad, rudari su nagrađeni novostvorenim Bitcoin i naknadama za transakcije za sve obrađene transakcije. Mining proces je dizajniran da bude težak, konkurentan i nasumičan, sa samo ograničenim brojem novih Bitcoin koji se izdaju svake godine, osiguravajući da je Supply Bitcoin ograničen i da se njihova vrednost održava. Bez rudara, transakcije ne bi bile obrađene.
+S druge strane, Bitcoin rudari igraju ključnu ulogu u vođenju evidencije, jer su odgovorni za redosled i potvrđivanje transakcija. Da bi to uradili, rudari koriste specijalizovane računare za obavljanje funkcije zvane [heširanje](https://planb.academy/resources/glossary/hash-function). Bez ulaska u detalje heširanja, zamislite to kao takmičenje rudara da dodaju nove transakcije u Blockchain, javni Ledger transakcija. U Exchange za svoj rad, rudari su nagrađeni novostvorenim Bitcoin i [naknadama za transakcije](https://planb.academy/resources/glossary/transaction-fees) za sve obrađene transakcije. [Mining](https://planb.academy/resources/glossary/mining) proces je dizajniran da bude težak, konkurentan i nasumičan, sa samo ograničenim brojem novih Bitcoin koji se izdaju svake godine, osiguravajući da je Supply Bitcoin ograničen i da se njihova vrednost održava. Bez rudara, transakcije ne bi bile obrađene.
 
 
 S obzirom na to da rudari moraju da se takmiče jedni s drugima kako bi obradili transakcije i budu nagrađeni za to, ovo takmičenje minimizira šansu da bilo koji pojedinačni Miner ili entitet može kontrolisati mrežu i podstiče rudare da postupaju pošteno i prate pravila. Ako Miner pokuša da vara ili prekrši pravila, rizikuje da izgubi svoju nagradu, tako da postoji snažan podsticaj da se igra po pravilima.
@@ -955,10 +955,10 @@ Da bismo razumeli kako svi ovi igrači rade zajedno, zamislimo jednostavnu Bitco
 #### Pokretanje transakcije
 
 
-Svaka Bitcoin transakcija počinje njenim pokretanjem kada pošiljalac, u ovom slučaju, Alisa, kreira transakciju navodeći primaoca, Bob, i iznos, 0.00100000 Bitcoin. Čvor povezan sa Alisinim Wallet zatim emituje transakciju na mrežu, gde čvorovi potvrđuju njenu validnost, i šalje se rudarima na potvrdu.
+Svaka Bitcoin transakcija počinje njenim pokretanjem kada pošiljalac, u ovom slučaju, Alisa, kreira transakciju navodeći primaoca, Bob, i iznos, 0.00100000 Bitcoin. Čvor povezan sa Alisinim [Wallet](https://planb.academy/resources/glossary/wallet) zatim emituje transakciju na mrežu, gde čvorovi potvrđuju njenu validnost, i šalje se rudarima na potvrdu.
 
 
-U ovom trenutku, transakcija ulazi u ono što je poznato kao Mempool, suštinski čekaonicu za transakcije spremne da budu dodate u Blockchain. Zamislite to kao listu transakcija na čekanju, slično onima koje vidite na izvodu kreditne kartice, koje su pokrenute, ali čekaju da budu obrađene. Kada je transakcija pokrenuta i nalazi se u Mempool, sada je u rukama rudara.
+U ovom trenutku, transakcija ulazi u ono što je poznato kao [Mempool](https://planb.academy/resources/glossary/mempool), suštinski čekaonicu za transakcije spremne da budu dodate u Blockchain. Zamislite to kao listu transakcija na čekanju, slično onima koje vidite na izvodu kreditne kartice, koje su pokrenute, ali čekaju da budu obrađene. Kada je transakcija pokrenuta i nalazi se u Mempool, sada je u rukama rudara.
 
 
 #### Potvrda transakcije
@@ -1052,7 +1052,7 @@ Iako Bitcoin još uvek nije globalno prihvaćen kao fiat valute, njegova peer-to
 
 
 - **Prenosivo:** Bitcoin, kao digitalno, omogućava transfer bez granica i posrednika između pojedinaca, čineći ga pogodnim i pristupačnim sredstvom Exchange. Iako neke fiat valute takođe nude digitalna rešenja, oni u zemljama u razvoju ili ratom pogođenim zemljama mogu imati poteškoća u pristupu bankarskim uslugama koje ispunjavaju ovu potrebu. Decentralizovana priroda Bitcoin čini ga dostupnim svima sa internet vezom, pružajući održivu alternativu tradicionalnim bankarskim sistemima u oblastima sa ograničenim pristupom finansijskim uslugama.
-- **Deljivost:** Ekstremna deljivost Bitcoin je jedna od njegovih ključnih prednosti kao valute. Sa svakim Bitcoin deljivim do osam decimalnih mesta, najmanja jedinica, Satoshi, vredi samo delić centa. U zavisnosti od metode transakcije, tj. Layer jedan ili dva, ovo čini Bitcoin veoma prilagodljivim za transakcije bilo koje veličine, od malih kupovina do velikih investicija.
+- **Deljivost:** Ekstremna deljivost Bitcoin je jedna od njegovih ključnih prednosti kao valute. Sa svakim Bitcoin deljivim do osam decimalnih mesta, najmanja jedinica, [Satoshi](https://planb.academy/resources/glossary/satoshi-sat), vredi samo delić centa. U zavisnosti od metode transakcije, tj. Layer jedan ili dva, ovo čini Bitcoin veoma prilagodljivim za transakcije bilo koje veličine, od malih kupovina do velikih investicija.
 - **Prihvaćeno:** Iako prihvatanje Bitcoin još uvek nije univerzalno, njegovo sve veće usvajanje od strane trgovaca, institucija i pojedinaca širom sveta sugeriše da postaje sve šire prihvaćeno kao legitiman oblik plaćanja.
 
 
@@ -1215,7 +1215,7 @@ Hajde sada da se fokusiramo na to šta raditi kada nabavite neki Bitcoin ili odl
 ### Sigurno osiguravanje vašeg Bitcoin
 
 
-Ono što Bitcoin čini revolucionarnim je to što, po prvi put u istoriji, možemo preuzeti samostalno staranje nad digitalnim sredstvom. Ovaj podvig se ne može preuveličati! Baš kao što možemo čuvati novac ispod jastuka, isto možemo učiniti sa Bitcoin, ali digitalno. Međutim, ovaj novi nivo kontrole nad našim novcem dolazi sa novim odgovornostima. Da bismo sačuvali naš Bitcoin, moramo naučiti kako ga pravilno osigurati. To znači preduzimanje koraka za zaštitu od gubitka, krađe i pokušaja hakovanja.
+Ono što Bitcoin čini revolucionarnim je to što, po prvi put u istoriji, možemo preuzeti [samostalno staranje](https://planb.academy/resources/glossary/selfcustody) nad digitalnim sredstvom. Ovaj podvig se ne može preuveličati! Baš kao što možemo čuvati novac ispod jastuka, isto možemo učiniti sa Bitcoin, ali digitalno. Međutim, ovaj novi nivo kontrole nad našim novcem dolazi sa novim odgovornostima. Da bismo sačuvali naš Bitcoin, moramo naučiti kako ga pravilno osigurati. To znači preduzimanje koraka za zaštitu od gubitka, krađe i pokušaja hakovanja.
 
 
 #### Gde čuvati vaš Bitcoin
@@ -1237,10 +1237,10 @@ Postoje i bezbrojna druga skrbnička Wallet rešenja dostupna za mobilne uređaj
 
 **Novčanici bez staratelja (takođe poznati kao samostalno starateljstvo)**
 
-Novčanik bez staratelja je tip Bitcoin Wallet gde ste vi jedini staratelj svojih sredstava, što znači da imate potpunu kontrolu nad svojim privatnim ključevima. Privatni ključevi su poput lozinke za vaš Wallet i koriste se za potpisivanje i autorizaciju transakcija. Bez njih, ne možete pristupiti ili preneti svoj Bitcoin.
+Novčanik bez staratelja je tip Bitcoin Wallet gde ste vi jedini staratelj svojih sredstava, što znači da imate potpunu kontrolu nad svojim [privatnim ključevima](https://planb.academy/resources/glossary/private-key). Privatni ključevi su poput lozinke za vaš Wallet i koriste se za potpisivanje i autorizaciju transakcija. Bez njih, ne možete pristupiti ili preneti svoj Bitcoin.
 
 
-Novčanik bez staratelja nudi viši nivo sigurnosti i privatnosti u odnosu na novčanike sa starateljem, jer ste vi jedini odgovorni za bezbednost vaših sredstava. Primeri novčanika bez staratelja uključuju hardverske novčanike kao što su [Coldcard](https://store.coinkite.com/store/coldcard) i [Trezor](https://trezor.io/), koji su fizički uređaji koji čuvaju vaše privatne ključeve van mreže i pružaju dodatni Layer nivo sigurnosti. Drugi popularni novčanici bez staratelja su softverski novčanici kao što su [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), i [Blockstream Green](https://blockstream.com/Green/), koji se mogu preuzeti i instalirati na vaš računar ili mobilni uređaj.
+Novčanik bez staratelja nudi viši nivo sigurnosti i privatnosti u odnosu na novčanike sa starateljem, jer ste vi jedini odgovorni za bezbednost vaših sredstava. Primeri novčanika bez staratelja uključuju [hardverske novčanike](https://planb.academy/resources/glossary/hardware-wallet) kao što su [Coldcard](https://store.coinkite.com/store/coldcard) i [Trezor](https://trezor.io/), koji su fizički uređaji koji čuvaju vaše privatne ključeve van mreže i pružaju dodatni Layer nivo sigurnosti. Drugi popularni novčanici bez staratelja su softverski novčanici kao što su [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), i [Blockstream Green](https://blockstream.com/Green/), koji se mogu preuzeti i instalirati na vaš računar ili mobilni uređaj.
 
 
 \*_Iako ne možemo preporučiti određeni Wallet, toplo savetujemo da preuzmete kontrolu nad svojim Bitcoin putem samostalnog ili zajedničkog čuvanja, što podrazumeva odabir Wallet koji odgovara vašim potrebama i preferencijama. Neophodno je sprovesti temeljno istraživanje pre nego što se odlučite za Wallet kako biste osigurali da odgovara vašim zahtevima za sigurnost i upotrebljivost._*
@@ -1255,7 +1255,7 @@ Iako se čuvarski novčanici mogu činiti pogodnim, dolaze sa značajnim rizicim
 Jednom kada se odlučite za Wallet, zabava i igre još nisu gotove. Sada je vreme da minimizirate rizik od gubitka. Da biste zaštitili svoj Bitcoin, razmotrite ove korake nakon što odaberete svoj Wallet:
 
 
-1. Prvo i najvažnije, napravite rezervnu kopiju vašeg Wallet kada preuzimate samostalno čuvanje. Hardverski novčanici dolaze sa seed frazom za oporavak, skupom reči koje se mogu koristiti za oporavak vaših privatnih ključeva u slučaju da vaš uređaj bude izgubljen ili oštećen. Napravite fizičku kopiju, kao što je metalna seed ploča, ove [seed fraze](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/) i čuvajte je na sigurnom mestu. Važno je da ovu seed frazu za oporavak držite sigurnom. NIKADA je ne delite sa bilo kim.
+1. Prvo i najvažnije, napravite rezervnu kopiju vašeg Wallet kada preuzimate samostalno čuvanje. Hardverski novčanici dolaze sa [seed frazom za oporavak](https://planb.academy/resources/glossary/recovery-phrase), skupom reči koje se mogu koristiti za oporavak vaših privatnih ključeva u slučaju da vaš uređaj bude izgubljen ili oštećen. Napravite fizičku kopiju, kao što je metalna seed ploča, ove [seed fraze](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/) i čuvajte je na sigurnom mestu. Važno je da ovu seed frazu za oporavak držite sigurnom. NIKADA je ne delite sa bilo kim.
 
 2. Kada čuvate značajnu količinu Bitcoin koja prelazi prag koji ne biste želeli da izgubite, važno je istražiti opcije planiranja imovine za nepredviđeni slučaj vaše smrti. Ovo osigurava da vaša porodica i voljeni mogu efikasno pristupiti i upravljati vašim Bitcoin.
 

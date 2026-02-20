@@ -95,14 +95,14 @@ Diese Tabelle bietet dir eine Übersetzung der wichtigsten verwendeten englische
 
 :::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
 
-Die erste Art von kryptografischen Algorithmen, die bei Bitcoin verwendet werden, umfasst Hashfunktionen. Sie spielen eine wesentliche Rolle auf verschiedenen Ebenen des Protokolls, aber auch innerhalb von Bitcoin-Wallets. Lass uns gemeinsam entdecken, was eine Hashfunktion ist und wofür sie bei Bitcoin verwendet wird.
+Die erste Art von kryptografischen Algorithmen, die bei Bitcoin verwendet werden, umfasst Hashfunktionen. Sie spielen eine wesentliche Rolle auf verschiedenen Ebenen des Protokolls, aber auch innerhalb von Bitcoin-[Wallets](https://planb.academy/resources/glossary/wallet). Lass uns gemeinsam entdecken, was eine Hashfunktion ist und wofür sie bei Bitcoin verwendet wird.
 
 ### Definition und Prinzip des Hashings
 
 Hashing ist ein Prozess, der Informationen beliebiger Länge in ein anderes Stück Information fester Länge durch eine kryptografische Hashfunktion transformiert. Mit anderen Worten, eine Hashfunktion nimmt eine Eingabe beliebiger Größe und wandelt sie in einen Fingerabdruck fester Größe um, der als "Hash" bezeichnet wird.
 Der Hash kann manchmal auch als "digest", "condensate", "condensed" oder "hashed" bezeichnet werden.
 
-Zum Beispiel erzeugt die SHA256-Hashfunktion einen Hash fester Länge von 256 Bit. Wenn wir also die Eingabe "_PlanB_", eine Nachricht beliebiger Länge, verwenden, wird der erzeugte Hash der folgende 256-Bit-Fingerabdruck sein:
+Zum Beispiel erzeugt die [SHA256](https://planb.academy/resources/glossary/sha256)-Hashfunktion einen Hash fester Länge von 256 Bit. Wenn wir also die Eingabe "_PlanB_", eine Nachricht beliebiger Länge, verwenden, wird der erzeugte Hash der folgende 256-Bit-Fingerabdruck sein:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -179,11 +179,11 @@ Daher ist die Resistenz gegen das zweite Urbild in gewisser Weise ähnlich zur K
 
 Die am häufigsten verwendete Hashfunktion in Bitcoin ist **SHA256** ("_Secure Hash Algorithm 256 bits"_). Entwickelt Anfang der 2000er Jahre von der NSA und standardisiert durch das NIST, erzeugt sie einen 256-Bit-Hash-Ausgang.
 
-Diese Funktion wird in vielen Aspekten von Bitcoin verwendet. Auf Protokollebene ist sie am Proof-of-Work-Mechanismus beteiligt, wo sie in einer doppelten Hashing-Prozedur angewendet wird, um eine partielle Kollision zwischen dem Header eines Kandidatenblocks, der von einem Miner erstellt wurde, und dem Schwierigkeitsziel zu suchen. Wenn diese partielle Kollision gefunden wird, wird der Kandidatenblock gültig und kann zur Blockchain hinzugefügt werden.
+Diese Funktion wird in vielen Aspekten von Bitcoin verwendet. Auf Protokollebene ist sie am Proof-of-Work-Mechanismus beteiligt, wo sie in einer doppelten Hashing-Prozedur angewendet wird, um eine partielle Kollision zwischen dem Header eines Kandidatenblocks, der von einem Miner erstellt wurde, und dem Schwierigkeitsziel zu suchen. Wenn diese partielle Kollision gefunden wird, wird der Kandidatenblock gültig und kann zur [Blockchain](https://planb.academy/resources/glossary/blockchain) hinzugefügt werden.
 
-SHA256 wird auch beim Aufbau eines Merkle-Baums verwendet, der insbesondere der Akkumulator ist, der für die Aufzeichnung von Transaktionen in Blöcken verwendet wird. Diese Struktur findet sich auch im Utreexo-Protokoll, das die Größe des UTXO-Sets reduziert. Zusätzlich wird SHA256 mit der Einführung von Taproot im Jahr 2021 im MAST (_Merkelised Alternative Script Tree_) genutzt, der es ermöglicht, nur die tatsächlich in einem Skript verwendeten Ausgabebedingungen zu offenbaren, ohne die anderen möglichen Optionen offenzulegen. Es wird auch bei der Berechnung von Transaktionsidentifikatoren, bei der Übertragung von Paketen über das P2P-Netzwerk, bei elektronischen Signaturen und weiteren Anwendungsfällen verwendet. Schließlich, und das ist in dieser Schulung von besonderem Interesse, wird SHA256 auf Anwendungsebene für den Aufbau von Bitcoin-Wallets und die Ableitung von Adressen verwendet.
+SHA256 wird auch beim Aufbau eines [Merkle-Baums](https://planb.academy/resources/glossary/merkle-tree) verwendet, der insbesondere der Akkumulator ist, der für die Aufzeichnung von Transaktionen in Blöcken verwendet wird. Diese Struktur findet sich auch im [Utreexo](https://planb.academy/resources/glossary/utreexo)-Protokoll, das die Größe des [UTXO-Sets](https://planb.academy/resources/glossary/utxo-set) reduziert. Zusätzlich wird SHA256 mit der Einführung von [Taproot](https://planb.academy/resources/glossary/taproot) im Jahr 2021 im [MAST](https://planb.academy/resources/glossary/mast) (_Merkelised Alternative [Script](https://planb.academy/resources/glossary/script) Tree_) genutzt, der es ermöglicht, nur die tatsächlich in einem Skript verwendeten Ausgabebedingungen zu offenbaren, ohne die anderen möglichen Optionen offenzulegen. Es wird auch bei der Berechnung von Transaktionsidentifikatoren, bei der Übertragung von Paketen über das P2P-Netzwerk, bei elektronischen Signaturen und weiteren Anwendungsfällen verwendet. Schließlich, und das ist in dieser Schulung von besonderem Interesse, wird SHA256 auf Anwendungsebene für den Aufbau von Bitcoin-Wallets und die Ableitung von Adressen verwendet.
 
-Meistens, wenn man in Bitcoin auf die Verwendung von SHA256 stößt, wird es tatsächlich ein doppelter Hash SHA256 sein, notiert als "**HASH256**", der einfach darin besteht, SHA256 zweimal hintereinander anzuwenden:
+Meistens, wenn man in Bitcoin auf die Verwendung von SHA256 stößt, wird es tatsächlich ein doppelter Hash SHA256 sein, notiert als "**[HASH256](https://planb.academy/resources/glossary/hash256)**", der einfach darin besteht, SHA256 zweimal hintereinander anzuwenden:
 
 $$
 \text{HASH256}(m) = \text{SHA256}(\text{SHA256}(m))
@@ -191,7 +191,7 @@ $$
 
 Diese Praxis des doppelten Hashings fügt eine zusätzliche Sicherheitsebene gegen bestimmte potenzielle Angriffe hinzu, obwohl ein einzelnes SHA256 heute als kryptografisch sicher gilt.
 
-Eine weitere in der Script-Sprache verfügbare Hashfunktion, die für die Ableitung von Empfangsadressen verwendet wird, ist die RIPEMD160-Funktion. Diese Funktion erzeugt einen 160-Bit-Hash (also kürzer als SHA256). Sie wird in der Regel mit SHA256 kombiniert, um die HASH160-Funktion zu bilden:
+Eine weitere in der Script-Sprache verfügbare Hashfunktion, die für die Ableitung von [Empfangsadressen](https://planb.academy/resources/glossary/receiving-address) verwendet wird, ist die [RIPEMD160](https://planb.academy/resources/glossary/ripemd160)-Funktion. Diese Funktion erzeugt einen 160-Bit-Hash (also kürzer als SHA256). Sie wird in der Regel mit SHA256 kombiniert, um die HASH160-Funktion zu bilden:
 
 $$
 \text{HASH160}(m) = \text{RIPEMD160}(\text{SHA256}(m))
@@ -199,7 +199,7 @@ $$
 
 Diese Kombination wird verwendet, um kürzere Hashes zu erzeugen, insbesondere bei der Erstellung bestimmter Bitcoin-Adressen, die Hashes von Schlüsseln oder Skript-Hashes darstellen, sowie zur Erzeugung von Schlüsselfingerabdrücken.
 
-Schließlich wird auf Anwendungsebene manchmal auch die SHA512-Funktion verwendet, die indirekt eine Rolle bei der Schlüsselableitung für Wallets spielt. Diese Funktion ist in ihrer Arbeitsweise SHA256 sehr ähnlich; beide gehören zur gleichen SHA2-Familie, aber SHA512 erzeugt, wie der Name schon sagt, einen 512-Bit-Hash, verglichen mit 256 Bits für SHA256. Wir werden ihre Verwendung in den folgenden Kapiteln detailliert beschreiben.
+Schließlich wird auf Anwendungsebene manchmal auch die [SHA512](https://planb.academy/resources/glossary/sha512)-Funktion verwendet, die indirekt eine Rolle bei der Schlüsselableitung für Wallets spielt. Diese Funktion ist in ihrer Arbeitsweise SHA256 sehr ähnlich; beide gehören zur gleichen SHA2-Familie, aber SHA512 erzeugt, wie der Name schon sagt, einen 512-Bit-Hash, verglichen mit 256 Bits für SHA256. Wir werden ihre Verwendung in den folgenden Kapiteln detailliert beschreiben.
 
 Du kennst nun die wesentlichen Grundlagen über Hashfunktionen für das Folgende. Im nächsten Kapitel schlage ich vor, die Funktionsweise der Funktion, die im Herzen von Bitcoin steht: SHA256, detaillierter zu entdecken. Wir werden sie analysieren, um zu verstehen, wie sie die hier beschriebenen Eigenschaften erreicht. Das nächste Kapitel ist ziemlich lang und technisch, aber es ist nicht wesentlich, um dem Rest des Kurses zu folgen. Wenn du also Schwierigkeiten hast, es zu verstehen, mach dir keine Sorgen und gehe direkt zum folgenden Kapitel über, welches viel zugänglicher sein wird.
 
@@ -571,7 +571,7 @@ Die Kompressionsfunktion verwendet auch die $\text{ShR}$-Operation. Diese Operat
 Schließlich spielen bei der Eigenschaft der Kollisionsresistenz mehrere Parameter eine Rolle. Die Vorverarbeitung der ursprünglichen Nachricht spielt eine wesentliche Rolle. Ohne diese Vorverarbeitung könnte es einfacher sein, Kollisionen in der Funktion zu finden. Obwohl theoretisch Kollisionen existieren (aufgrund des Schubfachprinzips), macht die Struktur der Hashfunktion, kombiniert mit den zuvor genannten Eigenschaften, die Wahrscheinlichkeit, eine Kollision zu finden, extrem niedrig.
 
 Damit eine Hashfunktion kollisionsresistent ist, ist es wesentlich, dass:
-- Das Ergebnis unvorhersehbar ist: Jede Vorhersehbarkeit kann ausgenutzt werden, um Kollisionen schneller als mit einem Brute-Force-Angriff zu finden. Die Funktion stellt sicher, dass jedes Bit des Ausgangs auf eine nicht-triviale Weise vom Eingang abhängt. Mit anderen Worten, die Funktion ist so konzipiert, dass jedes Bit des Endergebnisses eine unabhängige Wahrscheinlichkeit hat, 0 oder 1 zu sein, auch wenn diese Unabhängigkeit in der Praxis nicht absolut ist.
+- Das Ergebnis unvorhersehbar ist: Jede Vorhersehbarkeit kann ausgenutzt werden, um Kollisionen schneller als mit einem [Brute-Force-Angriff](https://planb.academy/resources/glossary/brute-force-attack) zu finden. Die Funktion stellt sicher, dass jedes Bit des Ausgangs auf eine nicht-triviale Weise vom Eingang abhängt. Mit anderen Worten, die Funktion ist so konzipiert, dass jedes Bit des Endergebnisses eine unabhängige Wahrscheinlichkeit hat, 0 oder 1 zu sein, auch wenn diese Unabhängigkeit in der Praxis nicht absolut ist.
 - Die Verteilung der Hashes ist pseudo-zufällig: Dies stellt sicher, dass die Hashes gleichmäßig verteilt sind.
 - Die Größe des Hashs ist maßgeblich: je größer der mögliche Raum für Ergebnisse, desto schwieriger ist es, eine Kollision zu finden.
 
@@ -583,7 +583,7 @@ Die Struktur von SHA256 basiert auf der Merkle-Damgård-Konstruktion, die es erm
 
 Allerdings sind einige alte Hashfunktionen wie SHA1 oder MD5, die diese spezifische Konstruktion verwenden, anfällig für Length-Extension-Angriffe. Dies ist eine Technik, die es einem Angreifer, der den Hash eines Nachricht $M$ und die Länge von $M$ kennt (ohne die Nachricht selbst zu kennen), ermöglicht, den Hash einer Nachricht $M'$ zu berechnen, die durch das Anhängen von zusätzlichem Inhalt an $M$ gebildet wird.
 
-SHA256, obwohl es denselben Typ von Konstruktion verwendet, ist theoretisch resistent gegen diesen Typ von Angriff, im Gegensatz zu SHA1 und MD5. Dies könnte das Geheimnis des doppelten Hashings erklären, das in Bitcoin von Satoshi Nakamoto implementiert wurde. Um diesen Typ von Angriff zu vermeiden, könnte Satoshi es bevorzugt haben, ein doppeltes SHA256 zu verwenden:
+SHA256, obwohl es denselben Typ von Konstruktion verwendet, ist theoretisch resistent gegen diesen Typ von Angriff, im Gegensatz zu SHA1 und MD5. Dies könnte das Geheimnis des doppelten Hashings erklären, das in Bitcoin von [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) implementiert wurde. Um diesen Typ von Angriff zu vermeiden, könnte Satoshi es bevorzugt haben, ein doppeltes SHA256 zu verwenden:
 
 
 $$
@@ -696,20 +696,20 @@ Die zweite kryptografische Methode, die in Bitcoin verwendet wird, umfasst Algor
 
 ### Bitcoins, UTXOs und Ausgabebedingungen
 
-Der Begriff "*Wallet*" in Bitcoin kann für Anfänger ziemlich verwirrend sein. Tatsächlich ist das, was als Bitcoin-Wallet bezeichnet wird, Software, die deine Bitcoin nicht direkt hält, im Gegensatz zu einer physischen Geldbörse, die Münzen oder Scheine halten kann. Bitcoin sind einfach Recheneinheiten. Diese Recheneinheit wird durch **UTXO** (*Unspent Transaction Outputs*), also unverbrauchte Transaktionsausgänge, dargestellt. Wenn diese Ausgänge unverbraucht sind, bedeutet das, dass sie einem Benutzer gehören. UTXOs sind gewissermaßen Bitcoin-Stücke variabler Größe, die einem Benutzer gehören.
+Der Begriff "*Wallet*" in Bitcoin kann für Anfänger ziemlich verwirrend sein. Tatsächlich ist das, was als Bitcoin-Wallet bezeichnet wird, Software, die deine Bitcoin nicht direkt hält, im Gegensatz zu einer physischen Geldbörse, die Münzen oder Scheine halten kann. Bitcoin sind einfach Recheneinheiten. Diese Recheneinheit wird durch **[UTXO](https://planb.academy/resources/glossary/utxo)** (*Unspent Transaction Outputs*), also unverbrauchte Transaktionsausgänge, dargestellt. Wenn diese Ausgänge unverbraucht sind, bedeutet das, dass sie einem Benutzer gehören. UTXOs sind gewissermaßen Bitcoin-Stücke variabler Größe, die einem Benutzer gehören.
 
 Das Bitcoin-Protokoll ist verteilt und funktioniert ohne zentrale Autorität. Daher ist es nicht wie traditionelle Bankaufzeichnungen, bei denen die Euros, die dir gehören, einfach mit deiner persönlichen Identität verknüpft sind. Bei Bitcoin gehören deine UTXOs dir, weil sie durch Ausgabebedingungen geschützt sind, die in der Script-Sprache angegeben sind. Vereinfacht gesagt gibt es zwei Arten von Scripts: das Sperrscript (*scriptPubKey*), das ein UTXO schützt, und das Entsperrscript (*scriptSig*), das das Entsperren eines UTXO ermöglicht und somit die darin vertretenen Bitcoin-Einheiten ausgibt.
 
-Die ursprüngliche Operation von Bitcoin mit P2PK-Scripts beinhaltet die Verwendung eines öffentlichen Schlüssels (engl. public key), um Gelder zu sperren, indem in einem *scriptPubKey* angegeben wird, dass die Person, die diesen UTXO ausgeben möchte, eine gültige Signatur mit dem privaten Schlüssel (engl. private key) vorlegen muss, der zu diesem öffentlichen Schlüssel gehört. Um diesen UTXO zu entsperren, ist es daher notwendig, eine gültige Signatur im *scriptSig* bereitzustellen. Wie ihre Namen andeuten, ist der öffentliche Schlüssel allen bekannt, da er in der Blockchain übertragen wird, während der private Schlüssel nur dem legitimen Besitzer der Gelder bekannt ist.
+Die ursprüngliche Operation von Bitcoin mit [P2PK](https://planb.academy/resources/glossary/p2pk)-Scripts beinhaltet die Verwendung eines öffentlichen Schlüssels (engl. public key), um Gelder zu sperren, indem in einem *scriptPubKey* angegeben wird, dass die Person, die diesen UTXO ausgeben möchte, eine gültige Signatur mit dem privaten Schlüssel (engl. private key) vorlegen muss, der zu diesem öffentlichen Schlüssel gehört. Um diesen UTXO zu entsperren, ist es daher notwendig, eine gültige Signatur im *scriptSig* bereitzustellen. Wie ihre Namen andeuten, ist der öffentliche Schlüssel allen bekannt, da er in der Blockchain übertragen wird, während der private Schlüssel nur dem legitimen Besitzer der Gelder bekannt ist.
 
-Dies ist die grundlegende Funktionsweise von Bitcoin, aber im Laufe der Zeit ist diese Operation komplexer geworden. Zuerst führte Satoshi auch P2PKH-Scripte ein, die eine Empfangsadresse im *scriptPubKey* verwenden, die den Hash des öffentlichen Schlüssels darstellt. Dann wurde das System noch komplexer mit der Ankunft von SegWit und dann Taproot. Das allgemeine Prinzip bleibt jedoch grundsätzlich dasselbe: Ein öffentlicher Schlüssel oder eine Darstellung dieses Schlüssels wird verwendet, um UTXOs zu sperren, und ein entsprechender privater Schlüssel ist erforderlich, um sie zu entsperren und somit auszugeben.
+Dies ist die grundlegende Funktionsweise von Bitcoin, aber im Laufe der Zeit ist diese Operation komplexer geworden. Zuerst führte Satoshi auch [P2PKH](https://planb.academy/resources/glossary/p2pkh)-Scripte ein, die eine Empfangsadresse im *scriptPubKey* verwenden, die den Hash des öffentlichen Schlüssels darstellt. Dann wurde das System noch komplexer mit der Ankunft von [SegWit](https://planb.academy/resources/glossary/segwit) und dann Taproot. Das allgemeine Prinzip bleibt jedoch grundsätzlich dasselbe: Ein öffentlicher Schlüssel oder eine Darstellung dieses Schlüssels wird verwendet, um UTXOs zu sperren, und ein entsprechender privater Schlüssel ist erforderlich, um sie zu entsperren und somit auszugeben.
 
 Ein Nutzer, der eine Bitcoin-Transaktion durchführen möchte, muss daher eine digitale Signatur mit seinem privaten Schlüssel für die betreffende Transaktion erstellen. Die Signatur kann von anderen Netzwerkteilnehmern überprüft werden. Wenn sie gültig ist, bedeutet dies, dass der Nutzer, der die Transaktion initiiert, tatsächlich der Besitzer des privaten Schlüssels und somit der Besitzer der Bitcoins ist, die er ausgeben möchte. Andere Nutzer können dann die Transaktion akzeptieren und weiterleiten.
 
 Folglich muss ein Nutzer, der Bitcoins besitzt, die mit einem öffentlichen Schlüssel gesperrt sind, einen Weg finden, um das, was das Entsperren seiner Mittel ermöglicht, nämlich den privaten Schlüssel, sicher aufzubewahren. Eine Bitcoin-Wallet ist also ein Werkzeug, das es dir ermöglicht, alle deine Schlüssel einfach zu behalten, ohne dass andere Personen Zugang dazu haben. Es ist daher eher wie ein Schlüsselbund als wie eine Geldbörse.
 
-Die mathematische Verbindung zwischen einem öffentlichen Schlüssel und einem privaten Schlüssel sowie die Fähigkeit, eine Signatur zu leisten, um den Besitz eines privaten Schlüssels zu beweisen, ohne ihn zu offenbaren, wird durch einen digitalen Signaturalgorithmus ermöglicht. Im Bitcoin-Protokoll werden 2 Signaturalgorithmen verwendet: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** ([*Elliptic Curve Digital Signature Algorithm*](https://planb.academy/resources/glossary/elliptic-curve) und das **Schnorr-Signuture-Theme**.
-Diese beiden Algorithmen sind in ihren Mechanismen recht ähnlich. Sie basieren beide auf elliptischer Kurvenkryptografie. Der Hauptunterschied zwischen diesen beiden Protokollen liegt in der Struktur der Signatur und einigen spezifischen mathematischen Eigenschaften. Wir werden daher die Funktionsweise dieser Algorithmen untersuchen, beginnend mit dem ältesten: ECDSA.
+Die mathematische Verbindung zwischen einem öffentlichen Schlüssel und einem privaten Schlüssel sowie die Fähigkeit, eine Signatur zu leisten, um den Besitz eines privaten Schlüssels zu beweisen, ohne ihn zu offenbaren, wird durch einen digitalen Signaturalgorithmus ermöglicht. Im Bitcoin-Protokoll werden 2 Signaturalgorithmen verwendet: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (*Elliptic Curve Digital Signature Algorithm* und das **[Schnorr](https://planb.academy/resources/glossary/schnorr-protocol)-Signuture-Theme**.
+Diese beiden Algorithmen sind in ihren Mechanismen recht ähnlich. Sie basieren beide auf [elliptischer Kurvenkryptografie](https://planb.academy/resources/glossary/elliptic-curve). Der Hauptunterschied zwischen diesen beiden Protokollen liegt in der Struktur der Signatur und einigen spezifischen mathematischen Eigenschaften. Wir werden daher die Funktionsweise dieser Algorithmen untersuchen, beginnend mit dem ältesten: ECDSA.
 
 ### Elliptische Kurvenkryptografie
 
@@ -733,7 +733,7 @@ $$
 
 Um ECDSA oder Schnorr zu verwenden, muss man die Parameter der elliptischen Kurve wählen, das heißt, die Werte von $a$ und $b$ in der Kurvengleichung. Es gibt verschiedene Standards elliptischer Kurven, die als kryptografisch sicher gelten. Der bekannteste ist die *secp256r1*-Kurve, die vom NIST (*National Institute of Standards and Technology*) definiert und empfohlen wird.
 
-Trotzdem entschied sich Satoshi Nakamoto, der Erfinder von Bitcoin, diese Kurve nicht zu verwenden. Der Grund für diese Wahl ist unbekannt, aber einige glauben, er bevorzugte eine Alternative, weil die Parameter dieser Kurve potenziell eine Hintertür enthalten könnten. Stattdessen verwendet das Bitcoin-Protokoll die Standard ***secp256k1***-Kurse. Diese Kurve ist durch die Parameter $a = 0$ und $b = 7$ definiert. deine Gleichung ist daher:
+Trotzdem entschied sich Satoshi Nakamoto, der Erfinder von Bitcoin, diese Kurve nicht zu verwenden. Der Grund für diese Wahl ist unbekannt, aber einige glauben, er bevorzugte eine Alternative, weil die Parameter dieser Kurve potenziell eine Hintertür enthalten könnten. Stattdessen verwendet das Bitcoin-Protokoll die Standard ***[secp256k1](https://planb.academy/resources/glossary/secp256k1)***-Kurse. Diese Kurve ist durch die Parameter $a = 0$ und $b = 7$ definiert. deine Gleichung ist daher:
 
 $$
 
@@ -794,11 +794,11 @@ https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 :::video id=2fddfb16-5ae3-41da-92f8-ef5d09789804:::
 
-Wie zuvor gesehen, basieren die digitalen Signaturalgorithmen bei Bitcoin auf einem Paar von privaten und öffentlichen Schlüsseln, die mathematisch miteinander verknüpft sind. Lass uns gemeinsam erkunden, was diese mathematische Verknüpfung ist und wie sie generiert werden.
+Wie zuvor gesehen, basieren die digitalen Signaturalgorithmen bei Bitcoin auf einem Paar von privaten und [öffentlichen Schlüsseln](https://planb.academy/resources/glossary/public-key), die mathematisch miteinander verknüpft sind. Lass uns gemeinsam erkunden, was diese mathematische Verknüpfung ist und wie sie generiert werden.
 
 ### Der private Schlüssel
 
-Der private Schlüssel ist einfach eine zufällige oder pseudozufällige Zahl. Im Fall von Bitcoin ist diese Zahl 256 Bit groß. Die Anzahl der Möglichkeiten für einen privaten Bitcoin-Schlüssel ist daher theoretisch $2^{256}$.
+Der [private Schlüssel](https://planb.academy/resources/glossary/private-key) ist einfach eine zufällige oder pseudozufällige Zahl. Im Fall von Bitcoin ist diese Zahl 256 Bit groß. Die Anzahl der Möglichkeiten für einen privaten Bitcoin-Schlüssel ist daher theoretisch $2^{256}$.
 
 **Hinweis**: Eine "pseudo-zufällige Zahl" ist eine Zahl, die Eigenschaften aufweist, die der einer wirklich zufälligen Zahl nahekommen, aber durch einen deterministischen Algorithmus erzeugt wird.
 In der Praxis gibt es jedoch nur $n$ unterschiedliche Punkte auf unserer elliptischen Kurve secp256k1, wobei $n$ die Ordnung des Generatorpunkts $G$ der Kurve ist. Wir werden später sehen, was diese Zahl bedeutet, aber merk dir einfach, dass ein gültiger privater Schlüssel eine ganze Zahl zwischen $1$ und $n-1$ ist, wobei $n$ eine Zahl ist, die nahe, aber etwas weniger als $2^{256}$ ist. Daher gibt es einige 256-Bit-Zahlen, die nicht gültig sind, um ein privater Schlüssel in Bitcoin zu werden, speziell alle Zahlen zwischen $n$ und $2^{256}$. Wenn die Erzeugung der Zufallszahl (der private Schlüssel) einen Wert $k$ ergibt, sodass $k \geq n$ ist, wird er als ungültig betrachtet, und ein neuer Zufallswert muss generiert werden.
@@ -985,7 +985,7 @@ $$
 e = \text{HASH}(m)
 $$
 
-Als Nächstes berechnen wir einen Nonce. In der Kryptografie ist ein Nonce einfach eine Zahl, die auf zufällige oder pseudozufällige Weise generiert wird und nur einmal verwendet wird. Das heißt, jedes Mal, wenn eine neue digitale Signatur mit diesem Schlüsselpaar erstellt wird, ist es sehr wichtig, einen anderen Nonce zu verwenden, da sonst die Sicherheit des privaten Schlüssels gefährdet wird. Es reicht daher aus, eine zufällige und einzigartige ganze Zahl $r$ zu bestimmen, sodass $1 \leq r \leq n-1$, wobei $n$ die Ordnung des erzeugenden Punkts $G$ der elliptischen Kurve ist.
+Als Nächstes berechnen wir einen [Nonce](https://planb.academy/resources/glossary/nonce). In der Kryptografie ist ein Nonce einfach eine Zahl, die auf zufällige oder pseudozufällige Weise generiert wird und nur einmal verwendet wird. Das heißt, jedes Mal, wenn eine neue digitale Signatur mit diesem Schlüsselpaar erstellt wird, ist es sehr wichtig, einen anderen Nonce zu verwenden, da sonst die Sicherheit des privaten Schlüssels gefährdet wird. Es reicht daher aus, eine zufällige und einzigartige ganze Zahl $r$ zu bestimmen, sodass $1 \leq r \leq n-1$, wobei $n$ die Ordnung des erzeugenden Punkts $G$ der elliptischen Kurve ist.
 
 Dann berechnen wir den Punkt $R$ auf der elliptischen Kurve mit den Koordinaten $(x_R, y_R)$, sodass:
 
@@ -1196,9 +1196,9 @@ Diese beiden sighash flags würden eine zusätzliche Möglichkeit in Bitcoin bie
 ![CYP201](assets/en/037.webp)
 
 Diese Idee wurde ursprünglich von Joseph Poon und Thaddeus Dryja im Lightning-Whitepaper formuliert. Bevor es umbenannt wurde, hieß dieses sighash flag `SIGHASH_NOINPUT`.
-Wenn dieses sighash flag in Bitcoin integriert wird, ermöglicht es die Verwendung von Covenants, ist aber auch eine zwingende Voraussetzung für die Implementierung von Eltoo, einem allgemeinen Protokoll für zweite Schichten (second layers), das definiert, wie das Eigentum an einem UTXO gemeinsam verwaltet wird. Eltoo wurde speziell entwickelt, um die Probleme zu lösen, die mit den Mechanismen zur Aushandlung des Zustands von Lightning-Kanälen verbunden sind, das heißt, zwischen Öffnen und Schließen.
+Wenn dieses sighash flag in Bitcoin integriert wird, ermöglicht es die Verwendung von [Covenants](https://planb.academy/resources/glossary/covenant), ist aber auch eine zwingende Voraussetzung für die Implementierung von Eltoo, einem allgemeinen Protokoll für zweite Schichten (second layers), das definiert, wie das Eigentum an einem UTXO gemeinsam verwaltet wird. Eltoo wurde speziell entwickelt, um die Probleme zu lösen, die mit den Mechanismen zur Aushandlung des Zustands von Lightning-Kanälen verbunden sind, das heißt, zwischen Öffnen und Schließen.
 
-Um dein Wissen über das Lightning Network zu vertiefen, empfehle ich nach dem CYP201-Kurs den LNP201-Kurs von Fanis Michalakis, der das Thema detailliert behandelt:
+Um dein Wissen über das [Lightning Network](https://planb.academy/resources/glossary/lightning-network) zu vertiefen, empfehle ich nach dem CYP201-Kurs den LNP201-Kurs von Fanis Michalakis, der das Thema detailliert behandelt:
 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
@@ -1239,7 +1239,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HD-Wallets (_Hierarchical Deterministic_)
 
-Um die Einschränkung von JBOK-Wallets zu adressieren, wurde später eine neue Wallet-Struktur genutzt. Im Jahr 2012 führte Pieter Wuille mit BIP32 eine Verbesserung ein, die hierarchische deterministische Wallets einführt. Das Prinzip einer HD-Wallet besteht darin, alle privaten Schlüssel von einer einzigen Informationsquelle, genannt Seed, auf eine deterministische und hierarchische Weise abzuleiten. Dieser Seed wird zufällig beim Erstellen der Wallet generiert und stellt ein einzigartiges Backup dar, das die Wiederherstellung aller privaten Schlüssel der Wallet ermöglicht. So kann der Benutzer eine sehr große Anzahl von privaten Schlüsseln generieren, um die Wiederverwendung von Adressen zu vermeiden und ihre Privatsphäre zu bewahren, während nur ein einziges Backup seiner Wallet über den Seed benötigt wird.
+Um die Einschränkung von JBOK-Wallets zu adressieren, wurde später eine neue Wallet-Struktur genutzt. Im Jahr 2012 führte Pieter Wuille mit [BIP32](https://planb.academy/resources/glossary/bip0032) eine Verbesserung ein, die hierarchische deterministische Wallets einführt. Das Prinzip einer HD-Wallet besteht darin, alle privaten Schlüssel von einer einzigen Informationsquelle, genannt [Seed](https://planb.academy/resources/glossary/seed), auf eine deterministische und hierarchische Weise abzuleiten. Dieser Seed wird zufällig beim Erstellen der Wallet generiert und stellt ein einzigartiges Backup dar, das die Wiederherstellung aller privaten Schlüssel der Wallet ermöglicht. So kann der Benutzer eine sehr große Anzahl von privaten Schlüsseln generieren, um die Wiederverwendung von Adressen zu vermeiden und ihre Privatsphäre zu bewahren, während nur ein einziges Backup seiner Wallet über den Seed benötigt wird.
 
 ![CYP201](assets/en/039.webp)
 
@@ -1258,7 +1258,7 @@ In den kommenden Kapiteln werden wir die internen Arbeitsweisen von HD-Wallets e
 
 :::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
 
-Moderne HD-Wallets (deterministisch und hierarchisch) stützen sich auf ein einzelnes anfängliches Informationsstück, genannt "Entropie", um das gesamte Set von Wallet-Schlüsseln deterministisch zu generieren. Diese Entropie ist eine pseudozufällige Zahl, deren Chaosgrad teilweise die Sicherheit der Wallet bestimmt.
+Moderne HD-Wallets (deterministisch und hierarchisch) stützen sich auf ein einzelnes anfängliches Informationsstück, genannt "[Entropie](https://planb.academy/resources/glossary/entropy)", um das gesamte Set von Wallet-Schlüsseln deterministisch zu generieren. Diese Entropie ist eine pseudozufällige Zahl, deren Chaosgrad teilweise die Sicherheit der Wallet bestimmt.
 
 ### Definition von Entropie
 
@@ -1287,12 +1287,12 @@ Im nächsten Kapitel werden wir sehen, wie wir von einer Zufallszahl zu einer mn
 
 :::video id=6218472e-b965-484f-b56b-e363f65d2827:::
 
-Die mnemonische Phrase, auch bekannt als "Seed-Phrase", "Wiederherstellungsphrase", "Geheimphrase" oder "24-Word-Phrase", ist eine Sequenz, die üblicherweise aus 12 oder 24 Wörtern besteht und aus Entropie generiert wird. Sie wird verwendet, um deterministisch alle Schlüssel einer HD-Wallet abzuleiten. Das bedeutet, dass aus dieser Phrase alle privaten und öffentlichen Schlüssel der Bitcoin-Wallet deterministisch generiert und rekonstruiert werden können und somit Zugang zu den damit geschützten Geldern ermöglicht wird. Der Zweck der mnemonischen Phrase besteht darin, ein Mittel zur Sicherung und Wiederherstellung von Bitcoin zu bieten, das sowohl sicher als auch einfach zu verwenden ist. Sie wurde 2013 mit BIP39 in Standards eingeführt.
+Die mnemonische Phrase, auch bekannt als "Seed-Phrase", "Wiederherstellungsphrase", "Geheimphrase" oder "24-Word-Phrase", ist eine Sequenz, die üblicherweise aus 12 oder 24 Wörtern besteht und aus Entropie generiert wird. Sie wird verwendet, um deterministisch alle Schlüssel einer HD-Wallet abzuleiten. Das bedeutet, dass aus dieser Phrase alle privaten und öffentlichen Schlüssel der Bitcoin-Wallet deterministisch generiert und rekonstruiert werden können und somit Zugang zu den damit geschützten Geldern ermöglicht wird. Der Zweck der mnemonischen Phrase besteht darin, ein Mittel zur Sicherung und Wiederherstellung von Bitcoin zu bieten, das sowohl sicher als auch einfach zu verwenden ist. Sie wurde 2013 mit [BIP39](https://planb.academy/resources/glossary/bip0039) in Standards eingeführt.
 Lass uns gemeinsam entdecken, wie man von Entropie zu einer mnemonischen Phrase gelangt.
 
 ### Die Prüfsumme
 
-Um Entropie in eine mnemonischen Phrase umzuwandeln, muss zunächst eine Prüfsumme (oder "Kontrollsumme") am Ende der Entropie hinzugefügt werden. Diese Prüfsumme ist eine kurze Bitsequenz, die die Integrität der Daten sicherstellt, indem sie überprüft, ob keine zufällige Modifikation eingeführt wurde.
+Um Entropie in eine mnemonischen Phrase umzuwandeln, muss zunächst eine [Prüfsumme](https://planb.academy/resources/glossary/checksum) (oder "Kontrollsumme") am Ende der Entropie hinzugefügt werden. Diese Prüfsumme ist eine kurze Bitsequenz, die die Integrität der Daten sicherstellt, indem sie überprüft, ob keine zufällige Modifikation eingeführt wurde.
 
 Um die Prüfsumme zu berechnen, wird die SHA256-Hashfunktion einmalig auf die Entropie angewendet (dies ist einer der seltenen Fälle bei Bitcoin, in denen ein einzelner SHA256-Hash anstelle eines doppelten Hashs verwendet wird). Diese Operation produziert einen 256-Bit-Hash. Die Prüfsumme besteht aus den ersten Bits dieses Hashs, und ihre Länge hängt von der Länge der Entropie ab, gemäß der folgenden Formel:
 
@@ -1389,7 +1389,7 @@ Bevor wir mit der Ableitung der Wallet aus dieser mnemonischen Phrase fortfahren
 
 :::video id=59f8a63e-56af-4937-a1d1-3314b3934048:::
 
-Wie wir gerade gesehen haben, werden HD-Wallets aus einer mnemonischen Phrase generiert, die typischerweise aus 12 oder 24 Wörtern besteht. Diese Phrase ist sehr wichtig, da sie die Wiederherstellung aller Schlüssel einer Wallet ermöglicht, falls dessen physisches Gerät (wie zum Beispiel ein Hardware-Wallet) verloren geht. Allerdings stellt sie einen einzigen Ausfallpunkt dar, denn wenn sie kompromittiert wird, könnte ein Angreifer alle Bitcoin stehlen. Hier kommt die BIP39-Passphrase ins Spiel.
+Wie wir gerade gesehen haben, werden HD-Wallets aus einer mnemonischen Phrase generiert, die typischerweise aus 12 oder 24 Wörtern besteht. Diese Phrase ist sehr wichtig, da sie die Wiederherstellung aller Schlüssel einer Wallet ermöglicht, falls dessen physisches Gerät (wie zum Beispiel ein Hardware-Wallet) verloren geht. Allerdings stellt sie einen einzigen Ausfallpunkt dar, denn wenn sie kompromittiert wird, könnte ein Angreifer alle Bitcoin stehlen. Hier kommt die BIP39-[Passphrase](https://planb.academy/resources/glossary/passphrase-bip39) ins Spiel.
 
 ### Was ist eine BIP39-Passphrase?
 
@@ -1818,7 +1818,7 @@ Zusammengefasst hast du bisher gelernt, die grundlegenden Elemente einer HD-Wall
 
 Die hierarchische Struktur von HD-Wallets bei Bitcoin ermöglicht die Organisation von Schlüsselpaaren auf verschiedene Weisen. Die Idee besteht darin, von dem privaten Master-Schlüssel und dem Master-Chain-Code aus mehrere Ebenen abzuleiten. Jede hinzugefügte Ebene entspricht der Ableitung eines untergeordneten Schlüsselpaares von einem übergeordneten Schlüsselpaar.
 
-Im Laufe der Zeit haben verschiedene BIPs (*Bitcoin Improvement Proposals*) Standards für diese Ableitungspfade eingeführt, um deren Nutzung über verschiedene Software hinweg zu standardisieren. In diesem Kapitel werden wir also die Bedeutung jeder Ableitungsebene in HD-Wallets gemäß diesen Standards entdecken.
+Im Laufe der Zeit haben verschiedene BIPs (*Bitcoin Improvement Proposals*) Standards für diese [Ableitungspfade](https://planb.academy/resources/glossary/derivation-path) eingeführt, um deren Nutzung über verschiedene Software hinweg zu standardisieren. In diesem Kapitel werden wir also die Bedeutung jeder Ableitungsebene in HD-Wallets gemäß diesen Standards entdecken.
 
 ### Die Ebenen der Ableitung eines HD-Wallets
 
@@ -1830,12 +1830,12 @@ Ein Ableitungspfad bezieht sich daher auf die Sequenz von Indizes, die verwendet
 
 Diese Ebene entspricht dem privaten Master-Schlüssel und dem Master-Chain-Code der Wallet. Sie wird durch die Notation $m/$ dargestellt.
 
-**Ebene 1: Zweck (BIP43)**
+**Ebene 1: Zweck ([BIP43](https://planb.academy/resources/glossary/bip0043))**
 
-Das Ziel bestimmt die logische Struktur der Ableitung. Zum Beispiel wird eine P2WPKH-Adresse auf der Ebene 1 den Index $/84'/$ haben (gemäß BIP84), während eine P2TR-Adresse den Index $/86'/$ haben wird (gemäß BIP86). Diese Schicht erleichtert die Kompatibilität zwischen Wallets, indem sie Indexnummern angibt, die den BIP-Nummern entsprechen.
+Das Ziel bestimmt die logische Struktur der Ableitung. Zum Beispiel wird eine P2WPKH-Adresse auf der Ebene 1 den Index $/84'/$ haben (gemäß [BIP84](https://planb.academy/resources/glossary/bip0084)), während eine P2TR-Adresse den Index $/86'/$ haben wird (gemäß [BIP86](https://planb.academy/resources/glossary/bip0086)). Diese Schicht erleichtert die Kompatibilität zwischen Wallets, indem sie Indexnummern angibt, die den BIP-Nummern entsprechen.
 Anders gesagt, sobald du den Master-Schlüssel und den Master-Chain-Code hast, dienen diese als übergeordnetes Schlüsselpaar, um ein untergeordnetes Schlüsselpaar abzuleiten. Der in dieser Ableitung verwendete Index kann zum Beispiel $/84'/$ sein, wenn die Wallet vorgesehen ist, SegWit v0 Typ-Skripte zu verwenden. Dieses Schlüsselpaar befindet sich dann auf Ebene 1. Seine Rolle ist es nicht, Bitcoins zu sperren, sondern einfach als Wegpunkt in der Ableitungshierarchie zu dienen.
 
-**Ebene 2: Währungstyp (BIP44)**
+**Ebene 2: Währungstyp ([BIP44](https://planb.academy/resources/glossary/bip0044))**
 
 Vom Schlüsselpaar auf Ebene 1 wird eine neue Ableitung durchgeführt, um das Schlüsselpaar auf Ebene 2 zu erhalten. Diese Ebene ermöglicht es, Bitcoin-Konten von anderen Kryptowährungen innerhalb derselben Wallet zu unterscheiden.
 
@@ -1911,7 +1911,7 @@ Im nächsten Kapitel werden wir entdecken, was "*Output Script Descriptors*" sin
 
 Oft wird gesagt, dass die mnemonische Phrase allein ausreicht, um den Zugang zu einer Wallet wiederherzustellen. In Wirklichkeit sind die Dinge ein wenig komplexer. Im vorherigen Kapitel haben wir uns die Ableitungsstruktur einer HD-Wallet angesehen, und du hasat vielleicht bemerkt, dass dieser Prozess ziemlich komplex ist. Ableitungspfade zeigen der Software, welche Richtung sie verfolgen soll, um die Schlüssel des Benutzers abzuleiten. Wenn man jedoch eine Bitcoin-Wallet wiederherstellen möchte und diese Pfade nicht kennt, reicht die mnemonische Phrase allein nicht aus. Sie ermöglicht es, den Master-Schlüssel und den Master-Chain-Code zu erhalten, aber es ist dann notwendig, die Indizes zu kennen, die verwendet wurden, um die untergeordneten Schlüssel zu erreichen.
 
-Theoretisch wäre es notwendig, nicht nur die mnemonische Phrase unserer Wallet zu speichern, sondern auch die Pfade zu den Konten, die wir verwenden. In der Praxis ist es oft möglich, ohne diese Informationen wieder Zugang zu den untergeordneten Schlüsseln zu erhalten, vorausgesetzt, die Standards wurden eingehalten. Indem man jeden Standard einzeln testet, ist es im Allgemeinen möglich, wieder Zugang zu den Bitcoin zu erhalten. Dies ist jedoch nicht garantiert und besonders kompliziert für Anfänger. Auch mit der Diversifizierung der Skripttypen und dem Aufkommen komplexerer Konfigurationen könnten diese Informationen schwer zu extrapolieren sein, wodurch diese Daten zu privaten Informationen werden und schwer durch Brute-Force zu erraten sind. Deshalb wurde kürzlich eine Innovation eingeführt und beginnt, in deine bevorzugte Wallet-Software integriert zu werden: die *Output Script Descriptors*.
+Theoretisch wäre es notwendig, nicht nur die mnemonische Phrase unserer Wallet zu speichern, sondern auch die Pfade zu den Konten, die wir verwenden. In der Praxis ist es oft möglich, ohne diese Informationen wieder Zugang zu den untergeordneten Schlüsseln zu erhalten, vorausgesetzt, die Standards wurden eingehalten. Indem man jeden Standard einzeln testet, ist es im Allgemeinen möglich, wieder Zugang zu den Bitcoin zu erhalten. Dies ist jedoch nicht garantiert und besonders kompliziert für Anfänger. Auch mit der Diversifizierung der Skripttypen und dem Aufkommen komplexerer Konfigurationen könnten diese Informationen schwer zu extrapolieren sein, wodurch diese Daten zu privaten Informationen werden und schwer durch Brute-Force zu erraten sind. Deshalb wurde kürzlich eine Innovation eingeführt und beginnt, in deine bevorzugte Wallet-Software integriert zu werden: die *[Output Script Descriptors](https://planb.academy/resources/glossary/output-script-descriptors)*.
 
 ### Was ist ein "Descriptor"?
 
@@ -1970,13 +1970,13 @@ Genau im *scriptPubKey* befinden sich die Empfangsadressen. Ihre Verwendung vari
 
 
 
-| Standard             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| Standard             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _[witness](https://planb.academy/resources/glossary/scriptwitness)_ |
 | -------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
 | P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
 | P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
-| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Beliebige Daten | |
-| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
-| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| [P2SH](https://planb.academy/resources/glossary/p2sh)                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Beliebige Daten | |
+| [P2WPKH](https://planb.academy/resources/glossary/p2wpkh)               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| [P2WSH](https://planb.academy/resources/glossary/p2wsh)                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
 | P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
 | P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
@@ -2043,7 +2043,7 @@ Dieses Skriptmodell wurde in der ersten Version von Bitcoin von Satoshi Nakamoto
 
 **P2PKH (*Pay-to-PubKey-Hash*)**:
 
-Wie P2PK wurde das P2PKH-Skript beim Start von Bitcoin eingeführt. Im Gegensatz zu seinem Vorgänger sperrt es die Bitcoin unter Verwendung des Hashs des öffentlichen Schlüssels, anstatt direkt den rohen öffentlichen Schlüssel zu verwenden. Das *scriptSig* muss dann den öffentlichen Schlüssel, der mit der Empfangsadresse verbunden ist, sowie eine gültige Signatur bereitstellen. Die Adressen, die diesem Modell entsprechen, beginnen mit `1` und sind in *base58check* kodiert. Dieses Skript gehört ebenfalls zum "*Legacy*" Standard.
+Wie P2PK wurde das P2PKH-Skript beim Start von Bitcoin eingeführt. Im Gegensatz zu seinem Vorgänger sperrt es die Bitcoin unter Verwendung des Hashs des öffentlichen Schlüssels, anstatt direkt den rohen öffentlichen Schlüssel zu verwenden. Das *scriptSig* muss dann den öffentlichen Schlüssel, der mit der Empfangsadresse verbunden ist, sowie eine gültige Signatur bereitstellen. Die Adressen, die diesem Modell entsprechen, beginnen mit `1` und sind in *[base58check](https://planb.academy/resources/glossary/base58check)* kodiert. Dieses Skript gehört ebenfalls zum "*Legacy*" Standard.
 
 **P2SH (*Pay-to-Script-Hash*)**:
 
@@ -2052,7 +2052,7 @@ Eingeführt im Jahr 2012 mit BIP16, ermöglicht das P2SH-Modell die Verwendung d
 **P2WPKH (*Pay-to-Witness-PubKey-Hash*)**:
 
 Dieses Skript ähnelt P2PKH, da es ebenfalls Bitcoin mittels des Hashs eines öffentlichen Schlüssels sperrt. Im Gegensatz zu P2PKH wird jedoch das *scriptSig* in einen separaten Abschnitt namens "*Witness*" verschoben. Dies wird manchmal als "*scriptWitness*" bezeichnet, um das Set, bestehend aus der Signatur und dem öffentlichen Schlüssel, zu benennen. Jeder SegWit-Eingang hat sein eigenes *scriptWitness*, und die Sammlung von *scriptWitnesses* bildet das *Witness*-Feld der Transaktion. Diese Verlagerung der Signaturdaten ist eine Innovation, die durch das SegWit-Update eingeführt wurde, insbesondere um die Veränderbarkeit von Transaktionen aufgrund von ECDSA-Signaturen zu verhindern.
-P2WPKH-Adressen verwenden *bech32*-Kodierung und beginnen immer mit `bc1q`. Dieser Typ von Skript entspricht den SegWit-Outputs der Version 0.
+P2WPKH-Adressen verwenden *[bech32](https://planb.academy/resources/glossary/bech32-and-bech32m)*-Kodierung und beginnen immer mit `bc1q`. Dieser Typ von Skript entspricht den SegWit-Outputs der Version 0.
 
 **P2WSH (*Pay-to-Witness-Script-Hash*)**:
 

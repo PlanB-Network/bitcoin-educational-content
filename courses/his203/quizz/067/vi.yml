@@ -1,0 +1,10 @@
+question: Tỷ lệ xấp xỉ bao nhiêu phần trăm số bitcoin đang lưu hành tương ứng với số tiền được quản lý bởi quỹ Tiết kiệm & Tín thác Bitcoin ở thời kỳ đỉnh cao?
+answer: Khoảng 5%
+wrong_answers:
+  - Xấp xỉ 0,05
+  - Xấp xỉ 0,5
+  - Khoảng 50%
+explanation: |
+ Vào thời kỳ đỉnh cao tháng 8 năm 2012, quỹ của Trendon Shavers (hay còn gọi là PirateAt40) quản lý hơn 500.000 bitcoin, chiếm khoảng 5% trong tổng số 9,7 triệu bitcoin đang lưu hành!
+ Bitcoin Savings & Trust sụp đổ ngay sau đó, khi niềm tin tan biến.
+reviewed: true

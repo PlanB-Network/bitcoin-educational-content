@@ -1,0 +1,10 @@
+question: Ni ikibazo ikihe Namecoin, amafaranga y’imbere mu gihugu atari Bitcoin, yari akwiye gutorera umuti?
+answer: Izina ry'indangarubuga
+wrong_answers:
+  - Uburongozi bw'izina ryiza kuri interineti
+  - Ikibazo c'ugutandukana kwa mining
+  - Ugusangira bitaringaniye kw'ama bitcoins
+explanation: |
+ Uburyo bw’amazina y’urubuga bugenzurwa na ICANN, ishirahamwe ritagira inyungu ryashizweho n’amategeko ya California, ivyo bikaba bitera ingorane zo gucengera. Iciyumviro ca BitDNS
+ (mu nyuma yahinduwe izina Namecoin) yari igizwe no gushiramwo uburongozi bw’ayo mazina y’itongo ku nzira y’ubuhinga busa na Bitcoin kugira ngo umuntu ashobore gutorera umuti ico kibazo.
+reviewed: true

@@ -65,7 +65,7 @@ Wat als de monetaire geschiedenis zich voor onze ogen zou herhalen? Oordeel zelf
 ### Definities van inflatie
 
 
-Inflatie is een concept dat vaak verkeerd wordt begrepen vanwege de vele definities en interpretaties. De perceptie van inflatie varieert tussen verschillende groepen, zoals bitcoiners en traditionele economen. Laten we eerst de definities verduidelijken voordat we hyperinflatie bespreken:
+[Inflatie](https://planb.academy/resources/glossary/inflation) is een concept dat vaak verkeerd wordt begrepen vanwege de vele definities en interpretaties. De perceptie van inflatie varieert tussen verschillende groepen, zoals bitcoiners en traditionele economen. Laten we eerst de definities verduidelijken voordat we hyperinflatie bespreken:
 
 
 
@@ -111,7 +111,7 @@ Een andere methode was het verminderen van de hoeveelheid edelmetaal in munteenh
 ![image](assets/nl/002.webp)
 
 
-Het is cruciaal om te benadrukken dat hyperinflatie voornamelijk wordt waargenomen bij fiatvaluta's die niet worden gedekt door hun onderliggende activa, zoals edelmetalen. In het verleden, toen een valuta gebaseerd was op dergelijke activa, deden zich periodes van inflatie voor (bijvoorbeeld door de devaluatie van de metaalinhoud), maar deze periodes bereikten nooit de extreme niveaus van hyperinflatie. In de volgende paragrafen zullen we de perioden van monetaire devaluatie en de implicaties van deze verschillende monetaire systemen op de inflatie in detail bestuderen.
+Het is cruciaal om te benadrukken dat hyperinflatie voornamelijk wordt waargenomen bij [fiatvaluta's](https://planb.academy/resources/glossary/fiat) die niet worden gedekt door hun onderliggende activa, zoals edelmetalen. In het verleden, toen een valuta gebaseerd was op dergelijke activa, deden zich periodes van inflatie voor (bijvoorbeeld door de devaluatie van de metaalinhoud), maar deze periodes bereikten nooit de extreme niveaus van hyperinflatie. In de volgende paragrafen zullen we de perioden van monetaire devaluatie en de implicaties van deze verschillende monetaire systemen op de inflatie in detail bestuderen.
 
 
 ### Studie van perioden van monetaire devaluatie
@@ -1160,7 +1160,7 @@ Het fenomeen van zombiebedrijven is niet beperkt tot het naoorlogse Duitsland. Z
 #### 6. Snel rijk worden!
 
 
-De geschiedenis onthult gevallen waarin individuen snel rijkdom probeerden te vergaren, zoals het geval was in Weimar en Zimbabwe door middel van arbitrage. Vandaag de dag kan een soortgelijke trend worden waargenomen met de opkomst van bepaalde cryptocurrencies. Mensen worden verleid door snelle winsten en nemen risico's in de hoop op een exponentiële toename van hun investering. Deze aanpak herinnert aan die tijdens perioden van hyperinflatie, waar arbitrage werd gebruikt om snelle winsten te behalen, vaak ten koste van anderen.
+De geschiedenis onthult gevallen waarin individuen snel rijkdom probeerden te vergaren, zoals het geval was in Weimar en Zimbabwe door middel van arbitrage. Vandaag de dag kan een soortgelijke trend worden waargenomen met de opkomst van bepaalde [cryptocurrencies](https://planb.academy/resources/glossary/cryptocurrency). Mensen worden verleid door snelle winsten en nemen risico's in de hoop op een exponentiële toename van hun investering. Deze aanpak herinnert aan die tijdens perioden van hyperinflatie, waar arbitrage werd gebruikt om snelle winsten te behalen, vaak ten koste van anderen.
 
 
 ![image](assets/nl/052.webp)

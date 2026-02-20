@@ -1,0 +1,10 @@
+question: Který profesionální pokerový hráč podporoval Seals s kluby Bitcoin pokerové platformy od ledna 2012?
+answer: Bryan Micon
+wrong_answers:
+  - Prahlad Friedman
+  - Phil Ivey
+  - Daniel Negreanu
+explanation: |
+ Bryan Micon objevil Bitcoin v červnu 2011, propadl jeho kouzlu a prohlásil, že ho "bitcoiny naprosto fascinují". Bryan Micon doprovázel
+ vývoj Seal s kluby od ledna 2012 a v březnu jej propagoval na svém osobním kanálu na Youtube.
+reviewed: true

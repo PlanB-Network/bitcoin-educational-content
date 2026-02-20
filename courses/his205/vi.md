@@ -352,7 +352,7 @@ Có một số loại hình trao đổi hàng hóa:
 
 
 
-Trường phái kinh tế học Áo diễn giải sự tiến hóa này như sự xuất hiện tự phát của các loại hàng hóa trao đổi đặc quyền. Vỏ sò, được chứng thực về mặt khảo cổ học từ thời kỳ đồ đá giữa, minh họa cho hiện tượng này: được tìm thấy ở những nơi xa nguồn gốc địa lý của chúng (vỏ sò Địa Trung Hải ở miền tây nước Pháp, vỏ sò Bắc Âu ở các địa điểm khác), chúng chứng tỏ sự công nhận chung về giá trị trao đổi của chúng.
+[Trường phái kinh tế học Áo](https://planb.academy/resources/glossary/austrian-school) diễn giải sự tiến hóa này như sự xuất hiện tự phát của các loại hàng hóa trao đổi đặc quyền. Vỏ sò, được chứng thực về mặt khảo cổ học từ thời kỳ đồ đá giữa, minh họa cho hiện tượng này: được tìm thấy ở những nơi xa nguồn gốc địa lý của chúng (vỏ sò Địa Trung Hải ở miền tây nước Pháp, vỏ sò Bắc Âu ở các địa điểm khác), chúng chứng tỏ sự công nhận chung về giá trị trao đổi của chúng.
 
 
 
@@ -605,7 +605,7 @@ Kinh nghiệm của người Lưỡng Hà thiết lập những tiền lệ lâu
 
 
 
-Giai đoạn quan trọng này cũng bộc lộ những vấn đề quyền lực vốn có trong bất kỳ đổi mới tiền tệ nào: ai kiểm soát công nghệ, ai đặt ra quy tắc, và cách thức các hệ thống chính thức và thông lệ phổ biến được thể hiện. Những câu hỏi cơ bản này đã tồn tại xuyên suốt lịch sử kinh tế, mở rộng sang các cuộc tranh luận đương đại về tiền kỹ thuật số và tiền điện tử.
+Giai đoạn quan trọng này cũng bộc lộ những vấn đề quyền lực vốn có trong bất kỳ đổi mới tiền tệ nào: ai kiểm soát công nghệ, ai đặt ra quy tắc, và cách thức các hệ thống chính thức và thông lệ phổ biến được thể hiện. Những câu hỏi cơ bản này đã tồn tại xuyên suốt lịch sử kinh tế, mở rộng sang các cuộc tranh luận đương đại về tiền kỹ thuật số và [tiền điện tử](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 
@@ -637,7 +637,7 @@ Người Inca không có hệ thống tiền tệ, nhưng họ lại có rất n
 > Một xã hội càng phân tầng và hệ thống kế hoạch hóa càng hiệu quả thì việc sử dụng tiền tệ càng ít cần thiết đối với người dân. Điều này có thể giải thích tại sao những người chinh phục Tây Ban Nha phát hiện ra rằng người Mexico, với chính phủ tương đối tự do hơn, thường xuyên sử dụng bột vàng (được bảo quản trong các ống trong suốt) và hạt ca cao (được giữ để thanh toán số tiền lớn trong các túi 24.000 đơn vị) làm tiền tệ, trong khi ngược lại, người Inca, được tổ chức theo một hệ thống phân cấp chặt chẽ hơn nhiều, hoàn toàn không có tiền tệ: một ngoại lệ được xác nhận bởi một quy tắc nghiêm ngặt. Nguồn gốc của tiền tệ ở Trung Quốc hoàn toàn độc lập với các nền văn minh khác; tuy nhiên, sự gần gũi tương đối của các nền văn minh Sumer, Ai Cập và Minoan làm dấy lên nghi ngờ về mức độ thiếu hiểu biết của họ về các hoạt động tiền tệ, đặc biệt là khi xét đến hoạt động thương mại rộng lớn đã được thiết lập từ thời kỳ sơ khai.
 
 
-Ở Trung Quốc, tiền xu được phát triển theo cách hoàn toàn khác với truyền thống phương Tây. Ngay từ đầu, đó là tiền pháp định. Chúng là tiền đúc.
+Ở Trung Quốc, tiền xu được phát triển theo cách hoàn toàn khác với truyền thống phương Tây. Ngay từ đầu, đó là [tiền pháp định](https://planb.academy/resources/glossary/fiat). Chúng là tiền đúc.
 
 
 Và ở đây, ông Davies đề cập đến thương mại. Quả thực đã có sự trao đổi giữa người Trung Quốc và các dân tộc khác vào một số thời điểm nhất định, nhưng phương tiện trao đổi cho thương mại quốc tế lại là lụa. Như chúng ta sẽ thấy sau, vàng cũng được sử dụng ở các vùng biên giới của Trung Quốc, nơi dân số Trung Quốc ít hơn. Và thậm chí không phải cho thương mại quốc tế; vì vậy, lụa là phương tiện trao đổi.
@@ -994,7 +994,7 @@ Nhà nước Trung Quốc sử dụng tiền tệ như một công cụ điều 
 
 
 
-Ở đây, có thể thấy mối liên hệ giữa lạm phát và giảm phát. Với nguồn cung tiền cố định, nếu năng suất của nền kinh tế tăng, giá trị của đồng tiền sẽ tăng. Ngược lại, nếu năng suất giảm, giá trị của đồng tiền sẽ giảm. Tuy nhiên, trong ví dụ này, điều ngược lại mới đúng. Có lẽ vì hoàng tử không hoàn toàn độc quyền sản xuất tiền, nhưng điều này vẫn cho thấy giá trị của đồng tiền gắn liền với các điều kiện kinh tế.
+Ở đây, có thể thấy mối liên hệ giữa [lạm phát](https://planb.academy/resources/glossary/inflation) và giảm phát. Với nguồn cung tiền cố định, nếu năng suất của nền kinh tế tăng, giá trị của đồng tiền sẽ tăng. Ngược lại, nếu năng suất giảm, giá trị của đồng tiền sẽ giảm. Tuy nhiên, trong ví dụ này, điều ngược lại mới đúng. Có lẽ vì hoàng tử không hoàn toàn độc quyền sản xuất tiền, nhưng điều này vẫn cho thấy giá trị của đồng tiền gắn liền với các điều kiện kinh tế.
 
 
 
@@ -3616,7 +3616,7 @@ Chúng ta hãy chuyển sang Thụy Điển, nơi ngân hàng trung ương đầ
 
 
 
-**Thụy Điển** là quốc gia tiên phong trong lĩnh vực ngân hàng trung ương: năm 1657, Johan Palmstruch thành lập **Stockholm Banco**, được phép cho vay nhiều hơn dự trữ kim loại của mình, đánh dấu sự ra đời của hệ thống ngân hàng dự trữ một phần. Tuy nhiên, việc phát hành tiền giấy quá mức đã dẫn đến sự hoảng loạn và một cuộc rút tiền ồ ạt khỏi ngân hàng vào năm 1663. Chà, chà...
+**Thụy Điển** là quốc gia tiên phong trong lĩnh vực ngân hàng trung ương: năm 1657, Johan Palmstruch thành lập **Stockholm Banco**, được phép cho vay nhiều hơn dự trữ kim loại của mình, đánh dấu sự ra đời của hệ thống ngân hàng [dự trữ một phần](https://planb.academy/resources/glossary/fractional-reserves). Tuy nhiên, việc phát hành tiền giấy quá mức đã dẫn đến sự hoảng loạn và một cuộc rút tiền ồ ạt khỏi ngân hàng vào năm 1663. Chà, chà...
 
 
 

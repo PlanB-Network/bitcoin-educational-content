@@ -1,0 +1,11 @@
+question: Ilu oddzielnych włamań doświadczyła platforma handlowa Bitcoinica przed ogłoszeniem upadłości?
+answer: 3
+wrong_answers:
+  - 1
+  - 2
+  - 4
+explanation: |
+ Trzy włamania były następujące: włamanie na konto Linode, w wyniku którego platforma straciła 43 554 bitcoiny; włamanie na konto Rackspace, które doprowadziło do utraty 18 574 bitcoinów; włamanie na konto Mt
+ do utraty 18 574 bitcoinów; włamanie na konto Mt. Gox, podczas którego haker wypłacił 40 000 bitcoinów i 40 000 LR-USD. Likwidacja Bitcoinica
+ została ogłoszona 1 sierpnia 2012 roku.
+reviewed: true

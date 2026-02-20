@@ -37,7 +37,7 @@ Voltz is in fact built on a LnBits server; check out our tutorial to learn how t
 
 https://planb.academy/tutorials/business/others/lnbits-server-6a406046-3cef-4a64-a82b-8d8f0f82a192
 
-The platform allows you to efficiently manage multiple portfolios. By default, when you sign up, you automatically have a Lightning portfolio. However, you can add other portfolios.
+The platform allows you to efficiently manage multiple wallets. By default, when you sign up, you automatically have a Lightning wallet. However, you can add other wallets.
 
 
 ![wallets](assets/fr/03.webp)
@@ -59,10 +59,10 @@ To do this, you need to install and activate the **LndHub** extension on the pla
 ![lndhub](assets/fr/04.webp)
 
 
-Select your active Voltz portfolio and, depending on the rights you wish to grant, scan the appropriate QR code.
+Select your active Voltz wallet and, depending on the rights you wish to grant, scan the appropriate QR code.
 
 
-- The invoice QR code only allows you to read your portfolio history and generate new invoices.
+- The invoice QR code only allows you to read your wallet history and generate new invoices.
 - The admin QR code allows you to view the history, generate invoices and also pay Lightning invoices.
 
 
@@ -75,13 +75,13 @@ In this tutorial, we connect our Voltz wallet to the Blue Wallet application.
 ![connect](assets/fr/06.webp)
 
 
-Once our portfolio is connected, all actions carried out will be synchronized between Blue Wallet and Voltz. For example, when you generate an invoice on Blue Wallet, you also have a history on Voltz.
+Once our wallet is connected, all actions carried out will be synchronized between Blue Wallet and Voltz. For example, when you generate an invoice on Blue Wallet, you also have a history on Voltz.
 
 
 ![sync](assets/fr/07.webp)
 
 
-In the **Portfolio configuration** section, you'll find minimal parameters such as the customization of the portfolio name and the currency in which you wish to receive your payments.
+In the **Portfolio configuration** section, you'll find minimal parameters such as the customization of the wallet name and the currency in which you wish to receive your payments.
 
 
 ![config](assets/fr/08.webp)
@@ -174,14 +174,14 @@ In the group of available extensions, you'll also find tools like the **Invoice*
 ## Keep track of your payments
 
 
-In the **Payments** menu, Voltz gives you an overview of payments to your various portfolios.
+In the **Payments** menu, Voltz gives you an overview of payments to your various wallets.
 
 You can track your payments by :
 
 
 - Status.
 - The label: for example **TPOS** for point-of-sale payments and **lnhub** via the mobile connection in Zeus and Blue Wallet wallets.
-- The collection portfolio.
+- The collection wallet.
 - Total incoming and outgoing payments.
 - A well-defined period.
 

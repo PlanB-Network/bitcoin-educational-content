@@ -1,0 +1,10 @@
+question: 是什么事件促使 Satoshi Nakamoto 在 2010 年 12 月退出聚光灯下？
+answer: PC World》发表文章，邀请维基解密使用 Bitcoin
+wrong_answers:
+  - 罗斯-乌尔布里赫特启动丝绸之路平台
+  - 中央情报局投资基金 In-Q-Tel 建立的联系
+  - BTC 的价格在短短几个月内从 0.20 美元猛涨至 32 美元
+explanation: |
+ Satoshi 在 Bitcoin 论坛上对这一出版物发表了负面评论，担心它会引起国家当局的注意。丝绸之路市场
+ 于 2011 年 1 月启动，In-Q-Tel 和 Gavin Andresen 于 4 月进行了接触，6 月价格达到 32 美元的峰值。
+reviewed: true

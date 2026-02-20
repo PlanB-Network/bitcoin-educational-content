@@ -1,0 +1,11 @@
+question: Welke gebeurtenis op 15 april 2011 werd "Black Friday" genoemd door pokerspelers?
+answer: Grote Amerikaanse online pokerplatforms uitgeschakeld door de FBI voor het omzeilen van de UIGEA
+wrong_answers:
+  - Aanbod van sommige online pokersites met grote promoties op rake en buy-in fees
+  - Door grote fout in online pokersoftware kon geld worden gebruikt om juwelen en golfballen te kopen
+  - Amateurspeler Chris Moneymaker heeft het hoofdtoernooi van het World Poker Championship gewonnen na online training
+explanation: |
+ Ze werden ervan beschuldigd dat ze zich voordeden als conventionele handelaren om hun banken inkomende overschrijvingen te laten valideren, wat verboden was door de Unlawful Internet Gambling
+ Enforcement Act van 2006. Deze sluiting was rampzalig voor de online pokerindustrie. Het leidde tot de oprichting van verschillende bitcoin pokerplatforms, omdat de
+ cryptocurrency niet onderhevig was aan dezelfde beperkingen.
+reviewed: true

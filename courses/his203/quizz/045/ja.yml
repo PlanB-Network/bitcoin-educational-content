@@ -1,0 +1,10 @@
+question: 2011年10月、Namecoin暗号通貨に組み込まれた技術革新とは？
+answer: 合併mining
+wrong_answers:
+  - 耐GPU mining
+  - 信頼できるノード
+  - ステーク証明
+explanation: |
+ マージminingは、"マザーチェーン"（すなわちBitcoin）で行われた作業を、より小さな "補助チェーン "の検証に再利用するプロセスである。このプロセスは
+ BitDNS の議論の中で Satoshi 自身によって提案された。結合miningは2011年10月8日にブロックレベル19,200でNamecoinネットワーク上でアクティブ化された。
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - The number of UTXOs
 explanation: |
   As block space is limited, miners prioritize the most profitable transactions per byte. Therefore, the fee rate guides transaction selection.
-reviewed: false
+reviewed: true

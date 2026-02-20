@@ -1117,7 +1117,7 @@ Katika mantiki ya utawala wa kisiasa, pesa huacha kuwa bidhaa au huduma kama nyi
 
 
 
-Mapema katika Enzi za Kati, Nicolas Oresme alichambua athari mbaya za udanganyifu wa fedha kwenye biashara. Kupungua kwa fedha husababisha mfumuko wa bei na kudhoofisha bei, kwani ishara ya fedha inakuwa haijulikani ni lini mtaalamu wa vipimo vya thamani anaweza kubadilisha maudhui yake kiholela. Pesa za metali zenyewe mara nyingi hazikuwa zaidi ya udanganyifu, zikiwa na sarafu zenye aloi zenye thamani ya chini ambazo baadhi ya waandishi huria wa karne ya 19 waliziita kama shaba.
+Mapema katika Enzi za Kati, Nicolas Oresme alichambua athari mbaya za udanganyifu wa fedha kwenye biashara. Kupungua kwa fedha husababisha [mfumuko wa bei](https://planb.academy/resources/glossary/inflation) na kudhoofisha bei, kwani ishara ya fedha inakuwa haijulikani ni lini mtaalamu wa vipimo vya thamani anaweza kubadilisha maudhui yake kiholela. Pesa za metali zenyewe mara nyingi hazikuwa zaidi ya udanganyifu, zikiwa na sarafu zenye aloi zenye thamani ya chini ambazo baadhi ya waandishi huria wa karne ya 19 waliziita kama shaba.
 
 
 

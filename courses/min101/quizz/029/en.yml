@@ -5,5 +5,5 @@ wrong_answers:
   - Fees + nonce
   - Hashrate + fees
 explanation: |
-  The reward adds the block subsidy and all the fees from the included transactions.
-reviewed: false
+  The reward consists of the block subsidy plus all the fees from the included transactions.
+reviewed: true

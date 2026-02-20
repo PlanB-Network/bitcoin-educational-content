@@ -1117,7 +1117,7 @@ In der Logik der politischen Herrschaft hört Geld auf, eine Ware oder Dienstlei
 
 
 
-Bereits im Mittelalter analysierte Nicolas Oresme die schädlichen Auswirkungen von Geldmanipulationen auf den Handel. Geldverfall führt zu Inflation und destabilisiert die Preise, da das Geldsignal unsicher wird, wenn der Herr der Wertmaßstäbe deren Inhalt willkürlich ändern kann. Metallisches Geld selbst war oft nicht mehr als eine Illusion, wobei die Münzen minderwertige Legierungen enthielten, die einige liberale Schriftsteller des 19.
+Bereits im Mittelalter analysierte Nicolas Oresme die schädlichen Auswirkungen von Geldmanipulationen auf den Handel. Geldverfall führt zu [Inflation](https://planb.academy/resources/glossary/inflation) und destabilisiert die Preise, da das Geldsignal unsicher wird, wenn der Herr der Wertmaßstäbe deren Inhalt willkürlich ändern kann. Metallisches Geld selbst war oft nicht mehr als eine Illusion, wobei die Münzen minderwertige Legierungen enthielten, die einige liberale Schriftsteller des 19.
 
 
 

@@ -1,0 +1,10 @@
+question: 2011년 여름 말 Bitcoin 체인에서 실크로드를 대표하는 활동의 대략적인 비율은 어느 정도였나요?
+answer: 10 %
+wrong_answers:
+  - 3 %
+  - 30 %
+  - 90 %
+explanation: |
+ Chainalysis의 후속 보고서에 따르면, 실크로드 활동은 2011년 9월 초에 Bitcoin 채널에서 거래된 거래량의 거의 10%를 차지했습니다
+ 2011년 9월.
+reviewed: true

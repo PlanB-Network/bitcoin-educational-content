@@ -105,7 +105,7 @@ Klaar om de technische mechanismen van de Lightning Network te ontdekken? Laten 
 
 
 
-De Lightning Network is een netwerk van betalingskanalen gebouwd bovenop het Bitcoin protocol, met als doel snelle en goedkope transacties mogelijk te maken. Het maakt het creëren van betalingskanalen tussen deelnemers mogelijk, waarbinnen transacties vrijwel direct en met minimale kosten kunnen worden uitgevoerd, zonder dat elke transactie afzonderlijk op de Blockchain hoeft te worden geregistreerd. De Lightning Network probeert dus de schaalbaarheid van Bitcoin te verbeteren en het bruikbaar te maken voor laagwaardige betalingen.
+De [Lightning Network](https://planb.academy/resources/glossary/lightning-network) is een netwerk van [betalingskanalen](https://planb.academy/resources/glossary/payment-channel) gebouwd bovenop het Bitcoin protocol, met als doel snelle en goedkope transacties mogelijk te maken. Het maakt het creëren van betalingskanalen tussen deelnemers mogelijk, waarbinnen transacties vrijwel direct en met minimale kosten kunnen worden uitgevoerd, zonder dat elke transactie afzonderlijk op de [Blockchain](https://planb.academy/resources/glossary/blockchain) hoeft te worden geregistreerd. De Lightning Network probeert dus de [schaalbaarheid](https://planb.academy/resources/glossary/scalability) van Bitcoin te verbeteren en het bruikbaar te maken voor laagwaardige betalingen.
 
 
 Voordat we het "netwerk"-aspect gaan verkennen, is het belangrijk om het concept van een **betaalkanaal** op Lightning te begrijpen, hoe het werkt en wat de specifieke kenmerken ervan zijn. Dat is het onderwerp van dit eerste hoofdstuk.
@@ -120,7 +120,7 @@ Met een betalingskanaal kunnen twee partijen, hier **Alice** en **Bob**, Exchang
 ![LNP201](assets/en/001.webp)
 
 
-In ons voorbeeld heeft Alice 100.000 satoshi's aan haar kant van het kanaal, en Bob heeft er 30.000, voor een totaal van 130.000 satoshi's, wat de **kanaalcapaciteit** vormt.
+In ons voorbeeld heeft Alice 100.000 [satoshi's](https://planb.academy/resources/glossary/satoshi-sat) aan haar kant van het kanaal, en Bob heeft er 30.000, voor een totaal van 130.000 satoshi's, wat de **[kanaalcapaciteit](https://planb.academy/resources/glossary/lightning-channel-capacity)** vormt.
 
 
 **Maar wat is een Satoshi? **
@@ -194,7 +194,7 @@ Dit hoofdstuk is een beetje speciaal, omdat het niet direct aan Lightning is gew
 ### Bitcoin Adressen, privé sleutels en openbare sleutels
 
 
-Een Bitcoin Address is een reeks karakters afgeleid van een **publieke sleutel**, die zelf berekend wordt uit een **private sleutel**. Zoals je ongetwijfeld weet, wordt het gebruikt om bitcoins te vergrendelen, wat gelijk staat aan het ontvangen ervan in onze Wallet.
+Een Bitcoin Address is een reeks karakters afgeleid van een **[publieke sleutel](https://planb.academy/resources/glossary/public-key)**, die zelf berekend wordt uit een **[private sleutel](https://planb.academy/resources/glossary/private-key)**. Zoals je ongetwijfeld weet, wordt het gebruikt om bitcoins te vergrendelen, wat gelijk staat aan het ontvangen ervan in onze Wallet.
 
 
 De private sleutel is een geheim element dat **nooit** gedeeld mag worden, terwijl de publieke sleutel en het Address gedeeld kunnen worden zonder veiligheidsrisico (hun onthulling vormt alleen een risico voor je privacy). Hier is een algemene voorstelling die we in deze training zullen gebruiken:
@@ -209,10 +209,10 @@ De private sleutel is een geheim element dat **nooit** gedeeld mag worden, terwi
 ### Bitcoin Transacties: Geld verzenden en scripts
 
 
-Op Bitcoin bestaat een transactie uit het versturen van geld van de ene Address naar de andere. Laten we het voorbeeld nemen van Alice die 0,002 Bitcoin naar Bob stuurt. Alice gebruikt de privésleutel die aan haar Address is gekoppeld om de transactie te **ondertekenen**, waarmee ze bewijst dat ze inderdaad in staat is om dit geld uit te geven. Maar wat gebeurt er precies achter deze transactie? De fondsen op een Address Bitcoin zijn vergrendeld door een **script**, een soort miniprogramma dat bepaalde voorwaarden stelt aan het uitgeven van de fondsen.
+Op Bitcoin bestaat een transactie uit het versturen van geld van de ene Address naar de andere. Laten we het voorbeeld nemen van Alice die 0,002 Bitcoin naar Bob stuurt. Alice gebruikt de privésleutel die aan haar Address is gekoppeld om de transactie te **ondertekenen**, waarmee ze bewijst dat ze inderdaad in staat is om dit geld uit te geven. Maar wat gebeurt er precies achter deze transactie? De fondsen op een Address Bitcoin zijn vergrendeld door een **[script](https://planb.academy/resources/glossary/script)**, een soort miniprogramma dat bepaalde voorwaarden stelt aan het uitgeven van de fondsen.
 
 
-Het meest voorkomende script vereist een handtekening met de privé-sleutel geassocieerd met Address. Wanneer Alice een transactie ondertekent met haar private sleutel, **vrijgavet ze het script** dat de fondsen blokkeert, en ze kunnen dan worden overgedragen. De overdracht van fondsen omvat het toevoegen van een nieuw script aan deze fondsen, waarin staat dat om ze deze keer uit te geven, de handtekening met de privé-sleutel** van **Bob vereist is.
+Het meest voorkomende script vereist een [handtekening](https://planb.academy/resources/glossary/digital-signature) met de privé-sleutel geassocieerd met Address. Wanneer Alice een transactie ondertekent met haar private sleutel, **vrijgavet ze het script** dat de fondsen blokkeert, en ze kunnen dan worden overgedragen. De overdracht van fondsen omvat het toevoegen van een nieuw script aan deze fondsen, waarin staat dat om ze deze keer uit te geven, de handtekening met de privé-sleutel** van **Bob vereist is.
 
 
 ![LNP201](assets/en/005.webp)
@@ -221,7 +221,7 @@ Het meest voorkomende script vereist een handtekening met de privé-sleutel geas
 ### UTXO's: Ongebruikte transactie-uitgangen
 
 
-Op Bitcoin, wat we eigenlijk Exchange zijn niet direct bitcoins, maar **[UTXO](https://planb.academy/resources/glossary/utxo)s** (_Unspent Transaction Outputs_), wat betekent "niet uitgegeven transactie-uitgangen".
+Op Bitcoin, wat we eigenlijk Exchange zijn niet direct bitcoins, maar **UTXOs** (_Unspent Transaction Outputs_), wat betekent "niet uitgegeven transactie-uitgangen".
 
 
 Een UTXO is een stuk Bitcoin dat elke waarde kan hebben, bijvoorbeeld **2.000 bitcoins**, **8 bitcoins**, of zelfs **8.000 Sats**. Elke UTXO wordt vergrendeld door een script, en om het uit te geven moet men voldoen aan de voorwaarden van het script, vaak een handtekening met de private sleutel die overeenkomt met een bepaalde ontvangende Address.
@@ -306,9 +306,9 @@ Het is cruciaal om duidelijk onderscheid te maken tussen de verschillende niveau
 
 
 
-- **Peer-to-peer-communicatie (Lightning-protocol)**: Dit zijn de berichten die Lightning-knooppunten naar elkaar sturen om te communiceren. We zullen deze berichten weergeven met stippellijnen in onze diagrammen.
+- **[Peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p)-communicatie (Lightning-protocol)**: Dit zijn de berichten die [Lightning-knooppunten](https://planb.academy/resources/glossary/lightning-node) naar elkaar sturen om te communiceren. We zullen deze berichten weergeven met stippellijnen in onze diagrammen.
 - **Betalingskanalen (Lightning-protocol)**: Dit zijn de paden voor het uitwisselen van geld op Lightning, die we zullen weergeven met ononderbroken zwarte lijnen.
-- **Bitcoin transacties (Bitcoin protocol)**: Dit zijn de onchain transacties, die we weergeven met oranje lijnen.
+- **Bitcoin transacties (Bitcoin protocol)**: Dit zijn de [onchain](https://planb.academy/resources/glossary/onchain) transacties, die we weergeven met oranje lijnen.
 
 
 ![LNP201](assets/en/010.webp)
@@ -365,7 +365,7 @@ Het is vermeldenswaard dat een Lightning-knooppunt via het P2P protocol kan comm
 ### Wanneer is het kanaal open?
 
 
-Het kanaal wordt als open beschouwd zodra de stortingstransactie is opgenomen in een Bitcoin blok en het een bepaalde diepte van bevestigingen heeft bereikt (aantal volgende blokken).
+Het kanaal wordt als open beschouwd zodra de stortingstransactie is opgenomen in een Bitcoin [blok](https://planb.academy/resources/glossary/block) en het een bepaalde diepte van [bevestigingen](https://planb.academy/resources/glossary/confirmation) heeft bereikt (aantal volgende blokken).
 
 
 **Wat moet je onthouden uit dit hoofdstuk?**
@@ -413,7 +413,7 @@ Op het moment dat het kanaal werd geopend, stortte Alice **130.000 satoshis** op
 ### Ongepubliceerde transacties: De Commitment-transacties
 
 
-Wanneer Alice een transactie in het kanaal maakt om geld naar Bob te sturen, wordt een nieuwe Bitcoin transactie aangemaakt om deze verandering in de verdeling van het geld weer te geven. Deze transactie, **Commitment Transaction** genaamd, wordt niet gepubliceerd op de Blockchain, maar vertegenwoordigt de nieuwe toestand van het kanaal na de Lightning-transactie.
+Wanneer Alice een transactie in het kanaal maakt om geld naar Bob te sturen, wordt een nieuwe Bitcoin transactie aangemaakt om deze verandering in de verdeling van het geld weer te geven. Deze transactie, **[Commitment Transaction](https://planb.academy/resources/glossary/commitment-transaction)** genaamd, wordt niet gepubliceerd op de Blockchain, maar vertegenwoordigt de nieuwe toestand van het kanaal na de Lightning-transactie.
 
 
 Laten we een voorbeeld nemen waarbij Alice 30.000 satoshis naar Bob stuurt:
@@ -431,7 +431,7 @@ Om deze overdracht te valideren, creëren Alice en Bob een nieuwe **niet-gepubli
 ### Overdrachtsproces: De Invoice
 
 
-Wanneer Bob geld wil ontvangen, stuurt hij Alice een **_[invoice](https://planb.academy/resources/glossary/invoice-lightning)_** voor 30.000 satoshis. Alice gaat dan verder met het betalen van deze Invoice door de overdracht binnen het kanaal te starten. Zoals we hebben gezien, berust dit proces op het aanmaken en ondertekenen van een nieuwe **Commitment Transaction**.
+Wanneer Bob geld wil ontvangen, stuurt hij Alice een **_invoice_** voor 30.000 satoshis. Alice gaat dan verder met het betalen van deze Invoice door de overdracht binnen het kanaal te starten. Zoals we hebben gezien, berust dit proces op het aanmaken en ondertekenen van een nieuwe **Commitment Transaction**.
 
 
 Elke Commitment Transaction vertegenwoordigt de nieuwe verdeling van fondsen in het kanaal na de overdracht. In dit voorbeeld heeft Bob na de transactie 30.000 satoshi en Alice 100.000 satoshi. Als een van de twee deelnemers zou besluiten om deze Commitment Transaction te publiceren op Blockchain, zou dit resulteren in het sluiten van het kanaal en zouden de fondsen worden verdeeld volgens deze laatste verdeling.
@@ -523,10 +523,10 @@ Om dit soort valsspelen door Alice te voorkomen, zijn op de Lightning Network **
 
 
 
-- **Het tijdslot**: Elke Commitment Transaction bevat een tijdslot voor Alice's fondsen. Het tijdslot is een Smart contract primitieve die een tijdsvoorwaarde stelt waaraan voldaan moet worden voordat een transactie aan een blok kan worden toegevoegd. Dit betekent dat Alice haar fondsen niet kan terugkrijgen totdat een bepaald aantal blokken voorbij is, als ze één van de Commitment transacties publiceert. Dit tijdslot gaat in vanaf de bevestiging van Commitment Transaction. De duur is meestal evenredig met de grootte van het kanaal, maar kan ook handmatig worden ingesteld.
+- **Het [tijdslot](https://planb.academy/resources/glossary/timelock)**: Elke Commitment Transaction bevat een tijdslot voor Alice's fondsen. Het tijdslot is een [Smart contract](https://planb.academy/resources/glossary/smart-contract) primitieve die een tijdsvoorwaarde stelt waaraan voldaan moet worden voordat een transactie aan een blok kan worden toegevoegd. Dit betekent dat Alice haar fondsen niet kan terugkrijgen totdat een bepaald aantal blokken voorbij is, als ze één van de Commitment transacties publiceert. Dit tijdslot gaat in vanaf de bevestiging van Commitment Transaction. De duur is meestal evenredig met de grootte van het kanaal, maar kan ook handmatig worden ingesteld.
 - **Herroepingssleutel**: Alice's fondsen kunnen ook onmiddellijk uitgegeven worden door Bob als hij de **herroepingssleutel** bezit. Deze sleutel bestaat uit een geheim van Alice en een geheim van Bob. Merk op dat dit geheim voor elke Commitment Transaction anders is.
 
-Dankzij deze 2 gecombineerde mechanismen heeft Bob de tijd om Alice's poging om vals te spelen te detecteren en haar te straffen door zijn output terug te halen met de revocatiesleutel, wat voor Bob betekent dat alle fondsen van het kanaal worden teruggehaald. Onze nieuwe Commitment Transaction ziet er nu zo uit:
+Dankzij deze 2 gecombineerde mechanismen heeft Bob de tijd om Alice's poging om vals te spelen te detecteren en haar te straffen door zijn [output](https://planb.academy/resources/glossary/output) terug te halen met de revocatiesleutel, wat voor Bob betekent dat alle fondsen van het kanaal worden teruggehaald. Onze nieuwe Commitment Transaction ziet er nu zo uit:
 
 
 ![LNP201](assets/en/025.webp)
@@ -543,7 +543,7 @@ Wanneer Alice en Bob de toestand van het kanaal bijwerken met een nieuwe Lightni
 
 
 - Alice en Bob hebben een nieuwe Commitment Transaction die de huidige verdeling van fondsen na de Lightning-transactie weergeeft.
-- Elk van hen heeft het geheim van de ander voor de vorige transactie, waardoor ze de herroepingssleutel alleen kunnen gebruiken als een van hen probeert vals te spelen door een transactie met een oude status te publiceren in de mempools van de Bitcoin knooppunten. Om de andere partij te straffen, is het inderdaad nodig om beide geheimen te hebben en de Commitment Transaction van de ander, die de ondertekende invoer bevat. Zonder deze transactie is de revocatiesleutel alleen nutteloos. De enige manier om deze transactie te verkrijgen is door deze uit de mempools te halen (in de transacties die wachten op bevestiging) of in de bevestigde transacties op de Blockchain tijdens de tijdslot, wat bewijst dat de andere partij probeert vals te spelen, opzettelijk of niet.
+- Elk van hen heeft het geheim van de ander voor de vorige transactie, waardoor ze de herroepingssleutel alleen kunnen gebruiken als een van hen probeert vals te spelen door een transactie met een oude status te publiceren in de [mempools](https://planb.academy/resources/glossary/mempool) van de Bitcoin knooppunten. Om de andere partij te straffen, is het inderdaad nodig om beide geheimen te hebben en de Commitment Transaction van de ander, die de ondertekende [invoer](https://planb.academy/resources/glossary/input) bevat. Zonder deze transactie is de revocatiesleutel alleen nutteloos. De enige manier om deze transactie te verkrijgen is door deze uit de mempools te halen (in de transacties die wachten op bevestiging) of in de bevestigde transacties op de Blockchain tijdens de tijdslot, wat bewijst dat de andere partij probeert vals te spelen, opzettelijk of niet.
 
 
 Laten we een voorbeeld nemen om dit proces goed te begrijpen:
@@ -648,7 +648,7 @@ In een **coöperatieve sluiting** komen Alice en Bob overeen om het kanaal te sl
 
 
 
-- Alice en Bob onderhandelen samen over de vergoedingen van de **sluitende transactie**. Deze vergoedingen worden doorgaans berekend op basis van de Bitcoin vergoedingenmarkt op het moment van afsluiten. Het is belangrijk op te merken dat **het altijd de persoon is die het kanaal** heeft geopend (Alice in ons voorbeeld) die de afsluitprovisie betaalt.
+- Alice en Bob onderhandelen samen over de [vergoedingen](https://planb.academy/resources/glossary/transaction-fees) van de **sluitende transactie**. Deze vergoedingen worden doorgaans berekend op basis van de Bitcoin vergoedingenmarkt op het moment van afsluiten. Het is belangrijk op te merken dat **het altijd de persoon is die het kanaal** heeft geopend (Alice in ons voorbeeld) die de afsluitprovisie betaalt.
 - Ze construeren een nieuwe **sluitende transactie**. Deze transactie lijkt op een Commitment Transaction, maar zonder tijdsloten of herroepingsmechanismen, omdat beide partijen samenwerken en er geen risico is op valsspelen. Deze coöperatieve sluitingstransactie verschilt daarom van Commitment transacties.
 
 
@@ -732,13 +732,13 @@ In de komende hoofdstukken zullen we de Lightning Network vanuit een breder pers
 :::video id=38419c23-5592-4573-b0a7-84824a5bfb77:::
 
 
-In dit hoofdstuk zullen we onderzoeken hoe betalingen op de Lightning Network een ontvanger kunnen bereiken, zelfs als ze niet direct verbonden zijn door een betalingskanaal. Lightning is namelijk een **netwerk van betalingskanalen**, dat het mogelijk maakt om geld naar een ver knooppunt te sturen via de kanalen van andere deelnemers. We zullen ontdekken hoe betalingen over het netwerk worden geleid, hoe liquiditeit tussen kanalen beweegt en hoe transactiekosten worden berekend.
+In dit hoofdstuk zullen we onderzoeken hoe betalingen op de Lightning Network een ontvanger kunnen bereiken, zelfs als ze niet direct verbonden zijn door een betalingskanaal. Lightning is namelijk een **netwerk van betalingskanalen**, dat het mogelijk maakt om geld naar een ver knooppunt te sturen via de kanalen van andere deelnemers. We zullen ontdekken hoe betalingen over het netwerk worden geleid, hoe [liquiditeit](https://planb.academy/resources/glossary/liquidity-lightning) tussen kanalen beweegt en hoe transactiekosten worden berekend.
 
 
 ### Het netwerk van betaalkanalen
 
 
-Op de Lightning Network komt een transactie overeen met een overdracht van geld tussen twee knooppunten. Zoals in vorige hoofdstukken is gezien, is het noodzakelijk om een kanaal met iemand te openen om Lightning transacties uit te voeren. Dit kanaal staat een bijna oneindig aantal off-chain transacties toe, voordat het gesloten wordt om het On-Chain saldo terug te vorderen. Deze methode heeft echter het nadeel dat er een direct kanaal met de andere persoon nodig is om geld te ontvangen of te versturen, wat een openingstransactie en een sluitingstransactie voor elk kanaal inhoudt. Als ik van plan ben om een groot aantal betalingen te doen met deze persoon, wordt het openen en sluiten van een kanaal kosteneffectief. Omgekeerd, als ik slechts een paar Lightning transacties moet uitvoeren, is het openen van een direct kanaal niet voordelig, omdat het me 2 On-Chain transacties zou kosten voor een beperkt aantal off-chain transacties. Dit geval kan zich bijvoorbeeld voordoen wanneer ik met Lightning wil betalen bij een winkelier zonder van plan te zijn om terug te keren.
+Op de Lightning Network komt een transactie overeen met een overdracht van geld tussen twee knooppunten. Zoals in vorige hoofdstukken is gezien, is het noodzakelijk om een kanaal met iemand te openen om Lightning transacties uit te voeren. Dit kanaal staat een bijna oneindig aantal [off-chain](https://planb.academy/resources/glossary/offchain) transacties toe, voordat het gesloten wordt om het On-Chain saldo terug te vorderen. Deze methode heeft echter het nadeel dat er een direct kanaal met de andere persoon nodig is om geld te ontvangen of te versturen, wat een openingstransactie en een sluitingstransactie voor elk kanaal inhoudt. Als ik van plan ben om een groot aantal betalingen te doen met deze persoon, wordt het openen en sluiten van een kanaal kosteneffectief. Omgekeerd, als ik slechts een paar Lightning transacties moet uitvoeren, is het openen van een direct kanaal niet voordelig, omdat het me 2 On-Chain transacties zou kosten voor een beperkt aantal off-chain transacties. Dit geval kan zich bijvoorbeeld voordoen wanneer ik met Lightning wil betalen bij een winkelier zonder van plan te zijn om terug te keren.
 
 
 Om dit probleem op te lossen, maakt de Lightning Network het mogelijk om een betaling via verschillende kanalen en tussenliggende knooppunten te routeren, waardoor een transactie mogelijk wordt zonder een direct kanaal met de andere persoon.
@@ -916,7 +916,7 @@ In dit hoofdstuk hebben we het routeren van betalingen op de Lightning Network o
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
 
-In dit hoofdstuk zullen we ontdekken hoe Lightning betalingen door tussenliggende knooppunten laat lopen zonder ze te hoeven vertrouwen, dankzij **[HTLC](https://planb.academy/resources/glossary/htlc)** (_Hashed Time-Locked Contracts_). Deze slimme contracten zorgen ervoor dat elk tussenliggend knooppunt alleen het geld van zijn kanaal ontvangt als het de betaling doorstuurt naar de eindontvanger, anders wordt de betaling niet gevalideerd.
+In dit hoofdstuk zullen we ontdekken hoe Lightning betalingen door tussenliggende knooppunten laat lopen zonder ze te hoeven vertrouwen, dankzij **HTLC** (_Hashed Time-Locked Contracts_). Deze slimme contracten zorgen ervoor dat elk tussenliggend knooppunt alleen het geld van zijn kanaal ontvangt als het de betaling doorstuurt naar de eindontvanger, anders wordt de betaling niet gevalideerd.
 
 
 Het probleem dat zich voordoet bij het routeren van betalingen is daarom het noodzakelijke vertrouwen in de tussenliggende knooppunten en tussen de tussenliggende knooppunten onderling. Om dit te illustreren, gaan we terug naar ons vereenvoudigde Lightning Network voorbeeld met 3 knooppunten en 2 kanalen:
@@ -958,7 +958,7 @@ Dit is hoe dit proces werkt in ons voorbeeld met Alice, Suzie en Bob:
 ![LNP201](assets/en/048.webp)
 
 
-**Het geheim maken**: Bob genereert een willekeurig geheim genoteerd als _s_ (het voorbeeld), en berekent zijn Hash genoteerd als _r_ met de Hash functie genoteerd als _h_. We hebben:
+**Het geheim maken**: Bob genereert een willekeurig geheim genoteerd als _s_ (het voorbeeld), en berekent zijn Hash genoteerd als _r_ met de [Hash functie](https://planb.academy/resources/glossary/hash-function) genoteerd als _h_. We hebben:
 
 
 $$
@@ -1116,7 +1116,7 @@ Zelfs met deze topologie van de Lightning Network is er essentiële informatie v
 ### Netwerkkaart bijwerken
 
 
-Om hun netwerkkaart up-to-date te houden, sturen knooppunten regelmatig Exchange berichten via een algoritme genaamd "**_gossip_**". Dit is een gedistribueerd algoritme dat gebruikt wordt om informatie op een epidemische manier te verspreiden naar alle knooppunten in het netwerk, wat Exchange en synchronisatie van de Global State van de kanalen mogelijk maakt in een paar communicatiecycli. Elk knooppunt verspreidt informatie naar een of meer al dan niet willekeurig gekozen buren, deze verspreiden op hun beurt de informatie naar andere buren enzovoort totdat een globaal gesynchroniseerde toestand is bereikt.
+Om hun netwerkkaart up-to-date te houden, sturen knooppunten regelmatig Exchange berichten via een algoritme genaamd "**_[gossip](https://planb.academy/resources/glossary/gossip)_**". Dit is een gedistribueerd algoritme dat gebruikt wordt om informatie op een epidemische manier te verspreiden naar alle knooppunten in het netwerk, wat Exchange en synchronisatie van de Global State van de kanalen mogelijk maakt in een paar communicatiecycli. Elk knooppunt verspreidt informatie naar een of meer al dan niet willekeurig gekozen buren, deze verspreiden op hun beurt de informatie naar andere buren enzovoort totdat een globaal gesynchroniseerde toestand is bereikt.
 
 
 De 2 belangrijkste berichten die worden uitgewisseld tussen Lightning nodes zijn de volgende:
@@ -1228,7 +1228,7 @@ In het volgende hoofdstuk zullen we specifiek de werking van facturen bestuderen
 :::video id=309c3412-506e-4189-ad46-5e5088c55008:::
 
 
-In dit hoofdstuk gaan we dieper in op de werking van Lightning **facturen**, dat wil zeggen betalingsverzoeken die door het ontvangende knooppunt naar het verzendende knooppunt worden gestuurd. Het doel is om te begrijpen hoe je betalingen kunt uitvoeren en ontvangen op Lightning. We bespreken ook 2 alternatieven voor klassieke facturen: LNURL en Keysend.
+In dit hoofdstuk gaan we dieper in op de werking van Lightning **facturen**, dat wil zeggen betalingsverzoeken die door het ontvangende knooppunt naar het verzendende knooppunt worden gestuurd. Het doel is om te begrijpen hoe je betalingen kunt uitvoeren en ontvangen op Lightning. We bespreken ook 2 alternatieven voor klassieke facturen: [LNURL](https://planb.academy/resources/glossary/lnurl) en Keysend.
 
 
 ![LNP201](assets/en/068.webp)
@@ -1339,7 +1339,7 @@ De payload van een Invoice bevat verschillende stukjes informatie die nodig zijn
 - **De handtekening**: Garandeert de integriteit van de Invoice door alle informatie te verifiëren.
 
 
-De facturen worden dan gecodeerd in **bech32**, hetzelfde formaat als voor Bitcoin SegWit adressen (formaat dat begint met `bc1`).
+De facturen worden dan gecodeerd in **[bech32](https://planb.academy/resources/glossary/bech32-and-bech32m)**, hetzelfde formaat als voor Bitcoin [SegWit](https://planb.academy/resources/glossary/segwit) adressen (formaat dat begint met `bc1`).
 
 
 ### LNURL Terugtrekking
@@ -1404,8 +1404,8 @@ Er zijn drie hoofdgebruikersprofielen op Lightning, elk met specifieke liquidite
 
 
 
-- **De Betaler**: Dit is degene die betalingen doet. Ze hebben uitgaande liquiditeit nodig om geld over te kunnen maken naar andere gebruikers. Dit kan bijvoorbeeld een consument zijn.
-- **De verkoper (of begunstigde)**: Dit is degene die betalingen ontvangt. Ze hebben inkomende liquiditeit nodig om betalingen naar hun node te kunnen accepteren. Dit kan bijvoorbeeld een bedrijf of een online winkel zijn.
+- **De Betaler**: Dit is degene die betalingen doet. Ze hebben [uitgaande liquiditeit](https://planb.academy/resources/glossary/outbound-capacity) nodig om geld over te kunnen maken naar andere gebruikers. Dit kan bijvoorbeeld een consument zijn.
+- **De verkoper (of begunstigde)**: Dit is degene die betalingen ontvangt. Ze hebben [inkomende liquiditeit](https://planb.academy/resources/glossary/inbound-capacity) nodig om betalingen naar hun node te kunnen accepteren. Dit kan bijvoorbeeld een bedrijf of een online winkel zijn.
 - **De router**: Een tussenliggend knooppunt, vaak gespecialiseerd in het routeren van betalingen, dat zijn liquiditeit in elk kanaal moet optimaliseren om zoveel mogelijk betalingen te routeren en vergoedingen te verdienen.
 
 

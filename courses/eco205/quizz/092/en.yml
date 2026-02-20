@@ -1,0 +1,8 @@
+question: Why did Rothbard advocate a fixed quantity of money rather than monetary expansion?
+answer: Because any quantity will do, as the market adjusts by modifying the purchasing power of the monetary unit
+wrong_answers:
+  - "Because a fixed quantity keeps prices stable and avoids economic fluctuations"
+  - Because only a fixed quantity can guarantee convertibility into gold and maintain investor confidence
+  - "Because monetary expansion automatically increases the real wealth of all money holders."
+explanation: |
+  According to Rothbard, a fixed quantity of money is preferable because the market has the natural ability to adjust itself by modifying the purchasing power of each monetary unit. An increase in the supply of money merely dilutes the efficiency of each unit without bringing any real benefit. The other answers are incorrect: prices can fluctuate even with a fixed quantity, convertibility into gold is not necessary for monetary operation, and monetary expansion does not create real wealth but simply redistributes existing purchasing power.

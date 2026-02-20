@@ -31,10 +31,11 @@ proofreading:
     contributor_names:
     reward: 5.52
   - language: es
-    last_contribution_date:
+    last_contribution_date: '2025-08-06'
     urgency: 1
     contributor_names:
-    reward: 5.52
+      - Salgraphics
+    reward: 2.76
   - language: fi
     last_contribution_date:
     urgency: 1
@@ -47,15 +48,16 @@ proofreading:
       - Asi0Flammeus
     reward: 2.76
   - language: it
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 5.52
+      - AlbertoMagno21
+    reward: 2.76
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.66
+    reward: 13.64
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -70,7 +72,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.66
+    reward: 13.64
   - language: et
     last_contribution_date:
     urgency: 1
@@ -86,7 +88,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.95
+    reward: 10.94
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -96,7 +98,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.66
+    reward: 13.64
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -113,12 +115,12 @@ proofreading:
     urgency: 1
     contributor_names:
       - Tinnah924
-    reward: 4.12
+    reward: 4.11
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.95
+    reward: 10.94
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -138,17 +140,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.95
+    reward: 10.94
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.95
+    reward: 10.94
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.66
+    reward: 13.64
   - language: bg
     last_contribution_date:
     urgency: 1
@@ -158,7 +160,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.95
+    reward: 10.94
 tags:
   - guides
   - personal-security

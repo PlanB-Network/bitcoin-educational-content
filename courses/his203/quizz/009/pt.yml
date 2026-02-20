@@ -1,0 +1,10 @@
+question: Que serviço de alojamento geria Mark Karpelès antes de assumir o controlo da Mt. Gox?
+answer: KalyHost
+wrong_answers:
+  - TibanneHost
+  - WeHostYou
+  - PlanetHost
+explanation: |
+ Este era apenas um dos muitos serviços que oferecia como programador independente. Em novembro, Mark Karpelès começou a aceitar pagamentos em bitcoin com a KalyHost.
+ Ross Ulbricht também utilizou o serviço para alojar a página web Silkroadmarket.org, que redireccionava para a Silk Road.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Mikä tapahtuma 15. huhtikuuta 2011 kutsuttiin pokerinpelaajien toimesta "mustaksi perjantaiksi"?
+answer: FBI sulki suuret yhdysvaltalaiset nettipokerialustat UIGEA:n kiertämisen vuoksi
+wrong_answers:
+  - Tarjous joidenkin online-pokerisivustojen tarjosi suuria tarjouksia rake ja buy-in maksut
+  - Nettipokeriohjelmiston merkittävä virhe mahdollisti varojen ohjautumisen korujen ja golfpallojen ostamiseen
+  - Amatööri pelaaja Chris Moneymaker on voittanut pääturnauksen World Poker Championship jälkeen koulutuksen verkossa
+explanation: |
+ Niitä syytettiin tavanomaisina kauppiaina esiintymisestä, jotta pankit vahvistaisivat saapuvat siirrot, jotka kiellettiin laittomia Internet-rahapelejä koskevassa laissa (Unlawful Internet Gambling)
+ Enforcement Act of 2006. Tämä sulkeminen oli katastrofaalinen nettipokerialalle. Se sai aikaan useiden bitcoin-pokeriympäristöjen luomisen, sillä
+ kryptovaluuttaan ei kohdistunut samoja rajoituksia.
+reviewed: true

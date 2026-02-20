@@ -219,7 +219,7 @@ Om de koopkracht van geld in de loop der tijd te behouden, moet het:
 **Schaarste:** Als geld schaarste biedt, bedoelen we een beperkt beschikbaar Supply. Dit is belangrijk voor een winkel van waarde. Dit is belangrijk voor een opslagplaats van waarde, want als er te veel van een bepaalde valuta is, kan het in waarde dalen. Een schaarse valuta heeft meer kans om zijn waarde te behouden in de loop van de tijd, waardoor het een betrouwbare opslagplaats van rijkdom is. Zie het als een gelimiteerde oplage - als er maar een paar van zijn, zijn ze waardevoller en gewilder dan wanneer er een onbeperkte Supply zou zijn. Op dezelfde manier is het waarschijnlijker dat een schaarse valuta zijn waarde behoudt en zijn koopkracht behoudt, waardoor het een betere optie is om rijkdom op te slaan.
 
 
-**Onveranderlijk:** Wil geld onveranderlijk zijn, dan moet het ongevoelig zijn voor omkering of verandering nadat een transactie is gedaan. Dit is een cruciaal kenmerk van een betrouwbare opslagplaats van waarde omdat het ervoor zorgt dat de waarde van het geld niet onderhevig is aan willekeurige veranderingen of manipulaties. Als je bijvoorbeeld iets koopt met contant geld, kun je later niet van gedachten veranderen en de transactie ongedaan maken. Op dezelfde manier geldt voor cryptocurrencies zoals Bitcoin dat wanneer een transactie eenmaal is vastgelegd op de Blockchain, deze niet kan worden gewijzigd of teruggedraaid. Deze onveranderlijkheid biedt een gevoel van veiligheid en betrouwbaarheid voor zowel kopers als verkopers bij financiële transacties.
+**Onveranderlijk:** Wil geld onveranderlijk zijn, dan moet het ongevoelig zijn voor omkering of verandering nadat een transactie is gedaan. Dit is een cruciaal kenmerk van een betrouwbare opslagplaats van waarde omdat het ervoor zorgt dat de waarde van het geld niet onderhevig is aan willekeurige veranderingen of manipulaties. Als je bijvoorbeeld iets koopt met contant geld, kun je later niet van gedachten veranderen en de transactie ongedaan maken. Op dezelfde manier geldt voor [cryptocurrencies](https://planb.academy/resources/glossary/cryptocurrency) zoals Bitcoin dat wanneer een transactie eenmaal is vastgelegd op de [Blockchain](https://planb.academy/resources/glossary/blockchain), deze niet kan worden gewijzigd of teruggedraaid. Deze onveranderlijkheid biedt een gevoel van veiligheid en betrouwbaarheid voor zowel kopers als verkopers bij financiële transacties.
 
 
 #### Medium van Exchange
@@ -243,7 +243,7 @@ Wil geld een effectieve tussenpersoon zijn voor het kopen en verkopen van goeder
 Geld kan alleen worden gebruikt als gemeenschappelijke maatstaf voor de waarde van goederen en diensten:
 
 
-**Fungibel:** Als men zegt dat geld fungibel is, dan is elke munteenheid uitwisselbaar met elke andere eenheid. Eenvoudiger gezegd betekent dit dat geld uniform en identiek is, ongeacht waar het vandaan komt of wie het bezit. Als je iemand bijvoorbeeld 10 dollar schuldig bent en je geeft hem een biljet van 10 dollar, dan maakt het niet uit of het biljet uit jouw Wallet komt of uit de Wallet van iemand anders. Zolang het een echt briefje van 10 dollar is, wordt het als gelijkwaardig beschouwd. Het concept van vervangbaarheid is belangrijk omdat het geld effectief laat functioneren als een gemeenschappelijke meeteenheid, waardoor transacties eenvoudiger en efficiënter worden.
+**[Fungibel](https://planb.academy/resources/glossary/fungibility):** Als men zegt dat geld fungibel is, dan is elke munteenheid uitwisselbaar met elke andere eenheid. Eenvoudiger gezegd betekent dit dat geld uniform en identiek is, ongeacht waar het vandaan komt of wie het bezit. Als je iemand bijvoorbeeld 10 dollar schuldig bent en je geeft hem een biljet van 10 dollar, dan maakt het niet uit of het biljet uit jouw Wallet komt of uit de Wallet van iemand anders. Zolang het een echt briefje van 10 dollar is, wordt het als gelijkwaardig beschouwd. Het concept van vervangbaarheid is belangrijk omdat het geld effectief laat functioneren als een gemeenschappelijke meeteenheid, waardoor transacties eenvoudiger en efficiënter worden.
 
 
 Conclusie
@@ -252,7 +252,7 @@ Conclusie
 Geld is een cruciaal en fascinerend onderdeel van ons dagelijks leven. Het dient als tussenpersoon, waardoor we goederen en diensten met elkaar kunnen verhandelen. Niet al het geld is echter gelijk. Sommige vormen van geld zijn superieur als waardeopslag, zoals gouden munten, terwijl andere effectiever zijn als Exchange, de Amerikaanse dollar. Als deze functies echter volledig worden vervuld, stelt het ons in staat om met vertrouwen en gemak transacties te verrichten, wat niet alleen ons als individuen helpt, maar ook een grotere economische groei en welvaart voor onze economie bevordert.
 
 
-In de komende modules verkennen we twee populaire vormen van geld: Bitcoin en stablecoins. Door ze te bestuderen aan de hand van de inhoud die in deze sectie wordt besproken, zullen we onderzoeken hoe ze de verschillende functies van valuta vervullen en hoe ze de maatschappij veel voordeel kunnen opleveren.
+In de komende modules verkennen we twee populaire vormen van geld: Bitcoin en [stablecoins](https://planb.academy/resources/glossary/stablecoin). Door ze te bestuderen aan de hand van de inhoud die in deze sectie wordt besproken, zullen we onderzoeken hoe ze de verschillende functies van valuta vervullen en hoe ze de maatschappij veel voordeel kunnen opleveren.
 
 
 Van ruilhandel tot de uitvinding van munten en papiergeld, geld heeft een reeks transformaties ondergaan om zich aan te passen aan de steeds veranderende behoeften van de samenleving. Laten we in het volgende hoofdstuk van koers veranderen en onze aandacht richten op de evolutie van geld.
@@ -293,9 +293,9 @@ Laten we met dit in gedachten eens kijken naar de primaire vormen van Exchange d
 
 4. **Papiergeld met metaal als onderpand:** Papiergeld met een fysieke onderliggende waarde, zoals goud of zilver.
 
-5. **Fiat Money:** Valuta die niet gedekt wordt door een fysieke grondstof, maar waarde heeft omdat een overheid het tot wettig betaalmiddel verklaart.
+5. **[Fiat Money](https://planb.academy/resources/glossary/fiat):** Valuta die niet gedekt wordt door een fysieke grondstof, maar waarde heeft omdat een overheid het tot wettig betaalmiddel verklaart.
 
-6. **Cryptocurrencies:** Digitale of virtuele tokens die cryptografie gebruiken om transacties te beveiligen en de creatie van nieuwe eenheden te controleren.
+6. **Cryptocurrencies:** Digitale of virtuele tokens die [cryptografie](https://planb.academy/resources/glossary/cryptography) gebruiken om transacties te beveiligen en de creatie van nieuwe eenheden te controleren.
 
 
 Laten we met deze in gedachten ze stuk voor stuk onderzoeken om een holistischer begrip te krijgen van hoe we terecht zijn gekomen waar we nu zijn.
@@ -352,7 +352,7 @@ Hoewel het technisch gezien nog steeds om goederengeld gaat, stuitten mensen tij
 Bovendien waren metalen zoals goud een van de meest inerte Elements in het periodiek systeem, waardoor ze extreem duurzaam en corrosiebestendig waren.
 
 
-Naarmate de technologie voortschreed, ondergingen goud en zilver een transformatief proces. Ze werden gesmolten, gevormd en gestempeld tot munten, waardoor Exchange steeds eenvoudiger werd. De gestandaardiseerde waarde en markeringen op deze munten verminderden de kosten die gepaard gingen met het controleren van het gewicht en de zuiverheid van edelmetalen. Maar zoals met de meeste goede dingen, vindt altijd wel iemand een manier om er voordeel uit te halen. Zowel particulieren als regeringen knipten delen van de munten om het gewicht van het edelmetaal te verminderen en tegelijkertijd de oorspronkelijke nominale waarde te behouden. Dit leidde tot de eerste vorm van devaluatie van munten, wat leidde tot inflatie.
+Naarmate de technologie voortschreed, ondergingen goud en zilver een transformatief proces. Ze werden gesmolten, gevormd en gestempeld tot munten, waardoor Exchange steeds eenvoudiger werd. De gestandaardiseerde waarde en markeringen op deze munten verminderden de kosten die gepaard gingen met het controleren van het gewicht en de zuiverheid van edelmetalen. Maar zoals met de meeste goede dingen, vindt altijd wel iemand een manier om er voordeel uit te halen. Zowel particulieren als regeringen knipten delen van de munten om het gewicht van het edelmetaal te verminderen en tegelijkertijd de oorspronkelijke nominale waarde te behouden. Dit leidde tot de eerste vorm van devaluatie van munten, wat leidde tot [inflatie](https://planb.academy/resources/glossary/inflation).
 
 
 Om het nog erger te maken, naarmate de wereld globaler werd, werden goud en zilver steeds lastiger te vervoeren en te verhandelen, vooral voor zeelieden.
@@ -373,7 +373,7 @@ Denk er eens over na: geen gesjouw meer met zware zakken goud of zorgen over die
 Maar zoals met elke nieuwe technologie, begonnen er problemen op te duiken.
 
 
-Eerst begonnen goudpakhuizen, die inzagen dat hun klanten zelden terugkwamen om het goud waarop de ontvangstbewijzen aanspraak maakten op te nemen, papieren ontvangstbewijzen uit te geven zonder goud als onderpand, wat leidde tot de heimelijke creatie van het eerste fractionele reserve banksysteem (emittenten houden slechts een fractie van de deposito's van klanten aan als reserve en lenen de rest uit). En zelfs toen landen probeerden hun valuta met goud te ondersteunen, maakten ze vaak misbruik van het systeem, wat leidde tot economische onrust.
+Eerst begonnen goudpakhuizen, die inzagen dat hun klanten zelden terugkwamen om het goud waarop de ontvangstbewijzen aanspraak maakten op te nemen, papieren ontvangstbewijzen uit te geven zonder goud als onderpand, wat leidde tot de heimelijke creatie van het eerste [fractionele reserve banksysteem](https://planb.academy/resources/glossary/fractional-reserves) (emittenten houden slechts een fractie van de deposito's van klanten aan als reserve en lenen de rest uit). En zelfs toen landen probeerden hun valuta met goud te ondersteunen, maakten ze vaak misbruik van het systeem, wat leidde tot economische onrust.
 
 
 Ten tweede was papiergeld met een metalen achterkant niet immuun voor vervalsing. Zelfs met beveiligingsfuncties konden vervalsers nog steeds valse biljetten maken die moeilijk te detecteren waren.
@@ -734,10 +734,10 @@ Aan het einde van deze module zult u een goed begrip hebben van de oorsprong, de
 ### Wat is dat voor iets dat Bitcoin heet?
 
 
-Bitcoin is een Trustless en permissievrije gedecentraliseerde digitale valuta. Dat klinkt misschien verwarrend, dus laten we het uitleggen. Omdat geen enkele overheid of instelling Bitcoin controleert, hoef je geen derde partijen te vertrouwen of toestemming te vragen om het te gebruiken. In plaats daarvan wordt het onderhouden door een netwerk van gebruikers over de hele wereld, die transacties valideren en verwerken op iets dat Blockchain heet.
+Bitcoin is een Trustless en permissievrije gedecentraliseerde digitale valuta. Dat klinkt misschien verwarrend, dus laten we het uitleggen. Omdat geen enkele overheid of instelling Bitcoin controleert, hoef je geen derde partijen te vertrouwen of toestemming te vragen om het te gebruiken. In plaats daarvan wordt het onderhouden door een netwerk van gebruikers over de hele wereld, die [transacties](https://planb.academy/resources/glossary/transaction-tx) valideren en verwerken op iets dat Blockchain heet.
 
 
-Zie de Blockchain als een gigantische Ledger of een digitale spreadsheet die elke transactie via Bitcoin bijhoudt. Omdat iedereen wereldwijd met een internetverbinding transacties kan controleren, valideren of verwerken, zorgt dit ervoor dat de valuta veilig is en niet vervalst kan worden.
+Zie de Blockchain als een gigantische [Ledger](https://planb.academy/resources/glossary/ledger) of een digitale spreadsheet die elke transactie via Bitcoin bijhoudt. Omdat iedereen wereldwijd met een internetverbinding transacties kan controleren, valideren of verwerken, zorgt dit ervoor dat de valuta veilig is en niet vervalst kan worden.
 
 
 Bitcoin is ook uniek omdat het een gelimiteerde Supply heeft. Er zullen ooit slechts 21 miljoen Bitcoin gemaakt worden, waardoor het schaars is, net als goud en andere edelmetalen. Deze schaarste is een deel van wat Bitcoin zijn waarde geeft.
@@ -758,13 +758,13 @@ Voor de oprichting van Bitcoin legden een handvol visionairs de basis voor Bitco
 #### De Cypherpunks
 
 
-De Cypherpunks zijn een groep technisch onderlegde rebellen die in de jaren 80 samenkwamen om te vechten voor individuele vrijheid en burgerlijke vrijheden met behulp van één krachtig hulpmiddel: cryptografie. Ze geloofden dat de mogelijkheid om informatie te versleutelen mensen de macht zou geven om de controle terug te nemen van gecentraliseerde autoriteiten. Stel je voor dat je in staat zou zijn om je online communicatie privé te houden en te beveiligen tegen nieuwsgierige ogen - dat is waar zij voor vochten!
+De [Cypherpunks](https://planb.academy/resources/glossary/cypherpunks) zijn een groep technisch onderlegde rebellen die in de jaren 80 samenkwamen om te vechten voor individuele vrijheid en burgerlijke vrijheden met behulp van één krachtig hulpmiddel: cryptografie. Ze geloofden dat de mogelijkheid om informatie te versleutelen mensen de macht zou geven om de controle terug te nemen van gecentraliseerde autoriteiten. Stel je voor dat je in staat zou zijn om je online communicatie privé te houden en te beveiligen tegen nieuwsgierige ogen - dat is waar zij voor vochten!
 
 
 Een van de meest opmerkelijke resultaten van de Cypherpunks was de Cypherpunks mailinglijst, opgericht in 1992. Via de lijst konden individuen ideeën uitwisselen en cryptografische technologieën, concepten voor digitale valuta en privacy-gerichte initiatieven bespreken. Dit leidde tot de vorming van een gemeenschap van gelijkgestemde individuen, waaronder ontwikkelaars, activisten en onderzoekers.
 
 
-Vandaag de dag geven de visionaire ideeën van de cypherpunks nog steeds vorm aan de evolutie van ons digitale landschap en geven ze individuen meer controle over hun gegevens en communicatie. Een van hun belangrijkste nalatenschappen is Bitcoin, omdat het zwaar leunt op Hashcash, een technologie ontwikkeld door Adam Back in 1997 om e-mailspam tegen te gaan.
+Vandaag de dag geven de visionaire ideeën van de cypherpunks nog steeds vorm aan de evolutie van ons digitale landschap en geven ze individuen meer controle over hun gegevens en communicatie. Een van hun belangrijkste nalatenschappen is Bitcoin, omdat het zwaar leunt op [Hashcash](https://planb.academy/resources/glossary/hashcash), een technologie ontwikkeld door Adam Back in 1997 om e-mailspam tegen te gaan.
 
 
 Andere opmerkelijke Cypherpunks zijn:
@@ -773,9 +773,9 @@ Andere opmerkelijke Cypherpunks zijn:
 
 - **Timothy May:** Stichtend lid van de Cypherpunks mailinglijst en schreef veel over cryptografie en privacy in de jaren 90 en begin 2000. Zijn schrijven legde de basis voor discussies over digitale privacy en elektronische geldsystemen.
 - **Eric Huges:** Een ander oprichtingslid van de Cypherpunks en co-auteur van "A Cypherpunk's Manifesto," waarin het belang van privacy en anonimiteit in het digitale tijdperk werd benadrukt.
-- **Whitfield Diffie en Martin Hellman:** Ontwikkelden het concept van publiekesleutelcryptografie, waardoor veilige internetcommunicatie revolutionair werd verbeterd.
+- **Whitfield Diffie en Martin Hellman:** Ontwikkelden het concept van [publiekesleutelcryptografie](https://planb.academy/resources/glossary/public-key), waardoor veilige internetcommunicatie revolutionair werd verbeterd.
 - **Julian Assange:** Oprichter van WikiLeaks, dat geheime en gevoelige informatie publiceert om transparantie en verantwoording te bevorderen.
-- **Bram Cohen:** Maakte BitTorrent, een peer-to-peer protocol voor het delen van bestanden dat de distributie van inhoud decentraliseerde en snellere downloads mogelijk maakte.
+- **Bram Cohen:** Maakte BitTorrent, een [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) protocol voor het delen van bestanden dat de distributie van inhoud decentraliseerde en snellere downloads mogelijk maakte.
 - **John Gilmore:** Een ondernemer en libertair die medeoprichter was van de Electronic Frontier Foundation (EFF) en opkwam voor digitale rechten en online privacy.
 
 
@@ -785,7 +785,7 @@ Andere opmerkelijke Cypherpunks zijn:
 #### David Chaum (de vader van digitale valuta)
 
 
-In het begin van de jaren 80 zorgde David Chaum voor een revolutie in de wereld van digitale valuta met zijn baanbrekende werk aan "blinded handtekeningen" Dit maakte het mogelijk om een bericht cryptografisch te ondertekenen zonder de inhoud ervan te kennen, waardoor privacy en veiligheid in digitale transacties gegarandeerd werden. In 1982 bedacht David Chaum Ecash, een anoniem elektronisch geldsysteem dat gebruik maakte van cryptografie en later werd geïmplementeerd door zijn bedrijf Digicash.
+In het begin van de jaren 80 zorgde David Chaum voor een revolutie in de wereld van digitale valuta met zijn baanbrekende werk aan "[blinded handtekeningen](https://planb.academy/resources/glossary/blind-signature)" Dit maakte het mogelijk om een bericht cryptografisch te ondertekenen zonder de inhoud ervan te kennen, waardoor privacy en veiligheid in digitale transacties gegarandeerd werden. In 1982 bedacht David Chaum [Ecash](https://planb.academy/resources/glossary/ecash-david-chaum), een anoniem elektronisch geldsysteem dat gebruik maakte van cryptografie en later werd geïmplementeerd door zijn bedrijf Digicash.
 
 
 Hoewel Digicash van 1995 tot 1998 werd gebruikt als microbetalingssysteem bij een bank in de VS, vroeg Chaum uiteindelijk faillissement aan. Dat gezegd hebbende, zijn innovatieve ideeën inspireerden anderen om digitale munteenheden te onderzoeken, wat de weg vrijmaakte voor de ontwikkeling van moderne cryptocurrencies, zoals Bitcoin.
@@ -806,7 +806,7 @@ Ondanks de uiteindelijke mislukking was E-gold een cruciale stap in de evolutie 
 Gezien de razendsnelle opkomst van Bitcoin geloven veel mensen ten onrechte dat het de eerste digitale valuta ooit was. Hopelijk is het nu duidelijk dat deze veronderstelling ver van de waarheid is. De opkomst van Bitcoin is het resultaat van tientallen jaren onderzoek en experimenten door pioniers op het gebied van cryptografie. Zonder de bijdragen van bovenstaande personen en vele anderen was Bitcoin misschien nooit ontstaan. Hoewel deze vroege digitale munteenheden uiteindelijk faalden, leerde Bitcoin van hun fouten en werd het uiteindelijk de digitale munteenheid die we vandaag kennen.
 
 
-Dat gezegd hebbende, als er niet één individu was... of groep (dat weten we niet zeker), zou Bitcoin niet bestaan. En dat is Satoshi Nakamoto. De raadselachtige schepper.
+Dat gezegd hebbende, als er niet één individu was... of groep (dat weten we niet zeker), zou Bitcoin niet bestaan. En dat is [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi). De raadselachtige schepper.
 
 
 #### Satoshi Nakamoto
@@ -830,7 +830,7 @@ De mysterieuze verdwijning van Satoshi Nakamoto heeft geleid tot verschillende t
 Hoewel we misschien niet weten wie Satoshi is, hebben we wel een duidelijker beeld van zijn bedoelingen achter Bitcoin. Hij creëerde Bitcoin als reactie op de wereldwijde financiële crisis van 2008 en het daaruit voortvloeiende wantrouwen rond traditionele banksystemen en door de overheid gecontroleerde valuta.
 
 
-In zijn online communicatie uitte hij zijn cynisme over de gecentraliseerde aard van geld en bankieren en benadrukte hij de gevaren van het vertrouwen op centrale banken om hun valuta niet te devalueren. Een goed voorbeeld, geschreven in het eerste Bitcoin blok, is:
+In zijn online communicatie uitte hij zijn cynisme over de gecentraliseerde aard van geld en bankieren en benadrukte hij de gevaren van het vertrouwen op centrale banken om hun valuta niet te devalueren. Een goed voorbeeld, geschreven in het eerste Bitcoin [blok](https://planb.academy/resources/glossary/block), is:
 
 
 "The Times 03/Jan/2009 Kanselier op rand van tweede reddingsoperatie voor banken."
@@ -856,7 +856,7 @@ Samengevat heeft Bitcoin een revolutie teweeggebracht in de manier waarop we ove
 
 - **Peer-to-Peer:** Bitcoin stelt individuen in staat om direct betalingen te verzenden en te ontvangen zonder tussenpersonen, zoals banken of betalingsverwerkers.
 - **Gedecentraliseerd:** Bitcoin werkt op een gedecentraliseerd netwerk, wat betekent dat er geen centrale autoriteit of controle is over de valuta.
-- **Veilig:** Bitcoin-transacties zijn beveiligd met cryptografie, waardoor het vervalsen van Double-spending-munten moeilijk is.
+- **Veilig:** Bitcoin-transacties zijn beveiligd met cryptografie, waardoor het vervalsen van [Double-spending](https://planb.academy/resources/glossary/double-spending-attack)-munten moeilijk is.
 - **Beperkt in Supply & Deelbaar:** De Supply van Bitcoin is eindig - met slechts 21 miljoen munten in omloop - en tegelijkertijd deelbaar tot acht decimale plaatsen, waardoor transacties voor een fractie van een cent mogelijk zijn. Deze schaarste is ontworpen om de munt waarde te geven en inflatie te voorkomen.
 - **Pseudoanoniem:** Hoewel Bitcoin transacties niet volledig anoniem zijn, bieden ze een mate van privacy en pseudonimiteit die traditionele betaalmethoden niet bieden.
 
@@ -901,7 +901,7 @@ In vergelijking met traditionele banksystemen werkt Bitcoin weliswaar anders, ma
 Terwijl banken deze rollen intern uitvoeren, waardoor ze volledige controle over het proces hebben, vereist Bitcoin samenwerking door de gemeenschap om deze rollen uit te voeren. Met andere woorden, om Bitcoin deze processen in een gedecentraliseerd systeem te laten repliceren, moet Bitcoin elk van deze taken uitbesteden om ervoor te zorgen dat geen enkel individu of gecentraliseerde entiteit buitenmatige controle over het systeem heeft.
 
 
-Om deze revolutionaire prestatie te leveren, heeft Bitcoin deze taken verdeeld in drie hoofdrollen: nodes, miners en ontwikkelaars. Waar nodes transacties verifiëren en regels instellen en afdwingen, bestellen en bevestigen miners transacties en houden ontwikkelaars het netwerk up-to-date en stellen upgrades voor. Door deze taken onder deze hoofdrolspelers te verdelen, heeft Bitcoin een systeem gecreëerd dat veilig, transparant en verantwoordelijk is voor alle gebruikers.
+Om deze revolutionaire prestatie te leveren, heeft Bitcoin deze taken verdeeld in drie hoofdrollen: [nodes](https://planb.academy/resources/glossary/node), [miners](https://planb.academy/resources/glossary/miner) en ontwikkelaars. Waar nodes transacties verifiëren en regels instellen en afdwingen, bestellen en bevestigen miners transacties en houden ontwikkelaars het netwerk up-to-date en stellen upgrades voor. Door deze taken onder deze hoofdrolspelers te verdelen, heeft Bitcoin een systeem gecreëerd dat veilig, transparant en verantwoordelijk is voor alle gebruikers.
 
 
 Laten we daarom eens kijken naar elk van deze rollen..
@@ -913,7 +913,7 @@ Laten we daarom eens kijken naar elk van deze rollen..
 #### Knooppunten
 
 
-Knooppunten zijn essentieel voor de integriteit en veiligheid van het Bitcoin netwerk. Ze dienen als de poortwachters van het systeem en zorgen ervoor dat transacties nauwkeurig en volgens de regels worden verwerkt. Elk knooppunt downloadt en verifieert lokaal een complete kopie van de Blockchain, wat in wezen een digitale Ledger is die elke transactie registreert die ooit op het Bitcoin netwerk is gemaakt. Door middel van consensus zijn de knooppunten het eens over de geldigheid van elke transactie en zorgen ze ervoor dat de regels worden gevolgd. Dit betekent dat de knooppunten de transactie afwijzen als iemand het systeem probeert te bedriegen, bijvoorbeeld door meer Bitcoin te versturen dan hij eigenlijk heeft of door te proberen dezelfde Bitcoin twee keer uit te geven.
+Knooppunten zijn essentieel voor de integriteit en veiligheid van het Bitcoin netwerk. Ze dienen als de poortwachters van het systeem en zorgen ervoor dat transacties nauwkeurig en volgens de regels worden verwerkt. Elk knooppunt downloadt en verifieert lokaal een complete kopie van de Blockchain, wat in wezen een digitale Ledger is die elke transactie registreert die ooit op het Bitcoin netwerk is gemaakt. Door middel van [consensus](https://planb.academy/resources/glossary/consensus) zijn de knooppunten het eens over de geldigheid van elke transactie en zorgen ze ervoor dat de regels worden gevolgd. Dit betekent dat de knooppunten de transactie afwijzen als iemand het systeem probeert te bedriegen, bijvoorbeeld door meer Bitcoin te versturen dan hij eigenlijk heeft of door te proberen dezelfde Bitcoin twee keer uit te geven.
 
 
 Om dit idee van consensus verder uit te werken, wanneer ontwikkelaars veranderingen of upgrades voorstellen voor Bitcoin, spelen knooppunten een rol in het goedkeuren of afwijzen van deze veranderingen. Ze doen dit door hun software te upgraden naar de nieuwe versie of door de oude versie te blijven gebruiken. Dit proces gaat vaak gepaard met discussies en debatten binnen de Bitcoin gemeenschap om consensus te bereiken. Dat gezegd hebbende, de consensus binnen Bitcoin is niet zo zwart-wit als een stemmachine. De meerderheid hoeft niet per se te regeren. Als sommige individuen het niet eens zijn met de verandering, kunnen ze een nieuwe Bitcoin-afgeleide token lanceren. Nu bestaat de originele Bitcoin zonder de verandering en een nieuwe met de verandering. Door te kopen en verkopen, is het aan de gemeenschap om aan te geven welke versie ze waardevoller vinden. Dit consensusmechanisme zorgt ervoor dat alle wijzigingen aan het Bitcoin protocol goedgekeurd worden door de hele gemeenschap, waardoor het moeilijk wordt voor een individu of groep om het systeem te manipuleren voor hun eigen voordeel.
@@ -925,7 +925,7 @@ Het is ook belangrijk om te weten dat een node gewoon een stuk software is dat i
 #### Mijnwerkers
 
 
-Bitcoin miners, aan de andere kant, spelen een cruciale rol in het bijhouden van gegevens, omdat ze verantwoordelijk zijn voor het bestellen en bevestigen van transacties. Om dit te doen, gebruiken miners gespecialiseerde computers om een functie uit te voeren die hashing heet. Zonder in de details van hashing te duiken, kun je het zien als miners die met elkaar concurreren om nieuwe transacties toe te voegen aan de Blockchain, de openbare Ledger van transacties. In Exchange worden miners voor hun werk beloond met nieuw gecreëerde Bitcoin en de transactiekosten voor alle verwerkte transacties. Het Mining proces is ontworpen om moeilijk, competitief en willekeurig te zijn, met slechts een beperkt aantal nieuwe Bitcoin die elk jaar vrijkomen, zodat de Supply van Bitcoin beperkt is en hun waarde behouden blijft. Zonder mijnwerkers zouden transacties niet verwerkt worden.
+Bitcoin miners, aan de andere kant, spelen een cruciale rol in het bijhouden van gegevens, omdat ze verantwoordelijk zijn voor het bestellen en bevestigen van transacties. Om dit te doen, gebruiken miners gespecialiseerde computers om een functie uit te voeren die [hashing](https://planb.academy/resources/glossary/hash-function) heet. Zonder in de details van hashing te duiken, kun je het zien als miners die met elkaar concurreren om nieuwe transacties toe te voegen aan de Blockchain, de openbare Ledger van transacties. In Exchange worden miners voor hun werk beloond met nieuw gecreëerde Bitcoin en de [transactiekosten](https://planb.academy/resources/glossary/transaction-fees) voor alle verwerkte transacties. Het [Mining](https://planb.academy/resources/glossary/mining) proces is ontworpen om moeilijk, competitief en willekeurig te zijn, met slechts een beperkt aantal nieuwe Bitcoin die elk jaar vrijkomen, zodat de Supply van Bitcoin beperkt is en hun waarde behouden blijft. Zonder mijnwerkers zouden transacties niet verwerkt worden.
 
 
 Aangezien mijnwerkers met elkaar moeten concurreren om transacties te verwerken en daarvoor beloond worden, minimaliseert deze competitie de kans dat één Miner of entiteit het netwerk kan controleren en stimuleert het mijnwerkers om eerlijk te handelen en de regels te volgen. Als een Miner probeert vals te spelen of de regels breekt, riskeren ze hun beloning te verliezen, dus er is een sterke stimulans om volgens de regels te spelen.
@@ -955,10 +955,10 @@ Om te begrijpen hoe al deze spelers samenwerken, stellen we ons een eenvoudige B
 #### Transactie-initiatie
 
 
-Elke Bitcoin transactie begint met het initiëren ervan, wanneer de verzender, in dit geval Alice, een transactie aanmaakt met de ontvanger, Bob, en het bedrag, 0,00100000 Bitcoin. De node die verbonden is met Alice's Wallet zendt vervolgens de transactie uit naar het netwerk, waar de nodes de geldigheid ervan bevestigen. Het knooppunt dat geassocieerd is met Alice's Wallet zendt vervolgens de transactie uit naar het netwerk, waar de knooppunten de geldigheid ervan bevestigen, en het wordt naar de mijnwerkers gestuurd voor bevestiging.
+Elke Bitcoin transactie begint met het initiëren ervan, wanneer de verzender, in dit geval Alice, een transactie aanmaakt met de ontvanger, Bob, en het bedrag, 0,00100000 Bitcoin. De node die verbonden is met Alice's [Wallet](https://planb.academy/resources/glossary/wallet) zendt vervolgens de transactie uit naar het netwerk, waar de nodes de geldigheid ervan bevestigen. Het knooppunt dat geassocieerd is met Alice's Wallet zendt vervolgens de transactie uit naar het netwerk, waar de knooppunten de geldigheid ervan bevestigen, en het wordt naar de mijnwerkers gestuurd voor bevestiging.
 
 
-Op dit punt komt de transactie in wat bekend staat als de Mempool, in wezen een wachtkamer voor transacties die klaar zijn om aan de Blockchain te worden toegevoegd. Zie het als een lijst met transacties die nog moeten worden verwerkt, zoals je op je creditcardafschrift ziet. Zodra de transactie gestart is en in de Mempool zit, is ze nu in handen van de miners.
+Op dit punt komt de transactie in wat bekend staat als de [Mempool](https://planb.academy/resources/glossary/mempool), in wezen een wachtkamer voor transacties die klaar zijn om aan de Blockchain te worden toegevoegd. Zie het als een lijst met transacties die nog moeten worden verwerkt, zoals je op je creditcardafschrift ziet. Zodra de transactie gestart is en in de Mempool zit, is ze nu in handen van de miners.
 
 
 #### Transactiebevestiging
@@ -1052,7 +1052,7 @@ Hoewel Bitcoin nog niet zo wereldwijd geaccepteerd is als fiatvaluta's, maken he
 
 
 - **Draagbaar:** Omdat Bitcoin digitaal is, is het mogelijk om zonder grenzen en zonder tussenpersonen geld over te maken tussen individuen, waardoor het een handig en toegankelijk Exchange medium is. Hoewel sommige fiatvaluta's ook digitale oplossingen bieden, kunnen mensen in ontwikkelingslanden of door oorlog verscheurde landen moeite hebben om toegang te krijgen tot bankdiensten die aan deze behoefte voldoen. Het gedecentraliseerde karakter van Bitcoin maakt het toegankelijk voor iedereen met een internetverbinding en biedt een haalbaar alternatief voor traditionele banksystemen in gebieden met beperkte toegang tot financiële diensten.
-- **Deelbaar:** De extreme deelbaarheid van Bitcoin is een van de belangrijkste voordelen als valuta. Omdat elk Bitcoin deelbaar is tot acht decimale plaatsen, is de kleinste eenheid, een Satoshi, slechts een fractie van een cent waard. Afhankelijk van de transactiemethode, d.w.z. Layer één of twee, maakt dit Bitcoin zeer geschikt voor transacties van elke grootte, van kleine aankopen tot grote investeringen.
+- **Deelbaar:** De extreme deelbaarheid van Bitcoin is een van de belangrijkste voordelen als valuta. Omdat elk Bitcoin deelbaar is tot acht decimale plaatsen, is de kleinste eenheid, een [Satoshi](https://planb.academy/resources/glossary/satoshi-sat), slechts een fractie van een cent waard. Afhankelijk van de transactiemethode, d.w.z. Layer één of twee, maakt dit Bitcoin zeer geschikt voor transacties van elke grootte, van kleine aankopen tot grote investeringen.
 - **Geaccepteerd:** Hoewel de acceptatie van Bitcoin nog niet universeel is, suggereert de toenemende acceptatie door winkeliers, instellingen en individuen over de hele wereld dat het steeds breder geaccepteerd wordt als een legitieme vorm van betaling.
 
 
@@ -1237,13 +1237,13 @@ Er zijn ook talloze andere bewarende Wallet oplossingen beschikbaar voor mobiele
 
 **Niet-vrijheidsberovende portefeuilles (ook wel zelfbewaarneming genoemd)**
 
-Non-custodial wallets zijn een type Bitcoin Wallet waarbij jij de enige beheerder van je fondsen bent, wat betekent dat je volledige controle hebt over je private keys. Privé sleutels zijn als een wachtwoord voor je Wallet en worden gebruikt om transacties te ondertekenen en autoriseren. Zonder deze sleutels heb je geen toegang tot je Bitcoin of kun je deze niet overdragen.
+Non-custodial wallets zijn een type Bitcoin Wallet waarbij jij de enige beheerder van je fondsen bent, wat betekent dat je volledige controle hebt over je [private keys](https://planb.academy/resources/glossary/private-key). Privé sleutels zijn als een wachtwoord voor je Wallet en worden gebruikt om transacties te ondertekenen en autoriseren. Zonder deze sleutels heb je geen toegang tot je Bitcoin of kun je deze niet overdragen.
 
 
-Niet-bewaard-portemonnees bieden een hoger niveau van veiligheid en privacy dan bewaarportemonnees, omdat jij de enige bent die verantwoordelijk is voor de veiligheid van je geld. Voorbeelden van niet-custodial wallets zijn hardware wallets zoals [Coldcard](https://store.coinkite.com/store/coldcard) en [Trezor](https://trezor.io/), dit zijn fysieke apparaten die je private keys offline opslaan en een extra Layer beveiliging bieden. Andere populaire niet-custodial wallets zijn software wallets zoals [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), en [Blockstream Green](https://blockstream.com/Green/), die kunnen worden gedownload en geïnstalleerd op je computer of mobiele apparaat.
+Niet-bewaard-portemonnees bieden een hoger niveau van veiligheid en privacy dan bewaarportemonnees, omdat jij de enige bent die verantwoordelijk is voor de veiligheid van je geld. Voorbeelden van niet-custodial wallets zijn [hardware wallets](https://planb.academy/resources/glossary/hardware-wallet) zoals [Coldcard](https://store.coinkite.com/store/coldcard) en [Trezor](https://trezor.io/), dit zijn fysieke apparaten die je private keys offline opslaan en een extra Layer beveiliging bieden. Andere populaire niet-custodial wallets zijn software wallets zoals [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), en [Blockstream Green](https://blockstream.com/Green/), die kunnen worden gedownload en geïnstalleerd op je computer of mobiele apparaat.
 
 
-*Hoewel we geen specifieke Wallet kunnen aanbevelen, raden we sterk aan om controle te nemen over je Bitcoin door zelfbehoud of gezamenlijk beheer, wat inhoudt dat je een Wallet kiest die past bij jouw behoeften en voorkeuren. Het is essentieel om grondig onderzoek te doen voordat u een Wallet kiest, om er zeker van te zijn dat deze voldoet aan uw beveiligings- en bruikbaarheidsvereisten.*
+*Hoewel we geen specifieke Wallet kunnen aanbevelen, raden we sterk aan om controle te nemen over je Bitcoin door [zelfbehoud](https://planb.academy/resources/glossary/selfcustody) of gezamenlijk beheer, wat inhoudt dat je een Wallet kiest die past bij jouw behoeften en voorkeuren. Het is essentieel om grondig onderzoek te doen voordat u een Wallet kiest, om er zeker van te zijn dat deze voldoet aan uw beveiligings- en bruikbaarheidsvereisten.*
 
 
 Hoewel bewaarportemonnees handig lijken, brengen ze aanzienlijke risico's met zich mee. Door het beheer van je private keys aan een derde partij te geven, geef je hen effectief controle over je fondsen. Als de custodian insolvent wordt, gehackt wordt of de deuren sluit, kun je de toegang tot je Bitcoin verliezen. En dit is al ontelbare keren gebeurd, met spraakmakende voorbeelden zoals de Mt. Gox en QuadrigaCX hacks die resulteerden in het verlies van klantenfondsen, of FTX, Voyager, BlockFi en Celsius die catastrofale faillissementen meemaakten, wat leidde tot het verlies van hun klantenfondsen. Vooral voor spaartegoeden is het van cruciaal belang om aan zelfbehoud te doen en verantwoordelijkheid te nemen voor het veiligstellen van je Bitcoin.
@@ -1255,7 +1255,7 @@ Hoewel bewaarportemonnees handig lijken, brengen ze aanzienlijke risico's met zi
 Als je eenmaal hebt gekozen voor een Wallet, is de lol er nog niet vanaf. Nu is het tijd om het risico op verlies te minimaliseren. Om je Bitcoin te beschermen, moet je de volgende stappen overwegen na het kiezen van je Wallet:
 
 
-1. Eerst en vooral, maak een back-up van je Wallet wanneer je hem zelf in bewaring neemt. Hardware wallets worden geleverd met een herstel seed zin, een set woorden die gebruikt kan worden om je private sleutels te herstellen in geval van verlies of beschadiging van je apparaat. Maak een fysieke kopie, zoals een metalen seed plaatje, van deze [seed zin](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/) en bewaar deze op een veilige plaats. Het is belangrijk om deze herstel seed zin veilig te bewaren. Deel het NOOIT met iemand.
+1. Eerst en vooral, maak een back-up van je Wallet wanneer je hem zelf in bewaring neemt. Hardware wallets worden geleverd met een [herstel seed zin](https://planb.academy/resources/glossary/recovery-phrase), een set woorden die gebruikt kan worden om je private sleutels te herstellen in geval van verlies of beschadiging van je apparaat. Maak een fysieke kopie, zoals een metalen seed plaatje, van deze [seed zin](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/) en bewaar deze op een veilige plaats. Het is belangrijk om deze herstel seed zin veilig te bewaren. Deel het NOOIT met iemand.
 
 2. Bij het veiligstellen van een aanzienlijk bedrag aan Bitcoin dat de drempel overschrijdt die u niet wilt verliezen, is het belangrijk om de mogelijkheden van estate planning te onderzoeken voor het onvoorziene geval van uw overlijden. Dit zorgt ervoor dat uw familie en dierbaren toegang hebben tot uw Bitcoin en deze effectief kunnen beheren.
 

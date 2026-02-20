@@ -1,0 +1,10 @@
+question: 法國公司 Paymium SAS 於 2012 年 4 月開發了哪款行動比特幣存管應用程式？
+answer: Paytunia
+wrong_answers:
+  - Instawallet
+  - 我的比特幣
+  - Vibanko
+explanation: |
+ Paymium 將其稱為 「基於 Bitcoin 開放式協定的革命性應用程式，可安全、簡便地進行線上付款和轉帳」。
+ 該公司還在 2012 年 3 月從 Jan Vornberger 手中收購了 Instawallet 網路應用程式。
+reviewed: true

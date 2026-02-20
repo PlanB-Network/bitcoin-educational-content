@@ -352,7 +352,7 @@ Det finns flera olika typer av byteshandel:
 
 
 
-Den österrikiska ekonomiska skolan tolkar denna utveckling som den spontana uppkomsten av privilegierade bytesvaror. Snäckor, arkeologiskt belagda så tidigt som under mesolitikum, illustrerar detta fenomen: de hittas långt från sitt geografiska ursprung (medelhavsskal i västra Frankrike, nordiska skal på andra platser) och vittnar om ett gemensamt erkännande av deras bytesvärde.
+Den [österrikiska ekonomiska skolan](https://planb.academy/resources/glossary/austrian-school) tolkar denna utveckling som den spontana uppkomsten av privilegierade bytesvaror. Snäckor, arkeologiskt belagda så tidigt som under mesolitikum, illustrerar detta fenomen: de hittas långt från sitt geografiska ursprung (medelhavsskal i västra Frankrike, nordiska skal på andra platser) och vittnar om ett gemensamt erkännande av deras bytesvärde.
 
 
 
@@ -605,7 +605,7 @@ Erfarenheterna från Mesopotamien skapar bestående prejudikat för utvecklingen
 
 
 
-Denna banbrytande period avslöjar också de maktfrågor som är inneboende i alla monetära innovationer: vem som kontrollerar tekniken, vem som definierar reglerna och hur formella system och populära metoder artikuleras. Dessa grundläggande frågor har funnits kvar genom hela den ekonomiska historien och sträcker sig till dagens debatter om digitala valutor och kryptovalutor.
+Denna banbrytande period avslöjar också de maktfrågor som är inneboende i alla monetära innovationer: vem som kontrollerar tekniken, vem som definierar reglerna och hur formella system och populära metoder artikuleras. Dessa grundläggande frågor har funnits kvar genom hela den ekonomiska historien och sträcker sig till dagens debatter om digitala valutor och [kryptovalutor](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 
@@ -637,7 +637,7 @@ Inkaindianerna hade inget monetärt system, men de hade ett överflöd av ädelm
 > Ju mer stratifierat ett samhälle är och ju mer noggrant och effektivt dess planeringssystem är, desto mindre nödvändigt är det för befolkningen att använda pengar. Detta kan förklara varför de spanska conquistadorerna upptäckte att mexikanerna, vars regering var relativt mer liberal, regelbundet använde guldpulver (förvarat i genomskinliga rör) och kakaobönor (förvarade för stora betalningar i påsar om 24.000 enheter) som valuta, medan inkaindianerna, som var organiserade enligt en mycket mer rigid hierarki, inte hade någon valuta alls: ett undantag som bekräftas av en strikt regel. Pengarnas ursprung i Kina var helt oberoende av andra civilisationer, men den relativa närheten till de sumeriska, egyptiska och minoiska civilisationerna väcker tvivel om i vilken utsträckning de var okunniga om monetära metoder, särskilt med tanke på den omfattande handel som etablerades så långt tillbaka som i de tidigaste tiderna.
 
 
-I Kina utvecklades mynten på ett helt annat sätt än i västvärlden. Det var fiat-pengar redan från början. De var gjutna mynt.
+I Kina utvecklades mynten på ett helt annat sätt än i västvärlden. Det var [fiat](https://planb.academy/resources/glossary/fiat)-pengar redan från början. De var gjutna mynt.
 
 
 Och här nämner Davies handel. Det förekom verkligen utbyten mellan kineserna och andra folkgrupper vid vissa tidpunkter, men bytesmedlet för utrikeshandeln var snarare siden. Som vi kommer att se senare användes guld även i Kinas gränsområden, där den kinesiska befolkningen var mindre. Och inte ens för internationell handel; för det var det siden som gällde.
@@ -994,7 +994,7 @@ Den kinesiska staten använde pengar som ett instrument för ekonomisk reglering
 
 
 
-Här kan man göra en koppling till inflation och deflation. Med en fast penningmängd stiger penningvärdet om produktiviteten i ekonomin ökar. Omvänt gäller att om produktiviteten sjunker så sjunker värdet på pengarna. I det här exemplet är det dock tvärtom. Förmodligen berodde det på att fursten inte hade fullständigt monopol på penningtillverkningen, men det visar ändå att penningvärdet var kopplat till ekonomiska förhållanden.
+Här kan man göra en koppling till [inflation](https://planb.academy/resources/glossary/inflation) och deflation. Med en fast penningmängd stiger penningvärdet om produktiviteten i ekonomin ökar. Omvänt gäller att om produktiviteten sjunker så sjunker värdet på pengarna. I det här exemplet är det dock tvärtom. Förmodligen berodde det på att fursten inte hade fullständigt monopol på penningtillverkningen, men det visar ändå att penningvärdet var kopplat till ekonomiska förhållanden.
 
 
 
@@ -3616,7 +3616,7 @@ Låt oss gå vidare till Sverige, där den allra första centralbanken skapades.
 
 
 
-**Sverige** var en pionjär inom centralbanksväsendet: 1657 skapade Johan Palmstruch **Stockholmsbanken**, som hade rätt att låna ut mer än sina metallreserver, vilket var startskottet för fractional reserve banking. Men den överdrivna sedelutgivningen ledde till panik och en uttagsanstormning mot banken 1663. Ja, ja, ja...
+**Sverige** var en pionjär inom centralbanksväsendet: 1657 skapade Johan Palmstruch **Stockholmsbanken**, som hade rätt att låna ut mer än sina metallreserver, vilket var startskottet för [fractional reserve banking](https://planb.academy/resources/glossary/fractional-reserves). Men den överdrivna sedelutgivningen ledde till panik och en uttagsanstormning mot banken 1663. Ja, ja, ja...
 
 
 

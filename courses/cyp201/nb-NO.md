@@ -99,7 +99,7 @@ Den første typen kryptografiske algoritmer brukt på Bitcoin omfatter hashfunks
 Hashing er en prosess som transformerer informasjon av vilkårlig lengde til et annet stykke informasjon av fast lengde gjennom en kryptografisk hashfunksjon. Med andre ord tar en hashfunksjon en inndata av hvilken som helst størrelse og konverterer den til et fingeravtrykk av fast størrelse, kalt en "hash".
 Hashen kan også noen ganger refereres til som "digest", "condensate", "condensed", eller "hashed".
 
-For eksempel produserer SHA256-hashfunksjonen en hash av en fast lengde på 256 bits. Så, hvis vi bruker inndataen "_PlanB_", en melding av vilkårlig lengde, vil den genererte hashen være følgende 256-bits fingeravtrykk:
+For eksempel produserer [SHA256](https://planb.academy/resources/glossary/sha256)-hashfunksjonen en hash av en fast lengde på 256 bits. Så, hvis vi bruker inndataen "_PlanB_", en melding av vilkårlig lengde, vil den genererte hashen være følgende 256-bits fingeravtrykk:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -128,7 +128,7 @@ Derfor er det umulig å finne et preimage $m$ for en hash $h$ slik at $h = \text
 
 #### 2. Manipulasjonsmotstand (snøskredseffekt)
 
-Det andre kjennetegnet er motstandsdyktighet mot manipulering, også kjent som **snøballeffekten**. Dette kjennetegnet observeres i en hash-funksjon hvis en liten endring i inngangsmeldingen resulterer i en radikal endring i utgangshashen.
+Det andre kjennetegnet er motstandsdyktighet mot manipulering, også kjent som **snøballeffekten**. Dette kjennetegnet observeres i en [hash-funksjon](https://planb.academy/resources/glossary/hash-function) hvis en liten endring i inngangsmeldingen resulterer i en radikal endring i utgangshashen.
 Hvis vi går tilbake til eksemplet vårt med inngangen "_PlanB_" og SHA256-funksjonen, har vi sett at den genererte hashen er som følger:
 
 ```text
@@ -178,14 +178,14 @@ Den mest brukte hashfunksjonen i Bitcoin er **SHA256** ("_Secure Hash Algorithm 
 
 Denne funksjonen brukes i mange aspekter av Bitcoin. På protokollnivå er den involvert i Proof-of-Work-mekanismen, hvor den brukes i dobbel hashing for å søke etter en delvis kollisjon mellom headeren til en kandidatblokk, skapt av en miner, og vanskelighetsmålet. Hvis denne delvise kollisjonen blir funnet, blir kandidatblokken gyldig og kan legges til i blockchain.
 
-SHA256 brukes også i konstruksjonen av et Merkle-tre, som er akkumulatoren brukt for å registrere transaksjoner i blokker. Denne strukturen finnes også i Utreexo-protokollen, som tillater reduksjon av størrelsen på UTXO-settet. I tillegg, med introduksjonen av Taproot i 2021, blir SHA256 utnyttet i MAST (_Merkelised Alternative Script Tree_), som tillater å avsløre kun de brukte utgiftsbetingelsene i et skript, uten å avsløre de andre mulige alternativene. Den brukes også i beregningen av transaksjonsidentifikatorer, i overføring av pakker over P2P-nettverket, i elektroniske signaturer... Til slutt, og dette er av spesiell interesse i denne opplæringen, brukes SHA256 på applikasjonsnivå for konstruksjonen av Bitcoin-lommebøker og derivasjon av adresser.
+SHA256 brukes også i konstruksjonen av et [Merkle-tre](https://planb.academy/resources/glossary/merkle-tree), som er akkumulatoren brukt for å registrere transaksjoner i blokker. Denne strukturen finnes også i [Utreexo](https://planb.academy/resources/glossary/utreexo)-protokollen, som tillater reduksjon av størrelsen på UTXO-settet. I tillegg, med introduksjonen av [Taproot](https://planb.academy/resources/glossary/taproot) i 2021, blir SHA256 utnyttet i [MAST](https://planb.academy/resources/glossary/mast) (_Merkelised Alternative [Script](https://planb.academy/resources/glossary/script) Tree_), som tillater å avsløre kun de brukte utgiftsbetingelsene i et skript, uten å avsløre de andre mulige alternativene. Den brukes også i beregningen av transaksjonsidentifikatorer, i overføring av pakker over P2P-nettverket, i elektroniske signaturer... Til slutt, og dette er av spesiell interesse i denne opplæringen, brukes SHA256 på applikasjonsnivå for konstruksjonen av Bitcoin-lommebøker og derivasjon av adresser.
 
-De fleste ganger, når du kommer over bruken av SHA256 på Bitcoin, vil det faktisk være en dobbel hash SHA256, notert "**HASH256**", som ganske enkelt består av å anvende SHA256 to ganger suksessivt:
+De fleste ganger, når du kommer over bruken av SHA256 på Bitcoin, vil det faktisk være en dobbel hash SHA256, notert "**[HASH256](https://planb.academy/resources/glossary/hash256)**", som ganske enkelt består av å anvende SHA256 to ganger suksessivt:
 HASH256(m) = SHA256(SHA256(m))
 
 Denne praksisen med dobbel hashing legger til et ekstra lag med sikkerhet mot visse potensielle angrep, selv om en enkelt SHA256 i dag anses som kryptografisk sikker.
 
-En annen hashfunksjon tilgjengelig i Script-språket og brukt for å utlede mottaksadresser er RIPEMD160-funksjonen. Denne funksjonen produserer et 160-bit hash (altså kortere enn SHA256). Den kombineres generelt med SHA256 for å danne HASH160-funksjonen:
+En annen hashfunksjon tilgjengelig i Script-språket og brukt for å utlede [mottaksadresser](https://planb.academy/resources/glossary/receiving-address) er [RIPEMD160](https://planb.academy/resources/glossary/ripemd160)-funksjonen. Denne funksjonen produserer et 160-bit hash (altså kortere enn SHA256). Den kombineres generelt med SHA256 for å danne HASH160-funksjonen:
 
 $$
 \text{HASH160}(m) = \text{RIPEMD160}(\text{SHA256}(m))
@@ -193,7 +193,7 @@ $$
 
 Denne kombinasjonen brukes til å generere kortere hasher, spesielt i opprettelsen av visse Bitcoin-adresser som representerer hasher av nøkler eller skript-hasher, samt for å produsere nøkkelfingeravtrykk.
 
-Til slutt, kun på applikasjonsnivå, brukes noen ganger også SHA512-funksjonen, som indirekte spiller en rolle i nøkkelderivasjon for lommebøker. Denne funksjonen er veldig lik SHA256 i sin operasjon; begge tilhører samme SHA2-familie, men SHA512 produserer, som navnet indikerer, en 512-bit hash, sammenlignet med 256 bits for SHA256. Vi vil detaljere bruken av den i de følgende kapitlene.
+Til slutt, kun på applikasjonsnivå, brukes noen ganger også [SHA512](https://planb.academy/resources/glossary/sha512)-funksjonen, som indirekte spiller en rolle i nøkkelderivasjon for lommebøker. Denne funksjonen er veldig lik SHA256 i sin operasjon; begge tilhører samme SHA2-familie, men SHA512 produserer, som navnet indikerer, en 512-bit hash, sammenlignet med 256 bits for SHA256. Vi vil detaljere bruken av den i de følgende kapitlene.
 
 Du kjenner nå til de grunnleggende prinsippene om hashfunksjoner for det som følger. I neste kapittel foreslår jeg å oppdage mer detaljert hvordan funksjonen som er hjertet av Bitcoin: SHA256, fungerer. Vi vil dissekere den for å forstå hvordan den oppnår de karakteristikkene vi har beskrevet her. Dette neste kapittelet er ganske langt og teknisk, men det er ikke essensielt å følge resten av opplæringen. Så, hvis du har vanskeligheter med å forstå det, ikke bekymre deg og gå direkte til det følgende kapittelet, som vil være mye mer tilgjengelig.
 
@@ -533,7 +533,7 @@ Kompresjonsfunksjonen bruker også $\text{ShR}$-operasjonen. Denne operasjonen f
 Til slutt, for egenskapen til kollisjonsmotstand, kommer flere parametere i spill. Forbehandlingen av den opprinnelige meldingen spiller en essensiell rolle. Uten denne forbehandlingen, kunne det vært lettere å finne kollisjoner på funksjonen. Selv om kollisjoner teoretisk eksisterer (på grunn av duehullprinsippet), gjør strukturen til hashfunksjonen, kombinert med de nevnte egenskapene, sannsynligheten for å finne en kollisjon ekstremt lav.
 For at en hashfunksjon skal være motstandsdyktig mot kollisjoner, er det essensielt at:
 
-- Utdataet er uforutsigbart: Enhver forutsigbarhet kan utnyttes for å finne kollisjoner raskere enn med en brute force-angrep. Funksjonen sikrer at hvert bit av utdataet avhenger på en ikke-triviell måte av inndata. Med andre ord, funksjonen er designet slik at hvert bit av det endelige resultatet har en uavhengig sannsynlighet for å være 0 eller 1, selv om denne uavhengigheten ikke er absolutt i praksis.
+- Utdataet er uforutsigbart: Enhver forutsigbarhet kan utnyttes for å finne kollisjoner raskere enn med en [brute force](https://planb.academy/resources/glossary/brute-force-attack)-angrep. Funksjonen sikrer at hvert bit av utdataet avhenger på en ikke-triviell måte av inndata. Med andre ord, funksjonen er designet slik at hvert bit av det endelige resultatet har en uavhengig sannsynlighet for å være 0 eller 1, selv om denne uavhengigheten ikke er absolutt i praksis.
 - Distribusjonen av hasher er pseudo-tilfeldig: Dette sikrer at hashene er jevnt fordelt.
 - Størrelsen på hashen er betydelig: jo større det mulige rommet for resultater, jo vanskeligere er det å finne en kollisjon.
 
@@ -543,7 +543,7 @@ Kryptografer designer disse funksjonene ved å evaluere de beste mulige angrepen
 
 Strukturen til SHA256 er basert på Merkle-Damgård-konstruksjonen, som gjør det mulig å transformere en kompresjonsfunksjon til en hashfunksjon som kan behandle meldinger av vilkårlig lengde. Dette er nettopp hva vi har sett i dette kapittelet.
 Imidlertid er noen gamle hash-funksjoner som SHA1 eller MD5, som bruker denne spesifikke konstruksjonen, sårbare for lengdeutvidelsesangrep. Dette er en teknikk som lar en angriper som kjenner hashen av en melding $M$ og lengden på $M$ (uten å kjenne selve meldingen) beregne hashen av en melding $M'$ dannet ved å konkatere $M$ med ekstra innhold.
-SHA256, selv om den bruker samme type konstruksjon, er teoretisk motstandsdyktig mot denne typen angrep, i motsetning til SHA1 og MD5. Dette kan forklare mysteriet med dobbel hashing implementert gjennom hele Bitcoin av Satoshi Nakamoto. For å unngå denne typen angrep, kan Satoshi ha foretrukket å bruke en dobbel SHA256:
+SHA256, selv om den bruker samme type konstruksjon, er teoretisk motstandsdyktig mot denne typen angrep, i motsetning til SHA1 og MD5. Dette kan forklare mysteriet med dobbel hashing implementert gjennom hele Bitcoin av [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi). For å unngå denne typen angrep, kan Satoshi ha foretrukket å bruke en dobbel SHA256:
 
 $$
 \text{HASH256}(m) = \text{SHA256}(\text{SHA256}(m))
@@ -649,16 +649,16 @@ Den andre kryptografiske metoden som brukes i Bitcoin involverer algoritmer for 
 
 ### Bitcoins, UTXOer og Betingelser for Bruk
 
-Begrepet "_lommebok_" i Bitcoin kan være ganske forvirrende for nybegynnere. Faktisk, det som kalles en Bitcoin-lommebok er programvare som ikke direkte holder dine bitcoins, i motsetning til en fysisk lommebok som kan holde mynter eller sedler. Bitcoins er rett og slett enheter av konto. Denne kontoenheten representeres av **UTXO** (_Unspent Transaction Outputs_), som er ubrukte transaksjonsutganger. Hvis disse utgangene er ubrukte, betyr det at de tilhører en bruker. UTXOer er på en måte biter av bitcoins, av variabel størrelse, som tilhører en bruker.
+Begrepet "_lommebok_" i Bitcoin kan være ganske forvirrende for nybegynnere. Faktisk, det som kalles en Bitcoin-lommebok er programvare som ikke direkte holder dine bitcoins, i motsetning til en fysisk lommebok som kan holde mynter eller sedler. Bitcoins er rett og slett enheter av konto. Denne kontoenheten representeres av **[UTXO](https://planb.academy/resources/glossary/utxo)** (_Unspent Transaction Outputs_), som er ubrukte transaksjonsutganger. Hvis disse utgangene er ubrukte, betyr det at de tilhører en bruker. UTXOer er på en måte biter av bitcoins, av variabel størrelse, som tilhører en bruker.
 
 Bitcoin-protokollen er distribuert og opererer uten en sentral autoritet. Derfor er den ikke som tradisjonelle bankposter, hvor euroene som tilhører deg er enkelt assosiert med din personlige identitet. På Bitcoin tilhører dine UTXOer deg fordi de er beskyttet av brukerbetingelser spesifisert i Script-språket. For å forenkle, det finnes to typer skript: låseskriptet (_scriptPubKey_), som beskytter en UTXO, og opplåsingsskriptet (_scriptSig_), som tillater opplåsing av en UTXO og dermed bruk av bitcoin-enhetene den representerer.
-Den opprinnelige operasjonen av Bitcoin med P2PK-skript involverer bruk av en offentlig nøkkel for å låse midler, og spesifiserer i et _scriptPubKey_ at personen som ønsker å bruke denne UTXOen må gi en gyldig signatur med den private nøkkelen som tilsvarer denne offentlige nøkkelen. For å låse opp denne UTXOen, er det derfor nødvendig å gi en gyldig signatur i _scriptSig_. Som navnene antyder, er den offentlige nøkkelen kjent for alle siden den er kringkastet på blokkjeden, mens den private nøkkelen bare er kjent for den legitime eieren av midlene.
-Dette er den grunnleggende operasjonen av Bitcoin, men over tid har denne operasjonen blitt mer kompleks. Først introduserte Satoshi også P2PKH-skript, som bruker en mottaksadresse i _scriptPubKey_, som representerer hashen av den offentlige nøkkelen. Deretter ble systemet enda mer komplekst med ankomsten av SegWit og deretter Taproot. Imidlertid forblir det generelle prinsippet grunnleggende det samme: en offentlig nøkkel eller en representasjon av denne nøkkelen brukes til å låse UTXOer, og en tilsvarende privat nøkkel kreves for å låse dem opp og dermed bruke dem.
+Den opprinnelige operasjonen av Bitcoin med [P2PK](https://planb.academy/resources/glossary/p2pk)-skript involverer bruk av en offentlig nøkkel for å låse midler, og spesifiserer i et _scriptPubKey_ at personen som ønsker å bruke denne UTXOen må gi en gyldig signatur med den private nøkkelen som tilsvarer denne offentlige nøkkelen. For å låse opp denne UTXOen, er det derfor nødvendig å gi en gyldig signatur i _scriptSig_. Som navnene antyder, er den offentlige nøkkelen kjent for alle siden den er kringkastet på blokkjeden, mens den private nøkkelen bare er kjent for den legitime eieren av midlene.
+Dette er den grunnleggende operasjonen av Bitcoin, men over tid har denne operasjonen blitt mer kompleks. Først introduserte Satoshi også [P2PKH](https://planb.academy/resources/glossary/p2pkh)-skript, som bruker en mottaksadresse i _scriptPubKey_, som representerer hashen av den offentlige nøkkelen. Deretter ble systemet enda mer komplekst med ankomsten av [SegWit](https://planb.academy/resources/glossary/segwit) og deretter Taproot. Imidlertid forblir det generelle prinsippet grunnleggende det samme: en offentlig nøkkel eller en representasjon av denne nøkkelen brukes til å låse UTXOer, og en tilsvarende privat nøkkel kreves for å låse dem opp og dermed bruke dem.
 En bruker som ønsker å utføre en Bitcoin-transaksjon må derfor opprette en digital signatur ved hjelp av sin private nøkkel på den aktuelle transaksjonen. Signaturen kan verifiseres av andre nettverksdeltakere. Hvis den er gyldig, betyr dette at brukeren som initierer transaksjonen faktisk er eieren av den private nøkkelen, og derfor eieren av bitcoinene de ønsker å bruke. Andre brukere kan deretter akseptere og formidle transaksjonen.
 Som et resultat må en bruker som eier bitcoins låst med en offentlig nøkkel finne en måte å sikkert lagre det som tillater opplåsing av deres midler: den private nøkkelen. En Bitcoin-lommebok er nettopp en enhet som vil tillate deg å enkelt holde alle nøklene dine uten at andre mennesker har tilgang til dem. Det er derfor mer som en nøkkelring enn en lommebok.
 
-Den matematiske koblingen mellom en offentlig nøkkel og en privat nøkkel, samt evnen til å utføre en signatur for å bevise besittelsen av en privat nøkkel uten å avsløre den, er muliggjort av en digital signaturalgoritme. I Bitcoin-protokollen brukes 2 signaturalgoritmer: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm_) og **Schnorr-signaturordningen**. ECDSA er den digitale signaturprotokollen som brukes i Bitcoin fra begynnelsen. Schnorr er mer nylig i Bitcoin, da den ble introdusert i november 2021 med Taproot-oppdateringen.
-Disse to algoritmene er ganske like i sine mekanismer. De er begge basert på elliptisk kurvekryptografi. Den største forskjellen mellom disse to protokollene ligger i strukturen av signaturen og noen spesifikke matematiske egenskaper. Vi vil derfor studere funksjonen til disse algoritmene, og starter med den eldste: ECDSA.
+Den matematiske koblingen mellom en offentlig nøkkel og en privat nøkkel, samt evnen til å utføre en signatur for å bevise besittelsen av en privat nøkkel uten å avsløre den, er muliggjort av en digital signaturalgoritme. I Bitcoin-protokollen brukes 2 signaturalgoritmer: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_Elliptic Curve Digital Signature Algorithm_) og **[Schnorr](https://planb.academy/resources/glossary/schnorr-protocol)-signaturordningen**. ECDSA er den digitale signaturprotokollen som brukes i Bitcoin fra begynnelsen. Schnorr er mer nylig i Bitcoin, da den ble introdusert i november 2021 med Taproot-oppdateringen.
+Disse to algoritmene er ganske like i sine mekanismer. De er begge basert på [elliptisk kurvekryptografi](https://planb.academy/resources/glossary/elliptic-curve). Den største forskjellen mellom disse to protokollene ligger i strukturen av signaturen og noen spesifikke matematiske egenskaper. Vi vil derfor studere funksjonen til disse algoritmene, og starter med den eldste: ECDSA.
 
 ### Elliptisk Kurvekryptografi
 
@@ -680,7 +680,7 @@ $$
 
 For å bruke ECDSA eller Schnorr, må man velge parametrene for den elliptiske kurven, det vil si verdiene av $a$ og $b$ i kurveligningen. Det finnes forskjellige standarder av elliptiske kurver som er ansett for å være kryptografisk sikre. Den mest kjente er _secp256r1_-kurven, definert og anbefalt av NIST (_National Institute of Standards and Technology_).
 
-Til tross for dette valgte Satoshi Nakamoto, oppfinneren av Bitcoin, å ikke bruke denne kurven. Grunnen til dette valget er ukjent, men noen tror han foretrakk å finne et alternativ fordi parametrene til denne kurven potensielt kunne inneholde en bakdør. I stedet bruker Bitcoin-protokollen standarden **_secp256k1_**-kurven. Denne kurven er definert av parametrene $a = 0$ og $b = 7$. Dens ligning er derfor:
+Til tross for dette valgte Satoshi Nakamoto, oppfinneren av Bitcoin, å ikke bruke denne kurven. Grunnen til dette valget er ukjent, men noen tror han foretrakk å finne et alternativ fordi parametrene til denne kurven potensielt kunne inneholde en bakdør. I stedet bruker Bitcoin-protokollen standarden **_[secp256k1](https://planb.academy/resources/glossary/secp256k1)_**-kurven. Denne kurven er definert av parametrene $a = 0$ og $b = 7$. Dens ligning er derfor:
 
 $$
 y^2 = x^3 + 7
@@ -730,11 +730,11 @@ https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 :::video id=2fddfb16-5ae3-41da-92f8-ef5d09789804:::
 
-Som tidligere sett, er de digitale signaturalgoritmene på Bitcoin basert på et par av private og offentlige nøkler som er matematisk koblet. La oss utforske sammen hva denne matematiske koblingen er og hvordan de genereres.
+Som tidligere sett, er de digitale signaturalgoritmene på Bitcoin basert på et par av private og [offentlige nøkler](https://planb.academy/resources/glossary/public-key) som er matematisk koblet. La oss utforske sammen hva denne matematiske koblingen er og hvordan de genereres.
 
 ### Den private nøkkelen
 
-Den private nøkkelen er ganske enkelt et tilfeldig eller pseudo-tilfeldig tall. I tilfellet med Bitcoin er dette tallet 256 bits i størrelse. Antall muligheter for en Bitcoin privat nøkkel er derfor teoretisk $2^{256}$.
+Den [private nøkkelen](https://planb.academy/resources/glossary/private-key) er ganske enkelt et tilfeldig eller pseudo-tilfeldig tall. I tilfellet med Bitcoin er dette tallet 256 bits i størrelse. Antall muligheter for en Bitcoin privat nøkkel er derfor teoretisk $2^{256}$.
 **Merk**: Et "pseudo-tilfeldig tall" er et tall som har egenskaper nær de til et virkelig tilfeldig tall, men som genereres av en deterministisk algoritme.
 Imidlertid, i praksis, finnes det kun $n$ distinkte punkter på vår elliptiske kurve secp256k1, hvor $n$ er ordenen til generatorelementet $G$ på kurven. Vi vil se senere hva dette tallet tilsvarer, men husk enkelt at en gyldig privat nøkkel er et heltall mellom $1$ og $n-1$, med tanke på at $n$ er et tall nær, men litt mindre enn $2^{256}$. Derfor er det noen 256-bits tall som ikke er gyldige for å bli en privat nøkkel i Bitcoin, spesifikt, alle tallene mellom $n$ og $2^{256}$. Hvis genereringen av det tilfeldige tallet (den private nøkkelen) produserer en verdi $k$ slik at $k \geq n$, anses den som ugyldig, og en ny tilfeldig verdi må genereres.
 
@@ -904,7 +904,7 @@ $$
 e = \text{HASH}(m)
 $$
 
-Deretter beregner vi en nonce. I kryptografi er en nonce rett og slett et tall generert på en tilfeldig eller pseudo-tilfeldig måte som kun brukes én gang. Det vil si, hver gang en ny digital signatur lages med dette nøkkelparet, vil det være veldig viktig å bruke en annen nonce, ellers vil det kompromittere sikkerheten til den private nøkkelen. Det er derfor tilstrekkelig å bestemme et tilfeldig og unikt heltall $r$ slik at $1 \leq r \leq n-1$, hvor $n$ er ordenen til genereringspunktet $G$ på den elliptiske kurven.
+Deretter beregner vi en [nonce](https://planb.academy/resources/glossary/nonce). I kryptografi er en nonce rett og slett et tall generert på en tilfeldig eller pseudo-tilfeldig måte som kun brukes én gang. Det vil si, hver gang en ny digital signatur lages med dette nøkkelparet, vil det være veldig viktig å bruke en annen nonce, ellers vil det kompromittere sikkerheten til den private nøkkelen. Det er derfor tilstrekkelig å bestemme et tilfeldig og unikt heltall $r$ slik at $1 \leq r \leq n-1$, hvor $n$ er ordenen til genereringspunktet $G$ på den elliptiske kurven.
 
 Deretter vil vi beregne punktet $R$ på den elliptiske kurven med koordinatene $(x_R, y_R)$ slik at:
 
@@ -1108,9 +1108,9 @@ Disse to sighash-flaggene ville tilby en ekstra mulighet på Bitcoin: å skape s
 ![CYP201](assets/en/037.webp)
 
 Denne ideen ble opprinnelig formulert av Joseph Poon og Thaddeus Dryja i Lightning White Paper. Før den ble omdøpt, ble dette sighash-flagget kalt `SIGHASH_NOINPUT`.
-Hvis dette sighash-flagget integreres i Bitcoin, vil det muliggjøre bruk av covenants, men det er også en obligatorisk forutsetning for å implementere Eltoo, et generelt protokoll for andre lag som definerer hvordan man felles kan håndtere eierskapet av en UTXO. Eltoo ble spesifikt designet for å løse problemene forbundet med mekanismene for å forhandle om tilstanden til Lightning-kanaler, det vil si mellom åpning og lukking.
+Hvis dette sighash-flagget integreres i Bitcoin, vil det muliggjøre bruk av [covenants](https://planb.academy/resources/glossary/covenant), men det er også en obligatorisk forutsetning for å implementere Eltoo, et generelt protokoll for andre lag som definerer hvordan man felles kan håndtere eierskapet av en UTXO. Eltoo ble spesifikt designet for å løse problemene forbundet med mekanismene for å forhandle om tilstanden til Lightning-kanaler, det vil si mellom åpning og lukking.
 
-For å fordype din kunnskap om Lightning Network, etter CYP201-kurset, anbefaler jeg på det sterkeste LNP201-kurset av Fanis Michalakis, som dekker emnet i detalj:
+For å fordype din kunnskap om [Lightning Network](https://planb.academy/resources/glossary/lightning-network), etter CYP201-kurset, anbefaler jeg på det sterkeste LNP201-kurset av Fanis Michalakis, som dekker emnet i detalj:
 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
@@ -1151,7 +1151,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HD Lommebøker (_Hierarchical Deterministic_)
 
-For å adressere begrensningen av JBOK-lommebøker, ble en ny lommebokstruktur senere tatt i bruk. I 2012 introduserte Pieter Wuille en forbedring med BIP32, som introduserer hierarkiske deterministiske lommebøker. Prinsippet med en HD-lommebok er å avlede alle private nøkler fra en enkelt informasjonskilde, kalt et frø, på en deterministisk og hierarkisk måte. Dette frøet genereres tilfeldig når lommeboken opprettes og utgjør en unik sikkerhetskopi som tillater gjenoppretting av alle lommebokens private nøkler. Dermed kan brukeren generere et svært stort antall private nøkler for å unngå adressegjenbruk og bevare sitt personvern, samtidig som det kun er nødvendig å lage en enkelt sikkerhetskopi av lommeboken via frøet.
+For å adressere begrensningen av JBOK-lommebøker, ble en ny lommebokstruktur senere tatt i bruk. I 2012 introduserte Pieter Wuille en forbedring med [BIP32](https://planb.academy/resources/glossary/bip0032), som introduserer hierarkiske deterministiske lommebøker. Prinsippet med en HD-lommebok er å avlede alle private nøkler fra en enkelt informasjonskilde, kalt et frø, på en deterministisk og hierarkisk måte. Dette frøet genereres tilfeldig når lommeboken opprettes og utgjør en unik sikkerhetskopi som tillater gjenoppretting av alle lommebokens private nøkler. Dermed kan brukeren generere et svært stort antall private nøkler for å unngå adressegjenbruk og bevare sitt personvern, samtidig som det kun er nødvendig å lage en enkelt sikkerhetskopi av lommeboken via frøet.
 ![CYP201](assets/en/039.webp)
 
 I HD-lommebøker utføres nøkkelavledning i henhold til en hierarkisk struktur som tillater nøkler å bli organisert i avledningssubrom, hvert subspace kan videre deles opp, for å lette fondshåndtering og interoperabilitet mellom forskjellige lommebokprogramvarer. I dag er denne standarden adoptert av det store flertallet av Bitcoin-brukere. Av denne grunn vil vi undersøke den i detalj i de følgende kapitlene.
@@ -1169,7 +1169,7 @@ I de kommende kapitlene vil vi utforske de interne mekanismene til HD-lommebøke
 
 :::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
 
-Moderne HD-lommebøker (deterministiske og hierarkiske) er avhengige av et enkelt innledende stykke informasjon kalt "entropi" for å deterministisk generere hele settet med lommeboknøkler. Denne entropien er et pseudo-tilfeldig nummer hvis kaosnivå delvis bestemmer sikkerheten til lommeboken.
+Moderne HD-lommebøker (deterministiske og hierarkiske) er avhengige av et enkelt innledende stykke informasjon kalt "[entropi](https://planb.academy/resources/glossary/entropy)" for å deterministisk generere hele settet med lommeboknøkler. Denne entropien er et pseudo-tilfeldig nummer hvis kaosnivå delvis bestemmer sikkerheten til lommeboken.
 
 ### Definisjon av Entropi
 
@@ -1198,7 +1198,7 @@ I neste kapittel vil vi se hvordan vi går fra et tilfeldig nummer til en mnemon
 
 :::video id=6218472e-b965-484f-b56b-e363f65d2827:::
 
-Mnemonisk frase, også kalt "seed phrase", "recovery phrase", "secret phrase", eller "24-ords frase", er en sekvens som vanligvis består av 12 eller 24 ord, som genereres fra entropi. Den brukes til deterministisk å avlede alle nøklene til en HD-lommebok. Dette betyr at fra denne frasen, er det mulig å deterministisk generere og gjenskape alle de private og offentlige nøklene til Bitcoin-lommeboken, og dermed få tilgang til midlene som er beskyttet med den. Formålet med den mnemoniske frasen er å tilby et middel for sikkerhetskopiering og gjenoppretting av bitcoins som er både sikkert og enkelt å bruke. Den ble introdusert i standarder i 2013 med BIP39.
+Mnemonisk frase, også kalt "seed phrase", "recovery phrase", "secret phrase", eller "24-ords frase", er en sekvens som vanligvis består av 12 eller 24 ord, som genereres fra entropi. Den brukes til deterministisk å avlede alle nøklene til en HD-lommebok. Dette betyr at fra denne frasen, er det mulig å deterministisk generere og gjenskape alle de private og offentlige nøklene til Bitcoin-lommeboken, og dermed få tilgang til midlene som er beskyttet med den. Formålet med den mnemoniske frasen er å tilby et middel for sikkerhetskopiering og gjenoppretting av bitcoins som er både sikkert og enkelt å bruke. Den ble introdusert i standarder i 2013 med [BIP39](https://planb.academy/resources/glossary/bip0039).
 La oss sammen oppdage hvordan vi går fra entropi til en mnemonisk frase.
 
 ### Sjekksummen
@@ -1443,7 +1443,7 @@ En utvidet nøkkel er strukturert som følger:
 - **Depth**: Hierarkisk nivå i HD-lommeboken i forhold til hovednøkkelen (0 for hovednøkkelen).
 - **Parent Fingerprint**: De første 4 bytene av HASH160-hashen av den forelder offentlige nøkkelen brukt til å utlede nøkkelen til stede i nyttelasten.
 - **Index Number**: Identifikator av barnet blant søsken nøkler, det vil si, blant alle nøkler på samme utledningsnivå som har samme foreldrenøkler.
-- **Chain Code**: En unik 32-byte kode for utledning av barns nøkler.
+- **[Chain Code](https://planb.academy/resources/glossary/chain-code)**: En unik 32-byte kode for utledning av barns nøkler.
 - **Key**: Den private nøkkelen (prefikset med 1 byte for størrelse) eller den offentlige nøkkelen.
 - **Checksum**: En sjekksum beregnet med HASH256-funksjonen (dobbel SHA256) legges også til, som tillater verifisering av den utvidede nøkkelens integritet under dens overføring eller lagring.
 
@@ -1748,11 +1748,11 @@ En avledningsvei refererer derfor til sekvensen av indekser brukt for å avlede 
 
 Denne dybden tilsvarer lommebokens hovedprivate nøkkel og hovedkjedekode. Den er representert ved notasjonen $m/$.
 
-**Dybde 1: Formål (BIP43)**
-Målet bestemmer den logiske strukturen av derivasjonen. For eksempel vil en P2WPKH-adresse ha $/84'/$ på dybde 1 (i henhold til BIP84), mens en P2TR-adresse vil ha $/86'/$ (i henhold til BIP86). Dette laget letter kompatibilitet mellom lommebøker ved å indikere indeksnumre som tilsvarer BIP-numrene.
+**Dybde 1: Formål ([BIP43](https://planb.academy/resources/glossary/bip0043))**
+Målet bestemmer den logiske strukturen av derivasjonen. For eksempel vil en P2WPKH-adresse ha $/84'/$ på dybde 1 (i henhold til [BIP84](https://planb.academy/resources/glossary/bip0084)), mens en P2TR-adresse vil ha $/86'/$ (i henhold til [BIP86](https://planb.academy/resources/glossary/bip0086)). Dette laget letter kompatibilitet mellom lommebøker ved å indikere indeksnumre som tilsvarer BIP-numrene.
 Med andre ord, når du har hovednøkkelen og hovedkjedekoden, fungerer disse som et foreldrenøkkelpar for å derivere et barnenøkkelpar. Indeksen som brukes i denne derivasjonen kan for eksempel være $/84'/$ hvis lommeboken er ment å bruke SegWit v0-type skript. Dette nøkkelparet er da på dybde 1. Dets rolle er ikke å låse bitcoins, men rett og slett å tjene som et veipunkt i derivasjonshierarkiet.
 
-**Dybde 2: Valutatype (BIP44)**
+**Dybde 2: Valutatype ([BIP44](https://planb.academy/resources/glossary/bip0044))**
 
 Fra nøkkelparet på dybde 1 utføres en ny derivasjon for å oppnå nøkkelparet på dybde 2. Denne dybden tillater differensiering av Bitcoin-kontoer fra andre kryptovalutaer innenfor samme lommebok.
 
@@ -1823,7 +1823,7 @@ I neste kapittel skal vi oppdage hva "*output script descriptors*" er, en nylig 
 
 Du får ofte høre at den mnemoniske frasen alene er tilstrekkelig for å gjenopprette tilgang til en lommebok. I virkeligheten er ting litt mer komplekse. I forrige kapittel så vi på avledningsstrukturen til HD-lommeboken, og du kan ha lagt merke til at denne prosessen er ganske kompleks. Avledningsveier forteller programvaren hvilken retning den skal følge for å avlede brukerens nøkler. Men, når man gjenoppretter en Bitcoin-lommebok, hvis man ikke kjenner disse veiene, er den mnemoniske frasen alene ikke nok. Den tillater å oppnå hovednøkkelen og hovedkjedekoden, men det er da nødvendig å kjenne indeksene som ble brukt for å nå barnenøklene.
 
-Teoretisk sett ville det være nødvendig å lagre ikke bare den mnemoniske frasen til vår lommebok, men også veiene til kontoene vi bruker. I praksis er det ofte mulig å gjenopprette tilgang til barnenøklene uten denne informasjonen, forutsatt at standardene har blitt fulgt. Ved å teste hver standard en etter en, er det generelt mulig å gjenopprette tilgang til bitcoinene. Men, dette er ikke garantert og det er spesielt komplisert for nybegynnere. Også, med diversifiseringen av skripttyper og fremveksten av mer komplekse konfigurasjoner, kunne denne informasjonen bli vanskelig å ekstrapolere, og dermed gjøre denne dataen til privat informasjon og vanskelig å gjenopprette ved brute force. Dette er grunnen til at en innovasjon nylig har blitt introdusert og begynner å bli integrert i din favoritt lommebokprogramvare: *output script descriptors*.
+Teoretisk sett ville det være nødvendig å lagre ikke bare den mnemoniske frasen til vår lommebok, men også veiene til kontoene vi bruker. I praksis er det ofte mulig å gjenopprette tilgang til barnenøklene uten denne informasjonen, forutsatt at standardene har blitt fulgt. Ved å teste hver standard en etter en, er det generelt mulig å gjenopprette tilgang til bitcoinene. Men, dette er ikke garantert og det er spesielt komplisert for nybegynnere. Også, med diversifiseringen av skripttyper og fremveksten av mer komplekse konfigurasjoner, kunne denne informasjonen bli vanskelig å ekstrapolere, og dermed gjøre denne dataen til privat informasjon og vanskelig å gjenopprette ved brute force. Dette er grunnen til at en innovasjon nylig har blitt introdusert og begynner å bli integrert i din favoritt lommebokprogramvare: *[output script descriptors](https://planb.academy/resources/glossary/output-script-descriptors)*.
 
 ### Hva er en "descriptor"?
 
@@ -1876,13 +1876,13 @@ Det er nettopp i *scriptPubKey* at mottaksadressene finnes. Imidlertid varierer 
 
 
 
-| Standard             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| Standard             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _[witness](https://planb.academy/resources/glossary/scriptwitness)_ |
 | -------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
 | P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
 | P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
-| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Vilkårlige data | |
-| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
-| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| [P2SH](https://planb.academy/resources/glossary/p2sh)                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Vilkårlige data | |
+| [P2WPKH](https://planb.academy/resources/glossary/p2wpkh)               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| [P2WSH](https://planb.academy/resources/glossary/p2wsh)                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
 | P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
 | P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
@@ -1946,13 +1946,13 @@ Denne skriptmodellen ble introdusert i den første versjonen av Bitcoin av Satos
 
 **P2PKH (*Pay-to-PubKey-Hash*)**:
 
-Lik P2PK, ble P2PKH-skriptet introdusert ved lanseringen av Bitcoin. I motsetning til sin forgjenger, låser det bitcoins ved å bruke hashen av den offentlige nøkkelen, i stedet for å direkte bruke den rå offentlige nøkkelen. *scriptSig* må deretter oppgi den offentlige nøkkelen assosiert med mottaksadressen, samt en gyldig signatur. Adressene som tilsvarer denne modellen starter med `1` og er kodet i *base58check*. Dette skriptet tilhører også "*Legacy*" standarden.
+Lik P2PK, ble P2PKH-skriptet introdusert ved lanseringen av Bitcoin. I motsetning til sin forgjenger, låser det bitcoins ved å bruke hashen av den offentlige nøkkelen, i stedet for å direkte bruke den rå offentlige nøkkelen. *scriptSig* må deretter oppgi den offentlige nøkkelen assosiert med mottaksadressen, samt en gyldig signatur. Adressene som tilsvarer denne modellen starter med `1` og er kodet i *[base58check](https://planb.academy/resources/glossary/base58check)*. Dette skriptet tilhører også "*Legacy*" standarden.
 
 **P2SH (*Pay-to-Script-Hash*)**:
 Introdusert i 2012 med BIP16, tillater P2SH-modellen bruk av hashen til et vilkårlig skript i *scriptPubKey*. Dette hashede skriptet, kalt "*redeemScript*", inneholder betingelsene for å låse opp midlene. For å bruke en UTXO låst med P2SH, er det nødvendig å gi en *scriptSig* som inneholder det originale *redeemScript* samt nødvendige data for å validere det. Denne modellen brukes spesielt for gamle multisigs. Adressene assosiert med P2SH starter med `3` og er kodet i *base58check*. Dette skriptet tilhører også "*Legacy*" standarden.
 **P2WPKH (*Pay-to-Witness-PubKey-Hash*)**:
 Dette skriptet er likt P2PKH, da det også låser bitcoins ved å bruke hashen av en offentlig nøkkel. Imidlertid, i motsetning til P2PKH, flyttes *scriptSig* til en separat seksjon kalt "*Witness*". Dette refereres noen ganger til som "*scriptWitness*" for å betegne settet som består av signaturen og den offentlige nøkkelen. Hver SegWit-inngang har sin egen *scriptWitness*, og samlingen av *scriptWitnesses* utgjør *Witness*-feltet i transaksjonen. Denne flyttingen av signaturdata er en innovasjon introdusert av SegWit-oppdateringen, rettet spesielt mot å forhindre malleabilitet av transaksjoner på grunn av ECDSA-signaturer.
-P2WPKH-adresser bruker *bech32*-koding og starter alltid med `bc1q`. Denne typen skript tilsvarer versjon 0 SegWit-utganger.
+P2WPKH-adresser bruker *[bech32](https://planb.academy/resources/glossary/bech32-and-bech32m)*-koding og starter alltid med `bc1q`. Denne typen skript tilsvarer versjon 0 SegWit-utganger.
 
 **P2WSH (*Pay-to-Witness-Script-Hash*)**:
 

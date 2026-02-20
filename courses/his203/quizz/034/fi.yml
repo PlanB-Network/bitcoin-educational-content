@@ -1,0 +1,10 @@
+question: Mikä oli Forrest Voightin vuonna 2011 luoman P2Poolin, hajautetun mining-poolin, konsepti?
+answer: Osakkeiden ketju
+wrong_answers:
+  - Pitkä kyselytutkimus
+  - Coinbasen allekirjoitus
+  - FPGA
+explanation: |
+ "Osakeketju" eli sharechain koostui osallistujien toimittamista osittaisista työtodistuksista. Sitä ylläpitivät osallistujat, jotka olivat yhteydessä toisiinsa
+ vertaisverkossa. Jokainen osuus sisälsi edellisen osuuden sormenjäljen, mikä varmisti kokonaisuuden eheyden.
+reviewed: true

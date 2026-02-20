@@ -1,0 +1,9 @@
+question: Koja je bila glavna finansijska inovacija koju je ponudio Bitcoinica platforma, lansirana u septembru 2011. godine od strane mladog kineskog preduzetnika Zhou Tong?
+answer: Leverage i short selling
+wrong_answers:
+  - Izdavanje akcija i obveznica
+  - Kolateralizovani kamatni zajam
+  - Gotovo trenutna razmena gotovine
+explanation: |
+ Bitcoinica je bila prva platforma u ekosistemu koja je ponudila margin trgovanje, što je omogućilo korisnicima da koriste polugu kako bi povećali svoje dobitke (i gubitke), i da idu na kratko kako bi se kladili na pad cene akcija. Nakon njenog zatvaranja, ovu vrstu usluge preuzela je platforma Bitfinex, koja je pokrenuta u oktobru 2012. godine i bila je zasnovana na istom izvornom kodu.
+reviewed: true

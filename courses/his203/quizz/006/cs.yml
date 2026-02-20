@@ -1,0 +1,10 @@
+question: Jaké přibližné procento aktivit v řetězci Bitcoin představovala Hedvábná stezka na konci léta 2011?
+answer: 10 %
+wrong_answers:
+  - 3 %
+  - 30 %
+  - 90 %
+explanation: |
+ Podle následné zprávy společnosti Chainalysis tvořila aktivita na Silk Road téměř 10 % objemu obchodovaného v kanálu Bitcoin na začátku roku 2015
+ Září 2011.
+reviewed: true

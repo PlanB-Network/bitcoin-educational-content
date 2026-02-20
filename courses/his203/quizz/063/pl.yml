@@ -1,0 +1,10 @@
+question: Która usługa ekosystemu Bitcoin NIE została dotknięta włamaniem do usługi hostingowej Linode w dniu 1 marca 2012 r.?
+answer: Usługa wymiany walut BitInstant, zarządzana przez Charliego Shrema
+wrong_answers:
+  - Platforma handlowa Bitcoinica, zarządzana przez Zhou Tonga
+  - BitcoinCZ Mining mining spółdzielnia zarządzana przez Slush
+  - Kran Bitcoin, zarządzany przez Gavina Andresena
+explanation: |
+ Haker uzyskał dostęp do portalu obsługi klienta firmy i przejął kontrolę nad ośmioma kontami, z których wszystkie były powiązane z Bitcoin. Przejął 43 554
+ bitcoinów należących do Bitcoinica, usunął 3,094 bitcoinów ze współpracy Slush z wallet i dostał w swoje ręce 5 bitcoinów obecnych na kranie Bitcoin Gavina.
+reviewed: true

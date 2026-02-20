@@ -193,7 +193,7 @@ Bitcoin gemeenschappen streven vaak bredere doelen na, vooral op het gebied van 
 4. Misleidende of ongegronde beweringen van sommige publieke figuren en media ontkrachten;
 
 
-5. De fundamentele verschillen tussen Bitcoin en andere cryptocurrencies;
+5. De fundamentele verschillen tussen Bitcoin en andere [cryptocurrencies](https://planb.academy/resources/glossary/cryptocurrency);
 
 
 Door de eerste "burchten" van morgen te bouwen, dienen **Bitcoin gemeenschappen wereldwijd als een bolwerk tegen desinformatie en censuur, terwijl ze een vruchtbare bodem vormen voor het leren van Bitcoin's grondbeginselen**. Ze bieden nieuwkomers, zelfs sceptici, de middelen en connecties die nodig zijn om het ware potentieel van Bitcoin te verkennen.
@@ -302,7 +302,7 @@ Echter, **het bundelen van krachten is vaak zinvoller dan het opsplitsen van nab
 In dit opzicht kan een eenvoudige "vuistregel" helpen: als er geen actieve Bitcoin gemeenschap is binnen 30-45 minuten van waar je woont, kan het de moeite waard zijn om een nieuwe te beginnen. Dat gezegd hebbende, je bent altijd vrij om te doen wat je wilt.
 
 
-En natuurlijk, als een oudere gemeenschap "geëvolueerd" is in een richting die niet langer overeenkomt met jouw waarden, en je hebt niet de tijd of motivatie om ze te "oranje-pillen", dan is het creëren van je eigen Fork altijd een optie.
+En natuurlijk, als een oudere gemeenschap "geëvolueerd" is in een richting die niet langer overeenkomt met jouw waarden, en je hebt niet de tijd of motivatie om ze te "[oranje-pillen](https://planb.academy/resources/glossary/orange-pill)", dan is het creëren van je eigen [Fork](https://planb.academy/resources/glossary/fork) altijd een optie.
 
 
 
@@ -1391,7 +1391,7 @@ Deze omvatten:
 
 
 
-- [Btcmap.org](https://btcmap.org/)**, een website met twee kaarten die dagelijks worden bijgewerkt: **[de wereldkaart van bedrijven die Bitcoin accepteren](https://btcmap.org/map)** en **[de wereldkaart van gemeenschappen](https://btcmap.org/communities/map)**. Veel bitcoiners bekijken deze kaarten regelmatig, of ze nu op reis zijn of hun dagelijks leven leiden, om nieuwe mensen te ontmoeten of plekken te vinden om hun Sats uit te geven. Btcmap is de wereldwijde referentie en het is essentieel voor de zichtbaarheid om je gemeenschap daar te vermelden.**
+- [Btcmap.org](https://btcmap.org/)**, een website met twee kaarten die dagelijks worden bijgewerkt: **[de wereldkaart van bedrijven die Bitcoin accepteren](https://btcmap.org/map)** en **[de wereldkaart van gemeenschappen](https://btcmap.org/communities/map)**. Veel bitcoiners bekijken deze kaarten regelmatig, of ze nu op reis zijn of hun dagelijks leven leiden, om nieuwe mensen te ontmoeten of plekken te vinden om hun [Sats](https://planb.academy/resources/glossary/satoshi-sat) uit te geven. Btcmap is de wereldwijde referentie en het is essentieel voor de zichtbaarheid om je gemeenschap daar te vermelden.**
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), een website gemaakt door bitcoiners, voor bitcoiners. **Je kunt er de komende evenementen van je gemeenschap posten**. In Frankrijk wordt het echter nog niet veel gebruikt.
 - afhankelijk van je land kunnen er andere lokale initiatieven zijn. In Frankrijk is er bijvoorbeeld [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), die **elke maand een lijst maakt van tientallen Bitcoin evenementen**. Dus als je hen nog niet volgt op Twitter of contact met hen opneemt om informatie over jouw gemeenschap en evenementen te delen, dan is het nu tijd! **Om de Franse evenementenkalender up-to-date te houden, zou het geweldig zijn als alle Franse Bitcoin gemeenschappen er een gewoonte van maken om:**
     - vermelding van @bitcoinpointfr op Twitter voor elk nieuw gemeenschapsevenement
@@ -1820,7 +1820,7 @@ Naast de sterke educatieve waarde, maakt deze aanpak het mogelijk om open-source
 Hieronder staat de progressie van de Franse meetups voor 2023-2024. Voor elk thema zijn een open-source presentatie en een video beschikbaar, die je op ideeën kunnen brengen voor onderwerpen die je voor je eigen evenementen zou kunnen behandelen.
 
 
-Extra bewerkbaar materiaal is ook te vinden in de [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)!
+Andere bronnen zijn ook beschikbaar in het gedeelte ["Educator Content"](https://planb.academy/educator-content) van Plan ₿ Academy, een samenwerkingsruimte waar Bitcoin-docenten van over de hele wereld hun educatieve materialen (presentaties, flyers, gidsen, posters...) in kant-en-klare of bewerkbare formaten delen en beschikbaar stellen. Het doel: inspanningen bundelen om niet elke keer opnieuw te beginnen!
 
 
 
@@ -1936,7 +1936,7 @@ Controleer in privégelegenheden zoals concerten, bars of stadions of er al stic
 Een ander project dat je gemakkelijk kunt opzetten is **een bibliotheek maken bij je meet-ups**.
 
 
-Je zou deelnemers die hun leesmateriaal willen delen kunnen uitnodigen om een Bitcoin-gerelateerd boek mee te nemen. Als iemand anders op de meet-up het wil lenen, kan een lening worden geregeld met de eigenaar in Exchange tegen een borg, bijvoorbeeld 21.000 satoshis via Lightning.
+Je zou deelnemers die hun leesmateriaal willen delen kunnen uitnodigen om een Bitcoin-gerelateerd boek mee te nemen. Als iemand anders op de meet-up het wil lenen, kan een lening worden geregeld met de eigenaar in Exchange tegen een borg, bijvoorbeeld 21.000 satoshis via [Lightning](https://planb.academy/resources/glossary/lightning-network).
 
 
 Voor de eigenaar helpt deze borg om mogelijk verlies of diefstal te dekken. Voor de lener is het een stimulans om terug te komen naar een toekomstige ontmoeting om zijn borg op te halen.
@@ -2599,7 +2599,7 @@ Met deze stijging in bezoekersaantallen:
     - als je merkt dat het aantal deelnemers overweldigend wordt, kun je voor toekomstige meetups ofwel **vereisen dat deelnemers zich registreren** (via de Meetup-app of een eenvoudig formulier) of **meerdere meetups per maand houden** (bijvoorbeeld: een meetup voor beginners, een voor gevorderden en een voor vergevorderden).
     - Verwacht tegelijkertijd veel nieuwkomers in het ecosysteem, vaak met het hoofddoel om geld te verdienen. Om **de gesprekken gericht te houden op Bitcoin** in deze snelgroeiende meetups, is het een goed idee om:
 
-a) Neem een **Bitcoin thema-presentatie** op tijdens deze evenementen, omdat dit natuurlijk een groot deel van het gesprek in de richting van dat onderwerp zal sturen (en weg van het laatste zogenaamd "revolutionaire" shitcoin project);
+a) Neem een **Bitcoin thema-presentatie** op tijdens deze evenementen, omdat dit natuurlijk een groot deel van het gesprek in de richting van dat onderwerp zal sturen (en weg van het laatste zogenaamd "revolutionaire" [shitcoin](https://planb.academy/resources/glossary/shitcoin) project);
 
 b) **Vermijd het om alleen met mede-bitcoiners om te gaan.** Maak er in plaats daarvan een punt van om **nieuwkomers** te benaderen, zelfs als dat betekent dat je achter in de kamer moet staan om ze te begroeten. Van daaruit kunt u praten over waarom ze gekomen zijn, wat ze zoeken, de doelen (of zelfs de kernprincipes) van uw gemeenschap, enzovoort.
 
@@ -2619,7 +2619,7 @@ Gelukkig zijn deze situaties zeldzaam en vaak eerder absurd dan bedreigend, maar
 Voor je gemoedsrust: zolang je niet persoonlijk de wet overtreedt of direct illegale transacties faciliteert, ben je niet wettelijk verantwoordelijk voor de acties van anderen op je evenement (tenminste volgens de Franse wet).
 
 
-In een ideale wereld zou je een **ruimte hebben die groot genoeg is om enkele tientallen mensen** te huisvesten terwijl je gemeenschap groeit en je zou ook **sterke relaties opbouwen tussen bitcoiners** en toekomstige bitcoiners tijdens de dalende markt, zodat wanneer de stijgende markt komt, je zoveel mogelijk mensen hebt die klaar staan om anderen te oranje pillen.
+In een ideale wereld zou je een **ruimte hebben die groot genoeg is om enkele tientallen mensen** te huisvesten terwijl je gemeenschap groeit en je zou ook **sterke relaties opbouwen tussen bitcoiners** en toekomstige bitcoiners tijdens de [dalende markt](https://planb.academy/resources/glossary/bear-market), zodat wanneer de [stijgende markt](https://planb.academy/resources/glossary/bull-market) komt, je zoveel mogelijk mensen hebt die klaar staan om anderen te oranje pillen.
 
 
 

@@ -1,0 +1,222 @@
+id: ce272232-0d97-4482-884a-0f77a2ebc036
+
+topic: mining
+
+subtopic: mining
+
+type: practice
+
+level: advanced
+
+hours: 6
+
+professors_id:
+  - 03cb7507-ad65-4848-88f8-bfa72e2b67f8
+  - e320ccda-be59-492b-a81b-243d9acb592f
+  - 2e1b5182-567e-453a-af29-36009340ff02
+
+published_at: 2023-05-17
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 21.0
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 14.03
+  - language: en
+    last_contribution_date: 2025-10-31
+    urgency: 1
+    contributor_names:
+      - 2raj2raj
+    reward: 7.02
+  - language: es
+    last_contribution_date: 2025-12-29
+    urgency: 1
+    contributor_names:
+      - OscarG673
+      - arejula27
+    reward: 0
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 21.0
+  - language: fr
+    last_contribution_date: 2026-01-29
+    urgency: 1
+    contributor_names:
+      - Asi0Flammeus
+      - Sosylos
+      - LoicPandul
+    reward: 0
+  - language: it
+    last_contribution_date: 2024-07-18
+    urgency: 1
+    contributor_names:
+      - TinF0ilHat1
+    reward: 7.02
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 34.93
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 14.03
+  - language: ru
+    last_contribution_date: 2024-11-16
+    urgency: 1
+    contributor_names:
+      - Reshetenko
+    reward: 10.5
+  - language: vi
+    last_contribution_date: 2024-11-16
+    urgency: 1
+    contributor_names:
+      - Henry-Da0
+    reward: 17.47
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 21.0
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 27.97
+  - language: zh-Hans
+    last_contribution_date: 2025-08-18
+    urgency: 1
+    contributor_names:
+      - MilankovicProtocol
+    reward: 13.98
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 21.0
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 21.0
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 34.93
+  - language: sr-Latn
+    last_contribution_date: 2025-11-05
+    urgency: 1
+    contributor_names:
+      - Sanja22B
+    reward: 13.98
+  - language: sw
+    last_contribution_date: 2025-08-18
+    urgency: 1
+    contributor_names:
+      - Tinnah924
+    reward: 10.5
+  - language: zh-Hant
+    last_contribution_date: 2025-12-04
+    urgency: 1
+    contributor_names:
+      - maxi945
+    reward: 13.98
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 21.0
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 14.03
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 21.0
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 27.97
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 27.97
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 34.93
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 21.0
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 27.97
+tags:
+  - mining
+  - DIY
+  - guides
+videos:
+  - id: 0cda8911-caa3-4b1a-acff-4e2225f6aa58
+    youtube:
+      - fr: 4wywK6BfDw8
+  - id: c02c71dc-0398-4f24-b9c6-c2cf4da4d696
+    youtube:
+      - fr: A5MTtn4mm44
+  - id: ed6bcd17-c486-46bd-bfb3-96c0d121ecdb
+    youtube:
+      - fr: vYaQRLSDr5E
+  - id: 1f60c1c6-726e-4ac5-bf1d-9655e7b1ba39
+    youtube:
+      - fr: neEQzEQzmPQ
+  - id: 2635c965-8d2a-42e2-83df-517bcea25c86
+    youtube:
+      - fr: xkiY8DgkcLQ
+  - id: 8a16aa8a-1434-4d3a-8435-dabc62d00efa
+    youtube:
+      - fr: SQaK4_8M0kA
+  - id: ecc73ef7-e9bf-4061-a910-8f2d2a1916f3
+    youtube:
+      - fr: gKoh44UCSnE
+  - id: e39add7e-aa01-4a5f-bd53-d307d0e3c6be
+    youtube:
+      - fr: U_PLo59lp-g
+  - id: 20a6f41c-03e5-4ead-bd0a-248c248a63b5
+    youtube:
+      - fr: y4oYURBaPqg
+  - id: 0751df86-9850-40d4-8e3e-c8bee61041fa
+    youtube:
+      - fr: luqwlvzGsO4
+  - id: 0f2833f0-4e64-43b0-ab2e-e35d772b1ba8
+    youtube:
+      - fr: dK0t8M8kLYg
+  - id: 315a18c7-bc66-458b-b052-ece18f6cbad5
+    youtube:
+      - fr: 2CNGKZiveuc
+  - id: 6b66edf5-c749-4e13-8dd9-a655cfd0539b
+    youtube:
+      - fr: wM-dRog6mls
+  - id: 197108db-e8ac-4625-9714-7cf9fb8273f5
+    youtube:
+      - fr: yh8U9Ay1i-E

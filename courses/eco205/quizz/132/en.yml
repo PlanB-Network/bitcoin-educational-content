@@ -1,0 +1,8 @@
+question: According to Austrian theory, what is the fundamental relationship between debtor and creditor in the interest rate formation process?
+answer: The debtor prioritizes present consumption and pays interest to free himself from prior capital accumulation, while the creditor defers consumption in exchange for future reward
+wrong_answers:
+  - The debtor agrees to pay interest to obtain immediate liquidity, while the creditor seeks to maximize his profit by exploiting the debtor's urgent needs
+  - The debtor borrows to invest in long-term productive projects, while the creditor lends only his temporary excess liquidity, with no regard for time
+  - "The debtor pays interest as compensation for the risk of default, while the creditor charges a premium to cover inflation and economic uncertainty."
+explanation: |
+  The debtor-creditor relationship reflects opposing time preferences: the debtor values the present more highly and agrees to pay the price (interest) for immediate consumption without first saving, while the creditor has a low time preference and agrees to postpone consumption in exchange for future improvement. This relationship is not based on exploitation, productive investment or risk, but on subjective valuations of time.

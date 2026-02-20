@@ -1,0 +1,11 @@
+question: Kdo stál za první hybridní implementací proof-of-stake, která byla provedena v srpnu 2012 prostřednictvím kryptoměny PPCoin?
+answer: Sunny King
+wrong_answers:
+  - Vitalik Buterin
+  - Come-From-Beyond
+  - Ben Laurie
+explanation: |
+ Sunny King byl pseudonym hlavního vývojáře projektu. Myšlenkou bylo zavést hybridní model, v němž byly určité bloky ověřeny důkazem zachování
+ (na základě konceptu stáří mincí), vedle bloků těžených konvenčním způsobem mining. Sunny King a jeho spolupracovníci spustili PPCoin v srpnu 2012
+ (později přejmenovaný na Peercoin). Své řešení popsali jako "dlouhodobě energeticky efektivní".
+reviewed: true

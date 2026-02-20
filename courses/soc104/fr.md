@@ -410,7 +410,7 @@ Il existe donc chez les libertariens une profonde méfiance envers toute concent
 Au XXe siècle, deux grandes tendances se dessinent :
 1.  **L'une Minarchiste :** qui considère que les pouvoirs de l'État devraient être strictement limités à la défense des libertés individuelles. C’est un régime d'État minimal (*État-gendarme*), où le pouvoir n'est légitime que pour assurer les fonctions régaliennes de police, justice et défense armée du territoire.
 2.  **L'autre anarcho-capitaliste :** qui considère que les fonctions de l'État devraient être privatisés et gérées par le marché.
-Cependant, toutes deux s'accordent sur le principe fondamental de souveraineté individuelle. Les idées libertariennes ont été exprimées dès le XVIIIe siècle par les Physiocrates, notamment Vincent de Gournay et Turgot, et développées par Condillac, Jean-Baptiste Say et Frédéric Bastiat. Au XXe siècle, elles ont été reprises et développées par l'école autrichienne d’économie, dont les auteurs principaux sont Ludwig von Mises, Friedrich Hayek, et Murray Rothbard. 
+Cependant, toutes deux s'accordent sur le principe fondamental de souveraineté individuelle. Les idées libertariennes ont été exprimées dès le XVIIIe siècle par les Physiocrates, notamment Vincent de Gournay et Turgot, et développées par Condillac, Jean-Baptiste Say et Frédéric Bastiat. Au XXe siècle, elles ont été reprises et développées par l'[école autrichienne d’économie](https://planb.academy/resources/glossary/austrian-school), dont les auteurs principaux sont Ludwig von Mises, Friedrich Hayek, et Murray Rothbard. 
 
 
 
@@ -758,8 +758,8 @@ Au terme de ce cours, il nous parait essentiel d’aborder la question du positi
 
 ### Bitcoin est-il un projet politique ?
 
-Bitcoin est une cryptomonnaie décentralisée, créée par Satoshi Nakamoto en 2008, qui permet des transactions financières sans tiers, de confiance, de pair à pair. 
-Bitcoin est contrôlé par un protocole logiciel open source, sans CEO, sans siège social, sans budget marketing, sans autorité désignée. Ce qui signifie qu'aucune entité politique ou gouvernement n'en a le contrôle.
+Bitcoin est une [cryptomonnaie](https://planb.academy/resources/glossary/cryptocurrency) décentralisée, créée par Satoshi Nakamoto en 2008, qui permet des transactions financières sans tiers, de confiance, de [pair à pair](https://planb.academy/resources/glossary/peertopeer-p2p). 
+Bitcoin est contrôlé par un protocole logiciel [open source](https://planb.academy/resources/glossary/foss), sans CEO, sans siège social, sans budget marketing, sans autorité désignée. Ce qui signifie qu'aucune entité politique ou gouvernement n'en a le contrôle.
 
 Cette neutralité est déconcertante pour certains et peut laisser penser qu’il s’agit d’une technologie apolitique, comme l’Internet au XXe siècle ou l’imprimerie au XIVe siècle.
 
@@ -767,11 +767,11 @@ Si Bitcoin en lui-même n’est ni de droite, ni de gauche, ni d’aucune religi
 
 ![Bitcoin Whitepaper Abstract](./assets/fr/020.webp)
 
-À la lecture du White Paper de Satoshi Nakamoto, on voit que Bitcoin a été pensé pour offrir une protection novatrice face à deux menaces contemporaines majeures : la surveillance généralisée et l'accélération de la création monétaire artificielle.
+À la lecture du [White Paper](https://planb.academy/resources/glossary/white-paper) de Satoshi Nakamoto, on voit que Bitcoin a été pensé pour offrir une protection novatrice face à deux menaces contemporaines majeures : la surveillance généralisée et l'accélération de la création monétaire artificielle.
 
 1. Bien que n'étant pas totalement anonyme, Bitcoin renforce considérablement la protection de la vie privée en limitant la surveillance financière des individus. Cette capacité permet, par exemple, à un dissident dans une dictature de détenir et d'échanger de la valeur en ligne sans craindre la confiscation ou la censure. Bien que cela puisse sembler lointain pour les citoyens des démocraties, il s'agit d'une avancée cruciale pour les libertés individuelles.
 
-2. Bitcoin permet à chacun de protéger son épargne contre la spoliation de la propriété privée qu'incarne l'inflation monétaire. Il est une tentative de contester la mainmise de l'État sur la gestion de la monnaie en tant qu'instrument d'échange et donc de concurrencer l'État. La crise financière de 2008 et la pandémie de Covid 19 ont permis de mettre en évidence les failles du système actuel. Les milliers de milliards de dollars imprimés à partir de rien pour empêcher l’économie de s’effondrer davantage ont eu ensuite des effets dévastateurs, que nous payons encore.
+2. Bitcoin permet à chacun de protéger son épargne contre la spoliation de la propriété privée qu'incarne l'[inflation](https://planb.academy/resources/glossary/inflation) monétaire. Il est une tentative de contester la mainmise de l'État sur la gestion de la monnaie en tant qu'instrument d'échange et donc de concurrencer l'État. La crise financière de 2008 et la pandémie de Covid 19 ont permis de mettre en évidence les failles du système actuel. Les milliers de milliards de dollars imprimés à partir de rien pour empêcher l’économie de s’effondrer davantage ont eu ensuite des effets dévastateurs, que nous payons encore.
 
 ![Bitcoin Counterflow Abstract](./assets/fr/021.webp)
 
@@ -787,7 +787,7 @@ Le point de départ de la démarche intellectuelle de Satoshi Nakamoto, c'est do
 
 ![Genesis Block Title](./assets/fr/022.webp)
 
-L'inclusion de ce titre dans le bloc de genèse est sujette à interprétation. Mais elle peut apparaître comme un commentaire de Satoshi sur les échecs des institutions financières traditionnelles et comme une déclaration de l'objectif de Bitcoin : offrir une alternative aux systèmes bancaires centralisés.
+L'inclusion de ce titre dans le [bloc de genèse](https://planb.academy/resources/glossary/genesis-block) est sujette à interprétation. Mais elle peut apparaître comme un commentaire de Satoshi sur les échecs des institutions financières traditionnelles et comme une déclaration de l'objectif de Bitcoin : offrir une alternative aux systèmes bancaires centralisés.
 
 Quand l'État impose un contrôle strict sur toutes les transactions (notamment en limitant l'argent liquide ou en imposant une monnaie numérique centralisée), il possède un contrôle total sur l'économie, au détriment de la liberté du choix et de la souveraineté des individus. En surveillant toutes les transactions, l'État peut mieux identifier les nouvelles sources de taxation et imposer des régulations strictes.
 
@@ -809,7 +809,7 @@ C’est pourquoi Bitcoin est construit sur un présupposé philosophique fondame
 
 En ce sens, il est animé par une vision du monde qui est à la fois morale et politique. Lorsque l’Etat détient le monopole sur la monnaie, on est dans un système étatiste, qu’il soit de droite ou de gauche. Le projet de Bitcoin est d’offrir à tous un marché libre de la monnaie.
 
-Mais Bitcoin n’est pas apparu de nulle part. Il repose sur des avancées en mathématiques, physique, informatique et philosophie. Satoshi Nakamoto, bien que brillant, a bâti sur les idées d’autres innovateurs. Parmi eux, les pionniers du mouvement cypherpunk. 
+Mais Bitcoin n’est pas apparu de nulle part. Il repose sur des avancées en mathématiques, physique, informatique et philosophie. Satoshi Nakamoto, bien que brillant, a bâti sur les idées d’autres innovateurs. Parmi eux, les pionniers du mouvement [cypherpunk](https://planb.academy/resources/glossary/cypherpunks). 
 
 ## Qui sont les cypherpunks ?
 <chapterId>dc18ba9a-c242-472a-a717-531a5f125737</chapterId>
@@ -834,7 +834,7 @@ Et il ajoute :
 
 > la confidentialité dans une société ouverte exige des systèmes de transactions anonymes. Jusqu'à présent, l'argent liquide a été le principal système de ce type.
 
-C’est pourquoi la cryptographie sera utilisée comme un outil de résistance contre les formes de contrôle étatique et corporatif. Elle permet de s'assurer que chaque partie à une transaction n'ait connaissance que de ce qui est strictement nécessaire à cette transaction. 
+C’est pourquoi la [cryptographie](https://planb.academy/resources/glossary/cryptography) sera utilisée comme un outil de résistance contre les formes de contrôle étatique et corporatif. Elle permet de s'assurer que chaque partie à une transaction n'ait connaissance que de ce qui est strictement nécessaire à cette transaction. 
 
 Les cypherpunks croient en la puissance de la cryptographie pour créer des espaces de liberté et d'autonomie individuelle, en permettant aux individus de communiquer et d'interagir de manière sécurisée et anonyme. 
 

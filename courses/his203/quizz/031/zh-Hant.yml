@@ -1,0 +1,9 @@
+question: 2011 年夏天，哪個 mining 合作夥伴曾短暫突破 50% 的網路哈希率？
+answer: 深位
+wrong_answers:
+  - 深位
+  - Slush 的游泳池
+  - GHash.io
+explanation: |
+ 根據 OrganOfCorti 的資料，Deepbit 在 8 月 5 日的測量哈希率為 52.86%。
+reviewed: true

@@ -34,8 +34,6 @@ Quer represente uma pequena empresa ou uma grande corporação, este curso tem c
 
 Pronto para mergulhar no mundo do Bitcoin para empresas? Vamos lá!
 
-**N.B.**: Se encontrar termos desconhecidos durante o curso, consulte [o glossário](https://planb.academy/resources/glossary) para definições.
-
 # Moeda, sistemas de pagamento e Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>
@@ -66,20 +64,20 @@ Uma boa moeda possui várias propriedades essenciais que a tornam eficaz para fa
 
 
 - **Seguro**: Uma moeda deve ser protegida contra roubo ou acesso não autorizado, assegurando que os utilizadores a podem deter e transferir com confiança. A segurança é fundamental para criar confiança no sistema.
-- **À prova de contrafação**: Uma moeda deve ser extremamente difícil ou impossível de falsificar. Isto garante que cada unidade é autêntica, mantém o seu valor e evita a inflação causada pela entrada em circulação de unidades falsas. Por exemplo, historicamente, o ouro tem sido valorizado não só pela sua beleza e raridade, mas também pelo facto de ser extremamente difícil de produzir. Ao contrário das notas de papel ou das entradas digitais, não se pode "fabricar" ouro - tem de ser extraído da terra. Esta escassez natural e a dificuldade de produção ajudaram o ouro a manter o seu estatuto de reserva de valor fiável e de referência de autenticidade.
+- **À prova de contrafação**: Uma moeda deve ser extremamente difícil ou impossível de falsificar. Isto garante que cada unidade é autêntica, mantém o seu valor e evita a [inflação](https://planb.academy/resources/glossary/inflation) causada pela entrada em circulação de unidades falsas. Por exemplo, historicamente, o ouro tem sido valorizado não só pela sua beleza e raridade, mas também pelo facto de ser extremamente difícil de produzir. Ao contrário das notas de papel ou das entradas digitais, não se pode "fabricar" ouro - tem de ser extraído da terra. Esta escassez natural e a dificuldade de produção ajudaram o ouro a manter o seu estatuto de reserva de valor fiável e de referência de autenticidade.
 - **Escassa**: Uma boa moeda deve ter uma oferta limitada ou uma emissão controlada. A escassez garante que o seu valor é preservado ao longo do tempo, evitando a sobreprodução, que corroeria o poder de compra. Por exemplo, algumas tribos nativas americanas utilizavam missangas como forma de moeda. Inicialmente, estas contas eram difíceis de produzir, mantendo a sua escassez e valor. No entanto, quando os comerciantes europeus começaram a produzir em massa e a inundar o mercado com contas, a sua raridade desapareceu. Com o aumento da oferta, as missangas perderam o seu poder de compra, comprometendo o seu papel de reserva de valor fiável.
 - **Sem autorização**: No passado, moedas como o ouro e a prata eram frequentemente cunhadas por particulares, autoridades locais ou comerciantes que tinham acesso às matérias-primas. Este sistema funcionava, por vezes, ao abrigo de acordos ou licenças concedidas por reis ou governantes. Com o tempo, os reis e os governos centralizaram este processo para obterem um maior controlo sobre a estabilidade económica, a tributação e o sistema monetário. Um exemplo famoso é o **thaler**, uma moeda de prata cunhada pela primeira vez em 1518 no **Vale de Joachimsthal** (atual Jáchymov, na República Checa) por mineiros e autoridades locais. O nome "thaler" deriva da palavra alemã **"Thal"** que significa "vale". Estas moedas, conhecidas pela sua prata de alta qualidade, tornaram-se amplamente difundidas em toda a Europa. Com o tempo, o termo evoluiu linguística e geograficamente, acabando por dar origem ao nome "dólar", que foi adotado nos Estados Unidos para a sua moeda.
 
 Na era moderna, as moedas tornaram-se totalmente autorizadas ao abrigo do sistema de senhoriagem, o que significa que apenas as entidades autorizadas - como os bancos centrais ou os tesouros - podiam cunhar moedas ou imprimir notas. Os indivíduos deixaram de estar legalmente autorizados a produzir moeda, assegurando um controlo centralizado sobre a sua emissão e fornecimento.
 
-Atualmente, o princípio da senhoriagem está a ser posto em causa pela criptomoeda Bitcoin, que funciona sem controlo centralizado. O Bitcoin é um sistema "sem permissão", em que qualquer pessoa pode participar na utilização da moeda sem pedir autorização e, através da extração mineira, na sua criação. Esta descentralização retira aos governos o monopólio da emissão, levantando questões sobre um potencial regresso a sistemas monetários competitivos de mercado livre.
+Atualmente, o princípio da senhoriagem está a ser posto em causa pela [criptomoeda](https://planb.academy/resources/glossary/cryptocurrency) Bitcoin, que funciona sem controlo centralizado. O Bitcoin é um sistema "sem permissão", em que qualquer pessoa pode participar na utilização da moeda sem pedir autorização e, através da [extração mineira](https://planb.academy/resources/glossary/mining), na sua criação. Esta descentralização retira aos governos o monopólio da emissão, levantando questões sobre um potencial regresso a sistemas monetários competitivos de mercado livre.
 
 
 - **Unidade de conta**: Uma moeda deve fornecer uma medida padrão para comparar o valor de bens e serviços. Isto simplifica o comércio e torna a fixação de preços transparente e coerente em todas as transacções.
 - **Duradoura**: Uma moeda deve resistir ao desgaste ao longo do tempo. As moedas físicas, como moedas ou notas, devem resistir a danos, enquanto as moedas digitais devem permanecer armazenadas em segurança sem risco de perda de dados.
 - **Portátil**: Uma moeda deve ser fácil de transportar e utilizar, permitindo o comércio à distância. Isto pode ser conseguido através da portabilidade física (moedas ou notas leves) ou de sistemas de transferência digital.
 - **Divisível**: Uma moeda deve ser divisível em unidades mais pequenas para facilitar transacções de diferentes dimensões. Esta flexibilidade garante que a moeda é prática tanto para pequenas compras como para o comércio em grande escala.
-- **Fungível**: Todas as unidades de uma moeda devem ser permutáveis e de igual valor. Por exemplo, uma nota de dólar deve ser equivalente a qualquer outra nota de dólar. Esta uniformidade assegura a equidade e a simplicidade das transacções.
+- **[Fungível](https://planb.academy/resources/glossary/fungibility)**: Todas as unidades de uma moeda devem ser permutáveis e de igual valor. Por exemplo, uma nota de dólar deve ser equivalente a qualquer outra nota de dólar. Esta uniformidade assegura a equidade e a simplicidade das transacções.
 - **Reconhecível**: Uma moeda deve ser facilmente identificável e fiável. As moedas físicas conseguem-no através de desenhos únicos e caraterísticas de segurança, enquanto as moedas digitais podem basear-se em protocolos de verificação. Isto assegura uma aceitação generalizada e reduz o risco de fraude.
 
 Estas caraterísticas tornam uma moeda prática, fiável e eficiente para facilitar o comércio e armazenar valor numa economia.
@@ -102,9 +100,9 @@ Estas redes monetárias modernas têm um inconveniente significativo: a **falta 
 
 **Da moeda centralizada à descentralizada: Reforçar a confiança e a soberania**
 
-Atualmente, o aparecimento da moeda descentralizada Bitcoin representa o próximo salto nas redes monetárias. A moeda eletrónica tradicional depende de autoridades centralizadas, como bancos ou governos, para gerir e verificar as transacções. Embora eficazes, esses sistemas são vulneráveis a ineficiências, censura e pontos únicos de falha. As moedas descentralizadas melhoram estas propriedades da rede, **distribuindo a confiança e removendo os intermediários**. Significa também que o dinheiro pode circular muito **mais depressa** e **mais barato**, porque não há passos de autorização. Finalmente, nenhum ser humano pode ser tentado a mudar o cronograma de fornecimento da moeda Bitcoin, é imposto pelo software.
+Atualmente, o aparecimento da moeda descentralizada Bitcoin representa o próximo salto nas redes monetárias. A moeda eletrónica tradicional depende de autoridades centralizadas, como bancos ou governos, para gerir e verificar as transacções. Embora eficazes, esses sistemas são vulneráveis a ineficiências, censura e [pontos únicos de falha](https://planb.academy/resources/glossary/spof). As moedas descentralizadas melhoram estas propriedades da rede, **[distribuindo](https://planb.academy/resources/glossary/distributed) a confiança e removendo os intermediários**. Significa também que o dinheiro pode circular muito **mais depressa** e **mais barato**, porque não há passos de autorização. Finalmente, nenhum ser humano pode ser tentado a mudar o [cronograma de fornecimento](https://planb.academy/resources/glossary/limite-demission) da moeda Bitcoin, é imposto pelo software.
 
-Nos sistemas descentralizados, as transacções são verificadas por uma rede global de participantes que utilizam a tecnologia blockchain, garantindo segurança, transparência e resiliência. Esta estrutura minimiza o risco de fraude, reduz a dependência das autoridades centrais e permite que os indivíduos tenham um maior controlo sobre as suas finanças. Ao eliminar barreiras geográficas e institucionais, as moedas descentralizadas oferecem um sistema monetário verdadeiramente global e inclusivo.
+Nos sistemas descentralizados, as transacções são verificadas por uma rede global de participantes que utilizam a tecnologia [blockchain](https://planb.academy/resources/glossary/blockchain), garantindo segurança, transparência e resiliência. Esta estrutura minimiza o risco de fraude, reduz a dependência das autoridades centrais e permite que os indivíduos tenham um maior controlo sobre as suas finanças. Ao eliminar barreiras geográficas e institucionais, as moedas descentralizadas oferecem um sistema monetário verdadeiramente global e inclusivo.
 
 **A evolução das redes monetárias**
 
@@ -192,14 +190,14 @@ Tal como passámos do pagamento ao minuto das chamadas vocais para a utilizaçã
 
 **O QUE É A BITCOIN?**
 
-Bitcoin é um sistema de troca de moeda digital **peer-to-peer** (dinheiro eletrónico). O termo "Bitcoin" refere-se aos seguintes componentes:
+Bitcoin é um sistema de troca de moeda digital **[peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p)** (dinheiro eletrónico). O termo "Bitcoin" refere-se aos seguintes componentes:
 
 
-- Um protocolo informático **que facilita a troca de valores na Internet sem intermediários, sem necessidade de autorização e de forma pseudónima. Utiliza princípios criptográficos avançados.**
-- Uma rede física de máquinas ligadas à Internet (nós, mineiros, etc.) operadas por indivíduos e empresas, formando um sistema descentralizado (sem autoridade central ou ponto único de controlo).
-- A **unidade de conta** dentro do sistema. Nunca existirão mais de 21 milhões de bitcoins. Cada bitcoin é divisível em 100 milhões de unidades chamadas "satoshis", nome dado em honra do seu criador anónimo.
+- Um protocolo informático **que facilita a troca de valores na Internet sem intermediários, sem necessidade de autorização e de forma pseudónima. Utiliza princípios [criptográficos](https://planb.academy/resources/glossary/cryptography) avançados.**
+- Uma rede física de máquinas ligadas à Internet ([nós](https://planb.academy/resources/glossary/node), [mineiros](https://planb.academy/resources/glossary/miner), etc.) operadas por indivíduos e empresas, formando um sistema descentralizado (sem autoridade central ou ponto único de controlo).
+- A **unidade de conta** dentro do sistema. Nunca existirão mais de 21 milhões de bitcoins. Cada bitcoin é divisível em 100 milhões de unidades chamadas "[satoshis](https://planb.academy/resources/glossary/satoshi-sat)", nome dado em honra do seu criador anónimo.
 
-Em conjunto, fazem da Bitcoin um **ativo portador** e uma moeda digital **sem emissor**. A propriedade é garantida apenas pela posse da **chave criptográfica privada**, garantindo o controlo total **sem intermediários ou terceiros de confiança**. Quando transferida, a **finalidade** da propriedade é imediata: o novo detentor possui-a na totalidade sem depender de uma autoridade central para proteção ou convertibilidade. As transacções são **imutáveis** - uma vez registadas na cadeia de blocos, não podem ser alteradas ou apagadas.
+Em conjunto, fazem da Bitcoin um **ativo portador** e uma moeda digital **sem emissor**. A propriedade é garantida apenas pela posse da **[chave criptográfica privada](https://planb.academy/resources/glossary/private-key)**, garantindo o controlo total **sem intermediários ou terceiros de confiança**. Quando transferida, a **finalidade** da propriedade é imediata: o novo detentor possui-a na totalidade sem depender de uma autoridade central para proteção ou convertibilidade. As [transacções](https://planb.academy/resources/glossary/transaction-tx) são **imutáveis** - uma vez registadas na cadeia de blocos, não podem ser alteradas ou apagadas.
 
 ![BIZ101](assets/pt/003.webp)
 
@@ -209,7 +207,7 @@ As suas caraterísticas técnicas ultrapassam as do ouro e do dólar combinadas,
 
 ![BIZ101](assets/pt/004.webp)
 
-A Bitcoin preserva efetivamente o valor porque o seu livro-razão é inviolável. O seu valor aumenta devido à oferta rara e limitada combinada com o número crescente de oportunidades de troca, impulsionado pelo número crescente de utilizadores.
+A Bitcoin preserva efetivamente o valor porque o seu [livro-razão](https://planb.academy/resources/glossary/ledger) é inviolável. O seu valor aumenta devido à oferta rara e limitada combinada com o número crescente de oportunidades de troca, impulsionado pelo número crescente de utilizadores.
 
 A Bitcoin é disruptiva porque nos incentiva a aprender conceitos de matemática, criptografia, economia e história que nunca nos foram ensinados. Embora muitas vezes seja vista como complexa, é de facto uma inovação acessível através da prática e da experimentação.
 
@@ -220,7 +218,7 @@ A Bitcoin desafia-nos a reconsiderar a natureza do próprio dinheiro. Pode expli
 
 - **Idade:** 15 anos (3 de janeiro de 2009)
 - **Valor diário de câmbio:** 10 mil milhões de dólares (> CAC40)
-- **Capitalização bolsista:** 1,8 biliões de dólares (> Meta, Visa, Prata; < Apple, Google, Ouro)
+- **[Capitalização bolsista](https://planb.academy/resources/glossary/market-cap-capitalization):** 1,8 biliões de dólares (> Meta, Visa, Prata; < Apple, Google, Ouro)
 - **Utilizadores:** ~100 a 200 milhões (1-2% da população mundial)
 - **Volatilidade:** Intrinsecamente nenhuma (1 Bitcoin = 1 Bitcoin), muito elevada externamente (nas bolsas de moeda fiduciária)
 - **Desempenho:** Primeira transação a $0,0009; agora $100.000 (x100 milhões)
@@ -230,14 +228,14 @@ A Bitcoin desafia-nos a reconsiderar a natureza do próprio dinheiro. Pode expli
 **Uma maravilha da cooperação humana**
 
 
-- Totalmente **open-source**
+- Totalmente **[open-source](https://planb.academy/resources/glossary/foss)**
 - **Entidade jurídica:** Nenhuma
 - **Diretor Executivo:** Nenhum
 - **Investimento de capital de risco:** Nenhum
 - **Marketing:** Nenhum
 - **I&D:** Voluntariado
 - **Governação:** Pelos utilizadores
-- **Modelo económico inovador:** A criação de blocos é subsidiada por taxas de transação (com base em leilões)
+- **Modelo económico inovador:** A criação de blocos é [subsidiada](https://planb.academy/resources/glossary/block-subsidy) por [taxas de transação](https://planb.academy/resources/glossary/transaction-fees) (com base em leilões)
 
 Para mais informações sobre a Bitcoin, a sua história, o seu funcionamento e a sua utilização, sugiro também que siga este outro curso completo:
 
@@ -249,18 +247,18 @@ https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 **O QUE É UM RELÂMPAGO?**
 
-A Lightning Network é **um protocolo e uma rede** que facilita as transacções Bitcoin com uma interação mínima com a blockchain principal da Bitcoin. Veja como ela funciona:
+A [Lightning Network](https://planb.academy/resources/glossary/lightning-network) é **um protocolo e uma rede** que facilita as transacções Bitcoin com uma interação mínima com a blockchain principal da Bitcoin. Veja como ela funciona:
 
 
-- **Configuração inicial:** Os fundos são bloqueados (escrowed) na blockchain principal para estabelecer um canal de pagamento entre 2 partes.
+- **Configuração inicial:** Os fundos são bloqueados (escrowed) na blockchain principal para estabelecer um [canal de pagamento](https://planb.academy/resources/glossary/payment-channel) entre 2 partes.
 - **Rede de pagamentos:** Uma rede de canais de pagamento entre várias partes constitui uma rede de pagamentos (encaminhamento e interligação).
-- **Transacções fora da cadeia:** As transacções ocorrem entre as partes mas não são **publicadas imediatamente** na cadeia de blocos principal da Bitcoin (**"fora da cadeia"**).
-- **Liquidações on-chain:** Apenas o **saldo final** das transacções de um canal é publicado na blockchain principal da Bitcoin (**"on-chain"**), permitindo que numerosas transacções ocorram entretanto. Este agrupamento de vários pagamentos reduz o congestionamento e, portanto, reduz as taxas em comparação com a realização de muitas transacções on-chain.
+- **Transacções [fora da cadeia](https://planb.academy/resources/glossary/offchain):** As transacções ocorrem entre as partes mas não são **publicadas imediatamente** na cadeia de blocos principal da Bitcoin (**"fora da cadeia"**).
+- **Liquidações [on-chain](https://planb.academy/resources/glossary/onchain):** Apenas o **saldo final** das transacções de um canal é publicado na blockchain principal da Bitcoin (**"on-chain"**), permitindo que numerosas transacções ocorram entretanto. Este agrupamento de vários pagamentos reduz o congestionamento e, portanto, reduz as taxas em comparação com a realização de muitas transacções on-chain.
 - Fechamento de canal: Um usuário pode fechar seu canal a qualquer momento e recuperar seu Bitcoin publicando o estado da última transação. Este é o princípio das transacções serem **"publicáveis" a qualquer momento mas "não publicadas"** até que seja necessário. A saída (encerramento do canal) pode ser unilateral (decidida por qualquer uma das duas partes a qualquer momento) ou mutuamente decidida (resultando em taxas mais baixas na cadeia)
 
 ![BIZ101](assets/pt/005.webp)
 
-Esta abordagem evita a lentidão e a complexidade de realizar todas as transacções diretamente na cadeia de blocos principal da Bitcoin, registando apenas os saldos finais e mantendo a sua segurança. A Lightning Network é uma camada "no topo" do Bitcoin, mas permanece ancorada a ele.
+Esta abordagem evita a lentidão e a complexidade de realizar todas as transacções diretamente na cadeia de blocos principal da Bitcoin, registando apenas os saldos finais e mantendo a sua segurança. A Lightning Network é uma [camada](https://planb.academy/resources/glossary/layer) "no topo" do Bitcoin, mas permanece ancorada a ele.
 
 **Uma rede de pagamento global**
 
@@ -365,7 +363,7 @@ o "capital" é muitas vezes retratado como uma ferramenta de exploração, e est
 
 6. A normalização cultural da retórica anti-capitalista?
 
-Felizmente, a Bitcoin obriga-nos a repensar tudo e a pôr em causa estas noções preconcebidas. Existe uma escola de pensamento - a Escola Austríaca de Economia - que pode esclarecer estas questões e ajudar-nos a reconsiderar a verdadeira natureza do capital.
+Felizmente, a Bitcoin obriga-nos a repensar tudo e a pôr em causa estas noções preconcebidas. Existe uma escola de pensamento - a [Escola Austríaca de Economia](https://planb.academy/resources/glossary/austrian-school) - que pode esclarecer estas questões e ajudar-nos a reconsiderar a verdadeira natureza do capital.
 
 **Era uma vez**
 
@@ -469,7 +467,7 @@ Passemos rapidamente em revista o ambiente em que as empresas operam.
 
 **Inflação real**: Para grande desgosto do seu mandato, os bancos centrais têm como objetivo uma inflação anual de 2%, o que significa uma perda de 40% do valor da moeda em 20 anos. Se acrescentarmos períodos de inflação mais acentuada, torna-se claro que as empresas não podem utilizar apenas a moeda para armazenar os frutos do seu trabalho. Têm de implementar estratégias financeiras complexas, necessariamente acompanhadas de uma série de riscos. Estas estratégias são obviamente **inacessíveis às empresas muito pequenas**, que já estão muito ocupadas com as suas actividades principais.
 
-**Inflação oculta**: Num sistema monetário de reservas fraccionadas baseado na dívida e apoiado por bancos centrais, a **oferta monetária global cresce em média cerca de 7% por ano** (por exemplo, M1 na Zona Euro ou nos EUA). Isto significa que a sua "parte do bolo" é cortada para metade em apenas alguns anos - a menos que tenha acesso privilegiado à torneira financeira e possa continuar a crescer alavancando e comprando activos rapidamente a "preços antigos" antes que o dinheiro recém-criado os faça subir. Este é o efeito Cantillon, que explica em parte a transferência de riqueza para os mais ricos, enquanto o "capital" é erradamente apontado como o culpado (ver a nossa introdução sobre o capital acima).
+**Inflação oculta**: Num sistema monetário de [reservas fraccionadas](https://planb.academy/resources/glossary/fractional-reserves) baseado na dívida e apoiado por bancos centrais, a **oferta monetária global cresce em média cerca de 7% por ano** (por exemplo, M1 na Zona Euro ou nos EUA). Isto significa que a sua "parte do bolo" é cortada para metade em apenas alguns anos - a menos que tenha acesso privilegiado à torneira financeira e possa continuar a crescer alavancando e comprando activos rapidamente a "preços antigos" antes que o dinheiro recém-criado os faça subir. Este é o efeito Cantillon, que explica em parte a transferência de riqueza para os mais ricos, enquanto o "capital" é erradamente apontado como o culpado (ver a nossa introdução sobre o capital acima).
 
 **Riscos de contraparte**: O sistema financeiro atual é arriscado e nem sempre se pode ter acesso ao "seu dinheiro" Sem invocar a imagem de um castelo de cartas, há que reconhecer que as instituições financeiras privatizam os lucros e socializam as perdas à mais pequena crise. Num sistema de dinheiro "escritural" (dinheiro registado num livro de contabilidade), o dinheiro no banco é apenas um "crédito"; não se é verdadeiramente dono dele e os próprios bancos "não o têm" (reservas fracionárias). Este dinheiro é, de certa forma, verdadeiramente mágico. Alguns bancos de prestígio que outrora zombavam do Bitcoin já não existem atualmente, como o Credit Suisse.
 
@@ -534,7 +532,7 @@ A adoção crescente da Bitcoin nos Estados Unidos está também a influenciar a
 
 De uma perspetiva puramente financeira, a Bitcoin é reconhecida como um ativo de diversificação. Não só não está correlacionada com outras classes de activos, como também parece prosperar durante períodos de novas injecções de liquidez - um outro episódio deste tipo parece estar a começar com a descida das taxas de juro pelo BCE, pela Fed e pela China.
 
-Em resumo, para o caso de utilização mais comum - investir o excesso de tesouraria durante, pelo menos, um período de quatro anos - a Bitcoin enquadra-se perfeitamente. Vale a pena combiná-la com uma estratégia de entrada gradual: investir montantes fixos em intervalos regulares para suavizar o ponto de entrada ou de saída.
+Em resumo, para o caso de utilização mais comum - investir o excesso de tesouraria durante, pelo menos, um período de quatro anos - a Bitcoin enquadra-se perfeitamente. Vale a pena combiná-la com uma [estratégia de entrada gradual](https://planb.academy/resources/glossary/dollar-cost-averaging-dca): investir montantes fixos em intervalos regulares para suavizar o ponto de entrada ou de saída.
 
 Outros casos de utilização fazem da Bitcoin um ativo estratégico de tesouraria, por exemplo:
 
@@ -546,7 +544,7 @@ Outros casos de utilização fazem da Bitcoin um ativo estratégico de tesourari
 
 ### A Bitcoin é demasiado cara?
 
-Não é necessário comprar exatamente 1 Bitcoin, porque o Bitcoin é divisível em subunidades chamadas satoshis, nome dado em honra do seu criador anónimo. Um bitcoin equivale a **100 milhões de satoshis**, permitindo aos utilizadores comprar, vender ou negociar até **fracções muito pequenas de um bitcoin**. De facto, no código fonte da Bitcoin, todas as transacções são contabilizadas em satoshis, e o termo "bitcoin" aparece apenas na "coinbase", a transação especial que os mineiros criam para receber a sua recompensa.
+Não é necessário comprar exatamente 1 Bitcoin, porque o Bitcoin é divisível em subunidades chamadas satoshis, nome dado em honra do seu criador anónimo. Um bitcoin equivale a **100 milhões de satoshis**, permitindo aos utilizadores comprar, vender ou negociar até **fracções muito pequenas de um bitcoin**. De facto, no código fonte da Bitcoin, todas as transacções são contabilizadas em satoshis, e o termo "bitcoin" aparece apenas na "[coinbase](https://planb.academy/resources/glossary/coinbase-transaction)", a transação especial que os mineiros criam para receber a sua recompensa.
 
 Além disso, o total de 21 milhões de bitcoins - ou **2,1 quadriliões de satoshis** - pode ser eficientemente representado por um número inteiro de 64 bits. Isto significa que, apesar de um preço elevado por bitcoin inteiro, este permanece acessível a uma vasta gama de investidores graças à sua divisibilidade. Por conseguinte, não é necessário adquirir uma bitcoin inteira para participar na rede ou investir neste ativo digital.
 
@@ -604,7 +602,7 @@ Para saber mais sobre os métodos de exploração mineira, pode [consultar a sec
 
 - **Comprar Bitcoin:**
 
-Este é, de longe, o método mais comum, efectuado através de trocas peer-to-peer ou, mais tipicamente, em plataformas de negociação especializadas. No entanto, ao adquirir Bitcoin como um ativo de tesouraria empresarial, as empresas têm de cumprir normas regulamentares robustas e procedimentos "Know-Your-Customer" (KYC). Quando a compram em plataformas de negociação especializadas, as empresas são normalmente obrigadas a fornecer informações detalhadas sobre a empresa, incluindo documentos de identificação, extractos financeiros e comprovativo de morada, para satisfazer os requisitos KYC e de combate ao branqueamento de capitais (AML).
+Este é, de longe, o método mais comum, efectuado através de trocas peer-to-peer ou, mais tipicamente, em plataformas de negociação especializadas. No entanto, ao adquirir Bitcoin como um ativo de tesouraria empresarial, as empresas têm de cumprir normas regulamentares robustas e procedimentos "Know-Your-Customer" ([KYC](https://planb.academy/resources/glossary/kyc-know-your-customer)). Quando a compram em plataformas de negociação especializadas, as empresas são normalmente obrigadas a fornecer informações detalhadas sobre a empresa, incluindo documentos de identificação, extractos financeiros e comprovativo de morada, para satisfazer os requisitos KYC e de combate ao branqueamento de capitais (AML).
 
 Para saber como abrir uma conta empresarial e utilizá-la para comprar, vender e transferir bitcoins, pode consultar estes dois tutoriais especificamente concebidos para empresas, que abrangem as plataformas Kraken e Bitfinex nas suas versões empresariais:
 
@@ -646,12 +644,12 @@ O sector imobiliário repete frequentemente que "é sempre a altura certa para c
 
 O utilizador não possui fisicamente a Bitcoin. Em vez disso, detém uma chave criptográfica que lhe permite transferir a propriedade de algumas ou todas as suas unidades de conta para uma ou mais chaves criptográficas. Tudo isso ocorre no blockchain do Bitcoin, que é replicado em dezenas de milhares de nós em todo o mundo.
 
-Esta chave criptográfica é um número aleatório extremamente grande. Para simplificar a experiência do utilizador, é frequentemente representada como uma sequência de 12 ou 24 palavras. Estas palavras podem ser carregadas num dispositivo físico conhecido como "carteira de hardware" No entanto, é importante compreender que os bitcoins não estão "dentro" deste dispositivo; é simplesmente uma ferramenta para assinar criptograficamente transacções e transmiti-las para a rede. O que realmente importa são as 12 ou 24 palavras, que devem ser mantidas em segurança.
+Esta chave criptográfica é um número aleatório extremamente grande. Para simplificar a experiência do utilizador, é frequentemente representada como uma sequência de 12 ou 24 palavras. Estas palavras podem ser carregadas num dispositivo físico conhecido como "[carteira de hardware](https://planb.academy/resources/glossary/hardware-wallet)" No entanto, é importante compreender que os bitcoins não estão "dentro" deste dispositivo; é simplesmente uma ferramenta para assinar criptograficamente transacções e transmiti-las para a rede. O que realmente importa são as 12 ou 24 palavras, que devem ser mantidas em segurança.
 
 Isto leva à questão da custódia: deter Bitcoin significa deter a(s) chave(s). Ou é o próprio utilizador que as detém, ou delega essa tarefa a terceiros. Existem também soluções intermédias. Vamos rever os cenários mais comuns:
 
 
-- **Auto-Custódia:**
+- **[Auto-Custódia](https://planb.academy/resources/glossary/selfcustody):**
 
 Esta é a opção recomendada pelos verdadeiros entusiastas da Bitcoin, uma vez que está alinhada com o design original da Bitcoin. O utilizador age como o seu próprio banco: não existe o risco de um terceiro o defraudar, mas o utilizador é responsável pela segurança da(s) chave(s). Tem acesso total aos seus fundos 24 horas por dia, 7 dias por semana. Num contexto empresarial, se várias pessoas precisarem de efetuar transacções, serão necessárias ferramentas e procedimentos adequados para gerir o acesso e a segurança.
 
@@ -667,7 +665,7 @@ Trata-se de instrumentos financeiros tradicionais que representam fracções de 
 
 ![BIZ101](assets/pt/014.webp)
 
-Além disso, a forma como detém a Bitcoin tem um impacto significativo nas medidas de segurança necessárias para salvaguardar a tesouraria da sua empresa. Quer opte pela auto-custódia, utilizando carteiras de hardware de assinatura única ou multi-assinatura, etc. para manter o controlo direto das suas chaves, quer delegue esta tarefa a serviços de custódia de terceiros ou ETF, cada opção tem o seu próprio perfil de risco. Por exemplo, a auto-custódia oferece acesso total, mas exige protocolos de segurança internos rigorosos, enquanto as soluções de terceiros reduzem os encargos de gestão à custa do risco de contraparte. Para ilustrar melhor as distinções, este gráfico descreve o modelo de segurança para cada tipo de custódia, ajudando-o a selecionar a abordagem mais adequada às necessidades da sua organização:
+Além disso, a forma como detém a Bitcoin tem um impacto significativo nas medidas de segurança necessárias para salvaguardar a tesouraria da sua empresa. Quer opte pela auto-custódia, utilizando carteiras de hardware de assinatura única ou [multi-assinatura](https://planb.academy/resources/glossary/multisig), etc. para manter o controlo direto das suas chaves, quer delegue esta tarefa a serviços de custódia de terceiros ou ETF, cada opção tem o seu próprio perfil de risco. Por exemplo, a auto-custódia oferece acesso total, mas exige protocolos de segurança internos rigorosos, enquanto as soluções de terceiros reduzem os encargos de gestão à custa do risco de contraparte. Para ilustrar melhor as distinções, este gráfico descreve o modelo de segurança para cada tipo de custódia, ajudando-o a selecionar a abordagem mais adequada às necessidades da sua organização:
 
 ![BIZ101](assets/pt/015.webp)
 
@@ -848,7 +846,7 @@ Nos capítulos seguintes, detalharemos cada perfil de empresa e as soluções ad
 
 <chapterId>7edda53d-5b9f-432a-8493-115de8c94a67</chapterId>
 
-O perfil Starter é projetado para empresas, criadores e indivíduos que desejam explorar os pagamentos com Bitcoin sem comprometer recursos substanciais ou experiência. Estes são tipicamente aqueles que lidam com um volume muito pequeno de transacções (talvez algumas gorjetas, doações ou vendas ocasionais) e procuram uma introdução simples e leve ao ecossistema Bitcoin e Lightning Network. O principal valor da abordagem Starter reside na sua configuração mínima: na maioria dos casos, tudo o que é necessário é um smartphone ou tablet equipado com uma carteira básica compatível com Lightning.
+O perfil Starter é projetado para empresas, criadores e indivíduos que desejam explorar os pagamentos com Bitcoin sem comprometer recursos substanciais ou experiência. Estes são tipicamente aqueles que lidam com um volume muito pequeno de transacções (talvez algumas gorjetas, doações ou vendas ocasionais) e procuram uma introdução simples e leve ao ecossistema Bitcoin e Lightning Network. O principal valor da abordagem Starter reside na sua configuração mínima: na maioria dos casos, tudo o que é necessário é um smartphone ou tablet equipado com uma [carteira](https://planb.academy/resources/glossary/wallet) básica compatível com Lightning.
 
 ![BIZ101-profiles](assets/pt/017.webp)
 
@@ -858,7 +856,7 @@ As duas configurações de carteira mais comuns para o perfil Starter envolvem a
 
 ![BIZ101-profiles](assets/pt/018.webp)
 
-Embora as preocupações com a segurança possam parecer menos urgentes quando as transacções são pequenas, é, no entanto, crucial pôr em prática medidas de proteção básicas. Mesmo um único smartphone ou tablet utilizado para receber pagamentos em Bitcoin deve ser bloqueado por uma palavra-passe ou segurança biométrica, e os procedimentos de cópia de segurança (que vão desde o controlo das credenciais de início de sessão para uma carteira de custódia até à salvaguarda de uma frase-semente para uma carteira sem custódia) devem ser levados a sério. Os funcionários que lidam com transacções num ambiente físico beneficiariam se conhecessem os princípios básicos: como abrir a aplicação, como apresentar um código QR ao cliente e como verificar se o pagamento chegou efetivamente.
+Embora as preocupações com a segurança possam parecer menos urgentes quando as transacções são pequenas, é, no entanto, crucial pôr em prática medidas de proteção básicas. Mesmo um único smartphone ou tablet utilizado para receber pagamentos em Bitcoin deve ser bloqueado por uma palavra-passe ou segurança biométrica, e os procedimentos de cópia de segurança (que vão desde o controlo das credenciais de início de sessão para uma carteira de custódia até à salvaguarda de uma [frase-semente](https://planb.academy/resources/glossary/recovery-phrase) para uma carteira sem custódia) devem ser levados a sério. Os funcionários que lidam com transacções num ambiente físico beneficiariam se conhecessem os princípios básicos: como abrir a aplicação, como apresentar um código QR ao cliente e como verificar se o pagamento chegou efetivamente.
 
 A contabilidade e a elaboração de relatórios, embora relativamente simples no âmbito do perfil Starter, merecem ainda assim uma atenção especial. Embora o volume de transacções possa ser mínimo, a manutenção de registos precisos evita confusões e ajuda a manter a transparência em caso de auditorias financeiras ou declarações fiscais. Muitas aplicações de carteira permitem aos utilizadores exportar um histórico básico de transacções como um ficheiro CSV; para uma pequena empresa ou um empresário individual, guardar estes ficheiros regularmente pode facilitar a reconciliação das contas. Também é aconselhável registar o valor fiduciário aproximado (por exemplo, em euros ou dólares) no momento em que cada transação é recebida. Uma vez que o preço da Bitcoin pode flutuar, ter um registo das taxas de conversão é inestimável para a contabilidade e o cumprimento das obrigações fiscais.
 
@@ -978,7 +976,7 @@ A esta escala, o objetivo global não é simplesmente aceitar Bitcoin, mas fazê
 
 No contexto de uma empresa, a complexidade operacional torna-se especialmente acentuada. Uma grande empresa pode precisar de acomodar vários departamentos (vendas, marketing, desenvolvimento, finanças e contabilidade), cada um com responsabilidades e requisitos de dados distintos. Neste cenário, uma plataforma de pagamento Bitcoin deve oferecer uma gestão de funções altamente granular, permitindo que cada departamento aceda precisamente às funções relevantes para as suas tarefas, preservando simultaneamente um controlo rigoroso da segurança e da integridade dos dados. Igualmente essencial é a capacidade de personalizar os fluxos de trabalho: por exemplo, os pagamentos recebidos podem desencadear actualizações nos sistemas de inventário, enviar notificações automáticas aos gestores de vendas e atualizar as entradas do livro-razão para a equipa financeira, tudo em tempo real. Os próprios dispositivos de ponto de venda são normalmente adaptados ao ambiente empresarial, com interfaces de software personalizadas que correspondem à marca e às necessidades operacionais da empresa.
 
-**A segurança** é fundamental para as empresas de escala empresarial. Elevados volumes de transacções e somas potencialmente elevadas de Bitcoin requerem uma infraestrutura robusta capaz de defender contra ataques maliciosos ou ameaças internas. As melhores práticas incluem frequentemente configurações de tesouraria com várias assinaturas e timelocks, bases de código cuidadosamente auditadas e uma adesão rigorosa aos quadros regulamentares relevantes. Além disso, a conformidade com os regulamentos financeiros locais e internacionais pode ser essencial para preservar a reputação da empresa e a licença para operar.
+**A segurança** é fundamental para as empresas de escala empresarial. Elevados volumes de transacções e somas potencialmente elevadas de Bitcoin requerem uma infraestrutura robusta capaz de defender contra ataques maliciosos ou ameaças internas. As melhores práticas incluem frequentemente configurações de tesouraria com várias assinaturas e [timelocks](https://planb.academy/resources/glossary/timelock), bases de código cuidadosamente auditadas e uma adesão rigorosa aos quadros regulamentares relevantes. Além disso, a conformidade com os regulamentos financeiros locais e internacionais pode ser essencial para preservar a reputação da empresa e a licença para operar.
 
 O **desenvolvimento personalizado** envolvido na criação ou integração de uma solução de pagamento Bitcoin de nível empresarial vai para além da codificação de algumas funcionalidades da aplicação. Normalmente, requer um design arquitetónico, protocolos de teste minuciosos e uma implementação estruturada que pode abranger várias fases (programas piloto iniciais, testes de mercado limitados e eventual implementação global).
 

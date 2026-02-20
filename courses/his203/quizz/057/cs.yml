@@ -1,0 +1,11 @@
+question: Jakou událost 15. dubna 2011 pokeroví hráči nazvali "Černý pátek"?
+answer: Zavření hlavních amerických online pokerových platforem ze strany FBI kvůli obcházení zákona UIGEA
+wrong_answers:
+  - Nabídka některých online pokerových heren nabízí velké propagační akce na rake a buy-in poplatky
+  - Závažná chyba v softwaru pro online poker umožnila přesměrovat finanční prostředky na nákup šperků a golfových míčků
+  - Amatérský hráč Chris Moneymaker vyhrál hlavní turnaj World Poker Championship po tréninku on-line
+explanation: |
+ Byli obviněni z toho, že se vydávali za běžné obchodníky, aby přiměli své banky k potvrzení příchozích převodů, které byly zakázány zákonem o nezákonných internetových hrách
+ Z roku 2006. Toto uzavření mělo pro odvětví online pokeru katastrofální následky. Podnítilo vznik několika bitcoinových pokerových platforem, neboť
+ kryptoměna nepodléhala stejným omezením.
+reviewed: true

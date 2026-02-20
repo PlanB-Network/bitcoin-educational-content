@@ -1,0 +1,10 @@
+question: Missä subredditissä käyttäjät saattoivat julkaista itsestään alastonkuvia bitcoin-vinkkejä vastaan maaliskuulta 2012?
+answer: r/GirlsGoneBitcoin
+wrong_answers:
+  - r/GoneWild
+  - r/CryptoPorn
+  - r/Bitcoin
+explanation: |
+ r/GirlsGoneBitcoinin avasi 26. maaliskuuta 2012 Julian Tosh eli Tuxavant, Las Vegasissa asuva Linux- ja yksityisyydensuojan puolestapuhuja. Subredditissä oli lähes
+ 2 000 jäsentä vuoden loppuun mennessä.
+reviewed: true

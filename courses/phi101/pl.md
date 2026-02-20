@@ -1217,7 +1217,7 @@ Systematyczne badania praw ekonomicznych rozpoczynają się w późnym średniow
 ![image](assets/pl/049.webp)
 
 
-W sercu jego analizy monetarnej leży problem "mutacji" pieniądza, czyli zmian w zawartości metalu w monetach i ich nominałach. Zmiany te miały miejsce od zarania dziejów i są dobrze udokumentowane w starożytności i średniowieczu. Ich najbardziej widocznym efektem jest zmiana siły nabywczej jednostki monetarnej, a zwłaszcza jej zmniejszenie. Jest to prymitywna forma inflacji, którą Oresme wyraźnie potępia jako zło.
+W sercu jego analizy monetarnej leży problem "mutacji" pieniądza, czyli zmian w zawartości metalu w monetach i ich nominałach. Zmiany te miały miejsce od zarania dziejów i są dobrze udokumentowane w starożytności i średniowieczu. Ich najbardziej widocznym efektem jest zmiana siły nabywczej jednostki monetarnej, a zwłaszcza jej zmniejszenie. Jest to prymitywna forma [inflacji](https://planb.academy/resources/glossary/inflation), którą Oresme wyraźnie potępia jako zło.
 
 
 Oresme natychmiast stawia kluczowe pytanie: czy inflacja jest korzystna dla społeczności? Odpowiada przecząco, argumentując, że inflacja nie czyni pieniądza mniej lub bardziej użytecznym w wymianie. Gospodarka może dobrze funkcjonować niezależnie od poziomu cen, a tym samym niezależnie od nominalnego pieniądza Supply.
@@ -1469,7 +1469,7 @@ Nie ma potrzeby udowadniać, że każda osoba jest jedynym sędzią w kwestii na
 W tym miejscu Turgot w dużej mierze antycypuje argument Misesa i Hayeka dotyczący niemożliwości jakiejkolwiek kalkulacji ekonomicznej w socjalistycznym systemie gospodarczym.
 
 
-Poświęcając rozdział "Błyskotliwości Turgota", Murray Rothbard w swojej historii gospodarczej z perspektywy austriackiej podkreśla, że "wpływ Turgota na późniejszą myśl ekonomiczną był poważnie ograniczony (...) przez następujący mit, że Adam Smith był założycielem ekonomii politycznej" I dodaje: "to na Francuza J.B. Saya, oficjalnie zwolennika Smitha, Turgot wywarł ostatecznie największy wpływ, zwłaszcza jego teoria wartości użytkowej"
+Poświęcając rozdział "Błyskotliwości Turgota", Murray Rothbard w swojej historii gospodarczej z perspektywy [austriackiej](https://planb.academy/resources/glossary/austrian-school) podkreśla, że "wpływ Turgota na późniejszą myśl ekonomiczną był poważnie ograniczony (...) przez następujący mit, że Adam Smith był założycielem ekonomii politycznej" I dodaje: "to na Francuza J.B. Saya, oficjalnie zwolennika Smitha, Turgot wywarł ostatecznie największy wpływ, zwłaszcza jego teoria wartości użytkowej"
 
 
 ### Arcydzieło Condillac
@@ -2286,7 +2286,7 @@ Dla Hayeka niestabilność gospodarki rynkowej w przeszłości wynikała z faktu
 ![image](assets/pl/101.webp)
 
 
-Hayek wierzył, że wolny rynek prywatnych walut doprowadzi do większej stabilności monetarnej. Prawie 50 lat później kryptowaluta taka jak Bitcoin ucieleśnia konkurencyjną wizję Hayeka, oferując zdecentralizowaną alternatywę dla monopolistycznego systemu banków centralnych. Bitcoin, z limitem emisji wynoszącym 21 milionów jednostek, jest gwarancją ochrony przed inflacją i arbitralnością organów regulacyjnych.
+Hayek wierzył, że wolny rynek prywatnych walut doprowadzi do większej stabilności monetarnej. Prawie 50 lat później [kryptowaluta](https://planb.academy/resources/glossary/cryptocurrency) taka jak Bitcoin ucieleśnia konkurencyjną wizję Hayeka, oferując zdecentralizowaną alternatywę dla monopolistycznego systemu banków centralnych. Bitcoin, z limitem emisji wynoszącym 21 milionów jednostek, jest gwarancją ochrony przed inflacją i arbitralnością organów regulacyjnych.
 
 
 

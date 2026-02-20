@@ -1,0 +1,11 @@
+question: Hva var pseudonymet til den opprinnelige skaperen av det nettbaserte terningspillet SatoshiDICE?
+answer: Fireduck
+wrong_answers:
+  - Evoorhees
+  - Tuxavant
+  - Hippich
+explanation: |
+ Joseph Gleason, også kjent som Fireduck, var en 30 år gammel amerikansk utvikler. Etter å ha programmert noen programvareverktøy for Bitcoin, utviklet han bitcoin-kasinoet SatoshiDICE
+ kasinoet (som presenterte seg som et terningspill) den 9. april 2012. Noen uker senere solgte han plattformen til Erik Voorhees (Evoorhees) for 40 bitcoins, eller
+ rundt 200 dollar.
+reviewed: true

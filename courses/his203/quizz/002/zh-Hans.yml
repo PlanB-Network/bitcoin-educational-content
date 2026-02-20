@@ -1,0 +1,10 @@
+question: 是什么协议阻止了丝绸之路市场直接被当局关闭？
+answer: 托尔
+wrong_answers:
+  - I2P
+  - Freenet
+  - BitTorrent
+explanation: |
+ Tor 是 "洋葱路由器"（The Onion Router）的首字母缩写，是一个支持全球分散式覆盖计算机网络（俗称暗网）的协议。
+ 它使网站能够匿名托管，不受审查，非常适合罗斯-乌尔布里奇特的项目。
+reviewed: true

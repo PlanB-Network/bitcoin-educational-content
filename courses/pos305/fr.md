@@ -74,7 +74,7 @@ Après les mots prononcés par Nicolas, il était temps de commencer à construi
 Qu'entend-on par "open source" et qu'est-ce qui entre dans la composition d'un tel projet ?
 
 
-FOSS est l'acronyme de Free & Open-Source Software (logiciel libre et gratuit). Le premier terme fait référence aux conditions qui permettent à quiconque de copier, modifier et même distribuer des versions (même à des fins lucratives) du logiciel. Le second fait référence au partage ouvert du code source, encourageant le public à y contribuer et à l'améliorer.
+[FOSS](https://planb.academy/resources/glossary/foss) est l'acronyme de Free & Open-Source Software (logiciel libre et gratuit). Le premier terme fait référence aux conditions qui permettent à quiconque de copier, modifier et même distribuer des versions (même à des fins lucratives) du logiciel. Le second fait référence au partage ouvert du code source, encourageant le public à y contribuer et à l'améliorer.
 
 Cela attire des utilisateurs expérimentés qui sont enthousiastes à l'idée de contribuer au logiciel qu'ils utilisent déjà et dont ils tirent de la valeur, ce qui s'avère en fin de compte plus efficace en termes d'adoption que les logiciels propriétaires. Elle est conforme à l'éthique de Bitcoin selon laquelle "l'information aspire à être libre" Il rassemble des personnes passionnées qui forment une communauté et il est tout simplement plus amusant. Comme Bitcoin, le logiciel libre est inévitable.
 
@@ -122,13 +122,13 @@ La Fondation BTCPay Server, qui a permis à Alekos et Bas de rédiger ce cours, 
 Il s'agit d'un exercice en classe, donc si vous suivez ce cours vous-même, vous ne pouvez pas le réaliser, mais vous pouvez quand même faire cet exercice. Pour réaliser cette tâche, un minimum de 9 à 11 personnes est nécessaire.
 
 
-L'exercice commence après le visionnage de l'introduction "How Bitcoin and the Blockchain works" de la BBC.
+L'exercice commence après le visionnage de l'introduction "How Bitcoin and the [Blockchain](https://planb.academy/resources/glossary/blockchain) works" de la BBC.
 
 
 :::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
 
-Cet exercice requiert un minimum de neuf participants. Cet exercice vise à fournir une compréhension physique du fonctionnement de Bitcoin. En jouant chaque rôle dans le réseau, vous apprendrez de manière interactive et ludique. Cet exercice n'implique pas Lightning Network.
+Cet exercice requiert un minimum de neuf participants. Cet exercice vise à fournir une compréhension physique du fonctionnement de Bitcoin. En jouant chaque rôle dans le réseau, vous apprendrez de manière interactive et ludique. Cet exercice n'implique pas [Lightning Network](https://planb.academy/resources/glossary/lightning-network).
 
 
 ### Exemple : Besoin de 9 / 11 personnes
@@ -140,7 +140,7 @@ Les rôles sont les suivants :
 
 - 1 Client
 - 1 Marchand
-- 7 à 9 nœuds Bitcoin
+- 7 à 9 [nœuds](https://planb.academy/resources/glossary/node) Bitcoin
 
 
 **La configuration est la suivante:**
@@ -177,22 +177,22 @@ Les clients achètent un produit dans le magasin avec Bitcoin.
 
 - Mise en place :
   - Voir les diagrammes/explications dans le Figjam - [Schéma de l'activité](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0) ci-joint.
-  - Remplacer la banque par neuf élèves qui joueront le rôle d'un ordinateur (Bitcoin nœuds/mineurs) dans un réseau destiné à remplacer la banque.
+  - Remplacer la banque par neuf élèves qui joueront le rôle d'un ordinateur (Bitcoin nœuds/[mineurs](https://planb.academy/resources/glossary/miner)) dans un réseau destiné à remplacer la banque.
 - Chacun des neuf ordinateurs dispose d'un historique complet de toutes les transactions passées (ce qui permet d'obtenir des soldes exacts sans falsification), ainsi que d'un ensemble de règles :
   - Vérifier que la transaction est correctement signée (thekeyfitsthelock)
   - Diffuser et recevoir des transactions valides aux pairs du réseau, rejeter les transactions non valides (y compris celles qui tentent de dépenser deux fois les mêmes fonds)
-- Mise à jour/ajout périodique des enregistrements avec les nouvelles transactions reçues de l'ordinateur "aléatoire", à condition que tous les contenus soient valides (remarque : nous ignorons, pour l'instant, la composante Proof of Work de tout ceci, pour des raisons de simplicité), sinon nous les rejetons et continuons comme avant jusqu'à ce que le prochain ordinateur "aléatoire" envoie une mise à jour
+- Mise à jour/ajout périodique des enregistrements avec les nouvelles transactions reçues de l'ordinateur "aléatoire", à condition que tous les contenus soient valides (remarque : nous ignorons, pour l'instant, la composante [Proof of Work](https://planb.academy/resources/glossary/proof-of-work) de tout ceci, pour des raisons de simplicité), sinon nous les rejetons et continuons comme avant jusqu'à ce que le prochain ordinateur "aléatoire" envoie une mise à jour
   - Le montant approprié était récompensé si le contenu était valide.
 - Jouez la séquence des événements :
   - Client - il parcourt le magasin en ligne et trouve un article à 25 $ qu'il veut, et informe le commerçant qu'il souhaite l'acheter
-  - Le marchand demande le paiement en envoyant au client une Invoice/Address à partir de sa Wallet.
+  - Le marchand demande le paiement en envoyant au client une Invoice/Address à partir de sa [Wallet](https://planb.academy/resources/glossary/wallet).
   - Le client effectue une transaction (envoi de 25 $ de BTC à un Address fourni par le marchand) et la diffuse sur le réseau Bitcoin.
 - Ordinateurs - reçoivent la transaction et la vérifient :
   - Il y a au moins 25 $ de BTC dans le Address envoyé de
   - La transaction est signée correctement ("déverrouillée" par le client)
   - Si ce n'est pas le cas, la transaction ne sera pas propagée dans le réseau, et si c'est le cas, elle se propagera et sera mise en attente.
   - Les commerçants peuvent vérifier que la transaction est en attente.
-- Un ordinateur est choisi "au hasard" pour proposer de finaliser la transaction proposée en diffusant "un bloc" la contenant ; si elle est vérifiée, il recevra une récompense en BTC.
+- Un ordinateur est choisi "au hasard" pour proposer de finaliser la transaction proposée en diffusant "un [bloc](https://planb.academy/resources/glossary/block)" la contenant ; si elle est vérifiée, il recevra une récompense en BTC.
   - OPTIONNEL/AMÉLIORÉ - au lieu de sélectionner un ordinateur au hasard, simuler Mining en demandant aux ordinateurs de lancer des dés jusqu'à ce qu'un résultat prédéterminé se produise (par exemple, le premier à obtenir un double six est sélectionné)
   - Il peut également reproduire ce qui se passerait si deux ordinateurs gagnaient à peu près simultanément, ce qui entraînerait une scission en chaîne.
   - Les ordinateurs vérifient la validité, mettent à jour/ajoutent des enregistrements à leurs grands livres si les règles sont respectées et diffusent le bloc de transactions à leurs homologues.
@@ -205,7 +205,7 @@ Les clients achètent un produit dans le magasin avec Bitcoin.
   - Aucune confiance n'est requise entre les personnes (autres que le marchand qui envoie l'objet), comme pour un achat en espèces à bien des égards.
   - L'argent appartient directement aux individus.
   - Le Bitcoin Ledger est représenté en dollars pour plus de simplicité, mais en réalité, il s'agit de BTC.
-  - Nous simulons la diffusion d'une seule transaction, mais en réalité, plusieurs transactions sont en attente dans le réseau, et les blocs comprennent des milliers de transactions à la fois. Les nœuds vérifient également qu'aucune transaction à double dépense n'est en attente (dans ce cas, j'écarterais toutes les transactions sauf une).
+  - Nous simulons la diffusion d'une seule transaction, mais en réalité, plusieurs transactions sont en attente dans le réseau, et les blocs comprennent des milliers de transactions à la fois. Les nœuds vérifient également qu'aucune transaction à [double dépense](https://planb.academy/resources/glossary/double-spending-attack) n'est en attente (dans ce cas, j'écarterais toutes les transactions sauf une).
 - Scénarios de tricherie :
   - Que se passe-t-il si le client ne dispose pas de 25 BTC ?
     - Ils ne pourraient pas créer la transaction car "déverrouiller" et "Ownership" sont la même chose, et les ordinateurs vérifient que la transaction est correctement signée ; dans le cas contraire, ils la rejettent
@@ -234,15 +234,15 @@ Définir les termes clés suivants introduits dans la section précédente :
 
 
 - Nœud
-- Mempool
-- Difficulté Cible
+- [Mempool](https://planb.academy/resources/glossary/mempool)
+- [Difficulté](https://planb.academy/resources/glossary/difficulty) Cible
 - Bloc
 
 
 **Discuter en groupe de la signification de certains termes supplémentaires:**
 
 
-Blockchain, transaction, double dépense, problème byzantin des généraux, Mining, Proof of Work (PoW), Hash fonction, Block reward, Blockchain, chaîne la plus longue, attaque à 51 %, sortie, verrouillage de la sortie, changement, satoshis, clé publique/privée, Address, cryptographie à clé publique, signature numérique, Wallet
+Blockchain, transaction, double dépense, problème byzantin des généraux, [Mining](https://planb.academy/resources/glossary/mining), Proof of Work (PoW), [Hash fonction](https://planb.academy/resources/glossary/hash-function), Block reward, Blockchain, chaîne la plus longue, attaque à 51 %, sortie, verrouillage de la sortie, changement, [satoshis](https://planb.academy/resources/glossary/satoshi-sat), [clé publique](https://planb.academy/resources/glossary/public-key)/privée, Address, [cryptographie](https://planb.academy/resources/glossary/cryptography) à clé publique, [signature numérique](https://planb.academy/resources/glossary/digital-signature), Wallet
 
 
 # Présentation du serveur BTCPay
@@ -260,7 +260,7 @@ Blockchain, transaction, double dépense, problème byzantin des généraux, Min
 ### Travailler avec le serveur BTCPay
 
 
-L'objectif de ce bloc de cours est d'acquérir une compréhension générale du logiciel BTCPay Server. Dans un environnement partagé, il est recommandé de suivre la démonstration de l'instructeur et de se référer au manuel de cours de BTCPay Server pour suivre le professeur. Vous apprendrez à créer une Wallet à l'aide de plusieurs méthodes. Les exemples incluent des configurations Hot Wallet et des portefeuilles matériels connectés via BTCPay Server Vault. Ces objectifs se déroulent dans l'environnement de démonstration, affiché et accessible par votre instructeur de cours.
+L'objectif de ce bloc de cours est d'acquérir une compréhension générale du logiciel BTCPay Server. Dans un environnement partagé, il est recommandé de suivre la démonstration de l'instructeur et de se référer au manuel de cours de BTCPay Server pour suivre le professeur. Vous apprendrez à créer une Wallet à l'aide de plusieurs méthodes. Les exemples incluent des configurations Hot Wallet et des [portefeuilles matériels](https://planb.academy/resources/glossary/hardware-wallet) connectés via BTCPay Server Vault. Ces objectifs se déroulent dans l'environnement de démonstration, affiché et accessible par votre instructeur de cours.
 
 
 Si vous suivez ce cours par vous-même, vous pouvez trouver une liste d'hôtes tiers à des fins de démonstration à l'adresse https://directory.btcpayserver.org/filter/hosts. Nous déconseillons fortement d'utiliser ces options tierces comme environnements de production ; cependant, elles servent à introduire l'utilisation de Bitcoin et de BTCPay Server.
@@ -573,7 +573,7 @@ Dans cette section, vous avez appris
 ### Qu'est-ce qui permet de générer les clés Bitcoin ?
 
 
-Les portefeuilles Bitcoin, lorsqu'ils sont créés, créent ce que l'on appelle un "seed". Dans le dernier objectif, vous avez créé un "seed". La série de mots générée précédemment est également connue sous le nom de phrases Mnemonic. La seed est utilisée pour dériver les clés Bitcoin individuelles et pour envoyer ou recevoir des Bitcoin. Les phrases seed ne doivent jamais être partagées avec des tiers ou des pairs non fiables.
+Les portefeuilles Bitcoin, lorsqu'ils sont créés, créent ce que l'on appelle un "[seed](https://planb.academy/resources/glossary/seed)". Dans le dernier objectif, vous avez créé un "seed". La série de mots générée précédemment est également connue sous le nom de phrases Mnemonic. La seed est utilisée pour dériver les clés Bitcoin individuelles et pour envoyer ou recevoir des Bitcoin. Les phrases seed ne doivent jamais être partagées avec des tiers ou des pairs non fiables.
 
 
 La génération de seed est réalisée selon la norme industrielle connue sous le nom de cadre "déterministe hiérarchique" (HD).
@@ -618,7 +618,7 @@ Les clés publiques sont moins utilisées dans la pratique aujourd'hui. Au fil d
 
 
 
-- Les portefeuilles HD, cependant, utilisent une structure différente. les clés `xpub...`, `ypub...` ou `zpub...` sont appelées clés publiques étendues, ou xpubs. Ces clés sont utilisées pour dériver de nombreuses clés publiques dans le cadre du HD Wallet. Comme votre xpub contient les enregistrements de tout votre historique, c'est-à-dire les transactions passées et futures, ne les partagez jamais avec des parties non fiables.
+- Les portefeuilles HD, cependant, utilisent une structure différente. les clés `xpub...`, `ypub...` ou `zpub...` sont appelées clés publiques étendues, ou [xpubs](https://planb.academy/resources/glossary/xpub). Ces clés sont utilisées pour dériver de nombreuses clés publiques dans le cadre du HD Wallet. Comme votre xpub contient les enregistrements de tout votre historique, c'est-à-dire les transactions passées et futures, ne les partagez jamais avec des parties non fiables.
 
 
 ### Résumé des compétences
@@ -649,13 +649,13 @@ Décrivez l'avantage de l'utilisation d'adresses fraîches pour chaque transacti
 Après avoir généré une phrase seed, la liste de 12 à 24 mots générée dans ce livre nécessite des sauvegardes et une sécurité appropriées, car ces mots sont le seul moyen de récupérer l'accès à une Wallet. La structure des portefeuilles HD et la façon dont ils génèrent des adresses de manière déterministe en utilisant une seule seed signifie que toutes les adresses créées seront sauvegardées en utilisant cette seule liste de mots Mnemonic, qui représente votre seed ou votre phrase de récupération.
 
 
-Protégez votre phrase de recouvrement. Si quelqu'un y accède, notamment avec des intentions malveillantes, il peut déplacer vos fonds. Garder la seed en sécurité, tout en se rappelant qu'il s'agit d'un échange mutuel. Il existe plusieurs méthodes de stockage des clés privées Bitcoin, chacune présentant des avantages et des inconvénients en termes de sécurité, de confidentialité, de commodité et de stockage physique. En raison de l'importance des clés privées, les utilisateurs du Bitcoin ont tendance à les stocker et à les conserver en toute sécurité en "garde personnelle" plutôt que d'utiliser des services de "garde" comme les banques. Selon l'utilisateur, il doit utiliser soit une solution de stockage Cold, soit une solution Hot Wallet.
+Protégez votre phrase de recouvrement. Si quelqu'un y accède, notamment avec des intentions malveillantes, il peut déplacer vos fonds. Garder la seed en sécurité, tout en se rappelant qu'il s'agit d'un échange mutuel. Il existe plusieurs méthodes de stockage des [clés privées](https://planb.academy/resources/glossary/private-key) Bitcoin, chacune présentant des avantages et des inconvénients en termes de sécurité, de confidentialité, de commodité et de stockage physique. En raison de l'importance des clés privées, les utilisateurs du Bitcoin ont tendance à les stocker et à les conserver en toute sécurité en "garde personnelle" plutôt que d'utiliser des services de "garde" comme les banques. Selon l'utilisateur, il doit utiliser soit une solution de stockage Cold, soit une solution Hot Wallet.
 
 
 ### Hot et Cold stockage des clés Bitcoin
 
 
-En général, les portefeuilles Bitcoin sont libellés en Hot Wallet ou en Cold Wallet. La plupart des compromis portent sur la commodité, la facilité d'utilisation et les risques de sécurité. Chacune de ces méthodes peut également être utilisée dans le cadre d'une solution de dépôt. Toutefois, les compromis sont principalement liés à la sécurité et à la protection de la vie privée et dépassent le cadre de ce cours.
+En général, les portefeuilles Bitcoin sont libellés en Hot Wallet ou en [Cold Wallet](https://planb.academy/resources/glossary/cold-wallet). La plupart des compromis portent sur la commodité, la facilité d'utilisation et les risques de sécurité. Chacune de ces méthodes peut également être utilisée dans le cadre d'une solution de dépôt. Toutefois, les compromis sont principalement liés à la sécurité et à la protection de la vie privée et dépassent le cadre de ce cours.
 
 
 ### Hot Wallet
@@ -670,7 +670,7 @@ Les portefeuilles Hot sont le moyen le plus pratique d'interagir avec le Bitcoin
 Les particuliers placent leur Bitcoin dans un Cold Wallet parce qu'il permet d'isoler les clés privées de l'internet, les protégeant ainsi des menaces potentielles en ligne. La suppression de la connexion à Internet réduit le risque de logiciels malveillants, de logiciels espions et d'échanges de cartes SIM. Le stockage Cold est considéré comme supérieur au stockage Hot en termes de sécurité et d'autonomie, à condition que des précautions adéquates soient prises pour éviter la perte des clés privées Bitcoin. Le stockage Cold convient mieux aux grandes quantités de Bitcoin, qui ne sont pas destinées à être dépensées souvent en raison de la complexité de la configuration Wallet.
 
 
-Il existe différentes méthodes de stockage des clés Bitcoin dans le stockage Cold, des portefeuilles papier aux portefeuilles cérébraux, en passant par les portefeuilles matériels ou, depuis le début, un fichier Wallet. La plupart des portefeuilles utilisent BIP 39 pour generate la phrase seed. Cependant, au sein du logiciel Bitcoin core, il n'y a pas encore de consensus sur son utilisation. Le logiciel Bitcoin core continuera à generate un fichier Wallet.dat, que vous devez stocker dans un emplacement hors ligne sécurisé.
+Il existe différentes méthodes de stockage des clés Bitcoin dans le stockage Cold, des portefeuilles papier aux portefeuilles cérébraux, en passant par les portefeuilles matériels ou, depuis le début, un fichier Wallet. La plupart des portefeuilles utilisent [BIP](https://planb.academy/resources/glossary/bip) 39 pour generate la phrase seed. Cependant, au sein du logiciel Bitcoin core, il n'y a pas encore de consensus sur son utilisation. Le logiciel Bitcoin core continuera à generate un fichier Wallet.dat, que vous devez stocker dans un emplacement hors ligne sécurisé.
 
 
 ### Résumé des compétences
@@ -717,14 +717,14 @@ BTCPay Server comprend les fonctions Wallet standard suivantes :
 - Rescan
 - Paiements tirés
 - Paiements
-- PSBT
+- [PSBT](https://planb.academy/resources/glossary/psbt)
 - Paramètres généraux
 
 
 ### Transactions
 
 
-Les administrateurs peuvent voir les transactions entrantes et sortantes pour les On-Chain Wallet connectés à ce magasin spécifique dans la vue des transactions. Chaque transaction comporte une distinction entre les montants reçus et envoyés. Les transactions reçues seront en Green, et les transactions sortantes seront en rouge. Dans la vue des transactions de BTCPay Server, les administrateurs verront également un ensemble d'étiquettes standard.
+Les administrateurs peuvent voir les transactions entrantes et sortantes pour les On-Chain Wallet connectés à ce magasin spécifique dans la vue des transactions. Chaque transaction comporte une distinction entre les montants reçus et envoyés. Les transactions reçues seront en Green, et les transactions sortantes seront en rouge. Dans la vue des transactions de BTCPay Server, les administrateurs verront également un ensemble d'[étiquettes](https://planb.academy/resources/glossary/label) standard.
 
 
 
@@ -732,8 +732,8 @@ Les administrateurs peuvent voir les transactions entrantes et sortantes pour le
 | ------------------- | ----------------------------------------------- |
 | Application         | Le paiement a été reçu via une facture créée par une application |
 | Facture             | Le paiement a été reçu via une facture          |
-| Payjoin             | Non payé, le minuteur de la facture n'a pas encore expiré |
-| Payjoin-exposé      | L'UTXO a été exposé via une proposition de payjoin dans une facture |
+| [Payjoin](https://planb.academy/resources/glossary/payjoin)             | Non payé, le minuteur de la facture n'a pas encore expiré |
+| Payjoin-exposé      | L'[UTXO](https://planb.academy/resources/glossary/utxo) a été exposé via une proposition de payjoin dans une facture |
 | Demande de paiement | Le paiement a été reçu via une demande de paiement |
 | Paiement            | Le paiement a été envoyé via un paiement ou un remboursement |
 
@@ -1131,7 +1131,7 @@ Dans l'option Lightning Wallet de la barre de menu de gauche, les administrateur
 #### Informations sur le nœud interne
 
 
-Les administrateurs de serveurs peuvent cliquer sur les informations relatives au nœud interne pour afficher l'état de leur serveur (en ligne/hors ligne) et la chaîne de connexion pour Clearnet ou Tor.
+Les administrateurs de serveurs peuvent cliquer sur les informations relatives au nœud interne pour afficher l'état de leur serveur (en ligne/hors ligne) et la chaîne de connexion pour Clearnet ou [Tor](https://planb.academy/resources/glossary/tor).
 
 
 ![image](assets/en/033.webp)

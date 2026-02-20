@@ -1,0 +1,11 @@
+question: Tony76, 20 Nisan 2012'de İpek Yolu pazarında dolandırıcılık yapmak için hangi yöntemi kullandı?
+answer: İşlemlerin erken tamamlanmasını talep etmek için bir satıcı olarak kusursuz itibarını kullanmak
+wrong_answers:
+  - Platformda bitcoin ödemelerinin işlenmesinde teknik bir güvenlik açığından yararlanılması
+  - İpek Yolu'ndaki fiyatları yapay olarak şişirmek için bitcoin fiyatının manipülasyonu
+  - Bir İpek Yolu çalışanına sahte ürün açıklamaları yazdırması için şantaj yapılması
+explanation: |
+ Tony76, alıcıların emanet yerine erken sonuçlandırma yöntemini kullanmalarını talep etmesini sağlayan mükemmel bir üne sahipti. 20 Nisan'ın sembolik bir tarih olması
+ esrar tüketicilerine, bu vesileyle her zamanki ürünlerinde çok sayıda indirim teklif etti ve siparişler yağdı. Daha sonra bitcoinlerle birlikte ortadan kayboldu ve
+ emirlerini hiç yerine getirmedi.
+reviewed: true

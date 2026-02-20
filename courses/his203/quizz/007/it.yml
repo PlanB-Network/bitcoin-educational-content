@@ -1,0 +1,10 @@
+question: Chi era Mark Karpelès prima di rilevare Mt. Gox?
+answer: Uno sviluppatore con la passione per la tecnologia
+wrong_answers:
+  - Un investitore esperto in valute digitali
+  - Attivista libertario motivato dall'ideologia Bitcoin
+  - Un imprenditore specializzato nel trading in borsa
+explanation: |
+ Mark Karpelès è uno sviluppatore francese nato nel 1985, con la passione per i computer e la tecnologia. Non era motivato dall'ideologia o dal profitto,
+ ma dalla curiosità tecnica.
+reviewed: true

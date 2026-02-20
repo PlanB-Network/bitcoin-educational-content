@@ -92,7 +92,7 @@ Zoals bij elke cursus over Plan ₿ Academy, bevat het laatste deel een evaluati
 ### Bitcoin Programmeerfundamenten: Wiskundige kernstructuren
 
 
-Deze cursus vat de essentiële wiskunde achter de cryptografische systemen van Bitcoin samen in een zeer praktische workflow. Concepten worden uitgelegd, gedemonstreerd met voorbeelden en vervolgens geïmplementeerd in Jupyter Notebook. Het idee is eenvoudig: je begrijpt een cryptografische primitieve pas echt als je hem codeert. Tijdens de tweedaagse structuur generate testnetadressen, bouwen en broadcasten studenten transacties en uiteindelijk interageren ze met het netwerk zonder block explorers. Dit alles vereist een stevige basis in eindige velden en elliptische krommen.
+Deze cursus vat de essentiële wiskunde achter de cryptografische systemen van Bitcoin samen in een zeer praktische workflow. Concepten worden uitgelegd, gedemonstreerd met voorbeelden en vervolgens geïmplementeerd in Jupyter Notebook. Het idee is eenvoudig: je begrijpt een cryptografische primitieve pas echt als je hem codeert. Tijdens de tweedaagse structuur generate testnetadressen, bouwen en broadcasten studenten [transacties](https://planb.academy/resources/glossary/transaction-tx) en uiteindelijk interageren ze met het netwerk zonder block explorers. Dit alles vereist een stevige basis in eindige velden en elliptische krommen.
 
 
 ### Eindige velden: De rekenmachine van cryptografie
@@ -103,7 +103,7 @@ Een eindig veld F(p) is een rekenkundig systeem gedefinieerd door een priemgetal
 
 #### Multiplicatief gedrag
 
-Vermenigvuldiging van een willekeurig niet-nul element k met alle elementen van een priemveld levert een permutatie van het veld op. Deze eigenschap garandeert uniformiteit en voorkomt structurele zwakheden, waardoor priemvelden ideaal zijn voor het veilig genereren van sleutels en digitale handtekeningen.
+Vermenigvuldiging van een willekeurig niet-nul element k met alle elementen van een priemveld levert een permutatie van het veld op. Deze eigenschap garandeert uniformiteit en voorkomt structurele zwakheden, waardoor priemvelden ideaal zijn voor het veilig genereren van sleutels en [digitale handtekeningen](https://planb.academy/resources/glossary/digital-signature).
 
 
 #### Delen en de kleine stelling van Fermat
@@ -112,7 +112,7 @@ Delen wordt geïmplementeerd via multiplicatieve inverses. De kleine stelling va
 
 n^(p-1) ≡ 1 (mod p),
 
-dus de inverse is n^(p-2). Python ondersteunt dit direct met `pow(n, -1, p)`. Deze operaties komen voortdurend voor in de onderliggende cryptografische routines van ECDSA en Bitcoin.
+dus de inverse is n^(p-2). Python ondersteunt dit direct met `pow(n, -1, p)`. Deze operaties komen voortdurend voor in de onderliggende cryptografische routines van [ECDSA](https://planb.academy/resources/glossary/ecdsa) en Bitcoin.
 
 
 ### Elliptische krommen: Niet-lineaire structuren voor beveiliging van publieke sleutels
@@ -138,7 +138,7 @@ Eindige velden bieden deterministische, inverteerbare rekenkunde; elliptische kr
 ![lecture](https://www.youtube.com/watch?v=xOXdKuF3UFw)
 
 
-Dit hoofdstuk introduceert elliptische krommen gedefinieerd over eindige velden en legt uit waarom ze de wiskundige ruggengraat vormen van de Bitcoin cryptografie. Terwijl elliptische krommen over reële getallen glad en continu lijken, creëert het toepassen van dezelfde vergelijkingen over een eindig veld een discrete, verspreide verzameling punten. Ondanks het visuele verschil gedragen alle formules voor puntentelling, hellingen en algebraïsche regels zich precies hetzelfde, alleen het rekenen verandert in modulair rekenen. Bitcoin gebruikt de kromme y² = x³ + 7 (secp256k1), die symmetrie en niet-lineair gedrag behoudt, wat essentieel is voor cryptografische veiligheid.
+Dit hoofdstuk introduceert elliptische krommen gedefinieerd over eindige velden en legt uit waarom ze de wiskundige ruggengraat vormen van de Bitcoin [cryptografie](https://planb.academy/resources/glossary/cryptography). Terwijl elliptische krommen over reële getallen glad en continu lijken, creëert het toepassen van dezelfde vergelijkingen over een eindig veld een discrete, verspreide verzameling punten. Ondanks het visuele verschil gedragen alle formules voor puntentelling, hellingen en algebraïsche regels zich precies hetzelfde, alleen het rekenen verandert in modulair rekenen. Bitcoin gebruikt de kromme y² = x³ + 7 (secp256k1), die symmetrie en niet-lineair gedrag behoudt, wat essentieel is voor cryptografische veiligheid.
 
 
 ### Punten verifiëren en eindige veldimplementatie
@@ -155,7 +155,7 @@ Elliptische kromme punten vormen een wiskundige groep onder optelling. De groep 
 ### Cyclische groepen en het discrete logaritme probleem
 
 
-Door een generatorpunt G op een kromme te kiezen kunnen we generate een cyclische groep maken: G, 2G, 3G, ..., nG = 0. De punten lijken niet-lineair en onvoorspelbaar, zelfs als ze opeenvolgend gegenereerd worden. Deze onvoorspelbaarheid creëert de basis voor het discrete logaritmeprobleem: het berekenen van P = sG is eenvoudig, maar het bepalen van s uit P is rekenkundig onuitvoerbaar voor grote groepen. Deze eenrichtingsfunctie maakt cryptografie met openbare sleutels veilig. Scalars (private sleutels) worden in kleine letters geschreven; punten (publieke sleutels) in hoofdletters.
+Door een generatorpunt G op een kromme te kiezen kunnen we generate een cyclische groep maken: G, 2G, 3G, ..., nG = 0. De punten lijken niet-lineair en onvoorspelbaar, zelfs als ze opeenvolgend gegenereerd worden. Deze onvoorspelbaarheid creëert de basis voor het discrete logaritmeprobleem: het berekenen van P = sG is eenvoudig, maar het bepalen van s uit P is rekenkundig onuitvoerbaar voor grote groepen. Deze eenrichtingsfunctie maakt cryptografie met openbare sleutels veilig. Scalars (private sleutels) worden in kleine letters geschreven; punten ([publieke sleutels](https://planb.academy/resources/glossary/public-key)) in hoofdletters.
 
 
 #### Efficiënte scalaire vermenigvuldiging
@@ -178,7 +178,7 @@ Een private sleutel is een willekeurige scalair s; de publieke sleutel is P = sG
 #### Bitcoin Address Schepping
 
 
-Bitcoin adressen zijn hashes van publieke sleutels, niet de ruwe sleutels zelf. Om een generate adres te maken, seriëert u de openbare sleutel in SEC formaat, berekent u hash160 (SHA-256 dan RIPEMD-160), voegt u het netwerkvoorvoegsel toe (0x00 voor mainnet, 0x6F voor testnet), berekent u een controlesom met dubbele SHA-256, voegt u de eerste vier bytes van de controlesom toe en codeert u het resultaat met Base58. Deze codering verwijdert dubbelzinnige tekens en bevat de controlesom om transcriptiefouten te voorkomen. De meerstappenpijplijn verbergt de openbare sleutel totdat een uitgave plaatsvindt, voegt netwerkidentificatie toe en zorgt voor door mensen leesbare, foutbestendige adressen.
+Bitcoin adressen zijn hashes van publieke sleutels, niet de ruwe sleutels zelf. Om een generate adres te maken, seriëert u de openbare sleutel in SEC formaat, berekent u hash160 ([SHA-256](https://planb.academy/resources/glossary/sha256) dan RIPEMD-160), voegt u het netwerkvoorvoegsel toe (0x00 voor mainnet, 0x6F voor testnet), berekent u een controlesom met dubbele SHA-256, voegt u de eerste vier bytes van de controlesom toe en codeert u het resultaat met Base58. Deze codering verwijdert dubbelzinnige tekens en bevat de controlesom om transcriptiefouten te voorkomen. De meerstappenpijplijn verbergt de openbare sleutel totdat een uitgave plaatsvindt, voegt netwerkidentificatie toe en zorgt voor door mensen leesbare, foutbestendige adressen.
 
 
 # Bitcoin Transactie Binnenwerk
@@ -212,13 +212,13 @@ Bitcoin codeert ECDSA-handtekeningen met het DER-formaat:
 - 0x02 + lengte + S bytes
 
 
-Dit voegt overhead toe, waardoor een handtekening van 64 bytes wordt uitgebreid tot ~71-72 bytes. Taproot elimineert deze inefficiëntie door Schnorr-handtekeningen van vaste grootte te gebruiken.
+Dit voegt overhead toe, waardoor een handtekening van 64 bytes wordt uitgebreid tot ~71-72 bytes. [Taproot](https://planb.academy/resources/glossary/taproot) elimineert deze inefficiëntie door [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol)-handtekeningen van vaste grootte te gebruiken.
 
 
 ### Ondertekeningsverbintenissen en het ondertekeningsproces
 
 
-ECDSA-handtekeningen zijn gebaseerd op een verbintenisvergelijking: UG + VP = KG. De ondertekenaar selecteert U- en V-waarden die niet gelijk zijn aan nul en een willekeurige nonce K, waarmee kennis van de privésleutel wordt bewezen zonder deze te onthullen. Het bericht wordt gehasht in Z, een willekeurige K wordt gegenereerd, R is de x-coördinaat van KG en S = (Z + RE)/K. De handtekening is het paar (R, S). De veiligheid hangt kritisch af van het gebruik van een unieke, onvoorspelbare K. Als K wordt hergebruikt of uitlekt, is de privésleutel gecompromitteerd. Moderne implementaties gebruiken deterministische K generatie (RFC 6979) om RNG fouten te voorkomen.
+ECDSA-handtekeningen zijn gebaseerd op een verbintenisvergelijking: UG + VP = KG. De ondertekenaar selecteert U- en V-waarden die niet gelijk zijn aan nul en een willekeurige [nonce](https://planb.academy/resources/glossary/nonce) K, waarmee kennis van de privésleutel wordt bewezen zonder deze te onthullen. Het bericht wordt gehasht in Z, een willekeurige K wordt gegenereerd, R is de x-coördinaat van KG en S = (Z + RE)/K. De handtekening is het paar (R, S). De veiligheid hangt kritisch af van het gebruik van een unieke, onvoorspelbare K. Als K wordt hergebruikt of uitlekt, is de privésleutel gecompromitteerd. Moderne implementaties gebruiken deterministische K generatie (RFC 6979) om RNG fouten te voorkomen.
 
 
 #### Handtekening Verificatie
@@ -245,7 +245,7 @@ Een Bitcoin transactie bestaat uit:
 - locktime (4 bytes)
 
 
-Ingangen verwijzen naar eerdere UTXO's door hun transactiehash en uitvoerindex, en bevatten een ontgrendelingsscript (scriptSig) en een volgnummer dat wordt gebruikt voor tijdsloten of RBF. Uitgangen specificeren het bedrag (8 bytes) en het vergrendelingsscript (scriptPubKey), die de bestedingsvoorwaarden definiëren. Bitcoin adressen zijn representaties van deze scripts.
+Ingangen verwijzen naar eerdere [UTXO](https://planb.academy/resources/glossary/utxo)'s door hun transactiehash en uitvoerindex, en bevatten een ontgrendelingsscript (scriptSig) en een volgnummer dat wordt gebruikt voor tijdsloten of RBF. Uitgangen specificeren het bedrag (8 bytes) en het vergrendelingsscript (scriptPubKey), die de bestedingsvoorwaarden definiëren. Bitcoin adressen zijn representaties van deze [scripts](https://planb.academy/resources/glossary/script).
 
 
 #### Het UTXO model
@@ -275,7 +275,7 @@ Vergoedingen zijn impliciet:
 
 vergoeding = som(invoerwaarden) - som(uitvoerwaarden).
 
-Elke niet-toegewezen waarde wordt de vergoeding, waardoor een correcte constructie van de uitvoer essentieel is. Vóór SegWit waren handtekeningen vervormbaar - S veranderen in N-S produceerde een nieuwe geldige transactie met een andere ID. Bitcoin dwingt nu een lage-S-regel af en SegWit isoleert handtekeningen van de txid-berekening, waardoor ID's stabiel worden en tweedelaagsprotocollen zoals Lightning mogelijk worden.
+Elke niet-toegewezen waarde wordt de vergoeding, waardoor een correcte constructie van de uitvoer essentieel is. Vóór [SegWit](https://planb.academy/resources/glossary/segwit) waren handtekeningen vervormbaar - S veranderen in N-S produceerde een nieuwe geldige transactie met een andere ID. Bitcoin dwingt nu een lage-S-regel af en SegWit isoleert handtekeningen van de txid-berekening, waardoor ID's stabiel worden en tweedelaagsprotocollen zoals [Lightning](https://planb.academy/resources/glossary/lightning-network) mogelijk worden.
 
 
 ## Bitcoin Script- en transactievalidatie
@@ -292,7 +292,7 @@ Bitcoin Script is een kleine, stackgebaseerde slimme contracttaal die bepaalt ho
 ### Scriptbewerkingen en uitvoeringsmodel
 
 
-Een script is een opeenvolging van gegevenselementen en opcodes. Data pushes (handtekeningen, publieke sleutels, hashes) worden op de stack geplaatst, terwijl opcodes die beginnen met `OP_` de stack transformeren. Na uitvoering moet het bovenste stackelement niet nul zijn voor succes. Voorbeelden: `OP_DUP` dupliceert het bovenste element, `OP_HASH160` past SHA256 toe en vervolgens RIPEMD160, en `OP_CHECKSIG` verifieert een handtekening tegen de sighash van de transactie en een publieke sleutel, waarbij 1 wordt gezet voor geldig, 0 voor ongeldig. Parsingregels maken onderscheid tussen ruwe data (lengte-gefixeerd) en opcodes (opgezocht op waarde) en een kleine virtuele machine voert ze deterministisch uit op elk knooppunt.
+Een script is een opeenvolging van gegevenselementen en opcodes. Data pushes (handtekeningen, publieke sleutels, hashes) worden op de stack geplaatst, terwijl opcodes die beginnen met `OP_` de stack transformeren. Na uitvoering moet het bovenste stackelement niet nul zijn voor succes. Voorbeelden: `OP_DUP` dupliceert het bovenste element, `OP_HASH160` past SHA256 toe en vervolgens RIPEMD160, en `OP_CHECKSIG` verifieert een handtekening tegen de sighash van de transactie en een publieke sleutel, waarbij 1 wordt gezet voor geldig, 0 voor ongeldig. Parsingregels maken onderscheid tussen ruwe data (lengte-gefixeerd) en opcodes (opgezocht op waarde) en een kleine virtuele machine voert ze deterministisch uit op elk [knooppunt](https://planb.academy/resources/glossary/node).
 
 
 ### P2PK en P2PKH: Kernbetalingspatronen
@@ -329,7 +329,7 @@ Omdat elke ingang in een legacy transactie zijn eigen sighash berekening vereist
 ### Scriptraadsels en beveiligingslessen
 
 
-Scripts kunnen veel meer uitdrukken dan alleen "één handtekening ontgrendelt deze munten" Scriptpuzzels laten dit zien door willekeurige voorwaarden te coderen - wiskundige problemen, hash preimage uitdagingen of zelfs botsingspremies - waarbij iedereen die de juiste gegevens levert de munten kan uitgeven. Uitvoeringen die alleen vertrouwen op openbare gegevens (geen handtekeningen) zijn echter kwetsbaar voor miner-running: zodra een geldige oplossing in de mempool verschijnt, kan elke miner deze kopiëren en de uitbetaling naar zichzelf omleiden.
+Scripts kunnen veel meer uitdrukken dan alleen "één handtekening ontgrendelt deze munten" Scriptpuzzels laten dit zien door willekeurige voorwaarden te coderen - wiskundige problemen, hash preimage uitdagingen of zelfs botsingspremies - waarbij iedereen die de juiste gegevens levert de munten kan uitgeven. Uitvoeringen die alleen vertrouwen op openbare gegevens (geen handtekeningen) zijn echter kwetsbaar voor [miner](https://planb.academy/resources/glossary/miner)-running: zodra een geldige oplossing in de [mempool](https://planb.academy/resources/glossary/mempool) verschijnt, kan elke miner deze kopiëren en de uitbetaling naar zichzelf omleiden.
 
 
 De praktische les is dat contracten in de echte wereld bijna altijd handtekeningcontroles bevatten, zelfs als ze complexere logica bevatten zoals multisig, timelocks of hashlocks. Handtekeningen binden de oplossing aan een specifieke partij, waardoor prikkels behouden blijven en voorkomen wordt dat anderen de uitbetaling stelen. Het begrijpen van Script's stack model, standaard patronen en subtiele valkuilen is essentieel voor het ontwerpen van veilige Bitcoin smart contracts en voor het redeneren over hoe transacties daadwerkelijk gevalideerd worden op het netwerk.
@@ -402,13 +402,13 @@ P2SH verbetert de privacy door de bestedingsvoorwaarden te verbergen tot de eers
 ![lecture](https://www.youtube.com/watch?v=lJYSM1iLWQU)
 
 
-Bitcoin blokken groeperen transacties en beveiligen ze met proof of work. Elk blok bevat een header van 80 bytes plus een lijst van transacties. Ondanks de hoge energiekosten voor het produceren van een geldig blok, is het verifiëren ervan goedkoop: voor het opslaan van alle ~900k headers is slechts ~72 MB nodig, waardoor zelfs kleine apparaten proof of work van de keten efficiënt kunnen verifiëren.
+Bitcoin [blokken](https://planb.academy/resources/glossary/block) groeperen transacties en beveiligen ze met [proof of work](https://planb.academy/resources/glossary/proof-of-work). Elk blok bevat een [header](https://planb.academy/resources/glossary/block-header) van 80 bytes plus een lijst van transacties. Ondanks de hoge energiekosten voor het produceren van een geldig blok, is het verifiëren ervan goedkoop: voor het opslaan van alle ~900k headers is slechts ~72 MB nodig, waardoor zelfs kleine apparaten proof of work van de keten efficiënt kunnen verifiëren.
 
 
 ### Coinbase-transacties en blokbeloningen
 
 
-Elk blok begint met precies één Coinbase transactie - de enige manier waarop nieuwe bitcoin in omloop komen. Het heeft een zero prev-tx hash en een index van 0xffffffff, die het uniek identificeert. De subsidie begon bij 50 BTC en halveert elke 210.000 blokken (50, 25, 12,5, 6,25, 3,125, ...). Miners rekenen ook transactiekosten. Omdat de 4-byte nonce te klein is voor moderne ASIC's, wijzigen miners gegevens in de Coinbase transactie om de Merkle root te wijzigen en extra zoekruimte te creëren. BIP34 vereist het insluiten van de blokhoogte in de Coinbase scriptSig om ervoor te zorgen dat elke Coinbase txid uniek is.
+Elk blok begint met precies één [Coinbase transactie](https://planb.academy/resources/glossary/coinbase-transaction) - de enige manier waarop nieuwe bitcoin in omloop komen. Het heeft een zero prev-tx hash en een index van 0xffffffff, die het uniek identificeert. De subsidie begon bij 50 BTC en halveert elke 210.000 blokken (50, 25, 12,5, 6,25, 3,125, ...). Miners rekenen ook transactiekosten. Omdat de 4-byte nonce te klein is voor moderne ASIC's, wijzigen miners gegevens in de Coinbase transactie om de [Merkle](https://planb.academy/resources/glossary/merkle-tree) root te wijzigen en extra zoekruimte te creëren. BIP34 vereist het insluiten van de blokhoogte in de Coinbase scriptSig om ervoor te zorgen dat elke Coinbase txid uniek is.
 
 
 ### Blokkopvelden en Soft Fork signalering
@@ -425,7 +425,7 @@ De header van 80 bytes bevat:
 - nonce (4 bytes)
 
 
-Versienummers evolueerden naar een bitveldsignaleringssysteem via BIP9, waardoor mijners de gereedheid van soft-fork konden coördineren. De tijdstempel is een 32-bits Unix-tijdwaarde en moet rond het jaar 2106 worden bijgewerkt.
+Versienummers evolueerden naar een bitveldsignaleringssysteem via [BIP9](https://planb.academy/resources/glossary/bip), waardoor mijners de gereedheid van [soft-fork](https://planb.academy/resources/glossary/soft-fork) konden coördineren. De tijdstempel is een 32-bits Unix-tijdwaarde en moet rond het jaar 2106 worden bijgewerkt.
 
 
 #### Bits Veld en Doelen
@@ -439,7 +439,7 @@ Het veld bits codeert het doel in compacte vorm: doel = coëfficiënt × 256^(ex
 Moeilijkheid is gedefinieerd als laagste_doel / huidig_doel, wat uitdrukt hoeveel moeilijker mining nu is vergeleken met de makkelijkst mogelijke moeilijkheid. Validatie vereist alleen het vergelijken van de hash van de header met het doel - extreem goedkoop ten opzichte van mining.
 
 
-Elke 2016-blok past Bitcoin de moeilijkheidsgraad aan om blokintervallen van ~10 minuten na te streven. De aanpassing vergelijkt de werkelijke tijd voor de vorige 2016-blokken met de verwachte twee weken. Limieten beperken de aanpassingen tot een factor vier. Grote gebeurtenissen in de echte wereld, zoals China's mining verbod, demonstreerden de veerkracht van dit mechanisme toen de hash rate sterk daalde en de moeilijkheidsgraad naar beneden werd bijgesteld om te compenseren.
+Elke 2016-blok past Bitcoin de [moeilijkheidsgraad](https://planb.academy/resources/glossary/difficulty) aan om blokintervallen van ~10 minuten na te streven. De aanpassing vergelijkt de werkelijke tijd voor de vorige 2016-blokken met de verwachte twee weken. Limieten beperken de aanpassingen tot een factor vier. Grote gebeurtenissen in de echte wereld, zoals China's mining verbod, demonstreerden de veerkracht van dit mechanisme toen de hash rate sterk daalde en de moeilijkheidsgraad naar beneden werd bijgesteld om te compenseren.
 
 
 ### Groepssubsidie en totaal Supply
@@ -459,7 +459,7 @@ De subsidie op hoogte h wordt als volgt berekend: subsidie = 5_000_000_000 >> (h
 ### Bitcoin Netwerkarchitectuur
 
 
-Bitcoin's peer-to-peer netwerk werkt als een gedecentraliseerd roddel systeem waar nodes transacties en blokken doorgeven zonder elkaar te vertrouwen. Nieuwe nodes starten op door contact op te nemen met hardgecodeerde DNS seeds die worden onderhouden door de kernontwikkelaars. Deze DNS seeds geven IP's van actieve peers terug, waardoor nodes het netwerk kunnen ontdekken en dan extra peers kunnen aanvragen via getaddr. Netwerken is opzettelijk niet consensus-kritisch, dus implementaties kunnen verschillen zolang de consensusregels ongewijzigd blijven.
+Bitcoin's [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) netwerk werkt als een gedecentraliseerd roddel systeem waar nodes transacties en blokken doorgeven zonder elkaar te vertrouwen. Nieuwe nodes starten op door contact op te nemen met hardgecodeerde DNS seeds die worden onderhouden door de kernontwikkelaars. Deze DNS seeds geven IP's van actieve peers terug, waardoor nodes het netwerk kunnen ontdekken en dan extra peers kunnen aanvragen via getaddr. Netwerken is opzettelijk niet [consensus](https://planb.academy/resources/glossary/consensus)-kritisch, dus implementaties kunnen verschillen zolang de consensusregels ongewijzigd blijven.
 
 
 ### Berichtstructuur en handdruk
@@ -474,12 +474,12 @@ De handdruk begint wanneer een verbindend knooppunt een versiebericht stuurt. De
 ### Merkle Bomen en Merkle Wortels
 
 
-Bitcoin slaat een enkele 32-byte Merkle root op in elke blokkop als een verplichting voor alle transacties in het blok. Transacties worden gehasht (hash256), gekoppeld, samengevoegd en herhaaldelijk gehasht totdat er één hash overblijft. Als een niveau een oneven aantal heeft, wordt de laatste hash gedupliceerd. Intern zijn hashes big-endian, terwijl geserialiseerde blokgegevens little-endian gebruiken, waardoor omkeringen voor en na de boomconstructie nodig zijn.
+Bitcoin slaat een enkele 32-byte Merkle root op in elke blokkop als een verplichting voor alle transacties in het blok. Transacties worden gehasht (hash256), gekoppeld, samengevoegd en herhaaldelijk gehasht totdat er één hash overblijft. Als een niveau een oneven aantal heeft, wordt de laatste hash gedupliceerd. Intern zijn [hashes](https://planb.academy/resources/glossary/hash-function) big-endian, terwijl geserialiseerde blokgegevens little-endian gebruiken, waardoor omkeringen voor en na de boomconstructie nodig zijn.
 
 
 #### Merkle bewijzen en SPV
 
-Merkle bewijzen maken het mogelijk om te verifiëren dat een transactie in een blok zit zonder het hele blok te downloaden. Het bewijs bestaat uit sibling hashes langs het pad naar de root. Lichtgewicht SPV-cliënten slaan alleen blokkoppen op en vragen deze bewijzen op bij volledige knooppunten. Omdat een Merkle tree logaritmisch groeit, vereist het bewijzen van inclusie in een blok met duizenden transacties slechts een paar honderd bytes.
+Merkle bewijzen maken het mogelijk om te verifiëren dat een transactie in een blok zit zonder het hele blok te downloaden. Het bewijs bestaat uit sibling hashes langs het pad naar de root. Lichtgewicht SPV-cliënten slaan alleen blokkoppen op en vragen deze bewijzen op bij [volledige knooppunten](https://planb.academy/resources/glossary/full-node). Omdat een Merkle tree logaritmisch groeit, vereist het bewijzen van inclusie in een blok met duizenden transacties slechts een paar honderd bytes.
 
 
 Taproot breidt dit concept uit door de bestedingsvoorwaarden vast te leggen in een Merklized script tree (MAST), waarbij alleen de uitgevoerde tak wordt onthuld, samen met een Merkle bewijs. Dit verbetert zowel de efficiëntie als de privacy.
@@ -515,7 +515,7 @@ Deze sessie verenigt geavanceerde P2P netwerken met Segregated Witness, en laat 
 ### Blokgebaseerd transactieherstel en privacy
 
 
-Portemonnees moeten binnenkomende betalingen detecteren door blokken te scannen op uitgangen die overeenkomen met hun scriptPubKey. Het ophalen van hele blokken beschermt de privacy beter dan het opvragen van individuele transacties, wat sterke signalen over gebruikersactiviteit lekt. Zelfs blokverzoeken kunnen informatie lekken over ketens met een laag volume, waardoor compacte blokfilters (BIP158) essentieel zijn voor privacy-beschermende light clients. Filters kunnen valse positieven produceren maar nooit valse negatieven, waardoor cliënten alleen potentieel relevante blokken kunnen downloaden zonder specifieke adressen te onthullen.
+[Portemonnees](https://planb.academy/resources/glossary/wallet) moeten binnenkomende betalingen detecteren door blokken te scannen op uitgangen die overeenkomen met hun scriptPubKey. Het ophalen van hele blokken beschermt de privacy beter dan het opvragen van individuele transacties, wat sterke signalen over gebruikersactiviteit lekt. Zelfs blokverzoeken kunnen informatie lekken over ketens met een laag volume, waardoor compacte blokfilters (BIP158) essentieel zijn voor privacy-beschermende light clients. Filters kunnen valse positieven produceren maar nooit valse negatieven, waardoor cliënten alleen potentieel relevante blokken kunnen downloaden zonder specifieke adressen te onthullen.
 
 
 ### Trustless Netwerkinteractie

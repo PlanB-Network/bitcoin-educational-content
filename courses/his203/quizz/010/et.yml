@@ -1,0 +1,11 @@
+question: Millise Mt. Goxiga konkureeriva valuutaplatvormi käivitas 2010. aasta detsembris David François?
+answer: Bitcoin-Central
+wrong_answers:
+  - Paymium
+  - Britcoin
+  - Bitomat
+explanation: |
+ Bitcoin-Central oli Prantsuse platvorm, mis võttis esialgu vastu Liberty Reserve'i dollareid ja eurosid ning tavapäraseid euroülekandeid. Selle lähtekood oli
+ avaldatud avatud lähtekoodiga litsentsi (AGPL) alusel. Hiljem ühines platvorm Paymium-ga, mille asutasid koos Gonzague Grandval, Pierre Noizat ja David
+ François 2011. aasta juunis, mis algselt keskendus maksete valdkonnale.
+reviewed: true

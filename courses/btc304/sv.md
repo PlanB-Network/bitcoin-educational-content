@@ -193,7 +193,7 @@ Bitcoin-samfund strävar ofta efter bredare mål, särskilt allmän utbildning o
 4. Avfärda vilseledande eller grundlösa påståenden från vissa offentliga personer och medier;
 
 
-5. De grundläggande skillnaderna mellan Bitcoin och andra kryptovalutor;
+5. De grundläggande skillnaderna mellan Bitcoin och andra [kryptovalutor](https://planb.academy/resources/glossary/cryptocurrency);
 
 
 Genom att bygga morgondagens första "citadeller" fungerar **Bitcoin-gemenskaper världen över som ett bålverk mot desinformation och censur samtidigt som de utgör en bördig grund för att lära sig Bitcoin:s grunder**. De erbjuder nykomlingar, även skeptiker, de resurser och kontakter som behövs för att utforska Bitcoin:s verkliga potential.
@@ -302,7 +302,7 @@ Men **att gå samman är ofta mer meningsfullt än att dela upp närliggande sam
 På så sätt kan en enkel "tumregel" vara till hjälp: om det inte finns något aktivt Bitcoin-community inom 30-45 minuter från där du bor, kan det vara värt att starta ett nytt. Med det sagt är du alltid fri att göra som du vill.
 
 
-Och om en äldre community har "utvecklats" i en riktning som inte längre stämmer överens med dina värderingar, och du inte har tid eller motivation att "orangepilla" dem, är det naturligtvis alltid ett alternativ att skapa din egen Fork.
+Och om en äldre community har "utvecklats" i en riktning som inte längre stämmer överens med dina värderingar, och du inte har tid eller motivation att "[orangepilla](https://planb.academy/resources/glossary/orange-pill)" dem, är det naturligtvis alltid ett alternativ att skapa din egen [Fork](https://planb.academy/resources/glossary/fork).
 
 
 
@@ -1391,7 +1391,7 @@ Dessa inkluderar:
 
 
 
-- [Btcmap.org](https://btcmap.org/)**, en webbplats med två kartor som uppdateras dagligen: **[världskartan över företag som accepterar Bitcoin](https://btcmap.org/map)** och **[världskartan över samhällen](https://btcmap.org/communities/map)**. Många bitcoiners kollar dessa kartor regelbundet, oavsett om de reser eller lever sitt dagliga liv, för att träffa nya människor eller hitta platser att spendera sina Sats på. Btcmap är den globala referensen, och att lista din community där är viktigt för synligheten.**
+- [Btcmap.org](https://btcmap.org/)**, en webbplats med två kartor som uppdateras dagligen: **[världskartan över företag som accepterar Bitcoin](https://btcmap.org/map)** och **[världskartan över samhällen](https://btcmap.org/communities/map)**. Många bitcoiners kollar dessa kartor regelbundet, oavsett om de reser eller lever sitt dagliga liv, för att träffa nya människor eller hitta platser att spendera sina [Sats](https://planb.academy/resources/glossary/satoshi-sat) på. Btcmap är den globala referensen, och att lista din community där är viktigt för synligheten.**
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), en webbplats skapad av bitcoiners, för bitcoiners. **Där kan du lägga upp kommande evenemang i ditt community**. I Frankrike används den dock fortfarande inte i någon större utsträckning.
 - beroende på ditt land kan det finnas andra lokala initiativ. I Frankrike finns det till exempel [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), som **listar dussintals Bitcoin-evenemang varje månad**. Så om du ännu inte har följt dem på Twitter eller kontaktat dem för att dela information om ditt samhälle och dina evenemang är det dags nu! **För att hålla den franska evenemangskalendern uppdaterad skulle det vara bra om alla franska Bitcoin-grupper tog för vana att:**
     - nämna @bitcoinpointfr på Twitter för varje nytt gemenskapsevenemang
@@ -1820,7 +1820,7 @@ Utöver det starka pedagogiska värdet gör detta tillvägagångssätt det möjl
 Nedan är den franska mötesprogressionen 2023-2024. För varje tema finns en presentation med öppen källkod och en video, som kan ge dig idéer om ämnen som du kan ta upp i dina egna evenemang.
 
 
-Ytterligare redigerbart material finns också i [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)!
+Andra resurser finns också tillgängliga i avsnittet ["Educator Content"](https://planb.academy/educator-content) på Plan ₿ Academy, ett samarbetsutrymme där Bitcoin-utbildare från hela världen delar och tillhandahåller sina utbildningsmaterial (presentationer, flygblad, guider, affischer...) i färdiga eller redigerbara format. Målet: samla krafterna för att inte börja från början varje gång!
 
 
 
@@ -1936,7 +1936,7 @@ På privata platser som konserter, barer eller arenor ska du kontrollera om det 
 Ett annat projekt som du enkelt kan sätta upp är att **skapa ett bibliotek på dina möten**.
 
 
-Du kan bjuda in deltagare som vill dela med sig av sitt läsmaterial att ta med en Bitcoin-relaterad bok. Om någon annan på träffen vill låna den kan ett lån ordnas med ägaren i Exchange mot en deposition, till exempel 21 000 satoshis via Lightning.
+Du kan bjuda in deltagare som vill dela med sig av sitt läsmaterial att ta med en Bitcoin-relaterad bok. Om någon annan på träffen vill låna den kan ett lån ordnas med ägaren i Exchange mot en deposition, till exempel 21 000 satoshis via [Lightning](https://planb.academy/resources/glossary/lightning-network).
 
 
 För ägaren hjälper depositionen till att täcka eventuell förlust eller stöld. För låntagaren är det ett incitament att komma tillbaka till en framtida träff för att hämta sin deposition.
@@ -2599,7 +2599,7 @@ Med den här ökningen av antalet besökare:
     - om du tycker att antalet deltagare blir överväldigande kan du, för framtida möten, antingen **kräva att deltagarna registrerar sig** (via Meetup-appen eller ett enkelt formulär) eller **hålla flera möten varje månad** (till exempel: ett nybörjarmöte, ett mellanliggande möte och ett avancerat möte).
     - Samtidigt kan du förvänta dig många nykomlingar i ekosystemet, ofta med det huvudsakliga målet att tjäna pengar. För att **hålla konversationer fokuserade på Bitcoin** i dessa snabbväxande möten är det en bra idé att:
 
-a) Inkludera en ** Bitcoin-tema presentation ** under dessa evenemang, eftersom detta naturligtvis kommer att styra mycket av konversationen mot det ämnet (och bort från det senaste förment "revolutionerande" shitcoin-projektet);
+a) Inkludera en ** Bitcoin-tema presentation ** under dessa evenemang, eftersom detta naturligtvis kommer att styra mycket av konversationen mot det ämnet (och bort från det senaste förment "revolutionerande" [shitcoin-projektet](https://planb.academy/resources/glossary/shitcoin));
 
 b) ** Undvik att bara umgås med andra bitcoinare**. Gör istället en poäng av att **ta kontakt med nykomlingar**, även om det innebär att hänga längst bak i rummet för att hälsa på dem. Därifrån kan du prata om varför de kom, vad de letar efter, målen (eller till och med de grundläggande principerna) för ditt community och så vidare.
 

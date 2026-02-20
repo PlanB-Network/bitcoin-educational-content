@@ -1,0 +1,10 @@
+question: Chi ha implementato la funzione Scrypt, che richiede molta memoria, come algoritmo mining resistente alle GPU nella criptovaluta Tenebrix nel 2011?
+answer: ArtForz
+wrong_answers:
+  - Charlie Lee
+  - Lolcust
+  - Colin Percival
+explanation: |
+ Scrypt è una funzione di derivazione delle chiavi progettata originariamente nel 2009 dall'informatico canadese Colin Percival. È stata ripresa dal minatore ArtForz, che ha aiutato Lolcust a sviluppare la criptovaluta Tenebrix, lanciata nel settembre 2011
+ Lolcust a sviluppare la criptovaluta Tenebrix, lanciata nel settembre 2011. Charlie Lee ha ripreso il modello per inserirlo in Litecoin, che ha debuttato in ottobre.
+reviewed: true

@@ -78,7 +78,7 @@ Pronto a scoprire i meccanismi tecnici di Lightning Network? Andiamo!
 
 :::video id=4315a277-12fe-4946-bb49-a807e60c09a7:::
 
-Lightning Network è una rete di canali di pagamento costruita sopra il protocollo Bitcoin, con l'obiettivo di abilitare pagamenti veloci e a basso costo. Consente la creazione di canali di pagamento tra i partecipanti, all'interno dei quali le transazioni possono essere effettuate quasi istantaneamente e con fee minime, senza dover registrare ogni singolo movimento sulla blockchain. In questo modo Lightning Network cerca di migliorare la scalabilità di Bitcoin e renderlo utilizzabile per il pagamento di importi piccoli.
+[Lightning Network](https://planb.academy/resources/glossary/lightning-network) è una rete di [canali di pagamento](https://planb.academy/resources/glossary/payment-channel) costruita sopra il protocollo Bitcoin, con l'obiettivo di abilitare pagamenti veloci e a basso costo. Consente la creazione di canali di pagamento tra i partecipanti, all'interno dei quali le transazioni possono essere effettuate quasi istantaneamente e con fee minime, senza dover registrare ogni singolo movimento sulla [blockchain](https://planb.academy/resources/glossary/blockchain). In questo modo Lightning Network cerca di migliorare la [scalabilità](https://planb.academy/resources/glossary/scalability) di Bitcoin e renderlo utilizzabile per il pagamento di importi piccoli.
 
 Prima di esplorare l'aspetto di "rete", è importante comprendere il concetto di **canale di pagamento**, come funziona e quali sono le sue specificità. Questo è l'argomento del primo capitolo.
 
@@ -88,7 +88,7 @@ Un canale di pagamento consente a due parti, esempio **Alice** e **Bob**, di sca
 
 ![LNP201](assets/en/001.webp)
 
-Nel nostro esempio, Alice ha 100.000 satoshi dalla sua parte del canale, e Bob ne ha 30.000, per un totale di 130.000 satoshi, che costituiscono la **capacità del canale**.
+Nel nostro esempio, Alice ha 100.000 [satoshi](https://planb.academy/resources/glossary/satoshi-sat) dalla sua parte del canale, e Bob ne ha 30.000, per un totale di 130.000 satoshi, che costituiscono la **[capacità del canale](https://planb.academy/resources/glossary/lightning-channel-capacity)**.
 
 **Ma cos'è un satoshi?**
 
@@ -136,7 +136,7 @@ Questo capitolo è un po' speciale poiché non sarà dedicato espressamente a Li
 
 ### Indirizzi Bitcoin, Chiavi Private e Chiavi Pubbliche
 
-Un indirizzo Bitcoin è una serie di caratteri derivati da una **chiave pubblica**, che a sua volta è calcolata da una **chiave privata**. Come sicuramente saprai, è utilizzato per bloccare i bitcoin, il che equivale a riceverli nel nostro wallet.
+Un indirizzo Bitcoin è una serie di caratteri derivati da una **[chiave pubblica](https://planb.academy/resources/glossary/public-key)**, che a sua volta è calcolata da una **[chiave privata](https://planb.academy/resources/glossary/private-key)**. Come sicuramente saprai, è utilizzato per bloccare i bitcoin, il che equivale a riceverli nel nostro wallet.
 
 La chiave privata è un elemento segreto che **non dovrebbe mai essere condiviso**, mentre la chiave pubblica e l'indirizzo possono essere condivisi senza rischio per la sicurezza (la loro divulgazione rappresenta solo un rischio per la tua privacy). Ecco una rappresentazione comune che adotteremo durante questo corso:
 
@@ -146,16 +146,16 @@ La chiave privata è un elemento segreto che **non dovrebbe mai essere condiviso
 
 ### Transazioni Bitcoin: Invio di Fondi e Script
 
-Una transazione Bitcoin comporta l'invio di fondi da un indirizzo ad un altro. Prendiamo l'esempio di Alice che invia 0,002 bitcoin a Bob. Alice utilizza la chiave privata associata al suo indirizzo per **firmare** la transazione, dimostrando così di essere effettivamente in grado di spendere questi fondi. Ma cosa succede esattamente dietro questa transazione? I fondi su un indirizzo Bitcoin sono bloccati da uno **script**, una sorta di mini-programma che impone certe condizioni per spendere i fondi.
+Una transazione Bitcoin comporta l'invio di fondi da un indirizzo ad un altro. Prendiamo l'esempio di Alice che invia 0,002 bitcoin a Bob. Alice utilizza la chiave privata associata al suo indirizzo per **firmare** la transazione, dimostrando così di essere effettivamente in grado di spendere questi fondi. Ma cosa succede esattamente dietro questa transazione? I fondi su un indirizzo Bitcoin sono bloccati da uno **[script](https://planb.academy/resources/glossary/script)**, una sorta di mini-programma che impone certe condizioni per spendere i fondi.
 
-Lo script più comune richiede una firma digitale, effettuata con la chiave privata associata all'indirizzo. Quando Alice firma una transazione con la sua chiave privata, **sblocca lo script** che vincola i fondi, i quali possono essere trasferiti. Il trasferimento di fondi comporta l'aggiunta di un nuovo script, stabilendo che per spenderli in seguito, sarà richiesta la firma della chiave privata di **Bob**.
+Lo script più comune richiede una [firma](https://planb.academy/resources/glossary/digital-signature) digitale, effettuata con la chiave privata associata all'indirizzo. Quando Alice firma una transazione con la sua chiave privata, **sblocca lo script** che vincola i fondi, i quali possono essere trasferiti. Il trasferimento di fondi comporta l'aggiunta di un nuovo script, stabilendo che per spenderli in seguito, sarà richiesta la firma della chiave privata di **Bob**.
 
 ![LNP201](assets/en/005.webp)
 
 
 ### UTXO: Unspent Transaction Output (Output di una Transazione Non Spesa)
 
-In Bitcoin ciò che effettivamente scambiamo non sono direttamente i bitcoin, ma **[UTXO](https://planb.academy/resources/glossary/utxo)** (_Unspent Transaction Outputs_), ovvero "gli output di transazione non spesi".
+In Bitcoin ciò che effettivamente scambiamo non sono direttamente i bitcoin, ma **UTXO** (_Unspent Transaction Outputs_), ovvero "gli output di transazione non spesi".
 
 Un UTXO è una porzione di bitcoin che può avere qualsiasi valore, ad esempio, **2.000 bitcoin**, **8 bitcoin**, o anche **8.000 satoshi**. Ogni UTXO è bloccato da uno script e, per spenderlo, si devono soddisfare le condizioni dello script, spesso una firma effettuata con la chiave privata corrispondente a un dato indirizzo di ricezione.
 
@@ -211,11 +211,11 @@ Come abbiamo visto nel primo capitolo, un **canale di pagamento** Lightning può
 
 È cruciale distinguere chiaramente i diversi livelli di scambio su Lightning Network:
 
-- **Comunicazioni peer-to-peer (protocollo Lightning)**: questi sono i messaggi che i nodi Lightning inviano l'uno all'altro per comunicare. Rappresenteremo questi messaggi con linee tratteggiate nere nei prossimi diagrammi.
+- **Comunicazioni [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) (protocollo Lightning)**: questi sono i messaggi che i [nodi Lightning](https://planb.academy/resources/glossary/lightning-node) inviano l'uno all'altro per comunicare. Rappresenteremo questi messaggi con linee tratteggiate nere nei prossimi diagrammi.
 
 - **Canali di pagamento (protocollo Lightning)**: questi sono i percorsi per lo scambio di fondi su Lightning, che rappresenteremo con linee nere continue.
 
-- **Transazioni Bitcoin (protocollo Bitcoin)**: queste sono le transazioni effettuate onchain, che rappresenteremo con linee arancioni.
+- **Transazioni Bitcoin (protocollo Bitcoin)**: queste sono le transazioni effettuate [onchain](https://planb.academy/resources/glossary/onchain), che rappresenteremo con linee arancioni.
 
 ![LNP201](assets/en/010.webp)
 
@@ -249,7 +249,7 @@ Vale la pena sottolineare che un nodo Lightning può comunicare tramite il proto
 
 ### Quando il canale si può considerare aperto?
 
-Il canale si considera aperto una volta che la transazione di deposito è inclusa in un blocco e ha raggiunto una certa profondità di conferme (numero di blocchi successivi).
+Il canale si considera aperto una volta che la transazione di deposito è inclusa in un [blocco](https://planb.academy/resources/glossary/block) e ha raggiunto una certa profondità di [conferme](https://planb.academy/resources/glossary/confirmation) (numero di blocchi successivi).
 
 **Quali insegnamenti puoi trarre da questo capitolo?**
 
@@ -281,7 +281,7 @@ Al momento dell'apertura del canale, Alice ha depositato **130.000 satoshi** sul
 
 ### Transazioni non pubblicate: Commitment Transactions
 
-Quando Alice effettua un pagamento nel canale per inviare fondi a Bob, viene creata una nuova transazione Bitcoin che riflette il cambiamento nella distribuzione dei fondi. Questa transazione, chiamata **commitment transaction**, non viene pubblicata sulla blockchain ma rappresenta il nuovo stato del canale a seguito del pagamento Lightning.
+Quando Alice effettua un pagamento nel canale per inviare fondi a Bob, viene creata una nuova transazione Bitcoin che riflette il cambiamento nella distribuzione dei fondi. Questa transazione, chiamata **[commitment transaction](https://planb.academy/resources/glossary/commitment-transaction)**, non viene pubblicata sulla blockchain ma rappresenta il nuovo stato del canale a seguito del pagamento Lightning.
 
 Prendiamo un esempio con Alice che invia 30.000 satoshi a Bob:
 
@@ -293,7 +293,7 @@ Prendiamo un esempio con Alice che invia 30.000 satoshi a Bob:
 
 ### Processo di Trasferimento: Invoice
 
-Quando Bob desidera ricevere fondi, invia ad Alice un'**_[invoice](https://planb.academy/resources/glossary/invoice-lightning)_** per 30.000 satoshi. Alice procede quindi a pagare avviando il trasferimento all'interno del canale. Come abbiamo visto, questo processo si basa sulla creazione e firma di una nuova **commitment transaction**.
+Quando Bob desidera ricevere fondi, invia ad Alice un'**_invoice_** per 30.000 satoshi. Alice procede quindi a pagare avviando il trasferimento all'interno del canale. Come abbiamo visto, questo processo si basa sulla creazione e firma di una nuova **commitment transaction**.
 
 Ogni commitment transaction rappresenta la nuova distribuzione dei fondi nel canale dopo ogni trasferimento. In questo esempio, dopo la transazione, Bob ha 30.000 satoshi e Alice ha 100.000 satoshi. Se uno dei due partecipanti decidesse di pubblicare questa commitment transaction sulla blockchain, ciò provocherebbe la chiusura del canale con i fondi ripartiti secondo quest'ultima distribuzione.
 
@@ -355,9 +355,9 @@ Ancora peggio, Alice potrebbe pubblicare la primissima transazione di prelievo, 
 
 Per prevenire questo tipo di truffa da parte di Alice, su Lightning Network vengono aggiunti **meccanismi di sicurezza** alle commitment transaction:
 
-- **Il timelock**: ogni commitment transaction include un timelock per i fondi di Alice. Il timelock è una primitiva di smart contract che stabilisce una condizione temporale che deve essere soddisfatta affinché una transazione possa essere aggiunta a un blocco. Ciò significa che Alice non può recuperare i suoi fondi fino a quando non sia passato un certo numero di blocchi, se pubblica una delle commitment transaction. Il timelock inizia si applica dalla conferma della commitment transaction. La sua durata è generalmente proporzionale alla dimensione del canale, ma può anche essere configurata manualmente.
+- **Il [timelock](https://planb.academy/resources/glossary/timelock)**: ogni commitment transaction include un timelock per i fondi di Alice. Il timelock è una primitiva di [smart contract](https://planb.academy/resources/glossary/smart-contract) che stabilisce una condizione temporale che deve essere soddisfatta affinché una transazione possa essere aggiunta a un blocco. Ciò significa che Alice non può recuperare i suoi fondi fino a quando non sia passato un certo numero di blocchi, se pubblica una delle commitment transaction. Il timelock inizia si applica dalla conferma della commitment transaction. La sua durata è generalmente proporzionale alla dimensione del canale, ma può anche essere configurata manualmente.
 
-- **Revocation Key**: i fondi di Alice possono anche essere spesi immediatamente da Bob se possiede la **revocation key**. Questa chiave consiste in un segreto detenuto da Alice e un segreto detenuto da Bob. Nota che questo segreto è diverso per ogni commitment transaction. Grazie a questi 2 meccanismi combinati, Bob ha il tempo di rilevare il tentativo di Alice di barare e di punirla, recuperando il suo output con la revocation key, il che per Bob significa ricevere tutti i fondi del canale. La nostra nuova commitment transaction ora apparirà così:
+- **Revocation Key**: i fondi di Alice possono anche essere spesi immediatamente da Bob se possiede la **revocation key**. Questa chiave consiste in un segreto detenuto da Alice e un segreto detenuto da Bob. Nota che questo segreto è diverso per ogni commitment transaction. Grazie a questi 2 meccanismi combinati, Bob ha il tempo di rilevare il tentativo di Alice di barare e di punirla, recuperando il suo [output](https://planb.academy/resources/glossary/output) con la revocation key, il che per Bob significa ricevere tutti i fondi del canale. La nostra nuova commitment transaction ora apparirà così:
 
 ![LNP201](assets/en/025.webp)
 
@@ -369,7 +369,7 @@ Analizziamo insieme il funzionamento di questo meccanismo.
 Quando Alice e Bob aggiornano lo stato del canale con un nuovo pagamento Lightning, si scambiano in anticipo i rispettivi **segreti** relativi alla precedente commitment transaction (quella che diventerà obsoleta e potrebbe permettere a uno di loro di barare). Significa che, nel nuovo stato del canale:
 
 - Alice e Bob hanno una nuova commitment transaction che rispecchia l'attuale distribuzione dei fondi dopo il pagamento Lightning.
-- Ognuno ha il segreto dell'altro per la transazione precedente, il che permette loro di usare la revocation key solo se uno di loro prova a barare pubblicando una transazione con uno stato vecchio nella mempool di Bitcoin. Per punire l'altra parte, è infatti necessario detenere entrambi i segreti e la commitment transaction della controparte, che include l'input firmato. Senza questa transazione, la revocation key da sola è priva di utilità. L'unico modo per ottenere questa transazione è recuperarla dalla mempool (nelle transazioni in attesa di conferma) o tra le transazioni confermate sulla blockchain durante il timelock, il che dimostra che l'altra parte sta cercando di barare, intenzionalmente o meno.
+- Ognuno ha il segreto dell'altro per la transazione precedente, il che permette loro di usare la revocation key solo se uno di loro prova a barare pubblicando una transazione con uno stato vecchio nella [mempool](https://planb.academy/resources/glossary/mempool) di Bitcoin. Per punire l'altra parte, è infatti necessario detenere entrambi i segreti e la commitment transaction della controparte, che include l'[input](https://planb.academy/resources/glossary/input) firmato. Senza questa transazione, la revocation key da sola è priva di utilità. L'unico modo per ottenere questa transazione è recuperarla dalla mempool (nelle transazioni in attesa di conferma) o tra le transazioni confermate sulla blockchain durante il timelock, il che dimostra che l'altra parte sta cercando di barare, intenzionalmente o meno.
 
 Facciamo un esempio per capire bene questo processo:
 
@@ -437,7 +437,7 @@ In una **chiusura cooperativa**, Alice e Bob concordano di chiudere il canale. E
 
 ![LNP201](assets/en/031.webp)
 
-- Alice e Bob negoziano insieme le fee della **transazione di chiusura**. Queste fee sono generalmente calcolate in base allo stato della rete al momento della chiusura. È importante notare che **è sempre la persona che ha aperto il canale** (Alice nel nostro esempio) a pagare le fee per la chiusura.
+- Alice e Bob negoziano insieme le [fee](https://planb.academy/resources/glossary/transaction-fees) della **transazione di chiusura**. Queste fee sono generalmente calcolate in base allo stato della rete al momento della chiusura. È importante notare che **è sempre la persona che ha aperto il canale** (Alice nel nostro esempio) a pagare le fee per la chiusura.
 - Costruiscono una nuova **transazione di chiusura**, che assomiglia a una commitment transaction, ma senza timelock o meccanismi di revoca, poiché entrambe le parti stanno cooperando e non c'è rischio di imbroglio. Questa transazione di chiusura cooperativa è quindi diversa dalle commitment transaction.
 
 Per esempio, se Alice possiede **100.000 satoshi** e Bob **30.000 satoshi**, la transazione di chiusura invierà **100.000 satoshi** all'indirizzo di Alice e **30.000 satoshi** all'indirizzo di Bob, senza vincoli di timelock. Una volta che questa transazione è firmata da entrambe le parti, viene pubblicata da Alice. Non appena la transazione è confermata sulla blockchain di Bitcoin, il canale Lightning è ufficialmente chiuso.
@@ -493,11 +493,11 @@ Nei prossimi capitoli, esploreremo Lightning Network da una prospettiva più amp
 
 :::video id=38419c23-5592-4573-b0a7-84824a5bfb77:::
 
-In questo capitolo esploreremo come i pagamenti Lightning Network possono raggiungere un destinatario anche se le parti non sono direttamente connesse tra loro con un canale di pagamento. Lightning è, infatti, una **rete di canali di pagamento**, che consente di inviare fondi a un nodo distante attraverso i canali di altri partecipanti. Scopriremo come vengono instradati i pagamenti attraverso la rete, come si muove la liquidità tra i canali e come vengono calcolate le fee sulle transazioni.
+In questo capitolo esploreremo come i pagamenti Lightning Network possono raggiungere un destinatario anche se le parti non sono direttamente connesse tra loro con un canale di pagamento. Lightning è, infatti, una **rete di canali di pagamento**, che consente di inviare fondi a un nodo distante attraverso i canali di altri partecipanti. Scopriremo come vengono instradati i pagamenti attraverso la rete, come si muove la [liquidità](https://planb.academy/resources/glossary/liquidity-lightning) tra i canali e come vengono calcolate le fee sulle transazioni.
 
 ### Rete dei Canali di Pagamento
 
-Su Lightning Network una transazione corrisponde a un trasferimento di fondi tra due nodi. Come visto nei capitoli precedenti, è necessario aprire un canale con qualcuno per eseguire pagamenti Lightning. Il canale consente un numero quasi infinito di transazioni off-chain prima di chiuderlo per recuperare il saldo on-chain. Tale metodo ha lo svantaggio di richiedere un canale diretto con l'altra persona per ricevere o inviare fondi, il che implica una transazione di apertura e una di chiusura per ogni canale. Se prevedo di effettuare un gran numero di pagamenti con questa persona, aprire e chiudere un canale diventa conveniente. Al contrario, se ho bisogno di eseguire solo pochi pagamenti Lightning, aprire un canale diretto non è vantaggioso, poiché mi costerebbe 2 transazioni on-chain per un numero limitato di trasferimenti off-chain. È il caso potrebbe verificarsi, ad esempio, quando si desidera pagare con Lightning un commerciante senza pianificare di tornare.
+Su Lightning Network una transazione corrisponde a un trasferimento di fondi tra due nodi. Come visto nei capitoli precedenti, è necessario aprire un canale con qualcuno per eseguire pagamenti Lightning. Il canale consente un numero quasi infinito di transazioni [off-chain](https://planb.academy/resources/glossary/offchain) prima di chiuderlo per recuperare il saldo on-chain. Tale metodo ha lo svantaggio di richiedere un canale diretto con l'altra persona per ricevere o inviare fondi, il che implica una transazione di apertura e una di chiusura per ogni canale. Se prevedo di effettuare un gran numero di pagamenti con questa persona, aprire e chiudere un canale diventa conveniente. Al contrario, se ho bisogno di eseguire solo pochi pagamenti Lightning, aprire un canale diretto non è vantaggioso, poiché mi costerebbe 2 transazioni on-chain per un numero limitato di trasferimenti off-chain. È il caso potrebbe verificarsi, ad esempio, quando si desidera pagare con Lightning un commerciante senza pianificare di tornare.
 
 Per risolvere questo problema, Lightning Network consente di instradare un pagamento attraverso diversi canali e nodi intermedi, consentendo così una transazione senza un canale diretto con l'altra persona.
 
@@ -610,7 +610,7 @@ In questo capitolo, abbiamo esplorato l'instradamento dei pagamenti su Lightning
 
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
-Ora scopriremo come il protocollo Lightning Network permette ai pagamenti di transitare attraverso nodi intermedi, senza la necessità di fidarsi di loro, grazie agli **[HTLC](https://planb.academy/resources/glossary/htlc)** (_Hashed Time-Locked Contracts_). Questi smart contract assicurano che ciascun nodo intermedio riceverà i fondi dal suo canale solo se inoltra il pagamento al destinatario finale; in caso contrario, il pagamento non verrà convalidato.
+Ora scopriremo come il protocollo Lightning Network permette ai pagamenti di transitare attraverso nodi intermedi, senza la necessità di fidarsi di loro, grazie agli **HTLC** (_Hashed Time-Locked Contracts_). Questi smart contract assicurano che ciascun nodo intermedio riceverà i fondi dal suo canale solo se inoltra il pagamento al destinatario finale; in caso contrario, il pagamento non verrà convalidato.
 
 Il problema che sorge per l'instradamento dei pagamenti è quindi la necessaria fiducia nei nodi intermedi e tra gli stessi. Per illustrare meglio, rivediamo il nostro esempio semplificato di una rete composta da 3 nodi e 2 canali:
 
@@ -638,7 +638,7 @@ Ecco come funziona questo processo nel nostro esempio con Alice, Suzie e Bob:
 
 ![LNP201](assets/en/048.webp)
 
-**Creazione del segreto**: Bob genera un segreto casuale che viene denotato con la _s_ (la preimmagine) e calcola il suo hash _r_ con la funzione hash indicata come _h_. Abbiamo:
+**Creazione del segreto**: Bob genera un segreto casuale che viene denotato con la _s_ (la preimmagine) e calcola il suo hash _r_ con la [funzione hash](https://planb.academy/resources/glossary/hash-function) indicata come _h_. Abbiamo:
 
 $$
 r = h(s)
@@ -747,7 +747,7 @@ Anche conoscendo la topologia della rete, ci sono informazioni essenziali per il
 
 ### Aggiornamento della Mappa della Rete
 
-Per mantenere aggiornata la loro mappa della rete, i nodi scambiano regolarmente messaggi attraverso un algoritmo chiamato "**_gossip_**". Si tratta di un algoritmo distribuito, utilizzato per diffondere informazioni che i nodi propagano l'uno all'altro e che consente lo scambio e la sincronizzazione dello stato globale dei canali in pochi cicli di comunicazione. Ogni nodo propaga le informazioni a uno o più nodi vicini, scelti a caso o meno; questi ultimi, a loro volta, propagano le informazioni ad altri vicini e così via fino a raggiungere uno stato globale di sincronizzazione.
+Per mantenere aggiornata la loro mappa della rete, i nodi scambiano regolarmente messaggi attraverso un algoritmo chiamato "**_[gossip](https://planb.academy/resources/glossary/gossip)_**". Si tratta di un algoritmo distribuito, utilizzato per diffondere informazioni che i nodi propagano l'uno all'altro e che consente lo scambio e la sincronizzazione dello stato globale dei canali in pochi cicli di comunicazione. Ogni nodo propaga le informazioni a uno o più nodi vicini, scelti a caso o meno; questi ultimi, a loro volta, propagano le informazioni ad altri vicini e così via fino a raggiungere uno stato globale di sincronizzazione.
 
 I due messaggi principali scambiati tra i nodi Lightning sono i seguenti:
 
@@ -824,7 +824,7 @@ Nel capitolo seguente studieremo nello specifico il funzionamento delle invoice,
 
 :::video id=309c3412-506e-4189-ad46-5e5088c55008:::
 
-In questo capitolo esamineremo più da vicino il funzionamento delle **invoice** Lightning Network, ovvero le richieste di pagamento inviate dal nodo che riceve al nodo che paga. L'obiettivo è capire come inviare e ricevere pagamenti tramite Lightning Network. Discuteremo anche di 2 alternative alle classiche invoice: LNURL e Keysend.
+In questo capitolo esamineremo più da vicino il funzionamento delle **invoice** Lightning Network, ovvero le richieste di pagamento inviate dal nodo che riceve al nodo che paga. L'obiettivo è capire come inviare e ricevere pagamenti tramite Lightning Network. Discuteremo anche di 2 alternative alle classiche invoice: [LNURL](https://planb.academy/resources/glossary/lnurl) e Keysend.
 
 ![LNP201](assets/en/068.webp)
 
@@ -900,7 +900,7 @@ Il payload di un'invoice include diverse informazioni necessarie per l'elaborazi
 - **Suggerimenti di Routing**: informazioni aggiuntive fornite dal destinatario per aiutare il mittente a ottimizzare il percorso di pagamento.
 - **La Firma**: garantisce l'integrità dell'invoice autenticando tutte le informazioni.
 
-Le richieste di pagamento vengono poi codificate in **bech32**, lo stesso formato utilizzato per gli indirizzi Bitcoin SegWit (formato che inizia con `bc1`).
+Le richieste di pagamento vengono poi codificate in **[bech32](https://planb.academy/resources/glossary/bech32-and-bech32m)**, lo stesso formato utilizzato per gli indirizzi Bitcoin [SegWit](https://planb.academy/resources/glossary/segwit) (formato che inizia con `bc1`).
 
 ### LNURL Withdrawal
 
@@ -941,8 +941,8 @@ In questo capitolo esploreremo strategie per gestire efficacemente la liquidità
 
 Ci sono tre profili principali di utenti Lightning, ognuno con specifiche esigenze di liquidità:
 
-- **Chi paga**: colui che effettua pagamenti. Ha bisogno di liquidità in uscita per poter trasferire fondi ad altri utenti. Potrebbe trattarsi, ad esempio, di un consumatore.
-- **Chi vende (o Beneficiario)**: colui che riceve pagamenti. Ha bisogno di liquidità in entrata per poter accettare pagamenti al suo nodo. Potrebbe trattarsi di un'attività commerciale o di un negozio online.
+- **Chi paga**: colui che effettua pagamenti. Ha bisogno di [liquidità in uscita](https://planb.academy/resources/glossary/outbound-capacity) per poter trasferire fondi ad altri utenti. Potrebbe trattarsi, ad esempio, di un consumatore.
+- **Chi vende (o Beneficiario)**: colui che riceve pagamenti. Ha bisogno di [liquidità in entrata](https://planb.academy/resources/glossary/inbound-capacity) per poter accettare pagamenti al suo nodo. Potrebbe trattarsi di un'attività commerciale o di un negozio online.
 - **Il nodo intermedio**: spesso specializzato nel routing dei pagamenti, che deve ottimizzare la sua liquidità in ogni canale per instradare quanti più pagamenti possibile e guadagnare fee.
 
 Questi profili ovviamente non sono fissi; un utente può passare da pagante a beneficiario a seconda delle situazioni. Bob potrebbe ad esempio ricevere il suo stipendio dal suo datore di lavoro via Lightning Network, ponendosi nella posizione di un "venditore" che ha bisogno di liquidità in entrata. Successivamente, se vuole usare il suo stipendio per comprare cibo, diventa "chi paga" e deve quindi avere liquidità in uscita.

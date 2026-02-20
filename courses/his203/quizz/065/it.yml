@@ -1,0 +1,11 @@
+question: Quanti hack separati ha subito la piattaforma di trading Bitcoinica prima di dichiarare bancarotta?
+answer: 3
+wrong_answers:
+  - 1
+  - 2
+  - 4
+explanation: |
+ I tre hack sono stati i seguenti: l'hack dell'account Linode che ha fatto perdere alla piattaforma 43.554 bitcoin; l'hack dell'account Rackspace che ha portato alla perdita di 18.574 bitcoin; l'hack del conto Mt
+ 18.574 bitcoin; l'hack del conto Mt. Gox, durante il quale l'hacker ha prelevato 40.000 bitcoin e 40.000 LR-USD. La liquidazione di Bitcoinica
+ è stata annunciata il 1° agosto 2012.
+reviewed: true

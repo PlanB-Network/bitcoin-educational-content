@@ -1,0 +1,8 @@
+question: According to the Austrian school of thought, why do production costs tend to follow prices rather than the other way round?
+answer: Because it's the price consumers are willing to pay that determines the resources entrepreneurs can invest
+wrong_answers:
+  - Because production costs are too volatile to have a direct influence on market prices
+  - "Because entrepreneurs first set their prices and then adjust their costs to maximize their profits."
+  - "Because marginal costs can only be calculated after observing equilibrium market prices"
+explanation: |
+  The Austrian school asserts that costs follow prices, because it is consumers' subjective valuation that determines the final price they are willing to pay. This anticipated price then influences entrepreneurial decisions regarding the resources to be mobilized. If consumers place a low value on a good, its price will be low, regardless of the costs incurred. Conversely, if they value it highly, entrepreneurs can justify high costs. This approach contrasts with classical theory, where costs determine prices.

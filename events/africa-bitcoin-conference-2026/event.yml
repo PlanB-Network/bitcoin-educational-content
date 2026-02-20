@@ -1,0 +1,24 @@
+id: 36066023-c61b-4228-a1aa-d44fb378715d
+start_date: 2026-12-02 21:00:00
+end_date: 2026-12-05 20:59:59
+timezone: Africa/Nairobi
+address_city_country: Nairobi, Kenya
+address_line_2:
+address_line_3:
+name: Africa Bitcoin Conference 2026
+type: conference
+book_online: false
+book_in_person: false
+description: |
+  Africa's leading Bitcoin conference covering Bitcoin adoption, financial inclusion, remittances, and blockchain innovation across the continent.
+language:
+  - en
+links:
+  website: https://afrobitcoin.org/
+  replay_url:
+  live_url:
+project_id: db0f0b26-3fd8-4d3b-94cc-1f55f30fe768
+tags:
+  - adoption
+  - decentralization
+  - market-trends

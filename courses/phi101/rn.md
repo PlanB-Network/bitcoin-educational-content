@@ -1468,7 +1468,7 @@ Ntibikenewe kwemeza ko umuntu wese ari we wenyene acira urubanza ukuntu akoresha
 Aha, Turgot ahanini yiteze imbere y’igihe imvugo ya Mises na Hayek ku bijanye n’ukudashoboka kw’ibara ry’ubutunzi iryo ari ryo ryose mu bijanye n’ubutunzi bw’abasosiyalisiti.
 
 
-Murray Rothbard, mu mateka yiwe y'ubutunzi akoresheje ubuhinga bwa Otirishiya, ashimika ku vy'uko "inkurikizi za Turgot ku vyiyumviro vy'ubutunzi vyakurikiyeho zari zibujijwe cane (...) n'inkuru z'imigani zikurikira zivuga ko Adamu Smith ari we yashinze ubutunzi bwa politike." Yongerako ati: "Ni ku Mufaransa J.B. Say, umuyoboke wa Smith, ko Turgot yagira akosho kanini, cane cane inyigisho yiwe y'agaciro k'ubuhinga."
+Murray Rothbard, mu mateka yiwe y'ubutunzi akoresheje ubuhinga bwa [Otirishiya](https://planb.academy/resources/glossary/austrian-school), ashimika ku vy'uko "inkurikizi za Turgot ku vyiyumviro vy'ubutunzi vyakurikiyeho zari zibujijwe cane (...) n'inkuru z'imigani zikurikira zivuga ko Adamu Smith ari we yashinze ubutunzi bwa politike." Yongerako ati: "Ni ku Mufaransa J.B. Say, umuyoboke wa Smith, ko Turgot yagira akosho kanini, cane cane inyigisho yiwe y'agaciro k'ubuhinga."
 
 
 ### Igishushanyo c'agatangaza ca Condillac

@@ -70,7 +70,7 @@ If you follow this LNP202 course in the right order, by the end of it you'll hav
 <chapterId>8275dfd8-7a72-48cc-bf7f-bc2a46063003</chapterId>
 
 
-Before launching your own node, this chapter briefly reviews the basic theory behind Lightning Network. It is indeed important to understand the mechanisms involved, as this will enable you to identify risks and adopt good practices to limit them. I won't go into detail here, however, as this is not the main objective of this course. If you'd like to delve deeper into the subject, I highly recommend that you consult Fanis Michalakis's LNP 201 course, which is a reference in the field:
+Before launching your own node, this chapter briefly reviews the basic theory behind [Lightning Network](https://planb.academy/resources/glossary/lightning-network). It is indeed important to understand the mechanisms involved, as this will enable you to identify risks and adopt good practices to limit them. I won't go into detail here, however, as this is not the main objective of this course. If you'd like to delve deeper into the subject, I highly recommend that you consult Fanis Michalakis's LNP 201 course, which is a reference in the field:
 
 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
@@ -78,16 +78,16 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 ### What's a Lightning node?
 
 
-Let's go back to basics: before defining what a node is, we need to understand what Lightning Network is. It's a top-layer protocol, built on top of Bitcoin, designed to enable offchain BTC transactions that are fast (with near-instant finality) and generally inexpensive. "Offchain" means that transactions carried out on Lightning are not intended to appear on the main Bitcoin blockchain. Lightning is also a partial response to the increasing use of Bitcoin and to onchain congestion, which is raising concerns about the system's scalability.
+Let's go back to basics: before defining what a node is, we need to understand what Lightning Network is. It's a top-layer protocol, built on top of Bitcoin, designed to enable [offchain](https://planb.academy/resources/glossary/offchain) BTC transactions that are fast (with near-instant finality) and generally inexpensive. "Offchain" means that transactions carried out on Lightning are not intended to appear on the main Bitcoin [blockchain](https://planb.academy/resources/glossary/blockchain). Lightning is also a partial response to the increasing use of Bitcoin and to [onchain](https://planb.academy/resources/glossary/onchain) congestion, which is raising concerns about the system's [scalability](https://planb.academy/resources/glossary/scalability).
 
 
-To operate, Lightning relies on the opening of payment channels between participants, within which transactions can be carried out almost instantaneously, often with minimal fees, without the need to register them one by one on the Bitcoin blockchain. These channels can remain open for a very long time, requiring onchain transactions only when they are opened and closed.
+To operate, Lightning relies on the opening of [payment channels](https://planb.academy/resources/glossary/payment-channel) between participants, within which transactions can be carried out almost instantaneously, often with minimal fees, without the need to register them one by one on the Bitcoin blockchain. These channels can remain open for a very long time, requiring onchain transactions only when they are opened and closed.
 
 
-A Lightning node is a participant in the Lightning network, opening channels and making payments with other nodes. In concrete terms, a Lightning node is a piece of software running on a computer and implementing the Lightning Network protocol. Examples include LND, Core Lightning or Eclair. The main role of this software is to:
+A [Lightning node](https://planb.academy/resources/glossary/lightning-node) is a participant in the Lightning network, opening channels and making payments with other nodes. In concrete terms, a Lightning node is a piece of software running on a computer and implementing the Lightning Network protocol. Examples include LND, Core Lightning or Eclair. The main role of this software is to:
 
 
-- connect to a Bitcoin node to obtain information from the main blockchain;
+- connect to a [Bitcoin node](https://planb.academy/resources/glossary/full-node) to obtain information from the main blockchain;
 - create and manage bidirectional payment channels with other nodes;
 - exchange messages with the entire Lightning network.
 
@@ -98,14 +98,14 @@ A Lightning node is a participant in the Lightning network, opening channels and
 ### Node vs. Lightning Wallet: an important distinction
 
 
-On Bitcoin (onchain), "*wallet*" refers to software that manages your private keys, calculates your balance from your UTXOs and builds your transactions. This wallet may be based on your own Bitcoin node or on someone else's, but today, the role of the node and that of the onchain wallet are clearly distinct.
+On Bitcoin (onchain), "*[wallet](https://planb.academy/resources/glossary/wallet)*" refers to software that manages your [private keys](https://planb.academy/resources/glossary/private-key), calculates your balance from your [UTXOs](https://planb.academy/resources/glossary/utxo) and builds your transactions. This wallet may be based on your own Bitcoin node or on someone else's, but today, the role of the node and that of the onchain wallet are clearly distinct.
 
 
 On Lightning, it's more difficult to reuse this kind of vocabulary without creating confusion. The term "*Lightning wallet*" is rather vague, because in reality there is no such thing as a truly self-custodial Lightning wallet, unless it is based on a node. Only two situations are therefore possible:
 
 - To have a real Lightning node (i.e. non-custodial): the software you're using (e.g. a mobile app like Phoenix or a LND instance on Umbrel) is actually running a node, and you actually hold the keys to retrieve your bitcoins. In this case, your "*Lightning wallet*" is really just a user interface on top of a Lightning node, whether embedded or remote.
 
-- To use a custodial service: you use an application that shows you a balance in sats on Lightning, but in the background, the funds are on a provider's node (e.g. Wallet of Satoshi). You have neither the keys nor control of the channels. Your balance is merely an accounting entry in the company's database. It's comparable to leaving your bitcoins on an exchange platform, with all the associated risks. In this case, your "*Lightning wallet*" is merely an access to an account managed by an operator who, in turn, runs a real Lightning node.
+- To use a custodial service: you use an application that shows you a balance in [sats](https://planb.academy/resources/glossary/satoshi-sat) on Lightning, but in the background, the funds are on a provider's node (e.g. Wallet of Satoshi). You have neither the keys nor control of the channels. Your balance is merely an accounting entry in the company's database. It's comparable to leaving your bitcoins on an exchange platform, with all the associated risks. In this case, your "*Lightning wallet*" is merely an access to an account managed by an operator who, in turn, runs a real Lightning node.
 
 
 So there's no in-between on Lightning: either you have a node (even an embedded one) so you're in self-custody, or you don't, so a company owns your sats. But as we'll see in the following chapters, these two uses can sometimes be hard to distinguish. For example, Phoenix is a mobile application that embeds a real Lightning node, but the user isn't necessarily aware of it, as the full complexity of its operation is almost entirely hidden.
@@ -120,13 +120,13 @@ In this section, I'll give you a quick reminder of how Lightning works. Once aga
 #### Payment channels: open, update and close
 
 
-The heart of the Lightning network is based on bidirectional payment channels. A channel can be opened (i.e. created), updated as Lightning transactions take place, and then finally closed. From the onchain point of view, a channel is nothing more than a 2/2 multisignature output.
+The heart of the Lightning network is based on bidirectional payment channels. A channel can be opened (i.e. created), updated as Lightning transactions take place, and then finally closed. From the onchain point of view, a channel is nothing more than a 2/2 [multisignature](https://planb.academy/resources/glossary/multisig) [output](https://planb.academy/resources/glossary/output).
 
 
 ![Image](assets/fr/002.webp)
 
 
-From Lightning's point of view, it is a payment channel with liquidity divided between the two participants.
+From Lightning's point of view, it is a payment channel with [liquidity](https://planb.academy/resources/glossary/liquidity-lightning) divided between the two participants.
 
 
 ![Image](assets/fr/003.webp)
@@ -136,14 +136,14 @@ From Lightning's point of view, it is a payment channel with liquidity divided b
 - Opening a channel:**
 
 
-Two nodes decide to open a channel. One of them commits bitcoins in an onchain transaction called *funding transaction*. This transaction creates an output based on a 2-of-2 multisignature script, which means that spending these funds on Bitcoin requires the signature of both nodes in the channel. Before issuing this transaction, the party providing the funds asks the other to sign a *withdrawal transaction*, which is not issued onchain, but which enables it to recover its funds in the event of a problem.
+Two nodes decide to open a channel. One of them commits bitcoins in an onchain transaction called *funding transaction*. This transaction creates an output based on a 2-of-2 multisignature [script](https://planb.academy/resources/glossary/script), which means that spending these funds on Bitcoin requires the [signature](https://planb.academy/resources/glossary/digital-signature) of both nodes in the channel. Before issuing this transaction, the party providing the funds asks the other to sign a *withdrawal transaction*, which is not issued onchain, but which enables it to recover its funds in the event of a problem.
 
 
 ![Image](assets/fr/004.webp)
 
 
 
-- Commitment transactions:**
+- [Commitment transactions](https://planb.academy/resources/glossary/commitment-transaction):**
 
 
 The state of the channel (i.e. the distribution of sats between A and B) is represented by a *commitment transaction*, known to both nodes but not immediately broadcast on the blockchain. This transaction describes how to redistribute the channel funds onchain according to the payments made on Lightning.
@@ -175,7 +175,7 @@ Before going any further, here are two essential concepts for understanding how 
 
 
 - Liquidity*: the quantity of sats available on one side of the channel;
-- The *capacity*: it is the total amount locked in the 2/2 multisig output, i.e. the sum of liquidity on both sides of the channel.
+- The *[capacity](https://planb.academy/resources/glossary/lightning-channel-capacity)*: it is the total amount locked in the 2/2 multisig output, i.e. the sum of liquidity on both sides of the channel.
 
 
 #### A network of channels and liquidity
@@ -184,7 +184,7 @@ Before going any further, here are two essential concepts for understanding how 
 A channel isn't just for payments between two nodes: it's part of a global network of interconnected channels. Your node can route payments for other users through its own channels, and you can send sats to a Lightning node with which you have no direct channel, as long as a valid path can be found between your two nodes.
 
 
-Each node knows, via the gossip protocol, a map of this network: which channels exist, which nodes are connected by a bidirectional channel, and which capacities are published. To send a payment to a recipient without a direct channel, your node calculates a route consisting of several hops: your node → node X → node Y → recipient node. At each hop, the payment transits a channel that must have sufficient liquidity in the direction of payment.
+Each node knows, via the [gossip protocol](https://planb.academy/resources/glossary/gossip), a map of this network: which channels exist, which nodes are connected by a bidirectional channel, and which capacities are published. To send a payment to a recipient without a direct channel, your node calculates a route consisting of several hops: your node → node X → node Y → recipient node. At each hop, the payment transits a channel that must have sufficient liquidity in the direction of payment.
 
 
 ![Image](assets/fr/007.webp)
@@ -196,7 +196,7 @@ The liquidity of a channel is therefore not symmetrical: one side may be heavily
 #### HTLC: transporting payment without being robbed
 
 
-To enable payments to pass through intermediate nodes without the need for trust, Lightning uses smart contracts called *HTLC* (*Hashed Time-Locked Contracts*). In simple terms, a HTLC makes the transfer of funds conditional on the revelation of a secret, and incorporates a time constraint to protect the sender in the event of transaction failure. Each payment is therefore subject to the presentation of a pre-image (a secret whose hash corresponds to an agreed value). If the final recipient provides this pre-image, he or she can claim the funds, which in turn enables each intermediary node to recover its own funds.
+To enable payments to pass through intermediate nodes without the need for trust, Lightning uses [smart contracts](https://planb.academy/resources/glossary/smart-contract) called *[HTLC](https://planb.academy/resources/glossary/htlc)* (*Hashed Time-Locked Contracts*). In simple terms, a HTLC makes the transfer of funds conditional on the revelation of a secret, and incorporates a time constraint to protect the sender in the event of transaction failure. Each payment is therefore subject to the presentation of a pre-image (a secret whose [hash](https://planb.academy/resources/glossary/hash-function) corresponds to an agreed value). If the final recipient provides this pre-image, he or she can claim the funds, which in turn enables each intermediary node to recover its own funds.
 
 
 ![Image](assets/fr/008.webp)
@@ -208,7 +208,7 @@ I'll spare you the technical details of how HTLCs work, as they're not essential
 ### The main Lightning node implementations
 
 
-As with Bitcoin, there are several implementations of the Lightning protocol. A number of independent teams are developing their own versions, all of which are interoperable since they adhere to the same specifications (the BOLTs). Here are the main implementations in use today.
+As with Bitcoin, there are several implementations of the Lightning protocol. A number of independent teams are developing their own versions, all of which are interoperable since they adhere to the same specifications (the [BOLTs](https://planb.academy/resources/glossary/bolt)). Here are the main implementations in use today.
 
 
 #### LND (*Lightning Network Daemon*)
@@ -297,7 +297,7 @@ Today, it's possible to have a user experience very close to that of a Lightning
 ### Option 1: Do not use Lightning directly
 
 
-The first solution is simply not to use Lightning natively, but to use a Bitcoin or Liquid wallet that embeds atomic swaps. For example, Aqua or Bull Bitcoin Wallet applications use this method, by enabling you to pay Lightning invoices without operating a Lightning node yourself, while remaining in self-custody.
+The first solution is simply not to use Lightning natively, but to use a Bitcoin or [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet that embeds [atomic swaps](https://planb.academy/resources/glossary/atomic-swap). For example, Aqua or Bull Bitcoin Wallet applications use this method, by enabling you to pay [Lightning invoices](https://planb.academy/resources/glossary/invoice-lightning) without operating a Lightning node yourself, while remaining in self-custody.
 
 
 The principle is straightforward: your funds stay in Bitcoin, either on-chain or on Liquid, and you access them through a wallet where you hold the keys in the traditional manner. When you scan a Lightning invoice, your wallet initiates a transaction (on-chain or Liquid) to an atomic swap service. This service then manages the Lightning payment through its own node, using the bitcoins you provided on-chain or via Liquid. As a result, you don't have to handle any Lightning channels yourself, yet you can still settle Lightning invoices seamlessly.
@@ -306,7 +306,7 @@ The principle is straightforward: your funds stay in Bitcoin, either on-chain or
 ![Image](assets/fr/013.webp)
 
 
-The major advantage of this approach, compared with a conventional Lightning custodial wallet, is that you remain in 100% possession of your funds at all times. The bitcoins are in your onchain or Liquid wallet, with your own mnemonic phrase. Even during the swap, you remain in possession of your funds, because the swap is atomic. It relies on a cryptographic mechanism that ensures there are only two possible outcomes: either the swap succeeds entirely, or it fails and the service cannot appropriate your funds.
+The major advantage of this approach, compared with a conventional Lightning custodial wallet, is that you remain in 100% possession of your funds at all times. The bitcoins are in your onchain or Liquid wallet, with your own [mnemonic phrase](https://planb.academy/resources/glossary/seed). Even during the swap, you remain in possession of your funds, because the swap is atomic. It relies on a cryptographic mechanism that ensures there are only two possible outcomes: either the swap succeeds entirely, or it fails and the service cannot appropriate your funds.
 
 
 Most wallets offering this type of functionality rely on [Boltz](https://boltz.exchange/) for the technical part of the swap.
@@ -315,7 +315,7 @@ Most wallets offering this type of functionality rely on [Boltz](https://boltz.e
 This solution also offers interesting advantages in terms of confidentiality, especially when coupled with Liquid. For a beginner, it's also very easy to set up and save: a classic mnemonic phrase, no channels, no liquidity to balance...
 
 
-On the other hand, this approach has its limitations. Firstly, it's not incensurable: you depend on the availability and goodwill of the swap service. If it no longer wishes to process your account, or ceases to operate, you can no longer pay Lightning invoices through it. Then there are the not inconsiderable fees: you pay both the onchain or Liquid transaction fees, and the swap service commission. Also, if onchain fees rise sharply, it can become very expensive to use Lightning.
+On the other hand, this approach has its limitations. Firstly, it's not incensurable: you depend on the availability and goodwill of the swap service. If it no longer wishes to process your account, or ceases to operate, you can no longer pay Lightning invoices through it. Then there are the not inconsiderable fees: you pay both the onchain or Liquid [transaction fees](https://planb.academy/resources/glossary/transaction-fees), and the swap service commission. Also, if onchain fees rise sharply, it can become very expensive to use Lightning.
 
 
 So for occasional use, it's still acceptable, but for a very active Lightning user, it's better to do things right with a real Lightning node.
@@ -357,7 +357,7 @@ Finally, this simplicity comes at a price. Embedded LN node services generally c
 The third solution, the one we'll be looking at in greater depth in this LNP202 course, is to operate a conventional Lightning node on a dedicated server or device.
 
 
-By "classic" I mean that you install and configure a Lightning implementation (e.g. LND) yourself on top of your own Bitcoin node. You choose your peers, open your channels, manage your inbound and outbound liquidity, and set your routing fee policies.
+By "classic" I mean that you install and configure a Lightning implementation (e.g. LND) yourself on top of your own Bitcoin node. You choose your peers, open your channels, manage your [inbound and outbound liquidity](https://planb.academy/resources/glossary/inbound-capacity), and set your routing fee policies.
 
 
 In terms of sovereignty, it's the best solution. You are no longer dependent on a specific company for your channels or payments: if a peer censors you or closes a channel, you can open another with a different node. If a service disappears, your sats remain in the channels you control, and you can repatriate them onchain. You can also optimize your long-term costs: once your channels are correctly sized and managed, the overall cost of payments can become very low.
@@ -463,7 +463,7 @@ A warning message will remind you that the application is in beta version and th
 You will then arrive at your Lightning node's main interface. On the left, you'll find your Bitcoin onchain wallet hosted on your node. This is the one generated from the 24-word phrase you've just saved.
 
 
-In the center, you'll find your Lightning wallet. It actually represents your outbound liquidity, i.e. the bitcoins you own within your Lightning channels.
+In the center, you'll find your Lightning wallet. It actually represents your [outbound liquidity](https://planb.academy/resources/glossary/outbound-capacity), i.e. the bitcoins you own within your Lightning channels.
 
 
 On the right, you will see several important pieces of information about your node:

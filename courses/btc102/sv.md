@@ -101,8 +101,6 @@ I slutet av den här kursen kommer du att ha alla de praktiska verktyg du behöv
 Är du redo att börja din resa in i Bitcoin:s värld? Då kör vi!
 
 
-**Obs**: Om du stöter på okända termer under kursen, vänligen konsultera [ordlistan](https://planb.academy/resources/glossary) för definitioner.
-
 # Förutsättningar för att förstå Bitcoin
 
 
@@ -143,7 +141,7 @@ Om du vill förstå bättre var Bitcoin kommer ifrån och vad som verkligen skil
 
 https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
-Som du vet är Plan ₿ Academy-plattformen uteslutande dedikerad till Bitcoin. Att förstå skillnaden med andra kryptovalutor hjälper dig dock att undvika fallgroparna i samband med värdelösa och ibland till och med bedrägliga projekt.
+Som du vet är Plan ₿ Academy-plattformen uteslutande dedikerad till Bitcoin. Att förstå skillnaden med andra [kryptovalutor](https://planb.academy/resources/glossary/cryptocurrency) hjälper dig dock att undvika fallgroparna i samband med värdelösa och ibland till och med bedrägliga projekt.
 
 
 ![image](assets/sv/006.webp)
@@ -177,7 +175,7 @@ Dessa bedrägerier innehåller vanligtvis :
 I slutändan är alla pyramid- och Ponzi-system dömda att misslyckas. Deras grundläggande svaghet ligger i det ständiga behovet av att få in nya investerare för att betala ut avkastning till tidigare deltagare. Detta behov blir matematiskt omöjligt att upprätthålla över tid eftersom antalet nya rekryter som krävs ökar exponentiellt i takt med att systemet växer. När en kritisk punkt har nåtts börjar deltagarna tvivla, förtroendet försvinner och hela pyramiden kollapsar. I detta skede förlorar de sista som ansluter sig, ofta de minst informerade, hela sin investering utan möjlighet att återfå den, medan organisatörerna eller de tidiga investerarna vanligtvis redan har tagit ut sina medel och lämnat systemet.
 
 
-I kryptovalutavärlden kan Ponzi-system ta många former, ofta utformade för att dölja sin bedrägliga natur bakom en teknisk eller finansiell mask. Dessa bedrägerier kan framstå som nya token-erbjudanden eller ICO:er (Initial Coin Offerings), som är insamlingar där en ny kryptovaluta säljs till allmänheten. Bakom tekniska termer som "Blockchain", "smarta kontrakt" eller "staking" döljer vissa projekt i själva verket komplexa pyramidspel. Andra hävdar att de erbjuder hög avkastning genom att kombinera tvivelaktiga kryptotillgångar med kompensationssystem som helt och hållet förlitar sig på den kontinuerliga tillströmningen av nya investerare.
+I kryptovalutavärlden kan Ponzi-system ta många former, ofta utformade för att dölja sin bedrägliga natur bakom en teknisk eller finansiell mask. Dessa bedrägerier kan framstå som nya token-erbjudanden eller ICO:er (Initial Coin Offerings), som är insamlingar där en ny kryptovaluta säljs till allmänheten. Bakom tekniska termer som "[Blockchain](https://planb.academy/resources/glossary/blockchain)", "smarta kontrakt" eller "staking" döljer vissa projekt i själva verket komplexa pyramidspel. Andra hävdar att de erbjuder hög avkastning genom att kombinera tvivelaktiga kryptotillgångar med kompensationssystem som helt och hållet förlitar sig på den kontinuerliga tillströmningen av nya investerare.
 
 
 På senare tid har Ponzi-system också spridit sig till världen av decentraliserad finansiering (DeFi). Även om DeFi är avsett att tillhandahålla finansiella tjänster utan mellanhänder, använder vissa projekt det för att ge en falsk känsla av legitimitet till sina bedrägerier. Vissa DeFi-plattformar utlovar hög, garanterad avkastning i Exchange för insättningar av kryptovaluta i automatiserade protokoll. Dessa attraktiva löften backas ofta upp av ogenomskinliga och overifierbara mekanismer, med tokens som skapats specifikt för bluffen. I själva verket har dessa system ingen hållbar affärsmodell - avkastningen betalas helt enkelt från nya användares medel, precis som ett traditionellt Ponzi-schema. När förtroendet börjar svikta eller tillströmningen av nya deltagare avtar kollapsar dessa system oundvikligen, vilket leder till betydande förluster för intet ont anande investerare.
@@ -256,7 +254,7 @@ Centraliserade kryptovalutaprojekt erbjuder ibland gratis tokens ("*airdrops*") 
 Angripare använder ofta falska webbplatser, konton på sociala medier eller vilseledande e-postmeddelanden för att försöka stjäla dina pengar. Dessa bedrägerier kan komma via vilken kommunikationskanal som helst: e-post, sociala nätverk, telefonsamtal eller till och med traditionell post...
 
 
-Innan du klickar på en länk eller vidtar någon åtgärd ska du alltid dubbelkolla avsändarens identitet. Om du är osäker, besök webbplatsen manuellt i stället för att använda en länk som tillhandahålls. Viktigast av allt är att aldrig dela dina privata nycklar eller lösenord med någon.
+Innan du klickar på en länk eller vidtar någon åtgärd ska du alltid dubbelkolla avsändarens identitet. Om du är osäker, besök webbplatsen manuellt i stället för att använda en länk som tillhandahålls. Viktigast av allt är att aldrig dela dina [privata nycklar](https://planb.academy/resources/glossary/private-key) eller lösenord med någon.
 
 
 #### Bitcoin hårda gafflar
@@ -571,7 +569,7 @@ Här är de viktigaste punkterna som vi kommer att gå igenom tillsammans:
 
 
 
-- Akta dig för **Shitcoins** och andra värdelösa kryptovalutor;
+- Akta dig för **[Shitcoins](https://planb.academy/resources/glossary/shitcoin)** och andra värdelösa kryptovalutor;
 - Investera bara **pengar som du har råd att förlora**;
 - Känna till skillnaden mellan **handel** och **investering**;
 - Var medveten om **skattekonsekvenserna** av dina investeringar;
@@ -669,7 +667,7 @@ Framför allt ska du aldrig investera mer än du har råd att förlora. Undvik a
 ### Hantering och säkring av din Bitcoin Wallet
 
 
-En av Bitcoin:s mest kraftfulla (och ofta underskattade) funktioner är **[self-custody](https://planb.academy/resources/glossary/selfcustody)**. Med en självhostad Wallet är du ensam ansvarig för dina medel. Dessa plånböcker genereras vanligtvis från en **återvinningsfras** (även känd som en seed-fras), en serie med 12 eller 24 ord som ger full tillgång till din BTC. Om du förlorar den här frasen (eller om någon annan får tag på den) är dina bitcoins borta för gott. ** Ingen kundsupport. Ingen återställningsknapp.**
+En av Bitcoin:s mest kraftfulla (och ofta underskattade) funktioner är **self-custody**. Med en självhostad Wallet är du ensam ansvarig för dina medel. Dessa plånböcker genereras vanligtvis från en **återvinningsfras** (även känd som en seed-fras), en serie med 12 eller 24 ord som ger full tillgång till din BTC. Om du förlorar den här frasen (eller om någon annan får tag på den) är dina bitcoins borta för gott. ** Ingen kundsupport. Ingen återställningsknapp.**
 
 
 ![image](assets/sv/025.webp)
@@ -844,13 +842,13 @@ Under årens lopp har Bitcoin vunnit erkännande som ett globalt monetärt nätv
 #### Cypherpunks och uppfinningen av ett system bortom bankernas kontroll
 
 
-Bitcoin föddes inte över en natt. Den är resultatet av årtionden av forskning och experiment inom kryptografi, datavetenskap och penningteori. Före lanseringen 2009 försökte flera projekt (som eCash, b-money, Bit Gold och RPOW) skapa digitala valutor. Alla stod inför samma kärnfråga: hur man förhindrar dubbla utgifter i ett decentraliserat system utan att förlita sig på en central myndighet.
+Bitcoin föddes inte över en natt. Den är resultatet av årtionden av forskning och experiment inom [kryptografi](https://planb.academy/resources/glossary/cryptography), datavetenskap och penningteori. Före lanseringen 2009 försökte flera projekt (som eCash, b-money, Bit Gold och RPOW) skapa digitala valutor. Alla stod inför samma kärnfråga: hur man förhindrar dubbla utgifter i ett decentraliserat system utan att förlita sig på en central myndighet.
 
 
-Den utmaningen förblev olöst fram till slutet av 2008, då någon som använde namnet Satoshi Nakamoto publicerade vitboken Bitcoin. Några månader senare gick den första versionen av Bitcoin:s programvara med öppen källkod live och lanserade ett system som kunde fungera oberoende av banker eller regeringar.
+Den utmaningen förblev olöst fram till slutet av 2008, då någon som använde namnet Satoshi Nakamoto publicerade [vitboken](https://planb.academy/resources/glossary/white-paper) Bitcoin. Några månader senare gick den första versionen av Bitcoin:s programvara med [öppen källkod](https://planb.academy/resources/glossary/foss) live och lanserade ett system som kunde fungera oberoende av banker eller regeringar.
 
 
-Projektet påverkades starkt av Cypherpunk:s etos; en grupp utvecklare och tänkare som trodde på att använda kryptografi för att skydda individuella friheter online. För dem var integritet och decentralisering inte tekniska preferenser, utan ideologiska nödvändigheter. Bitcoin framstod som det mest framgångsrika förkroppsligandet av dessa ideal: ett monetärt peer-to-peer-nätverk som vem som helst kunde använda, ingen kunde kontrollera och alla kunde verifiera.
+Projektet påverkades starkt av [Cypherpunk](https://planb.academy/resources/glossary/cypherpunks):s etos; en grupp utvecklare och tänkare som trodde på att använda kryptografi för att skydda individuella friheter online. För dem var integritet och decentralisering inte tekniska preferenser, utan ideologiska nödvändigheter. Bitcoin framstod som det mest framgångsrika förkroppsligandet av dessa ideal: ett monetärt [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p)-nätverk som vem som helst kunde använda, ingen kunde kontrollera och alla kunde verifiera.
 
 
 ![image](assets/sv/030.webp)
@@ -876,7 +874,7 @@ Idén om en digital valuta som fungerar oberoende av någon central myndighet (s
 Bitcoin dök inte bara upp från ingenstans. Den skapades vid ett mycket specifikt tillfälle - precis efter den globala finanskrisen 2008. Kollapsen på den amerikanska bostadsmarknaden och subprimelånekrisen fick stora banker att gå omkull och skakade människors förtroende för hela det finansiella systemet.
 
 
-Det var i denna miljö av rädsla och osäkerhet som Bitcoin föddes. Skaparen, känd som Satoshi Nakamoto, inkluderade ett mycket symboliskt meddelande i det allra första blocket i Bitcoin Blockchain, känt som Genesis-blocket. Meddelandet var:
+Det var i denna miljö av rädsla och osäkerhet som Bitcoin föddes. Skaparen, känd som Satoshi Nakamoto, inkluderade ett mycket symboliskt meddelande i det allra första blocket i Bitcoin Blockchain, känt som [Genesis-blocket](https://planb.academy/resources/glossary/genesis-block). Meddelandet var:
 
 
 > **"The Times 03/Jan/2009 Kansler på randen till andra räddningsaktion för banker"**
@@ -904,7 +902,7 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 #### Peer-to-peer och inget centralt organ
 
 
-Bitcoin definieras som ett "peer-to-peer-system för elektroniska kontanter" Detta innebär att vem som helst kan ansluta till nätverket med hjälp av lämplig programvara (en Bitcoin-nod) och interagera direkt med andra användare utan att förlita sig på en central server. Målet med denna decentralisering är att förhindra att någon enskild enhet (t.ex. en bank, en regering eller ett stort företag) kontrollerar, censurerar eller stoppar systemet. Bitcoin fungerar 24/7, globalt, och är tillgängligt för alla utan några villkor.
+Bitcoin definieras som ett "peer-to-peer-system för elektroniska kontanter" Detta innebär att vem som helst kan ansluta till nätverket med hjälp av lämplig programvara (en Bitcoin-[nod](https://planb.academy/resources/glossary/node)) och interagera direkt med andra användare utan att förlita sig på en central server. Målet med denna decentralisering är att förhindra att någon enskild enhet (t.ex. en bank, en regering eller ett stort företag) kontrollerar, censurerar eller stoppar systemet. Bitcoin fungerar 24/7, globalt, och är tillgängligt för alla utan några villkor.
 
 
 ![image](assets/sv/034.webp)
@@ -931,7 +929,7 @@ Tänk på Blockchain som en gigantisk bokförings-Ledger, där varje rad represe
 #### Hur block skapas: Mining
 
 
-Mining är den process genom vilken datorer (eller stora Mining-gårdar) bidrar med **datorkraft** för att säkra Bitcoin:s transaktionshistorik och skapa nya block. Miners tävlar om att lösa ett matematiskt pussel - specifikt att hitta en partiell Hash-kollision. Denna process kräver betydande energi och resurser. När en Miner hittar en giltig lösning sänder de blocket till nätverket, som verifierar och accepterar det som giltigt.
+[Mining](https://planb.academy/resources/glossary/mining) är den process genom vilken datorer (eller stora Mining-gårdar) bidrar med **datorkraft** för att säkra Bitcoin:s transaktionshistorik och skapa nya block. Miners tävlar om att lösa ett matematiskt pussel - specifikt att hitta en partiell Hash-kollision. Denna process kräver betydande energi och resurser. När en Miner hittar en giltig lösning sänder de blocket till nätverket, som verifierar och accepterar det som giltigt.
 
 Som belöning får Miner nyskapade bitcoins (kallas blocksubvention) tillsammans med transaktionsavgifterna från alla transaktioner som ingår i det blocket.
 
@@ -939,7 +937,7 @@ Som belöning får Miner nyskapade bitcoins (kallas blocksubvention) tillsammans
 #### Halving: Minskning av blockbidraget
 
 
-För att säkerställa Bitcoin:s knapphet är blocksubventionen programmerad att halveras vart 210 000:e block; ungefär vart fjärde år. Denna händelse är känd som "Halving" När Bitcoin lanserades tjänade gruvarbetare 50 BTC per block. År 2025 har den belöningen sjunkit till 3,125 BTC och kommer att fortsätta att minska över tid.
+För att säkerställa Bitcoin:s knapphet är blocksubventionen programmerad att halveras vart 210 000:e block; ungefär vart fjärde år. Denna händelse är känd som "Halving" När Bitcoin lanserades tjänade [gruvarbetare](https://planb.academy/resources/glossary/miner) 50 BTC per block. År 2025 har den belöningen sjunkit till 3,125 BTC och kommer att fortsätta att minska över tid.
 
 Så småningom, runt år 2140, kommer subventionen att nå noll, eftersom Bitcoin:s totala Supply kommer att uppgå till 21 miljoner mynt. Denna förutsägbara utgivningskurva efterliknar knappheten på fysiska råvaror som guld; en anledning till att Bitcoin ofta kallas **digitalt guld**.
 
@@ -953,12 +951,12 @@ Så småningom, runt år 2140, kommer subventionen att nå noll, eftersom Bitcoi
 #### Knapphet och en fast penningpolitik
 
 
-En av Bitcoin:s mest kraftfulla egenskaper är dess *förutsägbara och oföränderliga penningpolitik*. Till skillnad från traditionella fiat-valutor (som dollar, euro eller yen), som kan tryckas efter behag av centralbanker (vilket ofta leder till inflation eller ekonomiska snedvridningar), fungerar Bitcoin enligt en transparent uppsättning regler som är inbäddade i dess kod.
+En av Bitcoin:s mest kraftfulla egenskaper är dess *förutsägbara och oföränderliga penningpolitik*. Till skillnad från traditionella fiat-valutor (som dollar, euro eller yen), som kan tryckas efter behag av centralbanker (vilket ofta leder till [inflation](https://planb.academy/resources/glossary/inflation) eller ekonomiska snedvridningar), fungerar Bitcoin enligt en transparent uppsättning regler som är inbäddade i dess kod.
 
 Det kommer aldrig att finnas mer än 21 miljoner bitcoins, och takten i vilken nya mynt ges ut är känd i förväg av alla i nätverket.
 
 
-Ingen regering, institution eller individ kan ensidigt ändra Supply-taket eller distributionsreglerna. Det enda sättet att ändra dessa parametrar skulle vara att ändra Bitcoin:s protokoll, och även det skulle kräva konsensus från en majoritet av nätverkets ekonomiska deltagare.
+Ingen regering, institution eller individ kan ensidigt ändra Supply-taket eller distributionsreglerna. Det enda sättet att ändra dessa parametrar skulle vara att ändra Bitcoin:s protokoll, och även det skulle kräva [konsensus](https://planb.academy/resources/glossary/consensus) från en majoritet av nätverkets ekonomiska deltagare.
 
 
 Denna inbyggda knapphet är en stor dragningskraft för dem som vill välja bort oförutsägbar penningpolitik eller undvika den gradvisa erosionen av deras köpkraft genom inflation. Med tiden kan detta innebära ett skifte i finansiellt tänkande, där sparande i en deflationstillgång som Bitcoin blir mer attraktivt än att förlita sig på traditionella, inflationsbenägna valutor.
@@ -1008,7 +1006,7 @@ Bitcoin gör det möjligt för vem som helst att kontrollera riktigheten i Block
 #### En motståndskraftig, gränsöverskridande betalningsmetod
 
 
-På grund av sin decentraliserade natur fungerar Bitcoin dygnet runt, oberoende av gränser eller tidszoner. I regioner där traditionell bankinfrastruktur saknas används Bitcoin ofta som en snabb och billig lösning för att skicka eller ta emot pengar utan att förlita sig på dyra mellanhänder. Även om transaktionsavgifterna kan variera beroende på överbelastning i nätverket är de i allmänhet mycket lägre än de avgifter som bankerna tar ut för internationella överföringar. Layer-2-lösningar som [Lightning Network](https://planb.academy/resources/glossary/lightning-network) möjliggör dessutom ännu snabbare och billigare Bitcoin-transaktioner.
+På grund av sin decentraliserade natur fungerar Bitcoin dygnet runt, oberoende av gränser eller tidszoner. I regioner där traditionell bankinfrastruktur saknas används Bitcoin ofta som en snabb och billig lösning för att skicka eller ta emot pengar utan att förlita sig på dyra mellanhänder. Även om transaktionsavgifterna kan variera beroende på överbelastning i nätverket är de i allmänhet mycket lägre än de avgifter som bankerna tar ut för internationella överföringar. Layer-2-lösningar som Lightning Network möjliggör dessutom ännu snabbare och billigare Bitcoin-transaktioner.
 
 
 #### En värdebevarare
@@ -1234,7 +1232,7 @@ Bitcoinanvändare kommer från alla samhällsskikt, men de delar en gemensam vis
 - **Cypherpunks**, som försvarar privatlivet och motsätter sig övervakning;
 - **Förtryckta medborgare** som söker skydd från auktoritära regimer och kapitalkontroller;
 - **Anarkister**, som ser Bitcoin som ett verktyg för att frigöra sig från statlig kontroll;
-- **Österrikiska ekonomer**, som förespråkar sunda pengar och frihet från statlig manipulation;
+- **[Österrikiska ekonomer](https://planb.academy/resources/glossary/austrian-school)**, som förespråkar sunda pengar och frihet från statlig manipulation;
 - Ingenjörer, finansiärer och yttrandefrihetsförespråkare, som inser de djupgående samhälleliga konsekvenserna av detta nya monetära paradigm.
 
 
@@ -1430,7 +1428,7 @@ Utbyten spelar en kritisk roll i Bitcoin-ekosystemet och fungerar som broar mell
 - enkelt, gratis uttag av bitcoins till en personlig Wallet.
 
 
-Börser som följer lokala bestämmelser måste vanligtvis följa strikta **"[Know Your Customer](https://planb.academy/resources/glossary/kyc-know-your-customer)"** (KYC)-protokoll, vilket kräver att användare tillhandahåller identitetshandlingar innan de får tillgång till tjänster. Även om dessa processer är utformade för att förhindra olaglig aktivitet kan de äventyra den integritet som Bitcoin i sig erbjuder.
+Börser som följer lokala bestämmelser måste vanligtvis följa strikta **"Know Your Customer"** (KYC)-protokoll, vilket kräver att användare tillhandahåller identitetshandlingar innan de får tillgång till tjänster. Även om dessa processer är utformade för att förhindra olaglig aktivitet kan de äventyra den integritet som Bitcoin i sig erbjuder.
 
 
 ![image](assets/sv/058.webp)
@@ -1539,7 +1537,7 @@ Bitcoin Wallet-branschen är indelad i flera kategorier, som var och en tillgodo
 
 
 
-- **[Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) Tillverkare**: Dessa företag utvecklar fysiska enheter som är utformade för säker lagring av nycklar. Vissa har öppen källkod, medan andra erbjuder proprietära lösningar med varierande funktioner och säkerhetsnivåer. Anmärkningsvärda namn inkluderar Ledger, Trezor, Coinkite, Foundation och Shiftcrypto.
+- **Hardware Wallet Tillverkare**: Dessa företag utvecklar fysiska enheter som är utformade för säker lagring av nycklar. Vissa har öppen källkod, medan andra erbjuder proprietära lösningar med varierande funktioner och säkerhetsnivåer. Anmärkningsvärda namn inkluderar Ledger, Trezor, Coinkite, Foundation och Shiftcrypto.
 - **Software Wallet-utvecklare**: Dessa omfattar allt från företag till oberoende utvecklare som skapar mobila och stationära applikationer. Deras erbjudanden varierar i användarupplevelse, säkerhet och funktioner. Exempel på detta är Sparrow, Wizard Sardine, Galoy, Synonym och Blockstream.
 - DIY (*Do It Yourself*)-plånböcker: Dessa lösningar med öppen källkod är utformade för avancerade användare som vill ha full kontroll och minimalt beroende av tredje part. Att bygga din egen Wallet minskar förtroendeberoenden och kan öka din säkerhetsställning. Anmärkningsvärda DIY-alternativ inkluderar Seedsigner och Specter DIY.
 
@@ -1550,7 +1548,7 @@ Plånböcker spelar en grundläggande roll i Bitcoin och kommer att utforskas me
 #### Bitcoin Mining
 
 
-Mining är en kärnfunktion i Bitcoin-nätverket. Den säkerställer systemets säkerhet och håller Blockchain i drift. Miners validerar transaktioner och säkrar nätverket genom att utföra energikrävande beräkningar som kallas Proof of Work. Varje nyligen utvunnet block lägger till ett antal transaktioner i Blockchain och frigör nya bitcoins enligt protokollets utgivningsschema.
+Mining är en kärnfunktion i Bitcoin-nätverket. Den säkerställer systemets säkerhet och håller Blockchain i drift. Miners validerar transaktioner och säkrar nätverket genom att utföra energikrävande beräkningar som kallas [Proof of Work](https://planb.academy/resources/glossary/proof-of-work). Varje nyligen utvunnet block lägger till ett antal transaktioner i Blockchain och frigör nya bitcoins enligt protokollets utgivningsschema.
 
 
 I Bitcoin:s tidiga dagar kunde Mining göras från en persondator. Idag är det en konkurrensutsatt, global industri som domineras av företag med stora finansiella och tekniska resurser. Jakten på billiga energikällor har blivit ett viktigt fokus, eftersom gruvbolagen strävar efter att optimera driftskostnaderna och lönsamheten. Mining-verksamheten omfattar nu allt från massiva industrianläggningar till småskaliga anläggningar i hemmen eller garagen...
@@ -1585,7 +1583,7 @@ Bitcoin:s utveckling kan förstås genom några olika grupper av bidragsgivare:
 - **Oberoende utvecklare**, Dessa utvecklare fokuserar på att skapa verktyg och applikationer för att förbättra användarupplevelsen, till exempel Mempool.space(en visuell Interface för att spåra transaktionsaktivitet) eller Alby( verktyg för att använda Lightning-betalningar i webbläsare och appar).
 
 
-Vem som helst kan föreslå ändringar i Bitcoin Core, men processen är avsiktligt rigorös. Nya idéer tar ofta år att förfina och kräver djup teknisk förståelse, brett samhällsengagemang och flera lager av granskning. Förslag lämnas vanligtvis in i form av **Bitcoin Improvement Proposals (BIPs)**; varav några aldrig kommer in i protokollet.
+Vem som helst kan föreslå ändringar i Bitcoin Core, men processen är avsiktligt rigorös. Nya idéer tar ofta år att förfina och kräver djup teknisk förståelse, brett samhällsengagemang och flera lager av granskning. Förslag lämnas vanligtvis in i form av **Bitcoin Improvement Proposals ([BIPs](https://planb.academy/resources/glossary/bip))**; varav några aldrig kommer in i protokollet.
 
 Innovation är välkommet, men bara om det stöds av solida resonemang, samförstånd i samhället och noggranna tester.
 
@@ -1631,7 +1629,7 @@ Bland de viktigaste overlay-systemen som berikar Bitcoin-ekosystemet finns
 - **Lightning Network**:
 
 
-Lightning Network, som skapades av Thaddeus Dryja och Joseph Poon 2016, är en andra Layer-lösning som är utformad för att möjliggöra omedelbara och billiga betalningar. Två användare kan öppna en privat kanal där de kan göra transaktioner där saldot endast uppdateras på Blockchain när kanalen öppnas eller stängs. Transaktioner inom kanalen sker off-chain, vilket innebär att de inte behöver registreras individuellt på Bitcoin Blockchain. Den här strukturen möjliggör omedelbara transaktioner och minimala avgifter, vilket gör den idealisk för transaktioner med lågt värde som kräver snabb bekräftelse.
+Lightning Network, som skapades av Thaddeus Dryja och Joseph Poon 2016, är en andra Layer-lösning som är utformad för att möjliggöra omedelbara och billiga betalningar. Två användare kan öppna en privat [kanal](https://planb.academy/resources/glossary/payment-channel) där de kan göra transaktioner där saldot endast uppdateras på Blockchain när kanalen öppnas eller stängs. Transaktioner inom kanalen sker off-chain, vilket innebär att de inte behöver registreras individuellt på Bitcoin Blockchain. Den här strukturen möjliggör omedelbara transaktioner och minimala avgifter, vilket gör den idealisk för transaktioner med lågt värde som kräver snabb bekräftelse.
 
 
 ![image](assets/sv/061.webp)
@@ -1670,7 +1668,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 RGB är ett decentraliserat och integritetsfokuserat Smart contract-system som är utformat för att fungera ovanpå Bitcoin och Lightning Network. Till skillnad från traditionella Smart contract-plattformar använder RGB en Client-side Validation-modell (vilket innebär att hela Contract State lagras off-chain och att endast kryptografiska åtaganden publiceras till Bitcoin Blockchain). Denna design förbättrar både skalbarheten och integriteten. Med RGB kan användare skapa avancerade smarta kontrakt för att utfärda tokens, NFT:er, decentraliserade identiteter eller till och med DeFi-applikationer, direkt på Bitcoin eller Lightning.
 
 
-En viktig egenskap hos RGB är dess skydd mot Double-spending, vilket uppnås med hjälp av en kryptografisk teknik som kallas Single-use Seals. Denna mekanism bygger på det faktum att Bitcoin:s UTXO:er (Unspent Transaction Outputs) endast kan användas en gång. Tokens äkthet säkerställs genom validering på användarsidan av Contract:s hela historik (från dess skapande till dess nuvarande tillstånd).
+En viktig egenskap hos RGB är dess skydd mot Double-spending, vilket uppnås med hjälp av en kryptografisk teknik som kallas Single-use Seals. Denna mekanism bygger på det faktum att Bitcoin:s [UTXO](https://planb.academy/resources/glossary/utxo):er (Unspent Transaction Outputs) endast kan användas en gång. Tokens äkthet säkerställs genom validering på användarsidan av Contract:s hela historik (från dess skapande till dess nuvarande tillstånd).
 
 
 ![image](assets/sv/062.webp)
@@ -2921,7 +2919,7 @@ https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
 
-- En **Hot Wallet för vardagliga transaktioner**. För regelbundna utgifter väljer paranoida användare integritetsfokuserade plånböcker som Ashigaru, Wasabi Wallet eller Sparrow wallet. Dessa plånböcker stöder avancerade funktioner som: mini-CoinJoin-utgiftstransaktioner, payjoins, potentiellt CoinJoin-verktyg, myntkontroll, UTXO-taggning eller möjligheten att ansluta via din egen Bitcoin-nod.
+- En **Hot Wallet för vardagliga transaktioner**. För regelbundna utgifter väljer paranoida användare integritetsfokuserade plånböcker som Ashigaru, Wasabi Wallet eller Sparrow wallet. Dessa plånböcker stöder avancerade funktioner som: mini-[CoinJoin](https://planb.academy/resources/glossary/coinjoin)-utgiftstransaktioner, payjoins, potentiellt CoinJoin-verktyg, myntkontroll, UTXO-taggning eller möjligheten att ansluta via din egen Bitcoin-nod.
 
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d

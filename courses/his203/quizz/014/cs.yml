@@ -1,0 +1,11 @@
+question: Jakou reklamní platformu spustili Erik Voorhees a Ira Miller v listopadu 2011 pro propagaci obsahu na Twitteru pomocí Bitcoin?
+answer: FeedZeBirds
+wrong_answers:
+  - Coinapult
+  - BTCinch
+  - BitMunchies
+explanation: |
+ FeedZeBirds byla reklamní platforma, kterou 23. listopadu 2011 spustili Erik Voorhees a Ira Miller. Reklamní platforma FeedZeBirds umožňovala uživatelům platit
+ v bitcoinech za prezentaci obsahu na Twitteru nákupem retweetů. BitMunchies byl internetový obchod s potravinami, který v květnu 2011 vytvořil Ira Miller, BTCinch byl internetový obchod s potravinami
+ platební procesor vyvinutý v létě 2011 a Coinapult byla služba pro zasílání peněz e-mailem, kterou oba partneři vyvinuli později.
+reviewed: true

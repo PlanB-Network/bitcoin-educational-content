@@ -1,15 +1,13 @@
 ---
 name: Bitcoin mining 소개
-goal: Bitcoin mining 및 proof-of-work 처음부터 이해하기1234556789
+goal: Bitcoin mining 및 proof-of-work(작업증명)의 기초 이해하기
 objectives: 
 
-
-  - proof-of-work와 Bitcoin에서의 역할을 이해합니다.
+  - proof-of-work의 개념과 Bitcoin에서의 역할을 이해합니다.
   - 난이도 조정 메커니즘을 분석합니다.
-  - mining과 관련된 기술 용어가 실제로 무엇을 의미하는지 알아보세요.
-  - Bitcoin 블록과 그 구성 요소를 구축하는 단계에 대해 설명합니다.
-  - mining 산업의 주요 발전 사항을 파악하세요.
-
+  - mining과 관련된 기술 용어들의 실제 의미를 파악합니다.
+  - Bitcoin 블록생성 과정과 그 구성 요소를 설명합니다.
+  - mining 산업의 주요 발전 과정을 알아봅니다.
 
 ---
 

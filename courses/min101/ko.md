@@ -1,6 +1,6 @@
 ---
 name: Bitcoin mining 소개
-goal: Bitcoin mining 및 proof-of-work 처음부터 이해하기1234556
+goal: Bitcoin mining 및 proof-of-work 처음부터 이해하기1234556789
 objectives: 
 
 

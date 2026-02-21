@@ -1545,7 +1545,8 @@ Pada tanggal 3 Januari 2012, Armory dipresentasikan sebagai "Klien Bitcoin terca
 
 
 
-Sebuah bentuk hibrida dari wallet muncul: *web wallet*, yang memungkinkan untuk mengakses dana dari sebuah browser dengan menghubungkannya ke sebuah layanan yang menyimpan sebuah salinan terenkripsi dari kunci pribadi.
+
+Muncul bentuk dompet hibrida: *web wallet*, yang memungkinkan untuk mengakses dana dari sebuah browser dengan menghubungkannya ke sebuah layanan yang menyimpan sebuah salinan terenkripsi dari kunci pribadi.
 
 
 

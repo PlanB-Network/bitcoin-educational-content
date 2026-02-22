@@ -2248,7 +2248,7 @@ Gavin ingin bergerak cepat, sangat cepat, yang tak pelak menciptakan ketegangan.
 
 
 
-Katapel ini dipimpin oleh pengembang Luke-Jr. Selama pertemuan IRC pada tanggal 3 Januari 2012, dia [menentang] (https://en.bitcoin.it/wiki/User:Genjix/Meetings/3_Jan_2012) P2SH, dengan pertimbangan bahwa "OP_EVAL jauh lebih baik daripada benda jelek ini". Pada tanggal 13, dia [membuat](https://web.archive.org/web/20130307042411/https://bitcointalk.org/index.php?topic=58579.0) sebuah thread di BitcoinTalk, di mana dia menyerukan tindakan terhadap BIP 16. Dia menganggap P2SH "jauh lebih buruk" daripada `OP_EVAL` karena "pada dasarnya menggantikan sistem skrip di mana Bitcoin dibangun dengan satu model khusus". Lebih lanjut, dia menunjukkan bahwa "Gavin memaksa semua orang yang menggunakan kode Bitcoin terbaru untuk memilih BIP 16", dan [dibuat] (https://github.com/bitcoin/bitcoin/pull/755) sebagai konsekuensinya, sebuah *permintaan tarik* untuk membuat penandaan ini opsional, yang akan diterima. Akhirnya, dia mengusulkan pemungutan suara komunitas, langsung di forum, yang dimenangkan oleh P2SH.
+Gerakan ini dipimpin oleh pengembang Luke-Jr. Selama pertemuan IRC pada tanggal 3 Januari 2012, dia [menentang] (https://en.bitcoin.it/wiki/User:Genjix/Meetings/3_Jan_2012) P2SH, dengan pertimbangan bahwa "OP_EVAL jauh lebih baik daripada benda jelek ini". Pada tanggal 13, dia [membuat](https://web.archive.org/web/20130307042411/https://bitcointalk.org/index.php?topic=58579.0) sebuah thread di BitcoinTalk, di mana dia menyerukan tindakan terhadap BIP 16. Dia menganggap P2SH "jauh lebih buruk" daripada `OP_EVAL` karena "pada dasarnya menggantikan sistem skrip di mana Bitcoin dibangun dengan satu model khusus". Lebih lanjut, dia menunjukkan bahwa "Gavin memaksa semua orang yang menggunakan kode Bitcoin terbaru untuk memilih BIP 16", dan [dibuat] (https://github.com/bitcoin/bitcoin/pull/755) sebagai konsekuensinya, sebuah *permintaan tarik* untuk membuat penandaan ini opsional, yang akan diterima. Akhirnya, dia mengusulkan pemungutan suara komunitas, langsung di forum, yang dimenangkan oleh P2SH.
 
 
 
@@ -2310,7 +2310,7 @@ Beberapa hari kemudian, Gavin [akan menjelaskan] (https://bitcointalk.org/index.
 
 > Saya menggunakan fitur Phone-a-Friend dan Ask the Audience, dan saya mengunci BIP 16 sebagai Jawaban Akhir saya
 
-### Pensinyalan Miner
+### Sinyal penambang
 
 
 
@@ -2330,7 +2330,7 @@ Pada saat itu, daya komputasi dibagi di antara beberapa [lima puluh](https://en.
 
 
 
-Pada tanggal 25 Januari, saat evaluasi pensinyalan dimulai, beberapa pool kecil [memberikan suara mendukung] (https://web.archive.org/web/20120125091902/http://blockchain.info/P2SH) P2SH. Eligius, kelompok Luke-Jr, memberikan suara menentang. Namun, tampaknya operator Deepbit, Tycho, menolak untuk menggunakan P2SH di dalam co-op-nya, seperti yang dia jelaskan di IRC. Sebagai tanggapan, Gavin [menulis] (https://bitcointalk.org/index.php?topic=61125.msg712822#msg712822) sebuah pesan panjang di forum, di mana dia menjelaskan situasi "dalam istilah awam", dengan mencatat secara khusus:
+Pada tanggal 25 Januari, ketika evaluasi sinyal dimulai, beberapa pool kecil [memberikan suara mendukung] (https://web.archive.org/web/20120125091902/http://blockchain.info/P2SH) P2SH. Eligius, kelompok Luke-Jr, memberikan suara menentang. Namun, tampaknya operator Deepbit, Tycho, menolak untuk menggunakan P2SH di dalam co-op-nya, seperti yang dia jelaskan di IRC. Sebagai tanggapan, Gavin [menulis] (https://bitcointalk.org/index.php?topic=61125.msg712822#msg712822) sebuah pesan panjang di forum, di mana dia menjelaskan situasi "dalam istilah awam", dengan mencatat secara khusus:
 
 
 
@@ -2378,7 +2378,7 @@ Akan tetapi, pada tanggal 4 Februari 2012, Russell O'Connor [menemukan] (https:/
 
 
 
-Setelah jeda yang disebabkan oleh penerapan BIP 30 (yang membutuhkan banyak upaya dari para penambang), pensinyalan untuk P2SH kembali ke jalurnya. Pada tanggal 10 Maret, Tycho melakukan tes pertama untuk mengimplementasikan pensinyalan di dalam Deepbit. Pada tanggal 15 Maret, dia [menyatakan] (https://bitcointalk.org/index.php?topic=3889.msg803685#msg803685) bahwa dia telah "mencoba untuk menunda P2SH sebanyak mungkin", tetapi "ini sudah tidak produktif". Akibatnya, ia menyerah dan menerapkan perubahan dalam kelompoknya.
+Setelah jeda yang disebabkan oleh penerapan BIP 30 (yang membutuhkan banyak upaya dari para penambang), pemberian sinyal untuk P2SH kembali berjalan sesuai rencana. Pada tanggal 10 Maret, Tycho melakukan uji coba pertama untuk menerapkan pemberian sinyal di Deepbit. Pada tanggal 15 Maret, dia [menyatakan] (https://bitcointalk.org/index.php?topic=3889.msg803685#msg803685) bahwa dia telah "mencoba untuk menunda P2SH sebanyak mungkin", tetapi "ini sudah tidak produktif". Akibatnya, ia menyerah dan menerapkan perubahan dalam kelompoknya.
 
 
 
@@ -2708,7 +2708,7 @@ Keputusan ini ditentang oleh beberapa pihak, dan administrator Jalur Sutra ditud
 
 
 
-> Suka atau tidak suka, saya adalah kapten kapal ini.  Anda berada di sini secara sukarela dan jika Anda tidak menyukai aturan mainnya, atau tidak mempercayai kapten Anda, Anda bisa turun dari kapal.  Bagi mereka yang bertahan, kami di Silk Road akan terus melakukan segala upaya untuk menjaga agar pasar ini tetap berjalan dengan lancar dan aman, dan sekali lagi terima kasih atas dukungan Anda!
+> Suka atau tidak suka, saya adalah kapten kapal ini. Anda berada di sini secara sukarela dan jika Anda tidak menyukai aturan mainnya, atau tidak mempercayai kapten Anda, Anda bisa turun dari kapal. Bagi mereka yang bertahan, kami di Silk Road akan terus melakukan segala upaya untuk menjaga agar pasar ini tetap berjalan dengan lancar dan aman, dan sekali lagi terima kasih atas dukungan Anda!
 
 Analogi sang kapten menarik perhatian para anggota forum Silk Road, yang dengan cepat menggunakannya baik secara positif maupun negatif dalam pesan-pesan mereka, sedemikian rupa sehingga Ross menggunakannya untuk membentuk citra yang unik untuk dirinya sendiri. Sebulan kemudian, ia memutuskan untuk mengubah namanya di forum dan dalam komunikasi resminya. Hingga saat itu, Ross menampilkan dirinya dengan nama samaran "Silk Road". Nama barunya, yang diresmikan pada tanggal 5 Februari, adalah Dread Pirate Roberts (sering disingkat DPR). Ini adalah referensi untuk film *The Princess Bride*, sebuah parodi komedi tahun 1987 tentang dongeng abad pertengahan, di mana karakter yang diperankan oleh Roberts digambarkan sebagai bajak laut yang kejam. Pengungkapan dalam film tersebut (https://www.youtube.com/watch?v=aHZGqBVBCRw) bahwa nama "Dread Pirate Roberts" hanyalah sebuah gelar, dan bahwa bajak laut yang sebenarnya mewarisi gelar tersebut dari orang yang menangkapnya, yang juga mewarisi gelar tersebut dari pendahulunya, dan lain-lain, nama tersebut seharusnya "mengilhami rasa takut yang diperlukan" pada musuh-musuhnya.
 
@@ -3151,7 +3151,7 @@ Peningkatan ini telah mendorong reaksi dari komunitas teknis, yang khawatir deng
 
 
 
-> Selama ~24 jam terakhir, jumlah transaksi satoshidice telah meningkat pesat, yang menyebabkan kumpulan memori transaksi (saat ini) mencapai sekitar 9000 transaksi.  Spam Satoshidice sudah menjadi bagian yang sangat besar dari transaksi saat ini, tetapi sekarang sudah sangat konyol.  Apakah ini saatnya untuk mulai mendeprioritaskan transaksi yang menggunakan alamat yang sangat umum?
+> Selama ~24 jam terakhir, jumlah transaksi satoshidice telah meningkat pesat, yang menyebabkan kumpulan memori transaksi (saat ini) mencapai sekitar 9000 transaksi.  Spam Satoshidice sudah menjadi bagian yang sangat besar dari transaksi saat ini, tetapi sekarang sudah sangat konyol. Apakah ini saatnya untuk mulai mendeprioritaskan transaksi yang menggunakan alamat yang sangat umum?
 
 Pengembang Luke-Jr [berbicara] (https://bitcointalk.org/index.php?topic=23768.msg968819#msg968819) tentang "SatoshiDice menyalahgunakan blockchain".
 
@@ -3228,7 +3228,7 @@ Karena ketahanannya terhadap sensor dan anonimitas relatif, Bitcoin cocok untuk 
 
 
 
-Bitcoin sangat cocok untuk kejahatan dunia maya, yang merajalela di Internet dan sebelumnya tidak memiliki mata uang yang digital dan sulit dipahami. Sejak tahun 2011 dan seterusnya, sejumlah pencurian dan penipuan terjadi yang melibatkan mata uang kripto. Pada bulan Mei 2012, kejadian-kejadian dramatis ini telah berlipat ganda sedemikian rupa sehingga "Daftar Pencurian, Pencurian, Peretasan, Penipuan, dan Kerugian Besar Bitcoin" (https://bitcointalk.org/index.php?topic=83794.msg923918#msg923918) diposting di forum. Daftar ini, yang diperbarui secara teratur, akan menjadi sangat besar selama bertahun-tahun sehingga [utas kedua] (https://bitcointalk.org/index.php?topic=576337.msg6289796#msg6289796) harus dibuka pada tahun 2014 untuk mencatat semua insiden.
+Bitcoin sangat cocok untuk kejahatan dunia maya, yang merajalela di Internet dan sebelumnya tidak memiliki mata uang yang digital dan sulit dipahami. Sejak tahun 2011 dan seterusnya, sejumlah pencurian dan penipuan terjadi yang melibatkan mata uang kripto. Pada bulan Mei 2012, kejadian-kejadian dramatis ini telah berlipat ganda sedemikian rupa sehingga "Daftar Perampokan, Pencurian, Peretasan, Penipuan, dan Kerugian Bitcoin Utama" (https://bitcointalk.org/index.php?topic=83794.msg923918#msg923918) diposting di forum. Daftar ini, yang diperbarui secara teratur, akan menjadi sangat besar selama bertahun-tahun sehingga [utas kedua] (https://bitcointalk.org/index.php?topic=576337.msg6289796#msg6289796) harus dibuka pada tahun 2014 untuk mencatat semua insiden.
 
 
 
@@ -3518,7 +3518,7 @@ Pada akhir tahun 2012, dunia keuangan Wild West sudah mengalami penurunan. Pangs
 
 
 
-Peningkatan ini disertai dengan munculnya cara baru dalam berurusan dengan bitcoin, terlebih lagi karena *halving* pertama baru saja terjadi: alih-alih menjadi mata uang pertukaran yang memfasilitasi aktivitas terlarang, bitcoin secara bertahap dilihat sebagai sarana investasi, seperti emas digital yang disimpan di lemari besi. Pergeseran wacana ini secara alami menciptakan ketegangan tersendiri.
+Kebangkitan ini disertai dengan munculnya cara baru dalam menangani bitcoin, terlebih lagi karena *halving* pertama baru saja terjadi: alih-alih sebagai mata uang pertukaran yang memfasilitasi aktivitas ilegal, bitcoin secara bertahap dipandang sebagai instrumen investasi, seperti emas digital yang disimpan di brankas. Pergeseran wacana ini secara alami menciptakan serangkaian ketegangan tersendiri.
 
 
 

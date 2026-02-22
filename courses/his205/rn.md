@@ -2202,15 +2202,15 @@ Kandi mu vyiyumviro vyanje, birashoboka ko mbere n’amahera yakwizera(fiat) ash
 
 
 
-Nta ngorane mfise iyo niyumvira igiceri c’inzahabu kiri mu safe n’ikete rigereranya ico giceri c’inzahabu nk’amahera. Kuri jewe nta ngorane y’insobanuro, ni ubwoko bubiri gusa bw’amahera. Nimba ntabeshe, Mises arasigura neza cane ico kintu mu kuvuga ivyerekeye ibisubirira amahera.
+Nta ngorane mfise iyo niyumvira kugereranya igiceri c’inzahabu kiri mububiko n’inoti igereranya ico giceri c’inzahabu nk’amahera. Kuri jewe nta ngorane y’insobanuro, ni ubwoko bubiri gusa bw’amahera. Nimba ntabeshe, Mises arasigura neza cane ico kintu mu kuvuga ivyerekeye ibisubirira amahera.
 
 
 
-Iyerekwa ryabo rishingiye ku kuba udashobora kubona igiceri c’inzahabu kiri mu nzu y’ububiko bwa banki n’agapapuro k’ifeza kariserukira ko ari amahera igihe kimwe. Ku bwanje, nta ngorane mbona muri ivyo; Nta n’ikintu kidasanzwe mbona muri ivyo bintu. Abemera ko amahera yama ari igicuruzwa ntibabona ibintu nk’uko jewe ndabibona.
+Iyerekwa ryabo rishingiye ku kuba udashobora kubona igiceri c’inzahabu kiri mu nzu y’ububiko bwa banki n’inoti ririserukira nk'amahera. Ku bwanje, nta ngorane mbona muri ivyo; Nta n’ikintu kidasanzwe mbona muri ivyo bintu. Abemera ko amahera yama ari igicuruzwa ntibabona ibintu nk’uko jewe ndabibona.
 
 
 
-**Ehe isubiramwo ry'iciyumviro c'icupa co guhinduramwo ivy'imbere mu gitabu *Aux origines de la monnaie*:**
+**Ehe isubiramwo ry'iciyumviro c'itike  caje kiva mu gitabu *Aux origines de la monnaie*:**
 
 
 *Iciyumviro ca 14: "Iciyumviro ciza cane - ciza cane kuko kiri ku mvo nyene Knapp yishizeko, ishingiro ry'amategeko - rya Rist (1938: 372, iciyumviro ca 1) ry'ukugereranya hagati y'amahera y'impapuro n'ibimenyetso vy'ivyumba vy'igenzura: nimba dushobora kuvuga ubwoko bw'ikirego c'ishimikiro ni itandukaniro rya mbere muri ivyo vyose, ikirego ata kintu kidasanzwe
@@ -2223,7 +2223,7 @@ Kandi, ku bijanye n’ikirego**, uwo mwanditsi nyene aravuga ibi bikurikira:
 > Bastiat arafise umwidegemvyo wo kwiyumvira igitabu c'amahera y'ikibano cose kigaragazwa nk'"isoko rinini cane", ariko ako gace gatoyi k'inyongera, ako gace gatoyi k'inyongera gasa n'akatagira akamaro, ni co gitandukaniro cose kiri hagati y'inguzanyo n'amahera. Amahera si ikirego ku iduka kanaka. Nta kintu nk’ico co kwivugira atazi izina. Ariko ukutamenyekana biranga amahera, rero n’uko ari rusangi, ni vyo bituma agira ububasha bwinshi cane. Amahera ntameze nk’inguzanyo, n’ubu nyene ni make mu buryo ubwo ari bwo bwose yoshobora kugabanywa kuri yo. **Amahera araruta cane inguzanyo.**
 
 
-**Ikibazo: amahera y’imyenda n’amahera y’ibicuruzwa**
+**Ikibazo: amahera y’amadeni n’amahera y’ibicuruzwa**
 
 
 
@@ -2231,11 +2231,11 @@ Ico kintu giteye ubwoba kigaragaza neza ukuntu hariho itandukaniro rikomeye haga
 
 
 
-Ku ruhande rumwe, inyigisho y’amahera y’imyenda isobanura amahera imbere ya vyose nk’umuhuza w’uguhindura canke uburyo bwo kwishura bwemewe muri rusangi, canke mbere butegetswe n’ubutegetsi bwa Leta. Umuntu abona ibintu muri ubwo buryo, inzahabu ntikigifise amahera, kubera ko idakoreshwa cane canke ngo yemerwe nk’uburyo rusangi bwo guhindura amahera.
+Ku ruhande rumwe, inyigisho y’amafaranga y’amadeni isobanura amahera imbere ya vyose nk’umuhuza w’uguhindura canke uburyo bwo kwishura bwemewe muri rusangi, canke mbere butegetswe n’ubutegetsi bwa Leta. Umuntu abona ibintu muri ubwo buryo, inzahabu ntikigifise amahera, kubera ko idakoreshwa cane canke ngo yemerwe nk’uburyo rusangi bwo guhindura amahera.
 
 
 
-Ku rundi ruhande, inyigisho y’amahera y’ibicuruzwa ibona ko amahera ari ikintu gifatika, gitorwa n’abantu ku giti cabo kubera ibiranga imbere muri co (ukubura, ukuramba, ukugabanywa, n’ibindi). Dushingiye kuri iyo nzira, inzahabu iguma ari yo mafaranga nyakuri y’isi yose, kandi ubundi bwoko bwose bw’amahera bwo muri iki gihe, mu vy’ukuri, nta kindi burenze inguzanyo ishingiye ku kwizigira.
+Ku rundi ruhande, inyigisho y’amahera y’ibicuruzwa ibona ko amahera ari ikintu gifatika, gitorwa n’abantu ku giti cabo kubera ibiranga imbere muri co (ukubura, ukuramba, ukugabanywa, n’ibindi). Dushingiye kuri iyo nzira, inzahabu iguma ari yo mafaranga nyayo y’isi yose, kandi ubundi bwoko bwose bw’amahera bwo muri iki gihe, mu vy’ukuri, nta kindi burenze inguzanyo ishingiye ku kwizigira.
 
 
 
@@ -2256,11 +2256,11 @@ Ivyo bihushanye vyerekana neza itandukaniro riri hagati y’ivyo vyiyumviro bibi
 
 
 
-Kugira ngo dusozere iki gice ku vyiyumviro bitandukanye vy’amahera, reka tuvuge ku vyerekeye umwana w’igitangaza c’ivyiyumviro vy’amahera, bishimwa n’abahinga benshi mu vy’ubutunzi bo muri iki gihe bakorera amabanki akomeye, kandi bavyita inyigisho y’amahera y’ubu, akenshi izwi kw’izina rya MMT.
+Kugira ngo dusozere iki gice ku vyiyumviro bitandukanye vy’amahera, reka tuvuge ku vyerekeye umwana w’igitangaza c’ivyiyumviro vy’amahera, bishimwa n’abahinga benshi mu vy’ubutunzi bo muri iki gihe bakorera amabanki akomeye, kandi bavyita inyigisho y’amahera ya none, akenshi izwi kw’izina rya MMT.
 
 
 
-**Iciyumviro c’amahera ca none (MMT)** ni uburyo bw’ubutunzi buvuga ko Leta ifise amahera yayo yigenga (nka USA, Canada canke Ubuyapani) idashobora kwigera ibura amahera, kuko ishobora kwama itanga amahera menshi kugira ngo ikoreshe amahera. Dushingiye kuri iyo nyigisho:
+**Iciyumviro c’amahera ca none (MMT)** ni uburyo bw’ubutunzi buvuga ko Leta ifise amahera yayo yigenga (nka USA, Canada canke Ubuyapani) idashobora kwigera ibura amahera, kuko ishobora gukora amahera menshi kugira ngo itere inkunga ibikorwa bisaba ayo mahera. Dushingiye kuri iyo nyigisho:
 
 
 
@@ -2270,11 +2270,11 @@ Kugira ngo dusozere iki gice ku vyiyumviro bitandukanye vy’amahera, reka tuvug
 
 
 
-- Imisoro n’inguzanyo ntibikoreshwa ata guca ku ruhande kugira ngo Leta ikoreshe amahera, ahubwo bikoreshwa mu gutunganya ugutera imbere kw’ibiciro, kugira ico bikoze ku nyifato y’ubutunzi no kubungabunga ugusaba amahera y’igihugu.*
+- Imisoro n’inguzanyo ntibikoreshwa ata guca ku ruhande kugira ngo Leta ikoreshe amahera, ahubwo bikoreshwa mu gutunganya ukuduga kwibiciro, kugira ico bikoze ku nyifato y’ubutunzi no kubungabunga ugusaba amahera y’igihugu.*
 
 
 
-- Igitigiri nyaco c’amahera Leta ikoresha ni ugutera imbere kw’ibiciro, si ikinyuranyo c’ingengo y’imari canke umwenda wa Leta.
+- Igitigiri nyaco c’amahera Leta ikoresha ni ukuduga kw'ibiciro, si ikinyuranyo c’ingengo y’imari canke umwenda wa Leta.
 
 
 
@@ -2282,7 +2282,7 @@ Kugira ngo dusozere iki gice ku vyiyumviro bitandukanye vy’amahera, reka tuvug
 
 
 
-- Leta rero itegerezwa guhindura ingene ikoresha amahera bivanye n’ubutunzi nyabwo buriho (abakozi, ubushobozi bw’inganda, ubutunzi bw’ibidukikije) kugira ngo ntihagire ugutera imbere kw’ibiciro birenze urugero.
+- Leta rero itegerezwa guhindura ingene ikoresha amahera bivanye n’ubutunzi nyabwo buriho (abakozi, ubushobozi bw’inganda, ubutunzi bw’ibidukikije) kugira ngo ntihagire ukuduga kwibiciro birenze urugero.
 
 
 
@@ -2290,19 +2290,19 @@ Kugira ngo dusozere iki gice ku vyiyumviro bitandukanye vy’amahera, reka tuvug
 
 
 
-Rero aha uzosanga inyishu izwi cane ku bantu bose bavuga ngo "Ego, ariko nimba dushobora gucapura amahera, kuki turiko turiha imisoro?" Erega MMT irafise inyishu ibereye kuri ico ciyumviro. Ni ukuri ko mu nzira ya fiat, mu nzira ya none, mu buryo bw’ubuhinga, ntaco bigabanya uguhingura amahera, uretse ugutera imbere kw’ibiciro. Ariko bazotanga iciyumviro c’uko, ica mbere, imisoro ari ngombwa kugira ngo inflation igabanuke, kuko izokura amahera mu bukungu. Rero, iyo tutagira imisoro yo kwishura, ivyo vyose birema amahera vyoshobora gutuma amaherezo haba ugutera imbere kw’ibiciro. Bavuga ko imisoro ari uburyo nyabwo bwo gukura amahera muri iyo nzira kugira ngo hagabanuke ugutera imbere kw’ibiciro.
+Rero aha uzosanga inyishu izwi cane ku bantu bose bavuga ngo "Ego, ariko nimba dushobora gukora amahera, kuki turiko turiha imisoro?" Erega MMT irafise inyishu ibereye kuri ico ciyumviro. Ni ukuri ko mu nzira ya amahera afatiye kucizere(fiat), mu nzira ya none, mu buryo bw’ubuhinga, ntaco bigabanya ugukora amahera, uretse ukuduga kw'ibiciro. Ariko bazotanga iciyumviro c’uko, ica mbere, imisoro ari ngombwa kugira ngo uguta agaciro k'amahera kagabanuke, kuko izokura amahera mu bukungu. Rero, iyo tutagira imisoro yo kwishura, ivyo vyose birema amahera vyoshobora gutuma amaherezo haba ukuduga kw'ibiciro. Bavuga ko imisoro ari uburyo nyabwo bwo gukura amahera muri iyo nzira kugira ngo hagabanuke ukuduga kw'ibiciro.
 
 
 
-Ku bijanye n’amahera ashirwa mu mice ishobora kuyanywa, turashobora kuvuga akarorero ka Leta Zunze Ubumwe za Amerika, zitanga amamiliyaridi y’amadolari ku nganda z’igisirikare, ivyo ntibitera inflation kuko inganda z’igisirikare, igice c’inganda z’igisirikare, zishobora neza gufata ayo mamiliyaridi y’amadolari.
+Ku bijanye n’amahera ashirwa mu mice ishobora kuyakoresha, turashobora kuvuga akarorero ka Leta Zunze Ubumwe za Amerika, zitanga amamiliyaridi y’amadolari ku nganda z’igisirikare, ivyo ntibitera ugutakaza agaciro k'amahera kuko inganda z’igisirikare, igice c’inganda z’igisirikare, zishobora neza gufata ayo mamiliyaridi y’amadolari zikayakoresha.
 
 
 
-Ku rundi ruhande, nimba ushaka kwubaka amabarabara menshi, kandi hariho umupaka w’ubutunzi n’abakozi bashobora kuyakora, gukubita kabiri ingengo y’imari y’amabarabara bizoteza imbere ubukene bw’abakozi bashobora gukora ayo mabarabara. Rero igiciro kizoduga kubera inguvu z’isoko, ugutanga n’ugusaba. Nimba abarongozi bacu bazi vyose bazi aho boshira amahera, mu buryo bw’ubuhinga, ntibikwiye gutuma haba inflation. Kandi nokwishura ko, mu bikorwa, biragaragara neza ko bitera inflation.
+Ku rundi ruhande, nimba ushaka kwubaka amabarabara menshi, kandi hariho umupaka w’ubutunzi n’abakozi bashobora kuyakora, gukubita kabiri ingengo y’imari y’amabarabara bizoteza imbere ubukene bw’abakozi bashobora gukora ayo mabarabara. Rero igiciro kizoduga kubera inguvu z’isoko, ugutanga n’ugusaba. Nimba abarongozi bacu bazi vyose bazi aho boshira amahera, mu buryo bw’ubuhinga, ntibikwiye gutuma haba ukuduga kw'ibiciro. Kandi nokwishura ko, mu bikorwa, biragaragara neza ko bitera iduga ry'ibiciro.
 
 
 
-Mu gusozera, nk’uko MMT ibivuga, Leta irashobora gukoresha ubushobozi bwayo mu kurema amahera kugira ngo ishike ku kazi kuzuye no gufasha mu vy’ishoramari ry’imibano n’ibidukikije, mu gihe igenzura ugutera imbere kw’ibiciro biciye mu ngingo ngenderwako y’ubutunzi ibereye. Akenshi kandi ni intumbero y’abahinga mu vy’ubutunzi ba Keynes, irindi shure ry’ivyiyumviro vy’ubutunzi, gucungera ubushomeri mu gucungera inyungu no gufasha mu gutanga amahera y’ishoramari ry’imibano n’ibidukikije mu gihe bagenzura ugutera imbere kw’ibiciro biciye mu ngingo ngenderwako y’ubutunzi ibereye.
+Mu gusozera, nk’uko MMT ibivuga, Leta irashobora gukoresha ubushobozi bwayo mu gukora amahera kugira ngo ishike ku kazi kuzuye no gufasha mu vy’ishoramari ry’imibano n'ibidukikije, mu gihe igenzura ukuduga kw’ibiciro biciye mu ngingo ngenderwako y’ubutunzi ibereye. Akenshi kandi ni intumbero y’abahinga mu vy’ubutunzi ba Keynes, irindi shure ry’ivyiyumviro vy’ubutunzi, gucungera ubushomeri mu gucungera inyungu no gufasha mu gutanga amahera y’ishoramari ry’imibano n’ibidukikije mu gihe bagenzura ukuduga kw’ibiciro biciye mu ngingo ngenderwako y’ubutunzi ibereye.
 
 
 
@@ -2310,14 +2310,14 @@ Mu gusozera, nk’uko MMT ibivuga, Leta irashobora gukoresha ubushobozi bwayo mu
 
 
 
-Iyi nyigisho ikora gusa ku bihugu bikeyi (raba tweet ya Stephanie Kelton) bifise ubusegaba nyakuri bw’amahera, ni ukuvuga ko bishobora guteranya amadeni mu mafaranga yavyo bwite. Ico ciyumviro kiragoye gukoreshwa ku bukungu bushingiye ku bicuruzwa biva hanze, bitegerezwa kuguma vyizigiye mpuzamakungu amafaranga yabo.
+Iyi nyigisho ikora gusa ku bihugu bikeyi (raba tweet ya Stephanie Kelton) bifise ubudahangarwa nyakuri bw’amahera, ni ukuvuga ko bishobora guteranya amadeni mu mahera yayo bwite. Ico ciyumviro kiragoye gukoreshwa ku bukungu bushingiye ku bicuruzwa biva hanze, bitegerezwa kuguma vyizigiye mpuzamakungu amafaranga yabo.
 
 
 
-Kandi ubusegaba nyakuri bw’amahera ni ubuhe? Bisigura kuba ushoboye guteranya umwenda mu mafaranga yawe bwite. Ubwirizwa kuba ushoboye gukora ubudandaji bw’amasaranganya kugira ngo ugire amafaranga ahagije, amafaranga y’amahanga ahagije, kugira ngo ntubwirizwe gukorana amafaranga y’amahanga kugira ngo ushobore kwinjiza ibicuruzwa hanze. Ivyo vyerekeye ibihugu bikeyi.
+Kandi ubudahangarwa nyakuri bw’amahera ni ubuhe? Bisigura kuba ushoboye guteranya ideni mu mahera yawe bwite. Ubwirizwa kuba ushobora guhingura ibicuruzwa birengako(surplus) kugira uronke ububiko bwamahera, amahera yagaciro y'amanyamahanga ahagije, kugira ngo ntubwirizwe kurondera amahera y'amahanga kugira ngo ushobore kwinjiza ibicuruzwa. Ivyo vyerekeye ibihugu bikeyi.
 
 
-Aha musi, urashobora kubona tweet ya Stephanie Kelton, akaba ari ubwoko bw’umugore w’amafoto y’uwo muhari. Yanditse igitabu citwa "Imigani y'Ikinyuranyo". Muri iyo nkuru yanditse kuri Twitter, yanditse ko ibihugu bitandukanye nka Amerika, Ubuyapani, Canada, Australiya, Ubwongereza, bidashobora kubura amahera.
+Aha musi, urashobora kubona tweet ya Stephanie Kelton, akaba ari ubwoko bw’umugore azwi cane muri uwomuhari. Yanditse igitabu citwa "The Deficit Myth". Muri iyo nkuru yanditse kuri Twitter, yanditse ko ibihugu bitandukanye nka Amerika, Ubuyapani, Canada, Australiya, Ubwongereza, bidashobora kubura amahera.
 
 
 

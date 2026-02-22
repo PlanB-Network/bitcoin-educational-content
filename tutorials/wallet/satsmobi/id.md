@@ -12,7 +12,7 @@ tutorial ini ditulis oleh_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 ## Sats.Mobi
 
-SatsMobi adalah Wallet yang beroperasi di Telegram, menghadirkan semua fungsi Lightning Network (kustodian) Wallet, ditambah serangkaian fitur yang sangat menghibur. SatsMobi berasal dari fork LightningTipBot yang sekarang sudah tidak lagi dikembangkan, mewarisi semua fiturnya sambil menambahkan fitur-fitur terbaru, sehingga membuatnya lebih modern. Seperti LNTipBot, SatsMobi juga menganut filosofi sumber terbuka. Wallet dapat dikonfigurasi dan dikelola secara independen dengan mengkloningnya dari [repositori] ini (https://github.com/massmux/SatsMobiBot).
+SatsMobi adalah Wallet yang beroperasi di Telegram, menghadirkan semua fungsi Lightning Network (kustodian) Wallet, ditambah serangkaian fitur yang sangat menghibur. SatsMobi berasal dari fork LightningTipBot yang sekarang sudah tidak lagi dikembangkan, mewarisi semua fiturnya sambil menambahkan fitur-fitur terbaru, sehingga membuatnya lebih modern. Seperti LNTipBot, SatsMobi juga menganut filosofi sumber terbuka. Wallet dapat dikonfigurasi dan dikelola secara independen dengan mengkloningnya dari [repositori](https://github.com/massmux/SatsMobiBot) ini.
 
 
 Jika kamu lebih suka menggunakannya secara sederhana, memulai obrolan di Telegram akan mengungkapkan bahwa itu adalah bot.

@@ -8,9 +8,7 @@ description: Co je to peněženka pouze pro sledování a jak ji používat?
 
 ***VAROVÁNÍ:** Po zatčení zakladatelů peněženky Samourai a zabavení jejich serverů 24. dubna aplikace Sentinel nadále funguje, ale **je nutné používat vlastní Dojo** pro přístup k informacím o blockchainu a odesílání transakcí.*
 
-_Sledujeme vývoj této kauzy i vývoj souvisejících nástrojů. Ujistěte se, že tento návod aktualizujeme, jakmile budou k dispozici nové informace._
 
-_Tento návod je poskytován pouze pro vzdělávací a informační účely. Nepodporujeme ani nevyzýváme k používání těchto nástrojů pro kriminální účely. Je odpovědností každého uživatele dodržovat zákony ve své jurisdikci._
 
 ---
 
@@ -26,7 +24,7 @@ Tento typ aplikace uchovává pouze data potřebná pro sledování Bitcoinové 
 Peněženka pouze pro sledování se obvykle používá ve spojení s hardwarovou peněženkou. To umožňuje uchovávat soukromé klíče peněženky "v chladu", na zařízení nepřipojeném k internetu, které má minimální útočnou plochu, izoluje soukromé klíče od potenciálně zranitelných prostředí. Aplikace pouze pro sledování na druhé straně výhradně uchovává rozšířený veřejný klíč (`xpub`, `zpub` atd.) Bitcoinové peněženky. Tento rodičovský klíč neumožňuje odhalení přidružených soukromých klíčů a tedy neumožňuje utrácení bitcoinů. Nicméně umožňuje odvození dětských veřejných klíčů a přijímacích adres. S vědomím adres peněženky zabezpečené hardwarovou peněženkou může aplikace pouze pro sledování sledovat tyto transakce na Bitcoinové síti, nabízí uživateli možnost sledovat jejich zůstatek a generovat nové přijímací adresy, aniž by musel každé připojit svou hardwarovou peněženku.
 
 ## Kterou peněženku pouze pro sledování použít?
-V současnosti je nejkomplexnější aplikací pouze pro sledování [Sentinel](https://sentinel.watch/), vyvinutý týmy Samourai Wallet. Zahrnuje všechny základní funkce pro dobrou peněženku pouze pro sledování:
+V současné době je nejkomplexnější watch-only aplikací [Sentinel](https://github.com/wanderingking072/sentinel-android), původně vyvinutá týmy Samourai Wallet a nyní udržovaná komunitou. Sdružuje všechny základní funkce pro kvalitní watch-only peněženku:
 - Podpora pro rozšířené klíče, veřejné klíče a adresy;
 - Možnost organizovat více účtů nebo peněženek do kolekcí;
 - Generování adres pro přijímání bitcoinů na hardwarové peněžence bez nutnosti jejího přímého použití;
@@ -38,25 +36,20 @@ Pro ty, kteří chtějí sledovat peněženku s více podpisy, je jedinou aplika
 Pro uživatele iOS, kteří hledají alternativu k Sentinel, mohou být možnostmi [Green Wallet](https://blockstream.com/green/) nebo [Blue Wallet](https://bluewallet.io/watch-only/), ačkoliv jejich funkce pouze pro sledování není tak komplexní jako u Sentinelu. ![watch-only](assets/notext/2.webp)
 ## Jak používat Sentinel Watch-Only peněženku?
 ### Instalace a nastavení
-Začněte instalací aplikace Sentinel. Můžete tak učinit buď z Google Play Store nebo pomocí [APK dostupného ke stažení na oficiálních stránkách](https://sentinel.watch/download/).
+Začněte instalací aplikace Sentinel. Můžete to provést pomocí [APK dostupného ke stažení v repozitáři projektu na githubu](https://github.com/wanderingking072/sentinel-android/releases).
 
-![watch-only](assets/notext/3.webp)
 
-Při prvním otevření aplikace máte na výběr mezi:
-- `Připojit k Dojo`;
-- `Připojit k serveru Samourai`.
 
-Dojo, vyvinutý týmem Samourai, je plná verze Bitcoinového uzlu, kterou lze nainstalovat samostatně nebo přidat jedním kliknutím do řešení uzlu v boxu, jako jsou [Umbrel](https://umbrel.com/) a [RoninDojo](https://ronindojo.io/).
 
-[**-> Zjistěte, jak nainstalovat RoninDojo v2 na Raspberry Pi.**](https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
-Pokud máte vlastní Dojo, můžete se na této fázi připojit. Tím získáte nejvyšší úroveň soukromí při kontrole informací o transakcích v Bitcoinové síti.
+
+Poté se budete muset povinně připojit ke svému vlastnímu Dojo, protože servery Samourai Wallet již nejsou dostupné. Pokud ještě nemáte vlastní Dojo, můžete buď použít Dojo zpřístupněný komunitou na webu [The Dojo Bay](https://dojobay.pw/), nebo postupovat podle našeho tutoriálu a nainstalovat si vlastní :
+
+https://planb.academy/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9
 
 ![watch-only](assets/notext/4.webp)
 
-Jinak je možné zvolit výchozí server Samourai. Můžete také vybrat, zda se připojit přes Tor nebo ne.
 
-![watch-only](assets/notext/5.webp)
 
 Poté se dostanete na hlavní stránku Sentinelu.
 

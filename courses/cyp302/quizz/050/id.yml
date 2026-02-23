@@ -6,4 +6,4 @@ wrong_answers:
   - Mereka membatasi rentang kemungkinan dengan mengurangi jumlah elemen.
 explanation: |
   Bidang ekstensi dengan basis 2 nyaman karena elemen-elemennya dapat dilihat sebagai string biner, membuatnya lebih mudah untuk melakukan operasi pada data digital di tingkat biner dalam sistem.
-reviewed: false
+reviewed: true

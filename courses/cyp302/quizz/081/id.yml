@@ -6,4 +6,4 @@ wrong_answers:
   - Substitusi setiap huruf
 explanation: |
   Dalam sebuah stream cipher, operasi XOR umumnya digunakan untuk menggabungkan keystream dengan pesan karena operasi ini sederhana dan dapat dibalik.
-reviewed: false
+reviewed: true

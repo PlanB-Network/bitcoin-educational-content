@@ -6,3 +6,4 @@ wrong_answers:
   - 256, 512, 1024, atau 2048 bit
 explanation: |
   Block cipher memproses data dalam blok berukuran tetap, biasanya 64, 128, 192, atau 256 bit, untuk memastikan keamanan dan integritas enkripsi yang optimal.
+reviewed: true

@@ -6,31 +6,28 @@ description: Cara menggunakan Lightning Zeus Embedded Wallet
 
 
 
-ZEUS pada awalnya adalah aplikasi seluler untuk manajemen jarak jauh dari node petir, memungkinkan Anda untuk mengontrol node yang diinstal pada server jarak jauh
+ZEUS pada awalnya adalah aplikasi seluler untuk manajemen jarak jauh dari node Lightning, memungkinkan kamu mengontrol node yang diinstal di server jarak jauh.
 
 
 Tetapi aplikasi ini juga memiliki fitur "Node tertanam".
 
 
-
-**Aspek aplikasi inilah yang akan kita jelajahi dalam tutorial ini.** Hal ini memungkinkan siapa saja untuk memiliki node petir mereka sendiri di ponsel, tanpa perlu server khusus, dengan cara yang sama seperti ACINQ menawarkan petir Wallet yang luar biasa, Phoenix.
-
+**Aspek aplikasi inilah yang akan kita jelajahi dalam tutorial ini.** Fitur ini memungkinkan siapa pun memiliki node Lightning sendiri langsung di ponsel, tanpa perlu server khusus, dengan cara yang sama seperti ACINQ menawarkan Lightning Wallet yang luar biasa, Phoenix.
 
 
 https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-**Sebagai pengingat, Lightning adalah sebuah jaringan yang beroperasi secara paralel dengan Bitcoin, yang memungkinkan bitcoin untuk ditukarkan tanpa harus melakukan transaksi On-Chain secara sistematis. Hasilnya adalah transaksi yang hampir seketika, tanpa perlu menunggu 10 menit untuk memvalidasi sebuah blok. Hal ini sangat berguna ketika membayar pedagang di dunia fisik. Terlebih lagi, Lightning memberikan tingkat kerahasiaan yang luar biasa yang tidak dimiliki oleh jaringan Bitcoin.**
+
+**Sebagai pengingat, Lightning adalah jaringan yang beroperasi secara paralel dengan Bitcoin, yang memungkinkan bitcoin ditransaksikan tanpa harus melakukan transaksi on-chain secara sistematis. Hasilnya adalah transaksi yang hampir seketika, tanpa perlu menunggu 10 menit untuk memvalidasi sebuah blok. Hal ini sangat berguna saat membayar pedagang di dunia fisik. Selain itu, Lightning menawarkan tingkat privasi yang sangat tinggi yang tidak dimiliki oleh jaringan Bitcoin.**
 
 
-
-**Zeus "Integrated"** ditujukan untuk para pengguna Bitcoin yang ingin memaksimalkan privasi dan otonomi mereka.
-
-
-Singkatnya, ini adalah ponsel Wallet impian para cypherpunks. Meskipun masih dalam tahap awal (versi alfa) dan masih terdapat beberapa bug, fitur-fiturnya sangat banyak, dan tidak diragukan lagi bahwa ini akan menyenangkan para pemberani di antara kita, yang menginginkan kontrol dan pilihan maksimum.
+**Zeus "Integrated"** ditujukan bagi pengguna Bitcoin yang ingin memaksimalkan privasi dan otonomi mereka.
 
 
+Singkatnya, ini adalah mobile Wallet impian para cypherpunk. Meskipun masih dalam tahap awal, yaitu versi alfa, dan masih terdapat beberapa bug, fitur-fiturnya sudah sangat banyak, dan tidak diragukan lagi ini akan menyenangkan para pemberani di antara kita yang menginginkan kontrol dan pilihan maksimum.
 
-Di sisi lain, menurut saya, saat ini tidak cocok untuk pemula yang tidak terbiasa dengan Bitcoin dan hanya menginginkan cara yang sederhana untuk mengirim/menerima satoshi. Walaupun hal ini mungkin berubah di waktu mendatang, karena fitur penitipan melalui protokol Cashu (Chaumian Ecash) sedang diimplementasikan untuk para pemula...
+
+Di sisi lain, menurutku saat ini fitur ini belum cocok untuk pemula yang belum terbiasa dengan Bitcoin dan hanya ingin cara sederhana untuk mengirim atau menerima satoshi. Namun, hal ini bisa saja berubah di masa mendatang, karena fitur kustodial melalui protokol Cashu, yaitu Chaumian Ecash, sedang diimplementasikan untuk para pemula...
 
 
 
@@ -64,11 +61,10 @@ Setelah aplikasi dimulai, klik tombol "Quick Start" untuk mulai membuat Wallet.
 
 
 
-Serangkaian layar inisialisasi kemudian muncul. Tunggu beberapa saat, lalu tunggu beberapa menit sampai node 100% tersinkronisasi melalui Neutrino.
+Serangkaian layar inisialisasi kemudian akan muncul. Tunggu beberapa saat, lalu biarkan beberapa menit sampai node tersinkronisasi 100% melalui Neutrino.
 
 
-
-Ini mungkin membutuhkan waktu beberapa menit. Sebagai informasi, neutrino adalah cara bagi dompet seluler untuk mengakses informasi Blockchain Bitcoin, tanpa perlu menjalankan Full node.
+Proses ini bisa memakan waktu beberapa menit. Sebagai informasi, Neutrino adalah cara bagi wallet seluler untuk mengakses informasi blockchain Bitcoin tanpa perlu menjalankan full node.
 
 
 
@@ -78,7 +74,7 @@ Ini mungkin membutuhkan waktu beberapa menit. Sebagai informasi, neutrino adalah
 
 
 
-Setelah beberapa saat, Anda siap untuk pergi.
+Setelah beberapa saat, kamu siap untuk pergi.
 
 
 
@@ -91,11 +87,10 @@ Setelah beberapa saat, Anda siap untuk pergi.
 
 
 
-Siap, tidak juga, karena sudah jelas bahwa pengguna Zeus yang sesuai dengan namanya menavigasi Wallet-nya dengan berkelas dan penuh gaya. Jadi kita harus mengubah avatarnya.
+Tentu saja belum, karena sudah jelas bahwa pengguna Zeus, sesuai namanya, menavigasi Wallet-nya dengan penuh kelas dan gaya. Jadi kita harus mengganti avatarnya.
 
 
-
-Klik avatar Anda di sudut kanan atas layar:
+Klik avatar kamu di sudut kanan atas layar:
 
 
 
@@ -125,7 +120,7 @@ Pilih foto Zeus yang paling indah untuk mewakili Wallet ini dan klik "PILIH GAMB
 
 
 
-Terakhir, berikan nama panggilan pada Wallet Anda dan klik "SAVE Wallet CONFIG" agar perubahan dapat diterapkan. Terakhir, klik panah belakang di sudut kiri atas untuk kembali ke layar beranda.
+Terakhir, berikan nama panggilan pada Wallet kamu dan klik "SAVE Wallet CONFIG" agar perubahan dapat diterapkan. Terakhir, klik panah belakang di sudut kiri atas untuk kembali ke layar beranda.
 
 
 
@@ -147,7 +142,7 @@ Kali ini kita benar-benar bisa memulai.
 
 
 
-Untuk melindungi akses ke Wallet, Anda dapat menambahkan PIN/kata sandi dan mengaktifkan biometrik.
+Untuk melindungi akses ke Wallet, kamu dapat menambahkan PIN/kata sandi dan mengaktifkan biometrik.
 
 
 
@@ -171,7 +166,7 @@ Pilih "Pengaturan", lalu "Keamanan", dan terakhir "Atur/Ganti PIN".
 
 
 
-Buat PIN Anda, konfirmasikan, dan aktifkan biometrik dengan menekan tombol "Biometrik" yang sesuai.  Kembali ke menu utama, dengan menggunakan tanda panah di kiri atas.
+Buat PIN kamu, konfirmasikan, dan aktifkan biometrik dengan menekan tombol "Biometrik" yang sesuai.  Kembali ke menu utama, dengan menggunakan tanda panah di kiri atas.
 
 
 
@@ -180,24 +175,19 @@ Buat PIN Anda, konfirmasikan, dan aktifkan biometrik dengan menekan tombol "Biom
 
 
 
-### Simpan frasa Mnemonic
+### Simpan seedphrase
 
 
-
-Setelah Anda kembali ke menu utama, klik "Cadangkan Wallet", lalu baca teks peringatan yang menginformasikan bahwa kehilangan 24 kata yang akan Anda terima sama saja dengan kehilangan akses ke dana Anda, dan siapa pun yang memiliki kata-kata ini selain Anda dapat mengakses dana Anda. Jangan pernah memberikannya kepada siapa pun.
-
+Setelah kamu kembali ke menu utama, klik "Cadangkan Wallet", lalu baca teks peringatan yang menjelaskan bahwa kehilangan 24 kata yang akan kamu terima sama artinya dengan kehilangan akses ke dana kamu, dan siapa pun yang memiliki kata-kata tersebut selain kamu bisa mengakses dana kamu. Jangan pernah memberikannya kepada siapa pun.
 
 
-Pilih "SAYA MENGERTI" di bagian bawah layar. Kemudian klik masing-masing dari 24 kata untuk memunculkannya, dan catat dengan cermat.
+Pilih "SAYA MENGERTI" di bagian bawah layar. Lalu klik masing-masing dari 24 kata untuk menampilkannya, dan catat dengan cermat.
 
 
-
-Anda bisa menuliskannya di atas kertas, atau mungkin, untuk keamanan tambahan, mengukirnya di atas baja tahan karat untuk melindunginya dari kebakaran, banjir, atau keruntuhan. Pilihan media untuk Mnemonic Anda akan bergantung pada strategi keamanan Anda, tetapi jika Anda menggunakan Zeus sebagai portofolio pengeluaran yang berisi jumlah sedang, kertas sudah cukup.
-
+Kamu bisa menuliskannya di atas kertas, atau untuk keamanan tambahan, mengukirnya di atas baja tahan karat agar terlindung dari kebakaran, banjir, atau keruntuhan. Pilihan media untuk seedphrase kamu akan bergantung pada strategi keamananmu, tetapi jika kamu menggunakan Zeus sebagai wallet pengeluaran dengan jumlah sedang, kertas sudah cukup.
 
 
-Untuk informasi lebih lanjut mengenai cara yang tepat untuk menyimpan dan mengelola frasa Mnemonic Anda, saya sangat merekomendasikan untuk mengikuti tutorial lainnya, khususnya jika Anda seorang pemula:
-
+Untuk informasi lebih lanjut tentang cara yang tepat menyimpan dan mengelola seedphrase kamu, aku sangat merekomendasikan mengikuti tutorial lainnya, terutama jika kamu seorang pemula:
 
 
 https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
@@ -206,24 +196,19 @@ https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-Setelah selesai, klik "SAYA SUDAH MENCADANG 24 KATA SAYA" di bagian bawah layar, dan kita akan kembali ke layar beranda, siap untuk menerima bitcoin pertama kita.
+Setelah selesai, klik "SAYA SUDAH MENCADANGKAN 24 KATA SAYA" di bagian bawah layar, dan kita akan kembali ke layar beranda, siap menerima bitcoin pertama kita.
 
 
+## Opsi 1 - Menerima bitcoin on-chain & membuka channel Lightning
 
 
-## Opsi 1 - Menerima bitcoin On-Chain & membuka saluran Lightning
+**Zeus Embedded** pada dasarnya dirancang sebagai node Lightning tertanam, tetapi juga bisa digunakan sebagai wallet on-chain.
 
 
-
-**Zeus Embedded** terutama dirancang sebagai simpul petir tertanam, tetapi juga dapat digunakan sebagai Wallet On-Chain.
-
+Untuk menerima bitcoin on-chain, klik tombol "On-Chain" lalu "Terima".
 
 
-Untuk menerima bitcoin On-Chain, klik tombol "On-Chain" lalu "Terima".
-
-
-Terakhir, pindai kode QR atau salin Bitcoin Address untuk menyetor dana.
-
+Terakhir, pindai kode QR atau salin Bitcoin address untuk menyetor dana.
 
 
 ![image](assets/fr/15.webp)
@@ -232,35 +217,25 @@ Terakhir, pindai kode QR atau salin Bitcoin Address untuk menyetor dana.
 
 
 
-Setelah dana dikonfirmasi dan dikreditkan ke Wallet Anda, Anda dapat menggunakannya untuk membuka **Lightning channel**. Saluran Lightning Anda adalah pintu gerbang ke Lightning Network, yang memungkinkan Anda untuk melakukan Exchange bitcoin dengan cara yang lebih rahasia dan cepat.
-
-
-
+Setelah dana dikonfirmasi dan masuk ke wallet kamu, kamu bisa menggunakannya untuk membuka **Lightning channel**. Channel Lightning ini adalah gerbang kamu ke Lightning Network, yang memungkinkan kamu melakukan exchange bitcoin dengan cara yang lebih privat dan cepat.
 
 
 - Untuk melakukannya, klik "PINDAHKAN DANA On-Chain KE LIGHTNING"
 
 
-
-Pada layar berikutnya, Anda diminta untuk membuka saluran yang bekerja sama dengan **"Olympus by Zeus "**, LSP (Lightning Service Provider) yang disukai oleh Wallet.
-
-
-Untuk tutorial ini, kita akan memilih opsi ini demi kemudahan, tetapi sangat mungkin untuk membuka saluran dengan node apa pun di jaringan.
+Pada layar berikutnya, kamu akan diminta membuka channel dengan **"Olympus by Zeus"**, yaitu LSP, Lightning Service Provider, yang direkomendasikan oleh wallet.
 
 
-Bahkan dimungkinkan untuk membuka beberapa saluran dalam satu transaksi dengan memilih "OPEN ADDITIONAL CHANNEL". *Tetapi kita akan membahas hal ini dalam versi "lanjutan" dari tutorial* **Zeus Embedded**.
+Untuk tutorial ini, kita akan memilih opsi tersebut demi kemudahan, tetapi kamu juga bisa membuka channel dengan node mana pun di jaringan.
 
 
+Bahkan, kamu bisa membuka beberapa channel dalam satu transaksi dengan memilih "OPEN ADDITIONAL CHANNEL". *Tetapi kita akan membahasnya dalam versi "lanjutan" dari tutorial* **Zeus Embedded**.
 
 
-
-- Kemudian pilih jumlah yang ingin Anda dedikasikan untuk saluran ini. Dalam kasus kami, semua dana On-Chain kami akan digunakan, jadi kami mengaktifkan tombol "Gunakan semua dana yang memungkinkan".
-
+- Selanjutnya, pilih jumlah yang ingin kamu alokasikan untuk channel ini. Dalam contoh kita, semua dana on-chain akan digunakan, jadi kita aktifkan tombol "Gunakan semua dana yang memungkinkan".
 
 
-
-
-- Terakhir, pilih tombol "OPEN CHANNEL" di bagian bawah layar.
+- Terakhir, tekan tombol "OPEN CHANNEL" di bagian bawah layar.
 
 
 
@@ -270,8 +245,7 @@ Bahkan dimungkinkan untuk membuka beberapa saluran dalam satu transaksi dengan m
 
 
 
-Dalam hitungan detik, saluran sudah terbentuk dan kami siap untuk melakukan transaksi Lightning pertama kami. Di layar beranda, kita bisa melihat jam kecil di sebelah saldo Wallet kita. Ini karena kita masih harus menunggu 3 konfirmasi On-Chain sebelum saluran benar-benar berfungsi.
-
+Dalam hitungan detik, channel sudah terbentuk dan kita siap melakukan transaksi Lightning pertama. Di layar beranda, kamu bisa melihat ikon jam kecil di sebelah saldo wallet. Ini karena kita masih harus menunggu 3 konfirmasi on-chain sebelum channel benar-benar bisa digunakan.
 
 
 ![image](assets/fr/17.webp)
@@ -288,13 +262,10 @@ Setelah 3 kali konfirmasi, kami melihat bahwa saldo kami sekarang dikreditkan ke
 
 
 
-Hal kecil yang perlu diperhatikan: ketika kita mengklik menu di bagian bawah layar untuk melihat status saluran petir kita, kita akan melihat bahwa sebagian kecil saldo kita tidak tersedia untuk dibelanjakan: kita hanya bisa membelanjakan 208253 satoshi, bukan 210370 satoshi yang kita miliki. Hal ini normal, karena ini khusus untuk protokol petir.
+Hal kecil yang perlu diperhatikan: saat kamu mengklik menu di bagian bawah layar untuk melihat status channel Lightning, kamu akan melihat bahwa sebagian kecil saldo tidak tersedia untuk dibelanjakan. Kamu hanya bisa membelanjakan 208253 satoshi, bukan 210370 satoshi yang kamu miliki. Ini normal dan memang bagian dari mekanisme protokol Lightning.
 
 
-
-Terakhir, perlu dicatat bahwa mitra kami, Olympus, berhak untuk menutup saluran atas kebijakannya sendiri, jika saluran tersebut tidak digunakan, misalnya. Untuk memastikan bahwa saluran kita dipertahankan, kita harus membayar LSP (Penyedia Layanan Petir), seperti yang akan kita lihat di paragraf berikutnya, melalui cara ke-2 untuk membuka saluran.
-
-
+Terakhir, perlu dicatat bahwa mitra kita, Olympus, berhak menutup channel atas kebijakannya sendiri jika channel tersebut tidak digunakan, misalnya. Untuk memastikan channel tetap dipertahankan, kita harus membayar LSP, Lightning Service Provider, seperti yang akan kita lihat di paragraf berikutnya melalui metode kedua untuk membuka channel.
 
 
 
@@ -316,7 +287,7 @@ Untuk melakukan ini, klik tombol "Lightning", kemudian "Send".
 
 
 
-Pada layar berikutnya, salin Invoice Anda ke dalam kolom khusus, atau pindai dengan mengeklik ikon di kanan atas. Terakhir, geser tombol "Geser untuk Membayar" ke kanan untuk membayar.
+Pada layar berikutnya, salin Invoice kamu ke dalam kolom khusus, atau pindai dengan mengeklik ikon di kanan atas. Terakhir, geser tombol "Geser untuk Membayar" ke kanan untuk membayar.
 
 
 
@@ -327,7 +298,7 @@ Pada layar berikutnya, salin Invoice Anda ke dalam kolom khusus, atau pindai den
 
 
 
-Tunggu beberapa detik dan Invoice akan meluncur, dan satoshi Anda akan melaju dengan kecepatan cahaya.
+Tunggu beberapa detik dan Invoice akan meluncur, dan satoshi kamu akan melaju dengan kecepatan cahaya.
 
 
 
@@ -337,22 +308,17 @@ Tunggu beberapa detik dan Invoice akan meluncur, dan satoshi Anda akan melaju de
 
 
 
-Zeus kemudian memungkinkan Anda untuk menambahkan catatan untuk mendenominasi pembayaran Anda, atau melihat rute yang diambil satoshi Anda sebelum mencapai tujuan (dan biaya yang dikenakan oleh semua node perantara). Ini adalah jenis fungsionalitas yang kami sukai dari Wallet.
-
+Zeus kemudian memungkinkan kamu menambahkan catatan untuk memberi keterangan pada pembayaranmu, atau melihat rute yang ditempuh satoshi sebelum mencapai tujuan, termasuk biaya yang dikenakan oleh setiap node perantara. Inilah jenis fungsionalitas yang kita sukai dari wallet seperti ini.
 
 
 ![image](assets/fr/22.webp)
 
 
 
-Perhatikan bahwa tidak seperti Wallet seperti [Phoenix]([Plan ₿ Academy - Phoenix](https://planb.academy/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), dengan Zeus rute dihitung secara lokal dan tidak didelegasikan ke pihak ketiga (ACINQ dalam kasus Phoenix). Jadi, Anda adalah satu-satunya yang mengetahui penerima pembayaran. Kami kehilangan sedikit efisiensi (pembayaran membutuhkan waktu lebih lama untuk diselesaikan, tetapi kami mendapatkan banyak keuntungan dalam hal privasi).
+Perhatikan bahwa tidak seperti Wallet seperti [Phoenix]([Plan ₿ Academy - Phoenix](https://planb.academy/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), dengan Zeus rute dihitung secara lokal dan tidak didelegasikan ke pihak ketiga (ACINQ dalam kasus Phoenix). Jadi, kamu adalah satu-satunya yang mengetahui penerima pembayaran. Kita memang sedikit kehilangan efisiensi, karena pembayaran membutuhkan waktu lebih lama untuk selesai, tetapi sebagai gantinya kita mendapat peningkatan privasi yang signifikan.
 
 
-
-
-
-Dengan mengklik panah kecil di bagian bawah layar beranda, Anda juga dapat melihat riwayat pembayaran kami. Di sini kita melihat dalam Green, 212.121 Sats yang diterima untuk On-Chain, kemudian warna merah masing-masing 211.756 Sats yang digunakan untuk membuka saluran kami, kemudian 121.212 satoshi yang digunakan untuk membayar petir Invoice.
-
+Dengan mengklik panah kecil di bagian bawah layar beranda, kamu juga bisa melihat riwayat pembayaran. Di sini terlihat dalam warna hijau 212.121 sats yang diterima secara on-chain, lalu dalam warna merah 211.756 sats yang digunakan untuk membuka channel, kemudian 121.212 satoshi yang dipakai untuk membayar Lightning invoice.
 
 
 ![image](assets/fr/23.webp)
@@ -365,14 +331,11 @@ Dengan mengklik panah kecil di bagian bawah layar beranda, Anda juga dapat melih
 
 
 
-Daripada membuka saluran secara manual, seperti yang baru saja kita lihat, dimungkinkan untuk menerima dana secara langsung melalui Lightning, bahkan tanpa saluran yang sudah ada sebelumnya, dengan menggunakan Olympus, Zeus LSP.
+Alih-alih membuka channel secara manual seperti yang baru saja kita lihat, kamu juga bisa menerima dana langsung melalui Lightning, bahkan tanpa channel yang sudah ada sebelumnya, dengan menggunakan Olympus, LSP milik Zeus.
 
 
-
-
-- Untuk melakukan ini, klik tombol "Lightning" pada layar beranda, kemudian pada "Receive".
-- Kemudian pilih jumlah yang ingin Anda terima di kotak "Jumlah" dan pilih tombol "BUAT Invoice" di bagian bawah layar.
-
+- Untuk melakukannya, klik tombol "Lightning" di layar beranda, lalu pilih "Receive".
+- Kemudian masukkan jumlah yang ingin kamu terima di kolom "Jumlah" dan tekan tombol "BUAT Invoice" di bagian bawah layar.
 
 
 ![image](assets/fr/24.webp)
@@ -381,12 +344,10 @@ Daripada membuka saluran secara manual, seperti yang baru saja kita lihat, dimun
 
 
 
-Layar berikutnya menunjukkan Invoice yang harus dibayarkan untuk menerima satoshi. Kami diberitahu bahwa LSP akan menahan 10.000 Sats jika pembayaran dilakukan melalui Lightning. Kita akan lihat nanti bagaimana biaya pembukaan saluran ini dibenarkan.
+Layar berikutnya menampilkan Lightning invoice yang harus dibayar agar kamu bisa menerima satoshi. Kamu akan diberi tahu bahwa LSP akan menahan 10.000 sats jika pembayaran dilakukan melalui Lightning. Nanti kita akan melihat bagaimana biaya pembukaan channel ini dijustifikasi.
 
 
-
-Bayar Invoice atau minta orang lain untuk membayarnya, dan saluran akan dibuka secara otomatis, tetapi dikurangi 10.000 Sats sesuai kesepakatan.
-
+Bayar invoice tersebut atau minta orang lain membayarnya, dan channel akan terbuka secara otomatis, dengan potongan 10.000 sats sesuai ketentuan.
 
 
 ![image](assets/fr/25.webp)
@@ -395,19 +356,16 @@ Bayar Invoice atau minta orang lain untuk membayarnya, dan saluran akan dibuka s
 
 
 
-Kita sekarang berada di depan 2 saluran petir, yang statusnya dapat diperiksa dengan mengeklik tombol yang ditunjukkan oleh panah putih di bagian bawah layar beranda.
+Sekarang kita berada di depan 2 channel Lightning, yang statusnya bisa kamu periksa dengan menekan tombol yang ditunjukkan oleh panah putih di bagian bawah layar beranda.
 
 
-
-Kita dapat melihat bahwa, tidak seperti saluran yang dibuka dari skala On-Chain, saluran yang dibuka secara langsung melalui petir tidak menampilkan peringatan.
-
-
-Karena Anda telah membayar untuk menyiapkan saluran ini, Penyedia Layanan Lightning (LSP) berjanji untuk memelihara saluran selama 3 bulan, dan menawarkan "likuiditas yang masuk" kepada Anda. Pada saluran paling bawah, Anda dapat melihat bahwa kapasitas penerimaan adalah 96383 satoshi. Oleh karena itu, LSP telah mengikat modal agar Anda dapat menerima pembayaran secara langsung setelah membuka saluran.
+Kita bisa melihat bahwa, berbeda dengan channel yang dibuka dari saldo on-chain, channel yang dibuka langsung melalui Lightning tidak menampilkan peringatan.
 
 
+Karena kamu sudah membayar untuk menyiapkan channel ini, Lightning Service Provider, LSP, berkomitmen untuk memeliharanya selama 3 bulan, serta menyediakan "inbound liquidity" untuk kamu. Pada channel paling bawah, kamu bisa melihat bahwa kapasitas penerimaan adalah 96383 satoshi. Artinya, LSP telah mengunci modal agar kamu bisa langsung menerima pembayaran setelah channel dibuka.
 
-Jadi, 10.000 Satoshi dalam biaya yang dibayarkan mencakup: biaya pembukaan kanal (transaksi Bitcoin On-Chain, jaminan untuk memelihara kanal selama 3 bulan, dan penguncian modal).
 
+Jadi, biaya 10.000 satoshi yang dibayarkan mencakup biaya pembukaan channel, yaitu transaksi Bitcoin on-chain, jaminan pemeliharaan channel selama 3 bulan, serta penguncian modal.
 
 
 ![image](assets/fr/26.webp)
@@ -416,14 +374,9 @@ Jadi, 10.000 Satoshi dalam biaya yang dibayarkan mencakup: biaya pembukaan kanal
 
 
 
-Selamat, Anda sekarang siap untuk menggunakan Zeus Embedded, sistem pencahayaan seluler Wallet dengan fitur paling canggih di pasaran.
+Selamat, sekarang kamu sudah siap menggunakan Zeus Embedded, wallet Lightning seluler dengan fitur paling canggih yang ada saat ini.
 
 
-
-
-
-Untuk mengetahui lebih lanjut tentang pengoperasian teknis Lightning Network, Anda dapat mengikuti pelatihan Plan ₿ Academy gratis yang luar biasa dari Fanis Michalakis:
-
-
+Untuk memahami lebih dalam tentang cara kerja teknis Lightning Network, kamu bisa mengikuti pelatihan gratis luar biasa dari Fanis Michalakis di Plan ₿ Academy:
 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

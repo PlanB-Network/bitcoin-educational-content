@@ -2325,7 +2325,7 @@ Aha musi, urashobora kubona tweet ya Stephanie Kelton, akaba ari ubwoko bw’umu
 
 
 
-Igitangaje, rivuga ibihugu bitandatu gusa? Kubera iki ari ukwo? Kubera ko bafise ubusegaba nyakuri bw’amahera. Ariko hari ibihugu nka 200 kw’isi, kandi si vyose bifise ubusegaba bw’amahera. Rero, ico negura iyo nyigisho, uretse ko ari ikintu kidasanzwe gatoyi kandi kidakora, ni uko ikorera ibihugu bikeyi gusa bifise ubusegaba nyakuri bw’amahera, ivyo bishobora gutanga amafaranga y’itunga ry’igihugu mu mafaranga yavyo bwite. Ku rugero runaka, biraja mu kaga kw’isi yose. Mu kurema ayo mafaranga, ni nk’aho bariko bararungika inflation yabo ahandi, bisa n’ivyo Leta Zunze Ubumwe za Amerika zimaze imyaka mirongo zikora n’agateka kazo garengeje urugero. Ivyo bisa n’uburyo bw’ubukoloni bw’amahera, aho ibihugu bifise icizigiro kw’isi yose kandi bisaba amahera yavyo bishobora gucapura amahera menshi nk’uko bishaka ataco bitera, kenshi na kenshi kubera ko birungika iyo inflation hanze.
+Igitangaje, rivuga ibihugu bitandatu gusa? Kubera iki ? Kubera ko bafise ubudahangarwa nyabwo bw’amahera. Ariko hari ibihugu nka 200 kw’isi, kandi si vyose bifise ubudahangarwa bw’amahera. Rero, ico negura iyo nyigisho, uretse ko ari ikintu gitangaje ukuntu kandi kidakora, n'uko ikora kubihugu bikeyi gusa bifise ubudahangarwa nyabwo bw’amahera, ivyo bituma bishobora gutanga amafaranga y’itunga ry’igihugu mu mafaranga yavyo bwite. Ivyo bikorwa bigatuma ibihugu bimwe bibitomboreramwo ibindi bibihomberamwo. Ninkuko mu gukora ayo mahera, ni nk’aho bariko bararungika itakara ryagaciro k'amahera kubindi bihugu, bisa n’ivyo Leta Zunze Ubumwe za Amerika zimaze imyaka mirongo zikora n'amarame. Ivyo bisa n’uburyo bw’ubukoloni bw’amahera, aho ibihugu bifise icizigiro kw’isi yose kandi bisaba amahera yavyo bishobora gukora amahera menshi nk’uko bishaka ataco bitera, kenshi na kenshi kubera ko birungika iyo takaza ryagaciro hanze.
 
 
 Ico ciyumviro kiragoye gukoreshwa ku bihugu bishingiye ku bicuruzwa biva hanze bikeneye kuguma bifise icizigiro mpuzamakungu mu mafaranga yavyo.
@@ -2360,15 +2360,15 @@ Imbere y’uko dutangura, ng’ibi amateka:
 
 
 
-**Abaroma bita Abagiriki "Graeci", Ubugiriki na bo babita "Graecia".**
+**Abaroma bita Abagiriki "Graeci", Ubugiriki nabwo babwita "Graecia".**
 
 
 
-**Abagiriki bariyita "Abaheleni" igihugu cabo na co kiyita "Hellas".**
+**Abagiriki biyita "Hellènes" igihugu cabo bakacita "Hellas".**
 
 
 
-**Homer** (yavutse nko mu kinjana ca 8 imbere ya Kristu)
+**Homère** (yavutse nko mu kinjana ca 8 imbere ya Kristu)
 
 
 Umunyamivugo w’Umugiriki w’inkuru z’imigani, bivugwa ko ari we yanditse *Iliade* na *Odyssée*.
@@ -2386,11 +2386,11 @@ Umwami wa kabiri w’i Roma, azwi cane mu guha Roma inzego za mbere z’idini n�
 
 
 
-**Dracon**, umushingamateka w'i Atene (mu kinjana ca 7 BC), azwi cane kubera amategeko yiwe akomeye cane, ni co gituma yitwa "draconian".
+**Dracon**, umushingamateka w'i Athene (mu kinjana ca 7 BC), azwi cane kubera amategeko yiwe akomeye cane, ni co gituma yitwa "draconian".
 
 
 
-**594 BC: Solon** aba umushingamateka i Atene, ahindura cane imibano y’i Atene, cane cane mu gukuraho ubuja bw’imyenda.
+**594 BC: Solon** aba umushingamateka i Athene, ahindura cane imibano y’i Athene, cane cane mu gukuraho ubuja nk'ideni.
 
 
 
@@ -2404,11 +2404,11 @@ Imikino ya mbere y’imikino idasanzwe yabera i Olympia inyuma y’imyaka ine, i
 **Pitagore** (nko mu 570-495 imbere ya Kristu)
 
 
-Umunyabwenge w’Umugiriki akaba n’umuhinga mu vy’imibare, azwi cane kubera iciyumviro ciwe ku bijanye n’inkomoko y’inkomoko itatu.
+Umunyabwenge w’Umugiriki akaba n’umuhinga mu biharuro, azwi cane kubera iciyumviro ciwe ku bijanye n’inkomoko y’inkomoko itatu.
 
 
 
-**Zenofani wa Kolofoni** (nko mu 570-478 imbere ya Kristu)
+**Xénophane de Colophon** (nko mu 570-478 imbere ya Kristu)
 
 
 Umunyabwenge w’imbere ya Socrate azwi cane mu kunegura ivy’ugusenga Imana nyinshi kw’Abagiriki.
@@ -2422,39 +2422,39 @@ Abanyatene barirukanye igitero c’Abaperesi, ivyo bikaba vyabaye ihinduka rikom
 
 
 
-**Herodotus** (c. 484-425 BC), yitwa "se w'amateka", yanditse igitabu kinini kidondora intambara z'Abaperesi, harimwo n'intsinzi y'Abagiriki kuri Zeruzesi mu 480 BC.
+**Hérodote** (c. 484-425 BC), yitwa "se w'amateka", yanditse igitabu kinini kidondora intambara z'Abaperesi, harimwo n'intsinzi y'Abagiriki kuri Xerxès mu 480 BC.
 
 
 
-**Sokarate** (470-399 imbere ya Kristu)
+**Socrate** (470-399 imbere ya Kristu)
 
 
-Umunyabwenge w’Umunyatene azwi cane kubera uburyo bwiwe bwo gukoresha amajambo n’inyigisho ziwe zijanye n’inyifato runtu be n’ukwimenya.
+Umunyabwenge w’Umunya athéne azwi cane kubera uburyo bwiwe bwo gukoresha amajambo n’inyigisho ziwe zijanye n’inyifato runtu be n’ukwimenya.
 
 
 
 **Aristofane** (nko mu 446-386 imbere ya Kristu)
 
 
-Umwanditsi w’ibikino w’umunya Atene, azwi cane mu bikino vyiwe vy’ugutwengera mu nda nka *The Frogs*.
+Umwanditsi w’ibikino w’umunya athéne, azwi cane mu bikino vyiwe vyoguhigima *nk'igikere*.
 
 
 
-**Sophocles** (ikinjana ca 5 imbere ya Kristu), mu gikino ciwe *Antigone*, aranegura amahera nk’isoko y’ugusenyuka mu vy’inyifato runtu no mu vya politike, biciye ku munyagitugu Kreoni.
+**Sophocle** (ikinjana ca 5 imbere ya Kristu), mu gikino ciwe *Antigone*, aranegura amahera nk’isoko y’ugusenyuka mu vy’inyifato runtu no mu vya politike, biciye ku munyagitugu Créon.
 
 
 
-**Plato** (nko mu 428-348 imbere ya Kristu)
+**Platon** (nko mu 428-348 imbere ya Kristu)
 
 
 Umunyabwenge w’Umugiriki, umunyeshure wa Socrate, yashinze Ishure ryisumbuye, umwanditsi w’igitabu *La Republique*.
 
 
 
-**431-404 BC: Intambara ya Peloponeziya**
+**431-404 BC: Intambara ya Péloponnèse**
 
 
-Intambara ikomeye hagati ya Atene na Siparita, irangira Atene itsindwa.
+Intambara ikomeye hagati ya Athene na Siparita, irangira Athene itsindwa.
 
 
 
@@ -2462,55 +2462,55 @@ Intambara ikomeye hagati ya Atene na Siparita, irangira Atene itsindwa.
 
 
 
-**Xenofoni** (nko mu 430-355 imbere ya Kristu)
+**Xénophon** (nko mu 430-355 imbere ya Kristu)
 
 
-Umwanditsi w’Umunyatene, umunyabwenge akaba n’umujenerali, umwigishwa wa Socrate, umwanditsi w’igitabu *Anabasis*.
-
-
-
-**414 BC**: Atene itangura gutsindwa mu ntambara ya Peloponnese inyuma y’urugendo rw’ivyago rwo kuja i Sicile.
+Umwanditsi w’Umunya Athene, umunyabwenge akaba n’umujenerari, umwigishwa wa Socrate, umwanditsi w’igitabu *Anabase*.
 
 
 
-**405 BC: Aristophanes**, mu gikino ciwe *The Frogs*, adondora neza ukuntu idarakima y'ifeza yagabanutse n'ukuntu ibiceri vy'umuringa vy'agaciro gatoyi vyabonetse i Atene, yerekana ingingo ngenderwako izwi uno musi kw'izina rya "Itegeko rya Gresham".
+**414 BC**: Atene itangura gutsindwa mu ntambara ya Péloponnèse inyuma y’urugendo rw’ivyago rwo kuja i Sicile.
 
 
 
-**404 BC**: Atene iraheba inyuma y’igihe kirekire igotewe na Sparta.
+**405 BC: Aristophane**, mu gikino ciwe *ibikere(the flog)*, adondora neza ukuntu idarakima y'ifeza yagabanutse n'ukuntu ibiceri vy'umuringa vy'agaciro gatoyi vyabonetse i Athene, yerekana ingingo ngenderwako izwi uno musi kw'izina rya "Itegeko rya Gresham".
+
+
+
+**404 BC**: Athene iraheba inyuma y’igihe kirekire igotewe na Sparta.
 
 
 
 **Aristote** (384-322 imbere ya Kristu)
 
 
-Umunyabwenge akomeye w’Umugiriki, umunyeshure wa Platon, yashinze iryo shure ryitwa Lycée, azwi cane kubera ibikorwa vyiwe vy’ubuhinga bwo gutahura ibintu, ubuhinga bw’ibinyabuzima n’ubuhinga bwa politike.
+Umunyabwenge akomeye w’Umugiriki, umunyeshure wa Platon, yashinze iryo shure ryitwa Lycée, azwi cane kubera ibikorwa vyiwe vy’ubuhinga bwo gutahura ibintu, biologie, philosophie politique.
 
 
 
-**327 BC**: Alegizandere Mukuru yigaruriye Peresepoli n’intara zo mu buseruko bw’Ubwami bw’Ubuperesi, agwiza cane ubwami bwiwe.
+**327 BC**: Alexendre le grand yigaruriye Persépolis n’intara zo mu buseruko bw’Ubwami bw’Ubuperesi, yagura cane ubwami bwiwe.
 
 
 
-**323 BC**: Alegizandere yapfuye i Babiloni ata n’umwe azomuzungura agaragara, ivyo bikaba vyatumye haba intambara hagati y’abajenerali biwe (diadochi) kugira ngo bace ubwami.
+**323 BC**: Alexendre le grand yapfuye i Babiloni ata n’umwe azomuzungura agaragara, ivyo bikaba vyatumye haba intambara hagati y’abajenerari biwe (diadochi) kugira ngo bace ubwami.
 
 
 
-**Arikimede** (nko mu 287-212 imbere ya Kristu)
+**Archimède** (nko mu 287-212 imbere ya Kristu)
 
 
-Umugiriki w'umunyamibare, umuhinga mu vya fizike n'umuhinga mu vy'ubuhinga, azwi cane kubera ivyo yavumbuye mu vy'ubuhinga bw'ubuhinga n'ubuhinga bw'ubuhinga.
-
-
-
-**196 BC: Ibuye rya Rosetta** ryanditswe ku ngoma ya Farawoni Ptolémée V, ivyo bikaba vyatumye mu nyuma hashobora gusobanurwamwo inyandiko z’ikirundi zo mu Misiri.
+Umugiriki wumuhinga muvyibiharuro, umuhinga mu vya physique n'umuhinga mu vy'ubuhinga, azwi cane kubera ivyo yavumbuye murigéométrie no muri mécanique.
 
 
 
-**192-188 BC: Intambara y'Abaroma n'Abaselewuki**
+**196 BC: Ibuye rya Rosette** ryanditswe ku ngoma ya pharaon Ptolémée V, ivyo bikaba vyatumye mu nyuma hashobora gusobanurwamwo inyandiko z’ikirundi zo mu Misiri.
 
 
-Uburoma bwatsinze ubwami bw’Abaselewuki bwarongowe na Antiyokosi wa gatatu, bukomeza ububasha bwabwo mu Bugiriki no muri Aziya Ntoya.
+
+**192-188 BC: Intambara y'Abaroma n'séleucide**
+
+
+Uburoma bwatsinze ubwami bwaba Séleucide bwarongorwa na Antiochos wa gatatu, bukomeza ububasha bwabwo mu Bugiriki no muri Aziya Ntoya.
 
 
 
@@ -2525,11 +2525,11 @@ Kuri iki gice kivuga ku vya kera, ukugwa kw’i Roma n’Ikinjana ca mbere, tuzo
 
 
 
-Amateka y’ugukora amafaranga y’ibiceri mu Bugiriki bwa kera yatanguye nko mu mwaka w’600 imbere ya Kristu, igihe ibisagara vy’Ubugiriki vyihuta kwemera ubuhinga bushasha bwavuye muri Lidiya muri Aziya Ntoya, mu ntango bakoresha umuyagankuba w’amashanyarazi (electrum) hanyuma bakoresha ifeza. Ibiceri vyambere vy'ikigiriki vyacuzwe kw'izinga rya Aegina, birimwo ikinyamasyo co mu kiyaga canke co ku butaka, ariko ni drakma y'i Atene, yasharije Athena n'igihuna, yabaye ikimenyetso c'amahera par excellence kuva mu kinjana ca gatanu imbere ya Kristu, ahanini yari iganzwa n'ubudandaji mpuzamakungu ico gihe.
+Amateka y’ugukora amahera y’ibiceri mu Bugiriki bwa kera yatanguye nko mu mwaka w’600 imbere ya Kristu, igihe ibisagara vy’Ubugiriki vyihuta kwemera ubuhinga bushasha bwavuye muri Lydie muri Aziya Ntoya, mu ntango bakoresha electrum hanyuma bakoresha ifeza. Ibiceri vyambere vy'ikigiriki vyacuzwe kw'izinga(l’île) rya Égine, birimwo ikinyamasyo co mu kiyaga canke co ku butaka, ariko ni drachme y'i Athene, yasharije Athena n'igihuna, yabaye ikimenyetso c'amahera c'icubahiro kuva mu kinjana ca gatanu imbere ya Kristu, ahanini yari iganzwa n'ubudandaji mpuzamakungu ico gihe.
 
 
 
-Kandi ndafise amahirwe yo kuronka kopi y’idarakima y’ikigiriki yo muri ico gihe iriko ico gihunyira kizwi cane n’igishushanyo ku mugongo. Ni tetradrakima, yari nini kuruta irakima yoroshe.
+Kandi ndafise amahirwe yo kuronka kopi ya drachme y’ikigiriki yo muri ico gihe hariko ico gihunyira kizwi cane n’igishushanyo ku mugongo. Ni tétradrachme, yari nini kuruta drachme yoroshe.
 
 
 
@@ -2537,43 +2537,43 @@ Kandi ndafise amahirwe yo kuronka kopi y’idarakima y’ikigiriki yo muri ico g
 
 
 
-Igisagara cose c’Ubugiriki caragiranira ubucuti bwite n’amahera. I Atene, amafaranga yari afitaniye isano rikomeye n'ububasha bwa politike n'ubw'ubutunzi. Itegeko rizwi cane ry’i Atene ryo mu mpera z’ikinjana ca gatanu imbere ya Kristu ryategetse ko amafaranga y’i Atene yonyene akoreshwa mu turere twari twafatanije, gutyo bikomeza ubukuru bwayo mu vy’ubutunzi. Atene kandi yarirundanije inzahabu nyinshi zo gukoresha mu bihe vy’ivyihutirwa, izo zahabu zikaba zari zibitswe ku gisagara ca Acropole, kumbure nk’ikimenyetso c’uko yari ifise ubwenge mu vy’ubutunzi. Mu buryo butandukanye n’ubwo, igisagara ca Siparita, kikaba cari igisagara c’igisirikare cari gifise ingingo ngenderwako zikomeye, carahisemwo kubuza cane ikoreshwa ry’amahera, kikabuza abanyagihugu baco kugira ibiceri vy’inzahabu canke vy’ifeza. Siparita yahisemwo gukoresha ivyuma biremerera kugira ngo ice intege ubudandaji n’amahanga no kugira ngo abantu bagumane ubumwe.
+Igisagara cose c’Ubugiriki catanguye gukoresha amahera yaco bwite. I Athene, amafaranga yari afitaniye isano rikomeye n'ububasha bwa politike n'ubw'ubutunzi. Itegeko rizwi cane ry’i Athene ryo mu mpera z’ikinjana ca gatanu imbere ya Kristu ryategetse ko amafaranga y’i Athene yonyene akoreshwa mu turere twari twafatanije nayo, gutyo bikomeza ubukuru bwayo mu vy’ubutunzi. Athene kandi yarirundanije inzahabu nyinshi zo gukoresha mu bihe vy’ivyihutirwa, izo zahabu zikaba zari zibitswe ku gisagara ca Acropole, kumbure nk’ikimenyetso cokwigengesera mu vy’ubutunzi. Mu buryo butandukanye n’ubwo, igisagara ca Sparta, kikaba cari igisagara c’igisirikare cari gifise ingingo ngenderwako zikomeye, carahisemwo kubuza cane ikoreshwa ry’amahera, kikabuza abanyagihugu baco kugira ibiceri vy’inzahabu canke vy’ifeza. Sparta yahisemwo gukoresha ivyuma biremereye kugira ngo ice intege ubudandaji n’amahanga no kugira ngo abantu bagumane ubumwe.
 
 
 
-Intambara akenshi zaterwa inkunga n’ugukoresha nabi amahera. Mu gihe c’intambara ya Peloponnese (431-404 imbere ya Kristu), Atene yarakoresheje uburyo bwo guca bugufi cane kugira ngo irihe ingabo zayo. Kubera ko Atene yari yabuze uburenganzira bwo gushika mu binogo vy’ifeza vyayo kubera Abasipartan bigaruriye Decelia mu 413 imbere ya Kristu, yategerezwa gusenya ibishushanyo vy’inzahabu kugira ngo ikoreshe ibiceri bishasha vyihuta mu 407/406 imbere ya Kristu. Hanyuma, mu mwaka w’406/405 imbere ya Kristu, yararemye ibiceri vy’umuringa vyuzuye ifeza, bituma haba ingorane y’amahera yerekanwa na **Aristophanes**, asanzwe avura ico uno musi citwa Itegeko rya Gresham: amahera mabi yirukana amahera meza. Iryo shirahamwe ry’ivyihutirwa ryaciye rikurwaho ningoga inyuma y’intambara kugira ngo abantu basubire kwizigira amafaranga y’i Atene.
+Intambara akenshi zaterwa inkunga n’uburyo bakoresha amahera. Mu gihe c’intambara ya Peloponnese (431-404 imbere ya Kristu), Athene yarakoresheje uburyo bwo kora amahera meshi kugira ngo irihe ingabo zayo. Kubera ko Athene yari yabuze uburenganzira bwo gushika mu binogo vy’ifeza vyayo kubera Aba sparta bigaruriye Decelia mu 413 imbere ya Kristu, yategerezwa gusenya ibishushanyo vy’inzahabu kugira ngo ikoreshe ibiceri bishasha vyihuta mu 407/406 imbere ya Kristu. Hanyuma, mu mwaka w’406/405 imbere ya Kristu, yararemye ibiceri vya bronze bisizeko ifeza hejuru, bituma haba ingorane y’amahera yari yavuzwe na **Aristophanes**, asanzwe avurwa mubihe none nk'Itegeko rya Gresham: amahera mabi yirukana amahera meza. Iryo shirahamwe ry’ivyihutirwa ryaciye rikurwaho ningoga inyuma y’intambara kugira ngo abantu basubire kwizigira amafaranga y’i Athene.
 
 
 
-Iherezo ry’igihe ca kera ryaranzwe n’ugutera imbere kwa Makedoniya iyobowe na Filipo wa II n’umuhungu wiwe Alegizandere Mukuru, ivyo bikaba vyatumye uburinganire bw’amahera y’Ubugiriki buhungabana cane. Bivuye ku binogo bininibinini vy’inzahabu n’ifeza vyo ku musozi Pangea, Filipo wa II yararonse amahera menshi cane yo gufasha mu bikorwa vyiwe vy’igisirikare n’ivya politike, ashiraho ingingo mfatirwako yoroshe kandi ngirakamaro y’inzahabu n’ifeza (10:1). Ivyo bikoresho vyiwe vy’inzahabu, vyari bihimbaza intsinzi yiwe mu mikino ya Olympique, vyaragendagenda gushika mu Buraya bwo mu Burengero, mbere bishika no mu Bwongereza. Alegizandere yarakurikiye iyo politike y’amahera, atangaza cane idarakima **Attique** mu gihe yariko aranesha mu Buseruko gushika no mu Buhindi. Ukwo gukwiragizwa kw’ibiceri vyinshi kwabaye intango y’igihe c’Abagiriki, igihe ishusho y’abami yagenda irasubirira buhorobuhoro ishusho y’imana zari ku biceri. Ico kintu gishasha caratumye amayaruka y’abami b’Abagiriki yishira hejuru, imana z’imigenzo zigaca zigira uruhara rwa kabiri ku ruhande rw’inyuma rw’ibiceri vyazo.
+Iherezo ry’igihe ca kera ryaranzwe n’ugutera imbere kwa Macédoine iyobowe na Filipo wa II n’umuhungu wiwe Alexandre le grand, ivyo bikaba vyatumye uburinganire bw’amahera y’Ubugiriki buhungabana cane. Bivuye ku binogo bininibinini vy’inzahabu n’ifeza vyo ku musozi Pangée, Filipo wa II yararonse amahera menshi cane yo gufasha mu bikorwa vyiwe vy’igisirikare n’ivya politike, ashiraho ingingo mfatirwako yoroshe kandi ngirakamaro y’inzahabu n’ifeza (10:1). Ivyo bikoresho vyiwe vy’inzahabu, vyari bihimbaza intsinzi yiwe mu mikino ya Olympique, vyaragendagenda gushika mu Buraya bwo mu Burengero, mbere bishika no mu Bwongereza. Alexandre yarakurikiye iyo politike y’amahera, atangaza cane drachme **Attique** mu gihe yariko aranesha mu Buseruko gushika no mu Buhindi. Ukwo gukwiragizwa kw’ibiceri vyinshi kwabaye intango y’igihe c’Abagiriki, igihe ishusho y’abami yagenda irasubirira buhorobuhoro ishusho y’imana zari ku biceri. Ico kintu gishasha caratumye amayaruka y’abami b’Abagiriki yishira hejuru, imana z’imigenzo zigaca zigira uruhara rwa kabiri ku ruhande rw’inyuma rw’ibiceri vyazo.
 
 
 
-Alegizandere amaze gupfa mu 323 imbere ya Kristu, abajenerali biwe baragabanyije ubwami bwiwe buhambaye cane, bashinga ingoma mu Misiri (aba Ptolémée), muri Siriya (aba Seleucides) n’ahandi. Ubwo bwami bw’Abagiriki bwakoresheje uburyo butandukanye bwo gukoresha amahera: Abaptolemée bashizeho uburyo bwo gukoresha amahera bupfutse kugira ngo bagenzure ingene amahera agenda, bahitamwo gukoresha intete nk’amahera yo mu mutima kugira ngo bazigame ivyuma vy’agaciro kugira ngo bakoreshe mu gisirikare hanze. Muri ico gihe nyene, Rode yarabaye ikibanza gikomeye c’ubudandaji imbere y’uko igoyagoya mu vy’ubutunzi n’Abaroma, bashinga Delos nk’icuma c’ubuntu mu 167 imbere ya Kristu.
+Alexandre amaze gupfa mu 323 imbere ya Kristu, abajenerali biwe baragabanyije ubwami bwiwe bwa buhambaye cane, bashinga ingoma mu Misiri (aba Ptolémée), muri Siriya (aba Seleucides) n’ahandi. Ubwo bwami bw’Abagiriki bwakoresheje uburyo butandukanye bwo gukoresha amahera: Abaptolemée bashizeho uburyo bwo gukoresha uburyo bw'amahera bwugarije kugira ngo bagenzure ingene amahera agenda, bahitamwo gukoresha intete nk’amahera y'indani kugira ngo bazigame ivyuma vy’agaciro kugira ngo bazobikorehe mu gisirikare hanze. Muri ico gihe nyene, Rhodes yarabaye ikibanza gikomeye c’ubudandaji imbere yuko buta ingumvu kubera abaromani, bashinga Delos nk’ikibanza coroheza abadandaza mu 167 imbere ya Kristu.
 
 
 
-Gukoresha amahera ni vyo vyari bihambaye mu guhemba abacangero. Abasoda ba Alegizandere bararonka amadarakima y’ifeza ku musi ku musi.
+Gukoresha amahera ni vyo vyari bihambaye mu guhemba abacangero. Abasoda ba Alexendre bararonka drachme y’ifeza ku musi ku musi.
 
 
 
-Abagendera ku mafarasi, ari bo bari mu ngabo za Alegizandere zari zifise ubuhinga bwinshi cane, baronka mu mpande zose amadarakima abiri ku musi, umusirikare w’amaguru araronka idarakima imwe, umucuruzi asanzwe na we akaronka ibice bibiri vya gatatu vy’idarakima, ni ukuvuga umushahara ukubye kabiri umushahara w’umukozi asanzwe.
+Abagendera ku mafarasi, ari bo bari mu ngabo za Alexendre zari zifise ubuhinga bwinshi cane, baronka mu mpande zose ama drachme abiri ku musi, umusirikare w’amaguru araronka drachme imwe, umucuruzi asanzwe na we akaronka ibice bibiri vya gatatu vya drachme, ni ukuvuga umushahara ukubye kabiri umushahara w’umukozi asanzwe.
 
 
 
-Mu gihe c’Intambara ya Peloponeziya, abasoda barahembwa kandi amahera menshi cane: italanto zirenga 1.200 zo guhagarika ubugarariji bwa Samosi be n’italanto zirenga 2.000 zo gukingira Potideya.
+Mu gihe c’Intambara ya Péloponnèse, abasoda barahembwa kandi amahera menshi cane: talents zirenga 1.200 zo guhagarika ubugarariji bwa Samos be na talents zirenga 2.000 zo gukingira Potidée.
 
 
 
-Igihe iyo ngabo yariko irarwanya Aziya Ntoya, igiciro cose cari nk’italanto mirongo ibiri ku musi, canke nk’igice c’itoni y’ifeza, canke amadarakima 120.000.
+Igihe iyo ngabo yariko irarwanya Aziya Ntoya, igiciro cose cari nka talents mirongo ibiri ku musi, canke nk’igice c’itoni y’ifeza, canke drachmes 120.000.
 
 
 
-Ibiceri vy’Abagiriki na vyo nyene vyarafise uruhara runini mu mico kama, kuko igisagara cose carondera kwemeza akaranga kaco mu gukora ibiceri vyaco bwite bifise ibimenyetso vyo mu karere canke vy’imigani. Nk’akarorero, Héraclius yerekanye Héraclès (Hercule) arwana n’intare, mu gihe Sirene yerekanye igiterwa kizwi cane c’umuti citwa silphium.
+Ibiceri vy’Abagiriki na vyo nyene vyarafise uruhara runini mu mico kama, kuko igisagara cose carondera kwemeza akaranga kaco mu gukora ibiceri vyaco bwite bifise ibimenyetso vyo mu karere canke vy’imigani. Nk’akarorero, Héraclée yerekana Héraclès(Hercule) arwana n’intare, mu gihe Cyrène yerekanye igiterwa kizwi cumuti citwa silphium.
 
 
 
-Ubwa nyuma, naho vyari bitandukanye kandi bihinduka mu karere, amafaranga y’ikigiriki n’ay’Abagiriki ya kera yasize ikimenyetso kiramvye mu mateka y’ubutunzi n’imico kama y’isi yo mu kiyaga Mediterane, agira ico akoze cane ku mice y’amahera yaje gushika i Roma, iyo na yo ikaba yaje kwemera no guteza imbere ivyiyumviro vy’ubutunzi bw’Abagiriki kugira ngo itunganye ubutunzi bwayo bwite.
+Ubwa nyuma, naho yari amahera atandukanye akagira n'agaciro kagenda gatandukanye, amahera y’ikigiriki n’ay’Aba hellénistiques ya kera yasize ikimenyetso kiramvye mu mateka y’ubutunzi n’imico kama y’isi yo mu kiyaga Mediterane bigatuma abantu baguma ba, agira ico akoze cane ku mice y’amahera yaje gushika i Roma, iyo na yo ikaba yaje kwemera no guteza imbere ivyiyumviro vy’ubutunzi bw’Abagiriki kugira ngo itunganye ubutunzi bwayo bwite.
 
 
 

@@ -6,3 +6,4 @@ wrong_answers:
   - Mendekripsi pesan yang disadap secara otomatis
 explanation: |
   Skema enkripsi terotentikasi menggabungkan enkripsi dan kode otentikasi (MAC) untuk menjamin baik kerahasiaan pesan dan keasliannya.
+reviewed: true

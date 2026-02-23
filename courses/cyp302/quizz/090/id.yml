@@ -6,4 +6,4 @@ wrong_answers:
   - Karena cipher aliran selalu lebih lambat
 explanation: |
   Cipher aliran dirancang untuk mengenkripsi data secara berkelanjutan (bit demi bit atau byte demi byte), yang mempersulit penggunaannya dalam mode blok yang memerlukan pemrosesan dalam blok-blok berukuran tetap.
-reviewed: false
+reviewed: true

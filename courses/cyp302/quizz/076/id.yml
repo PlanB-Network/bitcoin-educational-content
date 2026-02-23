@@ -6,4 +6,4 @@ wrong_answers:
   - 100 bit
 explanation: |
   Dengan kunci setidaknya 128 bit, enkripsi modern saat ini dianggap aman terhadap serangan brute force, karena jumlah percobaan yang diperlukan akan tidak realistis.
-reviewed: false
+reviewed: true

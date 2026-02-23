@@ -6,4 +6,4 @@ wrong_answers:
   - Karena pesan tidak bisa diautentikasi tanpa tanda tangan digital.
 explanation: |
   Kerahasiaan melindungi isi pesan, tetapi tanpa MAC, seorang penyerang masih bisa meny intercept dan memodifikasi pesan tanpa memahaminya, sehingga mengompromikan integritas komunikasi.
-reviewed: false
+reviewed: true

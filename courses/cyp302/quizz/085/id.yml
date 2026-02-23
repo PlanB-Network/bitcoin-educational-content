@@ -6,4 +6,4 @@ wrong_answers:
   - Enkripsi yang tidak memerlukan kunci rahasia
 explanation: |
   Block cipher adalah algoritma yang menerapkan transformasi pada string bit berukuran tetap dengan sebuah kunci untuk menghasilkan string lain dengan ukuran yang sama.
-reviewed: false
+reviewed: true

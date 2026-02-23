@@ -9,9 +9,9 @@ objectives:
 ---
 # Un viaje a través de la historia filosófica de la libertad
 
-Este curso examina la libertad a través de la historia mediante el análisis de dos filosofías políticas en competencia: la libertad y el poder. Estudiará pensadores influyentes, como Frédéric Bastiat, Lord Acton, Karl Marx y Murray Rothbard, y sus puntos de vista contrastantes sobre la producción, el saqueo, la lucha de clases y el papel del Estado.
+Este curso examina la libertad a través de la historia mediante el análisis de dos filosofías políticas en competencia: la libertad y el poder. Estudiaremos pensadores influyentes, como Frédéric Bastiat, Lord Acton, Karl Marx y Murray Rothbard, y sus puntos de vista contrastantes sobre la producción, el saqueo, la lucha de clases y el papel del Estado.
 
-Desde la Antigüedad hasta la Ilustración, la libertad ascendió a medida que las sociedades abrazaron la tolerancia y la independencia económica. Sin embargo, los siglos XIX y XX trajeron el declive, cuando el capitalismo enfrentó críticas y el colectivismo se elevó. Explore cómo estos cambios iluminan las amenazas actuales a la libertad y comience ahora a comprender la batalla entre la libertad y el poder.
+Desde la Antigüedad hasta la Ilustración, la libertad ascendió a medida que las sociedades abrazaron la tolerancia y la independencia económica. Sin embargo, los siglos XIX y XX trajeron el declive, cuando el capitalismo enfrentó críticas y el colectivismo se elevó. Exploremos cómo estos cambios iluminan las amenazas actuales a la libertad y comencemos a comprender la batalla entre la libertad y el poder.
 +++
 # Introducción
 
@@ -57,7 +57,7 @@ Finalmente, esta sección examinará cómo el Estado de bienestar fue ganando te
 
 :::video id=d21788a4-3b99-48b7-ac1a-24d5913af893:::
 
-¿Por qué titular este curso: una historia de la libertad? Porque necesitamos entender la relación entre ideas y eventos, para juzgar mejor nuestra era y actuar con discernimiento. Es en el pasado donde encontramos los elementos para una mejor comprensión de lo que es la libertad y las razones por las cuales debemos valorarla.
+¿Por qué titular este curso: Una historia de la libertad? Porque necesitamos entender la relación entre ideas y eventos, para juzgar mejor nuestra era y actuar con discernimiento. Es en el pasado donde encontramos los elementos para una mejor comprensión de lo que es la libertad y las razones por las cuales debemos valorarla.
 
 > Cuando el pasado ya no ilumina el futuro, el espíritu camina en la oscuridad (Alexis de Tocqueville - _Democracia en América_.)
 
@@ -67,7 +67,7 @@ Al mismo tiempo, Auguste Comte dijo: "Uno no conoce completamente una ciencia ha
 De hecho, la libertad no es una idea nueva. Es un legado transmitido a través de generaciones. Toda la historia de la civilización da testimonio de una lucha incansable por la libertad.
 ![image](assets/es/002.webp)
 
-Sin embargo, el objetivo de este curso no es solo arrojar luz sobre la historia de la libertad, sino también, y más importante, desarrollar un juicio crítico. De hecho, la historia sola no es suficiente para juzgar el presente y el futuro. Necesita estar acompañada de reflexión crítica y un juicio sobre los errores del pasado. Esta es la contribución de la filosofía. Por eso he titulado este curso: una historia filosófica de la libertad. Se trata, de hecho, de explorar cómo los filósofos han concebido la libertad a lo largo de los tiempos.
+Sin embargo, el objetivo de este curso no es solo arrojar luz sobre la historia de la libertad, sino también, y más importante, desarrollar un juicio crítico. De hecho, la historia sola no es suficiente para juzgar el presente y el futuro. Necesita estar acompañada de reflexión crítica y un juicio sobre los errores del pasado. Esta es la contribución de la filosofía. Por eso hemos titulado este curso: Una historia filosófica de la libertad. Se trata, de hecho, de explorar cómo los filósofos han concebido la libertad a lo largo de los tiempos.
 
 ### La tarea de la filosofía
 
@@ -76,6 +76,7 @@ Desde sus orígenes, tiene un doble propósito:
 - En primer lugar, es dar sentido a conceptos vagos y confusos. ¿Qué es bueno, verdadero, justo, bello? Así como la función de la historia es iluminar el pasado, así la filosofía es el arte de definir correctamente los conceptos. Por eso necesitamos empezar en este curso entendiendo qué es la libertad.
 
 ![image](assets/es/003.webp)
+
 La libertad es un concepto que abarca una multitud de variantes, las cuales son tantas posibles declinaciones de la misma realidad: libertad política, libertad económica, libertad de conciencia, de expresión, libertad religiosa, libertad de asociación, etc. ¿De qué realidad estamos hablando?
 La libertad puede definirse simplemente como el poder de elección, con lo que pertenece a uno mismo. Es una facultad inherente al ser humano. Es una realidad esencialmente individual. Solo el individuo puede pensar y actuar, es decir, hacer elecciones. Esto no significa que el individuo esté solo, que no deba nada a los demás. Por el contrario, vive en sociedad y debe cooperar con otros para su propio bien. Pero cada uno sigue siendo libre de cooperar o no y debe asumir la responsabilidad de sus elecciones.
 
@@ -99,9 +100,13 @@ Aquellos que defienden la primera filosofía en Francia son los Fisiócratas, co
 > No es porque hay leyes que hay propiedades, sino porque hay propiedades que hay leyes. (_Propiedad y Ley_).
 
 ![image](assets/es/005.webp)
+
 Para Turgot y Say, discípulos de Quesnay, existe una ley natural, independiente de los caprichos de los legisladores, que es válida para todos los hombres y precede a cualquier sociedad. Esta filosofía proviene directamente de la escolástica medieval, los estoicos, Aristóteles y Sófocles. Las leyes no escritas son tanto anteriores como superiores a las leyes escritas porque emanan de la naturaleza humana y la razón.
+
 ![image](assets/es/006.webp)
+
 La segunda filosofía se encuentra entre autores como Rousseau, Robespierre o Kant, quienes encarnan la tradición republicana para la cual la soberanía de la voluntad general es la verdadera fuente de la ley. Contemporáneo de Quesnay, Rousseau es un anti-fisiócrata. Para él, el legislador debe organizar la sociedad, como un mecánico que inventa una máquina a partir de materia inerte.
+
 ![image](assets/es/007.webp)
 
 > "Aquel que se atreve a emprender el establecimiento de un pueblo", dice Rousseau, "debe sentirse capaz de cambiar, por decirlo de alguna manera, la naturaleza humana, de transformar a cada individuo que, por sí mismo, es un todo perfecto y solitario, en parte de un todo mayor del cual este individuo recibe, de cierta manera, su vida y ser." (_Contrato Social_)
@@ -201,6 +206,7 @@ Pero la idea de que la libertad en Europa nació de luchas internas entre varios
 
 Así, Voltaire, en sus [_Cartas Filosóficas_](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6), atribuye la libertad inglesa a conflictos entre reyes y nobles que impidieron cualquier concentración excesiva de poder. Y él nota:
 Si solo hubiera una religión en Inglaterra, su despotismo sería de temer; si solo hubiera dos, se cortarían el cuello mutuamente; pero hay treinta, y viven en paz y felicidad. ([Sobre los Presbiterianos](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6))
+
 ![image](assets/es/012.webp)
 
 Condorcet, en su [_Esbozo de un cuadro histórico de los progresos del espíritu humano_](https://fr.wikisource.org/wiki/Esquisse_d%E2%80%99un_tableau_historique_des_progr%C3%A8s_de_l%E2%80%99esprit_humain), atribuye la estructura descentralizada del poder en Italia a la rivalidad entre el papa y el emperador, lo que permitió la supervivencia de muchas ciudades-estado independientes.
@@ -214,6 +220,7 @@ Esta tesis también se encuentra en una obra monumental que data de 1983: _Derec
 :::video id=01b9125f-6693-49ae-b7c9-07bc10a10c3d:::
 
 Sin embargo, existe otra perspectiva sobre la historia. Ha sido bastante exitosa y durante mucho tiempo disfrutó del apoyo de intelectuales occidentales y representantes del Sur Global. Esta es la visión socialista y marxista de la historia.
+
 ![image](assets/es/013.webp)
 
 Explica el extraordinario crecimiento de Europa principalmente a través del progreso tecnológico combinado con la "acumulación primitiva" de capital, derivada del imperialismo, la esclavitud, el comercio triangular, la expropiación de pequeños campesinos y la explotación de la clase trabajadora. La conclusión es clara. Este excepcional crecimiento europeo se logró a expensas de millones y millones de esclavos y personas oprimidas.
@@ -232,6 +239,7 @@ Este análisis refleja un malentendido del valor excedente y la naturaleza coope
 ### La Revolución Industrial en Cuestión
 
 De hecho, el análisis marxista distorsiona la realidad histórica de la Revolución Industrial. Ludwig von Mises aclaró este tema en su tratado de economía [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (ver especialmente el capítulo titulado [Interpretación Popular de la Revolución Industrial](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) así como en una serie de conferencias publicadas bajo el título: [_Política Económica: Pensamientos para Hoy y Mañana_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (También vale la pena leer, La Mentalidad Anticapitalista [aquí](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) y [aquí](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+
 ![imagen](assets/es/014.webp)
 
 Mises explica que los trabajos en fábricas, aunque miserables según nuestros estándares, representaban la mejor oportunidad posible para los trabajadores de la época.

@@ -2586,11 +2586,11 @@ Ubwa nyuma, naho yari amahera atandukanye akagira n'agaciro kagenda gatandukanye
 
 :::video id=0c79a59c-e179-4893-a414-1b8de0930eb9:::
 
-### Atene n’itandukaniro riri hagati ya Siparita .
+### Athene n’itandukaniro riri hagati ya Sparta .
 
 
 
-Uguhangana kwa Atene na Siparita mu kiringo c’Abagiriki ba kera kurahishura uburyo bubiri butandukanye cane bwo gutunganya ivy’ubutegetsi n’ivy’ubutunzi. Naho Sparta yanse amahera y’ivyuma kugira ngo haboneke uburyo bwo kwitunga bushingiye ku kwizigirana kw’abanyagihugu, Atene yarakiriye bimwe bishitse ubwo buhinga bwo kwubaka no kubungabunga ubwami bwayo bwo mu kiyaga.
+Uguhangana kwa Athene na Sparta mu kiringo c’Abagiriki ba kera kurahishura uburyo bubiri butandukanye cane bwo gutunganya ivy’ubutegetsi n’ivy’ubutunzi. Naho Sparta yanse amahera y’ivyuma kugira ngo haboneke uburyo bwo kwitunga bushingiye ku kwizigirana kw’abanyagihugu, Athene yarakiriye bimwe bishitse ubwo buhinga bwo kwubaka no kubungabunga ubwami bwayo bwo mu kiyaga.
 
 
 
@@ -2598,23 +2598,23 @@ Uguhangana kwa Atene na Siparita mu kiringo c’Abagiriki ba kera kurahishura ub
 
 
 
-Ubwami bwa Atene, naho bwari bufise izina ryiza cane, bwagumye ari ubw’agaciro gatoyi mu bijanye n’ubutaka - ahanini Atene n’ibisagara vyo mu kiyaga Égée. Ububasha bwayo bwari bushingiye ku Muryango wa Delos, uwo na wo ukaba ari umuhari w’igisirikare wari uganzwa na Atene nk’umukuru w’igihugu. Ico gice c’ubwami cari gisaba igikoresho c’ubutunzi kimwe: igiceri c’ifeza c’i Atene.
+Ubwami bwa Athene, naho bwari bufise izina ryiza cane, bwagumye ari ubw’agaciro gatoyi mu bijanye n’ubutaka - ahanini Athene n’ibisagara vyo mu kiyaga Égée. Ububasha bwayo bwari bushingiye ku Muryango wa Delos, uwo na wo ukaba ari umuhari w’igisirikare wari uganzwa na Athene nk’umukuru w’igihugu. Ico gice c’ubwami cari gisaba igikoresho c’ubutunzi kimwe: igiceri c’ifeza c’i Athene.
 
 
 
-Kubungabunga ubwato ni co cari ikintu nyamukuru cari gikenewe mu bijanye n’amahera. Igitero kimwe c’i Atene c’amabuye y’agaciro cari hagati y’italanto imwe n’ibiri z’ifeza - amahera menshi cane. Kubera ko Atene yari ifise ubwato amajana n’amajana bwo gucungera, yari ikeneye uburyo bwiza bwo gutanga imisoro. Amafaranga yaracitse igikoresho gihambaye co gutoragura amakori mu bisagara vyari vyifashe mu butegetsi bwabo no gufasha ingabo z’amazi zijejwe gutera ivyatsi zari zituma ubwami bugira ubumwe.
+Kubungabunga ubwato ni co cari ikintu nyamukuru cari gikenewe mu bijanye n’amahera. trière(ubwato) imwe yagurwa hagati y'i telent imwe hamwe na 2 y'ifeza- amahera menshi cane. Kubera ko Athene yari ifise ubwato amajana n’amajana bwo gucungera, yari ikeneye uburyo  bwo gutanga imisoro bumeze neza. Amafaranga yaracitse igikoresho gihambaye co gutoragura amakori mu bisagara vyari vyifashe mu butegetsi bwabo no gufasha ingabo z’amazi zijejwe gutera ivyatsi zari zituma ubwami bugira ubumwe.
 
 
 
-### Gutegeka amahera nk'igikoresho co kuganza
+### Guhatiriza ikoreshwa ry'amahera nk'igikoresho co kuganza
 
 
 
-Atene yategetse amahera yayo y’ifeza abagize Ishirahamwe ry’i Delos bose. Ukwo gushinga urugero rw’amahera kwari gushitse ku ntumbero nyinshi z’ingenzi. Ica mbere, vyatumye vyoroha gukusanya amakori mu gushinga igice c’ikonti rusangi. Ica kabiri, vyatumye ibisagara vy’abaja bikomeza gushingira Atene mu vy’ubutunzi. Ubwa nyuma, ryaragaragaje mu buryo bw’ikigereranyo ububasha bwa Atene mu bwami bwose bwo ku kiyaga.
+Athene yategetse ikoreshwa ry'amahera yayo y’ifeza abagize Ishirahamwe ry’i Delos bose. Ukwo gushinga urugero rw’amahera bwari uburyo bwo gupanga ubuhinga bwogushika kuntumbera yabo. Ica mbere, vyatumye vyoroha kwegeranya amakori mu gushinga igice c’ikonti rusangi. Ica kabiri, vyatumye ibisagara bibanyi bikomeza kwishingikiriza Athene mu vy’ubutunzi. Ubwa nyuma, ryaragaragaje mu buryo bw’ikigereranyo ububasha bwa Athene mu bwami bwose bwo ku kiyaga.
 
 
 
-Iyo politike y’amahera itandukanye cane n’akarorero k’i Spartan. Siparita, igihugu cari gifise ububasha bwo ku butaka, cari gishobora kwizigira ibikorwa vy’abaheloti (abaja) bo muri Peloponnese kugira ngo kibeho. Ubutunzi bwayo bwari bufunze kandi bushingiye ku bisagara ntibwari busaba ibikoresho vy’amahera bikomeye cane. Abanyagihugu-abasirikare babana, bagasangira ivyokurya, kandi ntibakeneye amahera yo guhanahana amakuru ku musi ku musi.
+Iyo politike y’amahera itandukanye cane n’uburyo bwaba Spartan. Sparte, igihugu cari gikomeye kurwano zo kubutaka, cari gishobora kwizigira ibikorwa vy’aba hilotes (abaja) bo muri Péloponnèse kugira ngo kibeho. Ubutunzi bwayo bwari bufunze kandi bushingiye ku bisagara ntibwari busaba ibikoresho vy’amahera bikomeye cane. Abanyagihugu-abasirikare babana, bagasangira ivyokurya, kandi ntibakeneye amahera yo guhanahana amakuru ku musi ku musi.
 
 
 
@@ -2622,11 +2622,11 @@ Iyo politike y’amahera itandukanye cane n’akarorero k’i Spartan. Siparita,
 
 
 
-Kubera ko ubwami bwa Atene bwari bufise ubuhinga bwo kugendera mu kiyaga, vyasobanura ko bwategerezwa kuba bufunguye kugira ngo abantu bashobore gucuruza. Atene ntiyari nk’igisagara ca Siparita cari kibona imbere mu mutima, kuko categerezwa gucuruza n’isi yo hanze kugira ngo kibeho kandi gitere imbere. Amafaranga yaracitse igikoresho gihambaye cane mu bucuruzi bwo mu kiyaga Mediterane.
+Uburere bwo mumazi bwabanya athene bwarahimiriza imigenderanire y'ubucuruzi bwo mumazi. Athene ntiyakora nk’igisagara ca Sparta co ntamigenderanire y'ubudandandaji nibindi bihugu cagira, athene yoyo yategerezwa gucuruza n’isi yo hanze kugira ngo ibeho kandi iitere imbere. Amafaranga yaracitse igikoresho gihambaye cane mu bucuruzi bwo mu kiyaga Mediterane.
 
 
 
-Ukwo kwiyumva hanze kwatumye haba uruziga rw’ingeso nziza: ubudandaji bwatuma haba amahera, ayo mahera yarafasha ubwato, ubwato bwarinda inzira z’ubudandaji kandi bukabungabunga ubwami, kandi ubwami bwategeka amahera y’i Atene, ivyo bikaba vyatuma ubudandaji bworoha. Amafaranga ntiyari akiri uburyo bwo guhinduranya gusa, ahubwo yacitse inkingi y’ingene umwami akora.
+Iyo mikoreranire yo hanze yatumye haba uruziga rw’ingeso nziza: ubudandaji bwatuma hinjira amahera, ayo mahera niyo yatera inkunga amato, ayo mato yarinda inzira z’ubudandaji kandi bukabungabunga ubwami, kandi ubwami bwategeka imisoro namahera yi athene, ivyo bikaba vyatuma ubudandaji bworoha. Amafaranga ntiyari akiri uburyo bwo guhinduranya gusa, ahubwo yacitse inkingi y’ingene ubwami bukora.
 
 
 
@@ -2634,19 +2634,19 @@ Ukwo kwiyumva hanze kwatumye haba uruziga rw’ingeso nziza: ubudandaji bwatuma 
 
 
 
-Naho ubutunzi bwari buteye imbere cane, ububasha bw’amahera bwo muri Atene bwarerekanye ko bufise aho bugarukira mu gihe c’Intambara ya Peloponeze. Kubera ko Atene yari ihanganye n’ingabo zo ku butaka zo ku butaka, ukuntu Atene yari isumba abandi mu vy’ingabo zo mu mazi no mu vy’amahera ntivyari bihagije. Ingendo zizimvye, nk’iy’i Sirakuza muri Sicile zari ziteye akaga, zarahezagiye amahera ata ntsinzi y’agaciro.
+Naho ubutunzi bwari buteye imbere cane, ububasha bw’amahera bwo muri Athene bwarerekanye ko bufise aho bugarukira mu gihe c’Intambara ya Péloponnèse. Kubera ko Athene yari ihanganye n’ingabo zo ku butaka zaba sparta, ubukuru bwa athene muvyamato n'ubukungu ntivyari bigikwiye. Ingendo(expéditions) zizimvye, nk’iy’iza Syracuse muri Sicile , zagabanije ubukungu atanyungu babikuyemwo.
 
 
 
-Amateka yerekana ko amahera, naho ari igikoresho gikomeye co kwerekana ububasha, ata co ari ikimenyamenya c’uko igisirikare kizoganza. Siparita, ata mafaranga y’icuma yari afise ariko yari afise ubumwe budasanzwe mu kibano, amaherezo yaratsinze ubwami bw’amahera bw’i Atene.
+Amateka yerekana ko amahera, naho ari igikoresho gikomeye co kwerekana ububasha, ata co ari kimenyetso c’uko igisirikare kiba gikomeye. Sparta, ata mafaranga y’icuma yari afise ariko yari afise ubumwe budasanzwe mu kibano, amaherezo yaratsinze ubwami bushingiye kumahera bw’i Athene.
 
 
 
-### Ivyitegererezo bibiri, iherezo ribiri
+### Ivyitegererezo bibiri, amaherezo abiri
 
 
 
-Uguhangana kwa Atene na Siparita kwerekana uburyo bubiri bw’ishimikiro bwo gutunganya imibano n’ubutunzi. Atene iserukira uburyo bufunguye, bw’ubudandaji, bw’amahera - intango y’ingoma z’ikiyaga zo muri iki gihe. Sparta ifise uburyo bupfutse, bushingiye ku kwizigirana kw’abanyagihugu aho gushingira ku bikoresho vy’amahera.
+Uguhangana kwa Athene na Sparta kwerekana uburyo bubiri bw’ishimikiro bwo gutunganya imibano n’ubutunzi. Athene iserukira uburyo bufunguye, bw’ubudandaji, bw’amahera - intango y’ingoma z’ikiyaga zo muri iki gihe. Sparta ifise uburyo bufunganye, bushingiye ku kwizigirana kw’abanyagihugu aho gushingira ku bikoresho vy’amahera.
 
 
 

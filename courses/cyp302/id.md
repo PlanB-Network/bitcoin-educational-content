@@ -196,7 +196,7 @@ Meskipun mengawasi data dalam skala besar membutuhkan musuh yang kuat, seperti b
 
 Sebagian besar data jaringan lokal kita - baik di rumah, di kantor, atau di kafe - sekarang berjalan melalui gelombang radio ke titik akses nirkabel pada router all-in-one, bukan melalui kabel fisik. Jadi, penyerang hanya membutuhkan sedikit sumber daya untuk mencegat lalu lintas lokal Anda. Hal ini sangat mengkhawatirkan karena kebanyakan orang hanya melakukan sedikit hal untuk melindungi data yang melintasi jaringan lokal mereka. Selain itu, penyerang potensial juga bisa menargetkan koneksi broadband seluler kita, seperti 3G, 4G, dan 5G. Semua komunikasi nirkabel ini merupakan sasaran empuk bagi para penyerang.
 
-Oleh karena itu, ide untuk menjaga kerahasiaan komunikasi dengan melindungi saluran komunikasi adalah sebuah aspirasi yang sangat mengkhayal bagi sebagian besar dunia modern. Semua yang kita ketahui menjamin paranoia yang parah: Anda harus selalu berasumsi bahwa ada seseorang yang mendengarkan. Dan kriptografi adalah alat utama yang kita miliki untuk mendapatkan segala jenis keamanan dalam lingkungan modern ini.
+Oleh karena itu, ide untuk menjaga kerahasiaan komunikasi dengan melindungi saluran komunikasi adalah aspirasi yang sangat keliru bagi sebagian besar dunia modern. Semua yang kita ketahui menjamin paranoia yang parah: Anda harus selalu berasumsi bahwa ada seseorang yang mendengarkan. Dan kriptografi adalah alat utama yang kita miliki untuk mendapatkan segala jenis keamanan dalam lingkungan modern ini.
 
 **Catatan:**
 
@@ -355,7 +355,7 @@ Misalkan Bob bermaksud untuk memilih satu hari secara seragam dari tahun kalende
 
 Selama kita berpikir bahwa proses yang dialami Bob benar-benar seragam, kita harus menyimpulkan bahwa ada 1/4 kemungkinan Bob memilih hari di musim panas. Ini adalah **probabilitas tak bersyarat** dari hari yang dipilih secara acak berada di Musim Panas.
 
-Anggaplah sekarang bahwa alih-alih menggambar hari kalender secara seragam, Bob hanya memilih secara seragam di antara hari-hari di mana suhu siang hari di Crystal Lake (New Jersey) adalah 21 derajat Celcius atau lebih tinggi. Dengan informasi tambahan ini, apa yang dapat kita simpulkan tentang probabilitas bahwa Bob akan memilih hari di musim panas?
+Sekarang misalkan, alih-alih memilih satu hari kalender secara acak dan merata, Bob hanya memilih secara seragam di antara hari-hari di mana suhu siang hari di Crystal Lake (New Jersey) adalah 21 derajat Celcius atau lebih tinggi. Dengan informasi tambahan ini, apa yang dapat kita simpulkan tentang probabilitas bahwa Bob akan memilih hari di musim panas?
 
 Kita harus benar-benar menarik kesimpulan yang berbeda dari sebelumnya, bahkan tanpa informasi spesifik lebih lanjut (misalnya, suhu pada siang hari setiap hari di tahun lalu).
 
@@ -524,8 +524,7 @@ Sangat mudah untuk melihat bahwa operasi XOR bersifat komutatif, yaitu bahwa $m_
 
 Operasi XOR pada dua string dengan panjang alternatif dapat memiliki interpretasi yang berbeda, tergantung pada konteksnya. Di sini kita tidak akan membahas operasi XOR pada string dengan panjang yang berbeda.
 
-Operasi XOR setara dengan kasus khusus untuk melakukan operasi modulo pada penambahan bit ketika pembaginya adalah 2. Anda dapat melihat ekuivalensi pada hasil berikut:
-
+Operasi XOR setara dengan kasus khusus untuk melakukan operasi modulo pada penambahan bit ketika pembaginya adalah 2. Anda dapat melihat kesetaraan tersebut pada hasil berikut:
 
 - $(0 + 0) \mod 2 = 0 \oplus 0 = 0$
 - $(1 + 0) \mod 2 = 1 \oplus 0 = 1$
@@ -562,7 +561,7 @@ Sebagai tambahan, misalkan sebuah variabel acak $S'$. Himpunan hasilnya hanya me
 
 Misalkan sekarang saya mengambil 1000 sampel dari $S$ dan 1000 sampel dari $S'$ dan memberikan dua set hasil kepada Anda. Saya akan memberi tahu Anda kumpulan hasil mana yang terkait dengan variabel acak yang mana. Selanjutnya, saya mengambil sampel dari salah satu dari dua variabel acak tersebut. Tetapi kali ini saya tidak memberi tahu Anda variabel acak mana yang saya ambil. Jika $S'$ adalah pseudorandom, maka idenya adalah probabilitas Anda untuk menebak dengan benar variabel acak mana yang saya ambil sampelnya secara praktis tidak lebih baik dari $1/2$.
 
-Biasanya, sebuah string pseudorandom dengan panjang $n$ dihasilkan dengan memilih secara acak sebuah string dengan ukuran $n - x$, di mana $x$ adalah sebuah bilangan bulat positif, dan menggunakannya sebagai input untuk algoritma ekspansif. String acak dengan ukuran $n - x$ ini dikenal sebagai **benih**.
+Biasanya, sebuah string pseudorandom dengan panjang $n$ dihasilkan dengan memilih secara acak sebuah string dengan ukuran $n - x$, di mana $x$ adalah sebuah bilangan bulat positif, dan menggunakannya sebagai input untuk algoritma ekspansif. String acak dengan ukuran $n - x$ ini dikenal sebagai **seed**.
 
 String pseudorandom adalah konsep kunci untuk membuat kriptografi menjadi praktis. Sebagai contoh, pertimbangkan stream cipher. Dengan stream cipher, sebuah kunci yang dipilih secara acak dimasukkan ke dalam sebuah algoritma ekspansif untuk menghasilkan sebuah string pseudorandom yang jauh lebih besar. String pseudorandom ini kemudian digabungkan dengan plaintext melalui operasi XOR untuk menghasilkan ciphertext.
 
@@ -644,14 +643,14 @@ Dua aksioma pertama jelas berlaku. Selain itu, dalam perkalian, elemen 1 dapat b
 
 Sebagai contoh, misalkan $x = 22$. Berapa nilai $y$ dari himpunan $\mathbb{Z}$ yang dikalikan dengan $x$ yang akan menghasilkan elemen identitas 1? Nilai $1/22$ bisa saja digunakan, tetapi nilai ini tidak ada di dalam himpunan $\mathbb{Z}$. Faktanya, Anda akan mengalami masalah ini untuk semua bilangan bulat $x$, selain nilai 1 dan -1 (di mana $y$ harus bernilai 1 dan -1).
 
-Jika kita mengijinkan bilangan real untuk himpunan kita, maka masalah kita akan hilang. Untuk setiap elemen $x$ dalam himpunan, perkalian dengan $1/x$ menghasilkan 1. Karena pecahan termasuk dalam himpunan bilangan real, maka kebalikannya dapat ditemukan untuk setiap bilangan real. Pengecualiannya adalah nol, karena perkalian dengan nol tidak akan menghasilkan elemen identitas 1. Oleh karena itu, himpunan bilangan real tak nol yang dilengkapi dengan perkalian adalah sebuah grup.
+Jika kita mengijinkan bilangan real untuk himpunan kita, maka masalah kita akan hilang. Untuk setiap elemen $x$ dalam himpunan, perkalian dengan $1/x$ menghasilkan 1. Karena pecahan termasuk dalam himpunan bilangan real, maka kebalikannya dapat ditemukan untuk setiap bilangan real. Pengecualiannya adalah nol, karena perkalian dengan nol tidak akan menghasilkan elemen identitas 1. Oleh karena itu, himpunan bilangan real bukan nol yang dilengkapi dengan perkalian memang merupakan sebuah grup.
 
 Beberapa kelompok memenuhi syarat umum kelima, yang dikenal sebagai **kondisi komutativitas**. Kondisi ini adalah sebagai berikut:
 
 
 - Misalkan sebuah grup $G$ dengan sebuah himpunan **S** dan sebuah operator biner $\circ$. Misalkan $a$ dan $b$ adalah elemen-elemen dari **S**. Jika $a \circ b = b \circ a$ untuk setiap dua elemen $a$ dan $b$ di **S**, maka $G$ memenuhi kondisi komutativitas.
 
-Setiap grup yang memenuhi syarat komutatifitas dikenal sebagai grup komutatif, atau grup Abelian (diambil dari nama Niels Henrik Abel). Sangat mudah untuk memverifikasi bahwa himpunan bilangan real atas penjumlahan dan himpunan bilangan bulat atas penjumlahan adalah grup Abelian. Himpunan bilangan bulat atas perkalian sama sekali bukan sebuah grup, sehingga secara ipso facto tidak dapat menjadi grup Abelian. Himpunan bilangan real tak nol atas perkalian, sebaliknya, juga merupakan grup Abelian.
+Setiap grup yang memenuhi syarat komutatifitas dikenal sebagai grup komutatif, atau grup Abelian (diambil dari nama Niels Henrik Abel). Sangat mudah untuk memverifikasi bahwa himpunan bilangan real atas penjumlahan dan himpunan bilangan bulat atas penjumlahan adalah grup Abelian. Himpunan bilangan bulat atas perkalian sama sekali bukan sebuah grup, sehingga secara ipso facto tidak dapat menjadi grup Abelian. Sebaliknya, himpunan bilangan real bukan nol atas perkalian juga merupakan grup Abelian.
 
 Anda harus memperhatikan dua konvensi penting tentang notasi. Pertama, tanda "+" atau "×" akan sering digunakan untuk melambangkan operasi grup, bahkan ketika elemen-elemennya sebenarnya bukan angka. Dalam kasus ini, Anda tidak boleh menafsirkan tanda-tanda ini sebagai penjumlahan atau perkalian aritmatika standar. Sebaliknya, mereka adalah operasi yang hanya memiliki kemiripan abstrak dengan operasi aritmatika ini.
 
@@ -687,7 +686,7 @@ Mari kita beralih ke sebuah contoh. Misalkan $G = \langle \mathbb{Z} \mod 7, + \
 
 Beberapa grup Abelian memiliki satu atau lebih elemen, yang dapat menghasilkan semua elemen grup lainnya melalui eksponensial yang berkelanjutan. Elemen-elemen ini disebut **generator** atau **elemen primitif**.
 
-Kelas yang penting dari kelompok tersebut adalah $\langle \mathbb{Z}^* \mod N, \cdot \rangle$, di mana $N$ adalah sebuah bilangan prima. Notasi $\mathbb{Z}^*$ di sini berarti bahwa grup tersebut berisi semua bilangan bulat positif yang tidak nol dan kurang dari $N$. Oleh karena itu, grup seperti ini selalu memiliki elemen $N - 1$.
+Kelas yang penting dari kelompok tersebut adalah $\langle \mathbb{Z}^* \mod N, \cdot \rangle$, di mana $N$ adalah sebuah bilangan prima. Notasi $\mathbb{Z}^*$ ddi sini berarti bahwa grup tersebut berisi semua bilangan bulat positif bukan nol yang kurang dari $N$. Oleh karena itu, grup seperti ini selalu memiliki elemen $N - 1$.
 
 Sebagai contoh, $G = \langle \mathbb{Z}^* \mod 11, \cdot \rangle$. Grup ini memiliki elemen-elemen berikut: $\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\}$. Urutan grup ini adalah 10 (yang memang sama dengan $11 - 1$).
 

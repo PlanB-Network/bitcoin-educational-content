@@ -219,7 +219,7 @@ Ross William Ulbricht wurde 1984 geboren und wuchs in Austin, Texas, auf, wo er 
 
 
 
-Während seiner Studienzeit experimentierte Ross mit verschiedenen Drogen, insbesondere mit Psychedelika. Vor allem aber interessierte er sich in dieser Zeit intensiv für libertäre Ideen und die österreichische Schule der Ökonomie und las insbesondere Ludwig von Mises und Murray Rothbard, aber auch Joseph Salerno und Lew Rockwell. Über den Club *College Libertarians* [nahm er](http://web.archive.org/web/20171024194209/http://www.collegian.psu.edu:80/archives/article_1cb3e5e4-6ed2-5bb8-b980-1df989c663f9.html) an Debatten teil, die sich für eine Liberalisierung des Gesundheitssystems und die Legalisierung von Drogen aussprachen. In 2008, he [supported](https://web.archive.org/web/20170804183125/http://www.collegian.psu.edu:80/archives/article_239513a3-a577-5732-bab0-9cc27c5d4610.html) Die Kampagne des Libertären Ron Paul bei den Vorwahlen der Republikanischen Partei.
+Während seiner Studienzeit experimentierte Ross mit verschiedenen Drogen, insbesondere mit Psychedelika. Vor allem aber interessierte er sich in dieser Zeit intensiv für libertäre Ideen und die österreichische Schule der Ökonomie und las insbesondere Ludwig von Mises und Murray Rothbard, aber auch Joseph Salerno und Lew Rockwell. Über den Club *College Libertarians* [nahm er](http://web.archive.org/web/20171024194209/http://www.collegian.psu.edu:80/archives/article_1cb3e5e4-6ed2-5bb8-b980-1df989c663f9.html) an Debatten teil, die sich für eine Liberalisierung des Gesundheitssystems und die Legalisierung von Drogen aussprachen. In 2008, [unterstützte er](https://web.archive.org/web/20170804183125/http://www.collegian.psu.edu:80/archives/article_239513a3-a577-5732-bab0-9cc27c5d4610.html) die Kampagne des Libertären Ron Paul bei den Vorwahlen der Republikanischen Partei.
 
 
 
@@ -240,7 +240,7 @@ Endlich das fehlende Puzzlestück!  Plötzlich war es so klar: Jede Maßnahme, d
 
 
 
-Die Idee eines Online-Marktplatzes nahm im Jahr 2009 in Ross Ulbrichts Kopf Gestalt an. Nachdem er ihn "Underground Brokers" nennen wollte, entschied er sich für den eingängigeren Namen "Silk Road", eine Anspielung auf die Seidenstraße, ein Netz von Handelswegen, das Europa und Asien bis ins 15. Das Projekt des jungen Texaners [war](https://antilop.cc/sr/exhibits/GX-240A.pdf), "eine Website zu erstellen, auf der die Leute alles anonym kaufen konnten, ohne jegliche Spur, die zu ihnen zurückführen könnte".
+Die Idee eines Online-Marktplatzes nahm im Jahr 2009 in Ross Ulbrichts Kopf Gestalt an. Nachdem er ihn "Underground Brokers" nennen wollte, entschied er sich für den eingängigeren Namen "Silk Road", eine Anspielung auf die Seidenstraße, ein Netz von Handelswegen, das Europa und Asien bis ins 15. Jahrhundert, durch das viele Güter, Ideen und Techniker aus der ganzen Welt weitergegeben wurden. Das Projekt des jungen Texaners [war](https://antilop.cc/sr/exhibits/GX-240A.pdf), "eine Website zu erstellen, auf der die Leute alles anonym kaufen konnten, ohne jegliche Spur, die zu ihnen zurückführen könnte".
 
 
 
@@ -262,7 +262,7 @@ Tor (ein lexikalisiertes Akronym für *The Onion Router*) ist ein vertrauliches 
 
 
 
-Bitcoin war auch ein gutes Werkzeug, da es nicht über Nacht von den Behörden abgeschaltet werden konnte (im Gegensatz zu zentralisierten Systemen wie Liberty Reserve), und Transaktionen, die über das Netzwerk liefen, unterlagen nicht dem Ermessen einer vertrauenswürdigen dritten Partei. Als Ross sein Projekt im Jahr 2009 entwickelte, [plante] er (https://antilop.cc/sr/exhibits/253456462-Silk-Road-exhibits-GX-270.pdf) die Verwendung von Pecunix, einem digitalen Goldwährungssystem im Stil von E-Gold. Doch 2010 entdeckte er Bitcoin, das trotz seiner kurzen Existenz für ihn die richtige Wahl zu sein schien.
+Bitcoin war auch ein gutes Werkzeug, da es nicht über Nacht von den Behörden abgeschaltet werden konnte (im Gegensatz zu zentralisierten Systemen wie Liberty Reserve), und Transaktionen, die über das Netzwerk liefen, unterlagen nicht dem Ermessen einer vertrauenswürdigen dritten Partei. Als Ross sein Projekt im Jahr 2009 entwickelte, [plante er](https://antilop.cc/sr/exhibits/253456462-Silk-Road-exhibits-GX-270.pdf) die Verwendung von Pecunix, einem digitalen Goldwährungssystem im Stil von E-Gold. Doch 2010 entdeckte er Bitcoin, das trotz seiner kurzen Existenz für ihn die richtige Wahl zu sein schien.
 
 
 
@@ -280,7 +280,7 @@ Im Sommer 2010 beschloss Ross, halluzinogene Pilze zu züchten, um sie als erste
 
 
 
-Um die Website zu erstellen, bat er [https://antilop.cc/sr/files/2015_01_22_Ulbricht_trial_transcript_W2_D3.pdf] Richard Bates, einen Studienfreund, der für PayPal und eBay gearbeitet hatte, um Hilfe. Ross erzählte ihm zunächst nichts von seinem Projekt, aber Richard erklärte sich bereit, ihm einige Computerratschläge zu geben. Ende 2010 war die Silk-Road-Plattform bereit für den Start.
+Um die Website zu erstellen, [bat er](https://antilop.cc/sr/files/2015_01_22_Ulbricht_trial_transcript_W2_D3.pdf) Richard Bates, einen Studienfreund, der für PayPal und eBay gearbeitet hatte, um Hilfe. Ross erzählte ihm zunächst nichts von seinem Projekt, aber Richard erklärte sich bereit, ihm einige Computerratschläge zu geben. Ende 2010 war die Silk-Road-Plattform bereit für den Start.
 
 
 
@@ -300,13 +300,13 @@ In der Nachricht gab er die Adresse der Website auf Tor an (`tydgccykixpbu6uz.on
 Ein Forumsmitglied, das das Pseudonym ShadowOfHarbringer verwendet, zitierte seinen Beitrag und antwortete:
 
 
-> "So, jetzt geht's los, der erste Bitcoin-Drogeriemarkt. Wir gehen schneller in tiefes Wasser, als ich dachte. Ich frage mich, wie lange es dauern wird, bis die Behörden anfangen, Bitcoin zu untersuchen."
+> "So, jetzt geht's los, der erste Bitcoin-Drogenmarkt. Wir gehen schneller in tiefes Wasser, als ich dachte. Ich frage mich, wie lange es dauern wird, bis die Behörden anfangen, Bitcoin zu untersuchen."
 
 Die Plattform stieß jedoch bald auf technische Probleme und wurde vorübergehend vom Netz genommen. Im Februar bat Ross seinen Freund Richard erneut um technischen Rat. Am 1. März machte er schließlich eine offizielle [Ankündigung](https://bitcointalk.org/index.php?topic=3984.msg57080#msg57080) mit einem eigenen Konto im Bitcoin-Forum, in der er erklärte, dass seit dem Start "28 Transaktionen getätigt wurden".
 
 
 
-Damals gab es im Bitcoin-Forum einen *Marktplatz*, auf dem man Dinge in Bitcoins kaufen und verkaufen konnte. Es gab jedoch keine Regeln, die illegale Drogen verboten. Martti Malmi, der [an](https://bitcointalk.org/index.php?topic=175.msg42790#msg42790) der Gründung von Silk Road teilnahm, verbot schließlich [https://bitcointalk.org/index.php?topic=3535.msg51426#msg51426] den Verkauf illegaler Waren am 19. Februar.
+Damals gab es im Bitcoin-Forum einen *Marktplatz*, auf dem man Dinge in Bitcoins kaufen und verkaufen konnte. Es gab jedoch keine Regeln, die illegale Drogen verboten. Martti Malmi, der [an](https://bitcointalk.org/index.php?topic=175.msg42790#msg42790) der Gründung von Silk Road teilnahm, verbot schließlich [den](https://bitcointalk.org/index.php?topic=3535.msg51426#msg51426) den Verkauf illegaler Waren am 19. Februar.
 
 
 
@@ -334,7 +334,7 @@ Die Produkte wurden mit der Post (im Falle der USA mit dem *United States Postal
 
 
 
-Im Einklang mit der libertären Philosophie von Ross durften die Produkte, die auf der Website [https://antilop.cc/sr/exhibits/GX-120_Redacted.pdf] angeboten werden konnten, nicht durch die Schädigung anderer erlangt worden sein: Drogen, Medikamente, Edelmetallmünzen, aber niemals gestohlene Bankkarten, Kinderpornografie oder die Dienste von Auftragskillern. Insgesamt wurde die Website hauptsächlich für den illegalen Drogenhandel genutzt, insbesondere für den Verkauf kleiner Mengen Cannabis. Auch legale Produkte wie Bücher, Kunst, elektronische Bauteile, Gold usw. waren auf der Website zu finden, machten aber nur einen kleinen Teil des über die Plattform abgewickelten Handels aus.
+Im Einklang mit der libertären Philosophie von Ross [durften](https://antilop.cc/sr/exhibits/GX-120_Redacted.pdf) die Produkte, die auf der Website angeboten werden konnten, nicht durch die Schädigung anderer erlangt worden sein: Drogen, Medikamente, Edelmetallmünzen, aber niemals gestohlene Bankkarten, Kinderpornografie oder die Dienste von Auftragskillern. Insgesamt wurde die Website hauptsächlich für den illegalen Drogenhandel genutzt, insbesondere für den Verkauf kleiner Mengen Cannabis. Auch legale Produkte wie Bücher, Kunst, elektronische Bauteile, Gold usw. waren auf der Website zu finden, machten aber nur einen kleinen Teil des über die Plattform abgewickelten Handels aus.
 
 
 
@@ -366,16 +366,16 @@ Die erste Erwähnung von Silk Road in den Mainstream-Medien erfolgte am 1. Juni 
 
 
 
-Der Autor fügte sogar einige Zitate von Ross Ulbricht ein, den er per E-Mail interviewte und als "Silk Road's administrator" vorstellte. So konnte Ross Ulbricht seine wahren Beweggründe mitteilen und überließ es nicht dem Journalisten, über das Thema zu spekulieren. In dem Artikel erklärte er:
+Der Autor fügte sogar einige Zitate von Ross Ulbricht ein, den er per E-Mail interviewte und als "Silk Road's Administrator" vorstellte. So konnte Ross Ulbricht seine wahren Beweggründe mitteilen und überließ es nicht dem Journalisten, über das Thema zu spekulieren. In dem Artikel erklärte er:
 
 
-> "Der Staat ist die Hauptquelle von Gewalt, Unterdrückung, Diebstahl und allen Formen von Zwang. \Hört auf, den Staat mit euren Steuergeldern zu finanzieren und lenkt eure produktiven Energien auf den Schwarzmarkt."
+> "Der Staat ist die Hauptquelle von Gewalt, Unterdrückung, Diebstahl und allen Formen von Zwang. Hört auf, den Staat mit euren Steuergeldern zu finanzieren und lenkt eure produktiven Energien auf den Schwarzmarkt."
 
 Durch diesen Artikel wurde die Existenz von Silk Road einer breiten Öffentlichkeit bekannt, da die Geschichte von der Mainstream-Presse aufgegriffen wurde, z. B. von [*The Atlantic*](https://www.theatlantic.com/technology/archive/2011/06/libertarian-dream-a-site-where-you-buy-drugs-with-digital-dollars/239776/). Infolge dieser beispiellosen Publicity explodierte der Verkehr auf der Plattform. Die Server konnten kaum noch mithalten, so dass Ross [gezwungen war](https://bitcointalk.org/index.php?topic=3984.msg189007#msg189007), die Registrierungen einzufrieren.
 
 
 
-es entstanden auch [Wettbewerber](https://gwern.net/dnm-survival), die das Modell von Silk Road kopierten, wie Black Market Reloaded, das Ende Juni auf den Markt kam. Dennoch blieb Silk Road bis zu seiner Schließung die Nummer eins, dank seines "First-Mover-Vorteils" und seiner einzigartigen Philosophie.
+Es entstanden auch [Wettbewerber](https://gwern.net/dnm-survival), die das Modell von Silk Road kopierten, wie Black Market Reloaded, das Ende Juni auf den Markt kam. Dennoch blieb Silk Road bis zu seiner Schließung die Nummer eins, dank seines "First-Mover-Vorteils" und seiner einzigartigen Philosophie.
 
 
 
@@ -383,7 +383,7 @@ es entstanden auch [Wettbewerber](https://gwern.net/dnm-survival), die das Model
 
 
 
-Nicht jeder begrüßte die Publicity, die generated durch den Gawker-Artikel erhielt. Die Tatsache, dass Silk Road im Rampenlicht stand, hatte den Nebeneffekt, dass die Aufmerksamkeit auf Bitcoin zunahm (nicht zuletzt, weil die Kunden Bitcoins erwerben mussten, um Produkte zu kaufen). Und es stellte sich heraus, dass ein Teil der Bitcoin-Gemeinschaft dieser Verbindung zwischen Kryptowährung und Drogenhandel feindlich gegenüberstand.
+Nicht jeder begrüßte die Publicity, die durch den Gawker-Artikel generiert wurde. Die Tatsache, dass Silk Road im Rampenlicht stand, hatte den Nebeneffekt, dass die Aufmerksamkeit auf Bitcoin zunahm (nicht zuletzt, weil die Kunden Bitcoins erwerben mussten, um Produkte zu kaufen). Und es stellte sich heraus, dass ein Teil der Bitcoin-Gemeinschaft dieser Verbindung zwischen Kryptowährung und Drogenhandel feindlich gegenüberstand.
 
 
 
@@ -395,9 +395,9 @@ Insbesondere der Programmierer Jeff Garzik, der damals an der Entwicklung der So
 Der Gawker-Artikel hat auch die Aufmerksamkeit der Behörden auf sich gezogen. Am 5. Juni, wenige Tage nach seiner Veröffentlichung, mischten sich die Senatoren Chuck Schumer (New York) und Joe Manchin (West Virginia) in den öffentlichen Diskurs ein und forderten die Schließung der Plattform. In einem [offenen Brief](https://web.archive.org/web/20180918162447/https://www.manchin.senate.gov/newsroom/press-releases/manchin-urges-federal-law-enforcement-to-shut-down-online-black-market-for-illegal-drugs), der an den Generalstaatsanwalt des Justizministeriums und den Administrator der DEA gerichtet war, schrieben sie:
 
 
-> wir schreiben, um unsere große Besorgnis über die Entdeckung eines Online-Marktplatzes für illegale Drogen, bekannt als "Silk Road", auszudrücken  Diese im Februar gestartete Untergrund-Website ermöglicht es den Nutzern, ihre Identitäten zu verbergen und illegale Drogen wie Kokain, Heroin, Ecstasy und Marihuana frei zu kaufen und zu verkaufen. (...) Gemäß 21 U.S.C. 853(a)(2) ist der Generalstaatsanwalt befugt, solche Einrichtungen, die an der Lieferung und dem Vertrieb von kontrollierten Substanzen beteiligt sind, durch Beschlagnahme des Domainnamens der Website zu schließen. Die Drug Enforcement Administration war und ist auch weiterhin rigoros bei der Durchsetzung unserer Gesetze und Vorschriften für kontrollierte Substanzen.  Im Rahmen dieser wichtigen Aufgabe bitten wir Sie dringend, sofort zu handeln und das Silk Road-Netzwerk zu schließen
+> "Wir schreiben, um unsere große Besorgnis über die Entdeckung eines Online-Marktplatzes für illegale Drogen, bekannt als "Silk Road", auszudrücken. Diese im Februar gestartete Untergrund-Website ermöglicht es den Nutzern, ihre Identitäten zu verbergen und illegale Drogen wie Kokain, Heroin, Ecstasy und Marihuana frei zu kaufen und zu verkaufen. (...) Gemäß 21 U.S.C. 853(a)(2) ist der Generalstaatsanwalt befugt, solche Einrichtungen, die an der Lieferung und dem Vertrieb von kontrollierten Substanzen beteiligt sind, durch Beschlagnahme des Domainnamens der Website zu schließen. Die Drug Enforcement Administration war und ist auch weiterhin rigoros bei der Durchsetzung unserer Gesetze und Vorschriften für kontrollierte Substanzen. Im Rahmen dieser wichtigen Aufgabe bitten wir Sie dringend, sofort zu handeln und das Silk Road-Netzwerk zu schließen."
 
-Darüber hinaus beschuldigte Senator Schumer in einer Pressekonferenz (https://web.archive.org/web/20120804222559/http://www.nbcnewyork.com/news/local/123187958.html) Bitcoin, "eine Online-Form der Geldwäsche zu sein, die dazu dient, die Quelle des Geldes zu verschleiern und zu verschleiern, wer die Droge sowohl verkauft als auch kauft". Dies führte zu einer Reaktion von Gavin Andresen, dem Hauptverantwortlichen für die Software, der Silk Road nicht befürwortet, aber bedauert, dass so etwas über Bitcoin gesagt wird. In seinem Blog [schrieb er](https://gavinthink.blogspot.com/2011/06/but-you-can-use-it-to-buy-drugs.html):
+Darüber hinaus [beschuldigte](https://web.archive.org/web/20120804222559/http://www.nbcnewyork.com/news/local/123187958.html) Senator Schumer in einer Pressekonferenz Bitcoin, "eine Online-Form der Geldwäsche zu sein, die dazu dient, die Quelle des Geldes zu verschleiern und zu verschleiern, wer die Droge sowohl verkauft als auch kauft". Dies führte zu einer Reaktion von Gavin Andresen, dem Hauptverantwortlichen für die Software, der Silk Road nicht befürwortet, aber bedauert, dass so etwas über Bitcoin gesagt wird. In seinem Blog [schrieb er](https://gavinthink.blogspot.com/2011/06/but-you-can-use-it-to-buy-drugs.html):
 
 
 > "Zweitens kann niemand kontrollieren, was mit Bitcoins gekauft wird, genauso wenig wie meine Bank vor Ort kontrollieren kann, was ich mit dem Bargeld mache, das ich an ihrem Geldautomaten abhebe. Ich frage mich, ob die Senatoren Schumer und Manchin alles Bargeld durch eine von der Regierung ausgegebene Chipkarte ersetzen wollen. Schließlich wäre es dann für Kriminelle viel schwieriger, mit dem anonymen Kauf illegaler Waren durchzukommen, und wenn wir alle gesetzestreue Bürger sind, dann sollten wir uns keine Sorgen machen, dass die Regierung über alle unsere Einkäufe Bescheid weiß... oder?"
@@ -406,7 +406,7 @@ Darüber hinaus beschuldigte Senator Schumer in einer Pressekonferenz (https://w
 
 
 
-Mit der Aufmerksamkeit der Presse nahm Silk Road Fahrt auf und wurde schließlich profitabel. Bis zum Ende des Sommers war die Aktivität der Website auf fast 10 % des in der Bitcoin-Kette gehandelten Volumens [angewachsen](https://www.chainalysis.com/blog/silk-road-doj-seizure-november-2020/). Die Website, die sich durch Verkaufsprovisionen finanzierte, erwirtschaftete damals [Einnahmen](https://antilop.cc/sr/exhibits/253456480-Silk-Road-exhibits-GX-250.pdf) in Höhe von mehreren zehntausend Dollar pro Monat, wobei die Betriebskosten weitaus geringer waren. Ross konnte es sich nun leisten, sich selbst ein großzügiges Gehalt zu zahlen und beendete sein offizielles Arbeitsverhältnis.
+Mit der Aufmerksamkeit der Presse nahm Silk Road Fahrt auf und wurde schließlich profitabel. Bis zum Ende des Sommers war die Aktivität der Website auf fast 10 % des in der Bitcoin-Blockchain gehandelten Volumens [angewachsen](https://www.chainalysis.com/blog/silk-road-doj-seizure-november-2020/). Die Website, die sich durch Verkaufsprovisionen finanzierte, erwirtschaftete damals [Einnahmen](https://antilop.cc/sr/exhibits/253456480-Silk-Road-exhibits-GX-250.pdf) in Höhe von mehreren zehntausend Dollar pro Monat, wobei die Betriebskosten weitaus geringer waren. Ross konnte es sich nun leisten, sich selbst ein großzügiges Gehalt zu zahlen und beendete sein offizielles Arbeitsverhältnis.
 
 
 
@@ -2718,7 +2718,7 @@ Nachdem die große Blase von 2011 geplatzt war und sich der Preis stabilisiert h
 
 
 
-Der Austausch von Waren und Dienstleistungen gegen Bitcoins - allgemein als "Handel" bezeichnet - kann sowohl legal als auch illegal erfolgen. Im Berichtszeitraum haben beide Aspekte zugenommen. Einerseits nahm der Handel mit illegalen Waren dank der blühenden Aktivität von Silk Road zu, dem Marktplatz mit dem Spitznamen "Amazon der Drogen", auf den damals ein großer Teil der Transaktionen in der Bitcoin-Kette entfiel. Andererseits wurden beträchtliche Anstrengungen unternommen, um allgemein akzeptierte Geschäftsunternehmungen hervorzuheben, insbesondere durch das Wachstum des Zahlungsabwicklers BitPay.
+Der Austausch von Waren und Dienstleistungen gegen Bitcoins - allgemein als "Handel" bezeichnet - kann sowohl legal als auch illegal erfolgen. Im Berichtszeitraum haben beide Aspekte zugenommen. Einerseits nahm der Handel mit illegalen Waren dank der blühenden Aktivität von Silk Road zu, dem Marktplatz mit dem Spitznamen "Amazon der Drogen", auf den damals ein großer Teil der Transaktionen in der Bitcoin-Blockchain entfiel. Andererseits wurden beträchtliche Anstrengungen unternommen, um allgemein akzeptierte Geschäftsunternehmungen hervorzuheben, insbesondere durch das Wachstum des Zahlungsabwicklers BitPay.
 
 
 
@@ -2800,7 +2800,7 @@ Infolgedessen waren die Provisionen von Dread Pirate Roberts enorm. Von 3.000 Do
 
 
 
-All dies bedeutet, dass Silk Road einen herausragenden Platz bei den wirtschaftlichen Aktivitäten mit Kryptowährung einnahm. Eine *a posteriori* Studie [würde zeigen](https://www.chainalysis.com/blog/silk-road-doj-seizure-november-2020/), dass der Anteil der Aktivitäten an den Gesamtaktivitäten auf der Bitcoin-Kette während des gesamten Jahres 2012 zwischen 10 % und 20 % schwankte. Dieser Anteil erreichte im Februar und dann wieder im September 2012 seinen Höhepunkt, bevor er zugunsten anderer Aktivitäten wie Glücksspiel, konventioneller Handel und Spekulation rasch unter 5 % fiel.
+All dies bedeutet, dass Silk Road einen herausragenden Platz bei den wirtschaftlichen Aktivitäten mit Kryptowährung einnahm. Eine *a posteriori* Studie [würde zeigen](https://www.chainalysis.com/blog/silk-road-doj-seizure-november-2020/), dass der Anteil der Aktivitäten an den Gesamtaktivitäten auf der Bitcoin-Blockchain während des gesamten Jahres 2012 zwischen 10 % und 20 % schwankte. Dieser Anteil erreichte im Februar und dann wieder im September 2012 seinen Höhepunkt, bevor er zugunsten anderer Aktivitäten wie Glücksspiel, konventioneller Handel und Spekulation rasch unter 5 % fiel.
 
 
 

@@ -1,0 +1,21 @@
+name: Hablemos de Bitcoin
+
+address_line_1:
+address_line_2:
+address_line_3: 
+
+language: 
+  - sp
+
+links:
+  website: https://hablemosdebitcoin.xyz
+  twitter: https://x.com/FranHablemosBTC
+  Github:
+  youtube:
+  nostr: npub10prp2kyas3n08wa74vd6zq35jjxsk58rzzjmu3lgtdqmtatdv22suzyndk
+
+tags:
+  - bitcoin  
+  - education
+
+category: education

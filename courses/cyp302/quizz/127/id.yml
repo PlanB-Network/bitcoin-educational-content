@@ -6,3 +6,4 @@ wrong_answers:
   - Pembagian modular yang disederhanakan
 explanation: |
   Diffie-Hellman mengandalkan fungsi satu arah yang mudah dihitung dalam satu arah tetapi praktis mustahil untuk dibalik tanpa sepotong informasi rahasia, yang disebut pintu belakang.
+reviewed: true

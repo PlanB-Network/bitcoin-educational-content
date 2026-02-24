@@ -6,3 +6,4 @@ wrong_answers:
   - Menggunakan aliran kunci yang sepenuhnya berdasarkan teks asli
 explanation: |
   RC4 adalah cipher aliran sinkron karena aliran kuncinya hanya bergantung pada kunci awal dan tidak pada teks asli atau teks sandi, memastikan kemandirian aliran ini dari pesan-pesan tersebut.
+reviewed: true

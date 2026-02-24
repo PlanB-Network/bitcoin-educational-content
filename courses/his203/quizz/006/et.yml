@@ -1,0 +1,10 @@
+question: Kui suur oli ligikaudne protsent Bitcoin ahelas toimuvast tegevusest 2011. aasta suve lõpus?
+answer: 10 %
+wrong_answers:
+  - 3 %
+  - 30 %
+  - 90 %
+explanation: |
+ Vastavalt Chainalysis'i hilisemale aruandele moodustas Silk Roadi tegevus peaaegu 10% Bitcoin kanalil kaubeldavast mahust alguses
+ 2011. aasta septembris.
+reviewed: true

@@ -56,7 +56,7 @@ Et si la clé pour comprendre l'économie actuelle résidait dans une théorie v
 
 ### Comment l'argent est créé
 
-Dans notre système monétaire actuel, l'argent est principalement créé grâce à une pratique bancaire appelée "banque à réserves fractionnaires". Ce terme signifie essentiellement que les banques ne sont pas tenues de détenir autant de réserves qu'elles reçoivent de dépôts. Par conséquent, elles peuvent créer de nouveaux pouvoirs d'achat lorsqu'elles accordent des prêts et, inversement, réduire le pouvoir d'achat lorsque les clients remboursent leurs prêts.
+Dans notre système monétaire actuel, l'argent est principalement créé grâce à une pratique bancaire appelée "banque à [réserves fractionnaires](https://planb.academy/resources/glossary/fractional-reserves)". Ce terme signifie essentiellement que les banques ne sont pas tenues de détenir autant de réserves qu'elles reçoivent de dépôts. Par conséquent, elles peuvent créer de nouveaux pouvoirs d'achat lorsqu'elles accordent des prêts et, inversement, réduire le pouvoir d'achat lorsque les clients remboursent leurs prêts.
 
 Par exemple, si vous vous adressez à votre banque locale pour obtenir un prêt hypothécaire pour l'achat d'une maison, l'argent que la banque vous prête prendrait naissance sous forme d'une entrée comptable. En comptabilité, nous représentons généralement la richesse nette d'une personne par un bilan, qui comporte deux côtés : le côté actif, comprenant tous les biens, contrats financiers, stocks ou autres formes de richesse possédés, et le côté passif, montrant la source des fonds utilisés pour créer le capital figurant à l'actif. La différence entre les actifs et les passifs est appelée "capitaux propres" et peut être considérée comme la richesse nette de l'entité.
 
@@ -72,7 +72,7 @@ Figure 1 : Création d'argent sous forme d'entrées comptables
 >
 > Henry Ford
 
-Ce processus permet aux banques d'enregistrer toutes les transactions, y compris les virements bancaires, les achats par carte de crédit et les chèques, sur une période donnée (généralement une semaine ou un mois). Elles règlent ensuite ces transactions entre elles en utilisant des réserves bancaires, qui sont une autre forme de monnaie fiduciaire jamais utilisée par le public. Les réserves bancaires sont détenues à la banque centrale sur un compte spécial accessible uniquement aux banques et aux institutions financières agréées.
+Ce processus permet aux banques d'enregistrer toutes les transactions, y compris les virements bancaires, les achats par carte de crédit et les chèques, sur une période donnée (généralement une semaine ou un mois). Elles règlent ensuite ces transactions entre elles en utilisant des réserves bancaires, qui sont une autre forme de [monnaie fiduciaire](https://planb.academy/resources/glossary/fiat) jamais utilisée par le public. Les réserves bancaires sont détenues à la banque centrale sur un compte spécial accessible uniquement aux banques et aux institutions financières agréées.
 
 ### Instabilité de la banque à réserves fractionnaires et prêteur en dernier ressort
 
@@ -121,7 +121,7 @@ Une autre conséquence involontaire de la ZIRP est qu'elle encourage les gouvern
 
 Figure 6 : Dette publique et privée en % du PIB (monde, pondéré par le PIB par pays) / Source : FMI
 
-Avec la hausse de l'inflation en raison de la création monétaire importante en réponse aux confinements liés à la COVID, les banquiers centraux relèvent maintenant les taux d'intérêt dans le but de freiner l'inflation. Cependant, cela pose un défi important pour l'ensemble du système. Les banques sont plus endettées que jamais, les gouvernements portent des niveaux de dette historiquement élevés, la croissance économique est faible, les déficits s'accumulent et les consommateurs, confrontés à la hausse des prix des biens essentiels, ont du mal à joindre les deux bouts. Contrôler l'inflation nécessiterait de relever les taux à un niveau qui pourrait mettre les gouvernements en faillite, tandis que les banques risquent de perdre des déposants alors que les particuliers dépensent leurs économies pour des biens de première nécessité de plus en plus chers ou cherchent refuge dans des actifs tangibles et des fonds du marché monétaire pour se protéger contre l'inflation.
+Avec la hausse de l'[inflation](https://planb.academy/resources/glossary/inflation) en raison de la création monétaire importante en réponse aux confinements liés à la COVID, les banquiers centraux relèvent maintenant les taux d'intérêt dans le but de freiner l'inflation. Cependant, cela pose un défi important pour l'ensemble du système. Les banques sont plus endettées que jamais, les gouvernements portent des niveaux de dette historiquement élevés, la croissance économique est faible, les déficits s'accumulent et les consommateurs, confrontés à la hausse des prix des biens essentiels, ont du mal à joindre les deux bouts. Contrôler l'inflation nécessiterait de relever les taux à un niveau qui pourrait mettre les gouvernements en faillite, tandis que les banques risquent de perdre des déposants alors que les particuliers dépensent leurs économies pour des biens de première nécessité de plus en plus chers ou cherchent refuge dans des actifs tangibles et des fonds du marché monétaire pour se protéger contre l'inflation.
 
 ### Conclusion
 
@@ -133,7 +133,7 @@ En essence, notre système est confronté à d'importants défis et Bitcoin éme
 
 Pour atteindre cet objectif, nous expliquerons les principes fondamentaux de l'"économie autrichienne", une école de pensée économique avec une tradition méthodologique remontant au XVIe siècle, fournissant des informations sur l'action humaine dans le cadre de contraintes économiques. Avec cette introduction, vous comprenez maintenant les bases de la création monétaire et de l'état actuel de notre système financier et monétaire.
 
-Dans le prochain chapitre, nous nous pencherons sur la pierre angulaire fondamentale de toute école de pensée économique : la théorie de la valeur. Les chapitres suivants exploreront l'argent en tant qu'institution sociale, la théorie du capital et du cycle économique, le défi du calcul économique, ainsi qu'un bref aperçu de l'histoire et de la méthodologie de l'école autrichienne d'économie.
+Dans le prochain chapitre, nous nous pencherons sur la pierre angulaire fondamentale de toute école de pensée économique : la théorie de la valeur. Les chapitres suivants exploreront l'argent en tant qu'institution sociale, la théorie du capital et du cycle économique, le défi du calcul économique, ainsi qu'un bref aperçu de l'histoire et de la méthodologie de l'[école autrichienne](https://planb.academy/resources/glossary/austrian-school) d'économie.
 
 # Fondements théoriques
 

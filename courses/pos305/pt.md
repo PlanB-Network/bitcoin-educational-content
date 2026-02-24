@@ -74,7 +74,7 @@ Depois das palavras ditas por Nicolas, era altura de começar a construir. Uma q
 O que significa "open source" e o que é necessário para um projeto deste tipo?
 
 
-FOSS significa Free & Open-Source Software (software livre e de código aberto). O primeiro refere-se a termos que permitem a qualquer pessoa copiar, modificar e até distribuir versões (mesmo com fins lucrativos) do software. O segundo refere-se à partilha aberta do código fonte, encorajando o público a contribuir e a melhorá-lo.
+[FOSS](https://planb.academy/resources/glossary/foss) significa Free & Open-Source Software (software livre e de código aberto). O primeiro refere-se a termos que permitem a qualquer pessoa copiar, modificar e até distribuir versões (mesmo com fins lucrativos) do software. O segundo refere-se à partilha aberta do código fonte, encorajando o público a contribuir e a melhorá-lo.
 
 Isto atrai utilizadores experientes que estão entusiasmados em contribuir para o software que já utilizam e do qual retiram valor, acabando por se revelar mais bem sucedido na adoção do que o software proprietário. É consistente com o ethos do Bitcoin de que "a informação anseia por ser livre" Reúne pessoas apaixonadas que formam uma comunidade e é simplesmente mais divertido. Tal como o Bitcoin, o FOSS é inevitável.
 
@@ -122,13 +122,13 @@ A BTCPay Server Foundation, que permitiu que Alekos e Bas escrevessem este curso
 Este é um exercício de sala de aula, por isso, se fores tu a fazer este curso, não o podes realizar, mas podes fazer este exercício na mesma. Para realizar esta tarefa, é necessário um mínimo de 9 a 11 pessoas.
 
 
-O exercício começa depois de ver a introdução "Como funciona o Bitcoin e o Blockchain" da BBC.
+O exercício começa depois de ver a introdução "Como funciona o Bitcoin e o [Blockchain](https://planb.academy/resources/glossary/blockchain)" da BBC.
 
 
 :::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
 
-Este exercício requer um mínimo de nove participantes. Este exercício tem como objetivo proporcionar uma compreensão física do funcionamento do Bitcoin. Ao desempenhar cada papel na rede, terá uma forma interactiva e lúdica de aprender. Este exercício não envolve o Lightning Network.
+Este exercício requer um mínimo de nove participantes. Este exercício tem como objetivo proporcionar uma compreensão física do funcionamento do Bitcoin. Ao desempenhar cada papel na rede, terá uma forma interactiva e lúdica de aprender. Este exercício não envolve o [Lightning Network](https://planb.academy/resources/glossary/lightning-network).
 
 
 ### Exemplo: Necessita de 9 / 11 pessoas
@@ -140,7 +140,7 @@ Os papéis são:
 
 - 1 Cliente
 - 1 Comerciante
-- 7 a 9 nós Bitcoin
+- 7 a 9 [nós](https://planb.academy/resources/glossary/node) Bitcoin
 
 
 **A configuração é a seguinte:**
@@ -192,7 +192,7 @@ Os clientes compram um produto na loja com Bitcoin.
   - A transação é assinada corretamente ("desbloqueada" pelo cliente)
   - Se não for o caso, a transação não será propagada através da rede e, se for o caso, propaga-se e fica em espera.
   - Os comerciantes podem verificar se a transação está pendente e em espera.
-- Um computador é escolhido "aleatoriamente" para propor a finalização da transação proposta, emitindo "um bloco" que a contém; se a transação for confirmada, receberá uma recompensa em BTC.
+- Um computador é escolhido "aleatoriamente" para propor a finalização da transação proposta, emitindo "um [bloco](https://planb.academy/resources/glossary/block)" que a contém; se a transação for confirmada, receberá uma recompensa em BTC.
   - OPCIONAL/ADICIONADO - em vez de selecionar um computador aleatoriamente, simular o Mining fazendo com que os computadores lancem dados até que ocorra um resultado pré-determinado (por exemplo, o primeiro a tirar dois seis é selecionado)
   - Também pode representar o que aconteceria se dois computadores ganhassem aproximadamente ao mesmo tempo, resultando numa divisão em cadeia.
   - Os computadores verificam a validade, actualizam/adicionam registos aos seus livros de registo se as regras forem cumpridas e transmitem o bloco de transacções aos pares.
@@ -205,7 +205,7 @@ Os clientes compram um produto na loja com Bitcoin.
   - Não é necessária qualquer confiança entre as pessoas (para além do comerciante que envia o artigo), tal como uma compra em numerário em muitos aspectos.
   - O dinheiro é propriedade direta dos indivíduos.
   - O Bitcoin Ledger é representado em dólares para simplificar, mas, na realidade, é BTC.
-  - Simulamos a difusão de uma única transação, mas, na realidade, há várias transacções pendentes na rede e os blocos incluem milhares de transacções ao mesmo tempo. Os nós também verificam se não há transacções de gasto duplo pendentes (eu descartaria todas, exceto uma, neste caso).
+  - Simulamos a difusão de uma única transação, mas, na realidade, há várias transacções pendentes na rede e os blocos incluem milhares de transacções ao mesmo tempo. Os nós também verificam se não há transacções de [gasto duplo](https://planb.academy/resources/glossary/double-spending-attack) pendentes (eu descartaria todas, exceto uma, neste caso).
 - Cenários de batota:
   - E se o cliente não tivesse $25 BTC?
     - Não poderiam criar a transação porque "desbloquear" e "Ownership" são a mesma coisa, e os computadores verificam se a transação está devidamente assinada; caso contrário, rejeitam-na
@@ -234,15 +234,15 @@ Defina os seguintes termos-chave introduzidos na secção anterior:
 
 
 - Nó
-- Mempool
-- Dificuldade Objetivo
+- [Mempool](https://planb.academy/resources/glossary/mempool)
+- [Dificuldade](https://planb.academy/resources/glossary/difficulty) Objetivo
 - Bloco
 
 
 **Discutir em grupo o significado de alguns termos adicionais:**
 
 
-Blockchain, Transação, Gasto Duplo, Problema dos Generais Bizantinos, Mining, Proof of Work (PoW), Hash Função, Block reward, Blockchain, Cadeia Mais Longa, Ataque de 51%, Saída, Bloqueio de Saída, Mudança, Satoshis, Chave Pública/Privada, Address, Criptografia de Chave Pública, Assinatura Digital, Wallet
+Blockchain, Transação, Gasto Duplo, Problema dos Generais Bizantinos, Mining, Proof of Work (PoW), Hash Função, Block reward, Blockchain, Cadeia Mais Longa, Ataque de 51%, Saída, Bloqueio de Saída, Mudança, [Satoshis](https://planb.academy/resources/glossary/satoshi-sat), [Chave Pública](https://planb.academy/resources/glossary/public-key)/Privada, Address, [Criptografia](https://planb.academy/resources/glossary/cryptography) de Chave Pública, [Assinatura Digital](https://planb.academy/resources/glossary/digital-signature), Wallet
 
 
 # Apresentando o servidor BTCPay
@@ -573,7 +573,7 @@ Nesta secção, aprendeu:
 ### O que está envolvido na geração de chaves Bitcoin?
 
 
-As carteiras Bitcoin, quando criadas, criam o chamado "seed". No último objetivo, criou um "seed". A série de palavras geradas anteriormente também são conhecidas como frases Mnemonic. O seed é usado para derivar chaves Bitcoin individuais e usado para enviar ou receber Bitcoin. As frases seed nunca devem ser partilhadas com terceiros ou pares não confiáveis.
+As carteiras Bitcoin, quando criadas, criam o chamado "[seed](https://planb.academy/resources/glossary/seed)". No último objetivo, criou um "seed". A série de palavras geradas anteriormente também são conhecidas como frases Mnemonic. O seed é usado para derivar chaves Bitcoin individuais e usado para enviar ou receber Bitcoin. As frases seed nunca devem ser partilhadas com terceiros ou pares não confiáveis.
 
 
 A geração do seed é efectuada de acordo com a norma industrial conhecida como "Hierarchical Deterministic" (HD).
@@ -596,11 +596,11 @@ Um Address é derivado da chave pública através de um "algoritmo de hashing" A
 
 
 
-- Os endereços que começam com `bc1...` estão lentamente a passar para os endereços muito comuns. Estes são conhecidos como endereços SegWit (nativos). Estes oferecem uma melhor estrutura de taxas do que os outros endereços mencionados. Os endereços SegWit nativos usam a codificação Bech32 e só permitem letras minúsculas.
+- Os endereços que começam com `bc1...` estão lentamente a passar para os endereços muito comuns. Estes são conhecidos como endereços [SegWit](https://planb.academy/resources/glossary/segwit) (nativos). Estes oferecem uma melhor estrutura de taxas do que os outros endereços mencionados. Os endereços SegWit nativos usam a codificação Bech32 e só permitem letras minúsculas.
 
 
 
-- Os endereços que começam por `3...` continuam a ser normalmente utilizados pelas bolsas para os endereços de depósito. Estes endereços são mencionados no capítulo "Criação de uma nova loja", endereços SegWit agrupados ou aninhados. No entanto, podem também funcionar como um "Multisig Address". Quando utilizados como um SegWit Address, há algumas poupanças nas taxas de transação, mais uma vez, menos do que o SegWit nativo. Os endereços P2SH usam a codificação Base58. Isto torna-o sensível a maiúsculas e minúsculas, tal como o Address antigo.
+- Os endereços que começam por `3...` continuam a ser normalmente utilizados pelas bolsas para os endereços de depósito. Estes endereços são mencionados no capítulo "Criação de uma nova loja", endereços SegWit agrupados ou aninhados. No entanto, podem também funcionar como um "Multisig Address". Quando utilizados como um SegWit Address, há algumas poupanças nas [taxas de transação](https://planb.academy/resources/glossary/transaction-fees), mais uma vez, menos do que o SegWit nativo. Os endereços P2SH usam a codificação Base58. Isto torna-o sensível a maiúsculas e minúsculas, tal como o Address antigo.
 
 
 
@@ -618,7 +618,7 @@ Atualmente, as chaves públicas são menos utilizadas na prática. Ao longo do t
 
 
 
-- As carteiras HD, no entanto, usam uma estrutura diferente. `xpub...`, `ypub...` ou `zpub...` são chamadas de chaves públicas estendidas, ou xpubs. Essas chaves são usadas para derivar muitas chaves públicas como parte do HD Wallet. Como o seu xpub contém os registos de todo o seu histórico, ou seja, transacções passadas e futuras, nunca as partilhe com terceiros não confiáveis.
+- As carteiras HD, no entanto, usam uma estrutura diferente. `xpub...`, `ypub...` ou `zpub...` são chamadas de chaves públicas estendidas, ou [xpubs](https://planb.academy/resources/glossary/xpub). Essas chaves são usadas para derivar muitas chaves públicas como parte do HD Wallet. Como o seu xpub contém os registos de todo o seu histórico, ou seja, transacções passadas e futuras, nunca as partilhe com terceiros não confiáveis.
 
 
 ### Resumo das competências
@@ -670,7 +670,7 @@ As carteiras Hot são a forma mais conveniente de interagir com o Bitcoin atrav�
 As pessoas transferem o seu Bitcoin para um Cold Wallet porque este pode isolar as chaves privadas da Internet, protegendo-as assim de potenciais ameaças online. Remover a ligação à Internet da equação reduz o risco de malware, spyware e trocas de SIM. Considera-se que o armazenamento Cold é superior ao armazenamento Hot em termos de segurança e autonomia, desde que sejam tomadas precauções adequadas para evitar a perda das chaves privadas Bitcoin. O armazenamento Cold é mais adequado para grandes quantidades de Bitcoin, que não se destinam a ser gastas frequentemente devido à complexidade da configuração do Wallet.
 
 
-Existem vários métodos de armazenamento de chaves Bitcoin no armazenamento Cold, desde carteiras de papel a carteiras cerebrais, carteiras de hardware ou, desde o início, um ficheiro Wallet. A maioria das carteiras usa o BIP 39 para generate a frase seed. No entanto, no âmbito do software Bitcoin core, ainda não se chegou a um consenso sobre a sua utilização. O software Bitcoin core ainda generate um arquivo Wallet.dat, que você precisa armazenar em um local offline seguro.
+Existem vários métodos de armazenamento de chaves Bitcoin no armazenamento Cold, desde carteiras de papel a carteiras cerebrais, carteiras de hardware ou, desde o início, um ficheiro Wallet. A maioria das carteiras usa o [BIP](https://planb.academy/resources/glossary/bip) 39 para generate a frase seed. No entanto, no âmbito do software Bitcoin core, ainda não se chegou a um consenso sobre a sua utilização. O software Bitcoin core ainda generate um arquivo Wallet.dat, que você precisa armazenar em um local offline seguro.
 
 
 ### Resumo das competências
@@ -717,14 +717,14 @@ O BTCPay Server é composto pelas seguintes caraterísticas padrão do Wallet:
 - Verificar novamente
 - Puxar pagamentos
 - Pagamentos
-- PSBT
+- [PSBT](https://planb.academy/resources/glossary/psbt)
 - Definições gerais
 
 
 ### Transacções
 
 
-Os administradores podem ver as transacções de entrada e de saída para o On-Chain Wallet ligado a esta loja específica na vista das transacções. Cada transação tem uma distinção entre os montantes recebidos e enviados. As transacções recebidas serão Green e as transacções enviadas serão vermelhas. Na vista de transacções do servidor BTCPay, os administradores também verão um conjunto de etiquetas padrão.
+Os administradores podem ver as transacções de entrada e de saída para o On-Chain Wallet ligado a esta loja específica na vista das transacções. Cada transação tem uma distinção entre os montantes recebidos e enviados. As transacções recebidas serão Green e as transacções enviadas serão vermelhas. Na vista de transacções do servidor BTCPay, os administradores também verão um conjunto de [etiquetas](https://planb.academy/resources/glossary/label) padrão.
 
 
 
@@ -732,8 +732,8 @@ Os administradores podem ver as transacções de entrada e de saída para o On-C
 | ----------------- | ----------------------------------------------- |
 | App               | O pagamento foi recebido por meio de uma fatura criada por um aplicativo |
 | Fatura            | O pagamento foi recebido por meio de uma fatura |
-| Payjoin           | Não pago, o temporizador da fatura ainda não expirou |
-| Payjoin-exposto   | O UTXO foi exposto por meio de uma proposta de payjoin na fatura |
+| [Payjoin](https://planb.academy/resources/glossary/payjoin)           | Não pago, o temporizador da fatura ainda não expirou |
+| Payjoin-exposto   | O [UTXO](https://planb.academy/resources/glossary/utxo) foi exposto por meio de uma proposta de payjoin na fatura |
 | Solicitação de pagamento | O pagamento foi recebido por meio de uma solicitação de pagamento |
 | Pagamento         | O pagamento foi enviado por meio de um pagamento ou reembolso |
 
@@ -1131,7 +1131,7 @@ Na opção Lightning Wallet na barra de menu à esquerda, os administradores do 
 #### Informação do nó interno
 
 
-Os administradores do servidor podem clicar na informação do nó interno para ver o estado do servidor (Online/Offline) e a cadeia de ligação para Clearnet ou Tor.
+Os administradores do servidor podem clicar na informação do nó interno para ver o estado do servidor (Online/Offline) e a cadeia de ligação para Clearnet ou [Tor](https://planb.academy/resources/glossary/tor).
 
 
 ![image](assets/en/033.webp)

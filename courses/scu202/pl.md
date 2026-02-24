@@ -156,8 +156,6 @@ Czy jesteś gotowy, aby w pełni przejąć kontrolę nad swoim bezpieczeństwem 
 
 
 
-*Uwaga: Jeśli podczas kursu napotkasz nieznane terminy, zapoznaj się z ich definicjami w [słowniczku](https://planb.academy/resources/glossary)*
-
 
 
 ## Podstawowe podsumowanie SCU101
@@ -1242,7 +1240,7 @@ Parrot OS również wywodzi się z Debiana. Oferuje środowisko do pentestingu, 
 
 
 
-Tails to oparta na Debianie dystrybucja live skoncentrowana na prywatności. Wszystko przechodzi przez sieć Tor i nic nie jest przechowywane między sesjami użytkownika. Jest to idealna dystrybucja do wrażliwych jednorazowych zastosowań (dziennikarstwo, aktywizm, generowanie seed Bitcoin...).
+Tails to oparta na Debianie dystrybucja live skoncentrowana na prywatności. Wszystko przechodzi przez sieć [Tor](https://planb.academy/resources/glossary/tor) i nic nie jest przechowywane między sesjami użytkownika. Jest to idealna dystrybucja do wrażliwych jednorazowych zastosowań (dziennikarstwo, aktywizm, generowanie [seed](https://planb.academy/resources/glossary/seed) Bitcoin...).
 
 
 
@@ -3382,7 +3380,7 @@ Na przykład, można zorganizować sesje w następujący sposób:
 
 
 
-Przyjęcie tego podejścia ma kilka zalet. Po pierwsze, aplikacje zainstalowane w sesji nie mogą kolidować z innymi (z wyjątkiem przypadku podniesienia uprawnień). Po drugie, jeśli sesja zostanie naruszona, na przykład przez pobrane złośliwe oprogramowanie, wpływ jest zasadniczo ograniczony do limitów tego konta. Oznacza to, że dokumenty biznesowe lub portfele Bitcoin pozostaną niedostępne dla złośliwego oprogramowania, jeśli będą przechowywane w innej, odpowiednio odizolowanej sesji.
+Przyjęcie tego podejścia ma kilka zalet. Po pierwsze, aplikacje zainstalowane w sesji nie mogą kolidować z innymi (z wyjątkiem przypadku podniesienia uprawnień). Po drugie, jeśli sesja zostanie naruszona, na przykład przez pobrane złośliwe oprogramowanie, wpływ jest zasadniczo ograniczony do limitów tego konta. Oznacza to, że dokumenty biznesowe lub [portfele](https://planb.academy/resources/glossary/wallet) Bitcoin pozostaną niedostępne dla złośliwego oprogramowania, jeśli będą przechowywane w innej, odpowiednio odizolowanej sesji.
 
 
 
@@ -4053,11 +4051,11 @@ Legalny deweloper zazwyczaj publikuje Hash oryginalnego pliku na swojej oficjaln
 
 
 
-Drugim narzędziem jest podpis cyfrowy. Weryfikuje on autentyczność oprogramowania instalacyjnego. Deweloper podpisuje plik zawierający Hash swoim kluczem prywatnym, a ty możesz zweryfikować ten podpis za pomocą odpowiedniego klucza publicznego. Dowodzi to, że plik został opublikowany przez właściwą osobę.
+Drugim narzędziem jest [podpis cyfrowy](https://planb.academy/resources/glossary/digital-signature). Weryfikuje on autentyczność oprogramowania instalacyjnego. Deweloper podpisuje plik zawierający Hash swoim kluczem prywatnym, a ty możesz zweryfikować ten podpis za pomocą odpowiedniego klucza publicznego. Dowodzi to, że plik został opublikowany przez właściwą osobę.
 
 
 
-System ten opiera się na kryptografii asymetrycznej i narzędziach takich jak GnuPG (wiersz poleceń) lub Kleopatra (graficzny Interface dla Windows). Narzędzia te muszą być odpowiednio skonfigurowane, a klucz publiczny dewelopera musi zostać zweryfikowany za pośrednictwem bezpiecznego kanału (oficjalna strona internetowa, odcisk palca na Twitterze...). Przyjrzyjmy się praktycznym aspektom.
+System ten opiera się na kryptografii asymetrycznej i narzędziach takich jak GnuPG (wiersz poleceń) lub Kleopatra (graficzny Interface dla Windows). Narzędzia te muszą być odpowiednio skonfigurowane, a [klucz publiczny](https://planb.academy/resources/glossary/public-key) dewelopera musi zostać zweryfikowany za pośrednictwem bezpiecznego kanału (oficjalna strona internetowa, odcisk palca na Twitterze...). Przyjrzyjmy się praktycznym aspektom.
 
 
 

@@ -317,7 +317,7 @@ V reakci na zkušenost Johna Lawa Cantillon vysvětluje, co se stane nebo musí 
 ![image](assets/cs/017.webp)
 
 
-Vidí dva hlavní důsledky nahrazení měny bez reálné hodnoty, jako jsou papírové peníze, kovovými penězi. Prvním důsledkem je to, co nazývá "lidovým odmítáním", což znamená rostoucí nedůvěru k bezcenným penězům. Druhým důsledkem je inflace: oslabení měny zdražuje zboží.
+Vidí dva hlavní důsledky nahrazení měny bez reálné hodnoty, jako jsou papírové peníze, kovovými penězi. Prvním důsledkem je to, co nazývá "lidovým odmítáním", což znamená rostoucí nedůvěru k bezcenným penězům. Druhým důsledkem je [inflace](https://planb.academy/resources/glossary/inflation): oslabení měny zdražuje zboží.
 
 
 Za čtvrté, Cantillon šel ve své analýze **inflace** dále než jeho současníci. Poté, co pozoroval zhroucení Lawova systému, si Cantillon uvědomil, že měnová inflace nepostihuje všechny stejně. Naopak, některé obohacuje, zatímco jiné ochuzuje. Dospěl k závěru, že inflace má přerozdělovací účinek: ti, kteří dostávají nově emitované peníze jako první, těží ze zvýšené kupní síly, zatímco ti, kteří je dostávají později, chudnou v důsledku toho, že nové peníze byly emitovány v důsledku růstu míry inflace.

@@ -90,8 +90,6 @@ Spremni da zaronite u svet računarskih mreža? Hajde da krenemo!
 **NAPOMENA**: Opisi su zasnovani na GNU/Linux CentOS 7 sistemu. Međutim, mrežne konfiguracije su uglavnom iste kada se upoređuje Debian sa CentOS sistemom. Dakle, nećemo praviti nikakvu razliku. Kada je bude, označićemo je određenim logotipom.
 
 
-**N.B.**: Ako naiđete na bilo koji nepoznat termin tokom kursa, molimo vas da se obratite [glosaru](https://planb.academy/resources/glossary) za definicije.
-
 
 
 # TCP/IP protokoli

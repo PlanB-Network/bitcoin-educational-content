@@ -1,0 +1,24 @@
+id: e96b0f2a-be69-4b70-b142-f60ceee5b45b
+start_date: 2026-04-24 21:00:00
+end_date: 2026-04-26 20:59:00
+timezone: Europe/Sofia
+address_city_country: Plovdiv, Bulgaria
+address_line_2: Bulgaria Blvd 125
+address_line_3: Restaurant Avocado
+name: Terminal21 срещна на търговци 2026
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: |
+  Annual gathering of merchants who accept or want to accept Bitcoin payments in Bulgaria. The event brings together Bitcoin entrepreneurs and business owners to discuss adoption and implementation of Bitcoin payment solutions.
+language:
+  - bg
+links:
+  website: https://terminal21.bg
+  replay_url: 
+  live_url: 
+tags:
+  - adoption
+  - business
+  - use-case

@@ -65,7 +65,7 @@ Entä jos rahahistoria toistuisikin silmiemme edessä? Tuomitse itse seuraavissa
 ### Inflaation määritelmät
 
 
-Inflaatio on käsite, joka ymmärretään usein väärin sen moninaisten määritelmien ja tulkintojen vuoksi. Käsitys inflaatiosta vaihtelee eri ryhmien, kuten bitcoin-asiantuntijoiden ja perinteisten taloustieteilijöiden, välillä. Selvitetään ensin määritelmät ennen kuin keskustellaan hyperinflaatiosta:
+[Inflaatio](https://planb.academy/resources/glossary/inflation) on käsite, joka ymmärretään usein väärin sen moninaisten määritelmien ja tulkintojen vuoksi. Käsitys inflaatiosta vaihtelee eri ryhmien, kuten bitcoin-asiantuntijoiden ja perinteisten taloustieteilijöiden, välillä. Selvitetään ensin määritelmät ennen kuin keskustellaan hyperinflaatiosta:
 
 
 
@@ -111,7 +111,7 @@ Toinen tapa oli vähentää jalometallin määrää hopean tai kullan kaltaisiin
 ![image](assets/fi/002.webp)
 
 
-On tärkeää korostaa, että hyperinflaatiota havaitaan ensisijaisesti fiat-valuutoissa, joiden vakuutena ei ole niiden taustalla olevia varoja, kuten jalometalleja. Historiallisesti, kun valuutta perustui tällaiseen omaisuuteen, on esiintynyt inflaatiota (esim. metallipitoisuuden devalvoitumisen kautta), mutta nämä jaksot eivät koskaan saavuttaneet hyperinflaation äärimmäisiä tasoja. Seuraavissa jaksoissa tarkastelemme yksityiskohtaisesti rahan devalvaatiojaksoja ja näiden erilaisten rahajärjestelmien vaikutuksia inflaatioon.
+On tärkeää korostaa, että hyperinflaatiota havaitaan ensisijaisesti [fiat-valuutoissa](https://planb.academy/resources/glossary/fiat), joiden vakuutena ei ole niiden taustalla olevia varoja, kuten jalometalleja. Historiallisesti, kun valuutta perustui tällaiseen omaisuuteen, on esiintynyt inflaatiota (esim. metallipitoisuuden devalvoitumisen kautta), mutta nämä jaksot eivät koskaan saavuttaneet hyperinflaation äärimmäisiä tasoja. Seuraavissa jaksoissa tarkastelemme yksityiskohtaisesti rahan devalvaatiojaksoja ja näiden erilaisten rahajärjestelmien vaikutuksia inflaatioon.
 
 
 ### Tutkimus rahapoliittisen devalvaation ajanjaksoista
@@ -1159,7 +1159,7 @@ Zombie-yritysten ilmiö ei rajoitu pelkästään sodanjälkeiseen Saksaan. Viel�
 #### 6. Rikastu nopeasti!
 
 
-Historiasta on löydettävissä tapauksia, joissa yksilöt pyrkivät kartuttamaan varallisuutta nopeasti, kuten Weimarissa ja Zimbabwessa arbitraasin avulla. Nykyään samanlainen suuntaus on havaittavissa tiettyjen kryptovaluuttojen nousussa. Nopeat voitot houkuttelevat ihmisiä, ja he ottavat riskejä sijoituksensa eksponentiaalisen kasvun toivossa. Tämä lähestymistapa muistuttaa hyperinflaation aikoja, jolloin arbitraasia käytettiin nopeiden voittojen saamiseksi, usein muiden kustannuksella.
+Historiasta on löydettävissä tapauksia, joissa yksilöt pyrkivät kartuttamaan varallisuutta nopeasti, kuten Weimarissa ja Zimbabwessa arbitraasin avulla. Nykyään samanlainen suuntaus on havaittavissa tiettyjen [kryptovaluuttojen](https://planb.academy/resources/glossary/cryptocurrency) nousussa. Nopeat voitot houkuttelevat ihmisiä, ja he ottavat riskejä sijoituksensa eksponentiaalisen kasvun toivossa. Tämä lähestymistapa muistuttaa hyperinflaation aikoja, jolloin arbitraasia käytettiin nopeiden voittojen saamiseksi, usein muiden kustannuksella.
 
 
 ![image](assets/fi/052.webp)

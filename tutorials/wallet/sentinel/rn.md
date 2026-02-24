@@ -11,10 +11,8 @@ description: Watch-only wallet ni iki kandi yokoreshwa gute?
 **\*IMBURIZO:** Inyuma y'aho abashinze Samourai Wallet bafashwe n'ama server yabo bagafatwa ku wa 24 Ndamukiza, app ya Sentinel irabandanya gukora, ariko **ni ngombwa gukoresha Dojo yawe bwite** kugira ngo ushobore kuronka amakuru ya Blockchain no gutangaza amakuru.\*
 
 
-_Turiko turakurikirana cane iterambere ry’uru rubanza hamwe n’iterambere ryerekeye ibikoresho bijana. Nimwizere ko tuzosubiramwo iyi nyigisho uko amakuru mashasha azoboneka._
 
 
-_Iyi nyigisho itangwa ku ntumbero y'inyigisho n'amakuru gusa. Ntidushigikira canke ngo turemeshe gukoresha ivyo bikoresho mu ntumbero z’ubugizi bwa nabi. Ni inshingano y'ukoresha wese kwubahiriza amategeko ari mu bubasha bwiwe._
 
 
 ---
@@ -40,7 +38,7 @@ Isaha-gusa muri rusangi ikoreshwa hamwe na Hardware Wallet. Ivyo bituma imfungur
 ## Ni iyihe Watch-only wallet yo gukoresha?
 
 
-Ubu, ubuhinga bwo kuraba gusa ni [Sentinel](https://sentinel.watch/), bwateguwe n'imigwi yo muri Samourai Wallet. Irimwo ibintu vyose bihambaye kugira ngo umuntu agire Watch-only wallet nziza:
+Kuri ubu, porogaramu ya watch-only yuzuye kurusha izindi ni [Sentinel](https://github.com/wanderingking072/sentinel-android), yabanje gutegurwa n’amakipe ya Samourai Wallet, ubu ikaba icungwa n’umuryango. Ihuza ibikorwa vyose vy’ingenzi bikenewe ku gikapo ciza ca watch-only:
 
 
 
@@ -67,36 +65,31 @@ Ku bakoresha iOS barondera ubundi buryo bwo gukoresha Sentinel, [Green Wallet] c
 ### Gushiramwo no Gutegura
 
 
-Tangana n’ugushiramwo porogarama ya Sentinel. Ivyo ushobora kubigira ukoresheje Google Play Store canke ukoresheje [APK iboneka ku rubuga rwemewe](https://sentinel.raba/gukura/).
-
-
-![watch-only](assets/notext/3.webp)
-
-
-Iyo ubanza gufungura porogarama, uhabwa amahitamwo hagati ya:
+Tangura no gushiraho porogaramu Sentinel. Urashobora kubikora ukoresheje [APK iboneka kugurura kuri github yo gushiraho umushinga](https://github.com/wanderingking072/sentinel-android/releases).
 
 
 
-- `Ihuze na Dojo`;
-- `Huza na server ya Samourai`.
 
 
-Dojo, yateguwe n’umugwi wa Samourai, ni verisiyo yuzuye y’uruzitiro rwa Bitcoin rushobora gushirwaho rwonyene canke rwongerwako mu gukanda rimwe ku mirongo y’uruzitiro nk’iyi [Umbrel](https://umbrel.com/) na [RoninDojo](https://ronindojo.io/).
 
 
-[**-> Tora ingene woshiramwo RoninDojo v2 kuri Raspberry Pi.**]
 
 
-Niba ufise Dojo yawe, urashobora kuyihuza kuri iyi ntambwe. Niwabigira, uzokwungukira ku rugero rwo hejuru rw’ubuzima bwite igihe usuzuma amakuru yawe y’ugucuruza ku rubuga rwa Bitcoin.
 
+
+
+
+
+
+Uzobwirizwa guhuzwa na Dojo yawe ubwawe, kuko seriveri za Samourai Wallet zitakiriho. Niba udafite Dojo yawe ubwawe, urashobora gukoresha Dojo itangwa n'umuryango kuri rubanda ya [The Dojo Bay](https://dojobay.pw/), canke ukurikire inyigisho zacu zo gushiraho iyawe :
+
+https://planb.academy/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9
 
 ![watch-only](assets/notext/4.webp)
 
 
-Ahandi ho, birashoboka guhitamwo umukozi wa Samourai. Ushobora kandi guhitamwo nimba uzokwifatanya na Tor canke utarivyo.
 
 
-![watch-only](assets/notext/5.webp)
 
 
 Uzoca ushika kuri paji nyamukuru y’ikinyamakuru Sentinel.

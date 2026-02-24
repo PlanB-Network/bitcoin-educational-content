@@ -1,0 +1,10 @@
+question: Que inovação técnica do SatoshiDICE permitiu aos jogadores verificar se o casino não estava a fazer batota?
+answer: A publicação do hash secreto na cadeia de blocos, seguida da publicação dos referidos segredos para permitir o novo cálculo dos resultados
+wrong_answers:
+  - A implementação de uma cadeia de blocos de validação descentralizada na qual cada transação é verificada por vários nós independentes
+  - A utilização de endereços fixos na cadeia de blocos, que permite auditar os sorteios, garantindo assim a sua equidade
+  - A execução de cálculos de probabilidade diretamente na cadeia de blocos através de contratos públicos autónomos
+explanation: |
+ O SatoshiDICE foi revolucionário pelo facto de ser "seguramente justo". Cada sorteio ligado à probabilidade dependia de um generated secreto no início do dia, cujo
+ hash do qual era publicado na blockchain. O segredo em si era revelado alguns dias depois, permitindo aos utilizadores recalcularem eles próprios o resultado.
+reviewed: true

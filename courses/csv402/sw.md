@@ -224,6 +224,7 @@ Client-side Validation inategemea wazo kinyume: badala ya kuhitaji mtandao mzima
 Wakati huo huo, ili mtandao uliobaki (au kwa usahihi zaidi, Layer ya msingi, kama vile Bitcoin) iweze kufunga katika hali ya mwisho bila kuona maelezo ya data hii, Client-side Validation inategemea dhana ya ***Commitment***.
 
 *Commitment* ni maandishi ya cryptography yaliyoelekezwa ya acycliment, kwa kawaida *hash* (SHA-256 kwa mfano) huingizwa katika miamala ya Bitcoin, katika miamala ya Bitcoin, ambayo inathibitisha kuwa data ya faragha imejumuishwa, bila kufichua data hii.
+*Commitment* ni maandishi ya kriptografia yaliyoelekezwa ya acycliment, kwa kawaida *hash* ([SHA-256](https://planb.academy/resources/glossary/sha256) kwa mfano) huingizwa katika shughuli ya Bitcoin, katika shughuli ya Bitcoin, ambayo inathibitisha kuwa data ya faragha imejumuishwa, bila kufichua data hii.
 
 Shukrani kwa _commitment_ hizi, tunaweza kuthibitisha:
 
@@ -304,9 +305,9 @@ Tofauti na _commitment_ rahisi (Hash) au temporary seals, ambayo inathibitisha t
 Ulinganisho ufuatao husaidia kuelewa kanuni hii:
 
 
-- **Cryptographic Commitment (Hash)**: Ukiwa na chaguo za kukokotoa za Hash, unaweza kujitolea kwa kipande cha data (nambari) kwa kuchapisha Hash yake. Data inabakia kuwa siri hadi udhihirishe picha ya awali, lakini unaweza kuthibitisha kwamba uliijua mapema;
-- **temporary seals (Blockchain)**: Kwa kuingiza Hash hii katika Blockchain, tunathibitisha pia kwamba tuliijua kwa wakati mahususi (ile ya kujumuishwa kwenye block);
-- **Single-Use Seal**: Kwa single-use seals tunaenda hatua moja zaidi kwa kuifanya Commitment kuwa ya kipekee. Ukiwa na Hash moja, unaweza kuunda commitment kadhaa zinazopingana sambamba (tatizo la daktari ambaye anatangaza "*Ni mvulana*" kwa familia na "*Ni msichana*" katika shajara yake ya kibinafsi). Single-Use Seal inaondoa uwezekano huu kwa kuunganisha Commitment kwa njia ya uthibitisho wa uchapishaji, kama vile Bitcoin Blockchain, ili matumizi ya UTXO yaweke Commitment kwa uhakika. Mara baada ya kutumiwa, UTXO hiyo hiyo haiwezi kutumika tena kuchukua nafasi ya Commitment.
+- **Cryptographic Commitment (Hash)**: Ukiwa na [chaguo za kukokotoa za Hash](https://planb.academy/resources/glossary/hash-function), unaweza kujitolea kwa kipande cha data (nambari) kwa kuchapisha Hash yake. Data inabakia kuwa siri hadi udhihirishe picha ya awali, lakini unaweza kuthibitisha kwamba uliijua mapema;
+- **temporary seals (Blockchain)**: Kwa kuingiza Hash hii katika Blockchain, tunathibitisha pia kwamba tuliijua kwa wakati mahususi (ile ya kujumuishwa kwenye kizuizi);
+- **Single-Use Seal**: Kwa mihuri ya matumizi moja, tunaenda hatua moja zaidi kwa kuifanya Commitment kuwa ya kipekee. Ukiwa na Hash moja, unaweza kuunda ahadi kadhaa zinazopingana sambamba (tatizo la daktari ambaye anatangaza "*Ni mvulana*" kwa familia na "*Ni msichana*" katika shajara yake ya kibinafsi). Single-Use Seal inaondoa uwezekano huu kwa kuunganisha Commitment kwa njia ya uthibitisho wa uchapishaji, kama vile Bitcoin Blockchain, ili matumizi ya UTXO yaweke Commitment kwa uhakika. Mara baada ya kutumiwa, UTXO hiyo hiyo haiwezi kutumika tena kuchukua nafasi ya Commitment.
 
 |                                                                                  | Rahisi Commitment (digest/Hash) | Muhuri wa nyakati | single-use-seal |
 
@@ -403,7 +404,7 @@ Kumbuka kwamba blocks hizi za programu ni Bitcoin agnostic; kwa nadharia,  kutum
 
 #### Kuelekea matumizi mapana ya Single-Use Seal
 
-Peter Todd pia aliunda protocol ya _Open Timestamps_, na dhana ya Single-Use Seal ni upanuzi wa asili wa mawazo haya. Zaidi ya RGB, kesi zingine za utumiaji zinaweza kuzingatiwa, kama vile ujenzi wa _sidechains_ bila kutumia _merge mining_ au mapendekezo yanayohusiana na drivechain kama BIP300. Mfumo wowote unaohitaji Commitment moja unaweza, kimsingi, kutumia mbinu hii ya awali ya cryptographic. Leo, RGB ni utekelezaji mkubwa wa kwanza kamili.
+Peter Todd pia aliunda itifaki ya _Open Timestamps_, na dhana ya Single-Use Seal ni upanuzi wa asili wa mawazo haya. Zaidi ya RGB, kesi zingine za utumiaji zinaweza kuzingatiwa, kama vile ujenzi wa _[sidechains](https://planb.academy/resources/glossary/sidechain)_ bila kutumia _merge mining_ au mapendekezo yanayohusiana na drivechain kama BIP300. Mfumo wowote unaohitaji Commitment moja unaweza, kimsingi, kutumia mbinu hii ya awali ya kriptografia. Leo, RGB ni utekelezaji mkubwa wa kwanza kamili.
 
 #### Matatizo ya upatikanaji wa data
 
@@ -411,7 +412,7 @@ Kwa kuwa katika Client-side Validation, kila mtumiaji huhifadhi sehemu yake ya h
 
 #### Sharding na kutengwa kwa Contract 
 
-Kila Contract unawakilisha _shard_ iliyotengwa: USDT na USDC, kwa mfano, si lazima zishiriki historia zao. Mabadiliko ya atomiki bado yanawezekana, lakini hii haihusishi kuunganisha rejista zao. Kila kitu kinafanywa kwa cryptography Commitment, bila kufichua grafu nzima ya historia kwa kila mshiriki.
+Kila Mkataba unawakilisha _shard_ iliyotengwa: USDT na USDC, kwa mfano, si lazima zishiriki historia zao. [Mabadiliko ya atomiki](https://planb.academy/resources/glossary/atomic-swap) bado yanawezekana, lakini hii haihusishi kuunganisha rejista zao. Kila kitu kinafanywa kwa kriptografia Commitment, bila kufichua grafu nzima ya historia kwa kila mshiriki.
 
 ### Hitimisho
 
@@ -427,11 +428,11 @@ Kabla ya kuzama katika maelezo ya kiufundi zaidi ya sura ya pili, jisikie huru k
 
 :::video id=73ddea2d-c243-479d-a3dc-12d7db8eef70:::
 
-Katika sura hii, tutaangalia utekelezaji wa Client-side Validation na Single-Use Seal ndani ya Bitcoin Blockchain. Tutawasilisha kanuni kuu za RGB **Commitment Layer** (Layer 1), tukizingatia hasa mpango wa **TxO2**, ambao RGB hutumia kufafanua na kufunga seal katika miamala ya Bitcoin. Ifuatayo, tutajadili mambo mawili muhimu ambayo bado hayajashughulikiwa kwa undani:
+Katika sura hii, tutaangalia utekelezaji wa [Client-side Validation](https://planb.academy/resources/glossary/client-side-validation) na [Mihuri ya Matumizi Moja](https://planb.academy/resources/glossary/single-use-seal) ndani ya Bitcoin Blockchain. Tutawasilisha kanuni kuu za RGB **Commitment Layer** (Layer 1), tukizingatia hasa mpango wa **TxO2**, ambao RGB hutumia kufafanua na kufunga mihuri katika shughuli ya Bitcoin. Ifuatayo, tutajadili mambo mawili muhimu ambayo bado hayajashughulikiwa kwa undani:
 
 
-- __deterministic Bitcoin commitments_;
-- Multi-protocol commitments.
+- Ahadi za _deterministic Bitcoin_;
+- [Multi-protocol commitments](https://planb.academy/resources/glossary/multi-protocol-commitment).
 
 Ni mchanganyiko wa dhana hizi unaotuwezesha kutawala mifumo au contracts kadhaa juu ya UTXO moja na kwa hiyo Blockchain moja.
 
@@ -444,21 +445,21 @@ Kama tulivyoona katika sura ya kwanza ya kozi, Single-use sealsni dhana ya jumla
 Ili kuelewa mantiki, hebu tukumbuke kanuni ya msingi: kufunga _Single-Use Seal_, tunatumia eneo lililofungwa kwa kuingiza _commitment-kwenye ujumbe fulani. Katika Bitcoin, hii inaweza kufanywa kwa njia kadhaa:
 
 
-- **Tumia ufunguo wa umma au Address**
+- **Tumia [ufunguo wa umma](https://planb.academy/resources/glossary/public-key) au Address**
 
 Tunaweza kuamua kuwa ufunguo mahususi wa umma au Address ndio single-use seal_. Mara tu ufunguo huu au Address inaonekana On-Chain katika shughuli, ina maana kwamba Seal imefungwa na ujumbe fulani.
 
 
-- **Tumia pato la muamala la Bitcoin**
+- **Tumia [pato](https://planb.academy/resources/glossary/output) la muamala la Bitcoin**
 
-Hii ina maana kwambasingle-use seal_ inafafanuliwa kama _outpoint_ sahihi (jozi ya nambari ya pato ya txid +). Mara tu _outpoint_ hii inapotumika, Seal inafungwa.
+Hii ina maana kwambasingle-use seal_ inafafanuliwa kama _[outpoint](https://planb.academy/resources/glossary/outpoint)_ [sahihi](https://planb.academy/resources/glossary/digital-signature) (jozi ya nambari ya pato ya [txid](https://planb.academy/resources/glossary/txid-transaction-identifier) +). Mara tu _outpoint_ hii inapotumika, Seal inafungwa.
 
 Wakati tukifanyia kazi RGB, tulitambua angalau njia nne tofauti za kutekeleza seals hii kwenye Bitcoin:
 
 
 - Bainisha seal kupitia ufunguo wa umma, na uifunge kwa _output_ ;
 - Bainisha Seal kwa _outpoint_ na uifunge kwa _output_ ;
-- Bainisha Seal kupitia thamani ya ufunguo wa umma, na uifunge kwa _input_ ;
+- Bainisha Seal kupitia thamani ya ufunguo wa umma, na uifunge kwa _[input](https://planb.academy/resources/glossary/input)_ ;
 - Bainisha Seal kupitia _outpoint_, na uifunge kwa _input_.
 
 | Jina la Schema |ufafanuzi wa seal | Seal Kufungwa | Mahitaji ya Ziada | Maombi Kuu | Mipango inayowezekana ya Commitment |
@@ -469,7 +470,7 @@ Wakati tukifanyia kazi RGB, tulitambua angalau njia nne tofauti za kutekeleza se
 
 | TxO2 | Pato la Muamala | Pato la Muamala | Inahitaji commitment bainifu kwenye Bitcoin | RGBv1 (zima) | Kurekebisha, tapret, opret |
 
-| PkI | Thamani ya Ufunguo wa Umma | Ingizo la Muamala | Taproot pekee na haioani na legacy wallets | Vitambulisho vinavyotokana na Bitcoin | Sigtweak, witweak |
+| PkI | Thamani ya Ufunguo wa Umma | Ingizo la Muamala | [Taproot](https://planb.academy/resources/glossary/taproot) pekee na haioani na pochi za urithi | Vitambulisho vinavyotokana na Bitcoin | Sigtweak, witweak |
 
 | TxO1 | Pato la Muamala | Ingizo la Muamala | Taproot pekee na haioani na legacy wallets | Hakuna kwa sasa | Sigtweak, witweak |
 
@@ -489,7 +490,7 @@ Kama ukumbusho, kufafanua _Single-Use Seal_ si lazima kuhitaji kuchapisha muamal
 
 ![RGB-Bitcoin](assets/en/024.webp)
 
-Siku inapotaka kufunga Seal (kuashiria tukio, au kwa Anchor ujumbe fulani), inatumia UTXO hii katika muamala mpya (muamala huu mara nyingi huitwa "_witness transaction_" (haihusiani na _segwit_, ni neno tu tunalotoa). Ujumbe huu mpya utakuwa na _muamala._
+Siku inapotaka kufunga Seal (kuashiria tukio, au kwa Anchor ujumbe fulani), inatumia UTXO hii katika muamala mpya (muamala huu mara nyingi huitwa "_[witness transaction](https://planb.academy/resources/glossary/witness-transaction)_" (haihusiani na _segwit_, ni neno tu tunalotoa). Ujumbe huu mpya utakuwa na _muamala._
 
 ![RGB-Bitcoin](assets/en/025.webp)
 
@@ -561,12 +562,12 @@ Njia yoyote (PkO, TxO2, n.k.), _commitment_ inaweza kuingizwa :
 
 
 - **Katika Ingizo** kupitia:
-    - **Sigtweak** (hurekebisha kipengele cha `r` cha sahihi ya ECDSA, sawa na kanuni ya "Sign-to-Contract") ;
-    - **Witweak** (data ya _Witness_ aliyetengwa_ imerekebishwa).
+    - **Sigtweak** (hurekebisha kipengele cha `r` cha sahihi ya [ECDSA](https://planb.academy/resources/glossary/ecdsa), sawa na kanuni ya "Sign-to-Contract") ;
+    - **Witweak** (data ya _shahidi_ aliyetengwa_ imerekebishwa).
 - **Katika Pato** kupitia :
     - **Keytweak** (ufunguo wa umma wa mpokeaji "umebadilishwa" na ujumbe);
     - **Opret** (ujumbe umewekwa katika pato lisiloweza spendable `OP_RETURN`);
-    - **Tapret** (au _Taptweak_), ambayo inategemea Taproot kuingiza Commitment kwenye sehemu ya hati ya ufunguo wa Taproot, hivyo basi kurekebisha ufunguo wa umma kwa uthabiti.
+    - **Tapret** (au _Taptweak_), ambayo inategemea Taproot kuingiza Commitment kwenye sehemu ya [hati](https://planb.academy/resources/glossary/script) ya ufunguo wa Taproot, hivyo basi kurekebisha ufunguo wa umma kwa uthabiti.
 
 ![RGB-Bitcoin](assets/en/035.webp)
 
@@ -576,7 +577,7 @@ Hapa kuna maelezo ya kila njia:
 
 ***Sig tweak (sign-to-contract) :***
 
-Mpango wa awali ulihusisha kutumia sehemu nasibu ya sahihi (ECDSA au Schnorr) ili kupachika _commitment_: hii ndiyo mbinu inayojulikana kama "**Sign-to-Contract**". Unabadilisha Nonce iliyozalishwa bila mpangilio na Hash iliyo na data. Kwa njia hii, saini inafichua Commitment yako, bila nafasi yoyote ya ziada katika ununuzi. Mbinu hii ina faida kadhaa:
+Mpango wa awali ulihusisha kutumia sehemu nasibu ya sahihi (ECDSA au [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol)) ili kupachika _commitment_: hii ndiyo mbinu inayojulikana kama "**Sign-to-Contract**". Unabadilisha [Nonce](https://planb.academy/resources/glossary/nonce) iliyozalishwa bila mpangilio na Hash iliyo na data. Kwa njia hii, saini inafichua Commitment yako, bila nafasi yoyote ya ziada katika ununuzi. Mbinu hii ina faida kadhaa:
 
 
 - Hakuna On-Chain overload (unatumia sehemu sawa na msingi Nonce);
@@ -585,14 +586,14 @@ Mpango wa awali ulihusisha kutumia sehemu nasibu ya sahihi (ECDSA au Schnorr) il
 Walakini, shida kuu 2 zimeibuka:
 
 
-- Multisig kabla ya Taproot: unapokuwa na watia saini kadhaa, unahitaji kuamua ni saini ipi itakayobeba _commitment_ Saini zinaweza kuagizwa kwa njia tofauti, na ikiwa mtu aliyetia saini anakataa, unapoteza udhibiti wa matokeo ya _commitment_;
+- [Multisig](https://planb.academy/resources/glossary/multisig) kabla ya Taproot: unapokuwa na watia saini kadhaa, unahitaji kuamua ni saini ipi itakayobeba _commitment_ Saini zinaweza kuagizwa kwa njia tofauti, na ikiwa mtu aliyetia saini anakataa, unapoteza udhibiti wa matokeo ya _commitment_;
 - MuSig na Nonce iliyoshirikiwa: pamoja na Schnorr Multisig (*MuSig*), kizazi cha Nonce ni algoriti ya vyama vingi, na inakuwa vigumu kabisa kurekebisha Nonce kibinafsi.
 
-Kwa mazoezi, **sig tweak** pia haiendani sana na maunzi yaliyopo (hardware wallet) na umbizo (Lightning, nk.). Kwa hivyo wazo hili kubwa ni ngumu kuweka katika vitendo.
+Kwa mazoezi, **sig tweak** pia haiendani sana na maunzi yaliyopo ([pochi za vifaa](https://planb.academy/resources/glossary/hardware-wallet)) na umbizo (Umeme, nk.). Kwa hivyo wazo hili kubwa ni Hard kuweka katika vitendo.
 
 *** Marekebisho muhimu (pay-to-contract):***
 
-**muhimu wa kurekebisha** unachukua dhana ya kihistoria ya _pay-to-contract_. Tunachukua ufunguo wa umma `X` na kuurekebisha kwa kuongeza thamani `H(message)`. Hasa, ikiwa `X = x * G` na `h = H(message)`, basi ufunguo mpya utakuwa `X' = X + h * G`. Ufunguo huu uliobadilishwa huficha Commitment kwa `message`. Mmiliki wa ufunguo asilia wa faragha anaweza, kwa kuongeza `h` kwenye ufunguo wake wa faragha `x`, kuthibitisha kwamba ana ufunguo wa kutumia pato. Kwa nadharia, hii ni ya kifahari, kwa sababu:
+**muhimu wa kurekebisha** unachukua dhana ya kihistoria ya _lipa-kwa-mkataba_. Tunachukua ufunguo wa umma `X` na kuurekebisha kwa kuongeza thamani `H(ujumbe)`. Hasa, ikiwa `X = x * G` na `h = H(ujumbe)`, basi ufunguo mpya utakuwa `X' = X + h * G`. Ufunguo huu uliobadilishwa huficha Commitment kwa `ujumbe`. Mmiliki wa [ufunguo asilia wa faragha](https://planb.academy/resources/glossary/private-key) anaweza, kwa kuongeza `h` kwenye ufunguo wake wa faragha `x`, kuthibitisha kwamba ana ufunguo wa kutumia pato. Kwa nadharia, hii ni ya kifahari, kwa sababu:
 
 
  _commitment_ imeingizwa bila kuongeza sehemu zozote za ziada;
@@ -647,8 +648,8 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 ```
 
 
-- Bytes 29 `OP_RESERVED`, ikifuatiwa na `OP_RETURN`, kisha `OP_PUSHBYTE_33`, huunda sehemu ya _prefix_ ya  bytes 31;
-- Inayofuata inakuja _commitment_ ya  bytes 32 (kawaida Merkle Root kutoka **MPC**), ambayo tunaongeza  byte 1 ya **Nonce** (jumla ya baiti 33 kwa sehemu hii ya pili).
+- Bytes 29 `OP_RESERVED`, ikifuatiwa na `OP_RETURN`, kisha `OP_PUSHBYTE_33`, huunda sehemu ya _kiambishi_ cha  bytes 31;
+- Inayofuata inakuja _commitment_ ya  bytes 32 (kawaida [Merkle Root](https://planb.academy/resources/glossary/merkle-root) kutoka **MPC**), ambayo tunaongeza  byte 1 ya **Nonce** (jumla ya baiti 33 kwa sehemu hii ya pili).
 
 Kwa hivyo mbinu ya `Tapret` ya bytes 64 inaonekana kama `Opret` ambayo tumeweka awali bytes 29 za `OP_RESERVED` na kuongeza byte ya ziada kama Nonce.
 
@@ -668,7 +669,7 @@ Katika kesi hii ya kwanza, tunaanza kutoka kwa kitufe cha pato cha Taproot (*Tap
 
 
 - `P`: ufunguo wa ndani wa umma wa-Key Path Spend-
-- `G`: sehemu inayozalisha ya mkunjo wa duaradufu [secp256k1](https://en.Bitcoin.it/wiki/Secp256k1).
+- `G`: sehemu inayozalisha ya [mkunjo wa duaradufu](https://planb.academy/resources/glossary/elliptic-curve) [secp256k1](https://en.Bitcoin.it/wiki/Secp256k1).
 - t = tH_TWEAK(P)` ni kigezo cha tweak, kinachokokotolewa kupitia _tagged hash_ (k.m. `SHA-256(SHA-256(TapTweak) || P)`), kwa mujibu wa [BIP86](https://github.com/Bitcoin/bips/blob/master/bip-0086.mediawiki#Address-derivation). Hii inathibitisha kuwa hakuna hati iliyofichwa.
 
 Ili kujumuisha **Tapret** Commitment, ongeza **Script Path Spend** iliyo na **single-use seal**, kama ifuatavyo:
@@ -960,7 +961,7 @@ Utaratibu huu unahakikisha kuwa:
 
 Multi Protocol Commitment* (MPC) ndiyo kanuni inayowezesha RGB kujumlisha contracts nyingi katika muamala mmoja wa Bitcoin, huku ikidumisha upekee wa commitment na usiri dhidi ya washiriki wengine. Shukrani kwa ujenzi wa kuamua wa mti, kila Contract imepewa nafasi ya pekee, na uwepo wa majani ya "dummy" (*Majani ya Entropy*) hufunika kwa sehemu idadi ya contracts zinazoshiriki katika shughuli hiyo.
 
-Merkle Tree nzima haihifadhiwi kwenye mteja. Sisi kwa urahisi generate a _Merkle path_ kwa kila Contract inayohusika, kutumwa kwa mpokeaji (ambaye anaweza kuthibitisha Commitment). Katika baadhi ya matukio, unaweza kuwa na mali kadhaa ambazo zimepitia UTXO sawa. Kisha unaweza kuunganisha _Merkle paths_ kadhaa kwenye kinachojulikana kama _multi-protocol Commitment block_, ili kuepuka kunakili data nyingi.
+[Merkle Tree](https://planb.academy/resources/glossary/merkle-tree) nzima haihifadhiwi kwenye mteja. Sisi kwa urahisi generate a _Merkle path_ kwa kila Contract inayohusika, kutumwa kwa mpokeaji (ambaye anaweza kuthibitisha Commitment). Katika baadhi ya matukio, unaweza kuwa na mali kadhaa ambazo zimepitia UTXO sawa. Kisha unaweza kuunganisha _Merkle paths_ kadhaa kwenye kinachojulikana kama _multi-protocol Commitment block_, ili kuepuka kunakili data nyingi.
 
 Kwa hivyo, kila _Merkle proof_ ni nyepesi, haswa kwa vile kina cha mti hakitazidi 32 katika RGB. Pia kuna dhana ya "Merkle block", ambayo huhifadhi maelezo zaidi (sehemu nzima, entropy, nk.), muhimu kwa kuchanganya au kutenganisha matawi kadhaa.
 
@@ -1469,7 +1470,7 @@ Mojawapo ya uwezo mkubwa wa RGB upo katika uwezo wa kufichua (*fichua*) au kufic
         - `txid` rahisi, ikiwa inaashiria UTXO mahususi,
         - Au `WitnessTx`, ambayo hutaja rejeleo la kibinafsi: Seal inaelekeza kwenye shughuli yenyewe. Hii ni muhimu hasa wakati hakuna UTXO ya nje inayopatikana, kwa mfano katika miamala ya kufungua kituo cha Lightning, au ikiwa mpokeaji hana UTXO.
 - **vout** : nambari ya matokeo ya shughuli iliyoonyeshwa na `txptr`. Wasilisha pekee kwa Grafu ya kawaida ya Seal (si kwa `WitnessTx`);
--**kupofusha**: idadi nasibu ya ka 8, ili kuimarisha usiri na kuzuia majaribio ya nguvu ya kikatili kwenye utambulisho wa UTXO;
+-**kupofusha**: idadi nasibu ya ka 8, ili kuimarisha usiri na kuzuia majaribio ya [nguvu ya kikatili](https://planb.academy/resources/glossary/brute-force-attack) kwenye utambulisho wa UTXO;
 - **method** : inaonyesha njia ya kutia nanga iliyotumika (`Tapret` au `Opret`).
 
 Fomu ya *iliyofichwa* ya Seal Definition ni SHA256 Hash (iliyotambulishwa) ya muunganisho wa sehemu hizi 4, ikiwa na lebo maalum kwa RGB.
@@ -1488,7 +1489,7 @@ RGB inafafanua aina nne za hali zinazowezekana (*StateTypes*) kwa Owned State:
 
 
 - **Tamko**: haina data ya nambari, ni haki ya kutangaza tu (k.m. haki ya kupiga kura). Fomu zilizofichwa na zilizofunuliwa zinafanana;
-- **Fungible**: inawakilisha wingi unaoweza kuvutwa (kama ishara). Katika umbo lililofichuliwa, tuna `kiasi` na `kupofusha`. Katika fomu iliyofichwa, tunayo *Pedersen commitment * moja ambayo inaficha kiasi na upofu;
+- **Fungible**: inawakilisha wingi unaoweza kuvutwa (kama ishara). Katika umbo lililofichuliwa, tuna `kiasi` na `kupofusha`. Katika fomu iliyofichwa, tunayo *[Pedersen commitment](https://planb.academy/resources/glossary/pedersen-commitment) * moja ambayo inaficha kiasi na upofu;
 - **Muundo**: huhifadhi data iliyopangwa (hadi kB 64). Katika fomu iliyofichuliwa, ni sehemu ya data. Katika hali iliyofichwa, ni alama ya Hash ya blob hii:
 
 ```txt
@@ -1675,12 +1676,12 @@ Kando na toleo la msimbo wa kisemantiki, RGB inajumuisha mfumo wa kutoa au kusas
 Usambazaji mbele kwa haraka hutokea wakati sheria ambayo hapo awali ilikuwa batili inakuwa halali. Kwa mfano, ikiwa Contract itabadilika ili kuruhusu aina mpya ya `AssignmentType` au sehemu mpya :
 
 
-- Hii haiwezi kulinganishwa na hardfork ya kawaida ya Blockchain, kwani RGB inafanya kazi katika Client-side Validation na haiathiri utangamano wa jumla wa Blockchain;
+- Hii haiwezi kulinganishwa na [hardfork](https://planb.academy/resources/glossary/hard-fork) ya kawaida ya Blockchain, kwani RGB inafanya kazi katika Client-side Validation na haiathiri utangamano wa jumla wa Blockchain;
 - Kwa maneno ya kiutendaji, aina hii ya mabadiliko inaonyeshwa na uga wa `Ffv` (*toleo la mbele-haraka*) katika Contract Operation;
 - Wamiliki wa sasa hawana madhara: hali yao inabakia halali;
 - Walengwa wapya (au watumiaji wapya), kwa upande mwingine, wanahitaji kusasisha programu zao (Wallet yao) ili kutambua sheria mpya.
 
-Kusukuma nyuma kunamaanisha kuwa sheria halali ya hapo awali inakuwa batili. Kwa hivyo ni "ugumu" wa sheria, lakini sio kusema kabisa uma laini:
+Kusukuma nyuma kunamaanisha kuwa sheria halali ya hapo awali inakuwa batili. Kwa hivyo ni "ugumu" wa sheria, lakini sio kusema kabisa [uma laini](https://planb.academy/resources/glossary/soft-fork):
 
 
 - Wamiliki waliopo wanaweza kuathiriwa (wanaweza kujikuta na vipengee ambavyo vimepitwa na wakati au si sahihi katika toleo jipya);

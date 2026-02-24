@@ -1,0 +1,10 @@
+question: Koja je nadimak brzo dat platformi Silk Road koju je kreirao Ross Ulbricht?
+answer: Amazon za drogu
+wrong_answers:
+  - Alibabina pećina
+  - eBay mračnog veba
+  - Podzemni Walmart
+explanation: |
+ Silk Road je dobio nadimak zbog sličnosti sa gigantom e-trgovine Amazon. Nadimak je odražavao korisnički prijatan interfejs platforme i efikasnost za
+ ilegalnu trgovinu.
+reviewed: true

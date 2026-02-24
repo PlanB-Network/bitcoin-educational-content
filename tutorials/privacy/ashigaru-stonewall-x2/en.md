@@ -234,7 +234,7 @@ Once all exchanges have been completed, check the transaction details, then rele
 *Credit: [mempool.space](https://mempool.space/)*
 
 
-We can observe two inputs from my portfolio, respectively `91,869 sats` and `64,823 sats`, while the other two inputs come from my collaborator's wallet. On the output side, one UTXO of `100,000 sats` is sent to the actual payee, and two UTXOs of `100,000 sats` and `159,578 sats` return to my collaborator's portfolio. For him, the operation is neutral, as he recovers the full amount of the funds he had invested in input (excluding the mining costs to which he contributed). Finally, I receive an exchange UTXO of `56,270 sats`, corresponding to the difference between my total inputs and the payment of `100,000 sats` sent to the recipient.
+We can observe two inputs from my wallet, respectively `91,869 sats` and `64,823 sats`, while the other two inputs come from my collaborator's wallet. On the output side, one UTXO of `100,000 sats` is sent to the actual payee, and two UTXOs of `100,000 sats` and `159,578 sats` return to my collaborator's wallet. For him, the operation is neutral, as he recovers the full amount of the funds he had invested in input (excluding the mining costs to which he contributed). Finally, I receive an exchange UTXO of `56,270 sats`, corresponding to the difference between my total inputs and the payment of `100,000 sats` sent to the recipient.
 
 
 Obviously, I can describe this structure because I built the transaction myself. But for an outside observer, it's generally impossible to determine which UTXOs belong to which participant, either in inputs or outputs.

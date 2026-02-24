@@ -92,7 +92,7 @@ Kao i kod svakog kursa na Plan ₿ Academy, završni deo uključuje evaluaciju o
 ### Bitcoin Osnove programiranja: Osnovne matematičke strukture
 
 
-Ovaj kurs kondenzuje suštinsku matematiku iza kriptografskih sistema Bitcoin u visoko praktičan tok rada. Koncepti su objašnjeni, demonstrirani primerima, a zatim implementirani u Jupyter Notebook. Vodeća ideja je jednostavna: zaista razumete kriptografski primitiv tek kada ga kodirate. Tokom dvodnevne strukture, studenti koriste generate testnet adrese, kreiraju i emituju transakcije, i na kraju komuniciraju sa mrežom bez blok eksplorera. Sve ovo zahteva čvrstu osnovu u konačnim poljima i eliptičkim krivama.
+Ovaj kurs kondenzuje suštinsku matematiku iza kriptografskih sistema Bitcoin u visoko praktičan tok rada. Koncepti su objašnjeni, demonstrirani primerima, a zatim implementirani u Jupyter Notebook. Vodeća ideja je jednostavna: zaista razumete kriptografski primitiv tek kada ga kodirate. Tokom dvodnevne strukture, studenti koriste generate testnet adrese, kreiraju i emituju [transakcije](https://planb.academy/resources/glossary/transaction-tx), i na kraju komuniciraju sa mrežom bez blok eksplorera. Sve ovo zahteva čvrstu osnovu u konačnim poljima i eliptičkim krivama.
 
 
 ### Konačna Polja: Aritmetički Pogon Kriptografije
@@ -103,7 +103,7 @@ Konačno polje F(p) je aritmetički sistem definisan prostim brojem p, koji sadr
 
 #### Multiplikativno Ponašanje
 
-Množenje bilo kog nenultog elementa k sa svim elementima prostog polja proizvodi permutaciju polja. Ovo svojstvo garantuje uniformnost i sprečava strukturne slabosti, čineći prosta polja idealnim za sigurno generisanje ključeva i digitalne potpise.
+Množenje bilo kog nenultog elementa k sa svim elementima prostog polja proizvodi permutaciju polja. Ovo svojstvo garantuje uniformnost i sprečava strukturne slabosti, čineći prosta polja idealnim za sigurno generisanje ključeva i [digitalne potpise](https://planb.academy/resources/glossary/digital-signature).
 
 
 #### Deljenje i Fermatova mala teorema
@@ -112,7 +112,7 @@ Deljenje se sprovodi putem multiplikativnih inverza. Mali Fermatov teorem kaže 
 
 n^(p–1) ≡ 1 (mod p),
 
-tako da je inverz n^(p–2). Python to direktno podržava sa `pow(n, -1, p)`. Ove operacije se stalno pojavljuju u ECDSA i osnovnim kriptografskim rutinama Bitcoin.
+tako da je inverz n^(p–2). Python to direktno podržava sa `pow(n, -1, p)`. Ove operacije se stalno pojavljuju u [ECDSA](https://planb.academy/resources/glossary/ecdsa) i osnovnim kriptografskim rutinama Bitcoin.
 
 
 ### Eliptičke Krive: Nelinearne Strukture za Javni-Ključ Sigurnost
@@ -138,7 +138,7 @@ Konačna polja pružaju determinističku, invertibilnu aritmetiku; eliptičke kr
 ![lecture](https://www.youtube.com/watch?v=xOXdKuF3UFw)
 
 
-Ovo poglavlje uvodi eliptičke krive definisane nad konačnim poljima i objašnjava zašto one čine matematičku osnovu kriptografije Bitcoin. Dok eliptičke krive nad realnim brojevima izgledaju glatko i kontinuirano, primena istih jednačina nad konačnim poljem stvara diskretnu, rasutu skupinu tačaka. Uprkos vizuelnoj razlici, sve formule za sabiranje tačaka, nagibi i algebarska pravila ponašaju se potpuno isto—samo se aritmetika menja u modularnu aritmetiku. Bitcoin koristi krivu y² = x³ + 7 (secp256k1), koja čuva simetriju i nelinearno ponašanje neophodno za kriptografsku sigurnost.
+Ovo poglavlje uvodi eliptičke krive definisane nad konačnim poljima i objašnjava zašto one čine matematičku osnovu [kriptografije](https://planb.academy/resources/glossary/cryptography) Bitcoin. Dok eliptičke krive nad realnim brojevima izgledaju glatko i kontinuirano, primena istih jednačina nad konačnim poljem stvara diskretnu, rasutu skupinu tačaka. Uprkos vizuelnoj razlici, sve formule za sabiranje tačaka, nagibi i algebarska pravila ponašaju se potpuno isto—samo se aritmetika menja u modularnu aritmetiku. Bitcoin koristi krivu y² = x³ + 7 (secp256k1), koja čuva simetriju i nelinearno ponašanje neophodno za kriptografsku sigurnost.
 
 
 ### Verifying Points and Finite Field Implementation
@@ -155,7 +155,7 @@ Tačke eliptičke krive formiraju matematičku grupu pod operacijom sabiranja. G
 ### Ciklične Grupe i Problem Diskretnog Logaritma
 
 
-Odabir generatora tačke G na krivoj omogućava nam da generate cikličku grupu: G, 2G, 3G, …, nG = 0. Tačke se pojavljuju nelinearno i nepredvidivo, čak i kada se generišu sekvencijalno. Ova nepredvidivost stvara osnovu za problem diskretnog logaritma: izračunavanje P = sG je lako, ali određivanje s iz P je računarski neizvodljivo za velike grupe. Ova jednosmerna funkcija je ono što čini javni ključ kriptografije sigurnim. Skalari (privatni ključevi) se pišu malim slovima; tačke (javni ključevi) velikim slovima.
+Odabir generatora tačke G na krivoj omogućava nam da generate cikličku grupu: G, 2G, 3G, …, nG = 0. Tačke se pojavljuju nelinearno i nepredvidivo, čak i kada se generišu sekvencijalno. Ova nepredvidivost stvara osnovu za problem diskretnog logaritma: izračunavanje P = sG je lako, ali određivanje s iz P je računarski neizvodljivo za velike grupe. Ova jednosmerna funkcija je ono što čini javni ključ kriptografije sigurnim. Skalari ([privatni ključevi](https://planb.academy/resources/glossary/private-key)) se pišu malim slovima; tačke ([javni ključevi](https://planb.academy/resources/glossary/public-key)) velikim slovima.
 
 
 #### Efikasna Skalarna Množenja
@@ -212,13 +212,13 @@ Bitcoin kodira ECDSA potpise koristeći DER format:
 - 0x02 + length + S bajtova
 
 
-Ovo dodaje dodatni teret, proširujući potpis od 64 bajta na ~71–72 bajta. Taproot eliminiše ovu neefikasnost usvajanjem Schnorr potpisa fiksne veličine.
+Ovo dodaje dodatni teret, proširujući potpis od 64 bajta na ~71–72 bajta. [Taproot](https://planb.academy/resources/glossary/taproot) eliminiše ovu neefikasnost usvajanjem [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol) potpisa fiksne veličine.
 
 
 ### Potpisivanje obaveza i proces potpisivanja
 
 
-ECDSA potpisi se oslanjaju na jednačinu posvećenja: UG + VP = KG. Potpisnik bira nenulte vrednosti U i V, i nasumični nonce K, dokazujeći poznavanje privatnog ključa bez njegovog otkrivanja. Poruka se hešira u Z, generiše se nasumični K, R je x‑koordinata KG, i S = (Z + RE)/K. Potpis je par (R, S). Bezbednost kritično zavisi od korišćenja jedinstvenog, nepredvidivog K—ako se K ponovo koristi ili procuri, privatni ključ je ugrožen. Moderne implementacije koriste determinističko generisanje K (RFC 6979) kako bi izbegle neuspehe RNG-a.
+ECDSA potpisi se oslanjaju na jednačinu posvećenja: UG + VP = KG. Potpisnik bira nenulte vrednosti U i V, i nasumični [nonce](https://planb.academy/resources/glossary/nonce) K, dokazujeći poznavanje privatnog ključa bez njegovog otkrivanja. Poruka se hešira u Z, generiše se nasumični K, R je x‑koordinata KG, i S = (Z + RE)/K. Potpis je par (R, S). Bezbednost kritično zavisi od korišćenja jedinstvenog, nepredvidivog K—ako se K ponovo koristi ili procuri, privatni ključ je ugrožen. Moderne implementacije koriste determinističko generisanje K (RFC 6979) kako bi izbegle neuspehe RNG-a.
 
 
 #### Verifikacija potpisa
@@ -245,7 +245,7 @@ Transakcija Bitcoin se sastoji od:
 - locktime (4 bajta)
 
 
-Ulazi referenciraju prethodne UTXO-e po njihovom hešu transakcije i indeksu izlaza, i uključuju skriptu za otključavanje (scriptSig) i redni broj koji se koristi za vremenske brave ili RBF. Izlazi specificiraju iznos (8 bajtova) i skriptu za zaključavanje (scriptPubKey), definišući uslove trošenja. Bitcoin adrese su reprezentacije ovih skripti.
+Ulazi referenciraju prethodne [UTXO](https://planb.academy/resources/glossary/utxo)-e po njihovom hešu transakcije i indeksu izlaza, i uključuju skriptu za otključavanje (scriptSig) i redni broj koji se koristi za vremenske brave ili RBF. Izlazi specificiraju iznos (8 bajtova) i skriptu za zaključavanje (scriptPubKey), definišući uslove trošenja. Bitcoin adrese su reprezentacije ovih skripti.
 
 
 #### Model UTXO
@@ -265,7 +265,7 @@ Transakcije koriste kompaktni binarni format. Nakon polja verzije, varint kodira
 - sekvenca (4 bajta)
 
 
-Izlazi uključuju iznos od 8 bajtova i scriptPubKey (varstr). Locktime kontroliše kada transakcija postaje važeća. Serijalizacija koristi little‑endian redosled za većinu celih brojeva. Parseri troše bajtove sekvencijalno i delegiraju specijalizovanim klasama za ulaze, izlaze i skripte.
+Izlazi uključuju iznos od 8 bajtova i scriptPubKey (varstr). Locktime kontroliše kada transakcija postaje važeća. Serijalizacija koristi little‑endian redosled za većinu celih brojeva. Parseri troše bajtove sekvencijalno i delegiraju specijalizovanim klasama za ulaze, izlaze i [skripte](https://planb.academy/resources/glossary/script).
 
 
 ### Naknade, Promene i Savitljivost
@@ -275,7 +275,7 @@ Naknade su implicitne:
 
 naknada = zbir(ulazne vrednosti) – zbir(izlazne vrednosti).
 
-Bilo koja nedodeljena vrednost postaje naknada, što čini pravilnu konstrukciju izlaza kusura ključnom. Pre SegWit, potpisi su dozvoljavali promenljivost—modifikovanje S u N-S proizvodilo je novu važeću transakciju sa drugačijim ID-jem. Bitcoin sada sprovodi pravilo niskog‑S, a SegWit izoluje potpise iz txid proračuna, čineći ID-jeve stabilnim i omogućavajući protokole drugog sloja poput Lightning-a.
+Bilo koja nedodeljena vrednost postaje naknada, što čini pravilnu konstrukciju izlaza kusura ključnom. Pre [SegWit](https://planb.academy/resources/glossary/segwit), potpisi su dozvoljavali promenljivost—modifikovanje S u N-S proizvodilo je novu važeću transakciju sa drugačijim ID-jem. Bitcoin sada sprovodi pravilo niskog‑S, a SegWit izoluje potpise iz txid proračuna, čineći ID-jeve stabilnim i omogućavajući protokole drugog sloja poput [Lightning](https://planb.academy/resources/glossary/lightning-network)-a.
 
 
 ## Bitcoin Skripta i Validacija Transakcija
@@ -292,7 +292,7 @@ Bitcoin Script je mali, stek-bazirani jezik za pametne ugovore koji definiše ka
 ### Operacije skripti i model izvršavanja
 
 
-Skripta je sekvenca podataka i opkoda. Podaci (potpisi, javni ključevi, heševi) se postavljaju na stek, dok opkodi koji počinju sa `OP_` transformišu stek. Nakon izvršenja, gornji element steka mora biti različit od nule za uspeh. Primeri: `OP_DUP` duplira gornji element, `OP_HASH160` primenjuje SHA256 pa RIPEMD160, a `OP_CHECKSIG` verifikuje potpis u odnosu na heš transakcije i javni ključ, postavljajući 1 za validan, 0 za nevalidan. Pravila parsiranja razlikuju sirove podatke (sa prefiksom dužine) i opkode (koji se traže po vrednosti bajta), a mala virtuelna mašina ih deterministički izvršava na svakom čvoru.
+Skripta je sekvenca podataka i opkoda. Podaci (potpisi, javni ključevi, heševi) se postavljaju na stek, dok opkodi koji počinju sa `OP_` transformišu stek. Nakon izvršenja, gornji element steka mora biti različit od nule za uspeh. Primeri: `OP_DUP` duplira gornji element, `OP_HASH160` primenjuje SHA256 pa RIPEMD160, a `OP_CHECKSIG` verifikuje potpis u odnosu na heš transakcije i javni ključ, postavljajući 1 za validan, 0 za nevalidan. Pravila parsiranja razlikuju sirove podatke (sa prefiksom dužine) i opkode (koji se traže po vrednosti bajta), a mala virtuelna mašina ih deterministički izvršava na svakom [čvoru](https://planb.academy/resources/glossary/node).
 
 
 ### P2PK i P2PKH: Osnovni obrasci plaćanja
@@ -329,7 +329,7 @@ Zato što svaki unos u nasleđenoj transakciji zahteva sopstvenu sighash računi
 ### Skripte Zagonetke i Lekcije o Bezbednosti
 
 
-Skripta može izraziti mnogo više od jednostavnog „jedan potpis otključava ove novčiće.” Skriptni zagonetke to pokazuju enkodiranjem proizvoljnih uslova—matematičkih problema, izazova preimage heša, ili čak nagrada za koliziju—gde svako ko pruži tačne podatke može potrošiti novčiće. Međutim, izlazi koji se oslanjaju samo na javne podatke (bez potpisa) su ranjivi na pretrčavanje rudara: kada se validno rešenje pojavi u mempool-u, bilo koji rudar može ga kopirati i preusmeriti isplatu sebi.
+Skripta može izraziti mnogo više od jednostavnog „jedan potpis otključava ove novčiće.” Skriptni zagonetke to pokazuju enkodiranjem proizvoljnih uslova—matematičkih problema, izazova preimage heša, ili čak nagrada za koliziju—gde svako ko pruži tačne podatke može potrošiti novčiće. Međutim, izlazi koji se oslanjaju samo na javne podatke (bez potpisa) su ranjivi na pretrčavanje [rudara](https://planb.academy/resources/glossary/miner): kada se validno rešenje pojavi u [mempool-u](https://planb.academy/resources/glossary/mempool), bilo koji rudar može ga kopirati i preusmeriti isplatu sebi.
 
 
 Praktična lekcija je da ugovori u stvarnom svetu gotovo uvek uključuju provere potpisa, čak i kada sadrže složeniju logiku kao što su multisig, vremenske brave ili hashlocks. Potpisi vezuju rešenje za određenu stranu, čuvajući podsticaje i sprečavajući druge da ukradu isplatu. Razumevanje Script-ovog modela steka, standardnih obrazaca i suptilnih zamki je ključno za dizajniranje sigurnih Bitcoin pametnih ugovora i za razumevanje kako se transakcije zapravo validiraju na mreži.
@@ -402,13 +402,13 @@ P2SH poboljšava privatnost skrivanjem uslova potrošnje do prve potrošnje, ali
 ![lecture](https://www.youtube.com/watch?v=lJYSM1iLWQU)
 
 
-Bitcoin blokira grupne transakcije i osigurava ih koristeći proof of work. Svaki blok uključuje zaglavlje od 80 bajtova plus listu transakcija. Uprkos velikoj energetskoj ceni proizvodnje važećeg bloka, verifikacija jednog je jeftina: skladištenje svih ~900k zaglavlja zahteva samo ~72 MB, omogućavajući čak i malim uređajima da efikasno verifikuju lanac proof of work.
+Bitcoin blokira grupne transakcije i osigurava ih koristeći [proof of work](https://planb.academy/resources/glossary/proof-of-work). Svaki blok uključuje [zaglavlje](https://planb.academy/resources/glossary/block-header) od 80 bajtova plus listu transakcija. Uprkos velikoj energetskoj ceni proizvodnje važećeg bloka, verifikacija jednog je jeftina: skladištenje svih ~900k zaglavlja zahteva samo ~72 MB, omogućavajući čak i malim uređajima da efikasno verifikuju lanac proof of work.
 
 
 ### Transakcije na Coinbase-u i Nagrade za Blok
 
 
-Svaki blok počinje sa tačno jednom Coinbase transakcijom—jedini način na koji novi bitkoin ulazi u cirkulaciju. Ima nulirani prev-tx hash i indeks od 0xffffffff, što ga jedinstveno identifikuje. Subvencija je počela sa 50 BTC i prepolovljava se na svakih 210,000 blokova (50, 25, 12.5, 6.25, 3.125, …). Rudari takođe uključuju naknade za transakcije. Pošto je 4-bajtni nonce premali za moderne ASIC-ove, rudari menjaju podatke u Coinbase transakciji kako bi promenili Merkle root i stvorili dodatni prostor za pretragu. BIP34 zahteva ugrađivanje visine bloka u Coinbase scriptSig kako bi se osiguralo da svaki Coinbase txid bude jedinstven.
+Svaki blok počinje sa tačno jednom [Coinbase transakcijom](https://planb.academy/resources/glossary/coinbase-transaction)—jedini način na koji novi bitkoin ulazi u cirkulaciju. Ima nulirani prev-tx hash i indeks od 0xffffffff, što ga jedinstveno identifikuje. Subvencija je počela sa 50 BTC i prepolovljava se na svakih 210,000 [blokova](https://planb.academy/resources/glossary/block) (50, 25, 12.5, 6.25, 3.125, …). Rudari takođe uključuju naknade za transakcije. Pošto je 4-bajtni nonce premali za moderne ASIC-ove, rudari menjaju podatke u Coinbase transakciji kako bi promenili [Merkle](https://planb.academy/resources/glossary/merkle-tree) root i stvorili dodatni prostor za pretragu. [BIP34](https://planb.academy/resources/glossary/bip) zahteva ugrađivanje visine bloka u Coinbase scriptSig kako bi se osiguralo da svaki Coinbase txid bude jedinstven.
 
 
 ### Polja zaglavlja bloka i Soft Fork signalizacija
@@ -425,7 +425,7 @@ Zaglavlje od 80 bajtova sadrži:
 - nonce (4 bajta)
 
 
-Brojevi verzija su evoluirali u sistem signalizacije sa bit‑poljem putem BIP9, omogućavajući rudarima da koordiniraju spremnost za soft-fork. Vremenska oznaka je 32‑bitna Unix vremenska vrednost i biće potrebno ažuriranje oko godine 2106.
+Brojevi verzija su evoluirali u sistem signalizacije sa bit‑poljem putem BIP9, omogućavajući rudarima da koordiniraju spremnost za [soft-fork](https://planb.academy/resources/glossary/soft-fork). Vremenska oznaka je 32‑bitna Unix vremenska vrednost i biće potrebno ažuriranje oko godine 2106.
 
 
 #### Bits Field and Targets
@@ -436,7 +436,7 @@ Polje bitova kodira cilj u kompaktnom obliku: cilj = koeficijent × 256^(ekspone
 ### Teškoća, Validacija i Prilagođavanja
 
 
-Težina je definisana kao lowest_target / current_target, izražavajući koliko je teže mining danas u poređenju sa najlakšom mogućom težinom. Validacija zahteva samo poređenje heša zaglavlja sa ciljem—izuzetno jeftino u odnosu na mining.
+[Težina](https://planb.academy/resources/glossary/difficulty) je definisana kao lowest_target / current_target, izražavajući koliko je teže mining danas u poređenju sa najlakšom mogućom težinom. Validacija zahteva samo poređenje heša zaglavlja sa ciljem—izuzetno jeftino u odnosu na mining.
 
 
 Svakih 2016 blokova, Bitcoin podešava težinu kako bi ciljao intervale blokova od ~10 minuta. Podešavanje upoređuje stvarno vreme za prethodnih 2016 blokova sa očekivane dve nedelje. Ograničenja ograničavaju podešavanja unutar faktora četiri. Veliki događaji u stvarnom svetu—kao što je kineska zabrana mining—pokazali su otpornost ovog mehanizma kada je stopa heširanja naglo opala i težina se prilagodila naniže kako bi kompenzovala.
@@ -459,7 +459,7 @@ Subvencija na visini h se izračunava kao: subvencija = 5_000_000_000 >> (h // 2
 ### Bitcoin Mrežna Arhitektura
 
 
-Bitcoin-ova peer-to-peer mreža funkcioniše kao decentralizovani gossip sistem gde čvorovi prenose transakcije i blokove bez međusobnog poverenja. Novi čvorovi se pokreću kontaktiranjem hardkodiranih DNS semena koje održavaju glavni programeri. Ova DNS semena vraćaju IP adrese aktivnih vršnjaka, omogućavajući čvorovima da otkriju mrežu i zatim zatraže dodatne vršnjake putem getaddr. Mrežna komunikacija namerno nije kritična za konsenzus, tako da implementacije mogu da se razlikuju sve dok pravila konsenzusa ostaju nepromenjena.
+Bitcoin-ova [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) mreža funkcioniše kao decentralizovani gossip sistem gde čvorovi prenose transakcije i blokove bez međusobnog poverenja. Novi čvorovi se pokreću kontaktiranjem hardkodiranih DNS semena koje održavaju glavni programeri. Ova DNS semena vraćaju IP adrese aktivnih vršnjaka, omogućavajući čvorovima da otkriju mrežu i zatim zatraže dodatne vršnjake putem getaddr. Mrežna komunikacija namerno nije kritična za konsenzus, tako da implementacije mogu da se razlikuju sve dok pravila [konsenzusa](https://planb.academy/resources/glossary/consensus) ostaju nepromenjena.
 
 
 ### Struktura Poruke i Rukovanje
@@ -474,12 +474,12 @@ Rukovanje počinje kada povezivani čvor pošalje poruku verzije. Primalac odgov
 ### Merkle stabla i Merkle koreni
 
 
-Bitcoin skladišti jedan 32‑bajtni Merkle root u svakom zaglavlju bloka kao posvećenost svim transakcijama u bloku. Transakcije se heširaju (hash256), uparuju, konkateniraju i heširaju ponavljano dok ne ostane jedan heš. Kada nivo ima neparan broj, poslednji heš se duplira. Interno, heševi su big‑endian, dok serijalizovani podaci bloka koriste little‑endian, što zahteva obrtanje pre i posle konstrukcije stabla.
+Bitcoin skladišti jedan 32‑bajtni Merkle root u svakom zaglavlju bloka kao posvećenost svim transakcijama u bloku. Transakcije se [heširaju](https://planb.academy/resources/glossary/hash-function) (hash256), uparuju, konkateniraju i heširaju ponavljano dok ne ostane jedan heš. Kada nivo ima neparan broj, poslednji heš se duplira. Interno, heševi su big‑endian, dok serijalizovani podaci bloka koriste little‑endian, što zahteva obrtanje pre i posle konstrukcije stabla.
 
 
 #### Merkle dokazi i SPV
 
-Merkle dokazi omogućavaju verifikaciju da je transakcija uključena u blok bez preuzimanja celog bloka. Dokaz se sastoji od heševa braće i sestara duž puta do korena. Laki SPV klijenti čuvaju samo zaglavlja blokova i zahtevaju ove dokaze od punih čvorova. Pošto Merkle stablo raste logaritamski, dokazivanje uključenja u blok sa hiljadama transakcija zahteva samo nekoliko stotina bajtova.
+Merkle dokazi omogućavaju verifikaciju da je transakcija uključena u blok bez preuzimanja celog bloka. Dokaz se sastoji od heševa braće i sestara duž puta do korena. Laki SPV klijenti čuvaju samo zaglavlja blokova i zahtevaju ove dokaze od [punih čvorova](https://planb.academy/resources/glossary/full-node). Pošto Merkle stablo raste logaritamski, dokazivanje uključenja u blok sa hiljadama transakcija zahteva samo nekoliko stotina bajtova.
 
 
 Taproot proširuje ovaj koncept tako što uslove potrošnje vezuje za Merklizovano stablo skripti (MAST), otkrivajući samo izvršenu granu zajedno sa Merkle dokazom. Ovo poboljšava i efikasnost i privatnost.
@@ -515,7 +515,7 @@ Ova sesija objedinjuje napredno umrežavanje P2P sa Segregated Witness, pokazuju
 ### Preuzimanje transakcija zasnovano na blokovima i privatnost
 
 
-Novčanici moraju detektovati dolazne uplate skeniranjem blokova za izlaze koji odgovaraju njihovom scriptPubKey. Preuzimanje celih blokova bolje štiti privatnost nego zahtev za pojedinačnim transakcijama, što odaje jake signale o aktivnosti korisnika. Čak i zahtevi za blokove mogu odati informacije na lancima sa malim obimom, što čini kompaktne blok filtere (BIP158) ključnim za klijente koji čuvaju privatnost. Filteri mogu proizvesti lažno pozitivne, ali nikada lažno negativne rezultate, omogućavajući klijentima da preuzmu samo potencijalno relevantne blokove bez otkrivanja specifičnih adresa.
+[Novčanici](https://planb.academy/resources/glossary/wallet) moraju detektovati dolazne uplate skeniranjem blokova za izlaze koji odgovaraju njihovom scriptPubKey. Preuzimanje celih blokova bolje štiti privatnost nego zahtev za pojedinačnim transakcijama, što odaje jake signale o aktivnosti korisnika. Čak i zahtevi za blokove mogu odati informacije na lancima sa malim obimom, što čini kompaktne blok filtere (BIP158) ključnim za klijente koji čuvaju privatnost. Filteri mogu proizvesti lažno pozitivne, ali nikada lažno negativne rezultate, omogućavajući klijentima da preuzmu samo potencijalno relevantne blokove bez otkrivanja specifičnih adresa.
 
 
 ### Trustless Mrežna Interakcija

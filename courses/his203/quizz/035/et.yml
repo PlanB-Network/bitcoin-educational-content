@@ -1,0 +1,10 @@
+question: Millest koosneb mõnes mining-poolis kasutatav Pay Per Last N Shares (PPLNS) meetod?
+answer: Maksab kaevandajatele iga kaevandatud ploki eest proportsionaalselt nende osadega viimasest N osast, mis on tarnitud mining basseini
+wrong_answers:
+  - Tasustada kaevurid kohe iga tarnitud osa eest vastavalt selle raskusastmele
+  - Premeerib kaevandajaid iga kaevandatud ploki eest proportsionaalselt aktsiatega, mida nad on leidnud alates viimasest plokist
+  - Makske kaevuritele iga esitatud aktsia eest kohe, kuid mitte kunagi rohkem kui mining poolile kuulub
+explanation: |
+ See on proportsionaalse mudeli variant, mille puhul hindamisperiood ei ole mitte plokkide tootmistsükkel, vaid tsüklist sõltumatu N aktsia aken.
+ PPLNS-meetodit on kasutanud muu hulgas P2Pool.
+reviewed: true

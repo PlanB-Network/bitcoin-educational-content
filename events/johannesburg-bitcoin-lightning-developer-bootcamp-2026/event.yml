@@ -1,0 +1,26 @@
+id: 66f4fb1f-4bb3-4f25-8ef7-976d467cf384
+start_date: 2026-02-09 08:00:00
+end_date: 2026-02-13 17:00:00
+timezone: Africa/Johannesburg
+address_city_country: Johannesburg, South Africa
+address_line_2: 138 West St, Sandown, Sandton, 2031
+address_line_3: Workshop17 West Street
+name: Johannesburg Bitcoin Lightning Developer Bootcamp 2026
+type: workshop
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: |
+  A 5-day hands-on Bitcoin Lightning Developer Bootcamp in Johannesburg, South Africa. Created by Africa Free Routing in partnership with Adopting Bitcoin Cape Town, this intensive workshop equips passionate builders with the skills to innovate and contribute to Africa's rapidly growing Bitcoin ecosystem.
+  
+  Warning: information may change. Booking and up-to-date information are on SATLANTIS.
+language:
+  - en
+links:
+  website: https://freerouting.africa/johannesburg-lightning-developer-bootcamp/
+  replay_url: 
+  live_url: 
+tags:
+  - lightning
+  - development
+  - adoption

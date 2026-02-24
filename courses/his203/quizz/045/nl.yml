@@ -1,0 +1,10 @@
+question: Welke technische innovatie werd in oktober 2011 opgenomen in de cryptocurrency Namecoin?
+answer: Samengevoegd mining
+wrong_answers:
+  - GPU-bestendig mining
+  - Vertrouwde knooppunten
+  - Bewijs van inzet
+explanation: |
+ Samengevoegd mining is een proces waarbij het werk aan een "moederketen" (d.w.z. Bitcoin) wordt hergebruikt om kleinere "hulpketens" te valideren. Dit proces werd
+ voorgesteld in de BitDNS-discussie door Satoshi zelf. Gecombineerd mining werd geactiveerd op het Namecoin-netwerk op 8 oktober 2011, op blokniveau 19.200.
+reviewed: true

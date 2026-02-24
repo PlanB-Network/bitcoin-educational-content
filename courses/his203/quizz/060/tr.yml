@@ -1,0 +1,10 @@
+question: Hangi SatoshiDICE teknik yeniliği oyuncuların kumarhanenin hile yapmadığını kontrol etmesini sağladı?
+answer: Gizli hash'in blok zincirinde yayınlanması ve ardından sonuçların yeniden hesaplanmasını sağlamak için söz konusu sırların yayınlanması
+wrong_answers:
+  - Her işlemin birkaç bağımsız düğüm tarafından doğrulandığı merkezi olmayan bir doğrulama blok zincirinin konuşlandırılması
+  - Blok zincirinde sabit adreslerin kullanılması, çekilişlerin denetlenmesini mümkün kılarak adil olmalarını sağlar
+  - Olasılık hesaplamalarının otonom kamu sözleşmeleri aracılığıyla doğrudan blok zincirinde yürütülmesi
+explanation: |
+ SatoshiDICE "kesinlikle adil" olması bakımından devrim niteliğindeydi. Olasılığa bağlı her çekiliş, günün başında gizli bir generated'ye bağlıydı
+ bunun hash'i blok zincirinde yayınlandı. Sırrın kendisi birkaç gün sonra ortaya çıktı ve kullanıcıların sonucu kendilerinin yeniden hesaplamasına izin verdi.
+reviewed: true

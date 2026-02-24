@@ -220,7 +220,7 @@ In reaction to the John Law experience, Cantillon explains what happens or must 
 
 ![image](assets/en/017.webp)
 
-He sees two main consequences of substituting a currency without real value like paper money for a metallic one. The first consequence is what he calls "popular rejection", which means a growing distrust of worthless money. The second consequence is inflation: monetary weakening makes goods more expensive.
+He sees two main consequences of substituting a currency without real value like paper money for a metallic one. The first consequence is what he calls "popular rejection", which means a growing distrust of worthless money. The second consequence is [inflation](https://planb.academy/resources/glossary/inflation): monetary weakening makes goods more expensive.
 
 Fourth, in his analysis of **inflation**, Cantillon went further than his contemporaries. Having observed the collapse of Law's system, Cantillon realized that monetary inflation doesn't affect everyone equally. On the contrary, it enriches some while impoverishing others. He concluded that inflation has redistributive effect: those who receive newly issued money first benefit from increased purchasing power, while those who receive it later become poorer as a result of the new money being issued due to the rise of inflation rates.
 

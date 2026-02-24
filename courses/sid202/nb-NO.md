@@ -57,9 +57,9 @@ Klar til å utforske potensialet til Elements og Liquid-sidechainen? La oss star
 
 :::video id=eae666b4-eddc-4e00-adea-2a5f94396044:::
 
-Elements er en åpen kildekodeplattform for blokkjeder med sidekjeder, som gir tilgang til kraftige funksjoner utviklet av medlemmer av fellesskapet, for eksempel Confidential Transactions og Issued Assets.
+Elements er en åpen kildekodeplattform for [blokkjeder](https://planb.academy/resources/glossary/blockchain) med sidekjeder, som gir tilgang til kraftige funksjoner utviklet av medlemmer av fellesskapet, for eksempel Confidential Transactions og Issued Assets.
 
-Elements er i bunn og grunn en protokoll som gjør det mulig å skape konsensus rundt transaksjonshistorikken og reglene som styrer overføring og opprettelse av eiendeler som er lagret i en distribuert blokkjedehovedbok.
+Elements er i bunn og grunn en protokoll som gjør det mulig å skape [konsensus](https://planb.academy/resources/glossary/consensus) rundt transaksjonshistorikken og reglene som styrer overføring og opprettelse av eiendeler som er lagret i en distribuert blokkjedehovedbok.
 
 Du finner mer bakgrunnsinformasjon om Elements på Elements Project-nettstedet (https://elementsproject.org/), den offisielle Liquid-bloggen (https://blog.liquid.net/) og utviklerportalen (https://liquid.net/devs).
 
@@ -73,7 +73,7 @@ Noen av hovedfunksjonene i Elements er listet opp nedenfor.
 
 #### Konfidensielle transaksjoner
 
-Som standard er alle adresser i Elements blindet ved hjelp av konfidensielle transaksjoner. Blinding er en prosess der beløpet og typen aktiva som overføres, er kryptografisk skjult for alle, bortsett fra deltakerne og de de velger å avsløre blindingsnøkkelen for.
+Som standard er alle adresser i Elements blindet ved hjelp av konfidensielle [transaksjoner](https://planb.academy/resources/glossary/transaction-tx). Blinding er en prosess der beløpet og typen aktiva som overføres, er kryptografisk skjult for alle, bortsett fra deltakerne og de de velger å avsløre blindingsnøkkelen for.
 
 #### Utstedte eiendeler
 
@@ -85,7 +85,7 @@ Elements er en generell blokkjedeplattform som også kan "kobles" til en eksiste
 
 #### Signerte blokker
 
-Elements bruker en sterk føderasjon av signatører, kalt Block Signers, som signerer og oppretter blokker på en pålitelig og tidsriktig måte. Dette fjerner transaksjonsforsinkelsen i PoW-gruvedriftsprosessen, som er utsatt for store variasjoner i blokktid på grunn av den tilfeldige poissonfordelingen. Federated Block Signing-prosessen oppnår pålitelig opprettelse av blokker uten å introdusere behovet for tredjeparts tillit eller beregningsalgoritmebasert utvinning.
+Elements bruker en sterk føderasjon av signatører, kalt Block Signers, som signerer og oppretter [blokker](https://planb.academy/resources/glossary/block) på en pålitelig og tidsriktig måte. Dette fjerner transaksjonsforsinkelsen i PoW-gruvedriftsprosessen, som er utsatt for store variasjoner i blokktid på grunn av den tilfeldige poissonfordelingen. Federated Block Signing-prosessen oppnår pålitelig opprettelse av blokker uten å introdusere behovet for tredjeparts tillit eller beregningsalgoritmebasert utvinning.
 
 Elements legger til alle disse funksjonene på toppen av Bitcoin Core-kodebasen, utvider hovedkjedeprotokollens muligheter og muliggjør nye bruksområder når den distribueres som en sidekjede eller som en frittstående blokkjedeløsning.
 
@@ -99,7 +99,7 @@ Elements legger til alle disse funksjonene på toppen av Bitcoin Core-kodebasen,
 
 :::video id=7c8c7981-11e5-47a2-a257-ef998f4892f5:::
 
-Elements tilbyr en teknisk løsning på problemer som blockchain-brukere møter daglig: transaksjonsforsinkelser, manglende personvern og risiko for fungibilitet.
+Elements tilbyr en teknisk løsning på problemer som blockchain-brukere møter daglig: transaksjonsforsinkelser, manglende personvern og risiko for [fungibilitet](https://planb.academy/resources/glossary/fungibility).
 
 Elements løser disse problemene ved å bruke Federated Block Signing og Confidential Transactions.
 
@@ -123,7 +123,7 @@ Handlingene et medlem av en sterk føderasjon kan utføre, er delt mellom to for
 
 Når disse deltakernes roller kombineres, kan Elements levere både rask opprettelse av blokker (raskere og endelig transaksjonsbekreftelse) og sikre, overførbare eiendeler (pegged assets som kan knyttes direkte til en annen blokkjede).
 
-Du kan lese Whitepaper om sterke føderasjoner her: https://blockstream.com/strong-federations.pdf
+Du kan lese [Whitepaper](https://planb.academy/resources/glossary/white-paper) om sterke føderasjoner her: https://blockstream.com/strong-federations.pdf
 
 ### Blokker signatører
 
@@ -150,7 +150,7 @@ For at en sidekjede skal fungere på en troverdig måte, må den gjøre det muli
 
 Funksjonen Federated 2-way Peg gjør det mulig for en eiendel å være interoperabel med andre blokkjeder og representativ for en annen blokkjedes opprinnelige eiendel. Ved å knytte blokkjeden din til en annen, kan du utvide hovedkjedens muligheter og overvinne noen av dens iboende begrensninger.
 
-Overføringer til sidekjeden skjer når noen sender eiendeler fra hovedkjeden til en adresse som kontrolleres av en Watchmen-lommebok med flere signaturer. Dette fryser effektivt eiendelene på hovedkjeden. Watchmen validerer deretter transaksjonen og frigjør den samme mengden av den tilknyttede eiendelen i sidekjeden. De frigjorte eiendelene sendes til en lommebok i sidekjeden som kan bevise at den gjør krav på de opprinnelige eiendelene i hovedkjeden. Denne prosessen flytter effektivt aktiva fra hovedkjeden til sidekjeden.
+Overføringer til sidekjeden skjer når noen sender eiendeler fra hovedkjeden til en adresse som kontrolleres av en Watchmen-[lommebok](https://planb.academy/resources/glossary/wallet) med flere signaturer. Dette fryser effektivt eiendelene på hovedkjeden. Watchmen validerer deretter transaksjonen og frigjør den samme mengden av den tilknyttede eiendelen i sidekjeden. De frigjorte eiendelene sendes til en lommebok i sidekjeden som kan bevise at den gjør krav på de opprinnelige eiendelene i hovedkjeden. Denne prosessen flytter effektivt aktiva fra hovedkjeden til sidekjeden.
 
 For å overføre eiendeler tilbake til hovedkjeden, foretar en bruker en spesiell peg-out-transaksjon på sidekjeden. Denne transaksjonen kontrolleres av Watchmen, som deretter signerer en transaksjonsutgift fra multisignaturlommeboken de kontrollerer på hovedkjeden. Et visst antall deltakere i føderasjonen må signere før transaksjonen i hovedkjeden blir gyldig. Når vekterne sender en eiendel tilbake til hovedkjeden, ødelegger de også det tilsvarende beløpet på sidekjeden, slik at eiendelene i praksis overføres mellom blokkjedene.
 
@@ -166,7 +166,7 @@ Selve Elements node-programvaren heter `elementsd` og kjører som en daemon på 
 
 Merk: I dette dokumentet vil vi alltid referere til elementsd som daemon-versjonen, men alt kan gjøres med elements-qt, forutsatt at serveralternativet er aktivert.
 
-Elements-demonen kobler seg til andre noder i nettverket slik at den kan utveksle transaksjons- og blokkdata, validere og utvide sin lokale kopi av nettverkets blokkjede.
+Elements-demonen kobler seg til andre [noder](https://planb.academy/resources/glossary/node) i nettverket slik at den kan utveksle transaksjons- og blokkdata, validere og utvide sin lokale kopi av nettverkets blokkjede.
 
 Elements-programvaren består også av et klientprogram kalt "elements-cli", som lar deg sende RPC-kommandoer (Remote Procedure Call) til elementsd fra kommandolinjen. Dette kan for eksempel brukes til å spørre om en lommeboksaldo, vise transaksjons- eller blokkdata eller kringkaste en transaksjon. Dette oppsettet bør være kjent for alle som har brukt Bitcoins ekvivalenter; bitcoind og bitcoin-cli.
 
@@ -196,8 +196,8 @@ Noen av tingene kan endres ved hjelp av disse parameterne:
 - Aktivaen som skal brukes ved betaling av transaksjonsgebyrer i nettverket.
 - Lagringsplassen for blokkjededatafilene.
 - RPC-legitimasjonen som brukes til å koble til en Bitcoin-node.
-- Terskelen `n av m` som må oppfylles, og de gyldige offentlige nøklene som kan signere blokker.
-- Skriptet som må være tilfredsstillende for å overføre aktiva inn og ut av en sidekjede.
+- Terskelen `n av m` som må oppfylles, og de gyldige [offentlige nøklene](https://planb.academy/resources/glossary/public-key) som kan signere blokker.
+- [Skriptet](https://planb.academy/resources/glossary/script) som må være tilfredsstillende for å overføre aktiva inn og ut av en sidekjede.
 - Om du vil koble deg til en Bitcoin-node som en sidekjede eller ikke.
 
 Mange av disse utgjør en del av nettverkets konsensusregler, så det er viktig at de brukes på alle noder ved oppstart. Noen kan endres etter at en kjede har blitt initialisert, mens andre må fikses etter at de har blitt brukt til å initialisere en kjede.
@@ -301,7 +301,7 @@ Den returnerer rå transaksjonsdetaljer. Hvis du ser i vout-delen, kan du se at 
 
 De to første vout-seksjonene viser "blinde intervaller" av verdibeløpene og forpliktelsesdataene som fungerer som bevis på det faktiske beløpet og typen aktiva som er omsatt.
 
-Selv om vi skulle importere e2s private nøkkel til e1s lommebok, vil den fortsatt ikke kunne se beløpene og typen aktiva som er handlet, fordi den fortsatt ikke har kjennskap til den blinde nøkkelen som brukes av e2. Vi skal bevise dette ved å importere den private nøkkelen som brukes av e2s lommebok til e1s. Først må vi eksportere nøkkelen fra e2
+Selv om vi skulle importere e2s [private nøkkel](https://planb.academy/resources/glossary/private-key) til e1s lommebok, vil den fortsatt ikke kunne se beløpene og typen aktiva som er handlet, fordi den fortsatt ikke har kjennskap til den blinde nøkkelen som brukes av e2. Vi skal bevise dette ved å importere den private nøkkelen som brukes av e2s lommebok til e1s. Først må vi eksportere nøkkelen fra e2
 
 ```
 e2-cli dumpprivkey <address>
@@ -361,7 +361,7 @@ En utstedt eiendel drar også nytte av konfidensielle transaksjoner, og de kan u
 
 Det første trinnet er at vi trenger tilgang til to Elements-noder, som vi kaller e1 og e2. Nodene har fått blokkjedene sine tilbakestilt, og standardaktivaen er delt mellom dem.
 
-De to nodene er på samme lokale nettverk og er koblet til hverandre, og de deler derfor de samme transaksjonene i transaksjonsmempoolen og identiske blokkjeder. Selv om de kjører på samme maskin, er det verdt å merke seg at de ikke deler de samme blokkjedefilene. Hver node administrerer sin egen lokale kopi av blokkjeden, som inneholder den samme transaksjonshistorikken fordi de er i konsensus og følger de samme protokollreglene som hverandre.
+De to nodene er på samme lokale nettverk og er koblet til hverandre, og de deler derfor de samme transaksjonene i [transaksjonsmempoolen](https://planb.academy/resources/glossary/mempool) og identiske blokkjeder. Selv om de kjører på samme maskin, er det verdt å merke seg at de ikke deler de samme blokkjedefilene. Hver node administrerer sin egen lokale kopi av blokkjeden, som inneholder den samme transaksjonshistorikken fordi de er i konsensus og følger de samme protokollreglene som hverandre.
 
 La oss begynne med å sjekke hver enkelt nodes oversikt over de eksisterende aktivautstedelsene i nettverket.
 
@@ -892,7 +892,7 @@ e1-cli importprivkey <priv-key-1>
 e2-cli importprivkey <priv-key-1>
 ```
 
-Vi må nå modne noen blokker i begge kjedene. Modning av blokker er et krav i peg-prosessen, ettersom det beskytter mot at omorganiseringer av blokker i hovedkjeden fører til en inflasjon av det peggede aktivatilbudet i sidekjeden.
+Vi må nå modne noen blokker i begge kjedene. Modning av blokker er et krav i peg-prosessen, ettersom det beskytter mot at omorganiseringer av blokker i hovedkjeden fører til en [inflasjon](https://planb.academy/resources/glossary/inflation) av det peggede aktivatilbudet i sidekjeden.
 
 For å holde dette avsnittet fokusert på den fødererte pinnen, vil vi generere blokker uten å bruke blokksigneringsmodellen vi så på i forrige avsnitt, og gå tilbake til å bruke kommandoen "generate" for å opprette nye blokker.
 
@@ -1016,7 +1016,7 @@ I dette avsnittet har vi sett hvordan du gjør det:
 
 ### FederatedPegScript
 
-For at Elements skal kunne fungere som en sidekjede, må genesis-blokken i blokkjeden opprettes med et `fedpegscript` på plass. Dette gjøres ved å sende inn parameteren `fedpegscript` ved oppstart av noden. Skriptet vil da være en del av Elements-blockkjedens konsensusregler og gjøre det mulig å validere og utføre peg-in- og peg-out-forespørsler.
+For at Elements skal kunne fungere som en sidekjede, må [genesis-blokken](https://planb.academy/resources/glossary/genesis-block) i blokkjeden opprettes med et `fedpegscript` på plass. Dette gjøres ved å sende inn parameteren `fedpegscript` ved oppstart av noden. Skriptet vil da være en del av Elements-blockkjedens konsensusregler og gjøre det mulig å validere og utføre peg-in- og peg-out-forespørsler.
 
 Fedpegscript består av offentlige nøkler som kontrolleres av de som er autorisert til å utføre peg-handlingene. Følgende viser et eksempel på formatet til et fedpegscript med 2-av-2 multisignaturer:
 

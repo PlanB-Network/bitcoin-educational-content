@@ -42,7 +42,7 @@ De cette méthodologie rigoureuse découlent plusieurs concepts fondamentaux qui
 
 Le coût d'opportunité représente un autre concept central, montrant que le coût réel d'un choix correspond à la valeur de la meilleure alternative sacrifiée. Cette notion subjective structure toutes les décisions économiques des agents. Par ailleurs, les autrichiens conçoivent le marché non pas comme un état d'équilibre statique, mais comme un processus dynamique de découverte et de coordination permanente. Dans cette perspective, l'entrepreneur occupe une place centrale comme découvreur d'opportunités et coordinateur d'informations dispersées dans l'ensemble de l'économie.
 
-### La théorie des cycles et l'impossibilité du calcul socialiste
+### La théorie des cycles et l'impossibilité du calcul économique socialiste
 
 L'école autrichienne est particulièrement reconnue pour deux contributions majeures à la pensée économique contemporaine. La théorie autrichienne des cycles économiques explique comment la manipulation des taux d'intérêt par les banques centrales crée des cycles artificiels d'expansion et de récession. Cette théorie démontre que les crises économiques ne sont pas des défaillances du marché libre, mais les conséquences inévitables de l'intervention monétaire. Les taux d'intérêt coordonnent naturellement les préférences temporelles des individus, et leur manipulation fausse ce signal prix essentiel au calcul économique, provoquant des malinvestissements systématiques qui aboutissent inévitablement à une correction douloureuse.
 
@@ -63,7 +63,7 @@ Adam Smith, David Ricardo et Karl Marx défendirent cette approche. David Ricard
 
 ### La révolution marginaliste des années 1870
 
-Dans les années 1870, trois économistes européens, travaillant indépendamment, développèrent simultanément une nouvelle théorie fondée sur le concept d'utilité marginale. William Stanley Jevons en Angleterre, Léon Walras en Suisse et Karl Menger en Autriche proposèrent une explication radicalement différente de la formation de la valeur. L'utilité marginale se définit comme la satisfaction qu'un individu obtient de la consommation d'une unité supplémentaire d'un bien.
+Dans les années 1870, trois économistes européens, travaillant indépendamment, développèrent simultanément une nouvelle théorie fondée sur le concept d'utilité marginale. William Stanley Jevons en Angleterre, Léon Walras en Suisse et Carl Menger en Autriche proposèrent une explication radicalement différente de la formation de la valeur. L'utilité marginale se définit comme la satisfaction qu'un individu obtient de la consommation d'une unité supplémentaire d'un bien.
 
 ![image](assets/william_stanley_jevons_portrait.webp)
 
@@ -75,9 +75,9 @@ Malgré leur accord sur le concept d'utilité marginale, Walras, Jevons et Menge
 
 ![image](assets/leon_walras_portrait.webp)
 
-Karl Menger rejette cette tentative de mathématiser les préférences humaines. Il comprend que la complexité des comportements humains rend impossible toute analyse formalisée. Menger préfère la conception ordinale, basée sur les préférences subjectives. Selon lui, il est impossible de mesurer l'écart quantitatif entre les intensités de besoin. Nous pouvons ordonner nos préférences en affirmant que nous préférons A à B et B à C, mais nous ne pouvons pas mesurer de combien nous préférons A à B. Cette différence d'intensité reste une réalité psychologique interne, inaccessible à toute mesure objective.
+Carl Menger rejette cette tentative de mathématiser les préférences humaines. Il comprend que la complexité des comportements humains rend impossible toute analyse formalisée. Menger préfère la conception ordinale, basée sur les préférences subjectives. Selon lui, il est impossible de mesurer l'écart quantitatif entre les intensités de besoin. Nous pouvons ordonner nos préférences en affirmant que nous préférons A à B et B à C, mais nous ne pouvons pas mesurer de combien nous préférons A à B. Cette différence d'intensité reste une réalité psychologique interne, inaccessible à toute mesure objective.
 
-### Le subjectivisme méthodologique de Karl Menger
+### Le subjectivisme méthodologique de Carl Menger
 
 De cette distinction naît le subjectivisme méthodologique qui caractérisera l'école autrichienne d'économie. Pour Menger, la valeur n'existe pas de manière intrinsèque dans les biens. Elle émane entièrement du jugement que l'individu porte sur le bien comme moyen de satisfaire un besoin personnel. Comme il l'écrit dans ses Principes d'économie politique, les choses deviennent des biens économiques seulement lorsqu'elles sont reconnues comme capables de satisfaire un besoin humain. La rareté joue un rôle dans la détermination de la valeur, mais elle n'a d'importance que par rapport au besoin subjectif de l'individu.
 
@@ -375,7 +375,7 @@ Ce théorème explique bien l'origine du prix des monnaies marchandises traditio
 
 La question de l'origine de la monnaie divise profondément les économistes. Pour les économistes mainstream et les partisans de la théorie monétaire moderne, la monnaie représente essentiellement une création institutionnelle, contrôlée et émise par les autorités centrales. Les économistes autrichiens proposent une perspective radicalement différente, considérant que la monnaie émerge d'un processus naturel et spontané du marché.
 
-Karl Menger a formulé cette théorie révolutionnaire dans son article "On the Origins of Money" publié en 1892, s'opposant au courant historique allemand de Gustav von Schmoller, pour qui la monnaie était un pur produit institutionnel. Pour démontrer l'émergence naturelle d'un intermédiaire d'échange unique, Menger explique que dans une économie de troc, les échanges demeurent très limités. Les agents économiques doivent trouver des partenaires ayant exactement les biens dont ils ont besoin : la double coïncidence des besoins. Cette condition devient impossible à satisfaire dans une économie qui dépasse le simple cercle d'échange restreint. Certains biens se sont donc progressivement imposés comme des intermédiaires privilégiés, devenant des monnaies marchandises.
+Carl Menger a formulé cette théorie révolutionnaire dans son article "On the Origins of Money" publié en 1892, s'opposant au courant historique allemand de Gustav von Schmoller, pour qui la monnaie était un pur produit institutionnel. Pour démontrer l'émergence naturelle d'un intermédiaire d'échange unique, Menger explique que dans une économie de troc, les échanges demeurent très limités. Les agents économiques doivent trouver des partenaires ayant exactement les biens dont ils ont besoin : la double coïncidence des besoins. Cette condition devient impossible à satisfaire dans une économie qui dépasse le simple cercle d'échange restreint. Certains biens se sont donc progressivement imposés comme des intermédiaires privilégiés, devenant des monnaies marchandises.
 
 ### Le rôle déterminant de l'imitation dans le processus d'adoption
 
@@ -647,7 +647,7 @@ La philosophie d'Emmanuel Kant a fourni un cadre conceptuel essentiel, notamment
 
 ### Le contexte intellectuel de la révolution marginaliste
 
-À la fin du XIXe siècle, la pensée économique germanophone était dominée par deux courants partageant une caractéristique fondamentale : le rejet de toute possibilité de lois économiques universelles. Le matérialisme marxiste et l'historicisme allemand constituaient les deux piliers intellectuels contre lesquels Karl Menger allait développer sa révolution marginaliste en 1871, donnant naissance à l'école autrichienne d'économie.
+À la fin du XIXe siècle, la pensée économique germanophone était dominée par deux courants partageant une caractéristique fondamentale : le rejet de toute possibilité de lois économiques universelles. Le matérialisme marxiste et l'historicisme allemand constituaient les deux piliers intellectuels contre lesquels Carl Menger allait développer sa révolution marginaliste en 1871, donnant naissance à l'école autrichienne d'économie.
 
 Le matérialisme marxiste postule que les conditions matérielles déterminent les superstructures sociales et politiques d'une société. Sur le plan économique, le marxisme adopte la théorie de la valeur travail, héritée d'Adam Smith et David Ricardo. Selon cette conception, le travail constitue l'origine de la totalité de la valeur d'un bien, indépendamment de l'offre et de la demande. Le salaire ne représenterait que la part nécessaire à la survie du travailleur, tandis que le reste, la plus-value, serait de la valeur travail volée au profit du capital.
 
@@ -667,7 +667,7 @@ Cette querelle méthodologique s'inscrit dans un contexte politique particulier.
 
 ### La querelle des méthodes et la naissance de l'école autrichienne
 
-C'est dans ce contexte qu'éclate la Methodenstreit, la querelle des méthodes opposant Karl Menger à Gustav von Schmoller. Dans ses Principes d'économie politique (1871), puis dans ses Recherches sur la méthode (1883), Menger s'oppose fermement à l'historicisme. Pour lui, l'économie ne doit pas se limiter à la chronique des faits mais chercher à dégager les principes généraux qui guident l'action humaine. La tâche de la science économique consiste à rechercher les lois selon lesquelles les phénomènes se produisent et à découvrir le lien causal entre eux.
+C'est dans ce contexte qu'éclate la Methodenstreit, la querelle des méthodes opposant Carl Menger à Gustav von Schmoller. Dans ses Principes d'économie politique (1871), puis dans ses Recherches sur la méthode (1883), Menger s'oppose fermement à l'historicisme. Pour lui, l'économie ne doit pas se limiter à la chronique des faits mais chercher à dégager les principes généraux qui guident l'action humaine. La tâche de la science économique consiste à rechercher les lois selon lesquelles les phénomènes se produisent et à découvrir le lien causal entre eux.
 
 Menger critique également l'approche statistique de l'école historique, considérant que ces bilans ne représentent que des instantanés d'un passé révolu, incapables de révéler les principes intemporels qui guident l'économie. De plus, en adoptant une approche contextualiste, les historicistes s'enferment dans une lecture influencée par leur propre époque, créant une circularité de pensée insurmontable.
 

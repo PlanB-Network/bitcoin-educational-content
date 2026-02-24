@@ -1,0 +1,9 @@
+question: Ni asilimia ngapi ya shughuli kwenye mnyororo wa Bitcoin iliwakilisha Barabara ya Hariri mwishoni mwa kiangazi cha 2011?
+answer: 10%
+wrong_answers:
+  - 3%
+  - 30%
+  - 90%
+explanation: |
+ Kulingana na ripoti iliyofuata ya Chainalysis, shughuli za Hariri Road zilichangia karibu 10% ya kiasi kilichouzwa kwenye chaneli ya Bitcoin mwanzoni mwa Septemba 2011.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Missä nettipörssissä Erik Voorhees toteutti elokuussa 2012 epävirallisen pörssilistautumisen SatoshiDICE-verkkokasinon kasvattamiseksi?
+answer: MPEx
+wrong_answers:
+  - GLBSE
+  - Bitcoinica
+  - Bitoption.org
+explanation: |
+ MPEx oli Mircea Popescun hallinnoima alusta, joka käynnistettiin muutamaa kuukautta aiemmin. Erik Voorhees laski liikkeeseen 100 miljoonaa osaketta (pörssitunnuksella S.DICE) ja
+ myi 10 kerätäkseen 34 500 bitcoinia eli noin 372 000 dollaria.
+reviewed: true

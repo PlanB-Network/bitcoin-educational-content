@@ -63,13 +63,13 @@ Niwibike mw’isi ya Liquid sidechain maze urekure ubushobozi bwayo bwose ubu ny
 ### Liquid Network Ubwubatsi n'Icitegererezo c'Ukwemeranya
 
 
-Liquid Network ni uruzitiro rw’inyuma rwubakiwe ku rutonde rwa Elements, rwagenewe kwagura ubushobozi bwa Bitcoin mu gihe yizigiye umutekano wayo w’ishimikiro. Udakunze Proof-of-Work ya Bitcoin, Liquid ikora ku buryo bw’Isezerano ry’Igihugu. Iryo shirahamwe ritunganijwe n’umugwi w’abanywanyi bakwiragijwe kw’isi yose, harimwo amahinguriro, amabiro y’ubudandaji, n’abatanga ibikorwa remezo. Muri ubwo bunywanyi, "abakozi" cumi na batanu baratorwa kugira ngo bakore nk'abasinya ku mabarabara.
+Liquid Network ni uruzitiro rw’inyuma rwubakiwe ku rutonde rwa Elements, rwagenewe kwagura ubushobozi bwa Bitcoin mu gihe yizigiye umutekano wayo w’ishimikiro. Udakunze [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) ya Bitcoin, Liquid ikora ku buryo bw’[Isezerano](https://planb.academy/resources/glossary/consensus) ry’Igihugu. Iryo shirahamwe ritunganijwe n’umugwi w’abanywanyi bakwiragijwe kw’isi yose, harimwo amahinguriro, amabiro y’ubudandaji, n’abatanga ibikorwa remezo. Muri ubwo bunywanyi, "abakozi" cumi na batanu baratorwa kugira ngo bakore nk'abasinya ku mabarabara.
 
 
-Abo bakozi bakora amabuye mu buryo bw’uruziga, hakaba hari amabuye mashasha asohoka buri munota. Ico gihe nyaco gitandukanye n’ibihe vy’iminota cumi vy’ibishoboka vya Bitcoin. Kugira ngo ububiko bube ubw’ukuri, bisaba imikono y’abakozi 11 ku bakozi 15 (ibice bibiri vya gatatu vyongeweko urugero rumwe). Ubu buryo buha Liquid "iherezo ry'ibice bibiri," bisobanura ko iyo igikorwa gifise ivyemezo bibiri (nk'iminota ibiri), mu mibare ntibishoboka gusubira gutunganya uruhererekane. Ukwo kwihuta n’ukudakeka ni ngirakamaro cane ku bijanye n’ugukemura ibibazo, ubudandaji bwikoresha, no gutorera umuti ibibazo vyihuta hagati y’ubudandaji.
+Abo bakozi bakora [amabuye](https://planb.academy/resources/glossary/block) mu buryo bw’uruziga, hakaba hari amabuye mashasha asohoka buri munota. Ico gihe nyaco gitandukanye n’ibihe vy’iminota cumi vy’ibishoboka vya Bitcoin. Kugira ngo ububiko bube ubw’ukuri, bisaba imikono y’abakozi 11 ku bakozi 15 (ibice bibiri vya gatatu vyongeweko urugero rumwe). Ubu buryo buha Liquid "iherezo ry'ibice bibiri," bisobanura ko iyo [igikorwa](https://planb.academy/resources/glossary/transaction-tx) gifise ivyemezo bibiri (nk'iminota ibiri), mu mibare ntibishoboka gusubira gutunganya [uruhererekane](https://planb.academy/resources/glossary/blockchain). Ukwo kwihuta n’ukudakeka ni ngirakamaro cane ku bijanye n’ugukemura ibibazo, ubudandaji bwikoresha, no gutorera umuti ibibazo vyihuta hagati y’ubudandaji.
 
 
-Iryo shirahamwe rirafise inguvu. Biciye mu nzira y'Ishirahamwe ry'Inguvu (Dynafed), urubuga rurashobora guhindura abakozi canke guhindura amaparametere ataco bisaba fork ikomeye. Ivyo bituma iyo sisitemu ishobora gutera imbere no gusubirira ibikoresho canke abayigize ata nkomanzi mu gihe iguma ikora ubudasiba.
+Iryo shirahamwe rirafise inguvu. Biciye mu nzira y'Ishirahamwe ry'Inguvu (Dynafed), urubuga rurashobora guhindura abakozi canke guhindura amaparametere ataco bisaba [fork](https://planb.academy/resources/glossary/fork) ikomeye. Ivyo bituma iyo sisitemu ishobora gutera imbere no gusubirira ibikoresho canke abayigize ata nkomanzi mu gihe iguma ikora ubudasiba.
 
 
 ### Confidential Transactions n'Ubucungezi bw'Itunga
@@ -97,7 +97,7 @@ Uburyo bwa "peg-out" burashoboza abakoresha gucungura LBTC ku Bitcoin. Ivyo bisa
 
 #### Ivyuma vy'umutekano (HSMs)
 
-Umutekano ushirwa mu ngiro cane biciye ku bikoresho vy’ubuhinga. Abakozi ntibabika imfunguruzo z’ibanga ku ma server asanzwe; ahubwo bakoresha ibikoresho vy’umutekano (HSMs). Ivyo bikoresho bifise umuyaga uva ku nzira y’ubwenge y’umurongozi w’umushitsi kandi bifise porogarama zifise amategeko akomeye. Nk’akarorero, HSM izokwanka gusinya igipande iyo uburebure bwaco butarenze ubwa mbere, ivyo bikaba bizotuma amateka adasubira kwandikwa. Iyi nzira y'umutekano "adversarial" yiyumvira ko server y'umushitsi yoshobora guhungabanywa, igatuma imfunguruzo ziguma zitekanye naho ahantu nyaho hoba hahungabanijwe.
+Umutekano ushirwa mu ngiro cane biciye ku bikoresho vy’ubuhinga. Abakozi ntibabika [imfunguruzo z’ibanga](https://planb.academy/resources/glossary/private-key) ku ma server asanzwe; ahubwo bakoresha ibikoresho vy’umutekano (HSMs). Ivyo bikoresho bifise umuyaga uva ku nzira y’ubwenge y’umurongozi w’umushitsi kandi bifise porogarama zifise amategeko akomeye. Nk’akarorero, HSM izokwanka gusinya igipande iyo uburebure bwaco butarenze ubwa mbere, ivyo bikaba bizotuma amateka adasubira kwandikwa. Iyi nzira y'umutekano "adversarial" yiyumvira ko server y'umushitsi yoshobora guhungabanywa, igatuma imfunguruzo ziguma zitekanye naho ahantu nyaho hoba hahungabanijwe.
 
 
 ## Ivy'ishimikiro vya Elements
@@ -169,7 +169,7 @@ Iyi nyubakwa iha abahinguzi ubushobozi bwo kwubaka ibikorwa vy’ivy’ubutunzi 
 ### Ibikorwa remezo vy'umusaraba-Layer na HTLCs
 
 
-Ivy’ibidukikije vya Bitcoin vyahindutse ubuhinga bw’ubwubatsi bufise ibice vyinshi, aho Mainchain itanga uburaro, Lightning itanga umuvuduko, na Liquid ishoboza ubushobozi bw’itunga ry’imbere. Kwimurira agaciro hagati y’ivyo bice ata bahuza bari hagati bisaba ikintu c’intango c’ubuhinga bwa none kitagira icizigiro: Hash Time Locked Contract (HTLC).
+Ivy’ibidukikije vya Bitcoin vyahindutse ubuhinga bw’ubwubatsi bufise ibice vyinshi, aho Mainchain itanga uburaro, Lightning itanga umuvuduko, na Liquid ishoboza ubushobozi bw’itunga ry’imbere. Kwimurira agaciro hagati y’ivyo bice ata bahuza bari hagati bisaba ikintu c’intango c’ubuhinga bwa none kitagira icizigiro: [Hash](https://planb.academy/resources/glossary/hash-function) Time Locked Contract ([HTLC](https://planb.academy/resources/glossary/htlc)).
 
 
 HTLC irema umurongo wo kwishura ufise ivyangombwa uhuza ubuhinga bwigenga mu buryo bw’atome. Ikora biciye mu nzira zibiri z'intango: **hash lock** na **time lock**.
@@ -185,20 +185,20 @@ Ico gice c’inzira zibiri kiratuma umuntu agira umutekano. Mu guhinduranya ibic
 ### Taproot na MuSig2 vyavuguruwe
 
 
-HTLCs za kera (SegWit v0) zakora neza ariko zari zifise ingorane z’ubuzima bwite n’ubushobozi. Bisaba gusohora script logic yose on-chain, bituma amafaranga y’uguhinduranya amenyekana vyoroshe ku baserukira blockchain kandi bikaba bizimvye cane kubera ubunini bw’amakuru yabo. Intango ya Taproot (SegWit v1) n’umurongo wa MuSig2 vyahinduye cane iyo nyubakwa.
+HTLCs za kera ([SegWit](https://planb.academy/resources/glossary/segwit) v0) zakora neza ariko zari zifise ingorane z’ubuzima bwite n’ubushobozi. Bisaba gusohora [script](https://planb.academy/resources/glossary/script) logic yose on-chain, bituma amafaranga y’uguhinduranya amenyekana vyoroshe ku baserukira blockchain kandi bikaba bizimvye cane kubera ubunini bw’amakuru yabo. Intango ya [Taproot](https://planb.academy/resources/glossary/taproot) (SegWit v1) n’umurongo wa MuSig2 vyahinduye cane iyo nyubakwa.
 
 
 Taproot iremeza **Ihuriro ry'urufunguzo** biciye kuri MuSig2. Aho guhishura inyandiko igoye ifise imfunguruzo nyinshi za bose, MuSig2 ireka abaje mu swap bagafatanya imfunguruzo zabo mu rufunguzo rumwe rwa bose.
 
 
 - "Inzira y'ingenzi" y'ubufatanye:** Iyo bompi bemeye guhinduranya ("inzira y'umunezero"), barasinya kumwe ku bijanye n'uguhinduranya. Ku rubuga, ivyo bisa n’ivyo kwishura bimenyerewe, bikoreshwa umukono umwe. Ifata umwanya mutoyi cane kandi nta makuru n’amwe yerekana ku bijanye n’ivyo guhinduranya.
-- Adversarial "Script Path":** Iyo uruhande rumwe rudasubiza canke rugira ububi, inyandiko iri munsi yayo (irimwo hash/time locks) irahishurirwa rero gusa. Ivyo bitunganijwe mu giti ca Merkle, bikaba bituma uwutagira uburyarya ashobora gushikiriza gusa ishami ry’umwihariko rikenewe kugira ngo asubire kuronka amahera, akaguma yihishije mu bijanye n’ubwenge bw’amasezerano.
+- Adversarial "Script Path":** Iyo uruhande rumwe rudasubiza canke rugira ububi, inyandiko iri munsi yayo (irimwo hash/time locks) irahishurirwa rero gusa. Ivyo bitunganijwe mu giti ca [Merkle](https://planb.academy/resources/glossary/merkle-tree), bikaba bituma uwutagira uburyarya ashobora gushikiriza gusa ishami ry’umwihariko rikenewe kugira ngo asubire kuronka amahera, akaguma yihishije mu bijanye n’ubwenge bw’amasezerano.
 
 
 ### Ishirwa mu ngiro: Liquid-Imiravyo Ihinduranya
 
 
-Mu bikorwa, ayo masezerano aratuma habaho uguhinduranya ata nkomanzi hagati y’ibice vya Bitcoin. Ihinduka risanzwe rya Liquid-ku-Lightning ritangura n’umukiriya asaba guhindura umukozi atanga ibikorwa. Umukiriya atanga invoice y’umuravyo, kandi uwuyitanga agafunga invoice ingana na Liquid Bitcoin (L-BTC) mu aderesi ya HTLC ikoreshwa na Taproot.
+Mu bikorwa, ayo masezerano aratuma habaho uguhinduranya ata nkomanzi hagati y’ibice vya Bitcoin. Ihinduka risanzwe rya Liquid-ku-Lightning ritangura n’umukiriya asaba guhindura umukozi atanga ibikorwa. Umukiriya atanga [invoice y’umuravyo](https://planb.academy/resources/glossary/invoice-lightning), kandi uwuyitanga agafunga invoice ingana na Liquid Bitcoin (L-BTC) mu aderesi ya HTLC ikoreshwa na Taproot.
 
 
 Ivyo atomicity birashirwa mu ngiro iyo amahera y’ukwishyura ashitse. Kugira ngo umuntu asabe L-BTC, uwutanga iyo serivisi ategerezwa kuba afise ishusho y’imbere. Baronka iyo preimage gusa iyo bashoboye kwishura neza invoice y’umuravyo y’umukiriya. Igihe amahera ya Lightning arangiriye, ishusho y’imbere irahishurirwa, igatuma uwuyitanga ashobora gufungura amahera ya Liquid.
@@ -206,7 +206,7 @@ Ivyo atomicity birashirwa mu ngiro iyo amahera y’ukwishyura ashitse. Kugira ng
 
 #### Wallet Ivyiyumviro n'uburongozi bwa UTXO
 
-Ku bakoresha, ivyo bigoranye ni ibintu bitaboneka. Ivyuma vy’ubuhinga bwa none nka Aqua bikora ivy’uguhingura urufunguzo, uguhingura invoice, n’ugushirako umukono mu nyuma. Uwukoresha gusa "ariha" invoice ya Lightning akoresheje umubare wiwe wa Liquid. Inyuma y’ivyo, iyo serivisi iracungera ugushira hamwe kwa UTXO, igakuraho ibihe bitobito, bitavuzwe, canke bisubizwa kugira ngo wallet ikomeze gukora neza no kugabanya ingaruka z’amahera mu bihe vy’uruja n’uruza rwinshi.
+Ku bakoresha, ivyo bigoranye ni ibintu bitaboneka. Ivyuma vy’ubuhinga bwa none nka Aqua bikora ivy’uguhingura urufunguzo, uguhingura invoice, n’ugushirako umukono mu nyuma. Uwukoresha gusa "ariha" invoice ya Lightning akoresheje umubare wiwe wa Liquid. Inyuma y’ivyo, iyo serivisi iracungera ugushira hamwe kwa [UTXO](https://planb.academy/resources/glossary/utxo), igakuraho ibihe bitobito, bitavuzwe, canke bisubizwa kugira ngo [wallet](https://planb.academy/resources/glossary/wallet) ikomeze gukora neza no kugabanya ingaruka z’amahera mu bihe vy’uruja n’uruza rwinshi.
 
 
 ## Liquid Network Incamake
@@ -220,7 +220,7 @@ Ku bakoresha, ivyo bigoranye ni ibintu bitaboneka. Ivyuma vy’ubuhinga bwa none
 ### Liquid Network Ubwubatsi n'Ukwemeranya
 
 
-Liquid Network ikora nk'uruzitiro rw'inyuma rwubakiwe ku **Elements**. Naho Elements—fork ya Bitcoin Core—itanga umushinge wa porogarama, Liquid ni ugushirwa mu ngiro kw’urubuga rwo gukora. Udakunze Proof-of-Work ya Bitcoin, yizigiye mining ishobora guhiganwa, Liquid ikoresha uburyo bwa **Uguhurizako kw'Igihugu**.
+Liquid Network ikora nk'uruzitiro rw'inyuma rwubakiwe ku **Elements**. Naho Elements—fork ya Bitcoin Core—itanga umushinge wa porogarama, Liquid ni ugushirwa mu ngiro kw’urubuga rwo gukora. Udakunze Proof-of-Work ya Bitcoin, yizigiye [mining](https://planb.academy/resources/glossary/mining) ishobora guhiganwa, Liquid ikoresha uburyo bwa **Uguhurizako kw'Igihugu**.
 
 
 Iryo shirahamwe ritunganywa n'abakozi cumi n'itanu bakwiragijwe kw'isi yose. Izo nzego zikoresha ama server yihariye akora uruhara rubiri ruhambaye:
@@ -283,7 +283,7 @@ Kugira ngo Liquid ibeho igihe kirekire, ikoresha Dynafed, uburyo bushobora gutum
 ### Liquid Network: Ingamba z'ubudandaji n'ibidukikije
 
 
-Liquid ni ikintu kirenze urudodo rw’inyuma rw’ubuhinga; ni igice c’ibikorwa remezo vyibanda ku bucuruzi gigenewe gukorana n’ibisabwa bikomeye vy’amasoko y’itunga Bitcoin mainchain idashobora gushigikira neza. Naho Lightning Network ikora neza ku bijanye n’ugutanga amahera menshi, y’agaciro gato, Liquid igamije gutanga amahera y’agaciro kanini, gutanga itunga, no gusezerana hagati y’amahera.
+Liquid ni ikintu kirenze urudodo rw’inyuma rw’ubuhinga; ni igice c’ibikorwa remezo vyibanda ku bucuruzi gigenewe gukorana n’ibisabwa bikomeye vy’amasoko y’itunga Bitcoin mainchain idashobora gushigikira neza. Naho [Lightning Network](https://planb.academy/resources/glossary/lightning-network) ikora neza ku bijanye n’ugutanga amahera menshi, y’agaciro gato, Liquid igamije gutanga amahera y’agaciro kanini, gutanga itunga, no gusezerana hagati y’amahera.
 
 
 Ivyo bidukikije birongowe na **Liquid Federation**, ishirahamwe ry’amashirahamwe ~73 harimwo amashirahamwe y’ubudandaji, amabiro y’ubudandaji, n’abatanga ibikorwa remezo. Iyi nzira y’ubufatanye igaragaza ibikorwa vy’ubuhinga bwa kera vy’ivy’ubutunzi ariko ikora mu buryo buboneye cane kandi igihe co gutanga amahera kigabanywa cane (iminota 2 n’imisi T+2).

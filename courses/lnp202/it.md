@@ -92,7 +92,7 @@ Se seguite questo corso LNP202 nel giusto ordine, alla fine avrete una configura
 
 
 
-Prima di lanciare il proprio nodo, questo capitolo passa in rassegna brevemente la teoria di base che sta alla base del Lightning Network. È infatti importante capire i meccanismi coinvolti, perché questo vi permetterà di identificare i rischi e di adottare buone pratiche per limitarli. Tuttavia, non entrerò nei dettagli, perché non è l'obiettivo principale di questo corso. Se volete approfondire l'argomento, vi consiglio di consultare il corso LNP 201 di Fanis Michalakis, che è un punto di riferimento nel settore:
+Prima di lanciare il proprio nodo, questo capitolo passa in rassegna brevemente la teoria di base che sta alla base del [Lightning Network](https://planb.academy/resources/glossary/lightning-network). È infatti importante capire i meccanismi coinvolti, perché questo vi permetterà di identificare i rischi e di adottare buone pratiche per limitarli. Tuttavia, non entrerò nei dettagli, perché non è l'obiettivo principale di questo corso. Se volete approfondire l'argomento, vi consiglio di consultare il corso LNP 201 di Fanis Michalakis, che è un punto di riferimento nel settore:
 
 
 
@@ -102,20 +102,20 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-Torniamo alle basi: prima di definire cos'è un nodo, dobbiamo capire cos'è il Lightning Network. È un protocollo di livello superiore, costruito sopra il Bitcoin, progettato per consentire transazioni offchain BTC veloci (con finalità quasi istantanee) e generalmente economiche. Si tratta di un protocollo di livello superiore, costruito sopra il Bitcoin, progettato per consentire transazioni offchain BTC che sono veloci (con finalità quasi istantanee) e generalmente poco costose. "Offchain" significa che le transazioni eseguite su Lightning non sono destinate a comparire sulla blockchain principale del Bitcoin. Lightning è anche una risposta parziale al crescente utilizzo di Bitcoin e alla congestione della catena, che sta sollevando preoccupazioni sulla scalabilità del sistema.
+Torniamo alle basi: prima di definire cos'è un nodo, dobbiamo capire cos'è il Lightning Network. È un protocollo di livello superiore, costruito sopra il Bitcoin, progettato per consentire transazioni [offchain](https://planb.academy/resources/glossary/offchain) BTC veloci (con finalità quasi istantanee) e generalmente economiche. Si tratta di un protocollo di livello superiore, costruito sopra il Bitcoin, progettato per consentire transazioni offchain BTC che sono veloci (con finalità quasi istantanee) e generalmente poco costose. "Offchain" significa che le transazioni eseguite su Lightning non sono destinate a comparire sulla [blockchain](https://planb.academy/resources/glossary/blockchain) principale del Bitcoin. Lightning è anche una risposta parziale al crescente utilizzo di Bitcoin e alla congestione della catena, che sta sollevando preoccupazioni sulla [scalabilità](https://planb.academy/resources/glossary/scalability) del sistema.
 
 
 
-Per funzionare, Lightning si basa sull'apertura di canali di pagamento tra i partecipanti, all'interno dei quali le transazioni possono essere eseguite quasi istantaneamente, spesso con commissioni minime, senza la necessità di registrarle una per una sulla blockchain Bitcoin. Questi canali possono rimanere aperti per un tempo molto lungo, richiedendo transazioni onchain solo al momento della loro apertura e chiusura.
+Per funzionare, Lightning si basa sull'apertura di [canali di pagamento](https://planb.academy/resources/glossary/payment-channel) tra i partecipanti, all'interno dei quali le transazioni possono essere eseguite quasi istantaneamente, spesso con commissioni minime, senza la necessità di registrarle una per una sulla blockchain Bitcoin. Questi canali possono rimanere aperti per un tempo molto lungo, richiedendo transazioni [onchain](https://planb.academy/resources/glossary/onchain) solo al momento della loro apertura e chiusura.
 
 
 
-Un nodo Lightning è un partecipante alla rete Lightning, che apre canali ed effettua pagamenti con altri nodi. In concreto, un nodo Lightning è un software che gira su un computer e che implementa il protocollo Lightning Network. Alcuni esempi sono LND, Core Lightning o Eclair. Il ruolo principale di questo software è quello di:
+Un [nodo Lightning](https://planb.academy/resources/glossary/lightning-node) è un partecipante alla rete Lightning, che apre canali ed effettua pagamenti con altri nodi. In concreto, un nodo Lightning è un software che gira su un computer e che implementa il protocollo Lightning Network. Alcuni esempi sono LND, Core Lightning o Eclair. Il ruolo principale di questo software è quello di:
 
 
 
 
-- connettersi a un nodo Bitcoin per ottenere informazioni dalla blockchain principale;
+- connettersi a un [nodo Bitcoin](https://planb.academy/resources/glossary/full-node) per ottenere informazioni dalla blockchain principale;
 - creare e gestire canali di pagamento bidirezionali con altri nodi;
 - scambiare messaggi con l'intera rete Lightning.
 
@@ -129,7 +129,7 @@ Un nodo Lightning è un partecipante alla rete Lightning, che apre canali ed eff
 
 
 
-Nel Bitcoin (onchain), "*wallet*" si riferisce al software che gestisce le chiavi private, calcola il saldo dai UTXO e crea le transazioni. Questo wallet può essere basato sul tuo nodo Bitcoin o su quello di qualcun altro, ma oggi il ruolo del nodo e quello del wallet onchain sono chiaramente distinti.
+Nel Bitcoin (onchain), "*[wallet](https://planb.academy/resources/glossary/wallet)*" si riferisce al software che gestisce le [chiavi private](https://planb.academy/resources/glossary/private-key), calcola il saldo dai [UTXO](https://planb.academy/resources/glossary/utxo) e crea le transazioni. Questo wallet può essere basato sul tuo nodo Bitcoin o su quello di qualcun altro, ma oggi il ruolo del nodo e quello del wallet onchain sono chiaramente distinti.
 
 
 
@@ -141,7 +141,7 @@ Su Lightning è più difficile riutilizzare questo tipo di vocabolario senza cre
 
 
 
-- Per utilizzare un servizio custodial: si utilizza un'applicazione che mostra un saldo in sats su Lightning, ma in background i fondi sono sul nodo di un fornitore (ad esempio Wallet of Satoshi). Non avete né le chiavi né il controllo dei canali. Il tuo saldo è solo una voce contabile nel database dell'azienda. È paragonabile a lasciare i tuoi bitcoin su una piattaforma di scambio, con tutti i rischi associati. In questo caso, il tuo "*Lightning wallet*" è solo un accesso a un conto gestito da un operatore che, a sua volta, gestisce un vero nodo Lightning.
+- Per utilizzare un servizio custodial: si utilizza un'applicazione che mostra un saldo in [sats](https://planb.academy/resources/glossary/satoshi-sat) su Lightning, ma in background i fondi sono sul nodo di un fornitore (ad esempio Wallet of Satoshi). Non avete né le chiavi né il controllo dei canali. Il tuo saldo è solo una voce contabile nel database dell'azienda. È paragonabile a lasciare i tuoi bitcoin su una piattaforma di scambio, con tutti i rischi associati. In questo caso, il tuo "*Lightning wallet*" è solo un accesso a un conto gestito da un operatore che, a sua volta, gestisce un vero nodo Lightning.
 
 
 
@@ -161,7 +161,7 @@ In questa sezione, vi fornirò un rapido promemoria di come funziona Lightning. 
 
 
 
-Il cuore della rete Lightning si basa su canali di pagamento bidirezionali. Un canale può essere aperto (cioè creato), aggiornato man mano che avvengono le transazioni Lightning e infine chiuso. Dal punto di vista di onchain, un canale non è altro che l’output di una transazione multisig 2/2.
+Il cuore della rete Lightning si basa su canali di pagamento bidirezionali. Un canale può essere aperto (cioè creato), aggiornato man mano che avvengono le transazioni Lightning e infine chiuso. Dal punto di vista di onchain, un canale non è altro che l’[output](https://planb.academy/resources/glossary/output) di una transazione [multisig](https://planb.academy/resources/glossary/multisig) 2/2.
 
 
 
@@ -169,7 +169,7 @@ Il cuore della rete Lightning si basa su canali di pagamento bidirezionali. Un c
 
 
 
-Dal punto di vista di Lightning, si tratta di un canale di pagamento con liquidità divisa tra i due partecipanti.
+Dal punto di vista di Lightning, si tratta di un canale di pagamento con [liquidità](https://planb.academy/resources/glossary/liquidity-lightning) divisa tra i due partecipanti.
 
 
 
@@ -183,7 +183,7 @@ Dal punto di vista di Lightning, si tratta di un canale di pagamento con liquidi
 
 
 
-Due nodi decidono di aprire un canale. Uno di loro impegna i bitcoin in una transazione onchain chiamata *transazione di finanziamento*. Questa transazione crea un output basata su uno script a firma multipla 2 su 2, il che significa che per spendere questi fondi su Bitcoin è necessaria la firma di entrambi i nodi del canale. Prima di emettere questa transazione, la parte che fornisce i fondi chiede all'altra di firmare una *transazione di prelievo*, che non viene emessa onchain, ma che consente di recuperare i propri fondi in caso di problemi.
+Due nodi decidono di aprire un canale. Uno di loro impegna i bitcoin in una transazione onchain chiamata *transazione di finanziamento*. Questa transazione crea un output basata su uno [script](https://planb.academy/resources/glossary/script) a [firma](https://planb.academy/resources/glossary/digital-signature) multipla 2 su 2, il che significa che per spendere questi fondi su Bitcoin è necessaria la firma di entrambi i nodi del canale. Prima di emettere questa transazione, la parte che fornisce i fondi chiede all'altra di firmare una *transazione di prelievo*, che non viene emessa onchain, ma che consente di recuperare i propri fondi in caso di problemi.
 
 
 
@@ -197,7 +197,7 @@ Due nodi decidono di aprire un canale. Uno di loro impegna i bitcoin in una tran
 
 
 
-Lo stato del canale (cioè la distribuzione del sats tra A e B) è rappresentato da un *commitment transaction*, noto a entrambi i nodi ma non immediatamente trasmesso sulla blockchain. Questa transazione descrive come ridistribuire i fondi del canale sulla blockchain in base ai pagamenti effettuati su Lightning.
+Lo stato del canale (cioè la distribuzione del sats tra A e B) è rappresentato da un *[commitment transaction](https://planb.academy/resources/glossary/commitment-transaction)*, noto a entrambi i nodi ma non immediatamente trasmesso sulla blockchain. Questa transazione descrive come ridistribuire i fondi del canale sulla blockchain in base ai pagamenti effettuati su Lightning.
 
 
 
@@ -237,7 +237,7 @@ Prima di proseguire, ecco due concetti essenziali per capire come gestire un can
 
 
 - *Liquidity*: la quantità di sats disponibile su un lato del canale;
-- La *capacità*: è l'importo totale bloccato nell'output 2/2 multisig, cioè la somma della liquidità su entrambi i lati del canale.
+- La *[capacità](https://planb.academy/resources/glossary/lightning-channel-capacity)*: è l'importo totale bloccato nell'output 2/2 multisig, cioè la somma della liquidità su entrambi i lati del canale.
 
 
 
@@ -249,7 +249,7 @@ Un canale non serve solo per i pagamenti tra due nodi: fa parte di una rete glob
 
 
 
-Ogni nodo conosce, tramite il protocollo di gossip, una mappa di questa rete: quali canali esistono, quali nodi sono collegati da un canale bidirezionale e quali capacità sono pubblicate. Per inviare un pagamento a un destinatario senza un canale diretto, il proprio nodo calcola un percorso composto da diversi hop: il proprio nodo → nodo X → nodo Y → nodo destinatario. A ogni passaggio, il pagamento transita su un canale che deve avere sufficiente liquidità nella direzione del pagamento.
+Ogni nodo conosce, tramite il [protocollo di gossip](https://planb.academy/resources/glossary/gossip), una mappa di questa rete: quali canali esistono, quali nodi sono collegati da un canale bidirezionale e quali capacità sono pubblicate. Per inviare un pagamento a un destinatario senza un canale diretto, il proprio nodo calcola un percorso composto da diversi hop: il proprio nodo → nodo X → nodo Y → nodo destinatario. A ogni passaggio, il pagamento transita su un canale che deve avere sufficiente liquidità nella direzione del pagamento.
 
 
 
@@ -265,7 +265,7 @@ La liquidità di un canale non è quindi simmetrica: un lato può essere molto c
 
 
 
-Per consentire ai pagamenti di passare attraverso nodi intermedi senza bisogno di fiducia, Lightning utilizza contratti intelligenti chiamati *HTLC* (*Hashed Time-Locked Contracts*). In termini semplici, un HTLC condiziona il trasferimento di fondi alla rivelazione di un segreto e incorpora un vincolo temporale per proteggere il mittente in caso di fallimento della transazione. Ogni pagamento è quindi subordinato alla presentazione di una pre-immagine (un segreto il cui hash corrisponde a un valore concordato). Se il destinatario finale fornisce questa pre-immagine, può rivendicare i fondi, il che a sua volta consente a ogni nodo intermediario di recuperare i propri fondi.
+Per consentire ai pagamenti di passare attraverso nodi intermedi senza bisogno di fiducia, Lightning utilizza [contratti intelligenti](https://planb.academy/resources/glossary/smart-contract) chiamati *[HTLC](https://planb.academy/resources/glossary/htlc)* (*Hashed Time-Locked Contracts*). In termini semplici, un HTLC condiziona il trasferimento di fondi alla rivelazione di un segreto e incorpora un vincolo temporale per proteggere il mittente in caso di fallimento della transazione. Ogni pagamento è quindi subordinato alla presentazione di una pre-immagine (un segreto il cui [hash](https://planb.academy/resources/glossary/hash-function) corrisponde a un valore concordato). Se il destinatario finale fornisce questa pre-immagine, può rivendicare i fondi, il che a sua volta consente a ogni nodo intermediario di recuperare i propri fondi.
 
 
 
@@ -281,7 +281,7 @@ Vi risparmio i dettagli tecnici sul funzionamento dei HTLC, perché non sono ess
 
 
 
-Come per il Bitcoin, esistono diverse implementazioni del protocollo Lightning. Diversi team indipendenti stanno sviluppando le proprie versioni, tutte interoperabili in quanto aderiscono alle stesse specifiche (le BOLT). Ecco le principali implementazioni in uso oggi.
+Come per il Bitcoin, esistono diverse implementazioni del protocollo Lightning. Diversi team indipendenti stanno sviluppando le proprie versioni, tutte interoperabili in quanto aderiscono alle stesse specifiche (le [BOLT](https://planb.academy/resources/glossary/bolt)). Ecco le principali implementazioni in uso oggi.
 
 
 
@@ -399,7 +399,7 @@ Oggi è possibile avere un'esperienza d'uso molto vicina a quella di un wallet c
 
 
 
-La prima soluzione è semplicemente quella di non utilizzare Lightning in modo nativo, ma di utilizzare un Bitcoin o Liquid wallet che incorpora gli swap atomici. Ad esempio, le applicazioni Aqua o Bull Bitcoin Wallet utilizzano questo metodo, consentendo di pagare le intece Lightning senza gestire un nodo Lightning, pur rimanendo in autocustodia.
+La prima soluzione è semplicemente quella di non utilizzare Lightning in modo nativo, ma di utilizzare un Bitcoin o [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet che incorpora gli [swap atomici](https://planb.academy/resources/glossary/atomic-swap). Ad esempio, le applicazioni Aqua o Bull Bitcoin Wallet utilizzano questo metodo, consentendo di pagare le [intece Lightning](https://planb.academy/resources/glossary/invoice-lightning) senza gestire un nodo Lightning, pur rimanendo in autocustodia.
 
 
 
@@ -411,7 +411,7 @@ Il principio è semplice: i fondi rimangono nel Bitcoin, o nel on-chain o nel Li
 
 
 
-Il vantaggio principale di questo approccio, rispetto a un tradizionale Lightning custodial wallet, è che si rimane sempre in possesso al 100% dei propri fondi. I bitcoin sono nella tua onchain o Liquid wallet, con la tua frase mnemonica. Anche durante lo scambio, si rimane in possesso dei propri fondi, perché lo scambio è atomico. Si basa su un meccanismo crittografico che garantisce due soli risultati possibili: o lo scambio riesce completamente, o fallisce e il servizio non può appropriarsi dei tuoi fondi.
+Il vantaggio principale di questo approccio, rispetto a un tradizionale Lightning custodial wallet, è che si rimane sempre in possesso al 100% dei propri fondi. I bitcoin sono nella tua onchain o Liquid wallet, con la tua [frase mnemonica](https://planb.academy/resources/glossary/seed). Anche durante lo scambio, si rimane in possesso dei propri fondi, perché lo scambio è atomico. Si basa su un meccanismo crittografico che garantisce due soli risultati possibili: o lo scambio riesce completamente, o fallisce e il servizio non può appropriarsi dei tuoi fondi.
 
 
 
@@ -423,7 +423,7 @@ Questa soluzione offre anche interessanti vantaggi in termini di riservatezza, s
 
 
 
-D'altra parte, questo approccio ha i suoi limiti. In primo luogo, non è incensurabile: dipendete dalla disponibilità e dalla buona volontà del servizio di swap. Se non vuole più gestire il tuo conto o cessa l'attività, non potrete più pagare le intece Lightning attraverso di esso. Ci sono poi le non trascurabili commissioni: si pagano sia le commissioni per le transazioni onchain o Liquid, sia la commissione del servizio di swap. Inoltre, se le commissioni onchain aumentano drasticamente, l'utilizzo di Lightning può diventare molto costoso.
+D'altra parte, questo approccio ha i suoi limiti. In primo luogo, non è incensurabile: dipendete dalla disponibilità e dalla buona volontà del servizio di swap. Se non vuole più gestire il tuo conto o cessa l'attività, non potrete più pagare le intece Lightning attraverso di esso. Ci sono poi le non trascurabili commissioni: si pagano sia le [commissioni per le transazioni](https://planb.academy/resources/glossary/transaction-fees) onchain o Liquid, sia la commissione del servizio di swap. Inoltre, se le commissioni onchain aumentano drasticamente, l'utilizzo di Lightning può diventare molto costoso.
 
 
 
@@ -479,7 +479,7 @@ La terza soluzione, quella che approfondiremo in questo corso LNP202, consiste n
 
 
 
-Per "classico" intendo che si installa e si configura un'implementazione di Lightning (ad esempio, LND) in cima al proprio nodo Bitcoin. Si scelgono i peer, si aprono i canali, si gestisce la liquidità in entrata e in uscita e si impostano le politiche di routing.
+Per "classico" intendo che si installa e si configura un'implementazione di Lightning (ad esempio, LND) in cima al proprio nodo Bitcoin. Si scelgono i peer, si aprono i canali, si gestisce la [liquidità in entrata](https://planb.academy/resources/glossary/inbound-capacity) e in uscita e si impostano le politiche di routing.
 
 
 
@@ -616,7 +616,7 @@ Si arriva quindi all'interfaccia principale del nodo Lightning. A sinistra, trov
 
 
 
-Al centro, si trova il proprio Lightning wallet. Rappresenta i fondi in uscita, ovvero i bitcoin che si possiedono all'interno dei canali Lightning.
+Al centro, si trova il proprio Lightning wallet. Rappresenta i [fondi in uscita](https://planb.academy/resources/glossary/outbound-capacity), ovvero i bitcoin che si possiedono all'interno dei canali Lightning.
 
 
 

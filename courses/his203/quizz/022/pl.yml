@@ -1,0 +1,11 @@
+question: Jaka była główna innowacja finansowa oferowana przez platformę Bitcoinica, uruchomioną we wrześniu 2011 r. przez młodego chińskiego przedsiębiorcę Zhou Tonga?
+answer: Dźwignia finansowa i krótka sprzedaż
+wrong_answers:
+  - Emisja akcji i obligacji
+  - Pożyczka zabezpieczona odsetkami
+  - Niemal natychmiastowa wymiana gotówki
+explanation: |
+ Bitcoinica była pierwszą platformą w ekosystemie, która oferowała transakcje z depozytem zabezpieczającym, co umożliwiło klientom wykorzystanie dźwigni finansowej w celu zwiększenia zysków (i strat) oraz zajęcie krótkiej pozycji w celu obstawienia spadku ceny akcji
+ short, aby obstawiać spadające ceny akcji. Po jej zamknięciu ten rodzaj usługi został przejęty przez platformę Bitfinex, która została uruchomiona w październiku 2012 r. i opierała się na tym samym kodzie źródłowym
+ oparta na tym samym kodzie źródłowym.
+reviewed: true

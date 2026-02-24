@@ -317,7 +317,7 @@ W reakcji na doświadczenia Johna Law, Cantillon wyjaśnia, co dzieje się lub m
 ![image](assets/pl/017.webp)
 
 
-Dostrzega on dwie główne konsekwencje zastąpienia waluty bez realnej wartości, takiej jak pieniądz papierowy, walutą metalową. Pierwszą konsekwencją jest to, co nazywa "powszechnym odrzuceniem", co oznacza rosnącą nieufność do bezwartościowych pieniędzy. Drugą konsekwencją jest inflacja: osłabienie pieniądza powoduje wzrost cen towarów.
+Dostrzega on dwie główne konsekwencje zastąpienia waluty bez realnej wartości, takiej jak pieniądz papierowy, walutą metalową. Pierwszą konsekwencją jest to, co nazywa "powszechnym odrzuceniem", co oznacza rosnącą nieufność do bezwartościowych pieniędzy. Drugą konsekwencją jest [inflacja](https://planb.academy/resources/glossary/inflation): osłabienie pieniądza powoduje wzrost cen towarów.
 
 
 Po czwarte, w swojej analizie **inflacji** Cantillon poszedł dalej niż jego współcześni. Obserwując upadek systemu Law'a, Cantillon zdał sobie sprawę, że inflacja monetarna nie dotyka wszystkich w równym stopniu. Wręcz przeciwnie, niektórych wzbogaca, a innych zubaża. Doszedł do wniosku, że inflacja ma efekt redystrybucyjny: ci, którzy najpierw otrzymują nowo wyemitowane pieniądze, korzystają ze zwiększonej siły nabywczej, podczas gdy ci, którzy otrzymują je później, stają się biedniejsi w wyniku emisji nowych pieniędzy z powodu wzrostu stóp inflacji.

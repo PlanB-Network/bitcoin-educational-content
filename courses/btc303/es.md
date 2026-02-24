@@ -75,8 +75,6 @@ Navegar por el complejo panorama de la gobernanza de Bitcoin requiere algo más 
 ¿Listo para dar el siguiente paso en su viaje hacia Bitcoin? Comencemos.
 
 
-***N.B.**: Si durante el curso encuentra algún término desconocido relacionado con Bitcoin, consulte el [glosario](https://planb.academy/resources/glossary) para encontrar definiciones.*
-
 
 
 
@@ -89,9 +87,9 @@ Navegar por el complejo panorama de la gobernanza de Bitcoin requiere algo más 
 
 <chapterId>9397c84b-0038-5d0e-88d5-11767ce8182d</chapterId>
 
-Se analiza qué es la descentralización y por qué es esencial para que Bitcoin funcione. Distinguimos entre la descentralización minera y la de los nodos completos, y discutimos qué aportan a la resistencia a la censura, una de las propiedades más centrales de Bitcoin.
+Se analiza qué es la descentralización y por qué es esencial para que Bitcoin funcione. Distinguimos entre la descentralización minera y la de los [nodos completos](https://planb.academy/resources/glossary/full-node), y discutimos qué aportan a la resistencia a la censura, una de las propiedades más centrales de Bitcoin.
 
-A continuación, el debate se centra en la neutralidad (o ausencia de permisos para usuarios, mineros y desarrolladores), que es una propiedad necesaria de cualquier sistema descentralizado. Por último, abordamos lo difícil que puede ser entender un sistema descentralizado como Bitcoin, y presentamos algunos modelos mentales que pueden ayudar a comprenderlo.
+A continuación, el debate se centra en la neutralidad (o ausencia de permisos para usuarios, [mineros](https://planb.academy/resources/glossary/mining) y desarrolladores), que es una propiedad necesaria de cualquier sistema descentralizado. Por último, abordamos lo difícil que puede ser entender un sistema descentralizado como Bitcoin, y presentamos algunos modelos mentales que pueden ayudar a comprenderlo.
 
 Un sistema sin ningún punto central de control se denomina *descentralizado*. Bitcoin está diseñado para evitar que haya un punto central de control, o más exactamente un *punto central de censura*.
 
@@ -99,7 +97,7 @@ La descentralización es un medio para lograr la *resistencia a la censura*.
 
 Hay dos aspectos principales de la descentralización en Bitcoin: La descentralización del minero y la descentralización de full nodes.
 
-La descentralización minera se refiere al hecho de que el procesamiento de las transacciones no es realizado ni coordinado por ninguna entidad central. La descentralización de los full nodes se refiere al hecho de que la validación de los bloques, es decir, los datos que producen los mineros, se realiza en el extremo de la red, en última instancia por sus usuarios, y no por unas pocas autoridades de confianza.
+La descentralización minera se refiere al hecho de que el procesamiento de las [transacciones](https://planb.academy/resources/glossary/transaction-tx) no es realizado ni coordinado por ninguna entidad central. La descentralización de los full nodes se refiere al hecho de que la validación de los [bloques](https://planb.academy/resources/glossary/block), es decir, los datos que producen los mineros, se realiza en el extremo de la red, en última instancia por sus usuarios, y no por unas pocas autoridades de confianza.
 
 
 ![](assets/es/001.webp)
@@ -112,10 +110,10 @@ Hubo intentos de crear monedas digitales antes de Bitcoin, pero la mayoría frac
 
 La descentralización minera en Bitcoin significa que la *ordenación de las transacciones* no es llevada a cabo por una única entidad o conjunto fijo de entidades. Se lleva a cabo colectivamente por todos los actores que quieran participar en ella; este colectivo de mineros es un conjunto dinámico de usuarios. Cualquiera puede unirse a él o abandonarlo cuando lo desee. Esta propiedad hace que Bitcoin sea resistente a la censura.
 
-Si el Bitcoin estuviera centralizado, sería vulnerable a quienes quisieran censurarlo, como los gobiernos. Correría la misma suerte que intentos anteriores de crear dinero digital. En la introducción de [un artículo](https://www.blockstream.com/sidechains.pdf) titulado "Enabling Blockchain Innovations with Pegged Sidechains", los autores explican cómo las primeras versiones del dinero digital no estaban preparadas para un entorno adversario (véase también el capítulo sobre Pensamiento adversario en la siguiente parte).
+Si el Bitcoin estuviera centralizado, sería vulnerable a quienes quisieran censurarlo, como los gobiernos. Correría la misma suerte que intentos anteriores de crear dinero digital. En la introducción de [un artículo](https://www.blockstream.com/sidechains.pdf) titulado "Enabling [Blockchain](https://planb.academy/resources/glossary/blockchain) Innovations with Pegged Sidechains", los autores explican cómo las primeras versiones del dinero digital no estaban preparadas para un entorno adversario (véase también el capítulo sobre Pensamiento adversario en la siguiente parte).
 
 
-David Chaum introdujo el efectivo digital como tema de investigación en 1983, en un entorno con un servidor central en el que se confía para evitar Double-spending. Para mitigar el riesgo para la privacidad de las personas de esta parte central de confianza, y para hacer cumplir la fungibilidad, Chaum introdujo la firma ciega, que utilizó para proporcionar un medio criptográfico para evitar la vinculación de las firmas del servidor central (que representan monedas), al tiempo que permitía al servidor central realizar la prevención del doble gasto.
+David Chaum introdujo el efectivo digital como tema de investigación en 1983, en un entorno con un servidor central en el que se confía para evitar [Double-spending](https://planb.academy/resources/glossary/double-spending-attack). Para mitigar el riesgo para la privacidad de las personas de esta parte central de confianza, y para hacer cumplir la [fungibilidad](https://planb.academy/resources/glossary/fungibility), Chaum introdujo la [firma ciega](https://planb.academy/resources/glossary/blind-signature), que utilizó para proporcionar un medio criptográfico para evitar la vinculación de las firmas del servidor central (que representan monedas), al tiempo que permitía al servidor central realizar la prevención del doble gasto.
 
 El requisito de un servidor central se convirtió en el talón de Aquiles del efectivo digital[Gri99]. Aunque es posible distribuir este único punto de fallo sustituyendo la firma del servidor central por una firma umbral de varios firmantes, es importante para la auditabilidad que los firmantes sean distintos e identificables. Sin embargo, el sistema sigue siendo vulnerable a los fallos, ya que cada firmante puede fallar, o hacer que falle, uno por uno.
 
@@ -141,17 +139,17 @@ Si lo consiguen, lo más probable es que los mismos problemas resurjan en algún
 Ninguna de estas opciones es beneficiosa para el usuario.
 
 
-La resistencia a la censura mediante la descentralización es lo que separa a Bitcoin de otros sistemas monetarios, pero no es algo fácil de conseguir debido al *problema Double-spending*. Este es el problema de asegurarse de que nadie pueda gastar la misma moneda dos veces, una cuestión que mucha gente pensaba que era imposible de resolver de forma descentralizada. Satoshi Nakamoto escribe en su [Bitcoin whitepaper](https://planb.academy/bitcoin.pdf) sobre cómo resolver el problema Double-spending:
+La resistencia a la censura mediante la descentralización es lo que separa a Bitcoin de otros sistemas monetarios, pero no es algo fácil de conseguir debido al *problema Double-spending*. Este es el problema de asegurarse de que nadie pueda gastar la misma moneda dos veces, una cuestión que mucha gente pensaba que era imposible de resolver de forma descentralizada. Satoshi [Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) escribe en su [Bitcoin whitepaper](https://planb.academy/bitcoin.pdf) sobre cómo resolver el problema Double-spending:
 
 
 > En este trabajo, proponemos una solución al problema Double-spending utilizando un servidor Timestamp distribuido peer-to-peer para generar prueba computacional del orden cronológico de las transacciones.
 
 
-Aquí utiliza la peculiar expresión "servidor Timestamp distribuido de igual a igual". La palabra clave aquí es *distribuido*, que en este contexto significa que no hay un punto central de control. A continuación, Nakamoto explica cómo Proof-of-Work es la solución.
+Aquí utiliza la peculiar expresión "servidor Timestamp distribuido de igual a igual". La palabra clave aquí es *distribuido*, que en este contexto significa que no hay un punto central de control. A continuación, Nakamoto explica cómo [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) es la solución.
 
 Sin embargo, nadie lo explica mejor que
 
-[Gregory Maxwell en Reddit](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/), donde responde a alguien que propone limitar la potencia Hash de los mineros para evitar posibles ataques del 51%:
+[Gregory Maxwell en Reddit](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/), donde responde a alguien que propone limitar la [potencia Hash](https://planb.academy/resources/glossary/hashrate) de los mineros para evitar posibles ataques del 51%:
 
 
 > Un sistema descentralizado como Bitcoin utiliza una elección pública. Pero en un sistema descentralizado no se puede votar solo por la "gente", porque para ello sería necesario que una parte centralizada autorizara a la gente a votar. En cambio, Bitcoin utiliza un voto de potencia de cálculo porque es posible verificar la potencia de cálculo sin la ayuda de ningún sistema centralizado
@@ -176,10 +174,10 @@ La conclusión es importante. Si la gente no protege la descentralización de Bi
 En los párrafos anteriores, hemos hablado principalmente de la descentralización minera y de cómo la centralización de los mineros puede permitir la censura. Pero también hay otro aspecto de la descentralización, la *descentralización del full node*.
 
 
-La importancia de la descentralización de un full node está relacionada con la desconfianza. Supongamos que un usuario deja de gestionar su propio full node debido, por ejemplo, a un aumento prohibitivo del coste de funcionamiento. En ese caso, tienen que interactuar con la red Bitcoin de alguna otra manera, posiblemente utilizando wallets web o wallets ligeras, lo que requiere un cierto nivel de confianza en los proveedores de estos servicios.
+La importancia de la descentralización de un full node está relacionada con la desconfianza. Supongamos que un usuario deja de gestionar su propio full node debido, por ejemplo, a un aumento prohibitivo del coste de funcionamiento. En ese caso, tienen que interactuar con la red Bitcoin de alguna otra manera, posiblemente utilizando [wallets](https://planb.academy/resources/glossary/wallet) web o wallets ligeras, lo que requiere un cierto nivel de confianza en los proveedores de estos servicios.
 
 
-El usuario pasa de aplicar directamente las reglas de consenso de la red a confiar en que otro lo haga. Supongamos ahora que la mayoría de los usuarios delegan la aplicación del consenso en una entidad de confianza. En ese caso, la red puede entrar rápidamente en una espiral de centralización, y las reglas de la red pueden ser modificadas por actores malintencionados que conspiren.
+El usuario pasa de aplicar directamente las [reglas de consenso](https://planb.academy/resources/glossary/consensus-rules) de la red a confiar en que otro lo haga. Supongamos ahora que la mayoría de los usuarios delegan la aplicación del [consenso](https://planb.academy/resources/glossary/consensus) en una entidad de confianza. En ese caso, la red puede entrar rápidamente en una espiral de centralización, y las reglas de la red pueden ser modificadas por actores malintencionados que conspiren.
 
 
 En un [Artículo de Bitcoin Magazine](https://bitcoinmagazine.com/technical/decentralist-perspective-Bitcoin-might-need-small-blocks-1442090446), Aaron van Wirdum entrevista a los desarrolladores de Bitcoin sobre sus puntos de vista acerca de la descentralización y los riesgos que conlleva aumentar el tamaño máximo de bloque de Bitcoin. Este debate fue un tema de Hot durante la era 2014-2017, cuando mucha gente discutía sobre aumentar el límite de tamaño de bloque para permitir un mayor rendimiento de las transacciones.
@@ -560,7 +558,7 @@ En el artículo allí comentado, Gregory Maxwell [afirmaba](https://bitcointalk.
 
 > La privacidad financiera es un elemento esencial para la fungibilidad en Bitcoin: si puedes distinguir significativamente una moneda de otra, entonces su fungibilidad es débil. Si nuestra fungibilidad es demasiado débil en la práctica, entonces no podemos ser descentralizados: si alguien importante anuncia una lista de monedas robadas de las que no aceptará monedas derivadas, debes comprobar cuidadosamente las monedas que aceptas con esa lista y devolver las que fallen. Todo el mundo se queda atascado comprobando listas negras emitidas por diversas autoridades porque en ese mundo a todos no nos gustaría quedarnos atascados con monedas malas. Esto añade fricción y costes transaccionales y hace que Bitcoin sea menos valiosa como moneda.
 
-Aquí habla de los peligros derivados de la falta de fungibilidad. Supongamos que tenemos una UTXO. La historia de esa UTXO puede rastrearse normalmente varios saltos atrás, extendiéndose a multitud de salidas anteriores. Si alguna de esas salidas estuvo implicada en alguna actividad ilegal, no deseada o sospechosa, algunos posibles receptores de su moneda podrían rechazarla. Si crees que los receptores de tus pagos verificarán tus monedas con algún servicio centralizado de listas blancas o negras, puede que tú también empieces a comprobar las monedas que recibes, solo para estar seguro. El resultado es que una mala fungibilidad reforzará una fungibilidad aún peor.
+Aquí habla de los peligros derivados de la falta de fungibilidad. Supongamos que tenemos una [UTXO](https://planb.academy/resources/glossary/utxo). La historia de esa UTXO puede rastrearse normalmente varios saltos atrás, extendiéndose a multitud de salidas anteriores. Si alguna de esas salidas estuvo implicada en alguna actividad ilegal, no deseada o sospechosa, algunos posibles receptores de su moneda podrían rechazarla. Si crees que los receptores de tus pagos verificarán tus monedas con algún servicio centralizado de listas blancas o negras, puede que tú también empieces a comprobar las monedas que recibes, solo para estar seguro. El resultado es que una mala fungibilidad reforzará una fungibilidad aún peor.
 
 
 Adam Back y Matt Corallo [hicieron una presentación sobre fungibilidad](https://btctranscripts.com/scalingbitcoin/milan-2016/fungibility-overview/) en Scaling Bitcoin en Milán en 2016. Estaban pensando en lo mismo:
@@ -645,7 +643,7 @@ Para conseguir una privacidad decente en Bitcoin, hay que tomar medidas activas,
 ![](assets/es/006.webp)
 
 
-Este capítulo analiza el límite de 21 millones de BTC de Bitcoin Supply, o ¿cuánto es en realidad? Hablamos de cómo se aplica este límite y qué se puede hacer para verificar que se respeta. Además, echamos un vistazo a la bola de cristal y analizamos la dinámica que entrará en juego cuando la block reward pase de estar basada en subvenciones a estar basada en comisiones.
+Este capítulo analiza el límite de 21 millones de BTC de Bitcoin Supply, o ¿cuánto es en realidad? Hablamos de cómo se aplica este límite y qué se puede hacer para verificar que se respeta. Además, echamos un vistazo a la bola de cristal y analizamos la dinámica que entrará en juego cuando la [block reward](https://planb.academy/resources/glossary/block-reward) pase de estar basada en subvenciones a estar basada en comisiones.
 
 
 El conocido supply finito de 21 millones de BTC se considera una propiedad fundamental del Bitcoin. Pero, ¿está realmente grabada en piedra?
@@ -656,7 +654,7 @@ Empecemos por ver qué dicen las reglas de consenso actuales sobre el supply del
 
 > Si se suman todas estas cifras, se obtiene 20999999.9769 BTC.
 
-Pero debido a una serie de razones —como los problemas iniciales con las transacciones de coinbase, los mineros que involuntariamente reclaman menos de lo permitido y la pérdida de claves privadas— ese límite superior nunca se alcanzará. Wuille concluye:
+Pero debido a una serie de razones —como los problemas iniciales con las [transacciones de coinbase](https://planb.academy/resources/glossary/coinbase-transaction), los mineros que involuntariamente reclaman menos de lo permitido y la pérdida de claves privadas— ese límite superior nunca se alcanzará. Wuille concluye:
 
 
 > Esto nos deja con 20999817.31308491 BTC (teniendo en cuenta todo hasta el bloque 528333)
@@ -687,7 +685,7 @@ Incluso si algunos full nodes se pasan al lado oscuro y deciden aceptar bloques 
 
 
 
-Una Block reward se compone de la subvención por bloque más las comisiones por transacción. La Block reward tiene que cubrir los costes de seguridad de Bitcoin. Podemos afirmar con seguridad que, en las condiciones actuales en lo que respecta a la subvención por bloque, las comisiones por transacción, el precio del Bitcoin, el tamaño del Mempool, la potencia del Hash, el grado de descentralización, etc., los incentivos para que todos los jugadores respeten las reglas son lo suficientemente altos como para preservar un sistema monetario seguro.
+Una Block reward se compone de la [subvención por bloque](https://planb.academy/resources/glossary/block-subsidy) más las [comisiones por transacción](https://planb.academy/resources/glossary/transaction-fees). La Block reward tiene que cubrir los costes de seguridad de Bitcoin. Podemos afirmar con seguridad que, en las condiciones actuales en lo que respecta a la subvención por bloque, las comisiones por transacción, el precio del Bitcoin, el tamaño del [Mempool](https://planb.academy/resources/glossary/mempool), la potencia del Hash, el grado de descentralización, etc., los incentivos para que todos los jugadores respeten las reglas son lo suficientemente altos como para preservar un sistema monetario seguro.
 
 
 ¿Qué ocurre cuando la subvención en bloque se aproxima a cero? Para simplificar, supongamos que es igual a cero. Llegados a este punto, el coste de seguridad del sistema se cubre únicamente mediante las comisiones por transacción. No podemos saber qué nos deparará el futuro cuando esto ocurra. Los factores de incertidumbre son numerosos y no nos queda más remedio que especular. Por ejemplo, la contribución de Paul Sztorc al tema [en su blog Truthcoin](https://www.truthcoin.info/blog/security-budget/) es en su mayor parte especulación, pero tiene al menos un punto sólido (por favor, ten en cuenta que M2, tal y como lo menciona Sztorc, es una medida de un Supply de dinero fiduciario):
@@ -698,7 +696,7 @@ Hoy son los tenedores quienes pagan por la seguridad (vía inflación monetaria)
 
 A medida que pase el tiempo, los costes de seguridad pasarán de los poseedores a los gastadores.
 
-Cuando las comisiones por transacción son la principal motivación para la minería, los incentivos cambian. En particular, si la Mempool de un minero no contiene suficientes comisiones por transacción, puede resultar más rentable para ese minero reescribir la historia del Bitcoin en lugar de ampliarla. Bitcoin Optech tiene una [sección sobre este comportamiento](https://bitcoinops.org/en/topics/fee-sniping/) específica, llamada *fee sniping*, escrita por David Harding:
+Cuando las comisiones por transacción son la principal motivación para la minería, los incentivos cambian. En particular, si la Mempool de un minero no contiene suficientes comisiones por transacción, puede resultar más rentable para ese minero reescribir la historia del Bitcoin en lugar de ampliarla. Bitcoin Optech tiene una [sección sobre este comportamiento](https://bitcoinops.org/en/topics/fee-sniping/) específica, llamada *[fee sniping](https://planb.academy/resources/glossary/fee-sniping)*, escrita por David Harding:
 
 > El recorte de comisiones es un problema que puede surgir a medida que la subvención de Bitcoin siga disminuyendo y las comisiones por transacción empiecen a dominar las recompensas por bloque de Bitcoin. Si las comisiones por transacción son lo único que importa, entonces un Miner con un `x` por ciento de la tasa de Hash tiene un `x` por ciento de posibilidades de Mining el siguiente bloque, por lo que el valor esperado para ellos de Mining honestamente es el `x` por ciento del [mejor conjunto feerado de transacciones](https://bitcoinops.org/en/newsletters/2021/06/02/#candidate-set-based-csb-block-template-construction) en su Mempool.
 >
@@ -775,7 +773,7 @@ Una norma es compatible con el futuro si un producto que cumple las versiones an
 Y viceversa, [compatibilidad con versiones anteriores](https://en.wikipedia.org/wiki/Backward_compatibility) se refiere a cuando los datos de un software antiguo pueden utilizarse en softwares más recientes. Se dice que un cambio es totalmente compatible si lo es tanto hacia adelante como hacia atrás.
 
 
-Se dice que una modificación de las reglas de consenso de Bitcoin es una **Soft Fork** si es totalmente compatible. Esta es la forma más común de actualizar Bitcoin, por una serie de razones que discutiremos más adelante en este capítulo. Si un cambio en las reglas de consenso de Bitcoin es compatible hacia atrás pero no hacia adelante, se dice que es una **Hard Fork**.
+Se dice que una modificación de las reglas de consenso de Bitcoin es una **[Soft Fork](https://planb.academy/resources/glossary/soft-fork)** si es totalmente compatible. Esta es la forma más común de actualizar Bitcoin, por una serie de razones que discutiremos más adelante en este capítulo. Si un cambio en las reglas de consenso de Bitcoin es compatible hacia atrás pero no hacia adelante, se dice que es una **[Hard Fork](https://planb.academy/resources/glossary/hard-fork)**.
 
 
 Para obtener una visión general técnica de las bifurcaciones de Soft y Hard, lea el [capítulo 11 de Grokking Bitcoin](https://rosenbaum.se/book/grokking-Bitcoin-11.html). Explica estos términos y también se sumerge en los mecanismos de actualización. Es recomendable, aunque no estrictamente necesario, que te familiarices con esto antes de seguir leyendo.
@@ -790,24 +788,24 @@ Bitcoin no es lo mismo hoy que cuando se creó el bloque Genesis. Se han realiza
 
 > De hecho, hubo un Hard Fork en Bitcoin que Satoshi hizo y que nosotros nunca lo haríamos de esta manera: es una forma bastante mala de hacerlo. Si miras la descripción del commit de git aquí [[757f076](https://github.com/Bitcoin/Bitcoin/commit/757f0769d8360ea043f469f3a35f6ec204740446)], dice algo sobre revertir makefile.unix wx-config versión 0.3.6. Correcto. Eso es todo lo que dice. No tiene ninguna indicación de que tiene un cambio de ruptura en absoluto. Básicamente lo estaba escondiendo ahí. También [publicó en bitcointalk](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451) y dijo, por favor actualice a 0.3.6 lo antes posible. Hemos corregido un error de implementación por el que es posible que transacciones falsas aparezcan como aceptadas. No aceptes pagos de Bitcoin hasta que actualices a 0.3.6. Si no puede actualizar inmediatamente, lo mejor sería apagar su nodo Bitcoin hasta que lo haga. Y encima, no sé por qué decidió hacer esto también, decidió añadir algunas optimizaciones en el mismo código. Arreglar un bug y añadir algunas optimizaciones.
 
-Señala que, intencionadamente o no, esta Hard Fork creó oportunidades para futuras bifurcaciones de Soft, concretamente los operadores de script (opcodes) OP_NOP1-OP_NOP10. Analizaremos más a fondo este cambio de código en cve-2010-5141. Estos opcodes se han utilizado en dos bifurcaciones de Soft hasta ahora:
+Señala que, intencionadamente o no, esta Hard Fork creó oportunidades para futuras bifurcaciones de Soft, concretamente los operadores de script ([opcodes](https://planb.academy/resources/glossary/opcodes)) OP_NOP1-OP_NOP10. Analizaremos más a fondo este cambio de código en cve-2010-5141. Estos opcodes se han utilizado en dos bifurcaciones de Soft hasta ahora:
 
 
 - [BIP65](https://github.com/Bitcoin/bips/blob/master/bip-0065.mediawiki) (OP_CHECKLOCKTIMEVERIFY)
 - [BIP113](https://github.com/Bitcoin/bips/blob/master/bip-0112.mediawiki) (OP_SEQUENCEVERIFY).
 
 
-Lombrozo también ofrece una visión general de cómo han evolucionado los mecanismos de actualización a lo largo de los años, hasta 2017. Desde entonces, solo se ha desplegado otra actualización importante, Taproot. El largo y algo caótico proceso que condujo a su activación nos ha ayudado a conocer mejor los mecanismos de mejora de Bitcoin.
+Lombrozo también ofrece una visión general de cómo han evolucionado los mecanismos de actualización a lo largo de los años, hasta 2017. Desde entonces, solo se ha desplegado otra actualización importante, [Taproot](https://planb.academy/resources/glossary/taproot). El largo y algo caótico proceso que condujo a su activación nos ha ayudado a conocer mejor los mecanismos de mejora de Bitcoin.
 
 
 #### Actualización de SegWit
 
 
 
-Mientras que todas las actualizaciones anteriores a SegWit habían sido más o menos indoloras, esta fue diferente. Cuando se publicó el código de activación de SegWit, en octubre de 2016, parecía haber un apoyo abrumador entre los usuarios de Bitcoin, pero por alguna razón los mineros no señalaron su apoyo a esta actualización, lo que paralizó la activación sin solución a la vista.
+Mientras que todas las actualizaciones anteriores a [SegWit](https://planb.academy/resources/glossary/segwit) habían sido más o menos indoloras, esta fue diferente. Cuando se publicó el código de activación de SegWit, en octubre de 2016, parecía haber un apoyo abrumador entre los usuarios de Bitcoin, pero por alguna razón los mineros no señalaron su apoyo a esta actualización, lo que paralizó la activación sin solución a la vista.
 
 
-Aaron van Wirdum describe este sinuoso camino en su artículo de Bitcoin Magazine [The Long Road To SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality). Comienza explicando qué es SegWit y cómo incide en el debate sobre el tamaño de los bloques. A continuación, van Wirdum esboza el giro de los acontecimientos que condujeron a su activación final. En el centro de este proceso estaba un mecanismo de actualización llamado *Soft Fork activada por el usuario*, o UASF para abreviar, que fue propuesto por el usuario Shaolinfry:
+Aaron van Wirdum describe este sinuoso camino en su artículo de Bitcoin Magazine [The Long Road To SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality). Comienza explicando qué es SegWit y cómo incide en el debate sobre el tamaño de los bloques. A continuación, van Wirdum esboza el giro de los acontecimientos que condujeron a su activación final. En el centro de este proceso estaba un mecanismo de actualización llamado *Soft Fork activada por el usuario*, o [UASF](https://planb.academy/resources/glossary/uasf) para abreviar, que fue propuesto por el usuario Shaolinfry:
 
 
 > Shaolinfry propuso una alternativa: una Soft Fork activada por el usuario (UASF). En lugar de la activación mediante energía hash, una Soft Fork activada por el usuario tendría una "'activación de día de bandera' en la que los nodos comienzan la aplicación en un momento predeterminado en el futuro". Siempre que tal UASF sea aplicada por una mayoría económica, esto debería obligar a una mayoría de mineros a seguir (o activar) la Soft Fork.
@@ -967,7 +965,7 @@ Para mantener la armonía en Bitcoin, las bifurcaciones de Soft han demostrado s
 
 Este capítulo aborda el *pensamiento adversario*, una mentalidad que se centra en lo que podría salir mal y en cómo podrían actuar los adversarios. Comenzamos discutiendo los supuestos de seguridad y el modelo de seguridad de Bitcoin, tras lo cual explicamos cómo los usuarios ordinarios pueden mejorar su auto-soberanía y la descentralización Full node de Bitcoin pensando de forma adversaria. A continuación, examinamos algunas amenazas reales a Bitcoin, así como la mente del adversario. Por último, hablamos del *axioma de la resistencia*, que puede ayudarte a entender por qué la gente está trabajando en Bitcoin en primer lugar.
 
-Cuando se habla de seguridad en varios sistemas, es importante entender cuáles son los supuestos de seguridad. Un supuesto de seguridad típico en Bitcoin es que "el problema del logaritmo discreto es díficil de resolver", lo que, en pocas palabras, significa que es prácticamente imposible encontrar una clave privada que corresponda a una clave pública concreta. Otro supuesto de seguridad bastante fuerte es que la mayoría del hashpower de la red es honesto, lo que significa que juega según las reglas. Si se demuestra que estas suposiciones son erróneas, entonces Bitcoin está en problemas.
+Cuando se habla de seguridad en varios sistemas, es importante entender cuáles son los supuestos de seguridad. Un supuesto de seguridad típico en Bitcoin es que "el problema del [logaritmo discreto](https://planb.academy/resources/glossary/discrete-logarithm) es díficil de resolver", lo que, en pocas palabras, significa que es prácticamente imposible encontrar una [clave privada](https://planb.academy/resources/glossary/private-key) que corresponda a una [clave pública](https://planb.academy/resources/glossary/public-key) concreta. Otro supuesto de seguridad bastante fuerte es que la mayoría del hashpower de la red es honesto, lo que significa que juega según las reglas. Si se demuestra que estas suposiciones son erróneas, entonces Bitcoin está en problemas.
 
 
 En 2015 Andrew Poelstra [dio una charla](https://btctranscripts.com/scalingbitcoin/hong-kong-2015/security-assumptions/) en la conferencia Scaling Bitcoin de Hong Kong, durante la cual analizó los supuestos de seguridad de Bitcoin. Comienza señalando que muchos sistemas no tienen en cuenta a los adversarios hasta cierto punto; por ejemplo, es realmente dífcil proteger un edificio contra todo tipo de eventos adversos. En su lugar, generalmente aceptamos la posibilidad de que alguien queme el edificio, y hasta cierto punto prevenimos este y otros comportamientos adversos mediante la aplicación de la ley, etc.
@@ -999,7 +997,7 @@ Así pues, tenemos un sistema que parece funcionar en la práctica, pero que no 
 ### No solo para expertos en Bitcoin
 
 
-La importancia del pensamiento adversario también se extiende hasta cierto punto a los usuarios cotidianos de Bitcoin, no solo a los desarrolladores y expertos acérrimos de Bitcoin. Ragnar Lifthasir menciona en un [tweetstorm](https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking) cómo las narrativas simplistas en torno a Bitcoin - por ejemplo, "solo HODL" - pueden ser degradantes para Bitcoin en sí, y concluye diciendo
+La importancia del pensamiento adversario también se extiende hasta cierto punto a los usuarios cotidianos de Bitcoin, no solo a los desarrolladores y expertos acérrimos de Bitcoin. Ragnar Lifthasir menciona en un [tweetstorm](https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking) cómo las narrativas simplistas en torno a Bitcoin - por ejemplo, "solo [HODL](https://planb.academy/resources/glossary/hodl)" - pueden ser degradantes para Bitcoin en sí, y concluye diciendo
 
 
 > Para que Bitcoin y nosotros mismos seamos más fuertes, tenemos que pensar como los ingenieros de software que contribuyen a Bitcoin. Hacen revisiones por pares, buscando fallos sin piedad. En sus eventos técnicos hablan de todas las formas en que puede fallar una propuesta. Piensan de forma contradictoria. Son conservadores
@@ -1013,9 +1011,9 @@ Hay muchas debilidades conocidas en Bitcoin, y muchas de ellas están siendo exp
 
 > Si un atacante intenta llenar la red con clientes que controla, entonces sería muy probable que se conectara solo a nodos atacantes. Aunque Bitcoin nunca utiliza un recuento de nodos para nada, aislar completamente un nodo de la red honesta puede ser útil en la ejecución de otros ataques.
 
-Este tipo de ataque se denomina *Ataque Sybil*, y se produce siempre que una única entidad controla varios nodos de una red y los utiliza para aparecer como varias entidades.
+Este tipo de ataque se denomina *[Ataque Sybil](https://planb.academy/resources/glossary/sybil-attack)*, y se produce siempre que una única entidad controla varios [nodos](https://planb.academy/resources/glossary/node) de una red y los utiliza para aparecer como varias entidades.
 
-Como también menciona la cita, el ataque Sybil no es efectivo en la red Bitcoin porque no hay votación a través de nodos u otras entidades numerables, sino a través de la potencia de cálculo. No obstante, esta estructura plana hace que el sistema sea susceptible de otros ataques. La página wiki de Bitcoin también esboza otros posibles ataques, como el ocultamiento de información (a menudo conocido como *ataque eclipse*), y la forma en que Bitcoin Core implementa algunas contramedidas heurísticas contra tales ataques.
+Como también menciona la cita, el ataque Sybil no es efectivo en la red Bitcoin porque no hay votación a través de nodos u otras entidades numerables, sino a través de la potencia de cálculo. No obstante, esta estructura plana hace que el sistema sea susceptible de otros ataques. La página wiki de Bitcoin también esboza otros posibles ataques, como el ocultamiento de información (a menudo conocido como *[ataque eclipse](https://planb.academy/resources/glossary/eclipse-attack)*), y la forma en que [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core) implementa algunas contramedidas heurísticas contra tales ataques.
 
 Los anteriores son ejemplos de amenazas reales de las que hay que ocuparse.
 
@@ -1029,7 +1027,7 @@ Para comprender mejor la mente del adversario, puede ser útil echar un vistazo 
 Por ejemplo, hay una sección sobre cómo un infiltrado puede desbaratar organizaciones. No es díficil ver cómo esas tácticas podrían utilizarse para atacar el proceso de desarrollo Bitcoin, en el que cualquiera puede participar. Un atacante dedicado puede seguir paralizando el progreso con interminables preocupaciones sobre cuestiones irrelevantes, regatear sobre redacciones precisas e intentar reiterar discusiones que ya se han abordado exhaustivamente. El atacante también puede contratar a un ejército de trolls para multiplicar su propia eficacia; podemos llamar a esto un ataque social Sybil. Utilizando un ataque social Sybil, pueden hacer que parezca que hay más resistencia contra un cambio propuesto de la que realmente hay.
 
 
-Esto pone de relieve cómo un Estado decidido puede hacer y hará todo lo que esté en su mano para destruir al enemigo, incluso acabar con él desde dentro. Dado que Bitcoin es una forma de dinero que compite con las monedas fiduciarias establecidas, lo más probable es que los Estados consideren a Bitcoin como un enemigo.
+Esto pone de relieve cómo un Estado decidido puede hacer y hará todo lo que esté en su mano para destruir al enemigo, incluso acabar con él desde dentro. Dado que Bitcoin es una forma de dinero que compite con las [monedas fiduciarias](https://planb.academy/resources/glossary/fiat) establecidas, lo más probable es que los Estados consideren a Bitcoin como un enemigo.
 
 
 ### Axioma de la resistencia
@@ -1060,7 +1058,7 @@ Para mantener a salvo la Bitcoin hay que conocer a sus enemigos y sus incentivos
 ![](assets/es/010.webp)
 
 
-Bitcoin se ha construido utilizando software de código abierto. En este capítulo analizamos qué significa esto, cómo funciona el mantenimiento del software y cómo el software de código abierto en Bitcoin permite el desarrollo sin permisos. Nos sumergimos en la *criptografía de selección*, que trata de la selección y el uso de bibliotecas en sistemas criptográficos. El capítulo incluye una sección sobre el proceso de revisión de Bitcoin, seguida de otra sobre las formas en que los desarrolladores de Bitcoin obtienen financiación. La última sección habla de cómo la cultura de código abierto de Bitcoin puede parecer realmente extraña desde fuera, y por qué esta rareza percibida es en realidad un signo de buena salud.
+Bitcoin se ha construido utilizando software de código abierto. En este capítulo analizamos qué significa esto, cómo funciona el mantenimiento del software y cómo el software de código abierto en Bitcoin permite el desarrollo sin permisos. Nos sumergimos en la *[criptografía](https://planb.academy/resources/glossary/cryptography) de selección*, que trata de la selección y el uso de bibliotecas en sistemas criptográficos. El capítulo incluye una sección sobre el proceso de revisión de Bitcoin, seguida de otra sobre las formas en que los desarrolladores de Bitcoin obtienen financiación. La última sección habla de cómo la cultura de código abierto de Bitcoin puede parecer realmente extraña desde fuera, y por qué esta rareza percibida es en realidad un signo de buena salud.
 
 
 La mayoría de los programas de Bitcoin, y especialmente Bitcoin Core, son de código abierto. Esto significa que el código fuente del software se pone a disposición del público en general para su escrutinio, retoque, modificación y redistribución. La definición de código abierto en [](https://opensource.org/osd) incluye, entre otros, los siguientes puntos importantes:
@@ -1094,7 +1092,7 @@ En las próximas secciones nos sumergiremos en otros aspectos interesantes del s
 
 ### Mantenimiento del software
 
-El código fuente de Bitcoin Core se mantiene en un repositorio Git alojado en [GitHub](https://github.com/Bitcoin/Bitcoin). Cualquiera puede clonar ese mismo repositorio sin pedir ningún permiso, y luego inspeccionarlo, compilarlo o hacerle cambios localmente. Esto significa que hay muchos miles de copias del repositorio repartidas por todo el mundo. Son todas copias del mismo repositorio, así que ¿qué hace que este repositorio específico de GitHub Bitcoin Core sea tan especial? Técnicamente no es especial en absoluto, pero socialmente se ha convertido en el punto focal del desarrollo de Bitcoin.
+El código fuente de Bitcoin Core se mantiene en un repositorio [Git](https://planb.academy/resources/glossary/git) alojado en [GitHub](https://github.com/Bitcoin/Bitcoin). Cualquiera puede clonar ese mismo repositorio sin pedir ningún permiso, y luego inspeccionarlo, compilarlo o hacerle cambios localmente. Esto significa que hay muchos miles de copias del repositorio repartidas por todo el mundo. Son todas copias del mismo repositorio, así que ¿qué hace que este repositorio específico de GitHub Bitcoin Core sea tan especial? Técnicamente no es especial en absoluto, pero socialmente se ha convertido en el punto focal del desarrollo de Bitcoin.
 
 El experto en Bitcoin y seguridad Jameson Lopp lo explica muy bien en una [entrada de blog](https://blog.lopp.net/who-controls-Bitcoin-core-/) titulada "¿Quién controla Bitcoin Core?":
 
@@ -1123,10 +1121,10 @@ Hemos establecido que cualquiera puede escribir código para Bitcoin Core sin pe
 
 Probablemente igual de importante es que los usuarios son libres de desarrollar sistemas sobre Bitcoin, sin pedir ningún permiso. Hemos visto innumerables proyectos de software de éxito que se construyeron sobre Bitcoin, como:
 
-- Lightning Network: Red de pago que permite el pago rápido de cantidades muy pequeñas. Requiere muy pocas transacciones Bitcoin On-Chain. Existen varias implementaciones interoperables, como [Core Lightning](https://github.com/ElementsProject/lightning), [LND](https://github.com/lightningnetwork/LND), [Eclair](https://github.com/ACINQ/eclair) y [Lightning Dev Kit](https://github.com/lightningdevkit).
-- CoinJoin: Varias partes colaboran para combinar sus pagos en una única transacción para dificultar la agrupación de direcciones. Existen varias implementaciones.
-- Cadenas laterales: Este sistema puede bloquear una moneda en la Blockchain de Bitcoin para desbloquearla en alguna otra Blockchain. Esto permite trasladar bitcoins a otra Blockchain, es decir, a una Sidechain, para poder utilizar las funciones disponibles en esa Sidechain. Algunos ejemplos son [Blockstream's Elements](https://github.com/ElementsProject/Elements).
-- OpenTimestamps: Le permite [Timestamp un documento](https://opentimestamps.org/) en la Blockchain de Bitcoin de forma privada. A continuación, puede utilizar ese Timestamp para demostrar que un documento debe haber existido antes de un cierto tiempo.
+- [Lightning Network](https://planb.academy/resources/glossary/lightning-network): Red de pago que permite el pago rápido de cantidades muy pequeñas. Requiere muy pocas transacciones Bitcoin [On-Chain](https://planb.academy/resources/glossary/onchain). Existen varias implementaciones interoperables, como [Core Lightning](https://github.com/ElementsProject/lightning), [LND](https://github.com/lightningnetwork/LND), [Eclair](https://github.com/ACINQ/eclair) y [Lightning Dev Kit](https://github.com/lightningdevkit).
+- [CoinJoin](https://planb.academy/resources/glossary/coinjoin): Varias partes colaboran para combinar sus pagos en una única transacción para dificultar la agrupación de direcciones. Existen varias implementaciones.
+- Cadenas laterales: Este sistema puede bloquear una moneda en la Blockchain de Bitcoin para desbloquearla en alguna otra Blockchain. Esto permite trasladar bitcoins a otra Blockchain, es decir, a una [Sidechain](https://planb.academy/resources/glossary/sidechain), para poder utilizar las funciones disponibles en esa Sidechain. Algunos ejemplos son [Blockstream's Elements](https://github.com/ElementsProject/Elements).
+- OpenTimestamps: Le permite [Timestamp un documento](https://opentimestamps.org/) en la Blockchain de Bitcoin de forma privada. A continuación, puede utilizar ese [Timestamp](https://planb.academy/resources/glossary/timestamp) para demostrar que un documento debe haber existido antes de un cierto tiempo.
 
 Sin el desarrollo sin permisos, muchos de estos proyectos no habrían sido posibles. Como se indica en el capítulo sobre Neutralidad, si los desarrolladores tuvieran que pedir permiso para construir protocolos sobre Bitcoin, solo se desarrollarían los protocolos permitidos por el comité central de concesión de permisos a desarrolladores.
 
@@ -1197,7 +1195,7 @@ Esta sección se llama "Revisión", en lugar de "Revisión del código", porque 
 En su camino hacia la adopción final, una idea suele pasar por varias fases de debate y revisión. A continuación se enumeran algunas de ellas:
 
 - Se ha publicado una idea en la lista de correo Bitcoin-dev
-- La idea se formaliza en una Propuesta de Mejora Bitcoin (BIP)
+- La idea se formaliza en una Propuesta de Mejora Bitcoin ([BIP](https://planb.academy/resources/glossary/bip))
 - El BIP se implementa en una solicitud de pull (PR) a Bitcoin Core
 - Se debaten los mecanismos de despliegue
 - Algunos mecanismos de despliegue competidores se implementan en pull requests a Bitcoin Core
@@ -1235,14 +1233,14 @@ Las empresas, individuos y organizaciones interesados en el éxito continuado de
 
 A veces, la gente tiene la impresión de que entre los desarrolladores de Bitcoin hay muchas luchas internas e interminables debates acalorados, y que son incapaces de tomar decisiones.
 
-Por ejemplo, el mecanismo de despliegue de Taproot se debatió durante un largo periodo de tiempo, formándose dos "bandos". Uno quería que la actualización "fracasara" (fail) si los mineros no habían votado abrumadoramente a favor de las nuevas reglas después de un determinado momento, mientras que el otro quería aplicar las reglas a partir de ese momento pasara lo que pasara. Michael Folkson resume los argumentos de los dos bandos en un [email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html) a la lista de correo Bitcoin-dev.
+Por ejemplo, el mecanismo de despliegue de Taproot se debatió durante un largo periodo de tiempo, formándose dos "bandos". Uno quería que la actualización "fracasara" (fail) si los [mineros](https://planb.academy/resources/glossary/miner) no habían votado abrumadoramente a favor de las nuevas reglas después de un determinado momento, mientras que el otro quería aplicar las reglas a partir de ese momento pasara lo que pasara. Michael Folkson resume los argumentos de los dos bandos en un [email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html) a la lista de correo Bitcoin-dev.
 
 El debate pareció interminable, y era realmente difícil que se formara un consenso a corto plazo. Esto frustró a la gente y, como resultado, el calor se intensificó. A Gregory Maxwell (como usuario nullc) le preocupaba [en Reddit](https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3) que las largas discusiones hicieran que la actualización fuera menos segura:
 
 
 > En esta coyuntura, la espera adicional no está añadiendo más revisión y certidumbre. Por el contrario, el retraso adicional está minando la inercia y aumentando potencialmente el riesgo en cierta medida, ya que la gente empieza a olvidar detalles, retrasa el trabajo sobre el uso posterior (como la compatibilidad con Wallet) y no invierte tanto esfuerzo de revisión adicional como el que invertiría si se sintiera segura sobre el plazo de activación.
 
-Finalmente, esta disputa se resolvió gracias a una nueva propuesta de David Harding y Russell O'Connor llamada Speedy Trial (Juicio Rápido), que implicaba un periodo de señalización comparativamente más corto para que los mineros bloquearan la activación de Taproot, o falle rápidamente. Si la activaban durante ese lapso de tiempo, Taproot se desplegaría aproximadamente 6 meses después.
+Finalmente, esta disputa se resolvió gracias a una nueva propuesta de David Harding y Russell O'Connor llamada [Speedy Trial](https://planb.academy/resources/glossary/speedy-trial) (Juicio Rápido), que implicaba un periodo de señalización comparativamente más corto para que los mineros bloquearan la activación de Taproot, o falle rápidamente. Si la activaban durante ese lapso de tiempo, Taproot se desplegaría aproximadamente 6 meses después.
 
 Alguien que no esté acostumbrado al proceso de desarrollo de Bitcoin probablemente pensaría que estos acalorados debates tienen muy mala pinta e incluso son tóxicos. Hay al menos dos factores que los hacen parecer malos a ojos de algunas personas:
 
@@ -1260,7 +1258,7 @@ Otra cosa que vale la pena mencionar es que, puesto que Bitcoin es dinero y Bitc
 los desarrolladores pueden parecer muy tercos y cabezas duras, actitud que suele estar justificada. De hecho, una función con una lógica débil detrás no va a ser aceptada. Lo mismo ocurriría si rompiera las construcciones reproducibles, añadiera nuevas dependencias, o si el código no siguiera las [mejores prácticas de Bitcoin](https://github.com/Bitcoin/Bitcoin/blob/master/doc/developer-notes.md).
 
 
-Los nuevos (y viejos) desarrolladores pueden sentirse frustrados por esto. Pero, como es habitual en el software de código abierto, siempre puedes forkear el repositorio, fusionar lo que quieras a tu propio fork, y construir y ejecutar tu propio binario.
+Los nuevos (y viejos) desarrolladores pueden sentirse frustrados por esto. Pero, como es habitual en el software de código abierto, siempre puedes [forkear](https://planb.academy/resources/glossary/fork) el repositorio, fusionar lo que quieras a tu propio fork, y construir y ejecutar tu propio binario.
 
 
 ### Conclusión sobre el código abierto
@@ -1295,7 +1293,7 @@ En el contexto de Bitcoin, y para los propósitos de este libro, *definimos esca
 
 - Menor consumo de bytes en las transacciones
 - Mejora del rendimiento de la verificación de firmas
-- Hacer que la red peer-to-peer utilice menos ancho de banda
+- Hacer que la red [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) utilice menos ancho de banda
 - Dosificación de transacciones
 - Arquitectura por capas
 
@@ -1305,7 +1303,7 @@ Pronto nos adentraremos en los distintos enfoques de la ampliación, pero empece
 
 
 
-El escalado ha sido un punto central de discusión desde la Genesis de Bitcoin. La primera frase del [primer correo electrónico](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) en respuesta al anuncio de Satoshi del libro blanco de Bitcoin en la lista de correo de Criptografía trataba, de hecho, sobre el escalado:
+El escalado ha sido un punto central de discusión desde la Genesis de Bitcoin. La primera frase del [primer correo electrónico](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) en respuesta al anuncio de Satoshi del [libro blanco](https://planb.academy/resources/glossary/white-paper) de Bitcoin en la lista de correo de Criptografía trataba, de hecho, sobre el escalado:
 
 
 > Satoshi Nakamoto escribió:
@@ -1352,7 +1350,7 @@ Además de los efectos negativos sobre la descentralización de Full node, el es
 - La validación del bloque lleva tiempo.
 
 
-Mientras el bloque 7 se propaga por la red, muchos mineros todavía están minando sobre el bloque 6 porque aún no han recibido y validado el bloque 7. Durante este tiempo, si alguno de estos mineros encuentra un nuevo bloque a la altura 7, habrá dos bloques compitiendo a esa altura. Solo puede haber un bloque en la altura 7 (o en cualquier otra altura), lo que significa que uno de los dos candidatos debe quedar obsoleto.
+Mientras el bloque 7 se propaga por la red, muchos mineros todavía están minando sobre el bloque 6 porque aún no han recibido y validado el bloque 7. Durante este tiempo, si alguno de estos mineros encuentra un nuevo bloque a la altura 7, habrá dos bloques compitiendo a esa altura. Solo puede haber un bloque en la altura 7 (o en cualquier otra altura), lo que significa que uno de los dos candidatos debe quedar [obsoleto](https://planb.academy/resources/glossary/stale-block).
 
 
 En resumen, los bloques obsoletos se producen porque cada bloque tarda tiempo en propagarse, y cuanto más tarda la propagación, mayor es la probabilidad de que se produzcan bloques obsoletos.
@@ -1364,7 +1362,7 @@ A los mineros no les gusta que sus bloques se bloqueen porque perderían su reco
 
 
 - Aplazamiento de la validación de un bloque entrante, también conocido como *Minería sin validación*. Los mineros pueden comprobar la Proof-of-Work de la cabecera del bloque y minar sobre ella, mientras descargan el bloque completo y lo validan.
-- Conexión a un grupo de minería (Mining pool) con mayor ancho de banda y conectividad.
+- Conexión a un grupo de minería ([Mining pool](https://planb.academy/resources/glossary/pool-mining)) con mayor ancho de banda y conectividad.
 
 
 La minería sin validación socava aún más la descentralización del full node, ya que el minero recurre a confiar en los bloques entrantes, al menos temporalmente. También perjudica en cierta medida a la seguridad, ya que una parte de la potencia de cálculo de la red se basa potencialmente en una Blockchain no válida, en lugar de hacerlo en la cadena más sólida y válida.
@@ -1414,7 +1412,7 @@ Las distintas líneas representan diferentes versiones de Bitcoin Core. La líne
 Las mejoras pueden clasificarse en ahorro de espacio (RAM, disco, ancho de banda, etc.) o ahorro de potencia de cálculo. Ambas categorías contribuyen a las mejoras del diagrama anterior.
 
 
-Un buen ejemplo de mejora computacional puede encontrarse en la biblioteca [libsecp256k1](https://github.com/Bitcoin-core/secp256k1), que, entre otras cosas, implementa las primitivas criptográficas necesarias para realizar y verificar firmas digitales. Pieter Wuille es uno de los contribuyentes a esta biblioteca, y escribió un [hilo de Twitter](https://twitter.com/pwuille/status/1450471673321381896) mostrando las mejoras de rendimiento logradas a través de varias pull requests.
+Un buen ejemplo de mejora computacional puede encontrarse en la biblioteca [libsecp256k1](https://github.com/Bitcoin-core/secp256k1), que, entre otras cosas, implementa las primitivas criptográficas necesarias para realizar y verificar [firmas digitales](https://planb.academy/resources/glossary/digital-signature). Pieter Wuille es uno de los contribuyentes a esta biblioteca, y escribió un [hilo de Twitter](https://twitter.com/pwuille/status/1450471673321381896) mostrando las mejoras de rendimiento logradas a través de varias pull requests.
 
 
 ![](assets/es/013.webp)
@@ -1435,7 +1433,7 @@ También hay varios buenos ejemplos de mejoras para ahorrar espacio que contribu
 Ahorro de espacio para distintos tipos de gastos, Taproot y versiones heredadas.
 
 
-Un Multisig de 2 de 3 utilizando SegWit nativo requeriría un total de 104,5+43 vB = 147,5 vB, mientras que el uso más conservador del espacio de Taproot requeriría solo 57,5+43 vB = 100,5 vB en el caso de uso estándar. En el peor de los casos y en raras ocasiones, como cuando un firmante estándar no está disponible por algún motivo, Taproot utilizaría 107,5+43 vB = 150,5 vB. No es necesario que entiendas todos los detalles, pero esto debería darte una idea de cómo piensan los desarrolladores a la hora de ahorrar espacio: cada pequeño byte cuenta.
+Un [Multisig](https://planb.academy/resources/glossary/multisig) de 2 de 3 utilizando SegWit nativo requeriría un total de 104,5+43 vB = 147,5 vB, mientras que el uso más conservador del espacio de Taproot requeriría solo 57,5+43 vB = 100,5 vB en el caso de uso estándar. En el peor de los casos y en raras ocasiones, como cuando un firmante estándar no está disponible por algún motivo, Taproot utilizaría 107,5+43 vB = 150,5 vB. No es necesario que entiendas todos los detalles, pero esto debería darte una idea de cómo piensan los desarrolladores a la hora de ahorrar espacio: cada pequeño byte cuenta.
 
 
 Aparte del escalado hacia dentro en el software Bitcoin, hay algunas formas en que los usuarios pueden contribuir también al escalado hacia dentro. Pueden hacer sus transacciones de forma más inteligente para ahorrar en gastos de transacción y, al mismo tiempo, reducir su huella en los requisitos de Full node. Dos de las técnicas más utilizadas para lograr este objetivo son la agrupación de transacciones y la consolidación de salidas.
@@ -1478,7 +1476,7 @@ Cómo se crea esta transacción de inicio varía entre protocolos, pero un tema 
 Una vez que la transacción de inicio está en la Blockchain, el protocolo puede hacer lo que se supone que debe hacer. Por ejemplo, podría hacer pagos superrápidos entre participantes, implementar algunas técnicas de mejora de la privacidad o hacer scripts más avanzados que no serían compatibles con la Bitcoin Blockchain.
 
 
-No vamos a detallar cómo funcionan los protocolos específicos, pero como puedes ver en la figura anterior, la Blockchain apenas se utiliza durante el ciclo de vida del protocolo. Toda la acción jugosa ocurre *off-chain*. Hemos visto cómo esto puede ser una victoria para la privacidad si se hace bien, pero también puede ser una ventaja para la escalabilidad.
+No vamos a detallar cómo funcionan los protocolos específicos, pero como puedes ver en la figura anterior, la Blockchain apenas se utiliza durante el ciclo de vida del protocolo. Toda la acción jugosa ocurre *[off-chain](https://planb.academy/resources/glossary/offchain)*. Hemos visto cómo esto puede ser una victoria para la privacidad si se hace bien, pero también puede ser una ventaja para la escalabilidad.
 
 
 En un [post de Reddit](https://www.reddit.com/r/Bitcoin/comments/438hx0/a_trip_to_the_moon_requires_a_rocket_with/) titulado "Un viaje a la Luna requiere un cohete con múltiples etapas o, de lo contrario, la ecuación del cohete se comerá tu almuerzo... meter a todo el mundo en un trebuchet al estilo de un coche de payaso y esperar el éxito está fuera de lugar", Gregory Maxwell explica por qué la estratificación es nuestra mejor oportunidad para conseguir que Bitcoin escale en órdenes de magnitud.
@@ -1543,7 +1541,7 @@ En un [hilo de correo electrónico](https://lists.linuxfoundation.org/pipermail/
   - retroportar (backport) una corrección o solución de la versión maestra (master) a la versión actual publicada.
 - Los desarrolladores intentarán asegurarse de que la publicación de la solución no revele la naturaleza de la vulnerabilidad proporcionando la solución propuesta a desarrolladores experimentados que no hayan sido informados de la vulnerabilidad, diciéndoles que soluciona una vulnerabilidad y pidiéndoles que identifiquen la vulnerabilidad.
 - Los desarrolladores pueden recomendar a otras implementaciones de Bitcoin que adopten correcciones de vulnerabilidades antes de que la corrección se publique y se extienda ampliamente, si pueden hacerlo sin revelar la vulnerabilidad; por ejemplo, si la corrección tiene beneficios de rendimiento significativos que justifiquen su inclusión.
-- Antes de que una vulnerabilidad se haga pública, los desarrolladores suelen recomendar a los desarrolladores amigos de Altcoin que se pongan al día con las correcciones. Pero esto es solo después de que las correcciones se despliegan ampliamente en la red Bitcoin.
+- Antes de que una vulnerabilidad se haga pública, los desarrolladores suelen recomendar a los desarrolladores amigos de [Altcoin](https://planb.academy/resources/glossary/altcoin) que se pongan al día con las correcciones. Pero esto es solo después de que las correcciones se despliegan ampliamente en la red Bitcoin.
 - Por lo general, los desarrolladores no notificarán a los desarrolladores de Altcoin que se hayan comportado de forma hostil (por ejemplo, utilizando vulnerabilidades para atacar a otros, o que violen embargos).
 - Los desarrolladores de Bitcoin no revelarán los detalles de la vulnerabilidad hasta que >80% de los nodos de Bitcoin hayan desplegado las correcciones. Se anima y pide a los descubridores de vulnerabilidades que sigan la misma política. [1] [6]
 
@@ -1581,7 +1579,7 @@ La wiki de Bitcoin tiene una [lista de vulnerabilidades y exposiciones comunes](
 
 El 28 de julio de 2010, un seudónimo llamado ArtForz descubrió un error en la versión 0.3.4 que permitía a cualquiera coger monedas de cualquier otra persona. ArtForz *responsablemente* informó de ello a Satoshi Nakamoto y a otro desarrollador de Bitcoin llamado Gavin Andresen.
 
-El problema era que el operador de script `OP_RETURN` simplemente salía de la ejecución del programa, así que si el scriptPubKey era `<pubkey> OP_CHECKSIG` y scriptSig era `OP_1 OP_RETURN`, la parte del programa en el scriptPubKey nunca se ejecutaría. Lo único que ocurriría sería que `1` se pusiera en la pila y entonces `OP_RETURN` provocaría la salida del programa. Cualquier valor distinto de cero en la parte superior de la pila después de que el programa se haya ejecutado significa que se cumple la condición de gasto. Dado que el elemento `1` de la parte superior de la pila es distinto de cero, el gasto sería correcto.
+El problema era que el operador de [script](https://planb.academy/resources/glossary/script) `OP_RETURN` simplemente salía de la ejecución del programa, así que si el scriptPubKey era `<pubkey> OP_CHECKSIG` y scriptSig era `OP_1 OP_RETURN`, la parte del programa en el scriptPubKey nunca se ejecutaría. Lo único que ocurriría sería que `1` se pusiera en la pila y entonces `OP_RETURN` provocaría la salida del programa. Cualquier valor distinto de cero en la parte superior de la pila después de que el programa se haya ejecutado significa que se cumple la condición de gasto. Dado que el elemento `1` de la parte superior de la pila es distinto de cero, el gasto sería correcto.
 
 
 Este era el código para el manejo de `OP_RETURN`:
@@ -1714,7 +1712,7 @@ Había una gran advertencia al respecto: los datos que los usuarios descargaban 
 
 Una vez más, la gente pareció estar de acuerdo, y la anulación del bloque inválido y sus sucesores fue un éxito. Los mineros empezaron a trabajar en un nuevo sucesor del bloque [74637](https://Mempool.space/block/0000000000606865e679308edf079991764d88e8122ca9250aef5386962b6e84) y, según el Timestamp del bloque, apareció un sucesor a las 23:53 UTC, unas 6 horas después de que se descubriera el problema. A las 08:10 del día siguiente, el 16 de agosto, en torno al bloque 74689, la nueva cadena había superado a la antigua, por lo que todos los nodos no actualizados se reorganizaron para seguir la nueva cadena. Se trata de la reorganización más profunda (52 bloques) en la historia de Bitcoin.
 
-En comparación con el problema de OP_RETURN, este problema se trató de forma algo más limpia:
+En comparación con el problema de [OP_RETURN](https://planb.academy/resources/glossary/op-return-0x6a), este problema se trató de forma algo más limpia:
 
 - No se publicará ningún parche solo para binarios
 - El software liberado funcionaba según lo previsto
@@ -1798,7 +1796,7 @@ Cronología de los acontecimientos en torno a la BIP66. Los puntos en negro ya s
 
 ##### Antes del descubrimiento
 
-Sin que nadie lo supiera, el problema podría haberse resuelto con la ya desaparecida BIP62, que era una propuesta para reducir las posibilidades de maleabilidad de las transacciones. Entre los cambios propuestos en la BIP62 estaba el endurecimiento de las reglas de consenso para la codificación de firmas, o "codificación DER estricta". Pieter Wuille propuso algunos ajustes al BIP en julio de 2014, que habrían resuelto el problema:
+Sin que nadie lo supiera, el problema podría haberse resuelto con la ya desaparecida BIP62, que era una propuesta para reducir las posibilidades de [maleabilidad de las transacciones](https://planb.academy/resources/glossary/malleability-transaction). Entre los cambios propuestos en la BIP62 estaba el endurecimiento de las reglas de consenso para la codificación de firmas, o "codificación [DER](https://planb.academy/resources/glossary/der) estricta". Pieter Wuille propuso algunos ajustes al BIP en julio de 2014, que habrían resuelto el problema:
 
 > 2014-Jul-18: Para que las reglas de codificación de firmas de Bitcoin no dependieran del analizador sintáctico específico de OpenSSL, modifiqué la propuesta de BIP62 para que su estricto requisito de firmas DER también se aplicara a las transacciones de la versión $1$. En aquel momento ya no se minaban firmas que no fueran DER en los bloques, por lo que se asumió que esto no tendría ningún impacto. Véase https://github.com/Bitcoin/bips/pull/90 y http://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2014-July/006299.html. Se desconocía en ese momento, pero si se hubiera implantado habría resuelto la vulnerabilidad.
 

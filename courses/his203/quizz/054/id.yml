@@ -1,0 +1,10 @@
+question: Standar pembayaran mana yang didaftarkan ke IANA pada bulan September 2012 oleh arsitek perangkat lunak Dave Thaler?
+answer: BIP 21 Skema URI
+wrong_answers:
+  - BIP 32 portofolio deterministik hirarkis
+  - Protokol pembayaran BIP 70
+  - BIP 47 kode pembayaran yang dapat digunakan kembali
+explanation: |
+ Standar ini memungkinkan untuk memformalkan permintaan pembayaran, yang berbentuk serangkaian karakter atau kode QR. Setelah beberapa proposal, skema URI final
+ final dijelaskan pada bulan Januari 2012 dalam BIP 21 oleh Matt Corallo. Skema ini didaftarkan ke IANA oleh Dave Thaler pada bulan September.
+reviewed: true

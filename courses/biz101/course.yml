@@ -29,10 +29,11 @@ proofreading:
     contributor_names:
     reward: 29.35
   - language: de
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 19.6
+      - reneplass
+    reward: 9.8
   - language: es
     last_contribution_date: 2025-05-14
     urgency: 1
@@ -71,13 +72,13 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 48.84
+    reward: 48.85
   - language: nb-NO
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - turdsferguson
-    reward: 14.67
+    reward: 14.68
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -93,7 +94,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Ahn-La
-    reward: 24.42
+    reward: 24.43
   - language: zh-Hans
     last_contribution_date: 2025-05-14
     urgency: 1
@@ -109,7 +110,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 48.84
+    reward: 48.85
   - language: sr-Latn
     last_contribution_date: 2025-05-14
     urgency: 1
@@ -121,12 +122,12 @@ proofreading:
     urgency: 1
     contributor_names:
       - Tinnah924
-    reward: 14.67
+    reward: 14.68
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 39.09
+    reward: 39.1
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -143,34 +144,34 @@ proofreading:
     urgency: 1
     contributor_names:
       - rogerbracket
-    reward: 14.67
+    reward: 14.68
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 39.09
+    reward: 39.1
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 39.09
+    reward: 39.1
   - language: rn
     last_contribution_date: 2025-12-29
     urgency: 1
     contributor_names:
       - tonybarakana-cmyk
-    reward: 24.42
+    reward: 24.43
   - language: bg
     last_contribution_date: 2025-12-04
     urgency: 1
     contributor_names:
       - dnabg
-    reward: 14.67
+    reward: 14.68
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 39.09
+    reward: 39.1
 tags:
   - business
   - adoption

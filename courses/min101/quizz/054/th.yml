@@ -1,0 +1,9 @@
+question: บัญชีแยกประเภทสาธารณะที่ใช้บันทึกประวัติการชำระเงินของบิตคอยน์เรียกว่าอะไร?
+answer: บล็อกเชน
+wrong_answers:
+  - The mempool
+  - The wallet
+  - The hashrate
+explanation: |
+  บัญชีแยกประเภทสาธารณะที่ใช้ร่วมกันซึ่งมีธุรกรรมทั้งหมดคือบล็อกเชน
+reviewed: true

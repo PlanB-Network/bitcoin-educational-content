@@ -156,7 +156,7 @@ Ili pesa kudumisha uwezo wake wa ununuzi kwa wakati, lazima iwe:
 
 **Uhaba:** Pesa zinapotoa uhaba, tunamaanisha usambazaji unaopatikana kidogo. Hii ni muhimu kwa hifadhi ya thamani kwa sababu ikiwa kuna fedha nyingi sana, inaweza kupungua kwa thamani. Sarafu adimu ina uwezekano mkubwa wa kushikilia thamani yake kwa wakati, na kuifanya kuwa hifadhi ya kuaminika ya utajiri. Ifikirie kama kipengee cha toleo pungufu - ikiwa ni chache tu, ni za thamani zaidi na zinazotafutwa kuliko kama kungekuwa na Usambazaji usio na kikomo. Vile vile, sarafu adimu ina uwezekano mkubwa wa kushikilia thamani yake na kudumisha uwezo wake wa kununua, na kuifanya kuwa chaguo bora zaidi la kuhifadhi utajiri.
 
-**Isiyoweza Kubadilika:** Ili pesa kutoa kutoweza kubadilika, inapaswa kuwa isiyoweza kubadilika au kubadilisha mara tu shughuli inapofanywa. Hii ni sifa muhimu ya hifadhi ya thamani inayotegemewa kwa sababu inahakikisha kwamba thamani ya pesa haiathiriwi na mabadiliko ya kiholela au kudanganywa. Kwa mfano, ukinunua kitu kwa pesa taslimu, huwezi kubadilisha mawazo yako baadaye na kubadilisha muamala. Vile vile, kwa fedha za siri kama Bitcoin, mara tu muamala unaporekodiwa kwenye Blockchain, hauwezi kubadilishwa au kubadilishwa. Kutobadilika huku kunatoa hali ya usalama na kutegemewa kwa wanunuzi na wauzaji katika miamala ya kifedha.
+**Isiyoweza Kubadilika:** Ili pesa kutoa kutoweza kubadilika, inapaswa kuwa isiyoweza kubadilika au kubadilisha mara tu shughuli inapofanywa. Hii ni sifa muhimu ya hifadhi ya thamani inayotegemewa kwa sababu inahakikisha kwamba thamani ya pesa haiathiriwi na mabadiliko ya kiholela au kudanganywa. Kwa mfano, ukinunua kitu kwa pesa taslimu, huwezi kubadilisha mawazo yako baadaye na kubadilisha muamala. Vile vile, kwa [fedha za siri](https://planb.academy/resources/glossary/cryptocurrency) kama Bitcoin, mara tu muamala unaporekodiwa kwenye [Blockchain](https://planb.academy/resources/glossary/blockchain), hauwezi kubadilishwa au kubadilishwa. Kutobadilika huku kunatoa hali ya usalama na kutegemewa kwa wanunuzi na wauzaji katika miamala ya kifedha.
 
 #### Kati ya ubadilishanaji
 
@@ -172,13 +172,13 @@ Ili pesa ziwe mpatanishi mzuri wa kununua na kuuza bidhaa na huduma, lazima iwe:
 
 Ili pesa zitumike kama kipimo cha kawaida cha thamani ya bidhaa na huduma, lazima iwe:
 
-**Inawezekana:** Pesa inaposemekana kuwa inaweza kufunguka, kila kitengo cha sarafu kinaweza kubadilishana na kitengo kingine chochote. Kwa maneno rahisi, inamaanisha kuwa pesa ni sare na inafanana, bila kujali ilitoka wapi au ni nani anayemiliki. Kwa mfano, ikiwa una deni la mtu \$10 na ukampa bili \$10, haijalishi kama bili ilitoka kwa Wallet (Pochi) lako au Wallet (Pochi) la mtu mwingine. Alimradi ni bili halisi ya \$10, inachukuliwa kuwa ya thamani sawa. Dhana ya kugundulika ni muhimu kwa sababu inaruhusu pesa kufanya kazi kwa ufanisi kama kitengo cha kawaida cha kipimo, na kufanya miamala kuwa rahisi na bora zaidi.
+**Inawezekana:** Pesa inaposemekana kuwa [inaweza kufunguka](https://planb.academy/resources/glossary/fungibility), kila kitengo cha sarafu kinaweza kubadilishana na kitengo kingine chochote. Kwa maneno rahisi, inamaanisha kuwa pesa ni sare na inafanana, bila kujali ilitoka wapi au ni nani anayemiliki. Kwa mfano, ikiwa una deni la mtu \$10 na ukampa bili \$10, haijalishi kama bili ilitoka kwa Wallet (Pochi) lako au Wallet (Pochi) la mtu mwingine. Alimradi ni bili halisi ya \$10, inachukuliwa kuwa ya thamani sawa. Dhana ya kugundulika ni muhimu kwa sababu inaruhusu pesa kufanya kazi kwa ufanisi kama kitengo cha kawaida cha kipimo, na kufanya miamala kuwa rahisi na bora zaidi.
 
 Hitimisho
 
 Pesa ni sehemu muhimu na ya kuvutia ya maisha yetu ya kila siku. Inatumika kama mpatanishi, ikituruhusu kufanya biashara ya bidhaa na huduma sisi kwa sisi. Walakini, sio pesa zote zinaundwa sawa. Baadhi ya aina za pesa ni bora kama hifadhi ya thamani, kama sarafu ya dhahabu, wakati zingine zinaweza kuwa na ufanisi zaidi kama njia ya ubadilishanaji, dola ya Marekani. Hata hivyo, majukumu haya yanapotekelezwa kwa ukamilifu, hutuwezesha kufanya miamala kwa ujasiri na kwa urahisi, ambayo sio tu inatusaidia kama watu binafsi bali inakuza ukuaji mkubwa wa uchumi na ustawi wa uchumi wetu.
 
-Katika moduli zijazo, tutachunguza aina mbili maarufu za pesa: Bitcoin na stablecoins. Kwa kuzichunguza kupitia maudhui yaliyojadiliwa katika sehemu hii, tutachunguza jinsi zinavyotimiza majukumu mbalimbali ya sarafu na jinsi zinavyoweza kunufaisha jamii pakubwa.
+Katika moduli zijazo, tutachunguza aina mbili maarufu za pesa: Bitcoin na [stablecoins](https://planb.academy/resources/glossary/stablecoin). Kwa kuzichunguza kupitia maudhui yaliyojadiliwa katika sehemu hii, tutachunguza jinsi zinavyotimiza majukumu mbalimbali ya sarafu na jinsi zinavyoweza kunufaisha jamii pakubwa.
 
 Kutoka kubadilishana hadi uvumbuzi wa sarafu na sarafu ya karatasi, fedha zimepitia mfululizo wa mabadiliko ili kukabiliana na mahitaji ya kila mara ya jamii. Tunapoendelea kwenye sura inayofuata, hebu tubadilishe mkondo, tukielekeza mawazo yetu kwenye mageuzi ya pesa.
 
@@ -208,9 +208,9 @@ Kwa kuzingatia hili, hebu tuangalie aina za msingi za ubadilishanaji ambazo zina
 
 4. **Pesa za Karatasi Zinazoungwa mkono na Chuma:** Pesa za karatasi zinazoungwa mkono na bidhaa halisi, kama vile dhahabu au fedha.
 
-5. **Pesa za serikali:** Sarafu ambayo haiungwi mkono na bidhaa halisi lakini ina thamani kwa sababu serikali inatangaza kuwa ni zabuni halali.
+5. **[Pesa za serikali](https://planb.academy/resources/glossary/fiat):** Sarafu ambayo haiungwi mkono na bidhaa halisi lakini ina thamani kwa sababu serikali inatangaza kuwa ni zabuni halali.
 
-6. **Fedha za fedha:** Tokeni za dijitali au pepe zinazotumia kriptografia ili kulinda miamala na kudhibiti uundaji wa vitengo vipya.
+6. **Fedha za fedha:** Tokeni za dijitali au pepe zinazotumia [kriptografia](https://planb.academy/resources/glossary/cryptography) ili kulinda miamala na kudhibiti uundaji wa vitengo vipya.
 
 Tukiwa na haya akilini, hebu tuchunguze kila mmoja wetu ili kupata ufahamu kamili zaidi wa jinsi tulivyoishia hapa tulipo leo.
 
@@ -248,7 +248,7 @@ Wakiwa bado ni pesa za bidhaa, wanadamu walipoendelea kutafuta pesa bora, waliji
 
 Zaidi ya hayo, metali kama vile dhahabu zilikuwa mojawapo ya Vipengele ajizi zaidi katika jedwali la mara kwa mara, na kuzifanya ziwe za kudumu sana na zinazostahimili kutu.
 
-Teknolojia ilipoendelea, dhahabu na fedha zilipitia mchakato wa mabadiliko, kuyeyushwa, kutengenezwa, na kugongwa kuwa sarafu, na kuongeza urahisi wa Ubadilishanaji. Thamani sanifu na alama kwenye sarafu hizi zilipunguza gharama zinazohusiana na kuthibitisha uzito na usafi wa madini ya thamani. Lakini, kama ilivyo kwa mambo mengi mazuri, mtu daima hupata njia ya kuchukua faida. Ukataji wa sarafu ulienea, huku watu binafsi na serikali wakikata sehemu za sarafu ili kupunguza uzito wao wa madini ya thamani huku zikijaribu kuhifadhi thamani yake ya asili. Hii ilisababisha aina ya kwanza ya kushuka kwa thamani ya sarafu, na kusababisha mfumuko wa bei.
+Teknolojia ilipoendelea, dhahabu na fedha zilipitia mchakato wa mabadiliko, kuyeyushwa, kutengenezwa, na kugongwa kuwa sarafu, na kuongeza urahisi wa Ubadilishanaji. Thamani sanifu na alama kwenye sarafu hizi zilipunguza gharama zinazohusiana na kuthibitisha uzito na usafi wa madini ya thamani. Lakini, kama ilivyo kwa mambo mengi mazuri, mtu daima hupata njia ya kuchukua faida. Ukataji wa sarafu ulienea, huku watu binafsi na serikali wakikata sehemu za sarafu ili kupunguza uzito wao wa madini ya thamani huku zikijaribu kuhifadhi thamani yake ya asili. Hii ilisababisha aina ya kwanza ya kushuka kwa thamani ya sarafu, na kusababisha [mfumuko wa bei](https://planb.academy/resources/glossary/inflation).
 
 Ili kufanya mambo kuwa mabaya zaidi, jinsi ulimwengu ulivyozidi kuwa wa kimataifa, dhahabu na fedha zilizidi kuwa ngumu kusafirisha na kufanya biashara, haswa kwa mabaharia.
 
@@ -262,7 +262,7 @@ Fikiria juu yake: hakuna tena kubeba karibu na mifuko nzito ya dhahabu au kuwa n
 
 Lakini kama ilivyo kwa teknolojia yoyote mpya, maswala yalianza kuibuka.
 
-Kwanza, maghala ya dhahabu, kwa kutambua kwamba wateja wao hawakurudi tena kuchukua dhahabu ambayo risiti zilidai, walianza kutoa risiti za karatasi bila msaada wa dhahabu, na kusababisha kuundwa kwa siri kwa mfumo wa kwanza wa benki ya hifadhi (watoaji hushikilia sehemu tu ya amana za wateja kama akiba na kukopesha iliyobaki). Na hata nchi zilipojaribu kuunga mkono sarafu zao kwa dhahabu, mara nyingi zilitumia vibaya mfumo huo, na kusababisha msukosuko wa kiuchumi.
+Kwanza, maghala ya dhahabu, kwa kutambua kwamba wateja wao hawakurudi tena kuchukua dhahabu ambayo risiti zilidai, walianza kutoa risiti za karatasi bila msaada wa dhahabu, na kusababisha kuundwa kwa siri kwa mfumo wa kwanza wa [benki ya hifadhi](https://planb.academy/resources/glossary/fractional-reserves) (watoaji hushikilia sehemu tu ya amana za wateja kama akiba na kukopesha iliyobaki). Na hata nchi zilipojaribu kuunga mkono sarafu zao kwa dhahabu, mara nyingi zilitumia vibaya mfumo huo, na kusababisha msukosuko wa kiuchumi.
 
 Pili, pesa za karatasi zilizoungwa mkono na chuma hazikuwa salama kwa kughushi. Hata kukiwa na vipengele vya usalama, watu bandia bado wanaweza kuunda noti ghushi ambazo zinaweza kuwa vigumu kuzitambua.
 
@@ -514,9 +514,9 @@ Kufikia mwisho wa moduli hii, utakuwa na ufahamu thabiti wa asili ya Bitcoin, vi
 
 ### Ni kitu gani hiki kinachoitwa Bitcoin
 
-Bitcoin ni Trustless na sarafu ya dijiti iliyogatuliwa bila ruhusa. Huenda hilo likasikika kuwa la kutatanisha, basi hebu tueleze. Kwa kuwa hakuna serikali au taasisi inayodhibiti Bitcoin, si lazima uwaamini watu wengine au kuhitaji kibali ili kuitumia. Badala yake, inadumishwa na mtandao wa watumiaji kote ulimwenguni ambao huidhinisha na kuchakata miamala kwenye kitu kiitwacho Blockchain.
+Bitcoin ni Trustless na sarafu ya dijiti iliyogatuliwa bila ruhusa. Huenda hilo likasikika kuwa la kutatanisha, basi hebu tueleze. Kwa kuwa hakuna serikali au taasisi inayodhibiti Bitcoin, si lazima uwaamini watu wengine au kuhitaji kibali ili kuitumia. Badala yake, inadumishwa na mtandao wa watumiaji kote ulimwenguni ambao huidhinisha na kuchakata [miamala](https://planb.academy/resources/glossary/transaction-tx) kwenye kitu kiitwacho Blockchain.
 
-Fikiria Blockchain kama leja kubwa au lahajedwali ya dijiti ambayo inadumisha rekodi ya kila shughuli inayofanywa kupitia Bitcoin. Kwa vile mtu yeyote ulimwenguni aliye na muunganisho wa intaneti anaweza kufuatilia, kuthibitisha au kuchakata miamala, hii inahakikisha kwamba sarafu ni salama na haiwezi kughushiwa.
+Fikiria Blockchain kama [leja](https://planb.academy/resources/glossary/ledger) kubwa au lahajedwali ya dijiti ambayo inadumisha rekodi ya kila shughuli inayofanywa kupitia Bitcoin. Kwa vile mtu yeyote ulimwenguni aliye na muunganisho wa intaneti anaweza kufuatilia, kuthibitisha au kuchakata miamala, hii inahakikisha kwamba sarafu ni salama na haiwezi kughushiwa.
 
 Bitcoin pia ni ya kipekee kwa kuwa ina usambazaji mdogo. Ni Bitcoin milioni 21 pekee zitawahi kuundwa, jambo ambalo linaipa uhaba, kama vile dhahabu na madini mengine ya thamani. Uhaba huu ni sehemu ya kile kinachoipa Bitcoin thamani yake.
 
@@ -530,18 +530,18 @@ Kabla ya kuundwa kwa Bitcoin, watu wachache walioona maono waliweka msingi wa Bi
 
 #### Cypherpunks
 
-Cypherpunks ni kundi la waasi wenye ujuzi wa teknolojia ambao walikusanyika katika miaka ya 80 kupigania uhuru wa mtu binafsi na uhuru wa raia kwa kutumia zana moja yenye nguvu: cryptography. Waliamini kwamba uwezo wa kusimba habari ungewapa watu uwezo wa kuchukua udhibiti kutoka kwa mamlaka kuu. Hebu fikiria kuwa unaweza kuweka mawasiliano yako ya mtandaoni ya faragha na salama kutoka kwa macho ya watu wa kupenya - hicho ndicho walichokuwa wakipigania!
+[Cypherpunks](https://planb.academy/resources/glossary/cypherpunks) ni kundi la waasi wenye ujuzi wa teknolojia ambao walikusanyika katika miaka ya 80 kupigania uhuru wa mtu binafsi na uhuru wa raia kwa kutumia zana moja yenye nguvu: cryptography. Waliamini kwamba uwezo wa kusimba habari ungewapa watu uwezo wa kuchukua udhibiti kutoka kwa mamlaka kuu. Hebu fikiria kuwa unaweza kuweka mawasiliano yako ya mtandaoni ya faragha na salama kutoka kwa macho ya watu wa kupenya - hicho ndicho walichokuwa wakipigania!
 
 Mojawapo ya matokeo mashuhuri zaidi ya Cypherpunks ilikuwa orodha ya utumaji barua ya Cypherpunks, iliyoanzishwa mwaka wa 1992. Kupitia orodha hiyo, watu binafsi wanaweza kushiriki mawazo na kujadili teknolojia za kriptografia, dhana ya sarafu ya kidijitali, na mipango inayozingatia faragha. Hii ilisababisha kuundwa kwa jumuiya ya watu wenye nia moja, ikiwa ni pamoja na watengenezaji, wanaharakati, na watafiti.
 
-Leo, mawazo maono ya cypherpunks yanaendelea kuchagiza mabadiliko ya mazingira yetu ya kidijitali, kuwawezesha watu binafsi na udhibiti mkubwa wa data na mawasiliano yao. Mojawapo ya urithi wao muhimu zaidi ni Bitcoin, kwa kuwa inachota kwa kiasi kikubwa kutoka kwa Hashcash—teknolojia iliyotengenezwa na Cypherpunk Adam Back mnamo 1997 ili kukabiliana na barua taka.
+Leo, mawazo maono ya cypherpunks yanaendelea kuchagiza mabadiliko ya mazingira yetu ya kidijitali, kuwawezesha watu binafsi na udhibiti mkubwa wa data na mawasiliano yao. Mojawapo ya urithi wao muhimu zaidi ni Bitcoin, kwa kuwa inachota kwa kiasi kikubwa kutoka kwa [Hashcash](https://planb.academy/resources/glossary/hashcash)—teknolojia iliyotengenezwa na Cypherpunk Adam Back mnamo 1997 ili kukabiliana na barua taka.
 
 Cypherpunks zingine zinazojulikana ni pamoja na:
 
 
 - **Timothy May:** Mwanachama mwanzilishi wa orodha ya wanaopokea barua pepe ya Cypherpunks na aliandika kwa kina juu ya usimbaji fiche na faragha katika miaka ya 90 na mwanzoni mwa miaka ya 2000. Maandishi yake yaliweka msingi wa majadiliano juu ya faragha ya kidijitali na mifumo ya pesa taslimu kielektroniki.
 - **Eric Huges:** Mwanachama mwingine mwanzilishi wa Cypherpunks na mwandishi mwenza wa "Manifesto ya A Cypherpunk," ambayo ilisisitiza umuhimu wa faragha na kutokujulikana katika enzi ya kidijitali.
-- **Whitfield Diffie na Martin Hellman:** Ilianzisha dhana ya ufunguo wa siri wa umma, kuleta mapinduzi katika mawasiliano salama ya mtandao.
+- **Whitfield Diffie na Martin Hellman:** Ilianzisha dhana ya [ufunguo wa siri wa umma](https://planb.academy/resources/glossary/public-key), kuleta mapinduzi katika mawasiliano salama ya mtandao.
 - **Julian Assange:** Mwanzilishi wa WikiLeaks, ambayo huchapisha taarifa zilizoainishwa na nyeti ili kukuza uwazi na uwajibikaji.
 - **Bram Cohen:** Imeunda BitTorrent, itifaki ya kushiriki faili kati ya wenzao ambayo iligawanya usambazaji wa maudhui na kuwezesha upakuaji wa haraka zaidi.
 - **John Gilmore:** Mjasiriamali na mwanalibertarian ambaye alianzisha pamoja Electronic Frontier Foundation (EFF) na kutetea haki za kidijitali na faragha ya mtandaoni.
@@ -550,7 +550,7 @@ Cypherpunks zingine zinazojulikana ni pamoja na:
 
 #### David Chaum (Baba wa Sarafu ya Dijiti)
 
-Mapema miaka ya 1980, David Chaum alileta mapinduzi makubwa katika ulimwengu wa sarafu za kidijitali kwa kazi yake kuu ya "sahihi za blinded." Hii iliwezesha kusaini kwa siri ujumbe bila kujua maudhui yake, kuhakikisha faragha na usalama katika miamala ya kidijitali. Mnamo 1982, David Chaum aligundua Ecash, mfumo wa pesa wa kielektroniki ambao haukujulikana ambao ulitumia maandishi ya siri, ambayo baadaye ilitekelezwa kupitia shirika lake la Digicash.
+Mapema miaka ya 1980, David Chaum alileta mapinduzi makubwa katika ulimwengu wa sarafu za kidijitali kwa kazi yake kuu ya "[sahihi za blinded](https://planb.academy/resources/glossary/blind-signature)." Hii iliwezesha kusaini kwa siri ujumbe bila kujua maudhui yake, kuhakikisha faragha na usalama katika miamala ya kidijitali. Mnamo 1982, David Chaum aligundua [Ecash](https://planb.academy/resources/glossary/ecash-david-chaum), mfumo wa pesa wa kielektroniki ambao haukujulikana ambao ulitumia maandishi ya siri, ambayo baadaye ilitekelezwa kupitia shirika lake la Digicash.
 
 Ingawa Digicash ilitumika kama mfumo wa malipo madogo katika benki moja ya Marekani kutoka 1995 hadi 1998, Chaum hatimaye iliwasilisha kesi ya kufilisika. Alisema hivyo, mawazo yake ya kibunifu yaliwahimiza wengine kuchunguza sarafu za kidijitali, na hivyo kutengeneza njia ya maendeleo ya fedha za kisasa za crypto, kama vile Bitcoin.
 
@@ -564,7 +564,7 @@ Licha ya kushindwa kwake kabisa, E-dhahabu ilikuwa hatua muhimu katika mageuzi y
 
 Kwa kuzingatia kupanda kwa hali ya anga ya Bitcoin, watu wengi wanaamini kimakosa kuwa ilikuwa sarafu ya kwanza ya kidijitali kuwahi kuwepo. Walakini, kama inavyotarajiwa sasa, dhana hii iko mbali na ukweli. Kuibuka kwa Bitcoin kulitokana na miongo kadhaa ya utafiti na majaribio ya waanzilishi katika uga wa cryptography. Bila michango ya watu binafsi hapo juu na wengine wengi, Bitcoin inaweza kuwa haijawahi kuundwa. Ingawa sarafu hizi za mapema za kidijitali hatimaye zilishindwa, Bitcoin ilijifunza kutokana na makosa yao, hatimaye kuwa sarafu ya kidijitali tunayoijua leo.
 
-Hiyo ilisema, ikiwa sio kwa mtu mmoja ... au kikundi (hatujui kwa hakika), Bitcoin isingekuwepo. Na hiyo ni Satoshi Nakamoto. Muumbaji wa fumbo.
+Hiyo ilisema, ikiwa sio kwa mtu mmoja ... au kikundi (hatujui kwa hakika), Bitcoin isingekuwepo. Na hiyo ni [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi). Muumbaji wa fumbo.
 
 #### Satoshi Nakamoto
 
@@ -572,7 +572,7 @@ Ijapokuwa Bitcoin imevutia akili za mamilioni ya watu kwa uwezo wake wa kuvuruga
 
 Vyovyote vile, wacha tuangalie hekaya na ngano.
 
-Satoshi Nakamoto iliibuka kwenye mtandao mwaka wa 2008 na wazo la kimapinduzi: pesa taslimu za kielektroniki za rika kwa rika. Alishiriki maono yake katika [karatasi ya kurasa tisa](https://Bitcoin.org/Bitcoin.pdf) yenye jina "Bitcoin: A Peer-to-Peer Electronic Cash System" na orodha ya Cypherpunk ya utumaji barua pepe. Licha ya kutopendezwa na washiriki wengi wa orodha ya wanaotuma barua, wazo hilo lilizua udadisi wa kutosha kwa mwanachama mmoja, Hal Finney, ambaye hatimaye alifikia Satoshi. Kuhusika kwa Hal katika ukuzaji wa Bitcoin kumeonekana kuwa hatua ya mageuzi, na kusababisha watu wengi kutoa msaada wao.
+Satoshi Nakamoto iliibuka kwenye mtandao mwaka wa 2008 na wazo la kimapinduzi: pesa taslimu za kielektroniki za [rika kwa rika](https://planb.academy/resources/glossary/peertopeer-p2p). Alishiriki maono yake katika [karatasi ya kurasa tisa](https://Bitcoin.org/Bitcoin.pdf) yenye jina "Bitcoin: A Peer-to-Peer Electronic Cash System" na orodha ya Cypherpunk ya utumaji barua pepe. Licha ya kutopendezwa na washiriki wengi wa orodha ya wanaotuma barua, wazo hilo lilizua udadisi wa kutosha kwa mwanachama mmoja, Hal Finney, ambaye hatimaye alifikia Satoshi. Kuhusika kwa Hal katika ukuzaji wa Bitcoin kumeonekana kuwa hatua ya mageuzi, na kusababisha watu wengi kutoa msaada wao.
 
 Hata hivyo, baada ya miaka miwili ya kufanya kazi kwenye mradi huo, Satoshi ilitoweka bila kujulikana, na [mawasiliano yake ya mwisho ya kuaminika](https://plan99.net/~mike/Satoshi-emails/thread5.html) mnamo Aprili 23, 2011, ambapo alisema kwamba "ameendelea na mambo mengine."
 
@@ -631,7 +631,7 @@ Ikilinganishwa na mifumo ya kitamaduni ya benki, wakati Bitcoin inafanya kazi kw
 
 Wakati benki zinatekeleza majukumu haya ndani ya nyumba, na kuzipa udhibiti kamili wa mchakato, Bitcoin inahitaji ushirikiano wa jumuiya kutekeleza majukumu haya. Kwa maneno mengine, ili Bitcoin irudie michakato hii katika mfumo uliogatuliwa, Bitcoin lazima iwe nje ya kila moja ya kazi hizi ili kuhakikisha kuwa hakuna mtu binafsi au taasisi kuu iliyo na udhibiti mkubwa juu ya mfumo.
 
-Ili kufikia mafanikio haya ya mapinduzi, Bitcoin imegawanya kazi hizi katika majukumu matatu muhimu: nodi, wachimbaji na watengenezaji. Ambapo nodi huthibitisha miamala na kuweka na kutekeleza sheria, wachimbaji huagiza na kuthibitisha miamala, na wasanidi programu husasisha mtandao na kupendekeza uboreshaji. Kwa kusambaza majukumu haya miongoni mwa wahusika hawa wakuu, Bitcoin imeunda mfumo ambao ni salama, uwazi, na unaowajibika kwa watumiaji wote.
+Ili kufikia mafanikio haya ya mapinduzi, Bitcoin imegawanya kazi hizi katika majukumu matatu muhimu: [nodi](https://planb.academy/resources/glossary/node), [wachimbaji](https://planb.academy/resources/glossary/miner) na watengenezaji. Ambapo nodi huthibitisha miamala na kuweka na kutekeleza sheria, wachimbaji huagiza na kuthibitisha miamala, na wasanidi programu husasisha mtandao na kupendekeza uboreshaji. Kwa kusambaza majukumu haya miongoni mwa wahusika hawa wakuu, Bitcoin imeunda mfumo ambao ni salama, uwazi, na unaowajibika kwa watumiaji wote.
 
 Kwa hivyo, hebu tuangalie kila moja ya majukumu haya ...
 
@@ -639,7 +639,7 @@ Kwa hivyo, hebu tuangalie kila moja ya majukumu haya ...
 
 #### Nodi
 
-Nodi ni muhimu kwa uadilifu na usalama wa mtandao wa Bitcoin. Wanatumika kama walinzi wa lango la mfumo, wakihakikisha kwamba miamala inachakatwa kwa usahihi na kulingana na sheria. Kila nodi hupakuliwa na kuthibitisha ndani nakala kamili ya Blockchain, ambayo kimsingi ni Ledger ya kidijitali ambayo inarekodi kila shughuli iliyowahi kufanywa kwenye mtandao wa Bitcoin. Kupitia makubaliano, nodi zinakubaliana juu ya uhalali wa kila shughuli na kuhakikisha kuwa sheria zinafuatwa. Hii ina maana kwamba nodi zitakataa shughuli ikiwa mtu anajaribu kudanganya mfumo, k.m. kwa kutuma zaidi ya Bitcoin kuliko waliyo nayo au kujaribu kutumia Bitcoin sawa mara mbili.
+Nodi ni muhimu kwa uadilifu na usalama wa mtandao wa Bitcoin. Wanatumika kama walinzi wa lango la mfumo, wakihakikisha kwamba miamala inachakatwa kwa usahihi na kulingana na sheria. Kila nodi hupakuliwa na kuthibitisha ndani nakala kamili ya Blockchain, ambayo kimsingi ni Ledger ya kidijitali ambayo inarekodi kila shughuli iliyowahi kufanywa kwenye mtandao wa Bitcoin. Kupitia [makubaliano](https://planb.academy/resources/glossary/consensus), nodi zinakubaliana juu ya uhalali wa kila shughuli na kuhakikisha kuwa sheria zinafuatwa. Hii ina maana kwamba nodi zitakataa shughuli ikiwa mtu anajaribu kudanganya mfumo, k.m. kwa kutuma zaidi ya Bitcoin kuliko waliyo nayo au kujaribu kutumia Bitcoin sawa mara mbili.
 
 Ili kufafanua zaidi wazo hili la maafikiano, wasanidi wanapopendekeza mabadiliko au uboreshaji wa Bitcoin, nodi huwa na jukumu katika kupitisha au kukataa mabadiliko haya. Wanafanya hivyo kwa kuboresha programu yao hadi toleo jipya au kuendelea kutumia toleo la zamani. Mchakato huu mara nyingi huhusisha mijadala na mijadala ndani ya jumuiya ya Bitcoin ili kufikia muafaka. Hiyo ilisema, makubaliano ya Bitcoin sio nyeusi na nyeupe kama mashine ya kupiga kura. Wengi si lazima watawale. Ikiwa baadhi ya watu hawakubaliani na mabadiliko hayo, wanaweza kuzindua tokeni mpya inayotokana na Bitcoin. Sasa, Bitcoin ya asili ipo bila mabadiliko na mpya iliyo na mabadiliko. Kupitia kununua na kuuza, ni juu ya jamii kuangazia toleo ambalo wanaliona kuwa la thamani zaidi. Utaratibu huu wa maafikiano huhakikisha kwamba mabadiliko yoyote yanayofanywa kwa itifaki ya Bitcoin yanakubaliwa na jumuiya nzima, hivyo kufanya iwe vigumu kwa mtu binafsi au kikundi kudhibiti mfumo kwa manufaa yao wenyewe.
 
@@ -647,7 +647,7 @@ Pia ni muhimu kutambua kwamba nodi ni kipande cha programu ambacho mtu yeyote an
 
 #### Wachimbaji madini
 
-Wachimbaji wa Bitcoin, kwa upande mwingine, wana jukumu muhimu katika kutunza kumbukumbu, kwani wana jukumu la kuagiza na kuthibitisha miamala. Ili kufanya hivyo, wachimbaji hutumia kompyuta maalum kufanya kazi inayoitwa hashing. Bila kupiga mbizi katika hali mbaya ya hashing, ifikirie kama wachimba migodi wanaoshindana ili kuongeza miamala mipya kwa Blockchain, Leja ya umma ya miamala. Katika Ubadilishanaji kwa kazi yao, wachimba migodi hutuzwa kwa Bitcoin mpya iliyoundwa na ada za miamala kwa miamala yoyote iliyochakatwa. Mchakato wa Mining (Uchimbaji) umeundwa kuwa mgumu, wa ushindani, na wa kubahatisha, na idadi ndogo tu ya Bitcoin mpya inayotolewa kila mwaka, kuhakikisha kuwa usambazaji wa Bitcoin ni mdogo na thamani yake inadumishwa. Bila wachimbaji, shughuli hazitashughulikiwa.
+Wachimbaji wa Bitcoin, kwa upande mwingine, wana jukumu muhimu katika kutunza kumbukumbu, kwani wana jukumu la kuagiza na kuthibitisha miamala. Ili kufanya hivyo, wachimbaji hutumia kompyuta maalum kufanya kazi inayoitwa [hashing](https://planb.academy/resources/glossary/hash-function). Bila kupiga mbizi katika hali mbaya ya hashing, ifikirie kama wachimba migodi wanaoshindana ili kuongeza miamala mipya kwa Blockchain, Leja ya umma ya miamala. Katika Ubadilishanaji kwa kazi yao, wachimba migodi hutuzwa kwa Bitcoin mpya iliyoundwa na [ada za miamala](https://planb.academy/resources/glossary/transaction-fees) kwa miamala yoyote iliyochakatwa. Mchakato wa [Mining](https://planb.academy/resources/glossary/mining) (Uchimbaji) umeundwa kuwa mgumu, wa ushindani, na wa kubahatisha, na idadi ndogo tu ya Bitcoin mpya inayotolewa kila mwaka, kuhakikisha kuwa usambazaji wa Bitcoin ni mdogo na thamani yake inadumishwa. Bila wachimbaji, shughuli hazitashughulikiwa.
 
 Ikizingatiwa kwamba wachimbaji wanapaswa kushindana wao kwa wao ili kushughulikia miamala na wanatuzwa kwa kufanya hivyo, shindano hili linapunguza uwezekano wa Miner au chombo chochote kudhibiti mtandao na kuwapa motisha wachimbaji kutenda kwa uaminifu na kufuata sheria. Ikiwa Miner (Mchimbaji) anajaribu kudanganya au kuvunja sheria, wana hatari ya kupoteza malipo yao, kwa hiyo kuna motisha kali ya kucheza na sheria.
 
@@ -667,9 +667,9 @@ Ili kuelewa jinsi wachezaji hawa wote wanavyofanya kazi pamoja, hebu tufikirie m
 
 #### Kuanzishwa kwa Muamala
 
-Kila muamala wa Bitcoin huanza na kuanzishwa kwake wakati mtumaji, katika kesi hii, Alice, anaunda muamala unaobainisha mpokeaji, Bob, na kiasi, 0.00100000 Bitcoin. Nodi inayohusishwa na Wallet (Pochi) la Alice kisha inatangaza shughuli kwenye mtandao, ambapo nodi zinathibitisha uhalali wake, na hutumwa kwa wachimbaji kwa uthibitisho.
+Kila muamala wa Bitcoin huanza na kuanzishwa kwake wakati mtumaji, katika kesi hii, Alice, anaunda muamala unaobainisha mpokeaji, Bob, na kiasi, 0.00100000 Bitcoin. Nodi inayohusishwa na [Wallet](https://planb.academy/resources/glossary/wallet) (Pochi) la Alice kisha inatangaza shughuli kwenye mtandao, ambapo nodi zinathibitisha uhalali wake, na hutumwa kwa wachimbaji kwa uthibitisho.
 
-Katika hatua hii, muamala unaingia kwenye kile kinachojulikana kama Mempool, kimsingi chumba cha kungojea kwa miamala iliyo tayari kuongezwa kwa Blockchain. Ifikirie kama orodha ya miamala inayosubiri, sawa na ile unayoona kwenye taarifa ya kadi yako ya mkopo, ambayo imeanzishwa lakini inasubiri kushughulikiwa. Mara tu shughuli hiyo itakapoanzishwa na imekaa kwenye Mempool, sasa iko mikononi mwa wachimbaji.
+Katika hatua hii, muamala unaingia kwenye kile kinachojulikana kama [Mempool](https://planb.academy/resources/glossary/mempool), kimsingi chumba cha kungojea kwa miamala iliyo tayari kuongezwa kwa Blockchain. Ifikirie kama orodha ya miamala inayosubiri, sawa na ile unayoona kwenye taarifa ya kadi yako ya mkopo, ambayo imeanzishwa lakini inasubiri kushughulikiwa. Mara tu shughuli hiyo itakapoanzishwa na imekaa kwenye Mempool, sasa iko mikononi mwa wachimbaji.
 
 #### Uthibitishaji wa Muamala
 
@@ -737,7 +737,7 @@ Ingawa Bitcoin bado haijakubalika duniani kote kama sarafu za mtandaoni, asili y
 
 
 - **Inabebeka:** Bitcoin, ikiwa ya dijitali, inaruhusu uhamishaji usio na mipaka na wa kati kati ya watu binafsi, na kuifanya kuwa njia rahisi na inayofikika ya Ubadilishanaji. Ingawa baadhi ya sarafu za fedha pia hutoa masuluhisho ya kidijitali, wale walio katika nchi zinazoendelea au zilizokumbwa na vita wanaweza kutatizika kupata huduma za benki zinazotimiza hitaji hili. Asili ya ugatuzi ya Bitcoin inafanya kupatikana kwa mtu yeyote aliye na muunganisho wa intaneti, ikitoa njia mbadala inayofaa kwa mifumo ya kitamaduni ya benki katika maeneo yenye ufikiaji mdogo wa huduma za kifedha.
-- **Divisible:** Mgawanyiko uliokithiri wa Bitcoin ni mojawapo ya faida zake kuu kama sarafu. Kwa kila Bitcoin kugawanywa hadi nafasi nane za desimali, kitengo kidogo zaidi, Satoshi, kina thamani ya sehemu tu ya senti. Kulingana na njia ya kufanya shughuli, yaani layer (safu) moja au mbili, hii inafanya Bitcoin iweze kubadilika sana kwa shughuli za ukubwa wowote, kutoka kwa ununuzi mdogo hadi uwekezaji mkubwa.
+- **Divisible:** Mgawanyiko uliokithiri wa Bitcoin ni mojawapo ya faida zake kuu kama sarafu. Kwa kila Bitcoin kugawanywa hadi nafasi nane za desimali, kitengo kidogo zaidi, [Satoshi](https://planb.academy/resources/glossary/satoshi-sat), kina thamani ya sehemu tu ya senti. Kulingana na njia ya kufanya shughuli, yaani layer (safu) moja au mbili, hii inafanya Bitcoin iweze kubadilika sana kwa shughuli za ukubwa wowote, kutoka kwa ununuzi mdogo hadi uwekezaji mkubwa.
 - **Imekubaliwa:** Ingawa hali ya kukubalika kwa Bitcoin bado haijaenea ulimwenguni kote, kuongezeka kwake kupitishwa na wafanyabiashara, taasisi na watu binafsi duniani kote kunapendekeza kwamba inakubalika zaidi kama njia halali ya malipo.
 
 ### Kitengo cha Akaunti
@@ -861,11 +861,11 @@ Mfano mmoja wa kawaida wa Wallet ya uhifadhi ni akaunti ya Ubadilishanaji. Unapo
 
 Pia kuna suluhu zingine zisizohesabika za Wallet (Pochi) zinazopatikana kwa simu za mkononi zinazokupa ufikiaji rahisi wa Bitcoin yako. Wallet (Pochi) hizi kwa kawaida zinafaa mtumiaji na hutoa njia rahisi ya kudhibiti Bitcoin yako, lakini bado zina funguo za Bitcoin yako.
 
-**Wallet (Pochi) zisizo na kizuizi (a.k.a. kujitunza)**
+**Wallet (Pochi) zisizo na kizuizi (a.k.a. [kujitunza](https://planb.academy/resources/glossary/selfcustody))**
 
-Wallet (Pochi) zisizo na dhamana ni aina ya Wallet (Pochi) za Bitcoin ambapo wewe ndiye mlinzi pekee wa pesa zako, kumaanisha kuwa una udhibiti kamili wa funguo zako za faragha. Vifunguo vya faragha ni kama nenosiri la Wallet (Pochi) lako na hutumika kutia sahihi na kuidhinisha miamala. Bila wao, huwezi kufikia au kuhamisha Bitcoin yako.
+Wallet (Pochi) zisizo na dhamana ni aina ya Wallet (Pochi) za Bitcoin ambapo wewe ndiye mlinzi pekee wa pesa zako, kumaanisha kuwa una udhibiti kamili wa [funguo zako za faragha](https://planb.academy/resources/glossary/private-key). Vifunguo vya faragha ni kama nenosiri la Wallet (Pochi) lako na hutumika kutia sahihi na kuidhinisha miamala. Bila wao, huwezi kufikia au kuhamisha Bitcoin yako.
 
-Wallet (Pochi) zisizo na dhamana hutoa kiwango cha juu cha usalama na faragha juu ya Wallet (Pochi) za ulezi kwa kuwa ni wewe pekee unayewajibika kwa usalama wa pesa zako. Mifano ya Wallet (Pochi) zisizo na dhamana ni pamoja na Wallet (Pochi) za maunzi kama vile [Coldcard](https://store.coinkite.com/store/coldcard) na [Trezor](https://trezor.io/), ambavyo ni vifaa halisi vinavyohifadhi funguo zako za faragha nje ya mtandao na kutoa Layer ya ziada ya usalama. Wallet (Pochi) nyingine maarufu zisizo na dhamana ni Wallet (Pochi) za programu kama vile [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), na [Blockstream Green](https://blockstream.com/Green/), ambazo zinaweza kupakuliwa na kusakinishwa kwenye kompyuta au kifaa chako cha mkononi.
+Wallet (Pochi) zisizo na dhamana hutoa kiwango cha juu cha usalama na faragha juu ya Wallet (Pochi) za ulezi kwa kuwa ni wewe pekee unayewajibika kwa usalama wa pesa zako. Mifano ya Wallet (Pochi) zisizo na dhamana ni pamoja na [Wallet (Pochi) za maunzi](https://planb.academy/resources/glossary/hardware-wallet) kama vile [Coldcard](https://store.coinkite.com/store/coldcard) na [Trezor](https://trezor.io/), ambavyo ni vifaa halisi vinavyohifadhi funguo zako za faragha nje ya mtandao na kutoa Layer ya ziada ya usalama. Wallet (Pochi) nyingine maarufu zisizo na dhamana ni Wallet (Pochi) za programu kama vile [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), na [Blockstream Green](https://blockstream.com/Green/), ambazo zinaweza kupakuliwa na kusakinishwa kwenye kompyuta au kifaa chako cha mkononi.
 
 **Ingawa hatuwezi kupendekeza Wallet (Pochi) mahususi, tunashauri sana kuchukua udhibiti wa Bitcoin yako kupitia ulinzi binafsi au ulinzi shirikishi, unaojumuisha kuchagua Wallet (Pochi) ambayo inakidhi mahitaji na mapendeleo yako. Ni muhimu kufanya utafiti wa kina kabla ya kuamua juu ya Wallet (Pochi) ili kuhakikisha kuwa inalingana na mahitaji yako ya usalama na utumiaji.**
 
@@ -875,7 +875,7 @@ Ingawa Wallet (Pochi) za uhifadhi zinaweza kuonekana kuwa rahisi, zinakuja na ha
 
 Baada ya kuamua juu ya Wallet (Pochi), furaha na michezo bado haijaisha. Sasa ni wakati wa kupunguza hatari ya kupoteza. Ili kulinda Bitcoin yako, zingatia hatua hizi baada ya kuchagua Wallet (Pochi) lako:
 
-1. Kwanza kabisa, hifadhi nakala ya Wallet yako unapojitunza. Wallet (Pochi) za maunzi huja na maneno ya kurejesha akaunti ya seed, seti ya maneno ambayo yanaweza kutumika kurejesha funguo zako za faragha endapo kifaa chako kitapotea au kuharibika. Unda nakala halisi, kama vile sahani ya chuma ya seed, ya [maneno ya seed](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/) na uihifadhi mahali salama. Ni muhimu kuweka maneno haya ya uokoaji ya seed salama. KAMWE usiishiriki na mtu yeyote.
+1. Kwanza kabisa, hifadhi nakala ya Wallet yako unapojitunza. Wallet (Pochi) za maunzi huja na [maneno ya kurejesha akaunti ya seed](https://planb.academy/resources/glossary/recovery-phrase), seti ya maneno ambayo yanaweza kutumika kurejesha funguo zako za faragha endapo kifaa chako kitapotea au kuharibika. Unda nakala halisi, kama vile sahani ya chuma ya seed, ya [maneno ya seed](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/) na uihifadhi mahali salama. Ni muhimu kuweka maneno haya ya uokoaji ya seed salama. KAMWE usiishiriki na mtu yeyote.
 
 2. Unapolinda kiasi kikubwa cha Bitcoin kinachozidi kiwango ambacho hungependa kupoteza, ni muhimu kuchunguza chaguo za kupanga mali kwa tukio lisilotazamiwa la kupita kwako. Hii inahakikisha kwamba familia yako na wapendwa wako wanaweza kufikia na kudhibiti Bitcoin yako kwa ufanisi.
 

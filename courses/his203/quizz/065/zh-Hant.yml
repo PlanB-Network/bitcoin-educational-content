@@ -1,0 +1,11 @@
+question: Bitcoinica 交易平台在宣佈破產前經歷了多少次獨立的黑客攻擊？
+answer: 3
+wrong_answers:
+  - 1
+  - 2
+  - 4
+explanation: |
+ 這三個黑客攻擊事件如下：Linode 帳戶被黑客攻擊，導致平台損失 43,554 個比特幣；Rackspace 帳戶被黑客攻擊，導致平台損失 18,574 個比特幣；Mt.
+ Gox 帳戶，其間黑客提取了 40,000 個比特幣和 40,000 個 LR-USD。Bitcoinica 的清算
+ 於 2012 年 8 月 1 日宣布清算。
+reviewed: true

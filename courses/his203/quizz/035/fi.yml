@@ -1,0 +1,10 @@
+question: Mistä eräissä mining-pooleissa käytetty Pay Per Last N Shares (PPLNS) -menetelmä koostuu?
+answer: Maksetaan louhijoille jokaisesta louhitusta lohkosta suhteessa heidän osuuteensa mining-altaaseen toimitetuista viimeisistä N lohkosta
+wrong_answers:
+  - Maksetaan kaivostyöntekijöille välittömästi korvaus jokaisesta toimitetusta osasta sen vaikeusasteen mukaan
+  - Palkita louhijat jokaisesta louhitusta lohkosta suhteessa edellisen lohkon jälkeen löydettyihin osakkeisiin
+  - Maksetaan louhijoille välittömästi jokaisesta toimitetusta osakkeesta, mutta ei koskaan enempää kuin mining-poolin omistama osuus
+explanation: |
+ Kyseessä on suhteellisen mallin muunnos, jossa arviointijakso ei ole lohkon tuotantosykli, vaan N osakkeen mittainen, syklistä riippumaton ikkuna.
+ PPLNS-menetelmää on käyttänyt muun muassa P2Pool.
+reviewed: true

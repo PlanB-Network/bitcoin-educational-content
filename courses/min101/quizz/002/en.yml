@@ -6,4 +6,4 @@ wrong_answers:
   - The mempool is a central server
 explanation: |
   The mempool is local to each node, so its content can vary from node to node depending on the rules each node applies.
-reviewed: false
+reviewed: true

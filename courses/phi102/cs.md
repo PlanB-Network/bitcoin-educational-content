@@ -1117,7 +1117,7 @@ V logice politické nadvlády přestávají být peníze zbožím nebo službou 
 
 
 
-Již ve středověku analyzoval Nicolas Oresme škodlivé účinky měnové manipulace na obchod. Snížení měny vyvolává inflaci a destabilizuje ceny, protože měnový signál se stává nejistým, když pán hodnotových měr může libovolně měnit jejich obsah. Samotné kovové peníze nebyly často ničím jiným než iluzí, mince obsahovaly slitiny s nízkou hodnotou, které někteří liberální autoři 19. století označovali jako měděné asignáty.
+Již ve středověku analyzoval Nicolas Oresme škodlivé účinky měnové manipulace na obchod. Snížení měny vyvolává [inflaci](https://planb.academy/resources/glossary/inflation) a destabilizuje ceny, protože měnový signál se stává nejistým, když pán hodnotových měr může libovolně měnit jejich obsah. Samotné kovové peníze nebyly často ničím jiným než iluzí, mince obsahovaly slitiny s nízkou hodnotou, které někteří liberální autoři 19. století označovali jako měděné asignáty.
 
 
 

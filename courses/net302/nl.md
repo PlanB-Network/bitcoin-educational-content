@@ -90,8 +90,6 @@ Klaar om in de wereld van computernetwerken te duiken? Laten we gaan!
 **OPMERKING**: De beschrijvingen zijn gebaseerd op een GNU/Linux CentOS 7 systeem. Netwerkconfiguraties zijn echter grotendeels hetzelfde als je een Debian en een CentOS systeem vergelijkt. We zullen dus geen onderscheid maken. Als er onderscheid wordt gemaakt, geven we dat aan met een specifiek logo.
 
 
-**N.B.**: Als je tijdens de cursus onbekende termen tegenkomt, raadpleeg dan [de woordenlijst](https://planb.academy/resources/glossary) voor definities.
-
 
 
 # TCP/IP-protocollen

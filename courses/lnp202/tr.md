@@ -92,7 +92,7 @@ Bu LNP202 kursunu doğru sırayla takip ederseniz, sonunda Lightning düğümün
 
 
 
-Kendi düğümünüzü başlatmadan önce, bu bölüm Lightning Network'nın arkasındaki temel teoriyi kısaca gözden geçirmektedir. İlgili mekanizmaları anlamak gerçekten de önemlidir, çünkü bu sayede riskleri belirleyebilir ve bunları sınırlandırmak için iyi uygulamalar benimseyebilirsiniz. Ancak bu kursun ana amacı bu olmadığı için burada ayrıntıya girmeyeceğim. Konuyu daha derinlemesine incelemek isterseniz, Fanis Michalakis'in bu alanda bir referans olan LNP 201 kursuna başvurmanızı şiddetle tavsiye ederim:
+Kendi düğümünüzü başlatmadan önce, bu bölüm [Lightning Network](https://planb.academy/resources/glossary/lightning-network)'nın arkasındaki temel teoriyi kısaca gözden geçirmektedir. İlgili mekanizmaları anlamak gerçekten de önemlidir, çünkü bu sayede riskleri belirleyebilir ve bunları sınırlandırmak için iyi uygulamalar benimseyebilirsiniz. Ancak bu kursun ana amacı bu olmadığı için burada ayrıntıya girmeyeceğim. Konuyu daha derinlemesine incelemek isterseniz, Fanis Michalakis'in bu alanda bir referans olan LNP 201 kursuna başvurmanızı şiddetle tavsiye ederim:
 
 
 
@@ -616,7 +616,7 @@ Daha sonra Lightning düğümünüzün ana arayüzüne ulaşacaksınız. Sol tar
 
 
 
-Ortada, Lightning wallet'inizi bulacaksınız. Bu aslında giden paranızı, yani Lightning kanallarınızda sahip olduğunuz bitcoinleri temsil eder.
+Ortada, Lightning wallet'inizi bulacaksınız. Bu aslında [giden paranızı](https://planb.academy/resources/glossary/outbound-capacity), yani Lightning kanallarınızda sahip olduğunuz bitcoinleri temsil eder.
 
 
 

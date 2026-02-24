@@ -1,0 +1,11 @@
+question: Jak nazywała się prywatna usługa wymiany walut uruchomiona przez Jeremiasa Kangasa i jego brata w czerwcu 2012 roku?
+answer: LocalBitcoins
+wrong_answers:
+  - BTC BLISKO MNIE
+  - BitInstant
+  - Coinabul
+explanation: |
+ Była to platforma matchmakingowa, która została uruchomiona 7 czerwca. Latem LocalBitcoins zintegrował system escrow, dzięki któremu bitcoiny mogły być
+ chwilowo przechowywane przez platformę i uwalniane za pośrednictwem wiadomości SMS w celu dokonania płatności na rzecz kupującego. W szczególności umożliwiło to wymianę twarzą w twarz, w której sprzedawca
+ bitcoiny po otrzymaniu gotówki.
+reviewed: true

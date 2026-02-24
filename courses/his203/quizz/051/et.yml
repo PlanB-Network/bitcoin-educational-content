@@ -1,0 +1,10 @@
+question: Milline oli 2012. aasta mais Nicolas Christini 2012. aasta augustis avaldatud uuringu kohaselt päevane müügimaht?
+answer: 15,000 BTC või 75,000 dollarit
+wrong_answers:
+  - 600 BTC või 3000 dollarit
+  - 3,000 BTC või 15,000 dollarit
+  - 75,000 BTC või 375,000 $
+explanation: |
+ Päevane müügimaht, mis märtsis oli 8000 BTC, jõudis mais 15 000 BTC-ni, mis vastas sel ajal umbes 75 000 dollarile. Tegevuse osakaal kogutoodangust
+ Bitcoin-keti aktiivsusest jäi 2012. aastal vahemikku 10-20%. Novembri alguses nimetas Ross platvormi edu "plahvatuslikuks kasvuks".
+reviewed: true

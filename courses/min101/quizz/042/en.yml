@@ -6,4 +6,4 @@ wrong_answers:
   - Application-Shared Integrated Circuit
 explanation: |
   An ASIC is a chip designed for a single task. Therefore, it is an Application-Specific Integrated Circuit.
-reviewed: false
+reviewed: true

@@ -1,0 +1,10 @@
+question: Rundt hvilket nivå falt prisen på bitcoin på slutten av bear-markedet som fulgte etter den store boblen i 2011?
+answer: 2 $
+wrong_answers:
+  - 0,01 $
+  - 6 $
+  - 17,5 $
+explanation: |
+ Etter å ha nådd en topp på 32 dollar i juni 2011, falt prisen på bitcoin drastisk til 6 dollar i begynnelsen av august, og fortsatte deretter å falle, for til slutt å nå rundt 2 dollar i
+ Dollar i november 2011. Dette representerte et fall på over 90 % fra toppen i juni.
+reviewed: true

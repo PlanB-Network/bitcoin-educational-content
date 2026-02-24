@@ -68,7 +68,7 @@ Bahati nzuri!
 
 ### Ufafanuzi wa mfumuko wa bei
 
-Mfumuko wa bei ni dhana ambayo mara nyingi haieleweki kutokana na fasili nyingi zinazohusiana nayo. Mtazamo wa mfumuko wa bei hutofautiana kati ya vikundi tofauti kama vile bitcoiners na wachumi wa jadi. Hebu kwanza tufafanue ufafanuzi kabla ya kujadili mfumuko wa bei:
+[Mfumuko wa bei](https://planb.academy/resources/glossary/inflation) ni dhana ambayo mara nyingi haieleweki kutokana na fasili nyingi zinazohusiana nayo. Mtazamo wa mfumuko wa bei hutofautiana kati ya vikundi tofauti kama vile bitcoiners na wachumi wa jadi. Hebu kwanza tufafanue ufafanuzi kabla ya kujadili mfumuko wa bei:
 
 
 - Ufafanuzi kutoka kwa Robert: Mfumuko wa bei ni ongezeko kubwa la njia za malipo (noti, mtaji) na kusababisha kupanda kwa bei na kushuka kwa thamani ya sarafu.
@@ -145,7 +145,7 @@ Maravedi, kama sarafu ya shaba, inachukua nafasi maalum katika historia ya dola 
 
 Kushuka kwa thamani ya fedha ni chombo ambacho mara nyingi hutumiwa na mataifa kufadhili gharama zao au kuchochea uchumi. Hata hivyo, Hispania ilijikuta katika hali tete. Kupunguza dola ya Uhispania kungeathiri msimamo wake katika biashara ya kimataifa. Ili kuondokana na tatizo hili, Hispania iligeukia Maravedi.
 
-Tofauti na dola ya thamani ya fedha ya Kihispania, Maravedis ilikuwa sarafu ya shaba iliyotumiwa hasa na wakazi wa huko. Sarafu hii ililengwa kushushwa thamani. Wakati sarafu ya Maravedis mwanzoni ilikuwa na thamani ya maravedis mbili, Fiat money (pesa za serikali) ingeichukua, kuigonga tena kwa thamani mpya, kwa mfano "nne", na kumrudishia mmiliki sarafu moja pekee. Sarafu iliyotajwa na muhuri "nane" ni ushahidi wa mchakato huu, ukiwa umepitia mizunguko kadhaa ya kushuka kwa thamani.
+Tofauti na dola ya thamani ya fedha ya Kihispania, Maravedis ilikuwa sarafu ya shaba iliyotumiwa hasa na wakazi wa huko. Sarafu hii ililengwa kushushwa thamani. Wakati sarafu ya Maravedis mwanzoni ilikuwa na thamani ya maravedis mbili, [Fiat money (pesa za serikali)](https://planb.academy/resources/glossary/fiat) ingeichukua, kuigonga tena kwa thamani mpya, kwa mfano "nne", na kumrudishia mmiliki sarafu moja pekee. Sarafu iliyotajwa na muhuri "nane" ni ushahidi wa mchakato huu, ukiwa umepitia mizunguko kadhaa ya kushuka kwa thamani.
 
 Mkakati huu uliruhusu Fiat money (pesa za serikali) kupunguza thamani ya sarafu, kuunda mfumuko wa bei na kujifadhili kwa njia isiyo ya moja kwa moja, huku ikihifadhi uadilifu wa dola ya Uhispania kwenye hatua ya kimataifa. Hata hivyo, upunguzaji huu wa makusudi ulikuwa na matokeo kwa wakazi wa eneo hilo, ambao waliona thamani ya sarafu yao ya kawaida ikishuka.
 
@@ -833,7 +833,7 @@ Tukio la makampuni ya zombi halijapunguzwa kwa historia ya Ujerumani baada ya vi
 
 #### 6. Tajirika haraka!
 
-Katika historia, tunaona nyakati ambapo watu walitafuta kutajirika haraka, kama ilivyokuwa Weimar na Zimbabwe kupitia arbitrage. Leo, tunaona mwelekeo sawa na kuibuka kwa baadhi ya sarafu za kidijitali. Watu wanavutiwa na faida za haraka, wakichukua hatari wakitumaini mara nyingi kuongezeka kwa uwekezaji wao. Mbinu hii inaweza kufanana na ile iliyoshuhudiwa wakati wa mfumuko mkubwa wa bei, ambapo arbitrage ilitumika kupata faida za haraka, mara nyingi kwa hasara ya wengine.
+Katika historia, tunaona nyakati ambapo watu walitafuta kutajirika haraka, kama ilivyokuwa Weimar na Zimbabwe kupitia arbitrage. Leo, tunaona mwelekeo sawa na kuibuka kwa baadhi ya [sarafu za kidijitali](https://planb.academy/resources/glossary/cryptocurrency). Watu wanavutiwa na faida za haraka, wakichukua hatari wakitumaini mara nyingi kuongezeka kwa uwekezaji wao. Mbinu hii inaweza kufanana na ile iliyoshuhudiwa wakati wa mfumuko mkubwa wa bei, ambapo arbitrage ilitumika kupata faida za haraka, mara nyingi kwa hasara ya wengine.
 
 ![image](assets/sw/052.webp)
 

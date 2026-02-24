@@ -824,7 +824,7 @@ Liberteryenler, ister siyasi ister ekonomik olsun, her türlü güç yoğunlaşm
 2.  **Diğer anarko-kapitalist:** Devlet fonksiyonlarının özelleştirilmesi ve piyasa tarafından yönetilmesi gerektiğine inanan kişi.
 
 
-Bununla birlikte, her ikisi de bireysel egemenliğin temel ilkesi konusunda hemfikirdir. Özgürlükçü fikirler 18. yüzyılın başlarında Fizyokratlar, özellikle Vincent de Gournay ve Turgot tarafından dile getirilmiş ve Condillac, Jean-Baptiste Say ve Frédéric Bastiat tarafından geliştirilmiştir. Bu fikirler 20. yüzyılda, başlıca yazarları Ludwig von Mises, Friedrich Hayek ve Murray Rothbard olan Avusturya iktisat okulu tarafından ele alınmış ve geliştirilmiştir.
+Bununla birlikte, her ikisi de bireysel egemenliğin temel ilkesi konusunda hemfikirdir. Özgürlükçü fikirler 18. yüzyılın başlarında Fizyokratlar, özellikle Vincent de Gournay ve Turgot tarafından dile getirilmiş ve Condillac, Jean-Baptiste Say ve Frédéric Bastiat tarafından geliştirilmiştir. Bu fikirler 20. yüzyılda, başlıca yazarları Ludwig von Mises, Friedrich Hayek ve Murray Rothbard olan [Avusturya iktisat okulu](https://planb.academy/resources/glossary/austrian-school) tarafından ele alınmış ve geliştirilmiştir.
 
 
 
@@ -1624,10 +1624,10 @@ Bu kursun sonunda, Bitcoin ve bitcoincilerin siyasi konumlanışına değinmenin
 
 
 
-Bitcoin, 2008 yılında Satoshi Nakamoto tarafından yaratılan ve güvenilmeyen, eşler arası finansal işlemlere olanak sağlayan merkezi olmayan bir kripto para birimidir.
+Bitcoin, 2008 yılında Satoshi Nakamoto tarafından yaratılan ve güvenilmeyen, [eşler arası](https://planb.academy/resources/glossary/peertopeer-p2p) finansal işlemlere olanak sağlayan merkezi olmayan bir kripto para birimidir.
 
 
-Bitcoin, CEO'su, merkez ofisi, pazarlama bütçesi ve belirlenmiş bir otoritesi olmayan açık kaynaklı bir yazılım protokolü tarafından kontrol edilmektedir. Bu da hiçbir siyasi oluşum ya da hükümetin Bitcoin üzerinde kontrolü olmadığı anlamına gelmektedir.
+Bitcoin, CEO'su, merkez ofisi, pazarlama bütçesi ve belirlenmiş bir otoritesi olmayan [açık kaynaklı](https://planb.academy/resources/glossary/foss) bir yazılım protokolü tarafından kontrol edilmektedir. Bu da hiçbir siyasi oluşum ya da hükümetin Bitcoin üzerinde kontrolü olmadığı anlamına gelmektedir.
 
 
 
@@ -1643,7 +1643,7 @@ Bitcoin'ün kendisi ne sağcı ne solcu ne de herhangi bir dine ait olsa da, yin
 
 
 
-Satoshi Nakamoto White Paper'ı okuduğumuzda, Bitcoin'in iki büyük çağdaş tehdide karşı yenilikçi bir koruma sunmak üzere tasarlandığını görebiliriz: yaygın gözetim ve yapay para yaratımının hızlandırılması.
+Satoshi Nakamoto [White Paper](https://planb.academy/resources/glossary/white-paper)'ı okuduğumuzda, Bitcoin'in iki büyük çağdaş tehdide karşı yenilikçi bir koruma sunmak üzere tasarlandığını görebiliriz: yaygın gözetim ve yapay para yaratımının hızlandırılması.
 
 
 
@@ -1723,7 +1723,7 @@ Bu anlamda, hem ahlaki hem de siyasi bir dünya vizyonu tarafından yönlendiril
 
 
 
-Ancak Bitcoin birdenbire ortaya çıkmadı. Matematik, fizik, bilgisayar bilimi ve felsefedeki gelişmelere dayanmaktadır. Satoshi Nakamoto, zeki olmasına rağmen, diğer yenilikçilerin fikirleri üzerine inşa edilmiştir. Bunların arasında cypherpunk hareketinin öncüleri de vardır.
+Ancak Bitcoin birdenbire ortaya çıkmadı. Matematik, fizik, bilgisayar bilimi ve felsefedeki gelişmelere dayanmaktadır. Satoshi Nakamoto, zeki olmasına rağmen, diğer yenilikçilerin fikirleri üzerine inşa edilmiştir. Bunların arasında [cypherpunk](https://planb.academy/resources/glossary/cypherpunks) hareketinin öncüleri de vardır.
 
 
 
@@ -1746,7 +1746,7 @@ Bilgi ve iletişim teknolojilerinin hızla geliştiği, ancak hükümetlerin ve 
 
 
 
-Buradaki fikir, dijital kriptografik araçlar sayesinde anonimliği ve finansal özgürlüğü herkes için erişilebilir kılmaktı. Bu şekilde, hükümet yetkililerinin çevrimiçi faaliyetler üzerinde hiçbir kontrolü olmayacaktı.
+Buradaki fikir, dijital [kriptografik](https://planb.academy/resources/glossary/cryptography) araçlar sayesinde anonimliği ve finansal özgürlüğü herkes için erişilebilir kılmaktı. Bu şekilde, hükümet yetkililerinin çevrimiçi faaliyetler üzerinde hiçbir kontrolü olmayacaktı.
 
 
 

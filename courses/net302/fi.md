@@ -90,8 +90,6 @@ Oletko valmis sukeltamaan tietokoneverkkojen maailmaan? Mennään!
 **HUOMAUTUS**: Kuvaukset perustuvat GNU/Linux CentOS 7 -järjestelmään. Verkkokokoonpanot ovat kuitenkin suurelta osin samat, kun verrataan Debian- ja CentOS-järjestelmiä. Emme siis tee mitään eroa. Jos on, liitämme siihen erityisen logon.
 
 
-**N.B.**: Jos törmäät kurssin aikana tuntemattomiin termeihin, katso määritelmät [sanastosta](https://planb.academy/resources/glossary).
-
 
 
 # TCP/IP-protokollat

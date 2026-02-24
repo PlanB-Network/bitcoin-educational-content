@@ -75,8 +75,6 @@ Het navigeren door het complexe bestuurslandschap van Bitcoin vereist meer dan t
 Klaar om de volgende stap te zetten in jouw Bitcoin reis? Laten we beginnen!
 
 
-***N.B.**: Als u tijdens de cursus onbekende termen met betrekking tot Bitcoin tegenkomt, raadpleeg dan de [woordenlijst](https://planb.academy/resources/glossary) om definities te vinden.*
-
 
 
 
@@ -94,7 +92,7 @@ Klaar om de volgende stap te zetten in jouw Bitcoin reis? Laten we beginnen!
 
 Dit analyseert wat decentralisatie is en waarom het essentieel is voor het functioneren van Bitcoin. We maken onderscheid tussen de
 
-decentralisatie van miners en die van volledige nodes, en bespreken wat ze bijdragen aan de censuurbestendigheid, een van de meest centrale eigenschappen van Bitcoin.
+decentralisatie van [miners](https://planb.academy/resources/glossary/mining) en die van [volledige nodes](https://planb.academy/resources/glossary/full-node), en bespreken wat ze bijdragen aan de censuurbestendigheid, een van de meest centrale eigenschappen van Bitcoin.
 
 
 De discussie verschuift dan naar het begrijpen van neutraliteit - of toestemmingsloosheid tegenover gebruikers, miners en ontwikkelaars - wat een noodzakelijke eigenschap is van elk gedecentraliseerd systeem. Tot slot bespreken we hoe Hard het kan zijn om een gedecentraliseerd systeem als Bitcoin te begrijpen, en presenteren we enkele mentale modellen die je kunnen helpen om het te begrijpen.
@@ -109,7 +107,7 @@ Decentralisatie is een middel om *censuurbestendigheid* te bereiken.
 Er zijn twee belangrijke aspecten van decentralisatie in Bitcoin: Miner decentralisatie en Full node decentralisatie.
 
 
-Miner decentralisatie verwijst naar het feit dat transactieverwerking niet wordt uitgevoerd of gecoördineerd door een centrale entiteit. Full node decentralisatie verwijst naar het feit dat validatie van de blokken, d.w.z. de gegevens die miners uitvoeren, aan de rand van het netwerk gebeurt, uiteindelijk door de gebruikers, en niet door een paar vertrouwde autoriteiten.
+Miner decentralisatie verwijst naar het feit dat [transactieverwerking](https://planb.academy/resources/glossary/transaction-tx) niet wordt uitgevoerd of gecoördineerd door een centrale entiteit. Full node decentralisatie verwijst naar het feit dat validatie van de [blokken](https://planb.academy/resources/glossary/block), d.w.z. de gegevens die miners uitvoeren, aan de rand van het netwerk gebeurt, uiteindelijk door de gebruikers, en niet door een paar vertrouwde autoriteiten.
 
 
 ![](assets/nl/001.webp)
@@ -125,10 +123,10 @@ Er waren al pogingen geweest om digitale munteenheden te creëren vóór Bitcoin
 Miner decentralisatie in Bitcoin betekent dat het *ordenen van transacties* niet wordt uitgevoerd door een enkele entiteit of vaste groep entiteiten. Het wordt collectief uitgevoerd door alle actoren die eraan willen deelnemen; dit miners' collectief is een dynamische verzameling gebruikers. Iedereen kan naar believen meedoen of weggaan. Deze eigenschap maakt Bitcoin censuurbestendig.
 
 
-Als Bitcoin gecentraliseerd zou zijn, zou het kwetsbaar zijn voor degenen die het zouden willen censureren, zoals overheden. Het zou hetzelfde lot beschoren zijn als eerdere pogingen om digitaal geld te creëren. In de inleiding van [een paper](https://www.blockstream.com/sidechains.pdf) getiteld "Enabling Blockchain Innovations with Pegged Sidechains", leggen de auteurs uit hoe vroege versies van digitaal geld niet waren uitgerust voor een vijandige omgeving (zie ook het hoofdstuk over vijandig denken in het volgende deel).
+Als Bitcoin gecentraliseerd zou zijn, zou het kwetsbaar zijn voor degenen die het zouden willen censureren, zoals overheden. Het zou hetzelfde lot beschoren zijn als eerdere pogingen om digitaal geld te creëren. In de inleiding van [een paper](https://www.blockstream.com/sidechains.pdf) getiteld "Enabling [Blockchain](https://planb.academy/resources/glossary/blockchain) Innovations with Pegged Sidechains", leggen de auteurs uit hoe vroege versies van digitaal geld niet waren uitgerust voor een vijandige omgeving (zie ook het hoofdstuk over vijandig denken in het volgende deel).
 
 
-David Chaum introduceerde digitaal geld als een onderzoeksonderwerp in 1983, in een omgeving met een centrale server die vertrouwd wordt om Double-spending te voorkomen. Om het privacyrisico voor individuen van deze centrale vertrouwde partij te beperken en om fungibiliteit af te dwingen, introduceerde Chaum de blinde handtekening, die hij gebruikte om een cryptografische manier te bieden om het koppelen van de handtekeningen van de centrale server (die munten vertegenwoordigen) te voorkomen, terwijl de centrale server nog steeds dubbele uitgaven kon voorkomen.
+David Chaum introduceerde digitaal geld als een onderzoeksonderwerp in 1983, in een omgeving met een centrale server die vertrouwd wordt om [Double-spending](https://planb.academy/resources/glossary/double-spending-attack) te voorkomen. Om het privacyrisico voor individuen van deze centrale vertrouwde partij te beperken en om [fungibiliteit](https://planb.academy/resources/glossary/fungibility) af te dwingen, introduceerde Chaum de [blinde handtekening](https://planb.academy/resources/glossary/blind-signature), die hij gebruikte om een cryptografische manier te bieden om het koppelen van de handtekeningen van de centrale server (die munten vertegenwoordigen) te voorkomen, terwijl de centrale server nog steeds dubbele uitgaven kon voorkomen.
 
 De vereiste van een centrale server werd de achilleshiel van digitaal geld[Gri99]. Hoewel het mogelijk is om dit "single point of failure" te verdelen door de handtekening van de centrale server te vervangen door een drempelhandtekening van meerdere ondertekenaars, is het voor de controleerbaarheid belangrijk dat de ondertekenaars verschillend en identificeerbaar zijn. Dit maakt het systeem nog steeds kwetsbaar voor fouten, omdat elke ondertekenaar één voor één kan falen of kan worden gedwongen te falen.
 
@@ -154,17 +152,17 @@ Als ze daarin slagen, zullen dezelfde problemen in de toekomst waarschijnlijk we
 Geen van deze opties is gunstig voor de gebruiker.
 
 
-Weerstand tegen censuur door decentralisatie is wat Bitcoin onderscheidt van andere geldsystemen, maar het is niet eenvoudig te realiseren vanwege het *Double-spending probleem*. Dit is het probleem om ervoor te zorgen dat niemand dezelfde munt twee keer kan uitgeven, een probleem waarvan veel mensen dachten dat het onmogelijk was om het op een gedecentraliseerde manier op te lossen. Satoshi Nakamoto schrijft in zijn [Bitcoin whitepaper](https://planb.academy/bitcoin.pdf) over hoe het Double-spending probleem opgelost kan worden:
+Weerstand tegen censuur door decentralisatie is wat Bitcoin onderscheidt van andere geldsystemen, maar het is niet eenvoudig te realiseren vanwege het *Double-spending probleem*. Dit is het probleem om ervoor te zorgen dat niemand dezelfde munt twee keer kan uitgeven, een probleem waarvan veel mensen dachten dat het onmogelijk was om het op een gedecentraliseerde manier op te lossen. Satoshi [Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) schrijft in zijn [Bitcoin whitepaper](https://planb.academy/bitcoin.pdf) over hoe het Double-spending probleem opgelost kan worden:
 
 
 > In dit artikel stellen we een oplossing voor voor het Double-spending probleem met behulp van een peer-to-peer gedistribueerde Timestamp server om generate rekenkundig bewijs te leveren van de chronologische volgorde van transacties.
 
 
-Hier gebruikt hij de vreemd klinkende uitdrukking "peer-to-peer gedistribueerde Timestamp server". Het sleutelwoord hier is *gedistribueerd*, wat in deze context betekent dat er geen centraal controlepunt is. Vervolgens legt Nakamoto uit hoe Proof-of-Work de oplossing is.
+Hier gebruikt hij de vreemd klinkende uitdrukking "peer-to-peer gedistribueerde Timestamp server". Het sleutelwoord hier is *gedistribueerd*, wat in deze context betekent dat er geen centraal controlepunt is. Vervolgens legt Nakamoto uit hoe [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) de oplossing is.
 
 Toch legt niemand het beter uit dan
 
-[Gregory Maxwell op Reddit](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/), waar hij reageert op iemand die voorstelt om het Hash vermogen van miners te beperken om mogelijke 51% aanvallen te voorkomen:
+[Gregory Maxwell op Reddit](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/), waar hij reageert op iemand die voorstelt om het [Hash vermogen](https://planb.academy/resources/glossary/hashrate) van miners te beperken om mogelijke 51% aanvallen te voorkomen:
 
 
 > Een gedecentraliseerd systeem zoals Bitcoin gebruikt openbare verkiezingen. Maar je kunt in een gedecentraliseerd systeem niet zomaar een stemming van 'mensen' houden, want dan zou een gecentraliseerde partij mensen moeten machtigen om te stemmen. In plaats daarvan gebruikt Bitcoin een stemming van rekenkracht, omdat het mogelijk is om rekenkracht te verifiëren zonder de hulp van een gecentraliseerde partij
@@ -189,10 +187,10 @@ De conclusie is belangrijk. Als mensen de decentralisatie van Bitcoin niet besch
 In de paragrafen hierboven hebben we het vooral gehad over Miner decentralisatie en hoe centralisatie van miners censuur mogelijk kan maken. Maar er is ook een ander aspect van decentralisatie, namelijk *Full node decentralisatie*.
 
 
-Het belang van Full node decentralisatie is gerelateerd aan de vertrouwensloosheid. Stel dat een gebruiker stopt met het runnen van zijn eigen Full node, bijvoorbeeld door een onbetaalbare stijging in de operationele kosten. In dat geval moeten ze op een andere manier communiceren met het Bitcoin netwerk, mogelijk door gebruik te maken van web wallets of lichtgewicht wallets, wat een bepaald niveau van vertrouwen vereist in de aanbieders van deze diensten.
+Het belang van Full node decentralisatie is gerelateerd aan de vertrouwensloosheid. Stel dat een gebruiker stopt met het runnen van zijn eigen Full node, bijvoorbeeld door een onbetaalbare stijging in de operationele kosten. In dat geval moeten ze op een andere manier communiceren met het Bitcoin netwerk, mogelijk door gebruik te maken van web [wallets](https://planb.academy/resources/glossary/wallet) of lichtgewicht wallets, wat een bepaald niveau van vertrouwen vereist in de aanbieders van deze diensten.
 
 
-De gebruiker gaat van het direct afdwingen van de netwerkconsensusregels naar het vertrouwen dat iemand anders dat zal doen. Stel nu dat de meeste gebruikers de handhaving van de consensus delegeren aan een vertrouwde entiteit. In dat geval kan het netwerk snel in een spiraal van centralisatie terechtkomen en kunnen de netwerkregels veranderd worden door samenzwerende kwaadwillende actoren.
+De gebruiker gaat van het direct afdwingen van de [netwerkconsensusregels](https://planb.academy/resources/glossary/consensus-rules) naar het vertrouwen dat iemand anders dat zal doen. Stel nu dat de meeste gebruikers de handhaving van de [consensus](https://planb.academy/resources/glossary/consensus) delegeren aan een vertrouwde entiteit. In dat geval kan het netwerk snel in een spiraal van centralisatie terechtkomen en kunnen de netwerkregels veranderd worden door samenzwerende kwaadwillende actoren.
 
 
 In [a
@@ -588,7 +586,7 @@ In het artikel dat daar wordt besproken, [stelt] Gregory Maxwell (https://bitcoi
 
 > Financiële privacy is een essentieel element voor fungibiliteit in Bitcoin: als je de ene munt zinvol kunt onderscheiden van de andere, dan is hun fungibiliteit zwak. Als onze fungibiliteit in de praktijk te zwak is, dan kunnen we niet gedecentraliseerd zijn: als een belangrijk iemand een lijst van gestolen munten aankondigt waarvan hij geen munten accepteert, dan moet je zorgvuldig de munten die je accepteert vergelijken met die lijst en de munten die niet voldoen terugsturen.  Iedereen zit vast aan het controleren van zwarte lijsten die zijn uitgegeven door verschillende autoriteiten, want in die wereld willen we allemaal niet opgescheept zitten met slechte munten. Dit voegt wrijving en transactiekosten toe en maakt Bitcoin minder waardevol als geld.
 
-Hier spreekt hij over de gevaren die voortkomen uit een gebrek aan fungibiliteit. Stel dat je een UTXO hebt. De geschiedenis van die UTXO kan normaal gezien verschillende hops terug gevolgd worden, uitwaaierend naar massa's vorige outputs. Als één van die outputs betrokken was bij illegale, ongewenste of verdachte activiteiten, dan zouden sommige potentiële ontvangers van jouw munt deze kunnen verwerpen. Als u denkt dat uw begunstigden uw munten zullen verifiëren aan de hand van een gecentraliseerde witte of zwarte lijst, dan zou u voor de zekerheid ook de munten die u ontvangt kunnen gaan controleren. Het resultaat is dat slechte fungibiliteit nog slechtere fungibiliteit zal versterken.
+Hier spreekt hij over de gevaren die voortkomen uit een gebrek aan fungibiliteit. Stel dat je een [UTXO](https://planb.academy/resources/glossary/utxo) hebt. De geschiedenis van die UTXO kan normaal gezien verschillende hops terug gevolgd worden, uitwaaierend naar massa's vorige outputs. Als één van die outputs betrokken was bij illegale, ongewenste of verdachte activiteiten, dan zouden sommige potentiële ontvangers van jouw munt deze kunnen verwerpen. Als u denkt dat uw begunstigden uw munten zullen verifiëren aan de hand van een gecentraliseerde witte of zwarte lijst, dan zou u voor de zekerheid ook de munten die u ontvangt kunnen gaan controleren. Het resultaat is dat slechte fungibiliteit nog slechtere fungibiliteit zal versterken.
 
 
 Adam Back en Matt Corallo [gaven een presentatie over fungibiliteit](https://btctranscripts.com/scalingbitcoin/milan-2016/fungibility-overview/) op Scaling Bitcoin in Milaan in 2016. Zij dachten in dezelfde richting:
@@ -674,7 +672,7 @@ Om fatsoenlijke privacy te krijgen in Bitcoin, moet je actieve maatregelen nemen
 ![](assets/nl/006.webp)
 
 
-Dit hoofdstuk gaat over de Bitcoin Supply limiet van 21 miljoen BTC, of hoeveel is het eigenlijk? We bespreken hoe deze limiet wordt afgedwongen en wat je kunt doen om te controleren of hij wordt gerespecteerd. Bovendien nemen we een kijkje in de kristallen bol en bespreken we de dynamiek die zal ontstaan wanneer Block reward verandert van subsidie- naar fee-gebaseerd.
+Dit hoofdstuk gaat over de Bitcoin Supply limiet van 21 miljoen BTC, of hoeveel is het eigenlijk? We bespreken hoe deze limiet wordt afgedwongen en wat je kunt doen om te controleren of hij wordt gerespecteerd. Bovendien nemen we een kijkje in de kristallen bol en bespreken we de dynamiek die zal ontstaan wanneer [Block reward](https://planb.academy/resources/glossary/block-reward) verandert van subsidie- naar fee-gebaseerd.
 
 
 De bekende eindige Supply van 21 miljoen BTC wordt beschouwd als een fundamentele eigenschap van Bitcoin. Maar is het echt in steen gebeiteld?
@@ -685,7 +683,7 @@ Laten we beginnen met te kijken naar wat de huidige consensusregels zeggen over 
 
 > Als je al deze getallen bij elkaar optelt, krijg je 20999999.9769 BTC.
 
-Maar door een aantal redenen -- zoals vroege problemen met coinbase transacties, miners die onbedoeld minder claimen dan toegestaan en verlies van privésleutels -- zal die bovengrens nooit bereikt worden. Wuille concludeert:
+Maar door een aantal redenen -- zoals vroege problemen met [coinbase transacties](https://planb.academy/resources/glossary/coinbase-transaction), miners die onbedoeld minder claimen dan toegestaan en verlies van privésleutels -- zal die bovengrens nooit bereikt worden. Wuille concludeert:
 
 
 > Dit laat ons met 20999817.31308491 BTC (rekening houdend met alles tot en met blok 528333)
@@ -718,7 +716,7 @@ Zelfs als sommige volledige knooppunten zich naar de duistere kant keren en besl
 
 
 
-Een Block reward bestaat uit de bloksubsidie plus transactiekosten. De Block reward moet de beveiligingskosten van Bitcoin dekken. We kunnen met zekerheid zeggen dat onder de huidige omstandigheden met betrekking tot bloksubsidie, transactiekosten, Bitcoin prijs, Mempool grootte, Hash macht, mate van decentralisatie etc., de stimulans voor elke speler om zich aan de regels te houden groot genoeg is om een veilig monetair systeem te behouden.
+Een Block reward bestaat uit de [bloksubsidie](https://planb.academy/resources/glossary/block-subsidy) plus [transactiekosten](https://planb.academy/resources/glossary/transaction-fees). De Block reward moet de beveiligingskosten van Bitcoin dekken. We kunnen met zekerheid zeggen dat onder de huidige omstandigheden met betrekking tot bloksubsidie, transactiekosten, Bitcoin prijs, [Mempool](https://planb.academy/resources/glossary/mempool) grootte, Hash macht, mate van decentralisatie etc., de stimulans voor elke speler om zich aan de regels te houden groot genoeg is om een veilig monetair systeem te behouden.
 
 
 Wat gebeurt er als de bloksubsidie bijna nul is? Laten we, om het eenvoudig te houden, aannemen dat het eigenlijk gelijk is aan nul. Op dat moment worden de beveiligingskosten van het systeem alleen gedekt door transactiekosten. Wat de toekomst ons brengt als dit gebeurt, kunnen we niet weten. De onzekerheidsfactoren zijn talrijk en we zijn aangewezen op speculaties. Paul Sztorc's bijdrage aan het onderwerp [in zijn Truthcoin blog](https://www.truthcoin.info/blog/security-budget/) is bijvoorbeeld vooral speculatie, maar hij heeft ten minste één solide punt (merk op dat M2, zoals bedoeld door Sztorc, een meting is van fiatgeld Supply):
@@ -735,7 +733,7 @@ Vandaag zijn het de houders die betalen voor de veiligheid (via monetaire inflat
 Naarmate de tijd verstrijkt, zal het dragen van de beveiligingskosten verschuiven van houders naar spenders
 
 
-Wanneer transactievergoedingen de belangrijkste motivatie zijn voor Mining, verschuiven de stimulansen. In het bijzonder, als de Mempool van een Miner niet genoeg transactievergoedingen bevat, kan het winstgevender worden voor die Miner om de geschiedenis van Bitcoin te herschrijven in plaats van deze uit te breiden. Bitcoin Optech heeft een specifieke [sectie over dit gedrag](https://bitcoinops.org/en/topics/fee-sniping/), genaamd *fee sniping*, geschreven door David Harding:
+Wanneer transactievergoedingen de belangrijkste motivatie zijn voor Mining, verschuiven de stimulansen. In het bijzonder, als de Mempool van een Miner niet genoeg transactievergoedingen bevat, kan het winstgevender worden voor die Miner om de geschiedenis van Bitcoin te herschrijven in plaats van deze uit te breiden. Bitcoin Optech heeft een specifieke [sectie over dit gedrag](https://bitcoinops.org/en/topics/fee-sniping/), genaamd *[fee sniping](https://planb.academy/resources/glossary/fee-sniping)*, geschreven door David Harding:
 
 
 > Fee sniping is een probleem dat kan optreden als de subsidie van Bitcoin blijft afnemen en transactiekosten de blokbeloningen van Bitcoin beginnen te domineren. Als transactiekosten het enige zijn dat telt, dan heeft een Miner met `x` procent van het Hash tarief een `x` procent kans op Mining het volgende blok, dus de verwachte waarde voor hen van eerlijk Mining is `x` procent van de [best feerate set van transacties](https://bitcoinops.org/en/newsletters/2021/06/02/#candidate-set-based-csb-block-template-construction) in hun Mempool.
@@ -816,7 +814,7 @@ Een standaard ondersteunt voorwaartse compatibiliteit als een product dat voldoe
 Omgekeerd verwijst [achterwaartse compatibiliteit](https://en.wikipedia.org/wiki/Backward_compatibility) naar wanneer gegevens van oude software bruikbaar zijn in nieuwere software. Er wordt gezegd dat een verandering volledig compatibel is als deze zowel voorwaarts als achterwaarts compatibel is.
 
 
-Een verandering aan de Bitcoin consensusregels wordt een *Soft Fork* genoemd als het volledig compatibel is. Dit is de meest gebruikelijke manier om Bitcoin op te waarderen, om een aantal redenen die we verder in dit hoofdstuk zullen bespreken. Als een verandering aan de Bitcoin consensusregels achterwaarts compatibel is, maar niet voorwaarts, dan wordt het een *Hard Fork* genoemd.
+Een verandering aan de Bitcoin consensusregels wordt een *[Soft Fork](https://planb.academy/resources/glossary/soft-fork)* genoemd als het volledig compatibel is. Dit is de meest gebruikelijke manier om Bitcoin op te waarderen, om een aantal redenen die we verder in dit hoofdstuk zullen bespreken. Als een verandering aan de Bitcoin consensusregels achterwaarts compatibel is, maar niet voorwaarts, dan wordt het een *[Hard Fork](https://planb.academy/resources/glossary/hard-fork)* genoemd.
 
 
 Voor een technisch overzicht van Soft vorken en Hard vorken, lees [hoofdstuk 11 van Grokking Bitcoin](https://rosenbaum.se/book/grokking-Bitcoin-11.html). Het legt deze termen uit en duikt ook in de upgrade mechanismen. Het is aan te raden, hoewel niet strikt noodzakelijk, om dit te begrijpen voordat je verder leest.
@@ -831,24 +829,24 @@ Bitcoin is vandaag de dag niet meer hetzelfde als toen het Genesis blok werd gem
 
 > Er was eigenlijk een Hard-Fork in Bitcoin dat Satoshi deed dat we het nooit op deze manier zouden doen- het is een behoorlijk slechte manier om het te doen. Als je kijkt naar de git commit beschrijving hier [[757f076](https://github.com/Bitcoin/Bitcoin/commit/757f0769d8360ea043f469f3a35f6ec204740446)], zegt hij iets over teruggedraaide makefile.unix wx-config versie 0.3.6. Klopt. Dat is alles wat er staat. Er staat helemaal niets over een brekende wijziging. Hij verborg het daar eigenlijk. Hij [postte ook op bitcointalk](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451) en zei, upgrade alsjeblieft zo snel mogelijk naar 0.3.6. We hebben een implementatie bug gerepareerd waarbij het mogelijk is dat valse transacties kunnen worden weergegeven als geaccepteerd. Accepteer geen Bitcoin betalingen totdat u heeft geüpgraded naar 0.3.6. Als je niet meteen kunt upgraden, kun je het beste je Bitcoin node afsluiten totdat je dat doet. En daar bovenop, ik weet niet waarom hij besloot om dit ook te doen, besloot hij om wat optimalisaties toe te voegen in dezelfde code. Een bug oplossen en wat optimalisaties toevoegen.
 
-Hij wijst erop dat, opzettelijk of niet, deze Hard Fork mogelijkheden creëerde voor toekomstige Soft forks, namelijk de Script operators (opcodes) OP_NOP1-OP_NOP10. We zullen meer kijken naar deze code verandering in cve-2010-5141. Deze opcodes zijn tot nu toe gebruikt voor twee Soft forks:
+Hij wijst erop dat, opzettelijk of niet, deze Hard Fork mogelijkheden creëerde voor toekomstige Soft forks, namelijk de Script operators ([opcodes](https://planb.academy/resources/glossary/opcodes)) OP_NOP1-OP_NOP10. We zullen meer kijken naar deze code verandering in cve-2010-5141. Deze opcodes zijn tot nu toe gebruikt voor twee Soft forks:
 
 
 - [BIP65](https://github.com/Bitcoin/bips/blob/master/bip-0065.mediawiki) (OP_CHECKLOCKTIMEVERIFY)
 - [BIP113](https://github.com/Bitcoin/bips/blob/master/bip-0112.mediawiki) (OP_SEQUENCEVERIFY).
 
 
-Lombrozo geeft ook een overzicht van de manier waarop de upgrade-mechanismen door de jaren heen zijn geëvolueerd, tot 2017. Sindsdien is slechts één andere grote upgrade, Taproot, ingezet. Het lange en enigszins chaotische proces dat leidde tot de activering ervan, heeft ons geholpen om meer inzicht te krijgen in de opwaardeermechanismen in Bitcoin.
+Lombrozo geeft ook een overzicht van de manier waarop de upgrade-mechanismen door de jaren heen zijn geëvolueerd, tot 2017. Sindsdien is slechts één andere grote upgrade, [Taproot](https://planb.academy/resources/glossary/taproot), ingezet. Het lange en enigszins chaotische proces dat leidde tot de activering ervan, heeft ons geholpen om meer inzicht te krijgen in de opwaardeermechanismen in Bitcoin.
 
 
 #### SegWit upgrade
 
 
 
-Terwijl alle upgrades voor SegWit min of meer pijnloos waren verlopen, was deze anders. Toen de SegWit activeringscode werd vrijgegeven, in oktober 2016, leek er overweldigende steun voor te zijn onder Bitcoin gebruikers, maar om de een of andere reden gaven miners geen steun aan voor deze upgrade, waardoor de activering stagneerde zonder dat er een oplossing in zicht was.
+Terwijl alle upgrades voor [SegWit](https://planb.academy/resources/glossary/segwit) min of meer pijnloos waren verlopen, was deze anders. Toen de SegWit activeringscode werd vrijgegeven, in oktober 2016, leek er overweldigende steun voor te zijn onder Bitcoin gebruikers, maar om de een of andere reden gaven miners geen steun aan voor deze upgrade, waardoor de activering stagneerde zonder dat er een oplossing in zicht was.
 
 
-Aaron van Wirdum beschrijft deze kronkelige weg in zijn Bitcoin Magazine artikel [The Long Road To SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality). Hij begint met uit te leggen wat SegWit is en hoe dat inhaakt op het blokgrootte debat. Daarna schetst Van Wirdum de gebeurtenissen die leidden tot de uiteindelijke activering. Centraal in dit proces stond een upgrade mechanisme genaamd *user activated Soft Fork*, of kortweg UASF, dat werd voorgesteld door gebruiker Shaolinfry:
+Aaron van Wirdum beschrijft deze kronkelige weg in zijn Bitcoin Magazine artikel [The Long Road To SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality). Hij begint met uit te leggen wat SegWit is en hoe dat inhaakt op het blokgrootte debat. Daarna schetst Van Wirdum de gebeurtenissen die leidden tot de uiteindelijke activering. Centraal in dit proces stond een upgrade mechanisme genaamd *user activated Soft Fork*, of kortweg [UASF](https://planb.academy/resources/glossary/uasf), dat werd voorgesteld door gebruiker Shaolinfry:
 
 
 > Shaolinfry stelde een alternatief voor: een door de gebruiker geactiveerde Soft Fork (UASF). In plaats van Hash stroomactivering, zou een door de gebruiker geactiveerde Soft Fork een "'flag day activation' hebben, waarbij nodes op een vooraf bepaald tijdstip in de toekomst beginnen met de handhaving." Zolang zo'n UASF afgedwongen wordt door een economische meerderheid, zou dit een meerderheid van mijnwerkers moeten dwingen om de Soft Fork te volgen (of te activeren).
@@ -1029,7 +1027,7 @@ Om Bitcoin in harmonie te houden, hebben Soft vorken bewezen de weg vooruit te z
 Dit hoofdstuk gaat over *tegenstrijdig denken*, een denkwijze die zich richt op wat er fout zou kunnen gaan en hoe tegenstanders zouden kunnen handelen. We beginnen met het bespreken van Bitcoin's beveiligingsaannames en beveiligingsmodel, waarna we uitleggen hoe gewone gebruikers hun zelfsoevereiniteit en Bitcoin's Full node decentralisatie kunnen verbeteren door adversair te denken. Daarna kijken we naar enkele actuele bedreigingen voor Bitcoin en in de geest van de tegenstander. Tot slot praten we over het *axioma van verzet*, dat je kan helpen begrijpen waarom mensen überhaupt aan Bitcoin werken.
 
 
-Bij het bespreken van beveiliging binnen verschillende systemen is het belangrijk om te begrijpen wat de beveiligingsaannames zijn. Een typische beveiligingsaanname in Bitcoin is "het discrete logaritme probleem is Hard op te lossen", wat simpel gezegd betekent dat het praktisch onmogelijk is om een private sleutel te vinden die overeenkomt met een bepaalde publieke sleutel. Een andere vrij sterke beveiligingsaanname is dat een meerderheid van de hashpower van het netwerk eerlijk is, wat betekent dat ze zich aan de regels houden. Als deze aannames onjuist blijken, dan zit Bitcoin in de problemen.
+Bij het bespreken van beveiliging binnen verschillende systemen is het belangrijk om te begrijpen wat de beveiligingsaannames zijn. Een typische beveiligingsaanname in Bitcoin is "het [discrete logaritme probleem](https://planb.academy/resources/glossary/discrete-logarithm) is Hard op te lossen", wat simpel gezegd betekent dat het praktisch onmogelijk is om een [private sleutel](https://planb.academy/resources/glossary/private-key) te vinden die overeenkomt met een bepaalde [publieke sleutel](https://planb.academy/resources/glossary/public-key). Een andere vrij sterke beveiligingsaanname is dat een meerderheid van de hashpower van het netwerk eerlijk is, wat betekent dat ze zich aan de regels houden. Als deze aannames onjuist blijken, dan zit Bitcoin in de problemen.
 
 
 In 2015 gaf Andrew Poelstra [een lezing](https://btctranscripts.com/scalingbitcoin/hong-kong-2015/security-assumptions/) op de Scaling Bitcoin conferentie in Hong Kong, waarin hij de beveiligingsaannames van Bitcoin analyseerde. Hij begint met op te merken dat veel systemen tot op zekere hoogte geen rekening houden met tegenstanders; het is bijvoorbeeld echt Hard om een gebouw te beschermen tegen alle soorten vijandige gebeurtenissen. In plaats daarvan accepteren we over het algemeen de mogelijkheid dat iemand het gebouw platbrandt en voorkomen we tot op zekere hoogte dit en ander vijandig gedrag door wetshandhaving, enz.
@@ -1066,7 +1064,7 @@ de complexiteit van het systeem zelf.
 
 
 
-Het belang van tegendraads denken strekt zich tot op zekere hoogte ook uit tot alledaagse Bitcoin gebruikers, niet alleen tot hardcore Bitcoin ontwikkelaars en experts. Ragnar Lifthasir vermeldt in een [tweetstorm](https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking) hoe simplistische verhalen rond Bitcoin - bijvoorbeeld "gewoon HODL" - vernederend kunnen zijn voor Bitcoin zelf, en besluit met de volgende woorden
+Het belang van tegendraads denken strekt zich tot op zekere hoogte ook uit tot alledaagse Bitcoin gebruikers, niet alleen tot hardcore Bitcoin ontwikkelaars en experts. Ragnar Lifthasir vermeldt in een [tweetstorm](https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking) hoe simplistische verhalen rond Bitcoin - bijvoorbeeld "gewoon [HODL](https://planb.academy/resources/glossary/hodl)" - vernederend kunnen zijn voor Bitcoin zelf, en besluit met de volgende woorden
 
 
 > Om Bitcoin en onszelf sterker te maken, moeten we denken als de software engineers die bijdragen aan Bitcoin. Ze reviewen, zoeken genadeloos naar fouten. Op hun technische evenementen praten ze over alle manieren waarop een voorstel kan mislukken. Ze denken tegendraads. Ze zijn conservatief
@@ -1085,10 +1083,10 @@ Wallet diefstal en denial-of-service-aanvallen:
 
 > Als een aanvaller probeert het netwerk te vullen met clients die hij controleert, dan is de kans groot dat je alleen verbinding maakt met aanvallende nodes. Hoewel Bitcoin nooit een telling van knooppunten voor iets gebruikt, kan het volledig isoleren van een knooppunt van het eerlijke netwerk nuttig zijn bij het uitvoeren van andere aanvallen.
 
-Dit type aanval wordt een *Sybil aanval* genoemd en treedt op wanneer een enkele entiteit meerdere knooppunten in een netwerk controleert en deze gebruikt om zich voor te doen als meerdere entiteiten.
+Dit type aanval wordt een *[Sybil aanval](https://planb.academy/resources/glossary/sybil-attack)* genoemd en treedt op wanneer een enkele entiteit meerdere [knooppunten](https://planb.academy/resources/glossary/node) in een netwerk controleert en deze gebruikt om zich voor te doen als meerdere entiteiten.
 
 
-Zoals het citaat ook vermeldt, is de Sybil-aanval niet effectief op het Bitcoin netwerk omdat er geen stemming plaatsvindt via nodes of andere numerieke entiteiten, maar via rekenkracht. Desalniettemin maakt deze platte structuur het systeem vatbaar voor andere aanvallen. De Bitcoin wikipagina beschrijft ook andere mogelijke aanvallen, zoals het verbergen van informatie (vaak aangeduid als *eclips aanval*), en de manier waarop Bitcoin Core enkele heuristische tegenmaatregelen tegen zulke aanvallen implementeert.
+Zoals het citaat ook vermeldt, is de Sybil-aanval niet effectief op het Bitcoin netwerk omdat er geen stemming plaatsvindt via nodes of andere numerieke entiteiten, maar via rekenkracht. Desalniettemin maakt deze platte structuur het systeem vatbaar voor andere aanvallen. De Bitcoin wikipagina beschrijft ook andere mogelijke aanvallen, zoals het verbergen van informatie (vaak aangeduid als *[eclips aanval](https://planb.academy/resources/glossary/eclipse-attack)*), en de manier waarop [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core) enkele heuristische tegenmaatregelen tegen zulke aanvallen implementeert.
 
 
 Het bovenstaande zijn voorbeelden van echte bedreigingen die aangepakt moeten worden.
@@ -1110,7 +1108,7 @@ efficiëntie.
 Er is bijvoorbeeld een sectie over hoe een infiltrant organisaties kan verstoren. Het is niet Hard in te zien hoe zulke tactieken gebruikt zouden kunnen worden om het Bitcoin ontwikkelingsproces aan te vallen, dat voor iedereen openstaat om aan deel te nemen. Een toegewijde aanvaller kan de voortgang blijven tegenhouden door eindeloze discussies over irrelevante zaken, marchanderen over precieze formuleringen en discussies proberen te herhalen die al uitgebreid aan de orde zijn geweest. De aanvaller kan ook een trollenleger inhuren om zijn eigen effectiviteit te vermenigvuldigen; we kunnen dit een sociale Sybil-aanval noemen. Met een sociale Sybil-aanval kunnen ze het laten lijken alsof er meer weerstand is tegen een voorgestelde verandering dan er in werkelijkheid is.
 
 
-Dit laat zien hoe een vastberaden staat er alles aan kan en zal doen om de vijand te vernietigen, inclusief het van binnenuit afbreken. Aangezien Bitcoin een vorm van geld is die concurreert met gevestigde fiatvaluta's, is de kans groot dat staten Bitcoin als een vijand zullen beschouwen.
+Dit laat zien hoe een vastberaden staat er alles aan kan en zal doen om de vijand te vernietigen, inclusief het van binnenuit afbreken. Aangezien Bitcoin een vorm van geld is die concurreert met gevestigde [fiatvaluta's](https://planb.academy/resources/glossary/fiat), is de kans groot dat staten Bitcoin als een vijand zullen beschouwen.
 
 
 ### Axiome van Weerstand
@@ -1150,7 +1148,7 @@ Om Bitcoin veilig te houden, moet je de vijanden en hun drijfveren kennen. De me
 ![](assets/nl/010.webp)
 
 
-Bitcoin is gebouwd met open source software. In dit hoofdstuk analyseren we wat dit betekent, hoe het onderhoud van de software werkt, en hoe open source software in Bitcoin toestemmingsvrije ontwikkeling mogelijk maakt. We duiken in *selectie cryptografie*, dat gaat over de selectie en het gebruik van bibliotheken in cryptografische systemen. Het hoofdstuk bevat een sectie over Bitcoin's beoordelingsproces, gevolgd door een andere over de manieren waarop Bitcoin ontwikkelaars gefinancierd worden. Het laatste deel gaat over hoe Bitcoin's open source cultuur er van buitenaf heel vreemd uit kan zien, en waarom deze vermeende vreemdheid eigenlijk een teken van goede gezondheid is.
+Bitcoin is gebouwd met open source software. In dit hoofdstuk analyseren we wat dit betekent, hoe het onderhoud van de software werkt, en hoe open source software in Bitcoin toestemmingsvrije ontwikkeling mogelijk maakt. We duiken in *selectie [cryptografie](https://planb.academy/resources/glossary/cryptography)*, dat gaat over de selectie en het gebruik van bibliotheken in cryptografische systemen. Het hoofdstuk bevat een sectie over Bitcoin's beoordelingsproces, gevolgd door een andere over de manieren waarop Bitcoin ontwikkelaars gefinancierd worden. Het laatste deel gaat over hoe Bitcoin's open source cultuur er van buitenaf heel vreemd uit kan zien, en waarom deze vermeende vreemdheid eigenlijk een teken van goede gezondheid is.
 
 
 De meeste Bitcoin software, en vooral Bitcoin Core, is open source. Dit betekent dat de broncode van de software beschikbaar is voor het algemene publiek om te bekijken, sleutelen, wijzigen en opnieuw te distribueren. De definitie van open source op [](https://opensource.org/osd) bevat onder andere de volgende belangrijke punten:
@@ -1189,7 +1187,7 @@ In de komende paragrafen duiken we in enkele andere interessante aspecten van op
 
 
 
-De broncode van Bitcoin Core wordt onderhouden in een Git repository die gehost wordt op [GitHub](https://github.com/Bitcoin/Bitcoin). Iedereen kan die repository klonen zonder toestemming te vragen, en het dan lokaal inspecteren, bouwen of wijzigen. Dit betekent dat er vele duizenden kopieën van de repository over de hele wereld verspreid zijn. Dit zijn allemaal kopieën van dezelfde repository, dus wat maakt deze specifieke GitHub Bitcoin Core repository zo speciaal? Technisch gezien is het helemaal niet speciaal, maar sociaal gezien is het het middelpunt geworden van de Bitcoin ontwikkeling.
+De broncode van Bitcoin Core wordt onderhouden in een [Git](https://planb.academy/resources/glossary/git) repository die gehost wordt op [GitHub](https://github.com/Bitcoin/Bitcoin). Iedereen kan die repository klonen zonder toestemming te vragen, en het dan lokaal inspecteren, bouwen of wijzigen. Dit betekent dat er vele duizenden kopieën van de repository over de hele wereld verspreid zijn. Dit zijn allemaal kopieën van dezelfde repository, dus wat maakt deze specifieke GitHub Bitcoin Core repository zo speciaal? Technisch gezien is het helemaal niet speciaal, maar sociaal gezien is het het middelpunt geworden van de Bitcoin ontwikkeling.
 
 
 Bitcoin en beveiligingsexpert Jameson Lopp legt dit heel goed uit in een [blog post](https://blog.lopp.net/who-controls-Bitcoin-core-/) getiteld "Who Controls Bitcoin Core?":
@@ -1230,10 +1228,10 @@ Waarschijnlijk net zo belangrijk is dat gebruikers vrij zijn om systemen te ontw
 
 
 
-- Lightning Network: Een betalingsnetwerk dat snelle betaling van zeer kleine bedragen mogelijk maakt. Het vereist zeer weinig On-Chain Bitcoin transacties. Er bestaan verschillende interoperabele implementaties, zoals [Core Lightning](https://github.com/ElementsProject/lightning), [LND](https://github.com/lightningnetwork/LND), [Eclair](https://github.com/ACINQ/eclair), en [Lightning Dev Kit](https://github.com/lightningdevkit).
-- CoinJoin: Meerdere partijen werken samen om hun betalingen in een enkele transactie te combineren om Address clustering moeilijker te maken. Er bestaan verschillende implementaties.
-- Sidechains: Dit systeem kan een munt vergrendelen op Bitcoin's Blockchain om hem te ontgrendelen op een andere Blockchain. Hierdoor kunnen bitcoins worden verplaatst naar een andere Blockchain, namelijk een Sidechain, om de functies te gebruiken die beschikbaar zijn op die Sidechain. Voorbeelden zijn [Blockstream's Elements](https://github.com/ElementsProject/Elements).
-- OpenTimestamps: Hiermee kun je [Timestamp een document](https://opentimestamps.org/) op Bitcoin's Blockchain op een privé manier opslaan. Je kunt dan die Timestamp gebruiken om te bewijzen dat een document voor een bepaalde tijd moet hebben bestaan.
+- [Lightning Network](https://planb.academy/resources/glossary/lightning-network): Een betalingsnetwerk dat snelle betaling van zeer kleine bedragen mogelijk maakt. Het vereist zeer weinig [On-Chain](https://planb.academy/resources/glossary/onchain) Bitcoin transacties. Er bestaan verschillende interoperabele implementaties, zoals [Core Lightning](https://github.com/ElementsProject/lightning), [LND](https://github.com/lightningnetwork/LND), [Eclair](https://github.com/ACINQ/eclair), en [Lightning Dev Kit](https://github.com/lightningdevkit).
+- [CoinJoin](https://planb.academy/resources/glossary/coinjoin): Meerdere partijen werken samen om hun betalingen in een enkele transactie te combineren om Address clustering moeilijker te maken. Er bestaan verschillende implementaties.
+- [Sidechains](https://planb.academy/resources/glossary/sidechain): Dit systeem kan een munt vergrendelen op Bitcoin's Blockchain om hem te ontgrendelen op een andere Blockchain. Hierdoor kunnen bitcoins worden verplaatst naar een andere Blockchain, namelijk een Sidechain, om de functies te gebruiken die beschikbaar zijn op die Sidechain. Voorbeelden zijn [Blockstream's Elements](https://github.com/ElementsProject/Elements).
+- OpenTimestamps: Hiermee kun je [Timestamp een document](https://opentimestamps.org/) op Bitcoin's Blockchain op een privé manier opslaan. Je kunt dan die [Timestamp](https://planb.academy/resources/glossary/timestamp) gebruiken om te bewijzen dat een document voor een bepaalde tijd moet hebben bestaan.
 
 
 Zonder ontwikkeling zonder toestemming zouden veel van deze projecten niet mogelijk zijn geweest. Zoals vermeld in het hoofdstuk over Neutraliteit, als ontwikkelaars toestemming zouden moeten vragen om protocollen bovenop Bitcoin te bouwen, zouden alleen de protocollen ontwikkeld worden die zijn toegestaan door de centrale ontwikkelaars toelatingscommissie.
@@ -1326,7 +1324,7 @@ Op weg naar de uiteindelijke goedkeuring doorloopt een idee meestal verschillend
 
 
 - Er is een idee gepost op de Bitcoin-dev mailinglijst
-- Het idee is geformaliseerd in een Bitcoin Verbeteringsvoorstel (BIP)
+- Het idee is geformaliseerd in een Bitcoin Verbeteringsvoorstel ([BIP](https://planb.academy/resources/glossary/bip))
 - De BIP is geïmplementeerd in een pull request (PR) naar Bitcoin Core
 - Inzetmechanismen worden besproken
 - Enkele concurrerende implementatiemechanismen zijn geïmplementeerd in pull requests voor Bitcoin Core
@@ -1382,7 +1380,7 @@ Bedrijven, individuen en organisaties die belang hebben bij het voortdurende suc
 Mensen krijgen soms de indruk dat er veel strijd en eindeloze verhitte debatten zijn tussen Bitcoin ontwikkelaars en dat ze niet in staat zijn om beslissingen te nemen.
 
 
-Bijvoorbeeld, het Taproot inzetmechanisme, het werd gedurende een lange periode besproken waarbij twee "kampen" zich vormden. Het ene kamp wilde de upgrade "laten mislukken" als mijnwerkers na een bepaald moment niet overweldigend voor de nieuwe regels hadden gestemd, terwijl het andere kamp de regels na dat moment hoe dan ook wilde handhaven. Michael Folkson vat de argumenten van de twee kampen samen in een [email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html) aan de Bitcoin-dev mailinglijst.
+Bijvoorbeeld, het Taproot inzetmechanisme, het werd gedurende een lange periode besproken waarbij twee "kampen" zich vormden. Het ene kamp wilde de upgrade "laten mislukken" als [mijnwerkers](https://planb.academy/resources/glossary/miner) na een bepaald moment niet overweldigend voor de nieuwe regels hadden gestemd, terwijl het andere kamp de regels na dat moment hoe dan ook wilde handhaven. Michael Folkson vat de argumenten van de twee kampen samen in een [email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html) aan de Bitcoin-dev mailinglijst.
 
 
 Het debat ging schijnbaar eindeloos door en het was echt Hard om op korte termijn een consensus hierover te zien ontstaan. Hierdoor raakten mensen gefrustreerd en als gevolg daarvan verhevigde de hitte. Gregory Maxwell (als gebruiker nullc) maakte zich [op Reddit](https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3) zorgen dat de lange discussies de upgrade minder veilig zouden maken:
@@ -1390,7 +1388,7 @@ Het debat ging schijnbaar eindeloos door en het was echt Hard om op korte termij
 
 > Op dit moment zorgt extra wachten niet voor meer controle en zekerheid. In plaats daarvan vermindert extra uitstel de inertie en neemt het risico mogelijk iets toe, omdat mensen details beginnen te vergeten, het werk aan downstream gebruik uitstellen (zoals Wallet ondersteuning) en niet zoveel extra controle-inspanningen investeren als ze zouden doen als ze vertrouwen hadden in het activeringstijdschema.
 
-Uiteindelijk werd dit geschil opgelost dankzij een nieuw voorstel van David Harding en Russel O'Connor genaamd Speedy Trial, dat een relatief kortere signaleringsperiode inhoudt voor mijnwerkers om de activering van Taproot vast te leggen, of snel te falen. Als ze het in die periode activeerden, zou Taproot ongeveer 6 maanden later worden ingezet.
+Uiteindelijk werd dit geschil opgelost dankzij een nieuw voorstel van David Harding en Russel O'Connor genaamd [Speedy Trial](https://planb.academy/resources/glossary/speedy-trial), dat een relatief kortere signaleringsperiode inhoudt voor mijnwerkers om de activering van Taproot vast te leggen, of snel te falen. Als ze het in die periode activeerden, zou Taproot ongeveer 6 maanden later worden ingezet.
 
 
 Iemand die niet gewend is aan het ontwikkelingsproces van Bitcoin zou waarschijnlijk denken dat deze verhitte debatten er vreselijk slecht en zelfs giftig uitzien. Er zijn minstens twee factoren waardoor ze er in de ogen van sommigen slecht uitzien:
@@ -1414,7 +1412,7 @@ ontwikkelaars misschien erg Hard-achtig overkomen, en die houding is meestal ger
 reproduceerbare builds, nieuwe afhankelijkheden toegevoegd, of als de code niet voldeed aan de [best practices] van Bitcoin (https://github.com/Bitcoin/Bitcoin/blob/master/doc/developer-notes.md).
 
 
-Nieuwe (en oude) ontwikkelaars kunnen hierdoor gefrustreerd raken. Maar, zoals gebruikelijk in open source software, kun je altijd Fork de repository, samenvoegen wat je wilt Fork, en bouw en draai je eigen binary.
+Nieuwe (en oude) ontwikkelaars kunnen hierdoor gefrustreerd raken. Maar, zoals gebruikelijk in open source software, kun je altijd [Fork](https://planb.academy/resources/glossary/fork) de repository, samenvoegen wat je wilt Fork, en bouw en draai je eigen binary.
 
 
 ### Conclusie over Open Source
@@ -1452,7 +1450,7 @@ soorten veranderingen, bijvoorbeeld:
 
 - Transactie-inputs minder bytes laten gebruiken
 - Prestaties van handtekeningverificatie verbeteren
-- Het peer-to-peer netwerk minder bandbreedte laten gebruiken
+- Het [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) netwerk minder bandbreedte laten gebruiken
 - Batching van transacties
 - Gelaagde architectuur
 
@@ -1464,7 +1462,7 @@ We zullen binnenkort duiken in de verschillende benaderingen van schaalvergrotin
 
 
 
-Schalen is al sinds de Genesis van Bitcoin een belangrijk punt van discussie. De allereerste zin van de [allereerste e-mail](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) in reactie op Satoshi's aankondiging van de Bitcoin whitepaper op de Cryptography mailinglijst ging inderdaad over schalen:
+Schalen is al sinds de Genesis van Bitcoin een belangrijk punt van discussie. De allereerste zin van de [allereerste e-mail](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) in reactie op Satoshi's aankondiging van de Bitcoin [whitepaper](https://planb.academy/resources/glossary/white-paper) op de Cryptography mailinglijst ging inderdaad over schalen:
 
 
 > Satoshi Nakamoto schreef:
@@ -1521,7 +1519,7 @@ Naast de negatieve effecten op de Full node decentralisatie, zou verticaal schal
 - Validatie van het blok kost tijd.
 
 
-Terwijl blok 7 door het netwerk wordt verspreid, zijn veel miners nog steeds Mining bovenop blok 6 omdat ze blok 7 nog niet hebben ontvangen en gevalideerd. Gedurende deze tijd, als één van deze miners een nieuw blok vindt op hoogte 7, zullen er twee concurrerende blokken zijn op die hoogte. Er kan maar één blok zijn op hoogte 7 (of eender welke andere hoogte), wat betekent dat één van de twee kandidaten oud moet worden.
+Terwijl blok 7 door het netwerk wordt verspreid, zijn veel miners nog steeds Mining bovenop blok 6 omdat ze blok 7 nog niet hebben ontvangen en gevalideerd. Gedurende deze tijd, als één van deze miners een nieuw blok vindt op hoogte 7, zullen er twee concurrerende blokken zijn op die hoogte. Er kan maar één blok zijn op hoogte 7 (of eender welke andere hoogte), wat betekent dat één van de twee kandidaten [oud](https://planb.academy/resources/glossary/stale-block) moet worden.
 
 
 Kortom, oudbakken blokken komen voor omdat het tijd kost voor elk blok om zich voort te planten, en hoe langer de voortplanting duurt, hoe groter de kans op oudbakken blokken.
@@ -1537,7 +1535,7 @@ scenario. De maatregelen die ze kunnen nemen zijn onder andere:
 
 
 - Het uitstellen van de validatie van een binnenkomend blok, ook bekend als *validationless Mining*. Miners kunnen gewoon de Proof-of-Work van de blokkop controleren en daarop mijnen, terwijl ze ondertussen het volledige blok downloaden en valideren.
-- Aansluiten op een Mining pool met grotere bandbreedte en connectiviteit.
+- Aansluiten op een [Mining pool](https://planb.academy/resources/glossary/pool-mining) met grotere bandbreedte en connectiviteit.
 
 
 Mining zonder validatie ondermijnt verder de decentralisatie van Full node, omdat de Miner terugvalt op het vertrouwen van binnenkomende blokken, tenminste tijdelijk. Het schaadt ook de veiligheid tot op zekere hoogte, omdat een deel van de rekenkracht van het netwerk mogelijk bouwt op een ongeldige Blockchain, in plaats van op de sterkste en geldige keten.
@@ -1594,7 +1592,7 @@ De verschillende lijnen staan voor verschillende versies van Bitcoin Core. De me
 De verbeteringen kunnen worden gecategoriseerd als het besparen van ruimte (RAM, schijf, bandbreedte, etc.) of het besparen van rekenkracht. Beide categorieën dragen bij aan de verbeteringen in het bovenstaande diagram.
 
 
-Een goed voorbeeld van rekenkundige verbetering is te vinden in de bibliotheek [libsecp256k1](https://github.com/Bitcoin-core/secp256k1), die onder andere de cryptografische primitieven implementeert die nodig zijn om digitale handtekeningen te maken en te verifiëren. Pieter Wuille is een van de bijdragers aan deze bibliotheek en hij schreef een [Twitter thread](https://twitter.com/pwuille/status/1450471673321381896) die de prestatieverbeteringen laat zien die zijn bereikt door verschillende pull requests.
+Een goed voorbeeld van rekenkundige verbetering is te vinden in de bibliotheek [libsecp256k1](https://github.com/Bitcoin-core/secp256k1), die onder andere de cryptografische primitieven implementeert die nodig zijn om [digitale handtekeningen](https://planb.academy/resources/glossary/digital-signature) te maken en te verifiëren. Pieter Wuille is een van de bijdragers aan deze bibliotheek en hij schreef een [Twitter thread](https://twitter.com/pwuille/status/1450471673321381896) die de prestatieverbeteringen laat zien die zijn bereikt door verschillende pull requests.
 
 
 ![](assets/nl/013.webp)
@@ -1617,7 +1615,7 @@ Er zijn ook verschillende goede voorbeelden van ruimtebesparende verbeteringen d
 Ruimtebesparing voor verschillende typen uitgaven, Taproot en oudere versies.
 
 
-Een 2-of-3 Multisig met native SegWit zou in totaal 104,5+43 vB = 147,5 vB vereisen, terwijl het meest ruimtebesparende gebruik van Taproot slechts 57,5+43 vB = 100,5 vB zou vereisen in het standaard gebruik. In het slechtste geval en in zeldzame gevallen, zoals wanneer een standaard ondertekenaar om een of andere reden niet beschikbaar is, zou Taproot 107,5+43 vB = 150,5 vB gebruiken. Je hoeft niet alle details te begrijpen, maar dit zou je een idee moeten geven van hoe ontwikkelaars denken over ruimtebesparing - elke kleine byte telt.
+Een 2-of-3 [Multisig](https://planb.academy/resources/glossary/multisig) met native SegWit zou in totaal 104,5+43 vB = 147,5 vB vereisen, terwijl het meest ruimtebesparende gebruik van Taproot slechts 57,5+43 vB = 100,5 vB zou vereisen in het standaard gebruik. In het slechtste geval en in zeldzame gevallen, zoals wanneer een standaard ondertekenaar om een of andere reden niet beschikbaar is, zou Taproot 107,5+43 vB = 150,5 vB gebruiken. Je hoeft niet alle details te begrijpen, maar dit zou je een idee moeten geven van hoe ontwikkelaars denken over ruimtebesparing - elke kleine byte telt.
 
 
 Afgezien van binnenwaartse schaalvergroting in Bitcoin software, zijn er ook enkele manieren waarop gebruikers kunnen bijdragen aan binnenwaartse schaalvergroting. Ze kunnen hun transacties intelligenter maken om te besparen op transactiekosten en tegelijkertijd hun voetafdruk op de Full node vereisten verminderen. Twee veelgebruikte technieken om dit doel te bereiken, heten transaction batching en output consolidation.
@@ -1667,7 +1665,7 @@ Hoe deze starttransactie tot stand komt verschilt per protocol, maar een gemeens
 Zodra de starttransactie op de Blockchain staat, kan het protocol doen wat het moet doen. Het zou bijvoorbeeld supersnelle betalingen tussen deelnemers kunnen doen, wat privacyverbeterende technieken kunnen implementeren, of meer geavanceerde scripts kunnen uitvoeren die niet door de Bitcoin Blockchain worden ondersteund.
 
 
-We zullen niet in detail treden hoe specifieke protocollen werken, maar zoals je in de vorige figuur kunt zien, wordt de Blockchain zelden gebruikt tijdens de levenscyclus van het protocol. Alle sappige actie gebeurt *off-chain*. We hebben gezien hoe dit een voordeel kan zijn voor privacy als het goed gedaan wordt, maar het kan ook een voordeel zijn voor schaalbaarheid.
+We zullen niet in detail treden hoe specifieke protocollen werken, maar zoals je in de vorige figuur kunt zien, wordt de Blockchain zelden gebruikt tijdens de levenscyclus van het protocol. Alle sappige actie gebeurt *[off-chain](https://planb.academy/resources/glossary/offchain)*. We hebben gezien hoe dit een voordeel kan zijn voor privacy als het goed gedaan wordt, maar het kan ook een voordeel zijn voor schaalbaarheid.
 
 
 In een [Reddit post](https://www.reddit.com/r/Bitcoin/comments/438hx0/a_trip_to_the_moon_requires_a_rocket_with/) getiteld "Een reis naar de maan vereist een raket met meerdere trappen anders eet de raketvergelijking je lunch op... iedereen in clown-auto stijl in een trebuchet inpakken en hopen op succes is uit den boze.", legt Gregory Maxwell uit waarom gelaagdheid onze beste kans is om Bitcoin op schaal te krijgen met ordes van grootte.
@@ -1747,7 +1745,7 @@ In een [email thread](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/20
   - backport van een fix of workaround van master naar de huidige vrijgegeven versie
 - Ontwikkelaars zullen proberen ervoor te zorgen dat de publicatie van de fix de aard van de kwetsbaarheid niet onthult door de voorgestelde fix aan ervaren ontwikkelaars te geven die niet op de hoogte zijn van de kwetsbaarheid, hen te vertellen dat het een kwetsbaarheid verhelpt en hen te vragen de kwetsbaarheid te identificeren.
 - Ontwikkelaars kunnen andere Bitcoin implementaties aanbevelen om kwetsbaarheden te verhelpen voordat de oplossing wordt vrijgegeven en op grote schaal wordt toegepast, als ze dit kunnen doen zonder de kwetsbaarheid te onthullen; bijvoorbeeld, als de oplossing significante prestatievoordelen heeft die de opname rechtvaardigen.
-- Voordat een kwetsbaarheid openbaar wordt, zullen ontwikkelaars over het algemeen aan bevriende Altcoin ontwikkelaars aanraden om de fixes in te halen. Maar dit gebeurt pas nadat de fixes op grote schaal zijn uitgerold in het Bitcoin netwerk.
+- Voordat een kwetsbaarheid openbaar wordt, zullen ontwikkelaars over het algemeen aan bevriende [Altcoin](https://planb.academy/resources/glossary/altcoin) ontwikkelaars aanraden om de fixes in te halen. Maar dit gebeurt pas nadat de fixes op grote schaal zijn uitgerold in het Bitcoin netwerk.
 - Over het algemeen zullen ontwikkelaars Altcoin niet op de hoogte brengen als ze zich vijandig gedragen (bijvoorbeeld kwetsbaarheden gebruiken om anderen aan te vallen of embargo's schenden).
 - Bitcoin ontwikkelaars zullen geen details over kwetsbaarheden vrijgeven totdat >80% van de Bitcoin knooppunten de fixes hebben toegepast. Ontdekte kwetsbaarheden worden aangemoedigd en verzocht om hetzelfde beleid te volgen. [1] [6]
 
@@ -1948,7 +1946,7 @@ Dit had een groot nadeel: de gegevens die gebruikers downloadden van knightmb [w
 Opnieuw leken mensen hierin mee te gaan, en de omkering van het ongeldige blok en zijn opvolgers was succesvol. Miners begonnen te werken aan een nieuwe opvolger voor blok [74637](https://Mempool.space/block/0000000000606865e679308edf079991764d88e8122ca9250aef5386962b6e84) en volgens de Timestamp van het blok verscheen er een opvolger om 23:53 UTC, ongeveer 6 uur nadat het probleem was ontdekt. Om 08:10 de volgende dag, op 16 augustus, rond blok 74689, had de nieuwe keten de oude keten ingehaald, daarom gingen alle niet-geüpgraded knooppunten opnieuw samenvoegen om de nieuwe keten te volgen. Dit is de diepste reorg - 52 blokken - in de geschiedenis van Bitcoin.
 
 
-Vergeleken met de OP_RETURN-kwestie werd deze kwestie iets netter afgehandeld:
+Vergeleken met de [OP_RETURN](https://planb.academy/resources/glossary/op-return-0x6a)-kwestie werd deze kwestie iets netter afgehandeld:
 
 
 - Geen binaire patch-release
@@ -2021,7 +2019,7 @@ BIP66 is interessant omdat het het belang benadrukt van:
 - Mining bovenop geverifieerde blokken
 
 
-BIP66 was een voorstel om de regels voor handtekeningcoderingen in Bitcoin Script aan te scherpen. De [motivatie](https://github.com/Bitcoin/bips/blob/master/bip-0066.mediawiki#motivation) was om handtekeningen te kunnen parsen met andere software of bibliotheken dan OpenSSL en zelfs recente versies van OpenSSL. OpenSSL is een bibliotheek voor algemene cryptografie die Bitcoin Core op dat moment gebruikte.
+BIP66 was een voorstel om de regels voor handtekeningcoderingen in Bitcoin [Script](https://planb.academy/resources/glossary/script) aan te scherpen. De [motivatie](https://github.com/Bitcoin/bips/blob/master/bip-0066.mediawiki#motivation) was om handtekeningen te kunnen parsen met andere software of bibliotheken dan OpenSSL en zelfs recente versies van OpenSSL. OpenSSL is een bibliotheek voor algemene cryptografie die Bitcoin Core op dat moment gebruikte.
 
 
 Het BIP werd geactiveerd op 4 juli 2015. Hoewel het bovenstaande waar is, lost BIP66 ook een veel ernstiger probleem op dat niet in het BIP wordt genoemd.
@@ -2065,7 +2063,7 @@ Tijdlijn van gebeurtenissen rond BIP66. Items in zwart zijn hierboven uitgelegd.
 
 
 
-Zonder dat iemand op de hoogte was van het probleem, had het opgelost kunnen worden door het nu breed uitgemeten BIP62, wat een voorstel was om de mogelijkheden van transactiemisleiding te verminderen. Een van de voorgestelde wijzigingen in BIP62 was het aanscherpen van de consensusregels voor het coderen van handtekeningen, oftewel "strikte DER codering". Pieter Wuille stelde in juli 2014 enkele aanpassingen aan de BIP voor die het probleem zouden hebben opgelost:
+Zonder dat iemand op de hoogte was van het probleem, had het opgelost kunnen worden door het nu breed uitgemeten BIP62, wat een voorstel was om de mogelijkheden van transactiemisleiding te verminderen. Een van de voorgestelde wijzigingen in BIP62 was het aanscherpen van de consensusregels voor het coderen van handtekeningen, oftewel "strikte [DER](https://planb.academy/resources/glossary/der) codering". Pieter Wuille stelde in juli 2014 enkele aanpassingen aan de BIP voor die het probleem zouden hebben opgelost:
 
 
 > 2014-jul-18: Om ervoor te zorgen dat de regels voor het coderen van handtekeningen in Bitcoin niet afhankelijk zijn van de specifieke parser van OpenSSL, heb ik het BIP62-voorstel aangepast zodat de strikte eis voor DER-handtekeningen ook geldt voor versie 1-transacties. Op dat moment werden er geen niet-DER-handtekeningen meer gemined in blokken, dus werd aangenomen dat dit geen invloed zou hebben. Zie https://github.com/Bitcoin/bips/pull/90 en http://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2014-July/006299.html. Destijds onbekend, maar als dit zou worden toegepast, zou de kwetsbaarheid zijn opgelost.

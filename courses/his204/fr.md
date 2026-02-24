@@ -206,7 +206,7 @@ Troisième point, la monnaie. En réaction à l’expérience de John Law, Canti
 
 ![image](assets/fr/017.webp)
 
-Il voit deux principales conséquences de la substitution d’une monnaie sans valeur réelle comme le papier-monnaie à une monnaie métallique. La première conséquence, c’est ce qu’il appelle le "rejet par les peuples", et qui signifie une défiance croissante envers la monnaie sans valeur. La seconde conséquence, c’est l’inflation. L’affaiblissement monétaire enchérit les marchandises.
+Il voit deux principales conséquences de la substitution d’une monnaie sans valeur réelle comme le papier-monnaie à une monnaie métallique. La première conséquence, c’est ce qu’il appelle le "rejet par les peuples", et qui signifie une défiance croissante envers la monnaie sans valeur. La seconde conséquence, c’est [l’inflation](https://planb.academy/resources/glossary/inflation). L’affaiblissement monétaire enchérit les marchandises.
 
 Dans son analyse de l’inflation, Cantillon va plus loin que ses contemporains, et c’est notre quatrième point. Observateur de la faillite du système de Law, Cantillon avait pu se convaincre du fait que les effets de l’inflation monétaire étaient loin d’être uniformes : tandis qu’elle enrichissait les uns, elle appauvrissait les autres. Il en conclut que l’inflation ne touche pas chacun uniformément : selon les canaux de transmission que la nouvelle monnaie emprunte, l’inflation a un effet redistributif. Ceux qui bénéficient le plus tôt de cette nouvelle monnaie profitent d’un pouvoir d’achat supplémentaire, tandis que les derniers utilisateurs, confrontés à l’inflation qui s’est installé peu à peu, s’appauvrissent par l’émission monétaire nouvelle.
 

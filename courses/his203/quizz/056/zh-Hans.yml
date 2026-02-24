@@ -1,0 +1,10 @@
+question: 在 2012 年的波克艺术节上，一半以上的商家都接受比特币，那么专门用于交易的区域叫什么名字呢？
+answer: 亚高洛山谷
+wrong_answers:
+  - Bitcoin 街
+  - 自由之路
+  - 硬通货训练营
+explanation: |
+ Agora Valley 包括大约四十个列名展位，出售食品、饮料、书籍、衣服、刀具、帽子等。BitInstant 的成员在那里设立了一个名为 "伯南克的 Bitcoin Exchange "的展位。
+ "伯南克的 Bitcoin Exchange"，他们在那里提供美元兑换，并教好奇的人们如何使用 Bitcoin。
+reviewed: true

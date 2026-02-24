@@ -193,7 +193,7 @@ Społeczności Bitcoin często realizują szersze cele, zwłaszcza w zakresie ed
 4. Obalanie wprowadzających w błąd lub bezpodstawnych twierdzeń niektórych osób publicznych i mediów;
 
 
-5. Podstawowe różnice między Bitcoin a innymi kryptowalutami;
+5. Podstawowe różnice między Bitcoin a innymi [kryptowalutami](https://planb.academy/resources/glossary/cryptocurrency);
 
 
 Budując pierwsze "cytadele" jutra, **społeczności Bitcoin na całym świecie służą jako bastion przeciwko dezinformacji i cenzurze, zapewniając jednocześnie podatny grunt do nauki podstaw Bitcoin**. Oferują one nowicjuszom, a nawet sceptykom, zasoby i kontakty potrzebne do odkrywania prawdziwego potencjału Bitcoin.
@@ -302,7 +302,7 @@ Jednak **połączenie sił często ma większy sens niż dzielenie pobliskich sp
 W tym sensie pomocna może być prosta "zasada kciuka": jeśli w ciągu 30-45 minut od miejsca zamieszkania nie ma aktywnej społeczności Bitcoin, warto założyć nową. To powiedziawszy, zawsze możesz robić, co chcesz.
 
 
-I oczywiście, jeśli starsza społeczność "ewoluowała" w kierunku, który nie jest już zgodny z twoimi wartościami, a ty nie masz czasu ani motywacji do "pomarańczowej pigułki", to stworzenie własnego Fork jest zawsze opcją.
+I oczywiście, jeśli starsza społeczność "ewoluowała" w kierunku, który nie jest już zgodny z twoimi wartościami, a ty nie masz czasu ani motywacji do "[pomarańczowej pigułki](https://planb.academy/resources/glossary/orange-pill)", to stworzenie własnego [Fork](https://planb.academy/resources/glossary/fork) jest zawsze opcją.
 
 
 
@@ -1391,7 +1391,7 @@ Obejmują one:
 
 
 
-- [Btcmap.org](https://btcmap.org/)**, strona internetowa z dwiema codziennie aktualizowanymi mapami: **[światowa mapa firm akceptujących Bitcoin](https://btcmap.org/map)** i **[światowa mapa społeczności](https://btcmap.org/communities/map)**. Wielu bitcoinerów regularnie sprawdza te mapy, niezależnie od tego, czy podróżują, czy prowadzą codzienne życie, aby poznać nowych ludzi lub znaleźć miejsca, w których mogą wydać swoje Sats. Btcmap jest globalnym punktem odniesienia, a umieszczenie tam swojej społeczności jest niezbędne dla widoczności**
+- [Btcmap.org](https://btcmap.org/)**, strona internetowa z dwiema codziennie aktualizowanymi mapami: **[światowa mapa firm akceptujących Bitcoin](https://btcmap.org/map)** i **[światowa mapa społeczności](https://btcmap.org/communities/map)**. Wielu bitcoinerów regularnie sprawdza te mapy, niezależnie od tego, czy podróżują, czy prowadzą codzienne życie, aby poznać nowych ludzi lub znaleźć miejsca, w których mogą wydać swoje [Sats](https://planb.academy/resources/glossary/satoshi-sat). Btcmap jest globalnym punktem odniesienia, a umieszczenie tam swojej społeczności jest niezbędne dla widoczności**
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), strona stworzona przez bitcoinerów, dla bitcoinerów. **Umożliwia ona publikowanie nadchodzących wydarzeń społeczności**. Jednak we Francji nadal nie jest ona powszechnie używana.
 - w zależności od kraju, mogą istnieć inne lokalne inicjatywy. We Francji, na przykład, istnieje strona [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), która co miesiąc **liczy dziesiątki wydarzeń Bitcoin**. Więc jeśli jeszcze nie śledziłeś ich na Twitterze lub nie skontaktowałeś się z nimi, aby podzielić się informacjami o swojej społeczności i wydarzeniach, teraz jest na to czas! **Aby pomóc w aktualizowaniu francuskiego kalendarza wydarzeń, byłoby wspaniale, gdyby wszystkie francuskie społeczności Bitcoin nabrały nawyku:**
     - wspominanie @bitcoinpointfr na Twitterze o każdym nowym wydarzeniu społecznościowym
@@ -1820,7 +1820,7 @@ Oprócz dużej wartości edukacyjnej, podejście to umożliwia udostępnianie do
 Poniżej znajduje się progresja francuskich meetupów na lata 2023-2024. Dla każdego tematu dostępna jest prezentacja open source i wideo, które mogą dać ci pomysły na tematy, które możesz poruszyć podczas własnych wydarzeń.
 
 
-Dodatkowe edytowalne materiały można również znaleźć w [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)!
+Inne zasoby są również dostępne w sekcji ["Educator Content"](https://planb.academy/educator-content) na Plan ₿ Academy, przestrzeni współpracy, gdzie edukatorzy Bitcoin z całego świata dzielą się i udostępniają swoje materiały edukacyjne (prezentacje, ulotki, przewodniki, plakaty...) w formatach gotowych do użycia lub edytowalnych. Cel: połączyć wysiłki, aby nie zaczynać od zera za każdym razem!
 
 
 
@@ -1936,7 +1936,7 @@ W miejscach prywatnych, takich jak koncerty, bary lub stadiony, przed dodaniem s
 Innym projektem, który można łatwo skonfigurować, jest **tworzenie biblioteki na spotkaniach**.
 
 
-Można zaprosić uczestników, którzy chcą podzielić się swoimi materiałami do czytania, aby przynieśli książkę związaną z Bitcoin. Jeśli ktoś inny na spotkaniu będzie chciał ją pożyczyć, można zorganizować pożyczkę od właściciela w Exchange za kaucją, na przykład 21 000 satoshi za pośrednictwem Lightning.
+Można zaprosić uczestników, którzy chcą podzielić się swoimi materiałami do czytania, aby przynieśli książkę związaną z Bitcoin. Jeśli ktoś inny na spotkaniu będzie chciał ją pożyczyć, można zorganizować pożyczkę od właściciela w Exchange za kaucją, na przykład 21 000 satoshi za pośrednictwem [Lightning](https://planb.academy/resources/glossary/lightning-network).
 
 
 Dla właściciela depozyt ten pomaga pokryć potencjalną stratę lub kradzież. Dla pożyczkobiorcy jest to zachęta do powrotu na przyszłe spotkanie w celu odzyskania depozytu.
@@ -2599,7 +2599,7 @@ Wraz z tym wzrostem frekwencji:
     - jeśli okaże się, że liczba uczestników staje się przytłaczająca, możesz w przyszłości **wymagać od uczestników rejestracji** (za pośrednictwem aplikacji Meetup lub prostego formularza) lub **organizować wiele spotkań w miesiącu** (na przykład: spotkanie dla początkujących, średniozaawansowanych i zaawansowanych).
     - Jednocześnie spodziewaj się wielu nowych graczy w ekosystemie, często z głównym celem zarabiania pieniędzy. Aby **utrzymać rozmowy skupione na Bitcoin** podczas tych szybko rozwijających się spotkań, dobrym pomysłem jest:
 
-a) Uwzględnij prezentację **Bitcoin** podczas tych wydarzeń, ponieważ w naturalny sposób skieruje to większość rozmów na ten temat (i z dala od najnowszego rzekomo "rewolucyjnego" projektu shitcoin);
+a) Uwzględnij prezentację **Bitcoin** podczas tych wydarzeń, ponieważ w naturalny sposób skieruje to większość rozmów na ten temat (i z dala od najnowszego rzekomo "rewolucyjnego" projektu [shitcoin](https://planb.academy/resources/glossary/shitcoin));
 
 b) **Unikaj trzymania się tylko z innymi bitcoinerami**. Zamiast tego staraj się **podchodzić do nowo przybyłych**, nawet jeśli oznacza to trzymanie się z tyłu pokoju, aby ich powitać. Stamtąd możesz porozmawiać o tym, dlaczego przyszli, czego szukają, o celach (lub nawet podstawowych zasadach) twojej społeczności i tak dalej.
 
@@ -2619,7 +2619,7 @@ Na szczęście takie sytuacje są rzadkie i często bardziej absurdalne niż gro
 Dla spokoju ducha: tak długo, jak osobiście nie łamiesz prawa lub bezpośrednio nie ułatwiasz nielegalnych transakcji, nie ponosisz odpowiedzialności prawnej za działania innych osób podczas twojego wydarzenia (przynajmniej zgodnie z prawem francuskim).
 
 
-W idealnym świecie miałbyś **przestrzeń wystarczająco dużą, aby pomieścić kilkadziesiąt osób**, gdy twoja społeczność rośnie, a także budowałbyś **silne relacje między bitcoinerami** i przyszłymi bitcoinerami podczas bessy, tak aby gdy nadejdzie hossa, mieć jak najwięcej osób gotowych na pomarańczową pigułkę dla innych.
+W idealnym świecie miałbyś **przestrzeń wystarczająco dużą, aby pomieścić kilkadziesiąt osób**, gdy twoja społeczność rośnie, a także budowałbyś **silne relacje między bitcoinerami** i przyszłymi bitcoinerami podczas [bessy](https://planb.academy/resources/glossary/bear-market), tak aby gdy nadejdzie hossa, mieć jak najwięcej osób gotowych na pomarańczową pigułkę dla innych.
 
 
 

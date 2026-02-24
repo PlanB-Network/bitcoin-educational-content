@@ -1,0 +1,10 @@
+question: Qual era o modelo de negócio por detrás da BitPay, o processador de pagamentos lançado por Stephen Pair e Tony Gallippi no verão de 2011?
+answer: Converter instantaneamente os bitcoins dos clientes em dólares, mediante o pagamento de uma taxa
+wrong_answers:
+  - Permitir que os clientes comprem bitcoin instantaneamente com pagamentos em dólares, mediante uma comissão
+  - Emprestar bitcoins depositados pelos clientes e cobrar juros
+  - Transferir pagamentos em bitcoin para a cadeia de blocos, recebendo taxas de transação
+explanation: |
+ A ideia por detrás do BitPay era dar aos comerciantes a possibilidade de converterem instantaneamente os seus pagamentos em bitcoin em dólares, de modo a poderem proteger-se contra a
+ volatilidade. A BitPay fornecia aos clientes dólares antecipadamente, cobrando uma taxa de processamento que inicialmente era de 1%.
+reviewed: true

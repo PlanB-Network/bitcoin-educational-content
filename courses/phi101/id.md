@@ -808,7 +808,7 @@ Studi sistematis tentang hukum ekonomi dimulai pada Abad Pertengahan Tinggi. Par
 
 ![image](assets/id/049.webp)
 
-Di inti analisis moneter Oresme terletak masalah "mutasi" uang, yaitu, perubahan dalam kandungan logam koin dan denominasinya. Perubahan ini telah terjadi sejak awal waktu dan terdokumentasi dengan baik untuk Zaman Kuno dan Abad Pertengahan. Efek paling terlihat dari perubahan ini adalah untuk mengubah daya beli unit moneter, terutama untuk menurunkannya. Ini adalah bentuk primitif dari inflasi yang Oresme dengan jelas mengutuk sebagai sebuah kejahatan.
+Di inti analisis moneter Oresme terletak masalah "mutasi" uang, yaitu, perubahan dalam kandungan logam koin dan denominasinya. Perubahan ini telah terjadi sejak awal waktu dan terdokumentasi dengan baik untuk Zaman Kuno dan Abad Pertengahan. Efek paling terlihat dari perubahan ini adalah untuk mengubah daya beli unit moneter, terutama untuk menurunkannya. Ini adalah bentuk primitif dari [inflasi](https://planb.academy/resources/glossary/inflation) yang Oresme dengan jelas mengutuk sebagai sebuah kejahatan.
 
 Oresme segera mengajukan pertanyaan sentral: apakah inflasi menguntungkan bagi komunitas? Dia menjawab secara negatif, berargumen bahwa inflasi tidak membuat uang menjadi lebih atau kurang berguna untuk pertukaran. Ekonomi dapat berfungsi dengan baik terlepas dari tingkat harga, dan dengan demikian terlepas dari pasokan uang nominal.
 Tetapi jika itu kasusnya, pertanyaan lain jelas muncul: mengapa perubahan mata uang ada? Dan khususnya, mengapa berusaha untuk meningkatkan pasokan uang? Oresme menjawab bahwa perubahan ini tidak memiliki konsekuensi yang sama bagi anggota komunitas yang berbeda. Mereka menguntungkan orang tertentu dengan mengorbankan yang lain. Pemenang dari perubahan mata uang memiliki kepentingan material dalam menerapkannya. Umumnya, pemenang-pemenang ini adalah orang-orang yang berkuasa. Oresme menulis:
@@ -977,7 +977,7 @@ Tidak perlu dibuktikan bahwa setiap individu adalah hakim tunggal penggunaan pik
 
 Di sini, Turgot sebagian besar mengantisipasi argumen Mises dan Hayek tentang ketidakmungkinan perhitungan ekonomi apa pun dalam sistem ekonomi sosialis.
 
-Mendedikasikan sebuah bab untuk "Kemilau Turgot," Murray Rothbard dalam sejarah ekonominya dari perspektif Austria, menekankan bahwa "pengaruh Turgot terhadap pemikiran ekonomi selanjutnya serius dibatasi (...) oleh mitos berikut bahwa Adam Smith adalah pendiri ekonomi politik." Dan dia menambahkan, "adalah pada orang Prancis J.B. Say, secara resmi pengikut Smith, bahwa Turgot pada akhirnya memiliki pengaruh paling besar, terutama teorinya tentang nilai utilitas."
+Mendedikasikan sebuah bab untuk "Kemilau Turgot," Murray Rothbard dalam sejarah ekonominya dari perspektif [Austria](https://planb.academy/resources/glossary/austrian-school), menekankan bahwa "pengaruh Turgot terhadap pemikiran ekonomi selanjutnya serius dibatasi (...) oleh mitos berikut bahwa Adam Smith adalah pendiri ekonomi politik." Dan dia menambahkan, "adalah pada orang Prancis J.B. Say, secara resmi pengikut Smith, bahwa Turgot pada akhirnya memiliki pengaruh paling besar, terutama teorinya tentang nilai utilitas."
 
 ### Karya Agung Condillac
 
@@ -1527,7 +1527,7 @@ Dia menulis:
 Bagi Hayek, ketidakstabilan ekonomi pasar masa lalu berasal dari fakta bahwa regulator paling penting dari mekanisme pasar, yaitu uang, tidak bisa sendiri menjadi produk dari proses pasar.
 
 ![image](assets/id/101.webp)
-Hayek percaya bahwa pasar bebas mata uang privat akan mengarah pada stabilitas moneter yang lebih besar. Hampir 50 tahun kemudian, sebuah cryptocurrency seperti Bitcoin mewujudkan visi kompetitif Hayek dengan menawarkan alternatif terdesentralisasi terhadap sistem monopoli bank sentral. Bitcoin, dengan batas emisi 21 juta unit, adalah jaminan terhadap inflasi dan sewenang-wenang regulator.
+Hayek percaya bahwa pasar bebas mata uang privat akan mengarah pada stabilitas moneter yang lebih besar. Hampir 50 tahun kemudian, sebuah [cryptocurrency](https://planb.academy/resources/glossary/cryptocurrency) seperti Bitcoin mewujudkan visi kompetitif Hayek dengan menawarkan alternatif terdesentralisasi terhadap sistem monopoli bank sentral. Bitcoin, dengan batas emisi 21 juta unit, adalah jaminan terhadap inflasi dan sewenang-wenang regulator.
 
 
 ## Kesimpulan: kekuatan ide

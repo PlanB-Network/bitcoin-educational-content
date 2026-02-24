@@ -1,0 +1,11 @@
+question: Kolik samostatných hacků zažila obchodní platforma Bitcoinica před vyhlášením bankrotu?
+answer: 3
+wrong_answers:
+  - 1
+  - 2
+  - 4
+explanation: |
+ Tři hacky byly následující: hacknutí účtu Linode, v jehož důsledku platforma přišla o 43 554 bitcoinů; hacknutí účtu Rackspace, které vedlo ke ztrátě 43 554 bitcoinů
+ ztrátě 18 574 bitcoinů; hack účtu Mt. Gox, při kterém hacker vybral 40 000 bitcoinů a 40 000 LR-USD. Likvidace účtu Bitcoinica
+ byla oznámena 1. srpna 2012.
+reviewed: true

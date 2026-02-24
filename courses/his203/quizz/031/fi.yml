@@ -1,0 +1,9 @@
+question: Mikä mining-osuuskunta ylitti lyhyesti 50 prosentin verkon hash-asteen kesällä 2011?
+answer: Deepbit
+wrong_answers:
+  - Deepbit
+  - Slushin allas
+  - GHash.io
+explanation: |
+ OrganOfCortin mukaan Deepbitin mitattu hash-aste oli 52,86 prosenttia 5. elokuuta.
+reviewed: true

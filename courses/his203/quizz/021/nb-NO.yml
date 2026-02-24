@@ -1,0 +1,10 @@
+question: Hva het tjenesten for øyeblikkelig valutaveksling som ble opprettet av Gareth Nelson og Charlie Shrem i 2011 for å gjøre det lettere å gjøre innskudd på valutaplattformer?
+answer: BitInstant
+wrong_answers:
+  - Instawallet
+  - Crypto X Change
+  - TrustCash
+explanation: |
+ Denne tjenesten løste problemet med trege internasjonale overføringer til Mt. Gox ved å fungere som et mellomledd som overførte midler til utvekslingsplattformer når de var mottatt i
+ opprinnelseslandet. BitInstant åpnet dørene for publikum 23. august 2011 og ble raskt populær, og overførte 1,2 millioner dollar innen januar 2012.
+reviewed: true

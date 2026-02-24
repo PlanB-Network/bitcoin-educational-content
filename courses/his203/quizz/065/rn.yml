@@ -1,0 +1,11 @@
+question: Ni bangahe batandukanye urubuga rw’ubudandaji rwa Bitcoinica rwashikiwe imbere y’uko rutangaza ko rwacitse intege?
+answer: 3
+wrong_answers:
+  - 1
+  - 2
+  - 4
+explanation: |
+ Ivyo bitero bitatu vyari ibi: ivy’ugutera konti ya Linode vyatumye iyo platform itakaza ama bitcoins 43.554; n’ugucapura konti yayo ya Rackspace vyatumye
+ gutakaza amafaranga 18.574; ivy’ugucapura konti ya Mt. Gox aho uwo munyavyaha yakuye amafaranga 40.000 y’ama bitcoins n’amafaranga 40.000 y’ama LR-USD. Ivyo gusenyura Bitcoinica 
+ ryatangajwe ku wa 1 Myandagaro 2012.
+reviewed: true

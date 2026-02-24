@@ -1,0 +1,9 @@
+question: Kulingana na utafiti wa Nicolas Christin uliochapishwa mnamo Agosti 2012, kiasi cha mauzo ya kila siku kilikuwa kiasi gani wakati wa Mei 2012?
+answer: 15,000 BTC au $75,000
+wrong_answers:
+  - 600 BTC au $3,000
+  - 3,000 BTC au $15,000
+  - 75,000 BTC au $375,000
+explanation: |
+ Kiasi cha mauzo ya kila siku, ambacho kilikuwa 8,000 BTC mwezi Machi, kilifikia 15,000 BTC mwezi Mei, sawa na takriban $75,000 wakati huo. Shughuli kama sehemu ya jumla ya shughuli za mnyororo wa Bitcoin zilisimama kati ya 10% na 20% wakati wa 2012. Mapema Novemba, Ross alitaja mafanikio ya jukwaa hilo kama "ukuaji wa ghafla".
+reviewed: true

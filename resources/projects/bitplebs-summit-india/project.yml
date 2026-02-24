@@ -1,0 +1,20 @@
+id: 85a6f54d-f01c-4b24-bf42-d22371e17b90
+name: BitPlebs Summit India
+category: conference
+links:
+  website: https://bitplebs.in/
+  twitter: https://x.com/Bitplebs_in
+tags:
+  - adoption
+  - innovation
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2026-02-16
+    urgency: 1
+    contributor_names:
+      - PlebsTogetherStrong
+    reward: 0
+contributor_names:
+  - PlebsTogetherStrong
+license: CC-BY-SA-V4

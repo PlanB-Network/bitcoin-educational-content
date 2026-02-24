@@ -1,0 +1,10 @@
+question: 2011년 10월에 네이코인 암호화폐에는 어떤 기술 혁신이 적용되었나요?
+answer: 병합된 mining
+wrong_answers:
+  - GPU 내성 mining
+  - 신뢰할 수 있는 노드
+  - 지분 증명
+explanation: |
+ 병합된 mining는 "마더 체인"(즉, Bitcoin)에서 수행한 작업을 재사용하여 더 작은 "보조" 체인의 유효성을 검사하는 프로세스입니다. 이 프로세스는
+ bitDNS 토론에서 Satoshi 자체에 의해 제안되었습니다. 결합된 mining는 2011년 10월 8일, 블록 레벨 19,200에서 네임코인 네트워크에서 활성화되었습니다.
+reviewed: true

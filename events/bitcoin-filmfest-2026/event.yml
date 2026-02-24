@@ -1,7 +1,8 @@
 id: 99b8e304-9caf-11f0-9548-1fecc7d3fe32
 
-start_date: 2026-06-04
-end_date: 2026-06-07
+start_date: 2026-06-03 22:00:00
+end_date: 2026-06-07 21:59:59
+timezone: Europe/Warsaw
 
 address_city_country: Warsaw, Poland
 address_line_2: Palace of Culture and Science

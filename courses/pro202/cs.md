@@ -92,7 +92,7 @@ Stejně jako u každého kurzu Plan ₿ Academy obsahuje závěrečná část ho
 ### Bitcoin Základy programování: Základní matematické struktury
 
 
-Tento kurz shrnuje základní matematiku kryptografických systémů Bitcoin do vysoce praktického pracovního postupu. Koncepty jsou vysvětleny, demonstrovány na příkladech a následně implementovány v Jupyter Notebooku. Hlavní myšlenka je jednoduchá: kryptografickému primitivu skutečně porozumíte, až když ho nakódujete. V průběhu dvoudenní struktury studenti generate testují adresy sítě, vytvářejí a vysílají transakce a nakonec komunikují se sítí bez blokových průzkumníků. To vše vyžaduje solidní základy v oblasti konečných polí a eliptických křivek.
+Tento kurz shrnuje základní matematiku kryptografických systémů Bitcoin do vysoce praktického pracovního postupu. Koncepty jsou vysvětleny, demonstrovány na příkladech a následně implementovány v Jupyter Notebooku. Hlavní myšlenka je jednoduchá: kryptografickému primitivu skutečně porozumíte, až když ho nakódujete. V průběhu dvoudenní struktury studenti generate testují adresy sítě, vytvářejí a vysílají [transakce](https://planb.academy/resources/glossary/transaction-tx) a nakonec komunikují se sítí bez blokových průzkumníků. To vše vyžaduje solidní základy v oblasti konečných polí a eliptických křivek.
 
 
 ### Konečná pole: Aritmetický motor kryptografie
@@ -103,7 +103,7 @@ Konečné pole F(p) je aritmetický systém definovaný prvočíslem p, který o
 
 #### Multiplikativní chování
 
-Vynásobením libovolného nenulového prvku k všemi prvky prvočíselného pole vznikne permutace pole. Tato vlastnost zaručuje uniformitu a zabraňuje strukturálním slabinám, takže prvočíselná pole jsou ideální pro bezpečné generování klíčů a digitálních podpisů.
+Vynásobením libovolného nenulového prvku k všemi prvky prvočíselného pole vznikne permutace pole. Tato vlastnost zaručuje uniformitu a zabraňuje strukturálním slabinám, takže prvočíselná pole jsou ideální pro bezpečné generování klíčů a [digitálních podpisů](https://planb.academy/resources/glossary/digital-signature).
 
 
 #### Dělení a Fermatova malá věta
@@ -112,7 +112,7 @@ Dělení se provádí pomocí multiplikativních inverzí. Fermatova malá věta
 
 n^(p-1) ≡ 1 (mod p),
 
-takže inverzní hodnota je n^(p-2). Python to podporuje přímo pomocí `pow(n, -1, p)`. Tyto operace se neustále objevují v základních kryptografických rutinách ECDSA a Bitcoin.
+takže inverzní hodnota je n^(p-2). Python to podporuje přímo pomocí `pow(n, -1, p)`. Tyto operace se neustále objevují v základních kryptografických rutinách [ECDSA](https://planb.academy/resources/glossary/ecdsa) a Bitcoin.
 
 
 ### Eliptické křivky: Nelineární struktury pro bezpečnost veřejných klíčů
@@ -138,7 +138,7 @@ Konečná pole poskytují deterministickou, inverzní aritmetiku; eliptické kř
 ![lecture](https://www.youtube.com/watch?v=xOXdKuF3UFw)
 
 
-Tato kapitola představuje eliptické křivky definované nad konečnými poli a vysvětluje, proč tvoří matematickou páteř kryptografie Bitcoin. Zatímco eliptické křivky nad reálnými čísly se jeví jako hladké a spojité, při použití stejných rovnic nad konečným polem vzniká diskrétní, rozptýlená množina bodů. Navzdory vizuálnímu rozdílu se všechny vzorce pro sčítání bodů, sklony a algebraická pravidla chovají naprosto stejně - pouze aritmetika se mění na modulární aritmetiku. Bitcoin používá křivku y² = x³ + 7 (secp256k1), která zachovává symetrii a nelineární chování důležité pro kryptografickou bezpečnost.
+Tato kapitola představuje eliptické křivky definované nad konečnými poli a vysvětluje, proč tvoří matematickou páteř [kryptografie](https://planb.academy/resources/glossary/cryptography) Bitcoin. Zatímco eliptické křivky nad reálnými čísly se jeví jako hladké a spojité, při použití stejných rovnic nad konečným polem vzniká diskrétní, rozptýlená množina bodů. Navzdory vizuálnímu rozdílu se všechny vzorce pro sčítání bodů, sklony a algebraická pravidla chovají naprosto stejně - pouze aritmetika se mění na modulární aritmetiku. Bitcoin používá křivku y² = x³ + 7 (secp256k1), která zachovává symetrii a nelineární chování důležité pro kryptografickou bezpečnost.
 
 
 ### Ověřování bodů a implementace konečného pole
@@ -155,7 +155,7 @@ Body eliptických křivek tvoří matematickou skupinu při sčítání. Tato gr
 ### Cyklické grupy a problém diskrétního logaritmu
 
 
-Výběr generátorového bodu G na křivce nám umožňuje generate cyklickou grupu: G, 2G, 3G, ..., nG = 0. Body se jeví jako nelineární a nepředvídatelné, i když jsou generovány postupně. Tato nepředvídatelnost vytváří základ problému diskrétního logaritmu: výpočet P = sG je snadný, ale určení s z P je pro velké grupy výpočetně neproveditelné. Díky této jednosměrné funkci je kryptografie s veřejným klíčem bezpečná. Skaláry (soukromé klíče) se zapisují malými písmeny, body (veřejné klíče) velkými.
+Výběr generátorového bodu G na křivce nám umožňuje generate cyklickou grupu: G, 2G, 3G, ..., nG = 0. Body se jeví jako nelineární a nepředvídatelné, i když jsou generovány postupně. Tato nepředvídatelnost vytváří základ problému diskrétního logaritmu: výpočet P = sG je snadný, ale určení s z P je pro velké grupy výpočetně neproveditelné. Díky této jednosměrné funkci je kryptografie s veřejným klíčem bezpečná. Skaláry ([soukromé klíče](https://planb.academy/resources/glossary/private-key)) se zapisují malými písmeny, body ([veřejné klíče](https://planb.academy/resources/glossary/public-key)) velkými.
 
 
 #### Efektivní skalární násobení
@@ -178,7 +178,7 @@ Soukromý klíč je náhodný skalár s; veřejný klíč je P = sG. Protože ř
 #### Bitcoin Address Vytvoření
 
 
-Adresy Bitcoin jsou hashe veřejných klíčů, nikoli samotné surové klíče. Chcete-li adresu generate, serializujte veřejný klíč ve formátu SEC, vypočítejte hash160 (SHA-256 a poté RIPEMD-160), přidejte prefix sítě (0x00 pro mainnet, 0x6F pro testnet), vypočítejte kontrolní součet pomocí dvojnásobku SHA-256, připojte první čtyři bajty kontrolního součtu a výsledek zakódujte pomocí Base58. Toto kódování odstraňuje nejednoznačné znaky a obsahuje kontrolní součet, aby se zabránilo chybám při přepisu. Tento vícekrokový postup skrývá veřejný klíč, dokud nedojde k útratě, přidává identifikaci sítě a zajišťuje lidsky čitelné adresy odolné proti chybám.
+Adresy Bitcoin jsou hashe veřejných klíčů, nikoli samotné surové klíče. Chcete-li adresu generate, serializujte veřejný klíč ve formátu SEC, vypočítejte hash160 ([SHA-256](https://planb.academy/resources/glossary/sha256) a poté RIPEMD-160), přidejte prefix sítě (0x00 pro mainnet, 0x6F pro testnet), vypočítejte kontrolní součet pomocí dvojnásobku SHA-256, připojte první čtyři bajty kontrolního součtu a výsledek zakódujte pomocí Base58. Toto kódování odstraňuje nejednoznačné znaky a obsahuje kontrolní součet, aby se zabránilo chybám při přepisu. Tento vícekrokový postup skrývá veřejný klíč, dokud nedojde k útratě, přidává identifikaci sítě a zajišťuje lidsky čitelné adresy odolné proti chybám.
 
 
 # Vnitřní fungování transakce Bitcoin
@@ -212,13 +212,13 @@ Bitcoin kóduje podpisy ECDSA pomocí formátu DER:
 - 0x02 + délka + S bajtů
 
 
-To zvyšuje režii a rozšiřuje 64bajtový podpis na ~71-72 bajtů. Taproot tuto neefektivitu eliminuje přijetím Schnorrových podpisů s pevnou velikostí.
+To zvyšuje režii a rozšiřuje 64bajtový podpis na ~71-72 bajtů. [Taproot](https://planb.academy/resources/glossary/taproot) tuto neefektivitu eliminuje přijetím [Schnorrových](https://planb.academy/resources/glossary/schnorr-protocol) podpisů s pevnou velikostí.
 
 
 ### Podpisové závazky a proces podepisování
 
 
-Podpisy ECDSA jsou založeny na rovnici závazku: UG + VP = KG. Podepisující osoba si zvolí nenulové hodnoty U a V a náhodnou nonce K, čímž prokáže znalost soukromého klíče, aniž by jej prozradila. Zpráva se zahesluje do Z, vygeneruje se náhodná K, R je x-ová souřadnice KG a S = (Z + RE)/K. Podpis je dvojice (R, S). Bezpečnost kriticky závisí na použití jedinečného, nepředvídatelného K - pokud je K opakovaně použit nebo unikne, je soukromý klíč kompromitován. Moderní implementace používají deterministické generování K (RFC 6979), aby se zabránilo selhání RNG.
+Podpisy ECDSA jsou založeny na rovnici závazku: UG + VP = KG. Podepisující osoba si zvolí nenulové hodnoty U a V a náhodnou [nonce](https://planb.academy/resources/glossary/nonce) K, čímž prokáže znalost soukromého klíče, aniž by jej prozradila. Zpráva se zahesluje do Z, vygeneruje se náhodná K, R je x-ová souřadnice KG a S = (Z + RE)/K. Podpis je dvojice (R, S). Bezpečnost kriticky závisí na použití jedinečného, nepředvídatelného K - pokud je K opakovaně použit nebo unikne, je soukromý klíč kompromitován. Moderní implementace používají deterministické generování K (RFC 6979), aby se zabránilo selhání RNG.
 
 
 #### Ověřování podpisu
@@ -245,7 +245,7 @@ Transakce Bitcoin se skládá z:
 - locktime (4 bajty)
 
 
-Vstupy odkazují na předchozí UTXO pomocí jejich transakčního hashe a výstupního indexu a zahrnují odemykací skript (scriptSig) a pořadové číslo používané pro časové zámky nebo RBF. Výstupy specifikují částku (8 bajtů) a zamykací skript (scriptPubKey), definující podmínky utrácení. Adresy Bitcoin jsou reprezentací těchto skriptů.
+Vstupy odkazují na předchozí [UTXO](https://planb.academy/resources/glossary/utxo) pomocí jejich transakčního hashe a výstupního indexu a zahrnují odemykací [skript](https://planb.academy/resources/glossary/script) (scriptSig) a pořadové číslo používané pro časové zámky nebo RBF. Výstupy specifikují částku (8 bajtů) a zamykací skript (scriptPubKey), definující podmínky utrácení. Adresy Bitcoin jsou reprezentací těchto skriptů.
 
 
 #### Model UTXO
@@ -275,7 +275,7 @@ Poplatky jsou implicitní:
 
 poplatek = součet(vstupní hodnoty) - součet(výstupní hodnoty).
 
-Jakákoli nepřiřazená hodnota se stává poplatkem, a proto je zásadní správná konstrukce změnového výstupu. Před SegWit podpisy umožňovaly malleabilitu - změnou S na N-S vznikla nová platná transakce s jiným ID. Bitcoin nyní prosazuje pravidlo nízkého počtu S a SegWit izoluje podpisy od výpočtu txid, díky čemuž jsou ID stabilní a umožňují protokoly druhé vrstvy, jako je Lightning.
+Jakákoli nepřiřazená hodnota se stává poplatkem, a proto je zásadní správná konstrukce změnového výstupu. Před [SegWit](https://planb.academy/resources/glossary/segwit) podpisy umožňovaly malleabilitu - změnou S na N-S vznikla nová platná transakce s jiným ID. Bitcoin nyní prosazuje pravidlo nízkého počtu S a SegWit izoluje podpisy od výpočtu txid, díky čemuž jsou ID stabilní a umožňují protokoly druhé vrstvy, jako je [Lightning](https://planb.academy/resources/glossary/lightning-network).
 
 
 ## Ověřování skriptů a transakcí Bitcoin
@@ -292,7 +292,7 @@ Bitcoin Script je malý, na zásobníku založený jazyk chytrých smluv, který
 ### Operace skriptu a model provádění
 
 
-Skript je posloupnost datových prvků a operačních kódů. Datové prvky (podpisy, veřejné klíče, hashe) jsou umístěny na zásobník, zatímco opkódy začínající na `OP_` transformují zásobník. Po provedení musí být horní prvek zásobníku nenulový, aby byl úspěšný. Příklady: `OP_DUP` duplikuje horní prvek, `OP_HASH160` aplikuje SHA256 a poté RIPEMD160 a `OP_CHECKSIG` ověří podpis proti sighash transakce a veřejnému klíči, přičemž 1 je platný, 0 neplatný. Pravidla parsování rozlišují mezi surovými daty (s délkovým prefixem) a opcodes (vyhledanými podle hodnoty bajtu) a malý virtuální stroj je provádí deterministicky na každém uzlu.
+Skript je posloupnost datových prvků a operačních kódů. Datové prvky (podpisy, veřejné klíče, hashe) jsou umístěny na zásobník, zatímco opkódy začínající na `OP_` transformují zásobník. Po provedení musí být horní prvek zásobníku nenulový, aby byl úspěšný. Příklady: `OP_DUP` duplikuje horní prvek, `OP_HASH160` aplikuje SHA256 a poté RIPEMD160 a `OP_CHECKSIG` ověří podpis proti sighash transakce a veřejnému klíči, přičemž 1 je platný, 0 neplatný. Pravidla parsování rozlišují mezi surovými daty (s délkovým prefixem) a opcodes (vyhledanými podle hodnoty bajtu) a malý virtuální stroj je provádí deterministicky na každém [uzlu](https://planb.academy/resources/glossary/node).
 
 
 ### P2PK a P2PKH: Základní platební vzory
@@ -329,7 +329,7 @@ Vzhledem k tomu, že každý vstup ve starší transakci vyžaduje vlastní výp
 ### Hádanky skriptů a lekce zabezpečení
 
 
-Skript může vyjádřit mnohem více než jen "jeden podpis odemkne tyto mince" Skriptové hádanky to demonstrují zakódováním libovolných podmínek - matematických problémů, výzev k předobrazu hashe nebo dokonce kolizních odměn -, kdy každý, kdo poskytne správné údaje, může mince utratit. Výstupy, které se spoléhají pouze na veřejná data (bez podpisů), jsou však zranitelné vůči front-runningu těžařů: jakmile se v mempoolu objeví platné řešení, může ho kterýkoli těžař zkopírovat a přesměrovat výplatu na sebe.
+Skript může vyjádřit mnohem více než jen "jeden podpis odemkne tyto mince" Skriptové hádanky to demonstrují zakódováním libovolných podmínek - matematických problémů, výzev k předobrazu hashe nebo dokonce kolizních odměn -, kdy každý, kdo poskytne správné údaje, může mince utratit. Výstupy, které se spoléhají pouze na veřejná data (bez podpisů), jsou však zranitelné vůči front-runningu [těžařů](https://planb.academy/resources/glossary/miner): jakmile se v [mempoolu](https://planb.academy/resources/glossary/mempool) objeví platné řešení, může ho kterýkoli těžař zkopírovat a přesměrovat výplatu na sebe.
 
 
 Praktickým poznatkem je, že reálné smlouvy téměř vždy obsahují kontrolu podpisu, i když obsahují složitější logiku, jako je multisig, timelocks nebo hashlocks. Podpisy vážou řešení na konkrétní stranu, zachovávají motivaci a brání ostatním v krádeži výplaty. Pochopení modelu zásobníku Script, standardních vzorů a jemných úskalí je nezbytné pro návrh bezpečných chytrých kontraktů Bitcoin a pro úvahy o tom, jak jsou transakce v síti skutečně ověřovány.
@@ -402,13 +402,13 @@ P2SH zlepšuje soukromí tím, že skrývá podmínky utrácení až do prvního
 ![lecture](https://www.youtube.com/watch?v=lJYSM1iLWQU)
 
 
-Bitcoin blokuje skupinové transakce a zabezpečuje je pomocí proof of work. Každý blok obsahuje 80bajtovou hlavičku a seznam transakcí. Navzdory velkým energetickým nákladům na výrobu platného bloku je jeho ověření levné: uložení všech ~900k hlaviček vyžaduje pouze ~72 MB, což umožňuje i malým zařízením efektivně ověřovat řetězec proof of work.
+Bitcoin blokuje skupinové transakce a zabezpečuje je pomocí [proof of work](https://planb.academy/resources/glossary/proof-of-work). Každý [blok](https://planb.academy/resources/glossary/block) obsahuje 80bajtovou [hlavičku](https://planb.academy/resources/glossary/block-header) a seznam transakcí. Navzdory velkým energetickým nákladům na výrobu platného bloku je jeho ověření levné: uložení všech ~900k hlaviček vyžaduje pouze ~72 MB, což umožňuje i malým zařízením efektivně ověřovat řetězec proof of work.
 
 
 ### Transakce Coinbase a odměny za bloky
 
 
-Každý blok začíná přesně jednou transakcí na Coinbase - jediným způsobem, jak se nové bitcoiny dostávají do oběhu. Má vynulovaný prev-tx hash a index 0xffffffff, který jej jednoznačně identifikuje. Dotace začínala na 50 BTC a každých 210 000 bloků se snižuje na polovinu (50, 25, 12,5, 6,25, 3,125, ...). Těžaři zahrnují také transakční poplatky. Protože 4bajtová nonce je pro moderní ASIC příliš malá, těžaři upravují data v transakci Coinbase, aby změnili Merkleho kořen a vytvořili další vyhledávací prostor. BIP34 vyžaduje vložení výšky bloku do skriptu CoinbaseSig, aby bylo zajištěno, že každý blok Coinbase txid je jedinečný.
+Každý blok začíná přesně jednou [transakcí na Coinbase](https://planb.academy/resources/glossary/coinbase-transaction) - jediným způsobem, jak se nové bitcoiny dostávají do oběhu. Má vynulovaný prev-tx hash a index 0xffffffff, který jej jednoznačně identifikuje. Dotace začínala na 50 BTC a každých 210 000 bloků se snižuje na polovinu (50, 25, 12,5, 6,25, 3,125, ...). Těžaři zahrnují také transakční poplatky. Protože 4bajtová nonce je pro moderní ASIC příliš malá, těžaři upravují data v transakci Coinbase, aby změnili [Merkleho](https://planb.academy/resources/glossary/merkle-tree) kořen a vytvořili další vyhledávací prostor. [BIP34](https://planb.academy/resources/glossary/bip) vyžaduje vložení výšky bloku do skriptu CoinbaseSig, aby bylo zajištěno, že každý blok Coinbase txid je jedinečný.
 
 
 ### Pole záhlaví bloku a signalizace Soft Fork
@@ -421,11 +421,11 @@ Každý blok začíná přesně jednou transakcí na Coinbase - jediným způsob
 - hash předchozího bloku (32 bajtů)
 - Merkleho kořen (32 bajtů)
 - časové razítko (4 bajty)
-- bitů (cíl obtížnosti, 4 bajty)
+- bitů (cíl [obtížnosti](https://planb.academy/resources/glossary/difficulty), 4 bajty)
 - nonce (4 bajty)
 
 
-Čísla verzí se prostřednictvím BIP9 vyvinula v systém signalizace bitových polí, který umožňuje těžařům koordinovat připravenost soft-fork. Časová značka je 32bitová hodnota unixového času a bude ji třeba aktualizovat kolem roku 2106.
+Čísla verzí se prostřednictvím BIP9 vyvinula v systém signalizace bitových polí, který umožňuje těžařům koordinovat připravenost [soft-fork](https://planb.academy/resources/glossary/soft-fork). Časová značka je 32bitová hodnota unixového času a bude ji třeba aktualizovat kolem roku 2106.
 
 
 #### Bity Pole a cíle
@@ -459,13 +459,13 @@ Dotace ve výšce h se vypočítá takto: dotace = 5_000_000_000 >> (h // 210_00
 ### Architektura sítě Bitcoin
 
 
-Síť Bitcoin peer-to-peer funguje jako decentralizovaný drbací systém, kde si uzly předávají transakce a bloky, aniž by si navzájem důvěřovaly. Nové uzly se zavádějí kontaktováním pevně zakódovaných semen DNS udržovaných hlavními vývojáři. Tato DNS semena vracejí IP adresy aktivních peerů, což uzlům umožňuje zjistit síť a poté požádat o další peery prostřednictvím getaddr. Síť není záměrně kritická pro konsensus, takže implementace se mohou lišit, pokud pravidla konsensu zůstanou nezměněna.
+Síť Bitcoin [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) funguje jako decentralizovaný drbací systém, kde si uzly předávají transakce a bloky, aniž by si navzájem důvěřovaly. Nové uzly se zavádějí kontaktováním pevně zakódovaných semen DNS udržovaných hlavními vývojáři. Tato DNS semena vracejí IP adresy aktivních peerů, což uzlům umožňuje zjistit síť a poté požádat o další peery prostřednictvím getaddr. Síť není záměrně kritická pro [konsensus](https://planb.academy/resources/glossary/consensus), takže implementace se mohou lišit, pokud pravidla konsensu zůstanou nezměněna.
 
 
 ### Struktura zprávy a Handshake
 
 
-Všechny zprávy Bitcoin P2P používají pevnou obálku: 4bajtovou magickou hodnotu (F9BEB4D9 pro mainnet), 12bajtový příkaz ASCII, 4bajtovou little-endian délku užitečného zatížení, 4bajtový kontrolní součet (první 4 bajty hash256) a užitečné zatížení. Mezi běžné příkazy patří version, verack, inv, getdata, tx, block, getheaders, headers, ping a pong.
+Všechny zprávy Bitcoin P2P používají pevnou obálku: 4bajtovou magickou hodnotu (F9BEB4D9 pro mainnet), 12bajtový příkaz ASCII, 4bajtovou little-endian délku užitečného zatížení, 4bajtový kontrolní součet (první 4 bajty [hash](https://planb.academy/resources/glossary/hash-function)256) a užitečné zatížení. Mezi běžné příkazy patří version, verack, inv, getdata, tx, block, getheaders, headers, ping a pong.
 
 
 Handshake začíná, když připojující se uzel odešle zprávu o verzi. Příjemce odpoví verackem a svou verzí. Jakmile si obě strany vymění tyto dvě zprávy, je spojení aktivní a uzly mohou začít předávat inventáře a data.
@@ -479,7 +479,7 @@ Bitcoin ukládá do záhlaví každého bloku jeden 32bajtový kořen Merkle jak
 
 #### Merkleho důkazy a SPV
 
-Merkleho důkazy umožňují ověřit, zda je transakce obsažena v bloku, aniž by bylo nutné stahovat celý blok. Důkaz se skládá ze sourozeneckých hashů podél cesty ke kořeni. Lehcí klienti SPV ukládají pouze hlavičky bloků a tyto důkazy vyžadují od plných uzlů. Protože Merkleho strom roste logaritmicky, vyžaduje důkaz zařazení do bloku s tisíci transakcemi pouze několik set bajtů.
+Merkleho důkazy umožňují ověřit, zda je transakce obsažena v bloku, aniž by bylo nutné stahovat celý blok. Důkaz se skládá ze sourozeneckých hashů podél cesty ke kořeni. Lehcí klienti SPV ukládají pouze hlavičky bloků a tyto důkazy vyžadují od [plných uzlů](https://planb.academy/resources/glossary/full-node). Protože Merkleho strom roste logaritmicky, vyžaduje důkaz zařazení do bloku s tisíci transakcemi pouze několik set bajtů.
 
 
 Taproot tento koncept rozšiřuje o odevzdávání podmínek výdajů do Merklova stromu skriptů (MAST), přičemž odhaluje pouze provedenou větev spolu s Merklovým důkazem. Tím se zvyšuje efektivita i soukromí.
@@ -515,7 +515,7 @@ Tato sekce sjednocuje pokročilé sítě P2P s technologií Segregated Witness a
 ### Vyhledávání transakcí na základě bloků a ochrana soukromí
 
 
-Peněženky musí detekovat příchozí platby tak, že skenují bloky a hledají výstupy odpovídající jejich skriptPubKey. Získávání celých bloků chrání soukromí lépe než vyžádání jednotlivých transakcí, které vypouští silné signály o aktivitě uživatele. I při požadavcích na bloky může dojít k úniku informací o řetězcích s malým objemem, proto jsou pro lehké klienty zachovávající soukromí nezbytné kompaktní blokové filtry (BIP158). Filtry mohou produkovat falešně pozitivní výsledky, ale nikdy ne falešně negativní, což klientům umožňuje stahovat pouze potenciálně relevantní bloky bez odhalení konkrétních adres.
+[Peněženky](https://planb.academy/resources/glossary/wallet) musí detekovat příchozí platby tak, že skenují bloky a hledají výstupy odpovídající jejich skriptPubKey. Získávání celých bloků chrání soukromí lépe než vyžádání jednotlivých transakcí, které vypouští silné signály o aktivitě uživatele. I při požadavcích na bloky může dojít k úniku informací o řetězcích s malým objemem, proto jsou pro lehké klienty zachovávající soukromí nezbytné kompaktní blokové filtry (BIP158). Filtry mohou produkovat falešně pozitivní výsledky, ale nikdy ne falešně negativní, což klientům umožňuje stahovat pouze potenciálně relevantní bloky bez odhalení konkrétních adres.
 
 
 ### Trustless Interakce se sítí

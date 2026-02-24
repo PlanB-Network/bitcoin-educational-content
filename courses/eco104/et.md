@@ -118,7 +118,7 @@ Sissejuhatust lugedes võisite märgata kolme olulist terminit: väärtuse säil
 Vaadakem igaüht lähemalt:
 
 1. **Väärtuse Säilitaja:** Raha toimib vahendina väärtuse tulevikuks säilitamiseks, võimaldades hoidjal säilitada oma ostujõudu aja jooksul. Tehes seda, annab see hoidjale võimaluse säästa ja tulevikuks planeerida. Kuld on sellise väärtuse säilitaja suurepärane näide, kuna see on sajandeid suutnud osta korraliku ülikonna vaid ühe untsiga.
-2. **Vahetusvahend:** Selleks, et raha toimiks kaupade ja teenuste vahetamiseks elujõulise vahetusvahendina, peab see olema kergesti vahetatav. Kuigi tehniliselt võib mis tahes vara kasutada rahana, ei ole suured ja liikumatud varad nagu majad praktilised kasutamiseks vahetusvahendina.
+2. **Vahetusvahend:** Selleks, et raha toimiks kaupade ja teenuste vahetamiseks elujõulise vahetusvahendina, peab see olema kergesti [vahetatav](https://planb.academy/resources/glossary/fungibility). Kuigi tehniliselt võib mis tahes vara kasutada rahana, ei ole suured ja liikumatud varad nagu majad praktilised kasutamiseks vahetusvahendina.
 3. **Arvestusühik:** Lõpuks peaks raha toimima kaupade ja teenuste hindade mõõtmise standardühikuna. See tähendab, et esemed on hinnatud ja väärtustatud selle raha terminites, võimaldades kergesti võrrelda erinevate toodete ja teenuste suhtelist väärtust.
    Kui need kolm raha põhifunktsiooni on täielikult täidetud, on sellisel rahal võime vastata kaubanduse rangeimatele nõudmistele. Ilma nende funktsioonideta on raha palju vähem usaldusväärne ja kindel, põhjustades kaubanduses ebakindlust ja ebakindlust, mis võib mõjutada nii isiklikul kui ka riiklikul tasandil kahjulikult.
 
@@ -140,7 +140,7 @@ Selleks, et raha säilitaks oma ostujõu aja jooksul, peab see olema:
 
 **Haruldane:** Kui raha pakub haruldust, tähendab see piiratud kättesaadavat varu. See on oluline väärtuse säilitamise jaoks, sest kui mingit valuutat on liiga palju, võib selle väärtus väheneda. Haruldane valuuta on tõenäolisem, et säilitab oma väärtuse aja jooksul, muutes selle usaldusväärseks rikkuse säilitamise vahendiks. Mõelge sellele nagu piiratud väljaandega esemele - kui neid on vaid mõned, on need väärtuslikumad ja ihaldusväärsemad kui siis, kui neid oleks piiramatu kogus. Samamoodi on haruldane valuuta tõenäolisem, et säilitab oma väärtuse ja ostujõu, muutes selle paremaks variandiks rikkuse säilitamiseks.
 
-**Muutumatu:** Selleks, et raha pakuks muutumatust, peaks see olema muutmisele või muudatustele vastupidav pärast tehingu sooritamist. See on usaldusväärse väärtuse säilitamise vahendi oluline omadus, sest see tagab, et raha väärtus ei ole meelevaldsete muudatuste või manipulatsioonide suhtes. Näiteks, kui ostate midagi sularahas, ei saa te hiljem meelt muuta ja tehingut tühistada. Samamoodi, krüptovaluutade puhul nagu Bitcoin, kui tehing on blockchain'is registreeritud, ei saa seda muuta ega tühistada. See muutumatus pakub nii ostjatele kui müüjatele finantstehingutes turvatunnet ja usaldusväärsust.
+**Muutumatu:** Selleks, et raha pakuks muutumatust, peaks see olema muutmisele või muudatustele vastupidav pärast tehingu sooritamist. See on usaldusväärse väärtuse säilitamise vahendi oluline omadus, sest see tagab, et raha väärtus ei ole meelevaldsete muudatuste või manipulatsioonide suhtes. Näiteks, kui ostate midagi sularahas, ei saa te hiljem meelt muuta ja tehingut tühistada. Samamoodi, [krüptovaluutade](https://planb.academy/resources/glossary/cryptocurrency) puhul nagu Bitcoin, kui tehing on [blockchain'is](https://planb.academy/resources/glossary/blockchain) registreeritud, ei saa seda muuta ega tühistada. See muutumatus pakub nii ostjatele kui müüjatele finantstehingutes turvatunnet ja usaldusväärsust.
 
 #### Vahetusvahend
 
@@ -161,7 +161,7 @@ Järeldus
 
 Raha on meie igapäevaelus hädavajalik ja põnev osa. See toimib vahendajana, võimaldades meil kaubelda kaupade ja teenustega üksteisega. Siiski, mitte kõik raha vormid ei ole võrdsed. Mõned raha vormid on väärtuse säilitajana ülekaalukad, nagu kuld, samas kui teised võivad olla tõhusamad vahetusvahendina, nagu USA dollar. Kuid, kui need funktsioonid on täielikult täidetud, võimaldab see meil tehinguid usaldusväärselt ja hõlpsalt teha, mis mitte ainult ei aita meid kui üksikisikuid, vaid soodustab suuremat majanduskasvu ja jõukust meie majandusele.
 
-Järgnevates moodulites uurime kahte populaarset raha vormi: Bitcoini ja stabiilseid münte. Neid läbi selle jaotise arutatud sisu uurides vaatleme, kuidas nad täidavad erinevaid valuuta funktsioone ja kuidas nad võivad ühiskonnale suurt kasu tuua.
+Järgnevates moodulites uurime kahte populaarset raha vormi: Bitcoini ja [stabiilseid münte](https://planb.academy/resources/glossary/stablecoin). Neid läbi selle jaotise arutatud sisu uurides vaatleme, kuidas nad täidavad erinevaid valuuta funktsioone ja kuidas nad võivad ühiskonnale suurt kasu tuua.
 
 Alates kaupade vahetamisest kuni müntide ja paberraha leiutamiseni on raha läbinud mitmeid muutusi, et kohaneda ühiskonna pidevalt muutuvate vajadustega. Liikudes edasi järgmisse peatükki, muudame kurssi, pöörates tähelepanu raha evolutsioonile.
 
@@ -187,8 +187,8 @@ Seda silmas pidades vaatame peamisi vahetusvorme, mida kasutatakse täna või on
 2. **Kaupade raha:** Kokkulepitud kauba vahetamine, mida peetakse väärtuslikuks, näiteks sool või merekarbid.
 3. **Mündiraha:** Väärtuslike metallide, nagu kuld või hõbe, kasutamine müntide kujul vahetusvahendina.
 4. **Metalliga tagatud paberraha:** Füüsilise kauba, näiteks kulla või hõbeda, poolt tagatud paberraha.
-5. **Fiat-raha:** Valuuta, mida ei taga füüsiline kaup, vaid millel on väärtus, kuna valitsus kuulutab selle seaduslikuks maksevahendiks.
-6. **Krüptovaluutad:** Digitaalsed või virtuaalsed märgid, mis kasutavad tehingute turvamiseks ja uute ühikute loomise kontrollimiseks krüptograafiat.
+5. **[Fiat-raha](https://planb.academy/resources/glossary/fiat):** Valuuta, mida ei taga füüsiline kaup, vaid millel on väärtus, kuna valitsus kuulutab selle seaduslikuks maksevahendiks.
+6. **Krüptovaluutad:** Digitaalsed või virtuaalsed märgid, mis kasutavad tehingute turvamiseks ja uute ühikute loomise kontrollimiseks [krüptograafiat](https://planb.academy/resources/glossary/cryptography).
 
 Neid silmas pidades vaatleme igaüht, et saada terviklikum arusaam sellest, kuidas me jõudsime sinna, kus me täna oleme.
 
@@ -223,7 +223,7 @@ Kuigi see oli tehniliselt endiselt kaubavahetusraha, jätkasid inimesed parema r
 
 Pealegi olid metallid nagu kuld ühed kõige inertsemad elemendid perioodilisustabelis, muutes need äärmiselt vastupidavaks ja korrosioonikindlaks.
 
-Tehnoloogia arenguga läbisid kuld ja hõbe transformeeruva protsessi, sulatati, vormiti ja tembeldati müntideks, suurendades vahetuse lihtsust. Nende müntide standardiseeritud väärtus ja märgistus vähendasid oluliselt kulusid, mis olid seotud väärismetallide kaalu ja puhtuse kontrollimisega. Kuid, nagu enamiku heade asjadega, leidub alati keegi, kes leiab viisi ära kasutamiseks. Mündilõikamine muutus laialt levinuks, nii üksikisikud kui ka valitsused lõikasid müntidest osi ära, vähendades nende väärismetalli kaalu, püüdes samal ajal säilitada nende algset nimiväärtust. See viis esimese valuuta devalveerimise vormini, põhjustades inflatsiooni.
+Tehnoloogia arenguga läbisid kuld ja hõbe transformeeruva protsessi, sulatati, vormiti ja tembeldati müntideks, suurendades vahetuse lihtsust. Nende müntide standardiseeritud väärtus ja märgistus vähendasid oluliselt kulusid, mis olid seotud väärismetallide kaalu ja puhtuse kontrollimisega. Kuid, nagu enamiku heade asjadega, leidub alati keegi, kes leiab viisi ära kasutamiseks. Mündilõikamine muutus laialt levinuks, nii üksikisikud kui ka valitsused lõikasid müntidest osi ära, vähendades nende väärismetalli kaalu, püüdes samal ajal säilitada nende algset nimiväärtust. See viis esimese valuuta devalveerimise vormini, põhjustades [inflatsiooni](https://planb.academy/resources/glossary/inflation).
 
 Veelgi hullemaks muutus olukord, kui maailm muutus üha globaalsemaks, muutusid kuld ja hõbe eriti meresõitjate jaoks üha tülikamaks transportida ja tehinguid teha.
 
@@ -468,9 +468,9 @@ Tere tulemast moodulisse Kaks, kus me uurime Bitcoini põnevat maailma. Ehitades
 
 ### Mis asi on Bitcoin
 
-Bitcoin on usaldusväärne ja loata detsentraliseeritud digitaalne valuuta. See võib tunduda segadusttekitav, seega lubage meil selgitada. Kuna ükski valitsus ega asutus ei kontrolli Bitcoini, ei pea te usaldama ühtegi kolmandat osapoolt ega vajama luba selle kasutamiseks. Selle asemel hoitakse seda ülemaailmse kasutajate võrgustiku poolt, kes valideerivad ja töötlevad tehinguid midagi, mida nimetatakse plokiahelaks.
+Bitcoin on usaldusväärne ja loata detsentraliseeritud digitaalne valuuta. See võib tunduda segadusttekitav, seega lubage meil selgitada. Kuna ükski valitsus ega asutus ei kontrolli Bitcoini, ei pea te usaldama ühtegi kolmandat osapoolt ega vajama luba selle kasutamiseks. Selle asemel hoitakse seda ülemaailmse kasutajate võrgustiku poolt, kes valideerivad ja töötlevad [tehinguid](https://planb.academy/resources/glossary/transaction-tx) midagi, mida nimetatakse plokiahelaks.
 
-Mõelge plokiahelast kui hiiglaslikust pearaamatust või digitaalsest tabelist, mis säilitab kirje iga Bitcoini kaudu tehtud tehingu kohta. Kuna igaühel üle maailma internetiühendusega on võimalik jälgida, valideerida või töödelda tehinguid, tagab see, et valuuta on turvaline ja seda ei saa võltsida.
+Mõelge plokiahelast kui hiiglaslikust [pearaamatust](https://planb.academy/resources/glossary/ledger) või digitaalsest tabelist, mis säilitab kirje iga Bitcoini kaudu tehtud tehingu kohta. Kuna igaühel üle maailma internetiühendusega on võimalik jälgida, valideerida või töödelda tehinguid, tagab see, et valuuta on turvaline ja seda ei saa võltsida.
 
 Bitcoin on ainulaadne ka selle poolest, et sellel on piiratud pakkumine. Loodud saab olema ainult 21 miljonit bitcoini, mis annab sellele harulduse, nagu kullal ja teistel väärismetallidel. See haruldus on osa sellest, mis annab bitcoinile väärtuse.
 
@@ -484,17 +484,17 @@ Enne Bitcoini loomist panid käputäis visionääre aluse Bitcoinile, kuna nad k
 
 #### Küberturvalisuse entusiastid
 
-Küberturvalisuse entusiastid on rühm tehnikahuvilisi mässajaid, kes tulid 80ndatel kokku, et võidelda individuaalse vabaduse ja kodanikuõiguste eest kasutades üht võimsat tööriista: krüptograafiat. Nad uskusid, et informatsiooni krüpteerimise võime annab inimestele võimu võtta tagasi kontroll tsentraliseeritud autoriteetidelt. Kujutage ette, et saaksite hoida oma veebikommunikatsiooni privaatsena ja turvalisena uudishimulike silmade eest - see oli nende võitlus!
+[Küberturvalisuse entusiastid](https://planb.academy/resources/glossary/cypherpunks) on rühm tehnikahuvilisi mässajaid, kes tulid 80ndatel kokku, et võidelda individuaalse vabaduse ja kodanikuõiguste eest kasutades üht võimsat tööriista: krüptograafiat. Nad uskusid, et informatsiooni krüpteerimise võime annab inimestele võimu võtta tagasi kontroll tsentraliseeritud autoriteetidelt. Kujutage ette, et saaksite hoida oma veebikommunikatsiooni privaatsena ja turvalisena uudishimulike silmade eest - see oli nende võitlus!
 
 Üks küberturvalisuse entusiastide märkimisväärseid saavutusi oli küberturvalisuse entusiastide meililisti loomine 1992. aastal. Meililisti kaudu said inimesed jagada ideid ja arutada krüptograafilisi tehnoloogiaid, digitaalse valuuta kontseptsioone ja privaatsusele keskendunud algatusi. See viis mõttekaaslaste kogukonna moodustumiseni, sealhulgas arendajate, aktivistide ja teadlaste hulgas.
 
-Tänapäeval jätkavad küberturvalisuse entusiastide visionäärsed ideed meie digitaalse maastiku kujundamist, andes inimestele suurema kontrolli oma andmete ja suhtluse üle. Üks nende olulisemaid pärandeid on Bitcoin, kuna see põhineb suuresti Hashcashil - tehnoloogial, mille küberturvalisuse entusiast Adam Back arendas välja 1997. aastal e-posti rämpsposti vastu võitlemiseks.
+Tänapäeval jätkavad küberturvalisuse entusiastide visionäärsed ideed meie digitaalse maastiku kujundamist, andes inimestele suurema kontrolli oma andmete ja suhtluse üle. Üks nende olulisemaid pärandeid on Bitcoin, kuna see põhineb suuresti [Hashcashil](https://planb.academy/resources/glossary/hashcash) - tehnoloogial, mille küberturvalisuse entusiast Adam Back arendas välja 1997. aastal e-posti rämpsposti vastu võitlemiseks.
 
 Teised märkimisväärsed küberturvalisuse entusiastid hõlmavad järgmist:
 
 - **Timothy May:** Küberturvalisuse entusiastide meililisti asutajaliige ja kirjutas 90ndatel ja 2000ndate alguses ulatuslikult krüptograafia ja privaatsuse teemadel. Tema kirjutised panid aluse aruteludele digitaalse privaatsuse ja elektrooniliste rahasüsteemide üle.
 - **Eric Huges:** Üks Cypherpunkide asutajaliikmetest ja kaasautor teoses "A Cypherpunk's Manifesto", mis rõhutas privaatsuse ja anonüümsuse tähtsust digiajastul.
-- **Whitfield Diffie ja Martin Hellman:** Arendasid välja avaliku võtme krüptograafia kontseptsiooni, revolutsiooniliselt muutes turvalist internetisuhtlust.
+- **Whitfield Diffie ja Martin Hellman:** Arendasid välja [avaliku võtme](https://planb.academy/resources/glossary/public-key) krüptograafia kontseptsiooni, revolutsiooniliselt muutes turvalist internetisuhtlust.
 - **Julian Assange:** WikiLeaks'i asutaja, mis avaldab klassifitseeritud ja tundlikku teavet, et edendada läbipaistvust ja vastutust.
 - **Bram Cohen:** Lõi BitTorrenti, ühelt kasutajalt teisele failijagamise protokolli, mis detsentraliseeris sisu jaotust ja võimaldas kiiremaid allalaadimisi.
 - **John Gilmore:** Ettevõtja ja libertaar, kes oli Electronic Frontier Foundationi (EFF) kaasasutaja ning propageeris digitaalseid õigusi ja online privaatsust.
@@ -503,7 +503,7 @@ Teised märkimisväärsed küberturvalisuse entusiastid hõlmavad järgmist:
 
 #### David Chaum (Digitaalse Valuuta Isa)
 
-1980ndate alguses revolutsioneeris David Chaum digitaalsete valuutade maailma oma murrangulise tööga "pimendatud allkirjade" alal. See võimaldas krüptograafiliselt allkirjastada sõnumit ilma selle sisu teadmata, tagades privaatsuse ja turvalisuse digitaalsetes tehingutes. 1982. aastal konseptualiseeris David Chaum Ecashi, anonüümse elektroonilise rahasüsteemi, mis kasutas krüptograafiat ja hiljem rakendati tema ettevõtte Digicash kaudu.
+1980ndate alguses revolutsioneeris David Chaum digitaalsete valuutade maailma oma murrangulise tööga "[pimendatud allkirjade](https://planb.academy/resources/glossary/blind-signature)" alal. See võimaldas krüptograafiliselt allkirjastada sõnumit ilma selle sisu teadmata, tagades privaatsuse ja turvalisuse digitaalsetes tehingutes. 1982. aastal konseptualiseeris David Chaum [Ecashi](https://planb.academy/resources/glossary/ecash-david-chaum), anonüümse elektroonilise rahasüsteemi, mis kasutas krüptograafiat ja hiljem rakendati tema ettevõtte Digicash kaudu.
 
 Kuigi Digicashi kasutati mikromaksete süsteemina ühes USA pangas aastatel 1995 kuni 1998, pidi Chaum lõpuks pankrotti avaldama. Sellegipoolest inspireerisid tema uuenduslikud ideed teisi digitaalsete valuutade uurimisele, sillutades teed kaasaegsete krüptovaluutade, nagu Bitcoin, arengule.
 
@@ -517,21 +517,21 @@ Hoolimata selle lõplikust ebaõnnestumisest oli E-gold digitaalsete valuutade e
 
 Arvestades Bitcoini meteoorset tõusu, usuvad paljud ekslikult, et see oli esimene kunagi eksisteerinud digitaalne valuuta. Siiski, nagu nüüdseks loodetavasti selge, on see eeldus kaugel tõest. Bitcoini ilmumine oli aastakümnete pikkuse krüptograafia valdkonna pioneeride uurimis- ja katsetustöö tulemus. Ilma ülalnimetatud isikute ja paljude teiste panuseta ei pruukinud Bitcoin kunagi luua. Kuigi need varased digitaalsed valuutad lõpuks ebaõnnestusid, õppis Bitcoin nende vigadest, saades lõpuks digitaalseks valuutaks, mida me täna tunneme.
 
-Sellegipoolest, kui poleks olnud ühte isikut... või gruppi (me ei tea kindlalt), ei eksisteeriks Bitcoin. Ja see on Satoshi Nakamoto. Salapärane looja.
+Sellegipoolest, kui poleks olnud ühte isikut... või gruppi (me ei tea kindlalt), ei eksisteeriks Bitcoin. Ja see on [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi). Salapärane looja.
 
 #### Satoshi Nakamoto
 
 Kuigi Bitcoin on miljonite inimeste mõtteid haaranud oma häiriva potentsiaali ja unikaalse tehnoloogiaga, jätkab selle salapärane päritolu inimeste fascineerimist ja mõistatamist. Satoshi Nakamoto, Bitcoini looja, on tänaseni tundmatu, hoolimata arvukatest katsetest tema tõelist identiteeti paljastada. Kuigi Bitcoin on olnud olemas üle kümne aasta, ei ole me siiski lähemal küsimusele: Kes on Satoshi Nakamoto? Siiski, arvestades Bitcoini detsentraliseeritud olemust, kas see tõesti loeb?
 
 Igal juhul vaatame müüti ja legendi.
-Satoshi Nakamoto ilmus internetis 2008. aastal revolutsioonilise ideega: eakaaslastevaheline elektrooniline raha. Ta jagas oma visiooni [üheksa-leheküljelises dokumendis](https://bitcoin.org/bitcoin.pdf) pealkirjaga "Bitcoin: A Peer-to-Peer Electronic Cash System" koos krüptopunkide meililistiga. Hoolimata algsest huvi puudumisest enamiku meililisti liikmete seas, tekitas idee piisavalt uudishimu ühes liikmes, Hal Finney's, kes lõpuks võttis ühendust Satoshiga. Hali kaasamine Bitcoini arendusse osutus pöördepunktiks, mis viis rohkemate inimeste toetuseni.
+Satoshi Nakamoto ilmus internetis 2008. aastal revolutsioonilise ideega: [eakaaslastevaheline](https://planb.academy/resources/glossary/peertopeer-p2p) elektrooniline raha. Ta jagas oma visiooni [üheksa-leheküljelises dokumendis](https://bitcoin.org/bitcoin.pdf) pealkirjaga "Bitcoin: A Peer-to-Peer Electronic Cash System" koos krüptopunkide meililistiga. Hoolimata algsest huvi puudumisest enamiku meililisti liikmete seas, tekitas idee piisavalt uudishimu ühes liikmes, Hal Finney's, kes lõpuks võttis ühendust Satoshiga. Hali kaasamine Bitcoini arendusse osutus pöördepunktiks, mis viis rohkemate inimeste toetuseni.
 Siiski, pärast kahte aastat projekti kallal töötamist, kadus Satoshi jäljetult, [tema viimase usaldusväärse suhtlusega](https://plan99.net/~mike/satoshi-emails/thread5.html) 23. aprillil 2011, kus ta teatas, et on "liikunud edasi teistele asjadele."
 
 Satoshi Nakamoto müstiline kadumine on viinud erinevate teooriateni selle kohta, kuhu ta läks. Mõned spekuleerivad, et ta tundis, et on saavutanud selle, mida tahtis teha, samas kui teised usuvad, et ta muutus ebamugavaks tähelepanuga, mida Bitcoin tõmbas. Detsembris [2010](https://www.forbes.com/sites/andygreenberg/2010/12/07/visa-mastercard-move-to-choke-wikileaks/?sh=614d78052cad), kui WikiLeaksile keelati traditsiooniliste maksemeetodite kasutamine, pöördus see Bitcoini poole rahastuse saamiseks. Satoshi mure Bitcoini suurenenud tähelepanu ja potentsiaalsete õiguslike tagajärgede pärast, mis tulenesid valuuta loomisest, mida kasutati USA geopoliitiliste huvide segamiseks, võis teda sundida tagasi astuma. Alternatiivselt võis ta oma tähelepanu pöörata teistele projektidele, võib endiselt panustada Bitcoini teiste nimede all või isegi on surnud.
 
 Kuigi me ei pruugi teada, kes Satoshi on, on meil selgem pilt tema kavatsustest Bitcoini taga. Ta lõi Bitcoini vastusena 2008. aasta ülemaailmsele finantskriisile ja sellest tulenevale usaldamatusele traditsiooniliste pangandussüsteemide ning valitsuse kontrolli all olevate valuutade vastu.
 
-Oma veebikommunikatsioonis väljendas ta tsentraliseeritud raha ja panganduse suhtes tsüünismi, rõhutades ohtusid usaldada keskpanku, et need ei devalveeri oma valuutat. Näiteks, esimesse Bitcoini plokki kirjutatud on:
+Oma veebikommunikatsioonis väljendas ta tsentraliseeritud raha ja panganduse suhtes tsüünismi, rõhutades ohtusid usaldada keskpanku, et need ei devalveeri oma valuutat. Näiteks, esimesse Bitcoini [plokki](https://planb.academy/resources/glossary/block) kirjutatud on:
 
 "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks."
 
@@ -548,7 +548,7 @@ Kokkuvõtteks, Bitcoin on revolutsiooniliselt muutnud seda, kuidas me mõtleme r
 
 - **Eakaaslastevaheline:** Bitcoin võimaldab üksikisikutel saata ja vastu võtta makseid otse ilma vahendajate, nagu pangad või maksetöötlejad, vajaduseta.
 - **Detsentraliseeritud:** Bitcoin toimib detsentraliseeritud võrgustikus, mis tähendab, et valuutat ei kontrolli ükski keskne autoriteet.
-- **Turvaline:** Bitcoin'i tehingud on krüpteeritud, muutes müntide võltsimise või topeltkulutamise keeruliseks.
+- **Turvaline:** Bitcoin'i tehingud on krüpteeritud, muutes müntide võltsimise või [topeltkulutamise](https://planb.academy/resources/glossary/double-spending-attack) keeruliseks.
 - **Piiratud kogus ja jagatavus:** Bitcoin'i pakkumine on piiratud – olemas on ainult 21 miljonit münti – samal ajal on see jagatav kaheksa kümnendkohani, võimaldades tehinguid murdosa sendi eest. See nappus on loodud valuuta väärtuse andmiseks ja inflatsiooni ärahoidmiseks.
 - **Pseudonüümne:** Kuigi Bitcoin'i tehingud ei ole täielikult anonüümsed, pakuvad need privaatsuse ja pseudonüümsuse taset, mida traditsioonilised maksemeetodid ei paku.
 
@@ -577,7 +577,7 @@ Võrreldes traditsiooniliste pangandussüsteemidega, kuigi Bitcoin toimib funkts
 3. tagama, et kõik on ajakohane, toimib sujuvalt ja turvaliselt.
    Kuigi pangad täidavad neid rolle sisekorras, andes neile täieliku kontrolli protsessi üle, nõuab Bitcoin ühenduse koostööd nende rollide täitmiseks. Teisisõnu, selleks, et Bitcoin suudaks neid protsesse detsentraliseeritud süsteemis jäljendada, peab Bitcoin igaühe neist ülesannetest välja andma, tagamaks, et ükski üksikisik või tsentraliseeritud üksus ei omaks süsteemi üle liigset kontrolli.
 
-Selle revolutsioonilise saavutuse saavutamiseks on Bitcoin jaotanud need ülesanded kolmeks peamiseks rolliks: noodid, kaevurid ja arendajad. Kus noodid kinnitavad tehinguid ning kehtestavad ja jõustavad reegleid, kaevurid järjestavad ja kinnitavad tehinguid ning arendajad hoiavad võrku ajakohasena ja pakuvad välja uuendusi. Nende ülesannete jaotamisega nende peamiste tegijate vahel on Bitcoin loonud süsteemi, mis on turvaline, läbipaistev ja kõigile kasutajatele vastutav.
+Selle revolutsioonilise saavutuse saavutamiseks on Bitcoin jaotanud need ülesanded kolmeks peamiseks rolliks: [noodid](https://planb.academy/resources/glossary/node), [kaevurid](https://planb.academy/resources/glossary/miner) ja arendajad. Kus noodid kinnitavad tehinguid ning kehtestavad ja jõustavad reegleid, kaevurid järjestavad ja kinnitavad tehinguid ning arendajad hoiavad võrku ajakohasena ja pakuvad välja uuendusi. Nende ülesannete jaotamisega nende peamiste tegijate vahel on Bitcoin loonud süsteemi, mis on turvaline, läbipaistev ja kõigile kasutajatele vastutav.
 
 Vaatame seega igaühte neist rollidest lähemalt...
 
@@ -585,7 +585,7 @@ Vaatame seega igaühte neist rollidest lähemalt...
 
 #### Noodid
 
-Noodid on hädavajalikud Bitcoini võrgu terviklikkuse ja turvalisuse jaoks. Nad toimivad süsteemi väravavahtidena, tagades, et tehingud töödeldakse täpselt ja vastavalt reeglitele. Iga noot laadib alla ja kontrollib kohapeal täielikku plokiahela koopiat, mis on sisuliselt digitaalne pearaamat, mis registreerib iga Bitcoini võrgus tehtud tehingu. Konsensuse kaudu lepivad noodid kokku iga tehingu kehtivuses ja tagavad, et reegleid järgitakse. See tähendab, et kui keegi üritab süsteemi petta, näiteks saates rohkem bitcoine, kui tal tegelikult on või üritades sama bitcoini kaks korda kulutada, lükkavad noodid tehingu tagasi.
+Noodid on hädavajalikud Bitcoini võrgu terviklikkuse ja turvalisuse jaoks. Nad toimivad süsteemi väravavahtidena, tagades, et tehingud töödeldakse täpselt ja vastavalt reeglitele. Iga noot laadib alla ja kontrollib kohapeal täielikku plokiahela koopiat, mis on sisuliselt digitaalne pearaamat, mis registreerib iga Bitcoini võrgus tehtud tehingu. [Konsensuse](https://planb.academy/resources/glossary/consensus) kaudu lepivad noodid kokku iga tehingu kehtivuses ja tagavad, et reegleid järgitakse. See tähendab, et kui keegi üritab süsteemi petta, näiteks saates rohkem bitcoine, kui tal tegelikult on või üritades sama bitcoini kaks korda kulutada, lükkavad noodid tehingu tagasi.
 
 Selle konsensuse idee edasiarendamiseks, kui arendajad pakuvad välja muudatusi või uuendusi Bitcoinile, mängivad noodid rolli nende muudatuste vastuvõtmisel või tagasilükkamisel. Nad teevad seda kas oma tarkvara uuendades uuele versioonile või jätkates vana versiooni kasutamist. See protsess hõlmab sageli arutelusid ja vaidlusi Bitcoini kogukonnas konsensuse saavutamiseks. Öeldakse, et Bitcoini konsensus ei ole nii must-valge kui hääletusmasin. Enamus ei valitse tingimata. Kui mõned isikud ei nõustu muudatusega, võivad nad käivitada uue Bitcoinist tuletatud märgi. Nüüd eksisteerib algne Bitcoin ilma muudatuseta ja uus muudatusega. Ostes ja müües on kogukonna otsustada, millist versiooni nad peavad väärtuslikumaks. See konsensusmehhanism tagab, et kõik Bitcoini protokolli tehtud muudatused on kogu kogukonna poolt heaks kiidetud, muutes süsteemi manipuleerimise üksikisikute või rühmade poolt oma kasuks keeruliseks.
 
@@ -593,7 +593,7 @@ On oluline märkida, et noot on lihtsalt tarkvaratükk, mida igaüks saab oma ko
 
 #### Kaevurid
 
-Teisest küljest mängivad Bitcoin kaevurid kriitilist rolli arvestuse pidamisel, kuna nad vastutavad tehingute järjestamise ja kinnitamise eest. Selleks kasutavad kaevurid spetsialiseeritud arvuteid, et teostada funktsiooni, mida nimetatakse räsimiseks. Räsimise sügavamale analüüsimata, mõelge sellele kui kaevurite konkurentsile üksteisega, et lisada uusi tehinguid plokiahelasse, avalikku tehingute registrisse. Oma töö eest saavad kaevurid tasuks äsja loodud bitcoine ja kõik töödeldud tehingute tasud. Kaevuriprotsess on kavandatud olema keeruline, konkurentsivõimeline ja juhuslik, piiratud arvu uute bitcoinide vabastamisega igal aastal, tagades, et bitcoini pakkumine on piiratud ja nende väärtus säilib. Ilma kaevuriteta ei töödeldaks tehinguid.
+Teisest küljest mängivad Bitcoin kaevurid kriitilist rolli arvestuse pidamisel, kuna nad vastutavad tehingute järjestamise ja kinnitamise eest. Selleks kasutavad kaevurid spetsialiseeritud arvuteid, et teostada funktsiooni, mida nimetatakse [räsimiseks](https://planb.academy/resources/glossary/hash-function). Räsimise sügavamale analüüsimata, mõelge sellele kui kaevurite konkurentsile üksteisega, et lisada uusi tehinguid plokiahelasse, avalikku tehingute registrisse. Oma töö eest saavad kaevurid tasuks äsja loodud bitcoine ja kõik töödeldud [tehingute tasud](https://planb.academy/resources/glossary/transaction-fees). Kaevuriprotsess on kavandatud olema keeruline, konkurentsivõimeline ja juhuslik, piiratud arvu uute bitcoinide vabastamisega igal aastal, tagades, et bitcoini pakkumine on piiratud ja nende väärtus säilib. Ilma kaevuriteta ei töödeldaks tehinguid.
 Arvestades, et kaevurid peavad omavahel võistlema tehingute töötlemiseks ja saavad selle eest tasu, vähendab see konkurents võimalust, et ükski üksik kaevur või üksus saaks võrgu üle kontrolli ja motiveerib kaevureid ausalt käituma ja reegleid järgima. Kui kaevur üritab petta või reegleid rikkuda, riskib ta oma tasu kaotamisega, seega on tugev stiimul reeglite järgi mängida.
 
 #### Arendajad
@@ -612,9 +612,9 @@ Et mõista, kuidas kõik need osalejad koos töötavad, kujutagem ette lihtsat B
 
 #### Tehingu Algatamine
 
-Iga Bitcoini tehing algab selle algatamisega, kui saatja, antud juhul Alice, loob tehingu, määrates saaja, Bobi, ja summa, 0.00100000 bitcoin. Alice'i rahakotiga seotud sõlm edastab tehingu võrku, kus sõlmed kinnitavad selle kehtivust, ja see saadetakse kaevuritele kinnitamiseks.
+Iga Bitcoini tehing algab selle algatamisega, kui saatja, antud juhul Alice, loob tehingu, määrates saaja, Bobi, ja summa, 0.00100000 bitcoin. Alice'i [rahakotiga](https://planb.academy/resources/glossary/wallet) seotud sõlm edastab tehingu võrku, kus sõlmed kinnitavad selle kehtivust, ja see saadetakse kaevuritele kinnitamiseks.
 
-Sel hetkel siseneb tehing nn mempooli, mis on sisuliselt ooteala tehingutele, mis on valmis lisama plokiahelasse. Mõelge sellele kui nimekirjale ootel olevatest tehingutest, sarnaselt nendega, mida näete oma krediitkaardi väljavõttel, mis on algatatud, kuid ootavad töötlemist. Kui tehing on algatatud ja asub mempoolis, on see nüüd kaevurite kätes.
+Sel hetkel siseneb tehing nn [mempooli](https://planb.academy/resources/glossary/mempool), mis on sisuliselt ooteala tehingutele, mis on valmis lisama plokiahelasse. Mõelge sellele kui nimekirjale ootel olevatest tehingutest, sarnaselt nendega, mida näete oma krediitkaardi väljavõttel, mis on algatatud, kuid ootavad töötlemist. Kui tehing on algatatud ja asub mempoolis, on see nüüd kaevurite kätes.
 
 #### Tehingu Kinnitamine
 
@@ -675,7 +675,7 @@ Kuigi fiat valuutad on inflatsiooni suhtes vastuvõtlikud ja on ajalooliselt tõ
 Kuigi bitcoini ei aktsepteerita veel globaalselt samal määral kui fiat-valuutasid, muudab selle peer-to-peer olemus, kiired tehinguaegad ja madalad tasud selle üha atraktiivsemaks vahetusvahendiks, eriti piiriüleste tehingute puhul. Seda võimaldab asjaolu, et see on:
 
 - **Kaasaskantav:** Bitcoini digitaalne olemus võimaldab piirideta ja vahendajateta ülekandeid üksikisikute vahel, muutes selle mugavaks ja kättesaadavaks vahetusvahendiks. Kuigi mõned fiat-valuutad pakuvad samuti digitaalseid lahendusi, võivad arengumaade või sõjast räsitud riikide inimesed võidelda pangateenuste kättesaadavusega, mis täidaksid seda vajadust. Bitcoini detsentraliseeritud olemus muudab selle kättesaadavaks kõigile, kellel on internetiühendus, pakkudes elujõulist alternatiivi traditsioonilistele pangasüsteemidele piirkondades, kus finantsteenustele on piiratud juurdepääs.
-- **Jagatav:** Bitcoini äärmuslik jagatavus on üks selle peamisi eeliseid valuutana. Iga bitcoin on jagatav kuni kaheksa kümnendkohani, väikseim ühik, Satoshi, on väärt vaid murdosa sendist. Sõltuvalt tehingu viisist, st esimese või teise kihi kasutamisest, muudab see bitcoini väga kohandatavaks igas suuruses tehingutele, alates väikeostudest kuni suurte investeeringuteni.
+- **Jagatav:** Bitcoini äärmuslik jagatavus on üks selle peamisi eeliseid valuutana. Iga bitcoin on jagatav kuni kaheksa kümnendkohani, väikseim ühik, [Satoshi](https://planb.academy/resources/glossary/satoshi-sat), on väärt vaid murdosa sendist. Sõltuvalt tehingu viisist, st esimese või teise kihi kasutamisest, muudab see bitcoini väga kohandatavaks igas suuruses tehingutele, alates väikeostudest kuni suurte investeeringuteni.
 - **Aktsepteeritud:** Kuigi bitcoini aktsepteerimine ei ole veel universaalne, näitab selle kasvav omaksvõtt kaupmeeste, institutsioonide ja üksikisikute poolt üle maailma, et see muutub üha laialdasemalt aktsepteeritud maksevormiks.
 
 ### Arvestusühik
@@ -789,18 +789,18 @@ Need on rahakotid, kus kuigi teil on juurdepääs oma rahakotile ja saate vahend
 Samuti on saadaval lugematu arv teisi hoiustaja rahakoti lahendusi mobiilseadmetele, mis annavad teile lihtsa juurdepääsu oma bitcoinidele. Need rahakotid on tavaliselt kasutajasõbralikud ja pakuvad lihtsat viisi oma bitcoinide haldamiseks, kuid nad hoiavad endiselt teie bitcoinide võtmeid.
 
 **Mittehoiustaja rahakotid (tuntud ka kui isehoidmine)**
-Mittehoiustaja rahakotid on Bitcoin'i rahakoti tüüp, kus olete oma vahendite ainus hoidja, mis tähendab, et teil on täielik kontroll oma privaatvõtmete üle. Privaatvõtmed on nagu parool teie rahakotile ja neid kasutatakse tehingute allkirjastamiseks ja autoriseerimiseks. Ilma nendeta ei saa te oma bitcoinele juurde pääseda ega neid üle kanda.
+Mittehoiustaja rahakotid on Bitcoin'i rahakoti tüüp, kus olete oma vahendite ainus hoidja, mis tähendab, et teil on täielik kontroll oma [privaatvõtmete](https://planb.academy/resources/glossary/private-key) üle. Privaatvõtmed on nagu parool teie rahakotile ja neid kasutatakse tehingute allkirjastamiseks ja autoriseerimiseks. Ilma nendeta ei saa te oma bitcoinele juurde pääseda ega neid üle kanda.
 
-Mittehoiustaja rahakotid pakuvad kõrgemat turvalisuse ja privaatsuse taset võrreldes hoiustaja rahakottidega, kuna ainult teie vastutate oma vahendite turvalisuse eest. Mittehoiustaja rahakottide näideteks on riistvaralised rahakotid nagu [Coldcard](https://store.coinkite.com/store/coldcard) ja [Trezor](https://trezor.io/), mis on füüsilised seadmed, mis hoiavad teie privaatvõtmeid võrguühenduseta ja pakuvad lisaturvalisuse kihti. Teised populaarsed mittehoiustaja rahakotid on tarkvaralised rahakotid nagu [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), ja [Blockstream Green](https://blockstream.com/green/), mida saab alla laadida ja paigaldada teie arvutisse või mobiilseadmesse.
+Mittehoiustaja rahakotid pakuvad kõrgemat turvalisuse ja privaatsuse taset võrreldes hoiustaja rahakottidega, kuna ainult teie vastutate oma vahendite turvalisuse eest. Mittehoiustaja rahakottide näideteks on [riistvaralised rahakotid](https://planb.academy/resources/glossary/hardware-wallet) nagu [Coldcard](https://store.coinkite.com/store/coldcard) ja [Trezor](https://trezor.io/), mis on füüsilised seadmed, mis hoiavad teie privaatvõtmeid võrguühenduseta ja pakuvad lisaturvalisuse kihti. Teised populaarsed mittehoiustaja rahakotid on tarkvaralised rahakotid nagu [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), ja [Blockstream Green](https://blockstream.com/green/), mida saab alla laadida ja paigaldada teie arvutisse või mobiilseadmesse.
 
 **Kuigi me ei saa soovitada konkreetset rahakotti, soovitame tungivalt võtta oma bitcoinide üle kontrolli kas isehoidmise või koostöölise hoidmise kaudu, mis hõlmab rahakoti valimist vastavalt teie vajadustele ja eelistustele. Enne rahakoti valimist on oluline teha põhjalik uurimistöö, et veenduda, kas see vastab teie turvalisuse ja kasutusmugavuse nõuetele.**
-Kuigi hoiustamisteenust pakkuvad rahakotid võivad tunduda mugavad, kaasnevad nendega olulised riskid. Oma privaatvõtmete kolmandale osapoolele hoida andmisega annate neile sisuliselt kontrolli oma vahendite üle. Kui hoiustaja muutub maksejõuetuks, häkitakse või suletakse, võite kaotada juurdepääsu oma bitcoinidele. Ja seda on juhtunud lugematul arvul kordadel, kus kõrge profiiliga näideteks on Mt. Goxi ja QuadrigaCXi häkkimised, mis põhjustasid klientide vahendite kaotuse, või FTX, Voyager, BlockFi ja Celsius kogesid katastroofilisi maksejõuetusi, mis viisid nende klientide vahendite kaotuseni. Eriti säästude puhul on oluline praktiseerida isehoidmist ja võtta vastutus oma bitcoinide turvalisuse eest.
+Kuigi hoiustamisteenust pakkuvad rahakotid võivad tunduda mugavad, kaasnevad nendega olulised riskid. Oma privaatvõtmete kolmandale osapoolele hoida andmisega annate neile sisuliselt kontrolli oma vahendite üle. Kui hoiustaja muutub maksejõuetuks, häkitakse või suletakse, võite kaotada juurdepääsu oma bitcoinidele. Ja seda on juhtunud lugematul arvul kordadel, kus kõrge profiiliga näideteks on Mt. Goxi ja QuadrigaCXi häkkimised, mis põhjustasid klientide vahendite kaotuse, või FTX, Voyager, BlockFi ja Celsius kogesid katastroofilisi maksejõuetusi, mis viisid nende klientide vahendite kaotuseni. Eriti säästude puhul on oluline praktiseerida [isehoidmist](https://planb.academy/resources/glossary/selfcustody) ja võtta vastutus oma bitcoinide turvalisuse eest.
 
 #### Ohutusnõuanded
 
 Kui olete rahakoti valinud, ei ole lõbu ja mängud veel läbi. Nüüd on aeg minimeerida kaotuse riski. Oma bitcoinide kaitsmiseks kaaluge neid samme pärast rahakoti valimist:
 
-1. Kõigepealt ja kõige tähtsam, varundage oma rahakott, võttes isehoidmise. Riistvaralised rahakotid tulevad koos taastamise seemnefraasiga, sõnade komplektiga, mida saab kasutada oma privaatvõtmete taastamiseks, kui teie seade kaob või kahjustub. Looge sellest [seemnefraasist](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/) füüsiline koopia, näiteks metallist seemneplaat, ja hoidke seda turvalises kohas. On oluline hoida seda taastamise seemnefraasi turvaliselt. ÄRGE kunagi jagage seda kellegagi.
+1. Kõigepealt ja kõige tähtsam, varundage oma rahakott, võttes isehoidmise. Riistvaralised rahakotid tulevad koos [taastamise seemnefraasiga](https://planb.academy/resources/glossary/recovery-phrase), sõnade komplektiga, mida saab kasutada oma privaatvõtmete taastamiseks, kui teie seade kaob või kahjustub. Looge sellest [seemnefraasist](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/) füüsiline koopia, näiteks metallist seemneplaat, ja hoidke seda turvalises kohas. On oluline hoida seda taastamise seemnefraasi turvaliselt. ÄRGE kunagi jagage seda kellegagi.
 2. Kui kaitsete märkimisväärset hulka bitcoine, mis ületab summa, mida te ei sooviks kaotada, on oluline uurida pärandiplaneerimise võimalusi ettenägematu sündmuse korral, kui te lahkute. See tagab, et teie pere ja lähedased saavad teie bitcoine tõhusalt kasutada ja hallata.
 3. Olge valvsad õngitsuskatsete ja muude pettuste suhtes. Petturid üritavad sageli teid trikitada, andes neile juurdepääsu oma bitcoinidele, esitledes end usaldusväärse ettevõtte või isikuna. Ükski mainekas ettevõte ei küsi kunagi teie privaatvõtmeid, seega ärge jagage oma privaatvõtmeid kellegagi ja kontrollige alati veebisaidi või isiku autentsust enne bitcoinide saatmist.
 

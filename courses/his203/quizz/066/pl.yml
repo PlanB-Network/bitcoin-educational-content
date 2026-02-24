@@ -1,0 +1,11 @@
+question: Kto był pośrednio odpowiedzialny za ostatnie włamanie do Bitcoinica, które miało miejsce w lipcu 2012 roku?
+answer: Amir Taaki
+wrong_answers:
+  - Zhou Tong
+  - Chen Jianhai
+  - Mark Karpelès
+explanation: |
+ 7 lipca opublikował pełny kod źródłowy platformy, który zawierał hasło do sejfu Bitcoinica LastPass, który z kolei zawierał hasło do jego konta na Mt
+ Mt. Gox. wycofano 40 000 bitcoinów i 40 000 LR-USD. Amir Taaki przyznał się do tego czynu, ale winą obarczył kierownictwo Bitcoinica,
+ z którym był w konflikcie.
+reviewed: true

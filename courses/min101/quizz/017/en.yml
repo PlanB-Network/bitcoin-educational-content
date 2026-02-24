@@ -1,9 +1,9 @@
-question: Who is behind the Bit Gold concept?
+question: Who came up with the concept of Bit Gold?
 answer: Nick Szabo
 wrong_answers:
   - Satoshi Nakamoto
   - Hal Finney
   - Wei Dai
 explanation: |
-  Bit Gold is a conceptual project for an electronic money system proposed by Nick Szabo.
-reviewed: false
+  Bit Gold was a conceptual project for an electronic money system proposed by Nick Szabo.
+reviewed: true

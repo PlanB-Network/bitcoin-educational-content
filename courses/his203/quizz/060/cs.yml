@@ -1,0 +1,10 @@
+question: Která technická inovace SatoshiDICE umožnila hráčům zkontrolovat, zda kasino nepodvádí?
+answer: Zveřejnění tajného hashe v blockchainu, po kterém následuje zveřejnění uvedených tajemství, aby bylo možné přepočítat výsledky
+wrong_answers:
+  - Nasazení decentralizovaného validačního blockchainu, na kterém je každá transakce ověřována několika nezávislými uzly
+  - Použití pevných adres v blockchainu, což umožňuje auditovat losování a zajistit tak jejich spravedlnost
+  - Provádění pravděpodobnostních výpočtů přímo v blockchainu prostřednictvím autonomních veřejných kontraktů
+explanation: |
+ SatoshiDICE byl revoluční v tom, že byl "zaručeně spravedlivý". Každé sázkové losování bylo na začátku dne závislé na tajné hodnotě generated
+ jehož hash byl zveřejněn v blockchainu. Samotné tajemství bylo odhaleno o několik dní později, což uživatelům umožnilo přepočítat si výsledek sami.
+reviewed: true

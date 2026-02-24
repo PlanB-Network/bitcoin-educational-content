@@ -1,0 +1,10 @@
+question: Oprócz identyfikatora puli mining, co zawierała większość napisów wykonanych przez Luke-Jr za pośrednictwem Eligiusa w sierpniu 2011 r.?
+answer: Modlitwy
+wrong_answers:
+  - Pornografia dziecięca
+  - Memy
+  - Wiadomości polityczne
+explanation: |
+ Zgodnie ze swoją katolicką (sedewakantystyczną) wiarą, Luke-Jr włączył modlitwy i święte teksty do transakcji wynagradzania za bloki wydobywane przez jego pulę mining,
+ Eligius, bez konsultacji z zainteresowanymi górnikami, co wywołało ożywioną debatę.
+reviewed: true

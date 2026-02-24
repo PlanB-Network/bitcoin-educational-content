@@ -844,7 +844,7 @@ The systematic study of economic laws began in the High Middle Ages. The first e
 
 ![image](assets/en/049.webp)
 
-At the heart of his monetary analysis lies the problem of "mutations" of money, that is, alterations in the metallic content of coins and their denomination. These alterations have occurred since the dawn of time and are well documented for Antiquity and the Middle Ages. Their most visible effect is to change the purchasing power of the monetary unit, especially to decrease it. This is a primitive form of inflation that Oresme clearly condemns as an evil.
+At the heart of his monetary analysis lies the problem of "mutations" of money, that is, alterations in the metallic content of coins and their denomination. These alterations have occurred since the dawn of time and are well documented for Antiquity and the Middle Ages. Their most visible effect is to change the purchasing power of the monetary unit, especially to decrease it. This is a primitive form of [inflation](https://planb.academy/resources/glossary/inflation) that Oresme clearly condemns as an evil.
 
 Oresme immediately raises a central question: Is inflation beneficial for the community? He answers in the negative, arguing that inflation does not make money any more or less useful for exchanges. The economy can function well regardless of the price level, and thus, irrespective of the nominal money supply.
 But if that is the case, another question obviously arises: why do alterations of currency exist? And in particular, why seek to increase the money supply? Oresme responds that these alterations do not have the same consequences for different members of the community. They benefit certain people at the expense of others. The winners of currency alterations have a material interest in implementing them. Generally, these winners are the men in power. Oresme writes:
@@ -1017,7 +1017,7 @@ It is unnecessary to prove that each individual is the sole judge of the most ad
 
 Here, Turgot largely anticipates the argument of Mises and Hayek on the impossibility of any economic calculation in a socialist economic system.
 
-Dedicating a chapter to "The Brilliance of Turgot," Murray Rothbard, in his economic history from an Austrian perspective, emphasizes that "Turgot's influence on subsequent economic thought was seriously restricted (...) by the following myth that Adam Smith was the founder of political economy." And he adds, "It was on the Frenchman J.B. Say, officially a follower of Smith, that Turgot ultimately had the most influence, particularly his theory of utility value."
+Dedicating a chapter to "The Brilliance of Turgot," Murray Rothbard, in his economic history from an [Austrian](https://planb.academy/resources/glossary/austrian-school) perspective, emphasizes that "Turgot's influence on subsequent economic thought was seriously restricted (...) by the following myth that Adam Smith was the founder of political economy." And he adds, "It was on the Frenchman J.B. Say, officially a follower of Smith, that Turgot ultimately had the most influence, particularly his theory of utility value."
 
 ### The Masterpiece of Condillac
 
@@ -1580,7 +1580,7 @@ For Hayek, the past instability of the market economy stems from the fact that t
 
 ![image](assets/en/101.webp)
 
-Hayek believed that a free market of private currencies would lead to greater monetary stability. Nearly 50 years later, a cryptocurrency like Bitcoin embodies Hayek's competitive vision by offering a decentralized alternative to the monopolistic system of central banks. Bitcoin, with its fixed emission limit of 21 million units, serves as a safeguard against inflation and the arbitrariness of regulators.
+Hayek believed that a free market of private currencies would lead to greater monetary stability. Nearly 50 years later, a [cryptocurrency](https://planb.academy/resources/glossary/cryptocurrency) like Bitcoin embodies Hayek's competitive vision by offering a decentralized alternative to the monopolistic system of central banks. Bitcoin, with its fixed emission limit of 21 million units, serves as a safeguard against inflation and the arbitrariness of regulators.
 
 
 ## Conclusion: the power of ideas

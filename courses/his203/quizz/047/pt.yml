@@ -1,0 +1,10 @@
+question: Qual foi o argumento de marketing da Litecoin, a criptomoeda criada por Charlie Lee em outubro de 2011?
+answer: Ser para a prata o que o Bitcoin é para o ouro
+wrong_answers:
+  - Criar uma moeda espiritual
+  - Suceder ao Bitcoin quando este entrar em colapso
+  - Financiar o mundo do software livre
+explanation: |
+ O Litecoin era mais rápido (o tempo de bloqueio é de 2 minutos e 30 em vez de 10 minutos) e menos escasso (84 milhões de unidades em vez de 21) do que o Bitcoin, daí a analogia com os metais preciosos
+ metais preciosos. Foi o próprio Charlie Lee que incluiu esta comparação na descrição inicial da sua moeda criptográfica.
+reviewed: true

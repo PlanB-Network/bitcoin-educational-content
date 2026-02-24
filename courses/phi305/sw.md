@@ -783,7 +783,7 @@ Lakini kama Spinoza anavyosema, "udanganyifu wa wanaume hauishii hapo", na kati 
 
 
 
-Ufafanuzi wa mfumuko wa bei uliotolewa na wachumi wa Keynesian na watetezi wa hali ya ustawi, kwa mfano, pia unaonyesha kitendawili hiki vizuri sana. Kulingana na wao, mfumuko wa bei ni kuongezeka kwa bei ambayo, kulingana na baadhi ya benki kuu, inatoka "popote", au kutoka kwa mazingira ya kijiografia ambayo hakuna mtu anayeweza kudhibiti au kutarajia. Wakati ongezeko la bei linaweza kusababisha mfumuko wa bei wa mzunguko - kwa mfano, wakati bei ya mafuta inapopanda, bei za bidhaa fulani zilizosindikwa pia zitapanda - sababu halisi za kimuundo za mfumuko wa bei zinahusishwa hasa na ongezeko la fedha Supply, ambayo ina maana ya kushuka kwa thamani ya fedha na, ipso facto, bei ya mitambo.
+Ufafanuzi wa [mfumuko wa bei](https://planb.academy/resources/glossary/inflation) uliotolewa na wachumi wa Keynesian na watetezi wa hali ya ustawi, kwa mfano, pia unaonyesha kitendawili hiki vizuri sana. Kulingana na wao, mfumuko wa bei ni kuongezeka kwa bei ambayo, kulingana na baadhi ya benki kuu, inatoka "popote", au kutoka kwa mazingira ya kijiografia ambayo hakuna mtu anayeweza kudhibiti au kutarajia. Wakati ongezeko la bei linaweza kusababisha mfumuko wa bei wa mzunguko - kwa mfano, wakati bei ya mafuta inapopanda, bei za bidhaa fulani zilizosindikwa pia zitapanda - sababu halisi za kimuundo za mfumuko wa bei zinahusishwa hasa na ongezeko la fedha Supply, ambayo ina maana ya kushuka kwa thamani ya fedha na, ipso facto, bei ya mitambo.
 
 
 
@@ -1097,7 +1097,7 @@ Yaani, tukimchukia mgeni ni kwa sababu tunamhusisha huyu mgeni na fikra tulizona
 
 
 
-Hii ni kweli hasa, kwa njia, katika uwanja wa cryptocurrencies.
+Hii ni kweli hasa, kwa njia, katika uwanja wa [cryptocurrencies](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 
@@ -1192,7 +1192,7 @@ Hivi ndivyo hasa falsafa ya busara ya Kutaalamika ilihusu, shukrani haswa kwa Im
 Kwa maneno mengine, anasema, ikiwa tunajifikiria wenyewe, ikiwa tunasababu tukiwa watu wazima wenye akili timamu, na kwa hiyo tukijitahidi kujishikamanisha na uhusiano wa sababu kati ya mambo, hatutahitaji tena mamlaka ya kimaadili kutufundisha, kwa mfano, sifa za kweli za dini au maadili ya kweli katika nyanja za kisiasa na kiuchumi.
 
 
-Ni hoja inayofanya kiungo na shule ya Austria ya uchumi huria, iliyozaliwa katika mazingira yenye rutuba ya kiakili ya Vienna kabla ya Vita vya Kwanza vya Kidunia. Kwani ilikuwa ni katika muktadha huu ambapo wasomi kama vile Carl Menger (1840-1921), Ludwig von Mises (1883-1979) na Friedrich Hayek (1899-1992) waliweka misingi ya shule mpya ya uchumi huria, ambayo ingekuja kuwa msingi wa imani za watu wa baadaye. Na hivyo kuundwa kwa Bitcoin.
+Ni hoja inayofanya kiungo na shule ya [Austria](https://planb.academy/resources/glossary/austrian-school) ya uchumi huria, iliyozaliwa katika mazingira yenye rutuba ya kiakili ya Vienna kabla ya Vita vya Kwanza vya Kidunia. Kwani ilikuwa ni katika muktadha huu ambapo wasomi kama vile Carl Menger (1840-1921), Ludwig von Mises (1883-1979) na Friedrich Hayek (1899-1992) waliweka misingi ya shule mpya ya uchumi huria, ambayo ingekuja kuwa msingi wa imani za watu wa baadaye. Na hivyo kuundwa kwa Bitcoin.
 
 
 
@@ -1228,14 +1228,14 @@ Kama Spinozist, Hayek anaeleza katika video kwamba “kwa kuwa mamlaka haya haya
 
 
 
-Hizi ni hoja za kisiasa na kiuchumi zilizotolewa na cypherpunks wa mwanzo, Eric Hughes (1953–) katika Ilani ya Cypherpunk, au Timothy May (1951–2018) katika Crypto Anarchist Manifesto, ambazo baadaye zilirudiwa na Satoshi Nakamoto.
+Hizi ni hoja za kisiasa na kiuchumi zilizotolewa na [cypherpunks](https://planb.academy/resources/glossary/cypherpunks) wa mwanzo, Eric Hughes (1953–) katika Ilani ya Cypherpunk, au Timothy May (1951–2018) katika Crypto Anarchist Manifesto, ambazo baadaye zilirudiwa na Satoshi Nakamoto.
 
 
 ![image](assets/sw/055.webp)
 
 
 
-Hasa alipoandika kichwa cha habari cha Times cha Januari 3, 2009 katika msingi wa coinbase wa Genesis block ya Blockchain Bitcoin ili kuonyesha mwisho wa enzi moja, Keynesian, na mwanzo wa nyingine kwa matarajio ya huria, anarchist na libertarian.
+Hasa alipoandika kichwa cha habari cha Times cha Januari 3, 2009 katika msingi wa [coinbase](https://planb.academy/resources/glossary/coinbase-transaction) wa [Genesis block](https://planb.academy/resources/glossary/genesis-block) ya [Blockchain](https://planb.academy/resources/glossary/blockchain) Bitcoin ili kuonyesha mwisho wa enzi moja, Keynesian, na mwanzo wa nyingine kwa matarajio ya huria, anarchist na libertarian.
 
 
 
@@ -1243,7 +1243,7 @@ Hasa alipoandika kichwa cha habari cha Times cha Januari 3, 2009 katika msingi w
 
 
 
-White Paper iliyochapishwa tarehe 31 Oktoba 2008 inawasilisha Bitcoin kama njia ya kubadilishana thamani kwenye Mtandao bila wahusika wengine wanaoaminika, kwa kuzingatia protocol iliyogatuliwa. Mapinduzi ya "Copernican" ambayo hatimaye yatawezesha watu kurejesha uwezo wao wa kutenda, yaani uhuru wao, uhuru wao wa kufanya biashara, haki yao ya kumiliki mali na heshima kwa faragha yao.
+[White Paper](https://planb.academy/resources/glossary/white-paper) iliyochapishwa tarehe 31 Oktoba 2008 inawasilisha Bitcoin kama njia ya kubadilishana thamani kwenye Mtandao bila wahusika wengine wanaoaminika, kwa kuzingatia protocol iliyogatuliwa. Mapinduzi ya "Copernican" ambayo hatimaye yatawezesha watu kurejesha uwezo wao wa kutenda, yaani uhuru wao, uhuru wao wa kufanya biashara, haki yao ya kumiliki mali na heshima kwa faragha yao.
 
 
 Kwa nini? Kwa sababu Bitcoin huturuhusu kujiondoa kutoka kwa utumwa huu kwa njia ya Spinoza, kwa sababu ya sababu, kwa sababu ya lugha ya Galileo ya hisabati. Na, kama Hayek anapendekeza, bila serikali kuwa na uwezo wa kuipinga. Na kwa amani, bila shuruti au kugeuza imani.

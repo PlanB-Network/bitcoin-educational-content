@@ -1,0 +1,11 @@
+question: Welche Devisenplattform, die mit Mt. Gox konkurriert, wurde im Dezember 2010 von David François gegründet?
+answer: Bitcoin-Zentral
+wrong_answers:
+  - Paymium
+  - Britcoin
+  - Bitomat
+explanation: |
+ Bitcoin-Central war eine französische Plattform, die zunächst Liberty Reserve Dollar und Euro sowie herkömmliche Euro-Überweisungen akzeptierte. Ihr Quellcode wurde
+ unter einer Open-Source-Lizenz (AGPL) veröffentlicht. Die Plattform fusionierte später mit Paymium, einem von Gonzague Grandval, Pierre Noizat und David François im Juni 2011 mitbegründeten Unternehmen, das sich ursprünglich auf die Abwicklung von Überweisungen konzentrierte
+ François im Juni 2011 gegründet wurde und sich ursprünglich auf den Zahlungsverkehrsbereich konzentrierte.
+reviewed: true

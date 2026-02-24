@@ -82,7 +82,7 @@ Spremni da otkrijete tehničke mehanizme Lightning Network-a? Hajde da zaronimo!
 
 Dobrodošli na kurs LNP201, koji ima za cilj da objasni tehničko funkcionisanje Lajtning mreže.
 
-Lajtning mreža je mreža platnih kanala izgrađena na Bitkojn protokolu, s ciljem omogućavanja brzih transakcija sa niskim naknada. Omogućava kreiranje platnih kanala između učesnika, unutar kojih se transakcije mogu obavljati gotovo trenutno i uz minimalne naknade, bez potrebe za pojedinačnim beleženjem svake transakcije na blokčejnu. Tako, Lajtning mreža nastoji poboljšati skalabilnost Bitkojna i učiniti ga upotrebljivim za plaćanja male vrednosti.
+[Lajtning mreža](https://planb.academy/resources/glossary/lightning-network) je mreža [platnih kanala](https://planb.academy/resources/glossary/payment-channel) izgrađena na Bitkojn protokolu, s ciljem omogućavanja brzih transakcija sa niskim naknada. Omogućava kreiranje platnih kanala između učesnika, unutar kojih se transakcije mogu obavljati gotovo trenutno i uz minimalne naknade, bez potrebe za pojedinačnim beleženjem svake transakcije na [blokčejnu](https://planb.academy/resources/glossary/blockchain). Tako, Lajtning mreža nastoji poboljšati [skalabilnost](https://planb.academy/resources/glossary/scalability) Bitkojna i učiniti ga upotrebljivim za plaćanja male vrednosti.
 
 Pre nego što istražimo aspekt "mreže", važno je razumeti koncept **kanala plaćanja** na Lajtningu, kako funkcioniše i njegove specifičnosti. Ovo je tema prvog poglavlja.
 
@@ -92,7 +92,7 @@ Kanal plaćanja omogućava dvema stranama, ovde **Alisa** i **Bob**, da razmene 
 
 ![LNP201](assets/en/001.webp)
 
-U našem primeru, Alisa ima 100.000 satošija na svojoj strani kanala, a Bob ima 30.000, što ukupno čini 130.000 satošija, što predstavlja **kapacitet kanala**.
+U našem primeru, Alisa ima 100.000 [satošija](https://planb.academy/resources/glossary/satoshi-sat) na svojoj strani kanala, a Bob ima 30.000, što ukupno čini 130.000 satošija, što predstavlja **[kapacitet kanala](https://planb.academy/resources/glossary/lightning-channel-capacity)**.
 
 **Ali šta je Satoši?**
 
@@ -143,7 +143,7 @@ Ovo poglavlje je pomalo posebno jer neće biti direktno posvećeno Lajtningu, ve
 
 ### Bitkojn Adrese, Privatni Ključevi i Javni Ključevi
 
-Bitkon adresa je niz karaktera izvedenih iz **javnog ključa**, koji se sam izračunava iz **privatnog ključa**. Kao što sigurno znate, koristi se za zaključavanje bitkojna, što je ekvivalentno primanju bitkojna u naš novčanik.
+Bitkon adresa je niz karaktera izvedenih iz **[javnog ključa](https://planb.academy/resources/glossary/public-key)**, koji se sam izračunava iz **[privatnog ključa](https://planb.academy/resources/glossary/private-key)**. Kao što sigurno znate, koristi se za zaključavanje bitkojna, što je ekvivalentno primanju bitkojna u naš novčanik.
 
 Privatni ključ je tajni element koji **nikada ne trebate deliti**, dok se javni ključ i adresa mogu deliti bez rizika po bezbednost (njihovo otkrivanje predstavlja rizik samo za vašu privatnost). Ovde je uobičajena reprezentacija koju ćemo usvojiti tokom ove obuke:
 
@@ -154,15 +154,15 @@ Privatni ključ je tajni element koji **nikada ne trebate deliti**, dok se javni
 
 ### Bitkojn Transakcije: Slanje Sredstava i Skripte
 
-Na Bitkojnu, transakcija uključuje slanje sredstava sa jedne adrese na drugu. Uzmimo primer gde Alisa šalje 0.002 Bitkojna Bobu. Alisa koristi privatni ključ povezan sa njenom adresom da **potpiše** transakciju, čime dokazuje da zaista može da potroši ta sredstva. Ali šta se tačno dešava tokom ove transakcije? Sredstva na Bitkojn adresi su zaključana **skriptom**, vrstom mini-programa koja određuje uslove za trošenje sredstava.
+Na Bitkojnu, transakcija uključuje slanje sredstava sa jedne adrese na drugu. Uzmimo primer gde Alisa šalje 0.002 Bitkojna Bobu. Alisa koristi privatni ključ povezan sa njenom adresom da **potpiše** transakciju, čime dokazuje da zaista može da potroši ta sredstva. Ali šta se tačno dešava tokom ove transakcije? Sredstva na Bitkojn adresi su zaključana **[skriptom](https://planb.academy/resources/glossary/script)**, vrstom mini-programa koja određuje uslove za trošenje sredstava.
 
-Najčešće skripta zahteva potpis sa privatnim ključem povezanim sa adresom. Kada Alisa potpiše transakciju svojim privatnim ključem, ona **otključava skriptu** koja blokira sredstva, i tada se ona mogu preneti. Prenos sredstava uključuje dodavanje nove skripte ovim sredstvima, koja propisuje da će za njihovo trošenje ovog puta biti potreban potpis privatnog ključa **Boba**.
+Najčešće skripta zahteva [potpis](https://planb.academy/resources/glossary/digital-signature) sa privatnim ključem povezanim sa adresom. Kada Alisa potpiše transakciju svojim privatnim ključem, ona **otključava skriptu** koja blokira sredstva, i tada se ona mogu preneti. Prenos sredstava uključuje dodavanje nove skripte ovim sredstvima, koja propisuje da će za njihovo trošenje ovog puta biti potreban potpis privatnog ključa **Boba**.
 
 ![LNP201](assets/en/005.webp)
 
 ### UTXOs: Neutrošeni Izlazi Transakcija
 
-Na Bitkojnu, ono što mi zapravo razmenjujemo nisu direktno bitkojni, već **[UTXO](https://planb.academy/resources/glossary/utxo)** (_Unspent Transaction Outputs_), što znači "nepotrošeni izlazi transakcije".
+Na Bitkojnu, ono što mi zapravo razmenjujemo nisu direktno bitkojni, već **UTXO** (_Unspent Transaction Outputs_), što znači "nepotrošeni izlazi transakcije".
 
 UTXO je deo bitkojna koji može imati bilo koju vrednost, na primer, **2,000 bitkojna**, **8 bitkojna**, ili čak **8,000 satsa**. Svaki UTXO je zaključan skriptom, i da bi se potrošio, mora se ispuniti uslov skripte, što je često potpis sa privatnim ključem koji je povezan sa primajućom adresom.
 
@@ -221,9 +221,9 @@ Kao što smo videli u prvom poglavlju, **kanal plaćanja** na Lightning mreži m
 Važno je jasno razlikovati različite nivoe razmene na Lajtnign mreži:
 
 
-- **Komunikacija od tačke do tačke (Lajtning protokol)**: Ovo su poruke koje Lajtning čvorovi šalju jedni drugima radi komunikacije. Ove poruke ćemo predstavljati isprekidanim crnim linijama u našim dijagramima.
+- **Komunikacija [od tačke do tačke](https://planb.academy/resources/glossary/peertopeer-p2p) (Lajtning protokol)**: Ovo su poruke koje [Lajtning čvorovi](https://planb.academy/resources/glossary/lightning-node) šalju jedni drugima radi komunikacije. Ove poruke ćemo predstavljati isprekidanim crnim linijama u našim dijagramima.
 - **Kanali plaćanja (Lajtning protokol)**: Ovo su putevi za razmenu sredstava na Lajtning mreži, koje ćemo predstaviti punim crnim linijama.
-- **Bitkojn transakcije (Bitkojn protokol)**: Ovo su transakcije izvršene na blokčejnu, koje ćemo predstaviti narandžastim linijama.
+- **Bitkojn transakcije (Bitkojn protokol)**: Ovo su transakcije izvršene [na blokčejnu](https://planb.academy/resources/glossary/onchain), koje ćemo predstaviti narandžastim linijama.
 
 ![LNP201](assets/en/010.webp)
 
@@ -263,7 +263,7 @@ Vredi napomenuti da Lajtning čvor može komunicirati putem P2P protokola bez ot
 
 ### Kada je kanal otvoren?
 
-Kanal se smatra otvorenim kada je transakcija depozita uključena u Bitkojn blok i dostigne određeni broj potvrda (broj sledećih blokova).
+Kanal se smatra otvorenim kada je transakcija depozita uključena u Bitkojn [blok](https://planb.academy/resources/glossary/block) i dostigne određeni broj [potvrda](https://planb.academy/resources/glossary/confirmation) (broj sledećih blokova).
 
 **Šta treba da zapamtite iz ovog poglavlja?**
 
@@ -296,7 +296,7 @@ U trenutku otvaranja kanala, Alisa je deponovala **130,000 satošija** na višep
 
 ### Neobjavljene transakcije: Obavezujuće transakcije
 
-Kada Alisa izvrši transakciju u kanalu da pošalje sredstva Bobu, kreira se nova Bitkojn transakcija kako bi se odrazila ova promena u raspodeli sredstava. Ova transakcija, nazvana **Obavezujuća transakcija**, nije objavljena na blokčejnu, ali predstavlja novo stanje kanala nakon Lightning transakcije.
+Kada Alisa izvrši transakciju u kanalu da pošalje sredstva Bobu, kreira se nova Bitkojn transakcija kako bi se odrazila ova promena u raspodeli sredstava. Ova transakcija, nazvana **[Obavezujuća transakcija](https://planb.academy/resources/glossary/commitment-transaction)**, nije objavljena na blokčejnu, ali predstavlja novo stanje kanala nakon Lightning transakcije.
 
 Hajde da uzmemo primer gde Alisa šalje 30.000 satošija Bobu:
 
@@ -376,10 +376,10 @@ Još gore, Alisa bi mogla objaviti prvu transakciju povlačenja, onu pre nego š
 Da bi se sprečila ovakva vrsta varanja od strane Alise, na Lajtning mreži, **sigurnosni mehanizmi** su dodati obavezujućim transakcijama:
 
 
-- **Vremenska zabrana trošenja**: Svaka Obavezujuća transakcija uključuje vremensku zabranu trošenja za Alisina sredstva. Vremenska zabrana trošenja je primitiv Pametnih ugovora koji postavlja vremenski uslov koji mora biti ispunjen da bi transakcija bila dodata u blok. To znači da Alisa ne može povratiti svoja sredstva dok ne prođe određeni broj blokova ako objavi jednu od Obavezujućih transakcija. Ova vremenska zabrana trošenja počinje da se primenjuje od potvrde Obavezujuće transakcije na blokčejnu. Njeno trajanje je generalno proporcionalno veličini kanala, ali se može i ručno konfigurisati.
+- **Vremenska zabrana trošenja**: Svaka Obavezujuća transakcija uključuje [vremensku zabranu trošenja](https://planb.academy/resources/glossary/timelock) za Alisina sredstva. Vremenska zabrana trošenja je primitiv [Pametnih ugovora](https://planb.academy/resources/glossary/smart-contract) koji postavlja vremenski uslov koji mora biti ispunjen da bi transakcija bila dodata u blok. To znači da Alisa ne može povratiti svoja sredstva dok ne prođe određeni broj blokova ako objavi jednu od Obavezujućih transakcija. Ova vremenska zabrana trošenja počinje da se primenjuje od potvrde Obavezujuće transakcije na blokčejnu. Njeno trajanje je generalno proporcionalno veličini kanala, ali se može i ručno konfigurisati.
 - **Ključ za opoziv**: Sredstva Alise takođe može odmah potrošiti Bob ako poseduje **ključ za opoziv**. Ovaj ključ se sastoji od tajne koju drži Alisa i tajne koju drži Bob. Imajte na umu da je ova tajna različita za svaku Obavezujuću transakciju.
 
-Zahvaljujući ova 2 kombinovana mehanizma, Bob ima vremena da otkrije Alisin pokušaj prevare i da je kazni povlačenjem svog izlaza pomoću ključa za opoziv, što za Boba znači povratak svih sredstava kanala. Naša nova Obavezujuća transakcija će sada izgledati ovako:
+Zahvaljujući ova 2 kombinovana mehanizma, Bob ima vremena da otkrije Alisin pokušaj prevare i da je kazni povlačenjem svog [izlaza](https://planb.academy/resources/glossary/output) pomoću ključa za opoziv, što za Boba znači povratak svih sredstava kanala. Naša nova Obavezujuća transakcija će sada izgledati ovako:
 
 ![LNP201](assets/en/025.webp)
 
@@ -391,7 +391,7 @@ Kada Alisa i Bob ažuriraju stanje kanala novom Lajtning transakcijom, oni unapr
 
 
 - Alisa i Bob imaju novu Obavezujuću transakciju koja predstavlja trenutnu raspodelu sredstava nakon Lajtning transakcije.
-- Svako ima tajnu onog drugog za prethodnu transakciju, što im omogućava da koriste ključ za opoziv samo ako jedan od njih pokuša da prevari objavljivanjem u mempoolovima Bitkojn čvorova one transakcije sa starim stanjem. Zaista, da bi se kaznila druga strana, neophodno je imati obe tajne i drugu Obavezujuću transakciju, koja uključuje potpisani ulaz. Bez ove transakcije, ključ za opoziv je beskoristan. Jedini način da se dobije ova transakcija je da se preuzme iz mempoolova (u transakcijama koje čekaju potvrdu) ili u potvrđenim transakcijama na Blokčejnu tokom perioda vremenskog zaključavanja, što dokazuje da druga strana pokušava da prevari, bilo namerno ili ne.
+- Svako ima tajnu onog drugog za prethodnu transakciju, što im omogućava da koriste ključ za opoziv samo ako jedan od njih pokuša da prevari objavljivanjem u [mempoolovima](https://planb.academy/resources/glossary/mempool) Bitkojn čvorova one transakcije sa starim stanjem. Zaista, da bi se kaznila druga strana, neophodno je imati obe tajne i drugu Obavezujuću transakciju, koja uključuje potpisani [ulaz](https://planb.academy/resources/glossary/input). Bez ove transakcije, ključ za opoziv je beskoristan. Jedini način da se dobije ova transakcija je da se preuzme iz mempoolova (u transakcijama koje čekaju potvrdu) ili u potvrđenim transakcijama na Blokčejnu tokom perioda vremenskog zaključavanja, što dokazuje da druga strana pokušava da prevari, bilo namerno ili ne.
 
 Hajde da uzmemo primer kako bismo dobro razumeli ovaj proces:
 
@@ -466,7 +466,7 @@ U **kooperativnom zatvaranju**, Alisa i Bob se dogovaraju da zatvore kanal. Evo 
 ![LNP201](assets/en/031.webp)
 
 
-- Alisa i Bob zajedno pregovaraju o naknadama za **završnu transakciju**. Ove naknade se obično izračunavaju na osnovu Bitkon naknada na tržištu u trenutku zatvaranja. Važno je napomenuti da **uvek osoba koja je otvorila kanal** (Alisa u našem primeru) plaća naknade za zatvaranje.
+- Alisa i Bob zajedno pregovaraju o [naknadama](https://planb.academy/resources/glossary/transaction-fees) za **završnu transakciju**. Ove naknade se obično izračunavaju na osnovu Bitkon naknada na tržištu u trenutku zatvaranja. Važno je napomenuti da **uvek osoba koja je otvorila kanal** (Alisa u našem primeru) plaća naknade za zatvaranje.
 - Oni kreiraju novu **završnu transakciju**. Ova transakcija podseća na Obavezujuću transakciju, ali bez vremenskih zaključavanja ili mehanizama opoziva, jer obe strane sarađuju i nema rizika od varanja. Ova kooperativna završna transakcija je stoga različita od Obavezujuće transakcije.
 
 Na primer, ako Alisa poseduje **100.000 satošija** a Bob **30.000 satošija**, završna transakcija će poslati **100.000 satošija** na Alisinu adresu i **30.000 satošija** na Bobovu adresu, bez vremenskih ograničenja. Kada obe strane potpišu ovu transakciju, Alisa je objavljuje. Kada transakcija bude potvrđena na Bitkojn blokčejnu, Lajtning kanal će biti zvanično zatvoren.
@@ -524,11 +524,11 @@ U narednim poglavljima, istražićemo Lajtning mrežu iz šire perspektive, foku
 
 ![video en](https://youtu.be/44oBdNdXtEQ)
 
-U ovom poglavlju ćemo istražiti kako uplate na Lajtning mrežu mogu stići do primaoca čak i ako nisu direktno povezani platnim kanalom. Lajtning je, zapravo, **mreža platnih kanala**, koja omogućava slanje sredstava udaljenom čvoru kroz kanale drugih učesnika. Otkrićemo kako se uplate usmeravaju kroz mrežu, kako se likvidnost kreće između kanala i kako se obračunavaju transakcione naknade.
+U ovom poglavlju ćemo istražiti kako uplate na Lajtning mrežu mogu stići do primaoca čak i ako nisu direktno povezani platnim kanalom. Lajtning je, zapravo, **mreža platnih kanala**, koja omogućava slanje sredstava udaljenom čvoru kroz kanale drugih učesnika. Otkrićemo kako se uplate usmeravaju kroz mrežu, kako se [likvidnost](https://planb.academy/resources/glossary/liquidity-lightning) kreće između kanala i kako se obračunavaju transakcione naknade.
 
 ### Mreža kanala plaćanja
 
-Na Lajtning mreži, transakcija odgovara transferu sredstava između dva čvora. Kao što je viđeno u prethodnim poglavljima, neophodno je otvoriti kanal sa nekim da bi se izvršile Lajtning transakcije. Ovaj kanal omogućava skoro beskonačan broj transakcija izvan baznog blokčejna pre nego što se zatvori kako bi se povratila sredstva na bazni blokčejn nivo. Međutim, ova metoda ima nedostatak jer zahteva direktan kanal sa drugom osobom za primanje ili slanje sredstava, što podrazumeva otvaranje transakcije i zatvaranje transakcije za svaki kanal. Ako planiram da izvršim veliki broj plaćanja sa ovom osobom, otvaranje i zatvaranje kanala postaje isplativo. Suprotno tome, ako mi je potrebno da izvršim samo nekoliko Lajtning transakcija, otvaranje direktnog kanala nije povoljno, jer bi me koštalo 2 bazne transakcije za ograničen broj transakcija izvan baznog blokčejna. Ovaj slučaj se može desiti, na primer, kada želim da platim Lajtningom kod trgovca bez planiranja povratka.
+Na Lajtning mreži, transakcija odgovara transferu sredstava između dva čvora. Kao što je viđeno u prethodnim poglavljima, neophodno je otvoriti kanal sa nekim da bi se izvršile Lajtning transakcije. Ovaj kanal omogućava skoro beskonačan broj transakcija [izvan baznog blokčejna](https://planb.academy/resources/glossary/offchain) pre nego što se zatvori kako bi se povratila sredstva na bazni blokčejn nivo. Međutim, ova metoda ima nedostatak jer zahteva direktan kanal sa drugom osobom za primanje ili slanje sredstava, što podrazumeva otvaranje transakcije i zatvaranje transakcije za svaki kanal. Ako planiram da izvršim veliki broj plaćanja sa ovom osobom, otvaranje i zatvaranje kanala postaje isplativo. Suprotno tome, ako mi je potrebno da izvršim samo nekoliko Lajtning transakcija, otvaranje direktnog kanala nije povoljno, jer bi me koštalo 2 bazne transakcije za ograničen broj transakcija izvan baznog blokčejna. Ovaj slučaj se može desiti, na primer, kada želim da platim Lajtningom kod trgovca bez planiranja povratka.
 
 Da bi rešio ovaj problem, Lajtning mreža omogućava usmeravanje plaćanja kroz nekoliko kanala i posredničkih čvorova, čime se omogućava transakcija bez direktnog kanala sa drugom osobom.
 
@@ -660,7 +660,7 @@ U ovom poglavlju smo istražili usmeravanje plaćanja na Lajtning mreži. Ali po
 
 ![video en](https://youtu.be/jI4nM297aHA)
 
-U ovom poglavlju ćemo otkriti kako Lajtning omogućava plaćanja da prolaze kroz posredničke čvorove bez potrebe za poverenjem u njih, zahvaljujući **[HTLC](https://planb.academy/resources/glossary/htlc)** (_Hashed Time-Locked Contracts_). Ovi pametni ugovori osiguravaju da će svaki posrednički čvor primiti sredstva iz svog kanala samo ako prosledi uplatu krajnjem primaocu, u suprotnom, uplata neće biti validirana.
+U ovom poglavlju ćemo otkriti kako Lajtning omogućava plaćanja da prolaze kroz posredničke čvorove bez potrebe za poverenjem u njih, zahvaljujući **HTLC** (_Hashed Time-Locked Contracts_). Ovi pametni ugovori osiguravaju da će svaki posrednički čvor primiti sredstva iz svog kanala samo ako prosledi uplatu krajnjem primaocu, u suprotnom, uplata neće biti validirana.
 
 Problem koji se javlja kod usmeravanja plaćanja je neophodno poverenje u posredničke čvorove, kao i među samim posredničkim čvorovima. Da bismo to ilustrovali, hajde da ponovo razmotrimo naš pojednostavljeni primer Lajtning mreže sa 3 čvora i 2 kanala:
 
@@ -690,7 +690,7 @@ Evo kako ovaj proces funkcioniše u našem primeru sa Alisom, Suzi i Bobom:
 
 ![LNP201](assets/en/048.webp)
 
-**Kreiranje tajne**: Bob generiše nasumičnu tajnu označenu kao _s_ (preimage), i izračunava njen Heš označen kao _r_ sa Heš funkcijom označenom kao _h_. Imamo:
+**Kreiranje tajne**: Bob generiše nasumičnu tajnu označenu kao _s_ (preimage), i izračunava njen Heš označen kao _r_ sa [Heš funkcijom](https://planb.academy/resources/glossary/hash-function) označenom kao _h_. Imamo:
 
 $$
 r = h(s)
@@ -803,7 +803,7 @@ Kao što smo videli, u Lajtningu, čvor koji šalje uplatu mora izračunati komp
 
 ### Ažuriranje Mrežne mape
 
-Da bi održali svoju mrežnu mapu ažurnom, čvorovi redovno razmenjuju poruke putem algoritma nazvanog "**_gossip_ (ogovaranje)**". Ovo je distribuirani algoritam koji se koristi za širenje informacija na epidemijski način do svih čvorova u mreži, što omogućava razmenu i sinhronizaciju globalnog stanja kanala u nekoliko komunikacionih ciklusa. Svaki čvor propagira informacije jednom ili više povezanih čvorova izabranih nasumično ili ne, a oni, zauzvrat, propagiraju informacije drugim susedima i tako dalje dok se ne postigne globalno sinhronizovano stanje.
+Da bi održali svoju mrežnu mapu ažurnom, čvorovi redovno razmenjuju poruke putem algoritma nazvanog "**_[gossip](https://planb.academy/resources/glossary/gossip)_ (ogovaranje)**". Ovo je distribuirani algoritam koji se koristi za širenje informacija na epidemijski način do svih čvorova u mreži, što omogućava razmenu i sinhronizaciju globalnog stanja kanala u nekoliko komunikacionih ciklusa. Svaki čvor propagira informacije jednom ili više povezanih čvorova izabranih nasumično ili ne, a oni, zauzvrat, propagiraju informacije drugim susedima i tako dalje dok se ne postigne globalno sinhronizovano stanje.
 
 Dve glavne poruke razmenjene između Lajtning čvorova su sledeće:
 
@@ -885,7 +885,7 @@ U narednom poglavlju, posebno ćemo proučiti funkcionisanje faktura, pored neki
 
 ![video en](https://youtu.be/XANzf1Qqp9I)
 
-U ovom poglavlju ćemo detaljnije razmotriti rad **faktura** u Lajtning mreži, odnosno zahteva za plaćanje koje čvor primalac šalje čvoru pošiljaocu. Cilj je razumeti kako izvršiti i primiti plaćanja na Lajtning mreži. Takođe ćemo diskutovati o dve alternative klasičnim fakturama: LNURL i Keysend.
+U ovom poglavlju ćemo detaljnije razmotriti rad **faktura** u Lajtning mreži, odnosno zahteva za plaćanje koje čvor primalac šalje čvoru pošiljaocu. Cilj je razumeti kako izvršiti i primiti plaćanja na Lajtning mreži. Takođe ćemo diskutovati o dve alternative klasičnim fakturama: [LNURL](https://planb.academy/resources/glossary/lnurl) i Keysend.
 
 ![LNP201](assets/en/068.webp)
 
@@ -969,7 +969,7 @@ Sadržaj fakture uključuje nekoliko informacija neophodnih za obradu plaćanja:
 - **Routing Hints**: Dodatne informacije koje pruža primalac kako bi pomogao pošiljaocu da optimizuje putanju plaćanja.
 - **Potpis**: Garantuje integritet fakture autentifikacijom svih informacija.
 
-Fakture se zatim kodiraju u **bech32**, istom formatu kao za Bitcoin SegWit adrese (format koji počinje sa `bc1`).
+Fakture se zatim kodiraju u **[bech32](https://planb.academy/resources/glossary/bech32-and-bech32m)**, istom formatu kao za Bitcoin [SegWit](https://planb.academy/resources/glossary/segwit) adrese (format koji počinje sa `bc1`).
 
 ### LNURL Povlačenje
 
@@ -1015,8 +1015,8 @@ U ovom poglavlju ćemo istražiti strategije za efikasno upravljanje likvidnoš�
 Postoje tri glavna korisnička profila na Lajtningu, svaki sa specifičnim potrebama za likvidnošću:
 
 
-- **Platilac**: Ovo je onaj koji vrši plaćanja. Oni trebaju odlaznu likvidnost kako bi mogli preneti sredstva drugim korisnicima. Na primer, to može biti potrošač.
-- **Prodavac (ili Primilac uplata)**: Ovo je onaj koji prima uplate. Oni trebaju dolaznu likvidnost kako bi mogli prihvatiti uplate na svoj čvor. Na primer, ovo može biti preduzeće ili online prodavnica.
+- **Platilac**: Ovo je onaj koji vrši plaćanja. Oni trebaju [odlaznu likvidnost](https://planb.academy/resources/glossary/outbound-capacity) kako bi mogli preneti sredstva drugim korisnicima. Na primer, to može biti potrošač.
+- **Prodavac (ili Primilac uplata)**: Ovo je onaj koji prima uplate. Oni trebaju [dolaznu likvidnost](https://planb.academy/resources/glossary/inbound-capacity) kako bi mogli prihvatiti uplate na svoj čvor. Na primer, ovo može biti preduzeće ili online prodavnica.
 - **Usmeravač**: Međučvor, često specijalizovan za usmeravanje plaćanja, koji mora optimizovati svoju likvidnost u svakom kanalu kako bi usmerio što više plaćanja i zaradio naknade.
 
 Ovi profili očigledno nisu fiksni; korisnik može prelaziti između platioca i primaoca u zavisnosti od transakcija. Na primer, Bob može primiti svoju platu putem Lajtninga od svog poslodavca, što ga stavlja u poziciju "prodavca" koji zahteva dolaznu likvidnost. Nakon toga, ako želi da koristi svoju platu za kupovinu hrane, postaje "platioc" i tada mora imati odlaznu likvidnost.

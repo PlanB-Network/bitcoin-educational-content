@@ -806,7 +806,7 @@ Siiski, prantsuse ajaloolase sõnul tuleb kapitalismi tõusu paigutada laiemasse
 Süstemaatiline majandusseaduste uurimine algab kõrgkeskajal. Esimesed majandusteadlased on Pariisi Kooli skolastilised teoloogid. Neist esimene, kes kirjutas teadusliku traktaadi, mis oli täielikult pühendatud majandusteemale, on Nicolas Oresme (1325-1382). Umbes 1360. aastal koostas ta oma _Traktaadi raha päritolu, olemuse, seaduse ja muutuste kohta_, mis võtab kokku ja arendab oma aja skolastikute ideid.
 ![image](assets/et/049.webp)
 
-Tema rahandusanalüüsi keskmes on "muutuste" probleem rahas, see tähendab muutusi müntide metallisisalduses ja nende nimiväärtuses. Need muutused on toimunud aegade algusest peale ja on hästi dokumenteeritud nii antiikajast kui ka keskajast. Nende kõige nähtavam mõju on muuta rahaühiku ostujõudu, eriti seda vähendada. See on primitiivne inflatsiooni vorm, mida Oresme selgelt kurjaks peab.
+Tema rahandusanalüüsi keskmes on "muutuste" probleem rahas, see tähendab muutusi müntide metallisisalduses ja nende nimiväärtuses. Need muutused on toimunud aegade algusest peale ja on hästi dokumenteeritud nii antiikajast kui ka keskajast. Nende kõige nähtavam mõju on muuta rahaühiku ostujõudu, eriti seda vähendada. See on primitiivne [inflatsiooni](https://planb.academy/resources/glossary/inflation) vorm, mida Oresme selgelt kurjaks peab.
 
 Oresme tõstatab kohe keskse küsimuse: kas inflatsioon on kogukonnale kasulik? Ta vastab eitavalt, väites, et inflatsioon ei muuda raha vahetustehingute jaoks ei kasulikumaks ega vähem kasulikuks. Majandus võib toimida hästi sõltumata hinnatasemest ja seega sõltumata nominaalsest rahapakkumisest.
 Kuid kui see on nii, tekib ilmselgelt veel üks küsimus: miks siis raha väärtuse muutused üldse eksisteerivad? Ja eriti, miks püüelda rahapakkumise suurendamise poole? Oresme vastab, et neil muutustel ei ole kogukonna erinevatele liikmetele samu tagajärgi. Need toovad kasu teatud inimestele teiste arvelt. Raha väärtuse muutuste võitjatel on materiaalne huvi neid rakendada. Üldiselt on need võitjad võimul olevad inimesed. Oresme kirjutab:
@@ -972,7 +972,7 @@ Pole vaja tõestada, et iga üksikisik on ainus, kes suudab kõige kasulikumalt 
 
 Siin Turgot suuresti ette näeb Mises'i ja Hayeki argumenti majandusliku arvutuse võimatuse kohta sotsialistlikus majandussüsteemis.
 
-Pühendades peatüki "Turgot'i Hiilgusele", rõhutab Murray Rothbard oma majandusajaloos Austria perspektiivist, et "Turgot'i mõju järgnevale majandusmõttele oli tõsiselt piiratud (...) järgneva müüdiga, et Adam Smith oli poliitilise ökonoomia rajaja." Ja ta lisab, "see oli prantslane J.B. Say, ametlikult Smithi järgija, kellele Turgot lõpuks kõige rohkem mõju avaldas, eriti oma kasulikkuse väärtuse teooriaga."
+Pühendades peatüki "Turgot'i Hiilgusele", rõhutab Murray Rothbard oma majandusajaloos [Austria](https://planb.academy/resources/glossary/austrian-school) perspektiivist, et "Turgot'i mõju järgnevale majandusmõttele oli tõsiselt piiratud (...) järgneva müüdiga, et Adam Smith oli poliitilise ökonoomia rajaja." Ja ta lisab, "see oli prantslane J.B. Say, ametlikult Smithi järgija, kellele Turgot lõpuks kõige rohkem mõju avaldas, eriti oma kasulikkuse väärtuse teooriaga."
 
 ### Condillac'i Meistriteos
 
@@ -1518,7 +1518,7 @@ Ta kirjutab:
 Hayeki jaoks tuleneb turumajanduse varasem ebastabiilsus asjaolust, et turumehhanismide kõige olulisem regulaator, nimelt raha, ei saanud ise olla turuprotsessi toode.
 
 ![image](assets/et/101.webp)
-Hayek uskus, et eraomanduses olevate valuutade vaba turg viiks suurema rahalise stabiilsuseni. Peaaegu 50 aastat hiljem kehastab krüptoraha nagu Bitcoin Hayeki konkurentsivõimelist visiooni, pakkudes detsentraliseeritud alternatiivi keskpankade monopolistlikule süsteemile. Bitcoin, mille emiteerimislimiit on 21 miljonit ühikut, on garantii inflatsiooni ja regulaatorite meelevaldsuse vastu.
+Hayek uskus, et eraomanduses olevate valuutade vaba turg viiks suurema rahalise stabiilsuseni. Peaaegu 50 aastat hiljem kehastab [krüptoraha](https://planb.academy/resources/glossary/cryptocurrency) nagu Bitcoin Hayeki konkurentsivõimelist visiooni, pakkudes detsentraliseeritud alternatiivi keskpankade monopolistlikule süsteemile. Bitcoin, mille emiteerimislimiit on 21 miljonit ühikut, on garantii inflatsiooni ja regulaatorite meelevaldsuse vastu.
 
 
 ## Järeldus: ideede jõud

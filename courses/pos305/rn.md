@@ -74,7 +74,7 @@ Inyuma y’amajambo Nicolas yavuze, igihe co gutangura kwubaka carashitse. Ibiko
 Open source bisobanura iki, kandi ni igiki kija muri uwo mugambi?
 
 
-FOSS ni ijambo risobanura Porogaramu y’Ubuntu n’Ifunguye. Iryo rya mbere ryerekeza ku majambo yemerera umuntu wese gukopa, guhindura, mbere no gukwiragiza amaverisiyo (mbere no kugira ngo aronke inyungu) y’iyo porogarama. Ivyo vya nyuma vyerekeye gusangira ku mugaragaro kode y’inkomoko, guhimiriza abantu bose gutanga umusanzu no kuyinoza.
+[FOSS](https://planb.academy/resources/glossary/foss) ni ijambo risobanura Porogaramu y’Ubuntu n’Ifunguye. Iryo rya mbere ryerekeza ku majambo yemerera umuntu wese gukopa, guhindura, mbere no gukwiragiza amaverisiyo (mbere no kugira ngo aronke inyungu) y’iyo porogarama. Ivyo vya nyuma vyerekeye gusangira ku mugaragaro kode y’inkomoko, guhimiriza abantu bose gutanga umusanzu no kuyinoza.
 
 Ivyo bikwegera abakoresha bazi utuntu n’utundi bafise igishika co gutanga umusanzu kuri porogarama bamaze gukoresha kandi bagakuramwo agaciro, amaherezo bikaba vyerekana ko baroraniwe mu kwemera kuruta porogarama z’abanyagihugu. Bihuye n’inyifato runtu ya Bitcoin ivuga ko “amakuru yipfuza kuba ataco amaze.” Bihuza abantu bafise urukundo rwinshi bagakora umuryango kandi biraryoshe cane. Cokimwe na Bitcoin, FOSS ntaco ishobora gukora.
 
@@ -128,7 +128,7 @@ Ivyo bizotangura inyuma yo kuraba intangamarara “Uko Bitcoin na Blockchain bik
 :::id ya videwo = c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
 
-Ico gikorwa gisaba abantu n’imiburiburi icenda. Iyi nyigisho igamije gutanga ugutahura kw’umubiri kw’ingene Bitcoin ikora. Mu gukina uruhara rumwe rumwe mu rubuga, uzogira uburyo bwo kwiga bujanye n’ugukorana n’abandi kandi bugakina. Ivyo bikorwa ntibirimwo Lightning Network.
+Ico gikorwa gisaba abantu n’imiburiburi icenda. Iyi nyigisho igamije gutanga ugutahura kw’umubiri kw’ingene Bitcoin ikora. Mu gukina uruhara rumwe rumwe mu rubuga, uzogira uburyo bwo kwiga bujanye n’ugukorana n’abandi kandi bugakina. Ivyo bikorwa ntibirimwo [Lightning Network](https://planb.academy/resources/glossary/lightning-network).
 
 
 ### Akarorero: Bisaba abantu 9 / 11
@@ -181,7 +181,7 @@ Abaguzi bagura ikintu mw’iduka bafise Bitcoin.
 - Imwe muri izo mudasobwa 9 irafise inyandiko yuzuye y’amateka y’ibikorwa vyose vya kera vyigeze gukorwa (gutyo ni uburinganire butagiramwo uburyarya), hamwe n’amategeko:
   - Genzura ko ubucuruzi bwashizweko umukono neza (urufunguzo rujanye n'urufunguzo)
   - Gutangaza no kwakira amafaranga y’agaciro ku bagenzi bawe bo mu rubuga, guta ayatagira akamaro (harimwo n’ayo yose agerageza gukoresha amafaranga amwe amwe incuro zibiri)
-- Guhindura/Kwongerako amakuru mu bihe bitandukanye n’amafaranga mashasha yaronswe na mudasobwa “y’imburakimazi” igihe cose ibirimwo vyose bifise akamaro (iciyumviro: turiko turirengagiza, ubu, igice ca Proof of Work kuri ivyo vyose, kugira ngo vyorohe), ahandi ho ivyo ubihebe maze ukomeze nk’uko vyari kera gushika mudasobwa “imburakimazi” ikurikira yohereje ivugurura .
+- Guhindura/Kwongerako amakuru mu bihe bitandukanye n’amafaranga mashasha yaronswe na mudasobwa “y’imburakimazi” igihe cose ibirimwo vyose bifise akamaro (iciyumviro: turiko turirengagiza, ubu, igice ca [Proof of Work](https://planb.academy/resources/glossary/proof-of-work) kuri ivyo vyose, kugira ngo vyorohe), ahandi ho ivyo ubihebe maze ukomeze nk’uko vyari kera gushika mudasobwa “imburakimazi” ikurikira yohereje ivugurura .
   - Amahera akwiye yarahembwa iyo ibirimwo vyari bibereye.
 - Gukina urutonde rw'ibintu vyabaye:
   - Umukiriya- asuzumye iduka kuri internet akabona ikintu c’amadolari 25 ashaka, akamenyesha umucuruzi ko ashaka kugura
@@ -234,8 +234,8 @@ Sigura amajambo nyamukuru akurikira yashizwemwo mu gice c’imbere:
 
 
 - Urudodo
-- Mempool
-- Intumbero y'ingorane
+- [Mempool](https://planb.academy/resources/glossary/mempool)
+- Intumbero y'[ingorane](https://planb.academy/resources/glossary/difficulty)
 - Uruzitiro
 
 
@@ -573,7 +573,7 @@ Muri iki gice, mwarize:
 ### Ni igiki kijanye n’uguhingura imfunguruzo za Bitcoin?
 
 
-Amasakoshi ya Bitcoin, iyo aremwe, akora ico bita "seed". Mu ntumbero ya nyuma, wararemye "seed", Urutonde rw'amajambo yavutse imbere ruzwi kandi nk'amajambo ya Mnemonic. seed ikoreshwa mu gukuraho imfunguruzo za Bitcoin kandi ikoreshwa mu kohereza canke kwakira Bitcoin. Amajambo ya seed ntashobora kwigera asangizwa n’abandi canke abo mu runganwe rwawe batizigira.
+Amasakoshi ya Bitcoin, iyo aremwe, akora ico bita "[seed](https://planb.academy/resources/glossary/seed)". Mu ntumbero ya nyuma, wararemye "seed", Urutonde rw'amajambo yavutse imbere ruzwi kandi nk'amajambo ya Mnemonic. seed ikoreshwa mu gukuraho imfunguruzo za Bitcoin kandi ikoreshwa mu kohereza canke kwakira Bitcoin. Amajambo ya seed ntashobora kwigera asangizwa n’abandi canke abo mu runganwe rwawe batizigira.
 
 
 Igihugu ca seed gikorwa hakurikijwe ingingo ngenderwako y'inganda izwi kw'izina rya "Hierarchical Deterministic" (HD).
@@ -596,7 +596,7 @@ Address iva ku rufunguzo rwa bose biciye ku “buryo bwo gukora hashing.” Arik
 
 
 
-- Amaderesi atangura na `bc1...` ariko aragenda buhoro buhoro aja mu maderesi asanzwe cane. Ivyo bizwi kw’izina rya (akavukire) Aderesi za SegWit. Ivyo bitanga urutonde rwiza rw’amahera kuruta ayandi Maderesi yavuzwe. Amaderesi y'imvukira SegWit akoresha ubuhinga bwa Bech32 kandi yemera gusa inyuguti ntoya.
+- Amaderesi atangura na `bc1...` ariko aragenda buhoro buhoro aja mu maderesi asanzwe cane. Ivyo bizwi kw’izina rya (akavukire) Aderesi za [SegWit](https://planb.academy/resources/glossary/segwit). Ivyo bitanga urutonde rwiza rw’amahera kuruta ayandi Maderesi yavuzwe. Amaderesi y'imvukira SegWit akoresha ubuhinga bwa Bech32 kandi yemera gusa inyuguti ntoya.
 
 
 
@@ -618,7 +618,7 @@ Imfunguruzo za bose ntizikoreshwa cane mu bikorwa muri iki gihe. Igihe kirenze, 
 
 
 
-- Ariko rero, amasakoshi ya HD akoresha uburyo butandukanye. `xpub...`, `ypub...` canke `zpub...` vyitwa imfunguruzo za bose zagutse, canke xpubs. Izo mfunguruzo zikoreshwa mu gukura imfunguruzo nyinshi za bose nk'igice ca HD Wallet. Nk’uko xpub yawe ifise amakuru y’amateka yawe yose, bisobanura amafaranga yawe ya kera n’ayo muri kazoza, ntukigere ubisangira n’abantu utizigira.
+- Ariko rero, amasakoshi ya HD akoresha uburyo butandukanye. `xpub...`, `ypub...` canke `zpub...` vyitwa imfunguruzo za bose zagutse, canke [xpubs](https://planb.academy/resources/glossary/xpub). Izo mfunguruzo zikoreshwa mu gukura imfunguruzo nyinshi za bose nk'igice ca HD Wallet. Nk’uko xpub yawe ifise amakuru y’amateka yawe yose, bisobanura amafaranga yawe ya kera n’ayo muri kazoza, ntukigere ubisangira n’abantu utizigira.
 
 
 ### Incamake y'ubuhinga
@@ -670,7 +670,7 @@ Hot wallets ni uburyo bwiza bwo gukorana na Bitcoin biciye ku mbuga ngurukanabum
 Abantu ku giti cabo bimurira Bitcoin yabo mu Cold Wallet kuko ishobora gutandukanya imfunguruzo z’ibanga kuri internet, gutyo ikabakingira ibintu bishobora kubatera ubwoba kuri internet. Gukuraho uruja n’uruza rwa internet mu nzira y’ubuhinga bigabanya ingorane z’ubuhinga butari bwiza, ubuhinga bw’ubutasi, n’uguhindura SIM. Ububiko bwa Cold bwemerwa ko buruta ububiko bwa Hot ku bijanye n’umutekano n’ukwigenga, igihe cose hafashwe ingingo zihagije kugira ngo umuntu ntatakaze imfunguruzo z’ibanga za Bitcoin. Ububiko bwa Cold burabereye cane ku bipimo vyinshi vya Bitcoin, bitagenewe gukoreshwa kenshi kubera ukuntu Wallet igoranye.
 
 
-Hari uburyo butandukanye bwo kubika imfunguruzo za Bitcoin mu bubiko bwa Cold, kuva ku masakoshi y’impapuro gushika ku masakoshi y’ubwonko, ku masakoshi y’ibikoresho, canke, kuva mu ntango, dosiye ya Wallet. Ivyuma vyinshi bikoresha BIP 39 gushika generate ijambo seed. Ariko rero, muri porogarama ya Bitcoin core, nta n’umwe yemeranya ku bijanye n’ingene yokoreshwa. Porogaramu ya Bitcoin core izoguma generate dosiye ya Wallet.dat, ukeneye kubika ahantu hatagira umurongo.
+Hari uburyo butandukanye bwo kubika imfunguruzo za Bitcoin mu bubiko bwa Cold, kuva ku masakoshi y’impapuro gushika ku masakoshi y’ubwonko, ku masakoshi y’ibikoresho, canke, kuva mu ntango, dosiye ya Wallet. Ivyuma vyinshi bikoresha [BIP](https://planb.academy/resources/glossary/bip) 39 gushika generate ijambo seed. Ariko rero, muri porogarama ya Bitcoin core, nta n’umwe yemeranya ku bijanye n’ingene yokoreshwa. Porogaramu ya Bitcoin core izoguma generate dosiye ya Wallet.dat, ukeneye kubika ahantu hatagira umurongo.
 
 
 ### Incamake y'ubuhinga
@@ -717,7 +717,7 @@ BTCPay Server igizwe n'ibi bikurikira bimenyerewe Wallet:
 - Gusubira gupima
 - Gukuraho ukwishyura
 - Ivyo kwishura
-- PSBT
+- [PSBT](https://planb.academy/resources/glossary/psbt)
 - Amagenamiterere rusangi
 
 
@@ -732,8 +732,8 @@ Abarongozi barashobora kubona amafaranga yinjira n’asohoka ya On-Chain Wallet 
 | ----------------- | ----------------------------------------------- |
 | Porogaramu        | Ubwishyu bwakiriwe binyuze kuri fagitire yakozwe na porogaramu |
 | Fagitire          | Ubwishyu bwakiriwe binyuze kuri fagitire         |
-| Payjoin           | Ntabwo yishyuwe, igihe ntarengwa cya fagitire ntikirarangira |
-| Payjoin-yagaragajwe | UTXO yagaragajwe binyuze mu gitekerezo cya payjoin muri fagitire |
+| [Payjoin](https://planb.academy/resources/glossary/payjoin)           | Ntabwo yishyuwe, igihe ntarengwa cya fagitire ntikirarangira |
+| Payjoin-yagaragajwe | [UTXO](https://planb.academy/resources/glossary/utxo) yagaragajwe binyuze mu gitekerezo cya payjoin muri fagitire |
 | Gusaba kwishyura  | Ubwishyu bwakiriwe binyuze mu gusaba kwishyura  |
 | Kwishyura         | Ubwishyu bwoherejwe binyuze mu kwishyura cyangwa gusubizwa |
 
@@ -822,7 +822,7 @@ Serveri ya BTCPay ishigikira BIP-329 ku bijanye n’ugucungera ibimenyetso. Iyo 
 Iyo ukanda kuri buto yakira muri BTCPay Server, itanga Address itakoreshejwe ishobora gukoreshwa mu kwakira amahera. Abarongozi barashobora kandi generate Address nshasha mu guhingura “Invoice” nshasha.
 
 
-BTCPay Server izokwama igusaba gukoresha generate Address ikurikira iriho kugira ngo ntusubire gukoresha Address. Amaze gukanda “generate ikurikira BTC Address iboneka,” Server ya BTCPay yarasohoye Address n’i QR nshasha. Iragufasha kandi gushiramwo Label kuri Address kugira ngo ushobore gucunga neza amaderesi yawe.
+BTCPay Server izokwama igusaba gukoresha generate Address ikurikira iriho kugira ngo ntusubire gukoresha Address. Amaze gukanda “generate ikurikira BTC Address iboneka,” Server ya BTCPay yarasohoye Address n’i QR nshasha. Iragufasha kandi gushiramwo [Label](https://planb.academy/resources/glossary/label) kuri Address kugira ngo ushobore gucunga neza amaderesi yawe.
 
 
 ![image](assets/en/018.webp)
@@ -1131,7 +1131,7 @@ Mu mahitamwo ya Lightning Wallet mu murongo w’ibikubiyemo w’ibubamfu, abaron
 #### Amakuru y'urudodo rw'imbere
 
 
-Abarongozi ba server bashobora gukanda ku makuru y'imbere kugira ngo babone uko server yabo imeze (Ku murongo/Ku murongo) n'urudodo rw'ihuriro rya Clearnet canke Tor.
+Abarongozi ba server bashobora gukanda ku makuru y'imbere kugira ngo babone uko server yabo imeze (Ku murongo/Ku murongo) n'urudodo rw'ihuriro rya Clearnet canke [Tor](https://planb.academy/resources/glossary/tor).
 
 
 ![image](assets/en/033.webp)

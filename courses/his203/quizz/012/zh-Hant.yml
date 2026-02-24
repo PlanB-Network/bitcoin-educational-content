@@ -1,0 +1,10 @@
+question: Mark Karpelès 在 2011 年 6 月 23 日轉移了多少比特幣來證明 Mt.
+answer: 424,242 個比特幣
+wrong_answers:
+  - 666 個比特幣
+  - 1,337 個比特幣
+  - 21,210 個比特幣
+explanation: |
+ 這大致是該公司當時擁有的比特幣數量。數字 42 是 H2G2 中「關於生命、宇宙和其他一切的偉大問題」的答案。
+ 的答案。
+reviewed: true

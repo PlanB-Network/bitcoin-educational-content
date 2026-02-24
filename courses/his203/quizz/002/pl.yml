@@ -1,0 +1,10 @@
+question: Jaki protokół uniemożliwił zamknięcie rynku Silk Road bezpośrednio przez władze?
+answer: Tor
+wrong_answers:
+  - I2P
+  - Freenet
+  - BitTorrent
+explanation: |
+ Tor, leksykalny skrót od The Onion Router, to protokół obsługujący globalną, zdecentralizowaną sieć komputerową typu overlay (powszechnie znaną jako darknet).
+ Umożliwia on hostowanie stron internetowych anonimowo i bez cenzury, dzięki czemu idealnie pasował do projektu Rossa Ulbrichta.
+reviewed: true

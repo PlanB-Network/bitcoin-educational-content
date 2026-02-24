@@ -802,7 +802,7 @@ Sin embargo, según el historiador francés, el surgimiento del capitalismo debe
 El estudio sistemático de las leyes económicas comienza en la Alta Edad Media. Los primeros economistas son los teólogos escolásticos de la Escuela de París. El primero de ellos en escribir un tratado científico enteramente dedicado a un tema económico es Nicolás Oresme (1325-1382). Alrededor de 1360, compuso su _Tratado sobre el Origen, Naturaleza, Ley y Alteraciones del Dinero_, que resume y desarrolla las ideas de los escolásticos de su tiempo.
 ![image](assets/es/049.webp)
 
-En el corazón de su análisis monetario yace el problema de las "mutaciones" del dinero, es decir, alteraciones en el contenido metálico de las monedas y su denominación. Estas alteraciones han ocurrido desde el amanecer de los tiempos y están bien documentadas tanto para la Antigüedad como para la Edad Media. Su efecto más visible es cambiar el poder adquisitivo de la unidad monetaria, especialmente para disminuirlo. Esta es una forma primitiva de inflación que Oresme claramente condena como un mal.
+En el corazón de su análisis monetario yace el problema de las "mutaciones" del dinero, es decir, alteraciones en el contenido metálico de las monedas y su denominación. Estas alteraciones han ocurrido desde el amanecer de los tiempos y están bien documentadas tanto para la Antigüedad como para la Edad Media. Su efecto más visible es cambiar el poder adquisitivo de la unidad monetaria, especialmente para disminuirlo. Esta es una forma primitiva de [inflación](https://planb.academy/resources/glossary/inflation) que Oresme claramente condena como un mal.
 
 Oresme plantea inmediatamente una pregunta central: ¿es beneficiosa la inflación para la comunidad? Responde de manera negativa, argumentando que la inflación no hace que el dinero sea más o menos útil para los intercambios. La economía puede funcionar bien independientemente del nivel de precios, y por lo tanto, independientemente de la oferta monetaria nominal.
 Pero si ese es el caso, surge obviamente otra pregunta: ¿por qué existen alteraciones de la moneda? Y en particular, ¿por qué buscar aumentar la oferta de dinero? Oresme responde que estas alteraciones no tienen las mismas consecuencias para diferentes miembros de la comunidad. Benefician a ciertas personas en detrimento de otras. Los ganadores de las alteraciones monetarias tienen un interés material en implementarlas. Generalmente, estos ganadores son los hombres en el poder. Oresme escribe:
@@ -967,7 +967,7 @@ Es innecesario probar que cada individuo es el único juez del uso más ventajos
 
 Aquí, Turgot anticipa en gran medida el argumento de Mises y Hayek sobre la imposibilidad de cualquier cálculo económico en un sistema económico socialista.
 
-Dedicando un capítulo a "El Brillo de Turgot", Murray Rothbard en su historia económica desde una perspectiva austriaca, enfatiza que "la influencia de Turgot en el pensamiento económico subsiguiente fue seriamente restringida (...) por el mito subsiguiente de que Adam Smith fue el fundador de la economía política". Y añade, "fue en el francés J.B. Say, oficialmente un seguidor de Smith, en quien Turgot finalmente tuvo la mayor influencia, particularmente su teoría del valor de utilidad".
+Dedicando un capítulo a "El Brillo de Turgot", Murray Rothbard en su historia económica desde una perspectiva [austriaca](https://planb.academy/resources/glossary/austrian-school), enfatiza que "la influencia de Turgot en el pensamiento económico subsiguiente fue seriamente restringida (...) por el mito subsiguiente de que Adam Smith fue el fundador de la economía política". Y añade, "fue en el francés J.B. Say, oficialmente un seguidor de Smith, en quien Turgot finalmente tuvo la mayor influencia, particularmente su teoría del valor de utilidad".
 
 ### La Obra Maestra de Condillac
 
@@ -1515,7 +1515,7 @@ En 1976, Hayek propuso una alternativa al monopolio del Estado sobre la creació
 Para Hayek, la inestabilidad pasada de la economía de mercado resulta del hecho de que el regulador más importante de los mecanismos de mercado, a saber, el dinero, no podía ser en sí mismo el producto de un proceso de mercado.
 
 ![image](assets/es/101.webp)
-Hayek creía que un mercado libre de monedas privadas conduciría a una mayor estabilidad monetaria. Casi 50 años después, una criptomoneda como Bitcoin encarna la visión competitiva de Hayek al ofrecer una alternativa descentralizada al sistema monopolístico de los bancos centrales. Bitcoin, con su límite de emisión de 21 millones de unidades, es una garantía contra la inflación y la arbitrariedad de los reguladores.
+Hayek creía que un mercado libre de monedas privadas conduciría a una mayor estabilidad monetaria. Casi 50 años después, una [criptomoneda](https://planb.academy/resources/glossary/cryptocurrency) como Bitcoin encarna la visión competitiva de Hayek al ofrecer una alternativa descentralizada al sistema monopolístico de los bancos centrales. Bitcoin, con su límite de emisión de 21 millones de unidades, es una garantía contra la inflación y la arbitrariedad de los reguladores.
 
 
 ## Conclusión: el poder de las ideas

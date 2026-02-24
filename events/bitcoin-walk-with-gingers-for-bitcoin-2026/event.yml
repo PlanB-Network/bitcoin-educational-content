@@ -1,0 +1,23 @@
+id: e4e808ee-98ed-4055-8e3b-9494f7597f08
+start_date: 2026-05-22 12:00:00
+end_date: 2026-05-22 13:00:00
+timezone: Europe/Dublin
+address_city_country: Dublin, Ireland
+address_line_2: Corkagh Park
+address_line_3: Naas Rd, Corkagh Demesne
+name: Bitcoin Walk with Gingers for Bitcoin 2026
+type: meetup
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: |
+  Join Gingers for Bitcoin for a relaxed walk around Corkagh Park to kick off the 2026 Bitcoin Ireland Conference. Meet at the south entrance at 13:00 for a one-hour walk before heading to the football fields for the conference tournament. This is a perfect opportunity to meet fellow bitcoiners, get some fresh air, and connect with attendees before the main event.
+language:
+  - en
+links:
+  website: https://www.satlantis.io/events/1513/Bitcoin-Walk-with-Gingers-for-Bitcoin-
+  replay_url: 
+  live_url: 
+tags:
+  - adoption
+  - use-case

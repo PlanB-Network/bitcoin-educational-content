@@ -1,0 +1,26 @@
+id: 6dfa389b-5389-4bda-a3e6-d828b1b9cb88
+start_date: 2026-07-11 22:00:00
+end_date: 2026-07-12 01:00:00
+timezone: America/New_York
+address_city_country: New York, USA
+address_line_2: 85 Washington Pl, New York, NY 10011, USA
+address_line_3: Pubkey
+name: Bitcoin en Español 2026
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: |
+  Bitcoin en Español is a conference giving voice to bitcoiners from Latin America and other regions doing incredible things with Bitcoin. The event welcomes everyone interested in learning, sharing, or connecting with like-minded people. It aims to inspire, connect, and grow the Spanish-speaking Bitcoin community.
+  
+  Warning: information may change. Booking and up-to-date information are on SATLANTIS.
+language:
+  - es
+links:
+  website: https://delgadosfuego.com
+  replay_url: 
+  live_url: 
+tags:
+  - adoption
+  - innovation
+  - use-case

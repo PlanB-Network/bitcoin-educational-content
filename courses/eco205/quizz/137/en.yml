@@ -1,0 +1,8 @@
+question: In the fractional reserve system described by Saifedean Ammous, what is the fundamental mechanism that allows the money supply to multiply?
+answer: Banks allow customers to have their money at their disposal at any time, even though a large part of it has already been lent out, thus creating money with each loan
+wrong_answers:
+  - Central banks inject liquidity directly into the accounts of commercial banks, which then redistribute it in the form of loans to individuals
+  - "Commercial banks borrow massively from central banks to build up reserves, which they then lend to entrepreneurs."
+  - "Banks use depositors' real savings as the basis for creating proportionally more money according to a fixed multiplier determined by the central bank."
+explanation: |
+  The fractional reserve system operates on a paradoxical promise: banks guarantee their customers permanent access to their funds, while at the same time having lent out a large proportion of these deposits. This double promise de facto creates new money with every loan granted, as the money exists simultaneously in the depositor's account and with the borrower. Other answers describe mechanisms for injecting liquidity or controlled multiplication, but fail to grasp the paradoxical essence of the fractional system, which allows monetary expansion far beyond the real savings available.

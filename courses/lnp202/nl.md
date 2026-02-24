@@ -92,7 +92,7 @@ Als je deze LNP202 cursus in de juiste volgorde volgt, heb je aan het eind een c
 
 
 
-Voordat je je eigen knooppunt lanceert, wordt in dit hoofdstuk kort de basistheorie achter Lightning Network besproken. Het is inderdaad belangrijk om de betrokken mechanismen te begrijpen, omdat dit je in staat stelt om risico's te identificeren en goede praktijken toe te passen om ze te beperken. Ik zal hier echter niet in detail treden, omdat dit niet het hoofddoel van deze cursus is. Als je dieper op het onderwerp wilt ingaan, raad ik je ten zeerste aan om de LNP 201 cursus van Fanis Michalakis te raadplegen, die een referentie is op dit gebied:
+Voordat je je eigen knooppunt lanceert, wordt in dit hoofdstuk kort de basistheorie achter [Lightning Network](https://planb.academy/resources/glossary/lightning-network) besproken. Het is inderdaad belangrijk om de betrokken mechanismen te begrijpen, omdat dit je in staat stelt om risico's te identificeren en goede praktijken toe te passen om ze te beperken. Ik zal hier echter niet in detail treden, omdat dit niet het hoofddoel van deze cursus is. Als je dieper op het onderwerp wilt ingaan, raad ik je ten zeerste aan om de LNP 201 cursus van Fanis Michalakis te raadplegen, die een referentie is op dit gebied:
 
 
 
@@ -102,20 +102,20 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-Laten we teruggaan naar de basis: voordat we definiëren wat een knooppunt is, moeten we begrijpen wat Lightning Network is. Het is een toplaagprotocol, gebouwd bovenop Bitcoin, ontworpen om offchain BTC transacties mogelijk te maken die snel (met bijna onmiddellijke finaliteit) en over het algemeen goedkoop zijn. "Offchain" betekent dat transacties die op Lightning worden uitgevoerd niet bedoeld zijn om op de hoofd-blockchain van Bitcoin te verschijnen. Lightning is ook een gedeeltelijke reactie op het toenemende gebruik van Bitcoin en op de congestie op de onchain, die zorgen baart over de schaalbaarheid van het systeem.
+Laten we teruggaan naar de basis: voordat we definiëren wat een knooppunt is, moeten we begrijpen wat Lightning Network is. Het is een toplaagprotocol, gebouwd bovenop Bitcoin, ontworpen om [offchain](https://planb.academy/resources/glossary/offchain) BTC transacties mogelijk te maken die snel (met bijna onmiddellijke finaliteit) en over het algemeen goedkoop zijn. "Offchain" betekent dat transacties die op Lightning worden uitgevoerd niet bedoeld zijn om op de hoofd-[blockchain](https://planb.academy/resources/glossary/blockchain) van Bitcoin te verschijnen. Lightning is ook een gedeeltelijke reactie op het toenemende gebruik van Bitcoin en op de congestie op de [onchain](https://planb.academy/resources/glossary/onchain), die zorgen baart over de [schaalbaarheid](https://planb.academy/resources/glossary/scalability) van het systeem.
 
 
 
-Om te kunnen werken, vertrouwt Lightning op het openen van betaalkanalen tussen deelnemers, waarbinnen transacties bijna ogenblikkelijk kunnen worden uitgevoerd, vaak met minimale kosten, zonder dat ze één voor één geregistreerd hoeven te worden op de Bitcoin blockchain. Deze kanalen kunnen zeer lang open blijven staan en vereisen alleen onchain-transacties wanneer ze geopend en gesloten worden.
+Om te kunnen werken, vertrouwt Lightning op het openen van [betaalkanalen](https://planb.academy/resources/glossary/payment-channel) tussen deelnemers, waarbinnen transacties bijna ogenblikkelijk kunnen worden uitgevoerd, vaak met minimale kosten, zonder dat ze één voor één geregistreerd hoeven te worden op de Bitcoin blockchain. Deze kanalen kunnen zeer lang open blijven staan en vereisen alleen onchain-transacties wanneer ze geopend en gesloten worden.
 
 
 
-Een Lightning-knooppunt is een deelnemer aan het Lightning-netwerk, die kanalen opent en betalingen doet met andere knooppunten. Concreet is een Lightning-knooppunt een stuk software dat op een computer draait en het Lightning Network-protocol implementeert. Voorbeelden zijn LND, Core Lightning of Eclair. De belangrijkste rol van deze software is:
+Een [Lightning-knooppunt](https://planb.academy/resources/glossary/lightning-node) is een deelnemer aan het Lightning-netwerk, die kanalen opent en betalingen doet met andere knooppunten. Concreet is een Lightning-knooppunt een stuk software dat op een computer draait en het Lightning Network-protocol implementeert. Voorbeelden zijn LND, Core Lightning of Eclair. De belangrijkste rol van deze software is:
 
 
 
 
-- verbinding maken met een Bitcoin knooppunt om informatie te verkrijgen van de hoofdblokchain;
+- verbinding maken met een [Bitcoin knooppunt](https://planb.academy/resources/glossary/full-node) om informatie te verkrijgen van de hoofdblokchain;
 - bidirectionele betalingskanalen aanmaken en beheren met andere knooppunten;
 - berichten uitwisselen met het hele Lightning-netwerk.
 
@@ -129,7 +129,7 @@ Een Lightning-knooppunt is een deelnemer aan het Lightning-netwerk, die kanalen 
 
 
 
-Op Bitcoin (onchain) verwijst "*wallet*" naar software die je private sleutels beheert, je balans berekent uit je UTXO's en je transacties opbouwt. Deze wallet kan gebaseerd zijn op je eigen Bitcoin node of op die van iemand anders, maar vandaag de dag zijn de rol van de node en die van de onchain wallet duidelijk gescheiden.
+Op Bitcoin (onchain) verwijst "*[wallet](https://planb.academy/resources/glossary/wallet)*" naar software die je [private sleutels](https://planb.academy/resources/glossary/private-key) beheert, je balans berekent uit je [UTXO's](https://planb.academy/resources/glossary/utxo) en je transacties opbouwt. Deze wallet kan gebaseerd zijn op je eigen Bitcoin node of op die van iemand anders, maar vandaag de dag zijn de rol van de node en die van de onchain wallet duidelijk gescheiden.
 
 
 
@@ -141,7 +141,7 @@ Op Lightning is het moeilijker om dit soort woordenschat te hergebruiken zonder 
 
 
 
-- Een custodial service gebruiken: je gebruikt een applicatie die je een saldo laat zien in sats op Lightning, maar op de achtergrond bevinden de fondsen zich op het knooppunt van een provider (bijv. Wallet of Satoshi). Jij hebt noch de sleutels, noch de controle over de kanalen. Je saldo is slechts een boekhoudkundige invoer in de database van het bedrijf. Het is vergelijkbaar met het achterlaten van je bitcoins op een uitwisselingsplatform, met alle risico's van dien. In dit geval is je "*Lightning wallet*" slechts een toegang tot een rekening die beheerd wordt door een operator die op zijn beurt een echt Lightning knooppunt beheert.
+- Een custodial service gebruiken: je gebruikt een applicatie die je een saldo laat zien in [sats](https://planb.academy/resources/glossary/satoshi-sat) op Lightning, maar op de achtergrond bevinden de fondsen zich op het knooppunt van een provider (bijv. Wallet of Satoshi). Jij hebt noch de sleutels, noch de controle over de kanalen. Je saldo is slechts een boekhoudkundige invoer in de database van het bedrijf. Het is vergelijkbaar met het achterlaten van je bitcoins op een uitwisselingsplatform, met alle risico's van dien. In dit geval is je "*Lightning wallet*" slechts een toegang tot een rekening die beheerd wordt door een operator die op zijn beurt een echt Lightning knooppunt beheert.
 
 
 
@@ -161,7 +161,7 @@ In dit gedeelte geef ik een korte uitleg over hoe Lightning werkt. Nogmaals, als
 
 
 
-Het hart van het Lightning-netwerk is gebaseerd op bidirectionele betalingskanalen. Een kanaal kan worden geopend (d.w.z. aangemaakt), bijgewerkt als Lightning-transacties plaatsvinden, en uiteindelijk worden gesloten. Vanuit het oogpunt van onchain is een kanaal niets meer dan een 2/2 multisignature-uitgang.
+Het hart van het Lightning-netwerk is gebaseerd op bidirectionele betalingskanalen. Een kanaal kan worden geopend (d.w.z. aangemaakt), bijgewerkt als Lightning-transacties plaatsvinden, en uiteindelijk worden gesloten. Vanuit het oogpunt van onchain is een kanaal niets meer dan een 2/2 [multisignature](https://planb.academy/resources/glossary/multisig)-[uitgang](https://planb.academy/resources/glossary/output).
 
 
 
@@ -169,7 +169,7 @@ Het hart van het Lightning-netwerk is gebaseerd op bidirectionele betalingskanal
 
 
 
-Vanuit het oogpunt van Lightning is het een betalingskanaal met liquiditeit verdeeld tussen de twee deelnemers.
+Vanuit het oogpunt van Lightning is het een betalingskanaal met [liquiditeit](https://planb.academy/resources/glossary/liquidity-lightning) verdeeld tussen de twee deelnemers.
 
 
 
@@ -183,7 +183,7 @@ Vanuit het oogpunt van Lightning is het een betalingskanaal met liquiditeit verd
 
 
 
-Twee nodes besluiten een kanaal te openen. Een van hen commit bitcoins in een onchain transactie genaamd *funding transaction*. Deze transactie creëert een output gebaseerd op een 2-of-2 multisignature script, wat betekent dat het uitgeven van deze fondsen op Bitcoin de handtekening vereist van beide nodes in het kanaal. Alvorens deze transactie uit te geven, vraagt de partij die de fondsen verstrekt aan de andere partij om een *intrektransactie* te ondertekenen, die niet onchain wordt uitgegeven, maar die haar in staat stelt om haar fondsen terug te krijgen in het geval van een probleem.
+Twee nodes besluiten een kanaal te openen. Een van hen commit bitcoins in een onchain transactie genaamd *funding transaction*. Deze transactie creëert een output gebaseerd op een 2-of-2 multisignature [script](https://planb.academy/resources/glossary/script), wat betekent dat het uitgeven van deze fondsen op Bitcoin de [handtekening](https://planb.academy/resources/glossary/digital-signature) vereist van beide nodes in het kanaal. Alvorens deze transactie uit te geven, vraagt de partij die de fondsen verstrekt aan de andere partij om een *intrektransactie* te ondertekenen, die niet onchain wordt uitgegeven, maar die haar in staat stelt om haar fondsen terug te krijgen in het geval van een probleem.
 
 
 
@@ -197,7 +197,7 @@ Twee nodes besluiten een kanaal te openen. Een van hen commit bitcoins in een on
 
 
 
-De toestand van het kanaal (d.w.z. de verdeling van sats tussen A en B) wordt vertegenwoordigd door een *commitment transaction*, bekend bij beide nodes maar niet onmiddellijk uitgezonden op de blockchain. Deze transactie beschrijft hoe de kanaalfondsen op de blockchain worden herverdeeld volgens de betalingen op Lightning.
+De toestand van het kanaal (d.w.z. de verdeling van sats tussen A en B) wordt vertegenwoordigd door een *[commitment transaction](https://planb.academy/resources/glossary/commitment-transaction)*, bekend bij beide nodes maar niet onmiddellijk uitgezonden op de blockchain. Deze transactie beschrijft hoe de kanaalfondsen op de blockchain worden herverdeeld volgens de betalingen op Lightning.
 
 
 
@@ -237,7 +237,7 @@ Voordat we verder gaan, zijn hier twee essentiële concepten om te begrijpen hoe
 
 
 - Liquidity*: de hoeveelheid sats die beschikbaar is aan één kant van het kanaal;
-- De *capaciteit*: dit is het totale bedrag dat is vergrendeld in de 2/2 multisig-uitgang, d.w.z. de som van de liquiditeit aan beide zijden van het kanaal.
+- De *[capaciteit](https://planb.academy/resources/glossary/lightning-channel-capacity)*: dit is het totale bedrag dat is vergrendeld in de 2/2 multisig-uitgang, d.w.z. de som van de liquiditeit aan beide zijden van het kanaal.
 
 
 
@@ -249,7 +249,7 @@ Een kanaal is niet alleen voor betalingen tussen twee knooppunten: het is onderd
 
 
 
-Elk knooppunt kent, via het roddelprotocol, een kaart van dit netwerk: welke kanalen er bestaan, welke knooppunten verbonden zijn door een tweerichtingskanaal en welke capaciteiten gepubliceerd zijn. Om een betaling naar een ontvanger zonder direct kanaal te sturen, berekent jouw knooppunt een route die uit verschillende hops bestaat: jouw knooppunt → knooppunt X → knooppunt Y → knooppunt van de ontvanger. Bij elke stap passeert de betaling een kanaal dat voldoende liquiditeit moet hebben in de richting van de betaling.
+Elk knooppunt kent, via het [roddelprotocol](https://planb.academy/resources/glossary/gossip), een kaart van dit netwerk: welke kanalen er bestaan, welke knooppunten verbonden zijn door een tweerichtingskanaal en welke capaciteiten gepubliceerd zijn. Om een betaling naar een ontvanger zonder direct kanaal te sturen, berekent jouw knooppunt een route die uit verschillende hops bestaat: jouw knooppunt → knooppunt X → knooppunt Y → knooppunt van de ontvanger. Bij elke stap passeert de betaling een kanaal dat voldoende liquiditeit moet hebben in de richting van de betaling.
 
 
 
@@ -265,7 +265,7 @@ De liquiditeit van een kanaal is daarom niet symmetrisch: de ene kant kan zwaar 
 
 
 
-Om betalingen via tussenliggende knooppunten te laten verlopen zonder dat er vertrouwen nodig is, gebruikt Lightning slimme contracten genaamd *HTLC* (*Hashed Time-Locked Contracts*). Eenvoudig gezegd maakt een HTLC de overdracht van fondsen afhankelijk van de onthulling van een geheim en bevat het een tijdsbeperking om de verzender te beschermen in het geval van een mislukte transactie. Elke betaling is daarom afhankelijk van de presentatie van een pre-image (een geheim waarvan de hash overeenkomt met een afgesproken waarde). Als de uiteindelijke ontvanger deze pre-image levert, kan hij of zij het geld opeisen, wat op zijn beurt elk tussenliggend knooppunt in staat stelt om zijn eigen geld terug te krijgen.
+Om betalingen via tussenliggende knooppunten te laten verlopen zonder dat er vertrouwen nodig is, gebruikt Lightning [slimme contracten](https://planb.academy/resources/glossary/smart-contract) genaamd *[HTLC](https://planb.academy/resources/glossary/htlc)* (*Hashed Time-Locked Contracts*). Eenvoudig gezegd maakt een HTLC de overdracht van fondsen afhankelijk van de onthulling van een geheim en bevat het een tijdsbeperking om de verzender te beschermen in het geval van een mislukte transactie. Elke betaling is daarom afhankelijk van de presentatie van een pre-image (een geheim waarvan de [hash](https://planb.academy/resources/glossary/hash-function) overeenkomt met een afgesproken waarde). Als de uiteindelijke ontvanger deze pre-image levert, kan hij of zij het geld opeisen, wat op zijn beurt elk tussenliggend knooppunt in staat stelt om zijn eigen geld terug te krijgen.
 
 
 
@@ -281,7 +281,7 @@ Ik zal je de technische details over de werking van HTLC's besparen, want die zi
 
 
 
-Net als bij Bitcoin zijn er verschillende implementaties van het Lightning protocol. Een aantal onafhankelijke teams ontwikkelen hun eigen versies, die allemaal interoperabel zijn omdat ze dezelfde specificaties volgen (de BOLT's). Dit zijn de belangrijkste implementaties die momenteel in gebruik zijn.
+Net als bij Bitcoin zijn er verschillende implementaties van het Lightning protocol. Een aantal onafhankelijke teams ontwikkelen hun eigen versies, die allemaal interoperabel zijn omdat ze dezelfde specificaties volgen (de [BOLT's](https://planb.academy/resources/glossary/bolt)). Dit zijn de belangrijkste implementaties die momenteel in gebruik zijn.
 
 
 
@@ -399,7 +399,7 @@ Vandaag de dag is het mogelijk om een gebruikerservaring te hebben die heel dich
 
 
 
-De eerste oplossing is simpelweg om Lightning niet natively te gebruiken, maar om een Bitcoin of Liquid wallet te gebruiken die atomic swaps integreert. Bijvoorbeeld Aqua of Bull Bitcoin Wallet toepassingen gebruiken deze methode, door je in staat te stellen Lightning-facturen te betalen zonder zelf een Lightning-node te bedienen, terwijl je in self-custody blijft.
+De eerste oplossing is simpelweg om Lightning niet natively te gebruiken, maar om een Bitcoin of [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet te gebruiken die [atomic swaps](https://planb.academy/resources/glossary/atomic-swap) integreert. Bijvoorbeeld Aqua of Bull Bitcoin Wallet toepassingen gebruiken deze methode, door je in staat te stellen [Lightning-facturen](https://planb.academy/resources/glossary/invoice-lightning) te betalen zonder zelf een Lightning-node te bedienen, terwijl je in self-custody blijft.
 
 
 
@@ -411,7 +411,7 @@ Het principe is eenvoudig: je geld blijft in Bitcoin, on-chain of Liquid, en je 
 
 
 
-Het grote voordeel van deze aanpak, vergeleken met een conventionele Lightning wallet custodial, is dat je te allen tijde 100% eigenaar blijft van je fondsen. De bitcoins zitten in je onchain of Liquid wallet, met je eigen mnemonische zin. Zelfs tijdens de ruil blijft u in het bezit van uw fondsen, omdat de ruil atomair is. Het vertrouwt op een cryptografisch mechanisme dat ervoor zorgt dat er slechts twee mogelijke uitkomsten zijn: of de swap slaagt volledig, of het mislukt en de dienst kan zich uw fondsen niet toe-eigenen.
+Het grote voordeel van deze aanpak, vergeleken met een conventionele Lightning wallet custodial, is dat je te allen tijde 100% eigenaar blijft van je fondsen. De bitcoins zitten in je onchain of Liquid wallet, met je eigen [mnemonische zin](https://planb.academy/resources/glossary/seed). Zelfs tijdens de ruil blijft u in het bezit van uw fondsen, omdat de ruil atomair is. Het vertrouwt op een cryptografisch mechanisme dat ervoor zorgt dat er slechts twee mogelijke uitkomsten zijn: of de swap slaagt volledig, of het mislukt en de dienst kan zich uw fondsen niet toe-eigenen.
 
 
 
@@ -423,7 +423,7 @@ Deze oplossing biedt ook interessante voordelen op het gebied van vertrouwelijkh
 
 
 
-Aan de andere kant heeft deze aanpak zijn beperkingen. Ten eerste is het niet onbetaalbaar: u bent afhankelijk van de beschikbaarheid en goodwill van de ruildienst. Als deze je account niet meer wil verwerken of ophoudt te werken, kun je niet langer Bliksemfacturen via deze dienst betalen. Dan zijn er nog de niet onaanzienlijke kosten: u betaalt zowel de onchain of Liquid transactiekosten, als de commissie van de swapdienst. Als de onchainkosten sterk stijgen, kan het erg duur worden om Lightning te gebruiken.
+Aan de andere kant heeft deze aanpak zijn beperkingen. Ten eerste is het niet onbetaalbaar: u bent afhankelijk van de beschikbaarheid en goodwill van de ruildienst. Als deze je account niet meer wil verwerken of ophoudt te werken, kun je niet langer Bliksemfacturen via deze dienst betalen. Dan zijn er nog de niet onaanzienlijke kosten: u betaalt zowel de onchain of Liquid [transactiekosten](https://planb.academy/resources/glossary/transaction-fees), als de commissie van de swapdienst. Als de onchainkosten sterk stijgen, kan het erg duur worden om Lightning te gebruiken.
 
 
 
@@ -479,7 +479,7 @@ De derde oplossing, waar we in deze LNP202 cursus dieper op in zullen gaan, is h
 
 
 
-Met "klassiek" bedoel ik dat je zelf een Lightning-implementatie (bijv. LND) installeert en configureert bovenop je eigen Bitcoin-knooppunt. Je kiest je peers, opent je kanalen, beheert je inkomende en uitgaande liquiditeit en stelt je routeringskostenbeleid in.
+Met "klassiek" bedoel ik dat je zelf een Lightning-implementatie (bijv. LND) installeert en configureert bovenop je eigen Bitcoin-knooppunt. Je kiest je peers, opent je kanalen, beheert je [inkomende en uitgaande liquiditeit](https://planb.academy/resources/glossary/inbound-capacity) en stelt je routeringskostenbeleid in.
 
 
 
@@ -616,7 +616,7 @@ Je komt dan op de hoofdinterface van je Lightning-knooppunt. Aan de linkerkant z
 
 
 
-In het midden staat je Lightning wallet. Het vertegenwoordigt eigenlijk je uitgaande geld, d.w.z. de bitcoins die je bezit binnen je Lightning-kanalen.
+In het midden staat je Lightning wallet. Het vertegenwoordigt eigenlijk je [uitgaande geld](https://planb.academy/resources/glossary/outbound-capacity), d.w.z. de bitcoins die je bezit binnen je Lightning-kanalen.
 
 
 

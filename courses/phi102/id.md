@@ -1117,7 +1117,7 @@ Dalam logika dominasi politik, uang tidak lagi menjadi komoditas atau jasa seper
 
 
 
-Pada awal Abad Pertengahan, Nicolas Oresme menganalisis efek berbahaya dari manipulasi moneter pada perdagangan. Penurunan moneter menghasilkan inflasi dan mengacaukan harga, karena sinyal moneter menjadi tidak pasti ketika penguasa ukuran nilai dapat dengan sewenang-wenang mengubah isinya. Uang logam itu sendiri sering kali tidak lebih dari sebuah ilusi, dengan koin-koin yang mengandung paduan bernilai rendah yang oleh beberapa penulis liberal abad ke-19 disebut sebagai assignat tembaga.
+Pada awal Abad Pertengahan, Nicolas Oresme menganalisis efek berbahaya dari manipulasi moneter pada perdagangan. Penurunan moneter menghasilkan [inflasi](https://planb.academy/resources/glossary/inflation) dan mengacaukan harga, karena sinyal moneter menjadi tidak pasti ketika penguasa ukuran nilai dapat dengan sewenang-wenang mengubah isinya. Uang logam itu sendiri sering kali tidak lebih dari sebuah ilusi, dengan koin-koin yang mengandung paduan bernilai rendah yang oleh beberapa penulis liberal abad ke-19 disebut sebagai assignat tembaga.
 
 
 

@@ -1,0 +1,9 @@
+question: Msimbo wa uendeshaji wa OP_EVAL ulikuwa na athari gani kwenye mfumo wa ndani wa programu wa Bitcoin?
+answer: Tekeleza hati ndani ya hati
+wrong_answers:
+  - Omba sahihi za washiriki
+  - Kata hati na ulinganishe matokeo na alama iliyotolewa
+  - Hakikisha kwamba thamani mbili ni sawa
+explanation: |
+ Ilielezwa na Nicolas van Saberhagen, almaarufu ByteCoin, ambaye aliibuni usiku wa Oktoba 1 hadi 2, 2011. Msimbo wa op hutekelezwa mwishoni mwa hati ya kufuli ili kutathmini uhalali wa hati iliyotolewa, ambayo hash yake inalinganishwa na alama ya kidole iliyotolewa.
+reviewed: true

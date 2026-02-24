@@ -1,0 +1,10 @@
+question: Mikä likimääräinen osuus liikkeessä olevista bitcoineista vastasi Bitcoin Savings & Trust -rahaston hallinnoimia rahoja sen huipulla?
+answer: Noin 5 %
+wrong_answers:
+  - Noin 0,05
+  - Noin 0,5
+  - Noin 50 %
+explanation: |
+ Suurimmillaan elokuussa 2012 Trendon Shaversin (alias PirateAt40) rahasto hallinnoi yli 500 000 bitcoinia, mikä oli noin 5 prosenttia 9,7 miljoonan bitcoinin kokonaisarvosta
+ liikkeessä olevista bitcoineista! Bitcoin Savings & Trust romahti juuri sen jälkeen, kun luottamus haihtui.
+reviewed: true

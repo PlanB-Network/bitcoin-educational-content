@@ -1,0 +1,10 @@
+question: Nicolas Christin'in Ağustos 2012'de yayınlanan çalışmasına göre, Mayıs 2012'de günlük satış hacmi ne kadardı?
+answer: 15,000 BTC veya 75,000 $
+wrong_answers:
+  - 600 BTC veya 3.000 $
+  - 3,000 BTC veya 15,000 $
+  - 75,000 BTC veya 375,000 $
+explanation: |
+ Mart ayında 8.000 BTC olan günlük satış hacmi, Mayıs ayında 15.000 BTC'e ulaşmıştır ve bu da o dönemde yaklaşık 75.000 $'a denk gelmektedir. Toplam satışların oranı olarak faaliyet
+ Bitcoin zincir faaliyeti 2012 yılı boyunca %10 ile %20 arasında seyretti. Kasım ayı başında Ross, platformun başarısını "patlayıcı büyüme" olarak nitelendirdi.
+reviewed: true

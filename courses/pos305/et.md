@@ -74,7 +74,7 @@ Pärast Nicolas'i sõnu oli aeg hakata ehitama. Märkimisväärne hulk tööd ku
 Mida tähendab avatud lähtekood ja mida tähendab selline projekt?
 
 
-FOSS tähendab vaba ja avatud lähtekoodiga tarkvara. Esimene viitab tingimustele, mis lubavad igaühel kopeerida, muuta ja isegi levitada tarkvara versioone (isegi kasumi saamise eesmärgil). Viimane viitab lähtekoodi avalikule jagamisele, julgustades avalikkust panustama ja täiustama.
+[FOSS](https://planb.academy/resources/glossary/foss) tähendab vaba ja avatud lähtekoodiga tarkvara. Esimene viitab tingimustele, mis lubavad igaühel kopeerida, muuta ja isegi levitada tarkvara versioone (isegi kasumi saamise eesmärgil). Viimane viitab lähtekoodi avalikule jagamisele, julgustades avalikkust panustama ja täiustama.
 
 See tõmbab ligi kogenud kasutajaid, kes on entusiastlikud panustama tarkvarasse, mida nad juba kasutavad ja millest nad saavad kasu, mis osutub lõppkokkuvõttes edukamaks vastuvõtmiseks kui patenteeritud tarkvara. See on kooskõlas Bitcoin eetosega, et "teave ihkab olla vaba" See toob kokku kirglikud inimesed, kes moodustavad kogukonna ja on lihtsalt lõbusam. Nagu Bitcoin, on ka FOSS paratamatu.
 
@@ -122,13 +122,13 @@ BTCPay Server Foundation, mis võimaldas Alekosel ja Basil selle kursuse kirjuta
 See on klassiruumi harjutus, nii et kui te ise selle kursuse läbite, ei saa te seda sooritada, kuid saate selle harjutuse siiski läbi teha. Selle ülesande täitmiseks on vaja vähemalt 9-11 inimest.
 
 
-Harjutus algab pärast BBC sissejuhatuse "Kuidas Bitcoin ja Blockchain töötab" vaatamist.
+Harjutus algab pärast BBC sissejuhatuse "Kuidas Bitcoin ja [Blockchain](https://planb.academy/resources/glossary/blockchain) töötab" vaatamist.
 
 
 :::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
 
-Selleks on vaja vähemalt üheksa osalejat. Selle harjutuse eesmärk on anda füüsiline arusaam Bitcoin toimimisest. Mängides iga rolli võrgus, saate interaktiivse ja mängulise õppimisviisi. See harjutus ei hõlma Lightning Network.
+Selleks on vaja vähemalt üheksa osalejat. Selle harjutuse eesmärk on anda füüsiline arusaam Bitcoin toimimisest. Mängides iga rolli võrgus, saate interaktiivse ja mängulise õppimisviisi. See harjutus ei hõlma [Lightning Network](https://planb.academy/resources/glossary/lightning-network).
 
 
 ### Näide: Vajab 9 / 11 inimest
@@ -140,7 +140,7 @@ Rollid on järgmised:
 
 - 1 klient
 - 1 kaupmees
-- 7 kuni 9 Bitcoin sõlme
+- 7 kuni 9 Bitcoin [sõlme](https://planb.academy/resources/glossary/node)
 
 
 **Setup on järgmine:**
@@ -234,15 +234,15 @@ Määratlege järgmised eelnevas punktis tutvustatud põhiterminid:
 
 
 - Sõlme
-- Mempool
-- Raskusaste Eesmärk
+- [Mempool](https://planb.academy/resources/glossary/mempool)
+- [Raskusaste](https://planb.academy/resources/glossary/difficulty) Eesmärk
 - Plokk
 
 
 **Rühmana arutleda mõnede täiendavate terminite tähenduse üle:**
 
 
-Blockchain, tehing, topeltkulu, Bütsantsi kindlusprobleem, Mining, Proof of Work (PoW), Hash funktsioon, Block reward, Blockchain, pikim ahel, 51% rünnak, väljund, väljundlukk, muudatus, Satoshis, avalik/privaatvõti, Address, avaliku võtme krüptograafia, digitaalne allkiri, Wallet
+Blockchain, tehing, topeltkulu, Bütsantsi kindlusprobleem, Mining, Proof of Work (PoW), Hash funktsioon, Block reward, Blockchain, pikim ahel, 51% rünnak, väljund, väljundlukk, muudatus, [Satoshis](https://planb.academy/resources/glossary/satoshi-sat), avalik/privaatvõti, Address, avaliku võtme [krüptograafia](https://planb.academy/resources/glossary/cryptography), digitaalne allkiri, Wallet
 
 
 # BTCPay serveri tutvustamine
@@ -573,7 +573,7 @@ Selles osas õppisite:
 ### Mis on seotud Bitcoin võtmete genereerimisega?
 
 
-Bitcoin rahakotide loomisel luuakse nn "seed". Viimases eesmärgis lõid sa "seed", Enne loodud sõnade rida on tuntud ka kui Mnemonic fraasid. seed kasutatakse individuaalsete Bitcoin võtmete tuletamiseks ja Bitcoin saatmiseks või vastuvõtmiseks. seed fraase ei tohi kunagi jagada kolmandate isikute või usaldamata partneritega.
+Bitcoin rahakotide loomisel luuakse nn "[seed](https://planb.academy/resources/glossary/seed)". Viimases eesmärgis lõid sa "seed", Enne loodud sõnade rida on tuntud ka kui Mnemonic fraasid. seed kasutatakse individuaalsete Bitcoin võtmete tuletamiseks ja Bitcoin saatmiseks või vastuvõtmiseks. seed fraase ei tohi kunagi jagada kolmandate isikute või usaldamata partneritega.
 
 
 seed genereerimine toimub vastavalt tööstusstandardile, mida tuntakse kui "hierarhilist deterministlikku" (HD) raamistikku.
@@ -596,11 +596,11 @@ Address saadakse avalikust võtmest "hashing-algoritmi" abil Enamik rahakotte ja
 
 
 
-- Aadressid algusega `bc1...` liiguvad aeglaselt väga levinud aadresside hulka. Neid tuntakse kui (algupäraseid) SegWit-aadresse. Need pakuvad paremat tasustruktuuri kui teised mainitud aadressid. Natiivsed SegWit aadressid kasutavad Bech32 kodeeringut ja lubavad ainult väikseid tähti.
+- Aadressid algusega `bc1...` liiguvad aeglaselt väga levinud aadresside hulka. Neid tuntakse kui (algupäraseid) [SegWit](https://planb.academy/resources/glossary/segwit)-aadresse. Need pakuvad paremat tasustruktuuri kui teised mainitud aadressid. Natiivsed SegWit aadressid kasutavad Bech32 kodeeringut ja lubavad ainult väikseid tähti.
 
 
 
-- Aadressid, mis algavad numbritega `3...`, on börsidel ikka veel levinud hoiuseaadressid. Need aadressid on mainitud peatükis "Uue poe loomine", pakitud või nested SegWit aadressid. Need võivad aga toimida ka kui "Multisig Address". Kui neid kasutatakse SegWit Address-aadressidena, on tehingutasude osas mõningane kokkuhoid, jällegi vähem kui natiivse SegWit puhul. P2SH aadressid kasutavad Base58 kodeeringut. See muudab selle juhtumitundlikuks, nagu vanad Address.
+- Aadressid, mis algavad numbritega `3...`, on börsidel ikka veel levinud hoiuseaadressid. Need aadressid on mainitud peatükis "Uue poe loomine", pakitud või nested SegWit aadressid. Need võivad aga toimida ka kui "Multisig Address". Kui neid kasutatakse SegWit Address-aadressidena, on [tehingutasude](https://planb.academy/resources/glossary/transaction-fees) osas mõningane kokkuhoid, jällegi vähem kui natiivse SegWit puhul. P2SH aadressid kasutavad Base58 kodeeringut. See muudab selle juhtumitundlikuks, nagu vanad Address.
 
 
 
@@ -618,7 +618,7 @@ Avalikke võtmeid kasutatakse tänapäeval praktikas harvemini. Aja jooksul on B
 
 
 
-- HD rahakotid kasutavad aga teistsugust struktuuri. `xpub...`, `ypub...` või `zpub...` nimetatakse laiendatud avalikeks võtmeteks ehk xpubideks. Neid võtmeid kasutatakse paljude avalike võtmete tuletamiseks HD Wallet osana. Kuna teie xpub sisaldab andmeid kogu teie ajaloo kohta, st varasemate ja tulevaste tehingute kohta, ärge kunagi jagage neid usaldamatutele osapooltele.
+- HD rahakotid kasutavad aga teistsugust struktuuri. `xpub...`, `ypub...` või `zpub...` nimetatakse laiendatud avalikeks võtmeteks ehk xpubideks. Neid võtmeid kasutatakse paljude avalike võtmete tuletamiseks HD Wallet osana. Kuna teie [xpub](https://planb.academy/resources/glossary/xpub) sisaldab andmeid kogu teie ajaloo kohta, st varasemate ja tulevaste tehingute kohta, ärge kunagi jagage neid usaldamatutele osapooltele.
 
 
 ### Oskuste kokkuvõte
@@ -670,7 +670,7 @@ Hot rahakotid on kõige mugavam viis Bitcoin-ga suhtlemiseks mobiil-, veebi- võ
 Üksikisikud viivad oma Bitcoin Cold Wallet-sse, sest see suudab eralisi võtmeid internetist isoleerida, kaitstes neid seega võimalike veebiohtude eest. Internetiühenduse eemaldamine vähendab pahavara, nuhkvara ja SIM-kaardi vahetamise ohtu. Usutakse, et Cold mälu on turvalisuse ja sõltumatuse poolest parem kui Hot mälu, tingimusel et võetakse piisavaid ettevaatusabinõusid, et vältida Bitcoin privaatvõtmete kaotamist. Cold säilitamine on kõige sobivam suurte Bitcoin koguste jaoks, mida ei kavatseta Wallet seadistuse keerukuse tõttu sageli kulutada.
 
 
-Bitcoin võtmete Cold salvestamiseks on erinevaid meetodeid, alates paberist rahakotidest kuni ajukotideni, riistvara rahakottideni või algusest peale Wallet failini. Enamik rahakotte kasutab BIP 39 generate fraasi seed jaoks. Bitcoin core tarkvaras ei ole aga veel saavutatud üksmeelt selle kasutamise osas. Bitcoin core tarkvara generate ikkagi Wallet.dat faili, mida peate salvestama turvalisse offline-kohta.
+Bitcoin võtmete Cold salvestamiseks on erinevaid meetodeid, alates paberist rahakotidest kuni ajukotideni, riistvara rahakottideni või algusest peale Wallet failini. Enamik rahakotte kasutab [BIP](https://planb.academy/resources/glossary/bip) 39 generate fraasi seed jaoks. Bitcoin core tarkvaras ei ole aga veel saavutatud üksmeelt selle kasutamise osas. Bitcoin core tarkvara generate ikkagi Wallet.dat faili, mida peate salvestama turvalisse offline-kohta.
 
 
 ### Oskuste kokkuvõte
@@ -717,14 +717,14 @@ BTCPay Server koosneb järgmistest standardsetest Wallet funktsioonidest:
 - Rescan
 - Tõmba makseid
 - Väljamaksed
-- PSBT
+- [PSBT](https://planb.academy/resources/glossary/psbt)
 - Üldised seaded
 
 
 ### Tehingud
 
 
-Administraatorid saavad näha selle konkreetse kauplusega ühendatud On-Chain Wallet sissetulevaid ja väljaminevaid tehinguid tehingute vaates. Iga tehingu puhul eristatakse saadud ja saadetud summad. Saadud on Green ja väljaminevad tehingud on punased. BTCPay Serveri tehingute vaates näevad administraatorid ka standardseid silte.
+Administraatorid saavad näha selle konkreetse kauplusega ühendatud On-Chain Wallet sissetulevaid ja väljaminevaid tehinguid tehingute vaates. Iga tehingu puhul eristatakse saadud ja saadetud summad. Saadud on Green ja väljaminevad tehingud on punased. BTCPay Serveri tehingute vaates näevad administraatorid ka standardseid [silte](https://planb.academy/resources/glossary/label).
 
 
 
@@ -732,8 +732,8 @@ Administraatorid saavad näha selle konkreetse kauplusega ühendatud On-Chain Wa
 | ------------- | -------------------------------------------------- |
 | Rakendus      | Makse saadi rakenduse loodud arve kaudu            |
 | Arve          | Makse saadi arve kaudu                             |
-| Payjoin       | Pole makstud, arve taimer ei ole veel aegunud      |
-| Payjoin-paljastatud | UTXO paljastati arve payjoin-ettepaneku kaudu |
+| [Payjoin](https://planb.academy/resources/glossary/payjoin)       | Pole makstud, arve taimer ei ole veel aegunud      |
+| Payjoin-paljastatud | [UTXO](https://planb.academy/resources/glossary/utxo) paljastati arve payjoin-ettepaneku kaudu |
 | Maksepäring   | Makse saadi maksepäringu kaudu                     |
 | Väljamakse    | Makse saadeti väljamakse või tagasimakse kaudu     |
 
@@ -1131,7 +1131,7 @@ Vasakpoolse menüüriba valikust Lightning Wallet leiavad serveri administraator
 #### Sisene sõlme info
 
 
-Serveri administraatorid saavad klõpsata sisemise sõlme infolehel, et vaadata oma serveri olekut (Online/Offline) ja Clearneti või Tori ühendusstringi.
+Serveri administraatorid saavad klõpsata sisemise sõlme infolehel, et vaadata oma serveri olekut (Online/Offline) ja Clearneti või [Tori](https://planb.academy/resources/glossary/tor) ühendusstringi.
 
 
 ![image](assets/en/033.webp)

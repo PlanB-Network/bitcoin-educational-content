@@ -6,4 +6,4 @@ wrong_answers:
   - 256 bits
 explanation: |
   The nonce is a 32-bit field in the header.
-reviewed: false
+reviewed: true

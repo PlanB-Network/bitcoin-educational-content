@@ -1,0 +1,10 @@
+question: Eylül 2010'da BitLaundry adlı ilk Bitcoin karıştırma hizmetini kim yarattı?
+answer: Peter Vessenes
+wrong_answers:
+  - Roman Sterlingov
+  - Benjamin Reeves
+  - Gregory Maxwell
+explanation: |
+ Peter Venesses, slashdotting sırasında Bitcoin'yi keşfeden kriptografi derecesine sahip Amerikalı bir girişimciydi. Bu hizmeti, internetin
+ fonları takip etmek daha zor hale geldi. Mayıs 2011'de, önündeki yasal zorlukları sezerek, hizmeti aktivist Mike Gogulski'ye sattı.
+reviewed: true

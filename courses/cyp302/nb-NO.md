@@ -94,7 +94,7 @@ Klar til å utforske den fascinerende verdenen av kryptografi? La oss gå!
 
 <chapterId>ae674346-4789-5ab1-9b6f-c8989d83be89</chapterId>
 
-La oss starte vår undersøkelse av kryptografien med en av de mer sjarmerende og underholdende episodene i dens historie: Beale-chiffrene. [1]
+La oss starte vår undersøkelse av [kryptografien](https://planb.academy/resources/glossary/cryptography) med en av de mer sjarmerende og underholdende episodene i dens historie: Beale-chiffrene. [1]
 
 Historien om Beale-chiffrene er etter min mening mer sannsynlig fiksjon enn virkelighet. Men det skal ha foregått på følgende måte.
 
@@ -102,7 +102,7 @@ Både vinteren 1820 og 1822 bodde en mann ved navn Thomas J. Beale på et vertsh
 
 Noen måneder senere mottok Morriss et brev fra Beale datert 9. mai 1822. Brevet understreket den store verdien av innholdet i jernskrinet og ga Morriss noen instrukser: Hvis verken Beale eller noen av hans medarbeidere noen gang kom for å gjøre krav på skrinet, skulle han åpne det nøyaktig ti år etter brevets dato (det vil si 9. mai 1832). Noen av papirene i esken ville være skrevet med vanlig tekst. Flere andre ville imidlertid være "uforståelige uten hjelp av en nøkkel" Denne "nøkkelen" skulle altså bli levert til Morriss av en ikke navngitt venn av Beale i juni 1832.
 
-Til tross for de klare instruksene åpnet ikke Morriss skrinet i mai 1832, og Beales mystiske venn dukket aldri opp i juni samme år. Først i 1845 bestemte kroverten seg endelig for å åpne esken. I esken fant Morriss en lapp som forklarte hvordan Beale og hans kompanjonger hadde funnet gull og sølv i Vesten og gravd det ned sammen med noen smykker for å ta vare på det. I tillegg inneholdt esken tre **krypteringstekster**, det vil si tekster skrevet i kode som krever en **kryptografisk nøkkel**, eller en hemmelighet, og en tilhørende algoritme for å låses opp. Denne prosessen med å låse opp en chiffertekst kalles **dekryptering**, mens låseprosessen kalles **kryptering**. (Som forklart i kapittel 3, kan begrepet chiffer ha ulike betydninger. I navnet "Beale ciphers" er det en forkortelse for ciphertexts)
+Til tross for de klare instruksene åpnet ikke Morriss skrinet i mai 1832, og Beales mystiske venn dukket aldri opp i juni samme år. Først i 1845 bestemte kroverten seg endelig for å åpne esken. I esken fant Morriss en lapp som forklarte hvordan Beale og hans kompanjonger hadde funnet gull og sølv i Vesten og gravd det ned sammen med noen smykker for å ta vare på det. I tillegg inneholdt esken tre **krypteringstekster**, det vil si tekster skrevet i kode som krever en **kryptografisk nøkkel**, eller en hemmelighet, og en tilhørende algoritme for å låses opp. Denne prosessen med å låse opp en chiffertekst kalles **dekryptering**, mens låseprosessen kalles **[kryptering](https://planb.academy/resources/glossary/encryption-encrypt)**. (Som forklart i kapittel 3, kan begrepet chiffer ha ulike betydninger. I navnet "Beale ciphers" er det en forkortelse for ciphertexts)
 
 De tre chiffertekstene som Morriss fant i jernskrinet, består hver av en rekke tall adskilt med komma. Ifølge Beales notat inneholder disse chiffertekstene hver for seg informasjon om hvor skatten befinner seg, innholdet i skatten og en liste over navnene på de rettmessige arvingene til skatten og deres andeler (sistnevnte informasjon er relevant i tilfelle Beale og hans kompanjonger aldri kom for å gjøre krav på skrinet).
 
@@ -144,13 +144,13 @@ Et viktig skille å huske på er derfor mellom et **krypteringsopplegg** og et *
 
 Temaene integritet og autentisitet er like viktige som hemmeligholdelse. Våre moderne kommunikasjonssystemer ville ikke kunne fungere uten garantier for kommunikasjonens integritet og autentisitet. Uavviselighet er også viktig, for eksempel i forbindelse med digitale kontrakter, men det er ikke like nødvendig i kryptografiske anvendelser som hemmelighold, integritet og autentisitet.
 
-For det andre involverer klassiske krypteringsmetoder, som Beale-chiffrene, alltid én nøkkel som deles mellom alle de relevante partene. Mange moderne krypteringsmetoder involverer imidlertid ikke bare én, men to nøkler: en **privat** og en **offentlig nøkkel**. Mens førstnevnte skal forbli privat i alle anvendelser, er sistnevnte vanligvis offentlig kjent (derav de respektive navnene). Når det gjelder kryptering, kan den offentlige nøkkelen brukes til å kryptere meldingen, mens den private nøkkelen kan brukes til dekryptering.
+For det andre involverer klassiske krypteringsmetoder, som Beale-chiffrene, alltid én nøkkel som deles mellom alle de relevante partene. Mange moderne krypteringsmetoder involverer imidlertid ikke bare én, men to nøkler: en **privat** og en **[offentlig nøkkel](https://planb.academy/resources/glossary/public-key)**. Mens førstnevnte skal forbli privat i alle anvendelser, er sistnevnte vanligvis offentlig kjent (derav de respektive navnene). Når det gjelder kryptering, kan den offentlige nøkkelen brukes til å kryptere meldingen, mens den [private nøkkelen](https://planb.academy/resources/glossary/private-key) kan brukes til dekryptering.
 
 Den delen av kryptografien som omhandler systemer der alle parter deler én nøkkel, kalles **symmetrisk kryptografi**. Den ene nøkkelen i et slikt system kalles vanligvis den **private nøkkelen** (eller den hemmelige nøkkelen). Den grenen av kryptografien som omhandler systemer som krever et privat-offentlig nøkkelpar, kalles **asymmetrisk kryptografi**. Disse grenene omtales noen ganger også som henholdsvis **privatnøkkelkryptografi** og **offentlignøkkelkryptografi** (selv om dette kan skape forvirring, ettersom kryptografiske systemer med offentlig nøkkel også har private nøkler).
 
 Fremveksten av asymmetrisk kryptografi på slutten av 1970-tallet har vært en av de viktigste hendelsene i kryptografiens historie. Uten den ville de fleste av våre moderne kommunikasjonssystemer, inkludert Bitcoin, ikke vært mulige, eller i det minste svært upraktiske.
 
-Det er viktig å merke seg at moderne kryptografi ikke utelukkende er studiet av symmetriske og assymetriske nøkkelkryptografiske systemer (selv om det dekker store deler av feltet). Kryptografi handler for eksempel også om hashfunksjoner og pseudotilfeldige tallgeneratorer, og du kan bygge applikasjoner på disse primitivene som ikke er relatert til symmetrisk eller assymetrisk nøkkelkryptografi.
+Det er viktig å merke seg at moderne kryptografi ikke utelukkende er studiet av symmetriske og assymetriske nøkkelkryptografiske systemer (selv om det dekker store deler av feltet). Kryptografi handler for eksempel også om [hashfunksjoner](https://planb.academy/resources/glossary/hash-function) og pseudotilfeldige tallgeneratorer, og du kan bygge applikasjoner på disse primitivene som ikke er relatert til symmetrisk eller assymetrisk nøkkelkryptografi.
 
 For det tredje var klassiske krypteringsskjemaer, som de som ble brukt i Beale-chiffrene, mer kunst enn vitenskap. Den opplevde sikkerheten var i stor grad basert på intuisjoner om kompleksiteten. De ble vanligvis oppdatert når man oppdaget et nytt angrep på dem, eller droppet helt hvis angrepet var spesielt alvorlig. Moderne kryptografi er imidlertid en streng vitenskap med en formell, matematisk tilnærming til både utvikling og analyse av kryptografiske ordninger. [5]
 
@@ -1736,7 +1736,7 @@ I hvert fall en av hovedmotivasjonene bak satsingen deres var at de forutså at 
 
 Diffie, Hellman og Merkles utholdenhet ga resultater. Den første publikasjonen av resultatene deres var en artikkel av Diffie og Hellman i 1976 med tittelen "New Directions in Cryptography" Her presenterte de to originale måter å løse problemene med nøkkeldistribusjon og nøkkeladministrasjon på.
 
-Den første løsningen de tilbød, var en ekstern *nøkkelutvekslingsprotokoll*, det vil si et sett med regler for utveksling av en eller flere symmetriske nøkler over en usikker kommunikasjonskanal. Denne protokollen er nå kjent som *Diffie-Helmann-nøkkelutveksling* eller *Diffie-Helmann-Merkle-nøkkelutveksling*. [2]
+Den første løsningen de tilbød, var en ekstern *nøkkelutvekslingsprotokoll*, det vil si et sett med regler for utveksling av en eller flere symmetriske nøkler over en usikker kommunikasjonskanal. Denne protokollen er nå kjent som *[Diffie-Helmann](https://planb.academy/resources/glossary/diffiehellman)-nøkkelutveksling* eller *Diffie-Helmann-Merkle-nøkkelutveksling*. [2]
 
 Ved Diffie-Helmann-nøkkelutveksling utveksler to parter først noe informasjon offentlig på en usikker kanal, for eksempel Internett. På grunnlag av denne informasjonen lager de deretter uavhengig av hverandre en symmetrisk nøkkel (eller et par symmetriske nøkler) for sikker kommunikasjon. Selv om begge parter lager nøklene sine uavhengig av hverandre, sørger informasjonen de har delt offentlig for at denne nøkkelprosessen gir samme resultat for dem begge.
 
@@ -1770,7 +1770,7 @@ Lukefunksjonene som brukes i asymmetrisk kryptografi (og Diffie Helmann-nøkkelu
 
 Det **diskrete logaritmeproblemet** er et problem som oppstår i sykliske grupper. Gitt en generator i en bestemt syklisk gruppe, må man beregne den unike eksponenten som trengs for å produsere et annet element i gruppen fra generatoren.
 
-Diskrete logaritmebaserte systemer baserer seg på to hovedtyper sykliske grupper: multiplikative grupper av heltall og grupper som inkluderer punkter på elliptiske kurver. Den opprinnelige Diffie Helmann-nøkkelutvekslingen som ble presentert i "New Directions in Cryptography", fungerer med en syklisk multiplikativ gruppe av heltall. Bitcoins digitale signaturalgoritme og det nylig introduserte Schnorr-signaturskjemaet (2021) er begge basert på det diskrete logaritmeproblemet for en bestemt syklisk gruppe av elliptiske kurver.
+Diskrete logaritmebaserte systemer baserer seg på to hovedtyper sykliske grupper: multiplikative grupper av heltall og grupper som inkluderer punkter på [elliptiske kurver](https://planb.academy/resources/glossary/elliptic-curve). Den opprinnelige Diffie Helmann-nøkkelutvekslingen som ble presentert i "New Directions in Cryptography", fungerer med en syklisk multiplikativ gruppe av heltall. Bitcoins [digitale signaturalgoritme](https://planb.academy/resources/glossary/digital-signature) og det nylig introduserte [Schnorr-signaturskjemaet](https://planb.academy/resources/glossary/schnorr-protocol) (2021) er begge basert på det diskrete logaritmeproblemet for en bestemt syklisk gruppe av elliptiske kurver.
 
 I det følgende skal vi se nærmere på en oversikt over hemmelighold og autentisering i asymmetriske omgivelser. Før vi gjør det, må vi imidlertid komme med en kort historisk notis.
 
@@ -1834,7 +1834,7 @@ Et annet eksempel er digitale signaturer, som er et viktig aspekt ved sikker dis
 
 Som et siste eksempel på kraften i digitale signaturer kan vi ta Bitcoin. En av de vanligste misforståelsene om Bitcoin, særlig i media, er at transaksjoner er krypterte. I stedet fungerer Bitcoin-transaksjoner med digitale signaturer for å garantere sikkerheten.
 
-Bitcoins finnes i batcher som kalles ubrukte transaksjonsutganger (eller **UTXO-er**). Anta at du mottar tre betalinger på en bestemt Bitcoin-adresse for 2 bitcoins hver. Teknisk sett har du nå ikke 6 bitcoins på den adressen. I stedet har du tre batcher med 2 bitcoins som er låst av et kryptografisk problem knyttet til den adressen. For enhver betaling du foretar, kan du bruke én, to eller alle tre av disse batchene, avhengig av hvor mye du trenger for transaksjonen.
+Bitcoins finnes i batcher som kalles ubrukte transaksjonsutganger (eller **[UTXO](https://planb.academy/resources/glossary/utxo)-er**). Anta at du mottar tre betalinger på en bestemt Bitcoin-adresse for 2 bitcoins hver. Teknisk sett har du nå ikke 6 bitcoins på den adressen. I stedet har du tre batcher med 2 bitcoins som er låst av et kryptografisk problem knyttet til den adressen. For enhver betaling du foretar, kan du bruke én, to eller alle tre av disse batchene, avhengig av hvor mye du trenger for transaksjonen.
 
 Beviset på eierskap over ubrukte transaksjonsutganger vises vanligvis via en eller flere digitale signaturer. Bitcoin fungerer nettopp fordi gyldige digitale signaturer på ubrukte transaksjonsutganger er beregningsmessig ugjennomførbare å lage, med mindre du er i besittelse av den hemmelige informasjonen som kreves for å lage dem.
 
@@ -1880,7 +1880,7 @@ En **kryptografisk hashfunksjon** er bare en hashfunksjon som er nyttig for anve
 
 I kryptografisammenheng refererer en "hashfunksjon" vanligvis til en kryptografisk hashfunksjon. Jeg vil følge denne praksisen fra nå av.
 
-Et eksempel på en populær hashfunksjon er **SHA-256** (secure hash algorithm 256). Uansett størrelsen på inndataene (f.eks. 15 bit, 100 bit eller 10 000 bit), vil denne funksjonen gi en 256-biters hashverdi. Nedenfor kan du se noen eksempler på utdata fra SHA-256-funksjonen.
+Et eksempel på en populær hashfunksjon er **[SHA-256](https://planb.academy/resources/glossary/sha256)** (secure hash algorithm 256). Uansett størrelsen på inndataene (f.eks. 15 bit, 100 bit eller 10 000 bit), vil denne funksjonen gi en 256-biters hashverdi. Nedenfor kan du se noen eksempler på utdata fra SHA-256-funksjonen.
 
 "Hello": `185f8db32271fe25f561a6fc938b2e264306ec304eda518007d1764826381969`
 

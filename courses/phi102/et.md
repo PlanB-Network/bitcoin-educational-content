@@ -1117,7 +1117,7 @@ Poliitilise domineerimise loogikas lakkab raha olemast kaup või teenus nagu iga
 
 
 
-Juba keskajal analüüsis Nicolas Oresme rahamanipulatsioonide kahjulikku mõju kaubandusele. Rahalangus tekitab inflatsiooni ja destabiliseerib hindu, sest rahasignaal muutub ebakindlaks, kui väärtuse mõõtmise peremees võib meelevaldselt muuta nende sisu. Metallraha ise oli sageli vaid illusioon, kusjuures mündid sisaldasid madala väärtusega sulameid, mida mõned 19. sajandi liberaalsed kirjanikud nimetasid vasest assignaatideks.
+Juba keskajal analüüsis Nicolas Oresme rahamanipulatsioonide kahjulikku mõju kaubandusele. Rahalangus tekitab [inflatsiooni](https://planb.academy/resources/glossary/inflation) ja destabiliseerib hindu, sest rahasignaal muutub ebakindlaks, kui väärtuse mõõtmise peremees võib meelevaldselt muuta nende sisu. Metallraha ise oli sageli vaid illusioon, kusjuures mündid sisaldasid madala väärtusega sulameid, mida mõned 19. sajandi liberaalsed kirjanikud nimetasid vasest assignaatideks.
 
 
 

@@ -8,9 +8,7 @@ description: O que é uma carteira Watch-Only e como usá-la?
 
 ***ATENÇÃO:** Após a prisão dos fundadores da Samourai Wallet e a apreensão dos seus servidores em 24 de abril, o aplicativo Sentinel ainda funciona, mas **é obrigatório usar seu próprio Dojo** para ter acesso às informações da blockchain e transmitir transações.*
 
-_Estamos acompanhando de perto a evolução deste caso, bem como os desenvolvimentos relacionados às ferramentas associadas. Fique assegurado de que atualizaremos este tutorial à medida que novas informações estiverem disponíveis._
 
-_Este tutorial é fornecido apenas para fins educativos e informativos. Não endossamos nem encorajamos o uso dessas ferramentas para fins criminosos. É responsabilidade de cada usuário cumprir as leis em sua jurisdição._
 
 ---
 
@@ -26,7 +24,7 @@ Este tipo de aplicação retém apenas os dados necessários para monitorar uma 
 Geralmente, a watch-only é usada em conjunto com uma carteira de hardware. Isso permite o armazenamento das chaves privadas da carteira de forma "fria", em um dispositivo não conectado à internet, que possui uma superfície de ataque mínima, isolando as chaves privadas de ambientes potencialmente vulneráveis. A aplicação watch-only, por outro lado, armazena exclusivamente a chave pública estendida (`xpub`, `zpub`, etc.) da carteira Bitcoin. Esta chave-mãe não permite a descoberta das chaves privadas associadas e, consequentemente, não permite o gasto de bitcoins. No entanto, permite a derivação de chaves públicas filhas e endereços de recebimento. Com o conhecimento dos endereços da carteira protegida pela carteira de hardware, a aplicação watch-only pode rastrear essas transações na rede Bitcoin, oferecendo ao usuário a capacidade de monitorar seu saldo e gerar novos endereços de recebimento, sem ter que conectar sua carteira de hardware a cada vez.
 
 ## Qual Carteira Watch-Only usar?
-Atualmente, a aplicação watch-only mais abrangente é o [Sentinel](https://sentinel.watch/), desenvolvido pelas equipes da Samourai Wallet. Ele engloba todas as características essenciais para uma boa carteira watch-only:
+Atualmente, a aplicação watch-only mais completa é [Sentinel](https://github.com/wanderingking072/sentinel-android), inicialmente desenvolvida pelas equipas da Samourai Wallet e agora mantida pela comunidade. Reúne todas as funcionalidades essenciais para uma boa carteira watch-only:
 - Suporte para chaves estendidas, chaves públicas e endereços;
 - A capacidade de organizar várias contas ou carteiras em coleções;
 - Geração de endereços para receber bitcoins na carteira de hardware sem exigir seu uso direto;
@@ -40,25 +38,20 @@ Para usuários de iOS em busca de uma alternativa ao Sentinel, [Green Wallet](ht
 ![watch-only](assets/notext/2.webp)
 ## Como Usar a Carteira Watch-Only Sentinel?
 ### Instalação e Configuração
-Comece instalando o aplicativo Sentinel. Você pode fazer isso tanto pela Google Play Store quanto usando o [APK disponível para download no site oficial](https://sentinel.watch/download/).
+Comece por instalar a aplicação Sentinel. Pode fazê-lo utilizando o [APK disponível para download no repositório github do projeto](https://github.com/wanderingking072/sentinel-android/releases).
 
-![watch-only](assets/notext/3.webp)
 
-Ao abrir o aplicativo pela primeira vez, você tem a escolha entre:
-- `Conectar ao Dojo`;
-- `Conectar ao servidor do Samourai`.
 
-Dojo, desenvolvido pela equipe Samourai, é uma versão completa de nó Bitcoin que pode ser instalada de forma independente ou adicionada com um clique a soluções de nó-em-caixa como [Umbrel](https://umbrel.com/) e [RoninDojo](https://ronindojo.io/).
 
-[**-> Descubra como instalar o RoninDojo v2 em um Raspberry Pi.**](https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
-Se você tem seu próprio Dojo, pode conectá-lo nesta etapa. Ao fazer isso, você se beneficiará do mais alto nível de privacidade ao verificar as informações de transação da rede Bitcoin.
+
+Em seguida, deverá conectar-se obrigatoriamente ao seu próprio Dojo, uma vez que os servidores da Samourai Wallet já não estão disponíveis. Se ainda não possui o seu próprio Dojo, pode utilizar um Dojo disponibilizado pela comunidade no site [The Dojo Bay](https://dojobay.pw/), ou seguir o nosso tutorial para instalar o seu :
+
+https://planb.academy/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9
 
 ![watch-only](assets/notext/4.webp)
 
-Caso contrário, é possível optar pelo servidor padrão do Samourai. Você também pode escolher se deseja conectar via Tor ou não.
 
-![watch-only](assets/notext/5.webp)
 
 Você então chegará à página principal do Sentinel.
 

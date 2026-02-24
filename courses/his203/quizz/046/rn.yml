@@ -1,0 +1,10 @@
+question: Ni nde yashize mu ngiro igikorwa ca Scrypt gikoresha cane ubwonko nk’ubuhinga bwa mining bushobora guhangana na GPU mu mafaranga y’ibanga ya Tenebrix mu 2011?
+answer: Ubuhinga
+wrong_answers:
+  - Charlie Lee
+  - Inzige
+  - Kolini Perisivali
+explanation: |
+ Scrypt ni igikorwa co gukuraho urufunguzo rwakozwe mu 2009 n’umuhinga mu vy’informatique wo muri Canada Colin Percival. Yatowe n’umucukuzi w’amabuye y’agaciro yitwa ArtForz, uno akaba yarafashije . 
+ Lolcust yateguye amafaranga y’ibanga ya Tenebrix, yatangujwe muri Nzero 2011. Charlie Lee yafashe iyo nzira kugira ngo ayishire muri Litecoin, yatangujwe mu kwezi kwa Gitugutu.
+reviewed: true

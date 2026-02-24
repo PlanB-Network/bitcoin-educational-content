@@ -1,708 +1,68 @@
 non_translatable:
+- 1ML
 - ADDR
 - ADDR.DAT
 - ADDRV2
-- Alice
-- AML/CTF
-- ASIC
+- Adam Back
 - Address
-- off chain
-- off-chain
+- Aegis Authenticator
+- Alby
+- Alby Go
+- Alby Hub
+- Alias Vault
+- Alice
 - Altcoin
 - AluVM
+- AML/CTF
+- Amboss
 - Anchor
 - ANCHORS.DAT
+- Andreas Antonopoulos
+- Andrew S. Tanenbaum
+- Angry IP Scanner
+- anyone-can-spend
 - AOPP
 - API
+- AppImage
 - Aqua
+- Arch Linux
 - ARK
 - ASCII
+- ASIC
+- ASICBoost
 - ASMAP
-- Assignment
-- ATH
-- ATLC
-- Sybil Attack
-- BANLIST.DAT
-- BANLIST.JSON
-- BARE-Multisig
-- BARE-MULTISIG
-- BASE58CHECK
-- BECH32
-- BECH32M
-- B-CERT
-- BDK
-- BIP
-- BIPs
-- Bitchat
-- Bitcoin
-- Bitcoin core
-- Bitcoin Dev Kit
-- Bitcoin Fog
-- BITCOIN FOG
-- Bitcoin Game Show
-- Bitcoin Knots
-- Bitcoin Satoshi Vision
-- Bitcoin.conf
-- Bitcoin-dev
-- BITCOIN-DEV
-- bitcoin.conf
-- BITCOIN.CONF
-- BitcoinVoucherBot P2P
-- BitcoinVN
-- Bit gold
-- BIT GOLD
-- Biz School
-- Blind signature
-- Blinding key
-- Blinded ranges
-- BLK*.DAT
-- BLKINDEX.DAT
-- BLKTREE/
-- BLOCK
-- Block explorer
-- Block reward
-- Blockchain
-- BLOCKSIZE WAR
-- BLOCKSTREAM
-- Blockstream Green
-- Bob
-- Bolt
-- BTCPAY SERVER
-- BUIDL
-- Business Logic
-- B-MONEY
-- CGMINER
-- chain code
-- CHAINSTATE/
-- CLI
-- CPFP
-- Child pay for parent
-- Child-pay-for-parent
-- Client-side Validation
-- CoinJoin
-- Coinjoin
-- Coin
-- Coinbase Transaction
-- COINS/
-- Cold
-- Cold Wallet
-- COLD WALLET
-- COOKIE (.COOKIE)
-- Commitment
-- Commitment Transaction
-- Confidential Transactions
-- Confidential Address
-- Consignment
-- Consignment Endpoint
-- Contract
-- Contract Operation
-- Contract Participant
-- Contract Rights
-- Contract State
-- Cypherpunk
-- DATABASE/
-- DB.LOG
-- DEBUG.LOG
-- Debugger
-- Decouvre Bitcoin
-- Descriptor
-- Descriptor Wallets
-- Deterministic Bitcoin Commitment
-- DIGEST (HASH)
-- Directed Acyclic Graph
-- Double-spending
-- Dust
-- DUST LIMIT
-- DUSTING ATTACK
-- Découvre Bitcoin
-- ECASH
-- ECLAIR
-- ELECTRS
-- Electrs
-- ELECTRUM
-- Electrum
-- ELECTRUM SERVER
-- Electrum Server
-- Elements
-- ELTOO
-- Eltoo
-- Engraving Extra Transaction Proof
-- Exchange
-- Faucet
-- Federated 2-Way Peg
-- FEDIMINT
-- Fedimint
-- FIBRE
-- FINNEY HAL
-- Fork
-- Full node
-- Full-node
-- Genesis
-- Global State
-- Green
-- Hal Finney
-- Halving
-- Hard Fork
-- Hardware Wallet
-- Hash
-- HASHCASH
-- HashCash
-- Hasher
-- Hashrate
-- HODL
-- Hot
-- HTLC
-- INDEXES/TXINDEX/
-- Interface
-- Interface Implementation
-- Invoice
-- IP_ASN.MAP
-- Issued Assets
-- JoinMarket
-- JOINMARKET
-- Joinstr
-- Keysend
-- LEVELDB
-- LIBSECP256K1
-- LIGHTNING NODE
-- LIGHTNING SERVICE PROVIDER
-- LN
-- LND
-- LNURL-Withdraw
-- Layer
-- Ledger
-- Liana
-- Lightning Network
-- Lightning Network Daemon
-- Liquid
-- Liquid Network
-- LIQUIDITY
-- LOCK (.LOCK)
-- Mainnet
-- Maximalist
-- MAX_BLOCK_SIZE
-- MEMPOOL.DAT
-- Mempool
-- Merkle Root
-- Merkle Tree
-- Miner
-- MINER
-- Mining
-- mining
-- Mining Farm
-- Mining Pool
-- Mnemonic
-- Multi Protocol Commitment
-- Multisig
-- MyNode
-- M-OF-N
-- NLOCKTIME
-- Nonce
-- NO2X
-- nSequence
-- NSEQUENCE
-- nVersion
-- ONION_PRIVATE_KEY
-- ONION_V3_PRIVATE_KEY
-- OP_CODE
-- OP_RETURN
-- OP_0NOTEQUAL
-- OP_1ADD
-- OP_1NEGATE
-- OP_1SUB
-- OP_2 TO OP_16
-- OP_2 TO OP_16 (0X52 TO 0X60)
-- OP_2DROP
-- OP_2OVER
-- OP_2ROT
-- OP_2SWAP
-- OP_ADD
-- OP_BOOLAND
-- OP_BOOLOR
-- OP_CAT
-- OP_CHECKHASHVERIFY
-- OP_CHECKLOCKTIMEVERIFY
-- OP_CHECKMULTISIG
-- OP_CHECKMULTISIGVERIFY
-- OP_CHECKSEQUENCEVERIFY
-- OP_CHECKSIG
-- OP_CHECKSIGADD
-- OP_CHECKSIGVERIFY
-- OP_CODESEPARATOR
-- OP_DEPTH
-- OP_DROP
-- OP_DUP
-- OP_ELSE
-- OP_ENDIF
-- OP_EQUAL
-- OP_EQUALVERIFY
-- OP_EVAL
-- OP_FALSE
-- OP_FROMALTSTACK
-- OP_GREATERTHAN
-- OP_GREATERTHANOREQUAL
-- OP_HASH160
-- OP_HASH256
-- OP_IF
-- OP_LESSTHAN
-- OP_LESSTHANOREQUAL
-- OP_NEGATE
-- OP_NIP
-- OP_NOP
-- OP_NOT
-- OP_NOTIF
-- OP_NUMEQUAL
-- OP_NUMEQUALVERIFY
-- OP_NUMNOTEQUAL
-- OP_OVER
-- OP_PICK
-- OP_PUSHDATA1
-- OP_PUSHDATA2
-- OP_PUSHDATA4
-- OP_RIPEMD160
-- OP_ROLL
-- OP_ROT
-- OP_SHA1
-- OP_SHA256
-- OP_SIZE
-- OP_SUB
-- OP_SUCCESS
-- OP_SWAP
-- OP_TOALTSTACK
-- OP_TRUE
-- OP_TUCK
-- OP_VERIFY
-- OP_WITHIN
-- OVERCLOCKING
-- OVERCLOCK
-- On-Chain
-- Orphan block
-- Owned State
-- Ownership
-- P2P
-- P2SH
-- P2TR
-- P2WPKH
-- PATOSHI
-- PAYNYM
-- PEERS.DAT
-- Phoenix
-- Phoenixd
-- PHOENIXD
-- POOL
-- PSBT
-- Partially Signed Bitcoin Transaction
-- Pay-to-Script-Hash
-- Pay-to-Taproot
-- Pay-to-Witness-Public-Key-Hash
-- Payjoin
-- Pedersen commitment
-- Plan ₿
-- Plan ₿ Hangouts
-- Plan ₿ Labs
-- Plan ₿ Network
-- Plan ₿ Academy
-- POOL HOPPING
-- Proof of Work
-- Proof-of-Work
-- pruned
-- QUBIT
-- RBF
-- RGB
-- RPC
-- Redeem
-- Replace by fee
-- Replace-by-fee
-- RICOCHET
-- Rust
-- Satoshi
-- Sats
-- Schema
-- Seal
-- Seal Definition
-- SegWit
-- SEGWIT2X
-- Shard
-- Shitcoin
-- Sidechain
-- SIGHASH_ALL
-- SIGHASH_ALL/SIGHASH_ACP
-- SIGHASH_ANYPREVOUT
-- SIGHASH_ANYPREVOUTANYSCRIPT
-- SIGHASH_NONE
-- SIGHASH_NONE/SIGHASH_ACP
-- SIGHASH_SINGLE
-- SIGHASH_SINGLE/SIGHASH_ACP
-- SIGNET
-- Silentium
-- SILK ROAD
-- Single-Use Seal
-- SLIP
-- Smart contract
-- Sparrow
-- Sparrow wallet
-- Soft
-- Soft Fork
-- Software Wallet
-- STABLECOIN
-- Stash
-- State Extension
-- State Transition
-- STONEWALL
-- STRATUM
-- Strong Federation
-- Supply
-- Taproot
-- Tech School
-- Terminal Consignment
-- Testnet
-- TIDES
-- TIMELOCK
-- Timestamp
-- Transition Bundle
-- Trustless
-- Unconfidential address
-- UTXO
-- Valency
-- WABISABI
-- Wallet
-- WALLET.DAT
-- WALLETS/DB.LOG
-- Watch Tower
-- Watch Towers
-- watch towers
-- watch tower
-- Watch-only wallet
-- Watchtower
-- Whirlpool
-- WHITE PAPER
-- Witness Transaction
-- ZEROCONF
-- ZEROSYNC
-- \langle
-- \ldots
-- \rangle
-- anyone-can-spend
-- b-cli
-- bitcoin-cli
-- bitcoind
-- blinded
-- block signer
-- block signing
-- block size war
-- claimpegin
-- combineblocksigs
-- commitment transaction
-- con_max_block_sig_size
-- daemon
-- default asset
-- destroyamount
-- double-spending
-- dumpprivkey
-- dynafed
-- elements-cli
-- elementsd
-- federated peg
-- federated peg script
-- fork
-- full node
-- generate
-- getnewaddress
-- getnewblockhex
-- getpeginaddress
-- getrawtransaction
-- gettransaction
-- gettxoutproof
-- getwalletinfo
-- hashrate
-- importaddress
-- importprivkey
-- issueasset
-- listissuances
-- mainchain
-- mainnet
-- merkle path
-- multi-sig
-- on chain
-- on-chain
-- output descriptor
-- passphrase
-- pegged asset
-- proof of work
-- proof-of-work
-- redeemscript
-- reissuance token
-- reissueasset
-- satoshi
-- sats
-- secure element
-- script reedem
-- seed
-- seedphrase
-- sendtoaddress
-- sendtomainchain
-- signblock
-- signblockscript
-- submitblock
-- token
-- transaction ID
-- txid
-- unblinded
-- wallet
-- watchmen
-- ₿-CERT
-- be-BOP
-- Breez - POS
-- BTC Map
-- BTCPay Server - Umbrel
-- BTCPay Server - USDT
-- Coinos
-- LNbits
-- LNbits Server
-- Open Node
-- Flash - POS
-- Speed Wallet - POS
-- Swiss Bitcoin Pay
-- Wallet of Satoshi - POS
-- Aegis Authenticator
-- Alias Vault
-- Angry IP Scanner
-- Arch Linux
-- Aurora Store
-- Authy 2FA
-- Bitwarden
-- Cryptomator
-- Debian
-- DietPi
-- Elementary OS
-- Ente Auth
-- F-Droid
-- Fedora
-- Firefox
-- GrapheneOS
-- Graylog
-- GnuPG
-- IVPN
-- Jami
-- KeePass
-- Keet
-- Ledger U2F & FIDO2
-- FIDO2
-- LibreWolf
-- LineageOS
-- Linux Mint
-- LN VPN
-- LUKS
-- Lynis
-- Manjaro
-- Mozilla VPN
-- Mullvad VPN
-- Mullvad Browser
-- Nmap
-- Ntopng
-- Olvid
-- OPNsense
-- Orion Browser
-- PearPass
-- Pears
-- pfSense
-- Pi-Hole
-- Picocrypt
-- Proton Authenticator
-- Proton Drive
-- Proton Mail
-- PureOS
-- Qubes
-- Raspberry Pi Zero
-- YubiKey 2FA
-- Seedkeeper - Password Manager
-- Session
-- Signal
-- Simple Login
-- SimpleX Chat
-- Tails
-- Tailscale
-- Telegram
-- Threema
-- Thunderbird
-- Tor Browser
-- Tox
-- Trezor U2F & FIDO2
-- Ubuntu
-- VeraCrypt
-- VirtualBox
-- Whonix
-- WireGuard
-- Zen Browser
-- GitHub Account
-- GitHub Desktop
-- Plan ₿ Academy - Pears App
-- Banxaas
-- Bisq
-- Bisq 2
-- Bitfeed
-- Bitfinex
-- Bitika
-- Bitrefill
-- BitSpenda
-- Bitstack
-- Bitstamp
-- Bittr
-- Boltz
-- Bull Bitcoin
-- Coincards
-- Debifi
-- Flash
-- Hodl Hodl
-- Kraken
-- LNP2PBot
-- Moon
-- Mostro
-- Paymium
-- Peach
-- Relai
-- Robosats
-- StackinSat
-- SwapMarket
-- Tando
-- The Bitcoin Company
-- Vexl
-- Zeus Swap
-- Attakaï
-- Bitaxe
-- Braiins Mini Miner
-- Braiins Pool
-- Canaan Avalon Mini 3
-- Canaan Avalon Nano 3S
-- NerdAxe Gamma
-- Nerdminer
-- NerdQaxe
-- Ocean Mining
-- Public Pool
-- Alby Hub
-- Amboss
-- Bitcoin Core (Linux)
-- Bitcoin Core (macOS & Windows)
-- Dojo
-- Lightning App
-- Lightning Network Daemon (Linux)
-- Lightning Smoke Machine
-- My Node
-- Nakamochi
-- Neutrino
-- NOSTR
-- Nostr
-- RaspiBlitz
-- RGB CLI
-- Ride The Lightning (RTL)
-- RGB Lightning Node
-- RoninDojo
-- RoninDojo v2
-- Start9
-- ThunderHub
-- Umbrel
-- Umbrel LND
-- Umbrel Nostr
-- Lightning Watchtower
-- Ashigaru Terminal
-- Ashigaru Ricochet
+- Ashigaru
 - Ashigaru - Ricochet
 - Ashigaru - Stonewall
 - Ashigaru - Stonewall x2
 - Ashigaru - Stowaway
-- Blockstream Explorer
-- Coin Control
-- Remix - Whirlpool
-- Labelling UTXO
-- Alby
-- Alby Go
-- Ashigaru
+- Ashigaru Ricochet
+- Ashigaru Terminal
+- Assignment
+- Association Bitcoin Lille
+- ATH
+- ATLC
+- Attakaï
+- Authy 2FA
+- Aurora Store
+- b-cli
+- B-CERT
+- B-MONEY
 - Bacca
-- BIP-85
-- BitBox02
-- Bitcoin Keeper
-- Bitkey
-- Bitkit Wallet
-- Blink
-- Blitz Wallet
-- Blixt Wallet
-- Blockstream App - Desktop
-- Blockstream App - Liquid
-- Blockstream App - Onchain
-- Blockstream App - Watch-Only
-- Blockstream Green - 2FA
-- Blue Wallet
-- Breez
-- Bull Bitcoin Wallet
-- Cake Wallet
-- Dana Wallet
-- Cashu.me
-- COLDCARD Mk
-- COLDCARD - Co-Sign
-- COLDCARD Q
-- COLDCARD Q - Key Teleport
-- Electrum Airgap
-- Electrum OP_RETURN
-- Envoy
-- Fedi
-- Frostsnap
-- Ginger Wallet
-- Jade
-- Jade DIY
-- Jade Plus - Green
-- Jade Plus - Sparrow
-- Krux
-- Ledger Nano S
-- Ledger Flex
-- Ledger Nano S Plus
-- Lipa
-- Machankura
-- Minibits Wallet
-- Misty Breez
-- Muun
-- SAFU Ninja
-- Nunchuk
-- OPENDIME
-- Passport Core
-- Portal
-- Proton Wallet
-- Rumble Wallet
-- Satochip
-- Satodime
-- Satscard
-- Sats.mobi
-- Seedkeeper
-- Seedkeeper x SeedSigner
-- SeedSigner
-- Satochip x SeedSigner
-- Sentinel
-- Sparrow Wallet - Multisig
-- Specter Desktop
-- Specter DIY
-- Speed Wallet
-- StashPay
-- Tapsigner
-- Trezor Model One
-- Trezor Safe 3
-- Trezor Safe 5
-- Trezor Shamir Backup
-- Wallet of Satoshi
-- Wasabi Wallet
-- Zeus Embedded
-- KaleidoSwap
-- Kali
-- Kali Linux
-- Pop!_OS
-- LN Markets
-- Windows 11
-- Giacomo Zucco
-- Voltz
-- SMS4Sats
-- White Noise
-- 1ML
-- Macadamia
-- ASICBoost
+- BANLIST.DAT
+- BANLIST.JSON
+- Banxaas
+- BARE-MULTISIG
+- BARE-Multisig
+- BASE58CHECK
+- BDK
+- be-BOP
+- BECH32
+- BECH32M
 - BerkeleyDB
+- Bill Gates
+- BIP
+- BIP-85
 - BIP0001
 - BIP0002
 - BIP0008
@@ -783,110 +143,763 @@ non_translatable:
 - BIP0384
 - BIP0385
 - BIP0386
+- BIPs
+- Bisq
+- Bisq 2
+- Bit gold
+- BIT GOLD
+- Bitaxe
+- Bitchat
+- Bitcoin
+- Bitcoin core
+- Bitcoin Core (Linux)
+- Bitcoin Core (macOS & Windows)
+- Bitcoin Dev Kit
+- Bitcoin Fog
+- BITCOIN FOG
+- Bitcoin Game Show
+- Bitcoin Keeper
+- Bitcoin Knots
+- Bitcoin Satoshi Vision
+- Bitcoin tumbler
+- Bitcoin.conf
+- bitcoin.conf
+- BITCOIN.CONF
+- Bitcoin-dev
+- BITCOIN-DEV
+- bitcoin-cli
+- bitcoind
 - BITCOINTALK
+- BitBox02
+- Bitfeed
+- Bitfinex
+- Bitika
+- Bitkey
+- Bitkit Wallet
+- Bitstamp
+- Bitrefill
+- BitSpenda
+- Bitstack
+- Bittr
+- Bitwarden
+- Biz School
+- BLK*.DAT
+- BLKINDEX.DAT
+- BLKTREE/
+- Blind signature
+- Blinded ranges
+- Blinding key
+- blinded
+- Blink
+- Blitz Wallet
+- Blixt Wallet
+- BLOCK
+- Block explorer
+- Block reward
+- block signer
+- block signing
+- block size war
+- Blockchain
+- blockchain
+- Blockstream App - Desktop
+- Blockstream App - Liquid
+- Blockstream App - Onchain
+- Blockstream App - Watch-Only
+- Blockstream Explorer
+- Blockstream Green
+- Blockstream Green - 2FA
+- BLOCKSIZE WAR
+- BLOCKSTREAM
+- Blue Wallet
+- Bob
+- Bolt
+- Boltz
+- Braiins Mini Miner
+- Braiins Pool
+- Brave
+- Breez
+- Breez - POS
 - BTC
+- BTC Map
+- BTCPAY SERVER
+- BTCPay Server - Umbrel
+- BTCPay Server - USDT
+- BUIDL
+- Bull Bitcoin
+- Bull Bitcoin Wallet
+- Business Logic
+- Cake Wallet
+- Canaan Avalon Mini 3
+- Canaan Avalon Nano 3S
+- Cashu.me
+- CGMINER
+- chain code
+- CHAINSTATE/
+- Child pay for parent
+- Child-pay-for-parent
+- Chrome OS
+- Cinnamon
+- Citymapper
+- claimpegin
+- CLI
+- Client-side Validation
 - CLN
+- Coin
+- Coin Control
+- Coinbase Transaction
+- Coincards
+- Coinjoin
+- CoinJoin
+- COINS/
+- Cold
+- cold storage
+- Cold Wallet
+- COLD WALLET
+- COLDCARD - Co-Sign
+- COLDCARD Mk
+- COLDCARD Q
+- COLDCARD Q - Key Teleport
+- combineblocksigs
+- Commitment
+- Commitment Transaction
+- commitment transaction
+- con_max_block_sig_size
+- Confidential Address
+- Confidential Transactions
+- Consignment
+- Consignment Endpoint
+- Contract
+- Contract Operation
+- Contract Participant
+- Contract Rights
+- Contract State
+- COOKIE (.COOKIE)
 - COVENANT
+- CPFP
+- Cryptomator
+- Cypherpunk
+- daemon
+- Dana Wallet
+- DATABASE/
+- DB.LOG
+- Debifi
+- Debian
+- DEBUG.LOG
+- Debugger
+- Decouvre Bitcoin
+- Découvre Bitcoin
+- DeepL
+- Deezer
+- default asset
+- Dennis Ritchie
+- Descriptor
+- Descriptor Wallets
+- destroyamount
+- Deterministic Bitcoin Commitment
+- DietPi
+- DIGEST (HASH)
+- Directed Acyclic Graph
 - DLC
+- Dojo
+- Double-signature
+- Double-spending
+- double-spending
+- dumpprivkey
+- Dust
+- DUST LIMIT
+- DUSTING ATTACK
+- dynafed
+- ECASH
 - ECDSA
+- ECLAIR
+- ELECTRS
+- Electrs
+- ELECTRUM
+- Electrum
+- Electrum Airgap
+- Electrum OP_RETURN
+- ELECTRUM SERVER
+- Electrum Server
+- Elementary OS
+- Elements
+- elements-cli
+- elementsd
+- ELTOO
+- Eltoo
+- Engraving Extra Transaction Proof
+- Ente Auth
+- Envoy
+- Ethernet
+- Exchange
+- exiftool
+- ExpressVPN
+- F-Droid
+- Fast Boot
+- Fast Startup
+- Faucet
+- Fedi
+- Federated 2-Way Peg
+- federated peg
+- federated peg script
+- FEDIMINT
+- Fedimint
+- Fedora
+- FIBRE
+- FIDO2
+- FileVault
+- FINNEY HAL
+- Firefox
+- Flash
+- Flash - POS
+- Foodvisor
+- Fork
+- fork
+- Fountain
+- Frostsnap
+- Full node
+- full node
+- Full-node
+- Gecko
+- Genesis
+- getnewaddress
+- getnewblockhex
+- getpeginaddress
+- getrawtransaction
+- gettransaction
+- gettxoutproof
+- getwalletinfo
+- Giacomo Zucco
+- Ginger Wallet
+- GitHub Account
+- GitHub Desktop
+- Global State
+- GNU/Linux
+- GnuPG
+- Google Maps
+- Google Password Manager
+- GrapheneOS
+- Graylog
+- Green
+- Gregory Maxwell
+- Hal Finney
+- Halving
+- halving
+- Hard Fork
+- Hardware Wallet
+- Hash
+- hash
+- HASHCASH
+- HashCash
+- Hasher
+- Hashrate
+- hashrate
+- HODL
+- Hodl Hodl
+- Hot
+- HTLC
+- importaddress
+- importprivkey
+- INDEXES/TXINDEX/
+- Interface
+- Interface Implementation
+- Invoice
+- IP_ASN.MAP
+- Issued Assets
+- issueasset
+- IVPN
+- Jade
+- Jade DIY
+- Jade Plus - Green
+- Jade Plus - Sparrow
+- Jami
+- JavaScript
+- Jim Clark
+- JOINMARKET
+- JoinMarket
+- Joinstr
+- Joseph Poon
 - JSON
+- Kali
+- Kali Linux
+- KaleidoSwap
+- KDE Plasma
+- KeePass
+- KeePassDX
+- KeePassXC
+- Keet
+- Ken Thompson
+- Keysend
+- Kraken
+- Krux
+- Labelling UTXO
+- Larry Ewing
+- LastPass
+- Layer
+- LDK
+- Ledger
+- Ledger Flex
+- Ledger Nano S
+- Ledger Nano S Plus
+- Ledger U2F & FIDO2
+- LEVELDB
+- Liana
+- LIBSECP256K1
+- Lightning App
+- Lightning Network
+- Lightning Network Daemon
+- Lightning Network Daemon (Linux)
+- LIGHTNING NODE
+- LIGHTNING SERVICE PROVIDER
+- Lightning Smoke Machine
+- Lightning Watchtower
+- LineageOS
+- Linus Torvalds
+- Linux Mint
+- Lipa
+- Liquid
+- Liquid Network
+- LIQUIDITY
+- "list-files -detailed"
+- listissuances
+- LN
+- LN Markets
+- LN VPN
+- LNbits
+- LNbits Server
+- LND
+- LNP2PBot
+- LNURL-Withdraw
+- LOCK (.LOCK)
+- LUKS
+- Lynx
+- Lynis
+- M-OF-N
+- Macadamia
+- Machankura
+- macOS
+- mainchain
+- Mainnet
+- mainnet
+- Manjaro
+- Marc Andreessen
 - MAST
+- MAX_BLOCK_SIZE
+- Maximalist
+- Mempool
+- MEMPOOL.DAT
+- merkle path
+- Merkle Root
+- Merkle Tree
+- Microsoft Translator
+- MINER
+- Miner
+- miner
+- Minibits Wallet
+- Mining
+- mining
+- Mining Farm
+- Mining Pool
+- mining pool
+- Misty Breez
+- Mnemonic
+- Moon
+- Mostro
+- Mozilla Firefox
+- Mozilla VPN
+- Mullvad
+- Mullvad Browser
+- Mullvad VPN
+- Multi Protocol Commitment
+- multi-sig
+- Multi-use Seal
+- Multisig
+- multisig
+- Muun
+- My Node
+- MyNode
+- Nakamochi
+- Nautilus
+- Netscape Navigator
+- Neutrino
+- NerdAxe Gamma
+- Nerdminer
+- NerdQaxe
+- NLOCKTIME
+- nLockTime
+- Nmap
+- NO2X
+- Nonce
+- NordPass
+- NOSTR
+- Nostr
+- Nutri-Score
+- nSequence
+- NSEQUENCE
+- Ntopng
+- Nunchuk
+- nVersion
+- Ocean Mining
+- off chain
+- off-chain
+- Olvid
+- On-Chain
+- on chain
+- on-chain
+- ONION_PRIVATE_KEY
+- ONION_V3_PRIVATE_KEY
+- OP_0NOTEQUAL
+- OP_1ADD
+- OP_1NEGATE
+- OP_1SUB
+- OP_2 TO OP_16
+- OP_2 TO OP_16 (0X52 TO 0X60)
+- OP_2DROP
+- OP_2OVER
+- OP_2ROT
+- OP_2SWAP
+- OP_ADD
+- OP_BOOLAND
+- OP_BOOLOR
+- OP_CAT
+- OP_CHECKHASHVERIFY
+- OP_CHECKLOCKTIMEVERIFY
+- OP_CHECKMULTISIG
+- OP_CHECKMULTISIGVERIFY
+- OP_CHECKSEQUENCEVERIFY
+- OP_CHECKSIG
+- OP_CHECKSIGADD
+- OP_CHECKSIGVERIFY
+- OP_CODE
+- OP_CODESEPARATOR
+- OP_DEPTH
+- OP_DROP
+- OP_DUP
+- OP_ELSE
+- OP_ENDIF
+- OP_EQUAL
+- OP_EQUALVERIFY
+- OP_EVAL
+- OP_FALSE
+- OP_FROMALTSTACK
+- OP_GREATERTHAN
+- OP_GREATERTHANOREQUAL
+- OP_HASH160
+- OP_HASH256
+- OP_IF
+- OP_LESSTHAN
+- OP_LESSTHANOREQUAL
+- OP_NEGATE
+- OP_NIP
+- OP_NOP
+- OP_NOT
+- OP_NOTIF
+- OP_NUMEQUAL
+- OP_NUMEQUALVERIFY
+- OP_NUMNOTEQUAL
+- OP_OVER
+- OP_PICK
+- OP_PUSHDATA1
+- OP_PUSHDATA2
+- OP_PUSHDATA4
+- OP_RETURN
+- OP_RIPEMD160
+- OP_ROLL
+- OP_ROT
+- OP_SHA1
+- OP_SHA256
+- OP_SIZE
+- OP_SUB
+- OP_SUCCESS
+- OP_SWAP
+- OP_TOALTSTACK
+- OP_TRUE
+- OP_TUCK
+- OP_VERIFY
+- OP_WITHIN
+- Open Node
+- OpenFoodFacts
+- OPENDIME
+- OPNsense
+- OpenSSH
+- Organic Maps
+- Orion Browser
+- Orphan block
+- Outlook
+- output descriptor
+- OVERCLOCK
+- OVERCLOCKING
+- Owned State
+- Ownership
+- P2P
+- P2SH
+- P2TR
+- P2WPKH
+- paper wallet
+- Partially Signed Bitcoin Transaction
+- Passport Core
+- passphrase
+- PATOSHI
+- Pay to Script Hash
+- Pay-to-Script-Hash
+- Pay-to-Taproot
+- Pay-to-Witness-Public-Key-Hash
+- Payjoin
+- Paymium
+- PAYNYM
+- Peach
+- PearPass
+- Pears
+- Pedersen commitment
+- pegged asset
+- PEERS.DAT
+- pfSense
+- Phoenix
+- Phoenixd
+- PHOENIXD
+- Pi-Hole
+- Picocrypt
+- Pieter Wuille
+- Plan ₿
+- Plan ₿ Academy
+- Plan ₿ Academy - Pears App
+- Plan ₿ Hangouts
+- Plan ₿ Labs
+- Plan ₿ Network
+- POOL
+- POOL HOPPING
+- Pop!_OS
+- Portal
+- Proof of Work
+- proof of work
+- Proof-of-Stake
+- Proof-of-Work
+- proof-of-work
+- Proof-of-work
+- Proton Authenticator
+- Proton Drive
+- Proton Mail
+- Proton VPN
+- Proton Wallet
+- ProtonVPN
+- pruned
+- PSBT
+- Public Pool
+- PureOS
+- Quad9
+- QUBIT
+- Qubes
+- \rangle
+- Raspberry Pi Zero
+- RaspiBlitz
+- RBF
+- Red Hat
+- Redeem
+- redeemscript
+- reissuance token
+- reissueasset
+- Relai
+- Remix - Whirlpool
+- Replace by fee
+- Replace-by-fee
+- RGB
+- RGB CLI
+- RGB Lightning Node
+- RICOCHET
+- Ride The Lightning (RTL)
 - RIPEMD160
+- Robosats
+- RoninDojo
+- RoninDojo v2
+- RPC
+- Rumble Wallet
+- Rust
+- SAFU Ninja
+- Satochi
+- Satochip
+- Satochip x SeedSigner
+- Satodime
+- Satoshi
+- satoshi
+- Satoshi Nakamoto
+- Sats
+- sats
+- Satscard
+- Sats.mobi
+- Schema
 - Schnorr
+- script
+- script reedem
 - ScriptPubKey
 - ScriptSig
 - ScriptWitness
+- Seal
+- Seal Definition
 - secp256k1
 - secp256r1
+- Secure Boot
+- secure element
+- Securitize
+- seed
+- Seedkeeper
+- Seedkeeper - Password Manager
+- Seedkeeper x SeedSigner
+- seedphrase
+- SeedSigner
+- SegWit
+- SEGWIT2X
+- sendtoaddress
+- sendtomainchain
+- Sentinel
+- Session
 - SHA1
 - SHA256
 - SHA512
-- TCP
-- UDP
-- WIF
-- XBT
-- nLockTime
-- Multi-use Seal
-- Double-signature
-- Proof-of-Stake
-- Thaddeus Dryja
-- Joseph Poon
-- Andreas Antonopoulos
-- Adam Back
-- Pieter Wuille
-- Gregory Maxwell
-- Satoshi Nakamoto
-- macOS
-- GNU/Linux
-- Chrome OS
-- Ken Thompson
-- Dennis Ritchie
-- Richard Stallman
-- Linus Torvalds
-- Andrew S. Tanenbaum
-- Larry Ewing
-- Steve Jobs
-- Bill Gates
-- Red Hat
-- Slackware
-- KDE Plasma
-- Cinnamon
-- AppImage
-- Snap
+- Shard
+- Shitcoin
 - show-folder
-- "list-files -detailed"
-- "viewdir -a"
-- Nautilus
-- Synaptic
-- Secure Boot
-- Fast Boot
-- Fast Startup
-- "Trusted Platform Module (TPM)"
-- "sudo apt update && sudo apt upgrade"
-- sudo pacman -Syu
-- sudo dnf upgrade
-- sudo update-all
-- OpenSSH
-- FileVault
-- KeePassXC
-- Syncthing
-- WinRAR
-- exiftool
-- sudoedit
-- Outlook
-- WebKit
-- Gecko
-- Netscape Navigator
-- Marc Andreessen
-- Jim Clark
-- Mozilla Firefox
-- Brave
-- Lynx
-- JavaScript
-- OpenFoodFacts
-- Nutri-Score
-- Foodvisor
-- TranslateYou
-- DeepL
-- Microsoft Translator
-- Mullvad
-- ExpressVPN
-- Proton VPN
-- ProtonVPN
-- KeePassDX
-- LastPass
-- NordPass
-- Google Password Manager
-- Organic Maps
-- Google Maps
-- Waze
-- Citymapper
-- World Wide Web
-- TCP/IP
-- Ethernet
-- Quad9
-- UTXO set
+- Sidechain
+- SIGHASH_ALL
+- SIGHASH_ALL/SIGHASH_ACP
+- SIGHASH_ANYPREVOUT
+- SIGHASH_ANYPREVOUTANYSCRIPT
+- SIGHASH_NONE
+- SIGHASH_NONE/SIGHASH_ACP
+- SIGHASH_SINGLE
+- SIGHASH_SINGLE/SIGHASH_ACP
+- Signal
+- signblock
+- signblockscript
+- SIGNET
+- SILK ROAD
+- Silk Road
+- Silentium
+- Simple Login
+- SimpleX Chat
+- Single-Use Seal
+- Slackware
+- SLIP
+- Smart contract
+- SMS4Sats
+- Snap
+- Soft
+- Soft Fork
+- Software Wallet
 - Soundcloud
-- Deezer
-- Fountain
-- Association Bitcoin Lille
+- Sparrow
+- Sparrow wallet
+- Sparrow Wallet - Multisig
+- Specter Desktop
+- Specter DIY
+- Speed Wallet
+- Speed Wallet - POS
+- STABLECOIN
+- StackinSat
+- Start9
+- Stash
+- StashPay
+- State Extension
+- State Transition
+- Steve Jobs
+- STONEWALL
+- STRATUM
+- Strong Federation
+- submitblock
+- "sudo apt update && sudo apt upgrade"
+- sudo dnf upgrade
+- sudo pacman -Syu
+- sudo update-all
+- sudoedit
+- Supply
+- SwapMarket
+- Swiss Bitcoin Pay
+- Sybil Attack
+- Synaptic
+- Syncthing
+- Tails
+- Tailscale
+- Tando
+- Taproot
+- Tapsigner
+- TCP
+- TCP/IP
+- Tech School
+- Telegram
+- Terminal Consignment
+- Testnet
+- Thaddeus Dryja
+- The Bitcoin Company
+- Threema
+- Thunderbird
+- ThunderHub
+- TIDES
+- TIMELOCK
+- Timestamp
+- token
+- Tor Browser
+- Tox
+- transaction ID
+- TranslateYou
+- Transition Bundle
+- Trezor Model One
+- Trezor Safe 3
+- Trezor Safe 5
+- Trezor Shamir Backup
+- Trezor U2F & FIDO2
+- "Trusted Platform Module (TPM)"
+- Trustless
+- tumbler
+- txid
+- Ubuntu
+- UDP
+- Umbrel
+- Umbrel LND
+- Umbrel Nostr
+- unblinded
+- Unconfidential address
+- UTXO
+- UTXO set
+- Valency
+- VeraCrypt
+- Vexl
+- "viewdir -a"
+- VirtualBox
+- Voltz
+- WABISABI
+- Wallet
+- wallet
+- WALLET.DAT
+- Wallet of Satoshi
+- Wallet of Satoshi - POS
+- WALLETS/DB.LOG
+- Wasabi Wallet
+- Watch Tower
+- Watch Towers
+- watch tower
+- watch towers
+- Watch-only wallet
+- Watchtower
+- Waze
+- WebKit
+- Whirlpool
+- White Noise
+- WHITE PAPER
+- White Paper
+- Whonix
+- WIF
+- Windows 11
+- WinRAR
+- WireGuard
+- Witness Transaction
+- World Wide Web
+- XBT
+- YubiKey 2FA
+- Zen Browser
+- ZEROCONF
+- ZEROSYNC
+- Zeus Embedded
+- Zeus Swap
+- \langle
+- \ldots
+- ₿-CERT
+
+

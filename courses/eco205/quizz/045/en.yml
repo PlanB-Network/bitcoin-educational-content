@@ -1,0 +1,8 @@
+question: According to Ludwig von Mises, what is the fundamental distinction between the humanities and the natural sciences?
+answer: The human sciences are based on voluntary action, while the natural sciences are based on empiricism
+wrong_answers:
+  - "The human sciences use mathematics, while the natural sciences use observation"
+  - The humanities study the past while the natural sciences study the present
+  - The human sciences are subjective, while the natural sciences are objective
+explanation: |
+  Ludwig von Mises drew a clear methodological distinction: the human sciences must study the voluntary and intentional action of individuals, which requires a praxeological approach, whereas the natural sciences can rely on empiricism, as they study inert objects without will or preferences. This distinction justifies Austrian methodological dualism, which rejects the application of the empirical methods of the natural sciences to the study of human phenomena.

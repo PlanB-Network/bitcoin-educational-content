@@ -1,0 +1,10 @@
+question: Ai là người gián tiếp chịu trách nhiệm cho vụ tấn công mạng Bitcoinica cuối cùng diễn ra vào tháng 7 năm 2012?
+answer: Amir Taaki
+wrong_answers:
+  - Chu Tông
+  - Trần Kiến Hải
+  - Mark Karpelès
+explanation: |
+ Vào ngày 7 tháng 7, anh ta đã công bố toàn bộ mã nguồn của nền tảng, trong đó có mật khẩu của két sắt LastPass của Bitcoinica, và két sắt này lại chứa mật khẩu tài khoản Mt. Gox của anh ta. 40.000 bitcoin và 40.000 LR-USD đã bị rút ra. Amir Taaki thừa nhận hành động này, nhưng đổ lỗi cho ban quản lý của Bitcoinica,
+ những người mà anh ta đang có mâu thuẫn.
+reviewed: true

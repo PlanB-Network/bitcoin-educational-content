@@ -1,0 +1,10 @@
+question: İpek Yolu pazarının yetkililer tarafından doğrudan kapatılmasını engelleyen protokol neydi?
+answer: Tor
+wrong_answers:
+  - I2P
+  - Freenet
+  - BitTorrent
+explanation: |
+ The Onion Router'ın sözlüksel kısaltması olan Tor, küresel, merkezi olmayan bir katman bilgisayar ağını (genellikle darknet olarak bilinir) destekleyen bir protokoldür.
+ Web sitelerinin anonim olarak ve sansür olmaksızın barındırılmasını sağlar ve Ross Ulbricht'in projesi için idealdir.
+reviewed: true

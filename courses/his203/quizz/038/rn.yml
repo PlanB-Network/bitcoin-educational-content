@@ -1,0 +1,11 @@
+question: Ni ku bikorwa ibihe cane cane Pay to Script Hash yakoreshejwe?
+answer: Kugira ngo ubone amafaranga biciye ku musinya w'imigambwe myinshi (multisig)
+wrong_answers:
+  - Ku bikorwa vy'ububiko
+  - Kugira ngo wongere ubushobozi bwo gukoresha ubuhinga bwa none biciye ku mining yahujwe
+  - Kubera kohereza amahera mu mahanga
+explanation: |
+ Gucungera amafaranga ni ikibazo gihambaye cane muri iki gihe, kubera ibitero vy’ubusuma vy’amato biriko biragwira. Ico kibazo carashikirijwe ku meza ku wa 23 Myandagaro 2011 .
+ na Gavin Andresen, umurongozi w’umugambi, yashaka kwihutisha ugushira mu ngiro ubuhinga bwo gukoresha imikono myinshi bwari busanzwe buri muri iyo porotokole. 
+ Ivyo vyatumye hakorwa OP_EVAL hanyuma hakorwa P2SH mu kiringo c’imbeho.
+reviewed: true

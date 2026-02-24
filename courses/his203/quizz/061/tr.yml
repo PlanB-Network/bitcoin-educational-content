@@ -1,0 +1,10 @@
+question: Erik Voorhees, SatoshiDICE çevrimiçi kumarhanesini büyütmek için Ağustos 2012'de hangi çevrimiçi borsada gayri resmi bir halka arz gerçekleştirdi?
+answer: MPEx
+wrong_answers:
+  - GLBSE
+  - Bitcoinica
+  - Bitoption.org
+explanation: |
+ MPEx, Mircea Popescu tarafından yönetilen ve birkaç ay önce başlatılan platformdu. Erik Voorhees 100 milyon hisse ihraç etti (S.DICE hisse senedi sembolü ile) ve
+ 34.500 bitcoin ya da yaklaşık 372.000 dolar toplamak için 10 tane sattı.
+reviewed: true

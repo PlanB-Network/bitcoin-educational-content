@@ -63,22 +63,22 @@ Liquid yan zincir dünyasına dalın ve tam potansiyelini hemen şimdi ortaya ç
 ### Liquid Network Mimarisi ve Mutabakat Modeli
 
 
-Liquid Network, Elements kod tabanı üzerine inşa edilmiş, temel güvenliğine güvenirken Bitcoin'nin yeteneklerini genişletmek için tasarlanmış bir federe yan zincirdir. Bitcoin'nin Proof-of-Work'undan farklı olarak, Liquid bir Federe Mutabakat modeli üzerinde çalışır. Ağ, borsalar, ticaret masaları ve altyapı sağlayıcıları da dahil olmak üzere küresel olarak dağıtılmış bir grup üye tarafından sürdürülmektedir. Bu üyelikten, blok imzalayıcı olarak hareket etmek üzere on beş "görevli" seçilir.
+Liquid Network, Elements kod tabanı üzerine inşa edilmiş, temel güvenliğine güvenirken Bitcoin'nin yeteneklerini genişletmek için tasarlanmış bir federe yan zincirdir. Bitcoin'nin [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work)'undan farklı olarak, Liquid bir Federe [Mutabakat](https://planb.academy/resources/glossary/consensus) modeli üzerinde çalışır. Ağ, borsalar, ticaret masaları ve altyapı sağlayıcıları da dahil olmak üzere küresel olarak dağıtılmış bir grup üye tarafından sürdürülmektedir. Bu üyelikten, blok imzalayıcı olarak hareket etmek üzere on beş "görevli" seçilir.
 
 
-Bu görevliler blokları her dakika yeni bir blok üreterek deterministik bir round-robin tarzında üretirler. Bu hassas zamanlama Bitcoin'ün olasılıksal on dakikalık aralıklarına tezat oluşturmaktadır. Bir bloğun geçerli olabilmesi için 15 görevliden en az 11'inin imzası gerekmektedir (üçte iki artı bir eşiği). Bu mekanizma Liquid'e "iki blok kesinliği" sağlar, yani bir işlem iki onay aldıktan sonra (yaklaşık iki dakika), zinciri yeniden düzenlemek matematiksel olarak imkansızdır. Bu hız ve kesinlik arbitraj, otomatik ticaret ve borsalar arası hızlı mutabakat için kritik öneme sahiptir.
+Bu görevliler [blokları](https://planb.academy/resources/glossary/block) her dakika yeni bir blok üreterek deterministik bir round-robin tarzında üretirler. Bu hassas zamanlama Bitcoin'ün olasılıksal on dakikalık aralıklarına tezat oluşturmaktadır. Bir bloğun geçerli olabilmesi için 15 görevliden en az 11'inin imzası gerekmektedir (üçte iki artı bir eşiği). Bu mekanizma Liquid'e "iki blok kesinliği" sağlar, yani bir [işlem](https://planb.academy/resources/glossary/transaction-tx) iki onay aldıktan sonra (yaklaşık iki dakika), zinciri yeniden düzenlemek matematiksel olarak imkansızdır. Bu hız ve kesinlik arbitraj, otomatik ticaret ve borsalar arası hızlı mutabakat için kritik öneme sahiptir.
 
 
-Federasyon dinamiktir. Dinamik Federasyon (Dynafed) protokolü sayesinde ağ, sabit bir fork gerektirmeden görevlileri değiştirebilir veya parametreleri güncelleyebilir. Bu, sistemin sürekli çalışmayı sürdürürken sorunsuz bir şekilde gelişmesine ve donanım veya üyeleri değiştirmesine olanak tanır.
+Federasyon dinamiktir. Dinamik Federasyon (Dynafed) protokolü sayesinde ağ, sabit bir [fork](https://planb.academy/resources/glossary/fork) gerektirmeden görevlileri değiştirebilir veya parametreleri güncelleyebilir. Bu, sistemin sürekli çalışmayı sürdürürken sorunsuz bir şekilde gelişmesine ve donanım veya üyeleri değiştirmesine olanak tanır.
 
 
 ### Confidential Transactions ve Varlık Yönetimi
 
 
-Liquid'ın belirleyici bir özelliği, Confidential Transactions (CT) ve çoklu varlıklar için yerel desteğidir. Ana Bitcoin zincirinde tüm işlem detayları (gönderen, alıcı ve miktar) herkese açıktır. Liquid'ta CT, varlık türünü ve tutarını halka açık defterden gizlemek için kriptografik taahhütler kullanırken, ağın işlemin geçerli olduğunu (yani şişirme olmadığını) doğrulamasına izin verir. Yalnızca körleme anahtarlarına sahip katılımcılar belirli değerleri görüntüleyebilir ve bu da büyük pozisyonları taşıyan kurumlar için gerekli olan ticari gizlilik seviyesini sunar.
+Liquid'ın belirleyici bir özelliği, Confidential Transactions (CT) ve çoklu varlıklar için yerel desteğidir. Ana Bitcoin zincirinde tüm işlem detayları (gönderen, alıcı ve miktar) herkese açıktır. Liquid'ta CT, varlık türünü ve tutarını halka açık defterden gizlemek için kriptografik taahhütler kullanırken, ağın işlemin geçerli olduğunu (yani [şişirme](https://planb.academy/resources/glossary/inflation) olmadığını) doğrulamasına izin verir. Yalnızca körleme anahtarlarına sahip katılımcılar belirli değerleri görüntüleyebilir ve bu da büyük pozisyonları taşıyan kurumlar için gerekli olan ticari gizlilik seviyesini sunar.
 
 
-Liquid, tüm varlıkları blok zincirinin "yerel" vatandaşları olarak ele alır. Buna Liquid Bitcoin (LBTC), USDT gibi sabit coinler ve güvenlik tokenları dahildir. Bir varlığın çıkarılması karmaşık akıllı sözleşmeler gerektirmez; bu protokolün temel bir işlevidir.
+Liquid, tüm varlıkları [blok zincirinin](https://planb.academy/resources/glossary/blockchain) "yerel" vatandaşları olarak ele alır. Buna Liquid Bitcoin (LBTC), USDT gibi sabit coinler ve güvenlik tokenları dahildir. Bir varlığın çıkarılması karmaşık akıllı sözleşmeler gerektirmez; bu protokolün temel bir işlevidir.
 
 
 #### Düzenlenmiş Varlıklar ve AMP
@@ -97,7 +97,7 @@ Liquid ve Bitcoin arasındaki bağlantı iki yönlü bir peg aracılığıyla sa
 
 #### Donanım Güvenlik Modülleri (HSM'ler)
 
-Güvenlik kesinlikle donanım aracılığıyla sağlanır. Görevliler özel anahtarları standart sunucularda tutmazlar; bunun yerine Donanım Güvenlik Modüllerini (HSM'ler) çalıştırırlar. Bu cihazlar ana sunucunun mantığından hava boşlukludur ve katı kurallarla programlanmıştır. Örneğin, bir HSM, yüksekliği bir öncekinden büyük olmayan bir bloğu imzalamayı reddederek geçmişin yeniden yazılmasını önler. Bu "düşmanca" güvenlik modeli ana sunucunun tehlikeye atılabileceğini varsayar ve fiziksel konum ihlal edilse bile anahtarların güvende kalmasını sağlar.
+Güvenlik kesinlikle donanım aracılığıyla sağlanır. Görevliler [özel anahtarları](https://planb.academy/resources/glossary/private-key) standart sunucularda tutmazlar; bunun yerine Donanım Güvenlik Modüllerini (HSM'ler) çalıştırırlar. Bu cihazlar ana sunucunun mantığından hava boşlukludur ve katı kurallarla programlanmıştır. Örneğin, bir HSM, yüksekliği bir öncekinden büyük olmayan bir bloğu imzalamayı reddederek geçmişin yeniden yazılmasını önler. Bu "düşmanca" güvenlik modeli ana sunucunun tehlikeye atılabileceğini varsayar ve fiziksel konum ihlal edilse bile anahtarların güvende kalmasını sağlar.
 
 
 ## Elements'in Temelleri
@@ -169,10 +169,10 @@ Bu mimari, geliştiricilerin Bitcoin ekosisteminin sağlam ve tanıdık araçlar
 ### Cross-Layer Altyapısı ve HTLC'ler
 
 
-Bitcoin ekosistemi çok katmanlı bir mimariye dönüşmüştür; Ana Zincir mutabakat sağlar, Lightning hız sunar ve Liquid gelişmiş varlık yetenekleri sağlar. Merkezi aracılar olmadan bu katmanlar arasında değer taşımak, güvenilir olmayan bir kriptografik ilkel gerektirir: Hash Zaman Kilitli Contract (HTLC).
+Bitcoin ekosistemi çok katmanlı bir mimariye dönüşmüştür; Ana Zincir mutabakat sağlar, Lightning hız sunar ve Liquid gelişmiş varlık yetenekleri sağlar. Merkezi aracılar olmadan bu katmanlar arasında değer taşımak, güvenilir olmayan bir kriptografik ilkel gerektirir: [Hash](https://planb.academy/resources/glossary/hash-function) Zaman Kilitli Contract ([HTLC](https://planb.academy/resources/glossary/htlc)).
 
 
-Bir HTLC, bağımsız sistemleri atomik olarak birbirine bağlayan koşullu bir ödeme kanalı oluşturur. İki temel kısıtlama aracılığıyla çalışır: bir **hash kilidi** ve bir **zaman kilidi**.
+Bir HTLC, bağımsız sistemleri atomik olarak birbirine bağlayan koşullu bir [ödeme kanalı](https://planb.academy/resources/glossary/payment-channel) oluşturur. İki temel kısıtlama aracılığıyla çalışır: bir **hash kilidi** ve bir **zaman kilidi**.
 
 
 - Hash Kilidi:** Alıcı, belirli bir kriptografik hash ile eşleşen gizli bir "ön görüntü" ortaya çıkarırsa fonlar hemen harcanabilir.
@@ -220,7 +220,7 @@ Son kullanıcılar için bu karmaşıklık tamamen soyutlanmıştır. Aqua gibi 
 ### Liquid Network Mimari ve Konsensüs
 
 
-Liquid Network, **Elements** kod tabanı üzerine inşa edilmiş federe bir yan zincir olarak çalışır. Bitcoin Çekirdeğinin bir fork'i olan Elements yazılım temelini sağlarken, Liquid üretim ağı uygulamasıdır. Bitcoin'in rekabetçi mining'ye dayanan Proof-of-Work'ünden farklı olarak, Liquid bir **Federasyon Konsensüsü** modeli kullanır.
+Liquid Network, **Elements** kod tabanı üzerine inşa edilmiş federe bir yan zincir olarak çalışır. Bitcoin Çekirdeğinin bir fork'i olan Elements yazılım temelini sağlarken, Liquid üretim ağı uygulamasıdır. Bitcoin'in rekabetçi [mining](https://planb.academy/resources/glossary/mining)'ye dayanan Proof-of-Work'ünden farklı olarak, Liquid bir **Federasyon Konsensüsü** modeli kullanır.
 
 
 Ağ, küresel olarak dağıtılmış on beş "görevli" tarafından sürdürülmektedir Bu kuruluşlar iki kritik rolü yerine getiren özel sunucular işletmektedir:

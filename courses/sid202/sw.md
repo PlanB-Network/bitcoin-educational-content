@@ -42,9 +42,9 @@ Maswali yoyote, maombi ya maelezo ya ziada au maswali juu ya majibu ya chemsha b
 
 :::video id=eae666b4-eddc-4e00-adea-2a5f94396044:::
 
-Elements ni chanzo huria, jukwaa la Blockchain lenye uwezo wa Sidechain, linalotoa ufikiaji wa vipengele muhimu vilivyotengenezwa na wanajamii, kama vile Confidential Transactions na Issued Assets.
+Elements ni chanzo huria, jukwaa la [Blockchain](https://planb.academy/resources/glossary/blockchain) lenye uwezo wa Sidechain, linalotoa ufikiaji wa vipengele muhimu vilivyotengenezwa na wanajamii, kama vile Confidential Transactions na Issued Assets.
 
-Elements ni, msingi wake, itifaki inayowezesha maafikiano kuundwa kuhusu historia ya muamala na sheria zinazosimamia uhamishaji na uundaji wa mali iliyohifadhiwa katika Blockchain Ledger iliyosambazwa.
+Elements ni, msingi wake, itifaki inayowezesha [maafikiano](https://planb.academy/resources/glossary/consensus) kuundwa kuhusu historia ya [muamala](https://planb.academy/resources/glossary/transaction-tx) na sheria zinazosimamia uhamishaji na uundaji wa mali iliyohifadhiwa katika Blockchain Ledger iliyosambazwa.
 
 Maelezo zaidi ya usuli kuhusu Elements yanaweza kupatikana kwa urahisi kwenye tovuti ya Mradi wa Elements ( https://elementsproject.org/ ), blogu rasmi ya Liquid ( https://blog.Liquid.net/ ), na tovuti ya msanidi programu(https://Liquid.net/devs).
 
@@ -70,7 +70,7 @@ Elements ni jukwaa la madhumuni ya jumla la blockchain ambalo linaweza pia “ku
 
 #### block zilizosainiwa
 
-Elements hutumia Strong Federation ya watia saini, wanaoitwa Block Signers, ambao husaini na kuunda vitalu kwa njia ya kuaminika na kwa wakati. Hii huondoa ucheleweshaji wa miamala wa mchakato wa PoW Mining, ambao unakabiliwa na tofauti kubwa ya muda wa kuzuia kutokana na usambazaji wake wa Poisson bila mpangilio. Mchakato wa shirikisho la block signing unafanikisha uundaji wa vitalu unaotegemewa bila kuwasilisha hitaji la uaminifu wa watu wengine au algorithm ya kimahesabu. na Mining.
+Elements hutumia Strong Federation ya watia saini, wanaoitwa Block Signers, ambao husaini na kuunda [vitalu](https://planb.academy/resources/glossary/block) kwa njia ya kuaminika na kwa wakati. Hii huondoa ucheleweshaji wa miamala wa mchakato wa PoW Mining, ambao unakabiliwa na tofauti kubwa ya muda wa kuzuia kutokana na usambazaji wake wa Poisson bila mpangilio. Mchakato wa shirikisho la block signing unafanikisha uundaji wa vitalu unaotegemewa bila kuwasilisha hitaji la uaminifu wa watu wengine au algorithm ya kimahesabu. na Mining.
 
 Elements inaongeza vipengele hivi vyote juu ya Bitcoin Core codebase, kupanua uwezo wa itifaki ya mainchain na kuwezesha kesi mpya za matumizi ya biashara inapotumwa kama Sidechain au kama suluhu ya Blockchain inayojitegemea.
 
@@ -84,7 +84,7 @@ Elements inaongeza vipengele hivi vyote juu ya Bitcoin Core codebase, kupanua uw
 
 :::video id=7c8c7981-11e5-47a2-a257-ef998f4892f5:::
 
-Elements hutoa suluhisho la kiufundi kwa matatizo ya watumiaji wa Blockchain kila siku; ucheleweshaji wa shughuli, ukosefu wa faragha, na hatari ya kugundulika.
+Elements hutoa suluhisho la kiufundi kwa matatizo ya watumiaji wa Blockchain kila siku; ucheleweshaji wa shughuli, ukosefu wa faragha, na hatari ya [kugundulika](https://planb.academy/resources/glossary/fungibility).
 
 Elements inashinda matatizo haya kupitia matumizi yake ya Federated block signing na Confidential Transactions.
 
@@ -108,7 +108,7 @@ Vitendo ambavyo mwanachama wa Strong Federation anaweza kufanya vimegawanywa kat
 
 Yakiunganishwa, majukumu ya washiriki hawa huruhusu Elements kutoa uundaji wa vizuizi vya haraka (uthibitisho wa muamala wa haraka na wa mwisho) na mali zilizohakikishwa, zinazoweza kuhamishwa (mali zilizopachikwa zinazounganishwa moja kwa moja na Blockchain nyingine).
 
-Unaweza kusoma karatasi nyeupe ya Shirikisho la Nguvu hapa: https://blockstream.com/strong-federations.pdf
+Unaweza kusoma [karatasi nyeupe](https://planb.academy/resources/glossary/white-paper) ya Shirikisho la Nguvu hapa: https://blockstream.com/strong-federations.pdf
 
 ### Zuia Watia saini
 
@@ -135,7 +135,7 @@ Ili Sidechain ifanye kazi kwa njia ya kuaminika ni lazima iruhusu washiriki kuth
 
 Element ya *Federated 2-Way Peg* inaruhusu kipengee kuingiliana na minyororo mingine kama mwakilishi wa mali nyingine asilia ya blockchain. Kwa "kushikilia" blockchain yako hadi nyingine, unaweza kupanua uwezo wa *mainchain* na kushinda baadhi ya vikwazo vya asili vinavyokabili mnyororo huo.
 
-Kwa kiwango cha juu, uhamisho kwenye Sidechain hutokea wakati mtu anatuma mali ya mainchain kwa Address inayodhibitiwa na watchmen Wallet ya saini nyingi. Hii inafungia kwa ufanisi mali kwenye mainchain. watchmen kisha uthibitishe muamala na kutoa kiasi sawa cha kipengee husika ndani ya Sidechain. Mali iliyotolewa hutumwa kwa Sidechain Wallet ambayo inaweza kuthibitisha dai la mali asili ya mainchain. Mchakato huu huhamisha mali kutoka kwa msururu wa wazazi hadi Sidechain.
+Kwa kiwango cha juu, uhamisho kwenye Sidechain hutokea wakati mtu anatuma mali ya mainchain kwa Address inayodhibitiwa na watchmen [Wallet](https://planb.academy/resources/glossary/wallet) ya saini nyingi. Hii inafungia kwa ufanisi mali kwenye mainchain. watchmen kisha uthibitishe muamala na kutoa kiasi sawa cha kipengee husika ndani ya Sidechain. Mali iliyotolewa hutumwa kwa Sidechain Wallet ambayo inaweza kuthibitisha dai la mali asili ya mainchain. Mchakato huu huhamisha mali kutoka kwa msururu wa wazazi hadi Sidechain.
 
 Ili kuhamisha mali kurudi kwa mainchain, mtumiaji hufanya shughuli maalum ya peg-out kwenye Sidechain. Muamala huu unakaguliwa na watchmen ambao kisha husaini matumizi ya muamala kutoka kwa Wallet yenye saini nyingi wanazodhibiti kwenye mainchain. Idadi ya washiriki katika shirikisho lazima itie sahihi kabla ya shughuli ya mainchain kuwa halali. Wakati watchmen inatuma mali kwa mainchain pia huharibu kiasi kinacholingana kwenye Sidechain, kwa ufanisi kuhamisha mali kati ya blockchains.
 ## Kuanzisha na Kuendesha Elements
@@ -146,7 +146,7 @@ Ili kuhamisha mali kurudi kwa mainchain, mtumiaji hufanya shughuli maalum ya peg
 
 Kwa vile Elements inategemea Bitcoin codebase, vipengele vinavyounda mtandao unaofanya kazi vinafanana sana.
 
-Programu ya node ya Elements yenyewe inaitwa `elementsd` na hutumika kama daemon kwenye mashine ya mtumiaji. daemon (au huduma katika Windows) ni programu inayoendesha kama huduma ya usuli bila kuhitaji udhibiti wa moja kwa moja wa mtumiaji aliyeingia kwenye akaunti.
+Programu ya [node](https://planb.academy/resources/glossary/node) ya Elements yenyewe inaitwa `elementsd` na hutumika kama daemon kwenye mashine ya mtumiaji. daemon (au huduma katika Windows) ni programu inayoendesha kama huduma ya usuli bila kuhitaji udhibiti wa moja kwa moja wa mtumiaji aliyeingia kwenye akaunti.
 
 Kumbuka: Katika hati hii yote, tutarejelea elements kila wakati kama toleo la daemon, lakini kila kitu kinaweza kufanywa kwa Elements-qt, mradi chaguo la seva limewezeshwa.
 
@@ -181,7 +181,7 @@ Baadhi ya mambo yanaweza kubadilishwa kwa kutumia vigezo hivi:
 - Mahali pa kuhifadhi faili za data za Blockchain.
 - Vitambulisho vya RPC vilivyotumika kuunganisha kwenye nodi ya Bitcoin.
 - Kizingiti cha `n cha m` kinachopaswa kufikiwa na funguo halali za umma zinazoweza kusaini vizuizi.
-- Hati inayohitaji kuridhika ili kuhamisha mali ndani na nje ya Sidechain.
+- [Hati](https://planb.academy/resources/glossary/script) inayohitaji kuridhika ili kuhamisha mali ndani na nje ya Sidechain.
 - Iwapo itaunganishwa kwenye nodi ya Bitcoin kama Sidechain au la.
 
 Nyingi kati ya hizi ni sehemu ya sheria za makubaliano ya mtandao, kwa hivyo ni muhimu zitumike kwenye nodi zote wakati wa kuanzisha. Baadhi zinaweza kubadilishwa baada ya mnyororo kuanzishwa lakini baadhi zinahitaji kurekebishwa baada ya kutumika kuanzisha mnyororo.
@@ -288,7 +288,7 @@ Hiyo inarejesha maelezo ghafi ya muamala. Ukiangalia ndani ya sehemu ya vout una
 
 Kile ambacho sehemu mbili za kwanza za vout zinaonyesha ni "masafa ya blinded" ya kiasi cha thamani na data ya Commitment ambayo hutumika kama uthibitisho wa kiasi halisi na aina ya mali iliyotumika.
 
-Hata kama tungeleta ufunguo wa kibinafsi wa e2 kwenye Wallet ya e1, bado haitaweza kuona kiasi na aina ya mali iliyotumika kwa sababu bado haina ufahamu wa ufunguo wa upofu unaotumiwa na e2. Tutathibitisha hili kwa kuleta ufunguo wa faragha unaotumiwa na Wallet ya e2 kwenye e1. Kwanza tunahitaji kuuza nje ufunguo kutoka e2
+Hata kama tungeleta [ufunguo wa kibinafsi](https://planb.academy/resources/glossary/private-key) wa e2 kwenye Wallet ya e1, bado haitaweza kuona kiasi na aina ya mali iliyotumika kwa sababu bado haina ufahamu wa ufunguo wa upofu unaotumiwa na e2. Tutathibitisha hili kwa kuleta ufunguo wa faragha unaotumiwa na Wallet ya e2 kwenye e1. Kwanza tunahitaji kuuza nje ufunguo kutoka e2
 
 ```
 e2-cli dumpprivkey <address>
@@ -348,7 +348,7 @@ Kipengee Kilichotolewa pia kinanufaika na Confidential Transactions na kinaweza 
 
 Hatua ya kwanza ni kwamba tutahitaji ufikiaji wa nodi mbili za Elements, ambazo tutaziita e1 na e2. Nodi zimekuwa na blockchains zao zimewekwa upya na mgawanyiko wa default asset kati yao.
 
-Node mbili ziko kwenye mtandao mmoja wa ndani, na zimeunganishwa kwa kila mmoja, na kwa hiyo zinashiriki shughuli sawa katika shughuli zao za Mempool na blockchains zinazofanana. Ingawa zinafanya kazi kwenye mashine moja, inafaa kuzingatia kwamba hazishiriki faili sawa za Blockchain. Kila nodi hudhibiti nakala yake ya ndani ya Blockchain, ambayo ina historia sawa ya muamala kwa sababu ziko katika maafikiano na zinazingatia sheria za itifaki sawa na nyingine.
+Node mbili ziko kwenye mtandao mmoja wa ndani, na zimeunganishwa kwa kila mmoja, na kwa hiyo zinashiriki shughuli sawa katika shughuli zao za [Mempool](https://planb.academy/resources/glossary/mempool) na blockchains zinazofanana. Ingawa zinafanya kazi kwenye mashine moja, inafaa kuzingatia kwamba hazishiriki faili sawa za Blockchain. Kila nodi hudhibiti nakala yake ya ndani ya Blockchain, ambayo ina historia sawa ya muamala kwa sababu ziko katika maafikiano na zinazingatia sheria za itifaki sawa na nyingine.
 
 Wacha tuanze kwa kuangalia mtazamo wa kila nodi ya utoaji wa mali uliopo kwenye mtandao.
 
@@ -879,7 +879,7 @@ e1-cli importprivkey <priv-key-1>
 e2-cli importprivkey <priv-key-1>
 ```
 
-Sasa tunahitaji kukomaza blocks kadhaa kwenye minyororo yote miwili. Ukomavu wa blocks ni hitaji la mchakato wa vigingi kwani hulinda dhidi ya upangaji upya wa blocks kwenye mainchain na kusababisha mfumuko wa bei wa pegged asset Supply ndani ya Sidechain.
+Sasa tunahitaji kukomaza blocks kadhaa kwenye minyororo yote miwili. Ukomavu wa blocks ni hitaji la mchakato wa vigingi kwani hulinda dhidi ya upangaji upya wa blocks kwenye mainchain na kusababisha [mfumuko wa bei](https://planb.academy/resources/glossary/inflation) wa pegged asset Supply ndani ya Sidechain.
 
 Ili kuweka sehemu hii kulenga kigingi kilichoshirikishwa, tutakuwa tukizalisha blocks bila kutumia modeli ya block signing tuliyotazama katika sehemu ya mwisho, na kurudi kwenye kutumia amri ya 'generate' kuunda blocks mpya.
 
@@ -1004,7 +1004,7 @@ Katika sehemu hii tumeona jinsi ya:
 
 ### FederatedPegScript
 
-Ili kuruhusu Elements kufanya kazi kama Sidechain, block ya Genesis katika Blockchain yake lazima iundwe ikiwa na `fedpegscript` mahali pake. Hii inafanywa kwa kupitisha parameta ya `fedpegscript` kwenye nodi ya kuanza. Hati hiyo basi itakuwa sehemu ya sheria za makubaliano ya Elements Blockchain na kuruhusu maombi ya kuingia na kutoka nje kuthibitishwa na kutekelezwa.
+Ili kuruhusu Elements kufanya kazi kama Sidechain, [block ya Genesis](https://planb.academy/resources/glossary/genesis-block) katika Blockchain yake lazima iundwe ikiwa na `fedpegscript` mahali pake. Hii inafanywa kwa kupitisha parameta ya `fedpegscript` kwenye nodi ya kuanza. Hati hiyo basi itakuwa sehemu ya sheria za makubaliano ya Elements Blockchain na kuruhusu maombi ya kuingia na kutoka nje kuthibitishwa na kutekelezwa.
 
 `Fedpegscript` inaundwa na vitufe vya umma vinavyodhibitiwa na wale walioidhinishwa kutekeleza vitendo vya kigingi. Ifuatayo inaonyesha umbizo la mfano wa hati ya saini nyingi ya 2-ya-2:
 

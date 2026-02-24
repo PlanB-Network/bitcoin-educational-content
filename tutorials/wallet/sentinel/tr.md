@@ -11,10 +11,8 @@ description: Watch-only wallet nedir ve nasıl kullanılır?
 **\*UYARI:** Samourai Wallet kurucularının tutuklanması ve sunucularına 24 Nisan'da el konulmasının ardından Sentinel uygulaması çalışmaya devam etmektedir, ancak **Blockchain bilgilerine erişmek ve işlemleri yayınlamak için kendi Dojo'nuzu** kullanmanız zorunludur.\*
 
 
-_Bu davayla ilgili gelişmeleri ve ilgili araçlarla ilgili gelişmeleri yakından takip ediyoruz. Yeni bilgiler elde edildikçe bu eğitimi güncelleyeceğimizden emin olabilirsiniz._
 
 
-_Bu eğitim yalnızca eğitim ve bilgilendirme amaçlıdır. Bu araçların suç amaçlı kullanımını onaylamıyor veya teşvik etmiyoruz. Kendi yargı alanlarındaki yasalara uymak her kullanıcının sorumluluğundadır._
 
 
 ---
@@ -40,7 +38,7 @@ Watch-only genellikle bir Hardware Wallet ile birlikte kullanılır. Bu, Wallet'
 ## Hangi Watch-only wallet kullanılmalı?
 
 
-Şu anda en kapsamlı izleme uygulaması Samourai Wallet ekipleri tarafından geliştirilen [Sentinel](https://sentinel.watch/)'dir. İyi bir Watch-only wallet için gerekli tüm özellikleri kapsamaktadır:
+Şu anda en kapsamlı watch-only uygulaması, başlangıçta Samourai Wallet ekipleri tarafından geliştirilen ve artık topluluk tarafından sürdürülen [Sentinel](https://github.com/wanderingking072/sentinel-android)’dır. İyi bir watch-only cüzdan için gerekli tüm temel özellikleri bir araya getirir:
 
 
 
@@ -67,36 +65,31 @@ Sentinel'e alternatif arayan iOS kullanıcıları için [Green Wallet](https://b
 ### Kurulum ve Ayarlama
 
 
-Sentinel uygulamasını yükleyerek başlayın. Bunu Google Play Store'dan veya [APK resmi web sitesinden indirilebilir](https://sentinel.watch/download/) kullanarak yapabilirsiniz.
-
-
-![watch-only](assets/notext/3.webp)
-
-
-Uygulamayı ilk açtığınızda, size aşağıdakiler arasında bir seçim sunulur:
+Sentinel uygulamasını yükleyerek başlayın. Bunu [projenin github deposunda indirilebilir olarak bulunan APK](https://github.com/wanderingking072/sentinel-android/releases) aracılığıyla yapabilirsiniz.
 
 
 
-- "Dojo'ya Bağlan";
-- "Samourai'nin sunucusuna bağlan".
 
 
-Samourai ekibi tarafından geliştirilen Dojo, bağımsız olarak kurulabilen veya [Umbrel](https://umbrel.com/) ve [RoninDojo](https://ronindojo.io/) gibi kutu içinde düğüm çözümlerine tek bir tıklamayla eklenebilen tam bir Bitcoin düğüm sürümüdür.
 
 
-[**-> RoninDojo v2'nin Raspberry Pi'ye nasıl kurulacağını keşfedin.**](https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
 
-Kendi Dojo'nuz varsa, bu aşamada onu bağlayabilirsiniz. Bunu yaparak, Bitcoin ağ işlem bilgilerinizi kontrol ederken en üst düzeyde gizlilikten yararlanacaksınız.
 
+
+
+
+
+
+Ardından, Samourai Wallet sunucuları artık mevcut olmadığından kendi Dojo'nuza zorunlu olarak bağlanmanız gerekecektir. Henüz kendi Dojo'nuz yoksa, [The Dojo Bay](https://dojobay.pw/) sitesinde topluluk tarafından sunulan bir Dojo'yu kullanabilir ya da kendinizinkini kurmak için eğitimimizi takip edebilirsiniz :
+
+https://planb.academy/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9
 
 ![watch-only](assets/notext/4.webp)
 
 
-Aksi takdirde, Samourai'nin varsayılan sunucusunu tercih etmek mümkündür. Ayrıca Tor üzerinden bağlanıp bağlanmayacağınızı da seçebilirsiniz.
 
 
-![watch-only](assets/notext/5.webp)
 
 
 Daha sonra Sentinel'in ana sayfasına ulaşacaksınız.

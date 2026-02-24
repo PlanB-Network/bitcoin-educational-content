@@ -1,0 +1,8 @@
+question: According to the analysis presented, what is the fundamental difference between European and American quantitative easing in terms of liquidity injection mechanisms?
+answer: In Europe, the central bank buys bonds on the secondary market from banks and funds, while in the United States, the Fed can buy directly on the primary market
+wrong_answers:
+  - "In Europe, the central bank lends directly to governments via the discount window, while in the United States, it lends exclusively through commercial banks."
+  - "In Europe, quantitative easing is limited to private bonds, while in the United States, it only concerns federal public debt"
+  - "In Europe, money creation is capped by fractional reserve banking, whereas in the United States, it is unlimited by institutional construction."
+explanation: |
+  The text makes this distinction clear: in Europe, central banks massively purchase bonds on the secondary market from commercial banks and investment funds, whereas in the United States, the Federal Reserve can buy government debt securities directly on the primary market, thus directly financing the public deficit with newly created money. This difference in mechanism influences the speed and transmission channels of expansionary monetary policy.

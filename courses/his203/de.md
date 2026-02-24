@@ -517,7 +517,7 @@ Wie wir bereits Anfang 2011 feststellten, war die Mt. Gox-Plattform nicht sicher
 
 
 
-Am 1. März 2011, gerade als der Transfer offiziell gemacht werden sollte, lösten sich 80.000 Bitcoins [in Luft auf](https://mempool.space/tx/e67a0550848b7932d7796aeea16ab0e48a5cfe81c4e8cca2c5b03e0416850114), dank eines bösartigen Zugriffs auf die [Wallet](https://planb.academy/resources/glossary/Wallet).dat-Datei der Website. Am 3. Mai bemerkte Jed McCaleb die Abhebung und [informierte](https://web.archive.org/web/20200427200314/https://courts.ms.gov/appellatecourts/docket/sendPDF.php?f=dc00001_live.SCT.17.M.1681.102741.5.pdf&c=87490&a=N&s=2) Mark im IRC, dass "etwas Schlimmes passiert ist". Es war ein großer Verlust (ein Bitcoin wurde damals für 0,92 $ verkauft), der in den folgenden Monaten mit dem beispiellosen Preisanstieg immer größer wurde.
+Am 1. März 2011, gerade als der Transfer offiziell gemacht werden sollte, lösten sich 80.000 Bitcoins [in Luft auf](https://mempool.space/tx/e67a0550848b7932d7796aeea16ab0e48a5cfe81c4e8cca2c5b03e0416850114), dank eines bösartigen Zugriffs auf die [Wallet](https://planb.academy/resources/glossary/wallet).dat-Datei der Website. Am 3. Mai bemerkte Jed McCaleb die Abhebung und [informierte](https://web.archive.org/web/20200427200314/https://courts.ms.gov/appellatecourts/docket/sendPDF.php?f=dc00001_live.SCT.17.M.1681.102741.5.pdf&c=87490&a=N&s=2) Mark im IRC, dass "etwas Schlimmes passiert ist". Es war ein großer Verlust (ein Bitcoin wurde damals für 0,92 $ verkauft), der in den folgenden Monaten mit dem beispiellosen Preisanstieg immer größer wurde.
 
 
 Dieses Problem wurde [erwähnt](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) von Jed am 18. April in einer E-Mail an Mark, in der er schrieb:
@@ -625,7 +625,7 @@ Der letzte Marktplatz, der in diesem Zeitraum erschien, war TradeHill, eine Plat
 
 
 
-Der finanzielle Erfolg von Bitcoin zog unweigerlich Hacker an. Das Fehlen von Mittelsmännern und die relative Anonymität von Bitcoin war ein perfektes Merkmal für Diebe, die sich der Bitcoins anderer Leute bemächtigen können, ohne zu riskieren, dass ihre Beute eingefroren wird. Am 13. Juni fand der erste groß angelegte Hack statt: Ein aktives Mitglied der Community mit dem Pseudonym Allinvain [wurde](https://mempool.space/tx/4885ddf124a0f97b5a3775a12de0274d342d12842ebe59520359f976721ac8c3) um 25.000 Bitcoins beraubt, die ihm persönlich gehörten, was fast 500.000 Dollar entspricht! Er [teilte](https://bitcointalk.org/index.php?topic=16457.msg214423#msg214423) seine Erfahrung im Bitcoin-Forum mit, und die Geschichte wurde [in der Online-Presse](https://www.forbes.com/sites/timworstall/2011/06/17/bitcoin-the-first-500000-theft/) weitergegeben. Es [schien](https://web.archive.org/web/20110618151605/https://www.wired.com/threatlevel/2011/06/bitcoin-malware/), dass er das Opfer eines Trojaners (Malware) namens Coinbit war, der die Datei "Wallet.dat" von einem Computer mit Windows abrief. Dies [brachte](https://gavinthink.blogspot.com/2011/06/why-arent-bitcoin-Wallets-encrypted.html) die Frage der Wallet-Verschlüsselung wieder auf den Tisch, eine Funktion, die einige Monate später in der Software [implementiert](https://bitcointalk.org/index.php?topic=45410.msg541446#msg541446) werden sollte.
+Der finanzielle Erfolg von Bitcoin zog unweigerlich Hacker an. Das Fehlen von Mittelsmännern und die relative Anonymität von Bitcoin war ein perfektes Merkmal für Diebe, die sich der Bitcoins anderer Leute bemächtigen können, ohne zu riskieren, dass ihre Beute eingefroren wird. Am 13. Juni fand der erste groß angelegte Hack statt: Ein aktives Mitglied der Community mit dem Pseudonym Allinvain [wurde](https://mempool.space/tx/4885ddf124a0f97b5a3775a12de0274d342d12842ebe59520359f976721ac8c3) um 25.000 Bitcoins beraubt, die ihm persönlich gehörten, was fast 500.000 Dollar entspricht! Er [teilte](https://bitcointalk.org/index.php?topic=16457.msg214423#msg214423) seine Erfahrung im Bitcoin-Forum mit, und die Geschichte wurde [in der Online-Presse](https://www.forbes.com/sites/timworstall/2011/06/17/bitcoin-the-first-500000-theft/) weitergegeben. Es [schien](https://web.archive.org/web/20110618151605/https://www.wired.com/threatlevel/2011/06/bitcoin-malware/), dass er das Opfer eines Trojaners (Malware) namens Coinbit war, der die Datei "Wallet.dat" von einem Computer mit Windows abrief. Dies [brachte](https://gavinthink.blogspot.com/2011/06/why-arent-bitcoin-wallets-encrypted.html) die Frage der Wallet-Verschlüsselung wieder auf den Tisch, eine Funktion, die einige Monate später in der Software [implementiert](https://bitcointalk.org/index.php?topic=45410.msg541446#msg541446) werden sollte.
 
 
 
@@ -1348,7 +1348,7 @@ In diesem Kapitel werden wir die verschiedenen Arten der Nutzung von Bitcoin unt
 
 
 
-Im Jahr 2011 war InstaWallet nach dem berüchtigten MyBitcoin die beliebteste Depotanwendung. Es handelte sich um eine einfach zu bedienende Webanwendung (https://bitcointalk.org/index.php?topic=6785.msg99378#msg99378), die am 29. April 2011 von Jan Vornberger, alias Jav, einem jungen deutschen Entwickler, gestartet wurde. Es handelte sich um einen Verwahrungsdienst: Die Gelder wurden "serverseitig" gehalten, was bedeutet, dass Jav sie verwaltete. Es war keine Registrierung erforderlich; der Zugang erfolgte über eine URL, z. B. `https://instaWallet.org/w/rq2SB02ai6BnWaEBywAlP52cw7qwUAA`, die bei der ersten Interaktion mit dem Dienst generated war und im Webbrowser gespeichert wurde. Den Nutzern wurde eine Bitcoin-Adresse zugewiesen, die es ihnen ermöglichte, Geld zu senden und zu empfangen. Überweisungen zwischen InstaWallet-Nutzern wurden intern verarbeitet und erfolgten daher sofort. Darüber hinaus hat der Dienst ab Ende Juli [integriert](https://bitcointalk.org/index.php?topic=32818.msg409974#msg409974) ein Zertifizierungsverfahren (die so genannte "grüne Adresse"), mit dem anderen Marktteilnehmern nachgewiesen werden kann, dass eine Transaktion von InstaWallet ausgestellt wurde, um eine schnellere Bearbeitung im Rahmen einer Vertrauensbeziehung zu gewährleisten.
+Im Jahr 2011 war InstaWallet nach dem berüchtigten MyBitcoin die beliebteste Depotanwendung. Es handelte sich um eine einfach zu bedienende Webanwendung (https://bitcointalk.org/index.php?topic=6785.msg99378#msg99378), die am 29. April 2011 von Jan Vornberger, alias Jav, einem jungen deutschen Entwickler, gestartet wurde. Es handelte sich um einen Verwahrungsdienst: Die Gelder wurden "serverseitig" gehalten, was bedeutet, dass Jav sie verwaltete. Es war keine Registrierung erforderlich; der Zugang erfolgte über eine URL, z. B. `https://instawallet.org/w/rq2SB02ai6BnWaEBywAlP52cw7qwUAA`, die bei der ersten Interaktion mit dem Dienst generated war und im Webbrowser gespeichert wurde. Den Nutzern wurde eine Bitcoin-Adresse zugewiesen, die es ihnen ermöglichte, Geld zu senden und zu empfangen. Überweisungen zwischen InstaWallet-Nutzern wurden intern verarbeitet und erfolgten daher sofort. Darüber hinaus hat der Dienst ab Ende Juli [integriert](https://bitcointalk.org/index.php?topic=32818.msg409974#msg409974) ein Zertifizierungsverfahren (die so genannte "grüne Adresse"), mit dem anderen Marktteilnehmern nachgewiesen werden kann, dass eine Transaktion von InstaWallet ausgestellt wurde, um eine schnellere Bearbeitung im Rahmen einer Vertrauensbeziehung zu gewährleisten.
 
 
 
@@ -1356,7 +1356,7 @@ Im Jahr 2011 war InstaWallet nach dem berüchtigten MyBitcoin die beliebteste De
 
 
 
-*Interface von InstaWallet im Juni 2012 (Quelle: [Bitcoin Magazin](https://web.archive.org/web/20120922131335/http://bitcoinmagazine.net/bitcoin-Wallet-options/))*
+*Interface von InstaWallet im Juni 2012 (Quelle: [Bitcoin Magazin](https://web.archive.org/web/20120922131335/http://bitcoinmagazine.net/bitcoin-wallet-options/))*
 
 
 
@@ -1376,7 +1376,7 @@ Anfang 2012 entwickelte Paymium seine eigene Custodial-App: Paytunia. Die Paytun
 
 
 
-*Interface (auf Französisch) aus dem Antrag von Paytunia vom November 2012 (Quelle: [eeNews Europe](https://www.eenewseurope.com/en/bitcoin-enabled-euro-payment-solution-operates-as-a-mobile-e-Wallet/))*
+*Interface (auf Französisch) aus dem Antrag von Paytunia vom November 2012 (Quelle: [eeNews Europe](https://www.eenewseurope.com/en/bitcoin-enabled-euro-payment-solution-operates-as-a-mobile-e-wallet/))*
 
 
 
@@ -1517,7 +1517,7 @@ Einige Monate später wurde diese Schnittstelle verwendet, um ein leichtgewichti
 
 
 
-*Interface von BitcoinSpinner im Juni 2012 (Quelle: [Bitcoin Magazin](https://web.archive.org/web/20120922131335/http://bitcoinmagazine.net/bitcoin-Wallet-options/))*
+*Interface von BitcoinSpinner im Juni 2012 (Quelle: [Bitcoin Magazin](https://web.archive.org/web/20120922131335/http://bitcoinmagazine.net/bitcoin-wallet-options/))*
 
 
 
@@ -1569,7 +1569,7 @@ Ein dritter fortschrittlicher Wallet [kam](https://bitcointalk.org/index.php?top
 
 
 
-Am 3. Januar 2012 wurde Armory als "der fortschrittlichste Bitcoin-Client, den es gibt" vorgestellt: Er [integrierte](https://web.archive.org/web/20120113212542/http://bitcoinarmory.com/index.php/start-page/sample-page/features) zahlreiche Funktionen, wie eine Schnittstelle für mehrere Konten, eine deterministische Infrastruktur mit Papier-Backup, eine Teileauswahl und einen Adressimport. Vor allem aber [bot](https://web.archive.org/web/20120115015741/http://bitcoinarmory.com/index.php/using-offline-Wallets-in-armory) er die Möglichkeit, Gelder offline zu verwalten, eine Praxis, die als Cold Storage bekannt ist (unten beschrieben). Im Februar und März [führte Alan Reiner](https://web.archive.org/web/20120515220140/https://bitcointalk.org/index.php?topic=64449.0) eine Crowdfunding-Kampagne durch, die über 4.000 Dollar einbrachte. Im Laufe der Monate wurde Armory zum Maßstab für Sicherheit.
+Am 3. Januar 2012 wurde Armory als "der fortschrittlichste Bitcoin-Client, den es gibt" vorgestellt: Er [integrierte](https://web.archive.org/web/20120113212542/http://bitcoinarmory.com/index.php/start-page/sample-page/features) zahlreiche Funktionen, wie eine Schnittstelle für mehrere Konten, eine deterministische Infrastruktur mit Papier-Backup, eine Teileauswahl und einen Adressimport. Vor allem aber [bot](https://web.archive.org/web/20120115015741/http://bitcoinarmory.com/index.php/using-offline-wallets-in-armory) er die Möglichkeit, Gelder offline zu verwalten, eine Praxis, die als Cold Storage bekannt ist (unten beschrieben). Im Februar und März [führte Alan Reiner](https://web.archive.org/web/20120515220140/https://bitcointalk.org/index.php?topic=64449.0) eine Crowdfunding-Kampagne durch, die über 4.000 Dollar einbrachte. Im Laufe der Monate wurde Armory zum Maßstab für Sicherheit.
 
 
 
@@ -2867,7 +2867,7 @@ Bareinzahlungen waren nicht die einzige Möglichkeit, Dollar und Bitcoins zu tau
 
 
 
-Jeremias Kangas war ein finnischer Programmierer und Hacker in seinen frühen Dreißigern. Er leitete das Unternehmen [Kangas Bros. Innovations Oy](https://web.archive.org/web/20101030185646/http://kangasbros.fi/) mit seinem jüngeren Bruder Nikolaus, mit dem sie eine Reihe von iPhone- und Webanwendungen veröffentlichten. Er [hörte](https://bensonsamuel.wordpress.com/2013/01/01/universal-bitcoin-exchange/) Ende 2010 durch Hacker News von Bitcoin und war sofort von Nakamotos Modell fasziniert, das er [beschrieb](https://web.archive.org/web/20120517205800/http://blog.kangasbros.fi/?p=85) als "eine großartige und verrückte Innovation" und "ein revolutionäres Konzept". Im Jahr 2011, nach einer Reise nach Indien, begann er Vollzeit an Bitcoin zu arbeiten und entwickelte mehrere Programme wie die Software-Implementierung [django-bitcoin](https://bitcointalk.org/index.php?topic=30448.msg382233#msg382233) oder die Verwahrungsanwendung [EasyWallet.org](https://bitcointalk.org/index.php?topic=75665.msg838319#msg838319). Außerdem [entwickelte er](https://bitcointalk.org/index.php?topic=87553.msg1035076#msg1035076) zusammen mit Stefan Thomas während eines Hackathons den Online-Zahlungsprozessor Acceptbit, eine Lösung, die die Funktionalität des öffentlichen Hauptschlüssels von Electrum nutzte, um generate neue Adressen zu erhalten, ohne auf den entsprechenden privaten Schlüssel zugreifen zu müssen.
+Jeremias Kangas war ein finnischer Programmierer und Hacker in seinen frühen Dreißigern. Er leitete das Unternehmen [Kangas Bros. Innovations Oy](https://web.archive.org/web/20101030185646/http://kangasbros.fi/) mit seinem jüngeren Bruder Nikolaus, mit dem sie eine Reihe von iPhone- und Webanwendungen veröffentlichten. Er [hörte](https://bensonsamuel.wordpress.com/2013/01/01/universal-bitcoin-exchange/) Ende 2010 durch Hacker News von Bitcoin und war sofort von Nakamotos Modell fasziniert, das er [beschrieb](https://web.archive.org/web/20120517205800/http://blog.kangasbros.fi/?p=85) als "eine großartige und verrückte Innovation" und "ein revolutionäres Konzept". Im Jahr 2011, nach einer Reise nach Indien, begann er Vollzeit an Bitcoin zu arbeiten und entwickelte mehrere Programme wie die Software-Implementierung [django-bitcoin](https://bitcointalk.org/index.php?topic=30448.msg382233#msg382233) oder die Verwahrungsanwendung [Easywallet.org](https://bitcointalk.org/index.php?topic=75665.msg838319#msg838319). Außerdem [entwickelte er](https://bitcointalk.org/index.php?topic=87553.msg1035076#msg1035076) zusammen mit Stefan Thomas während eines Hackathons den Online-Zahlungsprozessor Acceptbit, eine Lösung, die die Funktionalität des öffentlichen Hauptschlüssels von Electrum nutzte, um generate neue Adressen zu erhalten, ohne auf den entsprechenden privaten Schlüssel zugreifen zu müssen.
 
 
 

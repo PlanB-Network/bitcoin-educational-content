@@ -318,7 +318,7 @@ Iniziamo dividendo il nostro messaggio equalizzato (risultato dei passaggi di pr
 ### Operazioni Logiche
 
 Prima di esplorare in dettaglio la funzione di compressione, è importante comprendere le operazioni logiche di base utilizzate. Queste operazioni, basate sull'algebra booleana, operano a livello di bit. Le operazioni logiche di base utilizzate sono:
-- **Congiunzione (AND)**: denotata $\le$, corrisponde a un "AND" logico.
+- **Congiunzione (AND)**: denotata $\land$, corrisponde a un "AND" logico.
 - **Disgiunzione (OR)**: denotata $\lor$, corrisponde a un "OR" logico.
 - **Negazione (NOT)**: denotata $\lnot$, corrisponde a un "NOT" logico.
 
@@ -333,9 +333,9 @@ Per XOR ($\oplus$):
 | 1   | 0   | 1            |
 | 1   | 1   | 0            |
 
-Per AND ($\le$):
+Per AND ($\land$):
 
-| $p$ | $q$ | $p \le q$ |
+| $p$ | $q$ | $p \land q$ |
 | --- | --- | ----------- |
 | 0   | 0   | 0           |
 | 0   | 1   | 0           |

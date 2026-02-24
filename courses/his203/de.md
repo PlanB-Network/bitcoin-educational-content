@@ -105,7 +105,7 @@ Dieser Kurs ist in vier Teile gegliedert, die sich jeweils auf die wirtschaftlic
 
 
 
-- Seidenstraße, der Amazonas der Drogen (Januar-November 2011)
+- Silk Road, das Amazon der Drogen (Januar-November 2011)
 - Mt. Gox-Übernahme (März-August 2011)
 - Bitcoin und politischer Aktivismus (März-November 2011)
 - Der erste Bärenmarkt (Juni 2011-April 2012)
@@ -163,7 +163,7 @@ Schließlich haben wir auf eine Reihe von Archiven und Inhalten zurückgegriffen
 
 
 - Von Vitalik Buterin verfasste Artikel für [Bitcoin Weekly](https://web.archive.org/web/20111101152804/http://bitcoinweekly.com/articles) und [Bitcoin Magazine](https://bitcoinmagazine.com/authors/vitalik-buterin);
-- Das [Seidenstraßen-Archiv](https://antilop.cc/sr/) zusammengestellt von [Moustache](https://twitter.com/lamoustache);
+- Das [Silk Road-Archiv](https://antilop.cc/sr/) zusammengestellt von [Moustache](https://twitter.com/lamoustache);
 - Episoden der [*Bitcoin Show*](https://www.youtube.com/watch?v=tBou4h0t5-A&list=PL7A7844F28DBED26A), unter der Regie von Bruce Wagner zwischen April 2011 und Februar 2012;
 - Der Podcast [*Untold Stories*](https://www.youtube.com/playlist?list=PLvER9nHSRN3xyQdrUAXKIgZ_hxeLI-kzy) aus dieser Zeit, in dem Charlie Shrem eine Reihe von Teilnehmern aus dieser Zeit zu Gast hatte.
 
@@ -184,7 +184,7 @@ Vielen Dank an Loïc Morel für sein sorgfältiges Korrekturlesen!
 
 
 
-## Seidenstraße, der Amazonas der Drogen
+## Silk Road, das "Amazon der Drogen"
 
 
 <chapterId>23e6297e-75b3-5c7f-bc29-ce1f6c1b56a4</chapterId>
@@ -199,7 +199,7 @@ Satoshi Nakamoto tat gut daran, zu diesem Zeitpunkt zurückzutreten, denn die fo
 
 
 
-Diese Plattform, die schnell als "Amazonas der Drogen" bezeichnet wurde, wurde von einem 26-jährigen Texaner namens Ross Ulbricht gegründet. Seine starken libertären Ideale inspirierten die Idee für das Projekt. Silk Road war ein durchschlagender Erfolg und spielte schließlich eine so wichtige Rolle für die Wirtschaft von Bitcoin, dass wir ihr hier ein ganzes Kapitel widmen. Wir stellen zunächst Ross Ulbricht vor, den Drahtzieher hinter Silk Road, und sprechen dann über die Anfänge des Marktplatzes, bevor wir auf die ersten Erfolge im Jahr 2011 zurückblicken.
+Diese Plattform, die schnell als "Amazon der Drogen" bezeichnet wurde, wurde von einem 26-jährigen Texaner namens Ross Ulbricht gegründet. Seine starken libertären Ideale inspirierten die Idee für das Projekt. Silk Road war ein durchschlagender Erfolg und spielte schließlich eine so wichtige Rolle für die Wirtschaft von Bitcoin, dass wir ihr hier ein ganzes Kapitel widmen. Wir stellen zunächst Ross Ulbricht vor, den Drahtzieher hinter Silk Road, und sprechen dann über die Anfänge des Marktplatzes, bevor wir auf die ersten Erfolge im Jahr 2011 zurückblicken.
 
 
 
@@ -236,7 +236,7 @@ Die Entdeckung der agoristischen Philosophie durch Ross war eine Offenbarung. Li
 Endlich das fehlende Puzzlestück!  Plötzlich war es so klar: Jede Maßnahme, die man außerhalb der staatlichen Kontrolle ergreift, stärkt den Markt und schwächt den Staat.  Ich sah, wie der Staat parasitär von den produktiven Menschen der Welt lebt und wie schnell er zusammenbrechen würde, wenn er nicht über seine Steuereinnahmen verfügte.  Keine Soldaten, wenn man sie nicht bezahlen kann.  Kein Drogenkrieg, ohne dass Milliarden von Dollar von den Menschen abgezweigt werden, die man unterdrückt."
 
 
-### Die Entstehungsgeschichte der Seidenstraße
+### Die Entstehungsgeschichte der Silk Road
 
 
 
@@ -350,7 +350,7 @@ Die neue Version von Silk Road [wurde schließlich](https://bitcointalk.org/inde
 
 
 
-Die Existenz der Seidenstraße war im Bitcoin-Forum von Anfang an bekannt. Sie entging jedoch zunächst dem Radar der allgemeinen Presse. So wurde der hypothetische Fall von Drogenhandel zwar im April von Andy Greenberg in seinem Artikel für Forbes [erwähnt](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html), doch war dem Journalisten die Plattform noch nicht bekannt.
+Die Existenz der Silk Road war im Bitcoin-Forum von Anfang an bekannt. Sie entging jedoch zunächst dem Radar der allgemeinen Presse. So wurde der hypothetische Fall von Drogenhandel zwar im April von Andy Greenberg in seinem Artikel für Forbes [erwähnt](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html), doch war dem Journalisten die Plattform noch nicht bekannt.
 
 
 
@@ -402,7 +402,7 @@ Darüber hinaus beschuldigte Senator Schumer in einer Pressekonferenz (https://w
 
 > "Zweitens kann niemand kontrollieren, was mit Bitcoins gekauft wird, genauso wenig wie meine Bank vor Ort kontrollieren kann, was ich mit dem Bargeld mache, das ich an ihrem Geldautomaten abhebe. Ich frage mich, ob die Senatoren Schumer und Manchin alles Bargeld durch eine von der Regierung ausgegebene Chipkarte ersetzen wollen. Schließlich wäre es dann für Kriminelle viel schwieriger, mit dem anonymen Kauf illegaler Waren durchzukommen, und wenn wir alle gesetzestreue Bürger sind, dann sollten wir uns keine Sorgen machen, dass die Regierung über alle unsere Einkäufe Bescheid weiß... oder?"
 
-### Der Erfolg des Amazonas der Drogen
+### Der Erfolg vom Amazon der Drogen
 
 
 
@@ -430,7 +430,7 @@ Ross Ulbricht setzte damit eine innovative Idee um, die auf seinen libertären u
 
 
 
-Das Aufkommen der Seidenstraße war ein wesentliches Element beim Aufbau von Bitcoin. Der Erfolg der Plattform zeigte, dass Bitcoin einen eigenen Zweck hatte, der sich von den traditionellen staatlichen Währungen und Online-Zahlungsdiensten unterschied. Darüber hinaus führte die Nutzung von Silk Road dazu, dass sich eine Reihe von Menschen für Bitcoin interessierten, wie z. B. [Peter McCormack](https://www.youtube.com/watch?v=3aDMnE6dnHk), der spätere Moderator des Podcasts *What Bitcoin Did*. Silk Road öffnete schließlich die Tür für alle Arten von illegalen Verwendungen, im Guten wie im Schlechten.
+Das Aufkommen der Silk Road war ein wesentliches Element beim Aufbau von Bitcoin. Der Erfolg der Plattform zeigte, dass Bitcoin einen eigenen Zweck hatte, der sich von den traditionellen staatlichen Währungen und Online-Zahlungsdiensten unterschied. Darüber hinaus führte die Nutzung von Silk Road dazu, dass sich eine Reihe von Menschen für Bitcoin interessierten, wie z. B. [Peter McCormack](https://www.youtube.com/watch?v=3aDMnE6dnHk), der spätere Moderator des Podcasts *What Bitcoin Did*. Silk Road öffnete schließlich die Tür für alle Arten von illegalen Verwendungen, im Guten wie im Schlechten.
 
 
 
@@ -445,7 +445,7 @@ Etwas mehr als ein Jahr nach dem Verkauf von Laszlos Pizzen wurde Silk Road also
 
 
 
-Der Zeitraum, der im Frühjahr 2011 begann, war durch die Entwicklung von Tauschaktivitäten zwischen Bitcoin und traditionellen Währungen wie dem Dollar und dem Euro gekennzeichnet. Diese Art von Dienstleistung spielte eine wesentliche Rolle in der Wirtschaft von Bitcoin, die zu klein war, um in einem geschlossenen Kreislauf zu funktionieren. Die Minerer mussten ihre Belohnungen verkaufen, um ihre Stromrechnungen zu bezahlen. Die Händler, einschließlich der Seidenstraßenverkäufer, mussten Dollars sammeln, um ihre Lieferanten zu bezahlen. Ihre Kunden, die in der Regel keine Bitcoins besaßen, mussten sich diese vorher beschaffen. Es gab auch eine starke spekulative Nachfrage von Leuten, die Kryptowährungen als Investition betrachteten.
+Der Zeitraum, der im Frühjahr 2011 begann, war durch die Entwicklung von Tauschaktivitäten zwischen Bitcoin und traditionellen Währungen wie dem Dollar und dem Euro gekennzeichnet. Diese Art von Dienstleistung spielte eine wesentliche Rolle in der Wirtschaft von Bitcoin, die zu klein war, um in einem geschlossenen Kreislauf zu funktionieren. Die Minerer mussten ihre Belohnungen verkaufen, um ihre Stromrechnungen zu bezahlen. Die Händler, einschließlich der Verkäufer auf Silk Road, mussten Dollars sammeln, um ihre Lieferanten zu bezahlen. Ihre Kunden, die in der Regel keine Bitcoins besaßen, mussten sich diese vorher beschaffen. Es gab auch eine starke spekulative Nachfrage von Leuten, die Kryptowährungen als Investition betrachteten.
 
 
 
@@ -832,7 +832,7 @@ Am 28. Dezember 2010, im Anschluss an den Artikel in der PC World, wurde das The
 
 
 
-Beide Gastgeber waren begeistert von Nakamotos System und den Möglichkeiten, die sich daraus ergeben. Insbesondere der Seidenstraßen-Marktplatz [hat](https://bitcointalk.org/index.php?topic=3984.msg66567#msg66567) die Neugier von Ian Freeman geweckt, der einige Monate später im Bitcoin-Forum [schrieb](https://bitcointalk.org/index.php?topic=12895.msg178537#msg178537): "Ich danke der Seidenstraße dafür, dass sie mir einen Grund gegeben hat, zumindest einen Teil der Vision von Bitcoin zu verstehen". Am 16. März war die Hälfte des Programms von Free Talk Live (http://traffic.libsyn.com/ftl/FTL2011-03-16.mp3) Bitcoin und Silk Road gewidmet, was die Aufmerksamkeit des libertären Publikums auf sich zog.
+Beide Gastgeber waren begeistert von Nakamotos System und den Möglichkeiten, die sich daraus ergeben. Insbesondere der Silk Road-Marktplatz [hat](https://bitcointalk.org/index.php?topic=3984.msg66567#msg66567) die Neugier von Ian Freeman geweckt, der einige Monate später im Bitcoin-Forum [schrieb](https://bitcointalk.org/index.php?topic=12895.msg178537#msg178537): "Ich danke der Silk Road dafür, dass sie mir einen Grund gegeben hat, zumindest einen Teil der Vision von Bitcoin zu verstehen". Am 16. März war die Hälfte des Programms von Free Talk Live (http://traffic.libsyn.com/ftl/FTL2011-03-16.mp3) Bitcoin und Silk Road gewidmet, was die Aufmerksamkeit des libertären Publikums auf sich zog.
 
 
 
@@ -2718,7 +2718,7 @@ Nachdem die große Blase von 2011 geplatzt war und sich der Preis stabilisiert h
 
 
 
-Der Austausch von Waren und Dienstleistungen gegen Bitcoins - allgemein als "Handel" bezeichnet - kann sowohl legal als auch illegal erfolgen. Im Berichtszeitraum haben beide Aspekte zugenommen. Einerseits nahm der Handel mit illegalen Waren dank der blühenden Aktivität der Seidenstraße zu, dem Marktplatz mit dem Spitznamen "Amazonas der Drogen", auf den damals ein großer Teil der Transaktionen in der Bitcoin-Kette entfiel. Andererseits wurden beträchtliche Anstrengungen unternommen, um allgemein akzeptierte Geschäftsunternehmungen hervorzuheben, insbesondere durch das Wachstum des Zahlungsabwicklers BitPay.
+Der Austausch von Waren und Dienstleistungen gegen Bitcoins - allgemein als "Handel" bezeichnet - kann sowohl legal als auch illegal erfolgen. Im Berichtszeitraum haben beide Aspekte zugenommen. Einerseits nahm der Handel mit illegalen Waren dank der blühenden Aktivität von Silk Road zu, dem Marktplatz mit dem Spitznamen "Amazon der Drogen", auf den damals ein großer Teil der Transaktionen in der Bitcoin-Kette entfiel. Andererseits wurden beträchtliche Anstrengungen unternommen, um allgemein akzeptierte Geschäftsunternehmungen hervorzuheben, insbesondere durch das Wachstum des Zahlungsabwicklers BitPay.
 
 
 
@@ -2738,7 +2738,7 @@ Anfang 2012 wurden die Gebühren pauschal auf 6,23 % festgesetzt, was bei der Ei
 
 
 
-Diese Entscheidung wurde von einigen angefochten, und der Seidenstraßen-Verwalter wurde unter anderem der Habgier bezichtigt. Aber die Änderung war unwiderruflich. Wie [schrieb](https://antilop.cc/sr/users/dpr/messages/20120110-0201-536-Re_State_of_the_Road_Address.txt) Ross am nächsten Tag in demselben Thread:
+Diese Entscheidung wurde von einigen angefochten, und der Silk Road-Verwalter wurde unter anderem der Habgier bezichtigt. Aber die Änderung war unwiderruflich. Wie [schrieb](https://antilop.cc/sr/users/dpr/messages/20120110-0201-536-Re_State_of_the_Road_Address.txt) Ross am nächsten Tag in demselben Thread:
 
 
 
@@ -2768,11 +2768,11 @@ Ross' erste Entscheidung als DPR bestand darin, den Verkauf von Schusswaffen auf
 
 
 
-### Der stille Aufstieg des Amazonas der Drogen
+### Der stille Aufstieg des Amazons der Drogen
 
 
 
-Die Aktivitäten auf der Hauptplattform florierten jedoch entgegen den Vorstellungen der Mitglieder der Bitcoin-Gemeinschaft, die dem Beispiel von Vitalik Buterin folgten, der im Juli 2012 [fälschlicherweise](https://bitcoinmagazine.com/culture/the-silk-road-report) erklärte, dass die Seidenstraße "weit davon entfernt ist, das wirtschaftliche Kraftzentrum von Bitcoin zu sein". Laut einem Bericht von Nicolas Christin, einem Forscher an der Carnegie-Mellon University in Pittsburgh, der im August veröffentlicht wurde (https://arxiv.org/pdf/1207.7139), verzeichnete die Plattform ein außerordentliches Wachstum. Zwischen März und Juli hat sich die Zahl der Verkäufer von 300 auf über 550 fast verdoppelt, und fast 97,8 % der Kunden haben eine positive Bewertung ihrer Transaktionen abgegeben.
+Die Aktivitäten auf der Hauptplattform florierten jedoch entgegen den Vorstellungen der Mitglieder der Bitcoin-Gemeinschaft, die dem Beispiel von Vitalik Buterin folgten, der im Juli 2012 [fälschlicherweise](https://bitcoinmagazine.com/culture/the-silk-road-report) erklärte, dass die Silk Road "weit davon entfernt ist, das wirtschaftliche Kraftzentrum von Bitcoin zu sein". Laut einem Bericht von Nicolas Christin, einem Forscher an der Carnegie-Mellon University in Pittsburgh, der im August veröffentlicht wurde (https://arxiv.org/pdf/1207.7139), verzeichnete die Plattform ein außerordentliches Wachstum. Zwischen März und Juli hat sich die Zahl der Verkäufer von 300 auf über 550 fast verdoppelt, und fast 97,8 % der Kunden haben eine positive Bewertung ihrer Transaktionen abgegeben.
 
 
 
@@ -2784,7 +2784,7 @@ Das tägliche Verkaufsvolumen verdoppelte sich ebenfalls und stieg von 8.000 BTC
 
 
 
-*Tägliches Seidenstraßenvolumen (in BTC) zwischen März und Juli 2012 (Quelle: [Nicolas Christin](https://arxiv.org/pdf/1207.7139))*
+*Tägliches Silk Road Volumen (in BTC) zwischen März und Juli 2012 (Quelle: [Nicolas Christin](https://arxiv.org/pdf/1207.7139))*
 
 
 
@@ -2808,11 +2808,11 @@ All dies bedeutet, dass Silk Road einen herausragenden Platz bei den wirtschaftl
 
 
 
-*Entwicklung der wirtschaftlichen Aktivität der Seidenstraße während ihrer Existenz zwischen Januar 2011 und Oktober 2013 (Quelle: [Chainalysis](https://www.chainalysis.com/blog/silk-road-doj-seizure-november-2020/))*
+*Entwicklung der wirtschaftlichen Aktivität der Silk Road während ihrer Existenz zwischen Januar 2011 und Oktober 2013 (Quelle: [Chainalysis](https://www.chainalysis.com/blog/silk-road-doj-seizure-november-2020/))*
 
 
 
-Die Studie von Nicolas Christin wirkte sich positiv auf den Amazonas der Drogen aus. Anfang November 2012 sprach Ross [sprach](https://antilop.cc/sr/users/dpr/threads/20121102-0011-explosive_growth.html) daher von "explosivem Wachstum". Er schrieb, Silk Road befinde sich "in Bezug auf die Zahl der Nutzer, die auf Silk Road zugreifen, in unerforschtem Gebiet". Ross konnte es sich daher leisten, seine Einnahmen in erheblichem Umfang in sein Projekt zu reinvestieren: Er stellte zahlreiche Mitarbeiter ein, um die Plattform voranzutreiben. Außerdem stieg der Bitcoin-Kurs allmählich an, was die Kaufkraft der Inhaber erhöhte und den Verkehr auf der Silk Road ankurbelte.
+Die Studie von Nicolas Christin wirkte sich positiv auf das Amazon der Drogen aus. Anfang November 2012 sprach Ross [sprach](https://antilop.cc/sr/users/dpr/threads/20121102-0011-explosive_growth.html) daher von "explosivem Wachstum". Er schrieb, Silk Road befinde sich "in Bezug auf die Zahl der Nutzer, die auf Silk Road zugreifen, in unerforschtem Gebiet". Ross konnte es sich daher leisten, seine Einnahmen in erheblichem Umfang in sein Projekt zu reinvestieren: Er stellte zahlreiche Mitarbeiter ein, um die Plattform voranzutreiben. Außerdem stieg der Bitcoin-Kurs allmählich an, was die Kaufkraft der Inhaber erhöhte und den Verkehr auf der Silk Road ankurbelte.
 
 
 
@@ -2906,7 +2906,7 @@ LocalBitcoins zog die Aufmerksamkeit der Gemeinschaft auf sich, und Jeremias nah
 
 
 
-Während der Verkehr auf der Seidenstraße und der Bargeldaustausch florierten, blühte auch der konventionelle Handel. Im Jahr 2012 waren Hunderte von Händlern [referenziert](https://web.archive.org/web/20120724114927/https://en.bitcoin.it/wiki/Trade) auf dem Bitcoin-Wiki. Zwar gab es auch einige stationäre Geschäfte (in der Regel Bars und Restaurants in Großstädten, wie das kultige [Room77](https://www.youtube.com/watch?v=rzKdW-au110) in Berlin), doch die meisten Bitcoin-Käufe wurden online getätigt.
+Während der Verkehr auf der Silk Road und der Bargeldaustausch florierten, blühte auch der konventionelle Handel. Im Jahr 2012 waren Hunderte von Händlern [referenziert](https://web.archive.org/web/20120724114927/https://en.bitcoin.it/wiki/Trade) auf dem Bitcoin-Wiki. Zwar gab es auch einige stationäre Geschäfte (in der Regel Bars und Restaurants in Großstädten, wie das kultige [Room77](https://www.youtube.com/watch?v=rzKdW-au110) in Berlin), doch die meisten Bitcoin-Käufe wurden online getätigt.
 
 
 
@@ -3061,7 +3061,7 @@ Trotz dieser allmählichen Entwicklung blieb diese Zeit mit dem Wilden Westen ve
 
 
 
-Bitcoin ist eine Währung, für die keine Genehmigung erforderlich ist. Dies erklärt, warum es zwangsläufig für Praktiken verwendet wurde, die als Laster gelten und oft moralisch verurteilt, wenn nicht sogar gesetzlich verboten sind. Es gab natürlich den Drogenkonsum, der durch den Seidenstraßen-Marktplatz vorangetrieben wurde, den wir in diesem Kurs bereits ausführlich besprochen haben. Aber das war nicht die einzige Aktivität dieser Art: Glücksspiel und Sexarbeit erlebten ebenfalls eine Art Synergie mit Bitcoin.
+Bitcoin ist eine Währung, für die keine Genehmigung erforderlich ist. Dies erklärt, warum es zwangsläufig für Praktiken verwendet wurde, die als Laster gelten und oft moralisch verurteilt, wenn nicht sogar gesetzlich verboten sind. Es gab natürlich den Drogenkonsum, der durch den Silk Road-Marktplatz vorangetrieben wurde, den wir in diesem Kurs bereits ausführlich besprochen haben. Aber das war nicht die einzige Aktivität dieser Art: Glücksspiel und Sexarbeit erlebten ebenfalls eine Art Synergie mit Bitcoin.
 
 
 

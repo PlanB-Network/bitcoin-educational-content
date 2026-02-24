@@ -6,4 +6,4 @@ wrong_answers:
   - Karena d dihitung secara independen dari φ(N)
 explanation: |
   Menemukan d sulit karena bergantung pada pengetahuan tentang φ(N), yang pada gilirannya bergantung pada nilai p dan q, faktor prima dari N.
-reviewed: false
+reviewed: true

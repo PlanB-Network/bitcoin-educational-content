@@ -445,11 +445,11 @@ Etwas mehr als ein Jahr nach dem Verkauf von Laszlos Pizzen wurde Silk Road also
 
 
 
-Der Zeitraum, der im Frühjahr 2011 begann, war durch die Entwicklung von Tauschaktivitäten zwischen Bitcoin und traditionellen Währungen wie dem Dollar und dem Euro gekennzeichnet. Diese Art von Dienstleistung spielte eine wesentliche Rolle in der Wirtschaft von Bitcoin, die zu klein war, um in einem geschlossenen Kreislauf zu funktionieren. Die Minerer mussten ihre Belohnungen verkaufen, um ihre Stromrechnungen zu bezahlen. Die Händler, einschließlich der Verkäufer auf Silk Road, mussten Dollars sammeln, um ihre Lieferanten zu bezahlen. Ihre Kunden, die in der Regel keine Bitcoins besaßen, mussten sich diese vorher beschaffen. Es gab auch eine starke spekulative Nachfrage von Leuten, die Kryptowährungen als Investition betrachteten.
+Der Zeitraum, der im Frühjahr 2011 begann, war durch die Entwicklung von Tauschaktivitäten zwischen Bitcoin und traditionellen Währungen wie dem Dollar und dem Euro gekennzeichnet. Diese Art von Dienstleistung spielte eine wesentliche Rolle in der Wirtschaft von Bitcoin, die zu klein war, um in einem geschlossenen Kreislauf zu funktionieren. Die Miner mussten ihre Belohnungen verkaufen, um ihre Stromrechnungen zu bezahlen. Die Händler, einschließlich der Verkäufer auf Silk Road, mussten Dollars sammeln, um ihre Lieferanten zu bezahlen. Ihre Kunden, die in der Regel keine Bitcoins besaßen, mussten sich diese vorher beschaffen. Es gab auch eine starke spekulative Nachfrage von Leuten, die Kryptowährungen als Investition betrachteten.
 
 
 
-Die erste große Tauschplattform war Mt. Gox, die im Juli 2010 von dem Unternehmer Jed McCaleb "aus Jux und Dollerei" gegründet wurde. Dank ihres automatisierten Betriebs etablierte sie sich schnell als wichtigste Möglichkeit, Dollar in Bitcoins zu tauschen und umgekehrt. Anfang 2011 beschloss Jed McCaleb angesichts des Umfangs der Aufgabe, die Plattform an eine technisch qualifiziertere und motiviertere Person zu übergeben: Den französischen Entwickler Mark Karpelès.
+Die erste große Tauschplattform war Mt. Gox, die im Juli 2010 von dem Unternehmer Jed McCaleb "aus Jux und Tollerei" gegründet wurde. Dank ihres automatisierten Betriebs etablierte sie sich schnell als wichtigste Möglichkeit, Dollar in Bitcoins zu tauschen und umgekehrt. Anfang 2011 beschloss Jed McCaleb angesichts des Umfangs der Aufgabe, die Plattform an eine technisch qualifiziertere und motiviertere Person zu übergeben: Den französischen Entwickler Mark Karpelès.
 
 
 
@@ -461,7 +461,7 @@ Zusammen mit Silk Road war die Plattform in diesem Teil der Geschichte von Bitco
 
 
 
-Mark Karpelès wurde 1985 in Frankreich geboren. Als Einzelkind wurde er von seiner alleinerziehenden Mutter großgezogen. Er interessierte sich schnell für Computer, Videospiele und Manga. In seinen Zwanzigern war er bereits ein Geek (https://web.archive.org/web/20140302234940/http://blog.magicaltux.net/2006/02/12/pensees-nocturnes/): 2007 trat er sogar in dem französischen Dokumentarfilm *Suck my Geek* auf, der sich an alle richtet, die sich für Fantasy, Technologie und Computer begeistern. Im Jahr 2009 wollte er Frankreich verlassen, wo er sich nie wirklich zu Hause gefühlt hatte, und zog [im Juni 2009](https://web.archive.org/web/20090628035138/http://blog.magicaltux.net/2009/06/18/arrived-in-japan/) nach Japan, weil ihn die dortige Kultur faszinierte. Dort gründete er Tibanne Co. Ltd (benannt nach seiner Katze Tibane), mit der er freiberuflich arbeitete. Insbesondere betrieb er einen Hosting-Dienst namens [KalyHost](https://web.archive.org/web/20101231201212/https://www.kalyhost.com/).
+Mark Karpelès wurde 1985 in Frankreich geboren. Als Einzelkind wurde er von seiner alleinerziehenden Mutter großgezogen. Er interessierte sich schnell für Computer, Videospiele und Manga. In seinen Zwanzigern war er bereits ein [Geek](https://web.archive.org/web/20140302234940/http://blog.magicaltux.net/2006/02/12/pensees-nocturnes/): 2007 trat er sogar in dem französischen Dokumentarfilm *Suck my Geek* auf, der sich an alle richtet, die sich für Fantasy, Technologie und Computer begeistern. Im Jahr 2009 wollte er Frankreich verlassen, wo er sich nie wirklich zu Hause gefühlt hatte, und zog [im Juni 2009](https://web.archive.org/web/20090628035138/http://blog.magicaltux.net/2009/06/18/arrived-in-japan/) nach Japan, weil ihn die dortige Kultur faszinierte. Dort gründete er Tibanne Co. Ltd (benannt nach seiner Katze Tibane), mit der er freiberuflich arbeitete. Insbesondere betrieb er einen Hosting-Dienst namens [KalyHost](https://web.archive.org/web/20101231201212/https://www.kalyhost.com/).
 
 
 
@@ -476,7 +476,7 @@ Mark Karpelès wurde 1985 in Frankreich geboren. Als Einzelkind wurde er von sei
 Er erfuhr im Herbst 2010 von Bitcoin durch einen französischen Kunden mit Sitz in Peru (William Waisse [alias](https://bitcointalk.org/index.php?topic=1719.msg21107#msg21107) Neofutur), der ihn fragte, ob er eine Rechnung in Bitcoins bezahlen könne. Mark war offen für diese Möglichkeit und entwickelte schnell eine Leidenschaft für dieses System. Im Gegensatz zu Martti Malmi, Ross Ulbricht oder Roger Ver war der junge Franzose weder ein ideologisch motivierter Libertärer noch ein profitgieriger Spekulant. Sein Interesse an Bitcoin beruhte vielmehr auf technischer Neugierde. Wie er [im Jahr 2014](https://web.archive.org/web/20140918220234/http://www.thedailybeast.com/articles/2014/09/17/mt-gox-s-karpeles-on-losing-a-half-billion-bucks-in-bitcoins.html) sagen würde:
 
 
-> "Was mich an bitcoin interessierte, waren die technologischen Aspekte. Mit anderen Worten, die Tatsache, dass eine globale Datenbank auf sichere Weise verwaltet wird. Die Tatsache, dass jeder Kunde ein gesichertes privates wallet hat. Ein völlig dezentrales System zu haben. Außerdem kann man mit bitcoin eine öffentliche Datenbank haben."
+> "Was mich an Bitcoin interessierte, waren die technologischen Aspekte. Mit anderen Worten, die Tatsache, dass eine globale Datenbank auf sichere Weise verwaltet wird. Die Tatsache, dass jeder Kunde ein gesichertes privates Wallet hat. Ein völlig dezentrales System zu haben. Außerdem kann man mit Bitcoin eine öffentliche Datenbank haben."
 
 Sobald er es entdeckt hatte, vertiefte er sich in die Funktionsweise von Bitcoin und begann, Programme zu schreiben, um es zu nutzen. Im November [begann](https://bitcointalk.org/index.php?topic=30.msg20699#msg20699) er, Bitcoin-Zahlungen mit KalyHost zu akzeptieren (Ross Ulbricht [würde](https://cdn.arstechnica.net/wp-content/uploads/2015/01/Govt.motion.1.19.pdf) diesen Dienst nutzen, um die Webseite Silkroadmarket.org zu hosten). Im Dezember 2010 [erstellte](https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872) er ein neues Wiki, Bitcoin.it, das bald das Hauptwiki von Bitcoin werden sollte. Er wollte auch eine Software-Implementierung mit dem Namen [QBitcoin](https://web.archive.org/web/20110326023018/http://bitcoinweekly.com/articles/interview-with-magicaltux-on-qbitcoin) entwickeln, hat dies aber nicht weiter verfolgt.
 
@@ -494,10 +494,7 @@ Seine Wahl fiel auf Mark Karpelès, der in der Entwicklergemeinschaft aktiv war,
 
 
 > "Hallo Mark,
->
-
-
-> Bitte behalte das alles vertraulich, ich möchte keine Panik auslösen und ich bin mir noch nicht sicher, ob ich es tun werde, aber ich denke, ich könnte versuchen, mtgox zu verkaufen. Ich habe einfach diese anderen Projekte, denen ich gerne mehr Zeit widmen würde. Wären Sie daran interessiert? Es könnte sehr wenig im Voraus sein und nur eine Auszahlung basierend auf den Einnahmen oder so. Es gibt auch eine Investmentgruppe, die mtgox finanzieren will. Wahrscheinlich um die $158k. Sie könnten es also höchstwahrscheinlich mit etwas Bargeld übernehmen."
+ Bitte behalte das alles vertraulich, ich möchte keine Panik auslösen und ich bin mir noch nicht sicher, ob ich es tun werde, aber ich denke, ich könnte versuchen, mtgox zu verkaufen. Ich habe einfach diese anderen Projekte, denen ich gerne mehr Zeit widmen würde. Wären Sie daran interessiert? Es könnte sehr wenig im Voraus sein und nur eine Auszahlung basierend auf den Einnahmen oder so. Es gibt auch eine Investmentgruppe, die MtGox finanzieren will. Wahrscheinlich um die $158k. Sie könnten es also höchstwahrscheinlich mit etwas Bargeld übernehmen."
 
 Nach Gesprächen über die Bedingungen der Vereinbarung wurde der Vertrag schließlich am 3. Februar unterzeichnet. Jed McCaleb behielt 12 % des Unternehmens und 50 % der Einnahmen für sechs Monate, danach wurde der Rest an das Unternehmen von Mark Karpelès, Tibanne Co. Ltd. Eine Klausel im Vertrag befreite Jed von jeglicher rechtlichen Haftung.
 
@@ -506,7 +503,7 @@ Nach Gesprächen über die Bedingungen der Vereinbarung wurde der Vertrag schlie
 Am 6. März machte Jed McCaleb den Transfer [offiziell](https://bitcointalk.org/index.php?topic=4187.msg60610#msg60610) im Bitcoin Forum bekannt. In seiner letzten Nachricht mit dem Mt. Gox-Konto erklärte er:
 
 
-> "Ich habe mtgox aus einer Laune heraus gegründet, nachdem ich letzten Sommer über Bitcoins gelesen hatte. Es war interessant und hat Spaß gemacht. Ich bin immer noch sehr zuversichtlich, dass Bitcoins eine große Zukunft haben. Aber um mtgox wirklich zu dem zu machen, was es sein könnte, bräuchte ich mehr Zeit als ich im Moment habe. Deshalb habe ich mich entschlossen, die Fackel an jemanden weiterzugeben, der besser in der Lage ist, die Seite auf die nächste Stufe zu heben
+> "Ich habe mtgox aus einer Laune heraus gegründet, nachdem ich letzten Sommer über Bitcoins gelesen hatte. Es war interessant und hat Spaß gemacht. Ich bin immer noch sehr zuversichtlich, dass Bitcoins eine große Zukunft haben. Aber um mtgox wirklich zu dem zu machen, was es sein könnte, bräuchte ich mehr Zeit als ich im Moment habe. Deshalb habe ich mich entschlossen, die Fackel an jemanden weiterzugeben, der besser in der Lage ist, die Seite auf die nächste Stufe zu heben."
 
 In den folgenden Monaten half Jed Mark weiterhin bei der Verwaltung der Plattform. Allerdings wurde er bald von einem [neuen Projekt](https://bitcointalk.org/index.php?topic=10193.msg146250#msg146250) für digitale Währungen absorbiert, das 2012 in der Neugestaltung von Ripple und 2014 in der Gründung von Stellar mündete.
 
@@ -520,7 +517,7 @@ Wie wir bereits Anfang 2011 feststellten, war die Mt. Gox-Plattform nicht sicher
 
 
 
-Am 1. März 2011, gerade als der Transfer offiziell gemacht werden sollte, lösten sich 80.000 Bitcoins [in Luft auf](https://mempool.space/tx/e67a0550848b7932d7796aeea16ab0e48a5cfe81c4e8cca2c5b03e0416850114), dank eines bösartigen Zugriffs auf die [wallet](https://planb.academy/resources/glossary/wallet).dat-Datei der Website. Am 3. Mai bemerkte Jed McCaleb die Abhebung und [informierte](https://web.archive.org/web/20200427200314/https://courts.ms.gov/appellatecourts/docket/sendPDF.php?f=dc00001_live.SCT.17.M.1681.102741.5.pdf&c=87490&a=N&s=2) Mark im IRC, dass "etwas Schlimmes passiert ist". Es war ein großer Verlust (ein Bitcoin wurde damals für 0,92 $ verkauft), der in den folgenden Monaten mit dem beispiellosen Preisanstieg immer größer wurde.
+Am 1. März 2011, gerade als der Transfer offiziell gemacht werden sollte, lösten sich 80.000 Bitcoins [in Luft auf](https://mempool.space/tx/e67a0550848b7932d7796aeea16ab0e48a5cfe81c4e8cca2c5b03e0416850114), dank eines bösartigen Zugriffs auf die [Wallet](https://planb.academy/resources/glossary/Wallet).dat-Datei der Website. Am 3. Mai bemerkte Jed McCaleb die Abhebung und [informierte](https://web.archive.org/web/20200427200314/https://courts.ms.gov/appellatecourts/docket/sendPDF.php?f=dc00001_live.SCT.17.M.1681.102741.5.pdf&c=87490&a=N&s=2) Mark im IRC, dass "etwas Schlimmes passiert ist". Es war ein großer Verlust (ein Bitcoin wurde damals für 0,92 $ verkauft), der in den folgenden Monaten mit dem beispiellosen Preisanstieg immer größer wurde.
 
 
 Dieses Problem wurde [erwähnt](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) von Jed am 18. April in einer E-Mail an Mark, in der er schrieb:
@@ -572,7 +569,7 @@ Im Laufe der Zeit wurden die Dinge besser. Im Juni stellte Mark Karpelès einen 
 
 
 
-Der Erfolg von Mt. Gox inspirierte Nachahmer, sowohl in den Vereinigten Staaten als auch anderswo. Als die Preise und die Nachfrage stiegen, wurde der Start einer Börsenplattform rentabel. Infolgedessen entstanden im Laufe des Jahres, insbesondere ab dem Frühjahr, zahlreiche Konkurrenten, die auf demselben Modell aufbauen und eine automatische Auftragsverwaltung anbieten (https://web.archive.org/web/20110727192503/https://bitcoincharts.com/markets/).
+Der Erfolg von Mt. Gox inspirierte Nachahmer, sowohl in den Vereinigten Staaten als auch anderswo. Als die Preise und die Nachfrage stiegen, wurde der Start einer Börsenplattform rentabel. Infolgedessen entstanden im Laufe des Jahres, insbesondere ab dem Frühjahr, zahlreiche Konkurrenten, die auf demselben Modell aufbauen und eine automatische Auftragsverwaltung [anbieten](https://web.archive.org/web/20110727192503/https://bitcoincharts.com/markets/).
 
 
 
@@ -580,7 +577,7 @@ Abgesehen von Bitcoin Market (erwähnt in HIS201) war die erste Plattform, die w
 
 
 
-Eine zweite Plattform war Britcoin, die am 26. März von Amir Taaki (alias Genjix), dem jungen britischen Entwickler iranischer Herkunft, der im November 2010 einen Brief an WikiLeaks senden wollte, in dem er Bitcoin empfahl, [gestartet](https://bitcointalk.org/index.php?topic=4984.msg73066#msg73066) wurde. Wie der Name schon sagt, war die Plattform in Großbritannien angesiedelt und integrierte den Austausch zwischen Pfund Sterling und Bitcoin. Wie David François [veröffentlichte](https://bitcointalk.org/index.php?topic=4579.msg67047#msg67047) Amir die zugrunde liegende Software [unter einer Open-Source-Lizenz](https://github.com/dooglus/intersango/blob/master/LICENSE) (AGPL), die er "Intersango" nannte (vom Esperanto *interŝanĝo* für Austausch). Amir wurde bald von Donald Norman und Patrick Strateman (auch bekannt unter dem Pseudonym Phantomcircuit) [https://web.archive.org/web/20120129171120/https://britcoin.co.uk/about-us.php] unterstützt, um die Plattform zu verwalten.
+Eine zweite Plattform war Britcoin, die am 26. März von Amir Taaki (alias Genjix), dem jungen britischen Entwickler iranischer Herkunft, der im November 2010 einen Brief an WikiLeaks senden wollte, in dem er Bitcoin empfahl, [gestartet](https://bitcointalk.org/index.php?topic=4984.msg73066#msg73066) wurde. Wie der Name schon sagt, war die Plattform in Großbritannien angesiedelt und integrierte den Austausch zwischen Pfund Sterling und Bitcoin. Wie David François [veröffentlichte](https://bitcointalk.org/index.php?topic=4579.msg67047#msg67047) Amir die zugrunde liegende Software [unter einer Open-Source-Lizenz](https://github.com/dooglus/intersango/blob/master/LICENSE) (AGPL), die er "Intersango" nannte (vom Esperanto *interŝanĝo* für Austausch). Amir wurde bald von Donald Norman und Patrick Strateman (auch bekannt unter dem Pseudonym Phantomcircuit) [unterstützt](https://web.archive.org/web/20120129171120/https://britcoin.co.uk/about-us.php), um die Plattform zu verwalten.
 
 
 
@@ -604,7 +601,7 @@ Im April gründeten die drei Männer [Bitcoin Consultancy](https://web.archive.o
 
 
 
-Am 6. Juni startete Bitcoin Consultancy [https://bitcointalk.org/index.php?topic=26543.msg332466#msg332466] eine neue, auf den europäischen Markt ausgerichtete Devisenhandelsplattform namens Intersango (wie die dahinter stehende Software). Britcoin und Intersango fusionierten schließlich einige Monate später zu einer einzigen Website.
+Am 6. Juni [startete](https://bitcointalk.org/index.php?topic=26543.msg332466#msg332466) Bitcoin Consultancy eine neue, auf den europäischen Markt ausgerichtete Devisenhandelsplattform namens Intersango (wie die dahinter stehende Software). Britcoin und Intersango fusionierten schließlich einige Monate später zu einer einzigen Website.
 
 
 
@@ -612,7 +609,7 @@ In Osteuropa wurde am 4. April die Bitomat-Plattform mit Sitz in Polen [gestarte
 
 
 
-Eine weitere Plattform war VirWoX (*Virtual World Exchange*) mit Sitz in Österreich. Sie wurde 2007 eröffnet und war ein führender Marktplatz für den Umtausch von virtuellen Währungen aus Videospielen, darunter der Linden-Dollar aus *Second Life*. Am 27. April 2011 nahm die Website [https://web.archive.org/web/20110511075334/https://www.virwox.com/] Bitcoin in ihr Angebot auf, wobei sie zunächst nur den Tausch mit dem Linden-Dollar anbot, der es den Nutzern ermöglichte, Nakamotos Kryptowährung zu erwerben.
+Eine weitere Plattform war VirWoX (*Virtual World Exchange*) mit Sitz in Österreich. Sie wurde 2007 eröffnet und war ein führender Marktplatz für den Umtausch von virtuellen Währungen aus Videospielen, darunter der Linden-Dollar aus *Second Life*. Am 27. April 2011 nahm die Website Bitcoin [in ihr Angebot auf](https://web.archive.org/web/20110511075334/https://www.virwox.com/), wobei sie zunächst nur den Tausch mit dem Linden-Dollar anbot, der es den Nutzern ermöglichte, Nakamotos Kryptowährung zu erwerben.
 
 
 
@@ -628,7 +625,7 @@ Der letzte Marktplatz, der in diesem Zeitraum erschien, war TradeHill, eine Plat
 
 
 
-Der finanzielle Erfolg von Bitcoin zog unweigerlich Hacker an. Das Fehlen von Mittelsmännern und die relative Anonymität von Bitcoin war ein perfektes Merkmal für Diebe, die sich der Bitcoins anderer Leute bemächtigen können, ohne zu riskieren, dass ihre Beute eingefroren wird. Am 13. Juni fand der erste groß angelegte Hack statt: Ein aktives Mitglied der Community mit dem Pseudonym Allinvain [wurde](https://mempool.space/tx/4885ddf124a0f97b5a3775a12de0274d342d12842ebe59520359f976721ac8c3) um 25.000 Bitcoins beraubt, die ihm persönlich gehörten, was fast 500.000 Dollar entspricht! Er [teilte](https://bitcointalk.org/index.php?topic=16457.msg214423#msg214423) seine Erfahrung im Bitcoin-Forum mit, und die Geschichte wurde [in der Online-Presse](https://www.forbes.com/sites/timworstall/2011/06/17/bitcoin-the-first-500000-theft/) weitergegeben. Es [schien](https://web.archive.org/web/20110618151605/https://www.wired.com/threatlevel/2011/06/bitcoin-malware/), dass er das Opfer eines Trojaners (Malware) namens Coinbit war, der die Datei "wallet.dat" von einem Computer mit Windows abrief. Dies [brachte](https://gavinthink.blogspot.com/2011/06/why-arent-bitcoin-wallets-encrypted.html) die Frage der wallet-Verschlüsselung wieder auf den Tisch, eine Funktion, die einige Monate später in der Software [implementiert](https://bitcointalk.org/index.php?topic=45410.msg541446#msg541446) werden sollte.
+Der finanzielle Erfolg von Bitcoin zog unweigerlich Hacker an. Das Fehlen von Mittelsmännern und die relative Anonymität von Bitcoin war ein perfektes Merkmal für Diebe, die sich der Bitcoins anderer Leute bemächtigen können, ohne zu riskieren, dass ihre Beute eingefroren wird. Am 13. Juni fand der erste groß angelegte Hack statt: Ein aktives Mitglied der Community mit dem Pseudonym Allinvain [wurde](https://mempool.space/tx/4885ddf124a0f97b5a3775a12de0274d342d12842ebe59520359f976721ac8c3) um 25.000 Bitcoins beraubt, die ihm persönlich gehörten, was fast 500.000 Dollar entspricht! Er [teilte](https://bitcointalk.org/index.php?topic=16457.msg214423#msg214423) seine Erfahrung im Bitcoin-Forum mit, und die Geschichte wurde [in der Online-Presse](https://www.forbes.com/sites/timworstall/2011/06/17/bitcoin-the-first-500000-theft/) weitergegeben. Es [schien](https://web.archive.org/web/20110618151605/https://www.wired.com/threatlevel/2011/06/bitcoin-malware/), dass er das Opfer eines Trojaners (Malware) namens Coinbit war, der die Datei "Wallet.dat" von einem Computer mit Windows abrief. Dies [brachte](https://gavinthink.blogspot.com/2011/06/why-arent-bitcoin-Wallets-encrypted.html) die Frage der Wallet-Verschlüsselung wieder auf den Tisch, eine Funktion, die einige Monate später in der Software [implementiert](https://bitcointalk.org/index.php?topic=45410.msg541446#msg541446) werden sollte.
 
 
 
@@ -636,7 +633,7 @@ Wie wir bereits angedeutet haben, war Mt. Gox ein ideales Ziel. Es war regelmä�
 
 
 
-Infolgedessen begann am 16. Juni ein massiver Hack. Einem Hacker (möglicherweise [von](https://www.theguardian.com/technology/2011/jun/22/lulzsec-rogue-suspected-of-bitcoin-hack) der Gruppe LulzSec) gelang es, die Datenbank mit den Pseudonymen der Nutzer und den kryptografischen Fingerabdrücken ihrer Passwörter (mit MD5 gehasht, [meist ungesalzen](https://news.ycombinator.com/item?id=2671669) in die Hände zu bekommen. Dadurch konnte er auf Konten zugreifen, die durch schwache (d.h. kurze oder leicht zu erratende) Passwörter gesichert waren, und Abhebungen unter dem täglichen Limit von 1.000 Dollar vornehmen. Die Beschwerden [häuften sich](https://bitcointalk.org/index.php?topic=18050.0) im Forum und veranlassten Mark Karpelès am 18. Juni zu einer [Reaktion](https://bitcointalk.org/index.php?topic=18858.msg236884#msg236884). Karpelès spielte die Diebstähle herunter, indem er darauf hinwies, dass es sich nur um wenige Fälle handelte und er die Idee unterstützte, dass "dies ein Problem zu sein scheint, das hauptsächlich von Benutzern ausgeht".
+Infolgedessen begann am 16. Juni ein massiver Hack. Einem Hacker (möglicherweise [von](https://www.theguardian.com/technology/2011/jun/22/lulzsec-rogue-suspected-of-bitcoin-hack) der Gruppe LulzSec) gelang es, die Datenbank mit den Pseudonymen der Nutzer und den kryptografischen Fingerabdrücken ihrer Passwörter (mit MD5 gehasht, [meist ohne Salt gespeichert](https://news.ycombinator.com/item?id=2671669) in die Hände zu bekommen. Dadurch konnte er auf Konten zugreifen, die durch schwache (d.h. kurze oder leicht zu erratende) Passwörter gesichert waren, und Abhebungen unter dem täglichen Limit von 1.000 Dollar vornehmen. Die Beschwerden [häuften sich](https://bitcointalk.org/index.php?topic=18050.0) im Forum und veranlassten Mark Karpelès am 18. Juni zu einer [Reaktion](https://bitcointalk.org/index.php?topic=18858.msg236884#msg236884). Karpelès spielte die Diebstähle herunter, indem er darauf hinwies, dass es sich nur um wenige Fälle handelte und er die Idee unterstützte, dass "dies ein Problem zu sein scheint, das hauptsächlich von Benutzern ausgeht".
 
 
 
@@ -679,11 +676,11 @@ Die Hacks schadeten dem öffentlichen Image von Bitcoin. Obwohl ein einzelner Ha
 
 > "Bitcoin sind nicht sicher, wie sowohl der jüngste Diebstahl als auch dieses Passwortproblem zeigen. Sie sind weder liquide noch ein Wertaufbewahrungsmittel, wie der Preisverfall zeigt, und wenn sie nichts von alledem sind, dann sind sie auch kein gutes Tauschmittel, denn wer würde sie annehmen wollen?"
 
-Um die Situation zu verbessern und die Kunden zu beruhigen, traten Mark Karpelès und Adam Turner am 21. Juni [https://www.youtube.com/watch?v=-0XvP841jaM] in Bruce Wagners *Bitcoin Show* auf. Am 23. Dezember [verschob](https://bitcointalk.org/index.php?topic=21436.msg268800#msg268800) Mark 424.242 Bitcoins auf die Blockchain, um die Zahlungsfähigkeit des Unternehmens zu beweisen, und am 27. Dezember wurde die Plattform schließlich wieder geöffnet. Da er die Notwendigkeit einer besseren Kommunikation erkannt hat, wird Mark [https://www.youtube.com/watch?v=wG-Wt0dAm_U] im Juli auch in einer Episode der *Bitcoin Show* auf Französisch auftreten, die von David François moderiert wird!
+Um die Situation zu verbessern und die Kunden zu beruhigen, traten Mark Karpelès und Adam Turner am 21. Juni in Bruce Wagners *Bitcoin Show* [auf](https://www.youtube.com/watch?v=-0XvP841jaM). Am 23. Dezember [verschob](https://bitcointalk.org/index.php?topic=21436.msg268800#msg268800) Mark 424.242 Bitcoins auf die Blockchain, um die Zahlungsfähigkeit des Unternehmens zu beweisen, und am 27. Dezember wurde die Plattform schließlich wieder geöffnet. Da er die Notwendigkeit einer besseren Kommunikation erkannt hat, wird Mark im Juli auch in einer Episode der *Bitcoin Show* auf Französisch [auftreten](https://www.youtube.com/watch?v=wG-Wt0dAm_U), die von David François moderiert wird!
 
 
 
-Eine letzte Folge des Mt. Gox-Hacks war die beschleunigte Entwicklung der Zwei-Faktor-Authentifizierung (*Zwei-Faktor-Authentifizierung*) als Mittel für den Zugriff auf ein Konto. Bei diesem Verfahren wird in der Regel ein einfaches Passwort durch die Anforderung ergänzt, Informationen von einem Drittanbietergerät, z. B. einem Mobiltelefon, bereitzustellen. Ab dem 7. Juli schlug Mt. Gox [vor](https://bitcointalk.org/index.php?topic=26917.msg338630#msg338630) seinen Kunden vor, spezielle YubiKeys zu bestellen, bei denen es sich um spezielle USB-Schlüssel handelt, die Einmal-Passwörter vergeben. Die Verteilung dieser Schlüssel begann in der folgenden Woche.
+Eine letzte Folge des Mt. Gox-Hacks war die beschleunigte Entwicklung der Zwei-Faktor-Authentifizierung (*Zwei-Faktor-Authentifizierung*) als Mittel für den Zugriff auf ein Konto. Bei diesem Verfahren wird in der Regel ein einfaches Passwort durch die Anforderung ergänzt, Informationen von einem Drittanbietergerät, z. B. einem Mobiltelefon, bereitzustellen. Ab dem 7. Juli schlug Mt. Gox seinen Kunden [vor](https://bitcointalk.org/index.php?topic=26917.msg338630#msg338630), spezielle YubiKeys zu bestellen, bei denen es sich um spezielle USB-Schlüssel handelt, die Einmal-Passwörter vergeben. Die Verteilung dieser Schlüssel begann in der folgenden Woche.
 
 
 
@@ -707,11 +704,11 @@ Im Sommer 2011 wandten sich die meisten neuen Nutzer von Kryptowährungen an MyB
 
 
 
-In den Tagen nach dem 19. Juni litt MyBitcoin unter den Folgen des Datenlecks bei Mt. Gox. Böswillige Personen verschafften sich Zugang zu zahlreichen Konten, die durch ein schwaches, bei Mt. Gox wiederverwendetes Passwort geschützt waren. So verlor beispielsweise [BrightAnarchist](https://bitcointalk.org/index.php?topic=20427.msg255193#msg255193), das Forumsmitglied, das die EFF 2010 dazu gedrängt hatte, Bitcoin zu akzeptieren, sein gesamtes Kapital. Am 25. Juni erklärte Tom Williams, der anonyme Präsident von MyBitcoin, [https://bitcointalk.org/index.php?topic=22221.msg279396#msg279396], dass 1 % der von dem Datenleck bei Mt. Gox betroffenen Nutzer betroffen waren und dass 4.019 Bitcoins gestohlen wurden, was einem Wert von 70.000 Dollar entspricht.
+In den Tagen nach dem 19. Juni litt MyBitcoin unter den Folgen des Datenlecks bei Mt. Gox. Böswillige Personen verschafften sich Zugang zu zahlreichen Konten, die durch ein schwaches, bei Mt. Gox wiederverwendetes Passwort geschützt waren. So verlor beispielsweise [BrightAnarchist](https://bitcointalk.org/index.php?topic=20427.msg255193#msg255193), das Forumsmitglied, das die EFF 2010 dazu gedrängt hatte, Bitcoin zu akzeptieren, sein gesamtes Kapital. Am 25. Juni [erklärte](https://bitcointalk.org/index.php?topic=22221.msg279396#msg279396) Tom Williams, der anonyme Präsident von MyBitcoin, dass 1 % der von dem Datenleck bei Mt. Gox betroffenen Nutzer betroffen waren und dass 4.019 Bitcoins gestohlen wurden, was einem Wert von 70.000 Dollar entspricht.
 
 
 
-Die Rückschläge der Anwendung waren jedoch noch nicht zu Ende. Am 29. Juli wurde MyBitcoin plötzlich abgeschaltet. Fast 78.740 Bitcoins fehlten im wallet der Anwendung, ein Betrag, der zu diesem Zeitpunkt mehr als einer Million Dollar entsprach und 51 % der Gelder auf den Kundenkonten ausmachte, was den Dienst zwang, den Rest zu erstatten und zu verschwinden. Obwohl MyBitcoin [behauptete](https://web.archive.org/web/20111018173154/https://www.mybitcoin.com/), gehackt worden zu sein (noch einer!), gab es Beweise [die darauf hindeuten](https://observer.com/2011/08/search-for-owners-of-mybitcoin-loses-steam/), dass sein Manager, Tom Williams, hinter dem Diebstahl steckte.
+Die Rückschläge der Anwendung waren jedoch noch nicht zu Ende. Am 29. Juli wurde MyBitcoin plötzlich abgeschaltet. Fast 78.740 Bitcoins fehlten im Wallet der Anwendung, ein Betrag, der zu diesem Zeitpunkt mehr als einer Million Dollar entsprach und 51 % der Gelder auf den Kundenkonten ausmachte, was den Dienst zwang, den Rest zu erstatten und zu verschwinden. Obwohl MyBitcoin [behauptete](https://web.archive.org/web/20111018173154/https://www.mybitcoin.com/), gehackt worden zu sein (noch einer!), gab es Beweise [die darauf hindeuten](https://observer.com/2011/08/search-for-owners-of-mybitcoin-loses-steam/), dass sein Manager, Tom Williams, hinter dem Diebstahl steckte.
 
 
 
@@ -727,7 +724,7 @@ Einige einzelne Verluste waren [hoch](https://bitcointalk.org/index.php?topic=33
 
 
 
-Trotz dieses Vertrauensverlustes gewannen die wallet der Verwahrstellen weiter an Popularität. Dies war der Fall bei Instawallet, das [seit April](https://bitcointalk.org/index.php?topic=6785.msg99378#msg99378) existierte. Als Reaktion darauf startete Bitcoin Consultancy [im August](https://bitcointalk.org/index.php?topic=35599.msg439954#msg439954) seinen eigenen Dienst Vibanko.
+Trotz dieses Vertrauensverlustes gewannen die Wallet der Verwahrstellen weiter an Popularität. Dies war der Fall bei InstaWallet, das [seit April](https://bitcointalk.org/index.php?topic=6785.msg99378#msg99378) existierte. Als Reaktion darauf startete Bitcoin Consultancy [im August](https://bitcointalk.org/index.php?topic=35599.msg439954#msg439954) seinen eigenen Dienst Vibanko.
 
 
 
@@ -735,11 +732,11 @@ Trotz dieses Vertrauensverlustes gewannen die wallet der Verwahrstellen weiter a
 
 
 
-Zeitgleich mit diesem Ereignis trat auf der polnischen Bitomat-Plattform ein größeres Problem auf. Am 26. Juli erhöhte der Administrator (https://www.reddit.com/r/Bitcoin/comments/j4t58/3rd_largest_bitcoin_exchange_has_lost_its/c2957nt/) die Ressourcen des Servers, was den (ungewöhnlichen) Effekt hatte, dass die virtuelle Maschine neu gestartet und die vorhandenen Daten, einschließlich der privaten wallet-Schlüssel des Systems, gelöscht wurden. Der Verlust belief sich auf 17.000 Bitcoins, was damals etwa 235.000 Dollar entsprach. Obwohl das Handelsvolumen nicht riesig war, handelte es sich um die drittgrößte Börsenplattform hinter TradeHill und Mt. Gox, was den Vorfall bedeutsam machte.
+Zeitgleich mit diesem Ereignis trat auf der polnischen Bitomat-Plattform ein größeres Problem auf. Am 26. Juli [erhöhte](https://www.reddit.com/r/Bitcoin/comments/j4t58/3rd_largest_bitcoin_exchange_has_lost_its/c2957nt/) der Administrator  die Ressourcen des Servers, was den (ungewöhnlichen) Effekt hatte, dass die virtuelle Maschine neu gestartet und die vorhandenen Daten, einschließlich der privaten Wallet-Schlüssel des Systems, gelöscht wurden. Der Verlust belief sich auf 17.000 Bitcoins, was damals etwa 235.000 Dollar entsprach. Obwohl das Handelsvolumen nicht riesig war, handelte es sich um die drittgrößte Börsenplattform hinter TradeHill und Mt. Gox, was den Vorfall bedeutsam machte.
 
 
 
-Um seine Kunden nicht zu schädigen, bot der Verwalter an, die Plattform für 17.000 BTC zu verkaufen. Das gefiel Mark Karpelès, der auf dem polnischen Markt Fuß fassen wollte. Am 11. August kündigte Mt. Gox [https://web.archive.org/web/20120426023056/http://support.mtgox.com/entries/20357051-mt-gox-the-world-s-largest-bitcoin-exchange-to-acquire-bitomat-pl-compensate-loss-of-bitcoins] die Übernahme von Bitomat an, um "das Vertrauen in die Bitcoin-Wirtschaft wiederherzustellen". Dies führte jedoch zu einer Erhöhung der Verbindlichkeiten von Mt. Gox um 17.000 BTC.
+Um seine Kunden nicht zu schädigen, bot der Verwalter an, die Plattform für 17.000 BTC zu verkaufen. Das gefiel Mark Karpelès, der auf dem polnischen Markt Fuß fassen wollte. Am 11. August [kündigte](https://web.archive.org/web/20120426023056/http://support.mtgox.com/entries/20357051-mt-gox-the-world-s-largest-bitcoin-exchange-to-acquire-bitomat-pl-compensate-loss-of-bitcoins) Mt. Gox die Übernahme von Bitomat an, um "das Vertrauen in die Bitcoin-Wirtschaft wiederherzustellen". Dies führte jedoch zu einer Erhöhung der Verbindlichkeiten von Mt. Gox um 17.000 BTC.
 
 
 
@@ -1202,7 +1199,7 @@ Er [hörte](https://bitcointalk.org/index.php?topic=67521.msg785510#msg785510) E
 
 
 
-Er präsentierte Bitcoinica als "fortschrittliche Bitcoin Handelsplattform", die "Elegant. Professionell. Revolutionär". Die Plattform verwaltete zunächst keine wallet, die Bitcoins wurden auf einem speziellen Konto bei Mt. Gox gehalten. Ein- und Auszahlungen erfolgten in Bitcoins, durch einlösbare Mt. Gox-Codes oder durch internationale Banküberweisungen.
+Er präsentierte Bitcoinica als "fortschrittliche Bitcoin Handelsplattform", die "Elegant. Professionell. Revolutionär". Die Plattform verwaltete zunächst keine Wallet, die Bitcoins wurden auf einem speziellen Konto bei Mt. Gox gehalten. Ein- und Auszahlungen erfolgten in Bitcoins, durch einlösbare Mt. Gox-Codes oder durch internationale Banküberweisungen.
 
 
 
@@ -1314,7 +1311,7 @@ Trotz niedriger Moral war es eine gute Zeit zum Aufbauen. Eine Vielzahl von Fina
 
 
 
-Darüber hinaus wurde dieser wirtschaftliche Fortschritt von einer technischen Entwicklung begleitet, die von den Programmierern unterstützt wurde. Neben der Entwicklung der Hauptsoftware (ein Thema, mit dem wir uns später befassen werden), war dieser Zeitraum auch durch eine Verbesserung der Nutzung von Bitcoin aufgrund der Entwicklung von wallet gekennzeichnet. Dies ist das Thema des nächsten Kapitels.
+Darüber hinaus wurde dieser wirtschaftliche Fortschritt von einer technischen Entwicklung begleitet, die von den Programmierern unterstützt wurde. Neben der Entwicklung der Hauptsoftware (ein Thema, mit dem wir uns später befassen werden), war dieser Zeitraum auch durch eine Verbesserung der Nutzung von Bitcoin aufgrund der Entwicklung von Wallet gekennzeichnet. Dies ist das Thema des nächsten Kapitels.
 
 
 
@@ -1332,18 +1329,18 @@ Darüber hinaus wurde dieser wirtschaftliche Fortschritt von einer technischen E
 
 
 
-Der Wilde Westen des Finanzwesens war eine Zeit, in der Bitcoin auf ein breiteres Publikum ausgeweitet wurde, das weniger computerkundig und nicht bereit war, ein schweres Programm auf einem festen Computer auszuführen. Aus diesem Grund war es eine Zeit, in der die Benutzerfreundlichkeit verbessert wurde, wie das Auftauchen von leichtgewichtigen wallet und die Vervielfachung der Möglichkeiten, Bitcoins zu speichern, zeigt.
+Der Wilde Westen des Finanzwesens war eine Zeit, in der Bitcoin auf ein breiteres Publikum ausgeweitet wurde, das weniger computerkundig und nicht bereit war, ein schweres Programm auf einem festen Computer auszuführen. Aus diesem Grund war es eine Zeit, in der die Benutzerfreundlichkeit verbessert wurde, wie das Auftauchen von leichtgewichtigen Wallet und die Vervielfachung der Möglichkeiten, Bitcoins zu speichern, zeigt.
 
 
 
-Als Satoshi im Dezember 2010 in den Ruhestand ging, konnten Neueinsteiger nur zwischen der Hauptsoftware und Verwahrungsanwendungen wie MyBitcoin wählen. Doch ab 2011 erschienen alternative Lösungen. Leichtgewichtige Software-wallet wie *Bitcoin, Wallet für Android* und Electrum führten eine vereinfachte Zahlungsverifizierung ein. Web-wallets, wie Blockchain.info, ermöglichten die Verwaltung von Geldern über einen Browser. Papier-wallet boten die Möglichkeit, Gelder offline zu speichern. Einige Enthusiasten, wie der emblematische Casascius, entwickelten physische Träger, die eine Art Verkörperung der virtuellen Einheiten in der realen Welt darstellten.
+Als Satoshi im Dezember 2010 in den Ruhestand ging, konnten Neueinsteiger nur zwischen der Hauptsoftware und Verwahrungsanwendungen wie MyBitcoin wählen. Doch ab 2011 erschienen alternative Lösungen. Leichtgewichtige Software-Wallet wie *Bitcoin, Wallet für Android* und Electrum führten eine vereinfachte Zahlungsverifizierung ein. Web-Wallets, wie Blockchain.info, ermöglichten die Verwaltung von Geldern über einen Browser. Papier-Wallet boten die Möglichkeit, Gelder offline zu speichern. Einige Enthusiasten, wie der emblematische Casascius, entwickelten physische Träger, die eine Art Verkörperung der virtuellen Einheiten in der realen Welt darstellten.
 
 
 
-Die persönliche Verwahrung von Bitcoins war ein komplexes Problem, das dem Dilemma zwischen Verlust und Diebstahl unterlag. Um seine Bitcoins zu besitzen, musste man sowohl den Zugang zu seinen privaten Schlüsseln aufrechterhalten als auch verhindern, dass andere auf sie zugreifen - zwei Bedingungen, die nie wirklich gleichzeitig erfüllt werden konnten. So macht ein zu leichter Zugang den wallet zu anfällig für Diebstahl, wie der Hack der 25.000 BTC von Allinvain im Juni 2011 zeigte. Umgekehrt macht ein zu schwieriger Zugang den Verlust von Bitcoins wahrscheinlicher, wie bei den etwa 7.000 BTC von Stefan Thomas [verloren](https://bitcointalk.org/index.php?topic=5400.msg259238#msg259238) aufgrund einer zu komplexen Verschlüsselung zu sehen war. Es sind diese Einschränkungen, die die wallet-Designer versucht haben, anzugehen.
+Die persönliche Verwahrung von Bitcoins war ein komplexes Problem, das dem Dilemma zwischen Verlust und Diebstahl unterlag. Um seine Bitcoins zu besitzen, musste man sowohl den Zugang zu seinen privaten Schlüsseln aufrechterhalten als auch verhindern, dass andere auf sie zugreifen - zwei Bedingungen, die nie wirklich gleichzeitig erfüllt werden konnten. So macht ein zu leichter Zugang den Wallet zu anfällig für Diebstahl, wie der Hack der 25.000 BTC von Allinvain im Juni 2011 zeigte. Umgekehrt macht ein zu schwieriger Zugang den Verlust von Bitcoins wahrscheinlicher, wie bei den etwa 7.000 BTC von Stefan Thomas [verloren](https://bitcointalk.org/index.php?topic=5400.msg259238#msg259238) aufgrund einer zu komplexen Verschlüsselung zu sehen war. Es sind diese Einschränkungen, die die Wallet-Designer versucht haben, anzugehen.
 
 
-In diesem Kapitel werden wir die verschiedenen Arten der Nutzung von Bitcoin untersuchen, die im genannten Zeitraum entstanden sind. Zunächst werden wir auf verwahrende Anwendungen und alternative Softwareimplementierungen eingehen. Dann werden wir den Fall der leichtgewichtigen wallet genauer untersuchen, der unter anderem zur Entwicklung einer deterministischen Struktur für die Speicherung privater Schlüssel führte. Wir werden Papier-wallets und physische Formen der Repräsentation privater Schlüssel vorstellen, die dazu dienten, Kryptowährungen vor Hacks zu schützen. Abschließend werden wir das Aufkommen der ersten Bitcoin-Mixing-Dienste erörtern, die eine verbesserte Privatsphäre der Nutzer ermöglichten.
+In diesem Kapitel werden wir die verschiedenen Arten der Nutzung von Bitcoin untersuchen, die im genannten Zeitraum entstanden sind. Zunächst werden wir auf verwahrende Anwendungen und alternative Softwareimplementierungen eingehen. Dann werden wir den Fall der leichtgewichtigen Wallet genauer untersuchen, der unter anderem zur Entwicklung einer deterministischen Struktur für die Speicherung privater Schlüssel führte. Wir werden Papier-Wallets und physische Formen der Repräsentation privater Schlüssel vorstellen, die dazu dienten, Kryptowährungen vor Hacks zu schützen. Abschließend werden wir das Aufkommen der ersten Bitcoin-Mixing-Dienste erörtern, die eine verbesserte Privatsphäre der Nutzer ermöglichten.
 
 
 
@@ -1351,19 +1348,19 @@ In diesem Kapitel werden wir die verschiedenen Arten der Nutzung von Bitcoin unt
 
 
 
-Im Jahr 2011 war Instawallet nach dem berüchtigten MyBitcoin die beliebteste Depotanwendung. Es handelte sich um eine einfach zu bedienende Webanwendung (https://bitcointalk.org/index.php?topic=6785.msg99378#msg99378), die am 29. April 2011 von Jan Vornberger, alias Jav, einem jungen deutschen Entwickler, gestartet wurde. Es handelte sich um einen Verwahrungsdienst: Die Gelder wurden "serverseitig" gehalten, was bedeutet, dass Jav sie verwaltete. Es war keine Registrierung erforderlich; der Zugang erfolgte über eine URL, z. B. `https://instawallet.org/w/rq2SB02ai6BnWaEBywAlP52cw7qwUAA`, die bei der ersten Interaktion mit dem Dienst generated war und im Webbrowser gespeichert wurde. Den Nutzern wurde eine Bitcoin-Adresse zugewiesen, die es ihnen ermöglichte, Geld zu senden und zu empfangen. Überweisungen zwischen Instawallet-Nutzern wurden intern verarbeitet und erfolgten daher sofort. Darüber hinaus hat der Dienst ab Ende Juli [integriert](https://bitcointalk.org/index.php?topic=32818.msg409974#msg409974) ein Zertifizierungsverfahren (die so genannte "grüne Adresse"), mit dem anderen Marktteilnehmern nachgewiesen werden kann, dass eine Transaktion von Instawallet ausgestellt wurde, um eine schnellere Bearbeitung im Rahmen einer Vertrauensbeziehung zu gewährleisten.
+Im Jahr 2011 war InstaWallet nach dem berüchtigten MyBitcoin die beliebteste Depotanwendung. Es handelte sich um eine einfach zu bedienende Webanwendung (https://bitcointalk.org/index.php?topic=6785.msg99378#msg99378), die am 29. April 2011 von Jan Vornberger, alias Jav, einem jungen deutschen Entwickler, gestartet wurde. Es handelte sich um einen Verwahrungsdienst: Die Gelder wurden "serverseitig" gehalten, was bedeutet, dass Jav sie verwaltete. Es war keine Registrierung erforderlich; der Zugang erfolgte über eine URL, z. B. `https://instaWallet.org/w/rq2SB02ai6BnWaEBywAlP52cw7qwUAA`, die bei der ersten Interaktion mit dem Dienst generated war und im Webbrowser gespeichert wurde. Den Nutzern wurde eine Bitcoin-Adresse zugewiesen, die es ihnen ermöglichte, Geld zu senden und zu empfangen. Überweisungen zwischen InstaWallet-Nutzern wurden intern verarbeitet und erfolgten daher sofort. Darüber hinaus hat der Dienst ab Ende Juli [integriert](https://bitcointalk.org/index.php?topic=32818.msg409974#msg409974) ein Zertifizierungsverfahren (die so genannte "grüne Adresse"), mit dem anderen Marktteilnehmern nachgewiesen werden kann, dass eine Transaktion von InstaWallet ausgestellt wurde, um eine schnellere Bearbeitung im Rahmen einer Vertrauensbeziehung zu gewährleisten.
 
 
 
-![Interface d'Instawallet en juin 2012](assets/en/032.webp)
+![Interface d'InstaWallet en juin 2012](assets/en/032.webp)
 
 
 
-*Interface von Instawallet im Juni 2012 (Quelle: [Bitcoin Magazin](https://web.archive.org/web/20120922131335/http://bitcoinmagazine.net/bitcoin-wallet-options/))*
+*Interface von InstaWallet im Juni 2012 (Quelle: [Bitcoin Magazin](https://web.archive.org/web/20120922131335/http://bitcoinmagazine.net/bitcoin-Wallet-options/))*
 
 
 
-Am 2. März 2012 [kündigte](https://bitcointalk.org/index.php?topic=67085.msg780164#msg780164) Jav die Schließung von Instawallet mit den Worten an: "Ich habe nicht die Zeit und die Ressourcen, um die Seite weiterhin zu unterstützen". Der Dienst wurde jedoch einige Tage später von Paymium [wiederaufgenommen](https://bitcointalk.org/index.php?topic=67602.msg786523#msg786523), der ihn bis zu seinem fatalen Hack im April 2013 am Laufen hielt.
+Am 2. März 2012 [kündigte](https://bitcointalk.org/index.php?topic=67085.msg780164#msg780164) Jav die Schließung von InstaWallet mit den Worten an: "Ich habe nicht die Zeit und die Ressourcen, um die Seite weiterhin zu unterstützen". Der Dienst wurde jedoch einige Tage später von Paymium [wiederaufgenommen](https://bitcointalk.org/index.php?topic=67602.msg786523#msg786523), der ihn bis zu seinem fatalen Hack im April 2013 am Laufen hielt.
 
 
 
@@ -1371,7 +1368,7 @@ Paymium SAS war ein französisches Unternehmen (https://web.archive.org/web/2011
 
 
 
-Anfang 2012 entwickelte Paymium seine eigene Custodial-App: Paytunia. Die Paytunia-App wurde wie folgt beschrieben: "Paytunia ist eine bahnbrechende Anwendung, die auf dem quelloffenen Bitcoin-Protokoll für sichere, einfache Online-Zahlungen und Geldtransfers basiert"). Sie wurde [auf den Markt gebracht](https://bitcointalk.org/index.php?topic=75550.msg836770#msg836770) im April 2012 auf Android. Nutzer von Bitcoin-Central (der von David François betriebenen Geldwechselplattform) [konnten](https://web.archive.org/web/20120514233205/https://bitcoin-central.net/) auch mit ihrem bestehenden Konto darauf zugreifen, da beide Dienste im Hintergrund das gleiche System nutzen. Wie bei Instawallet erfolgten die Überweisungen zwischen Paytunia-Nutzern [sofort](https://bitcointalk.org/index.php?topic=75550.msg836948#msg836948).
+Anfang 2012 entwickelte Paymium seine eigene Custodial-App: Paytunia. Die Paytunia-App wurde wie folgt beschrieben: "Paytunia ist eine bahnbrechende Anwendung, die auf dem quelloffenen Bitcoin-Protokoll für sichere, einfache Online-Zahlungen und Geldtransfers basiert"). Sie wurde [auf den Markt gebracht](https://bitcointalk.org/index.php?topic=75550.msg836770#msg836770) im April 2012 auf Android. Nutzer von Bitcoin-Central (der von David François betriebenen Geldwechselplattform) [konnten](https://web.archive.org/web/20120514233205/https://bitcoin-central.net/) auch mit ihrem bestehenden Konto darauf zugreifen, da beide Dienste im Hintergrund das gleiche System nutzen. Wie bei InstaWallet erfolgten die Überweisungen zwischen Paytunia-Nutzern [sofort](https://bitcointalk.org/index.php?topic=75550.msg836948#msg836948).
 
 
 
@@ -1379,7 +1376,7 @@ Anfang 2012 entwickelte Paymium seine eigene Custodial-App: Paytunia. Die Paytun
 
 
 
-*Interface (auf Französisch) aus dem Antrag von Paytunia vom November 2012 (Quelle: [eeNews Europe](https://www.eenewseurope.com/en/bitcoin-enabled-euro-payment-solution-operates-as-a-mobile-e-wallet/))*
+*Interface (auf Französisch) aus dem Antrag von Paytunia vom November 2012 (Quelle: [eeNews Europe](https://www.eenewseurope.com/en/bitcoin-enabled-euro-payment-solution-operates-as-a-mobile-e-Wallet/))*
 
 
 
@@ -1420,15 +1417,15 @@ Im Oktober gelang es der Software [managed](https://bitcointalk.org/index.php?to
 
 
 
-### Leichte wallets
+### Leichte Wallets
 
 
 
-Das Problem mit vollständigen Implementierungen ist, dass sie ressourcenintensiv und für viele Menschen unpraktisch sind. Darüber hinaus können sie nicht auf mobilen Geräten verwendet werden. Deshalb greifen neue und gelegentliche Nutzer auf den einfachen Ausweg zurück: Depotanwendungen. Im November 2010 rief ein Forumsmitglied (Kiba) ein kollektives [Kopfgeld](https://bitcointalk.org/index.php?topic=1812.msg22319#msg22319) für die Entwicklung eines Bitcoin-Mobilclients ins Leben. Am 29. Juli 2011 bestätigte die Schließung von MyBitcoin den Bedarf an einer Zwischenlösung. Dies war der Auslöser für die Entwicklung des *leichtgewichtigen wallets*.
+Das Problem mit vollständigen Implementierungen ist, dass sie ressourcenintensiv und für viele Menschen unpraktisch sind. Darüber hinaus können sie nicht auf mobilen Geräten verwendet werden. Deshalb greifen neue und gelegentliche Nutzer auf den einfachen Ausweg zurück: Depotanwendungen. Im November 2010 rief ein Forumsmitglied (Kiba) ein kollektives [Kopfgeld](https://bitcointalk.org/index.php?topic=1812.msg22319#msg22319) für die Entwicklung eines Bitcoin-Mobilclients ins Leben. Am 29. Juli 2011 bestätigte die Schließung von MyBitcoin den Bedarf an einer Zwischenlösung. Dies war der Auslöser für die Entwicklung des *leichtgewichtigen Wallets*.
 
 
 
-Die erste Idee bestand darin, einen Knoten als entfernten Server zu verwenden, dem der Benutzer volles Vertrauen entgegenbringt. Im Februar 2011 brachte Amir Taaki [https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538] einen Software-Client auf den Markt, mit dem ein wallet lokal verwaltet werden kann, indem er sich mit einem bestehenden Knoten namens Spesmilo verbindet. Der Client lief zunächst unter Linux, wurde aber bald auf Windows portiert. Der Name war eine Anspielung auf Spesmilo, die alte internationale Währungseinheit, die 1907 vom Schweizer Mathematiker René de Saussure (dem Bruder des Linguisten Ferdinand) im Rahmen des Esperanto-Projekts vorgeschlagen wurde.
+Die erste Idee bestand darin, einen Knoten als entfernten Server zu verwenden, dem der Benutzer volles Vertrauen entgegenbringt. Im Februar 2011 brachte Amir Taaki [https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538] einen Software-Client auf den Markt, mit dem ein Wallet lokal verwaltet werden kann, indem er sich mit einem bestehenden Knoten namens Spesmilo verbindet. Der Client lief zunächst unter Linux, wurde aber bald auf Windows portiert. Der Name war eine Anspielung auf Spesmilo, die alte internationale Währungseinheit, die 1907 vom Schweizer Mathematiker René de Saussure (dem Bruder des Linguisten Ferdinand) im Rahmen des Esperanto-Projekts vorgeschlagen wurde.
 
 
 
@@ -1452,7 +1449,7 @@ Amir [war](https://bitcointalk.org/index.php?topic=1568.msg19443#msg19443) selbs
 
 
 
-Die andere, bequemere Idee war die Verwendung einer vereinfachten Zahlungsverifizierung (SPV), die es ermöglichte, Transaktionen als zur Blockchain gehörig zu verifizieren, ohne den gesamten Datensatz herunterladen zu müssen. Am 11. März 2011, ein paar Tage nach der Veröffentlichung von BitCoinJ, [enthüllte](https://bitcointalk.org/index.php?topic=4384.msg64142#msg64142) ein Berliner Entwickler namens Andreas Schildbach, im Forum Goonie genannt, den Prototyp eines wallet für Telefone mit Android, basierend auf Mike Hearns Implementierung. Unter dem bescheidenen Namen *Bitcoin Wallet für Android* wurde es das erste funktionierende Modell eines leichtgewichtigen wallet für Mobiltelefone.
+Die andere, bequemere Idee war die Verwendung einer vereinfachten Zahlungsverifizierung (SPV), die es ermöglichte, Transaktionen als zur Blockchain gehörig zu verifizieren, ohne den gesamten Datensatz herunterladen zu müssen. Am 11. März 2011, ein paar Tage nach der Veröffentlichung von BitCoinJ, [enthüllte](https://bitcointalk.org/index.php?topic=4384.msg64142#msg64142) ein Berliner Entwickler namens Andreas Schildbach, im Forum Goonie genannt, den Prototyp eines Wallet für Telefone mit Android, basierend auf Mike Hearns Implementierung. Unter dem bescheidenen Namen *Bitcoin Wallet für Android* wurde es das erste funktionierende Modell eines leichtgewichtigen Wallet für Mobiltelefone.
 
 
 
@@ -1464,19 +1461,19 @@ Die andere, bequemere Idee war die Verwendung einer vereinfachten Zahlungsverifi
 
 
 
-Ein weiteres auf BitCoinJ basierendes wallet für den PC war MultiBit, das im September 2011 vom britischen Entwickler Jim Burton [erstellt](https://bitcointalk.org/index.php?topic=43616.msg520542#msg520542) wurde. Sein besonderes Merkmal war die Möglichkeit, mehrere Konten innerhalb der Schnittstelle zu verwalten.
+Ein weiteres auf BitCoinJ basierendes Wallet für den PC war MultiBit, das im September 2011 vom britischen Entwickler Jim Burton [erstellt](https://bitcointalk.org/index.php?topic=43616.msg520542#msg520542) wurde. Sein besonderes Merkmal war die Möglichkeit, mehrere Konten innerhalb der Schnittstelle zu verwalten.
 
 
 
-### Deterministische wallets
+### Deterministische Wallets
 
 
 
-Die Bemühungen zur Verbesserung der Bitcoin-Benutzbarkeit führten auch zum Aufkommen *deterministischer wallet*. Dabei handelt es sich um wallet, bei denen die Schlüsselableitung angewandt wird: Anstatt einzeln nach dem Zufallsprinzip abgeleitet zu werden, wie es in der Hauptsoftware der Fall war, werden die privaten Schlüssel deterministisch aus Informationen (seed genannt) abgeleitet, wobei kryptografische Funktionen verwendet werden. Die Kenntnis dieser Informationen ermöglicht es dem Benutzer, alle seine Gelder wiederherzustellen, was die wallet-Sicherung erheblich vereinfacht. Es besteht keine Notwendigkeit, die Datei `wallet.dat` immer und immer wieder zu speichern!
+Die Bemühungen zur Verbesserung der Bitcoin-Benutzbarkeit führten auch zum Aufkommen *deterministischer Wallet*. Dabei handelt es sich um Wallet, bei denen die Schlüsselableitung angewandt wird: Anstatt einzeln nach dem Zufallsprinzip abgeleitet zu werden, wie es in der Hauptsoftware der Fall war, werden die privaten Schlüssel deterministisch aus Informationen (seed genannt) abgeleitet, wobei kryptografische Funktionen verwendet werden. Die Kenntnis dieser Informationen ermöglicht es dem Benutzer, alle seine Gelder wiederherzustellen, was die Wallet-Sicherung erheblich vereinfacht. Es besteht keine Notwendigkeit, die Datei `Wallet.dat` immer und immer wieder zu speichern!
 
 
 
-Deterministische wallet sind größtenteils das Geistesprodukt des amerikanischen Entwicklers Gregory Maxwell. Als Befürworter freier Software war er seit 2004 [Mitwirkender](https://commons.wikimedia.org/wiki/User:Gmaxwell) bei Wikipedia und arbeitete für die Stiftung Xiph.org, wo er an der Entwicklung des Audiocodecs Opus beteiligt war. Im Mai 2011 begann er, sich mit Bitcoin zu beschäftigen, und [versuchte sich](https://bitcointalk.org/index.php?topic=7171.msg119591#msg119591) an mining. Er schrieb auch viel und wurde schnell sehr aktiv im Forum und im IRC-Kanal \#bitcoin-dev, wo er das Pseudonym Gmaxwell verwendete.
+Deterministische Wallet sind größtenteils das Geistesprodukt des amerikanischen Entwicklers Gregory Maxwell. Als Befürworter freier Software war er seit 2004 [Mitwirkender](https://commons.wikimedia.org/wiki/User:Gmaxwell) bei Wikipedia und arbeitete für die Stiftung Xiph.org, wo er an der Entwicklung des Audiocodecs Opus beteiligt war. Im Mai 2011 begann er, sich mit Bitcoin zu beschäftigen, und [versuchte sich](https://bitcointalk.org/index.php?topic=7171.msg119591#msg119591) an mining. Er schrieb auch viel und wurde schnell sehr aktiv im Forum und im IRC-Kanal \#bitcoin-dev, wo er das Pseudonym Gmaxwell verwendete.
 
 
 
@@ -1492,13 +1489,13 @@ Gregory Maxwell hatte viele Ideen, wie man die Verwendung von Bitcoin verbessern
 
 
 
-> "Bitcoin sollte wirklich deterministische wallets anbieten und standardmäßig verwenden.   Die zusätzliche Sicherheit der aktuellen Vor-generated ist ziemlich gering, wenn man bedenkt, wie die meisten Leute Bitcoin verwenden, und die Haftung für Schäden aufgrund unzureichender Backups und des erhöhten Drucks, einen einzelnen wallet online zu halten, ist enorm."
+> "Bitcoin sollte wirklich deterministische Wallets anbieten und standardmäßig verwenden.   Die zusätzliche Sicherheit der aktuellen Vor-generated ist ziemlich gering, wenn man bedenkt, wie die meisten Leute Bitcoin verwenden, und die Haftung für Schäden aufgrund unzureichender Backups und des erhöhten Drucks, einen einzelnen Wallet online zu halten, ist enorm."
 
 Zwei Arten der Ableitung wurden ins Auge gefasst. Die eine Art (Typ 1) war einfach und generierte private Schlüssel direkt von der seed. Die andere (Typ 2) war komplexer, ermöglichte aber die Ableitung von Adressen aus einem öffentlichen Hauptschlüssel, der von der seed stammt, ohne auf die seed selbst zuzugreifen. Dies ermöglichte es der Zahlungsverarbeitungssoftware, für jede Transaktion eine generate-Adresse zu erzeugen, ohne die privaten Schlüssel preiszugeben.
 
 
 
-Später, im Februar 2012, erfolgte die Standardisierung mit der [Veröffentlichung](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) von [BIP](https://planb.academy/resources/glossary/bip) 32. Darin wurde die allgemeine Struktur von *Hierarchical Deterministic Wallets*, HD Wallets, beschrieben, bei denen Ableitungen methodisch zur Ableitung von seed-Schlüsseln und Adressen verwendet werden. Sie wurde im Laufe der Jahre schrittweise von den meisten wallet übernommen.
+Später, im Februar 2012, erfolgte die Standardisierung mit der [Veröffentlichung](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) von [BIP](https://planb.academy/resources/glossary/bip) 32. Darin wurde die allgemeine Struktur von *Hierarchical Deterministic Wallets*, HD Wallets, beschrieben, bei denen Ableitungen methodisch zur Ableitung von seed-Schlüsseln und Adressen verwendet werden. Sie wurde im Laufe der Jahre schrittweise von den meisten Wallet übernommen.
 
 
 
@@ -1508,11 +1505,11 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-Im Laufe des Jahres 2011 erschienen weitere Software-wallets. Im Sommer entwickelte ein dänischer Entwickler namens Jan Møller eine Java-Schnittstelle namens BCCAPI (für *BitCoin Client API*). Diese wurde am 23. August [angekündigt](https://bitcointalk.org/index.php?topic=36892.msg453652#msg453652). Es handelte sich um eine Softwareschnittstelle zur Verbindung eines auf einem Android-Telefon laufenden Clients mit einem Server. Auf der Client-Seite wurde eine deterministische Generierung von privaten Schlüsseln implementiert, ohne dass regelmäßige Backups erforderlich waren.
+Im Laufe des Jahres 2011 erschienen weitere Software-Wallets. Im Sommer entwickelte ein dänischer Entwickler namens Jan Møller eine Java-Schnittstelle namens BCCAPI (für *BitCoin Client API*). Diese wurde am 23. August [angekündigt](https://bitcointalk.org/index.php?topic=36892.msg453652#msg453652). Es handelte sich um eine Softwareschnittstelle zur Verbindung eines auf einem Android-Telefon laufenden Clients mit einem Server. Auf der Client-Seite wurde eine deterministische Generierung von privaten Schlüsseln implementiert, ohne dass regelmäßige Backups erforderlich waren.
 
 
 
-Einige Monate später wurde diese Schnittstelle verwendet, um ein leichtgewichtiges wallet namens BitcoinSpinner zu erstellen, das auf Google Play verfügbar ist. Es wurde [angekündigt](https://bitcointalk.org/index.php?topic=52674.msg628527#msg628527) von Jan am 23. November. Es wurde offiziell von der dänischen Firma Miracle A/S verwaltet, der Jan Ende Dezember beitrat (https://bitcointalk.org/index.php?topic=53353.msg672264#msg672264).
+Einige Monate später wurde diese Schnittstelle verwendet, um ein leichtgewichtiges Wallet namens BitcoinSpinner zu erstellen, das auf Google Play verfügbar ist. Es wurde [angekündigt](https://bitcointalk.org/index.php?topic=52674.msg628527#msg628527) von Jan am 23. November. Es wurde offiziell von der dänischen Firma Miracle A/S verwaltet, der Jan Ende Dezember beitrat (https://bitcointalk.org/index.php?topic=53353.msg672264#msg672264).
 
 
 
@@ -1520,11 +1517,11 @@ Einige Monate später wurde diese Schnittstelle verwendet, um ein leichtgewichti
 
 
 
-*Interface von BitcoinSpinner im Juni 2012 (Quelle: [Bitcoin Magazin](https://web.archive.org/web/20120922131335/http://bitcoinmagazine.net/bitcoin-wallet-options/))*
+*Interface von BitcoinSpinner im Juni 2012 (Quelle: [Bitcoin Magazin](https://web.archive.org/web/20120922131335/http://bitcoinmagazine.net/bitcoin-Wallet-options/))*
 
 
 
-Die BCCAPI [litt](https://bitcointalk.org/index.php?topic=46493.msg571018#msg571018) jedoch unter einigen Mängeln, so dass sie nicht jedermanns Geschmack entsprach. Zum einen war die Software-Infrastruktur des Servers, die auf BitCoinJ basierte, nicht öffentlich, was die Einrichtung zusätzlicher Server verhinderte. Andererseits speicherte das System Transaktionen, die mit Adressen verknüpft waren, die von einem wallet verwaltet wurden, um den Gesamtsaldo zu ermitteln, was zwar die Bandbreite reduzierte, aber ein Vertraulichkeitsproblem darstellte.
+Die BCCAPI [litt](https://bitcointalk.org/index.php?topic=46493.msg571018#msg571018) jedoch unter einigen Mängeln, so dass sie nicht jedermanns Geschmack entsprach. Zum einen war die Software-Infrastruktur des Servers, die auf BitCoinJ basierte, nicht öffentlich, was die Einrichtung zusätzlicher Server verhinderte. Andererseits speicherte das System Transaktionen, die mit Adressen verknüpft waren, die von einem Wallet verwaltet wurden, um den Gesamtsaldo zu ermitteln, was zwar die Bandbreite reduzierte, aber ein Vertraulichkeitsproblem darstellte.
 
 
 
@@ -1544,7 +1541,7 @@ Das Ergebnis war die Electrum, die am 5. November [herauskam](https://bitcointal
 
 
 
-Der Client stellt eine Verbindung zu einem Netz von Spezialservern her, um die Transaktionen abzurufen. Die Server führen die Software (bitcoind) aus und indizieren alle Transaktionen mit Hilfe des ABE-[Block](https://planb.academy/resources/glossary/block)-Explorer-Codes. In diesem wallet hat der seed die Form einer hexadezimalen Zeichenkette. Seit dem 10. November [wurde](https://bitcointalk.org/index.php?topic=51397.msg612674#msg612674) es auch als mnemonische Phrase mit 12 Wörtern dargestellt. Jedes Wort wird aus einer vordefinierten Liste ausgewählt, so dass die Informationsbits dargestellt werden können. Diese Art von Satz wird durch BIP 39 standardisiert, der 2013 [verfasst](https://github.com/trezor/python-mnemonic/blob/217999150812f7d356169661e4ac0b2e09fecd1d/BIP_0039.txt) wurde.
+Der Client stellt eine Verbindung zu einem Netz von Spezialservern her, um die Transaktionen abzurufen. Die Server führen die Software (bitcoind) aus und indizieren alle Transaktionen mit Hilfe des ABE-[Block](https://planb.academy/resources/glossary/block)-Explorer-Codes. In diesem Wallet hat der seed die Form einer hexadezimalen Zeichenkette. Seit dem 10. November [wurde](https://bitcointalk.org/index.php?topic=51397.msg612674#msg612674) es auch als mnemonische Phrase mit 12 Wörtern dargestellt. Jedes Wort wird aus einer vordefinierten Liste ausgewählt, so dass die Informationsbits dargestellt werden können. Diese Art von Satz wird durch BIP 39 standardisiert, der 2013 [verfasst](https://github.com/trezor/python-mnemonic/blob/217999150812f7d356169661e4ac0b2e09fecd1d/BIP_0039.txt) wurde.
 
 
 
@@ -1556,11 +1553,11 @@ Der Client stellt eine Verbindung zu einem Netz von Spezialservern her, um die T
 
 
 
-Am 16. Dezember [integrierte](https://bitcointalk.org/index.php?topic=50936.msg652435#msg652435) Electrum die Typ-2-Ableitung, so dass Adressen kalt generated werden, ohne Zugang zum seed. Im Oktober 2012 [fügte](https://bitcointalk.org/index.php?topic=50936.msg1302941#msg1302941) Thomas Voegtlin dem Electrum auch eine vereinfachte Zahlungsüberprüfung hinzu, was ihn zu einem der besten leichtgewichtigen wallet im Ökosystem macht.
+Am 16. Dezember [integrierte](https://bitcointalk.org/index.php?topic=50936.msg652435#msg652435) Electrum die Typ-2-Ableitung, so dass Adressen kalt generated werden, ohne Zugang zum seed. Im Oktober 2012 [fügte](https://bitcointalk.org/index.php?topic=50936.msg1302941#msg1302941) Thomas Voegtlin dem Electrum auch eine vereinfachte Zahlungsüberprüfung hinzu, was ihn zu einem der besten leichtgewichtigen Wallet im Ökosystem macht.
 
 
 
-Ein dritter fortschrittlicher wallet [kam](https://bitcointalk.org/index.php?topic=56424.msg671650#msg671650) Anfang 2012 heraus: Armory. Diese Software wurde ab Juli 2011 von dem amerikanischen Ingenieur Alan Reiner entwickelt, der sich im Forum den Namen Etotheipi gab (in Anlehnung an die mathematische Identität von Euler). Sie hatte [zunächst](https://github.com/etotheipi/BitcoinArmory/blob/d68259dcf4116473d82458770e5ad73b95238797/README) die Form einer Python-Softwarebibliothek namens PyBtcEngine, bevor sie im November zu einem vollwertigen Client wurde.
+Ein dritter fortschrittlicher Wallet [kam](https://bitcointalk.org/index.php?topic=56424.msg671650#msg671650) Anfang 2012 heraus: Armory. Diese Software wurde ab Juli 2011 von dem amerikanischen Ingenieur Alan Reiner entwickelt, der sich im Forum den Namen Etotheipi gab (in Anlehnung an die mathematische Identität von Euler). Sie hatte [zunächst](https://github.com/etotheipi/BitcoinArmory/blob/d68259dcf4116473d82458770e5ad73b95238797/README) die Form einer Python-Softwarebibliothek namens PyBtcEngine, bevor sie im November zu einem vollwertigen Client wurde.
 
 
 
@@ -1568,19 +1565,19 @@ Ein dritter fortschrittlicher wallet [kam](https://bitcointalk.org/index.php?top
 
 
 
-*Interface aus dem Arsenal wallet im Januar 2012 (Quelle: [Archiv](https://web.archive.org/web/20120225130943/http://bitcoinarmory.com/) von der Armory-Website)*
+*Interface aus dem Arsenal Wallet im Januar 2012 (Quelle: [Archiv](https://web.archive.org/web/20120225130943/http://bitcoinarmory.com/) von der Armory-Website)*
 
 
 
-Am 3. Januar 2012 wurde Armory als "der fortschrittlichste Bitcoin-Client, den es gibt" vorgestellt: Er [integrierte](https://web.archive.org/web/20120113212542/http://bitcoinarmory.com/index.php/start-page/sample-page/features) zahlreiche Funktionen, wie eine Schnittstelle für mehrere Konten, eine deterministische Infrastruktur mit Papier-Backup, eine Teileauswahl und einen Adressimport. Vor allem aber [bot](https://web.archive.org/web/20120115015741/http://bitcoinarmory.com/index.php/using-offline-wallets-in-armory) er die Möglichkeit, Gelder offline zu verwalten, eine Praxis, die als Cold Storage bekannt ist (unten beschrieben). Im Februar und März [führte Alan Reiner](https://web.archive.org/web/20120515220140/https://bitcointalk.org/index.php?topic=64449.0) eine Crowdfunding-Kampagne durch, die über 4.000 Dollar einbrachte. Im Laufe der Monate wurde Armory zum Maßstab für Sicherheit.
+Am 3. Januar 2012 wurde Armory als "der fortschrittlichste Bitcoin-Client, den es gibt" vorgestellt: Er [integrierte](https://web.archive.org/web/20120113212542/http://bitcoinarmory.com/index.php/start-page/sample-page/features) zahlreiche Funktionen, wie eine Schnittstelle für mehrere Konten, eine deterministische Infrastruktur mit Papier-Backup, eine Teileauswahl und einen Adressimport. Vor allem aber [bot](https://web.archive.org/web/20120115015741/http://bitcoinarmory.com/index.php/using-offline-Wallets-in-armory) er die Möglichkeit, Gelder offline zu verwalten, eine Praxis, die als Cold Storage bekannt ist (unten beschrieben). Im Februar und März [führte Alan Reiner](https://web.archive.org/web/20120515220140/https://bitcointalk.org/index.php?topic=64449.0) eine Crowdfunding-Kampagne durch, die über 4.000 Dollar einbrachte. Im Laufe der Monate wurde Armory zum Maßstab für Sicherheit.
 
 
 
-### Web wallets
+### Web Wallets
 
 
 
-Eine hybride Form der wallet kam auf: die *Web-wallet*, die es ermöglichte, über einen Browser auf Gelder zuzugreifen, indem eine Verbindung zu einem Dienst hergestellt wurde, der eine verschlüsselte Kopie der privaten Schlüssel speicherte.
+Eine hybride Form der Wallet kam auf: die *Web-Wallet*, die es ermöglichte, über einen Browser auf Gelder zuzugreifen, indem eine Verbindung zu einem Dienst hergestellt wurde, der eine verschlüsselte Kopie der privaten Schlüssel speicherte.
 
 
 
@@ -1596,7 +1593,7 @@ Seit März 2011 hatte Stefan Thomas (justmoon), der deutsche Produzent des Video
 
 
 
-Der erste Entwickler, der diese Bibliothek nutzte, war ein Forumsmitglied, das sich DogIsland nannte und [im August](https://bitcointalk.org/index.php?topic=36169.msg445796#msg445796) ein Web-wallet-Konzept namens StrongCoin vorstellte. Die Schnittstelle ermöglichte es Benutzern, ein Konto zu erstellen und sich mit einem Benutzernamen und einem Passwort anzumelden. Die privaten Schlüssel werden mit AES verschlüsselt, bevor sie an den Server gesendet werden, so dass nur der Nutzer Zugriff auf die Gelder hat. Der Dienst [wurde](https://twitter.com/strongcoin/status/122263762035146753) am 7. Oktober offiziell eröffnet, hatte aber [den Nachteil](https://web.archive.org/web/20111113070337/http://www.thebitcointrader.com/2011/11/bitcoins-killer-app-is-here.html), dass eine Gebühr von 1 % (bis zu 312 GW) auf jeden gesendeten Betrag erhoben wurde.
+Der erste Entwickler, der diese Bibliothek nutzte, war ein Forumsmitglied, das sich DogIsland nannte und [im August](https://bitcointalk.org/index.php?topic=36169.msg445796#msg445796) ein Web-Wallet-Konzept namens StrongCoin vorstellte. Die Schnittstelle ermöglichte es Benutzern, ein Konto zu erstellen und sich mit einem Benutzernamen und einem Passwort anzumelden. Die privaten Schlüssel werden mit AES verschlüsselt, bevor sie an den Server gesendet werden, so dass nur der Nutzer Zugriff auf die Gelder hat. Der Dienst [wurde](https://twitter.com/strongcoin/status/122263762035146753) am 7. Oktober offiziell eröffnet, hatte aber [den Nachteil](https://web.archive.org/web/20111113070337/http://www.thebitcointrader.com/2011/11/bitcoins-killer-app-is-here.html), dass eine Gebühr von 1 % (bis zu 312 GW) auf jeden gesendeten Betrag erhoben wurde.
 
 
 
@@ -1612,7 +1609,7 @@ Die BitcoinJS-Bibliothek wurde auch [verwendet](https://web.archive.org/web/2018
 
 
 
-Am 1. Dezember [integrierte] Ben Reeves (http://bitcointalk.org/index.php?topic=40264.msg636996#msg636996) eine wallet-Funktionalität in die Plattform. Diese Funktion, die einfach "Mein Wallet" genannt wurde, ähnelte der von StrongCoin: Benutzer haben mit einem Login und einem Passwort Zugang zu ihrem wallet; ihre privaten Schlüssel werden verschlüsselt und auf dem Server gespeichert. Es wurde jedoch keine Provision erhoben. Darüber hinaus profitierte der Dienst von der Übersichtlichkeit des Block-Explorers, der die Details der durchgeführten Transaktionen anzeigt.
+Am 1. Dezember [integrierte] Ben Reeves (http://bitcointalk.org/index.php?topic=40264.msg636996#msg636996) eine Wallet-Funktionalität in die Plattform. Diese Funktion, die einfach "Mein Wallet" genannt wurde, ähnelte der von StrongCoin: Benutzer haben mit einem Login und einem Passwort Zugang zu ihrem Wallet; ihre privaten Schlüssel werden verschlüsselt und auf dem Server gespeichert. Es wurde jedoch keine Provision erhoben. Darüber hinaus profitierte der Dienst von der Übersichtlichkeit des Block-Explorers, der die Details der durchgeführten Transaktionen anzeigt.
 
 
 
@@ -1624,7 +1621,7 @@ Am 1. Dezember [integrierte] Ben Reeves (http://bitcointalk.org/index.php?topic=
 
 
 
-Die praktische Handhabung des wallet macht ihn sehr beliebt. Der Dienst zog schnell Tausende von Nutzern an und erreichte im März 2012 [5.000](https://bitcointalk.org/index.php?topic=40264.msg790252#msg790252) offene Konten. Das tägliche Volumen auf der Blockchain, das die Bitcoins zählt, die durch von Blockchain.info (My Wallet und API) ausgestellte Transaktionen bewegt werden, und die tatsächlichen Überweisungen überschätzt, wuchs stetig. Anfang Mai explodierte es dank der Aktivität generated des Online-Würfelspiels SatoshiDICE und überstieg 18.000 Bitcoins, was zu diesem Zeitpunkt 90.000 Dollar entsprach! Bis Juli wurde das Gesamtvolumen, das von Blockchain.info bewegt wurde, auf 13,6 Millionen Dollar [geschätzt](https://web.archive.org/web/20120720035456/https://blockchain.info/wallet/).
+Die praktische Handhabung des Wallet macht ihn sehr beliebt. Der Dienst zog schnell Tausende von Nutzern an und erreichte im März 2012 [5.000](https://bitcointalk.org/index.php?topic=40264.msg790252#msg790252) offene Konten. Das tägliche Volumen auf der Blockchain, das die Bitcoins zählt, die durch von Blockchain.info (My Wallet und API) ausgestellte Transaktionen bewegt werden, und die tatsächlichen Überweisungen überschätzt, wuchs stetig. Anfang Mai explodierte es dank der Aktivität generated des Online-Würfelspiels SatoshiDICE und überstieg 18.000 Bitcoins, was zu diesem Zeitpunkt 90.000 Dollar entsprach! Bis Juli wurde das Gesamtvolumen, das von Blockchain.info bewegt wurde, auf 13,6 Millionen Dollar [geschätzt](https://web.archive.org/web/20120720035456/https://blockchain.info/Wallet/).
 
 
 
@@ -1632,23 +1629,23 @@ Die praktische Handhabung des wallet macht ihn sehr beliebt. Der Dienst zog schn
 
 
 
-*Tägliches Volumen der von Blockchain.info ausgegebenen Transaktionen (Quelle: [Archiv](https://web.archive.org/web/20120604084256/http://blockchain.info/charts/my-wallet-transaction-volume))*
+*Tägliches Volumen der von Blockchain.info ausgegebenen Transaktionen (Quelle: [Archiv](https://web.archive.org/web/20120604084256/http://blockchain.info/charts/my-Wallet-transaction-volume))*
 
 
 
-### Cold Speicher und Papier wallets
+### Cold Speicher und Papier Wallets
 
 
 
-2011 kamen auch die wallet aus Papier auf, eine Anwendung des Konzepts der kalten Lagerung. Bitcoin zu halten bedeutet einfach, bestimmte Informationen vor Risiken zu schützen, sei es vor versehentlichem Verlust oder vor der Neugier anderer (Diebstahl). Diese Informationen - der private Schlüssel - können [generated](https://bitcointalk.org/index.php?topic=1610.msg19131#msg19131) von Geräten gespeichert werden, die nie mit dem Internet verbunden sind. Dies wird als kalte Speicherung bezeichnet [seit 2011](https://en.bitcoin.it/w/index.php?title=Cold_storage&oldid=16769).
+2011 kamen auch die Wallet aus Papier auf, eine Anwendung des Konzepts der kalten Lagerung. Bitcoin zu halten bedeutet einfach, bestimmte Informationen vor Risiken zu schützen, sei es vor versehentlichem Verlust oder vor der Neugier anderer (Diebstahl). Diese Informationen - der private Schlüssel - können [generated](https://bitcointalk.org/index.php?topic=1610.msg19131#msg19131) von Geräten gespeichert werden, die nie mit dem Internet verbunden sind. Dies wird als kalte Speicherung bezeichnet [seit 2011](https://en.bitcoin.it/w/index.php?title=Cold_storage&oldid=16769).
 
 
 
-Die Cold-Speicherung kann durch die Speicherung Ihrer privaten Schlüssel auf einem digitalen Sicherungsmedium, wie z. B. einem USB-Stick, erfolgen. Eine viel praktischere Methode ist jedoch das Papier-wallet, bei dem es sich einfach um ein Blatt Papier handelt, das den privaten Schlüssel und die öffentliche Adresse enthält. Der Schlüssel kann von jeder Software generated werden, sofern das Gerät, auf dem er sich befindet, offline bleibt.
+Die Cold-Speicherung kann durch die Speicherung Ihrer privaten Schlüssel auf einem digitalen Sicherungsmedium, wie z. B. einem USB-Stick, erfolgen. Eine viel praktischere Methode ist jedoch das Papier-Wallet, bei dem es sich einfach um ein Blatt Papier handelt, das den privaten Schlüssel und die öffentliche Adresse enthält. Der Schlüssel kann von jeder Software generated werden, sofern das Gerät, auf dem er sich befindet, offline bleibt.
 
 
 
-Ein Papier wallet kann auch mit Hilfe eines speziellen Tools generated werden. Diese Art von Werkzeug wurde im Sommer 2011 eingeführt. Das wichtigste war BitAddress, entwickelt von einem gewissen Pointbiz, das im September [auf den Markt](https://web.archive.org/web/20111102021042/https://bitcointalk.org/index.php?topic=43496.0) gebracht wurde. Dabei handelte es sich um ein browserbasiertes Tool, das in Javascript codiert war. Die Schnittstelle lud den Benutzer ein, Entropie zu erzeugen, um die Generierung von Pseudozufallszahlen zu optimieren. Der resultierende private Schlüssel und die Adresse konnten dann zur sicheren Aufbewahrung ausgedruckt werden. Natürlich kann (und sollte!) das Tool auch ohne Internetverbindung verwendet werden, indem die HTML-Seite gespeichert wird.
+Ein Papier Wallet kann auch mit Hilfe eines speziellen Tools generated werden. Diese Art von Werkzeug wurde im Sommer 2011 eingeführt. Das wichtigste war BitAddress, entwickelt von einem gewissen Pointbiz, das im September [auf den Markt](https://web.archive.org/web/20111102021042/https://bitcointalk.org/index.php?topic=43496.0) gebracht wurde. Dabei handelte es sich um ein browserbasiertes Tool, das in Javascript codiert war. Die Schnittstelle lud den Benutzer ein, Entropie zu erzeugen, um die Generierung von Pseudozufallszahlen zu optimieren. Der resultierende private Schlüssel und die Adresse konnten dann zur sicheren Aufbewahrung ausgedruckt werden. Natürlich kann (und sollte!) das Tool auch ohne Internetverbindung verwendet werden, indem die HTML-Seite gespeichert wird.
 
 
 
@@ -1656,7 +1653,7 @@ Ein Papier wallet kann auch mit Hilfe eines speziellen Tools generated werden. D
 
 
 
-*Papier wallet generated mit BitAddress im September 2011 (Quelle: [capture](https://web.archive.org/web/20120519160806/https://bitcointalk.org/index.php?topic=40264.140) von BitAddress.org)*
+*Papier Wallet generated mit BitAddress im September 2011 (Quelle: [capture](https://web.archive.org/web/20120519160806/https://bitcointalk.org/index.php?topic=40264.140) von BitAddress.org)*
 
 
 
@@ -1664,7 +1661,7 @@ Ein weiteres Tool, das zu dieser Zeit erschien, war VanityGen, [erstellt](https:
 
 
 
-Die wirksamste Methode zum Schutz vor Diebstahl ist schließlich das "Brain-wallet", bei dem man sich eine geheime Phrase merkt, die Zugang zu den unter der entsprechenden Adresse gespeicherten Bitcoins gibt. Die geheime Phrase kann zum Beispiel mit SHA-256 gehasht werden, um den privaten Schlüssel zu erhalten, der die Ausgabe der Gelder ermöglicht. Diese Methode wurde [vorgeschlagen](https://bitcointalk.org/index.php?topic=35082.msg436289#msg436289) von Casascius im August 2011 und [hervorgehoben](https://www.forbes.com/sites/jonmatonis/2012/03/12/brainwallet-the-ultimate-in-mobile-money/) in Forbes von Jon Matonis im März 2012. Sie ist jedoch sehr unsicher, wenn die Entropie nicht ausreichend ist. Und es unterliegt natürlich den Beschränkungen des menschlichen Gedächtnisses; es handelt sich eher um eine praktische Demonstration der Leistungsfähigkeit von Bitcoin als um eine nachhaltige Anwendung.
+Die wirksamste Methode zum Schutz vor Diebstahl ist schließlich das "Brain-Wallet", bei dem man sich eine geheime Phrase merkt, die Zugang zu den unter der entsprechenden Adresse gespeicherten Bitcoins gibt. Die geheime Phrase kann zum Beispiel mit SHA-256 gehasht werden, um den privaten Schlüssel zu erhalten, der die Ausgabe der Gelder ermöglicht. Diese Methode wurde [vorgeschlagen](https://bitcointalk.org/index.php?topic=35082.msg436289#msg436289) von Casascius im August 2011 und [hervorgehoben](https://www.forbes.com/sites/jonmatonis/2012/03/12/brainWallet-the-ultimate-in-mobile-money/) in Forbes von Jon Matonis im März 2012. Sie ist jedoch sehr unsicher, wenn die Entropie nicht ausreichend ist. Und es unterliegt natürlich den Beschränkungen des menschlichen Gedächtnisses; es handelt sich eher um eine praktische Demonstration der Leistungsfähigkeit von Bitcoin als um eine nachhaltige Anwendung.
 
 
 
@@ -1712,7 +1709,7 @@ Mike Caldwell war ein 33-jähriger amerikanischer Entwickler, der in den Vororte
 
 
 
-Casascius interessierte sich besonders für die Bitcoin-Speicherung und damit für wallet. Er entwickelte ein [Dienstprogramm](https://bitcointalk.org/index.php?topic=25141.msg312005#msg312005), um einen privaten Schlüssel in eine Bitcoin-Adresse umzuwandeln, benutzerdefinierte generate-Schlüssel zu erstellen und eine seed-Ableitung zu erzeugen. Aber vor allem wollte er, wie er [erklärte](https://bitcointalk.org/index.php?topic=2657.msg36011#msg36011), "einen echten, greifbaren Bitcoin herstellen, der tatsächlich BTC vermittelt". So begann er im Juni mit dem [Verkauf](https://bitcointalk.org/index.php?topic=21878.msg275000#msg275000) von wallet aus Papier auf seiner persönlichen Website.
+Casascius interessierte sich besonders für die Bitcoin-Speicherung und damit für Wallet. Er entwickelte ein [Dienstprogramm](https://bitcointalk.org/index.php?topic=25141.msg312005#msg312005), um einen privaten Schlüssel in eine Bitcoin-Adresse umzuwandeln, benutzerdefinierte generate-Schlüssel zu erstellen und eine seed-Ableitung zu erzeugen. Aber vor allem wollte er, wie er [erklärte](https://bitcointalk.org/index.php?topic=2657.msg36011#msg36011), "einen echten, greifbaren Bitcoin herstellen, der tatsächlich BTC vermittelt". So begann er im Juni mit dem [Verkauf](https://bitcointalk.org/index.php?topic=21878.msg275000#msg275000) von Wallet aus Papier auf seiner persönlichen Website.
 
 
 
@@ -1765,7 +1762,7 @@ Der zweite Blender war Bitcoin Fog (der "Bitcoin Scrambler"), [erstellt](https:/
 
 
 
-Der dritte war von besonderer Art, denn es handelte sich um den in Ben Reeves' Blockchain.info wallet eingebauten Mixer. Dieser Dienst wurde [implementiert](https://bitcointalk.org/index.php?topic=40264.msg1015499#msg1015499) im Juli 2012 als eine Funktion namens "Anonym senden". Die Provision betrug 1,5 %.
+Der dritte war von besonderer Art, denn es handelte sich um den in Ben Reeves' Blockchain.info Wallet eingebauten Mixer. Dieser Dienst wurde [implementiert](https://bitcointalk.org/index.php?topic=40264.msg1015499#msg1015499) im Juli 2012 als eine Funktion namens "Anonym senden". Die Provision betrug 1,5 %.
 
 
 
@@ -1773,7 +1770,7 @@ Der dritte war von besonderer Art, denn es handelte sich um den in Ben Reeves' B
 
 
 
-*Illustration der Funktion "Anonym senden" des Blockchain.info wallet (Quelle: [Archiv](https://web.archive.org/web/20120708011906/https://blockchain.info/wallet/send-anonymously))*
+*Illustration der Funktion "Anonym senden" des Blockchain.info Wallet (Quelle: [Archiv](https://web.archive.org/web/20120708011906/https://blockchain.info/Wallet/send-anonymously))*
 
 
 
@@ -1781,19 +1778,19 @@ Die Verbreitung zentraler Mischer hatte den Effekt, dass sie das Denken über de
 
 
 
-### Eine Zeit des Fortschritts für wallet
+### Eine Zeit des Fortschritts für Wallet
 
 
 
-Im Zeitraum 2011-2012 wurden zahlreiche Lösungen für die Nutzung von Bitcoin entwickelt. Zusätzlich zu den Verwahrungsanwendungen entstanden Software-wallet wie *Bitcoin Wallet für Android* und Electrum, Web-wallet wie Blockchain.info, Papier-wallet-Generatoren wie BitAddress und physische Darstellungen von Bitcoin wie Bitbills und Casascius Coin. Es wurden mehrere Mischdienste entwickelt, um den Nutzern mehr Vertraulichkeit zu bieten.
+Im Zeitraum 2011-2012 wurden zahlreiche Lösungen für die Nutzung von Bitcoin entwickelt. Zusätzlich zu den Verwahrungsanwendungen entstanden Software-Wallet wie *Bitcoin Wallet für Android* und Electrum, Web-Wallet wie Blockchain.info, Papier-Wallet-Generatoren wie BitAddress und physische Darstellungen von Bitcoin wie Bitbills und Casascius Coin. Es wurden mehrere Mischdienste entwickelt, um den Nutzern mehr Vertraulichkeit zu bieten.
 
 
 
-Darüber hinaus wurden in diesem Zeitraum deterministische wallet entwickelt, die auf der Ableitung von Schlüsseln aus einem einzigen Datenelement namens seed basieren. Das Modell wurde Anfang 2012 in BIP 32 verbessert und standardisiert, um diese Ableitung um eine Hierarchie zu ergänzen. Doch die Bewegung blieb nicht stehen, denn in der Folge wurden weitere Vorschläge veröffentlicht. BIP 39, veröffentlicht im September 2013, vereinheitlichte die Verwendung der mnemonischen Phrase, in Anlehnung an Electrum. BIP 43 und 44, verfasst im April 2014, standardisierten die Struktur von wallet, die mehrere Kryptowährungen und mehrere Konten besitzen. Diese Vorschläge wurden von Marek Palatinus (Slush) und Pavol Rusnak (Stick) gemacht, die an der Herstellung des ersten Hardware-wallet, Bitcoin Trezor, arbeiteten.
+Darüber hinaus wurden in diesem Zeitraum deterministische Wallet entwickelt, die auf der Ableitung von Schlüsseln aus einem einzigen Datenelement namens seed basieren. Das Modell wurde Anfang 2012 in BIP 32 verbessert und standardisiert, um diese Ableitung um eine Hierarchie zu ergänzen. Doch die Bewegung blieb nicht stehen, denn in der Folge wurden weitere Vorschläge veröffentlicht. BIP 39, veröffentlicht im September 2013, vereinheitlichte die Verwendung der mnemonischen Phrase, in Anlehnung an Electrum. BIP 43 und 44, verfasst im April 2014, standardisierten die Struktur von Wallet, die mehrere Kryptowährungen und mehrere Konten besitzen. Diese Vorschläge wurden von Marek Palatinus (Slush) und Pavol Rusnak (Stick) gemacht, die an der Herstellung des ersten Hardware-Wallet, Bitcoin Trezor, arbeiteten.
 
 
 
-Aber nicht nur bei den wallet, sondern auch bei den Mining-Pools wurden erhebliche Fortschritte erzielt. Diese verbreiteten sich im Jahr 2011, als die Mining-Schwierigkeiten zunahmen, was schließlich zur Verallgemeinerung dieses Mining-Ansatzes führte. Im nächsten Kapitel werden wir uns auf diesen zentralen Aspekt der Bitcoin-Geschichte konzentrieren.
+Aber nicht nur bei den Wallet, sondern auch bei den Mining-Pools wurden erhebliche Fortschritte erzielt. Diese verbreiteten sich im Jahr 2011, als die Mining-Schwierigkeiten zunahmen, was schließlich zur Verallgemeinerung dieses Mining-Ansatzes führte. Im nächsten Kapitel werden wir uns auf diesen zentralen Aspekt der Bitcoin-Geschichte konzentrieren.
 
 
 
@@ -2122,7 +2119,7 @@ Gavin ist immer noch der Projektleiter, aber er wurde von mehreren Personen unte
 
 
 
-Gleichzeitig begann das von Amir Taaki im September 2011 eingeführte System der Bitcoin-Verbesserungsvorschläge (https://gnusha.org/pi/bitcoindev/1316392315.46221.YahooMailNeo@web121014.mail.ne1.yahoo.com/), Früchte zu tragen. Die ersten BIPs wurden bis zum Ende des Jahres geschrieben. Dies ist zum Beispiel der Fall bei BIP 10, der am 28. Oktober von Alan Reiner, dem Entwickler des wallet von Armory, [veröffentlicht](https://gist.github.com/etotheipi/1321518) wurde.
+Gleichzeitig begann das von Amir Taaki im September 2011 eingeführte System der Bitcoin-Verbesserungsvorschläge (https://gnusha.org/pi/bitcoindev/1316392315.46221.YahooMailNeo@web121014.mail.ne1.yahoo.com/), Früchte zu tragen. Die ersten BIPs wurden bis zum Ende des Jahres geschrieben. Dies ist zum Beispiel der Fall bei BIP 10, der am 28. Oktober von Alan Reiner, dem Entwickler des Wallet von Armory, [veröffentlicht](https://gist.github.com/etotheipi/1321518) wurde.
 
 
 
@@ -2167,7 +2164,7 @@ Interessanterweise enthält die `OP_CHECKMULTISIG`-Implementierung einen Fehler.
 
 
 
-Am 23. August 2011, ein paar Tage nach der New Yorker Konferenz, [initiierte](https://gnusha.org/pi/bitcoindev/CABsx9T1uw43JuvhEmJP0KCyojsDi1r7v6BaLBHz7wWazduE5iw@mail.gmail.com/) Gavin Andresen die Diskussion über Multisignatur im BitcoinTalk-Forum und auf der Liste `bitcoin-development`. Er wollte Transaktionen mit mehreren Unterzeichnern standardisieren, was er als "den schnellsten Weg zu sehr sicheren, sehr schwer zu verlierenden Bitcoin wallets" bezeichnete. Seit Dezember 2010 wurden nur zwei Systeme [https://bitcointalk.org/index.php?topic=2129.msg27744#msg27744] als Standard angesehen: P2PK und P2PKH. Die Idee war, ein rohes Multisignatur-Schema hinzuzufügen, bei dem die Anzahl der Teilnehmer maximal 3 betragen kann.
+Am 23. August 2011, ein paar Tage nach der New Yorker Konferenz, [initiierte](https://gnusha.org/pi/bitcoindev/CABsx9T1uw43JuvhEmJP0KCyojsDi1r7v6BaLBHz7wWazduE5iw@mail.gmail.com/) Gavin Andresen die Diskussion über Multisignatur im BitcoinTalk-Forum und auf der Liste `bitcoin-development`. Er wollte Transaktionen mit mehreren Unterzeichnern standardisieren, was er als "den schnellsten Weg zu sehr sicheren, sehr schwer zu verlierenden Bitcoin Wallets" bezeichnete. Seit Dezember 2010 wurden nur zwei Systeme [https://bitcointalk.org/index.php?topic=2129.msg27744#msg27744] als Standard angesehen: P2PK und P2PKH. Die Idee war, ein rohes Multisignatur-Schema hinzuzufügen, bei dem die Anzahl der Teilnehmer maximal 3 betragen kann.
 
 
 
@@ -2764,7 +2761,7 @@ Die Namensänderung bestätigte Ross' Status als Anführer der Bewegung, die Sil
 
 
 
-Ross' erste Entscheidung als DPR bestand darin, den Verkauf von Schusswaffen auf Silk Road zu verbieten, da sich einige Silk-Road-Verkäufer damit unwohl fühlten, und [eine](https://antilop.cc/sr/users/dpr/threads/20120226-0702-A_brand_new_annonymous_market.html) separate Plattform für diese Art von Produkten zu schaffen. Die Schwesterplattform mit dem Namen *The Armory* ([nicht zu verwechseln](https://bitcointalk.org/index.php?topic=64449.msg774427#msg774427) mit Alan Reiners wallet) wurde am 26. Februar 2012 eröffnet. Das Experiment war jedoch nur von kurzer Dauer, da es im August mangels ausreichender Umsätze [geschlossen](https://bitcointalk.org/index.php?topic=66587.msg1079466#msg1079466) wurde.
+Ross' erste Entscheidung als DPR bestand darin, den Verkauf von Schusswaffen auf Silk Road zu verbieten, da sich einige Silk-Road-Verkäufer damit unwohl fühlten, und [eine](https://antilop.cc/sr/users/dpr/threads/20120226-0702-A_brand_new_annonymous_market.html) separate Plattform für diese Art von Produkten zu schaffen. Die Schwesterplattform mit dem Namen *The Armory* ([nicht zu verwechseln](https://bitcointalk.org/index.php?topic=64449.msg774427#msg774427) mit Alan Reiners Wallet) wurde am 26. Februar 2012 eröffnet. Das Experiment war jedoch nur von kurzer Dauer, da es im August mangels ausreichender Umsätze [geschlossen](https://bitcointalk.org/index.php?topic=66587.msg1079466#msg1079466) wurde.
 
 
 
@@ -2870,7 +2867,7 @@ Bareinzahlungen waren nicht die einzige Möglichkeit, Dollar und Bitcoins zu tau
 
 
 
-Jeremias Kangas war ein finnischer Programmierer und Hacker in seinen frühen Dreißigern. Er leitete das Unternehmen [Kangas Bros. Innovations Oy](https://web.archive.org/web/20101030185646/http://kangasbros.fi/) mit seinem jüngeren Bruder Nikolaus, mit dem sie eine Reihe von iPhone- und Webanwendungen veröffentlichten. Er [hörte](https://bensonsamuel.wordpress.com/2013/01/01/universal-bitcoin-exchange/) Ende 2010 durch Hacker News von Bitcoin und war sofort von Nakamotos Modell fasziniert, das er [beschrieb](https://web.archive.org/web/20120517205800/http://blog.kangasbros.fi/?p=85) als "eine großartige und verrückte Innovation" und "ein revolutionäres Konzept". Im Jahr 2011, nach einer Reise nach Indien, begann er Vollzeit an Bitcoin zu arbeiten und entwickelte mehrere Programme wie die Software-Implementierung [django-bitcoin](https://bitcointalk.org/index.php?topic=30448.msg382233#msg382233) oder die Verwahrungsanwendung [Easywallet.org](https://bitcointalk.org/index.php?topic=75665.msg838319#msg838319). Außerdem [entwickelte er](https://bitcointalk.org/index.php?topic=87553.msg1035076#msg1035076) zusammen mit Stefan Thomas während eines Hackathons den Online-Zahlungsprozessor Acceptbit, eine Lösung, die die Funktionalität des öffentlichen Hauptschlüssels von Electrum nutzte, um generate neue Adressen zu erhalten, ohne auf den entsprechenden privaten Schlüssel zugreifen zu müssen.
+Jeremias Kangas war ein finnischer Programmierer und Hacker in seinen frühen Dreißigern. Er leitete das Unternehmen [Kangas Bros. Innovations Oy](https://web.archive.org/web/20101030185646/http://kangasbros.fi/) mit seinem jüngeren Bruder Nikolaus, mit dem sie eine Reihe von iPhone- und Webanwendungen veröffentlichten. Er [hörte](https://bensonsamuel.wordpress.com/2013/01/01/universal-bitcoin-exchange/) Ende 2010 durch Hacker News von Bitcoin und war sofort von Nakamotos Modell fasziniert, das er [beschrieb](https://web.archive.org/web/20120517205800/http://blog.kangasbros.fi/?p=85) als "eine großartige und verrückte Innovation" und "ein revolutionäres Konzept". Im Jahr 2011, nach einer Reise nach Indien, begann er Vollzeit an Bitcoin zu arbeiten und entwickelte mehrere Programme wie die Software-Implementierung [django-bitcoin](https://bitcointalk.org/index.php?topic=30448.msg382233#msg382233) oder die Verwahrungsanwendung [EasyWallet.org](https://bitcointalk.org/index.php?topic=75665.msg838319#msg838319). Außerdem [entwickelte er](https://bitcointalk.org/index.php?topic=87553.msg1035076#msg1035076) zusammen mit Stefan Thomas während eines Hackathons den Online-Zahlungsprozessor Acceptbit, eine Lösung, die die Funktionalität des öffentlichen Hauptschlüssels von Electrum nutzte, um generate neue Adressen zu erhalten, ohne auf den entsprechenden privaten Schlüssel zugreifen zu müssen.
 
 
 
@@ -2922,7 +2919,7 @@ Große Online-Shops florierten daher im Laufe des Jahres. Dies war der Fall bei 
 
 
 
-Dieses Wachstum des Handels machte es notwendig, den Bezahlvorgang zu standardisieren, so dass alle wallet miteinander kompatibel sein können. Die Verwendung eines Smartphones und das Lesen eines QR-Codes durch dessen Kamera machten die Zahlung problemlos. Allerdings musste man sich auf die Daten einigen, die in den QR-Code aufgenommen werden sollten: Deshalb wurde ein URI-Schema entwickelt, um Zahlungsanforderungen zu formalisieren. Nach diesem Schema hat eine Anfrage beispielsweise die Form `bitcoin:175tWpb8K1S7NmH4Zx6rewF9WQrcZv245W?amount=20.3&label=Luke-Jr` und enthält somit die Adresse des Empfängers (175tWp...), den zu zahlenden Betrag (20,3 Bitcoins) und die Transaktionsbeschreibung (Luke-Jr).
+Dieses Wachstum des Handels machte es notwendig, den Bezahlvorgang zu standardisieren, so dass alle Wallet miteinander kompatibel sein können. Die Verwendung eines Smartphones und das Lesen eines QR-Codes durch dessen Kamera machten die Zahlung problemlos. Allerdings musste man sich auf die Daten einigen, die in den QR-Code aufgenommen werden sollten: Deshalb wurde ein URI-Schema entwickelt, um Zahlungsanforderungen zu formalisieren. Nach diesem Schema hat eine Anfrage beispielsweise die Form `bitcoin:175tWpb8K1S7NmH4Zx6rewF9WQrcZv245W?amount=20.3&label=Luke-Jr` und enthält somit die Adresse des Empfängers (175tWp...), den zu zahlenden Betrag (20,3 Bitcoins) und die Transaktionsbeschreibung (Luke-Jr).
 
 
 
@@ -2982,7 +2979,7 @@ Stephen Pair und Tony Gallippi [starteten](https://bitcointalk.org/index.php?top
 
 
 
-Im Januar 2012 nahmen sie [teil](https://bitcointalk.org/index.php?topic=56706.msg675586#msg675586) an der *Consumer Electronics Show* in Las Vegas, der größten Messe für technologische Innovationen in der Unterhaltungselektronik, und besetzten dort einen Stand mit Roger Ver. Sie brachten auch neue Produkte auf den Markt, wie die [Einzahlungskarte](https://bitcointalk.org/index.php?topic=57303.msg682576#msg682576), mit der "jeder Bitcoins *erhalten* kann, ohne einen wallet zu besitzen oder etwas über Bitcoins wissen zu müssen"; oder [Limocoin](https://bitcointalk.org/index.php?topic=63370.msg741514#msg741514), "ein Bitcoin-Zahlungssystem, das für Limousinen- und Taxifahrer und Unternehmen entwickelt wurde".
+Im Januar 2012 nahmen sie [teil](https://bitcointalk.org/index.php?topic=56706.msg675586#msg675586) an der *Consumer Electronics Show* in Las Vegas, der größten Messe für technologische Innovationen in der Unterhaltungselektronik, und besetzten dort einen Stand mit Roger Ver. Sie brachten auch neue Produkte auf den Markt, wie die [Einzahlungskarte](https://bitcointalk.org/index.php?topic=57303.msg682576#msg682576), mit der "jeder Bitcoins *erhalten* kann, ohne einen Wallet zu besitzen oder etwas über Bitcoins wissen zu müssen"; oder [Limocoin](https://bitcointalk.org/index.php?topic=63370.msg741514#msg741514), "ein Bitcoin-Zahlungssystem, das für Limousinen- und Taxifahrer und Unternehmen entwickelt wurde".
 
 
 
@@ -3006,7 +3003,7 @@ Vertreter von BitInstant [waren anwesend](https://web.archive.org/web/2012070102
 
 
 
-Am wichtigsten war jedoch, dass Mitglieder von BitInstant einen Stand mit dem Namen "*Bernankes Bitcoin Exchange*" besetzten, an dem sie den Umtausch mit dem Dollar abwickelten und den Neugierigen beibrachten, wie man Bitcoin verwendet. Sie zeigten den Leuten, wie man mit BitcoinSpinner, Blockchain.info oder Instawallet problemlos Bitcoin annehmen und ausgeben kann. Im Laufe der Woche verkauften sie Bitcoins im Wert von 2.500 Dollar und Coin von Casascius im Wert von einigen hundert Dollar, die für Numismatikliebhaber interessant sind.
+Am wichtigsten war jedoch, dass Mitglieder von BitInstant einen Stand mit dem Namen "*Bernankes Bitcoin Exchange*" besetzten, an dem sie den Umtausch mit dem Dollar abwickelten und den Neugierigen beibrachten, wie man Bitcoin verwendet. Sie zeigten den Leuten, wie man mit BitcoinSpinner, Blockchain.info oder InstaWallet problemlos Bitcoin annehmen und ausgeben kann. Im Laufe der Woche verkauften sie Bitcoins im Wert von 2.500 Dollar und Coin von Casascius im Wert von einigen hundert Dollar, die für Numismatikliebhaber interessant sind.
 
 
 
@@ -3161,7 +3158,7 @@ Das Verfahren war transparent und gewährleistete, dass die Nutzer überprüfen 
 
 
 
-Die Bedienung war einfach (man brauchte nur einen wallet zum Spielen), sofort (bei kleinen Einsätzen) und leicht überprüfbar. Diese Merkmale sorgten dafür, dass das Spiel von Anfang an eine große Zahl von Spielern anzog. In nur 10 Tagen bearbeitete das Online-Casino [https://web.archive.org/web/20120419202743/http://1209k.com/bitcasino/report.php] fast 5.000 BTC an Wetten, was einem Gegenwert von über 24.000 Dollar entspricht. Aber dieser plötzliche Erfolg erschreckte Fireduck, der rechtliche Konsequenzen befürchtete, so dass er versuchte, die Website an jemanden zu verkaufen, der die rechtlichen Risiken übernehmen und ihm ein monatliches Gehalt für die technische Seite zahlen würde. In einer Ankündigung, die am 17. April im Bitcoin Subreddit veröffentlicht wurde, schrieb er [https://www.reddit.com/r/Bitcoin/comments/segz0/anyone_want_to_run_my_bitcoin_casino/], dass er "seit etwas mehr als einer Woche ein Bitcoin-Casino betreibt. Es hat 146 BTC mit einer Investition von etwa 45 BTC gemacht, um es in Gang zu bringen" und dass er nach einem Käufer suche.
+Die Bedienung war einfach (man brauchte nur einen Wallet zum Spielen), sofort (bei kleinen Einsätzen) und leicht überprüfbar. Diese Merkmale sorgten dafür, dass das Spiel von Anfang an eine große Zahl von Spielern anzog. In nur 10 Tagen bearbeitete das Online-Casino [https://web.archive.org/web/20120419202743/http://1209k.com/bitcasino/report.php] fast 5.000 BTC an Wetten, was einem Gegenwert von über 24.000 Dollar entspricht. Aber dieser plötzliche Erfolg erschreckte Fireduck, der rechtliche Konsequenzen befürchtete, so dass er versuchte, die Website an jemanden zu verkaufen, der die rechtlichen Risiken übernehmen und ihm ein monatliches Gehalt für die technische Seite zahlen würde. In einer Ankündigung, die am 17. April im Bitcoin Subreddit veröffentlicht wurde, schrieb er [https://www.reddit.com/r/Bitcoin/comments/segz0/anyone_want_to_run_my_bitcoin_casino/], dass er "seit etwas mehr als einer Woche ein Bitcoin-Casino betreibt. Es hat 146 BTC mit einer Investition von etwa 45 BTC gemacht, um es in Gang zu bringen" und dass er nach einem Käufer suche.
 
 
 
@@ -3282,7 +3279,7 @@ Die Internetkriminalität im Zusammenhang mit Bitcoin hat seit der Popularisieru
 
 
 
-Im Jahr 2012 nahm die "Kryptokriminalität" eine ganz neue Dimension an, und es folgten Diebstähle aller Art. Das erste Ereignis war der Angriff auf den Hosting-Dienst Linode am 1. März. An diesem Tag griff ein Hacker [auf](https://web.archive.org/web/20120302143922/http://status.linode.com/2012/03/manager-security-incident.html) das Kundendienstportal des Unternehmens zu und übernahm die Kontrolle über acht Konten, die alle mit Bitcoin verbunden waren. Durch den Zugriff auf das aktive wallet, das auf den Servern von Linode gehostet wird, konnte er die Bitcoins der betroffenen Kunden erbeuten.
+Im Jahr 2012 nahm die "Kryptokriminalität" eine ganz neue Dimension an, und es folgten Diebstähle aller Art. Das erste Ereignis war der Angriff auf den Hosting-Dienst Linode am 1. März. An diesem Tag griff ein Hacker [auf](https://web.archive.org/web/20120302143922/http://status.linode.com/2012/03/manager-security-incident.html) das Kundendienstportal des Unternehmens zu und übernahm die Kontrolle über acht Konten, die alle mit Bitcoin verbunden waren. Durch den Zugriff auf das aktive Wallet, das auf den Servern von Linode gehostet wird, konnte er die Bitcoins der betroffenen Kunden erbeuten.
 
 
 
@@ -3290,7 +3287,7 @@ Zu diesen Kunden gehörte die Handelsplattform Bitcoinica, die von dem jungen Ch
 
 
 
-Der Hacker [erlangte](https://bitcointalk.org/index.php?topic=66916.msg777575#msg777575) auch 3.094 Bitcoins, die zu BitcoinCZ Mining, dem Mining-Pool von Slush, gehörten. Diese Bitcoins, die zu diesem Zeitpunkt mehr als 15.000 Dollar wert waren, befanden sich auf dem heißen wallet des Mining-Pools zur Auszahlung an seine Mitglieder. Slush hat den Verlust persönlich gedeckt.
+Der Hacker [erlangte](https://bitcointalk.org/index.php?topic=66916.msg777575#msg777575) auch 3.094 Bitcoins, die zu BitcoinCZ Mining, dem Mining-Pool von Slush, gehörten. Diese Bitcoins, die zu diesem Zeitpunkt mehr als 15.000 Dollar wert waren, befanden sich auf dem heißen Wallet des Mining-Pools zur Auszahlung an seine Mitglieder. Slush hat den Verlust persönlich gedeckt.
 
 
 
@@ -3506,7 +3503,7 @@ Ende des Sommers 2012 war BitFloor eine aufstrebende Plattform: Sie [war](https:
 
 
 
-Er hätte nicht mehr Recht haben können. In der Nacht vom 3. auf den 4. September 2012 verschaffte sich ein Hacker [Zugriff](https://bitcointalk.org/index.php?topic=105818.msg1159510#msg1159510) auf einige Server von Bitfloor und gelangte in den Besitz eines unverschlüsselten Backups der wallet Schlüssel. Der überwiegende Teil der Bitcoins der Plattform wurde abgezogen: etwas mehr als 24.000 BTC oder etwa 250.000 $ zu diesem Zeitpunkt. Die Exchange-Aktivität wurde daraufhin eingestellt.
+Er hätte nicht mehr Recht haben können. In der Nacht vom 3. auf den 4. September 2012 verschaffte sich ein Hacker [Zugriff](https://bitcointalk.org/index.php?topic=105818.msg1159510#msg1159510) auf einige Server von Bitfloor und gelangte in den Besitz eines unverschlüsselten Backups der Wallet Schlüssel. Der überwiegende Teil der Bitcoins der Plattform wurde abgezogen: etwas mehr als 24.000 BTC oder etwa 250.000 $ zu diesem Zeitpunkt. Die Exchange-Aktivität wurde daraufhin eingestellt.
 
 
 

@@ -795,11 +795,11 @@ Einige Aktivisten waren schnell von Bitcoin überzeugt, wie [Stefan Molyneux](ht
 
 
 
-Am 9. Juni schrieb David Kramer, Blogger bei Lewrockwell.com, [https://web.archive.org/web/20110612114125/http://www.lewrockwell.com/blog/lewrw/archives/89471.html] in einem Artikel mit dem Titel "Just Another Bogus Medium of Exchange" Folgendes:
+Am 9. Juni [schrieb](https://web.archive.org/web/20110612114125/http://www.lewrockwell.com/blog/lewrw/archives/89471.html) David Kramer, Blogger bei Lewrockwell.com, in einem Artikel mit dem Titel "Just Another Bogus Medium of Exchange" Folgendes:
 
 
 
-> "Ein Tauschmittel entsteht aus etwas, das einen materiellen Nutzen/Wert auf dem Markt hatte, bevor es zu einem Tauschmittel wurde, d. h. es war auch ein Gut, das gegen andere Waren und Dienstleistungen getauscht wurde. Im Laufe der Jahrhunderte setzten sich die Rohstoffe Gold und Silber als die beiden bevorzugten Tauschmittel durch, wobei Gold aufgrund seiner größeren Knappheit gegenüber Silber an erster Stelle stand. Welchen materiellen Nutzen/Wert hatte Bitcoin zuvor? Null. Es sind nur Bits in einem Computer
+> "Ein Tauschmittel entsteht aus etwas, das einen materiellen Nutzen/Wert auf dem Markt hatte, bevor es zu einem Tauschmittel wurde, d. h. es war auch ein Gut, das gegen andere Waren und Dienstleistungen getauscht wurde. Im Laufe der Jahrhunderte setzten sich die Rohstoffe Gold und Silber als die beiden bevorzugten Tauschmittel durch, wobei Gold aufgrund seiner größeren Knappheit gegenüber Silber an erster Stelle stand. Welchen materiellen Nutzen/Wert hatte Bitcoin zuvor? Null. Es sind nur Bits in einem Computer.
 
 Im Laufe des Monats Juni wurde die Kritik immer lauter. Peter Schiff, Sohn des Anti-Steuer-Aktivisten Irwin Schiff und überzeugter Befürworter des Goldstandards, [kritisierte](https://www.youtube.com/watch?v=vTr_hTC90oQ), dass Bitcoin keinen "fundamentalen intrinsischen Wert" habe. Doug Casey, libertärer Finanzier und Autor, [behauptete](https://www.lewrockwell.com/2011/06/doug-casey/the-bitcoin-flap/), dass "sie wie staatliche Fiat-Währungen ein Schwindel sind, der nur so lange funktioniert, wie die Menschen Vertrauen in sie haben, unabhängig davon, ob dieses Vertrauen gut angelegt ist oder nicht".
 
@@ -859,7 +859,7 @@ Er erfuhr von Bitcoin im Dezember 2010 über Free Talk Live und kaufte einige da
 
 > "Ich erkannte, dass es die beste Form von Geld ist, die die ganze Welt je gesehen hat. Ich war buchstäblich so aufgeregt, weil ich das Gefühl hatte, dass die Berufung meines Lebens in Form von Bitcoin gekommen war. Ich verließ mein Haus über eine Woche lang nicht und verbrachte jede wache Minute damit, alles zu lesen, was ich über Bitcoin finden konnte. Durch den Schlafmangel wurde ich so krank, dass mein Freund mich ins Krankenhaus bringen musste."
 
-Nach dieser Erfahrung engagierte sich Roger Ver in der Gemeinschaft. Am 26. April [begann](https://bitcointalk.org/index.php?topic=4667.msg95746#msg95746) er, Bitcoin-Zahlungen über sein Unternehmen MemoryDealers zu akzeptieren. Am 4. Juni nutzte er eine Plakatwand, die ihm gehörte, um für Bitcoin und sein Unternehmen zu werben. Die Werbetafel war von einer stark befahrenen Autobahn in Sunnyvale, Silicon Valley, aus zu sehen, was die Aufmerksamkeit (https://www.instagram.com/p/FNIFl/) auf Bitcoin zu einem Zeitpunkt lenkte, als die spekulative Begeisterung auf ihrem Höhepunkt war.
+Nach dieser Erfahrung engagierte sich Roger Ver in der Community. Am 26. April [begann](https://bitcointalk.org/index.php?topic=4667.msg95746#msg95746) er, Bitcoin-Zahlungen über sein Unternehmen MemoryDealers zu akzeptieren. Am 4. Juni nutzte er eine Plakatwand, die ihm gehörte, um für Bitcoin und sein Unternehmen zu werben. Die Werbetafel war von einer stark befahrenen Autobahn in Sunnyvale, Silicon Valley, aus zu sehen, was die Aufmerksamkeit auf Bitcoin zu einem Zeitpunkt [lenkte]((https://www.instagram.com/p/FNIFl/), als die spekulative Begeisterung auf ihrem Höhepunkt war.
 
 
 
@@ -871,11 +871,11 @@ Nach dieser Erfahrung engagierte sich Roger Ver in der Gemeinschaft. Am 26. Apri
 
 
 
-Im Juni, nach den ersten Problemen von Mt. Gox, bot Roger Mark Karpelès an, zu ihm zu kommen und ihm zu helfen, da er ganz in der Nähe der Büros des Unternehmens in Tokio wohnte. Mark akzeptierte, und Roger erschien im Cerulean Tower. Er wurde von mehreren Personen begleitet, darunter Jesse Powell, ein Schulfreund und Unternehmer aus San Francisco, der sich ebenfalls für Bitcoin interessierte (letzterer wird 2013 die Plattform Kraken entwickeln). Trotz der [nonchalanten Haltung] von Mark Karpelès (https://www.wired.com/2014/03/bitcoin-exchange/) gelang es ihnen, die Situation zu stabilisieren und die Plattform nach einer Woche wieder zu öffnen.
+Im Juni, nach den ersten Problemen von Mt. Gox, bot Roger Mark Karpelès an, zu ihm zu kommen und ihm zu helfen, da er ganz in der Nähe der Büros des Unternehmens in Tokio wohnte. Mark akzeptierte, und Roger erschien im Cerulean Tower. Er wurde von mehreren Personen begleitet, darunter Jesse Powell, ein Schulfreund und Unternehmer aus San Francisco, der sich ebenfalls für Bitcoin interessierte (letzterer wird 2013 die Plattform Kraken entwickeln). Trotz der [nonchalanten Haltung](https://www.wired.com/2014/03/bitcoin-exchange/) von Mark Karpelès  gelang es ihnen, die Situation zu stabilisieren und die Plattform nach einer Woche wieder zu öffnen.
 
 
 
-Doch Roger Ver's Engagement für Bitcoin hörte damit nicht auf. Wie bereits erwähnt, war er von dem revolutionären Potenzial von Bitcoin fest überzeugt und fühlte sich in dieser Hinsicht zu einer Mission berufen. Er versuchte, das Wort zu verbreiten. Er [erschien](https://www.youtube.com/watch?v=IG_AvbfCEs4) in Bruce Wagners *Bitcoin Show* im Juni. Er [sendete](https://www.youtube.com/watch?v=5pV9ptoCMyc) Werbung für Bitcoin im Radio Free Talk Live und ersetzte damit die Werbung für sein Unternehmen, die er zuvor über dieses Medium gemacht hatte. Im Laufe der Monate etablierte er sich als einer der eifrigsten Promoter von Bitcoin, bis zu dem Punkt, an dem er im Februar 2012 vom kanadischen Händler GoWest [den Spitznamen](https://web.archive.org/web/20120218230448/http://www.thebitcointrader.com/2012/02/bitcoin-jesus-is-getting-ready-to.html) "*Bitcoin Jesus*" erhielt. Der Spitzname blieb haften, obwohl Roger ihn nie beanspruchte.
+Doch Roger Ver's Engagement für Bitcoin hörte damit nicht auf. Wie bereits erwähnt, war er von dem revolutionären Potenzial von Bitcoin fest überzeugt und fühlte sich in dieser Hinsicht zu einer Mission berufen. Er versuchte, die Nachricht zu verbreiten. Er [erschien](https://www.youtube.com/watch?v=IG_AvbfCEs4) in Bruce Wagners *Bitcoin Show* im Juni. Er [sendete](https://www.youtube.com/watch?v=5pV9ptoCMyc) Werbung für Bitcoin im Radio Free Talk Live und ersetzte damit die Werbung für sein Unternehmen, die er zuvor über dieses Medium gemacht hatte. Im Laufe der Monate etablierte er sich als einer der eifrigsten Promoter von Bitcoin, bis zu dem Punkt, an dem er im Februar 2012 vom kanadischen Händler GoWest [den Spitznamen](https://web.archive.org/web/20120218230448/http://www.thebitcointrader.com/2012/02/bitcoin-jesus-is-getting-ready-to.html) "*Bitcoin Jesus*" erhielt. Der Spitzname blieb haften, obwohl Roger ihn nie beanspruchte.
 
 
 
@@ -903,13 +903,13 @@ Im Jahr 2011 zog er nach Portsmouth, New Hampshire, als Teil des *Free State Pro
 
 
 
-> "Dieser Tag war einer der wichtigsten Tage in meinem Leben. Es war wie die Entdeckung einer großen Wahrheit, wie ein Blick in die Zukunft. Ich gab alles auf, was ich tat, und sprang in den Kaninchenbau
+> "Dieser Tag war einer der wichtigsten Tage in meinem Leben. Es war wie die Entdeckung einer großen Wahrheit, wie ein Blick in die Zukunft. Ich gab alles auf, was ich tat, und sprang in den Kaninchenbau.
 
 Seine Motivation war vor allem ideologischer Natur: Er war verführt von der Unaufhaltsamkeit des Systems und der Unmöglichkeit, mehr Geld als geplant zu schaffen. Er [sah](https://silverunderground.com/2011/06/bitcoin-the-separation-of-money-and-state/) Bitcoin als die Verkörperung der "Trennung von Geld und Staat". Er war auch von der von Samuel Konkin propagierten agoristischen Praxis überzeugt und [glaubte](https://bitcointalk.org/index.php?topic=34657.msg431717#msg431717), dass "Bitcoin für den [Agorismus](https://planb.academy/resources/glossary/agorism) das ist, was Kiemen für Fische sind", d. h. ein wesentliches Zahnrad.
 
 
 
-Im Juni kaufte Erik Voorhees eine große Menge Bitcoins zu einem Zeitpunkt, als der Preis am höchsten war. Er probierte auch [https://bitcointalk.org/index.php?topic=24198.msg300745#msg300745] die GPU [mining](https://planb.academy/resources/glossary/mining) aus, aber seine Freundin mochte sie nicht, und er war gezwungen, seine Maschinen zu verkaufen. Im August reiste er nach New York, um an einer von Bruce Wagner organisierten Konferenz teilzunehmen, wo er viele der Akteure des Ökosystems traf.
+Im Juni kaufte Erik Voorhees eine große Menge Bitcoins zu einem Zeitpunkt, als der Preis am höchsten war. Er [probierte](https://bitcointalk.org/index.php?topic=24198.msg300745#msg300745) auch das GPU [Mining](https://planb.academy/resources/glossary/mining) aus, aber seine Freundin mochte sie nicht, und er war gezwungen, seine Maschinen zu verkaufen. Im August reiste er nach New York, um an einer von Bruce Wagner organisierten Konferenz teilzunehmen, wo er viele der Akteure des Ökosystems traf.
 
 
 
@@ -953,7 +953,7 @@ Im Jahr 2011 war New Hampshire bereits zu einer Brutstätte des Libertarismus ge
 
 
 
-Die zweite Veranstaltung ist das *Porcupine Freedom Festival* (besser bekannt als "PorcFest"), ein einwöchiges Festival, das im Sommer auf einem Campingplatz in der Nähe von Lancaster, weiter nördlich, stattfindet. Die Atmosphäre ist entspannter, so sehr, dass die Veranstaltung 2011 von dem libertären Autor Roderick T. Long als "Woodstock für rationale Menschen" bezeichnet wurde (https://aaeblog.com/2011/06/way-long-gone-part-2/). Die diesjährige Ausgabe, die im Juni stattfand, war ein Erfolg und [versammelte](https://mises.org/mises-daily/porcfest-2011) über 1.000 Menschen.
+Die zweite Veranstaltung ist das *Porcupine Freedom Festival* (besser bekannt als "PorcFest"), ein einwöchiges Festival, das im Sommer auf einem Campingplatz in der Nähe von Lancaster, weiter nördlich, stattfindet. Die Atmosphäre ist entspannter, so sehr, dass die Veranstaltung 2011 von dem libertären Autor Roderick T. Long als "Woodstock für rationale Menschen" [bezeichnet wurde](https://aaeblog.com/2011/06/way-long-gone-part-2/). Die diesjährige Ausgabe, die im Juni stattfand, war ein Erfolg und [versammelte](https://mises.org/mises-daily/porcfest-2011) über 1.000 Menschen.
 
 
 
@@ -961,7 +961,7 @@ Bitcoin zog im Frühjahr natürlich die Aufmerksamkeit der Bewegung auf sich, di
 
 
 
-Dank dieser Konzentration von Libertären würde New Hampshire im Laufe der Jahre zu einer zentralen Drehscheibe für die Einführung von Kryptowährungen werden. Zusätzlich zu seiner institutionellen Umwandlung würde es [https://www.forbes.com/sites/kashmirhill/2014/06/12/the-free-state-project-a-libertarian-testing-ground-for-bitcoin-3d-printers-and-drones/] ein wahres "Versuchsgelände" für Bitcoin und andere freiheitsfördernde technische Innovationen wie 3D-Drucker werden.
+Dank dieser Konzentration von Libertären würde New Hampshire im Laufe der Jahre zu einer zentralen Drehscheibe für die Einführung von Kryptowährungen werden. Zusätzlich zu seiner institutionellen Umwandlung [würde es](https://www.forbes.com/sites/kashmirhill/2014/06/12/the-free-state-project-a-libertarian-testing-ground-for-bitcoin-3d-printers-and-drones/) ein wahres "Versuchsgelände" für Bitcoin und andere freiheitsfördernde technische Innovationen wie 3D-Drucker werden.
 
 
 
@@ -973,11 +973,11 @@ Der Libertarismus war jedoch nicht die einzige politische Ideologie, die Affinit
 
 
 
-Doch ähnlich wie die Libertären lehnte auch diese politische Familie Bitcoin ab, weil es nicht ihrer Vorstellung von Geld entsprach. Es war zu starr und unterlag zu wenig der politischen Kontrolle. Bitcoin war keine soziale Währung, die demokratisch verwaltet werden kann (https://diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001362.html), wie es sich die Aktivisten durch lokale Währungen vorstellten. Yánis Varoufákis, libertärer Marxist und zukünftiger Finanzminister Griechenlands, [kritisierte](https://www.yanisvaroufakis.eu/2013/04/22/bitcoin-and-the-dangerous-fantasy-of-apolitical-money/) sie 2013 wegen ihres deflationären und inegalitären Charakters und schrieb, dass "es keine entpolitisierte Währung geben kann, die in der Lage ist, eine fortgeschrittene, industrielle Gesellschaft 'anzutreiben'".
+Doch ähnlich wie die Libertären lehnte auch diese politische Familie Bitcoin ab, weil es nicht ihrer Vorstellung von Geld entsprach. Es war zu starr und unterlag zu wenig der politischen Kontrolle. Bitcoin war keine soziale Währung, die demokratisch verwaltet werden [kann](https://diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001362.html), wie es sich die Aktivisten durch lokale Währungen vorstellten. Yánis Varoufákis, libertärer Marxist und zukünftiger Finanzminister Griechenlands, [kritisierte](https://www.yanisvaroufakis.eu/2013/04/22/bitcoin-and-the-dangerous-fantasy-of-apolitical-money/) sie 2013 wegen ihres deflationären und inegalitären Charakters und schrieb, dass "es keine entpolitisierte Währung geben kann, die in der Lage ist, eine fortgeschrittene, industrielle Gesellschaft 'anzutreiben'".
 
 
 
-Im September 2011 erschütterte die Bewegung *Occupy Wall Street* das politische Leben in den Vereinigten Staaten. Angesichts der katastrophalen wirtschaftlichen Rezession, die durch die Subprime-Krise ausgelöst wurde, rief die kanadische Stiftung *Adbusters* (unter dem Antrieb des Gründers Kalle Lasn und des Herausgebers Micah White) [https://web.archive.org/web/20110717094726/https://www.adbusters.org/blogs/adbusters-blog/occupywallstreet.html] dazu auf, die Wall Street, das symbolische Zentrum des New Yorker Finanzwesens, in einer Art Sit-in zu "besetzen". Die Hauptforderung war, den Einfluss des Großkapitals und der Geldmächte auf die Politik des Landes zu verringern, ein Einfluss, der für die Krise verantwortlich gemacht wird. Der Protestslogan [lautete](http://occupywallst.org/) "Das Einzige, was wir alle gemeinsam haben, ist, dass wir die 99% sind, die die Gier und Korruption der 1% nicht länger tolerieren werden". Der Protest begann am 17. September im Zuccotti Park, unweit des New Yorker Finanzdistrikts, und brachte über tausend Menschen zusammen. Im Laufe der Wochen gewann die Bewegung an Schwung und breitete sich auf andere Großstädte des Landes, wie Chicago und Los Angeles, sowie auf die internationale Ebene aus.
+Im September 2011 erschütterte die Bewegung *Occupy Wall Street* das politische Leben in den Vereinigten Staaten. Angesichts der katastrophalen wirtschaftlichen Rezession, die durch die Subprime-Krise ausgelöst wurde, rief die kanadische Stiftung *Adbusters* [unter dem Antrieb des Gründers Kalle Lasn und des Herausgebers Micah White](https://web.archive.org/web/20110717094726/https://www.adbusters.org/blogs/adbusters-blog/occupywallstreet.html) dazu auf, die Wall Street, das symbolische Zentrum des New Yorker Finanzwesens, in einer Art Sit-in zu "besetzen". Die Hauptforderung war, den Einfluss des Großkapitals und der Geldmächte auf die Politik des Landes zu verringern, ein Einfluss, der für die Krise verantwortlich gemacht wird. Der Protestslogan [lautete](http://occupywallst.org/) "Das Einzige, was wir alle gemeinsam haben, ist, dass wir die 99% sind, die die Gier und Korruption der 1% nicht länger tolerieren werden". Der Protest begann am 17. September im Zuccotti Park, unweit des New Yorker Finanzdistrikts, und brachte über tausend Menschen zusammen. Im Laufe der Wochen gewann die Bewegung an Schwung und breitete sich auf andere Großstädte des Landes, wie Chicago und Los Angeles, sowie auf die internationale Ebene aus.
 
 
 
@@ -1040,11 +1040,11 @@ Nachdem der Kurs am 8. Juni einen Höchststand von 32 $ erreicht hatte, brachten
 
 
 
-Am 7. August veröffentlichte Timothy Lee, Autor der Tech-Nachrichtenseite Arstechnica und Bitcoin-Skeptiker (https://timothyblee.com/2011/04/19/bitcoins-collusion-problem/) seit April, (https://www.forbes.com/sites/timothylee/2011/08/07/the-bitcoin-crash/) einen Artikel mit dem Titel "The Bitcoin Crash" (Der Bitcoin-Crash), in dem er erklärte, dass Bitcoin, "die Währung, überhaupt keinen fundamentalen Wert zu haben scheint" und dass "es keinen logischen Haltepunkt für den Preisverfall von Bitcoin gibt", da der Prozess seiner Meinung nach "am Ende ist". Sein Argument wurde [abgerufen](https://www.theatlantic.com/technology/archive/2011/08/the-bitcoin-economy-is-collapsing-with-no-sign-of-recovery/243253/) am folgenden Tag von Nicholas Jackson in *The Atlantic*, für den "The Bitcoin Economy Is Collapsing With No Sign of Recovery" (Die Bitcoin-Wirtschaft bricht ohne Anzeichen einer Erholung zusammen), und von Adrian Covert auf Gizmodo, der [argumentierte](https://gizmodo.com/the-bitcoin-is-dying-whatever-5828710), dass "die Flitterwochen vorbei sind" und dass "The Bitcoin Is Dying" (Das Bitcoin stirbt).
+Am 7. August [(https://timothyblee.com/2011/04/19/bitcoins-collusion-problem/)veröffentlichte](https://timothyblee.com/2011/04/19/bitcoins-collusion-problem/) Timothy Lee, Autor der Tech-Nachrichtenseite Arstechnica und Bitcoin-Skeptiker seit April, [einen Artikel](https://www.forbes.com/sites/timothylee/2011/08/07/the-bitcoin-crash/) mit dem Titel "The Bitcoin Crash" (Der Bitcoin-Crash), in dem er erklärte, dass Bitcoin, "die Währung, überhaupt keinen fundamentalen Wert zu haben scheint" und dass "es keinen logischen Haltepunkt für den Preisverfall von Bitcoin gibt", da der Prozess seiner Meinung nach "am Ende ist". Sein Argument wurde [abgerufen](https://www.theatlantic.com/technology/archive/2011/08/the-bitcoin-economy-is-collapsing-with-no-sign-of-recovery/243253/) am folgenden Tag von Nicholas Jackson in *The Atlantic*, für den "The Bitcoin Economy Is Collapsing With No Sign of Recovery" (Die Bitcoin-Wirtschaft bricht ohne Anzeichen einer Erholung zusammen), und von Adrian Covert auf Gizmodo, der [argumentierte](https://gizmodo.com/the-bitcoin-is-dying-whatever-5828710), dass "die Flitterwochen vorbei sind" und dass "The Bitcoin Is Dying" (Das Bitcoin stirbt).
 
 
 
-In der Zwischenzeit tauchten andere Kritikpunkte auf, die eher die makroökonomische Ebene betrafen. Im September veröffentlichte James Surowiecki, ein amerikanischer Journalist, der durch die Veröffentlichung von *The Wisdom of Crowds* im Jahr 2004 bekannt wurde, [https://www.technologyreview.com/2011/08/23/191860/cryptocurrency/] eine Anklage gegen Bitcoin in der *MIT Technology Review*. Er kritisierte die feste Begrenzung der Anzahl der Bitcoins mit dem Argument, dass sie das Horten fördere, sie daran hindere, ein Tauschmittel zu werden, und schließlich zu einer Situation führe, in der "die große Mehrheit der Bitcoins von Leuten gehalten wird, die hoffen, sie an andere Leute zu verkaufen". Am 7. September wiederholte Paul Krugman, neokeynesianischer Wirtschaftswissenschaftler und Träger des Wirtschaftsnobelpreises 2008, (https://archive.nytimes.com/krugman.blogs.nytimes.com/2011/09/07/golden-cyberfetters/) diese Argumentation in einem auf der Website der *New York Times* veröffentlichten Artikel mit dem Titel "Golden Cyberfetters". Der Titel war eine Anspielung auf Barry Eichengreens Buch *Goldene Fesseln* aus dem Jahr 1992, in dem er argumentierte, dass die Große Depression der 1930er Jahre die Folge des übermäßig restriktiven Goldstandards war. In dem Artikel argumentierte Paul Krugman, dass "Bitcoin seine eigene private Goldstandard-Welt geschaffen hat, in der die Geldmenge fixiert ist und nicht durch die Druckerpresse vermehrt wird" und dass die daraus resultierende Deflation dazu führte, dass "der tatsächliche Wert der Transaktionen in Bitcoin eher gesunken als gestiegen ist. In der Tat ist das reale Bruttoprodukt von Bitcoin stark gesunken".
+In der Zwischenzeit tauchten andere Kritikpunkte auf, die eher die makroökonomische Ebene betrafen. Im September [veröffentlichte](https://www.technologyreview.com/2011/08/23/191860/cryptocurrency/) James Surowiecki, ein amerikanischer Journalist, der durch die Veröffentlichung von *The Wisdom of Crowds* im Jahr 2004 bekannt wurde, eine Anklage gegen Bitcoin in der *MIT Technology Review*. Er kritisierte die feste Begrenzung der Anzahl der Bitcoins mit dem Argument, dass sie das Horten fördere, sie daran hindere, ein Tauschmittel zu werden, und schließlich zu einer Situation führe, in der "die große Mehrheit der Bitcoins von Leuten gehalten wird, die hoffen, sie an andere Leute zu verkaufen". Am 7. September [wiederholte](https://archive.nytimes.com/krugman.blogs.nytimes.com/2011/09/07/golden-cyberfetters/) Paul Krugman, neokeynesianischer Wirtschaftswissenschaftler und Träger des Wirtschaftsnobelpreises 2008, diese Argumentation in einem auf der Website der *New York Times* veröffentlichten Artikel mit dem Titel "Golden Cyberfetters". Der Titel war eine Anspielung auf Barry Eichengreens Buch *Goldene Fesseln* aus dem Jahr 1992, in dem er argumentierte, dass die Große Depression der 1930er Jahre die Folge des übermäßig restriktiven Goldstandards war. In dem Artikel argumentierte Paul Krugman, dass "Bitcoin seine eigene private Goldstandard-Welt geschaffen hat, in der die Geldmenge fixiert ist und nicht durch die Druckerpresse vermehrt wird" und dass die daraus resultierende Deflation dazu führte, dass "der tatsächliche Wert der Transaktionen in Bitcoin eher gesunken als gestiegen ist. In der Tat ist das reale Bruttoprodukt von Bitcoin stark gesunken".
 
 
 
@@ -1056,7 +1056,7 @@ In der Zwischenzeit tauchten andere Kritikpunkte auf, die eher die makroökonomi
 
 
 
-Am 17. Oktober fiel der Preis von BTC deutlich unter 3,2 $, was einem Rückgang von mehr als 90 % gegenüber dem Höhepunkt der Blase entspricht, woran Timothy Lee (https://arstechnica.com/tech-policy/2011/10/bitcoin-implodes-down-more-than-90-percent-from-june-peak/) die Leser am folgenden Tag erinnerte. Noch auf Arstechnica beschrieb er die Probleme, die mit der Verwendung von Kryptowährungen verbunden sind, wie Hacks und Volatilität. Von Bitcoin hielt er nicht viel, denn er erklärte: "Aber der Wert einer Währung beruht auf ihrem Ruf, und fünf Monate schlechter Nachrichten und Abwertung haben ernsthaften Schaden angerichtet". Im gleichen Sinne wurde am 21. Oktober ein Artikel in *The Economist* mit dem [Titel](https://web.archive.org/web/20181019113320/https://www.economist.com/babbage/2011/10/21/the-bursting-of-the-bitcoin-bubble) "The bursting of the Bitcoin bubble" veröffentlicht.
+Am 17. Oktober fiel der Preis von BTC deutlich unter 3,2 $, was einem Rückgang von mehr als 90 % gegenüber dem Höhepunkt der Blase entspricht, woran Timothy Lee die Leser am folgenden Tag [erinnerte](https://arstechnica.com/tech-policy/2011/10/bitcoin-implodes-down-more-than-90-percent-from-june-peak/). Noch auf Arstechnica beschrieb er die Probleme, die mit der Verwendung von Kryptowährungen verbunden sind, wie Hacks und Volatilität. Von Bitcoin hielt er nicht viel, denn er erklärte: "Aber der Wert einer Währung beruht auf ihrem Ruf, und fünf Monate schlechter Nachrichten und Abwertung haben ernsthaften Schaden angerichtet". Im gleichen Sinne wurde am 21. Oktober ein Artikel in *The Economist* mit dem [Titel](https://web.archive.org/web/20181019113320/https://www.economist.com/babbage/2011/10/21/the-bursting-of-the-bitcoin-bubble) "The bursting of the Bitcoin bubble" veröffentlicht.
 
 
 
@@ -1068,7 +1068,7 @@ Am 17. Oktober fiel der Preis von BTC deutlich unter 3,2 $, was einem Rückgang 
 
 
 
-Im darauffolgenden Monat erholte sich der Wechselkurs nur mühsam und erreichte am 18. November einen neuen Tiefstand von etwa 2 $. Am 23. November veröffentlichte der Redakteur Benjamin Wallace [https://web.archive.org/web/20111124022726/http://www.wired.com/magazine/2011/11/mf_bitcoin/all/1] in der Zeitschrift Wired einen Artikel mit dem Titel "The Rise and Fall of Bitcoin" (Aufstieg und Fall von Bitcoin), der abgesehen von seinem bewusst aufreizenden Titel ein sehr gut ausgearbeiteter Artikel war, der sich mit den Problemen der Bitcoin-Nutzer befasste. Es war eine schwierige Zeit, insbesondere für Miner, die im Sommer Grafikprozessoren kauften, aber [feststellen](https://bitcointalk.org/index.php?topic=47480.msg565196#msg565196) mussten, dass es nicht mehr rentabel war, damit zu schürfen. Einige waren sogar gezwungen, ihre Geräte zu [verkaufen](https://bitcointalk.org/index.php?topic=48767.msg580225#msg580225).
+Im darauffolgenden Monat erholte sich der Wechselkurs nur mühsam und erreichte am 18. November einen neuen Tiefstand von etwa 2 $. Am 23. November [veröffentlichte](https://web.archive.org/web/20111124022726/http://www.wired.com/magazine/2011/11/mf_bitcoin/all/1) der Redakteur Benjamin Wallace in der Zeitschrift Wired einen Artikel mit dem Titel "The Rise and Fall of Bitcoin" (Aufstieg und Fall von Bitcoin), der abgesehen von seinem bewusst aufreizenden Titel ein sehr gut ausgearbeiteter Artikel war, der sich mit den Problemen der Bitcoin-Nutzer befasste. Es war eine schwierige Zeit, insbesondere für Miner, die im Sommer Grafikprozessoren kauften, aber [feststellen](https://bitcointalk.org/index.php?topic=47480.msg565196#msg565196) mussten, dass es nicht mehr rentabel war, damit zu schürfen. Einige waren sogar gezwungen, ihre Geräte zu [verkaufen](https://bitcointalk.org/index.php?topic=48767.msg580225#msg580225).
 
 
 
@@ -1076,7 +1076,7 @@ Doch trotz des Preisverfalls und der Kritik war der Kern der Gemeinschaft immer 
 
 
 
-Allmählich kletterte der Preis wieder auf über 4 $ Ende Dezember, so dass die Online-Presse gezwungen war, zuzugeben, dass Bitcoin nicht tot war. Am 21. Dezember schrieb Timothy Lee [https://arstechnica.com/tech-policy/2011/12/bitcoins-comeback-should-western-union-be-afraid/], dass "die offensichtliche Stabilität der Währung im letzten Monat ihn dazu inspiriert hat, sie ein zweites Mal zu betrachten". Insbesondere dachte er über den Wert von Bitcoin nach, den er nicht so sehr als "alternative Währung", sondern als "Metawährung" ansah, die einen "kostengünstigen und regulierungsfreien Transfer von Vermögen zwischen Nationen" ermöglicht und mit Western Union konkurriert.
+Allmählich kletterte der Preis wieder auf über 4 $ Ende Dezember, so dass die Online-Presse gezwungen war, zuzugeben, dass Bitcoin nicht tot war. Am 21. Dezember [schrieb](https://arstechnica.com/tech-policy/2011/12/bitcoins-comeback-should-western-union-be-afraid/) Timothy Lee, dass "die offensichtliche Stabilität der Währung im letzten Monat ihn dazu inspiriert hat, sie ein zweites Mal zu betrachten". Insbesondere dachte er über den Wert von Bitcoin nach, den er nicht so sehr als "alternative Währung", sondern als "Metawährung" ansah, die einen "kostengünstigen und regulierungsfreien Transfer von Vermögen zwischen Nationen" ermöglicht und mit Western Union konkurriert.
 
 
 
@@ -1092,7 +1092,7 @@ Die Plattform von Mt. Gox blieb jedoch weitgehend dominant. Dies stellte für (v
 
 
 
-Dies war das Problem, das ein 23-jähriger walisischer Entwickler namens Gareth Nelson (im Forum auch als GarethNelsonUK bekannt) mit einem sofortigen Währungsumtauschdienst namens BitInstant zu lösen suchte. Gareth entdeckte Bitcoin im Frühjahr. Nachdem er [Interesse](https://bitcointalk.org/index.php?topic=8780.msg131564#msg131564) an mining geweckt hatte, [stieß](https://bitcointalk.org/index.php?topic=9198.msg132990#msg132990) er selbst auf die Schwierigkeit, Geld an Mt. Gox zu senden, und führte einen außerbörslichen Austausch durch, um Bitcoins zu erhalten.
+Dies war das Problem, das ein 23-jähriger walisischer Entwickler namens Gareth Nelson (im Forum auch als GarethNelsonUK bekannt) mit einem sofortigen Währungsumtauschdienst namens BitInstant zu lösen suchte. Gareth entdeckte Bitcoin im Frühjahr. Nachdem er [Interesse](https://bitcointalk.org/index.php?topic=8780.msg131564#msg131564) an Mining geweckt hatte, [stieß](https://bitcointalk.org/index.php?topic=9198.msg132990#msg132990) er selbst auf die Schwierigkeit, Geld an Mt. Gox zu senden, und führte einen außerbörslichen Austausch durch, um Bitcoins zu erhalten.
 
 
 
@@ -1104,18 +1104,18 @@ Dies war das Problem, das ein 23-jähriger walisischer Entwickler namens Gareth 
 
 
 
-Am 13. Juni gegen 4 Uhr morgens veröffentlichte Gareth Nelson [https://bitcointalk.org/index.php?topic=16134.msg210887#msg210887] im Forum eine Idee für einen "schnellen Zahlungsdienst für Mt. Gox". Die Idee war, einen Vermittler einzurichten, der Gelder an die Börsenplattform überweist, sobald sie im Herkunftsland, typischerweise den USA, eingegangen sind. Er schrieb:
+Am 13. Juni gegen 4 Uhr morgens [veröffentlichte](https://bitcointalk.org/index.php?topic=16134.msg210887#msg210887) Gareth Nelson im Forum eine Idee für einen "schnellen Zahlungsdienst für Mt. Gox". Die Idee war, einen Vermittler einzurichten, der Gelder an die Börsenplattform überweist, sobald sie im Herkunftsland, typischerweise den USA, eingegangen sind. Er schrieb:
 
 
 
 
-> "Wie Sie wissen, ist mtgox bekanntlich langsam bei Ein- und Auszahlungen. Ich habe darüber nachgedacht, dieses Problem zu lösen, indem ich eine neue Website einrichte, die den mtgox API nutzt, um die Zahlungen zu beschleunigen (wenn die Nutzer auf meiner Website bezahlen, erhalten sie sofort mtgox USD abzüglich einer kleinen Gebühr von 1,5 %)."
+> "Wie Sie wissen, ist mtgox bekanntlich langsam bei Ein- und Auszahlungen. Ich habe darüber nachgedacht, dieses Problem zu lösen, indem ich eine neue Website einrichte, die das mtgox API nutzt, um die Zahlungen zu beschleunigen (wenn die Nutzer auf meiner Website bezahlen, erhalten sie sofort mtgox USD abzüglich einer kleinen Gebühr von 1,5 %)."
 
 Er wusste, dass er über die technischen Fähigkeiten verfügte, um diese Idee in die Praxis umzusetzen, aber es fehlte ihm das Geld, um sie lebensfähig zu machen. In seiner Nachricht teilte er also mit, dass er auf der Suche nach Investoren sei, um das Projekt auf die Beine zu stellen. Und das erregte sofort die Aufmerksamkeit eines 21-jährigen New Yorkers namens Charlie Shrem.
 
 
 
-Charlie Shrem stammt aus einer streng syrisch-orthodoxen jüdischen Familie (https://fortune.com/2017/06/26/bitcoin-blockchain-cryptocurrency-market/) und wuchs im Midwood-Viertel von Brooklyn auf. Sein Vater arbeitete in einem Juweliergeschäft. Als schüchternes und unbeholfenes Kind flüchtete er sich in Computer, brachte sich selbst das Programmieren bei und machte sich in Hackerforen einen Namen. Während seiner Highschool- und Universitätszeit half er bei der Gründung einer Reihe von Unternehmen, darunter *Epiphany Design and Production*, ein Drucker- und Computerreparaturservice, und [Daily Checkout](https://web.archive.org/web/20110618225450/http://www.dailycheckout.com/), eine im März 2009 gegründete E-Commerce-Website für Elektronik. Damals entdeckte er sein kommerzielles Gespür.
+Charlie Shrem [stammt](https://fortune.com/2017/06/26/bitcoin-blockchain-cryptocurrency-market/) aus einer streng syrisch-orthodoxen jüdischen Familie und wuchs im Midwood-Viertel von Brooklyn auf. Sein Vater arbeitete in einem Juweliergeschäft. Als schüchternes und unbeholfenes Kind flüchtete er sich in Computer, brachte sich selbst das Programmieren bei und machte sich in Hackerforen einen Namen. Während seiner Highschool- und Universitätszeit half er bei der Gründung einer Reihe von Unternehmen, darunter *Epiphany Design and Production*, ein Drucker- und Computerreparaturservice, und [Daily Checkout](https://web.archive.org/web/20110618225450/http://www.dailycheckout.com/), eine im März 2009 gegründete E-Commerce-Website für Elektronik. Damals entdeckte er sein kommerzielles Gespür.
 
 
 
@@ -1183,7 +1183,7 @@ Ende des Sommers 2011 boten die bestehenden Tauschplattformen lediglich die Mög
 
 
 
-Bitcoinica wurde am 8. September 2011 von einem 17-jährigen Chinesen namens Zhou Tong, dessen richtiger Name Ryan Tong Zhou war, [gestartet](https://bitcointalk.org/index.php?topic=81581.msg897948#msg897948). Er war ein begabter Schüler in Singapur. Er ließ sich von der persönlichen Entwicklung inspirieren, las Robert Kiyosakis *Richer Vater, armer Vater* und interessierte sich für das Leben von erfolgreichen Unternehmern wie Tony Hsieh (von Zappos) und Steve Jobs (von Apple). Er hatte auch einen Hintergrund in der Webentwicklung.
+Bitcoinica wurde am 8. September 2011 von einem 17-jährigen Chinesen namens Zhou Tong, dessen richtiger Name Ryan Tong Zhou war, [gestartet](https://bitcointalk.org/index.php?topic=81581.msg897948#msg897948). Er war ein begabter Schüler in Singapur. Er ließ sich von der persönlichen Entwicklung inspirieren, las Robert Kiyosakis *Rich Dad, Poor Dad* und interessierte sich für das Leben von erfolgreichen Unternehmern wie Tony Hsieh (von Zappos) und Steve Jobs (von Apple). Er hatte auch einen Hintergrund in der Webentwicklung.
 
 
 
@@ -1199,7 +1199,7 @@ Er [hörte](https://bitcointalk.org/index.php?topic=67521.msg785510#msg785510) E
 
 
 
-Er präsentierte Bitcoinica als "fortschrittliche Bitcoin Handelsplattform", die "Elegant. Professionell. Revolutionär". Die Plattform verwaltete zunächst keine Wallet, die Bitcoins wurden auf einem speziellen Konto bei Mt. Gox gehalten. Ein- und Auszahlungen erfolgten in Bitcoins, durch einlösbare Mt. Gox-Codes oder durch internationale Banküberweisungen.
+Er präsentierte Bitcoinica als "fortschrittliche Bitcoin Handelsplattform", die "Elegant. Professionell. Revolutionär" war. Die Plattform verwaltete zunächst keine Wallet, die Bitcoins wurden auf einem speziellen Konto bei Mt. Gox gehalten. Ein- und Auszahlungen erfolgten in Bitcoins, durch einlösbare Mt. Gox-Codes oder durch internationale Banküberweisungen.
 
 
 
@@ -1219,7 +1219,7 @@ Die Plattform diente vor allem der Spekulation: Die Hebelwirkung ermöglichte es
 
 
 
-Anfang März 2012 akzeptierte Bitcoinica [https://bitcointalk.org/index.php?topic=67521.msg785510#msg785510] mehr als ein Dutzend Ein- und Auszahlungsmethoden, darunter Bitcoin direkt, Liberty Reserve, PerfectMoney, Pecunix sowie SEPA-Überweisungen in Euro. Es hatte nun fast so viel Volumen wie Mt. Gox.
+Anfang März 2012 [akzeptierte](https://bitcointalk.org/index.php?topic=67521.msg785510#msg785510) Bitcoinica mehr als ein Dutzend Ein- und Auszahlungsmethoden, darunter Bitcoin direkt, Liberty Reserve, PerfectMoney, Pecunix sowie SEPA-Überweisungen in Euro. Es hatte nun fast so viel Volumen wie Mt. Gox.
 
 
 
@@ -1243,7 +1243,7 @@ Eine der an dieser Bewegung beteiligten Personen war James McCarthy, der im Bitc
 
 
 
-Im April 2011 startete James [https://bitcointalk.org/index.php?topic=6500.msg94943#msg94943] GLBSE (ausgesprochen: glib-zee), ein Akronym für *GLobal Bitcoin Stock Exchange*. Die Benutzer interagierten mit dem Server der Plattform über eine Befehlszeilenschnittstelle. Der Client war eine modifizierte Version der von Amir Taaki entwickelten Software. Der Website zufolge ermöglichte die Plattform (https://web.archive.org/web/20110427033244/http://glbse.com/) "die Ausgabe von Aktien zur Kapitalerhöhung, die Zahlung von Dividenden an die Aktionäre, die Vorlage von Beschlüssen bei den Aktionären und die Einholung ihrer Stimmen, die Ausgabe und den Verkauf von Anleihen, die Aufnahme von Krediten und deren Rückzahlung, die Ausgabe von Terminkontrakten, den Meta-Handel mit nicht börsennotierten Unternehmen (an anderen Börsen) und den Handel mit allen oben genannten Aspekten mit anderen Händlern auf dem Markt".
+Im April 2011 [startete](https://bitcointalk.org/index.php?topic=6500.msg94943#msg94943) James GLBSE (ausgesprochen: glib-zee), ein Akronym für *GLobal Bitcoin Stock Exchange*. Die Benutzer interagierten mit dem Server der Plattform über eine Befehlszeilenschnittstelle. Der Client war eine modifizierte Version der von Amir Taaki entwickelten Software. Der Website zufolge [ermöglichte](https://web.archive.org/web/20110427033244/http://glbse.com/) die Plattform  "die Ausgabe von Aktien zur Kapitalerhöhung, die Zahlung von Dividenden an die Aktionäre, die Vorlage von Beschlüssen bei den Aktionären und die Einholung ihrer Stimmen, die Ausgabe und den Verkauf von Anleihen, die Aufnahme von Krediten und deren Rückzahlung, die Ausgabe von Terminkontrakten, den Meta-Handel mit nicht börsennotierten Unternehmen (an anderen Börsen) und den Handel mit allen oben genannten Aspekten mit anderen Händlern auf dem Markt".
 
 
 
@@ -1311,7 +1311,7 @@ Trotz niedriger Moral war es eine gute Zeit zum Aufbauen. Eine Vielzahl von Fina
 
 
 
-Darüber hinaus wurde dieser wirtschaftliche Fortschritt von einer technischen Entwicklung begleitet, die von den Programmierern unterstützt wurde. Neben der Entwicklung der Hauptsoftware (ein Thema, mit dem wir uns später befassen werden), war dieser Zeitraum auch durch eine Verbesserung der Nutzung von Bitcoin aufgrund der Entwicklung von Wallet gekennzeichnet. Dies ist das Thema des nächsten Kapitels.
+Darüber hinaus wurde dieser wirtschaftliche Fortschritt von einer technischen Entwicklung begleitet, die von den Programmierern unterstützt wurde. Neben der Entwicklung der Hauptsoftware (ein Thema, mit dem wir uns später befassen werden), war dieser Zeitraum auch durch eine Verbesserung der Nutzung von Bitcoin aufgrund der Entwicklung von Wallets gekennzeichnet. Dies ist das Thema des nächsten Kapitels.
 
 
 

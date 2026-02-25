@@ -1847,9 +1847,9 @@ Tidak ada satu jawaban di sini. Kriptografi asimetris adalah sebuah alat dan tid
 
 Untuk memulainya, Jim's Sporting Goods mungkin akan mendekati **otoritas sertifikat**, sebuah organisasi yang mendukung distribusi kunci publik. Otoritas sertifikat akan mendaftarkan beberapa detail mengenai Jim's Sporting Goods dan memberikan kunci publik. Kemudian, otoritas tersebut akan mengirimkan sertifikat kepada Jim's Sporting Goods, yang dikenal sebagai **sertifikat TLS/SSL**, dengan kunci publik Jim's Sporting Goods yang ditandatangani secara digital menggunakan kunci publik milik otoritas sertifikat. Dengan cara ini, otoritas sertifikat menegaskan bahwa kunci publik tertentu memang milik Jim's Sporting Goods.
 
-Kunci untuk memahami proses ini dengan sertifikat TLS/SSL adalah bahwa, meskipun Anda umumnya tidak akan memiliki kunci publik Jim's Sporting Goods yang disimpan di mana pun di komputer Anda, kunci publik dari otoritas sertifikat yang diakui memang disimpan di peramban atau sistem operasi Anda. Ini disimpan dalam apa yang disebut **sertifikat root**.
+Kunci untuk memahami proses ini dengan sertifikat TLS/SSL adalah bahwa, meskipun Anda umumnya tidak akan memiliki kunci publik Jim's Sporting Goods yang disimpan di mana pun di komputer Anda, kunci publik dari otoritas sertifikat yang diakui memang disimpan di browser atau sistem operasi Anda. Ini disimpan dalam apa yang disebut **sertifikat root**.
 
-Oleh karena itu, ketika Jim's Sporting Goods memberi Anda sertifikat TLS/SSL, Anda dapat memverifikasi tanda tangan digital otoritas sertifikat melalui sertifikat root pada peramban atau sistem operasi Anda. Jika tanda tangan tersebut valid, Anda dapat relatif yakin bahwa kunci publik pada sertifikat tersebut memang milik Jim's Sporting Goods. Atas dasar ini, mudah untuk menyiapkan protokol untuk komunikasi yang aman dengan Jim's Sporting Goods.
+Oleh karena itu, ketika Jim's Sporting Goods memberi Anda sertifikat TLS/SSL, Anda dapat memverifikasi tanda tangan digital otoritas sertifikat melalui sertifikat root pada browser atau sistem operasi Anda. Jika tanda tangan tersebut valid, Anda dapat relatif yakin bahwa kunci publik pada sertifikat tersebut memang milik Jim's Sporting Goods. Atas dasar ini, mudah untuk menyiapkan protokol untuk komunikasi yang aman dengan Jim's Sporting Goods.
 
 Distribusi kunci kini menjadi jauh lebih sederhana untuk Jim's Sporting Goods. Tidak sulit untuk melihat bahwa manajemen kunci juga telah menjadi sangat disederhanakan. Daripada harus menyimpan ribuan kunci, Jim's Sporting Goods hanya perlu menyimpan kunci privat yang memungkinkannya untuk membuat tanda tangan untuk kunci publik pada sertifikat SSL-nya. Setiap kali pelanggan datang ke situs Jim's Sporting Goods, mereka dapat membuat sesi komunikasi yang aman dari kunci publik ini. Pelanggan juga tidak perlu menyimpan informasi apa pun (selain kunci publik dari otoritas sertifikat yang diakui di sistem operasi dan browser mereka).
 
@@ -1949,7 +1949,7 @@ Pada bab ini, saya akan menghilangkan beberapa misteri seputar kriptografi asime
 
 Menambahkan kedalaman ini ke dalam diskusi kita bukanlah tugas yang mudah. Hal ini membutuhkan pengenalan beberapa teorema dan proposisi teori bilangan. Tetapi jangan biarkan matematika menghalangi Anda. Mengerjakan diskusi ini akan secara signifikan meningkatkan pemahaman Anda tentang apa yang mendasari kriptografi asimetris dan merupakan sebuah investasi yang berharga.
 
-Sekarang mari kita bahas masalah anjak piutang.
+Sekarang mari kita beralih terlebih dahulu ke masalah faktorisasi.
 
 ___
 
@@ -2012,7 +2012,7 @@ Sebagai permulaan, anggaplah komputer mencoba untuk menyelesaikan masalah dengan
 
 Bahkan jika Anda mengambil semua komputer di planet ini dan meminta mereka mencoba menemukan dan menguji bilangan prima 1024-bit dengan cara ini, peluang 1 banding 1 miliar untuk berhasil menemukan faktor prima dari $N$ akan membutuhkan periode perhitungan yang jauh lebih lama daripada usia alam semesta.
 
-Sekarang dalam praktiknya, komputer dapat melakukan lebih baik daripada prosedur kasar yang baru saja dijelaskan. Ada beberapa algoritma yang dapat digunakan komputer untuk melakukan faktorisasi dengan lebih cepat. Akan tetapi, intinya adalah bahwa bahkan dengan menggunakan algoritma-algoritma yang lebih efisien ini, tugas komputer masih tidak dapat dilakukan secara komputasi. [3]
+Sekarang dalam praktiknya, komputer dapat melakukan lebih baik daripada prosedur kasar yang baru saja dijelaskan. Ada beberapa algoritma yang dapat digunakan komputer untuk melakukan faktorisasi dengan lebih cepat. Namun, intinya adalah bahwa bahkan dengan menggunakan algoritma yang lebih efisien ini, tugas komputer masih tidak layak secara komputasi. [3]
 
 Yang penting, kesulitan dari faktorisasi di bawah kondisi yang baru saja dijelaskan bertumpu pada asumsi bahwa tidak ada algoritma yang efisien secara komputasi untuk menghitung faktor prima. Kami tidak dapat membuktikan bahwa algoritma yang efisien tidak ada. Namun demikian, asumsi ini sangat masuk akal: meskipun telah dilakukan upaya ekstensif selama ratusan tahun, kami belum menemukan algoritma yang efisien secara komputasi.
 
@@ -2183,7 +2183,7 @@ Akan tetapi, kita mungkin dapat secara tidak langsung menghitung $d$ dari urutan
 
 Akhirnya, urutan dapat dihitung secara tidak langsung dengan faktor prima $p$ dan $q$, sehingga pada akhirnya kita dapat menghitung $d$. Tetapi dengan asumsi, nilai $p$ dan $q$ juga tidak diberikan kepada kita.
 
-Sebenarnya, meskipun masalah anjak piutang dalam masalah RSA sulit, kita tidak dapat membuktikan bahwa masalah RSA juga sulit. Mungkin saja ada cara lain untuk menyelesaikan masalah RSA selain melalui pemfaktoran. Namun, secara umum diterima dan diasumsikan bahwa jika masalah pemfaktoran dalam masalah RSA adalah sulit, maka masalah RSA itu sendiri juga sulit.
+Secara tegas, bahkan jika masalah pemfaktoran dalam suatu masalah RSA itu sulit, kita tidak dapat membuktikan bahwa masalah RSA itu sendiri juga sulit. Mungkin saja ada cara lain untuk menyelesaikan masalah RSA selain melalui pemfaktoran. Namun, secara umum diterima dan diasumsikan bahwa jika masalah pemfaktoran dalam masalah RSA adalah sulit, maka masalah RSA itu sendiri juga sulit.
 
 Jika masalah RSA memang sulit, maka ia akan menghasilkan sebuah fungsi satu arah dengan sebuah pintu jebakan. Fungsi di sini adalah $f(g) = g^e \mod N$. Dengan pengetahuan tentang $f(g)$, siapa pun dapat dengan mudah menghitung sebuah nilai $y$ untuk sebuah nilai $g = x$ tertentu. Namun, secara praktis tidak mungkin untuk menghitung nilai tertentu $x$ hanya dengan mengetahui nilai $y$ dan fungsi $f(g)$. Pengecualiannya adalah ketika Anda diberikan sebuah informasi $d$, yaitu pintu jebakan. Dalam hal ini, Anda cukup menghitung $y^d$ untuk menghasilkan $x$.
 
@@ -2224,7 +2224,7 @@ Siapapun yang ingin mengirimkan sebuah pesan $m$ yang merupakan sebuah elemen da
 
 Anda dapat mencoba membuat skema tanda tangan digital dengan cara yang sama. Misalkan Anda ingin mengirimkan pesan $m$ kepada seseorang dengan tanda tangan digital $S$. Anda dapat mengatur $S = m^d \mod N$ dan mengirimkan pasangan $(m,S)$ kepada penerima. Siapa pun dapat memverifikasi tanda tangan digital hanya dengan memeriksa apakah $S^e \mod N = m \mod N$. Akan tetapi, penyerang mana pun akan mengalami kesulitan untuk membuat $S$ yang valid untuk sebuah pesan, karena mereka tidak memiliki $d$.
 
-Sayangnya, mengubah apa yang merupakan masalah yang sulit, yaitu masalah RSA, menjadi sebuah skema kriptografi tidak semudah ini. Untuk skema enkripsi yang mudah, Anda hanya dapat memilih coprimes dari $N$ sebagai pesan Anda. Hal ini tidak memberikan kita banyak kemungkinan pesan, tentu saja tidak cukup untuk komunikasi standar. Sebagai tambahan, pesan-pesan ini harus dipilih secara acak. Hal ini tampaknya agak tidak praktis. Akhirnya, setiap pesan yang dipilih dua kali akan menghasilkan ciphertext yang sama persis. Hal ini sangat tidak diinginkan dalam skema enkripsi apapun dan tidak memenuhi standar keamanan modern yang ketat dalam enkripsi.
+Sayangnya, mengubah masalah RSA yang memang sudah sulit menjadi sebuah skema kriptografi tidaklah sesederhana itu. Untuk skema enkripsi yang mudah, Anda hanya dapat memilih coprimes dari $N$ sebagai pesan Anda. Hal ini tidak memberikan kita banyak kemungkinan pesan, tentu saja tidak cukup untuk komunikasi standar. Sebagai tambahan, pesan-pesan ini harus dipilih secara acak. Hal ini tampaknya agak tidak praktis. Akhirnya, setiap pesan yang dipilih dua kali akan menghasilkan ciphertext yang sama persis. Hal ini sangat tidak diinginkan dalam skema enkripsi apapun dan tidak memenuhi standar keamanan modern yang ketat dalam enkripsi.
 
 Masalahnya menjadi lebih buruk lagi untuk skema tanda tangan digital yang sederhana. Pada saat ini, setiap penyerang dapat dengan mudah memalsukan tanda tangan digital hanya dengan pertama-tama memilih sebuah coprime sebesar $N$ sebagai tanda tangan dan kemudian menghitung pesan asli yang sesuai. Hal ini jelas melanggar persyaratan eksistensial yang tidak dapat dipalsukan.
 

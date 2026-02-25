@@ -135,10 +135,10 @@ Liquid 依赖于一个由可信参与者（交易所、公认的比特币公司�
 
 
 
-- 适用于安卓：
+- 安卓：
     - 从 Google Play 商店下载 [Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet)。
     - 替代方案：通过 [Blockstream 官方 GitHub](https://github.com/Blockstream/green_android) 上提供的 APK 文件进行安装。
-- 适用于 **iOS**：
+- **iOS**：
     - 从 App Store 下载 [Blockstream App](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590)。
 - **注意**：请务必从官方渠道下载，以避免欺诈性应用。**
 
@@ -281,7 +281,7 @@ Liquid 依赖于一个由可信参与者（交易所、公认的比特币公司�
 
 
 
-**!这一点至关重要**。以下是关于备份的更多信息 ：
+**!这一点至关重要**。以下是关于备份的更多信息：
 
 https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
@@ -562,9 +562,9 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - 区块浏览器：
- - 链上： **[Mempool.space](https://Mempool.space/)**
- - Liquid： **[Blockstream Info](https://blockstream.info/Liquid)**
- - 闪电： **[1ML(Lightning Network)](https://1ml.com/)**
+ - **链上：**[Mempool.space](https://Mempool.space/)**
+ - **Liquid：**[Blockstream Info](https://blockstream.info/Liquid)**
+ - **闪电：**[1ML(Lightning Network)](https://1ml.com/)**
 
 
 

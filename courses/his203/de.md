@@ -724,7 +724,7 @@ Einige einzelne Verluste waren [hoch](https://bitcointalk.org/index.php?topic=33
 
 
 
-Trotz dieses Vertrauensverlustes gewannen die Wallet der Verwahrstellen weiter an Popularität. Dies war der Fall bei InstaWallet, das [seit April](https://bitcointalk.org/index.php?topic=6785.msg99378#msg99378) existierte. Als Reaktion darauf startete Bitcoin Consultancy [im August](https://bitcointalk.org/index.php?topic=35599.msg439954#msg439954) seinen eigenen Dienst Vibanko.
+Trotz dieses Vertrauensverlustes gewannen die Wallet der Verwahrstellen weiter an Popularität. Dies war der Fall bei Instawallet, das [seit April](https://bitcointalk.org/index.php?topic=6785.msg99378#msg99378) existierte. Als Reaktion darauf startete Bitcoin Consultancy [im August](https://bitcointalk.org/index.php?topic=35599.msg439954#msg439954) seinen eigenen Dienst Vibanko.
 
 
 
@@ -1329,15 +1329,15 @@ Darüber hinaus wurde dieser wirtschaftliche Fortschritt von einer technischen E
 
 
 
-Der Wilde Westen des Finanzwesens war eine Zeit, in der Bitcoin auf ein breiteres Publikum ausgeweitet wurde, das weniger computerkundig und nicht bereit war, ein schweres Programm auf einem festen Computer auszuführen. Aus diesem Grund war es eine Zeit, in der die Benutzerfreundlichkeit verbessert wurde, wie das Auftauchen von leichtgewichtigen Wallet und die Vervielfachung der Möglichkeiten, Bitcoins zu speichern, zeigt.
+Der Wilde Westen des Finanzwesens war eine Zeit, in der Bitcoin auf ein breiteres Publikum ausgeweitet wurde, das weniger computerkundig und nicht bereit war, ein Programm auf einem festen Computer auszuführen. Aus diesem Grund war es eine Zeit, in der die Benutzerfreundlichkeit verbessert wurde, wie das Auftauchen von leichtgewichtigen Wallets und die Vervielfachung der Möglichkeiten, Bitcoins zu speichern, zeigt.
 
 
 
-Als Satoshi im Dezember 2010 in den Ruhestand ging, konnten Neueinsteiger nur zwischen der Hauptsoftware und Verwahrungsanwendungen wie MyBitcoin wählen. Doch ab 2011 erschienen alternative Lösungen. Leichtgewichtige Software-Wallet wie *Bitcoin, Wallet für Android* und Electrum führten eine vereinfachte Zahlungsverifizierung ein. Web-Wallets, wie Blockchain.info, ermöglichten die Verwaltung von Geldern über einen Browser. Papier-Wallet boten die Möglichkeit, Gelder offline zu speichern. Einige Enthusiasten, wie der emblematische Casascius, entwickelten physische Träger, die eine Art Verkörperung der virtuellen Einheiten in der realen Welt darstellten.
+Als Satoshi im Dezember 2010 in den Ruhestand ging, konnten Neueinsteiger nur zwischen der Hauptsoftware und Verwahrungsanwendungen wie MyBitcoin wählen. Doch ab 2011 erschienen alternative Lösungen. Leichtgewichtige Software-Wallets wie *Bitcoin, Wallet für Android* und Electrum führten eine vereinfachte Zahlungsverifizierung ein. Web-Wallets, wie Blockchain.info, ermöglichten die Verwaltung von Geldern über einen Browser. Papier-Wallet boten die Möglichkeit, Gelder offline zu speichern. Einige Enthusiasten, wie der emblematische Casascius, entwickelten physische Träger, die eine Art Verkörperung der virtuellen Einheiten in der realen Welt darstellten.
 
 
 
-Die persönliche Verwahrung von Bitcoins war ein komplexes Problem, das dem Dilemma zwischen Verlust und Diebstahl unterlag. Um seine Bitcoins zu besitzen, musste man sowohl den Zugang zu seinen privaten Schlüsseln aufrechterhalten als auch verhindern, dass andere auf sie zugreifen - zwei Bedingungen, die nie wirklich gleichzeitig erfüllt werden konnten. So macht ein zu leichter Zugang den Wallet zu anfällig für Diebstahl, wie der Hack der 25.000 BTC von Allinvain im Juni 2011 zeigte. Umgekehrt macht ein zu schwieriger Zugang den Verlust von Bitcoins wahrscheinlicher, wie bei den etwa 7.000 BTC von Stefan Thomas [verloren](https://bitcointalk.org/index.php?topic=5400.msg259238#msg259238) aufgrund einer zu komplexen Verschlüsselung zu sehen war. Es sind diese Einschränkungen, die die Wallet-Designer versucht haben, anzugehen.
+Die persönliche Verwahrung von Bitcoins war ein komplexes Problem, das dem Dilemma zwischen Verlust und Diebstahl unterlag. Um seine Bitcoins zu besitzen, musste man sowohl den Zugang zu seinen privaten Schlüsseln aufrechterhalten als auch verhindern, dass andere auf sie zugreifen - zwei Bedingungen, die nie wirklich gleichzeitig erfüllt werden konnten. So macht ein zu leichter Zugang das Wallet zu anfällig für Diebstahl, wie der Hack der 25.000 BTC von Allinvain im Juni 2011 zeigte. Umgekehrt macht ein zu schwieriger Zugang den Verlust von Bitcoins wahrscheinlicher, wie bei den etwa 7.000 BTC von Stefan Thomas [verloren](https://bitcointalk.org/index.php?topic=5400.msg259238#msg259238) aufgrund einer zu komplexen Verschlüsselung zu sehen war. Es sind diese Einschränkungen, die die Wallet-Designer versucht haben, anzugehen.
 
 
 In diesem Kapitel werden wir die verschiedenen Arten der Nutzung von Bitcoin untersuchen, die im genannten Zeitraum entstanden sind. Zunächst werden wir auf verwahrende Anwendungen und alternative Softwareimplementierungen eingehen. Dann werden wir den Fall der leichtgewichtigen Wallet genauer untersuchen, der unter anderem zur Entwicklung einer deterministischen Struktur für die Speicherung privater Schlüssel führte. Wir werden Papier-Wallets und physische Formen der Repräsentation privater Schlüssel vorstellen, die dazu dienten, Kryptowährungen vor Hacks zu schützen. Abschließend werden wir das Aufkommen der ersten Bitcoin-Mixing-Dienste erörtern, die eine verbesserte Privatsphäre der Nutzer ermöglichten.
@@ -1348,27 +1348,27 @@ In diesem Kapitel werden wir die verschiedenen Arten der Nutzung von Bitcoin unt
 
 
 
-Im Jahr 2011 war InstaWallet nach dem berüchtigten MyBitcoin die beliebteste Depotanwendung. Es handelte sich um eine einfach zu bedienende Webanwendung (https://bitcointalk.org/index.php?topic=6785.msg99378#msg99378), die am 29. April 2011 von Jan Vornberger, alias Jav, einem jungen deutschen Entwickler, gestartet wurde. Es handelte sich um einen Verwahrungsdienst: Die Gelder wurden "serverseitig" gehalten, was bedeutet, dass Jav sie verwaltete. Es war keine Registrierung erforderlich; der Zugang erfolgte über eine URL, z. B. `https://instawallet.org/w/rq2SB02ai6BnWaEBywAlP52cw7qwUAA`, die bei der ersten Interaktion mit dem Dienst generated war und im Webbrowser gespeichert wurde. Den Nutzern wurde eine Bitcoin-Adresse zugewiesen, die es ihnen ermöglichte, Geld zu senden und zu empfangen. Überweisungen zwischen InstaWallet-Nutzern wurden intern verarbeitet und erfolgten daher sofort. Darüber hinaus hat der Dienst ab Ende Juli [integriert](https://bitcointalk.org/index.php?topic=32818.msg409974#msg409974) ein Zertifizierungsverfahren (die so genannte "grüne Adresse"), mit dem anderen Marktteilnehmern nachgewiesen werden kann, dass eine Transaktion von InstaWallet ausgestellt wurde, um eine schnellere Bearbeitung im Rahmen einer Vertrauensbeziehung zu gewährleisten.
+Im Jahr 2011 war Instawallet nach dem berüchtigten MyBitcoin die beliebteste Depotanwendung. Es [handelte](https://bitcointalk.org/index.php?topic=6785.msg99378#msg99378) sich um eine einfach zu bedienende Webanwendung, die am 29. April 2011 von Jan Vornberger, alias Jav, einem jungen deutschen Entwickler, gestartet wurde. Es handelte sich um einen Verwahrungsdienst: Die Gelder wurden "serverseitig" gehalten, was bedeutet, dass Jav sie verwaltete. Es war keine Registrierung erforderlich; der Zugang erfolgte über eine URL, z. B. `https://instawallet.org/w/rq2SB02ai6BnWaEBywAlP52cw7qwUAA`, die bei der ersten Interaktion mit dem Dienst generatiert und im Webbrowser gespeichert wurde. Den Nutzern wurde eine Bitcoin-Adresse zugewiesen, die es ihnen ermöglichte, Geld zu senden und zu empfangen. Überweisungen zwischen Instawallet-Nutzern wurden intern verarbeitet und erfolgten daher sofort. Darüber hinaus hat der Dienst ab Ende Juli [integriert](https://bitcointalk.org/index.php?topic=32818.msg409974#msg409974) ein Zertifizierungsverfahren (die so genannte "grüne Adresse"), mit dem anderen Marktteilnehmern nachgewiesen werden kann, dass eine Transaktion von Instawallet ausgestellt wurde, um eine schnellere Bearbeitung im Rahmen einer Vertrauensbeziehung zu gewährleisten.
 
 
 
-![Interface d'InstaWallet en juin 2012](assets/en/032.webp)
+![Interface d'Instawallet en juin 2012](assets/en/032.webp)
 
 
 
-*Interface von InstaWallet im Juni 2012 (Quelle: [Bitcoin Magazin](https://web.archive.org/web/20120922131335/http://bitcoinmagazine.net/bitcoin-wallet-options/))*
+*Interface von Instawallet im Juni 2012 (Quelle: [Bitcoin Magazin](https://web.archive.org/web/20120922131335/http://bitcoinmagazine.net/bitcoin-wallet-options/))*
 
 
 
-Am 2. März 2012 [kündigte](https://bitcointalk.org/index.php?topic=67085.msg780164#msg780164) Jav die Schließung von InstaWallet mit den Worten an: "Ich habe nicht die Zeit und die Ressourcen, um die Seite weiterhin zu unterstützen". Der Dienst wurde jedoch einige Tage später von Paymium [wiederaufgenommen](https://bitcointalk.org/index.php?topic=67602.msg786523#msg786523), der ihn bis zu seinem fatalen Hack im April 2013 am Laufen hielt.
+Am 2. März 2012 [kündigte](https://bitcointalk.org/index.php?topic=67085.msg780164#msg780164) Jav die Schließung von Instawallet mit den Worten an: "Ich habe nicht die Zeit und die Ressourcen, um die Seite weiterhin zu unterstützen". Der Dienst wurde jedoch einige Tage später von Paymium [wiederaufgenommen](https://bitcointalk.org/index.php?topic=67602.msg786523#msg786523), der ihn bis zu seinem fatalen Hack im April 2013 am Laufen hielt.
 
 
 
-Paymium SAS war ein französisches Unternehmen (https://web.archive.org/web/20111120231150/http://www.paymium.com/), das im Juni 2011 von Gonzague Grandval, Pierre Noizat (auch bekannt als Boussac im Forum) und David François gegründet wurde. Es konzentrierte sich zunächst auf den Zahlungsverkehr und sein Hauptprodukt war eine Anwendung zur Verhinderung von Bankkartenbetrug. Dank der Anziehungskraft von Pierre Noizat und David François auf Bitcoin wurde es nach und nach zu einem Unternehmen, das sich auf Bitcoin konzentriert.
+Paymium SAS [war](https://web.archive.org/web/20111120231150/http://www.paymium.com/) ein französisches Unternehmen , das im Juni 2011 von Gonzague Grandval, Pierre Noizat (auch bekannt als Boussac im Forum) und David François gegründet wurde. Es konzentrierte sich zunächst auf den Zahlungsverkehr und sein Hauptprodukt war eine Anwendung zur Verhinderung von Bankkartenbetrug. Dank der Anziehungskraft von Pierre Noizat und David François auf Bitcoin wurde es nach und nach zu einem Unternehmen, das sich auf Bitcoin konzentriert.
 
 
 
-Anfang 2012 entwickelte Paymium seine eigene Custodial-App: Paytunia. Die Paytunia-App wurde wie folgt beschrieben: "Paytunia ist eine bahnbrechende Anwendung, die auf dem quelloffenen Bitcoin-Protokoll für sichere, einfache Online-Zahlungen und Geldtransfers basiert"). Sie wurde [auf den Markt gebracht](https://bitcointalk.org/index.php?topic=75550.msg836770#msg836770) im April 2012 auf Android. Nutzer von Bitcoin-Central (der von David François betriebenen Geldwechselplattform) [konnten](https://web.archive.org/web/20120514233205/https://bitcoin-central.net/) auch mit ihrem bestehenden Konto darauf zugreifen, da beide Dienste im Hintergrund das gleiche System nutzen. Wie bei InstaWallet erfolgten die Überweisungen zwischen Paytunia-Nutzern [sofort](https://bitcointalk.org/index.php?topic=75550.msg836948#msg836948).
+Anfang 2012 entwickelte Paymium seine eigene Custodial-App: Paytunia. Die Paytunia-App wurde wie folgt beschrieben: "Paytunia ist eine bahnbrechende Anwendung, die auf dem quelloffenen Bitcoin-Protokoll für sichere, einfache Online-Zahlungen und Geldtransfers basiert"). Sie wurde [auf den Markt gebracht](https://bitcointalk.org/index.php?topic=75550.msg836770#msg836770) im April 2012 auf Android. Nutzer von Bitcoin-Central (der von David François betriebenen Geldwechselplattform) [konnten](https://web.archive.org/web/20120514233205/https://bitcoin-central.net/) auch mit ihrem bestehenden Konto darauf zugreifen, da beide Dienste im Hintergrund das gleiche System nutzen. Wie bei Instawallet erfolgten die Überweisungen zwischen Paytunia-Nutzern [sofort](https://bitcointalk.org/index.php?topic=75550.msg836948#msg836948).
 
 
 
@@ -1388,7 +1388,7 @@ Es war auch ein guter Zeitpunkt, um das Bitcoin-Protokoll neu zu schreiben. Die 
 
 
 
-Satoshi Nakamoto war im Wesentlichen dagegen, das Protokoll umzuschreiben, um den Betrieb von mining nicht zu gefährden. In einer [Nachricht](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611), die im Juni 2010 im Forum veröffentlicht wurde, schrieb er:
+Satoshi Nakamoto war im Wesentlichen dagegen, das Protokoll umzuschreiben, um den Betrieb von Mining nicht zu gefährden. In einer [Nachricht](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611), die im Juni 2010 im Forum veröffentlicht wurde, schrieb er:
 
 
 > "Ich glaube nicht, dass eine zweite, kompatible Implementierung von Bitcoin jemals eine gute Idee sein wird. Ein Großteil des Designs hängt davon ab, dass alle Knoten exakt identische Ergebnisse im Gleichschritt erhalten, so dass eine zweite Implementierung eine Gefahr für das Netzwerk darstellen würde. Die MIT-Lizenz ist mit allen anderen Lizenzen und kommerziellen Nutzungen kompatibel, so dass es aus lizenzrechtlicher Sicht keinen Grund gibt, sie umzuschreiben."
@@ -1401,7 +1401,7 @@ Die Software-Implementierung von Mike Hearn ist BitCoinJ. Dabei handelt es sich 
 
 
 
-Die Neufassung des Bitcoin-Protokolls war damit noch nicht abgeschlossen. Im Juli 2011, nach dem Ausscheiden von Satoshi, starteten Amir Taaki und Patrick Strateman von Bitcoin Consultancy [https://bitcointalk.org/index.php?topic=30646.msg384791#msg384791] Libbitcoin, eine C++-Implementierung, die auf größtmögliche Erweiterbarkeit, Skalierbarkeit und Konfigurierbarkeit abzielt. Ihr Ziel war es, "Bitcoin neu zu schreiben, es super-pluggable, sehr einfach zu machen und alles auf jeder Ebene zu hacken, und sehr konfigurierbar". Der Code wird unter einer offenen Copyleft-Lizenz (AGPL) veröffentlicht, die diejenigen, die die Software weiterverwenden, dazu verpflichtet, ihre Arbeit unter derselben Lizenz zu veröffentlichen.
+Die Neufassung des Bitcoin-Protokolls war damit noch nicht abgeschlossen. Im Juli 2011, nach dem Ausscheiden von Satoshi, [starteten](https://bitcointalk.org/index.php?topic=30646.msg384791#msg384791) Amir Taaki und Patrick Strateman von Bitcoin Consultancy Libbitcoin, eine C++-Implementierung, die auf größtmögliche Erweiterbarkeit, Skalierbarkeit und Konfigurierbarkeit abzielt. Ihr Ziel war es, "Bitcoin neu zu schreiben, es super-pluggable, sehr einfach zu machen und alles auf jeder Ebene zu hacken, und sehr konfigurierbar". Der Code wird unter einer offenen Copyleft-Lizenz (AGPL) veröffentlicht, die diejenigen, die die Software weiterverwenden, dazu verpflichtet, ihre Arbeit unter derselben Lizenz zu veröffentlichen.
 
 
 
@@ -1413,11 +1413,11 @@ Die Neufassung des Bitcoin-Protokolls war damit noch nicht abgeschlossen. Im Jul
 
 
 
-Im Oktober gelang es der Software [managed](https://bitcointalk.org/index.php?topic=30646.msg553961#msg553961), eine vollständige Überprüfung der Blockchain durchzuführen. Amir Taaki hat auch ein "Zen von Libbitcoin" verfasst, das dem Zen von Python nachempfunden ist, einer Sammlung von Prinzipien, die das Design der Programmiersprache Python beeinflusst haben. Außerdem wird er im September 2013 ein [Manifest](https://libbitcoin.dyne.org/libbitcoin-manifesto.pdf) (*The Libbitcoin Manifesto*) veröffentlichen.
+Im Oktober [gelang](https://bitcointalk.org/index.php?topic=30646.msg553961#msg553961) es der Software, eine vollständige Überprüfung der Blockchain durchzuführen. Amir Taaki hat auch ein "Zen von Libbitcoin" verfasst, das dem Zen von Python nachempfunden ist, einer Sammlung von Prinzipien, die das Design der Programmiersprache Python beeinflusst haben. Außerdem wird er im September 2013 ein [Manifest](https://libbitcoin.dyne.org/libbitcoin-manifesto.pdf) (*The Libbitcoin Manifesto*) veröffentlichen.
 
 
 
-### Leichte Wallets
+### Leichtgewichtige Wallets
 
 
 
@@ -1449,7 +1449,7 @@ Amir [war](https://bitcointalk.org/index.php?topic=1568.msg19443#msg19443) selbs
 
 
 
-Die andere, bequemere Idee war die Verwendung einer vereinfachten Zahlungsverifizierung (SPV), die es ermöglichte, Transaktionen als zur Blockchain gehörig zu verifizieren, ohne den gesamten Datensatz herunterladen zu müssen. Am 11. März 2011, ein paar Tage nach der Veröffentlichung von BitCoinJ, [enthüllte](https://bitcointalk.org/index.php?topic=4384.msg64142#msg64142) ein Berliner Entwickler namens Andreas Schildbach, im Forum Goonie genannt, den Prototyp eines Wallet für Telefone mit Android, basierend auf Mike Hearns Implementierung. Unter dem bescheidenen Namen *Bitcoin Wallet für Android* wurde es das erste funktionierende Modell eines leichtgewichtigen Wallet für Mobiltelefone.
+Die andere, bequemere Idee war die Verwendung einer vereinfachten Zahlungsverifizierung (SPV), die es ermöglichte, Transaktionen als zur Blockchain gehörig zu verifizieren, ohne den gesamten Datensatz herunterladen zu müssen. Am 11. März 2011, ein paar Tage nach der Veröffentlichung von BitCoinJ, [enthüllte](https://bitcointalk.org/index.php?topic=4384.msg64142#msg64142) ein Berliner Entwickler namens Andreas Schildbach, im Forum Goonie genannt, den Prototyp eines Wallets für Android-Telefone, basierend auf Mike Hearns Implementierung. Unter dem bescheidenen Namen *Bitcoin Wallet für Android* wurde es das erste funktionierende Modell eines leichtgewichtigen Wallet für Mobiltelefone.
 
 
 
@@ -1469,11 +1469,11 @@ Ein weiteres auf BitCoinJ basierendes Wallet für den PC war MultiBit, das im Se
 
 
 
-Die Bemühungen zur Verbesserung der Bitcoin-Benutzbarkeit führten auch zum Aufkommen *deterministischer Wallet*. Dabei handelt es sich um Wallet, bei denen die Schlüsselableitung angewandt wird: Anstatt einzeln nach dem Zufallsprinzip abgeleitet zu werden, wie es in der Hauptsoftware der Fall war, werden die privaten Schlüssel deterministisch aus Informationen (seed genannt) abgeleitet, wobei kryptografische Funktionen verwendet werden. Die Kenntnis dieser Informationen ermöglicht es dem Benutzer, alle seine Gelder wiederherzustellen, was die Wallet-Sicherung erheblich vereinfacht. Es besteht keine Notwendigkeit, die Datei `Wallet.dat` immer und immer wieder zu speichern!
+Die Bemühungen zur Verbesserung der Bitcoin-Benutzbarkeit führten auch zum Aufkommen *deterministischer Wallets*. Dabei handelt es sich um Wallets, bei denen die Schlüsselableitung angewandt wird: Anstatt einzeln nach dem Zufallsprinzip abgeleitet zu werden, wie es in der Hauptsoftware der Fall war, werden die privaten Schlüssel deterministisch aus Informationen (seed genannt) abgeleitet, wobei kryptografische Funktionen verwendet werden. Die Kenntnis dieser Informationen ermöglicht es dem Benutzer, alle seine Gelder wiederherzustellen, was die Wallet-Sicherung erheblich vereinfacht. Es besteht keine Notwendigkeit, die Datei `Wallet.dat` immer und immer wieder zu speichern!
 
 
 
-Deterministische Wallet sind größtenteils das Geistesprodukt des amerikanischen Entwicklers Gregory Maxwell. Als Befürworter freier Software war er seit 2004 [Mitwirkender](https://commons.wikimedia.org/wiki/User:Gmaxwell) bei Wikipedia und arbeitete für die Stiftung Xiph.org, wo er an der Entwicklung des Audiocodecs Opus beteiligt war. Im Mai 2011 begann er, sich mit Bitcoin zu beschäftigen, und [versuchte sich](https://bitcointalk.org/index.php?topic=7171.msg119591#msg119591) an mining. Er schrieb auch viel und wurde schnell sehr aktiv im Forum und im IRC-Kanal \#bitcoin-dev, wo er das Pseudonym Gmaxwell verwendete.
+Deterministische Wallets sind größtenteils das Geistesprodukt des amerikanischen Entwicklers Gregory Maxwell. Als Befürworter freier Software war er seit 2004 [Mitwirkender](https://commons.wikimedia.org/wiki/User:Gmaxwell) bei Wikipedia und arbeitete für die Stiftung Xiph.org, wo er an der Entwicklung des Audiocodecs Opus beteiligt war. Im Mai 2011 begann er, sich mit Bitcoin zu beschäftigen, und [versuchte sich](https://bitcointalk.org/index.php?topic=7171.msg119591#msg119591) an Mining. Er schrieb auch viel und wurde schnell sehr aktiv im Forum und im IRC-Kanal \#bitcoin-dev, wo er das Pseudonym Gmaxwell verwendete.
 
 
 
@@ -1489,13 +1489,13 @@ Gregory Maxwell hatte viele Ideen, wie man die Verwendung von Bitcoin verbessern
 
 
 
-> "Bitcoin sollte wirklich deterministische Wallets anbieten und standardmäßig verwenden.   Die zusätzliche Sicherheit der aktuellen Vor-generated ist ziemlich gering, wenn man bedenkt, wie die meisten Leute Bitcoin verwenden, und die Haftung für Schäden aufgrund unzureichender Backups und des erhöhten Drucks, einen einzelnen Wallet online zu halten, ist enorm."
+> "Bitcoin sollte wirklich deterministische Wallets anbieten und standardmäßig verwenden. Die zusätzliche Sicherheit der aktuellen Vor-Generierten ist ziemlich gering, wenn man bedenkt, wie die meisten Leute Bitcoin verwenden, und die Haftung für Schäden aufgrund unzureichender Backups und des erhöhten Drucks, einen einzelnen Wallet online zu halten, ist enorm."
 
-Zwei Arten der Ableitung wurden ins Auge gefasst. Die eine Art (Typ 1) war einfach und generierte private Schlüssel direkt von der seed. Die andere (Typ 2) war komplexer, ermöglichte aber die Ableitung von Adressen aus einem öffentlichen Hauptschlüssel, der von der seed stammt, ohne auf die seed selbst zuzugreifen. Dies ermöglichte es der Zahlungsverarbeitungssoftware, für jede Transaktion eine generate-Adresse zu erzeugen, ohne die privaten Schlüssel preiszugeben.
+Zwei Arten der Ableitung wurden ins Auge gefasst. Die eine Art (Typ 1) war einfach und generierte private Schlüssel direkt vom Seed. Die andere (Typ 2) war komplexer, ermöglichte aber die Ableitung von Adressen aus einem öffentlichen Hauptschlüssel, der vom Seed stammt, ohne auf den Seed selbst zuzugreifen. Dies ermöglichte es der Zahlungsverarbeitungssoftware, für jede Transaktion eine generatierte Adresse zu erzeugen, ohne die privaten Schlüssel preiszugeben.
 
 
 
-Später, im Februar 2012, erfolgte die Standardisierung mit der [Veröffentlichung](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) von [BIP](https://planb.academy/resources/glossary/bip) 32. Darin wurde die allgemeine Struktur von *Hierarchical Deterministic Wallets*, HD Wallets, beschrieben, bei denen Ableitungen methodisch zur Ableitung von seed-Schlüsseln und Adressen verwendet werden. Sie wurde im Laufe der Jahre schrittweise von den meisten Wallet übernommen.
+Später, im Februar 2012, erfolgte die Standardisierung mit der [Veröffentlichung](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) von [BIP](https://planb.academy/resources/glossary/bip) 32. Darin wurde die allgemeine Struktur von *Hierarchical Deterministic Wallets*, HD Wallets, beschrieben, bei denen Ableitungen methodisch zur Ableitung von Seed-Schlüsseln und Adressen verwendet werden. Sie wurde im Laufe der Jahre schrittweise von den meisten Wallet übernommen.
 
 
 
@@ -3003,7 +3003,7 @@ Vertreter von BitInstant [waren anwesend](https://web.archive.org/web/2012070102
 
 
 
-Am wichtigsten war jedoch, dass Mitglieder von BitInstant einen Stand mit dem Namen "*Bernankes Bitcoin Exchange*" besetzten, an dem sie den Umtausch mit dem Dollar abwickelten und den Neugierigen beibrachten, wie man Bitcoin verwendet. Sie zeigten den Leuten, wie man mit BitcoinSpinner, Blockchain.info oder InstaWallet problemlos Bitcoin annehmen und ausgeben kann. Im Laufe der Woche verkauften sie Bitcoins im Wert von 2.500 Dollar und Coin von Casascius im Wert von einigen hundert Dollar, die für Numismatikliebhaber interessant sind.
+Am wichtigsten war jedoch, dass Mitglieder von BitInstant einen Stand mit dem Namen "*Bernankes Bitcoin Exchange*" besetzten, an dem sie den Umtausch mit dem Dollar abwickelten und den Neugierigen beibrachten, wie man Bitcoin verwendet. Sie zeigten den Leuten, wie man mit BitcoinSpinner, Blockchain.info oder Instawallet problemlos Bitcoin annehmen und ausgeben kann. Im Laufe der Woche verkauften sie Bitcoins im Wert von 2.500 Dollar und Coin von Casascius im Wert von einigen hundert Dollar, die für Numismatikliebhaber interessant sind.
 
 
 

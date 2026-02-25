@@ -254,7 +254,8 @@ Mises añade que la mejora de la condición humana fue así posible por la acumu
 > En cuanto a la historiografía marxista, también podemos referirnos a Friedrich Hayek en _Capitalismo y los Historiadores_ (University of Chicago Press, 1954) y su capítulo titulado "Historia y Política". Según Hayek, no fue la industrialización lo que hizo miserables a los trabajadores, como la oscura leyenda del capitalismo propagada por el marxismo afirma. Él nota:
 > La verdadera historia de la conexión entre el capitalismo y el surgimiento del proletariado es casi lo opuesto de lo que estas teorías de la expropiación de las masas sugieren.
 > Antes de la Revolución Industrial, la mayoría de las personas vivían en sociedades rurales y dependían de la agricultura para su supervivencia. Tenían poco que vender en el mercado, lo que limitaba sus oportunidades y su nivel de vida. Todos esperaban vivir en absoluta pobreza y vislumbraban un destino similar para sus descendientes. Nadie se indignaba por una situación que parecía ser inevitable.
-> ![image](assets/es/015.webp)
+
+ ![image](assets/es/015.webp)
 
 Con la llegada de la industrialización, surgieron nuevas oportunidades, creando una creciente demanda de mano de obra. Por primera vez, personas sin tierras ni recursos significativos podían vender su trabajo a fábricas y manufacturas a cambio de un salario, asegurando seguridad para el futuro.
 
@@ -294,8 +295,8 @@ En el último capítulo de _Anatomía del Estado_ (traducido al francés como _L
 
 Refiriéndose a Albert J. Nock, Rothbard usa los términos "poder social" y "poder del estado" para designar estas dos fuerzas opuestas:
 
-- Poder social: surge de la cooperación y el ingenio de individuos libres, llevando al progreso económico y la prosperidad. Es un poder sobre la naturaleza, la capacidad creativa del hombre para transformar la naturaleza en recursos y conocimiento, para el bien colectivo de la sociedad.
-- Poder del estado: se impone a través de la coerción y la violencia, buscando controlar y explotar a la sociedad para su propio beneficio. Es un poder ejercido sobre el hombre. Consiste en "drenar los frutos de la sociedad para beneficio de líderes no productivos (de hecho, antiproductivos)."
+- Poder social: Surge de la cooperación y el ingenio de individuos libres, llevando al progreso económico y la prosperidad. Es un poder sobre la naturaleza, la capacidad creativa del hombre para transformar la naturaleza en recursos y conocimiento, para el bien colectivo de la sociedad.
+- Poder del estado: Se impone a través de la coerción y la violencia, buscando controlar y explotar a la sociedad para su propio beneficio. Es un poder ejercido sobre el hombre. Consiste en "drenar los frutos de la sociedad para beneficio de líderes no productivos (de hecho, antiproductivos)."
 
 ### El Estado como un Parásito
 
@@ -314,21 +315,22 @@ Una constitución escrita ciertamente tiene muchas ventajas, pero es un grave er
 
 Según Rothbard, la historia no es un proceso lineal, sino más bien una oscilación entre el avance del poder social y el resurgimiento del control por parte del Estado:
 
-- Periodos de libertad: cuando el poder social florece, la libertad, la paz y la prosperidad aumentan.
-- Periodos de dominación estatal: cuando el Estado gana la ventaja, llevando a la opresión, la guerra y la regresión.
+- Periodos de libertad: Cuando el poder social florece, la libertad, la paz y la prosperidad aumentan.
+- Periodos de dominación estatal: Cuando el Estado gana la ventaja, llevando a la opresión, la guerra y la regresión.
 
-Desde el siglo XVII hasta el siglo XIX, en muchos países occidentales, hubo periodos de aceleración del poder social y un aumento correspondiente en la libertad, la paz y el bienestar material. Pero Rothbard nos recuerda que el siglo XX estuvo marcado por un resurgimiento del poder del Estado, con consecuencias nefastas: un aumento en la esclavitud, la guerra y la destrucción:
+Desde el siglo XVII hasta el siglo XIX, en muchos países occidentales, hubo periodos de aceleración del poder social y un aumento correspondiente en la libertad, la paz y el bienestar material. Pero Rothbard nos recuerda que el siglo XX estuvo marcado por un resurgimiento del poder del Estado, con consecuencias nefastas: Un aumento en la esclavitud, la guerra y la destrucción:
 
 > Durante este siglo, la raza humana enfrenta, una vez más, el reinado virulento del Estado; el Estado ahora armado con el poder creativo del hombre, confiscado y pervertido para sus propios fines.
 > ¿Qué es, después de todo, una sociedad libre? Es una sociedad sin monopolio. En su obra de filosofía política, _Ética de la Libertad_ (1982), Rothbard responde: "una sociedad en la que no hay posibilidad legal de agresión coercitiva contra la persona o propiedad de un individuo". Es por esto que, según él, la filosofía política, que debe definir los principios de una sociedad justa, se reduce a una única pregunta: "¿Quién posee legítimamente qué?"
-> ![image](assets/es/019.webp)
+
+ ![image](assets/es/019.webp)
 
 Para Rothbard, el orden social puede prevalecer si es el producto de la generalización de procedimientos contractuales para el libre intercambio de derechos de propiedad, privatizando todas las actividades económicas e incluso funciones soberanas (banco central, tribunales) y recurriendo a la competencia entre agencias de protección.
 
 Y añade:
 
 > Ahora hemos probado todas las variantes del estatismo, y todas han fracasado. En todas partes del mundo occidental al comienzo del siglo XX, líderes empresariales, políticos e intelectuales habían comenzado a pedir un sistema de economía mixta "nuevo", de dominación estatal, en lugar del laissez-faire relativo del siglo anterior. Nuevas panaceas, atractivas a primera vista, como el socialismo, el estado corporativista, el estado de Bienestar-Guerra, etc., se han probado y todas han fracasado manifiestamente. Los argumentos a favor del socialismo y la planificación estatal ahora aparecen como súplicas por un sistema envejecido, agotado y fracasado. ¿Qué queda por probar sino la libertad?
->
+
 > (_Ética de la Libertad_)
 
 # Los orígenes de la libertad: Antigüedad
@@ -342,6 +344,7 @@ Y añade:
 :::video id=08751358-5a23-48ef-9c30-6a810d165c75:::
 
 La experiencia de la democracia ateniense ha dejado una marca perdurable en la historia del pensamiento político y continúa inspirando ideales de democracia y participación ciudadana en el mundo de hoy.
+
 ![image](assets/es/020.webp)
 
 La democracia ateniense se caracterizaba por un debate público animado sobre los asuntos de la ciudad, que tenía lugar principalmente en el ágora, el mercado. Este modo de operación, basado en la razón y la discusión crítica, contrastaba fuertemente con prácticas anteriores donde las leyes y costumbres se consideraban sagradas e inmutables, transmitidas por los ancestros y protegidas por los dioses.
@@ -349,12 +352,13 @@ La democracia ateniense se caracterizaba por un debate público animado sobre lo
 ### El nacimiento de la política con la ciudad
 
 La democracia ateniense representa una ruptura importante con las tradiciones pasadas. De hecho, en sociedades anteriores, no podía haber "política" en el sentido de una discusión sobre las reglas sociales, ya que estas se imponían de manera trascendente por el mito.
+
 ![image](assets/es/021.webp)
 
 El historiador Jean-Pierre Vernant escribe:
 
-> La emergencia de la polis constituye, en la historia del pensamiento griego, un evento decisivo. Ciertamente, en términos de desarrollo intelectual y en el ámbito de las instituciones, sus consecuencias completas solo se realizarían a largo plazo; la polis pasaría por múltiples etapas, diversas formas. Sin embargo, desde su advenimiento, que puede situarse entre los siglos 8 y 7, marca un comienzo, una verdadera invención; a través de ella, la vida social y las relaciones entre los hombres adquieren una nueva forma, cuya originalidad los griegos sentirían plenamente. (...) Lo que el sistema de la polis implica ante todo es una preeminencia extraordinaria del discurso sobre todos los demás instrumentos de poder. Se convierte en la herramienta política por excelencia, la clave de toda autoridad en el estado, el medio de mando y dominación sobre otros. (...) Una segunda característica de la polis es la naturaleza de plena publicidad dada a las manifestaciones más importantes de la vida social. Incluso se podría decir que la polis existe solo en la medida en que ha surgido un dominio público, en dos sentidos diferentes, pero interconectados del término: un sector de interés común, en oposición a los asuntos privados; prácticas abiertas, establecidas a plena luz del día, en oposición a procedimientos secretos. (...) De ahora en adelante, la discusión, la argumentación, la controversia se convierten en las reglas del juego intelectual, así como del juego político. El control constante de la comunidad se ejerce sobre las creaciones de la mente, así como sobre las magistraturas del estado.
->
+> La emergencia de la polis constituye, en la historia del pensamiento griego, un evento decisivo. Ciertamente, en términos de desarrollo intelectual y en el ámbito de las instituciones, sus consecuencias completas solo se realizarían a largo plazo; la polis pasaría por múltiples etapas, diversas formas. Sin embargo, desde su advenimiento, que puede situarse entre los siglos 7 y 8, marca un comienzo, una verdadera invención; a través de ella, la vida social y las relaciones entre los hombres adquieren una nueva forma, cuya originalidad los griegos sentirían plenamente. (...) Lo que el sistema de la polis implica ante todo es una preeminencia extraordinaria del discurso sobre todos los demás instrumentos de poder. Se convierte en la herramienta política por excelencia, la clave de toda autoridad en el estado, el medio de mando y dominación sobre otros. (...) Una segunda característica de la polis es la naturaleza de plena publicidad dada a las manifestaciones más importantes de la vida social. Incluso se podría decir que la polis existe solo en la medida en que ha surgido un dominio público, en dos sentidos diferentes, pero interconectados del término: un sector de interés común, en oposición a los asuntos privados; prácticas abiertas, establecidas a plena luz del día, en oposición a procedimientos secretos. (...) De ahora en adelante, la discusión, la argumentación, la controversia se convierten en las reglas del juego intelectual, así como del juego político. El control constante de la comunidad se ejerce sobre las creaciones de la mente, así como sobre las magistraturas del estado.
+
 > (Jean Pierre Vernant, _Los orígenes del pensamiento griego_, París, P.U.F, 1962)
 
 ![image](assets/es/022.webp)
@@ -366,7 +370,7 @@ Esta novedad se basa en la distinción fundamental entre dos términos en el idi
 - _Phusis_ es la ley de la naturaleza (que da la palabra "física" en francés).
 - _Nomos_ es la ley humana (un término que se encuentra en la palabra "autonomía", que significa "obedecer la propia ley").
   La Ciudad emerge con la idea de que la ley (nomos) es de origen humano, que puede ser modificada libremente por los humanos, a diferencia de la naturaleza, y puede aplicarse a todos. Los griegos se dan cuenta entonces de la autonomía del orden social y político en relación con el orden natural.
-  Esto marca la aparición de la política: la discusión continua sobre las mismas reglas de la vida social. A partir de ahora, los problemas se resolverán mediante la acción concertada y no por un orden sagrado inmutable.
+  Esto marca la aparición de la política: La discusión continua sobre las mismas reglas de la vida social. A partir de ahora, los problemas se resolverán mediante la acción concertada y no por un orden sagrado inmutable.
   Y Jean-Pierre Vernant añade:
 
 > La razón griega es aquella que, de manera positiva, reflexiva y metódica, nos permite actuar sobre los hombres, no para transformar la naturaleza. Dentro de sus límites como en sus innovaciones, es hija de la ciudad.
@@ -418,6 +422,7 @@ Según Karl Popper, debemos a los filósofos de la antigua Grecia, particularmen
 En cuanto a los primeros signos de la existencia de una actitud crítica, de una nueva libertad de pensamiento, aparecen en la crítica de Anaximandro a Tales. Este es un fenómeno bastante singular, el pensador al que Anaximandro critica es su maestro, su compatriota, uno de los Siete Sabios, el que fundó la Escuela Jónica. Según la tradición, Anaximandro era solo catorce años menor que Tales, y probablemente formuló sus críticas y presentó sus nuevos conceptos durante la vida de su maestro (parece que murieron, a unos pocos años de diferencia). Sin embargo, no se encuentra evidencia de disenso, disputa o cisma en las fuentes.
 
 ![image](assets/es/027.webp)
+
 Estos elementos indican, según él, que fue Tales quien originó esta nueva tradición de libertad, basada en una relación original entre maestro y discípulo. Tales fue capaz de tolerar la crítica y, además, estableció la tradición de reconocerla. Popper identifica aquí una ruptura con la tradición dogmática, que solo permite una única doctrina escolar, para reemplazarla con el pluralismo y el falibilismo.
 
 > Nuestros intentos de comprender y descubrir la verdad no son definitivos, sino que son capaces de mejora, nuestro conocimiento, nuestro cuerpo de doctrina son conjeturales por naturaleza, están hechos de suposiciones, hipótesis, y no de verdades ciertas y finales.

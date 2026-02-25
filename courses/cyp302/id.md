@@ -1362,9 +1362,9 @@ Skema enkripsi terautentikasi memungkinkan penerima pesan untuk memverifikasi ba
 
 Alasan utamanya adalah bahwa skema enkripsi yang diautentikasi tidak memberikan jaminan bahwa pesan tersebut sebenarnya juga dikirim oleh agen yang membuatnya dalam sebuah sesi komunikasi. Pertimbangkan tiga vektor serangan berikut ini:
 
-1. **Serangan ulang**: Seorang penyerang mengirim ulang ciphertext dan sebuah tag yang ia cegat di antara dua pihak pada titik sebelumnya.
+1. **Serangan pengulangan**: Seorang penyerang mengirim ulang ciphertext dan sebuah tag yang ia cegat di antara dua pihak pada titik sebelumnya.
 
-2. **Serangan pemesanan ulang**: Penyerang mencegat dua pesan pada waktu yang berbeda dan mengirimkannya ke penerima dalam urutan terbalik.
+2. **Serangan pengurutan ulang**: Penyerang mencegat dua pesan pada waktu yang berbeda dan mengirimkannya ke penerima dalam urutan terbalik.
 
 3. **Serangan refleksi**: Seorang penyerang mengamati pesan yang dikirim dari A ke B, dan juga mengirim pesan tersebut ke A.
 
@@ -1398,11 +1398,11 @@ ___
 
 Untuk memahami bagaimana cara kerja stream cipher pseudorandom modern, saya akan fokus pada stream cipher RC4. Ini adalah sebuah stream cipher pseudorandom yang digunakan pada protokol keamanan jalur akses nirkabel WEP dan WAP serta TLS. Karena RC4 memiliki banyak kelemahan yang telah terbukti, RC4 tidak lagi digunakan. Bahkan, Internet Engineering Task Force sekarang melarang penggunaan rangkaian RC4 oleh aplikasi klien dan server di semua contoh TLS. Akan tetapi, RC4 bekerja dengan baik sebagai contoh untuk mengilustrasikan bagaimana cara kerja stream cipher primitif.
 
-Untuk memulai, pertama-tama saya akan menunjukkan cara mengenkripsi pesan plaintext dengan sebuah sandi RC4. Misalkan pesan plaintext kita adalah "SOUP." Enkripsi dengan sandi RC4 bayi kita, kemudian, berlangsung dalam empat langkah.
+Untuk memulai, pertama-tama saya akan menunjukkan cara mengenkripsi pesan plaintext dengan sebuah sandi RC4. Misalkan pesan plaintext kita adalah "SOUP." Enkripsi dengan sandi RC4 sederhana kita kemudian berlangsung dalam empat langkah.
 
 ### Langkah 1
 
-Pertama, tentukan larik **S** dengan $S[0] = 0$ hingga $S[7] = 7$. Larik di sini berarti kumpulan nilai yang dapat diubah-ubah yang diatur oleh sebuah indeks, yang juga disebut daftar dalam beberapa bahasa pemrograman (misalnya, Python). Dalam hal ini, indeks berjalan dari 0 sampai 7, dan nilai juga berjalan dari 0 sampai 7. Jadi **S** adalah sebagai berikut:
+Pertama, definisikan sebuah array **S** dengan $S[0] = 0$ hingga $S[7] = 7$. Larik di sini berarti kumpulan nilai yang dapat diubah-ubah yang diatur oleh sebuah indeks, yang juga disebut daftar dalam beberapa bahasa pemrograman (misalnya, Python). Dalam hal ini, indeks berjalan dari 0 sampai 7, dan nilai juga berjalan dari 0 sampai 7. Jadi **S** adalah sebagai berikut:
 
 
 - $S = [0, 1, 2, 3, 4, 5, 6, 7]$
@@ -1411,16 +1411,15 @@ Nilai-nilai di sini bukanlah angka ASCII, tetapi representasi nilai desimal dari
 
 ### Langkah 2
 
-Kedua, tentukan larik kunci **K** dengan panjang 8 byte dengan memilih kunci antara 1 dan 8 byte (tanpa pecahan byte yang diperbolehkan). Karena setiap byte terdiri dari 8 bit, Anda dapat memilih angka apa saja antara 0 dan 255 untuk setiap byte kunci Anda.
+Kedua, definisikan sebuah array kunci **K** dengan panjang 8 byte dengan memilih kunci antara 1 dan 8 byte (tanpa pecahan byte yang diperbolehkan). Karena setiap byte terdiri dari 8 bit, Anda dapat memilih angka apa saja antara 0 dan 255 untuk setiap byte kunci Anda.
 
-Misalkan kita memilih kunci **k** sebagai $[14, 48, 9]$, sehingga kunci tersebut memiliki panjang 3 byte. Setiap indeks dari larik kunci kita, kemudian, diatur sesuai dengan nilai desimal untuk elemen tertentu dari kunci tersebut, secara berurutan. Jika Anda menjalankan seluruh kunci, mulailah lagi dari awal, hingga Anda telah mengisi 8 slot dari larik kunci. Oleh karena itu, larik kunci kita adalah sebagai berikut:
-
+Misalkan kita memilih kunci **k** sebagai $[14, 48, 9]$, sehingga kunci tersebut memiliki panjang 3 byte. Setiap indeks dari larik kunci kita, kemudian, diatur sesuai dengan nilai desimal untuk elemen tertentu dari kunci tersebut, secara berurutan. Jika Anda menjalankan seluruh kunci, mulailah lagi dari awal, hingga Anda telah mengisi 8 slot pada array kunci terisi. Dengan demikian, array kunci kita adalah sebagai berikut:
 
 - $K = [14, 48, 9, 14, 48, 9, 14, 48]$
 
 ### Langkah 3
 
-Ketiga, kita akan mentransformasikan larik **S** menggunakan larik kunci **K**, dalam sebuah proses yang dikenal sebagai **penjadwalan kunci**. Prosesnya adalah sebagai berikut dalam pseudocode:
+Ketiga, kita akan mentransformasikan array **S** menggunakan array kunci **K**, dalam sebuah proses yang dikenal sebagai **penjadwalan kunci**. Prosesnya adalah sebagai berikut dalam pseudocode:
 
 
 - Membuat variabel **j** dan **i**
@@ -1429,9 +1428,9 @@ Ketiga, kita akan mentransformasikan larik **S** menggunakan larik kunci **K**, 
     - Set $j = (j + S[i] + K[i]) \mod 8$
     - Tukar $S[i]$ dan $S[j]$
 
-Transformasi larik **S** ditangkap oleh *Tabel 1*.
+Transformasi array **S** ditangkap oleh *Tabel 1*.
 
-Untuk memulai, Anda dapat melihat keadaan awal **S** sebagai $[0, 1, 2, 3, 4, 5, 6, 7]$ dengan nilai awal 0 untuk **j**. Ini akan diubah dengan menggunakan larik kunci $[14, 48, 9, 14, 48, 9, 14, 48]$.
+Untuk memulai, Anda dapat melihat keadaan awal **S** sebagai $[0, 1, 2, 3, 4, 5, 6, 7]$ dengan nilai awal 0 untuk **j**. Ini akan diubah dengan menggunakan array kunci $[14, 48, 9, 14, 48, 9, 14, 48]$.
 
 Perulangan for dimulai dengan $i = 0$. Menurut pseudocode di atas, nilai baru dari **j** menjadi 6 ($j = (j + S[0] + K[0]) \mod 8 = (0 + 0 + 14) \mod 8 = 6 \mod 8$). Dengan menukar $S[0]$ dan $S[6]$, keadaan **S** setelah 1 putaran menjadi $[6, 1, 2, 3, 4, 5, 0, 7]$.
 
@@ -1478,7 +1477,7 @@ Kita kemudian melanjutkan untuk menghasilkan byte lainnya sampai kita mendapatka
 
 Sebagai permulaan, dengan menggunakan tabel ASCII, kita dapat melihat bahwa "SOUP" yang dikodekan oleh nilai desimal dari string byte yang mendasarinya adalah "83 79 85 80". Kombinasi dengan keystream "2 6 3 7" menghasilkan "85 85 88 87", yang tetap sama setelah operasi modulo 256. Dalam ASCII, cipherteks "85 85 88 87" sama dengan "UUXW".
 
-Apa yang terjadi jika kata yang akan dienkripsi lebih panjang dari larik **S**? Dalam hal ini, larik **S** akan terus bertransformasi dengan cara seperti yang ditunjukkan di atas untuk setiap byte **i** dari plaintext, sampai kita memiliki jumlah byte dalam keystream yang sama dengan jumlah huruf dalam plaintext.
+Apa yang terjadi jika kata yang akan dienkripsi lebih panjang dari array **S**? Dalam hal ini, larik **S** akan terus bertransformasi dengan cara seperti yang ditunjukkan di atas untuk setiap byte **i** dari plaintext, sampai kita memiliki jumlah byte dalam keystream yang sama dengan jumlah huruf dalam plaintext.
 
 *Tabel 2: Pembuatan aliran kunci*
 
@@ -1493,7 +1492,7 @@ Apa yang terjadi jika kata yang akan dienkripsi lebih panjang dari larik **S**? 
 | 4   | 1   | 7   | 2         | 6    | 4    | 7    | 1    | 3    | 0    | 5    | 2    |
 
 
-Contoh yang baru saja kita bahas hanyalah sebuah versi sederhana dari stream cipher **RC4**. Stream cipher RC4 yang sebenarnya memiliki larik **S** dengan panjang 256 byte, bukan 8 byte, dan sebuah kunci yang dapat berukuran antara 1 sampai 256 byte, bukan 1 sampai 8 byte. Larik kunci dan aliran kunci kemudian diproduksi dengan mempertimbangkan panjang 256 byte dari larik **S**. Perhitungannya menjadi jauh lebih kompleks, tetapi prinsip-prinsipnya tetap sama. Menggunakan kunci yang sama, 14,48,9, dengan cipher RC4 standar, pesan plaintext "SOUP" dienkripsi sebagai 67 02 ed df dalam format heksadesimal.
+Contoh yang baru saja kita bahas hanyalah sebuah versi sederhana dari stream cipher **RC4**. Stream cipher RC4 yang sebenarnya memiliki array **S** dengan panjang 256 byte, bukan 8 byte, dan sebuah kunci yang dapat berukuran antara 1 sampai 256 byte, bukan 1 sampai 8 byte. array kunci dan aliran kunci kemudian diproduksi dengan mempertimbangkan panjang 256 byte dari larik **S**. Perhitungannya menjadi jauh lebih kompleks, tetapi prinsip-prinsipnya tetap sama. Menggunakan kunci yang sama, 14,48,9, dengan cipher RC4 standar, pesan plaintext "SOUP" dienkripsi sebagai 67 02 ed df dalam format heksadesimal.
 
 Sebuah stream cipher di mana keystream memperbarui secara independen dari pesan plaintext atau ciphertext adalah **synchronous stream cipher**. Aliran kunci hanya bergantung pada kunci. Jelasnya, RC4 adalah sebuah contoh dari sebuah stream cipher sinkron, karena keystream tidak memiliki hubungan dengan plaintext atau ciphertext. Semua cipher stream primitif yang disebutkan di bab sebelumnya, termasuk shift cipher, cipher Vigenère, dan one-time pad, juga merupakan jenis cipher sinkron.
 
@@ -1558,9 +1557,9 @@ Putaran 0 dari sandi Rijndael sangatlah mudah. Larik $S_0$ dihasilkan oleh opera
 
 ### Ronde 1
 
-Pada putaran 1, larik $S_0$ pertama-tama digabungkan dengan kunci bulat $K_1$ menggunakan operasi XOR. Hal ini menghasilkan keadaan baru $S$.
+Pada putaran 1, array $S_0$ pertama-tama digabungkan dengan kunci bulat $K_1$ menggunakan operasi XOR. Hal ini menghasilkan keadaan baru $S$.
 
-Kedua, operasi **substitusi byte** dilakukan pada keadaan $S$ saat ini. Operasi ini bekerja dengan mengambil setiap byte dari larik $S$ 16-byte dan menggantinya dengan byte dari larik yang disebut **Kotak-S Rijndael**. Setiap byte memiliki transformasi yang unik, dan keadaan baru $S$ dihasilkan sebagai hasilnya. Kotak-S Rijndael ditampilkan pada *Gambar 3*.
+Kedua, operasi **substitusi byte** dilakukan pada keadaan $S$ saat ini. Operasi ini bekerja dengan mengambil setiap byte dari array $S$ 16-byte dan menggantinya dengan byte dari larik yang disebut **Kotak-S Rijndael**. Setiap byte memiliki transformasi yang unik, dan keadaan baru $S$ dihasilkan sebagai hasilnya. Kotak-S Rijndael ditampilkan pada *Gambar 3*.
 
 *Gambar 3: S-Box Rijndael*
 
@@ -1640,9 +1639,9 @@ Sebagai langkah selanjutnya, semua suku dalam matriks harus diubah menjadi polin
 
 Semua perkalian kemudian dilakukan **modulo** $x^8 + x^4 + x^3 + x + 1$. Hal ini menghasilkan penambahan empat polinomial di masing-masing empat sel kolom. Setelah melakukan penambahan tersebut **modulo 2**, Anda akan mendapatkan empat polinomial. Setiap polinomial ini mewakili string 8-bit, atau 1 byte, dari **S**. Kita tidak akan melakukan semua perhitungan ini di sini pada matriks pada *Gambar 6* karena sangat luas.
 
-Setelah kolom pertama diproses, tiga kolom lainnya dari matriks **S** diproses dengan cara yang sama. Pada akhirnya, ini akan menghasilkan matriks dengan enam belas byte yang dapat diubah menjadi larik.
+Setelah kolom pertama diproses, tiga kolom lainnya dari matriks **S** diproses dengan cara yang sama. Pada akhirnya, ini akan menghasilkan matriks dengan enam belas byte yang dapat diubah menjadi array.
 
-Sebagai langkah terakhir, larik **S** digabungkan dengan tombol bulat lagi dalam operasi **XOR**. Ini menghasilkan keadaan $S_1$. Artinya,
+Sebagai langkah terakhir, array **S** digabungkan dengan tombol bulat lagi dalam operasi **XOR**. Ini menghasilkan keadaan $S_1$. Artinya,
 
 
 - $S_1 = S \oplus K_0$

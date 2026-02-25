@@ -1146,7 +1146,7 @@ Dengan demikian, ciphertext $c$ = "IFJSZCRUGDSB".
 
 Contoh lain yang terkenal dari stream cipher adalah **one-time pad**. Dengan one-time pad, Anda cukup membuat sebuah rangkaian bit acak sepanjang pesan plaintext dan menghasilkan ciphertext melalui operasi XOR. Oleh karena itu, kunci privat dan keystream setara dengan one-time pad.
 
-Sementara sandi Shift dan sandi Vigenere sangat tidak aman di era modern, pad sekali pakai sangat aman jika digunakan dengan benar. Mungkin aplikasi yang paling terkenal dari pad sekali pakai adalah, setidaknya sampai tahun 1980-an, untuk **saluran telepon Washington-Moskow**. [4]
+Sementara sandi Shift dan sandi Vigenere sangat tidak aman di era modern, one-time pad sangat aman jika digunakan dengan benar. Mungkin aplikasi yang paling terkenal dari pad sekali pakai adalah, setidaknya sampai tahun 1980-an, untuk **saluran telepon Washington-Moskow**. [4]
 
 Hotline ini merupakan hubungan komunikasi langsung antara Washington dan Moskow untuk hal-hal mendesak yang dipasang setelah Krisis Rudal Kuba. Teknologi untuk saluran ini telah berubah selama bertahun-tahun. Saat ini, sambungan ini mencakup kabel serat optik langsung serta dua sambungan satelit (untuk redundansi), yang memungkinkan pengiriman email dan pesan teks. Sambungan ini berakhir di berbagai tempat di AS. Pentagon, Gedung Putih, dan Raven Rock Mountain adalah titik akhir yang diketahui. Berlawanan dengan pendapat umum, hotline ini tidak pernah menggunakan telepon.
 

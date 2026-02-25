@@ -2650,7 +2650,7 @@ Uguhangana kwa Athene na Sparta kwerekana uburyo bubiri bw’ishimikiro bwo gutu
 
 
 
-Izo nzira zibiri zerekana ko kwemera amafaranga bifitaniye isano cane n’akarorero ka politike n’ubutunzi katoranijwe. Ku gihugu gifise ububasha bwo mu kiyaga no mu vy’ubudandaji nka Atene, amahera yaracitse ikintu gihambaye cane. Ku kibano c’intambara gipfutse nka Sparta, kigereranya ugutera ubwoba urutonde rw’imibano. Ukwo gucapura kwa kera kuracariko kuramenyesha impaka ku ruhara rw’amahera mu gutunganya imibano.
+Izo nzira zibiri zerekana ko kwemera amahera bifitaniye isano cane n’akarorero ka politike n’ubutunzi katoranijwe. Ku gihugu gifise ububasha bwo mu kiyaga no mu vy’ubudandaji nka Athene, amahera yaracitse ikintu gihambaye cane. Ku kibano c’intambara gipfutse nka Sparta, kigereranya ugutera ubwoba urutonde rw’imibano. Ukwo gucapura kwa kera kuracariko kuramenyesha impaka ku ruhara rw’amahera mu gutunganya imibano.
 
 
 
@@ -2665,42 +2665,39 @@ Izo nzira zibiri zerekana ko kwemera amafaranga bifitaniye isano cane n’akaror
 
 ### Amateka ya Repubulika y'Uburoma
 
-
-
-
-
 - 753 - 509 BC: Ubwami bw'i Roma**
 - 753 imbere ya Yesu: Ishingwa ry’i Roma** (mu migenzo ryitwa Romulus).
-- 509 - 27 BC: Repubulika y’Uburoma**, Roma iba Repubulika itwarwa na Sena n’abakonsili batowe.
-- 280 - 275 imbere ya Kristu: Intambara ya Pire**. Pyrrhus, Umwami wa Epirus, arwana n’Abaroma mu Butaliyano bwo mu bumanuko, atsinda intsinzi zizimvye (“intsinzi za Pyrrhic”).
-- 264 - 146 imbere ya Yesu: Intambara z’Abapuni**. Intambara ikomeye yatumye Uburoma burwanya Carthage kugira ngo bugabe uburengero bw’ikiyaga Mediterane.
-- Hanibali (247 - nko mu 181 imbere ya Kristu)**. Umujenerali w’i Carthage w’inkuru z’imigani, yari azwi cane mu kujabuka imisozi ya Alpes ari kumwe n’ingabo ziwe be n’inzovu kugira ngo atere i Roma mu gihe c’Intambara ya kabiri y’Abapuni.
+- 509 - 27 BC: Repubulika y’Uburoma**, Roma iba Repubulika itwarwa na Sénat hamwe na consuls élus.
+- 280 - 275 imbere ya Kristu: Intambara ya  Pyrrhus**. Pyrrhus, Umwami wa Épire, arwana n’Abaroma mu Butaliyano bwo mu bumanuko, atsinda intsinzi zizimvye (“intsinzi za Pyrrhus”).
+- 264 - 146 imbere ya Yesu: Intambara za puniques**. Intambara ikomeye yatumye Uburoma burwanya Carthage kugira ngo bugabe uburengero bw’ikiyaga Méditerranée.
+- Hanibali (247 - nko mu 181 imbere ya Kristu)**. Umujenerali w’i Carthage w’inkuru z’imigani, yari azwi cane mu kujabuka imisozi ya Alpes ari kumwe n’ingabo ziwe be n’inzovu kugira ngo atere i Roma mu gihe c’Intambara ya kabiri yabapunique.
 - 146 imbere ya Kristu: Intambara y’i Korinto**. Uburoma burasambura igisagara c’Ubugiriki c’i Korinto maze butegeka ubutegetsi bwabwo bwa nyuma ku Bugiriki buhambaye.
 - 91 - 87 BC: Intambara y’Igihugu**. Ubugarariji bwakozwe n’Abataliyano bari bafatanije n’Uburoma basaba ubwenegihugu bw’Uburoma, ivyo bikaba vyatumye amaherezo binjira mu bwenegihugu bimwe bishitse.
-- 64 BC: Iherezo ry’ukurwanya kw’Abaselewusi**. Roma yarakuyeho ata gukeka akosho k’Abaselewuki muri Siriya, ikomeza ububasha bwayo ku Kiyaga Mediterane co mu Buseruko.
-- 55 BC: Yuliyo Sezari yigaruriye Uburayi bwo hagati n’ubw’Uburengero**. Yuliyo Sezari yaraguye ubutegetsi bw’Abaroma kuri Gaule (ubu Bufaransa) maze yinjira mu Budagi no muri Bretagne.
-- 43 BC: Hashingwa Ubwami bwa kabiri bw’Ubwami bw’Ubutatu**. Isezerano rya politike hagati ya Octavien (uwaje kwitwa Augusto), Mariko Antoine na Lépide, kugira ngo Roma ihagarare neza inyuma y’aho Kayisari yiciwe.
+- 64 BC: Iherezo ry’ukurwanya kw’Aba séleucide**. Roma yarakuyeho burundu intwaro yaba séleucide muri Siriya, ikomeza ububasha bwayo ku Kiyaga Méditerranée co mu Buseruko.
+- 55 BC: julien cesar yigaruriye Uburayi bwo hagati n’ubw’Uburengero**. julien cesar yaraguye ubutegetsi bw’Abaroma kuri Gaule (ubu Bufaransa) maze yinjira mu Budagi no muri Bretagne.
+- 43 BC: Hashingwa Ubwami bwa kabiri bw’Ubwami bw’Ubutatu**. Amasezerano ya politike hagati ya Octave (uwaje kwitwa Augusto), Marc
+- Antoine na Lépide, kugira ngo Roma igume ihagaze neza inyuma y’aho julien cesar yishwe.
 - 27 BC: Intango y’Intambara y’Abaroma**. Igihe c’ugutekana kwa politike n’uguterimbere ku ngoma ya Augusto, kikaba ari co catumye Ubwami bw’Uburoma bwatangura.
 
 
 
-### Intango y'amahera y'i Roma
+### Intango y'amahera(yaje ateba) y'i Roma
 
 
 
-Muri iki gice kivuga ivy’ivya kera, ubu turahindukirira Repubulika y’Uburoma. Amateka y’amahera y’i Roma yatanguye inyuma cane y’ay’Abagiriki n’Abaperesi. Roma yashinzwe mu 753 imbere ya Kristu, yarindiriye hafi ibinjana bine imbere y’uko vy’ukuri yemera gukoresha ibiceri. Muri ico kiringo kirekire, Abaroma barakoresha uburyo bwa kera bwo guhindura amahera bakoresheje ibipande vy’umuringa bidasanzwe vyitwa aes rude, ivyo bikaba vyasaba ko umuntu apima neza na neza ikintu cose yagurisha. Mu mpera z’ikinjana ca 4 imbere ya Kristu, mu gihe c’inkurikizi z’Abagiriki n’Abaturusi, ni ho gusa Roma yatanguye gutanga ibiceri vyayo vya mbere, cane cane mu muringa nk’uko vyari vyifashe mu Bushinwa, imva ya aes, ikaba yari iranga ubucuruzi bw’Abaroma gushika mu **Intambara ya kabiri ya Punic**.
+Muri iki gice kivuga ivy’ivya kera, ubu turahindukirira Repubulika y’Uburoma. Amateka y’amahera y’i Roma yatanguye inyuma cane y’ay’Abagiriki n’Abaperesi. Roma yashinzwe mu 753 imbere ya Kristu, yarindiriye hafi ibinjana bine imbere y’uko vy’ukuri yemera gukoresha ibiceri. Muri ico kiringo kirekire, Abaroma barakoresha uburyo bwa kera bwo guhindura amahera bakoresheje ibipande vya bronze bidasanzwe vyitwa aes rude, ivyo bikaba vyasaba ko umuntu apima neza na neza ico gipande inyuma y'igurisha. Mu mpera z’ikinjana ca 4 imbere ya Kristu, mu gihe c’ukoshwa n’Abagiriki n’Aba étrusque, ni ho  Roma yatangura gutanga ibiceri vyayo vya mbere, cane cane muri bronze(umujumbu) icuze nko mubushinwa, aes iriko ikimenyetso, ikaba yari iranga ubucuruzi bw’Abaroma gushika mu **Intambara ya kabiri ya Punique**.
 
 
 
-### Inkurikizi z’Abagiriki be n’ibiceri vya mbere vy’ifeza .
+### Ukosha kw’Abagiriki be n’ibiceri vya mbere vy’ifeza .
 
 
 
-Iryo guhura ry’agaciro n’Abagiriki bo mu bumanuko bw’Ubutaliyano ryatumye vy’ukuri Abaroma bamenya ibiceri vy’ifeza vyacuzwe. Nko mu mwaka w’280 imbere ya Kristu, Uburoma bwatanguye gukora ibiceri vy’ifeza vyabwo bwite bwigana ibiceri vy’ifeza vy’Abagiriki. Igitabu ca mbere c’ibiceri vy’ifeza i Roma casohotse mu mwaka w’269 imbere ya Kristu, kirimwo amahasa y’inkuru z’imigani Romulus na Remus bonswa n’igikoko c’ingore, ikimenyetso cacitse ikigereranyo.
+Iryo hura ry’Abagiriki bo mu bumanuko bw’Ubutaliyano ryatumye vy’ukuri Abaroma bamenya ibiceri vy’ifeza vyacuzwe. Nko mu mwaka w’280 imbere ya Kristu, Uburoma bwatanguye gukora ibiceri vy’ifeza vyabwo bwite bwigana ibiceri vy’ifeza vy’Abagiriki. Ishirwa hanze  ry’ibiceri vy’ifeza i Roma ryasohotse mu mwaka w’269 imbere ya Kristu, hacapuweko amahasa y’inkuru z’imigani Romulus na Remus bonswa n’ibwebwe y’ingore, ikimenyetso cacitse ikigereranyo(icon).
 
 
 
-Nkako, ibiceri vyinshi vy’Abaroma vyo mu gihe ca Repubulika vyerekana imigani y’abashinze igihugu. Ushobora kubona ivyanje hano musi: ni igiceri ciza cane, c’ukuri kivuye ku Mwami Tatiyusi. Irerekana inkuru y’imigani y’ugushimutwa kw’abagore mu Basabine. Tatius yari umwami w’ako karere, kandi inkuru y’imigani yashinze iyo karere ivuga ingene Abaroma bashimusa abagore mu Basabine, abantu baba hafi y’aho. Mu nyuma, Umwami Tatius yarabaye umwami kumwe na Romulus, umwe mu bashinze Uburoma.
+Nkako, ibiceri vyinshi vy’Abaroma vyo mu gihe ca Repubulika vyari bishushanijweko imigani y’abashinze igihugu. Ushobora kubona ivyanje hano musi: ni igiceri ciza cane, c’ukuri kivuye ku Mwami Tatius. Ikigiceri k'irerekana inkuru y’imigani y’ifatwa ry’abagore muba Sabine. Tatius yari umwami w’ako karere, kandi inkuru y’imigani yashinze iyo karere ivuga ingene Abaroma bafashe abagore muba Sabine, abantu baba hafi y’aho. Mu nyuma, Umwami Tatius yarabaye umwami bafatanije na Romulus, umwe mu bashinze Uburoma.
 
 
 ![image](assets/rn/014.webp)
@@ -2711,19 +2708,19 @@ Nkako, ibiceri vyinshi vy’Abaroma vyo mu gihe ca Repubulika vyerekana imigani 
 
 
 
-Ijambo "igiceri" rikomoka mu rusengero rwa Juno Moneta i Roma. Inkuru zivuga yuko, mu gihe c’igitero c’Abagali mu 390 imbere ya Kristu, izo nzige nyeranda zo mu gisagara ca Capitol zamenyesheje Abaroma ko hari akaga kari hafi. Kugira ngo bashimire imanakazi Juno, yari ikingira Capitol, bararubatse urusengero rwo kumutera iteka, maze ntivyatevye kuba ahantu hakorerwa ibiceri vy’Abaroma.
+Ijambo "monnaie(amahera)" rikomoka mu rusengero rwa Juno Moneta i Roma. Inkuru zivuga yuko, mu gihe c’igitero caba gauloise mu 390 imbere ya Kristu, oies(ibikoko) nyeranda zo mu gisagara ca Capitol zamenyesheje Abaroma ko hari akaga kari hafi. Kugira ngo bashimire imanakazi Juno, yari ikingira Capitol, bararubatse urusengero rwo kumutera iteka, maze ntivyatevye kuba ahantu hakorerwa ibiceri vy’Abaroma.
 
 
 
-### Intambara z'Abapuni n'ingorane z'amahera
+### Intambara z'Aba puniques n'ingorane z'amahera
 
 
 
-Intambara z’igisirikare zaragize ico zikoze cane ku bijanye n’iterambere ry’amahera y’Abaroma. Mu gihe c’intambara ya kabiri y’Abapuni (218-201 imbere ya Kristu) yarwanye Carthage, Roma yarashikiwe n’ingorane zikomeye z’amahera kubera igitero ca Hannibal. Kugira ngo ivyo bikenewe vyihutirwa bigabanuke, Roma yaciye ikoresha uburyo budasanzwe bwo gutanga ibiceri vy’inzahabu, hamwe n’ugugabanya cane agaciro k’ibiceri vyayo vy’ifeza, kuva ku busuku bwa mbere bwari 97% gushika nko ku 89%. Uburemere bw’ibiceri vy’umuringa (aes) na bwo nyene bwaragabanutse cane, butakaza hafi 80% mu myaka itandatu.
+Intambara z’igisirikare zaragize ico zikoze cane ku bijanye n’iterambere ry’amahera y’Abaroma. Mu gihe c’intambara ya kabiri y’Aba punique (218-201 imbere ya Kristu) yarwanye Carthage, Roma yarashikiwe n’ingorane zikomeye z’amahera kubera igitero ca Hannibal. Kugira ngo ivyo bikenewe vyihutirwa bigabanuke, Roma yaciye ikoresha uburyo budasanzwe bwo gutanga ibiceri vy’inzahabu, hamwe n’ugugabanya cane agaciro k’ibiceri vyayo vy’ifeza, kuva kubuziranenge bwa mbere bwari 97% gushika nko ku 89%. Uburemere bw’ibiceri vya bronze(umujumbu(aes)) na bwo nyene bwaragabanutse cane, butakaza hafi 80% mu myaka itandatu.
 
 
 
-Aha, turashobora gusubira ku ciyumviro twamaze kuvuga ku bijanye n’uko Abagiriki bafukura ivyuma vy’agaciro vyabitswe mu nsengero kugira ngo bafashe mu kugabanya ingorane z’ubutunzi. Kandi kugira ngo tuvuge ivya **Carthage**, aha musi urashobora gushima igiceri nyaco c’i Carthage kivuye mu vyo nakoranije. Ivyo biceri vy’i Karitaje vyari bifise igiti c’umusukoni ku ruhande rumwe, ku rundi ruhande hakaba hariho ifarasi. Kuri iki giceri, ifarasi ntimenyekana cane, a irashaje cane.
+Aha, turashobora gusubira ku ciyumviro twamaze kuvuga ku bijanye n’uko Abagiriki bashongesha ivyuma vy’agaciro vyabitswe mu nsengero kugira ngo bafashe mu kugabanya ingorane z’ubutunzi. Kandi kugira ngo tuvuge ivya **Carthage**, aha musi urashobora gushima igiceri nyaco c’i Carthage kivuye mu vyo nakoranije. Ivyo biceri vy’i carthage vyari bishushanijeko ikigazi  ku ruhande rumwe, ku rundi ruhande hakaba hari hashushanijeko ifarasi. Kuri iki giceri, ifarasi ntiboneka neza, igishushanyo cayo carashaje.
 
 
 
@@ -2731,19 +2728,19 @@ Aha, turashobora gusubira ku ciyumviro twamaze kuvuga ku bijanye n’uko Abagiri
 
 
 
-Ivyo vyatumye uburemere bw’ibiceri vy’umuringa vyitwa aes na vyo nyene bigabanuka cane, bitakaza hafi 80% mu myaka itandatu. Rero, uburemere bw’ivyo bice vy’umuringa, bitari icuma c’agaciro kandi vyakoreshwa mu bucuruzi bwa misi yose, vyaragabanutse cane, ivyo bikaba vyari ikimenyetso c’ugucika kw’agaciro k’amahera kubera izo ntambara.
+Ivyo vyatumye uburemere bw’ibiceri vya bronze(umujumbu) vyitwa aes na vyo nyene bigabanuka cane, bitakaza hafi 80% mu myaka itandatu. Rero, uburemere bw’ivyo bice vya bronze, bitari icuma c’agaciro kandi vyakoreshwa mu bucuruzi bwa misi yose, vyaragabanutse cane, ivyo bikaba vyari ikimenyetso c’ugutakara kw'agaciro k’amahera kubera izo ntambara.
 
 
 
-### Idenari y'ifeza n'ugushikama kw'amahera .
+### Idenari(denier) y'ifeza n'ugushikama kw'amahera .
 
 
 
-Ni muri iyo nzira y’agahomerabunwa niho Roma yashiraho idenariyo y’ifeza izwi cane nko mu mwaka w’212 imbere ya Kristu. Iryo vugurura ryatumye amahera aguma ahagaze neza cane, kuko idenariyo iguma ari yo ikoreshwa cane mu myaka hafi 450. Ukwo gushikama kwa Roma gukekwa n’uburongozi bukomeye, naho nyene mu 146 imbere ya Kristu hasubirwamwo ibiciro vyinshi, kandi hakaba hariho n’ibintu vyinshi vyo gufasha ingabo zayo nyinshi cane, cane cane mu gihe c’intambara za Punic, Social (91-87 BC), n’iza Masedoniya. Nk’akarorero, kubungabunga ingabo imwe y’Abaroma vyatwara amadenariyo nk’imiliyoni 1 n’igice ku mwaka, ivyo bikaba vyerekana urugero rw’amahera yari akenewe.
+Ni muri iyo nzira itoroshe aho Roma yashiraho idenariyo y’ifeza izwi cane nko mu mwaka w’212 imbere ya Kristu. Iryo vugurura ryatumye amahera aguma ahagaze neza cane, kuko idenariyo iguma ari yo ikoreshwa cane mu myaka hafi 450. Ukwo gushikama kwa Roma gukekwa n’uburongozi bukomeye, naho nyene mu 146 imbere ya Kristu hasubirwamwo ibiciro vyinshi, kandi hakaba hariho n’ibintu vyinshi vyo gufasha ingabo zayo nyinshi cane, cane cane mu gihe c’intambara za Punic, Social (91-87 BC), n’iza Masedoniya. Nk’akarorero, kubungabunga ingabo imwe y’Abaroma vyatwara amadenariyo nk’imiliyoni 1 n’igice ku mwaka, ivyo bikaba vyerekana urugero rw’amahera yari akenewe.
 
 
 
-Hanyuma y’imipaka y’Uburoma, intambara zatumye agaciro k’ibintu gacika intege cane mu turere twari twari dufise ububasha bw’Uburoma. Igisagara ca Carthage c’i Punic carabonye ubusuku bw’ivyuma vyaco vy’umuyagankuba bugabanuka cane, kuva ku 98% vy’inzahabu mu kinjana ca 4 gushika ku 30% gusa mu gihe c’intambara ya kabiri y’i Punic, mu gihe ibiceri vyaco vy’ifeza vyagabanutse bishika ku 18% vy’ubusuku.
+Hanyuma y’imipaka y’Uburoma, intambara zatumye agaciro k’ibintu gacika intege cane mu turere twari twari dufise ububasha bw’Uburoma. Igisagara ca Carthage c’i Punique carabonye ubuziranenge bw’ivyuma vyaco vy’umuyagankuba bugabanuka cane, kuva ku 98% vy’inzahabu mu kinjana ca 4 gushika ku 30% gusa mu gihe c’intambara ya kabiri y’i Punique, mu gihe ibiceri vyaco vy’ifeza vyagabanutse bishika ku 18% vy’ubuziranenge.
 
 
 
@@ -2755,7 +2752,7 @@ Igihe Roma yariko iragwira, akaranga k’ibiceri na ko nyene karahindutse: mu nt
 
 
 
-Ubwa nyuma, naho Roma yari iganje isi y’ikiyaga Mediterane mu vy’ubutunzi, yagumye ifise uburyo bworoshe bwo kwishura: nta buryo nyabwo bwo gutanga amahera bwateguwe uretse guhindura ibiceri ataco bimaze, uretse gutanga imisoro n’inguzanyo z’abantu ku giti cabo zari zigenewe abantu b’abanyacubahiro.
+Ubwa nyuma, naho Roma yari iganje isi y’ikiyaga Mediterane mu vy’ubutunzi, yagumye ifise uburyo bworoshe bwo kwishura: nta buryo nyabwo bwo gutanga amafaranga bwateguwe uretse guhindura ibiceri ataco bimaze, uretse gutanga amakori n’inguzanyo z’abantu ku giti cabo zari zigenewe abantu b’abanyacubahiro.
 
 
 
@@ -2772,7 +2769,7 @@ Ubwa nyuma, naho Roma yari iganje isi y’ikiyaga Mediterane mu vy’ubutunzi, y
 
 
 
-**Igihugu** cari uburyo bw’intwaro y’umwami mu bwami bw’Uburoma kuva mu ntango z’ingoma ya Augusto mu mwaka w’27 imbere ya Kristu gushika mu mpera y’ingorane zo mu kinjana ca gatatu mu mwaka w’284 inyuma ya Kristu.
+**Igihugu** cari uburyo bw’intwaro y’ubwwami bwabami bw’Uburoma kuva mu ntango z’ingoma ya Augusto mu mwaka w’27 imbere ya Kristu gushika mu mpera y’ingorane zo mu kinjana ca gatatu mu mwaka w’284 inyuma ya Kristu.
 
 
 
@@ -2791,7 +2788,7 @@ Igihe c’ugutekana kwa politike n’uguterimbere ku ngoma ya Augusto, kikaba ar
 
 
 
-**54 - 68: Nero**
+**54 - 68: Néron**
 
 
 Umwami w’abami w’Uburoma w’impaka, azwi cane kubera ububisha bwiwe, uruhamo rwiwe n’uburongozi bwiwe buteye akaga inyuma y’aho Roma ituriwe.
@@ -2822,14 +2819,14 @@ Ikirunga casambuye ibisagara vya Pompéi na Herculanum, kikaba kizigama ibisigar
 **165 - 180: Ikiza ca Antonine**
 
 
-Ikiza c’agahomerabunwa catumye Ubwami bw’Uburoma bugoyagoya ku butegetsi bwa Mariko Aureliyo na Komodo.
+Akaranda ruhonya ngandad catumye Ubwami bw’Uburoma bugoyagoya ku butegetsi bwa  Marc Aurèle na Commode.
 
 
 
 **200 inyuma ya Kristu: Iherezo ry’intara n’iherezo ry’ubutegetsi bwa Pax Romana**
 
 
-Roma yarashitse ku rugero rwo hejuru, ariko itangura gushikirwa n’ukudatekana kw’imbere n’ingorane z’ubutunzi.
+Roma yarashitse ku rugero rwo hejuru, yatanguye guhungabana indani mugihugu n’ingorane z’ubutunzi.
 
 
 
@@ -2854,21 +2851,21 @@ Igihe carangwa n’ukudatekana kwa politike, hari abami benshi bamara igihe gito
 
 
 
-**Aurelian (270-275 AD) yarahinduye cane agaciro k’amahera y’Abaroma**, agerageza gusubiza agaciro kayo naho nyene hariho ugutera imbere cane.
+**Aurelian (270-275 AD) yarahinduye cane agaciro k’amafaranga y’Abaroma**, agerageza gusubiza agaciro kayo naho nyene amahera ariko abandanya amahera ata agaciro.
 
 
 
 **301 inyuma ya Kristu: Itegeko ry’Igiciro rya Dioclétien**
 
 
-Umwami w’abami Dioclétien yaragerageje ubusa guhagarika ugutera imbere kw’ibiciro mu gushinga amategeko akomeye y’ugucungera ibiciro n’imishahara mu bwami bwose.
+Umwami w’abami Dioclétien yaragerageje ubusa guhagarika ukuduga kw’ibiciro mu gushinga amategeko akomeye y’ugucungera ibiciro n’imishahara mu bwami bwose.
 
 
 
-**312 inyuma ya Kristu: Konsitantino**
+**312 inyuma ya Kristu: Constantin**
 
 
-Umwami w'abami wa mbere w'umukristo, yashinze Constantinople, yaratumye amafaranga ahagarara neza mu gushiramwo "solidus", igiceri c'inzahabu c'ubusuku bwinshi n'ugushikama.
+Umwami w'abami wa mbere w'umukristo, yashinze Constantinople, yaratumye amahera ahagarara neza mu gushiramwo "solidus", igiceri c'inzahabu c'ubuziranenge bwinshi n'ugushikama.
 
 
 
@@ -2883,11 +2880,11 @@ Roma yatwawe n’ibisata bitandukanye vy’Abadagi (harimwo n’Abaostrogote), i
 
 
 
-Muri iki gice kivuga ivy’ivya kera, twamaze gushika ku bwami bw’Uburoma. Amateka y’amahera y’Ubwami bw’Uburoma arangwa n’ugukoresha cane amahera y’ivyuma, cane cane inzahabu, ifeza n’umuringa, ariko kandi n’ingorane nyinshi z’amahera, zifitaniye isano cane n’imigumuko ya politike n’iya gisirikare. Mu mpera za Repubulika, ku ngoma ya Yuliyo Sezari, Roma yarashizeho igiceri c’inzahabu aureus mu mwaka w’46 imbere ya Kristu, igiceri c’inzahabu gipima nk’amagarama 8 cari cemewe cane mu Buraya bwose no mu bice vy’ikiyaga Mediterane. Kayisari yarashize hamwe ivyo biceri vy’inzahabu maze akora ibiceri vya mbere vy’inzahabu vyari bifise ishusho y’umuntu muzima, gutyo ahindura umugenzo wa kera w’abanyarepubulika wari ushigikiye ibimenyetso bitamenyekana kandi vy’abantu bose. Iryo terambere ryaherekejwe n’igihe c’ihinduka rikomeye ry’ivya politike, aho ububasha bw’umuntu ku giti ciwe bugenda burasubirira buhorobuhoro inzego za repubulika.
+Muri iki gice kivuga ivy’ivya kera, twamaze gushika ku bwami bw’Uburoma. Amateka y’amafaranga y’Ubwami bw’Uburoma arangwa n’ugukoresha cane amahera y’ivyuma, cane cane inzahabu, ifeza n’umuringa, ariko kandi n’ingorane nyinshi z’amahera, zifitaniye isano cane n’imigumuko ya politike n’iya gisirikare. Mu mpera za Repubulika, ku ngoma ya julien cesar, Roma yarashizeho igiceri c’inzahabu aureus mu mwaka w’46 imbere ya Kristu, igiceri c’inzahabu gipima nk’amagarama 8 cari cemewe cane mu Buraya bwose no mu bice vy’ikiyaga ca Mediterane. cesar yarashize hamwe ivyo biceri vy’inzahabu maze akora ibiceri vya mbere vy’inzahabu vyari bifise ishusho y’umuntu muzima, gutyo ahindura umugenzo wa kera w’abanyarepubulika wari ushigikiye ibimenyetso bitamenyekana kandi vy’abantu bose. Iryo terambere ryaherekejwe n’igihe c’ihinduka rikomeye ry’ivya politike, aho ububasha bw’umuntu ku giti ciwe bugenda burasubirira buhorobuhoro inzego za repubulika.
 
 
 
-Inyuma y’aho Kayisari yiciwe mu mwaka w’44 imbere ya Kristu, Octavien (Auguste) yaciye afata ubutegetsi bw’i Roma, ashinga Ubwami mu mwaka wa 27 imbere ya Kristu. Ingoma yiwe yarahinduye bimwe bishitse uburyo bwo gukoresha amahera, bituma ubutunzi bw’Uburoma buguma buhagaze neza. Mu gihe ca Augusto, inzahabu imwe y’inzahabu yari ingana n’amadenari 25 y’ifeza, ubwayo akaba yari afise agaciro k’amasestertii 4 y’umuringa. Ukwo gushikama kw’amahera kwabandanije mu kinjana ca mbere cose inyuma ya Kristu, igihe akenshi kivugwa ko ari ikiringo ca zahabu c’ubutunzi ku Buroma.
+Inyuma y’aho cesar yiciwe mu mwaka w’44 imbere ya Kristu, Octave (Auguste) yaciye afata ubutegetsi bw’i Roma, ashinga Ubwami mu mwaka wa 27 imbere ya Kristu. Ingoma yiwe yarahinduye bimwe bishitse uburyo bwo gukoresha amahera, bituma ubutunzi bw’Uburoma buguma buhagaze neza. Mu gihe ca Augusto, aureus imwe y’inzahabu yari ingana n’amadenari(deniers) 25 y’ifeza, ubwayo akaba yari afise agaciro k’ama sesterces 4 ya bronze(umujumbu). Ukwo gushikama kw’amahera kwabandanije mu kinjana ca mbere cose inyuma ya Kristu, igihe akenshi kivugwa ko ari ikiringo ca zahabu c’ubutunzi ku Buroma.
 
 
 

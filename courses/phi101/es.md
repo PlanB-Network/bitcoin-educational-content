@@ -499,7 +499,7 @@ Es por eso que el sabio no rechaza los dones de la fortuna:
 > No ama las riquezas, las prefiere; no las acoge en su corazón, sino en su casa; no rechaza lo que posee, los domina y quiere que proporcionen a su virtud amplia materia.
 
 Séneca va aún más lejos. Para el sabio, las riquezas son la ocasión y el medio para ejercer la virtud:
-En la pobreza [...] solo hay un tipo de virtud: no flaquear o dejarse deprimir; en medio de la riqueza, la templanza, la generosidad, el discernimiento, la economía y la magnificencia tienen rienda suelta.
+En la pobreza [...] solo hay un tipo de virtud: No flaquear o dejarse deprimir; en medio de la riqueza, la templanza, la generosidad, el discernimiento, la economía y la magnificencia tienen rienda suelta.
 
 ### El Concepto de una Ley Superior
 
@@ -519,6 +519,7 @@ Cuando Antígona desobedece a Creonte, se opone al derecho positivo para obedece
 Cicerón vivió en el siglo I a.C. y es considerado el mayor orador del idioma latino bajo el Imperio Romano. También es un filósofo moral y político cercano a los estoicos. Sus ensayos han sido leídos por europeos educados durante muchos siglos.
 
 ![image](assets/es/033.webp)
+
 En su tratado _Sobre las Leyes_ (_De Legibus_), reflexiona sobre el fundamento del derecho. Según él, el derecho positivo, el conjunto de convenciones o leyes escritas adoptadas por una sociedad, no puede establecer una justicia digna de ese nombre. Existe una justicia natural, inscrita en la razón humana: "la ley tiene un fundamento en la naturaleza misma". Decir que lo justo y lo injusto son el resultado de una convención es decir que la verdad se decreta. Sin embargo, la verdad no puede ser decretada, ni siquiera por la mayoría, guía nuestros juicios.
 Cicerón también rechaza la utilidad como fundamento del derecho. De hecho, escribe:
 
@@ -539,9 +540,7 @@ Afirmar que la ley no puede reducirse meramente a los estatutos promulgados por 
 
 ¿Por qué declinó y finalmente cayó Roma? Muchos piensan que el Imperio Romano colapsó repentinamente, bajo el impacto de las invasiones bárbaras. Sin embargo, las causas del colapso del Imperio Romano se encuentran mucho antes, en el imperialismo y el dirigismo económico y monetario.
 
-
-
-En 1734, en sus _Consideraciones sobre las causas de la grandeza de los romanos y de su decadencia_, Montesquieu desarrolló una tesis original y unificada para explicar el ascenso y la caída del poder romano: la libertad ganada bajo la República y luego perdida bajo el Imperio. Desde el momento en que la dominación romana se expandió, se perdió la libertad y comenzó la decadencia.
+En 1734, en sus _Consideraciones sobre las causas de la grandeza de los romanos y de su decadencia_, Montesquieu desarrolló una tesis original y unificada para explicar el ascenso y la caída del poder romano: La libertad ganada bajo la República y luego perdida bajo el Imperio. Desde el momento en que la dominación romana se expandió, se perdió la libertad y comenzó la decadencia.
 
 ![image](assets/es/034.webp)
 
@@ -583,9 +582,9 @@ Siguiendo los pasos de Montesquieu, Philippe Fabry demuestra que Roma experiment
 
 ¿Fue Roma el mayor poder liberal del mundo antiguo? ¿Cayó luego en una forma de socialismo? Primero definamos los términos:
 
-Liberalismo: confianza en la acción de los individuos, produciendo un orden espontáneo, simplemente porque resulta de sus interacciones voluntarias, a través del libre juego del mercado y el respeto por sus derechos inalienables.
+Liberalismo: Confianza en la acción de los individuos, produciendo un orden espontáneo, simplemente porque resulta de sus interacciones voluntarias, a través del libre juego del mercado y el respeto por sus derechos inalienables.
 
-Socialismo: la organización por parte del Estado de la sociedad considerada como un todo, a través de la planificación de la producción y el consumo.
+Socialismo: La organización por parte del Estado de la sociedad considerada como un todo, a través de la planificación de la producción y el consumo.
 La tesis del libro de Philippe Fabry es que "la caída del Imperio Romano es la consecuencia del punto muerto al que el socialismo imperial había llevado al mundo antiguo". Fue el dirigismo del estado imperial romano lo que condujo a su colapso. La República Romana, que fue la mayor potencia liberal del mundo antiguo, duró desde el 510 a.C. hasta el 23 a.C., casi 500 años. Sin embargo, gradualmente, la colegialidad cívica que caracterizaba a la República Romana desapareció en favor del poder personal encarnado por emperadores que adoptaron el estilo de gobierno de los potentados orientales del antiguo Egipto y Persia. Rompiendo con una política exterior previamente moderada, Roma de repente sometió a vastas poblaciones a través de la guerra, proporcionando corrientes de esclavos a los ricos inversores romanos, arruinando a las clases medias. A cambio, la población romana demandaba cada vez más subsidios.
 
 En los primeros días de su grandeza, cada romano se consideraba a sí mismo como la principal fuente de sus ingresos. Lo que podía adquirir voluntariamente en el mercado era la fuente de su sustento. El declive de Roma comenzó cuando un gran número de ciudadanos descubrió otra fuente de ingresos: el proceso político o el estado redistributivo.
@@ -598,7 +597,7 @@ Philippe Fabry resume:
 
 Y añade:
 
-> En total, la vida económica, política, artística y religiosa bajo el Imperio Romano en el siglo IV debe haber sido bastante similar a lo que fue bajo Brezhnev en la URSS (y en los peores momentos bajo Stalin) o a lo que puede ser hoy en día en Corea del Norte: toda la población del mundo romano estaba regimentada por el socialismo imperial y sufría, directa o indirectamente, sus efectos.
+> En total, la vida económica, política, artística y religiosa bajo el Imperio Romano en el siglo IV debe haber sido bastante similar a lo que fue bajo Brezhnev en la URSS (y en los peores momentos bajo Stalin) o a lo que puede ser hoy en día en Corea del Norte: Toda la población del mundo romano estaba regimentada por el socialismo imperial y sufría, directa o indirectamente, sus efectos.
 
 # Los orígenes de la libertad: la Edad Media
 
@@ -618,9 +617,9 @@ La idea cristiana de libertad se desarrolló en la teología medieval de San Agu
 
 Desde el principio, el cristianismo enseña que el pecado es un asunto personal, no inherente al grupo, sino que cada individuo debe asumir la responsabilidad de su propia salvación. "Dios ha dotado a su criatura, con libre albedrío, la capacidad de hacer el mal, y por lo tanto, la responsabilidad del pecado", afirma San Agustín en su tratado sobre el libre albedrío, _De Libero Arbitrio_.
 El pecado no puede existir sin libertad. De hecho, el Dios cristiano es un juez que premia la "virtud" y castiga el "pecado". Pero esta concepción de Dios es precisamente incompatible con el fatalismo porque una persona no podría ser culpable y hacer su mea culpa si no fuera primero libre para determinar su propio comportamiento. Reconocer la propia falta moral, la propia culpa, es reconocer que se podría haber actuado de manera diferente.
-"¿Por qué hacemos lo incorrecto?" pregunta San Agustín. Si no me equivoco, el argumento ha demostrado que actuamos de esta manera a través del libre albedrío. Pero este libre albedrío al que debemos nuestra capacidad de pecar, estamos convencidos, me pregunto si Aquel que nos creó hizo bien en dárnoslo. Parece, de hecho, que no habríamos estado expuestos al pecado si nos hubiera sido privado; pero se teme que, de esta manera, Dios también aparece como el autor de nuestras malas acciones. (_De libero arbitrio_, I, 16, 35.)
+"¿Por qué hacemos lo incorrecto?" pregunta San Agustín. Si no me equivoco, el argumento ha demostrado que actuamos de esta manera a través del libre albedrío. Pero este libre albedrío al que debemos nuestra capacidad de pecar, estamos convencidos, me pregunto si aquel que nos creó hizo bien en dárnoslo. Parece, de hecho, que no habríamos estado expuestos al pecado si nos hubiera sido privado; pero se teme que, de esta manera, Dios también aparece como el autor de nuestras malas acciones. (_De libero arbitrio_, I, 16, 35.)
 
-Si Dios quería que el hombre pudiera hacer el mal, ¿no es Él entonces indirectamente responsable del mal? ¿Por qué Dios quiso la posibilidad del mal? San Agustín responde:
+Si Dios quería que el hombre pudiera hacer el mal, ¿No es él entonces indirectamente responsable del mal? ¿Por qué Dios quiso la posibilidad del mal? San Agustín responde:
 
 > el libre albedrío sin el cual nadie puede vivir bien, debes reconocer que es un bien, y que es un regalo de Dios, y que aquellos que hacen mal uso de este bien deberían ser condenados en lugar de decir de aquel que lo dio que no debería haberlo dado.
 
@@ -633,11 +632,12 @@ En resumen, la libertad es un bien porque permite a uno ordenarse al bien y a Di
 ### Dios no hace el bien en nuestro lugar
 
 En la teología medieval, la providencia no es una intervención constante de Dios en la vida de los hombres, como si Dios actuara en nuestro lugar y sin nuestro consentimiento. Por el contrario, Dios da a cada criatura, según su naturaleza, facultades que le permiten proveerse a sí misma y así alcanzar su pleno desarrollo. Dios no hace el bien por la criatura en su lugar.
+
 ![image](assets/es/038.webp)
 
 Y cuanto más alto vamos en la escala de seres, desde el mineral hasta el hombre, más Dios delega en su criatura el poder de actuar por su cuenta. Él confía al hombre la libertad de gobernarse a sí mismo y de gobernar el mundo con su razón, según la virtud de la prudencia.
 
-Así, San Tomás escribe (_Summa contra Gentiles_, III, 69 y 122):
+Así, Santo Tomás escribe (_Summa contra Gentiles_, III, 69 y 122):
 
 > Quitar de la perfección de las criaturas es restar de la perfección del poder divino (...) Dios se ofende por nosotros solo porque actuamos contra nuestro propio bien.
 
@@ -649,14 +649,14 @@ La providencia, por lo tanto, nos da los medios para ser nuestra propia providen
 
 Para que el hombre haga el mejor uso posible de su libertad, Dios le da una herramienta que es su razón y un manual para iluminarlo que es la ley natural.
 
-La ley natural se expresa en nosotros a través de inclinaciones como el amor a la verdad, la obediencia a la razón, o la famosa regla de oro: "No hagas a otros lo que no quieras que te hagan a ti." Estas inclinaciones son, según él, innatas. De hecho, San Tomás escribe, "debe considerarse que la justicia natural es aquella hacia la cual inclina la naturaleza del hombre."
-Sin embargo, esta luz interior no es suficiente para actuar bien. Es necesario el desarrollo de normas concretas de acción y su aplicación a situaciones específicas. Entonces, recae en los juristas definir estas normas, de acuerdo con la ley natural: estas son leyes humanas. Pero la ley natural es superior a la ley humana y se impone universalmente, incluyendo a los Príncipes.
+La ley natural se expresa en nosotros a través de inclinaciones como el amor a la verdad, la obediencia a la razón, o la famosa regla de oro: "No hagas a otros lo que no quieras que te hagan a ti." Estas inclinaciones son, según él, innatas. De hecho, Santo Tomás escribe, "debe considerarse que la justicia natural es aquella hacia la cual inclina la naturaleza del hombre."
+Sin embargo, esta luz interior no es suficiente para actuar bien. Es necesario el desarrollo de normas concretas de acción y su aplicación a situaciones específicas. Entonces, recae en los juristas definir estas normas, de acuerdo con la ley natural: estas son leyes humanas. Pero la ley natural es superior a la ley humana y se impone universalmente, incluyendo a los príncipes.
 Según Santo Tomás:
 
 > A través del conocimiento de la ley natural, el hombre accede directamente al orden común de la razón, antes y por encima del orden político al que pertenece como ciudadano de una sociedad particular.
 > Por lo tanto, existe un derecho anterior a la formación del Estado, un conjunto de principios generales que la razón puede articular estudiando la naturaleza del hombre tal como Dios la creó. Este derecho se impone al monarca, al poder, que debe entonces respetarlo. Y las leyes promulgadas por la autoridad política son vinculantes solo en la medida en que se conformen a la ley natural.
 
-## Razón y fe: una competencia abierta
+## Razón y fe: Una competencia abierta
 
 <chapterId>ca379c2e-57cb-541d-8ddb-4b925032a779</chapterId>
 
@@ -669,16 +669,16 @@ En la Edad Media, la razón y la fe compiten por el acceso a la verdad. Siguiend
 Toma de la idea de Aristóteles de un orden natural autónomo, independiente del orden celestial. Este orden natural es, de hecho, trascendido por el orden sobrenatural, pero existe por separado y es anterior a él. Por lo tanto, para él, hay dos formas de acceder a la verdad sobre el mundo y particularmente sobre Dios:
 
 - Por un lado, la **razón**, que parte de la naturaleza, de la experiencia sensible, que desarrolla ideas y alcanza certezas racionales a través de su razonamiento.
-- Por otro, la **fe** que parte de una Revelación, es decir, un texto sagrado inspirado por Dios. El enfoque es opuesto, no es la realidad o una característica humana (el pensamiento) lo que lleva a certezas sino verdades dadas desde arriba por Dios que explicarán la realidad.
+- Por otro, la **fe** que parte de una revelación, es decir, un texto sagrado inspirado por Dios. El enfoque es opuesto, no es la realidad o una característica humana (el pensamiento) lo que lleva a certezas sino verdades dadas desde arriba por Dios que explicarán la realidad.
 
 ¿Cómo reconciliar entonces las dos? En la Edad Media, se pueden identificar dos tradiciones de articular la relación entre razón/fe: el misticismo y el racionalismo religioso.
 
 ### La rivalidad entre el misticismo y el racionalismo religioso
 
 El misticismo consiste en excluir la razón de la fe. La fe es absoluta, más allá del razonamiento, y nunca debería estar sujeta a la razón. Si contradice a la razón, eso es normal, y tratar de encajar las verdades reveladas en el marco de la razón es herejía. Dios está bien más allá de la razón, en otras palabras, no tiene sentido tratar de explicarlo. Por lo tanto, la filosofía está muy mal vista. Dios incluso estaría más allá del lenguaje humano: Sería el innombrable, el totalmente Otro. Su voluntad es absoluta y arbitraria. Por lo tanto, no se debe buscar entender por qué Dios hizo esto o aquello, la obediencia es la única actitud apropiada.
-En el Islam, también se dice que no se debe representar a Dios ni darle una imagen. En el mundo cristiano, un místico como Meister Eckhart escribió notablemente en un Sermón: "Todas las cosas tienen un porqué, pero Dios no tiene porqué." Para los místicos, la única filosofía válida es la que viene directamente de la Revelación. Cualquier cosa que no provenga de ella no es ni verdadera ni falsa sino carente de cualquier valor de verdad.
+En el Islam, también se dice que no se debe representar a Dios ni darle una imagen. En el mundo cristiano, un místico como Meister Eckhart escribió notablemente en un Sermón: "Todas las cosas tienen un porqué, pero Dios no tiene porqué." Para los místicos, la única filosofía válida es la que viene directamente de la revelación. Cualquier cosa que no provenga de ella no es ni verdadera ni falsa sino carente de cualquier valor de verdad.
 El opuesto directo de este pensamiento es el que afirma que solo la razón tiene razón, y que toda fe es absurda. Esto es el racionalismo absoluto, que conduce al ateísmo. Sin embargo, tal corriente aún no había surgido en la Edad Media.
-Para los proponentes del racionalismo religioso, existe una complementariedad entre la razón y la fe: esta es la posición intermedia. La verdad puede ser conocida tanto por la fe como por la razón. Y así, lo que es verdadero en la fe también debe ser verdadero en la razón, y viceversa. La verdad es una pero es accesible de dos maneras. Por lo tanto, hay dos ciencias que no pueden contradecirse entre sí sino complementarse: la ciencia natural o filosofía y la ciencia sagrada o teología. Si esto no es así, si aparece una contradicción entre razón y fe, es o bien que uno razona mal, o que uno interpreta mal las Escrituras.
+Para los proponentes del racionalismo religioso, existe una complementariedad entre la razón y la fe: esta es la posición intermedia. La verdad puede ser conocida tanto por la fe como por la razón. Y así, lo que es verdadero en la fe también debe ser verdadero en la razón, y viceversa. La verdad es una pero es accesible de dos maneras. Por lo tanto, hay dos ciencias que no pueden contradecirse entre sí sino complementarse: La ciencia natural o filosofía y la ciencia sagrada o teología. Si esto no es así, si aparece una contradicción entre razón y fe, es o bien que uno razona mal, o que uno interpreta mal las Escrituras.
 Así, para Tomás de Aquino, "La fe es el asentimiento de la razón movida por la voluntad en ausencia de evidencia". En otras palabras, la razón es capaz de aprehender el mundo y a Dios, racionalmente, hasta cierto punto. En este punto, no encuentra más evidencia. La voluntad puede entonces elegir creer, y así avanzar hacia la verdad por la fe, o no creer. Pero la fe no es un salto hacia lo absurdo, no es una humillación de la razón.
 
 Esta es la posición intermedia, que busca reconciliar la fe y la razón. El verdadero racionalismo no es rechazar todo lo que la razón no comprende sino pensar sobre los límites de la razón. Lo que va más allá de la razón no es necesariamente contra la razón. Una cita de Pascal en los **_Pensamientos_** ilustra muy bien esta mentalidad: "Dos extremos: excluir la razón, admitir solo la razón."
@@ -688,6 +688,7 @@ Esta es la posición intermedia, que busca reconciliar la fe y la razón. El ver
 La Edad Media Cristiana estuvo marcada, a principios del siglo XIII, por el nacimiento y la multiplicidad de universidades en Occidente. Una universidad es una comunidad de estudiantes y maestros de la misma ciudad bajo el control de la Iglesia y comprende en principio cuatro facultades: artes, teología, derecho, medicina. La teología se concibe como una ciencia, siguiendo el modelo de la ciencia griega.
 
 ![imagen](assets/es/041.webp)
+
 En 1200, Felipe Augusto estableció la Universidad de París, que rápidamente se convirtió en la universidad más renombrada de Europa. En 1257, Roberto de Sorbón fundó un colegio de teología en la Universidad de París, que más tarde sería llamado la Sorbona. Un nuevo método de enseñanza e investigación conocido como escolástica (de schola, escuela) surgió dentro de estas universidades. Involucraba la "disputatio", una especie de debate contradictorio frente a una audiencia. Se proponía una tesis, seguida de objeciones a las cuales había que proporcionar una respuesta. Una vez agotados todos los argumentos, el maestro resolvería el debate con una solución razonada.
 
 Entre los grandes maestros aristotélicos que marcaron esta era, podemos mencionar a Alberto Magno (1200-1280) y Tomás de Aquino (1224-1274). Este último, al establecer la razón en sus derechos, destacó la especificidad y autonomía de la sabiduría filosófica en relación con la teología. Así como la gracia presupone la naturaleza y la cumple, la fe presupone y perfecciona la razón.
@@ -707,12 +708,13 @@ Esto es por lo que las sociedades medievales se caracterizan por el unanimismo p
 
 La cuestión de la relación entre política y religión tomó forma con la obra de San Agustín _Civitas Dei_ (_La Ciudad de Dios_). En ella, explica que coexisten dos esferas:
 Dos amores han hecho pues dos ciudades: el amor de sí hasta el desprecio de Dios, la ciudad terrenal; el amor de Dios hasta el desprecio de sí, la ciudad celestial.
+
 ![image](assets/es/042.webp)
 
 Tenemos, por lo tanto:
 
 - Un poder espiritual derivado de Dios está encarnado por el Papa y se ejerce sobre toda la cristiandad (esta es la Ciudad de Dios).
-- La ciudad de los hombres, que es terrenal y hecha de un poder local y temporal. Se origina en el pecado original, del Mal.
+- La ciudad de los hombres, que es terrenal y hecha de un poder local y temporal. Se origina en el pecado original, del mal.
 
 Sin embargo, para Agustín, esta ciudad terrenal es necesaria. Es necesaria porque garantiza la paz. Así, la coexistencia con lo religioso debe ser bien gestionada, y debería ser regulada por un predominio del poder espiritual sobre el poder temporal. Pero no debería haber una separación radical o un conflicto abierto, y ambas entidades deberían trabajar juntas. Los historiadores han llamado a esta doctrina el agustinismo político.
 
@@ -722,7 +724,7 @@ Sin embargo, para Agustín, esta ciudad terrenal es necesaria. Es necesaria porq
 
 Sin embargo, ni los papas ni los reyes quedaron satisfechos con esta alianza. La Iglesia intentó reclamar su autoridad sobre el poder político mientras que el poder político intentó liberarse para afirmar su soberanía.
 
-Así, la Iglesia por su lado desarrollará su derecho y sus cortes y postulará que el Papa puede resolver disputas terrenales. Por su lado, los reyes comenzarán a desarrollar un aparato estatal lo más poderoso posible. También intentarán centralizar la resolución de conflictos legales, luego generalizarán gradualmente la tributación, desarrollarán la administración territorial y levantarán ejércitos: sentarán las bases del Estado moderno.
+Así, la Iglesia por su lado desarrollará su derecho y sus cortes y postulará que el Papa puede resolver disputas terrenales. Por su lado, los reyes comenzarán a desarrollar un aparato estatal lo más poderoso posible. También intentarán centralizar la resolución de conflictos legales, luego generalizarán gradualmente la tributación, desarrollarán la administración territorial y levantarán ejércitos: Sentarán las bases del Estado moderno.
 
 En realidad, la competencia entre los poderes llevó a numerosos conflictos. Cada Príncipe o cada Papa siempre intentó tener la última palabra y convencer de que él sostenía la autoridad suprema, como último recurso. Así, el Papa Gregorio VII declaró:
 
@@ -757,9 +759,10 @@ La encarnación más conocida de esta doctrina emergente es la Escuela de Salama
 El descubrimiento de las Américas constituyó un verdadero choque cultural, una primera brecha en el unanimismo político-religioso heredado de la Antigüedad. La famosa controversia sobre los derechos de los indios dividió de hecho a los teólogos en dos campos opuestos e irreconciliables.
 
 En un campo, estaban los proponentes del monolitismo cultural y el principio de coerción. Para ellos, los indios vivían fuera del mensaje bíblico. Esto podría significar que Dios no quería revelarse a ellos. ¿Por qué? Dos hipótesis son entonces concebibles: 1° Son grandes pecadores (canibalismo) 2° Son atrasados y están más cerca de la bestia que del hombre. Por eso tienen derecho a tratarlos como esclavos y tomar sus tierras por la fuerza, bajo el argumento de que son tanto infieles como bárbaros.
-En el otro bando, estaban los proponentes del pluralismo y las libertades civiles: estos son los teólogos de la Escuela de Salamanca, discípulos de San Tomás. Según Francisco de Vitoria y Bartolomé de Las Casas, se deben reconocer derechos para los indígenas como seres humanos y no porque hayan adherido o no a la fe católica. No solo no deberían ser convertidos por la fuerza, sino que tampoco se deberían tomar sus posesiones, ni deberían ser sometidos a ninguna forma de esclavitud. Su argumentación se basa en la concepción tomista de la ley natural, distinta de la ley divina.
-En la _Summa Theologica_, San Tomás plantea la siguiente pregunta: ¿debe uno obedecer a un Príncipe infiel, que no cree en Dios? Y él responde que sí, porque la autoridad legítima es por derecho natural, y la infidelidad o el ateísmo del Príncipe no es razón para la rebelión. El orden político es primordialmente un orden natural. Además, pregunta: ¿debería hacerse la guerra a los infieles y la fe impuesta a ellos? Responde que no: una guerra es justa solo si es defensiva. Finalmente, la fe solo puede ser un acto libre.
-Los eruditos de Salamanca aplicaron este razonamiento al caso de los pueblos indígenas: la propiedad es un derecho natural. Por lo tanto, tomar tierras de los pueblos indígenas es cometer un robo, igual como si fueran cristianos. Tampoco es permisible hacerles la guerra dado que no hay agresión por su parte, sino más bien por la nuestra.
+En el otro bando, estaban los proponentes del pluralismo y las libertades civiles: Estos son los teólogos de la Escuela de Salamanca, discípulos de San Tomás. Según Francisco de Vitoria y Bartolomé de Las Casas, se deben reconocer derechos para los indígenas como seres humanos y no porque hayan adherido o no a la fe católica. No solo no deberían ser convertidos por la fuerza, sino que tampoco se deberían tomar sus posesiones, ni deberían ser sometidos a ninguna forma de esclavitud. Su argumentación se basa en la concepción tomista de la ley natural, distinta de la ley divina.
+En la _Summa Theologica_, San Tomás plantea la siguiente pregunta: ¿Debe uno obedecer a un Príncipe infiel, que no cree en Dios? Y él responde que sí, porque la autoridad legítima es por derecho natural, y la infidelidad o el ateísmo del Príncipe no es razón para la rebelión. El orden político es primordialmente un orden natural. Además, pregunta: ¿Debería hacerse la guerra a los infieles y la fe impuesta a ellos? Responde que no: Una guerra es justa solo si es defensiva. Finalmente, la fe solo puede ser un acto libre.
+Los eruditos de Salamanca aplicaron este razonamiento al caso de los pueblos indígenas: La propiedad es un derecho natural. Por lo tanto, tomar tierras de los pueblos indígenas es cometer un robo, igual como si fueran cristianos. Tampoco es permisible hacerles la guerra dado que no hay agresión por su parte, sino más bien por la nuestra.
+
 ![image](assets/es/045.webp)
 
 El asunto de los pueblos indígenas fue la primera grieta en el monolito político-religioso. Mostró que la unidad de la sociedad política podría descansar en una base distinta a la unidad religiosa de los habitantes del mismo territorio, sobre la base de una pertenencia común a la naturaleza humana.
@@ -782,7 +785,6 @@ Enfoquémonos en el primer punto. El segundo punto se abordará en la siguiente 
 
 Henri Pirenne, un historiador belga del siglo XX, dedicó parte de su obra al análisis del surgimiento del capitalismo en Europa. En su libro _Historia de Europa_, afirma:
 
-
 Todas las características esenciales del capitalismo — la empresa individual, el progreso del crédito, las ganancias comerciales, la especulación, etc. — ya existían desde el siglo XII en las ciudades-estado italianas, Venecia, Génova o Florencia. 
 
 ![image](assets/es/046.webp)
@@ -798,7 +800,7 @@ Pirenne observa que estas prácticas, aunque presentes en otras regiones de Euro
 
 ### El problema de los préstamos con interés
 
-Las Escrituras condenan los préstamos con interés, llamados usura, considerando que prestar dinero con interés equivalía a explotar a los prestatarios vulnerables. Sin embargo, en la práctica, la Iglesia hizo la vista gorda al respecto.
+Las escrituras condenan los préstamos con interés, llamados usura, considerando que prestar dinero con interés equivalía a explotar a los prestatarios vulnerables. Sin embargo, en la práctica, la Iglesia hizo la vista gorda al respecto.
 
 ![image](assets/es/047.webp)
 
@@ -813,12 +815,13 @@ Sin embargo, según el historiador francés, el surgimiento del capitalismo debe
 ### Una crítica de las manipulaciones monetarias
 
 El estudio sistemático de las leyes económicas comienza en la Alta Edad Media. Los primeros economistas son los teólogos escolásticos de la Escuela de París. El primero de ellos en escribir un tratado científico enteramente dedicado a un tema económico es Nicolás Oresme (1325-1382). Alrededor de 1360, compuso su _Tratado sobre el Origen, Naturaleza, Ley y Alteraciones del Dinero_, que resume y desarrolla las ideas de los escolásticos de su tiempo.
+
 ![image](assets/es/049.webp)
 
 En el corazón de su análisis monetario yace el problema de las "mutaciones" del dinero, es decir, alteraciones en el contenido metálico de las monedas y su denominación. Estas alteraciones han ocurrido desde el amanecer de los tiempos y están bien documentadas tanto para la Antigüedad como para la Edad Media. Su efecto más visible es cambiar el poder adquisitivo de la unidad monetaria, especialmente para disminuirlo. Esta es una forma primitiva de inflación que Oresme claramente condena como un mal.
 
-Oresme plantea inmediatamente una pregunta central: ¿es beneficiosa la inflación para la comunidad? Responde de manera negativa, argumentando que la inflación no hace que el dinero sea más o menos útil para los intercambios. La economía puede funcionar bien independientemente del nivel de precios, y por lo tanto, independientemente de la oferta monetaria nominal.
-Pero si ese es el caso, surge obviamente otra pregunta: ¿por qué existen alteraciones de la moneda? Y en particular, ¿por qué buscar aumentar la oferta de dinero? Oresme responde que estas alteraciones no tienen las mismas consecuencias para diferentes miembros de la comunidad. Benefician a ciertas personas en detrimento de otras. Los ganadores de las alteraciones monetarias tienen un interés material en implementarlas. Generalmente, estos ganadores son los hombres en el poder. Oresme escribe:
+Oresme plantea inmediatamente una pregunta central: ¿Es beneficiosa la inflación para la comunidad? Responde de manera negativa, argumentando que la inflación no hace que el dinero sea más o menos útil para los intercambios. La economía puede funcionar bien independientemente del nivel de precios, y por lo tanto, independientemente de la oferta monetaria nominal.
+Pero si ese es el caso, surge obviamente otra pregunta: ¿Por qué existen alteraciones de la moneda? Y en particular, ¿Por qué buscar aumentar la oferta de dinero? Oresme responde que estas alteraciones no tienen las mismas consecuencias para diferentes miembros de la comunidad. Benefician a ciertas personas en detrimento de otras. Los ganadores de las alteraciones monetarias tienen un interés material en implementarlas. Generalmente, estos ganadores son los hombres en el poder. Oresme escribe:
 
 > Me parece que la razón primaria y última por la que el príncipe quiere apoderarse del poder para cambiar las monedas es la ganancia o beneficio que puede derivar de ello, pues de otro modo, sería sin razón que hiciera tantas y tan considerables mutaciones.
 
@@ -834,13 +837,14 @@ Además, si dos monedas diferentes se benefician del curso legal, los agentes ac
 
 <partId>58793f94-f217-530a-a877-b5b6df70a5fe</partId>
 
-## Alegato por la Tolerancia Religiosa
+## Alegato por la tolerancia religiosa
 
 <chapterId>c4c9a729-4a0f-5814-8e32-9aff4d373018</chapterId>
 
 :::video id=e6a4005f-e732-48df-961a-d701ef4a777f:::
 
 Desde el Renacimiento, Europa iba a ser devastada por guerras de religión. Por lo tanto, la tolerancia se convirtió en una de las grandes batallas de la Ilustración.
+
 ![image](assets/es/050.webp)
 
 Para algunos, el método científico unificaría a las personas más allá de los prejuicios con una visión común del mundo. ¿No es la atracción universal la misma para un católico, un protestante, un judío o un ateo? Así, la Enciclopedia de Diderot y d’Alembert representa un intento de promover el conocimiento universal, capaz de unir a las personas.
@@ -872,18 +876,19 @@ El pasaje vale la pena citarlo en su totalidad porque es muy famoso:
 Adéntrate en la Bolsa de Londres, un lugar más respetable que muchos tribunales; allí ves delegados de todas las naciones reunidos por la utilidad de la humanidad. Allí, el judío, el musulmán y el cristiano tratan entre sí como si fueran de la misma religión, y solo llaman infieles a aquellos que se declaran en bancarrota; allí, el presbiteriano confía en el anabaptista, y el anglicano acepta la promesa del cuáquero. Después de dejar estas asambleas pacíficas y libres, algunos van a la sinagoga, otros van a beber; uno va a ser bautizado en una gran tina en nombre del Padre por el Hijo en el Espíritu Santo; otro hace cortar el prepucio de su hijo y murmura palabras en hebreo sobre el niño que no entiende; otros van a su iglesia a esperar la inspiración de Dios, con sus sombreros puestos, y todos están contentos.
 Por lo tanto, el comercio une a los hombres alrededor de una "misma religión", el beneficio. Y permite a los individuos pasar por alto las diferencias religiosas o de clase, que son los orígenes de los conflictos. En Inglaterra, el beneficio es así una religión pacífica. Pero, ¿qué pasa en Francia?
 
-En la _Décima Carta_, "Sobre el Comercio", Voltaire describe la mentalidad francesa de la siguiente manera: "el comerciante a menudo escucha su profesión hablada con desprecio, hasta el punto de que es lo suficientemente tonto como para avergonzarse de ella." En contraste, en Inglaterra, el comerciante siente un "orgullo justo", y se compara "no sin razón, a un ciudadano romano". Voltaire rinde homenaje a la clase media inglesa, su comercio y su sociedad pacífica.
+En la _Décima Carta_, "Sobre el Comercio", Voltaire describe la mentalidad francesa de la siguiente manera: "El comerciante a menudo escucha su profesión hablada con desprecio, hasta el punto de que es lo suficientemente tonto como para avergonzarse de ella." En contraste, en Inglaterra, el comerciante siente un "orgullo justo", y se compara "no sin razón, a un ciudadano romano". Voltaire rinde homenaje a la clase media inglesa, su comercio y su sociedad pacífica.
 
 ### La Verdad Requiere Libertad
 
-Sin embargo, Francia no carecía de grandes mentes. Es poco conocido pero Anne Robert Jacques Turgot, Barón de Laulne fue ante todo un pensador líder antes de convertirse en el Controlador General de Finanzas bajo Luis XVI. Fue el autor de un tratado magistral sobre economía política, _Reflexiones sobre la Formación y Distribución de la Riqueza_ (1766), precediendo a _La Riqueza de las Naciones_ de Adam Smith (1776).
+Sin embargo, Francia no carecía de grandes mentes. Es poco conocido pero Anne Robert Jacques Turgot, Barón de Laulne fue ante todo un pensador líder antes de convertirse en el controlador general de finanzas bajo Luis XVI. Fue el autor de un tratado magistral sobre economía política, _Reflexiones sobre la Formación y Distribución de la Riqueza_ (1766), precediendo a _La Riqueza de las Naciones_ de Adam Smith (1776).
 
 ![image](assets/es/052.webp)
+
 Sus primeros escritos reflejan su compromiso con la filosofía de la Ilustración. En 1754, publicó sus _Cartas sobre la Tolerancia Civil_ y en 1757, varios artículos escritos para _La Enciclopedia_ de Diderot y d'Alembert.
 En sus cartas, Turgot presenta una definición de tolerancia. Tolerar significa rechazar el uso de la violencia contra el error. En otras palabras, la tolerancia no es la aceptación del error. Se puede luchar contra él pero con las armas de la convicción y la razón, no con la violencia.
 
 Posteriormente, Turgot se esforzó por hacer que Luis XVI eliminara la frase: "Juro suprimir la herejía" del juramento tomado el día de la coronación. En _Memoria al Rey sobre la Tolerancia_ (1775), escribe:
-¿Dirán los defensores de la intolerancia que el príncipe tiene derecho a mandar cuando su religión es verdadera y que entonces se le debe obedecer? No, incluso entonces, no se puede ni se debe obedecer; porque si se debe seguir la religión que él prescribe, no es porque él lo ordene, sino porque es verdadera; y no es, ni puede ser, porque el príncipe lo prescriba que es verdadera. No hay hombre tan insensato que crea una religión verdadera por tal razón. Por lo tanto, quien se somete a ella de buena fe no obedece al príncipe, solo obedece a su conciencia; y la orden del príncipe no añade peso alguno a la obligación que esta conciencia le impone. Ya sea que el príncipe crea o no crea en una religión, ya sea que ordene o no ordene seguirla, es ni más ni menos lo que es, verdadera o falsa. La opinión del príncipe es, por lo tanto, absolutamente ajena a la verdad de una religión, y consecuentemente a la obligación de seguirla: el príncipe, por lo tanto, como príncipe, no tiene derecho a juzgar, ningún derecho a mandar en este aspecto; su incompetencia es absoluta en asuntos de este orden, que no están dentro de su ámbito, y en los cuales la conciencia de cada individuo puede y debe tener solo a Dios como su único juez.
+¿Dirán los defensores de la intolerancia que el príncipe tiene derecho a mandar cuando su religión es verdadera y que entonces se le debe obedecer? No, incluso entonces, no se puede ni se debe obedecer; porque si se debe seguir la religión que él prescribe, no es porque él lo ordene, sino porque es verdadera; y no es, ni puede ser, porque el príncipe lo prescriba que es verdadera. No hay hombre tan insensato que crea una religión verdadera por tal razón. Por lo tanto, quien se somete a ella de buena fe no obedece al príncipe, solo obedece a su conciencia; y la orden del príncipe no añade peso alguno a la obligación que esta conciencia le impone. Ya sea que el príncipe crea o no crea en una religión, ya sea que ordene o no ordene seguirla, es ni más ni menos lo que es, verdadera o falsa. La opinión del príncipe es, por lo tanto, absolutamente ajena a la verdad de una religión, y consecuentemente a la obligación de seguirla: El príncipe, por lo tanto, como príncipe, no tiene derecho a juzgar, ningún derecho a mandar en este aspecto; su incompetencia es absoluta en asuntos de este orden, que no están dentro de su ámbito, y en los cuales la conciencia de cada individuo puede y debe tener solo a Dios como su único juez.
 En otras palabras, ser tolerante no significa ser hostil hacia la religión. Significa considerar que la creencia religiosa no cae bajo el poder político sino bajo la conciencia de cada individuo. La verdad requiere libertad; nunca debe ser impuesta bajo pena de corromperse.
 
 - Las ideas deberían intercambiarse, justo como los bienes
@@ -898,7 +903,7 @@ El liberalismo económico a menudo se asocia con una tradición anglosajona que 
 
 ![image](assets/es/053.webp)
 
-Fue en reacción al mercantilismo y, más ampliamente, a las ideas del Antiguo Régimen que nació la ciencia económica en Francia. Con el Iluminismo llegó un período en el que los filósofos comenzaron a llamarse a sí mismos "economistas", estos eran los fisiócratas.
+Fue en reacción al mercantilismo y, más ampliamente, a las ideas del antiguo régimen que nació la ciencia económica en Francia. Con el Iluminismo llegó un período en el que los filósofos comenzaron a llamarse a sí mismos "economistas", estos eran los fisiócratas.
 
 Ellos sentaron las bases de la economía liberal. Los principales representantes de la escuela fisiocrática son François Quesnay, el Marqués de Mirabeau, Lemercier de la Rivière, Abbé Nicolas Baudeau, Louis-Paul Abeille y Pierre-Samuel Dupont de Nemours.
 
@@ -941,7 +946,7 @@ De hecho, los humanos naturalmente quieren mejorar su propia condición y la de 
 
 Para los Fisiócratas, la libertad no divide. Luchar contra los privilegios políticos y combatir las rentas económicas son una misma cosa. La gran novedad de los economistas modernos, en el alba del siglo XVIII, fue que se centraron en cada individuo con la intención de restaurar su capacidad de acción mientras pensaban en cómo contener las pasiones e intereses a través del mercado libre.
 
-De hecho, ¿cómo hacer coexistir a hombres con intereses divergentes? ¿Qué hacer si los hombres entran en conflicto, si cometen errores, si son codiciosos y egoístas?
+De hecho, ¿Cómo hacer coexistir a hombres con intereses divergentes? ¿Qué hacer si los hombres entran en conflicto, si cometen errores, si son codiciosos y egoístas?
 
 Los Fisiócratas respondieron en tres etapas:
 
@@ -1015,18 +1020,20 @@ El autor se cuida de distinguir entre la sociedad civil y el Estado:
 
 El éxito del libro es inmenso. Vendió unas 100,000 copias en unos pocos meses, en un país de tres millones de habitantes y contribuye a avivar el sentimiento de independencia americano.
 
-Thomas Paine, a través de su panfleto, jugó un papel crucial en la Revolución Americana y en inspirar los ideales de libertad y democracia. Influenció directamente la Declaración de Independencia Americana adoptada unos meses después.
+Thomas Paine, a través de su panfleto, jugó un papel crucial en la Revolución Americana y en inspirar los ideales de libertad y democracia. Influenció directamente la declaración de independencia americana adoptada unos meses después.
 
 ### El Congreso de Filadelfia
 
 El 4 de julio de 1776, en Filadelfia, donde se reúnen en congreso (en inglés, "Convention"), los representantes de las Trece Colonias Inglesas de Norteamérica adoptan una resolución declarando que los "Estados Unidos son, y de derecho deben ser, Estados libres e independientes". La resolución es apoyada por John Adams, (uno de los inspiradores del Tea Party) y Benjamin Franklin, delegados de Massachusetts. La Declaración de Independencia será redactada por Thomas Jefferson, delegado de Virginia.
 
 ![image](assets/es/060.webp)
+
 A lo largo de los años que siguieron, los franceses La Fayette, Rochambeau, el Almirante de Grasse, el Conde d'Estaing, el General Duportail, el Marqués de la Rouerie, el Comandante Pierre L'Enfant, el escritor Beaumarchais, y muchos otros lucharon junto a los Insurgentes para liberarlos del yugo del Rey de Inglaterra.
+
 ![image](assets/es/061.webp)
 
 141 años después, el 4 de julio de 1917, en medio de la Primera Guerra Mundial, se organizó una ceremonia para los primeros soldados de la AEF que llegaron a París en el Cementerio de Picpus sobre la tumba de La Fayette, el "héroe de los dos mundos". En esta ocasión, el Capitán Charles E. Stanton del estado mayor del General Pershing pronunció un famoso discurso:
-Lamento no poder dirigirme a la población francesa en el hermoso idioma de su leal país. No se puede olvidar que su nación fue nuestra amiga cuando América luchó por su existencia, cuando un puñado de hombres valientes y patrióticos estaban determinados a defender los derechos que su Creador les había otorgado -- que Francia, en la persona de Lafayette, vino en nuestra ayuda tanto en palabras como en hechos. Sería ingrato no recordar esto, y América no fallará en sus obligaciones...
+Lamento no poder dirigirme a la población francesa en el hermoso idioma de su leal país. No se puede olvidar que su nación fue nuestra amiga cuando América luchó por su existencia, cuando un puñado de hombres valientes y patrióticos estaban determinados a defender los derechos que su creador les había otorgado -- que Francia, en la persona de Lafayette, vino en nuestra ayuda tanto en palabras como en hechos. Sería ingrato no recordar esto, y América no fallará en sus obligaciones...
 
 Por lo tanto, es con gran orgullo que adoptamos los colores en tributo de respeto hacia este ciudadano de vuestra gran República, y aquí y ahora, en la sombra de los ilustres muertos, le aseguramos nuestro corazón y nuestro honor para dar a esta guerra un desenlace favorable.
 
@@ -1063,24 +1070,25 @@ La secularización del mundo occidental no ocurrió de la noche a la mañana. Fu
 Desde Machiavelli y Hobbes, se entiende al hombre como un ser de pasiones, animado por tendencias contradictorias. Por lo tanto, era necesario encontrar principios reguladores para estas pasiones para evitar los conflictos y la violencia a los que conducen.
 Hemos hablado de economistas y su defensa del mercado libre. Pero para muchos filósofos, la solución al problema presupone más bien el establecimiento de un poder soberano a través de un contrato legal.
 
-Hasta el siglo XVIII, el principal problema político para estos filósofos es, por lo tanto, el de la soberanía. Es principalmente una cuestión de justicia: ¿quién puede ejercer legítimamente la soberanía?
+Hasta el siglo XVIII, el principal problema político para estos filósofos es, por lo tanto, el de la soberanía. Es principalmente una cuestión de justicia: ¿Quién puede ejercer legítimamente la soberanía?
 
 ### Soberanía Popular
 
 La idea fue inspirada por Locke en el siglo XVII y luego retomada por Rousseau. El poder soberano no solo debe provenir de la voluntad libre del pueblo, sino también residir en él. Esta es la teoría rousseauniana de la soberanía de la voluntad general, lo que hoy llamamos democracia.
+
 ![image](assets/es/063.webp)
 
 Rousseau concibe al pueblo como un individuo autónomo capaz de someterse a las leyes que establecen. La voluntad libre del pueblo constituye el único fundamento justo de la soberanía. Rousseau desarrollaría este humanismo legal, característico de la Modernidad, hasta sus últimas consecuencias al concebir al pueblo como un individuo capaz de autodeterminarse libremente o como una voluntad general. Así, el contrato implica la sumisión a las leyes que el hombre como voluntad general se da a sí mismo como voluntad particular. La teoría de la voluntad general o de la soberanía del pueblo permite así la reconciliación de la libertad y la sumisión. La autoinstitución de la ley o autonomía política ha sido, de hecho, un componente esencial de la democracia desde Rousseau.
 
-Pero la cuestión del origen de la soberanía no es la única. La reflexión puede tomar una nueva dirección, la del modo de ejercicio de la soberanía. ¿Es siempre justa la voluntad general? Y sobre todo, ¿está autorizada a intervenir en la sociedad civil y dentro de qué límites?
+Pero la cuestión del origen de la soberanía no es la única. La reflexión puede tomar una nueva dirección, la del modo de ejercicio de la soberanía. ¿Es siempre justa la voluntad general? Y sobre todo, ¿Está autorizada a intervenir en la sociedad civil y dentro de qué límites?
 
 ### La teoría del poder limitado
 
-Uno de los filósofos de la Ilustración cuya influencia fue muy fuerte en Francia y América es John Locke. Fue la inspiración detrás de los Padres Fundadores de los Estados Unidos pero también de la Declaración de los Derechos del Hombre y del Ciudadano en 1789
+Uno de los filósofos de la Ilustración cuya influencia fue muy fuerte en Francia y América es John Locke. Fue la inspiración detrás de los padres fundadores de los Estados Unidos pero también de la declaración de los derechos del hombre y del ciudadano en 1789
 
 ![image](assets/es/064.webp)
 
-Todos los sistemas anteriores habían considerado que las libertades son solo privilegios otorgados por el poder en virtud de una autorización que puede ser revocada en cualquier momento. Para Locke, la vida de un hombre le pertenece por virtud de un derecho natural (es decir: por virtud de un principio moral inherente a la naturaleza humana) y que el único propósito moral de un gobierno es la protección de los derechos individuales.
+Todos los sistemas anteriores habían considerado que las libertades son solo privilegios otorgados por el poder en virtud de una autorización que puede ser revocada en cualquier momento. Para Locke, la vida de un hombre le pertenece por virtud de un derecho natural (Es decir: por virtud de un principio moral inherente a la naturaleza humana) y que el único propósito moral de un gobierno es la protección de los derechos individuales.
 
 Locke asigna al estado la misión de defender la propiedad individual, entendiendo por "vida, libertad y propiedad":
 

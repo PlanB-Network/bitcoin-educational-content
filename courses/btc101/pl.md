@@ -910,7 +910,7 @@ Tak więc, Bitcoin jest systemem monetarnym niepodlegającym cenzurze i niezatrz
 
 <chapterId>d5e35e41-ea26-5478-8eb9-07daf9dff508</chapterId>
 
-https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+Cena bitcoina charakteryzuje się dużą zmiennością. Jego wartość może zmienić się znacznie w zależności od sytuacji na rynku i faz hossy i bessy, zupełnie jak każdy inny rynek finansowy.
 
 ![image](assets/en/67.webp)
 
@@ -929,6 +929,7 @@ Wcześni użytkownicy Bitcoina to głównie technofile, cypherpunki, libertarian
 - Dark web & przestępcy
 
 Następnie, użycie Bitcoina rozszerzyło się na rynki dark webu, takie jak Silk Road, ze względu na jego niekontrolowaną i pseudonimową naturę, która przyciągnęła także ludzi spoza tej platformy, zaangażowanych w działalność przestępczą. Należy jednak zauważyć, że to sposób użycia narzędzia, a nie samo narzędzie, określa jego legalność lub nielegalność. Nielegalne użycie Bitcoina samo w sobie nie czyni z nikogo przestępcy. To użycie, a nie narzędzie, może być klasyfikowane jako nielegalne. Na przykład, użycie Bitcoina do takich działań jak zakup pewnych narkotyków może być legalne lub nielegalne w zależności od regulacji terytorium, na którym taka działalność ma miejsce.
+
 - Szaleństwo ICO i przybycie ogółu społeczeństwa.
 Rok 2017 to duża bańka spekulacyjna w świecie kryptowalut, szczególnie jeśli chodzi o uruchomienie tysięcy ICO (ang. Initial Coin Offering/ICO, czyli pierwsza publiczna oferta konkretnego tokena lub kryptowaluty, jest to metoda pozyskiwania kapitału w celu finansowania przedsięwzięcia, przyp. korekt.). Jednak wiele z tych nowych kryptowalut nie miało konkretnego zastosowania ani planu rozwoju i szybko zniknęło. Po bańce z 2017 roku, w latach 2018-2019, nastąpiła silna korekta.
 
@@ -964,12 +965,15 @@ Obecnie Bitcoin nadal istnieje i rośnie jeszcze bardziej, integrując się cora
 
 ### Rozwija się równoległa gospodarka
 Bitcoina można postrzegać jako narzędzie do stworzenia gospodarki równoległej do walut fiducjarnych, ponieważ możliwa jest sprzedaż towarów lub usług i otrzymywanie wypłaty w bitcoinie. Transakcje mogą być przeprowadzane bezpośrednio w sieci Bitcoin bez potrzeby korzystania z platformy wymiany, po prostu z portfela Bitcoin do portfela Bitcoin.
-Gospodarka Bitcoina istnieje i rozwija się w niektórych regionach świata, takich jak Salwador, gdzie bitcoin jest oficjalnym środkiem płatniczym od 2021 roku. Wszędzie wkoło nas osoby, firmy i organizacje już akceptują bitcoiny jako środek płatności za swoje produkty lub usługi.
+
+Gospodarka Bitcoina istnieje i rozwija się w niektórych regionach świata, takich jak Salwador, gdzie Bitcoin w 2021 roku stał się oficjalnym środkiem płatniczym. Niestety w styczniu 2025 uchwalono nowe prawo, które pozbawiło Bitcoina statusu „prawnego środka płatniczego”, rzekomo po wywarciu presji przez Międzynarodowy Fundusz Walutowy. Zgodnie z nową ustawą przedsiębiorcy nie są już zobowiązani do akceptowania Bitcoina w swoich firmach i nie można nim juz płacić podatków. Jego akceptacja pozostaje dobrowolna.
+
+Mimo tego zarówno w Salwadorze jak i innych częściach świata jest coraz więcej osób, firm i organizacji, które akceptują bitcoiny jako środek płatności za swoje produkty lub usługi.
 
 
 ![btc-map-video](https://youtu.be/2-fEEC9_YT8)
 
-*Zródło : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
+*Żródło : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 Dodatkowo, aby ułatwić korzystanie z bitcoinów w codziennych transakcjach, uruchomiono projekt open-source oparty na współpracy: [BTCMap](https://btcmap.org/map#2/21.28937/5.46680). Ta platforma pokazuje wszystkich sprzedawców, którzy akceptują bitcoiny, oraz różne społeczności Bitcoina na całym świecie. Możesz odwiedzić ich stronę internetową, aby odkryć ekosystem Bitcoina wokół siebie. Tak więc, pomimo trudności i wahania, istnieją inicjatywy takie jak BTCMap, które przyczyniają się do uczynienia gospodarki Bitcoina bardziej dostępną i wygodną dla wszystkich.
 
@@ -981,7 +985,7 @@ Ponadto akceptowanie bitcoina od klientów ma kilka zalet, w tym odporność na 
 
 ![image](assets/en/73.webp)
 
-### Jak to zrobić:
+### Jak to zrobić?
 
 Aby akceptować bitcoiny, konieczne jest zbadanie różnych dostępnych rozwiązań i wybranie tego, które najlepiej pasuje do twojego biznesu. Nie ma idealnego rozwiązania i przy dokonywaniu wyboru musi być wziętych pod uwagę kilka czynników takich, jak oczekiwana ilość transakcji, zaplanowany budżet i typ biznesu (online lub fizyczny).
 
@@ -996,6 +1000,10 @@ https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Rozwiązanie dla dużych struktur lub zapalonych bitcoinerów: BTCpay Server
+
+Aby dalej zgłębić ten temat, polecamy nasz kurs BIZ101! Dowiedz się, jak skutecznie zintegrować bitcoina z finansami swojej firmy, jak przyjmować bitcoina jako formę płatności odpowiednio do profilu twojej organizacji oraz jak zrozumieć związane z tym wymogi podatkowe i księgowe.
+
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Oszczędzanie w bitcoinach
 
@@ -1037,7 +1045,7 @@ Cykliczne zakupy polegają na kupowaniu małych ilości bitcoina w regularnych o
 
 **Uważaj na UTXO**: Pamiętaj, aby od czasu do czasu konsolidować swoje UTXO w portfelach. Ta praktyka jest kluczowa dla efektywnego zarządzania twoimi bitcoinami i unikania niepotrzebnych opłat podczas transakcji.
 
-https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+UTXO to wyjście z transakcji, które nie zostało jeszcze wydane, co oznacza, że nie zostało użyte jako wejście dla nowej transakcji. Konsolidacja polega na połączeniu kilku małych UTXO w jedno większe, aby zmniejszyć „wagę” transakcji, a tym samym zapłacić niższe opłaty.
 
 - Zakup spontaniczny
 
@@ -1059,7 +1067,7 @@ Dzisiaj prawie wszystkie rozwiązania DCA są stosunkowo efektywne i mają prawi
 
 Dla inwestycji na dużą skalę zalecane są regulowane i uznane platformy takie jak Kraken, Bitstamp i Paymium. Platformy te oferują bezpieczne i pewne środowisko dla transakcji o wysokiej wartości.
 
-Dostępne są różne rozwiązania: niektóre z nich są niedrogie, takie jak "Blockmit", podczas gdy inne mogą wymagać bardziej specjalistycznego sprzętu. Więcej informacji na ten temat można znaleźć w sekcji [samouczki](https://planb.academy/en/tutorials/wallet) naszej akademii.
+Ich użycie jest proste i dostępne dla każdego:
 
 1. Ustaw konto KYC/\*
 2. Przelej środki na swoje konto
@@ -1078,11 +1086,23 @@ Trzeba wspomnieć, że KYC jest ważnym tematem w branży Bitcoin. Skuteczność
 
 Ponadto, istnieje kilka [platform](https://sovereignuniversity.org/tutorials/exchange) do kupowania i sprzedawania bitcoinów peer-to-peer. Ogólnie rzecz biorąc, te rozwiązania to:
 
-Jeśli chcesz dalej zgłębiać temat planu dziedziczenia swoich bitcoinów, zalecamy przeczytanie książki Pameli Morgan [Cryptoasset Inheritance Plan] (https://planb.academy/resources/books/28) lub zapisanie się na kurs BTC102, w którym zapewniamy wskazówki dotyczące tworzenia planu.
+- Bankomaty Bitcoin
+
+- Spotkania na żywo z innymi entuzjastami Bitcoina
+
+- Nielegalne i nieregulowane platformy
+
+- Rozwiązania do kojarzenia stron w modelu peer-to-peer
+
+- Neobanki działające w krajach przyjaznych Bitcoinowi
 
 ![image](assets/en/76.webp)
 
 Ważne jest również zwrócenie uwagi na fakt, że obciążenia podatkowe różnią się w zależności od miejsca przeprowadzania transakcji. Zachęcamy do sprawdzenia przepisów twojego kraju przed podjęciem jakichkolwiek działań, które mogą cię narazić na ryzyko.
+
+Jeśli chcesz pogłębić swoją wiedzę na temat strategii zakupu, używania i zabezpieczania swoich bitcoinów, zdecydowanie polecam zrobienie kursu BTC 102 po tym szkoleniu. Znajdziesz tam między innymi rekomendacje narzędzi dopasowane do twojego profilu, potrzeb oraz celów osobistych.
+
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Hiperbitcoinizacja
 

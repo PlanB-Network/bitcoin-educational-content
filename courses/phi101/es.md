@@ -1135,9 +1135,10 @@ En Francia, para finales de 1791, la hambruna exacerbó el descontento popular. 
 La confiscación de las propiedades de la Iglesia tenía como objetivo evitar la crisis financiera; se pretendía que sirviera como garantía para los Asignados, lo que significaba una emisión masiva de dinero en papel.
 
 Además, como había predicho Dupont de Nemours, la emisión de moneda falsa solo empeoró la crisis, causando una inflación generalizada y un fuerte declive en el valor de los Asignados. En agosto de 1792, los disturbios por hambre a su vez llevaron a la insurrección de París, la ejecución de Luis XVI en enero de 1793 y luego el Reinado del Terror.
+
 ![image](assets/es/068.webp)
 
-En 1795, cinco años después de la primera emisión, el dinero en papel había perdido el 99% de su valor. La Revolución Francesa continuó bajo el Directorio hasta 1799, cuando Napoleón tomó el poder a través de un golpe de estado. Se convirtió en el Primer Cónsul de la República Francesa antes de ser coronado Emperador en 1804. Esta fue una de las primeras contradicciones flagrantes con la Declaración de los Derechos del Hombre, que proclamaba que la propiedad privada era inviolable.
+En 1795, cinco años después de la primera emisión, el dinero en papel había perdido el 99% de su valor. La Revolución Francesa continuó bajo el directorio hasta 1799, cuando Napoleón tomó el poder a través de un golpe de estado. Se convirtió en el Primer Cónsul de la República Francesa antes de ser coronado Emperador en 1804. Esta fue una de las primeras contradicciones flagrantes con la declaración de los derechos del hombre, que proclamaba que la propiedad privada era inviolable.
 
 ![image](assets/es/069.webp)
 
@@ -1165,8 +1166,9 @@ Según Benjamin Constant, la libertad, en nuestras sociedades modernas, ya no pu
 
 ### Libertad en la Vida Privada
 
-En la antigüedad, el individuo era soberano en los asuntos públicos pero esclavizado en todas sus relaciones privadas. El sacrificio de la libertad individual se compensaba con el uso de los derechos políticos: el derecho a ejercer directamente diversas partes de la soberanía, deliberar en la plaza pública, votar leyes, pronunciar juicios, evaluar y juzgar a los magistrados. Es una libertad política y colectiva:
-La libertad de los Antiguos consistía en una participación activa y constante en el poder colectivo. Nuestra libertad, por otro lado, debe consistir en el disfrute pacífico de la independencia privada; se sigue que debemos estar mucho más apegados que los antiguos a nuestra independencia individual. (_Sobre la Libertad de los Antiguos Comparada con la de los Modernos_ (1819))
+En la antigüedad, el individuo era soberano en los asuntos públicos pero esclavizado en todas sus relaciones privadas. El sacrificio de la libertad individual se compensaba con el uso de los derechos políticos: El derecho a ejercer directamente diversas partes de la soberanía, deliberar en la plaza pública, votar leyes, pronunciar juicios, evaluar y juzgar a los magistrados. Es una libertad política y colectiva:
+La libertad de los antiguos consistía en una participación activa y constante en el poder colectivo. Nuestra libertad, por otro lado, debe consistir en el disfrute pacífico de la independencia privada; se sigue que debemos estar mucho más apegados que los antiguos a nuestra independencia individual. (_Sobre la Libertad de los Antiguos Comparada con la de los Modernos_ (1819))
+
 ![image](assets/es/071.webp)
 
 La libertad moderna es la libertad civil, que incluye la libertad económica y se basa en el derecho a la privacidad. Es el derecho a no ser sometido a ninguna arbitrariedad, el derecho a la expresión, reunión, movimiento, culto e industria. No hay libertad sin la posibilidad de elegir el estilo de vida y los valores propios, por lo tanto, no hay libertad sin la posibilidad de retirarse de la comunidad y, consecuentemente, no hay libertad sin una limitación del Estado para permitir la existencia de este espacio privado. Es una libertad que corresponde a lo que los estadounidenses llaman derechos civiles.
@@ -1177,7 +1179,7 @@ Esta definición de libertad se encuentra en John Stuart Mill:
 
 ![image](assets/es/072.webp)
 
-Mill delinea los límites de la soberanía estatal: se detiene donde comienza la soberanía del individuo. Si una acción individual no tiene consecuencias dañinas para otros, entonces el individuo es completamente libre de realizarla. El Estado debe regular las relaciones interindividuales, pero no puede ir más allá, interfiriendo en la vida privada de los individuos. Si el individuo se daña a sí mismo, el Estado no puede hacer nada más que "remonstrar" o intentar "razonar" o "persuadir": no puede coaccionar o castigar. Pues Mill añade: "La única razón legítima por la cual un estado puede usar la fuerza contra uno de sus miembros, contra su voluntad, es para prevenir que se haga daño a otros".
+Mill delinea los límites de la soberanía estatal: Se detiene donde comienza la soberanía del individuo. Si una acción individual no tiene consecuencias dañinas para otros, entonces el individuo es completamente libre de realizarla. El Estado debe regular las relaciones interindividuales, pero no puede ir más allá, interfiriendo en la vida privada de los individuos. Si el individuo se daña a sí mismo, el Estado no puede hacer nada más que "remonstrar" o intentar "razonar" o "persuadir": no puede coaccionar o castigar. Pues Mill añade: "La única razón legítima por la cual un estado puede usar la fuerza contra uno de sus miembros, contra su voluntad, es para prevenir que se haga daño a otros".
 
 ![image](assets/es/073.webp)
 
@@ -1187,17 +1189,17 @@ El poder político correspondiente a la libertad de los Modernos es, por lo tant
 
 Según Constant, "la confusión de estos dos tipos de libertades ha sido, entre nosotros, durante épocas demasiado famosas de nuestra revolución, la causa de mucho mal". Jean-Jacques Rousseau, al concebir la libertad únicamente como la participación colectiva de los ciudadanos en la acción política, alentó a Robespierre a constreñir a los ciudadanos a través del terror. Los desaciertos de la Revolución son así el resultado de la aplicación moderna de principios políticos válidos entre los antiguos.
 
-Pero esto no significa sacrificar la libertad política, la participación en el poder. Constant especifica que si la libertad moderna difiere de la libertad antigua, está amenazada por un peligro de un tipo diferente. El peligro de la libertad de los antiguos era la arbitrariedad. El peligro de la libertad de los Modernos sería renunciar a las garantías políticas de esta libertad a través de una especie de indiferencia hacia el bien público. En otras palabras, corresponde a los ciudadanos ejercer una vigilancia permanente sobre sus representantes.
+Pero esto no significa sacrificar la libertad política, la participación en el poder. Constant especifica que si la libertad moderna difiere de la libertad antigua, está amenazada por un peligro de un tipo diferente. El peligro de la libertad de los antiguos era la arbitrariedad. El peligro de la libertad de los modernos sería renunciar a las garantías políticas de esta libertad a través de una especie de indiferencia hacia el bien público. En otras palabras, corresponde a los ciudadanos ejercer una vigilancia permanente sobre sus representantes.
 
 De hecho, en sus _Principios de Política_, Benjamin Constant afirma:
 
 > La soberanía del pueblo no es ilimitada, está circunscrita dentro de los límites trazados por la justicia y los derechos de los individuos. La voluntad de un pueblo entero no puede hacer justo lo que es injusto.
-> Esta es una nueva crítica a Rousseau y el _Contrato Social_: incluso una voluntad general está sujeta a límites, y no puede cambiar lo que cae bajo la ley natural. Existe un derecho anterior y superior a la autoridad política: es la ley natural. Este derecho establece los límites del poder político y limita las libertades individuales.
+> Esta es una nueva crítica a Rousseau y el _Contrato Social_: incluso una voluntad general está sujeta a límites, y no puede cambiar lo que cae bajo la ley natural. Existe un derecho anterior y superior a la autoridad política: Es la ley natural. Este derecho establece los límites del poder político y limita las libertades individuales.
 > Decir que todo poder legítimo debe fundarse en la voluntad general no significa que todo lo que la voluntad general decide es legítimo. Constant se alinea así con la Declaración de los Derechos del Hombre de 1789, Artículo II, que estipula que el Estado se instituye solo para preservar los derechos naturales, es decir, la libertad, la responsabilidad y la propiedad. Por lo tanto, hay áreas en las que el poder político no tiene influencia: la moral y la religión, pero también las ciencias que caen bajo la autoridad del conocimiento y finalmente la industria, añade Constant.
 
 ### Libertad Política y Libertad Económica
 
-La libertad política sin otras libertades es meramente una ilusión según Benjamin Constant. La libertad política es la libertad de participar en el ejercicio del poder. Sin embargo, el poder del pueblo o de las masas puede ser destructivo de las libertades porque otorga a la mayoría votante el derecho de imponer su voluntad a toda la sociedad, incluyendo sus caprichos o su ideología del momento: impuestos confiscatorios sin compensación, imposición de un único pensamiento, censura, represión y terrorismo intelectual. Por eso no puede haber verdadera libertad sin libertades civiles, incluyendo la libertad religiosa y la libertad económica. Benjamin Constant no separa el liberalismo político del liberalismo económico:
+La libertad política sin otras libertades es meramente una ilusión según Benjamin Constant. La libertad política es la libertad de participar en el ejercicio del poder. Sin embargo, el poder del pueblo o de las masas puede ser destructivo de las libertades porque otorga a la mayoría votante el derecho de imponer su voluntad a toda la sociedad, incluyendo sus caprichos o su ideología del momento: Impuestos confiscatorios sin compensación, imposición de un único pensamiento, censura, represión y terrorismo intelectual. Por eso no puede haber verdadera libertad sin libertades civiles, incluyendo la libertad religiosa y la libertad económica. Benjamin Constant no separa el liberalismo político del liberalismo económico:
 
 > Durante cuarenta años, he defendido el mismo principio, libertad en todo, en religión, en filosofía, en literatura, en industria, en política: y por libertad, entiendo el triunfo de la individualidad, tanto sobre la autoridad que quisiera gobernar por despotismo como sobre las masas que reclaman el derecho de esclavizar a la minoría a la mayoría. El despotismo no tiene derecho. La mayoría tiene el derecho de obligar a la minoría a respetar el orden: pero todo lo que no perturba el orden, todo lo que es solo interno, como la opinión; todo lo que, en la expresión de la opinión, no daña a otros, ya sea provocando violencia material o oponiéndose a una expresión contraria; todo lo que, en términos de industria, permite operar libremente a la industria rival, es individual, y no puede ser legítimamente sometido al poder social.
 
@@ -1213,7 +1215,7 @@ Alexis de Tocqueville fue un observador agudo de la democracia y un crítico del
 
 ![image](assets/es/074.webp)
 
-El análisis de Tocqueville sobre la democracia extiende esencialmente la distinción hecha por Constant entre la libertad de los Antiguos y la de los Modernos. En un artículo de 1836 (_Estado Social y Político de Francia Antes y Después de 1789_), Tocqueville compara metódicamente la libertad aristocrática con la libertad democrática. La primera se define como "El disfrute de un privilegio", y Tocqueville cita el ejemplo del ciudadano romano que deriva su libertad no de la naturaleza sino de su pertenencia a Roma.
+El análisis de Tocqueville sobre la democracia extiende esencialmente la distinción hecha por Constant entre la libertad de los antiguos y la de los modernos. En un artículo de 1836 (_Estado Social y Político de Francia Antes y Después de 1789_), Tocqueville compara metódicamente la libertad aristocrática con la libertad democrática. La primera se define como "El disfrute de un privilegio", y Tocqueville cita el ejemplo del ciudadano romano que deriva su libertad no de la naturaleza sino de su pertenencia a Roma.
 El segundo concepto, que es "la noción correcta de libertad", consiste en un "derecho igual e inalienable a vivir independientemente de sus pares". Esta noción moderna de libertad no es, por lo tanto, como la primera una noción política; se basa en la ley natural y es "correcta" porque se extiende igualmente a cada hombre. Está escrito:
 De acuerdo con la noción moderna, la noción democrática, y me atrevo a decir, la noción correcta de libertad, se presume que cada hombre, habiendo recibido de la naturaleza el conocimiento necesario para conducirse a sí mismo, trae al nacer un derecho igual e inalienable a vivir independientemente de sus semejantes, en todo lo que se refiere únicamente a él mismo, y a regular como él vea conveniente su propio destino.
 
@@ -1239,7 +1241,7 @@ El autor de _La Democracia en América_ nos advierte:
 
 El derecho al trabajo es un buen ejemplo de las derivas del igualitarismo democrático. En un discurso ante la Asamblea Constituyente en 1848, Tocqueville se pronunció en contra del derecho al trabajo en el proyecto de constitución. Si el Estado se compromete a proporcionar trabajo para todos los trabajadores, argumentó, o si asegura que siempre lo encuentren en el mercado laboral, como quieren los socialistas, se verá llevado a convertirse en "el gran y único organizador del trabajo".
 
-En este discurso, Tocqueville compara el socialismo con el Antiguo Régimen, para quien "sus súbditos son seres enfermos y débiles que siempre deben ser sostenidos de la mano, para que no caigan o se lastimen". El socialismo es así "una nueva forma de servidumbre" por tres razones:
+En este discurso, Tocqueville compara el socialismo con el antiguo régimen, para quien "sus súbditos son seres enfermos y débiles que siempre deben ser sostenidos de la mano, para que no caigan o se lastimen". El socialismo es así "una nueva forma de servidumbre" por tres razones:
 
 1. Moralmente, el socialismo promueve la irresponsabilidad a través de su control estatal directivo y colectivista. Siempre se caracteriza por "un profundo desprecio por el individuo como tal".
 
@@ -1247,7 +1249,7 @@ En este discurso, Tocqueville compara el socialismo con el Antiguo Régimen, par
 
 3. Económicamente, es ineficiente porque elimina la competencia a través de sus regulaciones y su rechazo a la propiedad privada.
 
-### La Ley y Sus Abusos
+### La Ley y sus abusos
 
 ¿Qué pensaba Frédéric Bastiat de la democracia? Respondió ya en 1846:
 
@@ -1255,7 +1257,7 @@ En este discurso, Tocqueville compara el socialismo con el Antiguo Régimen, par
 
 ![imagen](assets/es/076.webp)
 
-Pero en 1848, después de la revolución de febrero, Bastiat fue elegido diputado de las Landas en una asamblea donde los socialistas hicieron una entrada triunfal. Estos últimos solo exigían una cosa: que la ley consagre el principio de fraternidad. En otras palabras, aprobar leyes para proporcionar trabajo, educación y atención médica para todos.
+Pero en 1848, después de la revolución de febrero, Bastiat fue elegido diputado de las Landas en una asamblea donde los socialistas hicieron una entrada triunfal. Estos últimos solo exigían una cosa: Que la ley consagre el principio de fraternidad. En otras palabras, aprobar leyes para proporcionar trabajo, educación y atención médica para todos.
 
 Bajo el reinado de las ideas socialistas, Bastiat observó que la máquina electoral se utilizaba para saquear el dinero público, así el ciudadano:
 
@@ -1263,7 +1265,7 @@ Bajo el reinado de las ideas socialistas, Bastiat observó que la máquina elect
 
 El Estado se convierte entonces, según las palabras de Bastiat,
 
-> en la gran ficción a través de la cual todos intentan vivir a expensas de todos los demás. ([_El Estado_](http://bastiat.org/fr/l_etat.html))
+> En la gran ficción a través de la cual todos intentan vivir a expensas de todos los demás. ([_El Estado_](http://bastiat.org/fr/l_etat.html))
 > Bastiat también desarrolla la idea de que el conflicto surge cuando la ley se desvía de su papel legítimo. En su famoso panfleto [_La Ley_](http://bastiat.org/fr/la_loi.html), demuestra por qué y cómo la ley se ha convertido en "el campo de batalla de toda codicia", significando una fuente de privilegios, rentas situacionales e imposición arbitraria. Tan pronto como se admite en principio que la ley puede ser desviada de su verdadera misión, que puede violar propiedades en lugar de garantizarlas, una lucha de clases sigue necesariamente, ya sea para defenderse contra el despojo o para organizarlo en beneficio propio.
 > ![image](assets/es/077.webp)
 
@@ -1273,7 +1275,7 @@ Es solo cuando la ley excede sus límites legítimos que el legislador se vuelve
 
 Según Bastiat, la democracia socialista conduce a un déficit permanente en los presupuestos y, finalmente, a la violencia. De hecho, al multiplicar incansablemente promesas, y al no poder cumplirlas, la máquina electoral desarrolla una amargura que sienta las bases para las revoluciones. Escribe:
 
-> Pero si el gobierno se encarga de elevar y regular los salarios y no puede hacerlo; si se encarga de asistir a todas las desgracias y no puede hacerlo; si se encarga de proporcionar pensiones para todos los trabajadores y no puede hacerlo... ¿no vemos que al final de cada decepción, ¡ay! más que probable, hay una revolución igualmente inevitable? ([_La Ley_](http://bastiat.org/fr/la_loi.html))
+> Pero si el gobierno se encarga de elevar y regular los salarios y no puede hacerlo; si se encarga de asistir a todas las desgracias y no puede hacerlo; si se encarga de proporcionar pensiones para todos los trabajadores y no puede hacerlo... ¿No vemos que al final de cada decepción, ¡ay! más que probable, hay una revolución igualmente inevitable? ([_La Ley_](http://bastiat.org/fr/la_loi.html))
 
 Conclusión de Bastiat:
 Mira el globo. ¿Cuáles son los pueblos más felices, más morales y más pacíficos? Aquellos donde la Ley interviene menos en la actividad privada; donde el gobierno se siente menos; donde la individualidad tiene más resiliencia y la opinión pública más influencia; donde los mecanismos administrativos son los menos y menos complicados; los impuestos menos onerosos y menos desiguales; el descontento popular menos provocado y menos justificable; donde la responsabilidad de individuos y clases es más activa, y donde, en consecuencia, si las morales no son perfectas, tienden inexorablemente a corregirse; donde las transacciones, acuerdos, asociaciones son menos obstaculizadas; donde el trabajo, el capital y la población sufren los menores desplazamientos artificiales ([_La Ley_](http://bastiat.org/fr/la_loi.html))
@@ -1288,7 +1290,7 @@ Fue durante el siglo XIX que surgió la crítica al capitalismo, y en particular
 
 ![image](assets/es/078.webp)
 
-¿De qué sirve el derecho a hablar, escribir y votar, exclamó Marx, si la vida cotidiana es una lucha por la supervivencia? Más allá de cierto umbral, la pobreza equivale a servidumbre. El orden social beneficia a todos solo si se aplica el principio de una distribución justa de bienes. Fue esta crítica al liberalismo lo que llevó a Marx a considerar la necesidad de un control racional y planificado del orden social. A partir de entonces, el estado mínimo de los liberales debe ser sucedido por un estado fuerte capaz de establecer una igualdad real, que, según Marx, llega hasta la abolición de la propiedad privada y su colectivización. En una versión más suavizada, "democracia social", se le pide al estado que garantice no solo los derechos abstractos del hombre sino los derechos concretos del hombre. Se crean nuevos derechos, derechos sociales y económicos, garantizados por el estado: el derecho al trabajo, el derecho a la vivienda, el derecho a la salud (gratuita), el derecho a la educación (gratuita).
+¿De qué sirve el derecho a hablar, escribir y votar, exclamó Marx, si la vida cotidiana es una lucha por la supervivencia? Más allá de cierto umbral, la pobreza equivale a servidumbre. El orden social beneficia a todos solo si se aplica el principio de una distribución justa de bienes. Fue esta crítica al liberalismo lo que llevó a Marx a considerar la necesidad de un control racional y planificado del orden social. A partir de entonces, el estado mínimo de los liberales debe ser sucedido por un estado fuerte capaz de establecer una igualdad real, que, según Marx, llega hasta la abolición de la propiedad privada y su colectivización. En una versión más suavizada, "democracia social", se le pide al estado que garantice no solo los derechos abstractos del hombre sino los derechos concretos del hombre. Se crean nuevos derechos, derechos sociales y económicos, garantizados por el estado: El derecho al trabajo, el derecho a la vivienda, el derecho a la salud (gratuita), el derecho a la educación (gratuita).
 
 ![imagen](assets/es/079.webp)
 
@@ -1360,6 +1362,7 @@ Es por eso que Georges Sorel, el importador del marxismo a Francia, diría que l
 Los austriacos afirman que la teoría del valor del trabajo de Marx, según la cual el valor de una mercancía está determinado por la cantidad de trabajo necesario para su producción, es errónea. Argumentan que el valor es subjetivo y determinado por las preferencias del consumidor, no por los costos de producción.
 
 ![imagen](assets/es/084.webp)
+
 Eugen von Böhm-Bawerk, uno de los primeros economistas austriacos, criticó la teoría del valor-trabajo de Marx en su obra _Wert, Kapital und Zins_ (1886). Böhm-Bawerk argumentó que la teoría de Marx se basaba en un error fundamental, a saber, que todas las unidades de trabajo son idénticas. En realidad, argumentó, algunos trabajos son más arduos o más productivos que otros, y esto es lo que determina el valor de una mercancía. En cuanto a la teoría del beneficio, Marx argumentó que el beneficio es una forma de robo. Es el concepto de explotación, según el cual los capitalistas extraen un excedente de valor injusto del trabajo de los trabajadores. Los austriacos refutan esta idea argumentando que los salarios están determinados por el valor que los trabajadores aportan a las empresas, y que los beneficios son la recompensa para los empresarios que asumen riesgos e invierten de manera eficiente. El beneficio es, por lo tanto, una recompensa para el empresario que asume riesgos e invierte en nuevos productos y procesos.
 Friedrich Hayek desarrolló una teoría del beneficio basada en el concepto de incertidumbre, que tiene sus raíces notablemente en la obra de Jean-Baptiste Say. Según Hayek, los empresarios obtienen un beneficio porque son capaces de predecir mejor las necesidades futuras de los consumidores que otros actores económicos.
 
@@ -1453,7 +1456,9 @@ Así, Friedrich Hayek explicó que la reducción continua de las tasas de inter�
 Junto con otros, también destacó el peligro de centralizar y manipular la moneda. Este es notablemente el caso del francés Jacques Rueff, también discípulo y amigo de Ludwig von Mises.
 
 ![image](assets/es/092.webp)
+
 Graduándose de la École Polytechnique en 1919, Rueff tuvo una carrera como alto funcionario y fue asesor económico de numerosos gobiernos en los años 20 y 30. Su obra principal apareció en 1945: _L’ordre social_ (El Orden Social), en la cual desarrolla un poderoso argumento a favor del mercado libre, desde puntos de vista económicos, filosóficos y morales.
+
 ![image](assets/es/093.webp)
 
 Este libro incluye un capítulo clave titulado: "Moneda Sana o Estado Totalitario". En este capítulo, desarrolla dos proposiciones. La primera: "La moneda falsa engendra desorden social". La segunda proposición se sigue de la primera: "El desorden social engendra esclavitud social". La moneda falsa es la moneda de papel, desconectada de cualquier realidad física y manipulada por el poder gobernante. El desorden social es la inflación y el consumismo que resultan de ello. La esclavitud social es la dependencia de la sociedad del estado, la pérdida de toda autonomía financiera, moral y política.
@@ -1505,6 +1510,7 @@ Es por esto que, en _Acción Humana_, Ludwig von Mises escribe:
 El sistema de Bretton Woods, diseñado en 1944 y completamente implementado en 1959, se basaba tanto en el oro como en el dólar, la única moneda convertible en oro. Por lo tanto, era necesario acumular dólares para poder obtener oro.
 
 ![image](assets/es/097.webp)
+
 En aquel tiempo, con la Guerra de Vietnam en particular, el aumento en los déficits del gobierno de EE.UU. llevó a muchos países extranjeros, incluyendo Francia, a querer convertir sus dólares en oro en la FED. El 15 de agosto de 1971, el presidente Nixon decidió cancelar la promesa de convertibilidad del dólar en oro, creando así la primera moneda completamente de papel en la historia de los Estados Unidos. Desde este día se puede datar el momento en que el dinero quedó completamente bajo el control de los bancos centrales. En una entrevista, se dice que Richard Nixon declaró:
 
 > Hoy en día, todos somos keynesianos.
@@ -1517,7 +1523,8 @@ Según Alan Greenspan, ex presidente de la FED, el banco central americano, el p
 
 > Siempre he albergado nostalgia por la estabilidad de precios inherente al patrón oro; un moneda estable era su objetivo principal. Pero desde hace tiempo he admitido que el patrón oro no se acomoda fácilmente a la visión predominante de la función de un gobierno, notablemente el deber de asegurar un sistema de seguridad social. \[…\] La mayoría de los estadounidenses han tolerado la inflación como el precio a pagar por tener un estado de bienestar moderno. Ya no hay defensores del patrón oro, y veo poca posibilidad de su retorno. (_La era de las turbulencias_).
 > Por el contrario, para personas como Jacques Rueff, abandonar el metal precioso es un error que solo puede llevar a una disminución continua en el poder adquisitivo, acompañada de una disminución en los estándares de vida, un aumento en la desigualdad de ingresos y una creciente inestabilidad económica.
-> ![image](assets/es/099.webp)
+
+![image](assets/es/099.webp)
 
 En febrero de 1965, durante una conferencia de prensa televisada, el General de Gaulle, directamente inspirado por Rueff, había propuesto un retorno al patrón oro. Él declaró:
 
@@ -1536,10 +1543,10 @@ En 1976, Hayek propuso una alternativa al monopolio del Estado sobre la creació
 Para Hayek, la inestabilidad pasada de la economía de mercado resulta del hecho de que el regulador más importante de los mecanismos de mercado, a saber, el dinero, no podía ser en sí mismo el producto de un proceso de mercado.
 
 ![image](assets/es/101.webp)
+
 Hayek creía que un mercado libre de monedas privadas conduciría a una mayor estabilidad monetaria. Casi 50 años después, una criptomoneda como Bitcoin encarna la visión competitiva de Hayek al ofrecer una alternativa descentralizada al sistema monopolístico de los bancos centrales. Bitcoin, con su límite de emisión de 21 millones de unidades, es una garantía contra la inflación y la arbitrariedad de los reguladores.
 
-
-## Conclusión: el poder de las ideas
+## Conclusión: El poder de las ideas
 
 <chapterId>50676155-c071-5bee-a14e-0c251f0375da</chapterId>
 

@@ -2474,7 +2474,7 @@ Der Faktor, der zur Schaffung der ersten alternativen Kryptowährung führte, wa
 
 
 
-Die Umsetzung in die Praxis hat sich jedoch als schwierig erwiesen, und erst das Aufkommen von Bitcoin hat einen Durchbruch ermöglicht. Das Zooko-Dreieck, [theoretisiert](https://web.archive.org/web/20011020191610/http://zooko.com/distnames.html) im Jahr 2001 von dem Cypherpunk Bryce "Zooko" Wilcox, besagt, dass ein Identifikator nur maximal zwei der folgenden Eigenschaften haben darf: Sicherheit (ein Name darf nur einem einzigen Element entsprechen); Dezentralisierung (es dürfen keine zentralen Behörden erforderlich sein, um festzustellen, welcher Name welchem Element entspricht); menschliche Lesbarkeit (die Namen der Elemente müssen sinnvoll sein und man muss sie sich merken können). Aber mit dem Bitcoin-Modell wird dieses Trilemma obsolet, und um es zu lösen: "Sie können BitCoin tatsächlich verwenden, um das Zooko-Dreieck zu quadrieren", um Aaron Swartz' [Ausdruck] zu entlehnen (http://www.aaronsw.com/weblog/squarezooko).
+Die Umsetzung in die Praxis hat sich jedoch als schwierig erwiesen, und erst das Aufkommen von Bitcoin hat einen Durchbruch ermöglicht. Das Zooko-Dreieck, [theoretisiert](https://web.archive.org/web/20011020191610/http://zooko.com/distnames.html) im Jahr 2001 von dem Cypherpunk Bryce "Zooko" Wilcox, besagt, dass ein Identifikator nur maximal zwei der folgenden Eigenschaften haben darf: Sicherheit (ein Name darf nur einem einzigen Element entsprechen); Dezentralisierung (es dürfen keine zentralen Behörden erforderlich sein, um festzustellen, welcher Name welchem Element entspricht); menschliche Lesbarkeit (die Namen der Elemente müssen sinnvoll sein und man muss sie sich merken können). Aber mit dem Bitcoin-Modell wird dieses Trilemma obsolet, und um es zu lösen: "Sie können BitCoin tatsächlich verwenden, um das Zooko-Dreieck zu quadrieren", um Aaron Swartz' [Ausdruck](http://www.aaronsw.com/weblog/squarezooko) zu entlehnen.
 
 
 
@@ -2484,7 +2484,7 @@ Am 14. November 2010 schlug ein Bitcoin-Nutzer, der sich Appamatto nannte, vor, 
 
 > Ich hatte eine Idee für ein Bitcoin-ähnliches DNS-System. Im Grunde genommen kann man mit jedem erzeugten Block einen neuen Namen definieren, und die Transaktionen sind Zuordnungen der Namen zu IP-Adressen.
 
-Ein paar Stunden später schrieb er [https://bitcointalk.org/index.php?topic=1790.msg22019#msg22019] eine ausführlichere Beschreibung im Bitcoin-Forum, in der er schrieb, dass es möglich zu sein scheint, einen Bitcoin-Klon (bitDNS) zu erstellen, der eine Lösung für eine verteilte, autoritätsfreie Namenszuweisung und -übertragung bietet".
+Ein paar Stunden später [schrieb er](https://bitcointalk.org/index.php?topic=1790.msg22019#msg22019) eine ausführlichere Beschreibung im Bitcoin-Forum, in der er schrieb, dass es möglich zu sein scheint, einen Bitcoin-Klon (bitDNS) zu erstellen, der eine Lösung für eine verteilte, autoritätsfreie Namenszuweisung und -übertragung bietet.
 
 
 
@@ -2510,7 +2510,7 @@ Diese Bemühungen führten schließlich zur Schaffung eines funktionalen, von Bi
 
 
 
-*Auf Namecoin reservierte Namen am 13. Juni 2011 (Quelle: [capture](https://web.archive.org/web/20110613130957/http://explorer.dot-bit.org/) von Explorer.dot-bit.org)*
+*Auf Namecoin reservierte Namen am 13. Juni 2011 (Quelle: [Schreenshot](https://web.archive.org/web/20110613130957/http://explorer.dot-bit.org/) von Explorer.dot-bit.org)*
 
 
 
@@ -2566,7 +2566,7 @@ Im Forum wurde aufgrund der Vervielfachung der Threads über *Altcoins* im Septe
 
 
 
-*Exchange-Raten zwischen verschiedenen alternativen Kryptowährungen im Januar 2012 (Quelle: [capture](https://web.archive.org/web/20120113143526/http://allchains.info/) von Allchains.info)*
+*Exchange-Raten zwischen verschiedenen alternativen Kryptowährungen im Januar 2012 (Quelle: [Screenshot](https://web.archive.org/web/20120113143526/http://allchains.info/) von Allchains.info)*
 
 
 
@@ -2578,7 +2578,7 @@ Bis Herbst 2011 verwendeten alle alternativen Kryptowährungen die Hash-Funktion
 
 
 
-Am 26. September 2011 [startete](https://bitcointalk.org/index.php?topic=45667.msg544675#msg544675) Lolcust Tenebrix, das er als "eine CPU-freundliche, GPU-feindliche Kryptowährung" vorstellte. Unterstützt wurde er von dem deutschen Miner ArtForz, der [https://bitcointalk.org/index.php?topic=46063.msg549768#msg549768] SHA-256 durch Scrypt ersetzte, eine Funktion zur Ableitung von Schlüsseln, die ursprünglich 2009 von dem kanadischen Informatiker Colin Percival für den Online-Backup-Dienst Tarsnap [entwickelt](https://web.archive.org/web/20090928073214/http://www.tarsnap.com/scrypt.html) wurde. Dank ihres hohen Speicherbedarfs hat sie die Effizienz von Grafikprozessoren in Mining drastisch reduziert, so dass Kernprozessoren gewinnbringend eingesetzt werden können. Die Kryptowährung wurde Tenebrix genannt, weil "sie eine Kryptowährung ist, die im Schatten jeder größeren GPU-Mining-Operation gedeiht und friedlich die überschüssigen CPU-Zyklen der Miner-Rigs genießt".)
+Am 26. September 2011 [startete](https://bitcointalk.org/index.php?topic=45667.msg544675#msg544675) Lolcust Tenebrix, das er als "eine CPU-freundliche, GPU-feindliche Kryptowährung" vorstellte. [Unterstützt](https://bitcointalk.org/index.php?topic=46063.msg549768#msg549768) wurde er von dem deutschen Miner ArtForz, der SHA-256 durch Scrypt ersetzte, eine Funktion zur Ableitung von Schlüsseln, die ursprünglich 2009 von dem kanadischen Informatiker Colin Percival für den Online-Backup-Dienst Tarsnap [entwickelt](https://web.archive.org/web/20090928073214/http://www.tarsnap.com/scrypt.html) wurde. Dank ihres hohen Speicherbedarfs hat sie die Effizienz von Grafikprozessoren in Mining drastisch reduziert, so dass Kernprozessoren gewinnbringend eingesetzt werden können. Die Kryptowährung wurde Tenebrix genannt, weil "sie eine Kryptowährung ist, die im Schatten jeder größeren GPU-Mining-Operation gedeiht und friedlich die überschüssigen CPU-Zyklen der Miner-Rigs genießt".)
 
 
 
@@ -2630,7 +2630,7 @@ Nach der Entdeckung dieses beschleunigten Mining beschuldigte ein Forumsmitglied
 
 
 
-Trotz dieses Rückschlags ist Litecoin eine Erfolgsgeschichte. Zusammen mit dem Namecoin ist er eine der wenigen Kryptowährungen, die nicht innerhalb weniger Monate nach ihrer Entstehung in die wirtschaftliche Bedeutungslosigkeit fielen und im Mai 2013 den zweiten Platz im Kryptowährungs-Ranking (https://coinmarketcap.com/historical/20130526/) belegten. Am Ende des Sommers 2012 lag sein Preis [bei](https://web.archive.org/web/20120831211413/http://www.ltc-charts.com/) $0,038, während der Preis von Namecoin, obwohl er viermal seltener ist, [bei](https://web.archive.org/web/20120901055814/http://allchains.info/) $0,019 lag. Dennoch bleibt Litecoin neben Bitcoin ein wirtschaftlicher Zwerg: Sein Gesamtwert (der Preis multipliziert mit der Anzahl der im Umlauf befindlichen Einheiten) liegt bei 380.000 Dollar, während der seines großen Bruders bei fast 100 Millionen Dollar liegt.
+Trotz dieses Rückschlags ist Litecoin eine Erfolgsgeschichte. Zusammen mit dem Namecoin ist er eine der wenigen Kryptowährungen, die nicht innerhalb weniger Monate nach ihrer Entstehung in die wirtschaftliche Bedeutungslosigkeit fielen und im Mai 2013 den zweiten Platz im [Kryptowährungs-Ranking](https://coinmarketcap.com/historical/20130526/) belegten. Am Ende des Sommers 2012 lag sein Preis [bei](https://web.archive.org/web/20120831211413/http://www.ltc-charts.com/) $0,038, während der Preis von Namecoin, obwohl er viermal seltener ist, [bei](https://web.archive.org/web/20120901055814/http://allchains.info/) $0,019 lag. Dennoch bleibt Litecoin neben Bitcoin ein wirtschaftlicher Zwerg: Sein Gesamtwert (der Preis multipliziert mit der Anzahl der im Umlauf befindlichen Einheiten) liegt bei 380.000 Dollar, während der seines großen Bruders bei fast 100 Millionen Dollar liegt.
 
 
 
@@ -2648,7 +2648,7 @@ Gavin Andresen [genehmigte](https://bitcointalk.org/index.php?topic=1647.msg2065
 
 
 
-Diese Reaktion wurde durch die erste Welle alternativer Kryptowährungen bestätigt, die sich in nur wenigen Monaten vervielfachten. Dies veranlasste viele an Bitcoin beteiligte Personen zu reagieren. Im August 2011 erklärte der Electrum-Entwickler Thomas Voegtlin [https://bitcointalk.org/index.php?topic=37592.msg463263#msg463263], dass die meisten Bitcoin-Klone nutzlos seien, da sie dieselbe Marktnische wie Bitcoin besetzten und nicht von dessen Netzwerkeffekt profitierten. Er [verstand](https://bitcointalk.org/index.php?topic=38453.msg471316#msg471316), dass "diese alternativen Blockchains von Leuten lanciert werden, die versuchen, schnelles Geld zu machen, bevor der Wert auf Null sinkt. In ähnlicher Weise veröffentlichte Gavin [Anfang September](https://bitcointalk.org/index.php?topic=42465.msg516789#msg516789) eine skeptische Warnung im Forum, in der er die Leute aufforderte, sich die richtigen Fragen zu stellen, bevor sie sich auf diese Kryptowährungen einlassen.
+Diese Reaktion wurde durch die erste Welle alternativer Kryptowährungen bestätigt, die sich in nur wenigen Monaten vervielfachten. Dies veranlasste viele an Bitcoin beteiligte Personen zu reagieren. Im August 2011 [erklärte](https://bitcointalk.org/index.php?topic=37592.msg463263#msg463263) der Electrum-Entwickler Thomas Voegtlin, dass die meisten Bitcoin-Klone nutzlos seien, da sie dieselbe Marktnische wie Bitcoin besetzten und nicht von dessen Netzwerkeffekt profitierten. Er [verstand](https://bitcointalk.org/index.php?topic=38453.msg471316#msg471316), dass "diese alternativen Blockchains von Leuten lanciert werden, die versuchen, schnelles Geld zu machen, bevor der Wert auf Null sinkt. In ähnlicher Weise veröffentlichte Gavin [Anfang September](https://bitcointalk.org/index.php?topic=42465.msg516789#msg516789) eine skeptische Warnung im Forum, in der er die Leute aufforderte, sich die richtigen Fragen zu stellen, bevor sie sich auf diese Kryptowährungen einlassen.
 
 
 
@@ -2659,7 +2659,7 @@ Nach der ersten Welle der Schaffung alternativer Kryptowährungen tauchte ein Au
 Einer der schärfsten Kritiker alternativer Kryptowährungen war wahrscheinlich Lukas jr. Er war sehr gegen diese Nachahmungen, manchmal sogar pathologisch. Er [meinte](https://web.archive.org/web/20120115215038/http://bitcoinmedia.com/luke-dashjr-throws-book-at-solidcoin), dass nicht alle alternativen Kryptowährungen "Betrug" seien: "Ich betrachte nicht alle alternativen Ketten als Betrug. Insbesondere Namecoin wurde mit einem legitimen Zweck entwickelt", aber "diese Systeme sind standardmäßig mehr oder weniger Pump-and-Dump-Schneeballsysteme", bis sie einen anderen Anwendungsfall für Bitcoin entwickeln.
 
 
-Er hat seinen Worten Taten folgen lassen. Im November 2011 [bearbeitete](https://en.bitcoin.it/w/index.php?title=Litecoin&oldid=18952) er die neu hinzugefügte Litecoin-Seite auf dem Bitcoin-Wiki und schrieb, dass "Litecoin ein Betrug ist". Am 6. Januar 2012 [führte er](https://bitcointalk.org/index.php?topic=56675.msg676981#msg676981) einen Zensurangriff gegen Coiledcoin durch (der sich als tödlich herausstellte), indem er seinen Mining-Pool, Eligius, benutzte, ohne die Teilnehmer zu informieren. In seiner [Erklärungsnachricht](https://bitcointalk.org/index.php?topic=56830.msg678004#msg678004) stellte er klar, dass kein Mitglied des Pools geschädigt wurde, da die Coiledcoin-Kette in Kombination mit der von Bitcoin geschürft wurde. Er rechtfertigte seine Aktion, indem er schrieb, dass er sich verpflichtet fühlte, "zum Bitcoin-Ökosystem beizutragen und es zu schützen", und dass "Pyramidensysteme, die auf forks der Bitcoin-Software aufbauen, letztendlich den Ruf von Bitcoin diskreditieren und schädigen". Schließlich reichte er am 9. Januar 2012 [https://web.archive.org/web/20120115205346/http://solidcointalk.org/topic/510-bitcoin-developers-attempt-to-kill-open-source-project-sends-dmca-to-linode-and-github/] eine DMCA-Abmahnung gegen SolidCoin bei Linode (Website-Host) und GitHub (Code-Host) wegen unrechtmäßiger Verwendung seines in der Bitcoin-Software enthaltenen Codes ein.
+Er hat seinen Worten Taten folgen lassen. Im November 2011 [bearbeitete](https://en.bitcoin.it/w/index.php?title=Litecoin&oldid=18952) er die neu hinzugefügte Litecoin-Seite auf dem Bitcoin-Wiki und schrieb, dass "Litecoin ein Betrug ist". Am 6. Januar 2012 [führte er](https://bitcointalk.org/index.php?topic=56675.msg676981#msg676981) einen Zensurangriff gegen Coiledcoin durch (der sich als tödlich herausstellte), indem er seinen Mining-Pool, Eligius, benutzte, ohne die Teilnehmer zu informieren. In seiner [Erklärungsnachricht](https://bitcointalk.org/index.php?topic=56830.msg678004#msg678004) stellte er klar, dass kein Mitglied des Pools geschädigt wurde, da die Coiledcoin-Kette in Kombination mit der von Bitcoin geschürft wurde. Er rechtfertigte seine Aktion, indem er schrieb, dass er sich verpflichtet fühlte, "zum Bitcoin-Ökosystem beizutragen und es zu schützen", und dass "Pyramidensysteme, die auf forks der Bitcoin-Software aufbauen, letztendlich den Ruf von Bitcoin diskreditieren und schädigen". Schließlich [reichte er](https://web.archive.org/web/20120115205346/http://solidcointalk.org/topic/510-bitcoin-developers-attempt-to-kill-open-source-project-sends-dmca-to-linode-and-github/) am 9. Januar 2012 eine DMCA-Abmahnung gegen SolidCoin bei Linode (Website-Host) und GitHub (Code-Host) wegen unrechtmäßiger Verwendung seines in der Bitcoin-Software enthaltenen Codes ein.
 
 
 
@@ -2667,7 +2667,7 @@ Er hat seinen Worten Taten folgen lassen. Im November 2011 [bearbeitete](https:/
 
 
 
-Ab dem Frühjahr 2012 wurde es ruhiger. Dennoch tauchten im Laufe des Jahres einige alternative Kryptowährungen auf, wie [Timekoin] von Michael Brown (https://bitcointalk.org/index.php?topic=88467.msg974001#msg974001), [Qubic] von Come-From-Beyond (https://bitcointalk.org/index.php?topic=112676.msg1218867#msg1218867) und [Freicoin] von Jorge Timón (https://bitcointalk.org/index.php?topic=133020.msg1416459#msg1416459). Die wichtigste Kryptowährung, die zu dieser Zeit aufkam, war jedoch PPCoin (für "Peer-to-Peer Coin"), die mit ihrer Implementierung des Proof-of-Stake-Verfahrens Neuland betrat.
+Ab dem Frühjahr 2012 wurde es ruhiger. Dennoch tauchten im Laufe des Jahres einige alternative Kryptowährungen auf, wie [Timekoin](https://bitcointalk.org/index.php?topic=88467.msg974001#msg974001) von Michael Brown, [Qubic](https://bitcointalk.org/index.php?topic=112676.msg1218867#msg1218867) von Come-From-Beyond und [Freicoin](https://bitcointalk.org/index.php?topic=133020.msg1416459#msg1416459) von Jorge Timón . Die wichtigste Kryptowährung, die zu dieser Zeit aufkam, war jedoch PPCoin (für "Peer-to-Peer Coin"), die mit ihrer Implementierung des Proof-of-Stake-Verfahrens Neuland betrat.
 
 
 
@@ -2752,7 +2752,7 @@ Die Analogie des Kapitäns gefiel den Mitgliedern des Silk-Road-Forums, die sie 
 
 
 
-Ross' Entscheidung folgte dem Vorschlag eines seiner engsten Mitarbeiter, Roger Thomas Clark alias Variety Jones, einem im Vereinigten Königreich lebenden Kanadier, der große Mengen von Cannabis Seed auf der Website verkaufte (und auch ein starker Konsument war). Clark trat im November an Ross heran und wurde schnell sein Sicherheitsberater; Ross bezeichnete ihn (https://antilop.cc/sr/exhibits/253456476-Silk-Road-exhibits-GX-240B.pdf) in seinem Tagebuch sogar als "Mentor". Die Verwendung eines Pseudonyms dieser Art erleichterte den Übergang zwischen zwei Personen oder verwischte die Spuren der Identität des Administrators. Diese Technik wurde in einem Interview zwischen DPR und Andy Greenberg im August 2013 [verwendet](https://www.forbes.com/sites/andygreenberg/2013/08/14/an-interview-with-a-digital-drug-lord-the-silk-roads-dread-pirate-roberts-qa/), in dem Variety Jones behauptete, Nachfolger von Ross zu sein.
+Ross' Entscheidung folgte dem Vorschlag eines seiner engsten Mitarbeiter, Roger Thomas Clark alias Variety Jones, einem im Vereinigten Königreich lebenden Kanadier, der große Mengen von Cannabis Seed auf der Website verkaufte (und auch ein starker Konsument war). Clark trat im November an Ross heran und wurde schnell sein Sicherheitsberater; Ross [bezeichnete ihn](https://antilop.cc/sr/exhibits/253456476-Silk-Road-exhibits-GX-240B.pdf) in seinem Tagebuch sogar als "Mentor". Die Verwendung eines Pseudonyms dieser Art erleichterte den Übergang zwischen zwei Personen oder verwischte die Spuren der Identität des Administrators. Diese Technik wurde in einem Interview zwischen DPR und Andy Greenberg im August 2013 [verwendet](https://www.forbes.com/sites/andygreenberg/2013/08/14/an-interview-with-a-digital-drug-lord-the-silk-roads-dread-pirate-roberts-qa/), in dem Variety Jones behauptete, Nachfolger von Ross zu sein.
 
 
 
@@ -2768,7 +2768,7 @@ Ross' erste Entscheidung als DPR bestand darin, den Verkauf von Schusswaffen auf
 
 
 
-Die Aktivitäten auf der Hauptplattform florierten jedoch entgegen den Vorstellungen der Mitglieder der Bitcoin-Gemeinschaft, die dem Beispiel von Vitalik Buterin folgten, der im Juli 2012 [fälschlicherweise](https://bitcoinmagazine.com/culture/the-silk-road-report) erklärte, dass die Silk Road "weit davon entfernt ist, das wirtschaftliche Kraftzentrum von Bitcoin zu sein". Laut einem Bericht von Nicolas Christin, einem Forscher an der Carnegie-Mellon University in Pittsburgh, der im August veröffentlicht wurde (https://arxiv.org/pdf/1207.7139), verzeichnete die Plattform ein außerordentliches Wachstum. Zwischen März und Juli hat sich die Zahl der Verkäufer von 300 auf über 550 fast verdoppelt, und fast 97,8 % der Kunden haben eine positive Bewertung ihrer Transaktionen abgegeben.
+Die Aktivitäten auf der Hauptplattform florierten jedoch entgegen den Vorstellungen der Mitglieder der Bitcoin-Gemeinschaft, die dem Beispiel von Vitalik Buterin folgten, der im Juli 2012 [fälschlicherweise](https://bitcoinmagazine.com/culture/the-silk-road-report) erklärte, dass die Silk Road "weit davon entfernt ist, das wirtschaftliche Kraftzentrum von Bitcoin zu sein". Laut einem Bericht von Nicolas Christin, einem Forscher an der Carnegie-Mellon University in Pittsburgh, der im August [veröffentlicht wurde](https://arxiv.org/pdf/1207.7139), verzeichnete die Plattform ein außerordentliches Wachstum. Zwischen März und Juli hat sich die Zahl der Verkäufer von 300 auf über 550 fast verdoppelt, und fast 97,8 % der Kunden haben eine positive Bewertung ihrer Transaktionen abgegeben.
 
 
 
@@ -2840,7 +2840,7 @@ Der Dienst war ein sofortiger Erfolg: Innerhalb von fünf Tagen wurden auf diese
 
 
 
-BitInstant und sein Vermittler (TrustCash) bemerkten schnell die Aktivitäten von BTCKing, da seine Kunden bei Einzahlungen mehrere Fehler machten. Insbesondere überschritt eine Einzahlung das vom Unternehmen festgelegte Limit von 1.000 $, was zur Schließung des ersten Kontos führte. Nachdem Charlie Shrem verstanden hatte, was BTCKing tat, und sich bewusst war, dass er "uns eine Menge Geschäfte bringt", nahm er persönlich Kontakt mit ihm auf und riet ihm, die Einzahlungen über eine andere E-Mail-Adresse vorzunehmen. Dieses Arrangement passte jedoch dem Mitbegründer Gareth Nelson nicht, der dem Geschäft skeptisch gegenüberstand. In einem Gespräch mit ihm im Januar 2012 rechtfertigte Charlie [https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Faiella%2C%20Robert%20M.%20and%20Charlie%20Shrem%20Complaint.pdf#page=17] seine Entscheidung wie folgt:
+BitInstant und sein Vermittler (TrustCash) bemerkten schnell die Aktivitäten von BTCKing, da seine Kunden bei Einzahlungen mehrere Fehler machten. Insbesondere überschritt eine Einzahlung das vom Unternehmen festgelegte Limit von 1.000 $, was zur Schließung des ersten Kontos führte. Nachdem Charlie Shrem verstanden hatte, was BTCKing tat, und sich bewusst war, dass er "uns eine Menge Geschäfte bringt", nahm er persönlich Kontakt mit ihm auf und riet ihm, die Einzahlungen über eine andere E-Mail-Adresse vorzunehmen. Dieses Arrangement passte jedoch dem Mitbegründer Gareth Nelson nicht, der dem Geschäft skeptisch gegenüberstand. In einem Gespräch mit ihm im Januar 2012 [rechtfertigte](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Faiella%2C%20Robert%20M.%20and%20Charlie%20Shrem%20Complaint.pdf#page=17) Charlie seine Entscheidung wie folgt:
 
 
 
@@ -2894,7 +2894,7 @@ Im Laufe des Sommers [integrierten](https://bitcointalk.org/index.php?topic=9479
 
 
 
-LocalBitcoins zog die Aufmerksamkeit der Gemeinschaft auf sich, und Jeremias nahm an mehreren Konferenzen teil, darunter die Assembly Summer 2012 und die Bitcoin-Konferenz in London. Im September [gab es](https://web.archive.org/web/20120920110200/https://localbitcoins.com/statistics) Changemaker in 74 verschiedenen Ländern und über 300 Städten. Am 14. Juni 2013, ein Jahr nach der Gründung, hatte die Website [https://bitcoinmagazine.com/culture/jeremias-kangas-bitcoin-cannot-be-shut-down-1371225649] rund 44.000 Nutzer, und das tägliche Tauschvolumen erreichte mehrere zehntausend Dollar!
+LocalBitcoins zog die Aufmerksamkeit der Gemeinschaft auf sich, und Jeremias nahm an mehreren Konferenzen teil, darunter die Assembly Summer 2012 und die Bitcoin-Konferenz in London. Im September [gab es](https://web.archive.org/web/20120920110200/https://localbitcoins.com/statistics) Changemaker in 74 verschiedenen Ländern und über 300 Städten. Am 14. Juni 2013, ein Jahr nach der Gründung, hatte die Website [rund 44.000 Nutzer](https://bitcoinmagazine.com/culture/jeremias-kangas-bitcoin-cannot-be-shut-down-1371225649), und das tägliche Tauschvolumen erreichte mehrere zehntausend Dollar!
 
 
 
@@ -3030,7 +3030,7 @@ Die Einführung von Bitcoin beim PorcFest war ein großer Erfolg. Josh Harvey (a
 
 
 
-Nach diesem Ereignis wurde die Beziehung zwischen Bitcoin und der libertären Sphäre verschmolzen. BitPay [sponserte](https://bitcointalk.org/index.php?topic=100459.msg1096865#msg1096865) das Paul Festival, ein Musikfestival, das im August in Florida stattfand (ein paar Tage vor der *Republican National Convention*), um Ron Paul zu ehren. Im darauffolgenden Jahr wurde das PorcFest (https://bitcoinmagazine.com/industry-events/bitcoin-at-porcfest-part-1-a-social-experiment-1371713328) mehr dem Bitcoin gewidmet.
+Nach diesem Ereignis wurde die Beziehung zwischen Bitcoin und der libertären Sphäre verschmolzen. BitPay [sponserte](https://bitcointalk.org/index.php?topic=100459.msg1096865#msg1096865) das Paul Festival, ein Musikfestival, das im August in Florida stattfand (ein paar Tage vor der *Republican National Convention*), um Ron Paul zu ehren. Im darauffolgenden Jahr wurde das PorcFest mehr dem Bitcoin [gewidmet](https://bitcoinmagazine.com/industry-events/bitcoin-at-porcfest-part-1-a-social-experiment-1371713328).
 
 
 
@@ -3042,7 +3042,7 @@ Während die wirtschaftlichen Aktivitäten weitgehend vom Drogenhandel auf der S
 
 
 
-Dieses Ereignis ebnete somit den Weg für eine breitere Akzeptanz, was insbesondere dazu führte, dass sich die Zahl der BitPay-Händler innerhalb weniger Monate [verdoppelte](https://www.forbes.com/sites/jonmatonis/2013/01/07/largest-bitcoin-payment-processor-raises-510000-angel-round/). Im März 2013 übertraf das über den Zahlungsabwickler ausgetauschte Volumen sogar das von Silk Road (https://bitcoinmagazine.com/technical/bitpay-processes-5-million-in-march-eclipses-silk-road-1364929315), insbesondere dank der Aktivitäten von Bitcoin Store, dem Online-Shop von Roger Ver, der im November 2012 (https://bitcointalk.org/index.php?topic=122190.msg1314366#msg1314366) eröffnet wurde, und Avalon Labs, der ASIC-Herstellungsfirma, die von einem gewissen Yifu Guo gegründet wurde.
+Dieses Ereignis ebnete somit den Weg für eine breitere Akzeptanz, was insbesondere dazu führte, dass sich die Zahl der BitPay-Händler innerhalb weniger Monate [verdoppelte](https://www.forbes.com/sites/jonmatonis/2013/01/07/largest-bitcoin-payment-processor-raises-510000-angel-round/). Im März 2013 [übertraf](https://bitcoinmagazine.com/technical/bitpay-processes-5-million-in-march-eclipses-silk-road-1364929315) das über den Zahlungsabwickler ausgetauschte Volumen sogar das von Silk Road  insbesondere dank der Aktivitäten von Bitcoin Store, dem Online-Shop von Roger Ver, der im November 2012 [eröffnet wurde](https://bitcointalk.org/index.php?topic=122190.msg1314366#msg1314366), und Avalon Labs, der ASIC-Herstellungsfirma, die von einem gewissen Yifu Guo gegründet wurde.
 
 
 
@@ -3073,7 +3073,7 @@ Einer der wachsenden Bereiche der Bitcoin-Wirtschaft zwischen 2011 und 2012 war 
 
 
 
-Am 15. April fand ein Ereignis statt, das unter Pokerspielern als "Schwarzer Freitag" bekannt werden sollte: Die Websites von PokerStars, Full Tilt Poker und Absolute Poker (die drei führenden Plattformen in den USA) wurden vom FBI geschlossen. Den Plattformen wurde vorgeworfen, den *Unlawful Internet Gambling Enforcement Act* zu umgehen, der es Banken untersagt, Überweisungen an Online-Glücksspielplattformen zu validieren. Zu diesem Zweck gaben sich die drei Plattformen (https://web.archive.org/web/20110419230512/http://www.justice.gov/usao/nys/pressreleases/April11/scheinbergetalindictmentpr.pdf) als Händler aus, die "Waren wie Schmuck und Golfbälle" an die Spieler verkauften, um den Verdacht ihrer Banken nicht zu wecken. Die Schließung am 15. April war eine Katastrophe für die Pokerwelt, die in Bezug auf die Online-Aktivitäten um mehrere Jahre zurückgeworfen wurde.
+Am 15. April fand ein Ereignis statt, das unter Pokerspielern als "Schwarzer Freitag" bekannt werden sollte: Die Websites von PokerStars, Full Tilt Poker und Absolute Poker (die drei führenden Plattformen in den USA) wurden vom FBI geschlossen. Den Plattformen wurde vorgeworfen, den *Unlawful Internet Gambling Enforcement Act* zu umgehen, der es Banken untersagt, Überweisungen an Online-Glücksspielplattformen zu validieren. Zu diesem Zweck gaben sich die [drei Plattformen](https://web.archive.org/web/20110419230512/http://www.justice.gov/usao/nys/pressreleases/April11/scheinbergetalindictmentpr.pdf) als Händler aus, die "Waren wie Schmuck und Golfbälle" an die Spieler verkauften, um den Verdacht ihrer Banken nicht zu wecken. Die Schließung am 15. April war eine Katastrophe für die Pokerwelt, die in Bezug auf die Online-Aktivitäten um mehrere Jahre zurückgeworfen wurde.
 
 
 
@@ -3157,7 +3157,7 @@ Das Verfahren war transparent und gewährleistete, dass die Nutzer überprüfen 
 
 
 
-Die Bedienung war einfach (man brauchte nur einen Wallet zum Spielen), sofort (bei kleinen Einsätzen) und leicht überprüfbar. Diese Merkmale sorgten dafür, dass das Spiel von Anfang an eine große Zahl von Spielern anzog. In nur 10 Tagen bearbeitete das Online-Casino [https://web.archive.org/web/20120419202743/http://1209k.com/bitcasino/report.php] fast 5.000 BTC an Wetten, was einem Gegenwert von über 24.000 Dollar entspricht. Aber dieser plötzliche Erfolg erschreckte Fireduck, der rechtliche Konsequenzen befürchtete, so dass er versuchte, die Website an jemanden zu verkaufen, der die rechtlichen Risiken übernehmen und ihm ein monatliches Gehalt für die technische Seite zahlen würde. In einer Ankündigung, die am 17. April im Bitcoin Subreddit veröffentlicht wurde, schrieb er [https://www.reddit.com/r/Bitcoin/comments/segz0/anyone_want_to_run_my_bitcoin_casino/], dass er "seit etwas mehr als einer Woche ein Bitcoin-Casino betreibt. Es hat 146 BTC mit einer Investition von etwa 45 BTC gemacht, um es in Gang zu bringen" und dass er nach einem Käufer suche.
+Die Bedienung war einfach (man brauchte nur einen Wallet zum Spielen), sofort (bei kleinen Einsätzen) und leicht überprüfbar. Diese Merkmale sorgten dafür, dass das Spiel von Anfang an eine große Zahl von Spielern anzog. In nur 10 Tagen [bearbeitete](https://web.archive.org/web/20120419202743/http://1209k.com/bitcasino/report.php) das Online-Casino fast 5.000 BTC an Wetten, was einem Gegenwert von über 24.000 Dollar entspricht. Aber dieser plötzliche Erfolg erschreckte Fireduck, der rechtliche Konsequenzen befürchtete, so dass er versuchte, die Website an jemanden zu verkaufen, der die rechtlichen Risiken übernehmen und ihm ein monatliches Gehalt für die technische Seite zahlen würde. In einer Ankündigung, die am 17. April im Bitcoin Subreddit veröffentlicht wurde, [schrieb er](https://www.reddit.com/r/Bitcoin/comments/segz0/anyone_want_to_run_my_bitcoin_casino/), dass er "seit etwas mehr als einer Woche ein Bitcoin-Casino betreibt. Es hat 146 BTC mit einer Investition von etwa 45 BTC gemacht, um es in Gang zu bringen" und dass er nach einem Käufer suche.
 
 
 
@@ -3187,7 +3187,7 @@ Entwickler Luke-Jr [sprach](https://bitcointalk.org/index.php?topic=23768.msg968
 
 
 
-Der Erfolg von SatoshiDICE zog auch Konkurrenten an: Das Verfahren wurde von mehreren Online-Casinos nachgeahmt und verbessert, die auch die Tatsache hervorhoben, dass sie "nachweislich fair" waren. Eines dieser Casinos war Bitzino (https://www.reddit.com/r/Bitcoin/comments/usa0j/i_coded_up_my_very_own_bitcoin_casino_in_order_to/), das am 8. Juni von einem Mann namens Larry Taad gegründet wurde und eine Vielzahl von Einzelspieler-Spielen wie Blackjack, Roulette und Videopoker anbot.
+Der Erfolg von SatoshiDICE zog auch Konkurrenten an: Das Verfahren wurde von mehreren Online-Casinos nachgeahmt und verbessert, die auch die Tatsache hervorhoben, dass sie "nachweislich fair" waren. Eines dieser Casinos war Bitzino, das am 8. Juni von einem Mann namens Larry Taad [gegründet wurde](https://www.reddit.com/r/Bitcoin/comments/usa0j/i_coded_up_my_very_own_bitcoin_casino_in_order_to/) und eine Vielzahl von Einzelspieler-Spielen wie Blackjack, Roulette und Videopoker anbot.
 
 
 
@@ -3215,7 +3215,7 @@ Die Verwendung von Bitcoin ist für die Sexarbeit geeignet. In einer Branche, di
 
 
 
-Es ist daher logisch, dass diese Verwendung in diesem Zeitraum aufkam, auch wenn sie mehr oder weniger im Anfangsstadium blieb. Im Januar 2012 startete Tony Gallippi [https://web.archive.org/web/20120128135530/https://bitcointalk.org/index.php?topic=57260.0] einen Dienst namens PimpCoin, der es ermöglichte, eine Einzahlungskarte so anzupassen, dass sie Bitcoin für Sexarbeit akzeptierte.
+Es ist daher logisch, dass diese Verwendung in diesem Zeitraum aufkam, auch wenn sie mehr oder weniger im Anfangsstadium blieb. Im Januar 2012 [startete](https://web.archive.org/web/20120128135530/https://bitcointalk.org/index.php?topic=57260.0) Tony Gallippi einen Dienst namens PimpCoin, der es ermöglichte, eine Einzahlungskarte so anzupassen, dass sie Bitcoin für Sexarbeit akzeptierte.
 
 
 
@@ -3258,7 +3258,7 @@ Aufgrund seiner Widerstandsfähigkeit gegen Zensur und seiner relativen Anonymit
 
 
 
-Bitcoin eignet sich besonders für die im Internet grassierende Cyberkriminalität, für die es bisher keine digitale und gleichzeitig schwer fassbare Währung gab. Ab 2011 kam es zu einer Reihe von Diebstählen und Betrügereien mit der Kryptowährung. Im Mai 2012 hatten sich diese dramatischen Ereignisse so sehr vervielfacht, dass eine "Liste der wichtigsten Bitcoin-Raubüberfälle, Diebstähle, Hacks, Betrügereien und Verluste" (https://bitcointalk.org/index.php?topic=83794.msg923918#msg923918) in das Forum gestellt wurde. Diese Liste, die regelmäßig aktualisiert wurde, wurde im Laufe der Jahre so umfangreich, dass 2014 ein [zweiter Thread](https://bitcointalk.org/index.php?topic=576337.msg6289796#msg6289796) eröffnet werden sollte, um alle Vorfälle zu erfassen.
+Bitcoin eignet sich besonders für die im Internet grassierende Cyberkriminalität, für die es bisher keine digitale und gleichzeitig schwer fassbare Währung gab. Ab 2011 kam es zu einer Reihe von Diebstählen und Betrügereien mit der Kryptowährung. Im Mai 2012 hatten sich diese dramatischen Ereignisse so sehr vervielfacht, dass eine "Liste der wichtigsten Bitcoin-Raubüberfälle, Diebstähle, Hacks, Betrügereien und Verluste" in das Forum [gestellt wurde](https://bitcointalk.org/index.php?topic=83794.msg923918#msg923918). Diese Liste, die regelmäßig aktualisiert wurde, wurde im Laufe der Jahre so umfangreich, dass 2014 ein [zweiter Thread](https://bitcointalk.org/index.php?topic=576337.msg6289796#msg6289796) eröffnet werden sollte, um alle Vorfälle zu erfassen.
 
 
 
@@ -3302,7 +3302,7 @@ Einen Monat später wurde die Online-Pokerplattform Betco.in, die seit 2010 von 
 
 
 
-Aufgrund seiner berüchtigten Aktivitäten war auch der Silk-Road-Marktplatz nicht vor bedauerlichen Vorfällen gefeit. Am 20. April 2012 wurde ein großer Betrug, der später als "The Great 420 Scam" (https://eileenormsby.com/2012/05/30/the-great-420-scam/) bezeichnet wurde, von einem Verkäufer mit dem Pseudonym Tony76 verübt. Es handelte sich um einen kanadischen Verkäufer, der seit Januar 2012 auf der Website registriert war und regelmäßig MDMA, Kokain und Heroin nach Kanada und in die USA verschickte. Zu diesem Zeitpunkt hatte er (https://www.forbes.com/sites/runasandvik/2013/11/22/alleged-dread-pirate-roberts-murder-target-led-massive-bitcoin-scam-on-silk-road/) mehr als 500 Verkäufe getätigt, und sein Bewertungs-Thread im Silk-Road-Forum enthielt mehr als 1.000 Beiträge.
+Aufgrund seiner berüchtigten Aktivitäten war auch der Silk-Road-Marktplatz nicht vor bedauerlichen Vorfällen gefeit. Am 20. April 2012 wurde ein großer Betrug, der später als "The Great 420 Scam" [bezeichnet wurde](https://eileenormsby.com/2012/05/30/the-great-420-scam/), von einem Verkäufer mit dem Pseudonym Tony76 verübt. Es handelte sich um einen kanadischen Verkäufer, der seit Januar 2012 auf der Website registriert war und regelmäßig MDMA, Kokain und Heroin nach Kanada und in die USA verschickte. Zu diesem Zeitpunkt [hatte er](https://www.forbes.com/sites/runasandvik/2013/11/22/alleged-dread-pirate-roberts-murder-target-led-massive-bitcoin-scam-on-silk-road/) mehr als 500 Verkäufe getätigt, und sein Bewertungs-Thread im Silk-Road-Forum enthielt mehr als 1.000 Beiträge.
 
 
 
@@ -3310,7 +3310,7 @@ Dank dieses tadellosen Rufs gelang es ihm, seinen Betrug durchzuziehen. Das Repu
 
 
 
-Der 20. April war ein symbolträchtiges Datum für Cannabiskonsumenten in Nordamerika. Daher wurden auf Silk Road zahlreiche Rabatte auf der Website veröffentlicht. Am 17. April kündigte Tony76 [https://antilop.cc/sr/users/tony76/messages/20120417-0804-26-Tony76_MASSIVE_4_20_SALE_When_i_say_massive_I_mean_massive.txt] seine Teilnahme an und begründete dies damit, dass "all diese unglaublichen Angebote von anderen Verkäufern" "mich dazu gebracht haben, es zu versuchen" und "meine wettbewerbsorientierte Seite ein wenig geweckt haben". Er kündigte auch an, dass er zum ersten Mal Aufträge für internationale Käufer öffnen würde. Am Vorabend des verhängnisvollen Tages bot er alle möglichen Produkte zu reduzierten Preisen an: Cannabis, MDMA, LSD, Ketamin, Kokain und Heroin.
+Der 20. April war ein symbolträchtiges Datum für Cannabiskonsumenten in Nordamerika. Daher wurden auf Silk Road zahlreiche Rabatte auf der Website veröffentlicht. Am 17. April [kündigte](https://antilop.cc/sr/users/tony76/messages/20120417-0804-26-Tony76_MASSIVE_4_20_SALE_When_i_say_massive_I_mean_massive.txt) Tony76 seine Teilnahme an und begründete dies damit, dass "all diese unglaublichen Angebote von anderen Verkäufern" "mich dazu gebracht haben, es zu versuchen" und "meine wettbewerbsorientierte Seite ein wenig geweckt haben". Er kündigte auch an, dass er zum ersten Mal Aufträge für internationale Käufer öffnen würde. Am Vorabend des verhängnisvollen Tages bot er alle möglichen Produkte zu reduzierten Preisen an: Cannabis, MDMA, LSD, Ketamin, Kokain und Heroin.
 
 
 
@@ -3334,11 +3334,11 @@ Wie wir in einem früheren Kapitel erläutert haben, war Bitcoinica seit seinem 
 
 
 
-Zhou Tong leitete die Plattform bis zum Frühjahr weiter. Im März/April wurde Bitcoinica LP in Neuseeland gegründet und [registriert](https://web.archive.org/web/20120505125011/https://www.bitcoinica.com/posts/registered-financial-services-provider) als Finanzdienstleister bei der Finanzmarktaufsicht. Am 24. April stießen dank der Verhandlungen von Tihan Seale die Mitglieder von Bitcoin Consultancy (Amir Taaki, Patrick Strateman und Donald Norman), die bereits mehrere Projekte, darunter die Devisenplattform Intersango, verwalteten, zu Zhou Tong [https://bitcointalk.org/index.php?topic=77958.msg867160#msg867160]. Sie gründeten zu diesem Zweck ein spezielles Unternehmen, die Bitcoinica Consultancy Ltd. Trotz des Verlusts von 43.000 Bitcoins beim Linode-Hack (der durch den Investitionsfonds gedeckt wurde) schien Bitcoinica also auf dem richtigen Weg zu sein.
+Zhou Tong leitete die Plattform bis zum Frühjahr weiter. Im März/April wurde Bitcoinica LP in Neuseeland gegründet und [registriert](https://web.archive.org/web/20120505125011/https://www.bitcoinica.com/posts/registered-financial-services-provider) als Finanzdienstleister bei der Finanzmarktaufsicht. Am 24. April stießen dank der Verhandlungen von Tihan Seale die Mitglieder von Bitcoin Consultancy (Amir Taaki, Patrick Strateman und Donald Norman), die bereits mehrere Projekte, darunter die Devisenplattform Intersango, [verwalteten](https://bitcointalk.org/index.php?topic=77958.msg867160#msg867160), zu Zhou Tong. Sie gründeten zu diesem Zweck ein spezielles Unternehmen, die Bitcoinica Consultancy Ltd. Trotz des Verlusts von 43.000 Bitcoins beim Linode-Hack (der durch den Investitionsfonds gedeckt wurde) schien Bitcoinica also auf dem richtigen Weg zu sein.
 
 
 
-Die Dinge liefen jedoch nicht wie geplant, da es kurz darauf zu einem zweiten Hack [kam](https://bitcoinica.blogspot.com/2012/05/bitcoinica-security-breach.html). Am 11. Mai 2012 verschaffte sich ein Hacker Zugriff auf den Bitcoinica-E-Mail-Server (der von Rackspace gehostet wurde) und nutzte die Funktion "Passwort vergessen", um sich mit einem der Administratorkonten bei der Plattform anzumelden. Es gelang ihm, 18.574 Bitcoins oder fast 92.000 US-Dollar abzuheben (https://bitcointalk.org/index.php?topic=81045.0). Darüber hinaus gelangte er in den Besitz der Benutzerdatenbank, die er kopierte und vom Server löschte. Es gab [kein Backup](https://bitcointalk.org/index.php?topic=81045.msg921159#msg921159) dieser Datenbank, so dass der Vorfall katastrophal war. Der Betrieb der Plattform wurde innerhalb einer Stunde eingestellt.
+Die Dinge liefen jedoch nicht wie geplant, da es kurz darauf zu einem zweiten Hack [kam](https://bitcoinica.blogspot.com/2012/05/bitcoinica-security-breach.html). Am 11. Mai 2012 verschaffte sich ein Hacker Zugriff auf den Bitcoinica-E-Mail-Server (der von Rackspace gehostet wurde) und nutzte die Funktion "Passwort vergessen", um sich mit einem der Administratorkonten bei der Plattform anzumelden. Es gelang ihm, 18.574 Bitcoins oder fast 92.000 US-Dollar [abzuheben](https://bitcointalk.org/index.php?topic=81045.0). Darüber hinaus gelangte er in den Besitz der Benutzerdatenbank, die er kopierte und vom Server löschte. Es gab [kein Backup](https://bitcointalk.org/index.php?topic=81045.msg921159#msg921159) dieser Datenbank, so dass der Vorfall katastrophal war. Der Betrieb der Plattform wurde innerhalb einer Stunde eingestellt.
 
 
 
@@ -3358,11 +3358,11 @@ Das Krisenmanagement wurde vollständig der Bitcoin-Beratungsfirma anvertraut. I
 
 
 
-Das Verfahren verlief langsam. Die ersten Zahlungen [erfolgten](https://web.archive.org/web/20120720064802/https://bitcoinica.com/) am 13. Juni und [betrafen](https://bitcointalk.org/index.php?topic=84042.msg970495#msg970495) weniger als 1 % der Kunden. Bis Anfang Juli waren 27 % der Gelder [ausgezahlt](https://bitcointalk.org/index.php?topic=84042.msg1001019#msg1001019) (54 %, wenn man die Teilrückzahlungen berücksichtigt). Bis Mitte Juli war dieser Prozentsatz (https://bitcointalk.org/index.php?topic=93074.msg1027282#msg1027282) auf 38 % gestiegen (76 % wurden zu 50 % zurückgezahlt).
+Das Verfahren verlief langsam. Die ersten Zahlungen [erfolgten](https://web.archive.org/web/20120720064802/https://bitcoinica.com/) am 13. Juni und [betrafen](https://bitcointalk.org/index.php?topic=84042.msg970495#msg970495) weniger als 1 % der Kunden. Bis Anfang Juli waren 27 % der Gelder [ausgezahlt](https://bitcointalk.org/index.php?topic=84042.msg1001019#msg1001019) (54 %, wenn man die Teilrückzahlungen berücksichtigt). Bis Mitte Juli war [dieser Prozentsatz](https://bitcointalk.org/index.php?topic=93074.msg1027282#msg1027282) auf 38 % gestiegen (76 % wurden zu 50 % zurückgezahlt).
 
 
 
-Doch dann geschah wieder etwas Unerwartetes. Am 7. Juli [veröffentlichte](https://www.reddit.com/r/Bitcoin/comments/w6xen/bitcoinica_press_release/) Amir Taaki, der mit dem Management von Bitcoinica in Konflikt stand (https://bitcointalk.org/index.php?topic=196150.msg2038900#msg2038900), den vollständigen Quellcode der Plattform. Dieser Quellcode enthielt einen API-Schlüssel, der zufällig auch das Passwort für den Zugang zu Bitcoinicas LastPass-Safe war, in dem sich einige seiner Passwörter befanden, darunter auch das seines Mt.Gox-Kontos. Am 13. Juli nutzte ein Hacker diese Schwachstelle aus und [schaffte es](https://bitcointalk.org/index.php?topic=93074.msg1027282#msg1027282), 40.000 Bitcoins und 40.000 LR-USD von Mt. Gox abzuheben (die Obergrenze), was fast 350.000 $ entspricht! Damit belief sich der Gesamtverlust der Plattform (in Dollar) auf über 650.000 Dollar.
+Doch dann geschah wieder etwas Unerwartetes. Am 7. Juli [veröffentlichte](https://www.reddit.com/r/Bitcoin/comments/w6xen/bitcoinica_press_release/) Amir Taaki, der mit dem Management von Bitcoinica [in Konflikt stand](https://bitcointalk.org/index.php?topic=196150.msg2038900#msg2038900), den vollständigen Quellcode der Plattform. Dieser Quellcode enthielt einen API-Schlüssel, der zufällig auch das Passwort für den Zugang zu Bitcoinicas LastPass-Safe war, in dem sich einige seiner Passwörter befanden, darunter auch das seines Mt.Gox-Kontos. Am 13. Juli nutzte ein Hacker diese Schwachstelle aus und [schaffte es](https://bitcointalk.org/index.php?topic=93074.msg1027282#msg1027282), 40.000 Bitcoins und 40.000 LR-USD von Mt. Gox abzuheben (die Obergrenze), was fast 350.000 $ entspricht! Damit belief sich der Gesamtverlust der Plattform (in Dollar) auf über 650.000 Dollar.
 
 
 
@@ -3394,7 +3394,7 @@ Bitcoin kann auch dazu verwendet werden, alte Systeme wiederzubeleben, insbesond
 
 
 
-Im Internetzeitalter nahmen Pyramidensysteme häufig die Form von *High-Yield-Investment-Programmen* (HYIPs) an, die für kurze Zeit ungewöhnlich hohe Zinssätze versprachen, um ihre Kunden zu schnellen Einzahlungen zu bewegen. Sie waren im Bereich der alternativen Währungen wie E-Gold und Liberty Reserve sehr erfolgreich. In den Jahren 2011-2012 war eines der größten dieser Systeme [https://www.themoscowtimes.com/2012/06/17/mavrodi-closes-mmm-2011-a15491] das MMM-2011-Pyramidensystem, das vom Russen Sergei Mavrodi betrieben wurde.
+Im Internetzeitalter nahmen Pyramidensysteme häufig die Form von *High-Yield-Investment-Programmen* (HYIPs) an, die für kurze Zeit ungewöhnlich hohe Zinssätze versprachen, um ihre Kunden zu schnellen Einzahlungen zu bewegen. Sie waren im Bereich der alternativen Währungen wie E-Gold und Liberty Reserve sehr erfolgreich. In den Jahren 2011-2012 [war](https://www.themoscowtimes.com/2012/06/17/mavrodi-closes-mmm-2011-a15491) eines der größten dieser Systeme das MMM-2011-Pyramidensystem, das vom Russen Sergei Mavrodi betrieben wurde.
 
 
 
@@ -3414,7 +3414,7 @@ Der Fonds wurde von Trendon Shavers, einem 29-jährigen texanischen Vater, gegr�
 
 
 
-Ende 2011 war Trendon auf dem OTC-Börsenkanal \#bitcoin-otc aktiv, wo er sich einen [guten Ruf] erwarb (https://web.archive.org/web/20111031165817/http://bitcoin-otc.com/viewratingdetail.php?nick=pirateat40). Er verkaufte Bitcoin zu einem höheren Kurs als auf Mt. Gox; und angesichts der starken Nachfrage begann er, Kredite von vertrauenswürdigen Personen aufzunehmen. Am 3. November 2011 kündigte er [über](https://bitcointalk.org/index.php?topic=50822.msg607752#msg607752) im Forum an, "Kreditgeber zu suchen", um als lokaler Wiederverkäufer zu agieren ([über](https://gwern.net/doc/bitcoin/pirateat40/secvs.pirateat401.pdf) Geldtauschdienste und Craiglist). Er bot zwei Möglichkeiten an, Geld zu leihen. Bei der einen Methode, die als "Lagerung" bezeichnet wurde und in "Sparen" umbenannt werden sollte, konnte man Geld gegen einen Zinssatz auf einem Konto hinterlegen, das an eine bestimmte Adresse geschickt oder wieder angelegt werden konnte. Der versprochene Zinssatz betrug 1 % *pro Tag*, was eine 37-fache Steigerung der ursprünglichen Investition in nur einem Jahr bedeutete!
+Ende 2011 war Trendon auf dem OTC-Börsenkanal \#bitcoin-otc aktiv, wo er sich einen [guten Ruf](https://web.archive.org/web/20111031165817/http://bitcoin-otc.com/viewratingdetail.php?nick=pirateat40) erwarb. Er verkaufte Bitcoin zu einem höheren Kurs als auf Mt. Gox; und angesichts der starken Nachfrage begann er, Kredite von vertrauenswürdigen Personen aufzunehmen. Am 3. November 2011 kündigte er [über](https://bitcointalk.org/index.php?topic=50822.msg607752#msg607752) im Forum an, "Kreditgeber zu suchen", um als lokaler Wiederverkäufer zu agieren ([über](https://gwern.net/doc/bitcoin/pirateat40/secvs.pirateat401.pdf) Geldtauschdienste und Craiglist). Er bot zwei Möglichkeiten an, Geld zu leihen. Bei der einen Methode, die als "Lagerung" bezeichnet wurde und in "Sparen" umbenannt werden sollte, konnte man Geld gegen einen Zinssatz auf einem Konto hinterlegen, das an eine bestimmte Adresse geschickt oder wieder angelegt werden konnte. Der versprochene Zinssatz betrug 1 % *pro Tag*, was eine 37-fache Steigerung der ursprünglichen Investition in nur einem Jahr bedeutete!
 
 
 
@@ -3422,7 +3422,7 @@ Trendon behauptete, er habe "meine eigene maßgeschneiderte Verwaltungssoftware 
 
 
 
-Anfang 2012 wurde der Anlageplan (https://web.archive.org/web/20120326140927/https://bitcointalk.org/index.php?topic=50822.msg605957#msg605957) vereinfacht und bot wöchentliche Zinszahlungen. Die Zinssätze wurden je nach Anlagebetrag gestaffelt, um größere Einlagen zu fördern: 100 BTC brachten 4,2 % *pro Woche*, während 1.000 BTC (und mehr) 7 % brachten. Anmeldungen [gingen](https://bitcointalk.org/index.php?topic=50822.msg736031#msg736031) jetzt nur noch über Empfehlung (damit bestehende Mitglieder mehr verdienen können). Ein Mindestbetrag von 100 BTC (ca. $570) [wurde](https://bitcointalk.org/index.php?topic=50822.msg738835#msg738835) eingeführt, um die Notwendigkeit zu beseitigen, mit kleinen Kreditgebern zu handeln. Diese neue Eintrittsbarriere führte zum Aufkommen von Vermittlern, [insbesondere](https://bitcointalk.org/index.php?topic=76594.msg850275#msg850275) durch die [Ausgabe](https://bitcointalk.org/index.php?topic=91252.msg1063296#msg1063296) von Anleihen (bekannt als "Pirate Passthroughts" oder PPT) an der GLBSE.
+Anfang 2012 [wurde](https://web.archive.org/web/20120326140927/https://bitcointalk.org/index.php?topic=50822.msg605957#msg605957) der Anlageplan  vereinfacht und bot wöchentliche Zinszahlungen. Die Zinssätze wurden je nach Anlagebetrag gestaffelt, um größere Einlagen zu fördern: 100 BTC brachten 4,2 % *pro Woche*, während 1.000 BTC (und mehr) 7 % brachten. Anmeldungen [gingen](https://bitcointalk.org/index.php?topic=50822.msg736031#msg736031) jetzt nur noch über Empfehlung (damit bestehende Mitglieder mehr verdienen können). Ein Mindestbetrag von 100 BTC (ca. $570) [wurde](https://bitcointalk.org/index.php?topic=50822.msg738835#msg738835) eingeführt, um die Notwendigkeit zu beseitigen, mit kleinen Kreditgebern zu handeln. Diese neue Eintrittsbarriere führte zum Aufkommen von Vermittlern, [insbesondere](https://bitcointalk.org/index.php?topic=76594.msg850275#msg850275) durch die [Ausgabe](https://bitcointalk.org/index.php?topic=91252.msg1063296#msg1063296) von Anleihen (bekannt als "Pirate Passthroughts" oder PPT) an der GLBSE.
 
 
 
@@ -3442,7 +3442,7 @@ Trendon [erklärte](https://web.archive.org/web/20120326140927/https://bitcointa
 
 
 
-Der Erfolg von Bitcoin Savings & Trust war phänomenal. In der Spitze erreichte die Gesamtzahl der vom Fonds verwalteten Bitcoins [https://bitcointalk.org/index.php?topic=101339.msg1111794#msg1111794] über 500.000 Bitcoins, was etwa 5 % der 9,7 Millionen im Umlauf befindlichen Bitcoins entspricht!
+Der Erfolg von Bitcoin Savings & Trust war phänomenal. In der Spitze [erreichte](https://bitcointalk.org/index.php?topic=101339.msg1111794#msg1111794) die Gesamtzahl der vom Fonds verwalteten Bitcoins über 500.000 Bitcoins, was etwa 5 % der 9,7 Millionen im Umlauf befindlichen Bitcoins entspricht!
 
 
 
@@ -3450,7 +3450,7 @@ Natürlich erregte die relativ undurchsichtige Funktionsweise von BTCS&T Misstra
 
 
 
-Das Ende kam im Sommer. Im Juni stieg der Bitcoin-Preis von 5 $ auf 6,5 $ und setzte Trendon, dessen Schulden auf Bitcoins lauteten, unter Druck. Anfang Juli kündigte er [https://bitcointalk.org/index.php?topic=50822.msg1004091#msg1004091] angesichts der Unsicherheit an, den Zinssatz auf 3,9 % für alle Beträge zu senken und die Registrierung für alle zu öffnen, was am 14. August in Kraft trat. Leider verstärkte diese Senkung die Zahl der Abhebungen durch Kunden, die spürten, dass etwas nicht stimmte.
+Das Ende kam im Sommer. Im Juni stieg der Bitcoin-Preis von 5 $ auf 6,5 $ und setzte Trendon, dessen Schulden auf Bitcoins lauteten, unter Druck. Anfang Juli [kündigte er](https://bitcointalk.org/index.php?topic=50822.msg1004091#msg1004091) angesichts der Unsicherheit an, den Zinssatz auf 3,9 % für alle Beträge zu senken und die Registrierung für alle zu öffnen, was am 14. August in Kraft trat. Leider verstärkte diese Senkung die Zahl der Abhebungen durch Kunden, die spürten, dass etwas nicht stimmte.
 
 
 
@@ -3470,7 +3470,7 @@ Die Verluste waren kolossal. Laut [weiterer Analyse](https://gwern.net/doc/bitco
 
 
 
-Trendon behauptete später, nicht verantwortlich zu sein: "Einer meiner größten Kunden beschloss, [mir](https://pastebin.com/DVNsx7xz) das Leben schwer zu machen", indem er [https://gwern.net/doc/bitcoin/pirateat40/secvs.pirateat401.pdf#page=64] 202.000 Bitcoins als Teil eines ungesicherten Kredits stahl. Die Aktivität des Fonds [Adresse](https://bitcointalk.org/index.php?topic=94675.msg1047007#msg1047007) würde diese Information jedoch nicht bestätigen.
+Trendon behauptete später, nicht verantwortlich zu sein: "Einer meiner größten Kunden beschloss, [mir](https://pastebin.com/DVNsx7xz) das Leben schwer zu machen", indem er 202.000 Bitcoins als Teil eines ungesicherten Kredits [stahl](https://gwern.net/doc/bitcoin/pirateat40/secvs.pirateat401.pdf#page=64). Die Aktivität des Fonds [Adresse](https://bitcointalk.org/index.php?topic=94675.msg1047007#msg1047007) würde diese Information jedoch nicht bestätigen.
 
 
 
@@ -3486,7 +3486,7 @@ Der BTC-e-Hack [ereignete sich](https://web.archive.org/web/20120731215829/https
 
 
 
-Der Bitfloor-Hack, der im September stattfand, war von größerer Bedeutung. BitFloor war eine amerikanische Börsenplattform mit Sitz in New York. Sie wurde im Oktober 2011 von einem 25-Jährigen namens Roman Shtylman mit der Hilfe eines Freundes [gegründet](https://bitcointalk.org/index.php?topic=47109.msg578260#msg578260). Der Plattform gelang es schnell, Nutzer anzuziehen, indem sie Liquiditätsanbieter (*Maker*) mit "Rabatten" belohnte, die bei der Ausführung von Börsengeschäften gutgeschrieben wurden (https://bitcointalk.org/index.php?topic=51078.msg608833#msg608833). Im Mai 2012 begann BitFloor auch mit der [Annahme](https://bitcointalk.org/index.php?topic=81915.msg902211#msg902211) von Bareinzahlungen, ein sehr attraktives Merkmal, wie wir erklärt haben.
+Der Bitfloor-Hack, der im September stattfand, war von größerer Bedeutung. BitFloor war eine amerikanische Börsenplattform mit Sitz in New York. Sie wurde im Oktober 2011 von einem 25-Jährigen namens Roman Shtylman mit der Hilfe eines Freundes [gegründet](https://bitcointalk.org/index.php?topic=47109.msg578260#msg578260). Der Plattform gelang es schnell, Nutzer anzuziehen, indem sie Liquiditätsanbieter (*Maker*) mit "Rabatten" belohnte, die bei der Ausführung von Börsengeschäften [gutgeschrieben wurden](https://bitcointalk.org/index.php?topic=51078.msg608833#msg608833). Im Mai 2012 begann BitFloor auch mit der [Annahme](https://bitcointalk.org/index.php?topic=81915.msg902211#msg902211) von Bareinzahlungen, ein sehr attraktives Merkmal, wie wir erklärt haben.
 
 
 

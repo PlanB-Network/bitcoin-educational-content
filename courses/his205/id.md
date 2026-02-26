@@ -171,7 +171,6 @@ Gambaran umum evolusi manusia dari Australopithecus hingga manusia modern, mengi
 
 
 
-
 - 3 juta tahun yang lalu** - Kemunculan *Australopithecus*.
 - 2 juta tahun yang lalu** - Hominin mulai meninggalkan Afrika.
 - 1.6 juta tahun yang lalu** - Hominin mencapai Eropa selatan dan Asia.
@@ -264,7 +263,7 @@ Dengan semua kerugian ini, siapa yang akan memilih untuk menjadi petani saat itu
 
 
 
-Dalam budaya Natoufian, hingga seratus orang tinggal bersama di desa-desa yang terdiri dari rumah-rumah bundar. Sebuah teori populer yang menjelaskan awal mula pertanian adalah bahwa perubahan ini didorong oleh perubahan iklim. Sekitar 11.000 tahun yang lalu, iklim di Timur Dekat menjadi lebih dingin dan lebih kering dari sebelumnya. Tumbuhan dan hewan yang sebelumnya berlimpah menjadi lebih langka. Masyarakat kemudian mulai membudidayakan tanaman yang menjadi tumpuan hidup mereka, atau memelihara hewan-hewan muda untuk dibesarkan dan diambil manfaatnya, seperti domba, kambing, dan sapi, yang cocok untuk pengembangbiakan seperti itu. Ini merupakan proses yang sangat bertahap. Jadi, tidak ada saat yang tepat ketika mereka semua menjadi petani yang memelihara hewan.
+Dalam budaya Natoufian, hingga seratus orang tinggal bersama di desa-desa yang terdiri dari rumah-rumah bundar. Sebuah teori populer yang menjelaskan awal mula pertanian adalah bahwa perubahan ini dipicu oleh perubahan iklim. Sekitar 11.000 tahun yang lalu, iklim di Timur Dekat menjadi lebih dingin dan lebih kering dari sebelumnya. Tumbuhan dan hewan yang sebelumnya berlimpah menjadi lebih langka. Masyarakat kemudian mulai membudidayakan tanaman yang menjadi tumpuan hidup mereka, atau memelihara hewan-hewan muda untuk dibesarkan dan diambil manfaatnya, seperti domba, kambing, dan sapi, yang cocok untuk pengembangbiakan seperti itu. Ini merupakan proses yang sangat bertahap. Jadi, tidak ada saat yang tepat ketika mereka semua menjadi petani yang memelihara hewan.
 
 
 
@@ -301,7 +300,7 @@ Sedentarisasi bertahap ini menyebabkan transformasi sosial yang mendalam. **Pert
 
 
 
-Tembikar adalah ilustrasi sempurna dari evolusi ini: awalnya dikembangkan untuk menyimpan sereal dan biji-bijian, tembikar menjadi saksi dari kemampuan baru untuk memproyeksikan kebutuhan dari waktu ke waktu. Beberapa ahli prasejarah bahkan menganggap bahwa Neolitikum tidak akan mungkin terjadi tanpa sistem penyimpanan ini.
+Gerabah (tembikar) dengan sempurna menggambarkan perkembangan ini: awalnya dikembangkan untuk menyimpan sereal dan biji-bijian, gerabah menjadi saksi dari kemampuan baru untuk memproyeksikan kebutuhan dari waktu ke waktu. Beberapa ahli prasejarah bahkan menganggap bahwa Neolitikum tidak akan mungkin terjadi tanpa sistem penyimpanan ini.
 
 
 
@@ -348,7 +347,7 @@ Ada beberapa jenis barter:
 
 
 
-**Di antara komunitas yang berbeda, tidak adanya ikatan kepercayaan pribadi mendukung munculnya pertukaran yang lebih formal. Barang-barang tertentu secara bertahap memperoleh status khusus melalui kemampuan mereka untuk diminta oleh kelompok-kelompok asing, yang menjadi awal dari bentuk-bentuk proto-mata uang.
+**Di antara komunitas yang berbeda**, tidak adanya ikatan kepercayaan pribadi mendukung munculnya pertukaran yang lebih formal. Barang-barang tertentu secara bertahap memperoleh status khusus melalui kemampuan mereka untuk diminta oleh kelompok-kelompok asing, yang menjadi awal dari bentuk-bentuk awal mata uang.
 
 
 
@@ -441,25 +440,23 @@ Selama abad-abad pertama keberadaannya, aksara ini masih terbatas, yang pada das
 
 
 
-Awalnya, nama tidak dapat diekspresikan dalam aksara paku karena aksara ini terutama mewakili objek dan elemen realitas, seperti lembu atau gandum, yang digambarkan sebagai gambar kecil. Seiring berjalannya waktu, gambar-gambar ini berevolusi menjadi bentuk aksara yang lebih berkembang, yang memungkinkan untuk merepresentasikan nama dan konsep yang kompleks.
+Awalnya, nama tidak dapat diekspresikan dalam aksara paku karena aksara ini terutama mewakili objek dan elemen realitas, seperti sapi atau gandum, yang digambarkan sebagai gambar kecil. Seiring berjalannya waktu, gambar-gambar ini berevolusi menjadi bentuk aksara yang lebih berkembang, yang memungkinkan untuk merepresentasikan nama dan konsep yang kompleks.
 
 
-Jika nama orang tersebut adalah Laura, misalnya, kita dapat mengambil sebuah kata, sebuah akronim yang terdengar seperti "air" dan kata kedua seperti "ras", dan membentuk nama Laura dengannya. Begitulah bentuk pertama dari bahasa tertulis berkembang.
+Hal ini dicapai melalui prinsip rebus: sebuah tanda untuk suatu objek (misalnya, gambar air) dapat digunakan berdasarkan nilai fonetiknya untuk menulis sebuah kata yang bunyinya mirip (misalnya, sebuah nama), sehingga memungkinkan para juru tulis untuk menyusun kata-kata secara fonetik.
 
 
-Sebagai catatan, untuk merepresentasikan akronim pada awalnya, jika Anda ingin menggambar kepala lembu, Anda bisa melihat bentuk kepala lembu. Sedikit demi sedikit, gambar disederhanakan menjadi tidak lebih dari sekadar garis. Para ahli percaya bahwa hal ini terjadi karena orang memegang tablet tanah liat basah dengan satu tangan, sehingga lebih mudah untuk menggambar ulang inisial dengan memutarnya. Hal ini juga diperkirakan karena cara para juru tulis memegang tablet.
+Pada saat yang sama, piktogram itu sendiri mengalami proses penyederhanaan dan stilisasi. Gambar kepala sapi, misalnya, secara bertahap disederhanakan menjadi serangkaian tanda abstrak berbentuk paku (wedge-shaped). Para ahli percaya bahwa abstraksi ini merupakan penyesuaian praktis terhadap media penulisan; memegang tablet tanah liat basah dengan satu tangan dan menulis menggunakan stylus membuat goresan bersudut dan terukir jauh lebih efisien dibandingkan menggambar bentuk lengkung.
+
+Bahkan dalam bentuk abstraknya, asal-usul piktografis dari banyak tanda tetap dapat dikenali, dan tanda-tanda tersebut memiliki ciri khas yang dipengaruhi oleh teknik penulisan.
 
 
-Anda masih bisa melihat hubungan dengan, misalnya, gandum atau kepala sapi dalam akronim paku, dan selalu condong ke satu sisi.
+Sepanjang tiga milenium penggunaannya, tulisan paku (cuneiform) terutama digunakan untuk mencatat urusan ekonomi dan administrasi. Namun, penduduk Mesopotamia segera mengembangkan keinginan yang kuat untuk mengabadikan segala sesuatu yang layak bertahan melintasi waktu dalam bentuk tulisan. Maka, kisah, legenda, dan lagu-lagu yang sebelumnya disampaikan secara lisan oleh para musisi keliling, diabadikan dalam tulisan, sering kali disalin oleh para juru tulis yang sedang menjalani pelatihan. Mereka menyalin teks-teks yang sudah ada, terutama legenda atau tulisan yang memiliki nilai budaya tertentu.
 
 
-Selama tiga milenium penggunaannya, tulisan paku terutama berfungsi untuk menyimpan catatan ekonomi dan administrasi. Namun, penduduk Mesopotamia segera mengembangkan keinginan mendalam untuk melestarikan segala sesuatu yang layak untuk bertahan dalam ujian waktu dalam bentuk tertulis. Dengan demikian, cerita, legenda, dan lagu-lagu, yang sampai sekarang disampaikan secara lisan oleh para musisi keliling, diabadikan dalam bentuk tulisan, yang sering kali disalin oleh para juru tulis dalam pelatihan. Mereka menyalin teks-teks yang telah ada, terutama legenda atau teks yang memiliki nilai budaya tertentu.
+Salah satu contoh penting adalah Epos Gilgamesh, yang menceritakan kisah seorang raja historis dari negara-kota Sumeria, Uruk, yang kemungkinan memerintah sekitar tahun 2900–2350 SM.
 
-
-Contoh penting adalah **Epos Gilgamesh**, yang mungkin merupakan **raja bersejarah dari negara kota Uruk di Sumeria** sekitar tahun 2900-2350 SM.
-
-
-Bentuk tulisan ini, yang merupakan alat manajemen ekonomi dan vektor budaya, bertahan hingga abad ke-1 Masehi, sebelum menghilang untuk selamanya, meninggalkan kesaksian berharga bagi peradaban yang menjadi saksi kelahirannya.
+Bentuk tulisan ini, yang sekaligus menjadi alat pengelolaan ekonomi dan sarana penyebaran budaya, bertahan hingga abad ke-1 Masehi, sebelum akhirnya menghilang untuk selamanya, meninggalkan kesaksian berharga tentang peradaban yang melahirkannya.
 
 
 

@@ -1861,7 +1861,7 @@ In der Folge wurden im Laufe des Jahres Dutzende von Pools eröffnet. Darunter w
 
 
 
-Das proportionale Modell und der PPS waren jedoch nicht die einzigen, die übernommen wurden. Neben dem Slush-Score konzipierten Bergleute komplexere Auszahlungsmethoden wie das PPLNS, die geometrische Methode oder das SMPPS, die darauf abzielen, die Unzulänglichkeiten der einfachen Modelle zu korrigieren. Diese Methoden wurden von verschiedenen Mining-Gruppen erprobt, die sich von den etablierten Organisationen abheben wollten.
+Das proportionale Modell und der PPS waren jedoch nicht die einzigen, die übernommen wurden. Neben dem Slush-Score konzipierten Miner komplexere Auszahlungsmethoden wie das PPLNS, die geometrische Methode oder das SMPPS, die darauf abzielen, die Unzulänglichkeiten der einfachen Modelle zu korrigieren. Diese Methoden wurden von verschiedenen Mining-Gruppen erprobt, die sich von den etablierten Organisationen abheben wollten.
 
 
 
@@ -2082,7 +2082,7 @@ Nach dem Ausscheiden von Satoshi Nakamoto wurde die Softwareentwicklung von der 
 
 
 
-Im Winter 2011-2012 kam es zu einer Kontroverse über die Einführung der Mehrfachsignatur in Bitcoin. Dabei ging es unter anderem um das als "Pay to [Script](https://planb.academy/resources/glossary/script) Hash" oder P2SH bekannte System. Pete Rizzo und Aaron van Wirdum [würden](https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) nennen diesen Konflikt "die Schlacht um P2SH". Dies war der erste größere Streit über die Entwicklung des Protokolls und der erste, der die Frage der Verwaltung aufwirft.
+Im Winter 2011-2012 kam es zu einer Kontroverse über die Einführung der Mehrfachsignatur in Bitcoin. Dabei ging es unter anderem um das als "Pay to [Script](https://planb.academy/resources/glossary/script) Hash" oder P2SH bekannte System. Pete Rizzo und Aaron van Wirdum [würden](https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) diesen Konflikt "die Schlacht um P2SH" nennen. Dies war der erste größere Streit über die Entwicklung des Protokolls und der erste, der die Frage der Verwaltung aufwirft.
 
 
 
@@ -2118,11 +2118,11 @@ Gavin ist immer noch der Projektleiter, aber er wurde von mehreren Personen unte
 
 
 
-Gleichzeitig begann das von Amir Taaki im September 2011 eingeführte System der Bitcoin-Verbesserungsvorschläge (https://gnusha.org/pi/bitcoindev/1316392315.46221.YahooMailNeo@web121014.mail.ne1.yahoo.com/), Früchte zu tragen. Die ersten BIPs wurden bis zum Ende des Jahres geschrieben. Dies ist zum Beispiel der Fall bei BIP 10, der am 28. Oktober von Alan Reiner, dem Entwickler des Wallets von Armory, [veröffentlicht](https://gist.github.com/etotheipi/1321518) wurde.
+Gleichzeitig begann das von Amir Taaki im September 2011 [eingeführte](https://gnusha.org/pi/bitcoindev/1316392315.46221.YahooMailNeo@web121014.mail.ne1.yahoo.com/) System der Bitcoin-Verbesserungsvorschläge, Früchte zu tragen. Die ersten BIPs wurden bis zum Ende des Jahres geschrieben. Dies ist zum Beispiel der Fall bei BIP 10, der am 28. Oktober von Alan Reiner, dem Entwickler des Armory-Wallets, [veröffentlicht](https://gist.github.com/etotheipi/1321518) wurde.
 
 
 
-Am 9. Januar 2012 veröffentlichte ein gewisser David Perry, der im Forum als Enmaku bekannt ist, [https://web.archive.org/web/20120830214308/http://codinginmysleep.com/bitcoin-development-history-visually/] eine Visualisierung des Entwicklungsfortschritts der Software, die mit einem Tool namens Gource erstellt wurde. Sie zeigte die Beiträge der Entwickler zur Software: Sie begann mit den Aktionen von Satoshi Nakamoto und Martti Malmi, setzte sich mit der wachsenden Rolle von Gavin Andresen ab Juli 2010 fort und zeigte die Komplexität des Codes, die zu einer Explosion der Entwicklung ab April 2011 führte.
+Am 9. Januar 2012 [veröffentlichte](https://web.archive.org/web/20120830214308/http://codinginmysleep.com/bitcoin-development-history-visually/) ein gewisser David Perry, der im Forum als Enmaku bekannt ist, eine Visualisierung des Entwicklungsfortschritts der Software, die mit einem Tool namens Gource erstellt wurde. Sie zeigte die Beiträge der Entwickler zur Software: Sie begann mit den Aktionen von Satoshi Nakamoto und Martti Malmi, setzte sich mit der wachsenden Rolle von Gavin Andresen ab Juli 2010 fort und zeigte die Komplexität des Codes, die zu einer Explosion der Entwicklung ab April 2011 führte.
 
 
 
@@ -2134,7 +2134,7 @@ Am 9. Januar 2012 veröffentlichte ein gewisser David Perry, der im Forum als En
 
 
 
-### Bitcoin Programmierbarkeit
+### Bitcoins Programmierbarkeit
 
 
 
@@ -2163,7 +2163,7 @@ Interessanterweise enthält die `OP_CHECKMULTISIG`-Implementierung einen Fehler.
 
 
 
-Am 23. August 2011, ein paar Tage nach der New Yorker Konferenz, [initiierte](https://gnusha.org/pi/bitcoindev/CABsx9T1uw43JuvhEmJP0KCyojsDi1r7v6BaLBHz7wWazduE5iw@mail.gmail.com/) Gavin Andresen die Diskussion über Multisignatur im BitcoinTalk-Forum und auf der Liste `bitcoin-development`. Er wollte Transaktionen mit mehreren Unterzeichnern standardisieren, was er als "den schnellsten Weg zu sehr sicheren, sehr schwer zu verlierenden Bitcoin Wallets" bezeichnete. Seit Dezember 2010 wurden nur zwei Systeme [https://bitcointalk.org/index.php?topic=2129.msg27744#msg27744] als Standard angesehen: P2PK und P2PKH. Die Idee war, ein rohes Multisignatur-Schema hinzuzufügen, bei dem die Anzahl der Teilnehmer maximal 3 betragen kann.
+Am 23. August 2011, ein paar Tage nach der New Yorker Konferenz, [initiierte](https://gnusha.org/pi/bitcoindev/CABsx9T1uw43JuvhEmJP0KCyojsDi1r7v6BaLBHz7wWazduE5iw@mail.gmail.com/) Gavin Andresen die Diskussion über Multisignatur im BitcoinTalk-Forum und auf der Liste `bitcoin-development`. Er wollte Transaktionen mit mehreren Unterzeichnern standardisieren, was er als "den schnellsten Weg zu sehr sicheren, sehr schwer zu verlierenden Bitcoin Wallets" bezeichnete. Seit Dezember 2010 wurden nur [zwei Systeme](https://bitcointalk.org/index.php?topic=2129.msg27744#msg27744) als Standard angesehen: P2PK und P2PKH. Die Idee war, ein rohes Multisignatur-Schema hinzuzufügen, bei dem die Anzahl der Teilnehmer maximal 3 betragen kann.
 
 
 
@@ -2171,7 +2171,7 @@ Gavin möchte, dass die betreffenden öffentlichen Schlüssel als Adressen verwe
 
 
 
-Im Anschluss an Gavins Nachricht schlug Casascius [https://bitcointalk.org/index.php?topic=38954.msg476689#msg476689] vor, den Operator OP\_CHECKSIG (der zur Überprüfung normaler Signaturen verwendet wird) so zu ändern, dass er Skripte mit mehreren Signaturen berücksichtigt. Addresses kann dann der Hash des Skripts sein, und das gesamte Skript wird beim Ausgeben bereitgestellt, genau wie der öffentliche Schlüssel beim Ausgeben einer P2PKH-Ausgabe. Er [formulierte](https://bitcointalk.org/index.php?topic=45211.msg538756#msg538756) diesen Vorschlag einen Monat später neu. Am 1. Oktober machte ein gewisser Jim Babcock, Softwareentwickler und Rationalist, [einen](https://bitcointalk.org/index.php?topic=46429.msg553217#msg553217) ähnlichen Vorschlag. Ihre Beschreibung inspirierte den mysteriösen Nicolas van Saberhagen, alias ByteCoin, der in der Nacht vom 1. auf den 2. Oktober einen neuen Betriebscode namens `OP_EVAL` [konzipierte](https://bitcointalk.org/index.php?topic=46538.msg553689#msg553689). Gavin Andresen [machte](https://bitcointalk.org/index.php?topic=45211.msg553668#msg553668) zur gleichen Zeit einen relativ gleichwertigen Vorschlag (mit `BEGIN_DIGEST` und `END_DIGEST` Operatoren). Aus dieser Fülle von Ideen ging jedoch `OP_EVAL` als Sieger hervor.
+Im Anschluss an Gavins Nachricht [schlug](https://bitcointalk.org/index.php?topic=38954.msg476689#msg476689) Casascius vor, den Operator OP\_CHECKSIG (der zur Überprüfung normaler Signaturen verwendet wird) so zu ändern, dass er Skripte mit mehreren Signaturen berücksichtigt. Addresses kann dann der Hash des Skripts sein, und das gesamte Skript wird beim Ausgeben bereitgestellt, genau wie der öffentliche Schlüssel beim Ausgeben einer P2PKH-Ausgabe. Er [formulierte](https://bitcointalk.org/index.php?topic=45211.msg538756#msg538756) diesen Vorschlag einen Monat später neu. Am 1. Oktober machte ein gewisser Jim Babcock, Softwareentwickler und Rationalist, [einen](https://bitcointalk.org/index.php?topic=46429.msg553217#msg553217) ähnlichen Vorschlag. Ihre Beschreibung inspirierte den mysteriösen Nicolas van Saberhagen, alias ByteCoin, der in der Nacht vom 1. auf den 2. Oktober einen neuen Betriebscode namens `OP_EVAL` [konzipierte](https://bitcointalk.org/index.php?topic=46538.msg553689#msg553689). Gavin Andresen [machte](https://bitcointalk.org/index.php?topic=45211.msg553668#msg553668) zur gleichen Zeit einen relativ gleichwertigen Vorschlag (mit `BEGIN_DIGEST` und `END_DIGEST` Operatoren). Aus dieser Fülle von Ideen ging jedoch `OP_EVAL` als Sieger hervor.
 
 
 
@@ -2246,7 +2246,7 @@ Russell O'Connor wies auf die mangelnden Analysemöglichkeiten von `OP_EVAL` hin
 
 
 
-Auf der `bitcoin-development` Liste, [bat](https://gnusha.org/pi/bitcoindev/alpine.LRH.2.00.1112291143220.22327@theorem.ca/) Gavin, das Aktivierungsdatum "um zwei Monate" zu verschieben und wies darauf hin, dass "OP\_EVAL einfach noch nicht fertig war". Im gleichen Sinne erinnerte Alan Reiner [https://gnusha.org/pi/bitcoindev/CALf2ePzoC85=16h63ngn-KaEHDSYFqAOkW7UWqB_Jgd2F_pkTQ@mail.gmail.com/] die Entwickler daran, dass sie an einem Objekt "im Wert von über 20 Millionen Dollar" basteln (Original: "I would like to remind everyone that we/you are messing with a $20+ million dollar *thing*"), wobei er sich auf den Gesamtwert aller Bitcoins bezog, und dass "es um mehr als nur ein Stück Software geht".
+Auf der `bitcoin-development` Liste, [bat](https://gnusha.org/pi/bitcoindev/alpine.LRH.2.00.1112291143220.22327@theorem.ca/) Gavin, das Aktivierungsdatum "um zwei Monate" zu verschieben und wies darauf hin, dass "OP\_EVAL einfach noch nicht fertig war". Im gleichen Sinne [erinnerte](https://gnusha.org/pi/bitcoindev/CALf2ePzoC85=16h63ngn-KaEHDSYFqAOkW7UWqB_Jgd2F_pkTQ@mail.gmail.com/) Alan Reiner die Entwickler daran, dass sie an einem Objekt "im Wert von über 20 Millionen Dollar" basteln (Original: "I would like to remind everyone that we/you are messing with a $20+ million dollar *thing*"), wobei er sich auf den Gesamtwert aller Bitcoins bezog, und dass "es um mehr als nur ein Stück Software geht".
 
 
 
@@ -2266,11 +2266,11 @@ Am nächsten Tag, dem 3. Januar um 21:00 UTC, wurde ein Treffen [organisiert](ht
 
 
 
-Gavin Andresen schrieb an diesem Abend einen Entwurf von BIP, der am folgenden Tag unter der Nummer 16 online gestellt wurde (https://en.bitcoin.it/w/index.php?title=BIP_0016&oldid=21680). In dem Dokument räumte er ein, dass "die Erkennung einer 'speziellen' Form von scriptPubKey und die Durchführung einer zusätzlichen Validierung, wenn diese erkannt wird, hässlich ist", erklärte aber, dass "die Alternativen entweder hässlicher sind, komplexer zu implementieren sind und/oder die Macht der Ausdruckssprache auf gefährliche Weise erweitern". Er änderte auch das Meldeverfahren, um es automatisch zu machen: in der letzten Januarwoche, wenn 55% der Rechenleistung Pay to Script Hash meldeten (einschließlich der Zeichenkette `/P2SH/` in den erzeugten Blöcken), dann wird das Upgrade um Mitternacht am 15. Februar aktiviert. Gavin stellte daraufhin [eine](https://github.com/bitcoin/bitcoin/pull/748) Anfrage zur Änderung des Software-Codes auf dem GitHub-Repository, die er selbst am 13. Januar als Hauptbetreuer akzeptierte. Er enthielt das Standard-P2SH-Flag.
+Gavin Andresen schrieb an diesem Abend einen Entwurf von BIP, der am folgenden Tag unter der Nummer 16 [online gestellt wurde](https://en.bitcoin.it/w/index.php?title=BIP_0016&oldid=21680). In dem Dokument räumte er ein, dass "die Erkennung einer 'speziellen' Form von scriptPubKey und die Durchführung einer zusätzlichen Validierung, wenn diese erkannt wird, hässlich ist", erklärte aber, dass "die Alternativen entweder hässlicher sind, komplexer zu implementieren sind und/oder die Macht der Ausdruckssprache auf gefährliche Weise erweitern". Er änderte auch das Meldeverfahren, um es automatisch zu machen: in der letzten Januarwoche, wenn 55% der Rechenleistung Pay to Script Hash meldeten (einschließlich der Zeichenkette `/P2SH/` in den erzeugten Blöcken), dann wird das Upgrade um Mitternacht am 15. Februar aktiviert. Gavin stellte daraufhin [eine](https://github.com/bitcoin/bitcoin/pull/748) Anfrage zur Änderung des Software-Codes auf dem GitHub-Repository, die er selbst am 13. Januar als Hauptbetreuer akzeptierte. Er enthielt das Standard-P2SH-Flag.
 
 
 
-Gavin wollte schnell handeln, sehr schnell, was unweigerlich zu Spannungen führte. Obwohl er (https://bitcointalk.org/index.php?topic=56969.msg679219#msg679219) einen "Konsens" über Pay to Script Hash heraufbeschwor, waren nicht alle Entwickler einstimmig damit einverstanden, und die allgemeine Gemeinschaft war nicht konsultiert worden. Daher regte sich Widerstand.
+Gavin wollte schnell handeln, sehr schnell, was unweigerlich zu Spannungen führte. Obwohl er einen "Konsens" über Pay to Script Hash [heraufbeschwor]https://bitcointalk.org/index.php?topic=56969.msg679219#msg679219), waren nicht alle Entwickler einstimmig damit einverstanden, und die allgemeine Gemeinschaft war nicht konsultiert worden. Daher regte sich Widerstand.
 
 
 
@@ -2312,7 +2312,7 @@ Am 29. Januar [veröffentlichte](https://web.archive.org/web/20120131212150/http
 
 > Meine Sorge ist, dass Bitcoin eines Tages korrumpiert wird. Entwickler: Sehen Sie diese zusätzliche Prüfung als eine Gelegenheit, eine Kultur der Offenheit aufzubauen. Das ist gar nicht so schlecht.
 
-Dies ist jedoch nicht die Meinung von Gavin Andresen, der sich dafür entschied, die Debatte zugunsten von BIP 16 und damit P2SH beizulegen. Er war der Meinung, dass es genug Diskussionen gegeben hatte, und wollte nicht, dass sich die Entwickler weiterhin über Details streiten, wie z. B. "[die Farbe des Fahrradschuppens](https://en.wikipedia.org/wiki/Law_of_triviality)". Am 30. Januar erklärte er [https://buildingbitcoin.org/bitcoin-dev/log-2012-01-30.html#l-1766] im IRC: "Ich habe es satt, meine Zeit mit BIP 17 zu verschwenden".
+Dies ist jedoch nicht die Meinung von Gavin Andresen, der sich dafür entschied, die Debatte zugunsten von BIP 16 und damit P2SH beizulegen. Er war der Meinung, dass es genug Diskussionen gegeben hatte, und wollte nicht, dass sich die Entwickler weiterhin über Details streiten, wie z. B. "[die Farbe des Fahrradschuppens](https://en.wikipedia.org/wiki/Law_of_triviality)". Am 30. Januar [erklärte er](https://buildingbitcoin.org/bitcoin-dev/log-2012-01-30.html#l-1766) im IRC: "Ich habe es satt, meine Zeit mit BIP 17 zu verschwenden".
 
 
 
@@ -2334,11 +2334,11 @@ Am 1. Februar 2012 setzte Casascius ein Stück zurück in die Maschine, indem er
 
 > Sie schlagen eine nicht rückwärtskompatible Änderung vor, die eine "harte" Blockchain-Aufspaltung bedeuten würde. **Alle sind sich einig, dass das eine schlechte Idee ist. Die Verwirrung und das Potenzial für Hacks, wenn ein signifikanter Teil der Bitcoin-Nutzer auf einer separaten Kette wäre, ist massiv; Sie beschönigen all das in Ihrem Vorschlag.
 
-Ein paar Tage später erklärte Gavin (https://bitcointalk.org/index.php?topic=62181.msg729444#msg729444) (unter Bezugnahme auf die Fernsehsendung *Wer wird Millionär?*):
+Ein paar Tage später [erklärte](https://bitcointalk.org/index.php?topic=62181.msg729444#msg729444) Gavin (unter Bezugnahme auf die Fernsehsendung *Wer wird Millionär?*):
 
 
 
-> Ich habe mein Phone-a-Friend und Ask the Audience benutzt, und ich schließe BIP 16 als meine endgültige Antwort ein
+> Ich habe mein Phone-a-Friend und Ask the Audience benutzt, und ich schließe BIP 16 als meine endgültige Antwort ein.
 
 ### Miner-Signalisierung
 
@@ -2382,7 +2382,7 @@ Diese Interpretation wurde von Gregory Maxwell weitgehend bestritten, der [im IR
 
 
 
-> Das Bitcoin-System ist _NICHT_ für eine Mehrheitswahl vorgesehen. Nicht die Mehrheit der Hashpower, nicht die Mehrheit der Menschen, nicht die Mehrheit des Geldes. Was passiert zum Beispiel, wenn eine Super-Mehrheit - sogar 100% - der derzeitigen Bergleute beschließt, dass die Subvention für immer 50 BTC betragen soll?  **NICHTS**. Miner, die diese Regel in ihrer Software ändern, hören aus der Perspektive des Bitcoin-Netzwerks einfach auf zu existieren.
+> Das Bitcoin-System ist _NICHT_ für eine Mehrheitswahl vorgesehen. Nicht die Mehrheit der Hashpower, nicht die Mehrheit der Menschen, nicht die Mehrheit des Geldes. Was passiert zum Beispiel, wenn eine Super-Mehrheit - sogar 100% - der derzeitigen Miner beschließt, dass die Subvention für immer 50 BTC betragen soll?  **NICHTS**. Miner, die diese Regel in ihrer Software ändern, hören aus der Perspektive des Bitcoin-Netzwerks einfach auf zu existieren.
 
 ### BIP 30: Berichtigung von doppelten Vorgängen
 
@@ -2408,7 +2408,7 @@ Am 4. Februar 2012 [entdeckte](https://buildingbitcoin.org/bitcoin-dev/log-2012-
 
 
 
-Nach der durch die Anwendung von BIP 30 verursachten Unterbrechung (die den Bergleuten große Anstrengungen abverlangte) wurde die Signalisierung für P2SH wieder in Angriff genommen. Am 10. März führte Tycho die ersten Tests zur Implementierung der Signalisierung in Deepbit durch. Am 15. März [erklärte er](https://bitcointalk.org/index.php?topic=3889.msg803685#msg803685), dass er "versucht habe, P2SH so weit wie möglich hinauszuzögern", aber dass "dies bereits nicht produktiv ist". Daraufhin gab er den Kampf auf und führte die Änderung in seinem Pool ein.
+Nach der durch die Anwendung von BIP 30 verursachten Unterbrechung (die den Minern große Anstrengungen abverlangte) wurde die Signalisierung für P2SH wieder in Angriff genommen. Am 10. März führte Tycho die ersten Tests zur Implementierung der Signalisierung in Deepbit durch. Am 15. März [erklärte er](https://bitcointalk.org/index.php?topic=3889.msg803685#msg803685), dass er "versucht habe, P2SH so weit wie möglich hinauszuzögern", aber dass "dies bereits nicht produktiv ist". Daraufhin gab er den Kampf auf und führte die Änderung in seinem Pool ein.
 
 
 

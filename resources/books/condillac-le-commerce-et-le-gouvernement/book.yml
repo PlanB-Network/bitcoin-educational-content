@@ -1,0 +1,20 @@
+id: 5e397405-e066-43bc-82df-1017c1fb63ae
+author: Condillac
+level: advanced
+original_language: fr
+license: "Public domain"
+tags:
+- political-theory
+- public-domain
+links:
+  website:
+    fr:
+      url: https://www.institutcoppet.org/condillac-le-commerce-et-le-gouvernement/
+      source: Institut Coppet
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=Le+commerce+et+le+gouvernement+Condillac&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

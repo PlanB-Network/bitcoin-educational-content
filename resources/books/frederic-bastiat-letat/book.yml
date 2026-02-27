@@ -1,0 +1,19 @@
+id: 142c2597-255f-4578-aa0e-2ed09561cb89
+author: Frédéric Bastiat
+level: advanced
+original_language: fr
+license: "Public domain"
+tags:
+- general
+links:
+  website:
+    fr:
+      url: https://www.institutcoppet.org/bastiat-letat-1848/
+      source: Institut Coppet
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=L%27Etat+Fr%C3%A9d%C3%A9ric+Bastiat&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

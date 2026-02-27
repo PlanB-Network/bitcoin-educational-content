@@ -3065,7 +3065,7 @@ Dieses Kapitel ist in drei Abschnitte unterteilt. Der erste befasst sich mit Bit
 
 
 
-### Bitcoin Schürhaken
+### Bitcoin Poker
 
 
 
@@ -3097,7 +3097,7 @@ Im Jahr 2011, mit dem "Schwarzen Freitag", vermehrten sich die Plattformen: Moon
 
 
 
-Der symbolträchtigste Bahnsteig [öffnete seine Türen](https://web.archive.org/web/20111128155416/https://bitcointalk.org/index.php?topic=40077.0) Ende August: Seals mit Clubs. Sie wurde von einem anonymen Entwickler, FreeMoney, ins Leben gerufen, der Bitcoin im Juli 2010 beim Slashdotting entdeckte.
+Der symbolträchtigste Plattform [öffnete seine Türen](https://web.archive.org/web/20111128155416/https://bitcointalk.org/index.php?topic=40077.0) Ende August: Seals mit Clubs. Sie wurde von einem anonymen Entwickler, FreeMoney, ins Leben gerufen, der Bitcoin im Juli 2010 beim Slashdotting entdeckte.
 
 
 

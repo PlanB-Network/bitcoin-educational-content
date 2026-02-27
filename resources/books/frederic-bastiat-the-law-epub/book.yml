@@ -1,0 +1,19 @@
+id: 9f881a8b-977b-42e6-8a61-8cd1c7f1a151
+author: Frédéric Bastiat
+level: intermediate
+original_language: en
+license: "Public domain"
+tags:
+- general
+links:
+  website:
+    en:
+      url: https://gutenberg.org/ebooks/44800
+      source: gutenberg.org
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    en:
+      url: https://www.amazon.co.uk/s?k=The+law+%28epub%29+Fr%C3%A9d%C3%A9ric+Bastiat&tag=planbnetwor0a-21
+      status: auto
+      last_checked: '2026-02-08'

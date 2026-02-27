@@ -1,0 +1,19 @@
+id: 4155cd2a-c29c-438f-9082-5b06f094098d
+author: Frédéric Bastiat
+level: intermediate
+original_language: en
+license: "Public domain"
+tags:
+- general
+links:
+  website:
+    en:
+      url: https://archive.org/details/luat-phap-frederic-bastiat/The%20law%20-%20Frederic%20Bastiat/
+      source: archive.org
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    en:
+      url: https://www.amazon.co.uk/s?k=The+law+Fr%C3%A9d%C3%A9ric+Bastiat&tag=planbnetwor0a-21
+      status: auto
+      last_checked: '2026-02-08'

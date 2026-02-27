@@ -1,0 +1,19 @@
+id: be986e2f-698f-4c0e-96a0-38771635561f
+author: Etienne de La Boétie
+level: intermediate
+original_language: fr
+license: "Public domain"
+tags:
+- general
+links:
+  website:
+    fr:
+      url: https://cdn.mises.org/Discurso%20de%20la%20servidumbre%20voluntaria.pdf
+      source: mises.org
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=Discurso+de+la+servidumbre+voluntaria+Etienne+de+La+Bo%C3%A9tie&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

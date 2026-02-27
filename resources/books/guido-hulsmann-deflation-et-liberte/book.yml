@@ -1,0 +1,19 @@
+id: e46f957f-4cc6-41ce-98a2-552c779b4918
+author: Guido Hulsmann
+level: intermediate
+original_language: fr
+license: "Free for educational and academic purposes"
+tags:
+- philosophy
+links:
+  website:
+    fr:
+      url: https://www.institutcoppet.org/guido-hulsmann-deflation-et-liberte-2008/
+      source: Institut Coppet
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=D%C3%A9flation+et+libert%C3%A9+Guido+Hulsmann&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

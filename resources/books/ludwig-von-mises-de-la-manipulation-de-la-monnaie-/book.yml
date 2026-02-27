@@ -1,0 +1,19 @@
+id: 93b2b97f-eb79-413f-bfc8-79807e24efdb
+author: Ludwig von Mises
+level: advanced
+original_language: fr
+license: "Free for educational and academic purposes"
+tags:
+- monetary-theory
+links:
+  website:
+    fr:
+      url: https://www.institutcoppet.org/mises-de-la-manipulation-de-la-monnaie-et-du-credit/
+      source: Institut Coppet
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=De+la+manipulation+de+la+monnaie+et+du+cr%C3%A9dit+Ludwig+von+Mises&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

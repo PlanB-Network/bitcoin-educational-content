@@ -1,0 +1,19 @@
+id: 7af958b3-58f0-49f8-b873-39758b3bd0e9
+author: Herbert Spencer
+level: advanced
+original_language: fr
+license: "Public domain"
+tags:
+- public-domain
+links:
+  website:
+    fr:
+      url: http://www.catallaxia.free.fr/spencer_individu_etat.pdf
+      source: catallaxia.org
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=L%27individu+contre+l%27Etat+Herbert+Spencer&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

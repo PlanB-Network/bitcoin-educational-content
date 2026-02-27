@@ -1,0 +1,19 @@
+id: 1b4427ae-3ae1-4953-ac43-a4f5cab97726
+author: Friedrich A Hayek
+level: intermediate
+original_language: en
+license: "Free for educational and academic purposes"
+tags:
+- general
+links:
+  website:
+    en:
+      url: https://oll.libertyfund.org/people/friedrich-august-von-hayek
+      source: The Online Library of Liberty
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    en:
+      url: https://www.amazon.co.uk/s?k=Opus+en+anglais+Friedrich+A+Hayek&tag=planbnetwor0a-21
+      status: auto
+      last_checked: '2026-02-08'

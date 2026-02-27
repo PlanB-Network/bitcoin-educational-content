@@ -1,0 +1,19 @@
+id: 698fd9de-a2fb-48cb-a76f-6d4e95cd6e6a
+author: Frédéric Bastiat
+level: advanced
+original_language: fr
+license: "Public domain"
+tags:
+- general
+links:
+  website:
+    fr:
+      url: https://archive.org/details/BASTIATCeQuonVoit
+      source: archive.org
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=Ce+qu%27on+voit+et+ce+qu%27on+ne+voit+pas+Fr%C3%A9d%C3%A9ric+Bastiat&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

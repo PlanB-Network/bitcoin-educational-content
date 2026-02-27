@@ -2904,15 +2904,15 @@ Inyuma y’aho cesar yiciwe mu mwaka w’44 imbere ya Kristu, Octave (Auguste) y
 
 
 
-Ariko rero, kuva kuri Nero gushika ubu (54-68 inyuma ya Kristu), Roma yaratanguye guca buhoro buhoro agaciro k’ibiceri vyayo, buhorobuhoro igabanura uburemere bwayo n’ubusuku bwayo kugira ngo ishobore gutanga amahera y’umwami yariko arakura, canecane inyuma y’umuriro munini w’i Roma mu 64 inyuma ya Kristu. **Itegeko rya Gresham**, mu gihe ibiceri vyagabanutse agaciro vyari vyinshi, bituma ibiciro bigenda biraduga buhoro buhoro.
+Ariko rero, kuva kuri Neron gushika ubu (54-68 inyuma ya Kristu), Roma yaciye itangura kugabanya uburyo mu biceri vyayo, igenda iragabanya buhorobuhoro uburemere bwayo n'ubuziranenge bwayo kugira ngo ishobore kuronka amahera afasha ibwami, canecane inyuma y’umuriro munini w’i Roma mu 64 inyuma ya Kristu. **Itegeko rya Gresham**, mu gihe ibiceri vyagabanutse agaciro vyari vyinshi, bituma ibiciro bigenda biraduga buhoro buhoro.
 
 
 
-Ikinjana ca gatatu ni co cahinduye ibintu bikomeye cane, aho abantu baciye bacika intege cane mu gihe c’abami b’abami Septimius Severus, Caracalla na Gallienus. Igiceri nyamukuru c’ifeza, ari co denari, hanyuma kikaba antoninianus, carabonye ifeza cari muri co kigabanuka kigera kuri 2% gusa. Muri ico gihe nyene, uburemere bw’inzahabu y’ivyo bikoko vyitwa aureus bwaragabanutse n’igice. Ico kibazo c’amahera cari kumwe n’ugutekana kwa politike kutari bwigere kubaho, ibitero vy’abanyamahanga n’intambara z’abanyagihugu zisubira inyuma.
+Ikinjana ca gatatu ni co cahinduye ibintu bikomeye cane, aho ibiceri vyatangura gutakaza agaciro cane k’umwami w’abami Septimius Severus, Caracalla na Gallien. Igiceri nyamukuru c’ifeza, ari co denari, hanyuma kikaba antoninien, aho ifeza igize ico giceri yagabanutse kugera kuri 2% gusa. Muri ico gihe nyene, uburemere bwa aureus yo munzahabu yagabanutse igice. Ico kibazo c’amahera cari kumwe n’ugutekana kwa politike kutari bwigere kubaho, ibitero vy’abanyamahanga n’intambara z’abanyagihugu zisubira inyuma.
 
 
 
-Iki gice kiramfasha gutanga igice ca nyuma muri iki gice: antoninianus. Izina ry’intango ry’ico giceri ntirizwi, ariko muri iki gihe tuvyita antoninianus. Irafise itandukaniro ryo kuba ifise agaciro k’amadenari abiri, naho nyene ari nini incuro 1,5 gusa y’idenari. Vyongeye, uko igihe cagenda kirarenga, ivyo biceri vyacitse ibiceri vy’amamiliyaridi gusa, bisobanura ko vyari bikozwe mu ifeza n’ibindi vyuma bivanze aho kuba ifeza itagira agasembwa. Akenshi ivyo biceri vyari bishizweko gusa ifeza, ivyo bikaba vyari akarorero gakomeye k’ukubora kw’amahera.
+Iki gice kiramfasha gutanga igice ca nyuma muri iki gice: antoninien. Ntituzi ingene ico giceri bacita ico gihe , ariko twebwe tucita antoninien. Iki guceri kirafise umwihariko wo kuba ufise agaciro k’amadenari abiri ingorane, naho ni nini incuro 1,5 gusa y’idenari. Vyongeye, ni ibiceri bicuzwe muruvangi rwamabuye atandukanye, bisobanura ko vyari bikozwe mu ifeza n’ibindi vyuma bivanze. Akenshi ivyo biceri vyari bishizweko gusa ifeza hejuru yavyo, ivyo bikaba vyari akarorero gakomeye k’ukononekara kw’amahera.
 
 
 
@@ -2924,16 +2924,16 @@ Iki gice kiramfasha gutanga igice ca nyuma muri iki gice: antoninianus. Izina ry
 
 
 
-Mu gihe c’ivyo bintu, Umwami w’abami Aurelien (270-275 inyuma ya Kristu) yaragerageje guhagarika iyo nzira mu guhindura agaciro k’amafaranga mu mazina, ariko iyo mpinduka mu vy’ukuri yarashizeho uburyo bwo gutera imbere mu gushinga agaciro k’amafaranga yariho ku rugero rwo hejuru mu buryo bw’ubuhinga.
+Mu gihe c’ivyo bintu, Umwami w’abami Aurelien (270-275 inyuma ya Kristu) yaragerageje guhagarika iyo nzira mu guhindura agaciro k’amafaranga vy'izina, ariko iyo mpinduka mu vy’ukuri yarashizeho uburyo bwo koroka agaciro mu gushinga agaciro k’amafaranga yariho ku rugero rwo hejuru mu buryo .
 
 
-Nzozana ugukevya ku bijanye n’ico kibazo. Mu kinjana ca 3, ugutera imbere kw’ibiciro kwarateye imbere cane. Mbere, naho ibiceri vyari vyagabanutse agaciro, uburyo bwo kubicukura kimwekimwe mu bikoresho vy’amaboko bwatuma umuntu ashobora kugenzura ukuntu ibiceri vy’amahera vyiyongera. Imibare yerekana ko mu myaka irenga 300 y’ugucika kw’agaciro, ugutakaza agaciro kwari ku rugero rwa 4% ku mwaka. Imbere gato y’ivugurura rya Aurelian, ugutera imbere kw’ibiciro kwari hafi 3% ku mwaka.
+Reka manze mpagarare gato kugira ngire ico mvuze kwico kintu. Mu kinjana ca 3, ugutera imbere kw’ibiciro kwagumye kuduga cane. Mbere, naho ibiceri vyari vyagabanutse agaciro, uburyo bwo kubicukura kimwekimwe mu bikoresho vy’amaboko bwatuma umuntu ashobora kugenzura ukuntu ibiceri vy’amahera vyiyongera. Imibare yerekana ko mu myaka irenga 300 y’ugucika kw’agaciro, ugutakaza agaciro kwari ku rugero rwa 4% ku mwaka. Imbere gato y’ivugurura rya Aurelian, ugutera imbere kw’ibiciro kwari hafi 3% ku mwaka.
 
 
-Aurelian yashizeho ingero y’ubusuku ku giceri c’ikimenyetso ca XXI, kigaragaza ko gifise ibice 20 vy’umuringa gushika ku gice 1 c’ifeza, canke 5% vy’ubusuku. Yaragurishije ivyo biceri vy’ifeza vy’ibice 5%, abishirako ikidodo c’ikimenyetso ca XXI. Ariko kandi, yaributse n’ibindi biceri vyose, vyari vyacitse agaciro kuruta, aca abishirako ikidodo XXI nyene. Ivyo vyatumye agaciro k’ibiceri vyose gasubirwamwo neza. Ico vyavuyemwo ni ugutera imbere kw’ibiciro bitangaje kw’ibice 20 kw’ijana ku mwaka, bikaba vyari birenze kure n’iyo igipimo ca kera c’ibice 3 kw’ijana imbere y’uko iyo tekiniki ishirwa mu ngiro.
+Aurelian yashizeho ingero y’ubuziranenge ku giceri c’ikimenyetso ca XXI, kigaragaza ko gifise ibice 20 vya bronze(umujumbu) gushika ku gice 1 c’ifeza, canke 5% vy’ubuziranenge. Yaragurishije ivyo biceri vy’ifeza vy’ibice 5%, abishirako ikidodo c’ikimenyetso ca XXI. Ariko kandi, yaributse n’ibindi biceri vyose, vyari vyacitse agaciro kuruta, aca abishirako ikidodo XXI nyene. Ivyo vyatumye agaciro k’ibiceri vyose gasubirwamwo neza. Ico vyavuyemwo ni ukuduga kw’ibiciro  kubice 20 kw’ijana ku mwaka, bikaba vyari birenze kure n’iyo igipimo ca kera c’ibice 3 kw’ijana imbere y’uko ubwo buhinga bushirwa mu ngiro.
 
 
-Mu vy’ukuri, Aurelien ni we yahinguye ubwo buryo bwo gucapura agaciro k’ibintu, bukaba bwihuta cane kuruta gucapura agaciro k’ivyuma buhorobuhoro, ivyo bikaba vyari bikiri bituma ducapura ibiceri bimwe bimwe. Ico yakoze ni ugufata ibiceri vyose vyariho, akavyibuka akabitera ikidodo n’igipfunsi kugira ngo bihindure agaciro kavyo. Ni ihinduka ry’ukuri. Aho niho inflation yaciye ihinduka ikintu gikomeye cane.
+Mu vy’ukuri, Aurelien ni we yahinguye ubwo buryo bwo gucapura agaciro k’ibintu, bukaba bwihuta cane kuruta gucapura agaciro k’ivyuma kimwe ku kindi, ivyo bikaba vyari bikiri bituma ducapura ibiceri bimwe bimwe. Ico yakoze ni ugufata ibiceri vyose vyariho, akavyibuka akabitera ikidodo n’igipfunsi kugira ngo bihindure agaciro kavyo. Ni ihinduka ry’ukuri. Aho niho inflation yaciye ihinduka ikintu gikomeye cane.
 
 
 Kugira ngo nshire ahabona mu buryo bw’amaso iyo nzira y’ugucika intege cane, narabonye imibare iryoshe cane yerekeye igiciro c’intete muri Misiri kuva mu 40 imbere ya Kristu gushika mu kinjana ca 3, ikaba ifata imyaka irenga 300. Hasi, urashobora kubona tetradrachma y’ikigiriki yo mu vyo nakoranije. Iciyo gihe, mu Misiri mu gihe c’ubutegetsi bw’Abaroma mu kinjana ca 3, amahera angana na yo yari tetradrakema y’Abanyamisiri. Igitigiri c’idarakima cari kigikoreshwa, kandi cari gihuye n’idenariyo.
@@ -2947,34 +2947,35 @@ Kugira ngo nshire ahabona mu buryo bw’amaso iyo nzira y’ugucika intege cane,
 
 
 
-Rero tetradrakima y’Abanyamisiri mfise yari ingana n’idenariyo. Urashobora kubona ko ico giceri gikozwe muri biloni (canke muringa), rero nta cuma c’agaciro kirimwo. Ushobora kuyigereranya n’ifaranga ry’intango ry’ikigiriki ryitwa tetradrachme kugira ngo ubone ukuntu agaciro kayo kagabanutse mu myaka 300. Ni ukwongerekana kw’igiciro c’intete muri Misiri incuro miliyoni.
+Rero tétradrachme y’Abanyamisiri mfise ngaho yari ingana n’idenariyo. Urashobora kubona ko ico giceri gikozwe muri billon(ivyuma bivanze) canke
+muri bronze(umujumbu), rero nta cuma c’agaciro kirimwo. Ushobora kuyigereranya n’ifaranga ry’intango ry’ikigiriki ryitwa tétradrachme kugira ngo ubone ukuntu agaciro kayo kagabanutse mu myaka 300. Ni ukwongerekana kw’igiciro c’intete muri Misiri incuro miliyoni.
 
 
-Ni insiguro y’umubiri y’ivugurura rya Aurelian. Birakenewe kumenya ko benshi, umubare w’abantu muri iyi myaka 300 y’ugutera imbere kw’ibiciro, wari hafi 4%. Ni mu mpera gusa, igihe Aurelian yagira ivugurura ryiwe, iyo inflation yaciye ihinduka nk’iyiteye imbere cane maze tugera kuri iyo ngero y’imiliyoni 1. Ibiciro vyari vyinshi incuro imiliyoni mu mpera z’ikinjana ca 3 kuruta mu kinjana ca mbere imbere ya Kristu.
+Ni insiguro y’umubiri y’ivugurura rya Aurelian. Birakenewe kumenya ko benshi, igitigiri c’abantu muri iyi myaka 300 y’ukuduga kw’ibiciro, wari hafi 4%. Ni mu mpera gusa, igihe Aurelian yagira ivugurura ryiwe, iyo inflation(itakara ry'agaciro k'amahera) yaciye ihinduka nk’iyiteye imbere cane maze tugera kuri iyo ngero y’imiriyoni 1. Ibiciro vyari vyinshi incuro ingana numuriyoni mu mpera z’ikinjana ca 3 kuruta mu kinjana ca mbere imbere ya Kristu.
 
 
-Uwamukurikiye **Dioclétien** (284-305 AD) yaragerageje mbere n’uguhindura ibintu bikomeye kuruta: yasohoye amafaranga mashasha (cane cane argenteus, asukuye cane ariko afise ubwinshi buke cane), ashiraho uburyo bukomeye bwo kugenzura ibiciro (Itegeko ry’Igiciro ryo mu 301 AD) kandi **ashiraho uburyo bwo kwishura imisoro ku** ubwoko. Naho hari utwo twigoro, ivyo Dioclétien yahinduye ntivyashoboye guhagarika ugutera imbere kw’ibiciro kwari gukomeye cane.
-
-
-
-Kubera ko Dioclétien yanse gutanga ibintu n’ibikorwa kugira ngo abone amahera yacitse agaciro, yashizeho **uburyo bwo gucapura abantu mu migwi** kugira ngo abohe abarimyi n’abakomoka kuri bo ku butaka bwabo.
+Uwamukurikiye **Dioclétien** (284-305 AD) yaragerageje mbere n’uguhindura ibintu bikomeye kuruta: yasohoye amafaranga mashasha (cane cane argenteus, afise ubuziranenge ariko ari make cane), ashiraho uburyo bukomeye bwo kugenzura ibiciro (Itegeko ry’Igiciro ryo mu 301 AD) kandi **ashiraho uburyo bwo kwishura imisoro ku** ubwoko. Naho hari utwo twigoro, ivyo Dioclétien yahinduye ntivyashoboye guhagarika ugutera imbere kw’ibiciro kwari gukomeye cane.
 
 
 
-Ico vy'ukuri gikwiye gutahurwa hano ni uko icabaye ni uko abarimyi banse gutanga umwimbu wabo mu guhindura amahera yacitse agaciro, kandi inyishu ya Dioclétien wacu mukundwa yari iyo kurema **imiryango y'iragi** mu kuvuga ngo "wewe, ntushobora kuva mu butaka bwawe, abana bawe ntibashobora kuva mu butaka bwabo soldi you,'reers for, kwemera kwishurwa mu mafaranga yanje". Nk’umuti w’inzira y’inzira, barihembwa mu buryo bw’amahera (mu nyama, mu vyo kurya, mu ntete) kuko yanse kubaha amahera. Yaciye rero ashiraho iyo nzira y’imiryango y’iragi kugira ngo ahate abantu kwifatanya n’ubudandaji bwabo, kugira ngo ntibashobore guhindura akazi gusa iyo bagerageje kutemera ayo mafaranga yacitse agaciro.
+Kubera ko Dioclétien yanse gutanga ibintu n’ibikorwa kugira ngo abone amahera yataye agaciro, yashizeho uburyo bwa **caste héréditaire** kugira ngo abohere abarimyi n’abakomoka kuri bo ku butaka bwabo.
+
+
+
+Ico vy'ukuri gikwiye gutahurwa hano ni uko icabaye ni uko abarimyi banse gutanga umwimbu wabo mu guhindura amahera yacitse agaciro, kandi inyishu ya Dioclétien wacu mukundwa yari iyo kurema **imiryango y'iragi** mu kuvuga ngo "wewe, ntushobora kuva mu butaka bwawe, abana bawe ntibashobora kuva mu butaka bwabo cokimwe nokuba soda ,'uri umu soda, utgerezwa kwemera kwishurwa mu mafaranga yanje". Nk’inyishu yo guhanahana ubikorwa, barihembwa mu buryo bw’amahera (mu nyama, mu vyo kurya, mu ntete) kuko banse guhebwa mu mahera. Yaciye rero ashiraho iyo nzira y’imiryango y’iragi kugira ngo ahate abantu kwifatanya n’ubudandaji bwabo, kugira ngo ntibashobore guhindura akazi gusa iyo bagerageje kutemera ayo mafaranga yacitse agaciro.
 
 
 Kugira ngo nshire ahabona ako karorero, ng'aha mfise icanditswe, igice co mu gitabu "*Ubutegetsi bw'amahera n'ugutera imbere kw'ibiciro*":
 
 
 
-> Kubera ko abantu batashaka gukora no gutanga ibicuruzwa ku mafaranga yacitse agaciro, agaciro kayo kari hejuru y’agaciro kayo k’imbere canke k’isoko, bategerezwa guhatirwa gukora mu gushiraho imisoro y’ibintu. [...] Vyacitse ibitemewe n’amategeko ko abarimyi bava mu mazu yabo yanditswe. Abanyagihugu barimyi rero baracitse abafatanya n’ubutaka ku buryo bw’iragi.
+> Kubera ko abantu batashaka gukora no gutanga ibicuruzwa ku mafaranga yatakaje agaciro, agaciro kayo kari hejuru y’agaciro kayo nk'igikoresho nyezina canke k’isoko, bategerezwa guhatirwa gukora mu gushiraho imisoro y’ibintu. [...] Vyacitse ibitemewe n’amategeko ko abarimyi bava mu mazu yabo yanditswe. Abanyagihugu barimyi rero baracitse abafatanya n’ubutaka ku buryo bw’iragi.
 >
 
 
-> Uwo murongo w’imiryango w’iragi warakwiragiye buhorobuhoro: Dioclétien yahatira abahungu b’abasoda kuja mu gisirikare, mu gihe abakozi bo mu bikorwa vy’amahera, be no mu mahinguriro y’ububozi n’ay’ugutera ibara Dioclétien yari yararemye, baba abaja ba Leta, bafise igikorwa c’iragi. Abacukuzi b’inzahabu na bo nyene mu nyuma baracitse ubwoko bw’iragi. Ayandi mashengero y’iragi ashobora kuba yari asanzwe ariho mu gihe ca Dioclétien, canecane amashirahamwe y’abakora imikate n’abakora inyama [...] i Roma, be n’amashirahamwe y’abakuru b’ubwato yo muri Diyoseze yatwara intete n’ibindi bintu vya bose i Roma.
+> Uwo murongo w’imiryango w’iragi warakwiragiye buhorobuhoro: Dioclétien yahatira abahungu b’abasoda kuja mu gisirikare, mu gihe abakozi bo mu bikorwa vy’amahera, be no mu bikorwa vyo gucapura  n’ay’ugutera irangi , Dioclétien yari yararemye, baba abaja ba Leta, bafise igikorwa c’iragi. Abacukuzi b’inzahabu na bo nyene mu nyuma baracitse ubwoko bw’iragi. Ayandi mashengero y’iragi ashobora kuba yari asanzwe ariho mu gihe ca Dioclétien, canecane amashirahamwe y’abakora imikate n’abakora inyama [...] i Roma, be n’amashirahamwe y’abakuru b’ubwato yo muri Diyoseze yatwara intete n’ibindi bintu vya bose i Roma.
 
-Constantin (306-337 inyuma ya Kristu) ni we amaherezo yashoboye guhagarika uburyo bw’amahera mu kuzana igiceri c’inzahabu citwa solidus mu 312, igiceri c’inzahabu itagira agasembwa, akaba ari we yemeza ko ari ciza kandi ko gifise uburemere. Hariho uburyo bwose bwo kugenzura ubusuku n’uburemere bw’ico gikoko citwa solidus. **Ukwo gushikama, ariko, kwashikiye gusa abatunzi b’abanyacubahiro n’ubutegetsi bw’umwami**, mu gihe **abantu benshi babandanya gushikirwa n’ingorane z’amahera y’agaciro gatoyi be n’ugutera imbere kw’ibiciro bigumaho**. Ico gikoresho ca solidus cagumye gihagaze neza mu bwami bwo mu buseruko (Byzantium), aho camaze imyaka irenga igihumbi, mu gihe mu burengero, ibiceri vyacitsemwo ibice bitobito, vy'agaciro gato, biherekejwe n'ugusenyuka kwa nyuma kw'ubutunzi n'ivya politike vy'ubwami bw'Uburoma, bwaguye burundu mu 476 inyuma ya Kristu.
+Constantin (306-337 inyuma ya Kristu) ni we  yashoboye kugumiza(gushikama) hamwe uburyo bw’amahera mu kuzana igiceri c’inzahabu citwa solidus mu 312, igiceri c’inzahabu itagira agasembwa, akaba ari we yemeza ko ari ciza kandi ko gifise uburemere. Hariho uburyo bwose bwo kugenzura ubuziranenge n’uburemere bw’a solidus. **Ukwo gushikama, ariko, kwashikiye gusa abatunzi b’abanyacubahiro n’ubutegetsi bw’umwami**, mu gihe **abantu benshi babandanya gushikirwa n’ingorane z’amahera y’agaciro  be n’ukuduga kw’ibiciro vyamaho**. Ico gikoresho ca solidus cagumye gihagaze neza mu bwami bwo mu buseruko (Byzantium), aho camaze imyaka irenga igihumbi, mu gihe mu burengero, ibiceri vyacitsemwo ibice bitobito, vy'agaciro gato, biherekejwe n'ugusenyuka kwa nyuma kw'ubutunzi n'ivya politike vy'ubwami bw'Uburoma, bwaguye burundu mu 476 inyuma ya Kristu.
 
 
 
@@ -2982,16 +2983,16 @@ Mu gusozera, ndashaka kubabwira aya majambo yo mu gitabu *A History of Money: Ku
 
 
 
-*"Imisoro yahora idakwiriye, kandi ingorane zijanye n'izo misoro zigenda zirushiriza kuba zidakwiriye, zihindurwa zikerewe, kandi ziboneka cane zatumye Roma yizigira cane uburyo bworoshe, buca bushika kandi bwihishije bwo gutanga imisoro: ugucika kw'agaciro k'amahera. ibigeragezo bitewe n'ugusambuka kw'ibiceri, ugusenyuka kw'ubwato, ukuvuza kw'amahera bitewe n'ugugura ibintu vy'agaciro biva mu Buseruko, ingabirano zihabwa abanyamahanga b'Abadagi, ukwiyongera kw'abantu bo mu bisagara, ukugabanuka kw'umwimbu w'uburimyi, ukuruha buhoro buhoro kw'amabuye y'agaciro y'abatunzi n'abatunzi bose, kugira ngo ubuzima bwo mu bisagara bube bufise urutonde rwinshi - ivyo bigeragezo vyose vyatumye Roma iguma igabanya agaciro k'amahera, ikaba igira n'ihinduka rimwe na rimwe ryari rishobora kunanirwa."*
+*"Imisoro yahora idakwiriye, kandi ingorane zijanye n'iyo misoro zigenda zirushiriza kuba zidakwiriye, zihindurwa zikerewe, kandi ziboneka cane zatumye Roma yizigira cane uburyo bworoshe, buca bushika kandi bwihishije bwo gutanga amakori: ugutakaza agaciro k'amahera. ibigeragezo bitewe n'ugusambuka kw'ibiceri, ugusenyuka kw'ubwato, ukuvuza kw'amahera bitewe n'ugugura ibintu vy'agaciro biva mu Buseruko, ingabirano zihabwa abanyamahanga b'Abadagi, ukwiyongera kw'abantu bo mu bisagara, ukugabanuka kw'umwimbu w'uburimyi, uguhera buhoro buhoro kw'amabuye y'agaciro, kugira ngo ubuzima bwo mu bisagara bube bufise urutonde rwinshi - ivyo bigeragezo vyose vyatumye Roma iguma igabanya agaciro k'amahera, ikaba igira n'ihinduka rimwe na rimwe ryari rishobora kunanirwa."*
 
 
 
-*Uretse umukate n’umuvinyu vy’ubuntu canke vy’agaciro gato, amahera y’umwami ("congiaria") mu buryo bw’ugutanga amahera yaragabanywa rimwe na rimwe, cane cane ku ngoma ya Trajan (98-117 inyuma ya Kristu) mbere n’igihe ca Hadrien (117-138 inyuma ya Kristu) n’abamukurikiye. Ivyo umwami w’abami n’abanyagihugu bari babona mu ntango ko ari agateka kadasanzwe, mu ntango z’ikinjana ca 2, vyari vyacitse ikintu abantu bose bari biteze. Ivyo bihembo "vyari umuzigo uremereye ku isandugu rya Leta kandi vyarafashije mu buryo bwavyo bwite mu gusenyuka kwa Leta".*
+*Uretse umukate n’umuvinyu vy’ubuntu canke vy’igiciro gito, amahera y’umwami ("congiaria") mu buryo bw’ugutanga amahera yaragabanywa rimwe na rimwe, cane cane ku ngoma ya Trajan (98-117 inyuma ya Kristu) mbere n’igihe ca Hadrien (117-138 inyuma ya Kristu) n’abamukurikiye. Ivyo umwami w’abami n’abanyagihugu bari babona mu ntango ko ari agateka kadasanzwe, mu ntango z’ikinjana ca 2, vyari vyacitse ikintu abantu bose bari biteze. Ivyo bihembo "vyari umuzigo uremereye ku isandugu rya Leta kandi vyarafashije mu buryo bwavyo bwite mu gusenyuka kwa Leta".*
 
 
 
 
-## Amasano hagati y'ugusenyuka kw'amahera n'ugutera imbere kw'ibiciro: kuva ku mpamvu gushika ku ngaruka
+## Amasano hagati y'ugusenyuka kw'amahera n'ukuduga kw'ibiciro: kuva ku mpamvu gushika ku ngaruka
 
 
 <chapterId>38d5781c-e900-53f7-baa7-413655d71754</chapterId>
@@ -2999,24 +3000,24 @@ Mu gusozera, ndashaka kubabwira aya majambo yo mu gitabu *A History of Money: Ku
 
 :::video id=3999256d-aafe-4502-9b72-dfa8491a2777:::
 
-Iki gice kiraba isano riri hagati y’ugusenyuka kw’amahera n’ugutera imbere kw’ibiciro, kuva ku mpamvu gushika ku ngaruka. Ugusenyuka kw’amahera ni kimwe mu bintu bikomeye vy’ubutunzi mu mateka y’amahera y’Uburoma, bikaba bifise ingaruka zitaziguye ku bijanye n’ugutera imbere kw’ibiciro. Kuva mu kinjana ca mbere inyuma ya Kristu, hariho igice ca mbere c’ugusenyuka buhoro buhoro kw’ibiceri vy’ifeza (denari) kuva ku ngoma ya Nero (54-68 inyuma ya Kristu) gushika ubu, kikaba carihutishijwe n’ingorane z’igisirikare n’iz’amahera zasubirwamwo, cane cane ku ngoma ya Septimius Severus (193-211) na Ga25).
+Iki gice kiraba isano riri hagati y’ugusenyuka kw’amahera n’ukuduga kw’ibiciro, kuva ku mpamvu gushika ku ngaruka. Ugusenyuka kw’amahera ni kimwe mu bintu bikomeye vy’ubutunzi mu mateka y’amahera y’Uburoma, bikaba bifise ingaruka direct ku bijanye n’ukuduga kw’ibiciro. Kuva mu kinjana ca mbere inyuma ya Kristu, hariho igice ca mbere c’ugusenyuka buhoro buhoro kw’ibiceri vy’ifeza (denari) kuva ku ngoma ya Nero (54-68 inyuma ya Kristu) gushika ubu, kikaba cariyongeye cane n’ingorane z’igisirikare n’iz’amahera zasubirwamwo, cane cane ku ngoma ya Septimius Severus (193-211) na Ga25).
 
 
 
-Turabona kandi ko aureus igenda iragabanuka buhorobuhoro. Ubwo butandukaniro mu rugero rw’ugucika kw’agaciro burashira ahabona ingingo zibiri:
+Turabona kandi ko aureus igenda irata agaciro. Ubwo butandukaniro mu rugero rw’ugutakara kw’agaciro burashira ahabona ingingo zibiri:
 
 
 
-1. Uruhara rw’igice c’ibarabara mu vy’ubuhinga bwa bimetallism kugira ngo Leta igenzure amahera. Igiharuro c’inkuru muri aka karorero ni idenariyo. Nabonye uburyo butatu butandukanye bwo gucunga agaciro k'igice c'ikonti: gukuraho agaciro (ugukuraho agaciro k'icuma), guhindura agaciro (antoninianus) no gushinga agaciro k'imbere mu gushirako ikimenyetso "XXI" (Aurelian) .
+1. Uruhara rw'ingero y'ikonti bwa bimetallism kugira ngo Leta igenzure amahera. Ingero yokuri konte muri aka karorero ni idenariyo. Nabonye uburyo butatu butandukanye bwo gucunga agaciro k'igice c'ikonti: gukuraho agaciro (ugukuraho agaciro k'icuma), guhindura agaciro (antoninianus) no gushinga agaciro k'imbere mu gushirako ikimenyetso "XXI" (Aurelian) .
 
 
-2. Icipfuzo ca Leta co gusubiramwo igihe kirekire gishoboka ugucika intege kw’agaciro k’ibintu vy’agaciro (aureus), ni ukuvuga ububiko bw’agaciro bushoboza abahinga kuguma bafise ubushobozi bwo kugura, kubera abafise amahirwe make. Tuzosubira gusubiramwo kenshi iyo ngingo mu gihe cose c'inyigisho, cane cane mu bijanye n'iciyumviro kizwi kw'izina rya "Cantillon effect" n'uguhindura amadini y'aba Maravedi muri Esupanye.
+2. Icipfuzo ca Leta co gusubiramwo igihe kirekire gishoboka gutakaza agaciro k’ibintu vy’agaciro (aureus), ni ukuvuga ububiko bw’agaciro bushoboza abahinga kuguma bafise ubushobozi bwo kugura, kubera abafise amahirwe make. Tuzosubira gusubiramwo kenshi iyo ngingo mu gihe cose c'inyigisho, cane cane mu bijanye n'iciyumviro kizwi kw'izina rya "Cantillon effect" n'uguhindura amadini y'aba Maravedi muri Esupanye.
 
 
 Ico kintu kiraryoshe cane kandi carasubiyemwo muri kahise. Tuzosubira kuyigendera hamwe n’aba Maravedi mu kigabane gikurikira. Ico kigereranyo kiraboneka no ku mafaranga yose y’ububiko; igiharuro c’agaciro c’ububiko, nk’ico mu Roma (aureus) kiguma kitakozweko. Ariko rero, igitigiri c’amakonte abantu bose bakoresha mu bucuruzi no mu bikorwa vya misi yose, akenshi kiragabanywa agaciro. Ivyo bituma ugutera imbere kw’amahera gushikirwa n’ingorane ku bantu basanzwe, mu gihe abashobora kugura ibiceri vy’inzahabu ahanini batagira ico bakozeko.
 
 
-Kandi n’ubundi, **ni co kintu nyene kiriko kiraremwa uno musi n’ugucika intege kw’agaciro k’amahera, ivyo bikaba bituma itunga ry’amahera riduga mu gaciro**, kandi rero ni abantu bakoresha amahera, abantu bakenye kuruta abandi bose, ni bo barushiriza gukenera, kandi ivyo navyo bikaba bitunganya, biciye mu kurema amahera, abo bafise gusenyuka kw’agaciro, kandi rero bituma ubusumbane mu kibano bukomera. Uwo niwo muvumo wanje mutoyi wa politike.
+Kandi n’ubundi, **ni co kintu nyene kiriko kiraremwa uno musi ugutakara kw’agaciro k’amahera, ivyo bikaba bituma itunga ry’amahera riduga mu gaciro**, kandi rero ni abantu bakoresha amahera, bakenye kuruta abandi bose, ni bo barushiriza gukena, kandi ivyo navyo nikaba bitungisha abandi, biciye mu gukora amahera, imitahe yabantu babishoboye, bafise ubushobozi bwo kwirinda itakara ry'agaciro k'amahera batuma haba ubusumbane mu kibano bukomera. iryo niryo jambo ryanje kuvyerekeye politique.
 
 
 
@@ -3032,23 +3033,23 @@ Ndafise amajambo abiri nshaka kubabwira ku bijanye na Aurelian. Irya mbere rikom
 
 
 
-*"ku bijanye n'ubutunzi bw'Abaroma, intererano ya Aurelien yari akaga kuruta intsinzi. Ahanini vyatewe n'akaranga k'"ivugurura" ryiwe ko igitigiri c'ugutera imbere kw'ibiciro cashoboye kwiyongera kure cane y'ivyo vyari bishoboka mbere, mbere no mu gihe c'ubutegetsi bwa Gallienus atagira inshingano. "*
+*"ku bijanye n'ubutunzi bw'Abaroma, intererano ya Aurelien yari akaga kuruta intsinzi. Ahanini vyatewe n'akaranga k'"ivugurura" ryiwe ko igitigiri c'ukuduga kw'ibiciro cashoboye kwiyongera kure cane y'ivyo vyari bishoboka mbere, mbere no mu gihe c'ubutegetsi bwa Gallienus atagira inshingano. "*
 
 
 
-Ica kabiri kiva mu gitabu *Ancient History from Coins* kandi kijanye n’ugutandukana kw’uburyo bw’amahera n’inzahabu:
+Ica kabiri kiva mu gitabu *Ancient History from Coins* kandi kijanye n’ugutandukana kw’uburyo bw’amafaranga n’inzahabu:
 
 
 
-*"Ivugurura rya Aurelian ryahinduye isano hagati y'amahera y'inzahabu n'ibindi bice vy'amahera. Imbere yaryo, ubundi bwoko bw'amahera bwari bufitaniye isano n'**aureus** hakurikijwe ibiciro vyemewe (amadenari 25 y'Abanyamisiri canke 25 tetradrachmes ku gaciro ka aureus imwe y'ubuntu, n'ibindi). ikindi kintu cose, mu gihe urutonde rw'amahera rwasigaye **rwasenyutse mu gaciro** kubera **ugucika intege kw'ibikoresho vy'ivyuma**, ntivyari bigishigikiwe n'inzahabu** Uko igice c'ibarabara caguma gishingiye ku vyiyumviro ku feza (idenari, canke mu Misiri idarakima), ibiciro vyaradutse uko amafaranga " yagenda aragabanuka.
+*"Ivugurura rya Aurelian ryahinduye isano hagati y'amafaranga y'inzahabu n'ibindi bice vy'amahera. Imbere yaryo, ubundi bwoko bw'amahera bwari bufitaniye isano n'**aureus** hakurikijwe ibiciro vyemewe (amadenari 25 y'Abanyamisiri canke 25 tetradrachmes ku gaciro ka aureus imwe y'ubuntu, n'ibindi). ikindi kintu cose, mu gihe urutonde rw'amahera rwasigaye **rwakorotse mu gaciro** kubera **ugucika intege kw'ibikoresho vy'ivyuma**, ntivyari bigishigikiwe n'inzahabu** Uko ingero ya konti yaguma gishingiye ku vyiyumviro bifatiye kwi feza (idenari, canke mu Misiri idarakima), ibiciro vyaraduze uko amafaranga " yagenda aragabanuka.
 
 
 
-Nk’uko mushobora kubibona, ukwo gusenyuka kw’agaciro k’amahera yakoreshwa nk’igice c’ibarabara kwagize ingaruka zidahuye n’ivyo abafise ubutunzi buke, mu gihe ugutandukana kw’ihuriro n’amahera y’inzahabu kwarinda ubushobozi bwo kugura bw’abashobora kuzigama mu bubiko bw’agaciro ari bwo nzahabu.
+Nk’uko mushobora kubibona, ukwo gukoroka kw’agaciro k’amahera yakoreshwa nk'ingero ya konte kwagize ingaruka zidahuye n’ivyo abafise ubutunzi buke, mu gihe ugutandukana kw’ihuriro n’amahera y’inzahabu kwarinda ubushobozi bwo kugura bw’abashobora kuzigama mu bubiko bw’agaciro ari bwo nzahabu.
 
 
 
-Ico ubwirizwa gutahura hano ni uko iyo hariho isano hagati y’idenariyo n’idenariyo, naho woba ugabanyije agaciro k’idenariyo, iyo ukishobora guhindura idenariyo yawe n’idenariyo kuri aureus kuri iki kigero (idenariyo 25 ku aureus 1), abantu bazohindura ata gukeka idenariyo yabo n’idenariyo yawe kuko idenariyo izoba irenze agaciro. Ariko muri iyo mpinduka, barakuyeho iyo nzira. Abantu rero ntibashobora guhindura idenariyo n’icuma c’ifeza cari caragabanutse agaciro n’inzahabu. Aho niho abafise uburenganzira bwo kuronka ibiceri vy’inzahabu bashobora vy’ukuri kwikingira, kuko inyuma y’aho abantu ntibashobora guhindura ifeza yacitse agaciro karenze urugero, bakayihindura inzahabu itagira agaciro. Ico ni igihe gihambaye cane mu gutera imbere kw’amahera.
+Ico ubwirizwa gutahura hano ni uko iyo hariho isano hagati y’idenariyo n’aureus, naho woba ugabanyije agaciro k’idenariyo, iyo ukishobora guhindura idenariyo yawe kuri aureus kuri iki kigero (idenariyo 25 ku aureus 1), abantu bazohindura ata gukeka idenariyo yabo n’aureus yawe kuko idenariyo izoba irenze agaciro. Ariko muri iyo mpinduka, barakuyeho iyo nzira. Abantu rero ntibashobora guhindura idenariyo n’icuma c’ifeza cari caragabanutse agaciro n’inzahabu. Aho niho abafise uburenganzira bwo kuronka ibiceri vy’inzahabu bashobora vy’ukuri kwikingira, kuko inyuma y’aho abantu ntibashobora guhindura ifeza yacitse agaciro karenze urugero, bakayihindura inzahabu itagira agaciro. Ico ni igihe gihambaye cane mu gutera imbere kw’amahera.
 
 
 
@@ -3056,23 +3057,23 @@ Akarorero gakomeye k’ingaruka z’iryo vugurura ryakozwe na Aurelian karagarag
 
 
 
-*"Hagati y'ingoma y'abami b'abami Claude (41-54 AD) na Constantius (337-361 AD), igiciro c'ingano kw'isoko ry'abantu bose muri Misiri, kigaragazwa mu ma drakima, **cariyongereye n'incuro irenga miliyoni**. Ugutera imbere kw'ibiciro gutangaje ni kimwe mu bintu vy'ubutunzi vy'ikinjana ca mbere n'4 1990, urupapuro rwa 106). Ariko iyo nzira **ntiyiteye ubwoba cane nk’uko bisa**, kuko ihuye n’**igipimo c’ugutera imbere kw’ibiciro ku mwaka c’ibice 4,4%**. Kandi nk’uko Wassink (1991, urupapuro rwa 482) abivuga, mu vy’ukuri ugutera imbere kw’ibiciro kwatanguye **mu mwaka w’238 inyuma ya Kristu gusa**"*
+*"Hagati y'ingoma y'abami b'abami Claude (41-54 AD) na Constance (337-361 AD), igiciro c'ingano kw'isoko ry'abantu bose muri Misiri, kigaragazwa mu ma drachmes, **cariyongereye n'incuro irenga miliyoni**. Ugutera imbere kw'ibiciro gutangaje ni kimwe mu bintu vy'ubutunzi vy'ikinjana ca mbere n'4 1990, urupapuro rwa 106). Ariko iyo nzira **ntiyiteye ubwoba cane nk’uko bisa**, kuko ihuye n’**igipimo c’ugutera imbere kw’ibiciro ku mwaka c’ibice 4,4%**. Kandi nk’uko Wassink (1991, urupapuro rwa 482) abivuga, mu vy’ukuri ukuduga kw’ibiciro kwatanguye **mu mwaka w’238 inyuma ya Kristu gusa**"*
 
 
 
-*"Kuva kuri iyo tariki, inflation yarateye imbere buhoro buhoro, kuko **amahera meza yabanje kwirukanwa mu nzira**, ku buryo amafaranga yose hamwe ataco yiyongera na gato mu ntango. Hanyuma, yashitse ku rugero rwa **3,65% ku mwaka rwa **3,65% hagati ya 250 na 293%** na **32% na **.100.000. (Wassink 1991, p. 466), ni ukuvuga gushika ku **ivugurura ry'amahera ry'Umwami w'abami Diocletien ryacitsemwo inda** Ico kintu kiratangaje cane cane ku bijanye n'ugutera imbere kw'ibiciro mu butegetsi bw'amahera bushingiye ku cuma**.
+*"Kuva kuri iyo tariki, inflation yarateye imbere buhoro buhoro, kuko **amahera meza yabanje kwirukanwa mu nzira**, ku buryo amafaranga yose hamwe ataco yiyongera na gato mu ntango. Hanyuma, yashitse ku rugero rwa **3,65% ku mwaka rwa **3,65% hagati ya 250 na 293%** na **32% na **.100.000. (Wassink 1991, p. 466), ni ukuvuga gushika ku **ivugurura ry'amahera ry'Umwami w'abami Diocletien ryacitsemwo inda** Ico kintu kiratangaje cane cane ku bijanye n'ukuduga kw'ibiciro mu butegetsi bw'amahera bushingiye ku cuma**.
 
 
 
-Ico kintu c’ugutera imbere kw’ibiciro gifitaniye isano n’ugusenyuka kw’amahera, mu ntango cari gifise inyishu ku ngorane z’amahera zari ziza rimwe na rimwe za Leta y’Uburoma. Mu kugabanya ivyuma vy’agaciro biri mu biceri mu gihe biguma bifise agaciro kavyo, Leta yararonse ubutunzi bwayo mu gihe gito. Ariko ibiciro ntivyaciye bigira ico bikoze ubwo nyene: vy’ukuri, urutonde rw’Abaroma rwari rufise uburyo bumwe bumwe bwo kwifatanya, ivyo bikaba vyasobanura ko umushahara n’ibiciro vyari bitevye guhura n’ugutakaza agaciro kwakurikiranye. Naho ari ukwo, inyuma y’aho umuntu ashitse ku rugero runaka, ibiciro vyoduga cane kugira ngo isoko risubire ku rugero rumwe n’agaciro nyakuri k’ayo mafaranga.
+Ico kintu ukuduga kw’ibiciro gifitaniye isano n’ugusenyuka(kuyungurura) kw’amahera, mu ntango cari gifise inyishu ku ngorane z’amahera zari ziza rimwe na rimwe za Leta y’Uburoma. Mu kugabanya ivyuma vy’agaciro biri mu biceri mu gihe biguma bifise agaciro kavyo, Leta yararonse ubutunzi bwayo mu gihe gito. Ariko ibiciro ntivyaciye bihinduka ubwonyene: vy’ukuri, urutonde rw’Abaroma rwari rufise uburyo bumwe bumwe bwo kwifatanya, ivyo bikaba vyasobanura ko umushahara n’ibiciro vyari bitevye guhura n’ugutakaza agaciro kwakurikiranye. Naho ari ukwo, inyuma y’aho umuntu ashitse ku rugero runaka, ibiciro vyoduga cane kugira ngo isoko risubire ku rugero rumwe n’agaciro nyakuri k’ayo mafaranga.
 
 
 
-Nk’uko twabibonye haruguru, ico kintu kiragaragara canecane kuva hagati mu kinjana ca 3 gushika ubu. Mu Misiri, akarere gafise inyandiko nyinshi, ibiciro vyaragwijwe n’ibice 10 mu gihe ca Aurelian (274 inyuma ya Kristu) inyuma y’aho amafaranga asubiye gusubirwamwo ku mugaragaro, naho nyene mu ntango hariho ukugerageza guhagarara neza. Maze, ku ngoma ya Dioclétien (301 inyuma ya Kristu), itegeko ry’ibiciro ryashizeho ubugenzuzi bukomeye kugira ngo hagabanuke ugutera imbere kw’ibiciro ata gutorera umuti imvo nyamukuru - uguhingura birenze urugero n’ugusenyuka kw’amahera - gutyo bikaba vyatumye habaho ukunanirwa gushobora gutegekanirwa. Ugutera imbere kw’ibiciro gukomeza gutuma ubutunzi buja ku rwego rw’inzira zibiri: **abanyacubahiro, barindwa n’ibisigazwa vy’inzahabu (nk’ivyo Constantin yakoze**), bararonka ugushikama, mu gihe benshi mu baturage babandanya gushikirwa n’ugutera imbere kw’ibiciro kudahera, **bigaragaza ico uno musi bita Cantillon effect**.
+Nk’uko twabibonye haruguru, ico kintu kiragaragara canecane kuva hagati mu kinjana ca 3 gushika ubu. Mu Misiri, akarere gafise inyandiko nyinshi, ibiciro vyaragwijwe n’ibice 10 mu gihe ca Aurelian (274 inyuma ya Kristu) inyuma y’aho amafaranga asubiye gusubirwamwo ku mugaragaro, naho nyene mu ntango hariho ukugerageza guhagarara neza. Maze, ku ngoma ya Dioclétien (301 inyuma ya Kristu), itegeko ry’ibiciro ryashizeho ubugenzuzi bukomeye kugira ngo hagabanuke ugutera imbere kw’ibiciro ata gutorera umuti imvo nyamukuru - uguhingura birenze urugero n’ugusenyuka(kuyungurura) kw’amafaranga - gutyo bikaba vyatumye habaho ukunanirwa gushobora gutegekanirwa. Ugutera imbere kw’ibiciro gukomeza gutuma ubutunzi buja ku rwego rw’inzira zibiri: **abanyacubahiro, barindwa n’ibisigazwa vy’inzahabu (nk’ivyo Constantin yakoze**), bararonka ugushikama, mu gihe benshi mu baturage babandanya gushikirwa n’ugutera imbere kw’ibiciro kudahera, **bigaragaza ico uno musi bita Cantillon effect**.
 
 
 
-Hariho isano ritomoye hagati y’ugusenyuka kw’amahera y’Abaroma n’ugutera imbere kw’ibiciro, ivyo bikaba bifitaniye isano ahanini n’ugutakaza amahera kudahera, amahera akoreshwa mu gisirikare adahagarara be n’ukuntu Leta idacungera neza ubutunzi.
+Hariho isano ritomoye hagati y’ugusenyuka(kuyungururwa) kw’amahera y’Abaroma n’ukuduga kw’ibiciro, ivyo bikaba bifitaniye isano ahanini n’ugutakaza amahera kudahera, amahera akoreshwa mu gisirikare adahagarara be n’ukuntu Leta idacungera neza ubutunzi.
 
 
 
@@ -3085,31 +3086,31 @@ Hariho isano ritomoye hagati y’ugusenyuka kw’amahera y’Abaroma n’ugutera
 
 :::video id=91d4fee5-59bb-4ab9-a90b-e1125c71decb:::
 
-### Amafaranga agabanutse agaciro n'ugusenyuka kw'Uburoma
+### Ugutakaza agaciro k'amahera n'ugusenyuka kw'Uburoma
 
 
 
-Ishure ry’ubutunzi ryo muri Otirishiya, cane cane biciye kuri Ludwig von Mises, ryaratanze insobanuro y’amahera y’ugutemba kw’Uburoma. Muri iryo yerekwa, ukuntu amahera y’Uburoma yariko aragabanuka buhorobuhoro, vyarasenyuye urutonde rutoroshe rwo kugabanya ibikorwa rwari rufasha ubwami bw’abantu imiliyoni 60. Amafaranga, igikoresho nyamukuru co guhuza ubutunzi, amaze gusenyuka, yaratumye imibano n’ubutunzi vyose bisenyuka.
+Ishure ry’ubutunzi ryo muri autriche, cane cane biciye kuri Ludwig von Mises, ryaratanze insobanuro muvya amahera n'ugutemba kw’Uburoma. Muri iryo yerekwa, ukuntu amahera y’Uburoma yariko aragabanuka buhorobuhoro, vyarasenyuye urutonde rutoroshe rwo kugabanya ibikorwa rwari rufasha ubwami bw’abantu imiliyoni 60. Amafaranga, igikoresho nyamukuru co guhuza ubutunzi, amaze gusenyuka, yaratumye imibano n’ubutunzi vyose bisenyuka.
 
 
 
-Ukwo gusenyuka kw’amahera ntikwasenyuye gusa ubumwe bwo mu bwami bwo mu mutima. Yaciye kandi igabanya ubucuti bw’ubudandaji n’ibihugu bihegereye. Kubera ko abo "banyamahanga" babuze inyungu z'ubudandaji n'Uburoma, barahindukiye bava mu gukorana n'abandi mu mahoro baja mu gufata ibikoko. Ivyo bitero rero ntivyari ivy’igisirikare gusa, ariko kandi vyari bivuye ku gusenyuka kw’ubutunzi kw’ishimikiro.
+Ukwo gusenyuka kw’amafaranga ntikwasenyuye gusa ubumwe bwo mu bwami bwo mu mutima. Yaciye kandi igabanya ubucuti bw’ubudandaji n’ibihugu bihegereye. Kubera ko abo "banyamahanga" babuze inyungu z'ubudandaji n'Uburoma, barahindukiye bava mu gukorana n'abandi mu mahoro baja mu gufata ibikoko. Ivyo bitero rero ntivyari ivy’igisirikare gusa, ariko kandi vyari bivuye ku gusenyuka kw’ubutunzi kw’ishimikiro.
 
 
 
-### Ivyiyumviro bitatu vy'ugutakaza agaciro k'umwami
+### Intabwe zitatu vy'atumye agaciro gatakara k'ubwami
 
 
 
-Amateka y’amahera y’Abaroma ashobora guca mu bihe bitatu bitandukanye. Irya mbere, kuva mu gihe ca Julio-Claude gushika mu gihe ca Antonine (27 imbere ya Kristu - impera y’ikinjana ca 2), ryagumye rihagaze neza. Mu gihe ca Trajan, ubwo bwami bwashitse ku rwego rwo hejuru: bwari bufise uburebure bw’ibilometero miliyoni 5, Roma ni co cabaye igisagara ca mbere gifise amamiliyoni muri kahise. Idenari iguma ifise ubusuku bw’ifeza buva kuri 98% gushika kuri 80% - ugucika kw’agaciro k’ifeza mu buryo buringaniye bica bituma ubutunzi bukora.
+Amateka y’amahera y’Abaroma ashobora guca mu bihe bitatu bitandukanye. Irya mbere, kuva mu gihe ca Julio-Claude gushika mu gihe ca Antonine (27 imbere ya Kristu - impera y’ikinjana ca 2), ryagumye rihagaze neza. Mu gihe ca Trajan, ubwo bwami bwashitse ku rwego rwo hejuru: bwari bufise uburebure bw’ibilometero miliyoni 5, Roma ni co cabaye igisagara ca mbere gifise amamiliyoni muri kahise. Idenari iguma ifise ubusuku bw’ifeza buva kuri 98% gushika kuri 80% - ugutakara kw’agaciro k’ifeza mu buryo burihejuru bica bituma ubutunzi bukora.
 
 
 
-Igihe ca kabiri, ni ukuvuga mu kinjana ca 3, cari igihe c’ubuja mu gisirikare. Abami b’abami 26 barakurikiranye mu kiringo c’imyaka mirongo mikeyi. Amafaranga yarasenyutse: antoninianus, bivugwa ko yari ifise agaciro k’amadenari abiri, yari arimwo gusa 1,5 mu buremere bw’icuma - ni co kigeragezo ca mbere co gutandukanya agaciro k’amategeko n’agaciro nyakuri. Ukwo gukoresha nabi ni kwo gutuma haba Itegeko rya Gresham: amahera mabi yirukana amahera meza. Abanyagihugu bararundanya ivyo biceri vyiza, bagakoresha gusa ivyo vyari vyacitse agaciro.
+Igihe ca kabiri, ni ukuvuga mu kinjana ca 3, cari igihe c’ubuja mu gisirikare. Abami b’abami 26 barakurikiranye mu kiringo mirongo. Amafaranga yaratakaje agaciro: antoninianus, bivugwa ko yari ifise agaciro k’amadenari abiri, yari arimwo gusa 1,5 mu buremere bw’icuma - ni co kigeragezo ca mbere co gutandukanya agaciro k’amategeko n’agaciro nyakuri. Ukwo gukoresha nabi ni kwo gutuma haba Itegeko rya Gresham: amahera mabi yirukana amahera meza. Abanyagihugu bararundanya ivyo biceri vyiza, bagakoresha gusa ivyo vyari vyacitse agaciro.
 
 
 
-Itunga ry’amahera ryavumbuwe n’abacukuzi rirahishura iyo mpungenge y’ubutunzi. Amabuye y’agaciro yahambwe yerekana, biciye ku gucapura, ingene Abaroma babanza gushiramwo ibiceri vyiza kuruta ibindi vyose, buhorobuhoro bakarongerako ivyo vyari vyacitse agaciro. Ivyo "birundo" vya kera birashingira intahe ibikorwa vy'umuntu mu gihe c'ukudakeka - ukugerageza kuzigama agaciro mw'isi iriko irabora.
+Itunga ry’amafaranga ryatowe n’abacukuzi rirahishura iyo mpungenge y’ubutunzi. Amabuye y’agaciro yahambwe yerekana, biciye ku gucapura, ingene Abaroma babanza gushiramwo ibiceri vyiza kuruta ibindi vyose, buhorobuhoro bakarongerako ivyo vyari vyacitse agaciro. Ivyo "birundo" vya kera birashingira intahe ibikorwa vy'umuntu mu gihe c'ukudakeka - ukugerageza kuzigama agaciro mw'isi iriko irabora.
 
 
 
@@ -3117,11 +3118,11 @@ Itunga ry’amahera ryavumbuwe n’abacukuzi rirahishura iyo mpungenge y’ubutu
 
 
 
-Constantin (310-337) yaragerageje gutuma ubwami buguma buhagaze neza biciye ku guhindura ibintu bikomeye. Yaremye amafaranga y’inzahabu yitwa gold solidus, amafaranga agenzurwa cane n’ubutegetsi. Abategetsi barasuzuma mu buryo butunganye uburemere n’ubusuku bwavyo. Ivyo gusohora vyagumye ari bike, bifitaniye isano n’iminyago y’intambara. Ayo mafaranga ni yo yacitse igikoresho c’ubutegetsi conyene: imisoro yarihembwa mu mafaranga y’agaciro, amalegiyo na yo akaronka amahera yayo mu nzahabu.
+Constantin (310-337) yaragerageje gutuma ubwami buguma buhagaze neza biciye ku guhindura ibintu bikomeye. Yakoze amafaranga y’inzahabu yitwa gold solidus, amafaranga agenzurwa cane n’ubutegetsi. Abategetsi barasuzuma mu buryo butunganye uburemere n’ubuziranenge bwavyo. Ivyo gusohora vyagumye ari bike, bifitaniye isano n’iminyago y’intambara. Ayo mafaranga ni yo yacitse igikoresho c’ubutegetsi conyene: imisoro yarihembwa mu mafaranga y’agaciro, amalegiyo na yo akaronka amahera yayo mu nzahabu.
 
 
 
-Muri ico gihe nyene, abantu barakoresha nummus y’umuringa, iyo nummus ikaba yaguma igabanywa agaciro. Mu mwaka wa 445, solidus yari ifise agaciro k’ama nummi 7.000; mu 498, 16.800. Uwo murongo w’ibintu bibiri warashizeho ingaruka za Cantillon: abafise uburenganzira bwo kuronka solidus - uburongozi, ba nyen’ubutaka - barindwa inflation. Abanyagihugu, bari mu gisagara ca nummus, baracitse abakene ata co baciyeko.
+Muri ico gihe nyene, abantu barakoresha nummus de bronze, iyo nummus ikaba yaguma igabanywa agaciro. Mu mwaka wa 445, solidus yari ifise agaciro k’ama nummi 7.000; mu 498, 16.800. Uwo murongo w’ibintu bibiri warashizeho ingaruka za Cantillon: abafise uburenganzira bwo kuronka solidus - uburongozi, ba nyen’ubutaka - barindwa iduga ry'ibiciro. Abanyagihugu, bari mu gisagara ca nummus, baracitse abakene ata co baciyeko.
 
 
 
@@ -3129,11 +3130,11 @@ Ukwo gutandukanya amahera kwatumye haba ubutunzi bubiri buhuye ata n’igiciro c
 
 
 
-### Gusenyuka kw'ugusangira ibikorwa .
+### Gusambuka kw'igabanganwa ry'ibikorwa .
 
 
 
-Gutakaza agaciro k’amafaranga buhoro buhoro vyarasenyuye ubuhinga bwihariye mu vy’ubutunzi. Kubera ko ata nkuru yo kwizigirwa yari ihari, ubudandaji bwo mu kiyaga Mediterane bwarasenyutse. Abahinguzi b’ibintu vy’ubuhinga b’i Roma ntibari bagishobora gucuruza na Misiri canke Gaule. Intara zaciye zifata amafaranga zazo, ivyo bikaba vyatumye haba amakimbirane mu vy’ubudandaji.
+Gutakaza agaciro k’amahera buhoro buhoro vyarasenyuye ubuhinga bwihariye mu vy’ubutunzi. Kubera ko ata nkuru yo kwizigirwa yari ihari, ubudandaji bwo mu kiyaga Mediterane bwarasenyutse. Abahinguzi b’ibintu vy’ubuhinga b’i Roma ntibari bagishobora gucuruza na Misiri canke Gaule. Intara zaciye zifata amafaranga zazo, ivyo bikaba vyatumye haba amakimbirane mu vy’ubudandaji.
 
 
 
@@ -3177,14 +3178,14 @@ Nk’akarorero, igihe ingabo z’Abaroma zava mu Bwongereza, nta biceri vy’Aba
 
 
 
-Kuva mu kinjana ca 8 gushika ubu, akosho k’abakirisu karatumye mu Buraya bwo mu Buraruko hasubira gukoresha amafaranga y’ibiceri. Umuntu nyamukuru muri ico kiringo yari Pepin Mugufi, Umwami w’Abafranki, uno akaba ari we yashizeho idenariyo mu 752, mu nyuma ikaba yaje gufatwa n’umuhungu wiwe Charlemagne. Charlemagne yaraguye cane ikoreshwa ry’idenariyo y’ifeza, bituma habaho urugero rw’amahera rw’i Buraya mu binjana vyinshi.
+Kuva mu kinjana ca 8 gushika ubu, akosho k’abakirisu karatumye mu Buraya bwo mu Buraruko hasubira gukoresha amahera y’ibiceri. Umuntu nyamukuru muri ico kiringo yari Pepin Mugufi, Umwami w’Abafranki, uno akaba ari we yashizeho idenariyo mu 752, mu nyuma ikaba yaje gufatwa n’umuhungu wiwe Charlemagne. Charlemagne yaraguye cane ikoreshwa ry’idenariyo y’ifeza, bituma habaho urugero rw’amahera rw’i Buraya mu binjana vyinshi.
 
 
-Mu Bwongereza, amafaranga y’ifeza yarasubiye kuvyuka cane igihe hakorwa ideni ry’ifeza ku ngoma y’Umwami Offa wa Mercia nko mu 765. Ayo mafaranga yarabaye ahambaye cane ku buryo yagumye hafi ataco ahinduye mu myaka 500.
+Mu Bwongereza, amahera y’ifeza yarasubiye kuvyuka cane igihe hakorwa ideni ry’ifeza ku ngoma y’Umwami Offa wa Mercia nko mu 765. Ayo mahera yarabaye ahambaye cane ku buryo yagumye hafi ataco ahinduye mu myaka 500.
 
 
 
-Nk’ikintu ca mbere gifitaniye isano n’ico gihe, reka ndabereke igishushanyo c’ideni ry’icongereza ry’ico gihe.
+Nk’ikintu ca mbere gifitaniye isano n’ico gihe, reka ndabereke igishushanyo ya penny anglais ry’ico gihe.
 
 
 

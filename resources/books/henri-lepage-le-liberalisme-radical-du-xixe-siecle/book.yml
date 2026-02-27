@@ -1,0 +1,19 @@
+id: 2e7a6df6-e899-4972-b73a-62010aba1b9a
+author: Henri Lepage
+level: intermediate
+original_language: fr
+license: "Autorisation formelle accordée par l'auteur"
+tags:
+- general
+links:
+  website:
+    fr:
+      url: https://web.archive.org/web/20050124220927/https://www.euro92.com/acrob/hlhart97.PDF
+      source: euro92
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=Le+lib%C3%A9ralisme+radical+du+XIXe+si%C3%A8cle+Henri+Lepage&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

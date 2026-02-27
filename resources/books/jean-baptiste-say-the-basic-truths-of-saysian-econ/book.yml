@@ -1,0 +1,19 @@
+id: aee95b33-5753-4f88-b4d9-05162ff15751
+author: Jean-Baptiste Say
+level: advanced
+original_language: en
+license: "Free for educational and academic purposes"
+tags:
+- economics
+links:
+  website:
+    en:
+      url: https://fee.org/ebooks/the-basic-truths-of-saysian-economics-and-their-contemporary-relevance/
+      source: FEE
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    en:
+      url: https://www.amazon.co.uk/s?k=The+Basic+Truths+of+Saysian+Economics+and+Their+Contemporary+Relevance+Jean-Baptiste+Say&tag=planbnetwor0a-21
+      status: auto
+      last_checked: '2026-02-08'

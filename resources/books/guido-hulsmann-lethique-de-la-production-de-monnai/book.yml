@@ -1,0 +1,19 @@
+id: 76b44572-551e-4bdf-8dcb-8cf0b3edd535
+author: Guido Hulsmann
+level: intermediate
+original_language: fr
+license: "Free for educational and academic purposes"
+tags:
+- monetary-theory
+links:
+  website:
+    fr:
+      url: https://epdf.pub/queue/lethique-de-la-production-de-la-monnaie38ec970b5a82eed8701325dc515116797001.html
+      source: epdf.pub
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=L%27%C3%A9thique+de+la+production+de+monnaie+Guido+Hulsmann&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

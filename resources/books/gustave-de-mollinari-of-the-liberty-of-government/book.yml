@@ -1,0 +1,20 @@
+id: 8ccb1846-3ad0-40fa-96fc-b26d42d9934c
+author: Gustave de Mollinari
+level: advanced
+original_language: en
+license: "Public domain"
+tags:
+- philosophy
+- political-theory
+links:
+  website:
+    en:
+      url: https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/posts/427/shrine20230801-342-vbkg61.pdf
+      source: The Online Library of Liberty
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    en:
+      url: https://www.amazon.co.uk/s?k=Of+the+Liberty+of+Government+Gustave+de+Mollinari&tag=planbnetwor0a-21
+      status: auto
+      last_checked: '2026-02-08'

@@ -1,0 +1,19 @@
+id: 0b1acbaf-4f79-4a97-adf6-82a245b89961
+author: Ron Paul
+level: intermediate
+original_language: fr
+license: "Autorisation formelle accordée par l'auteur"
+tags:
+- general
+links:
+  website:
+    fr:
+      url: https://www.institutcoppet.org/wp-content/uploads/2012/11/Discours-dadieu-de-Ron-Paul-v6.pdf
+      source: Institut Coppet
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=Discour+d%27adieu+au+Congr%C3%A8s+Ron+Paul&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

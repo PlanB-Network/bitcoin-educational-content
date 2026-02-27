@@ -1,0 +1,19 @@
+id: 883bd6d3-e38f-4d95-8c1c-489932dc6f06
+author: Friedrich A Hayek
+level: intermediate
+original_language: en
+license: "Free for educational and academic purposes"
+tags:
+- general
+links:
+  website:
+    en:
+      url: https://iea.org.uk/publications/research/the-road-to-serfdom
+      source: iea.org
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    en:
+      url: https://www.amazon.co.uk/s?k=The+Road+to+Serfdom+Friedrich+A+Hayek&tag=planbnetwor0a-21
+      status: auto
+      last_checked: '2026-02-08'

@@ -1,0 +1,19 @@
+id: 0574195b-a2cf-4e99-b620-7f0587965be3
+author: Jean-Michel Poughon
+level: intermediate
+original_language: fr
+license: "Autorisation formelle accordée par l'auteur"
+tags:
+- economics
+links:
+  website:
+    fr:
+      url: https://web.archive.org/web/20110718165229/http://www.euro92.com/acrob/molinari.PDF
+      source: euro92
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=Molinari+%3A+une+approche+de+la+d%C3%A9mocratie+%C3%A9conomique+Jean-Michel+Poughon&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

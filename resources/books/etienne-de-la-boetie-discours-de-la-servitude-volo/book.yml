@@ -1,0 +1,19 @@
+id: 59022a83-12da-46e2-9724-c43b8fd0165f
+author: Etienne de La Boétie
+level: intermediate
+original_language: fr
+license: "Public domain"
+tags:
+- public-domain
+links:
+  website:
+    fr:
+      url: https://www.singulier.eu/textes/reference/texte/pdf/servitude.pdf
+      source: singulier.eu
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=Discours+de+la+servitude+volontaire+Etienne+de+La+Bo%C3%A9tie&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

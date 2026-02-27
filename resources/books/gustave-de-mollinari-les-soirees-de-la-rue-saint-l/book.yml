@@ -1,0 +1,19 @@
+id: 2b7a6152-3ebb-42b7-8568-3e09355b5544
+author: Gustave de Mollinari
+level: intermediate
+original_language: fr
+license: "Public domain"
+tags:
+- general
+links:
+  website:
+    fr:
+      url: https://www.institutcoppet.org/molinari-les-soirees-de-la-rue-saint-lazare-1849/
+      source: Institut Coppet
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=Les+soir%C3%A9es+de+la+rue+Saint+Lazare+Gustave+de+Mollinari&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

@@ -1,0 +1,19 @@
+id: 42188a08-2591-41c7-83d2-8adb60c8a0b7
+author: Jean-Baptiste Say
+level: advanced
+original_language: en
+license: "Public domain"
+tags:
+- economics
+links:
+  website:
+    en:
+      url: https://fee.org/ebooks/a-treatise-on-political-economy
+      source: FEE
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    en:
+      url: https://www.amazon.co.uk/s?k=A+Treatise+on+Political+Economy+Jean-Baptiste+Say&tag=planbnetwor0a-21
+      status: auto
+      last_checked: '2026-02-08'

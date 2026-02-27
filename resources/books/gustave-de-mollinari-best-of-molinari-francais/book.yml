@@ -1,0 +1,19 @@
+id: 42e7d3f1-2fb2-454f-9a8b-8ff948a82c6e
+author: Gustave de Mollinari
+level: intermediate
+original_language: fr
+license: "Public domain"
+tags:
+- general
+links:
+  website:
+    fr:
+      url: https://www.institutcoppet.org/best-of-molinari-1912-2012/
+      source: Institut Coppet
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=Best+of+Molinari+%28fran%C3%A7ais%29+Gustave+de+Mollinari&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

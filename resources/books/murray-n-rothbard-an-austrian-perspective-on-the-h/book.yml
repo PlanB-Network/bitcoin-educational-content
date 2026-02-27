@@ -1,0 +1,19 @@
+id: b8995582-554a-4b53-b068-49aa6ad213f6
+author: Murray N. Rothbard
+level: intermediate
+original_language: en
+license: "Free for educational and academic purposes"
+tags:
+- economics
+links:
+  website:
+    en:
+      url: https://mises.org/library/book/austrian-perspective-history-economic-thought
+      source: mises.org
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    en:
+      url: https://www.amazon.co.uk/s?k=An+Austrian+Perspective+on+the+History+of+Economic+Thought+Murray+N.+Rothbard&tag=planbnetwor0a-21
+      status: auto
+      last_checked: '2026-02-08'

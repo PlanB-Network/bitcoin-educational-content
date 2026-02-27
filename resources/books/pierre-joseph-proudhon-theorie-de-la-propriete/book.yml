@@ -1,0 +1,19 @@
+id: 8c792742-028b-41d3-bebd-5ca0d256ea30
+author: Pierre-Joseph Proudhon
+level: intermediate
+original_language: fr
+license: "Public domain"
+tags:
+- public-domain
+links:
+  website:
+    fr:
+      url: http://www.catallaxia.free.fr/spencer_individu_etat.pdf
+      source: catallaxia.org
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=Th%C3%A9orie+de+la+propri%C3%A9t%C3%A9+Pierre-Joseph+Proudhon&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

@@ -1,4 +1,4 @@
-question: Según los Fisiócratas, ¿cuál es el origen del orden económico?
+question: Según los Fisiócratas, ¿Cuál es el origen del orden económico?
 answer: Las leyes naturales del mercado.
 wrong_answers:
   - Decisiones gubernamentales.
@@ -6,4 +6,4 @@ wrong_answers:
   - Los privilegios de la aristocracia.
 explanation: |
   Los Fisiócratas creían que el orden económico se deriva de las leyes naturales del mercado, afirmando que, sin intervención, el mercado tiende hacia un equilibrio que asegura la prosperidad general.
-reviewed: false
+reviewed: true

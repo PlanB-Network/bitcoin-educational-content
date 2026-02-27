@@ -1,0 +1,19 @@
+id: db2846fd-7c82-4239-94f9-4190dbb67777
+author: Tom Plamer
+level: intermediate
+original_language: fr
+license: "Autorisation formelle accordée par l'auteur"
+tags:
+- general
+links:
+  website:
+    fr:
+      url: https://www.institutcoppet.org/la-moralite-du-capitalisme-ce-que-vos-professeurs-ne-vous-diront-pas/
+      source: SFL
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=La+moralit%C3%A9+du+capitalisme+%28epub%29+Tom+Plamer&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

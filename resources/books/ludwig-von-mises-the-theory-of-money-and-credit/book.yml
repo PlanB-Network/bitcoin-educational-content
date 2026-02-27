@@ -1,0 +1,19 @@
+id: 7a20ae57-a785-4ba1-aa4b-c80fc3316522
+author: Ludwig von Mises
+level: intermediate
+original_language: en
+license: "Free for educational and academic purposes"
+tags:
+- monetary-theory
+links:
+  website:
+    en:
+      url: https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/1061/Mises_0070_EBk_v6.0.pdf
+      source: The Online Library of Liberty
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    en:
+      url: https://www.amazon.co.uk/s?k=The+Theory+of+Money+and+Credit+Ludwig+von+Mises&tag=planbnetwor0a-21
+      status: auto
+      last_checked: '2026-02-08'

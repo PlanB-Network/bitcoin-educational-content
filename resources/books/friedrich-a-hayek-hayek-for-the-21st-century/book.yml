@@ -1,0 +1,19 @@
+id: 80d53363-f988-4d84-9ac9-387aa6a5fa45
+author: Friedrich A Hayek
+level: intermediate
+original_language: en
+license: "Free for educational and academic purposes"
+tags:
+- general
+links:
+  website:
+    en:
+      url: https://mises.org/library/book/hayek-21st-century-essays-political-economy
+      source: mises.org
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    en:
+      url: https://www.amazon.co.uk/s?k=Hayek+for+the+21st+Century+Friedrich+A+Hayek&tag=planbnetwor0a-21
+      status: auto
+      last_checked: '2026-02-08'

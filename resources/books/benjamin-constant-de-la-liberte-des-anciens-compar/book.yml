@@ -1,0 +1,19 @@
+id: 667b7e85-2594-466b-8408-b0f80b363e0f
+author: Benjamin Constant
+level: advanced
+original_language: fr
+license: "Public domain"
+tags:
+- philosophy
+links:
+  website:
+    fr:
+      url: https://www.institutcoppet.org/wp-content/uploads/2015/01/7.-CONSTANT-Benjamin-De-la-liberte-des-Anciens-comparee-a-celle-des-Modernes.pdf
+      source: Institut Coppet
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=De+la+libert%C3%A9+des+Anciens+compar%C3%A9e+%C3%A0+celle+des+Modernes+Benjamin+Constant&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

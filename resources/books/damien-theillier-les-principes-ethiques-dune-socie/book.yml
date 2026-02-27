@@ -1,0 +1,19 @@
+id: 36f6f5e4-66a5-42d2-8a2a-db5baeeaf6b6
+author: Damien Theillier
+level: intermediate
+original_language: fr
+license: "Autorisation formelle accordée par l'auteur"
+tags:
+- general
+links:
+  website:
+    fr:
+      url: https://www.libinst.ch/publications/IL-Theillier-Ethique.pdf
+      source: Institut libéral suisse
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=Les+principes+%C3%A9thiques+d%27une+soci%C3%A9t%C3%A9+libre+Damien+Theillier&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

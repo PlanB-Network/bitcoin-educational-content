@@ -1,0 +1,20 @@
+id: 08b3471f-b8a8-40a8-95c3-4b5ede2fa053
+author: Auguste Kerckhoffs
+level: advanced
+original_language: fr
+license: "The text is in the public domain"
+tags:
+- cryptography
+- public-domain
+links:
+  website:
+    fr:
+      url: https://www.petitcolas.net/kerckhoffs/crypto_militaire_1.pdf
+      source: Journal des sciences militaires
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=La+cryptographie+militaire+Auguste+Kerckhoffs&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

@@ -1,0 +1,19 @@
+id: 6e8b6f34-e0cf-43f4-9a3d-676dea88229f
+author: Murray N. Rothbard
+level: beginner
+original_language: fr
+license: "Free for educational and academic purposes"
+tags:
+- philosophy
+links:
+  website:
+    fr:
+      url: http://www.catallaxia.free.fr/www.liberaux.org%20-%20Murray%20Rothbard-The%20Libertarian%20Manifesto.pdf
+      source: catallaxia.org
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=For+a+New+Liberty%3A+a+libertarian+manifesto+Murray+N.+Rothbard&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

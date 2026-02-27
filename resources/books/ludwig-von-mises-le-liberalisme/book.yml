@@ -1,0 +1,19 @@
+id: db68ea32-5c44-4e60-b006-33356c0f2eea
+author: Ludwig von Mises
+level: advanced
+original_language: fr
+license: "Free for educational and academic purposes"
+tags:
+- general
+links:
+  website:
+    fr:
+      url: http://www.catallaxia.free.fr/www%20liberaux%20org%20-%20Mises%20-%20liberalisme.pdf
+      source: catallaxia.org
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=Le+lib%C3%A9ralisme+Ludwig+von+Mises&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

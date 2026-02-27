@@ -1,0 +1,19 @@
+id: 03b22895-f255-445f-9e45-3a852ac22cd5
+author: Frédéric Bastiat
+level: intermediate
+original_language: fr
+license: "Public domain"
+tags:
+- general
+links:
+  website:
+    fr:
+      url: https://archive.org/details/luat-phap-frederic-bastiat/Lu%E1%BA%ADt%20ph%C3%A1p%20-%20Frederic%20Bastiat/
+      source: archive.org
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=La+loi+en+vietnamien+Fr%C3%A9d%C3%A9ric+Bastiat&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

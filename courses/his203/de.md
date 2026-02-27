@@ -2752,7 +2752,7 @@ Die Analogie des Kapitäns gefiel den Mitgliedern des Silk-Road-Forums, die sie 
 
 
 
-Ross' Entscheidung folgte dem Vorschlag eines seiner engsten Mitarbeiter, Roger Thomas Clark alias Variety Jones, einem im Vereinigten Königreich lebenden Kanadier, der große Mengen von Cannabis Seed auf der Website verkaufte (und auch ein starker Konsument war). Clark trat im November an Ross heran und wurde schnell sein Sicherheitsberater; Ross [bezeichnete ihn](https://antilop.cc/sr/exhibits/253456476-Silk-Road-exhibits-GX-240B.pdf) in seinem Tagebuch sogar als "Mentor". Die Verwendung eines Pseudonyms dieser Art erleichterte den Übergang zwischen zwei Personen oder verwischte die Spuren der Identität des Administrators. Diese Technik wurde in einem Interview zwischen DPR und Andy Greenberg im August 2013 [verwendet](https://www.forbes.com/sites/andygreenberg/2013/08/14/an-interview-with-a-digital-drug-lord-the-silk-roads-dread-pirate-roberts-qa/), in dem Variety Jones behauptete, Nachfolger von Ross zu sein.
+Ross' Entscheidung folgte dem Vorschlag eines seiner engsten Mitarbeiter, Roger Thomas Clark alias Variety Jones, einem im Vereinigten Königreich lebenden Kanadier, der große Mengen von Cannabis Samen auf der Website verkaufte (und auch ein starker Konsument war). Clark trat im November an Ross heran und wurde schnell sein Sicherheitsberater; Ross [bezeichnete ihn](https://antilop.cc/sr/exhibits/253456476-Silk-Road-exhibits-GX-240B.pdf) in seinem Tagebuch sogar als "Mentor". Die Verwendung eines Pseudonyms dieser Art erleichterte den Übergang zwischen zwei Personen oder verwischte die Spuren der Identität des Administrators. Diese Technik wurde in einem Interview zwischen DPR und Andy Greenberg im August 2013 [verwendet](https://www.forbes.com/sites/andygreenberg/2013/08/14/an-interview-with-a-digital-drug-lord-the-silk-roads-dread-pirate-roberts-qa/), in dem Variety Jones behauptete, Nachfolger von Ross zu sein.
 
 
 
@@ -2918,7 +2918,7 @@ Große Online-Shops florierten daher im Laufe des Jahres. Dies war der Fall bei 
 
 
 
-Dieses Wachstum des Handels machte es notwendig, den Bezahlvorgang zu standardisieren, so dass alle Wallet miteinander kompatibel sein können. Die Verwendung eines Smartphones und das Lesen eines QR-Codes durch dessen Kamera machten die Zahlung problemlos. Allerdings musste man sich auf die Daten einigen, die in den QR-Code aufgenommen werden sollten: Deshalb wurde ein URI-Schema entwickelt, um Zahlungsanforderungen zu formalisieren. Nach diesem Schema hat eine Anfrage beispielsweise die Form `bitcoin:175tWpb8K1S7NmH4Zx6rewF9WQrcZv245W?amount=20.3&label=Luke-Jr` und enthält somit die Adresse des Empfängers (175tWp...), den zu zahlenden Betrag (20,3 Bitcoins) und die Transaktionsbeschreibung (Luke-Jr).
+Dieses Wachstum des Handels machte es notwendig, den Bezahlvorgang zu standardisieren, so dass alle Wallets miteinander kompatibel sein können. Die Verwendung eines Smartphones und das Lesen eines QR-Codes durch dessen Kamera machten die Zahlung problemlos. Allerdings musste man sich auf die Daten einigen, die in den QR-Code aufgenommen werden sollten: Deshalb wurde ein URI-Schema entwickelt, um Zahlungsanforderungen zu formalisieren. Nach diesem Schema hat eine Anfrage beispielsweise die Form `bitcoin:175tWpb8K1S7NmH4Zx6rewF9WQrcZv245W?amount=20.3&label=Luke-Jr` und enthält somit die Adresse des Empfängers (175tWp...), den zu zahlenden Betrag (20,3 Bitcoins) und die Transaktionsbeschreibung (Luke-Jr).
 
 
 

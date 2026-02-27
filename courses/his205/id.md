@@ -743,7 +743,7 @@ Dalam pertukaran ini, ada logam, dan itu adalah logam mulia dan belum tentu, mis
 
 
 
-Upeti dan pajak sebagian besar dibayarkan dalam bentuk barang (jelai atau perak yang ditimbang). Kuil dan istana adalah pusat ekonomi, administrasi, politik dan agama utama, dan juga menjalankan fungsi perbankan pertama melalui penyimpanan barang yang aman, pertama biji-bijian, kemudian produk pertanian lainnya, dan akhirnya logam mulia. Dengan cara ini, operasi kredit dan pinjaman pertama dikembangkan, jauh sebelum kemunculan koin.
+Upeti dan pajak sebagian besar dibayarkan dalam bentuk barang (jelai atau perak yang ditimbang). Kuil dan istana merupakan pusat ekonomi, administrasi, politik, dan keagamaan utama, dan juga menjalankan fungsi perbankan pertama melalui penyimpanan barang yang aman, pertama-tama biji-bijian, kemudian produk pertanian lainnya, dan akhirnya logam mulia. Dengan cara ini, operasi kredit dan pinjaman pertama dikembangkan, jauh sebelum munculnya koin.
 
 
 
@@ -1087,7 +1087,7 @@ Kontras antara organisasi kuno dan abad pertengahan menjelaskan masalah ini. **Z
 
 
 
-Runtuhnya Kekaisaran Romawi menyebabkan fragmentasi radikal: **Era feodal menggantikan organisasi terpusat ini dengan sistem desentralisasi perkebunan swasembada**. Vila-vila Romawi kuno rusticae menjadi matriks seigneuries abad pertengahan, menciptakan mosaik pulau-pulau ekonomi yang hampir swasembada yang dikelola oleh para pendeta atau bangsawan.
+Runtuhnya Kekaisaran Romawi menyebabkan fragmentasi radikal: **Era feodal menggantikan organisasi terpusat ini dengan sistem desentralisasi berupa wilayah-wilayah yang mandiri**. Villa-vila pedesaan Romawi kuno menjadi matriks bagi wilayah-wilayah kekuasaan abad pertengahan, menciptakan mosaik pulau-pulau ekonomi yang hampir mandiri yang dikelola oleh pendeta atau bangsawan.
 
 
 
@@ -1127,7 +1127,7 @@ Untuk mencegah penggunaan uang, Sparta menggunakan batang logam yang berat dan t
 
 
 
-Organisasi Sparta menggambarkan kendala **jumlah Dunbar** yang diterapkan pada skala masyarakat. **Dengan menolak uang sebagai alat tukar yang netral, Sparta mengutuk dirinya sendiri karena membatasi masyarakat sipilnya pada sejumlah kecil warga negara yang mampu mempertahankan hubungan kepercayaan langsung**. Kaum homoioi (warga negara Sparta) hanya mewakili 1% dari total populasi, dikelilingi oleh ribuan hilote (budak).
+Organisasi Sparta menggambarkan keterbatasan **angka Dunbar** yang diterapkan pada skala masyarakat. **Dengan menolak uang sebagai alat tukar yang netral, Sparta mengutuk dirinya sendiri untuk membatasi masyarakat sipilnya pada sejumlah warga negara yang mampu menjaga hubungan kepercayaan langsung.** Kaum homoioi (warga Sparta) hanya mewakili 1% dari total populasi, dikelilingi oleh ribuan helot (budak).
 
 
 
@@ -1420,7 +1420,7 @@ Teknologi pencetakan koin dengan tangan secara individual kemungkinan besar berp
 Pada Abad Pertengahan, ada juga tren penyebaran koin, membuatnya lebih lebar dan tipis. Salah satu alasannya adalah agar lebih mudah untuk menguji suaranya, yang sering digunakan sebagai indikator keasliannya. Dengan menyebarkan perak, frekuensi yang berbeda dihasilkan, sehingga orang dapat memvalidasi kemurnian koin hanya dengan mendengarkannya. Praktik ini melahirkan istilah "uang suara". Dalam konteks uang suara, berat standar ditentukan dengan menggunakan timbangan atau "trebuchet" untuk menimbang. Dengan demikian, evolusi berlanjut dari koin kecil dan bulat menjadi koin yang sedikit lebih tipis dan lebih lebar.
 
 
-### Pemogokan pendulum
+## Pendulum striking
 
 
 Teknologi terakhir yang muncul di akhir Abad Pertengahan, di awal era modern, adalah gagasan tentang pemukul pendulum. Ini adalah semacam sekrup yang dikencangkan untuk memukul koin, sehingga menghasilkan koin dengan bentuk pemukulan yang baru ini. Yang menarik dari perkembangan ini adalah kemampuan untuk mengukir pola pada permukaan koin untuk mengatasi masalah pemotongan. Pemotongan melibatkan pemindahan sebagian koin untuk mendapatkan kembali perak yang berharga, yang kemudian dapat digunakan untuk mencetak koin lain atau disimpan sebagai sumber daya.

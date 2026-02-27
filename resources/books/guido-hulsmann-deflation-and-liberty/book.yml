@@ -1,0 +1,19 @@
+id: 14f3575b-51e3-4225-896b-342949b6b687
+author: Guido Hulsmann
+level: intermediate
+original_language: fr
+license: "Free for educational and academic purposes"
+tags:
+- philosophy
+links:
+  website:
+    fr:
+      url: https://mises.org/library/book/deflation-and-liberty
+      source: mises.org
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=Deflation+and+liberty+Guido+Hulsmann&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

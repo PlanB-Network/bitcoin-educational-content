@@ -1,0 +1,19 @@
+id: 7e03f3ab-1386-448f-88fc-61012fe42483
+author: Pascal Salin
+level: intermediate
+original_language: en
+license: "Autorisation formelle accordée par l'auteur"
+tags:
+- general
+links:
+  website:
+    en:
+      url: http://www.catallaxia.free.fr/Pascal%20Salin%20-%20Liberalisme_version_ebook.pdf
+      source: catallaxia.org
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    en:
+      url: https://www.amazon.co.uk/s?k=Lib%C3%A9ralisme+Pascal+Salin&tag=planbnetwor0a-21
+      status: auto
+      last_checked: '2026-02-08'

@@ -1,0 +1,19 @@
+id: c87c37f7-de6b-4202-bed2-aef34cc0943e
+author: Loïc Pandul
+level: intermediate
+original_language: fr
+license: "CC BY SA 4.0"
+tags:
+- general
+links:
+  website:
+    fr:
+      url: https://github.com/LoicPandul/Dictionnaire-de-Bitcoin/blob/main/Dictionnaire%20de%20Bitcoin.pdf
+      source: github.com
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=Dictionnaire+de+Bitcoin+Lo%C3%AFc+Pandul&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

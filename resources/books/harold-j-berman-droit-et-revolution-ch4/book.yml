@@ -1,0 +1,19 @@
+id: aa1d0d28-ef6e-40b3-9ee2-63c455fc1609
+author: Harold J. Berman
+level: intermediate
+original_language: fr
+license: "Autorisation formelle accordée par l'auteur"
+tags:
+- general
+links:
+  website:
+    fr:
+      url: https://web.archive.org/web/20071110112602/http://www.euro92.com/acrob/Berman1.pdf
+      source: euro92
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=Droit+et+r%C3%A9volution%2C+ch.4+Harold+J.+Berman&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

@@ -1,0 +1,19 @@
+id: d0e40d14-20d8-467a-b40d-613aa67f16f0
+author: Gustave de Mollinari
+level: intermediate
+original_language: fr
+license: "Public domain"
+tags:
+- general
+links:
+  website:
+    fr:
+      url: https://editions.institutcoppet.org/produit/gustave-de-molinari-de-la-production-de-la-securite/
+      source: Institut Coppet
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=De+la+production+de+la+s%C3%A9curit%C3%A9+Gustave+de+Mollinari&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

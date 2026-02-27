@@ -1,0 +1,20 @@
+id: 99000af7-c526-40b5-b0be-4b7e73ab922f
+author: Timothy C. May
+level: beginner
+original_language: en
+license: "Free for educational and academic purposes"
+tags:
+- cryptography
+- philosophy
+links:
+  website:
+    en:
+      url: https://activism.net/cypherpunk/crypto-anarchy.html
+      source: activism.net
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    en:
+      url: https://www.amazon.co.uk/s?k=The+Crypto+Anarchist+Manifesto+Timothy+C.+May&tag=planbnetwor0a-21
+      status: auto
+      last_checked: '2026-02-08'

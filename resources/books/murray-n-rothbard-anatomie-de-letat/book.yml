@@ -1,0 +1,19 @@
+id: 19c58291-6668-4a2b-a6f6-0c5b2692ac3d
+author: Murray N. Rothbard
+level: intermediate
+original_language: fr
+license: "Free for educational and academic purposes"
+tags:
+- general
+links:
+  website:
+    fr:
+      url: http://www.catallaxia.free.fr/www.liberaux.org%20-%20ebook%20-%20Murray%20Rothbard%20-%20L'Anatomie%20de%20l'Etat.pdf
+      source: catallaxia.org
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=Anatomie+de+l%27Etat+Murray+N.+Rothbard&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

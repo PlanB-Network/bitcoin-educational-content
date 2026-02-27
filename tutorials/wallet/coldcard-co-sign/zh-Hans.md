@@ -6,7 +6,7 @@ description: 了解联合签名功能并在 COLDCARD 上使用该功能
 ![cover](assets/cover.webp)
 
 
-*注意：本教程针对已经对多重签名钱包、Coinkite 设备以及 Sparrow wallet 或 Nunchuk.* 等软件有一定经验的用户。
+*注意：本教程针对已经对多重签名钱包、Coinkite 设备以及 Sparrow Wallet 或 Nunchuk.* 等软件有一定经验的用户。
 
 
 
@@ -15,7 +15,7 @@ description: 了解联合签名功能并在 COLDCARD 上使用该功能
 
 
 
-**为什么冷卡要联合签名？
+**为什么要使用 Coldcard Co-Sign？**
 
 
 
@@ -23,50 +23,35 @@ description: 了解联合签名功能并在 COLDCARD 上使用该功能
 
 
 
-例如，支出条件可以是
+例如，花费条件：
+
+- **金额限制**：对单次交易中可花费的比特币金额设置上限。
+- **交易速度限制：** 限制单位时间内（每小时、每天、每周等）可进行的交易数量，并要求每笔交易之间至少间隔一定数量的区块。
+- **预授权地址：** 仅允许将比特币发送到预授权地址。
+- **双因素认证：** 需要第三方 2FA 移动应用程序（TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)）在可上网的 NFC 智能手机/平板电脑上进行确认。
+
+
+
+**工作原理**
+
+通过在您的 ColdCard Mk4 或 Q 设备中添加第二个种子，称为 “Spending Policy Key”（在本教程中我们简称其为 “C Key”）。
+
+
+除了这个额外密钥外，您还需要输入至少一个额外的密钥 (XPUB)，我们称之为 "Backup Key"，以便创建一个 2-of-N 密钥的多签名钱包。
+
+简而言之，我们将创建一个多重签名钱包，您的 ColdCard 设备将包含两个用于支出资金的私钥：设备的种子主密钥和“消费策略密钥”。
+
+每次请求 “C Key” 进行签名时，都会应用指定的消费条件，ColdCard 仅在交易符合这些条件时才会进行签名。
+
+如果您希望免除这些消费条件，您可以：
+
+- 使用其中一个备份密钥和种子密钥进行签名，或者根据您的多重签名钱包的大小使用两个备份密钥。
+- 通过在 “Co-Sign” 选单中输入 “Spending Policy Key” 或 “C Key” 进行设置。后者无法直接在设备上查看，否则任何人都可以取消已配置的消费条件。
 
 
 
 
-
-- 幅度限制**：对单次交易中可花费的比特币金额设置上限。
-- 速度限制：** 决定在单位时间内（每小时、每天、每周等）可以进行多少笔交易，要求交易之间至少有多少个区块。
-- 预先批准的地址：** 只允许向预先批准的地址发送比特币。
-- 双因素身份验证：** 需要第三方 2FA 移动应用程序（TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)）在可上网的 NFC 智能手机/平板电脑上进行确认。
-
-
-
-**工作原理
-
-
-
-在 ColdCard Mk4 或 Q 设备上添加第二个 seed，称为 "消费策略密钥"，在本教程中我们称之为 "C 密钥"。
-
-
-除了这个额外的 seed 密钥外，您还需要至少一个额外的 Supply 密钥 (XPUB)，我们称之为 "备份密钥"，以便创建一个 Wallet Multisig 2 对 N 密钥。
-
-
-
-总之，我们将创建一个 Wallet Multisig，您的 ColdCard 设备将包含 2 个花费资金所需的私人密钥，即设备的 seed 主密钥和 "花费策略密钥"。
-
-
-
-每次 "C Key "被要求签名时，指定的消费条件都将适用，ColdCard 只有在交易符合这些条件时才会签名。
-
-
-
-如果您希望免除这些消费条件，也可以这样做：
-
-
-
-
-- 使用其中一个备份键和 seed 手柄签名，或根据 Multisig 的大小使用 2 个备份键签名。
-- 在 "联合签名 "菜单中输入 "消费政策密钥 "或 "C 密钥"。 **后者不能直接在设备上查询，否则任何人都可以取消已配置的消费条件。
-
-
-
-
-## 配置冷卡联合签名
+## 配置 Coldcard Co-Sign
 
 
 
@@ -74,22 +59,20 @@ description: 了解联合签名功能并在 COLDCARD 上使用该功能
 
 
 
-### 1- 激活功能
+### 1 - 激活功能
 
 
 
 首先，确保您的设备至少有最新的固件版本：
 
 
-
-
 - Mk4: v5.4.2
-- 问：V1.3.2Q
+- Q：V1.3.2Q
 
 
 
 
-在 Mk4 或 ColdCardQ 上，转到 *Advanced Tools（高级工具）> ColdCard Co-Signing（冷卡联合签名）*。
+在 Mk4 或 ColdCardQ 上，前往 *Advanced Tools > ColdCard Co-Signing*。
 
 
 
@@ -97,28 +80,25 @@ description: 了解联合签名功能并在 COLDCARD 上使用该功能
 
 
 
-*在下面的教程中，为方便起见，将使用 ColdCardQ 进行截图，但 Mk4 和 Q* 的操作步骤和菜单完全相同。
-
-
+*在下面的教程中，为方便起见，将使用 ColdCardQ 进行截图，但 Mk4 和 Q* 的操作步骤和选单完全相同。
 
 显示功能摘要。
 
-
-在我们即将创建的 2 对 3 多重签名 Wallet 中，我们将再次使用指定密钥的术语：
-
-
-
-键 A = 冷卡主设备 seed
-
-
-键 B = 备份键
-
-
-键 C = 开支政策键
+在我们即将创建的 2-of-3 多重签名钱包中，我们将再次使用指定密钥的术语：
 
 
 
-点击 **"ENTER "**。
+Key A = Coldcard 主种子
+
+
+Key B = 备份密钥
+
+
+Key C = 消费条件密钥
+
+
+
+点击 **"ENTER"**。
 
 
 
@@ -126,7 +106,7 @@ description: 了解联合签名功能并在 COLDCARD 上使用该功能
 
 
 
-下一步是决定哪个私人密钥作为 "支出政策密钥 "或 "密钥 C"。
+下一步是决定哪个私钥作为 "Spending Policy Key" 或 "Key C"。
 
 
 
@@ -136,34 +116,34 @@ description: 了解联合签名功能并在 COLDCARD 上使用该功能
 
 
 
-- 或按**"ENTER "**键，generate 会出现一个新的 12 个单词的 seed 句子。
+- 或按 **"ENTER"** 键，生成一个新的 12 个单词的主种子。
 
 
 
 
 
-- 点击**"(1) "**导入现有的 12 个字的 seed，或选择**"(2) "**导入现有的 24 个字的 seed。
+- 点击 **"(1)"** 导入现有的 12 个单词的种子，或选择 **"(2)"** 导入现有的 24 个单词的种子。
 
 
 
 
 
-- 或按 **"(6) "**，从设备的保险库中导入 seed。
+- 或按 **"(6)"**，从设备的保险库中导入种子。
 
 
 
-在本教程中，我们决定按**"(1) "**键导入一个现有的 12 个字的 seed。这可以是您已经拥有的任何 seed BIP39，而且您显然有备份。
+在本教程中，我们决定按 **"(1)"** 键导入一个现有的 12 个单词种子。这可以是您已经拥有的任何 BIP39 种子，而且您显然有备份。
 
 
 
-使用键盘输入 seed 的 12 个单词。在本例中，我们选择 seed 有效词组 beef x 12。然后按 **"ENTER "**。
+使用键盘输入助记词的 12 个单词。在本例中，我们选择有效的助记词短语 “beef x 12”。然后按 **"ENTER "**。
 
 
-*注意：如果您没有备份本 seed，您将无法修改设备上的 "联合签名 "设置，以更改您的消费条件*。
+*注意：如果您没有备份该助记词，您将无法修改设备上的 "Co-Sign"设置，以更改您的消费条件*。
 
 
 
-现在设备上的 "联合签名 "功能已激活。接下来，我们需要选择消费条件，然后完成多重签名 Wallet 的创建。
+现在设备上的 "Co-Sign" 功能已激活。接下来，我们需要选择消费条件，然后完成多重签名钱包的创建。
 
 
 
@@ -171,59 +151,49 @@ description: 了解联合签名功能并在 COLDCARD 上使用该功能
 
 
 
-### 2- 选择支出条件或 "*支出政策*"
+### 2- 选择支出条件或 "*spending policies（支出政策）*"
 
 
 
-在这里，我们指定了**"C Key "**或**"Spending Policy Key**"签署交易时必须满足的支出条件。
+在这里，我们指定了 **"C Key"** 或 **"Spending Policy Key**"签名交易时必须满足的支出条件。
 
+在 **"Co-Signing"** 选单中，点击 **"Spending Policy"**。
 
+然后，您可以选择最大值，即单笔交易可花费的最大聪（satoshi）数量。
 
-在**"共同签署 "**菜单中，点击**"支出政策**"。
-
-
-
-然后，您可以选择最大值，即单笔交易可花费的最大卫星数。
-
-
-
-在本例中，我们将选择最大幅值为 **21212** 卫星。点击**"ENTER "**确认。
-
-
+在本例中，我们将选择最大幅值为 **21212** 聪。点击 **ENTER** 以确认。
 
 
 ![Co-Sign](assets/fr/04.webp)
 
 
 
-然后，我们选择设置最大速度，即设备在单位时间内能够签署的交易数量。在本教程中，我们将选择无限速度，即不限制交易数量。
-
-
+然后，我们选择设置最大速度，即设备在单位时间内能够签名的交易数量。在本教程中，我们将选择无限速度，即不限制交易数量。
 
 
 ![Co-Sign](assets/fr/05.webp)
 
 
 
-### 3- 创建 Wallet Multisig 2-on-N
+### 3- 创建 2-of-N 多签名钱包
 
 
 
-除了设备的**主 seed** （密钥 A）和**"支出策略密钥 "** （密钥 C）外，我们还需要为 Wallet Multisig 选择第三个密钥，即**"备份密钥 "** （密钥 B）。
+除了设备的**主密钥**（Key A）和 **"Spending Policy Key"** （Key C）外，我们还需要为 多签名钱包选择第三个密钥，即 **"Backup Key"**（Key B）。
 
 
 
-我们的 "B Key "必须通过 SD 卡或 ColdCardQ 的 QR 码导入。
+我们的 "Key B" 必须通过 SD 卡或 ColdCard Q 的二维码导入。
 
 
-为此，我们需要第二个 ColdCard Mk4 或 Q 设备，在该设备上使用我们的 "键 B"。
+为此，我们需要第二个 ColdCard Mk4 或 Q 设备，在该设备上使用我们的 "Key B"。
 
 
 
-在装有 **"备份密钥 "**（例如 ColdCard Mk4）的第二个设备上，从主菜单转到 **"设置 "**，然后转到 **"Multisig Wallet"** ，最后转到 **"导出 Xpub "**。
+在装有 **"Backup Key"**（例如 ColdCard Mk4）的第二个设备上，从主选单前往 **"Settings"**，然后前往 **"Multisig Wallet"** ，最后前往 **"Export Xpub"**。
 
 
-(如果您的第二台设备是 ColdCardQ，您当然可以选择通过 QR 码导出 Xpub）。
+(如果您的第二台设备是 ColdCard Q，您当然可以选择通过二维码导出 Xpub）。
 
 
 
@@ -235,7 +205,7 @@ description: 了解联合签名功能并在 COLDCARD 上使用该功能
 
 
 
-在下一个屏幕中，插入 SD 卡并点击右下角的 **"验证 "** 按钮。然后点击 **"(1) "**，将文件保存到 SD 卡中。
+在下一个屏幕中，插入 SD 卡并点击右下角的 **"validate"** 按钮。然后点击 **"(1)"**，将文件保存到 SD 卡中。
 
 
 
@@ -248,10 +218,10 @@ description: 了解联合签名功能并在 COLDCARD 上使用该功能
 
 
 
-然后将 SD 卡插入 "初始 "ColdCardQ，导入我们的 "备份密钥"（密钥 B）。
+然后将 SD 卡插入 "初始" ColdCard Q，导入我们的 "Backup Key"（Key B）。
 
 
-在 "ColdCard Co-Signing（冷卡联合签名）"菜单中选择 "Build 2-of-N"，然后在下一个屏幕中点击**"ENTER "**，再点击**"ENTER "**，从 SD 卡中导入 "备份密钥"。
+在 "ColdCard Co-Signing" 选单中选择 "Build 2-of-N"，然后在下一个屏幕中点击 **"ENTER"**，再点击 **"ENTER"**，从 SD 卡中导入 "Backup Key"。
 
 
 
@@ -259,7 +229,7 @@ description: 了解联合签名功能并在 COLDCARD 上使用该功能
 
 
 
-在下一个屏幕上，将 "账号 "留空（除非你很清楚自己在做什么），然后再次点击 **"回车 "**。
+在下一个屏幕上，将 "Account Number" 留空（（除非您非常清楚自己在做什么），然后再次点击 “ENTER”。
 
 
 
@@ -267,21 +237,21 @@ description: 了解联合签名功能并在 COLDCARD 上使用该功能
 
 
 
-我们终于可以使用新的 Wallet Multisig 2-sur-3，其组成如下：
+我们终于可以使用新的 2-of-3 多签名钱包，其组成如下：
 
 
 
-键 A= 冷卡 Q 主控 seed
+Key A = Coldcard Q 主种子
 
 
-密钥 B=备份密钥（刚从第二个冷卡设备导入）
+Key B = 备份密钥（刚从第二个 Coldcard 设备导入）
 
 
-密钥 C=支出政策密钥（如果用于签名，则施加预定义的支出条件）
+Key C = 消费条件密钥（如果用于签名，则施加预定义的支出条件）
 
 
 
-## 与 Sparrow wallet 联合签名
+## 使用 Sparrow Wallet 进行 co-sign
 
 
 
@@ -293,18 +263,18 @@ https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4aaa-8ab6-89ebc6276f1f
 
-### 1- 出口 Wallet Multisig 2-sur-3 至 Sparrow wallet
+### 1- 导出 2-of-3 多签名钱包到 Sparrow Wallet 中
 
 
 
-现在，我们需要将 Wallet Multisig 导出到 Sparrow，以便在那里放置第一颗卫星。
+现在，我们需要将多签名钱包导出到 Sparrow，以便在那里发送第一笔比特币。
 
 
 
-在 ColdCardQ 的主菜单中选择 **"设置 "**，然后选择 **"Multisig钱包 "**。
+在 ColdCardQ 的主选单中选择 **"Settings"**，然后选择 **"Multisig Wallets"**。
 
 
-现在将显示 ColdCard 已知的 Multisig 钱包集，这里涉及的密钥数量为 "2/3"（2-sur3）。选择我们刚刚创建的 Multisig **"ColdCard联合签名 "**，然后点击**"ColdCard导出 "**。
+现在将显示 ColdCard 已知的多签名钱包集，这里涉及的密钥数量为 "2/3"（2-of-3）。选择我们刚刚创建的多签名 **"ColdCard Co-Sign"**，然后点击 **"ColdCard Export"**。
 
 
 
@@ -313,7 +283,7 @@ https://planb.academy/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4a
 
 
 
-最后，选择将 Wallet 导出到 Sparrow 的方法。在本例中，我们选择 SD 卡，将 SD 卡插入设备的插槽 A 后，点击 **"(1) "**。
+最后，选择将钱包导出到 Sparrow Wallet 的方法。在本例中，我们选择 SD 卡，将 SD 卡插入设备的插槽 A 后，点击 **"(1)"**。
 
 
 
@@ -321,7 +291,7 @@ https://planb.academy/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4a
 
 
 
-然后在 Sparrow wallet 中选择 "导入 Wallet"。
+然后在 Sparrow wallet 中选择 "Import Wallet"。
 
 
 
@@ -329,7 +299,7 @@ https://planb.academy/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4a
 
 
 
-然后点击 **"导入文件 "**。然后选择 SD 卡上的文件 ** "export-Coldcard_Co-sign.txt" **。
+然后点击 **"Import File"**。然后选择 SD 卡上的文件 **"export-Coldcard_Co-sign.txt"**。
 
 
 
@@ -337,7 +307,7 @@ https://planb.academy/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4a
 
 
 
-为您的 Wallet 取一个在 Sparrow 中显示的名称，并选择一个密码来加密您的 Wallet（或不加密）。
+为您的钱包起一个在 Sparrow 上的显示名，并选择一个密码来加密您的钱包（可选）。
 
 
 
@@ -349,7 +319,7 @@ https://planb.academy/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4a
 
 
 
-我们现在已经准备好接收第一颗卫星，并测试我们应用于 Wallet 的支出条件。
+我们现在已经准备好接收第一笔比特币，并测试我们应用于钱包的支出条件。
 
 
 
@@ -357,18 +327,18 @@ https://planb.academy/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4a
 
 
 
-### 2- 测试预定义的支出政策
+### 2- 测试预定义的支出条件
 
 
 
-需要提醒的是，我们已经为 Wallet Multisig 确定了 21212 沙托希的最大值。这意味着，每次消费政策密钥（密钥 C）签署交易时，只有当消费金额小于或等于 21212 萨托希时，后者才有效。
+需要提醒的是，我们已经为多签名钱包确定了 21212 聪的最大值。这意味着，每次消费政策密钥（密钥 C）签署交易时，只有当消费金额小于或等于 21212 聪时，后者才有效。
 
 
 
 让我们来测试一下。
 
 
-首先，让我们点击 Sparrow 中的 "接收 "选项卡，在 Wallet 中放入几个 Satss，我们将在本教程中一直使用它。
+首先，让我们点击 Sparrow 中的 "Receive" 选项卡，在 Wallet 中发送聪，我们将在本教程中一直使用它。
 
 
 
@@ -380,7 +350,7 @@ https://planb.academy/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4a
 
 
 
-然后，让我们通过模拟 50,000 Sats 的交易，尝试花费超过 21212 允许的卫星数。
+然后，让我们通过模拟 50,000 聪的交易，尝试花费超过 21212 聪。
 
 
 
@@ -399,8 +369,7 @@ https://planb.academy/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4a
 ![Co-Sign](assets/fr/22.webp)
 
 
-
-使用 ColdCardQ 扫描代表*未签名*交易的二维码以导入交易后，屏幕上显示的内容是这样的。一条警告信息告诉我们，消费条件尚未满足。如果我们还是签署了交易，那么 2 个密钥（设备上的 seed 主密钥，而不是 "密钥 C"）中只有一个会签署。
+使用 ColdCardQ 扫描代表未签名交易的二维码导入交易后，屏幕上会显示以下内容。一条警告信息提示我们消费条件未满足。如果我们仍然对交易进行签名，则只有两个密钥中的一个（设备上的种子主密钥，但不是 “Key C”）会进行签名。
 
 
 
@@ -418,7 +387,7 @@ https://planb.academy/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4a
 
 
 
-现在，让我们重复这个实验，但交易量为 21 000 个卫星，即小于我们为这个 Wallet 设定的最大量级（21212 Sats）。
+现在，让我们重复这个实验，但交易量为 21 000 聪，即小于我们为这个钱包设定的最大聪（21212 Sats）。
 
 
 
@@ -439,7 +408,7 @@ https://planb.academy/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4a
 
 
 
-让我们试着用 ColdCardQ 签署这笔交易。
+让我们试着用 ColdCardQ 签名这笔交易。
 
 
 
@@ -460,7 +429,7 @@ https://planb.academy/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4a
 
 
 
-## 与双节棍共同签名
+## 使用 Nunchuk 进行 Co-Sign
 
 
 
@@ -470,19 +439,18 @@ https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb
 
 
 
-在本段中，我们将使用双节棍与 Wallet Multisig 联署，并借此机会应用新的消费条件，看看效果如何。
+在本段中，我们将使用 Nunchuk 与多签名钱包 Co-Sign，并借此机会应用新的消费条件，看看效果如何。
 
 
 
-转到 *Avanced Tools（高级工具） > ColdCard Co-Signing（冷卡联合签名）*。
+前往 *Advanced Tools > ColdCard Co-Signing*。
 
 
-我们需要输入 "消费政策密钥"，以便进入菜单更改消费条件。在本例中，我们输入 12 x "牛肉"。
+我们需要输入 "Spending Policy Key"，以便进入选单更改消费条件。在本例中，我们输入 12 x "beef"。
 
 
 
-出于与本教程相关的实际原因，我们决定保留 21212 Sats 的量级和最大 "限制速度"。另一方面，我们将使用**"白名单地址 "**菜单来限制可使用资金的地址。
-
+出于本教程的实际考虑，我们决定将聪数量级设置为 21212 聪，并设定最大“速度限制”。另一方面，我们将使用 “Whitelist Addresses” 选单来指定资金可以用于哪些地址
 
 
 
@@ -491,7 +459,7 @@ https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb
 
 
 
-扫描您希望添加到白名单的地址（我们选择 2 个）的相关二维码，然后点击 **"ENTER "**。连续按**"ENTER "**键验证地址后，我们可以看到已对Magnitude和受益人地址进行了限制。
+扫描您希望添加到白名单的地址（我们选择 2 个）的相关二维码，然后点击 **"ENTER"**。连续按 **"ENTER"** 键验证地址后，我们可以看到额度和收款地址的限制已生效。
 
 
 
@@ -499,10 +467,9 @@ https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb
 
 
 
-最后，为了全面了解 "Co-Sign "提供的可能性，让我们激活 "Web 2FA "选项。
+最后，为了全面了解 “Co-Sign” 提供的各种可能性，让我们激活 “Web 2FA” 选项。
 
-
-此功能可让您使用符合 TOTP RFC-6238 标准的应用程序，如 Google Authenticator / Ente Auth / Proton Authenticator / Authy 2FA / 或 Aegis Authenticator，以增加额外的 Layer 安全性。
+此功能可让您使用符合 TOTP RFC-6238 标准的应用程序，如 Google Authenticator / Ente Auth / Proton Authenticator / Authy 2FA / Aegis Authenticator，以增加额外的安全层面。
 
 
 
@@ -512,7 +479,7 @@ https://planb.academy/tutorials/computer-security/authentication/proton-authenti
 
 https://planb.academy/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
 
-具体来说，在签署交易之前，您需要将您的 NFC 上网设备靠近您的 Coldcard。这将自动带您进入一个coldcard.com网页，要求您输入您申请的6位数代码。如果您输入了正确的代码，网页上会显示一个 QR 代码，您可以扫描以获取 ColdCardQ，或者在您的 Mk4 上输入一个 8 位数代码，授权您的设备签名。
+具体来说，在签名交易之前，您需要将您的 NFC 上网设备靠近您的 Coldcard。这将自动带您进入一个coldcard.com 网页，要求您输入您申请的 6 位数代码。如果您输入了正确的代码，网页上会显示一个二维码，您可以扫描以获取 ColdCardQ，或者在您的 Mk4 上输入一个 8 位数代码，授权您的设备签名。
 
 
 
@@ -522,7 +489,7 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-扫描双重认证应用程序中显示的 QR 代码并添加 ColdCard Co-Sign (CCC) 账户后，系统会要求您输入 2FA 代码以验证一切正常。
+扫描双重认证应用程序中显示的二维码并添加 ColdCard Co-Sign (CCC) 账户后，系统会要求您输入 2FA 代码以验证一切正常。
 
 
 
@@ -534,7 +501,7 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-在打开的网页上，输入您最喜欢的应用程序的 2FA 代码。然后扫描 ColdCardQ 显示的 QR 码（或输入 Mk4 显示的 8 位数代码）。
+在打开的网页上，输入您最喜欢的应用程序的 2FA 代码。然后扫描 ColdCardQ 显示的 二维码（或输入 Mk4 显示的 8 位数代码）。
 
 
 
@@ -543,7 +510,7 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-目前，我们已对规模（21212 Sats）、目标地址和双重验证施加了限制。
+目前，我们已将额度规模设置为 21212 聪、并已设置好目标地址和双因素验证验证。
 
 
 
@@ -551,14 +518,13 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-### 2- 输出 Wallet Multisig 2 对 3 至双节棍
+### 2- 将 2-of-3 多签名钱包导出到 Nunchuk
 
 
+这次让我们把 2-of-3 多签名钱包输出到 Nunchuk 中，就像前面输出 Sparrow 步骤一样。
 
-这次让我们把 Wallet Multisig 2 对 3 输出到 Nunchuk 中，就像之前输出 Sparrow 一样。
 
-
-转到 *设置 > Multisig 钱包 > 2/3: ColdCard Co-sign（冷卡联合签名） > ColdCard Export（冷卡导出）*。
+前往 *Settings > Multisig Wallets > 2/3: ColdCard Co-sign > ColdCard Export.*。
 
 
 
@@ -566,7 +532,7 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-这一次，点击同名的 ColdcardQ 按钮 **"NFC "**，选择 NFC 导出选项。
+这一次，点击同名的 ColdcardQ 按钮 **"NFC"**，选择 NFC 导出选项。
 
 
 
@@ -574,7 +540,7 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-在 Nunchuk 中，如果您是第一次打开应用程序，请点击 **"恢复现有的 Wallet"**。
+在 Nunchuk 中，如果您是第一次打开应用程序，请点击 **"Recover existing wallet"**。
 
 
 
@@ -582,7 +548,7 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-如果应用程序中已有 Wallet，请点击右上角的**"+"**，然后点击**"恢复现有 Wallet"**。
+如果应用程序中已有钱包，请点击右上角的 **"+"** 按钮，然后点击 **"Recover existing wallet"**。
 
 
 
@@ -591,7 +557,7 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-然后选择 **"从 COLDCARD 恢复 Wallet"**，再选择 **"Multisig Wallet"**。
+然后选择 **"Recover Wallet from COLDCARD"**，再选择 **"Multisig wallet"**。
 
 
 
@@ -599,7 +565,7 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-最后，将智能手机背面轻触 ColdCardQ 的屏幕，即可通过 NFC 导入 Wallet。
+最后，将智能手机背面轻触 ColdCardQ 的屏幕，即可通过 NFC 导入钱包。
 
 
 
@@ -607,7 +573,7 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-我们的账户和之前通过 Sparrow wallet 存入的卫星币又回来了。
+我们的账户和之前通过 Sparrow Wallet 存入的聪（比特币）又回来了。
 
 
 
@@ -615,11 +581,11 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-### 3- 测试预定义的支出政策
+### 3- 测试预定义的支出条件
 
 
 
-现在，让我们尝试进行一笔违反我们设定的 2 个消费条件的交易。 **我们尝试向一个尚未批准的 Address 发送超过 21212 Sats 的金额。
+现在我们来尝试进行一笔违反我们设定的两个消费条件的交易。我们将尝试向一个未经批准的地址花费超过 21212 聪的金额。我们再尝试向一个随机地址发送 22222 聪。
 
 
 
@@ -635,7 +601,7 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-然后选择 **"通过 BBQR 导出 "**，并扫描 ColdCardQ 显示的二维码。
+然后选择 **"Export via BBQR"**，并扫描 ColdCardQ 显示的二维码。
 
 
 
@@ -647,7 +613,7 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-**请注意，为了防止潜在的攻击者试图规避限制，该装置并没有告诉我们涉及哪些消费条件。
+**请注意，该设备不会告诉我们涉及哪些消费条件，以防止潜在的攻击者试图绕过限制。**
 
 
 
@@ -656,7 +622,7 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-如果您仍然按**"ENTER "**键进行验证，则会出现代表已签名交易的二维码。如果在 Nunchuk 上导入，可以看到只应用了一个签名。
+如果您按 **"ENTER"** 键进行验证，则会出现代表已签名交易的二维码。如果在 Nunchuk 上导入，可以看到只应用了一个签名。
 
 
 
@@ -671,24 +637,19 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-让我们执行完全相同的操作，但这次交易要遵守量级限制（21212 Sats），并将 Satoshis 发送到我们预先配置的 2 个地址之一。
+让我们执行完全相同的操作，但这次交易要遵守量级限制（21212 聪），并将聪发送到我们预先配置的 2 个地址之一。
 
 
 
-我们将 Nunchuk 12121 Sats 发送到我们的 2 个地址之一。然后，我们按照之前的方法将交易导出到 ColdCard。
+我们在 Nunchuk 上将 12121 聪发送到我们的 2 个地址之一。然后，我们按照之前的方法将交易导出到 ColdCard。
 
 
 
 ![Co-Sign](assets/fr/49.webp)
 
-
-
-
 将未签名交易导入 ColdCardQ 后，让我们看看这次会显示什么。
 
-
-
-屏幕上总是会出现警告，但这次滚动到屏幕底部，我们会看到需要通过 2FA 验证交易。设备要求我们将 ColdcardQ 靠近联网的 NFC 终端（智能手机或平板电脑），我们照做了。
+警告信息始终存在，但这次，滚动到屏幕底部，我们发现需要通过双因素身份验证 (2FA) 来验证交易。设备要求我们将 ColdcardQ 靠近已连接互联网的 NFC 终端（智能手机或平板电脑），我们照做了。
 
 
 
@@ -706,14 +667,14 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-然后扫描网页上出现的 QR 码，授权 ColdCard 签署交易。
+然后扫描网页上出现的二维码，授权 ColdCard 签名交易。
 
 
 现在，交易已由两个密钥签名，因此有效。
 
 
 
-如果 ColdCardQ 启用了 "Push Tx "功能，您只需在智能手机背面轻轻一点，就可以直接向网络广播交易。
+如果 ColdCardQ 启用了 "Push Tx" 功能，您只需在智能手机背面轻轻一点，就可以直接向网络广播交易。
 
 
 
@@ -722,7 +683,7 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-如果您没有激活 "Push tx"，请按下 ColdCardQ 上的 "QR "按钮，将已签署的交易显示为 QR 码，然后将其导入 Nunchuk，方法与上例相同。
+如果您没有激活 "Push tx"，请按下 ColdCardQ 上的 "QR" 按钮，将已签署的交易显示为二维码，然后将其导入 Nunchuk，方法与上例相同。
 
 
 
@@ -730,13 +691,10 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-这次我们注意到有 2 个签名已经应用，因此交易已准备好在 Bitcoin 网络上广播。
-
+这次我们注意到已经应用了 2 个签名，因此该交易已准备好在比特币网络上广播。
 
 
 ![Co-Sign](assets/fr/54.webp)
 
 
-
-
-本教程到此结束，您将了解到 Coinkite 的 ColdCardQ 和 Mk4 设备中集成的 Co-Sign 功能所提供的各种可能性，以及通过 Sparrow 和 Nunchuk 等钱包使用该功能的情况。
+本教程到此结束，它将为您概述 Coinkite 的 ColdCardQ 和 Mk4 设备中集成的 Co-Sign 功能所提供的各种可能性，以及如何通过 Sparrow 和 Nunchuk 等钱包使用该功能。

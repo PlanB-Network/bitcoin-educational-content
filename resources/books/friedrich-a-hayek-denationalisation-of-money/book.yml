@@ -1,0 +1,19 @@
+id: 68e63fe2-1c5b-409a-8ed0-5353480c4f4f
+author: Friedrich A Hayek
+level: intermediate
+original_language: fr
+license: "Free for educational and academic purposes"
+tags:
+- monetary-theory
+links:
+  website:
+    fr:
+      url: https://mises.org/library/book/denationalisation-money-argument-refined
+      source: mises.org
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=Denationalisation+of+Money+Friedrich+A+Hayek&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

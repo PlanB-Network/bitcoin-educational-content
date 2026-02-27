@@ -1,0 +1,19 @@
+id: 9ce1a8d4-b761-4b9e-924e-05e2bd62c848
+author: Guido Hulsmann
+level: intermediate
+original_language: en
+license: "Free for educational and academic purposes"
+tags:
+- monetary-theory
+links:
+  website:
+    en:
+      url: https://mises.org/library/book/ethics-money-production?d7_alias_migrate=1
+      source: mises.org
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    en:
+      url: https://www.amazon.co.uk/s?k=The+Ethic+of+Money+Production+Guido+Hulsmann&tag=planbnetwor0a-21
+      status: auto
+      last_checked: '2026-02-08'

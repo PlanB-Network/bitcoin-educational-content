@@ -1,0 +1,19 @@
+id: c82b6d6e-96fc-46a0-9fd0-50cde9d87c80
+author: Louis Baudin
+level: advanced
+original_language: fr
+license: "Free for educational and academic purposes"
+tags:
+- monetary-theory
+links:
+  website:
+    fr:
+      url: https://www.institutcoppet.org/louis-baudin-la-monnaie-ce-que-tout-le-monde-devrait-en-savoir-1947/
+      source: Institut Coppet
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=La+monnaie%2C+ce+que+tout+le+monde+devrait+en+savoir+Louis+Baudin&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

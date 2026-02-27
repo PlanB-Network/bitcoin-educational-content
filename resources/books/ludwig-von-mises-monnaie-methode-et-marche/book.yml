@@ -1,0 +1,19 @@
+id: 67a92837-d0c0-4f58-bd07-9d5909fc7428
+author: Ludwig von Mises
+level: intermediate
+original_language: fr
+license: "Free for educational and academic purposes"
+tags:
+- monetary-theory
+links:
+  website:
+    fr:
+      url: https://www.institutcoppet.org/ludwig-von-mises-monnaie-methode-et-marche/
+      source: Institut Coppet
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=Monnaie%2C+m%C3%A9thode+et+march%C3%A9+Ludwig+von+Mises&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

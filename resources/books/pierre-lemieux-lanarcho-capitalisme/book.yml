@@ -1,0 +1,19 @@
+id: 6d6b79c2-60b8-4b23-ba07-9d4b9b584f38
+author: Pierre Lemieux
+level: intermediate
+original_language: en
+license: "Autorisation formelle accordée par l'auteur"
+tags:
+- general
+links:
+  website:
+    en:
+      url: https://classiques.uqam.ca/contemporains/lemieux_pierre/anarcho_capitalisme/anarcho_capitalisme.html
+      source: Classiques des sciences sociales
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    en:
+      url: https://www.amazon.co.uk/s?k=L%E2%80%99anarcho-capitalisme+Pierre+Lemieux&tag=planbnetwor0a-21
+      status: auto
+      last_checked: '2026-02-08'

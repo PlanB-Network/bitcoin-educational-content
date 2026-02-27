@@ -1,0 +1,19 @@
+id: de2f1640-ce26-4961-827f-1361abc7a78e
+author: Murray N. Rothbard
+level: intermediate
+original_language: fr
+license: "Free for educational and academic purposes"
+tags:
+- monetary-theory
+links:
+  website:
+    fr:
+      url: https://www.institutcoppet.org/wp-content/uploads/2011/01/Etat-quas-tu-fait-de-notre-monnaie.pdf
+      source: Institut Coppet
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=Etat%2C+qu%27as-tu+fait+de+notre+monnaie+Murray+N.+Rothbard&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

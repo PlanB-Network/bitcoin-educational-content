@@ -3290,7 +3290,7 @@ Der Hacker [erlangte](https://bitcointalk.org/index.php?topic=66916.msg777575#ms
 
 
 
-Der dritte Betroffene schließlich war Gavin Andresens *Bitcoin-Hahn*. Der Dienst [verlor](https://gavintech.blogspot.com/2012/03/bitcoin-faucet-hacked.html) nur 5 BTC (ca. 25 $), aber dieser Vorfall wird Gavin dazu veranlassen, seine Sicherheit zu verbessern, was ihn dazu veranlasst, ihn im Laufe des Jahres "zur Wartung" zu [schließen](https://web.archive.org/web/20121005191343/https://freebitcoins.appspot.com/). Der Bitcoin-Hahn wird nie wieder geöffnet.
+Der dritte Betroffene schließlich war Gavin Andresens *Bitcoin Faucet*. Der Dienst [verlor](https://gavintech.blogspot.com/2012/03/bitcoin-faucet-hacked.html) nur 5 BTC (ca. 25 $), aber dieser Vorfall wird Gavin dazu veranlassen, seine Sicherheit zu verbessern, was ihn dazu veranlasst, ihn im Laufe des Jahres "zur Wartung" zu [schließen](https://web.archive.org/web/20121005191343/https://freebitcoins.appspot.com/). Der Bitcoin-Hahn wird nie wieder geöffnet.
 
 
 
@@ -3326,7 +3326,7 @@ Es wurde [geschätzt](https://web.archive.org/web/20150321011113/http://www.dail
 
 
 
-das Jahr 2012 war auch durch den Zusammenbruch der Margenhandelsplattform Bitcoinica gekennzeichnet, der auf zwei weitere Hacks folgte.
+Das Jahr 2012 war auch durch den Zusammenbruch der Margenhandelsplattform Bitcoinica gekennzeichnet, der auf zwei weitere Hacks folgte.
 
 
 

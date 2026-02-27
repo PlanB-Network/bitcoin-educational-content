@@ -1,0 +1,19 @@
+id: efdbe5ff-a055-41b6-afa7-6f2b31429d62
+author: Jacques Garello
+level: intermediate
+original_language: fr
+license: "Autorisation formelle accordée par l'auteur"
+tags:
+- economics
+links:
+  website:
+    fr:
+      url: https://web.archive.org/web/20071110104448/http://www.euro92.com/acrob/garello94.pdf
+      source: euro92
+      status: manual
+      last_checked: '2026-02-08'
+  amazon:
+    fr:
+      url: https://www.amazon.fr/s?k=Le+mouvement+des+id%C3%A9es+%C3%A9conomiques+%C3%A0+la+fin+de+l%27Ancien+r%C3%A9gime+Jacques+Garello&tag=planbnetwork-21
+      status: auto
+      last_checked: '2026-02-08'

@@ -3193,15 +3193,15 @@ Nk’ikintu ca mbere gifitaniye isano n’ico gihe, reka ndabereke igishushanyo 
 
 
 
-Mu kinjana ca mbere, Uburayi bwaguye mu butegetsi bw’abanyagihugu inyuma y’aho ubutegetsi bw’amahera bw’Abaroma busenyukiye. Abenshi mu baturage bakoresha ibiceri vy’umuringa canke vy’umuringa vy’agaciro gatoyi, akenshi bikaba vyatuma amahera ahinduka, gutyo bikaba vyatuma ubudandaji bwo ku nzira ndende bugabanuka.
+Mu kinjana ca mbere, Uburayi bwaguye mu butegetsi bw’abanyagihugu inyuma y’aho ubutegetsi bw’amahera bw’Abaroma busambukiye. Abenshi mu banyagihugu bakoresha ibiceri vy’umuringa(cuivre) canke muri bronze(umujumbu) vy’agaciro gatoyi, akenshi bikaba vyatuma amahera ahinduka, gutyo bikaba vyatuma ubudandaji hagati  y'imice yakure na kure itoroha gukora.
 
 
 
-Ivyo kugaruka kw’amahera y’ibiceri nk’uburyo bwo kwishura vyabaye buhorobuhoro, bishika aho bishika mu kinjana ca 13 aho i Firenze mu 1252 haboneka igiceri c’inzahabu citwa florin, hanyuma hakurikirwa igiciro c’inzahabu citwa ducat i Venise. Ivyo bice vy’inzahabu vyakoreshwa cane bivuye ku kwaguka kw’ubudandaji be n’ugukenera gukomeye kw’uburyo bwo kwishura bwizigirwa kandi bwemewe kw’isi yose.
+Uko kugaruka kw’amahera y’ibiceri nk’uburyo bwo kwishura vyabaye buhorobuhoro, bishika aho bishika mu kinjana ca 13 aho i Florence mu 1252 haboneka igiceri c’inzahabu citwa florin, hanyuma hakurikirwa igiciro c’inzahabu citwa ducat i Venise. Ivyo bice vy’inzahabu vyakoreshwa cane bivuye ku kwaguka kw’ubudandaji be n’ugukenera gukomeye kw’uburyo bwo kwishura bwizigirwa kandi bwemewe kw’isi yose.
 
 
 
-Mu Bwongereza, uburyo bw’amahera bwarinzwe kugira ngo ntibucike intege biciye ku ngingo ngenderwako nshasha z’ivy’ubutunzi, nk’ikori ry’ubutaka ryashizweho na William the Conqueror inyuma y’umwaka wa 1066, ryari ryarazigamye uburyo bw’ideni sterling. Ikintu gihambaye co gutahura aha ni uko abategetsi b'igihugu ico gihe bashobora guca agaciro k'amahera kugira ngo bashobore gufasha Leta, kandi **ugushiraho uwo musoro vyatumye bishoboka ko amahera aguma ahagaze neza no gufasha Leta biciye mu misoro.**
+Mu Bwongereza, uburyo bw’amahera bwarinzwe kugira ngo ntibusambuke ku ngingo ngenderwako nshasha z’ivy’ubutunzi, nkuko ikori ry’ubutaka ryashizweho na Guillaume le Conquérant inyuma y’umwaka wa 1066, ryari ryarazigamye uburyo bwa penny sterling. Ikintu gihambaye co gutahura aha ni uko abategetsi b'igihugu ico gihe bashobora gutesha agaciro amahera kugira ngo bashobore gufasha Leta, kandi **ugushiraho uwo amakori vyatumye bishoboje amahera kuguma ahagaze neza no gufasha Leta biciye mu misoro.**
 
 
 
@@ -3209,19 +3209,19 @@ Ariko rero, ikigeragezo co kuronka inyungu biciye ku guhindura amahera caratumye
 
 
 
-Mu kinjana ca mbere na ho nyene haradutse uburyo buteye imbere bwo gukoresha amahera, nk’ugukoresha inkoni zo guharura mu Bwongereza kugira ngo umuntu akureho uburenganzira bwo gutanga inyungu no gutanga inguzanyo. Ekleziya ntiyari ikunda cane inguzanyo zitanga inyungu, ni co gituma hakoreshwa ubuhinga butandukanye kugira ngo umuntu ashobore gukingira uburenganzira bwo gukoresha inyungu.
+Mu kinjana ca mbere na ho nyene haradutse uburyo buteye imbere bwo gukoresha amahera, nk’ugukoresha bâtons de comptage(tally sticks) mu bwongereza kugira ngo umuntu akureho uburenganzira bwo gutanga inyungu no gutanga inguzanyo. Ekleziya ntiyari ikunda cane inguzanyo zitanga inyungu, ni co gituma hakoreshwa ubuhinga butandukanye kugira ngo umuntu ashobore gukingira uburenganzira bwo gukoresha inyungu.
 
 
 
-Ivyo bishasha vyari inyishu y’ubukene budahera bw’amahera y’ivyuma, kandi vyaremesheje ukuza kw’isoko ry’amahera ry’urusoro.
+Iryo terambere ryari inyishu y’ubukene budahera bw’amahera y’ivyuma, kandi vyaremesheje ukuza kw’isoko ry’amahera rishasha.
 
 
 
-Hagati aho, intambara z’abakristu zatumye haba ubudandaji bwo mu kiyaga Mediterane, bituma habaho iterambere ry’ubudandaji mpuzamakungu be n’imigenzo mishasha y’amabanki, canecane biciye ku gisata c’abasirikare b’abatempuliye. Aba Knights Templar baracitse abahuza b’ivy’amahera bahambaye, ivyo bikaba vyatuma abasirikare b’abanyamusaraba bashobora kuronka amahera kure y’aho baba, ivyo bikaba vyari igitutu c’uburyo bwo gukoresha amabanki yo mu Buraya bwo muri iki gihe.
+Hagati aho, intambara z’abakristu zatumye haba ubudandaji bwo mu kiyaga Mediterane, bituma habaho iterambere ry’ubudandaji mpuzamakungu be n’imigenzo mishasha y’amabanki, canecane biciye ku gisata c’abasirikare Templiers. Abo basirikare bacitse abahuza b’ivy’amahera bahambaye, ivyo bikaba vyatuma abo basirikare bashobora kuronka amahera avuye kure y’aho baba, ivyo bikaba bwari uburyo bwo gukoresha amabanki yo mu Buraya bwo muri iki gihe canone.
 
 
 
-Kugira ngo ukore ihuriro n’Abatempuliye, aha musi urashobora kwihweza igiceri c’igifaransa co mu kinjana ca mbere, aho ushobora kumenya umusaraba mwiza cane uri hagati. Vyari bisanzwe cane ko ibiceri vyo muri ico gihe vyitwara uwo musaraba.
+Kugira ngo ukore ihuriro rya Templiers, aha musi urashobora kwihweza igiceri ca bafaransa co mu kinjana ca mbere, aho ushobora kubona umusaraba mwiza uri hagati. Vyari bihuriyeko na beshi cane ko ibiceri vyo muri ico gihe vyaba bifise uwo musaraba.
 
 
 
@@ -3229,36 +3229,36 @@ Kugira ngo ukore ihuriro n’Abatempuliye, aha musi urashobora kwihweza igiceri 
 
 
 
-Ubwa nyuma, ingorane zikomeye nk’Indwara y’Urupfu rw’Ibirabura (1346-1353) zatumye haba amahinduka akomeye cane mu vy’ubutunzi. Ugugabanuka cane kw’abantu kwatumye umushahara wiyongera cane, ivyo bikaba vyatumye Leta igerageza gukomeza guhabwa umushahara nk’uko yahora.
+Ubwa nyuma na nyuma, ingorane zikomeye nk’Indwara nka la Peste noire(1346-1353) zatumye haba amahinduka akomeye cane mu vy’ubutunzi. Ukugabanuka cane kw’abantu kwatumye umushahara wiyongera cane, ivyo bikaba vyatumye Leta igerageza gukomeza gutanga imishahara nk’uko yahora.
 
 
 
-Muri ico gihe nyene, Intambara y’Imyaka Ijana (1337-1453) yatumye ibihugu bifata ingingo zikomeye cane z’ivy’ubutunzi kugira ngo bishobore gufasha ingabo zavyo, ivyo bikaba vyatumye ubutegetsi bw’abanyagihugu bugoyagoya.
+Muri ico gihe nyene, Intambara y’Imyaka Ijana(la guerre de Cent Ans) (1337-1453) yatumye ibihugu bifata ingingo zikomeye cane z’ivy’ubutunzi kugira ngo bishobore gufasha ingabo zavyo, ivyo bikaba vyatumye ubutegetsi bw’abanyagihugu bugoyagoya.
 
 
 
-Ikinjana ca mbere rero cararanzwe n’uguhagarika umutima guhoraho hagati y’ugukenera amahera yo kwizigirwa kugira ngo umuntu akore ubudandaji be n’ikigeragezo gihoraho c’abategetsi co gutuma amahera agira agaciro gatoyi kugira ngo bashobore guca baronka inyungu. Iyo ntambara yarahinduye cane iterambere ry’amahera y’i Buraya, ishiraho umushinge w’ubutunzi bwo muri iki gihe.
+Ikinjana ca mbere rero cararanzwe n’uruhagarara ruhoraho hagati y’ugukenera amahera yizewe kugira ngo umuntu akore ubudandaji be n’ikigeragezo gihoraho c’abategetsi co kuyungurura(diluer) amahera  ngo bashobore guca baronka inyungu. Iyo ntambara yarahinduye cane iterambere ry’amahera y’i Buraya, ishiraho umushinge w’ubutunzi bwo muri iki gihe.
 
 
 
-Mu gusozera iki gice, noshima kwongerako inkuru iryoshe cane yo mu Bwongereza muri iki gihe. Iyi nkuru y'akataraboneka yakuwe mu gitabu kiri hano, "Amateka y'Amahera" ca Glyn Davies.
+Mu ncamake kuri iki gice, noshima kwongerako inkuru iryoshe cane yo mu Bwongereza muri iki gihe. Iyi nkuru y'akataraboneka yakuwe mu gitabu kiri hano, "History of Money" ca Glyn Davies.
 
 
 
-Ivuga ko mu Bwongereza, ukwimurirwa mu Nteko Ishinga Amategeko vyatumye umuzigo w’imyenda uva ku mukuru w’igihugu uja ku Nteko Ishinga Amategeko, ivyo bikaba vyatumye Leta iguma ifise umwenda. Imbere y’aho, umwenda wari uremereye ku bitugu vy’umukuru w’igihugu.
+Ivuga ko mu Bwongereza, ukwimurirwa mu Nzego Nshingamateka vyatumye umuzigo w’amadeni uva ku Mwami ija ku Nzego Nshingamateka, ivyo bikaba vyatumye Leta iguma ifise ideni. Imbere y’aho, ideni yaremekwa k'umwami.
 
 
 
-Inama Nshingamateka imaze gushobora gufata bimwe muri ubwo bubasha bwo kurema amahera, vyatumye habaho kurema imyenda y’igihe kirekire yari yikorewe n’abantu, atari umwami. Mbere, iyo umwami apfuye canke iyo habaye uguhinduka kw’umwami, umwenda warazimwa kumwe na we.
+Inama Nshingamateka imaze gushobora gufata bimwe muri ubwo bubasha bwo kurema amahera, vyatumye habaho ivuka ry'amadeni y’igihe kirekire aremekwa kubanyagihugu, atari k'umwami. Mbere yivyo, iyo umwami apfuye canke iyo habaye uguhinduka kw’umwami, amadeni yajana nawe.
 
 
 
-Igihe irema ry’imyenda rikorwa n’Inama Nshingamateka, iciyumviro c’imyenda y’igihugu kiraseruka, kuko gishobora kuba kitagira aho kigarukira mu gihe. Igihe cose Leta izoba iriho, igihe cose Inama Nshingamateka izoba iriho, uwo mwenda urabaho, kandi bategerezwa kurondera uburyo bwose bwo kuwusubiramwo amahera no kuwukwiragiza uko igihe kigenda kirarenga. Ni ihinduka rikomeye ry’akarorero, aho ata mwami canke umuryango w’abami wari ugitanga canke wikorera umuzigo w’izo myenda; ubu yari Inama Nshingamateka rero yari abanyagihugu bayo.
+Igihe ivuka ry'amadeni rikorwa n’Inama Nshingamateka, iciyumviro c’amadeni y’ubwami kiraseruka, kuko gishobora kuba kitagira aho kigarukira mu gihe. Igihe cose Leta izoba iriho, igihe cose Inama Nshingamateka izoba iriho, ayo madeni agumaho, kandi bategerezwa kurondera uburyo bwose bwo gusubiramwo amahera no kubikwirikiza uko igihe kigenda kirarenga. Ni ihinduka rikomeye ry’akarorero, aho ata mwami canke umuryango w’abami wari ugitanga canke wikorera iyo mizigo y'amadeni; ayo madeni yikorezwa Inama Nshingamateka bisigura abanyagihugu bonyene ubwabo.
 
 
 
 
-## Ivugurura
+## Ivuka rya kabiri
 
 
 <chapterId>1d1dfb05-70b4-5b7b-9708-373c2182950d</chapterId>

@@ -3270,15 +3270,15 @@ Ubu twashitse mu gice c’inyigisho aho tuvuga ibijanye n’igihe citwa Renaissa
 
 
 
-### Uwo Florin w'i Firenze
+### Florin w'i Florence
 
 
 
-Igihe amafaranga y’inzahabu yasubira mu Buraya mu kiringo c’Ivugurura, ni ikintu gihambaye cane mu mateka y’amahera. **Vyose vyatanguye n’igiceri ca Florin c’i Firenze mu mwaka w’1252, igiceri c’inzahabu ca mbere gikomeye cacuzwe mu Buraya kuva Uburoma bugwa**. Kubera ko iyo florine yari ifise uburemere budahinduka kandi ikaba isukuye bitangaje (nk’amagarama 3,5 y’inzahabu itagira agasembwa), yagumye idahinduka mu binjana bine, maze yihuta kuba ikintu gihambaye co gukoresha mu gukoresha amahera mu Buraya bwose.
+Igihe amahera y’inzahabu yasubira mu Buraya mu kiringo c’Ivuka ry'akabiri, ni ikintu gihambaye cane mu mateka y’amahera. **Vyose vyatanguye n’igiceri ca Florin c’i Florence mu mwaka w’1252, igiceri c’inzahabu ca mbere gikomeye cacuzwe mu Buraya kuva Uburoma bugwa**. Kubera ko iyo florin yari ifise uburemere budahinduka kandi ikaba ifise ubuziranenge butangaje (nk’amagarama 3,5 y’inzahabu ifise ubuziranenge ), yagumye  idahinduka mu binjana bine, maze yihuta kuba ikintu gihambaye co gukoresha mu gukoresha amahera mu Buraya bwose.
 
 
 
-Aha musi urashobora kubona igishushanyo c’i Florin: Florin y’inzahabu ikozwe mu giti c’umukara kandi ikaba iterwako ikidodo n’umuhinga mu vy’ubuhinga bw’ugushushanya w’Umufaransa akora ibice vyiza cane, akabicapura kandi akabikubita n’amaboko.
+Aha musi urashobora kubona igishushanyo ca Florin: Florin y’inzahabu ikozwe muri "etain" c’umukara kandi ikaba iterwako ikidodo n’umuhinga mu vy’ubuhinga bw’ugushushanya w’Umufaransa akora ibice vyiza cane, akabicapura kandi abicura n’amaboko.
 
 
 
@@ -3286,7 +3286,7 @@ Aha musi urashobora kubona igishushanyo c’i Florin: Florin y’inzahabu ikozwe
 
 
 
-Ukwo gusubira mu biceri vy’inzahabu kwatumwe n’ikintu kidasanzwe: ugusenyuka kw’igihugu ca Bizansi n’ugusenyuka kw’ubutunzi bw’isi y’Abayisilamu kubera ibitero vy’Abamongoli vyatumye haba ubusa bw’amahera mu bucuruzi mpuzamakungu.
+Ukwo gusubira mu biceri vy’inzahabu kwatumwe n’ikintu kidasanzwe: ugusambuka kwa solidus byzantin n’ugusenyuka kw’ubutunzi bw’isi y’Abayisilamu kubera ibitero vy’Abamongoli vyatumye haba ubusa bw’amahera mu bucuruzi mpuzamakungu.
 
 
 
@@ -3298,24 +3298,23 @@ Ukwo gusubira mu biceri vy’inzahabu kwatumwe n’ikintu kidasanzwe: ugusenyuka
 
 
 
-Ishusho ya mbere iri hejuru yerekana igiceri c’i Bizantine mbona ko gishimishije cane. Ngiye gucapura ikigereranyo n’igiceri co muri ico gihe nyene kivuye muri Hongiriya (ishusho ya kabiri iri hejuru). Igiceri c’i Hongiriya gifise ishusho y’igikombe, kimeze nk’agasorori gatoyi. Ivyo bishushanyo vyerekana ibishushanyo vy’idini vyerekanywe nk’abami bafise imisaraba iruhande y’iyindi. Ico gice gifise ishusho y’igikombe kandi kiva muri Hongiriya.
-
+Mfise ngaha igiceri ca byzantine mbona ko bihimbaye. Ngiye gukora ikigereranyo n’igiceri co muri ico gihe nyene kivuye muriHongrie   (ishusho ya kabiri iri hejuru). Igiceri co muri Hongrie gifise ishusho y’igikombe, kimeze nk’agasorori gatoyi. Ivyo bishushanyo vyerekana ibishushanyo vy’idini vyerekanywe nk’abami bafise imisaraba iruhande y’iyindi. Ico gice gifise ishusho y’igikombe kandi kiva muri Hongiriya.
 
 Vyari bimenyerewe cane gukopa ibiceri vyo mu bindi bihugu. Nk’uko ibiceri vy’i Bizansi vyemerwa muri rusangi, ibindi bihugu kenshi vyari kubikopa. Nk’uko ushobora kubibona iyo ubigereranyije iruhande n’uruhande: ivyo bipande birasa cane.
 
 
-Ubutaliyano bwo mu Buraruko, cane cane Florence, Venise, na Genova, vyakoresheje iyo nzira kugira ngo bitangure amafaranga mashasha akomeye - ibiceri bifise ivyuma vy’agaciro bihoraho. Venise yarakurikiye akarorero ka Firenze mu gucapura amahera yitwa ducat mu 1270, ayo mafaranga yari hafi gusa n’aya florin kandi yakoreshwa cane mu bucuruzi bwo mu kiyaga Mediterane.
+Ubutaliyano bwo mu Buraruko, cane cane Florence, Venise, na Genova, vyakoresheje iyo nzira kugira ngo bitangure amafaranga mashasha akomeye - ibiceri bifise ivyuma vy’agaciro bihoraho. Venise yarakurikiye akarorero ka Florence mu gukora amahera yitwa ducat mu 1270, ayo mahera yari hafi gusa n’aya florin kandi yakoreshwa cane mu bucuruzi bwo mu kiyaga Mediterane.
 
 
-Ifaranga ryitwa florin ni ryo ryacitse ifaranga rya mbere ry’ububiko mpuzamakungu, ryakoreshejwe mu bisagara birenga 150 vyo mu Buraya imbere y’uko ikinyejana ca 14 gihera. Haciye hashirwaho urubuga runini rw’amabanki yo muri Florence, rwarongowe n’aba Medici, uburongozi bw’amahera n’ubuhinga bwo gucungera amafaranga bwarahinduwe neza cane, mbere n’ugutwara inzahabu mu buryo bw’umubiri kwagabanutse.
-
-
-
-Ico ni ikindi ciyumviro gishimishije vy’ukuri. Hari igihe ibiceri vyinshi vyarungikwa vyatakazwa mu ngendo zo mu kiyaga. Iryo terambere ry’ubuhinga - amarejista afise ububiko bw’ibitabu bubiri - ryatumye habaho kurema amahera y’ivyanditswe. Ivyo vyatumye bishoboka kugabanya igitigiri c’amahera y’ibiceri, ahubwo bagakoresha uburyo bwo kwandika, ivyo bikaba bigabanya cane ingorane zo gutakaza amahera mu gihe c’urugendo.
+Ifaranga ryitwa florin ni ryo ryacitse ifaranga rya mbere ry’ububiko mpuzamakungu, ryakoreshejwe mu bisagara birenga 150 vyo mu Buraya imbere y’uko ikinyejana ca 14 gihera. Haciye hashirwaho urubuga runini rw’amabanki yo muri Florence, rwarongowe n’aba Médicis, uburongozi bw’amahera n’ubuhinga bwo gucungera amafaranga bwarahinduwe neza cane, mbere n’ugutwara inzahabu mu buryo bw’umubiri kwagabanutse.
 
 
 
-Iterambere ry’amahera ryaraherekejwe kandi n’ugutera imbere gukomeye mu buryo bwo gukoresha amabanki. Mu kinjana ca 13, Uburayi bwo mu kinjana ca mbere bwahumekewe n’uko Intambara z’Abakristu zahuye n’imigenzo y’amabanki y’Abayisilamu. Aba Knights Templar, bakaba ari umugwi w’idini n’uw’igisirikare, bari bamaze gutegura uburyo bwo gutuma abasirikare b’abanyamusaraba bashobora gukora ingendo batajana n’ubutunzi bwabo.
+Ico ni ikindi ciyumviro gishimishije vy’ukuri. Hari igihe ibiceri vyinshi vyarungikwa vyatakazwa mu ngendo zo mu kiyaga. Iryo terambere ry’ubuhinga - amarejista afise ububiko bw’ibitabu bubiri - ryatumye habaho gukora amahera y’acapuwe. Ivyo vyatumye bishoboka kugabanya igitigiri c’amahera y’ibiceri, ahubwo bagakoresha uburyo bwo kwandika, ivyo bikaba bigabanya cane ingorane zo gutakaza amahera mu gihe c’urugendo.
+
+
+
+Iterambere ry’amahera ryaraherekejwe kandi n’ugutera imbere gukomeye mu buryo bwo gukoresha amabanki. Mu kinjana ca 13, Uburayi bwo mu kinjana ca mbere bwa n’uko Intambara z’Abakristu zahuye n’imigenzo y’amabanki y’Abayisilamu. Aba Knights Templar, bakaba ari umugwi w’idini n’uw’igisirikare, bari bamaze gutegura uburyo bwo gutuma abasirikare b’abanyamusaraba bashobora gukora ingendo batajana n’ubutunzi bwabo.
 
 
 

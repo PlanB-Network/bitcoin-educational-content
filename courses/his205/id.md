@@ -2148,7 +2148,7 @@ Alasan ini bertentangan dengan gagasan klasik tentang uang sebagai "komoditas pe
 
 
 
-Yang mengganggu saya tentang teori ini adalah bahwa teori ini menyatakan bahwa uang selalu merupakan utang, ketika kita memiliki contoh pertukaran antara dua suku yang berbeda yang, misalnya, menukar emas, di mana transaksi tersebut bersifat final dan tidak ada utang laten yang tersisa. Para pendukung teori ini akan sering mengatakan bahwa pertukaran ini bukanlah pertukaran uang, melainkan barter. Seperti yang telah disebutkan, saya tidak setuju. Ini adalah pertukaran moneter, karena emas tidak akan dikonsumsi; emas akan digunakan sebagai uang.
+Salah satu titik perdebatan dalam teori ini adalah pernyataannya bahwa uang selalu merupakan bentuk utang, terutama jika kita melihat contoh pertukaran emas antar suku yang berbeda, di mana transaksi tersebut bersifat final dan tidak meninggalkan utang tersisa. Para pendukung teori ini akan sering mengatakan bahwa pertukaran ini bukanlah pertukaran uang, melainkan barter. Seperti yang telah disebutkan, saya tidak setuju. Ini adalah pertukaran moneter, karena emas tidak akan dikonsumsi; emas akan digunakan sebagai uang.
 
 
 

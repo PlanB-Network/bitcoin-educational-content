@@ -2600,7 +2600,7 @@ Kekaisaran Athena, terlepas dari namanya yang megah, secara geografis tetap sede
 
 
 
-Mempertahankan armada adalah inti dari kebutuhan moneter ini. Satu kapal trireme Athena berharga antara satu hingga dua talenta perak - jumlah yang cukup besar. Dengan beberapa ratus kapal yang harus dipelihara, Athena membutuhkan sistem pajak yang efisien. Mata uang menjadi alat yang sangat diperlukan untuk mengumpulkan upeti dari kota-kota bawahan dan membiayai kekuatan proyeksi angkatan laut yang menjamin kohesi kekaisaran.
+Memelihara armada laut merupakan inti dari kebutuhan moneter ini. Satu kapal perang Athena (trireme) berharga antara satu hingga dua talenta perak — jumlah yang sangat besar. Dengan ratusan kapal yang harus dipelihara, Athena membutuhkan sistem pajak yang efisien. Mata uang pun menjadi alat yang tak tergantikan untuk mengumpulkan upeti dari kota-kota taklukan dan membiayai kekuatan laut yang menjamin kesatuan kekaisaran.
 
 
 
@@ -2925,19 +2925,16 @@ Pada bagian ini, saya akan memperkenalkan bagian terakhir dari bagian ini: Anton
 
 
 
-Menghadapi situasi ini, Kaisar Aurelian (270-275 M) berusaha untuk menstabilkan sistem dengan melakukan revaluasi mata uang secara nominal, tetapi reformasi ini sebenarnya memperkenalkan mekanisme inflasi dengan menetapkan nilai mata uang yang ada secara artifisial pada tingkat yang lebih tinggi.
+Menghadapi situasi ini, Kaisar Aurelian (270-275 M) berupaya menstabilkan sistem dengan melakukan revaluasi nominal mata uang, **tetapi reformasi ini sebenarnya memperkenalkan mekanisme inflasi dengan menetapkan nilai mata uang yang ada secara artifisial pada tingkat yang lebih tinggi.**
 
 
-Saya akan memperkenalkan sebuah penyimpangan pada subjek ini. Selama abad ke-3, inflasi mengalami peningkatan eksponensial yang cepat. Sebelumnya, meskipun koin didevaluasi, proses pencetakan koin secara manual satu per satu memberikan kontrol terhadap inflasi. Statistik menunjukkan bahwa selama 300 tahun devaluasi, inflasi rata-rata sekitar 4% per tahun. Tepat sebelum reformasi Aurelian, inflasi sekitar 3% per tahun.
+
+Reformasi Aurelian menandai perubahan signifikan dari metode devaluasi sebelumnya. Alih-alih secara bertahap mengurangi kandungan logam mulia pada koin yang baru dicetak, ia menarik kembali koin yang ada dengan kemurnian lebih rendah dan mencapnya dengan tanda baru (XXI), yang menunjukkan nilai nominal yang lebih tinggi. Revaluasi ini memicu peningkatan inflasi secara eksponensial, dengan tingkat inflasi mencapai sekitar 20% per tahun, sangat kontras dengan rata-rata sebelum reformasi sekitar 3-4%.
 
 
-Aurelian memperkenalkan pengukuran kemurnian pada koin tanda XXI, yang menunjukkan komposisi 20 bagian perunggu dan 1 bagian perak, atau kemurnian 5%. Dia memasarkan koin perak 5% ini dan mencap tanda XXI pada koin tersebut. Namun, dia juga menarik semua koin lainnya yang lebih rendah nilainya dan memberi cap XXI yang sama pada koin-koin tersebut. Hal ini secara efektif merevaluasi nilai nominal semua koin. Hasilnya adalah tingkat inflasi yang mengejutkan sebesar 20% per tahun, jauh melebihi tingkat inflasi sebelumnya yang hanya 3% sebelum teknik ini diterapkan.
 
+Devaluasi ekstrem ini diilustrasikan secara visual oleh tetradrachm Mesir. Di bawah pendudukan Romawi pada abad ke-3, koin ini, yang setara dengan denarius, direndahkan menjadi komposisi billon atau perunggu. Ini sangat kontras dengan tetradrachm Yunani dengan kemurnian tinggi dari abad-abad sebelumnya. Kerusakan fisik koin tersebut mencerminkan kemerosotan ekonomi, dengan harga biji-bijian di Mesir meningkat satu juta kali lipat selama periode 300 tahun ini.
 
-Aurelian-lah yang menemukan bentuk devaluasi ini, yang jauh lebih cepat daripada devaluasi logam secara bertahap, yang masih memaksa kita untuk mencetak koin satu per satu. Apa yang dia lakukan adalah mengambil semua koin yang ada, menariknya kembali dan mencapnya dengan pukulan untuk mengubah nilai nominalnya. Ini adalah titik balik yang nyata. Saat itulah inflasi menjadi eksponensial.
-
-
-Untuk mengilustrasikan secara visual devaluasi yang ekstrem ini, saya telah menemukan beberapa statistik menarik tentang harga biji-bijian di Mesir dari tahun 40 SM hingga abad ke-3, yang mencakup lebih dari 300 tahun. Di bawah ini, Anda bisa melihat tetradrachma Yunani dari koleksi saya. Pada saat itu, di Mesir di bawah pendudukan Romawi pada abad ke-3, padanannya adalah tetradrachma Mesir. Denominasi drachma masih digunakan, dan setara dengan satu dinar.
 
 
 ![image](assets/id/022.webp)
@@ -2948,46 +2945,46 @@ Untuk mengilustrasikan secara visual devaluasi yang ekstrem ini, saya telah mene
 
 
 
-Jadi tetradrachm Mesir yang saya miliki setara dengan satu dinar. Anda bisa melihat bahwa koin ini terbuat dari billon (atau perunggu), jadi tidak mengandung logam mulia. Anda bisa membandingkannya dengan tetradrachm Yunani asli untuk melihat devaluasi fisik selama 300 tahun ini. Ini adalah kenaikan jutaan kali lipat dalam harga biji-bijian di Mesir.
-
-
-Ini adalah ekspresi fisik dari reformasi Aurelian. Perlu dicatat bahwa mayoritas, rata-rata inflasi selama 300 tahun ini adalah sekitar 4%. Baru pada akhirnya, ketika Aurelian melakukan reformasi, inflasi ini menjadi agak eksponensial dan kita sampai pada ukuran 1 juta. Harga-harga sejuta kali lebih tinggi pada akhir abad ke-3 dibandingkan pada abad ke-1 SM.
-
-
-Penggantinya, Diocletianus (284-305 M), mencoba melakukan reformasi yang lebih radikal: ia mengeluarkan mata uang baru (terutama argenteus, yang lebih murni namun jumlahnya sangat terbatas), memberlakukan kontrol harga yang drastis (Dekrit Harga 301 M), dan menerapkan sistem pajak yang didasarkan pada pembayaran barang dan jasa. Terlepas dari upaya-upaya ini, reformasi Diocletianus gagal mengekang inflasi yang merajalela.
+Penerusnya, **Diocletian** (284-305 M), mencoba reformasi yang lebih radikal: ia mengeluarkan mata uang baru (terutama argenteus, lebih murni tetapi jumlahnya terlalu terbatas), memberlakukan kontrol harga yang drastis (Dekrit Harga tahun 301 M) dan **menetapkan sistem pajak berdasarkan pembayaran dalam bentuk barang**. Terlepas dari upaya-upaya ini, reformasi Diocletian gagal mengekang inflasi yang merajalela.
 
 
 
-Menghadapi penolakan untuk memasok barang dan jasa dengan imbalan mata uang yang didevaluasi, Diocletianus melembagakan **sistem kasta turun-temurun** untuk mengikat para petani dan keturunan mereka ke tanah mereka.
+Menghadapi penolakan rakyat untuk menyediakan barang dan jasa sebagai imbalan atas mata uang yang terdevaluasi, Diocletian melembagakan **sistem kasta turun-temurun** untuk mengikat petani dan keturunan mereka pada tanah mereka.
 
 
 
-Apa yang benar-benar perlu dipahami di sini adalah bahwa apa yang terjadi adalah bahwa para petani menolak untuk menyerahkan hasil panen mereka dengan imbalan mata uang yang didevaluasi, dan tanggapan Diocletianus yang terkasih adalah menciptakan **kasta-kasta turun-temurun** dengan mengatakan "Anda, Anda tidak dapat meninggalkan tanah Anda, anak-anak Anda tidak dapat meninggalkan tanah mereka, hal yang sama untuk para prajurit, Anda adalah prajurit, Anda setuju untuk dibayar dengan mata uang saya". Sebagai solusi transisi, mereka dibayar dalam bentuk barang (daging, makanan, biji-bijian) karena dia menolak memberi mereka uang. Jadi dia memberlakukan sistem kasta turun-temurun ini untuk memaksa orang terikat pada perdagangan mereka, sehingga mereka tidak bisa begitu saja berganti pekerjaan jika mereka tidak mau menerima mata uang yang terdevaluasi.
-
-
-Untuk mengilustrasikan contoh ini, berikut ini saya memiliki sebuah teks, sebuah kutipan dari buku "*Regime Moneter dan Inflasi*":
+Inti dari krisis tersebut adalah rusaknya kepercayaan: petani menolak untuk menyerahkan hasil panen mereka dengan uang yang mereka tahu tidak berharga. Tanggapan Diocletian bersifat radikal dan memaksa. Ia secara efektif menciptakan **kasta turun-temurun**, menetapkan bahwa seorang petani tidak dapat meninggalkan tanahnya, begitu pula anak-anaknya. Logika yang sama diterapkan pada tentara, yang sekarang diwajibkan untuk menerima pembayaran dalam mata uang negara yang terdevaluasi. Untuk membuat hal ini lebih mudah diterima, negara sering kali menggunakan pembayaran dalam bentuk barang—daging, makanan, dan biji-bijian—daripada uang tunai. Sistem ini dirancang untuk mengikat orang agar tetap pada profesi mereka, mencegah mereka meninggalkan pekerjaan sebagai protes terhadap uang yang tidak berharga.
 
 
 
-> Karena orang tidak mau bekerja dan mengirimkan barang dengan mata uang yang didevaluasi, yang nilai nominalnya lebih tinggi daripada nilai intrinsik atau nilai pasarnya, mereka harus dipaksa untuk bekerja dengan membebankan pajak dalam bentuk barang. [...] Menjadi ilegal bagi para petani untuk meninggalkan rumah mereka yang terdaftar. Dengan demikian, penduduk petani secara turun-temurun terikat pada tanah.
+Kebijakan ini dijelaskan dalam buku "*Rezim Moneter dan Inflasi*":
+
+
+
+> Karena orang-orang tidak mau bekerja dan mengirimkan barang dengan imbalan mata uang yang terdevaluasi, yang nilai nominalnya lebih tinggi daripada nilai intrinsik atau nilai pasarnya, mereka harus dipaksa untuk bekerja dengan mengenakan pajak dalam bentuk barang. [...] Menjadi ilegal bagi petani untuk meninggalkan rumah terdaftar mereka. Dengan demikian, penduduk pertanian menjadi terikat secara turun-temurun pada tanah.
+
+
+
 >
 
-
-> Sistem kasta turun-temurun ini berangsur-angsur menyebar: Diokletianus memaksa anak laki-laki tentara untuk mengabdi di ketentaraan, sementara para pekerja di bengkel-bengkel uang, serta di pabrik-pabrik tenun dan pencelupan yang didirikan Diokletianus, menjadi budak negara, dengan layanan turun-temurun. Para penambang emas juga kemudian menjadi kasta turun-temurun. Kelas-kelas turun-temurun lainnya mungkin sudah ada pada masa Diocletianus, terutama serikat tukang roti dan tukang daging [...] di Roma, serta serikat-serikat keuskupan para kapten kapal yang mengangkut biji-bijian dan kargo publik lainnya ke Roma.
-
-Konstantinus (306-337 M) yang akhirnya berhasil menstabilkan sistem moneter dengan memperkenalkan solidus pada tahun 312, sebuah koin emas murni yang kualitas dan beratnya sangat terjamin. Ada sistem yang memverifikasi kemurnian dan berat solidus. **Namun, stabilitas ini hanya memengaruhi kalangan elit kaya dan pemerintahan kekaisaran, sementara **mayoritas penduduk terus menderita akibat mata uang berkualitas rendah dan inflasi yang terus-menerus**. Solidus tetap stabil di Kekaisaran Timur (Bizantium), di mana ia bertahan selama lebih dari satu milenium, sementara di Barat, mata uang terfragmentasi menjadi koin-koin kecil bernilai rendah, menyertai disintegrasi ekonomi dan politik akhir Kekaisaran Romawi, yang jatuh secara definitif pada tahun 476 Masehi.
+> Sistem kasta turun-temurun ini secara bertahap menyebar: Diocletian memaksa putra-putra tentara untuk bertugas di angkatan darat, sementara pekerja di bengkel uang, serta di pabrik tenun dan pewarnaan yang didirikan Diocletian, menjadi budak negara, dengan layanan turun-temurun. Penambang emas juga kemudian menjadi kasta turun-temurun. Kelas-kelas turun-temurun lainnya mungkin sudah ada pada masa Diocletian, terutama serikat tukang roti dan tukang daging [...] di Roma, serta serikat keuskupan kapten kapal yang mengangkut gandum dan barang-barang umum lainnya ke Roma.
 
 
 
-Sebagai penutup, saya ingin berbagi dengan Anda kutipan dari *A History of Money* oleh Glyn Davies, yang merangkum sejarah uang: Dari Zaman Kuno hingga Hari Ini* oleh Glyn Davies, yang dengan sangat baik merangkum apa yang mungkin menyebabkan kejatuhan Roma:
+Konstantinus (306-337 M) akhirnya berhasil menstabilkan sistem moneter dengan memperkenalkan solidus pada tahun 312, koin emas murni yang kualitas dan beratnya dijamin secara ketat. Sebuah sistem lengkap untuk memverifikasi kemurnian dan berat solidus pun didirikan. **Namun, stabilitas ini hanya memengaruhi elit kaya dan administrasi kekaisaran**, sementara **mayoritas penduduk terus menderita akibat mata uang berkualitas rendah dan inflasi yang terus-menerus**. Solidus tetap stabil di Kekaisaran Romawi Timur (Bizantium), di mana ia bertahan selama lebih dari satu milenium, sementara di Barat, mata uang terpecah menjadi koin-koin kecil bernilai rendah, seiring dengan disintegrasi ekonomi dan politik terakhir Kekaisaran Romawi, yang akhirnya runtuh pada tahun 476 M.
 
 
 
-*"Pajak secara konsisten tidak memadai, dan kesulitan yang terkait dengan pajak yang semakin tidak memadai, terlambat disesuaikan, dan sangat terlihat ini mendorong Roma untuk lebih mengandalkan bentuk perpajakan yang mudah, langsung, dan tersembunyi: devaluasi mata uang. Reformasi ad hoc yang berumur pendek gagal membalikkan tren kemunduran yang sudah berlangsung lama ini. Tekanan keuangan yang disebabkan oleh keausan koin, karamnya kapal, kebocoran uang karena pembelian barang-barang mewah dari Timur, hadiah yang ditawarkan kepada orang-orang barbar Jermanik, pertumbuhan populasi perkotaan, penurunan produksi pertanian, kelelahan bertahap dari tambang-tambang terkaya, dan di atas semua itu, kebijakan "roti dan sirkus" yang dianggap penting untuk menjaga ketertiban minimum dalam kehidupan perkotaan - semua tekanan kumulatif ini membawa Roma pada devaluasi moneter yang terus-menerus, diselingi dengan reformasi sesekali yang pasti gagal. "*
+
+Sebagai kesimpulan, kutipan dari buku Glyn Davies *A History of Money: From Ancient Times to the Present Day* ini dengan piawai merangkum faktor-faktor yang menyebabkan kejatuhan Roma:
 
 
 
-*Selain roti dan anggur gratis atau murah, liberalitas kekaisaran ("congiaria") dalam bentuk alokasi moneter didistribusikan dari waktu ke waktu, terutama di bawah Trajan (98-117 M) dan bahkan lebih lagi di bawah Hadrian (117-138 M) dan para penerusnya. Apa yang pada awalnya dianggap kaisar dan warga negara sebagai hak istimewa yang luar biasa, pada awal abad ke-2, telah menjadi harapan yang lazim. Pembagian-pembagian ini "menjadi beban berat bagi perbendaharaan publik dan dengan sendirinya berkontribusi pada kebangkrutan negara. "*
+*"Pajak secara konsisten tidak memadai, dan kesulitan yang terkait dengan pajak yang semakin tidak memadai, terlambat disesuaikan, dan sangat terlihat ini mendorong Roma untuk lebih mengandalkan bentuk pajak yang mudah, langsung, dan tersembunyi: devaluasi mata uang. Reformasi ad hoc yang berumur pendek gagal membalikkan tren penurunan yang sudah berlangsung lama ini. Tekanan keuangan yang disebabkan oleh keausan koin, kapal karam, kebocoran uang karena pembelian barang mewah dari Timur, hadiah yang diberikan kepada orang barbar Jermanik, pertumbuhan populasi perkotaan, penurunan produksi pertanian, penipisan bertahap tambang terkaya, dan di atas segalanya kebijakan "roti dan sirkus" yang dianggap penting untuk menjaga ketertiban minimum dalam kehidupan perkotaan - semua tekanan kumulatif ini menyebabkan Roma melakukan devaluasi moneter secara terus-menerus, diselingi dengan reformasi sesekali yang ditakdirkan untuk gagal."*
+
+
+
+*Selain gratis atau murah* Roti dan anggur, serta kemurahan hati kekaisaran ("congiaria") dalam bentuk alokasi uang, didistribusikan dari waktu ke waktu, khususnya pada masa pemerintahan Trajan (98-117 M) dan terlebih lagi pada masa pemerintahan Hadrian (117-138 M) dan para penerusnya. Apa yang awalnya dianggap kaisar dan warga negara sebagai hak istimewa yang luar biasa, pada awal abad ke-2 telah menjadi harapan yang lazim. Distribusi ini "menjadi beban berat bagi kas negara dan dengan caranya sendiri berkontribusi pada kebangkrutan negara".*
 
 
 
@@ -3122,7 +3119,7 @@ Konstantinus (310-337) berusaha menstabilkan kekaisaran melalui reformasi radika
 
 
 
-Pada saat yang sama, orang-orang menggunakan nummus perunggu, yang secara konstan mengalami penurunan nilai. Pada tahun 445, sebuah solidus bernilai 7.000 nummi; pada tahun 498, 16.800 nummi. Sistem ganda ini melembagakan efek Kanton: mereka yang memiliki akses ke solidus - pemerintah, pemilik tanah - dilindungi dari inflasi. Rakyat jelata, yang terbatas pada nummus, menjadi semakin miskin.
+Pada saat yang sama, rakyat menggunakan nummus perunggu, yang nilainya terus-menerus terdevaluasi. Pada tahun 445, satu solidus bernilai 7.000 nummus; pada tahun 498, nilainya menjadi 16.800. Sistem ganda ini melembagakan efek Cantillon: mereka yang memiliki akses ke solidus - pemerintah, pemilik tanah - terlindungi dari inflasi. Rakyat jelata, yang terikat pada nummus, menjadi semakin miskin.
 
 
 
@@ -3778,7 +3775,7 @@ Mari kita bahas tentang Perang Saudara di Amerika sekarang. Pihak Konfederasi me
 
 
 
-Lawan mereka di utara juga memiliki dolar. Tepat di atas, Anda dapat melihat dolar Konfederasi, sementara di bawah Anda dapat mengamati dolar Utara. Uang ini disebut "greenback" karena bagian belakangnya berwarna hijau.
+Pihak oposisi dari Utara mengeluarkan mata uang mereka sendiri, yang dikenal sebagai "uang kertas hijau" karena warna di bagian belakang uang kertas tersebut seperti yang ditunjukkan di bawah ini.
 
 
 

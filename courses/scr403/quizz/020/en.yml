@@ -1,0 +1,12 @@
+question: "What are the two side effects used in Simplicity for Bitcoin and Liquid applications?"
+answer: "The Failure effect (an exception of type 1) and the Reader effect (access to transaction environment data)."
+wrong_answers:
+  - "The State effect (mutable variables) and the Writer effect (logging to a transaction log)."
+  - "The IO effect (network communication) and the Memory effect (dynamic memory allocation)."
+  - "The Continuation effect (callbacks) and the Nondeterminism effect (multiple execution paths)."
+explanation: >-
+  Simplicity uses exactly two side effects for blockchain applications. The Failure effect allows
+  computations to abort (e.g., when a signature check fails), and the Reader effect allows
+  expressions to read data from the transaction environment. The core combinators remain pure —
+  side effects are introduced through jets.
+reviewed: true

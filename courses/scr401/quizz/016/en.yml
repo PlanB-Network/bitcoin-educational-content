@@ -1,0 +1,13 @@
+question: What is the relationship between Simplicity and Gentzen's sequent calculus?
+answer: Simplicity's nine core combinators correspond to a tweaked functional interpretation of the conjunctive-disjunctive fragment of the sequent calculus.
+wrong_answers:
+  - Simplicity was directly translated from sequent calculus proofs into code.
+  - Gentzen's sequent calculus is used at runtime to type-check Simplicity programs.
+  - They are unrelated; the similarity is coincidental.
+explanation: >-
+  The nine core rules of Simplicity closely resemble rules in Gentzen's
+  sequent calculus, analogous to the Curry-Howard correspondence between
+  lambda calculus and natural deduction. This connection ensures that
+  types in the premises are smaller than in conclusions, which the Bit
+  Machine exploits for efficient execution with minimal data copying.
+reviewed: false

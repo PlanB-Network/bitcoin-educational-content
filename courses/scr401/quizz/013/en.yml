@@ -1,0 +1,13 @@
+question: Why does Simplicity use static analysis instead of a dynamic gas model like Ethereum?
+answer: To determine resource bounds before execution begins, guaranteeing predictable validation costs.
+wrong_answers:
+  - Because static analysis is faster to implement for developers.
+  - Because Ethereum's gas model was patented and unavailable.
+  - Because Simplicity programs are too short to need metering.
+explanation: >-
+  Simplicity's static analysis allows the network to know exactly how
+  much computation a program requires before it runs. This eliminates
+  the unpredictability of dynamic metering, prevents denial-of-service
+  via resource exhaustion, and enables nodes to reject programs that
+  exceed limits without wasting computation.
+reviewed: false

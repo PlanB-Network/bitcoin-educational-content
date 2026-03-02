@@ -1,0 +1,12 @@
+question: In parallel composition, what happens to the input?
+answer: Both operations receive the same identical input, and their outputs are combined into a product type (pair).
+wrong_answers:
+  - The input is split in half, with each operation receiving one part.
+  - One operation processes the input first, and the other receives the modified result.
+  - The input is tagged and routed to one of the two operations.
+explanation: >-
+  Parallel composition gives the same unmodified input to both operations
+  simultaneously. The results are bundled into a product type (pair). In
+  Simplicity, this uses the pair combinator, written f ▵ g, which produces
+  ⟨f(a), g(a)⟩ for input a.
+reviewed: false

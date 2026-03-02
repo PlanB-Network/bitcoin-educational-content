@@ -1,0 +1,11 @@
+question: What does the 'take' combinator do?
+answer: It extracts the left component from a product type, discarding the right.
+wrong_answers:
+  - It removes an element from a sum type.
+  - It sequentially composes two operations.
+  - It wraps a value with a left tag to create a sum type.
+explanation: >-
+  The take combinator is an extractor for product types. Given take f
+  applied to a pair ⟨a, b⟩, it discards b and applies f to a. Combined
+  with iden, take iden extracts the first element of any pair.
+reviewed: false

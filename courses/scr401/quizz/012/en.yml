@@ -1,0 +1,13 @@
+question: Why are Simplicity expressions serialized as DAGs rather than trees?
+answer: To prevent exponential growth — shared sub-expressions are stored once and referenced multiple times.
+wrong_answers:
+  - Because trees cannot represent conditional branching.
+  - To enable parallel execution on multi-core processors.
+  - Because the Liquid Network protocol requires DAG format.
+explanation: >-
+  Simplicity expressions naturally form trees that could grow exponentially
+  as complexity increases. By serializing as directed acyclic graphs (DAGs),
+  sub-expressions that appear multiple times are stored once and referenced
+  by multiple parents. This keeps actual program sizes growing linearly
+  rather than exponentially.
+reviewed: false

@@ -1,0 +1,12 @@
+question: What is a sum type (A + B) in Simplicity?
+answer: A tagged union where a value is either a left-tagged value of type A or a right-tagged value of type B.
+wrong_answers:
+  - A type that contains all values from both A and B simultaneously.
+  - An arithmetic addition of the two types' sizes.
+  - A function type that maps from A to B.
+explanation: >-
+  A sum type A + B is a tagged union. Each value carries a one-bit tag
+  indicating whether it's a left variant (of type A) or a right variant
+  (of type B). Even when A and B are the same type, left-tagged and
+  right-tagged values remain distinct.
+reviewed: false

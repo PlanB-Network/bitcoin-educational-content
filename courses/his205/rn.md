@@ -3445,19 +3445,19 @@ Turavye amateka y’amafaranga y’ububiko, hari ikintu gishimishije kigaragara:
 
 
 
-Muri Espagne, idolari ry’Esupanye ryari rihambaye mu bucuruzi bwo kw’isi yose mu myaka hafi 200, canecane hagati y’Ubushinwa n’Uburayi. Ivyo biceri mbere vyari gushobora kuboneka ku vyambu vy’Ubushinwa. Kandi aho niho turonka umuco w’amaso mu mateka: idolari ry’Amerika rikomoka ataco rihinduye kuri iyo mafaranga. Igihe Leta Zunze Ubumwe za Amerika zashingwa muri 1792, zashizeho itegeko ryo gukora amahera yazo bwite, kandi amadolari yayo ya mbere yaremewe ku citegererezo c’idolari ry’Igisupanyoli, haba mu izina no mu bunini bw’ibiceri.
+Muri Espagne, idolari ry’Espagne ryari rihambaye mu bucuruzi bwo kw’isi yose mu myaka hafi 200, canecane hagati y’Ubushinwa n’Uburayi. Ivyo biceri twanabisanga mubivuko vy’Ubushinwa. Kandi aho niho tuvunirwa: idolari ry’Amerika rikomoka ataco rihinduye kuri iyo mafaranga. Igihe Leta Zunze Ubumwe za Amerika zashingwa muri 1792, zashizeho itegeko ryo gukora amahera yazo bwite, kandi amadolari yayo ya mbere yaremewe ku citegererezo c’idolari ry’Igi espagnol, haba mu izina no mu bunini bw’ibiceri.
 
 
 
-Kugira ngo mumenye agaciro kayo, idolari ry’Amerika mu ntango ryari igiceri c’ifeza gipima hafi ounce, canke hagati y’amayero 30 na 40 mu mahera y’ubu, bitandukanye n’amahera y’impapuro tuzi uno musi. Naho idolari ry’Igisupanyoli ryo, ryarakwiragijwe cane ku buryo rifatwa nk’ifaranga rya mbere ry’ukuri ryo kw’isi yose.
+Kugira ngo mumenye agaciro kayo, idolari ry’Amerika mu ntango ryari igiceri c’ifeza gipima hafi ounce, canke hagati y’amayero 30 na 40 mu mahera y’ubu, bitandukanye n’amahera y’impapuro mubihe vya none. Naho idolari ry’Igi espanol ryo, ryarakwiragijwe cane ku buryo rifatwa nk’ifaranga rya mbere ry’ukuri ryo kw’isi yose.
 
 
 
-Ariko rero, ukwo kwinjira kw’ivyuma vy’agaciro biva muri Amerika kwatumye ubutunzi butera imbere mu Buraya. Mu gihe c’Impinduka y’Ibiciro (c. 1540-1640), ibiciro vy’ubuzima mu Bwongereza vyaraduze incuro indwi. Muri Esupanye, ubwinshi bw’ifeza bwaragize ingaruka mbi ku muvumo w’ubutunzi, bukaba bwarabujije iterambere ry’ibigo vy’amabanki bikomeye.
+Ariko rero, ukwo kwinjira kw’ivyuma vy’agaciro biva muri Amerika kwatumye haba iduga ry'ibiciro i buraya. Mu gihe c’Impinduka y’Ibiciro (c. 1540-1640), ibiciro vy’ubuzima mu Bwongereza vyaraduze incuro indwi. Muri Espagne, ubwinshi bw’ifeza bwaragize ingaruka mbi ku muvumo w’ubutunzi, bukaba bwarabujije iterambere ry’ibigo vy’amabanki bikomeye.
 
 
 
-Mu nyuma, Esipanye yarashikiwe n’intambara nyinshi z’igisirikare (Flandre, Ubuholandi, Intambara y’Imyaka Mirongo Itatu), maze buhorobuhoro ubutunzi bwayo burasenyuka. Aho guca agaciro k’igiceri c’ifeza cari kizwi kw’isi yose, abategetsi bakurikiranye bahisemwo guca agaciro k’igiceri c’umuringa (vellón) cakoreshwa n’abanyagihugu bo ng’aho. Ivyo ni vyo nadondoye mbere n’aba Maravedi.
+Mu nyuma, Espagne yarashikiwe n’intambara nyinshi z’igisirikare (Flandre, Ubuholandi, Intambara y’Imyaka Mirongo Itatu), maze ubutunzi bwayo butangura gusenyuka buhoro buhoro. Aho gutesha agaciro igiceri c’ifeza cari kizwi kw’isi yose, abategetsi bakurikiranye bahisemwo guca agaciro k’igiceri c’umuringa (vellón) cakoreshwa n’abanyagihugu mukarere kabo. Ivyo ni vyo nadondoye mbere n’aba Maravedi.
 
 
 
@@ -3465,7 +3465,7 @@ Mu nyuma, Esipanye yarashikiwe n’intambara nyinshi z’igisirikare (Flandre, U
 
 
 
-Inyuma y’igihe c’ubutegetsi bwa Ibérie, **Ubuholandi** bwaje nk’igihugu gishasha c’ubudandaji mu kinjana ca 17. Ubucuruzi bwo mu kiyaga, VOC (Ishirahamwe ry’Abaholandi ry’Ubuhindi bwo mu Buseruko), n’ugushinga **Amsterdam Stock Exchange** (vyahumekewe n’iryo ry’i Anvers) ni vyo vyatumye iyo repubulika y’ubudandaji igira ikibanza nyamukuru.
+Inyuma y’igihe c’ubutegetsi bwa ibérique, **les Pays-Bas** bwaje nk’igihugu gishasha c’ubudandaji mu kinjana ca 17. Ubucuruzi bwo mu kiyaga, VOC (Ishirahamwe ry’Abaholandi ry’Ubuhindi bwo mu Buseruko), n’ugushinga **Amsterdam Stock Exchange** (vyahumekewe n’iryo ry’i Anvers) ni vyo vyatumye iyo repubulika y’ubudandaji igira ikibanza nyamukuru.
 
 
 
@@ -3476,25 +3476,25 @@ Inyuma y’igihe c’ubutegetsi bwa Ibérie, **Ubuholandi** bwaje nk’igihugu g
 
 
 
-Mu ifoto ya mbere iri hejuru, urashobora kubona Gulden yo mu 1722 (igiceri c’ifeza ciza cane), mu gihe mu ya kabiri, hariho igiceri casohowe na VOC.
+ifoto ya mbere iri hejuru, urashobora kubona Gulden yo mu 1722 (igiceri c’ifeza ciza cane), mu gihe mu ya kabiri, hariho igiceri casohowe na VOC.
 
 
-VOC yari ishirahamwe rikomeye cane ku gihe cayo: ryari rifise ingabo zaryo, mbere ryasohora n’amahera yaryo.
+VOC yari ishirahamwe rikomeye cane ku gihe cayo: ryari rifise igisirikare caryo, mbere ryarikorera n’amahera yaryo.
 
 
-Abaholandi ni bo bavumbuye ubu kapitalizimu bwa none, bwatanguye nk’uburyo bwo gutanga ingorane mu bikorwa birimwo ingorane nk’ugutembera mw’Isi Nshasha canke kurondera inzira nshasha z’ubudandaji. Amashirahamwe y’abanyamuryango yaratumye abashoramari benshi bashobora gukoranya amahera yabo maze bagasangira ingorane. Kugira ngo ivyo biganiro bishobore gukorwa neza, vyari ngombwa rero ko habaho inzego zishobora guhanahana amakuru no guhanahana ivyo bimenyetso. Gutyo, mu 1602, harashinzwe ishirahamwe rya mbere ry’abanyamuryango n’isoko ry’ubudandaji.
-
-
-
-Amafaranga y’Ubuholandi, **Gulden**, yararonse icizigiro kubera ubusuku bwayo mu ifeza, hanyuma yemerwa na Banki ya Amsterdam (1609), aho amafaranga yo kubika yacitse uburyo bw’amahera bukundwa cane mu Buraya. Iyi ni ingingo ihambaye cane yo kuvuga. Ego cane, hariho ibiceri, mugabo ico mu vy’ukuri cari amahera muri iyo misi cari ubwoko bw’amahera yo mu Vyanditswe. Nkako, ubudandaji bwinshi bwo kw’isi bwaca mu bitabu vya Banki y’i Amsterdam. Ivyo vyari ugutera imbere nyakuri mu vy’amabanki: ubudandaji mpuzamakungu ntibwari bugikoreshwa n’ibiceri vy’umubiri, ahubwo bwakoreshwa ata guca ku ruhande biciye mu nyandiko z’ivy’ubuhinga bwa banki.
+Abaholande ni bo bavumbuye capitalisme yomugihe ca none, bwatanguye nk’uburyo bwo gutez akaga mu bikorwa biteye akaga nk’ugutembera mukurondera Isi Nshasha canke kurondera inzira nshasha z’ubudandaji. Amashirahamwe y’abanyamuryango yaratumye abashoramari benshi bashobora gukoranya amahera yabo maze bagasangira ingorane. Kugira ngo ivyo biganiro bishobore gukorwa neza, vyari ngombwa rero ko habaho inzego zishobora guhanahana amakuru no guhanahana ivyo bimenyetso. Gutyo, mu 1602, harashinzwe ishirahamwe rya mbere ry’abanyamuryango n’isoko ry’ubudandaji.
 
 
 
-Ico gihe c’uguterimbere cararanzwe n’ukwinjira kwinshi kw’inzahabu n’ifeza, cane cane biva mu bindi bihugu bikoresha ugutera imbere kw’ibiciro canke ukugenzura amahera. Hariho umuntu aryoshe cane wo kuvuga: **Thomas Gresham**. Muri ico gihe, yakorera abami b’Abongereza mu Buholandi, akarongora uruja n’uruza rw’amahera hagati y’ivyo bihugu bibiri. Uwo Gresham nyene ni we yadusigiye **"Itegeko rya Gresham"** rizwi cane.
+Amafaranga y’Ubuholandi, **Gulden**, yararonse icizigiro kubera ukutagira inenge bwayo mw'ifeza, hanyuma yemerwa na Banki ya Amsterdam (1609), aho amafaranga yo kubika yacitse uburyo bw’amahera bukundwa cane mu Buraya. Iyi ni ingingo ihambaye cane yo kuvuga. Ego cane, hariho ibiceri, mugabo ico mu vy’ukuri cari amahera muri iyo misi cari ubwoko bw’amahera yo mu Vyanditswe. Nkako, ubudandaji bwinshi bwo kw’isi bwaca muri livre de compte y’i Amsterdam. Ivyo vyari ugutera imbere nyakuri mu vy’amabanki: ubudandaji mpuzamakungu ntibwari bugikoreshwa n’ibiceri vy’umubiri, ahubwo bwakoreshwa ata guca ku ruhande biciye mu nyandiko z’ivy’ubuhinga bwa banki.
 
 
 
-Naho ari ukwo, Ubwami bw’Ubuholandi na bwo nyene bwaciye bubura ubushobozi. Intambara n’Ubwongereza, ugusenyuka kw’itunga ry’Ubwongereza mu bihe vy’intambara, n’uguhiganwa n’ibindi bihugu (Ubufaransa n’Ubwongereza) vyagaragaje ko ubutegetsi bw’Abaholandi bwarangiriye. Inyuma y’intambara ya kane y’Abongereza n’Abaholandi (1780-84), ukugabanuka kw’ifaranga ry’i Gulden nk’ifaranga ry’ububiko ryaciye rihinduka ikintu kidashobora gusubirwamwo.
+Ico gihe c’uguterimbere cararanzwe n’ukwinjira kwinshi kw’inzahabu n’ifeza, cane cane biva mu bindi bihugu bikoresha iduga ry’ibiciro canke ukugenzura amahera. Hariho umuntu aryoshe cane wo kuvuga: **Thomas Gresham**. Muri ico gihe, yakorera abami b’Abongereza mu Buholandi, akarongora uruja n’uruza rw’amahera hagati y’ivyo bihugu bibiri. Uwo Gresham nyene ni we yadusigiye **"loi de Gresham"** rizwi cane.
+
+
+
+Naho ari ukwo, Ubwami bw’Ubuholandi na bwo nyene bwaciye bubura ubushobozi. Intambara n’Ubwongereza, ugusenyuka kw’itunga ry’Ubwongereza mu bihe vy’intambara, n’uguhiganwa n’ibindi bihugu (Ubufaransa n’Ubwongereza) vyarangiye ubutegetsi bw’Abaholandi babukoroye. Inyuma y’intambara ya kane y’Abongereza n’Abaholandi (1780-84), ukugabanuka kw’ifaranga ry’i Gulden nk’ifaranga ry’ububiko ryaciye rihinduka ikintu kidashobora gusubirwamwo.
 
 
 
@@ -3502,15 +3502,15 @@ Naho ari ukwo, Ubwami bw’Ubuholandi na bwo nyene bwaciye bubura ubushobozi. In
 
 
 
-Mu gihe ca Louis XIV, **Ubufaransa** bwacitse igihugu gikomeye kuruta ibindi vyose mu Buraya. Ariko rero, amafaranga y’Ubufaransa ntiyigeze ashika ku rwego rwo kuba ikintu gihambaye: ugucika kw’agaciro kenshi, imisoro myinshi, n’intambara zitwara amahera menshi (Ishirahamwe ry’i Augsbourg, Intambara y’Ugukurikirana kw’Abanyasipaniye, n’ibindi) vyararemereye cane ugushikama kw’urutonde rw’amahera.
+Mu gihe ca Louis XIV, **Ubufaransa** bwacitse igihugu gikomeye kuruta ibindi vyose mu Buraya. Ariko rero, amafaranga y’Ubufaransa ntiyigeze ashika ku rwego rwo kuba amahera yambere ahambaye: ugucika kw’agaciro kenshi, imisoro myinshi, n’intambara zitwara amahera menshi (Ishirahamwe ry’i Augsbourg, Intambara y’Ugukurikirana kw’Abanya espagne, n’ibindi) vyararemereye cane ugushikama kw’urutonde rw’amahera.
 
 
 
-Igerageza rya mbere rikomeye ry’amahera y’impapuro ryakozwe na John Law (1716-1720). Banque Générale yasohoye amafaranga ashigikiwe n’amasezerano y’imyenda ya Leta. Uwo mugambi waratumye haba igihuhusi c’ugutekereza ku bintu vyinshi maze kirasenyuka (igihuhusi ca Mississippi) mu 1720. Ico cago caratumye Ubufaransa buguma butizigira amahera y’impapuro. Ivyo bintu biteye akaga ni vyo vyatumye Richard Cantillon aba umutunzi kubera iyo nzira yo gutanga ingingo ngenderwako, ubu izwi kw’izina rya Cantillon effect, aho gucapura amahera bitunga abafise uburenganzira bwo gucapura.
+Igerageza rya mbere rikomeye ry’amahera y’impapuro ryakozwe na John Law (1716-1720). Banque Générale yasohoye amafaranga ashigikiwe n’amasezerano y’amadeni ya Leta. Uwo mugambi waratumye haba igihuhusi c’ugutekereza ku bintu vyinshi maze kirasenyuka (la ‘Mississippi Bubble’) mu 1720. Ico cago caratumye Ubufaransa buguma butizigira amahera y’impapuro. Ivyo bintu biteye akaga ni vyo vyatumye Richard Cantillon aba umutunzi kubera iyo nzira yo gutanga ingingo ngenderwako, ubu izwi kw’izina rya Cantillon effect, aho gucapura amahera bitunga abafise uburenganzira bwo gucapura.
 
 
 
-Igihe ukwo kutizigira kwari guhera, ikindi gitero c’impapuro z’igifaransa: **assignats** z’abanyagihugu. Ivyo binyamakuru vyasohowe kuva mu 1790 gushika ubu bishingiye ku gufata ivy’abakuru b’idini, ivyo binyamakuru vyarashikiwe n’ugutera imbere kw’ibiciro, ivyo bikaba vyatumye biba ivy’ugutera imbere kw’ibiciro vya mbere mu mateka birenze 50% ku kwezi. Mu 1795, naho agaciro kavyo kari kagwijwe, vyariko biragurishwa ku bice bikeyi gusa kw’ijana vy’agaciro kavyo ka mbere.
+Igihe ukwo kutizigira kwari guhera, ikindi gitero c’impapuro z’igifaransa: **assignats** z’abanyagihugu. Ivyo binyamakuru vyasohowe kuva mu 1790 gushika ubu bishingiye ku gufata ivy’abakuru b’idini, ivyo binyamakuru vyarashikiwe n’ugutera imbere kw’ibiciro, ivyo bikaba vyatumye biba ukuduga kw’ibiciro vya mbere mu mateka birenze 50% ku kwezi. Mu 1795, naho agaciro kavyo kari kagwijwe, vyariko biragurishwa ku bice bikeyi gusa kw’ijana vy’agaciro kavyo ka mbere.
 
 
 
@@ -3522,7 +3522,7 @@ Amategeko arushirizaho kubuzanya abantu yararondeye gutegeka uwo muntu, ariko nt
 
 
 
-Uko ayo mahera y’impapuro yasubirira ibiceri vyose vy’agaciro vy’agaciro, bikaba bihuye n’Itegeko rizwi cane rya Gresham, ni ko habaye ubukene bw’ibiceri. Kugira ngo bacure ibiceri bishasha, bakoresha ivyuma vy’inkengeri bafashe abakuru b’idini. Aha musi urashobora kubona igipande ciza cane c’icuma c’inkengeri, gikozwe mu muringa wagarutse mu gufukura ibiceri vyakuwe mu bakuru b’idini.
+Nkuko ayo mahera y’impapu yatumye hazimangana amahera yose yo mumabuye yagaciro, bihuye n’Itegeko rizwi cane rya Gresham, ni ko habaye ubukene bw’ibiceri. Kugira ngo bacure ibiceri bishasha, baciye bakoresha ivyuma bivuye munkengeri bafashe abakuru b’idini. Aha musi urashobora kubona igipande ciza cane c’icuma c’inkengeri, gikozwe mu muringa wagarutse mu gufukura ibiceri vyakuwe mu bakuru b’idini.
 
 
 
@@ -3555,7 +3555,7 @@ Kandi nk’igikoresho c’ubuhinga, urashobora kubona ibice vyiza kandi bishimis
 Umwami yari igiceri c’amahera - igiceri c’inzahabu mu ntango cari gifise agaciro k’ipound imwe.
 
 
-Imbere y’uwo mwami rurangiranwa hari igiti citwa guinée, kikaba cari gikoresha iyo ngingo ngenderwako nyene. Gineya yitiriwe izina ry’ivyuma vy’agaciro vyari muri yo, bikaba vyava mu karere ka Gineya.
+Imbere y’uwo mwami rurangiranwa hari igiti citwa guinée, kikaba cari gikoresha iyo ngingo ngenderwako nyene. Gineya yitiriwe izina ry’ivyuma vy’agaciro vyari muri yo, bikaba vyava mu karere ka Guinée.
 
 
 ![image](assets/rn/037.webp)
@@ -3578,7 +3578,7 @@ Dukurikije iki gice kivuga ku mateka y’amafaranga y’ububiko bwa mbere n’in
 
 
 
-### Intango y'amabanki n'amabanki y'imbere
+### Ivuka ry'amabanki 
 
 
 Kera mu kinjana ca 13, Abataliyano (Florenze, Genova, Venise...) barateguye ubuhinga bwo guharura amafaranga bukoreshwa incuro zibiri. Mu nyuma, **Anvers** (mu kinjana ca 16) ni co cabaye ikibanza gihambaye mu vy’ubutunzi mu Buraya bwo mu Buraruko, uruhara rwaje gufatwa na **Amsterdam**, bivuye ku kigo ca Amsterdam Stock Exchange (1609), aho imigabane ya VOC yagurishwa.
@@ -3593,18 +3593,18 @@ I Anvers haraba amasoko y’abadandaza aho abadandaza bakunda gukoranira kugira 
 
 
 
-Ukwo gutera imbere kwatumye habaho ibigo vy’amabanki vy’ubuhinga buhanitse kuruta. **Abanyabanki b’Abalombard** n’abacuruzi b’Abaholandi bo mu nyuma baratunganije neza ibikoresho vy’inguzanyo (amafaranga y’inguzanyo, amafaranga y’amasezerano, n’ibindi). Uburyo bwa banki bwo muri iki gihe bushingiye kuri iki ciyumviro: amahera ashobora kuba inguzanyo, atari ivyuma gusa.
+Ukwo gutera imbere kwatumye habaho amavuka y'amabanki ahanitse. **Abanyabanki b’Aba lombards** n’abacuruzi b’Abaholandi hanyuma baratunganije neza ibikoresho vy’inguzanyo (amafaranga y’inguzanyo, amafaranga y’amasezerano, n’ibindi). Uburyo bwa banki bwo muri iki gihe bushingiye kuri iki ciyumviro: amahera ashobora kuba inguzanyo, atari ivyuma gusa.
 
 
 
 Nk’uko mubibona, ivyo bidusubiza ku kibazo cacu c’intango ku bijanye n’inkomoko y’amahera.
 
 
-Amahera yoba ava mu kintu kiva mu gukenera guhindura, canke ava mu ngurane? Ivyiyumviro vy’ivyo biracariho muri iki gice.
+Amahera yoba ava mu kintu kiva mu gukenera guhinduranya, canke ava mu ngurane? Ivyiyumviro vy’ivyo biracariho muri iki gice.
 
 
 
-### Akarorero k’i Suède: Ibanki y’i Stockholms n’ibanki y’i Riksens Ständers
+### Akarorero k’i Suède: Ibanki y’i Stockholms Banco y’i Riksens Ständers Bank
 
 
 

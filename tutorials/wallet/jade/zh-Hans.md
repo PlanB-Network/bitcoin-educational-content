@@ -1,7 +1,6 @@
 ---
 name: Jade
-
-description: 如何设置您的JADE设备
+description: 如何设置您的 Jade 设备
 ---
 
 ![image](assets/cover.webp)
@@ -9,49 +8,49 @@ description: 如何设置您的JADE设备
 ## 教学视频
 
 ![video](https://www.youtube.com/watch?v=_U1jsTeqbTw)
-Blockstream Jade - 移动比特币硬件钱包完整教程，由BTCsession提供
+Blockstream Jade - 移动比特币硬件钱包完整教程，由 BTCsession 创作
 
 ## 完整的写作指南
 
 ![image](assets/cover2.webp)
 
-### 先决条件
+### 前提条件
 
-1. 下载Blockstream Green的最新版本。
+1. 下载 Blockstream Green 的最新版本。
 
-2. 安装此驱动程序，确保您的计算机能识别Jade。
+2. 安装此驱动程序，确保您的计算机能识别 Jade。
 
 ### 桌面设置
 
 ![full guide](https://youtu.be/0fPVzsyL360)
 
-打开Blockstream Green，然后点击设备下的Blockstream标志。
+打开 Blockstream Green，然后点击 “Devices” 下的 Blockstream 图标。
 
 ![image](assets/1.webp)
 
-使用随附的USB线将Jade连接到您的桌面。
+使用随附的 USB 数据线将 Jade 连接到您的电脑。
 
-> 注意：如果您的计算机未能识别Jade，请确保下载本指南中提到的驱动程序。
+> **注意：**如果您的电脑无法识别 Jade，请确保已安装必要的驱动程序，并检查是否是 USB 权限问题。
 
-一旦您的Jade在Green中显示，通过点击检查更新并选择最新的固件版本来更新Jade。使用Jade上的滚轮或切换按钮来确认并继续更新。确保您的Jade仍然显示“初始化”按钮，否则您将必须等到设置Jade之后再升级它。如有必要，使用返回按钮回到此屏幕。
+Jade 在 Green 界面上显示后，点击“检查更新”并选择最新固件版本进行更新。使用 Jade 上的滚轮或开关确认并继续更新。请确保 Jade 仍然显示 “Initialize” 按钮，否则您需要在设置 Jade 后才能进行升级。如有必要，请使用返回按钮返回此屏幕。
 
 ![image](assets/2.webp)
 
-更新Jade的固件后，选择在您想要使用的网络和安全策略上设置Jade。
+更新 Jade 固件后，请在您想要使用的网络和安全策略中选择 “Setup Jade”。
 
-> 提示：登录屏幕下方显示的安全策略列在类型下。如果您不确定是选择单签名还是多签名盾，请查看我们的指南。(https://help.blockstream.com/hc/en-us/articles/4403642609433)
+> **提示：**安全策略列在下方登录屏幕的 “Type” 下方。如果您不确定选择 “Singlesig” 还是 “Multisig”，请参阅我们的指南，点击[此处](https://help.blockstream.com/hc/en-us/articles/4403642609433)。
 
 ![image](assets/3.webp)
 
-接下来，选择创建一个新钱包并选择12个单词来生成您的恢复短语。点击高级将提供给您12个和24个单词恢复短语的选项。
+接下来，选择创建新钱包，并选择 12 个单词来生成您的助记词。点击 “Advanced” 按钮，您可以选择 12 个单词或 24 个单词的助记词。
 
 ![image](assets/4.webp)
 
-在纸上（或使用专用的恢复短语备份设备以增加安全性）离线记录恢复短语。然后，使用Jade顶部的滚轮或切换按钮来验证您的恢复短语。此步骤确保您已正确记录下来。
+将助记词离线记录在纸上（或使用专用助记词备份设备以确保安全）。然后，使用 Jade 顶部的旋钮或开关来验证您的助记词。此步骤可确保您已正确记录。
 
 ![image](assets/5.webp)
 
-设置并确认您的六位数PIN码。这用于每次您登录钱包时解锁Blockstream Jade。
+设置并确认您的六位数 PIN 码。这用于每次您登录钱包时解锁 Blockstream Jade。
 
 ![image](assets/6.webp)
 
@@ -59,33 +58,35 @@ Blockstream Jade - 移动比特币硬件钱包完整教程，由BTCsession提供
 
 ![image](assets/7.webp)
 
-使用钱包后，断开您的Blockstream Jade与设备的连接。下次您想在Blockstream Jade上使用钱包时，只需重新连接您的设备并按照提示操作。
+使用完钱包后，请断开 Blockstream Jade 与设备的连接。下次想在 Blockstream Jade 上使用钱包时，只需重新连接设备并按照提示操作即可。
 
 来源：https://help.blockstream.com/hc/en-us/articles/17478506300825
 
-### 附录A - 验证Green钱包下载文件
+### 附录 A - 验证 Green Wallet 下载文件
 
-验证下载意味着检查您下载的文件自开发者发布以来未被修改。
+验证下载文件是指检查您下载的文件自开发者发布以来是否已被修改。
 
-我们通过检查签名（由开发者的私钥产生）与下载的文件以及开发者的公钥一起，通过gpg –verify函数返回TRUE结果来完成这一操作。接下来我会向您展示如何做到这一点。如果您想了解这方面的背景知识，我有这个指南和那个指南。
+我们通过检查签名（由开发者私钥生成）、下载的文件以及开发者的公钥，并使用 gpg --verify 函数进行验证，确保结果为 TRUE。接下来我将向您展示具体操作方法。
 
-首先，我们获取签名密钥：
-对于Linux用户，打开终端，并运行以下命令（你应该直接复制并粘贴文本，并包括引号）：
+首先，我们需要获取签名密钥：
+
+对于 Linux 系统，打开终端并运行以下命令（只需复制粘贴文本，并包含引号）：
+
 ```bash
 gpg --keyserver keyserver.ubuntu.com --recv-keys "04BE BF2E 35A2 AF2F FDF1 FA5D E7F0 54AA 2E76 E792"
 ```
 
-对于Mac用户，你需要做同样的事情，但首先你需要下载并安装GPG Suite。
+对于 Mac 系统，操作步骤相同，但需要先下载并安装 GPG Suite。
 
-对于Windows用户，你需要做同样的事情，但首先你需要下载并安装GPG4Win。
+对于 Windows 系统，操作步骤相同，但需要先下载并安装 GPG4Win。
 
-你将会收到一个输出，表示公钥已被导入。
+您将看到一条输出信息，提示公钥已导入。
 
 ![image](assets/9.webp)
 
-此图片的alt属性为空；其文件名为image-3-1024x162.webp
+这张图片的 alt 属性为空；它的文件名是 image-3-1024x162.webp
 
-接下来，我们需要获取包含软件哈希值的文件。它存储在Blockstream的GitHub页面上。首先访问他们的信息页面，然后点击“desktop”链接。它会将你带到GitHub上的最新发布页面，在那里你会看到一个指向SHA256SUMS.asc文件的链接，这是一个包含我们下载的程序的Blockstream发布的哈希值的文本文档。
+接下来，我们需要获取包含软件哈希值的文件。它存储在 Blockstream 的 GitHub 页面上。首先访问他们的信息页面（链接在此），然后点击 “desktop” 链接。这将带你到 GitHub 上的最新版本页面，在那里你会看到一个指向 SHA256SUMS.asc 文件的链接，这是一个文本文件，其中包含 Blockstream 发布的我们下载的程序的哈希值。
 
 ![image](assets/10.webp)
 
@@ -93,7 +94,7 @@ GitHub:
 
 ![image](assets/11.webp)
 
-虽然不是必须的，但在保存到磁盘后，我将“SHA256SUMS.asc”重命名为“SHA256.txt”，以便在Mac上使用文本编辑器更容易打开文件。这是文件的内容：
+虽然不是必须的，但我在保存到磁盘后将 “SHA256SUMS.asc” 重命名为 “SHA256.txt”，以便在 Mac 上使用文本编辑器更轻松地打开该文件。文件内容如下：
 
 ![image](assets/12.webp)
 
@@ -103,7 +104,7 @@ GitHub:
 
 顺序并不重要，但在检查哈希之前，我们将验证哈希消息是真实的（即没有被篡改）。
 
-打开终端。你需要处于SHA256SUMS.asc文件下载的正确目录。假设你将其下载到了“Downloads”目录，对于Linux和Mac，像这样更改目录（区分大小写）：
+打开终端。你需要处于 SHA256SUMS.asc 文件下载的正确目录。假设你将其下载到了 “Downloads” 目录，对于 Linux 和 Mac，像这样更改目录（区分大小写）：
 
 ```bash
 cd Downloads
@@ -121,40 +122,41 @@ gpg --verify SHA256SUMS.asc
 
 ![image](assets/13.webp)
 
-此图片的alt属性为空；其文件名为image-4-1024x165.webp
+这张图片的 alt 属性为空；其文件名是 image-4-1024x165.webp。
 
-这个输出确认签名是好的，我们确信“info@greenaddress.it”的私钥签署了数据（哈希报告）。
-现在我们应该对下载的zip文件进行哈希处理，并将输出结果与已发布的结果进行比较。请注意，在SHA256SUMS.asc文件中，有一段文字说“Hash: SHA512”，这让我感到困惑，因为文件明显包含了SHA256的输出，所以我打算忽略这一点。
+此输出确认签名有效，我们确信“info@greenaddress.it”的私钥已对数据（哈希报告）进行了签名。
 
-对于Mac和Linux，打开终端，导航到zip文件下载的位置（可能你需要再次输入“cd Downloads”，除非你自那以后没有关闭终端）。顺便说一下，你可以通过输入PWD（“print working directory”），随时检查你所在的目录，如果这一切对你来说很陌生，观看一个快速的YouTube视频，搜索“如何导航Linux/Mac/Windows文件系统”会很有帮助。
+现在我们应该对下载的 zip 文件进行哈希运算，并将输出结果与已发布的版本进行比较。请注意，SHA256SUMS.asc 文件中有一段文字写着 “Hash: SHA512”，这让我感到困惑，因为该文件中明明包含 SHA256 的输出，所以我将忽略它。
 
-要对文件进行哈希处理，请输入以下内容：
+对于 Mac 和 Linux 系统，请打开终端，前往到 zip 文件的下载位置（可能需要再次输入“cd Downloads”，除非您之后没有关闭终端）。顺便说一下，您可以随时通过输入 PWD（“打印当前工作目录”）来查看当前所在的目录。如果您对这些都不熟悉，可以搜索 “如何浏览 Linux/Mac/Windows 文件系统” 观看一个简短的 YouTube 视频。
+
+为了获取该文件，请输入以下命令：
 
 ```bash
 shasum -a 256 BlockstreamGreen_MacOS_x86_64.zip
 ```
 
-你应该检查你的文件确切叫什么，并在需要时修改上面蓝色的文本。
+您应该检查一下您的文件确切名称，并根据需要修改上面蓝色字体部分的文本。
 
-你会得到像这样的输出（如果文件与我的不同，你的输出也会不同）：
+您将得到类似这样的输出（如果您的文件与我的不同，您的输出也会有所不同）：
 
 ![image](assets/14.webp)
 
-接下来，将哈希输出与SHA256SUMS.asc文件中的内容进行视觉比较。如果它们匹配，那么--> 成功！恭喜。
+接下来，将哈希输出与 SHA256SUMS.asc 文件中的内容进行比较。如果它们匹配，则表示成功！恭喜！
 
 来源：https://armantheparman.com/jade/
 
-### 在Sparrow上使用
+### 在 Sparrow 上使用
 
-如果你已经知道如何使用Sparrow，那么一如既往：
+如果您已经知道如何使用 Sparrow，那么操作与以往相同：
 
-> 注意：这个过程与Specter一样
+> 注意：例如，使用 Specter 的过程也相同
 
-使用这里提供的链接下载Sparrow。
+使用此处的链接下载 Sparrow。
 
 ![image](assets/14.5.webp)
 
-点击下一步，跟随设置向导了解不同的连接选项。
+点击 “Next” 按照设置指南了解不同的连接选项。
 
 ![image](assets/15.webp)
 
@@ -162,40 +164,40 @@ shasum -a 256 BlockstreamGreen_MacOS_x86_64.zip
 
 ![image](assets/16.webp)
 
-为你的钱包输入一个名称，然后点击创建钱包。
+输入您的钱包名称，然后点击 “Create Wallet”。
 
 ![image](assets/17.webp)
 
-选择你想要的策略和脚本类型，然后选择连接的硬件钱包。
+选择您所需的策略和脚本类型，然后选择 “Connected Hardware Wallet”。
 
-> 注意：如果你之前使用Blockstream Jade作为单签名钱包与Blockstream Green一起使用，并希望在Sparrow中查看你的交易，请确保脚本类型与Green中包含你资金的账户类型匹配。你还需要匹配派生路径。
+> 注意：如果您之前曾将 Blockstream Jade 作为 Blockstream Green 的单签名钱包使用，并且想要在 Sparrow 中查看您的交易记录，请确保脚本类型与您在 Blockstream Green 中包含资金的账户类型相匹配。您还需要确保派生路径也匹配。
 
 ![image](assets/18.webp)
 
-插入你的Blockstream Jade并点击扫描。然后，系统会提示你在Jade上输入PIN码。
+插入您的 Blockstream Jade 并点击扫描。然后，系统会提示你在 Jade 上输入 PIN 码。
 
-> 提示：在连接你的Jade之前，请确保Blockstream Green应用没有打开。如果Green打开了，这可能会导致你的Jade在Sparrow中无法被检测到。
+> 提示：在连接 Jade 之前，请确保 Blockstream Green 应用未打开。如果 Green 处于开启状态，可能会导致 Sparrow 无法识别您的 Jade 钱包。
 
 ![image](assets/19.webp)
 
-选择导入密钥库以导入默认账户的公钥，或选择箭头手动选择你想要使用的派生路径。
+选择 “Import Keystore” 导入默认账户的公钥，或点击箭头手动选择您想要使用的密钥派生路径。
 
 ![image](assets/20.webp)
 
-在你想要的密钥被导入后，点击应用。
+导入所需的密钥后，点击 “Apply”。
 
 ![image](assets/21.webp)
 
-你现在已经成功设置了你的钱包，你可以开始使用Sparrow和Blockstream Jade接收、存储和花费你的比特币了。
+您已成功设置钱包，现在可以开始使用 Sparrow 和 Blockstream Jade 接收、存储和使用您的比特币。
 
-> 注意：如果你之前使用Jade与Blockstream Green作为多签名盾牌钱包使用，你不应该期望你的新Sparrow钱包显示相同的余额 - 这些是不同的钱包。要再次访问你的多签名盾牌钱包，只需将你的Jade重新连接到Blockstream Green即可。
+> 注意：如果您之前使用 Jade 搭配 Blockstream Green 作为多签名防护钱包，则不应期望新的 Sparrow Walelt 显示相同的余额——它们是不同的钱包。要再次访问您的多签名防护钱包，只需将您的 Jade 重新连接到 Blockstream Green 即可。
 
 ![image](assets/22.webp)
 
 来源：https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
 
-### green app
-如果您更倾向于使用移动设备，可以将其与Blockstream Green一起使用
-- 如何将Blockstream Jade与Green一起设置 | Blockstream Jade - https://youtu.be/7aacxnc6DHg
+### Blockstream Green 应用程序
+如果您更倾向于使用移动设备，可以将其与 Blockstream Green 一起使用
+- 如何将 Blockstream Jade 与 Green 一起设置 | Blockstream Jade - https://youtu.be/7aacxnc6DHg
 
-- 如何接收比特币到Jade钱包 | Blockstream Jade - https://youtu.be/CVtcDdiPqLA
+- 如何接收比特币到 Jade 钱包 | Blockstream Jade - https://youtu.be/CVtcDdiPqLA

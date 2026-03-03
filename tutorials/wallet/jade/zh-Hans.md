@@ -86,7 +86,7 @@ gpg --keyserver keyserver.ubuntu.com --recv-keys "04BE BF2E 35A2 AF2F FDF1 FA5D 
 
 这张图片的 alt 属性为空；它的文件名是 image-3-1024x162.webp
 
-接下来，我们需要获取包含软件哈希值的文件。它存储在 Blockstream 的 GitHub 页面上。首先访问他们的信息页面（链接在此），然后点击 “desktop” 链接。这将带你到 GitHub 上的最新版本页面，在那里你会看到一个指向 SHA256SUMS.asc 文件的链接，这是一个文本文件，其中包含 Blockstream 发布的我们下载的程序的哈希值。
+接下来，我们需要获取包含软件哈希值的文件。它存储在 Blockstream 的 GitHub 页面上。首先访问他们的信息页面（链接在此），然后点击 “desktop” 链接。这将带您到 GitHub 上的最新版本页面，在那里您会看到一个指向 SHA256SUMS.asc 文件的链接，这是一个文本文件，其中包含 Blockstream 发布的我们下载的程序的哈希值。
 
 ![image](assets/10.webp)
 
@@ -104,21 +104,21 @@ GitHub:
 
 顺序并不重要，但在检查哈希之前，我们将验证哈希消息是真实的（即没有被篡改）。
 
-打开终端。你需要处于 SHA256SUMS.asc 文件下载的正确目录。假设你将其下载到了 “Downloads” 目录，对于 Linux 和 Mac，像这样更改目录（区分大小写）：
+打开终端。您需要处于 SHA256SUMS.asc 文件下载的正确目录。假设您将其下载到了 “Downloads” 目录，对于 Linux 和 Mac，像这样更改目录（区分大小写）：
 
 ```bash
 cd Downloads
 ```
 
-当然，你必须在这些命令后按<enter>键。对于Windows，打开CMD（命令提示符），并输入同样的命令（尽管它不区分大小写）。
+当然，您必须在这些命令后按<enter>键。对于Windows，打开CMD（命令提示符），并输入同样的命令（尽管它不区分大小写）。
 
-对于Windows和Mac，你需要已经按照前面的指示下载了GPG4Win和GPG Suite。对于Linux，gpg随操作系统提供。从终端（或Windows的CMD），输入此命令：
+对于Windows和Mac，您需要已经按照前面的指示下载了GPG4Win和GPG Suite。对于Linux，gpg随操作系统提供。从终端（或Windows的CMD），输入此命令：
 
 ```bash
 gpg --verify SHA256SUMS.asc
 ```
 
-文件名的确切拼写（用红色标出）可能在你获取文件的当天有所不同，所以确保命令与下载的文件名匹配。你应该得到这个输出，并忽略有关受信任签名的警告——这只意味着你还没有手动告诉计算机你信任我们之前导入的公钥。
+文件名的确切拼写（用红色标出）可能在您获取文件的当天有所不同，所以确保命令与下载的文件名匹配。您应该得到这个输出，并忽略有关受信任签名的警告——这只意味着您还没有手动告诉计算机您信任我们之前导入的公钥。
 
 ![image](assets/13.webp)
 
@@ -160,7 +160,7 @@ shasum -a 256 BlockstreamGreen_MacOS_x86_64.zip
 
 ![image](assets/15.webp)
 
-选择你想要的服务器，然后选择创建新钱包。
+选择您想要的服务器，然后选择创建新钱包。
 
 ![image](assets/16.webp)
 
@@ -174,7 +174,7 @@ shasum -a 256 BlockstreamGreen_MacOS_x86_64.zip
 
 ![image](assets/18.webp)
 
-插入您的 Blockstream Jade 并点击扫描。然后，系统会提示你在 Jade 上输入 PIN 码。
+插入您的 Blockstream Jade 并点击扫描。然后，系统会提示您在 Jade 上输入 PIN 码。
 
 > 提示：在连接 Jade 之前，请确保 Blockstream Green 应用未打开。如果 Green 处于开启状态，可能会导致 Sparrow 无法识别您的 Jade 钱包。
 

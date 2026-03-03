@@ -51,8 +51,7 @@ Jade Plus 使用基于 “虚拟安全元件”（virtual secure element）的�
 
 ![JADE-PLUS-SPARROW](assets/fr/02.webp)
 
-盒子里有 ：
-
+在盒子内，您会看到以下物品 ：
 
 - Le Jade Plus；
 - USB-C 电缆；
@@ -90,7 +89,7 @@ Jade Plus 使用基于 “虚拟安全元件”（virtual secure element）的�
 
 ![Image](assets/fr/08.webp)
 
-点击 "*继续*"按钮，显示新的恢复短语。
+点击 "*Continue*" 按钮，显示新的恢复助记词。
 
 ![Image](assets/fr/09.webp)
 
@@ -255,9 +254,9 @@ PIN 码用于解锁您的 Jade 设备，并防止未经授权的物理访问。�
 
 ## 添加 BIP39 Passphrase（密语）
 
-BIP39 密码短语是一个可选密码，您可以自由选择，它会添加到您的助记词中，以增强钱包安全性。启用此功能后，访问您的比特币钱包需要同时输入助记词和密码短语。缺少其中任何一个，都将无法恢复钱包。
+BIP39 密语是一个可选密码，您可以自由选择，它会添加到您的助记词中，以增强钱包安全性。启用此功能后，访问您的比特币钱包需要同时输入助记词和密语。缺少其中任何一个，都将无法恢复钱包。
 
-在 Jade Plus 上配置此选项之前，强烈建议您阅读以下文章，以充分了解密码短语的理论操作，并避免可能导致比特币丢失的错误：
+在 Jade Plus 上配置此选项之前，强烈建议您阅读以下文章，以充分了解密语的理论操作，并避免可能导致比特币丢失的错误：
 
 https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
@@ -371,7 +370,7 @@ Sparrow 将显示您钱包中的第一个空白接待地址。
 
 ![Image](assets/fr/61.webp)
 
-在使用之前，我们先在 Jade Plus 屏幕上检查一下，确保它属于我们的比特币钱包。在翡翠上点击 "*Scan QR*"，然后扫描 Sparrow 上显示的地址的二维码。
+在使用之前，我们先在 Jade Plus 屏幕上检查一下，确保它属于我们的比特币钱包。在 Jade 上点击 "*Scan QR*"，然后扫描 Sparrow 上显示的地址的二维码。
 
 ![Image](assets/fr/62.webp)
 

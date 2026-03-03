@@ -3318,17 +3318,17 @@ Iterambere ry’amahera ryaraherekejwe kandi n’ugutera imbere gukomeye mu bury
 
 
 
-Bazoshira amahera mu biro vy’Abatempuliye mu gihugu cabo, hanyuma bagashobora gufata urugendo bafise urupapuro rw’ikete maze bagatora ivyo biceri iyo bashitse aho bariko baraja mu ntambara y’abakristu.
+Bazoshira amahera mu biro vy’Aba templier mu gihugu cabo, hanyuma bagashobora gufata urugendo bafise urupapuro rw’ikete maze bagatora ivyo biceri iyo bashitse aho bariko baraja mu ntambara y’abakristu.
 
 
 Ivyo vyasobanura ko tutabwirizwa gutwara ibiceri vy’agaciro vy’ivyuma.
 
 
 
-Muri ico gihe niho kandi Uburayi bwamenye ko hariho amahera y’impapuro mu Bushinwa, bivuye ku rugendo rwa Marco Polo mu kinjana ca 13. Ariko rero, uguteza imbere amafaranga y’amahera vyorindiriye ibinjana vyinshi, kubera ko Uburaya bwahisemwo kubanza gutunganya uburyo bwabwo bwo gukora amafaranga y’ivyuma. Leonardo da Vinci, uwari hafi cane ya Luca Pacioli, akaba yari umuhinga mu vy’amakonte azwi cane, yarafashije cane mu gutuma amashini akora amahera atera imbere, ivyo bikaba vyatuma hakorwa ibiceri vyihuta kandi bihuye.
+Muri ico gihe niho kandi Uburayi bwamenye ko hariho amahera y'ubwoko bw'amanoti mu Bushinwa, bivuye ku rugendo rwa Marco Polo mu kinjana ca 13. Ariko rero, uguteza imbere amafaranga y’amanoti vyorindiriye ibinjana vyinshi, kubera ko Uburaya bwahisemwo kubanza gutunganya uburyo bwabwo bwo gukora amafaranga y’ivyuma. Leonardo da Vinci, uwari hafi cane ya Luca Pacioli, akaba yari umuhinga mu vy’amakonte azwi cane, yarafashije cane mu gutuma amashini akora amahera atera imbere, ivyo bikaba vyatuma hakorwa ibiceri vyihuta kandi bihuye.
 
 
-Turavuga ubuhinga bwo gutera pendule twavuze imbere y’aho mu nyigisho. Ubwo buryo bwatumye hakorwa ibiceri bihuye cane ugereranije n’ugutera inyundo kandi, ikiruta vyose, vyatuma habaho inyandiko zikikuje urubibi rw’ico giceri, nk’uko nabigaragaje mbere. Ico kiri musi ni thaler y’i Buraya yo mu 1793, yerekana neza ivyanditswe ku ruhande.
+Turavuga ubuhinga bwo gutera pendule twavuze imbere y’aho mu nyigisho. Ubwo buryo bwatumye hakorwa ibiceri bihuye cane ugereranije nogucura hakoreshejwe inyundo kandi, ikiruta vyose, vyatuma habaho inyandiko zikikuje urubibi rw’ico giceri, nk’uko nabigaragaje mbere. Ico kiri musi ni thaler y’i Buraya yo mu 1793, yerekana neza ivyanditswe ku ruhande.
 
 
 ![image](assets/rn/029.webp)
@@ -3339,20 +3339,20 @@ Ariko rero, mu kinjana ca 15, Uburayi bwarashikiwe n'ingorane zikomeye z'amafara
 
 
 
-Kuva mu kinjana ca 16, ikibanza c’amahera carahindukiye kija muri Esupanye, kikaba cavyurwa n’ubumwe bw’ubwami bwa Aragon na Castile, iherezo ry’Igihugu ca Reconquista, n’ibintu bikomeye vyavumbuwe mu kiyaga nk’ivyo Christophe Columbus yavumbuye mu 1492. uburinganire, bikaba bituma haba ugutera imbere kw’ibiciro be n’imitongano mishasha y’ivy’ubutunzi.
+Kuva mu kinjana ca 16, ikibanza c’ubukungu carahindukiye kija muri Espagne, kikaba cavyurwa n’ubumwe bw’ubwami bwa Aragon na Castile, iherezo ry’Igihugu ca Reconquista, n’ibintu bikomeye vyavumbuwe mu kiyaga nk’ivyo Christophe Columbus yavumbuye mu 1492. uburinganire, bikaba bituma haba ukuduga kw’ibiciro be n’imitongano mishasha y’ivy’ubutunzi(géopolitiques).
 
 
 
-Ivugurura ryagaragaje kandi iterambere rikomeye ry'ubuhinga bwo gukora ibiceri, n'ibiceri nka thaler (Joachimsthaler), inkomoko y'ijambo "idolari". Ivyo biceri bininibinini vy’ifeza vyerekana ubuhinga bushasha bwo gukora ibiceri vy’ubuhinga n’ubuhinga bwa none bwashobotse kubera ubuhinga bushasha buva mu Buraya bwo mu buraruko.
+Ivuka ry'akabiri(la Renaissance) ryagaragaje kandi iterambere rikomeye ry'ubuhinga bwo gukora ibiceri, n'ibiceri nka thaler (Joachimsthaler), iriinkomoko y'ijambo "idolari". Ivyo biceri bininibinini vy’ifeza vyerekana ubuhinga bushasha bwo gukora ibiceri vy’ubugenegene n’ubuhinga bwa none bwashobotse kubera ubuhinga bushasha buva mu Buraya bwo mu buraruko.
 
 
 
-Ubwanyuma, Ivugurura ry'ivy'ubutunzi ryatumye habaho uguhinduka kw'ubutunzi bushasha, n'iterambere ry'amabanki, inguzanyo, n'amasoko y'ivy'ubutunzi, n'uguseruka kw'ubwoko bwambere bw'ubu kapitalizimu bwa none mu bisagara binini vy'ubucuruzi vya Amsterdam, Londres, na Stockholm, bishinga umushinge w'uburyo bw'ubutunzi mpuzamakungu nk'uko tubizi uno musi. Kandi ivyo nivyo tuzovuga muri videwo yacu ikurikira.
+Ubwanyuma, Ivuka ry'akabiri ry'ivy'ubutunzi ryatumye habaho uguhinduka kw'ubutunzi bushasha, n'iterambere ry'amabanki, inguzanyo, n'amasoko y'ivy'ubutunzi, n'uguseruka kw'ubwoko bwambere bw'ubu capitalisme bwa none mu bisagara binini vy'ubucuruzi vya Amsterdam, Londres, na Stockholm, bishinga umushinge w'uburyo bw'ubutunzi mpuzamakungu nk'uko tubizi uno musi. Kandi ivyo nivyo tuzovuga muri videwo yacu ikurikira.
 
 
 
 
-# Ivyo gufata amafranga na Leta .
+# Ifatwa ry'amahera na leta .
 
 
 <partId>17cfb1b4-5bc1-53e0-b035-05c7cf76be92</partId>
@@ -3371,24 +3371,24 @@ Ubwanyuma, Ivugurura ry'ivy'ubutunzi ryatumye habaho uguhinduka kw'ubutunzi bush
 
 
 
-Murakaze muri iki gice kivuga ku guseruka kw’amafaranga y’ububiko n’amabanki nkuru. Nk’ingingo ya mbere y’iki gice gishasha, tugiye kwibanda ku gutera imbere kw’amafaranga y’ububiko kw’isi yose.
+Murakaze muri iki gice kivuga ku kuvuka kw’amafaranga y’ububiko n’amabanki makuru. Nk’ingingo ya mbere y’iki gice gishasha, tugiye kwibanda ku gutera imbere kw’amafaranga y’ububiko kw’isi yose.
 
 
 
-Ivyuma vy’agaciro, canecane inzahabu n’ifeza, vyamaze igihe kirekire bibonwa ko ari vyo bishingiyeko ubutunzi n’ububasha mu bwami. Inyota y’inzahabu yama ari yo ituma abantu bagira ico bakoze, kandi ni ukuza kw’ivyuma vy’agaciro vyagize ingaruka zitaziguye kandi zigaragara cane ku bijanye n’iterambere ry’amahera mu Buraya. Mu bihe vya kera no mu ntango z’Ivugurura, ukwo gukunda cane inzahabu n’ifeza kwari guterwa n’uko vyari bigoye kuguma bifise agaciro mu bindi bicuruzwa, be n’uko ibihugu vy’amahanga vyari bisaba cane, cane cane mu bijanye n’ubudandaji n’ibihugu vyo mu Buseruko.
+Ivyuma vy’agaciro, canecane inzahabu n’ifeza, vyamaze igihe kirekire bibonwa ko ari vyo bishingiyeko ubutunzi n’ububasha mu bwami. Inyota y’inzahabu yama ari yo ituma abantu bagira ico bakoze, kandi ni ukuza kw’ivyuma vy’agaciro vyagize ingaruka zihuriranye kandi zigaragara cane ku bijanye n’iterambere ry’amahera mu Buraya. Mu bihe vya kera no mu ntango z’Ivugurura, ukwo gukunda cane inzahabu n’ifeza kwari guterwa n’uko vyari bigoye kuguma bifise agaciro mu bindi bicuruzwa, be n’uko ibihugu vy’amahanga vyari bisaba cane, cane cane mu bijanye n’ubudandaji n’ibihugu vyo mu Buseruko.
 
 
 
-Mu binjana n’ibindi, inganji zitari nke zarakurikiranye zikaba ibibanza bihambaye vy’ubutunzi kw’isi yose. Igihugu kiganza ubudandaji bw'isi yose mu kiringo kinaka gihabwa igitigiri c'amafaranga y'ububiko. Ivyo birimwo:
+Mu binjana n’ibindi, inganji zitari nke zarakurikiranye mukugenda ziba ibibanza bihambaye vy’ubutunzi kw’isi yose. Igihugu kiganza ubudandaji bw'isi yose mu kiringo kanaka gihabwa muri rusangi ishusho rihagarariye amafaranga y'ububiko. Ivyo birimwo:
 
 
 
 
-- Esupanye na Portigal (mu kinjana ca 15 n’ica 16)
+- Espagne na Portigal (mu kinjana ca 15 n’ica 16)
 
 
 
-- Intara z’Ubumwe (Ubuholandi) mu kinjana ca 17
+- Intara z’Ubumwe (Pays-Bas) mu kinjana ca 17
 
 
 
@@ -3403,7 +3403,7 @@ Mu binjana n’ibindi, inganji zitari nke zarakurikiranye zikaba ibibanza bihamb
 ### Iterambere ry’Abanyaportigale n’Ivy’Ukuri (1450-1530)
 
 
-**Portugal** ni yo yari iganje mu bucuruzi bw’isi yose mu gice ca kabiri c’ikinjana ca 15 no mu ntango z’ikinjana ca 16, hakoreshejwe **Real y’i Portugal**, igiceri c’ifeza c’uburemere bumwe. Abanyaportigale, kubera amaterambere bari bafise mu bijanye n’ugutwara ubwato, bararonse inzira nshasha zo mu kiyaga zija muri Afirika, muri Aziya no mw’Isi Nshasha. Ibihome vy’ingabo n’ibibanza vy’ubudandaji vyaragwiriye kuva muri Afirika gushika mu Bushinwa (Macau).
+**Portugal** ni yo yari iganji mu bucuruzi bw’isi yose mu gice ca kabiri c’ikinjana ca 15 no mu ntango z’ikinjana ca 16, hakoreshejwe **Real y’i Portugal**, n'igiceri c’ifeza c’uburemere bumwe. Abanyaportigale, kubera amaterambere bari bafise mu bijanye n’ugutwara ubwato, bararonse inzira nshasha zokwiyunguruza mu kiyaga zija muri Afirika, muri Aziya no mw’Isi Nshasha. Inguvu z’ingabo n’ibibanza vy’ubudandaji vyaragwiriye kuva muri Afirika gushika mu Bushinwa (Macau).
 
 
 Mu kwishura ku vyo Uburaya bwasaba ku bijanye n'inzahabu n'ifeza, "ikintu cama gituma bavumbura ibintu bikomeye ni inyungu y'ubudandaji, cane cane gukurikirana inzahabu n'ifeza." Ariko rero, Ubwami bwa Portigal, bwari bwagutse cane kandi bwari buhanganye n’Abaholandi, Abongereza n’Abafaransa, bwaratanguye gusenyuka.
@@ -3418,12 +3418,12 @@ Aha hejuru urashobora kubona umunyaportigale w’igice c’Umunyagihugu wo mu gi
 
 
 
-### Igihe c’i Esupanye n’Idolari ry’Esipanye (mu kinjana ca 1535-17)
+### Igihe ca Espagne n’Idolari ry’inya espagne (mu kinjana ca 1535-17)
 
 
 
 
-Igihe Isi Nshasha yigaruriye, **Espagne** ni yo yabaye umukinyi w’agaciro. Umwami waco, yari afise ububasha ku binogo bininibinini vy’ifeza (Potosí muri Boliviya, Zacatecas muri Megizike), yarashoboye gukora amahera mw’ifeza itagira agasembwa, gutyo aririnda gusenyura agaciro k’amahera yiwe bwite: **Real y’Igisupanyoli.**
+Igihe cokurondera isi nshasha, **Espagne** ni yo yabaye iyambere mwicogikorwa. Umwami waco, yari afise ububasha ku birombe bininibini vy’ifeza (Potosí muri Boliviya, Zacatecas muri Megizike), yarashoboye gukora amahera mw’ifeza atakanenge k'ibindi vyuma, gutyo aririnda isambuka ry'agaciro k’amahera yiwe bwite: **Real Espagnol.**
 
 
 
@@ -3431,21 +3431,21 @@ Igihe Isi Nshasha yigaruriye, **Espagne** ni yo yabaye umukinyi w’agaciro. Umw
 
 
 
-Igikoresho c'ukuri c'Igisupanyoli, kizwi kandi kw'izina rya "igice c'umunani", cararonse iryo zina ry'akataraboneka kubera ko kenshi cacagurwa mu bice vy'umunani kugira ngo haboneke ibiceri bitobito. Yari izwi kandi kw’izina rya **idolari ry’Igisupanyoli**. Ico gice c’ifeza ubona haruguru ni co mu 1814, ivyo bikaba bituma ari akarorero gashasha gatoyi. Ariko rero, ibiceri vya mbere nyene vy’amadolari y’Esipanye ntivyari vyiza nk’ivyo; zari zikubitwa n’inyondo kandi muri rusangi ntizari zikikuje cane kandi zikaba zidakomeye cane.
+Le réal espagnol, kizwi kandi kw'izina ry' "piece of eight", ry'itwa iryo zina ry'akataraboneka kubera ko kenshi cacagurwa mu bice vy'umunani kugira ngo haboneke ibiceri bitobito. Yari izwi kandi kw’izina ry' **idolari ry'abanye espagnol**. Ico gice c’ifeza ubona haruguru ni co mu 1814, ivyo bikaba bituma ari akarorero gashasha gatoyi. Ariko rero, ibiceri vya mbere nyene vy’amadolari y’Espagne ntivyari vyiza nk’ivyo : vyari ibiceri vyacurishijwe n'inyundo kandi muri rusangi ntivyari vyiburungushuye neza kandi ntivyaboneka neza.
 
 
-Ikintu gishimishije cane ni uko idolari ry’Ubusupanyoli ryari rikoreshwa nk’ifaranga ry’ububiko mpuzamakungu ico gihe. Abategetsi bo muri Esupanye na bo nyene barasohora amahera yabo yo mu karere, ari yo maravedi, kandi barama bahindura amahera biciye ku kwibutsa amahera. Nk'akarorero, igiceri c'umuringa canke c'umuringa mu ntango cari gifise agaciro ka maravedi imwe coshobora kwibukwa kigashirwako ikidodo ca "2," hanyuma kigashirwako ikidodo ca "4," n'ibindi, bikaba bishobora gushika kuri "8." Muri iyo foto y'agaciro kanini, urashobora kubona neza "8" iteye ikidodo ku gice c'ifeza. Ubwo buryo bwatumye amafaranga agenda aragwira neza... ivyo bikaba vyatumye ata kabuza haba ugutera imbere kw’ibiciro.
+Ikintu gishimishije cane ni uko idolari ry’abanye espagnol ryari rikoreshwa nk’ifaranga ry’ububiko mpuzamakungu ico gihe. Abategetsi bo muri Espagne bari bafise amahera yo mukarere yabo bwite, ari yo bita maravedi, kugira ngo bashoboro kuringaniza uburinganire bw'amahera. Nk'akarorero, igiceri c'umuringa(cuivre) canke c'umujumbu(bronze) mu ntango cari gifise agaciro ka maravedi imwe coshobora kwibukwa kigashirwako ikidodo ca "2," hanyuma kigashirwako ikidodo ca "4," n'ibindi, bikaba bishobora gushika kuri "8." Muri iyo foto y'agaciro kanini, urashobora kubona neza "8" iteye ikidodo ku gice c'ifeza. Ubwo buryo bwatumye amafaranga agenda aragwira neza... ivyo bikaba vyatumye haba iduga ry'ibiciro.
 
 
 ![image](assets/rn/032.webp)
 
 
 
-Turavye amateka y’amafaranga y’ububiko, hari ikintu gishimishije kigaragara: inganji ntizatera imbere mu mafaranga yazo igihe cose zagumye zifise ikibanza c’amafaranga y’ububiko. **Iherezo ry’ubutegetsi bwabo niho gusa bahejeje kubugabanya agaciro, batakaza ako gateka, kaciye gashikirizwa ubwami bushasha**.
+Turavye amateka y’amafaranga y’ububiko, hari ikintu gishimishije kigaragara: inganji amafaranga yabo ntiya shobora gutakaza agaciro kayo mugihe yari afise ikibanza c’amafaranga y’ububiko. **Iherezo ry’ubutegetsi bwabo niho gusa bahejeje kubugabanya agaciro, batakaza ako gateka, kaciye gashikirizwa ubwami bushasha**.
 
 
 
-Muri Esupanye, idolari ry’Esupanye ryari rihambaye mu bucuruzi bwo kw’isi yose mu myaka hafi 200, canecane hagati y’Ubushinwa n’Uburayi. Ivyo biceri mbere vyari gushobora kuboneka ku vyambu vy’Ubushinwa. Kandi aho niho turonka umuco w’amaso mu mateka: idolari ry’Amerika rikomoka ataco rihinduye kuri iyo mafaranga. Igihe Leta Zunze Ubumwe za Amerika zashingwa muri 1792, zashizeho itegeko ryo gukora amahera yazo bwite, kandi amadolari yayo ya mbere yaremewe ku citegererezo c’idolari ry’Igisupanyoli, haba mu izina no mu bunini bw’ibiceri.
+Muri Espagne, idolari ry’Esupanye ryari rihambaye mu bucuruzi bwo kw’isi yose mu myaka hafi 200, canecane hagati y’Ubushinwa n’Uburayi. Ivyo biceri mbere vyari gushobora kuboneka ku vyambu vy’Ubushinwa. Kandi aho niho turonka umuco w’amaso mu mateka: idolari ry’Amerika rikomoka ataco rihinduye kuri iyo mafaranga. Igihe Leta Zunze Ubumwe za Amerika zashingwa muri 1792, zashizeho itegeko ryo gukora amahera yazo bwite, kandi amadolari yayo ya mbere yaremewe ku citegererezo c’idolari ry’Igisupanyoli, haba mu izina no mu bunini bw’ibiceri.
 
 
 

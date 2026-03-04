@@ -3608,19 +3608,18 @@ Amahera yoba ava mu kintu kiva mu gukenera guhinduranya, canke ava mu ngurane? I
 
 
 
-Reka tujane muri Suède, aho banki nkuru ya mbere nyene yashinzwe.
+Reka tuje muri Suède, aho banki nkuru ya mbere nyene yashinzwe.
 
 
 
-**Suède** yari umutsimvyi mu bijanye n’amabanki nkuru: mu 1657, Johan Palmstruch yarashinze **Stockholm Banco**, yemerewe kuguriza amahera menshi kuruta ayo yari afise mu vyuma, gutyo ni ho havuka amabanki y’amabanki y’imice. Ariko gusohora amafaranga y'amabanki birenze urugero vyatumye haba ubwoba n'uguhunga kuri banki mu 1663. Ego, ego...
+**Suède** niyo yabaye iyambere mu bijanye n’amabanki makuru(banque centrale): mu 1657, Johan Palmstruch yarashinze **Stockholm Banco**, yemereye kuguriza amahera menshi kuruta ububiko bw'ivyuma, gutyo ni ho havuka ububiko bw'ubutunzi bukora. Ariko gusohora amafaranga y'amabanki birenze urugero vyatumye haba ubwoba abantu batangura kubikura amahera yabo muma banki mu myaka ya 1663.
+
+
+Mu mwaka w’1668, banki yitwa Riksens Ständers, ari yo banki ya mbere y’ukuri kw’isi, yashinzwe i Stockholm. Ariko na yo nyene yarashikiwe n’ingorane (1709, 1715...) zijanye n’ugukoresha nabi amafaranga y’amabanki(gukora amahera meshi), akenshi mu gutera inkunga intambara z’ubwami.
 
 
 
-Mu mwaka w’1668, banki yitwa Riksens Ständers, ari yo banki ya mbere y’ukuri kw’isi, yashinzwe i Stockholm. Ariko na ryo nyene ryarashikiwe n’ingorane (1709, 1715...) zijanye n’ugukoresha nabi amafaranga y’amabanki, akenshi mu gufasha intambara z’ubwami.
-
-
-
-### John Law yananiwe gutera igihugu
+### Igikorwa c'igitangaza ca John Law
 
 
 
@@ -3628,15 +3627,15 @@ Reka tujane mu Bufaransa, aho twongeye gusanga umukunzi wacu John Law.
 
 
 
-**John Law**, umunya Ecosse, yaremesheje Regent (Duke wa Orléans) gushinga banki yigenga, Banque Générale (1716), yemerewe gutanga impapuro zirwanya imyenda y’inzahabu, ifeza n’iya Leta. Yaciye iba Banque Royale (1718), kandi yafashije imigabane ya Sosiyete ya Mississippi gutera imbere cane.
+**John Law**, umunya Ecosse, yaranyugwishije umu Regent (Duke wa Orléans) gushinga banki yigenga, Banque Générale (1716), yemerera gutanga amanoti bahindura munzahabu(bagura), amahera n’amadeni ya leta. Yaciye iba Banque Royale (1718), kandi yafashije imigabane ya Sosiyete ya Mississippi gutera imbere cane.
 
 
 
-Igihe ukuri kwafata n’ibiharuro, **ubwoba bwarushirijwe gukomera n’ingingo yo kubuza gufata inzahabu no gukoresha ku nguvu amanota y’Itegeko**. Sawa, sawa...
+Igihe ukuri kwafata n’amayeri y'iyo systeme , **ubwoba bwateye bwiyongera kubera n'itegeko ryaso ryo kudatunga inzahabu bagahatirizwa gukoresha amahera ya law**. Sawa, sawa...
 
 
 
-Amaherezo, iyo nkoko yaraturitse mu 1720, ituma haba ugusenyuka kwatumye amahera y’impapuro yononekaye mu Bufaransa mu kiringo kirekire.
+Amaherezo, vyagiye kononekara cane mu 1720, ituma haba ugusambuka k'ubutunzi , amahera y'amanoti aratakaza icizera hamwe n'agaciro mubufaransa igihe kinini.
 
 
 
@@ -3644,11 +3643,11 @@ Amaherezo, iyo nkoko yaraturitse mu 1720, ituma haba ugusenyuka kwatumye amahera
 
 
 
-Ubu turiko turajanwa i Amsterdam mu 1609, aho **Banki ya Amsterdam** (Wisselbank) yafashe ububasha bwo kubika ibiceri no kubihindura i Amsterdam. Yarabujije gukoresha amafaranga y’abantu ku giti cabo, yongera itegeka ko abantu bashiramwo amafaranga y’ivyuma mu bibanza vyayo vy’ububiko. Buhoro buhoro, baraciye bafata ububasha bwo kugenzura ayo mahera. Babujije abavunja amahera kuguma bafise ibiceri. Abahinduzi b’amahera barakora umusi wose kandi bategerezwa gushiramwo amahera yabo mu bibanza vy’ububiko bwa Banki ya Amsterdam ku musi w’iherezo. Nk’uko nabivuze, ntivyari ngombwa ko ari ibiceri vy’ivyuma vyakoreshwa mu bucuruzi mpuzamakungu. Yari amahera y’ivyanditswe yari ku bitabu vya banki.
+Ubu tuje muri Amsterdam mu 1609, aho **Banki ya Amsterdam** (Wisselbank) yafashe ububasha bwo kubika ibiceri no kubihindura i Amsterdam ;habuzwa izunguruka ry'amahera ava mu ma caisse yigenga, yongera itegeka kubika ibiceri vy'ivyuma muri ayo ma caisse . Buhoro buhoro, baraciye bafata ububasha bwo kugenzura ayo mahera. Babujije abavunja amahera kuguma bafise ibiceri. Abavunjayi barakora umusi wose kandi bategerezwa gushiramwo amahera yabo mu bibanza vy’ububiko bwa Banki ya Amsterdam ku musi wanyuma. Nk’uko nabivuze, ntivyari ngombwa ko ari ibiceri vy’ivyuma vyakoreshwa mu bucuruzi mpuzamakungu. Yari amahera y'amanoti yari muma livre de compte ya banke.
 
 
 
-Kubera ububasha bw'ubudandaji bw'Abaholandi, iyo banki yaragize uruhara rwa mbere de facto "banki nkuru", ituma ubudandaji kw'isi yose buhungabana. Ariko rero, uko igihe cagenda kirarenga, ryarahaye VOC inguzanyo zitagira ingwati, amaherezo ivyuma vyo gufasha mu gutanga amafaranga ryaryo birabura. Mu mwaka w’1790, vyamenyekanye ko yari yagurishije amahera menshi VOC, kandi hafi y’aho itangaza ko yacitse intege, ivyo bikaba vyatumye iyo gulden igira icizigiro. Sawa, sawa...
+Kubera ububasha bw'ubudandaji bw'Abaholandi, iyo banki yaragize uruhara rwa mbere de facto "banki nkuru", ituma ubudandaji kw'isi yose buhungabana. Ariko rero, uko igihe cagenda kirarenga, ryarahaye VOC inguzanyo zitagira ingwati, amaherezo ivyuma vyo gufasha mu gutanga amafaranga ryaryo birabura. Mu mwaka w’1790, vyamenyekanye ko yari yagurishije amahera menshi VOC, kandi hafi y’aho itangaza ko yacitse intege, ivyo bikaba vyatumye iyo gulden igira icizigiro.
 
 
 
@@ -3656,47 +3655,47 @@ Kubera ububasha bw'ubudandaji bw'Abaholandi, iyo banki yaragize uruhara rwa mber
 
 
 
-Mu Bwongereza bwo mu kinjana ca 17, inzahabu n’ifeza vyabikwa n’abacuzi b’inzahabu, bakaba batanga amakete y’uko vyaronse. Uwo mugwi wari ushizwe ahantu hamwe, waragaragaje ko ufise aho ugarukira igihe Ubwami bwasanga bukeneye cane amahera yo kurwana n’Ubufaransa.
+Mu Bwongereza bwo mu kinjana ca 17, inzahabu n’ifeza vyabikwa n’abacuzi b'amabuye y'agaciro, uguze bakaba batanga agapapuro kemeza ko waguze . Uwo mugwi wari wari wigenga agice kimwe, waragaragaje ko ufise aho ugarukira igihe Ubwami bwasanga bukeneye cane amahera yo gutera inkunga intamba barwana n’Ubufaransa.
 
 
 
-Mu mwaka w’1694, ni ho hashinzwe **Banki y’Ubwongereza (BoE)**. Banki y’Ubwongereza rero yavutse kubera ubugeni bw’ugusangira hagati y’abacuruzi bo mu Londres na Leta, iyo na yo ikaba yari yihebuye mu kurondera amahera yo gukoresha mu ntambara.
+Mu mwaka w’1694, ni ho hashinzwe **Banki y’Ubwongereza (BoE)**. Banki y’Ubwongereza rero yavutse kubera ihuzwa ry'ugusangira hagati y’ubucuruzi bwo muri Londres na Leta, iyo na yo ikaba yari yihebuye irondera amahera yo gutera inkunga intambara.
 
 
 
-Iyo Banki yararonse uburenganzira bwo gutanga amafaranga y’amahera mu Bwongereza (yakomejwe mu 1708, 1742, n’ibindi). Kuva ico gihe, amahera y’impapuro ashigikiwe n’ibisigazwa vy’inzahabu yaragendagenda iruhande y’ibiceri. Ico ni ingingo ihambaye yo gutahura ukuntu inzego za Leta zifata amahera buhoro buhoro. Ica mbere, Banki y’i Amsterdam yarabujije abahindura amahera kubika ibiceri, maze ibahatira kubisubiza muri Banki. Mu Bwongereza, amabanki yigenga yarabujijwe gutanga amafaranga yabo bwite yo gucungura mu nzahabu.
+Iyo Banki yararonse uburenganzira bwo gutanga amahera y'amanoti mu Bwongereza (yakomejwe mu 1708, 1742, n’ibindi). Kuva ico gihe, amahera y’impapuro ashigikiwe n’ibisigazwa vy’inzahabu yaragendagenda iruhande y’ibiceri. Ico ni ingingo ihambaye yo gutahura ukuntu inzego za Leta zifata amahera buhoro buhoro. Ica mbere, Banki y’i Amsterdam yarabujije abahindura amahera kubika ibiceri, maze ibahatira kubisubiza muri Banki. Mu Bwongereza, amabanki yigenga yarabujijwe gutanga amafaranga yabo bwite yo gucungura mu nzahabu.
 
 
 
-Baremeye vy’ukuri amabanki yigenga gutanga amafaranga y’amahera, ariko ayo mafaranga yashobora guhindurwa gusa n’amafaranga y’amahera ya Banki y’Ubwongereza.
+Baremeye vy’ukuri amabanki yigenga gutanga amafaranga y’amahera, ariko ayo mafaranga yashobora guhindurwa gusa n’amahera y'amanoti ya Banki y’Ubwongereza.
 
 
 
-Amafaranga yo muri Banki y’Ubwongereza, ni ukuvuga amapawundi y’Ubwongereza, yari gucungurwa mu nzahabu. Ivyo vyatumye habaho igice ca gatatu ku mafaranga. Turafise rero inzahabu ku rwego rwo hasi, hanyuma amafaranga y’ibanki y’Ubwongereza, hanyuma amafaranga y’amabanki yigenga hejuru. Imbere y’ivyo, amabanki yigenga yari gushobora gutanga amafaranga yabo bwite yo gucungura mu nzahabu. Iyi ni iyindi ntambwe mu gufata amafaranga buhoro buhoro n’inzego za Leta.
+Amafaranga yo muri Banki y’Ubwongereza, livres sterling , yarashobora kugura inzahabu. Ivyo vyatumye habaho igice ca gatatu ku mafaranga. Turafise rero inzahabu ku rwego rwo hasi, hanyuma amafaranga y’ibanki y’Ubwongereza, hanyuma amafaranga y’amabanki yigenga hejuru. Imbere y’ivyo, amabanki yigenga yari gushobora gutanga amafaranga yabo bwite yo gucungura mu nzahabu. Iyi ni iyindi ntambwe mu gufata amafaranga buhoro buhoro n’inzego za Leta.
 
 
 
-Banki yarafashije Leta inguzanyo nyinshi cane, kandi itunganya umwenda munini wa Leta wari warafashije ubutunzi gutera imbere.
+Banki yarafashije Leta inguzanyo nyinshi cane, kandi itunganya ideni rinini ya Leta yari yarafashije ugutera imbere kubutunzi.
 
 
 
-Ico kigereranyo carakomejwe mu kinjana ca 18 n’ica 19, gushika aho ipawundi yacitse ifaranga ry’ububiko kw’isi yose, ryari rifise ikidodo ca Banki y’Ubwongereza be n’ikigereranyo c’inzahabu.
+Ico kigereranyo carakomejwe mu kinjana ca 18 n’ica 19, gushika aho livre sterling yacitse ifaranga ry’ububiko kw’isi yose, ryari rifise ikidodo ca Banki y’Ubwongereza be n’ikigereranyo c’inzahabu.
 
 
 
-**Amafaranga y’isi yose y’ububiko** yarakurikiranye mu binjana n’ibindi, arongowe n’ububasha bw’ubutunzi, ubudandaji n’ububasha bw’igisirikare bw’igihugu canke ubwami: Portugal, Esipanye, Ubuholandi, hanyuma Ubwongereza, imbere y’uko Leta Zunze Ubumwe za Amerika ziza ziganza mu kinjana ca 20. Muri ivyo vyose, turabona uruziga rusa n’urwo: ukwaguka kw’ubutunzi, uguterimbere mu vy’ubudandaji, kwemera amafaranga kw’isi yose, amadeni, intambara zitwara amahera menshi, gukoresha nabi amahera mu kurema canke gutanga inguzanyo, hanyuma amaherezo akagabanuka.
+**Amafaranga y’isi yose y’ububiko** yarakurikiranye mu binjana n’ibindi, arongowe n’ububasha bw’ubutunzi, ubudandaji n’ububasha bw’igisirikare bw’igihugu canke ubwami: Portugal, Espagne, Ubuholandi, hanyuma Ubwongereza, imbere y’uko Leta Zunze Ubumwe za Amerika ziza ziganza mu kinjana ca 20. Muri ivyo vyose, turabona uruziga rusa n’urwo: ukwaguka kw’ubutunzi, uguterimbere mu vy’ubudandaji, kwemera amafaranga kw’isi yose, amadeni, intambara zitwara amahera menshi, gukoresha nabi amahera mu kurema canke gutanga inguzanyo, hanyuma ubwanyuma akagabanuka.
 
 
 
-**Uguseruka kw’amabanki nkuru** kwari ugutera imbere buhoro buhoro. Izo nzego akenshi zavyutse mu gihe c’intambara zitwara amahera menshi, ivyo bikaba vyatuma Leta yironsa amahera biciye ku myenda. Igihe urugero rw’inzahabu rwashirwaho (Ubwongereza, mu kinjana ca 17-19), rwaratanga igipfukisho c’ugushikama, gushika aho intambara zikomeye z’isi yose zo mu kinjana ca 20 zatumye buhorobuhoro abantu baheba guhindura inzahabu. Ububasha bwo gukora amahera rero bwavuye ku butegetsi bw’umwami buja ku bigo bikomeye cane, ubwa mbere bikaba ari ivy’abikorera ku giti cabo (abacuzi b’inzahabu, abakozi bo mu mabanki), hanyuma bikaba ari ivy’igice ca Leta (amabanki akomeye), ivyo bikaba vyerekana ukuntu ubusegaba bw’amahera bwagiye buratera imbere buja mu buryo bushingiye ku nzego, bujanye n’isi yose.
+**Ivuka ry’amabanki makuru** yagiye aravuka buhoro buhoro. Izo nzego akenshi zavyutse mu gihe c’intambara zitwara amahera menshi, ivyo bikaba vyatuma Leta yitera inkunga biciye mumadeni. Igihe urugero rw’inzahabu rwashirwaho (Ubwongereza, mu kinjana ca 17-19), rwaratanga ukuguma hamwe kubutunzi, gushika aho intambara zikomeye z’isi yose zo mu kinjana ca 20 zatumye buhorobuhoro abantu baheba guhindura amahera munzahabu. Ububasha bwo gukora amahera rero bwavuye ku butegetsi bw’umwami buja ku bigo bikomeye cane, ubwa mbere bikaba ari ivy’abikorera ku giti cavyo (abacuzi b’inzahabu, abakozi bo mu mabanki), hanyuma bikaba ari ivy’igice ca Leta (amabanki akomeye), ivyo bikaba vyerekana ukuntu ubusegaba bw’amahera bwagiye buratera imbere buja mu buryo bushingiye ku nzego, bujanye n’isi yose.
 
 
 
-Rero, ivyo nivyo nariko ndadondora mbere. Kenshi twaciye twimurira umuzigo w’imyenda y’igihugu ku mabanki nkuru canke ku ruhusha rwo kurema amahera n’inzego zitegekanijwe n’amategeko, nk’Inama Nshingamateka.
+Rero, ivyo nivyo nariko ndadondora mbere. Kenshi twaciye twimurira umuzigo w’amadeni y’igihugu ku mabanki makuru canke ku ruhusha rwo  amahera n’inzego zitegekanijwe n’amategeko, nk’Inama Nshingamateka.
 
 
 
-Kandi ikintu gihambaye cane aha ni uko **twavuye ku mwenda woshobora kuzimangana biciye mu gusenyuka kw’umukuru w’igihugu tuja ku mwenda wari ahanini ku bitugu vy’abanyagihugu**.
+Kandi ikintu gihambaye cane aha ni uko **twavuye ku madeni yashobora kuzimangana biciye mu gusambuka kw'abami tuja ku madeni yari ahanini ku bitugu vy’abanyagihugu**.
 
 
 
@@ -3710,7 +3709,7 @@ Kandi ikintu gihambaye cane aha ni uko **twavuye ku mwenda woshobora kuzimangana
 
 :::video id=e27a753e-aeee-4307-a65c-9506aab380a1:::
 
-Ubu twashitse ku mpera y’iri shure ry’amateka y’amahera, kandi kugira ngo rirangize, nashaka gutanga ingingo zibiri. Ingingo ya mbere ni intambwe zitandukanye zatumye tugira ubuhinga bwacu bwo gukoresha amafaranga y’ubu. Tuzosubira gusuzuma ibintu bivuye mu gice ca 5 ku bijanye n’ugushinga amabanki akomeye, twongereko iciyumviro c’idolari ry’Amerika, ari na ryo ry’ubu ry’ububiko. Turaza kuraba ingene vyateye imbere, ingene idolari ryaje, ingene ryateye imbere, ingene ryahindutse, ni intambwe izihe ryaciyemwo kugira ngo ribe fiat system, kuko inkomoko y’idolari ni igiceri c’ifeza.
+Ubu twashitse ku mpera y’iki cirwa c’amateka y’amahera, kandi kugira ngo turangize, nashaka gutanga ingingo zibiri. Ingingo ya mbere ni intambwe zitandukanye zatumye tugira ubuhinga bwacu bwo gukoresha amahera ya none. Tuzosubira gusuzuma ibintu bivuye mu gice ca 5 ku bijanye n’ugushinga amabanki akomeye, twongereko iciyumviro c’idolari ry’Amerika, ari nayo ubu ari amahera y'ububiko. Turaza kuraba ingene vyateye imbere, ingene idolari ryaje, ingene ryateye imbere, ingene ryahindutse, ni intambwe izihe ryaciyemwo kugira ngo ribe fiat system(amahera afatiye kukwizigira), kuko inkomoko y’idolari ni igiceri c’ifeza.
 
 
 
@@ -3722,18 +3721,18 @@ Hanyuma, ubwo nyene, ngiye kubaha igice gitoyi ku mateka y’ivy’ubutunzi, kug
 
 
 
-Reka dusubire mu kinjana ca 13 n’ivyo bita florin. Kugira ngo dutahure ingene twashitse ku citegererezo ca fiat, turakeneye gutangura mu kinjana ca 13. Inyuma y’i florin, hariho ubuhinga bwa kera bwavutse mu gihe kimwe n’ubuhinga bwa Medici, ni ukuvuga iciyumviro c’amakete y’amahera.
+Reka dusubire mu kinjana ca 13 n’ivyo bita florin. Kugira ngo dutahure ingene twashitse ku citegererezo ca fiat, turakeneye gutangura mu kinjana ca 13. Inyuma y'amahera florin, hariho ubuhinga bwa kera bwavutse mu gihe kimwe n’ubuhinga bwa Medici, ni ukuvuga iciyumviro c’amakete y’amahera.
 
 
 
 Hanyuma haza isoko ry’ivy’ubutunzi ry’i Anvers, rifise iciyumviro co gugabanya ibiciro n’amafaranga y’amasezerano.
 
 
-Hanyuma nk’uko twabibonye, ​​twari dufise VOC, isoko rya mbere ry’ivy’ubutunzi ry’i Amsterdam. Ivyo ni vyo vyatumye havuka ubu kapitalizimu, hakaba hariho imigabane y’amashirahamwe n’uguhana imigabane. Banki y’i Amsterdam yaciye itegeka ko umuntu akoresha amahera yabitswe biciye ku itegeko. Ivyo vyasobanura ko ibiceri vyategerezwa gushirwamwo ku musi w’iherezo. Abahinduzi b’amahera ni bo batagishobora kuguma bafise amahinduka mu buryo bw’ibiceri.
+Hanyuma nk’uko twabibonye, ​​twari dufise VOC, isoko rya mbere ry’ivy’ubutunzi ry’i Amsterdam. Ivyo ni vyo vyatumye havuka ubu capitalisme, hakaba hariho imigabane y’amashirahamwe n’uguhana imigabane. Banki y’i Amsterdam yaciye itegeka ko umuntu akoresha amahera yabitswe biciye ku itegeko. Ivyo vyasobanura ko ibiceri vyategerezwa gushirwamwo ku musi wanyuma. abavunjayi ni bo batagishobora kuguma bafise amahera muburyo bw’ibiceri.
 
 
 
-Hanyuma hashirwaho Banki y’Ubwongereza kubera ko vyari bikenewe gushinga umwenda wo gufasha intambara mu mpera z’ikinjana ca 17. Iciyo gihe, amabanki yigenga ni yo yacitse igice ca gatatu c’amahera. N'ubundi, iki gice cose, kuva ku florin gushika ku ciyumviro co kurema banki nkuru, gicapuwe neza cane mu gitabu kizwi cane ca Nick Bhatia citwa "Layered Money", ico nagize amahirwe yo guhindura ndi kumwe n'abo dukorana bakeyi. Twarakoze igikorwa gikomeye co kuyihindura kugira ngo abavuga igifaransa aho bari hose bashobore kwungukira kuri izo nyigisho.
+Hanyuma hashirwaho Banki y’Ubwongereza kubera ko vyari bikenewe gushinga amadeni yo gufasha intambara mu mpera z’ikinjana ca 17. Iciyo gihe, amabanki yigenga ni yo yacitse igice ca gatatu c’amahera. N'ubundi, iki gice cose, kuva ku florin gushika ku ciyumviro co kurema banki nkuru, gisiguwe neza cane mu gitabu kizwi cane ca Nick Bhatia citwa "Layered Money", ico nagize amahirwe yo guhindura ndi kumwe n'abo dukorana bakeyi. Twarakoze igikorwa gikomeye co kuyihindura kugira ngo abavuga igifaransa aho bari hose bashobore kwungukira kuri izo nyigisho.
 
 
 
@@ -3744,20 +3743,20 @@ Amabanki yigenga ni yo yatwaye igice ca gatatu c’amahera. Nkako, amafaranga y�
 
 
 
-Hanyuma haza ubwoba bwo mu 1776. Bose bariruka baduga ku piramide y’amahera. Ivyo bisigura ko mu 1776, hariho urugendo ku mabanki, kandi rero abantu bose bafise impapuro z’urugero rwa gatatu, ni ukuvuga amafaranga y’amabanki yigenga, bagerageza kuronka amafaranga y’amabanki y’Ubwongereza, hanyuma bagerageza kuronka inzahabu, ariko biragaragara ko ata nzahabu ihagije yariho mu bibanza vy’ububiko. Bamenyesheje ubwoko bw’ikiruhuko co mu mabanki kugira ngo ntibasubire kwishura amafaranga y’inzahabu, ivyo bikaba vyatumye haba iciyumviro c’uko uwugurisha ari we azoba ari uwa nyuma.
+Hanyuma haza kuba akavuyo mu 1776. Bose batanguye baduga piramide y’amahera. Ivyo bisigura ko mu 1776, hariho urugendo ku mabanki, kandi rero abantu bose bafise impapuro z’urugero rwa gatatu, ni ukuvuga amafaranga y’amabanki yigenga, bagerageza kuronka amafaranga y’amabanki y’Ubwongereza, hanyuma bagerageza kuronka inzahabu, ariko biragaragara ko ata nzahabu ihagije yariho mu bibanza vy’ububiko. Bamenyesheje ubwoko bw’ikiruhuko co mu mabanki kugira ngo ntibasubire kwishura amafaranga y’inzahabu, ivyo bikaba vyatumye haba iciyumviro c’uko uwugurisha ari we azoba ari uwa nyuma.
 
 
 
 ### Iterambere ry'idolari ry'Amerika
 
 
-Twaravuye ku giciro c’i florin tuja ku gushinga Banki y’Ubwongereza. Ego ni ko, muri ico gihe hariho Intambara ya mbere n’iya kabiri y’isi yose, mugabo imbere y’aho, mu 1796, hari ibintu vyariko biraba no ku rundi ruhande rw’ikiyaga Atalantika. Mu 1776, Amerika yari ikiri igikoloni c’Abongereza, kandi ivyo bihugu vyari vyarigaruriye vyakoresha ayo mafaranga y’impapuro. Hasi hariho amafaranga y’amashilingi abiri ya Connecticut yo mu 1776.
+Twaravuye ku giciro c’i florin tuja ku gushinga Banki y’Ubwongereza. Ego ni ko, muri ico gihe hariho Intambara ya mbere n’iya kabiri y’isi yose, mugabo imbere y’aho, mu 1796, hari ibintu vyariko biraba no ku rundi ruhande rw’ikiyaga Atalantika. Mu 1776, Amerika yari ikiri igikoloni c’Abongereza. aha hasi hari inoti rya Connecticut , niyanyayo , n'amashilingi abiri ya Connecticut yo mu 1776.
 
 
 ![image](assets/rn/040.webp)
 
 
-Imbere y’uko amakoloni atangaza intambara ku Bwongereza, amaherezo agasohora amahera yayo bwite, yakoresha ayo mafaranga y’impapuro, iruhande y’idolari ry’Esupanye mu gucuruza amahera. Nkako, ijambo "idolari" ryagumye ryerekana idolari ry'Amerika.
+Ni mugihe batangaza intambara ku Bwongereza, batanguye gukora amahera yabo bwiti. Hagati aho, hari amahera y'amanoti, mugabo bakoresha idolari ry’Espagne mu gucuruza amahera. Nkako, ijambo "idolari" ryagumyeho baryita "dollar americain".
 
 
 Nimba ntabeshe, mu 1792 barashizeho itegeko ryabemerera gukora amahera y’ibiceri. Nk’akarorero, iri musi ni idolari ry’Amerika ry’iki gihe.
@@ -3766,10 +3765,10 @@ Nimba ntabeshe, mu 1792 barashizeho itegeko ryabemerera gukora amahera y’ibice
 ![image](assets/rn/041.webp)
 
 
-Ego cane, biragaragara ko ata gaciro k’imbere k’idolari rimwe gusa; rifise agaciro k’amadolari nka 30 canke 40, kuko rigereranya onze y’ifeza. Agaciro kayo karahinduka bivanye n’igiciro c’ifeza, mu bisanzwe umuntu akayishira ku madolari 30 canke 40 y’Amerika. Birumvikana ko muri iki gihe idolari ry’impapuro riguma rifise agaciro k’idolari rimwe gusa, ariko ico gihe, idolari ry’Amerika ryari rishingiye kuri ako gaciro k’ifeza.
+Ego cane, biragaragara ko ata gaciro katangana n'idollar rimwe; ahubwo rifise agaciro k’amadolari nka 30 canke 40, kuko rigereranya once y’ifeza. Agaciro kayo karahinduka bivanye n’igiciro c’ifeza, mu bisanzwe umuntu akayishira ku madolari 30 canke 40 y’Amerika. Birumvikana ko muri iki gihe idolari ry’impapuro riguma rifise agaciro k’idolari rimwe gusa, ariko ico gihe, idolari ry’Amerika ryari rishingiye kuri ako gaciro k’ifeza.
 
 
-Reka tuvuge ku ntambara y’abanyagihugu muri Amerika ubu. Aba Confederates bariko baracapura amahera, ayo mahera yari menshi cane. Ico kintu ntikija ku rutonde rwemewe rwa Hanke-Krus, kuko kitashitse ku rugero rw’ugutera imbere kw’ibiciro rwo hejuru rw’ibice 50%. Ariko rero, ryarashikiwe n’ugutera imbere kw’ibiciro ku kwezi kw’ibice 40 kw’ijana, ivyo bikaba vyerekana ko amafaranga menshi cane yacapwe mu gihe c’intambara.
+Reka tuvuge kuri "guerre civil" muri Amerika, muri ico gihe barakoze amahera meshi. Ayo mahera yaratakaje agaciro. Ico kintu ntikija ku rutonde rwemewe rwa Hanke-Krus, kuko kitashitse ku rugero k'ukuduga kw’ibiciro rurihejuru rushika kubice 50%. Ariko rero, ryarashikiwe n’ukuduga kw’ibiciro ku kwezi kw’ibice 40 kw’ijana, ivyo bikaba vyerekana ko amafaranga menshi cane yakozwe mu gihe c’intambara.
 
 
 
@@ -3785,14 +3784,14 @@ Ababarwanya bo mu buraruko na bo nyene bari bafise amadolari. Hejuru gusa, wosho
 
 
 
-Kandi ndabatumiye ngo mugereranye itandukaniro riri hagati y’ubunini n’amafaranga y’iki gihe. Iciyo gihe, amafaranga y’amabanki yari manini kuruta.
+Kandi ndabatumiye ngo mugereranye itandukaniro riri hagati y’ubunini n’amahera y’iki gihe ca none. Amahera y'ico gihe yari manini kuruta ayubu.
 
 
 
 Nk’uko tubizi, uburaruko ni bwo bwatsinze, ni co gituma idolari ry’icatsi kibisi ryacitse amahera y’ibihugu vya Amerika vyasubiye gufatanya. Hanyuma hashingwa FED mu 1913, n’Intambara ya mbere y’isi yose.
 
 
-Inyuma y'intambara ya mbere y'isi yose, urutonde rwa nyuma rw'amafaranga y'amahera acapwe rwama rurimwo amajambo ngo "ashobora gucungurwa mu nzahabu iyo asavye". Rero, mu 1928, amadolari 20 yaraguze hafi ounce imwe y’inzahabu, kuko igiciro c’inzahabu cari amadolari 20,67. Iryo kete riri ku ishusho iri musi ryari gushobora kugura ounce y’inzahabu mu 1928.
+Inyuma y'intambara ya mbere y'isi yose, urutonde rwa nyuma rw'amahera y'amanoti akozwe yama arimwo amajambo avuga "redeemable in gold on demand". Rero, mu 1928, amadolari 20 yaraguze hafi ounce imwe y’inzahabu, kuko igiciro c’inzahabu cari amadolari 20,67. Iryo kete riri ku ishusho iri musi ryari gushobora kugura ounce y’inzahabu mu 1928.
 
 
 
@@ -3800,7 +3799,7 @@ Inyuma y'intambara ya mbere y'isi yose, urutonde rwa nyuma rw'amafaranga y'amahe
 
 
 
-Muri iki gihe, ounce imwe y’inzahabu ifise agaciro k’amadolari 3.000 y’Amerika. Rero urashobora kubona ububasha bwo gukuraho agaciro hano, birashoboka. Ni co cari igitabu ca nyuma carimwo amajambo ngo "gucungurwa mu nzahabu". Tuzobona ko inyuma y’itegeko ry’ubutegetsi 6102, bofata inzahabu yose. Nkako, bofata izo nzahabu be n’ivyo vyemezo vy’inzahabu.
+Muri iki gihe, ounce imwe y’inzahabu ifise agaciro k’amadolari 3.000 y’Amerika. Rero urashobora kubona ububasha bwo gukuraho agaciro hano, birashoboka. Niyo yari inoti ya nyuma yarimwo amajambo ngo "redeemable in gold". Tuzobona ko inyuma y’itegeko ry’ubutegetsi 6102, bofata inzahabu yose. Nkako, bofata izo nzahabu be n’ivyo vyemezo vy’inzahabu.
 
 
 Aha musi urashobora kubona icete c'inzahabu co mu 1928.
@@ -3820,10 +3819,10 @@ Ndanezerewe cane no kugira imwe.
 Kuva mu 1964, vyaciye bitemewe kugira inzahabu, gushika mu 1974, nimba ntabeshe. Mu myaka ya 70, baremeye abantu kwirundanira inzahabu inyuma y’igitero ca Nixon, ivyo tuzobidondora vuba. Mu mwaka w'1933, igihe basohora "Itegeko ry'ubutegetsi 6102", bafata inzahabu, bica bitemewe kuyitunga. Waronka igihano kinini c’igifungo iyo ufashwe uriko urazigama inzahabu yawe. Muri iyo misi, ounce yose y’inzahabu yahindurwa n’amahera asa n’ayo ari musi, inyuma y’umwaka wa 1934.
 
 
-Nk'uko twabivuze, mu 1928, idolari ryari rigifise icanditswe ngo "redeemable in gold".
+Nk'uko twabivuze, mu 1928, idolari ryari rikiriko ijambo ngo "redeemable in gold".
 
 
-Inyuma y’aho itegeko ry’ubutegetsi 6102 risohokeye, bafata inzahabu zose, bahindura amadolari 20,67 ku ounce yose y’inzahabu. Hanyuma, ubuhendanyi bwaje kugaragara: basohoye amafaranga mashasha mu 1934 yanditsweko ngo "iri kete ni amafaranga yemewe ku myenda yose".
+Inyuma y’aho itegeko ry’ubutegetsi 6102 risohokeye, bafata inzahabu zose, bahindura amadolari 20,67 ku ounce yose y’inzahabu. Hanyuma, ngubu ububeshi. Basohoye amahera mashasha mu 1934 yanditsweko ngo "this note is legal tender for all debt".
 
 
 

@@ -69,7 +69,7 @@ Passphrase（密语）: YfaicGzXH9t5C#g&47Kzbc$JL
 tb1qxv56mma5x5r7uhdkn0ldvcx6m0gj6f3kre0gwd
 ```
 
-记下信息后，前往 “File” 菜单，然后选择 “Delete Wallet”。再次提醒您，在执行此操作之前，您的比特币钱包必须为空。
+记下信息后，前往 “File” 选单，然后选择 “Delete Wallet”。再次提醒您，在执行此操作之前，您的比特币钱包必须为空。
 
 ![恢复测试](assets/notext/04.webp)
 
@@ -77,7 +77,7 @@ tb1qxv56mma5x5r7uhdkn0ldvcx6m0gj6f3kre0gwd
 
 ![恢复测试](assets/notext/05.webp)
 
-现在您需要重复创建钱包的过程，但这次使用我们的纸质备份。点击 “File” 菜单，然后点击 “New Wallet”。
+现在您需要重复创建钱包的过程，但这次使用我们的纸质备份。点击 “File” 选单，然后点击 “New Wallet”。
 
 ![恢复测试](assets/notext/06.webp)
 
@@ -85,7 +85,7 @@ tb1qxv56mma5x5r7uhdkn0ldvcx6m0gj6f3kre0gwd
 
 ![恢复测试](assets/notext/07.webp)
 
-在 “*Script Type*” 菜单中，您需要选择与之前删除的钱包相同的脚本类型。
+在 “*Script Type*” 选单中，您需要选择与之前删除的钱包相同的脚本类型。
 
 ![恢复测试](assets/notext/08.webp)
 
@@ -113,7 +113,7 @@ tb1qxv56mma5x5r7uhdkn0ldvcx6m0gj6f3kre0gwd
 
 ![恢复测试](assets/notext/14.webp)
 
-你现在可以返回到 “*Addresses*” 标签。
+您现在可以返回到 “*Addresses*” 标签。
 
 ![恢复测试](assets/notext/15.webp)
 

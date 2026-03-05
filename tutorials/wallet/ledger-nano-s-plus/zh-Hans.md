@@ -37,22 +37,22 @@ Ledger 的优势在于其对比特币新功能的快速响应，例如 Taproot �
 
 ## 如何购买Ledger Nano S Plus？
 
-Ledger Nano S Plus 可在[官方网站](https://shop.ledger.com/products/ledger-nano-s-plus)上购买。为了在实体店购买，你也可以在 Ledger 网站上找到[认证经销商的列表](https://www.ledger.com/reseller)。
+Ledger Nano S Plus 可在[官方网站](https://shop.ledger.com/products/ledger-nano-s-plus)上购买。为了在实体店购买，您也可以在 Ledger 网站上找到[认证经销商的列表](https://www.ledger.com/reseller)。
 
 ## 前提条件
 
 收到 Ledger Nano 后，第一步操作是检查包装是否已被打开。如果包装损坏，则可能表明硬件钱包已被盗用，并非正品。
 
-打开后，你应该在盒子里找到以下物品：
+打开后，您应该在盒子里找到以下物品：
 - Ledger Nano S Plus；
 - USB-C 转 USB-A 数据线；
 - 用户手册；
 - 用于记录助记词的卡片。
 
-对于本教程，你将需要 2 个软件应用程序：Ledger Live 来初始化 Ledger，和 Sparrow Wallet 来管理你的比特币钱包。从它们的官方网站下载 [Ledger Live](https://www.ledger.com/ledger-live) 和 [Sparrow Wallet](https://sparrowwallet.com/download/)。
+对于本教程，您将需要 2 个软件应用程序：Ledger Live 来初始化 Ledger，和 Sparrow Wallet 来管理您的比特币钱包。从它们的官方网站下载 [Ledger Live](https://www.ledger.com/ledger-live) 和 [Sparrow Wallet](https://sparrowwallet.com/download/)。
 
 ![NANO S PLUS LEDGER](assets/notext/03.webp)
-对于这两个软件程序，我强烈建议在将它们安装到你的机器上之前，检查它们的真实性（通过GnuPG）和完整性（通过哈希）。如果你不确定如何操作，你可以跟随这个其他教程：
+对于这两个软件程序，我强烈建议在将它们安装到您的机器上之前，检查它们的真实性（通过GnuPG）和完整性（通过哈希）。如果您不确定如何操作，您可以跟随这个其他教程：
 https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## 如何初始化 Ledger Nano？
@@ -69,7 +69,7 @@ https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21
 
 ![NANO S PLUS LEDGER](assets/notext/06.webp)
 
-选择将用于解锁你的 Ledger 的 PIN 码。因此，这是一种防止未经授权的物理访问的保护。这个 PIN 码与钱包的加密密钥的派生无关。因此，即使无法获取此 PIN 码，拥有 24 个单词的助记词也能让您重新访问您的比特币。
+选择将用于解锁您的 Ledger 的 PIN 码。因此，这是一种防止未经授权的物理访问的保护。这个 PIN 码与钱包的加密密钥的派生无关。因此，即使无法获取此 PIN 码，拥有 24 个单词的助记词也能让您重新访问您的比特币。
 
 ![NANO S PLUS LEDGER](assets/notext/07.webp)
 
@@ -121,7 +121,7 @@ Ledger 将使用其随机数生成器生成您的助记词。请确保在此过�
 
 ![NANO S PLUS LEDGER](assets/notext/16.webp)
 
-点击 “*Settings*” 菜单。
+点击 “*Settings*” 选单。
 
 ![NANO S PLUS LEDGER](assets/notext/17.webp)
 
@@ -129,11 +129,11 @@ Ledger 将使用其随机数生成器生成您的助记词。请确保在此过�
 
 ![NANO S PLUS LEDGER](assets/notext/18.webp)
 
-在 “*Language*” 菜单中，您可以更改显示语言。
+在 “*Language*” 选单中，您可以更改显示语言。
 
 ![NANO S PLUS LEDGER](assets/notext/19.webp)
 
-在 “*Brightness*” 菜单中，您可以调整屏幕亮度。现在我们对其他通用设置不感兴趣。
+在 “*Brightness*” 选单中，您可以调整屏幕亮度。现在我们对其他通用设置不感兴趣。
 
 ![NANO S PLUS LEDGER](assets/notext/20.webp)
 
@@ -157,20 +157,20 @@ Ledger 将使用其随机数生成器生成您的助记词。请确保在此过�
 
 https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
-"*PIN lock*" 菜单允许您配置并激活在确定的不活动期后自动锁定您的 Ledger。
+"*PIN lock*" 选单允许您配置并激活在确定的不活动期后自动锁定您的 Ledger。
 
 ![NANO S PLUS LEDGER](assets/notext/24.webp)
 
-"*Screen saver*" 菜单允许您调整您的 Ledger Nano 的睡眠模式。请注意，除非激活了与睡眠模式相对应的 "*PIN lock*" 选项，否则唤醒时不需要输入 PIN 码。这个功能对于配备电池的 Ledger Nano X 设备特别有用，以减少它们的能耗。
+"*Screen saver*" 选单允许您调整您的 Ledger Nano 的睡眠模式。请注意，除非激活了与睡眠模式相对应的 "*PIN lock*" 选项，否则唤醒时不需要输入 PIN 码。这个功能对于配备电池的 Ledger Nano X 设备特别有用，以减少它们的能耗。
 
 ![NANO S PLUS LEDGER](assets/notext/25.webp)
 
-最后，"*Reset device*" 菜单允许您重置您的 Ledger。只有在您确定它不包含任何保护比特币的密钥时，才进行这种重置，因为您可能会永久失去访问您的资金的权限。这个选项对于执行空恢复测试可能很有用，但我稍后会再谈谈这个。
+最后，"*Reset device*" 选单允许您重置您的 Ledger。只有在您确定它不包含任何保护比特币的密钥时，才进行这种重置，因为您可能会永久失去访问您的资金的权限。这个选项对于执行空恢复测试可能很有用，但我稍后会再谈谈这个。
 
 ![NANO S PLUS LEDGER](assets/notext/26.webp)
 ## 如何安装比特币应用程序？
 
-首先，在您的计算机上启动 Ledger Live 软件，然后连接并解锁您的 Ledger Nano。在 Ledger Live中，前往 "*My Ledger*" 菜单。系统将要求您授权访问您的 Nano。
+首先，在您的计算机上启动 Ledger Live 软件，然后连接并解锁您的 Ledger Nano。在 Ledger Live中，前往 "*My Ledger*" 选单。系统将要求您授权访问您的 Nano。
 
 ![NANO S PLUS LEDGER](assets/notext/27.webp)
 
@@ -202,7 +202,7 @@ https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-43
 
 我强烈建议您使用自己的比特币节点。在本教程中，我使用的是公共节点（黄色），因为我使用的是测试网。但对于日常使用，最好选择本地 Bitcoin Core（绿色）或连接到远程节点的 Electrum 服务器（蓝色）。
 
-点击 "*File*" 菜单，然后选择 "*New Wallet*"。
+点击 "*File*" 选单，然后选择 "*New Wallet*"。
 
 ![NANO S PLUS LEDGER](assets/notext/34.webp)
 
@@ -210,7 +210,7 @@ https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-43
 
 ![NANO S PLUS LEDGER](assets/notext/35.webp)
 
-在 "*Script Type*" 下拉菜单中，选择将用于保护您的比特币的脚本类型。我推荐选择 "*Taproot*"，如果不可用，选择 "*Native SegWit*"。
+在 "*Script Type*" 下拉选单中，选择将用于保护您的比特币的脚本类型。我推荐选择 "*Taproot*"，如果不可用，选择 "*Native SegWit*"。
 
 ![NANO S PLUS LEDGER](assets/notext/36.webp)
 

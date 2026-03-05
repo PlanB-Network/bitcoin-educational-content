@@ -3829,51 +3829,51 @@ Inyuma y’aho itegeko ry’ubutegetsi 6102 risohokeye, bafata inzahabu zose, ba
 ![image](assets/rn/046.webp)
 
 
-Iciyumviro c'amahera yemewe n'amategeko kiraseruka aha, gisubirira ijambo "rishobora gucungurwa mu nzahabu." Izo mpapuro zibiri zishobora gusa n’izisa, amajambo makeyi gusa agahinduka, ariko ubuhendanyi buri mu kuba idolari ryagabanutse agaciro muri ico kiringo; ryagabanutse kuva ku ounce y’inzahabu yari ifise agaciro k’amadolari 20,67 gushika ku madolari 35 ku ounce mu 1934. Ryagereranya ko agaciro k’inzahabu kagabanutse hafi 40%!
+Rero turafise ubumenyi bw'icirwa cemewe n'amategeko cagaragaye hano, gisubirira ijambo "redeemable in gold". Izo noti zibiri zirasa, n'amajambo bandikako ahinduka(n'agaciro kagahinduka), ariko amayeri niyo yatumye ama dollar ata agaciro ico gihe; ryagabanutse kuva ku ounce imwe y’inzahabu gushika kugaciro k’amadolari 20,67 gushika ku madolari 35 ku ounce mu 1934. Iryo takaza ry'agaciro k'idollar kababa 40%!. Ico gihe i dollar yaratakaje agaciro bimwe bidasanzwe.
 
 
-Hanyuma haza Intambara ya kabiri y’isi yose. Inyuma y’intambara, amasezerano ya Bretton Woods yaratumye inzahabu nyinshi zo kw’isi zija muri Leta Zunze Ubumwe za Amerika. Abanyamerika barasohora amafaranga y’amahera kugira ngo bayahindure, naho nyene ayo mafaranga atagishobora gucungurwa n’abantu bose ku nzahabu. Ahubwo vyagumye bishobora guhindurwa n’inzahabu ku rwego rwa Leta.
+Hanyuma haza Intambara ya kabiri y’isi yose. Inyuma y’intambara, amasezerano ya Bretton Woods yaratumye inzahabu nyinshi zo kw’isi zija muri Leta Zunze Ubumwe za Amerika. Abanyamerika batanduye gushira amahera y'amanoti mubantu mukibanza c'inzahabu. Amahera y'amanoti ntiyabaye agihindurwa mu nzahabu ku rwego rw'abanyagihugu ahubwo ku rwego rwa leta.
 
 
-Amaherezo, ibihugu nk’Ubufaransa n’Ubudage vyatanguye kwikeka ko kumbure hariho amafaranga menshi y’amadolari akoreshwa kuruta inzahabu mu bibanza vy’ububiko vy’amahera vyo muri Amerika.
+Amaherezo, ibihugu nk’Ubufaransa n’Ubudage vyatanguye kwikeka ko kumbure hariho amafaranga menshi y’amadolari azunguruka mubantu kuruta inzahabu ziri mububiko bw'america.
 
 
-Baciye rero basaba ko bosubiza inzahabu zabo mu gihugu cabo. Baravuga bati: "Sawa, tuzobikora, ariko bizofata umwanya muto." Mu 1971, umugenzi wacu Richard Nixon yaracitse rimwe rizima ubucuti buri hagati y’amafaranga y’amahera n’inzahabu, ashira urubanza ku bacuruzi b’amahera bariko barabikora.
+Baciye rero basaba ko inzahabo zabo zosubizwa mubihugu vyabo. Baravuga bati: "Sawa, tuzobikora, ariko bizofata umwanya." Mu 1971, umugenzi wacu Richard Nixon yaracitse rimwe rizima ubucuti buri hagati y’amafaranga y’amahera n’inzahabu, ashira urubanza ku bacuruzi b’amahera bariko barabikora.
 
 
-Inzahabu yari ifise agaciro gatoyi, ikaba yari amadolari 35 ku nkoko, igiciro kikaba kitahuye n’ingero y’amahera yari yaracapuwe canke agaciro nyakuri kayo kw’isoko. Mu myaka mikeyi gusa, igiciro caco caraduze kiva ku madolari 34 kija ku madolari 800. Cokimwe n’ingero zo mu kahise, nk’i Roma, aho isano hagati y’idenari n’isolidi ryacitse, inzahabu yararekuriwe kureremba. Ivyo vyatumye habaho urugendo rwo kuvumbura igiciro, bituma inzahabu igira agaciro kanini cane mu madolari inyuma y’aho.
+Inzahabu yari ifise agaciro gatoyi, ikaba yari amadolari 35 kuri once, ariko vyaraboneka ko amahera yagaragara atari ahuriranye n'amahera akorwa. Mu myaka mikeyi gusa, igiciro caco caraduze kiva ku madolari 34 kija ku madolari 800. Cokimwe n’ingero zo mu kahise, nk’i Roma, aho isano hagati y’idenariyo(denier) na solidus ryacitse, inzahabu yararekuriwe kwidegemvya. Ivyo vyatumye habaho urugendo rwo kuvumbura igiciro, bituma inzahabu igira agaciro kanini cane kuruta amadolari uko imisi yagenda iraza.
 
 
-### Uburyo bw'amafaranga y'ubu n'ingaruka zayo
-
-
-
-Iki gice kiraca irya n’ino ingene twavuye mu nzira y’amahera ishingiye ku feza canke ku nzahabu. Buhorobuhoro, inzego zararonse ububasha bwinshi ku mahera. Amaherezo, ingingo yafashwe n’umuntu umwe yaracitse burundu ubucuti buri hagati y’ivyuma vy’agaciro n’amahera, inyuma y’aho amahera asohowe birenze urugero.
+### Uburyo bw'amafaranga y'ubu afatiye kukwizera hamwe n'ingaruka zayo
 
 
 
-Ivyo vyatumye ata sano rikiri hagati y’inzahabu n’ibiceri canke amahera yo mu Vyanditswe. Kandi mbere si uburyo bwo gucungera amafaranga y’imice - ico ni iciyumviro ca kera. Ahubwo amabanki yigenga atanga amahera kandi akayarema biciye mu ngurane za banki. Amahera ahanini aremwa muri ubwo buryo kandi afitaniye isano n’inyungu nyamukuru ishirwaho na banki nkuru.
+Iki gice kiravuga muncamake ingene twavuye mu nzira y’amahera ishingiye kwi feza canke ku nzahabu. Buhorobuhoro, inzego zarakoresheje ububasha bwinshi cane kuvyerekeye amahera. Ubwanyuma, ingingo yafashwe yaracitse burundu ubucuti buri hagati y’ivyuma vy’agaciro n’amahera, inyuma y’aho amahera asohowe birenze urugero.
 
 
 
-Mu vy’ukuri nta n’aho bigarukira. Nta n’ingero z’ububiko zitegekanijwe zikiriho, n’imiburiburi muri Amerika na Canada. Ico gusa gisigaye ni uko amabanki akwiye gutegura kugira ngo ashobore kwishura ku bijanye n’uguhanahana amakuru hagati y’amabanki kugira ngo ntaheze amahera.
+Ivyo vyatumye muri ikigihe ca none ata bucuti bukiri hagati y’inzahabu n’ibiceri canke amahera yo mu Vyanditswe. Kandi mbere si uburyo bwo gucungera amafaranga y’imice - ico ni iciyumviro ca kera. Ahubwo amabanki yigenga atanga amahera kandi atayakora biciye mu ngurane za banki. Amahera ahanini akorwa muri ubwo buryo kandi afitaniye ubucuti n’inyungu nyamukuru ishirwaho na banki nkuru.
 
 
 
-Bakeneye gusa kumenya neza ko bashobora gukora ivyo bihembo, ariko nta 3%, 1%, 10% vy’ububiko bw’ingorane. Twarakuye vy’ukuri ku ciyumviro c’ububiko bw’imice. Ubu, ni amabanki akomeye, intwaro biciye mu gutakaza amafaranga, amabanki akomeye biciye mu gutanga amafaranga (QE), n’amabanki yigenga biciye mu kurema inguzanyo za banki zishobora kwongera amafaranga yose, kandi, mu vyiyumviro vyanje, zigatuma habaho ugutera imbere kw’ibiciro.
+Mu vy’ukuri nta mbibe zihari. Nta n’ingero z’ububiko zitegekanijwe zikiriho, n’imiburiburi muri Amerika na Canada. Urugero rw'ububiko n'uko amabanki agera geza uburyo bwose agashobora kwishura ku bijanye n’imikoreranire n'ayandi mabanki kugira ngo i banke ntibure amahera ikoresha.
 
 
 
-Kugira ngo utahure isano riri hagati y’amahera n’ugutera imbere kw’ibiciro, ndabagira inama yo gukora inyigisho mfise kuri Plan ₿ Academy yerekeye iyo nkuru. Uzomenya itandukaniro riri hagati y’ukwiyongera kw’ibiciro, ivyo ni vyo tubona mu buzima, n’ugutera imbere kw’ibiciro. Si ikintu kimwe. Nkako, iyo tuvuze ivy’ugutera imbere kw’ibiciro, akenshi tuba turiko turavuga ivy’ugutera imbere kw’ibiciro, si ugutera imbere kw’ibiciro ubwavyo. Inflation ni iciyumviro kibereye, gisigurwa n’ukwiyongera kw’amahera.
+Ama banki yoyo yitaho gusa ko amarungika yagenze neza, ariko nta 3%, 1%, 10% vy’ububiko butegerezwa. Twaravuye vy’ukuri ku ciyumviro c’ububiko bw’imice. Ubu, ni amabanki akomeye, inzego ziciye mumukori, amabanki akomeye biciye "quantitative easing" (QE), n’amabanki yigenga biciye mu kurema inguzanyo za banki zishobora kwongera amafaranga yose, kandi, mu vyiyumviro vyanje, ivyo bigatuma habaho iduga ry'ibiciro.
+
+
+
+Kugira ngo utahure isano riri hagati y’amahera n’ukuduga kw’ibiciro, ndabagira inama yo gukwirikirana inyigisho mfise kuri Plan ₿ Academy yerekeye iyo nkuru. Uzomenya itandukaniro riri hagati y’ukwiyongera kw’ibiciro, ni vyo tubona mu buzima, n’ukuduga kw’ibiciro. Si ikintu kimwe. Nkako, iyo tuvuze ivy’ugutera imbere kw’ibiciro, akenshi tuba turiko turavuga ivy’ugutera imbere kw’ibiciro, si ugutera imbere kw’ibiciro ubwavyo. Inflation ni iciyumviro kibereye, gisigurwa n’ukwiyongera kw’amahera.
 
 
 https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
-Kugira ngo nsozere iki gice ku isi ya fiat, ndashaka kwerekana uburyo bwo kubafasha gutahura neza ibintu nsanzwe ndasigura, nk’ugutera imbere kw’ibiciro.
+Kugira ngo nsozere iki gice ku isi ya fiat(bifatiye kukwizera), ndashaka kwerekana uburyo bwo kubafasha gutahura neza ibintu nsanzwe ndasigura, nk’ugutera imbere kw’ibiciro.
 
 
 
-Murakoze cane ku kwitwararika.
+Murakoze cane ku mwitwarariko wanyu.
 
 
 
@@ -3886,15 +3886,15 @@ Murakoze cane ku kwitwararika.
 
 :::video id=5967d9a6-aae4-4b84-a283-71b1b735bca4:::
 
-### Uguhingura amafaranga y'impapuro n'igihu ca mbere gikomeye
+### ivumburwa ry'amahera y'amanoti na "grande bulle" yambere
 
 
 
-Igihe amabanki akomeye yashingwa mu kinjana ca 18, haravutse ihinduka nyakuri: amahera y’ubupfumu mu buryo bw’amafaranga y’amahera. Akarorero gakomeye kuruta ayandi yose mu Bufaransa ni aka John Law. Uwo Munya Ekose, yari yajanwe mu bunyagano i Paris, yasavye uwo mukuru w’igihugu, ari we Duc d’Orléans, umuti w’ugusenyuka kw’amahera y’umwami mu gushinga banki ya Leta n’ishirahamwe ry’ubudandaji ry’abakoloni: **Banque Royale** izwi cane na **Compagnie du Mississippi**.
+Igihe amabanki akomeye yashingwa mu kinjana ca 18, haravutse ihinduka nyakuri: amahera yagatangaza muburyo bw’amahera y'amanoti. Akarorero gakomeye kuruta ayandi yose mu Bufaransa ni aka John Law. Uwo Munya Ecosse, yari yajanwe mu bunyagano i Paris, yasavye uwo mukuru w’igihugu, ari we Duc d’Orléans, gutorera umuti isambuka ry'ubutunzi y’ubwami mu gushinga banki ya Leta n’ishirahamwe ry’ubudandaji ry’abakoloni: **Banque Royale** izwi cane na **Compagnie du Mississippi**.
 
 
 
-Law akoresheje iyo nzira, yarahuje amahera y’impapuro n’imigabane y’ishirahamwe ryiwe. Uko amafaranga y’amabanki yagenda aragenda, ni ko agaciro k’imigabane karushiriza kuba kanini, kandi ni ko banki isa n’iyikomeye... gushika aho ibiharuro vyarengeye ukuri. Ico kibumbano caraturitse bukwi na bukwi mu 1720, kirasenyura abakuru b’igihugu, abanyabubasha be n’igice kinini c’Uburayi, cari caraje gutekereza ku rue Quincampoix. Ico vyavuyemwo: ukwizigira amahera y’impapuro kwaramba mu Bufaransa, n’icigwa ca mbere c’Uburayi ku bijanye n’ibibumbano vy’ugutekereza ku bintu.
+Law akoresheje iyo nzira, yarahuje amahera y’amanoti n’imigabane y’ishirahamwe ryiwe. Uko amahera y’amabanki yagenda aragenda, ni ko agaciro k’imigabane karushiriza kuba kanini, kandi ni ko banki isa n’iyikomeye... gushika aho ibiharuro vyarengeye ibiharuro nyakuri. Ico kibumbano caraturitse bukwi na bukwi mu 1720, kirasenyura abakuru b’igihugu, abanyabubasha be n’igice kinini c’Uburayi, cari caraje gutekereza ku rue Quincampoix. Ico vyavuyemwo: ukwizigira amahera y’impapuro kwaramba mu Bufaransa, n’icigwa ca mbere c’Uburayi ku bijanye n’ibibumbano vy’ugutekereza ku bintu.
 
 
 
@@ -3902,11 +3902,11 @@ Law akoresheje iyo nzira, yarahuje amahera y’impapuro n’imigabane y’ishira
 
 
 
-### Igihe ubutaka buzoba "ingwati".
+### Igihe "foncier" ibaye "ingwati".
 
 
 
-Haciye imyaka ijana, Impinduka y’Abafaransa yarateye imbere n’amafaranga **assignats**, amafaranga ashigikiwe n’itunga rya Ekleziya ryafashwe. Iciyumviro gikwegera ku mpapuro - guhindura ubutaka ngo bube ingwati y’amahera - ariko ntaco bumaze: ubutaka si amazi canke ngo bugabanuke. Ico vyavuyemwo: ugutera imbere cane kw’ibiciro, ukubuza gukoresha ubutaka kenshi, ugutera imbere kw’ibiciro kutagenzurwa, n’ubukene.
+Haciye imyaka ijana, Impinduka y’Abafaransa yarateye imbere n’amafaranga **assignats**, amafaranga ashigikiwe n’itunga rya Ekleziya ryafashwe. Iciyumviro giteye igomwe ku mpapuro - guhindura "foncier" ngo ibe ingwati y’amahera - ariko ntaco bumaze: ubutaka si amazi canke ngo bugabanuke. Ico vyavuyemwo: ukuduga kw’ibiciro, ukubuza gukoresha ubutaka kenshi, ugutera imbere kw’ibiciro kutagenzurwa, n’ubukene.
 
 
 

@@ -1136,43 +1136,88 @@ Jeśli chcesz poszerzyć swoją wiedzę na temat Bitcoina, teraz jest na to świ
 
 <chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
 
-Teraz, gdy znamy podstawy protokołu Bitcoin, przedstawimy sieć płatności, która wykorzystuje protokół Bitcoin do umożliwiania błyskawicznych transakcji: Sieć Lightning!
+Teraz, gdy znamy podstawy protokołu Bitcoin, przedstawimy sieć płatności, która wykorzystuje protokół Bitcoin do umożliwiania błyskawicznych transakcji: Sieć Lightning (z angielskiego w skrócie często LN). Jej cel jest prosty: umożliwić błyskawiczne płacenie bitcoinem bez przeciążania łańcucha bloków w zamian za niskie opłaty transkacyjne.
 
-Przedstawimy tutaj tylko ogólny zaryz tej technologii, zachęcamy do sprawdzenia naszego kursu LNP201, aby zrozumieć ją bardziej szczegółowo.
+### Łańcuch bloków nie może zrobić wszystkiego
 
-### W skrócie
+Blockchain Bitcoin został zaprojektowany tak, aby mógł być weryfikowany przez jak największą liczbę osób, bez potrzeby uzyskiwania pozwolenia i bez konieczności ufania drugiej stronie. Ten wymóg oznacza jednak pewne strukturalne ograniczenia: łańcuch bloków nie może przetwarzać nieograniczonej liczby transakcji, ponieważ bloki muszą mieć rozsądną wielkość, aby można je było pobierać, przechowywać i weryfikować przez niezależne węzły bez konieczności używania drogiego sprzętu.
 
-Sieć Lightning to rewolucyjna technologia, która głęboko zmieniła nasze postrzeganie Bitcoina. Jest to rozwiązanie, które rozwiązuje problem skalowalności Bitcoina.
+Ten kompromis często podsumowuje się tzw. trylematem łańcucha bloków: decentralizacja, bezpieczeństwo i skalowalność. System oparty na łańcuchu bloków nie może maksymalizować wszystkich trzech właściwości jednocześnie. Bitcoin stawia przede wszystkim na decentralizację i bezpieczeństwo, co naturalnie ogranicza możliwą przepustowość transakcji w łańcuchu (on-chain).
 
-Aby w pełni zrozumieć Sieć Lightning, kluczowe jest zrozumienie, jak ewoluuje Bitcoin. Bitcoin rozwija się w warstwach infrastruktury: pierwsza warstwa to łańcuch bloków, a druga warstwa to Sieć Lightning.
-![image](assets/en/78.webp)
-### Łańcuch bloków nie może rosnąć w nieskończoność
+![image](assets/en/081.webp)
 
-Sieć Lightning została zweryfikowana i wdrożona w 2017 roku jako rozwiązanie problemu skalowalności Bitcoina - umożliwia dokonywanie natychmiastowych transakcji o niskim koszcie.
+W przypadku Bitcoina programiści podjęli świadomą decyzję, aby faworyzować właśnie te właściwości. Z jednej strony limit rozmiaru bloku wynoszący 1 MB oraz średni czas 10 minut między blokami sprawiają, że uruchomienie węzła Bitcoina jest stosunkowo tanie, co wspiera decentralizację sieci. Z drugiej strony produkcja bloków poprzez dowód pracy powoduje, że wszelkie próby oszustwa są bardzo kosztowne, a jednocześnie ułatwia weryfikację bloków przez węzły i wzmacnia ogólne bezpieczeństwo protokołu.
 
-Problem skalowalności odnosi się do wdrożenia takiego systemu monetarnego, który byłby zdolny do zapewniania coraz większej liczby transakcji na sekundę w miarę jego rozrastania. Dotyczy to trilematu łańcucha bloków. Wyobraź sobie trójkąt z decentralizacją, bezpieczeństwem i skalowalnością jako wierzchołkami.
+Te decyzje wprowadzają jednak istotne ograniczenie: liczba transakcji, które można umieścić w każdym bloku, jest ograniczona. Odpowiada to zaledwie kilku transakcjom na sekundę. Jest to bardzo niewiele w porównaniu z możliwościami scentralizowanych systemów płatności, takich jak VISA (który ma teoretyczną maksymalną przepustowość około 65 000 transakcji na sekundę). Jednak to ograniczenie jest ceną, jaką trzeba zapłacić, aby umożliwić transakcje odporne na cenzurę bez udziału zaufanych pośredników.
 
-![image](assets/en/79.webp)
+W praktyce oznacza to dwie bardzo ważne rzeczy dla codziennego używania Bitcoina:
 
-Protokół oparty na łańcuchu bloków może pogodzić tylko dwa z tych 3 aspektów. W ramach protokołu Bitcoin deweloperzy podjęli decyzję, aby faworyzować decentralizację i bezpieczeństwo. Z jednej strony, rozmiar bloku 1MB i czas między powstaniem dwóch bloków (średnio 10 minut) pozwalają na prowadzenie węzła Bitcoina przy niższych kosztach, faworyzując decentralizację. Z drugiej strony, produkcja bloków przez dowód pracy (ang. Proof-of-Work) sprawia, że oszustwo w ramach protokołu jest niezwykle kosztowne, jednocześnie ułatwiając weryfikację przez węzły sieci, co faworyzuje bezpieczeństwo. Jednak te wybory nakładają limit na średnią liczbę transakcji w bloku, odpowiadającą mniej więcej kilku transakcjom na sekundę. Ta liczba jest śmieszna w porównaniu z możliwościami przetwarzania płatności przez procesory takie jak VISA, które wynoszą 1700/s. Jednak ten limit jest konieczny, aby transakcje z użyciem bitcoina były odporne na cenzurę i nie zależały od zaufania pomiędzy stronami. Niemniej jednak osoby rozwijające Bitcoina od początku myślały o tym problemie.
+* gdy rośnie popyt na miejsce w blokach, opłaty transakcyjne on-chain mogą bardzo wzrosnąć;
+* płatności on-chain wymagają potwierdzeń, co nie zawsze jest wygodne przy codziennych zakupach.
 
-### Lightning Jako Wierzchnia Warstwa
+Sieć Lightning jest właśnie odpowiedzią na te problemy. Idea stojąca za Lightning opiera się na podejściu warstwowym: Bitcoin pozostaje warstwą bazową (warstwą rozliczeniową) — solidną i bardzo bezpieczną — natomiast Lightning działa jako szybka warstwa płatności zbudowana na jej szczycie.
 
-Po latach refleksji i wielu próbach, pojawia się protokół Lightning. Korzystając z pewnej liczby specyfikacji, protokół ten umożliwia budowę sieci płatności peer-to-peer, wykorzystując bezpieczeństwo i możliwości programowania protokołu transakcyjnego Bitcoin. Sieć Lightning działa jak sieć kanałów płatniczych, umożliwiająca natychmiastowe transakcje z niskimi opłatami dla nadawcy. Sieć ta umożliwia transakcje nawet między osobami, które nie są bezpośrednio połączone kanałem płatniczym.
+![image](assets/en/080.webp)
 
-![image](assets/en/80.webp)
+### Sieć połączonych kanałów
 
-Tradycyjne usługi przekazu pieniężnego, takie jak Western Union, banki centralne, Visa i Mastercard, mogą zniknąć, jeśli nie zaadoptują technologii Lightning Network. Jest ona bardziej efektywna i opłacalna niż obecne systemy płatności - umożliwia niemal nieograniczone transakcje między dwoma stronami dzielącymi kanał, gdzie jedynym wydatkiem energetycznym na bazowym łańcuchu bloków jest transakcja ogłaszająca utworzenie kanału, a nie każda indywidualna transakcja.
+Sieć Lightning to nie tylko zbiór odizolowanych kanałów. To sieć: tysiące węzłów połączonych ze sobą poprzez kanały, tworzące sieć połączeń.
 
-![image](assets/en/81.webp)
+![image](assets/en/082.webp)
 
-Transakcje są zabezpieczone przez kryptografię i pośrednio przez energię zużywaną przez górników na Bitcoina. Transakcje mogą być realizowane natychmiast, bez ograniczeń geograficznych, a opłaty są niezwykle niskie, często mniejsze niż 0,5%.
+Dzięki tej sieci możesz zapłacić odbiorcy nawet wtedy, gdy nie masz z nim bezpośredniego kanału, o ile istnieje ścieżka kanałów, przez którą płatność może zostać przekazana. Płatność przechodzi wtedy przez kilka pośrednich węzłów, krok po kroku.
 
-Podsumowując, sieć Lightning to obiecująca próba wdrożenia efektywnego systemu płatności do transakcji w bitcoinach. Dostępnych jest już wiele portfeli Lightning, które możesz odkryć w naszej sekcji samouczków lub poprzez nasze szkolenie na temat sieci Lightning.
+W tym miejscu pojawia się ważne pojęcie związane z siecią Lightning: płynność.
 
-Jeśli chcesz wyjść poza ramy tego wstępu i zrozumieć całe funkcjonowanie sieci Lighting, polecamy ten świetny kurs Fanisa Michalakisa dotyczący tego tematu:
+Pojemność kanału oznacza całkowitą ilość środków zablokowanych w danym kanale, natomiast płynność odnosi się do tego, jak te środki są rozdzielone pomiędzy dwie strony kanału, a więc w którą stronę mogą przepływać saty. Innymi słowy, kanał może mieć dużą pojemność, ale nadal być bezużyteczny w danym kierunku, jeśli płynność znajduje się po niewłaściwej stronie. Dlatego udane płatności zależą nie tylko od tego, czy istnieje ścieżka połączeń między węzłami, ale również od dostępnej płynności na całej tej ścieżce.
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
+### Przekierowywanie płatności bez zaufanych pośredników
+
+Sieć Lightning została zaprojektowana tak, aby umożliwić przesyłanie płatności przez pośredników bez konieczności ufania im. Aby to osiągnąć, protokół wykorzystuje inteligentne kontrakty zwane Hashed Time‑Locked Contract (HTLC). Nie wchodząc w wszystkie szczegóły, ogólny mechanizm wygląda następująco:
+
+* płatność jest uzależniona od ujawnienia sekretu (tzw. preimage);
+* jeśli końcowy odbiorca ujawni ten sekret, otrzymuje środki, a pośrednicy mogą następnie odebrać to, co im się należy;
+* jeśli płatność się nie powiedzie, blokady czasowe (time locks) wygasają i każdy odzyskuje swoje środki.
+
+Ten projekt zapewnia bardzo ważną właściwość: płatność jest atomowa.
+Oznacza to, że albo zostaje w całości zrealizowana, albo całkowicie się nie udaje, bez strat po drodze.
+
+Dodatkowo sieć Lightning zawiera także mechanizm kar. Jeśli jeden z uczestników spróbuje oszukać, publikując stary stan kanału (który nie odzwierciedla już rzeczywistości), druga strona może go ukarać i przejąć wszystkie środki z kanału. Ta zasada silnie motywuje uczestników do uczciwego zachowania, nawet w potencjalnie wrogim środowisku.
+
+### Węzeł Lightning i portfel Lightning – co to oznacza
+
+W sieci Bitcoin na warstwie on-chain portfel to po prostu program, który zarządza kluczami i tworzy transakcje.
+
+W Lightning sytuacja jest trochę bardziej złożona, ponieważ prawdziwe niepowiernicze (non-custodial) korzystanie wymaga węzła Lightning, nawet jeśli jest on ukryty za prostym interfejsem aplikacji.
+
+W praktyce istnieją dwie główne kategorie aplikacji do korzystania z Lightning:
+
+1. Usługi powiernicze (custodial)
+
+aplikacja pokazuje Ci saldo,
+
+ale środki kontroluje dostawca usługi,
+
+Twoje saldo jest tylko zapisem księgowym w ich systemie, podobnie jak na giełdzie kryptowalut.
+
+2. Rozwiązania niepowiernicze (non-custodial)
+
+Ty kontrolujesz klucze prywatne,
+
+masz możliwość odzyskania swoich środków.
+
+Może to być:
+
+aplikacja, która zawiera wbudowany węzeł Lightning i minimalizuje potrzebę zarządzania nim, upraszczając doświadczenie użytkownika, np. Phoenix Wallet czy Zeus Wallet;
+
+albo pełny węzeł Lightning, którym zarządzasz samodzielnie.
+
+Istnieją również portfele self-custodial, które obsługują płatności Lightning pośrednio, korzystając z atomic swaps uruchamianych na żądanie dla każdej przychodzącej lub wychodzącej płatności. Przykłady to Bull Bitcoin Wallet oraz Aqua Wallet.
+
+Takie portfele często wykorzystują jako warstwę rozliczeniową Liquid Network — sidechain Bitcoina (ten temat jest zwykle omawiany w kolejnym rozdziale).
+
+??????
 
 ## Przykłady wykorzystania sieci Lightning Network
 

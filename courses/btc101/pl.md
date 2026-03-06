@@ -1159,6 +1159,23 @@ Sieć Lightning jest właśnie odpowiedzią na te problemy. Idea stojąca za Lig
 
 ![image](assets/en/080.webp)
 
+### Kanały płatności zakotwiczone w Bitcoinie
+
+Sieć Lightning opiera się na dwukierunkowych kanałach płatności. Kanał to techniczna relacja między dwoma uczestnikami, która pozwala im wymieniać saty off-chain, czyli bez zapisywania każdej płatności w łańcuchu bloków.
+
+Z perspektywy Bitcoina (czyli warstwy on-chain) otwarcie kanału oznacza zablokowanie środków w specjalnej transakcji. Można to porównać do depozytów powierniczych: środki są zablokowane w taki sposób, że tylko prawidłowe zamknięcie kanału może je ponownie rozdzielić.
+
+Z perspektywy sieci Lightning ten sam mechanizm staje się kanałem, w którym obie strony mogą aktualizować stan podziału satów tyle razy, ile chcą, prawie natychmiast i bez konieczności zapisywania każdej płatności w głównym łańcuchu bloków.
+
+Mechanizm działa więc w następujący sposób:
+
+* otwarcie i zamknięcie kanału Lightning to transakcje w Bitcoinie (a więc są publikowane on-chain);
+* płatności między otwarciem a zamknięciem kanału to aktualizacje off-chain, które nie są widoczne w głównym łańcuchu bloków.
+
+![image](assets/en/083.webp)
+
+W rezultacie dwie osoby, które współdzielą kanał Lightning, mogą wykonać bardzo dużą liczbę płatności, bez konieczności wykonywania transakcji on-chain za każdym razem. Tutaj ponownie widać logikę skalowalności: łańcuch bloków jest zarezerwowany dla rzadkich i ważnych operacji (otwieranie i zamykanie kanałów, czyli ostateczne rozliczenie), natomiast liczne małe płatności pośrednie są przeniesione do warstwy bardziej wydajnej.
+
 ### Sieć połączonych kanałów
 
 Sieć Lightning to nie tylko zbiór odizolowanych kanałów. To sieć: tysiące węzłów połączonych ze sobą poprzez kanały, tworzące sieć połączeń.
@@ -1169,66 +1186,65 @@ Dzięki tej sieci możesz zapłacić odbiorcy nawet wtedy, gdy nie masz z nim be
 
 W tym miejscu pojawia się ważne pojęcie związane z siecią Lightning: płynność.
 
-Pojemność kanału oznacza całkowitą ilość środków zablokowanych w danym kanale, natomiast płynność odnosi się do tego, jak te środki są rozdzielone pomiędzy dwie strony kanału, a więc w którą stronę mogą przepływać saty. Innymi słowy, kanał może mieć dużą pojemność, ale nadal być bezużyteczny w danym kierunku, jeśli płynność znajduje się po niewłaściwej stronie. Dlatego udane płatności zależą nie tylko od tego, czy istnieje ścieżka połączeń między węzłami, ale również od dostępnej płynności na całej tej ścieżce.
+Pojemność kanału oznacza całkowitą ilość środków zablokowanych w danym kanale, natomiast płynność odnosi się do tego, jak te środki są rozdzielone pomiędzy dwie strony kanału, a więc w którą stronę mogą przepływać saty. Innymi słowy, kanał może mieć dużą pojemność, ale nadal być bezużyteczny w danym kierunku, jeśli płynność znajduje się po niewłaściwej stronie. Dlatego udane płatności zależą nie tylko od tego, czy istnieje ścieżka połączeń między węzłami, ale również od płynności dostępnej na całej tej ścieżce.
 
 
 ### Przekierowywanie płatności bez zaufanych pośredników
 
-Sieć Lightning została zaprojektowana tak, aby umożliwić przesyłanie płatności przez pośredników bez konieczności ufania im. Aby to osiągnąć, protokół wykorzystuje inteligentne kontrakty zwane Hashed Time‑Locked Contract (HTLC). Nie wchodząc w wszystkie szczegóły, ogólny mechanizm wygląda następująco:
+Sieć Lightning została zaprojektowana tak, aby umożliwić przesyłanie płatności przez pośredników bez konieczności ufania im. Aby to osiągnąć, protokół wykorzystuje inteligentne kontrakty zwane Hashed Time‑Locked Contract (HTLC, kontrakt blokady czasowej z haszem). Nie wchodząc we wszystkie szczegóły, ogólny mechanizm ich działania wygląda następująco:
 
-* płatność jest uzależniona od ujawnienia sekretu (tzw. preimage);
-* jeśli końcowy odbiorca ujawni ten sekret, otrzymuje środki, a pośrednicy mogą następnie odebrać to, co im się należy;
+* wykonanie płatności jest uzależnione od ujawnienia sekretu (tzw. preimage);
+* jeśli odbiorca końcowy ujawni ten sekret, otrzymuje środki, a pośrednicy mogą następnie odebrać to, co im się należy;
 * jeśli płatność się nie powiedzie, blokady czasowe (time locks) wygasają i każdy odzyskuje swoje środki.
 
-Ten projekt zapewnia bardzo ważną właściwość: płatność jest atomowa.
-Oznacza to, że albo zostaje w całości zrealizowana, albo całkowicie się nie udaje, bez strat po drodze.
+Taka architektura zapewnia bardzo ważną właściwość: płatność jest atomowa.
+Oznacza to, że albo zostaje zrealizowana w całości, albo całkowicie się nie udaje, bez straty środków po drodze.
 
-Dodatkowo sieć Lightning zawiera także mechanizm kar. Jeśli jeden z uczestników spróbuje oszukać, publikując stary stan kanału (który nie odzwierciedla już rzeczywistości), druga strona może go ukarać i przejąć wszystkie środki z kanału. Ta zasada silnie motywuje uczestników do uczciwego zachowania, nawet w potencjalnie wrogim środowisku.
+Dodatkowo sieć Lightning zawiera także mechanizm kar. Jeśli jeden z uczestników spróbuje oszukać innych, publikując stary stan kanału (który nie odzwierciedla już rzeczywistości), druga strona może go ukarać i przejąć wszystkie środki z kanału. Ta zasada silnie motywuje uczestników do uczciwego zachowania, nawet w potencjalnie wrogim środowisku.
 
-### Węzeł Lightning i portfel Lightning – co to oznacza
+### Co to są węzeł Lightning i portfel Lightning
 
-W sieci Bitcoin na warstwie on-chain portfel to po prostu program, który zarządza kluczami i tworzy transakcje.
+W sieci Bitcoin w warstwie on-chain portfel to oprogramowanie, które zarządza kluczami prywatnymi i tworzy transakcje.
+W przypadku sieci Lightning sytuacja jest trochę bardziej złożona, ponieważ prawdziwe korzystanie z sieci bez powiernika (non-custodial) opiera się na węźle Lightning, nawet jeśli ten węzeł jest ukryty za prostym interfejsem aplikacji.
 
-W Lightning sytuacja jest trochę bardziej złożona, ponieważ prawdziwe niepowiernicze (non-custodial) korzystanie wymaga węzła Lightning, nawet jeśli jest on ukryty za prostym interfejsem aplikacji.
+W praktyce istnieją dwie główne kategorie aplikacji do korzystania z sieci Lightning:
 
-W praktyce istnieją dwie główne kategorie aplikacji do korzystania z Lightning:
+* Usługi powiernicze (custodial): aplikacja pokazuje ci saldo, ale środki są kontrolowane przez dostawcę usługi, twoje saldo jest tylko zapisem księgowym w ich systemie, podobnie jak na giełdzie kryptowalut.
 
-1. Usługi powiernicze (custodial)
+* Rozwiązania niepowiernicze (non-custodial): ty kontrolujesz klucze prywatne, masz możliwość odzyskania swoich środków. Może to być: aplikacja zawierająca wbudowany węzeł Lightning z minimalną potrzebą zarządzania, co upraszcza korzystanie, np. Phoenix Wallet lub Zeus Wallet; albo pełny węzeł Lightning, którym zarządzasz całkowicie samodzielnie.
 
-aplikacja pokazuje Ci saldo,
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-ale środki kontroluje dostawca usługi,
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
-Twoje saldo jest tylko zapisem księgowym w ich systemie, podobnie jak na giełdzie kryptowalut.
+Obecnie istnieją także portfele niepowiernicze, które obsługują płatności Lightning pośrednio, korzystając z wymian atomowych uruchamianych na żądanie dla każdej płatności przychodzącej lub wychodzącej. Przykładami są Bull Bitcoin Wallet oraz Aqua Wallet. Takie portfele jako swoją warstwę rozliczeniową wykorzystują zazwyczaj łańcuch boczny sieci Bitcoin o nazwie Liquid (w następnym rozdziale zobaczymy, do czego odnosi się ten termin).
 
-2. Rozwiązania niepowiernicze (non-custodial)
+https://planb.academy/tutorials/wallet/mobile/bull-bitcoin-2c72127c-a228-4f50-b833-c6183d56aaf6
 
-Ty kontrolujesz klucze prywatne,
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-masz możliwość odzyskania swoich środków.
 
-Może to być:
+## Konkretne zastosowania: co wreszcie stało sie możliwe dzieki sieci Lightning
 
-aplikacja, która zawiera wbudowany węzeł Lightning i minimalizuje potrzebę zarządzania nim, upraszczając doświadczenie użytkownika, np. Phoenix Wallet czy Zeus Wallet;
+Sieć Lightning daje wiele możliwości, które wcześniej były niepraktyczne lub wręcz niemożliwe przy użyciu wyłącznie transakcji on-chain w sieci Bitcoin.
 
-albo pełny węzeł Lightning, którym zarządzasz samodzielnie.
+- **Codzienne płatności (online i w sklepach)**
 
-Istnieją również portfele self-custodial, które obsługują płatności Lightning pośrednio, korzystając z atomic swaps uruchamianych na żądanie dla każdej przychodzącej lub wychodzącej płatności. Przykłady to Bull Bitcoin Wallet oraz Aqua Wallet.
+W przypadku płatności przy kasie lub zakupów online sieć Lightning umożliwia niemal natychmiastowe rozliczenie i zazwyczaj bardzo niskie opłaty. Dzięki temu bitcoin może być używany do płacenia małych kwot, nawet gdy główny łańcuch bloków jest przeciążony.
 
-Takie portfele często wykorzystują jako warstwę rozliczeniową Liquid Network — sidechain Bitcoina (ten temat jest zwykle omawiany w kolejnym rozdziale).
+- **Mikropłatności i „streaming pieniędzy”**
 
-??????
+Możliwość wysyłania bardzo małych kwot otwiera drogę do stosowania nowych modeli ekonomicznych, takich jak: płatność za użycie (pay-per-use), płatność za minutę korzystania, darowizny cykliczne, napiwki. To właśnie idea „streamingu pieniędzy” – płacenia w miarę korzystania z treści lub usługi, zamiast opłacania z góry stałego abonamentu.
 
-## Przykłady wykorzystania sieci Lightning Network
+- **Twórcy treści, podcasty i darowizny**
 
-<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+Sieć Lightning jest często używana do mikro-darowizn lub systemów nagradzania twórców. Aplikacje takie jak Fountain czy Rumble dobrze pokazują tę ideę: płatności stają się małe, częste i są naturalną częścią doświadczenia użytkownika, zamiast dużą, rzadką transakcją. Podobna logika została wprowadzona również w Plan ₿ Academy, gdzie instruktorom można łatwo wysyłać małe napiwki, aby podziękować im za ich pracę.
 
-Jak właśnie zobaczyliśmy, protokół Bitcoin, choć rewolucyjny, napotyka znaczące wyzwania w zakresie skalowalności, aby obsłużyć wszystkie nasze codzienne transakcje. Aby rozwiązać te problemy, zaproponowano zastosowanie drugiej warstwy znanej jako sieć Lightning, która obecnie ma kilka różnych, kompatybilnych ze sobą zastosowań:
+- **Gry i gospodarki cyfrowe**
 
-- Core-lightning od Blockstream
-- Eclair od Acinq
-- LND od Lightning Labs
-Ta sieć peer-to-peer ma na celu ułatwienie mikrotransakcji, czyli transakcji o bardzo niskiej wartości, które w przeciwnym razie byłyby niepraktyczne ze względu na wysokie opłaty i długie czasy potwierdzenia w łańcuchu bloków Bitcoina.
+Gry wideo i środowiska cyfrowe naturalnie nadają się do mikropłatności: drobne stawki, nagrody, przedmioty wirtualne. Wprowadzenie niewielkiego bodźca finansowego może również zwiększyć koszt spamu i nadużyć (np. botów), jednocześnie pozostając łatwo dostępnym dla użytkowników.
+
+![image](assets/en/085.webp)
 
 ### Jakie są przykłady wykorzystania tej sieci?
 

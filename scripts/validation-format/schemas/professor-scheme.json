@@ -1,0 +1,114 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Professor",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Full name of the professor"
+    },
+    "id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Unique identifier (UUID) for the professor"
+    },
+    "links": {
+      "type": "object",
+      "description": "Online presence of the professor",
+      "properties": {
+        "twitter": {
+          "type": "string",
+          "format": "url",
+          "description": "Twitter URL of the professor"
+        },
+        "website": {
+          "type": "string",
+          "format": "url",
+          "description": "Personal or professional website of the professor"
+        }
+      },
+      "additionalProperties": true
+    },
+    "tags": {
+      "type": "array",
+      "description": "List of tags associated with the professor's expertise and interests",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tips": {
+      "type": "object",
+      "description": "Information for direct tips to the professor",
+      "properties": {
+        "lightning_address": {
+          "type": "string",
+          "description": "Lightning network address for tips"
+        },
+        "silent_payment": {
+          "type": "string",
+          "description": "Silent payment address for tips"
+        }
+      },
+      "additionalProperties": true
+    },
+    "company": {
+      "type": "string",
+      "description": "Name of the company the professor is affiliated with"
+    },
+    "affiliations": {
+      "type": "array",
+      "description": "List of affiliations the professor has within the industry or elsewhere",
+      "items": {
+        "type": "string"
+      }
+    },
+    "assets_rules": {
+      "type": "object",
+      "description": "Documentation of required asset files for professors",
+      "properties": {
+        "profile": {
+          "type": "object",
+          "description": "Professor profile picture requirements",
+          "properties": {
+            "path": {
+              "type": "string",
+              "const": "assets/profile.webp",
+              "description": "Path to the profile image file"
+            },
+            "required": {
+              "type": "boolean",
+              "const": true,
+              "description": "This asset is required"
+            },
+            "format": {
+              "type": "string",
+              "const": "webp",
+              "description": "Image format must be WebP"
+            },
+            "aspect_ratio": {
+              "type": "string",
+              "const": "1:1",
+              "description": "Square aspect ratio required"
+            },
+            "recommended_dimensions": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "default": ["400x400", "800x800"],
+              "description": "Recommended pixel dimensions"
+            },
+            "content": {
+              "type": "string",
+              "const": "Professor's face or avatar",
+              "description": "What the image should contain"
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": ["name", "id"],
+  "additionalProperties": false
+}
+

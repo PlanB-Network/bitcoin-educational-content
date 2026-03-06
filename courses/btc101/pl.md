@@ -1224,7 +1224,7 @@ https://planb.academy/tutorials/wallet/mobile/bull-bitcoin-2c72127c-a228-4f50-b8
 https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 
-## Konkretne zastosowania: co wreszcie stało sie możliwe dzieki sieci Lightning
+## Konkretne zastosowania: co wreszcie stało się możliwe dzięki sieci Lightning
 
 Sieć Lightning daje wiele możliwości, które wcześniej były niepraktyczne lub wręcz niemożliwe przy użyciu wyłącznie transakcji on-chain w sieci Bitcoin.
 
@@ -1232,9 +1232,9 @@ Sieć Lightning daje wiele możliwości, które wcześniej były niepraktyczne l
 
 W przypadku płatności przy kasie lub zakupów online sieć Lightning umożliwia niemal natychmiastowe rozliczenie i zazwyczaj bardzo niskie opłaty. Dzięki temu bitcoin może być używany do płacenia małych kwot, nawet gdy główny łańcuch bloków jest przeciążony.
 
-- **Mikropłatności i „streaming pieniędzy”**
+- **Mikropłatności i „strumieniowanie pieniędzy”**
 
-Możliwość wysyłania bardzo małych kwot otwiera drogę do stosowania nowych modeli ekonomicznych, takich jak: płatność za użycie (pay-per-use), płatność za minutę korzystania, darowizny cykliczne, napiwki. To właśnie idea „streamingu pieniędzy” – płacenia w miarę korzystania z treści lub usługi, zamiast opłacania z góry stałego abonamentu.
+Możliwość wysyłania bardzo małych kwot otwiera drogę do stosowania nowych modeli ekonomicznych, takich jak: płatność za użycie (pay-per-use), płatność za minutę korzystania, darowizny cykliczne, napiwki. To właśnie idea „strumieniowania pieniędzy” – płacenia w miarę korzystania z treści lub usługi, zamiast opłacania z góry stałego abonamentu.
 
 - **Twórcy treści, podcasty i darowizny**
 
@@ -1246,1049 +1246,179 @@ Gry wideo i środowiska cyfrowe naturalnie nadają się do mikropłatności: dro
 
 ![image](assets/en/085.webp)
 
-### Jakie są przykłady wykorzystania tej sieci?
+### Main Lightning implementations
 
-Ta technologia otwiera drzwi do szerokiego zakresu potencjalnych zastosowań dla Bitcoina, które wcześniej były poza zasięgiem ze względu na ograniczenia niezbędne do zapewnienia bezpieczeństwa i decentralizacji Bitcoina. Wśród tych zastosowań w codziennym życiu możemy wymienić natychmiastowe rozliczenia w handlu (zarówno fizycznym, jak i online), strumieniowanie pieniędzy dla płatności w czasie rzeczywistym oraz mikro-donacje za treści internetowe. Dzięki wdrożeniu sieci niemal natychmiastowych, bezpiecznych i niskokosztowych transakcji (średnio mniej niż 0,5%), można wdrożyć wiele modeli biznesowych, które wcześniej były nie do wyobrażenia. Jest to możliwe, ponieważ sieć Lightning używa satów, najmniejszej jednostki bitcoina.
+Tak jak Bitcoin, Lightning to protokół nie oprogramowanie. Współistnieje kilka kompatybilnych ze sobą implementacji (są kompatybilne dzięki wspólnym specyfikacjom tzw. BOLT-om).:
+* LND (Lightning Labs);
+* Core Lightning (Blockstream);
+* Éclair (ACINQ);
+* LDK (Spiral/Block);
+* itp.
 
-![image](assets/en/82.webp)
+### Sieć Lightning jako część ewolucji Bitcoina
 
-Branża gier wideo oferuje szczególnie interesujący przykład tego, jak można wykorzystać sieć Lightning do transformacji istniejących modeli biznesowych. Pojęcie „skóra w grze” to idea, która ostatnio zyskała na popularności w tym kontekście. Polega to zasadniczo na posiadaniu finansowego udziału w wyniku gry.
-Sieć Lightning pozwala graczom obstawiać bardzo małe kwoty pieniędzy podczas gry, takie jak kilka satów (równowartość ułamka centa euro). Umożliwia to ustanowienie stawki, która stymuluje konkurencję, jednocześnie znacznie zwiększając koszt wdrażania botów.
+Lightning does not replace the Bitcoin blockchain: it complements it. The blockchain remains the final settlement layer, slow but extremely robust. Lightning is the fast payment layer, designed for frequent use and small amounts.
 
-![image](assets/en/83.webp)
+In 2025, Lightning is more accessible than in its early days, thanks to wallets and services that hide part of the complexity. However, it still involves trade-offs: liquidity, onchain costs for channels, and sometimes compromises between simplicity, sovereignty, and privacy.
 
-Podsumowując, przyszłość mikrotransakcji z Bitcoinem wygląda obiecująco dzięki innowacjom takim jak sieć Lightning. W miarę jak te technologie będą się rozwijać i dojrzewać, w najbliższej przyszłości możemy spodziewać się pojawienia się nowych i ekscytujących zastosowań. 
-
-![image](assets/en/84.webp)
-
-Inny przykład to koncepcja „strumieniowania pieniędzy” (ang. money streaming). Dzięki sieci Lightning możemy dokonywać mikrotransakcji co minutę (potencjalnie bez zaufanej strony trzeciej), co otwiera drzwi do eksperymentowania z modelami ekonomicznymi, w których konsumenci płacą za treść w zależności od tego, co konsumują. Można także rozważyć użycie tego systemu do wynajmowania dóbr.
-
-![obraz](assets/Concept/chapitre18/8.png)
-
-W takim systemie pieniądze są automatycznie dzielone między różnych współtwórców usługi lub produktu na podstawie wcześniej zdefiniowanego procentu. Mogłoby to zrewolucjonizować sposób w jaki myślimy obecnie o modelach dokonywania płatności: zamiast płacić miesięczną subskrypcję za usługę, użytkownicy mogliby być obciążani za minutę, a nawet za sekundę, spędzoną na korzystaniu z usługi. Taki model ekonomiczny mógłby mieć duże konsekwencje dla twórców, którzy byliby motywowani do produkcji wysokiej jakości treści, aby zatrzymać uwagę użytkowników.
-
-![image](assets/en/85.webp)
-
-
-Podsumowując, sieć Lightning daje użytkownikom Bitcoina możliwość wielu ekscytujących sposobów implementacji. Wynikające z tego modele ekonomiczne i możliwości biznesowe są liczne i zróżnicowane. Zachęcamy do samodzielnego przetestowania jednego z nich w aplikacji podcastowej [Fountain](https://www.fountain.fm/), która umożliwia otrzymanie wynagrodzenia w wysokości kilku satów za słuchanie twoich ulubionych podcastów!
-
-## Czerwona pigułka czy niebieska pigułka?
-
-<chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
-
-Jak powiedział Morfeusz do Neo w filmie Matrix: „Weźmiesz niebieską pigułkę, a historia się skończy, obudzisz się w swoim łóżku i będziesz wierzyć w to, w co chcesz wierzyć. Weźmiesz czerwoną pigułkę, a zostaniesz w Krainie Czarów, a ja pokażę Ci, jak głęboka jest królicza nora” Czy jesteś gotowy, aby zbadać króliczą norę Bitcoina? Uważaj, ponieważ możesz na nowo odkryć swoją finansową wolność!
-
-### Przyszłość technologii i jej implikacje
-
-Technologia rozwija się w sposób wykładniczy i nikt nie jest w stanie z pewnością przewidzieć jej przyszłego rozwoju. Połączenie świata i sztuczna inteligencja nieustannie postępują naprzód. Wiedza, którą każdy może zdobyć przez Internet, staje się z czasem coraz bardziej niezmierzona.
-
-Weźmy na przykład AI. Te technologie już przekroczyły lub zbliżają się do osiągnięcia poziomu wydajności ludzkiej w coraz większej liczbie dziedzin, takich jak gry wideo, produkcja obrazów i tekstów oraz analiza danych. Jedną z potencjalnych implikacji jest to, że ponad 80% miejsc pracy zniknie z powodu AI i automatyzacji. Mamy kilka opcji, takich jak ograniczenie postępu technologicznego lub wykorzystanie zwiększonego kapitału z zysków produktywności stworzonych przez AI.
-
-Podstawowe pytania, które musimy sobie zadać, to:
-
-- Jak zarządzać społeczeństwem, w którym zniknie 80% miejsc pracy?
-- Jak zrewitalizować populację?
-- Czy potrzebujemy tylu nauczycieli?
-- Geopolityczne, polityczne i ludzkie konsekwencje automatyzacji nie są wystarczająco omawiane.
-  Komputery, Internet, streaming i VR zmienią edukację. Moglibyśmy mieć uniwersalny kurs dla wszystkich francuskich uczniów zarządzany przez rząd i nauczycieli, którzy już nie wygłaszają wykładów, ale bezpośrednio towarzyszą uczniom. Dzieci mogłyby wejść do wirtualnego świata i być wspierane w nauce historii.
-
-- Gdzie jest granica między nauczycielem-człowekiem a nauczycielem wygenerowanym przez sztuczną inteligencję?
-- Jak możemy stworzyć społeczeństwo żyjące w dobrobycie?
-
-Te fundamentalne pytania dotyczące naszej przyszłości muszą być omawiane i rozstrzygane kolektywnie. Ale jaki jest ich związek z Bitcoinem? Podobnie jak Internet dla sposobów komunikacji, Bitcoin jest technologiczną rewolucją dla nowych sposobów organizacji na dużą skalę, dając nam możliwość wymiany wartości bez zaufanej strony trzeciej. Czy chcemy hamować ewolucję technologiczną systemu monetarnego czy czerpać ze zwiększenia kapitału przez dziesięciokrotny wzrost produktywności dzięki wykorzystaniu protokołów Bitcoin i Lightning?
-
-### Jaka jest przyszłość finansów?
-
-W ramach refleksji nad przyszłościa finansów stawiamy również pytania o to, kto powinien mieć pieczę nad pieniędzmi, autoryzować je i śledzić ich przepływ. Celem jest zdecydowanie między zamkniętym systemem z liderami, któryh nie wybraliśmy, a otwartym systemem bez zaufanych stron trzecich, gdzie przeważa neutralność.
-
-- Czy waluta jest formą własności prywatnej?
-- Czy konta protestujących mogą być blokowane bez nakazu Sądu Najwyższego?
-- Kto gwarantuje ciągłość systemu finansowego?
-- Jak jednostka może jednocześnie niezależnie zarządzać swoimi pieniędzmi i polegać na zaufanej stronie trzeciej?
-- Czy można wysyłać pieniądze na drugi koniec świata bez opłat lub pośredników?
-
-Akceptacja nowych technologii mogłaby generować ogromne korzyści skali na całym świecie. Czy powinniśmy pozwolić na swobodny przepływ kapitału? Międzynarodowe blokady mają ekonomiczne i polityczne konsekwencje. Czy etyczne jest korzystanie z pośredników finansowych takich jak Western Union, którzy czasami pobierają opłaty do 25%? Wierzymy, że w coraz bardziej cyfrowym świecie, pieniądze powinny być demokratyzowane i uważane za dobro wspólne należące do ludzi, a nie państwa czy nieprzejrzystych instytucji finansowych.
-
-Pytanie o to, kto powinien kontrolować system bankowy, jest kluczowe, ponieważ zasady gry bankowej nie są przejrzyste i zrozumiałe dla wszystkich, co pozwala kastom polityków i regulatorów utrzymywać swoje wpływy w systemie. Ważne jest, aby zastanowić się, czy to wolny rynek czy grupa intelektualistów powinna kontrolować system bankowy.
-
-### Stawką jest nasza wolność
-
-Cenzura również musi być poddana pod wątpliwość: kto ma wiedzę, aby decydować, co powinno być cenzurowane, a co nie? Media zmieniły swoje stanowisko wobec niektórych informacji, a ludzie, którzy byli wcześniej cenzurowani, dziś już nie są.
-
-- Kto decyduje, co jest cenzurą lub propagandą?
-- Kto ma decydujący głos w naszym systemie?
-
-Naszym zdaniem tolerowanie cenzury może zniszczyć wolność słowa i prawo do zgromadzeń, ponieważ może mieć negatywny wpływ na innowację i wolną wolę. Wprowadzenie cenzury jest w praktyce trudne bez stworzenia kompletnej dystopii. Która jednostka powinna mieć moc cenzora? Kwestia cenzury jest skomplikowana i trudno jest zdecydować, kto powinien być ocenzurowany, a kto nie.
-Na świecie jest 2,4 miliarda ludzi bez konta bankowego, co nieuchronnie tworzy nierówności geograficzne. Bitcoin umożliwia równość w dostępie do transakcji, niezależnie od twojego statusu społecznego czy pozycji politycznej. Protokół Bitcoin jest apolityczny i nie przyznaje specjalnych przywilejów liderom ani innym osobom, które mają władzę. Zapewnia, że każdy ma takie same możliwości rozwoju, zamiast utrzymywać niektórych na szczycie, a innych pozostawiać w tyle. Czy każdy powinien mieć dostęp do tej samej waluty, niezależnie od swojego statusu społecznego? Ważne jest, aby myśleć o świecie, który chcemy zostawić naszym dzieciom. Chcemy zostawić im otwarty świat, gdzie będą mogły zarządzać swoimi pieniędzmi, jak chcą.
-
-Bitcoin jest ważny i nie powinien być traktowany tylko jako gra losowa. Kluczowe jest zadawanie pytań na temat Bitcoina i jego wpływu na świat.
-
-### Bitcoin: rewolucyjny protokół
-
-Aby dowiedzieć się więcej o pismach Satoshi Nakamoto, zalecamy przeczytanie ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) autorstwa Phila Champagne'a lub filmu dokumentalnego ARTE "Le mystaire Satoshi".
-
-Jak zobaczyliśmy w poprzednim rozdziale, protokół Bitcoin jest neutralny wobec wszystkich swoich użytkowników. Dzięki zasadom konsensusu i kryptografii możemy rejestrować niezmiennie transakcje w globalnej publicznej księdze rachunkowej, gwarantując transfer wartości pieniężnej bez potrzeby udziału zaufanej strony trzeciej. Infrastruktura drugiej warstwy (a wkrótce trzeciej, z RGB) umożliwia skalowalność sieci i rozwój nowych funkcjonalności.
-
-Bitcoin posiada wszystkie cechy niezbędne, aby być efektywną i zdrową walutą: podzielny, gotowy do natychmiastowego transportu, niepodlegający cenzurze, ze znikomym kosztem weryfikacji oraz z już na wieki ustaloną polityką monetarną z 21 milionami jednostek. Bitcoin używa pseudonimów, a transakcji można dokonać w dowolnym miejscu na świecie bez żadnej autoryzacji od jakiejkolwiek jednostki, wystarczy posiadać własne prywatne klucze i pamiętać powiedzenie - „Nie twoje klucze, nie twoje bitcoiny”.
-
-Bitcoin jest przyjmowany przez różnorodne grupy ludzi, od kryptografów po libertarian, tradycyjne biznesy, a nawet przez kraje. Ale Bitcoin jest dla wszystkich i liczba jego użytkowników rośnie, podobnie jak liczba węzłów Bitcoina, które służą jako strażnicy historii transakcji, zapewniając decentralizację.
-
-Bitcoin nie może być już zatrzymany ani ocenzurowany. To pokojowa rewolucja, która ma na celu zmianę systemu monetarnego i umożliwienie finansowej inkluzywności. Użytkownicy mogą uzyskać bitcoiny, akceptując je za swoje towary lub kupując je przez regulowane lub nieregulowane platformy. Bitcoiny można przechowywać w portfelach, aplikacjach mobilnych lub urządzeniach fizycznych bez konieczności korzystania z usług zaufanych pośredników. Bitcoin opowiada się za przejrzystością, wolnością i indywidualną odpowiedzialnością - mówimy „Nie ufaj, weryfikuj”.
-
-Satoshi, tworząc Bitcoina w 2008 roku, zaproponował nam zmianę systemu finansowego poprzez zmianę waluty, ponieważ wiedział, że posiadanie dostępu do łatwych i „magicznych” pieniędzy łatwo korumpuje. Bitcoin jest więc alternatywą pozwalającą na zbudowanie nowego neutralnego systemu monetarnego, ponieważ umożliwia uwolnienie się od systemu bankowego. To zjawisko społeczne, które prowadzi nas do udziału w pokojowej rewolucji. 
-
-Czy jesteś gotowy, aby dołączyć?
-
-# Sekcja końcowa
-
-<partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
-
-
-## Recenzje i oceny
-
-<chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
-
-<isCourseReview>true</isCourseReview>
-
-## Egzamin końcowy
-
-
-<chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
-
-<isCourseExam>true</isCourseExam>
-
-## Wnioski
-
-
-Następnie Bob dokonuje transakcji, otwierając swój Bitcoin Wallet i naciskając "wyślij". Następnie kopiuje i wkleja Address Alice w wymagane pole, dodaje kwotę, którą chce wysłać, i decyduje o opłatach transakcyjnych, które służą jako zachęta dla górników do uwzględnienia transakcji w następnym bloku. W rzeczywistości, im wyższe opłaty płaci Bob, tym większe są jego szanse na uwzględnienie transakcji w następnym bloku dodanym do Blockchain, tj. publicznego i niezmiennego Ledger rejestrującego wszystkie transakcje Bitcoin.
-
-
-Aby sfinalizować transakcję, Bob musi podpisać ją swoim kluczem prywatnym, aby zweryfikować, że jest właścicielem bitcoinów, które chce przelać. Ten krok jest zwykle automatyczny w portfelach mobilnych lub przyjmuje formę potwierdzenia na fizycznym Wallet: "Czy na pewno chcesz wysłać X do Y? Tak lub Nie".
-
-
-![image](assets/pl/045.webp)
-
-
-**Dlaczego uiszczamy opłaty?** Opłaty są niezbędne do stworzenia wolnego rynku dla włączania transakcji do bloków. W rzeczywistości blok ma rozmiar 1 MB (który został rozszerzony do 4 MB po aktualizacji SegWit), więc liczba transakcji, które można "wstawić" do bloku, jest ograniczona do kilku tysięcy transakcji na blok. Rozmiar transakcji zależy od jej złożoności. Dlatego bardziej złożone transakcje zazwyczaj wiążą się z wyższymi opłatami.
-
-
-### Krok 2: Propagacja transakcji przez węzły
-
-
-Na tym etapie transakcja została utworzona, a Wallet Boba udostępni ją sieci Bitcoin. Aby to zrobić, jego Wallet będzie komunikować się z węzłem sieci Bitcoin, który rozpropaguje tę informację do innych węzłów. Ten rodzaj procesu pozwala całej sieci zobaczyć tę nową transakcję i wziąć ją pod uwagę.
-
-
-![image](assets/pl/046.webp)
-
-
-W tym momencie, nawet jeśli ta transakcja jest znana wszystkim (za pośrednictwem narzędzia zwanego Mempool), nie można jej uznać za potwierdzoną, dopóki nie zostanie wstawiona do bloku przez Miner, który jest jedynym, który zatwierdza transakcje poprzez włączenie ich do Blockchain.
-
-
-W rzeczywistości górnicy mają za zadanie gromadzenie ważnych i niepotwierdzonych transakcji w celu skompilowania ich w blok. W skrócie, muszą oni rozwiązać zagadkę kryptograficzną w procesie zwanym "Proof of Work", aby ich blok był kolejnym w Bitcoin Blockchain.
-
-
-![image](assets/pl/047.webp)
-
-
-### Krok 3: Transakcja jest wydobywana w bloku przez Miner.
-
-
-System Proof of Work wymaga znalezienia ważnego "Hash" dla danego bloku: pomyśl o nim jako o unikalnym odcisku palca powiązanym z blokiem, składającym się z 256 znaków. Ważność tego Hash zależy od wskaźnika trudności sieci Bitcoin (więcej szczegółów omówimy później). Na razie rozważmy, że Miner znalazł ważny blok i że transakcja Boba z Alicją jest w nim zawarta. Następnie nowy ważny blok jest dodawany do Blockchain, wspólnego Ledger dla wszystkich użytkowników Bitcoin.
-
-
-![image](assets/pl/048.webp)
-
-
-### Krok 4: Blok jest ważny i zweryfikowany przez węzeł referencyjny Alicji.
-
-
-Na tym etapie transakcja jest uznawana za ważną: Miner propaguje następnie nowy blok do sieci za pośrednictwem swojego węzła, a Wallet Alicji zostanie zaktualizowany.
-
-
-![image](assets/pl/049.webp)
-
-
-**Uwaga:** Nawet jeśli Alicja zostanie powiadomiona o otrzymaniu bitcoinów na jeden ze swoich adresów, zaleca się uznanie transakcji za niezmienną dopiero po otrzymaniu **sześciu** potwierdzeń. Oznacza to, że po bloku zawierającym transakcję Boba musi zostać wydobytych sześć dodatkowych bloków. Innymi słowy, im starsza jest transakcja w Blockchain, tym bardziej staje się niezmienna.
-
-
-### Jakie jest znaczenie tego procesu?
-
-
-System transakcyjny Bitcoin jest zdecentralizowany i działa w trybie peer-to-peer, bez żadnych zaufanych pośredników.
-
-
-Bob wysyła swoją transakcję do sieci Bitcoin, a gdy Miner publikuje ważny blok zawierający transakcję Boba, Alicja może zacząć uważać, że bitcoiny należą do niej. Zaufanie nie jest wymagane na żadnym etapie transferu Bitcoin Ownership: same zasady protokołu i zachęty ekonomiczne sprawiają, że złośliwe działanie w systemie Bitcoin jest zbyt kosztowne.
-
-
-W rzeczywistości użytkownicy przekazują Ownership swoich środków poprzez cyfrowe podpisywanie transakcji własnymi kluczami prywatnymi. Z drugiej strony, górnicy mają ograniczoną władzę, a użytkownicy utrzymują znaczną kontrolę, wykorzystując węzły Bitcoin do walidacji nowych bloków i zawartych w nich transakcji. Każdy węzeł posiada pełną lub częściową kopię Ledger, więc sieć utworzona przez węzły Bitcoin sprawia, że system jest prawdziwie zdecentralizowany.
-
-
-W konsekwencji, aby sieć Bitcoin została całkowicie zniszczona, każda kopia Blockchain na wszystkich węzłach Bitcoin musiałaby zostać wyeliminowana, co jest praktycznie niemożliwym zadaniem ze względu na geograficzne rozmieszczenie tych węzłów i trudność ich fizycznego przejęcia.
-
-
-Przyjrzyjmy się bliżej, jak działa węzeł Bitcoin.
-
-
-## Węzły Bitcoin
-
-
-<chapterId>8533cebc-f799-528b-89df-8d75d4c37f1c</chapterId>
-
-
-Węzły są podstawowym elementem architektury sieci Bitcoin, ponieważ pełnią różne kluczowe funkcje:
-
-
-
-- Utrzymywanie kopii Bitcoin Blockchain
-- Zatwierdzanie transakcji
-- Przesyłanie informacji do innych węzłów
-- Egzekwowanie zasad protokołu Bitcoin.
-
-
-W związku z tym każde urządzenie z uruchomionym oprogramowaniem Bitcoin, zwane węzłem Bitcoin (często korzystające z [Bitcoin Core](https://Bitcoin.org/en/Bitcoin-core/)), przyczynia się do decentralizacji sieci.
-
-
-![image](assets/pl/050.webp)
-
-
-### Węzły stanowią centralny rdzeń Bitcoin.
-
-
-Każdy węzeł posiada kopię Blockchain, która umożliwia weryfikację transakcji i zapobiega wszelkim próbom oszustwa. Zdecentralizowany charakter sieci zapewnia Bitcoin wyjątkową odporność i solidność. W rzeczywistości, aby zatrzymać protokół Bitcoin, wszystkie węzły na całym świecie musiałyby zostać wyłączone. We wrześniu 2023 r. istniało około [45 000 węzłów] (https://bitnodes.io/nodes/all/) rozmieszczonych na całym świecie.
-
-
-Węzły są w stanie weryfikować ważność bloków i transakcji, ponieważ przestrzegają zasad konsensusu Bitcoin. Zasady te ustanawiają politykę pieniężną Bitcoin, taką jak kwota nagrody Mining (którą omówimy bardziej szczegółowo w następnej sekcji) oraz ilość Bitcoin w obiegu. W pewnym sensie węzły działają jako system prawny sieci, ponieważ egzekwują zasady Bitcoin, utrzymując neutralność sieci. Zasady konsensusu prawie się nie zmieniają, jeśli w ogóle, ponieważ do wprowadzenia zmian wymagana jest zgoda wszystkich węzłów.
-
-
-![image](assets/pl/051.webp)
-
-
-Zarządzanie w ramach protokołu wykracza poza zakres tego podstawowego kursu, ale ważne jest, aby pamiętać, że każdy użytkownik uruchamiający węzeł Bitcoin może zdecydować, których zasad przestrzegać. Użytkownik może zdecydować się na przestrzeganie innych zasad (tj. wprowadzić modyfikacje w kodzie), ale jeśli zmiany te unieważnią obecne zasady konsensusu, węzeł ten nie będzie już częścią sieci Bitcoin. W związku z tym poważne modyfikacje są rzadkie i wymagają znacznej koordynacji między tysiącami uczestników o różnych ideologiach i interesach, co zmusza ich do dostarczania aktualizacji, które są uważane za "lepsze" przez wszystkich użytkowników Bitcoin.
-
-
-### Jak wygląda węzeł?
-
-
-Istnieje kilka opcji instalacji własnego węzła, różniących się kosztami utrzymania. Można po prostu uruchomić oprogramowanie Bitcoin Core na swoim komputerze, ale będzie to wymagało znacznej ilości przestrzeni dyskowej, ponieważ Blockchain ma około 500 GB. Aby przezwyciężyć to ograniczenie, można zdecydować się na przechowywanie w pamięci tylko ostatnich N bloków, tworząc "przycięty węzeł". W przypadku tego drugiego rozwiązania koszt jest znikomy, ponieważ węzeł jest aktywny tylko wtedy, gdy jest potrzebny.
-
-
-![image](assets/pl/052.webp)
-
-
-Drugą opcją jest użycie dedykowanego sprzętu do tego celu, takiego jak Raspberry Pi 4 z wystarczająco dużym dyskiem SSD (około ~ 2 TB). Ta druga opcja jest droższa, jeśli trzeba kupić sprzęt, ale stanowi nieco mniej niż 10,00 € rocznie pod względem zużycia energii elektrycznej.
-
-Z perspektywy przepustowości, biorąc pod uwagę 1 blok 1 MB co 10 minut, odpowiada to około 5 GB miesięcznie.
-
-
-### Węzły muszą pozostać dostępne dla wszystkich!
-
-
-Przystępny koszt i dostępność węzła Bitcoin pod względem zasobów sprzętowych, pamięci masowej i przepustowości jest bardzo ważną cechą, ponieważ ułatwia decentralizację sieci.
-
-
-Rzeczywiście, każdy ma dobry powód, aby uruchomić węzeł! Koszty i wysiłek są minimalne w porównaniu do uzyskanych korzyści. Wystarczy rozpocząć przygodę i dołączyć do tysięcy innych bitcoinerów, aby wspólnie stworzyć sieć Bitcoin.
-
-
-![image](assets/pl/053.webp)
-
-
-Wręcz przeciwnie, gdyby bloki były 100 razy większe, z pewnością moglibyśmy wykonywać 100 razy więcej transakcji co 10 minut, ale uruchomienie węzła Bitcoin wymagałoby dysku Hard o pojemności 50 TB, przepustowości ponad 500 GB / miesiąc i sprzętu zdolnego do walidacji setek tysięcy transakcji w czasie krótszym niż 10 minut. W tej hipotetycznej sytuacji ze 100 razy większymi blokami, uruchomienie węzła Bitcoin nie byłoby dostępne dla przeciętnej osoby, co zagroziłoby zarówno decentralizacji protokołu, jak i niezmienności transakcji i zasad konsensusu.
-
-
-W związku z tym ograniczenia protokołu zostały zaprojektowane tak, aby umożliwić jak największej liczbie osób uruchomienie własnych węzłów Bitcoin. W rzeczywistości rok 2017 był naznaczony intensywnymi kontrowersjami znanymi jako "block size war". Konflikt ten postawił tych, którzy chcieli zmodyfikować Bitcoin poprzez zwiększenie rozmiaru bloku w celu zwiększenia zdolności transakcyjnej (górnicy, platformy Exchange i instytucje) przeciwko tym, którzy starali się zachować niezależność i władzę użytkowników (węzły i użytkownicy). Ostatecznie zwyciężyła druga strona.
-
-
-Po tym zwycięstwie węzły aktywowały aktualizację o nazwie SegWit, torując drogę do wdrożenia Lightning Network, natychmiastowej sieci płatności Bitcoin zbudowanej jako drugi Layer Bitcoin Blockchain. Sytuacja ta pokazuje, że użytkownicy, za pośrednictwem swoich węzłów, posiadają realną władzę w ramach Bitcoin, co pozwala im przeciwstawić się dużym instytucjom w czasach sporów.
-
-
-## Górnicy
-
-
-<chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
-
-
-**Minerzy zabezpieczają sieć i dodają transakcje do bloków. Wykorzystują energię elektryczną poprzez maszyny ASIC, aby rozwiązać Bitcoin Proof of Work.**
-
-
-![image](assets/pl/054.webp)
-
-
-### Wyjaśnienie Proof of Work
-
-
-"Proof of Work" (POW) to mechanizm konsensusu bezpieczeństwa protokołu Bitcoin. Jest podstawą wszystkiego i odgrywa kluczową rolę w teorii gier Bitcoin.
-
-
-Aby wyjaśnić, jak to działa, wyobraźmy sobie uniwersalną loterię, w której każdy może wziąć udział. Celem jest znalezienie określonej liczby, która umożliwi zwycięzcy podpisanie ważnego bloku, zdobywając nagrodę w Bitcoin. Liczba ta jest bardzo prosta do zweryfikowania za pomocą funkcji SHA-256 Hash, ale trudna do znalezienia: uczestnicy (górnicy) wypróbują miliardy możliwości, takich jak 1, 52, 2648, 26874615, 15344854131318631 i tak dalej, aż odkryją właściwą.
-
-
-Jeśli wybrana liczba jest poprawna: Jackpot! W przeciwnym razie wyszukiwanie jest kontynuowane.
-
-Aby zoptymalizować liczbę prób, użyją specjalnych maszyn zwanych ASIC, których jedyną rolą jest obliczanie miliardów możliwości na sekundę (całkowita liczba prób nazywana jest "Hashrate"). Aby obsługiwać te maszyny, należy zużywać duże ilości energii elektrycznej. Dlatego POW przekształca energię w walutę, łącząc świat rzeczywisty ze światem cyfrowym w celu stworzenia pierwszej waluty opartej na energii.
-
-
-Maszyny działają nieprzerwanie, a po średnio 10 minutach wyłania się zwycięzca: ten uczestnik z powodzeniem znalazł prawidłowy Hash, który mieści się poniżej progu trudności. Ten pojedynczy zwycięzca podpisze następnie nowy blok serwera Timestamp, dodając go do Blockchain. Otrzymują nagrody i wracają, by spróbować szczęścia w Mining w następnym bloku. Proces ten trwa od ponad dziesięciu lat, a zwycięzca potwierdza transakcje Bitcoin co 10 minut, jednocześnie zabezpieczając wcześniejsze transakcje, dzięki czemu Bitcoin Blockchain jest bardziej solidny i bezpieczny.
-
-
-Co 2016 bloków (mniej więcej co dwa tygodnie), **dostosowanie trudności** przywraca równowagę globalnej gry Mining w oparciu o liczbę uczestników. Ta korekta jest konieczna, ponieważ liczba górników i ich łączna moc obliczeniowa mogą się znacznie różnić w czasie. Aby utrzymać docelowy czas bloku, sieć ponownie dostosowuje poziom trudności w oparciu o to, jak szybko wydobyto ostatnie 2016 bloków. Jeśli zostały one wydobyte zbyt szybko, poziom trudności wzrasta, co utrudnia znalezienie prawidłowego Hash. Z drugiej strony, jeśli bloki były wydobywane zbyt wolno, poziom trudności spada, co sprawia, że jest to łatwiejsze.
-
-
-![image](assets/pl/055.webp)
-
-
-### Mining stale się rozwija
-
-
-Z biegiem lat górnicy wyposażali się w coraz bardziej wydajny sprzęt komputerowy, aby produkować jak najwięcej skrótów na sekundę (Hashrate), zużywając przy tym jak najmniej energii w możliwie najbardziej opłacalny sposób. Pierwsi górnicy, tacy jak Satoshi lub Hal Finney, wydobywali tylko przy użyciu procesora, a inni rozpoczęli Mining przy użyciu kart graficznych. Obecnie górnicy używają układów ASIC (Application-Specific Integrated Circuit): maszyn zaprojektowanych wyłącznie do stosowania algorytmu SHA256.
-
-
-![image](assets/pl/056.webp)
-
-
-Hashrate sieci Bitcoin reprezentuje liczbę prób podejmowanych na sekundę w celu znalezienia następnego bloku. Obecnie Hashrate przekracza 500 TH/s, czyli 500 000 miliardów prób na sekundę! Im wyższy globalny Hashrate, tym trudniej jest złośliwemu podmiotowi zmonopolizować zasoby potrzebne do uzyskania większości mocy Mining i wydać swoje fundusze więcej niż jeden raz (problem podwójnego wydawania). Dlatego też bardziej opłacalne jest przestrzeganie zasad protokołu Bitcoin niż działanie wbrew nim.
-
-
-![image](assets/pl/057.webp)
-
-
-### Co można znaleźć w bloku?
-
-
-Nagłówek bloku zawiera kilka Elements, takich jak czas, cel trudności, numer ostatniego bloku, używana wersja i Merkle Root poprzednich transakcji.
-
-
-**Coinbase Transaction** jest zawsze pierwszą transakcją zawartą w bloku: zawiera nagrodę Miner za wykonanie Proof-of-Work. Następnie pojawiają się zatwierdzone transakcje. Górnicy zdecydują się wstawić transakcje, które dają im największy zysk, a mianowicie małe transakcje z maksymalnymi opłatami.
-
-
-### Kompensacja Miner
-
-
-Początkowo Miner jest wynagradzany za znalezienie ważnego bloku. Dokładniej, są oni nagradzani na dwa sposoby:
-
-
-
-- poprzez dotację (nowo wybite bitcoiny) zawartą w bloku;
-- poprzez opłaty transakcyjne od transakcji zawartych w bloku.
-
-
-Kwota dotacji jest określona przez zasady konsensusu i zależy od epoki: **Block reward = subsydium blokowe + opłaty transakcyjne**.
-
-
-W przypadku pierwszych bloków dotacja blokowa wynosiła 50 bitcoinów. Co 210 000 bloków (mniej więcej co 4 lata) kwota ta jest zmniejszana o połowę. Obecnie (w 2024 r.) znajdujemy się w 5. epoce, co oznacza, że dotacja wynosi 3,125 bitcoina. Krótko mówiąc, jest to automatyczny mechanizm, który uwalnia nowe bitcoiny w systemie. Subwencja zmniejsza się z czasem, aż osiągnie limit emisji 21 milionów bitcoinów. W obiegu znajduje się już ponad 19,4 miliona bitcoinów, co stanowi ponad 92%.
-
-
-![image](assets/pl/058.webp)
-
-
-Druga metoda rekompensaty jest definiowana przez kwotę wybraną przez użytkowników na opłaty transakcyjne, które wskazują na pilność użytkownika, aby jego transakcja została uwzględniona w następnym bloku. Ponieważ górnicy chcą zmaksymalizować swoje dochody, będą mieli tendencję do priorytetowego traktowania transakcji z wysokimi opłatami transakcyjnymi.
-
-
-![image](assets/pl/059.webp)
-
-
-Aby ustabilizować swój model biznesowy, który opiera się na nagrodach otrzymywanych za każdy ważny blok, górnicy często tworzą grupy poprzez "pule Mining", w których łączą swoje zasoby obliczeniowe.
-
-
-### Po co to wszystko robić?
-
-
-Krótko mówiąc, innowacyjność Bitcoin polega na zaproponowaniu rozwiązania problemu podwójnych wydatków poprzez wykorzystanie Blockchain opartego na Proof-of-Work z pływającą trudnością. W świecie cyfrowym koncepcja Ownership różni się od koncepcji świata fizycznego. W rzeczywistości w świecie cyfrowym wszystko można kopiować i wklejać, co stwarza ryzyko wielokrotnego korzystania z cyfrowych aktywów o wartości lub podwójnych wydatków. Zaufani pośrednicy, tacy jak banki, zostali stworzeni, aby rozwiązać ten problem technologiczny i zapewnić, że gdy aktywa są przekazywane, nie należą już do nadawcy.
-
-
-Ale jak można to zrobić bez zaufanego pośrednika? Problem ten dobrze opisuje paradoks bizantyjskich generałów, czyli problem koordynacji informacji w systemie, w którym nie można ufać różnym podmiotom. W bizantyjskim problemie generałów grupa generałów musi koordynować atak na miasto, ale niektórzy z nich mogą być zdrajcami próbującymi zakłócić plan. Wyzwaniem dla lojalnych generałów jest osiągnięcie konsensusu w sprawie ataku lub odwrotu, pomimo otrzymywania potencjalnie mylących wiadomości od zdrajców.
-
-
-![image](assets/pl/060.webp)
-
-
-Bitcoin jest więc swego rodzaju rozwiązaniem tego problemu, a przynajmniej jego obejściem. "Generałowie" Bitcoin, czyli górnicy, produkują bloki (informacji), a węzły Bitcoin weryfikują transakcje finansowe przy użyciu reguł konsensusu, aby zapewnić autentyczność informacji. Asymetria w kosztach energii między produkcją informacji a weryfikacją zapewnia wiarygodność informacji bez zaufanej strony trzeciej.
-
-
-Górnicy są twórcami zabezpieczeń sieci Bitcoin. Wydając energię na tworzenie hashy, budują mur, który sprawia, że przepisanie historii transakcji przez złośliwego agenta jest niezwykle kosztowne, a ten ekonomiczny czynnik zniechęca innych do nieuczciwych zachowań.
-
-
-Nawet w przypadku ataku 51%, w którym agent posiadałby ponad połowę Hashrate, sieć pozostałaby bezpieczna, ponieważ atakujący musi wydać tyle samo energii, co wszyscy górnicy razem wzięci, aby spróbować zmodyfikować Blockchain. Ten energochłonny mechanizm Proof-of-Work zapewnia bezpieczeństwo sieci.
-
-
-### Podsumowując
-
-
-Teoria gier zastosowana w Bitcoin eliminuje nieuczciwych górników, którzy używają maszyn ASIC do wydobywania i otrzymują nagrodę w przypadku sukcesu. Ponadto często dołączają do puli Mining, aby dzielić się swoją mocą obliczeniową i otrzymywać mniejsze, ale bardziej regularne nagrody. Chociaż Bitcoin Mining wiąże się z wysokimi kosztami energii, ma kluczowe znaczenie dla działania i bezpieczeństwa sieci Bitcoin. Mechanizm Proof-of-Work i technologia Blockchain Address rozwiązują problem Double-spending i zapewniają integralność informacji bez polegania na zaufanej stronie trzeciej. Chociaż wytworzenie informacji wymaga znacznych nakładów energii, weryfikacja tych informacji pociąga za sobą znikome koszty. Ta asymetria wzmacnia bezpieczeństwo sieci, sprawiając, że przestrzeganie zasad konsensusu jest bardziej opłacalne niż próby ich łamania.
-
-
-Jeśli chcesz zagłębić się w konkretny temat Bitcoin Mining, możesz zapoznać się z naszym kursem MIN 201. Odkryjesz działanie i rolę Proof-of-Work, a także mechanikę przemysłu Mining. Wyjaśniamy również, jak przekształcić ASIC w grzejnik, umożliwiając wydobycie pierwszych satoshi podczas ogrzewania domu!
-
-
-https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
-
-## Bitcoin i ekologia
-
-
-<chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
-
-
-W poprzedniej sekcji zrozumieliśmy, że bezpieczeństwo protokołu Bitcoin opiera się na wysokim zużyciu energii w celu wytworzenia publicznego Ledger transakcji bez zaufanej strony trzeciej. W mediach głównego nurtu ogólny koszt energii jest często porównywany do zużycia energii elektrycznej w małym kraju. Ale czy to porównanie ma sens? Czy istotne jest zrozumienie przyczyn takich kosztów?
-
-
-### Koszty energii Bitcoin.
-
-
-Po pierwsze, oceńmy jakościowo koszt środowiskowy Mining. Miner musi mieć maszynę taką jak ASIC i źródło energii w postaci elektryczności do zasilania tych maszyn. Układy ASIC są w większości wykonane z aluminium i mogą być poddane recyklingowi lub ponownie wykorzystane do drugiego celu (jak pokazano w projekcie Attakaï opisanym w naszym kursie MIN201, który przekształca Antminer S9 w grzejnik). Głównym problemem jest zatem zużycie energii.
-
-
-![image](assets/pl/061.webp)
-
-
-Zużycie energii elektrycznej stanowi prawie wszystkie koszty Miner. Dlatego zachęca się ich do znalezienia taniego źródła energii elektrycznej, aby mogli udać się do miejsc, w których elektrownie są zainstalowane, ale nie są jeszcze podłączone do sieci elektrycznej danego terytorium. W tym przypadku górnicy działają jako nabywcy ostatniej instancji, umożliwiając elektrowniom zabezpieczenie finansowania jeszcze przed podłączeniem do sieci elektrycznej. Po ich podłączeniu popyt na energię elektryczną wzrośnie, co podniesie cenę i sprawi, że pozyskiwanie energii elektrycznej w tych miejscach stanie się mniej opłacalne dla górników. Ponieważ maszyny mogą być łatwo przenoszone, górnicy zdecydują się przenieść swoją instalację i osiedlić się dalej, gdzie popyt jest niski, a więc i cena, najczęściej na obszarach, gdzie mogą uzyskać energię z elektrowni Green.
-
-
-### Niekończąca się debata
-
-
-W związku z tym debata na temat wpływu Bitcoin na środowisko jest często błędna, głównie z powodu niewystarczającego zrozumienia jego użyteczności. Bitcoin nie można ocenić po prostu pod względem kosztów energii na transakcję, ponieważ górnicy zabezpieczają zarówno bieżącą, jak i historyczną sieć, a transakcje są pogrupowane i nie wszystkie są równoważne. Poza tym, wpływ Lightning Network nie jest nawet brany pod uwagę. Ci, którzy twierdzą, że Bitcoin zużywa zbyt dużo energii, mogą mieć motywacje polityczne lub próbować sprzedać własne rozwiązanie Blockchain. Wielokrotnie pretekst ekologiczny jest wykorzystywany do uzasadnienia zakazu Bitcoin.
-
-
-Ważne jest, aby podkreślić, że Bitcoin, jako rewolucyjny wynalazek, zapewnia środki dla osób żyjących pod uciskiem finansowym lub dyktatorskimi reżimami, aby walczyć o swoją wolność. W ostateczności Bitcoin oferuje drogę do niezależności finansowej poprzez obejście cenzury i ograniczeń bankowych. Bitcoin jest czymś więcej niż tylko walutą, służy jako forma komunikacji i symbol wolności, a energia wydatkowana przez górników odgrywa kluczową rolę w obronie tej wolności, umożliwiając emancypację z systemu finansowego zdominowanego przez dług i nadmierną kreację pieniądza przez banki centralne.
-
-
-![image](assets/pl/062.webp)
-
-![image](assets/pl/063.webp)
-
-![image](assets/pl/064.webp)
-
-
-Dla osób żyjących w krajach o wysokiej inflacji Bitcoin jest kwestią przetrwania. Zapewnia środki pozwalające przetrwać w niepewnych sytuacjach finansowych. Co więcej, Bitcoin oferuje bardziej sprawiedliwy i bezstronny system finansowy, zapewniając miliardom ludzi na całym świecie dostęp do zasobów finansowych. Biorąc pod uwagę tę perspektywę, czy zużycie energii jest uzasadnione?
-
-
-### Bitcoin może być pozytywny netto dla środowiska
-
-
-Na koniec należy omówić ekonomiczne i środowiskowe konsekwencje przyjęcia Bitcoin.
-
-
-Porównując go do obecnego systemu finansowego, ten ostatni, ze względu na zachęcanie do nadmiernej konsumpcji i zadłużenia, stwarza poważne problemy. Czynniki takie jak łatwy dostęp do kredytów, emisja pieniądza przez banki i praktyka bankowości opartej na rezerwie cząstkowej przyczyniają się do nadmiernego zadłużenia, a w rezultacie do nadmiernej konsumpcji.
-
-
-![image](assets/pl/065.webp)
-
-
-Konieczne jest zreformowanie systemu monetarnego w celu odzwierciedlenia niedoboru naszych zasobów w niedoborze naszej waluty. Zachęci to do bardziej odpowiedzialnej konsumpcji i długoterminowej wizji. I odwrotnie, inflacja, zachęcając do konsumpcji i inwestycji, ma negatywny długoterminowy wpływ na środowisko.
-
-
-Obecny system finansowy jest zgodny z ideami ekonomii keynesowskiej, która, w przeciwieństwie do ekonomii austriackiej, nie uwzględnia czasowych i dynamicznych aspektów sytuacji i zasobów. Innymi słowy, nieograniczona waluta nie może skutecznie reprezentować ograniczonych zasobów naszej planety.
-
-
-![image](assets/pl/066.webp)
-
-
-Politycy zazwyczaj mają krótkoterminową wizję i potrzebują wzrostu gospodarczego, aby zostać ponownie wybranym, więc nie są w stanie rozwiązać problemów ekologicznych w dłuższej perspektywie. Przyjęcie zdrowej waluty, takiej jak Bitcoin, jest potencjalną alternatywą, która może wzmocnić pozycję ekonomiczną ludzi.
-
-
-Krytycy nie przyznają, że Bitcoin promuje wykorzystanie energii Green. Na przykład płomienie zapalane w szybach naftowych w celu spalania metanu i zapobiegania zanieczyszczeniom mogą być gaszone przez górników Bitcoin, ponieważ metan może być przekształcany w energię elektryczną do zasilania maszyn Mining, co jest korzystne dla środowiska.
-
-
-**Postępuj zgodnie z jedną z maksym Bitcoin: Nie ufaj, sprawdź sam!**
-
-
-### Krótkie podsumowanie cech technicznych Bitcoin
-
-
-Satoshi Nakamoto wydał protokół Bitcoin w styczniu 2009 r., który od tego czasu ewoluował dzięki rosnącej społeczności deweloperów, górników i użytkowników z węzłami Bitcoin. Utrzymując własną kopię Bitcoin Blockchain, publicznego Ledger wszystkich transakcji Bitcoin, węzły te mogą zapewnić ważność transakcji zgodnie z zasadami konsensusu Bitcoin. Obejmuje to zapewnienie, że górnicy tworzą prawidłowe bloki, które zawierają tysiące oczekujących transakcji.
-
-
-Średnio blok jest tworzony co 10 minut, a Miner, który znajdzie ważny Hash dla następnego bloku, jest nagradzany przez protokół zarówno kwotą dotacji określoną przez zasady konsensusu, jak i opłatami transakcyjnymi ze wszystkich transakcji zawartych w ważnym bloku. Ponieważ wynik algorytmu haszującego (SHA256) dla danego wejścia jest uważany za nieprzewidywalny, proces Mining obejmuje tworzenie wielu bloków kandydujących i testowanie, czy ich Hash jest ważny, czy nie. Aby jednak zapewnić, że średni czas między dwoma blokami pozostaje stały (~10 minut) niezależnie od liczby górników i ich mocy obliczeniowej, trudność znalezienia ważnego Hash dostosowuje się co 2016 bloków, mniej więcej co 2 tygodnie. Górnicy z czasem opracowali wyspecjalizowane maszyny SHA256, zwane ASICS, aby zwiększyć wskaźnik Hash na dżul, co oznacza liczbę prób na sekundę na zużytą energię.
-
-
-Aby działalność górników była jak najbardziej opłacalna, muszą oni pozyskiwać najtańszą możliwą energię elektryczną, która często znajduje się w odległych lokalizacjach, w elektrowniach, które nie są jeszcze podłączone do sieci. Miner działa wtedy jako kupujący w ostateczności, a gdy tylko cena energii elektrycznej wzrośnie z powodu wzrostu popytu, Miner będzie miał tendencję do przenoszenia swojej działalności w inne miejsce.
-
-
-Protokół Bitcoin jest zatem nieocenzurowanym i niemożliwym do zatrzymania systemem monetarnym, ponieważ każdy jego element jest rozproszony geograficznie na całym świecie. Na przykład, istnieje ponad 40 000 węzłów Bitcoin na wszystkich kontynentach. Zasady konsensusu Bitcoin są takie, że ekonomicznie bardziej opłaca się ich przestrzegać niż próbować je łamać, a zatem nie jest wymagane zaufanie między podmiotami. Bitcoin nie ma lidera i nie można go zatrzymać. Nawet jeśli możliwe jest regulowanie platform Exchange w celu ograniczenia Bitcoin, takie podejście ma marginalny wpływ na system. Krótko mówiąc, żaden sędzia ani państwo nie może ocenzurować ani powstrzymać Bitcoin.
-
-
-# Jak uzyskać Bitcoin?
-
-
-<partId>517e1bb7-f032-51a0-930a-a91fe5148d3f</partId>
-
-
-## Bitcoin nigdy nie śpi!
-
-
-<chapterId>d5e35e41-ea26-5478-8eb9-07daf9dff508</chapterId>
-
-
-Cena Bitcoin często charakteryzuje się znaczną zmiennością. Jego wartość może ulegać znacznym wahaniom w zależności od wahań rynkowych lub faz hossy i bessy, podobnie jak na każdym innym rynku finansowym.
-
-
-![image](assets/pl/067.webp)
-
-
-Mówiąc prościej, ludzie mają tendencję do kupowania wszystkiego naraz i sprzedawania wszystkiego naraz. **Bitcoin nie jest odporny na ludzką naturę.**
-
-
-### Zrozumienie fal adopcji
-
-
-Zarówno rozwój, jak i ewolucja Bitcoin są w dużej mierze powiązane z różnymi grupami podmiotów, które stopniowo integrowały jego ekosystem.
-
-
-![image](assets/pl/068.webp)
-
-
-
-- Wierzący:
-
-
-Wczesnymi użytkownikami Bitcoin byli głównie technofile, cypherpunks, libertarianie i entuzjaści złota. Grupy te przyciągnęła wartość Trustless jako elektronicznej gotówki, odporność na cenzurę i przejrzysta, niezmienna polityka monetarna.
-
-
-
-- Ciemna sieć i przestępcy
-
-
-Następnie wykorzystanie Bitcoin rozszerzyło się na ciemne rynki internetowe, takie jak Silk Road, głównie ze względu na jego niekontrolowany i pseudonimowy charakter, który przyciągnął również osoby spoza tej platformy, w tym niektóre osoby zaangażowane w działalność przestępczą. Należy jednak podkreślić, że to zastosowanie narzędzia, a nie samo narzędzie, decyduje o legalności. Nielegalne korzystanie z Bitcoin nie czyni kogoś z natury przestępcą; to raczej konkretne działania można zaklasyfikować jako nielegalne. Na przykład użycie Bitcoin do zakupu niektórych narkotyków może być legalne lub nielegalne w zależności od przepisów obowiązujących na terytorium, na którym dochodzi do transakcji.
-
-
-
-- Szał ICO i pojawienie się ogółu społeczeństwa.
-
-
-Rok 2017 upłynął pod znakiem znaczącej bańki spekulacyjnej w świecie kryptowalut, zwłaszcza wraz z uruchomieniem tysięcy Initial Coin Offerings (ICO). Jednak wiele z tych nowych kryptowalut nie miało konkretnego rozwoju ani użyteczności i szybko zniknęło. Po bańce z 2017 r. nastąpiła silna korekta w latach 2018-2019.
-
-
-
-- Bańka NFT i DeFi
-
-
-Następnie w 2020 r. rynek doświadczył kolejnej bańki spekulacyjnej, która wywindowała cenę Bitcoin do 60 000 USD. Bańka ta różniła się od poprzednich ze względu na szerszą dywersyfikację inwestorów, w tym instytucji finansowych i dużych korporacji. Jednak podobnie jak w przypadku poprzednich baniek, po początkowej euforii zwykle następują znaczące korekty.
-
-
-### Bitcoin i zmienność
-
-
-Opierając się na poprzednich cyklach, wydaje się, że okresowość cykli ekonomicznych Bitcoin jest równoważna czasowi trwania między dwoma halvingami, być może dlatego, że zdarzenie Halving działa jako wyzwalacz, zmniejszając emisję nowych bitcoinów o połowę.
-
-
-Te znaczące wahania sprawiły, że Bitcoin zyskał reputację wysoce niestabilnego aktywa, często prowadząc do znacznych strat dla jego użytkowników. Chociaż cena może spaść o 10%, 20% lub nawet 50% w ciągu kilku dni, ważne jest, aby zrozumieć, że zmiany cen nie mają wpływu na sam protokół Bitcoin.
-
-
-Ta znaczna zmienność jest dziś w pełni akceptowana przez podmioty Bitcoin i można ją złagodzić za pomocą kilku rozwiązań, takich jak zabezpieczenia finansowe (stablecoiny), silna długoterminowa wiara (hodling) lub po prostu unikanie ryzyka inwestowania 100% swoich środków w Bitcoin bez solidnego zrozumienia. Zrozumienie, dlaczego cena Bitcoin podlega tak dużym wahaniom, ma zatem zasadnicze znaczenie dla postępu w tej branży, ponieważ ostatecznie to ruchy i cykle cenowe pomagają do pewnego stopnia temperować i regulować rynek. Należy jednak zauważyć, że wraz ze wzrostem i dojrzewaniem Bitcoin zmienność staje się mniej istotna.
-
-
-![image](assets/pl/069.webp)
-
-
-Chociaż para btc/dolar waha się w krótkim okresie, Bitcoin, ze względu na ograniczoną ilość 21 milionów bitcoinów i proces Halving (Halving kreacja monetarna średnio co 4 lata), podąża za ogólnym trendem wzrostowym w sposób quasi-mechaniczny. Oczywiście, jak każde aktywo finansowe, Bitcoin podlega cyklom gospodarczym, w tym okresom euforii, baniek spekulacyjnych i korekt. Zjawisko to jest dość powszechne w przypadku wschodzących technologii, gdzie rynek nie zawsze jest racjonalny lub wydajny.
-
-
-### Wyjątkowy rynek
-
-
-Te cykle baniek spekulacyjnych są dość wyjątkowe na świecie, ponieważ rzadko zdarza się, aby pojedyncze aktywa doświadczały takiej serii baniek po kolei. Zjawisko to można przypisać faktowi, że Bitcoin nie jest jedynie bańką, która ma pęknąć. Funkcjonuje on raczej jako waluta, która jest aktywnie wykorzystywana na całym świecie. Protokół Bitcoin wyróżnia się zdolnością do działania w skali globalnej, 24 godziny na dobę, 7 dni w tygodniu, co stanowi poważne wyzwanie dla organów finansowych próbujących go regulować.
-
-
-![image](assets/pl/070.webp)
-
-
-Obecnie Bitcoin nadal przetrwa i rozwija się jeszcze bardziej dzięki coraz większej integracji z tradycyjnym rynkiem, a wprowadzenie funduszy ETF Bitcoin, jaśniejsze przepisy i ulepszone narzędzia do pozyskiwania i przechowywania przyczyniają się do tego pozytywnego tempa. Bitcoin PO RAZ KOLEJNY przetrwał swoją bańkę spekulacyjną, więc może to nie tylko powietrze Hot!
-
-
-![image](assets/pl/071.webp)
-
-
-
-
-
-## Zdobywanie Bitcoinów poprzez pracę
-
-
-<chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
-
-
-### Rozwija się gospodarka równoległa
-
-
-Bitcoin można postrzegać jako narzędzie do tworzenia gospodarki równoległej do walut fiducjarnych, ponieważ możliwe jest sprzedawanie towarów lub usług i otrzymywanie zapłaty w Bitcoin. Transakcje mogą być dokonywane bezpośrednio w Bitcoin, bez konieczności przechodzenia przez platformę Exchange, ale po prostu przechodząc z Bitcoin Wallet na inną.
-
-
-Gospodarka Bitcoin istnieje i rozwija się w niektórych regionach świata, takich jak El Salvador, gdzie Bitcoin stał się prawnym środkiem płatniczym w 2021 roku. Niestety, w styczniu 2025 roku zgromadzenie uchwaliło nową ustawę, która pozbawiła Bitcoin tytułu "prawnego środka płatniczego", rzekomo po wywarciu presji ze strony Międzynarodowego Funduszu Walutowego. Zgodnie z nową ustawą ludzie nie są już zobowiązani do akceptowania Bitcoin w swoich firmach i nie mogą już płacić podatków za jego pomocą. Akceptacja pozostaje dobrowolna.
-
-Niemniej jednak, w El Salvadorze i w innych częściach świata coraz więcej osób, firm i organizacji akceptuje Bitcoin jako środek płatniczy za swoje produkty lub usługi.
-
-
-![image](assets/pl/072.webp)
-
-
-Ponadto uruchomiono projekt open-source i współpracy, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), aby ułatwić korzystanie z Bitcoin w codziennych transakcjach. Platforma ta zawiera listę wszystkich sprzedawców, którzy akceptują Bitcoin, a także różne społeczności Bitcoin na całym świecie, dzięki czemu można odwiedzić ich stronę internetową, aby odkryć ekosystem Bitcoin wokół siebie. Tak więc, pomimo trudności i wahań, istnieją inicjatywy takie jak BTCMap, które przyczyniają się do uczynienia gospodarki Bitcoin bardziej dostępną i wygodną dla wszystkich.
-
-
-### Dlaczego powinniśmy zaakceptować Bitcoin zamiast go kupować?
-
-
-Aby uzyskać bitcoiny, można je kupić na platformach regulowanych przez organizacje takie jak AMF (Autorité des Marchés Financiers) we Francji lub Securities & Exchange Commission (SEC) w USA, ale to rozwiązanie wiąże się z możliwością śledzenia transakcji. Inną metodą pozyskiwania bitcoinów jest akceptowanie ich jako środka płatniczego za oferowane produkty lub usługi, dzięki czemu można pozyskiwać bitcoiny poprzez swoją pracę bez ciągłego martwienia się o cenę Bitcoin.
-
-
-Co więcej, akceptowanie Bitcoin jako sprzedawcy ma kilka zalet, w tym odporność na cenzurę, obniżone opłaty transakcyjne, zwiększoną wydajność, ochronę przed inflacją, a także wolność finansową i suwerenność.
-
-
-![image](assets/pl/073.webp)
-
-
-### Jak postępować?
-
-
-Aby zaakceptować Bitcoin, konieczne jest zapoznanie się z różnymi dostępnymi rozwiązaniami i wybranie tego, które najlepiej pasuje do Twojej firmy. Nie ma idealnego rozwiązania, a aby dokonać wyboru, należy wziąć pod uwagę kilka czynników, takich jak oczekiwany wolumen transakcji, przydzielony budżet i rodzaj działalności (online lub fizyczna).
-
-
-Omówimy ten temat szczegółowo w innym kursie, ale aby zachować prostotę, możemy rozważyć kilka kategorii firm i związanych z nimi rozwiązań.
-
-
-
-- Proste rozwiązanie online: OpenNode
-
-
-https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
-
-
-- Rozwiązanie dla sprzedawców amatorów: Swiss Bitcoin Pay
-
-
-https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
-
-
-- Rozwiązanie dla dużych organizacji lub pasjonatów bitcoinów: Serwer BTCpay
-
-
-Aby dokładniej zgłębić ten temat, polecamy nasz kurs BIZ101! Dowiedz się, jak skutecznie zintegrować Bitcoin ze środkami finansowymi swojej firmy, akceptować Bitcoin jako środek płatniczy zgodnie z profilem organizacji i zrozumieć związane z tym wymogi podatkowe i księgowe:
-
-
-https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
-
-## Oszczędzanie dzięki Bitcoin
-
-
-<chapterId>1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87</chapterId>
-
-
-### Ostrzeżenie przed rozpoczęciem!
-
-
-Bitcoin stał się głównym aktywem finansowym, głównie ze względu na ograniczony Supply i rosnący popyt. Zakup Bitcoin wiąże się jednak z ryzykiem, które wymaga szczególnej uwagi. Zaleca się zatem przeprowadzenie własnych badań i dowiedzenie się więcej na ten temat, aby zapoznać się z technologią przed zainwestowaniem jakichkolwiek środków.
-
-
-
-- Inwestuj tylko tyle, ile możesz stracić.
-- Bitcoin jest wysoce niestabilnym aktywem finansowym, a jego cena może spaść do 0.
-- Wyniki osiągnięte w przeszłości nie są wiarygodnym wskaźnikiem przyszłych wyników.
-- W razie potrzeby skontaktuj się z doradcą finansowym.
-
-
-**Plan ₿ Academy nie zapewnia żadnych porad inwestycyjnych i nic, co zostało tu powiedziane, nie powinno być traktowane jako takie**
-
-
-### Mini lista kontrolna przed podjęciem decyzji
-
-
-Przed zakupem Bitcoin upewnij się, że posiadasz:
-
-
-
-- Bezpieczny Wallet.
-- Solidne zrozumienie Bitcoin.
-- Plan oszczędnościowy do naśladowania.
-- Długoterminowa wizja.
-
-
-Jeśli temat jest nadal niejasny, pamiętaj, że kurs BTC102 poprowadzi Cię przez proces zabezpieczania i pozyskiwania pierwszych bitcoinów. Tutaj tylko pobieżnie omówimy ten temat.
-
-
-Konkretnie rzecz ujmując, należy zadać sobie dwa pytania:
-
-
-
-- Czy należy przyjąć strategię stopniowego czy jednorazowego pozyskiwania klientów?
-- Czy powinieneś korzystać z platformy regulowanej czy nieregulowanej?
-
-
-### Strategie pozyskiwania
-
-
-
-- Średni koszt w dolarach
-
-
-Ta stopniowa strategia obejmuje powtarzające się zakupy, co oznacza kupowanie niewielkich ilości Bitcoin w regularnych odstępach czasu. Metoda ta wygładza cenę w czasie i zapewnia ciągły wzrost ilości posiadanego Bitcoin. Jest to idealne rozwiązanie dla długoterminowych oszczędności i łagodzi obawy związane ze zmiennością cen Bitcoin. Po skonfigurowaniu można po prostu o tym zapomnieć i obserwować, jak inwestycja rośnie.
-
-
-![image](assets/pl/074.webp)
-
-
-**Uważaj na UTXO**: Pamiętaj, aby od czasu do czasu konsolidować swoje UTXO w portfelach. Praktyka ta jest niezbędna do efektywnego zarządzania bitcoinami i unikania niepotrzebnych opłat podczas transakcji.
-
-
-UTXO](https://planb.academy/en/resources/glossary/utxo) to wynik transakcji, który nie został jeszcze wydany, co oznacza, że nie został użyty jako wkład do nowej transakcji. Konsolidacja oznacza połączenie kilku małych UTXO w jeden większy, aby zmniejszyć "wagę" transakcji, a tym samym płacić niższe opłaty.
-
-
-
-- Zakup spontaniczny
-
-
-Rozwiązaniem typu "wszystko za jednym razem" może być spontaniczny zakup, który jest wykorzystywany do natychmiastowego uzyskania ekspozycji na Bitcoin. Niezależnie od tego, czy jest to zakup podczas krachu, czy skorzystanie z bonusu, decyzja należy do Ciebie. Musisz zebrać się na odwagę i nacisnąć przycisk zakupu.
-
-
-W takim przypadku należy zachować ostrożność i kontrolować swoje emocje, ponieważ cena Bitcoin może być dość zmienna. W rzeczywistości FOMO (Fear of Missing Out) i FUD (Fear, Uncertainty, Doubt) są Twoimi najgorszymi wrogami! Pamiętaj, aby zachować spokój i postępować zgodnie z wcześniej ustaloną strategią, aby uniknąć impulsywnego i potencjalnie szkodliwego podejmowania decyzji.
-
-
-### Od kogo powinniśmy kupić Bitcoin?
-
-
-Istnieje kilka sposobów nabywania bitcoinów, z których każdy podlega własnemu zestawowi przepisów, które mogą się różnić w zależności od jurysdykcji. Niektóre platformy wymagają identyfikacji w celu weryfikacji (KYC), podczas gdy inne nie. Dlatego ważne jest, aby zrozumieć przepisy związane z każdą platformą.
-
-
-
-- Platformy DCA
-
-
-Jak wspomnieliśmy powyżej, powszechną metodą gromadzenia bitcoinów jest uśrednianie kosztu dolara (DCA), które polega na regularnym kupowaniu niewielkich kwot. Kilka platform oferuje tę usługę, na przykład te wymienione na naszej [dedykowanej stronie](https://planb.academy/tutorials/exchange). Oprócz prostoty konfiguracji DCA, wypłaty na Wallet są zazwyczaj automatyczne, co oznacza, że zawsze będziesz mieć kontrolę nad swoimi aktywami.
-
-
-Obecnie prawie wszystkie rozwiązania DCA są stosunkowo wydajne i mają prawie podobne opłaty, więc wybór będzie zależał bardziej od dostępności w danym kraju.
-
-
-
-- Platformy brokerskie
-
-
-W przypadku inwestycji na dużą skalę zalecane są regulowane i uznane platformy, takie jak Kraken, Bitstamp i Paymium. Oferują one bezpieczne środowisko dla transakcji o dużym wolumenie.
-
-
-Ich użycie jest proste i dostępne dla każdego:
-
-
-1. Konfiguracja konta KYC
-
-2. Przelew środków na konto
-
-3. Zakup Bitcoin
-
-4. Wycofaj Bitcoin do swojego Wallet
-
-
-![image](assets/pl/075.webp)
-
-
-Po dokonaniu zakupu zaleca się natychmiastowe wypłacenie bitcoinów z platform Exchange, aby zminimalizować ryzyko włamania i zablokowania środków. Należy pamiętać, że opłaty za wypłatę mogą być wysokie, czasami nawet do 25 euro w zależności od platformy.
-
-
-**Przepisy KYC (Know Your Customer) wymagają od użytkowników podania tożsamości w celu zwalczania finansowania terroryzmu, uchylania się od płacenia podatków i prania pieniędzy**
-
-
-Ważne jest, aby zdać sobie sprawę, że KYC jest istotnym tematem dyskusji w branży Bitcoin. Podczas gdy wiele osób debatuje nad jego skutecznością, istnieje wiele obaw z nim związanych. W wielu programach szkoleniowych i treściach naszej akademii doradzamy zaawansowanym użytkownikom, aby unikali platform wymagających KYC, ponieważ często dostępne są alternatywy bardziej skoncentrowane na prywatności.
-
-
-### Rozwiązania inne niż KYC
-
-
-Ponadto istnieje kilka [rynków] (https://planb.academy/tutorials/exchange), na których można kupować i sprzedawać bitcoiny w systemie peer-to-peer Exchange. Ogólnie rzecz biorąc, można rozważyć następujące opcje:
-
-
-
-- Bankomaty Bitcoin
-- Fizyczne spotkania z innymi entuzjastami Bitcoin
-- Nielegalne i nieuregulowane platformy
-- Rozwiązania peer-to-peer do matchmakingu
-- Neobanki działające w krajach przyjaznych Bitcoin.
-
-
-![image](assets/pl/076.webp)
-
-
-Wreszcie, należy pamiętać, że obowiązki podatkowe mogą się różnić w zależności od jurysdykcji, dlatego zdecydowanie zachęcamy do zapoznania się z przepisami obowiązującymi w danym kraju przed podjęciem jakichkolwiek działań, które mogłyby narazić Cię na ryzyko.
-
-
-Jeśli chcesz pogłębić swoją wiedzę na temat strategii zakupu, korzystania i zabezpieczania swoich bitcoinów, gorąco polecam kontynuację kursu **BTC 102** po tym. Dowiesz się tam między innymi o narzędziach dostosowanych do Twojego profilu, potrzeb i osobistych celów:
-
-https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
-
-## Hiper-bitcoinizacja
-
-
-<chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>
-
-
-### Dziki wyścig dopiero się zaczyna!
-
-
-Jak każda nowa technologia, przyjęcie Bitcoin podąża za krzywą S, ilustrując postęp od wczesnych użytkowników do szerszej akceptacji. Wyszliśmy poza erę wczesnych użytkowników, a wskaźniki sugerują potencjalną demokratyzację Bitcoin. W końcu jest to technologia wirusowa, której nie da się łatwo zatrzymać. Z jednej strony, Salwador podjął odważny krok w kierunku pełnego przyjęcia Bitcoin jako prawnego środka płatniczego. Z drugiej strony, inne kraje zareagowały, zakazując go i kryminalizując jego użycie, co pokazuje, że przyjęcie Bitcoin jest złożone i narażone na wpływ czynników kulturowych, historycznych i krajowych.
-
-
-![image](assets/pl/077.webp)
-
-
-Wzrost popularności Bitcoin zmusza firmy, uniwersytety, organy regulacyjne i osoby prywatne do uwzględnienia tej nowej technologii. Należy tworzyć nowe narzędzia, dostosowywać usługi i kontynuować innowacje, aby zapewnić sobie przetrwanie. W tym kontekście pojawia się wiele pytań związanych z różnymi dziedzinami, w tym kryptografią, teorią gier, ekonomią i polityką pieniężną, informatyką, filozofią, energią, prawem i regulacjami. Krótko mówiąc, Bitcoin jest przedmiotem multidyscyplinarnym.
-
-
-![image](assets/pl/078.webp)
-
-
-### Bitcoin to od 0 do 1
-
-
-Na koniec zapraszamy do refleksji nad tą nową rewolucją monetarną. Jest tak wiele do odkrycia z Bitcoin, że trudno jest przyswoić wszystko na raz. Nie spiesz się, Bitcoin nie zniknie. Wręcz przeciwnie, rewolucja dopiero się rozpoczęła. Wierzymy, że jesteśmy w stanie stworzyć świat, który chcemy powierzyć naszym dzieciom: świat, w którym ludzka suwerenność jest prawem, w którym prywatność jest domyślnie szanowana, a pieniądze nie są manipulowane. Mamy nadzieję, że wspólnie uda nam się to osiągnąć.
-
-
-![image](assets/pl/079.webp)
-
-
-Jeśli chcesz poszerzyć swoją wiedzę na temat Bitcoin, to jest to właściwy moment: wielu autorów, myślicieli i eseistów stworzyło treści edukacyjne na temat Bitcoin. Przez ostatnie kilka lat wymienialiśmy i kategoryzowaliśmy te prace, aby zaoferować [bibliotekę zasobów](https://planb.academy/resources) najbardziej ciekawskim spośród was. W tej sekcji znajdziesz najlepsze podcasty, strony internetowe, artykuły, samouczki, książki i inne treści.
-
-
-> "Myślę, że Internet będzie jedną z głównych sił zmniejszających rolę rządu. Jedyną rzeczą, której brakuje, ale która wkrótce zostanie opracowana, jest niezawodna e-gotówka - metoda, dzięki której w Internecie można przesyłać środki od A do B bez wiedzy A o B lub B o A" - Przepowiednia Miltona Friedmana z 1999 r
-
-# Przyszłość Bitcoin: Lightning Network
-
-
-<partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
-
-
-## Krótkie wprowadzenie do Lightning Network
-
-
-<chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
-
-
-Teraz, gdy mamy już podstawy protokołu Bitcoin, przedstawimy sieć płatności, która wykorzystuje protokół Bitcoin, aby umożliwić błyskawiczne transakcje: Lightning Network!
-
-
-Należy pamiętać, że poniższy opis jest tylko ogólny, więc jeśli chcesz zrozumieć go bardziej szczegółowo, zapraszamy do wzięcia udziału w naszym kursie LNP201.
-
-
-### W skrócie
-
-
-Lightning Network to rewolucyjna technologia, która głęboko zmieniła nasze postrzeganie Bitcoin, ponieważ rozwiązuje problem skalowalności Bitcoin.
-
-
-Aby w pełni zrozumieć Lightning Network, kluczowe jest zrozumienie, w jaki sposób Bitcoin ewoluuje i rozwija się w warstwach infrastruktury: pierwszy Layer to Blockchain, a drugi to Lightning Network.
-
-
-![image](assets/pl/080.webp)
-
-
-### Blockchain nie może rosnąć w nieskończoność
-
-
-Lightning Network został zatwierdzony i wdrożony w 2017 r. w celu rozwiązania problemu skalowalności Bitcoin, ponieważ umożliwia natychmiastowe, tanie transakcje Bitcoin.
-
-
-Problem skalowalności odnosi się do wyzwania polegającego na wdrożeniu systemu monetarnego zdolnego do zapewnienia stale rosnącej liczby transakcji na sekundę w odpowiedzi na rosnącą adopcję. Kwestia ta odnosi się do trylematu Blockchain. Wyobraźmy sobie trójkąt, którego wierzchołkami są decentralizacja, bezpieczeństwo i skalowalność.
-
-
-![image](assets/pl/081.webp)
-
-
-Według niego protokół oparty na Blockchain może spełniać tylko dwie z tych trzech cech. W ramach protokołu Bitcoin deweloperzy dokonali wyborów sprzyjających decentralizacji i bezpieczeństwu. Z jednej strony, rozmiar bloku wynoszący 1 MB i czas między dwoma blokami (średnio 10 minut) pozwalają na uruchomienie węzła Bitcoin przy niższych kosztach, co sprzyja decentralizacji. Z drugiej strony, produkcja bloków za pośrednictwem Proof-of-Work sprawia, że oszustwa w ramach protokołu są niezwykle kosztowne, jednocześnie ułatwiając weryfikację przez węzły sieci i sprzyjając bezpieczeństwu. Wybory te nakładają jednak ograniczenie na średnią liczbę transakcji w bloku, odpowiadającą mniej więcej kilku transakcjom na sekundę. Liczba ta jest śmieszna w porównaniu z wydajnością obliczeniową procesorów płatniczych, takich jak VISA (1700/s), ale limit ten jest niezbędny do przeprowadzania transakcji za pomocą Bitcoin w sposób odporny na cenzurę i Trustless. Niemniej jednak, osoby pracujące nad Bitcoin myślały o tym problemie od samego początku.
-
-
-### Błyskawica jako Layer na górze
-
-
-Po latach rozważań i wielu próbach wyłonił się protokół Lightning. Korzystając z określonej liczby specyfikacji, protokół ten tworzy sieć płatności peer-to-peer, wykorzystując bezpieczeństwo i programowalność protokołu transakcyjnego Bitcoin. Lightning Network działa jak sieć kanałów płatności, umożliwiając natychmiastowe transakcje z niskimi opłatami dla nadawcy, a nawet tworzy trasy Exchange między osobami, które nie mają bezpośredniego połączenia kanałowego.
-
-
-![image](assets/pl/082.webp)
-
-
-Tradycyjne usługi transferu pieniędzy, takie jak Western Union, banki centralne, Visa i Mastercard mogą zniknąć, jeśli nie przyjmą technologii Lightning Network, która jest bardziej wydajna i opłacalna niż obecne systemy płatności. W rzeczywistości Lightning Network umożliwia niemal nieograniczone transakcje między dwoma użytkownikami współdzielącymi kanał, ponosząc jedynie koszty energii związane z transakcją w celu ogłoszenia utworzenia kanału, a nie z każdą pojedynczą transakcją.
-
-
-![image](assets/pl/083.webp)
-
-
-Transakcje są zabezpieczone poprzez kryptografię i pośrednio poprzez energię zużywaną przez górników na Bitcoin. Można ich dokonywać natychmiastowo, bez ograniczeń geograficznych, z niezwykle niskimi opłatami (często poniżej 0,5%).
-
-
-Podsumowując, Lightning Network jest obiecującą próbą wdrożenia wydajnego systemu płatności do kupowania i sprzedawania w Bitcoin. Dostępnych jest już wiele portfeli Lightning, które można znaleźć w naszej sekcji samouczków lub w naszych kursach Lightning Network.
-
-
-Jeśli chcesz wyjść poza to wprowadzenie i zrozumieć wszystkie funkcje Lightning Network, zalecamy skorzystanie z tego doskonałego kursu Fanisa Michalakisa na ten temat:
-
+If you want to understand Lightning in depth (channels, liquidity, routing, risk management), I recommend the complete theoretical course LNP 201 by Fanis Michalakis:
 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-## Przypadki użycia Lightning Network
+And if you want to embark on the adventure of running your own Lightning node, we also offer the practical course LNP 202, specifically dedicated to this topic:
 
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+
+## Beyond Lightning: other protocols to scale Bitcoin
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 
+As we have seen in previous chapters, Bitcoin was designed as an extremely robust base layer: a public ledger, simple, secure, but naturally limited in speed, programmability, and payment throughput. Rather than forcing this layer to do everything (as is done on Ethereum, for example), the Bitcoin ecosystem has gradually adopted a layered approach: the blockchain serves as the foundation (final settlement), while higher layers add new properties, such as faster payments, more privacy, or the issuance of assets (stablecoins, tokenized securities...).
 
-Jak właśnie zauważyliśmy, protokół Bitcoin, choć rewolucyjny, stoi przed poważnymi wyzwaniami w zakresie skalowalności potrzebnej do obsługi wszystkich naszych codziennych transakcji. Aby rozwiązać te problemy, zaproponowano Lightning Network, który od tego czasu rozwinął się w kilka różnych implementacji, z których wszystkie są interoperacyjne:
+Bitcoin does not evolve only by modifying its base protocol. It also evolves by building on top of it, with solutions that make different trade-offs depending on the desired objective. Some aim for payment scalability, others for programmability (in a broad sense) and asset issuance, and others try to combine both.
+
+In this chapter, we introduce four important protocols that each offer new possibilities on Bitcoin: sidechains (including Liquid), Ark, RGB, and Taproot Assets.
+
+### Sidechains: parallel blockchains connected to Bitcoin
+
+A sidechain is a blockchain distinct from Bitcoin’s, designed to operate in parallel, with its own rules and its own consensus mechanism. It is connected to Bitcoin through a two-way peg mechanism (*2WP*), which in practice allows bitcoins to be used on the sidechain in a representative form (often a bitcoin locked on Bitcoin and recreated on the sidechain), and then later returned to the main chain.
+
+The interest of a sidechain lies in offering functionalities that are difficult to achieve directly on Bitcoin: faster transactions, asset features, enhanced privacy, or greater development flexibility. In return, a sidechain always makes compromises compared to Bitcoin, particularly in terms of the trust model or decentralization.
+
+The most well-known sidechain on Bitcoin is probably **Liquid**, developed by Blockstream. It is designed in particular to accelerate certain use cases: fast transfers between platforms, more frequent settlements, and asset issuance (stablecoins, securities...), with enhanced privacy. On Liquid, the bitcoins used are called L-BTC: they are designed to be pegged 1-to-1 to BTC through a two-way peg mechanism.
+
+![image](assets/en/088.webp)
+
+The major difference compared to Bitcoin lies in the security and decentralization model: Liquid does not rely on Bitcoin’s proof of work, but on a federation of operators (an identified group) that ensures block production and the operation of bridges between BTC and L-BTC.
+
+https://planb.academy/courses/d3ca6943-b22c-4e50-b62d-9431460525bc
+
+### Ark: sharing UTXOs to reduce costs and improve the experience
+
+Ark refers to a family of proposals and implementations aimed at improving Bitcoin’s scalability by grouping many user operations into a reduced number of Bitcoin transactions. The idea is fairly simple: instead of creating one onchain transaction per user, a single onchain transaction is created that represents a batch, and then each participant’s rights evolve mainly offchain, until final settlement on Bitcoin is desired.
+
+This second-layer protocol idea was unveiled by Burak in May 2023. Like the Lightning Network, Ark is a system deployed on top of Bitcoin’s main chain. It would allow bitcoin payments to be made offchain in a fast, anonymous, and low-fee manner. Compared to Lightning, Ark does not require inbound liquidity to receive payments, which significantly improves the user experience. In addition, it provides a level of privacy close to coinjoin transactions. Ark could also be non-interactive if covenants are added to Bitcoin.
+
+Burak often criticizes Lightning’s ability to scale due to its dependence on the main chain and suggests that Ark could theoretically onboard the entire world’s population in self-custody. Even if Ark can be seen as a competing protocol to the Lightning Network, the two can in fact coexist. They could even be complementary.
+
+Ark remains a very active but still young field: the objective is promising (drastically reducing the onchain footprint per user), but it must be kept in mind that this is a more complex architecture, with assumptions and risks different from those of Bitcoin and Lightning.
+
+### RGB: contracts and assets with client-side validation
+
+RGB is a system of smart contracts and assets on Bitcoin that adopts a radically different approach from general-purpose blockchains. Its core idea is client-side validation: instead of publishing the full state of a contract on a global blockchain, participants store and validate locally the histories that matter to them, while the Bitcoin blockchain only serves to anchor cryptographic commitments and prevent double spending.
+
+In other words:
+* the Bitcoin blockchain acts as a timestamping base and a minimal arbiter;
+* detailed data (contract rules, states, transitions) circulate offchain between the relevant parties;
+* verification is done locally, which improves scalability and can enhance privacy, since there is no global registry of all RGB activity visible to everyone.
+
+![image](assets/en/089.webp)
+
+RGB could serve as a foundation for issuing and managing a wide variety of assets: tokens (including stablecoins), NFTs, or digital securities, and even for building more elaborate contract logic, all without burdening the base layer.
+
+The downside is data management: if you must validate on the client side, you must also properly store and back up the data that proves your rights.
+
+RGB is a protocol that has been under development for many years. Progress is gradual, but today there are already concrete applications that make use of RGB. To go further, we offer an expert-level course on Plan ₿ Academy that explores this protocol in depth:
+
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+
+### Taproot Assets: issuing assets on Bitcoin and moving them over Lightning
+
+Taproot Assets (formerly "Taro") is a protocol led by Lightning Labs, which aims to enable the issuance of assets on Bitcoin, with the possibility of transferring them later via the Lightning Network for fast and low-cost exchanges.
+
+It is often cited as a building block in the narrative of "programmable money" on Bitcoin: not because Bitcoin becomes a global computer, but because financial instruments (assets) can be layered on top of the Bitcoin base, and then circulated efficiently via Lightning.
+
+### Bitcoin grows stronger by letting upper layers innovate
+
+Today, the most accurate image of the Bitcoin ecosystem is neither that of a frozen protocol, nor that of a super blockchain that does everything, as with Ethereum. Rather, it is a deliberately conservative foundation, surrounded by layers and protocols that experiment and enable innovation with minimal risk.
 
 
-
-- Core-lightning by Blockstream
-- Eclair by Acinq
-- LND przez uderzenie pioruna
-
-
-Ta sieć peer-to-peer ma na celu ułatwienie mikrotransakcji (o bardzo niskiej wartości), które w przeciwnym razie byłyby niepraktyczne ze względu na wysokie opłaty i długi czas potwierdzenia na Bitcoin Blockchain.
-
-
-### Jakie są przypadki użycia sieci?
-
-
-Technologia ta otwiera drzwi do szerokiej gamy potencjalnych zastosowań Bitcoin, które wcześniej były poza zasięgiem ze względu na niezbędne ograniczenia w celu zapewnienia bezpieczeństwa i decentralizacji Bitcoin. Wśród tych codziennych przypadków użycia możemy wymienić natychmiastowe rozliczenia zarówno w handlu fizycznym, jak i internetowym, strumieniowe przesyłanie pieniędzy w celu dokonywania płatności w czasie rzeczywistym oraz mikrodotacje dla twórców treści. Umożliwiając sieć niemal natychmiastowych, bezpiecznych i tanich transakcji (średnio poniżej 0,5%), można zrealizować wiele wcześniej niewyobrażalnych modeli biznesowych. Jest to możliwe, ponieważ Lightning Network działa przy użyciu satoshi (Sats), najmniejszej jednostki Bitcoin.
-
-
-![image](assets/pl/084.webp)
-
-
-Branża gier wideo oferuje szczególnie interesujący przykład tego, jak Lightning Network może zostać wykorzystany do przekształcenia istniejących modeli biznesowych. Koncepcja "skóry w grze" to idea, która ostatnio zyskała popularność w tym kontekście. Zasadniczo polega ona na posiadaniu finansowego udziału w wyniku gry. W rzeczywistości Lightning Network pozwala graczom obstawiać bardzo małe kwoty podczas grania w gry, takie jak kilka satoshi (około ułamka eurocenta), aby ustalić stawkę, która stymuluje konkurencję, jednocześnie znacznie zwiększając koszty korzystania z botów.
-
-
-![image](assets/pl/085.webp)
-
-
-Podsumowując, przyszłość mikrotransakcji z Bitcoin wygląda obiecująco dzięki innowacjom takim jak Lightning Network. Ponieważ technologie te nadal się rozwijają i dojrzewają, możemy spodziewać się pojawienia się nowych i ekscytujących aplikacji w najbliższej przyszłości.
-
-
-![image](assets/pl/086.webp)
-
-
-Innym przykładem może być "strumieniowanie pieniędzy": za pośrednictwem Lightning Network możemy dokonywać mikrotransakcji co minutę (potencjalnie bez zaufanej strony trzeciej), co otwiera drzwi do eksperymentowania z modelami ekonomicznymi, w których konsumenci płacą za treści w oparciu o ich rzeczywistą konsumpcję. Możliwe jest nawet wykorzystanie tego systemu do wynajmowania towarów. W takim systemie pieniądze są automatycznie dzielone, w oparciu o wcześniej zdefiniowany procent, pomiędzy różnych współtwórców usługi lub produktu. Mogłoby to zrewolucjonizować sposób, w jaki myślimy o modelach płatności: zamiast płacić miesięczny abonament za usługę, użytkownicy mogliby być obciążani za minutę, a nawet za sekundę, za czas spędzony na korzystaniu z usługi. Taki model ekonomiczny mógłby mieć głębokie implikacje dla twórców treści, którzy byliby zachęcani do tworzenia wysokiej jakości treści, aby utrzymać uwagę użytkowników.
-
-
-![image](assets/pl/087.webp)
-
-
-Podsumowując, Lightning Network otwiera wiele ekscytujących przypadków użycia dla użytkowników Bitcoin. Wynikające z tego modele ekonomiczne i możliwości biznesowe są liczne i zróżnicowane, a my zachęcamy do samodzielnego sprawdzenia, wypróbowując aplikację do podcastów [Fountain](https://www.fountain.fm/), która pozwala na otrzymanie nagrody w postaci kilku Sats za słuchanie ulubionych podcastów!
-
-
-## Czerwona czy niebieska pigułka?
-
+## Red Pill or Blue Pill?
 
 <chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
 
+As Morpheus said to Neo: "You take the blue pill, the story ends, you wake up in your bed, and you believe whatever you want to believe. You take the red pill, you stay in Wonderland, and I show you how deep the rabbit hole goes." Are you ready to explore the rabbit hole of Bitcoin? Be careful, as you might rediscover your financial freedom!
 
-Jak powiedział Morfeusz do Neo: "Bierzesz niebieską pigułkę, historia się kończy, budzisz się w swoim łóżku i wierzysz w to, w co chcesz wierzyć. Jeśli weźmiesz czerwoną pigułkę, zostaniesz w Krainie Czarów, a ja pokażę ci, jak głęboko sięga królicza nora" Czy jesteś gotowy na eksplorację króliczej nory Bitcoin? Uważaj, bo możesz na nowo odkryć swoją wolność finansową!
+### Technological future and its implications
 
+Technology is evolving exponentially, and no one can predict its future developments with certainty. World connectivity and artificial intelligence continue to advance, and the knowledge that an individual can acquire through the internet is becoming increasingly immeasurable over time.
 
-### Przyszłość technologiczna i jej implikacje
+If we take AI as an example, these technologies have already surpassed or are approaching human-level performance in a growing number of domains, such as video games, image and text production, and data analysis. One potential implication is that over 80% of jobs will disappear due to AI and automation. As a consequence, several options are available to us, such as restraining technological progress or harnessing the increased capital from productivity gains created by AI.
 
+We have some essential questions to ask ourselves:
 
-Technologia rozwija się wykładniczo i nikt nie może z całą pewnością przewidzieć jej przyszłego rozwoju. Światowa łączność i sztuczna inteligencja wciąż się rozwijają, a wiedza, którą dana osoba może zdobyć za pośrednictwem Internetu, staje się z czasem coraz bardziej niezmierzona.
+- How do we manage a society where 80% of jobs will disappear?
+- How do we revitalize a population?
+- Is there a need for as many teachers?
+- The geopolitical, political, and human consequences of automation are not sufficiently discussed.
+  Computing, the internet, streaming, and VR will change education. We could have a universal course for all French students managed by the government and teachers who no longer give lectures but directly accompany the students. Children could go into a virtual world and be accompanied in learning history.
 
+- Where is the boundary between a teacher and an AI personification?
+- How can we guarantee a society that lives in prosperity?
 
-Jeśli weźmiemy sztuczną inteligencję jako przykład, technologie te już przewyższyły lub zbliżają się do wydajności na poziomie ludzkim w coraz większej liczbie dziedzin, takich jak gry wideo, tworzenie obrazów i tekstów oraz analiza danych. Jedną z potencjalnych implikacji jest to, że ponad 80% miejsc pracy zniknie z powodu sztucznej inteligencji i automatyzacji. W związku z tym mamy do wyboru kilka opcji, takich jak powstrzymanie postępu technologicznego lub wykorzystanie zwiększonego kapitału wynikającego ze wzrostu produktywności stworzonego przez sztuczną inteligencję.
+These fundamental questions for our future must be debated and collectively decided.
+What is the connection with Bitcoin? Just as the Internet revolutionized modes of communication, Bitcoin represents a technological revolution for new forms of large-scale organization, enabling us to exchange value without relying on any trusted third party. Do we want to hinder the technological evolution of the monetary system, or do we wish to embrace the potential for increased capital through the tenfold productivity gains offered by using Bitcoin and Lightning protocols?
 
+### What is the future of finance?
 
-Musimy zadać sobie kilka zasadniczych pytań:
+These considerations also raise questions about who should hold, authorize, and trace the money we use. The goal is to decide between a closed system with unelected leaders or an open system without trusted third parties, where neutrality prevails.
 
+- Is currency a form of private property?
+- Can protesters' accounts be blocked without a Supreme Court order?
+- Who guarantees the financial system?
+- How can an individual be sovereign over their money and rely on a trusted third party?
+- Can money be sent to the other side of the world without fees or intermediaries?
 
+Accepting these new technologies could generate massive economies of scale worldwide. Should we allow the free movement of capital flows? International blockades have economic and political consequences. Is it ethical to use financial intermediaries like Western Union, which sometimes charge up to 25% in fees? We believe that in an increasingly digital world, money should be democratized and considered a common good belonging to the people rather than to the state or to opaque financial institutions.
 
-- Jak zarządzać społeczeństwem, w którym zniknie 80% miejsc pracy?
-- Jak ożywić populację?
-- Czy potrzeba aż tylu nauczycieli?
-- Geopolityczne, polityczne i ludzkie konsekwencje automatyzacji nie zostały wystarczająco omówione.
+The question of who should control the banking system is crucial because the rules of the banking game are not transparent and understandable to all, allowing a caste of politicians and regulators to maintain their grip on the system, so it is important to question whether the free market or a group of intellectuals should have the power over it.
 
-Komputery, Internet, streaming i VR zmienią edukację. Moglibyśmy mieć uniwersalny kurs dla wszystkich francuskich uczniów zarządzany przez rząd i nauczycieli, którzy nie prowadziliby już wykładów, ale bezpośrednio towarzyszyli uczniom. Dzieci mogłyby przenieść się do wirtualnego świata i towarzyszyć w nauce historii.
+### Our freedom is at stake.
 
+Censorship must also be questioned: who has the knowledge to decide what should be censored or not? The media has changed their position on certain information and those who were censored before are no longer censored today.
 
+- Who decides what is censorship or propaganda?
+- Who has the divine hand over our system?
 
-- Gdzie przebiega granica między nauczycielem a personifikacją SI?
-- Jak możemy zagwarantować społeczeństwo żyjące w dobrobycie?
+We strongly believe that tolerating censorship can destroy freedom of expression and the right to assembly, as it can have a negative impact on innovation and free will. Imposing censorship is technically difficult without creating a complete dystopia. Thus, which entity should have the power of censorship? The matter is complicated, and it is also difficult to decide who should be restricted or not.
 
+There are 2.4 billion people in the world without a bank account, which necessarily creates geographical inequalities. On the other hand, Bitcoin grants transactions equality, disregarding your social status or political position. The protocol is apolitical and does not grant specific privileges to leaders or other influential figures, ensuring that everyone has the same opportunities to drive development forward, rather than allowing a few to remain at the top while others are left behind. Should everyone have access to the same currency, regardless of their social status? It is essential to consider the world we want to leave to our children, and we aspire to create an open world where they are free to manage their money as they choose.
 
-Te fundamentalne dla naszej przyszłości pytania muszą zostać przedyskutowane i wspólnie rozstrzygnięte.
+Bitcoin is important and should not be considered just a game of chance, so it is crucial to keep asking questions about Bitcoin and its consequences on the world.
 
-Jaki jest związek z Bitcoin? Podobnie jak Internet zrewolucjonizował sposoby komunikacji, Bitcoin stanowi rewolucję technologiczną dla nowych form organizacji na dużą skalę, umożliwiając nam Exchange wartość bez polegania na jakiejkolwiek zaufanej stronie trzeciej. Czy chcemy powstrzymać technologiczną ewolucję systemu monetarnego, czy też chcemy wykorzystać potencjał zwiększonego kapitału poprzez dziesięciokrotny wzrost produktywności oferowany przez wykorzystanie protokołów Bitcoin i Lightning?
+### Bitcoin: a revolutionary protocol
 
+As we have seen in the previous chapter, the Bitcoin protocol is neutral towards all its users. Thanks to consensus rules and cryptography, we can immutably record transactions in a global public ledger, guaranteeing monetary value transfers without any trusted third party. The second-layer infrastructure (and soon the third layer, with RGB, or "Really Good Bitcoin") is used for network scalability and the development of new functionalities.
 
-### Jaka jest przyszłość finansów?
+Bitcoin has all the necessary characteristics to be an efficient and healthy currency: divisible, instantly transportable, uncensorable, negligible verification costs, and with a monetary policy already set to 21 million units for centuries to come. Bitcoin is pseudonymous and can be exchanged anywhere in the world without any authorization from any entity. You just need to hold your own private keys and remember the saying "Not your keys, not your bitcoins".
 
+It is adopted by diverse groups of people, from cryptographers, to libertarians, to traditional businesses, and even entire countries. However, Bitcoin is for everyone, and as the number of users is growing, so does the number of Bitcoin nodes that serve as guardians of transaction history, ensuring its decentralization.
 
-Rozważania te rodzą również pytania o to, kto powinien przechowywać, autoryzować i śledzić pieniądze, których używamy. Celem jest wybór między zamkniętym systemem z niewybieralnymi liderami a otwartym systemem bez zaufanych stron trzecich, w którym dominuje neutralność.
+Bitcoin cannot be stopped and cannot be censored anymore. It is a peaceful revolution that changes the monetary system and enables financial inclusivity. Users can obtain bitcoins by accepting them for their trade or by buying them through regulated or unregulated platforms. They can store funds in their wallets, mobile applications, or physical devices, without the need of trusted intermediaries. Bitcoin advocates transparency, freedom, and individual responsibility: as the saying goes "Don't Trust, Verify".
 
+Satoshi created Bitcoin in 2008 to propose a change to the financial system by redesigning currency. He viewed easy-to-create fiat as a corruption risk - governments can and do abuse it. Bitcoin is a neutral alternative, emancipating us from banks and sparking a peaceful revolution in how we view money.
 
+Are you ready to join?
 
-- Czy waluta jest formą własności prywatnej?
-- Czy konta protestujących mogą zostać zablokowane bez nakazu Sądu Najwyższego?
-- Kto gwarantuje system finansowy?
-- W jaki sposób jednostka może być suwerenna w kwestii swoich pieniędzy i polegać na zaufanej stronie trzeciej?
-- Czy można wysłać pieniądze na drugi koniec świata bez opłat i pośredników?
-
-
-Przyjęcie tych nowych technologii może generate ogromne korzyści skali na całym świecie. Czy powinniśmy pozwolić na swobodny przepływ kapitału? Międzynarodowe blokady mają konsekwencje ekonomiczne i polityczne. Czy etyczne jest korzystanie z usług pośredników finansowych, takich jak Western Union, którzy czasami pobierają nawet 25% opłat? Uważamy, że w coraz bardziej cyfrowym świecie pieniądze powinny zostać zdemokratyzowane i uznane za dobro wspólne należące do ludzi, a nie do państwa lub nieprzejrzystych instytucji finansowych.
-
-
-Kwestia tego, kto powinien kontrolować system bankowy, jest kluczowa, ponieważ zasady gry bankowej nie są przejrzyste i zrozumiałe dla wszystkich, co pozwala kastom polityków i organów regulacyjnych utrzymać kontrolę nad systemem, dlatego ważne jest, aby zastanowić się, czy wolny rynek czy grupa intelektualistów powinna mieć nad nim władzę.
-
-
-### Stawką jest nasza wolność.
-
-
-Cenzura musi być również kwestionowana: kto ma wiedzę, aby decydować o tym, co powinno być cenzurowane, a co nie? Media zmieniły swoje stanowisko w sprawie niektórych informacji, a te, które wcześniej były cenzurowane, dziś nie są już cenzurowane.
-
-
-
-- Kto decyduje o tym, co jest cenzurą, a co propagandą?
-- Kto ma boską rękę nad naszym systemem?
-
-
-Jesteśmy głęboko przekonani, że tolerowanie cenzury może zniszczyć wolność słowa i prawo do zgromadzeń, ponieważ może mieć negatywny wpływ na innowacje i wolną wolę. Nałożenie cenzury jest technicznie trudne bez stworzenia kompletnej dystopii. W związku z tym, który podmiot powinien mieć uprawnienia cenzorskie? Sprawa jest skomplikowana i trudno jest również zdecydować, kto powinien podlegać ograniczeniom, a kto nie.
-
-
-Na świecie jest 2,4 miliarda ludzi bez konta bankowego, co z konieczności tworzy nierówności geograficzne. Z drugiej strony Bitcoin zapewnia równość transakcji, bez względu na status społeczny czy pozycję polityczną. Protokół jest apolityczny i nie przyznaje szczególnych przywilejów przywódcom ani innym wpływowym postaciom, zapewniając wszystkim takie same możliwości rozwoju, zamiast pozwalać nielicznym pozostać na szczycie, podczas gdy inni pozostają w tyle. Czy wszyscy powinni mieć dostęp do tej samej waluty, niezależnie od ich statusu społecznego? Ważne jest, aby zastanowić się nad światem, który chcemy pozostawić naszym dzieciom, i dążymy do stworzenia otwartego świata, w którym będą mogli swobodnie zarządzać swoimi pieniędzmi według własnego uznania.
-
-
-Bitcoin jest ważny i nie powinien być traktowany jako gra losowa, dlatego ważne jest, aby nadal zadawać pytania dotyczące Bitcoin i jego konsekwencji dla świata.
-
-
-### Bitcoin: rewolucyjny protokół
-
-
-Jak widzieliśmy w poprzednim rozdziale, protokół Bitcoin jest neutralny wobec wszystkich swoich użytkowników. Dzięki zasadom konsensusu i kryptografii możemy niezmiennie rejestrować transakcje w globalnym publicznym Ledger, gwarantując transfery wartości pieniężnych bez żadnej zaufanej strony trzeciej. Infrastruktura drugiego Layer (a wkrótce trzeciego Layer, z RGB, czyli "Really Good Bitcoin") jest wykorzystywana do skalowalności sieci i rozwoju nowych funkcjonalności.
-
-
-Bitcoin ma wszystkie niezbędne cechy, aby być wydajną i zdrową walutą: podzielną, natychmiast transportowalną, nieocenzurowaną, o znikomych kosztach weryfikacji i z polityką pieniężną już ustaloną na 21 milionów jednostek na nadchodzące stulecia. Bitcoin jest pseudonimowa i może być wymieniana w dowolnym miejscu na świecie bez autoryzacji ze strony jakiegokolwiek podmiotu. Wystarczy posiadać własne klucze prywatne i pamiętać o powiedzeniu "Nie twoje klucze, nie twoje bitcoiny".
-
-
-Jest przyjmowany przez różne grupy ludzi, od kryptografów, przez libertarian, po tradycyjne firmy, a nawet całe kraje. Jednak Bitcoin jest dla każdego, a wraz ze wzrostem liczby użytkowników rośnie liczba węzłów Bitcoin, które służą jako strażnicy historii transakcji, zapewniając jej decentralizację.
-
-
-Bitcoin nie można już zatrzymać ani ocenzurować. Jest to pokojowa rewolucja, która zmienia system monetarny i umożliwia integrację finansową. Użytkownicy mogą uzyskać bitcoiny, akceptując je w handlu lub kupując je za pośrednictwem regulowanych lub nieregulowanych platform. Mogą przechowywać środki w swoich portfelach, aplikacjach mobilnych lub urządzeniach fizycznych, bez potrzeby korzystania z zaufanych pośredników. Bitcoin opowiada się za przejrzystością, wolnością i indywidualną odpowiedzialnością: jak mówi powiedzenie "Nie ufaj, weryfikuj".
-
-
-Satoshi stworzył Bitcoin w 2008 roku, aby zaproponować zmianę systemu finansowego poprzez przeprojektowanie waluty. Postrzegał łatwą do stworzenia walutę fiat jako ryzyko korupcji - rządy mogą i nadużywają jej. Bitcoin to neutralna alternatywa, która uwolni nas od banków i zapoczątkuje pokojową rewolucję w postrzeganiu pieniądza.
-
-
-Czy jesteś gotowy, aby dołączyć?
-
-
-# Sekcja końcowa
-
+# Final Section
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-
-## Recenzje i oceny
-
+## Reviews & Ratings
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
-
 <isCourseReview>true</isCourseReview>
 
-## Egzamin końcowy
-
+## Final Exam
 
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
-
 <isCourseExam>true</isCourseExam>
 
-## Wnioski
-
+## Conclusion
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
-
 <isCourseConclusion>true</isCourseConclusion>
+
+
+

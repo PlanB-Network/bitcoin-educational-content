@@ -3910,7 +3910,7 @@ Haciye imyaka ijana, Impinduka y’Abafaransa yarateye imbere n’amafaranga **a
 
 
 
-Napoléon, yari yarakozweko cane n’ico kivurungano, yongeye gushinga inzahabu n’ifeza nk’ishimikiro ry’amahera mu 1800 ashinga Banki y’Ubufaransa, gutyo bikaba vyatumye ingabo ziwe zihembwa ubudasiba. Uburyo bubereye bwo gusubira kwizigira: kwishura mu mafaranga akomeye.
+Napoléon, yashikiwe cane n’ako kavuyo , yociye ashinga inzahabu n’ifeza nk’ishimikiro ry’amahera mu 1800 ashinga Banki y’Ubufaransa, gutyo bikaba vyatumye ingabo ziwe zihembwa ubudasiba. Uburyo bubereye bwo gusubira kwizigira: kwishura mu mafaranga akomeye.
 
 
 
@@ -3918,11 +3918,11 @@ Napoléon, yari yarakozweko cane n’ico kivurungano, yongeye gushinga inzahabu 
 
 
 
-Reka dusimbuke ibinjana bibiri. Inyuma y’Intambara ya Mbere y’Isi Yose, intwaro zarafashije mu gutanga amahera y’ico gikorwa biciye ku gutera imbere kw’ibiciro no ku guhagarika inzahabu. Mu myaka ya 1920, ishirahamwe ry’amahera ry’Amerika ryakurikiye politike y’amahera y’ugushiramwo abantu birenze urugero kugira ngo rishigikire ipawundi y’Ubwongereza. Ico vyavuyemwo: inguzanyo yoroshe, ugushinga intahe ata co bimaze ku Wall Street, ugugura imigabane ku ngurane, be n’uguseruka kw’ubutunzi n’amabanki.
+Reka dusimbuke ibinjana bibiri. Inyuma y’Intambara ya Mbere y’Isi Yose, intwaro zarafashije mu gutanga amahera y’ico gikorwa biciye mu kuduga kw’ibiciro no ku guhagarika inzahabu. Mu myaka ya 1920, ishirahamwe ry’amahera ry’Amerika ryakurikiye politike y’amahera y’ugushiramwo abantu birenze urugero kugira ngo rishigikire livre sterling y’Ubwongereza. Ico vyavuyemwo: inguzanyo yoroshe, ugushinga intahe ata co bimaze ku Wall Street, igura ry'imigabane ku ngurane, be n’uguseruka kw’ubutunzi n’amabanki.
 
 
 
-Igihe iyo mashini yagenda nabi, impanuka yo mu 1929 ntiyari gushobora gukurwaho: amabanki menshi yarasenyutse, ubushomeri bwari bwinshi cane, n’imirongo y’ibikoni vy’isupu. Ivyo vyatumye habaho iciyumviro kitari co gikomeza c’uko **ugusenyuka kw’ibiciro kwose ari kubi**, mu gihe dukeneye gutandukanya ugusenyuka kw’ibiciro biciye mu gukura (ugutera imbere) n’ugusenyuka kw’ibiciro biciye mu myenda (ugusenyuka).
+Igihe iyo mashini yagenda nabi, impanuka yo mu 1929 ntiyari gushobora gukurwaho: amabanki menshi yarasambutse, ubushomeri bwari bwinshi cane, n’imirongo y'abantu bashaka ico bafungura. Ivyo vyatumye habaho iciyumviro kitari co gikomeza c’uko *ugutituka kw’ibiciro kwose ari kubi**, mu gihe dukeneye gutandukanya ugusenyuka kw’ibiciro biciye mu gukura (ugutera imbere) n’ugusenyuka kw’ibiciro biciye mu madeni (ugusenyuka).
 
 
 
@@ -3930,7 +3930,7 @@ Igihe iyo mashini yagenda nabi, impanuka yo mu 1929 ntiyari gushobora gukurwaho:
 
 
 
-Mu myaka ya 1990, "igitangaza ca Aziya" caratumye isi yose irota. Ibiciro vya Exchange vyari bishingiye ku dolari, iterambere ryari kuri 8-10%, kandi umutungo w’Uburengero wariko urasuka. Vyose vyari vyiza... gushika aho umuyaga usubira inyuma. Ivy’ugusenyuka kw’amahera vyarateye imbere cane, amafaranga aragabanywa n’ibice 80 kw’ijana, abashoramari na bo barasenyuka. FMI yategerezwa kwinjiramwo, itegeka ihinduka ribabaje. Ivyo nyene nk’uko vyama: umutungo mwinshi, ibibumbano bigaburirwa n’inguzanyo, hanyuma bikasenyuka.
+Mu myaka ya 1990, "igitangaza ca Aziya(miracle asiatique)" caratumye isi ibitangarira. Ibiciro vya Exchange vyari bishingiye ku dolari, iterambere ryari kuri 8-10%, kandi umutungo w’Uburengero wariko urasuka. Vyose vyari vyiza... gushika aho vyose bihenurwa n'umuyaga. Ivy’isambuka ry’amahera vyarateye biba bibi cane, amahera aragabanywa gushika 80 kw’ijana, abashoramari nabo barahomba. FMI yabwirijwe kuvyinjiramwo, itegeka ihinduka rikomeye cane. Ivyo nyene nk’uko vyama: umutungo mwinshi, ibibumbano bigaburirwa n’inguzanyo, hanyuma bigasambuka.
 
 
 
@@ -3938,19 +3938,19 @@ Mu myaka ya 1990, "igitangaza ca Aziya" caratumye isi yose irota. Ibiciro vya Ex
 
 
 
-Igihe ca Internet (2000) cakurikiwe n’igihe c’ubudandaji bw’amazu n’ibindi. Ivy'ugushiramwo amafaranga vyahinduye inguzanyo za banki zihinduka ibintu vy'ubutunzi "triple-A", bikwiragiye kw'isi yose. Umuhango: gukuraho ingorane mu kuzigabanya. Ukuri: ingorane zose mu vy’ukuri zari zifitaniye isano. Igihe amazu n’ibindi bibanza vyasenyuka, ni ko n’amabanki yose yo kw’isi yose yasenyutse.
+Igihe ca Internet (2000) cakurikiwe n’igihe c’ubudandaji bw’amazu n’ibindi. Ivy'ugushiramwo amahera vyahinduye inguzanyo za banki zihinduka ibintu vy'ubutunzi "triple-A", bikwiragiye kw'isi yose. Umuhango: gukuraho ingorane mu kuzigabanya. Ukuri: ingorane zose mu vy’ukuri zari zifitaniye isano. Igihe amazu n’ibindi bibanza vyasambutse, ni ko n’amabanki yose yo kw’isi yose yasenyutse.
 
 
 
-Ico vyavuyemwo: gufasha abantu benshi, ukworohereza abantu mu buryo bw’ingero n’inyungu zitagira aho zigarukira. Kandi n’ivyo, n’ukwihuta kw’umutwe: ingorane yose ntizosubira gukuraho ibirenze urugero, ahubwo izopfukwa n’imyenda n’ugucapura amahera biguma birushirizaho. Ivyo ni vyo vyatumye haba uko ibintu vyifashe ubu: **"ibibumbano vy'ibintu vyose"**, aho ibintu vyose - amafaranga, amazu, ubuhinga, crypto, mbere n'amakarata ya Pokémon - bivyimba mu buryo bw'ubuhinga.
+Ico vyavuyemwo: gufasha abantu benshi, ukworohereza abantu mu buryo bw’ingero n’inyungu zitagira aho zigarukira. Kandi n’ivyo, n’ukwihuta kw’umutwe: ingorane yose ntizosubira gukuraho ibirenze urugero, ahubwo izopfukwa n’amadeni n’amahera biguma birushirizaho. Ivyo ni vyo vyatumye haba uko ibintu vyifashe ubu: **"everything bubble"**, aho ibintu vyose - amafaranga, amazu, ubuhinga, crypto, mbere n'amakarata ya Pokémon - bivyimba mu buryo bw'ubuhinga.
 
 
 
-### Igaruka ry'ibihe bidahera ry'amahera y'ubupfumu
+### Igaruka ry'ibihe bidahera ry'amahera y'igitangaza
 
 
 
-Kuva mu kinjana kimwe gushika mu kindi, ikintu kimwe kidahinduka kiraseruka: igihe ikibano kigize ukwizera ko gishobora kurema ubutunzi n’amahera aho gutanga ibintu vy’ukuri, haca haseruka ibibumbano. Kuva kuri John Law gushika mu 2008, kuva ku rue Quincampoix gushika kuri Wall Street, iyo nzira irasubiramwo: umunezero, inguzanyo, iterambere, n’ugusenyuka.
+Kuva mu kinjana kimwe gushika mu kindi, iki: igihe ikibano kigize ukwizera ko gishobora kurema ubutunzi n’amahera aho gutanga ibintu vy’ukuri, haca haseruka ibibumbano. Kuva kuri John Law gushika mu 2008, kuva ku rue Quincampoix gushika kuri Wall Street, iyo nzira irasubiramwo: umunezero, inguzanyo, iterambere, n’ugusenyuka.
 
 
 
@@ -3989,17 +3989,17 @@ Aha hariho inkuru nkeyi kumbure twamaze kuvuga mu nyigisho. Bifasha gutanguza ik
 
 
 
-Kugira ngo ntangire iki gice, ngiye kubaha urutonde rugufi kandi rudaheza, kugira ngo mbabutse gusa ibintu kumbure twamaze kuvuga mu nyigisho.
+Kugira ngo ntangire iki gice, ngiye kubaha urutonde rutoyi kandi rutuzuye neza, kugira ngo mbabutse gusa ibintu kumbure twamaze kuvuga mu nyigisho.
 
 
-Ihuriro rimwe nshobora gukorana n’amahera n’ubukazi ni uko iyo bishitse ku mahera y’impapuro ataco amaze ashobora gucapwa ad infinitum, kenshi azana n’ubwoko bwose bw’amategeko n’ubwoko bwose bw’iterabwoba. Turashobora kuvuga ivy’aba assignats, aho vyari vyanditswe neza na neza ku noti ko abahimbanya batera ubwoba ko bazokwicwa. Biroroshe gusanga mu nyandiko z’amategeko z’ico gihe amaterabwoba y’urupfu ku batemeye ayo mahera y’impapuro azwi cane.
+Ihuriro rimwe nshobora gukorana n’amahera n’ubukazi ni uko iyo bishitse ku mahera y’amanoti ataco amaze ashobora gukorwa bimwe bitagira iherezo, kenshi azana n’ubwoko bwose bw’amategeko n’ubwoko bwose bw’iterabwoba. Turashobora kuvuga ivy’aba assignats, aho vyari vyanditswe neza na neza ku noti ko abahimbanya batera ubwoba ko bazokwicwa. Biroroshe gusanga mu nyandiko z’amategeko z’ico gihe amaterabwoba y’urupfu ku batemeye ayo mahera y’impapuro azwi cane.
 
 
 Kugira ngo ngume mu Bufaransa, muri kimwe mu vyanditswe vy'amategeko nashoboye kuronka kuva mu gihe c'Impinduka, nabonye ko "per diem" yo gutwara no gukoresha iyo guillotine yadondowe mu bice bijanye n'amahera. Ivyo nasanze ari zany.
 
 
 
-Twaravuze kandi ku bijanye n’ugukora amafaranga y’ibiceri mu Bushinwa, Leta ikaba ari yo igenzura ivyo gukora amafaranga. Twarabonye mu kigabane co mu ntango y’amashure yuko iyo ibiceri, bimwebimwe muri vyo bikaba bitari vyiza cane, vyatawe, vyagira ingaruka zijanye n’amategeko.
+Twaravuze kandi ku bijanye n’ugukora amahera y’ibiceri mu Bushinwa, Leta ikaba ari yo igenzura ivyo gukora amahera. Twarabonye mu kigabane co mu ntango y’amashure yuko iyo ibiceri, bimwebimwe muri vyo bikaba bitari vyiza cane, vyatawe, vyagira ingaruka zijanye n’amategeko.
 
 
 
@@ -4007,27 +4007,27 @@ Hariho kandi inkuru y'umwami wo mu Bwongereza yarangije aca amaboko y'abacukura 
 
 
 
-Vyongeye, mu Bushinwa, narasomye ivy’ugufata umuringa mu bigo vy’abihaye Imana vy’Ababuda. Mu gihe umuringa wariko uraronka agaciro kandi ugatuma ubutunzi bwabo buhungabana - bwari bushingiye ku buryo bw’amahera y’amahera ataco akora ku gaciro k’icuma - baciye bafata ingingo yo kurondera ahantu hari ubutunzi, maze bafata uwo muringa mu bigo vy’abihaye Imana.
+Vyongeye, mu Bushinwa, narasomye ivy’ugufata umuringa(cuivre) mu bigo vy’abihaye Imana vy’Ababuda. Mu gihe umuringa(cuivre) wariko uraronka agaciro kandi ugatuma ubutunzi bwabo buhungabana - bwari bushingiye ku buryo bw’amahera y’amahera ataco akora ku gaciro k’icuma - baciye bafata ingingo yo kurondera ahantu hari ubutunzi, maze bafata uwo muringa mu bigo vy’abihaye Imana.
 
 
 
-Ivyo ni vyo vyabaye no ku bigo vy’abihaye Imana vyo mu Bwongereza mu gihe c’Ivugurura ry’Abongereza. Igihe uwo mwami rurangiranwa yatongana na Papa kubera ubuhukane bwiwe, hari n’iyindi mvo yari inyuma y’ivyo vyose: yakoresheje akaryo ko gukuraho ibigo vy’abihaye Imana kugira ngo afate ubutunzi buri muri ayo mashirahamwe y’ishengero.
+Ivyo ni vyo vyabaye no ku bigo vy’abihebeye Imana vyo mu Bwongereza mu gihe c’Ivugurura ry’Abongereza. Igihe uwo mwami rurangiranwa yatongana na Papa kubera ukwahukana kwiwe, hari n’iyindi mvo yari inyuma y’ivyo vyose: yakoresheje akaryo ko gukuraho ibigo vy’abihebeye Imana kugira ngo afate ubutunzi buri muri ayo madini.
 
 
 
-Mu gihe c’Impinduka y’Abafaransa, bafata ivy’Ekleziya vyose. Babonye ibiceri vyiza cane vyakozwe mu nkengeri z’amashengero zari zashonze.
+Mu gihe c’Impinduka y’Abafaransa, bafata ivy’Ekleziya vyose. Babonye ibiceri vyiza cane vyakozwe mu nkengeri z’amashengero bari bashongesheje.
 
 
 
-Nitwasubira inyuma mbere n’imbere, kimwe mu vyiyumviro bitomoye cane vy’ubukazi n’umwidegemvyo mu vy’ubutunzi, vy’amategeko yica umwidegemvyo, ni **Dioclétien n’ubwoko bwiwe bw’iragi bwari bufitaniye isano n’uko abarimyi batagishaka kwemera amafaranga yari yacitse agaciro**. Bashaka kuva mu gikorwa cabo c'uburimyi, Dioclétien aca ababwira gusa ati: «Ntimushobora kuva mu gihugu canyu, n'abana banyu ntibashobora». Ivyo nyene ni vyo vyabaye no ku basirikare.
+Nitwasubira inyuma gato, kimwe mu vyiyumviro bitomoye cane vy’ubukazi n’umwidegemvyo mu vy’ubutunzi, vy’amategeko yica umwidegemvyo, ni **Dioclétien n’ubwoko bwiwe bw’iragi bwari bufitaniye isano n’uko abarimyi batagishaka kwemera amafaranga yari yacitse agaciro**. Bashaka kuva mu gikorwa cabo c'uburimyi, Dioclétien aca ababwira gusa ati: «Ntimushobora kuva mu gihugu canyu, n'abana banyu ntibashobora». Ivyo nyene ni vyo vyabaye no ku basirikare.
 
 
 
-Ngira ngo ubwo ni uburyo bwiza cane bw’ubukazi. Nashobora gusozera mvuga ivyerekeye Abatemplaire canke umwami w’Ubufaransa. Igihe aba Knights Templar batura mu Bufaransa, niyumvira ko yabonye manu y’ubutunzi bw’aba Templar kandi yari afise ingorane z’amahera ya Leta. Yaburanishije Ishengero ry’Abatempuliye, bamwe muri bo barashoboye kugenda bafise igice c’iryo tunga, ivyo bikaba vyatumye haba ikiganiro gishimishije cane muri U.S. canke muri Canada. Sinzi uwayisohoye, ariko yitwa *Ibanga ry'Izinga rya Oak*. Ni ivy’abantu biyumvira ko hari ubutunzi bw’Abatempuliye bwahambwe kw’izinga ryo muri Canada, mu bihugu vy’Ikiyaga, kandi bamaze imyaka - kumbure mbere n’imyaka irenga cumi - bacukura kugira ngo bakore iriba ry’ubwoko bumwe. Baronse iriba rifise amabarabara menshi, kandi bariko barondera ubutunzi bwahambwe n’aba Knights Templar kuri iri zinga, ari ryo ry’iki kiganiro ca televiziyo. Ndaramutsa dawe, akaba ari umufana akomeye w’iki kiganiro.
+Ngira ngo ubwo ni uburyo bwiza cane bw’ubukazi. Nashobora gusozera mvuga ivyerekeye Aba templier canke umwami w’Ubufaransa. Igihe aba Knights Templar batura mu Bufaransa, niyumvira ko yabonye manu y’ubutunzi bw’aba Templar kandi yari afise ingorane z’amahera ya Leta. Yaburanishije Ishengero ry’Aba templier, bamwe muri bo barashoboye kugenda bafise igice c’iryo tunga, ivyo bikaba vyatumye haba ikiganiro gishimishije cane muri U.S. canke muri Canada. Sinzi uwayisohoye, ariko yitwa *Ibanga rya Oak island*. Ni ivy’abantu biyumvira ko hari ubutunzi bw’Abatempuliye bwahambwe kw’izinga ryo muri Canada, mu bihugu vy’Ikiyaga, kandi bamaze imyaka - kumbure mbere n’imyaka irenga cumi - bacukura kugira ngo bakore iriba ry’ubwoko bumwe. Baronse iriba rifise amabarabara menshi, kandi bariko barondera ubutunzi bwahambwe n’aba Knights Templar kuri iri zinga, ari ryo ry’iki kiganiro ca televiziyo. Ndaramutsa dawe, akaba ari umufana akomeye w’iki kiganiro.
 
 
 
-Rero aho urafise: urutonde rwihuta cane rw’ibintu twabonye muri iri shure, nibwira ko bivyura isano n’ubukazi. Nzobasiga igice gikurikira kivuye kuri Theo, azotubwira inkuru iryoshe cane yerekeye ihinduka ry’ubuhinga n’uburinganire bw’ububasha hagati y’abanyagihugu n’abategetsi.
+Rero aho urafise: urutonde rwihuta cane rw’ibintu twabonye muri iki cirwa, nibwira ko bivyura isano n’ubukazi. Nzobasiga igice gikurikira kivuye kuri Theo, azotubwira inkuru iryoshe cane yerekeye ihinduka ry’ubuhinga n’uburinganire bw’ububasha hagati y’abanyagihugu n’abategetsi.
 
 
 Murakoze!
@@ -4047,11 +4047,11 @@ Murakoze!
 
 
 
-Umuhinga mu vya kahise Frederic C. Lane atanga iciyumviro gihindura ibintu: ubuhinga bwa Leta mu mateka yose bushingiye ku buhinga bukoreshwa mu gutegura ubukazi. Uhereye ku ngingo ya Weber y’uko Leta ari yo ifise uburenganzira bwo gukora ubukazi bubereye, Lane abona ko ubwo bubasha - buteye akaga kuruta uguhiganwa muri ivyo - butera imbere bivanye n’isano riri hagati y’igiciro co gutera n’igiciro co kwikingira.
+Umuhinga mu vya kahise Frederic C. Lane atanga iciyumviro gihindura ibintu: ubuhinga bwa Leta mu mateka yose bushingiye ku buhinga bukoreshwa mu gutegura ubukazi. Uhereye ku ngingo ya Weber y’uko Leta ari yo ifise uburenganzira bwo gukora ubukazi bubereye, Lane abona ko ubwo bubasha - buteye ingorane kuruta uguhiganwa muri ivyo - butera imbere bivanye n’ubucuti buri hagati y’igiciro co gutera n’igiciro co kwikingira.
 
 
 
-Iryo sesangura, ryafashwe n'abanditsi b'igitabu "The Sovereign Individual" (1997), risigura ihinduka ry'amateka ry'imitunganirize ya politike: kuva ku butegetsi bw'abanyagihugu bo mu kinjana ca mbere gushika ku bisagara-bihugu vy'Ivugurura, hanyuma gushika ku bihugu-bihugu vy'inganda, hanyuma gushika ku bihugu vy'imibereho myiza vy'ubu. Ihinduka ryose rihuye n’iterambere rikomeye ry’ubuhinga mu gukoresha ubukazi, rikaba rishika hafi inyuma y’imyaka 400-500.
+Iryo sesangura, ryafashwe n'abanditsi b'igitabu "The Sovereign Individual" (1997), risigura ihinduka ry'amateka ry'imitunganirize ya politike: kuva ku butegetsi bw'abanyagihugu bo mu kinjana ca mbere gushika ku bisagara-bihugu vy'Ivugurura, hanyuma gushika ku bihugu-bihugu vy'inganda, hanyuma gushika ku bihugu vy'imibereho myiza yo muri ibi bihe vya none. Ihinduka ryose rihuye n’iterambere rikomeye ry’ubuhinga mu gukoresha ubukazi, rikaba rishika hafi inyuma y’imyaka 400-500.
 
 
 
@@ -4063,7 +4063,7 @@ Mu kinjana ca mbere, ubutunzi bw’uburimyi bwari burengeye 90%. Uwo murimyi, mu
 
 
 
-Uwuhingura uburimyi atagendagenda aca aba imbohe y’umunyagikenye w’aho hantu w’ubukazi. Ubushobozi bwiwe bwo gukura imisoro burashika ku rundi rwego - naho, biteye ubwoba, imisoro yo mu kinjana ca mbere iguma ari mikeyi ugereranije n’ibice 78% vy’imisoro y’ingorane mu bihe vya none. Umukama arashobora gutanga umusoro uko ashatse, kuko umurimyi ntashobora kurwanya canke ngo agende.
+Umurimyi atagendagenda aca aba imbohe y’umunyagikenye w’aho hantu w’ubukazi. Ubushobozi bwiwe bwo gukura imisoro burashika ku rundi rwego - naho, biteye ubwoba, imisoro yo mu kinjana ca mbere iguma ari mikeyi ugereranije n’ibice 78% vy’imisoro y’ingorane mu bihe c'ubu. Umukama arashobora gutanga umusoro uko ashatse, kuko umurimyi ntashobora kurwanya canke ngo agende.
 
 
 
@@ -4071,11 +4071,11 @@ Uwuhingura uburimyi atagendagenda aca aba imbohe y’umunyagikenye w’aho hantu
 
 
 
-Igihe ubudandaji bw’Abahansea bwadutse mu Buraruko be n’ubudandaji bw’Ikiyaga Mediterane mu Bumanuko, vyahinduye ibintu. Abacuruzi, abaremyi nyamukuru b’agaciro kongerewe, bari bafise umutungo ugendagenda - ubwato bwabo. Bakeneye gusa ingabo z’ikiyaga zidakomeye cane, kuko ibiyaga vyari bigoye gucungera abapolisi. Ikiruta vyose, boshobora kwimukira ku cambu kiri hafi bitagoranye iyo imisoro irenze urugero.
+Igihe ubudandaji bw’Aba hanséatique bwadutse mu Buraruko be n’ubudandaji bw’Ikiyaga méditerrané mu Bumanuko, vyahinduye ibintu. Abacuruzi, abaremyi nyamukuru b’agaciro kongerewe, bari bafise umutungo ugendagenda - ubwato bwabo. Bakeneye gusa ingabo z’ikiyaga zidakomeye cane, kuko ibiyaga vyari bigoye gucungera abapolisi. Ikiruta vyose, boshobora kwimukira ku cambu kiri hafi bitagoranye iyo imisoro irenze urugero.
 
 
 
-Ukwo kwimuka kwatumye haba uguhiganwa kw’imisoro hagati y’ibisagara n’ibihugu. Venise, Genova na Bruges vyategerezwa gutanga uburyo bwo kwidegemvya kuruta ubundi bwose: amasezerano yizigirwa, amahera meza, ubwishingizi, imisoro mikeyi. Abaganwa bategerezwa guhendahenda aho guhatira. Ivyo bihuye birahinduka: kwikingira (biciye mu guhunga) biraca vyoroha kuruta gutera.
+Ukwo kwimuka kwatumye haba uguhiganwa kw'amakori hagati y’ibisagara n’ibihugu. Venise, Genova na Bruges vyategerezwa gutanga uburyo bwo kwidegemvya kuruta ubundi bwose: amasezerano yizigirwa, amafaranga meza, ubwishingizi, amakori make. Abaganwa bategerezwa guhendahenda aho guhatira. Ivyo bihuye birahinduka: kwikingira (biciye mu guhunga) biraca vyoroha kuruta gutera.
 
 
 
@@ -4083,11 +4083,11 @@ Ukwo kwimuka kwatumye haba uguhiganwa kw’imisoro hagati y’ibisagara n’ibih
 
 
 
-Impinduka y’inganda yazanye imiterere isa n’iy’ubufeodalisme. Amahinguriro, amabarabara y’igariyamoshi n’imirongo y’iteraniro bigereranya ishoramari ryinshi cane, ritagira aho rigarukira. Henry Ford ntiyashoboye kwimurira ibiterwa vyiwe mu kindi gihugu kubera yari afise imisoro. Abakozi, bibanda ku bisagara vy’inganda, barahurikiye hamwe kugira ngo bavugane hamwe aho kwimuka umwumwe wese ku giti ciwe.
+Impinduka y’inganda yazanye imiterere isa n’iy’ubu féodalisme. Amahinguriro, amabarabara y’igariyamoshi n’imirongo y’iteraniro bigereranya ishoramari ryinshi cane, ritagira aho rigarukira. Henry Ford ntiyashoboye kwimurira ibiterwa vyiwe mu kindi gihugu kubera amakori basabwa kuriha. Abakozi, bibanda ku bisagara vy’inganda, barahurikiye hamwe kugira ngo bavugane hamwe aho kwimuka umwumwe wese ku giti ciwe.
 
 
 
-"Leta y'imibereho myiza" yaradutse: igenamigambi ry'inganda (Ubuyapani, Koreya), ugukingira ibikorwa remezo mu gisirikare, inyungu ntoyi cane ku bakozi. Intambara ya kabiri y’isi yose yerekanye iyo nzira y’uguhungabana: gutera ibisasu amahinguriro y’abansi ni vyo vyacitse ubuhinga buhambaye. Ukwibanda ku mutungo w’umubiri vyatumye habaho ugukura imisoro myinshi kugira ngo Leta y’imibereho myiza ishobore gufashwa.
+"Leta y'imibereho myiza" yaradutse: igenamigambi ry'inganda (Ubuyapani, Koreya), ugukingira ibikorwa remezo mu gisirikare, inyungu ntoyi cane ku bakozi. Intambara ya kabiri y’isi yose yerekanye iyo nzira y’uguhungabana: gutera ibisasu amahinguriro y’abansi ni vyo vyacitse ubuhinga buhambaye. Ukwibanda ku mutungo ugaragara vyatumye habaho ugukura amakori meshi kugira ngo Leta y’imibereho myiza ishobore gufashwa.
 
 
 
@@ -4095,7 +4095,7 @@ Impinduka y’inganda yazanye imiterere isa n’iy’ubufeodalisme. Amahinguriro
 
 
 
-Ibintu bitatu bishasha vy’ubuhinga ubu biriko birahungabanya izo nzira z’uburinganire za kera. Ico gikoresho kiriko kirahindura intambara: umukozi wo muri Nevada atwara indege idakoreshwa n’abantu muri Afghanistan afise ubuhinga bwo kubaga. Intambara yo mu Kiyaga ca Gulf (1991) yerekanye iyo nzira: ingabo za kane kw’isi (Iraki) zarimbuwe mu misi 45, abantu batarenga 200 bapfuye ku ruhande rw’ibihugu vy’ubumwe. Ubuhinga bwa none bwatumye igitero co imbere kidashoboka.
+Ibintu bitatu bishasha vy’ubuhinga ubu biriko birahungabanya izo nzira z’uburinganire za kera. Ico gikoresho kiriko kirahindura intambara: umukozi wo muri Nevada atwara indege idakoreshwa n’abantu muri Afghanistan afise ubuhinga bwo kubaga. Intambara yo mu Kiyaga ca Gulf (1991) yerekanye iyo nzira: ingabo za kane kw’isi (Iraki) zarimbuwe mu misi 45, abantu batarenga 200 bapfuye ku ruhande rw’ibihugu vy’ubumwe. Ubuhinga bwa none bwatumye ibitero imbona nkubone bidashoboka.
 
 
 
@@ -4111,15 +4111,15 @@ Bitcoin igereranya iherezo ry’iyo nzira y’ubwenge: amafaranga abohowe na Let
 
 
 
-Ibihugu vy’uburengero vy’imibereho myiza, vyagenewe ikiringo c’inganda, biriko biracika ibishaje. Abarema agaciro - abaterambere, abahinga mu vy’ubuhinga bw’amasanamu, abatanga amafaranga - bariko bimukira muri Singapore, Dubai canke El Salvador, bahitamwo ibikorwa vya Leta bikeyi kugira ngo bashobore gutanga imisoro mikeyi. Ibigo bikomeye vyo muri iki gihe nka Apple na Tether ntibikeneye ibiro canke ibikorwa remezo vy’umubiri.
+Ibihugu vy’uburengero vy’imibereho myiza, vyagenewe ikiringo c’inganda, biriko biracika ibishaje. Abarema agaciro - abaterambere, abahinga mu vy’ubuhinga bw’amasanamu, abatanga amahera - bariko bimukira muri Singapore, Dubai canke El Salvador, bahitamwo ibikorwa vya Leta bikeyi kugira ngo bashobore gutanga imisoro mikeyi. Ibigo bikomeye vyo muri iki gihe nka Apple na Tether ntibikeneye ibiro canke ibikorwa remezo vy’umubiri.
 
 
 
-Ukwo guhunga kw’ubwonko gutuma haba uruzitiro: abatanga amahera y’urusenga bagaba bake, ibikorwa vya Leta birasenyuka, imisoro yongerekana ku baguma, n’ugusohoka vyihuta. Leta zitegerezwa kugabanya cane canke zigasenyuka. Guca ibice mu bihugu bitobito, bifise amahiganwa - uburyo bushasha bw’ibisagara-bihugu vy’ubuhinga bwa none - bisa n’ibidashobora gukurwaho.
+Ukwo guhunga kw’ubwonko gutuma haba uruzitiro: abatanga amahera y’urusenga bagaba bake, ibikorwa vya Leta birasenyuka, imisoro yongerekana ku baguma, n’ugusohoka vyihuta. Leta zitegerezwa kugabanya cane canke zigasambuka. Guca ibice mu bihugu bitobito, bifise amahiganwa - uburyo bushasha bw’ibisagara-bihugu vy’ubuhinga bwa none - bisa n’ibidashobora gukurwaho.
 
 
 
-Amateka atwigisha ko izo mpinduka zifata amayaruka. Ariko ugutandukanya amafaranga n’igihugu kwa Bitcoin kwoshobora kwihutisha iyo nzira. Abantu ubu batora n’ibirenge vyabo n’ibipapuro vyabo vy’ubuhinga bwa none, bagasubira gucapura ikarita y’ububasha bwo kw’isi yose ku mirongo turiko turatangura gutahura.
+Amateka atwigisha ko izo mpinduka zifata amayaruka. Ariko ugutandukanya amahera n’igihugu kwa Bitcoin kwoshobora kwihutisha iyo nzira. Abantu ubu batora n’ibirenge vyabo n’ibipapuro vyabo vy’ubuhinga bwa none, bagasubira gucapura ikarita y’ububasha bwo kw’isi yose ku mirongo turiko turatangura gutahura.
 
 
 
@@ -4131,7 +4131,7 @@ Amateka atwigisha ko izo mpinduka zifata amayaruka. Ariko ugutandukanya amafaran
 
 :::video id=fdfabbc6-e4d8-463a-8522-19176f8fb460:::
 
-Dukurikije iyi nkuru y’amateka y’amahera, idushikana gushika ku bijanye n’ubuhinga bwa fiat, noshima gusigura ningoga kandi mu buryo butomoye ukuntu amahera yateye imbere vyatumye amaherezo haba Leta y’imibereho myiza. Mu ntango, mu bihe vy’Abaroma, twari dufise ibiceri.
+Dukurikije iyi nkuru y’amateka y’amafaranga, idushikana gushika ku bijanye n’ubuhinga bwa fiat(amahera afatiye kukwizigira), noshima gusigura ningoga kandi mu buryo butomoye ukuntu amahera yateye imbere vyatumye amaherezo haba Leta y’imibereho myiza. Mu ntango, mu bihe vy’Abaroma, twari dufise ibiceri.
 
 
 
@@ -4143,7 +4143,7 @@ Ibiceri vyari ubuhinga bwo mu vy’amahera bwatuma ubwami bushobora guhemba abas
 
 
 
-Hanyuma haza ikinyejana ca mbere, aho hariho iterambere rito cane gushika kuri Florin, ryagarukanye amafaranga ahamye, n’iterambere ry’amabanki mu Butaliyano no muri Anvers, aho iciyumviro c’“agaciro k’amahera mu gihe” cateye imbere - mu yandi majambo, ugugabanya amafaranga. Baciye batera imbere mu gugabanya amafaranga kugira ngo bareme uburyo bw'amahera y'impapuro aho "ikete ry'isezerano" ryasohorwa, ni ukuvuga umuhango w'uko mu nyuma umuntu yoshobora gusubirana amadolari 100 yongeweko inyungu.
+Hanyuma haza ikinyejana ca mbere, aho hariho iterambere rito cane gushika kuri Florin(amahera), ryagarukanye amafaranga ashikamye, n’iterambere ry’amabanki mu Butaliyano no muri Anvers, aho iciyumviro c’“agaciro k’amahera mu gihe” cateye imbere - mu yandi majambo, ugugabanya amahera. Baciye batera imbere mu gugabanya amafaranga kugira ngo bareme uburyo bw'amahera y'impapuro aho "ikete ry'isezerano" ryasohorwa, ni ukuvuga umuhango w'uko mu nyuma umuntu yoshobora gusubirana amadolari 100 yongeweko inyungu.
 
 
 Uwo murongo wararemye ubuhinga bw’ivy’amahera butuma uwufise iyo note ashobora kugurisha iyo noti imbere y’uko igihe c’ikiringo kirangira, rero iyo uyigurishije inyuma y’amezi 4 mu kiringo c’amezi 6, uwo muntu azotanga mu vy’ukuri amahera y’imbere kugira ngo yishure umusaruro yatakaje mu mezi 2 asigaye.
@@ -4153,7 +4153,7 @@ Uwo murongo wararemye ubuhinga bw’ivy’amahera butuma uwufise iyo note ashobo
 Ni ubuhinga bwo gukoresha amahera bwateguwe i Anvers n’i Amsterdam ico gihe. Mu nyuma, twabonye ukuntu amabanki akomeye yateye imbere be n’iciyumviro c’uko uwugurisha ari we azoba uwuherutse gukoreshwa. Birashoboka ko mu gihe ca Banki ya Amsterdam , gukoresha ibiceri mu bucuruzi mpuzamakungu vyahebwe kugira ngo hakoreshwe amahera yo mu Vyanditswe.
 
 
-Mu nyuma, mu kinjana ca 18, ku bijanye n’ubuhinga bwo mu vy’amahera, turashobora kuvuga ivyerekeye ubwishingizi. Hariho rero inkuru ivugwa neza cane mu gitabu ca Neil Ferguson "Ukuduga kw'amahera". Ishirahamwe rya mbere ry’ubwishingizi ryavutse ryitwa **Scottish Widowss**, kandi mu vy’ukuri, abakuru b’idini ni bo bashaka gutegura ubwishingizi bw’abapadiri rimwe na rimwe bapfa imbere, bagapfa giturumbuka. Abakuru b’idini, ico gihe, bariko bararera abagore babo n’uruvyaro rwabo muri Écosse mu kiringo c’umwaka wose. Kandi rero abakuru b’idini basanze ico kiringo c’umwaka umwe kumbure ari kigufi cane gatoyi. Ivyo vyatumye **bahingura imibare y’ubuhinga bwa actuarial** kugira ngo baharure vy’ukuri umubare w’abatanga amahera bakenewe kugira ngo iyo nzira ishobore kwishura ivyo yakoresheje, bivanye n’umubare w’abaherezi bapfuye imbere y’igihe.
+Mu nyuma, mu kinjana ca 18, ku bijanye n’ubuhinga bwo mu vy’amahera, turashobora kuvuga ivyerekeye ubwishingizi. Hariho rero inkuru ivugwa neza cane mu gitabu ca Neil Ferguson "The Ascent of Mone". Ishirahamwe rya mbere ry’ubwishingizi ryavutse ryitwa **Scottish Widowss**, kandi mu vy’ukuri, abakuru b’idini ni bo bashaka gutegura ubwishingizi bw’abapadiri rimwe na rimwe bapfa imbere, bagapfa giturumbuka. Abakuru b’idini, ico gihe, bariko bararera abagore babo n’uruvyaro rwabo muri Écosse mu kiringo c’umwaka wose. Kandi rero abakuru b’idini basanze ico kiringo c’umwaka umwe kumbure ari kigufi cane gatoyi. Ivyo vyatumye **bahingura imibare y’ubuhinga bwa actuarial** kugira ngo baharure vy’ukuri umubare w’abatanga amahera bakenewe kugira ngo iyo nzira ishobore kwishura ivyo yakoresheje, bivanye n’umubare w’abaherezi bapfuye imbere y’igihe.
 
 
 
@@ -4201,23 +4201,23 @@ Rero mbona ko bishoboka ko nayo ikoreshwa n’abantu ku giti cabo. Ariko ivyo na
 
 
 
-Iciyumviro nashaka gutanga ni uko iciyumviro c’ubwishingizi ari imbere ya vyose ugutera imbere kw’ivy’ubutunzi, kandi nk’uko rimwe na rimwe intwaro zishobora kubikora neza cane, zizogerageza kubifata, nk’uko zagerageje gufata amahera, kubera imvo zitari nke. Imvo imwe, n’aho yoba, ni iciyumviro c’uko uwugurisha ari we azoba ari we azoba uwuherutse gutorera umuti.
+Iciyumviro nashaka gutanga ni uko iciyumviro c’ubwishingizi ari imbere ya vyose ugutera imbere kw’ivy’ubutunzi, kandi nk’uko rimwe na rimwe intwaro zishobora kubikora neza cane, zizogerageza kubifata, nk’uko zagerageje gufata amafaranga, kubera imvo zitari nke. Imvo imwe, n’aho yoba, ni iciyumviro c’uko uwugurisha ari we azoba ari we azoba uwuherutse gutorera umuti.
 
 
 
-Iciyumviro ni uko ari vyiza cane iyo hariho ikigo kinini kiri inyuma yaco gitanga ingorane cane. Uwo ni wo wari umugambi wa mbere wari inyuma y’iciyumviro c’umuguzi w’inyuma, aho ico kigo coshobora mu vy’ukuri guhitamwo inzego zikomeye zihagije kugira ngo zibeho no kuzibuza gusenyuka mu kuziguriza amahera.
+Iciyumviro ni uko ari vyiza cane iyo hariho ikigo kinini kiri inyuma yaco gitanga ingorane cane. Uwo ni wo wari umugambi wa mbere wari inyuma y’iciyumviro c’umuguzi w’inyuma, aho ico kigo coshobora mu vy’ukuri guhitamwo inzego zikomeye zihagije kugira ngo zibeho no kuzibuza gusambuka mu kuziguriza amahera.
 
 
 
-Iciyo gihe, hariho isesengura nyaryo igihe ico ciyumviro caheza kigaseruka ku ncuro ya mbere, ariko icahejeje kuba ni uko dukiza umuntu wese, "too big to fail", bireba hafi amabanki yose kuko hariho centralisation, kandi n'amashirahamwe manini manini yose. Mu mpera, turabona ko ari iciyumviro gikoreshwa "muri rusangi" na Leta, gisa n'iciyumviro c'ubwishingizi n'ubu nyene ndabadondora.
+Iciyo gihe, hariho isesengura nyaryo igihe ico ciyumviro caheza kivuka ku ncuro ya mbere, ariko icahejeje kuba ni uko dukiza umuntu wese, "too big to fail", bireba hafi amabanki yose kuko hariho centralisation, kandi n'amashirahamwe manini manini yose. Mu mpera, turabona ko ari iciyumviro gikoreshwa "muri rusangi" na Leta, gisa n'iciyumviro c'ubwishingizi n'ubu nyene ndabadondora.
 
 
 
-Amaherezo, Leta ifata ingingo y’uko izokwitwararika vyose, igahindura ubuhinga bw’ivy’ubutunzi bwaremwe muri Ecosse kugira ngo butorere umuti ingorane yihariye, bube Leta nini y’imibereho myiza tuzi uno musi. Ikoresha ingingo ngenderwako z’ivy’ubutunzi kugira ngo itange ibikorwa ku banyagihugu bayo bakeneye. Ariko rero, turashobora kwemera ko ubutegetsi bw’abantu buva muri iyo nzira butera ingorane z’ubwoko bwose, ivyo ubu turiko turabibona mu bihugu nka Canada n’Ubufaransa. Igishimishije ni uko hariho uburyo butandukanye, nk’ubwo mu Busuwisi.
+Amaherezo, Leta ifata ingingo y’uko izokwitwararika vyose, igahindura ubuhinga bw’ivy’ubutunzi bwaremwe muri Ecosse kugira ngo butorere umuti ingorane yihariye, bube Leta nini y’imibereho myiza tuzi muri ibi bihe vya none. Ikoresha ingingo ngenderwako z’ivy’ubutunzi kugira ngo itange ibikorwa ku banyagihugu bayo bakeneye. Ariko rero, turashobora kwemera ko ubutegetsi bw’abantu buva muri iyo nzira butera ingorane z’ubwoko bwose, ivyo ubu turiko turabibona mu bihugu nka Canada n’Ubufaransa. Igishimishije ni uko hariho uburyo butandukanye, nk’ubwo mu Busuwisi.
 
 
 
-Tubwirizwa gusa gutahura ko ico ciyumviro ca Leta y’imibereho myiza kiva mu vy’amahera. Ukwo gutahura gutuma dushobora gutohoza izindi nzira zitari izo Leta zizwi cane, kandi noshobora no gukoresha iyo nzira ku ciyumviro c’uko amabanki akomeye ari yo atanga inguzanyo - ariko ivyo ni ikiganiro c’ikindi gihe.
+Tubwirizwa gusa gutahura ko ico ciyumviro ca Leta y’imibereho myiza kiva mu vy’amafaranga. Ukwo gutahura gutuma dushobora gutohoza izindi nzira zitari izo Leta zizwi cane, kandi noshobora no gukoresha iyo nzira ku ciyumviro c’uko amabanki akomeye ari yo atanga inguzanyo - ariko ivyo n'ikindi kiganiro.
 
 
 

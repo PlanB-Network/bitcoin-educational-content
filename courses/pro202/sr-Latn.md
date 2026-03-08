@@ -17,6 +17,7 @@ Ovaj intenzivni dvodnevni kurs, koji vodi Jimmy Song, vodi vas duboko u tehničk
 
 Uživaj u putovanju!
 
+Napomena: Video snimci za ovaj kurs dostupni su samo na engleskom jeziku.
 
 +++
 

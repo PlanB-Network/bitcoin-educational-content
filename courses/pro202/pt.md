@@ -17,6 +17,7 @@ Este curso intensivo de dois dias, ministrado por Jimmy Song, leva-o a aprofunda
 
 Boa viagem!
 
+Nota: Os vídeos deste curso estão disponíveis apenas em inglês.
 
 +++
 

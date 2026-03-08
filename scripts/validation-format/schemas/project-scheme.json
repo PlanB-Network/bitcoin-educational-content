@@ -1,0 +1,190 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "project-scheme",
+  "description": "Schema for project (non-community-builder) content in the PlanB Network repository.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the project (UUID format).",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+    },
+    "name": {
+      "type": "string",
+      "description": "Project's complete name."
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "wallet", "Wallet",
+        "infrastructure", "Infrastructure",
+        "exchange", "Exchange",
+        "education", "Education",
+        "service", "Service",
+        "conference", "Conference",
+        "privacy", "Privacy",
+        "investment", "Investment",
+        "node", "Node",
+        "mining", "Mining",
+        "news", "News",
+        "manufacturer", "Manufacturer",
+        "communities", "Communities",
+        "merchant", "Merchant",
+        "payment", "Payment"
+      ],
+      "description": "Define project category. Only specific categories are allowed."
+    },
+    "licence": {
+      "type": "string",
+      "description": "License type for the project content (e.g., CC-BY-SA-V4)."
+    },
+    "language": {
+      "type": ["string", "array"],
+      "description": "Primary language(s) of the project."
+    },
+    "links": {
+      "type": ["object", "array"],
+      "properties": {
+        "website": {
+          "type": ["string", "null"],
+          "description": "URL of the project's website."
+        },
+        "twitter": {
+          "type": ["string", "null"],
+          "description": "URL of the project's Twitter profile."
+        },
+        "github": {
+          "type": ["string", "null"],
+          "description": "URL of the project's Github profile."
+        },
+        "Github": {
+          "type": ["string", "null"],
+          "description": "URL of the project's Github profile (alternate casing)."
+        },
+        "youtube": {
+          "type": ["string", "null"],
+          "description": "URL of the project's YouTube channel."
+        },
+        "nostr": {
+          "type": ["string", "null"],
+          "description": "Nostr public key or NIP-05 identifier."
+        },
+        "Nostr": {
+          "type": ["string", "null"],
+          "description": "Nostr public key or NIP-05 identifier (alternate casing)."
+        },
+        "nost": {
+          "type": ["string", "null"],
+          "description": "Nostr public key (typo variant)."
+        },
+        "instagram": {
+          "type": ["string", "null"],
+          "description": "URL of the project's Instagram profile."
+        },
+        "linkedin": {
+          "type": ["string", "null"],
+          "description": "URL of the project's LinkedIn profile."
+        },
+        "tags": {
+          "type": "array",
+          "description": "Tags associated with links.",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "tags": {
+      "type": "array",
+      "description": "List of associated tags to the project.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "original_language": {
+      "type": ["string", "array"],
+      "description": "ISO 639-1 language code of the original content language."
+    },
+    "proofreading": {
+      "type": "array",
+      "description": "Proofreading metadata for each language translation. Must include at least the original language.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "language": {
+            "type": "string",
+            "description": "ISO 639-1 language code for this translation.",
+            "pattern": "^[a-z]{2}(-[A-Za-z]{2,4})?$"
+          },
+          "last_contribution_date": {
+            "type": ["string", "null"],
+            "description": "Date of last contribution in YYYY-MM-DD format.",
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+          },
+          "urgency": {
+            "type": ["integer", "null"],
+            "description": "Urgency level for proofreading (1-5).",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "contributor_names": {
+            "type": ["array", "null"],
+            "description": "List of contributor usernames for this translation.",
+            "items": {
+              "type": "string"
+            }
+          },
+          "reward": {
+            "type": ["number", "null"],
+            "description": "Reward amount for proofreading this translation."
+          }
+        },
+        "required": ["language"],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "contributor_names": {
+      "type": "array",
+      "description": "List of all contributor usernames for this project.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "address_line_1": {
+      "type": ["string", "null"],
+      "description": "First line of physical address (for physical locations)."
+    },
+    "address_line_2": {
+      "type": ["string", "null"],
+      "description": "Second line of physical address."
+    },
+    "address_line_3": {
+      "type": ["string", "null"],
+      "description": "Third line of physical address."
+    },
+    "address_city_country": {
+      "type": ["string", "null"],
+      "description": "City and country of physical address."
+    }
+  },
+  "assets_rules": {
+    "description": "Required image assets for project content.",
+    "files": [
+      {
+        "path": "assets/logo.webp",
+        "required": true,
+        "format": "WebP",
+        "dimensions": {
+          "aspect_ratio": "1:1",
+          "recommended": "800x800 pixels"
+        },
+        "description": "Project logo"
+      }
+    ]
+  },
+  "required": ["id", "name", "category", "links", "original_language", "proofreading"],
+  "additionalProperties": false
+}

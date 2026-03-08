@@ -1,487 +1,715 @@
 ---
 name: COLDCARD Q
-description: Setting up and using a COLDCARD Q
+description: Thiết lập và sử dụng COLDCARD Q
 ---
 ![cover](assets/cover.webp)
 
-A hardware wallet is an electronic device dedicated to managing and securing the private keys of a Bitcoin wallet. Unlike software wallets (or hot wallets) installed on general-purpose machines often connected to the Internet, hardware wallets enable private keys to be physically isolated, reducing the risk of piracy and theft.
 
-The main objective of a hardware wallet is to reduce the device's functionality as much as possible in order to minimize its attack surface. Less attack surface also means fewer potential attack vectors, i.e. fewer weak points in the system that attackers could exploit to gain access to bitcoins.
+Thiết bị wallet phần cứng là một thiết bị điện tử chuyên dụng để quản lý và bảo mật các khóa riêng của Bitcoin wallet. Không giống như các wallet phần mềm (hoặc wallet nóng) được cài đặt trên các máy tính đa năng thường được kết nối với Internet, wallet phần cứng cho phép cách ly vật lý các khóa riêng, giảm nguy cơ bị đánh cắp và xâm phạm.
 
-It's advisable to use a hardware wallet to secure your bitcoins, especially if you hold large quantities, either in absolute value or as a proportion of your total assets.
 
-Hardware wallets are used in conjunction with wallet management software on a computer or smartphone. The latter manages the creation of transactions, but the cryptographic signature required to make these transactions valid is performed solely within the hardware wallet. This means that private keys are never exposed to a potentially vulnerable environment.
+Mục tiêu chính của phần cứng wallet là giảm thiểu chức năng của thiết bị xuống mức tối thiểu để giảm thiểu bề mặt tấn công. Bề mặt tấn công ít hơn cũng có nghĩa là ít vectơ tấn công tiềm tàng hơn, tức là ít điểm yếu hơn trong hệ thống mà kẻ tấn công có thể khai thác để truy cập vào bitcoin.
 
-Hardware wallets offer double protection for the user: on the one hand, they secure your bitcoins against remote attacks by keeping the private keys offline, and on the other, they generally offer greater physical resistance to attempts to extract the keys. And it is precisely on these 2 security criteria that we can judge and classify the different models on the market.
 
-In this tutorial, I'd like to introduce you to one such solution: the **COLDCARD Q**.
+Bạn nên sử dụng thiết bị bảo mật phần cứng wallet để bảo vệ bitcoin của mình, đặc biệt nếu bạn nắm giữ số lượng lớn, cả về giá trị tuyệt đối lẫn tỷ lệ so với tổng tài sản.
+
+
+Các thiết bị wallet phần cứng được sử dụng kết hợp với phần mềm quản lý wallet trên máy tính hoặc điện thoại thông minh. Phần mềm này quản lý việc tạo giao dịch, nhưng chữ ký mã hóa cần thiết để làm cho các giao dịch này hợp lệ chỉ được thực hiện bên trong thiết bị wallet phần cứng. Điều này có nghĩa là khóa riêng tư không bao giờ bị lộ ra môi trường có khả năng dễ bị tấn công.
+
+
+Các thiết bị wallet phần cứng cung cấp khả năng bảo vệ kép cho người dùng: một mặt, chúng bảo vệ bitcoin của bạn khỏi các cuộc tấn công từ xa bằng cách giữ các khóa riêng tư ngoại tuyến, và mặt khác, chúng thường có khả năng chống chịu vật lý tốt hơn đối với các nỗ lực trích xuất khóa. Và chính dựa trên 2 tiêu chí bảo mật này mà chúng ta có thể đánh giá và phân loại các mẫu khác nhau trên thị trường.
+
+
+Trong hướng dẫn này, tôi muốn giới thiệu với bạn một giải pháp như vậy: **COLDCARD Q**.
+
 
 ---
-As the COLDCARD Q offers a multitude of functions, I propose to divide its use into 2 tutorials. In this first tutorial, we'll look at the initial configuration and basic functions of the device. Then, in a second tutorial, we'll look at how to take advantage of all your COLDCARD's advanced options.
+Vì COLDCARD Q cung cấp rất nhiều chức năng, tôi đề xuất chia việc sử dụng nó thành 2 bài hướng dẫn. Trong bài hướng dẫn đầu tiên này, chúng ta sẽ xem xét cấu hình ban đầu và các chức năng cơ bản của thiết bị. Sau đó, trong bài hướng dẫn thứ hai, chúng ta sẽ xem xét cách tận dụng tất cả các tùy chọn nâng cao của COLDCARD.
+
 
 https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 ---
-## Introducing COLDCARD Q
-
-The COLDCARD Q is a Bitcoin-only hardware wallet developed by Canadian company Coinkite, known for its previous MK models. The Q represents their most advanced product to date, and is positioned as the ultimate Bitcoin hardware wallet.
-
-In terms of hardware, the COLDCARD Q is equipped with all the features required for an optimal user experience:
+## Giới thiệu COLDCARD Q
 
 
-- A large LCD display simplifies navigation and operation;
-- A full QWERTY keyboard;
-- Integrated camera for scanning QR codes;
-- Two microSD card slots ;
-- A fully isolated power option via three AAA batteries (not included), or via a USB-C cable ;
-- Two Secure Elements from two different manufacturers for added security;
-- The ability to communicate via NFC.
+COLDCARD Q là một thiết bị phần cứng wallet chỉ dành cho Bitcoin, được phát triển bởi công ty Coinkite của Canada, nổi tiếng với các mẫu MK trước đó. Q đại diện cho sản phẩm tiên tiến nhất của họ cho đến nay, và được định vị là thiết bị phần cứng wallet tối ưu nhất dành cho Bitcoin.
 
-In my opinion, the COLDCARD Q has only two drawbacks. Firstly, because of its many features, it's quite bulky, measuring almost 13 cm long and 8 cm wide, which is almost the size of a small smartphone. It's also rather thick because of the battery compartment. If you're looking for a smaller, more mobile hardware wallet, the much more compact MK4 might be a better option. The second drawback is obviously the cost of the device, which is priced at **$239.99** on the official website, i.e. $72 more than the MK4, which puts the Q in direct competition with premium hardware wallets like the Ledger Flex or Foundation's Passport.
+
+Về phần cứng, COLDCARD Q được trang bị đầy đủ các tính năng cần thiết để mang lại trải nghiệm người dùng tối ưu:
+
+
+
+
+- Màn hình LCD lớn giúp việc điều hướng và vận hành trở nên dễ dàng hơn;
+- Bàn phím QWERTY đầy đủ;
+- Tích hợp camera để quét mã QR;
+- Hai khe cắm thẻ nhớ microSD;
+- Có thể sử dụng nguồn điện hoàn toàn độc lập thông qua ba pin AAA (không kèm theo) hoặc qua cáp USB-C;
+- Hai thiết bị Secure Elements từ hai nhà sản xuất khác nhau để tăng cường bảo mật;
+- Khả năng giao tiếp thông qua NFC.
+
+
+Theo tôi, COLDCARD Q chỉ có hai nhược điểm. Thứ nhất, do có nhiều tính năng, nó khá cồng kềnh, dài gần 13 cm và rộng 8 cm, gần bằng kích thước của một chiếc điện thoại thông minh nhỏ. Nó cũng khá dày do khoang chứa pin. Nếu bạn đang tìm kiếm một thiết bị wallet nhỏ gọn và dễ mang theo hơn, thì MK4 nhỏ gọn hơn nhiều có thể là lựa chọn tốt hơn. Nhược điểm thứ hai rõ ràng là giá thành của thiết bị, được bán với giá **239,99 đô la** trên trang web chính thức, tức là đắt hơn 72 đô la so với MK4, điều này khiến COLDCARD Q cạnh tranh trực tiếp với các thiết bị wallet cao cấp như Ledger Flex hoặc Passport của Foundation.
+
 
 ![CCQ](assets/fr/001.webp)
 
-On the software side, the COLDCARD Q is as well equipped as Coinkite's other devices, with a host of advanced features:
+
+Về phần mềm, COLDCARD Q được trang bị đầy đủ như các thiết bị khác của Coinkite, với hàng loạt tính năng tiên tiến:
 
 
-- Dice Roll to generate your own recovery phrase ;
-- PIN code ;
-- Countdown to final PIN lock ;
+
+
+- Tung xúc xắc để tạo ra cụm từ phục hồi của riêng bạn;
+- Mã PIN;
+- Đếm ngược đến khi khóa mã PIN cuối cùng;
 - BIP39 passphrase ;
-- Final locking PIN ;
-- Connection countdown ;
+- Mã PIN khóa cuối cùng;
+- Đếm ngược thời gian kết nối;
 - SeedXOR;
 - BIP85...
 
-In short, the COLDCARD Q offers an improved user experience over the MK4, and may be ideal for intermediate to advanced users looking for greater ease of use.
 
-The COLDCARD Q is available for sale [on the official Coinkite website](https://store.coinkite.com/store/coldcard). It can also be purchased from a retailer.
+Tóm lại, COLDCARD Q mang đến trải nghiệm người dùng được cải thiện so với MK4, và có thể là lựa chọn lý tưởng cho người dùng từ trình độ trung cấp đến nâng cao đang tìm kiếm sự dễ sử dụng hơn.
 
-## Preparing the tutorial
 
-Once you've received your COLDCARD, the first step is to inspect the packaging to make sure it hasn't been opened. If the packaging is damaged, this may indicate that the hardware wallet has been compromised and may not be genuine.
+Mẫu COLDCARD Q hiện đang được bán [trên trang web chính thức của Coinkite](https://store.coinkite.com/store/coldcard). Sản phẩm cũng có thể được mua từ các nhà bán lẻ.
+
+
+## Chuẩn bị bài hướng dẫn
+
+
+Sau khi nhận được COLDCARD, bước đầu tiên là kiểm tra bao bì để đảm bảo nó chưa bị mở. Nếu bao bì bị hư hỏng, điều này có thể cho thấy phần cứng wallet đã bị xâm phạm và có thể không phải là hàng chính hãng.
+
 
 ![CCQ](assets/fr/002.webp)
 
-When you open the box, you should find the following items:
+
+Khi mở hộp, bạn sẽ thấy những vật dụng sau:
 
 
-- The COLDCARD Q in a sealed bag;
-- A card to record your mnemonic phrase.
+
+
+- Chiếc COLDCARD Q được đựng trong một túi kín;
+- Một tấm thẻ để ghi lại cụm từ ghi nhớ của bạn.
+
 
 ![CCQ](assets/fr/003.webp)
 
-Make sure the bag has not been unsealed or damaged. Also check that the number on your bag matches the number on the paper inside the bag. Keep this number for future reference.
+
+Hãy đảm bảo túi chưa bị mở hoặc hư hỏng. Đồng thời kiểm tra xem số trên túi của bạn có trùng khớp với số trên tờ giấy bên trong túi hay không. Giữ lại số này để tham khảo trong tương lai.
+
 
 ![CCQ](assets/fr/004.webp)
 
-If you prefer to power your COLDCARD without connecting it to a computer (air-gap), insert three AAA batteries into the back of the device. Alternatively, you can connect it to your computer via a USB-C cable.
+
+Nếu bạn muốn cấp nguồn cho COLDCARD mà không cần kết nối với máy tính (chế độ không dây), hãy lắp ba pin AAA vào mặt sau của thiết bị. Hoặc, bạn có thể kết nối nó với máy tính thông qua cáp USB-C.
+
 
 ![CCQ](assets/fr/005.webp)
 
-For this tutorial, you'll also need Sparrow Wallet to manage your Bitcoin wallet on your computer. Download [Sparrow Wallet](https://sparrowwallet.com/download/) from the official website. I strongly advise you to check both its authenticity (with GnuPG) and integrity (via hash) before proceeding with the installation. If you don't know how to do this, follow this tutorial:
+
+Để thực hiện hướng dẫn này, bạn cũng cần Sparrow và Wallet để quản lý Bitcoin và wallet trên máy tính của mình. Tải xuống [Sparrow Wallet](https://sparrowwallet.com/download/) từ trang web chính thức. Tôi khuyên bạn nên kiểm tra cả tính xác thực (với GnuPG) và tính toàn vẹn (thông qua hash) trước khi tiến hành cài đặt. Nếu bạn không biết cách làm, hãy làm theo hướng dẫn này:
+
 
 https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
-## PIN code selection
+## Lựa chọn mã PIN
 
-You can now switch on your COLDCARD by pressing the button in the top left-hand corner.
+
+Giờ bạn có thể bật COLDCARD bằng cách nhấn nút ở góc trên bên trái.
+
 
 ![CCQ](assets/fr/006.webp)
 
-Press the "*ENTER*" button to accept the terms of use.
+
+Nhấn nút "*ENTER*" để chấp nhận điều khoản sử dụng.
+
 
 ![CCQ](assets/fr/007.webp)
 
-Your COLDCARD Q will then display a number at the top of the screen. Make sure this number matches the one on the sealed bag and on the piece of plastic inside the bag. This ensures that your package has not been opened between the time it was packaged by Coinkite and the time you opened it. Press "*ENTER*" to continue.
+
+Máy COLDCARD Q của bạn sẽ hiển thị một dãy số ở đầu màn hình. Hãy đảm bảo dãy số này trùng khớp với dãy số trên bao bì niêm phong và trên miếng nhựa bên trong bao bì. Điều này đảm bảo rằng gói hàng của bạn chưa bị mở ra kể từ khi được đóng gói bởi Coinkite cho đến khi bạn mở nó. Nhấn "*ENTER*" để tiếp tục.
+
 
 ![CCQ](assets/fr/008.webp)
 
-Navigate to the "*Choose PIN Code*" menu and confirm with the "*ENTER*" button.
+
+Điều hướng đến menu "*Chọn mã PIN*" và xác nhận bằng nút "*ENTER*".
+
 
 ![CCQ](assets/fr/009.webp)
 
-This PIN code is used to unlock your COLDCARD. It is therefore a protection against unauthorized physical access. This PIN code is not involved in the derivation of your wallet's cryptographic keys. So, even without access to this PIN code, possession of your mnemonic phrase will enable you to regain access to your bitcoins.
 
-COLDCARD PIN codes are divided into two parts: a prefix and a suffix, each of which can contain between 2 and 6 digits, for a total of 4 to 12 digits. When you unlock your COLDCARD, you'll first need to enter the prefix, after which the device will show you 2 words. Then enter the suffix. These two words will be given to you during this configuration step, and should be carefully saved, as you'll need them every time you unlock your COLDCARD. If the two words displayed during unlocking match those you saved during configuration, this will confirm that your device has not been compromised since its last use.
+Mã PIN này được sử dụng để mở khóa COLDCARD của bạn. Do đó, nó là một biện pháp bảo vệ chống lại việc truy cập vật lý trái phép. Mã PIN này không liên quan đến việc tạo ra các khóa mã hóa của wallet. Vì vậy, ngay cả khi không có mã PIN này, việc sở hữu cụm từ ghi nhớ sẽ cho phép bạn lấy lại quyền truy cập vào bitcoin của mình.
 
-Click again on "*Choose PIN*"
+
+Mã PIN của COLDCARD được chia thành hai phần: tiền tố và hậu tố, mỗi phần có thể chứa từ 2 đến 6 chữ số, tổng cộng từ 4 đến 12 chữ số. Khi mở khóa COLDCARD, trước tiên bạn cần nhập tiền tố, sau đó thiết bị sẽ hiển thị cho bạn 2 từ. Tiếp theo, nhập hậu tố. Hai từ này sẽ được cung cấp cho bạn trong bước cấu hình này và bạn nên lưu giữ cẩn thận, vì bạn sẽ cần chúng mỗi khi mở khóa COLDCARD. Nếu hai từ hiển thị trong quá trình mở khóa trùng khớp với những từ bạn đã lưu trong quá trình cấu hình, điều này sẽ xác nhận rằng thiết bị của bạn chưa bị xâm phạm kể từ lần sử dụng cuối cùng.
+
+
+Nhấp chuột lại vào "*Chọn mã PIN*"
+
 
 ![CCQ](assets/fr/010.webp)
 
-Confirm that you have read the warnings.
+
+Hãy xác nhận rằng bạn đã đọc các cảnh báo.
+
 
 ![CCQ](assets/fr/011.webp)
 
-You will now choose your PIN code. We recommend a long, random PIN code. Make sure you keep this code in a different place from where your COLDCARD is stored. You can use the card supplied in your parcel to record this code.
 
-Enter the prefix of your choice, then press the "*ENTER*" button to confirm the first part of the PIN code.
+Bây giờ bạn sẽ chọn mã PIN của mình. Chúng tôi khuyên bạn nên chọn một mã PIN dài và ngẫu nhiên. Hãy chắc chắn rằng bạn giữ mã này ở một nơi khác với nơi bạn cất giữ thẻ COLDCARD. Bạn có thể sử dụng thẻ được cung cấp trong gói hàng để ghi lại mã này.
+
+
+Nhập tiền tố bạn chọn, sau đó nhấn nút "ENTER" để xác nhận phần đầu tiên của mã PIN.
+
 
 ![CCQ](assets/fr/012.webp)
 
-The two anti-phishing words will then be displayed on your screen. Save them carefully for future reference. You can use the card included in your package to write them down.
+
+Hai từ chống lừa đảo sẽ được hiển thị trên màn hình của bạn. Hãy lưu giữ chúng cẩn thận để tham khảo sau này. Bạn có thể sử dụng thẻ có sẵn trong gói hàng để ghi lại chúng.
+
 
 ![CCQ](assets/fr/013.webp)
 
-Then enter the second part of your PIN code and press "*ENTER*".
+
+Sau đó nhập phần thứ hai của mã PIN và nhấn "ENTER".
+
 
 ![CCQ](assets/fr/014.webp)
 
-Confirm your PIN by entering it a second time, checking that the two anti-phishing words match those you saved earlier.
+
+Xác nhận mã PIN của bạn bằng cách nhập lại lần thứ hai, kiểm tra xem hai từ chống lừa đảo có khớp với những từ bạn đã lưu trước đó hay không.
+
 
 ![CCQ](assets/fr/015.webp)
 
-From now on, each time you unlock your COLDCARD, remember to check the validity of the two anti-phishing words that appear on the screen after you enter your PIN code prefix.
 
-## Firmware update
+Từ nay trở đi, mỗi lần mở khóa COLDCARD, hãy nhớ kiểm tra tính hợp lệ của hai từ chống lừa đảo xuất hiện trên màn hình sau khi bạn nhập mã PIN.
 
-When using your device for the first time, it is important to check and update the firmware. To do this, access the "*Advanced/Tools*" menu.
+
+## Cập nhật phần mềm
+
+
+Khi sử dụng thiết bị lần đầu tiên, điều quan trọng là phải kiểm tra và cập nhật phần mềm. Để làm điều này, hãy truy cập vào menu "*Nâng cao/Công cụ*".
+
 
 ![CCQ](assets/fr/016.webp)
 
-**Important:** If you are planning to upgrade your firmware and this is not your first time using COLDCARD (i.e. you already have a wallet created on COLDCARD), make sure you have your mnemonic phrase and that it is functional (as well as the optional passphrase, if applicable). This is important to avoid losing your bitcoins in the event of a problem during the device update.
 
-Select "*Upgrade Firmware*".
+**Quan trọng:** Nếu bạn đang có kế hoạch nâng cấp firmware và đây không phải là lần đầu tiên bạn sử dụng COLDCARD (tức là bạn đã tạo wallet trên COLDCARD), hãy đảm bảo rằng bạn có cụm từ ghi nhớ (mnemonic phrase) và nó hoạt động bình thường (cũng như passphrase tùy chọn, nếu có). Điều này rất quan trọng để tránh mất bitcoin trong trường hợp xảy ra sự cố trong quá trình cập nhật thiết bị.
+
+
+Chọn "*Nâng cấp phần mềm*".
+
 
 ![CCQ](assets/fr/017.webp)
 
-Select "*Show Version*".
+
+Chọn "*Hiển thị phiên bản*".
+
 
 ![CCQ](assets/fr/018.webp)
 
-You can check the current firmware version of your COLDCARD. For example, in my case, the version is "*1.2.3Q*".
+
+Bạn có thể kiểm tra phiên bản firmware hiện tại của COLDCARD. Ví dụ, trong trường hợp của tôi, phiên bản là "*1.2.3Q*".
+
 
 ![CCQ](assets/fr/019.webp)
 
-Check [on the official COLDCARD website](https://coldcard.com/downloads) to see if a newer version is available. Click on "*Download*" to download the new firmware.
+
+Hãy kiểm tra [trên trang web chính thức của COLDCARD](https://coldcard.com/downloads) để xem có phiên bản mới hơn không. Nhấp vào "*Tải xuống*" để tải xuống phần mềm mới.
+
 
 ![CCQ](assets/fr/020.webp)
 
-At this point, we strongly recommend checking the integrity and authenticity of the downloaded firmware. To do this, download [the document containing the hashes of all versions, signed by the developers](https://raw.githubusercontent.com/Coldcard/firmware/master/releases/signatures.txt), verify the signature with [the developer's public key](https://keybase.io/dochex), and make sure that the hash indicated in the signed document matches that of the firmware downloaded from the site. If everything is correct, you can proceed with the update.
 
-If you are not familiar with this verification process, I recommend you follow this tutorial:
+Tại bước này, chúng tôi đặc biệt khuyến nghị kiểm tra tính toàn vẹn và tính xác thực của firmware đã tải xuống. Để làm điều này, hãy tải xuống [tài liệu chứa thông tin về tất cả các phiên bản hash, được ký bởi các nhà phát triển](https://raw.githubusercontent.com/Coldcard/firmware/master/releases/signatures.txt), xác minh chữ ký bằng [khóa công khai của nhà phát triển](https://keybase.io/dochex), và đảm bảo rằng hash được chỉ định trong tài liệu đã ký khớp với firmware đã tải xuống từ trang web. Nếu mọi thứ đều chính xác, bạn có thể tiến hành cập nhật.
+
+
+Nếu bạn chưa quen với quy trình xác minh này, tôi khuyên bạn nên làm theo hướng dẫn sau:
+
 
 https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
-Take a microSD card and transfer the firmware file (document in `.dfu`) to it. Insert the microSD card into one of your COLDCARD's ports.
+Lấy một thẻ nhớ microSD và chuyển tập tin firmware (tài liệu có định dạng `.dfu`) vào đó. Lắp thẻ nhớ microSD vào một trong các cổng của COLDCARD.
+
 
 ![CCQ](assets/fr/021.webp)
 
-Then, in the firmware update menu, select "*From MicroSD*".
+
+Tiếp theo, trong menu cập nhật phần mềm, chọn "*Từ thẻ MicroSD*".
+
 
 ![CCQ](assets/fr/022.webp)
 
-Select the file corresponding to the firmware.
+
+Chọn tập tin tương ứng với phần mềm firmware.
+
 
 ![CCQ](assets/fr/023.webp)
 
-Confirm your selection by pressing the "*ENTER*" button.
+
+Xác nhận lựa chọn của bạn bằng cách nhấn nút "*ENTER*".
+
 
 ![CCQ](assets/fr/024.webp)
 
-Please wait while the firmware is updated.
+
+Vui lòng chờ trong khi quá trình cập nhật phần mềm đang diễn ra.
+
 
 ![CCQ](assets/fr/025.webp)
 
-Once the update is complete, enter your PIN code to unlock the device.
+
+Sau khi quá trình cập nhật hoàn tất, hãy nhập mã PIN để mở khóa thiết bị.
+
 
 ![CCQ](assets/fr/026.webp)
 
-Your firmware is now up to date.
 
-## COLDCARD Q parameters
+Phần mềm của bạn đã được cập nhật lên phiên bản mới nhất.
 
-If you wish, you can explore your COLDCARD's settings by accessing the "*Settings*" menu.
+
+## Thông số COLDCARD Q
+
+
+Nếu muốn, bạn có thể xem các cài đặt của COLDCARD bằng cách truy cập menu "*Cài đặt*".
+
 
 ![CCQ](assets/fr/027.webp)
 
-In this menu, you'll find various customization options, such as setting the screen brightness or selecting the default unit of measurement.
+
+Trong menu này, bạn sẽ tìm thấy nhiều tùy chọn tùy chỉnh khác nhau, chẳng hạn như điều chỉnh độ sáng màn hình hoặc chọn đơn vị đo mặc định.
+
 
 ![CCQ](assets/fr/028.webp)
 
-We'll look at other advanced settings in the next tutorial:
+
+Chúng ta sẽ xem xét các cài đặt nâng cao khác trong bài hướng dẫn tiếp theo:
+
 
 https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
-## Creating a Bitcoin wallet
-
-Now it's time to generate a new Bitcoin wallet! To do this, you need to create a mnemonic phrase. On Coldcard, you have three methods for generating this phrase:
+## Tạo Bitcoin wallet
 
 
-- Use only the internal random number generator (TRNG);
-- Use a combination of TRNG and dice rolling to add entropy;
-- Use dice rolls only.
+Giờ là lúc tạo Bitcoin wallet mới! Để làm điều này, bạn cần tạo một cụm từ ghi nhớ. Trên Coldcard, bạn có ba phương pháp để tạo cụm từ này:
 
-**For beginners and intermediate users, we recommend using only the COLDCARD's internal random number generator**
 
-I don't recommend the dice-only option, as poor execution can lead to a sentence with insufficient entropy, jeopardizing the security of your wallet.
 
-However, the best option is surely the second, which combines the use of TRNG with an external entropy source. This method guarantees a minimum entropy equivalent to that of TRNG alone, and adds an extra level of security in the event of a possible failure of the internal generator (voluntary or not). By choosing this option, which combines TRNG and dice rolling, you benefit from greater control over the generation of the sentence, without increasing the risks in the event of poor execution on your part.
 
-Click on "*New Seed Words*".
+- Chỉ sử dụng bộ tạo số ngẫu nhiên nội bộ (TRNG);
+- Sử dụng kết hợp giữa thuật toán tạo số ngẫu nhiên thực (TRNG) và tung xúc xắc để tăng độ ngẫu nhiên;
+- Chỉ sử dụng xúc xắc để tung.
+
+
+**Đối với người mới bắt đầu và người dùng trung cấp, chúng tôi khuyên bạn chỉ nên sử dụng bộ tạo số ngẫu nhiên tích hợp sẵn của COLDCARD.**
+
+
+Tôi không khuyến khích phương án chỉ dùng xúc xắc, vì thao tác kém có thể dẫn đến câu có độ nhiễu loạn không đủ, gây nguy hiểm cho tính bảo mật của wallet của bạn.
+
+
+Tuy nhiên, lựa chọn tốt nhất chắc chắn là phương án thứ hai, kết hợp việc sử dụng TRNG với một nguồn entropy bên ngoài. Phương pháp này đảm bảo mức entropy tối thiểu tương đương với chỉ sử dụng TRNG, và bổ sung thêm một lớp bảo mật trong trường hợp bộ tạo entropy nội bộ gặp sự cố (cố ý hoặc không). Bằng cách chọn phương án này, kết hợp giữa TRNG và tung xúc xắc, bạn sẽ có được quyền kiểm soát tốt hơn đối với việc tạo ra câu, mà không làm tăng rủi ro trong trường hợp thực hiện không tốt.
+
+
+Nhấp vào "*Từ khóa hạt giống mới*".
+
 
 ![CCQ](assets/fr/029.webp)
 
-You can choose the length of your sentence. I recommend that you opt for a 12-word sentence, as it's less complex to manage and offers no less portfolio security than a 24-word sentence.
+
+Bạn có thể chọn độ dài câu của mình. Tôi khuyên bạn nên chọn câu 12 từ, vì nó ít phức tạp hơn để quản lý và cung cấp mức độ bảo mật wallet không kém gì câu 24 từ.
+
 
 ![CCQ](assets/fr/030.webp)
 
-The COLDCARD will then display your TRNG-generated recovery phrase. If you wish to add additional external entropy, press the "*4*" key.
+
+COLDCARD sau đó sẽ hiển thị cụm từ khôi phục do TRNG tạo ra. Nếu bạn muốn thêm entropy bên ngoài, hãy nhấn phím "*4*".
+
 
 ![CCQ](assets/fr/031.webp)
 
-This will take you to a page where you can add entropy by rolling the dice. Make as many throws as possible (a minimum of 50 is recommended, but less is not a big deal as you're already benefiting from the entropy of the TRNG), and record the results with the "*1*" to "*6*" keys. When finished, press "*ENTER*" to confirm.
+
+Thao tác này sẽ đưa bạn đến một trang nơi bạn có thể tăng độ ngẫu nhiên bằng cách tung xúc xắc. Hãy tung càng nhiều lần càng tốt (khuyến nghị tối thiểu 50 lần, nhưng ít hơn cũng không sao vì bạn đã được hưởng lợi từ độ ngẫu nhiên của bộ tạo số ngẫu nhiên thực sự), và ghi lại kết quả bằng các phím từ "*1*" đến "*6*". Khi hoàn tất, nhấn "*ENTER*" để xác nhận.
+
 
 ![CCQ](assets/fr/032.webp)
 
-A new mnemonic phrase will be displayed, based on the entropy you've just provided and that of the TRNG.
 
-**Warning: This mnemonic gives full, unrestricted access to all your bitcoins**. Anyone in possession of this phrase can steal your funds, even without physical access to your COLDCARD. The 12-word phrase restores access to your bitcoins in the event of loss, theft or breakage of your COLDCARD. It is therefore very important to save it carefully and store it in a secure place.
+Một cụm từ ghi nhớ mới sẽ được hiển thị, dựa trên độ nhiễu loạn mà bạn vừa cung cấp và độ nhiễu loạn của TRNG.
 
-You can write it down on the cardboard supplied with your COLDCARD, or for added security, I recommend that you engrave it on a stainless steel support to protect it from the risk of fire, flood or collapse. In any case, never save it on a digital medium, otherwise you could lose your bitcoins.
 
-Write down the words provided on the screen on the physical medium of your choice. Depending on your security strategy, you may consider making several complete physical copies of the sentence (but above all, don't split it up). It's important to keep the words numbered and in sequential order.
+**Cảnh báo: Cụm từ này cho phép truy cập hoàn toàn không hạn chế vào tất cả bitcoin của bạn.** Bất kỳ ai sở hữu cụm từ này đều có thể đánh cắp tiền của bạn, ngay cả khi không có quyền truy cập vật lý vào COLDCARD của bạn. Cụm từ 12 từ này sẽ khôi phục quyền truy cập vào bitcoin của bạn trong trường hợp bị mất, bị đánh cắp hoặc bị hỏng COLDCARD. Do đó, điều rất quan trọng là phải lưu giữ nó cẩn thận và cất giữ ở một nơi an toàn.
 
-Obviously, **you must never share these words** on the Internet, unlike in this tutorial. This sample portfolio will be used only on Testnet and will be deleted at the end of the tutorial.
 
-After writing down the words, press "*ENTER*".
+Bạn có thể viết nó lên tấm bìa cứng được cung cấp kèm theo COLDCARD của bạn, hoặc để tăng cường bảo mật, tôi khuyên bạn nên khắc nó lên một vật liệu bằng thép không gỉ để bảo vệ nó khỏi nguy cơ cháy, lũ lụt hoặc sụp đổ. Trong mọi trường hợp, đừng bao giờ lưu nó trên bất kỳ phương tiện kỹ thuật số nào, nếu không bạn có thể mất bitcoin của mình.
+
+
+Hãy ghi lại những từ hiển thị trên màn hình vào phương tiện vật lý mà bạn lựa chọn. Tùy thuộc vào chiến lược bảo mật của bạn, bạn có thể cân nhắc tạo một vài bản sao vật lý hoàn chỉnh của câu (nhưng trên hết, đừng chia nhỏ nó ra). Điều quan trọng là phải đánh số các từ và giữ chúng theo thứ tự liên tiếp.
+
+
+Rõ ràng, **bạn tuyệt đối không được chia sẻ những từ ngữ này** trên Internet, không giống như trong hướng dẫn này. Mẫu wallet này sẽ chỉ được sử dụng trên Testnet và sẽ bị xóa khi kết thúc hướng dẫn.
+
+
+Sau khi viết xong các từ, hãy nhấn "ENTER".
+
 
 ![CCQ](assets/fr/033.webp)
 
-To make sure you've saved your phrase correctly, the system will ask you to confirm certain words. Select the number corresponding to each word on the keypad.
+
+Để đảm bảo bạn đã lưu cụm từ chính xác, hệ thống sẽ yêu cầu bạn xác nhận một số từ nhất định. Chọn số tương ứng với mỗi từ trên bàn phím.
+
 
 ![CCQ](assets/fr/034.webp)
 
-Your wallet is now created! In the top right-hand corner of the screen, you can see your master private key fingerprint. Press "*ENTER*".
+
+Thiết bị wallet của bạn đã được tạo! Ở góc trên bên phải màn hình, bạn sẽ thấy dấu vân tay khóa riêng chính của mình. Nhấn "*ENTER*".
+
 
 ![CCQ](assets/fr/035.webp)
 
-You now access your COLDCARD's main menu.
+
+Bạn đã truy cập vào menu chính của COLDCARD.
+
 
 ![CCQ](assets/fr/036.webp)
 
-## Setting up a new portfolio on Sparrow
 
-There are several options for establishing communication between the Sparrow Wallet software and your COLDCARD. The most straightforward is to use a USB-C cable. However, by default, your COLDCARD has cable and NFC communications disabled. To reactivate them, navigate to "*Settings*", then "*Hardware On/Off*", and activate the desired communication option.
+## Thiết lập wallet mới trên Sparrow
+
+
+Có một số tùy chọn để thiết lập kết nối giữa phần mềm Sparrow Wallet và COLDCARD của bạn. Cách đơn giản nhất là sử dụng cáp USB-C. Tuy nhiên, theo mặc định, COLDCARD của bạn đã tắt chức năng kết nối cáp và NFC. Để kích hoạt lại chúng, hãy vào "*Cài đặt*", sau đó "*Bật/Tắt phần cứng*", và kích hoạt tùy chọn kết nối mong muốn.
+
 
 ![CCQ](assets/fr/037.webp)
 
-If you prefer to keep your COLDCARD totally isolated from your computer, you can opt for indirect "air-gap" communication, using QR codes or a microSD card. This is the method we'll be using in this tutorial.
 
-Go to "*Advanced/Tools*".
+Nếu bạn muốn giữ COLDCARD hoàn toàn tách biệt khỏi máy tính, bạn có thể chọn phương thức giao tiếp "không kết nối mạng" gián tiếp, sử dụng mã QR hoặc thẻ nhớ microSD. Đây là phương pháp chúng ta sẽ sử dụng trong hướng dẫn này.
+
+
+Vào mục "*Nâng cao/Công cụ*".
+
 
 ![CCQ](assets/fr/038.webp)
 
-Select "*Export Wallet*".
+
+Chọn "*Xuất Wallet*".
+
 
 ![CCQ](assets/fr/039.webp)
 
-Then select "*Sparrow Wallet*".
+
+Sau đó chọn "*Sparrow Wallet*".
+
 
 ![CCQ](assets/fr/040.webp)
 
-Press "*ENTER*" to generate the configuration file.
+
+Nhấn phím "*ENTER*" để tạo tệp cấu hình.
+
 
 ![CCQ](assets/fr/041.webp)
 
-Then choose how to send this file to Sparrow. In this example, I've inserted a microSD in slot "*A*", so I'll select the "*1*" button. You can also display the information as a QR code on your COLDCARD screen by pressing the "*QR*" button, and scan this QR code with your computer's webcam.
+
+Sau đó, hãy chọn cách gửi tệp này đến Sparrow. Trong ví dụ này, tôi đã lắp thẻ microSD vào khe "*A*", vì vậy tôi sẽ chọn nút "*1*". Bạn cũng có thể hiển thị thông tin dưới dạng mã QR trên màn hình COLDCARD bằng cách nhấn nút "*QR*" và quét mã QR này bằng webcam của máy tính.
+
 
 ![CCQ](assets/fr/042.webp)
 
-Launch Sparrow Wallet and skip the introductory pages to reach the main screen. Make sure you are correctly connected to a node by checking the switch at the bottom right of the screen.
+
+Khởi chạy Sparrow Wallet và bỏ qua các trang giới thiệu để đến màn hình chính. Hãy chắc chắn rằng bạn đã kết nối đúng cách với một nút bằng cách kiểm tra công tắc ở góc dưới bên phải màn hình.
+
 
 ![CCQ](assets/fr/043.webp)
 
-It's strongly recommended that you use your own Bitcoin node. For this tutorial, I'm using a public node (yellow), as I'm on the testnet, but for production use, it's best to use Bitcoin Core locally (green) or an Electrum server on a remote node (blue).
 
-Access the "*File*" menu and select "*New Wallet*".
+Bạn nên sử dụng node Bitcoin của riêng mình. Trong hướng dẫn này, tôi đang sử dụng một node công cộng (màu vàng) vì tôi đang ở trên mạng thử nghiệm, nhưng để sử dụng trong môi trường sản xuất, tốt nhất nên sử dụng Bitcoin Core cục bộ (màu xanh lá cây) hoặc máy chủ Electrum trên một node từ xa (màu xanh lam).
+
+
+Truy cập menu "*Tệp*" và chọn "*Wallet mới*".
+
 
 ![CCQ](assets/fr/044.webp)
 
-Name your wallet and click on "*Create Wallet*".
+
+Đặt tên cho wallet của bạn và nhấp vào "*Tạo Wallet*".
+
 
 ![CCQ](assets/fr/045.webp)
 
-In the "*Script Type*" drop-down menu, choose the type of script that will secure your bitcoins.
+
+Trong menu thả xuống "*Loại kịch bản*", hãy chọn loại script sẽ bảo mật bitcoin của bạn.
+
 
 ![CCQ](assets/fr/046.webp)
 
-Click on "*Airgapped Hardware Wallet*".
+
+Nhấp vào "*Airgapped Hardware Wallet*".
+
 
 ![CCQ](assets/fr/047.webp)
 
-Under the "*Coldcard*" tab, click on "*Scan...*" if you plan to scan the QR code displayed on your COLDCARD, or "*Import File...*" to import the file from the microSD (this is the `.json` file).
+
+Trong tab "*Coldcard*", hãy nhấp vào "*Scan...*" nếu bạn định quét mã QR hiển thị trên COLDCARD, hoặc "*Import File...*" để nhập tệp từ microSD (đây là tệp `.json`).
+
 
 ![CCQ](assets/fr/048.webp)
 
-After import, check that the "*Master fingerprint*" displayed on Sparrow matches the one displayed on your COLDCARD. Confirm the creation by clicking on "*Apply*".
+
+Sau khi nhập, hãy kiểm tra xem "Dấu vân tay chính" hiển thị trên Sparrow có khớp với dấu vân tay hiển thị trên COLDCARD của bạn hay không. Xác nhận việc tạo bằng cách nhấp vào "Áp dụng".
+
 
 ![CCQ](assets/fr/049.webp)
 
-Set up a strong password to secure access to your Sparrow Wallet. This password will protect your public keys, addresses, tags and transaction history from unauthorized access.
 
-It's a good idea to save this password so you don't forget it (e.g. in a password manager).
+Hãy thiết lập mật khẩu mạnh để bảo mật quyền truy cập vào Sparrow hoặc Wallet của bạn. Mật khẩu này sẽ bảo vệ các khóa công khai, địa chỉ, thẻ và lịch sử giao dịch của bạn khỏi sự truy cập trái phép.
+
+
+Bạn nên lưu lại mật khẩu này để không quên (ví dụ: trong trình quản lý mật khẩu).
+
 
 ![CCQ](assets/fr/050.webp)
 
-Your wallet is now set up on Sparrow Wallet.
+
+wallet của bạn hiện đã được thiết lập trên Sparrow Wallet.
+
 
 ![CCQ](assets/fr/051.webp)
 
-Before you receive your first bitcoins in your wallet, **I strongly advise you to perform an empty recovery test**. Write down some reference information, such as your xpub, then reset your COLDCARD Q while the wallet is still empty. Then try restoring your wallet to the COLDCARD using your paper backups. Check that the xpub generated after the restore matches the one you originally wrote down. If it does, you can rest assured that your paper backups are reliable.
 
-To learn more about how to perform a recovery test, I suggest you consult this other tutorial:
+Trước khi nhận được những đồng bitcoin đầu tiên vào wallet của bạn, **tôi khuyên bạn nên thực hiện kiểm tra khôi phục trống**. Hãy ghi lại một số thông tin tham khảo, chẳng hạn như xpub của bạn, sau đó khởi động lại COLDCARD Q trong khi wallet vẫn trống. Sau đó, hãy thử khôi phục wallet vào COLDCARD bằng cách sử dụng bản sao lưu giấy của bạn. Kiểm tra xem xpub được tạo ra sau khi khôi phục có khớp với xpub mà bạn đã ghi lại ban đầu hay không. Nếu khớp, bạn có thể yên tâm rằng bản sao lưu giấy của bạn đáng tin cậy.
+
+
+Để tìm hiểu thêm về cách thực hiện kiểm tra phục hồi, tôi khuyên bạn nên tham khảo hướng dẫn khác này:
+
 
 https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
-## Receive bitcoins
+## Nhận bitcoin
 
-To receive your first bitcoins, start by switching on and unlocking your COLDCARD.
+
+Để nhận được những đồng bitcoin đầu tiên, hãy bắt đầu bằng cách bật và mở khóa COLDCARD của bạn.
+
 
 ![CCQ](assets/fr/052.webp)
 
-On Sparrow Wallet, click on the "*Receive*" tab.
+
+Trên Sparrow Wallet, hãy nhấp vào tab "*Nhận*".
+
 
 ![CCQ](assets/fr/053.webp)
 
-Before using the address proposed by Sparrow Wallet, check it on your COLDCARD screen. This practice allows you to confirm that the address displayed on Sparrow is not fraudulent, and that the hardware wallet does indeed hold the private key needed to subsequently spend the bitcoins secured with this address. This helps you to avoid several types of attack.
 
-To perform this check, click on the "*Address Explorer*" menu on the COLDCARD.
+Trước khi sử dụng địa chỉ do Sparrow hoặc Wallet đề xuất, hãy kiểm tra nó trên màn hình COLDCARD của bạn. Việc này cho phép bạn xác nhận rằng địa chỉ hiển thị trên Sparrow không phải là giả mạo và phần cứng wallet thực sự nắm giữ khóa riêng cần thiết để sau đó sử dụng số bitcoin được bảo mật bằng địa chỉ này. Điều này giúp bạn tránh được một số loại tấn công.
+
+
+Để thực hiện kiểm tra này, hãy nhấp vào menu "*Address Explorer*" trên COLDCARD.
+
 
 ![CCQ](assets/fr/054.webp)
 
-Select the type of script you are using on Sparrow. In my case, it's Segwit P2WPKH. I click on it.
+
+Chọn loại script bạn đang sử dụng trên Sparrow. Trong trường hợp của tôi, đó là Segwit P2WPKH. Tôi nhấp vào đó.
+
 
 ![CCQ](assets/fr/055.webp)
 
-You can then see your different derived addresses in order.
+
+Sau đó, bạn có thể thấy các địa chỉ được tạo ra khác nhau theo thứ tự.
+
 
 ![CCQ](assets/fr/056.webp)
 
-Check with Sparrow that the address matches. In my case, the address with derivation path `m/84'/1'/0'/0/0` is indeed `tb1qwfwwvzssep4wyjg3vsgezmwa037ehvd4fhmjvr` on both Sparrow and COLDCARD.
+
+Hãy kiểm tra với Sparrow xem địa chỉ có khớp không. Trong trường hợp của tôi, địa chỉ với đường dẫn dẫn xuất `m/84'/1'/0'/0/0` thực sự là `tb1qwfwwvzssep4wyjg3vsgezmwa037ehvd4fhmjvr` trên cả Sparrow và COLDCARD.
+
 
 ![CCQ](assets/fr/057.webp)
 
-Another way to verify ownership of this address is to scan its QR code directly onto Sparrow from your COLDCARD. From your COLDCARD home screen, select "*Scan Any QR Code*". You can also use the "*QR*" key on the keyboard.
+
+Một cách khác để xác minh quyền sở hữu địa chỉ này là quét mã QR trực tiếp lên Sparrow từ COLDCARD của bạn. Từ màn hình chính của COLDCARD, chọn "*Quét bất kỳ mã QR nào*". Bạn cũng có thể sử dụng phím "*QR*" trên bàn phím.
+
 
 ![CCQ](assets/fr/058.webp)
 
-Scan the QR code of the address displayed on Sparrow Wallet.
+
+Quét mã QR của địa chỉ hiển thị trên Sparrow Wallet.
+
 
 ![CCQ](assets/fr/059.webp)
 
-Make sure the address displayed on your COLDCARD matches the one shown on Sparrow. Then press the "*1*" button.
+
+Hãy đảm bảo địa chỉ hiển thị trên COLDCARD của bạn trùng khớp với địa chỉ hiển thị trên Sparrow. Sau đó nhấn nút "*1*".
+
 
 ![CCQ](assets/fr/060.webp)
 
-The address is thus successfully confirmed.
+
+Như vậy, địa chỉ đã được xác nhận thành công.
+
 
 ![CCQ](assets/fr/061.webp)
 
-You can now add a "*Label*" to describe the source of bitcoins that will be secured with this address. This is a good practice that allows you to better manage your UTXOs.
+
+Giờ đây, bạn có thể thêm "*Nhãn*" để mô tả nguồn gốc của bitcoin sẽ được bảo mật bằng địa chỉ này. Đây là một cách làm tốt giúp bạn quản lý UTXO của mình hiệu quả hơn.
+
 
 ![CCQ](assets/fr/062.webp)
 
-For more information on labeling, I also recommend this other tutorial:
+
+Để biết thêm thông tin về việc ghi nhãn, tôi cũng khuyên bạn nên tham khảo hướng dẫn khác này:
+
 
 https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
-You can then use this address to receive bitcoins.
+Sau đó, bạn có thể sử dụng địa chỉ này để nhận bitcoin.
+
 
 ![CCQ](assets/fr/063.webp)
 
-## Send bitcoins
 
-Now that you've received your first sats in your COLDCARD-secured wallet, you can spend them too!
+## Gửi bitcoin
 
-As always, start by switching on and unlocking your COLDCARD Q, then open Sparrow Wallet and navigate to the "*Send*" tab to prepare a new transaction.
+
+Giờ bạn đã nhận được sats đầu tiên trong wallet được bảo đảm bằng COLDCARD, bạn có thể sử dụng chúng rồi!
+
+
+Như thường lệ, hãy bắt đầu bằng cách bật và mở khóa COLDCARD Q, sau đó mở Sparrow hoặc Wallet và điều hướng đến tab "*Gửi*" để chuẩn bị giao dịch mới.
+
 
 ![CCQ](assets/fr/064.webp)
 
-If you wish to "coin control", i.e. choose specifically which UTXOs to consume in the transaction, go to the "*UTXOs*" tab. Select the UTXOs you wish to spend, then click on "*Send Selected*". You will be redirected to the same screen in the "*Send*" tab, but with your UTXOs already selected for the transaction.
+
+Nếu bạn muốn "kiểm soát tiền xu", tức là chọn cụ thể những UTXO nào sẽ sử dụng trong giao dịch, hãy vào tab "*UTXOs*". Chọn những UTXO bạn muốn chi tiêu, sau đó nhấp vào "*Gửi đã chọn*". Bạn sẽ được chuyển hướng đến cùng màn hình trong tab "*Gửi*", nhưng những UTXO của bạn đã được chọn sẵn cho giao dịch.
+
 
 ![CCQ](assets/fr/065.webp)
 
-Enter the destination address. You can also enter multiple addresses by clicking on the "*+ Add*" button.
+
+Nhập địa chỉ đích đến. Bạn cũng có thể nhập nhiều địa chỉ bằng cách nhấp vào nút "*+ Thêm*".
+
 
 ![CCQ](assets/fr/066.webp)
 
-Write down a "*Label*" to remember the purpose of this expense.
+
+Hãy ghi chú mục đích của khoản chi phí này để nhớ rõ.
+
 
 ![CCQ](assets/fr/067.webp)
 
-Select the amount to be sent to this address.
+
+Chọn số tiền bạn muốn gửi đến địa chỉ này.
+
 
 ![CCQ](assets/fr/068.webp)
 
-Adjust the fee rate of your transaction according to the current market.
+
+Điều chỉnh mức phí giao dịch của bạn theo tỷ giá thị trường hiện tại.
+
 
 ![CCQ](assets/fr/069.webp)
 
-Make sure all your transaction parameters are correct, then click on "*Create Transaction*".
+
+Hãy đảm bảo tất cả các thông số giao dịch của bạn đều chính xác, sau đó nhấp vào "*Tạo giao dịch*".
+
 
 ![CCQ](assets/fr/070.webp)
 
-If everything is to your satisfaction, click on "*Finalize Transaction for Signing*".
+
+Nếu mọi thứ đều làm bạn hài lòng, hãy nhấp vào "*Hoàn tất giao dịch để ký kết*".
+
 
 ![CCQ](assets/fr/071.webp)
 
-Once you've built your transaction in Sparrow, it's time to sign it with your COLDCARD. To transmit the PSBT (unsigned transaction) to your device, you have several options. If wired data transmission is enabled, you can send the transaction directly via a USB-C connection, just as you would with any other hardware wallet. In this case, on Sparrow, you'd have to click on the "*Sign*" button in the bottom right-hand corner. In my example, this button is blocked because the COLDCARD is not connected by cable.
+
+Sau khi bạn đã tạo giao dịch trong Sparrow, đã đến lúc ký giao dịch đó bằng COLDCARD của bạn. Để truyền PSBT (giao dịch chưa ký) đến thiết bị của bạn, bạn có một số tùy chọn. Nếu tính năng truyền dữ liệu có dây được bật, bạn có thể gửi giao dịch trực tiếp qua kết nối USB-C, giống như bạn vẫn làm với bất kỳ thiết bị phần cứng wallet nào khác. Trong trường hợp này, trên Sparrow, bạn phải nhấp vào nút "*Ký*" ở góc dưới bên phải. Trong ví dụ của tôi, nút này bị khóa vì COLDCARD không được kết nối bằng cáp.
+
 
 ![CCQ](assets/fr/072.webp)
 
-If you prefer to maintain an "air-gap" connection without direct contact between the hardware wallet and your computer, you have 2 options. The first, and more complex, is to use a microSD card. Insert the microSD card into your computer, record the transaction via the "*Save Transaction*" button on Sparrow, then transfer this card to a port on your COLDCARD.
+
+Nếu bạn muốn duy trì kết nối "không tiếp xúc" giữa thiết bị wallet và máy tính, bạn có 2 lựa chọn. Lựa chọn đầu tiên, và phức tạp hơn, là sử dụng thẻ microSD. Cắm thẻ microSD vào máy tính, ghi lại giao dịch thông qua nút "*Lưu giao dịch*" trên Sparrow, sau đó chuyển thẻ này sang cổng trên COLDCARD của bạn.
+
 
 ![CCQ](assets/fr/073.webp)
 
-Then access the "*Ready To Sign*" menu.
+
+Sau đó, truy cập vào menu "*Sẵn sàng ký*".
+
 
 ![CCQ](assets/fr/074.webp)
 
-Review the transaction details on your COLDCARD, including the receiving address, the amount sent and the transaction fee.
+
+Hãy kiểm tra lại chi tiết giao dịch trên thẻ COLDCARD của bạn, bao gồm địa chỉ người nhận, số tiền đã gửi và phí giao dịch.
+
 
 ![CCQ](assets/fr/075.webp)
 
-If everything is correct, press the "*ENTER*" button to sign the transaction.
+
+Nếu mọi thứ đều chính xác, hãy nhấn nút "ENTER" để ký giao dịch.
+
 
 ![CCQ](assets/fr/076.webp)
 
-Then place the microSD back in your computer and on Sparrow, click on "*Load Transaction*" to load the signed transaction from the microSD. You'll then be able to perform a final check before uploading it to the Bitcoin network.
+
+Sau đó, lắp lại thẻ microSD vào máy tính và trên Sparrow, nhấp vào "*Tải giao dịch*" để tải giao dịch đã ký từ thẻ microSD. Sau đó, bạn có thể thực hiện kiểm tra cuối cùng trước khi tải lên mạng Bitcoin.
+
 
 ![CCQ](assets/fr/077.webp)
 
-The second method of signing with your COLDCARD in Air-Gap, which is much simpler than the microSD method, is to scan the PSBT directly via the device's camera. On Sparrow, select "*Show QR*".
+
+Phương pháp thứ hai để ký bằng COLDCARD trong Air-Gap, đơn giản hơn nhiều so với phương pháp dùng microSD, là quét trực tiếp PSBT thông qua camera của thiết bị. Trên Sparrow, chọn "*Hiển thị mã QR*".
+
 
 ![CCQ](assets/fr/078.webp)
 
-On the COLDCARD, select "*Scan Any QR Code*". You can also use the "*QR*" key on the keyboard.
+
+Trên thiết bị COLDCARD, chọn "*Quét bất kỳ mã QR nào*". Bạn cũng có thể sử dụng phím "*QR*" trên bàn phím.
+
 
 ![CCQ](assets/fr/079.webp)
 
-Use the COLDCARD's camera to scan the QR code displayed on Sparrow.
+
+Sử dụng camera của COLDCARD để quét mã QR hiển thị trên Sparrow.
+
 
 ![CCQ](assets/fr/080.webp)
 
-The transaction details will appear again for verification. Press "*ENTER*" to sign if all is to your satisfaction.
+
+Chi tiết giao dịch sẽ hiển thị lại để xác minh. Nhấn "*ENTER*" để ký nếu mọi thứ đều ổn thỏa.
+
 
 ![CCQ](assets/fr/081.webp)
 
-Your COLDCARD will then display the signed transaction as a QR code. Use your computer's webcam to scan this QR code by selecting "*Scan QR*" on Sparrow.
+
+COLDCARD của bạn sau đó sẽ hiển thị giao dịch đã ký dưới dạng mã QR. Sử dụng webcam của máy tính để quét mã QR này bằng cách chọn "*Quét QR*" trên Sparrow.
+
 
 ![CCQ](assets/fr/082.webp)
 
-Your signed transaction is now visible on Sparrow. Check one last time that everything is correct, then click on "*Broadcast Transaction*" to broadcast it on the Bitcoin network.
+
+Giao dịch đã ký của bạn hiện đã hiển thị trên Sparrow. Hãy kiểm tra lại lần cuối xem mọi thứ đã chính xác chưa, sau đó nhấp vào "*Phát sóng giao dịch*" để phát sóng giao dịch đó trên mạng Bitcoin.
+
 
 ![CCQ](assets/fr/083.webp)
 
-You can track your transaction in Sparrow Wallet's "*Transactions*" tab.
+
+Bạn có thể theo dõi giao dịch của mình trong tab "*Giao dịch*" của Sparrow Wallet.
+
 
 ![CCQ](assets/fr/084.webp)
 
-Congratulations, you're now up to speed on the basic use of COLDCARD Q with Sparrow Wallet!
 
-If you found this tutorial useful, I'd be very grateful if you'd leave a green thumb below. Please feel free to share this tutorial on your social networks. Thank you very much!
+Chúc mừng, bạn đã nắm vững những kiến ​​thức cơ bản về cách sử dụng COLDCARD Q cùng với Sparrow và Wallet!
 
-I also recommend you take a look at this other tutorial in which we discuss the advanced options of the COLDCARD Q :
+
+Nếu bạn thấy hướng dẫn này hữu ích, tôi sẽ rất biết ơn nếu bạn để lại một biểu tượng ngón tay cái màu xanh lá cây bên dưới. Vui lòng chia sẻ hướng dẫn này trên mạng xã hội của bạn. Cảm ơn rất nhiều!
+
+
+Tôi cũng khuyên bạn nên xem thêm hướng dẫn khác này, trong đó chúng tôi thảo luận về các tùy chọn nâng cao của COLDCARD Q:
+
 
 https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0

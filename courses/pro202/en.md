@@ -13,6 +13,8 @@ This intensive two-day course, taught by Jimmy Song, takes you deep into Bitcoin
 
 Enjoy the journey!
 
+Note: The videos for this course are only available in English.
+
 +++
 
 # Introduction

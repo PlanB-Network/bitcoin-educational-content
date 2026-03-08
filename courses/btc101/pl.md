@@ -1257,15 +1257,15 @@ Tak jak Bitcoin, Lightning to protokół nie oprogramowanie. Współistnieje kil
 
 ### Sieć Lightning jako część ewolucji Bitcoina
 
-Lightning does not replace the Bitcoin blockchain: it complements it. The blockchain remains the final settlement layer, slow but extremely robust. Lightning is the fast payment layer, designed for frequent use and small amounts.
+Sieć Lightning nie zastępuje łańcucha bloków Bitcoina — uzupełnia go. Łańcuch bloków pozostaje ostateczną warstwą rozliczeniową: jest wolniejszy, ale bardzo solidny i bezpieczny. Sieć Lightning natomiast jest szybką warstwą płatności, zaprojektowaną do częstego użycia i małych kwot.
 
-In 2025, Lightning is more accessible than in its early days, thanks to wallets and services that hide part of the complexity. However, it still involves trade-offs: liquidity, onchain costs for channels, and sometimes compromises between simplicity, sovereignty, and privacy.
+W 2025 roku sieć Lightning jest bardziej dostępna niż na początku swojego rozwoju, dzięki portfelom i usługom, które ukrywają część jej technicznej złożoności. Nadal jednak wiąże się z pewnymi kompromisami, takimi jak: płynność w kanałach, koszty on-chain związane z otwieraniem i zamykaniem kanałów, czasem konieczność wyboru między prostotą obsługi, suwerennością użytkownika a prywatnością.
 
-If you want to understand Lightning in depth (channels, liquidity, routing, risk management), I recommend the complete theoretical course LNP 201 by Fanis Michalakis:
+Jeśli chcesz dogłębnie zrozumieć sieć Lightning (kanały, płynność, przekierowywanie płatności, zarządzanie ryzykiem), polecam pełny kurs teoretyczny LNP 201 przygotowany przez Fanisa Michalakisa:
 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-And if you want to embark on the adventure of running your own Lightning node, we also offer the practical course LNP 202, specifically dedicated to this topic:
+A jeśli chcesz rozpocząć przygodę z uruchomieniem własnego węzła Lightning, oferujemy także praktyczny kurs LNP 202, specjalnie poświęcony temu tematowi:
 
 https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
@@ -1274,11 +1274,14 @@ https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 
-As we have seen in previous chapters, Bitcoin was designed as an extremely robust base layer: a public ledger, simple, secure, but naturally limited in speed, programmability, and payment throughput. Rather than forcing this layer to do everything (as is done on Ethereum, for example), the Bitcoin ecosystem has gradually adopted a layered approach: the blockchain serves as the foundation (final settlement), while higher layers add new properties, such as faster payments, more privacy, or the issuance of assets (stablecoins, tokenized securities...).
+Jak widzieliśmy w poprzednich rozdziałach, Bitcoin został zaprojektowany jako bardzo solidna warstwa bazowa: publiczna księga rachunkowa, prosta, bezpieczna, ale naturalnie ograniczona pod względem szybkości, programowalności i przepustowości płatności.
 
-Bitcoin does not evolve only by modifying its base protocol. It also evolves by building on top of it, with solutions that make different trade-offs depending on the desired objective. Some aim for payment scalability, others for programmability (in a broad sense) and asset issuance, and others try to combine both.
+Zamiast zmuszać tę warstwę do wykonywania wszystkiego (jak robi się to na przykład w Ethereum), ekosystem Bitcoina stopniowo przyjął podejście warstwowe. Oznacza to, że łańcuch boków służy jako fundament (ostateczna warstwa rozliczeniowa), a wyższe warstwy dodają nowych właściwości, takich jak: szybsze płatności, większa prywatność, emisja aktywów (np. stablecoinów lub tokenizowanych papierów wartościowych).
 
-In this chapter, we introduce four important protocols that each offer new possibilities on Bitcoin: sidechains (including Liquid), Ark, RGB, and Taproot Assets.
+Bitcoin rozwija się więc nie tylko poprzez zmiany w swoim podstawowym protokole, ale również poprzez budowanie rozwiązań działających na jego bazie, które wprowadzają różne kompromisy w zależności od celu. Niektóre z tych rozwiązań koncentrują się na: skalowalności płatności, programowalności (w szerokim znaczeniu), emisji aktywów, lub próbują połączyć kilka z tych funkcji jednocześnie.
+
+W tym rozdziale przedstawiamy cztery ważne protokoły, które oferują nowe możliwości w ekosystemie Bitcoina: Liquid Network (łańcuch boczny Bitcoina), Ark protocol, RGB protocol, Taproot Assets.
+
 
 ### Sidechains: parallel blockchains connected to Bitcoin
 
@@ -1329,18 +1332,18 @@ Taproot Assets (formerly "Taro") is a protocol led by Lightning Labs, which aims
 
 It is often cited as a building block in the narrative of "programmable money" on Bitcoin: not because Bitcoin becomes a global computer, but because financial instruments (assets) can be layered on top of the Bitcoin base, and then circulated efficiently via Lightning.
 
-### Bitcoin grows stronger by letting upper layers innovate
+### Bitcoin staje się mocniejszy dzięki umożliwieniu rozwoju jego wyższych warstw
 
 Today, the most accurate image of the Bitcoin ecosystem is neither that of a frozen protocol, nor that of a super blockchain that does everything, as with Ethereum. Rather, it is a deliberately conservative foundation, surrounded by layers and protocols that experiment and enable innovation with minimal risk.
 
 
-## Red Pill or Blue Pill?
+## Czerwona pigułka czy niebieska pigułka?
 
 <chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
 
 As Morpheus said to Neo: "You take the blue pill, the story ends, you wake up in your bed, and you believe whatever you want to believe. You take the red pill, you stay in Wonderland, and I show you how deep the rabbit hole goes." Are you ready to explore the rabbit hole of Bitcoin? Be careful, as you might rediscover your financial freedom!
 
-### Technological future and its implications
+### Przyszłość technologii i skutki jej rozwoju
 
 Technology is evolving exponentially, and no one can predict its future developments with certainty. World connectivity and artificial intelligence continue to advance, and the knowledge that an individual can acquire through the internet is becoming increasingly immeasurable over time.
 
@@ -1360,7 +1363,7 @@ We have some essential questions to ask ourselves:
 These fundamental questions for our future must be debated and collectively decided.
 What is the connection with Bitcoin? Just as the Internet revolutionized modes of communication, Bitcoin represents a technological revolution for new forms of large-scale organization, enabling us to exchange value without relying on any trusted third party. Do we want to hinder the technological evolution of the monetary system, or do we wish to embrace the potential for increased capital through the tenfold productivity gains offered by using Bitcoin and Lightning protocols?
 
-### What is the future of finance?
+### Jaka jest przyszłość finansów?
 
 These considerations also raise questions about who should hold, authorize, and trace the money we use. The goal is to decide between a closed system with unelected leaders or an open system without trusted third parties, where neutrality prevails.
 
@@ -1374,7 +1377,7 @@ Accepting these new technologies could generate massive economies of scale world
 
 The question of who should control the banking system is crucial because the rules of the banking game are not transparent and understandable to all, allowing a caste of politicians and regulators to maintain their grip on the system, so it is important to question whether the free market or a group of intellectuals should have the power over it.
 
-### Our freedom is at stake.
+### Gra toczy się o naszą wolność
 
 Censorship must also be questioned: who has the knowledge to decide what should be censored or not? The media has changed their position on certain information and those who were censored before are no longer censored today.
 
@@ -1387,7 +1390,7 @@ There are 2.4 billion people in the world without a bank account, which necessar
 
 Bitcoin is important and should not be considered just a game of chance, so it is crucial to keep asking questions about Bitcoin and its consequences on the world.
 
-### Bitcoin: a revolutionary protocol
+### Bitcoin: rewolucyjny protokół
 
 As we have seen in the previous chapter, the Bitcoin protocol is neutral towards all its users. Thanks to consensus rules and cryptography, we can immutably record transactions in a global public ledger, guaranteeing monetary value transfers without any trusted third party. The second-layer infrastructure (and soon the third layer, with RGB, or "Really Good Bitcoin") is used for network scalability and the development of new functionalities.
 
@@ -1401,21 +1404,21 @@ Satoshi created Bitcoin in 2008 to propose a change to the financial system by r
 
 Are you ready to join?
 
-# Final Section
+# Sekcja końcowa
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-## Reviews & Ratings
+## Opinie & oceny
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Final Exam
+## Egzamin końcowy
 
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Conclusion
+## Podsumowanie
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 <isCourseConclusion>true</isCourseConclusion>

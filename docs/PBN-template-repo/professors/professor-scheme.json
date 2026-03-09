@@ -3,6 +3,11 @@
   "title": "Professor",
   "type": "object",
   "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the professor (UUID format)",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+    },
     "name": {
       "type": "string",
       "description": "Full name of the professor"
@@ -16,13 +21,18 @@
       "description": "Online presence of the professor",
       "properties": {
         "twitter": {
-          "type": "string",
-          "format": "url",
+          "type": ["string", "null"],
+          "format": "uri",
           "description": "Twitter URL of the professor"
+        },
+        "github": {
+          "type": "string",
+          "format": "uri",
+          "description": "GitHub URL of the professor"
         },
         "website": {
           "type": "string",
-          "format": "url",
+          "format": "uri",
           "description": "Personal or professional website of the professor"
         }
       },
@@ -103,7 +113,7 @@
       }
     }
   },
-  "required": ["name", "contributor_id", "links", "tags", "tips", "company", "affiliations"],
+  "required": ["id", "name", "contributor_id", "links", "tags", "company"],
   "additionalProperties": false
 }
 

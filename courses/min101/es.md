@@ -924,6 +924,8 @@ Hay que tener en cuenta un detalle importante sobre este ajuste: **está limitad
 
 
 
+Nótese también que, en realidad, el ajuste de dificultad de Bitcoin no es perfectamente exacto. De hecho, hemos visto que está previsto recalcular la dificultad cada 2016 bloques, comparando el tiempo real transcurrido con el tiempo objetivo de 14 días (2016 × 10 minutos). Sin embargo, el código original de Satoshi contiene un error llamado "*off-by-one*": en lugar de medir el tiempo entre los últimos bloques de cada periodo (es decir, 2016 intervalos), mide el tiempo entre el primer bloque y el último, es decir, solo 2015 intervalos. En concreto, la dificultad se calcula como si el periodo constara de solo 2015 bloques en lugar de 2016. La consecuencia es que la dificultad está sistemáticamente sobreestimada de forma muy leve, lo que hace que los bloques se minen de media un poco más despacio que los 10 minutos previstos (aproximadamente un 0,05% más despacio). Este error es bien conocido pero nunca se ha corregido, ya que modificarlo requeriría un hard fork y su impacto sigue siendo insigniciable en la práctica, aparte del ataque teórico llamado "*time warp*".
+
 ### Representación de objetivos
 
 

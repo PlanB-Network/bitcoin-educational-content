@@ -924,6 +924,8 @@ Có một chi tiết quan trọng cần lưu ý về sự điều chỉnh này: 
 
 
 
+Cũng cần lưu ý rằng trên thực tế, việc điều chỉnh độ khó của Bitcoin không hoàn toàn chính xác. Thật vậy, chúng ta đã thấy rằng nó được dự tính để tính toán lại độ khó sau mỗi 2016 khối, bằng cách so sánh thời gian thực tế đã trôi qua với thời gian mục tiêu là 14 ngày (2016 × 10 phút). Tuy nhiên, mã nguồn gốc của Satoshi có chứa một lỗi gọi là "*off-by-one*": thay vì đo thời gian giữa các khối cuối cùng của mỗi giai đoạn (tức là 2016 khoảng thời gian), nó lại đo thời gian giữa khối đầu tiên và khối cuối cùng, tức là chỉ có 2015 khoảng thời gian. Cụ thể, độ khó được tính toán như thể giai đoạn đó chỉ bao gồm 2015 khối thay vì 2016. Hệ quả là độ khó luôn bị đánh giá cao hơn một chút một cách có hệ thống, khiến cho các khối được khai thác trung bình chậm hơn một chút so với mục tiêu 10 phút (chậm hơn khoảng 0,05%). Lỗi này đã được biết đến từ lâu nhưng chưa bao giờ được sửa đổi, vì việc thay đổi nó sẽ yêu cầu một bản hard fork và tác động của nó vẫn không đáng kể trong thực tế, ngoại trừ cuộc tấn công lý thuyết được gọi là "*time warp*".
+
 ### Biểu diễn mục tiêu
 
 

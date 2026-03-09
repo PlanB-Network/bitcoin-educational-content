@@ -6,4 +6,4 @@ wrong_answers:
   - Để làm sôi các đại dương
 explanation: |
   Hashcash yêu cầu một bằng chứng công việc cho mỗi email nhận được, điều này được cho là sẽ hạn chế thư rác.
-reviewed: false
+reviewed: true

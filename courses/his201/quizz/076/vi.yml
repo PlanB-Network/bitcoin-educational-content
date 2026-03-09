@@ -6,4 +6,4 @@ wrong_answers:
   - Nils Schneider
 explanation: |
   Hệ thống này được mô phỏng theo Đề xuất Cải tiến Python (PEP) dành riêng cho ngôn ngữ lập trình Python.
-reviewed: false
+reviewed: true

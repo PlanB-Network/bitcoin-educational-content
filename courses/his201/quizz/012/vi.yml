@@ -6,4 +6,4 @@ wrong_answers:
   - Vấn đề Taishos Nhật Bản
 explanation: |
   Tên của vấn đề này (được hình thành bởi Lamport, Shostak, và Pease vào năm 1982) được chọn để tránh làm phật lòng người đọc, vì không ai tự nhận mình là Byzantine.
-reviewed: false
+reviewed: true

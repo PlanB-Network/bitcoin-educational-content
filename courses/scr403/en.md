@@ -1,6 +1,6 @@
 ---
 name: Delving Into Simplicity
-goal: Master the design philosophy, type system, and full lifecycle of Simplicity — from its nine core combinators to on-chain program deployment via Taproot.
+goal: Master the design philosophy, type system, and full lifecycle of Simplicity
 objectives:
   - Understand the three fundamental composition methods and the nine combinators that form a complete language
   - Build boolean logic, arithmetic, and SHA-256 from Simplicity's minimal type system

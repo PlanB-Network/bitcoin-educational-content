@@ -17,6 +17,7 @@ Dieser zweitägige Intensivkurs, der von Jimmy Song geleitet wird, führt Sie ti
 
 Viel Spaß auf der Reise!
 
+Hinweis: Die Videos zu diesem Kurs sind nur auf Englisch verfügbar.
 
 +++
 

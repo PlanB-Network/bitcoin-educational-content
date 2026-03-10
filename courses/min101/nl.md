@@ -924,6 +924,8 @@ Er is een belangrijk detail om op te merken over deze aanpassing: **Ze is beperk
 
 
 
+Merk ook op dat in werkelijkheid de aanpassing van de moeilijkheidsgraad van Bitcoin niet perfect accuraat is. We hebben immers gezien dat het de bedoeling is om de moeilijkheidsgraad elke 2016 blokken opnieuw te berekenen, door de werkelijk verstreken tijd te vergelijken met de streeftijd van 14 dagen (2016 × 10 minuten). De originele code van Satoshi bevat echter een zogenaamde "*off-by-one*" fout: in plaats van de tijd te meten tussen de laatste blokken van elke periode (oftewel 2016 intervallen), meet het de tijd tussen het eerste en het laatste blok, wat slechts 2015 intervallen zijn. Concreet wordt de moeilijkheidsgraad berekend alsof de periode slechts uit 2015 blokken bestond in plaats van 2016. Het gevolg is dat de moeilijkheidsgraad systematisch heel licht overschat wordt, waardoor blokken gemiddeld een heel klein beetje langzamer worden gemined dan de beoogde 10 minuten (ongeveer 0,05% langzamer). Deze bug is algemeen bekend maar is nooit gecorrigeerd, omdat het aanpassen ervan een hard fork zou vereisen en de impact ervan in de praktijk te verwaarlozen blijft, afgezien van de theoretische aanval genaamd "*time warp*".
+
 ### Doel vertegenwoordiging
 
 

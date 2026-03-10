@@ -924,6 +924,8 @@ C'è un dettaglio importante da notare su questa regolazione: **è limitato**. I
 
 
 
+Notiamo inoltre che in realtà, l'aggiustamento della difficoltà di Bitcoin non è perfettamente esatto. In effetti, abbiamo visto che è previsto per ricalcolare la difficoltà ogni 2016 blocchi, confrontando il tempo reale trascorso con il tempo target di 14 giorni (2016 × 10 minuti). Tuttavia, il codice originale di Satoshi contiene un errore cosiddetto "*off-by-one*": invece di misurare il tempo tra gli ultimi blocchi di ogni periodo (cioè 2016 intervalli), misura il tempo tra il primo e l'ultimo blocco, ovvero solo 2015 intervalli. Concretamente, la difficoltà viene calcolata come se il periodo comprendesse solo 2015 blocchi invece di 2016. La conseguenza è che la difficoltà è sistematicamente leggermente sopravvalutata, il che fa sì che i blocchi vengano minati in media un po' meno velocemente dei 10 minuti previsti (circa lo 0,05% più lentamente). Questo bug è ben noto ma non è mai stato corretto, poiché modificarlo richiederebbe un hard fork e il suo impatto rimane trascurabile in pratica, al di fuori dell'attacco teorico denominato "*time warp*".
+
 ### Rappresentazione dell'obiettivo
 
 

@@ -21,6 +21,7 @@ Mradi wa Bitaxe unawakilisha mabadiliko ya dhana katika Bitcoin mining, kuvunja 
 
 Hakuna matumizi ya awali ya mining yanayohitajika, ingawa ujuzi wa kimsingi wa kielektroniki na ujuzi na GitHub utasaidia. Kozi itakubadilisha kutoka kwa mtazamaji anayedadisi hadi kuwa mjenzi na mchangiaji mwenye uwezo wa Bitaxe.
 
+Kumbuka: Video za kozi hii zinapatikana kwa Kiingereza pekee.
 
 +++
 

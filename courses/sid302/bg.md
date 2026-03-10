@@ -144,6 +144,11 @@ Bozza разглежда федеративната структура на Liqu
 
 <isCourseReview>true</isCourseReview>
 
+## Заключителен изпит
+
+<chapterId>b13c4aa8-ced6-11f0-8515-afd3f381a001</chapterId>
+<isCourseExam>true</isCourseExam>
+
 ## Заключение
 
 

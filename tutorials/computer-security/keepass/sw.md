@@ -5,30 +5,30 @@ description: Jinsi ya kuanzisha meneja wa nenosiri wa ndani?
 ![cover](assets/cover.webp)
 
 
-Katika enzi ya kidijitali, tunahitaji kudhibiti wingi wa akaunti za mtandaoni zinazoshughulikia vipengele mbalimbali vya maisha yetu ya kila siku, ikiwa ni pamoja na benki, mifumo ya fedha, barua pepe, kuhifadhi faili, afya, utawala, mitandao ya kijamii, michezo ya video, n.k.
+Katika enzi ya kidijitali, tunahitaji kusimamia akaunti nyingi mtandaoni zinazohusu vipengele mbalimbali vya maisha yetu ya kila siku, ikiwa ni pamoja na benki, majukwaa ya kifedha, barua pepe, hifadhi ya faili, afya, utawala, mitandao ya kijamii, michezo ya video, n.k.
 
 
-Ili kujithibitisha kwenye kila akaunti, tunatumia kitambulisho, mara nyingi **barua pepe**, kinachofuatana na nenosiri. Kwa kukabiliwa na changamoto ya kukumbuka idadi kubwa ya manenosiri ya kipekee, mtu anaweza kujaribu kutumia tena nenosiri lile lile au kurekebisha kidogo msingi wake wa kawaida ili liwe rahisi kukumbuka. Hata hivyo, vitendo hivi vinahatarisha usalama wa akaunti zako.
+Ili kujithibitisha katika kila moja ya akaunti hizi, tunatumia kitambulisho, mara nyingi anwani ya barua pepe, ikiambatana na nenosiri. Kwa sababu ya kutowezekana kwa kukariri idadi kubwa ya manenosiri ya kipekee, mtu anaweza kushawishika kutumia tena nenosiri lile lile au kurekebisha kidogo msingi wa kawaida ili iwe rahisi kukumbuka. Hata hivyo, vitendo hivi vinahatarisha usalama wa akaunti zako.
 
 
-Kanuni ya kwanza ya kufuata kwa nywila sio kuzitumia tena. Kila akaunti ya mtandaoni inapaswa kulindwa na nenosiri la kipekee na tofauti kabisa. Hili ni muhimu kwa sababu, ikiwa mvamizi ataweza kuathiri mojawapo ya nenosiri lako, hutaki apate ufikiaji wa akaunti zako zote. Kuwa na nenosiri la kipekee kwa kila akaunti hutenga mashambulio yanayoweza kutokea na kuzuia wigo wao. Kwa mfano, ikiwa unatumia nenosiri lile lile kwa jukwaa la mchezo wa video na barua pepe yako, na nenosiri hilo likiingiliwa kupitia tovuti ya hadaa inayohusiana na jukwaa la michezo ya kubahatisha, mshambuliaji anaweza kufikia barua pepe yako kwa urahisi na kudhibiti akaunti zako zote za mtandaoni.
+Kanuni ya kwanza ya kufuata kwa manenosiri ni kutoyatumia tena. Kila akaunti ya mtandaoni inapaswa kulindwa na nenosiri la kipekee na tofauti kabisa. Hii ni muhimu kwa sababu, ikiwa mshambuliaji atafanikiwa kuathiri mojawapo ya manenosiri yako, hutaki awe na ufikiaji wa akaunti zako zote. Kuwa na nenosiri la kipekee kwa kila akaunti hutenganisha mashambulizi yanayowezekana na kupunguza wigo wake. Kwa mfano, ikiwa unatumia nenosiri lile lile kwa jukwaa la michezo ya video na kwa barua pepe yako, na nenosiri hilo limeathiriwa kupitia tovuti ya ulaghai inayohusiana na jukwaa la michezo ya kubahatisha, mshambuliaji anaweza kufikia barua pepe yako kwa urahisi na kudhibiti akaunti zako zingine zote za mtandaoni.
 
 
-Kanuni ya pili muhimu ni nguvu ya nenosiri. Nenosiri linachukuliwa kuwa kali ikiwa ni ngumu kutumia nguvu kwa ukatili, ambayo ni, kubahatisha kupitia jaribio na makosa. Hii ina maana kwamba manenosiri yako lazima yawe ya nasibu iwezekanavyo, marefu, na yajumuishe utofauti wa herufi (herufi ndogo, kubwa, nambari na alama).
+Kanuni ya pili muhimu ni nguvu ya nenosiri. Nenosiri huchukuliwa kuwa na nguvu ikiwa ni vigumu kulazimisha kwa nguvu, yaani, kukisia kupitia jaribio na hitilafu. Hii ina maana kwamba manenosiri yako lazima yawe ya nasibu iwezekanavyo, marefu, na yajumuishe utofauti wa herufi (herufi ndogo, herufi kubwa, nambari, na alama).
 
 
-Kutumia kanuni hizi mbili za usalama wa nenosiri upekee na uthabiti kunaweza kuwa vigumu katika maisha ya kila siku kwani ni changamoto kukariri nenosiri la kipekee nasibu na thabiti kwa akaunti zote. Hapa ndipo kidhibiti cha nenosiri kinapotumika.
+Kutumia kanuni hizi mbili za usalama wa nenosiri (upekee na uthabiti) kunaweza kuwa vigumu katika maisha ya kila siku, kwani ni vigumu sana kukariri nenosiri la kipekee, nasibu, na thabiti kwa akaunti zetu zote. Hapa ndipo kidhibiti cha nenosiri kinapotumika.
 
 
-Kidhibiti cha nenosiri hutengeneza na kuhifadhi kwa usalama manenosiri thabiti, huku kuruhusu kufikia akaunti zako zote mtandaoni bila hitaji la kuzikariri kibinafsi. Unahitaji tu kukumbuka nenosiri moja, nenosiri kuu, ambalo hukupa ufikiaji wa nywila zako zote zilizohifadhiwa kwenye kidhibiti. Kutumia kidhibiti cha nenosiri huimarisha usalama wako mtandaoni kwa sababu huzuia utumiaji tena wa manenosiri na kutengeneza manenosiri nasibu. Lakini pia hurahisisha matumizi yako ya kila siku ya akaunti zako kwa kuweka kati ufikiaji wa taarifa zako nyeti.
+Kidhibiti cha nenosiri huzalisha na kuhifadhi nywila imara kwa usalama, na kukuruhusu kufikia akaunti zako zote mtandaoni bila kuhitaji kuzikariri moja moja. Unahitaji tu kukumbuka nenosiri moja kuu, ambalo hukupa ufikiaji wa nywila zako zote zilizohifadhiwa kwenye kidhibiti. Kutumia kidhibiti cha nenosiri huongeza usalama wako mtandaoni kwa sababu huzuia utumiaji tena wa nywila na hutoa nywila nasibu kwa utaratibu. Lakini pia hurahisisha matumizi yako ya kila siku ya akaunti zako kwa kuweka ufikiaji wa taarifa zako nyeti katikati.
 
-Katika somo hili, tutajifunza jinsi ya kusanidi na kutumia kidhibiti cha nenosiri cha ndani ili kuimarisha usalama wako mtandaoni. Hapa, nitakutambulisha kwa KeePass. Hata hivyo, ikiwa wewe ni mwanzilishi na ungependa kuwa na kidhibiti nenosiri mtandaoni chenye uwezo wa kusawazisha kwenye vifaa vingi, ninapendekeza ufuate mafunzo yetu kuhusu Bitwarden:
+Katika mafunzo haya, tutajifunza jinsi ya kuanzisha na kutumia kidhibiti cha nenosiri cha ndani ili kuboresha usalama wako mtandaoni. Hapa, nitakujulisha kuhusu KeePass. Hata hivyo, ikiwa wewe ni mgeni na ungependa kuwa na kidhibiti cha nenosiri mtandaoni kinachoweza kusawazisha kwenye vifaa vingi, ninapendekeza ufuate mafunzo yetu kuhusu Bitwarden:
 
 https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ---
 
-*Tahadhari: Kidhibiti cha nenosiri kinafaa kwa kuhifadhi manenosiri, lakini **hupaswi kamwe kuhifadhi maneno ya Bitcoin ya Wallet ya Mnemonic ndani yake!** Kumbuka, kishazi cha Mnemonic kinapaswa kuhifadhiwa katika muundo wa kipekee, kama kipande cha karatasi au chuma.*
+*Tahadhari: Kidhibiti cha nenosiri ni kizuri kwa kuhifadhi manenosiri, lakini **hupaswi kamwe kuhifadhi kifungu cha kumbukumbu cha Bitcoin wallet chako ndani yake!** Kumbuka, kifungu cha kumbukumbu kinapaswa kuhifadhiwa pekee katika umbizo halisi, kama vile kipande cha karatasi au chuma.*
 
 
 ---
@@ -36,30 +36,30 @@ https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f
 ## Utangulizi wa KeePass
 
 
-KeePass ni kidhibiti cha nenosiri kisicholipishwa na cha chanzo huria, kinachofaa kabisa kwa wale wanaotaka suluhu isiyolipishwa na salama kwa usimamizi wa ndani. Ni programu ya kusakinishwa kwenye Kompyuta yako ambayo, bila kuongezwa kwa programu-jalizi, haiwasiliani na Mtandao. Hii ni mbinu tofauti kabisa na ile ya Bitwarden, ambayo tuliangazia katika somo lililopita. Bitwarden, tofauti na KeePass, inaruhusu ulandanishi kwenye vifaa vingi na hivyo kuhitaji kuhifadhi manenosiri yako kwenye seva ya mtandaoni.
+KeePass ni kidhibiti cha nenosiri cha bure na huria, kinachofaa kwa wale wanaotaka suluhisho la bure na salama kwa usimamizi wa ndani. Ni programu ya kusakinishwa kwenye Kompyuta yako ambayo, bila kuongezwa kwa programu-jalizi, haiwasiliani na Intaneti. Hii ni mbinu tofauti kabisa na ile ya Bitwarden, ambayo tuliizungumzia katika mafunzo yaliyopita. Bitwarden, tofauti na KeePass, inaruhusu usawazishaji katika vifaa vingi na hivyo inahitaji kuhifadhi nywila zako kwenye seva ya mtandaoni.
 
 
-Kwa chaguo-msingi, KeePass haiauni matumizi ya viendelezi vya kivinjari kama vile Bitwarden; kwa hivyo, utahitaji kunakili mwenyewe na kubandika manenosiri yako kutoka kwa programu. Ingawa hii inaweza kuonekana kama kikwazo, kunakili na kubandika manenosiri badala ya kutumia kujaza kiotomatiki ni mbinu nzuri kwa usalama wako mtandaoni.
+Kwa chaguo-msingi, KeePass haiungi mkono matumizi ya viendelezi vya kivinjari kama Bitwarden; kwa hivyo, utahitaji kunakili na kubandika nywila zako mwenyewe kutoka kwa programu. Ingawa hii inaweza kuonekana kama kikwazo, kunakili na kubandika nywila badala ya kutumia kujaza kiotomatiki ni utaratibu mzuri kwa usalama wako mtandaoni.
 
 
-KeePass imeundwa kuwa nyepesi na rahisi kutumia, huku ikizingatia viwango vya juu vya usalama. Programu husimba hifadhidata yako kwa njia fiche ndani ya nchi kwa ulinzi bora wa kitambulisho chako. KeePass pia ndiye kidhibiti pekee cha nenosiri kilichoidhinishwa na ANSSI (mamlaka ya usalama wa mtandao ya Ufaransa).
+KeePass imeundwa kuwa nyepesi na rahisi kutumia, huku ikizingatia viwango vya juu vya usalama. Programu hii husimba hifadhidata yako ndani ya nchi kwa ajili ya ulinzi bora wa sifa zako. KeePass pia ndiyo kidhibiti pekee cha nenosiri kilichothibitishwa na ANSSI (mamlaka ya usalama wa mtandao ya Ufaransa).
 
 
-Moja ya faida kuu za KeePass ni kubadilika kwake. Inaweza kutumika kwa njia nyingi tofauti, kama vile kwenye kijiti cha USB bila hitaji la usakinishaji kwenye kompyuta. Zaidi ya hayo, kutokana na [mazingira ya programu-jalizi](https://keepass.info/plugins.html), KeePass inaweza kubinafsishwa ili kukidhi mahitaji mahususi zaidi.
+Mojawapo ya faida kuu za KeePass ni unyumbufu wake. Inaweza kutumika kwa njia nyingi tofauti, kama vile kwenye kijiti cha USB bila kuhitaji kusakinishwa kwenye kompyuta. Zaidi ya hayo, kutokana na [mazingira yake ya programu-jalizi](https://keepass.info/plugins.html), KeePass inaweza kubinafsishwa ili kukidhi mahitaji maalum zaidi.
 
 ![KEEPASS](assets/notext/01.webp)
 
 ## Jinsi ya kupakua KeePass?
 
 
-Mchakato wa usakinishaji wa KeePass unatofautiana kulingana na mfumo wa uendeshaji unaotumia. Kwa watumiaji wa Windows au Linux, usakinishaji ni wa moja kwa moja. Hata hivyo, ikiwa uko kwenye macOS, hatua ya ziada ni muhimu kutokana na maendeleo ya KeePass kwenye jukwaa la .NET, ambalo halijaungwa mkono moja kwa moja na macOS. Kwa hivyo, utahitaji kusanidi mazingira yanayotangamana ili kuruhusu KeePass kufanya kazi kwenye vifaa vya Apple.
+Mchakato wa usakinishaji wa KeePass hutofautiana kulingana na mfumo endeshi unaotumia. Kwa watumiaji wa Windows au Linux, usakinishaji ni rahisi kiasi. Hata hivyo, ikiwa uko kwenye macOS, hatua ya ziada inahitajika kutokana na maendeleo ya KeePass kwenye mfumo wa .NET, ambao hauhimiliwi moja kwa moja na macOS. Kwa hivyo, utahitaji kusanidi mazingira yanayolingana ili kuruhusu KeePass kufanya kazi kwenye vifaa vya Apple.
 
 
-Kwa watumiaji wa Debian/Ubuntu, fungua terminal na uweke amri zifuatazo:
+Kwa watumiaji wa Debian/Ubuntu, fungua kituo na uweke amri zifuatazo:
 
 
 ```bash
-sudo apt-kupata sasisho
+sudo apt-get update
 
 sudo apt-get install keepass2
 
@@ -69,7 +69,7 @@ For Fedora:
 
 ```
 
-sudo dnf kusakinisha keepass
+sudo dnf install keepass
 
 ```
 
@@ -97,7 +97,7 @@ After downloading the `.zip` file, double-click to extract it. You will get a fo
 
 ```
 
-cd ~/Downloads/KeePass-2.xx
+cd ~/Vipakuliwa/KeePass-2.xx
 
 ```
 

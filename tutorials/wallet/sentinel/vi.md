@@ -8,9 +8,7 @@ description: Ví chỉ xem là gì và cách sử dụng nó?
 
 ***CẢNH BÁO:** Sau vụ bắt giữ các nhà sáng lập của Samourai Wallet và việc tịch thu máy chủ của họ vào ngày 24 tháng 4, ứng dụng Samourai vẫn tiếp tục hoạt động, nhưng bạn **bắt buộc phải sử dụng Dojo của riêng mình** để truy cập thông tin blockchain và phát sóng giao dịch.*
 
-_Chúng tôi đang theo dõi sát sao các diễn biến của vụ việc này cũng như những tiến triển liên quan đến các công cụ kèm theo. Hãy yên tâm rằng chúng tôi sẽ cập nhật hướng dẫn này khi có thông tin mới._
 
-_Hướng dẫn này được cung cấp chỉ cho mục đích giáo dục và thông tin. Chúng tôi không ủng hộ hoặc khuyến khích việc sử dụng các công cụ này cho mục đích phạm tội. Mỗi người dùng có trách nhiệm tuân thủ luật pháp trong khu vực lãnh thổ của họ._
 
 ---
 
@@ -26,7 +24,7 @@ Loại ứng dụng này chỉ giữ lại dữ liệu cần thiết để theo 
 Ví chỉ xem thường được sử dụng kết hợp với một ví cứng. Điều này cho phép lưu trữ các khóa riêng tư của ví theo cách "lạnh", trên một thiết bị không kết nối với internet, có bề mặt tấn công tối thiểu, cô lập các khóa riêng tư khỏi môi trường có thể bị tấn công. Ngược lại, ứng dụng ví chỉ xem chỉ lưu trữ khóa công khai mở rộng (`xpub`, `zpub`, v.v.) của ví Bitcoin. Khóa cha này không cho phép phát hiện các khóa riêng tư liên quan và do đó, không cho phép chi tiêu bitcoin. Tuy nhiên, nó cho phép tạo ra các khóa công khai con và địa chỉ nhận. Vì nó biết các địa chỉ của ví được bảo vệ bởi ví cứng, ứng dụng ví chỉ xem có thể theo dõi các giao dịch này trên mạng Bitcoin, cung cấp cho người dùng khả năng giám sát số dư của họ và tạo địa chỉ nhận mới mà không cần phải kết nối ví cứng.
 
 ## Nên sử dụng Ví chỉ xem nào?
-Hiện tại, ứng dụng ví chỉ xem toàn diện nhất là [Sentinel](https://sentinel.watch/), được phát triển bởi các đội ngũ tại Samourai Wallet. Nó có tất cả các tính năng cần thiết cho một ví chỉ xem tốt:
+Hiện tại, ứng dụng watch-only toàn diện nhất là [Sentinel](https://github.com/wanderingking072/sentinel-android), ban đầu được phát triển bởi các nhóm của Samourai Wallet và hiện được cộng đồng duy trì. Ứng dụng này tập hợp tất cả các tính năng thiết yếu cho một ví watch-only tốt:
 - Hỗ trợ các khóa mở rộng, khóa công khai, và địa chỉ;
 - Khả năng tổ chức nhiều tài khoản hoặc ví vào các bộ sưu tập;
 - Tạo địa chỉ để nhận bitcoin vào ví cứng của mình mà không cần kết nối trực tiếp với ví cứng;
@@ -38,25 +36,20 @@ Nhược điểm duy nhất của Sentinel là ứng dụng chỉ có sẵn cho 
 Dành cho người dùng iOS đang tìm kiếm một lựa chọn thay thế cho Sentinel, [Green Wallet](https://blockstream.com/green/) hoặc [Blue Wallet](https://bluewallet.io/watch-only/) có thể là những lựa chọn phù hợp, mặc dù chức năng chỉ xem của chúng không toàn diện như của Sentinel.![watch-only](assets/notext/2.webp)
 ## Cách sử dụng ví chỉ xem Sentinel?
 ### Cài đặt và thiết lập
-Bắt đầu bằng cách cài đặt ứng dụng Sentinel. Bạn có thể làm điều này từ Google Play Store hoặc sử dụng [APK có sẵn để tải về trên trang web chính thức](https://sentinel.watch/download/).
+Bắt đầu bằng cách cài đặt ứng dụng Sentinel. Bạn có thể thực hiện điều này bằng cách sử dụng [APK có sẵn để tải xuống trên kho github của dự án](https://github.com/wanderingking072/sentinel-android/releases).
 
-![watch-only](assets/notext/3.webp)
 
-Khi mở ứng dụng lần đầu, bạn được lựa chọn giữa:
-- `Kết nối với Dojo - Conncet to Dojo`;
-- `Kết nối với máy chủ của Samourai - Connect to Samourai's Server`.
 
-Dojo, được phát triển bởi nhóm Samourai, là phiên bản node Bitcoin đầy đủ có thể được cài đặt độc lập hoặc thêm vào giải pháp node-in-box chỉ với một cú nhấp chuột như [Umbrel](https://umbrel.com/) và [RoninDojo](https://ronindojo.io/).
 
-[**-> Tìm hiểu cách cài đặt RoninDojo v2 trên Raspberry Pi.**](https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
-Nếu bạn có Dojo của riêng mình, bạn có thể kết nối với nó ở giai đoạn này. Bằng cách này, bạn sẽ được hưởng mức độ riêng tư cao nhất khi kiểm tra thông tin giao dịch của mình trên mạng Bitcoin.
+
+Sau đó, bạn sẽ phải kết nối bắt buộc với Dojo của riêng mình, vì các máy chủ của Samourai Wallet không còn khả dụng nữa. Nếu bạn chưa có Dojo của riêng mình, bạn có thể sử dụng Dojo do cộng đồng cung cấp trên trang web [The Dojo Bay](https://dojobay.pw/), hoặc làm theo hướng dẫn của chúng tôi để cài đặt Dojo của riêng bạn :
+
+https://planb.academy/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9
 
 ![watch-only](assets/notext/4.webp)
 
-Nếu không, bạn có thể chọn máy chủ mặc định của Samourai. Bạn cũng có thể chọn liệu có kết nối qua Tor hay không.
 
-![watch-only](assets/notext/5.webp)
 
 Sau đó, bạn sẽ đến trang chính của Sentinel.
 

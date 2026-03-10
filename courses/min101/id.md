@@ -924,6 +924,8 @@ Ada detail penting yang perlu diperhatikan mengenai penyesuaian ini: **terbatas*
 
 
 
+Perlu diperhatikan juga bahwa pada kenyataannya, penyesuaian kesulitan Bitcoin tidaklah sempurna. Memang, kita telah melihat bahwa kesulitan tersebut dijadwalkan untuk dihitung ulang setiap 2016 blok, dengan membandingkan waktu nyata yang berlalu dengan waktu target 14 hari (2016 × 10 menit). Namun, kode asli Satoshi mengandung kesalahan yang disebut "*off-by-one*": alih-alih mengukur waktu antara blok terakhir dari setiap periode (yaitu 2016 interval), ia mengukur waktu antara blok pertama dan terakhir, yaitu hanya 2015 interval. Secara konkret, kesulitan dihitung seolah-olah periode tersebut hanya terdiri dari 2015 blok, bukan 2016. Konsekuensinya adalah kesulitan tersebut secara sistematis sedikit terlalu tinggi, yang berarti blok-blok ditambang rata-rata sedikit lebih lambat dari target 10 menit (sekitar 0,05% lebih lambat). Bug ini sangat terkenal tetapi tidak pernah diperbaiki, karena memodifikasinya akan membutuhkan hard fork dan dampaknya tetap dapat diabaikan dalam praktik, di luar serangan teoritis yang disebut "*time warp*".
+
 ### Representasi target
 
 

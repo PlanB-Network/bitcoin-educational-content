@@ -12,6 +12,9 @@ objectives:
 Vad krävs för att bygga på Bitcoin? Denna 20-timmars kurs tar dig under ytan av Bitcoin och Lightning Network och utforskar de protokoll som driver världens mest motståndskraftiga finansiella infrastruktur. Oavsett om du vill bidra till open source-projekt eller bygga nästa generation av Bitcoin-applikationer, kommer du att få det tekniska djup som behövs för att börja arbeta med självförtroende i detta ekosystem.
 
 Inspelad under CUBO+ 2023 bootcamp i El Salvador samlar denna kurs perspektiv från ledande Bitcoin-utvecklare och utbildare som har format teknologin. Det bästa? Den är helt gratis, möjliggjord av Fulgure Ventures, Bitcoin Office och DecouvreBitcoin. Om du har varit nyfiken på hur Bitcoin verkligen fungerar på protokollnivå är detta din chans att ta reda på det.
+
+Obs: Videorna för denna kurs är endast tillgängliga på engelska.
+
 +++
 # Introduktion och förberedande kurser
 

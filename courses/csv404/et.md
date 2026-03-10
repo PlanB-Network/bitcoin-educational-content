@@ -17,6 +17,8 @@ Through hands-on implementation and real-world examples, you'll master the Merkl
 
 Whether you're building stablecoins, NFTs, or custom financial instruments, this course provides the technical depth and practical skills to leverage Taproot Assets for next-generation Bitcoin applications.
 
+Märkus: Selle kursuse videod on saadaval ainult inglise keeles.
+
 +++
 
 # Introduction

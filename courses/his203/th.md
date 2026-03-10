@@ -3563,3 +3563,21 @@ Trendon ภายหลังอ้างว่าไม่ได้เป็น
 ---
 
 หลักสูตรเกี่ยวกับการก่อสร้าง Bitcoin ระหว่างฤดูใบไม้ผลิปี 2011 ถึงฤดูร้อนปี 2012 สิ้นสุดลงที่นี่ ช่วงถัดไปของประวัติศาสตร์สกุลเงินดิจิทัล ซึ่งเป็นการเพิ่มขึ้นอย่างไม่อาจต้านทานของ Bitcoin จะถูกครอบคลุมในหลักสูตรถัดไป ถ้าพระเจ้าประสงค์
+# Conclusion
+
+<partId>85b5b21d-2754-41ad-9e25-21350488cfd3</partId>
+
+## Reviews & Ratings
+
+<chapterId>52d64403-1669-4852-ae4f-17ecfe1dc315</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Final Exam
+
+<chapterId>080fb5af-dfff-4600-95cb-61455831080f</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusion
+
+<chapterId>cd50980c-0c9e-43e5-97ec-4db79388335b</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

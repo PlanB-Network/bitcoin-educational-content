@@ -691,6 +691,8 @@ This calculation is performed locally by each node, based on the timestamps ente
 There's an important detail to note about this adjustment: **it is limited**. Bitcoin limits the variation in difficulty per period in order to avoid too abrupt changes that could block it. In fact, the actual time taken into account is constrained to remain within a range equivalent to a factor of 4 (minimum one quarter of the old target, maximum four times the old target). This prevents extreme retargeting if timestamps are highly atypical or manipulated.
 
 
+Note also that in reality, the Bitcoin difficulty adjustment is not perfectly accurate. Indeed, we have seen that it is designed to recalculate the difficulty every 2016 blocks, by comparing the actual elapsed time to the target time of 14 days (2016 × 10 minutes). However, Satoshi's original code contains a so-called "*off-by-one*" error: instead of measuring the time between the last blocks of each period (i.e., 2016 intervals), it measures the time between the first block and the last, which is only 2015 intervals. Concretely, the difficulty is calculated as if the period consisted of only 2015 blocks instead of 2016. The consequence is that the difficulty is systematically very slightly overestimated, meaning that blocks are mined on average a tiny bit slower than the target 10 minutes (about 0.05% slower). This bug is well known but has never been corrected, as modifying it would require a hard fork and its impact remains negligible in practice, outside of the theoretical attack called "*time warp*".
+
 ### Target representation
 
 

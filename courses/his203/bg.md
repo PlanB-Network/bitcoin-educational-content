@@ -3563,3 +3563,21 @@ Trendon [обясни](https://web.archive.org/web/20120326140927/https://bitcoi
 ---
 
 Курсът по строителството на Bitcoin между пролетта на 2011 г. и лятото на 2012 г. приключва тук. Следващият период от историята на криптовалутите, този на неудържимия възход на Bitcoin, ще бъде разгледан в следващия курс, дай Боже.
+# Conclusion
+
+<partId>85b5b21d-2754-41ad-9e25-21350488cfd3</partId>
+
+## Reviews & Ratings
+
+<chapterId>52d64403-1669-4852-ae4f-17ecfe1dc315</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Final Exam
+
+<chapterId>080fb5af-dfff-4600-95cb-61455831080f</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusion
+
+<chapterId>cd50980c-0c9e-43e5-97ec-4db79388335b</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

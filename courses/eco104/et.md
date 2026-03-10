@@ -1499,6 +1499,11 @@ Lisaks finantsilisele sõltumatusele on Bitcoin andnud Afganistani naistele taga
 Lisaks, tänu Mahboobile ja Bitcoinile, saavad need Afganistani naised nüüd ühendust globaalse publikuga. Loodetavasti jätkavad need naised aastate jooksul oma lugude ja vaatenurkade jagamist maailmaga, aidates murda barjääre erinevate kultuuride ja kogukondade vahel.
 
 Kokkuvõttes on Bitcoin olnud võimas vahend naiste finantsiliseks volitamiseks.
+
+## Mercedes
+
+<chapterId>dfa10b75-19f6-578a-9d14-a0a541806076</chapterId>
+
 Sündinud 1949. aastal Mehhikos vaesunud oludes, koges Mercedes juba varajasest east alates ühiskonnas valitsevaid teravaid ebavõrdsusi. Läbi oma lapsepõlve seisid tal ees arvukad väljakutsed, sealhulgas valitsuse represseerimine üliõpilasliikumiste vastu ja naistele vaesuses elades omased unikaalsed raskused. Lisaks lõi tohutu lõhe rikaste ja vaeste vahel koos piiratud juurdepääsuga kvaliteetsele haridusele tema perele ja lugematutele teistele vaesuse lõksu. Nende ebaõigluste tõttu kaldus Mercedes marksismi (kommunismi) poole, pooldades sotsiaalset muutust ja majandusreformi.
 
 Hoolimata tugevatest marksistlikest veendumustest jõudis Mercedes lõpuks tunnistada nende traditsiooniliste süsteemide sisemisi piiranguid, kui asi puudutas võimu ja rikkuse jaotust. See teadmine suunas ta otsima muid lahendusi, mis viis ta Bitcoinini ja selle potentsiaalini väljakutse esitamiseks just nendele finantssüsteemidele, mida ta oli pikalt kritiseerinud. Motiveerituna võimalusest edendada finantsvabadust ja -õigust, suunas Mercedes oma energia Bitcoini transformeeriva potentsiaali propageerimisele.
@@ -1516,6 +1521,9 @@ Mercedese järjekindel pühendumus vaesuses elavate inimeste erilistele raskuste
 Täis lootust ja elevust näeb Mercedes Bitcoini potentsiaali maailma paremaks muutmiseks, eeldusel, et see on kirglike, pühendunud inimeste kätes. Naistega selle muutuse eesotsas usub ta, et pole piire sellele, mida nad koos saavutada võivad.
 
 Mercedese elu on olnud uskumatu teekond ja Bitcoini mõju tema elule on tõeliselt märkimisväärne. Tema lugu on lootuse majakas Bitcoini võimele tuua kaasa tähendusrikas muutus ja võimestada inimesi igast eluvaldkonnast. Finantsvõrdsuse eestkõnelejana kasutab ta oma ulatuslikke teadmisi ja reisikogemusi, et harida ja tõsta esile neid, kes on traditsiooniliste finantssüsteemide poolt marginaliseeritud. Tema jätkuvad jõupingutused näitavad, kuidas ühe inimese kirg ja otsusekindlus võivad inspireerida positiivset muutust kogukondades üle maailma.
+
+## Stablecoini lood
+
 <chapterId>7b6d8d57-905d-5168-9be6-3df7c938de2a</chapterId>
 Kuna me läheneme selle kursuse lõpule, soovime esitleda kogumikku inspireerivaid stablecoinide lugusid. Need tunnistused näitavad reaalseid kogemusi üksikisikutelt, ettevõtjatelt ja ettevõtetelt, kes on kasutanud stablecoinide jõudu, et tõsta oma elukvaliteeti.
 

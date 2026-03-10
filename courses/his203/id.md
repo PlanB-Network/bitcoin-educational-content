@@ -3563,3 +3563,21 @@ Peningkatan spekulasi juga merupakan kabar baik bagi Mt. Gox, yang tumbuh jauh l
 ---
 
 Kursus tentang konstruksi Bitcoin antara musim semi 2011 dan musim panas 2012 berakhir di sini. Periode selanjutnya dari sejarah mata uang kripto, yaitu kenaikan Bitcoin yang tak tertahankan, akan dibahas dalam kursus berikutnya, Insya Allah.
+# Conclusion
+
+<partId>85b5b21d-2754-41ad-9e25-21350488cfd3</partId>
+
+## Reviews & Ratings
+
+<chapterId>52d64403-1669-4852-ae4f-17ecfe1dc315</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Final Exam
+
+<chapterId>080fb5af-dfff-4600-95cb-61455831080f</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusion
+
+<chapterId>cd50980c-0c9e-43e5-97ec-4db79388335b</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

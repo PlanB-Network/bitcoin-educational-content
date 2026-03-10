@@ -12,6 +12,9 @@ objectives:
 Cần gì để xây dựng trên Bitcoin? Khóa học 20 giờ này đưa bạn đi sâu vào bề mặt của Bitcoin và Mạng Lightning, khám phá các giao thức cung cấp sức mạnh cho cơ sở hạ tầng tài chính kiên cường nhất thế giới. Cho dù bạn đang tìm cách đóng góp cho các dự án mã nguồn mở hay xây dựng thế hệ ứng dụng Bitcoin tiếp theo, bạn sẽ có được chiều sâu kỹ thuật cần thiết để bắt đầu làm việc một cách tự tin trong hệ sinh thái này.
 
 Được ghi hình trong bootcamp CUBO+ 2023 tại El Salvador, khóa học này tập hợp các quan điểm từ các nhà phát triển và giáo viên Bitcoin hàng đầu đã định hình nên công nghệ. Phần tuyệt vời nhất? Nó hoàn toàn miễn phí, được thực hiện nhờ Fulgure Ventures, Bitcoin Office và DecouvreBitcoin. Nếu bạn tò mò về cách Bitcoin thực sự hoạt động ở cấp độ giao thức, đây là cơ hội để bạn tìm hiểu.
+
+Lưu ý: Video của khóa học này chỉ có sẵn bằng tiếng Anh.
+
 +++
 # Khóa học giới thiệu và dự bị
 

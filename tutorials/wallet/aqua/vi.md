@@ -1,194 +1,287 @@
 ---
 name: Aqua
-description: Bitcoin, Lightning and Liquid in a single wallet
+description: Bitcoin, Lightning và Liquid trong một wallet duy nhất
 ---
 ![cover](assets/cover.webp)
 
-Aqua is a mobile application that makes it easy to create a hot wallet for Bitcoin and Liquid, and also offers the possibility of using Lightning without the complexity of managing a node, thanks to integrated swaps. It also enables USDT stablecoins to be managed on various networks.
 
-Developed by the JAN3 company under the direction of Samson Mow, the Aqua app was initially designed specifically for the needs of users in Latin America, although it is suitable for any user worldwide. It is particularly interesting for beginners and those who use Bitcoin on a daily basis for their payments.
+Aqua là một ứng dụng di động giúp dễ dàng tạo ra một wallet hoạt động mạnh mẽ cho Bitcoin và Liquid, đồng thời cung cấp khả năng sử dụng Lightning mà không cần quản lý node phức tạp nhờ tính năng hoán đổi tích hợp. Ứng dụng này cũng cho phép quản lý stablecoin USDT trên nhiều mạng khác nhau.
 
-In this tutorial, we're going to find out how to use Aqua's many features. But before we do, let's take a moment to understand what a sidechain is on Bitcoin and how Liquid works, so that we can fully grasp the value of Aqua.
+
+Được phát triển bởi công ty JAN3 dưới sự chỉ đạo của Samson Mow, ứng dụng Aqua ban đầu được thiết kế dành riêng cho nhu cầu của người dùng ở Mỹ Latinh, mặc dù nó phù hợp với bất kỳ người dùng nào trên toàn thế giới. Ứng dụng này đặc biệt hữu ích cho người mới bắt đầu và những người sử dụng Bitcoin hàng ngày để thanh toán.
+
+
+Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách sử dụng nhiều tính năng của Aqua. Nhưng trước khi làm điều đó, hãy dành chút thời gian để hiểu sidechain trên Bitcoin là gì và Liquid hoạt động như thế nào, để chúng ta có thể nắm bắt đầy đủ giá trị của Aqua.
+
 
 ![AQUA](assets/fr/01.webp)
 
-## What's a sidechain?
 
-The Bitcoin protocol has intentional technical limitations which help to maintain the network's decentralization and ensure security is distributed among all users. However, these limitations can sometimes frustrate users, particularly during congestion due to a high volume of simultaneous transactions. The debate over Bitcoin's scalability has long divided the community, particularly during the Blocksize War. Since this episode, it is widely recognized within the Bitcoin community that scalability must be ensured by off-chain solutions, on second-layer systems. These solutions include sidechains, which are still relatively unknown and little used compared to other systems such as the Lightning Network.
+## Sidechain là gì?
 
-A sidechain is an independent blockchain that operates in parallel with the main Bitcoin blockchain. It uses bitcoin as a unit of account, thanks to a mechanism called "*two-way peg*". This system makes it possible to lock bitcoins on the main chain in order to reproduce their value on the sidechain, where they circulate in the form of tokens backed by the original bitcoins. These tokens normally retain parity of value with the bitcoins locked on the main chain, and the process can be reversed to recover funds on Bitcoin.
 
-The aim of sidechains is to offer additional functionalities or technical improvements, such as faster transactions, lower fees or support for smart contracts. These innovations cannot always be implemented directly on the Bitcoin blockchain without compromising its decentralization or security. Sidechains therefore make it possible to test and explore new solutions while preserving Bitcoin's integrity. However, these protocols often require compromises, particularly in terms of decentralization and security, depending on the governance model and consensus mechanism chosen.
+Giao thức Bitcoin có những hạn chế kỹ thuật được thiết kế có chủ đích nhằm duy trì tính phi tập trung của mạng lưới và đảm bảo an ninh được phân bổ cho tất cả người dùng. Tuy nhiên, những hạn chế này đôi khi có thể gây khó chịu cho người dùng, đặc biệt là trong thời gian tắc nghẽn do khối lượng giao dịch đồng thời lớn. Cuộc tranh luận về khả năng mở rộng của Bitcoin đã chia rẽ cộng đồng từ lâu, đặc biệt là trong Cuộc chiến kích thước khối (Blocksize War). Kể từ sự kiện này, cộng đồng Bitcoin đã thừa nhận rộng rãi rằng khả năng mở rộng phải được đảm bảo bằng các giải pháp off-chain, trên các hệ thống lớp thứ hai. Các giải pháp này bao gồm các chuỗi phụ (sidechain), vốn vẫn còn tương đối ít được biết đến và ít được sử dụng so với các hệ thống khác như Lightning Network.
 
-## What's Liquid?
 
-Liquid is a federated sidechain overlay for Bitcoin, developed by Blockstream to improve transaction speed, confidentiality and functionality. It uses a bilateral anchoring mechanism established on a federation to lock bitcoins on the main chain and create Liquid-bitcoins (L-BTC) in return, tokens circulating on Liquid while remaining backed by the original bitcoins.
+Sidechain là một blockchain độc lập hoạt động song song với Bitcoin chính. Nó sử dụng bitcoin làm đơn vị tính toán, nhờ vào cơ chế gọi là "*neo hai chiều*". Hệ thống này cho phép khóa bitcoin trên chuỗi chính để tái tạo giá trị của chúng trên sidechain, nơi chúng lưu hành dưới dạng token được hỗ trợ bởi bitcoin gốc. Các token này thường giữ nguyên giá trị tương đương với bitcoin bị khóa trên chuỗi chính, và quá trình này có thể đảo ngược để thu hồi tiền trên Bitcoin.
+
+
+Mục tiêu của các sidechain là cung cấp các chức năng bổ sung hoặc cải tiến kỹ thuật, chẳng hạn như giao dịch nhanh hơn, phí thấp hơn hoặc hỗ trợ hợp đồng thông minh. Những cải tiến này không phải lúc nào cũng có thể được triển khai trực tiếp trên Bitcoin hoặc blockchain mà không làm ảnh hưởng đến tính phi tập trung hoặc bảo mật của nó. Do đó, Sidechain cho phép thử nghiệm và khám phá các giải pháp mới trong khi vẫn bảo toàn tính toàn vẹn của Bitcoin. Tuy nhiên, các giao thức này thường đòi hỏi sự thỏa hiệp, đặc biệt là về tính phi tập trung và bảo mật, tùy thuộc vào mô hình quản trị và cơ chế đồng thuận được lựa chọn.
+
+
+## Liquid là gì?
+
+
+Liquid là một lớp phủ chuỗi phụ liên kết cho Bitcoin, được phát triển bởi Blockstream để cải thiện tốc độ giao dịch, quyền riêng tư và chức năng. Nó sử dụng cơ chế neo song phương được thiết lập trên một liên minh để khóa bitcoin trên chuỗi chính và tạo ra bitcoin Liquid (L-BTC) để đổi lại, các token lưu hành trên Liquid trong khi vẫn được hỗ trợ bởi bitcoin gốc.
+
 
 ![AQUA](assets/fr/02.webp)
 
-The Liquid network relies on a federation of participants, made up of recognized entities from the Bitcoin ecosystem, who validate blocks and manage bilateral pegging. In addition to L-BTC, Liquid also enables the issuance of other digital assets, such as USDT stablecoin and other cryptocurrencies.
+
+Mạng lưới Liquid dựa trên một liên minh các bên tham gia, bao gồm các thực thể được công nhận từ hệ sinh thái Bitcoin, những người xác thực các khối và quản lý việc neo giá song phương. Ngoài L-BTC, Liquid cũng cho phép phát hành các tài sản kỹ thuật số khác, chẳng hạn như stablecoin USDT và các loại tiền điện tử khác.
+
 
 ![AQUA](assets/fr/03.webp)
 
-## Install the Aqua application
 
-The first step is, of course, to download the Aqua application. Go to your application store:
+## Cài đặt ứng dụng Aqua
 
-- [For Android](https://play.google.com/store/apps/details?id=io.aquawallet.android);
-- [For Apple](https://apps.apple.com/us/app/aqua-wallet/id6468594241).
+
+Bước đầu tiên, tất nhiên, là tải xuống ứng dụng Aqua. Hãy vào cửa hàng ứng dụng của bạn:
+
+
+
+- [Dành cho Android](https://play.google.com/store/apps/details?id=io.aquawallet.android);
+- [Dành cho Apple](https://apps.apple.com/us/app/aqua-wallet/id6468594241).
+
 ![AQUA](assets/fr/04.webp)
 
-For Android users, you also have the option of installing the application via the `.apk` file [available on their GitHub](https://github.com/AquaWallet/aqua-wallet/releases).
+
+Đối với người dùng Android, bạn cũng có tùy chọn cài đặt ứng dụng thông qua tệp `.apk` [có sẵn trên GitHub của họ](https://github.com/AquaWallet/aqua-wallet/releases).
+
 
 ![AQUA](assets/fr/05.webp)
 
-Launch the application, then check the "*I have read and agreed to the Terms of Service & Privacy Policy*" box.
+
+Khởi động ứng dụng, sau đó tích vào ô "*Tôi đã đọc và đồng ý với Điều khoản dịch vụ & Chính sách bảo mật*".
+
 
 ![AQUA](assets/fr/06.webp)
 
-## Create your portfolio on Aqua
 
-Click on the "*Create Wallet*" button.
+## Tạo wallet của bạn trên Aqua
+
+
+Nhấp vào nút "*Tạo Wallet*".
+
 
 ![AQUA](assets/fr/07.webp)
 
-And voilà, your portfolio is already created!
+
+Và thế là xong, chiếc wallet của bạn đã được tạo ra!
+
 
 ![AQUA](assets/fr/08.webp)
 
-But first of all, since this is a self-custody wallet, it is imperative to make a physical backup of your mnemonic. **This mnemonic gives you full, unrestricted access to all your bitcoins**. Anyone in possession of this mnemonic can steal your funds, even without physical access to your phone.
 
-It allows you to restore access to your bitcoins in the event of loss, theft or breakage of your phone. It is therefore very important to save it carefully on a physical medium (not digital) and store it in a secure location. You can write it down on a piece of paper, or for added security, if this is a large wallet, I'd recommend engraving it on a stainless steel support to protect it from the risk of fire, flood or collapse (for a hot wallet designed to secure a small quantity of bitcoins, a simple paper backup is probably sufficient).
+Nhưng trước hết, vì đây là wallet tự quản lý, điều bắt buộc là phải sao lưu cụm từ ghi nhớ của bạn vào một bản sao vật lý. **Cụm từ ghi nhớ này cho phép bạn truy cập đầy đủ và không hạn chế vào tất cả bitcoin của mình**. Bất kỳ ai sở hữu cụm từ ghi nhớ này đều có thể đánh cắp tiền của bạn, ngay cả khi không có quyền truy cập vật lý vào điện thoại của bạn.
 
-To do this, click on the Settings menu.
+
+Nó cho phép bạn khôi phục quyền truy cập vào bitcoin của mình trong trường hợp bị mất, bị đánh cắp hoặc bị hỏng điện thoại. Do đó, điều rất quan trọng là phải lưu trữ cẩn thận trên một phương tiện vật lý (không phải kỹ thuật số) và cất giữ ở một nơi an toàn. Bạn có thể viết nó ra giấy, hoặc để tăng cường bảo mật, nếu đây là một thiết bị wallet lớn, tôi khuyên bạn nên khắc nó lên một vật liệu bằng thép không gỉ để bảo vệ nó khỏi nguy cơ hỏa hoạn, lũ lụt hoặc sụp đổ (đối với một thiết bị wallet được thiết kế để bảo vệ một lượng bitcoin nhỏ, một bản sao lưu bằng giấy đơn giản có lẽ là đủ).
+
+
+Để thực hiện việc này, hãy nhấp vào menu Cài đặt.
+
 
 ![AQUA](assets/fr/09.webp)
 
-Then click on "*View Seed Phrase*". Make a physical backup of this 12-word phrase.
+
+Sau đó nhấp vào "*Xem cụm từ gốc*". Sao lưu cụm từ 12 từ này vào một bản sao vật lý.
+
 
 ![AQUA](assets/fr/10.webp)
 
-In the same settings menu, you can also change the application language and the fiat currency used.
+
+Trong cùng menu cài đặt đó, bạn cũng có thể thay đổi ngôn ngữ ứng dụng và đơn vị tiền tệ được sử dụng.
+
 
 ![AQUA](assets/fr/11.webp)
 
-Before you receive your first bitcoins in your wallet, **I strongly advise you to perform an empty recovery test**. Make a note of some reference information, such as your xpub or first receiving address, then delete your wallet on the Aqua app while it's still empty. Then try restoring your wallet on Aqua using your paper backups. Check that the cookie information generated after the restore matches the one you originally wrote down. If it does, you can rest assured that your paper backups are reliable. To find out more about how to carry out a test recovery, please consult this other tutorial:
+
+Trước khi nhận được những đồng bitcoin đầu tiên vào wallet, **tôi khuyên bạn nên thực hiện kiểm tra khôi phục trống**. Hãy ghi lại một số thông tin tham khảo, chẳng hạn như địa chỉ xpub hoặc địa chỉ nhận tiền đầu tiên, sau đó xóa wallet trên ứng dụng Aqua khi nó vẫn còn trống. Sau đó, thử khôi phục wallet trên Aqua bằng cách sử dụng bản sao lưu giấy của bạn. Kiểm tra xem thông tin cookie được tạo ra sau khi khôi phục có khớp với thông tin bạn đã ghi lại ban đầu hay không. Nếu khớp, bạn có thể yên tâm rằng bản sao lưu giấy của bạn đáng tin cậy. Để tìm hiểu thêm về cách thực hiện kiểm tra khôi phục, vui lòng tham khảo hướng dẫn khác này:
+
 
 https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
-Điều này không hiển thị trên màn hình của tôi vì tôi đang sử dụng trình giả lập, nhưng bạn cũng sẽ thấy một tùy chọn trong cài đặt để khóa ứng dụng bằng hệ thống xác thực sinh trắc học. Tôi khuyến nghị mạnh mẽ bạn kích hoạt tính năng bảo mật này, vì nếu không, bất kỳ ai có quyền truy cập vào điện thoại mở khóa của bạn đều có thể đánh cắp bitcoin của bạn. Bạn có thể sử dụng Face ID trên iOS hoặc dấu vân tay của mình trên Android. Nếu các phương pháp này không thành công khi xác thực, bạn vẫn có thể truy cập ứng dụng thông qua mã PIN của điện thoại.
+Bạn không thể thấy nó trên màn hình của tôi vì tôi đang sử dụng trình giả lập, nhưng trong phần cài đặt, bạn sẽ tìm thấy tùy chọn khóa ứng dụng bằng hệ thống xác thực sinh trắc học. Tôi đặc biệt khuyên bạn nên bật tính năng bảo mật này vì nếu không, bất kỳ ai có quyền truy cập vào điện thoại đã mở khóa của bạn đều có thể đánh cắp bitcoin của bạn. Bạn có thể sử dụng Face ID trên iOS hoặc dấu vân tay trên Android. Nếu các phương pháp này không thành công trong quá trình xác thực, bạn vẫn có thể truy cập ứng dụng bằng mã PIN của điện thoại.
 
-## Receive bitcoins on Aqua
 
-Now that your wallet is set up, you're ready to receive your first sats! Simply click on the "*Receive*" button in the "*Wallet*" menu.
+## Nhận bitcoin trên Aqua
+
+
+Giờ đây, wallet của bạn đã được thiết lập xong, bạn đã sẵn sàng nhận sats đầu tiên! Chỉ cần nhấp vào nút "*Nhận*" trong menu "*Wallet*".
+
 
 ![AQUA](assets/fr/12.webp)
 
-You can choose to receive bitcoins onchain, on Liquid, or via Lightning.
+
+Bạn có thể chọn nhận bitcoin trên chuỗi khối, trên Liquid hoặc thông qua Lightning.
+
 
 ![AQUA](assets/fr/13.webp)
 
-For onchain transactions, Aqua will generate a specific receiving address where you can receive your sats.
+
+Đối với các giao dịch trên chuỗi, Aqua sẽ tạo ra một địa chỉ nhận cụ thể, nơi bạn có thể nhận sats của mình.
+
 
 ![AQUA](assets/fr/14.webp)
 
-Similarly, by choosing Liquid, Aqua will provide you with a Liquid address.
+
+Tương tự, khi chọn Liquid, Aqua sẽ cung cấp cho bạn địa chỉ Liquid.
+
 
 ![AQUA](assets/fr/15.webp)
 
-If you prefer to receive funds via Lightning, you will first need to specify the desired amount.
+
+Nếu bạn muốn nhận tiền qua Lightning, trước tiên bạn cần chỉ định số tiền mong muốn.
+
 
 ![AQUA](assets/fr/16.webp)
 
-Then click on "*Generate Invoice*".
+
+Sau đó nhấp vào "*Tạo Invoice*".
+
 
 ![AQUA](assets/fr/17.webp)
 
-Aqua will create an invoice to receive funds from a Lightning wallet. Please note that, unlike the onchain and Liquid options, funds received via Lightning will be automatically converted to L-BTC on Liquid using the Boltz tool, since Aqua is not a Lightning node. This process allows you to receive and send funds via Lightning, but without ever storing your bitcoins on Lightning.
+
+Aqua sẽ tạo hóa đơn để nhận tiền từ Lightning wallet. Xin lưu ý rằng, không giống như các tùy chọn onchain và Liquid, tiền nhận được qua Lightning sẽ tự động được chuyển đổi thành L-BTC trên Liquid bằng công cụ Boltz, vì Aqua không phải là một node Lightning. Quá trình này cho phép bạn nhận và gửi tiền qua Lightning, nhưng không cần lưu trữ bitcoin của bạn trên Lightning.
+
 
 ![AQUA](assets/fr/18.webp)
 
-Personally, I'm going to start by sending bitcoins via Lightning to Aqua. Once the transaction has been completed with the invoice provided, we receive a confirmation.
+
+Cá nhân tôi sẽ bắt đầu bằng cách gửi bitcoin qua Lightning đến Aqua. Sau khi giao dịch hoàn tất và hóa đơn được cung cấp, chúng ta sẽ nhận được xác nhận.
+
 
 ![AQUA](assets/fr/19.webp)
 
-To follow the swap's progress, return to your wallet's home page and click on the "*L2 Bitcoin*" account, which lists Lightning (via swap) and Liquid transactions.
+
+Để theo dõi tiến trình trao đổi, hãy quay lại trang chủ wallet của bạn và nhấp vào tài khoản "*L2 Bitcoin*", tài khoản này sẽ liệt kê các giao dịch Lightning (thông qua trao đổi) và Liquid.
+
 
 ![AQUA](assets/fr/20.webp)
 
-Here you can view your transaction and your L-BTC balance.
+
+Tại đây bạn có thể xem giao dịch và số dư L-BTC của mình.
+
 
 ![AQUA](assets/fr/21.webp)
 
-## Bitcoin swap with Aqua
 
-Now that you have assets in your Aqua wallet, you can swap them directly from the app, either to transfer them to the main Bitcoin blockchain, or to Liquid. You can also convert your bitcoins into USDT stablecoin (or others). To do so, go to the "*Marketplace*" menu.
+## Bitcoin đổi chỗ với Aqua
+
+
+Giờ đây, khi bạn đã có tài sản trong Aqua hoặc wallet, bạn có thể trực tiếp trao đổi chúng từ ứng dụng, để chuyển sang Bitcoin hoặc blockchain chính, hoặc sang Liquid. Bạn cũng có thể chuyển đổi bitcoin của mình thành stablecoin USDT (hoặc các loại khác). Để làm điều đó, hãy vào menu "*Marketplace*".
+
 
 ![AQUA](assets/fr/22.webp)
 
-Click on "*Swaps*".
+
+Nhấp vào "*Trao đổi*".
+
 
 ![AQUA](assets/fr/23.webp)
 
-In the "*Transfer from*" box, select the asset you wish to trade. Currently, I only own L-BTC, so that's what I select.
+
+Trong ô "*Chuyển từ*", hãy chọn tài sản bạn muốn giao dịch. Hiện tại, tôi chỉ sở hữu L-BTC, vì vậy tôi chọn tài sản đó.
+
 
 ![AQUA](assets/fr/24.webp)
 
-In the "*Transfer to*" box, choose the target asset for your swap. For my part, I opted for USDT on the Liquid network.
+
+Trong ô "*Chuyển đến*", hãy chọn tài sản đích cho giao dịch hoán đổi của bạn. Về phần mình, tôi đã chọn USDT trên mạng Liquid.
+
 
 ![AQUA](assets/fr/25.webp)
 
-Enter the amount you wish to convert.
+
+Nhập số tiền bạn muốn chuyển đổi.
+
 
 ![AQUA](assets/fr/26.webp)
 
-Confirm by clicking on "*Continue*".
+
+Xác nhận bằng cách nhấp vào "*Tiếp tục*".
+
 
 ![AQUA](assets/fr/27.webp)
 
-Make sure you're happy with the swap settings, then confirm by dragging the "*Swap*" button at the bottom of the screen.
+
+Hãy đảm bảo bạn hài lòng với các thiết lập hoán đổi, sau đó xác nhận bằng cách kéo nút "*Hoán đổi*" ở cuối màn hình.
+
 
 ![AQUA](assets/fr/28.webp)
 
-Your swap is now confirmed.
+
+Giao dịch đổi trả của bạn đã được xác nhận.
+
 
 ![AQUA](assets/fr/29.webp)
 
-Looking back at our portfolio, we can see that we now have USDT on Liquid.
+
+Nhìn lại wallet của chúng ta, ta có thể thấy hiện tại chúng ta đã có USDT trên Liquid.
+
 
 ![AQUA](assets/fr/30.webp)
 
-## Send bitcoins with Aqua
 
-Now that you have bitcoins in your Aqua wallet, you can send them. Click on the "*Send*" button.
+## Gửi bitcoin bằng Aqua
+
+
+Giờ bạn đã có bitcoin trong Aqua hoặc wallet, bạn có thể gửi chúng đi. Nhấp vào nút "*Gửi*".
+
 
 ![AQUA](assets/fr/31.webp)
 
-Choose the asset you want to send or select the network to carry out the transaction. For my part, I'm going to send bitcoins via Lightning.
+
+Hãy chọn loại tài sản bạn muốn gửi hoặc chọn mạng lưới để thực hiện giao dịch. Về phần mình, tôi sẽ gửi bitcoin qua Lightning Network.
+
 
 ![AQUA](assets/fr/32.webp)
 
-Next, enter the information needed to send the payment: for onchain or Liquid bitcoins, you'll need to enter a receiving address; for Lightning, an invoice is required. You can paste this information directly into the field provided, or use the QR code icon to open your camera and scan the address or invoice. Then click on "*Continue*".
+
+Tiếp theo, nhập thông tin cần thiết để gửi thanh toán: đối với bitcoin onchain hoặc Liquid, bạn cần nhập địa chỉ nhận; đối với Lightning, cần có hóa đơn. Bạn có thể dán thông tin này trực tiếp vào ô được cung cấp, hoặc sử dụng biểu tượng mã QR để mở camera và quét địa chỉ hoặc hóa đơn. Sau đó nhấp vào "*Tiếp tục*".
+
 
 ![AQUA](assets/fr/33.webp)
 
-Click "*Continue*" again if all the information seems correct.
+
+Nếu tất cả thông tin đều chính xác, hãy nhấp vào "*Tiếp tục*" một lần nữa.
+
 
 ![AQUA](assets/fr/34.webp)
 
-Aqua then presents you with a summary of the transaction. Make sure all information is correct, including the destination address, charges and amount. To confirm the transaction, slide the "*Slide to send*" button at the bottom of the screen.
+
+Aqua sau đó sẽ hiển thị cho bạn bản tóm tắt giao dịch. Hãy đảm bảo tất cả thông tin đều chính xác, bao gồm địa chỉ người nhận, phí và số tiền. Để xác nhận giao dịch, hãy trượt nút "*Trượt để gửi*" ở cuối màn hình.
+
 
 ![AQUA](assets/fr/35.webp)
 
-You will then receive confirmation of the shipment.
+
+Sau đó bạn sẽ nhận được xác nhận về việc vận chuyển.
+
 
 ![AQUA](assets/fr/36.webp)
 
-So now you know how to use the Aqua app to receive and spend funds on Bitcoin, Lightning and Liquid, all from a single interface.
 
-If you found this tutorial useful, I'd be grateful if you'd leave a green thumb below. Feel free to share this article on your social networks. Thank you very much!
+Vậy là giờ bạn đã biết cách sử dụng ứng dụng Aqua để nhận và chi tiêu tiền trên Bitcoin, Lightning và Liquid, tất cả chỉ từ một giao diện duy nhất.
 
-I also recommend you check out this other comprehensive tutorial on the Blockstream Green mobile app, which is another interesting solution for setting up your Liquid wallet :
+
+Nếu bạn thấy hướng dẫn này hữu ích, tôi rất biết ơn nếu bạn để lại một biểu tượng ngón tay cái màu xanh lá cây bên dưới. Hãy thoải mái chia sẻ bài viết này trên mạng xã hội của bạn. Cảm ơn rất nhiều!
+
+
+Tôi cũng khuyên bạn nên xem hướng dẫn chi tiết khác về ứng dụng di động Blockstream Green, đây cũng là một giải pháp thú vị khác để thiết lập Liquid wallet của bạn:
+
 
 https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
-

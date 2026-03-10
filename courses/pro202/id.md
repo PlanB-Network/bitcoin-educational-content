@@ -17,6 +17,7 @@ Kursus intensif dua hari ini, yang diajarkan oleh Jimmy Song, akan membawa Anda 
 
 Selamat menikmati perjalanan!
 
+Catatan: Video untuk kursus ini hanya tersedia dalam bahasa Inggris.
 
 +++
 

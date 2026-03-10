@@ -17,6 +17,7 @@ Iryo shure rikomeye ry’imisi ibiri, ryigishwa na Jimmy Song, rigutwara mu mish
 
 Nimwinovore urugendo!
 
+Iciyumviro: Amavidewo y'iri somo aboneka mu congereza gusa.
 
 +++
 

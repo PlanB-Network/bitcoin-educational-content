@@ -39,6 +39,34 @@ Kitabu hiki kiliidhinishwa na kufadhiliwa na [Chaincode Labs](https://learning.c
 
 +++
 
+
+
+# Utangulizi
+
+<partId>58c48e9b-e285-4dc6-8952-6cc5140b1313</partId>
+
+## Muhtasari wa kozi
+
+<chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
+
+Karibu kwenye kozi hii ya BTC 303 kuhusu falsafa ya maendeleo ya Bitcoin.
+
+Bitcoin ni zaidi ya sarafu ya kidijitali tu, inaangazia maono ya kifalsafa kuhusu ugatuzi, faragha, kutokuwa na imani, na ustahimilivu. Kozi hii imeundwa mahsusi kwa ajili ya wasanidi programu ambao tayari wanafahamu misingi ya kiufundi ya Bitcoin ambao sasa wanatafuta kuongeza uelewa wao wa kanuni zinazosimamia muundo na utawala wa Bitcoin.
+
+Katika kozi hii yote, utapata ufafanuzi kuhusu maadili na mikakati muhimu ambayo imeongoza mageuko ya Bitcoin kwa zaidi ya muongo mmoja. Kwa kuchunguza mada hizi kwa kina, utaendeleza mtazamo muhimu unaohitajika ili kutathmini na kuchangia maendeleo ya siku zijazo kwa kujiamini.
+
+### Thamani Kuu za Bitcoin
+
+Ni nini kinachofanya Bitcoin kuwa ya kipekee? Sehemu hii inaonyesha maadili ya msingi katika moyo wa muundo wa Bitcoin. Utachunguza **ugatuzi**, msingi unaohakikisha hakuna chombo kimoja kinachodhibiti mtandao; **kutoaminika**, ufunguo wa kuondoa utegemezi wa mtu wa tatu; **faragha**, muhimu kwa uhuru wa mtu binafsi na uadilifu wa mfumo; na **usambazaji mdogo**, dhamana ya uhaba iliyosimbwa ambayo huunda utambulisho wa kiuchumi wa Bitcoin. Kufahamu dhana hizi kutakuruhusu kuelewa kikamilifu nguvu na udhaifu wa Bitcoin.
+
+### Utawala wa Bitcoin
+
+Kupitia mazingira tata ya utawala wa Bitcoin kunahitaji zaidi ya utaalamu wa kiufundi, kunahitaji uelewa wa mbinu ya kipekee ya Bitcoin ya makubaliano na kufanya maamuzi. Katika sehemu hii, utachunguza mifumo na falsafa zilizo nyuma ya michakato muhimu kama vile uboreshaji wa itifaki, umuhimu wa mawazo ya wapinzani, nguvu ya ushirikiano wa chanzo huria, changamoto zinazoendelea za kuongeza ukubwa, na mikakati yenye umbo linalohitajika wakati mambo yanapoharibika bila shaka. Ukiwa na maarifa haya, utakuwa tayari si tu kushiriki bali pia kuunda mustakabali wa Bitcoin kwa ufanisi na uwajibikaji.
+
+Uko tayari kuchukua hatua inayofuata katika safari yako ya Bitcoin? Tuanze!
+
+
+
 # Bitcoin Maadili ya Kati
 
 <partId>2d6c683b-54c8-5465-b2ca-4e96a6828834</partId>

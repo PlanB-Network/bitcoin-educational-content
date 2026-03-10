@@ -164,9 +164,10 @@ proofreading:
     contributor_names:
     reward: 34.93
   - language: bg
-    last_contribution_date:
+    last_contribution_date: '2026-02-20'
     urgency: 1
     contributor_names:
+      - Asi0Flammeus
     reward: 21.0
   - language: th
     last_contribution_date:

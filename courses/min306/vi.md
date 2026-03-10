@@ -16,6 +16,8 @@ Dự án Bitaxe đại diện cho một bước chuyển biến mang tính độ
 
 Không yêu cầu kinh nghiệm mining trước đó, nhưng kiến thức điện tử cơ bản và sự quen thuộc với GitHub sẽ rất hữu ích. Khóa học sẽ biến bạn từ một người quan sát tò mò thành một người xây dựng và đóng góp Bitaxe có năng lực.
 
+Lưu ý: Video của khóa học này chỉ có sẵn bằng tiếng Anh.
+
 +++
 
 # Giới thiệu

@@ -924,6 +924,8 @@ Hariho ikintu gihambaye co kumenya ku bijanye n'iyi mpinduka: **irafise aho igar
 
 
 
+Tumenye kandi ko mu by'ukuri, ukunganya ingorane za Bitcoin kutari mu buryo butunganye neza. Nk'uko twabibonye, bitegekanijwe ko ingorane zisubirwamwo buri mibumbe (blocs) 2016, mu kugereranya igihe nyakuri cakoreshejwe n'igihe gitegekanijwe c'imisi 14 (2016 × iminota 10). Ariko rero, ikodi (code) ya mbere ya Satoshi irimwo ikosa bita "*off-by-one*": aho gupima igihe hagati y'imibumbe ya nyuma ya buri kiringo (ni kuvuga ibihe 2016), ipima igihe hagati y'umubumbe wa mbere n'uwa nyuma, ni kuvuga ibihe 2015 gusa. Mu buryo bufatika, ingorane ziharurwa nk'aho ikiringo cari kigizwe n'imibumbe 2015 gusa aho kuba 2016. Ivyo bituma ingorane zihasirwa cane mu buryo bwiyongereye gatoyi, bigatuma imibumbe yubakwa (miner) mu kigereranyo buhoro cane ugereranije n'iminota 10 yategekanijwe (nk'ibice 0,05% buhoro). Iryo kosa rirazwi cane ariko ntabwo ryigeze rikosorwa, kuko kurihindura vyasaba "hard fork" kandi ingaruka zaryo ziracyari ntonyi mu ngiro, uretse igitero c'icigwa bita "*time warp*".
+
 ### Uguserukira intumbero
 
 

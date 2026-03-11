@@ -1,0 +1,23 @@
+id: 6acb73e4-6122-4032-ba2a-8fc2c0c1b5c4
+name: ANAP Holdings
+category: investment
+links:
+  website: https://www.anap.co.jp/hd/
+  twitter: 
+  github: 
+  youtube: 
+tags:
+  - adoption
+  - innovation
+  - finance
+original_language: ja
+proofreading:
+  - language: ja
+    last_contribution_date: 2026-03-11
+    urgency: 1
+    contributor_names:
+      - Rogzy-DB
+    reward: 0
+contributor_names:
+  - Rogzy-DB
+license: CC-BY-SA-V4

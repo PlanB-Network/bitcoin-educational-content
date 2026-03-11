@@ -1,0 +1,23 @@
+id: 4ad47896-0252-4459-ba80-b0647566a0f5
+name: MiningOS
+category: mining
+links:
+  website: https://mos.tether.io
+  twitter: https://x.com/tether
+  github: https://docs.mos.tether.io/miningos-repos
+  youtube: 
+tags:
+  - mining
+  - software
+  - self-sovereignty
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2026-03-11
+    urgency: 1
+    contributor_names:
+      - Rogzy-DB
+    reward: 0
+contributor_names:
+  - Rogzy-DB
+license: CC-BY-SA-V4

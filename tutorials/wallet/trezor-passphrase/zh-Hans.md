@@ -1,44 +1,26 @@
 ---
-name: BIP-39 Passphrase Trezor
-description: 如何将 passphrase 添加到 Trezor 产品组合中？
+name: Trezor 上的 BIP-39 Passphrase（密语）
+description: 如何为我的 Trezor 钱包添加密语？
 ---
 ![cover](assets/cover.webp)
 
-
-
-passphrase BIP39 是一个可选密码，与 Mnemonic 短语相结合，为确定性和分层 Bitcoin 组合提供额外的 Layer 安全性。在本教程中，我们将共同探讨如何在 Trezor（Safe 3、Safe 5 和 Model One）上的安全 Bitcoin Wallet 上设置 passphrase。
-
-
+BIP39 Passphrase（密语）是一个可选密码，它与助记词结合使用，可为确定性分层比特币钱包提供额外的安全保障。在本教程中，我们将一起学习如何在 Trezor（Safe 3、Safe 5 和 Model One）上的安全比特币钱包中设置密语。
 
 ![Image](assets/fr/01.webp)
 
-
-
-在开始本教程之前，如果您不熟悉 passphrase 的概念、工作原理及其对 Bitcoin Wallet 的影响，我强烈建议您参阅我在另一篇理论文章中的解释（这一点非常重要，因为在不完全了解 passphrase 工作原理的情况下使用 passphrase 会给您的比特币带来风险）：
-
-
+在开始本教程之前，如果您还不熟悉密语的概念、工作原理及其对比特币钱包的影响，我强烈建议您先阅读这篇理论文章，其中详细解释了所有相关内容（这一点非常重要，因为在不完全了解其工作原理的情况下使用密语可能会使您的比特币面临风险）：
 
 https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-如果在配置过程中选择了 BIP39 标准，Trezor 上的 passphrase 将以传统方式处理（如果不需要*多共享备份*，我建议使用这种方式）。Trezor 的特别之处在于，你既可以直接在 Hardware Wallet 上输入 passphrase，也可以使用 Trezor Suite 软件通过电脑键盘输入。第二种方法的安全性要低得多，因为电脑的攻击面比 Hardware Wallet 大得多。不过，在传统键盘上输入复杂的 passphrase 可能比在 Hardware Wallet 上更快，这可能会鼓励使用强密码。因此，即使必须输入 passphrase，使用 passphrase 总比不使用要好。不过，重要的是要始终意识到这意味着数字攻击风险的增加。
+如果您在配置过程中选择了 BIP39 标准（如果您不需要*多共享备份*，我推荐您选择此标准），Trezor 的密语处理方式与传统方式相同。Trezor 的特殊之处在于，您可以直接在硬件钱包上输入密语，也可以使用 Trezor Suite 软件通过电脑键盘输入。第二种方法安全性要低得多，因为计算机的攻击面比硬件钱包大得多。然而，在传统键盘上输入复杂的密语可能比在硬件钱包上输入更快，这可能会鼓励用户使用强密语。因此，即使需要手动输入，使用密语也总比完全不使用要好。但是，必须意识到这会增加遭受数字攻击的风险。
 
-
-
-并非所有与 Trezor 兼容的投资组合管理软件都提供这些选项。例如，对于 Model One，可通过 Sparrow Wallet 上的键盘输入 passphrase。对于 T 型、Safe 3 和 Safe 5 型，您必须使用 Trezor Suite 或直接在 Hardware Wallet 上输入 passphrase，因为通过 Sparrow 输入的选项几年前已被 HWI 禁用。
-
-
+并非所有兼容 Trezor 的钱包管理软件都提供这些选项。例如，对于 Model One，可以通过 Sparrow Wallet 上的键盘输入密语。对于 Model T、Safe 3 和 Safe 5 型号，您必须使用 Trezor Suite 或直接在硬件钱包上输入密语，因为 HWI 几年前已禁用通过 Sparrow 输入密语的选项。
 
 ![Image](assets/fr/02.webp)
 
+在 Trezor Suite 中，您可以通过两种不同的方式管理密语的需求。您可以在 “*Device*” 选项卡中启用 “*passphrase*” 选项。启用后，Trezor Suite 和所有其他钱包管理软件每次启动时都会自动要求您输入密语。如果您希望使用更隐蔽的密语方式，可以将设置保留为 “*Standard*”。在这种情况下，您需要在每次启动硬件钱包时手动访问左上角的选单，然后点击“*+ passphrase*” 按钮。
 
-
-在 Trezor Suite 中，有两种管理 passphrase 需求的不同方法。您可以激活 "*设备*"选项卡中的 "*passphrase*"选项。如果启用该选项，Trezor Suite 和所有其他投资组合管理软件都会在每次启动时系统地要求您输入 passphrase。如果您喜欢更谨慎地使用 passphrase，可以将设置保留为 "*标准*"。在这种情况下，您需要手动访问 Hardware Wallet 左上角的菜单，并在每次启动时点击 "*+ passphrase*"按钮。
-
-
-
-在开始本教程之前，请确保您已经初始化了 Trezor 并生成了 Mnemonic 短语。如果尚未初始化，并且您的 Trezor 是新产品，请按照 Plan ₿ Academy 上的特定型号教程进行操作。完成这一步骤后，即可返回本教程。
-
-
+在开始本教程之前，请确保您已初始化 Trezor 并生成助记词。如果您尚未初始化 Trezor 并生成助记词，请按照 Plan ₿ Academy 上提供的针对您 Trezor 型号的教程进行操作。完成此步骤后，您可以返回本教程。
 
 https://planb.academy/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
 
@@ -47,174 +29,92 @@ https://planb.academy/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2
 https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 
-## 为保险柜 3 或保险柜 5 添加 passphrase
+## 为 Safe 3 或 Safe 5 添加密语
 
-
-
-创建 Wallet、保存 Mnemonic 和设置 PIN 码后，就会进入 Trezor Suite 的主菜单。左上角会出现一个窗口，邀请您激活 passphrase BIP39。
-
-
+创建钱包、保存助记词并设置 PIN 码后，您将进入 Trezor Suite 的主选单。在左上角，应该会出现一个窗口，提示您激活 BIP39 密语。
 
 ![Image](assets/fr/03.webp)
 
-
-
-如果该窗口没有出现，则需要在 "*设备*"设置选项卡中手动激活 "*passphrase*"选项。
-
-
+如果此窗口未出现，您需要在 “Device” 设置选项卡中手动激活 “passphrase” 选项。
 
 ![Image](assets/fr/04.webp)
 
+此窗口会要求您输入密语。请选择一个强密语，并立即将其备份到纸张或金属等介质上。在本例中，我选择的密语为：`fH3&kL@9mP#2sD5qR!82`。这只是一个示例；不过，我建议您选择一个稍长一些的密语。30 到 40 个字符比较理想（就像一个强密码一样）。
 
+当然，您绝不应该像我在本教程中那样在互联网上分享您的密语。这个示例钱包仅用于测试网，并将在本教程结束后删除。
 
-该窗口要求您输入 passphrase。选择一个强大的 passphrase，并立即在纸张或金属等介质上进行物理备份。在本例中，我选择的是 passphrase：`fH3&kL@9mP#2sD5qR!82`.这只是一个例子，但我建议您选择稍长一点的 passphrase。30 到 40 个字符是最理想的（就像一个好的密码）。
-
-
-
-当然，您千万不要像我在本教程中所做的那样，在互联网上分享您的 passphrase。本例中的 Wallet 只能在 Testnet 上使用，并将在教程结束时删除。
-
-
-
-有关选择 passphrase 的更多具体建议，请再次参阅另一篇文章：
-
-
+关于选择密语的更具体建议，我再次邀请您参考这篇文章：
 
 https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-如果您想通过电脑键盘输入您的 passphrase，请在提供的字段中输入，然后点击 "*访问 passphrase Wallet*"。
-
-
+如果您想通过电脑键盘输入您的密语，请在提供的字段中输入，然后点击 "*Access passphrase Wallet*"。
 
 ![Image](assets/fr/05.webp)
 
-
-
-然后，Hardware Wallet 将显示您的 passphrase。在点击屏幕继续之前，请确保它与您的物理备份（纸质或金属）相匹配。
-
-
+您的硬件钱包随后将显示您的密语。请确保它与您的物理备份（纸质或金属）一致，然后再点击屏幕继续。
 
 ![Image](assets/fr/06.webp)
 
-
-
-这样您就可以访问受 passphrase 保护的投资组合。
-
-
+这样您就可以访问受密语保护的钱包了。
 
 ![Image](assets/fr/07.webp)
 
-
-
-如果您希望只在 Trezor 上输入 passphrase，以提高安全性，请在出现提示时点击 "*在 Trezor 上输入 passphrase*"。
-
-
+如果您希望仅在 Trezor 设备上输入密语以增强安全性，请在提示时点击 “*Enter passphrase on Trezor*”。
 
 ![Image](assets/fr/08.webp)
 
-
-
-Trezor 上会出现一个 T9 键盘，让您输入 passphrase。完成输入后，点击 Green 标记，将 passphrase 应用到 Wallet 上。
-
-
+您的 Trezor 设备上将出现一个 T9 键盘，您可以在其中输入密语。输入完成后，点击绿色对勾即可将密语应用到您的钱包。
 
 ![Image](assets/fr/09.webp)
 
-
-
-然后，您就可以访问您的 passphrase 安全 Wallet。
-
-
+然后，您就可以访问您的密语安全钱包了。
 
 ![Image](assets/fr/10.webp)
 
+使用 Sparrow Wallet 的步骤类似，但对于 T 型、Safe 3 型和 Safe 5 型 Trezor 设备，必须在硬件钱包上输入密语，而不能通过电脑键盘输入。
 
-
-使用麻雀 Wallet 的步骤类似，但对于 T、Safe 3 和 Safe 5 型号，必须在 Hardware Wallet 上输入 passphrase，而不是通过计算机键盘。
-
-
-
-如果麻雀 Wallet 需要访问 Trezor，而上次启动后尚未应用 passphrase，则需要使用 T9 键盘输入。
-
-
+每当 Sparrow Wallet 需要访问您的 Trezor 设备，且自上次启动以来尚未设置密码时，您需要使用 T9 键盘输入密码。
 
 ![Image](assets/fr/11.webp)
 
+## 为 Model One 添加密码
 
+在 Model One 设备上，使用 BIP39 密语几乎是必不可少的。由于该设备没有内置安全元件，因此敏感信息相对容易被窃取。因此，它无法抵御物理攻击。但是，由于密语在设备关机后不会保留，因此使用强密语（无法被暴力破解）可以保护您免受该型号设备遭受的大多数已知物理攻击。
 
-## 为一号模型添加 passphrase
+在 Model One 上，无法直接在硬件钱包上输入密语。您需要通过电脑键盘输入。
 
-
-
-在 Model One 上，使用 passphrase BIP39 几乎是必不可少的。由于该设备没有安全元件，因此相对容易提取敏感信息。因此，它无法抵御物理攻击。不过，由于 passphrase 在关机后不会保留在设备上，因此使用强力（不可篡改）的 passphrase 可以保护您免受该型号设备上大多数已知的物理攻击。
-
-
-
-在 Model One 上，无法直接在 Hardware Wallet 上输入 passphrase。您需要通过电脑键盘输入。
-
-
-
-创建 Wallet、保存 Mnemonic 和设置 PIN 码后，就会进入 Trezor Suite 的主菜单。左上角会出现一个窗口，邀请你激活 passphrase BIP39。
-
-
+创建钱包、保存助记词并设置 PIN 码后，您将进入 Trezor Suite 的主页。在左上角，应该会弹出一个窗口，提示您激活 BIP39 密语。
 
 ![Image](assets/fr/12.webp)
 
-
-
-如果该窗口未出现，则需要在设置的 "*设备*"选项卡中激活 "*passphrase*"选项。
-
-
+如果此窗口未出现，您需要在设置的 “Device” 选项卡中启用 “passphrase” 选项。
 
 ![Image](assets/fr/13.webp)
 
+此窗口会要求您输入密语。请选择一个强密语，并立即将其备份到纸张或金属等介质上。在这个例子中，我选择的密语为：`fH3&kL@9mP#2sD5qR!82`。这只是一个示例；不过，我建议您选择一个稍长的密语。30 到 40 个字符比较理想（就像一个强密码一样）。
 
-
-该窗口要求您输入 passphrase。选择一个强大的 passphrase，并立即在纸张或金属等介质上进行物理备份。在这个例子中，我选择了 passphrase：`fH3&kL@9mP#2sD5qR!82`。这只是一个例子，但我建议您选择稍长一点的 passphrase。30 到 40 个字符是最理想的（就像一个好的密码）。
-
-
-
-关于选择 passphrase 的更多具体建议，我再次邀请您参阅另一篇文章：
-
-
+如需更具体的密语选择建议，我再次邀请您参考这篇文章：
 
 https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-在提供的字段中输入您的 passphrase，然后点击 "*访问 passphrase Wallet*"按钮。
-
-
+在提供的字段中输入您的密语，然后点击 “*Access passphrase Wallet*” 按钮。
 
 ![Image](assets/fr/14.webp)
 
-
-
-您的 Hardware Wallet 将显示您的 passphrase。确保它与您的物理备份（纸质或金属）相匹配，然后点击右侧按钮继续。
-
-
+您的硬件钱包将显示您的密语。请确保它与您的实体备份（纸质或金属）一致，然后点击右侧按钮以继续。
 
 ![Image](assets/fr/15.webp)
 
-
-
-这将带您进入受 passphrase 保护的投资组合。
-
-
+这将带您进入带有密语的钱包。
 
 ![Image](assets/fr/16.webp)
 
-
-
-此后使用麻雀 Wallet 的程序保持不变。每次麻雀需要访问您的 Hardware Wallet，且设备上次启动后尚未输入 passphrase，您都需要输入。
-
-
+然后，使用 Sparrow Wallet 的步骤完全相同。每次 Sparrow 需要访问您的硬件钱包，且自上次设备启动以来未输入过密语时，您都需要重新输入密语。
 
 ![Image](assets/fr/17.webp)
 
-
-
-恭喜您，现在您已经掌握了在 Trezor 硬件钱包上使用 passphrase BIP39 的方法。如果你想进一步提高 Wallet 的安全性，请查看本教程，了解 Trezor 的*多共享*备份系统（*Shamir 的秘密共享计划*）：
-
-
+恭喜，您现在已经掌握了如何在 Trezor 硬件钱包上使用 BIP39 Passphrase（密语）。如果您想进一步提升钱包安全性，不妨看看这篇关于 Trezor *Multi-share* 备份系统（*Shamir's Secret Sharing Scheme*）的教程：
 
 https://planb.academy/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
 
-如果您觉得本教程有用，请在下方留下 Green 大拇指，我将不胜感激。欢迎在您的社交网络上分享本文。非常感谢
+如果您觉得这篇教程有用，请在下方点个赞。欢迎在社交网络上分享这篇文章。非常感谢！

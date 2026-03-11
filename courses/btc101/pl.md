@@ -1270,7 +1270,7 @@ A jeśli chcesz rozpocząć przygodę z uruchomieniem własnego węzła Lightnin
 https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 
-## Beyond Lightning: other protocols to scale Bitcoin
+## Więcej niż Lightning: inne protokoły do skalowania Bitcoina
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 
@@ -1283,126 +1283,130 @@ Bitcoin rozwija się więc nie tylko poprzez zmiany w swoim podstawowym protokol
 W tym rozdziale przedstawiamy cztery ważne protokoły, które oferują nowe możliwości w ekosystemie Bitcoina: Liquid Network (łańcuch boczny Bitcoina), Ark protocol, RGB protocol, Taproot Assets.
 
 
-### Sidechains: parallel blockchains connected to Bitcoin
+### Łańcuchy boczne (sidechainy): równoległe łańcuchy bloków powiązane z Bitcoinem
 
-A sidechain is a blockchain distinct from Bitcoin’s, designed to operate in parallel, with its own rules and its own consensus mechanism. It is connected to Bitcoin through a two-way peg mechanism (*2WP*), which in practice allows bitcoins to be used on the sidechain in a representative form (often a bitcoin locked on Bitcoin and recreated on the sidechain), and then later returned to the main chain.
+Łańcuch boczny to łańcuch odrębny od Bitcoina, zaprojektowany do działania równoległego, z własnymi zasadami i własnym mechanizmem konsensusu. Jest powiązany z Bitcoinem poprzez mechanizm dwukierunkowego pegowania (2WP, Two-Way Peg), który w praktyce pozwala używać bitcoinów w łańcuchu bocznym w formie reprezentatywnej (często są to bitcoiny zablokowane w sieci Bitcoin i odtworzone w łańcuchu bocznym), a następnie później zwrócone na łańcuch główny.
 
-The interest of a sidechain lies in offering functionalities that are difficult to achieve directly on Bitcoin: faster transactions, asset features, enhanced privacy, or greater development flexibility. In return, a sidechain always makes compromises compared to Bitcoin, particularly in terms of the trust model or decentralization.
+Zaletą łańcucha bocznego jest możliwość oferowania funkcji trudnych do osiągnięcia bezpośrednio w Bitcoinie: szybsze transakcje, funkcjonalność aktywów, zwiększona prywatność czy większa elastyczność w rozwoju. W zamian łańcuch boczny zawsze wiąże się z kompromisami w porównaniu do Bitcoina, szczególnie w zakresie modelu zaufania lub decentralizacji.
 
-The most well-known sidechain on Bitcoin is probably **Liquid**, developed by Blockstream. It is designed in particular to accelerate certain use cases: fast transfers between platforms, more frequent settlements, and asset issuance (stablecoins, securities...), with enhanced privacy. On Liquid, the bitcoins used are called L-BTC: they are designed to be pegged 1-to-1 to BTC through a two-way peg mechanism.
+Prawdopodobnie najbardziej znanym łańcuchem bocznym Bitcoina jest Liquid, opracowany przez Blockstream. Jest zaprojektowany przede wszystkim w celu przyspieszenia niektórych zastosowań: szybsze przelewy między platformami, częstsze rozliczenia oraz emisja aktywów (stablecoiny, papiery wartościowe…), przy zwiększonej prywatności. W Liquid bitcoiny używane w sieci nazywane są L-BTC: są one projektowane tak, aby były powiązane 1:1 z BTC poprzez mechanizm pegowania dwukierunkowego.
 
 ![image](assets/en/088.webp)
 
-The major difference compared to Bitcoin lies in the security and decentralization model: Liquid does not rely on Bitcoin’s proof of work, but on a federation of operators (an identified group) that ensures block production and the operation of bridges between BTC and L-BTC.
+Główna różnica w porównaniu z Bitcoinem dotyczy modelu bezpieczeństwa i decentralizacji: Liquid nie opiera się na dowodzie pracy Bitcoina, lecz na federacji operatorów (zidentyfikowanej grupie), która zapewnia produkcję bloków i obsługę mostów między BTC a L-BTC.
 
 https://planb.academy/courses/d3ca6943-b22c-4e50-b62d-9431460525bc
 
-### Ark: sharing UTXOs to reduce costs and improve the experience
 
-Ark refers to a family of proposals and implementations aimed at improving Bitcoin’s scalability by grouping many user operations into a reduced number of Bitcoin transactions. The idea is fairly simple: instead of creating one onchain transaction per user, a single onchain transaction is created that represents a batch, and then each participant’s rights evolve mainly offchain, until final settlement on Bitcoin is desired.
+### Ark: współdzielenie UTXO w celu obniżenia kosztów i poprawy doświadczenia użytkownika
 
-This second-layer protocol idea was unveiled by Burak in May 2023. Like the Lightning Network, Ark is a system deployed on top of Bitcoin’s main chain. It would allow bitcoin payments to be made offchain in a fast, anonymous, and low-fee manner. Compared to Lightning, Ark does not require inbound liquidity to receive payments, which significantly improves the user experience. In addition, it provides a level of privacy close to coinjoin transactions. Ark could also be non-interactive if covenants are added to Bitcoin.
+Ark odnosi się do rodziny propozycji i implementacji mających na celu poprawę skalowalności Bitcoina poprzez grupowanie wielu operacji użytkowników w ograniczoną liczbę transakcji w Bitcoinie. Idea jest dość prosta: zamiast tworzyć jedną transakcję onchain na użytkownika, tworzy się jedną transakcję onchain reprezentującą całą grupę transakcji, a prawa dostępu do środków każdego uczestnika ewoluują głównie poza łańcuchem, aż do momentu finalnego rozliczenia w Bitcoinie.
 
-Burak often criticizes Lightning’s ability to scale due to its dependence on the main chain and suggests that Ark could theoretically onboard the entire world’s population in self-custody. Even if Ark can be seen as a competing protocol to the Lightning Network, the two can in fact coexist. They could even be complementary.
+Ten protokół drugiej warstwy został zaprezentowany przez Buraka w maju 2023 roku. Podobnie jak sieć Lightning, Ark jest systemem działającym na bazie głównego łańcucha Bitcoina. Pozwalałby na dokonywanie płatności bitcoinami poza łańcuchem w sposób szybki, anonimowy i niskokosztowy. W porównaniu do sieci Lightning, Ark nie wymaga płynności przychodzącej do otrzymywania płatności, co znacząco poprawia doświadczenie użytkownika. Dodatkowo zapewnia poziom prywatności zbliżony do transakcji typu CoinJoin. Ark mógłby również działać w sposób nieinteraktywny, jeśli do Bitcoina dodane zostaną ograniczenia transakcyjne.
 
-Ark remains a very active but still young field: the objective is promising (drastically reducing the onchain footprint per user), but it must be kept in mind that this is a more complex architecture, with assumptions and risks different from those of Bitcoin and Lightning.
+Burak często krytykuje możliwość skalowania sieci Lightninga z powodu jej zależności od głównego łańcucha i sugeruje, że Ark teoretycznie mógłby umożliwić samodzielne korzystanie z Bitcoina całej populacji świata. Choć Ark może być postrzegany jako protokół konkurencyjny względem sieci Lightning, oba systemy mogą w rzeczywistości koegzystować, a nawet być komplementarne.
 
-### RGB: contracts and assets with client-side validation
+Ark pozostaje bardzo aktywnym, lecz nadal młodym projektem: cel jest obiecujący (drastyczne zmniejszenie śladu onchain na użytkownika), jednak należy pamiętać, że jest to bardziej złożona architektura z założeniami i ryzykami różnymi od tych w Bitcoinie i Lightning.
 
-RGB is a system of smart contracts and assets on Bitcoin that adopts a radically different approach from general-purpose blockchains. Its core idea is client-side validation: instead of publishing the full state of a contract on a global blockchain, participants store and validate locally the histories that matter to them, while the Bitcoin blockchain only serves to anchor cryptographic commitments and prevent double spending.
 
-In other words:
-* the Bitcoin blockchain acts as a timestamping base and a minimal arbiter;
-* detailed data (contract rules, states, transitions) circulate offchain between the relevant parties;
-* verification is done locally, which improves scalability and can enhance privacy, since there is no global registry of all RGB activity visible to everyone.
+### RGB: kontrakty i aktywa z weryfikacją po stronie klienta
+
+RGB to system inteligentnych kontraktów i aktywów w Bitcoinie, który przyjmuje radykalnie inne podejście niż łańcuchy bloków ogólnego przeznaczenia. Jego kluczową ideą jest weryfikacja po stronie klienta: zamiast publikować pełny stan kontraktu w globalnym łańcuchu bloków, uczestnicy przechowują i weryfikują lokalnie historie, które ich dotyczą, podczas gdy łańcuch bloków Bitcoina służy jedynie do kotwiczenia zobowiązań kryptograficznych i zapobiegania podwójnemu wydatkowaniu.
+
+Innymi słowy:
+* łańcuch bloków Bitcoina działa jako baza znaczników czasu i minimalny arbiter;
+* szczegółowe dane (zasady kontraktu, stany, przejścia) krążą poza łańcuchem między odpowiednimi stronami;
+* weryfikacja odbywa się lokalnie, co zwiększa skalowalność i może poprawić prywatność, ponieważ nie istnieje globalny rejestr całej aktywności RGB widoczny dla wszystkich.
 
 ![image](assets/en/089.webp)
 
-RGB could serve as a foundation for issuing and managing a wide variety of assets: tokens (including stablecoins), NFTs, or digital securities, and even for building more elaborate contract logic, all without burdening the base layer.
+RGB może służyć jako fundament do emisji i zarządzania szeroką gamą aktywów: tokenów (w tym stablecoinów), NFT czy cyfrowych papierów wartościowych, a nawet do budowania bardziej rozbudowanej logiki kontraktów — wszystko to bez obciążania warstwy bazowej.
 
-The downside is data management: if you must validate on the client side, you must also properly store and back up the data that proves your rights.
+Jego wadą jest zarządzanie danymi: jeśli musisz weryfikować po stronie klienta, musisz także odpowiednio przechowywać i tworzyć kopie zapasowe danych, które potwierdzają twoje prawa.
 
-RGB is a protocol that has been under development for many years. Progress is gradual, but today there are already concrete applications that make use of RGB. To go further, we offer an expert-level course on Plan ₿ Academy that explores this protocol in depth:
+RGB jest protokołem rozwijanym od wielu lat. Postęp jest stopniowy, ale już dziś istnieją konkretne zastosowania wykorzystujące RGB. Aby zgłębić temat, w Plan ₿ Academy oferujemy kurs na poziomie eksperckim, który bada ten protokół w szczegółach.
 
 https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
-### Taproot Assets: issuing assets on Bitcoin and moving them over Lightning
+### Taproot Assets: emisja aktywów w Bitcoinie i przesyłanie ich przez Lightning
 
-Taproot Assets (formerly "Taro") is a protocol led by Lightning Labs, which aims to enable the issuance of assets on Bitcoin, with the possibility of transferring them later via the Lightning Network for fast and low-cost exchanges.
+Taproot Assets (dawniej „Taro”) to protokół zarządzany przez Lightning Labs, którego celem jest umożliwienie emisji aktywów w Bitcoinie, z możliwością ich późniejszego przesyłania za pośrednictwem sieci Lightning w celu szybkiej i taniej wymiany.
 
-It is often cited as a building block in the narrative of "programmable money" on Bitcoin: not because Bitcoin becomes a global computer, but because financial instruments (assets) can be layered on top of the Bitcoin base, and then circulated efficiently via Lightning.
+Często jest wymieniany jako podstawowy element w narracji o „programowalnym pieniądzu” w Bitcoinie — nie dlatego, że Bitcoin staje się globalnym komputerem, lecz dlatego, że instrumenty finansowe (aktywa) mogą być nakładane na bazę Bitcoina, a następnie skutecznie puszczane w obieg dzięki sieci Lightning.
 
 ### Bitcoin staje się mocniejszy dzięki umożliwieniu rozwoju jego wyższych warstw
 
-Today, the most accurate image of the Bitcoin ecosystem is neither that of a frozen protocol, nor that of a super blockchain that does everything, as with Ethereum. Rather, it is a deliberately conservative foundation, surrounded by layers and protocols that experiment and enable innovation with minimal risk.
+Obecnie najdokładniejszym obrazem ekosystemu Bitcoina nie jest ani wizja zamrożonego protokołu, ani „super-łańcucha bloków”, który robi wszystko — jak w przypadku Ethereum. Jest to raczej celowo konserwatywna podstawa, otoczona warstwami i protokołami, które umożliwiają eksperymenty i innowacje przy minimalnym ryzyku.
 
 
 ## Czerwona pigułka czy niebieska pigułka?
 
 <chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
 
-As Morpheus said to Neo: "You take the blue pill, the story ends, you wake up in your bed, and you believe whatever you want to believe. You take the red pill, you stay in Wonderland, and I show you how deep the rabbit hole goes." Are you ready to explore the rabbit hole of Bitcoin? Be careful, as you might rediscover your financial freedom!
+Jak powiedział Morfeusz do Neo: „Weźmiesz niebieską pigułkę — historia się kończy, obudzisz się w swoim łóżku i uwierzysz w to, w co chcesz wierzyć. Weźmiesz czerwoną pigułkę — zostaniesz w Krainie Czarów, a ja pokażę ci, jak głęboka jest królicza nora.”
+Czy jesteś gotowy, aby odkryć króliczą norę Bitcoina? Uważaj — możesz na nowo odkryć swoją finansową wolność!
 
 ### Przyszłość technologii i skutki jej rozwoju
 
-Technology is evolving exponentially, and no one can predict its future developments with certainty. World connectivity and artificial intelligence continue to advance, and the knowledge that an individual can acquire through the internet is becoming increasingly immeasurable over time.
+Technologia rozwija się wykładniczo i nikt nie jest w stanie z pewnością przewidzieć jej przyszłego biegu. Globalna łączność oraz sztuczna inteligencja nadal się rozwijają, a wiedza, którą każda osoba może zdobyć dzięki internetowi, z czasem staje się coraz bardziej nieograniczona.
 
-If we take AI as an example, these technologies have already surpassed or are approaching human-level performance in a growing number of domains, such as video games, image and text production, and data analysis. One potential implication is that over 80% of jobs will disappear due to AI and automation. As a consequence, several options are available to us, such as restraining technological progress or harnessing the increased capital from productivity gains created by AI.
+Jeśli weźmiemy za przykład sztuczną inteligencję, technologia ta już przewyższyła poziom ludzkiej inteligencji lub zbliża się do niego w coraz większej liczbie dziedzin, takich jak gry wideo, tworzenie obrazów i tekstów czy analiza danych. Jedną z możliwych konsekwencji tego rozwoju jest to, że ponad 80% miejsc pracy może zniknąć. W rezultacie mamy kilka możliwych dróg działania, takich jak ograniczanie postępu technologicznego lub wykorzystanie zwiększonego kapitału wynikającego ze wzrostu produktywności dzięki AI.
 
-We have some essential questions to ask ourselves:
+Musimy zadać sobie kilka podstawowych pytań:
 
-- How do we manage a society where 80% of jobs will disappear?
-- How do we revitalize a population?
-- Is there a need for as many teachers?
-- The geopolitical, political, and human consequences of automation are not sufficiently discussed.
-  Computing, the internet, streaming, and VR will change education. We could have a universal course for all French students managed by the government and teachers who no longer give lectures but directly accompany the students. Children could go into a virtual world and be accompanied in learning history.
+- Jak zarządzać społeczeństwem, w którym 80% miejsc pracy zniknie?
+- Jak ponownie zaktywizować społeczeństwo?
+- Czy potrzebujemy aż tylu nauczycieli?
+- Geopolityczne, polityczne i ludzkie konsekwencje automatyzacji nie są wystarczająco omawiane.
 
-- Where is the boundary between a teacher and an AI personification?
-- How can we guarantee a society that lives in prosperity?
+Komputery, internet, streaming oraz rzeczywistość wirtualna (VR) zmienią edukację. Możliwe byłoby stworzenie uniwersalnego kursu dla wszystkich francuskich uczniów zarządzanego przez państwo, gdzie nauczyciele nie prowadziliby już tradycyjnych wykładów, lecz bezpośrednio wspieraliby uczniów w nauce. Dzieci mogłyby przenosić się do wirtualnego świata i uczyć się historii w bardziej interaktywny sposób.
 
-These fundamental questions for our future must be debated and collectively decided.
-What is the connection with Bitcoin? Just as the Internet revolutionized modes of communication, Bitcoin represents a technological revolution for new forms of large-scale organization, enabling us to exchange value without relying on any trusted third party. Do we want to hinder the technological evolution of the monetary system, or do we wish to embrace the potential for increased capital through the tenfold productivity gains offered by using Bitcoin and Lightning protocols?
+- Gdzie przebiega granica między nauczycielem a personifikacją sztucznej inteligencji?
+- Jak możemy zagwarantować społeczeństwo żyjące w dobrobycie?
+
+Te fundamentalne pytania dotyczące naszej przyszłości muszą być przedmiotem debaty i wspólnych decyzji.
+Jaki jest tego związek z Bitcoinem? Tak jak internet zrewolucjonizował nasz sposób komunikacji, tak Bitcoin stanowi technologiczną rewolucję w dziedzinie organizacji na dużą skalę, umożliwiając wymianę wartości bez potrzeby polegania na zaufanej stronie trzeciej. Czy chcemy hamować technologiczny rozwój systemu monetarnego, czy raczej wykorzystać potencjał zwiększonego kapitału wynikającego z wielokrotnego wzrostu produktywności dzięki wykorzystaniu protokołów Bitcoin i Lightning?
 
 ### Jaka jest przyszłość finansów?
 
-These considerations also raise questions about who should hold, authorize, and trace the money we use. The goal is to decide between a closed system with unelected leaders or an open system without trusted third parties, where neutrality prevails.
+Te rozważania rodzą również pytania o to, kto powinien przechowywać, autoryzować i śledzić pieniądze, których używamy. Celem jest wybór między zamkniętym systemem z niewybieralnymi przywódcami a otwartym systemem bez zaufanych pośredników, w którym dominuje neutralność.
 
-- Is currency a form of private property?
-- Can protesters' accounts be blocked without a Supreme Court order?
-- Who guarantees the financial system?
-- How can an individual be sovereign over their money and rely on a trusted third party?
-- Can money be sent to the other side of the world without fees or intermediaries?
+- Czy waluta jest formą własności prywatnej?
+- Czy konta protestujących mogą być blokowane bez decyzji Sądu Najwyższego?
+- Kto gwarantuje stabilność systemu finansowego?
+- Jak jednostka może być suwerenna wobec swoich pieniędzy, a jednocześnie polegać na zaufanej stronie trzeciej?
+- Czy pieniądze można wysłać na drugi koniec świata bez opłat i pośredników?
 
-Accepting these new technologies could generate massive economies of scale worldwide. Should we allow the free movement of capital flows? International blockades have economic and political consequences. Is it ethical to use financial intermediaries like Western Union, which sometimes charge up to 25% in fees? We believe that in an increasingly digital world, money should be democratized and considered a common good belonging to the people rather than to the state or to opaque financial institutions.
+Akceptacja nowych technologii może doprowadzić do ogromnego obniżenia kosztów używania infrastruktury finansowej na całym świecie (ekonomia skali). Czy powinniśmy pozwolić na swobodny przepływ kapitału? Międzynarodowe blokady mają konsekwencje gospodarcze i polityczne. Czy etyczne jest korzystanie z pośredników finansowych, takich jak Western Union, którzy czasami pobierają nawet do 25% opłat? Uważamy, że w coraz bardziej cyfrowym świecie pieniądz powinien być zdemokratyzowany i traktowany jako dobro wspólne należące do ludzi, a nie do państwa czy nieprzejrzystych instytucji finansowych.
 
-The question of who should control the banking system is crucial because the rules of the banking game are not transparent and understandable to all, allowing a caste of politicians and regulators to maintain their grip on the system, so it is important to question whether the free market or a group of intellectuals should have the power over it.
+Kwestia tego, kto powinien kontrolować system bankowy, jest kluczowa, ponieważ zasady funkcjonowania bankowości nie są przejrzyste ani zrozumiałe dla wszystkich. Pozwala to pewnej grupie polityków i regulatorów utrzymywać kontrolę nad systemem. Dlatego ważne jest, aby zastanowić się, czy władzę nad nim powinien mieć wolny rynek, czy raczej grupa intelektualistów.
 
 ### Gra toczy się o naszą wolność
 
-Censorship must also be questioned: who has the knowledge to decide what should be censored or not? The media has changed their position on certain information and those who were censored before are no longer censored today.
+Cenzura również powinna być poddawana refleksji: kto posiada wystarczającą wiedzę, aby decydować, co powinno być ocenzurowane, a co nie? Media zmieniały swoje stanowisko wobec niektórych informacji, a osoby, które wcześniej były cenzurowane, dziś już nie są.
 
-- Who decides what is censorship or propaganda?
-- Who has the divine hand over our system?
+- Kto decyduje, co jest cenzurą, a co propagandą?
+- Kto ma „boską władzę” nad naszym systemem?
 
-We strongly believe that tolerating censorship can destroy freedom of expression and the right to assembly, as it can have a negative impact on innovation and free will. Imposing censorship is technically difficult without creating a complete dystopia. Thus, which entity should have the power of censorship? The matter is complicated, and it is also difficult to decide who should be restricted or not.
+Jesteśmy głęboko przekonani, że tolerowanie cenzury może zniszczyć wolność słowa oraz prawo do zgromadzeń, ponieważ może mieć negatywny wpływ na innowacje i wolną wolę. Wprowadzanie cenzury jest technicznie trudne bez stworzenia całkowicie dystopijnego systemu. W związku z tym pojawia się pytanie: która instytucja powinna mieć władzę cenzurowania? Sprawa jest skomplikowana, a także trudno jest zdecydować, kto powinien być ograniczany, a kto nie.
 
-There are 2.4 billion people in the world without a bank account, which necessarily creates geographical inequalities. On the other hand, Bitcoin grants transactions equality, disregarding your social status or political position. The protocol is apolitical and does not grant specific privileges to leaders or other influential figures, ensuring that everyone has the same opportunities to drive development forward, rather than allowing a few to remain at the top while others are left behind. Should everyone have access to the same currency, regardless of their social status? It is essential to consider the world we want to leave to our children, and we aspire to create an open world where they are free to manage their money as they choose.
+Na świecie jest 2,4 miliarda ludzi bez konta bankowego, co nieuchronnie powoduje nierówności geograficzne. Bitcoin zapewnia równość w transakcjach, niezależnie od statusu społecznego czy poglądów politycznych. Protokół jest apolityczny i nie przyznaje szczególnych przywilejów przywódcom ani innym wpływowym osobom, zapewniając wszystkim takie same możliwości rozwoju, zamiast pozwalać, aby tylko nieliczni pozostawali na szczycie, a inni zostawali w tyle. Czy każdy powinien mieć dostęp do tej samej waluty, niezależnie od swojego statusu społecznego? Warto zastanowić się, jaki świat chcemy pozostawić naszym dzieciom. Pragniemy stworzyć otwarty świat, w którym nasze dzieci będą mogły zarządzać swoimi pieniędzmi tak, jak same uznają za najlepsze.
 
-Bitcoin is important and should not be considered just a game of chance, so it is crucial to keep asking questions about Bitcoin and its consequences on the world.
+Bitcoin jest ważny i nie powinien być postrzegany jedynie jako loteria. Dlatego tak istotne jest ciągłe zadawanie pytań o Bitcoina i jego konsekwencje dla świata.
 
 ### Bitcoin: rewolucyjny protokół
 
-As we have seen in the previous chapter, the Bitcoin protocol is neutral towards all its users. Thanks to consensus rules and cryptography, we can immutably record transactions in a global public ledger, guaranteeing monetary value transfers without any trusted third party. The second-layer infrastructure (and soon the third layer, with RGB, or "Really Good Bitcoin") is used for network scalability and the development of new functionalities.
+Jak widzieliśmy w poprzednim rozdziale, protokół Bitcoin jest neutralny wobec wszystkich swoich użytkowników. Dzięki zasadom konsensusu i kryptografii możemy niezmiennie zapisywać transakcje w globalnej, publicznej księdze, gwarantując transfer wartości pieniężnej bez udziału zaufanej strony trzeciej. Infrastruktura drugiej warstwy (a wkrótce także trzeciej, z RGB – „Really Good Bitcoin”) służy do skalowania sieci oraz rozwijania nowych funkcjonalności.
 
-Bitcoin has all the necessary characteristics to be an efficient and healthy currency: divisible, instantly transportable, uncensorable, negligible verification costs, and with a monetary policy already set to 21 million units for centuries to come. Bitcoin is pseudonymous and can be exchanged anywhere in the world without any authorization from any entity. You just need to hold your own private keys and remember the saying "Not your keys, not your bitcoins".
+Bitcoin posiada wszystkie cechy potrzebne, aby być wydajną i zdrową walutą: jest podzielny, można go natychmiast przesłać, nie można go ocenzurować, koszty weryfikacji są znikome, a jego polityka monetarna jest już ustalona na poziomie 21 milionów jednostek na wiele stuleci. Bitcoin jest pseudonimowy i można go wymieniać na całym świecie bez konieczności uzyskania zgody od jakiejkolwiek instytucji. Wystarczy posiadać własne klucze prywatne i pamiętać powiedzenie: „Nie twoje klucze, nie twoje bitcoiny”.
 
-It is adopted by diverse groups of people, from cryptographers, to libertarians, to traditional businesses, and even entire countries. However, Bitcoin is for everyone, and as the number of users is growing, so does the number of Bitcoin nodes that serve as guardians of transaction history, ensuring its decentralization.
+Jest używany przez różnorodne grupy ludzi — od kryptografów, przez libertarian, po tradycyjne firmy, a nawet całe państwa. Jednak Bitcoin jest dla każdego, a wraz ze wzrostem liczby użytkowników rośnie także liczba węzłów Bitcoina, które działają jako strażnicy historii transakcji, zapewniając jego decentralizację.
 
-Bitcoin cannot be stopped and cannot be censored anymore. It is a peaceful revolution that changes the monetary system and enables financial inclusivity. Users can obtain bitcoins by accepting them for their trade or by buying them through regulated or unregulated platforms. They can store funds in their wallets, mobile applications, or physical devices, without the need of trusted intermediaries. Bitcoin advocates transparency, freedom, and individual responsibility: as the saying goes "Don't Trust, Verify".
+Bitcoina nie można już zatrzymać ani ocenzurować. Jest to pokojowa rewolucja, która zmienia system monetarny i umożliwia włączenie do systemu finansowego większej liczby ludzi. Użytkownicy mogą zdobywać bitcoiny, akceptując je jako zapłatę za swoje towary lub usługi albo kupując je na regulowanych lub nieregulowanych platformach. Mogą przechowywać środki w swoich portfelach, aplikacjach mobilnych lub urządzeniach fizycznych, bez potrzeby korzystania z zaufanych pośredników. Bitcoin promuje przejrzystość, wolność i indywidualną odpowiedzialność — jak mówi powiedzenie: „Nie ufaj, weryfikuj”.
 
-Satoshi created Bitcoin in 2008 to propose a change to the financial system by redesigning currency. He viewed easy-to-create fiat as a corruption risk - governments can and do abuse it. Bitcoin is a neutral alternative, emancipating us from banks and sparking a peaceful revolution in how we view money.
+Satoshi stworzył Bitcoina w 2008 roku, aby zaproponować zmianę w systemie finansowym poprzez przeprojektowanie pieniądza. Uważał, że łatwe do tworzenia waluty fiducjarne (fiat) niosą ryzyko korupcji — rządy mogą ich nadużywać i często to robią. Bitcoin jest neutralną alternatywą, która uniezależnia nas od banków i zapoczątkowuje pokojową rewolucję zmieniając sposób, w jaki postrzegamy pieniądz.
 
-Are you ready to join?
+Gotowy, żeby dołączyć?
 
 # Sekcja końcowa
 

@@ -16,7 +16,20 @@ Prêt à découvrir pourquoi la liberté constitue non seulement un idéal moral
 
 +++
 
+# Introduction
+
+<partId>ac94f192-5a35-45d6-a1fe-569ed7a8ef53</partId>
+
+## Présentation du cours
+
+<chapterId>ed0febb0-507b-4920-a88f-6a00388ae4f5</chapterId>
+
+Pourquoi intituler ce cours *La Liberté en tant que projet social* ? Parce que la liberté n'est pas une utopie abstraite rêvée par des théoriciens déconnectés. Elle est, avant tout, un ensemble de faits observables sur la nature humaine et le monde que nous habitons. La tradition libérale française des XVIIIᵉ et XIXᵉ siècles, des Physiocrates et Turgot à Frédéric Bastiat, Gustave de Molinari, Benjamin Constant et Paul Leroy-Beaulieu, a construit un édifice intellectuel extraordinaire sur cette intuition.
+
+Ce cours, développé par l'Institut Coppet et présenté par Benoît Malbranque, vous invite à un voyage à travers les fondements, l'histoire et les mécanismes concrets de la liberté. Le cours est organisé en cinq parties : les fondements de la liberté, l'histoire de la liberté, le fonctionnement de la liberté, les sophismes de la non-liberté, et la philosophie du libéralisme.
+
 # Fondements de la liberté
+
 <partId>466452a9-508e-5bae-bc6a-9213814cf1e5</partId>
 
 ## Les faits humains à l'origine de la liberté et de la propriété 

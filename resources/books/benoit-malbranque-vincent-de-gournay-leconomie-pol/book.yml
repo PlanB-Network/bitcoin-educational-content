@@ -7,13 +7,6 @@ tags:
 - general
 links:
   website:
-    fr:
-      url: https://editions.institutcoppet.org/produit/benoit-malbranque-vincent-de-gournay-leconomie-politique-du-laissez-faire/
-      source: Institut Coppet
-      status: manual
-      last_checked: '2026-02-08'
+    - fr: https://editions.institutcoppet.org/produit/benoit-malbranque-vincent-de-gournay-leconomie-politique-du-laissez-faire/
   amazon:
-    fr:
-      url: https://www.amazon.fr/s?k=Vincent+de+Gournay+%3A+l%E2%80%99%C3%A9conomie+politique+du+laissez-faire+Beno%C3%AEt+Malbranque&tag=planbnetwork-21
-      status: auto
-      last_checked: '2026-02-08'
+    - fr: https://www.amazon.fr/s?k=Vincent+de+Gournay+%3A+l%E2%80%99%C3%A9conomie+politique+du+laissez-faire+Beno%C3%AEt+Malbranque&tag=planbnetwork-21

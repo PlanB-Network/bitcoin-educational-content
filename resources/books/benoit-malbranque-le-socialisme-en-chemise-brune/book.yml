@@ -7,13 +7,6 @@ tags:
 - general
 links:
   website:
-    fr:
-      url: https://editions.institutcoppet.org/produit/benoit-malbranque-le-socialisme-en-chemise-brune-2e-ed/
-      source: Institut Coppet
-      status: manual
-      last_checked: '2026-02-08'
+    - fr: https://editions.institutcoppet.org/produit/benoit-malbranque-le-socialisme-en-chemise-brune-2e-ed/
   amazon:
-    fr:
-      url: https://www.amazon.fr/s?k=Le+Socialisme+en+Chemise+Brune+Beno%C3%AEt+Malbranque&tag=planbnetwork-21
-      status: auto
-      last_checked: '2026-02-08'
+    - fr: https://www.amazon.fr/s?k=Le+Socialisme+en+Chemise+Brune+Beno%C3%AEt+Malbranque&tag=planbnetwork-21

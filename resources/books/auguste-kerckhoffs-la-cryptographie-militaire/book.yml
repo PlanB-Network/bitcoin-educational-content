@@ -8,13 +8,6 @@ tags:
 - public-domain
 links:
   website:
-    fr:
-      url: https://www.petitcolas.net/kerckhoffs/crypto_militaire_1.pdf
-      source: Journal des sciences militaires
-      status: manual
-      last_checked: '2026-02-08'
+    - fr: https://www.petitcolas.net/kerckhoffs/crypto_militaire_1.pdf
   amazon:
-    fr:
-      url: https://www.amazon.fr/s?k=La+cryptographie+militaire+Auguste+Kerckhoffs&tag=planbnetwork-21
-      status: auto
-      last_checked: '2026-02-08'
+    - fr: https://www.amazon.fr/s?k=La+cryptographie+militaire+Auguste+Kerckhoffs&tag=planbnetwork-21

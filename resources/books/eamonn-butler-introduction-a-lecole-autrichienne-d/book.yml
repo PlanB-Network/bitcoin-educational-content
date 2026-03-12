@@ -7,13 +7,6 @@ tags:
 - general
 links:
   website:
-    fr:
-      url: https://editions.institutcoppet.org/produit/eamonn-butler-introduction-a-lecole-autrichienne-deconomie/
-      source: Institut Coppet
-      status: manual
-      last_checked: '2026-02-08'
+    - fr: https://editions.institutcoppet.org/produit/eamonn-butler-introduction-a-lecole-autrichienne-deconomie/
   amazon:
-    fr:
-      url: https://www.amazon.fr/s?k=Introduction+%C3%A0+l%E2%80%99%C3%A9cole+autrichienne+d%E2%80%99%C3%A9conomie+Eamonn+Butler&tag=planbnetwork-21
-      status: auto
-      last_checked: '2026-02-08'
+    - fr: https://www.amazon.fr/s?k=Introduction+%C3%A0+l%E2%80%99%C3%A9cole+autrichienne+d%E2%80%99%C3%A9conomie+Eamonn+Butler&tag=planbnetwork-21

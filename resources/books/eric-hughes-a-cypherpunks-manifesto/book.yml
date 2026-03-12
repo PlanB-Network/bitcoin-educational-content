@@ -7,13 +7,6 @@ tags:
 - general
 links:
   website:
-    en:
-      url: https://activism.net/cypherpunk/manifesto.html
-      source: activism.net
-      status: manual
-      last_checked: '2026-02-08'
+    - en: https://activism.net/cypherpunk/manifesto.html
   amazon:
-    en:
-      url: https://www.amazon.co.uk/s?k=A+Cypherpunk%27s+Manifesto+Eric+Hughes&tag=planbnetwor0a-21
-      status: auto
-      last_checked: '2026-02-08'
+    - en: https://www.amazon.co.uk/s?k=A+Cypherpunk%27s+Manifesto+Eric+Hughes&tag=planbnetwor0a-21

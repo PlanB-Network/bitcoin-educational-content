@@ -7,13 +7,6 @@ tags:
 - public-domain
 links:
   website:
-    fr:
-      url: https://www.institutcoppet.org/condorcet-vie-de-monsieur-turgot-1786/
-      source: Institut Coppet
-      status: manual
-      last_checked: '2026-02-08'
+    - fr: https://www.institutcoppet.org/condorcet-vie-de-monsieur-turgot-1786/
   amazon:
-    fr:
-      url: https://www.amazon.fr/s?k=Vie+de+M.+Turgot+Condorcet&tag=planbnetwork-21
-      status: auto
-      last_checked: '2026-02-08'
+    - fr: https://www.amazon.fr/s?k=Vie+de+M.+Turgot+Condorcet&tag=planbnetwork-21

@@ -7,13 +7,6 @@ tags:
 - general
 links:
   website:
-    en:
-      url: https://files.libertyfund.org/files/2498/Condillac_Value1776.pdf
-      source: Liberty Fund
-      status: manual
-      last_checked: '2026-02-08'
+    - en: https://files.libertyfund.org/files/2498/Condillac_Value1776.pdf
   amazon:
-    en:
-      url: https://www.amazon.co.uk/s?k=Best+of+Condillac+%28anglais%29+Condillac&tag=planbnetwor0a-21
-      status: auto
-      last_checked: '2026-02-08'
+    - en: https://www.amazon.co.uk/s?k=Best+of+Condillac+%28anglais%29+Condillac&tag=planbnetwor0a-21

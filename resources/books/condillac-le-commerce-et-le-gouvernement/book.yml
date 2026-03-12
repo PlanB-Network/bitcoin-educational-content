@@ -8,13 +8,6 @@ tags:
 - public-domain
 links:
   website:
-    fr:
-      url: https://www.institutcoppet.org/condillac-le-commerce-et-le-gouvernement/
-      source: Institut Coppet
-      status: manual
-      last_checked: '2026-02-08'
+    - fr: https://www.institutcoppet.org/condillac-le-commerce-et-le-gouvernement/
   amazon:
-    fr:
-      url: https://www.amazon.fr/s?k=Le+commerce+et+le+gouvernement+Condillac&tag=planbnetwork-21
-      status: auto
-      last_checked: '2026-02-08'
+    - fr: https://www.amazon.fr/s?k=Le+commerce+et+le+gouvernement+Condillac&tag=planbnetwork-21

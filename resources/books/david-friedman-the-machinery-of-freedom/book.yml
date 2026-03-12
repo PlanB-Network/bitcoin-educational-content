@@ -7,13 +7,6 @@ tags:
 - philosophy
 links:
   website:
-    en:
-      url: http://daviddfriedman.com/Machinery%203rd%20Edn.pdf
-      source: davidfriedman.com
-      status: manual
-      last_checked: '2026-02-08'
+    - en: http://daviddfriedman.com/Machinery%203rd%20Edn.pdf
   amazon:
-    en:
-      url: https://www.amazon.co.uk/s?k=The+machinery+of+freedom+David+Friedman&tag=planbnetwor0a-21
-      status: auto
-      last_checked: '2026-02-08'
+    - en: https://www.amazon.co.uk/s?k=The+machinery+of+freedom+David+Friedman&tag=planbnetwor0a-21

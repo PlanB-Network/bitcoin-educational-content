@@ -3,6 +3,10 @@
   "title": "book-characteristics",
   "type": "object",
   "properties": {
+    "id": {
+      "type": "string",
+      "description": "The unique identifier of the book."
+    },
     "author": {
       "type": "string",
       "description": "The author of the book."
@@ -12,6 +16,14 @@
       "description": "The difficulty level of the book.",
       "enum": ["beginner", "intermediate", "expert", "wizard"]
     },
+    "original_language": {
+      "type": "string",
+      "description": "The original language of the book."
+    },
+    "license": {
+      "type": "string",
+      "description": "The license of the book."
+    },
     "tags": {
       "type": "array",
       "description": "List of tags associated with the book.",
@@ -19,6 +31,21 @@
         "type": "string"
       },
       "minItems": 1
+    },
+    "links": {
+      "type": "object",
+      "description": "Links associated with the book (website, amazon, etc.)."
+    },
+    "proofreading": {
+      "type": "array",
+      "description": "Proofreading status for each language."
+    },
+    "contributor_names": {
+      "type": "array",
+      "description": "List of contributor names.",
+      "items": {
+        "type": "string"
+      }
     }
   },
   "required": ["author", "level", "tags"],

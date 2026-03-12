@@ -924,6 +924,8 @@ Selle kohandamise kohta tuleb märkida üks oluline detail: **See on piiratud**.
 
 
 
+Märkigem ka, et tegelikkuses ei ole Bitcoini raskusastme kohandamine täiesti täpne. Oleme näinud, et see on ette nähtud raskusastme ümberarvutamiseks iga 2016 ploki järel, võrreldes tegelikku kulunud aega 14-päevase sihtajaga (2016 × 10 minutit). Satoshi algne kood sisaldab aga viga nimega "*off-by-one*": selle asemel, ce mõõta aega iga perioodi viimaste plokkide vahel (st 2016 intervalli), mõõdab see aega esimese ja viimase ploki vahel, mis on vaid 2015 intervalli. Praktikas arvutatakse raskusaste nii, nagu koosneks periood 2016 ploki asemel vaid 2015 plokist. Tagajärg on see, et raskusaste on süstemaatiliselt veidi üle hinnatud, mistõttu kaevandatakse plokke keskmiselt veidi aeglasemalt kui kavandatud 10 minutit (umbes 0,05% aeglasemalt). See viga on hästi teada, kuid seda pole kunagi parandatud, kuna selle muutmine nõuaks hard fork'i ja selle mõju on praktikas tühine, välja arvatud teoreetiline rünnak nimega "*time warp*".
+
 ### Eesmärgi esindatus
 
 

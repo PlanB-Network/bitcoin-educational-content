@@ -32,7 +32,7 @@
       "minItems": 1
     }
   },
-  "required": ["title", "publication_year", "cover", "original", "description", "contributors"],
+  "required": ["title", "publication_year", "cover", "original", "description"],
   "additionalProperties": false
 }
 

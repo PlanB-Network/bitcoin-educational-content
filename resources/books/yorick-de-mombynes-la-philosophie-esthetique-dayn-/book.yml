@@ -7,13 +7,6 @@ tags:
 - general
 links:
   website:
-    fr:
-      url: https://www.institutcoppet.org/nouveau-livre-sur-ayn-rand-publie-par-linstitut-coppet/
-      source: Institut Coppet
-      status: manual
-      last_checked: '2026-02-08'
+    - fr: https://www.babelio.com/livres/de-Mombynes-La-philosophie-esthetique-dAyn-Rand/870421
   amazon:
-    fr:
-      url: https://www.amazon.fr/s?k=La+philosophie+esth%C3%A9tique+d%27Ayn+Rand+Yorick+de+Mombynes&tag=planbnetwork-21
-      status: auto
-      last_checked: '2026-02-08'
+    - fr: https://www.amazon.fr/s?k=La+philosophie+esth%C3%A9tique+d%27Ayn+Rand+Yorick+de+Mombynes&tag=planbnetwork-21

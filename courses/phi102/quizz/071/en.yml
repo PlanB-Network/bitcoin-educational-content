@@ -1,8 +1,8 @@
-question: What was the primary economic characteristic of early human societies before the development of agriculture?
-answer: They relied on extracting existing resources through hunting, fishing, and gathering without creating new wealth
+question: Paul Leroy-Beaulieu refuted Rousseau's claim that the first man to enclose a piece of land was a despoiler. What was his counter-argument?
+answer: The land was not common to all humanity but belonged to competing tribal groups, and enclosing land created genuine production rather than merely seizing existing resources
 wrong_answers:
-  - They focused on manufacturing tools and weapons to trade with neighboring tribes for resources
-  - They developed complex systems of agriculture but lacked the technology to create significant surplus
-  - They established permanent settlements where they could efficiently produce and store food for winter
+  - He argued that Rousseau was correct that the land was originally common, but that private enclosure was a necessary step toward greater productivity
+  - He showed that the first enclosures were state-sponsored and therefore legitimate, not the acts of private usurpers that Rousseau condemned
+  - He demonstrated that pre-agricultural societies had already developed systems of individual land tenure that Rousseau had overlooked
 explanation: |
-  According to the text, early human societies operated on an 'economy of destruction' where they did not produce new wealth but instead extracted resources from their environment through hunting, fishing, and gathering. This system made them completely dependent on the natural renewal of resources, which limited group sizes and prevented the emergence of complex societies. The other options are incorrect because they describe more advanced economic activities that came later with agricultural development and technological progress.
+  Paul Leroy-Beaulieu's rebuttal rested on two points. First, the land was never common to all humanity — different tribal groups behaved like animals defending their territories, and there were regular and significant conflicts between them. Second, the man who first enclosed land was not a despoiler but a benefactor: by breeding animals and beginning agriculture, he caused more resources to be born than he consumed, transforming destruction-by-seizure into genuine productive creation. This surplus was the foundation for new social possibilities, including security, population growth, and the beginnings of social order.

@@ -1,8 +1,8 @@
-question: According to Nicolas Oresme's medieval analysis, what is the primary consequence when political authorities arbitrarily modify the content of monetary units?
-answer: It produces inflation and destabilizes prices by making the monetary signal uncertain
+question: What solution does the text present to counter political monetary manipulation, drawing on both medieval innovation and modern alternatives?
+answer: Bills of exchange and banknotes — invented in the Middle Ages — and private currencies today provide contracting parties with voluntarily accepted means of exchange not tied to political power
 wrong_answers:
-  - It strengthens international trade relationships by demonstrating sovereign authority over currency
-  - It reduces government debt by allowing more efficient collection of taxes and tributes
-  - It prevents foreign speculation by maintaining strict control over domestic monetary policy
+  - The solution is to constitutionally prohibit governments from altering the money supply, entrenching a fixed metallic standard enforced by independent courts
+  - The solution is international monetary coordination through multilateral treaties that bind sovereign states to stable exchange rates and transparent monetary policies
+  - The solution is to return to pure barter for significant transactions, eliminating the possibility that any political authority could manipulate the medium of exchange
 explanation: |
-  Oresme identified that when rulers arbitrarily change the metallic content or value of money, it creates uncertainty in the monetary system. This uncertainty disrupts the price mechanism because merchants and traders cannot rely on stable measures of value. The resulting inflation occurs because the monetary signal becomes unreliable, making it difficult for market participants to accurately price goods and services. The other options incorrectly suggest positive outcomes from monetary manipulation, when Oresme's analysis specifically focused on the harmful effects of such practices on commercial stability.
+  The text argues that freedom offers solutions through competition and innovation in the monetary domain. Bills of exchange and banknotes, invented in the Middle Ages, represent early private financial instruments that contracting parties voluntarily accepted. Today, private currencies continue this tradition. The key distinction is that these instruments are voluntarily accepted by the parties using them, unlike state currency that carries no intrinsic value and is used primarily to finance political power. Freedom in money, as in other domains, means the ability to choose among competing alternatives rather than being subjected to a monopoly currency imposed by sovereign authority.

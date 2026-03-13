@@ -1,8 +1,8 @@
-question: According to Tocqueville's analysis of democratic societies, what fundamental mechanism prevents governments from being economical with public spending?
-answer: Citizens naturally tend to reject charges on themselves while enjoying benefits, breaking the link between enjoying services and bearing their costs
+question: What did liberal economists, including Bastiat, argue about the difference between proportional and progressive taxation?
+answer: Proportional taxation reflects equal contribution to common burdens by equally protected citizens, while progressive taxation represents a return to ancient conceptions in which the individual belongs to the group
 wrong_answers:
-  - Democratic governments lack the technical expertise to efficiently manage public resources compared to private sector managers
-  - Constitutional limitations prevent democratic leaders from making rapid decisions about budget cuts during economic crises
-  - Electoral cycles force politicians to prioritize short-term popularity over long-term fiscal responsibility and economic planning
+  - Progressive taxation is justified because it corrects the natural inequality of market outcomes, aligning with liberal principles of equal opportunity for all
+  - Proportional taxation unfairly burdens the poor by ignoring differences in ability to pay, which is why liberals eventually moved toward graduated rate structures
+  - Both forms of taxation are acceptable under liberalism provided they fund only genuine collective services such as courts, police, and national defense
 explanation: |
-  Tocqueville identified that the core problem lies in human nature itself - people naturally want to shift costs to others while keeping benefits for themselves. This breaks the essential link between enjoying public services and bearing their costs. This mechanism allows for deficit spending and debt accumulation, as current citizens can enjoy services while pushing the financial burden onto future generations who cannot defend their interests since they don't yet exist or vote.
+  Liberal economists of the eighteenth and nineteenth centuries argued that a legitimate tax should be proportional rather than progressive: each individual, equally protected by the common legal framework, should contribute equally to society's burdens. Progressive taxation represents a return to ancient conceptions in which the individual is the property of the group, and his forces are used as others see fit. Bastiat specifically developed the idea of an exchange of service for service, insisting that taxes must be legible so that every taxpayer knows precisely what he receives in return for his contribution — a transparency that progressive systems tend to obscure.

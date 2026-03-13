@@ -1,8 +1,8 @@
-question: According to Bastiat's analysis, what methodological approach should liberal economists employ to effectively establish economic freedom in society?
-answer: Systematically identify and deconstruct the fallacious reasoning that provides intellectual foundation for systems opposing economic liberty
+question: What Latin phrase does the text use to name the specific logical fallacy whereby socialists and protectionists confuse temporal sequence with causal connection?
+answer: Post hoc, ergo propter hoc — "after this, therefore because of this"
 wrong_answers:
-  - Focus primarily on demonstrating the practical benefits of free markets through empirical evidence and statistical analysis
-  - Concentrate on building political coalitions and lobbying governments to implement pro-market policies and deregulation measures
-  - Emphasize moral arguments about individual rights and natural law principles that justify economic freedom over state intervention
+  - Ad hominem — "against the person" — attacking the character of the economist rather than the argument
+  - Reductio ad absurdum — "reduction to the absurd" — pushing a liberal premise to an extreme to discredit it
+  - Non sequitur — "it does not follow" — asserting a conclusion that has no logical connection to the premises
 explanation: |
-  Bastiat understood that economic freedom couldn't be established simply through empirical evidence, political action, or moral arguments alone. He recognized that competing systems like communism and excessive regulation maintained their influence through sophisticated but fallacious intellectual foundations - economic sophisms. Therefore, liberal economists must first destroy these competing systems by exposing their logical errors and factual mistakes. This methodological approach of intellectual deconstruction was essential because while experts might recognize these sophisms, the general population often cannot identify them spontaneously, making rigorous analysis and education crucial for establishing true economic liberty.
+  Bastiat explicitly names the fallacy of post hoc, ergo propter hoc as a central tool in the sophist arsenal. Socialists and protectionists construct rapid chains of reasoning in which, on close examination, obvious causal errors can be detected. They postulate conclusions that do not follow logically from their premises, and often build their theoretical scaffolding on factually false foundations or ill-defined concepts. Naming the fallacy by its classical Latin term is part of the liberal project of rigorous intellectual refutation.

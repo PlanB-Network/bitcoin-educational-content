@@ -1,8 +1,8 @@
-question: What does liberal theory identify as the fundamental reason why state mechanisms are structurally deficient in economic activities?
-answer: The state lacks the foundation of individual initiative and enterprise, preventing personal interest from developing fully
+question: What paradox does the text identify in the state's treatment of education and healthcare?
+answer: The state considers these sectors so essential that it must monopolise them, but it is precisely because they are so useful that they would be highly valued in a regime of freedom
 wrong_answers:
-  - The state operates with insufficient financial resources compared to private enterprises in competitive markets
-  - The state employs workers who lack the technical expertise and specialized knowledge of private sector professionals
-  - The state faces excessive bureaucratic regulations that slow down decision-making processes compared to private companies
+  - The state invests the most resources in these sectors yet achieves the worst outcomes, proving that spending alone cannot improve service quality
+  - The state claims to protect these sectors from market failures yet introduces the very inefficiencies it claims to prevent
+  - The state declares these sectors public goods yet charges users fees that exclude the poorest members of society from access
 explanation: |
-  Liberal theory argues that the state's structural deficiency stems from its fundamental inability to harness individual initiative and personal interest, which are the driving forces of economic efficiency. Unlike bureaucratic inefficiency or resource limitations, this represents a core philosophical problem: the state cannot replicate the motivational structures that make private enterprise effective. The other options describe symptoms or practical problems rather than the underlying structural cause that liberal thinkers identify as insurmountable.
+  The text explicitly identifies this as a paradoxical situation: the state's justification for monopolising education and healthcare is that they are so essential they cannot be left to the market. But the consequence is precisely the opposite of the stated intention — because these services are so useful, they would be highly valued and richly rewarded in a free market. State monopolisation, by removing the price mechanism and market competition, devalues the very services it claims to protect, sacrificing the professionals who produce them.

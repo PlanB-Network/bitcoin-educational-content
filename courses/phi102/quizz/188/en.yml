@@ -1,8 +1,8 @@
-question: What fundamental conceptual error does the positive conception of liberty make that enables socialist justifications for state intervention?
-answer: It redefines freedom as the capacity to obtain desired outcomes rather than the absence of obstacles to innocent action
+question: How does the positive conception of liberty specifically justify state intervention in practice?
+answer: By framing the state as a liberator that provides people with material goods or services they lack, presenting redistribution as an act of freedom rather than coercion
 wrong_answers:
-  - It fails to distinguish between individual rights and collective responsibilities in democratic decision-making processes
-  - It incorrectly assumes that property rights can be separated from personal autonomy and individual self-determination
-  - It confuses the legitimate role of law in society with the natural limits imposed by scarcity and human nature
+  - By arguing that negative liberty is logically incoherent and can only be stabilised through constitutional courts enforcing rights
+  - By showing that free markets inevitably produce monopolies that destroy the conditions under which negative liberty is possible
+  - By claiming that individual property rights, once established, automatically require state enforcement that generates further interventions
 explanation: |
-  Positive liberty's fundamental error lies in transforming freedom from a negative concept (absence of coercion) into a positive one (capacity to achieve). This shift breaks the connection between liberty and property rights, since it suggests people should be 'free' to obtain things they don't own. This redefinition justifies state intervention to provide these outcomes, violating the property rights of others. The other options, while touching on related political concepts, miss this core conceptual transformation that enables socialist arguments.
+  Once freedom is redefined as the capacity to obtain desired outcomes, the state can present every act of redistribution or provision as an act of liberation. If a citizen "cannot afford" healthcare, housing, or education, the state claims it is making him freer by supplying them — even though this requires coercing others through taxation or regulation. This policy implication is what distinguishes the positive-liberty debate from a merely definitional dispute: it opens the door to unlimited state expansion under the banner of freedom itself.

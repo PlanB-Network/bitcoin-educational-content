@@ -1,8 +1,8 @@
-question: According to Bastiat's analysis, what fundamental conceptual error leads both protectionists and socialists to construct fallacious arguments against economic freedom?
-answer: They invert means and ends by treating instrumental concepts as ultimate goals rather than examining what these concepts actually achieve
+question: According to the text, how does Bastiat characterise protectionism and socialism in relation to the history of economic ideas?
+answer: As backward steps toward outdated economic conceptions that had to be combated by rigorous demonstration of their logical inconsistencies
 wrong_answers:
-  - They fail to understand mathematical calculations of supply and demand equilibrium in competitive markets
-  - They incorrectly assume that government intervention always produces more efficient outcomes than private enterprise
-  - They misunderstand historical precedents by applying outdated economic models to contemporary market conditions
+  - As novel ideologies with no historical precedent that required entirely new theoretical tools to refute
+  - As natural responses to the disruptions of industrialisation that would fade once living standards improved
+  - As legitimate alternatives to liberalism that simply prioritised different values such as solidarity and security
 explanation: |
-  Bastiat identifies a systematic logical error where opponents of economic freedom confuse means with ends. Protectionists treat work as an end in itself rather than as a means to satisfaction, while political systems often present democracy as an ultimate goal rather than a means to achieve civil and economic liberty. This inversion allows fallacious reasoning to flourish because it shifts focus away from actual results and outcomes. The other options describe specific policy disagreements or methodological errors, but miss Bastiat's deeper insight about the fundamental conceptual confusion that underlies multiple forms of economic sophistry.
+  Bastiat viewed both protectionism and socialism not as modern innovations but as regressions to outdated ways of thinking. He insisted that these sophisms recur across centuries: the argument about not "enriching our enemies" runs from the nineteenth century through to the twenty-first, reappearing with every wave of protectionist politics. For Bastiat, eradicating such fallacious reasoning required rigorous economic education and the dissemination of liberal economic thought — not because the arguments were new, but because the same errors keep returning in new disguises.

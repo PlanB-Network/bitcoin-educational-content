@@ -1,8 +1,8 @@
-question: What did the Idéologues identify as the first fundamental fact about human beings that supports the theory of liberty?
-answer: Humans constitute a physical body that necessarily occupies space
+question: What conclusion did the Physiocrats and 19th-century French liberal economists draw from Descartes' observation about the limits of human reason?
+answer: Central planning is impossible because no authority can foresee and coordinate the millions of individual actions that constitute a society
 wrong_answers:
-  - Humans have an innate desire for political participation and voting rights
-  - Humans possess rational thinking capabilities that distinguish them from animals
-  - Humans naturally form social contracts to organize collective decision-making
+  - Human reason is so powerful that, given sufficient data, a central authority can optimize economic outcomes better than individuals
+  - The limits of reason apply only to individuals, not to collective deliberation, which can overcome individual cognitive boundaries
+  - Reason's limits mean that freedom itself is unattainable, requiring strong institutions to guide human behavior
 explanation: |
-  The Idéologues identified that humans constitute a physical body occupying space as the foundational fact supporting liberty. This physical reality creates exclusive use - when someone sleeps in a bed, they occupy it exclusively even in collectivist societies. This demonstrates that property emerges from our corporeal existence, not from social conventions. The other options focus on political, rational, or social aspects, but the Idéologues emphasized the basic physical reality of human existence as the starting point for understanding liberty and property rights.
+  Descartes used the example of the chiliogon, a polygon with a thousand sides, to illustrate that the human mind cannot fully visualize what it can define. From this observation about the limits of reason, the Physiocrats and 19th-century French liberal economists drew a decisive political conclusion: central planning is impossible. No bureau of ministers, however vast, could foresee, anticipate, organize, and coordinate the millions of individual human actions that constitute a market economy. The impossibility of planning is therefore inscribed in the very nature of human reason, not merely in practical difficulties of administration.

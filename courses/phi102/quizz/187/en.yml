@@ -1,8 +1,8 @@
-question: According to the liberal analysis presented, what makes sophisms particularly dangerous as obstacles to freedom in society?
-answer: They provide intellectual justification for systems of non-liberty while being based on well-intentioned but erroneous reasoning
+question: What was the specific purpose of Destutt de Tracy's Commentaire sur l'Esprit des lois?
+answer: To correct the erroneous notions about freedom found in Montesquieu's work, particularly his dangerous definition of liberty as the right to do whatever the laws allow
 wrong_answers:
-  - They are deliberately created by malicious actors who seek to destroy freedom for personal gain
-  - They represent ancient philosophical errors that modern economic science has definitively refuted through empirical evidence
-  - They emerge from the natural human tendency to prefer security over liberty in times of social uncertainty
+  - To defend Montesquieu's definition of freedom as a legal concept against critics who preferred natural-rights theories
+  - To extend Montesquieu's separation-of-powers doctrine into a complete constitutional framework for the French Republic
+  - To demonstrate that freedom and security are inseparable, and that law must guarantee both simultaneously
 explanation: |
-  Sophisms are particularly dangerous because they combine good intentions with flawed reasoning, creating intellectual foundations that legitimize restrictions on freedom. Unlike deliberate malice, sophisms persist because they appear reasonable and are promoted by well-meaning people. This makes them harder to combat than outright hostility to freedom, as they masquerade as legitimate intellectual arguments while actually undermining liberty through conceptual errors.
+  Nineteenth-century liberal thinkers criticised Montesquieu sharply for his definition — "Freedom is the right to do whatever the laws allow" — which permits any infringement of individual innocent freedoms provided it is authorised by law. Destutt de Tracy devoted an entire work, his Commentaire sur l'Esprit des lois, specifically to correcting the erroneous notions of this great thinker. Benjamin Constant pursued a parallel project by developing a theory clearly distinguishing the sphere of innocent individual action from the sphere of power.

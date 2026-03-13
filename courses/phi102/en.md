@@ -58,12 +58,12 @@ Ready to embark on this intellectual journey to the heart of the French liberal 
 
 <chapterId>8eb03d97-ff42-51a1-bd42-9271d3213ac4</chapterId>
 
-![video](https://www.youtube.com/watch?v=Iy7RLBTIyHE)
 
 ### The French liberal tradition
 
 
 ![Complete works of Gustave de Molinari, Institut Coppet editions](assets/en/001.webp)
+
 
 The French liberal tradition of the 18th and 19th centuries constitutes one of the richest, and most unjustly neglected, chapters of the Western intellectual heritage. The Institut Coppet, which developed this course, has devoted itself to rehabilitating the works of the great French liberal economists and philosophers: the complete works of Gustave de Molinari, the writings of Turgot, the friend of the Physiocrats, and many others.
 
@@ -74,6 +74,7 @@ Why does this tradition deserve our attention? For three reasons. First, ideas o
 
 
 ![Works of Turgot, Institut Coppet edition](assets/en/002.webp)
+
 
 There has always been a certain contempt for theorists. They are dismissed as inhabitants of a world apart, disconnected from reality, while practitioners are celebrated for their concrete, hands-on knowledge. But does this opposition hold up?
 
@@ -89,6 +90,7 @@ Without this coherence, freedom is reduced to the simple faculty of periodically
 
 ![Newton and the apple tree: every action rests on implicit theories](assets/en/003.webp)
 
+
 During the French Revolution and the First Empire, a remarkable group of intellectuals known as the *Idéologues*, Destutt de Tracy, Cabanis, Volney, sought to anchor the theory of liberty in the rigorous observation of facts. Far from being disconnected academics, they were themselves practitioners: Pierre-Jean-Georges Cabanis (1757–1808) was a physician; Antoine Destutt de Tracy (1754–1836), a former artillery officer turned agronomist and philosopher, devoted his later years to agriculture and the study of political economy.
 
 
@@ -98,6 +100,7 @@ It was Napoleon who gave them the pejorative label "ideologues", ironically, sin
 
 
 ![Portrait of Antoine Destutt de Tracy (1754-1836)](assets/en/004.webp)
+
 
 What facts did the Ideologists identify? Let us begin where they began: with the human body itself.
 
@@ -111,12 +114,14 @@ More fundamentally, appropriation is required by nature. To eat an apple is nece
 
 ![Leonardo da Vinci, Vitruvian Man: the human body as starting point](assets/en/005.webp)
 
+
 The finite nature of the world gives rise to a further consequence: competition. Apples must be appropriated precisely because they are not infinite in number. We can critique competition, we can deplore it, but we cannot eliminate it. Collectivist systems do not abolish competition; they merely redirect it into political channels, queues, administrative privileges, factional struggles, often at a far greater cost in efficiency and justice. The real question is not whether competition will exist, but what rules should govern it.
 
 ### The individuality of perceptions
 
 
 ![Destutt de Tracy, Traite de la Volonte et de ses Effets (1815)](assets/en/006.webp)
+
 
 When we turn from the external world to the human being himself, we encounter another foundational fact: the radical individuality of our sensations. I have hunger; I have thirst; I see, *I*, the individual, directly and personally. One cannot experience hunger through another person, nor see through another’s eyes.
 
@@ -129,6 +134,7 @@ From this individuality of sensation there also arises what Adam Smith called *s
 
 
 ![P.J.G. Cabanis, Rapports du Physique et du Moral de l'Homme (1802)](assets/en/007.webp)
+
 
 Sensation leads to will, and will is the first form of liberty. While some of our actions are reflexive, automatic responses to stimuli, the great majority are the product of reflection and deliberate choice. I feel my own body, I can act through my own body, of my own will: this is the foundation of self-ownership.
 
@@ -143,6 +149,7 @@ In other words, property and liberty are not inventions of legislators. They are
 
 ![Portrait of Rene Descartes](assets/en/008.webp)
 
+
 Nature does not produce identical beings. From the earliest observations of newborns, we can detect great diversity in physical capacities, temperaments, and inclinations. Cabanis, the physician among the Ideologists, studied these physiological differences extensively: an individual of weak constitution will not have the same desires, the same recreations, the same ambitions as one endowed with great energy and physical vigor.
 
 
@@ -156,17 +163,16 @@ The Physiocrats of the 18th century drew from this the conclusion that central p
 In the lessons that follow, we will return to these factual foundations of liberty and property. We will contrast them with the ideas and practices of unfreedom, to understand why systems of constraint are grounded not in facts but in sophisms, sophisms that we will have the opportunity to expose in a later part of this course.
 
 
-
 ## Freedom of expression, freedom of the press and free education
 
 <chapterId>e19775a3-6b1d-50ed-ba6b-979f93a78b4b</chapterId>
 
-![video](https://www.youtube.com/watch?v=KoiP5i7p85Y)
 
 ### The human fact of thought
 
 
 ![A worn volume from the French liberal tradition](assets/en/009.webp)
+
 
 We established in the previous chapter that liberty rests on observable facts about human nature: the body, the occupation of space, the appropriation of things, the individuality of perceptions. But the human being is not only a body, he is also, and perhaps above all, a mind. From this single fact flow religious tolerance, freedom of expression, freedom of the press, and free education.
 
@@ -180,6 +186,7 @@ This capacity for thought is accompanied by something that no materialist accoun
 
 ![Benjamin Constant, Principes de politique (1814-1815)](assets/en/010.webp)
 
+
 Thought is a manifestation of the will. We feel, we conceive projects and ideas, and we naturally wish to transmit them. Expression, whether spoken, written, or printed, is simply the materialization of thought. If we are free to will, and free to think (since no power on earth can prevent us from thinking), then there is a strong natural presumption in favor of free expression. To break the chain between sensation, will, thought, and its material expression requires very powerful arguments indeed.
 
 Here we encounter a fundamental insight: the inviolability of conscience. One can burn a man for his opinions, it has been done, but one cannot burn his thought. The stake destroys the thinker, not the thinking. No authority has ever had power over thought itself; it can only reach its material expression. We are free to change our ideas, to pursue them to their conclusion, to abandon one intuition and embrace another. This freedom is not a gift of legislation. It is a fact of our nature.
@@ -188,6 +195,7 @@ Here we encounter a fundamental insight: the inviolability of conscience. One ca
 
 
 ![Condorcet, Esquisse d'un Tableau Historique des Progres de l'Esprit Humain](assets/en/011.webp)
+
 
 Benjamin Constant (1767–1830), the great Swiss-French liberal, devoted much of his career to defending freedom of the press and individual liberties amid the turbulent political upheavals of post-revolutionary France. In his *Principes de politique* (1815), he expressed the implications of this intellectual self-ownership with characteristic force:
 
@@ -200,6 +208,7 @@ In other words, since the individual is the sole owner of his thought, to suppre
 
 
 ![Gustave de Molinari, La Morale Economique, Institut Coppet edition](assets/en/012.webp)
+
 
 Why, beyond the mere recognition of a natural right, should we actively value freedom of expression? The answer lies in a great idea that the 18th-century philosophical movement brought to maturity: *human perfectibility*.
 
@@ -214,6 +223,7 @@ The debate of ideas functions much like economic competition: among many competi
 
 
 ![Edouard Laboulaye, Le Parti liberal and La Liberte d'enseignement](assets/en/013.webp)
+
 
 Freedom of the press extends the principle of free expression into the political realm. Human actions, and especially collective, governmental actions, produce effects that are felt differently by different people. A regulation affecting a particular industry causes suffering to those within it that others may not perceive at all. Each individual must be able to express and publicize the consequences he observes: "This institution harms me, and here is how."
 
@@ -243,22 +253,16 @@ In the lessons that follow, we will move from these civil liberties to the factu
 
 <chapterId>9b71cfae-425c-5255-a0f2-7a5b6805e284</chapterId>
 
-![video](https://www.youtube.com/watch?v=Ab1bt8FU39k)
-
-
-
-
-
 
 ### Self-ownership: the first property
 
 
 ![Jules Simon, collected works: La Liberte Civile, Le Devoir, La Liberte Politique](assets/en/014.webp)
 
+
 We now turn from civil liberties to the economic freedoms, property, freedom of work, free trade, that are less readily accepted in contemporary debate, yet which rest on exactly the same factual foundations. Indeed, political freedom without economic freedom is a means without an end: it is the freedom to choose a master, not the freedom to live as a self-governing individual.
 
 There is no property of things without property of self. And what is self-ownership? It is the culmination of a chain of facts we have already examined. Consider two cycles of thought that materialize it. The first runs from sensation to judgment, then to opinion: our sensory perceptions are personal and individual; our judgments are free; their expression leads to freedom of the press, education, and religious tolerance. The second cycle links observation, reasoning, and adaptation: the individual observes, establishes links of cause and effect, then acts according to a personal plan of conduct.
-
 
 
 Jules Simon (1814–1896), philosopher and statesman, demonstrated in a remarkable series of works, notably *La Liberté civile* and *La Liberté* (1859), that the most complex economic notions, such as capital or freedom of labor, rest ultimately on simple human facts: free reflection and the ownership of one's own thought. From sensation to judgment, from judgment to action, from action to production, the chain is unbroken, and self-ownership is its first link.
@@ -268,6 +272,7 @@ Jules Simon (1814–1896), philosopher and statesman, demonstrated in a remarkab
 
 
 ![Frederic Bastiat, Oeuvres Completes (7 volumes)](assets/en/015.webp)
+
 
 Self-ownership leads naturally to the ownership of things, because human existence can only be sustained through appropriation and production. We must eat, we must clothe ourselves, and to do so we must produce, which requires precisely those acts of observation, reasoning, and purposeful action that belong to self-ownership.
 
@@ -290,6 +295,7 @@ In other words, property is not an invention of legislators. It is the natural a
 
 ![Yves Guyot vs Paul Lafargue, La Propriete: Origine et Evolution (1895)](assets/en/016.webp)
 
+
 If property were merely a social convention, one would expect to find societies without it. But the opposite is true: property can be observed in all ages and all societies, at different levels of development.
 
 
@@ -302,6 +308,7 @@ Even at the Stone Age, caves and resources were treated as property, not by all 
 
 
 ![Henri Baudrillart, La Liberte du Travail, Institut Coppet edition](assets/en/017.webp)
+
 
 What are the facts at the origin of freedom of work? First, the reality of human need. Needs are not imaginary or fictitious; they are felt, real, and inescapable. One cannot live without satisfying them. And they are individual: it is *I* who feel hunger, *I* who suffer from an ill-sheltered dwelling, *I* who know the intensity of my own discomfort.
 
@@ -317,6 +324,7 @@ When a regulatory state intervenes, it breaks this natural chain. It presumes to
 
 ![Pierre de Boisguilbert, Ecrits Economiques, Institut Coppet edition](assets/en/018.webp)
 
+
 The motive that drives all this activity is self-interest, a fact identified in the French liberal tradition well before Adam Smith. Pierre de Boisguilbert (1646–1714), in his economic writings at the turn of the 18th century, expressed it with remarkable clarity:
 
 > "There is a reflection to be made: that all the commerce of the earth, wholesale and retail, and even agriculture, is governed solely by the interest of the entrepreneurs, who have never thought of rendering service nor of obliging those with whom they deal; and every innkeeper who sells wine to travelers has never had the intention of being useful to them, nor the travelers who stop at his house of making the journey for fear that his provisions might be lost. It is this reciprocal utility which makes the harmony of the world and the maintenance of states; each one thinks of procuring his personal interest to the highest degree and with the greatest ease possible."
@@ -329,6 +337,7 @@ Self-interest is not a moral failing to be overcome; it is a fact of human natur
 
 ![Nicolas Baudeau, Oeuvres, Institut Coppet edition](assets/en/019.webp)
 
+
 Nicolas Baudeau (1730–1792), a Physiocrat economist, drew the ultimate consequence of these principles with devastating directness:
 
 > "By what right, if you please, by what motive and for what utility do you decide that such-and-such a kind of durable work shall be done in such-and-such a way and not in any other, by such-and-such a person and not by any other? For either I shall find my pleasure and my advantage in enjoying things thus, or I shall find it in enjoying them otherwise, I, the legitimate possessor of a good acquired by my labor, who can employ it for my well-being. If I find my pleasure and advantage in consuming such-and-such an object, in having such-and-such a worker labor for me and in having him labor thus, your regulations and your privileges are quite useless to him. If I do not find it there, if I find it on the contrary in the object you prohibit, in the person you exclude, you manifestly violate my liberty, my property; you prevent, you restrict my enjoyments. Now that is precisely the moral evil, the offense, the usurpation, that is precisely what authority ought to prevent."
@@ -337,22 +346,16 @@ Nicolas Baudeau (1730–1792), a Physiocrat economist, drew the ultimate consequ
 Free trade is the logical extension of all these principles. If I am the legitimate owner of a good, acquired by my labor or by a previous exchange, then who has the authority to prevent me from exchanging it for another good that pleases me more? To forbid such an exchange is to violate my liberty and my property simultaneously. The liberal economists of the 18th and 19th centuries did not invent a theory; they observed facts about human nature and drew their consequences with rigorous consistency.
 
 
-
-
 ## Non-aggression, respect for property and peace
 
 <chapterId>e8519889-1178-521e-9de7-b32f6177d92b</chapterId>
-
-![video](https://www.youtube.com/watch?v=ZjXEZnwClh4)
-
-
-
 
 
 ### Pain, fear, and the limits of freedom
 
 
-![Destutt de Tracy, De l'amour (Vrin edition)](assets/en/020.webp)
+![Slide image from chapter 1.4](assets/en/020.webp)
+
 
 What defines the boundary of one person's freedom? The answer begins with a fact as universal as it is elemental: pain. It is through pain, transmitted by the nervous system, felt in the body, that violations of our freedom and bodily integrity become perceptible. Without pain, we could not recognize aggression. This physiological reality establishes a natural limit to everyone's liberty: any action that causes pain to another constitutes an infringement of their self-ownership.
 
@@ -364,6 +367,9 @@ Historical developments reveal a gradual expansion of the nuisances that societi
 
 ### Harmony, peace, and the logic of exchange
 
+
+![Slide image from chapter 1.4](assets/en/021.webp)
+
 Frédéric Bastiat and Gustave de Molinari often summarized their liberal doctrine in two words: "liberty and peace", or, as they sometimes formulated it, "liberty within, peace without." These are not separate aspirations; they are the natural consequences of the same principles.
 
 The harmony of a free society is rooted in the simplest of economic relationships: that between customer and supplier. The customer needs his supplier to obtain the desired goods; the supplier needs his customer to be prosperous, for a rational merchant prefers wealthy customers capable of acquiring his products to impoverished ones who cannot buy anything. This logic applies at every level: within a family, within a city, between nations. It creates mutually beneficial relationships that naturally engender cooperation and peace.
@@ -374,6 +380,9 @@ Finally, the very evolution of production tends toward peace. Hunting and fishin
 
 ### Political freedom: decentralization and universal suffrage
 
+
+![Slide image from chapter 1.4](assets/en/022.webp)
+
 Political freedom, though it is a means rather than an end, rests on its own factual foundations. The first is the principle of decentralization, which follows directly from human variety. Human beings are not clones; they have different needs, preferences, and circumstances. This diversity is, above all, individual, not merely regional or national. Logically, decentralization should be pushed to its furthest consequence: individual autonomy.
 
 Benjamin Constant, whom we have already met as a defender of freedom of thought, was one of the most passionate advocates of decentralization. His argument is simple: one cannot plan, organize, or direct a society from a center while ignoring the irreducible diversity of its members. The impossibility of central planning, which we encountered earlier in the limits of human reason, reappears here in the political sphere.
@@ -383,6 +392,9 @@ Universal suffrage finds its justification in the same facts. Pleasures and pain
 ### Civil liberty: from expression to marriage
 
 
+![Destutt de Tracy, De l'amour (Vrin edition)](assets/en/023.webp)
+
+
 We have already established the factual foundations of freedom of expression and religious tolerance: they arise from the individuality of human personality and the diversity of judgments that follows from self-ownership. Because personalities differ, judgments will, and must, differ as well. This diversity is not an obstacle to truth but the very engine of human perfectibility: it is through the confrontation of different judgments that the best ideas emerge and civilization advances.
 
 Consider one further example: the choice of a spouse. There are, as the saying goes, a thousand shades of beauty and a thousand ways of being happy. Aesthetic and emotional perceptions are profoundly individual, rooted in the unique physiological constitution and life experience of each person. The freedom to choose whom to love and whom to marry is not a luxury; it is a direct consequence of the same human facts that ground all the other liberties.
@@ -390,21 +402,16 @@ Consider one further example: the choice of a spouse. There are, as the saying g
 With this, we have completed our survey of the principal facts that ground the doctrine of liberty. Liberalism, we may now say, is anchored in the facts of human existence, in the body, the senses, the will, the diversity of individuals, the need for security, the logic of exchange. The systems of unfreedom, by contrast, must deny or ignore these facts. It is to their factual contradictions that we turn in the next chapter.
 
 
-
 ## The factual contradictions of constraint systems
 
 <chapterId>c13f7395-6734-5c64-b86c-af7922ffbcb0</chapterId>
-
-![video](https://www.youtube.com/watch?v=-WpZ_GEFwSg)
-
-
-
 
 
 ### The contradictions surrounding property
 
 
-![Bastiat and Turgot complete works on display, Institut Coppet](assets/en/021.webp)
+![Bastiat and Turgot complete works on display, Institut Coppet](assets/en/024.webp)
+
 
 We begin with the most famous slogan of the anti-property movement: Pierre-Joseph Proudhon's "property is theft." Bastiat had no difficulty dismantling this formula, for it is self-contradictory on its face: if property is theft, then theft is property, what is legitimate is illegitimate, and what is illegitimate is legitimate. The phrase sounds revolutionary, but it says nothing coherent. Bastiat, in his *Œuvres complètes*, returned systematically to the origin of property, work, self-ownership, human faculties, and demonstrated that it is grounded in the facts of every society and every age.
 
@@ -417,6 +424,9 @@ Second, if the original despoilment were real, we would expect to see the descen
 
 ### Contradictions against human nature
 
+
+![Slide image from chapter 1.5](assets/en/025.webp)
+
 Uniform laws and administrative centralization are in direct contradiction with the natural diversity of human beings. These systems impose uniform ways of working, enjoying property, and organizing life, yet property, by its nature, should confer the liberty to use it as one sees fit, within the limits of others' rights. Under regimes of unfreedom, the nominal owner becomes a mere usufructuary: the true proprietor is the state. We are brought back, unwittingly, to the principles of the Ancien Régime, when the king was the ultimate owner of all lands. The systems of unfreedom are, at bottom, always retrograde, they return to the past they claim to have surpassed.
 
 The weakening of self-interest is another fundamental contradiction. Every human being is born with a distinct personality that deepens throughout life. Freedom allows self-interest to find its own satisfactions, voluntarily and peacefully, at its own pace. Unfreedom imposes standardized satisfactions that correspond to no one's actual needs.
@@ -424,6 +434,9 @@ The weakening of self-interest is another fundamental contradiction. Every human
 The rejection of parental love in education is particularly severe. State education replaces the natural feelings of the mother and father, their intimate knowledge of their child's personality, their emotional investment, with the cold administrative guardianship of a political apparatus that changes with every election cycle. The state has no sentiment, no appreciation for the unique personality of each child. To substitute it for the natural tutors is not progress; it is a contradiction of the most fundamental facts of human attachment.
 
 ### The impossible war on thought
+
+
+![Slide image from chapter 1.5](assets/en/026.webp)
 
 Attempts to control thought take many forms: subsidized press, monopolistic national education, limitations on religious freedom, regulated democracy. All are attacks on the very nature of human thought, which is formed within, belongs intimately to each individual, and is the purest expression of self-ownership. Systems of coercion attempt to break the natural link between a person's ideas and their peaceful expression, thereby depriving society of the creative confrontation of opinions from which truth emerges.
 
@@ -451,12 +464,12 @@ These contradictions could be multiplied endlessly. But the pattern is clear: ev
 
 <chapterId>ed3a71e6-6e1b-504a-8c53-fe21b891ad27</chapterId>
 
-![video](https://www.youtube.com/watch?v=WBG7PYEHOAc)
 
 ### Freedom in history: an ancient possession or a modern conquest?
 
 
-![Benjamin Constant, De la liberte des anciens comparee a celle des modernes (1819)](assets/en/022.webp)
+![Benjamin Constant, De la liberte des anciens comparee a celle des modernes (1819)](assets/en/027.webp)
+
 
 After examining, in the first part, the human facts that ground the doctrine of liberty, we now turn to history. For freedom is not simply a set of facts about the human personality and the world we inhabit; it is also a historical construction. The conditions of human liberty are stronger and more numerous today than they were in the earliest ages of human history. To understand why freedom is a project for the 21st century, we must trace how it has been built, how it has become increasingly practicable, and why it was so difficult to exercise in antiquity.
 
@@ -466,7 +479,8 @@ There has always been debate on this subject, and the French liberal tradition o
 ### The myths of the golden age and the social contract
 
 
-![Charles Dunoyer, L'industrie et la morale, Institut Coppet edition](assets/en/023.webp)
+![French liberal tradition book cover](assets/en/028.webp)
+
 
 The history of freedom has always been accompanied by myths, and two of the most famous deserve our attention.
 
@@ -475,6 +489,9 @@ The first is Jean-Jacques Rousseau's myth of the *bon sauvage*, which introduces
 The second myth is that of the social contract, the notion that society was founded by a primitive agreement among free individuals. But the elements necessary for such a contract were lacking at the supposed time of its creation: a developed language, the very conception of a society beyond the family. Society is not a voluntary creation born of conscious agreement; it exists from the outset as a natural condition of human existence. One does not create a society; one is born into one. These are historical contradictions and errors that the liberals identified, and that allow us to develop a more accurate view of the history of liberty.
 
 ### Self-ownership in prehistoric societies: a non-existent reality
+
+
+![French liberal tradition book cover](assets/en/029.webp)
 
 How are we to understand self-ownership in prehistoric or ancient epochs? In these societies, as travelers of the 18th and 19th centuries also confirmed when they encountered archaic societies still surviving in remote regions, the child was the property of the father. He had absolutely no liberty until the age at which he could bear arms and provide for himself. The woman, likewise, was considered the property of her husband or her father; she could be sold, given as inheritance, or exchanged as a material good.
 
@@ -485,11 +502,17 @@ In the same way, the individual was entirely subjected to the tribe. A set of ru
 
 ### The impossibility of private land ownership
 
+
+![Charles Dunoyer, L'industrie et la morale, Institut Coppet edition](assets/en/030.webp)
+
 Private ownership of land was equally impossible to establish. The productive activities of the time, hunting, fishing, and gathering, required vast common territories. The hunt for buffalo or elephant, for instance, could not be conducted within an enclosed terrain of two hectares. Nomadic life was a necessity, not a choice. Pastoral peoples, by definition, could not attach themselves to a fixed, small plot of private property.
 
 This communal ownership should not be confused with communism in the ideological sense. The land was common within the tribe, within the family or the group of families, but it was considered the property of that group. There were significant conflicts between tribes; no one imagined that the entire earth was the common property of all. These groups behaved like animals defending their territory. But this was not private property linked to the individual; it was a collective adaptation to the conditions of production.
 
 ### "Free! Free to do what?"
+
+
+![French liberal tradition book cover](assets/en/031.webp)
 
 Charles Dunoyer (1786-1862), in his remarkable work *L'industrie et la morale considérées dans leurs rapports avec la liberté* (1825), and later in *De la liberté du travail* (1845), showed that freedom is a progressive construction. We are freer in industrial societies than in feudal societies, freer under feudalism than under ancient slavery, and freer under slavery than in prehistoric times. But what was prehistoric man free to do? Nothing, because human existence was subject to every conceivable constraint.
 
@@ -505,18 +528,16 @@ Technical innovations transformed this equation fundamentally. The steam engine 
 These are the historical elements that explain the progressive development of liberty. In the lessons that follow, we will examine the specific circumstances that made freedom increasingly possible, and how it has imposed itself, step by step, as the governing principle of modern societies.
 
 
-
-
 ## The ancient raison d'être of slavery, serfdom and political authority
 
 <chapterId>29fc841c-eb21-522d-818c-9b50c6558396</chapterId>
 
-![video](https://www.youtube.com/watch?v=3_uLrDCG0l0)
 
 ### The first raison d'être of slavery
 
 
-![Gustave de Beaumont, Marie ou l'esclavage aux Etats-Unis, Institut Coppet edition](assets/en/024.webp)
+![Slide image from chapter 2.2](assets/en/032.webp)
+
 
 After examining the unfreedom imposed by the circumstances of humanity's most distant past, we now turn to the specific institutions that grew from those circumstances: slavery, serfdom, and political subjection. We will see how these forms of non-liberty, once rooted in the facts of their time, gradually yielded to new facts and new circumstances.
 
@@ -532,13 +553,17 @@ Aristotle himself provided a retrospective justification. Slavery existed, he ex
 ### The successive transformations of slavery
 
 
-![Molinari, L'evolution politique et la revolution (1884)](assets/en/025.webp)
+![Slide image from chapter 2.2](assets/en/033.webp)
+
 
 Yet slavery, however firmly anchored in the historical circumstances of humanity's earliest ages, began to transform as production itself transformed. When economic activity became more intellectual, requiring creativity and innovation, slavery proved profoundly inadequate. A slave responds to the whip and the rod, but he cannot invent. When a society needs invention, when it needs to employ mental vigor productively, slavery becomes inoperable. At the same time, as circumstances became less dangerous, individuals found within themselves the capacity to govern their own conduct and the willingness to assume the risks of an autonomous existence.
 
 These transformative forces drove the gradual abolition and mutation of slavery, first into serfdom, then into other, less restrictive forms of political or social domination. Century after century, as circumstances changed, individual liberty became more and more possible. This evolution was especially visible in societies most affected by technical and technological progress, where new circumstances provided concrete support for the expansion of freedom.
 
 ### The liberal critique of modern slavery
+
+
+![Gustave de Beaumont, Marie ou l'esclavage aux Etats-Unis, Institut Coppet edition](assets/en/034.webp)
 
 The maintenance of slavery in America in the 18th and 19th centuries presented a major historical paradox. French liberal thinkers recognized that slavery may have had a certain justification in the most ancient societies, in antiquity and in the earliest ages of colonial exploration. But the slavery of Black people in the modern era had no justification whatsoever; it was an anti-productive system maintained artificially by political authority.
 
@@ -548,6 +573,9 @@ Gustave de Beaumont (1802-1866), who undertook his famous voyage to the United S
 Charles Comte (1782-1837) and other liberal authors identified two principal effects of slavery that led them to condemn the system in the strongest terms. First, the brutalizing effect on the slave himself. Under the new conditions of production, even as early as the 18th century, there was a growing need for intellectual effort, for the application of intelligence and even morality to productive work. Slavery did nothing but brutalize the person; it could not call upon his intellectual capacities, depriving him of any possibility of development. Second, and equally devastating, was the brutalization of the slave owners themselves. They developed a profoundly negative view of work and employed nothing but force. The habit of dominating others transformed their ideas and their character. It was no accident, these authors observed, that the great slave-owning families of Virginia produced so many politicians and presidents: the practice of domination over others engendered conceptions that were profoundly illiberal, incompatible with the principles of equality that ought to underpin modern societies.
 
 ### Political subjection: born of the same circumstances
+
+
+![Molinari, L'evolution politique et la revolution (1884)](assets/en/035.webp)
 
 Political subjection, too, had its roots in the same circumstances as slavery. In the most ancient societies, the imperative need for security demanded leadership. One could not go hunting without direction, for one unproductive hunt, two unproductive hunts, meant famine and death. In combat, when one tribe attacked another, there was a need for resolution, for rapid and decisive choices. This need for chiefs and political domination imposed itself, and we see in these societies an extensive power of leaders and, above all, of regulations covering nearly every aspect of life.
 
@@ -560,12 +588,12 @@ With this examination of the historical raisons d'être of unfreedom, we can alr
 
 <chapterId>a9cf7eb2-4639-5b8a-8fd6-2ad0a9e7cff2</chapterId>
 
-![video](https://www.youtube.com/watch?v=QhrkbIP8FiY)
 
 ### From destruction to production
 
 
-![Pierre Samuel Du Pont de Nemours, Collected Works, Institut Coppet edition](assets/en/026.webp)
+![Slide image from chapter 2.3](assets/en/036.webp)
+
 
 We now examine the specific elements that, across the history of humanity, have permitted the transition from systems of non-liberty to the progressive establishment of freedom. What new circumstances opened the door?
 
@@ -579,7 +607,8 @@ The man who first enclosed a piece of land was not, therefore, a despoiler, but 
 ### Security as both prerequisite and consequence
 
 
-![Paul Leroy-Beaulieu, Le travail des femmes au XIXe siecle, Institut Coppet edition](assets/en/027.webp)
+![Pierre Samuel Du Pont de Nemours, Collected Works, Institut Coppet edition](assets/en/037.webp)
+
 
 Dupont de Nemours (1739-1817), one of the great Physiocrat economists who anticipated Turgot and, indeed, Adam Smith, wrote in 1765 in the *Journal de l'agriculture, du commerce et des finances*:
 
@@ -591,6 +620,9 @@ The logic behind this passage is clear: the new resources generated by genuine p
 Yet here we encounter a paradox that explains the historically slow pace of progress. Security is a prerequisite for economic development: without it, how can one innovate, invest, or produce? But security is also a consequence of development, since only a production surplus can finance the institutions that guarantee social order. This cycle is very difficult to set in motion, and once started, it advances only slowly. But once it gains momentum, it tends to reinforce itself progressively.
 
 ### What capitalism truly means
+
+
+![Paul Leroy-Beaulieu, Le travail des femmes au XIXe siecle, Institut Coppet edition](assets/en/038.webp)
 
 The term "capitalism," though somewhat imprecise, allows us to identify what lies behind the emancipating technical and intellectual progress of recent centuries. At its core, capitalism represents the substitution of the tool and the machine for brute force as the central element of production. This is the end of domination based on physical power, and the beginning of peaceful production and exchange.
 
@@ -607,16 +639,15 @@ New material conditions permitted new ideas to flourish. The historical tendency
 When we examine the different stages of development, from the earliest societies with their meager production and extreme vulnerability to natural hazards, through to societies capable of deploying machines and tools that diminish the pressure of nature's uncertainties, we see a profound correlation between material conditions and the potential for individual freedom. Freedom is not an abstract philosophical aspiration; it depends fundamentally on the material conditions that enable human beings to free themselves from the most pressing necessities of existence.
 
 
-
 ## History at a glance
 
 <chapterId>3fffa63c-58bb-5c97-a2f5-fec90c05f182</chapterId>
 
-![video](https://www.youtube.com/watch?v=pP-7tXQm2YY)
 
 ### A summary and a deeper synthesis
 
-![Molinari, L'evolution politique et la revolution (1884)](assets/en/051.webp)
+
+![French liberal tradition book cover](assets/en/039.webp)
 
 Let us pause to draw together the threads of the preceding lessons before proceeding to the new circumstances of our own century. What general view of history emerges from the analysis we have conducted?
 
@@ -626,7 +657,8 @@ Then we identified the facts that permitted emancipation: the birth of agricultu
 
 ### A new way of reading history
 
-![Works of Turgot, Institut Coppet edition](assets/en/052.webp)
+
+![Slide image from chapter 2.4](assets/en/040.webp)
 
 All national and world histories can be analyzed through this lens, and it is a profoundly important, though regrettably neglected, approach. The conventional narrative of history focuses on the conquest and transmission of power: the rise and fall of dynasties, the birth of monarchies, the succession of political regimes. This has little real interest. What matters most is the gradual conquest of freedom: how it advances, why it advances, and what drives it forward.
 
@@ -654,12 +686,12 @@ The patient work of gradual reform is therefore preferable. It allows societies 
 
 <chapterId>a1c0c590-d0f6-5a18-a949-67f7a568ca6d</chapterId>
 
-![video](https://www.youtube.com/watch?v=XpHqkG78dmo)
 
 ### The increasingly intellectual character of work
 
 
-![Paul Leroy-Beaulieu, Essai sur la repartition des richesses (1883)](assets/en/028.webp)
+![Paul Leroy-Beaulieu, Essai sur la repartition des richesses (1883)](assets/en/041.webp)
+
 
 We come now to the conclusion of this second part, and to the question that gives it its full significance: what are the new circumstances of the 21st century, and why do they make freedom not merely possible but imperative?
 
@@ -673,7 +705,8 @@ Paul Leroy-Beaulieu, in his *Essai sur la répartition des richesses*, was one o
 ### The abundance of new resources
 
 
-![Frederic Bastiat, Le Libre-Echange, Institut Coppet edition](assets/en/029.webp)
+![Slide image from chapter 2.5](assets/en/042.webp)
+
 
 Work has also become far more productive, and this introduces a cascade of new circumstances. Greater productivity generates new resources that can be employed, first, for savings and individual self-sufficiency. The individual becomes increasingly capable of sustaining himself and of activating his individual liberty by assuming the responsibilities that come with it, rather than relying on the security of servitude. These new resources can also finance security on a collective level: a police force, a justice system, far more effective and far less costly, proportionally, than anything available in the past.
 
@@ -684,7 +717,8 @@ Perhaps most significantly, new resources become available to care for the weak 
 ### Globalization and the harmony of interests
 
 
-![Cryptocurrency coins: Bitcoin and the new monetary circumstances](assets/en/030.webp)
+![Frederic Bastiat, Le Libre-Echange, Institut Coppet edition](assets/en/043.webp)
+
 
 The new circumstances also include globalization, the opening of markets that permits the harmony of interests. In the modern world, we are increasingly in relationships between producers and consumers, between suppliers and clients, rather than in the opposition of interests that characterized ancient societies. When production depends on seizure rather than creation, when two groups compete for the same hunting ground, they are locked in a zero-sum conflict. But peaceful competition, made possible by ever-widening markets, allows each producer to improve, to innovate, and to serve consumers at lower cost, creating mutual benefit.
 
@@ -692,6 +726,9 @@ The new circumstances also include globalization, the opening of markets that pe
 International competition also makes the effects of harmful regulations, heavy taxes, and excessive public debt far more visible and consequential. In the closed societies of the past, political domination could be total, because there was no alternative; there was no external market against which to measure one's performance. Today, the nations that are most liberal draw the greatest profit from commerce, precisely because they are in competition with nations that are indebted, interventionist, burdened by oppressive regulations and heavy taxation, and consequently less productive. The consequences of unfreedom are no longer hidden; they are exposed by the relentless comparison of international trade.
 
 ### Technology: the retreat of thought control
+
+
+![Cryptocurrency coins: Bitcoin and the new monetary circumstances](assets/en/044.webp)
 
 Finally, the history of technology, which reaches back to the earliest ages but has accelerated stupendously in the last two centuries, provides perhaps the most striking of the new circumstances. Technology has enabled advances in freedom and consolidated gains that would otherwise be fragile.
 
@@ -711,9 +748,11 @@ We can return to the fundamental facts of human nature that we established in th
 
 <chapterId>aeca263f-cce0-5025-829e-4480b73394a6</chapterId>
 
-![video](https://www.youtube.com/watch?v=4aaf44SSg28)
 
 ### The good use of freedom
+
+
+![French liberal tradition book cover](assets/en/045.webp)
 
 After examining the facts that ground the doctrine of liberty and the historical evolution of freedom and constraint, we arrive at a crucial preliminary question before studying how freedom operates in practice. For freedom to truly assert itself as a project for society, and for it to make genuine progress in history, it must be well used. And to use freedom well, one must first learn to use it.
 
@@ -723,13 +762,14 @@ Beyond these two protective principles, there is a third requirement: to use fre
 
 ### Harming oneself: freedom that destroys itself
 
+
+![Slide image from chapter 3.1](assets/en/046.webp)
+
 Alcoholism provides a particularly enlightening example of a use of freedom that ultimately harms the person exercising it. It begins as a free act, but it gradually diminishes the individual's capacity for freedom by placing him in a state of dependence. The immediate effects of excessive consumption are compounded by more distant effects: a loss of faculties, a reduced willpower, a diminished possession of oneself and one's own forces. The individual becomes less and less capable of making use of his capacities, including his mental ones.
 
 More generally, intemperance and all actions or habits that deprave, enervate, or brutalize our faculties are obstacles to true freedom. The more these behaviors impair our capacities, the less free we are to make enlightened use of them, or indeed any use at all.
 
 ### Harming others: war against humankind
-
-![Abbe de Saint-Pierre, Projet pour rendre la paix perpetuelle en Europe, Institut Coppet edition](assets/en/053.webp)
 
 When an individual harms others, whether by threats, endangerment, or outright violation of their rights, he enters into a state of war with the human race. The Abbé de Saint-Pierre, in his great work on the project of perpetual peace, explains how security is born in human societies and how it must progressively extend to the national and then the international level. The absence of security diminishes not only the freedom of others but also that of the aggressor himself, since in organized societies, to be an enemy of the freedom of others is to risk a severe loss of one's own.
 
@@ -751,22 +791,16 @@ It is the progress of self-government that has enabled the great advances from t
 Having established these preconditions, we can now examine the factual elements concerning freedom itself: its effects and how it operates in practice. While freedom is grounded in fact, and follows logically from historical analysis as the culmination of a great process of progress, we must still understand how it works and why it works as it does. This understanding is essential if we are to make freedom a coherent and feasible project for society.
 
 
-
-
 ## Production and contracts
 
 <chapterId>0cb003fe-58ac-5fa5-89b1-97e558fc98ac</chapterId>
-
-![video](https://www.youtube.com/watch?v=VnpPeSPDy98)
-
-
-
 
 
 ### Production: a historical conquest
 
 
-![Jean-Baptiste Say, Traite d'economie politique (1803), Institut Coppet edition](assets/en/031.webp)
+![Jean-Baptiste Say, Traite d'economie politique (1803), Institut Coppet edition](assets/en/047.webp)
+
 
 Understanding economic freedom is a major challenge in our reflection on freedom as a project for society. The economic dimension of liberty is often poorly understood, not because it is intrinsically complex, but because economic education remains insufficient, particularly in France. Yet the mechanisms of production and exchange are relatively simple, and they need to be clarified to understand how a liberal society is essentially founded on contract, exchange, and peaceful production.
 
@@ -775,9 +809,15 @@ Production itself represents a genuine conquest in the history of mankind. For a
 
 ### The error of "productive" and "unproductive" workers
 
+
+![French liberal tradition book cover](assets/en/048.webp)
+
 Adam Smith, among other thinkers, made a significant error in distinguishing between productive and unproductive workers. In the "unproductive" category he placed lawyers, artists, and doctors, on the grounds that their product would disappear immediately after delivery. This view is profoundly flawed. A teacher's lesson does not disappear; it constitutes an element of intellectual and immaterial production whose effects endure. Gustave de Molinari rightly observed: "What good tools certain books are!" Production extends far beyond the mere transformation of matter. Work, generally speaking, is about creating new utilities and rendering services. To be of service to others is what production truly means.
 
 ### The conditions of production
+
+
+![French liberal tradition book cover](assets/en/049.webp)
 
 The conditions of production reveal a path that is both theoretical and historical. The first requirement is an appropriate choice of means and ends, which implies enlightened freedom and a sense of self-government. One must be the owner of oneself, and one must be able to choose wisely among the various options available. This capacity for choice requires freedom of thought and freedom of action. The second condition is the possible use of means; in other words, property. Without ownership of things, of tools, and of one's own body (everything begins with self-ownership), production becomes impossible. The third condition is the possibility of profitability, which is conditioned by security. Without security, I cannot undertake a viable production project, for I risk being hindered by violence, threats, or the theft of my resources.
 
@@ -792,21 +832,16 @@ The central element that explains the importance of contract and exchange is the
 From this analysis stems a fundamental conclusion. The more contracts are made, the more advantageously the contract replaces the law in many domains. Freedom consists precisely in this choice to act in one direction or another with the properties at one's disposal, the first being one's own person, then that of legitimately acquired things, in order to exchange them in a mutually advantageous manner.
 
 
-
 ## The role of profits and prices
 
 <chapterId>549e00c3-eece-5401-be62-b82c774af893</chapterId>
-
-![video](https://www.youtube.com/watch?v=ZYfXg3lVmWU)
-
-
-
 
 
 ### The two forms of competition
 
 
-![Coquelin and Guillaumin, Dictionnaire de l'economie politique (1852)](assets/en/032.webp)
+![Slide image from chapter 3.3](assets/en/050.webp)
+
 
 The history of mankind can be read as a gradual transformation of the ways in which individuals compete with one another. In the earliest ages, competition was exercised principally through war and violence: the seizure of goods and subsistence commodities obtained by hunting, fishing, and gathering. The market was extremely small, and production limited. Since the world is composed of finite resources, some form of competition for them was inevitable. But the real progress of civilization lay in replacing this violent competition with contract and voluntary exchange.
 
@@ -814,12 +849,18 @@ Interventionism and socialism, unfortunately, represent a reverse step in this g
 
 ### The law of supply and demand: nothing other than freedom itself
 
+
+![Coquelin and Guillaumin, Dictionnaire de l'economie politique (1852)](assets/en/051.webp)
+
 Charles Coquelin (1802-1852), in his article on competition published in 1853 in the *Dictionnaire de l'économie politique*, expressed a fundamental truth: the law of supply and demand is nothing other than the functioning of economic freedom itself. Without freedom, this law simply cannot operate. Imagine a citizen receiving ration coupons: he has no possibility of reducing or increasing his demand according to his preferences. Similarly, companies subjected to political production decisions cannot vary their supply according to circumstances. The law of supply and demand therefore presupposes freedom as its indispensable precondition.
 
 
 In a free economy, price plays an essential signaling role. In a vast market with a large population, economic agents need a compass to guide them through production: what to produce, when to produce it, where to produce it, and how. Price provides precisely this crucial information, assigning a value to the various productive combinations and, as it rises or falls, guiding the self-interest of individuals toward the actions that will enable them to achieve maximum satisfaction while meeting the real needs of society. Profits and interest rates are likewise signals: they indicate where there is need, and where there is not, among the various factors of production.
 
 ### The blindness of centralized planning
+
+
+![Slide image from chapter 3.3](assets/en/052.webp)
 
 Paul Leroy-Beaulieu, writing in his *Le Collectivisme* (1884), anticipated with remarkable foresight the great developments of communism in the 20th century. He demonstrated that socialism, by rejecting profit and replacing the price mechanism with a centralized machine directing both production and consumption, was condemning itself to operate blindly. Without the price signal, centralized management has no way of knowing real human needs, nor of perceiving the effects of changes in those needs or in the supply of production. This absence of signals makes the failure of centralized production and collectivist distribution inevitable.
 
@@ -836,16 +877,12 @@ The decisive advantage of economic freedom is that production is never too early
 
 <chapterId>958075af-fb8f-50d9-9bf5-4d9882e03072</chapterId>
 
-![video](https://www.youtube.com/watch?v=Mz7WV-k42jI)
-
-
-
-
 
 ### Self-interest: broader than egoism
 
 
-![Yves Guyot, L'Inventeur (1867)](assets/en/033.webp)
+![Slide image from chapter 3.4](assets/en/053.webp)
+
 
 Economic liberalism rests on a concept of self-interest that is often misunderstood and caricatured. Alexis de Tocqueville (1805-1859), in *De la démocratie en Amérique*, observed that American society is founded on the pursuit of self-interest, with the law giving free rein to this natural aspiration. Yet Tocqueville also noticed something crucial: the only egoism of which individuals are truly capable consists in forgetting the greater society in order to think of themselves and their own. This observation reveals a fundamental truth: self-interest can never be reduced to strict, geometric egoism.
 
@@ -853,12 +890,18 @@ In reality, human beings are capable of a broad self-regard that begins with the
 
 ### Innovation and progress: the fruit of self-interest
 
+
+![Yves Guyot, L'Inventeur (1867)](assets/en/054.webp)
+
 Self-interest is a propulsive force. It drives the improvement of processes and the quest for progress. To enrich oneself and bring satisfaction to oneself and to others, one must act in a useful way, which naturally leads to innovation. Innovation and progress are the response to humanity's changing circumstances: new challenges constantly require new solutions. Each improvement modifies the economic environment in which man lives, demanding new combinations, new methods, new ventures. Societies cannot be fixed; they must constantly innovate.
 
 
 Yves Guyot (1843-1928), one of the last great figures of French liberalism at the turn of the 20th century, dedicated his first book to the role of the inventor. It follows the logic of the facts of liberalism: the taste for the satisfactions of body and mind drives the individual to seek new ways of organizing his activity, finding new combinations, and responding to hazards. Society as a whole observes that circumstances are changing, that production conditions are evolving, and that by responding to them in an enlightened manner, additional wealth becomes accessible. This recognition that improvements are possible aligns with the great idea of human perfectibility: the conviction that the golden age lies not in the past but in the future, and that it is the role of invention and innovation to bring it nearer.
 
 ### The state does not innovate
+
+
+![Slide image from chapter 3.4](assets/en/055.webp)
 
 The state does not innovate, and this fact is of considerable importance. Ancient societies such as Egypt, where professions were handed down from father to son, illustrate the phenomenon of fixed societies. The state reproduces this non-innovation by its very nature as a bureaucracy. It relies on the activities of civil servants who have no personal initiative and no remuneration proportionate to their innovation. Everything is laid down in regulations; there is neither the will nor the interest to innovate, and the system itself is not designed for innovation. National education is a perfect illustration: it is not designed to improve knowledge, but simply to distribute a body of knowledge conceived as a fixed asset to be spread around. The genius, the original mind, must ask the opinion of his superiors before acting; and "What is the use of it?" is the first question he hears.
 
@@ -871,21 +914,16 @@ In systems of freedom, progress is rewarded in several ways. Industrial and comm
 In a free society, self-interest leads to innovation and progress. In a system of unfreedom, self-interest is dammed and shattered in favor of a pre-defined social interest. Innovation and progress are viewed critically, as they were in ancient societies, and it is thought sufficient to do what one knows how to do. Communist societies do not allow individuals of genius, with different ideas that nobody initially believes in, to bring their projects to fruition. The march of innovation certainly involves many failures, but also many successes, which, in a system of freedom based on contracts and voluntary exchange, lead to that perfectibility of which all the 18th-century liberals spoke.
 
 
-
 ## Harmony of interests and peace
 
 <chapterId>370f4e98-021b-5c81-a109-3b57b689905f</chapterId>
-
-![video](https://www.youtube.com/watch?v=8BHejyOlIlM)
-
-
-
 
 
 ### When interests clash: the world before production
 
 
-![Frederic Bastiat, Harmonies Economiques, Institut Coppet edition](assets/en/034.webp)
+![Frederic Bastiat, Harmonies Economiques, Institut Coppet edition](assets/en/056.webp)
+
 
 The notion of harmony of interests is a fundamental pillar of liberal thought, yet it is frequently dismissed with skepticism. Opponents of liberalism regard it as utopian, a naïve dream, on the premise that human interests are fundamentally antagonistic. We shall see that this objection rests on an erroneous assessment of reality and an incomplete reading of history.
 
@@ -895,7 +933,8 @@ To understand this harmony, we must first ask: under what circumstances are huma
 ### The birth of harmonious exchange
 
 
-![Gustave de Molinari, Grandeur et decadence de la guerre, Institut Coppet edition](assets/en/035.webp)
+![Gustave de Molinari, Grandeur et decadence de la guerre, Institut Coppet edition](assets/en/057.webp)
+
 
 The modern world rests on a radically different principle: the production of new utilities. From the moment agriculture appears, when the wheat field becomes a genuine source of wealth, truly voluntary exchanges are born that enrich both parties simultaneously. As the Abbé de Saint-Pierre observed in the French liberal tradition, relationships founded on contract, respect for the rights of others, and voluntary exchange form a "chain of harmony" linking individuals, communities, and nations.
 
@@ -917,21 +956,16 @@ The Abbé de Saint-Pierre (1658-1743), one of the earliest thinkers on perpetual
 Liberalism thus presents itself as a great harmonious chain of exchanges and contracts, founded on freedom and property, enabling progress and improving the situation of every individual. The "chain of harmony" that the Abbé de Saint-Pierre described in theory has become, through the development of world commerce, a palpable, material reality.
 
 
-
 ## The different varieties of unfreedom
 
 <chapterId>747ec342-bccd-5203-a198-c6e75505801b</chapterId>
-
-![video](https://www.youtube.com/watch?v=uRPLFIDK42k)
-
-
-
 
 
 ### The extreme form: communism as organized spoliation
 
 
-![Portrait of a 19th-century French liberal economist](assets/en/036.webp)
+![French liberal tradition book cover](assets/en/058.webp)
+
 
 Having examined the foundations of freedom in the facts of human existence, traced the historical evolution of liberty and constraint, and analysed the workings of the free economy, we must now turn to the systems of unfreedom. Why do they fail? And why must modern societies move decisively toward freedom-based solutions?
 
@@ -946,17 +980,26 @@ Leroy-Beaulieu's analysis proved prophetic. Decades before the Soviet experiment
 
 ### Socialism: the moderate form of unfreedom
 
+
+![French liberal tradition book cover](assets/en/059.webp)
+
 Socialism and interventionism represent a more moderate form of unfreedom. In these systems, private services are progressively replaced by public ones, and individuals are held in trusteeship by a large regulatory state. Unlike communism, which attempts to organise all production and consumption in a dirigiste manner, socialism operates, so to speak, as half-communism. It is precisely this reduced, practical ambition that explains its persistence today, whereas communism collapsed because it represented too abrupt a return to the societies of the past. The modern individual had acquired, through intellectual work and the practice of freedom, both the capacity and the will to govern himself. Communism destroyed this entirely; socialism merely constrains it.
 
 What socialism fundamentally shares with communism, however, is the replacement of contract, free choice, and individual autonomy by political direction. Voluntary, mutually beneficial exchanges give way to regulations and so-called public services. Political choice, necessarily collective and expressed through democratic elections, replaces individual choices that everyone can control directly. Consider the difference: in daily life, an individual observes his own reality, weighs alternatives, and freely modifies his course of action. In a democracy, the citizen must acquiesce to an overall programme among reduced options, with no real control over what happens next. If the central communist state decides that strawberries are not worth producing because apple orchards are more efficient, there will be no freedom to consume strawberries. Socialism operates on the same logic, merely in a diluted form.
 
 ### The insidious form: confiscatory taxes and intrusive regulations
 
+
+![French liberal tradition book cover](assets/en/060.webp)
+
 A still more discreet form of unfreedom persists in the guise of confiscatory taxes and intrusive regulations. We must distinguish carefully here. The taxes that finance justice and police, guaranteeing the security of persons and property, are legitimate contributions, akin to a collective purchase. But the taxes that operate a genuine confiscation, and the regulations that make choices on behalf of individuals and delimit the boundaries of contracts according to the ideas of those in power, represent a real tutelage.
 
 Gustave de Molinari, with his customary verve, shows that in many of these regulations the owner is no longer truly the owner. He has ceded his property to the state and is now merely a usufructuary, a possessor of temporary enjoyment. The true proprietor, the one who makes decisions about the property, is not the individual who believed himself to be the owner, but the central or even the local state. Consider the naïve homeowner who decides to repaint his house. He believes he has the right to use and dispose of his property as he sees fit, provided he does not infringe on the rights of others. Yet he discovers that he is merely the usufructuary of a house that belongs, in effect, to the community. Inheritance taxes and hindered free trade reveal the same dispossession: a web of regulations, laws, and customs stands between the individual's voluntary, harmless choice and the decisions imposed by public power.
 
 ### Freedom, property, and equality: inseparable principles
+
+
+![Portrait of a 19th-century French liberal economist](assets/en/061.webp)
 
 
 Freedom cannot be dissociated from property or from equality, for these notions are deeply intertwined. Frédéric Bastiat stated the matter plainly: freedom is property. To be free means to make whatever use one wishes of one's property, of oneself, and of the things one legitimately possesses. The person whose property is truly respected is truly free, since he can dispose of himself, his forces and faculties for work, of what he owns for commerce, and of his intellectual faculties for free thought and expression.
@@ -970,16 +1013,12 @@ Yves Guyot (1843-1928), journalist, politician, and one of the most combative Fr
 
 <chapterId>061e5c30-cb50-5205-8a1b-e41b7d1d234a</chapterId>
 
-![video](https://www.youtube.com/watch?v=ArFzWzdWtF0)
-
-
-
-
 
 ### The myth of the state as a deity
 
 
-![Paul Leroy-Beaulieu, L'Etat moderne et ses fonctions (1889), Institut Coppet edition](assets/en/037.webp)
+![Paul Leroy-Beaulieu, L'Etat moderne et ses fonctions (1889), Institut Coppet edition](assets/en/062.webp)
+
 
 The state has been the object of a remarkable mythologisation, particularly during the nineteenth century under the influence of German writers. These authors presented it as a kind of earthly deity: an intangible, superior being, devoid of human defects, endowed with a capacity for foresight and direction that no individual could possibly possess. The state was compared to the brain of the social body, and from this metaphor flowed the ambition to entrust it with ever broader responsibilities.
 
@@ -988,11 +1027,17 @@ Paul Leroy-Beaulieu, who studied in Germany as a young man and knew this literat
 
 ### The electoral process versus individual deliberation
 
+
+![Slide image from chapter 4.2](assets/en/063.webp)
+
 The electoral process differs fundamentally from the process of individual judgement. When a person makes a private decision, whether to enter into a contract, make an exchange, or undertake a line of work, he makes observations and reflects carefully before acting. This deliberation takes place slowly and peacefully within his own mind. In the political sphere, by contrast, decisions emerge from agitation and election fever, in a climate of short-termism hardly conducive to the enlightened judgement that the complex issues the state claims to handle would require.
 
 The democratic state also systematically sacrifices minority interests. Since decisions emerge from a majority, that majority naturally tends, in the absence of sufficient constitutional constraints, to infringe on the individual rights of minority citizens. Worse still, future generations find themselves taxed in advance, inheriting debts and interest on expenditure to which they have never consented. This directly contradicts the great principle of the American Revolution: no taxation without representation.
 
 ### Necessary and parasitic attributions of the state
+
+
+![Slide image from chapter 4.2](assets/en/064.webp)
 
 We must draw a careful distinction between the legitimate functions of the state and its parasitic functions. Laws that guarantee the protection of individuals through a judicial and police system establish the security necessary for exchanges and contracts. These laws enable individuals to weave mutually beneficial relationships with one another and thus build society. Such laws guarantee property, liberty, and security: we may call them the "negative" attributions of the state, meaning attributions that merely protect without intervening in the substance of individual choices.
 
@@ -1006,21 +1051,16 @@ Let us compare the two systems directly. In a society founded on contract, the i
 In a system founded on political power, this process is truncated at every stage. Electoral agitation and misleading promises replace calm deliberation. The citizen votes on the basis of a general impression of a candidate rather than a careful assessment of specific measures. The choices are too complex and all-encompassing for any individual to measure their effects on himself. On the market, everyone can choose freely between competing alternatives; the market for political ideas, by contrast, remains restricted and under tutelage. Consider the difference: as a consumer, I can judge immediately whether a particular purchase satisfied my needs; but how am I to judge whether the grand reforms of national education or the postal service have given me satisfaction? I am not a consumer of everything, and my individual experience bears on something that vastly exceeds me. Finally, political choice is imposed by majority and by package. The individual is forced to acquiesce to an entire programme, entering into exchanges that may well be disadvantageous to him, whereas contractual freedom would allow him to make of his faculties and properties the use he deems best according to his own criteria.
 
 
-
 ## Power through taxation and monetary manipulation
 
 <chapterId>ca113581-6969-58b4-a9f8-996ab409be25</chapterId>
-
-![video](https://www.youtube.com/watch?v=H5m5weoafCA)
-
-
-
 
 
 ### Taxation: contribution versus confiscation
 
 
-![Pierre de Boisguilbert, Ecrits economiques, Institut Coppet edition](assets/en/038.webp)
+![Pierre de Boisguilbert, Ecrits economiques, Institut Coppet edition](assets/en/065.webp)
+
 
 The fundamental distinction between contribution and taxation is the starting point for any reflection on the practices of unfreedom. Contribution represents a legitimate exchange: the citizen participates in the financing of essential collective services, such as courts and police, which guarantee the security of transactions and enable peaceful social life. It is, in effect, a collective purchase, a service rendered for a service paid.
 
@@ -1032,13 +1072,17 @@ The question of fair taxation occupied liberal economists throughout the eightee
 ### Deficit and debt: taxing those who cannot defend themselves
 
 
-![Nicole Oresme, Traictie de la premiere invention des monnoies, Institut Coppet edition](assets/en/039.webp)
+![Slide image from chapter 4.3](assets/en/066.webp)
+
 
 Alexis de Tocqueville, after his voyage to the United States, identified with particular clarity the democratic problem of public spending. Political power, however well-intentioned, cannot be thrifty. The fundamental mechanism is the rupture of the link between enjoyment and punishment: individuals have a natural tendency to shift burdens onto others while enjoying the benefits themselves, and deficits and debt make it legally possible (if morally indefensible) to pass the cost of services obtained onto future generations.
 
 This practice constitutes a major contradiction with the democratic principle that there should be no taxation without representation. Future citizens, who do not yet exist and take no part in current deliberations, find themselves unable to defend their interests in the face of decisions that commit them. As Tocqueville saw, our grandchildren are not present to defend their pockets. Democracy, which already tends to sacrifice minorities, thus also sacrifices future generations.
 
 ### Money as an instrument of domination
+
+
+![Nicole Oresme, Traictie de la premiere invention des monnoies, Institut Coppet edition](assets/en/067.webp)
 
 In the logic of political domination, money ceases to be a commodity or service like any other and becomes an instrument of power. Jurists and economists allied to this conception present money as a sign of sovereignty, asserting that a nation cannot exist without minting its own currency. Yet the primary mission of the law should be to protect and organise the possibility of exchanges and contracts, not to substitute itself for the participants of society by imposing this or that service upon them.
 
@@ -1049,6 +1093,9 @@ Freedom offers solutions through competition and innovation. Bills of exchange a
 
 ### War and the denial of secession
 
+
+![Slide image from chapter 4.3](assets/en/068.webp)
+
 Gustave de Molinari paid particular attention to the question of war, observing the contradiction between this archaic mode of international relations and the new phenomena of peaceful production and globalisation. War is essentially a manifestation of the conflicting interests of rulers themselves, who seek to extend their monopoly of territorial domination as an industrialist would seek to increase his clientele.
 
 This logic of expansion is a vestige of the feudal system, where the state was conceived as the owner of the nation. The history of territorial transfers between ruling families, by marriage or by sale, illustrates this conception perfectly. The purchase of Louisiana, or later of Alaska, demonstrates the possibility of acquiring not only land but also the right to dominate its inhabitants, who had no say in the transaction.
@@ -1056,21 +1103,16 @@ This logic of expansion is a vestige of the feudal system, where the state was c
 The doctrine of liberty opposes this logic with the principle of individual and collective secession: the free choice of individuals who belong to themselves and who decide for themselves what political organisation will satisfy their needs. Yet even in America, long considered a model of liberty, secession was denied to the states that wished to recover their sovereignty. Modern constitutions proclaim a single, indivisible republic, prohibiting all collective emancipation. A region cannot join another country, nor can it become autonomous to manage its own public services. This fundamental contradiction in no way prevents states from seeking to conquer new political clienteles, thus perpetuating the very practices of domination they claim to proscribe.
 
 
-
 ## The different variants of protectionism
 
 <chapterId>3c1cf3d1-e2f5-5a95-9671-bf82b4de4a4e</chapterId>
-
-![video](https://www.youtube.com/watch?v=06T9E621MfY)
-
-
-
 
 
 ### What is protectionism?
 
 
-![Ernest Martineau, Oeuvres, Institut Coppet edition](assets/en/040.webp)
+![Slide image from chapter 4.4](assets/en/069.webp)
+
 
 Protectionism is one of the most significant manifestations of unfreedom, and one of the most durable. To understand it, we must recall that competition is naturally imposed on human beings by the finiteness of available resources. This scarcity creates a need for acquisition and distribution, which can be achieved either by contract or by politics. Free competition distributes resources justly, since it rewards the productive efforts of individuals. But it inevitably leaves behind some who are less productive, who fail to make the right decisions in the economic and social process, who lag behind the march of progress.
 
@@ -1079,7 +1121,7 @@ Protectionism appears as a response to this competition of methods, ideas, and p
 ### The "pillow" of customs protection
 
 
-![Arthur Mangin, De la liberte de la pharmacie, Institut Coppet edition](assets/en/041.webp)
+![Ernest Martineau, Oeuvres, Institut Coppet edition](assets/en/070.webp)
 
 
 Protectionism in international trade is the most familiar form of this notion. Yet freedom calls for free trade: the ownership of things acquired through work legitimately confers the right to exchange them for other products and services. The liberal system rests on complete free trade, which allows everyone to use his property as he sees fit through mutually beneficial exchanges, enriching society and satisfying needs while making work genuinely remunerative.
@@ -1089,7 +1131,8 @@ Protectionism reverses this logic. Nineteenth-century authors, from Harriet Mart
 ### The customs of competitive examinations
 
 
-![La Societe d'economie politique: Une anthologie liberale (1841-1928)](assets/en/042.webp)
+![Arthur Mangin, De la liberte de la pharmacie, Institut Coppet edition](assets/en/071.webp)
+
 
 The protectionist idea extends well beyond international trade. What nineteenth-century French liberals called the "customs of competitive examinations" represents the same logic applied to the freedom of work. These limitations are designed to protect certain professions by making it easier to memorise a programme in a state-designed school than to allow entrepreneurs to advance in innovative ways. The right of entry severely limits competition through regulated apprenticeship schemes, to the apparent benefit of established practitioners. But this benefit is illusory: professions shielded from competition by the routine of examinations do not attract the geniuses, innovators, and inventors who would take them to the next level. Like national education, which is founded on the idea that knowledge merely needs to be distributed rather than improved, the customs of examinations train individuals in a fixed way of working.
 
@@ -1098,6 +1141,9 @@ This approach substitutes the preventive system for the repressive system, the o
 
 ### Labour protectionism and anti-immigration laws
 
+
+![La Societe d'economie politique: Une anthologie liberale (1841-1928)](assets/en/072.webp)
+
 A modern application of protectionism concerns the restriction of immigration. In the eighteenth century, it was commonplace for foreigners to hold public office (Minister Necker, for instance) or to serve in the army (the Swiss Guards). This openness contrasts sharply with the return to protectionism in public functions that we observe today, a subject on which there is remarkably little debate.
 
 The Société d'économie politique, which brought together the great French liberals of the nineteenth century, closely examined the anti-immigration laws emerging in Anglo-Saxon societies. These countries, having dominated the native populations, were entrenching themselves and refusing competition from other peoples who wished to participate not through conquest but through contract and exchange. The Chinese who sought to work in the mines of Australia or California were rejected by restrictive measures that violated both freedom and property.
@@ -1105,21 +1151,16 @@ The Société d'économie politique, which brought together the great French lib
 These authors identified labour protectionism as the future dominant form of protectionism. While the protectionism of big business aims to shield domestic producers from foreign competition on products, worker protectionism seeks to shield domestic workers from competition with foreign workers. The notion of protectionism thus reveals different shades of unfreedom: in the exchange of property through customs duties, in the freedom of work through competitive examinations, and in the freedom to travel and work through anti-immigration laws.
 
 
-
 ## The eternal failure of unfreedom
 
 <chapterId>e4b15871-df1d-5d98-a395-16e24e7258d5</chapterId>
-
-![video](https://www.youtube.com/watch?v=v9SLBWIrXwc)
-
-
-
 
 
 ### The impossibility of planning, from the Physiocrats to the twentieth century
 
 
-![Louis-Paul Abeille, Ecrits physiocratiques, Institut Coppet edition](assets/en/043.webp)
+![Louis-Paul Abeille, Ecrits physiocratiques, Institut Coppet edition](assets/en/073.webp)
+
 
 The failure of unfreedom has a long intellectual history. As early as the mid-eighteenth century, the Physiocrats opened a fundamental debate on the possibility of a society in which the state, by organising unfreedom, would take decisions in place of individuals to create a supposedly more harmonious economic and social order. Their reflection crystallised around the great question of grain: wheat was the major food resource of the time, and its production and trade were debated throughout the century. The state fixed prices, prohibited transfers between regions, controlled economic agents, and attempted to organise the distribution of this essential commodity.
 
@@ -1127,6 +1168,9 @@ The failure of unfreedom has a long intellectual history. As early as the mid-ei
 The Physiocrats, including Louis-Paul Abeille, Turgot, the Marquis de Mirabeau, and Dupont de Nemours, developed decisive arguments against this approach. Political power, they showed, lacks what we may call "the eye of the master": the ability to perceive economic realities that only individuals possess in their daily lives. The nature of demand, supply, resources employed, and prices are variables far too complex for a central authority to evaluate and to make the system function optimally. Through freedom, by contrast, each economic agent responds with his own intuitions to the signals he perceives, notably prices and competition, and adopts appropriate responses to events. This intellectual legacy of the Physiocrats was passed on to the French liberals and to all the liberal economists of the nineteenth and twentieth centuries.
 
 ### Leroy-Beaulieu's prophecy: "slavery without the nest egg"
+
+
+![Slide image from chapter 4.5](assets/en/074.webp)
 
 The French liberal tradition extended this analysis into the nineteenth century, most notably through Paul Leroy-Beaulieu and his major work *Le Collectivisme* (1883). Leroy-Beaulieu set out to analyse in advance how a communist society would actually function, since the theorists of communism, Karl Marx foremost among them, had been remarkably sparing with details about the society that was to replace capitalism. Socialism, after an apparent defeat in 1848, was returning in force around the Commune, and with democracy and universal suffrage it was becoming increasingly threatening.
 
@@ -1161,20 +1205,19 @@ This intellectual and factual history of the failure of unfreedom is a fundament
 
 <chapterId>9bd81fd4-20ed-5305-845a-d081811946ee</chapterId>
 
-![video](https://www.youtube.com/watch?v=eCdXiaTY5Zg)
-
-
-
-
 
 ### Why sophisms matter
 
 
-![Benoit Malbranque, Dictionnaire de la tradition liberale francaise](assets/en/044.webp)
+![French liberal tradition book cover](assets/en/075.webp)
+
 
 We arrive at a fundamental question: why does unfreedom continue to dominate our societies, even though it is refuted by the facts and contradicts the historical movement toward greater freedom? The answer lies in the existence of tenacious sophisms that serve as the intellectual foundation for systems of unfreedom. The notion of sophism owes much to Frédéric Bastiat, author of the famous *Sophismes économiques*. Bastiat held that the socialists and interventionists of his day were mistaken, but with good intentions. As the common expression reminds us, the road to hell is paved with good intentions. For Bastiat, the adversary of liberalism is not the sophist himself, but the sophism: a reasoning error or a factual error that needs to be corrected by economic science.
 
 ### How the French liberals defined freedom
+
+
+![Benoit Malbranque, Dictionnaire de la tradition liberale francaise](assets/en/076.webp)
 
 
 The nineteenth-century French liberal tradition provides a solid conceptual framework for understanding what freedom really means. Let us examine three definitions that converge on the same essential insight.
@@ -1195,9 +1238,15 @@ These three definitions converge on a conception of freedom rooted in self-owner
 
 ### Montesquieu's dangerous definition
 
+
+![French liberal tradition book cover](assets/en/077.webp)
+
 Against these rigorous definitions, political thought also harbours erroneous conceptions of freedom. The most famous is that of Montesquieu: "Freedom is the right to do whatever the laws allow." This seemingly innocent formula turns out to be extremely dangerous, for it permits any infringement of an individual's innocent freedoms provided it is authorised by law. Nineteenth-century liberal thinkers criticised Montesquieu sharply on this point. Destutt de Tracy devoted an entire work, his *Commentaire sur l'Esprit des lois*, to correcting the erroneous notions of this great thinker. Benjamin Constant, for his part, developed a theory clearly distinguishing the sphere of innocent, free individual action from the sphere of power, the latter existing simply to guarantee the exercise of rights without determining the wills or actions of individuals.
 
 ### Negative freedom versus positive freedom
+
+
+![French liberal tradition book cover](assets/en/078.webp)
 
 
 A crucial distinction underlies the entire debate: that between negative and positive freedom. Negative freedom is defined as the absence of obstacles. The individual encounters no hindrance in the expression of his will, so long as he does not directly harm others. This concept is deeply rooted in the notion of property: it designates the freedom to make innocent use of one's own body, faculties, and legitimately possessed goods. Positive freedom, by contrast, is conceived as the capacity to do and to obtain. According to this vision, the individual is free when he can obtain the things he desires. This concept breaks with the notion of property and opens the door to socialist justifications of state intervention.
@@ -1205,21 +1254,16 @@ A crucial distinction underlies the entire debate: that between negative and pos
 Paul Leroy-Beaulieu, in *Le Collectivisme*, demonstrates that socialism, even with its different notion of freedom, prevents people from doing things without guaranteeing the promised results. Socialism thus fails doubly: it delivers neither the freedom conceived by liberals nor the freedom supposedly brought about by its own theories. Understanding these fundamental distinctions enables us to grasp how initial conceptual errors in the definition of freedom give rise to sophisms in the economic, social, and international spheres.
 
 
-
 ## The democratic fallacy: guardianship of guardians
 
 <chapterId>96869664-df6e-5f47-92ad-ac93c88e4f55</chapterId>
-
-![video](https://www.youtube.com/watch?v=YZgyWQ-JQyU)
-
-
-
 
 
 ### The paradox of the guardianship of guardians
 
 
-![Frederic Bastiat, Sophismes economiques, Institut Coppet edition](assets/en/045.webp)
+![Frederic Bastiat, Sophismes economiques, Institut Coppet edition](assets/en/079.webp)
+
 
 The fallacy of the guardianship of guardians is one of the most remarkable contradictions of contemporary political systems. We live within structures that multiply regulations, hindrances, and public direction, substituting for individual acts that would naturally flow from free perception, free judgement, and personal will. This public tutelage rests on a precise premise: that citizens are fundamentally incapable of governing themselves, and require preventive supervision to avoid potentially harmful acts. Rather than repress genuine infringements of the rights of others, the system prefers to anticipate and supervise, on the assumption that individuals left to their own devices will make choices that are inappropriate, uninformed, or contradictory to their own interests.
 
@@ -1227,6 +1271,9 @@ The fallacy of the guardianship of guardians is one of the most remarkable contr
 Yet this same system of unfreedom operates under a democratic form that postulates exactly the opposite. The democratic mechanism asserts that all citizens, equally, are perfectly capable of making informed political choices between different options. They can compare programmes, evaluate political personalities, judge the foreseeable effects of proposed measures, and assess the merits of envisaged reforms. The contradiction is glaring: the same individuals deemed incapable of deciding for themselves in their daily lives are simultaneously deemed capable of deciding for the community as a whole.
 
 ### Why economic choice is simpler than political choice
+
+
+![Slide image from chapter 5.2](assets/en/080.webp)
 
 This contradiction is all the more striking given that choice on the daily economic market is infinitely simpler than political choice. In our consumption decisions, we compare satisfactions on a daily basis; the decision-making process is direct, and the results are immediately apparent. We observe the consequences of our choices, and we adjust our behaviour in the light of experience. The knowledge required remains within our reach, since we consume goods that we can evaluate directly.
 
@@ -1247,15 +1294,11 @@ Faced with these dangers, liberal thought, notably that of Benjamin Constant, de
 
 <chapterId>ffec06b3-1fea-51c8-9bdc-d36efcfd82df</chapterId>
 
-![video](https://www.youtube.com/watch?v=MG_ArE1VEkI)
-
-
-
-
 
 ### Bastiat and the economic sophisms
 
-![Frederic Bastiat, Sophismes economiques, Institut Coppet edition](assets/en/054.webp)
+
+![Slide image from chapter 5.3](assets/en/081.webp)
 
 We now turn to the economic sophisms that form the intellectual foundation of systems of unfreedom. These sophisms underpin both communism and the various forms of excessive regulation and oppressive taxation that persist today. Frédéric Bastiat devoted most of his work, sadly cut short by his untimely death in 1850, to identifying and deconstructing these errors. His *Sophismes économiques* remain particularly relevant, for economic freedom is still widely contested in our contemporary societies, allowing systems of compression and authority to survive.
 
@@ -1279,21 +1322,16 @@ In his unfinished work *Les Harmonies économiques* (1850), Bastiat develops the
 Bastiat insisted on this point because, in his day, England was constantly portrayed as an ogre seeking to dominate and enrich itself at the expense of France. This discourse was perpetuated throughout the nineteenth and twentieth centuries, and we hear it again in the twenty-first with the resurgence of protectionism. The same economic sophisms continue to underpin it. Eradicating such fallacious reasoning requires rigorous economic education and, above all, the dissemination of liberal economic thought, which has identified many of these errors in the analysis of human relationships in the marketplace.
 
 
-
 ## The social fallacy: social classes and capitalist exploitation
 
 <chapterId>a154cdd1-5cc7-56c0-839b-a898305cdf30</chapterId>
-
-![video](https://www.youtube.com/watch?v=3Q-5MxGsULw)
-
-
-
 
 
 ### Social classes: past and present
 
 
-![Paul Leroy-Beaulieu, Essai sur la repartition des richesses (1883)](assets/en/046.webp)
+![Slide image from chapter 5.4](assets/en/082.webp)
+
 
 To understand the sophism of capitalist exploitation, we must first examine the historical reality of social classes. Unfree societies have traditionally functioned with a high degree of social stratification, a feature still found in contemporary communist societies. This stratification fundamentally opposes those who have the freedom to choose for themselves and others, and those who are deprived of it. Charles Comte, in his *Traité de législation* (which Frédéric Bastiat considered his favourite book), examines the different states of society to show how freedom and unfreedom have functioned throughout history.
 
@@ -1302,17 +1340,26 @@ In ancient societies such as Egypt, India, Greece, and Rome, social classes rema
 
 ### The futility of Marxist social categories
 
+
+![Slide image from chapter 5.4](assets/en/083.webp)
+
 The socialist and communist interpretation asserts that social classes persist in modern societies, maintaining less freedom for certain parts of the population. But when we rigorously analyse what social classes actually mean in the present, we discover fundamental contradictions. Paul Leroy-Beaulieu, in *Le Collectivisme*, attempts to take the claims of socialists seriously by examining their vocabulary opposing "workers" to the elite possessing the "means of production."
 
 These notions prove extremely difficult to apply in practice. Wealthy artists and singers do not own the means of production. A great footballer would logically be a proletarian, since even the ball does not belong to the players. A journalist, a great scientist, or a lawyer would equally be proletarians, since they work with their hands and their intellect without owning the tools of their trade. In his *Essai sur la répartition des richesses*, Leroy-Beaulieu demonstrates that modern societies are organised around work: we must constantly redeem our wealth through labour, and the development of capital is itself a daily task of market analysis and investment. This reality reveals the futility of Marxist social categories in a society founded on equal rights and freedom of work.
 
 ### Who does capitalism really benefit?
 
+
+![Slide image from chapter 5.4](assets/en/084.webp)
+
 Contrary to the idea of exploitation, certain traditionally disadvantaged groups benefit particularly from the development of the market economy. Leroy-Beaulieu, in *Le travail des femmes au XIXe siècle*, shows that women are among the greatest beneficiaries of capitalist progress. In ancient societies, their lot was far from enviable: their lesser productive power and the general lack of security penalised them disproportionately. In capitalist societies founded on voluntary exchange, security improves, contracts rest on free will, and as work becomes increasingly mechanised and intellectual, the physical difference between men and women diminishes in economic significance. Women can earn better wages and enjoy a more dignified status.
 
 The lot of children improves for the same reason. As work becomes more intellectual, it becomes impossible to put children to work immediately. Training through education, slow and costly, ensures a better lot and greater respect for children. On environmental questions, liberal authors recognise the nuisances of dangerous and unhealthy industries, deforestation, and pollution, while insisting that one cannot harm others freely: there exists a perimeter of free action, beyond which responsibility for proven nuisance applies.
 
 ### The liberal sensitivity to poverty
+
+
+![Paul Leroy-Beaulieu, Essai sur la repartition des richesses (1883)](assets/en/085.webp)
 
 
 The socialist assertion that the poor become ever poorer in capitalist societies is contradicted by the facts. Leroy-Beaulieu demonstrates that the real trend in societies founded on contract and voluntary exchange is the constant improvement of the condition of the masses. Consumer goods become available at ever-lower prices, and labour productivity continually increases. This can be verified simply by observing the size of dwellings, the quality and frequent renewal of clothing, and the improvement of food.
@@ -1324,17 +1371,12 @@ Yet liberal writers also display a strong sensitivity toward poverty and the wea
 
 <chapterId>e4cc0069-d2b8-5c33-8dc3-ccc2655afe68</chapterId>
 
-![video](https://www.youtube.com/watch?v=u2vYYNyKplA)
-
-
-
-
-
 
 ### The socialist attack on private property
 
 
-![Charles Comte, Traite de la propriete (1834)](assets/en/047.webp)
+![Charles Comte, Traite de la propriete (1834)](assets/en/086.webp)
+
 
 Socialist and communist thought take a particularly paradoxical theoretical stance on property. These currents of thought regularly attack private property, holding that the individual appropriation of things and land is contrary to justice. According to this vision, we should live in a world where wealth is distributed in a common and equal manner, or according to a collective, political organisation aimed at balancing the distribution of resources. This criticism naturally extends to inheritance, seen as an unfair transmission of wealth that should be politically organised rather than left to the free decision of individuals.
 
@@ -1370,16 +1412,12 @@ This analysis also enables us to understand how systems of unfreedom undermine i
 
 <chapterId>085d5756-4ffe-5e2e-8b41-9a94102c97d3</chapterId>
 
-![video](https://www.youtube.com/watch?v=Vk4AOoWiKAs)
-
-
-
-
 
 ### Why we want freedom of contract
 
 
-![Courcelle-Seneuil, La Banque libre, Institut Coppet edition](assets/en/048.webp)
+![Slide image from chapter 6.1](assets/en/087.webp)
+
 
 The contract is the fundamental element of free societies, for it represents the concrete expression of the free disposition of oneself and of the goods that legitimately belong to us. Because each individual is the owner of himself, he mobilises this ownership in his contractual commitments, binding his will to that of others to accomplish certain actions. Properties derived from previous work and exchanges can likewise be mobilised in these contractual relationships, which must be understood as a positive-sum game in which each party finds an advantage in participating.
 
@@ -1387,6 +1425,9 @@ The contract is the fundamental element of free societies, for it represents the
 The voluntary contract is also the cement of society itself. Society can be defined as the multiplicity of exchanges between individuals: without exchange or contract, it exists only in fact, but it takes real shape through contract and voluntary association. This contractual functioning is the foundation of social harmony and peace, since it rests on mutually advantageous and freely negotiated relationships. When a person chooses to enter into a contract, it is precisely because he finds it advantageous to carry out the transaction rather than to abstain.
 
 ### Why we want freedom of work
+
+
+![Slide image from chapter 6.1](assets/en/088.webp)
 
 Work is one of the most fundamental human acts, and its freedom encompasses a remarkably wide field of application. Many activities can be considered as work: freedom of expression, for example, is also a form of freedom of work, since journalism, the press, and printing are professions. Religious tolerance itself touches on this freedom, since the celebration of mass is work. Guaranteeing freedom of work is therefore tantamount to guaranteeing an extremely comprehensive freedom.
 
@@ -1396,27 +1437,25 @@ Freedom of work has a propulsive character that makes progress possible. Human p
 
 ### Why we want monetary and banking freedom
 
+
+![Courcelle-Seneuil, La Banque libre, Institut Coppet edition](assets/en/089.webp)
+
 Banking and monetary freedom is a particular application of the freedom of work, since money simply represents a service rendered and a product exchanged on the market. Jean-Gustave Courcelle-Seneuil, in his influential *La Banque libre*, together with Charles Coquelin and others, helped revitalise the economic theory behind this freedom in the nineteenth century. These thinkers offered a comprehensive critique of the long history of state monetary manipulation, devaluation, and inflation.
 
 
 Courcelle-Seneuil asserted the French Revolution's ideas on freedom of work and property, explaining that there was no reason to justify a public monopoly of money. Free banking would make banking and monetary services available to more people, including the farmers who were excluded from the system at the time. As in Scotland and certain American states of the period, freedom of banking and money encourages innovation and progress, driven by the self-interest that motivates market participants to develop new solutions to satisfy consumers. The potential for monetary innovation, of which today we perceive only the first signs, is vast.
 
 
-
 ## Reduced state powers
 
 <chapterId>abb3498a-0232-5a58-aea0-52730b75ee84</chapterId>
-
-![video](https://www.youtube.com/watch?v=rO1lIrTUU6k)
-
-
-
 
 
 ### The reduction of state powers
 
 
-![Paul Leroy-Beaulieu, Essai sur la repartition des richesses (1883)](assets/en/049.webp)
+![Slide image from chapter 6.2](assets/en/090.webp)
+
 
 The political programme of liberty is fundamentally based on a drastic reduction in the powers of the state, particularly those considered parasitic. This idea runs through the entire French liberal tradition, from the Marquis d'Argenson and the Physiocrats in the eighteenth century, with their famous *laissez faire* principle, to the great thinkers of the nineteenth century such as Paul Leroy-Beaulieu. While these authors recognise that the state has a number of necessary powers, notably in policing, justice, and certain aspects of land-use planning, they all agree on the need to strictly limit its scope of action.
 
@@ -1424,6 +1463,9 @@ The political programme of liberty is fundamentally based on a drastic reduction
 The debate on the functions of the state has always been intense within the liberal family, but a consensus emerges around a fundamental distinction. On one side are the necessary attributions: principally the establishment of a rule of law, the protection of freedom of contract and the enforcement of contracts, and the defence of individual rights against violation. On the other side are ancillary functions, many of which are perfectly suited to private initiative, free association, and the market economy. History shows that roads and bridges have often been built and managed privately in many societies.
 
 ### The structural inefficiency of state action
+
+
+![Paul Leroy-Beaulieu, Essai sur la repartition des richesses (1883)](assets/en/091.webp)
 
 The state, in all its economic manifestations, is a deficient and costly mechanism. Its limited productive power stems from the fact that it does not rely on individual initiative and enterprise, and does not allow personal interest to develop fully. The functionarism that characterises it generates an organisation that is not very progressive and poorly adapted to the rapid evolution of society. This maladaptation becomes particularly problematic in a context of constant technical innovation, where progress must be anticipated and the production of goods and services constantly improved.
 
@@ -1440,21 +1482,18 @@ Education and healthcare are perfect examples of the perverse effects of state m
 The current reality reveals a paradoxical situation. Education and healthcare professionals, who produce extremely valuable services, are in fact the first to be sacrificed by the public service system, which devalues their work and prevents them from acquiring the place in society that should be theirs. The state considers these branches so essential that it must monopolise them, but it is precisely because they are so useful that they would be highly valued in a regime of freedom.
 
 
-
-
 ## The liberal alternative to the welfare state
 
 <chapterId>8be24b04-53da-5d80-8e76-3b6f3530723f</chapterId>
 
-![video](https://www.youtube.com/watch?v=8BaeELxzbes)
-
-
-
-
 
 ### Voluntary solidarity and free association
 
-![Henri Baudrillart, La Liberte du travail, Institut Coppet edition](assets/en/055.webp)
+
+![French liberal tradition book cover](assets/en/092.webp)
+
+
+![French liberal tradition book cover](assets/en/095.webp)
 
 The liberal perspective on social issues rests on a particular conception of human existence, centred on individual freedom and personal responsibility. Human relations are naturally organised around contract, but also around what we may call human sympathy and the individual's natural associations: the family circle, relatives and close friends, as well as the free associations and companies in which each person evolves.
 
@@ -1465,7 +1504,8 @@ The power of free association deserves special recognition. The isolated individ
 
 ### Feminism and liberalism
 
-![Charles Comte, Traite de legislation, Institut Coppet edition](assets/en/056.webp)
+
+![French liberal tradition book cover](assets/en/093.webp)
 
 The liberal analysis of feminism rests on a historical and anthropological study of the condition of women in different societies. Charles Comte, in his *Traité de législation*, examines the condition of various population categories in ancient societies and in those recently discovered in Australia and New Zealand. His analysis reveals that in primitive societies, the lot of women was far from enviable: they were truly the slaves of their time.
 
@@ -1473,9 +1513,8 @@ The emancipation of women was achieved through freedom and through what we call 
 
 ### The liberal position on racism and immigration
 
-![La Societe d'economie politique: Une anthologie liberale (1841-1928)](assets/en/057.webp)
 
-![Gustave de Molinari, Oeuvres completes, Volume XXII, Institut Coppet edition](assets/en/058.webp)
+![Slide image from chapter 6.3](assets/en/094.webp)
 
 The question of racism was the subject of numerous discussions at the Société d'économie politique in the nineteenth century, which brought together France's leading liberal intellectuals. These debates addressed various manifestations of racism, from anti-Semitism and the fate of Jews in Romania to the situation of Chinese in California and Australia. The vast majority of the society's members took a positive view of the mixing of human groups, believing that competition is propulsive and that the work of generations, combining different elements of culture and intelligence, leads to the best possible development of civilisation, provided this is accomplished on the basis of contract and voluntary cooperation. The individualistic character of the doctrines of liberty directly contradicts collective representations of races or nations as homogeneous groups.
 
@@ -1483,20 +1522,15 @@ The question of racism was the subject of numerous discussions at the Société 
 The question of immigration must be approached from the liberal fundamentals of self-ownership and ownership of things. When immigration is founded on voluntary exchange, legitimate appropriation of goods, and equal contracts, freedom of immigration must be asserted. Gustave de Molinari, himself a Belgian immigrant who lived in France, epitomises this position. He and the vast majority of French liberals of his time viewed immigration positively, recognising that the fight against immigration constituted a new form of protectionism: a labour protectionism comparable to that of industrialists protecting their profits from international competition. Just as industrialists wished to reserve a national market for themselves, workers and their political representatives, under universal suffrage, saw competition from foreign workers as an embarrassment. The social liberal programme was therefore not limited to economic issues but encompassed the retreat of the state in favour of contract and free trade, in a perspective perfectly compatible with contemporary feminist and anti-racist movements.
 
 
-
 ## Individual autonomy and collective self-defence
 
 <chapterId>1811a240-b5c8-5c34-906a-a5a030ca847f</chapterId>
 
-![video](https://www.youtube.com/watch?v=dKm9YGsxPyk)
-
-
-
-
 
 ### The individual as the foundation of political freedom
 
-![Benjamin Constant, Commentaire sur l'ouvrage de Filangieri, Institut Coppet edition](assets/en/059.webp)
+
+![French liberal tradition book cover](assets/en/096.webp)
 
 The doctrine of freedom rests on a principle that deserves to be clearly established: the individual is the inescapable starting point for any reflection on liberty. This assertion derives from a factual observation of human nature. We do not enjoy things collectively; we do not possess an innate collective will, but an individual will of our own. Through exchange and contract, collective decisions can emerge, but the primary foundation always remains the individual, not the nation, the group, or any other collective category.
 
@@ -1505,13 +1539,17 @@ This recognition has important consequences for political organisation. Unfreedo
 
 ### Nations as voluntary associations
 
+
+![French liberal tradition book cover](assets/en/097.webp)
+
 The liberal society is founded on voluntary exchange and contract, which profoundly transforms our understanding of the nation. Nations are to be understood as large associations through and within which individuals organise the administration of justice and the police. They are not superior entities that dominate or possess individuals.
 
 History teaches us that the pretexts usually invoked to found national unity, such as unity of language, culture, or history, do not withstand impartial analysis. The wars that have enlarged certain territories have not been waged on the basis of linguistic or cultural affinities but according to opportunities for political expansion. The great movement of colonisation is a perfect illustration. We must therefore think differently about politics, gradually replacing political serfdom with increasingly contractual and voluntary foundations.
 
 ### Secession and freedom of government
 
-![Gustave de Molinari, Oeuvres completes, Institut Coppet edition](assets/en/058.webp)
+
+![French liberal tradition book cover](assets/en/098.webp)
 
 The notion of secession is the logical continuation of this reflection. Gustave de Molinari explored the question in particular depth at the time of the American Civil War. This long and costly conflict raised not only the question of slavery but also that of political autonomy and what Molinari called "freedom of government." The fundamental question is whether one can freely choose one's government, or whether one remains in trusteeship, possessed by a nation from which one cannot exclude oneself.
 
@@ -1519,28 +1557,21 @@ True freedom of contract does not simply consist in being party to a social cont
 
 ### Toward international security founded on law
 
-![Abbe de Saint-Pierre, Projet pour la paix perpetuelle, Institut Coppet edition](assets/en/053.webp)
-
 As early as 1713, the Abbé de Saint-Pierre identified the need for organised international security. Historically, security was established gradually: first between tribes, then on a national scale with the end of serfdom and the creation of vast states. Today, the proportion of human relations conducted on an international basis has grown considerably, making it ever more imperative to establish security on very broad boundaries.
 
 A state of international law that would recognise freedom of action while punishing infringements of that freedom does not yet exist on a global scale. We must prepare for its organisation, as history is moving toward an increasingly liberal functioning of societies. Security is an indispensable condition for voluntary human relations, since without it, innocent freedom can neither be recognised nor practically implemented. Freedom that is constantly in danger is freedom destroyed in advance.
-
 
 
 ## Freedom rooted in human facts
 
 <chapterId>fa1ae25f-bdcf-50db-9a12-d880ff568875</chapterId>
 
-![video](https://www.youtube.com/watch?v=HWkAFC4gU-I)
-
-
-
-
 
 ### Freedom rooted in the facts of human existence
 
 
-![Institut Coppet logo](assets/en/050.webp)
+![Institut Coppet logo](assets/en/099.webp)
+
 
 This course on freedom as a project for society rests on a fundamental conviction that deserves to be forcefully reiterated in conclusion: freedom is neither a utopia nor a mere abstract theory, but is deeply rooted in the facts of human existence. The first part of the course established this essential foundation by examining the realities that characterise the human condition. Among these fundamental facts, self-ownership occupies a central place, for it is precisely because man owns himself that he can legitimately possess things, material goods, and land. This human variety, this irreducible individuality, is the foundation on which any serious reflection on freedom must be built.
 
@@ -1559,7 +1590,6 @@ The programme of freedom that emerges from this analysis must be bold, for it is
 
 
 The example of the campaign for the abolition of the Corn Laws in nineteenth-century England illustrates the way forward. Richard Cobden and the Anti-Corn Law League, celebrated by Frédéric Bastiat, achieved success by mobilising public opinion through meetings held throughout England, Scotland, and Ireland. This method of convincing through the debate of ideas remains the goal to be pursued today, for it is perfectly in tune with the values of competition, freedom, and perfectibility that liberalism stands for. The march of history leads us toward ever greater freedom, and it is our task to ensure that this march is accomplished through peaceful reform and enlightened opinion rather than through violence and upheaval.
-
 
 
 # Final section

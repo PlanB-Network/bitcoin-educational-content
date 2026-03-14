@@ -28,6 +28,188 @@ Pourquoi intituler ce cours *La Liberté en tant que projet social* ? Parce que 
 
 Ce cours, développé par l'Institut Coppet et présenté par Benoît Malbranque, vous invite à un voyage à travers les fondements, l'histoire et les mécanismes concrets de la liberté. Le cours est organisé en cinq parties : les fondements de la liberté, l'histoire de la liberté, le fonctionnement de la liberté, les sophismes de la non-liberté, et la philosophie du libéralisme.
 
+## À propos de l'auteur et références
+
+<chapterId>37f4b0d0-7aaa-4009-836a-d401c3c12907</chapterId>
+
+### À propos de l'auteur du cours
+
+Ce cours a été développé par **Benoît Malbranque**, directeur de l'Institut Coppet, l'institution de référence consacrée à la redécouverte et à la publication de la tradition libérale française. Au cours de la dernière décennie, l'Institut Coppet a republié des dizaines d'ouvrages des XVIIIᵉ et XIXᵉ siècles tombés dans un oubli quasi total. Malbranque est l'auteur du *Dictionnaire de la tradition libérale française* et l'éditeur de nombreuses éditions critiques de Bastiat, Molinari, Leroy-Beaulieu et d'autres. Sa connaissance approfondie de ces sources primaires confère à ce cours une authenticité unique.
+
+![Benoît Malbranque, Dictionnaire de la tradition libérale française](assets/en/076.webp)
+
+### Ce que ce cours vous apportera
+
+Pourquoi consacrer votre temps à l'étude des penseurs libéraux français des XVIIIᵉ et XIXᵉ siècles ? Parce que les questions auxquelles ils ont répondu sont celles que vous affrontez chaque jour :
+
+- **Défendre vos choix économiques.** Quand quelqu'un affirme que l'État devrait réguler les prix, protéger les industries ou redistribuer les richesses, vous serez capable d'identifier les coûts cachés et les sophismes derrière ces propositions, en utilisant la méthode de Bastiat de *ce qu'on voit et ce qu'on ne voit pas*.
+- **Comprendre l'origine de vos droits.** La propriété, la liberté d'expression, la liberté du travail : ce ne sont pas des cadeaux du gouvernement. Vous découvrirez qu'ils découlent de faits observables sur la nature humaine.
+- **Reconnaître la manipulation.** Les politiciens et les intellectuels ont toujours utilisé des sophismes pour justifier l'expansion de leur pouvoir à vos dépens. Ce cours catalogue les plus courants et vous apprend à les démanteler.
+- **Penser historiquement.** La marche de l'esclavage et du servage vers la liberté individuelle constitue l'histoire centrale de la civilisation humaine.
+- **Appliquer les principes libéraux en pratique.** Du droit des contrats et de la banque libre à l'éducation et au commerce international, les penseurs de ce cours ont proposé des alternatives concrètes qui restent remarquablement pertinentes aujourd'hui.
+
+### Ouvrages de référence
+
+Le cours s'appuie sur un corpus remarquable de sources primaires, presque exclusivement issues de la tradition libérale française. Ces ouvrages, pour la plupart republiés par l'Institut Coppet, forment l'ossature intellectuelle de tout ce que vous étudierez.
+
+**Louis-Paul Abeille** (1719–1807)
+
+- [Lettre d'un négociant sur la nature du commerce des grains (1763)](https://planb.academy/resources/books/lettre-negociant-commerce-grains-c9ae04c1-d19d-409d-aa37-d6498aafde59)
+
+**Frédéric Bastiat** (1801–1850)
+
+- [Oeuvres Complètes (7 volumes)](https://planb.academy/resources/books/bastiat-oeuvres-completes-765be39c-134a-4333-8b4b-e45a4fff7e73)
+- [Sophismes économiques (1845)](https://planb.academy/resources/books/sophismes-economiques-9ccb727f-d253-4188-9cc6-74c1e6ce6a16)
+- [Harmonies économiques (1850)](https://planb.academy/resources/books/harmonies-economiques-66561d29-feb2-495c-815d-cea521b1930c)
+- [Ce qu'on voit et ce qu'on ne voit pas (1850)](https://planb.academy/resources/books/ce-quon-voit-et-ce-quon-ne-voit-pas-8eaa83b8-738a-49b9-a29e-fb48b8668fcf)
+- [La Loi (1850)](https://planb.academy/resources/books/la-loi-3f2e33c3-3d68-4561-b02c-84ecc94dd1a0)
+- [Cobden et la Ligue (1845)](https://planb.academy/resources/books/cobden-et-la-ligue-292d6271-1829-496a-992b-c0ca08138110)
+- [Le Libre-Échange](https://planb.academy/resources/books/le-libre-echange-a5e85b0e-ca10-4210-afa5-19016bc35799)
+
+**Henri Baudrillart**
+
+- [La Liberté du Travail](https://planb.academy/resources/books/la-liberte-du-travail-baudrillart-d529a769-833f-4d4a-94ea-71482d8680c7)
+- [La Liberté du Travail, l'Association et la Démocratie](https://planb.academy/resources/books/la-liberte-du-travail-association-democratie-b5164580-430f-4491-95f3-9ad3fabd51a0)
+
+**Nicolas Baudeau**
+
+- [Oeuvres](https://planb.academy/resources/books/baudeau-oeuvres-ef3e25fd-b0b6-439d-9bf9-461772abce26)
+
+**Gustave de Beaumont** (1802–1866)
+
+- [Marie ou l'Esclavage aux États-Unis](https://planb.academy/resources/books/marie-esclavage-etats-unis-db2d05b6-24ae-4d47-b252-493d6c3c09ef)
+
+**Pierre de Boisguilbert** (1646–1714)
+
+- [Écrits Économiques / Détail de la France (1695)](https://planb.academy/resources/books/detail-de-la-france-bc806d78-d4dd-4fab-9a6c-0274092a9f50)
+
+**P.J.G. Cabanis**
+
+- [Rapports du Physique et du Moral de l'Homme (1802)](https://planb.academy/resources/books/rapports-physique-moral-homme-7010e4d4-fe97-4672-91bf-6e3938464b1d)
+
+**Charles-Irénée Castel de Saint-Pierre** (1658–1743)
+
+- [Projet pour rendre la paix perpétuelle en Europe (1713)](https://planb.academy/resources/books/projet-paix-perpetuelle-europe-a9a43e52-3bab-4835-901a-f359c21afc87)
+- [Projet pour perfectionner le commerce (1735)](https://planb.academy/resources/books/projet-perfectionner-commerce-f4123249-b5ca-446e-8514-aedef76dbdf3)
+
+**Charles Comte** (1782–1837)
+
+- [Traité de Législation (1827)](https://planb.academy/resources/books/traite-de-legislation-90216321-9a58-49d9-b4d8-f78c61b1cb68)
+- [Traité de la Propriété (1834)](https://planb.academy/resources/books/traite-de-la-propriete-80de2b10-5ea1-4fb6-b9c7-b52b312bfa05)
+- [Cours de droit naturel (~1830)](https://planb.academy/resources/books/cours-droit-naturel-78a371b6-796b-4ebe-bb8a-54cc64f38b57)
+
+**Condorcet** (1743–1794)
+
+- [Esquisse d'un Tableau Historique des Progrès de l'Esprit Humain](https://planb.academy/resources/books/esquisse-tableau-historique-progres-esprit-humain-ab87cd62-445d-4620-a3ad-7af31ba17c3f)
+
+**Benjamin Constant** (1767–1830)
+
+- [Principes de politique applicables à tous les gouvernements (1815)](https://planb.academy/resources/books/principes-de-politique-282bc3de-f218-4103-903a-5280d7b99108)
+- [De la liberté des anciens comparée à celle des modernes (1819)](https://planb.academy/resources/books/liberte-anciens-modernes-dbb9dcca-de4e-4d41-a7bf-4d26f26eba83)
+- [Commentaire sur l'ouvrage de Filangieri (1822)](https://planb.academy/resources/books/commentaire-filangieri-8c7eb7d7-a94f-4a7c-b2d2-846e6052ad14)
+
+**Charles Coquelin** (1802–1852)
+
+- [Du crédit et des banques (1848)](https://planb.academy/resources/books/du-credit-et-des-banques-4a34b98d-feda-4228-bf48-e14df159cf11)
+- [Dictionnaire de l'Économie Politique (1852)](https://planb.academy/resources/books/dictionnaire-economie-politique-133b07d0-a058-44cb-a1fa-b58609e9b4a5)
+
+**Courcelle-Seneuil**
+
+- [La Banque libre (1867)](https://planb.academy/resources/books/la-banque-libre-cddc59e1-3778-4feb-b2c2-735dc18433b2)
+
+**Antoine Destutt de Tracy** (1754–1836)
+
+- [Traité de la Volonté et de ses Effets (1815)](https://planb.academy/resources/books/traite-volonte-effets-2b6c8688-ecd7-412a-96d9-e8efaabb81b8)
+- [De l'amour](https://planb.academy/resources/books/de-lamour-destutt-de-tracy-daf11bb0-4959-4cf6-9456-1a86d941a4ef)
+- [Commentaire sur l'Esprit des lois (1819)](https://planb.academy/resources/books/commentaire-esprit-des-lois-7f3a37a4-e731-4415-8308-21daf4a689c7)
+
+**Charles Dunoyer** (1786–1862)
+
+- [L'industrie et la morale considérées dans leurs rapports avec la liberté (1825)](https://planb.academy/resources/books/industrie-morale-liberte-0ce13a70-e72b-4c5c-b527-fdb9b0a60aae)
+- [De la liberté du travail (1845)](https://planb.academy/resources/books/de-la-liberte-du-travail-edf7f393-d110-4a18-96f4-fcc477f0b49c)
+
+**Pierre Samuel Du Pont de Nemours** (1739–1817)
+
+- [Oeuvres](https://planb.academy/resources/books/dupont-de-nemours-oeuvres-d4f27f13-3547-471d-a973-e08d3a95ede7)
+
+**Yves Guyot** (1843–1928)
+
+- [L'Inventeur (1867)](https://planb.academy/resources/books/linventeur-778169ff-cf16-4c9f-9be9-62c783c810bb)
+- [La Propriété: Origine et Évolution (1895)](https://planb.academy/resources/books/la-propriete-origine-evolution-72a0dd96-c0ed-4120-ba81-6c60ceb27b56)
+- [La Tyrannie collectiviste (1893)](https://planb.academy/resources/books/la-tyrannie-collectiviste-ebe666d6-3a27-4b6e-8fd3-74729817652c)
+
+**Édouard Laboulaye**
+
+- [Le Parti libéral](https://planb.academy/resources/books/le-parti-liberal-d4b76768-dd14-4f21-8a18-23598ed0cca3)
+- [La Liberté d'enseignement](https://planb.academy/resources/books/la-liberte-denseignement-5669d523-5702-44fc-9ce4-4ed3515917fa)
+
+**Paul Leroy-Beaulieu** (1843–1916)
+
+- [Le travail des femmes au XIXe siècle (1873)](https://planb.academy/resources/books/travail-femmes-xixe-siecle-54948668-2c21-4343-9c31-3c8dfd9a7dfc)
+- [Essai sur la répartition des richesses (1881)](https://planb.academy/resources/books/essai-repartition-richesses-c5b307dc-eed4-493f-a76a-b23321a81c99)
+- [Le Collectivisme: Examen critique du nouveau socialisme (1883)](https://planb.academy/resources/books/le-collectivisme-d79dc3a7-7b77-4698-89e6-440312e2da2c)
+- [L'État moderne et ses fonctions (1889)](https://planb.academy/resources/books/letat-moderne-fonctions-7f41f6c6-8cf6-4902-b931-7ce9bf132621)
+
+**Benoît Malbranque**
+
+- [Dictionnaire de la tradition libérale française](https://planb.academy/resources/books/dictionnaire-tradition-liberale-francaise-0b3b933f-4305-4c07-86ef-e64ff97a4851)
+
+**Arthur Mangin**
+
+- [De la liberté de la pharmacie](https://planb.academy/resources/books/liberte-de-la-pharmacie-184d9f35-2aac-418f-9486-aec9584491c6)
+
+**Ernest Martineau**
+
+- [Oeuvres](https://planb.academy/resources/books/martineau-oeuvres-f54d54fe-604b-4f70-9f1f-e83f1e29ebd3)
+
+**Gustave de Molinari** (1819–1912)
+
+- [Oeuvres Complètes](https://planb.academy/resources/books/molinari-oeuvres-completes-8a3dbdd8-2053-45bc-9203-dd3b7f3edfee)
+- [Cours d'économie politique (1855)](https://planb.academy/resources/books/cours-economie-politique-molinari-75b4a66d-8127-4cf9-8a0a-53d8e353b203)
+- [La Morale Économique](https://planb.academy/resources/books/la-morale-economique-8b419025-3d46-48a8-9d8f-0254596406f8)
+- [L'Évolution économique du XIXe siècle: Théorie du Progrès](https://planb.academy/resources/books/evolution-economique-xixe-siecle-65ba2491-1595-452b-a8f6-3e86fe385808)
+- [L'Évolution politique et la Révolution (1884)](https://planb.academy/resources/books/evolution-politique-revolution-d3be9345-dc7e-4b4d-8824-5f009ac314c4)
+- [Questions d'économie politique et de droit public (1861)](https://planb.academy/resources/books/questions-economie-politique-964f1fe1-606f-49f4-a7e8-187cbf39d41f)
+- [Grandeur et décadence de la guerre (1898)](https://planb.academy/resources/books/grandeur-decadence-guerre-3bf120be-1536-4b6e-aa85-4a2a62edca7e)
+- [Les Lois naturelles de l'économie politique](https://planb.academy/resources/books/lois-naturelles-economie-politique-4a4c1f91-b31b-43c1-93aa-16772f9bda1f)
+
+**Nicolas Oresme** (1320–1382)
+
+- [Traictié de la première invention des monnoies (c. 1360)](https://planb.academy/resources/books/traictie-premiere-invention-monnoies-0d91d52c-ed04-4cdd-baa6-590b3544d40a)
+
+**Frédéric Passy** (1822–1912)
+
+- [Leçons d'économie politique (1860)](https://planb.academy/resources/books/lecons-economie-politique-9eac36cc-15d5-4312-8ecc-2c57ac146e77)
+
+**Jean-Baptiste Say** (1767–1832)
+
+- [Traité d'économie politique (1803)](https://planb.academy/resources/books/traite-economie-politique-5e4bc84a-a7e4-4466-bfeb-d87a12e3b6c1)
+
+**Jules Simon** (1814–1896)
+
+- [La Liberté civile](https://planb.academy/resources/books/la-liberte-civile-53b5dadb-e838-4802-acca-b00f8c4b00d7)
+- [La Liberté (1859)](https://planb.academy/resources/books/la-liberte-simon-8166fd17-86ec-4e1f-9928-77155f0e3d88)
+- [La Liberté Politique](https://planb.academy/resources/books/la-liberte-politique-666a6abb-7e04-41a0-88e8-c09fabef65d8)
+- [Le Devoir](https://planb.academy/resources/books/le-devoir-ec7d9a69-8d1c-4ea1-9035-eff8f91d438b)
+
+**Adam Smith**
+
+- [The Wealth of Nations](https://planb.academy/resources/books/the-wealth-of-nations-c3e78eda-cc44-4cae-8460-f962148aa289)
+
+**Alexis de Tocqueville** (1805–1859)
+
+- [De la démocratie en Amérique (1835–1840)](https://planb.academy/resources/books/de-la-democratie-en-amerique-7bc2962c-d9b7-4e34-9637-d704a90dfaf4)
+
+**Turgot**
+
+- [Oeuvres Complètes](https://planb.academy/resources/books/turgot-oeuvres-completes-37fa0489-cabd-413c-9240-34d1663d0720)
+
+**Collectif / Anthologies**
+
+- [La Société d'économie politique: Une anthologie libérale (1841–1928)](https://planb.academy/resources/books/societe-economie-politique-anthologie-3a48e3b5-ef74-4822-b1d9-b030e327b84e)
+
+Avec ces fondations posées et ces guides à vos côtés, embarquons pour le voyage.
+
 # Fondements de la liberté
 
 <partId>466452a9-508e-5bae-bc6a-9213814cf1e5</partId>

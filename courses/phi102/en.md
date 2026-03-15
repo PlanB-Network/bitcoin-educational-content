@@ -51,6 +51,10 @@ Ready to embark on this intellectual journey to the heart of the French liberal 
 
 https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
+And if Bastiat's method of exposing economic sophisms sparks your curiosity, our dedicated course on his economic thought goes deeper into his life, influences, and arguments:
+
+https://planb.academy/courses/eco203
+
 Let us begin.
 
 ## About the author and references

@@ -522,7 +522,7 @@ Frédéric Bastiat and Gustave de Molinari often summarized their liberal doctri
 
 The harmony of a free society is rooted in the simplest of economic relationships: that between customer and supplier. **The customer needs his supplier to obtain the desired goods; the supplier needs his customer to be prosperous**, for a rational merchant prefers wealthy customers capable of acquiring his products to impoverished ones who cannot buy anything. This logic applies at every level: within a family, within a city, between nations. It creates mutually beneficial relationships that naturally engender cooperation and peace.
 
-![Slide image from chapter 1.4](assets/en/021.webp)
+![Abbé de Saint-Pierre (1658-1743) and his work Projet pour rendre la Paix perpétuelle en Europe (Institut Coppet edition)](assets/en/021.webp)
 
 The Abbé de Saint-Pierre, the great pacifist of the early 18th century, much studied later by Molinari, identified a further fact underpinning this harmony: the universal need for security. No individual, however strong, is strong enough to protect himself alone. The strongest man alive was not strong in childhood, will not be strong in old age, and is not strong at every moment, he sleeps, he falls ill, he weakens. **This fundamental vulnerability creates a universal need for collective security**, which can only be satisfied through the rule of law: agreed-upon rules that protect each person's liberty and property, enabling peaceful exchange.
 
@@ -611,7 +611,7 @@ These contradictions could be multiplied endlessly. But the pattern is clear: **
 
 After examining, in the first part, the human facts that ground the doctrine of liberty, we now turn to history. For **freedom is not simply a set of facts but a historical construction**. The conditions of human liberty are stronger and more numerous today than they were in the earliest ages of human history. To understand why freedom is a project for the 21st century, we must trace how it has been built, how it has become increasingly practicable, and why it was so difficult to exercise in antiquity.
 
-![Benjamin Constant, De la liberte des anciens comparee a celle des modernes (1819)](assets/en/027.webp)
+![Portrait of Benjamin Constant (1767-1830) and his work De la liberte des anciens comparee a celle des modernes (1819)](assets/en/027.webp)
 
 There has always been debate on this subject, and the French liberal tradition of the 19th century produced one of its most illuminating exchanges. Germaine de Staël (1766-1817), in her opposition to Napoleon, coined the memorable phrase: "Freedom is ancient, and despotism is modern." As if Bonaparte's practice of power were a novelty that had disrupted an age-old tradition of liberty. Benjamin Constant took the opposite view, and, in our judgment, the more correct one. Freedom in earlier centuries, and in antiquity in particular, was neither real nor complete. A long line of 19th-century liberal thinkers extended this analysis, demonstrating that the historical conditions of the past were not conducive to full liberty, and that, on the contrary, **each passing century, with its technical improvements and economic transformations, has made freedom more practicable** and more firmly grounded in the facts of modern life.
 
@@ -1689,7 +1689,7 @@ His [*Sophismes économiques*](https://planb.academy/resources/books/sophismes-e
 
 > Between a good and a bad economist there is one difference: the bad economist confines himself to the visible effect; the good economist takes into account both the effect that can be seen and those effects that must be foreseen. The sophism is always constructed on what is seen. The refutation of the sophism lies in showing what is not seen.
 
-![Slide image from chapter 5.3](assets/en/081.webp)
+![Portrait of Frédéric Bastiat (1801-1850) and his Sophismes économiques (Institut Coppet edition)](assets/en/081.webp)
 
 In other words, **economic sophisms gain their persuasive force precisely because they draw attention to a visible, immediate, concentrated benefit** while concealing the invisible, dispersed, long-term costs. This asymmetry of visibility is the engine of all protectionist and interventionist politics.
 

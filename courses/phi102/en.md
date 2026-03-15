@@ -1703,7 +1703,7 @@ Another sophism that concerned Bastiat deeply is the reasoning he summarised as 
 
 These thinkers build their theoretical scaffolding on factually false foundations or ill-defined concepts. The opposition between "general interest" and "particular interest" serves as a frequent pretext for undermining individual rights, presenting this general interest as a superior entity that authorises all violations of the supposedly inferior freedoms of individuals.
 
-In his unfinished masterwork *Les Harmonies économiques* (1850), Bastiat develops the fundamental idea that **interests in a liberal society are harmonic, not antagonistic**:
+In his unfinished masterwork [*Les Harmonies économiques*](https://planb.academy/resources/books/harmonies-economiques-66561d29-feb2-495c-815d-cea521b1930c) (1850), Bastiat develops the fundamental idea that **interests in a liberal society are harmonic, not antagonistic**:
 
 > I undertake to prove that the interests of men, in a free society, are harmonious, not conflicting. I undertake to prove that the common interest of producers and consumers is not to deprive each other, but to exchange. What is good for the buyer is good for the seller; what is good for France is good for England; what creates wealth in one country does not impoverish another. These are the harmonies that sophism has concealed.
 

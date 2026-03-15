@@ -24,6 +24,10 @@ This course also reveals why **Bitcoin is a political project inherited from the
 <partId>8aef3eca-aa4c-405a-8b32-7fd7993b3e04</partId>
 
 
+## Course overview
+
+<chapterId>2209cf28-29ab-4092-88bd-9ffdc7942972</chapterId>
+
 ### Welcome
 
 Welcome to this course on the great political families. Are you left-wing, right-wing, libertarian, conservative, socialist, centrist? Most of us have been trained to answer this question using a simple horizontal line running from far left to far right. The problem is that this line, inherited from the French Revolution of 1789, no longer describes political reality. It never truly did.

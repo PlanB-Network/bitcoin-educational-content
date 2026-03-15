@@ -534,7 +534,7 @@ Universal suffrage finds its justification in the same facts. Pleasures and pain
 
 We have already established the factual foundations of freedom of expression and religious tolerance: they arise from the individuality of human personality and the diversity of judgments that follows from self-ownership. Because personalities differ, judgments will, and must, differ as well. **This diversity is not an obstacle to truth but the very engine of human perfectibility**: it is through the confrontation of different judgments that the best ideas emerge and civilization advances.
 
-![Destutt de Tracy, De l'amour (Vrin edition)](assets/en/023.webp)
+![Destutt de Tracy and his work De l'amour (Vrin edition)](assets/en/023.webp)
 
 Consider one further example: the choice of a spouse. There are, as the saying goes, a thousand shades of beauty and a thousand ways of being happy. Aesthetic and emotional perceptions are profoundly individual, rooted in the unique physiological constitution and life experience of each person. **The freedom to choose whom to love and whom to marry is not a luxury**; it is a direct consequence of the same human facts that ground all the other liberties.
 
@@ -632,7 +632,7 @@ In the same way, the individual was entirely subjected to the tribe. A set of ru
 
 Private ownership of land was equally impossible to establish. **The productive activities of the time required vast common territories**. The hunt for buffalo or elephant, for instance, could not be conducted within an enclosed terrain of two hectares. Nomadic life was a necessity, not a choice. Pastoral peoples, by definition, could not attach themselves to a fixed, small plot of private property.
 
-![Charles Dunoyer, L'industrie et la morale, Institut Coppet edition](assets/en/030.webp)
+![Charles Dunoyer and his work L'industrie et la morale (Institut Coppet edition)](assets/en/030.webp)
 
 This communal ownership should not be confused with communism in the ideological sense. The land was common within the tribe, within the family or the group of families, but it was considered the property of that group. There were significant conflicts between tribes; no one imagined that the entire earth was the common property of all. These groups behaved like animals defending their territory. But this was not private property linked to the individual; it was **a collective adaptation to the conditions of production**.
 
@@ -925,7 +925,7 @@ Indeed, this historical evolution demonstrates that freedom is not a natural sta
 
 Understanding economic freedom is a major challenge in our reflection on freedom as a project for society. The economic dimension of liberty is often poorly understood, not because it is intrinsically complex, but because economic education remains insufficient, particularly in France. Yet the mechanisms of production and exchange are relatively simple, and they need to be clarified to understand how a liberal society is **essentially founded on contract, exchange, and peaceful production**.
 
-![Jean-Baptiste Say, Traite d'economie politique (1803), Institut Coppet edition](assets/en/047.webp)
+![Jean-Baptiste Say and his Traite d'economie politique (1803, Institut Coppet edition)](assets/en/047.webp)
 
 Jean-Baptiste Say (1767-1832), the Lyonnais cotton merchant's son who became the most widely read economist in the world during the first decades of the nineteenth century, placed production at the center of his monumental [*Traité d'économie politique*](https://planb.academy/resources/books/traite-economie-politique-5e4bc84a-a7e4-4466-bfeb-d87a12e3b6c1) (1803). Say understood that the analysis of wealth must begin not with distribution but with creation: how do human beings produce the utilities that constitute their well-being? His answer laid the foundation for everything that followed:
 
@@ -1569,7 +1569,7 @@ But does this definition hold up under scrutiny? Not at all. If freedom consists
 
 ![French liberal tradition book cover](assets/en/077.webp)
 
-![Destutt de Tracy, Commentaire sur l'Esprit des lois de Montesquieu (Vrin edition)](assets/en/100.webp)
+![Destutt de Tracy and his Commentaire sur l'Esprit des lois de Montesquieu (Vrin edition)](assets/en/100.webp)
 
 Nineteenth-century liberal thinkers criticised Montesquieu sharply on this point. Antoine Destutt de Tracy (1754-1836), the former artillery officer turned philosopher of the Idéologue school, devoted an entire work to the correction of these errors. In his [*Commentaire sur l'Esprit des lois*](https://planb.academy/resources/books/commentaire-esprit-des-lois-7f3a37a4-e731-4415-8308-21daf4a689c7) (1819), written at the request of Thomas Jefferson himself, Destutt de Tracy writes:
 

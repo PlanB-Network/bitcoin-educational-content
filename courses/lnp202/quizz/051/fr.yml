@@ -6,4 +6,4 @@ wrong_answers:
   - 50001
 explanation: |
   Pour accéder à l'API de votre nœud LND sur Umbrel, il faut utiliser le port 8080 lors de la configuration dans Zeus.
-reviewed: false
+reviewed: true 

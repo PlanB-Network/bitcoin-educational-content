@@ -53,7 +53,7 @@ https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
 And if Bastiat's method of exposing economic sophisms sparks your curiosity, our dedicated course on his economic thought goes deeper into his life, influences, and arguments:
 
-https://planb.academy/courses/eco203
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 Let us begin.
 
@@ -200,6 +200,7 @@ The course draws on a remarkable body of primary sources, almost exclusively fro
 - [La Morale Économique](https://planb.academy/resources/books/la-morale-economique-8b419025-3d46-48a8-9d8f-0254596406f8)
 - [L'Évolution économique du XIXe siècle: Théorie du Progrès](https://planb.academy/resources/books/evolution-economique-xixe-siecle-65ba2491-1595-452b-a8f6-3e86fe385808)
 - [L'Évolution politique et la Révolution (1884)](https://planb.academy/resources/books/evolution-politique-revolution-d3be9345-dc7e-4b4d-8824-5f009ac314c4)
+- Économie de l'histoire (1888)
 - [Questions d'économie politique et de droit public (1861)](https://planb.academy/resources/books/questions-economie-politique-964f1fe1-606f-49f4-a7e8-187cbf39d41f)
 - [Grandeur et décadence de la guerre (1898)](https://planb.academy/resources/books/grandeur-decadence-guerre-3bf120be-1536-4b6e-aa85-4a2a62edca7e)
 - [Les Lois naturelles de l'économie politique](https://planb.academy/resources/books/lois-naturelles-economie-politique-4a4c1f91-b31b-43c1-93aa-16772f9bda1f)
@@ -230,6 +231,7 @@ The course draws on a remarkable body of primary sources, almost exclusively fro
 **Alexis de Tocqueville** (1805–1859)
 
 - [De la démocratie en Amérique (1835–1840)](https://planb.academy/resources/books/de-la-democratie-en-amerique-7bc2962c-d9b7-4e34-9637-d704a90dfaf4)
+- L'Ancien Régime et la Révolution (1856)
 
 **Turgot**
 
@@ -265,7 +267,7 @@ There has always been a certain contempt for theorists. They are dismissed as in
 
 Consider: **every one of our everyday actions rests on implicit theories**. When we climb a staircase, when we pick up an object and hand it to someone, we are unconsciously applying the theory of gravitation. Without theories, even unspoken ones, we simply cannot act. The real question, then, is not whether to be a theorist or a practitioner, but whether we have good theories, grounded in observable facts, or bad ones, built on fallacies.
 
-![Works of Turgot, Institut Coppet edition](assets/en/002.webp)
+![Portrait of Turgot (1727-1781), French economist and statesman](assets/en/002.webp)
 
 A particularly damaging version of this prejudice operates in the political realm. Freedom, as an abstract ideal, is almost universally accepted, it is one of the founding dogmas of modern democracies. And yet liberalism, the systematic theory of freedom, is rejected as too abstract, too conceptual. This leads to an arbitrary sorting of freedoms into "good" and "bad" categories: political freedom is valued; economic freedom is distrusted. But consider: **the same principles that underpin religious tolerance and universal suffrage** should logically lead to the recognition of economic freedom as well. If I am competent to choose between competing ideas in matters of conscience, and between competing candidates in matters of politics, why should I be declared incompetent when it comes to choosing what to buy, where to work, or whom to trade with?
 
@@ -375,7 +377,7 @@ Why, beyond the mere recognition of a natural right, should we actively value fr
 
 Nicolas de Condorcet (1743–1794), who stood at the crossroads of the Enlightenment philosophers and the Physiocrat economists, a close friend of Turgot, wrote his masterwork, the [*Esquisse d'un tableau historique des progrès de l'esprit humain*](https://planb.academy/resources/books/esquisse-tableau-historique-progres-esprit-humain-ab87cd62-445d-4620-a3ad-7af31ba17c3f), under extraordinary circumstances. In hiding, about to be arrested and executed during the Terror, without books, he composed in a single room a sweeping vision of human progress across the ages.
 
-![Gustave de Molinari, La Morale Economique, Institut Coppet edition](assets/en/012.webp)
+![Portrait of Gustave de Molinari (1819-1912), Belgian-French economist](assets/en/012.webp)
 
 The core thesis was revolutionary: contrary to the Christian doctrine of the Fall, which posits a descent from original perfection, human civilization is ascending. Each generation transmits its discoveries to the next, and humanity advances from century to century. **But this progress is not automatic.** New ideas, audacious, pioneering, often initially rejected, must be freely communicated. The discoverer must be able to teach his conceptions to others, to his descendants, and to society at large, so that what was once considered too bold may be tested, accepted, and put into practice.
 
@@ -548,7 +550,7 @@ With this, we have completed our survey of the principal facts that ground the d
 
 We begin with the most famous slogan of the anti-property movement: Pierre-Joseph Proudhon's "property is theft." Bastiat had no difficulty dismantling this formula, for it is self-contradictory on its face: **if property is theft, then theft is property**, what is legitimate is illegitimate, and what is illegitimate is legitimate. The phrase sounds revolutionary, but it says nothing coherent. Bastiat, in his *Œuvres complètes*, returned systematically to the origin of property, work, self-ownership, human faculties, and demonstrated that it is grounded in the facts of every society and every age.
 
-![Bastiat and Turgot complete works on display, Institut Coppet](assets/en/024.webp)
+![Portrait of Frédéric Bastiat (1801-1850), French liberal economist](assets/en/024.webp)
 
 The systems of unfreedom postulate an original spoliation: all the best lands, they claim, were seized by force at the dawn of history, and the present owners merely enjoy without labor what their ancestors stole. But this narrative contains two fatal errors.
 
@@ -612,7 +614,7 @@ The history of freedom has always been accompanied by myths, and two of the most
 
 The first is Jean-Jacques Rousseau's myth of the *bon sauvage*, which introduces the idea that freedom, autonomy, independence, and the full plenitude of human power are to be found in the past. This is the eternal golden age, shared by philosophers and religious thinkers across the centuries: the conviction that humanity has fallen from an original state of perfection. The liberals of the 18th century, at the time of Rousseau himself, and then through the Revolution and the entire 19th century, systematically countered this false idea. **The actual conditions of existence in primitive societies bear no resemblance to the idyll** of the noble savage.
 
-![French liberal tradition book cover](assets/en/028.webp)
+![Portrait of Jean-Jacques Rousseau (1712-1778), Genevan philosopher](assets/en/028.webp)
 
 The second myth is that of the social contract, the notion that society was founded by a primitive agreement among free individuals. But the elements necessary for such a contract were lacking at the supposed time of its creation: a developed language, the very conception of a society beyond the family. **Society is not a voluntary creation born of conscious agreement**; it exists from the outset as a natural condition of human existence. One does not create a society; one is born into one. These are historical contradictions and errors that the liberals identified, and that allow us to develop a more accurate view of the history of liberty.
 
@@ -1638,6 +1640,8 @@ Leroy-Beaulieu makes this point with precision in [*L'État moderne et ses fonct
 
 Alexis de Tocqueville (1805-1859), the Norman aristocrat turned political sociologist whose American voyage produced one of the masterpieces of modern political thought, famously identified, particularly in the second part of [*De la démocratie en Amérique*](https://planb.academy/resources/books/de-la-democratie-en-amerique-7bc2962c-d9b7-4e34-9637-d704a90dfaf4) (1840), what he called "democratic despotism": the tendency for freedoms to be curtailed by the democratic mass itself, when the state becomes the director of society.
 
+![Portrait of Alexis de Tocqueville (1805-1859), French political thinker](assets/en/101.webp)
+
 Tocqueville's analysis is remarkable for its prescience. Writing in the 1830s, he already observed the seeds of a soft despotism in the most successful democracy of his time:
 
 > I see an innumerable multitude of men, alike and equal, constantly circling around in pursuit of the petty and banal pleasures with which they glut their souls. Each one of them, withdrawn into himself, is almost unaware of the fate of the rest. Over these is elevated an immense, tutelary power, which takes sole charge of assuring their enjoyment and of watching over their fate. That power is absolute, minute, regular, provident, and mild. It would be like the authority of a parent if, like that authority, its object was to prepare men for manhood; but it seeks, on the contrary, to keep them in perpetual childhood.
@@ -1781,7 +1785,7 @@ In other words, **the progress of the market economy is not a progress that bene
 
 The socialist assertion that the poor become ever poorer in capitalist societies is contradicted by the facts. But what do the facts actually show?
 
-![Paul Leroy-Beaulieu, Essai sur la repartition des richesses (1883)](assets/en/085.webp)
+![Portrait of Paul Leroy-Beaulieu (1843-1916), French economist](assets/en/085.webp)
 
 Leroy-Beaulieu demonstrates in [*Essai sur la répartition des richesses*](https://planb.academy/resources/books/essai-repartition-richesses-c5b307dc-eed4-493f-a76a-b23321a81c99) (1881) that the real trend in societies founded on contract and voluntary exchange is the constant improvement of the condition of the masses:
 
@@ -2119,6 +2123,8 @@ To maintain itself despite its repeated failures, unfreedom must rely on sophism
 ### Reform, not revolution; opinion, not force
 
 The programme of freedom that emerges from this analysis must be bold, for it is founded on the real principles of human nature: self-ownership, individual autonomy, and contract. It implies a reduction in the powers of the state and a transformation of public services into private ones, with increasing reliance on free exchange. But the French liberal tradition teaches with one voice that **reforms are to be preferred to revolutions**. Tocqueville demonstrated masterfully in *L'Ancien Régime et la Révolution* (1856) that revolutionary upheavals cost a great deal without transforming society as much as they promise, often resulting in the consolidation of the very centralising power they set out to destroy.
+
+![Portrait of Richard Cobden (1804-1865), British statesman and free-trade advocate](assets/en/102.webp)
 
 The example of the campaign for the abolition of the Corn Laws in nineteenth-century England illustrates, better than any theoretical argument, the way forward. Richard Cobden (1804–1865), the cotton manufacturer turned statesman, and John Bright (1811–1889), together with the Anti-Corn Law League, achieved one of the most complete and durable victories of the liberal cause in history, not by revolution, not by insurrection, but by the patient, methodical education of public opinion.
 

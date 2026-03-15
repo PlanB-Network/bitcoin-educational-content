@@ -6,4 +6,4 @@ wrong_answers:
   - Sa politique de frais
 explanation: |
   Elle reçoit des paquets chiffrés à chaque nouvel état, ce qui révèle uniquement le rythme d’activité en temps normal.
-reviewed: false
+reviewed: true 

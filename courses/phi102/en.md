@@ -1730,7 +1730,7 @@ Indeed, eradicating such fallacious reasoning requires rigorous economic educati
 
 To understand the sophism of capitalist exploitation, we must first examine the historical reality of social classes. Unfree societies have traditionally functioned with a high degree of social stratification, a feature still found in contemporary communist societies. This stratification fundamentally opposes those who have the freedom to choose for themselves and others, and those who are deprived of it.
 
-Charles Comte (1782-1837), the jurist, journalist, and son-in-law of Jean-Baptiste Say, examines the different states of society in his *Traité de législation* (1827) to show how freedom and unfreedom have functioned throughout history. Bastiat considered this work his favourite book, and it is not difficult to understand why:
+Charles Comte (1782-1837), the jurist, journalist, and son-in-law of Jean-Baptiste Say, examines the different states of society in his [*Traité de législation*](https://planb.academy/resources/books/traite-de-legislation-90216321-9a58-49d9-b4d8-f78c61b1cb68) (1827) to show how freedom and unfreedom have functioned throughout history. Bastiat considered this work his favourite book, and it is not difficult to understand why:
 
 > In every society organised on the principle of force, there are two classes: those who plunder and those who are plundered. The plunderer may be a conqueror, a king, an aristocracy, a theocracy, or a majority. The form varies; the principle does not. Wherever men live under institutions that permit some to seize the fruits of others' labour without their consent, you will find this fundamental division. Call it what you will: castes, orders, classes. The name changes nothing. The reality is the same.
 

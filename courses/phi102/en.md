@@ -1803,7 +1803,7 @@ Socialist and communist thought takes a particularly paradoxical theoretical sta
 
 ![Charles Comte, Traite de la propriete (1834)](assets/en/086.webp)
 
-Charles Comte, in his *Traité de la propriété* (1834), meets this attack head-on by grounding property rights in the natural facts of human existence:
+Charles Comte, in his [*Traité de la propriété*](https://planb.academy/resources/books/traite-de-la-propriete-80de2b10-5ea1-4fb6-b9c7-b52b312bfa05) (1834), meets this attack head-on by grounding property rights in the natural facts of human existence:
 
 > Property is not an invention of legislators, nor a convention of citizens. It is a consequence of the nature of man and of his condition on earth. Man must eat to live; to eat he must produce; to produce he must have the use of land and of tools; to make continuous use of land and tools he must have the assurance that he will not be dispossessed of them. Property is nothing more than this assurance, raised to the level of a right. Destroy it, and you destroy not inequality but production itself.
 
@@ -1818,7 +1818,7 @@ In other words, **free exchange itself rests on this fundamental respect for the
 
 To understand the paradox between the socialist rejection of private property and the defence of national property, we must analyse how property is born within its collective and national boundaries. But where does the right of a nation to its territory actually come from?
 
-Comte, in his *Traité de la propriété*, traces the origin of territorial ownership through a careful historical analysis. Ancestral tribes and human groups **took possession of territories, sometimes by violence, but often simply by the first discovery of new lands**. This work of discovery was by no means simple: it was accompanied by a considerable effort of conservation in the face of the constant dangers posed by settling in an unfamiliar place.
+Comte, in his [*Traité de la propriété*](https://planb.academy/resources/books/traite-de-la-propriete-80de2b10-5ea1-4fb6-b9c7-b52b312bfa05), traces the origin of territorial ownership through a careful historical analysis. Ancestral tribes and human groups **took possession of territories, sometimes by violence, but often simply by the first discovery of new lands**. This work of discovery was by no means simple: it was accompanied by a considerable effort of conservation in the face of the constant dangers posed by settling in an unfamiliar place.
 
 The transfer of a human group to a new area was fraught with difficulties. People had to survive in unknown conditions when they had previously known where to draw their means of subsistence. They had to fight the climate, the animals of prey, the uncertainty of unknown soil. This work of taking possession was often paid for at the cost of lives. As Comte observes:
 

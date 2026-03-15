@@ -29,7 +29,11 @@ Ready to discover why freedom is not only a moral ideal, but also the most effec
 
 <chapterId>ed0febb0-507b-4920-a88f-6a00388ae4f5</chapterId>
 
-Why title this course *Freedom as a Social Project*? Because freedom is not an abstract utopia dreamed up by disconnected theorists. It is, first and foremost, a set of observable facts about human nature and the world we inhabit. The French liberal tradition of the 18th and 19th centuries, from the Physiocrats and Turgot to Frédéric Bastiat, Gustave de Molinari, Benjamin Constant, and Paul Leroy-Beaulieu, built an extraordinary intellectual edifice on this very insight. Their works, long buried under decades of interventionist consensus, deserve to be rediscovered.
+### Welcome
+
+Welcome to this new course, glad you made it.
+
+Why title this course *Freedom as a Social Project*? Because **freedom is not an abstract utopia dreamed up by disconnected theorists. It is, first and foremost, a set of observable facts about human nature and the world we inhabit.** The French liberal tradition of the 18th and 19th centuries, from the Physiocrats and Turgot to Frédéric Bastiat, Gustave de Molinari, Benjamin Constant, and Paul Leroy-Beaulieu, built an extraordinary intellectual edifice on this very insight. Their works, long buried under decades of interventionist consensus, deserve to be rediscovered.
 
 This course, developed by the Institut Coppet and presented by Benoît Malbranc, invites you on a journey through the foundations, the history, and the practical mechanics of liberty. We will not merely define freedom in the abstract; we will anchor it in the concrete realities of human existence, trace its gradual conquest across centuries, and confront the sophisms that have been deployed to justify its suppression.
 

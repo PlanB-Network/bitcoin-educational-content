@@ -6,4 +6,4 @@ wrong_answers:
   - 36 mots
 explanation: |
   LND génère une phrase mnémonique de 24 mots servant à la sauvegarde et à la récupération du nœud.
-reviewed: false
+reviewed: true 

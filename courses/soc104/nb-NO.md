@@ -27,6 +27,7 @@ Kurset vil også avsløre hvorfor Bitcoin er mer enn bare en valuta: det er et p
 
 
 <partId>8aef3eca-aa4c-405a-8b32-7fd7993b3e04</partId>
+## Course overview<chapterId>2209cf28-29ab-4092-88bd-9ffdc7942972</chapterId>Course overview placeholder.
 
 
 

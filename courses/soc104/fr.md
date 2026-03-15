@@ -20,6 +20,12 @@ Ce cours vous révélera aussi pourquoi Bitcoin est plus qu'une simple monnaie :
 
 <partId>8aef3eca-aa4c-405a-8b32-7fd7993b3e04</partId>
 
+## Présentation du cours
+
+<chapterId>2209cf28-29ab-4092-88bd-9ffdc7942972</chapterId>
+
+Bienvenue dans ce cours sur les grandes familles politiques.
+
 ## Le piège du clivage droite-gauche
 
 <chapterId>8aef3eca-aa4c-405a-8b32-7fd7993b3e04</chapterId>

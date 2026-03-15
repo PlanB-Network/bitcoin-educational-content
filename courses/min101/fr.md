@@ -13,7 +13,7 @@ objectives:
 
 Comprendre la preuve de travail, c’est comprendre le fonctionnement même de Bitcoin. Sans cette invention et son usage ingénieux, Bitcoin n’aurait tout simplement pas pu exister. Ce cours vous fournit l’ensemble des bases théoriques sur le minage nécessaires dans votre parcours de bitcoiner.
 
-MIN 101 s’adresse avant tout aux débutants, puisque l’ensemble des notions y est expliqué précisément depuis zéro. Toutefois, si vous disposez déjà d’un niveau intermédiaire, ce cours vous permettra de consolider votre compréhension, de corriger certaines intuitions approximatives et d’explorer des détails souvent absents des explications grand public.
+MIN 101 s’adresse avant tout aux débutants, puisque l’ensemble des notions y est expliqué précisément à partir de zéro. Toutefois, si vous disposez déjà d’un niveau intermédiaire, ce cours vous permettra de consolider votre compréhension, de corriger certaines intuitions approximatives et d’explorer des détails souvent absents des explications grand public.
 
 À l’issue de ce cours, vous serez capable d’expliquer le fonctionnement de la preuve de travail de façon simple et rigoureuse. MIN 101 constitue également une porte d’entrée idéale avant d’aborder l’ensemble des autres cours plus avancés consacrés au minage de Bitcoin sur Plan ₿ Academy, qu’ils soient théoriques ou pratiques.
 
@@ -26,7 +26,7 @@ MIN 101 s’adresse avant tout aux débutants, puisque l’ensemble des notions 
 ## Aperçu du cours
 <chapterId>a82d49dc-d68a-4e3f-985e-bcef6643677e</chapterId>
 
-Bienvenue dans le cours MIN 101, dans lequel vous allez découvrir les concepts théoriques fondamentaux du minage et de la Proof-of-Work au sein du système Bitcoin. Ce cours constitue la première étape de votre parcours de bitcoiner pour comprendre le fonctionnement du mining. À l’issue de celui-ci, vous pourrez poursuivre vers des cours théoriques plus avancés ou bien passer à la pratique et devenir vous-même mineur de bitcoins !
+Bienvenue dans le cours MIN 101, dans lequel vous allez découvrir les concepts théoriques fondamentaux du minage et de la *Proof-of-Work* au sein du système Bitcoin. Ce cours constitue la première étape de votre parcours de bitcoiner pour comprendre le fonctionnement du *mining*. À l’issue de celui-ci, vous pourrez poursuivre vers des cours théoriques plus avancés ou bien passer à la pratique et devenir vous-même mineur de bitcoins !
 
 Dans ce cours MIN 101, nous ne reviendrons pas sur les concepts de base de Bitcoin, car nous allons entrer directement au cœur du sujet : le minage. Si vous n’avez jamais entendu parler de Bitcoin, ou si ses fondements vous semblent encore flous, je vous recommande vivement de commencer par notre cours d’introduction BTC 101. Une fois ces bases acquises, vous pourrez aborder sereinement MIN 101 :
 
@@ -45,11 +45,11 @@ Après l'introduction, la partie 2 est le socle technique de la formation. Son b
 
 ### Partie 3 – Le système d’incitations du minage de Bitcoin
 
-Dans la troisième partie, nous verrons pourquoi les mineurs sont incités à participer honnêtement au minage. Nous détaillerons le principe de la récompense de bloc, sa composition et son mode de calcul, son évolution dans le temps à travers les halvings, ainsi que le rôle spécifique de la transaction coinbase.
+Dans la troisième partie, nous verrons pourquoi les mineurs sont incités à participer honnêtement au minage. Nous détaillerons le principe de la récompense de bloc, sa composition et son mode de calcul, son évolution dans le temps à travers les *halvings*, ainsi que le rôle spécifique de la transaction coinbase.
 
 ### Partie 4 – L’industrie du minage de Bitcoin
 
-La quatrième partie replace le minage dans sa réalité opérationnelle. Elle retrace l’évolution des machines de minage, du début de Bitcoin jusqu'aux ASIC modernes, afin de comprendre les contraintes matérielles actuelles. Nous étudierons également les bases du fonctionnement des pools de minage, afin de comprendre comment les mineurs parviennent à réduire la variance de leurs revenus.
+La quatrième partie replace le minage dans sa réalité opérationnelle. Elle retrace l’évolution des machines de minage, du début de Bitcoin jusqu'aux ASICs modernes, afin de comprendre les contraintes matérielles actuelles. Nous étudierons également les bases du fonctionnement des pools de minage, afin de comprendre comment les mineurs parviennent à réduire la variance de leurs revenus.
 
 ### Partie 5 – Partie finale
 
@@ -75,9 +75,9 @@ Dans Bitcoin, quand vous faites un paiement, vous créez une [transaction](https
 
 Un bloc, c’est donc simplement un ensemble de transactions regroupées. Quand un bloc est prêt, il ne suffit pas de le publier. Il faut prouver au réseau que ce bloc mérite d’être ajouté au cahier commun. C’est là qu’intervient le minage.
 
-Le minage, c’est le travail qui consiste à valider un bloc en dépensant de l’énergie. Des acteurs appelés [mineurs](https://planb.academy/resources/glossary/miner) utilisent des ordinateurs spécialisées. Ces machines consomment de l’électricité pour effectuer un très grand nombre d'essais, en boucle, jusqu’à trouver une preuve que le réseau accepte. Quand un mineur trouve cette preuve, son bloc est considéré comme valide.
+Le minage, c’est le travail qui consiste à valider un bloc en dépensant de l’énergie. Des acteurs appelés [mineurs](https://planb.academy/resources/glossary/miner) utilisent des ordinateurs spécialisés. Ces machines consomment de l’électricité pour effectuer un très grand nombre d'essais, en boucle, jusqu’à trouver une preuve que le réseau accepte. Quand un mineur trouve cette preuve, son bloc est considéré comme valide.
 
-Une fois le bloc validé, il est diffusé au réseau. Les autres [nœuds](https://planb.academy/resources/glossary/node) vérifient rapidement qu’il respecte bien les règles, puis ils l’ajoutent à la suite des blocs précédents. C’est pour cela qu’on parle de "blockchain" : chaque nouveau bloc vient se placer après les autres, dans un ordre séquentiel, et cette chaine grandit petit à petit.
+Une fois le bloc validé, il est diffusé au réseau. Les autres [nœuds](https://planb.academy/resources/glossary/node) vérifient rapidement qu’il respecte bien les règles, puis ils l’ajoutent à la suite des blocs précédents. C’est pour cela qu’on parle de "blockchain" : chaque nouveau bloc vient se placer après les autres, dans un ordre séquentiel, et cette chaîne grandit petit à petit.
 
 ![Image](assets/fr/051.webp)
 
@@ -87,7 +87,7 @@ Si des mineurs consomment de l’électricité, ce n’est pas par bénévolat. 
 
 À ce stade, vous avez volontairement une vision très simple du minage. Elle n’explique pas encore comment le bloc est construit en détail, ni comment fonctionne exactement la preuve que les mineurs cherchent, ni comment Bitcoin garde un rythme régulier, ni comment la récompense est calculée précisément, ni comment elle est encaissée. C’est normal, c'est tout ce que nous allons voir dans la suite de ce cours MIN 101 !
 
-L’objectif de ce chapitre était simplement de vous donner une structure mentale claire : transactions → blocs → minage → blockchain → récompense. Gardez cette chaîne d’idées en tête. Dans la suite du cours, chaque chapitre viendra ajouter une couche de précision technique sur l’un de ces éléments, jusqu’à ce que vous compreniez non seulement ce qui se passe, mais aussi comment et pourquoi cela fonctionne de manière fiable, à grande échelle, sans chef, et sans besoin confiance.
+L’objectif de ce chapitre était simplement de vous donner une structure mentale claire : transactions → blocs → minage → blockchain → récompense. Gardez cette chaîne d’idées en tête. Dans la suite du cours, chaque chapitre viendra ajouter une couche de précision technique sur l’un de ces éléments, jusqu’à ce que vous compreniez non seulement ce qui se passe, mais aussi comment et pourquoi cela fonctionne de manière fiable, à grande échelle, sans chef, et sans besoin de confiance.
 
 # Le fonctionnement de la preuve de travail
 <partId>e917e8e3-37f2-46fb-91b2-6a5ce6f0f5c3</partId>
@@ -95,19 +95,19 @@ L’objectif de ce chapitre était simplement de vous donner une structure menta
 ## Le parcours de la transaction Bitcoin
 <chapterId>3b7a3502-4814-4554-8de1-86ac961a2958</chapterId>
 
-Avant de comprendre ce qu'est le minage de Bitcoin, il faut d’abord suivre le trajet d’une transaction typique sur Bitcoin. Cela permet de voir où intervient exactement le bloc, et pourquoi il est au cœur du système. C'est ce que je vous propose de découvrir dans ce premier chapitre.
+Avant de comprendre ce qu'est le minage de Bitcoin, il faut d’abord suivre le trajet d’une transaction typique sur Bitcoin. Cela permet de voir où intervient exactement le bloc et pourquoi il est au cœur du système. C'est ce que je vous propose de découvrir dans ce premier chapitre.
 
-Sur Bitcoin, une transaction est une structure de données qui transfère la propriété de bitcoins d'un utilisateur à un autre. Concrètement, elle consomme des `outputs` de transactions passées (ce qu'on appelle des [UTXO](https://planb.academy/resources/glossary/utxo)) en les référant comme `inputs`, puis elle crée de nouveaux `outputs` qui définissent à qui appartiennent désormais ces bitcoins et sous quelles conditions ils pourront être dépensés plus tard.
+Sur Bitcoin, une transaction est une structure de données qui transfère la propriété de bitcoins d'un utilisateur à un autre. Concrètement, elle consomme des `outputs` de transactions passées (ce qu'on appelle des [UTXOs](https://planb.academy/resources/glossary/utxo)) en les référençant comme `inputs`, puis elle crée de nouveaux `outputs` qui définissent à qui appartiennent désormais ces bitcoins et sous quelles conditions ils pourront être dépensés plus tard.
 
 ![Image](assets/fr/001.webp)
 
-Un point important sur Bitcoin est l’autorisation de dépenser. Les bitcoins ne sont pas dans un comptes, comme le pourraient être votre argent à la banque, mais ils sont verrouillés par des conditions de dépense. Lorsqu’un [portefeuille](https://planb.academy/resources/glossary/wallet) veut utiliser un UTXO comme `input`, il doit fournir une preuve cryptographique qui atteste qu'il a bien le droit de le déverrouiller. Cette preuve prend souvent la forme d’une [signature numérique](https://planb.academy/resources/glossary/digital-signature) produite à partir d’une [clé privée](https://planb.academy/resources/glossary/private-key). C’est pour cette raison que les bitcoiners insistent sur la nécessité de sécuriser vos clés privées : ce sont elles qui permettent de déverrouiller l’accès à vos bitcoins et, par conséquent, de les dépenser.
+Un point important sur Bitcoin est l’autorisation de dépenser. Les bitcoins ne sont pas dans un compte, comme pourrait l'être votre argent à la banque, mais ils sont verrouillés par des conditions de dépense. Lorsqu’un [portefeuille](https://planb.academy/resources/glossary/wallet) veut utiliser un UTXO comme `input`, il doit fournir une preuve cryptographique qui atteste qu'il a bien le droit de le déverrouiller. Cette preuve prend souvent la forme d’une [signature numérique](https://planb.academy/resources/glossary/digital-signature) produite à partir d’une [clé privée](https://planb.academy/resources/glossary/private-key). C’est pour cette raison que les bitcoiners insistent sur la nécessité de sécuriser vos clés privées : ce sont elles qui permettent de déverrouiller l’accès à vos bitcoins et, par conséquent, de les dépenser.
 
 ![Image](assets/fr/002.webp)
 
 La signature numérique dans Bitcoin joue ainsi deux rôles importants :
-- Autoriser la dépense : elle prouve que l’utilisateur possède la clé privée attendue par la condition de dépense de l’UTXO ;
-- Protéger l’intégrité : elle lie l’autorisation aux détails précis de la transaction (destinataires, montants, frais...). Si quelqu’un modifie la transaction après coup, la signature ne correspond plus.
+- **Autoriser la dépense** : elle prouve que l’utilisateur possède la clé privée attendue par la condition de dépense de l’UTXO ;
+- **Protéger l’intégrité** : elle lie l’autorisation aux détails précis de la transaction (destinataires, montants, frais...). Si quelqu’un modifie la transaction après coup, la signature ne correspond plus.
 
 Une fois la transaction correctement construite et signée par le portefeuille Bitcoin de l'utilisateur, elle doit être diffusée sur le réseau Bitcoin.
 
@@ -117,8 +117,8 @@ Bitcoin est un réseau [pair-à-pair](https://planb.academy/resources/glossary/p
 
 Quand vous envoyez une transaction depuis un portefeuille, celui-ci la transmet à un nœud (votre propre nœud, ou celui d’un service). Ce nœud va d’abord vérifier que la transaction respecte différentes règles, par exemple :
 * les signatures sont valides ;
-* les [inputs](https://planb.academy/resources/glossary/input) référencent bien des UTXO existants (c'est-à-dire des bitcoins qui existent) ;
-* ces UTXO n’ont pas déjà été dépensés ailleurs ;
+* les [inputs](https://planb.academy/resources/glossary/input) référencent bien des UTXOs existants (c'est-à-dire des bitcoins qui existent) ;
+* ces UTXOs n’ont pas déjà été dépensés ailleurs ;
 * le montant des [outputs](https://planb.academy/resources/glossary/output) est inférieur ou égal à celui des inputs (on ne crée pas de bitcoins à partir de rien) ;
 * etc.
 
@@ -130,11 +130,11 @@ Si la transaction passe tous ces contrôles, le nœud la propage aux autres nœu
 
 Entre le moment où une transaction est diffusée et le moment où elle est confirmée dans un bloc, elle doit attendre. Cette zone d’attente s’appelle **la [mempool](https://planb.academy/resources/glossary/mempool)** (contraction de `memory` et `pool`). Une mempool est donc un espace de stockage temporaire de transactions valides, mais encore non confirmées.
 
-Point important : il n’existe pas une mempool unique, mais des mempools. En effet, chaque nœud maintient la sienne, avec ses propres contraintes locales. Cela implique qu’à un instant donné, deux nœuds peuvent avoir des contenus de mempool légèrement différents (selon ce qu’ils ont reçu, ce qu’ils ont rejeté, ou ce qu’ils ont purgé).
+Point important : il n’existe pas une mempool unique, mais des mempools. En effet, chaque nœud maintient la sienne, avec ses propres contraintes locales. Cela implique qu’à un instant donné, deux nœuds peuvent avoir des contenus de mempool légèrement différents (selon ce qu’ils ont reçu, ce qu’ils ont rejeté ou ce qu’ils ont purgé).
 
 ![Image](assets/fr/004.webp)
 
-À ce stade, on a donc un réseau qui connaît la transaction, l’a vérifiée, et la garde en mémoire en attendant qu’elle soit confirmée. Mais la confirmation de cette transaction n'arrivera que lorsqu'un mineur l’insère dans un bloc, et que ce bloc est accepté par le réseau.
+À ce stade, on a donc un réseau qui connaît la transaction, l’a vérifiée, et la garde en mémoire en attendant qu’elle soit confirmée. Mais la confirmation de cette transaction n'arrivera que lorsqu'un mineur l’insère dans un bloc et que ce bloc est accepté par le réseau.
 
 ### La blockchain : un registre public d’horodatage
 
@@ -150,7 +150,7 @@ Ce registre ne peut pas être réécrit grâce à un principe simple : chaque bl
 
 ![Image](assets/fr/005.webp)
 
-Une fois que l'on a compris ces principes de base de Bitcoin, on peut décrire l’objectif d’un mineur de manière plus concrète : construire un nouveau bloc qui prolonge la chaîne existante, en y inscrivant des transactions en attente, puis tenter de le rendre valide (c'est la fameuse "*[preuve de travail](https://planb.academy/resources/glossary/proof-of-work)*" que l'on étudiera dans un prochain chapitre). Mais d'abord, découvrons ensemble dans le prochain chapitre comment est construit un bloc candidat.
+Une fois que l'on a compris ces principes de base de Bitcoin, on peut décrire l’objectif d’un mineur de manière plus concrète : construire un nouveau bloc qui prolonge la chaîne existante, en y inscrivant des transactions en attente, puis tenter de le rendre valide (c'est la fameuse "*[preuve de travail](https://planb.academy/resources/glossary/proof-of-work)*" que l'on étudiera dans un prochain chapitre). Mais d'abord, découvrons ensemble dans le chapitre suivant comment est construit un bloc candidat.
 
 ## La construction d'un bloc Bitcoin
 <chapterId>2b5cd04b-d400-4865-b0a0-e70fa7e67c17</chapterId>
@@ -159,7 +159,7 @@ Vous avez maintenant compris le parcours d’une transaction sur Bitcoin ainsi q
 
 ### Le bloc candidat
 
-Les mineurs doivent fabriquer leur bloc eux-même avant d'essayer de le miner. Chaque mineur, de son côté, construit ce que l'on appelle un bloc candidat à partir des transactions en attente dans sa mempool. Construire un bloc candidat consiste donc à :
+Les mineurs doivent fabriquer leur bloc eux-mêmes avant d'essayer de le miner. Chaque mineur, de son côté, construit ce que l'on appelle un bloc candidat à partir des transactions en attente dans sa mempool. Construire un bloc candidat consiste donc à :
 - choisir quelles transactions inclure ;
 - organiser ces transactions de manière compatible avec les règles de Bitcoin ;
 - produire les métadonnées du bloc, contenues dans son [entête](https://planb.academy/resources/glossary/block-header).
@@ -180,7 +180,7 @@ Lister toutes les transactions dans l’entête serait impossible : un bloc peut
 
 Le principe est le suivant :
 * on calcule l’empreinte cryptographique de chaque transaction ;
-* on regroupe ces empreintes deux par deux, on les met bout-à-bout, puis on les hache de nouveau pour obtenir une nouvelle couche d’empreintes ;
+* on regroupe ces empreintes deux par deux, on les met bout à bout, puis on les hache de nouveau pour obtenir une nouvelle couche d’empreintes ;
 * on répète cette opération jusqu’à obtenir une seule empreinte finale : la racine de Merkle.
 
 ![Image](assets/fr/007.webp)
@@ -193,17 +193,17 @@ Depuis [SegWit](https://planb.academy/resources/glossary/segwit), on sépare ce 
 
 L’entête de bloc fait 80 octets et contient exactement 6 champs. Ce sont ces six éléments qui seront hachés lors de la recherche d'une preuve de travail (voir chapitre suivant) :
 
-- La version (`version`) : Elle indique quelles règles ou quels signaux de mise à jour le bloc utilise. C’est un mécanisme de compatibilité et d’évolution du protocole.
+- **La version** (`version`) : Elle indique quelles règles ou quels signaux de mise à jour le bloc utilise. C’est un mécanisme de compatibilité et d’évolution du protocole.
 
-- L’empreinte du bloc précédent (`previousblockhash`) : C’est le hash de l’entête du bloc précédent. C’est lui qui enchaîne les blocs entre eux. Sans ce champ, on aurait des blocs indépendants. En incluant le hash de l'entête du bloc précédent, on obtient une chaîne, où chaque nouveau bloc s’appuie sur le précédent.
+- **L’empreinte du bloc précédent** (`previousblockhash`) : C’est le hash de l’entête du bloc précédent. C’est lui qui enchaîne les blocs entre eux. Sans ce champ, on aurait des blocs indépendants. En incluant le hash de l'entête du bloc précédent, on obtient une chaîne, où chaque nouveau bloc s’appuie sur le précédent.
 
-- La racine de Merkle (`merkleroot`) : C’est l'empreinte de toutes les transactions du bloc (via l’arbre de Merkle). Elle lie l’entête au contenu : si le mineur modifie la sélection ou l’ordre des transactions, la racine change.
+- **La racine de Merkle** (`merkleroot`) : C’est l'empreinte de toutes les transactions du bloc (via l’arbre de Merkle). Elle lie l’entête au contenu : si le mineur modifie la sélection ou l’ordre des transactions, la racine change.
 
-- L’[horodatage](https://planb.academy/resources/glossary/timestamp) (`time`) : C’est un timestamp (temps Unix) choisi par le mineur (avec des contraintes de validité), qui doit indiquer quand le bloc a été miné. Il n’a pas besoin d’être parfaitement exact à la seconde près, mais il doit respecter certaines conditions pour rester acceptable par le réseau.
+- **L’[horodatage](https://planb.academy/resources/glossary/timestamp)** (`time`) : C’est un timestamp (temps Unix) choisi par le mineur (avec des contraintes de validité), qui doit indiquer quand le bloc a été miné. Il n’a pas besoin d’être parfaitement exact à la seconde près, mais il doit respecter certaines conditions pour rester acceptable par le réseau.
 
-- La [cible de difficulté](https://planb.academy/resources/glossary/difficulty-target) encodée (`nbits`) : Ce champ encode la cible de difficulté en vigueur. Nous détaillerons ce point dans le chapitre sur la difficulté, mais retenez ici que ce paramètre fait partie de l’entête.
+- **La [cible de difficulté](https://planb.academy/resources/glossary/difficulty-target) encodée** (`nbits`) : Ce champ encode la cible de difficulté en vigueur. Nous détaillerons ce point dans le chapitre sur la difficulté, mais retenez ici que ce paramètre fait partie de l’entête.
 
-- Le [nonce](https://planb.academy/resources/glossary/nonce) (`nonce`) : C’est une valeur que le mineur peut modifier librement. Elle sert de variable d’ajustement durant la preuve de travail. Je vous expliquerai son rôle plus précisément dans le prochain chapitre, mais il est important de comprendre que le nonce fait partie de l’entête du bloc et qu’il est prévu pour permettre des essais successifs.
+- **Le [nonce](https://planb.academy/resources/glossary/nonce)** (`nonce`) : C’est une valeur que le mineur peut modifier librement. Elle sert de variable d’ajustement durant la preuve de travail. Je vous expliquerai son rôle plus précisément dans le prochain chapitre, mais il est important de comprendre que le nonce fait partie de l’entête du bloc et qu’il est prévu pour permettre des essais successifs.
 
 Pour rendre cela plus facile à visualiser, voici un exemple d’entête de bloc au format hexadécimal (80 octets) :
 
@@ -224,7 +224,7 @@ nbits: b2e00517
 nonce: 43f09a40
 ```
 
-Cette entête du bloc candidat construit par le mineur constitut sa base de travail. Lors de la recherche d'une preuve de travail valide, ce n’est pas la liste entière des transactions qui est directement hachée en boucle, mais bien ce bloc de 80 octets, qui contient tout ce qu’il faut pour lier le bloc au passé et engager son contenu, tout en embarquant les paramètres nécessaires au mécanisme de minage, que nous allons justement découvrir dans le chapitre suivant.
+Cette entête du bloc candidat construit par le mineur constitue sa base de travail. Lors de la recherche d'une preuve de travail valide, ce n’est pas la liste entière des transactions qui est directement hachée en boucle, mais bien ce bloc de 80 octets, qui contient tout ce qu’il faut pour lier le bloc au passé et engager son contenu, tout en embarquant les paramètres nécessaires au mécanisme de minage, que nous allons justement découvrir dans le chapitre suivant.
 
 ## Le hachage, la cible et le nonce
 <chapterId>d054323b-16bd-4556-bac5-4878654e59a3</chapterId>

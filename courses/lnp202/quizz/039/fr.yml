@@ -6,4 +6,4 @@ wrong_answers:
   - Capacité à fermer des canaux
 explanation: |
   La liquidité sortante représente les sats disponibles du côté de l’opérateur pour effectuer des paiements.
-reviewed: false
+reviewed: true 

@@ -33,6 +33,20 @@ Why title this course *Freedom as a Social Project*? Because freedom is not an a
 
 This course, developed by the Institut Coppet and presented by Benoît Malbranc, invites you on a journey through the foundations, the history, and the practical mechanics of liberty. We will not merely define freedom in the abstract; we will anchor it in the concrete realities of human existence, trace its gradual conquest across centuries, and confront the sophisms that have been deployed to justify its suppression.
 
+### What you will learn
+
+Why invest your time in studying 18th and 19th century French liberal thinkers? Because the questions they answered are the questions you face every day:
+
+- **Defend your economic choices.** When someone argues that the state should regulate prices, protect industries, or redistribute wealth, you will be able to identify the hidden costs and the fallacies behind these proposals, using Bastiat's method of *what is seen and what is not seen*.
+- **Understand the origin of your rights.** Property, freedom of speech, freedom of work: these are not gifts from government. You will discover that they arise from observable facts about human nature, facts that no decree can override.
+- **Recognize manipulation.** Politicians and intellectuals have always used sophisms to justify expanding their power at your expense. This course catalogs the most common ones and teaches you to dismantle them.
+- **Think historically.** The march from slavery and serfdom toward individual liberty is the central story of human civilization. Understanding this trajectory allows you to evaluate whether a proposed policy moves us forward or backward.
+- **Apply liberal principles in practice.** From contract law and free banking to education and international trade, the thinkers in this course offered concrete alternatives that remain strikingly relevant today.
+
+In short, this course equips you with an intellectual toolkit for navigating the political, economic, and social debates of our time, grounded not in ideology but in observed facts and rigorous reasoning.
+
+### Curriculum
+
 The course is organized into five parts:
 
 **Part 1, Foundations of Freedom.** We begin with the human facts that give rise to liberty and property: bodily existence, the finitude of resources, the individuality of perceptions, self-ownership, and the natural limits of reason. From these facts flow freedom of thought, freedom of the press, freedom of work, the non-aggression principle, and the internal contradictions of all constraint systems.
@@ -47,37 +61,27 @@ The course is organized into five parts:
 
 Throughout these lessons, we will let the great thinkers speak in their own words. Bastiat, Molinari, Constant, Tocqueville, Leroy-Beaulieu, Destutt de Tracy, their arguments remain as powerful today as when they were first written. The challenges they addressed, protectionism, excessive taxation, democratic despotism, the illusion of central planning, are precisely the challenges we face in the 21st century.
 
-Ready to embark on this intellectual journey to the heart of the French liberal tradition? If you would like to start with a broader panorama of how the idea of freedom evolved from antiquity to the modern era, we recommend our companion course on the philosophical history of freedom:
-
-https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
-
-And if Bastiat's method of exposing economic sophisms sparks your curiosity, our dedicated course on his economic thought goes deeper into his life, influences, and arguments:
-
-https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
-
-Let us begin.
+Let's dive in.
 
 ## About the author and references
 
 <chapterId>37f4b0d0-7aaa-4009-836a-d401c3c12907</chapterId>
-
-### What you will gain from this course
-
-Why invest your time in studying 18th and 19th century French liberal thinkers? Because the questions they answered are the questions you face every day:
-
-- **Defend your economic choices.** When someone argues that the state should regulate prices, protect industries, or redistribute wealth, you will be able to identify the hidden costs and the fallacies behind these proposals, using Bastiat's method of *what is seen and what is not seen*.
-- **Understand the origin of your rights.** Property, freedom of speech, freedom of work: these are not gifts from government. You will discover that they arise from observable facts about human nature, facts that no decree can override.
-- **Recognize manipulation.** Politicians and intellectuals have always used sophisms to justify expanding their power at your expense. This course catalogs the most common ones and teaches you to dismantle them.
-- **Think historically.** The march from slavery and serfdom toward individual liberty is the central story of human civilization. Understanding this trajectory allows you to evaluate whether a proposed policy moves us forward or backward.
-- **Apply liberal principles in practice.** From contract law and free banking to education and international trade, the thinkers in this course offered concrete alternatives that remain strikingly relevant today.
-
-In short, this course equips you with an intellectual toolkit for navigating the political, economic, and social debates of our time, grounded not in ideology but in observed facts and rigorous reasoning.
 
 ### About the course author
 
 This course was developed by **[Benoît Malbranque](https://planb.academy/professors/benoit-malbranque)**, director of the Institut Coppet, the leading institution devoted to the rediscovery and publication of the French liberal tradition. Over the past decade, the Institut Coppet has republished dozens of works from the 18th and 19th centuries that had fallen into near-total oblivion. Malbranque is the author of the [*Dictionnaire de la tradition libérale française*](https://planb.academy/resources/books/dictionnaire-tradition-liberale-francaise-0b3b933f-4305-4c07-86ef-e64ff97a4851) and the editor of numerous critical editions of Bastiat, Molinari, Leroy-Beaulieu, and others. His deep familiarity with these primary sources gives this course a unique authenticity: you will not merely learn *about* these thinkers, you will read them in their own words.
 
 ![Benoît Malbranque, Dictionnaire de la tradition libérale française](assets/en/076.webp)
+
+### Related courses
+
+If you would like to start with a broader panorama of how the idea of freedom evolved from antiquity to the modern era, we recommend our companion course on the philosophical history of freedom:
+
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+
+And if Bastiat's method of exposing economic sophisms sparks your curiosity, our dedicated course on his economic thought goes deeper into his life, influences, and arguments:
+
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ### Reference works
 

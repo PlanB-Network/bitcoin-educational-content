@@ -32,12 +32,6 @@ Ce cours, développé par l'Institut Coppet et présenté par Benoît Malbranque
 
 <chapterId>37f4b0d0-7aaa-4009-836a-d401c3c12907</chapterId>
 
-### À propos de l'auteur du cours
-
-Ce cours a été développé par **Benoît Malbranque**, directeur de l'Institut Coppet, l'institution de référence consacrée à la redécouverte et à la publication de la tradition libérale française. Au cours de la dernière décennie, l'Institut Coppet a republié des dizaines d'ouvrages des XVIIIᵉ et XIXᵉ siècles tombés dans un oubli quasi total. Malbranque est l'auteur du *Dictionnaire de la tradition libérale française* et l'éditeur de nombreuses éditions critiques de Bastiat, Molinari, Leroy-Beaulieu et d'autres. Sa connaissance approfondie de ces sources primaires confère à ce cours une authenticité unique.
-
-![Benoît Malbranque, Dictionnaire de la tradition libérale française](assets/en/076.webp)
-
 ### Ce que ce cours vous apportera
 
 Pourquoi consacrer votre temps à l'étude des penseurs libéraux français des XVIIIᵉ et XIXᵉ siècles ? Parce que les questions auxquelles ils ont répondu sont celles que vous affrontez chaque jour :
@@ -47,6 +41,12 @@ Pourquoi consacrer votre temps à l'étude des penseurs libéraux français des 
 - **Reconnaître la manipulation.** Les politiciens et les intellectuels ont toujours utilisé des sophismes pour justifier l'expansion de leur pouvoir à vos dépens. Ce cours catalogue les plus courants et vous apprend à les démanteler.
 - **Penser historiquement.** La marche de l'esclavage et du servage vers la liberté individuelle constitue l'histoire centrale de la civilisation humaine.
 - **Appliquer les principes libéraux en pratique.** Du droit des contrats et de la banque libre à l'éducation et au commerce international, les penseurs de ce cours ont proposé des alternatives concrètes qui restent remarquablement pertinentes aujourd'hui.
+
+### À propos de l'auteur du cours
+
+Ce cours a été développé par **Benoît Malbranque**, directeur de l'Institut Coppet, l'institution de référence consacrée à la redécouverte et à la publication de la tradition libérale française. Au cours de la dernière décennie, l'Institut Coppet a republié des dizaines d'ouvrages des XVIIIᵉ et XIXᵉ siècles tombés dans un oubli quasi total. Malbranque est l'auteur du *Dictionnaire de la tradition libérale française* et l'éditeur de nombreuses éditions critiques de Bastiat, Molinari, Leroy-Beaulieu et d'autres. Sa connaissance approfondie de ces sources primaires confère à ce cours une authenticité unique.
+
+![Benoît Malbranque, Dictionnaire de la tradition libérale française](assets/en/076.webp)
 
 ### Ouvrages de référence
 

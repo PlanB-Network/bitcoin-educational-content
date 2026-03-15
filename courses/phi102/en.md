@@ -57,12 +57,6 @@ Let us begin.
 
 <chapterId>37f4b0d0-7aaa-4009-836a-d401c3c12907</chapterId>
 
-### About the course author
-
-This course was developed by **Benoît Malbranque**, director of the Institut Coppet, the leading institution devoted to the rediscovery and publication of the French liberal tradition. Over the past decade, the Institut Coppet has republished dozens of works from the 18th and 19th centuries that had fallen into near-total oblivion. Malbranque is the author of the *Dictionnaire de la tradition libérale française* and the editor of numerous critical editions of Bastiat, Molinari, Leroy-Beaulieu, and others. His deep familiarity with these primary sources gives this course a unique authenticity: you will not merely learn *about* these thinkers, you will read them in their own words.
-
-![Benoît Malbranque, Dictionnaire de la tradition libérale française](assets/en/076.webp)
-
 ### What you will gain from this course
 
 Why invest your time in studying 18th and 19th century French liberal thinkers? Because the questions they answered are the questions you face every day:
@@ -74,6 +68,12 @@ Why invest your time in studying 18th and 19th century French liberal thinkers? 
 - **Apply liberal principles in practice.** From contract law and free banking to education and international trade, the thinkers in this course offered concrete alternatives that remain strikingly relevant today.
 
 In short, this course equips you with an intellectual toolkit for navigating the political, economic, and social debates of our time, grounded not in ideology but in observed facts and rigorous reasoning.
+
+### About the course author
+
+This course was developed by **Benoît Malbranque**, director of the Institut Coppet, the leading institution devoted to the rediscovery and publication of the French liberal tradition. Over the past decade, the Institut Coppet has republished dozens of works from the 18th and 19th centuries that had fallen into near-total oblivion. Malbranque is the author of the [*Dictionnaire de la tradition libérale française*](https://planb.academy/resources/books/dictionnaire-tradition-liberale-francaise-0b3b933f-4305-4c07-86ef-e64ff97a4851) and the editor of numerous critical editions of Bastiat, Molinari, Leroy-Beaulieu, and others. His deep familiarity with these primary sources gives this course a unique authenticity: you will not merely learn *about* these thinkers, you will read them in their own words.
+
+![Benoît Malbranque, Dictionnaire de la tradition libérale française](assets/en/076.webp)
 
 ### Reference works
 
@@ -342,7 +342,7 @@ We established in the previous chapter that liberty rests on observable facts ab
 
 ![A worn volume from the French liberal tradition](assets/en/009.webp)
 
-Charles Comte (1782–1837), in his *Cours de droit naturel*, a series of lectures delivered in Lausanne around 1830, of which we still possess the manuscript, makes this point from the very first lesson: a human being devoid of cognitive capacity would scarcely be recognized as human. We form bonds with others precisely because they are thinking beings, because they have feelings, ideas, convictions that we can share and debate.
+Charles Comte (1782–1837), in his [*Cours de droit naturel*](https://planb.academy/resources/books/cours-droit-naturel-78a371b6-796b-4ebe-bb8a-54cc64f38b57), a series of lectures delivered in Lausanne around 1830, of which we still possess the manuscript, makes this point from the very first lesson: a human being devoid of cognitive capacity would scarcely be recognized as human. We form bonds with others precisely because they are thinking beings, because they have feelings, ideas, convictions that we can share and debate.
 
 
 This capacity for thought is accompanied by something that no materialist account can ignore: the *pleasure* of thinking. Consider the case of Father Yves-Marie André, a Jesuit scholar whose superiors forbade him from continuing his research on Malebranche. He suffered profoundly, though not everyone would feel the same deprivation with equal intensity. For many people, developing their ideas, exchanging them, teaching them to others, constitutes one of the deepest sources of human satisfaction. The pleasure of learning, the pleasure of teaching, the pleasure of intellectual discovery, these are facts of human experience, not luxuries reserved for the privileged few.
@@ -418,7 +418,7 @@ There is no property of things without property of self. And what is self-owners
 
 ![Jules Simon, collected works: La Liberte Civile, Le Devoir, La Liberte Politique](assets/en/014.webp)
 
-Jules Simon (1814–1896), philosopher and statesman, demonstrated in a remarkable series of works, notably *La Liberté civile* and *La Liberté* (1859), that the most complex economic notions, such as capital or freedom of labor, rest ultimately on simple human facts: free reflection and the ownership of one's own thought. From sensation to judgment, from judgment to action, from action to production, the chain is unbroken, and self-ownership is its first link.
+Jules Simon (1814–1896), philosopher and statesman, demonstrated in a remarkable series of works, notably [*La Liberté civile*](https://planb.academy/resources/books/la-liberte-civile-53b5dadb-e838-4802-acca-b00f8c4b00d7) and [*La Liberté*](https://planb.academy/resources/books/la-liberte-simon-8166fd17-86ec-4e1f-9928-77155f0e3d88) (1859), that the most complex economic notions, such as capital or freedom of labor, rest ultimately on simple human facts: free reflection and the ownership of one's own thought. From sensation to judgment, from judgment to action, from action to production, the chain is unbroken, and self-ownership is its first link.
 
 
 ### Why property of things
@@ -632,7 +632,7 @@ This communal ownership should not be confused with communism in the ideological
 
 ### "Free! Free to do what?"
 
-Charles Dunoyer (1786-1862), in his remarkable work *L'industrie et la morale considérées dans leurs rapports avec la liberté* (1825), and later in *De la liberté du travail* (1845), showed that freedom is a progressive construction. We are freer in industrial societies than in feudal societies, freer under feudalism than under ancient slavery, and freer under slavery than in prehistoric times. But what was prehistoric man free to do? Nothing, because human existence was subject to every conceivable constraint.
+Charles Dunoyer (1786-1862), in his remarkable work [*L'industrie et la morale considérées dans leurs rapports avec la liberté*](https://planb.academy/resources/books/industrie-morale-liberte-0ce13a70-e72b-4c5c-b527-fdb9b0a60aae) (1825), and later in [*De la liberté du travail*](https://planb.academy/resources/books/de-la-liberte-du-travail-edf7f393-d110-4a18-96f4-fcc477f0b49c) (1845), showed that freedom is a progressive construction. We are freer in industrial societies than in feudal societies, freer under feudalism than under ancient slavery, and freer under slavery than in prehistoric times. But what was prehistoric man free to do? Nothing, because human existence was subject to every conceivable constraint.
 
 ![French liberal tradition book cover](assets/en/031.webp)
 
@@ -802,7 +802,7 @@ The great defect of authoritarian systems of education and thought is that they 
 
 ![Paul Leroy-Beaulieu, Essai sur la repartition des richesses (1883)](assets/en/041.webp)
 
-Paul Leroy-Beaulieu, in his *Essai sur la répartition des richesses*, was one of the French liberal authors who most thoroughly analyzed these new circumstances and their future implications. He showed that the increasingly intellectual character of work enriches new layers of society, and in particular transforms the situation of women. As work becomes more intellectual, women's value and productive contribution rise dramatically. One can no longer confine them to the household and the family without cutting society off from the intelligence of half of humanity, intelligence that is needed for innovation, for technical and technological improvements, and for the general advancement of production.
+Paul Leroy-Beaulieu, in his [*Essai sur la répartition des richesses*](https://planb.academy/resources/books/essai-repartition-richesses-c5b307dc-eed4-493f-a76a-b23321a81c99), was one of the French liberal authors who most thoroughly analyzed these new circumstances and their future implications. He showed that the increasingly intellectual character of work enriches new layers of society, and in particular transforms the situation of women. As work becomes more intellectual, women's value and productive contribution rise dramatically. One can no longer confine them to the household and the family without cutting society off from the intelligence of half of humanity, intelligence that is needed for innovation, for technical and technological improvements, and for the general advancement of production.
 
 ### The abundance of new resources
 
@@ -855,7 +855,7 @@ Beyond these two protective principles, there is a third requirement: to use fre
 
 ![French liberal tradition book cover](assets/en/045.webp)
 
-Charles Dunoyer (1786-1862), a political economist, journalist, and close associate of Charles Comte, spent the better part of his career arguing that moral and intellectual development was the true engine of civilizational progress. His major work, *L'industrie et la morale considérées dans leurs rapports avec la liberté* (1825), remains one of the most ambitious attempts to ground the theory of liberty in the observable facts of human nature. He wrote, near the opening of that work:
+Charles Dunoyer (1786-1862), a political economist, journalist, and close associate of Charles Comte, spent the better part of his career arguing that moral and intellectual development was the true engine of civilizational progress. His major work, [*L'industrie et la morale considérées dans leurs rapports avec la liberté*](https://planb.academy/resources/books/industrie-morale-liberte-0ce13a70-e72b-4c5c-b527-fdb9b0a60aae) (1825), remains one of the most ambitious attempts to ground the theory of liberty in the observable facts of human nature. He wrote, near the opening of that work:
 
 > "Freedom is not a gift that societies receive ready-made from the hands of nature or of legislators. It is a conquest, slow and painful, which requires of men that they govern their passions, discipline their impulses, and submit to the long apprenticeship of self-command. The savage is not free in the true sense of the word; he is merely ungoverned. To be truly free, one must be capable of governing oneself."
 
@@ -881,7 +881,7 @@ Indeed, the paradox of self-destructive freedom is among the most important insi
 
 When an individual harms others, whether by threats, endangerment, or outright violation of their rights, he enters into a state of war with the human race. But what does this war cost him? Not only does he risk the punitive reaction of organized society; he also destroys the very web of peaceful exchange from which he himself could have benefited.
 
-The Abbé de Saint-Pierre (1658-1743), the Norman-born cleric and indefatigable project-maker who devoted his long life to the rational organization of peace among nations and individuals, grasped this logic with remarkable clarity. In his *Projet pour rendre la paix perpétuelle en Europe* (1713), he observed:
+The Abbé de Saint-Pierre (1658-1743), the Norman-born cleric and indefatigable project-maker who devoted his long life to the rational organization of peace among nations and individuals, grasped this logic with remarkable clarity. In his [*Projet pour rendre la paix perpétuelle en Europe*](https://planb.academy/resources/books/projet-paix-perpetuelle-europe-a9a43e52-3bab-4835-901a-f359c21afc87) (1713), he observed:
 
 > "The man who lives by violence against his neighbours does not merely injure them; he injures himself. He breaks the chain of mutual services and exchanges from which all wealth derives. He substitutes, for the productive labour that would have enriched both parties, a barren conflict that leaves both poorer than before. Security is not merely a moral good; it is the first condition of all prosperity."
 
@@ -921,7 +921,7 @@ Understanding economic freedom is a major challenge in our reflection on freedom
 
 ![Jean-Baptiste Say, Traite d'economie politique (1803), Institut Coppet edition](assets/en/047.webp)
 
-Jean-Baptiste Say (1767-1832), the Lyonnais cotton merchant's son who became the most widely read economist in the world during the first decades of the nineteenth century, placed production at the center of his monumental *Traité d'économie politique* (1803). Say understood that the analysis of wealth must begin not with distribution but with creation: how do human beings produce the utilities that constitute their well-being? His answer laid the foundation for everything that followed:
+Jean-Baptiste Say (1767-1832), the Lyonnais cotton merchant's son who became the most widely read economist in the world during the first decades of the nineteenth century, placed production at the center of his monumental [*Traité d'économie politique*](https://planb.academy/resources/books/traite-economie-politique-5e4bc84a-a7e4-4466-bfeb-d87a12e3b6c1) (1803). Say understood that the analysis of wealth must begin not with distribution but with creation: how do human beings produce the utilities that constitute their well-being? His answer laid the foundation for everything that followed:
 
 > "To produce is not to create matter, for matter is indestructible and no human power can bring it into existence from nothing. To produce is to give matter a form, a place, or a time in which it is useful to men. The farmer who harvests his wheat, the merchant who transports it to the hungry city, the miller who grinds it into flour: each of them produces, because each of them renders a service that would not exist without his intervention."
 
@@ -937,7 +937,7 @@ Adam Smith, among other thinkers, made a significant error in distinguishing bet
 
 ![French liberal tradition book cover](assets/en/048.webp)
 
-Gustave de Molinari (1819-1912), the Belgian-born economist who settled in Paris and became, over the course of a long and prolific career, one of the most original and combative voices of the French liberal tradition, saw through this confusion immediately. In his *Cours d'économie politique* (1855), he wrote:
+Gustave de Molinari (1819-1912), the Belgian-born economist who settled in Paris and became, over the course of a long and prolific career, one of the most original and combative voices of the French liberal tradition, saw through this confusion immediately. In his [*Cours d'économie politique*](https://planb.academy/resources/books/cours-economie-politique-molinari-75b4a66d-8127-4cf9-8a0a-53d8e353b203) (1855), he wrote:
 
 > "What good tools certain books are! The *Wealth of Nations*, for instance, has generated more real wealth in the two centuries since its publication than most factories could claim to have produced in their entire existence. Is this not production? To say otherwise is to confuse the medium with the message, the form with the substance."
 
@@ -965,7 +965,7 @@ The direction of production obeys what the economists called "natural law," acco
 
 The central element that explains the importance of contract and exchange is their nature as positive-sum games. I make a contract because it is in my interest to do so; otherwise, I would simply prefer not to contract. Similarly, in economic terms, if I make an exchange, it is because I find it advantageous; if not, I refrain.
 
-The Abbé de Saint-Pierre, at the beginning of the 18th century, was one of the first to recognize the full importance of this principle. In his *Projet pour perfectionner le commerce* (1735), he expressed it with characteristic clarity:
+The Abbé de Saint-Pierre, at the beginning of the 18th century, was one of the first to recognize the full importance of this principle. In his [*Projet pour perfectionner le commerce*](https://planb.academy/resources/books/projet-perfectionner-commerce-f4123249-b5ca-446e-8514-aedef76dbdf3) (1735), he expressed it with characteristic clarity:
 
 > "When a sale is made between merchants, the seller gains and the buyer also; for without a reciprocal gain, real or apparent, neither would the seller sell at such a price, nor would the buyer on his side buy at such a price. Sometimes one of the two makes a mistake; but commonly, with regard to their needs and their interests, both gain from the exchange, sometimes equally, but more often unequally. From this it follows that to multiply exchanges or sales between merchants, between the subjects of a nation, and between nation and nation, is to contribute to their enrichment; to diminish commerce, to diminish the number of exchanges, of sales, of purchases between traders, is to diminish their profit and their revenue."
 
@@ -987,7 +987,7 @@ Say himself was explicit on this point:
 
 The history of mankind can be read as a gradual transformation of the ways in which individuals compete with one another. In the earliest ages, competition was exercised principally through war and violence: the seizure of goods and subsistence commodities obtained by hunting, fishing, and gathering. The market was extremely small, and production limited. Since the world is composed of finite resources, some form of competition for them was inevitable. But the real progress of civilization lay in replacing this violent competition with contract and voluntary exchange.
 
-Frédéric Bastiat (1801-1850), the Gascon economist and pamphleteer who compressed more clarity into fewer pages than almost any writer in the history of economics, described this transformation with his customary precision in the *Harmonies économiques* (1850):
+Frédéric Bastiat (1801-1850), the Gascon economist and pamphleteer who compressed more clarity into fewer pages than almost any writer in the history of economics, described this transformation with his customary precision in the [*Harmonies économiques*](https://planb.academy/resources/books/harmonies-economiques-66561d29-feb2-495c-815d-cea521b1930c) (1850):
 
 > "There are two ways for man to satisfy his wants: production and plunder. Some men work; others wait for the fruit of their labour and then appropriate it by force. This is not an imaginary alternative, constructed for rhetorical effect. It is the fundamental choice that has confronted every human society from the beginning of history. And civilisation is nothing other than the slow, painful, never-completed work of substituting production for plunder."
 
@@ -1047,7 +1047,7 @@ Indeed, one may well ask: are these investments yielding profits or losses? If t
 
 Economic liberalism rests on a concept of self-interest that is often misunderstood and caricatured. What is this concept, properly understood? It is not the ruthless selfishness of popular imagination, but something far richer and more realistic: the full complex of human motivations, organized around the individual as the unit of experience and judgement.
 
-Alexis de Tocqueville (1805-1859), the Norman aristocrat turned democratic theorist whose two-volume *De la démocratie en Amérique* (1835-1840) remains the most penetrating analysis of American society ever written by a European, observed with characteristic nuance that Americans had elevated self-interest to something like a civic doctrine:
+Alexis de Tocqueville (1805-1859), the Norman aristocrat turned democratic theorist whose two-volume [*De la démocratie en Amérique*](https://planb.academy/resources/books/de-la-democratie-en-amerique-7bc2962c-d9b7-4e34-9637-d704a90dfaf4) (1835-1840) remains the most penetrating analysis of American society ever written by a European, observed with characteristic nuance that Americans had elevated self-interest to something like a civic doctrine:
 
 > "The Americans enjoy explaining almost every act of their lives by the principle of self-interest rightly understood. It gives them pleasure to point out how an enlightened regard for themselves constantly prompts them to assist one another and inclines them willingly to sacrifice a portion of their time and property to the welfare of the state. I think that in this they frequently fail to do themselves justice; for in the United States as well as elsewhere people are sometimes seen to give way to those disinterested and spontaneous impulses that are natural to man; but the Americans seldom admit that they yield to emotions of this kind; they are more anxious to do honour to their philosophy than to themselves."
 
@@ -1063,7 +1063,7 @@ Self-interest is a propulsive force. It drives the improvement of processes and 
 
 ![Yves Guyot, L'Inventeur (1867)](assets/en/054.webp)
 
-Yves Guyot (1843-1928), journalist, economist, and later Minister of Public Works under the Third Republic, was one of the most combative and prolific defenders of liberalism in his generation. His first book, *L'Inventeur* (1867), dedicated to the figure of the inventor as the engine of social progress, opened with a passage that cuts to the heart of the liberal theory of innovation:
+Yves Guyot (1843-1928), journalist, economist, and later Minister of Public Works under the Third Republic, was one of the most combative and prolific defenders of liberalism in his generation. His first book, [*L'Inventeur*](https://planb.academy/resources/books/linventeur-778169ff-cf16-4c9f-9be9-62c783c810bb) (1867), dedicated to the figure of the inventor as the engine of social progress, opened with a passage that cuts to the heart of the liberal theory of innovation:
 
 > "The inventor is not a disinterested sage, labouring for posterity out of pure love of knowledge. He is a man who has seen a problem and believes he can solve it; who has glimpsed an opportunity and wishes to seize it; who desires recognition, comfort, perhaps glory. These are perfectly ordinary human desires. And it is precisely because they are ordinary that they are reliable. The inventor works because he hopes to benefit from his invention. Remove that hope, and you remove the invention."
 
@@ -1113,7 +1113,7 @@ The notion of harmony of interests is a fundamental pillar of liberal thought, y
 
 ![Frederic Bastiat, Harmonies Economiques, Institut Coppet edition](assets/en/056.webp)
 
-Frédéric Bastiat devoted the last and greatest work of his tragically short life to precisely this question. He died of tuberculosis in 1850, at the age of forty-nine, leaving the *Harmonies économiques* unfinished. But what he completed suffices to establish his thesis: the apparent conflicts of interest that fill the history books are not the natural condition of free men; they are the product of systems of privilege, monopoly, and political appropriation. He wrote, in the famous opening pages:
+Frédéric Bastiat devoted the last and greatest work of his tragically short life to precisely this question. He died of tuberculosis in 1850, at the age of forty-nine, leaving the [*Harmonies économiques*](https://planb.academy/resources/books/harmonies-economiques-66561d29-feb2-495c-815d-cea521b1930c) unfinished. But what he completed suffices to establish his thesis: the apparent conflicts of interest that fill the history books are not the natural condition of free men; they are the product of systems of privilege, monopoly, and political appropriation. He wrote, in the famous opening pages:
 
 > "If the natural tendencies of mankind are so bad that it is not safe to permit people to be free, how is it that the tendencies of these organisers are always good? Do not the legislators and their appointed agents also belong to the human race? Or do they believe that they themselves are made of a finer clay than the rest of mankind?"
 
@@ -1143,7 +1143,7 @@ This harmony has been constructed gradually. The opening of the world through na
 
 The need for international peace flows logically from this global harmony. Since trade is a positive-sum game in which all parties mutually enrich each other, it becomes imperative to maintain security both within societies and between nations. Every disruption to the world economic order produces nuisances that reverberate throughout the entire chain of exchange.
 
-Gustave de Molinari, who directed the *Journal des économistes* for decades and outlived nearly all his contemporaries, devoted his late career to what he called a veritable "war on war." In his *Grandeur et décadence de la guerre* (1898), he argued with characteristic rigour:
+Gustave de Molinari, who directed the *Journal des économistes* for decades and outlived nearly all his contemporaries, devoted his late career to what he called a veritable "war on war." In his [*Grandeur et décadence de la guerre*](https://planb.academy/resources/books/grandeur-decadence-guerre-3bf120be-1536-4b6e-aa85-4a2a62edca7e) (1898), he argued with characteristic rigour:
 
 > "War was once rational, in the narrow sense that the gains from successful plunder could exceed the costs of the campaign. This is no longer the case. The world economy is now so tightly woven that the destruction wrought by war falls not only on the defeated party but on the victorious one as well, not only on the belligerents but on all their trading partners. The industrialist who cheers for victory is cheering for the destruction of his own markets. He does not see this because he sees only what is immediate; he does not see the invisible, long-term harm that commerce concealed."
 
@@ -1249,7 +1249,7 @@ The state has been the object of a remarkable mythologisation, particularly duri
 
 ![Paul Leroy-Beaulieu, L'Etat moderne et ses fonctions (1889), Institut Coppet edition](assets/en/062.webp)
 
-Paul Leroy-Beaulieu, who had studied in Germany as a young man and knew this literature intimately, confronted it head-on in *L'État moderne et ses fonctions* (1890). He opposed to this idealised vision a much more down-to-earth analysis of what the modern state actually is:
+Paul Leroy-Beaulieu, who had studied in Germany as a young man and knew this literature intimately, confronted it head-on in [*L'État moderne et ses fonctions*](https://planb.academy/resources/books/letat-moderne-fonctions-7f41f6c6-8cf6-4902-b931-7ce9bf132621) (1890). He opposed to this idealised vision a much more down-to-earth analysis of what the modern state actually is:
 
 > "The state is not a philosopher-king, endowed with supernatural wisdom and released from all human weakness. It is a group of men, chosen by methods that have no necessary connection with competence, exercising functions for which they have rarely been trained, under the pressure of interests that are frequently incompatible with the general welfare. To speak of the state as if it were a rational agent superior to the individuals of whom it is composed is to commit the most elementary of sociological errors."
 
@@ -1342,7 +1342,7 @@ In the logic of political domination, money ceases to be a commodity or service 
 
 ![Nicole Oresme, Traictie de la premiere invention des monnoies, Institut Coppet edition](assets/en/067.webp)
 
-Nicolas Oresme (1320-1382), the Norman bishop and polymath who served as tutor to the future King Charles V of France, addressed these questions in the fourteenth century with a clarity that remains astonishing. His *Traictié de la première invention des monnoies* (c. 1360) was the first systematic treatise on monetary theory in the Western tradition. He wrote, addressing the king directly:
+Nicolas Oresme (1320-1382), the Norman bishop and polymath who served as tutor to the future King Charles V of France, addressed these questions in the fourteenth century with a clarity that remains astonishing. His [*Traictié de la première invention des monnoies*](https://planb.academy/resources/books/traictie-premiere-invention-monnoies-0d91d52c-ed04-4cdd-baa6-590b3544d40a) (c. 1360) was the first systematic treatise on monetary theory in the Western tradition. He wrote, addressing the king directly:
 
 > "The currency belongs to the community that uses it, not to the prince who mints it. The prince has the right to regulate its use; he does not have the right to alter its content for his own advantage. When he debases the coinage, he commits a theft: a theft from all those who hold the currency, a theft diffused across the entire community, and therefore a theft more difficult to identify and to resist than the simple plunder of an individual. It is for this reason that monetary debasement is the most dangerous of all the abuses of political power."
 
@@ -1382,7 +1382,7 @@ Modern constitutions proclaim a single, indivisible republic, prohibiting all co
 
 Protectionism is one of the most significant manifestations of unfreedom, and one of the most durable. To understand it, we must recall that competition is naturally imposed on human beings by the finiteness of available resources. This scarcity creates a need for acquisition and distribution, which can be achieved either by contract or by politics.
 
-Bastiat identified the fundamental nature of protectionism with devastating precision in his *Sophismes économiques* (1845):
+Bastiat identified the fundamental nature of protectionism with devastating precision in his [*Sophismes économiques*](https://planb.academy/resources/books/sophismes-economiques-9ccb727f-d253-4188-9cc6-74c1e6ce6a16) (1845):
 
 > "The protectionist argument, stripped of its embellishments, amounts to this: we wish to sell without buying. We wish to receive without giving. We wish to produce without consuming, and to be enriched without enriching others. In a word, we wish to violate the fundamental law of exchange, which is that both parties must gain, by arranging for one party to gain without the other. This is not a policy; it is a wish. And it is a wish that, fortunately, the nature of things will always frustrate."
 
@@ -1452,7 +1452,7 @@ The failure of unfreedom has a long intellectual history. As early as the mid-ei
 
 ![Louis-Paul Abeille, Ecrits physiocratiques, Institut Coppet edition](assets/en/073.webp)
 
-Louis-Paul Abeille (1719-1807), the Breton economist and administrator who played a key role in the Physiocratic movement before eventually serving as a financial administrator under the Ancien Régime and the early Revolution, expressed the core insight of the school in his *Lettre d'un négociant sur la nature du commerce des grains* (1763):
+Louis-Paul Abeille (1719-1807), the Breton economist and administrator who played a key role in the Physiocratic movement before eventually serving as a financial administrator under the Ancien Régime and the early Revolution, expressed the core insight of the school in his [*Lettre d'un négociant sur la nature du commerce des grains*](https://planb.academy/resources/books/lettre-negociant-commerce-grains-c9ae04c1-d19d-409d-aa37-d6498aafde59) (1763):
 
 > "There are a thousand circumstances that determine the price, the place, and the moment at which grain should be sold. The farmer who has produced it, and the merchant who wishes to purchase it, know these circumstances; the official who seeks to regulate the transaction knows none of them. He sees only the average; they see the particular. He acts on yesterday's information; they act on today's. He acts on general principle; they act on specific fact. The result of his intervention is therefore necessarily worse than the result of their free agreement, not because he is less intelligent, but because he is less informed."
 
@@ -1525,7 +1525,7 @@ We arrive at a fundamental question: why does unfreedom continue to dominate our
 
 ![French liberal tradition book cover](assets/en/075.webp)
 
-No thinker understood this more clearly than Frédéric Bastiat (1801-1850), the brilliant economist from Bayonne whose life was tragically cut short by tuberculosis before he could complete his greatest work. Bastiat devoted the full force of his polemical genius to identifying and dismantling these errors in his celebrated *Sophismes économiques* (1845). His conviction was that the socialists and interventionists of his day were mistaken, but with good intentions. As the common expression reminds us, the road to hell is paved with good intentions. For Bastiat, the adversary of liberalism is not the sophist himself, but the sophism: a reasoning error or a factual error that needs to be corrected by economic science.
+No thinker understood this more clearly than Frédéric Bastiat (1801-1850), the brilliant economist from Bayonne whose life was tragically cut short by tuberculosis before he could complete his greatest work. Bastiat devoted the full force of his polemical genius to identifying and dismantling these errors in his celebrated [*Sophismes économiques*](https://planb.academy/resources/books/sophismes-economiques-9ccb727f-d253-4188-9cc6-74c1e6ce6a16) (1845). His conviction was that the socialists and interventionists of his day were mistaken, but with good intentions. As the common expression reminds us, the road to hell is paved with good intentions. For Bastiat, the adversary of liberalism is not the sophist himself, but the sophism: a reasoning error or a factual error that needs to be corrected by economic science.
 
 > We are assailed by sophisms. Good. Let us fight them. Let us not fall asleep in the presence of error, for error does not fall asleep in the presence of truth.
 
@@ -1565,7 +1565,7 @@ But does this definition hold up under scrutiny? Not at all. If freedom consists
 
 ![Destutt de Tracy, Commentaire sur l'Esprit des lois de Montesquieu (Vrin edition)](assets/en/100.webp)
 
-Nineteenth-century liberal thinkers criticised Montesquieu sharply on this point. Antoine Destutt de Tracy (1754-1836), the former artillery officer turned philosopher of the Idéologue school, devoted an entire work to the correction of these errors. In his *Commentaire sur l'Esprit des lois* (1819), written at the request of Thomas Jefferson himself, Destutt de Tracy writes:
+Nineteenth-century liberal thinkers criticised Montesquieu sharply on this point. Antoine Destutt de Tracy (1754-1836), the former artillery officer turned philosopher of the Idéologue school, devoted an entire work to the correction of these errors. In his [*Commentaire sur l'Esprit des lois*](https://planb.academy/resources/books/commentaire-esprit-des-lois-7f3a37a4-e731-4415-8308-21daf4a689c7) (1819), written at the request of Thomas Jefferson himself, Destutt de Tracy writes:
 
 > Montesquieu confounds the absence of legal prohibition with the presence of genuine liberty. But these are radically different things. A slave is permitted to do whatever his master does not forbid; this does not make him free. True freedom begins not with what the law allows, but with what the law has no right to touch.
 
@@ -1604,7 +1604,7 @@ The fallacy of the guardianship of guardians is one of the most remarkable contr
 
 What exactly is the premise of this public tutelage? It is a precise and rarely stated assumption: that citizens are fundamentally incapable of governing themselves, and require preventive supervision to avoid potentially harmful acts. Rather than repress genuine infringements of the rights of others, the system prefers to anticipate and supervise, on the assumption that individuals left to their own devices will make choices that are inappropriate, uninformed, or contradictory to their own interests.
 
-Bastiat exposed the absurdity of this position with characteristic wit. In *Ce qu'on voit et ce qu'on ne voit pas* (1850), he observes:
+Bastiat exposed the absurdity of this position with characteristic wit. In [*Ce qu'on voit et ce qu'on ne voit pas*](https://planb.academy/resources/books/ce-quon-voit-et-ce-quon-ne-voit-pas-8eaa83b8-738a-49b9-a29e-fb48b8668fcf) (1850), he observes:
 
 > It is astonishing that men who would never dream of telling their neighbour what to eat for dinner feel no hesitation whatsoever in telling an entire nation what industries it should cultivate, what wages it should accept, what prices it should charge, and what contracts it should enter. The same modesty that restrains them in private life entirely deserts them when they enter the realm of legislation.
 
@@ -1625,14 +1625,14 @@ In our consumption decisions, we compare satisfactions on a daily basis; the dec
 
 The political market presents radically different characteristics. Decisions are spaced out over time, and their consequences are collective and therefore difficult to examine for any individual. A political measure may affect people who are entirely invisible to the voter, making it impossible to grasp the full implications of one's choice. Elections are moments of collective fever, when decisions bear on entire programmes that are complex and difficult to assess in their totality. On the economic market, if I am dissatisfied with a purchase, I can change my supplier immediately. On the political market, I must wait years and accept the consequences of choices I may never have wanted. If there is an inability to choose wisely, it is precisely in the political sphere that this inability should manifest itself most strongly.
 
-Leroy-Beaulieu makes this point with precision in *L'État moderne et ses fonctions* (1890):
+Leroy-Beaulieu makes this point with precision in [*L'État moderne et ses fonctions*](https://planb.academy/resources/books/letat-moderne-fonctions-7f41f6c6-8cf6-4902-b931-7ce9bf132621) (1890):
 
 > The legislator who pretends to know better than the consumer what the consumer needs is in the position of a doctor who has never examined his patient but prescribes medicine on the basis of the statistical average of all the patients in the country. The consumer knows his own needs, tastes, and circumstances with an intimacy that no central authority can ever approach. The market is not a mechanism of exploitation; it is a mechanism of knowledge.
 
 
 ### Tocqueville and democratic despotism
 
-Alexis de Tocqueville (1805-1859), the Norman aristocrat turned political sociologist whose American voyage produced one of the masterpieces of modern political thought, famously identified, particularly in the second part of *De la démocratie en Amérique* (1840), what he called "democratic despotism": the tendency for freedoms to be curtailed by the democratic mass itself, when the state becomes the director of society.
+Alexis de Tocqueville (1805-1859), the Norman aristocrat turned political sociologist whose American voyage produced one of the masterpieces of modern political thought, famously identified, particularly in the second part of [*De la démocratie en Amérique*](https://planb.academy/resources/books/de-la-democratie-en-amerique-7bc2962c-d9b7-4e34-9637-d704a90dfaf4) (1840), what he called "democratic despotism": the tendency for freedoms to be curtailed by the democratic mass itself, when the state becomes the director of society.
 
 Tocqueville's analysis is remarkable for its prescience. Writing in the 1830s, he already observed the seeds of a soft despotism in the most successful democracy of his time:
 
@@ -1669,7 +1669,7 @@ Indeed, interventionist and socialist systems push the tutelage to the maximum, 
 
 We now turn to the economic sophisms that form the intellectual foundation of systems of unfreedom. These sophisms underpin both communism and the various forms of excessive regulation and oppressive taxation that persist today. Frédéric Bastiat devoted most of his work, sadly cut short by his untimely death in Rome in December 1850, to identifying and deconstructing these errors.
 
-His *Sophismes économiques* (1845, second series 1848) remain particularly relevant, for economic freedom is still widely contested in our contemporary societies, allowing systems of compression and authority to survive. Indeed, Bastiat understood that to establish freedom, it was first necessary to destroy the competing systems founded on faulty reasoning:
+His [*Sophismes économiques*](https://planb.academy/resources/books/sophismes-economiques-9ccb727f-d253-4188-9cc6-74c1e6ce6a16) (1845, second series 1848) remain particularly relevant, for economic freedom is still widely contested in our contemporary societies, allowing systems of compression and authority to survive. Indeed, Bastiat understood that to establish freedom, it was first necessary to destroy the competing systems founded on faulty reasoning:
 
 > Between a good and a bad economist there is one difference: the bad economist confines himself to the visible effect; the good economist takes into account both the effect that can be seen and those effects that must be foreseen. The sophism is always constructed on what is seen. The refutation of the sophism lies in showing what is not seen.
 
@@ -1688,7 +1688,7 @@ Protectionists present labour as an end in itself: they seek to defend it and to
 
 > To protect industry means to prevent exchange. To prevent exchange means to force men to produce more laboriously what they could obtain more easily. To force men to produce more laboriously is not to create wealth; it is to create poverty. The protectionist, who defends labour as such, is like a doctor who prescribes the disease as a cure.
 
-Liberals adopt a radically different perspective, focusing on the effects of work rather than on work itself. The real goal is to obtain for workers the maximum satisfaction in exchange for the same quantity of labour, not to maximise work while losing sight of its purpose. Leroy-Beaulieu makes this point with force in *Essai sur la répartition des richesses* (1881):
+Liberals adopt a radically different perspective, focusing on the effects of work rather than on work itself. The real goal is to obtain for workers the maximum satisfaction in exchange for the same quantity of labour, not to maximise work while losing sight of its purpose. Leroy-Beaulieu makes this point with force in [*Essai sur la répartition des richesses*](https://planb.academy/resources/books/essai-repartition-richesses-c5b307dc-eed4-493f-a76a-b23321a81c99) (1881):
 
 > The question is never how much men have worked, but how much they have obtained for their work. Civilisation does not consist in multiplying human toil; it consists in diminishing the toil required to satisfy a given need. Every invention, every improvement in method, every extension of trade is a reduction in the quantity of labour that life demands of us. This is what progress means.
 
@@ -1714,7 +1714,7 @@ In other words, the entire edifice of protectionist and socialist thought rests 
 
 Bastiat insisted on this point because, in his day, England was constantly portrayed as an ogre seeking to dominate and enrich itself at the expense of France. This discourse was perpetuated throughout the nineteenth and twentieth centuries, and we hear it again in the twenty-first with the resurgence of protectionism. The same economic sophisms continue to underpin it.
 
-What is the explanation for this stubborn persistence of refuted ideas? Guyot, writing in *La Tyrannie collectiviste* (1893), offers a sobering answer:
+What is the explanation for this stubborn persistence of refuted ideas? Guyot, writing in [*La Tyrannie collectiviste*](https://planb.academy/resources/books/la-tyrannie-collectiviste-ebe666d6-3a27-4b6e-8fd3-74729817652c) (1893), offers a sobering answer:
 
 > Sophisms do not survive because they are true; they survive because they are useful to those who wield power. Every tariff barrier enriches a particular producer at the expense of all consumers. That particular producer is concentrated, organised, and vocal; the consumers are dispersed, unorganised, and silent. The sophism is the intellectual servant of organised interests. It will return as long as those interests require it.
 
@@ -1751,7 +1751,7 @@ Paul Leroy-Beaulieu (1843-1916), whose productivity was legendary, having produc
 
 These notions prove extremely difficult to apply in practice. Wealthy artists and singers do not own the means of production. A great footballer would logically be a proletarian, since even the ball does not belong to the players. A journalist, a great scientist, or a lawyer would equally be proletarians, since they work with their hands and their intellect without owning the tools of their trade.
 
-In his *Essai sur la répartition des richesses* (1881), Leroy-Beaulieu demonstrates that modern societies are organised around work: we must constantly redeem our wealth through labour, and the development of capital is itself a daily task of market analysis and investment:
+In his [*Essai sur la répartition des richesses*](https://planb.academy/resources/books/essai-repartition-richesses-c5b307dc-eed4-493f-a76a-b23321a81c99) (1881), Leroy-Beaulieu demonstrates that modern societies are organised around work: we must constantly redeem our wealth through labour, and the development of capital is itself a daily task of market analysis and investment:
 
 > The distinction between capitalist and worker is far less stable in a free society than the socialist imagines. The worker of today becomes the small saver of tomorrow; the small saver becomes the investor; the investor becomes the entrepreneur. This mobility, so characteristic of free societies, is precisely what socialism wishes to suppress. In suppressing it, it would suppress the very mechanism by which men rise from poverty to prosperity.
 
@@ -1762,7 +1762,7 @@ In other words, the Marxist categories, which made rough sense in describing sla
 
 Contrary to the idea of exploitation, certain traditionally disadvantaged groups benefit particularly from the development of the market economy. But does the evidence support this claim? Indeed it does, and the liberal thinkers of the nineteenth century documented it with remarkable care.
 
-Leroy-Beaulieu, in *Le travail des femmes au XIXe siècle* (1873), shows that women are among the greatest beneficiaries of capitalist progress:
+Leroy-Beaulieu, in [*Le travail des femmes au XIXe siècle*](https://planb.academy/resources/books/travail-femmes-xixe-siecle-54948668-2c21-4343-9c31-3c8dfd9a7dfc) (1873), shows that women are among the greatest beneficiaries of capitalist progress:
 
 > In ancient societies, the position of women was that of a being made for service, dependent on the arbitrary will of a father or a husband. Her lesser productive power and the general insecurity of life penalised her disproportionately. In the modern commercial society, founded on voluntary contract and the rule of law, two things change fundamentally: security improves, so that physical strength becomes less decisive; and as work becomes increasingly mechanical and intellectual, the difference in physical capacity between men and women diminishes in economic significance. The market does not care about sex; it cares about service rendered.
 
@@ -1785,7 +1785,7 @@ Leroy-Beaulieu demonstrates in *Essai sur la répartition des richesses* (1881) 
 
 Consumer goods become available at ever-lower prices, and labour productivity continually increases. This can be verified simply by observing the size of dwellings, the quality and frequent renewal of clothing, and the improvement of food.
 
-Yet liberal writers also display a strong sensitivity toward poverty and the weak, inherited from the Enlightenment. Turgot's fight for freedom of labour aimed precisely at enabling everyone to make a living from their work, including the women excluded from male guilds. Bastiat, in the nineteenth century, led his fight for free trade explicitly for the poor. In *Sophismes économiques*, he addresses the protectionist directly:
+Yet liberal writers also display a strong sensitivity toward poverty and the weak, inherited from the Enlightenment. Turgot's fight for freedom of labour aimed precisely at enabling everyone to make a living from their work, including the women excluded from male guilds. Bastiat, in the nineteenth century, led his fight for free trade explicitly for the poor. In [*Sophismes économiques*](https://planb.academy/resources/books/sophismes-economiques-9ccb727f-d253-4188-9cc6-74c1e6ce6a16), he addresses the protectionist directly:
 
 > You say you defend the worker. But the worker is also a consumer. Every tariff that raises the price of iron raises the price of his tools. Every tariff that raises the price of wheat raises the price of his bread. Every restriction on exchange is a tax paid by the many for the benefit of the few. If you truly care for the poor, you will free them from these burdens.
 
@@ -1807,7 +1807,7 @@ Charles Comte, in his *Traité de la propriété* (1834), meets this attack head
 
 > Property is not an invention of legislators, nor a convention of citizens. It is a consequence of the nature of man and of his condition on earth. Man must eat to live; to eat he must produce; to produce he must have the use of land and of tools; to make continuous use of land and tools he must have the assurance that he will not be dispossessed of them. Property is nothing more than this assurance, raised to the level of a right. Destroy it, and you destroy not inequality but production itself.
 
-Indeed, the criticism naturally extends to inheritance, seen as an unfair transmission of wealth that should be politically organised rather than left to the free decision of individuals. But this criticism rests on a fundamental confusion. For liberals, inheritance is a logical extension of the right of ownership. If I am truly a proprietor, I have the freedom to do with my wealth as I wish: to give it away, to sell it, or to pass it on to my heirs. Guyot makes this point with characteristic directness in *La Tyrannie collectiviste* (1893):
+Indeed, the criticism naturally extends to inheritance, seen as an unfair transmission of wealth that should be politically organised rather than left to the free decision of individuals. But this criticism rests on a fundamental confusion. For liberals, inheritance is a logical extension of the right of ownership. If I am truly a proprietor, I have the freedom to do with my wealth as I wish: to give it away, to sell it, or to pass it on to my heirs. Guyot makes this point with characteristic directness in [*La Tyrannie collectiviste*](https://planb.academy/resources/books/la-tyrannie-collectiviste-ebe666d6-3a27-4b6e-8fd3-74729817652c) (1893):
 
 > To deny the right of inheritance is to deny the right of property. For what is property, if not the power to dispose of a thing as one wishes, including after one's death? A property right that expires with its holder is not a property right; it is a life-lease granted by the state, revocable at the pleasure of the legislator. Call it what you will; do not call it ownership.
 
@@ -1846,7 +1846,7 @@ We can also turn the inheritance argument against socialists by asking: why do t
 
 This analysis also enables us to understand how systems of unfreedom undermine individual autonomy. What is a tax that exceeds its proper function? What is a regulation that goes beyond the protection of rights?
 
-Taxes, when they exceed the legitimate contribution of service for service, constitute a form of territorial aggression against individual property. Bastiat identifies the essential point in *La Loi* (1850):
+Taxes, when they exceed the legitimate contribution of service for service, constitute a form of territorial aggression against individual property. Bastiat identifies the essential point in [*La Loi*](https://planb.academy/resources/books/la-loi-3f2e33c3-3d68-4561-b02c-84ecc94dd1a0) (1850):
 
 > When plunder becomes a way of life for a group of men in a society, over the course of time they create for themselves a legal system that authorises it and a moral code that glorifies it. Property plundered by law is no less plundered for the formality. The man whose earnings are seized by the tax collector and transferred to a protected industry has been robbed as surely as if a thief had visited him in the night. The only difference is that the legal robber has the police on his side.
 
@@ -1870,13 +1870,13 @@ What is the fundamental element of free societies? It is the contract: the concr
 
 ![Slide image from chapter 6.1](assets/en/087.webp)
 
-Charles Dunoyer (1786–1862), the great liberal economist and one of the founders of the *Revue encyclopédique*, understood this with particular depth. A close friend of Charles Comte and a tireless champion of industrial society against the remnants of feudal privilege, he wrote in his *De la liberté du travail* (1845):
+Charles Dunoyer (1786–1862), the great liberal economist and one of the founders of the *Revue encyclopédique*, understood this with particular depth. A close friend of Charles Comte and a tireless champion of industrial society against the remnants of feudal privilege, he wrote in his [*De la liberté du travail*](https://planb.academy/resources/books/de-la-liberte-du-travail-edf7f393-d110-4a18-96f4-fcc477f0b49c) (1845):
 
 > "Contract is not merely a legal formality. It is the living tissue of civilised society. Where contract governs, men deal with one another as equals; where command governs, one party is the instrument of another's will. The entire history of progress is the history of contract's advance over command."
 
 Indeed, the voluntary contract is also the cement of society itself. Society can be defined as the multiplicity of exchanges between individuals: without exchange or contract, it exists only in fact, as a raw aggregation of bodies in proximity. It takes real shape, genuine form, only through contract and voluntary association. This contractual functioning is the foundation of social harmony and peace, since it rests on mutually advantageous and freely negotiated relationships. When a person chooses to enter into a contract, it is precisely because he finds it advantageous to carry out the transaction rather than to abstain. In other words, every voluntary exchange is already proof that both parties have gained: the very act of contracting refutes the idea of exploitation.
 
-Frédéric Bastiat (1801–1850), the economist from Mugron whose *Harmonies économiques* remain among the most powerful defences of the free market ever written, put it with his characteristic elegance:
+Frédéric Bastiat (1801–1850), the economist from Mugron whose [*Harmonies économiques*](https://planb.academy/resources/books/harmonies-economiques-66561d29-feb2-495c-815d-cea521b1930c) remain among the most powerful defences of the free market ever written, put it with his characteristic elegance:
 
 > "Exchange is society itself. It is the bond of sympathy that ties men to one another, the great motor of civilisation, since by it each person places himself in service to all, and all to each. To restrict exchange is to restrict society; to abolish exchange would be to return humanity to barbarism."
 
@@ -1908,7 +1908,7 @@ Banking and monetary freedom is a particular application of the freedom of work,
 
 ![Courcelle-Seneuil, La Banque libre, Institut Coppet edition](assets/en/089.webp)
 
-Courcelle-Seneuil, in his *La Banque libre* (1867), stated the fundamental principle with characteristic directness:
+Courcelle-Seneuil, in his [*La Banque libre*](https://planb.academy/resources/books/la-banque-libre-cddc59e1-3778-4feb-b2c2-735dc18433b2) (1867), stated the fundamental principle with characteristic directness:
 
 > "Money is not an instrument of sovereignty; it is an instrument of exchange. The state no more created money than it created language or the weights and measures that commerce spontaneously adopted long before kings thought to regulate them. To grant a monopoly of money-creation to the state is therefore to confiscate from society a tool that belongs to it, and to place at the service of power what nature designed for the service of all."
 
@@ -1928,7 +1928,7 @@ In other words, monetary freedom is not an eccentric theoretical position; it is
 
 ### The reduction of state powers
 
-The political programme of liberty is fundamentally based on a drastic reduction in the powers of the state, particularly those considered parasitic. This idea runs through the entire French liberal tradition, from the Marquis d'Argenson (1694–1757), who famously wrote in his *Considérations sur le gouvernement ancien et présent de la France* that "to govern better, one must govern less," and the Physiocrats in the eighteenth century, with their famous *laissez faire* principle, to the great thinkers of the nineteenth century such as Paul Leroy-Beaulieu (1843–1916), the editor of *L'Économiste français* and author of the monumental *L'État moderne et ses fonctions* (1890). While these authors recognise that the state has a number of necessary powers, notably in policing, justice, and certain aspects of the enforcement of contracts, they all agree on the need to strictly limit its scope of action.
+The political programme of liberty is fundamentally based on a drastic reduction in the powers of the state, particularly those considered parasitic. This idea runs through the entire French liberal tradition, from the Marquis d'Argenson (1694–1757), who famously wrote in his *Considérations sur le gouvernement ancien et présent de la France* that "to govern better, one must govern less," and the Physiocrats in the eighteenth century, with their famous *laissez faire* principle, to the great thinkers of the nineteenth century such as Paul Leroy-Beaulieu (1843–1916), the editor of *L'Économiste français* and author of the monumental [*L'État moderne et ses fonctions*](https://planb.academy/resources/books/letat-moderne-fonctions-7f41f6c6-8cf6-4902-b931-7ce9bf132621) (1890). While these authors recognise that the state has a number of necessary powers, notably in policing, justice, and certain aspects of the enforcement of contracts, they all agree on the need to strictly limit its scope of action.
 
 ![Slide image from chapter 6.2](assets/en/090.webp)
 
@@ -1946,7 +1946,7 @@ The state, in all its economic manifestations, is a deficient and costly mechani
 
 ![Paul Leroy-Beaulieu, Essai sur la repartition des richesses (1883)](assets/en/091.webp)
 
-Leroy-Beaulieu, in his *Essai sur la répartition des richesses* (1883), captured the mechanism with precision:
+Leroy-Beaulieu, in his [*Essai sur la répartition des richesses*](https://planb.academy/resources/books/essai-repartition-richesses-c5b307dc-eed4-493f-a76a-b23321a81c99) (1883), captured the mechanism with precision:
 
 > "The agent of the state does not lose his own money when he errs; he loses the money of others. He does not gain when he succeeds beyond expectation; he gains only his fixed salary. Between his efforts and his rewards there exists no direct and personal relation. This is why the state, however well-intentioned its servants, will always produce at greater cost and with less inventiveness than the free enterprise that places each man's fortune in direct dependence on his intelligence, his energy, and his judgment."
 
@@ -1984,7 +1984,7 @@ The liberal perspective on social issues rests on a particular conception of hum
 
 ![French liberal tradition book cover](assets/en/092.webp)
 
-Gustave de Molinari (1819–1912), the Belgian-born economist who spent his career in Paris and whose intellectual audacity remains unmatched in the liberal tradition, understood this clearly. In his *Questions d'économie politique et de droit public* (1861), he wrote:
+Gustave de Molinari (1819–1912), the Belgian-born economist who spent his career in Paris and whose intellectual audacity remains unmatched in the liberal tradition, understood this clearly. In his [*Questions d'économie politique et de droit public*](https://planb.academy/resources/books/questions-economie-politique-964f1fe1-606f-49f4-a7e8-187cbf39d41f) (1861), he wrote:
 
 > "One would need a very poor opinion of humanity to believe that, left free to organise their own assistance, men would allow their fellows to perish of misery and want. The history of free peoples shows precisely the contrary: wherever the state has not suffocated voluntary charity by substituting compulsory charity, voluntary solidarity has flourished in forms of extraordinary variety and effectiveness. The mutual aid societies, the free hospitals, the charitable foundations: these are the natural products of a society that respects human initiative."
 
@@ -1994,7 +1994,7 @@ The power of free association deserves special recognition. The isolated individ
 
 ![French liberal tradition book cover](assets/en/095.webp)
 
-Frédéric Passy (1822–1912), the economist and peace activist who shared the first Nobel Peace Prize in 1901, expressed this conviction with eloquence in his *Leçons d'économie politique* (1860):
+Frédéric Passy (1822–1912), the economist and peace activist who shared the first Nobel Peace Prize in 1901, expressed this conviction with eloquence in his [*Leçons d'économie politique*](https://planb.academy/resources/books/lecons-economie-politique-9eac36cc-15d5-4312-8ecc-2c57ac146e77) (1860):
 
 > "Compulsory charity is a contradiction in terms. Charity that is extorted by the law from those who would not have given it freely is no longer charity; it is taxation. And taxation, however noble its stated purpose, does not produce in the taxpayer the habits of generosity and solidarity that make a truly human society. True solidarity is born of freedom, not of constraint."
 
@@ -2038,11 +2038,11 @@ The doctrine of freedom rests on a principle that deserves to be stated with the
 
 ![French liberal tradition book cover](assets/en/096.webp)
 
-Benjamin Constant (1767–1830), the great Swiss-French liberal, born in Lausanne and shaped by the upheavals of the Revolution and the Empire, devoted much of his career to working out the precise implications of this individualist foundation. In his *Principes de politique applicables à tous les gouvernements* (1815), he wrote with the precision of a man who had seen what happens when the collective swallows the individual:
+Benjamin Constant (1767–1830), the great Swiss-French liberal, born in Lausanne and shaped by the upheavals of the Revolution and the Empire, devoted much of his career to working out the precise implications of this individualist foundation. In his [*Principes de politique applicables à tous les gouvernements*](https://planb.academy/resources/books/principes-de-politique-282bc3de-f218-4103-903a-5280d7b99108) (1815), he wrote with the precision of a man who had seen what happens when the collective swallows the individual:
 
 > "There is a part of human existence which by necessity remains individual and independent, and which is, of right, outside any social competence. Sovereignty exists only in a limited and relative fashion. The jurisdiction of society stops where individual independence begins. If society crosses this boundary, it is as guilty of tyranny as the despot whose only title is the sword."
 
-This recognition has important consequences for political organisation. Unfreedom almost always manifests itself in the subjugation of the individual in the name of a supposed collective interest: the nation, the race, the class, the general will. Laws must therefore be founded on the recognition of human rights and fundamental freedoms, while framing this freedom so that it does not infringe on the similar freedoms of others. Constant, in his *Commentaire sur l'ouvrage de Filangieri* (1822), insists on the necessary silence of the law when the individual makes a just and legitimate use of his liberty and property.
+This recognition has important consequences for political organisation. Unfreedom almost always manifests itself in the subjugation of the individual in the name of a supposed collective interest: the nation, the race, the class, the general will. Laws must therefore be founded on the recognition of human rights and fundamental freedoms, while framing this freedom so that it does not infringe on the similar freedoms of others. Constant, in his [*Commentaire sur l'ouvrage de Filangieri*](https://planb.academy/resources/books/commentaire-filangieri-8c7eb7d7-a94f-4a7c-b2d2-846e6052ad14) (1822), insists on the necessary silence of the law when the individual makes a just and legitimate use of his liberty and property.
 
 In other words, the law has no legitimate voice over what I do with my own body, my own time, and my own goods, as long as I harm no one else. This silence of the law is an essential principle: the only permissible limitation on individual freedom lies in the protection of the freedoms of others.
 
@@ -2058,7 +2058,7 @@ What are the true foundations of national unity? History teaches us that the pre
 
 ![French liberal tradition book cover](assets/en/097.webp)
 
-Molinari, reflecting on the question of nationality in his *Cours d'économie politique* (1863), wrote:
+Molinari, reflecting on the question of nationality in his [*Cours d'économie politique*](https://planb.academy/resources/books/cours-economie-politique-molinari-75b4a66d-8127-4cf9-8a0a-53d8e353b203) (1863), wrote:
 
 > "What is a nation, if one examines it without prejudice? A company, a very large company, formed originally for the purpose of mutual defence against external aggression and internal disorder. Like all companies, it is legitimate only insofar as it is freely joined and freely left. The moment it places the individual in a condition analogous to that of a serf bound to his master's land, it has ceased to be a society and become a prison."
 
@@ -2100,7 +2100,7 @@ This course on freedom as a project for society rests on a fundamental convictio
 
 What does the examination of historical conditions reveal? It reveals a gradual and slow process, full of reversals and detours, but oriented in a direction that the liberal tradition has always identified. Ancient societies lived under extreme hazards and constant danger, operating according to modes of production based on violence and the collective appropriation of wealth rather than on the creation of new value. Yet history shows a remarkable tendency for authority to be replaced by contract, which makes it clear that socialist and interventionist solutions are in fact backward-looking. Communism appears as the most regressive form of this tendency, taking us back to the time of tribes on a national and international scale.
 
-Alexis de Tocqueville (1805–1859), whose *De la démocratie en Amérique* (1835–1840) remains one of the monuments of liberal political analysis, captured this movement with his characteristic double vision, at once hopeful and cautionary:
+Alexis de Tocqueville (1805–1859), whose [*De la démocratie en Amérique*](https://planb.academy/resources/books/de-la-democratie-en-amerique-7bc2962c-d9b7-4e34-9637-d704a90dfaf4) (1835–1840) remains one of the monuments of liberal political analysis, captured this movement with his characteristic double vision, at once hopeful and cautionary:
 
 > "Nations of our time cannot prevent conditions from becoming equal; but it depends upon themselves whether equality is to lead them to servitude or to freedom, to knowledge or barbarism, to prosperity or to wretchedness. The march is irresistible; but the destination is not fixed in advance. That depends on us."
 
@@ -2118,7 +2118,7 @@ The programme of freedom that emerges from this analysis must be bold, for it is
 
 The example of the campaign for the abolition of the Corn Laws in nineteenth-century England illustrates, better than any theoretical argument, the way forward. Richard Cobden (1804–1865), the cotton manufacturer turned statesman, and John Bright (1811–1889), together with the Anti-Corn Law League, achieved one of the most complete and durable victories of the liberal cause in history, not by revolution, not by insurrection, but by the patient, methodical education of public opinion.
 
-Frédéric Bastiat, who attended the League's meetings in Manchester and Birmingham in 1845 and was electrified by what he witnessed, reported back to his French readers with barely contained enthusiasm. He described in his *Cobden et la Ligue* (1845) the scene he had observed:
+Frédéric Bastiat, who attended the League's meetings in Manchester and Birmingham in 1845 and was electrified by what he witnessed, reported back to his French readers with barely contained enthusiasm. He described in his [*Cobden et la Ligue*](https://planb.academy/resources/books/cobden-et-la-ligue-292d6271-1829-496a-992b-c0ca08138110) (1845) the scene he had observed:
 
 > "Cobden spoke for two hours without notes, without effort, with a simplicity and a precision that reminded me of nothing so much as a mathematician demonstrating a theorem to students already convinced of his good faith. He did not flatter his audience; he instructed them. He did not inflame their passions; he enlightened their reason. And when he sat down, the applause that followed was not the applause of a crowd intoxicated by rhetoric but of men who feel that they have understood something, and that what they have understood is true."
 

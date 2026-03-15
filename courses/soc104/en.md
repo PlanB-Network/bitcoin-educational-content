@@ -10,7 +10,7 @@ objectives:
 
 ---
 
-Does your political positioning boil down to right or left? This course proposes a different framework: the fundamental Freedom-Coercion axis. Using the Nolan Diagram, we analyze political families — socialists, conservatives, centrists, and libertarians — not by their stated intentions, but by their confidence in government control. Discover the logic of spontaneous order, explore the real philosophical fault lines, and learn to define your own values beyond traditional labels.
+Does your political positioning boil down to right or left? This course proposes a different framework: the fundamental Freedom-Coercion axis. Using the Nolan Diagram, we analyze political families (socialists, conservatives, centrists, and libertarians) not by their stated intentions, but by their confidence in government control. **Discover the logic of spontaneous order, explore the real philosophical fault lines, and learn to define your own values beyond traditional labels.**
 
 This course also reveals why Bitcoin is a political project inherited from the Cypherpunks. A decentralizing force that opposes state currency, Bitcoin redefines the essential political question: **do you decide your life, or does someone else?**
 
@@ -83,11 +83,11 @@ Welcome to this course on the great political families. We begin with the figure
 
 Many believe that the most striking divide in the West today is between the political left and the political right. The media devote much of their coverage to this confrontation, which is presented as decisive for the future of civilization. To identify an individual's political leanings, we plot them on a simple horizontal line: far left, left, centre, right, far right.
 
-![The political spectrum](./assets/en/126.webp)
+![The political spectrum](./assets/en/002.webp)
 
 This divide dates back to 1789. During the French Revolution, in the debates of August and September 1789, deputies who favored maintaining the king's power sat to the right of the Assembly president, while those who wanted to limit his powers sat to the left. The problem is that **this categorization has become largely inoperative in our time**.
 
-![The French National Assembly](./assets/en/002.webp)
+![The French National Assembly](./assets/en/003.webp)
 
 Traditionally, the left is seen as reformist and the right as conservative. But this has become questionable, since the social-democratic left now fights to preserve acquired advantages, which effectively makes it, from that point of view, conservative. Most individuals who fall between the two extremes are called centrists, but this label also simplifies their position.
 
@@ -99,7 +99,7 @@ The fundamental problem with this axis is that **it leaves no room for classical
 
 Frédéric Bastiat (1801-1850), the emblematic figure of the French liberal school, was a deputy in the National Assembly. He had an entirely singular approach: he said he voted sometimes with the left, sometimes with the right, depending on the bill under discussion.
 
-![Frédéric Bastiat](./assets/en/003.webp)
+![Frédéric Bastiat](./assets/en/004.webp)
 
 This did not indicate centrist opportunism. Bastiat could not sit with the royalists on the right, because he was himself a republican; nor did he want to sit with the socialists on the left. His votes were guided by a fundamental principle: **the promotion of individual and economic freedoms and the reduction of government interference**. He was convinced that social order and prosperity could emerge through private initiative and individual responsibility, with a minimum of laws.
 
@@ -109,7 +109,6 @@ For Bastiat, the real line of demarcation was not between left and right, but be
 
 Bitcoin is a fascinating current example of an innovation that transcends the traditional divide. It is undeniably **a political project that breaks with current monetary policy**, but it is impossible to place on a simple linear axis running from far left to far right.
 
-![Bitcoin](./assets/en/004.webp)
 
 We find supporters of Bitcoin across the entire political spectrum:
 
@@ -119,7 +118,7 @@ We find supporters of Bitcoin across the entire political spectrum:
 
 In reality, the traditional dichotomy between left and right is inadequate and ill-suited to properly situate Bitcoin. A simple linear axis does not work well, since ideologies like fascism and communism share totalitarian characteristics that are not apparent on such an axis.
 
-![The horseshoe political spectrum](./assets/en/133.webp)
+![The horseshoe political spectrum](./assets/en/005.webp)
 
 ### A false division
 
@@ -159,7 +158,7 @@ In all these questions, one central issue emerges: **what degree of government c
 
 This partisan polarization masks a far deeper and more ancient divide: **the one that has separated those who govern from those who are governed** for centuries. On one side, the people, who endure inflation, fiscal pressure, and financial surveillance; on the other, the technocratic and political elite, who spend with other people's money, and very often with the printing press, that is, with fiat currency, supposedly for the good of the people.
 
-![Taxes](./assets/en/005.webp)
+![Taxes](./assets/en/006.webp)
 
 The fiat money system benefits the wealthiest individuals and the most powerful financial entities, especially governments, which are the biggest borrowers. By borrowing, they push banks to print new money. The resulting inflation insidiously devalues money, destroying people's savings. Fiat currency is the cornerstone of this expansion of state power: it allows governments to finance unlimited spending, eliminating the budgetary constraints that existed under a gold standard.
 
@@ -173,11 +172,11 @@ In other words: those who produce wealth and those who seize it to redistribute 
 
 To conclude this introduction, let us turn to a science-fiction novel from the 1960s. In *The Moon is a Harsh Mistress* (1966), Robert Heinlein brilliantly synthesized what constitutes the true political fault line:
 
-![The Moon is a Harsh Mistress](./assets/en/006.webp)
+![The Moon is a Harsh Mistress](./assets/en/007.webp)
 
 > "The human race divides politically into those who want people to be controlled and those who have no such desire."
 
-![Robert Heinlein quote](./assets/en/127.webp)
+![Robert Heinlein quote](./assets/en/008.webp)
 
 The "controllers" include all those who, regardless of their stated ideology, from the far left to the far right, believe that the state or a higher entity must regulate, direct, and impose behaviors for the good of society. They favor top-down solutions, planning, and coercion.
 
@@ -203,7 +202,7 @@ In this course, we will see that **the political landscape is far richer and mor
 
 Instead of dividing political doctrines along a right/left axis, it makes far more sense to look at things through the prism of freedom. The classical representation of the political spectrum is a horizontal line running from left to right.
 
-![The linear political spectrum](./assets/en/008.webp)
+![The linear political spectrum](./assets/en/009.webp)
 
 This model oversimplifies the complexity of political ideologies, and above all, it omits an essential criterion: **the degree of state intervention**. As we discussed in the introduction, the fundamental question is: who decides? Is it you, or is it someone else?
 
@@ -212,17 +211,17 @@ This leads us to reject the one-dimensional model in favor of a two-dimensional 
 1. A vertical axis measuring **personal freedoms**
 2. A horizontal axis measuring **economic freedoms**
 
-![The Nolan diagram](./assets/en/009.webp)
+![The Nolan diagram](./assets/en/010.webp)
 
 The closer you are to the zero point (bottom left), the more your ideological position favors state intervention. Conversely, the further you move toward the opposite corner (top right), the more you favor minimal state intervention and maximum individual freedoms. From this perspective, the traditional left and right are relativized: the left tends to favor personal freedoms at the expense of economic freedoms, while the classical right favors economic freedom at the expense of personal freedoms.
 
-![The two-dimensional political spectrum with personal and economic freedom axes](./assets/en/010.webp)
+![The two-dimensional political spectrum with personal and economic freedom axes](./assets/en/011.webp)
 
 ### The five quadrants
 
 When the diagram is presented in diamond form, we can identify five quadrants that precisely situate the different political philosophies:
 
-![The Nolan diamond](./assets/en/007.webp)
+![The Nolan diamond](./assets/en/012.webp)
 
 - **Statism** (bottom): The most authoritarian, even totalitarian position. Those who support very little economic or personal freedom.
 - **Socialism** (left): Those who support less economic freedom but greater personal liberty.
@@ -234,7 +233,7 @@ When the diagram is presented in diamond form, we can identify five quadrants th
 
 ### Nuances within each family
 
-![Nuances and internal tensions within each political family](./assets/en/017.webp)
+![Nuances and internal tensions within each political family](./assets/en/013.webp)
 
 Things are not simple, and it is always difficult to defend a completely monolithic political position. Within each political family, tensions and divergences exist:
 
@@ -242,11 +241,11 @@ Things are not simple, and it is always difficult to defend a completely monolit
 - Among **conservatives**, some are strongly opposed to taxes and social programs, placing them closer to the libertarian summit. Others have more authoritarian tendencies and favor economic regulation; one could think here of the controversy around Donald Trump.
 - Among **libertarians**, some want to abolish the state entirely and replace it with private services (anarcho-capitalists), while others prefer a minimal state that retains its core sovereign functions (the "minarchists").
 
-![Libertarian nuances on the Nolan diagram](./assets/en/015.webp)
+![Libertarian nuances on the Nolan diagram](./assets/en/014.webp)
 
 - The **Greens** probably sit very low in the diagram. They consider that **individual interest must not take precedence over the collective interest of the planet**. In a sense, the Greens have replaced the Marxist class struggle with a struggle between man and nature, and they tend to defend economic control and even the abolition of private property in the name of planetary well-being.
 
-![Green parties positioned in the authoritarian sector of the Nolan diagram](./assets/en/016.webp)
+![Green parties positioned in the authoritarian sector of the Nolan diagram](./assets/en/015.webp)
 
 ## The two fundamental dimensions
 
@@ -261,41 +260,41 @@ The diagram represents economic freedoms (tax levels, free market, private servi
 
 **The economic freedom category includes what you do as a producer and consumer**: what you can buy, sell, or produce; where you work; who you hire; and what you do with your money.
 
-![Economic freedoms: what you do as producer and consumer](./assets/en/011.webp)
+![Economic freedoms: what you do as producer and consumer](./assets/en/016.webp)
 
 *Examples of economic activity:* starting a business, buying a house, constructing a building, investing savings, hiring or dismissing employees.
 
-![Examples of economic activities on the Nolan diagram](./assets/en/012.webp)
+![Examples of economic activities on the Nolan diagram](./assets/en/017.webp)
 
 - **To the right of the axis** (toward maximum economic freedom): preference for less state intervention in the economy, fewer regulations, lower taxes, and greater freedom for companies and individuals to produce, trade, and consume. The emphasis is on the free market, private property, and competition as engines of prosperity.
   - *Emblematic figures:* Margaret Thatcher (UK), Ronald Reagan (USA), Javier Milei (Argentina).
 
-![Nolan diamond: economic freedom axis](./assets/en/128.webp)
+![Nolan diamond: economic freedom axis](./assets/en/018.webp)
 
 - **To the left of the axis** (toward maximum state control of the economy): preference for regulation, high taxes to finance public services (health, education, transport), nationalization, and redistribution of wealth. The aim is often to reduce inequalities and guarantee a degree of social justice.
   - *Emblematic figures:* Franklin D. Roosevelt (USA), Jean Jaurès (France), Bernie Sanders, Barack Obama.
 
-![Nolan diamond: left-wing statism](./assets/en/129.webp)
+![Nolan diamond: left-wing statism](./assets/en/019.webp)
 
 ### Personal and social freedoms
 
 **The personal freedom category includes what you do in your private relationships**, with your opinions and beliefs. In general, it is everything you do with your own body and mind.
 
-![Personal freedoms: what you do in your private relationships](./assets/en/013.webp)
+![Personal freedoms: what you do in your private relationships](./assets/en/020.webp)
 
 *Examples of personal activities:* marriage, choosing the books you read and the films you watch, the foods, medicines, and drugs you choose to consume, your religious choices, the organizations you join, the people you choose to associate with.
 
-![Examples of personal and societal freedoms on the Nolan diagram](./assets/en/014.webp)
+![Examples of personal and societal freedoms on the Nolan diagram](./assets/en/021.webp)
 
 - **Top of the axis** (toward maximum personal freedom): preference for individual freedom and tolerance. The state should interfere as little as possible in the life choices of individuals (freedom of expression, legalization of certain substances, freedom of movement, etc.). We value autonomy and diversity.
   - *Emblematic figures:* Nelson Mandela, Simone Veil, Noam Chomsky.
 
-![Nolan diamond: personal freedoms axis](./assets/en/130.webp)
+![Nolan diamond: personal freedoms axis](./assets/en/022.webp)
 
 - **Bottom of the axis** (toward maximum state control of personal life): preference for order, security, and traditional values. The state has a role in regulating morals, maintaining public order, and sometimes defending a certain vision of morality or tradition. These include positions in favor of the death penalty, restrictions on immigration, or government-led promotion of the traditional family.
   - *Emblematic figures:* Joseph de Maistre (French counter-revolutionary philosopher), and contemporary authoritarian leaders such as Vladimir Putin and Xi Jinping.
 
-![Nolan diamond: authoritarian axis](./assets/en/131.webp)
+![Nolan diamond: authoritarian axis](./assets/en/023.webp)
 
 
 ## Are you a right-wing or a left-wing statist?
@@ -317,7 +316,7 @@ The right, for its part, gives priority to personal morality and traditional val
 
 The central idea of the Nolan diagram is that the major difference between political philosophies is the degree of governmental control over human action, whether in the personal or economic sphere. In other words, there is not only a left-right axis reflecting your personal sensibilities, but also a top-bottom axis reflecting your willingness to use force to compel others to follow your values.
 
-![Left and right statism](./assets/en/018.webp)
+![Left and right statism](./assets/en/024.webp)
 
 From this perspective, left and right share the same political objective: to win power in order to organize society according to their vision of the world and impose it on everyone. This is the very definition of statism: using legislation to control and shape society. For some, it is in the name of defending civilization; for others, it is in the name of defending the working class, nature, or the oppressed. And the centrists approve of this too, when it suits them.
 
@@ -331,7 +330,7 @@ This is why we can say that **some are right-wing statists, while others are lef
 
 ### Two distinct conservatisms
 
-![The distinction between cultural and political conservatism](./assets/en/019.webp)
+![The distinction between cultural and political conservatism](./assets/en/025.webp)
 
 The term "conservatism" can give rise to confusion. We must absolutely **distinguish between cultural conservatism, which belongs to the realm of values**, and political conservatism, which is a political philosophy that relies on imposing those values on the whole of society.
 
@@ -347,12 +346,12 @@ The culturally conservative libertarian may morally disapprove of certain behavi
 
 This synthesis between libertarianism and cultural conservatism has taken the name of "paleo-libertarianism" in the United States. This current distinguishes itself from neo-libertarianism (a strand more sympathetic to egalitarianism and the social evolutions of the 1970s) by combining **the rejection of the state as the institutional source of coercion** with a reinforcement of traditional institutions and a preference for voluntary social structures over state authority. In other words, the paleo-libertarian does not oppose the existence of socialist or communitarian communities; what he refuses is that such communities impose their values on everyone by force of law. Two major figures incarnate this approach:
 
-![Paleo-libertarianism: cultural conservatism combined with libertarian principles](./assets/en/021.webp)
+![Paleo-libertarianism: cultural conservatism combined with libertarian principles](./assets/en/026.webp)
 
 - **Murray Rothbard**, an economist and philosopher who developed libertarian theory while recognizing the importance of traditional values, without ever advocating their imposition by the state.
 - **Ron Paul**, a congressman from Texas for decades who ran for the Republican presidential nomination. Personally conservative in his values, he consistently defended a vision of limited government respecting individual liberties. For example, Ron Paul always advised against drug use but simultaneously opposed drug prohibition. He was personally opposed to abortion yet consistently argued that the choice should be left to the federal states rather than imposed from above.
 
-![Conservative and libertarian positions](./assets/en/020.webp)
+![Conservative and libertarian positions](./assets/en/027.webp)
 
 ## Are you a liberal or a libertarian?
 
@@ -362,13 +361,13 @@ This synthesis between libertarianism and cultural conservatism has taken the na
 
 ### A transatlantic confusion
 
-![The transatlantic confusion between liberalism and libertarianism](./assets/en/022.webp)
+![The transatlantic confusion between liberalism and libertarianism](./assets/en/028.webp)
 
 The terms used to designate political families are not immutable. They can vary according to geographical and historical context, creating a major source of confusion. When the question is posed, "are you a liberal or a libertarian?", a European might answer that it is the same thing. But in Anglo-Saxon usage, these are radically different concepts.
 
 In Europe, the term *liberalism* has remained relatively stable over time: it is associated with laissez-faire economic policies, reduced state intervention, and the defense of individual liberties. A position generally classified on the right.
 
-![The divergent meanings of liberalism in Europe versus the United States](./assets/en/023.webp)
+![The divergent meanings of liberalism in Europe versus the United States](./assets/en/029.webp)
 
 In the United States, the same word has undergone a dramatic shift in meaning. **American *liberals* have become advocates of state intervention and *Big Government***. This evolution can be traced through key moments:
 
@@ -378,19 +377,19 @@ In the United States, the same word has undergone a dramatic shift in meaning. *
 
 We are very far from the European meaning of the term.
 
-![The historical evolution of American liberalism toward interventionism](./assets/en/024.webp)
+![The historical evolution of American liberalism toward interventionism](./assets/en/030.webp)
 
 ### The emergence of libertarianism
 
 Faced with this linguistic drift, supporters of classical liberalism in the United States began calling themselves *libertarians* from the 1960s onward, precisely to distinguish themselves from American *liberals*. They are the heirs of nineteenth-century European classical liberalism.
 
-![The emergence of libertarianism as a response to the drift of American liberalism](./assets/en/025.webp)
+![The emergence of libertarianism as a response to the drift of American liberalism](./assets/en/031.webp)
 
 A fundamental axis of libertarianism is the concept of **spontaneous order, owed notably to Friedrich Hayek** and the Austrian school of economics. According to Hayek, the rules and norms governing society should not be imposed from above by authoritarian planning, but should emerge from the free play of individual wills, contracts, and freely consented relationships between adults.
 
 ### Key intellectual figures
 
-![Key intellectual figures of libertarianism: Rothbard and Nozick](./assets/en/026.webp)
+![Key intellectual figures of libertarianism: Rothbard and Nozick](./assets/en/032.webp)
 
 Several thinkers shaped the libertarian movement:
 
@@ -399,7 +398,7 @@ Several thinkers shaped the libertarian movement:
 
 ### Institutional structure
 
-![The institutional structure of the libertarian movement](./assets/en/027.webp)
+![The institutional structure of the libertarian movement](./assets/en/033.webp)
 
 **The libertarian movement progressively organized itself**:
 
@@ -421,13 +420,13 @@ Yet fundamental divergences persist. Libertarians reject the military interventi
 
 ### A fundamental incompatibility
 
-![Libertarian versus libertaire: a fundamental incompatibility](./assets/en/028.webp)
+![Libertarian versus libertaire: a fundamental incompatibility](./assets/en/034.webp)
 
 The two are not compatible. There is a major source of confusion between these terms, particularly in automatic translations where the Anglo-Saxon *libertarian* is often rendered as *libertaire*. Yet **these political philosophies, despite some superficial similarities, present fundamental differences**.
 
 ### Socialist anarchism (the *libertaires*)
 
-![The libertaires: heirs of socialist anarchism](./assets/en/029.webp)
+![The libertaires: heirs of socialist anarchism](./assets/en/035.webp)
 
 The French *libertaires* are the heirs of socialist anarchism, a branch of socialism historically linked to thinkers such as Pierre-Joseph Proudhon and Mikhail Bakunin. Their fundamental principles are:
 
@@ -439,7 +438,7 @@ Anarchists like Bakunin and Kropotkin (who was a strict anarcho-communist, rejec
 
 ### Libertarianism: property as the foundation of freedom
 
-![Libertarianism: private property as the foundation of freedom](./assets/en/030.webp)
+![Libertarianism: private property as the foundation of freedom](./assets/en/036.webp)
 
 Libertarians diverge completely from the *libertaires* in that they defend private property as the very foundation of freedom. For them, private property is not a mere social convention protected by the state: **it is a natural right that precedes the law and the state**. If an individual owns their own body, they also own their labor and the fruits of their labor. Ownership of material goods is understood as an extension of self-ownership.
 
@@ -455,14 +454,14 @@ For libertarians, aggressive violence is not legitimate. The principal strategy 
 
 ### Anarcho-capitalism: historical roots
 
-![The historical roots of anarcho-capitalism: Molinari, Spooner, and Tucker](./assets/en/031.webp)
+![The historical roots of anarcho-capitalism: Molinari, Spooner, and Tucker](./assets/en/037.webp)
 
 Anarcho-capitalism is not a recent doctrine. Its roots lie in the nineteenth century:
 
 - **Gustave de Molinari**, a Belgian economist who worked in Paris alongside Frédéric Bastiat, wrote in 1849 an article entitled "The Production of Security," in which he argued that no government should have the right to prevent another from competing with it, or to require consumers of security to come exclusively to it for this product.
 - **Lysander Spooner** and **Benjamin Tucker** in the United States were individualist anarchists who argued forcefully that the free market was capable of assuming sovereign state functions, notably security and justice.
 
-![Murray Rothbard and the comprehensive theory of anarcho-capitalism](./assets/en/032.webp)
+![Murray Rothbard and the comprehensive theory of anarcho-capitalism](./assets/en/038.webp)
 
 In the twentieth century, Murray Rothbard took up the torch and theorized anarcho-capitalism comprehensively, notably in *Man, Economy, and State* and *For a New Liberty*. His thought rests on two principles: the non-aggression principle (it is illegitimate to initiate physical force against another individual or their property, a philosophical translation of the golden rule: do not do unto others what you would not have them do unto you) and the complete abolition of the state, understood as the principal aggressor.
 
@@ -470,7 +469,7 @@ Rothbard criticized the *libertaires* for adopting a naive and unrealistic visio
 
 ### A note on libertines
 
-![Libertarians, libertaires, and libertines: avoiding confusion](./assets/en/033.webp)
+![Libertarians, libertaires, and libertines: avoiding confusion](./assets/en/039.webp)
 
 One should not confuse libertarians with *libertaires* or with libertines. Libertines are advocates of sexual freedom. It is less a political philosophy than a personal way of life, founded on a morality without taboos opposed to bourgeois morality. Politically, libertines often gravitate toward left-wing anarchism, that is, toward the *libertaires*. Yet one can also be both a libertine and a libertarian, since for libertarians, **each person has the right to live as they wish without aggressing against others**. Conversely, a libertine who sought to impose his morality on others through law would, by that very act, cease to be a libertarian.
 
@@ -490,13 +489,13 @@ One should not confuse libertarians with *libertaires* or with libertines. Liber
 
 We now enter the heart of our analysis of political families. Before examining each one in detail, however, we must address a fundamental question: how should we define a political system? Take socialism as an example. 
 
-![Political families under the microscope: structural analysis](./assets/en/034.webp)
+![Political families under the microscope: structural analysis](./assets/en/040.webp)
 
 Should we define it by its stated intentions (justice, well-being, emancipation), or should we instead define it by its fundamental structure, namely **whether it gives primacy to the individual or to the state**?
 
 ### The trap of intentional definitions
 
-![Milton Friedman on judging policies by results rather than intentions](./assets/en/035.webp)
+![Milton Friedman on judging policies by results rather than intentions](./assets/en/041.webp)
 
 Milton Friedman wrote:
 
@@ -516,7 +515,7 @@ Our analysis will therefore privilege the structural approach, which allows for 
 
 ### Beyond intentions
 
-![Structural analysis of political families: socialism versus libertarianism](./assets/en/036.webp)
+![Structural analysis of political families: socialism versus libertarianism](./assets/en/042.webp)
 
 Structural analysis serves as a critical tool. It allows us to evaluate political systems according to their real results, not their promises. Intentional definitions, by contrast, create a conceptual confusion in which all systems claim to pursue similar objectives (justice, equity, freedom), making them impossible to distinguish from one another. We must therefore attend to the **empirical, measurable consequences of a political system**, as well as to the means it employs. It is through these that the true nature of a political system reveals itself, beyond the rhetoric of intentions or programs.
 
@@ -527,7 +526,7 @@ Structural analysis serves as a critical tool. It allows us to evaluate politica
 
 Socialism is a political and economic movement, and indeed a doctrine, that emerged in the nineteenth century with the critique of social inequalities and the alienation of workers in large-scale industry. From its very origins, it is also clearly an anti-capitalist movement, even though, as we shall see, modern socialists have progressively introduced moderations and compromises into their principles.
 
-![The socialists: principles and variants](./assets/en/037.webp)
+![The socialists: principles and variants](./assets/en/043.webp)
 
 
 ### Freedoms in the socialist framework
@@ -540,7 +539,7 @@ In socialist thought, freedoms are not considered uniformly. One observes **a fu
 - **Politics:** Socialists advocate health programs, regulatory capture, tax increases, and subsidies to guarantee equity. This implies economic and social state direction, planning (the organization of production upstream). The most radical and fully realized socialism is totalitarian, as the state takes charge of all human activity.
 - **Economics:** Socialism implies strong state control of the economy, in favor of equity. Socialists are suspicious of free markets, which they see as blind, instinctive forces. They favor wealth redistribution, centralized social programs, and progressive taxation that increases proportionally with income and becomes punitive for those who earn or produce wealth.
 
-![Nolan Diagram showing socialism positioned with strong societal freedoms but weak economic freedoms](./assets/en/038.webp)
+![Nolan Diagram showing socialism positioned with strong societal freedoms but weak economic freedoms](./assets/en/044.webp)
 
 ### Historical evolution
 
@@ -554,7 +553,7 @@ By the end of the nineteenth century, a complete rupture emerged between Marxism
 
 ### Marx and the revolutionary branch
 
-![Karl Marx and the distinction between utopian and scientific socialism](./assets/en/039.webp)
+![Karl Marx and the distinction between utopian and scientific socialism](./assets/en/045.webp)
 
 Karl Marx drew a crucial distinction between utopian socialism and scientific socialism. He accused the early French socialists (Proudhon, Saint-Simon, Fourier) of being utopians, meaning they proposed purely imaginary solutions without genuine theoretical or practical foundations.
 
@@ -562,15 +561,15 @@ Marx's scientific socialism rests on historical materialism: the idea that **his
 
 ### Democratic socialism and the reformist tradition
 
-![Jean Jaures and the foundations of democratic socialism](./assets/en/040.webp)
+![Jean Jaures and the foundations of democratic socialism](./assets/en/046.webp)
 
 Jean Jaures stands as one of the great thinkers of democratic socialism. A philosopher by training who entered politics at the turn of the twentieth century, Jaures founded the newspaper *L'Humanite*. His definition of socialism was the legitimate intervention of society and of power in human life, particularly in labor relations, in order to realize individual freedom and equity. In other words, **Jaures laid the theoretical foundations for justifying state intervention in the name of equality**.
 
-![Emile Durkheim and the sociological foundations of socialism](./assets/en/041.webp)
+![Emile Durkheim and the sociological foundations of socialism](./assets/en/047.webp)
 
 Emile Durkheim, founder of the chair of sociology at the Sorbonne in 1913 and a friend of Jaures, explained that socialism is a protest against the current economic state of affairs that demands a transformation through the organization of economic forces. Both Jaures and Durkheim shared a strikingly economic conception of socialism: the economy must not be left to market forces (which they considered blind and instinctive) but should instead be managed rationally.
 
-![Modern democratic socialism from the New Deal to Nordic social democracy](./assets/en/042.webp)
+![Modern democratic socialism from the New Deal to Nordic social democracy](./assets/en/048.webp)
 
 Modern socialism also owes a great deal to Roosevelt and the New Deal. In the 1930s, Franklin Delano Roosevelt implemented a set of reforms following the Great Depression that constitute a major reference for all contemporary defenders of democratic socialism:
 
@@ -587,13 +586,13 @@ Socialism is characterized by a holistic vision of society, considered as an ind
 
 ### The Green New Deal: a contemporary synthesis
 
-![The Green New Deal as a contemporary synthesis of ecological and social objectives](./assets/en/043.webp)
+![The Green New Deal as a contemporary synthesis of ecological and social objectives](./assets/en/049.webp)
 
 The Green New Deal represents a recent evolution of democratic socialism, fusing environmental concerns with social objectives. Politically, ecology aligns with the left and even the far left. This program combines ecological transition with social justice, employment guarantees, and reinforced public services. In every case, **individual interest is subordinated to the collective interest, defined by planetary health** and the challenge of climate change. At bottom, this is simply a new rhetorical envelope that justifies state intervention and the confiscation of private income, no longer solely in the name of equity and social justice but also in the name of the environment.
 
 ### Socialist thought in quotations
 
-![Socialist thought in quotations](./assets/en/044.webp)
+![Socialist thought in quotations](./assets/en/050.webp)
 
 > We have come to a clear realization that true individual freedom cannot exist without economic security and independence. Necessitous men are not free men.
 > Franklin D. Roosevelt, 1944
@@ -617,9 +616,9 @@ These quotations illustrate the noble intentions behind socialist thought. Yet *
 Like every political family, conservatism is not a unified doctrine. It has adapted to different epochs and different cultures, and there are substantial differences between Anglo-Saxon conservatism and its continental European counterpart.
 
 
-![Nolan Diagram showing conservatism positioned with strong economic freedoms but weak societal freedoms](./assets/en/046.webp)
+![Nolan Diagram showing conservatism positioned with strong economic freedoms but weak societal freedoms](./assets/en/051.webp)
 
-![Conservatism: principles, values, and evolution](./assets/en/045.webp)
+![Conservatism: principles, values, and evolution](./assets/en/052.webp)
 
 ### Freedoms in the conservative vision
 
@@ -629,26 +628,26 @@ As the Nolan Diagram shows, conservatism exhibits a strong dichotomy between soc
 - **Cardinal values:** virtue, order, tradition, civilization.
 - **Philosophy and principles:** Conservatives believe that things are generally good as they are, and that any change could make them worse. At the heart of this philosophy lies a deep attachment to roots, to the past, and a fear of change that is too brutal. They hold a profound respect for long-established social institutions, seen as essential protections against chaos and the excesses of modernity. Everything that already exists and has proven itself over time is considered good in itself. As one American encyclopedia of conservatism puts it: conservatism is a philosophy that seeks to maintain and enrich societies through respect for inherited institutions, beliefs, and practices, in which individuals develop good character by cooperating with one another in primary and local associations such as families, churches, and social groups. Tocqueville observed this dynamic in *Democracy in America*: religion and local communities served as powerful counterweights to the risks of individualism.
 
-![Conservative cardinal values: virtue, order, tradition, and civilization](./assets/en/048.webp)
+![Conservative cardinal values: virtue, order, tradition, and civilization](./assets/en/053.webp)
 
-![Contemporary definition of conservatism: enriching societies through inherited institutions](./assets/en/049.webp)
+![Contemporary definition of conservatism: enriching societies through inherited institutions](./assets/en/054.webp)
 
 - **Politics:** The nation-state is considered the principal axis of politics. Conservatives advocate traditional social controls, strong national defense, and more extensive police powers. They oppose all forms of socialism or communism, which they accuse of corrupting and weakening society.
 - **Economy:** The economy remains a tool for reinforcing the established order and national power. Conservatives support free enterprise, low taxation, and minimal regulation of business. But they fear that **too much individual freedom could engender immorality or civilizational decline**. As Otto von Bismarck put it: "The economy is the surest path to national greatness." Even as partisans of the free market, conservatives view economic freedom not as an end in itself but as a lever for maintaining a strong state.
 
-![Conservative political and economic positions](./assets/en/050.webp)
+![Conservative political and economic positions](./assets/en/055.webp)
 
 ### A brief history of conservatism
 
 The doctrine finds its philosophical roots in the eighteenth century, born in reaction to the French Revolution. Edmund Burke is often cited as the founding figure of this opposition, advocating the preservation of institutions and traditions against radical change. Burke championed prudence: even if he could embrace certain principles of the Revolution, he believed society should advance not by making a clean slate but through gradual reforms.
 
-![The historical evolution of conservative thought](./assets/en/047.webp)
+![The historical evolution of conservative thought](./assets/en/056.webp)
 
-![European conservatism in the nineteenth century](./assets/en/052.webp)
+![European conservatism in the nineteenth century](./assets/en/057.webp)
 
 In nineteenth-century Europe, conservatism often manifested as support for the monarchy, the Church, and the established social order in the face of rising liberalism and nationalism. Figures like Joseph de Maistre in France represented a deeply reactionary strain. De Maistre harbored an absolute hostility toward reason, believing that men are not beings of reason and that **society can only be governed by appealing to deep instincts**, hence the crucial importance of religion. These reactionaries advocated a return to feudal, agricultural, and artisanal society, viewing industrialization as a threat to the traditional social order.
 
-![Anglo-Saxon conservatism and the concept of ordered liberty](./assets/en/053.webp)
+![Anglo-Saxon conservatism and the concept of ordered liberty](./assets/en/058.webp)
 
 In the twentieth century, particularly in the United States, conservatism developed around the ideals of individual liberty, limited government, free markets, and Christian values, often in opposition to the progressive policies of the New Deal. This Anglo-Saxon conservatism was far more modern, having fully accepted scientific and technological progress while attempting to reconcile community and individual, freedom and responsibility. In Britain, Margaret Thatcher exemplified this tendency through her opposition to trade unions and centralized planning, always with the underlying goal of **restoring moral and religious values as a bulwark against the excesses of progressivism**.
 
@@ -658,17 +657,17 @@ In the twentieth century, particularly in the United States, conservatism develo
 - **Michael Oakeshott (1901-1990):** A British philosopher known for his critique of rationalism in politics, Oakeshott defended **a conception of conservatism as temperament rather than systematic ideology**. His essay *On Being Conservative* (1956) remains an essential reference that also influenced Friedrich Hayek.
 - **Roger Scruton (1944-2020):** A contemporary British philosopher who developed a sophisticated defense of conservative values in the context of late modernity, particularly in his book *The Meaning of Conservatism*.
 
-![Great thinkers of conservatism: Burke, Oakeshott, and Scruton](./assets/en/051.webp)
+![Great thinkers of conservatism: Burke, Oakeshott, and Scruton](./assets/en/059.webp)
 
 ### A problematic flexibility
 
-![The problematic flexibility of conservative principles](./assets/en/054.webp)
+![The problematic flexibility of conservative principles](./assets/en/060.webp)
 
 Conservatism sometimes displays a troubling flexibility with regard to principles. During the 2008 financial crisis, George W. Bush declared: "I have abandoned free-market principles to save the free-market system." The following year, he added: "I have gone against my free-market instincts and approved a temporary government intervention." By intervening to bail out the major banks, Bush assumed **the conservative role of the state as ultimate guarantor of the national economy**, placing the power and continuity of the nation above the abstract principles of the market. This same logic can be found in Donald Trump's protectionist trade policies, pursued in the name of the national interest at the risk of fueling corporatism and crony capitalism.
 
 ### The emergence of neoconservatism
 
-![The emergence of neoconservatism and the paleoconservative reaction](./assets/en/055.webp)
+![The emergence of neoconservatism and the paleoconservative reaction](./assets/en/061.webp)
 
 From the 2000s onwards, neoconservatives became increasingly involved in justifying military interventionism to implant democracy around the world, particularly after the September 11, 2001 attacks. This policy of "nation-building" broke with the traditional prudence of conservatives in matters of foreign policy. In reaction, traditional conservatives claimed the label "paleoconservative" to distinguish themselves from neoconservatives. They criticize military interventionism, defend a more isolationist foreign policy, and **place greater emphasis on questions of national and cultural identity**.
 
@@ -694,9 +693,9 @@ This last quotation is fundamental for understanding the strong opposition of co
 The libertarian family distinguishes itself from all other political philosophies in a fundamental way: **it places at its center not the economy but ethics and law**. When libertarians defend the market economy, it is less for its capacity to produce wealth than for its promotion of individual freedom and responsibility.
 
 
-![Nolan Diagram showing libertarianism positioned at the top with strong freedoms in both societal and economic domains](./assets/en/057.webp)
+![Nolan Diagram showing libertarianism positioned at the top with strong freedoms in both societal and economic domains](./assets/en/062.webp)
 
-![The libertarian political family](./assets/en/056.webp)
+![The libertarian political family](./assets/en/063.webp)
 
 ### Freedoms and fundamental values
 
@@ -706,31 +705,31 @@ As the Nolan Diagram immediately shows, libertarians sit at the top of the frame
 - **Cardinal values:** legitimate private property, individual freedom, consent, responsibility. These values are intimately linked and entirely inseparable from one another.
 - **Philosophy and principles:** Libertarianism is first and foremost a philosophy of law. The fundamental idea, found as early as the seventeenth century in John Locke, is that every individual possesses inalienable rights to life, liberty, and property. These rights are not granted by government but are intrinsic to the human being. Self-ownership is the concept that each individual is the rightful owner of his or her own body and life. As Bastiat wrote, man is first the owner of himself, then the owner of the things he has acquired. The principle of laissez-faire is not the absence of norms; it is **a fundamental norm that must be defended, including by force**.
 - **Politics:** The principle of non-aggression postulates that a person is free to act as he or she wishes so long as no acts of violence are committed against the life, liberty, or property of another. This formulation recalls the golden rule found in all civilizations and religions: do not do unto others what you would not have them do unto you. Libertarians refuse to grant the state special permission to commit acts that most people would consider immoral if committed by individuals. In short, **there is a single moral code that applies to everyone, with no exceptions**. This naturally produces a deep suspicion of power, particularly state power, which can legally exercise coercion, including through the monopoly of monetary control. Taxation is qualified as theft or extortion, because it consists of seizing another's property without consent, in violation of the non-aggression principle.
-![Libertarian philosophy: self-ownership, non-aggression, and laissez-faire](./assets/en/059.webp)
+![Libertarian philosophy: self-ownership, non-aggression, and laissez-faire](./assets/en/064.webp)
 
 - **Economics:** Freedom of enterprise and exchange flows directly from self-ownership and from ownership of the fruits of one's labor. Freedom produces a spontaneous order, more just and more efficient because it results from individual action and responsibility. The free market stands in opposition to corporatism (a system in which the state collaborates with organized groups to regulate the economy, creating monopolies and regulatory protections). **the free market is the natural process by which individuals interact peacefully**, without relying on the force of law to obtain advantages.
 
 ### Historical evolution
 
-![The historical evolution of libertarian thought from classical liberalism](./assets/en/058.webp)
+![The historical evolution of libertarian thought from classical liberalism](./assets/en/065.webp)
 
 Libertarian ideas trace back to the eighteenth century with classical liberalism. The Physiocrats (Vincent de Gournay, Turgot, Quesnay), then Condillac, Jean-Baptiste Say, and Frederic Bastiat clearly formulated these principles. Over the course of the twentieth century, **a fundamental shift occurred with the progressive abandonment of laissez-faire principles** in favor of the welfare state and an increasingly regulated society. In response, classical liberals in the United States began calling themselves "libertarians" to distinguish themselves from American "liberalism," which had been co-opted by growing state interventionism. These libertarians recognized themselves in the [Austrian school of economics](https://planb.academy/resources/glossary/austrian-school), whose principal thinkers are Ludwig von Mises, Friedrich Hayek, and Murray Rothbard.
 
 ### Types of libertarians
 
-![Minarchists versus anarcho-capitalists: two tendencies within libertarianism](./assets/en/061.webp)
+![Minarchists versus anarcho-capitalists: two tendencies within libertarianism](./assets/en/066.webp)
 
 In the twentieth century, two major tendencies emerged, though the divergences between them rest more on empirical questions than on fundamental ethical disagreements:
 
-![Libertarian political principles: non-aggression, suspicion of power, and rejection of taxation](./assets/en/060.webp)
+![Libertarian political principles: non-aggression, suspicion of power, and rejection of taxation](./assets/en/067.webp)
 
 1. **Minarchists** consider that the powers of the state should be strictly limited to the defense of individual liberties. It is a minimal state regime (the "night-watchman state"), where power is legitimate only to ensure the core functions of police, justice, and territorial defense. Ron Paul is a prominent figure of this tendency: a physician and U.S. congressman who represented Texas for decades, he consistently voted against any bill that strayed from the Constitution, opposed all forms of foreign interventionism, and **championed the denationalization of money**, an idea advocated by Friedrich Hayek. Paul argues that the Federal Reserve is responsible for inflation and economic cycles through the manipulation of fiat money, and he has seen in Bitcoin a form of sound money that could replace the gold standard.
 
-![Ron Paul's minarchist doctrine and sound money principles](./assets/en/062.webp)
+![Ron Paul's minarchist doctrine and sound money principles](./assets/en/068.webp)
 
 2. **Anarcho-capitalists** consider that state functions should be privatized and managed entirely by the market. This is not a society without rules, authority, or laws, but **a society in which rules would be established through voluntary adhesion and consent**. There could be governments and state-like functions, but there would be no monopoly; competing enterprises would offer their services to clients. Key thinkers include Murray Rothbard (*For a New Liberty*, 1973), David Friedman (Milton Friedman's son, who takes a more pragmatic, utilitarian approach arguing that the market can provide all services more efficiently, including law and order), and Hans-Hermann Hoppe (a disciple of Rothbard who develops an approach based on argumentation ethics).
 
-![Key thinkers of anarcho-capitalism: Rothbard, Friedman, and Hoppe](./assets/en/064.webp)
+![Key thinkers of anarcho-capitalism: Rothbard, Friedman, and Hoppe](./assets/en/069.webp)
 
 ### Libertarian thought in quotations
 
@@ -740,7 +739,7 @@ In the twentieth century, two major tendencies emerged, though the divergences b
 > If you don't have the right to rob your neighbor, you shouldn't send the government to rob for you.
 > Ron Paul, 2008
 
-![Libertarian thought in quotations](./assets/en/063.webp)
+![Libertarian thought in quotations](./assets/en/070.webp)
 
 In other words, Rothbard underscores that libertarianism transcends the traditional left-right divide, and Paul highlights the rejection of the state as a tool of coercion. **the prohibition on theft applies not only to individuals but also to the state.**
 
@@ -754,9 +753,9 @@ In other words, Rothbard underscores that libertarianism transcends the traditio
 
 Centrism is more than a simple median position equidistant from all others. It is a genuine political philosophy, a method of governance that claims to be adapted to contemporary pluralist societies. It is an approach that **privileges efficiency, pragmatism, and tends toward a form of technocracy**: power should be entrusted to experts who must steer the economy and pilot monetary policy.
 
-![Nolan Diagram showing centrism positioned in the middle with moderate freedoms in both domains](./assets/en/066.webp)
+![Nolan Diagram showing centrism positioned in the middle with moderate freedoms in both domains](./assets/en/071.webp)
 
-![The centrist political family](./assets/en/065.webp)
+![The centrist political family](./assets/en/072.webp)
 
 ### Freedoms and cardinal values
 
@@ -764,7 +763,7 @@ The centrist approach is characterized by a constant search for balance between 
 
 - **Freedoms:** moderate in both the societal and economic spheres. In the societal domain, centrists aspire to reconcile governmental control and individual choice, favoring measured state intervention while preserving fundamental liberties. In the economic domain, freedoms are guaranteed but always tempered by a concern for social justice. Centrists are highly critical of laissez-faire, yet they remain both pro-business and favorable to correcting inequalities. An important distinction must be made here: being pro-business (as centrists tend to be) means favoring **a kind of alliance between large enterprises and the state**, which differs from being pro-market.
 - **Cardinal values:** moderation, compromise, adaptation, public utility.
-![Centrist philosophy: pragmatism and technocracy](./assets/en/067.webp)
+![Centrist philosophy: pragmatism and technocracy](./assets/en/073.webp)
 
 - **Philosophy:** Pragmatism is a political philosophy that privileges adaptation to particular contexts rather than the rigid application of ideological principles. This pragmatic thinking is founded on the idea that only technocrats are capable of making the right decisions to achieve the best socioeconomic results. In a technocratic governance model, political decisions arise from rationality and expertise rather than ideology or partisan debate. To calculate the utility of a decision, one must be able to measure all its consequences, and this requires expertise: sophisticated calculations, statistics, surveys, probabilities. Yet there is a paradox here: **this pragmatism itself rests on a form of dogmatism** (namely, that only experts are competent to steer society), a conviction that remains invisible and unexpressed.
 - **Politics:** Centrists seek to transcend traditional divisions (left versus right) through coalition governance, uniting moderate parties from the conservative right to the social-democratic and ecological left into a central group that **transcends the historical cleavages between left and right**. This method suits modern societies characterized by diversity. Bill Clinton in the United States was recognized for his ability to pass laws by winning votes from both Republicans and Democrats; Emmanuel Macron in France was elected twice by forming a broad center composed of all the moderates.
@@ -772,25 +771,25 @@ The centrist approach is characterized by a constant search for balance between 
 
 ### Targeted social programs
 
-![Centrist economic dirigisme: regulated free trade and targeted social programs](./assets/en/068.webp)
+![Centrist economic dirigisme: regulated free trade and targeted social programs](./assets/en/074.webp)
 
 Centrism recognizes the importance of **targeted social programs to correct inequalities without creating excessive dependence** on the state. This system of wealth redistribution aims less at dogmatic egalitarianism than at social peace and "living together."
 
 ### Is Keynesianism an economic centrism?
 
-![Emblematic centrist figures: Macron and Blair](./assets/en/069.webp)
+![Emblematic centrist figures: Macron and Blair](./assets/en/075.webp)
 
-![Tony Blair and the Third Way as a centrist model](./assets/en/070.webp)
+![Tony Blair and the Third Way as a centrist model](./assets/en/076.webp)
 
 John Maynard Keynes, the great English economist of the twentieth century who has dominated economic thought and practice in Western societies to this day, can indeed be seen as representing a form of centrism. His approach seeks a balance between classical liberalism (the free market) and dirigiste socialism (maximum planning).
 
 Rather than letting markets regulate themselves, Keynes argued that the state should use fiscal and monetary policies (public spending, taxation, interest rates) to stimulate aggregate demand in times of recession or curb it during periods of economic overheating. He is the originator of the well-known idea that consumption is good for growth.
 
-![Keynesianism as a third way between classical liberalism and dirigiste socialism](./assets/en/071.webp) But for this mechanism to work, **experts are needed to manipulate the right levers**: monetary levers like interest rates and money creation. To finance social spending, the state must be able to borrow, and for borrowing to be feasible, money must be available and not too costly, hence the importance of central banks in maintaining a certain inflation rate.
+![Keynesianism as a third way between classical liberalism and dirigiste socialism](./assets/en/077.webp) But for this mechanism to work, **experts are needed to manipulate the right levers**: monetary levers like interest rates and money creation. To finance social spending, the state must be able to borrow, and for borrowing to be feasible, money must be available and not too costly, hence the importance of central banks in maintaining a certain inflation rate.
 
 ### John Rawls: the philosophical dimension
 
-![John Rawls and the philosophical foundations of centrist justice](./assets/en/072.webp)
+![John Rawls and the philosophical foundations of centrist justice](./assets/en/078.webp)
 
 John Rawls, the eminent political philosopher and author of *A Theory of Justice* (1971), represents the theoretical dimension of centrism. His conception of social justice proposes **a pragmatic balance between individual liberties and corrective interventions against inequalities**.
 
@@ -819,7 +818,7 @@ What Keynes means here is that there are market failures (crises of overproducti
 
 We conclude our analysis of the great political families with totalitarian regimes, but here we are dealing with something fundamentally different. Totalitarianism is not, strictly speaking, a political philosophy; **it is rather the negation of all political philosophy**. This is what Hannah Arendt shows us when she draws the distinction between classical despotism and totalitarianism.
 
-![Totalitarian regimes: control and coercion over all aspects of life](./assets/en/073.webp)
+![Totalitarian regimes: control and coercion over all aspects of life](./assets/en/079.webp)
 
 ### Hannah Arendt's insight
 
@@ -827,11 +826,11 @@ In her major work *The Origins of Totalitarianism* (1951), Arendt writes: "Total
 
 According to Arendt, **totalitarianism is not a political family but the very negation of politics**, a system in which human beings are rendered incapable of independent action. Politics, in her conception, is the capacity of a people to take its destiny in hand and to act. In totalitarian regimes, this capacity is destroyed.
 
-![Nolan Diagram showing totalitarian regimes at the bottom with suppressed freedoms in both domains](./assets/en/074.webp)
+![Nolan Diagram showing totalitarian regimes at the bottom with suppressed freedoms in both domains](./assets/en/080.webp)
 
 ### Definition and fundamental characteristics
 
-![The common matrix of totalitarianism: beyond left-right opposition](./assets/en/075.webp)
+![The common matrix of totalitarianism: beyond left-right opposition](./assets/en/081.webp)
 
 Mussolini declared in 1920: "Everything in the State, nothing outside the State, nothing against the State." This reveals precisely what "totalitarian" means: totality. Everything is absorbed into the state, meaning **there is no longer any separation between public and private space**. The state entirely absorbs society, which at that point loses all form of autonomy. If you want to open a table tennis club, you need the party's authorization. And this extends to absolutely everything, including the intimate life of the family.
 
@@ -842,13 +841,13 @@ Mussolini declared in 1920: "Everything in the State, nothing outside the State,
 
 ### The pillars of totalitarian control
 
-![Definition and fundamental characteristics of totalitarianism](./assets/en/076.webp)
+![Definition and fundamental characteristics of totalitarianism](./assets/en/082.webp)
 
 Totalitarianism is present when **all of the following characteristics are assembled simultaneously**: suppressed freedoms, unlimited authority founded on the single party and the cult of the leader, violent revolution, and a directed economy. This was already the case with the French Revolution, which is why some historians have identified a totalitarian dimension within it. It is important to note that modern democracies may exhibit some of these characteristics, but never all of them at the same time (at least, fortunately, not until now).
 
 ### Two models, one method: Hitler versus Stalin
 
-![Hitler versus Stalin: two models sharing identical methods](./assets/en/077.webp)
+![Hitler versus Stalin: two models sharing identical methods](./assets/en/083.webp)
 
 The differences between Nazism and communism are more apparent than real. Despite their historical antagonism, Hitler and Stalin employed identical methods: the cult of personality, total social control through surveillance, censorship, indoctrination, and political policing, and **the systematic elimination of all forms of opposition or dissent**. As Raymond Aron, an astute observer of twentieth-century totalitarian regimes, wrote: "Nazi or communist totalitarianisms function in the same way, on two principles: the faith of the militants and the fear of the opponents." He speaks of "faith" in a quasi-religious sense; totalitarian regimes have been called secular religions, religions without God. A kind of fanaticism characterizes them beyond their different motivations.
 
@@ -860,7 +859,7 @@ As Thierry Wolton, who has studied the comparison between these two regimes exte
 
 ### Totalitarian thought in quotations
 
-![Totalitarian thought: rejection of individual freedom in favor of centralized authority](./assets/en/078.webp)
+![Totalitarian thought: rejection of individual freedom in favor of centralized authority](./assets/en/084.webp)
 
 > The people do not need freedom, for freedom is one of the forms of bourgeois dictatorship.
 > Vladimir Lenin, *What Is to Be Done?*, 1902
@@ -886,7 +885,7 @@ These quotations reveal the common logic of totalitarian regimes: **the rejectio
 
 
 
-![Comparative analysis of societal debates across political families](./assets/en/079.webp)
+![Comparative analysis of societal debates across political families](./assets/en/085.webp)
 
 After analyzing the major political families, we now turn to a series of debates on societal issues, followed by economic issues. The goal here is to offer a comparative analysis of socialist, conservative, libertarian, and centrist positions on five fundamental questions of society: marriage, immigration, firearms, drugs, and the tax on sugary drinks.
 
@@ -895,7 +894,7 @@ Societal issues are not about money. They concern the choices we make about what
 
 ### Marriage
 
-![The marriage debate across political families](./assets/en/080.webp)
+![The marriage debate across political families](./assets/en/086.webp)
 
 **Question:** Should the government legalize gay marriage in the same way as traditional marriage?
 
@@ -919,7 +918,7 @@ Centrists recognize the evolution of society and hold that the principle of non-
 
 ### Immigration
 
-![The immigration debate across political families](./assets/en/081.webp)
+![The immigration debate across political families](./assets/en/087.webp)
 
 **Question:** Should the government open the borders unconditionally?
 
@@ -943,7 +942,7 @@ Immigration allows employers to hire workers in sectors facing shortages, and op
 
 ### Firearms
 
-![The firearms debate across political families](./assets/en/082.webp)
+![The firearms debate across political families](./assets/en/088.webp)
 
 **Question:** Should law-abiding citizens be able to own firearms without strict regulation?
 
@@ -967,7 +966,7 @@ Regulation is essential. While the right to own firearms may exist for certain u
 
 ### Drugs
 
-![The drug legalization debate across political families](./assets/en/083.webp)
+![The drug legalization debate across political families](./assets/en/089.webp)
 
 **Question:** Should adults be allowed to use drugs freely for recreational purposes?
 
@@ -991,7 +990,7 @@ Centrists want to know with certainty whether liberalization would unclog the ju
 
 ### Sugary drinks tax
 
-![The sugary drinks tax debate across political families](./assets/en/084.webp)
+![The sugary drinks tax debate across political families](./assets/en/090.webp)
 
 **Question:** Should the government tax sugary drinks to reduce obesity?
 
@@ -1020,14 +1019,14 @@ Yes, if effectiveness is proven. In other words, centrists demand concrete evide
 
 
 
-![Comparative analysis of economic debates across political families](./assets/en/085.webp)
+![Comparative analysis of economic debates across political families](./assets/en/091.webp)
 
 After the societal questions, we now turn to economic questions. These concern money: employment, buying and selling, investments, commercial transactions, and the law as well. We will examine the answers of each major political family on five fundamental issues: taxes, the minimum wage, healthcare, the environment, and subsidies. As before, these quick answers offer only a glimpse of each point of view.
 
 
 ### Taxes
 
-![The taxation debate across political families](./assets/en/086.webp)
+![The taxation debate across political families](./assets/en/092.webp)
 
 **Question:** Should income taxes be reduced or replaced by simpler, lower forms of taxation?
 
@@ -1051,7 +1050,7 @@ A certain degree of progressivity is necessary for solidarity, but taxes that ar
 
 ### Minimum wage
 
-![The minimum wage debate across political families](./assets/en/087.webp)
+![The minimum wage debate across political families](./assets/en/093.webp)
 
 **Question:** Should minimum wage laws be abolished to allow free negotiation between employers and workers?
 
@@ -1075,7 +1074,7 @@ For centrists, the decision must rest on technical analysis. Yes, if the minimum
 
 ### Healthcare
 
-![The healthcare debate across political families](./assets/en/088.webp)
+![The healthcare debate across political families](./assets/en/094.webp)
 
 **Question:** Should healthcare be entrusted to private markets rather than government programs?
 
@@ -1099,7 +1098,7 @@ A mixed system is often the best approach. The state guarantees universal access
 
 ### The environment
 
-![The environment debate across political families](./assets/en/089.webp)
+![The environment debate across political families](./assets/en/095.webp)
 
 **Question:** Should environmental regulations be limited to allow companies to self-regulate?
 
@@ -1123,7 +1122,7 @@ Self-regulation is not enough. Environmental regulations are necessary to protec
 
 ### Subsidies
 
-![The subsidies debate across political families](./assets/en/090.webp)
+![The subsidies debate across political families](./assets/en/096.webp)
 
 **Question:** Should companies be deprived of subsidies and rescue plans?
 
@@ -1158,7 +1157,7 @@ Subsidies should be targeted and temporary, justified by a general interest (inn
 
 
 
-![Philosophical divergences between political families](./assets/en/091.webp)
+![Philosophical divergences between political families](./assets/en/097.webp)
 
 When we compare the different political families, points of convergence certainly emerge, but so do deep incompatibilities. This is especially visible when we set libertarians alongside other ideological profiles: conservatives, socialists, centrists. In this part of the course, we will explore a series of philosophical divergences that reveal the true fault lines running through political thought.
 
@@ -1170,7 +1169,7 @@ Let us begin with the most fundamental question: the nature of freedom itself.
 
 To understand what separates libertarians from all other political families, we must start with a distinction introduced by one of the great French liberal thinkers. In his 1849 work *Les Soirees de la rue Saint-Lazare*, Gustave de Molinari, a disciple of Frederic Bastiat, stages a dialogue between three characters, each representing a political family: the socialist, the conservative, and the economist.
 
-![Molinari's three political figures: the socialist, the conservative, and the economist](./assets/en/092.webp)
+![Molinari's three political figures: the socialist, the conservative, and the economist](./assets/en/098.webp)
 
 What Molinari demonstrates through these dialogues is striking. **The economist stands in permanent disagreement with both the socialist and the conservative.** He is the only one who defends freedom as a fundamental principle, one that is not subordinated to any other objective. The socialist wants to reform society according to progressive ideals; the conservative wants to preserve society in its current state. Both are willing to restrict freedoms and call on the state to impose their respective agendas.
 
@@ -1178,7 +1177,7 @@ Molinari's vision proved prophetic. Since his time, in the mid-nineteenth centur
 
 ### The conservative view: order before freedom
 
-![The conservative conception of freedom conditioned by order and tradition](./assets/en/093.webp)
+![The conservative conception of freedom conditioned by order and tradition](./assets/en/099.webp)
 
 For conservatives, order and tradition take precedence over freedom. Too much freedom, they argue, generates chaos and social disorder. Freedom can be valued, but only once order has been firmly established.
 
@@ -1186,7 +1185,7 @@ In practice, this means that **freedom must be limited and cannot be left to ope
 
 ### The socialist view: justice before freedom
 
-![The socialist conception of freedom linked to social justice and equality](./assets/en/094.webp)
+![The socialist conception of freedom linked to social justice and equality](./assets/en/100.webp)
 
 For socialists, social justice comes before individual freedom. Freedom is understood not as independence from constraint, but as the capacity to act, a capacity that presupposes equitable material and social conditions.
 
@@ -1194,7 +1193,7 @@ In other words, **one is not truly free if one lacks food or access to essential
 
 ### The centrist view: efficiency before freedom
 
-![The centrist instrumental conception of freedom](./assets/en/095.webp)
+![The centrist instrumental conception of freedom](./assets/en/101.webp)
 
 Centrists defend certain freedoms, but in an opportunistic and contextual manner, without applying any general principle of decision. They adapt their positions according to specific challenges and the compromises required for achieving results efficiently.
 
@@ -1202,7 +1201,7 @@ Consider, for example, the Green New Deal: centrists may push strongly for wind 
 
 ### The libertarian view: freedom as axiom
 
-![The libertarian view of freedom as an unconditional principle](./assets/en/096.webp)
+![The libertarian view of freedom as an unconditional principle](./assets/en/102.webp)
 
 Libertarians define freedom as a general, unconditional principle of action and decision. It functions as an axiom from which everything else follows. Freedom must be posited at the outset as a fundamental right and, simultaneously, as a duty: **the right not to be aggressed against, and the responsibility not to aggress against others**, with restitution required in cases of fault.
 
@@ -1222,13 +1221,13 @@ Here lies a crucial nuance. Libertarians can agree with socialists, conservative
 
 
 
-![Spontaneous order versus constructed order](./assets/en/097.webp)
+![Spontaneous order versus constructed order](./assets/en/103.webp)
 
 Another major fault line divides those who believe the political process is superior to the market process from those who hold the opposite view. The first group defends a constructed order, designed from the top down. The second defends a spontaneous order, emerging from the bottom up. This distinction is fundamental to understanding political sensibilities, and it places libertarians against virtually every other family.
 
 ### Constructivism: a transpartisan consensus
 
-![Constructivism as a shared conviction among centrists, conservatives, and socialists](./assets/en/098.webp)
+![Constructivism as a shared conviction among centrists, conservatives, and socialists](./assets/en/104.webp)
 
 Constructivism is not the monopoly of any single political camp. It unites centrists, conservatives, and socialists around a shared conviction: **the superiority of the political process over the market process.** For all these currents, the state is better equipped to organize society in a just and efficient manner. They privilege central planning, though to varying degrees depending on the family.
 
@@ -1236,7 +1235,7 @@ If we summarize constructivism in a single sentence: it is the belief that a cen
 
 ### Hayek's analysis of constructivism
 
-![Hayek's critique of constructivism and central planning](./assets/en/099.webp)
+![Hayek's critique of constructivism and central planning](./assets/en/105.webp)
 
 To understand what is at stake, we can follow the analysis of Friedrich Hayek. Constructivists believe firmly that it is possible to build a society that conforms to their wishes and ideals. They consider deliberate, planned intervention necessary to shape society according to their vision, whether conservative or progressive.
 
@@ -1246,7 +1245,7 @@ But Hayek shows that beyond this philosophical question, there is a practical im
 
 ### Spontaneous order: organization from below
 
-![Spontaneous order as the product of free individual interactions](./assets/en/100.webp)
+![Spontaneous order as the product of free individual interactions](./assets/en/106.webp)
 
 Spontaneous order is not an argument against organization. On the contrary, for Hayek, it is one of the most powerful engines of economic and social progress. It is defined as the product of the free interactions of individuals in society, resulting from human action but not from deliberate human design.
 
@@ -1260,7 +1259,7 @@ Commodity money: from shells to metals, gold emerged as the best money chosen by
 
 ### The knowledge problem
 
-![The dispersed nature of knowledge according to Hayek](./assets/en/101.webp)
+![The dispersed nature of knowledge according to Hayek](./assets/en/107.webp)
 
 Hayek's fundamental argument in favor of spontaneous order rests on the nature of information. In a 1945 article, *The Use of Knowledge in Society*, he wrote:
 
@@ -1276,7 +1275,7 @@ When the state fixes prices, because it knows only a small part of consumer pref
 
 ### The free market as genuine regulation
 
-![The free market as the true regulator of society](./assets/en/102.webp)
+![The free market as the true regulator of society](./assets/en/108.webp)
 
 For libertarians, the true regulation of society is not democracy (which has its uses as a mode of designating representatives) **but first and foremost the free market**.
 
@@ -1288,7 +1287,7 @@ The market serves three essential functions:
 
 ### Pro-business versus pro-market
 
-![The distinction between pro-business and pro-market positions](./assets/en/103.webp)
+![The distinction between pro-business and pro-market positions](./assets/en/109.webp)
 
 It is important to distinguish clearly between pro-business and pro-market, two positions that are often confused.
 
@@ -1300,7 +1299,7 @@ The difference is significant. Pro-business advocates often seek an alliance wit
 
 ### The libertarian position
 
-![The libertarian defense of voluntary exchange over organized constraint](./assets/en/104.webp)
+![The libertarian defense of voluntary exchange over organized constraint](./assets/en/110.webp)
 
 In conclusion, libertarians find themselves somewhat alone against the other political families, all of which are constructivist. Libertarians hold that **society organizes itself naturally through spontaneous mechanisms of coordination**, and that voluntary cooperation remains superior to organized constraint, even when well-intentioned, for building a just and prosperous society.
 
@@ -1318,7 +1317,7 @@ All of this, however, requires that rights and duties be clearly defined. The ma
 
 
 
-![Individualism versus collectivism](./assets/en/105.webp)
+![Individualism versus collectivism](./assets/en/111.webp)
 
 A further line of cleavage between political families concerns the relationship between the individual and society. Is the collectivity an end or a means for the individual? And inversely, is the individual an end or a means for the collective? These two questions define the opposition between individualism and collectivism.
 
@@ -1338,7 +1337,7 @@ Another point Mises emphasizes: the individual is not an isolated atom. Individu
 
 ### Kant and moral autonomy
 
-![Kant and the Enlightenment principle of moral autonomy](./assets/en/106.webp)
+![Kant and the Enlightenment principle of moral autonomy](./assets/en/112.webp)
 
 This individualism has deep roots, traceable to Christianity, to Greek and Roman philosophy. But let us cite the Enlightenment philosopher Immanuel Kant. For him, individualism defends the capacity and the right of individuals to judge for themselves, to choose their own objectives, and to act accordingly.
 
@@ -1360,7 +1359,7 @@ The collectivity becomes the priority. Collective objectives surpass individual 
 
 ### Marx and historical materialism
 
-![Marx and the primacy of social existence over individual consciousness](./assets/en/107.webp)
+![Marx and the primacy of social existence over individual consciousness](./assets/en/113.webp)
 
 A major thinker of collectivism is Karl Marx, who justified the superiority of the collective over the individual through what he called historical materialism:
 
@@ -1378,7 +1377,7 @@ The spectrum ranges from social democracy to National Socialism, but **these doc
 
 ### Popper's open and closed societies
 
-![Karl Popper's distinction between open and closed societies](./assets/en/108.webp)
+![Karl Popper's distinction between open and closed societies](./assets/en/114.webp)
 
 Karl Popper, the Austrian-born philosopher who emigrated first to New Zealand and then to Britain, analyzed these oppositions with particular clarity in *The Open Society and Its Enemies*:
 
@@ -1388,13 +1387,13 @@ Two models of society, two principles of social organization entirely at odds wi
 
 ### Totalitarianism as the modern closed society
 
-![Totalitarianism as the radical modern form of the closed society](./assets/en/109.webp)
+![Totalitarianism as the radical modern form of the closed society](./assets/en/115.webp)
 
 Totalitarianism is the modern expression of the closed society. It represents the most radical form, relying on dogmatic ideology that leads to systematic censorship, state propaganda, cult of the leader, and mechanisms of control and surveillance. The individual does not exist as such; there is **a form of dehumanization in which the individual loses his roots**, his memory, and his beliefs, becoming totally absorbed by the community and therefore easily manipulated.
 
 ### The fragility of the open society
 
-![The inherent fragility of the open society](./assets/en/110.webp)
+![The inherent fragility of the open society](./assets/en/116.webp)
 
 Popper emphasizes with great pertinence that **the open society remains inherently fragile.** This society that favors critical thinking, individual freedom, and responsibility can easily slide into collectivism through a fascination with authority.
 
@@ -1413,7 +1412,7 @@ Why? Perhaps through a lack of security. The responsibility that individualism i
 
 
 
-![Bitcoin as a political project](./assets/en/111.webp)
+![Bitcoin as a political project](./assets/en/117.webp)
 
 In this final part of the course, we turn to Bitcoin. What is its nature? Is it a political project? Is it right-wing, left-wing, or something else entirely? And what is the political tendency of those who use it? These are the questions we must now address.
 
@@ -1423,33 +1422,33 @@ Bitcoin is a decentralized [cryptocurrency](https://planb.academy/resources/glos
 
 It is governed by an [open source](https://planb.academy/resources/glossary/foss) software protocol. There is no CEO, no head office, no marketing plan, no designated authority. **No company stands behind Bitcoin, and no political entity or government controls it.**
 
-### An apparently neutral technology
+#### An apparently neutral technology
 
-![The decentralized nature of Bitcoin: no CEO, open source, peer-to-peer](./assets/en/112.webp)
+![The decentralized nature of Bitcoin: no CEO, open source, peer-to-peer](./assets/en/118.webp)
 
 This decentralized nature can create the impression that Bitcoin is simply a technological innovation, neutral and apolitical, comparable to the Internet in the twentieth century or the printing press in the fourteenth. Yet we already know that both the Internet and the printing press, despite being technological innovations, **had profound social, economic, and political consequences**.
 
 The same is true of Bitcoin, and Satoshi Nakamoto left us messages to make his intention clear.
 
-### The flaw in the fiat system
+#### The flaw in the fiat system
 
 > The fundamental problem with conventional currencies is the trust that has to be placed in them for them to work. You have to trust the central bank not to devalue the currency, but the history of fiat currencies is full of violations of this trust.
 
 This quote from Satoshi Nakamoto is essential to understanding the philosophy behind Bitcoin. Fiat currencies are currencies not backed by a commodity, by something real and physical. They are paper money resting entirely on the authority of the institution that imposes them, and therefore on trust. **When an institution holds total control over money, the temptation to abuse is too strong.** History has shown this repeatedly.
 
-### The genesis block message
+#### The genesis block message
 
 **Bitcoin was born in direct reaction to the 2008 financial crisis** and the monetary interventionism that followed. In the first block ever mined, Satoshi Nakamoto inserted a symbolic headline from the London Times:
 
 > The Times 03/Jan/2009 Chancellor on the brink of a second bank bailout.
 
-![Genesis Block Title](./assets/en/114.webp)
+![Genesis Block Title](./assets/en/119.webp)
 
 The intention is unmistakable: to offer an alternative to centralized banking systems.
 
-### The devastating consequences of monetary interventionism
+#### The devastating consequences of monetary interventionism
 
-![The devastating consequences of monetary inflation and fiat currency crises](./assets/en/115.webp)
+![The devastating consequences of monetary inflation and fiat currency crises](./assets/en/120.webp)
 
 Each time a crisis shakes the financial world, or a global event like the Covid-19 pandemic strikes, billions upon billions of dollars and euros are created to bail out banks, businesses, or individuals. These rescue plans have devastating consequences.
 
@@ -1457,11 +1456,11 @@ The injection of money into the system (monetary inflation) translates into a de
 
 The consequences follow logically: impoverishment of the middle class (while the wealthy can capture new money entering the system through banks and place it in speculative assets), fear of the future, social and political tensions, insecurity, and more broadly, a loss of trust in traditional institutions. This flood of money can also feed political and financial corruption, cronyism between the state and large corporations, and growing bureaucracy.
 
-![Bitcoin Whitepaper Abstract](./assets/en/113.webp)
+![Bitcoin Whitepaper Abstract](./assets/en/121.webp)
 
 ### Bitcoin as a project of social transformation
 
-![Bitcoin as a tool for limiting government power and emancipating individuals](./assets/en/116.webp)
+![Bitcoin as a tool for limiting government power and emancipating individuals](./assets/en/122.webp)
 
 **Bitcoin therefore goes far beyond a simple financial or technological innovation.** It was conceived with three aims:
 
@@ -1469,15 +1468,15 @@ The consequences follow logically: impoverishment of the middle class (while the
 2. **To emancipate the individual**, restoring control over one's patrimony and one's life. A government can take the euros from your bank account, your house, your shares, your gold. But it cannot take your bitcoins, because Bitcoin, through its decentralized nature, escapes surveillance and control. You hold it yourself, depending on no trusted third party.
 3. **To protect against [inflation](https://planb.academy/resources/glossary/inflation).** Bitcoin is a deflationary currency; its supply is limited to 21 million units, and no institution, bank, or government can create more. Its value derives from both its utility and its scarcity.
 
-### Bitcoin as individual sovereignty
+#### Bitcoin as individual sovereignty
 
-![Bitcoin individual sovereignty](./assets/en/117.webp)
+![Bitcoin individual sovereignty](./assets/en/123.webp)
 
 In traditional finance, one cannot truly possess one's own assets. What we hold are always claims on financial intermediaries. **We depend entirely on banking institutions.** With Bitcoin, we have direct and sovereign ownership of our holdings. It is simply the act of being one's own banker, holding the private keys that give access to one's bitcoins. If we hold our own keys, no one can confiscate them, because they reside in our minds.
 
-### A threat to the welfare state
+#### A threat to the welfare state
 
-![Bitcoin as a challenge to the welfare state's fiscal and monetary monopoly](./assets/en/118.webp)
+![Bitcoin as a challenge to the welfare state's fiscal and monetary monopoly](./assets/en/124.webp)
 
 Bitcoin also represents a challenge to the welfare state: a state that spends beyond its revenues to satisfy demands for economic and social rights (social security, unemployment benefits, pensions). Bitcoin calls into question the three pillars on which this system rests:
 
@@ -1487,13 +1486,13 @@ Bitcoin also represents a challenge to the welfare state: a state that spends be
 
 Consider the allegory of the cave, updated for our monetary age. Deep inside the cave, prisoners watch shadows on the wall and see the euro, imagining it to be the only possible currency, trusting the authority that issues it. Then some prisoners escape into the open air and discover Bitcoin. **Bitcoin is a way out, a means of emancipation from the cave of monetary illusions.**
 
-### Protection for dissidents and victims of oppression
+#### Protection for dissidents and victims of oppression
 
 Bitcoin also serves as protection for dissidents and victims of oppression in countries experiencing war, dictatorship, or hyperinflation. This may seem remote to those of us in modern democracies, but **this capacity for censorship resistance and reinforced privacy is a precious advance** for individual freedoms.
 
 ### A moral project with political consequences
 
-![Bitcoin as a moral project: property, work, and privacy](./assets/en/119.webp)
+![Bitcoin as a moral project: property, work, and privacy](./assets/en/125.webp)
 
 To conclude: **Bitcoin was not designed to make people rich, but to make them free.** It is not right-wing or left-wing. It is first and foremost a moral project with political consequences. One can embrace Bitcoin regardless of political affiliation, because it is tied to no ideology, no country, no religion.
 
@@ -1511,21 +1510,21 @@ But Bitcoin did not appear out of nowhere. It rests on advances in mathematics, 
 
 
 
-![The Cypherpunks: pioneers of digital freedom](./assets/en/120.webp)
+![The Cypherpunks: pioneers of digital freedom](./assets/en/126.webp)
 
 The cypherpunks are the pioneers of a movement defending human freedom in the digital age. Bitcoin's intellectual roots cannot be understood without them.
 
 ### The context of the 1990s
 
-![The emergence of the cypherpunk movement in the 1990s digital revolution](./assets/en/121.webp)
+![The emergence of the cypherpunk movement in the 1990s digital revolution](./assets/en/127.webp)
 
 At the beginning of the 1990s, the context was distinctive. Businesses and governments were beginning to exert increasing control over information technologies and the emerging Internet. This period marked the rapid development of these technologies, but also a growing anxiety about mass surveillance and the systematic violation of citizens' privacy.
 
 Faced with this anxiety, libertarian and anarchist thinkers came together to act. Their vision was clear: **to make anonymity and financial freedom accessible to everyone through digital cryptographic tools**, thereby escaping government control. They set out to develop technologies that would allow citizens to preserve their privacy and autonomy in their everyday online activities.
 
-### The mailing list and the manifesto
+#### The mailing list and the manifesto
 
-![The cypherpunk vision: anonymity, freedom, and cryptographic resistance](./assets/en/122.webp)
+![The cypherpunk vision: anonymity, freedom, and cryptographic resistance](./assets/en/128.webp)
 
 In 1992, Tim May and Eric Hughes launched the first Cypherpunk mailing list. This platform quickly became the movement's nerve center, bringing together developers, cryptographers, and advocates of digital freedom. It was on this same list that Satoshi Nakamoto would share the Bitcoin [White Paper](https://planb.academy/resources/glossary/white-paper) for the first time in 2008.
 
@@ -1536,11 +1535,11 @@ In March 1993, Eric Hughes published *A Cypherpunk's Manifesto*, a relatively sh
 
 > Eric Hughes, A Cypherpunk's Manifesto, March 23, 1993.
 
-![The cypherpunk founders and the 1993 manifesto](./assets/en/123.webp)
+![The cypherpunk founders and the 1993 manifesto](./assets/en/129.webp)
 
 The fundamental motivation is clear: **confidentiality is a key element of freedom, and it must be built by individuals themselves**, not awaited as a gift from corporations or governments.
 
-### Philosophy: [cryptography](https://planb.academy/resources/glossary/cryptography) over institutions
+#### Philosophy: [cryptography](https://planb.academy/resources/glossary/cryptography) over institutions
 
 The cypherpunks place their trust in decentralized cryptographic systems rather than in centralized institutions such as banks or governments. This is a principle that reappears directly in Satoshi Nakamoto's design for Bitcoin.
 
@@ -1548,7 +1547,7 @@ Politically, they seek to build decentralized networks where decisions are made 
 
 The manifesto also states that confidentiality in an open society requires anonymous transaction systems. Until now, cash has been the primary system of this type. But in a digital society where cash is disappearing, **a digital currency with the same properties of anonymity must be invented.** And that is precisely what would arrive with Bitcoin.
 
-### "Cypherpunks write code"
+#### "Cypherpunks write code"
 
 The cypherpunks do not content themselves with hopes. They actively intervene to create spaces of freedom and autonomy. Hence the formula that concludes the manifesto:
 
@@ -1558,13 +1557,13 @@ For Eric Hughes, the path to freedom passes through the active construction of a
 
 ### The legacy: Bitcoin as cypherpunk achievement
 
-![Cypherpunk legacy and Bitcoin](./assets/en/125.webp)
+![Cypherpunk legacy and Bitcoin](./assets/en/130.webp)
 
 From 2008 onward, Bitcoin became the first successful concretization of an electronic currency that is uncensorable and sovereign. It offers a decentralized, pseudonymous monetary alternative that is difficult for authorities to control. Whether adopted by right-wing or left-wing activists, by defenders of freedom or equality, or simply by savers with no political label, **it gives every individual the possibility of emancipating from the traditional financial system** and regaining mastery over their money, and therefore over their freedom.
 
 From this point of view, without explicitly claiming to belong to any political camp, Bitcoin bears the seeds of a silent revolution and joins the top of the dial in Nolan's diagram.
 
-![Bitcoin on the political diagram](./assets/en/124.webp)
+![Bitcoin on the political diagram](./assets/en/131.webp)
 
 
 ## Who should decide?
@@ -1584,7 +1583,7 @@ The right way to think about politics is to start from ethical principles rather
 
 On a more general level, the philosophical question is this: *should social organization be the product of a deliberate plan devised and imposed by the political class, or the result of a free evolution that emerges from voluntary interactions between all the players in economic and social life?*
 
-### An ignored political family: the libertarians
+#### An ignored political family: the libertarians
 
 This new political divide, based on opposition between principles, brings to light a political family that is very real but often ignored by the general public: the libertarians.
 
@@ -1592,7 +1591,7 @@ From a libertarian point of view, **individuals have both the right and the resp
 
 But why should some impose their lifestyle and worldview on others?
 
-### Freedom as the framework for coexistence
+#### Freedom as the framework for coexistence
 
 In a genuine regime of freedom, those who adhere to the ideals of the left can live according to their principles. They are free to give up their possessions, to share the means of production they own, or to donate their wages to an organization of their choice, which could redistribute these funds to the most disadvantaged or support cultural initiatives and businesses that promote employment.
 

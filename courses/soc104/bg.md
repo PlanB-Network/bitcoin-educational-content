@@ -31,8 +31,6 @@ objectives:
 
 ## Капанът на разделението дясно-ляво
 
-
-
 <chapterId>8aef3eca-aa4c-405a-8b32-7fd7993b3e04</chapterId>
 
 

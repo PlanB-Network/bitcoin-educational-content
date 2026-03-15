@@ -10,9 +10,9 @@ objectives:
 
 ---
 
-Does your political positioning boil down to right or left? This course proposes a different framework: **the fundamental Freedom-Coercion axis**. Using the Nolan Diagram, we analyze political families — socialists, conservatives, centrists, and libertarians — **not by their stated intentions, but by their confidence in government control**. Discover the logic of spontaneous order, explore the real philosophical fault lines, and **learn to define your own values** beyond traditional labels.
+Does your political positioning boil down to right or left? This course proposes a different framework: the fundamental Freedom-Coercion axis. Using the Nolan Diagram, we analyze political families — socialists, conservatives, centrists, and libertarians — not by their stated intentions, but by their confidence in government control. Discover the logic of spontaneous order, explore the real philosophical fault lines, and learn to define your own values beyond traditional labels.
 
-This course also reveals why **Bitcoin is a political project inherited from the Cypherpunks**. A decentralizing force that opposes state currency, Bitcoin redefines the essential political question: **do you decide your life, or does someone else?**
+This course also reveals why Bitcoin is a political project inherited from the Cypherpunks. A decentralizing force that opposes state currency, Bitcoin redefines the essential political question: **do you decide your life, or does someone else?**
 
 
 
@@ -487,9 +487,12 @@ One should not confuse libertarians with *libertaires* or with libertines. Liber
 
 
 
+
+We now enter the heart of our analysis of political families. Before examining each one in detail, however, we must address a fundamental question: how should we define a political system? Take socialism as an example. 
+
 ![Political families under the microscope: structural analysis](./assets/en/034.webp)
 
-We now enter the heart of our analysis of political families. Before examining each one in detail, however, we must address a fundamental question: how should we define a political system? Take socialism as an example. Should we define it by its stated intentions (justice, well-being, emancipation), or should we instead define it by its fundamental structure, namely **whether it gives primacy to the individual or to the state**?
+Should we define it by its stated intentions (justice, well-being, emancipation), or should we instead define it by its fundamental structure, namely **whether it gives primacy to the individual or to the state**?
 
 ### The trap of intentional definitions
 
@@ -522,14 +525,10 @@ Structural analysis serves as a critical tool. It allows us to evaluate politica
 
 <chapterId>1ef34d7b-f813-458c-934c-1d404f882150</chapterId>
 
-
-
-
-![Nolan Diagram showing socialism positioned with strong societal freedoms but weak economic freedoms](./assets/en/038.webp)
+Socialism is a political and economic movement, and indeed a doctrine, that emerged in the nineteenth century with the critique of social inequalities and the alienation of workers in large-scale industry. From its very origins, it is also clearly an anti-capitalist movement, even though, as we shall see, modern socialists have progressively introduced moderations and compromises into their principles.
 
 ![The socialists: principles and variants](./assets/en/037.webp)
 
-Socialism is a political and economic movement, and indeed a doctrine, that emerged in the nineteenth century with the critique of social inequalities and the alienation of workers in large-scale industry. From its very origins, it is also clearly an anti-capitalist movement, even though, as we shall see, modern socialists have progressively introduced moderations and compromises into their principles.
 
 ### Freedoms in the socialist framework
 
@@ -540,6 +539,8 @@ In socialist thought, freedoms are not considered uniformly. One observes **a fu
 - **Philosophy and principles:** Primacy of collective organization. Socialism is a practice rooted in a holistic vision of society (holism), expressed through the state. The term "holism" comes from the Greek *holos*, meaning "the whole." The socialist state aims to take charge of and direct human activity to the maximum. Socialists have an almost unlimited faith in the possibility of building a new social order based on reason, what Hayek called "constructivism."
 - **Politics:** Socialists advocate health programs, regulatory capture, tax increases, and subsidies to guarantee equity. This implies economic and social state direction, planning (the organization of production upstream). The most radical and fully realized socialism is totalitarian, as the state takes charge of all human activity.
 - **Economics:** Socialism implies strong state control of the economy, in favor of equity. Socialists are suspicious of free markets, which they see as blind, instinctive forces. They favor wealth redistribution, centralized social programs, and progressive taxation that increases proportionally with income and becomes punitive for those who earn or produce wealth.
+
+![Nolan Diagram showing socialism positioned with strong societal freedoms but weak economic freedoms](./assets/en/038.webp)
 
 ### Historical evolution
 
@@ -613,11 +614,10 @@ These quotations illustrate the noble intentions behind socialist thought. Yet *
 <chapterId>4e068cd8-a5c3-44f8-ac77-309f249a59eb</chapterId>
 
 
+Like every political family, conservatism is not a unified doctrine. It has adapted to different epochs and different cultures, and there are substantial differences between Anglo-Saxon conservatism and its continental European counterpart.
 
 
 ![Nolan Diagram showing conservatism positioned with strong economic freedoms but weak societal freedoms](./assets/en/046.webp)
-
-Like every political family, conservatism is not a unified doctrine. It has adapted to different epochs and different cultures, and there are substantial differences between Anglo-Saxon conservatism and its continental European counterpart.
 
 ![Conservatism: principles, values, and evolution](./assets/en/045.webp)
 
@@ -691,14 +691,12 @@ This last quotation is fundamental for understanding the strong opposition of co
 
 <chapterId>9ca743de-537b-42fb-87d2-212d5f478b22</chapterId>
 
-
+The libertarian family distinguishes itself from all other political philosophies in a fundamental way: **it places at its center not the economy but ethics and law**. When libertarians defend the market economy, it is less for its capacity to produce wealth than for its promotion of individual freedom and responsibility.
 
 
 ![Nolan Diagram showing libertarianism positioned at the top with strong freedoms in both societal and economic domains](./assets/en/057.webp)
 
 ![The libertarian political family](./assets/en/056.webp)
-
-The libertarian family distinguishes itself from all other political philosophies in a fundamental way: **it places at its center not the economy but ethics and law**. When libertarians defend the market economy, it is less for its capacity to produce wealth than for its promotion of individual freedom and responsibility.
 
 ### Freedoms and fundamental values
 
@@ -754,13 +752,11 @@ In other words, Rothbard underscores that libertarianism transcends the traditio
 <chapterId>d4f5c100-a791-45cf-bc7c-6e2353dc7a48</chapterId>
 
 
-
+Centrism is more than a simple median position equidistant from all others. It is a genuine political philosophy, a method of governance that claims to be adapted to contemporary pluralist societies. It is an approach that **privileges efficiency, pragmatism, and tends toward a form of technocracy**: power should be entrusted to experts who must steer the economy and pilot monetary policy.
 
 ![Nolan Diagram showing centrism positioned in the middle with moderate freedoms in both domains](./assets/en/066.webp)
 
 ![The centrist political family](./assets/en/065.webp)
-
-Centrism is more than a simple median position equidistant from all others. It is a genuine political philosophy, a method of governance that claims to be adapted to contemporary pluralist societies. It is an approach that **privileges efficiency, pragmatism, and tends toward a form of technocracy**: power should be entrusted to experts who must steer the economy and pilot monetary policy.
 
 ### Freedoms and cardinal values
 
@@ -821,12 +817,9 @@ What Keynes means here is that there are market failures (crises of overproducti
 
 <chapterId>7a5e9f5a-2be1-4497-892a-3da5f015faa0</chapterId>
 
-
-
+We conclude our analysis of the great political families with totalitarian regimes, but here we are dealing with something fundamentally different. Totalitarianism is not, strictly speaking, a political philosophy; **it is rather the negation of all political philosophy**. This is what Hannah Arendt shows us when she draws the distinction between classical despotism and totalitarianism.
 
 ![Totalitarian regimes: control and coercion over all aspects of life](./assets/en/073.webp)
-
-We conclude our analysis of the great political families with totalitarian regimes, but here we are dealing with something fundamentally different. Totalitarianism is not, strictly speaking, a political philosophy; **it is rather the negation of all political philosophy**. This is what Hannah Arendt shows us when she draws the distinction between classical despotism and totalitarianism.
 
 ### Hannah Arendt's insight
 

@@ -6,7 +6,7 @@ Finds all {lang}.yml or {lang}.md files recursively in a folder
 and translates them from source language to output language.
 
 Usage:
-    python recursive_folder_translation.py -s en -o fr --path ../../courses/phi102/quizz/
+    python recursive_folder_translation.py -s en -o fr --path ../../courses/phi203/quizz/
 """
 
 import argparse
@@ -88,7 +88,7 @@ def main():
         epilog="""
 Examples:
     # Translate all English files to French in quizz folder
-    python recursive_folder_translation.py -s en -o fr --path ../../courses/phi102/quizz/
+    python recursive_folder_translation.py -s en -o fr --path ../../courses/phi203/quizz/
 
     # Translate French files to English, overwriting existing
     python recursive_folder_translation.py -s fr -o en --path ./content/ --force

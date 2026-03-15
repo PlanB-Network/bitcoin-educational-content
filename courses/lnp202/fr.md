@@ -139,7 +139,7 @@ Pour permettre aux paiements de transiter par des nœuds intermédiaires sans n�
 
 ![Image](assets/fr/008.webp)
 
-Je vous épargne les détails techniques du fonctionnement des HTLCs, car ils ne sont pas indispensables dans le cadre de ce cours. Vous en trouverez une explication approfondie dans la formation théorique LNP 201. Retenez simplement que les HTLCs permettent d’effectuer des échanges atomiques (*atomics swaps*) : soit le transfert aboutit entièrement et personne n’est lésé dans le routage, soit il échoue et chaque participant récupère ses fonds initiaux. Il n’existe pas d’entre-deux possible.
+Je vous épargne les détails techniques du fonctionnement des HTLCs, car ils ne sont pas indispensables dans le cadre de ce cours. Vous en trouverez une explication approfondie dans la formation théorique LNP 201. Retenez simplement que les HTLCs permettent d’effectuer des échanges atomiques (*atomic swaps*) : soit le transfert aboutit entièrement et personne n’est lésé dans le routage, soit il échoue et chaque participant récupère ses fonds initiaux. Il n’existe pas d’entre-deux possible.
 
 ### Les principales implémentations de nœuds Lightning
 
@@ -205,7 +205,7 @@ Il est aujourd’hui possible d'avoir une expérience utilisateur très proche d
 
 ### Option 1 : ne pas utiliser Lightning directement
 
-La première solution consiste tout simplement à ne pas utiliser Lightning de manière native, mais à passer par un portefeuille Bitcoin ou [Liquid](https://planb.academy/resources/glossary/liquid-network) qui embarque des [atomics swaps](https://planb.academy/resources/glossary/atomic-swap). C’est par exemple le cas des applications Aqua ou Bull Bitcoin Wallet, qui permettent de payer des [invoices](https://planb.academy/resources/glossary/invoice-lightning) Lightning sans exploiter vous-même un nœud Lightning, mais tout en restant en self-custody.
+La première solution consiste tout simplement à ne pas utiliser Lightning de manière native, mais à passer par un portefeuille Bitcoin ou [Liquid](https://planb.academy/resources/glossary/liquid-network) qui embarque des [atomic swaps](https://planb.academy/resources/glossary/atomic-swap). C’est par exemple le cas des applications Aqua ou Bull Bitcoin Wallet, qui permettent de payer des [invoices](https://planb.academy/resources/glossary/invoice-lightning) Lightning sans exploiter vous-même un nœud Lightning, mais tout en restant en self-custody.
 
 Le principe est le suivant : vos fonds restent en Bitcoin on-chain ou sur Liquid, dans un portefeuille dont vous détenez les clés de manière classique. Lorsque vous scannez une invoice Lightning, le portefeuille envoie une transaction (on-chain ou Liquid) vers un service d'atomic swap. Ce service se charge ensuite de réaliser le paiement Lightning depuis son propre nœud, en échange de vos bitcoins reçus on-chain ou via Liquid. En pratique, vous n’avez donc pas de canaux Lightning à gérer, mais vous pouvez tout de même régler des invoices Lightning.
 

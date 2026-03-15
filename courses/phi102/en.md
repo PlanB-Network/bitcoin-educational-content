@@ -500,7 +500,7 @@ Free trade is the logical extension of all these principles. If I am the legitim
 
 What defines the boundary of one person's freedom? The answer begins with a fact as universal as it is elemental: pain. It is through pain, transmitted by the nervous system, felt in the body, that violations of our freedom and bodily integrity become perceptible. Without pain, we could not recognize aggression. This physiological reality establishes a natural limit to everyone's liberty: **any action that causes pain to another constitutes an infringement of their self-ownership**.
 
-![Slide image from chapter 1.4](assets/en/020.webp)
+![Gustave de Molinari and his work La Morale Economique (Institut Coppet edition)](assets/en/020.webp)
 
 Gustave de Molinari (1819–1912), one of the most profound thinkers in the French liberal tradition, his career spanned nearly a century, from the age of Louis-Philippe to the eve of the First World War, developed a second dimension of this analysis in his [*Morale économique*](https://planb.academy/resources/books/la-morale-economique-8b419025-3d46-48a8-9d8f-0254596406f8). Beyond pain, there is fear: the anticipation of harm, and the inhibition of action it produces. When others infringe upon our rights or pose a credible threat, we are compelled to reconsider and adjust our plans. We cannot act as we would have acted in the absence of the threat. **Our effective freedom is diminished, even before any physical aggression occurs.**
 

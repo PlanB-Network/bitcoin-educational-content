@@ -6,4 +6,4 @@ wrong_answers:
   - Blocage définitif du bear market
 explanation: |
   L’utilisateur ne peut pas vérifier que les soldes affichés correspondent réellement à des bitcoins détenus. Il y a donc un risque de réserve fractionnaire.
-reviewed: false
+reviewed: true 

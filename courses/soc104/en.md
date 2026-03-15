@@ -12,7 +12,7 @@ objectives:
 
 Does your political positioning boil down to right or left? This course proposes a different framework: the fundamental Freedom-Coercion axis. Using the Nolan Diagram, we analyze political families — socialists, conservatives, centrists, and libertarians — not by their stated intentions, but by their confidence in government control. Discover the logic of spontaneous order, explore the real philosophical fault lines, and learn to define your own values beyond traditional labels.
 
-This course also reveals why Bitcoin is a political project inherited from the Cypherpunks. A decentralizing force that opposes state currency, Bitcoin redefines the essential political question: **do you decide your life, or does someone else?**
+This course also reveals why Bitcoin is a political project inherited from the Cypherpunks. A decentralizing force that opposes state currency, Bitcoin redefines the essential political question: do you decide your life, or does someone else?
 
 
 

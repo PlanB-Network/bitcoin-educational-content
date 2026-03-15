@@ -357,7 +357,7 @@ Here we encounter a fundamental insight: the inviolability of conscience. One ca
 
 ### Benjamin Constant and the sacred property of thought
 
-Benjamin Constant (1767–1830), the great Swiss-French liberal, devoted much of his career to defending freedom of the press and individual liberties amid the turbulent political upheavals of post-revolutionary France. In his *Principes de politique* (1815), he expressed the implications of this intellectual self-ownership with characteristic force:
+Benjamin Constant (1767–1830), the great Swiss-French liberal, devoted much of his career to defending freedom of the press and individual liberties amid the turbulent political upheavals of post-revolutionary France. In his [*Principes de politique*](https://planb.academy/resources/books/principes-de-politique-282bc3de-f218-4103-903a-5280d7b99108) (1815), he expressed the implications of this intellectual self-ownership with characteristic force:
 
 > "Error or truth, man's thought is his most sacred property; error or truth, tyrants are equally guilty when they attack it. He who proscribes superstition in the name of philosophy, and he who proscribes independent reason in the name of God, equally deserve the execration of all men of good will."
 
@@ -496,7 +496,7 @@ What defines the boundary of one person's freedom? The answer begins with a fact
 
 ![Slide image from chapter 1.4](assets/en/020.webp)
 
-Gustave de Molinari (1819–1912), one of the most profound thinkers in the French liberal tradition, his career spanned nearly a century, from the age of Louis-Philippe to the eve of the First World War, developed a second dimension of this analysis in his *Morale économique*. Beyond pain, there is fear: the anticipation of harm, and the inhibition of action it produces. When others infringe upon our rights or pose a credible threat, we are compelled to reconsider and adjust our plans. We cannot act as we would have acted in the absence of the threat. **Our effective freedom is diminished, even before any physical aggression occurs.**
+Gustave de Molinari (1819–1912), one of the most profound thinkers in the French liberal tradition, his career spanned nearly a century, from the age of Louis-Philippe to the eve of the First World War, developed a second dimension of this analysis in his [*Morale économique*](https://planb.academy/resources/books/la-morale-economique-8b419025-3d46-48a8-9d8f-0254596406f8). Beyond pain, there is fear: the anticipation of harm, and the inhibition of action it produces. When others infringe upon our rights or pose a credible threat, we are compelled to reconsider and adjust our plans. We cannot act as we would have acted in the absence of the threat. **Our effective freedom is diminished, even before any physical aggression occurs.**
 
 However, and this is a crucial distinction, not all nuisances are of the same order. Imagine a baker in a small town; a competitor opens a shop across the street. The first baker suffers a real economic nuisance. But is this an aggression that the law should punish? Clearly not. The competitor has not violated anyone's person or property; he has merely exercised his own freedom.
 
@@ -1569,7 +1569,7 @@ Nineteenth-century liberal thinkers criticised Montesquieu sharply on this point
 
 > Montesquieu confounds the absence of legal prohibition with the presence of genuine liberty. But these are radically different things. A slave is permitted to do whatever his master does not forbid; this does not make him free. True freedom begins not with what the law allows, but with what the law has no right to touch.
 
-Benjamin Constant (1767-1830), the great Swiss-French liberal who was born in Lausanne and became one of the most eloquent defenders of individual rights in the entire history of political thought, developed a theory clearly distinguishing the sphere of innocent, free individual action from the sphere of power. In his celebrated *Principes de politique* (1815), he writes:
+Benjamin Constant (1767-1830), the great Swiss-French liberal who was born in Lausanne and became one of the most eloquent defenders of individual rights in the entire history of political thought, developed a theory clearly distinguishing the sphere of innocent, free individual action from the sphere of power. In his celebrated [*Principes de politique*](https://planb.academy/resources/books/principes-de-politique-282bc3de-f218-4103-903a-5280d7b99108) (1815), he writes:
 
 > The authority of society over its members extends only to those actions which harm others. Within the sphere of actions which concern only the individual himself, the independence of the individual is, of right, absolute. Over himself, over his own body and mind, the individual is sovereign.
 

@@ -1,8 +1,9 @@
-question: According to Milton Friedman, why do social programs for the poor often fail to achieve their objectives?
-answer: Because they create perverse effects such as economic dependence and market distortions
+question: "What does a structural definition of a political system focus on?"
+answer: "How the system actually functions and its observable characteristics, such as the degree of state control"
 wrong_answers:
-  - Because their sponsors lack good intentions and generosity towards the needy
-  - Because they don't have enough funding to meet real needs
-  - Because beneficiaries do not understand how to use these programs effectively
-explanation: |
-  Friedman points out that social policies, despite their generous intentions, often fail because they do not take into account the rigorous analysis of human incentives and behavior. These programs create unanticipated perverse effects, such as economic dependence or market distortion, producing results that run counter to the initial objectives.
+  - "The stated goals and noble intentions declared by the system's founders and leaders"
+  - "The historical origins of the political movement and the biographies of its key thinkers"
+  - "The number of political parties allowed and the frequency of democratic elections held"
+explanation: >-
+  Structural definitions focus on how political systems actually function and on their observable characteristics. For example, socialism is structurally characterized by the omnipresence of the state. This approach contrasts with intentional definitions, which rely on stated motivations and goals. The structural approach allows for more objective evaluation based on measurable results.
+reviewed: false

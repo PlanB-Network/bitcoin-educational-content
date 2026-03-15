@@ -1,9 +1,9 @@
-question: According to Friedman's perspective, what is the main problem with judging social policies based on their declared intentions rather than their actual outcomes?
-answer: Well-intentioned policies often create unintended consequences like economic dependency and market distortions that contradict their original goals
+question: "What warning did Milton Friedman give about judging political policies?"
+answer: "Policies should be judged by their results rather than by their intentions"
 wrong_answers:
-  - Intentions are too difficult to measure objectively compared to the straightforward assessment of policy outcomes and results
-  - Politicians deliberately mislead the public about their true intentions, making intention-based evaluation fundamentally unreliable and deceptive
-  - Intentions change too frequently during policy implementation, making them an unstable foundation for long-term policy evaluation
-explanation: |
-  Friedman argues that policies with generous intentions can produce perverse effects opposite to their goals, such as creating dependency among those they 
-  aim to help. The issue isn't measurement difficulty, political deception, or changing intentions, but rather that good intentions don't guarantee positive results. This is why structural definitions focusing on observable characteristics and measurable outcomes are preferred over intentional definitions that rely on stated motivations.
+  - "Policies should be judged by the moral character of the politicians who propose them"
+  - "Policies should be judged by how popular they are with the general voting public"
+  - "Policies should be judged by whether they align with the original constitution of the country"
+explanation: >-
+  Friedman wrote that one of the biggest mistakes is to judge policies on their intentions rather than their results, noting that programs labeled as being for the poor almost always produce effects opposite to what their sponsors intended. This echoes Bastiat's teaching that a good economist considers both short-term and long-term effects on the entire population.
+reviewed: false

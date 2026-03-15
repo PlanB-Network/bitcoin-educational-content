@@ -1,9 +1,9 @@
-question: What does the right side of the economic axis (towards 100) represent in the two-dimensional political diagram?
-answer: Preference for economic freedom with less state intervention, lower taxes, and free markets
+question: "What does the personal freedom category include?"
+answer: "What you do in your private relationships, with your opinions, beliefs, and everything involving your own body and mind"
 wrong_answers:
-  - Preference for strong state intervention with high taxes and extensive public services
-  - Preference for individual liberties and tolerance in personal and social matters
-  - Preference for traditional values, order, and security enforced by the state
-explanation: |
-  The right side of the economic axis represents economic freedom, characterized by minimal state intervention in the economy, reduced regulations, 
-  lower taxes, and greater freedom for businesses and individuals to produce, exchange, and consume. This position emphasizes free markets, private property, and competition as drivers of prosperity. The other options describe either the left side of the economic axis (strong state intervention) or positions on the personal freedoms axis (individual liberties or traditional values), which are separate dimensions in this political framework.
+  - "What you do as a producer, including starting a business, hiring employees, and trading goods"
+  - "How much tax you pay, what investments you make, and how you manage your financial assets"
+  - "Your ability to compete in the marketplace, set prices for your products, and choose your suppliers"
+explanation: >-
+  Personal freedom encompasses what you do in your private relationships, with your opinions and beliefs, and everything involving your own body and mind. This includes marriage, reading choices, religious practices, food and medicine choices, and who you associate with. Business activities, taxes, and marketplace decisions fall under economic freedom.
+reviewed: false

@@ -1,9 +1,9 @@
-question: According to libertarian philosophy, what is the primary justification for opposing both income taxes and minimum wage laws?
-answer: Both represent government violations of individual freedom and voluntary contractual agreements between private parties
+question: "How do the conservative and libertarian positions on the minimum wage differ in their reasoning, despite both favoring its abolition?"
+answer: "Conservatives accept some state involvement in wage setting if it does not hinder competitiveness, while libertarians view the minimum wage as a moral imposition on the freedom to hire and do business"
 wrong_answers:
-  - Both create economic inefficiencies that primarily harm large corporations and wealthy investors
-  - Both are examples of policies that should be managed by local governments rather than federal authorities
-  - Both represent outdated economic theories that have been proven ineffective by modern economic research
-explanation: |
-  Libertarians consistently oppose both income taxes and minimum wage laws based on their core principle that government intervention violates individual liberty and free market mechanisms. 
-  They view income taxes as 'theft' that infringes on property rights, and minimum wage laws as artificial market distortions that violate the freedom of employers and employees to negotiate contracts voluntarily. This philosophical consistency distinguishes libertarian positions from other political families who may support one policy while opposing the other based on pragmatic rather than principled grounds.
+  - "Conservatives oppose the minimum wage because it creates inflation, while libertarians oppose it because it gives too much power to labor unions"
+  - "Conservatives want wages set by religious and community institutions, while libertarians want wages determined by government-approved market studies"
+  - "Conservatives believe minimum wages should vary by region, while libertarians believe a single flat wage should apply nationally"
+explanation: >-
+  Both favor reducing or abolishing the minimum wage, but their reasoning differs fundamentally. Conservatives accept some state involvement in wage setting while insisting it remain minimal and context-dependent, focusing on competitiveness. Libertarians take a stronger moral position: a minimum wage is an imposition on the freedom to hire and do business. When libertarians say "the market," they mean the contract, freely negotiated between two parties without state interference.
+reviewed: false

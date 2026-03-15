@@ -1,9 +1,9 @@
-question: What is the fundamental difference between minarchist and anarcho-capitalist libertarians regarding the role of the state?
-answer: Minarchists support a minimal state limited to police, justice, and defense, while anarcho-capitalists want all state functions privatized and managed by the market
+question: "Why does Ron Paul argue that the Federal Reserve is harmful, and how does Bitcoin relate to his position?"
+answer: "The Federal Reserve causes inflation and economic cycles through fiat money manipulation, and Bitcoin represents a form of sound money that could replace the gold standard"
 wrong_answers:
-  - Minarchists reject all forms of government while anarcho-capitalists accept limited government intervention in economic matters only
-  - Minarchists support free markets with some regulation while anarcho-capitalists advocate for complete state control of essential services
-  - Minarchists believe in strong state intervention in social issues while anarcho-capitalists focus exclusively on economic freedom without social liberties
-explanation: |
-  Both minarchist and anarcho-capitalist libertarians share the fundamental principle of individual sovereignty, but differ on implementation. Minarchists accept 
-  a minimal 'night-watchman' state that performs only the essential functions of police, justice, and territorial defense. Anarcho-capitalists go further, believing even these traditional state functions should be privatized and handled through market mechanisms. The other options misrepresent these positions by incorrectly suggesting minarchists reject government entirely or that either group supports extensive state intervention.
+  - "The Federal Reserve limits bank competition, and Bitcoin decentralizes banking services to improve financial inclusion"
+  - "The Federal Reserve prevents free trade between nations, and Bitcoin enables borderless transactions without government approval"
+  - "The Federal Reserve creates excessive government debt, and Bitcoin offers a deflationary currency that eliminates national debt"
+explanation: >-
+  Ron Paul, a minarchist, argues that the Federal Reserve is responsible for inflation and economic cycles because it manipulates fiat money. He champions the denationalization of money, an idea advocated by Friedrich Hayek, and sees Bitcoin as a form of sound money that could replace the gold standard. His critique is rooted in libertarian monetary theory, not primarily in banking competition, trade barriers, or government debt.
+reviewed: false

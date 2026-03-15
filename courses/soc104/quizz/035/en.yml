@@ -1,9 +1,9 @@
-question: What is the fundamental disagreement between libertarians and libertaires regarding economic organization?
-answer: Libertarians support private property and free markets, while libertaires oppose capitalism and advocate for collective ownership
+question: "Why did Rothbard criticize the libertaires' vision of human nature, and what alternative did he propose?"
+answer: "He accused them of holding a naive 'noble savage' view and argued that society must use private property and good incentives to guide self-interested behavior"
 wrong_answers:
-  - Libertarians favor government regulation of markets, while libertaires support complete economic deregulation
-  - Libertarians oppose all forms of property, while libertaires defend individual ownership rights within capitalism
-  - Libertarians support state-controlled economies, while libertaires advocate for privatization of all public services
-explanation: |
-  The core economic divide stems from their opposing views on property and capitalism. Libertarians believe private property rights and free market 
-  capitalism are essential for individual freedom, while libertaires (anarchist socialists) view private property as theft and capitalism as inherently oppressive. Libertaires instead advocate for alternative economic models like mutualism, collectivism, or libertarian communism, rejecting both state control and private ownership in favor of collective arrangements.
+  - "He praised their understanding of human cooperation but argued that a minimal state was still necessary to enforce contracts"
+  - "He agreed that humans are naturally good but insisted that only free markets could channel that goodness into productive activity"
+  - "He rejected their emphasis on individual rights and argued instead that communities should collectively define moral standards"
+explanation: >-
+  Rothbard criticized the libertaires for adopting a naive, Rousseau-like vision of human nature as naturally good. He argued instead that people are guided by self-interest, and society must be organized so that good incentives guide behavior. This requires recognizing and guaranteeing private property. Abolishing the state does not mean abolishing its functions; police and justice should be managed by the free market through competition.
+reviewed: false

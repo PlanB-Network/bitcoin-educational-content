@@ -1,9 +1,9 @@
-question: According to Keynesian economic theory, what is the primary role of government intervention in the economy?
-answer: To use fiscal and monetary policies to stabilize the economy by stimulating demand during recessions and cooling it during overheating
+question: "What is the important distinction between being pro-business and being pro-market?"
+answer: "Being pro-business means favoring an alliance between large enterprises and the state, while being pro-market means supporting free competition without state favoritism"
 wrong_answers:
-  - To completely eliminate free market mechanisms and replace them with centralized state planning for all economic sectors
-  - To maintain absolute laissez-faire policies and allow markets to self-regulate without any government interference whatsoever
-  - To focus exclusively on reducing government spending and taxation while minimizing all forms of public sector involvement
-explanation: |
-  Keynesian theory represents a centrist 'third way' approach that rejects both pure laissez-faire capitalism and complete state control. 
-  Keynes advocated for active government intervention through fiscal policies (spending and taxation) and monetary policies (interest rates) to manage economic cycles. This approach seeks balance between market freedom and state guidance, stimulating aggregate demand during downturns and restraining it during economic overheating, embodying the centrist philosophy of pragmatic moderation.
+  - "Being pro-business means supporting small businesses, while being pro-market means supporting multinational corporations"
+  - "Being pro-business means opposing regulation entirely, while being pro-market means accepting moderate regulation"
+  - "Being pro-business focuses on domestic industry, while being pro-market focuses on international trade"
+explanation: >-
+  Centrists tend to be pro-business, meaning they favor a kind of alliance between large enterprises and the state, which differs from being pro-market. Being pro-market supports free competition without state favoritism or corporate protectionism. This distinction is crucial because pro-business policies can create monopolies and regulatory protections that actually undermine free-market competition.
+reviewed: false

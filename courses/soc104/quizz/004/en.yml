@@ -1,10 +1,9 @@
-question: According to the content, why is the traditional right-left divide inadequate for classifying Bitcoin?
-answer: Because Bitcoin transcends traditional divides and attracts supporters from diverse political backgrounds
+question: "What common point do left-wing and right-wing political parties share despite their apparent opposition?"
+answer: "Both defend the right of the state to govern people's lives through regulations and taxes"
 wrong_answers:
-  - Because Bitcoin is supported exclusively by right-wing free-market personalities
-  - Because Bitcoin is mainly adopted by the left for the financial inclusion of disadvantaged populations
-  - Because Bitcoin is a neutral technology with no political or ideological dimension
-explanation: |
-  The text explains that Bitcoin, as a decentralized technology, attracts supporters from a variety of political backgrounds, including both right-wing 
-  and left-wing personalities, as well as anarchists and apolitical individuals. This diversity of support shows that Bitcoin can't be pigeonholed into 
-  a traditional political category, unlike other responses which suggest limited adherence to a single political camp or total neutrality.
+  - "Both advocate for the complete abolition of state intervention in economic matters"
+  - "Both prioritize individual freedom over collective organization of society"
+  - "Both reject the use of monetary policy as a tool for government spending"
+explanation: >-
+  Despite seeming opposed, left and right share a preference for state intervention. Both criticize the free market and defend the right of the state to govern people's lives through regulations and taxes. The left criticizes markets as a source of inequality, while the right sees them as a threat to sovereignty, but both turn to the state for solutions.
+reviewed: false

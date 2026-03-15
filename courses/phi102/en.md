@@ -1017,7 +1017,7 @@ Profits and interest rates are likewise signals: they indicate where there is ne
 
 ### The blindness of centralized planning
 
-Paul Leroy-Beaulieu (1843-1916), the most eminent economist of the second generation of French liberals, who held the chair of political economy at the Collège de France for decades and edited the *Économiste français* with tireless energy, anticipated with remarkable foresight the great developments of communism in the 20th century. In his *Le Collectivisme* (1884), he demonstrated that socialism, by rejecting profit and replacing the price mechanism with a centralized machine directing both production and consumption, was condemning itself to operate in complete darkness:
+Paul Leroy-Beaulieu (1843-1916), the most eminent economist of the second generation of French liberals, who held the chair of political economy at the Collège de France for decades and edited the *Économiste français* with tireless energy, anticipated with remarkable foresight the great developments of communism in the 20th century. In his [*Le Collectivisme*](https://planb.academy/resources/books/le-collectivisme-d79dc3a7-7b77-4698-89e6-440312e2da2c) (1884), he demonstrated that socialism, by rejecting profit and replacing the price mechanism with a centralized machine directing both production and consumption, was condemning itself to operate in complete darkness:
 
 > "The socialist state, having abolished private ownership of capital, finds itself unable to calculate. It knows what it has produced; it cannot know what it should produce. It knows what it has distributed; it cannot know what should be distributed. It is a blind giant, possessed of immense power and incapable of directing it, stumbling through the economy like an elephant through a china shop, destroying in an hour what generations of patient accumulation had built."
 
@@ -1179,7 +1179,7 @@ Having examined the foundations of freedom in the facts of human existence, trac
 
 ![French liberal tradition book cover](assets/en/058.webp)
 
-Paul Leroy-Beaulieu, in the first edition of his major work *Le Collectivisme* (1883), analysed these different socialist systems with the precision of a physician diagnosing a disease:
+Paul Leroy-Beaulieu, in the first edition of his major work [*Le Collectivisme*](https://planb.academy/resources/books/le-collectivisme-d79dc3a7-7b77-4698-89e6-440312e2da2c) (1883), analysed these different socialist systems with the precision of a physician diagnosing a disease:
 
 > "The communist doctrines speak abundantly of the end of capitalist exploitation and of future abundance, but the actual functioning of this great administration that would own all the land, all the machines, and manage all the factories, all of this is very poorly explained. The theorists of communism have been generous with their vision of the destination and remarkably parsimonious with any account of the journey. This reticence is not accidental. It reflects a fundamental difficulty that the communist cannot resolve: the impossibility of calculating, directing, and coordinating production without the signals that the price mechanism provides and that communism, by abolishing private property, necessarily destroys."
 
@@ -1466,7 +1466,7 @@ Turgot, the most brilliant of the Physiocrats' allies in government, summarized 
 
 ### Leroy-Beaulieu's prophecy: "slavery without the nest egg"
 
-The French liberal tradition extended this analysis into the nineteenth century, most notably through Paul Leroy-Beaulieu and his major work *Le Collectivisme* (1883). Leroy-Beaulieu set out to analyse in advance how a communist society would actually function, since the theorists of communism, Karl Marx foremost among them, had been remarkably sparing with details about the society that was to replace capitalism.
+The French liberal tradition extended this analysis into the nineteenth century, most notably through Paul Leroy-Beaulieu and his major work [*Le Collectivisme*](https://planb.academy/resources/books/le-collectivisme-d79dc3a7-7b77-4698-89e6-440312e2da2c) (1883). Leroy-Beaulieu set out to analyse in advance how a communist society would actually function, since the theorists of communism, Karl Marx foremost among them, had been remarkably sparing with details about the society that was to replace capitalism.
 
 Leroy-Beaulieu's conclusion was devastating. Communism, he argued, would constitute **a form of slavery worse than traditional slavery itself:**
 
@@ -1586,7 +1586,7 @@ Negative freedom is defined as the absence of obstacles. The individual encounte
 
 Positive freedom, by contrast, is conceived as the capacity to do and to obtain. According to this vision, the individual is free when he can obtain the things he desires, regardless of whether others are obliged to provide them. This concept breaks with the notion of property and opens the door to socialist justifications of state intervention.
 
-Paul Leroy-Beaulieu, in *Le Collectivisme* (1884), demonstrates that socialism, even with its different notion of freedom, prevents people from doing things without guaranteeing the promised results:
+Paul Leroy-Beaulieu, in [*Le Collectivisme*](https://planb.academy/resources/books/le-collectivisme-d79dc3a7-7b77-4698-89e6-440312e2da2c) (1884), demonstrates that socialism, even with its different notion of freedom, prevents people from doing things without guaranteeing the promised results:
 
 > The collectivist state promises each citizen the freedom to develop his faculties to the fullest. But in suppressing private property and free enterprise, it destroys precisely the conditions under which such development is possible. It delivers neither the freedom conceived by liberals nor the freedom promised by its own theories. The individual, stripped of his autonomy, becomes a functionary of the collective will, which is to say, of whoever happens to wield political power.
 
@@ -1743,7 +1743,7 @@ In other words, **the existence of oppressive social classes is not a feature of
 
 The socialist and communist interpretation asserts that social classes persist in modern societies, maintaining less freedom for certain parts of the population. But when we rigorously analyse what social classes actually mean in the present, we discover fundamental contradictions.
 
-Paul Leroy-Beaulieu (1843-1916), whose productivity was legendary, having produced over forty volumes on economics, colonial policy, and social questions during his long career, attempts in *Le Collectivisme* (1884) to take the claims of socialists seriously by examining their vocabulary opposing "workers" to the elite possessing the "means of production." His analysis is devastating:
+Paul Leroy-Beaulieu (1843-1916), whose productivity was legendary, having produced over forty volumes on economics, colonial policy, and social questions during his long career, attempts in [*Le Collectivisme*](https://planb.academy/resources/books/le-collectivisme-d79dc3a7-7b77-4698-89e6-440312e2da2c) (1884) to take the claims of socialists seriously by examining their vocabulary opposing "workers" to the elite possessing the "means of production." His analysis is devastating:
 
 > The socialists require us to divide humanity into two groups: those who own the means of production and those who do not. But who, precisely, belongs to the first group? The great factory owner, certainly. But also the artisan who owns his tools, the peasant who owns his plough, the doctor who owns his medical instruments, the lawyer who owns his library. And who belongs to the second group? The factory worker, they say. But also, by the same logic, the great artist who has no studio of his own, the distinguished journalist who writes for hire, the celebrated scientist who works in a university laboratory. This classification produces absurdities at every turn.
 
@@ -1831,7 +1831,7 @@ Over the generations, these groups **not only extracted their subsistence from t
 
 The contradiction becomes apparent when we observe that **socialists and communists are perfectly willing to recognise the boundaries and borders of national groups while rejecting private property**. What is this, if not a spectacular inconsistency?
 
-In contemporary debates about wars of conquest or attacks by one country against another, they pose as defenders of frontiers. But what is a frontier, if not the recognition of the limits of a group's collective ownership of its territory? To defend frontiers is to recognise that a group of individuals deserves guaranteed respect for its property, even at the cost of armed intervention. Leroy-Beaulieu presses this contradiction with precision in *Le Collectivisme* (1884):
+In contemporary debates about wars of conquest or attacks by one country against another, they pose as defenders of frontiers. But what is a frontier, if not the recognition of the limits of a group's collective ownership of its territory? To defend frontiers is to recognise that a group of individuals deserves guaranteed respect for its property, even at the cost of armed intervention. Leroy-Beaulieu presses this contradiction with precision in [*Le Collectivisme*](https://planb.academy/resources/books/le-collectivisme-d79dc3a7-7b77-4698-89e6-440312e2da2c) (1884):
 
 > The socialist defends the frontier of France against the German; the socialist defends the territory of the commune against the neighbouring commune. He recognises, in both cases, a right of collective ownership that entitles the group to exclude all others. And yet, if I apply the same principle to the family, he hesitates. If I apply it to the individual, he protests. But by what logic does the right of ownership appear at the level of the nation and vanish at the level of the person? The socialist has no answer, because there is no rational answer. He is simply more comfortable with large collectives than with small ones.
 

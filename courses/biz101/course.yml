@@ -69,9 +69,10 @@ proofreading:
       - AlbertoMagno21
     reward: 9.8
   - language: ja
-    last_contribution_date:
+    last_contribution_date: '2026-03-16'
     urgency: 1
     contributor_names:
+      - yutaro21jp
     reward: 48.85
   - language: nb-NO
     last_contribution_date: 2025-05-14

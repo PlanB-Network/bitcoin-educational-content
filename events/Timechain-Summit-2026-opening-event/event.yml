@@ -1,0 +1,23 @@
+id: 7dc3de61-76d3-45ca-af10-fb79317d7b0e
+start_date: 2026-05-15 23:00:00
+end_date: 2026-05-16 02:00:00
+timezone: UTC
+address_city_country: Denver, Colorado, USA
+address_line_2: 3700 Franklin Street, Denver, Colorado 80205
+address_line_3: The Space – Bitcoin Education Hub
+name: TIMECHAIN™ SUMMIT 2026 Opening Event
+type: conference
+book_online: false
+book_in_person: false
+description: |
+  The TIMECHAIN™ SUMMIT celebrates Bitcoin's timechain protocol as both a technological achievement and a transformative digital monetary system. A high-tech, builder-focused gathering in Denver where developers, entrepreneurs, researchers, and Bitcoin enthusiasts come together to present and collaboratively develop real projects. Participants benefit from collective expertise and meaningful networking, with the goal of launching or advancing impactful Bitcoin projects in May. Limited capacity up to 150 participants.
+language:
+  - en
+links:
+  website: https://timechainsummit.com/
+  replay_url: 
+  live_url: 
+tags:
+  - adoption
+  - innovation
+  - case-studies

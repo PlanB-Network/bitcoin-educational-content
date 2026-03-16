@@ -265,7 +265,7 @@ Dans notre cas, le `message` correspond en fait à l’entête du bloc, que vous
 
 ### La preuve de travail : trouver une empreinte inférieure à une cible
 
-La Proof-of-Work est souvent décrite comme le fait de résoudre un problème complexe. En réalité, il ne s’agit pas vraiment d'un problème, mais plutôt d’une recherche par tâtonnement : le mineur doit trouver une version de l’entête dont l’empreinte (après passage dans la fonction de hachage `SHA256d`) respecte une condition simple : qu'elle soit inférieure à une certaines cible.
+La *Proof-of-Work* est souvent décrite comme le fait de résoudre un problème complexe. En réalité, il ne s’agit pas vraiment d'un problème, mais plutôt d’une recherche par tâtonnement : le mineur doit trouver une version de l’entête dont l’empreinte (après passage dans la fonction de hachage `SHA256d`) respecte une condition simple : qu'elle soit inférieure à une certaine cible.
 
 Cette condition se formule ainsi :
 * on calcule l’empreinte de l’entête du bloc à l'aide de la fonction de hachage ;
@@ -280,7 +280,7 @@ SHA256d(block_header) <= target
 
 ![Image](assets/fr/015.webp)
 
-La cible est un nombre de 256 bits. Comme l’empreinte produite par `SHA256d` fait aussi 256 bits, on peut les comparer comme deux nombres. Plus la cible est basse, plus la condition à remplir est difficile, car il existe moins de résultats possibles en dessous de ce seuil. À l’inverse, plus la cible est élevée, plus la condition est facile à satisfaire, et plus le minage d’un bloc devient simple. Nous détaillerons dans les prochains chapitre comment cette cible est déterminée.
+La cible est un nombre de 256 bits. Comme l’empreinte produite par `SHA256d` fait aussi 256 bits, on peut les comparer comme deux nombres. Plus la cible est basse, plus la condition à remplir est difficile, car il existe moins de résultats possibles en dessous de ce seuil. À l’inverse, plus la cible est élevée, plus la condition est facile à satisfaire, et plus le minage d’un bloc devient simple. Nous détaillerons dans les prochains chapitres comment cette cible est déterminée.
 
 Dans ce système, la fonction de hachage est intéressante. Rappelez-vous qu’il est facile de calculer la sortie à partir de l’entrée, mais qu’il est impossible de retrouver une entrée en ne connaissant que la sortie de la fonction. Dans le cadre du minage, on ne demande pas aux mineurs de trouver une empreinte précise, mais plutôt de trouver une empreinte inférieure à une valeur cible. Le seul moyen d’y parvenir consiste à effectuer un très grand nombre de tentatives, jusqu’à ce qu’une entête particulière de leur bloc candidat, une fois hachée, produise une empreinte inférieure à cette cible.
 
@@ -321,7 +321,7 @@ Dans le [White Paper](https://planb.academy/resources/glossary/white-paper) de B
 
 Une fois la charge de calcul dépensée, le bloc est figé : le modifier impliquerait de refaire la preuve de travail de ce bloc. Et comme les blocs sont enchaînés les uns avec les autres, altérer un bloc ancien obligerait aussi à recalculer tous les blocs suivants, puis à rattraper et dépasser le travail continu de la chaîne honnête.
 
-Autrement dit, la preuve de travail sert d’armature à l'horodatage qui rend la falsification du passé de plus en plus coûteuse à mesure que les blocs s’accumulent. Lorsqu’un nouveau bloc est miné, la sécurité fournie par la preuve de travail s’applique de manière simultanée et uniforme à l’ensemble des UTXOs existants. À chaque bloc ajouté, chaque UTXO accumule ainsi une quantité supplémentaire de sécurité issue de la Proof-of-Work.
+Autrement dit, la preuve de travail sert d’armature à l'horodatage qui rend la falsification du passé de plus en plus coûteuse à mesure que les blocs s’accumulent. Lorsqu’un nouveau bloc est miné, la sécurité fournie par la preuve de travail s’applique de manière simultanée et uniforme à l’ensemble des UTXOs existants. À chaque bloc ajouté, chaque UTXO accumule ainsi une quantité supplémentaire de sécurité issue de la *Proof-of-Work*.
 
 - **Définir la règle de majorité ([consensus](https://planb.academy/resources/glossary/consensus)) et neutraliser les Sybil :**
 
@@ -403,7 +403,7 @@ L’intervalle de 10 minutes laisse généralement suffisamment de temps pour qu
 
 ### Comprendre la notion de hashrate
 
-Le "*[hashrate](https://planb.academy/resources/glossary/hashrate)*" désigne la quantité de calcul de hachage produite par seconde, que ce soit par un seul mineur, par un groupe de mineur, ou bien par l'ensemble des mineurs sur Bitcoin. On l’exprime en `H/s` (hachages par seconde), avec des multiples comme `TH/s` (térahashs par seconde) ou `EH/s` (exahashs par seconde). Cela représente donc le nombre d’essais que les mineurs peuvent faire chaque seconde pour tenter d’obtenir un hash inférieur à la cible.
+Le "*[hashrate](https://planb.academy/resources/glossary/hashrate)*" désigne la quantité de calcul de hachage produite par seconde, que ce soit par un seul mineur, par un groupe de mineurs, ou bien par l'ensemble des mineurs sur Bitcoin. On l’exprime en `H/s` (hachages par seconde), avec des multiples comme `TH/s` (térahashs par seconde) ou `EH/s` (exahashs par seconde). Cela représente donc le nombre d’essais que les mineurs peuvent faire chaque seconde pour tenter d’obtenir un hash inférieur à la cible.
 
 Si la cible reste fixe, alors :
 * chaque essai a une probabilité fixe de réussite ;
@@ -501,7 +501,7 @@ Voyons ensemble à quoi correspondent ces deux parties de la récompense.
 La subvention de bloc correspond à la partie création monétaire de la récompense. Lorsqu’un mineur produit un bloc valide, le protocole l’autorise à créer un certain nombre de nouveaux bitcoins et à se les attribuer comme rémunération. Ces bitcoins sont créés ex nihilo. Ils n’existaient pas auparavant.
 
 Toutefois, la quantité de bitcoins nouvellement créés n’est absolument pas arbitraire. Elle est strictement définie par les règles du protocole Bitcoin et identique pour tous les mineurs. Nous détaillerons ce mécanisme dans le chapitre suivant, car la subvention n’est pas une valeur fixe indéfiniment : elle est divisée périodiquement selon un calendrier précis. Pour l’instant, retenez simplement que :
-- la subvention de bloc constitue une des deux composantes de la récompense de bloc ;
+- la subvention de bloc constitue l'une des deux composantes de la récompense de bloc ;
 - elle est plafonnée et déterminée par le protocole, et non par le mineur (même si le mineur peut techniquement demander moins que le montant maximal prévu) ;
 - elle crée des bitcoins à partir de rien.
 

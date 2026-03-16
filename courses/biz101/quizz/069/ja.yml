@@ -2,7 +2,7 @@ question: プロフェッショナルなビットコイン決済システムに�
 answer: BTCPay Server
 wrong_answers:
   - Swiss Bitcoin Pay
-  - Open Node
+  - OpenNode
   - Bitcoinize PoS
 explanation: |
   BTCPay Serverは、その広範な統合オプションとコントロールにより、プロフェッショナルセットアップのための中核的なオープンソースソリューションとしてコースで強調されています。

@@ -2,7 +2,7 @@ question: オールインワンのオンライン小売環境を好む企業に�
 answer: Be-BOP
 wrong_answers:
   - Phoenix
-  - Open Node
+  - OpenNode
   - Swiss Bitcoin Pay
 explanation: |
   Be-BOPは、ビットコイン決済が可能な統合型オンラインEストアを望む人々のためのオプションである。

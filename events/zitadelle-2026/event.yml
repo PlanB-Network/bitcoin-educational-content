@@ -1,0 +1,24 @@
+id: 8c5e58dc-034e-4eb0-9c6d-4547efa62a15
+start_date: 2026-05-28 12:00:00
+end_date: 2026-05-31 10:00:00
+timezone: Europe/Zagreb
+address_city_country: Obonjan Island, Croatia
+address_line_2: Šibenik Archipelago
+address_line_3: Dalmatia
+name: Zitadelle 2026
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: |
+  Zitadelle is a 4-day Bitcoin community event bringing together 500+ German-speaking Bitcoiners on a private island in Croatia. The event features 30+ talks, 15+ workshops covering technical deep-dives, economic discussions, and practical sessions. Participants enjoy a unique setting with nature, beach access, and exclusive Bitcoin community networking in glamping accommodations.
+language:
+  - de
+links:
+  website: https://razue.github.io/zitadelle2026/#
+  replay_url: 
+  live_url: 
+tags:
+  - adoption
+  - innovation
+  - good-practice

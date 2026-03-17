@@ -76,31 +76,89 @@ def new_course(course_id, topic, subtopic, level, lang, professor_id, json_outpu
 
 
 @new.command("tutorial")
-def new_tutorial():
+@click.option("--category", "folder_category", default=None, help="Tutorial folder category (e.g., wallet, mining, node).")
+@click.option("--id", "tutorial_id", default=None, help="Tutorial ID slug (e.g., sparrow, ledger-flex).")
+@click.option("--lang", default=None, help="Original language code (e.g., en, fr).")
+@click.option("--level", default=None, help="Difficulty level (beginner, intermediate, advanced, expert).")
+@click.option("--professor-id", default=None, help="Professor UUID.")
+@click.option("--license", "license_type", default=None, help="License type (CC-BY-SA-V4, MIT).")
+@click.option("--tool-type", "schema_category", default=None, help="Tool type category (desktop, hardware, mobile, etc.).")
+@click.option("--json", "json_output", is_flag=True, help="Output created file paths as JSON.")
+def new_tutorial(folder_category, tutorial_id, lang, level, professor_id, license_type, schema_category, json_output):
     """Scaffold a new tutorial."""
-    click.echo("new tutorial: not yet implemented")
-    raise SystemExit(1)
+    from bec.commands.new import run_new_tutorial
+
+    run_new_tutorial(
+        folder_category=folder_category,
+        tutorial_id=tutorial_id,
+        lang=lang,
+        level=level,
+        professor_id=professor_id,
+        license_type=license_type,
+        schema_category=schema_category,
+        json_output=json_output,
+    )
 
 
 @new.command("professor")
-def new_professor():
+@click.option("--id", "professor_slug", default=None, help="Professor slug ID (e.g., satoshi-nakamoto).")
+@click.option("--name", default=None, help="Professor display name.")
+@click.option("--lang", default=None, help="Initial language code (e.g., en, fr).")
+@click.option("--json", "json_output", is_flag=True, help="Output created file paths as JSON.")
+def new_professor(professor_slug, name, lang, json_output):
     """Scaffold a new professor profile."""
-    click.echo("new professor: not yet implemented")
-    raise SystemExit(1)
+    from bec.commands.new import run_new_professor
+
+    run_new_professor(
+        professor_slug=professor_slug,
+        name=name,
+        lang=lang,
+        json_output=json_output,
+    )
 
 
 @new.command("event")
-def new_event():
+@click.option("--id", "event_id", default=None, help="Event ID slug (e.g., bitcoin-paris-2025).")
+@click.option("--name", default=None, help="Event name (include year).")
+@click.option("--type", "event_type", default=None, help="Event type (workshop, course, conference, lecture, meetup).")
+@click.option("--start-date", default=None, help="Start datetime (YYYY-MM-DD HH:MM:SS).")
+@click.option("--end-date", default=None, help="End datetime (YYYY-MM-DD HH:MM:SS).")
+@click.option("--timezone", default=None, help="IANA timezone (e.g., Europe/Paris, US/Central).")
+@click.option("--city", default=None, help="City and country (e.g., Paris, France).")
+@click.option("--lang", default=None, help="Event language code.")
+@click.option("--json", "json_output", is_flag=True, help="Output created file paths as JSON.")
+def new_event(event_id, name, event_type, start_date, end_date, timezone, city, lang, json_output):
     """Scaffold a new event."""
-    click.echo("new event: not yet implemented")
-    raise SystemExit(1)
+    from bec.commands.new import run_new_event
+
+    run_new_event(
+        event_id=event_id,
+        name=name,
+        event_type=event_type,
+        start_date=start_date,
+        end_date=end_date,
+        timezone=timezone,
+        city=city,
+        lang=lang,
+        json_output=json_output,
+    )
 
 
 @new.command("resource")
-def new_resource():
+@click.option("--type", "resource_type", default=None, help="Resource type (book, podcast, channel, conference, movie, newsletter, paper, project, bet, glossary).")
+@click.option("--id", "resource_id", default=None, help="Resource ID slug.")
+@click.option("--lang", default=None, help="Language code (e.g., en, fr).")
+@click.option("--json", "json_output", is_flag=True, help="Output created file paths as JSON.")
+def new_resource(resource_type, resource_id, lang, json_output):
     """Scaffold a new resource (book, podcast, channel, etc.)."""
-    click.echo("new resource: not yet implemented")
-    raise SystemExit(1)
+    from bec.commands.new import run_new_resource
+
+    run_new_resource(
+        resource_type=resource_type,
+        resource_id=resource_id,
+        lang=lang,
+        json_output=json_output,
+    )
 
 
 @cli.group()

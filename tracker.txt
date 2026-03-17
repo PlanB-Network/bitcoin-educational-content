@@ -153,6 +153,18 @@ Commit: f18f67f425
 - [x] Text cleaning removes markdown formatting, tags, images, links, code blocks for accurate word counts
 - [x] Tests verify output generation and JSON structure (9 tests including real repo)
 - [x] 69 report tests, 368 total pass
-## Phase 14: Agent Orientation & Setup — TODO
+## Phase 14: Agent Orientation & Setup — DONE
+- [x] `docs/agents/AGENTS.md` exists with comprehensive orientation (~4,700 chars, well under 3,000 tokens)
+- [x] AGENTS.md covers: repo purpose, content types table (referencing content-types.yml), bec CLI full command reference, content conventions (course IDs, BIP39 chapter IDs, images), formatting rules, validation workflow, common pitfalls
+- [x] `docs/agents/CLAUDE.md` exists with Claude Code-specific instructions
+- [x] CLAUDE.md references AGENTS.md, includes quick start, workflow, rules, project structure, commit conventions
+- [x] `bec agent-setup` creates `AGENTS.md` symlink at repo root → `docs/agents/AGENTS.md`
+- [x] `bec agent-setup` creates `CLAUDE.md` symlink at repo root → `docs/agents/CLAUDE.md`
+- [x] Both symlinks are listed in `.gitignore` (already present)
+- [x] Idempotent: re-running detects "already_correct" symlinks
+- [x] Handles edge cases: stale symlinks (updated), real files (backed up and replaced)
+- [x] `--json` flag outputs structured JSON with symlink status
+- [x] AGENTS.md + content-types.yml combined under 4,000 tokens (~11,000 chars)
+- [x] 15 new tests, 383 total pass
 ## Phase 15: Tag Descriptions in Schemas — TODO
 ## Phase 16: Cleanup & Final Wiring — TODO

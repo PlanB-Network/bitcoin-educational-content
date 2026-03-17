@@ -369,7 +369,9 @@ def report_analytics(ctx, output, json_output):
 
 
 @cli.command("agent-setup")
-def agent_setup():
+@click.option("--json", "json_output", is_flag=True, help="Output result as JSON.")
+def agent_setup(json_output):
     """Symlink AGENTS.md and CLAUDE.md to repo root."""
-    click.echo("agent-setup: not yet implemented")
-    raise SystemExit(1)
+    from bec.commands.agent_setup import run_agent_setup
+
+    run_agent_setup(json_output=json_output)

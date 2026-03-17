@@ -1,0 +1,251 @@
+# content-types.yml — Single source of truth for all content types in the repository
+# Consumed by: bec CLI, AGENTS.md, validation logic
+# ~1,400 tokens — designed for fast agent loading
+
+content_types:
+  course:
+    name: Course
+    path_pattern: "courses/{id}/"
+    metadata_file: course.yml
+    schema: schemas/course-scheme.json
+    content_schema: schemas/course-content-scheme.json
+    has_markdown_content: true
+    has_quizzes: true
+    example: courses/btc101
+
+  tutorial:
+    name: Tutorial
+    path_pattern: "tutorials/{category}/{id}/"
+    metadata_file: tutorial.yml
+    schema: schemas/tutorial-scheme.json
+    content_schema: schemas/tutorial-content-scheme.json
+    has_markdown_content: true
+    example: tutorials/wallet/sparrow
+
+  professor:
+    name: Professor
+    path_pattern: "professors/{id}/"
+    metadata_file: professor.yml
+    schema: schemas/professor-scheme.json
+    content_schema: schemas/professor-content-scheme.json
+    has_markdown_content: true
+    example: professors/asi0
+
+  event:
+    name: Event
+    path_pattern: "events/{id}/"
+    metadata_file: event.yml
+    schema: schemas/event-scheme.json
+    has_markdown_content: false
+    example: events/bitcoin-nashville-2024
+
+  bet:
+    name: BET
+    path_pattern: "resources/bet/{id}/"
+    metadata_file: bet.yml
+    schema: schemas/bet-scheme.json
+    content_schema: schemas/bet-content-scheme.json
+    content_uses_yml: true
+    example: resources/bet/artist
+
+  book:
+    name: Book
+    path_pattern: "resources/books/{id}/"
+    metadata_file: book.yml
+    schema: schemas/book-scheme.json
+    content_schema: schemas/book-content-scheme.json
+    content_uses_yml: true
+    example: resources/books/mastering-bitcoin
+
+  channel:
+    name: Channel
+    path_pattern: "resources/channels/{id}/"
+    metadata_file: channel.yml
+    schema: schemas/channel-scheme.json
+    has_markdown_content: false
+    example: resources/channels/robin-seyr
+
+  conference:
+    name: Conference
+    path_pattern: "resources/conferences/{id}/"
+    metadata_file: conference.yml
+    schema: schemas/conference-scheme.json
+    has_markdown_content: false
+    example: resources/conferences/bitcoin-nashville-2024
+
+  glossary:
+    name: Glossary Word
+    path_pattern: "resources/glossary/{id}/"
+    metadata_file: word.yml
+    schema: schemas/word-scheme.json
+    content_schema: schemas/word-content-scheme.json
+    has_markdown_content: true
+    example: resources/glossary/51-percent-attack
+
+  movie:
+    name: Movie
+    path_pattern: "resources/movies/{id}/"
+    metadata_file: movie.yml
+    schema: schemas/movie-scheme.json
+    has_markdown_content: false
+    example: resources/movies/cypherpunks-write-code
+
+  newsletter:
+    name: Newsletter
+    path_pattern: "resources/newsletters/{id}/"
+    metadata_file: newsletter.yml
+    schema: schemas/newsletter-scheme.json
+    has_markdown_content: false
+    example: resources/newsletters/bitcoin-in-a-nutshell
+
+  podcast:
+    name: Podcast
+    path_pattern: "resources/podcasts/{id}/"
+    metadata_file: podcast.yml
+    schema: schemas/podcast-scheme.json
+    has_markdown_content: false
+    example: resources/podcasts/arancione
+
+  project:
+    name: Project
+    path_pattern: "resources/projects/{id}/"
+    metadata_file: project.yml
+    schema: schemas/project-scheme.json
+    content_schema: schemas/project-content-scheme.json
+    content_uses_yml: true
+    example: resources/projects/bitstack
+
+  paper:
+    name: Paper
+    path_pattern: "resources/papers/{id}/"
+    metadata_file: paper.yml
+    schema: schemas/paper-scheme.json
+    has_markdown_content: false
+    example: resources/papers/a-method-for-obtaining-digital-signatures-and-public-key-cryptosystems
+
+tutorial_categories:
+  - business
+  - computer-security
+  - contribution
+  - exchange
+  - mining
+  - node
+  - privacy
+  - wallet
+
+discipline_codes:
+  btc: Bitcoin Core
+  biz: Business
+  csv: Data Analysis
+  cyp: Cryptography
+  dev: Development
+  eco: Economics
+  ene: Energy
+  his: History
+  lnp: Lightning Network
+  min: Mining
+  net: Network
+  phi: Philosophy
+  pos: Point of Sale
+  pro: Protocol
+  scu: Security
+  sid: Sidechains & Layers
+  soc: Sociology
+
+level_range:
+  min: 101
+  max: 499
+  beginner: "101-199"
+  intermediate: "200-299"
+  advanced: "300-399"
+  expert: "400-499"
+
+tags:
+  - proof-of-work
+  - software
+  - mining
+  - fees
+  - hardware
+  - hardware-wallet-ready
+  - wallets
+  - investment
+  - keys
+  - market-trends
+  - finance
+  - onchain
+  - offchain
+  - lightning
+  - decentralization
+  - smart-contracts
+  - DIY
+  - node
+  - backup
+  - guides
+  - use-case
+  - user-friendly
+  - historical
+  - scalability
+  - protocols
+  - layers
+  - sidechains
+  - personal-security
+  - network-security
+  - privacy
+  - regulation
+  - risks
+  - future-outlook
+  - adoption
+  - case-studies
+  - good-practice
+  - innovation
+  - cypherpunk
+  - self-sovereignty
+  - DIY-IT
+  - consensus
+  - development
+  - interoperability
+  - technical-analysis
+  - update
+  - legacy
+  - deep-dive
+  - high-level
+  - easy-explain
+  - experimental
+  - business
+  - evaluation
+
+languages:
+  - ar
+  - bg
+  - cs
+  - de
+  - en
+  - es
+  - et
+  - fa
+  - fi
+  - fr
+  - hi
+  - id
+  - it
+  - ja
+  - ko
+  - nb-NO
+  - nl
+  - pl
+  - pt
+  - ru
+  - si
+  - sk
+  - sr-Latn
+  - sv
+  - sw
+  - th
+  - tr
+  - vi
+  - zh-Hans
+  - zh-Hant
+
+quiz_schemas:
+  question: schemas/quizz-question-scheme.json
+  translation: schemas/quizz-translation-scheme.json

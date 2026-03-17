@@ -286,45 +286,86 @@ def proofread_status(path, json_output):
     run_proofread_status(path=path, json_output=json_output)
 
 
-@cli.group()
-def report():
+@cli.group(invoke_without_command=True)
+@click.option("--all", "run_all", is_flag=True, help="Run all reports.")
+@click.option("--output", default=None, help="Output directory for HTML reports.")
+@click.option("--json", "json_output", is_flag=True, help="Output results as JSON.")
+@click.pass_context
+def report(ctx, run_all, output, json_output):
     """Generate HTML/JSON reports."""
-    pass
+    ctx.ensure_object(dict)
+    ctx.obj["output"] = output
+    ctx.obj["json_output"] = json_output
+    if run_all:
+        from bec.commands.report import run_report_all
+
+        run_report_all(output=output, json_output=json_output)
 
 
 @report.command("translation")
-def report_translation():
+@click.option("--output", default=None, help="Output directory for HTML report.")
+@click.option("--json", "json_output", is_flag=True, help="Output results as JSON.")
+@click.pass_context
+def report_translation(ctx, output, json_output):
     """Generate markdown translation coverage report."""
-    click.echo("report translation: not yet implemented")
-    raise SystemExit(1)
+    from bec.commands.report import run_report_translation
+
+    # Allow parent group options to propagate
+    out = output or ctx.obj.get("output")
+    j = json_output or ctx.obj.get("json_output", False)
+    run_report_translation(output=out, json_output=j)
 
 
 @report.command("images")
-def report_images():
+@click.option("--output", default=None, help="Output directory for HTML report.")
+@click.option("--json", "json_output", is_flag=True, help="Output results as JSON.")
+@click.pass_context
+def report_images(ctx, output, json_output):
     """Generate image translation progress report."""
-    click.echo("report images: not yet implemented")
-    raise SystemExit(1)
+    from bec.commands.report import run_report_images
+
+    out = output or ctx.obj.get("output")
+    j = json_output or ctx.obj.get("json_output", False)
+    run_report_images(output=out, json_output=j)
 
 
 @report.command("video")
-def report_video():
+@click.option("--output", default=None, help="Output directory for HTML report.")
+@click.option("--json", "json_output", is_flag=True, help="Output results as JSON.")
+@click.pass_context
+def report_video(ctx, output, json_output):
     """Generate video deployment status report."""
-    click.echo("report video: not yet implemented")
-    raise SystemExit(1)
+    from bec.commands.report import run_report_video
+
+    out = output or ctx.obj.get("output")
+    j = json_output or ctx.obj.get("json_output", False)
+    run_report_video(output=out, json_output=j)
 
 
 @report.command("proofreading")
-def report_proofreading():
+@click.option("--output", default=None, help="Output directory for HTML report.")
+@click.option("--json", "json_output", is_flag=True, help="Output results as JSON.")
+@click.pass_context
+def report_proofreading(ctx, output, json_output):
     """Generate proofreading dashboard."""
-    click.echo("report proofreading: not yet implemented")
-    raise SystemExit(1)
+    from bec.commands.report import run_report_proofreading
+
+    out = output or ctx.obj.get("output")
+    j = json_output or ctx.obj.get("json_output", False)
+    run_report_proofreading(output=out, json_output=j)
 
 
 @report.command("analytics")
-def report_analytics():
+@click.option("--output", default=None, help="Output directory for HTML report.")
+@click.option("--json", "json_output", is_flag=True, help="Output results as JSON.")
+@click.pass_context
+def report_analytics(ctx, output, json_output):
     """Generate course analytics report."""
-    click.echo("report analytics: not yet implemented")
-    raise SystemExit(1)
+    from bec.commands.report import run_report_analytics
+
+    out = output or ctx.obj.get("output")
+    j = json_output or ctx.obj.get("json_output", False)
+    run_report_analytics(output=out, json_output=j)
 
 
 @cli.command("agent-setup")

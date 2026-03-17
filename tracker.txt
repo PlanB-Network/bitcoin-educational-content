@@ -110,11 +110,49 @@ Commit: f18f67f425
 - [x] LANGUAGE_FACTORS covers all 31 languages with correct difficulty multipliers
 - [x] update_metadata_file preserves non-proofreading YAML fields (line-level section rewrite)
 - [x] 49 new tests, 292 total pass (test_proofread.py: unit + CLI integration tests)
-## Phase 9: Report — Translation Coverage — TODO
-## Phase 10: Report — Image Translation — TODO
-## Phase 11: Report — Video Deployment — TODO
-## Phase 12: Report — Proofreading Dashboard — TODO
-## Phase 13: Report — Course Analytics — TODO
+## Phase 9: Report — Translation Coverage — DONE
+- [x] `bec report translation` generates `docs/reports/md_translation_overview.html`
+- [x] `bec report translation --json` outputs valid JSON with per-content-type, per-language coverage percentages
+- [x] `bec report translation --output /tmp/reports/` writes to custom directory
+- [x] HTML report is self-contained (inline CSS, no external dependencies)
+- [x] Report covers 7 translatable content types (course, tutorial, professor, glossary, book, bet, project)
+- [x] `bec report --all` runs translation report
+- [x] Exit code 0 on success
+- [x] Tests verify HTML generation and JSON output structure (14 tests)
+## Phase 10: Report — Image Translation — DONE
+- [x] `bec report images` generates `docs/reports/image_translation_overview.html`
+- [x] `bec report images --json` outputs valid JSON with per-content-type image translation stats
+- [x] HTML report is self-contained
+- [x] Report correctly identifies images in `assets/{lang}/` vs `assets/no-txt/` patterns
+- [x] `bec report --all` now runs both translation and images reports
+- [x] Tests verify output generation (12 tests)
+## Phase 11: Report — Video Deployment — DONE
+- [x] `bec report video` generates `docs/reports/video_deployment_overview.html`
+- [x] `bec report video --json` outputs valid JSON with per-course video deployment status
+- [x] Report identifies YouTube, PeerTube, and Rumble coverage per language (7 languages tracked)
+- [x] HTML report is self-contained with provider badges (Y/P/B) and coverage color coding
+- [x] `bec report --all` now runs translation, images, and video reports
+- [x] Real repo: 48 courses, 25 with videos, 424 total videos
+- [x] Tests verify output generation (7 tests including real repo)
+## Phase 12: Report — Proofreading Dashboard — DONE
+- [x] `bec report proofreading` generates `docs/reports/proofreading_dashboard.html`
+- [x] `bec report proofreading --json` outputs valid JSON with matrix data, language stats, contributor rankings
+- [x] HTML dashboard includes: matrix view (content × language), language stats, contributor leaderboard
+- [x] HTML report is self-contained (inline CSS)
+- [x] Status color coding: green (2+ contributors), orange (1), red (0)
+- [x] `bec report --all` now runs translation, images, video, and proofreading reports
+- [x] Real repo: 364 items, 28 languages, 1377 proofread entries, 115 contributors
+- [x] Tests verify output generation and JSON structure (8 tests including real repo)
+## Phase 13: Report — Course Analytics — DONE
+- [x] `bec report analytics` generates `docs/reports/course_analytics_report.html`
+- [x] `bec report analytics --json` outputs valid JSON with per-course statistics (word counts, chapter counts, quiz counts)
+- [x] HTML report is self-contained with summary cards, aggregated stats table, and course details table
+- [x] Statistics match actual repo state: 48 courses, 975 chapters, 902,106 words, 3,003 quizzes
+- [x] `bec report --all` now runs all 5 reports: translation, images, video, proofreading, analytics
+- [x] `bec report --all --output /tmp/reports/` writes all 5 reports to custom directory
+- [x] Text cleaning removes markdown formatting, tags, images, links, code blocks for accurate word counts
+- [x] Tests verify output generation and JSON structure (9 tests including real repo)
+- [x] 69 report tests, 368 total pass
 ## Phase 14: Agent Orientation & Setup — TODO
 ## Phase 15: Tag Descriptions in Schemas — TODO
 ## Phase 16: Cleanup & Final Wiring — TODO

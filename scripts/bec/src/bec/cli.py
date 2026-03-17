@@ -234,31 +234,56 @@ def proofread():
 
 
 @proofread.command("update")
-def proofread_update():
+@click.option("--path", default=None, help="Content path (e.g., courses/btc101).")
+@click.option("--lang", default=None, help="Language code (e.g., en, fr).")
+@click.option("--contributor", default=None, help="Contributor GitHub username.")
+@click.option("--recalc", is_flag=True, help="Recalculate rewards after update.")
+@click.option("--json", "json_output", is_flag=True, help="Output result as JSON.")
+def proofread_update(path, lang, contributor, recalc, json_output):
     """Update proofreading metadata for a content item."""
-    click.echo("proofread update: not yet implemented")
-    raise SystemExit(1)
+    from bec.commands.proofread import run_proofread_update
+
+    run_proofread_update(
+        path=path, lang=lang, contributor=contributor,
+        recalc=recalc, json_output=json_output,
+    )
 
 
 @proofread.command("reward")
-def proofread_reward():
+@click.option("--path", default=None, help="Content path (e.g., courses/btc101).")
+@click.option("--lang", default=None, help="Language code (optional, shows all if omitted).")
+@click.option("--json", "json_output", is_flag=True, help="Output result as JSON.")
+def proofread_reward(path, lang, json_output):
     """Calculate proofreading rewards."""
-    click.echo("proofread reward: not yet implemented")
-    raise SystemExit(1)
+    from bec.commands.proofread import run_proofread_reward
+
+    run_proofread_reward(path=path, lang=lang, json_output=json_output)
 
 
 @proofread.command("batch-add")
-def proofread_batch_add():
+@click.option("--contributor", default=None, help="Contributor GitHub username.")
+@click.option("--lang", default=None, help="Language code (e.g., en, fr).")
+@click.option("--recalc", is_flag=True, help="Recalculate rewards after update.")
+@click.option("--json", "json_output", is_flag=True, help="Output result as JSON.")
+@click.argument("paths", nargs=-1)
+def proofread_batch_add(contributor, lang, recalc, json_output, paths):
     """Bulk-update proofreading metadata."""
-    click.echo("proofread batch-add: not yet implemented")
-    raise SystemExit(1)
+    from bec.commands.proofread import run_proofread_batch_add
+
+    run_proofread_batch_add(
+        contributor=contributor, lang=lang, paths=paths,
+        recalc=recalc, json_output=json_output,
+    )
 
 
 @proofread.command("status")
-def proofread_status():
+@click.option("--path", default=None, help="Content path (e.g., courses/btc101).")
+@click.option("--json", "json_output", is_flag=True, help="Output result as JSON.")
+def proofread_status(path, json_output):
     """Show proofreading status for a content item."""
-    click.echo("proofread status: not yet implemented")
-    raise SystemExit(1)
+    from bec.commands.proofread import run_proofread_status
+
+    run_proofread_status(path=path, json_output=json_output)
 
 
 @cli.group()

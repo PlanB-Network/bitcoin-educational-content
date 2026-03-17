@@ -80,8 +80,36 @@ Commit: aa67d61b84
 - [x] Error handling: missing course/language file returns clear error with exit code 1
 - [x] `lib/markdown.py` created with: generate_chapter_id(), build_part_block(), build_chapter_block(), append_to_markdown()
 - [x] 33 new tests, 207 total pass (test_add.py: unit tests for lib/markdown.py + CLI integration tests)
-## Phase 7: Add Quiz & Add Language — TODO
-## Phase 8: Proofread — TODO
+## Phase 7: Add Quiz & Add Language — DONE
+Commit: f18f67f425
+- [x] `bec add quiz --course btc101 --chapter-id <id>` creates next numbered quiz folder (e.g., `quizz/250/`)
+- [x] Quiz folder contains `question.yml` with correct chapterId reference and `en.yml` skeleton
+- [x] Quiz numbering auto-detects existing quizzes and increments (e.g., if 249 exists, creates 250)
+- [x] `bec add language --path courses/btc101 --lang fr` creates `courses/btc101/fr.md`
+- [x] New language file preserves: frontmatter field structure, heading hierarchy, all `<chapterId>` tags, `+++` part separators, `<partId>` tags, image references, video embeds
+- [x] New language file replaces: prose content with `TODO` placeholders, frontmatter values with `TODO`
+- [x] `bec add language` works for tutorials and resources too (both .md and .yml content files)
+- [x] Generated quiz passes structural validation (question.yml matches quiz schema)
+- [x] Invalid language/difficulty/course rejected with clear error messages
+- [x] `--json` flag works for both commands
+- [x] Interactive mode works for both commands (prompts for missing args)
+- [x] 43 new tests, 250 total pass (test_add_quiz_language.py: unit + CLI integration tests)
+## Phase 8: Proofread — DONE
+- [x] `bec proofread update --path courses/btc101 --lang fr --contributor test-user` updates proofreading metadata in the YAML
+- [x] Contributor is appended to the list, not overwriting existing contributors
+- [x] Date is updated to current date
+- [x] `bec proofread reward --path courses/btc101` displays reward calculation for all languages
+- [x] `bec proofread reward --path courses/btc101 --lang ja` displays reward for specific language
+- [x] `bec proofread batch-add --contributor test-user --lang fr courses/btc101 courses/btc102` updates multiple items
+- [x] `bec proofread status --path courses/btc101` shows proofreading status matrix for all languages
+- [x] All subcommands support `--json` output
+- [x] Interactive fallback when no args provided (prompts for required values)
+- [x] No dependency on `inquirer` library
+- [x] `--recalc` flag recalculates rewards after contributor addition
+- [x] lib/proofreading.py: reward formula matches original (BASE_FEE=0.1, 0.001 $/word, halving, max 2 iterations)
+- [x] LANGUAGE_FACTORS covers all 31 languages with correct difficulty multipliers
+- [x] update_metadata_file preserves non-proofreading YAML fields (line-level section rewrite)
+- [x] 49 new tests, 292 total pass (test_proofread.py: unit + CLI integration tests)
 ## Phase 9: Report — Translation Coverage — TODO
 ## Phase 10: Report — Image Translation — TODO
 ## Phase 11: Report — Video Deployment — TODO

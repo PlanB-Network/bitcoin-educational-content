@@ -19,11 +19,31 @@ def cli():
 @click.argument("path", required=False)
 @click.option("--all", "validate_all", is_flag=True, help="Validate all content in the repo.")
 @click.option("--json", "json_output", is_flag=True, help="Output results as JSON.")
-def validate(path, validate_all, json_output):
+@click.option("--courses-only", is_flag=True, help="Validate only courses (requires --all).")
+@click.option("--tutorials-only", is_flag=True, help="Validate only tutorials (requires --all).")
+@click.option("--type", "content_type", default=None, help="Validate a specific content type (requires --all).")
+@click.option("--summary-only", is_flag=True, help="Show only aggregate counts (requires --all).")
+def validate(path, validate_all, json_output, courses_only, tutorials_only, content_type, summary_only):
     """Validate content against schemas."""
-    from bec.commands.validate import run_validate
+    if validate_all:
+        from bec.commands.validate import run_validate_all
 
-    run_validate(path=path, json_output=json_output)
+        # Resolve filter: explicit --type wins, then shortcut flags
+        type_filter = content_type
+        if courses_only:
+            type_filter = "course"
+        elif tutorials_only:
+            type_filter = "tutorial"
+
+        run_validate_all(
+            json_output=json_output,
+            summary_only=summary_only,
+            type_filter=type_filter,
+        )
+    else:
+        from bec.commands.validate import run_validate
+
+        run_validate(path=path, json_output=json_output)
 
 
 @cli.group()

@@ -5,8 +5,11 @@ from pathlib import Path
 
 import yaml
 
+# Prefer CSafeLoader (C extension, ~10x faster) when available
+_BaseLoader = getattr(yaml, "CSafeLoader", yaml.SafeLoader)
 
-class _SafeLoaderNoDate(yaml.SafeLoader):
+
+class _SafeLoaderNoDate(_BaseLoader):
     """SafeLoader that keeps dates as strings instead of converting to datetime."""
 
     pass
@@ -15,7 +18,7 @@ class _SafeLoaderNoDate(yaml.SafeLoader):
 # Remove the implicit date resolver so YAML dates stay as strings
 _SafeLoaderNoDate.yaml_implicit_resolvers = {
     k: [(tag, regexp) for tag, regexp in v if tag != "tag:yaml.org,2002:timestamp"]
-    for k, v in yaml.SafeLoader.yaml_implicit_resolvers.copy().items()
+    for k, v in _BaseLoader.yaml_implicit_resolvers.copy().items()
 }
 
 

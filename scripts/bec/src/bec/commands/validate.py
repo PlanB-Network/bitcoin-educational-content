@@ -20,6 +20,18 @@ from bec.lib.schema import (
 )
 from bec.lib.yaml_utils import load_yaml
 
+# Schema cache — avoids re-reading the same JSON file hundreds of times
+_schema_cache: dict[str, dict] = {}
+
+
+def _load_schema_cached(path: Path) -> dict:
+    """Load a JSON schema with caching."""
+    key = str(path)
+    if key not in _schema_cache:
+        _schema_cache[key] = load_json_schema(path)
+    return _schema_cache[key]
+
+
 # ANSI codes
 _RED = "\033[91m"
 _GREEN = "\033[92m"
@@ -27,6 +39,157 @@ _YELLOW = "\033[93m"
 _CYAN = "\033[96m"
 _BOLD = "\033[1m"
 _END = "\033[0m"
+
+# Maps top-level dir / resource subtype to content type key
+_RESOURCE_DIR_TO_KEY = {
+    "bet": "bet",
+    "books": "book",
+    "channels": "channel",
+    "conferences": "conference",
+    "glossary": "glossary",
+    "movies": "movie",
+    "newsletters": "newsletter",
+    "papers": "paper",
+    "podcasts": "podcast",
+    "projects": "project",
+}
+
+
+# ---------------------------------------------------------------------------
+# Content discovery
+# ---------------------------------------------------------------------------
+
+
+def _discover_content_folders(
+    repo_root: Path,
+    registry: ContentRegistry,
+    type_filter: str | None = None,
+) -> list[tuple[Path, str]]:
+    """Discover all content folders in the repo.
+
+    Args:
+        repo_root: Repository root.
+        registry: Loaded content registry.
+        type_filter: Optional filter — a content type key (e.g. "course", "book"),
+            a top-level dir ("courses", "tutorials"), or a resource path
+            ("resources/books"). Special values: "courses", "tutorials".
+
+    Returns:
+        Sorted list of (folder_path, content_type_key) tuples.
+    """
+    folders: list[tuple[Path, str]] = []
+
+    # Determine which content type keys to scan
+    keys_to_scan = _resolve_type_filter(registry, type_filter)
+
+    for key in keys_to_scan:
+        ct = registry.content_types.get(key)
+        if ct is None:
+            continue
+        folders.extend(_discover_for_type(repo_root, ct))
+
+    folders.sort(key=lambda t: t[0])
+    return folders
+
+
+def _resolve_type_filter(
+    registry: ContentRegistry,
+    type_filter: str | None,
+) -> list[str]:
+    """Resolve a type_filter string to a list of content type keys."""
+    all_keys = list(registry.content_types.keys())
+
+    if type_filter is None:
+        return all_keys
+
+    f = type_filter.lower().strip("/")
+
+    # Direct key match (e.g. "course", "book", "glossary")
+    if f in registry.content_types:
+        return [f]
+
+    # Plural top-level dir match: "courses" → "course", "tutorials" → "tutorial"
+    singular = f.rstrip("s") if f.endswith("s") and not f.endswith("ss") else f
+    if singular in registry.content_types:
+        return [singular]
+
+    # "professors" → "professor", "events" → "event"
+    if singular in registry.content_types:
+        return [singular]
+
+    # Resource path: "resources/books" → "book"
+    if f.startswith("resources/"):
+        subtype = f.split("/", 1)[1].rstrip("/")
+        mapped = _RESOURCE_DIR_TO_KEY.get(subtype)
+        if mapped:
+            return [mapped]
+
+    # Group shortcuts
+    if f in ("course", "courses"):
+        return ["course"]
+    if f in ("tutorial", "tutorials"):
+        return ["tutorial"]
+    if f in ("professor", "professors"):
+        return ["professor"]
+    if f in ("event", "events"):
+        return ["event"]
+
+    # If nothing matched, return empty (will produce zero results)
+    return []
+
+
+def _discover_for_type(
+    repo_root: Path,
+    ct: ContentType,
+) -> list[tuple[Path, str]]:
+    """Discover all content folders for a single content type."""
+    folders: list[tuple[Path, str]] = []
+    pattern = ct.path_pattern  # e.g. "courses/{id}/" or "tutorials/{category}/{id}/"
+
+    parts = pattern.strip("/").split("/")
+    base = repo_root / parts[0]
+
+    if not base.exists() or not base.is_dir():
+        return folders
+
+    # Count how many path segments after the first static prefix
+    # "courses/{id}" → depth 1 under courses/
+    # "tutorials/{category}/{id}" → depth 2 under tutorials/
+    # "resources/books/{id}" → depth 1 under resources/books/
+
+    # Determine the static prefix (dirs before any {placeholder})
+    static_parts: list[str] = []
+    for p in parts:
+        if "{" in p:
+            break
+        static_parts.append(p)
+
+    depth_after_static = len(parts) - len(static_parts)
+    prefix_dir = repo_root / "/".join(static_parts)
+
+    if not prefix_dir.exists() or not prefix_dir.is_dir():
+        return folders
+
+    if depth_after_static == 1:
+        # Direct children (courses/{id}, events/{id}, resources/books/{id}, etc.)
+        for d in sorted(prefix_dir.iterdir()):
+            if d.is_dir() and not d.name.startswith("."):
+                folders.append((d, ct.key))
+    elif depth_after_static == 2:
+        # Two levels deep (tutorials/{category}/{id})
+        for cat_dir in sorted(prefix_dir.iterdir()):
+            if not cat_dir.is_dir() or cat_dir.name.startswith("."):
+                continue
+            for d in sorted(cat_dir.iterdir()):
+                if d.is_dir() and not d.name.startswith("."):
+                    folders.append((d, ct.key))
+
+    return folders
+
+
+# ---------------------------------------------------------------------------
+# Single-folder validation (unchanged from Phase 2)
+# ---------------------------------------------------------------------------
 
 
 def _validate_folder(
@@ -69,7 +232,7 @@ def _validate_folder(
         r.add_warning(f"Schema file not found: {ct.schema}")
         results.append(r)
     else:
-        schema = load_json_schema(schema_abs)
+        schema = _load_schema_cached(schema_abs)
         yaml_data = load_yaml(yaml_path)
         if yaml_data is None:
             yaml_data = {}
@@ -88,7 +251,7 @@ def _validate_folder(
             (repo_root / ct.content_schema) if ct.content_schema else None
         )
         content_schema = (
-            load_json_schema(content_schema_path)
+            _load_schema_cached(content_schema_path)
             if content_schema_path and content_schema_path.exists()
             else None
         )
@@ -134,7 +297,8 @@ def _validate_event_semantics(yaml_data: dict, file_path: str) -> ValidationResu
     if booking and "project_id" not in yaml_data:
         result.add_warning("Booking enabled but no project_id")
 
-    if not booking and yaml_data.get("price_dollars", 0) > 0:
+    price = yaml_data.get("price_dollars")
+    if not booking and price is not None and price > 0:
         result.add_warning("Price set but booking is disabled")
 
     return result
@@ -160,8 +324,8 @@ def _validate_quizzes(
     # Load quiz schemas
     q_schema_path = registry.quiz_schemas.get("question")
     t_schema_path = registry.quiz_schemas.get("translation")
-    q_schema = load_json_schema(repo_root / q_schema_path) if q_schema_path else None
-    t_schema = load_json_schema(repo_root / t_schema_path) if t_schema_path else None
+    q_schema = _load_schema_cached(repo_root / q_schema_path) if q_schema_path else None
+    t_schema = _load_schema_cached(repo_root / t_schema_path) if t_schema_path else None
 
     sub_folders = sorted(
         d for d in quizz_dir.iterdir() if d.is_dir() and not d.name.startswith(".")
@@ -244,6 +408,11 @@ def _validate_quiz_translation_manual(trans_file: Path) -> ValidationResult:
     return result
 
 
+# ---------------------------------------------------------------------------
+# Output helpers
+# ---------------------------------------------------------------------------
+
+
 def _print_results(
     results: list[ValidationResult],
     repo_root: Path,
@@ -287,11 +456,36 @@ def _print_results(
     click.echo(f"{'=' * 60}\n")
 
 
+def _print_summary(
+    items: list[dict],
+    repo_root: Path,
+) -> None:
+    """Print summary-only output for --all --summary-only."""
+    total = len(items)
+    passed = sum(1 for i in items if i["status"] == "passed")
+    with_errors = sum(1 for i in items if i["status"] == "error")
+    with_warnings = sum(1 for i in items if i["status"] == "warning")
+
+    click.echo(f"\n{_BOLD}{'=' * 60}{_END}")
+    click.echo(f"{_BOLD}Validation Summary{_END}")
+    click.echo(f"{'=' * 60}\n")
+    click.echo(f"  Total items:  {total}")
+    click.echo(f"  {_GREEN}Passed:{_END}       {passed}")
+    click.echo(f"  {_RED}Errors:{_END}       {with_errors}")
+    click.echo(f"  {_YELLOW}Warnings:{_END}     {with_warnings}")
+    click.echo(f"\n{'=' * 60}\n")
+
+
+# ---------------------------------------------------------------------------
+# Public entry points
+# ---------------------------------------------------------------------------
+
+
 def run_validate(
     path: str | None,
     json_output: bool,
 ) -> None:
-    """Core validate logic, called from the CLI command."""
+    """Core validate logic for a single path, called from the CLI command."""
     repo_root = find_repo_root()
     registry = load_registry(repo_root)
 
@@ -315,6 +509,123 @@ def run_validate(
         click.echo(json.dumps(output, indent=2))
     else:
         _print_results(results, repo_root)
+
+    # Exit codes: 0=pass, 1=errors, 2=warnings only
+    if total_errors > 0:
+        raise SystemExit(1)
+    elif total_warnings > 0:
+        raise SystemExit(2)
+
+
+def run_validate_all(
+    json_output: bool,
+    summary_only: bool,
+    type_filter: str | None,
+) -> None:
+    """Validate all content in the repo with optional filters."""
+    from tqdm import tqdm
+
+    repo_root = find_repo_root()
+    registry = load_registry(repo_root)
+
+    content_folders = _discover_content_folders(repo_root, registry, type_filter)
+
+    if not content_folders:
+        msg = "No content found"
+        if type_filter:
+            msg += f" for type filter '{type_filter}'"
+        click.echo(msg, err=True)
+        raise SystemExit(1)
+
+    # Aggregate per-item results
+    items: list[dict] = []
+    total_errors = 0
+    total_warnings = 0
+
+    # Use tqdm for progress (only in non-JSON mode)
+    iterator = content_folders
+    if not json_output:
+        iterator = tqdm(
+            content_folders,
+            desc="Validating",
+            unit="item",
+            ncols=80,
+            bar_format="{l_bar}{bar}| {n_fmt}/{total_fmt} [{elapsed}<{remaining}]",
+        )
+
+    for folder, ct_key in iterator:
+        try:
+            rel_path = str(folder.relative_to(repo_root))
+        except ValueError:
+            rel_path = str(folder)
+
+        results = _validate_folder(folder, registry, repo_root)
+        item_errors = sum(len(r.errors) for r in results)
+        item_warnings = sum(len(r.warnings) for r in results)
+        total_errors += item_errors
+        total_warnings += item_warnings
+
+        if item_errors > 0:
+            status = "error"
+        elif item_warnings > 0:
+            status = "warning"
+        else:
+            status = "passed"
+
+        items.append({
+            "path": rel_path,
+            "type": ct_key,
+            "status": status,
+            "errors": [
+                e for r in results for e in r.errors
+            ],
+            "warnings": [
+                w for r in results for w in r.warnings
+            ],
+        })
+
+    # Build summary
+    summary = {
+        "total": len(items),
+        "passed": sum(1 for i in items if i["status"] == "passed"),
+        "errors": sum(1 for i in items if i["status"] == "error"),
+        "warnings": sum(1 for i in items if i["status"] == "warning"),
+    }
+
+    if json_output:
+        output: dict = {"summary": summary, "items": items}
+        click.echo(json.dumps(output, indent=2))
+    elif summary_only:
+        _print_summary(items, repo_root)
+    else:
+        # Print items with issues, then summary
+        click.echo(f"\n{_BOLD}{'=' * 60}{_END}")
+        click.echo(f"{_BOLD}Validation Results{_END}")
+        click.echo(f"{'=' * 60}\n")
+
+        for item in items:
+            if item["status"] == "error":
+                click.echo(f"{_CYAN}{item['path']}{_END} [{item['type']}] — {_RED}FAILED{_END}")
+                for e in item["errors"]:
+                    click.echo(f"  {_RED}ERROR:{_END} {e}")
+                for w in item["warnings"]:
+                    click.echo(f"  {_YELLOW}WARNING:{_END} {w}")
+                click.echo()
+            elif item["status"] == "warning":
+                click.echo(f"{_CYAN}{item['path']}{_END} [{item['type']}] — {_YELLOW}WARNINGS{_END}")
+                for w in item["warnings"]:
+                    click.echo(f"  {_YELLOW}WARNING:{_END} {w}")
+                click.echo()
+
+        # Summary line
+        click.echo(f"{'=' * 60}")
+        click.echo(
+            f"Total: {summary['total']} | "
+            f"{_GREEN}Passed: {summary['passed']}{_END} | "
+            f"{_RED}Errors: {summary['errors']}{_END} | "
+            f"{_YELLOW}Warnings: {summary['warnings']}{_END}"
+        )
+        click.echo(f"{'=' * 60}\n")
 
     # Exit codes: 0=pass, 1=errors, 2=warnings only
     if total_errors > 0:

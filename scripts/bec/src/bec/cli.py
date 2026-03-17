@@ -53,10 +53,26 @@ def new():
 
 
 @new.command("course")
-def new_course():
+@click.option("--id", "course_id", default=None, help="Course ID (e.g., btc101, dev301).")
+@click.option("--topic", default=None, help="Main topic (e.g., bitcoin, mining, security).")
+@click.option("--subtopic", default=None, help="Subtopic (e.g., bitcoin, lightning, cryptography).")
+@click.option("--level", default=None, help="Difficulty level (beginner, intermediate, advanced, expert).")
+@click.option("--lang", default=None, help="Original language code (e.g., en, fr).")
+@click.option("--professor-id", default=None, help="Professor UUID.")
+@click.option("--json", "json_output", is_flag=True, help="Output created file paths as JSON.")
+def new_course(course_id, topic, subtopic, level, lang, professor_id, json_output):
     """Scaffold a new course."""
-    click.echo("new course: not yet implemented")
-    raise SystemExit(1)
+    from bec.commands.new import run_new_course
+
+    run_new_course(
+        course_id=course_id,
+        topic=topic,
+        subtopic=subtopic,
+        level=level,
+        lang=lang,
+        professor_id=professor_id,
+        json_output=json_output,
+    )
 
 
 @new.command("tutorial")

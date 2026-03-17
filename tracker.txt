@@ -29,8 +29,30 @@ Commit: 7696227d75
 - [x] `--json` flag outputs structured JSON with results, total_errors, total_warnings
 - [x] Test fixtures: good-course, good-tutorial, good-event, bad-course
 - [x] 69 tests pass (test_cli, test_content_types, test_repo, test_yaml_utils, test_schema, test_validate)
-## Phase 3: Validate All & JSON Output — TODO
-## Phase 4: Scaffold Course — TODO
+## Phase 3: Validate All & JSON Output — DONE
+Commit: 95be2746f1
+- [x] `bec validate --all` discovers and validates all 2,608 content items with tqdm progress bar
+- [x] `bec validate --all --courses-only` validates only courses
+- [x] `bec validate --all --tutorials-only` validates only tutorials
+- [x] `bec validate --all --type resources/books` validates only books
+- [x] `bec validate --all --json` outputs valid JSON: `{summary: {total, passed, errors, warnings}, items: [{path, type, status, errors, warnings}]}`
+- [x] `bec validate --all --summary-only` shows only aggregate counts
+- [x] Exit code 0 when all pass, 1 when errors exist, 2 when only warnings
+- [x] Performance: full repo validation completes in ~28 seconds (target: <60s)
+- [x] Tests cover filter flags and JSON output parsing (24 new tests, 93 total)
+- [x] Fixed: event semantic validation crash on null price_dollars
+- [x] Optimization: CSafeLoader for YAML (90s → 28s), schema caching
+## Phase 4: Scaffold Course — DONE
+- [x] `bec new course --id btc199 --topic bitcoin --level beginner --lang en --professor-id <uuid>` creates `courses/btc199/` with `course.yml`, `en.md`, `assets/`
+- [x] `course.yml` contains valid UUID, correct topic, level, professor reference, proofreading entry
+- [x] `en.md` contains correct frontmatter (name, goal, objectives as TODO placeholders), `+++` separator, part with `<partId>`, chapter with `<chapterId>`
+- [x] Interactive mode prompts with valid enum choices for topic, subtopic, level, language (from schema + content-types.yml)
+- [x] Course ID format validated: 3-letter discipline code + 3-digit number (e.g., btc101), validated against discipline_codes and level_range
+- [x] UUID auto-generated in valid format for course.yml `id` field
+- [x] Generated course passes `bec validate courses/btc199` (structural validity, exit code 0)
+- [x] `--json` flag outputs created file paths as JSON with course_id, uuid, directory, files
+- [x] Validation rejects: invalid course ID format, unknown discipline code, number out of range, invalid topic/subtopic/level/language, invalid professor UUID, duplicate course directory
+- [x] 30 new tests, 123 total pass (test_new.py: unit tests for helpers + CLI integration tests)
 ## Phase 5: Scaffold Tutorial, Professor, Event, Resource — TODO
 ## Phase 6: Add Part & Chapter — TODO
 ## Phase 7: Add Quiz & Add Language — TODO

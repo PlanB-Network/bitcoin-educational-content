@@ -1,0 +1,3194 @@
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.8.16)  11 DEC 2025 13:55
+ restricted system commands enabled.
+**output/his203_quiz_fr.tex
+(./output/his203_quiz_fr.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+Lua module: luaotfload 2023-08-31 3.26 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 2.76 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "/home/asi0/.texlive2023/texmf-var/l
+uatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-08-19.lua" from kpse-res
+olved path "/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader-2023-
+08-19.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.133
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/home/asi0/.texlive2023/texmf-var/l
+uatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (/usr/share/texlive/tex
+mf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /home/asi0/.texlive2023/texmf-
+var/luatex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen139
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-01-22 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2024-01-04 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count193
+Inserting `l3color' in `luaotfload.parse_color'.
+\l__pdf_internal_box=\box51
+))
+Package: xparse 2023-10-10 L3 Experimental document command parser
+)
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count194
+\l__fontspec_language_int=\count195
+\l__fontspec_strnum_int=\count196
+\l__fontspec_tmp_int=\count197
+\l__fontspec_tmpa_int=\count198
+\l__fontspec_tmpb_int=\count199
+\l__fontspec_tmpc_int=\count266
+\l__fontspec_em_int=\count267
+\l__fontspec_emdef_int=\count268
+\l__fontspec_strong_int=\count269
+\l__fontspec_strongdef_int=\count270
+\l__fontspec_tmpa_dim=\dimen140
+\l__fontspec_tmpb_dim=\dimen141
+\l__fontspec_tmpc_dim=\dimen142
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count271
+\Gm@cntv=\count272
+\c@Gm@tempcnt=\count273
+\Gm@bindingoffset=\dimen143
+\Gm@wd@mp=\dimen144
+\Gm@odd@mp=\dimen145
+\Gm@even@mp=\dimen146
+\Gm@layoutwidth=\dimen147
+\Gm@layoutheight=\dimen148
+\Gm@layouthoffset=\dimen149
+\Gm@layoutvoffset=\dimen150
+\Gm@dimlist=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip50
+\enit@outerparindent=\dimen151
+\enit@toks=\toks19
+\enit@inbox=\box52
+\enit@count@id=\count274
+\enitdp@description=\count275
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip51
+\f@nch@O@elh=\skip52
+\f@nch@O@erh=\skip53
+\f@nch@O@olh=\skip54
+\f@nch@O@orh=\skip55
+\f@nch@O@elf=\skip56
+\f@nch@O@erf=\skip57
+\f@nch@O@olf=\skip58
+\f@nch@O@orf=\skip59
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2023/10/14 v2.0e lastpage: 2.09 or 2e? (HMM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage2e.sty
+Package: lastpage2e 2023/10/14 v2.0e Decide which 2e lastpage version to use (H
+MM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
+Package: lastpagemodern 2023-10-14 v2.0e Refers to last page's name (HMM; JPG)
+\c@lastpagecount=\count276
+) 
+)) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks20
+))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count277
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count278
+)
+\@linkdim=\dimen152
+\Hy@linkcounter=\count279
+\Hy@pagecounter=\count280
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count281
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4179.
+Package hyperref Info: Link nesting OFF on input line 4184.
+Package hyperref Info: Hyper index ON on input line 4187.
+Package hyperref Info: Plain pages OFF on input line 4194.
+Package hyperref Info: Backreferencing OFF on input line 4199.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4446.
+\c@Hy@tempcnt=\count282
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4784.
+\XeTeXLinkMargin=\dimen153
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count283
+\Field@Width=\dimen154
+\Fld@charsize=\dimen155
+Package hyperref Info: Hyper figures OFF on input line 6063.
+Package hyperref Info: Link nesting OFF on input line 6068.
+Package hyperref Info: Hyper index ON on input line 6071.
+Package hyperref Info: backreferencing OFF on input line 6078.
+Package hyperref Info: Link coloring OFF on input line 6083.
+Package hyperref Info: Link coloring with OCG OFF on input line 6088.
+Package hyperref Info: PDF/A mode OFF on input line 6093.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count284
+\c@Item=\count285
+\c@Hfootnote=\count286
+)
+Package hyperref Info: Driver (autodetected): hluatex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2024-01-20 v7.01h Hyperref driver for luaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count287
+\c@bookmark@seq@number=\count288
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip60
+)
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: Font family 'IBMPlexSans(0)' created for font
+(fontspec)             'IBMPlexSans' with options
+(fontspec)             [Ligatures=TeX,Path=/home/asi0/asi0-repos/bitcoin-educat
+ional-content/scripts/quizz_to_pdfs/fonts/TrueType/IBM-Plex-Sans/,Extension=.tt
+f,UprightFont=*-Regular,BoldFont=*-Bold,Scale=1.0].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1.0]"[/home/asi0/asi0-repos/bitcoin-educational-co
+ntent/scripts/quizz_to_pdfs/fonts/TrueType/IBM-Plex-Sans/IBMPlexSans-Regular.tt
+f]:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.0]"[/home/asi0/asi0-repos/bitcoin-educational-co
+ntent/scripts/quizz_to_pdfs/fonts/TrueType/IBM-Plex-Sans/IBMPlexSans-Bold.ttf]:
+mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 16.
+
+(./output/his203_quiz_fr.aux)
+\openout1 = his203_quiz_fr.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+9.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 29.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 29.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 29.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 29.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 29.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 29.
+LaTeX Font Info:    Redeclaring math accent \check on input line 29.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 29.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 29.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 29.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/IBMPlexSans(0)/m/n on input line 29.
+
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/IBMPlexSans(0)/m/n on input line 29
+.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/IBMPlexSans(0)/m/n --> TU/IBMPlexSans(0)/m/n on inpu
+t line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/IBMPlexSans(0)/m/it on input line 2
+9.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/IBMPlexSans(0)/b/n on input line 29
+.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 29.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/IBMPlexSans(0)/m/n --> TU/IBMPlexSans(0)/b/n on inpu
+t line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/IBMPlexSans(0)/b/it on input line 
+29.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 29.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Link coloring OFF on input line 29.
+(./output/his203_quiz_fr.out) (./output/his203_quiz_fr.out)
+\@outlinefile=\write3
+
+\openout3 = his203_quiz_fr.out
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
+(Font)              scaled to size 20.74pt on input line 32.
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 32.
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 32.
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 32.
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
+(Font)              scaled to size 17.28pt on input line 34.
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/b/n' will be
+(Font)              scaled to size 17.28pt on input line 34.
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/b/n' will be
+(Font)              scaled to size 14.4pt on input line 40.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[2]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3]
+Overfull \hbox (10.42792pt too wide) in paragraph at lines 203--204
+[]\TU/IBMPlexSans(0)/m/n/12 Un en-trepreneur améri-cain ex-péri-menté dans le
+ do-maine des plate-formes d’échange
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7]
+Overfull \hbox (2.09195pt too wide) in paragraph at lines 405--406
+\TU/IBMPlexSans(0)/m/n/12 Quelle école de pen-sée économique est par-ti-c-uli
+ère-ment ap-pré-ciée par les lib-er-tariens
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12]
+Overfull \hbox (0.86397pt too wide) in paragraph at lines 639--640
+\TU/IBMPlexSans(0)/m/n/12 Quel était l’ar-gu-ment prin-ci-pal de Paul Krug-ma
+n con-tre Bit-coin dans son ar-ti-cle ’Golden
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13]
+Overfull \hbox (1.19598pt too wide) in paragraph at lines 671--672
+[]\TU/IBMPlexSans(0)/m/n/12 Elle per-me-t-tait de véri-fier les trans-ac-tions sans t
+élécharger l’in-té-gral-ité de la chaîne
+ []
+
+
+Overfull \hbox (11.47192pt too wide) in paragraph at lines 684--685
+[]\TU/IBMPlexSans(0)/m/n/12 La né-ces-sité de faire des sauve-g-ardes répét
+ées du fichier wal-let.dat à chaque généra-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15]
+Overfull \hbox (0.22801pt too wide) in paragraph at lines 743--744
+\TU/IBMPlexSans(0)/m/n/12 Quel était le prin-ci-pal ob-jec-tif de Gre-gory Maxw
+ell en pro-posant les porte-feuilles déter-
+ []
+
+
+Overfull \hbox (12.71597pt too wide) in paragraph at lines 748--749
+[]\TU/IBMPlexSans(0)/m/n/12 Ré-duire la taille de stock-age néces-saire pour 
+sauve-g-arder l’en-sem-ble des clés privées 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17]
+Overfull \hbox (15.39601pt too wide) in paragraph at lines 813--814
+[]\TU/IBMPlexSans(0)/m/n/12 Servir d’outil péd-a-gogique pour aider le grand pub-lic 
+à vi-su-aliser une mon-naie virtuelle
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[18]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19]
+Overfull \hbox (19.51413pt too wide) in paragraph at lines 899--900
+\TU/IBMPlexSans(0)/m/n/12 Pourquoi la méth-ode Pay Per Last N Shares (PPLNS) d
+évelop-pée par Wuked pour Mineco.in
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[21]
+! Missing $ inserted.
+<inserted text> 
+$
+l.977 ...sell O'Connor concernant la proposition OP_
+                                                  EVAL?
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 977.
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 977.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 977.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 977.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 977.
+! Missing $ inserted.
+<inserted text> 
+$
+l.978 
+    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.990 ...ay to Script Hash (P2SH) par rapport à OP_
+                                                  EVAL?
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.991 
+    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.993 ...ript sans l'exécuter, contrairement à OP_
+                                                  EVAL qui nécessitait l'ex...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.994 \item
+          P2SH évitait complètement le risque de scission de chaîne contr...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.994 \item P
+           2SH évitait complètement le risque de scission de chaîne contr...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.994 \item P
+           2SH évitait complètement le risque de scission de chaîne contr...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.995 \item
+          P2SH bénéficiait du soutien unanime de tous les développeurs pr...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.995 \item P
+           2SH bénéficiait du soutien unanime de tous les développeurs pr...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.995 \item P
+           2SH bénéficiait du soutien unanime de tous les développeurs pr...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no è (U+00E8) in font cmmi12!
+Missing character: There is no è (U+00E8) in font cmmi12!
+Missing character: There is no î (U+00EE) in font cmmi12!
+Missing character: There is no î (U+00EE) in font cmmi12!
+
+Overfull \hbox (193.46263pt too wide) in paragraph at lines 993--995
+\TU/IBMPlexSans(0)/m/n/12 OP$[][]\OML/cmm/m/it/12 VALquincessitaitl[]excution[]
+[]P\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 SHvitaitcompltementlerisquedescissiondechan
+econtrairementauxautrespropositions[][]$ 
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.995 \item P
+           2SH bénéficiait du soutien unanime de tous les développeurs pr...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.1003 ...tait le principal défaut technique d'OP_
+                                                  EVAL qui a conduit à son ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.1004 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no à (U+00E0) in font cmmi12!
+Missing character: There is no à (U+00E0) in font cmmi12!
+
+Overfull \hbox (88.61958pt too wide) in paragraph at lines 1003--1004
+\TU/IBMPlexSans(0)/m/n/12 Quel était le prin-ci-pal dé-faut tech-nique d’OP$[][]\OML/cmm/m/it/12 VALquiaconduitsonabandonauprofitdePaytoScriptHash\OT1/cmr/m/n/12 ?$ 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22]
+! Missing $ inserted.
+<inserted text> 
+$
+l.1022 ...incipaux qui préféraient la solution OP_
+                                                  EVAL originale
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Command \end{enumerate} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1023 \end{enumerate}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1023 \end{enumerate}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1023 \end{enumerate}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.1023 \end{enumerate}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (48.9926pt too wide) in paragraph at lines 1022--1024
+[]\TU/IBMPlexSans(0)/m/n/12 L’op-po-si-tion unanime des développeurs prin-ci-
+paux qui préféraient la so-lu-tion OP$[][]\OML/cmm/m/it/12 VALoriginale$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.1034 ... remplaçait complètement le système OP_
+                                                  CHECKMULTISIG par un nouve...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1035 \item
+           Il augmentait le nombre maximum de signataires possibles de 3 à ...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1035 \item I
+            l augmentait le nombre maximum de signataires possibles de 3 à ...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1035 \item I
+            l augmentait le nombre maximum de signataires possibles de 3 à ...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Command \end{enumerate} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1036 \end{enumerate}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1036 \end{enumerate}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1036 \end{enumerate}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.1036 \end{enumerate}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no à (U+00E0) in font cmmi12!
+
+Overfull \hbox (566.61456pt too wide) in paragraph at lines 1034--1037
+[]\TU/IBMPlexSans(0)/m/n/12 Il rem-plaçait com-plète-ment le sys-tème OP$[][
+]\OML/cmm/m/it/12 HECKMULTISIGparunnouveaumcanismedevalidation[][]Ilaugmentaitle
+nombremaximumdesignatairespossiblesde\OT1/cmr/m/n/12 315\OML/cmm/m/it/12 partici
+pantsdansunetransaction$ 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23]
+! Missing $ inserted.
+<inserted text> 
+$
+l.1060 \item Il introduisait l'opérateur OP_
+                                           CHECKMULTISIG pour les signatures...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1061 \item
+           Il interdisait aux blocs futurs de contenir des transactions avec...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1061 \item I
+            l interdisait aux blocs futurs de contenir des transactions avec...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1061 \item I
+            l interdisait aux blocs futurs de contenir des transactions avec...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Command \end{enumerate} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1062 \end{enumerate}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1062 \end{enumerate}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1062 \end{enumerate}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.1062 \end{enumerate}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no à (U+00E0) in font cmmi12!
+Missing character: There is no à (U+00E0) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no è (U+00E8) in font cmmi12!
+Missing character: There is no è (U+00E8) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+
+Overfull \hbox (797.88548pt too wide) in paragraph at lines 1060--1063
+[]\TU/IBMPlexSans(0)/m/n/12 Il in-tro-dui-sait l’opéra-teur OP$[][]\OML/cmm/
+m/it/12 HECKMULTISIGpourlessignaturesmultipartitesdansleprotocoleBitcoin[][]Ilin
+terdisaitauxblocsfutursdecontenirdestransactionsavecdesidentifiantsidentiquesdes
+transactionsantrieuresnonentirementdpenses$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.1068 ... a proposé d'utiliser les opérateurs OP_
+                                                  NOP pour implémenter les ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.1069 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+! Missing $ inserted.
+<inserted text> 
+$
+l.1074 ...r automatiquement le bug présent dans OP_
+                                                  CHECKMULTISIG
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Command \end{enumerate} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1075 \end{enumerate}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1075 \end{enumerate}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1075 \end{enumerate}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.1075 \end{enumerate}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[24]
+! Missing $ inserted.
+<inserted text> 
+$
+l.1099 ...ition technique alternative basée sur OP_
+                                                  CHECKHASHVERIFY
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1100 \item
+           Il préférait maintenir sa position dominante sur le réseau ave...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1100 \item I
+            l préférait maintenir sa position dominante sur le réseau ave...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1100 \item I
+            l préférait maintenir sa position dominante sur le réseau ave...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Command \end{enumerate} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1101 \end{enumerate}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1101 \end{enumerate}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1101 \end{enumerate}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.1101 \end{enumerate}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+
+Overfull \hbox (379.05061pt too wide) in paragraph at lines 1099--1102
+[]\TU/IBMPlexSans(0)/m/n/12 Il voulait im-poser sa pro-pre propo-si-tion tech-ni
+que al-ter-na-tive basée sur OP$[][]\OML/cmm/m/it/12 HECKHASHVERIFY[][]Ilprfrai
+tmaintenirsapositiondominantesurlerseauavec\OT1/cmr/m/n/12 30$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.1123 ...Un bug de récursion dans l'opérateur OP_
+                                                  CHECKMULTISIG qui permetta...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1124 \item
+           La possibilité de supprimer toutes les transactions dérivées d...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1124 \item L
+            a possibilité de supprimer toutes les transactions dérivées d...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1124 \item L
+            a possibilité de supprimer toutes les transactions dérivées d...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1125 \item
+           Un défaut dans le système de signalement des mineurs qui permet...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.1125 \item U
+            n défaut dans le système de signalement des mineurs qui permet...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.1125 \item U
+            n défaut dans le système de signalement des mineurs qui permet...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no î (U+00EE) in font cmmi12!
+Missing character: There is no î (U+00EE) in font cmmi12!
+
+Overfull \hbox (761.03635pt too wide) in paragraph at lines 1123--1125
+[]\TU/IBMPlexSans(0)/m/n/12 Un bug de récur-sion dans l’opéra-teur OP$[][]\
+OML/cmm/m/it/12 HECKMULTISIGquipermettaitdesbouclesinfiniesdanslesscripts[][]Lap
+ossibilitdesupprimertouteslestransactionsdrivesd[]unetransactiondercompenseendou
+bleviaunerorganisationdechane[][]$ 
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.1125 \item U
+            n défaut dans le système de signalement des mineurs qui permet...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+Overfull \hbox (2.56793pt too wide) in paragraph at lines 1126--1127
+[]\TU/IBMPlexSans(0)/m/n/12 Une vul-néra-bil-ité dans l’in-ter-face Bitcoin-
+Qt qui ex-po-sait les clés privées lors des trans-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[25]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[26]
+Overfull \hbox (4.44392pt too wide) in paragraph at lines 1177--1178
+[]\TU/IBMPlexSans(0)/m/n/12 L’al-go-rithme Scrypt ne fonc-tion-nait pas cor-re
+cte-ment et générait des blocs in-valides 
+ []
+
+
+Overfull \hbox (3.28798pt too wide) in paragraph at lines 1214--1215
+[]\TU/IBMPlexSans(0)/m/n/12 Mon-trer que trois types d’au-torités cen-trales doivent valider si-mul-tan
+é-ment chaque
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[27]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[28]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[29]
+Overfull \hbox (7.72395pt too wide) in paragraph at lines 1294--1295
+[]\TU/IBMPlexSans(0)/m/n/12 In-stau-rer des com-mis-sions vari-ables selon le ty
+pe de pro-duit vendu pour dé-courager
+ []
+
+
+Overfull \hbox (12.59195pt too wide) in paragraph at lines 1302--1303
+\TU/IBMPlexSans(0)/m/n/12 Quelle était la prin-ci-pale in-no-va-tion tech-nique
+ in-tro-duite par Lo-cal-Bit-coins pour sécuriser
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[30]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[31]
+Overfull \hbox (11.33194pt too wide) in paragraph at lines 1385--1386
+[]\TU/IBMPlexSans(0)/m/n/12 Il per-me-t-tait d’acheter des bit-coins de mani
+ère to-tale-ment con-fi-den-tielle sans laisser
+ []
+
+
+! LaTeX Error: Command \end{enumerate} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1400 \end{enumerate}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1400 \end{enumerate}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1400 \end{enumerate}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.1400 \end{enumerate}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (208.8846pt too wide) in paragraph at lines 1399--1401
+[]\TU/IBMPlexSans(0)/m/n/12 BTCK-ing re-spec-tait scrupuleuse-ment les lim-ites de d
+épôt de 1000$\OML/cmm/m/it/12 etutilisaitdesadressesemaildistinctespourchaquet
+ransaction$ 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[32]
+Overfull \hbox (2.49191pt too wide) in paragraph at lines 1422--1423
+[]\TU/IBMPlexSans(0)/m/n/12 Bit-Pay avançait les dol-lars aux com-merçants con
+-tre une com-mis-sion et se chargeait
+ []
+
+
+Overfull \hbox (11.20392pt too wide) in paragraph at lines 1437--1438
+[]\TU/IBMPlexSans(0)/m/n/12 Un sys-tème de géolo-cal-i-sa-tion en temps réel pour surveiller les ren-con-tres physiques 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[33]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[34]
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1488 \item
+           45 bitcoins (environ 225 $ à l'époque)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1488 \item 4
+            5 bitcoins (environ 225 $ à l'époque)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1488 \item 4
+            5 bitcoins (environ 225 $ à l'époque)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no à (U+00E0) in font cmmi12!
+Missing character: There is no à (U+00E0) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1490 \item
+           34 500 bitcoins (environ 371 910 $ à l'époque)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1490 \item 3
+            4 500 bitcoins (environ 371 910 $ à l'époque)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1490 \item 3
+            4 500 bitcoins (environ 371 910 $ à l'époque)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no à (U+00E0) in font cmmi12!
+Missing character: There is no à (U+00E0) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+
+Overfull \hbox (40.38402pt too wide) in paragraph at lines 1523--1524
+\TU/IBMPlexSans(0)/m/n/12 Quelle était la pro-por-tion ap-prox-i-ma-tive des tr
+ans-ac-tions Bit-coin représen-tée par SatoshiDICE
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[35]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[36]
+Overfull \hbox (0.49991pt too wide) in paragraph at lines 1568--1569
+[]\TU/IBMPlexSans(0)/m/n/12 Pour ré-duire sa re-spon-s-abil-ité per-son-nelle face aux cri-tiques tech-niques de la com-
+ []
+
+! Misplaced alignment tab character &.
+l.1601 ...d'intérêt proposé par Bitcoin Savings &
+                                                   Trust de Trendon Shavers?
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[37]
+Overfull \hbox (3.88794pt too wide) in paragraph at lines 1619--1620
+[]\TU/IBMPlexSans(0)/m/n/12 Il a pi-raté di-recte-ment les serveurs de Lin-ode pour ac-c
+éder aux porte-feuilles chauds
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[38]
+Overfull \hbox (16.68793pt too wide) in paragraph at lines 1656--1657
+[]\TU/IBMPlexSans(0)/m/n/12 Il souhaitait se con-cen-trer sur ses études en Aus
+-tralie et aban-don-ner l’en-trepreneuriat 
+ []
+
+! Misplaced alignment tab character &.
+l.1679 ... lors de la fermeture de Bitcoin Savings &
+                                                   Trust le 17 août 2012?
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[39]
+Missing character: There is no à (U+00E0) in font cmmi12!
+Missing character: There is no à (U+00E0) in font cmmi12!
+
+! LaTeX Error: Command \end{enumerate} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1686 \end{enumerate}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1686 \end{enumerate}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1686 \end{enumerate}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.1686 \end{enumerate}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Misplaced alignment tab character &.
+l.1705 ...s rendements élevés de Bitcoin Savings &
+                                                   Trust?
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.1718 ...nt les fonds gérés par Bitcoin Savings &
+                                                   Trust à son apogée?
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (21.93195pt too wide) in paragraph at lines 1731--1732
+\TU/IBMPlexSans(0)/m/n/12 Quel événe-ment spé-ci-fique a di-recte-ment caus
+é la vul-néra-bil-ité ex-ploitée lors du troisième
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[40]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[41]
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/b/n' will be
+(Font)              scaled to size 12.0pt on input line 1760.
+
+
+LaTeX Font Warning: Font shape `TU/IBMPlexSans(0)/m/it' undefined
+(Font)              using `TU/IBMPlexSans(0)/m/n' instead on input line 1761.
+
+
+Overfull \hbox (51.52794pt too wide) in paragraph at lines 1760--1762
+\TU/IBMPlexSans(0)/m/n/12 nonce de re-crute-ment qui révélait son adresse emai
+l per-son-nelle rossul-bricht@gmail.com.
+ []
+
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/it' will be
+(Font)              scaled to size 12.0pt on input line 1764.
+
+Overfull \hbox (9.9pt too wide) in paragraph at lines 1766--1768
+\TU/IBMPlexSans(0)/m/it/12 Ross Ul-bricht avait créé un blog Word-press à l
+’adresse silkroad420.word-press.com
+ []
+
+
+Overfull \hbox (5.65324pt too wide) in paragraph at lines 1772--1774
+\TU/IBMPlexSans(0)/m/it/12 an-nées 1970. Cette philoso-phie poli-tique prône 
+l’util-i-sa-tion de l’économie souter-
+ []
+
+
+Overfull \hbox (12.5959pt too wide) in paragraph at lines 1772--1774
+\TU/IBMPlexSans(0)/m/it/12 Mur-ray Roth-bard et Joseph Salerno soient tous des 
+économistes de l’école autrichi-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[42]
+Overfull \hbox (37.65274pt too wide) in paragraph at lines 1781--1783
+\TU/IBMPlexSans(0)/m/it/12 sys-tème cen-tral-isé qui pou-vait être ar-rêt
+é par les au-torités, e-gold était un prédécesseur
+ []
+
+
+Overfull \hbox (0.93993pt too wide) in paragraph at lines 1787--1789
+\TU/IBMPlexSans(0)/m/it/12 Ross Ul-bricht était pro-fondé-ment in-flu-encé pa
+r la philoso-phie agoriste de Samuel
+ []
+
+
+Overfull \hbox (7.11995pt too wide) in paragraph at lines 1787--1789
+\TU/IBMPlexSans(0)/m/it/12 Ed-ward Konkin III, qui prône l’util-i-sa-tion de l
+’économie souter-raine comme moyen
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[43]
+Missing character: There is no à (U+00E0) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no è (U+00E8) in font cmmi12!
+Missing character: There is no è (U+00E8) in font cmmi12!
+
+Overfull \hbox (161.47078pt too wide) in paragraph at lines 1799--1801
+\TU/IBMPlexSans(0)/m/it/12 nip-u-la-tion lui a per-mis de re-tirer 2 000 BTC (so
+it 35 000 $\OML/cmm/m/it/12 aucoursdel[]poque\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 
+enrespectantlalimitejournalirede\OT1/cmr/m/n/12 1000$\TU/IBMPlexSans(0)/m/it/12
+ .
+ []
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+        
+l.1809 ...oins pour la perte de Bitomat en juillet.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.1810 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.1810 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+
+Overfull \hbox (202.89874pt too wide) in paragraph at lines 1808--1810
+\TU/IBMPlexSans(0)/m/it/12 pour Allinvain en juin, 50 000 $\OML/cmm/m/it/12 pour
+leretraitnonautorisviaLibertyReserve; et\OT1/cmr/m/n/12 17000\OML/cmm/m/it/12 bi
+tcoinspourlapertedeBitomatenjuillet:[]$ 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[44]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[45]
+! Extra }, or forgotten $.
+<recently read> \egroup 
+        
+l.1830 ...age dans l'écosystème Bitcoin naissant.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.1831 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.1831 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no è (U+00E8) in font cmmi12!
+Missing character: There is no è (U+00E8) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no ç (U+00E7) in font cmmi12!
+Missing character: There is no ç (U+00E7) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no è (U+00E8) in font cmmi12!
+Missing character: There is no è (U+00E8) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no è (U+00E8) in font cmmi12!
+Missing character: There is no è (U+00E8) in font cmmi12!
+
+Overfull \hbox (1021.85287pt too wide) in paragraph at lines 1829--1831
+\TU/IBMPlexSans(0)/m/it/12 259 685 bit-coins à 0,0101 $\OML/cmm/m/it/12 chacun:
+SuspectparMarkKarpelsd[]agirencollusionaveclepirate; ilaprouvsabonnefoienplaantl
+esbitcoinssuruncomptesquestreauprsdeClearCoin:Lesfondsonttlibrsunmoisplustard; 
+dmontrantl[]utilitdeceserviced[]arbitragedansl[]cosystmeBitcoinnaissant:[]$ 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[46]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[47]
+Overfull \hbox (13.02475pt too wide) in paragraph at lines 1865--1867
+\TU/IBMPlexSans(0)/m/it/12 matérielle an-térieure, ne pou-vait pas de-venir un
+e vraie mon-naie selon cette théorie.
+ []
+
+
+Overfull \hbox (4.84465pt too wide) in paragraph at lines 1865--1867
+\TU/IBMPlexSans(0)/m/it/12 Les autres op-tions sont in-cor-rectes car Bit-coin 
+est dé-cen-tral-isé, non-inflationniste
+ []
+
+Missing character: There is no à (U+00E0) in font cmmi12!
+! Extra }, or forgotten $.
+<recently read> \egroup 
+        
+l.1869 ...nt pas aux faits historiques présentés.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.1870 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.1870 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no è (U+00E8) in font cmmi12!
+Missing character: There is no è (U+00E8) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+
+Overfull \hbox (519.60199pt too wide) in paragraph at lines 1868--1870
+\TU/IBMPlexSans(0)/m/it/12 prix de 32$\OT1/cmr/m/n/12 6$ \TU/IBMPlexSans(0)/m/i
+t/12 puis jusqu’à 2$\OML/cmm/m/it/12 ennovembre:Lesautresrponsesmentionnentde
+svnementsquisesontproduitsaprsledbutdumarchbaissierouquinecorrespondentpasauxfai
+tshistoriquesprsents:[]$ 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[48]
+Overfull \hbox (2.06265pt too wide) in paragraph at lines 1886--1888
+\TU/IBMPlexSans(0)/m/it/12 trans-fert d’ar-gent vers Mt. Gox. Comme cette plat
+e-forme était in-stal-lée au Japon,
+ []
+
+
+Overfull \hbox (0.95193pt too wide) in paragraph at lines 1892--1894
+\TU/IBMPlexSans(0)/m/it/12 des obli-ga-tions sans passer par les au-torités de r
+égu-la-tion tra-di-tion-nelles comme
+ []
+
+
+Overfull \hbox (21.00528pt too wide) in paragraph at lines 1892--1894
+\TU/IBMPlexSans(0)/m/it/12 un mod-èle fi-nancier al-ter-natif selon l’ap-proc
+he agoriste. Les autres op-tions décrivent
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[49]
+Overfull \hbox (5.42073pt too wide) in paragraph at lines 1895--1897
+\TU/IBMPlexSans(0)/m/it/12 trad-ing sur marge dans l’écosys-tème Bit-coin, 
+per-me-t-tant aux util-isa-teurs d’utiliser
+ []
+
+
+Overfull \hbox (2.80952pt too wide) in paragraph at lines 1898--1900
+\TU/IBMPlexSans(0)/m/it/12 Paul Krug-man, économiste néokeynésien et prix No-
+bel, a cri-tiqué Bit-coin en étab-
+ []
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+        
+l.1902 ... créer un système financier alternatif.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.1903 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.1903 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no à (U+00E0) in font cmmi12!
+Missing character: There is no à (U+00E0) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no è (U+00E8) in font cmmi12!
+Missing character: There is no è (U+00E8) in font cmmi12!
+Missing character: There is no ô (U+00F4) in font cmmi12!
+Missing character: There is no ô (U+00F4) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no è (U+00E8) in font cmmi12!
+Missing character: There is no è (U+00E8) in font cmmi12!
+
+Overfull \hbox (942.00078pt too wide) in paragraph at lines 1901--1903
+\TU/IBMPlexSans(0)/m/it/12 bit-coins (en-v-i-ron 16 000 $\OML/cmm/m/it/12 l[]poq
+ue\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 enfvrier\OT1/cmr/m/n/12 2012\OML/cmm/m/it/1
+2 :Cetteapprocheillustraitparfaitementlaphilosophiedecontournementdesrgulationsf
+inancirestraditionnellesprneparlesentrepreneursBitcoindel[]poque; utilisantlacry
+ptomonnaiepourcrerunsystmefinancieralternatif:[]$ 
+ []
+
+
+Overfull \hbox (10.2013pt too wide) in paragraph at lines 1907--1909
+\TU/IBMPlexSans(0)/m/it/12 son fichier wal-let.dat. Les porte-feuilles déter-mi
+n-istes per-me-t-tent de dériver toutes
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[50]
+Overfull \hbox (1.21675pt too wide) in paragraph at lines 1913--1915
+\TU/IBMPlexSans(0)/m/it/12 ap-pelée graine (seed), con-traire-ment aux porte-fe
+uilles tra-di-tion-nels qui génèrent
+ []
+
+
+Overfull \hbox (2.01674pt too wide) in paragraph at lines 1913--1915
+\TU/IBMPlexSans(0)/m/it/12 l’in-té-gral-ité des fonds, élim-i-nant le be-so
+in de sauve-g-arder con-stam-ment le fichier
+ []
+
+
+Overfull \hbox (1.31593pt too wide) in paragraph at lines 1916--1918
+\TU/IBMPlexSans(0)/m/it/12 comme ’https://in-stawal-let.org/w/rq2SB02ai6Bn-WaE
+-By-wAlP52cw7qwUAA’, qui
+ []
+
+
+Overfull \hbox (1.61269pt too wide) in paragraph at lines 1925--1927
+\TU/IBMPlexSans(0)/m/it/12 un mélange im-mé-diat, Bit-coin Fog im-po-sait aux util-isa-teurs de main-tenir un solde
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[51]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[52]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[53]
+Overfull \hbox (4.66551pt too wide) in paragraph at lines 1970--1972
+\TU/IBMPlexSans(0)/m/it/12 de mem-bres de la com-mu-nauté, no-tam-ment Graeme 
+Tee d’Oz-coin, qui es-ti-maient
+ []
+
+
+Overfull \hbox (12.01324pt too wide) in paragraph at lines 1970--1972
+\TU/IBMPlexSans(0)/m/it/12 tic-i-pants n’étaient pas in-for-més de ces ajout
+s. Bien que Luke-Jr ait d’abord défendu
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[54]
+! Missing $ inserted.
+<inserted text> 
+$
+l.1977 ...ificativement la taille des transactions.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+        
+l.1977 ...ificativement la taille des transactions.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.1978 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.1978 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no è (U+00E8) in font cmmi12!
+Missing character: There is no è (U+00E8) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no è (U+00E8) in font cmmi12!
+Missing character: There is no è (U+00E8) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+
+Overfull \hbox (2336.40297pt too wide) in paragraph at lines 1976--1978
+\TU/IBMPlexSans(0)/m/it/12 Russell O’Con-nor a iden-ti-fié deux dé-fauts ma-
+jeurs dans OP$[][]\OML/cmm/m/it/12 VAL \OT1/cmr/m/n/12 : \OML/cmm/m/it/12 premir
+ement; lerisquedercursionquipourraitfairetournerleprogrammeindfiniment\OT1/cmr/
+m/n/12 (\OML/cmm/m/it/12 ilad[]ailleurstrouvunefailledercursionenseulement\OT1/
+cmr/m/n/12 70\OML/cmm/m/it/12 minutesd[]examen\OT1/cmr/m/n/12 )\OML/cmm/m/it/12
+ ; etdeuximement; l[]impossibilitd[]analyserstatiquementlescriptpourcompterlesop
+rateursdesignatureavantsonexcution:CeslimitationsrendaientOP[]VALdangereuxetimpr
+visible; contrairementauxautresoptionsproposesquitaientrtrocompatiblesetn[]augme
+ntaientpassignificativementlatailledestransactions:[]$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.1980 ...ft forks évitant la scission de chaîne.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+        
+l.1980 ...ft forks évitant la scission de chaîne.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.1981 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.1981 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no è (U+00E8) in font cmmi12!
+Missing character: There is no è (U+00E8) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no à (U+00E0) in font cmmi12!
+Missing character: There is no à (U+00E0) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no î (U+00EE) in font cmmi12!
+Missing character: There is no î (U+00EE) in font cmmi12!
+
+Overfull \hbox (1481.34903pt too wide) in paragraph at lines 1979--1981
+\TU/IBMPlexSans(0)/m/it/12 La prin-ci-pale cri-tique de Rus-sell O’Con-nor con
+-cer-nant OP$[][]\OML/cmm/m/it/12 VALtaitqu[]ilrendaitimpossiblel[]analysestatiq
+uedesscripts:AvecOP[]VAL; iln[]yavaitaucunmoyend[]analyserlescript\OT1/cmr/m/n/
+12 (\OML/cmm/m/it/12 parexemplepourcompterlenombred[]utilisationsd[]OP[]HECKSIG\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 sansl[]excuterrellement:P\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 SHrsolvaitceproblmeenpermettantuneanalysepralableduscript:Lesautresrponsessontincorrectes \OT1/cmr/m/n/12 :
+ []
+
+
+Overfull \hbox (434.41069pt too wide) in paragraph at lines 1979--1981
+\OML/cmm/m/it/12 P\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 SHn[]taitpasplussimpleimplme
+nter; n[]avaitpaslesoutienunanime\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 Luke \OMS/cm
+sy/m/n/12 ^^@ \OML/cmm/m/it/12 Jrs[]yopposaitfortement\OT1/cmr/m/n/12 )\OML/cmm
+/m/it/12 ; etlesdeuxapprochestaientdessoftforksvitantlascissiondechane:[]$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.1983 ...tait pas le problème principal soulevé.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+        
+l.1983 ...tait pas le problème principal soulevé.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.1984 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.1984 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no ê (U+00EA) in font cmmi12!
+Missing character: There is no ê (U+00EA) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no î (U+00EE) in font cmmi12!
+Missing character: There is no î (U+00EE) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no è (U+00E8) in font cmmi12!
+Missing character: There is no è (U+00E8) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no û (U+00FB) in font cmmi12!
+Missing character: There is no û (U+00FB) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no à (U+00E0) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no è (U+00E8) in font cmmi12!
+Missing character: There is no è (U+00E8) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+
+Overfull \hbox (1604.72932pt too wide) in paragraph at lines 1982--1984
+\TU/IBMPlexSans(0)/m/it/12 Russell O’Con-nor a iden-ti-fié que l’opéra-teu
+r OP$[][]\OML/cmm/m/it/12 VALempchaitl[]analysestatiquedesscripts; carilfallaite
+xcuterlescriptpourconnatresoncontenurel:Celaposaitunproblmemajeurpourcompterleso
+prateursdesignaturecoteuxenressourcesavantl[]excution:Enrevanche; PaytoScriptHas
+hpermettaitcetteanalysepralableenreconnaissantuneformespcifiquedescript:Lesautre
+soptionssontincorrectes \OT1/cmr/m/n/12 :
+ []
+
+
+Overfull \hbox (370.65375pt too wide) in paragraph at lines 1982--1984
+\OML/cmm/m/it/12 OP[]VALtaitrtrocompatiblevialesopcodesOP[]OP; iln[]yavaitpasdel
+imitationstricte\OT1/cmr/m/n/12 3\OML/cmm/m/it/12 participants; etlatailledesadr
+essesn[]taitpasleproblmeprincipalsoulev:[]$ 
+ []
+
+
+Overfull \hbox (12.39406pt too wide) in paragraph at lines 1985--1987
+\TU/IBMPlexSans(0)/m/it/12 éviter une scis-sion de chaîne. Ty-cho, opéra-teur
+ de Deep-Bit (la plus grande coopéra-
+ []
+
+
+Overfull \hbox (1.8328pt too wide) in paragraph at lines 1985--1987
+\TU/IBMPlexSans(0)/m/it/12 tive avec  30% de la puis-sance), re-fu-sait ini-tial
+e-ment de dé-ployer P2SH, préférant
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[55]
+! Missing $ inserted.
+<inserted text> 
+$
+l.1998 ...i auraient pu diviser le réseau Bitcoin.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+        
+l.1998 ...i auraient pu diviser le réseau Bitcoin.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.1999 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.1999 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no ù (U+00F9) in font cmmi12!
+Missing character: There is no ù (U+00F9) in font cmmi12!
+Missing character: There is no î (U+00EE) in font cmmi12!
+Missing character: There is no î (U+00EE) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no î (U+00EE) in font cmmi12!
+Missing character: There is no î (U+00EE) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+
+Overfull \hbox (1859.67067pt too wide) in paragraph at lines 1997--1999
+\TU/IBMPlexSans(0)/m/it/12 Les opéra-teurs OP$[][]\OML/cmm/m/it/12 OPtaientdesi
+nstructionsmuettesajoutesparSatoshiquin[]invalidaientpaslesscripts:Gavinadcouver
+tqu[]entransformantOP[]OP\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 enOP[]VAL; puisplusta
+rdenutilisantceprincipepourP\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 SH; iltaitpossible
+defairedesmodifications[]rtrocompatibles[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 soft
+forks\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 oseuleunechanesurvivraitsilapuissancedeca
+lculmajoritaireappliquaitlechangement:Celavitaitlesscissionsdechanedangereusesqu
+iauraientpudiviserlerseauBitcoin:[]$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.2004 ...s n'approuvait ni le BIP 16 ni le BIP 17.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+        
+l.2004 ...s n'approuvait ni le BIP 16 ni le BIP 17.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.2005 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.2005 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (112.42113pt too wide) in paragraph at lines 2003--2005
+\TU/IBMPlexSans(0)/m/it/12 cho avait d’ailleurs soutenu la propo-si-tion orig-
+i-nale d’OP$[][]\OML/cmm/m/it/12 VALmaisn[]approuvaitnileBIP\OT1/cmr/m/n/12 16
+\OML/cmm/m/it/12 nileBIP\OT1/cmr/m/n/12 17\OML/cmm/m/it/12 :[]$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.2010 ... pas de vulnérabilité de falsification.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+        
+l.2010 ... pas de vulnérabilité de falsification.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.2011 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.2011 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+
+Overfull \hbox (232.1688pt too wide) in paragraph at lines 2009--2011
+\TU/IBMPlexSans(0)/m/it/12 autres réponses con-cer-nent des prob-lèmes dif-f
+érents : le bug d’OP$[][]\OML/cmm/m/it/12 HECKMULTISIGtaitconnumaisnoncritiqu
+e; Bitcoin \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (252.40204pt too wide) in paragraph at lines 2009--2011
+\OML/cmm/m/it/12 Qttaituneinterfacegraphiquesansfailledescuritmajeure; etlesigna
+lementdesmineursneprsentaitpasdevulnrabilitdefalsification:[]$ 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[56]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[57]
+Overfull \hbox (5.94926pt too wide) in paragraph at lines 2033--2035
+\TU/IBMPlexSans(0)/m/it/12 étaient choi-sis par le meneur du pro-jet Un-think-i
+ng-bit. Les autres op-tions décrivent
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[58]
+Overfull \hbox (0.3528pt too wide) in paragraph at lines 2057--2059
+\TU/IBMPlexSans(0)/m/it/12 l’iden-tité réelle de l’ad-min-is-tra-teur de 
+Silk Road, une tech-nique qui sera d’ailleurs
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[59]
+! Misplaced alignment tab character &.
+<argument> ...175tWpb8K1S7NmH4Zx6rewF9WQrcZv245W?amount=20.3&
+                                                  label=Luke-Jr' contenait l...
+l.2064 ...essus de paiement pour les consommateurs.}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (8.6879pt too wide) in paragraph at lines 2063--2065
+\TU/IBMPlexSans(0)/m/it/12 coin:175tWpb8K1S7NmH4Zx6rewF9WQr-cZv245W?amount=20.3l
+a-bel=Luke-Jr’
+ []
+
+
+Overfull \hbox (1.696pt too wide) in paragraph at lines 2063--2065
+\TU/IBMPlexSans(0)/m/it/12 stan-dard-i-s-a-tion était cru-ciale pour l’in-ter
+opéra-bil-ité en-tre dif-férents porte-feuilles
+ []
+
+Missing character: There is no à (U+00E0) in font cmmi12!
+Missing character: There is no à (U+00E0) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no ô (U+00F4) in font cmmi12!
+Missing character: There is no ô (U+00F4) in font cmmi12!
+! Extra }, or forgotten $.
+<recently read> \egroup 
+        
+l.2073 ...l opérait comme revendeur sur Silk Road.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.2074 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.2074 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+
+Overfull \hbox (7.71202pt too wide) in paragraph at lines 2072--2074
+\TU/IBMPlexSans(0)/m/it/12 ume était très sig-ni-fi-catif (40 000$\OML/cmm/m/
+it/12 parsemaine\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; etiln[]avaitaucunelicenceoff
+icielle \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[60]
+Overfull \hbox (0.87897pt too wide) in paragraph at lines 2090--2092
+\TU/IBMPlexSans(0)/m/it/12 SatoshiDICE fonc-tion-nait en en-voy-ant sys-té-ma-t
+ique-ment deux trans-ac-tions pour
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[61]
+! Extra }, or forgotten $.
+<recently read> \egroup 
+        
+l.2094 ...2012, bien après l'acquisition initiale.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.2095 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.2095 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no à (U+00E0) in font cmmi12!
+Missing character: There is no à (U+00E0) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no é (U+00E9) in font cmmi12!
+Missing character: There is no û (U+00FB) in font cmmi12!
+Missing character: There is no û (U+00FB) in font cmmi12!
+Missing character: There is no è (U+00E8) in font cmmi12!
+Missing character: There is no è (U+00E8) in font cmmi12!
+
+Overfull \hbox (1058.54483pt too wide) in paragraph at lines 2093--2095
+\TU/IBMPlexSans(0)/m/it/12 200 $\OML/cmm/m/it/12 aumomentdel[]change:Lesautresmo
+ntantscorrespondentdiffrentestapes \OT1/cmr/m/n/12 : 45\OML/cmm/m/it/12 BTCtaitl
+[]investissementinitialdeFireduck; \OT1/cmr/m/n/12 146\OML/cmm/m/it/12 BTCtaient
+lesprofitsgnrsenunesemaine; et\OT1/cmr/m/n/12 34500\OML/cmm/m/it/12 BTCcorrespon
+dentauxfondslevslorsdel[]IPOinformellesurMPExenaot\OT1/cmr/m/n/12 2012\OML/cmm/
+m/it/12 ; bienaprsl[]acquisitioninitiale:[]$ 
+ []
+
+
+Overfull \hbox (11.80067pt too wide) in paragraph at lines 2102--2104
+\TU/IBMPlexSans(0)/m/it/12 réal-isées sur la chaîne Bit-coin, mais seule-ment
+ en-v-i-ron 5% du vol-ume économique.
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[62]
+Overfull \hbox (1.90384pt too wide) in paragraph at lines 2114--2116
+\TU/IBMPlexSans(0)/m/it/12 les joueurs de-vaient faire con-fi-ance aveuglé-ment
+, SatoshiDICE per-me-t-tait la véri-
+ []
+
+
+Overfull \hbox (1.91594pt too wide) in paragraph at lines 2117--2119
+\TU/IBMPlexSans(0)/m/it/12 con-traire-ment aux plate-formes cen-tral-isées tra-
+di-tion-nelles qui n’étaient pas véri-
+ []
+
+! Misplaced alignment tab character &.
+<argument> Bitcoin Savings &
+                  Trust utilisait un système de taux progressifs pour encourag
+l.2121 ...fixes selon les paliers d'investissement.}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[63]
+Overfull \hbox (3.35193pt too wide) in paragraph at lines 2135--2137
+\TU/IBMPlexSans(0)/m/it/12 L’escroquerie de Tony76 était unique car elle re-p
+o-sait en-tière-ment sur l’in-génierie
+ []
+
+
+Overfull \hbox (6.00526pt too wide) in paragraph at lines 2135--2137
+\TU/IBMPlexSans(0)/m/it/12 iger que les acheteurs utilisent la fi-nal-i-sa-tion an-ticip
+ée (by-pass-ing l’es-crow). Cette
+ []
+
+! Misplaced alignment tab character &.
+<argument> La fermeture brutale de Bitcoin Savings &
+                                          Trust, qui gérait plus de 500 000 bi
+l.2139 ...néralisée qui a suivi son effondrement.}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Missing character: There is no à (U+00E0) in font cmmi12!
+Missing character: There is no à (U+00E0) in font cmmi12!
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[64]
+Overfull \hbox (1.68477pt too wide) in paragraph at lines 2144--2146
+\TU/IBMPlexSans(0)/m/it/12 dant, c’est cette dernière ac-tiv-ité qui est rap
+i-de-ment de-v-enue la prin-ci-pale source
+ []
+
+
+Overfull \hbox (7.17404pt too wide) in paragraph at lines 2144--2146
+\TU/IBMPlexSans(0)/m/it/12 de revenus de son sys-tème. Les autres op-tions, bie
+n que men-tion-nées par Shavers
+ []
+
+
+Overfull \hbox (6.75812pt too wide) in paragraph at lines 2144--2146
+\TU/IBMPlexSans(0)/m/it/12 comme sources de profit, n’étaient pas l’ac-tiv-
+ité prin-ci-pale. L’ar-bi-trage était même
+ []
+
+! Misplaced alignment tab character &.
+<argument> À son sommet, Bitcoin Savings &
+                                 Trust gérait plus de 500 000 bitcoins sur un 
+l.2148 ...rix de 15,4$ à moins de 8$ en 48 heures.}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Missing character: There is no à (U+00E0) in font cmmi12!
+Missing character: There is no à (U+00E0) in font cmmi12!
+
+Overfull \hbox (0.68434pt too wide) in paragraph at lines 2150--2152
+\TU/IBMPlexSans(0)/m/it/12 source par Amir Taaki le 7 juil-let 2012. Ce code con
+-te-nait une clé API qui s’avérait
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[65] 
+enddocument/afterlastpage: lastpage setting LastPage.
+(./output/his203_quiz_fr.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `his203_quiz_fr.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+)
+
+Here is how much of LuaTeX's memory you used:
+ 12130 strings out of 476553
+ 125027,1977958 words of node,token memory allocated
+ 431 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 53 glue_spec,
+ 4 attribute_list, 1 write nodes
+   avail lists: 2:450,3:517,4:10,5:1478,6:75,7:9097,8:471,9:394,10:8,11:585
+ 33125 multiletter control sequences out of 65536+600000
+ 50 fonts using 4488479 bytes
+ 79i,11n,89p,891b,507s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/asi0/asi0-repos/bitcoin-educational-content/scripts/quizz_to_pdfs/fonts/T
+rueType/IBM-Plex-Sans/IBMPlexSans-Bold.ttf></home/asi0/asi0-repos/bitcoin-educat
+ional-content/scripts/quizz_to_pdfs/fonts/TrueType/IBM-Plex-Sans/IBMPlexSans-Reg
+ular.ttf></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on his203_quiz_fr.pdf (65 pages, 268500 bytes).
+
+PDF statistics: 1270 PDF objects out of 1440 (max. 8388607)
+ 1180 compressed objects within 12 object streams
+ 858 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+

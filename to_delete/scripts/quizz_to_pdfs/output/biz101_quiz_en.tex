@@ -1,0 +1,1263 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{fontspec}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{hyperref}
+
+% Configure IBM Plex Sans font family
+\setmainfont{IBMPlexSans}[
+  Path=/home/asi0/asi0-repos/bitcoin-educational-content/scripts/quizz_to_pdfs/fonts/TrueType/IBM-Plex-Sans/,
+  Extension=.ttf,
+  UprightFont=*-Regular,
+  BoldFont=*-Bold,
+  Scale=1.0
+]
+
+\geometry{margin=2.5cm}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Page \thepage\ of \pageref{LastPage}}
+\lhead{BIZ101 - Quiz (en)}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\title{Quiz: BIZ101}
+\author{Language: en}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{fancy}
+
+\section*{Instructions}
+Answer all questions by selecting the best option (A, B, C, or D). The answer key is provided at the end of this document.
+
+\bigskip
+
+
+\subsection*{Question 1}
+Payment rails built on top of traditional currency systems are?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Essentially free because the customer pays the price displayed by the merchant
+\item Paid for by the card companies who resell customers' data
+\item Paid for by the customer on top of the merchant's asking price
+\item Essentially paid for by the merchants through the fees of the payment processors
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 2}
+Why is scarcity considered an important property of a good currency?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Because a limited supply protects its value from being diluted by overproduction.
+\item Because it makes it harder for the currency to be recognized.
+\item Because it discourages the use of currency in long-distance trade.
+\item Because it ensures that everyone can easily mint their own currency.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 3}
+How did the transition from coins to paper money improve the currency network?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item It eliminated the need for any underlying asset or trust.
+\item It instantly stopped inflation and stabilized the economy.
+\item It made money more portable and scalable, facilitating long-distance trade and complex financial systems.
+\item It allowed governments to avoid managing the money supply entirely.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 4}
+What is one drawback of modern centralized currency systems?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item They ensure that money issuance is fully decentralized and inflation-proof.
+\item They provide a stable, unchanging value for every currency unit.
+\item They often lack transparency and auditability in managing the money supply.
+\item They remove all intermediaries and speed up settlements to milliseconds.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 5}
+What characterizes the complexity of today’s card-based payment process at a retail point of sale?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item It ensures that once the card is swiped, the merchant has the funds instantly and irreversibly.
+\item It relies exclusively on physical cash and no intermediaries.
+\item It involves multiple intermediaries, several steps, and can take days to fully settle funds.
+\item It requires only one instant step, and funds are settled immediately.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 6}
+What is one defining characteristic of Bitcoin as a currency network?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item It issues new units of currency at any user’s request.
+\item It needs banks to verify and settle every transaction.
+\item It can only function when authorized by a government agency.
+\item It is like cash and requires no central authority or intermediary for transactions.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 7}
+Why is the 21 million cap on Bitcoin issuance significant?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item It eliminates all volatility in Bitcoin’s price.
+\item It ensures that governments can print as many bitcoins as needed.
+\item It prevents anyone from sending transactions after the cap is reached.
+\item It creates a deflationary asset, protecting its value against arbitrary inflation.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 8}
+Which of the following best describes how Bitcoin transactions achieve finality?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Transactions can be reversed by banks if a dispute arises.
+\item Any participant can edit past transactions at will if they have a special code.
+\item Users must gain approval from multiple government entities to finalize a transaction.
+\item Once recorded on the blockchain, transactions are immutable and cannot be altered.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 9}
+Which statement best captures Bitcoin's role as a network and asset for businesses?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item It's solely a speculative trading tool with no real utility.
+\item It can act as both a store of value and a medium of exchange in a global, decentralized system.
+\item It can only function as a local gift card system.
+\item It must be tied to a single country's monetary policies to operate.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 10}
+What is the main purpose of the Lightning Network built on top of Bitcoin?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item To replace Bitcoin’s blockchain entirely and store all transactions locally.
+\item To enable faster, near-instant payments with minimal on-chain interaction.
+\item To slow down transactions to ensure they remain fully traceable by governments.
+\item To provide a permissioned network controlled by a single entity.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 11}
+How does the Lightning Network help reduce fees for Bitcoin transactions?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item By requiring merchants to pay all network costs upfront.
+\item By removing all cryptographic verification from payments.
+\item By conducting most transactions off-chain and publishing only channel settlement transactions on the main blockchain.
+\item By centralizing control in one large payment hub.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 12}
+What advantage does Lightning offer merchants regarding payment finality?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item It makes transactions fully reversible for up to 90 days.
+\item Payments on Lightning finalize almost instantly, reducing the risk of reversals or fraud.
+\item It requires 24 hours of waiting before funds are spendable.
+\item It allows customers to reclaim their payment at any time.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 13}
+Why can the Lightning Network be compared to “email for payments”?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Because it only works when attached to regular email messages.
+\item Because it stores user balances in the body of an email.
+\item Because it sends payments through traditional email providers.
+\item Because it enables seamless, global, and permissionless value exchange as easily as sending a message.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 14}
+According to Austrian economics, why are profits considered a key indicator of a company's health?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Because profits ensure that the company's workforce is the largest in its industry.
+\item Because profits show the business is meeting consumer needs efficiently and sustainably.
+\item Because profits reflect random market events unrelated to consumer demands.
+\item Because profits are only a sign that the company received government subsidies.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 15}
+Why is preserving capital essential for a healthy company in an uncertain future?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Preserving capital is only important if the company plans to never grow.
+\item Preserving capital ensures permanent immunity from all regulatory changes.
+\item Maintaining capital reserves allows the company to adapt, invest in growth, and weather economic downturns.
+\item Preserving capital guarantees that no competitor can ever enter the market.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 16}
+What does the fisherman’s story illustrate about the nature of capital?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Capital must be created instantly through government loans.
+\item Capital is just a stockpile of consumer goods waiting to be consumed immediately.
+\item Capital only matters for large corporations, not small entrepreneurs.
+\item Capital represents saved resources that enable building tools to improve future productivity.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 17}
+How does artificially created capital from debt-based money differ from Austrian-style capital?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Austrian-style capital stems from real savings and sacrifice, while debt-based capital is created instantly from credit and can distort economic signals.
+\item There is no difference; both forms of capital are identical in nature and effect.
+\item Debt-based capital never requires repayment and is equivalent to real savings.
+\item Austrian-style capital is generated by printing more money whenever needed.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 18}
+Why might a company consider holding part of its treasury in Bitcoin?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item To ensure it can never convert its assets back into traditional currencies.
+\item To immediately eliminate all risk and guarantee stable returns.
+\item As a potentially appreciating asset that can store value and offer liquidity without relying on traditional financial intermediaries.
+\item To comply with mandatory government regulations requiring Bitcoin holdings.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 19}
+What is one reason institutional investors and large companies have become interested in Bitcoin?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Bitcoin transactions are fully insured by central banks.
+\item It requires no understanding of digital assets or financial regulations.
+\item Bitcoin’s price is set and guaranteed by government agencies.
+\item Bitcoin’s adoption by major financial players, like BlackRock and the success of Spot Bitcoin ETFs, has legitimized it as a store-of-value asset.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 20}
+Why is volatility considered a natural aspect of Bitcoin as an emerging asset?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Because it’s centrally controlled and prices are set by one authority.
+\item Because merchants must set prices unpredictably every hour.
+\item Because Bitcoin is still relatively young, it attracts speculators and responds to market news, causing price swings before stabilizing over longer periods.
+\item Because Bitcoin lacks any users holding it long-term.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 21}
+What is “hidden inflation” in the context of a debt-based monetary system?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item It’s the increase in the money supply (around 7% per year) that reduces your share of overall value if you don’t invest or grow assets accordingly.
+\item It’s an official economic term for fixed interest rates.
+\item It refers to inflation numbers not published by central banks.
+\item It means prices never rise, even when the money supply expands.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 22}
+Why might a company consider holding Bitcoin over traditional "safe" assets like real estate?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Bitcoin can potentially outpace real inflation and is not tied to the illiquidity and maintenance costs of real estate.
+\item Real estate is always cheaper than Bitcoin and never needs maintenance.
+\item Bitcoin provides government-backed guarantees that real estate does not.
+\item Real estate appreciates faster than Bitcoin under all market conditions.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 23}
+What is generally recommended when allocating a portion of a company’s treasury to Bitcoin?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Only invest when you need an urgent short-term loan to cover expenses.
+\item Invest only excess liquidity that you won’t need for several years and maintain a time horizon of at least four years.
+\item Use all operational cash immediately without considering liquidity needs.
+\item Aim to buy and sell within a few weeks to maximize short-term profits.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 24}
+Which of the following is NOT one of the three primary methods mentioned for acquiring Bitcoin?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Mining Bitcoin through specialized hardware and energy use.
+\item Purchasing Bitcoin from a platform or broker.
+\item Obtaining Bitcoin in exchange for goods or services.
+\item Receiving Bitcoin as a government grant for business development.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 25}
+When buying Bitcoin, what is one recommended approach to handle its price volatility?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Only buy Bitcoin on days when its price has risen sharply.
+\item Go all-in with the company’s entire treasury at once.
+\item Attempt to predict short-term market peaks and sell immediately.
+\item Gradually accumulate Bitcoin at regular intervals and maintain a long-term perspective.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 26}
+Why is starting with a small initial purchase of Bitcoin recommended for businesses?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item It instantly guarantees the business maximum returns.
+\item It legally prevents the company from facing tax liabilities.
+\item It allows them to gain hands-on experience and understanding before committing larger sums.
+\item It makes the company immune to all cryptocurrency scams.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 27}
+What is one key consideration when choosing a platform or broker to buy Bitcoin for a business?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Finding a provider that refuses to offer any customer support.
+\item Ensuring the platform only supports obscure cryptocurrencies.
+\item The provider’s reputation, security measures, and ability to export transaction histories for accounting.
+\item Using a service that prohibits withdrawing Bitcoin to a self-custody wallet.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 28}
+What is one suggested practice regarding custody when acquiring Bitcoin?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Always trust a single custodian without reviewing security measures.
+\item Never withdraw Bitcoin from the exchange under any circumstances.
+\item Consider self-custody solutions after initial purchases, so the business truly controls its assets.
+\item Store all Bitcoin on a public website with a simple password
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 29}
+Why might a business choose to accept Bitcoin payments from customers?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item To tap into a growing user base, potentially lower transaction fees, and hold a valuable asset in its treasury.
+\item To ensure that no taxes or regulatory requirements ever apply.
+\item To guarantee that all customers will pay more than the listed price.
+\item To make the checkout process slower and more complicated.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 30}
+What is an advantage of Lightning Network payments for merchants at the point of sale?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Lightning payments can be reversed at will by the buyer after the sale.
+\item Lightning payments settle almost instantly and don’t require multiple intermediaries, reducing fees and settlement delays.
+\item Lightning payments need weeks to confirm and require heavy paperwork.
+\item Lightning payments only occur if approved by a central bank’s authority.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 31}
+How can accepting Bitcoin payments help increase a business’s visibility?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item By banning all other payment methods and forcing all customers to use Bitcoin.
+\item By listing the business on platforms like BTCmap.org and appealing to the Bitcoin community’s word-of-mouth.
+\item By requiring customers to register for multiple online accounts before paying.
+\item By guaranteeing that the government will advertise the business free of charge.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 32}
+How should a business choose a Bitcoin payment solution that fits its needs?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item By only using the largest and most expensive solution available, irrespective of business size.
+\item By relying solely on guesswork without considering the business’s specific requirements.
+\item By always choosing the simplest solution, regardless of transaction volume or complexity.
+\item By considering factors like transaction frequency, average payment size, and whether it’s online or in-person, and then selecting a solution tailored to that category.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 33}
+What is one benefit of starting small when first accepting Bitcoin payments?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item It allows the business to learn from a few initial transactions and gradually move to more sophisticated solutions if customer demand grows.
+\item It prevents the business from upgrading or changing providers later.
+\item It requires a company to accept Bitcoin from every customer before understanding the process.
+\item It forces the business to use only self-custody solutions immediately.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 34}
+How has the Lightning Network evolved to improve the user experience since its inception?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item It has introduced features like splicing, static Bolt12 invoices, and better liquidity management, making transactions smoother and more reliable.
+\item It now requires government approval for each payment.
+\item It has stopped working on new features, relying on the original design only.
+\item It has removed all security features to speed up transactions.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 35}
+What trend is noted among participants operating nodes on the Lightning Network?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Large banks now centrally operate all Lightning nodes.
+\item Individual hobbyists have replaced all professional operators entirely.
+\item The network has shut down personal nodes to allow only large corporations.
+\item Professional node operators are increasingly providing liquidity, while individual users focus on “edge” nodes, shifting the network’s composition.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 36}
+How does the Lightning Network’s improved efficiency and speed compare to traditional payment methods?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item It requires multiple approving entities, just like current bank transfers.
+\item It is slower than traditional card payments and has higher fees.
+\item It’s significantly faster, often settling transactions in less than a second, with lower fees and no reliance on multiple intermediaries.
+\item It matches traditional banking times, often taking 2-5 days to settle.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 37}
+How is the Lightning Network helping shape the future of online commerce and digital services?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item By enabling frictionless, instant, and permissionless microtransactions, opening up new business models and revenue streams.
+\item By making digital goods impossible to sell due to high fees.
+\item By requiring merchants to use the same slow, costly payment rails as before.
+\item By preventing any new business models from emerging online.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 38}
+What is one key advantage of the Bitcoin payments ecosystem in terms of switching between solutions?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Bitcoin solutions are proprietary and locked to a single vendor.
+\item Changing providers requires government approval and a lengthy legal process.
+\item Once a provider is chosen, the business can never switch to another solution.
+\item It’s relatively easy to change providers or upgrade tools, because Bitcoin’s open, interoperable standards allow for seamless fund transfers.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 39}
+Why is careful record-keeping essential when dealing with Bitcoin in a company’s accounting?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Because no accounting standards apply to Bitcoin transactions at all.
+\item Because the blockchain automatically files taxes on behalf of the company.
+\item Because it’s impossible to trace Bitcoin transactions once recorded.
+\item Because every Bitcoin transaction may create a taxable event, and accurate records are needed to calculate gains, losses, and tax liabilities.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 40}
+What is one main difference between treating Bitcoin as a digital asset versus treating it like a currency in accounting?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item When treated like a currency, no records of transactions are needed.
+\item As a digital asset, each transaction’s cost basis and gains/losses must be tracked, whereas if it were treated like a currency, revaluations would be simpler and less frequent.
+\item When treated as a digital asset, it is completely exempt from all taxes.
+\item Treating it like a currency requires an immediate switch to a new accounting software.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 41}
+Why might a business choose to hold Bitcoin as a long-term investment on its balance sheet?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Because it may serve as a store of value, potentially appreciating over time and providing a hedge against inflation.
+\item Because Bitcoin inherently provides guaranteed profits with no risk.
+\item Because it ensures the immediate elimination of all currency-related taxes.
+\item Because it’s required by international accounting standards.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 42}
+Why is it recommended to have a CSV export of all Bitcoin transactions?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Because exporting data automatically completes your tax return with no review.
+\item Because paper receipts are the only legally acceptable accounting documents.
+\item It provides a clear, structured record of every transaction, making it easier for accountants to integrate these into financial reports and tax filings.
+\item Because CSV files eliminate the need to track cost basis.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 43}
+In most jurisdictions, what triggers a taxable event when dealing with Bitcoin?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Selling, trading, or using Bitcoin as payment often triggers a taxable event.
+\item Simply holding Bitcoin indefinitely without any transactions.
+\item Backing up your Bitcoin wallet or keys.
+\item Viewing the Bitcoin price online.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 44}
+What does Bitcoin allow you to do without intermediaries?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Obtain bank loans
+\item Exchange value on the Internet
+\item Create centralized applications
+\item Store personal data
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 45}
+What is one of the major advantages for merchants using the Lightning Network?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Elimination of commercial taxes
+\item Payments guaranteed by banks
+\item Reduced transaction fees
+\item Automatic increase in sales
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 46}
+How does the Austrian School define the concept of "time preference"?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item The desire to reduce short-term costs
+\item The preference for consuming now rather than later
+\item The ability to balance supply and demand
+\item The optimization of immediate investments
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 47}
+What is the primary function of currency?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item To centralize all economic transactions through a single authority
+\item To act as an intermediary that simplifies the exchange of value
+\item To store intrinsic value in physical form
+\item To replace barter completely with direct goods-for-goods exchange
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 48}
+Why is scarcity an essential property of a good currency?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item It ensures that the currency must always be backed by a commodity like gold
+\item It guarantees that only physical assets can be used as currency
+\item It preserves value
+\item It ensures that the currency is widely available to every individual
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 49}
+What is the primary function of traditional payment systems?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item To create a single global currency regulated by a central authority
+\item To enable the transfer of funds between two parties
+\item To restrict fund transfers to in-person cash exchanges only
+\item To facilitate international trade
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 50}
+What key advantage does paper money have over coins in traditional payment systems?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Enhanced intrinsic value through precious metals
+\item Complete elimination of counterfeit risks
+\item Automatic verification of every transaction
+\item Increased portability and efficiency
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 51}
+How does a credit card transaction typically differ from a simple cash transaction?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item It happens instantly with no intermediary involvement
+\item It involves multiple intermediaries
+\item It requires the physical exchange of currency only
+\item It mandates that both parties produce identical goods
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 52}
+What type of business is most likely to find a simple CSV file sufficient for accounting?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Large multinational corporations
+\item Small businesses
+\item Major financial institutions
+\item High-frequency trading platforms
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 53}
+Which detail is NOT explicitly documented in a typical Bitcoin transaction CSV file as described in the course?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item The transaction date
+\item The Bitcoin addresses involved
+\item The script type used
+\item The equivalent fiat value
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 54}
+What key payment details must be documented for each Bitcoin transaction?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item The Bitcoin block number, timestamp, and script used
+\item The transaction ID, network fee, and merchant's address
+\item The date, exchange rate, wallet type, and geographical location
+\item The date, amount, equivalent fiat value, and associated addresses
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 55}
+Which of the following software is not a Bitcoin accounting solution?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item ZenLedger
+\item Koinly
+\item Sparrow
+\item CoinTracker
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 56}
+What is the main goal of the specialized Bitcoin accounting tools?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item To simplify the automatic collection and processing of Bitcoin-related data
+\item To enhance the security of Bitcoin private keys
+\item To facilitate direct trading of Bitcoin on decentralized exchanges for businesses
+\item To set up a PoS system for accepting Bitcoin payments
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 57}
+How does a non-custodial wallet differ in functionality for Starter users?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item It can automatically convert bitcoins to fiat currency
+\item It gives the business owner full control of the private keys
+\item It manages all transactions through a third-party service
+\item It requires no backup procedures or security measures
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 58}
+Why is it important to track the fiat value at the moment of each Bitcoin transaction?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item To reduce the transaction fees imposed by the network
+\item To ensure accurate bookkeeping and tax compliance
+\item To automatically increase the wallet balance
+\item To enable real-time market trading directly from the wallet
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 59}
+What is one benefit of using a custodial wallet for the Starter profile?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Reduced technical responsibilities
+\item Enhanced privacy with full autonomy over transactions
+\item Increased control over private keys
+\item Elimination of transaction fees
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 60}
+Which two wallet types are considered in the Starter profile?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Hot and cold storage Bitcoin wallets
+\item Multisig and paper Bitcoin wallets
+\item Hardware and brain Lightning wallets
+\item Custodial and non-custodial Lightning wallets
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 61}
+What is the primary hardware requirement for a Starter profile to accept Bitcoin payments?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item A hardware wallet
+\item A smartphone
+\item A Bitcoin miner ASIC
+\item A self-hosted server
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 62}
+What does the Essential profile use to help employees process payments at the PoS?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item A manual ledger book for recording sales
+\item The creation of a menu with item prices on the PoS app
+\item A paper invoice system for each transaction
+\item An automatic accounting record system for transactions from the PoS
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 63}
+Which alternative solution to Swiss Bitcoin Pay to accept Bitcoin payments for the Essential profile is 100% custodial?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Open Node
+\item Phoenix Wallet
+\item Bitcoinize PoS
+\item BTCPay Server
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 64}
+Which scenario best illustrates the usage of the Essential profile for Bitcoin payments?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item An independent freelancer who accepts payment for their invoices in bitcoins
+\item A restaurant accepting a few Bitcoin payments a month
+\item A multinational corporation processing thousands of transactions daily
+\item A high-frequency Bitcoin trading desk
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 65}
+Which feature makes the Swiss Bitcoin Pay solution especially suitable for small businesses in the Essential profile?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item A user-friendly PoS app
+\item A multi-signature wallet management
+\item Advanced multi-currency trading features
+\item Full blockchain analytics integration
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 66}
+What is the primary payment solution recommended for Essential profile businesses?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Open Node
+\item Swiss Bitcoin Pay
+\item Bitcoinize PoS
+\item BTCPay Server
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 67}
+Which alternative solution is mentioned for businesses that prefer an all-in-one online retail environment?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Phoenix
+\item Swiss Bitcoin Pay
+\item Be-BOP
+\item Open Node
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 68}
+What role do tools like Zaprite and Musqet play in a Professional payment solution?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item They refine the checkout experience
+\item They serve as basic POS systems
+\item They focus on encrypting transaction data and managing private keys
+\item They handle multi-currency conversion and fiat disbursement
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 69}
+How can BTC Pay Server be deployed in a Professional environment?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Through a fully outsourced third-party service
+\item On-premises or via cloud hosting
+\item As a mobile application
+\item Exclusively on dedicated hardware appliances
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 70}
+Which open-source software is adapted to a Professional Bitcoin payment system?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Swiss Bitcoin Pay
+\item BTC Pay Server
+\item Open Node
+\item Bitcoinize PoS
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 71}
+What advanced features are typically demanded by Professional profile businesses?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Simple wallet integration and QR code generation
+\item Basic transaction recording and standard receipts
+\item Automatic conversion to fiat without any reporting options
+\item Advanced reporting dashboards and multiple administrative roles
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 72}
+What role does an LSP serve in Enterprise Bitcoin payments?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Process refunds manually on Lightning
+\item Manage high-volume transactions on Lightning
+\item Print Lightning invoices
+\item Store private keys of the Lightning wallet
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 73}
+How do Enterprise systems update inventory automatically?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Through workflow triggers
+\item End-of-day uploads
+\item Manual updates
+\item Scheduled reports
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 74}
+What enables real-time data sync between Enterprise Bitcoin systems and ERP software?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Batch uploads
+\item CSV files
+\item Email reports
+\item APIs
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 75}
+What advanced security features are typically implemented at the Enterprise level for Bitcoin?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Single-sig with BIP39 passphrase protection
+\item Multi-signature with timelocks
+\item Single-sig with 24-word seed phrase
+\item Password protection for a mobile Lightning wallet
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 76}
+What is the main objective of Enterprise-level Bitcoin payment implementations?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item To fully integrate Bitcoin payments into the organization's core processes
+\item To accept Bitcoin without integration into other systems
+\item To experiment with Bitcoin on a small scale
+\item To use Bitcoin for marketing purposes
+\end{enumerate}
+
+\bigskip
+
+
+\newpage
+\section*{Answer Key}
+
+\begin{enumerate}
+\item \textbf{Question 1:} D
+\\ \textit{Nothing is free. The payment rails built in the traditional currency systems are operated by various vendors such as card companies and acquiring banks who charge a fixed fee and/or a precent fee for each transaction}
+
+\item \textbf{Question 2:} A
+\\ \textit{A currency with controlled scarcity maintains its purchasing power over time. Without scarcity, excessive issuance could lead to inflation, eroding the currency’s value.}
+
+\item \textbf{Question 3:} C
+\\ \textit{Paper money was lighter and easier to make and to transport than coins made of precious metals. This portability and standardization simplified transactions, enabling economies to grow beyond local regions.}
+
+\item \textbf{Question 4:} C
+\\ \textit{Centralized systems can issue money at will, often without transparent oversight. This can erode trust due to inflation, complex interbank settlements, and potential mismanagement.}
+
+\item \textbf{Question 5:} C
+\\ \textit{Card payments often involve a chain of intermediaries (acquirers, issuers, card networks), require authorization and settlement steps, and can take from 48 hours to several days before the merchant receives the net funds.}
+
+\item \textbf{Question 6:} D
+\\ \textit{Bitcoin operates as a decentralized network, allowing anyone to participate without permission. Transactions are validated by nodes and miners, not by a central authority.}
+
+\item \textbf{Question 7:} D
+\\ \textit{With a maximum supply of 21 million, Bitcoin’s scarcity is hard-coded, making it fundamentally different from inflationary currencies, where supply can be increased at will.}
+
+\item \textbf{Question 8:} D
+\\ \textit{Bitcoin's blockchain is a tamper-proof ledger. Once a transaction is confirmed and included in a block, it becomes part of the permanent record, ensuring finality.}
+
+\item \textbf{Question 9:} B
+\\ \textit{Bitcoin's global, internet-native design allows it to serve not just as a store of value but also as a medium of exchange, providing businesses with fast, permissionless, and final settlement of transactions worldwide.}
+
+\item \textbf{Question 10:} B
+\\ \textit{The Lightning Network is a “second-layer” protocol that enables participants to create payment channels, transact off-chain, and settle the final net balance only on the Bitcoin blockchain. This design achieves faster speeds and lower costs.}
+
+\item \textbf{Question 11:} C
+\\ \textit{Since Lightning transactions happen off-chain, only the final channel states are settled on the Bitcoin blockchain. This reduces congestion and thus lowers fees by avoiding making many on-chain transactions.}
+
+\item \textbf{Question 12:} B
+\\ \textit{With Lightning, once a payment is routed and settled through the network, it’s final. This eliminates the chargeback scenarios seen with traditional payment systems.}
+
+\item \textbf{Question 13:} D
+\\ \textit{Just as email revolutionized communication by removing intermediaries and enabling anyone to send messages worldwide, the Lightning Network simplifies and speeds up transactions, making value transfer as frictionless and accessible as email.}
+
+\item \textbf{Question 14:} B
+\\ \textit{In Austrian economics, profits signal that a company is producing goods or services valued by consumers at a price that exceeds the production cost. This outcome suggests efficient resource use and alignment with market needs.}
+
+\item \textbf{Question 15:} C
+\\ \textit{Future conditions are unpredictable. By maintaining a capital reserve, a business can capitalize on new opportunities, address unexpected challenges, and invest in long-term initiatives without relying solely on external financing.}
+
+\item \textbf{Question 16:} D
+\\ \textit{The fisherman who saves a few days’ worth of fish to build a spear is deferring immediate consumption for future gain. This example illustrates how saving (capital accumulation) leads to higher efficiency and increased production over time.}
+
+\item \textbf{Question 17:} A
+\\ \textit{Austrian capital emerges from actual foregone consumption and careful investment. Debt-based capital, created easily through loans, can mislead entrepreneurs and lead to inefficient investments, as it doesn’t reflect true savings or consumer preferences.}
+
+\item \textbf{Question 18:} C
+\\ \textit{Bitcoin’s scarcity, global liquidity, and independence from traditional banking systems can make it an attractive treasury asset. Although it involves risk and volatility, businesses may view it as a long-term store of value and a hedge against inflation.}
+
+\item \textbf{Question 19:} D
+\\ \textit{When major institutions recognize Bitcoin as a valid investment, it signals to the market that it has matured beyond speculation. Products like Spot Bitcoin ETFs make it easier for businesses to gain exposure, further driving mainstream acceptance.}
+
+\item \textbf{Question 20:} C
+\\ \textit{As a developing asset, Bitcoin’s price is influenced by speculation, sentiment, and varying adoption rates. Over time, as more stable, long-term holders participate, volatility may diminish; however, it remains a characteristic of early-stage growth.}
+
+\item \textbf{Question 21:} A
+\\ \textit{Hidden inflation occurs when the money supply expands, diminishing the purchasing power of savings. If a business doesn't proactively invest or protect its wealth, it risks losing value to this quiet form of monetary dilution.}
+
+\item \textbf{Question 22:} A
+\\ \textit{Real estate often involves liquidity constraints and ongoing costs, and may not keep pace with the hidden inflation in a debt-based monetary system. Bitcoin’s scarcity and global reach offer a distinct store-of-value proposition that may outperform traditional assets in the long run.}
+
+\item \textbf{Question 23:} B
+\\ \textit{Because Bitcoin’s price can be volatile in the short term, it’s wise to use funds you don’t need right away and hold for at least four years. This approach smooths out volatility and increases the chances of realizing long-term value appreciation.}
+
+\item \textbf{Question 24:} D
+\\ \textit{The chapter outlines three primary methods for acquiring Bitcoin, which consist in accepting it as payment, mining it, or purchasing it. Receiving Bitcoin as a government grant isn’t a recognized standard method of acquisition.}
+
+\item \textbf{Question 25:} D
+\\ \textit{Regular purchases over time (dollar-cost averaging) help smooth out volatility. A longer-term horizon (e.g., 4 years) reduces the impact of short-term price swings.}
+
+\item \textbf{Question 26:} C
+\\ \textit{A small initial investment helps businesses learn the practical aspects of buying, storing, and managing Bitcoin without taking on significant risk.}
+
+\item \textbf{Question 27:} C
+\\ \textit{A reliable platform should have a solid reputation, good security, and tools for record-keeping. The ability to withdraw Bitcoin and integrate with accounting software is also crucial for business operations.}
+
+\item \textbf{Question 28:} C
+\\ \textit{After buying Bitcoin, moving it to a self-custody wallet ensures the business has direct control over its funds. While third-party custodians can be convenient, self-custody aligns with Bitcoin’s principle of financial sovereignty.}
+
+\item \textbf{Question 29:} A
+\\ \textit{Accepting Bitcoin can attract a new demographic of buyers, reduce payment processing fees, and build a store of value. It can also increase global reach, as Bitcoin is borderless and operates 24/7.}
+
+\item \textbf{Question 30:} B
+\\ \textit{The Lightning Network enables faster and cheaper transactions by facilitating off-chain settlement. Merchants can receive funds almost instantly, with minimal fees, and without relying on traditional payment intermediaries.}
+
+\item \textbf{Question 31:} B
+\\ \textit{Accepting Bitcoin is still relatively uncommon, which can draw interest from the Bitcoin community. Listing your store on specialized directories and benefiting from community-driven promotion can help you stand out and attract new customers.}
+
+\item \textbf{Question 32:} D
+\\ \textit{Different businesses have different needs. Evaluating factors such as transaction volume, payment methods (online vs. physical), and scalability helps a company pick the right Bitcoin payment solution.}
+
+\item \textbf{Question 33:} A
+\\ \textit{Beginning with a simple, starter-level approach enables the business to gain practical experience without significant risk. If the interest in Bitcoin payments proves worthwhile, the company can then upgrade its infrastructure and integrate more advanced tools.}
+
+\item \textbf{Question 34:} A
+\\ \textit{Over time, the Lightning Network has seen technical enhancements that reduce friction for users. New features and better node management tools have contributed to a more seamless and user-friendly experience.}
+
+\item \textbf{Question 35:} D
+\\ \textit{There’s a move toward more liquidity and stability provided by professional entities, while everyday users rely on simplified or hosted solutions, making the network more robust and accessible.}
+
+\item \textbf{Question 36:} C
+\\ \textit{By enabling off-chain transactions and finalizing payments nearly instantaneously, Lightning offers a speed and efficiency advantage over traditional methods that rely on several intermediaries.}
+
+\item \textbf{Question 37:} A
+\\ \textit{Lightning’s ability to send tiny amounts of value instantly and at low cost encourages innovation in areas like pay-as-you-go content, streaming payments, and machine-to-machine transactions, potentially transforming how online services are monetized.}
+
+\item \textbf{Question 38:} D
+\\ \textit{Since Bitcoin is built on open protocols, merchants are free to move their funds or adopt new solutions as their needs change or they grow. This flexibility ensures that businesses can select the best tools without being locked into a vendor.}
+
+\item \textbf{Question 39:} D
+\\ \textit{Each purchase, sale, or payment made in Bitcoin could have tax implications. Keeping detailed records of cost basis, sale price, and timing ensures correct and compliant tax reporting.}
+
+\item \textbf{Question 40:} B
+\\ \textit{Digital asset treatment typically involves calculating capital gains or losses on each transaction, adding complexity. If Bitcoin were accounted for like a currency, it would be simpler; just update the fiat value periodically, as done for other currencies.}
+
+\item \textbf{Question 41:} A
+\\ \textit{Some companies view Bitcoin as a strategic long-term asset that can preserve or grow in value, thereby protecting against the debasement of traditional currencies and diversifying their treasuries.}
+
+\item \textbf{Question 42:} C
+\\ \textit{Having a digital record in a common format enables seamless integration into accounting systems, maintains audit trails, and supports accurate tax and compliance reporting.}
+
+\item \textbf{Question 43:} A
+\\ \textit{Typically, a taxable event occurs when a business disposes of or uses its Bitcoin, not merely by holding it in reserve. Each sale or exchange of Bitcoin for goods, services, or fiat currency can generate taxable gains or losses.}
+
+\item \textbf{Question 44:} B
+\\ \textit{Bitcoin enables the exchange of value on the Internet without intermediaries through its peer-to-peer protocol.}
+
+\item \textbf{Question 45:} C
+\\ \textit{Transaction fees on the Lightning Network are very low, making it a cost-effective solution for merchants.}
+
+\item \textbf{Question 46:} B
+\\ \textit{Time preference refers to the preference for immediate consumption over deferred benefits, which influences decisions on saving and investing.}
+
+\item \textbf{Question 47:} B
+\\ \textit{Currency simplifies trade by serving as a common medium that reduces the complex web of exchange rates needed in a barter system, thereby facilitating easier transactions.}
+
+\item \textbf{Question 48:} C
+\\ \textit{Scarcity prevents the excessive creation of currency, thereby maintaining its value and purchasing power over time.}
+
+\item \textbf{Question 49:} B
+\\ \textit{Traditional payment systems provide mechanisms and infrastructure for transferring funds between payers and payees in both local and international contexts.}
+
+\item \textbf{Question 50:} D
+\\ \textit{Paper money, being lightweight and easier to transport than coins, enabled more efficient long-distance trade and reduced logistical challenges.}
+
+\item \textbf{Question 51:} B
+\\ \textit{Unlike cash, which is exchanged immediately, credit card transactions undergo a series of steps involving banks, card networks, and clearing processes, resulting in delays and additional costs.}
+
+\item \textbf{Question 52:} B
+\\ \textit{Most small businesses benefit from the simplicity and sufficient detail provided by a CSV export.}
+
+\item \textbf{Question 53:} C
+\\ \textit{A typical Bitcoin transaction CSV file usually mentions date, amount, fiat equivalent, and Bitcoin addresses, but not the script type used.}
+
+\item \textbf{Question 54:} D
+\\ \textit{Documenting these details ensures clarity and assists accountants in differentiating incoming and outgoing flows.}
+
+\item \textbf{Question 55:} C
+\\ \textit{Sparrow is not a Bitcoin accounting solution, while the others are (it's a Bitcoin Wallet software).}
+
+\item \textbf{Question 56:} A
+\\ \textit{These tools are designed to automate data collection, format conversion, tax calculation, and transaction categorization.}
+
+\item \textbf{Question 57:} B
+\\ \textit{Non-custodial wallets place the control of private keys and transactions entirely in the user's hands.}
+
+\item \textbf{Question 58:} B
+\\ \textit{Tracking the fiat value helps businesses manage bookkeeping with fluctuating Bitcoin prices.}
+
+\item \textbf{Question 59:} A
+\\ \textit{Custodial wallets manage private keys, easing technical burdens for users.}
+
+\item \textbf{Question 60:} D
+\\ \textit{The Starter profile uses either custodial or non-custodial Lightning wallets.}
+
+\item \textbf{Question 61:} B
+\\ \textit{The Starter profile requires only a smartphone or tablet with a Lightning wallet, making it a lightweight solution.}
+
+\item \textbf{Question 62:} B
+\\ \textit{The PoS app in the Essential profile enables employees to select items from a pre-set menu, streamlining the billing process.}
+
+\item \textbf{Question 63:} A
+\\ \textit{Open Node is characterized as a fully custodial solution, differing from the hybrid nature of Swiss Bitcoin Pay.}
+
+\item \textbf{Question 64:} B
+\\ \textit{The Essential profile targets small to medium-sized businesses with limited Bitcoin transactions, such as restaurants.}
+
+\item \textbf{Question 65:} A
+\\ \textit{Swiss Bitcoin Pay is designed with a straightforward PoS interface that simplifies day-to-day operations.}
+
+\item \textbf{Question 66:} B
+\\ \textit{We highlights Swiss Bitcoin Pay as the recommended solution for an Essential profile, balancing simplicity and security.}
+
+\item \textbf{Question 67:} C
+\\ \textit{Be-BOP is an option for those who desire an integrated online e-store that facilitates Bitcoin payments.}
+
+\item \textbf{Question 68:} A
+\\ \textit{Zaprite and Musqet add customization and reporting refinements to the checkout process, complementing the core payment infrastructure.}
+
+\item \textbf{Question 69:} B
+\\ \textit{The flexibility of deploying BTC Pay Server on-premises or in the cloud allows businesses to choose the setup that best fits their operational needs.}
+
+\item \textbf{Question 70:} B
+\\ \textit{BTC Pay Server is highlighted in the course as the core open-source solution for Professional setups due to its extensive integration options and control.}
+
+\item \textbf{Question 71:} D
+\\ \textit{Professional businesses require customizable invoices, sophisticated reporting, and role management to suit their complex workflows.}
+
+\item \textbf{Question 72:} B
+\\ \textit{LSPs handle complex and high-volume operations on the Lightning network.}
+
+\item \textbf{Question 73:} A
+\\ \textit{Workflow triggers update systems in real time.}
+
+\item \textbf{Question 74:} D
+\\ \textit{APIs allow continuous, real-time integration.}
+
+\item \textbf{Question 75:} B
+\\ \textit{High-security measures such as multi-signature configurations with timelocks are crucial for managing large sums.}
+
+\item \textbf{Question 76:} A
+\\ \textit{Enterprise solutions aim to align Bitcoin payments with core business workflows and systems.}
+
+
+\end{enumerate}
+
+\end{document}

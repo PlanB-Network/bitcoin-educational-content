@@ -1,0 +1,2441 @@
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.8.16)  25 JAN 2026 17:01
+ restricted system commands enabled.
+**output/eco205_quiz_fr.tex
+(./output/eco205_quiz_fr.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+Lua module: luaotfload 2023-08-31 3.26 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 2.76 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "/home/asi0/.texlive2023/texmf-var/l
+uatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-08-19.lua" from kpse-res
+olved path "/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader-2023-
+08-19.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.133
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/home/asi0/.texlive2023/texmf-var/l
+uatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (/usr/share/texlive/tex
+mf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /home/asi0/.texlive2023/texmf-
+var/luatex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen139
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-01-22 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2024-01-04 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count193
+Inserting `l3color' in `luaotfload.parse_color'.
+\l__pdf_internal_box=\box51
+))
+Package: xparse 2023-10-10 L3 Experimental document command parser
+)
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count194
+\l__fontspec_language_int=\count195
+\l__fontspec_strnum_int=\count196
+\l__fontspec_tmp_int=\count197
+\l__fontspec_tmpa_int=\count198
+\l__fontspec_tmpb_int=\count199
+\l__fontspec_tmpc_int=\count266
+\l__fontspec_em_int=\count267
+\l__fontspec_emdef_int=\count268
+\l__fontspec_strong_int=\count269
+\l__fontspec_strongdef_int=\count270
+\l__fontspec_tmpa_dim=\dimen140
+\l__fontspec_tmpb_dim=\dimen141
+\l__fontspec_tmpc_dim=\dimen142
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count271
+\Gm@cntv=\count272
+\c@Gm@tempcnt=\count273
+\Gm@bindingoffset=\dimen143
+\Gm@wd@mp=\dimen144
+\Gm@odd@mp=\dimen145
+\Gm@even@mp=\dimen146
+\Gm@layoutwidth=\dimen147
+\Gm@layoutheight=\dimen148
+\Gm@layouthoffset=\dimen149
+\Gm@layoutvoffset=\dimen150
+\Gm@dimlist=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip50
+\enit@outerparindent=\dimen151
+\enit@toks=\toks19
+\enit@inbox=\box52
+\enit@count@id=\count274
+\enitdp@description=\count275
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip51
+\f@nch@O@elh=\skip52
+\f@nch@O@erh=\skip53
+\f@nch@O@olh=\skip54
+\f@nch@O@orh=\skip55
+\f@nch@O@elf=\skip56
+\f@nch@O@erf=\skip57
+\f@nch@O@olf=\skip58
+\f@nch@O@orf=\skip59
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2023/10/14 v2.0e lastpage: 2.09 or 2e? (HMM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage2e.sty
+Package: lastpage2e 2023/10/14 v2.0e Decide which 2e lastpage version to use (H
+MM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
+Package: lastpagemodern 2023-10-14 v2.0e Refers to last page's name (HMM; JPG)
+\c@lastpagecount=\count276
+) 
+)) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks20
+))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count277
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count278
+)
+\@linkdim=\dimen152
+\Hy@linkcounter=\count279
+\Hy@pagecounter=\count280
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count281
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4179.
+Package hyperref Info: Link nesting OFF on input line 4184.
+Package hyperref Info: Hyper index ON on input line 4187.
+Package hyperref Info: Plain pages OFF on input line 4194.
+Package hyperref Info: Backreferencing OFF on input line 4199.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4446.
+\c@Hy@tempcnt=\count282
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4784.
+\XeTeXLinkMargin=\dimen153
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count283
+\Field@Width=\dimen154
+\Fld@charsize=\dimen155
+Package hyperref Info: Hyper figures OFF on input line 6063.
+Package hyperref Info: Link nesting OFF on input line 6068.
+Package hyperref Info: Hyper index ON on input line 6071.
+Package hyperref Info: backreferencing OFF on input line 6078.
+Package hyperref Info: Link coloring OFF on input line 6083.
+Package hyperref Info: Link coloring with OCG OFF on input line 6088.
+Package hyperref Info: PDF/A mode OFF on input line 6093.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count284
+\c@Item=\count285
+\c@Hfootnote=\count286
+)
+Package hyperref Info: Driver (autodetected): hluatex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2024-01-20 v7.01h Hyperref driver for luaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count287
+\c@bookmark@seq@number=\count288
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip60
+)
+luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 20 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: Font family 'IBMPlexSans(0)' created for font
+(fontspec)             'IBMPlexSans' with options
+(fontspec)             [Ligatures=TeX,Path=/home/asi0/asi0-repos/bitcoin-educat
+ional-content/scripts/quizz_to_pdfs/fonts/TrueType/IBM-Plex-Sans/,Extension=.tt
+f,UprightFont=*-Regular,BoldFont=*-Bold,Scale=1.0].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1.0]"[/home/asi0/asi0-repos/bitcoin-educational-co
+ntent/scripts/quizz_to_pdfs/fonts/TrueType/IBM-Plex-Sans/IBMPlexSans-Regular.tt
+f]:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.0]"[/home/asi0/asi0-repos/bitcoin-educational-co
+ntent/scripts/quizz_to_pdfs/fonts/TrueType/IBM-Plex-Sans/IBMPlexSans-Bold.ttf]:
+mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 16.
+
+(./output/eco205_quiz_fr.aux)
+\openout1 = eco205_quiz_fr.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+9.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 29.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 29.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 29.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 29.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 29.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 29.
+LaTeX Font Info:    Redeclaring math accent \check on input line 29.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 29.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 29.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 29.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/IBMPlexSans(0)/m/n on input line 29.
+
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/IBMPlexSans(0)/m/n on input line 29
+.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/IBMPlexSans(0)/m/n --> TU/IBMPlexSans(0)/m/n on inpu
+t line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/IBMPlexSans(0)/m/it on input line 2
+9.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/IBMPlexSans(0)/b/n on input line 29
+.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 29.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/IBMPlexSans(0)/m/n --> TU/IBMPlexSans(0)/b/n on inpu
+t line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/IBMPlexSans(0)/b/it on input line 
+29.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 29.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Link coloring OFF on input line 29.
+(./output/eco205_quiz_fr.out) (./output/eco205_quiz_fr.out)
+\@outlinefile=\write3
+
+\openout3 = eco205_quiz_fr.out
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
+(Font)              scaled to size 20.74pt on input line 32.
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 32.
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 32.
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 32.
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
+(Font)              scaled to size 17.28pt on input line 34.
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/b/n' will be
+(Font)              scaled to size 17.28pt on input line 34.
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/b/n' will be
+(Font)              scaled to size 14.4pt on input line 40.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+]
+Overfull \hbox (20.73991pt too wide) in paragraph at lines 119--120
+\TU/IBMPlexSans(0)/m/n/12 Com-bien de piliers méthodologiques fon-da-men-taux 
+con-stituent la base de l’école autrichi-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[2]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5]
+Overfull \hbox (3.63992pt too wide) in paragraph at lines 281--282
+[]\TU/IBMPlexSans(0)/m/n/12 En par-tant des ac-tions et in-ten-tions in-di-vidu-
+elles pour com-pren-dre les phénomènes
+ []
+
+
+Overfull \hbox (2.27592pt too wide) in paragraph at lines 301--302
+\TU/IBMPlexSans(0)/m/n/12 Quelle est la prin-ci-pale cri-tique de Carl Menger co
+n-cer-nant l’ap-proche des économistes
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6]
+Overfull \hbox (40.02464pt too wide) in paragraph at lines 327--328
+\TU/IBMPlexSans(0)/m/n/12 Selon le sub-jec-tivisme dy-namique de Menger, qu’es
+t-ce qui car-ac-térise les choix économiques
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7]
+Overfull \hbox (14.35193pt too wide) in paragraph at lines 392--393
+\TU/IBMPlexSans(0)/m/n/12 Quelle est la car-ac-téris-tique unique de l’ax-iom
+e de l’ac-tion hu-maine selon l’école autrichi-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9]
+Overfull \hbox (53.57593pt too wide) in paragraph at lines 463--464
+[]\TU/IBMPlexSans(0)/m/n/12 L’ap-proche ax-ioma-tique utilise prin-ci-pale-men
+t des méth-odes statis-tiques et économétriques 
+ []
+
+
+Overfull \hbox (18.05182pt too wide) in paragraph at lines 483--484
+\TU/IBMPlexSans(0)/m/n/12 Com-ment Carl Menger définissait-il la sci-ence écon
+omique dans ses Principes d’économie
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10]
+Overfull \hbox (34.98781pt too wide) in paragraph at lines 526--527
+[]\TU/IBMPlexSans(0)/m/n/12 Une méth-ode sci-en-tifique rigoureuse adap-tée sp
+é-ci-fique-ment aux sci-ences économiques
+ []
+
+
+Overfull \hbox (5.05185pt too wide) in paragraph at lines 527--528
+[]\TU/IBMPlexSans(0)/m/n/12 Une ap-proche qui com-bine har-monieuse-ment les m
+éth-odes des sci-ences na-turelles
+ []
+
+
+Overfull \hbox (25.11195pt too wide) in paragraph at lines 528--529
+[]\TU/IBMPlexSans(0)/m/n/12 L’ap-pli-ca-tion cor-recte des math-é-ma-tiques 
+et de la statis-tique à l’étude des phénomènes
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11]
+Overfull \hbox (8.6447pt too wide) in paragraph at lines 561--562
+\TU/IBMPlexSans(0)/m/n/12 Selon l’école autrichi-enne, pourquoi les in-di-vid
+us ne peuvent-ils pas être étudiés comme
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15]
+Overfull \hbox (6.53188pt too wide) in paragraph at lines 704--705
+\TU/IBMPlexSans(0)/m/n/12 Quel con-cept désigne la ca-pac-ité d’un in-di-vid
+u à iden-ti-fier des bi-ens comme des moyens
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16]
+Overfull \hbox (24.75192pt too wide) in paragraph at lines 749--750
+[]\TU/IBMPlexSans(0)/m/n/12 La pro-duc-tion di-recte de bi-ens de con-som-ma-tio
+n sans utiliser d’out-ils ou d’équipements
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17]
+Overfull \hbox (35.35587pt too wide) in paragraph at lines 827--828
+[]\TU/IBMPlexSans(0)/m/n/12 Une ma-chine d’ex-trac-tion ne peut pas être re-c
+on-ver-tie in-stan-ta-né-ment en moissonneuse-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[18]
+Overfull \hbox (5.27185pt too wide) in paragraph at lines 851--852
+[]\TU/IBMPlexSans(0)/m/n/12 Une masse ho-mogène de bi-ens de pro-duc-tion facil
+e-ment mesurable et in-ter-change-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[21]
+Overfull \hbox (20.89587pt too wide) in paragraph at lines 969--970
+[]\TU/IBMPlexSans(0)/m/n/12 Il per-met de co-or-don-ner ef-fi-cace-ment les d
+é-ci-sions de mil-lions d’ac-teurs économiques
+ []
+
+
+Overfull \hbox (22.6559pt too wide) in paragraph at lines 981--982
+[]\TU/IBMPlexSans(0)/m/n/12 Parce que les con-som-ma-teurs re-fusent sys-té-ma-
+tique-ment de révéler leurs préférences
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22]
+Overfull \hbox (15.89195pt too wide) in paragraph at lines 1008--1009
+[]\TU/IBMPlexSans(0)/m/n/12 Ils per-me-t-tent aux au-torités cen-trales de cal-
+culer l’al-lo-ca-tion op-ti-male des ressources
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23]
+Overfull \hbox (3.91994pt too wide) in paragraph at lines 1034--1035
+[]\TU/IBMPlexSans(0)/m/n/12 Elle per-met aux ac-teurs d’adopter na-turelle-men
+t des com-porte-ments économiques
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[24]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[25]
+Overfull \hbox (49.18864pt too wide) in paragraph at lines 1133--1134
+\TU/IBMPlexSans(0)/m/n/12 Dans la vi-sion autrichi-enne, com-ment la con-cur-ren
+ce contribue-t-elle à l’ef-fi-cac-ité économique? 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[26]
+Overfull \hbox (10.57593pt too wide) in paragraph at lines 1151--1152
+[]\TU/IBMPlexSans(0)/m/n/12 Parce qu’il opère en de-hors des mé-can-ismes de
+ prix pour créer de nou-veaux marchés 
+ []
+
+
+Overfull \hbox (4.44391pt too wide) in paragraph at lines 1163--1164
+[]\TU/IBMPlexSans(0)/m/n/12 Pour échanger les noix con-tre les matéri-aux n
+éces-saires à la fab-ri-ca-tion de la perche 
+ []
+
+
+Overfull \hbox (26.72394pt too wide) in paragraph at lines 1175--1176
+[]\TU/IBMPlexSans(0)/m/n/12 La dé-cou-verte d’un car-bu-ra-teur dou-blant l
+’ef-fi-cac-ité des mo-teurs équiv-aut économique-
+ []
+
+
+Overfull \hbox (15.77994pt too wide) in paragraph at lines 1177--1178
+[]\TU/IBMPlexSans(0)/m/n/12 L’in-no-va-tion tech-nologique qui per-met de d
+é-cou-vrir de nou-veaux gise-ments pétroliers
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[27]
+Overfull \hbox (10.53986pt too wide) in paragraph at lines 1191--1192
+[]\TU/IBMPlexSans(0)/m/n/12 Une meilleure al-lo-ca-tion pos-si-ble des ressource
+s grâce à sa con-nais-sance supérieure
+ []
+
+
+Overfull \hbox (5.56473pt too wide) in paragraph at lines 1198--1199
+\TU/IBMPlexSans(0)/m/n/12 Selon la théorie autrichi-enne, que se passe-t-il lor
+sque l’en-trepreneur agit sur le marché
+ []
+
+
+Overfull \hbox (12.86867pt too wide) in paragraph at lines 1211--1212
+\TU/IBMPlexSans(0)/m/n/12 Selon le théorème de ré-gres-sion de Mises, com-men
+t une mon-naie marchan-dise acquiert-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[28]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[29]
+Overfull \hbox (16.49586pt too wide) in paragraph at lines 1255--1256
+[]\TU/IBMPlexSans(0)/m/n/12 La mon-naie n’est pas con-som-mée dans son us-age
+ mais sert d’in-ter-mé-di-aire d’échange 
+ []
+
+
+Overfull \hbox (4.35597pt too wide) in paragraph at lines 1268--1269
+[]\TU/IBMPlexSans(0)/m/n/12 En garan-tis-sant la sta-bil-ité des valeurs rel-a-
+tives en-tre les dif-férents bi-ens du marché 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[30]
+Overfull \hbox (28.00389pt too wide) in paragraph at lines 1319--1320
+[]\TU/IBMPlexSans(0)/m/n/12 Sa ca-pac-ité in-trin-sèque à main-tenir une vale
+ur sta-ble face aux fluc-tu-a-tions économiques 
+ []
+
+
+Overfull \hbox (0.1967pt too wide) in paragraph at lines 1328--1329
+\TU/IBMPlexSans(0)/m/n/12 Selon la théorie de Menger, quel mé-can-isme prin-ci
+-pal per-met aux agents économiques
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[31]
+Overfull \hbox (43.91989pt too wide) in paragraph at lines 1334--1335
+[]\TU/IBMPlexSans(0)/m/n/12 L’im-i-ta-tion spon-tanée des com-porte-ments des
+ in-di-vidus les plus per-for-mants économique-
+ []
+
+
+Overfull \hbox (2.90396pt too wide) in paragraph at lines 1370--1371
+[]\TU/IBMPlexSans(0)/m/n/12 Il s’ex-clut pro-gres-sive-ment du marché et perd
+ sa ca-pac-ité à par-ticiper aux échanges 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[32]
+Overfull \hbox (2.74472pt too wide) in paragraph at lines 1380--1381
+\TU/IBMPlexSans(0)/m/n/12 Selon la théorie autrichi-enne de Menger, quelle car-
+ac-téris-tique fon-da-men-tale dis-tingue
+ []
+
+
+Overfull \hbox (15.5087pt too wide) in paragraph at lines 1393--1394
+\TU/IBMPlexSans(0)/m/n/12 Selon la théorie autrichi-enne de Menger, pourquoi l
+’émer-gence de la mon-naie représente-
+ []
+
+
+Overfull \hbox (7.576pt too wide) in paragraph at lines 1396--1397
+[]\TU/IBMPlexSans(0)/m/n/12 Car les pre-miers adop-tants ma-nip-u-lent ar-ti-fi-
+cielle-ment le marché pour forcer l’adop-
+ []
+
+
+Overfull \hbox (3.01192pt too wide) in paragraph at lines 1397--1398
+[]\TU/IBMPlexSans(0)/m/n/12 Car les au-torités cen-trales in-ter-vi-en-nent pro
+-gres-sive-ment pour soutenir et légitimer
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[33]
+Overfull \hbox (3.11584pt too wide) in paragraph at lines 1422--1423
+[]\TU/IBMPlexSans(0)/m/n/12 Les autrichiens con-sid-èrent que la mon-naie émer
+ge d’un pro-ces-sus na-turel et spon-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[34]
+Overfull \hbox (17.38393pt too wide) in paragraph at lines 1458--1459
+\TU/IBMPlexSans(0)/m/n/12 Pourquoi l’échange volon-taire est-il pos-si-ble en
+-tre deux in-di-vidus selon la théorie autrichi-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[35]
+Overfull \hbox (5.05191pt too wide) in paragraph at lines 1515--1516
+[]\TU/IBMPlexSans(0)/m/n/12 Il per-met la co-or-di-na-tion économique dé-cen-t
+ral-isée sans plan-i-fi-ca-teur cen-tral grâce
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[36]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[37]
+Overfull \hbox (11.5767pt too wide) in paragraph at lines 1575--1576
+\TU/IBMPlexSans(0)/m/n/12 Dans l’ex-em-ple de la mine d’étain de Hayek, com
+-ment les ac-teurs économiques ajustent-
+ []
+
+
+Overfull \hbox (3.2687pt too wide) in paragraph at lines 1581--1582
+[]\TU/IBMPlexSans(0)/m/n/12 Ils économisent l’étain, cherchent des sub-sti-t
+uts ou in-novent pour en utiliser moins,
+ []
+
+
+Overfull \hbox (8.33276pt too wide) in paragraph at lines 1588--1589
+\TU/IBMPlexSans(0)/m/n/12 Selon Hayek, quelle est la prin-ci-pale car-ac-téris-
+tique de l’in-for-ma-tion dans une économie
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[38]
+Overfull \hbox (1.9599pt too wide) in paragraph at lines 1607--1608
+[]\TU/IBMPlexSans(0)/m/n/12 Parce qu’il agrège spon-tané-ment l’in-for-ma-
+tion dis-per-sée en-tre tous les agents sans
+ []
+
+
+Overfull \hbox (5.27191pt too wide) in paragraph at lines 1614--1615
+\TU/IBMPlexSans(0)/m/n/12 Quel con-cept Hayek utilise-t-il pour décrire l’or-
+gan-i-sa-tion so-ciale spon-tanée qui émerge
+ []
+
+
+Overfull \hbox (43.6959pt too wide) in paragraph at lines 1631--1632
+[]\TU/IBMPlexSans(0)/m/n/12 Les au-torités cen-trales col-lectent l’in-for-ma
+-tion et la re-dis-tribuent aux ac-teurs économiques
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[39]
+Overfull \hbox (10.2927pt too wide) in paragraph at lines 1653--1654
+\TU/IBMPlexSans(0)/m/n/12 Selon Hayek, quelle est la con-séquence prin-ci-pale du fait que les d
+é-ci-sions économiques
+ []
+
+
+Overfull \hbox (12.07677pt too wide) in paragraph at lines 1658--1659
+[]\TU/IBMPlexSans(0)/m/n/12 Il de-vient im-pos-si-ble de pren-dre des dé-ci-sio
+ns ra-tionnelles, ce qui con-duit in-évitable-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[40]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[41]
+Overfull \hbox (0.29195pt too wide) in paragraph at lines 1747--1748
+\TU/IBMPlexSans(0)/m/n/12 le créancier de-mande une prime pour cou-vrir l’in-
+fla-tion et l’in-cer-ti-tude économique 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[42]
+Overfull \hbox (0.5207pt too wide) in paragraph at lines 1761--1762
+[]\TU/IBMPlexSans(0)/m/n/12 Lorsque les taux sont main-tenus durable-ment en des
+sous du niveau na-turel, créant
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[43]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[44]
+Overfull \hbox (2.98787pt too wide) in paragraph at lines 1840--1841
+[]\TU/IBMPlexSans(0)/m/n/12 Ils aug-mentent tous di-recte-ment l’in-fla-tion 
+sans stim-uler la crois-sance économique
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[45]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[46]
+Overfull \hbox (3.98788pt too wide) in paragraph at lines 1890--1891
+[]\TU/IBMPlexSans(0)/m/n/12 Les con-som-ma-teurs ajus-tent au-toma-tique-ment le
+urs préférences tem-porelles pour
+ []
+
+
+Overfull \hbox (16.26785pt too wide) in paragraph at lines 1892--1893
+[]\TU/IBMPlexSans(0)/m/n/12 Les ban-ques com-mer-ciales com-pensent spon-tané-m
+ent en aug-men-tant leurs réserves
+ []
+
+
+Overfull \hbox (34.73595pt too wide) in paragraph at lines 1913--1914
+\TU/IBMPlexSans(0)/m/n/12 men-tale-ment leur anal-yse tem-porelle des crises par
+ rap-port aux autres écoles économiques? 
+ []
+
+
+Overfull \hbox (7.76071pt too wide) in paragraph at lines 1917--1918
+[]\TU/IBMPlexSans(0)/m/n/12 La crise suit im-mé-di-ate-ment la ré-ces-sion, ca
+r les déséquili-bres ne se créent qu’après
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[47]
+Overfull \hbox (23.03596pt too wide) in paragraph at lines 1943--1944
+[]\TU/IBMPlexSans(0)/m/n/12 Elle per-met de liq-uider les ma-l-in-vestisse-ments
+ et de restau-rer un équili-bre économique
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[48]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[49]
+Overfull \hbox (5.58876pt too wide) in paragraph at lines 2004--2005
+\TU/IBMPlexSans(0)/m/n/12 Selon la théorie autrichi-enne des cy-cles économiqu
+es, que révèle l’anal-yse de la Grande
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[50]
+Overfull \hbox (7.46397pt too wide) in paragraph at lines 2017--2018
+\TU/IBMPlexSans(0)/m/n/12 d’in-térêt na-turelle (due à l’épargne réelle
+) diffère-t-elle fon-da-men-tale-ment d’une baisse
+ []
+
+
+Overfull \hbox (15.01277pt too wide) in paragraph at lines 2022--2023
+\TU/IBMPlexSans(0)/m/n/12 at-ten-dus, con-traire-ment à la baisse ar-ti-fi-ciel
+le qui op-ti-mise l’al-lo-ca-tion des ressources
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[51]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[52]
+Overfull \hbox (4.13995pt too wide) in paragraph at lines 2087--2088
+[]\TU/IBMPlexSans(0)/m/n/12 Le prix fi-nal payé par le con-som-ma-teur qui in-f
+lu-ence rétroac-tive-ment toute la chaîne
+ []
+
+
+Overfull \hbox (17.12384pt too wide) in paragraph at lines 2112--2113
+[]\TU/IBMPlexSans(0)/m/n/12 Les plan-i-fi-ca-teurs man-quent de com-pé-tences 
+tech-niques et de for-ma-tion économique
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[53]
+Overfull \hbox (10.32074pt too wide) in paragraph at lines 2134--2135
+\TU/IBMPlexSans(0)/m/n/12 Selon l’école autrichi-enne, quelle est la prin-ci-
+pale con-séquence de l’im-pos-si-bil-ité d’anal-
+ []
+
+
+Overfull \hbox (21.10399pt too wide) in paragraph at lines 2138--2139
+[]\TU/IBMPlexSans(0)/m/n/12 La créa-tion d’un marché noir par-al-lèle qui 
+finit par rem-placer com-plète-ment l’économie
+ []
+
+
+Overfull \hbox (1.19191pt too wide) in paragraph at lines 2139--2140
+[]\TU/IBMPlexSans(0)/m/n/12 La trans-for-ma-tion pro-gres-sive du régime so-cia
+l-iste en économie mixte avec secteur
+ []
+
+
+Overfull \hbox (3.81589pt too wide) in paragraph at lines 2140--2141
+[]\TU/IBMPlexSans(0)/m/n/12 L’émer-gence spon-tanée d’en-trepreneurs priv
+és qui con-tour-nent le sys-tème de plan-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[54]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[55]
+Overfull \hbox (10.88077pt too wide) in paragraph at lines 2205--2206
+[]\TU/IBMPlexSans(0)/m/n/12 Comme un état d’équili-bre par-fait math-é-ma-t
+ique-ment défini, con-forme aux principes
+ []
+
+
+Overfull \hbox (26.88394pt too wide) in paragraph at lines 2218--2219
+[]\TU/IBMPlexSans(0)/m/n/12 Ils con-cil-i-aient la théolo-gie catholique thomis
+te avec l’anal-yse des réal-ités économiques
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[56]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[57]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[58]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[59]
+Overfull \hbox (6.43587pt too wide) in paragraph at lines 2342--2343
+\TU/IBMPlexSans(0)/m/n/12 Quelle syn-thèse con-ceptuelle per-met à Stephen Hor
+-witz d’af-firmer que les économistes
+ []
+
+
+Overfull \hbox (22.79597pt too wide) in paragraph at lines 2346--2347
+[]\TU/IBMPlexSans(0)/m/n/12 La fu-sion des droits na-turels écos-sais avec la 
+praxéolo-gie kanti-enne et l’en-trepreneuriat 
+ []
+
+
+Overfull \hbox (16.84793pt too wide) in paragraph at lines 2355--2356
+\TU/IBMPlexSans(0)/m/n/12 Baptiste Say qui établit les fonde-ments de la vi-sio
+n autrichi-enne de l’ac-tiv-ité économique? 
+ []
+
+
+Overfull \hbox (17.56795pt too wide) in paragraph at lines 2360--2361
+[]\TU/IBMPlexSans(0)/m/n/12 La théorie de la valeur-travail comme déter-mi-nan
+t ob-jec-tif des prix dans une économie
+ []
+
+
+Overfull \hbox (10.78792pt too wide) in paragraph at lines 2361--2362
+[]\TU/IBMPlexSans(0)/m/n/12 L’in-ter-ven-tion éta-tique néces-saire pour cor
+-riger les déséquili-bres na-turels du marché
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[60]
+Overfull \hbox (11.03595pt too wide) in paragraph at lines 2371--2372
+[]\TU/IBMPlexSans(0)/m/n/12 Elle a révélé que la spécu-la-tion en-trepreneur
+i-ale ex-ces-sive sur les marchés fi-nanciers
+ []
+
+
+Overfull \hbox (15.07188pt too wide) in paragraph at lines 2385--2386
+[]\TU/IBMPlexSans(0)/m/n/12 Menger adopte une méth-ode his-tori-ciste con-textu
+elle pour ex-pli-quer les phénomènes
+ []
+
+
+Overfull \hbox (17.7159pt too wide) in paragraph at lines 2387--2388
+[]\TU/IBMPlexSans(0)/m/n/12 Menger priv-ilégie une ap-proche math-é-ma-tique 
+plus rigoureuse basée sur des mesures
+ []
+
+
+Overfull \hbox (0.13274pt too wide) in paragraph at lines 2397--2398
+[]\TU/IBMPlexSans(0)/m/n/12 Les statis-tiques ne représen-tent que des in-stan-
+ta-nés d’un passé révolu, in-ca-pables
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[61]
+Overfull \hbox (1.49196pt too wide) in paragraph at lines 2410--2411
+[]\TU/IBMPlexSans(0)/m/n/12 En étab-lis-sant que la rareté na-turelle déter-m
+ine mé-canique-ment la valeur in-dépen-
+ []
+
+
+Overfull \hbox (41.47595pt too wide) in paragraph at lines 2420--2421
+\TU/IBMPlexSans(0)/m/n/12 favorisait-il poli-tique-ment l’école his-torique 
+de Schmoller plutôt que les théories économiques
+ []
+
+
+Overfull \hbox (8.01584pt too wide) in paragraph at lines 2433--2434
+\TU/IBMPlexSans(0)/m/n/12 Pourquoi le déter-min-isme his-torique marx-iste cons
+titue-t-il une faib-lesse ma-jeure selon
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[62]
+Overfull \hbox (41.74391pt too wide) in paragraph at lines 2475--2476
+[]\TU/IBMPlexSans(0)/m/n/12 L’util-i-sa-tion sys-té-ma-tique des math-é-ma-t
+iques pour quan-ti-fier pré-cisé-ment les préférences
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[63]
+Overfull \hbox (1.75992pt too wide) in paragraph at lines 2504--2505
+[]\TU/IBMPlexSans(0)/m/n/12 La rareté na-turelle d’un bien qui force au-toma-
+tique-ment son adop-tion comme mon-
+ []
+
+
+Overfull \hbox (13.97188pt too wide) in paragraph at lines 2514--2515
+[]\TU/IBMPlexSans(0)/m/n/12 Parce qu’il utilise une tech-nolo-gie blockchain 
+qui au-toma-tise les cal-culs économiques
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[64]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[65]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[66]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[67]
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/b/n' will be
+(Font)              scaled to size 12.0pt on input line 2618.
+
+
+LaTeX Font Warning: Font shape `TU/IBMPlexSans(0)/m/it' undefined
+(Font)              using `TU/IBMPlexSans(0)/m/n' instead on input line 2619.
+
+
+Overfull \hbox (8.94069pt too wide) in paragraph at lines 2618--2620
+\TU/IBMPlexSans(0)/m/n/12 de pro-duc-tion, les économistes autrichiens af-fir-m
+ent que la valeur émerge unique-
+ []
+
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/it' will be
+(Font)              scaled to size 12.0pt on input line 2622.
+
+Overfull \hbox (20.83597pt too wide) in paragraph at lines 2621--2623
+\TU/IBMPlexSans(0)/m/it/12 of-fi-ciel de cette tra-di-tion in-tel-lectuelle qui al-lait r
+évo-lu-tion-ner la pen-sée économique.
+ []
+
+
+Overfull \hbox (57.11592pt too wide) in paragraph at lines 2624--2626
+\TU/IBMPlexSans(0)/m/it/12 Le sub-jec-tivisme méthodologique con-stitue ef-fec-
+tive-ment le pre-mier pilier méthodologique
+ []
+
+
+Overfull \hbox (17.15724pt too wide) in paragraph at lines 2624--2626
+\TU/IBMPlexSans(0)/m/it/12 sub-jec-tives des in-di-vidus selon leur con-texte pr
+é-cis. L’ob-jec-tivisme méthodologique
+ []
+
+
+Overfull \hbox (6.82388pt too wide) in paragraph at lines 2627--2629
+\TU/IBMPlexSans(0)/m/it/12 Le coût d’op-por-tu-nité est un con-cept cen-tral
+ de l’école autrichi-enne qui représente
+ []
+
+
+Overfull \hbox (1.8208pt too wide) in paragraph at lines 2630--2632
+\TU/IBMPlexSans(0)/m/it/12 tivisme méthodologique (pre-mier pilier), l’in-di-
+vid-u-al-isme méthodologique (deux-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[68]
+Overfull \hbox (10.7799pt too wide) in paragraph at lines 2639--2641
+\TU/IBMPlexSans(0)/m/it/12 comme dé-cou-vreur d’op-por-tu-nités et co-or-di-
+na-teur d’in-for-ma-tions dis-per-sées dans
+ []
+
+
+Overfull \hbox (4.20876pt too wide) in paragraph at lines 2642--2644
+\TU/IBMPlexSans(0)/m/it/12 Lorsque les ban-ques cen-trales ma-nip-u-lent ar-ti-f
+i-cielle-ment les taux d’in-térêt, elles
+ []
+
+
+Overfull \hbox (2.5613pt too wide) in paragraph at lines 2642--2644
+\TU/IBMPlexSans(0)/m/it/12 tem-porelles des in-di-vidus. Cette ma-nip-u-la-tion provoque des ma-l-in-vestisse-ments
+ []
+
+
+Overfull \hbox (3.23587pt too wide) in paragraph at lines 2642--2644
+\TU/IBMPlexSans(0)/m/it/12 sys-té-ma-tiques qui aboutis-sent in-évitable-ment 
+à une cor-rec-tion douloureuse sous
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[69]
+Overfull \hbox (1.46878pt too wide) in paragraph at lines 2657--2659
+\TU/IBMPlexSans(0)/m/it/12 La théorie de la valeur tra-vail, dévelop-pée par les 
+économistes clas-siques comme
+ []
+
+
+Overfull \hbox (1.51726pt too wide) in paragraph at lines 2657--2659
+\TU/IBMPlexSans(0)/m/it/12 dou-ble de la dinde. Les autres réponses cor-re-spon
+-dent aux théories postérieures
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[70]
+Overfull \hbox (11.49326pt too wide) in paragraph at lines 2672--2674
+\TU/IBMPlexSans(0)/m/it/12 math-é-ma-tiques stan-dard-isés ou forces col-lec-t
+ives ab-straites. Pour l’école autrichi-
+ []
+
+
+Overfull \hbox (3.30785pt too wide) in paragraph at lines 2678--2680
+\TU/IBMPlexSans(0)/m/it/12 Menger cri-tique l’ap-proche agrégée des économi
+stes clas-siques et néo-clas-siques
+ []
+
+
+Overfull \hbox (7.85674pt too wide) in paragraph at lines 2678--2680
+\TU/IBMPlexSans(0)/m/it/12 qui di-visent la so-ciété en grands en-sem-bles ho-
+mogènes (pro-duc-teurs, tra-vailleurs,
+ []
+
+
+Overfull \hbox (4.04207pt too wide) in paragraph at lines 2684--2686
+\TU/IBMPlexSans(0)/m/it/12 changeants et dy-namiques, évolu-ant con-stam-ment. Cette vi-sion s
+’op-pose à l’idée
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[71]
+Overfull \hbox (36.07762pt too wide) in paragraph at lines 2690--2692
+\TU/IBMPlexSans(0)/m/it/12 La Meth-o-d-en-streit, lit-térale-ment ”bataille 
+des méth-odes”, est le con-flit méthodologique
+ []
+
+
+Overfull \hbox (20.80127pt too wide) in paragraph at lines 2699--2701
+\TU/IBMPlexSans(0)/m/it/12 con-tra-dic-tion per-for-ma-tive lorsqu’on tente de
+ le ré-futer. Pour con-tester que l’homme
+ []
+
+
+Overfull \hbox (8.6892pt too wide) in paragraph at lines 2702--2704
+\TU/IBMPlexSans(0)/m/it/12 maine. Les autres réponses con-tre-dis-ent cette d
+éf-i-ni-tion fon-da-men-tale en présen-
+ []
+
+
+Overfull \hbox (13.90788pt too wide) in paragraph at lines 2705--2707
+\TU/IBMPlexSans(0)/m/it/12 L’école autrichi-enne sous l’im-pul-sion de Mise
+s développe une méth-ode axiomatico-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[72]
+Overfull \hbox (4.98482pt too wide) in paragraph at lines 2714--2716
+\TU/IBMPlexSans(0)/m/it/12 L’approche ax-ioma-tique part d’ax-iomes, des v
+érités uni-verselles et in-tem-porelles,
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[73]
+Overfull \hbox (7.6487pt too wide) in paragraph at lines 2732--2734
+\TU/IBMPlexSans(0)/m/it/12 in-ten-tion-nal-ité et pour-suiv-ent des buts con-sc
+ients, tan-dis que les atomes et autres
+ []
+
+
+Overfull \hbox (3.05992pt too wide) in paragraph at lines 2735--2737
+\TU/IBMPlexSans(0)/m/it/12 Le du-al-isme méthodologique défend pré-cisé-ment
+ l’idée que deux ob-jets d’études
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[74]
+Overfull \hbox (42.72125pt too wide) in paragraph at lines 2741--2743
+\TU/IBMPlexSans(0)/m/it/12 his-toriques peu fi-ables. Cette cri-tique dé-coule di-recte-ment du du-al-isme m
+éthodologique
+ []
+
+
+Overfull \hbox (7.83589pt too wide) in paragraph at lines 2744--2746
+\TU/IBMPlexSans(0)/m/it/12 L’école autrichi-enne pré-conise une ap-proche pr
+axéologique axiomatico-déductive
+ []
+
+
+Overfull \hbox (8.15196pt too wide) in paragraph at lines 2753--2755
+\TU/IBMPlexSans(0)/m/it/12 La réponse cor-recte re-flète le con-cept cen-tral de pr
+éférence tem-porelle développé
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[75]
+Overfull \hbox (7.65671pt too wide) in paragraph at lines 2756--2758
+\TU/IBMPlexSans(0)/m/it/12 elle et sub-jec-tive, con-traire-ment aux mod-èles 
+néo-clas-siques qui le trait-ent comme
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[76]
+Overfull \hbox (12.01988pt too wide) in paragraph at lines 2774--2776
+\TU/IBMPlexSans(0)/m/it/12 L’approche autrichi-enne pro-pose une con-cep-tion rad-i-cale-ment dif-f
+érente du temps
+ []
+
+
+Overfull \hbox (1.20393pt too wide) in paragraph at lines 2780--2782
+\TU/IBMPlexSans(0)/m/it/12 Les dé-tours de pro-duc-tion selon Böhm-Bawerk con-
+sis-tent à in-ve-stir d’abord dans
+ []
+
+
+Overfull \hbox (13.60526pt too wide) in paragraph at lines 2786--2788
+\TU/IBMPlexSans(0)/m/it/12 dans des étapes de pro-duc-tion plus éloignées de la con-som-ma-tion fi-nale. L
+’épargne
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[77]
+Overfull \hbox (23.32912pt too wide) in paragraph at lines 2798--2800
+\TU/IBMPlexSans(0)/m/it/12 uniques et des us-ages spé-ci-fiques. Cette non-inte
+rchangeabilité a des con-séquences
+ []
+
+
+Overfull \hbox (25.31673pt too wide) in paragraph at lines 2798--2800
+\TU/IBMPlexSans(0)/m/it/12 vers d’autres us-ages plus pro-duc-tifs, ce qui ex-
+plique en par-tie les cy-cles économiques
+ []
+
+
+Overfull \hbox (7.58795pt too wide) in paragraph at lines 2801--2803
+\TU/IBMPlexSans(0)/m/it/12 per-met aux en-trepreneurs d’in-ve-stir dans des 
+étapes de pro-duc-tion plus éloignées
+ []
+
+
+Overfull \hbox (0.7927pt too wide) in paragraph at lines 2804--2806
+\TU/IBMPlexSans(0)/m/it/12 duc-tive com-plexe, in-clu-ant toutes les étapes dep
+uis les fac-teurs orig-inels comme
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[78]
+Overfull \hbox (8.03581pt too wide) in paragraph at lines 2816--2818
+\TU/IBMPlexSans(0)/m/it/12 can-isme co-or-donne ef-fi-cace-ment les dé-ci-sions
+ de mil-lions d’ac-teurs économiques
+ []
+
+
+Overfull \hbox (19.0199pt too wide) in paragraph at lines 2822--2824
+\TU/IBMPlexSans(0)/m/it/12 Wieser révo-lu-tionne la con-cep-tion du coût en mo
+n-trant que la valeur d’une ressource
+ []
+
+
+Overfull \hbox (0.17668pt too wide) in paragraph at lines 2822--2824
+\TU/IBMPlexSans(0)/m/it/12 ne dépend pas de ce qu’elle a coûté his-torique-
+ment, mais de ce à quoi on renonce
+ []
+
+
+Overfull \hbox (12.6853pt too wide) in paragraph at lines 2822--2824
+\TU/IBMPlexSans(0)/m/it/12 et l’avenir (les al-ter-na-tives sac-ri-fiées) plu
+tôt que dans le passé. Les autres réponses
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[79]
+Overfull \hbox (7.47588pt too wide) in paragraph at lines 2834--2836
+\TU/IBMPlexSans(0)/m/it/12 Hayek est struc-turel et in-hérent à la na-ture m
+ême de la con-nais-sance économique. 
+ []
+
+
+Overfull \hbox (16.4518pt too wide) in paragraph at lines 2840--2842
+\TU/IBMPlexSans(0)/m/it/12 in-for-ma-tions sur les con-nais-sances tacites que 
+pos-sè-dent les ac-teurs économiques.
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[80]
+Overfull \hbox (10.28867pt too wide) in paragraph at lines 2846--2848
+\TU/IBMPlexSans(0)/m/it/12 tané-ment des ap-proches sen-sées con-cer-nant la 
+mon-naie, le crédit et les échanges,
+ []
+
+
+Overfull \hbox (31.4527pt too wide) in paragraph at lines 2849--2851
+\TU/IBMPlexSans(0)/m/it/12 tion dis-per-sée, les or-gan-ismes régu-la-teurs ne
+ peu-vent pas har-moniser des préférences
+ []
+
+
+Overfull \hbox (5.2293pt too wide) in paragraph at lines 2852--2854
+\TU/IBMPlexSans(0)/m/it/12 L’autorégulation du marché re-pose sur deux pilie
+rs selon Mises et Hayek. D’abord,
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[81]
+Overfull \hbox (21.56396pt too wide) in paragraph at lines 2861--2863
+\TU/IBMPlexSans(0)/m/it/12 Con-traire-ment à Schum-peter qui voit l’en-trepre
+neur comme un per-tur-ba-teur d’équili-
+ []
+
+
+Overfull \hbox (0.73724pt too wide) in paragraph at lines 2861--2863
+\TU/IBMPlexSans(0)/m/it/12 d’in-for-ma-tions. L’en-trepreneur kirzne-r-ien 
+ne cal-cule pas ra-tionnelle-ment comme
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[82]
+Overfull \hbox (27.16792pt too wide) in paragraph at lines 2876--2878
+\TU/IBMPlexSans(0)/m/it/12 L’épargne de noix de coco par Robin-son il-lus-tre
+ un principe fon-da-men-tal de l’économie
+ []
+
+
+Overfull \hbox (19.91998pt too wide) in paragraph at lines 2879--2881
+\TU/IBMPlexSans(0)/m/it/12 L’exemple du car-bu-ra-teur il-lus-tre par-faite-me
+nt la vi-sion autrichi-enne : l’en-trepreneur
+ []
+
+
+Overfull \hbox (22.5212pt too wide) in paragraph at lines 2879--2881
+\TU/IBMPlexSans(0)/m/it/12 ité des ressources ex-is-tantes. Dou-bler l’ef-fi-
+cac-ité én-ergé-tique équiv-aut économique-
+ []
+
+
+Overfull \hbox (3.39993pt too wide) in paragraph at lines 2879--2881
+\TU/IBMPlexSans(0)/m/it/12 plutôt que sur l’op-ti-mi-sa-tion de leur util-i-s
+a-tion par la con-nais-sance en-trepreneuri-
+ []
+
+
+Overfull \hbox (30.41263pt too wide) in paragraph at lines 2885--2887
+\TU/IBMPlexSans(0)/m/it/12 Dans la con-cep-tion autrichi-enne, l’en-trepreneur
+ pos-sède une con-nais-sance supérieure
+ []
+
+
+Overfull \hbox (6.87991pt too wide) in paragraph at lines 2885--2887
+\TU/IBMPlexSans(0)/m/it/12 ment son profit mais con-tribue in-volon-taire-ment 
+au bien-être général en ré-duisant
+ []
+
+
+Overfull \hbox (2.94081pt too wide) in paragraph at lines 2888--2890
+\TU/IBMPlexSans(0)/m/it/12 une mon-naie doit avoir de la valeur pour être de-ma
+ndée, mais doit être de-mandée
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[83]
+Overfull \hbox (11.3159pt too wide) in paragraph at lines 2897--2899
+\TU/IBMPlexSans(0)/m/it/12 Rothbard pré-cise que con-traire-ment aux bi-ens de con-som-ma-tion ou d
+’équipement,
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[84]
+Overfull \hbox (4.2919pt too wide) in paragraph at lines 2909--2911
+\TU/IBMPlexSans(0)/m/it/12 La réponse cor-recte re-flète la vi-sion autrichi-e
+nne où la mon-naie émerge na-turelle-
+ []
+
+
+Overfull \hbox (1.31317pt too wide) in paragraph at lines 2921--2923
+\TU/IBMPlexSans(0)/m/it/12 ble coïn-ci-dence des be-soins. Cette con-di-tion ex
+-ige que chaque échangiste trouve
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[85]
+Overfull \hbox (43.39592pt too wide) in paragraph at lines 2927--2929
+\TU/IBMPlexSans(0)/m/it/12 tiale-ment l’avan-tage d’utiliser cer-taines marc
+han-dises comme in-ter-mé-di-aires d’échange.
+ []
+
+
+Overfull \hbox (8.44064pt too wide) in paragraph at lines 2939--2941
+\TU/IBMPlexSans(0)/m/it/12 Menger ex-plique que dans une économie de troc éten
+-due, les agents économiques
+ []
+
+
+Overfull \hbox (5.15596pt too wide) in paragraph at lines 2939--2941
+\TU/IBMPlexSans(0)/m/it/12 na-turelle-ment vers l’adop-tion de cer-tains bi-en
+s comme in-ter-mé-di-aires priv-ilégiés.
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[86]
+Overfull \hbox (6.91997pt too wide) in paragraph at lines 2951--2953
+\TU/IBMPlexSans(0)/m/it/12 boulangère préfère l’ar-gent à sa baguette tan-
+dis que l’acheteur préfère la baguette
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[87]
+Overfull \hbox (6.2253pt too wide) in paragraph at lines 2972--2974
+\TU/IBMPlexSans(0)/m/it/12 des al-ter-na-tives ou in-nover. Cette réac-tion spo
+n-tanée se propage en-suite à travers
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[88]
+Overfull \hbox (2.3679pt too wide) in paragraph at lines 2978--2980
+\TU/IBMPlexSans(0)/m/it/12 tions de mil-lions d’in-di-vidus en agrégeant cett
+e in-for-ma-tion dis-per-sée de manière
+ []
+
+
+Overfull \hbox (36.81671pt too wide) in paragraph at lines 2990--2992
+\TU/IBMPlexSans(0)/m/it/12 Pour Hayek, la dis-per-sion de l’in-for-ma-tion tra
+ns-forme toutes les dé-ci-sions économiques
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[89]
+Overfull \hbox (19.38548pt too wide) in paragraph at lines 2993--2995
+\TU/IBMPlexSans(0)/m/it/12 causes des change-ments de prix, ni toute l’in-for-
+ma-tion du marché, ni les préférences
+ []
+
+
+Overfull \hbox (16.94392pt too wide) in paragraph at lines 2993--2995
+\TU/IBMPlexSans(0)/m/it/12 sen-tielle sur la rareté rel-a-tive des bi-ens et 
+à guider les com-porte-ments économiques
+ []
+
+
+Overfull \hbox (3.53595pt too wide) in paragraph at lines 2999--3001
+\TU/IBMPlexSans(0)/m/it/12 pour les en-trepreneurs d’in-ve-stir dans les étap
+es de pro-duc-tion les plus éloignées
+ []
+
+
+Overfull \hbox (23.03589pt too wide) in paragraph at lines 2999--3001
+\TU/IBMPlexSans(0)/m/it/12 can-isme co-or-donne l’al-lo-ca-tion in-tertem-pore
+lle des ressources selon les préférences
+ []
+
+
+Overfull \hbox (17.22122pt too wide) in paragraph at lines 3005--3007
+\TU/IBMPlexSans(0)/m/it/12 épargne et in-vestisse-ment. Cette vi-sion autrichi-
+enne dif-fère des ap-proches keynési-
+ []
+
+
+Overfull \hbox (1.20793pt too wide) in paragraph at lines 3008--3010
+\TU/IBMPlexSans(0)/m/it/12 Le taux d’in-térêt joue un rôle unique de co-or-
+di-na-tion in-tertem-porelle selon l’école
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[90]
+Overfull \hbox (11.05188pt too wide) in paragraph at lines 3020--3022
+\TU/IBMPlexSans(0)/m/it/12 La réponse cor-recte souligne le mé-can-isme fon-da
+-men-tal de co-or-di-na-tion in-tertem-
+ []
+
+
+Overfull \hbox (4.64392pt too wide) in paragraph at lines 3026--3028
+\TU/IBMPlexSans(0)/m/it/12 décrivent des mé-can-ismes d’in-jec-tion de liq-u
+id-ités ou de mul-ti-pli-ca-tion con-trôlée,
+ []
+
+
+Overfull \hbox (9.37996pt too wide) in paragraph at lines 3026--3028
+\TU/IBMPlexSans(0)/m/it/12 per-met une ex-pan-sion moné-taire dé-pas-sant larg
+e-ment l’épargne réelle disponible. 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[91]
+Overfull \hbox (11.71753pt too wide) in paragraph at lines 3038--3040
+\TU/IBMPlexSans(0)/m/it/12 ques com-mer-ciales et fonds d’in-vestisse-ment, ta
+n-dis qu’aux États-Unis, la Réserve
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[92]
+Overfull \hbox (26.74788pt too wide) in paragraph at lines 3044--3046
+\TU/IBMPlexSans(0)/m/it/12 La réponse cor-recte re-flète le cœur de la théor
+ie autrichi-enne des cy-cles économiques
+ []
+
+
+Overfull \hbox (18.02391pt too wide) in paragraph at lines 3044--3046
+\TU/IBMPlexSans(0)/m/it/12 trepreneurs reçoivent de faux sig-naux sug-gérant 
+une abon-dante épargne disponible,
+ []
+
+
+Overfull \hbox (1.83188pt too wide) in paragraph at lines 3053--3055
+\TU/IBMPlexSans(0)/m/it/12 trepreneurs vers des in-vestisse-ments à long terme non soutenus par une 
+épargne
+ []
+
+
+Overfull \hbox (1.95326pt too wide) in paragraph at lines 3056--3058
+\TU/IBMPlexSans(0)/m/it/12 cor-rec-tion néces-saire. Le boom ar-ti-fi-ciel cr
+éé par la ma-nip-u-la-tion des taux génère
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[93]
+Overfull \hbox (6.08076pt too wide) in paragraph at lines 3062--3064
+\TU/IBMPlexSans(0)/m/it/12 Les en-treprises zom-bies, qui sur-vivent grâce aux cr
+édits à faible taux alors qu’elles
+ []
+
+
+Overfull \hbox (14.19673pt too wide) in paragraph at lines 3062--3064
+\TU/IBMPlexSans(0)/m/it/12 ne seraient pas renta-bles dans des con-di-tions nor-
+males, représen-tent un gaspillage
+ []
+
+
+Overfull \hbox (7.24397pt too wide) in paragraph at lines 3065--3067
+\TU/IBMPlexSans(0)/m/it/12 en-trepreneurs à en-trepren-dre plus de pro-jets qu
+’il n’y a de ressources disponibles,
+ []
+
+
+Overfull \hbox (28.4879pt too wide) in paragraph at lines 3068--3070
+\TU/IBMPlexSans(0)/m/it/12 vestisse-ments vers des pro-jets à long terme qui ne
+ cor-re-spon-dent pas aux préférences
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[94]
+Overfull \hbox (19.09668pt too wide) in paragraph at lines 3086--3088
+\TU/IBMPlexSans(0)/m/it/12 cen-tral-isé, cette so-lu-tion reste pure-ment con-c
+eptuelle car l’in-for-ma-tion économique
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[95]
+Overfull \hbox (0.20084pt too wide) in paragraph at lines 3101--3103
+\TU/IBMPlexSans(0)/m/it/12 Sans prix li-bres, il de-vient im-pos-si-ble d’anal
+-yser les ré-sul-tats passés et de prévoir
+ []
+
+
+Overfull \hbox (0.17982pt too wide) in paragraph at lines 3101--3103
+\TU/IBMPlexSans(0)/m/it/12 lu-tions poli-tiques pos-si-bles mais ne con-stituent
+ pas la con-séquence économique
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[96]
+Overfull \hbox (12.47589pt too wide) in paragraph at lines 3119--3121
+\TU/IBMPlexSans(0)/m/it/12 rigoureuse-ment la tra-di-tion thomiste avec l’anal
+-yse des phénomènes économiques
+ []
+
+
+Overfull \hbox (21.896pt too wide) in paragraph at lines 3125--3127
+\TU/IBMPlexSans(0)/m/it/12 pratique les dis-tin-guait des autres méth-odes d
+’anal-yse et leur per-me-t-tait de dévelop-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[97]
+Overfull \hbox (3.94394pt too wide) in paragraph at lines 3131--3133
+\TU/IBMPlexSans(0)/m/it/12 ment parce qu’il souscrit à l’ex-is-tence de pro
+po-si-tions syn-thé-tiques a pri-ori vraies.
+ []
+
+
+Overfull \hbox (12.08485pt too wide) in paragraph at lines 3140--3142
+\TU/IBMPlexSans(0)/m/it/12 richesse que Say re-je-tait, priv-ilé-giant plutôt la pro-duc-tion r
+éelle et l’en-trepreneuriat
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[98]
+Overfull \hbox (32.50064pt too wide) in paragraph at lines 3149--3151
+\TU/IBMPlexSans(0)/m/it/12 Selon Stephen Hor-witz men-tionné dans le texte, Men
+ger et les économistes autrichiens
+ []
+
+
+Overfull \hbox (2.09595pt too wide) in paragraph at lines 3155--3157
+\TU/IBMPlexSans(0)/m/it/12 l’échec à des fac-teurs sec-ondaires plutôt qu
+’au prob-lème fon-da-men-tal de la créa-
+ []
+
+
+Overfull \hbox (3.57416pt too wide) in paragraph at lines 3158--3160
+\TU/IBMPlexSans(0)/m/it/12 tiviste et ver-bale plutôt que math-é-ma-tique. Pou
+r lui, la valeur n’est pas mesurable
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[99]
+Overfull \hbox (6.68134pt too wide) in paragraph at lines 3164--3166
+\TU/IBMPlexSans(0)/m/it/12 per-flus (dia-mants). Menger ré-sout ce para-doxe pa
+r sa théorie de l’util-ité marginale
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[100]
+Overfull \hbox (4.12216pt too wide) in paragraph at lines 3179--3181
+\TU/IBMPlexSans(0)/m/it/12 valeur (tra-vail, coût de pro-duc-tion) au profit d
+’une ap-proche sub-jec-tive. Sa théorie
+ []
+
+
+Overfull \hbox (16.88387pt too wide) in paragraph at lines 3179--3181
+\TU/IBMPlexSans(0)/m/it/12 or-di-nales (on peut classer ses préférences) mais non car-di-nales (on ne peut mesurer
+ []
+
+
+Overfull \hbox (6.89192pt too wide) in paragraph at lines 3182--3184
+\TU/IBMPlexSans(0)/m/it/12 La réponse cor-recte re-flète l’in-no-va-tion fon
+-da-men-tale de Menger : les préférences
+ []
+
+
+Overfull \hbox (3.31592pt too wide) in paragraph at lines 3188--3190
+\TU/IBMPlexSans(0)/m/it/12 ex-primés en bit-coin re-flè-tent ainsi les véri-t
+a-bles préférences tem-porelles et coûts
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[101]
+Overfull \hbox (0.67766pt too wide) in paragraph at lines 3197--3199
+\TU/IBMPlexSans(0)/m/it/12 ses pro-priétés (of-fre fixe, di-vis-i-bil-ité, po
+rta-bil-ité) et l’ont adopté pro-gres-sive-ment.
+ []
+
+
+Overfull \hbox (16.46394pt too wide) in paragraph at lines 3209--3211
+\TU/IBMPlexSans(0)/m/it/12 les préférences tem-porelles des in-di-vidus et de co-or-don-ner na-turelle-ment l
+’épargne
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[102]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[103] 
+enddocument/afterlastpage: lastpage setting LastPage.
+(./output/eco205_quiz_fr.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `eco205_quiz_fr.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+)
+
+Here is how much of LuaTeX's memory you used:
+ 12552 strings out of 476553
+ 125027,1977958 words of node,token memory allocated
+ 431 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 53 glue_spec,
+ 4 attribute_list, 1 write nodes
+   avail lists: 2:448,3:260,4:8,5:1233,6:75,7:7636,8:1,9:396,10:7,11:648
+ 33111 multiletter control sequences out of 65536+600000
+ 39 fonts using 3601615 bytes
+ 79i,11n,89p,844b,493s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/asi0/asi0-repos/bitcoin-educational-content/scripts/quizz_to_pdfs/fonts/T
+rueType/IBM-Plex-Sans/IBMPlexSans-Bold.ttf></home/asi0/asi0-repos/bitcoin-educat
+ional-content/scripts/quizz_to_pdfs/fonts/TrueType/IBM-Plex-Sans/IBMPlexSans-Reg
+ular.ttf>
+Output written on eco205_quiz_fr.pdf (103 pages, 314176 bytes).
+
+PDF statistics: 1904 PDF objects out of 2073 (max. 8388607)
+ 1775 compressed objects within 18 object streams
+ 1294 named destinations out of 1440 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+

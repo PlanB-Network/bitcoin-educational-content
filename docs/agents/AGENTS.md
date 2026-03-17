@@ -104,7 +104,7 @@ Tracked in metadata YAML under `proofreading:` key. Each language entry has:
 
 ## Validation
 
-JSON Schema Draft 7 files in `schemas/` (symlink to `scripts/validation-format/schemas/`).
+JSON Schema Draft 7 files in `schemas/` (symlink to `scripts/bec/src/bec/schemas/`).
 Always run `bec validate <path>` after modifying content. Run `bec validate --all` for full repo check.
 
 ## Common Pitfalls

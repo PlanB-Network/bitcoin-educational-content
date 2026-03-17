@@ -1,0 +1,21 @@
+## Question's Characteristics
+
+# chapterId
+# Define to which course's chapter this question is related to
+# Use the chapterId that has been defined in the associated .md file
+chapterId: 4dc58281-5179-507c-afde-8c9204cbd3fd
+
+# difficulty
+# Choose the difficulty of the question between easy, intermediate, hard, expert
+difficulty: easy
+
+# author 
+# Cite who is the author of the question using the contribution-id
+author: another-satoshi
+
+# tags
+# List the associated tags to the author
+# The list of tags is composed of 21 items that can be found here (list not yet available) 
+tags:
+  - bitcoin
+  - opensource

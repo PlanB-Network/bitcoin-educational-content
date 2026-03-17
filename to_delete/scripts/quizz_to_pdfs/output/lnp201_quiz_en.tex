@@ -1,0 +1,919 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{hyperref}
+
+\geometry{margin=2.5cm}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Page \thepage\ of \pageref{LastPage}}
+\lhead{LNP201 - Quiz (en)}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\title{Quiz: LNP201}
+\author{Language: en}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{fancy}
+
+\section*{Instructions}
+Answer all questions by selecting the best option (A, B, C, or D). The answer key is provided at the end of this document.
+
+\bigskip
+
+
+\subsection*{Question 1}
+What is the main goal of the Lightning Network?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Eliminate transaction fees on the Bitcoin blockchain
+\item To improve Bitcoin's scalability to enable fast and low-cost payments
+\item Create an alternative to Bitcoin for high-value payments
+\item Simplify exchanges between different cryptocurrencies
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 2}
+In a payment channel, what is the capacity of the channel?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item The total amount of funds that the two participants can exchange
+\item The time limit for which the channel can remain open
+\item The maximum amount one participant can send in a single transaction
+\item The number of transactions a channel can support per day
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 3}
+If Alice sends 40,000 satoshis to Bob from a payment channel where she initially has 100,000 satoshis, how much funds does she have left after the transaction?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item 40,000 satoshis
+\item 30,000 satoshis
+\item 140,000 satoshis
+\item 60,000 satoshis
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 4}
+What is the main rule regarding the funds a participant can send in a payment channel?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item They can send up to half of the total capacity of the channel.
+\item They can send any amount, as long as there is a prior agreement.
+\item They can borrow funds from the other participant's side if needed.
+\item They can only send the funds from their own side of the channel.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 5}
+What does the Lightning Network allow, compared to traditional transactions on the Bitcoin blockchain?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Transactions between different blockchains
+\item Anonymous and untraceable transactions
+\item Transactions in large quantities without volume limits
+\item Fast transactions with minimal fees
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 6}
+What is the primary role of a private key in the Bitcoin system?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Serve as an identifier to receive bitcoins
+\item Create locking scripts to protect bitcoins
+\item Sign transactions to satisfy a script
+\item Store funds securely on the blockchain
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 7}
+What is a UTXO in the context of Bitcoin?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item A piece of unspent bitcoins associated with a script
+\item An amount of bitcoin divided into multiple parts
+\item A fully confirmed transaction on the blockchain
+\item A public key that generates Bitcoin addresses
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 8}
+Why are UTXOs often compared to banknotes?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item They represent small fixed amounts of bitcoins
+\item They can be used multiple times until depleted
+\item They must be spent in their entirety
+\item They are only usable in certain specific transactions
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 9}
+How does a 2/2 multisignature address work in Bitcoin?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item It requires two signatures to unlock and spend the funds.
+\item It is used only to send funds to public addresses.
+\item It authorizes transactions only in specific cases of locking.
+\item It allows spending the funds with just one of the two keys.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 10}
+In a Bitcoin transaction, what does the locking script do?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item It imposes specific conditions to spend the associated funds
+\item It automatically sends the funds to multiple addresses
+\item It temporarily locks the funds to prevent excessive spending
+\item It determines the value of the UTXO to be created
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 11}
+What is the first step in opening a Lightning channel between two participants?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Sign the withdrawal transaction before the exchange of public keys
+\item Create a 2/2 multisignature address without prior exchange
+\item Immediately publish a deposit transaction on the blockchain
+\item Exchange messages containing the amounts and public keys
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 12}
+Why does Alice create a withdrawal transaction before publishing the deposit transaction?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item To allow Bob to spend the funds directly
+\item To increase the channel's capacity with each transaction
+\item To perform a Lightning transaction immediately after opening
+\item To retrieve her funds in case of a problem with Bob
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 13}
+When is a Lightning channel officially open?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item When the deposit transaction is confirmed on the Bitcoin blockchain
+\item As soon as the public keys are exchanged between participants
+\item When the withdrawal transaction is signed by both parties
+\item As soon as the 2/2 multisignature address is created
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 14}
+What happens if Alice does not obtain Bob's signature for the withdrawal transaction?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item She can no longer communicate with Bob on the Lightning Network
+\item She risks losing access to her funds deposited in the multisignature address
+\item The channel opens with a limited capacity
+\item Bob automatically receives the funds in the channel
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 15}
+What is the last step to open a channel on the Lightning Network?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Send a confirmation message of the opening to the other party
+\item Verify the balance of funds of each participant
+\item Sign a withdrawal transaction to recover the funds
+\item Publish the deposit transaction on the Bitcoin blockchain
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 16}
+What does a commitment transaction in a Lightning channel reflect?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item The total number of transactions made
+\item The amount of fees to be paid for the transaction
+\item The new distribution of funds between the two parties
+\item The opening of a new payment channel
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 17}
+When is a commitment transaction published on the Bitcoin blockchain?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Eventually, when the channel is closed
+\item Immediately after each transfer in the channel
+\item Before each new commitment transaction
+\item When the available funds are exhausted
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 18}
+What happens if Bob sends an invoice to Alice for 30,000 satoshis?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item The invoice is paid through an on-chain transaction on Bitcoin.
+\item Alice creates a commitment transaction to transfer 30,000 satoshis to Bob in the channel.
+\item Bob automatically receives the 30,000 satoshis in his wallet.
+\item Alice must open a new channel to make this transfer.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 19}
+How is a new channel state created after each transfer?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item By posting an on-chain transaction after each transfer
+\item By increasing the total capacity of the channel
+\item By closing and reopening the channel after each transaction
+\item By creating a new commitment transaction with the updated distribution
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 20}
+What does the commitment transaction system guarantee to participants of a Lightning channel?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item That the fees are shared between the two participants
+\item That the channel's capacity increases with each transaction
+\item That transactions are visible on the Bitcoin blockchain
+\item That each can recover their funds by publishing the last signed transaction
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 21}
+What is the main risk in commitment transactions on the Lightning Network?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Forgetting to sign the commitment transaction
+\item Accidentally sending funds to another channel
+\item Publishing an old transaction to reclaim more funds
+\item Blocking the transaction with an inappropriate timelock
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 22}
+How does the timelock protect against cheating in commitment transactions?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item It cancels the transaction in case of an attempted cheat
+\item It blocks the use of the revocation key
+\item It prevents the offending party from immediately retrieving their funds
+\item It automatically refunds the funds to the cheater
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 23}
+What does the revocation key allow to do in case of cheating?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Cancel the commitment transaction
+\item Double the channel's capacity
+\item Recover all the funds by punishing the cheater
+\item Prevent any further transactions in the channel
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 24}
+Why do Alice and Bob exchange their secrets for previous commitment transactions?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item To allow each to protect themselves if the other publishes an old transaction
+\item To divide the funds equally
+\item To increase the channel's capacity
+\item To block each other's access to the funds
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 25}
+What is the combined effect of the timelock and the revocation key on commitment transactions?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item They force the opening of a new channel if the transaction is incorrect
+\item They reduce the channel's capacity in case of cheating
+\item They deter participants from cheating by offering an immediate punishment
+\item They automatically lock the funds of the guilty party
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 26}
+What are the three methods of closing a channel on the Lightning Network?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Direct closure, indirect closure, closure with claim
+\item Rapid closure, slow closure, closure with dual signature
+\item Cooperative closure, forced closure, closure with cheating
+\item Secure closure, automated closure, closure with loss of funds
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 27}
+Which channel closing method is the most economical and fast?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Cooperative closure
+\item None are more economical and fast
+\item Closure with cheating
+\item Forced closure
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 28}
+Why is forced closure less desirable?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item It forces the recreation of a channel later
+\item It requires authorization from Satoshi Nakamoto
+\item It is slower, and the fees may be inappropriate
+\item It prevents the use of the revocation key
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 29}
+What can Bob do if he detects an attempt by Alice to cheat during the channel closure?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Permanently close the channel with no option to reopen
+\item Use the revocation key to recover all the funds
+\item Cancel Alice's commitment transaction
+\item Claim only half of the available funds
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 30}
+In what situation is a forced closure of a channel used?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item When the time lock is insufficient
+\item When the capacity of the channel needs to be increased
+\item When transaction fees are too high
+\item When one of the parties no longer responds
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 31}
+How does the Lightning Network allow sending funds to a node that is not directly connected?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item By sending the funds directly with multisignature addresses
+\item By routing the payment through intermediary nodes
+\item By using on-chain transactions between each node
+\item By automatically establishing a temporary channel
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 32}
+What limits the amount of an indirect payment on the Lightning Network?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item The total capacity of the Lightning Network
+\item The routing fees set by each node
+\item The number of intermediary nodes involved
+\item The smallest liquidity available in a channel of the chosen path
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 33}
+What is the role of routing fees in the Lightning Network?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item To limit the number of transactions on the network
+\item To incentivize intermediary nodes to provide their liquidity for the transfer of payments
+\item To ensure that each channel has sufficient funds
+\item To automatically calculate the shortest path
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 34}
+What does onion routing in the Lightning Network entail?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item To send funds to all nodes on the path simultaneously
+\item To calculate fees for each intermediate node independently
+\item It means that each intermediate node only knows its immediate neighbors on the path.
+\item To directly transmit funds from node to node knowing the final recipient
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 35}
+What information must the sending node know to perform an onion routing payment?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item The capacity of each channel
+\item The cryptographic signature of each node on the path
+\item The network topology and the complete route to the recipient
+\item Only the next intermediate node
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 36}
+What is the main goal of HTLCs in the Lightning Network?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item To reduce transaction fees for each payment through intermediary nodes
+\item To establish direct connections between all network nodes with their trust
+\item To enable secure payment transfers via intermediary nodes without requiring trust in them
+\item To increase the capacity of each payment channel
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 37}
+What condition must be met for the recipient of an HTLC to receive the funds?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item They must provide a secret (preimage) to unlock the payment.
+\item They must accept the routing fees of each intermediary node.
+\item They must wait for the timelock to expire before retrieving the funds.
+\item They must sign a new commitment transaction.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 38}
+What happens if a payment through HTLC is not completed within the allotted time?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item The payment is canceled, and the funds are returned to the sender.
+\item The payment is kept by the last intermediary node
+\item The funds are distributed to all nodes in the path
+\item The funds are permanently blocked
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 39}
+What role does the timelock play in the operation of HTLCs?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item It provides a timeframe to complete the payment before cancellation
+\item It adds a layer of privacy to the transaction
+\item It applies additional fees for each intermediary node
+\item It increases the capacity of the channel used
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 40}
+What happens if a channel with an active HTLC is closed forcibly?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item The funds are redistributed to the previous nodes.
+\item The HTLC is automatically cancelled.
+\item The HTLC is included in the commitment transactions as an output.
+\item The channel cannot be closed until the HTLC has expired.
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 41}
+What is the main role of the sending node in routing on the Lightning Network?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Communicate directly with all intermediary nodes
+\item Store the liquidity information of all the network's channels
+\item Determine the transaction fees for each intermediary node
+\item Calculate the complete route to the recipient
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 42}
+Why is it difficult for a transmitting node to estimate the exact liquidity of a channel?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Because the total capacity of the channels is constantly changing
+\item Because the fees of intermediary nodes are not published
+\item Because channels automatically close after each transaction
+\item Because only the two participants know the precise distribution of funds
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 43}
+What criterion can help a node choose an efficient payment route?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item The geographical distance between the nodes
+\item The probability of success based on the total capacity of the channels
+\item The number of payments made by the target node
+\item The presence of nodes with a low fee level
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 44}
+What information can Bob include in an invoice to facilitate routing?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item The complete map of all the network's channels
+\item The private key of intermediate nodes
+\item Nearby channels with sufficient liquidity or the existence of private channels
+\item The exact amount of available liquidity for each channel
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 45}
+What does a sending node do when a payment route fails due to insufficient liquidity?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item It automatically sends a refund request to the recipient
+\item It tries another route until it finds a functional one
+\item It closes the channel and creates a new direct channel
+\item It asks the intermediary nodes to increase their liquidity
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 46}
+What does the LNURL-withdraw feature allow users to do?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Make a direct payment without routing fees
+\item Connect their Lightning wallet without a password
+\item Withdraw funds from a service by scanning a QR code
+\item Send funds without recipient confirmation
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 47}
+In a Lightning invoice, what does the prefix lnbc in the human-readable part mean?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item That the invoice is valid only on the Bitcoin testnet
+\item It indicates a Lightning transaction on the Bitcoin blockchain
+\item That it is an on-chain transaction
+\item That the invoice is encoded in bech32
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 48}
+What is the role of LNURL in Lightning transactions?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Facilitate the creation of channels for each payment
+\item To simplify the interaction between nodes and Lightning applications
+\item Ensure the confidentiality of payment information
+\item Automatically calculate transaction fees
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 49}
+How does the Keysend technology enable a fund transfer without an invoice?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item The funds are directly credited without additional security
+\item The sender generates a secret in the HTLCs to unlock the funds
+\item The recipient generates a hash to validate the transfer
+\item The payment is validated through a direct channel between sender and recipient
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 50}
+What is the primary function of a Lightning invoice?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Send funds without an on-chain transaction
+\item Activate HTLCs on a channel
+\item Request a payment from the sending node
+\item Open a new Lightning channel
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 51}
+Why might a seller make a fictitious payment in a channel?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item To decrease routing fees
+\item To move liquidity to the opposite side
+\item To increase the total capacity of their channels
+\item To lock funds in the long term
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 52}
+What does the triangle opening technique allow participating nodes to achieve?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item A direct link with every other network node
+\item An unlimited number of transactions without confirmation
+\item Reduced routing fees
+\item Incoming and outgoing liquidity in each channel
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 53}
+Which service allows moving liquidity to the opposite side of a channel while retrieving funds on-chain?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item CoinSwap
+\item Keysend
+\item LNURL
+\item Loop Out
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 54}
+Why must a router maintain good liquidity distribution in its channels?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item To avoid opening new channels
+\item To reduce transaction fees
+\item To maximize the number of payments it can route
+\item To limit the use of the Bitcoin blockchain
+\end{enumerate}
+
+\bigskip
+
+
+\subsection*{Question 55}
+What type of liquidity must a seller on the Lightning Network primarily manage to accept payments?
+
+\begin{enumerate}[label=\Alph*., leftmargin=*]
+\item Outgoing liquidity
+\item Incoming liquidity
+\item A high on-chain balance
+\item A high total channel capacity
+\end{enumerate}
+
+\bigskip
+
+
+\newpage
+\section*{Answer Key}
+
+\begin{enumerate}
+\item \textbf{Question 1:} B
+\\ \textit{The Lightning Network aims to enhance Bitcoin's scalability by enabling fast and inexpensive transactions through off-chain payment channels.}
+
+\item \textbf{Question 2:} A
+\\ \textit{The capacity of the channel corresponds to the total funds of the two participants and remains fixed to determine the possible exchanges.}
+
+\item \textbf{Question 3:} D
+\\ \textit{After sending 40,000 satoshis, Alice's balance in the channel is 60,000 satoshis.}
+
+\item \textbf{Question 4:} D
+\\ \textit{Each participant is limited by the amount of satoshis they hold in the channel for their transactions, ensuring that the funds are always covered.}
+
+\item \textbf{Question 5:} D
+\\ \textit{The Lightning Network enables fast and low-cost transactions through off-chain payment channels, which differs from regular transactions on the blockchain.}
+
+\item \textbf{Question 6:} C
+\\ \textit{The private key is used to sign transactions to satisfy a script and unlock the bitcoins.}
+
+\item \textbf{Question 7:} A
+\\ \textit{A UTXO, or Unspent Transaction Output, is an unspent transaction output, representing a certain amount of bitcoins that the holder can use.}
+
+\item \textbf{Question 8:} C
+\\ \textit{Like a banknote, a UTXO must be spent entirely in a transaction, and any excess is returned to the sender as change.}
+
+\item \textbf{Question 9:} A
+\\ \textit{A 2/2 multisignature address requires the signatures of both parties involved for the funds to be spent, which is used for the security of Lightning channels.}
+
+\item \textbf{Question 10:} A
+\\ \textit{The locking script imposes conditions, such as signing with a private key, to unlock and use the funds in a transaction.}
+
+\item \textbf{Question 11:} D
+\\ \textit{The opening of a channel begins with an exchange of messages between the two parties, where they share the amounts they wish to commit and their public keys.}
+
+\item \textbf{Question 12:} D
+\\ \textit{Alice creates a withdrawal transaction to retrieve her funds if a problem occurs with Bob, thus ensuring the security of her deposit.}
+
+\item \textbf{Question 13:} A
+\\ \textit{The channel is considered open once the deposit transaction has been included in a Bitcoin block and has reached a certain number of confirmations.}
+
+\item \textbf{Question 14:} B
+\\ \textit{Without Bob's signature on the withdrawal transaction, Alice cannot ensure the recovery of her funds in case of an issue, posing a risk of loss.}
+
+\item \textbf{Question 15:} D
+\\ \textit{The last step to open a channel is to publish the deposit transaction on the blockchain, which officially opens the channel.}
+
+\item \textbf{Question 16:} C
+\\ \textit{A commitment transaction represents the current distribution of funds in the channel after each Lightning transaction, but is not published on the blockchain as long as the channel remains open.}
+
+\item \textbf{Question 17:} A
+\\ \textit{Commitment transactions are built and signed for each change in allocation, but they are only eventually published on the blockchain upon channel closure.}
+
+\item \textbf{Question 18:} B
+\\ \textit{When Bob sends an invoice to Alice, she creates and signs a new commitment transaction to adjust the distribution of funds, thereby transferring 30,000 satoshis in the channel.}
+
+\item \textbf{Question 19:} D
+\\ \textit{Each transaction within the channel updates the channel's state with a new commitment transaction, reflecting the current distribution of funds between the two participants.}
+
+\item \textbf{Question 20:} D
+\\ \textit{The signed commitment transactions ensure that each participant can recover their funds by publishing the latest version in case the channel closes.}
+
+\item \textbf{Question 21:} C
+\\ \textit{The main risk is that a party may attempt to cheat by publishing an old commitment transaction, which could allow them to reclaim funds they no longer have.}
+
+\item \textbf{Question 22:} C
+\\ \textit{The timelock imposes a delay during which the cheater cannot retrieve their funds, thus giving the other party the opportunity to respond.}
+
+\item \textbf{Question 23:} C
+\\ \textit{The revocation key allows the aggrieved party to recover all the funds in the event of an attempted cheat by the other party.}
+
+\item \textbf{Question 24:} A
+\\ \textit{Exchanging secrets for previous transactions allows each participant to punish the other in case of an attempt to cheat by publishing an old transaction.}
+
+\item \textbf{Question 25:} C
+\\ \textit{The timelock and the revocation key deter participants from cheating by ensuring that any attempt to cheat results in an immediate loss of funds for the guilty party.}
+
+\item \textbf{Question 26:} C
+\\ \textit{There are three methods: cooperative closure, where the parties agree; forced closure without a response from one party; and closure with cheating, where a party attempts to publish an old transaction.}
+
+\item \textbf{Question 27:} A
+\\ \textit{Cooperative closure is the fastest and most economical method because both parties agree to close the channel, adjusting the fees according to market conditions.}
+
+\item \textbf{Question 28:} C
+\\ \textit{Forced closure is less desirable because it includes a time lock, which slows down the process, and the fees may be inappropriate since they were set at the time of the channel's creation.}
+
+\item \textbf{Question 29:} B
+\\ \textit{In the event of cheating, Bob can use the revocation key to recover all the funds from the channel, thus punishing Alice for her attempt.}
+
+\item \textbf{Question 30:} D
+\\ \textit{Forced closure is used as a last resort if one of the parties, for example, due to a technical problem, no longer responds to the other's messages.}
+
+\item \textbf{Question 31:} B
+\\ \textit{The Lightning Network enables the routing of a payment through several intermediary nodes, without requiring a direct channel between the sender and the recipient.}
+
+\item \textbf{Question 32:} D
+\\ \textit{The maximum amount that an indirect payment can transfer depends on the lowest liquidity available in the channels used, as each channel must adjust the funds on each side.}
+
+\item \textbf{Question 33:} B
+\\ \textit{Routing fees are used to compensate intermediary nodes that relay payments by offering their liquidity to enable the transfer of funds across the network.}
+
+\item \textbf{Question 34:} C
+\\ \textit{Onion routing means that each intermediate node only knows the previous and the next node, thus preserving the confidentiality of the final recipient.}
+
+\item \textbf{Question 35:} C
+\\ \textit{The sending node must know the network topology to calculate the route to the recipient, enabling it to choose the most optimal path.}
+
+\item \textbf{Question 36:} C
+\\ \textit{HTLCs (Hashed Time-Locked Contracts) ensure that each intermediary node transfers the payment without retaining the funds, as it can only unlock them by completing the transaction up to the final recipient.}
+
+\item \textbf{Question 37:} A
+\\ \textit{To receive the funds in an HTLC, the recipient must provide a specific secret that allows unlocking the payment secured by the hash.}
+
+\item \textbf{Question 38:} A
+\\ \textit{If an HTLC expires without the secret being revealed, the payment is canceled, and the funds are returned to the sender, thus preventing any intermediary node from retaining the funds.}
+
+\item \textbf{Question 39:} A
+\\ \textit{The timelock imposes a timeframe to complete an HTLC, allowing for the recovery of funds if the transaction does not succeed, by canceling the payment after this period.}
+
+\item \textbf{Question 40:} C
+\\ \textit{During a forced closure, pending HTLCs are represented as outputs in the commitment transactions, thus ensuring their execution or return according to the defined conditions.}
+
+\item \textbf{Question 41:} D
+\\ \textit{The sending node is responsible for calculating the entire route to the recipient, as intermediary nodes only know their immediate neighbor.}
+
+\item \textbf{Question 42:} D
+\\ \textit{The precise distribution of funds in a channel is only visible to the two participating nodes, preventing other nodes from estimating the available liquidity for routing.}
+
+\item \textbf{Question 43:} B
+\\ \textit{The total capacity of the channels can indicate a higher probability of success, as it suggests a greater availability of liquidity for transactions.}
+
+\item \textbf{Question 44:} C
+\\ \textit{By indicating nearby channels with liquidity or revealing private channels, Bob helps Alice to choose routes with a better probability of success.}
+
+\item \textbf{Question 45:} B
+\\ \textit{When a route fails, the sending node tries other alternative routes until a functional path is found or all options are exhausted.}
+
+\item \textbf{Question 46:} C
+\\ \textit{LNURL-withdraw allows users to withdraw funds from a service by scanning a QR code, thus simplifying the withdrawal process.}
+
+\item \textbf{Question 47:} B
+\\ \textit{The prefix 'lnbc' signifies that the invoice is for a Lightning transaction on the Bitcoin network, not on another network.}
+
+\item \textbf{Question 48:} B
+\\ \textit{LNURL is a communication protocol designed to simplify interactions, such as withdrawals and payments, between nodes and Lightning applications.}
+
+\item \textbf{Question 49:} B
+\\ \textit{Keysend allows the sender to generate a secret embedded in the HTLCs, enabling the recipient to unlock the funds without having issued an invoice.}
+
+\item \textbf{Question 50:} C
+\\ \textit{A Lightning invoice is a payment request, transmitted by the receiving node to the sending node to initiate a payment on the Lightning Network.}
+
+\item \textbf{Question 51:} B
+\\ \textit{By making a fictitious payment, a seller moves liquidity from their side to the opposite side of the channel, thereby freeing up incoming capacity to receive payments.}
+
+\item \textbf{Question 52:} D
+\\ \textit{The triangle opening technique allows each node to achieve balanced liquidity, both incoming and outgoing, by forming a loop of channels among several participants.}
+
+\item \textbf{Question 53:} D
+\\ \textit{The Loop Out service from Lightning Labs enables the transfer of funds from a Lightning channel to the on-chain blockchain, thereby optimizing receiving capacity while retrieving bitcoins on the main chain.}
+
+\item \textbf{Question 54:} C
+\\ \textit{A router aims to route as many payments as possible to collect fees, which requires a good distribution of liquidity on both sides of the channels to ensure routing capacity.}
+
+\item \textbf{Question 55:} B
+\\ \textit{To receive payments, a seller needs to have incoming liquidity, meaning that funds must be available on the opposite side of the channel for them to accept payments.}
+
+
+\end{enumerate}
+
+\end{document}

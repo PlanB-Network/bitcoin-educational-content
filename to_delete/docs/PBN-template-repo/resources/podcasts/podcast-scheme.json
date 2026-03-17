@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "podcast-characteristics",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$",
+      "description": "Unique identifier using UUID v4 format."
+    },
+    "name": {
+      "type": "string",
+      "description": "Complete name of the podcast."
+    },
+    "host": {
+      "type": "string",
+      "description": "Names of all hosts of the podcast."
+    },
+    "language": {
+      "type": "string",
+      "description": "Language of the podcast using ISO 639-1 language code (e.g. en, es, th) or extended codes (e.g. sr-Latn, zh-Hans)."
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "podcast": {
+          "type": "string",
+          "description": "Direct link to audio feed via the streaming service platform (e.g. Apple Podcasts, Spotify, Fountain)."
+        },
+        "twitter": {
+          "type": "string",
+          "description": "URL of the podcast's Twitter/X profile."
+        },
+        "website": {
+          "type": "string",
+          "description": "URL of the podcast's website."
+        }
+      },
+      "required": ["podcast"],
+      "additionalProperties": false
+    },
+    "description": {
+      "type": "string",
+      "description": "Main description of the podcast content."
+    },
+    "tags": {
+      "type": "array",
+      "description": "List of associated tags to the podcast from the PlanB Network tag list.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "contributor_names": {
+      "type": "array",
+      "description": "List of contributors identified by their GitHub usernames who helped format, review and translate the content.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "license": {
+      "type": "string",
+      "enum": ["CC-BY-SA-V4", "MIT"],
+      "description": "License for the content. CC-BY-SA-V4 is the default (share-alike clause). MIT allows almost unrestricted use."
+    }
+  },
+  "assets_rules": {
+    "description": "Required image assets for podcasts.",
+    "files": [
+      {
+        "path": "assets/logo.webp",
+        "required": true,
+        "format": "WebP",
+        "dimensions": {
+          "width": 800,
+          "height": 800,
+          "aspect_ratio": "1:1"
+        },
+        "orientation": "square",
+        "description": "Podcast logo image. Recommended 800x800 pixels."
+      }
+    ]
+  },
+  "required": ["id", "name", "host", "language", "links", "description", "tags", "contributor_names", "license"],
+  "additionalProperties": false
+}

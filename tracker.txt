@@ -53,8 +53,33 @@ Commit: 95be2746f1
 - [x] `--json` flag outputs created file paths as JSON with course_id, uuid, directory, files
 - [x] Validation rejects: invalid course ID format, unknown discipline code, number out of range, invalid topic/subtopic/level/language, invalid professor UUID, duplicate course directory
 - [x] 30 new tests, 123 total pass (test_new.py: unit tests for helpers + CLI integration tests)
-## Phase 5: Scaffold Tutorial, Professor, Event, Resource — TODO
-## Phase 6: Add Part & Chapter — TODO
+## Phase 5: Scaffold Tutorial, Professor, Event, Resource — DONE
+Commit: aa67d61b84
+- [x] `bec new tutorial --category wallet --id test-tuto --lang en` creates `tutorials/wallet/test-tuto/` with `tutorial.yml` + `en.md`
+- [x] `bec new professor --id test-prof` creates `professors/test-prof/` with `professor.yml` + language YML
+- [x] `bec new event --id test-event-2025` creates `events/test-event-2025/` with `event.yml`
+- [x] `bec new resource --type book --id test-book` creates `resources/books/test-book/` with `book.yml`
+- [x] `bec new resource --type podcast --id test-pod` creates `resources/podcasts/test-pod/` with `podcast.yml`
+- [x] Invalid tutorial category is rejected with helpful error listing valid categories
+- [x] Invalid resource type is rejected with helpful error listing valid types (10 types supported)
+- [x] All generated content passes `bec validate` structurally (tutorial with placeholder cover.webp, event exit 2 for null warning fields)
+- [x] Interactive mode works for all four content types (prompts with enum choices)
+- [x] All 10 resource types scaffolded and tested: bet, book, channel, conference, glossary, movie, newsletter, paper, podcast, project
+- [x] Shared helpers: _validate_slug, _make_proofreading_entry, _scaffold_output, prompt_uuid
+- [x] 51 new tests, 174 total pass (test_new_content.py: unit + CLI integration + parametrized resource coverage)
+## Phase 6: Add Part & Chapter — DONE
+- [x] `bec add part --course btc101 --lang en --title "Test Part"` appends `+++\n\n# Test Part` to `courses/btc101/en.md`
+- [x] `bec add chapter --course btc101 --lang en --title "Test Chapter"` appends `## Test Chapter\n\n<chapterId>word-word-word</chapterId>` to `courses/btc101/en.md`
+- [x] BIP39 chapter IDs are 3 hyphenated BIP39 words (e.g., `vital-foster-perfect`)
+- [x] BIP39 wordlist bundled at `scripts/bec/src/bec/data/bip39_wordlist.txt` (2048 words)
+- [x] Part separator is `+++` followed by blank line and `# heading`
+- [x] Chapter heading is `##` level (not `#` or `###`)
+- [x] Modified markdown preserves structure after additions (frontmatter, separators, tags)
+- [x] `--json` flag outputs appended content details (action, course, lang, title, part_id/chapter_id, file)
+- [x] Interactive mode prompts for missing args (lists available courses and languages)
+- [x] Error handling: missing course/language file returns clear error with exit code 1
+- [x] `lib/markdown.py` created with: generate_chapter_id(), build_part_block(), build_chapter_block(), append_to_markdown()
+- [x] 33 new tests, 207 total pass (test_add.py: unit tests for lib/markdown.py + CLI integration tests)
 ## Phase 7: Add Quiz & Add Language — TODO
 ## Phase 8: Proofread — TODO
 ## Phase 9: Report — Translation Coverage — TODO

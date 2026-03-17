@@ -168,17 +168,27 @@ def add():
 
 
 @add.command("part")
-def add_part():
+@click.option("--course", default=None, help="Course ID (e.g., btc101).")
+@click.option("--lang", default=None, help="Language code (e.g., en, fr).")
+@click.option("--title", default=None, help="Part title.")
+@click.option("--json", "json_output", is_flag=True, help="Output result as JSON.")
+def add_part(course, lang, title, json_output):
     """Add a part separator to a course."""
-    click.echo("add part: not yet implemented")
-    raise SystemExit(1)
+    from bec.commands.add import run_add_part
+
+    run_add_part(course=course, lang=lang, title=title, json_output=json_output)
 
 
 @add.command("chapter")
-def add_chapter():
+@click.option("--course", default=None, help="Course ID (e.g., btc101).")
+@click.option("--lang", default=None, help="Language code (e.g., en, fr).")
+@click.option("--title", default=None, help="Chapter title.")
+@click.option("--json", "json_output", is_flag=True, help="Output result as JSON.")
+def add_chapter(course, lang, title, json_output):
     """Add a chapter with auto-generated BIP39 chapterId."""
-    click.echo("add chapter: not yet implemented")
-    raise SystemExit(1)
+    from bec.commands.add import run_add_chapter
+
+    run_add_chapter(course=course, lang=lang, title=title, json_output=json_output)
 
 
 @add.command("quiz")

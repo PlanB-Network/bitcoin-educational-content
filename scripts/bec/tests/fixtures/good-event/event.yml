@@ -1,0 +1,12 @@
+id: d1e2f3a4-b5c6-7890-1234-567890abcdef
+name: Test Bitcoin Event
+description: A test event for validation
+type: conference
+address_city_country: Paris, France
+start_date: 2025-06-15
+end_date: 2025-06-16
+links:
+  website: https://example.com
+  twitter: https://twitter.com/test
+tags:
+  - adoption

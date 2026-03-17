@@ -21,8 +21,9 @@ def cli():
 @click.option("--json", "json_output", is_flag=True, help="Output results as JSON.")
 def validate(path, validate_all, json_output):
     """Validate content against schemas."""
-    click.echo("validate: not yet implemented")
-    raise SystemExit(1)
+    from bec.commands.validate import run_validate
+
+    run_validate(path=path, json_output=json_output)
 
 
 @cli.group()

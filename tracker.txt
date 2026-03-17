@@ -1,0 +1,45 @@
+# BEC CLI — Implementation Tracker
+# Source PRD: docs/agents/PRD.md
+
+## Phase 1: Package Skeleton & Content Registry — DONE
+Commit: 7696227d75
+- [x] `pip install -e scripts/bec` succeeds (via venv at scripts/bec/.venv/)
+- [x] `bec --help` prints help with all 6 subcommands: validate, new, add, proofread, report, agent-setup
+- [x] `content-types.yml` at repo root with all 14 content types (name, path_pattern, metadata_file, schema, content_schema, example)
+- [x] `content-types.yml` contains tutorial_categories (8), discipline_codes (17), level_range, tags (52), languages (31)
+- [x] `lib/content_types.py` loads and queries content-types.yml (get_type, get_schema_path, detect_type_from_path)
+- [x] `lib/repo.py` finds repo root from any subdirectory via content-types.yml marker
+- [x] `lib/yaml_utils.py` loads YAML without converting dates to datetime objects
+- [x] 42 unit tests pass (test_cli, test_content_types, test_repo, test_yaml_utils)
+- [x] All referenced schema paths in content-types.yml exist on disk (23 schemas)
+- [x] All example paths in content-types.yml exist on disk (14 examples)
+- [x] `schemas/` symlink at repo root → scripts/validation-format/schemas/
+
+## Phase 2: Schema Infrastructure & Validate Single Path — DONE
+- [x] `schemas/` symlink exists at repo root → scripts/validation-format/schemas/
+- [x] `lib/schema.py` — loads JSON schemas, validates dicts with Draft7Validator, strips nulls as warnings
+- [x] `commands/validate.py` — detects content type, validates metadata YAML + markdown frontmatter + YML content + quizzes
+- [x] `bec validate courses/btc101` runs and reports validation results (metadata passes, quiz translations have known schema mismatches)
+- [x] `bec validate tutorials/wallet/sparrow` runs and reports results
+- [x] `bec validate resources/books/mastering-bitcoin` runs and reports results (exit code 2, warnings only)
+- [x] Valid content returns exit code 0, errors return exit code 1, warnings-only returns exit code 2
+- [x] Validation checks: YAML against JSON schema, markdown frontmatter required fields, content rules (cover image, heading hierarchy, list markers, image formats)
+- [x] Event semantic validation (booking/price consistency checks)
+- [x] Quiz validation (question.yml + translation files against quiz schemas)
+- [x] `--json` flag outputs structured JSON with results, total_errors, total_warnings
+- [x] Test fixtures: good-course, good-tutorial, good-event, bad-course
+- [x] 69 tests pass (test_cli, test_content_types, test_repo, test_yaml_utils, test_schema, test_validate)
+## Phase 3: Validate All & JSON Output — TODO
+## Phase 4: Scaffold Course — TODO
+## Phase 5: Scaffold Tutorial, Professor, Event, Resource — TODO
+## Phase 6: Add Part & Chapter — TODO
+## Phase 7: Add Quiz & Add Language — TODO
+## Phase 8: Proofread — TODO
+## Phase 9: Report — Translation Coverage — TODO
+## Phase 10: Report — Image Translation — TODO
+## Phase 11: Report — Video Deployment — TODO
+## Phase 12: Report — Proofreading Dashboard — TODO
+## Phase 13: Report — Course Analytics — TODO
+## Phase 14: Agent Orientation & Setup — TODO
+## Phase 15: Tag Descriptions in Schemas — TODO
+## Phase 16: Cleanup & Final Wiring — TODO

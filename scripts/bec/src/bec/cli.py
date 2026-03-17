@@ -192,17 +192,39 @@ def add_chapter(course, lang, title, json_output):
 
 
 @add.command("quiz")
-def add_quiz():
-    """Add a quiz to a course chapter."""
-    click.echo("add quiz: not yet implemented")
-    raise SystemExit(1)
+@click.option("--course", default=None, help="Course ID (e.g., btc101).")
+@click.option("--chapter-id", default=None, help="Chapter ID to associate the quiz with.")
+@click.option("--lang", default=None, help="Language code (e.g., en, fr).")
+@click.option("--difficulty", default=None, help="Difficulty (easy, intermediate, hard, expert).")
+@click.option("--author", default=None, help="Author contributor ID.")
+@click.option("--json", "json_output", is_flag=True, help="Output result as JSON.")
+def add_quiz(course, chapter_id, lang, difficulty, author, json_output):
+    """Add a quiz question to a course chapter."""
+    from bec.commands.add import run_add_quiz
+
+    run_add_quiz(
+        course=course,
+        chapter_id=chapter_id,
+        lang=lang,
+        difficulty=difficulty,
+        author=author,
+        json_output=json_output,
+    )
 
 
 @add.command("language")
-def add_language():
+@click.option("--path", "content_path", default=None, help="Content path (e.g., courses/btc101, tutorials/wallet/sparrow).")
+@click.option("--lang", default=None, help="Target language code (e.g., fr, es).")
+@click.option("--json", "json_output", is_flag=True, help="Output result as JSON.")
+def add_language(content_path, lang, json_output):
     """Add a new language file to existing content."""
-    click.echo("add language: not yet implemented")
-    raise SystemExit(1)
+    from bec.commands.add import run_add_language
+
+    run_add_language(
+        content_path=content_path,
+        lang=lang,
+        json_output=json_output,
+    )
 
 
 @cli.group()

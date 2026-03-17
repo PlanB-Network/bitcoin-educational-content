@@ -45,7 +45,9 @@
           "description": "URL to the movie trailer."
         }
       },
-      "required": ["platform"],
+      "required": [
+        "platform"
+      ],
       "additionalProperties": false
     },
     "description": {
@@ -64,13 +66,16 @@
       "type": "array",
       "description": "List of associated tags for the movie. Tags must be from the predefined list of 51 items.",
       "items": {
-        "type": "string"
+        "$ref": "tags-definitions.json#/definitions/tag_item"
       },
       "minItems": 1
     },
     "license": {
       "type": "string",
-      "enum": ["CC-BY-SA-V4", "MIT"],
+      "enum": [
+        "CC-BY-SA-V4",
+        "MIT"
+      ],
       "description": "License for the content. CC-BY-SA-V4 is the default with share-alike clause. MIT allows almost unrestricted use."
     }
   },
@@ -91,6 +96,17 @@
       }
     ]
   },
-  "required": ["id", "title", "author", "publication_year", "duration", "language", "links", "description", "contributor_names", "tags"],
+  "required": [
+    "id",
+    "title",
+    "author",
+    "publication_year",
+    "duration",
+    "language",
+    "links",
+    "description",
+    "contributor_names",
+    "tags"
+  ],
   "additionalProperties": false
 }

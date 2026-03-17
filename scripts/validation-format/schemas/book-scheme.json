@@ -14,7 +14,12 @@
     "level": {
       "type": "string",
       "description": "The difficulty level of the book.",
-      "enum": ["beginner", "intermediate", "expert", "wizard"]
+      "enum": [
+        "beginner",
+        "intermediate",
+        "expert",
+        "wizard"
+      ]
     },
     "original_language": {
       "type": "string",
@@ -28,7 +33,7 @@
       "type": "array",
       "description": "List of tags associated with the book.",
       "items": {
-        "type": "string"
+        "$ref": "tags-definitions.json#/definitions/tag_item"
       },
       "minItems": 1
     },
@@ -48,7 +53,10 @@
       }
     }
   },
-  "required": ["author", "level", "tags"],
+  "required": [
+    "author",
+    "level",
+    "tags"
+  ],
   "additionalProperties": false
 }
-

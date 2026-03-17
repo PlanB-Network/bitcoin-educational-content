@@ -11,7 +11,10 @@
     "type": {
       "type": "string",
       "description": "The type of BET content.",
-      "enum": ["Educational Content", "Visual Content"]
+      "enum": [
+        "Educational Content",
+        "Visual Content"
+      ]
     },
     "links": {
       "type": "object",
@@ -87,7 +90,13 @@
             "minimum": 0
           }
         },
-        "required": ["language", "last_contribution_date", "urgency", "contributor_names", "reward"],
+        "required": [
+          "language",
+          "last_contribution_date",
+          "urgency",
+          "contributor_names",
+          "reward"
+        ],
         "additionalProperties": false
       }
     },
@@ -95,14 +104,17 @@
       "type": "array",
       "description": "List of associated tags to this content from the PlanB Network tag list.",
       "items": {
-        "type": "string"
+        "$ref": "tags-definitions.json#/definitions/tag_item"
       },
       "minItems": 1
     },
     "license": {
       "type": "string",
       "description": "License for the content.",
-      "enum": ["CC-BY-SA-V4", "MIT"]
+      "enum": [
+        "CC-BY-SA-V4",
+        "MIT"
+      ]
     }
   },
   "assets_rules": {
@@ -120,6 +132,14 @@
       }
     ]
   },
-  "required": ["id", "type", "contributor_names", "original_language", "proofreading", "tags", "license"],
+  "required": [
+    "id",
+    "type",
+    "contributor_names",
+    "original_language",
+    "proofreading",
+    "tags",
+    "license"
+  ],
   "additionalProperties": false
 }

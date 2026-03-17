@@ -190,7 +190,7 @@ def build_course_yml(
                 "reward": 0,
             }
         ],
-        "tags": ["TODO"],
+        "tags": ["software"],
     }
 
 
@@ -412,7 +412,7 @@ def build_tutorial_yml(
         "license": license_type,
         "original_language": lang,
         "proofreading": [_make_proofreading_entry(lang)],
-        "tags": ["TODO"],
+        "tags": ["software"],
     }
 
 
@@ -575,7 +575,7 @@ def build_professor_yml(professor_uuid: str, name: str) -> dict:
         "links": {
             "twitter": "https://twitter.com/TODO",
         },
-        "tags": ["TODO"],
+        "tags": ["software"],
     }
 
 
@@ -686,7 +686,7 @@ def build_event_yml(
             "replay_url": None,
             "live_url": None,
         },
-        "tags": ["TODO"],
+        "tags": ["software"],
         "book_online": False,
         "book_in_person": False,
         "price_dollars": 0,
@@ -810,13 +810,13 @@ def _build_resource_metadata(resource_type: str, resource_uuid: str, lang: str) 
             "contributor_names": ["TODO"],
             "original_language": lang,
             "proofreading": [_make_proofreading_entry(lang)],
-            "tags": ["TODO"],
+            "tags": ["software"],
             "license": "CC-BY-SA-V4",
         },
         "book": lambda: {
             "author": "TODO: Author Name",
             "level": "beginner",
-            "tags": ["TODO"],
+            "tags": ["software"],
             "original_language": lang,
         },
         "channel": lambda: {
@@ -825,7 +825,7 @@ def _build_resource_metadata(resource_type: str, resource_uuid: str, lang: str) 
             "language": lang,
             "links": {"channel": "TODO: https://youtube.com/..."},
             "description": "TODO: Channel description\n",
-            "tags": ["TODO"],
+            "tags": ["software"],
             "contributor_names": ["TODO"],
         },
         "conference": lambda: {
@@ -835,7 +835,7 @@ def _build_resource_metadata(resource_type: str, resource_uuid: str, lang: str) 
             "location": "TODO: City, Country",
             "language": [lang],
             "links": {"website": "TODO: https://example.com"},
-            "tags": ["TODO"],
+            "tags": ["software"],
         },
         "glossary": lambda: {
             "id": resource_uuid,
@@ -853,7 +853,7 @@ def _build_resource_metadata(resource_type: str, resource_uuid: str, lang: str) 
             "links": {"platform": "TODO: https://example.com"},
             "description": "TODO: Movie description\n",
             "contributor_names": ["TODO"],
-            "tags": ["TODO"],
+            "tags": ["software"],
         },
         "newsletter": lambda: {
             "id": resource_uuid,
@@ -865,7 +865,7 @@ def _build_resource_metadata(resource_type: str, resource_uuid: str, lang: str) 
             "language": lang,
             "description": "TODO: Newsletter description\n",
             "contributor_names": ["TODO"],
-            "tags": ["TODO"],
+            "tags": ["software"],
         },
         "paper": lambda: {
             "id": resource_uuid,
@@ -884,7 +884,7 @@ def _build_resource_metadata(resource_type: str, resource_uuid: str, lang: str) 
             "language": lang,
             "links": {"podcast": "TODO: https://example.com"},
             "description": "TODO: Podcast description\n",
-            "tags": ["TODO"],
+            "tags": ["software"],
             "contributor_names": ["TODO"],
         },
         "project": lambda: {

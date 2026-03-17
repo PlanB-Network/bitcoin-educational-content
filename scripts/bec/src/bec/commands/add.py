@@ -248,7 +248,7 @@ def run_add_quiz(
         "chapterId": chapter_id,
         "difficulty": difficulty,
         "author": author,
-        "tags": ["TODO"],
+        "tags": ["software"],
     }
     question_path = quiz_dir / "question.yml"
     dump_yaml(question_data, question_path)

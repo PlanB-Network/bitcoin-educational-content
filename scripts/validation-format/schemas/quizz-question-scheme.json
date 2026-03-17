@@ -10,7 +10,12 @@
     "difficulty": {
       "type": "string",
       "description": "Difficulty level of the question.",
-      "enum": ["easy", "intermediate", "hard", "expert"]
+      "enum": [
+        "easy",
+        "intermediate",
+        "hard",
+        "expert"
+      ]
     },
     "author": {
       "type": "string",
@@ -20,12 +25,16 @@
       "type": "array",
       "description": "List of tags associated with the question.",
       "items": {
-        "type": "string"
+        "$ref": "tags-definitions.json#/definitions/tag_item"
       },
       "minItems": 1
     }
   },
-  "required": ["chapterId", "difficulty", "author", "tags"],
+  "required": [
+    "chapterId",
+    "difficulty",
+    "author",
+    "tags"
+  ],
   "additionalProperties": false
 }
-

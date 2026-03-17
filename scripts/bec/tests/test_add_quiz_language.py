@@ -362,7 +362,7 @@ def lang_resource(repo_root):
     book_dir.mkdir(parents=True, exist_ok=True)
 
     (book_dir / "book.yml").write_text(
-        "author: Test Author\nlevel: beginner\ntags:\n  - bitcoin\n",
+        "author: Test Author\nlevel: beginner\ntags:\n  - software\n",
         encoding="utf-8",
     )
 
@@ -414,7 +414,7 @@ class TestAddQuizCommand:
         assert data["chapterId"] == "test-chapter-id-001"
         assert data["difficulty"] == "intermediate"
         assert data["author"] == "satoshi"
-        assert data["tags"] == ["TODO"]
+        assert data["tags"] == ["software"]
 
     def test_translation_yml_content(self, runner, quiz_course):
         runner.invoke(cli, [

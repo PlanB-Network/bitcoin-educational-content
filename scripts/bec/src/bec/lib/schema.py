@@ -9,8 +9,13 @@ from pathlib import Path
 from typing import Any
 
 from jsonschema import Draft7Validator
+from referencing import Registry, Resource
+from referencing.jsonschema import DRAFT7
 
 from bec.lib.yaml_utils import load_yaml
+
+# Module-level registry cache: schemas_dir → Registry
+_registry_cache: dict[str, Registry] = {}
 
 
 @dataclass
@@ -44,6 +49,28 @@ def load_json_schema(schema_path: Path) -> dict:
     """Load a JSON Schema file from disk."""
     with open(schema_path, "r", encoding="utf-8") as f:
         return json.load(f)
+
+
+def _build_registry(schemas_dir: Path) -> Registry:
+    """Build a referencing Registry from JSON Schema files in the schemas directory.
+
+    Loads tags-definitions.json (and any future shared definitions) so that
+    $ref pointers like "tags-definitions.json#/definitions/tag_item" resolve.
+    """
+    key = str(schemas_dir)
+    if key in _registry_cache:
+        return _registry_cache[key]
+
+    registry = Registry()
+    tags_path = schemas_dir / "tags-definitions.json"
+    if tags_path.exists():
+        with open(tags_path, "r", encoding="utf-8") as f:
+            tags_schema = json.load(f)
+        resource = Resource.from_contents(tags_schema, default_specification=DRAFT7)
+        registry = registry.with_resource("tags-definitions.json", resource)
+
+    _registry_cache[key] = registry
+    return registry
 
 
 def _strip_nulls(obj: Any, path: str = "") -> tuple[Any, list[str]]:
@@ -83,10 +110,12 @@ def validate_yaml_against_schema(
     yaml_data: dict,
     schema: dict,
     file_path: str,
+    schema_dir: Path | None = None,
 ) -> ValidationResult:
     """Validate a YAML-loaded dict against a JSON Schema Draft 7.
 
     Null values are stripped and reported as warnings.
+    When schema_dir is provided, $ref pointers to sibling schema files are resolved.
     """
     result = ValidationResult(path=file_path)
 
@@ -94,7 +123,8 @@ def validate_yaml_against_schema(
     for p in null_paths:
         result.add_warning(f"[{p}] Empty/null value")
 
-    validator = Draft7Validator(schema)
+    registry = _build_registry(schema_dir) if schema_dir else Registry()
+    validator = Draft7Validator(schema, registry=registry)
     for error in validator.iter_errors(cleaned):
         path_str = (
             " -> ".join(str(p) for p in error.absolute_path)

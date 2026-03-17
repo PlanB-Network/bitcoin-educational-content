@@ -19,7 +19,12 @@
     "level": {
       "type": "string",
       "description": "Difficulty level of the newsletter content from user's perspective.",
-      "enum": ["beginner", "intermediate", "advanced", "expert"]
+      "enum": [
+        "beginner",
+        "intermediate",
+        "advanced",
+        "expert"
+      ]
     },
     "publication_date": {
       "type": "string",
@@ -37,7 +42,9 @@
             "description": "URL of the newsletter's website."
           }
         },
-        "required": ["website"],
+        "required": [
+          "website"
+        ],
         "additionalProperties": false
       },
       "minItems": 1
@@ -62,14 +69,17 @@
       "type": "array",
       "description": "List of tags associated with the newsletter from the PlanB tags list.",
       "items": {
-        "type": "string"
+        "$ref": "tags-definitions.json#/definitions/tag_item"
       },
       "minItems": 1
     },
     "license": {
       "type": "string",
       "description": "License for the newsletter content.",
-      "enum": ["CC-BY-SA-V4", "MIT"]
+      "enum": [
+        "CC-BY-SA-V4",
+        "MIT"
+      ]
     },
     "project_id": {
       "type": "string",
@@ -94,6 +104,17 @@
       }
     ]
   },
-  "required": ["id", "title", "author", "level", "publication_date", "link", "language", "description", "contributor_names", "tags"],
+  "required": [
+    "id",
+    "title",
+    "author",
+    "level",
+    "publication_date",
+    "link",
+    "language",
+    "description",
+    "contributor_names",
+    "tags"
+  ],
   "additionalProperties": false
 }

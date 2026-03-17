@@ -40,7 +40,13 @@
     },
     "type": {
       "type": "string",
-      "enum": ["workshop", "course", "conference", "lecture", "meetup"],
+      "enum": [
+        "workshop",
+        "course",
+        "conference",
+        "lecture",
+        "meetup"
+      ],
       "description": "Category of the event."
     },
     "description": {
@@ -108,7 +114,7 @@
       "type": "array",
       "description": "List of associated tags for the event from the PlanB Network tag list.",
       "items": {
-        "type": "string"
+        "$ref": "tags-definitions.json#/definitions/tag_item"
       },
       "minItems": 1
     },

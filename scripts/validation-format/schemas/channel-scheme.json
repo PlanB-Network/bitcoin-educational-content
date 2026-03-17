@@ -30,7 +30,9 @@
           "description": "URL of the pinned video or most viewed video on the channel."
         }
       },
-      "required": ["channel"],
+      "required": [
+        "channel"
+      ],
       "additionalProperties": false
     },
     "description": {
@@ -58,14 +60,17 @@
       "type": "array",
       "description": "List of associated tags from the predefined 52 PlanB Network tags.",
       "items": {
-        "type": "string"
+        "$ref": "tags-definitions.json#/definitions/tag_item"
       },
       "minItems": 1
     },
     "license": {
       "type": "string",
       "description": "License for the content.",
-      "enum": ["CC-BY-SA-V4", "MIT"]
+      "enum": [
+        "CC-BY-SA-V4",
+        "MIT"
+      ]
     },
     "project_id": {
       "type": "string",
@@ -90,13 +95,24 @@
       }
     ]
   },
-  "required": ["id", "name", "language", "links", "description", "tags"],
+  "required": [
+    "id",
+    "name",
+    "language",
+    "links",
+    "description",
+    "tags"
+  ],
   "oneOf": [
     {
-      "required": ["contributor_names"]
+      "required": [
+        "contributor_names"
+      ]
     },
     {
-      "required": ["contributors"]
+      "required": [
+        "contributors"
+      ]
     }
   ],
   "additionalProperties": false

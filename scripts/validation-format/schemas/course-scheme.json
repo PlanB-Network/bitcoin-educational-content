@@ -12,7 +12,16 @@
     "topic": {
       "type": "string",
       "description": "Main topic of the course (lowercase)",
-      "enum": ["bitcoin", "business", "mining", "protocol", "security", "sociology", "sovereignty", "social studies"]
+      "enum": [
+        "bitcoin",
+        "business",
+        "mining",
+        "protocol",
+        "security",
+        "sociology",
+        "sovereignty",
+        "social studies"
+      ]
     },
     "subtopic": {
       "type": "string",
@@ -52,12 +61,21 @@
     "type": {
       "type": "string",
       "description": "Type of course content",
-      "enum": ["theory", "practice"]
+      "enum": [
+        "theory",
+        "practice"
+      ]
     },
     "level": {
       "type": "string",
       "description": "Difficulty level of the course",
-      "enum": ["beginner", "intermediate", "advanced", "expert", "wizard"]
+      "enum": [
+        "beginner",
+        "intermediate",
+        "advanced",
+        "expert",
+        "wizard"
+      ]
     },
     "hours": {
       "type": "integer",
@@ -67,7 +85,10 @@
     "teaching_format": {
       "type": "string",
       "description": "How the course is delivered",
-      "enum": ["self_paced", "professor_led"]
+      "enum": [
+        "self_paced",
+        "professor_led"
+      ]
     },
     "professors_id": {
       "type": "array",
@@ -113,7 +134,10 @@
             "pattern": "^[a-z]{2}(-[A-Za-z]{2,4})?$"
           },
           "last_contribution_date": {
-            "type": ["string", "null"],
+            "type": [
+              "string",
+              "null"
+            ],
             "description": "Date of the last contribution in YYYY-MM-DD format",
             "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
           },
@@ -123,7 +147,10 @@
             "minimum": 1
           },
           "contributor_names": {
-            "type": ["array", "null"],
+            "type": [
+              "array",
+              "null"
+            ],
             "description": "List of contributor GitHub usernames",
             "items": {
               "type": "string"
@@ -135,7 +162,11 @@
             "minimum": 0
           }
         },
-        "required": ["language", "urgency", "reward"],
+        "required": [
+          "language",
+          "urgency",
+          "reward"
+        ],
         "additionalProperties": false
       },
       "minItems": 1
@@ -144,14 +175,17 @@
       "type": "array",
       "description": "List of tags associated with this course from the PlanB Network tag list",
       "items": {
-        "type": "string"
+        "$ref": "tags-definitions.json#/definitions/tag_item"
       },
       "minItems": 1
     },
     "license": {
       "type": "string",
       "description": "License of the course content",
-      "enum": ["CC-BY-SA-V4", "MIT"]
+      "enum": [
+        "CC-BY-SA-V4",
+        "MIT"
+      ]
     },
     "test_only": {
       "type": "boolean",
@@ -160,7 +194,11 @@
     "format": {
       "type": "string",
       "description": "Delivery format for live/in-person courses (only for courses with presentation.md)",
-      "enum": ["online", "inperson", "hybrid"]
+      "enum": [
+        "online",
+        "inperson",
+        "hybrid"
+      ]
     },
     "address_city_country": {
       "type": "string",
@@ -259,11 +297,25 @@
             }
           }
         },
-        "required": ["id"],
+        "required": [
+          "id"
+        ],
         "anyOf": [
-          { "required": ["youtube"] },
-          { "required": ["peertube"] },
-          { "required": ["rumble"] }
+          {
+            "required": [
+              "youtube"
+            ]
+          },
+          {
+            "required": [
+              "peertube"
+            ]
+          },
+          {
+            "required": [
+              "rumble"
+            ]
+          }
         ],
         "additionalProperties": false
       }
@@ -284,9 +336,16 @@
     {
       "if": {
         "properties": {
-          "format": { "enum": ["inperson", "hybrid"] }
+          "format": {
+            "enum": [
+              "inperson",
+              "hybrid"
+            ]
+          }
         },
-        "required": ["format"]
+        "required": [
+          "format"
+        ]
       },
       "then": {
         "required": [
@@ -301,9 +360,13 @@
     {
       "if": {
         "properties": {
-          "format": { "const": "online" }
+          "format": {
+            "const": "online"
+          }
         },
-        "required": ["format"]
+        "required": [
+          "format"
+        ]
       },
       "then": {
         "required": [
@@ -316,9 +379,13 @@
     {
       "if": {
         "properties": {
-          "requires_payment": { "const": true }
+          "requires_payment": {
+            "const": true
+          }
         },
-        "required": ["requires_payment"]
+        "required": [
+          "requires_payment"
+        ]
       },
       "then": {
         "required": [

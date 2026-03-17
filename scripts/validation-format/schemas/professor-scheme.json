@@ -33,7 +33,7 @@
       "type": "array",
       "description": "List of tags associated with the professor's expertise and interests",
       "items": {
-        "type": "string"
+        "$ref": "tags-definitions.json#/definitions/tag_item"
       }
     },
     "tips": {
@@ -95,7 +95,10 @@
               "items": {
                 "type": "string"
               },
-              "default": ["400x400", "800x800"],
+              "default": [
+                "400x400",
+                "800x800"
+              ],
               "description": "Recommended pixel dimensions"
             },
             "content": {
@@ -108,7 +111,9 @@
       }
     }
   },
-  "required": ["name", "id"],
+  "required": [
+    "name",
+    "id"
+  ],
   "additionalProperties": false
 }
-

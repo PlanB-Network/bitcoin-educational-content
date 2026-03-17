@@ -236,7 +236,9 @@ def _validate_folder(
         yaml_data = load_yaml(yaml_path)
         if yaml_data is None:
             yaml_data = {}
-        result = validate_yaml_against_schema(yaml_data, schema, str(yaml_path))
+        result = validate_yaml_against_schema(
+            yaml_data, schema, str(yaml_path), schema_dir=schema_abs.parent,
+        )
         results.append(result)
 
         # Semantic validation for events
@@ -349,7 +351,10 @@ def _validate_quizzes(
             data = load_yaml(question_file)
             if data is None:
                 data = {}
-            result = validate_yaml_against_schema(data, q_schema, str(question_file))
+            schemas_dir = (repo_root / q_schema_path).parent
+            result = validate_yaml_against_schema(
+                data, q_schema, str(question_file), schema_dir=schemas_dir,
+            )
             results.append(result)
         else:
             # Fallback manual validation
@@ -367,7 +372,10 @@ def _validate_quizzes(
                     data = load_yaml(tf)
                     if data is None:
                         data = {}
-                    result = validate_yaml_against_schema(data, t_schema, str(tf))
+                    schemas_dir = (repo_root / t_schema_path).parent
+                    result = validate_yaml_against_schema(
+                        data, t_schema, str(tf), schema_dir=schemas_dir,
+                    )
                     results.append(result)
                 else:
                     results.append(_validate_quiz_translation_manual(tf))

@@ -13,7 +13,10 @@
       "description": "The word in English, typically in uppercase. This is the basis for identifying the word in the glossary"
     },
     "related_words": {
-      "type": ["array", "null"],
+      "type": [
+        "array",
+        "null"
+      ],
       "description": "List of related words in the glossary, using their en_word names",
       "items": {
         "type": "string"
@@ -23,7 +26,7 @@
       "type": "array",
       "description": "List of tags associated with the word, chosen from the predefined PlanB tags list",
       "items": {
-        "type": "string"
+        "$ref": "tags-definitions.json#/definitions/tag_item"
       }
     },
     "original_language": {
@@ -34,7 +37,10 @@
     "license": {
       "type": "string",
       "description": "License under which the content is distributed",
-      "enum": ["CC-BY-SA-V4", "MIT"]
+      "enum": [
+        "CC-BY-SA-V4",
+        "MIT"
+      ]
     },
     "proofreading": {
       "type": "array",
@@ -56,7 +62,10 @@
             "minimum": 1
           },
           "contributor_names": {
-            "type": ["array", "null"],
+            "type": [
+              "array",
+              "null"
+            ],
             "description": "List of contributor GitHub usernames who have proofread this language",
             "items": {
               "type": "string"
@@ -68,11 +77,20 @@
             "minimum": 0
           }
         },
-        "required": ["language", "urgency", "reward"],
+        "required": [
+          "language",
+          "urgency",
+          "reward"
+        ],
         "additionalProperties": false
       }
     }
   },
-  "required": ["id", "en_word", "original_language", "proofreading"],
+  "required": [
+    "id",
+    "en_word",
+    "original_language",
+    "proofreading"
+  ],
   "additionalProperties": false
 }

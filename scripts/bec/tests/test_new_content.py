@@ -66,7 +66,7 @@ class TestBuildTutorialYml:
 
     def test_tags_default(self):
         data = build_tutorial_yml("x", "beginner", "desktop", PROF_UUID, "CC-BY-SA-V4", "en")
-        assert data["tags"] == ["TODO"]
+        assert data["tags"] == ["software"]
 
 
 class TestBuildTutorialMd:

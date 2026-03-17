@@ -40,14 +40,16 @@
           "description": "URL of the conference's Twitter profile."
         }
       },
-      "required": ["website"],
+      "required": [
+        "website"
+      ],
       "additionalProperties": false
     },
     "tags": {
       "type": "array",
       "description": "List of associated tags with the conference. Specific list of tags to be defined.",
       "items": {
-        "type": "string"
+        "$ref": "tags-definitions.json#/definitions/tag_item"
       },
       "minItems": 1
     }
@@ -69,6 +71,14 @@
       }
     ]
   },
-  "required": ["name", "year", "builder", "location", "language", "links", "tags"],
+  "required": [
+    "name",
+    "year",
+    "builder",
+    "location",
+    "language",
+    "links",
+    "tags"
+  ],
   "additionalProperties": false
 }

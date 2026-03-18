@@ -1526,8 +1526,6 @@ Capitalism is often accused of being the source of the injunction: "we must alwa
 
 ![Nazi party propaganda poster](assets/en/088.webp)
 
-[Fear the Boom and Bust: Keynes vs. Hayek - Economics Rap Battle](https://www.youtube.com/watch?v=d0nERTFo-Sk)
-
 ### The Analysis of the 1929 Crisis
 
 Published in 1936, John Maynard Keynes' book, _[The General Theory of Employment, Interest, and Money](https://planb.academy/resources/books/the-general-theory)_, swept everything in its path. Questioning the causes of the Great Depression and the means to emerge from it, he describes a new economic paradigm, which would convert generations of economists and politicians.
@@ -1557,6 +1555,8 @@ Thus, Friedrich Hayek explained that the continual reduction of interest rates b
 Along with others, he also highlighted the danger of centralizing and manipulating currency. This is notably the case with the Frenchman Jacques Rueff, also a disciple and friend of Ludwig von Mises.
 
 ![Fear the Boom and Bust: Keynes vs. Hayek](assets/en/092.webp)
+
+[Fear the Boom and Bust: Keynes vs. Hayek - Economics Rap Battle](https://www.youtube.com/watch?v=d0nERTFo-Sk)
 
 Graduating from the École Polytechnique in 1919, Rueff had a distinguished career as a senior civil servant, serving as an economic advisor to numerous governments in the 1920s and 1930s. His major work, _L’ordre social_ (The Social Order), was published in 1945, in which he develops a powerful argument in favor of the free market from economic, philosophical, and moral perspectives.
 

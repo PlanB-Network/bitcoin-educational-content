@@ -6,4 +6,4 @@ wrong_answers:
   - De connaître toutes les clés privées
 explanation: |
   La double dépense se détecte en comparant une transaction aux dépenses passées inscrites dans un registre partagé.
-reviewed: false
+reviewed: true 

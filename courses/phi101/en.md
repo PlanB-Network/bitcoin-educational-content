@@ -68,7 +68,7 @@ Indeed, freedom is not a new idea. It is a legacy passed down through generation
 
 ![image](assets/en/002.webp)
 
-However, the goal of this course is not only to shed light on the history of freedom, but also—and more importantly—to develop critical thinking. Indeed, history alone is not enough to judge the present and the future. It needs to be accompanied by critical reflection and a judgment on past mistakes. This is the contribution of philosophy. That is why I have titled this course 'A Philosophical History of Freedom.' It is indeed about exploring how philosophers have conceived of freedom throughout the ages.
+However, the goal of this course is not only to shed light on the history of freedom, but also, and more importantly, to develop critical thinking. Indeed, history alone is not enough to judge the present and the future. It needs to be accompanied by critical reflection and a judgment on past mistakes. This is the contribution of philosophy. That is why I have titled this course 'A Philosophical History of Freedom.' It is indeed about exploring how philosophers have conceived of freedom throughout the ages.
 
 ### The task of philosophy
 
@@ -80,15 +80,15 @@ From its origins, it has had a dual purpose:
 
 Freedom is a concept that encompasses a multitude of variants, which are as many possible declinations of the same reality: political freedom, economic freedom, freedom of conscience, freedom of speech, religious freedom, freedom of association, and so on. What reality are we talking about?
 
-Freedom can be defined as the ability to make choices over one's affairs. It is an inherent faculty of the human being. It is a reality that is essentially individual. Only the individual can think and act, that is, make choices. This does not mean that the individual is alone, nor does it imply that he owes nothing to others. On the contrary, he lives in society and must cooperate with others for his good. But everyone remains free to cooperate or not and must assume the responsibility for their choices.
+**Freedom can be defined as the ability to make choices** over one's affairs. It is an inherent faculty of the human being. It is a reality that is essentially individual. Only the individual can think and act, that is, make choices. This does not mean that the individual is alone, nor does it imply that he owes nothing to others. On the contrary, he lives in society and must cooperate with others for his good. But everyone remains free to cooperate or not and must assume the responsibility for their choices.
 
-The notion of responsibility is corollary to freedom because every choice has consequences. The responsible person is the one who assumes the costs of their own decisions and does not shift this cost onto others. In other words, freedom is demanding. It is a moral notion that implies both rights and duties towards others, including the duty to respect their freedom.
+**The notion of responsibility is corollary to freedom** because every choice has consequences. The responsible person is the one who assumes the costs of their own decisions and does not shift this cost onto others. In other words, freedom is demanding. It is a moral notion that implies both rights and duties towards others, including the duty to respect their freedom.
 
 Secondly, philosophy is normative, whereas history is merely descriptive. Thus, political philosophy is distinct from political science. Political philosophy is normative, meaning it prescribes values and judges human actions by a criterion of justice. On the other hand, political scientists are content to describe regimes and make the history of institutions, without making value judgments.
 
 ### Philosophy of freedom and philosophy of power
 
-From this perspective, there are only two kinds of political philosophies: the philosophy of freedom and the philosophy of power.
+From this perspective, **there are only two kinds of political philosophies**: the philosophy of freedom and the philosophy of power.
 
 ![image](assets/en/004.webp)
 
@@ -106,7 +106,9 @@ Those who defend the first philosophy in France are the Physiocrats, with Franç
 For Turgot and Say, disciples of Quesnay, there exists a natural law, independent of the whims of legislators, which is valid for all men and predates any society. This philosophy comes directly from medieval scholasticism, the Stoics, Aristotle, and Sophocles. The unwritten laws come before written laws and superior to them because they stem from human nature and reason.
 
 ![image](assets/en/006.webp)
+
 The second philosophy is found among authors such as Rousseau, Robespierre, or Kant, who embody the republican tradition, in which the sovereignty of the general will is considered the true source of law. A contemporary of Quesnay, Rousseau is an anti-physiocrat. For him, the legislator must organize society, like a mechanic who invents a machine from inert matter.
+
 ![image](assets/en/007.webp)
 
 > "He who dares to undertake the establishment of a people," says Rousseau, "must feel capable of changing, so to speak, human nature, of transforming each individual who, by himself, is a perfect and solitary whole, into part of a greater whole from which this individual receives, in a way, his life and being." (_Social Contract_)
@@ -121,7 +123,7 @@ From this perspective, the legislator's mission is to organize, modify, or even 
 
 When one opens textbooks, Bastiat noted, one learns that humanity would be doomed to nothingness without the intervention of power:
 
-> "It suffices to open, almost at random, a book of philosophy, politics, or history to see how deeply rooted in our country is this idea, born of classical studies and the mother of Socialism, that humanity is an inert matter receiving from power life, organization, morality, and wealth; — or worse, that humanity itself tends towards its degradation and is only stopped on this slope by the mysterious hand of the Legislator." ([_The Law_](http://bastiat.org/fr/la_loi.html)).
+> "It suffices to open, almost at random, a book of philosophy, politics, or history to see how deeply rooted in our country is this idea, born of classical studies and the mother of Socialism, that humanity is an inert matter receiving from power life, organization, morality, and wealth; or worse, that humanity itself tends towards its degradation and is only stopped on this slope by the mysterious hand of the Legislator." ([_The Law_](http://bastiat.org/fr/la_loi.html)).
 
 In other words, the cultural prejudice dominating Western philosophy as well as historiography is that we owe everything to power: freedom, health, education, security, and prosperity. Humanity is described as "inert matter" that takes shape thanks to the legislator.
 
@@ -144,7 +146,7 @@ What is the difference between production and plunder? Here is Bastiat's answer:
 
 > To produce, one must direct all one's faculties towards the domination of nature; for it is nature that must be fought, tamed, and enslaved. That is why iron converted into a plough is the emblem of production. To plunder, one must direct all one's faculties towards the domination of men; for it is they who must be fought, killed, or enslaved. That is why iron converted into a sword is the emblem of plunder. ([_Economic Harmonies_](http://bastiat.org/fr/guerre.html), War).
 
-In other words, production is a form of power over nature. Plunder is power over men. However, there are two forms of plunder: legal and illegal.
+In other words, **production is a form of power over nature. Plunder is power over men.** However, there are two forms of plunder: legal and illegal.
 Illegal plunder is the theft or crime committed by one citizen against another. It is the action of the bandit or the swindler. However, the worst form of plunder is that which is accomplished by law: "There are people who think that plunder loses all its immorality provided it is legal. As for me, I cannot imagine a more aggravating circumstance." ([_What is Seen and What is Not Seen_](http://bastiat.org/fr/cqovecqonvp.html#RESTRICTION)).
 
 Bastiat tells us there are still two forms of legal plunder:
@@ -159,7 +161,7 @@ In [_The Physiology of Plunder_](http://bastiat.org/fr/physiologie_de_la_spoliat
 
 ![image](assets/en/009.webp)
 
-Historically, ruling elites have always lived off plunder. Bastiat notes:
+Historically, **ruling elites have always lived off plunder.** Bastiat notes:
 
 > Force applied to plunder is the basis of human annals. To trace its history would be to reproduce almost entirely the history of all peoples: Assyrians, Babylonians, Medes, Persians, Egyptians, Greeks, Romans, Goths, Franks, Huns, Turks, Arabs, Mongols, Tartars, not to mention the Spaniards in America, the English in India, the French in Africa, the Russians in Asia, etc.
 >
@@ -194,9 +196,9 @@ This author is best known for his maxim: "Power tends to corrupt, and absolute p
 
 ![image](assets/en/011.webp)
 
-For Acton, the conflict between liberty and power is the central theme of human history, and liberty is the driving force of progress and the evolution of societies. Acton sought to understand the factors that contributed to the rise of liberty in the West. His goal was to identify the conditions necessary for its preservation and development. He studied philosophical ideas, social structures, and political contexts that favored their emergence over time.
+For Acton, **the conflict between liberty and power is the central theme** of human history, and liberty is the driving force of progress and the evolution of societies. Acton sought to understand the factors that contributed to the rise of liberty in the West. His goal was to identify the conditions necessary for its preservation and development. He studied philosophical ideas, social structures, and political contexts that favored their emergence over time.
 
-His central thesis is that "liberty is established by the conflict of powers." According to Acton, for centuries after the fall of the Western Roman Empire, the Catholic Church was the only force capable of challenging the authority of feudal lords, monarchs, and emperors. This power struggle between the Church and the State proved crucial for the rise of liberty. Europe had a strong Church and a weak state, due to the ongoing quarrel in the Middle Ages between popes and kings. In contrast, China had a weak deity and a strong bureaucratic power.
+His central thesis is that **"liberty is established by the conflict of powers."** According to Acton, for centuries after the fall of the Western Roman Empire, the Catholic Church was the only force capable of challenging the authority of feudal lords, monarchs, and emperors. This power struggle between the Church and the State proved crucial for the rise of liberty. Europe had a strong Church and a weak state, due to the ongoing quarrel in the Middle Ages between popes and kings. In contrast, China had a weak deity and a strong bureaucratic power.
 
 > By liberty, I mean the assurance that every man will be protected, when he does what he believes to be his duty, against the influence of authority and majorities, of custom and opinion. The State is competent to set duties and to distinguish between good and evil only in its immediate sphere.
 >
@@ -206,7 +208,7 @@ His central thesis is that "liberty is established by the conflict of powers." A
 
 ### Voltaire and Condorcet
 
-But the idea that freedom in Europe was born from internal struggles among various claimants to power, preventing the establishment of absolute domination, is not unique to Acton. It can already be found in thinkers such as Voltaire and Condorcet.
+But the idea that **freedom in Europe was born from internal struggles** among various claimants to power, preventing the establishment of absolute domination, is not unique to Acton. It can already be found in thinkers such as Voltaire and Condorcet.
 
 Thus, Voltaire, in his [_Philosophical Letters_](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6), attributes English freedom to conflicts between kings and nobles, which prevented any excessive concentration of power. And he notes:
 
@@ -225,6 +227,7 @@ This thesis is also found in a monumental work dating from 1983: _Law and Revolu
 :::video id=01b9125f-6693-49ae-b7c9-07bc10a10c3d:::
 
 Another perspective on history does exist, however. It has been quite successful and has long enjoyed the support of Western intellectuals and representatives from the Global South. This is the socialist and Marxist view of history.
+
 ![image](assets/en/013.webp)
 
 It explains Europe's extraordinary growth primarily through the progress of technology combined with the "primitive accumulation" of capital, stemming from imperialism, slavery, the triangular trade, the expropriation of small peasants, and the exploitation of the working class. The conclusion is clear. This exceptional European growth was achieved at the expense of millions and millions of slaves and oppressed individuals.
@@ -244,6 +247,7 @@ This analysis reflects a misunderstanding of surplus value and the cooperative a
 ### The Industrial Revolution in Question
 
 In fact, the Marxist analysis distorts the historical reality of the Industrial Revolution. Ludwig von Mises clarified this issue in his economics treatise [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (see especially the chapter titled [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) as well as in a series of lectures published under the title: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Also worth reading, The Anti-Capitalistic Mentality [here](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) and [here](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+
 ![image](assets/en/014.webp)
 
 Mises explains that jobs in factories, although miserable by our standards, represented the best possible opportunity for workers of the time.
@@ -270,11 +274,11 @@ This is how Hayek remarks, "economic suffering became both more visible and seem
 
 Therefore, the worker was not exploited, even if wages were low, due to the abundance of labor fleeing the countryside.
 
-In reality, exploitation only makes sense as an aggression against private property. In this sense, exploitation is always the act of the State. The State is the only institution that obtains its revenues through coercion, that is, by force. Thus, the real exploitation, as we have seen with Bastiat, is that of the productive classes by the state officials themselves. It would be more accurate to say that the history of all societies up to our days is nothing but the history of the struggle between plunderers and the productive classes.
+In reality, **exploitation only makes sense as an aggression against private property.** In this sense, exploitation is always the act of the State. The State is the only institution that obtains its revenues through coercion, that is, by force. Thus, the real exploitation, as we have seen with Bastiat, is that of the productive classes by the state officials themselves. It would be more accurate to say that the history of all societies up to our days is nothing but the history of the struggle between plunderers and the productive classes.
 
 ### The "European Miracle"
 
-Subsequently, a more nuanced historical analysis than that of Marx allows us to challenge the idea of a predatory Europe, which owes its success solely to imperialism and slavery. By examining comparative economic history, some contemporary historians have sought the origins of Europe's development in what distinguished it from other major civilizations, particularly those of China, India, and Islam. These characteristics have been explored by [David Landes](https://www.eyrolles.com/Entreprise/Livre/richesse-et-pauvrete-des-nations-9782226110381/), [Jean Baechler](https://academiesciencesmoralesetpolitiques.fr/publications/publications-de-lacademie/jean-baechler/), [François Crouzet](https://www.cairn.info/revue-entreprises-et-histoire-2010-4-page-219.htm), and [Douglass North](https://www.iedm.org/fr/65134-douglass-north-l-un-des-economistes-les-plus-originaux/). These researchers have attempted to understand what is referred to as the "European miracle." They focused their attention on the fact that Europe was a mosaic of divided and competing jurisdictions, where, after the fall of Rome, no central political power was capable of imposing its will.
+Subsequently, a more nuanced historical analysis than that of Marx allows us to challenge the idea of a predatory Europe, which owes its success solely to imperialism and slavery. By examining comparative economic history, some contemporary historians have sought the origins of Europe's development in what distinguished it from other major civilizations, particularly those of China, India, and Islam. These characteristics have been explored by [David Landes](https://www.eyrolles.com/Entreprise/Livre/richesse-et-pauvrete-des-nations-9782226110381/), [Jean Baechler](https://academiesciencesmoralesetpolitiques.fr/publications/publications-de-lacademie/jean-baechler/), [François Crouzet](https://www.cairn.info/revue-entreprises-et-histoire-2010-4-page-219.htm), and [Douglass North](https://www.iedm.org/fr/65134-douglass-north-l-un-des-economistes-les-plus-originaux/). These researchers have attempted to understand what is referred to as the "European miracle." They focused their attention on the fact that **Europe was a mosaic of divided and competing jurisdictions**, where, after the fall of Rome, no central political power was capable of imposing its will.
 
 As Jean Baechler, a member of the Academy of Moral and Political Sciences, says in _The Origins of Capitalism_ (1971):
 
@@ -307,12 +311,12 @@ Referring to Albert J. Nock, Rothbard uses the terms "social power" and "state p
 
 ### The State as a Parasite
 
-Rothbard considers the State as a parasite that lives at the expense of the productive society. It seizes "command posts" strategically to appropriate wealth and power. Monopoly of force, justice, education, and infrastructure. And he adds, "In the modern economy, money is the essential command post."
+Rothbard considers **the State as a parasite that lives at the expense** of the productive society. It seizes "command posts" strategically to appropriate wealth and power. Monopoly of force, justice, education, and infrastructure. And he adds, "In the modern economy, money is the essential command post."
 For Rothbard, the principle of freedom should also apply to money. If we are in favor of liberty in other sectors, if we want to protect property and the person against the intrusion of the State, our most urgent task must be to explore the possibility of a free money market. (See on this point his essay: _State, What Have You Done with Our Money?_ Translation by Stéphane Couvreur for the Institut Coppet, 2011).
 
 ### The Failure of Attempts to Limit the State
 
-Rothbard warns against the idea that written constitutions, by themselves, could guarantee freedom and the limitation of power:
+Rothbard warns against the idea that **written constitutions, by themselves, could guarantee freedom** and the limitation of power:
 
 > The last centuries were times when men tried to impose constitutional and other limits on the State, only to find that such limits, like all other attempts, had failed. Of all the many forms that regimes took over the centuries, of all the concepts and institutions that were tried, none succeeded in keeping the State under control.
 
@@ -322,7 +326,7 @@ A written constitution certainly has many advantages, but it is a serious mistak
 
 ![image](assets/en/018.webp)
 
-According to Rothbard, history is not a linear process, but rather an oscillation between the advancement of social power and the resurgence of control by the State:
+According to Rothbard, **history is not a linear process, but rather an oscillation** between the advancement of social power and the resurgence of control by the State:
 
 - Periods of freedom: when social power flourishes, freedom, peace, and prosperity increase.
 - Periods of state domination: when the State gains the upper hand, leading to oppression, war, and regression.
@@ -361,6 +365,7 @@ Athenian democracy was characterized by lively public debates on city affairs, w
 ### The birth of politics with the city
 
 Athenian democracy represents a significant departure from tradition. Indeed, in earlier societies, there could not be "politics" in the sense of a discussion about social rules, since these were imposed in a transcendent manner by myth.
+
 ![image](assets/en/021.webp)
 
 Historian Jean-Pierre Vernant writes:
@@ -532,6 +537,7 @@ When Antigone disobeys Creon, she opposes positive law to obey her moral and rel
 Cicero lived in the 1st century BC and is considered one of the greatest orators of the Latin language under the Roman Empire. He is also a moral and political philosopher closely aligned with the Stoics. Educated Europeans have read his essays for many centuries.
 
 ![image](assets/en/033.webp)
+
 In his treatise _On the Laws_ (_De Legibus_), he reflects on the foundation of law. According to him, positive law, the set of conventions or written laws adopted by a society, cannot establish justice worthy of the name. There exists a natural justice, inscribed in human reason: "law has a foundation in nature itself." To say that the unjust are the result of a convention is to say that truth is decreed. However, truth cannot be decreed, even by the majority; it guides our judgments.
 Cicero also rejects utility as the foundation of law. Indeed, he writes:
 
@@ -652,6 +658,7 @@ In summary, freedom is a good because it allows one to order oneself to the good
 ### God does not do good in our place
 
 In medieval theology, providence is not understood as a constant intervention of God in the lives of men, as if God acted on our behalf and without our consent. On the contrary, God gives to each creature, according to its nature, faculties that allow it to provide for itself and thus reach its full development. God does not do good for the creature in its stead.
+
 ![image](assets/en/038.webp)
 
 And the higher we go in the scale of beings, from mineral to man, the more God delegates to his creature the power to act on its own. He entrusts man with the freedom to govern himself and to govern the world with his reason, according to the virtue of prudence.
@@ -711,6 +718,7 @@ This is the middle position, which seeks to reconcile faith and reason. True rat
 The Christian Middle Ages were marked, at the beginning of the 13th century, by the birth and multiplicity of universities in the West. A university is a community of students and masters from the same city under the control of the Church and comprising in principle four faculties: arts, theology, law, and medicine. Theology is conceived as a science, modelled after Greek science.
 
 ![image](assets/en/041.webp)
+
 In 1200, Philippe-Auguste established the University of Paris, which quickly became the most renowned university in Europe. In 1257, Robert de Sorbon founded a college of theology at the University of Paris, which would later be called the Sorbonne. A new method of teaching and research, known as scholasticism (from the Latin schola, meaning "school"), emerged within these universities. It involved the "disputatio," a type of debate in which participants presented opposing views to an audience. A thesis was proposed, followed by objections that required a response. Once all arguments were exhausted, the master would resolve the debate with a reasoned solution.
 
 Among the great Aristotelian masters who marked this era, we can mention Albert the Great (1200-1280) and Thomas Aquinas (1224-1274). The latter, by establishing reason in its rights, highlighted the specificity and autonomy of philosophical wisdom in relation to theology. Just as grace presupposes nature and fulfills it, faith presupposes and perfects reason.
@@ -723,7 +731,7 @@ From then on, religious rationalism would definitively prevail over mysticism.
 
 :::video id=a0027b3b-a40e-479e-94c8-420d20404966:::
 
-In the Middle Ages, the Church and Christian monarchies inherited a political model from the Roman Empire, known as the theologico-political system —a system in which power is considered sacred, meaning that the political leader is also a religious leader.
+In the Middle Ages, the Church and Christian monarchies inherited a political model from the Roman Empire, known as the theologico-political system, a system in which power is considered sacred, meaning that the political leader is also a religious leader.
 
 This is why a politico-religious unanimity characterizes medieval societies. Political power bases its legitimacy, authority, and unity on the Christian faith (or the Muslim faith). It considers itself the guardian of cultural and religious orthodoxy and treats as pariahs those who stray from this unanimity. In this context, even if a certain tolerance could be conceded to those who detach from the common cultural vision (such as Jews), no right to pluralism could be recognized for them. It was not until the end of the Middle Ages, with the conquest of America, that the issue of civil liberties became crucial to the Church, giving rise to a new philosophy of law that affirmed and protected individual freedoms, legitimized pluralism, and condemned state coercion.
 
@@ -731,6 +739,7 @@ This is why a politico-religious unanimity characterizes medieval societies. Pol
 
 The question of the relationship between politics and religion took shape with Saint Augustine's work _Civitas Dei_ (_The City of God_). In it, he explains that two spheres coexist:
 Two loves have thus made two cities: the love of self to the contempt of God, the earthly city; the love of God, to the contempt of self, the heavenly city.
+
 ![image](assets/en/042.webp)
 
 We have, therefore:
@@ -768,9 +777,9 @@ This is why biblical ethics change our relationship to evil. It brings a sharp a
 
 ### The Transition from a Symmetrical Ethics to an Asymmetrical Ethics
 
-Symmetrical ethics is about establishing strict equality in human relationships or strict reciprocity. It appears in the virtue of justice, the supreme virtue for the Greeks. Justice is giving to others what is owed to them: to each their own—perceiving time as cyclical leads to a sense of not being responsible for the evil done by others. There is evil on Earth, but it has always existed and will always exist. This must be chalked up to the profit and loss account, and the sum of it is constant. There is nothing to be done, it will always be so, this is Greek and Roman fatalism.
+Symmetrical ethics is about establishing strict equality in human relationships or strict reciprocity. It appears in the virtue of justice, the supreme virtue for the Greeks. Justice is giving to others what is owed to them: to each their own. Perceiving time as cyclical leads to a sense of not being responsible for the evil done by others. There is evil on Earth, but it has always existed and will always exist. This must be chalked up to the profit and loss account, and the sum of it is constant. There is nothing to be done, it will always be so, this is Greek and Roman fatalism.
 
-Biblical ethics are asymmetrical, meaning that one must give more than what is owed. Everyone feels responsible for evil, even for that which they have not committed—ethics of giving, ethics of forgiveness, ethics of compassion. One cannot remain indifferent to the suffering of others and must not tolerate gratuitous suffering, even when it does not come from us. The tranquillity of the Stoic sage who accepts fate becomes impossible. This is the meaning of the parable of the Good Samaritan. Nothing obliges him to stop and take care of a man wounded by bandits. From the ethical revolution brought by the Bible, all of humanity becomes a sort of Good Samaritan. It is invited not to tolerate the evil done to others and to fight against it.
+Biblical ethics are asymmetrical, meaning that one must give more than what is owed. Everyone feels responsible for evil, even for that which they have not committed: ethics of giving, ethics of forgiveness, ethics of compassion. One cannot remain indifferent to the suffering of others and must not tolerate gratuitous suffering, even when it does not come from us. The tranquillity of the Stoic sage who accepts fate becomes impossible. This is the meaning of the parable of the Good Samaritan. Nothing obliges him to stop and take care of a man wounded by bandits. From the ethical revolution brought by the Bible, all of humanity becomes a sort of Good Samaritan. It is invited not to tolerate the evil done to others and to fight against it.
 Moreover, since God is the creator, we see the emergence of a new concept: the equality of all before God. There are no privileged individuals in the face of the transcendent immensity of God, and all men are equal.
 
 ### The Rights of the Indians
@@ -787,6 +796,7 @@ In the opposing camp, there were the proponents of pluralism and civil liberties
 
 In the _Summa Theologica_, St. Thomas poses the following question: Should one obey an unfaithful Prince who does not believe in God? And he answers yes, because legitimate authority is by natural right, and the Prince's infidelity or atheism is not a reason for rebellion. The political order is primarily a natural order. He further asks: Should war be waged on the infidels and the faith imposed on them? He answers no: a war is just only if it is defensive. Finally, faith can only be a free act.
 The scholars of Salamanca applied this reasoning to the case of the Indigenous peoples, arguing that property is a natural right. Therefore, taking lands from the Indigenous peoples is to commit theft, just as if they were Christians. It is also not permissible to wage war on them, given that there is no aggression on their part, but rather from ours.
+
 ![image](assets/en/045.webp)
 
 The matter of the Indigenous peoples was the first crack in the politico-religious monolith. It showed that the unity of the political society could rest on a basis other than the religious unity of the inhabitants of the same territory, based on a common bond rooted in human nature.
@@ -811,7 +821,7 @@ Henri Pirenne, a Belgian historian of the early 20th century, devoted part of hi
 
 
 
-> All the essential features of capitalism — individual enterprise, the progress of credit, commercial profits, speculation, etc. — already existed from the 12th century in the Italian city-states, Venice, Genoa, or Florence.
+> All the essential features of capitalism (individual enterprise, the progress of credit, commercial profits, speculation, etc.) already existed from the 12th century in the Italian city-states, Venice, Genoa, or Florence.
 
 ![image](assets/en/046.webp)
 
@@ -844,7 +854,7 @@ The systematic study of economic laws began in the High Middle Ages. The first e
 
 ![image](assets/en/049.webp)
 
-At the heart of his monetary analysis lies the problem of "mutations" of money, that is, alterations in the metallic content of coins and their denomination. These alterations have occurred since the dawn of time and are well documented for Antiquity and the Middle Ages. Their most visible effect is to change the purchasing power of the monetary unit, especially to decrease it. This is a primitive form of [inflation](https://planb.academy/resources/glossary/inflation) that Oresme clearly condemns as an evil.
+At the heart of his monetary analysis lies the problem of "mutations" of money, that is, alterations in the metallic content of coins and their denomination. These alterations have occurred since the dawn of time and are well documented for Antiquity and the Middle Ages. Their most visible effect is to change the purchasing power of the monetary unit, especially to decrease it. This is a primitive form of inflation that Oresme clearly condemns as an evil.
 
 Oresme immediately raises a central question: Is inflation beneficial for the community? He answers in the negative, arguing that inflation does not make money any more or less useful for exchanges. The economy can function well regardless of the price level, and thus, irrespective of the nominal money supply.
 But if that is the case, another question obviously arises: why do alterations of currency exist? And in particular, why seek to increase the money supply? Oresme responds that these alterations do not have the same consequences for different members of the community. They benefit certain people at the expense of others. The winners of currency alterations have a material interest in implementing them. Generally, these winners are the men in power. Oresme writes:
@@ -855,7 +865,7 @@ Then he adds these details:
 
 > Whatever gain the prince derives from it, it is necessarily at the expense of the community. Now, whatever a prince does at the cost of the community is an injustice and the act, not of a king, but of a tyrant, as Aristotle says (...) If the prince can rightfully make a simple change in the currency and derive some gain from it, he can, for a similar reason, make a greater change and derive more gain (...) Thus, the prince could eventually attract to himself almost all the money or wealth of his subjects and reduce them to servitude, which would be to fully prove tyranny and even a true and perfect tyranny, as it emerges from the philosophers and the stories of the ancients.
 
-Oresme emphasizes that currency alterations are not simply a game of redistribution in favor of power at the expense of the rest of the community. They lead to overall losses — the game is a negative-sum game. A currency that is frequently altered disrupts trade and invites counterfeiters to take advantage of the general confusion.
+Oresme emphasizes that currency alterations are not simply a game of redistribution in favor of power at the expense of the rest of the community. They lead to overall losses: the game is a negative-sum game. A currency that is frequently altered disrupts trade and invites counterfeiters to take advantage of the general confusion.
 
 Moreover, if two different currencies benefit from legal tender, agents will hoard the one that is worth more, so that only the inferior currency remains in circulation. (Oresme here anticipates the famous "Gresham's law": bad money drives out good in a legal tender regime.) He concludes that currency manipulations are worse than usury and that, probably, they were a significant cause of the decline of the Roman Empire, as we have seen previously.
 
@@ -870,6 +880,7 @@ Moreover, if two different currencies benefit from legal tender, agents will hoa
 :::video id=e6a4005f-e732-48df-961a-d701ef4a777f:::
 
 From the Renaissance, Europe was to be ravaged by wars of religion. Tolerance, therefore, became one of the great battles of the Enlightenment.
+
 ![image](assets/en/050.webp)
 
 For some, the scientific method would unify people beyond prejudices with a common view of the world. Isn't universal attraction the same for a Catholic, a Protestant, a Jew, or an atheist? Thus, the Encyclopédie by Diderot and d’Alembert represents an attempt to promote universal knowledge, capable of uniting people.
@@ -910,6 +921,7 @@ In the _Tenth Letter_, "On Commerce", Voltaire describes the French mindset as f
 Yet France was not lacking in great minds. It is little known but Anne Robert Jacques Turgot, Baron de Laulne, was first and foremost a leading thinker before becoming the Controller General of Finances under Louis XVI. He was the author of a masterful treatise on political economy, _Reflections on the Formation and Distribution of Wealth_ (1766), which predates Adam Smith's _The Wealth of Nations_ (1776).
 
 ![image](assets/en/052.webp)
+
 His early writings reflect his commitment to the Enlightenment philosophy. In 1754, he published his _Letters on Civil Tolerance_ and in 1757, several articles written for _The Encyclopédie_ by Diderot and d'Alembert.
 In his letters, Turgot presents a definition of tolerance. To tolerate means to refuse to use violence against error. In other words, tolerance is not the acceptance of error. One can fight against it, but with the weapons of conviction and reason, not with violence.
 
@@ -992,7 +1004,7 @@ In short, if everyone can freely pursue their private interest in respect of nat
 
 :::video id=433b758e-648f-4e13-8aba-3ac7d302f8b4:::
 
-1776 is a year that often goes unnoticed in history textbooks. However, in three countries — France, Scotland, and North America — several events will leave an indelible mark on the history of freedom.
+1776 is a year that often goes unnoticed in history textbooks. However, in three countries (France, Scotland, and North America) several events will leave an indelible mark on the history of freedom.
 
 ### The Disgrace of Turgot
 
@@ -1017,7 +1029,7 @@ It is unnecessary to prove that each individual is the sole judge of the most ad
 
 Here, Turgot largely anticipates the argument of Mises and Hayek on the impossibility of any economic calculation in a socialist economic system.
 
-Dedicating a chapter to "The Brilliance of Turgot," Murray Rothbard, in his economic history from an [Austrian](https://planb.academy/resources/glossary/austrian-school) perspective, emphasizes that "Turgot's influence on subsequent economic thought was seriously restricted (...) by the following myth that Adam Smith was the founder of political economy." And he adds, "It was on the Frenchman J.B. Say, officially a follower of Smith, that Turgot ultimately had the most influence, particularly his theory of utility value."
+Dedicating a chapter to "The Brilliance of Turgot," Murray Rothbard, in his economic history from an Austrian perspective, emphasizes that "Turgot's influence on subsequent economic thought was seriously restricted (...) by the following myth that Adam Smith was the founder of political economy." And he adds, "It was on the Frenchman J.B. Say, officially a follower of Smith, that Turgot ultimately had the most influence, particularly his theory of utility value."
 
 ### The Masterpiece of Condillac
 
@@ -1059,12 +1071,14 @@ Thomas Paine, through his pamphlet, played a crucial role in the American Revolu
 On July 4, 1776, in Philadelphia, where they are gathered in Congress (in English, "Convention"), the representatives of the Thirteen English Colonies of North America adopt a resolution stating that the "United States are, and of right ought to be, free and independent States." The resolution is supported by John Adams, one of the inspirers of the Tea Party, and Benjamin Franklin, a delegate from Massachusetts. Thomas Jefferson, a delegate from Virginia, will draft the Declaration of Independence.
 
 ![image](assets/en/060.webp)
+
 Over the years that followed, the Frenchmen La Fayette, Rochambeau, Admiral de Grasse, Count d'Estaing, General Duportail, Marquis de la Rouerie, Commander Pierre L'Enfant, writer Beaumarchais, and many others fought alongside the Insurgents to free them from the yoke of the King of England.
+
 ![image](assets/en/061.webp)
 
 141 years later, on July 4, 1917, amid World War I, a ceremony was held at the Picpus Cemetery in Paris for the first soldiers of the AEF who had arrived in the city. The ceremony took place near the tomb of La Fayette, the "hero of two worlds." On this occasion, Captain Charles E. Stanton from General Pershing's staff delivered a famous speech:
 
-> I regret that I cannot address the French population in the beautiful language of its loyal country. It cannot be forgotten that your nation was our friend when America fought for its existence, when a handful of brave and patriotic men were determined to defend the rights their Creator had given them -- that France, in the person of Lafayette, came to our aid in words and deeds. It would be ungrateful not to remember this, and America will not fail in its obligations...
+> I regret that I cannot address the French population in the beautiful language of its loyal country. It cannot be forgotten that your nation was our friend when America fought for its existence, when a handful of brave and patriotic men were determined to defend the rights their Creator had given them, that France, in the person of Lafayette, came to our aid in words and deeds. It would be ungrateful not to remember this, and America will not fail in its obligations...
 >
 > Therefore, it is with great pride that we embrace the colors in tribute of respect towards this citizen of your great Republic, and here and now in the shadow of the illustrious dead, we assure him of our heart and our honor to give this war a favorable outcome.
 >
@@ -1108,6 +1122,7 @@ Until the 18th century, the primary political concern for these philosophers was
 ### Popular Sovereignty
 
 The idea was inspired by Locke in the 17th century and then taken up by Rousseau. Sovereign power must not only come from the free will of the people but also reside in it. This is the Rousseauist theory of the sovereignty of the general will, which we refer to as democracy today.
+
 ![image](assets/en/063.webp)
 
 Rousseau conceives of the people as autonomous individuals capable of subjecting themselves to the laws they establish. The free will of the people constitutes the only just foundation of sovereignty. Rousseau would develop this legal humanism, characteristic of Modernity, to its ultimate consequences by conceiving of the people as an individual capable of freely self-determining or as a collective entity, such as a general will. Thus, the contract involves submission to laws that man, as the general will, gives to himself as a particular will. The theory of the general will or the sovereignty of the people thus allows for the reconciliation of freedom and submission. The self-institution of the law or political autonomy has indeed been an essential component of democracy since Rousseau.
@@ -1168,6 +1183,7 @@ By the end of 1791, famine had exacerbated popular unrest in France. Riots paral
 
 The confiscation of Church properties aimed to avert the financial crisis; it was intended to serve as collateral for the Assignats, meaning a massive issuance of paper money.
 Furthermore, as Dupont de Nemours had predicted, the issuance of counterfeit currency only worsened the crisis, causing widespread inflation and a sharp decline in the value of the Assignats. In August 1792, the hunger riots led to the insurrection of Paris, the execution of Louis XVI in January 1793, and ultimately, the Reign of Terror.
+
 ![image](assets/en/068.webp)
 
 In 1795, five years after the first issuance, the paper money had lost 99% of its value. The French Revolution continued under the Directory until 1799, when Napoleon seized power through a coup d'état. He became the First Consul of the French Republic before being crowned Emperor in 1804. This was one of the first glaring contradictions with the Declaration of the Rights of Man, which proclaimed that private property was inviolable.
@@ -1345,6 +1361,7 @@ This political illusion of liberalism is the secular side of the religious illus
 ### Economic Alienation
 
 In fact, according to Marx and historical materialism, economic alienation is at the root of both political and religious alienation. In economic alienation, a result of capitalism (defined as the private ownership of the means of production), the worker is compelled to sell their labor power as a commodity. Moreover, he is deprived of the product of his labor, which the employer owns. He is thus alienated, meaning separated from himself, because his work becomes something foreign to him that he performs out of necessity to survive. Yet, work, for Marx, is the quintessentially human act, the one through which the very essence of man, namely freedom, is realized. This is why the liberation of labor also means restoring humanity to man.
+
 ![image](assets/en/080.webp)
 
 Political revolution is, therefore, an illusion, according to him, as long as it is not accompanied by an economic and social revolution capable of freeing man from capitalist servitude and thus achieving unity between the worker and the citizen, between society and the state, the private sphere and the public sphere. The formal freedom and equality of citizens will thus become a reality in a classless society.
@@ -1369,6 +1386,7 @@ The Austrians argue that society is not divided into two antagonistic classes, b
 
 For example, an employer hires a worker because they need their skills to produce a good or service that consumers desire. The worker, in turn, accepts the job because he needs an income to meet his needs. This relationship is mutually beneficial and not conflictual.
 Ludwig von Mises highlights that Marx failed to distinguish between what pertains to bourgeois ideology in human rights and what they mean in practice, the upheavals they entail in social life. Many critical thinkers of human rights have made the same mistake. This was also the case for counter-revolutionaries, such as Joseph de Maistre or Louis de Bonald.
+
 ![image](assets/en/082.webp)
 
 In _The Ethics of Liberty_ and _Anatomy of the State_, Murray Rothbard explained that exploitation only makes sense as an aggression against private property and that only the State obtains its revenues through aggression, that is, through taxation, debt, printing money, and thus through inflation. In reality, it is state intervention, and not class struggle, that is the source of violence and conflicts in society. The State, by appropriating resources and regulating the economy, creates distortions and injustices that lead to conflicts and repression. Ending exploitation thus requires reducing the powers of the predatory caste: the State.
@@ -1580,7 +1598,7 @@ For Hayek, the past instability of the market economy stems from the fact that t
 
 ![image](assets/en/101.webp)
 
-Hayek believed that a free market of private currencies would lead to greater monetary stability. Nearly 50 years later, a [cryptocurrency](https://planb.academy/resources/glossary/cryptocurrency) like Bitcoin embodies Hayek's competitive vision by offering a decentralized alternative to the monopolistic system of central banks. Bitcoin, with its fixed emission limit of 21 million units, serves as a safeguard against inflation and the arbitrariness of regulators.
+Hayek believed that a free market of private currencies would lead to greater monetary stability. Nearly 50 years later, a cryptocurrency like Bitcoin embodies Hayek's competitive vision by offering a decentralized alternative to the monopolistic system of central banks. Bitcoin, with its fixed emission limit of 21 million units, serves as a safeguard against inflation and the arbitrariness of regulators.
 
 
 ## Conclusion: the power of ideas

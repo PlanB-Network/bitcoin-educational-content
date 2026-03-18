@@ -59,7 +59,7 @@ Ready to embark on this unique philosophical journey on the quest for freedom? L
 
 Why title this course: A History of Freedom? Because we need to understand the relationship between ideas and events to judge our era more effectively and act with discernment. It is in the past that we find the elements for a better understanding of what freedom is and the reasons why we must cherish it.
 
-> When the past no longer illuminates the future, the spirit walks in darkness (Alexis de Tocqueville - _Democracy in America_).
+When the past no longer illuminates the future, the spirit walks in darkness (Alexis de Tocqueville - _Democracy in America_).
 
 ![image](assets/en/001.webp)
 
@@ -128,7 +128,10 @@ When one opens textbooks, Bastiat noted, one learns that humanity would be doome
 In other words, the cultural prejudice dominating Western philosophy as well as historiography is that we owe everything to power: freedom, health, education, security, and prosperity. Humanity is described as "inert matter" that takes shape thanks to the legislator.
 
 But the reality of power is quite different according to Bastiat. Power is oppression. He writes:
-Open the annals of humanity at random! Consult ancient or modern history, sacred or profane, and ask yourself where all these wars of race, class, nations, and families come from! You will always get this unvarying answer: From the thirst for power. ([_Parliamentary Incompatibilities_](http://bastiat.org/fr/incompatibilites_parlementaires.html))
+
+> Open the annals of humanity at random! Consult ancient or modern history, sacred or profane, and ask yourself where all these wars of race, class, nations, and families come from! You will always get this unvarying answer: From the thirst for power.
+>
+> ([_Parliamentary Incompatibilities_](http://bastiat.org/fr/incompatibilites_parlementaires.html))
 
 It is the thirst for power that is at the root of all forms of oppression in history. In a letter to Mrs. Chevreux, dated June 23, 1850, Bastiat outlines the phases of oppression: "Times of struggle, over who will seize the State; and times of truce which will be the ephemeral reign of triumphant oppression, a harbinger of a new struggle." First, the conquest of power through war, then the establishment of a State that subsists by plundering the wealth of its citizens.
 
@@ -166,8 +169,14 @@ Historically, **ruling elites have always lived off plunder.** Bastiat notes:
 > Force applied to plunder is the basis of human annals. To trace its history would be to reproduce almost entirely the history of all peoples: Assyrians, Babylonians, Medes, Persians, Egyptians, Greeks, Romans, Goths, Franks, Huns, Turks, Arabs, Mongols, Tartars, not to mention the Spaniards in America, the English in India, the French in Africa, the Russians in Asia, etc.
 >
 > ([_Economic Sophisms_](http://bastiat.org/fr/conclusion_sophismes.html), Conclusion of the first volume).
-> Plunder, in its most brutal form, armed with torch and sword, fills the annals of human history. What are the names that summarize history? Cyrus, Sesostris, Alexander, Scipio, Caesar, Attila, Tamerlan, Muhammad, Pizarro, William the Conqueror; this is naive plunder through conquests. To it belong the laurels, monuments, statues, and triumphal arches. ([_Economic Harmonies_](http://bastiat.org/fr/conclusion_eo_harmonies.html), conclusion of the original edition).
-> The history of the world is the history of how one group of people plundered others, often systematically, through war, slavery, and theocracy. Nowadays, it is the monopoly, that is, economic privileges distributed by the State to its clients.
+
+Or again:
+
+> Plunder, in its most brutal form, armed with torch and sword, fills the annals of human history. What are the names that summarize history? Cyrus, Sesostris, Alexander, Scipio, Caesar, Attila, Tamerlan, Muhammad, Pizarro, William the Conqueror; this is naive plunder through conquests. To it belong the laurels, monuments, statues, and triumphal arches.
+>
+> ([_Economic Harmonies_](http://bastiat.org/fr/conclusion_eo_harmonies.html), conclusion of the original edition).
+
+The history of the world is the history of how one group of people plundered others, often systematically, through war, slavery, and theocracy. Nowadays, it is the monopoly, that is, economic privileges distributed by the State to its clients.
 
 A few days before he died in Rome in 1850, Bastiat confided to his friend Prosper Paillottet:
 
@@ -203,8 +212,10 @@ His central thesis is that **"liberty is established by the conflict of powers."
 > By liberty, I mean the assurance that every man will be protected, when he does what he believes to be his duty, against the influence of authority and majorities, of custom and opinion. The State is competent to set duties and to distinguish between good and evil only in its immediate sphere.
 >
 > (Lord Acton)
-> In other words, freedom is the right for individuals to follow their conscience, and it is not the state's role to dictate a person's conduct in philosophical, moral, and religious matters.
-> Friedrich Hayek had initially considered naming the Mont Pelerin Society the "Acton-Tocqueville Society," in tribute to two thinkers he deeply admired: Lord Acton and Alexis de Tocqueville. Ultimately, it was the name of the location where the Society's first meeting was held, Mont Pelerin in Switzerland, that was chosen.
+
+In other words, freedom is the right for individuals to follow their conscience, and it is not the state's role to dictate a person's conduct in philosophical, moral, and religious matters.
+
+Friedrich Hayek had initially considered naming the Mont Pelerin Society the "Acton-Tocqueville Society," in tribute to two thinkers he deeply admired: Lord Acton and Alexis de Tocqueville. Ultimately, it was the name of the location where the Society's first meeting was held, Mont Pelerin in Switzerland, that was chosen.
 
 ### Voltaire and Condorcet
 
@@ -259,7 +270,9 @@ Let's read an excerpt from _Human Action_:
 Mises adds that the improvement of the human condition was thus made possible by the accumulation of capital:
 
 > The radical change in situation that has conferred upon the Western masses the present standard of living (a high standard of living indeed, compared to what it was in pre-capitalist times, and to what it is in Soviet Russia) was the effect of capital accumulation through saving and wise investment by far-sighted entrepreneurs. No technological improvement would have been achievable if the additional material capital required for the practical use of new inventions had not been made feasible by saving beforehand.
-> Regarding Marxist historiography, we can also refer to Friedrich Hayek in _Capitalism and the Historians_ (University of Chicago Press, 1954) and his chapter titled "History and Politics". According to Hayek, it was not industrialization that made workers miserable, as the dark legend of capitalism propagated by Marxism claims. He notes:
+
+Regarding Marxist historiography, we can also refer to Friedrich Hayek in _Capitalism and the Historians_ (University of Chicago Press, 1954) and his chapter titled "History and Politics". According to Hayek, it was not industrialization that made workers miserable, as the dark legend of capitalism propagated by Marxism claims. He notes:
+
 > The real history of the connection between capitalism and the rise of the proletariat is almost the opposite of what these theories of the expropriation of the masses suggest.
 
 Before the Industrial Revolution, most people lived in rural societies and depended on agriculture for their survival. They had little to sell in the market, which limited their opportunities and their standard of living. Everyone expected to live in absolute poverty and envisioned a similar fate for their descendants. No one was outraged by a situation that seemed to be inevitable.
@@ -334,9 +347,10 @@ According to Rothbard, **history is not a linear process, but rather an oscillat
 Between the 17th and 19th centuries, in many Western countries, there were periods of accelerated social progress and a corresponding increase in freedom, peace, and material well-being. But Rothbard reminds us that the 20th century was marked by a resurgence of State power, with dire consequences: an increase in slavery, war, and destruction.
 
 > During this century, the human race faces, once again, the virulent reign of the State; the State now armed with the creative power of man, confiscated and perverted for its ends.
-> What is a free society, after all? It's a society without a monopoly. In his work of political philosophy, _Ethics of Liberty_ (1982), Rothbard answers: "a society in which there is no legal possibility of coercive aggression against the person or property of any individual." This is why, according to him, political philosophy, which must define the principles of a just society, boils down to one single question: "Who legitimately owns what?"
 
-> ![image](assets/en/019.webp)
+What is a free society, after all? It's a society without a monopoly. In his work of political philosophy, _Ethics of Liberty_ (1982), Rothbard answers: "a society in which there is no legal possibility of coercive aggression against the person or property of any individual." This is why, according to him, political philosophy, which must define the principles of a just society, boils down to one single question: "Who legitimately owns what?"
+
+![image](assets/en/019.webp)
 
 For Rothbard, social order can prevail if it is the product of the generalization of contractual procedures for the free exchange of property rights, achieved by privatizing all economic activities and even sovereign functions (such as central banks and courts), and by resorting to competition among protection agencies.
 
@@ -382,7 +396,7 @@ This novelty is based on the fundamental distinction between two terms in the Gr
 
 - _Phusis_ is the law of nature (which gives the word "physics" in French).
 - _Nomos_ is human law (a term found in the word "autonomy," which means "to obey one's law").
-  The City emerges with the idea that the law (nomos) is of human origin, that it can be freely modified by humans, unlike nature, and can apply to all. The Greeks then became aware of the autonomy of the social and political order in relation to the natural order.
+  The City emerges with the idea that **the law (nomos) is of human origin**, that it can be freely modified by humans, unlike nature, and can apply to all. The Greeks then became aware of the autonomy of the social and political order in relation to the natural order.
   This marks the appearance of politics: the ongoing discussion about the very rules of social life. From now on, problems will be resolved through concerted action, rather than by an immutable, sacred order.
 
 And Jean-Pierre Vernant adds:
@@ -395,7 +409,7 @@ The intentional action of the gods does not produce social harmony, but rather b
 
 ![image](assets/en/023.webp)
 
-For Aristotle, tyranny is obedience to a man, and freedom is obedience to the law. He is credited with this quote:
+For Aristotle, **tyranny is obedience to a man, and freedom is obedience to the law**. He is credited with this quote:
 
 > To desire the rule of law is to expect the exclusive reign of reason. To choose instead the rule of a man is to add that of a wild beast, for desire and anger distort the judgment of rulers, even if they are the best of men.
 
@@ -417,9 +431,10 @@ It can be said that the Greeks invented the concept of political freedom as a co
 Herodotus, in his _Historia_, and Aeschylus, in his tragedy _The Persians_, brilliantly illustrate the contrast between the absolute and tyrannical monarchy of Xerxes and the spirit of freedom among the Greeks. These people, characterized by the absence of masters and the refusal to submit to slavery by barbarians, no matter how numerous, find their strength in the law, the "nomos," their true master that guarantees their freedom. And this law emanates from the will of all.
 
 According to Jacqueline de Romilly:
-The Greeks themselves have measured this originality and became aware of it at the beginning of the 5th century, in the shock that opposed them to the Persian invaders. And the first fact that struck them was that there was a political difference between them and their adversaries, which commanded everything else. The Persians obeyed an absolute sovereign, who was their master, whom they feared, and before whom they prostrated themselves; these practices were not common in Greece. There is an astonishing dialogue in Herodotus, which opposes Xerxes to a former king of Sparta. This king announces to Xerxes that the Greeks will not yield because Greece always fights against enslavement to a master. It will fight, no matter the number of its adversaries. For, if the Greeks are free, "they are not free in everything: they have a master, the law, which they fear even more than your subjects fear you."
 
-(_Ancient Greece at the Discovery of Freedom, Paris, Editions de Fallois, 1989_)
+> The Greeks themselves have measured this originality and became aware of it at the beginning of the 5th century, in the shock that opposed them to the Persian invaders. And the first fact that struck them was that there was a political difference between them and their adversaries, which commanded everything else. The Persians obeyed an absolute sovereign, who was their master, whom they feared, and before whom they prostrated themselves; these practices were not common in Greece. There is an astonishing dialogue in Herodotus, which opposes Xerxes to a former king of Sparta. This king announces to Xerxes that the Greeks will not yield because Greece always fights against enslavement to a master. It will fight, no matter the number of its adversaries. For, if the Greeks are free, "they are not free in everything: they have a master, the law, which they fear even more than your subjects fear you."
+>
+> (_Ancient Greece at the Discovery of Freedom, Paris, Editions de Fallois, 1989_)
 
 ![image](assets/en/025.webp)
 
@@ -431,10 +446,11 @@ Moving away from mythological thought, Thales, Anaximander, Anaximenes, and late
 
 ![image](assets/en/026.webp)
 
-The fundamental principle posited by these early Pre-Socratic philosophers is that the elements of the kosmos (the universe) hold in place because they are all equally subject to the same "law of nature" (phusis) that can be stated universally and necessarily. The universe is rational; it constitutes a structured whole, which man can discover with his reason (the "logos" as opposed to the "mutos", the myth).
+The fundamental principle posited by these early Pre-Socratic philosophers is that the elements of the kosmos (the universe) hold in place because they are **all equally subject to the same "law of nature"** (phusis) that can be stated universally and necessarily. The universe is rational; it constitutes a structured whole, which man can discover with his reason (the "logos" as opposed to the "mutos", the myth).
 
 According to Karl Popper, we owe the invention of critical rationalism, the Western tradition of critical discussion, and the source of scientific thought and pluralism to the philosophers of ancient Greece, particularly the Pre-Socratics. He explains this in a chapter of _Conjectures and Refutations_ titled "Return to the Pre-Socratics":
-Regarding the first signs of the existence of a critical attitude, of a new freedom of thought, they appear in Anaximander's critique of Thales. This is quite a singular phenomenon; the thinker whom Anaximander criticises is his master, his compatriot, one of the Seven Sages, the one who founded the Ionian School. According to tradition, Anaximander was only fourteen years younger than Thales, and he likely formulated his critiques and presented his new concepts during his master's lifetime, as they died, it seems, a few years apart. However, no evidence of dissent, quarrel, or schism is found in the sources.
+
+> Regarding the first signs of the existence of a critical attitude, of a new freedom of thought, they appear in Anaximander's critique of Thales. This is quite a singular phenomenon; the thinker whom Anaximander criticises is his master, his compatriot, one of the Seven Sages, the one who founded the Ionian School. According to tradition, Anaximander was only fourteen years younger than Thales, and he likely formulated his critiques and presented his new concepts during his master's lifetime, as they died, it seems, a few years apart. However, no evidence of dissent, quarrel, or schism is found in the sources.
 
 ![image](assets/en/027.webp)
 
@@ -514,7 +530,8 @@ That's why the wise man does not reject the gifts of fortune:
 > He does not love riches, he prefers them; he does not welcome them into his heart, but into his house; he does not reject what he possesses, he dominates them and wants them to provide his virtue with ample matter.
 
 Seneca goes even further. For the wise man, riches are the occasion and the means to exercise virtue:
-In poverty [...] there is only one kind of virtue: not to falter or let oneself be depressed; amidst wealth, temperance, generosity, discernment, economy, and magnificence have free rein.
+
+> In poverty [...] there is only one kind of virtue: not to falter or let oneself be depressed; amidst wealth, temperance, generosity, discernment, economy, and magnificence have free rein.
 
 ### The Concept of a Higher Law
 
@@ -524,7 +541,7 @@ This idea reminds us that the Prince (just like political leaders) does not poss
 
 This is what philosophers of Antiquity, especially the Romans like Cicero or the Stoics, called natural law. Its origins can be traced back to Greek thought, particularly in the works of Sophocles and Aristotle.
 
-Aristotle distinguishes between natural justice and legal justice. Natural justice is what is universally valid, in every place and at all times. It is an unwritten law, known through reason and logic. Legal justice is inherently indifferent, but becomes mandatory for everyone as a result of a conventional choice and is codified in a legal text. In other words, a distinction is made between natural law and positive law.
+Aristotle distinguishes between natural justice and legal justice. **Natural justice is what is universally valid, in every place and at all times.** It is an unwritten law, known through reason and logic. Legal justice is inherently indifferent, but becomes mandatory for everyone as a result of a conventional choice and is codified in a legal text. In other words, a distinction is made between natural law and positive law.
 
 The playwright Sophocles, in his play _Antigone_, stages a conflict between divine law and human law. Antigone refuses to obey King Creon's decree, which forbids the burial of her brother, arguing that divine laws, being immutable and superior, take precedence over human laws.
 
@@ -581,7 +598,7 @@ Gladiator fights, chariot races, and theatrical performances, often free, attrac
 Under the reign of Emperor Antoninus Pius (138-161), the Roman bureaucracy reached enormous proportions.
 However, as tax revenues were insufficient to fund the administration and garrisons, emperors began to issue more and more currency by reducing the amount of silver in each coin. The Denarius, the main currency of Rome, saw its silver content drop from 100% to 0.5% between 235 and 284 AD. With the devaluation of the currency, prices increased uncontrollably, resulting in a decline in consumption, trade, and confidence.
 
-The fall of the Roman Empire was a slow process, directly linked to the bankruptcy of a corrupt monetary system. The ensuing hyperinflation led to the collapse of the economy, resulting in widespread loss of confidence in the currency among the people.
+The fall of the Roman Empire was a slow process, **directly linked to the bankruptcy of a corrupt monetary system**. The ensuing hyperinflation led to the collapse of the economy, resulting in widespread loss of confidence in the currency among the people.
 
 Then, political instability was added to the economic instability, with more than 50 different emperors on the throne in a span of 50 years.
 
@@ -594,8 +611,10 @@ A classic example of interventionism emerged in Rome when Emperor Diocletian wan
 The repeated monetary emissions by successive emperors to cope with the increase in military expenditures had caused a surge in prices. In 301, Diocletian proclaimed the Edict of Maximum in an attempt to cap them. It was a failure.
 
 Ludwig von Mises describes this episode, which well illustrates the harmful effects of interventionism:
-Roman Emperor Diocletian is well-known for having been the last Roman emperor to persecute Christians. Roman emperors, in the latter part of the third century, had only one financial method: to debase the currency. In these primitive times, before the invention of the printing press, inflation itself was, so to speak, a primitive concept. It involved fraud in the minting of coins, especially silver, until the color of the alloy was changed and the weight was significantly reduced. The result of this debasement of the currencies, coupled with the corresponding increase in circulation, was a rise in prices, followed by a price control edict. And the Roman emperors did not hold back in enforcing the laws; they did not consider death too severe a penalty for a man who had asked for too high a price. They enforced price controls, but as a consequence, they brought down society. This eventually led to the disintegration of the Roman Empire and the breakdown of the division of labor.
-([Economic Policy, Reflections for Today and Tomorrow](http://herve.dequengo.free.fr/Mises/PE/PE_3.htm))
+
+> Roman Emperor Diocletian is well-known for having been the last Roman emperor to persecute Christians. Roman emperors, in the latter part of the third century, had only one financial method: to debase the currency. In these primitive times, before the invention of the printing press, inflation itself was, so to speak, a primitive concept. It involved fraud in the minting of coins, especially silver, until the color of the alloy was changed and the weight was significantly reduced. The result of this debasement of the currencies, coupled with the corresponding increase in circulation, was a rise in prices, followed by a price control edict. And the Roman emperors did not hold back in enforcing the laws; they did not consider death too severe a penalty for a man who had asked for too high a price. They enforced price controls, but as a consequence, they brought down society. This eventually led to the disintegration of the Roman Empire and the breakdown of the division of labor.
+>
+> ([Economic Policy, Reflections for Today and Tomorrow](http://herve.dequengo.free.fr/Mises/PE/PE_3.htm))
 
 ### From Liberalism to Socialism
 
@@ -612,7 +631,7 @@ Socialism: the organization by the State of society considered as a whole, throu
 The thesis of Philippe Fabry's book is that "the fall of the Roman Empire is the consequence of the deadlock into which imperial socialism had led the ancient world." It was the dirigisme of the Roman imperial state that led to its collapse.
 The Roman Republic, the greatest liberal power of the ancient world, lasted from 510 BC to 27 BC, spanning over 500 years. However, gradually, the civic collegiality that characterized the Roman Republic gave way to personal power, embodied by emperors who adopted the style of government of the Oriental potentates of ancient Egypt and Persia. Breaking with a previously moderate foreign policy, Rome suddenly subdued vast populations through war, providing streams of slaves to wealthy Roman investors, and ruining the middle classes. In return, the Roman population demanded increasing subsidies.
 
-In the early days of its greatness, each Roman considered himself the main source of his income. What he could voluntarily acquire in the market was the source of his livelihood. Rome's decline began when a large number of citizens discovered another source of income: the political process or the redistributive state.
+In the early days of its greatness, each Roman considered himself the main source of his income. What he could voluntarily acquire in the market was the source of his livelihood. Rome's decline began when **a large number of citizens discovered another source of income: the political process** or the redistributive state.
 
 Romans then abandoned freedom and personal responsibility in exchange for promises of privileges and wealth distributed directly by the government. Citizens adopted the idea that it was more advantageous to obtain income through political means rather than through labor.
 
@@ -649,7 +668,7 @@ If God wanted man to be able to do wrong, isn't He then indirectly responsible f
 
 > The free will without which no one can live well, you must recognise that it is a good, and that it is a gift from God, and that those who misuse this good should be condemned rather than saying of the one who gave it that he should not have given it.
 
-Saint Augustine's response to the problem is that God is responsible for the possibility of evil, but not for its actualization. He wants the possibility of evil because this possibility is necessary for freedom, without which there is no responsibility, that is, no access to the dignity of moral life.
+Saint Augustine's response to the problem is that God is responsible for the possibility of evil, but not for its actualization. He wants the possibility of evil because **this possibility is necessary for freedom, without which there is no responsibility**, that is, no access to the dignity of moral life.
 
 But the realization of moral evil is the work of man, who makes bad use of his freedom, and not of God, who wants man to choose the good.
 
@@ -682,7 +701,8 @@ However, this inner light is not enough to act well. The development of concrete
 According to Saint Thomas:
 
 > Through the knowledge of natural law, man directly accesses the common order of reason, before and above the political order to which he belongs as a citizen of a particular society.
-> Therefore, there exists a right before the formation of the State, a set of general principles that reason can articulate by studying the nature of man as God created it. This right imposes itself on the monarch, on power, which must then respect it. And the laws enacted by political authority are binding only insofar as they conform to natural law.
+
+Therefore, there exists a right before the formation of the State, a set of general principles that reason can articulate by studying the nature of man as God created it. This right imposes itself on the monarch, on power, which must then respect it. And the laws enacted by political authority are binding only insofar as they conform to natural law.
 
 ## Reason and faith: an open competition
 
@@ -707,7 +727,7 @@ Mysticism consists of excluding reason from faith. Faith is absolute, beyond rea
 In Islam, it is also said that one should not represent God or give Him an image. In the Christian world, a mystic like Meister Eckhart notably wrote in a Sermon: "All things have a why, but God has no why." For mystics, the only valid philosophy is that which comes directly from Revelation. Anything that does not come from it is neither true nor false but devoid of any truth value.
 The direct opposite of this thought is the one that states that only reason is right, and that all faith is nonsensical. This is absolute rationalism, which leads to atheism. However, such a current did not yet emerge in the Middle Ages.
 
-For proponents of religious rationalism, there is a complementarity between reason and faith, representing the middle position. The truth can be known both by faith and by reason. And so, what is true in faith must also be true in reason, and vice versa. The truth is one, but it is accessible in two ways. Therefore, two sciences cannot contradict each other but complement one another: natural science or philosophy and sacred science or theology. If this is not the case, if a contradiction appears between reason and faith, it is either that one reasons poorly or that one misinterprets the Scriptures.
+For proponents of religious rationalism, there is a complementarity between reason and faith, representing the middle position. **The truth can be known both by faith and by reason.** And so, what is true in faith must also be true in reason, and vice versa. The truth is one, but it is accessible in two ways. Therefore, two sciences cannot contradict each other but complement one another: natural science or philosophy and sacred science or theology. If this is not the case, if a contradiction appears between reason and faith, it is either that one reasons poorly or that one misinterprets the Scriptures.
 
 Thus, for Thomas Aquinas, "Faith is the assent of reason moved by the will in the absence of evidence." In other words, reason is capable of apprehending the world and God, rationally, up to a certain point. At this point, it encounters no more evidence. The will can then choose to believe, and thus go further towards the truth by faith, or not to believe. But faith is not a leap into the absurd. It is not a humiliation of reason.
 
@@ -738,7 +758,8 @@ This is why a politico-religious unanimity characterizes medieval societies. Pol
 ### Saint Augustine and the Theocratic Temptation
 
 The question of the relationship between politics and religion took shape with Saint Augustine's work _Civitas Dei_ (_The City of God_). In it, he explains that two spheres coexist:
-Two loves have thus made two cities: the love of self to the contempt of God, the earthly city; the love of God, to the contempt of self, the heavenly city.
+
+> Two loves have thus made two cities: the love of self to the contempt of God, the earthly city; the love of God, to the contempt of self, the heavenly city.
 
 ![image](assets/en/042.webp)
 
@@ -779,7 +800,7 @@ This is why biblical ethics change our relationship to evil. It brings a sharp a
 
 Symmetrical ethics is about establishing strict equality in human relationships or strict reciprocity. It appears in the virtue of justice, the supreme virtue for the Greeks. Justice is giving to others what is owed to them: to each their own. Perceiving time as cyclical leads to a sense of not being responsible for the evil done by others. There is evil on Earth, but it has always existed and will always exist. This must be chalked up to the profit and loss account, and the sum of it is constant. There is nothing to be done, it will always be so, this is Greek and Roman fatalism.
 
-Biblical ethics are asymmetrical, meaning that one must give more than what is owed. Everyone feels responsible for evil, even for that which they have not committed: ethics of giving, ethics of forgiveness, ethics of compassion. One cannot remain indifferent to the suffering of others and must not tolerate gratuitous suffering, even when it does not come from us. The tranquillity of the Stoic sage who accepts fate becomes impossible. This is the meaning of the parable of the Good Samaritan. Nothing obliges him to stop and take care of a man wounded by bandits. From the ethical revolution brought by the Bible, all of humanity becomes a sort of Good Samaritan. It is invited not to tolerate the evil done to others and to fight against it.
+**Biblical ethics are asymmetrical, meaning that one must give more than what is owed.** Everyone feels responsible for evil, even for that which they have not committed: ethics of giving, ethics of forgiveness, ethics of compassion. One cannot remain indifferent to the suffering of others and must not tolerate gratuitous suffering, even when it does not come from us. The tranquillity of the Stoic sage who accepts fate becomes impossible. This is the meaning of the parable of the Good Samaritan. Nothing obliges him to stop and take care of a man wounded by bandits. From the ethical revolution brought by the Bible, all of humanity becomes a sort of Good Samaritan. It is invited not to tolerate the evil done to others and to fight against it.
 Moreover, since God is the creator, we see the emergence of a new concept: the equality of all before God. There are no privileged individuals in the face of the transcendent immensity of God, and all men are equal.
 
 ### The Rights of the Indians
@@ -799,7 +820,7 @@ The scholars of Salamanca applied this reasoning to the case of the Indigenous p
 
 ![image](assets/en/045.webp)
 
-The matter of the Indigenous peoples was the first crack in the politico-religious monolith. It showed that the unity of the political society could rest on a basis other than the religious unity of the inhabitants of the same territory, based on a common bond rooted in human nature.
+The matter of the Indigenous peoples was the first crack in the politico-religious monolith. It showed that **the unity of political society could rest on a basis other than religious unity**, based on a common bond rooted in human nature.
 
 The idea of humanity progresses. It effectively came to be considered that there is only one humanity to which equal rights are naturally linked. But it will still take time for it to be accepted by all. This will notably require the contribution of the natural sciences to the concept of the human species.
 
@@ -857,7 +878,7 @@ The systematic study of economic laws began in the High Middle Ages. The first e
 At the heart of his monetary analysis lies the problem of "mutations" of money, that is, alterations in the metallic content of coins and their denomination. These alterations have occurred since the dawn of time and are well documented for Antiquity and the Middle Ages. Their most visible effect is to change the purchasing power of the monetary unit, especially to decrease it. This is a primitive form of inflation that Oresme clearly condemns as an evil.
 
 Oresme immediately raises a central question: Is inflation beneficial for the community? He answers in the negative, arguing that inflation does not make money any more or less useful for exchanges. The economy can function well regardless of the price level, and thus, irrespective of the nominal money supply.
-But if that is the case, another question obviously arises: why do alterations of currency exist? And in particular, why seek to increase the money supply? Oresme responds that these alterations do not have the same consequences for different members of the community. They benefit certain people at the expense of others. The winners of currency alterations have a material interest in implementing them. Generally, these winners are the men in power. Oresme writes:
+But if that is the case, another question obviously arises: why do alterations of currency exist? And in particular, why seek to increase the money supply? Oresme responds that **these alterations do not have the same consequences for different members of the community**. They benefit certain people at the expense of others. The winners of currency alterations have a material interest in implementing them. Generally, these winners are the men in power. Oresme writes:
 
 > The primary and ultimate reason why the prince wants to seize the power to change currencies is the gain or profit he can derive from it, for otherwise, it is without reason that he would make so many and such considerable mutations.
 
@@ -905,7 +926,7 @@ Three points are to be considered according to Voltaire:
 2. Luxury and commerce are guarantees of freedoms.
 3. Finally, commerce is beneficial because it fosters civilized and thus peaceful relations among people.
 
-The more commerce is valued, the more prejudices fade in the face of economic interests. Despite their confessional differences, men who trade all have the same object at the center of their concerns: profit. The common pursuit of profit leads to cooperation and respect for the opinions of others, especially their religious beliefs.
+The more commerce is valued, **the more prejudices fade in the face of economic interests**. Despite their confessional differences, men who trade all have the same object at the center of their concerns: profit. The common pursuit of profit leads to cooperation and respect for the opinions of others, especially their religious beliefs.
 In the _Sixth Letter_, _"On the Presbyterians"_, Voltaire provides the example of the London Stock Exchange. In this pinnacle of international commerce, "the Jew, the Muslim, and the Christian" do business together, "as if they were of the same Religion". They reserve "the name of infidels only for those who go bankrupt".
 
 The passage is worth quoting in its entirety because it is so famous:
@@ -964,7 +985,7 @@ This phrase appeared when Jean-Baptiste Colbert, the principal advisor to Louis 
 
 The phrase was adopted by the Physiocrats, François Quesnay, the Marquis d'Argenson, and then by Vincent de Gournay: "Laissez-faire, laissez passer." It became their motto.
 
-Referring to natural law (the term originates from _phusis_, meaning nature, and _cratos_, meaning power or rule), the physiocrats believed that there are economic laws that do not depend on political or religious power, but rather on the very nature of humans and society. The economic order is the natural order of societies. Political power must submit to it.
+Referring to natural law (the term originates from _phusis_, meaning nature, and _cratos_, meaning power or rule), the physiocrats believed that **there are economic laws that do not depend on political or religious power**, but rather on the very nature of humans and society. The economic order is the natural order of societies. Political power must submit to it.
 The Physiocrats sought to demonstrate that mercantilism, the prevailing economic policy in France as well as in England, was not only inefficient but also immoral. Colbert was one of the first modern statists. He was convinced that governmental regulation could generate national prosperity. The State acted as banker, merchant, and provider. It controlled the currency, directed trade, and redistributed wealth.
 According to Colbert, the goal was to increase wealth by encouraging industry. He also added, "France can only enrich itself at the expense of England and Holland."
 
@@ -1024,7 +1045,7 @@ However, he mainly encountered the wrath of the nobles, who attempted to defend 
 
 Turgot's major work, _Reflections on the Formation and Distribution of Wealth_ (1766), owes much to the doctrine of the Physiocrats. Turgot revisits and extends the free-market model proposed by Quesnay and, before him, by Boisguilbert against the mercantilists. But his ideas are at least equally influenced by his friend Jacques Vincent de Gournay, appointed intendant of commerce in 1751. Turgot traveled with him throughout the country during his inspection tours.
 
-Turgot is an apostle of natural law, which he also refers to as the "system of liberty." He often emphasizes that competition in a free market naturally regulates prices and prevents abuses. Moreover, he makes the merchant the cornerstone of the market mechanism. Indeed, state agents are less motivated and, in particular, less well-informed than merchants. Therefore, it is more efficient to leave commerce in the hands of private interests.
+Turgot is an apostle of natural law, which he also refers to as the "system of liberty." He often emphasizes that competition in a free market naturally regulates prices and prevents abuses. Moreover, he makes **the merchant the cornerstone of the market mechanism**. Indeed, state agents are less motivated and, in particular, less well-informed than merchants. Therefore, it is more efficient to leave commerce in the hands of private interests.
 It is unnecessary to prove that each individual is the sole judge of the most advantageous use of their mind and arms. They alone possess the local knowledge without which the most enlightened man can only reason blindly. They alone have an experience that is all the more reliable, as it is limited to a single object. They learn through their repeated trials, their successes, and their losses, and acquire a tact whose finesse, sharpened by the feeling of need, far surpasses all the theory of the indifferent speculator. (_Praise of Vincent de Gournay_).
 
 Here, Turgot largely anticipates the argument of Mises and Hayek on the impossibility of any economic calculation in a socialist economic system.
@@ -1041,7 +1062,7 @@ _Commerce and Government_ contains what would later be called a theory of the su
 
 > The value of things, he writes, is based on their utility, or, which amounts to the same thing, on the need we have for them; or, which again amounts to the same thing, on the use we can make of them. And he adds: "A thing does not have value because it costs, as is supposed; but it costs, because it has a value.
 
-Thus, value does not reside inside the thing in the form of a quantity of labor that would have had to be produced (the labor value thesis that would be that of Adam Smith and Ricardo) but outside the thing, in other words, in the intensity of the desire that the buyer experiences.
+Thus, value does not reside inside the thing in the form of a quantity of labor that would have had to be produced (the labor value thesis that would be that of Adam Smith and Ricardo) but outside the thing, in other words, **in the intensity of the desire that the buyer experiences**.
 It is also a treatise on philosophy in that it demonstrates how free and voluntary exchange is a tool of emancipation more just than state intervention because it is egalitarian and anti-hierarchical. It is capable of establishing mature and responsible citizens and is the answer to the tyrannical drifts of the Ancien Régime. Indeed, if the market can regulate the excesses of individualism, nothing can regulate the abuses of central power. This is why Condillac invites the power to free commerce from any hindrance and to renounce any intervention in the economic sphere.
 
 ### A Manifesto for Freedom in America
@@ -1095,7 +1116,10 @@ Adam Smith published in 1776 _An Inquiry into the Nature and Causes of the Wealt
 In reality, Smith owed much to the economists Quesnay and Turgot, whom he met during a nearly year-long journey in France. In this book, he notably describes a "simple system of natural liberty" in which individuals, pursuing their interests, are led "by an invisible hand" to promote the overall well-being of society.
 
 Here is the most famous passage:
-By favoring the success of the national industry over that of foreign industries, he only thinks of giving himself greater security; and by directing this industry so that its product is of the highest possible value, he only thinks of his gain; in this, as in many other cases, he is led by an invisible hand to achieve an end that is not at all part of his intentions. It is not always the worst thing for society that this end is not part of his intentions. (_The Wealth of Nations_)
+
+> By favoring the success of the national industry over that of foreign industries, he only thinks of giving himself greater security; and by directing this industry so that its product is of the highest possible value, he only thinks of his gain; in this, as in many other cases, he is led by an invisible hand to achieve an end that is not at all part of his intentions. It is not always the worst thing for society that this end is not part of his intentions.
+>
+> (_The Wealth of Nations_)
 
 This famous invisible hand illustrates the idea that free competition in a free market leads to an efficient allocation of resources and a maximization of general well-being.
 
@@ -1135,14 +1159,15 @@ One of the Enlightenment philosophers whose influence was very strong in France 
 
 ![image](assets/en/064.webp)
 
-All previous systems had considered that freedoms are only privileges granted by power, granted under an authorization that can be revoked at any time. For Locke, a man's life is his own under a natural right (meaning: under a moral principle inherent in human nature) and that the only moral purpose of a government is the protection of individual rights.
+All previous systems had considered that freedoms are only privileges granted by power, granted under an authorization that can be revoked at any time. For Locke, a man's life is his own under a natural right (meaning: under a moral principle inherent in human nature) and that **the only moral purpose of a government is the protection of individual rights**.
 
 Locke assigns to the state the mission of defending individual property, meaning "life, liberty, and estate":
 
 > The great and chief end, therefore, which men unite into commonwealths, and put themselves under government, is the preservation of their property. (Two Treatises of Government, § 87).
 
 Thomas Jefferson inscribed Locke's theory of inalienable rights in the Declaration of Independence:
-We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable rights, among these, life, liberty, and the pursuit of happiness.
+
+> We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable rights, among these, life, liberty, and the pursuit of happiness.
 
 ![image](assets/en/065.webp)
 
@@ -1163,7 +1188,8 @@ Firstly, in defining the republic. The French Republic is one and indivisible. T
 He also argues that America's faith in a higher law played a decisive role. The Declaration of Independence proclaims all men are created equal, that they are endowed with certain inalienable rights (life, liberty, property, and the pursuit of happiness) and that the purpose of a government is solely to secure these rights. It was about restoring principles and ideals that were trampled underfoot by the British crown.
 
 The First Amendment of the American Constitution, drafted in 1789, states:
-Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.
+
+> Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.
 
 This formulation explicitly protects against the tyranny of the majority. However, the French Revolution was quite different. The French sought to break completely with the past. The age-old principles of the Christian heritage no longer met the expectations of revolutionaries like Robespierre.
 
@@ -1192,7 +1218,7 @@ In 1795, five years after the first issuance, the paper money had lost 99% of it
 
 In America, there was no economic dirigisme, nor a monetary bankruptcy like that of the Assignats. And above all, there were no proscriptions, no mass emigrations, no guillotine, no massacres, and no Reign of Terror. Immediately, one can see the difference in the means of action that separates the American Revolution from the French Revolution.
 
-With Rousseau and Robespierre, the French sought to believe that the Nation or the general will had unlimited power and justified all actions. From the fact that the people governed, it was concluded that they had all rights. There was clearly a contradiction between the great principles of the Revolution and the means employed to make them triumph.
+With Rousseau and Robespierre, the French sought to believe that **the Nation or the general will had unlimited power** and justified all actions. From the fact that the people governed, it was concluded that they had all rights. There was clearly a contradiction between the great principles of the Revolution and the means employed to make them triumph.
 
 This is, moreover, the meaning of the remark by Friedrich Hayek in his book _The Constitution of Liberty_:
 
@@ -1228,7 +1254,7 @@ This definition of freedom is found in John Stuart Mill:
 
 ![image](assets/en/072.webp)
 
-Mill outlines the limits of state sovereignty: it stops where the sovereignty of the individual begins. If an individual action has no harmful consequences for others, then the individual is completely free to perform it. The State must regulate interindividual relations, but it cannot go further by interfering in the private lives of individuals. If the individual harms themselves, the State can do nothing but "remonstrate" or try to "reason" or "persuade" them: it cannot coerce or punish. For Mill adds: "The only legitimate reason for which a state may use force against one of its members, against their will, is to prevent harm from being done to others."
+Mill outlines the limits of state sovereignty: it stops where the sovereignty of the individual begins. If an individual action has no harmful consequences for others, then **the individual is completely free to perform it.** The State must regulate interindividual relations, but it cannot go further by interfering in the private lives of individuals. If the individual harms themselves, the State can do nothing but "remonstrate" or try to "reason" or "persuade" them: it cannot coerce or punish. For Mill adds: "The only legitimate reason for which a state may use force against one of its members, against their will, is to prevent harm from being done to others."
 
 ![image](assets/en/073.webp)
 
@@ -1244,7 +1270,7 @@ Indeed, in his _Principles of Politics_, Benjamin Constant asserts:
 
 > The sovereignty of the people is not unlimited; it is circumscribed within the bounds traced by justice and the rights of individuals. The will of an entire people cannot make just what is unjust.
 
-This is a new critique of Rousseau and the _Social Contract_: even a general will is subject to limits, and it cannot change what falls under natural law. There exists a right anterior and superior to political authority: it is natural law. This right sets the bounds of political power and limits individual freedoms.
+This is a new critique of Rousseau and the _Social Contract_: even a general will is subject to limits, and it cannot change what falls under natural law. There exists **a right anterior and superior to political authority**: it is natural law. This right sets the bounds of political power and limits individual freedoms.
 
 To say that all legitimate power must be founded on the general will does not mean that everything the general will decides is legitimate. Thus, Constant aligns himself with the Declaration of the Rights of Man of 1789, Article II, which stipulates that the State is instituted only to preserve natural rights, namely, freedom, responsibility, and property. There are therefore areas in which political power has no influence: morality and religion, but also the sciences, which fall under the authority of knowledge and finally industry, adds Constant.
 
@@ -1277,7 +1303,7 @@ Tocqueville is careful to identify all the political and cultural effects of thi
 
 In 1841, in _Democracy in America_, he analyzes the democratic principle that asserts itself in the equalization of conditions against the hierarchy of classes and the authority of tradition. And he observes that this process logically accompanies the dissolution of social influences, the ties of dependency, and atomizes the social bond, thus threatening the very exercise of freedom and political responsibility of the citizen. Moreover, the loss of great ancient ideals (virtue, the common good) leads to the impoverishment of the meaning of life, "to small and vulgar pleasures," to boredom and unease.
 
-Indeed, the equality of condition, which characterizes democracy, means that each person tends to withdraw into themselves, without a link that attaches them to others. The individual independence that this new freedom consecrates makes the exercise of civic virtues difficult by fostering indifference to the public good. As a result, modern democracies expose themselves to the "soft and regular" despotism of statism, which is made possible by the growing disinterest of the people in political life. Democracy thus tends symmetrically towards two excesses that feed each other:
+Indeed, the equality of condition, which characterizes democracy, means that each person tends to withdraw into themselves, without a link that attaches them to others. The individual independence that this new freedom consecrates makes the exercise of civic virtues difficult by fostering indifference to the public good. As a result, **modern democracies expose themselves to the "soft and regular" despotism** of statism, which is made possible by the growing disinterest of the people in political life. Democracy thus tends symmetrically towards two excesses that feed each other:
 
 On one hand, individualism, that is, the "disinterest in public affairs" and "the love of material pleasures." Tocqueville defines individualism precisely as a feeling of self-sufficiency that leads the citizen to isolate themselves from others and to withdraw into themselves. This is hedonistic narcissism.
 
@@ -1318,8 +1344,11 @@ Under the reign of socialist ideas, Bastiat observed that the electoral machine 
 
 The State then becomes, according to Bastiat's words,
 
-> the great fiction through which everyone endeavors to live at the expense of everyone else. ([_The State_](http://bastiat.org/fr/l_etat.html))
-> Bastiat also develops the idea that conflict arises when the law strays from its rightful role. In his famous pamphlet [_The Law_](http://bastiat.org/fr/la_loi.html), he demonstrates why and how the law has become "the battlefield of all greed," meaning a source of privileges, situational rents, and arbitrary taxation. As soon as it is admitted in principle that the law can be diverted from its true mission, that it can violate properties instead of guaranteeing them, a class struggle necessarily follows, either to defend against spoliation or to organize it for one's benefit.
+> the great fiction through which everyone endeavors to live at the expense of everyone else.
+>
+> ([_The State_](http://bastiat.org/fr/l_etat.html))
+
+Bastiat also develops the idea that conflict arises when the law strays from its rightful role. In his famous pamphlet [_The Law_](http://bastiat.org/fr/la_loi.html), he demonstrates why and how the law has become "the battlefield of all greed," meaning a source of privileges, situational rents, and arbitrary taxation. As soon as it is admitted in principle that the law can be diverted from its true mission, that it can violate properties instead of guaranteeing them, a class struggle necessarily follows, either to defend against spoliation or to organize it for one's benefit.
 
 ![image](assets/en/077.webp)
 
@@ -1332,7 +1361,10 @@ According to Bastiat, socialist democracy leads to a permanent budget deficit an
 > But if the government takes it upon itself to raise and regulate wages and cannot do it; if it takes it upon itself to assist all misfortunes and cannot do it; if it takes it upon itself to provide pensions for all workers and cannot do it... Do we not see that, alas, at the end of each disappointment? More than likely, there is an equally inevitable revolution. ([_The Law_](http://bastiat.org/fr/la_loi.html))
 
 Bastiat's conclusion:
-Take a look at the globe. Which are the happiest, most moral, and most peaceful people? Those where the Law intervenes the least in private activity; where the government is least felt; where individuality has the most resilience and public opinion the most influence; where administrative mechanisms are the fewest and least complicated; the taxes the least burdensome and the least unequal; popular discontent the least provoked and the least justifiable; where the responsibility of individuals and classes is the most active, and where, consequently, if the morals are not perfect, they tend inexorably to correct themselves; where transactions, agreements, associations are the least hindered; where labor, capital, and population suffer the least artificial displacements ([_The Law_](http://bastiat.org/fr/la_loi.html))
+
+> Take a look at the globe. Which are the happiest, most moral, and most peaceful people? Those where the Law intervenes the least in private activity; where the government is least felt; where individuality has the most resilience and public opinion the most influence; where administrative mechanisms are the fewest and least complicated; the taxes the least burdensome and the least unequal; popular discontent the least provoked and the least justifiable; where the responsibility of individuals and classes is the most active, and where, consequently, if the morals are not perfect, they tend inexorably to correct themselves; where transactions, agreements, associations are the least hindered; where labor, capital, and population suffer the least artificial displacements
+>
+> ([_The Law_](http://bastiat.org/fr/la_loi.html))
 
 ## The Marxist Critique of Capitalism
 
@@ -1352,7 +1384,7 @@ What good is the right to speak, write, and vote, Marx exclaimed, if daily life 
 
 The fundamental critique that Marx makes of political liberalism, particularly in his early writings (_Critique of Hegel's Philosophy of Right_ and _On the Jewish Question_), focuses on the separation of civil society and the state. This critique must be understood within the general framework of his interpretation of the "Bourgeois Revolution." It is this revolution that leads to the formation of a state separated from civil society, which is supposed to aim for the universal, meaning the common interest, by playing the role of an impartial arbitrator.
 
-However, all of this is, for Marx, merely a deceptive appearance. In reality, the state is nothing but an instrument intended to serve the particular interests of the ruling class. In other words, the state is not impartial; it is not separated from civil society. In fact, the liberal state is the site of a double illusion. The illusion of the universal, as we have just seen, and consequently, the illusion of emancipation. Indeed, the Revolution emancipated the citizen by instituting popular sovereignty and equality before the law, but this freedom and equality remain purely ideal and abstract. It is false, Marx says, to think, like Rousseau or Hegel, that man fully realizes his rational nature by becoming a citizen. In reality, one can become a citizen and remain exploited, enslaved, abandoned to the whims of desires, to the anarchy of selfishness, and the law of the strongest.
+However, all of this is, for Marx, merely a deceptive appearance. In reality, the state is nothing but an instrument intended to serve the particular interests of the ruling class. In other words, the state is not impartial; it is not separated from civil society. In fact, **the liberal state is the site of a double illusion.** The illusion of the universal, as we have just seen, and consequently, the illusion of emancipation. Indeed, the Revolution emancipated the citizen by instituting popular sovereignty and equality before the law, but this freedom and equality remain purely ideal and abstract. It is false, Marx says, to think, like Rousseau or Hegel, that man fully realizes his rational nature by becoming a citizen. In reality, one can become a citizen and remain exploited, enslaved, abandoned to the whims of desires, to the anarchy of selfishness, and the law of the strongest.
 
 The emancipation of the citizen, according to Marx, does not at all signify the emancipation of man, as the Declaration of 1789 suggests, but rather the triumph of destructive individualism and therefore of inequality. Freedom, as the power to do anything that does not harm others, a pillar of human rights, is a purely negative freedom that does not establish a relationship between individuals but, on the contrary, promotes their separation, antagonism, and ultimately their servitude. The freedom of human rights is formal.
 
@@ -1395,7 +1427,7 @@ On this point, see also: _Marxist and Austrian Class Analysis_, Hans Hermann Hop
 
 ### Polylogism
 
-The concept of class struggle can also lead to the idea that anything is permissible. Marx argued that notions of good, evil, justice, right, and truth were relative to classes. Human reason, he claimed, is congenitally incapable of finding the truth. The logical structure of the mind differs according to social classes. There is no universally valid logic.
+The concept of class struggle can also lead to the idea that anything is permissible. Marx argued that notions of good, evil, justice, right, and truth were relative to classes. Human reason, he claimed, **is congenitally incapable of finding the truth.** The logical structure of the mind differs according to social classes. There is no universally valid logic.
 
 Mises coined the term "polylogism" to explain this sophism. "Poly" means many, and "logism" refers to rational discourse and logic. According to Marx, there would be several incompatible logics, that of the proletarians and that of the bourgeoisie.
 
@@ -1404,7 +1436,10 @@ Mises coined the term "polylogism" to explain this sophism. "Poly" means many, a
 Yet until the mid-19th century, no one dared to contest the fact that the logical structure of the mind was identical and common to all human beings. All human relations are based on the assumption of a uniform logical structure. People can engage in discussion because they can appeal to something common to all, namely, the logical structure of reason.
 
 Mises writes:
-Marx and the Marxists (...) have taught that thought is determined by the class situation of the thinker. What thought produces is not truth, but ideologies. In the context of Marxist philosophy, this term refers to a disguise of the selfish interests of the class to which the thinking individual belongs. That is why it is pointless to discuss anything with people from another social class. Ideologies do not need to be refuted by deductive reasoning; they must be unmasked by denouncing the class situation and the social background of their authors. Thus, Marxists do not discuss the merits of physical theories; they reveal the bourgeois origin of the physicists. (_The Omnipotent Government_).
+
+> Marx and the Marxists (...) have taught that thought is determined by the class situation of the thinker. What thought produces is not truth, but ideologies. In the context of Marxist philosophy, this term refers to a disguise of the selfish interests of the class to which the thinking individual belongs. That is why it is pointless to discuss anything with people from another social class. Ideologies do not need to be refuted by deductive reasoning; they must be unmasked by denouncing the class situation and the social background of their authors. Thus, Marxists do not discuss the merits of physical theories; they reveal the bourgeois origin of the physicists.
+>
+> (_The Omnipotent Government_).
 
 In the eyes of the Marxists, Ricardo, Freud, Bergson, and Einstein are mistaken because they are bourgeois. Thus, Marxists claim that the logical structure of the mind would be different depending on class membership. Each class would have its logic and therefore its economy, mathematics, physics, and so on. The only logic and the only exact, correct, and eternal science would be that of the Marxists.
 
@@ -1443,7 +1478,7 @@ Alarmed by the rise of government interventionism in the economies of Western de
 Written between 1940 and 1943, this brief essay aims to provide an initial assessment of the dirigiste experiments undertaken in the latter half of the 1930s, specifically the nationalizations and Keynesian management of demand that emerged in social democratic Europe and the New Deal era in the United States. Dedicated to "socialists of all parties," it seeks to demonstrate that "the West has gradually abandoned the principle of economic freedom without which no individual or political freedom has previously been possible."
 Indeed, the same process of political centralization and the same desire to replace a dirigiste organization with traditional market mechanisms are evident everywhere. In Great Britain, as in the United States, it is asserted that the public power must plan everything and can solve everything.
 
-As for authentic liberalism, it is concerned with justice. However, Hayek reminds us that it belongs to civil society, not the State, to organize this solidarity. What differentiates liberalism and socialism is not the ends, but the means. According to Hayek,
+As for authentic liberalism, it is concerned with justice. However, Hayek reminds us that it belongs to civil society, not the State, to organize this solidarity. **What differentiates liberalism and socialism is not the ends, but the means.** According to Hayek,
 
 > Liberalism wants us to make the best possible use of the forces of competition as a means of coordinating human efforts; it does not want us to leave things as they are.
 
@@ -1460,14 +1495,16 @@ From the first pages, Hayek establishes a parallel between the triumph of social
 ![image](assets/en/087.webp)
 
 > Few people, he warns in his preface, are willing to recognize that the rise of fascism and Nazism was not a reaction against the trends (...) of the previous period, but an inevitable result of these trends. This is something that most people have refused to see, even at the moment when they realized the resemblance offered by certain negative traits of the domestic regimes of Communist Russia and Nazi Germany. The result is that many people who consider themselves very much above the aberrations of Nazism and who sincerely hate all its manifestations, are at the same time working for ideals whose realization would lead directly to this abhorred tyranny.
-> According to Hayek, socialism and Nazism share a number of fundamental commonalities, particularly the rejection of individualism and the spontaneous order of the market. Both ideologies prioritize the well-being of the group over the rights and freedoms of individuals, aiming to create a homogeneous society united by shared values and goals. Neither socialists nor Nazis hesitate to use force and coercion to achieve their objectives. They are willing to suppress individual liberties and repress dissent in the name of the greater good of society.
-> In the chapter titled "The Socialist Roots of Nazism," Hayek points out that Nazism claims socialist planning (hence its name, national-socialism) of the economy as a means of establishing total control over the population.
+
+According to Hayek, socialism and Nazism share a number of fundamental commonalities, particularly the rejection of individualism and the spontaneous order of the market. Both ideologies prioritize the well-being of the group over the rights and freedoms of individuals, aiming to create a homogeneous society united by shared values and goals. Neither socialists nor Nazis hesitate to use force and coercion to achieve their objectives. They are willing to suppress individual liberties and repress dissent in the name of the greater good of society.
+
+In the chapter titled "The Socialist Roots of Nazism," Hayek points out that Nazism claims socialist planning (hence its name, national-socialism) of the economy as a means of establishing total control over the population.
 
 German and Italian socialists merely paved the way for Nazism by setting up political parties that directed all activities of the individual, from birth to death, dictating their opinions on everything. It was not the fascists but the socialists who began to regiment children into political organizations, to control their private lives and their thoughts.
 
 The Nazis merely adopted the statist, dirigiste, and interventionist discourse already popularized by the Marxists. Many fascist leaders, such as Mussolini in Italy, Laval in France, and Oswald Mosley in Great Britain, had started their political careers as left-wing activists before converting to fascism or Hitlerism, due to ideological proximity.
 
-In conclusion, Hayek calls on his contemporaries to turn their backs on the "madness" and "contemporary obscurantism" to rid humanity of the "errors that have dominated our lives in the recent past." According to him, the best guarantee of freedom is private property. When all means of production are concentrated in the hands of a few organizers, we are subjected to total power, as this economic power becomes a political instrument of control over our entire lives.
+In conclusion, Hayek calls on his contemporaries to turn their backs on the "madness" and "contemporary obscurantism" to rid humanity of the "errors that have dominated our lives in the recent past." According to him, **the best guarantee of freedom is private property.** When all means of production are concentrated in the hands of a few organizers, we are subjected to total power, as this economic power becomes a political instrument of control over our entire lives.
 
 # The Rise of the Welfare State in the 20th Century
 
@@ -1495,7 +1532,7 @@ To summarize broadly, public spending produces growth, and to support the budget
 
 Keynesianism is therefore the claim to provide the means for strong growth and full employment through public spending and consumption. This growth plan is based on controlling money.
 
-Indeed, according to Keynes, long-term savings act as a brake on consumption and, therefore, on growth. Money must thus lose its purchasing power over time to encourage individuals to consume more quickly, which is beneficial for the economy. In the Keynesian logic of stimulus policies, the main enemy is savings.
+Indeed, according to Keynes, long-term savings act as a brake on consumption and, therefore, on growth. Money must thus lose its purchasing power over time to encourage individuals to consume more quickly, which is beneficial for the economy. **In the Keynesian logic of stimulus policies, the main enemy is savings.**
 
 According to Keynes, this enemy can be fought with low-interest liquidity. That is why central banks must regulate and control the money supply.
 
@@ -1517,7 +1554,7 @@ Graduating from the École Polytechnique in 1919, Rueff had a distinguished care
 
 ![image](assets/en/093.webp)
 
-This book includes a key chapter titled "Sound Money or Totalitarian State." In this chapter, he develops two propositions. The first is: "False money breeds social disorder." The second proposition follows from the first: "Social disorder breeds social slavery". False money is paper currency, disconnected from any physical reality and manipulated by the ruling power. Social disorder is the inflation and consumerism that result from it. Social slavery is society's dependence on the state, the loss of all financial, moral, and political autonomy.
+This book includes a key chapter titled "Sound Money or Totalitarian State." In this chapter, he develops two propositions. The first is: "False money breeds social disorder." The second proposition follows from the first: "Social disorder breeds social slavery". **False money is paper currency, disconnected from any physical reality and manipulated by the ruling power.** Social disorder is the inflation and consumerism that result from it. Social slavery is society's dependence on the state, the loss of all financial, moral, and political autonomy.
 
 In 1947, five years after the French translation of _The General Theory_, he published an article titled: _The Errors of the General Theory of Lord Keynes_. He issued the following warnings:
 The next period of depression is likely to lead to the widespread adoption of the policy suggested by Lord Keynes around the world. I am not afraid to state that this policy will only reduce unemployment to a small extent, but it will have profound consequences on the evolution of the countries in which it is applied. (...) Because of Lord Keynes, the next cycle will be an opportunity for profound political changes, which some hope for, while others fear. In any case, based on a false theory, the remedies that will be implemented will have profoundly different repercussions from those they were intended to promote. Their inefficacy will be, for a large part of the public opinion, a new reason to demand the substitution of a regime which, by denying itself, will have destroyed itself.
@@ -1555,8 +1592,10 @@ Indeed, gold is a hard currency, difficult to produce, costly to counterfeit. Th
 This is why, in _Human Action_, Ludwig von Mises writes:
 
 > The gold standard was the world standard of the capitalist era, of increasing prosperity, freedom, and democracy \[…\] It was the international standard that international trade and the world capital markets needed \[…\] It carried industry, capital, and Western civilization to the most remote corners of the planet, creating wealth previously unknown.
-> But the gold standard constrains governments to fund their expenses through taxes rather than inflation, which explains a certain hostility from political and economic elites towards this system. Because linking a currency to a precious metal limits the central bank's ability to finance the growth of the welfare state through indirect taxation, which can lead to inflation.
-> That's why, as early as 1923, Keynes declared:
+
+But the gold standard constrains governments to fund their expenses through taxes rather than inflation, which explains a certain hostility from political and economic elites towards this system. Because linking a currency to a precious metal limits the central bank's ability to finance the growth of the welfare state through indirect taxation, which can lead to inflation.
+
+That's why, as early as 1923, Keynes declared:
 
 > In truth, the gold standard is already a barbarous relic. (...) The defenders of the old standard do not notice how far it is now removed from the spirit and needs of the new times. (J.M. Keynes, _Monetary Reform_).
 
@@ -1577,8 +1616,10 @@ Indeed, for many Keynesian economists, the abandonment of the gold standard gave
 According to Alan Greenspan, former chairman of the Federal Reserve, the American central bank, the gold standard is incompatible with state debt and the financing of the welfare state:
 
 > I have always harbored nostalgia for the price stability inherent in the gold standard; a stable currency was its primary goal. However, I have long since conceded that the gold standard does not easily accommodate the prevailing view of a government's function, particularly its duty to ensure a social security system. \[…\] Most Americans have tolerated inflation as the price to pay for having a modern welfare state. There are no longer any proponents of the gold standard, and I see little possibility of its return. (_The Age of Turbulence_).
-> On the contrary, for people like Jacques Rueff, abandoning precious metal is a mistake that can only lead to a continuous decrease in purchasing power, accompanied by a reduction in living standards, an increase in income inequality, and growing economic instability.
-> ![image](assets/en/099.webp)
+
+On the contrary, for people like Jacques Rueff, abandoning precious metal is a mistake that can only lead to a continuous decrease in purchasing power, accompanied by a reduction in living standards, an increase in income inequality, and growing economic instability.
+
+![image](assets/en/099.webp)
 
 In February 1965, during a televised press conference, General de Gaulle, inspired directly by Rueff, proposed a return to the gold standard. He stated:
 
@@ -1594,7 +1635,7 @@ He writes:
 
 > As long as we have not restored a situation in which governments (as well as other public authorities) know that if they spend too much they will be, like anyone else, unable to meet their obligations, there will be no pause in this process which, by substituting collective activity for private activity, threatens to stifle individual initiative. Under the current unlimited democracy, in which the government has the power to confer special material benefits to particular groups, it is compelled to buy the support of enough of them to constitute a majority. (Ch. XXI, The effects of finance and public spending).
 
-For Hayek, the past instability of the market economy stems from the fact that the most important regulator of market mechanisms, namely money, cannot itself be the product of a market process.
+For Hayek, the past instability of the market economy stems from the fact that **the most important regulator of market mechanisms, namely money, cannot itself be the product of a market process.**
 
 ![image](assets/en/101.webp)
 

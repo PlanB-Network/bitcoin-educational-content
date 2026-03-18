@@ -5,6 +5,8 @@ description: Guide complet sur le portefeuille Arkade et le protocole Ark
 
 ![cover](assets/cover.webp)
 
+![video](https://www.youtube.com/watch?v=HdKeXV_vZZM)
+
 Le réseau Bitcoin fait face à un défi majeur : sa scalabilité. Si la couche principale (layer 1) offre une sécurité et une décentralisation inégalées, elle ne peut traiter qu'un nombre limité de transactions par seconde. Le Lightning Network a émergé comme une solution de seconde couche (layer 2) prometteuse, permettant des paiements rapides et peu coûteux. Cependant, Lightning impose ses propres contraintes : la gestion de canaux, la nécessité de liquidité entrante et une complexité technique qui peut rebuter les nouveaux utilisateurs.
 
 C'est dans ce contexte qu'apparaît **Ark**, un nouveau protocole de layer 2 conçu pour offrir une expérience utilisateur simplifiée sans sacrifier la souveraineté. **ArkadeOS** (ou Arkade) est la première implémentation majeure de ce protocole, proposant un portefeuille Bitcoin de nouvelle génération.

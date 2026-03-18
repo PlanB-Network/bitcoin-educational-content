@@ -59,7 +59,7 @@ Ready to embark on this unique philosophical journey on the quest for freedom? L
 
 Why title this course: A History of Freedom? Because we need to understand the relationship between ideas and events to judge our era more effectively and act with discernment. It is in the past that we find the elements for a better understanding of what freedom is and the reasons why we must cherish it.
 
-When the past no longer illuminates the future, the spirit walks in darkness (Alexis de Tocqueville - _Democracy in America_).
+When the past no longer illuminates the future, the spirit walks in darkness (Alexis de Tocqueville - _[Democracy in America](https://planb.academy/resources/books/de-la-democratie-en-amerique)_).
 
 ![When the past no longer illuminates the future, the spirit walks in darkness](assets/en/001.webp)
 
@@ -111,7 +111,7 @@ The second philosophy is found among authors such as Rousseau, Robespierre, or K
 
 ![Statue of Jean-Jacques Rousseau](assets/en/007.webp)
 
-> "He who dares to undertake the establishment of a people," says Rousseau, "must feel capable of changing, so to speak, human nature, of transforming each individual who, by himself, is a perfect and solitary whole, into part of a greater whole from which this individual receives, in a way, his life and being." (_Social Contract_)
+> "He who dares to undertake the establishment of a people," says Rousseau, "must feel capable of changing, so to speak, human nature, of transforming each individual who, by himself, is a perfect and solitary whole, into part of a greater whole from which this individual receives, in a way, his life and being." (_[Social Contract](https://planb.academy/resources/books/the-social-contract)_)
 
 From this perspective, the legislator's mission is to organize, modify, or even abolish property if deemed necessary. For Rousseau, property is not natural but conventional, like society itself. In turn, Robespierre establishes the principle that "Property is the right of every citizen to enjoy and dispose of the portion of goods guaranteed to him by law." There is no natural right to property; there are only an indefinite number of possible and contingent arrangements.
 
@@ -124,6 +124,8 @@ From this perspective, the legislator's mission is to organize, modify, or even 
 When one opens textbooks, Bastiat noted, one learns that humanity would be doomed to nothingness without the intervention of power:
 
 > "It suffices to open, almost at random, a book of philosophy, politics, or history to see how deeply rooted in our country is this idea, born of classical studies and the mother of Socialism, that humanity is an inert matter receiving from power life, organization, morality, and wealth; or worse, that humanity itself tends towards its degradation and is only stopped on this slope by the mysterious hand of the Legislator." ([_The Law_](http://bastiat.org/fr/la_loi.html)).
+
+https://planb.academy/resources/books/the-law
 
 In other words, the cultural prejudice dominating Western philosophy as well as historiography is that we owe everything to power: freedom, health, education, security, and prosperity. Humanity is described as "inert matter" that takes shape thanks to the legislator.
 
@@ -139,6 +141,8 @@ History is thus a struggle between two principles: freedom and oppression.
 
 > Freedom! That is, in the end, the harmonious principle. Oppression! That is the dissonant principle; the struggle of these two powers fills the annals of mankind. ([_Economic Harmonies_](http://bastiat.org/fr/conclusion_eo_harmonies.html), conclusion of the original edition).
 
+https://planb.academy/resources/books/harmonies-economiques
+
 ### What is oppression?
 
 ![Frédéric Bastiat, Property and Plunder](assets/en/008.webp)
@@ -151,6 +155,8 @@ What is the difference between production and plunder? Here is Bastiat's answer:
 
 In other words, **production is a form of power over nature. Plunder is power over men.** However, there are two forms of plunder: legal and illegal.
 Illegal plunder is the theft or crime committed by one citizen against another. It is the action of the bandit or the swindler. However, the worst form of plunder is that which is accomplished by law: "There are people who think that plunder loses all its immorality provided it is legal. As for me, I cannot imagine a more aggravating circumstance." ([_What is Seen and What is Not Seen_](http://bastiat.org/fr/cqovecqonvp.html#RESTRICTION)).
+
+https://planb.academy/resources/books/ce-quon-voit-et-ce-quon-ne-voit-pas
 
 Bastiat tells us there are still two forms of legal plunder:
 
@@ -257,7 +263,7 @@ This analysis reflects a misunderstanding of surplus value and the cooperative a
 
 ### The Industrial Revolution in Question
 
-In fact, the Marxist analysis distorts the historical reality of the Industrial Revolution. Ludwig von Mises clarified this issue in his economics treatise [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (see especially the chapter titled [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) as well as in a series of lectures published under the title: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Also worth reading, The Anti-Capitalistic Mentality [here](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) and [here](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+In fact, the Marxist analysis distorts the historical reality of the Industrial Revolution. Ludwig von Mises clarified this issue in his economics treatise [_Human Action_](https://planb.academy/resources/books/human-action) (see especially the chapter titled [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) as well as in a series of lectures published under the title: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Also worth reading, The Anti-Capitalistic Mentality [here](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) and [here](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 
 ![A picture of Ludwig von Mises](assets/en/014.webp)
 
@@ -310,7 +316,7 @@ In conclusion to this chapter, Europe's economic and cultural takeoff was not du
 
 :::video id=5ea889a5-8fc7-43a6-88a4-2404442bf52e:::
 
-In the last chapter of _Anatomy of the State_ (translated into French as _L’anatomie de l’Etat_, by Résurgence editions), Murray Rothbard proposes a theory of history. This very short chapter is titled 'History: A Race Between State Power and Social Power.' According to Rothbard, history can be understood as a perpetual conflict between two fundamental principles:
+In the last chapter of _[Anatomy of the State](https://planb.academy/resources/books/anatomy-of-the-state)_ (translated into French as _L’anatomie de l’Etat_, by Résurgence editions), Murray Rothbard proposes a theory of history. This very short chapter is titled 'History: A Race Between State Power and Social Power.' According to Rothbard, history can be understood as a perpetual conflict between two fundamental principles:
 
 ![Murray Rothbard, The Anatomy of the State](assets/en/017.webp)
 
@@ -348,7 +354,7 @@ Between the 17th and 19th centuries, in many Western countries, there were perio
 
 > During this century, the human race faces, once again, the virulent reign of the State; the State now armed with the creative power of man, confiscated and perverted for its ends.
 
-What is a free society, after all? It's a society without a monopoly. In his work of political philosophy, _Ethics of Liberty_ (1982), Rothbard answers: "a society in which there is no legal possibility of coercive aggression against the person or property of any individual." This is why, according to him, political philosophy, which must define the principles of a just society, boils down to one single question: "Who legitimately owns what?"
+What is a free society, after all? It's a society without a monopoly. In his work of political philosophy, _[Ethics of Liberty](https://planb.academy/resources/books/the-ethics-of-liberty)_ (1982), Rothbard answers: "a society in which there is no legal possibility of coercive aggression against the person or property of any individual." This is why, according to him, political philosophy, which must define the principles of a just society, boils down to one single question: "Who legitimately owns what?"
 
 ![Murray Rothbard, The Ethics of Liberty](assets/en/019.webp)
 
@@ -939,7 +945,7 @@ In the _Tenth Letter_, "On Commerce", Voltaire describes the French mindset as f
 
 ### Truth Requires Freedom
 
-Yet France was not lacking in great minds. It is little known but Anne Robert Jacques Turgot, Baron de Laulne, was first and foremost a leading thinker before becoming the Controller General of Finances under Louis XVI. He was the author of a masterful treatise on political economy, _Reflections on the Formation and Distribution of Wealth_ (1766), which predates Adam Smith's _The Wealth of Nations_ (1776).
+Yet France was not lacking in great minds. It is little known but Anne Robert Jacques Turgot, Baron de Laulne, was first and foremost a leading thinker before becoming the Controller General of Finances under Louis XVI. He was the author of a masterful treatise on political economy, _Reflections on the Formation and Distribution of Wealth_ (1766), which predates Adam Smith's _[The Wealth of Nations](https://planb.academy/resources/books/the-wealth-of-nations)_ (1776).
 
 ![Voltaire, Philosophical Letters](assets/en/052.webp)
 
@@ -1067,7 +1073,7 @@ It is also a treatise on philosophy in that it demonstrates how free and volunta
 
 ### A Manifesto for Freedom in America
 
-In 1776, an Englishman named Thomas Paine published a virulent pamphlet in America, criticizing the English monarchy and advocating for the independence of the American colonists, titled _Common Sense_.
+In 1776, an Englishman named Thomas Paine published a virulent pamphlet in America, criticizing the English monarchy and advocating for the independence of the American colonists, titled _[Common Sense](https://planb.academy/resources/books/common-sense)_.
 
 ![Condillac, Commerce and Government](assets/en/059.webp)
 
@@ -1220,7 +1226,7 @@ In America, there was no economic dirigisme, nor a monetary bankruptcy like that
 
 With Rousseau and Robespierre, the French sought to believe that **the Nation or the general will had unlimited power** and justified all actions. From the fact that the people governed, it was concluded that they had all rights. There was clearly a contradiction between the great principles of the Revolution and the means employed to make them triumph.
 
-This is, moreover, the meaning of the remark by Friedrich Hayek in his book _The Constitution of Liberty_:
+This is, moreover, the meaning of the remark by Friedrich Hayek in his book _[The Constitution of Liberty](https://planb.academy/resources/books/the-constitution-of-liberty)_:
 
 > The decisive factor that rendered vain the efforts of the Revolution in favor of the promotion of individual liberty was that it created the illusion that, insofar as all power had been handed over to the people, all precautions against the abuse of this power had become unnecessary.
 
@@ -1242,7 +1248,7 @@ According to Benjamin Constant, liberty in modern societies can no longer be und
 
 In ancient times, individuals were sovereign in public affairs but enslaved in all their private relations. The use of political rights compensated for the sacrifice of individual freedom: the right to directly exercise various aspects of sovereignty, to deliberate in the public square, to vote on laws, to pronounce judgments, and to evaluate and judge magistrates. It is a political and collective freedom:
 
-> The freedom of the Ancients consisted of active and constant participation in collective power. Our freedom, on the other hand, must consist of the peaceful enjoyment of private independence; it follows that we must be much more attached than the ancients to our independence. (_On the Liberty of the Ancients Compared with that of the Moderns_ (1819))
+> The freedom of the Ancients consisted of active and constant participation in collective power. Our freedom, on the other hand, must consist of the peaceful enjoyment of private independence; it follows that we must be much more attached than the ancients to our independence. (_[On the Liberty of the Ancients Compared with that of the Moderns](https://planb.academy/resources/books/benjamin-constant-de-la-liberte-des-anciens-compar)_ (1819))
 
 ![A portrait of Benjamin Constant](assets/en/071.webp)
 
@@ -1250,7 +1256,7 @@ Modern freedom encompasses civil liberties, which include economic freedom and a
 
 This definition of freedom is found in John Stuart Mill:
 
-> The only freedom which deserves the name is that of pursuing our good in our way, so long as we do not attempt to deprive others of theirs or impede their efforts to obtain it. (...) Humanity gains more by letting each person live as they see fit than by compelling them to live as others deem good. (_On Liberty_, 1859)
+> The only freedom which deserves the name is that of pursuing our good in our way, so long as we do not attempt to deprive others of theirs or impede their efforts to obtain it. (...) Humanity gains more by letting each person live as they see fit than by compelling them to live as others deem good. (_[On Liberty](https://planb.academy/resources/books/on-liberty)_, 1859)
 
 ![Benjamin Constant, The Liberty of Ancients Compared with that of Moderns](assets/en/072.webp)
 
@@ -1461,7 +1467,7 @@ Marxists believe that socialism, an economic system in which the means of produc
 
 ![Karl Marx, Eugen von Böhm-Bawerk](assets/en/085.webp)
 
-As early as 1922, in his book _Socialism,_ Ludwig von Mises demonstrated that socialism would lead to widespread shortages, as central planners would not be able to make accurate economic calculations without the price system provided by the market.
+As early as 1922, in his book _[Socialism](https://planb.academy/resources/books/socialism-mises),_ Ludwig von Mises demonstrated that socialism would lead to widespread shortages, as central planners would not be able to make accurate economic calculations without the price system provided by the market.
 
 ## The Road to Serfdom
 
@@ -1469,7 +1475,7 @@ As early as 1922, in his book _Socialism,_ Ludwig von Mises demonstrated that so
 
 :::video id=4ba4f2b4-86f4-4ef4-a5f8-ef8d6b1a1770:::
 
-Alarmed by the rise of government interventionism in the economies of Western democracies, Hayek wrote _The Road to Serfdom_ as a philosophical critique of collectivism, whether from the right or the left. Published in several million copies, thanks to the _Reader’s Digest_, this book has greatly contributed to Hayek's fame in the United States.
+Alarmed by the rise of government interventionism in the economies of Western democracies, Hayek wrote _[The Road to Serfdom](https://planb.academy/resources/books/the-road-to-serfdom)_ as a philosophical critique of collectivism, whether from the right or the left. Published in several million copies, thanks to the _Reader’s Digest_, this book has greatly contributed to Hayek's fame in the United States.
 
 ![Ludwig von Mises, Socialism](assets/en/086.webp)
 
@@ -1522,7 +1528,7 @@ Capitalism is often accused of being the source of the injunction: "we must alwa
 
 ### The Analysis of the 1929 Crisis
 
-Published in 1936, John Maynard Keynes' book, _The General Theory of Employment, Interest, and Money_, swept everything in its path. Questioning the causes of the Great Depression and the means to emerge from it, he describes a new economic paradigm, which would convert generations of economists and politicians.
+Published in 1936, John Maynard Keynes' book, _[The General Theory of Employment, Interest, and Money](https://planb.academy/resources/books/the-general-theory)_, swept everything in its path. Questioning the causes of the Great Depression and the means to emerge from it, he describes a new economic paradigm, which would convert generations of economists and politicians.
 
 ![John Maynard Keynes](assets/en/089.webp)
 
@@ -1562,7 +1568,7 @@ Starting from 1958, a policy to rectify the French economy, inspired by Jacques 
 
 ![Jacques Rueff, Sound Money or Totalitarian State](assets/en/094.webp)
 
-In _The Monetary Sin of the West_, in 1971, Rueff writes:
+In _[The Monetary Sin of the West](https://planb.academy/resources/books/the-monetary-sin-of-the-west)_, in 1971, Rueff writes:
 
 > It is through the budget deficit that men lose their freedom.
 
@@ -1627,7 +1633,7 @@ In February 1965, during a televised press conference, General de Gaulle, inspir
 
 ### A monetary market without a State monopoly is possible
 
-In 1976, Hayek proposed an alternative to the State's monopoly on currency creation: competition between currencies. In his book, _Pour une vraie concurrence des monnaies_ (_The Denationalization of Money_), he envisioned a monetary market without a State monopoly in which several private currencies would coexist. The creation and management of different currencies by private entities would allow individuals to choose the most stable and reliable currency, thus encouraging competition and discipline among issuers.
+In 1976, Hayek proposed an alternative to the State's monopoly on currency creation: competition between currencies. In his book, _Pour une vraie concurrence des monnaies_ (_[The Denationalization of Money](https://planb.academy/resources/books/the-denationalization-of-money)_), he envisioned a monetary market without a State monopoly in which several private currencies would coexist. The creation and management of different currencies by private entities would allow individuals to choose the most stable and reliable currency, thus encouraging competition and discipline among issuers.
 
 ![French General de Gaulle](assets/en/100.webp)
 

@@ -1,9 +1,9 @@
 question: What does freedom entail?
-answer: All the other answers
+answer: The power to do what one wants with what belongs to them
 wrong_answers:
-  - The power to do what one wants with what belongs to them
   - The absence of external constraints
+  - The right to participate in collective political decisions
   - The ability to think and act independently
 explanation: |
-  Freedom encompasses several dimensions, including the power to act according to one's will, the absence of external constraints, and the capacity for autonomy in thought and action, all of which contribute to a comprehensive definition of this concept.
-reviewed: ture
+  Freedom is defined in this course as the ability to make choices over one's affairs and to dispose of oneself and one's property under the condition of responsibility. It is fundamentally individual and tied to property rights.
+reviewed: true

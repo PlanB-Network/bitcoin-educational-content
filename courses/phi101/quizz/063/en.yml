@@ -1,9 +1,9 @@
-question: What was the medieval Church's attitude towards interest-bearing loans?
-answer: It prohibited them.
+question: What was the main argument of Nicolas Oresme against currency alterations?
+answer: They benefit those in power at the expense of the community.
 wrong_answers:
-  - It encouraged them.
-  - It tolerated them in certain cases.
-  - It had no opinion on the matter.
+  - They prevent international trade and commerce.
+  - They violate divine law as stated in the Scriptures.
+  - They are too technically difficult for medieval mints to execute.
 explanation: |
-  The medieval Church prohibited interest-bearing loans, considering this practice a sin of usury, as it deemed immoral to profit from a loan by demanding more than the initial amount.
+  Nicolas Oresme argued that currency alterations primarily benefit the prince at the expense of the community, constituting an unjust form of appropriation. He emphasized that such manipulations lead to shortages, black markets, and economic instability.
 reviewed: true

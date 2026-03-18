@@ -1,9 +1,9 @@
-question: According to Constant, what are the areas in which political power has no influence?
-answer: All the domains mentioned above (religion, science, industry).
+question: According to Constant, what limits the sovereignty of the people?
+answer: Justice and the rights of individuals.
 wrong_answers:
-  - Religion
-  - Science
-  - Industry
+  - The will of the majority expressed through elections.
+  - The authority of the monarch and the aristocracy.
+  - International treaties and alliances between nations.
 explanation: |
-  Constant believes that political power should not intervene in areas such as religion, science, and industry, to preserve individual freedom and the autonomy of human activities that fall within the private sphere.
+  Benjamin Constant asserts that the sovereignty of the people is not unlimited but is circumscribed within the bounds traced by justice and the rights of individuals. The will of an entire people cannot make just what is unjust, as natural law sets limits on political power.
 reviewed: true

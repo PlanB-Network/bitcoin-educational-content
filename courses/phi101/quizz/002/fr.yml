@@ -1,9 +1,9 @@
 question: En quoi consiste la liberté ?
-answer: Toutes les autres réponses.
+answer: Le pouvoir de faire ce que l'on veut avec ce qui nous appartient.
 wrong_answers:
-  - Le pouvoir de faire ce que l'on veut avec ce qui nous appartient.
   - L'absence de contraintes extérieures.
+  - Le droit de participer aux décisions politiques collectives.
   - La capacité de penser et d'agir par soi-même.
 explanation: |
-  La liberté englobe plusieurs dimensions, y compris le pouvoir d'agir selon sa volonté, l'absence de contraintes extérieures, et la capacité d'autonomie dans la pensée et l'action, toutes contribuant à une définition complète de ce concept.
-reviewed: true 
+  La liberté est définie dans ce cours comme la capacité de faire des choix concernant ses propres affaires et de disposer de soi-même et de ses biens sous la condition de la responsabilité. Elle est fondamentalement individuelle et liée aux droits de propriété.
+reviewed: true

@@ -1,9 +1,9 @@
 question: Why does Rothbard believe that written constitutions are not enough to limit the power of the state?
-answer: All of the above
+answer: They can be interpreted broadly by those in power to expand state authority
 wrong_answers:
   - They can be easily amended by those in power
-  - They can be interpreted
+  - They are too old to be relevant in modern democratic societies
   - They cannot prevent abuses of power by bureaucrats and officials
 explanation: |
-  Rothbard believes that written constitutions are insufficient to limit the power of the state because they are subject to interpretation, can be amended by those in power, and do not effectively protect against abuses by bureaucrats.
-  reviewed: true
+  Rothbard argues that constitutions are insufficient because the majority party can adopt extensive interpretations to increase its power. Without concrete enforcement mechanisms, constitutions become ineffective tools against the expansion of state authority.
+reviewed: true

@@ -581,7 +581,7 @@ Why did Rome decline and ultimately fall? Many like to think that the Roman Empi
 
 In 1734, in his _Considerations on the Causes of the Greatness of the Romans and of Their Decline_, Montesquieu developed an original and unified thesis to explain the rise and fall of Roman power: the freedom gained under the Republic and then lost under the Empire. From the moment Roman domination expanded, freedom was lost, and decadence set in.
 
-![image](assets/en/034.webp)
+![The Decline and Fall of the Roman Empire](assets/en/034.webp)
 
 The Roman Empire was a parasitic military regime that could only survive through a constant influx of plundered wealth from outside, prisoners reduced to slavery, and stolen lands.
 
@@ -1290,7 +1290,7 @@ In other words, in a free society, it is necessary to establish a strict boundar
 
 Alexis de Tocqueville was a keen observer of democracy and a critic of democratic individualism.
 
-![image](assets/en/074.webp)
+![John Stuart Mill, On Liberty](assets/en/074.webp)
 
 Tocqueville's analysis of democracy essentially extends the distinction made by Constant between the freedom of the Ancients and that of the Moderns. In an 1836 article (_Social and Political State of France Before and Since 1789_), Tocqueville methodically compares aristocratic freedom with democratic freedom. The former is defined as "The enjoyment of a privilege," and Tocqueville cites the example of the Roman citizen who derives his freedom not from nature but from his belonging to Rome.
 The second concept, known as "the correct notion of freedom," entails an "equal and inalienable right to live independently of one's peers." This modern notion of freedom is thus distinct from the first; it is a political concept, but it is grounded in natural law, and it is considered correct because it applies equally to every person. It is written:
@@ -1548,7 +1548,7 @@ This is why some economists, in the minority, criticize Keynes for his short-ter
 Thus, Friedrich Hayek explained that the continual reduction of interest rates by central banks and the artificial expansion of credit could only mislead economic actors, making them invest as if many saved resources existed, since interest rates naturally decrease in response to an increase in savings. This misallocation of resources then fuels an artificial rise in growth, a bubble, which is followed by a brutal recession. It is this contribution to the theory of cycles that earned Hayek the Nobel Prize in Economics in 1974.
 Along with others, he also highlighted the danger of centralizing and manipulating currency. This is notably the case with the Frenchman Jacques Rueff, also a disciple and friend of Ludwig von Mises.
 
-![image](assets/en/092.webp)
+![Fear the Boom and Bust: Keynes vs. Hayek](assets/en/092.webp)
 
 Graduating from the École Polytechnique in 1919, Rueff had a distinguished career as a senior civil servant, serving as an economic advisor to numerous governments in the 1920s and 1930s. His major work, _L’ordre social_ (The Social Order), was published in 1945, in which he develops a powerful argument in favor of the free market from economic, philosophical, and moral perspectives.
 

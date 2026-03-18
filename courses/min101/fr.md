@@ -45,7 +45,7 @@ Après l'introduction, la partie 2 est le socle technique de la formation. Son b
 
 ### Partie 3 – Le système d’incitations du minage de Bitcoin
 
-Dans la troisième partie, nous verrons pourquoi les mineurs sont incités à participer honnêtement au minage. Nous détaillerons le principe de la récompense de bloc, sa composition et son mode de calcul, son évolution dans le temps à travers les *halvings*, ainsi que le rôle spécifique de la transaction coinbase.
+Dans la troisième partie, nous verrons pourquoi les mineurs sont incités à participer honnêtement au minage. Nous détaillerons le principe de la récompense de bloc, sa composition et son mode de calcul, son évolution dans le temps à travers les halvings, ainsi que le rôle spécifique de la transaction coinbase.
 
 ### Partie 4 – L’industrie du minage de Bitcoin
 
@@ -321,7 +321,7 @@ Dans le [White Paper](https://planb.academy/resources/glossary/white-paper) de B
 
 Une fois la charge de calcul dépensée, le bloc est figé : le modifier impliquerait de refaire la preuve de travail de ce bloc. Et comme les blocs sont enchaînés les uns avec les autres, altérer un bloc ancien obligerait aussi à recalculer tous les blocs suivants, puis à rattraper et dépasser le travail continu de la chaîne honnête.
 
-Autrement dit, la preuve de travail sert d’armature à l'horodatage qui rend la falsification du passé de plus en plus coûteuse à mesure que les blocs s’accumulent. Lorsqu’un nouveau bloc est miné, la sécurité fournie par la preuve de travail s’applique de manière simultanée et uniforme à l’ensemble des UTXOs existants. À chaque bloc ajouté, chaque UTXO accumule ainsi une quantité supplémentaire de sécurité issue de la *Proof-of-Work*.
+Autrement dit, la preuve de travail sert d’armature à l'horodatage qui rend la falsification du passé de plus en plus coûteuse à mesure que les blocs s’accumulent. Lorsqu’un nouveau bloc est miné, la sécurité fournie par la preuve de travail s’applique de manière simultanée et uniforme à l’ensemble des UTXOs existants. À chaque bloc ajouté, chaque UTXO accumule ainsi une quantité supplémentaire de sécurité issue de la Proof-of-Work.
 
 - **Définir la règle de majorité ([consensus](https://planb.academy/resources/glossary/consensus)) et neutraliser les Sybil :**
 

@@ -628,9 +628,9 @@ Le halving se répète tant que la subvention reste exprimable dans l’unité m
 
 À mesure que la subvention est divisée par deux, on finit par atteindre des fractions de bitcoin si petites qu’elles deviennent inférieures à 1 sat. À partir de ce moment, il n’est plus possible de créer une demi-unité de satoshi. La création monétaire via la subvention de bloc s’arrête, et la rémunération des mineurs repose alors uniquement sur les frais de transaction. À partir de ce moment-là, tous les bitcoins seront en circulation et il ne sera plus possible de produire de nouvelles unités.
 
-L’arrêt définitif de la subvention de bloc interviendra à la hauteur de bloc 6 930 000, soit lors du 33ème et dernier halving. Cet événement est attendu aux alentours de l’année 2140. Il est toutefois impossible de donner une date exacte, car celle-ci dépendra de la vitesse réelle à laquelle les blocs seront trouvés d’ici là.
+L’arrêt définitif de la subvention de bloc interviendra à la hauteur de bloc 6 930 000, soit lors du 33ᵉ et dernier halving. Cet événement est attendu aux alentours de l’année 2140. Il est toutefois impossible de donner une date exacte, car celle-ci dépendra de la vitesse réelle à laquelle les blocs seront trouvés d’ici là.
 
-Comme la subvention de bloc suit une suite géométrique de raison 1/2 à chaque halving, la création monétaire a été extrêmement élevée aux débuts de Bitcoin, puis décroît très rapidement. Dès le 7ème halving, plus de 99 % des bitcoins auront déjà été mis en circulation. Le franchissement de ce seuil des 99 % devrait avoir lieu entre 2032 et 2036. Cela veut dire qu'il faudra ensuite plus de 100 ans pour miner le dernier 1 % des bitcoins restants. Si l’inflation monétaire était donc très forte au lancement de Bitcoin afin de permettre une distribution large de la monnaie, elle est aujourd’hui très faible et continuera de décroître, jusqu’à atteindre une véritable monnaie dure, dont l’offre en circulation ne pourra plus augmenter.
+Comme la subvention de bloc suit une suite géométrique de raison 1/2 à chaque halving, la création monétaire a été extrêmement élevée aux débuts de Bitcoin, puis décroît très rapidement. Dès le 7ᵉ halving, plus de 99 % des bitcoins auront déjà été mis en circulation. Le franchissement de ce seuil des 99 % devrait avoir lieu entre 2032 et 2036. Cela veut dire qu'il faudra ensuite plus de 100 ans pour miner le dernier 1 % des bitcoins restants. Si l’inflation monétaire était donc très forte au lancement de Bitcoin afin de permettre une distribution large de la monnaie, elle est aujourd’hui très faible et continuera de décroître, jusqu’à atteindre une véritable monnaie dure, dont l’offre en circulation ne pourra plus augmenter.
 
 ![Image](assets/fr/030.webp)
 
@@ -828,11 +828,11 @@ C’est à ce moment-là que la difficulté de minage commence à exploser. Entr
 
 *Source: [CoinWarz.com](https://www.coinwarz.com/mining/bitcoin/hashrate-chart)*
 
-Entre l’ère GPU et l’ère moderne des [ASIC](https://planb.academy/resources/glossary/asic), on observe une phase intermédiaire : l’utilisation de FPGA. Un FPGA est un composant reprogrammable : il peut être configuré pour implémenter directement un circuit logique dédié à un calcul particulier, ici `SHA256d`. L’intérêt est de s’éloigner encore davantage du matériel généraliste (CPU/GPU) pour gagner en efficacité énergétique. Mais rapidement, les améliorations réalisées virtuellement sur les FPGA seront appliquées physiquement aux puces elles-mêmes : c'est l'arrivée des ASIC.
+Entre l’ère GPU et l’ère moderne des [ASICs](https://planb.academy/resources/glossary/asic), on observe une phase intermédiaire : l’utilisation de FPGA. Un FPGA est un composant reprogrammable : il peut être configuré pour implémenter directement un circuit logique dédié à un calcul particulier, ici `SHA256d`. L’intérêt est de s’éloigner encore davantage du matériel généraliste (CPU/GPU) pour gagner en efficacité énergétique. Mais rapidement, les améliorations réalisées virtuellement sur les FPGA seront appliquées physiquement aux puces elles-mêmes : c'est l'arrivée des ASICs.
 
-### L’arrivée des ASIC
+### L’arrivée des ASICs
 
-L’étape finale de la spécialisation du matériel de minage est l’apparition des ASIC (*Application-Specific Integrated Circuits*). Un ASIC est une puce conçue pour une tâche unique. Dans le cas du minage Bitcoin, cette tâche est précisément l’exécution de `SHA256d` à une vitesse maximale et avec une efficacité énergétique optimale. Contrairement à un GPU, un ASIC ne sert pas à faire tourner des jeux, du rendu 3D ou de l’IA. Il sert à hacher, et c'est tout.
+L’étape finale de la spécialisation du matériel de minage est l’apparition des ASICs (*Application-Specific Integrated Circuits*). Un ASIC est une puce conçue pour une tâche unique. Dans le cas du minage Bitcoin, cette tâche est précisément l’exécution de `SHA256d` à une vitesse maximale et avec une efficacité énergétique optimale. Contrairement à un GPU, un ASIC ne sert pas à faire tourner des jeux, du rendu 3D ou de l’IA. Il sert à hacher, et c'est tout.
 
 ![Image](assets/fr/045.webp)
 
@@ -852,11 +852,11 @@ Cette spécialisation a deux conséquences majeures :
 
 ### Les fermes de minage
 
-Une machine isolée peut miner, mais en regroupant des centaines, puis des milliers d’ASIC dans un même lieu, on mutualise les coûts fixes, on optimise la logistique, et on se rapproche d’un modèle de data center spécialisé.
+Une machine isolée peut miner, mais en regroupant des centaines, puis des milliers d’ASICs dans un même lieu, on mutualise les coûts fixes, on optimise la logistique, et on se rapproche d’un modèle de data center spécialisé.
 
-Une [ferme de minage](https://planb.academy/resources/glossary/mining-farm), dans sa forme la plus simple, c’est un bâtiment (ou un ensemble de conteneurs) rempli d'ASIC qui tournent 24/7. Le défi est dorénavant de maintenir des conditions d’exploitation stables :
+Une [ferme de minage](https://planb.academy/resources/glossary/mining-farm), dans sa forme la plus simple, c’est un bâtiment (ou un ensemble de conteneurs) rempli d'ASICs qui tournent 24/7. Le défi est dorénavant de maintenir des conditions d’exploitation stables :
 * fournir une puissance électrique importante, à bas coût et stable ;
-* gérer la chaleur afin d’éviter le throttle, car la densité énergétique est considérable ;
+* gérer la chaleur afin d’éviter le *throttle*, car la densité énergétique est considérable ;
 * filtrer la poussière, contrôler l’humidité, nettoyer ;
 * surveiller en temps réel la performance des machines (températures, erreurs matérielles, baisse de hashrate...).
 
@@ -864,13 +864,13 @@ Une [ferme de minage](https://planb.academy/resources/glossary/mining-farm), dan
 
 *L’un des sept bâtiments dédiés au minage de Bitcoin sur le site de Rockdale de Riot Platforms, à proximité d’Austin, au Texas. Celui-ci est spécifiquement dédié au minage par immersion.*
 
-Le minage est désormais porté par des acteurs industriels, parfois cotés en bourse, qui construisent et exploitent des fermes à très grande échelle. On peut notamment citer MARA Holdings (Nasdaq: `MARA`) ou Riot Platforms (Nasdaq: `RIOT`).
+Le minage est désormais porté par des acteurs industriels, parfois cotés en bourse, qui construisent et exploitent des fermes à très grande échelle. On peut notamment citer MARA Holdings (Nasdaq : `MARA`) ou Riot Platforms (Nasdaq : `RIOT`).
 
 ![Image](assets/fr/042.webp)
 
 Même sans entrer dans les détails des modèles de rentabilité, il est important de comprendre pourquoi le minage a pris cette forme. La preuve de travail est un mécanisme compétitif : la probabilité de trouver un bloc, et donc de gagner de l'argent, est proportionnelle à la part de hashrate que l’on déploie. Par conséquent, la pression est permanente pour augmenter la puissance de calcul, réduire le coût par unité de calcul et limiter les pertes. Dès lors, les environnements qui offrent de l’électricité moins chère, un climat favorable au refroidissement, ou une infrastructure énergétique abondante, deviennent naturellement plus attractifs.
 
-Miner du Bitcoin est donc passé d’une activité accessible à n’importe qui à ses débuts, à une activité dominée par du matériel spécialisé et des opérations professionnelles. Cela ne change pas les règles du protocole. N’importe qui peut en théorie miner avec n'importe quelle machine. Mais en pratique, le niveau de difficulté et l’efficacité des ASIC ont rendu le minage domestique largement non compétitif dans la plupart des contextes.
+Miner du Bitcoin est donc passé d’une activité accessible à n’importe qui à ses débuts, à une activité dominée par du matériel spécialisé et des opérations professionnelles. Cela ne change pas les règles du protocole. N’importe qui peut en théorie miner avec n'importe quelle machine. Mais en pratique, le niveau de difficulté et l’efficacité des ASICs ont rendu le minage domestique largement non compétitif dans la plupart des contextes.
 
 Il subsiste évidemment des situations dans lesquelles le minage domestique peut présenter un intérêt, par exemple si vous bénéficiez d’une électricité très peu chère, ou si vous valorisez la chaleur dégagée par votre mineur, par exemple pour chauffer un logement en hiver. Mais dans tous les cas, vous devrez néanmoins acquérir une machine équipée d’une puce ASIC. De plus, puisque votre puissance de minage restera extrêmement limitée à l’échelle du réseau Bitcoin, il vous faudra trouver un moyen de réduire la variance de vos revenus : c’est précisément le rôle des pools de minage dont nous allons parler dans le prochaine chapitre.
 
@@ -922,7 +922,7 @@ En solo, un petit mineur peut passer des années sans aucun bloc, puis toucher u
 
 Nous l'avons vu dans le chapitre précédent, au tout début, le minage pouvait se faire en solo avec un ordinateur classique, car la difficulté était très faible. Mais à mesure que le hashrate global a explosé (GPU, puis ASIC), le minage solo est devenu un pari très long pour la majorité des participants.
 
-Les premières pools apparaissent précisément pour répondre à cette nouvelle réalité. Braiins Pool (anciennement Slush Pool / Bitcoin.cz) est la première pool de minage de Bitcoin : elle a miné son premier bloc le 16 décembre 2010. Le succès de cette première pool de minage est rapide, puisqu'en quelques jours seulement, elle obtient près de 3,5% du hashrate global.
+Les premières pools apparaissent précisément pour répondre à cette nouvelle réalité. Braiins Pool (anciennement Slush Pool / Bitcoin.cz) est la première pool de minage de Bitcoin : elle a miné son premier bloc le 16 décembre 2010. Le succès de cette première pool de minage est rapide, puisqu'en quelques jours seulement, elle obtient près de 3,5 % du hashrate global.
 
 ![Image](assets/fr/047.webp)
 
@@ -938,29 +938,29 @@ Voici un classement, à date, des principales pools de minage et de leur part re
 
 | Classement | Pool           | Blocs trouvés | Part du hashrate |
 | ---------: | -------------- | ------------: | ---------------: |
-|          1 | Foundry USA    |          1297 |           29.57% |
-|          2 | AntPool        |           755 |           17.21% |
-|          3 | ViaBTC         |           514 |           11.72% |
-|          4 | F2Pool         |           467 |           10.65% |
-|          5 | SpiderPool     |           349 |            7.96% |
-|          6 | MARA Pool      |           229 |            5.22% |
-|          7 | SECPOOL        |           197 |            4.49% |
-|          8 | Luxor          |           128 |            2.92% |
-|          9 | Binance Pool   |           105 |            2.39% |
-|         10 | OCEAN          |            78 |            1.78% |
-|         11 | SBI Crypto     |            70 |            1.60% |
-|         12 | Braiins Pool   |            54 |            1.23% |
-|         13 | WhitePool      |            33 |            0.75% |
-|         14 | Mining Squared |            26 |            0.59% |
-|         15 | BTC.com        |            16 |            0.36% |
-|         16 | Poolin         |            14 |            0.32% |
-|         17 | ULTIMUSPOOL    |            14 |            0.32% |
-|         18 | GDPool         |            12 |            0.27% |
-|         19 | Innopolis Tech |            11 |            0.25% |
-|         20 | NiceHash       |             8 |            0.18% |
-|         21 | RedRock Pool   |             8 |            0.18% |
-|         22 | Unknown        |             2 |            0.05% |
-|         23 | Public Pool    |             1 |            0.02% |
+|          1 | Foundry USA    |          1297 |          29.57 % |
+|          2 | AntPool        |           755 |          17.21 % |
+|          3 | ViaBTC         |           514 |          11.72 % |
+|          4 | F2Pool         |           467 |          10.65 % |
+|          5 | SpiderPool     |           349 |           7.96 % |
+|          6 | MARA Pool      |           229 |           5.22 % |
+|          7 | SECPOOL        |           197 |           4.49 % |
+|          8 | Luxor          |           128 |           2.92 % |
+|          9 | Binance Pool   |           105 |           2.39 % |
+|         10 | OCEAN          |            78 |           1.78 % |
+|         11 | SBI Crypto     |            70 |           1.60 % |
+|         12 | Braiins Pool   |            54 |           1.23 % |
+|         13 | WhitePool      |            33 |           0.75 % |
+|         14 | Mining Squared |            26 |           0.59 % |
+|         15 | BTC.com        |            16 |           0.36 % |
+|         16 | Poolin         |            14 |           0.32 % |
+|         17 | ULTIMUSPOOL    |            14 |           0.32 % |
+|         18 | GDPool         |            12 |           0.27 % |
+|         19 | Innopolis Tech |            11 |           0.25 % |
+|         20 | NiceHash       |             8 |           0.18 % |
+|         21 | RedRock Pool   |             8 |           0.18 % |
+|         22 | Unknown        |             2 |           0.05 % |
+|         23 | Public Pool    |             1 |           0.02 % |
 
 *Source [mempool.space](https://mempool.space/graphs/mining/pools), données sur un mois, du 16 décembre 2025 au 16 janvier 2026.*
 

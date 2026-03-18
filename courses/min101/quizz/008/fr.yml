@@ -6,4 +6,4 @@ wrong_answers:
   - Les 21 premières transactions du bloc
 explanation: |
   Le minage consiste à hacher en boucle l’entête de bloc de 80 octets, qui engage le contenu du bloc.
-reviewed: false
+reviewed: true 

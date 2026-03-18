@@ -1526,6 +1526,8 @@ Capitalism is often accused of being the source of the injunction: "we must alwa
 
 ![Nazi party propaganda poster](assets/en/088.webp)
 
+[Fear the Boom and Bust: Keynes vs. Hayek - Economics Rap Battle](https://www.youtube.com/watch?v=d0nERTFo-Sk)
+
 ### The Analysis of the 1929 Crisis
 
 Published in 1936, John Maynard Keynes' book, _[The General Theory of Employment, Interest, and Money](https://planb.academy/resources/books/the-general-theory)_, swept everything in its path. Questioning the causes of the Great Depression and the means to emerge from it, he describes a new economic paradigm, which would convert generations of economists and politicians.

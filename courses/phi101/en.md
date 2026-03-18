@@ -125,8 +125,6 @@ When one opens textbooks, Bastiat noted, one learns that humanity would be doome
 
 > "It suffices to open, almost at random, a book of philosophy, politics, or history to see how deeply rooted in our country is this idea, born of classical studies and the mother of Socialism, that humanity is an inert matter receiving from power life, organization, morality, and wealth; or worse, that humanity itself tends towards its degradation and is only stopped on this slope by the mysterious hand of the Legislator." ([_The Law_](http://bastiat.org/fr/la_loi.html)).
 
-https://planb.academy/resources/books/the-law
-
 In other words, the cultural prejudice dominating Western philosophy as well as historiography is that we owe everything to power: freedom, health, education, security, and prosperity. Humanity is described as "inert matter" that takes shape thanks to the legislator.
 
 But the reality of power is quite different according to Bastiat. Power is oppression. He writes:
@@ -141,8 +139,6 @@ History is thus a struggle between two principles: freedom and oppression.
 
 > Freedom! That is, in the end, the harmonious principle. Oppression! That is the dissonant principle; the struggle of these two powers fills the annals of mankind. ([_Economic Harmonies_](http://bastiat.org/fr/conclusion_eo_harmonies.html), conclusion of the original edition).
 
-https://planb.academy/resources/books/harmonies-economiques
-
 ### What is oppression?
 
 ![Frédéric Bastiat, Property and Plunder](assets/en/008.webp)
@@ -155,8 +151,6 @@ What is the difference between production and plunder? Here is Bastiat's answer:
 
 In other words, **production is a form of power over nature. Plunder is power over men.** However, there are two forms of plunder: legal and illegal.
 Illegal plunder is the theft or crime committed by one citizen against another. It is the action of the bandit or the swindler. However, the worst form of plunder is that which is accomplished by law: "There are people who think that plunder loses all its immorality provided it is legal. As for me, I cannot imagine a more aggravating circumstance." ([_What is Seen and What is Not Seen_](http://bastiat.org/fr/cqovecqonvp.html#RESTRICTION)).
-
-https://planb.academy/resources/books/ce-quon-voit-et-ce-quon-ne-voit-pas
 
 Bastiat tells us there are still two forms of legal plunder:
 

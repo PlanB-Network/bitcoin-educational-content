@@ -1463,7 +1463,7 @@ En cuanto al trueque, algunas teorías sugieren que se utilizaba principalmente 
 
 
 
-Eso es lo que vamos a hacer en esta sección. Vamos a realizar una especie de encuesta para presentar las diferentes teorías sobre la aparición del dinero y las diferentes definiciones de lo que es el dinero. Presentaremos y criticaremos las tesis tanto de los economistas clásicos como de los antropólogos. Incluso tendré la suerte de contar con la presencia de Ulrich Fromy, que presentará la perspectiva de un economista austriaco sobre estos diversos temas.
+Eso es lo que vamos a hacer en esta sección. Vamos a realizar una especie de encuesta para presentar las diferentes teorías sobre la aparición del dinero y las diferentes definiciones de lo que es el dinero. Presentaremos y criticaremos las tesis tanto de los economistas clásicos como de los antropólogos. Incluso tendré la suerte de contar con la presencia de Ulrich, que presentará la perspectiva de un economista austriaco sobre estos diversos temas.
 
 
 

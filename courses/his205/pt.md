@@ -1463,7 +1463,7 @@ Quanto à troca, algumas teorias sugerem que era sobretudo utilizada em trocas i
 
 
 
-É isso que vamos fazer nesta secção. Vamos fazer uma espécie de inquérito para apresentar as diferentes teorias sobre o aparecimento do dinheiro e as diferentes definições do que é o dinheiro. Vamos apresentar e criticar as teses tanto dos economistas clássicos como dos antropólogos. Terei até a sorte de contar com a presença de Ulrich Fromy, que apresentará a perspetiva de um economista austríaco sobre estes diferentes temas.
+É isso que vamos fazer nesta secção. Vamos fazer uma espécie de inquérito para apresentar as diferentes teorias sobre o aparecimento do dinheiro e as diferentes definições do que é o dinheiro. Vamos apresentar e criticar as teses tanto dos economistas clássicos como dos antropólogos. Terei até a sorte de contar com a presença de Ulrich, que apresentará a perspetiva de um economista austríaco sobre estes diferentes temas.
 
 
 

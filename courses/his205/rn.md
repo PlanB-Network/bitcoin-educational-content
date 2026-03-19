@@ -1463,7 +1463,7 @@ Naho ku bijanye n’uguhinduranya, hari inyigisho zivuga ko vyakoreshwa cane can
 
 
 
-Ivyo rero nivyo tuzokora muri iki gice. Tugiye gukora ubushakashatsi bumwe bumwe kugira ngo tugaragaze inyigisho zitandukanye ku bijanye n’uguseruka kw’amahera n’insobanuro zitandukanye z’ico amahera ari co. Tuzoba turiko turashikiriza no kunegura ivyiyumviro vy’abahinga mu vy’ubutunzi n’abahinga mu vy’imico kama. Nzogira mbere amahirwe yo kuba turi kumwe na Ulrich Fromy, azobabwira ivyiyumviro vy’umuhinga mu vy’ubutunzi wo muri Otirishiya kuri ivyo bintu bitandukanye.
+Ivyo rero nivyo tuzokora muri iki gice. Tugiye gukora ubushakashatsi bumwe bumwe kugira ngo tugaragaze inyigisho zitandukanye ku bijanye n’uguseruka kw’amahera n’insobanuro zitandukanye z’ico amahera ari co. Tuzoba turiko turashikiriza no kunegura ivyiyumviro vy’abahinga mu vy’ubutunzi n’abahinga mu vy’imico kama. Nzogira mbere amahirwe yo kuba turi kumwe na Ulrich, azobabwira ivyiyumviro vy’umuhinga mu vy’ubutunzi wo muri Otirishiya kuri ivyo bintu bitandukanye.
 
 
 

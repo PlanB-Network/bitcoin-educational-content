@@ -1463,7 +1463,7 @@ Mengenai barter, beberapa teori menyatakan bahwa barter terutama digunakan dalam
 
 
 
-Jadi, itulah yang akan kita lakukan di bagian ini. Kita akan melakukan semacam survei untuk menyajikan berbagai teori tentang kemunculan uang dan berbagai definisi tentang apa itu uang. Kita akan menyajikan dan mengkritik tesis-tesis dari para ekonom dan antropolog klasik. Saya bahkan cukup beruntung bisa mengajak Ulrich Fromy, yang akan mempresentasikan perspektif ekonom Austria tentang berbagai subjek ini.
+Jadi, itulah yang akan kita lakukan di bagian ini. Kita akan melakukan semacam survei untuk menyajikan berbagai teori tentang kemunculan uang dan berbagai definisi tentang apa itu uang. Kita akan menyajikan dan mengkritik tesis-tesis dari para ekonom dan antropolog klasik. Saya bahkan cukup beruntung bisa mengajak Ulrich, yang akan mempresentasikan perspektif ekonom Austria tentang berbagai subjek ini.
 
 
 

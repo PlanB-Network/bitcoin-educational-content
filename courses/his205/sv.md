@@ -1463,7 +1463,7 @@ När det gäller byteshandel finns det teorier om att den främst användes i in
 
 
 
-Så det är vad vi ska göra i det här avsnittet. Vi kommer att göra en slags undersökning för att presentera de olika teorierna om pengars uppkomst och de olika definitionerna av vad pengar är. Vi kommer att presentera och kritisera både klassiska ekonomers och antropologers teser. Jag har till och med turen att ha Ulrich Fromy med mig, som kommer att presentera en österrikisk ekonoms perspektiv på dessa olika ämnen.
+Så det är vad vi ska göra i det här avsnittet. Vi kommer att göra en slags undersökning för att presentera de olika teorierna om pengars uppkomst och de olika definitionerna av vad pengar är. Vi kommer att presentera och kritisera både klassiska ekonomers och antropologers teser. Jag har till och med turen att ha Ulrich med mig, som kommer att presentera en österrikisk ekonoms perspektiv på dessa olika ämnen.
 
 
 

@@ -610,6 +610,23 @@ class SchemaValidator:
 
         return results
 
+    def _validate_event_semantics(self, yaml_data: dict, file_path: str) -> ValidationResult:
+        """Validate semantic rules for events that go beyond schema type checking."""
+        result = ValidationResult(file_path=file_path)
+
+        booking_enabled = yaml_data.get("book_online") is True or yaml_data.get("book_in_person") is True
+
+        if booking_enabled and "available_seats" not in yaml_data:
+            result.add_warning("Booking enabled but available_seats not set. Internal events should specify capacity.")
+
+        if booking_enabled and "project_id" not in yaml_data:
+            result.add_warning("Booking enabled but no project_id. If this is an external event, set book_online/book_in_person to false.")
+
+        if not booking_enabled and yaml_data.get("price_dollars", 0) > 0:
+            result.add_warning("Price set but booking is disabled. External events should not have a price.")
+
+        return result
+
     def validate_folder(self, folder_path: str) -> list[ValidationResult]:
         """Validate a content folder."""
         folder = Path(folder_path)
@@ -672,6 +689,12 @@ class SchemaValidator:
                 yaml_data = self.load_yaml_file(yaml_path)
                 result = self.validate_yaml_against_schema(yaml_data, schema, str(yaml_path))
                 results.append(result)
+
+                # Run semantic validation for events
+                if config.name == "Event":
+                    semantic_result = self._validate_event_semantics(yaml_data, str(yaml_path))
+                    if semantic_result.warnings or semantic_result.errors:
+                        results.append(semantic_result)
             else:
                 result = ValidationResult(file_path=str(yaml_path))
                 result.add_warning(f"Schema file '{config.schema_file}' not found - skipping validation")

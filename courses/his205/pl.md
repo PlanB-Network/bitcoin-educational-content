@@ -1463,7 +1463,7 @@ Jeśli chodzi o handel wymienny, niektóre teorie sugerują, że był on używan
 
 
 
-To właśnie zamierzamy zrobić w tej sekcji. Zamierzamy przeprowadzić swego rodzaju ankietę, aby przedstawić różne teorie na temat pojawienia się pieniądza i różne definicje tego, czym jest pieniądz. Przedstawimy i skrytykujemy tezy zarówno klasycznych ekonomistów, jak i antropologów. Będę miał nawet to szczęście, że będzie ze mną Ulrich Fromy, który przedstawi perspektywę austriackiego ekonomisty na te różne tematy.
+To właśnie zamierzamy zrobić w tej sekcji. Zamierzamy przeprowadzić swego rodzaju ankietę, aby przedstawić różne teorie na temat pojawienia się pieniądza i różne definicje tego, czym jest pieniądz. Przedstawimy i skrytykujemy tezy zarówno klasycznych ekonomistów, jak i antropologów. Będę miał nawet to szczęście, że będzie ze mną Ulrich, który przedstawi perspektywę austriackiego ekonomisty na te różne tematy.
 
 
 

@@ -341,7 +341,6 @@ Charles Comte, cousin of Auguste Comte and son-in-law of Say, is the founder of 
 What is the goal of the review? The title speaks for itself: to censor the government. To fight against the arbitrariness of power by enlightening public opinion, to defend the freedom of the press.
 
 ![image](assets/en/032.webp)
-_(Benjamin Constant)_
 
 They adopt from Benjamin Constant the distinction between the Ancients and the Moderns, characterized on one hand by war, and on the other by commerce and industry. However, they argue that political economy provides the best explanation of social phenomena. They particularly understand that nations achieve peace and prosperity when property rights and free trade are respected. From now on, for them, political economy is the true and only foundation of politics. To philosophy, which confines itself to the abstract critique of forms of government, must be substituted a theory based on the knowledge of economic interests.
 
@@ -420,7 +419,6 @@ The goal of the League was to mobilize public opinion to pressure parliament to 
 - Promote peace among nations
 
 ![image](assets/en/041.webp)
-_(Jeremy Bentham)_
 
 A disciple of Bentham's utilitarianism, Cobden's conviction was that the freedom of labor and trade directly served the interests of the most numerous, poorest, and most suffering masses of society. On the contrary, customs, as an instrument of arbitrary prohibitions and privileges, could only benefit the most powerful industries.
 
@@ -432,7 +430,6 @@ Bastiat appropriated a part of their method; he assimilated their language and t
 It was only after Bastiat's death, in 1866, that Napoleon III would sign a free trade treaty with England, a sort of posthumous victory for the man who had dedicated the last six years of his short life to this great idea.
 
 ![image](assets/en/043.webp)
-_(Michel Chevalier)_
 
 ### Free trade remains relevant today
 
@@ -455,7 +452,6 @@ Frédéric Bastiat, who expressed himself in the 1840s, is the heir to a generat
 For them, the idea was simple: the more ideas are allowed to be expressed, the more truth progresses and the more easily errors are refuted. Science always progresses in this way.
 
 ![image](assets/en/044.webp)
-_(Montesquieu, Diderot, Voltaire, Condorcet, Rousseau)_
 
 On the contrary, few have understood that what was true for ideas was also true for goods and services. The freedom to trade with others indeed has two virtues: it is efficient and leads to a fairer distribution. Not only did Rousseau fail to understand this, but he also opposed this freedom in the name of a misguided notion of law and right. **One of the major sources of socialism, Bastiat notes, is Rousseau's opinion that the entire social order stems from the law.**
 
@@ -556,8 +552,6 @@ However, as Bastiat reminds us, monopoly excludes progress.
 :::video id=4ef9f07f-aeb1-4626-b9ee-91060fd75803:::
 
 ![image](assets/en/055.webp)
-
-_(Richard Cobden)_
 
 ### Protectionism as economic nationalism
 
@@ -1011,8 +1005,6 @@ The risk of overly favoring the path of law or bureaucratic control is that it d
 Let's illustrate this issue with a few major current topics. First example, the 2008 crisis.
 
 ![image](assets/en/092.webp)
-
-_(Alan Greenspan, Chairman of the FED, the American central bank, from 1987 to 2006)_
 
 For years, monetary policy leaders explained that if profits are privatized when everything goes well, losses will be mutualized in case of bankruptcy (bailouts, rescue plans, interest rate manipulation, printing money, etc.). In doing so, **they created a moral hazard, they facilitated unreasonable risk-taking, and they encouraged the financial world to behave irresponsibly**. They thus precipitated finance into the crisis we experienced.
 

@@ -253,7 +253,7 @@ Producers resort to persuasion, negotiation, and contract, while plunderers reso
 
 > The only fair is laissez-faire.
 >
-> Adam Smith
+> -- Adam Smith
 
 
 ## Antoine Destutt de Tracy

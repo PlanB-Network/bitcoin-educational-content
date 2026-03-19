@@ -20,27 +20,57 @@ You'll start with the thinkers who influenced him, like Adam Smith and Richard C
 ## Course Overview
 <chapterId>aa493f46-2d3a-4b76-ad79-ed44113a97f4</chapterId>
 
-The goal of this course is to provide you with a deep understanding of the life, intellectual influences, ideological opponents, and economic theories of Frédéric Bastiat. Through this structured journey, you will discover how his ideas have shaped economic thought and continue to influence current debates.
+### Welcome
 
-**Section 1: Introduction**  
-We will start with a general overview of Frédéric Bastiat, an underrated genius of economics. You will learn about his life, intellectual journey, and the historical context in which he developed his thinking. Understanding this context is essential to fully grasp the scope of his writings and theories.
+Welcome to this course on Frédéric Bastiat, one of the most incisive economic thinkers of the 19th century. Though largely forgotten in France, Bastiat remains one of the two most famous French authors in the United States, alongside Alexis de Tocqueville. His short book *The Law* was Ronald Reagan’s favorite, and his ideas on free trade, property, and the role of the state continue to shape debates today.
 
-**Section 2: Influences**  
-We will proceed with analyzing the thinkers who shaped Frédéric Bastiat’s economic thought. You will learn how major figures such as Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer, and Richard Cobden contributed to his intellectual development, laying the foundations for his reflection on free trade and market economics.
+This course, developed by [Damien Theillier](https://planb.academy/professors/damien-theillier), takes you on a structured journey through Bastiat’s life, the thinkers who influenced him, the opponents he challenged, and the economic theories he built. You will discover why his critiques of protectionism, socialism, and government overreach feel surprisingly modern, and why his positive vision of markets and individual responsibility still matters.
 
-**Section 3: Opponents**  
-Next, we will explore Bastiat’s criticisms of his ideological opponents. Whether it be Rousseau, classical education, protectionism, socialism, or Proudhon, you will understand why Bastiat considered these doctrines as obstacles to economic and social progress, and how he responded to their arguments with sharp logic.
+### What you will learn
 
-**Section 4: Economic Fallacies**  
-This section is dedicated to the economic fallacies exposed by Bastiat, including the famous "*What Is Seen and What Is Not Seen*" and "*The Candlemakers' Petition*". We will examine how he skillfully demonstrated, through satire and rigorous analysis, the common economic errors of his time, which remain relevant today.
+- Understand the life and historical context that shaped Bastiat’s thinking
+- Identify the intellectual influences behind his economic philosophy: Adam Smith, Jean-Baptiste Say, Destutt de Tracy, Cobden, and others
+- Analyze his critiques of Rousseau, classical education, protectionism, socialism, and Proudhon
+- Master his most famous arguments: *What Is Seen and What Is Not Seen*, *The Candlemakers’ Petition*, and the concept of legal plunder
+- Discover his positive vision of economic harmonies, the power of responsibility, and true solidarity
+- Grasp the core thesis of *The Law*: property rights precede legislation, and the state’s only legitimate role is to protect them
 
-**Section 5: Economic Harmonies**  
-Here, you will discover Bastiat’s positive vision of the economy. We will address concepts such as the miracle of the market, the power of individual responsibility, and the distinction between true and false solidarity. Bastiat viewed the economy as a coherent system where well-understood self-interest benefits the common good. We will explore why.
+### Curriculum
 
-**Section 6: The Law**  
-To conclude this course, we will delve into Bastiat’s major work, "*The Law*", where he presents his reflections on property rights, legal plunder, and the limited role of the state. You will understand why this essay is considered one of the most compelling manifestos in favor of individual freedom and the market economy.
+**Section 1: Introduction.** We begin with Bastiat himself: his life in Bayonne and the Landes, his trip to England, his encounter with the free trade movement, and his rapid rise as an economist and deputy during the Second Republic.
 
-Ready to discover how Frédéric Bastiat’s ideas still resonate today? Join us on this intellectual journey that could challenge your understanding of economics!
+**Section 2: Influences.** We trace the thinkers who shaped him: Adam Smith and Jean-Baptiste Say on markets and value; Destutt de Tracy on trade and property; Charles Comte and Charles Dunoyer on the liberal theory of class struggle; Richard Cobden and the Anti-Corn Law League on free trade activism.
+
+**Section 3: Opponents.** We examine the doctrines Bastiat fought against: Rousseau’s social contract, the legacy of classical education, protectionism and socialism as twin forms of legal plunder, and his famous debate with Proudhon on free credit.
+
+**Section 4: Economic Fallacies.** We explore Bastiat’s devastating critiques: the broken window fallacy, the candlemakers’ petition against the sun, plunder through taxation, and the distinction between religious and economic morality.
+
+**Section 5: Economic Harmonies.** We discover Bastiat’s positive vision: the miracle of the free market, freedom and responsibility as inseparable principles, the power of individual responsibility, and the difference between true (voluntary) and false (state-imposed) solidarity.
+
+**Section 6: The Law.** We conclude with Bastiat’s masterwork: property as a natural right, legal plunder as the perversion of law, the three legitimate functions of the state, and his lasting legacy through Mises, Hazlitt, Friedman, Hayek, and Reagan.
+
+### About the author
+
+This course was created by **[Damien Theillier](https://planb.academy/professors/damien-theillier)**, philosopher and professor, specialist in the French liberal tradition. Theillier has taught philosophy at the university level and is a recognized authority on Bastiat’s thought. His approach combines rigorous philosophical analysis with accessible presentation, letting Bastiat’s own words carry the argument wherever possible.
+
+### Key references
+
+The following works by Bastiat are central to this course and available in the Plan B Academy library:
+
+- [*Oeuvres Complètes* (7 volumes)](https://planb.academy/resources/books/bastiat-oeuvres-completes-765be39c-134a-4333-8b4b-e45a4fff7e73)
+- [*La Loi* (1850)](https://planb.academy/resources/books/la-loi-3f2e33c3-3d68-4561-b02c-84ecc94dd1a0)
+- [*Sophismes économiques* (1845)](https://planb.academy/resources/books/sophismes-economiques-9ccb727f-d253-4188-9cc6-74c1e6ce6a16)
+- [*Harmonies économiques* (1850)](https://planb.academy/resources/books/harmonies-economiques-66561d29-feb2-495c-815d-cea521b1930c)
+- [*Ce qu’on voit et ce qu’on ne voit pas* (1850)](https://planb.academy/resources/books/ce-quon-voit-et-ce-quon-ne-voit-pas-8eaa83b8-738a-49b9-a29e-fb48b8668fcf)
+- [*Cobden et la Ligue* (1845)](https://planb.academy/resources/books/cobden-et-la-ligue-292d6271-1829-496a-992b-c0ca08138110)
+- [*Le Libre-Échange*](https://planb.academy/resources/books/le-libre-echange-a5e85b0e-ca10-4210-afa5-19016bc35799)
+
+Other works referenced in this course:
+
+- Adam Smith, [*The Wealth of Nations*](https://planb.academy/resources/books/the-wealth-of-nations-c3e78eda-cc44-4cae-8460-f962148aa289)
+- Jean-Baptiste Say, [*Traité d’économie politique*](https://planb.academy/resources/books/traite-economie-politique-5e4bc84a-a7e4-4466-bfeb-d87a12e3b6c1)
+- Henry Hazlitt, [*Economics in One Lesson*](https://planb.academy/resources/books/economics-in-one-lesson-04d2656f-19fa-49ee-990d-01a4228b7acd)
+- Tocqueville, [*De la démocratie en Amérique*](https://planb.academy/resources/books/de-la-democratie-en-amerique-7bc2962c-d9b7-4e34-9637-d704a90dfaf4)
 
 ## Bastiat: An Underrated Genius
 
@@ -48,23 +78,23 @@ Ready to discover how Frédéric Bastiat’s ideas still resonate today? Join us
 
 :::video id=0f388c57-8767-49a7-942c-01af703598b3:::
 
-This course is an introduction to Frédéric Bastiat, an unrecognized genius and a beacon for our times. In this brief introduction, I aim to help you discover who Frédéric Bastiat was and the major themes we will cover during this series.
+This course is an introduction to Frédéric Bastiat, an unrecognized genius and a beacon for our times. In this brief introduction, we will discover who Frédéric Bastiat was and the major themes we will cover during this series.
 
 ![image](assets/en/001.webp)
 
-Indeed, Frédéric Bastiat, born in 1801 and active during the first half of the 19th century, remained a prominent author for some time. And then, gradually, he disappeared, and today, no one hears about him, no one knows who he is. Yet, paradoxically, this author has been translated into many languages, including Italian, Russian, Spanish, and English.
+Indeed, Frédéric Bastiat, born in 1801 and active during the first half of the 19th century, remained a prominent author for some time. Gradually, however, he disappeared, and today, no one hears about him, no one knows who he is. Yet, paradoxically, **this author has been translated into many languages, including Italian, Russian, Spanish, and English**.
 
 ![image](assets/en/002.webp)
 
-It turns out that after World War II, one of his books was published in the United States. It became very famous, to the point that Ronald Reagan himself said it was his favorite book, and this little book is called "The Law." Bastiat is thus one of the two most famous French authors in the United States, the other being well known in France too, Alexis de Tocqueville.
+It turns out that after World War II, one of his books was published in the United States. It became very famous, to the point that Ronald Reagan himself said it was his favorite book, and this little book is called [*The Law*](https://planb.academy/resources/books/la-loi-3f2e33c3-3d68-4561-b02c-84ecc94dd1a0). Bastiat is thus one of the two most famous French authors in the United States, the other being well known in France too, Alexis de Tocqueville.
 
 ![image](assets/en/003.webp)
 
-So, an unrecognized genius, yet a beacon for our times. Indeed, Frédéric Bastiat, born in Bayonne, spent part of his life in the Landes, where he managed an agricultural estate he had inherited, and ultimately led a life as an entrepreneur. And then, very early on, he became interested in economics. He traveled to England and met Richard Cobden, a leader of the free trade movement. Bastiat was fascinated by this movement; he was convinced that free trade was a solution for France, and he subsequently decided to spread his ideas throughout the country. He wrote articles that were very successful, and he moved to Paris to run a newspaper called, at the time, the Journal des économistes.
+An unrecognized genius, yet a beacon for our times. Indeed, Frédéric Bastiat, born in Bayonne, spent part of his life in the Landes, where he managed an agricultural estate he had inherited, and ultimately led a life as an entrepreneur. Very early on, he became interested in economics. He traveled to England and met Richard Cobden, a leader of the free trade movement. Bastiat was fascinated by this movement; he was convinced that free trade was a solution for France, and he subsequently decided to spread his ideas throughout the country. He wrote articles that were very successful, and he moved to Paris to run a newspaper called, at the time, the Journal des économistes.
 
 ![image](assets/en/004.webp)
 
-He was also a philosopher and a thinker on society, social order, justice, law, and human rights. And in that regard, we can say that Bastiat is a light for our times. And I would like to conclude with that. He is someone who tried to understand the workings of the political market. Of course, he is also a defender of the market economy, for whom ultimately the market economy is the best way to create wealth. However, aside from that, and this is where he remains unrecognized, he understood the mechanisms of the political market.
+He was also a philosopher and a thinker on society, social order, justice, law, and human rights. In that regard, we can say that Bastiat is a light for our times. He is someone who tried to understand the workings of the political market. Of course, he is also a defender of the market economy, for whom ultimately the market economy is the best way to create wealth. But beyond that, and this is where he remains unrecognized, **he understood the mechanisms of the political market**.
 
 ![image](assets/en/005.webp)
 
@@ -84,7 +114,7 @@ When he was elected as a deputy, it was during the Second Republic, and from tha
 
 ---
 
-And he realized that fundamentally, nothing had really changed. People disposed of others' property through voting and the law, which he referred to as legal plunder. This phenomenon of legal plunder was at the center of his work, especially in this short text he wrote towards the end of his life, "The Law," where he contrasts legal plunder with property, the right to property. He shows that, fundamentally, the real solution to the social problem is freedom, namely, property; the control over oneself and the fruits of one's labor.
+He realized that fundamentally, nothing had really changed. People disposed of others' property through voting and the law, which he referred to as legal plunder. This phenomenon of legal plunder was at the center of his work, especially in this short text he wrote towards the end of his life, "The Law," where he contrasts legal plunder with property, the right to property. He shows that, fundamentally, the real solution to the social problem is freedom, namely, property; the control over oneself and the fruits of one's labor.
 
 In this course, we will travel together through the thought of Frédéric Bastiat, starting from the influences of the authors who shaped him very early on in his youth, then we will look into his economic sophisms, and finally, we will conclude with this great text, "The Law," which will introduce us to the analysis of the political market, to the analysis of society.
 
@@ -98,7 +128,8 @@ In 1844, Frédéric Bastiat made a business trip to Spain. After staying in Madr
 
 ![image](assets/en/007.webp)
 
-It was there that the course of his life would undergo a radical change. He himself recounts that his vocation as an economist was decided at that moment. Upon returning to France, he had only one idea in mind: to make France aware of the liberal movement stirring England.
+It was there that the course of his life would undergo a radical change. He himself recounts that **his vocation as an economist was decided at that moment**. Upon returning to France, he had only one idea in mind: to make France aware of the liberal movement stirring England.
+
 Frédéric Bastiat was born in Bayonne on June 30, 1801. Orphaned at the age of 9, he pursued his studies at the Catholic college of Sorèze. He was gifted in languages, learning English, Spanish, and even Basque. However, he was not motivated by his studies and decided against taking the Baccalaureate, choosing instead to work in his uncle's import-export business in Bayonne.
 
 In 1825, he inherited an agricultural estate from his grandfather, which he managed as a "gentleman-farmer," in his own words. It was then that he encountered the problems caused by the lack of a clear definition of property rights firsthand. He decided to become a justice of the peace in his town of Mugron, in the heart of the Landes, a commercial and fluvial crossroads between the ports of Bordeaux and Bayonne. Later, he was elected as a member of the General Council of the Landes.
@@ -109,18 +140,18 @@ He quickly developed a passion for political economy and studied the works of Ad
 
 ![image](assets/en/009.webp)
 
-
 Upon his return from England, he wrote an article titled: "On the Influence of English and French Tariffs on the Future of the Two Peoples," which he sent to the Journal des Économistes in Paris. The article appeared in the October 1844 issue, and it was a complete success. Everyone admired his powerful and incisive argumentation, as well as his sober and elegant style.
 
 ![image](assets/en/010.webp)
 
 The Journal des Économistes then asked him for more articles, and several members of the Political Economy Society, notably Horace Say, the son of Jean-Baptiste Say, and Michel Chevalier, a renowned professor, congratulated him, encouraging him to continue working with them to spread economic truths. This marked the beginning of a new life in Paris.
 
-He first published the initial series of Economic Sophisms, in which he attacked protectionists with boldness and irony. In Paris, he even started a course on political economy in a private room, eagerly attended by the student elite.
+He first published the initial series of [*Economic Sophisms*](https://planb.academy/resources/books/sophismes-economiques-9ccb727f-d253-4188-9cc6-74c1e6ce6a16), in which he attacked protectionists with boldness and irony. In Paris, he even started a course on political economy in a private room, eagerly attended by the student elite.
 
 ![image](assets/en/011.webp)
 
 The following year, he founded the "Association for Free Trade" in France and threw himself into the fight against protectionism in France. He raised funds, created a weekly review, and gave lectures throughout the country.
+
 The first meeting took place in Bordeaux on February 23, 1846, during which the Bordeaux Association for Free Trade was established. Soon, the movement spread throughout France. In Paris, an initial core was formed among the members of the Society of Economists, to which deputies, industrialists, and traders joined. Significant groups also formed in Marseille, Lyon, and Le Havre.
 
 ![image](assets/en/012.webp)
@@ -129,7 +160,7 @@ The February Revolution of 1848 overthrew the monarchy of Louis-Philippe, known 
 
 > One cannot give to some, by law, without being obliged to take from others by another law.  
 
-Almost all of his books and essays were written during the last six years of his life, from 1844 to 1850. In 1850, Bastiat wrote two of his most famous works: "The Law" and a series of pamphlets titled "What Is Seen and What Is Not Seen." The Law has been translated into many foreign languages, including English, German, Spanish, Russian, and Italian.
+**Almost all of his books and essays were written during the last six years of his life**, from 1844 to 1850. In 1850, Bastiat wrote two of his most famous works: *The Law* and a series of pamphlets titled [*What Is Seen and What Is Not Seen*](https://planb.academy/resources/books/ce-quon-voit-et-ce-quon-ne-voit-pas-8eaa83b8-738a-49b9-a29e-fb48b8668fcf). The Law has been translated into many foreign languages, including English, German, Spanish, Russian, and Italian.
 
 ![image](assets/en/013.webp)
 
@@ -151,7 +182,7 @@ In economics, Bastiat always acknowledged his debt to Adam Smith and Jean-Baptis
 
 ![image](assets/en/015.webp)
 
-Political economy, as conceived by Adam Smith and J.-B. Say, is encapsulated in a single word: freedom. Freedom of trade, individual freedom, free trade, and free initiative. Free trade was first defended by the physiocrats, such as François Quesnay and Vincent de Gournay, and then by Adam Smith, who synthesized their ideas with his own observations. Finally, at the end of the 18th century, Jean-Baptiste Say clarified and corrected certain points in his master's doctrine, Adam Smith's, in his masterful Treatise on Political Economy.
+**Political economy, as conceived by Adam Smith and J.-B. Say, is encapsulated in a single word: freedom.** Freedom of trade, individual freedom, free trade, and free initiative. Free trade was first defended by the physiocrats, such as François Quesnay and Vincent de Gournay, and then by Adam Smith, who synthesized their ideas with his own observations. Finally, at the end of the 18th century, Jean-Baptiste Say clarified and corrected certain points in his master's doctrine, Adam Smith's, in his masterful [*Treatise on Political Economy*](https://planb.academy/resources/books/traite-economie-politique-5e4bc84a-a7e4-4466-bfeb-d87a12e3b6c1).
 
 ![image](assets/en/016.webp)
 
@@ -179,7 +210,8 @@ Exchange is a positive-sum game. What one gains, the other also gains. It thus d
 
 ![image](assets/en/019.webp)
 
-On the other hand, Bastiat will admit with Jean-Baptiste Say that utility is the true foundation of value. Labor does not create value. Scarcity does not either. Everything stems from utility. Indeed, no one agrees to pay for a service unless they deem it useful. One only ever produces utility.
+On the other hand, **Bastiat will admit with Jean-Baptiste Say that utility is the true foundation of value**. Labor does not create value. Scarcity does not either. Everything stems from utility. Indeed, no one agrees to pay for a service unless they deem it useful. One only ever produces utility.
+
 But Bastiat also nuanced Say on this point. It's not about the utility that is in things; it's about the relative utility of services. "Value is the ratio of two exchanged services," according to his own words. Therefore, value is subjective, and the only way to grasp individuals' preferences is to observe their behavior in a free market. The market reveals individual preferences and is a great regulator of society through exchange.
 
 The economy obeys a number of simple laws derived from human behavior. One of them, known as "Say's Law," states: "Products and services are exchanged for products and services." His idea is that nations and individuals benefit from an increase in production level because it offers increased opportunities for mutually beneficial exchanges.
@@ -188,7 +220,7 @@ The economy obeys a number of simple laws derived from human behavior. One of th
 
 Indeed, products are only purchased in anticipation of the services the buyer expects: I buy a disk for the music I will listen to, I buy a movie ticket for the film I will see. And in an exchange, each party decides because it judges that it can derive more services from what it acquires than what it gives up. In this context, money serves as an intermediary commodity, compensating for a service rendered and facilitating access to other services.
 
-For Bastiat, the economy of exchanges — that is, of mutual services freely offered and accepted — is what underpins peace and prosperity, allowing for the harmony of interests.
+For Bastiat, the economy of exchanges (that is, of mutual services freely offered and accepted) is what underpins peace and prosperity, allowing for the harmony of interests.
 
 But from Jean-Baptiste Say, Frédéric Bastiat also inherits a key concept, that of plunder. For, he says, echoing the words of Say:
 
@@ -234,13 +266,13 @@ It dominated the revolutionary period and was directed by Jean-Baptiste Say. Des
 
 ![image](assets/en/026.webp)
 
-The purpose of his Treatise on Political Economy is to "examine the best way to employ all our physical and intellectual faculties to satisfy our various needs." His idea is that trade is the source of all human good; it is the civilizing, rationalizing, and pacifying force of the world. The great maxim of political economy is formulated by him as follows: "Trade is the whole of society, just as labor is the whole of wealth." Indeed, he sees society as "a continuous series of exchanges in which both contractors always gain." Therefore, the market is the opposite of predation. It enriches some without impoverishing others. As it will be said later, it is not a "zero-sum game," but a positive-sum game.
+The purpose of his Treatise on Political Economy is to "examine the best way to employ all our physical and intellectual faculties to satisfy our various needs." His idea is that **trade is the source of all human good; it is the civilizing, rationalizing, and pacifying force of the world**. The great maxim of political economy is formulated by him as follows: "Trade is the whole of society, just as labor is the whole of wealth." Indeed, he sees society as "a continuous series of exchanges in which both contractors always gain." Therefore, the market is the opposite of predation. It enriches some without impoverishing others. As it will be said later, it is not a "zero-sum game," but a positive-sum game.
 
 Our author does not go as far as to define political economy as the science of exchanges. But this same reasoning will be taken up and carried through by Bastiat. Selling is an exchange of objects, renting is an exchange of services, and lending is merely a deferred exchange. Political economy thus becomes, for Bastiat, "the theory of exchange."
 
 ![image](assets/en/027.webp)
 
-According to Destutt de Tracy, property necessarily stems from our nature, from our faculty of desire. If man wanted nothing, he would have neither rights nor duties. To meet his needs and fulfill his duties, man must employ means that he acquires through his labor. And the form of social organization that conforms to this end is private property. That is why the sole object of government is to protect property and to allow peaceful exchange.
+According to Destutt de Tracy, **property necessarily stems from our nature, from our faculty of desire**. If man wanted nothing, he would have neither rights nor duties. To meet his needs and fulfill his duties, man must employ means that he acquires through his labor. And the form of social organization that conforms to this end is private property. That is why the sole object of government is to protect property and to allow peaceful exchange.
 
 ![image](assets/en/028.webp)
 
@@ -262,7 +294,7 @@ The history of all civilizations is the story of the struggle between the plunde
 
 ![image](assets/en/029.webp)
 
-For Comte and Dunoyer, plunder, meaning all forms of violence exercised in society by the strong over the weak, is the great key to understanding human history. It is at the origin of all phenomena of exploitation of one class by another.
+For Comte and Dunoyer, **plunder, meaning all forms of violence exercised in society by the strong over the weak, is the great key to understanding human history**. It is at the origin of all phenomena of exploitation of one class by another.
 
 ![image](assets/en/030.webp)
 
@@ -297,9 +329,10 @@ On this point, individuals face two fundamental alternatives: they can plunder t
 
 While for Marx, class antagonism is situated within the productive activity itself, between employees and employers, for Comte and Dunoyer, the conflicting classes are, on one side, the society's producers, who pay taxes (including capitalists, workers, peasants, scholars, etc.) and on the other, the non-producers, who live off rents financed by taxes, "the idle and devouring class" (bureaucrats, officials, politicians, beneficiaries of subsidies or protections).
 
-Then, unlike Marx, the authors of the Censeur Européen do not advocate for class warfare. Instead, they campaign for social peace. And this, according to them, can only be achieved through the depoliticization of society. To this end, it is essential to first reduce the prestige and benefits associated with public offices. It is then important to give influence in the political body to the producers.
+Then, unlike Marx, the authors of the Censeur Européen do not advocate for class warfare. Instead, **they campaign for social peace, which can only be achieved through the depoliticization of society**. To this end, it is essential to first reduce the prestige and benefits associated with public offices. It is then important to give influence in the political body to the producers.
 
 ![image](assets/en/035.webp)
+
 Finally, the only way to rid the world of the exploitation of one class by another is to destroy the very mechanism that makes this exploitation possible: the power of the State to distribute and control property and the allocation of benefits related to it (the "positions").
 
 Their ideas, profoundly innovative, would forever mark Frédéric Bastiat, who would himself become a deep thinker on political crises.
@@ -324,9 +357,9 @@ This economic battle for free trade would occupy all of England until 1846. In F
 
 ![image](assets/en/038.webp)
 
-It was this campaign of agitation for free trade, throughout the kingdom, with tens of thousands of members, that set Bastiat's pen on fire and radically and definitively changed the course of his life.
+It was this campaign of agitation for free trade, throughout the kingdom, with tens of thousands of members, **that set Bastiat's pen on fire and radically and definitively changed the course of his life**.
 
-The League can be compared to a traveling university, educating economically those who attended its meetings across the country—common folk, industrialists, cultivators, and farmers, all of whom the League had taken under its wing and whose interests the grain laws oppressed. Richard Cobden was the driving force behind the movement and an outstanding agitator.
+The League can be compared to a traveling university, educating economically those who attended its meetings across the country: common folk, industrialists, cultivators, and farmers, all of whom the League had taken under its wing and whose interests the grain laws oppressed. Richard Cobden was the driving force behind the movement and an outstanding agitator.
 
 ![image](assets/en/039.webp)
 
@@ -336,7 +369,7 @@ A fascinating and formidable speaker, he had a prodigious gift for inventing str
 
 ![image](assets/en/040.webp)
 
-In 1845, Bastiat published his book, "Cobden and the League," in Paris, accompanied by his translations with commentary. The book opens with an introduction to the economic situation in England, as well as the history of the League's origin and progress. Since 1815, protectionism has been well-developed in England. There were, in particular, laws limiting grain imports, which had very harsh consequences for the people. Indeed, wheat was necessary for making bread, a vital commodity at the time. Moreover, this system favored the aristocracy, that is, the large landowners, who derived rents from it.
+In 1845, Bastiat published his book, [*Cobden and the League*](https://planb.academy/resources/books/cobden-et-la-ligue-292d6271-1829-496a-992b-c0ca08138110), in Paris, accompanied by his translations with commentary. The book opens with an introduction to the economic situation in England, as well as the history of the League's origin and progress. Since 1815, protectionism has been well-developed in England. There were, in particular, laws limiting grain imports, which had very harsh consequences for the people. Indeed, wheat was necessary for making bread, a vital commodity at the time. Moreover, this system favored the aristocracy, that is, the large landowners, who derived rents from it.
 
 > What coexists in England, Bastiat wrote, is a small number of plunderers and a large number of plundered, and one does not need to be a great economist to conclude the opulence of the former and the misery of the latter.  
 
@@ -353,8 +386,9 @@ _(Jeremy Bentham)_
 
 A disciple of Bentham's utilitarianism, Cobden's conviction was that the freedom of labor and trade directly served the interests of the most numerous, poorest, and most suffering masses of society. On the contrary, customs, as an instrument of arbitrary prohibitions and privileges, could only benefit the most powerful industries.
 
-In the 1841 elections, five members of the league, including Cobden, were elected to parliament. On May 26, 1846, unilateral free trade became the law of the kingdom. From then on, the United Kingdom would experience a brilliant period of freedom and prosperity.
-What's interesting is that Bastiat appropriated a part of their method; he assimilated their language and transposed it into the French context. The book on Cobden and the League quickly became a success, and Bastiat made a sensational entry into the world of economists. He founded an association in Bordeaux in favor of free trade and then moved it to Paris. He was offered the leadership of the Journal des Économistes. The movement emerged and continued until 1848.
+In the 1841 elections, five members of the league, including Cobden, were elected to parliament. **On May 26, 1846, unilateral free trade became the law of the kingdom.** From then on, the United Kingdom would experience a brilliant period of freedom and prosperity.
+Bastiat appropriated a part of their method; he assimilated their language and transposed it into the French context. The book on Cobden and the League quickly became a success, and Bastiat made a sensational entry into the world of economists. He founded an association in Bordeaux in favor of free trade and then moved it to Paris. He was offered the leadership of the Journal des Économistes. The movement emerged and continued until 1848.
+
 ![image](assets/en/042.webp)
 
 It was only after Bastiat's death, in 1866, that Napoleon III would sign a free trade treaty with England, a sort of posthumous victory for the man who had dedicated the last six years of his short life to this great idea.
@@ -381,7 +415,7 @@ For them, the idea was simple: the more ideas are allowed to be expressed, the m
 ![image](assets/en/044.webp)
 _(Montesquieu, Diderot, Voltaire, Condorcet, Rousseau)_
 
-On the contrary, few have understood that what was true for ideas was also true for goods and services. The freedom to trade with others indeed has two virtues: it is efficient and leads to a fairer distribution. Not only did Rousseau fail to understand this, but he also opposed this freedom in the name of a misguided notion of law and right. One of the major sources of socialism, Bastiat notes, is Rousseau's opinion that the entire social order stems from the law.
+On the contrary, few have understood that what was true for ideas was also true for goods and services. The freedom to trade with others indeed has two virtues: it is efficient and leads to a fairer distribution. Not only did Rousseau fail to understand this, but he also opposed this freedom in the name of a misguided notion of law and right. **One of the major sources of socialism, Bastiat notes, is Rousseau's opinion that the entire social order stems from the law.**
 
 Bastiat indeed considers Rousseau to be the true precursor of socialism and collectivism. In the author of The Social Contract, there's a phrase that quite well summarizes his philosophy: "we only begin to become men after having been citizens."
 
@@ -413,7 +447,7 @@ However, it is also up to the law to establish property. According to Rousseau, 
 
 Therefore, natural property is the source of evil. And Marx, a great reader of Rousseau, would remember this. How to combat this evil? Through the social contract, Rousseau replies. Indeed, a good society is one that results from a contract stipulating the alienation of the individual's rights to the community. From then on, it is up to the community to grant rights to the individual through the law.
 
-Contrary to Rousseau, Frédéric Bastiat says that "man is born a property owner." For him, property is a necessary consequence of the nature of man, of his constitution. He writes that "man is born a property owner, because he is born with needs whose satisfaction is indispensable to life, with organs and faculties whose exercise is indispensable to the satisfaction of these needs". But faculties are only the extension of the person, and property is only the extension of the faculties. In other words, it is the use of our faculties in work that legitimizes property.
+Contrary to Rousseau, **Frédéric Bastiat says that "man is born a property owner"**. For him, property is a necessary consequence of the nature of man, of his constitution. He writes that "man is born a property owner, because he is born with needs whose satisfaction is indispensable to life, with organs and faculties whose exercise is indispensable to the satisfaction of these needs". But faculties are only the extension of the person, and property is only the extension of the faculties. In other words, it is the use of our faculties in work that legitimizes property.
 
 ![image](assets/en/049.webp)
 
@@ -437,7 +471,7 @@ This passage is surprising. What do Greek and Roman antiquity have to do with it
 
 ![image](assets/en/051.webp)
 
-Bastiat refers to Plato's Republic and his theory of the philosopher-king, as well as to Sparta, which Rousseau admired, and to the Roman Empire, for which Napoleon felt a nostalgic affection. Unfortunately, according to Bastiat, these Greek and Roman ideas are based on a false premise: the idea of the omnipotence of the legislator, of the absolute sovereignty of the law.
+Bastiat refers to Plato's Republic and his theory of the philosopher-king, as well as to Sparta, which Rousseau admired, and to the Roman Empire, for which Napoleon felt a nostalgic affection. Unfortunately, according to Bastiat, **these Greek and Roman ideas are based on a false premise: the idea of the omnipotence of the legislator**, of the absolute sovereignty of the law.
 
 It's enough to open almost any book on philosophy, politics, or history at random to find this idea, rooted in our culture, that humanity is an inert matter receiving life, organization, morality, and prosperity from political power. Left to its own devices, humanity would tend towards anarchy and would only be saved from this disaster by the mysterious and omnipotent hand of the Legislator. However, Bastiat says, this idea has long matured and been prepared by centuries of classical education.
 
@@ -452,7 +486,7 @@ Indeed, Rousseau shares this common legal idea of basing property on the law. Ro
 
 ![image](assets/en/053.webp)
 
-On the contrary, for Bastiat, the right of property is prior to the law. This is what he calls the principle of economists, as opposed to the principle of jurists. While "the principle of jurists virtually contains slavery, says Bastiat, that of economists contains freedom.
+On the contrary, for Bastiat, **the right of property is prior to the law**. This is what he calls the principle of economists, as opposed to the principle of jurists. While "the principle of jurists virtually contains slavery, says Bastiat, that of economists contains freedom.
 
 What then is freedom? It is property, the right to enjoy the fruits of one's labor, the right to work, to develop, to exercise one's faculties, as one sees fit, without the State intervening otherwise than by its protective action.
 
@@ -475,7 +509,7 @@ _(Richard Cobden)_
 
 As we have already seen, it was first and foremost Cobden's fight against protectionism, with the English League for the Abolition of the Corn Laws, that led Bastiat to write articles and then books.
 
-Protectionism is, in reality, a form of economic nationalism. It aims to eliminate foreign competition while pretending to "defend national interests." They then try to get the public authorities to accept a set of purely demagogic untruths, presented as virtuous: the defense of jobs, competitiveness, etc. Of course, elected officials yield to the pressure of producers because it is a golden opportunity for them to consolidate their clientele and expand their power.
+**Protectionism is, in reality, a form of economic nationalism.** It aims to eliminate foreign competition while pretending to "defend national interests." They then try to get the public authorities to accept a set of purely demagogic untruths, presented as virtuous: the defense of jobs, competitiveness, etc. Of course, elected officials yield to the pressure of producers because it is a golden opportunity for them to consolidate their clientele and expand their power.
 
 ![image](assets/en/056.webp)
 _an example of promotional advertising of a blender produced in France_
@@ -530,7 +564,7 @@ And he would continue to analyze its perverse effects thereafter. Here is one ex
 
 ---
 
-To conclude, protectionists and socialists share a common point, according to Bastiat: what they seek from the law is not to ensure everyone the free exercise of their faculties and the fair reward for their efforts, but rather to favor the more or less complete exploitation of one class of citizens by another. With protectionism, it is the minority that exploits the majority. With socialism, it is the majority that exploits the minority. In both cases, justice is violated and the general interest is compromised. Bastiat sets them against each other.
+To conclude, protectionists and socialists share a common point, according to Bastiat: **what they seek from the law is not to ensure everyone the free exercise of their faculties, but rather to favor the exploitation of one class of citizens by another**. With protectionism, it is the minority that exploits the majority. With socialism, it is the majority that exploits the minority. In both cases, justice is violated and the general interest is compromised. Bastiat sets them against each other.
 
 > The state is the great fiction through which everyone endeavors to live at the expense of everyone else.  
 
@@ -548,11 +582,12 @@ There is something logically absurd in this assertion. For if there were no legi
 
 ![image](assets/en/062.webp)
 
-But Proudhon is an individualist anarchist. He does not see the proletariat, nor the state, as legitimate sources of power. He harshly criticizes communism and advocates for worker mutualism, a form of structured cooperative solidarity that relies on the voluntary pooling of resources for mutual aid. It is less well known, but Bastiat was not opposed to this idea in principle. He simply feared that the state would turn it into a de facto monopolistic public service. History would prove him right.
+But Proudhon is an individualist anarchist. He does not see the proletariat, nor the state, as legitimate sources of power. He harshly criticizes communism and advocates for worker mutualism, a form of structured cooperative solidarity that relies on the voluntary pooling of resources for mutual aid. It is less well known, but Bastiat was not opposed to this idea in principle. He simply feared that **the state would turn it into a de facto monopolistic public service**. History would prove him right.
 
 On the other hand, it is well known that in "The Poverty of Philosophy," Marx would violently attack Proudhon and his socialism, which he called "utopian," in favor of a so-called "scientific" socialism.
 
 ![image](assets/en/063.webp)
+
 In June 1848, Proudhon was elected to the National Assembly, alongside Bastiat. They were acquaintances and held each other in high regard. However, in 1849, in a resounding controversy, Bastiat exchanged fourteen letters with him in the columns of La Voix du Peuple. In this vigorous exchange, he clarified his stance on monetary and banking issues. The dispute boiled down to the following alternative: free credit or freedom of credit?
 
 ![image](assets/en/064.webp)
@@ -584,7 +619,7 @@ In modern society, capital serves as a force that equalizes opportunities. Indee
 
 > When capital increases, it competes with itself; its remuneration decreases, or, in other words, the interest rate falls.  
 
-In conclusion, both Proudhon and Bastiat recognized the importance of capital accumulation and the tendency of some men to exploit others. However, they did not draw the same conclusions. Proudhon, like Marx, anticipated an increasing impoverishment of the masses in capitalist countries. Bastiat believed that capitalism would lead to unprecedented prosperity across all classes and the development of an increasingly significant middle class. This is indeed what happened.
+In conclusion, both Proudhon and Bastiat recognized the importance of capital accumulation and the tendency of some men to exploit others. However, they did not draw the same conclusions. Proudhon, like Marx, anticipated an increasing impoverishment of the masses in capitalist countries. **Bastiat believed that capitalism would lead to unprecedented prosperity across all classes** and the development of an increasingly significant middle class. This is indeed what happened.
 
 # Economic Sophisms
 
@@ -596,11 +631,11 @@ In conclusion, both Proudhon and Bastiat recognized the importance of capital ac
 
 :::video id=aff28a5b-3cf4-414b-9a6a-b70ffb1bf20c:::
 
-In this chapter, I will unveil a brand-new technology — a revolutionary innovation. A researcher has developed a pair of bionic glasses with an ultra-powerful mini-camera embedded in the front. This technology enables the visualization of details that are invisible to the naked eye. In the arms, there is an electronic chip that transmits images directly to the cloud via my smartphone.
+In this chapter, we will unveil a brand-new technology, a revolutionary innovation. A researcher has developed a pair of bionic glasses with an ultra-powerful mini-camera embedded in the front. This technology enables the visualization of details that are invisible to the naked eye. In the arms, there is an electronic chip that transmits images directly to the cloud via a smartphone.
 
 ![image](assets/en/069.webp)
 
-The inventor of the first prototype of these glasses was Frédéric Bastiat in 1850 in a famous pamphlet: _Ce qu’on voit et ce qu’on ne voit pas_. These glasses are those of the economist. They allow measuring the consequences of decisions made by the authorities on our lives. They are the glasses that "allow us to see what we do not see": the destruction caused by clientelist policies and false economic theories. Often, we do not see their victims, nor their beneficiaries; in short, we do not see their real effects, as opposed to the claims made in official speeches, which Bastiat calls "Economic Sophisms."
+The inventor of the first prototype of these glasses was Frédéric Bastiat in 1850 in a famous pamphlet: _Ce qu’on voit et ce qu’on ne voit pas_. These glasses are those of the economist. They allow measuring the consequences of decisions made by the authorities on our lives. They are the glasses that **"allow us to see what we do not see": the destruction caused by clientelist policies and false economic theories**. Often, we do not see their victims, nor their beneficiaries; in short, we do not see their real effects, as opposed to the claims made in official speeches, which Bastiat calls "Economic Sophisms."
 The good economist, according to Bastiat, must describe the effects of political decisions on society. However, they must be attentive, not to their short-term effects on a particular group, but rather to their long-term consequences for society as a whole. Who are the victims and who are the beneficiaries of these policies? What are the hidden costs of a certain law or political decision? What would taxpayers have done instead of the government with the money that was taken from them in taxes? These are the questions posed by the good economist, according to Bastiat.
 
 Thus, in Public Works, Bastiat writes:
@@ -621,7 +656,7 @@ Thus, there will be no more "stimulation" of the economy with the breaking of th
 
 The first lesson to learn is that a "good" decision or a "good" policy is one that costs society less than what another allocation of resources could have cost. The effectiveness of a policy should be judged not only based on its effects but also on the basis of the alternatives that could have occurred. This is the concept of "opportunity cost," dear to Bastiat.
 
-The second lesson is that destruction does not stimulate the economy as Keynesians think, but leads to impoverishment. The destruction of material goods does not have a positive effect on the economy, contrary to popular belief. To use the concluding words of Frédéric Bastiat's text: "society loses the value of the objects unnecessarily destroyed."
+**The second lesson is that destruction does not stimulate the economy as Keynesians think, but leads to impoverishment.** The destruction of material goods does not have a positive effect on the economy, contrary to popular belief. To use the concluding words of Frédéric Bastiat's text: "society loses the value of the objects unnecessarily destroyed."
 
 Let's take a current example. As soon as the automotive industry is struggling, policymakers imagine scrappage schemes to "relaunch" it. What we see is the increase in sales of Renault and Peugeot. What we do not see is the loss for other economic sectors, and that cars in perfect working order are destroyed.
 
@@ -658,14 +693,14 @@ In this petition, the candle makers ask the deputies for legal protection agains
 
 > We suffer from the intolerable competition of a foreign rival who, it seems, is in such superior conditions for producing light that he floods our national market at a fabulously reduced price.  
 
-So, who is this unfair foreign competitor? It is none other than the sun. The producers then highlight the opportunity there would be in reserving "the national market for national labor", by ordering through a law to close "all windows, skylights, shades, shutters, blinds, curtains, fanlights, in a word all openings, holes, slits, and cracks through which the sunlight is accustomed to enter houses".
+Who is this unfair foreign competitor? It is none other than the sun. The producers then highlight the opportunity there would be in reserving "the national market for national labor", by ordering through a law to close "all windows, skylights, shades, shutters, blinds, curtains, fanlights, in a word all openings, holes, slits, and cracks through which the sunlight is accustomed to enter houses".
 
 In other words, the candle makers attempt to demonstrate the harmful effects of a "foreign competitor" (the sun) on France's economy. Because not only can the sun provide the same "product" as candles, but it does so for free. Two hundred years later, this story remains incredibly relevant. Consider the taxi drivers who ask for the law to ban VTCs and Uber. Think of the bookstores that want to ban Amazon.
 
 ![image](assets/en/074.webp)
 
 Bastiat's real adversary in this fiction is political and electoral protectionism, one that relies solely on the greed of producers and the naivety of consumers. He unveils the collusion between the bad capitalists of the time and the State. Instead of innovating and adapting to the market, the bad capitalist is the one who seeks to gain a political advantage through protectionism. This always results in spoliation for the consumer, that is, an injustice.
-In short, protectionism is a deliberate policy that favors producers over consumers. However, according to Bastiat, the true representatives of the general interest are the consumers, because we are all consumers.
+In short, **protectionism is a deliberate policy that favors producers over consumers**. However, according to Bastiat, the true representatives of the general interest are the consumers, because we are all consumers.
 
 Protectionism is also based on a hidden syllogism that turns out to be a fallacy:
 
@@ -679,7 +714,7 @@ Let's illustrate this absurdity with a few short stories told by Bastiat. In Cha
 
 In Chapter XVI, there is another ironic text, titled "The Right Hand and the Left Hand." Following an investigation, a royal envoy drafts a report in which he proposes to the king that all the workers' hands be cut off, or at the very least, tied up. Thus, he continues, work and consequently wealth will increase. Production will become significantly more challenging, necessitating the hiring of additional labor and an increase in wages. Pauperism will disappear from the country.
 
-Following this logic of creating jobs at all costs, why not also replace trucks with wheelbarrows and shovels with teaspoons? All these sophisms have one thing in common: they confuse the means with the end. For Bastiat, the goal of the economy is not the preservation of jobs, but rather the preservation of wealth. We should not judge the utility of work by its duration and intensity, but by its results: the satisfaction of needs and utility.
+Following this logic of creating jobs at all costs, why not also replace trucks with wheelbarrows and shovels with teaspoons? **All these sophisms have one thing in common: they confuse the means with the end.** For Bastiat, the goal of the economy is not the preservation of jobs, but rather the preservation of wealth. We should not judge the utility of work by its duration and intensity, but by its results: the satisfaction of needs and utility.
 
 This confusion of means and ends is found in the slogan "money is wealth."
 This is the axiom that governs the monetary policy of most states. Indeed, the artificial increase in the quantity of money allows banks to lend money to individuals and states to easily repay their debt; this is "what we see". But "what we do not see" is that this creation of money, not based on any real wealth creation, will lead to inflation and the ruin of savers.
@@ -713,7 +748,7 @@ The economy refers to the positive or negative effects of political decisions on
 > F.Bastiat  
 
 
-From the outset, he refutes the still prevalent argument that public spending funded by taxes creates jobs. Indeed, taxes create nothing since what is spent by the state is no longer spent by taxpayers.
+From the outset, he refutes the still prevalent argument that public spending funded by taxes creates jobs. Indeed, **taxes create nothing since what is spent by the state is no longer spent by taxpayers**.
 
 Moreover, the state is more wasteful than individuals. Indeed, he reminds us, the state owns nothing; it produces no wealth. Public spending is often a source of waste because the immense sums confiscated from individuals often escape the responsibility of their owners and are spent in their stead by bureaucrats, who are subject to pressure groups.
 
@@ -727,7 +762,7 @@ Finally, a social role was assigned to taxes. They were made an instrument of so
 
 The problem is that taxes, as conceived, are subject to the arbitrary power of those in authority. They favor or disfavor certain social categories depending on whether the power expects votes from them or not. Moreover, progressive rates yield little to the public treasury. However, they allow the majority to expropriate a minority and naturally become confiscatory.
 
-That's why Bastiat had already understood the Laffer curve. Arthur Laffer is an American economist known for his famous "curve" (an ellipse), published in 1974, which shows that the yield from taxes increases with the lowering of the tax rate. This is the theory of diminishing returns due to excessive taxation.
+That is why **Bastiat had already understood the Laffer curve**. Arthur Laffer is an American economist known for his famous "curve" (an ellipse), published in 1974, which shows that the yield from taxes increases with the lowering of the tax rate. This is the theory of diminishing returns due to excessive taxation.
 
 ![image](assets/en/077.webp)
 
@@ -788,7 +823,7 @@ This economic morality aspires to the same result as religious morality, but beg
 
 Bastiat here highlights the role of science, particularly economic science. Although different from that of traditional morality, its role is nonetheless necessary to combat spoliation in all its forms. Morality attacks vice in its intention; it educates the will. On the other hand, science attacks vice by understanding its effects, thus facilitating the triumph of virtue.
 
-Concretely, economic science, described by Bastiat as defensive morality, consists of refuting economic sophisms in order to completely discredit them, and thus strip the plundering class of its justification and power.
+Concretely, **economic science, described by Bastiat as defensive morality, consists of refuting economic sophisms** in order to completely discredit them, and thus strip the plundering class of its justification and power.
 
 Political Economy, therefore, has an obvious practical utility. It reveals spoliation in hidden costs, obstacles to competition, and all forms of protectionism.
 
@@ -799,7 +834,7 @@ Once again, there would be fewer Tartuffes if there were fewer Orgons to listen 
 
 Of course, political economy is not a universal science; it does not exclude philosophical and religious approaches. "But who has ever displayed such an exorbitant claim in its name?" Bastiat wonders.
 
-One thing is certain: it is not politics that can change the course of things or perfect humanity. On the contrary, it is necessary to limit politics and confine it to its strict role, which is safety. It is rather in the cultural, familial, religious, and associative fields, through work on ideas, through education and instruction, in short, through civil society, that responsibility and solidarity can be strengthened.
+One thing is certain: it is not politics that can change the course of things or perfect humanity. On the contrary, **it is necessary to limit politics and confine it to its strict role, which is safety**. It is rather in the cultural, familial, religious, and associative fields, through work on ideas, through education and instruction, in short, through civil society, that responsibility and solidarity can be strengthened.
 
 # Economic Harmonies
 
@@ -819,7 +854,7 @@ This is the argument often invoked by those who demand market regulation or that
 
 This is not Bastiat's view. According to him, social mechanisms, such as the celestial mechanism or the human body's mechanisms, obey general laws. In other words, it is already a harmoniously organized whole. And the engine of this organization is the free market.
 
-The miracle of the free market, he tells us, is that it uses knowledge that no one person can possess alone and that it provides satisfactions far superior to anything an artificial organization could do.
+**The miracle of the free market, he tells us, is that it uses knowledge that no one person can possess alone** and that it provides satisfactions far superior to anything an artificial organization could do.
 
 Bastiat provides several examples to illustrate the benefits of this market. We have become so accustomed to this phenomenon that we no longer notice it.
 Let's consider a carpenter in a village, he says, and observe all the services he provides to society and all those he receives:
@@ -859,7 +894,7 @@ Friedrich Hayek, in his essay "The Use of Knowledge in Society" in 1945, already
 
 ![image](assets/en/088.webp)
 
-Economic planning, which claims to outperform the market, leads not only to a poor allocation of resources but also to the hegemony of one class over another. That is why socialism is not only an intellectual mistake but a mistake that ultimately generates immense injustice.
+Economic planning, which claims to outperform the market, leads not only to a poor allocation of resources but also to the hegemony of one class over another. That is why **socialism is not only an intellectual mistake but a mistake that ultimately generates immense injustice**.
 
 ## Freedom and Responsibility are the Key to the Social Problem
 
@@ -872,6 +907,7 @@ In a letter to Alphonse de Lamartine in 1845, Bastiat wrote that his entire phil
 > Freedom is the best form of social organization.  
 
 ![image](assets/en/089.webp)
+
 However, he adds a condition:
 
 > That the law should not eliminate the consequences, positive or negative, of everyone's actions. This is the corollary principle of responsibility.  
@@ -888,11 +924,11 @@ Individual responsibility is both a major vector of creativity and an incentive 
 
 When one spends their own money, they are careful not to get too indebted, to check the quality of products, and the reliability of suppliers, at the risk of being heavily penalized. Such is the power of responsibility, allied with freedom, that it is the true engine of social progress.
 
-But where does the phenomenon of irresponsibility or desponsibilization come from? Frédéric Bastiat provides an answer to this question, a political response. He says, I quote:
+But where does the phenomenon of irresponsibility or desponsibilization come from? Frédéric Bastiat provides an answer to this question, a political response. He writes:
 
 > The intervention of the State takes away our governance of ourselves.  
 
-Indeed, statism continuously reduces private initiative and the free choice of people. It does for them what they could do themselves and better. It thus subtracts individuals from the consequences of their acts. It destroys responsibility.
+Indeed, **statism continuously reduces private initiative and the free choice of people**. It does for them what they could do themselves and better. It thus subtracts individuals from the consequences of their acts. It destroys responsibility.
 
 ![image](assets/en/091.webp)
 
@@ -905,7 +941,7 @@ Let's illustrate this issue with a few major current topics. First example, the 
 
 _(Alan Greenspan, Chairman of the FED, the American central bank, from 1987 to 2006)_
 
-For years, monetary policy leaders explained that if profits are privatized when everything goes well, losses will be mutualized in case of bankruptcy (bailouts, rescue plans, interest rate manipulation, printing money, etc.). In doing so, they created a moral hazard, they facilitated unreasonable risk-taking, and they encouraged the financial world to behave irresponsibly. They thus precipitated finance into the crisis we experienced.
+For years, monetary policy leaders explained that if profits are privatized when everything goes well, losses will be mutualized in case of bankruptcy (bailouts, rescue plans, interest rate manipulation, printing money, etc.). In doing so, **they created a moral hazard, they facilitated unreasonable risk-taking, and they encouraged the financial world to behave irresponsibly**. They thus precipitated finance into the crisis we experienced.
 
 And the phenomenon will repeat indefinitely as long as banks remain under the domination of central authorities, supposed to protect them by removing all autonomy of decision and operation.
 
@@ -915,7 +951,7 @@ Another example: public services
 
 Each public service imposes the preferences of a bureaucratic elite, to the detriment of individual free choice. This leads to two consequences according to Bastiat: The citizen "stops exercising free control over his own satisfactions, and, no longer having the responsibility, naturally he ceases to have the intelligence." The reason is simple: every written law is coercive, and it applies equally to everyone; it takes no account of the particular situations, needs, or preferences of the citizens.
 
-Finally, the public service is a cause of immobility. Indeed, when private services become public, they escape the competitive market. Consequently, says Bastiat, I quote: "the official is devoid of that stimulus which pushes towards progress."
+Finally, the public service is a cause of immobility. Indeed, when private services become public, they escape the competitive market. Consequently, writes Bastiat: "the official is devoid of that stimulus which pushes towards progress."
 
 ![image](assets/en/094.webp)
 
@@ -947,7 +983,7 @@ To answer these questions, Bastiat will proceed to analyze human action. This, i
 Evil first stems from our imperfection. To choose freely is to run the risk of making a bad choice, says Bastiat. Indeed, we can be deceived in many ways, even about our own needs and interests. Man is fallible; he is prone to err in understanding the play of economic laws or to divert them from their end.
 
 Therefore, it is the imperfection of reason that is the main limit of men and which remains at the origin of our sufferings.
-If evil stems from human weakness and not from freedom itself, nor from free trade, the remedy is not in the suppression of freedom or exchange but in responsibility itself, since it is the source of all experience. This principle of responsibility is as follows: I quote Bastiat:
+If evil stems from human weakness and not from freedom itself, nor from free trade, the remedy is not in the suppression of freedom or exchange but in responsibility itself, since it is the source of all experience. This principle of responsibility is as follows, as Bastiat writes:
 
 > Every man who acts receives the reward or punishment of his actions.  
 
@@ -955,7 +991,7 @@ Through this natural sanction, man learns, discovers, corrects himself, progress
 
 ![image](assets/en/097.webp)
 
-If a person bears the consequences, good or bad, of their decisions, they will tend to improve by learning from experience. Therefore, individual responsibility, which is the great educator of people, according to Bastiat, is the fundamental principle underlying the regulation of behaviors and societies, and must be allowed to act.
+If a person bears the consequences, good or bad, of their decisions, they will tend to improve by learning from experience. Therefore, **individual responsibility, which is the great educator of people, according to Bastiat, is the fundamental principle** underlying the regulation of behaviors and societies, and must be allowed to act.
 
 Evil generates suffering, and suffering prompts us to recognize our faults or errors, bringing us back onto the right path. It is through the knowledge of evil that we progress.
 
@@ -971,7 +1007,7 @@ It is because humans risk making mistakes or acting wrongly and suffering the co
 
 Thus, it is clear that Bastiat is far from being blind. He does not deny the existence of evil. Man is weak, prone to error and fault. Nowhere will one find Bastiat denying the fact that the exercise of individual freedom is associated with the possibility of error, including the possibility of an unreasonable or senseless choice.
 
-He simply asserts that if the source of evil lies in the absence of freedom, the remedy is in freedom itself, and more specifically in the full and entire exercise of personal responsibility.
+He simply asserts that **if the source of evil lies in the absence of freedom, the remedy is in freedom itself**, and more specifically in the full and entire exercise of personal responsibility.
 
 ![image](assets/en/099.webp)
 
@@ -989,7 +1025,7 @@ It must be clarified that this development of progress through responsibility is
 :::video id=28c7b1d0-e32f-48dc-95ee-8459667b42ab:::
 
 
-Frédéric Bastiat, in his famous pamphlet "The Law," denounces the perversion of law that consists in legalizing, under the name of "solidarity," what must indeed be called plunder. Indeed, there is a contradiction in wanting to impose fraternity through law, which we would today call "social justice" or solidarity.
+Frédéric Bastiat, in his famous pamphlet "The Law," denounces the perversion of law that consists in legalizing, under the name of "solidarity," what must indeed be called plunder. Indeed, **there is a contradiction in wanting to impose fraternity through law**, which we would today call "social justice" or solidarity.
 
 Morality is defined as voluntary behavior. When an individual is forced to give something they do not want to give, they are always the victim of theft.
 
@@ -1039,7 +1075,7 @@ Indeed, intra-family solidarity, local solidarity, or organized philanthropy are
 It is often fashionable to lament the "selfishness" that would prevail in liberal societies. But the exact opposite is true. When a society is burdened with taxes and individuals no longer own their property, they are not encouraged to give but rather to withdraw into themselves.
 
 
-In reality, a free civil society does not rest on selfishness: the market economy operates on the basis of service to one's neighbor and reciprocity. One can only serve one's own interest by serving the interest of another, by offering the other a counterpart that leads to a mutually beneficial exchange. In other words, it is a voluntary exchange that creates true solidarity.
+In reality, a free civil society does not rest on selfishness: the market economy operates on the basis of service to one's neighbor and reciprocity. One can only serve one's own interest by serving the interest of another, by offering the other a counterpart that leads to a mutually beneficial exchange. In other words, **it is voluntary exchange that creates true solidarity**.
 
 Forced redistribution has nothing to do with authentic human solidarity, which is of a private or voluntary nature and which is seen within families or between members of an association.
 
@@ -1062,7 +1098,7 @@ By property, we should not understand land in this context. It means "the right 
 
 Having established this point, to understand the moral foundation of property, Bastiat begins with a simple anthropological principle: from the beginning, man must work to live, and the fruit of his labor is an extension of his faculties, that is, an extension of his person.
 
-> Personality, Freedom, Property, — that is man. It is of these three things that one can say, without any demagogic subtlety, that they are prior to and superior to any human legislation.  
+> Personality, Freedom, Property: that is man. It is of these three things that one can say, without any demagogic subtlety, that they are prior to and superior to any human legislation.
 
 Understood in this sense, the right to Property is among those rights that do not derive from positive law but precede it and are its raison d'être. Indeed,
 
@@ -1076,7 +1112,7 @@ Its mission is to defend the person and their property.
 Therefore, the right is not the same thing as the law. The right is not identified with the sovereign's word, nor does it depend exclusively on his legitimacy. It is the product of a tradition, a legal order prior to and superior to the law, which imposes itself on the legislator as much as on any of the ordinary citizens.
 
 The right "is not created". It is not invented from an ideal vision of what the laws of society should be; it is discovered in the nature of man and in the rules of civility, transmitted by the wisdom of customs.
-Individuals have natural rights that preexist the law: Property, Liberty, Personality. The role of the Law should be to preserve these natural rights of the individual. Consequently, the State must be limited. Today, we would say that Bastiat is an advocate of the minimal state.
+**Individuals have natural rights that preexist the law: Property, Liberty, Personality.** The role of the Law should be to preserve these natural rights of the individual. Consequently, the State must be limited. Today, we would say that Bastiat is an advocate of the minimal state.
 
 ![image](assets/en/106.webp)
 
@@ -1094,7 +1130,7 @@ For me to acquire something for free, someone must pay on my behalf. And if it�
 
 This idea that the right to property is a creation of the law thus leads, according to Bastiat, to opening an unlimited field to utopians who wish to model society according to their plans.
 
-In the system of natural freedom, there exists a natural law, independent of the whims of legislators. It is valid for all men and predates any society. And it is the government's duty to ensure the natural rights of each individual. A just society is one in which property rights are fully respected, meaning protected against any interference from others.
+In the system of natural freedom, there exists a natural law, independent of the whims of legislators. It is valid for all men and predates any society. And it is the government's duty to ensure the natural rights of each individual. **A just society is one in which property rights are fully respected**, meaning protected against any interference from others.
 
 ![image](assets/en/108.webp)
 
@@ -1106,7 +1142,7 @@ Here, Bastiat aligns himself with the legacy of the Physiocrats and, beyond that
 
 :::video id=24b1ca72-c52a-4ff3-b6db-01e3807c5d8e:::
 
-The main idea of Bastiat in "The Law", his famous 1850 pamphlet, is to demonstrate why and how the law has become a source of plunder, that is, a means of creating privileges, situational rents, and fiscal arbitrariness.
+**The main idea of Bastiat in "The Law" is to demonstrate why and how the law has become a source of plunder**, that is, a means of creating privileges, situational rents, and fiscal arbitrariness.
 
 ![image](assets/en/109.webp)
 
@@ -1139,7 +1175,7 @@ As soon as it is admitted in principle that the law can be diverted from its tru
 
 ![image](assets/en/112.webp)
 
-Instead of defending natural rights, the law becomes a means of protecting corporate and categorical interests. Plunder is organized by the law, for the benefit of the classes that make it and their friends or clients. Bastiat thus anticipates the public choice school in the 20th century, for which the law is the result of a "political market" by which groups of individuals seek to satisfy their interests at the expense of others.
+Instead of defending natural rights, the law becomes a means of protecting corporate and categorical interests. Plunder is organized by the law, for the benefit of the classes that make it and their friends or clients. **Bastiat thus anticipates the public choice school in the 20th century**, for which the law is the result of a "political market" by which groups of individuals seek to satisfy their interests at the expense of others.
 
 ![image](assets/en/113.webp)
 
@@ -1147,7 +1183,7 @@ For him, the purpose of the Law must simply be to "put an end to all plunder." I
 
 They are certain that their natural rights are guaranteed and untouchable. Secure property rights give people the ability to make long-term plans because they know their assets are safe from plunder.
 
-> Absence of Plunder — it is the principle of justice, peace, order, stability, conciliation, common sense that I will proclaim with all the force, alas! insufficient, of my lungs, until my last breath
+> Absence of Plunder, it is the principle of justice, peace, order, stability, conciliation, common sense that I will proclaim with all the force, alas! insufficient, of my lungs, until my last breath
 
 Bastiat wrote the above sentence in The Law, some time before he died.
 
@@ -1175,7 +1211,7 @@ And since the state's action is purely redistributive, it is subject to the pres
 
 ![image](assets/en/117.webp)
 
-In other words, the State only pursues clientelist objectives, and the notion of the general interest is rendered meaningless. Any gain obtained by some is at the expense of others: it is not a zero-sum game but a negative-sum game.
+In other words, **the State only pursues clientelist objectives, and the notion of the general interest is rendered meaningless**. Any gain obtained by some is at the expense of others: it is not a zero-sum game but a negative-sum game.
 Bastiat thus anticipates, a century in advance, the analyses of the political market's functioning that would emerge at the end of the 1950s with the so-called Public Choice school, led by James Buchanan, Nobel Prize in Economics, and his colleague Gordon Tullock.
 
 ![image](assets/en/118.webp)
@@ -1192,7 +1228,7 @@ It ensures Security, both internal and external, and Justice. It can be strong a
 
 ![image](assets/en/120.webp)
 
-As a result, according to Bastiat, the only legitimate public services of a state are three in number: the military, the police, and the judiciary. In other words, the State must ensure the internal and external protection of individuals, their freedom, and their property. It is therefore normal for everyone to contribute to this protection. However, beyond these legitimate functions, any other contribution to another service provided by the State is subject to scrutiny. Outside of this circle, Bastiat writes:
+As a result, according to Bastiat, **the only legitimate public services of a state are three in number: the military, the police, and the judiciary**. In other words, the State must ensure the internal and external protection of individuals, their freedom, and their property. It is therefore normal for everyone to contribute to this protection. However, beyond these legitimate functions, any other contribution to another service provided by the State is subject to scrutiny. Outside of this circle, Bastiat writes:
 
 > Religion, education, association, labor, exchanges, everything belongs to the domain of private activity, under the eye of public authority, which should only have a mission of surveillance and repression.
 
@@ -1219,7 +1255,7 @@ Settled in New York in 1943, Mises organized seminars that attracted remarkable 
 
 ![image](assets/en/121.webp)
 
-But the one who would also popularize the theses of Frédéric Bastiat was an economic columnist for the New York Times, Henry Hazlitt, in a small book named "Economics in One Lesson," published in 1946. Explicitly drawing from Bastiat's ideas, he aims to demonstrate that the problem with statist economic solutions is their failure to consider their disastrous long-term consequences.
+But the one who would also popularize the theses of Frédéric Bastiat was an economic columnist for the New York Times, Henry Hazlitt, in a small book named [*Economics in One Lesson*](https://planb.academy/resources/books/economics-in-one-lesson-04d2656f-19fa-49ee-990d-01a4228b7acd), published in 1946. Explicitly drawing from Bastiat's ideas, he aims to demonstrate that the problem with statist economic solutions is their failure to consider their disastrous long-term consequences.
 
 ![image](assets/en/122.webp)
 
@@ -1231,7 +1267,7 @@ Hazlitt then applies this lesson to a wide variety of economic problems, includi
 
 Bastiat was one of Ronald Reagan's favorite economists, long before he was elected president. It is less known, but for eight years, Reagan worked for the General Electric company as the host of its television show on CBS, and was responsible for the company's staff training. His training program was built around introductory texts to the market economy. The chosen works were those of two Austrians, Hayek and Mises, two Englishmen, Cobden and Bright, and one Frenchman, Frédéric Bastiat.
 
-The lesson that Reagan taught his employees, following Bastiat, is that there is no greater myth than the notion that public spending stimulates growth and employment.
+The lesson that Reagan taught his employees, following Bastiat, is that **there is no greater myth than the notion that public spending stimulates growth and employment**.
 
 ![image](assets/en/123.webp)
 

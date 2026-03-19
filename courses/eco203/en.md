@@ -779,7 +779,9 @@ True wealth, according to Bastiat, is therefore the set of useful things that we
 
 :::video id=a5fe6417-cd81-4c72-a7c7-59aabf9e1547:::
 
-> When the rich lose weight, the poor die.  
+### The hidden cost of public spending
+
+> When the rich lose weight, the poor die.
 
 ![image](assets/en/076.webp)
 

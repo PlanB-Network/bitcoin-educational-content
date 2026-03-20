@@ -166,5 +166,28 @@ Commit: f18f67f425
 - [x] `--json` flag outputs structured JSON with symlink status
 - [x] AGENTS.md + content-types.yml combined under 4,000 tokens (~11,000 chars)
 - [x] 15 new tests, 383 total pass
-## Phase 15: Tag Descriptions in Schemas — TODO
-## Phase 16: Cleanup & Final Wiring — TODO
+## Phase 15: Tag Descriptions in Schemas — DONE
+Commit: 1e736e3c86
+- [x] `schemas/tags-definitions.json` created with 52 tags as enum + `x-tag-descriptions` (52 human-readable descriptions)
+- [x] All 14 tag-bearing schemas updated to `$ref` tags-definitions.json for DRY tag validation
+- [x] `lib/schema.py` updated: `_build_registry()` uses `referencing.Registry` + `Resource` for `$ref` resolution
+- [x] `validate_yaml_against_schema()` accepts optional `schema_dir` parameter for registry construction
+- [x] `commands/validate.py` passes `schema_dir=` to all 3 validation call sites (metadata, quiz question, quiz translation)
+- [x] Valid tags pass validation, invalid tags produce clear error messages with the rejected value
+- [x] Registry is cached per `schemas_dir` path for performance
+- [x] Scaffolding (`bec new`, `bec add quiz`) uses `tags: ["software"]` (valid enum value, not "TODO")
+- [x] 22 new tests in `TestTagsDefinitions` class (test_schema.py): definitions existence, enum count, descriptions, $ref in all 14 schemas, Draft7 validity, ref resolution valid/invalid, registry caching
+- [x] 405 tests pass
+## Phase 16: Cleanup & Final Wiring — DONE
+Commit: 3c2c26d644
+- [x] Schemas copied to canonical location `scripts/bec/src/bec/schemas/` (24 files)
+- [x] Root `schemas/` symlink updated: `scripts/validation-format/schemas` → `scripts/bec/src/bec/schemas`
+- [x] `scripts/validation-format/` moved to `to_delete/`
+- [x] `scripts/proofreading-metadata/` moved to `to_delete/`
+- [x] `docs/agents/REFACTOR_PLAN.md` moved to `to_delete/`
+- [x] `docs/agents/AGENTS.md` updated with new schema symlink path
+- [x] No remaining imports or references to old paths
+- [x] 405 tests pass
+- [x] `bec --help` shows all 6 subcommands
+- [x] `bec report --all` generates all 5 HTML reports
+- [x] `bec validate` works with new schema location and `$ref` resolution

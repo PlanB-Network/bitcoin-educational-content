@@ -753,7 +753,6 @@ This efficient switching mechanism allows operators to maintain situational awar
 
 In this chapter, we saw how to generate LNC connection strings via `litcli`, onboard multiple nodes into a single Terminal session, and switch between them using the node selector dropdown. The key takeaway is that **multi-node management requires no additional infrastructure**: the same LNC protocol that secures a single connection scales seamlessly to many. In the next chapter, we will put these connected nodes to work by opening channels efficiently using batch transactions.
 
----
 
 ## Opening Channels & Batching
 <chapterId>c7e83bd9-df1c-4763-8401-488b733d835c</chapterId>
@@ -845,8 +844,6 @@ This confirms that both channels were funded from a single transaction, exactly 
 ### Summary
 
 In this chapter, we learned that batch opens aggregate multiple channel openings into a single on-chain transaction, reducing fees and preventing UTXO fragmentation. We walked through the Terminal workflow for configuring each channel's capacity, fees, and visibility, then stacking them into one batch. In the next chapter, we will explore what happens after channels are open: how to manage their liquidity over time using Lightning Loop.
-
----
 
 ## Lightning Loop
 <chapterId>f2642efb-a485-4bc9-b571-d8e901e3e8b1</chapterId>
@@ -1022,8 +1019,6 @@ This is essentially a dry run that lets you verify your rules and budgets are co
 ### Summary
 
 In this chapter, we explored the three modes of Lightning Loop: manual Loop Out (to create inbound liquidity), manual Loop In (to restore outbound liquidity), and Auto Loop (to automate the entire process). The underlying mechanism, submarine swaps, ensures that all operations are trustless and non-custodial. The budget system gives you precise control over costs, and the three-tier hierarchy (node, peer, channel) lets you tailor your liquidity strategy to your specific needs. In the next chapter, we will look at how to evaluate the peers you are connected to using Terminal's Peer Insights feature.
-
----
 
 ## Peer Insights
 <chapterId>27d09714-6496-4451-bb08-1927e0148d1e</chapterId>

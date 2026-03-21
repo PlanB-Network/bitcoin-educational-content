@@ -1,15 +1,16 @@
 id: 541c38cc-d88d-4a4a-b8d7-868acb2de632
 name: Bitcoin Ikorodu
 category: communities
-address_city_country: "Ikorodu, Nigeria"
+address_city_country: "Ikorodu, Lagos, Nigeria"
 links:
   twitter: https://x.com/BitcoinIkorodu
 tags:
   - adoption
+  - education
 original_language: en
 proofreading:
   - language: en
-    last_contribution_date: 2026-03-18
+    last_contribution_date: 2026-03-21
     urgency: 1
     contributor_names:
       - Rogzy-DB

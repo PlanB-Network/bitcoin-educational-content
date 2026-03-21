@@ -69,23 +69,48 @@ Ready to take full control of your Lightning node? Let's get started.
 ## Course overview
 <chapterId>f4e2a1b3-5c6d-4e8f-9a0b-1d3c5e7f2a4b</chapterId>
 
+### Why this course matters
+
+Running a Lightning node means you are part of the payment infrastructure of Bitcoin. But without proper tooling, operating a node is like flying blind: you cannot see which channels are profitable, where liquidity is stuck, or whether your fee policies are competitive. Most node operators leave money on the table simply because they lack visibility into their own operations.
+
+This course gives you that visibility and the tools to act on it.
+
 Welcome to the LNP 404 course! Together, we will explore how to manage, optimize, and understand your Bitcoin Lightning node through the power of **Lightning Terminal** (LitD), an all-in-one management stack developed by Lightning Labs.
 
-This course is built around the demo series by **Hannah Rosenberg** from Lightning Labs. Each chapter pairs a video walkthrough with detailed written content, including the actual CLI commands, configuration files, and procedures you will need.
+This course is built around the demo series by [Hannah Rosenberg](https://planb.academy/professors/hannah-rosenberg) from Lightning Labs. Each chapter pairs a video walkthrough with detailed written content, including the actual CLI commands, configuration files, and procedures you will need.
 
-### Part 1: Getting Started with Terminal
+### What you will learn
 
-We begin by installing LitD and connecting to the Terminal web interface. From there, we explore the Health Checks framework to evaluate your node's performance across six key metrics, then dive into the financial analytics dashboard to understand your routing revenue, channel efficiency, and network position. The part concludes with Autofees, an automated fee management system that adjusts your channel policies based on historical traffic patterns.
+By the end of this course, you will be able to:
 
-### Part 2: Managing Your Node's Network
+- Install, configure, and run Lightning Terminal on your own infrastructure
+- Diagnose node performance issues using health checks and liquidity reports
+- Automate fee management so your channels stay competitive without manual tuning
+- Rebalance liquidity through Loop swaps (manual and automated) with budget controls
+- Open multiple channels in a single on-chain transaction to save fees
+- Manage a fleet of Lightning nodes from one unified dashboard
+- Create sandboxed virtual accounts with spending limits for apps and users
+- Build a complete Lightning node from scratch on a fresh Ubuntu server
 
-In this part, we move into active node management. You will learn how to operate multiple Lightning nodes from a single Terminal dashboard, open channels efficiently using batch transactions, manage your liquidity through Loop swaps (both manual and automated), and leverage Peer Insights to make data-driven decisions about your channel partnerships.
+These are the operational skills that separate a passive node operator from someone who runs a professional, revenue-generating Lightning infrastructure.
 
-### Part 3: Advanced Features and Full Node Setup
+### Curriculum
 
-The final part covers advanced topics: the Liquidity Report for diagnosing silent routing problems, LND Accounts for creating sandboxed virtual wallets with granular permissions, and a comprehensive from-scratch installation walkthrough using the Run LITD repository.
+**Part 1: Getting Started with Terminal** covers installation, the Health Checks diagnostic framework, financial analytics (ROI, forwards, channel insights), and the Autofees algorithm for automated fee management.
+
+**Part 2: Managing Your Node's Network** covers multi-node management from a single dashboard, batch channel openings, Lightning Loop for liquidity management (Loop In, Loop Out, Auto Loop), and Peer Insights for data-driven channel decisions.
+
+**Part 3: Advanced Features and Full Node Setup** covers the Liquidity Report for diagnosing silent routing problems, LND Accounts for sandboxed virtual wallets, and a comprehensive from-scratch node build using the Run LITD repository.
+
+### Prerequisites and tools
+
+This course assumes familiarity with the Linux command line (`bash`, `ssh`, `nano`, `systemctl`, `git`) and a basic understanding of how the Lightning Network works (channels, routing, invoices). You will work primarily with **Go**, **Node.js**, and **systemd** configuration files. All commands shown use `bash` on Ubuntu.
+
+You will need either an existing LND node (testnet or mainnet) for the first 10 chapters, or a fresh Ubuntu server for the final chapter. If you have never set up a Lightning node before, I recommend starting with the [LNP 202 course](https://planb.academy/courses/lnp202).
 
 ### Documentation and resources
+
+Throughout this course, we reference the official Lightning Labs documentation:
 
 - [Lightning Terminal docs](https://docs.lightning.engineering/lightning-network-tools/lightning-terminal)
 - [Loop docs](https://docs.lightning.engineering/lightning-network-tools/loop)

@@ -69,15 +69,15 @@ Ready to take full control of your Lightning node? Let's get started.
 ## Course overview
 <chapterId>f4e2a1b3-5c6d-4e8f-9a0b-1d3c5e7f2a4b</chapterId>
 
+Welcome to the LNP 404 course! Together, we will explore how to manage, optimize, and understand your Bitcoin Lightning node through the power of **Lightning Terminal** (LitD), an all-in-one management stack developed by Lightning Labs.
+
+This course is built around the demo series by [Hannah Rosenberg](https://planb.academy/professors/hannah-rosenberg) from Lightning Labs. Each chapter pairs a video walkthrough with detailed written content, including the actual CLI commands, configuration files, and procedures you will need.
+
 ### Why this course matters
 
 Running a Lightning node means you are part of the payment infrastructure of Bitcoin. But without proper tooling, operating a node is like flying blind: you cannot see which channels are profitable, where liquidity is stuck, or whether your fee policies are competitive. Most node operators leave money on the table simply because they lack visibility into their own operations.
 
 This course gives you that visibility and the tools to act on it.
-
-Welcome to the LNP 404 course! Together, we will explore how to manage, optimize, and understand your Bitcoin Lightning node through the power of **Lightning Terminal** (LitD), an all-in-one management stack developed by Lightning Labs.
-
-This course is built around the demo series by [Hannah Rosenberg](https://planb.academy/professors/hannah-rosenberg) from Lightning Labs. Each chapter pairs a video walkthrough with detailed written content, including the actual CLI commands, configuration files, and procedures you will need.
 
 ### What you will learn
 

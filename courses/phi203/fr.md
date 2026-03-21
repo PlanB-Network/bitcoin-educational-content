@@ -533,7 +533,7 @@ Dans les leçons qui suivent, nous reviendrons sur ces fondements factuels de la
 Nous avons établi dans le chapitre précédent que la liberté repose sur des faits observables de la nature humaine : le corps, l'occupation de l'espace, l'appropriation des choses, l'individualité des perceptions. Mais l'être humain n'est pas seulement un corps, il est aussi, et peut-être surtout, un esprit. **De ce seul fait découlent la tolérance religieuse, la liberté d'expression, la liberté de la presse et la liberté de l'enseignement.**
 
 
-![A worn volume from the French liberal tradition](assets/en/009.webp)
+![Charles Comte, Traité de législation](assets/en/009.webp)
 
 
 Charles Comte (1782-1837), dans ses [*Cours de droit naturel*](https://planb.academy/resources/books/cours-droit-naturel-78a371b6-796b-4ebe-bb8a-54cc64f38b57), une série de conférences prononcées à Lausanne vers 1830 et dont nous possédons encore le manuscrit, l'affirme dès la première leçon : un être humain dépourvu de capacités cognitives ne serait guère reconnu comme humain. Nous tissons des liens avec les autres précisément parce qu'ils sont des êtres pensants, parce qu'ils ont des sentiments, des idées, des convictions que nous pouvons partager et dont nous pouvons débattre.
@@ -549,9 +549,6 @@ Cette capacité de penser s'accompagne d'un élément qu'aucun récit matériali
 La pensée est une manifestation de la volonté. Nous ressentons, nous concevons des projets et des idées, et nous souhaitons naturellement les transmettre. **Si nous sommes libres de vouloir et de penser (puisque aucune puissance sur terre ne peut nous empêcher de penser), alors il y a une forte présomption naturelle en faveur de la libre expression. Pour briser la chaîne entre la sensation, la volonté, la pensée et son expression matérielle, il faut des arguments très puissants.**
 
 
-![Benjamin Constant, Principes de politique (1814-1815)](assets/en/010.webp)
-
-
 Nous rencontrons ici une idée fondamentale : l'inviolabilité de la conscience. On peut brûler un homme pour ses opinions, cela a été fait, mais on ne peut pas brûler sa pensée. **Aucune autorité n'a jamais eu de pouvoir sur la pensée elle-même ; elle ne peut atteindre que son expression matérielle. Nous sommes libres de changer nos idées, de les poursuivre jusqu'à leur terme, d'abandonner une intuition pour en adopter une autre. Cette liberté n'est pas un don de la législation. C'est un fait de notre nature.**
 
 
@@ -563,7 +560,7 @@ Benjamin Constant (1767-1830), le grand libéral franco-suisse, a consacré une 
 
 > "Erreur ou vérité, la pensée de l'homme est sa propriété la plus sacrée ; erreur ou vérité, les tyrans sont également coupables lorsqu'ils l'attaquent. Celui qui proscrit la superstition au nom de la philosophie, et celui qui proscrit la raison indépendante au nom de Dieu, méritent également l'exécration de tous les hommes de bonne volonté."
 
-![Condorcet, Esquisse d'un Tableau Historique des Progres de l'Esprit Humain](assets/en/011.webp)
+![Benjamin Constant, Principes de politique (1814-1815)](assets/en/010.webp)
 
 
 En d'autres termes, l'individu étant le seul propriétaire de sa pensée, la supprimer au nom d'une prétendue raison supérieure, qu'elle soit religieuse ou rationaliste, est fondamentalement injuste. **La propriété de la pensée appartient au penseur**, et aucun tribunal extérieur, aussi bien intentionné soit-il, n'est compétent pour statuer sur le contenu de l'esprit d'un autre homme.
@@ -578,7 +575,7 @@ Pourquoi, au-delà de la simple reconnaissance d'un droit naturel, devrions-nous
 Nicolas de Condorcet (1743-1794), au carrefour des philosophes des Lumières et des économistes physiocrates, ami proche de Turgot, a écrit son œuvre maîtresse, l'[*Esquisse d'un tableau historique des progrès de l'esprit humain*](https://planb.academy/resources/books/esquisse-tableau-historique-progres-esprit-humain-ab87cd62-445d-4620-a3ad-7af31ba17c3f), dans des circonstances extraordinaires. Dans la clandestinité, sur le point d'être arrêté et exécuté pendant la Terreur, sans livres, il a composé dans une seule pièce une vision globale du progrès humain à travers les âges.
 
 
-![Portrait of Gustave de Molinari (1819-1912), Belgian-French economist](assets/en/012.webp)
+![Condorcet, Esquisse d'un Tableau Historique des Progres de l'Esprit Humain](assets/en/011.webp)
 
 
 La thèse centrale était révolutionnaire : contrairement à la doctrine chrétienne de la chute, qui postule une descente de la perfection originelle, la civilisation humaine est ascendante. Chaque génération transmet ses découvertes à la suivante, et l'humanité progresse de siècle en siècle. **Les idées nouvelles, audacieuses, pionnières, souvent rejetées dans un premier temps, doivent être librement communiquées. Le découvreur doit pouvoir enseigner ses conceptions aux autres, à ses descendants, à la société dans son ensemble, afin que ce qui était considéré comme trop audacieux soit testé, accepté et mis en pratique.**
@@ -596,9 +593,6 @@ La liberté de la presse étend le principe de la liberté d'expression au domai
 L'abbé de Saint-Pierre, au début du XVIIIe siècle, comparait les institutions politiques à des horloges qu'il faut remonter de temps en temps. En effet, les lois et les institutions se périment et nécessitent des réformes périodiques. Mais **la réforme exige une opinion publique éclairée, et une opinion publique éclairée exige une presse libre**.
 
 
-![Edouard Laboulaye, Le Parti liberal and La Liberte d'enseignement](assets/en/013.webp)
-
-
 L'histoire de France illustre de manière frappante ce qui se passe en l'absence de ce mécanisme. Au XVIIIe siècle, les philosophes des Lumières ont électrisé l'élite intellectuelle avec leurs idées. Turgot, en tant que ministre, tente des réformes radicales. Mais il n'y avait pas de journaux accessibles aux gens du peuple, pas de canaux par lesquels une opinion publique informée pouvait se former et soutenir l'effort de réforme. La masse de la population est exclue du grand débat intellectuel. Le résultat fut que **le changement ne pouvait venir que par la révolution**, par le renversement violent de tout le système, plutôt que par une réforme graduelle, préparée et pacifique.
 
 
@@ -613,6 +607,9 @@ Nous en arrivons à la liberté d'enseignement, la liberté qui, logiquement, ne
 
 Réfléchissez : si nous acceptons la liberté d'expression, n'en découle-t-il pas que nous acceptons la liberté d'enseigner ? Si nous acceptons la liberté de la presse, le droit de communiquer ses idées par le biais de l'imprimé, comment pouvons-nous refuser le droit de communiquer ces mêmes idées dans une salle de classe ? Et si nous acceptons la liberté religieuse, la liberté non seulement de prier silencieusement à la maison (ce qui existe sous toutes les tyrannies) mais aussi de pratiquer le culte publiquement, de fonder des églises, de propager sa foi, alors **nous devons accepter la liberté d'éduquer ses enfants selon ses croyances**.
 
+
+
+![Edouard Laboulaye, Le Parti liberal and La Liberte d'enseignement](assets/en/013.webp)
 
 
 Édouard Laboulaye (1811-1883), l'un des grands défenseurs de la liberté d'enseignement à l'époque des réformes de Jules Ferry, a mené ce combat avec passion, et l'a malheureusement perdu. Les libéraux perdront à nouveau de manière plus décisive dans les décennies suivantes. Pourtant, les arguments restent irréfutables.
@@ -950,9 +947,6 @@ De même, l'individu est entièrement soumis à la tribu. Un ensemble de règles
 La propriété privée de la terre est également impossible à établir. **Les activités productives de l'époque nécessitaient de vastes territoires communs**. La chasse au buffle ou à l'éléphant, par exemple, ne pouvait se faire sur un terrain clos de deux hectares. Le nomadisme était une nécessité, pas un choix. Les peuples pastoraux, par définition, ne pouvaient pas s'attacher à une petite parcelle fixe de propriété privée.
 
 
-![Charles Dunoyer and his work L'industrie et la morale (Institut Coppet edition)](assets/en/030.webp)
-
-
 Cette propriété collective ne doit pas être confondue avec le communisme au sens idéologique du terme. La terre était commune au sein de la tribu, de la famille ou du groupe de familles, mais elle était considérée comme la propriété de ce groupe. Les conflits entre tribus étaient importants, personne n'imaginait que la terre entière était la propriété commune de tous. Ces groupes se comportaient comme des animaux défendant leur territoire. Mais ce n'était pas une propriété privée liée à l'individu, c'était **une adaptation collective aux conditions de production**.
 
 
@@ -962,7 +956,7 @@ Cette propriété collective ne doit pas être confondue avec le communisme au s
 Charles Dunoyer (1786-1862), dans son remarquable ouvrage [*L'industrie et la morale considérées dans leurs rapports avec la liberté*](https://planb.academy/resources/books/industrie-morale-liberte-0ce13a70-e72b-4c5c-b527-fdb9b0a60aae) (1825), puis dans [*De la liberté du travail*](https://planb.academy/resources/books/de-la-liberte-du-travail-edf7f393-d110-4a18-96f4-fcc477f0b49c) (1845), a montré que **la liberté est une construction progressive**. Nous sommes plus libres dans les sociétés industrielles que dans les sociétés féodales, plus libres sous la féodalité que sous l'esclavage ancien, et plus libres sous l'esclavage que dans la préhistoire. Mais qu'est-ce que l'homme préhistorique était libre de faire ? Rien, car l'existence humaine était soumise à toutes les contraintes imaginables.
 
 
-![French liberal tradition book cover](assets/en/031.webp)
+![Charles Dunoyer and his work L'industrie et la morale (Institut Coppet edition)](assets/en/030.webp)
 
 
 **L'absence de sécurité est un obstacle fondamental à la liberté d'action**. Pourquoi agir, pourquoi entreprendre, si les fruits et les effets de ses actions sont constamment compromis par le danger ? La toute-puissance de la coutume empêchait en outre toute liberté réelle. Devant l'absence de sécurité et la multiplicité des dangers, on jugea préférable d'imposer une direction à l'homme plutôt que de le laisser avec ses faibles lumières dans des circonstances trop difficiles pour le jugement individuel. La grande masse de la population se soumettait à la coutume, peut-être moins volontiers dans l'élite, mais largement et complètement, parce que les circonstances l'exigeaient.
@@ -2888,7 +2882,7 @@ L'analyse libérale du féminisme repose sur une étude historique et anthropolo
 ![French liberal tradition book cover](assets/en/093.webp)
 
 
-Écrit Comte, avec l'indignation posée d'un homme qui a étudié ses preuves avec soin :
+Comte écrit, avec l'indignation posée d'un homme qui a étudié ses preuves avec soin :
 
 
 > "Chez les peuples sauvages, la femme travaille sans relâche pendant que l'homme se repose. Elle porte les fardeaux, soigne les animaux, prépare la nourriture, élève les enfants, tout en étant légalement comptée pour rien. Ce n'est pas la nature qui l'a rendue esclave, c'est l'absence de loi, le règne de la force brute qui l'a placée dans cette condition. Chaque pas que fait la civilisation est un pas vers l'égalité des sexes, car la civilisation n'est autre chose que la substitution progressive du droit à la force"

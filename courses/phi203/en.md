@@ -354,7 +354,7 @@ In the lessons that follow, we will return to these factual foundations of liber
 
 We established in the previous chapter that liberty rests on observable facts about human nature: the body, the occupation of space, the appropriation of things, the individuality of perceptions. But the human being is not only a body, he is also, and perhaps above all, a mind. **From this single fact flow religious tolerance, freedom of expression, freedom of the press, and free education.**
 
-![A worn volume from the French liberal tradition](assets/en/009.webp)
+![Charles Comte, Traité de législation](assets/en/009.webp)
 
 Charles Comte (1782–1837), in his [*Cours de droit naturel*](https://planb.academy/resources/books/cours-droit-naturel-78a371b6-796b-4ebe-bb8a-54cc64f38b57), a series of lectures delivered in Lausanne around 1830, of which we still possess the manuscript, makes this point from the very first lesson: a human being devoid of cognitive capacity would scarcely be recognized as human. We form bonds with others precisely because they are thinking beings, because they have feelings, ideas, convictions that we can share and debate.
 
@@ -365,8 +365,6 @@ This capacity for thought is accompanied by something that no materialist accoun
 
 Thought is a manifestation of the will. We feel, we conceive projects and ideas, and we naturally wish to transmit them. **Expression, whether spoken, written, or printed, is simply the materialization of thought.** If we are free to will, and free to think (since no power on earth can prevent us from thinking), then there is a strong natural presumption in favor of free expression. To break the chain between sensation, will, thought, and its material expression requires very powerful arguments indeed.
 
-![Benjamin Constant, Principes de politique (1814-1815)](assets/en/010.webp)
-
 Here we encounter a fundamental insight: the inviolability of conscience. One can burn a man for his opinions, it has been done, but one cannot burn his thought. **The stake destroys the thinker, not the thinking.** No authority has ever had power over thought itself; it can only reach its material expression. We are free to change our ideas, to pursue them to their conclusion, to abandon one intuition and embrace another. This freedom is not a gift of legislation. It is a fact of our nature.
 
 ### Benjamin Constant and the sacred property of thought
@@ -375,7 +373,7 @@ Benjamin Constant (1767–1830), the great Swiss-French liberal, devoted much of
 
 > "Error or truth, man's thought is his most sacred property; error or truth, tyrants are equally guilty when they attack it. He who proscribes superstition in the name of philosophy, and he who proscribes independent reason in the name of God, equally deserve the execration of all men of good will."
 
-![Condorcet, Esquisse d'un Tableau Historique des Progres de l'Esprit Humain](assets/en/011.webp)
+![Benjamin Constant, Principes de politique (1814-1815)](assets/en/010.webp)
 
 In other words, since the individual is the sole owner of his thought, to suppress it in the name of any supposedly higher reason, whether religious or rationalist, is fundamentally unjust. **The property of thought belongs to the thinker**, and no external tribunal, however well-intentioned, is competent to rule on the contents of another man's mind.
 
@@ -385,7 +383,7 @@ Why, beyond the mere recognition of a natural right, should we actively value fr
 
 Nicolas de Condorcet (1743–1794), who stood at the crossroads of the Enlightenment philosophers and the Physiocrat economists, a close friend of Turgot, wrote his masterwork, the [*Esquisse d'un tableau historique des progrès de l'esprit humain*](https://planb.academy/resources/books/esquisse-tableau-historique-progres-esprit-humain-ab87cd62-445d-4620-a3ad-7af31ba17c3f), under extraordinary circumstances. In hiding, about to be arrested and executed during the Terror, without books, he composed in a single room a sweeping vision of human progress across the ages.
 
-![Portrait of Gustave de Molinari (1819-1912), Belgian-French economist](assets/en/012.webp)
+![Condorcet, Esquisse d'un Tableau Historique des Progres de l'Esprit Humain](assets/en/011.webp)
 
 The core thesis was revolutionary: contrary to the Christian doctrine of the Fall, which posits a descent from original perfection, human civilization is ascending. Each generation transmits its discoveries to the next, and humanity advances from century to century. **But this progress is not automatic.** New ideas, audacious, pioneering, often initially rejected, must be freely communicated. The discoverer must be able to teach his conceptions to others, to his descendants, and to society at large, so that what was once considered too bold may be tested, accepted, and put into practice.
 
@@ -397,8 +395,6 @@ Freedom of the press extends the principle of free expression into the political
 
 The Abbé de Saint-Pierre, at the beginning of the 18th century, compared political institutions to clocks that need to be wound from time to time. Indeed, laws and institutions grow stale; they require periodic reform. But **reform requires informed public opinion, and informed public opinion requires a free press**.
 
-![Edouard Laboulaye, Le Parti liberal and La Liberte d'enseignement](assets/en/013.webp)
-
 French history provides a stark illustration of what happens without this mechanism. In the 18th century, the Enlightenment philosophers electrified the intellectual elite with their ideas. Turgot, as minister, attempted sweeping reforms. But there were no newspapers accessible to the common people, no channels through which an informed public opinion could form and sustain the reform effort. The mass of the population was excluded from the great intellectual debate. The result was that **change could only come through revolution**, through the violent overthrow of the entire system, rather than through gradual, prepared, peaceful reform.
 
 The free press, by contrast, acts as what the liberals called "the tribunal of public opinion", a mechanism that is both free and rapid. Citizens observe the effects of laws and institutions, formulate their judgments, and communicate them publicly. This tribunal costs nothing; it operates continuously; and it prepares the ground for reform so that violent upheaval becomes unnecessary. It is, in a sense, a profitable enterprise: private newspapers and journals sustain themselves economically while simultaneously performing the essential civic function of democratic criticism.
@@ -408,6 +404,9 @@ The free press, by contrast, acts as what the liberals called "the tribunal of p
 We arrive at free education, the freedom that, logically, should require no separate defense, yet which encounters the greatest resistance.
 
 Consider: if we accept freedom of expression, does it not follow that we accept the freedom to teach? If we accept freedom of the press, the right to communicate one's ideas through print, how can we deny the right to communicate those same ideas in a classroom? And if we accept religious freedom, the freedom not merely to pray silently at home (which exists under every tyranny) but to worship publicly, to found churches, to propagate one's faith, then **we must accept the freedom to educate one's children according to one's beliefs**.
+
+
+![Edouard Laboulaye, Le Parti liberal and La Liberte d'enseignement](assets/en/013.webp)
 
 
 Édouard Laboulaye (1811–1883), one of the great defenders of educational freedom during the era of Jules Ferry's reforms, fought this battle with passion, and, unfortunately, lost it. The liberals lost again more decisively in the following decades. Yet the arguments remain unanswerable.
@@ -640,15 +639,13 @@ In the same way, the individual was entirely subjected to the tribe. A set of ru
 
 Private ownership of land was equally impossible to establish. **The productive activities of the time required vast common territories**. The hunt for buffalo or elephant, for instance, could not be conducted within an enclosed terrain of two hectares. Nomadic life was a necessity, not a choice. Pastoral peoples, by definition, could not attach themselves to a fixed, small plot of private property.
 
-![Charles Dunoyer and his work L'industrie et la morale (Institut Coppet edition)](assets/en/030.webp)
-
 This communal ownership should not be confused with communism in the ideological sense. The land was common within the tribe, within the family or the group of families, but it was considered the property of that group. There were significant conflicts between tribes; no one imagined that the entire earth was the common property of all. These groups behaved like animals defending their territory. But this was not private property linked to the individual; it was **a collective adaptation to the conditions of production**.
 
 ### "Free! Free to do what?"
 
 Charles Dunoyer (1786-1862), in his remarkable work [*L'industrie et la morale considérées dans leurs rapports avec la liberté*](https://planb.academy/resources/books/industrie-morale-liberte-0ce13a70-e72b-4c5c-b527-fdb9b0a60aae) (1825), and later in [*De la liberté du travail*](https://planb.academy/resources/books/de-la-liberte-du-travail-edf7f393-d110-4a18-96f4-fcc477f0b49c) (1845), showed that **freedom is a progressive construction**. We are freer in industrial societies than in feudal societies, freer under feudalism than under ancient slavery, and freer under slavery than in prehistoric times. But what was prehistoric man free to do? Nothing, because human existence was subject to every conceivable constraint.
 
-![French liberal tradition book cover](assets/en/031.webp)
+![Charles Dunoyer and his work L'industrie et la morale (Institut Coppet edition)](assets/en/030.webp)
 
 **The absence of security was a fundamental obstacle to freedom of action**. Why act, why undertake, when the fruits and effects of one's actions are constantly compromised by danger? The omnipotence of custom further prevented any real liberty. Given the lack of security and the overwhelming number of hazards, it was judged better to impose a direction on man than to leave him with his feeble lights amid circumstances too difficult for individual judgment. The great mass of the population submitted to custom, perhaps less willingly among the elite, but broadly and thoroughly, because the circumstances demanded it.
 

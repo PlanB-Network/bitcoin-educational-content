@@ -193,9 +193,6 @@ In this lecture, Giacomo Zucco bridges the gap between the problem (money as a s
 ### From credit to crypto: the problem restated
 
 The previous lecture traced money's evolution from shells to digital credit. Each step gained convenience but lost something fundamental. Coins required trust in a mint to certify metal content. Banknotes required trust in a bank to redeem paper for gold. Digital credit eliminated the physical object entirely, binding every transaction to a verified identity. The result is a system where your wealth exists as a number next to your name in a centralized database. "I don't like you, well, your name, no amount."
-
-![System of Control: credit, exclusion, and the privacy problem that motivated the cypherpunks](assets/1/14.webp)
-
 The consequences of identity-bound money are severe. Giacomo uses the example of the French government losing control of a KYC database of Bitcoin buyers, which contained identity documents, home addresses, purchase amounts, and withdrawal addresses. This data became a weapon: phishing emails (far more effective when they contain your real name and wallet balance), blackmail, and actual kidnappings. When you give a website your credit card details, **you are handing over all the information needed to spend your money**. The digital surveillance system has become so thorough that even stolen identity has limited utility, but the price is living in what Giacomo compares to a comfortable prison: "You have free food and some level of security, but you don't have freedom."
 
 The question that drives the rest of the lecture: can we build digital cash that is as easy to move and store as credit, but as sovereign and private as physical coins?
@@ -204,25 +201,25 @@ The question that drives the rest of the lecture: can we build digital cash that
 
 The answer begins with cryptography. A **symmetric cipher like Caesar's shift** like the Caesar cipher (shift every letter by N positions, where N is the secret key) allows two parties who share a secret to communicate privately. But it has a fatal limitation: the key must be exchanged in person first. "Imagine every soldier has to take a submarine back to the UK to chat with the commander." This makes symmetric cryptography incompatible with anonymous digital cash, where strangers must transact without prior trust.
 
-![Cyphers: secrets and keys, from Caesar to Enigma](assets/1/15.webp)
+![Cyphers: secrets and keys, from Caesar to Enigma](assets/1/14.webp)
 
 **Asymmetric cryptography with public keys** solves this. Giacomo credits Ralph Merkle as the original inventor, whose university reviewers rejected his paper because they thought he was sharing secret key material when he was actually sharing public keys, a concept they had never encountered. The idea: split a key into two halves. One half (the public key) can only lock; the other (the private key) can only unlock. Anyone can encrypt a message with your public key; only you can decrypt it. **Bob and Alice never need to meet or share a secret.** A private key is simply a very large random number. The public key is derived from it through a one-way mathematical function.
 
-![Asymmetric cryptography: private and public keys, encryption and signatures](assets/1/16.webp)
+![Asymmetric cryptography: private and public keys, encryption and signatures](assets/1/15.webp)
 
 A critical distinction: **Bitcoin does not use encryption at all.** It uses the same mathematical machinery, but in reverse. Instead of Bob encrypting a message with Alice's public key (so only Alice can read it), Alice signs a message with her own private key, and anyone with her public key can verify it came from her. Giacomo compares this to a wax seal in the Middle Ages: recognizing the seal is easy, but reproducing the metal stamp from the emblem alone is practically impossible. Forging a digital signature by brute force would require "a few trillion years."
 
 This leads to **David Chaum's e-cash** scheme. An issuer (a bank or trusted entity) signs a digital banknote: "I owe 100 to the public key of Alice." Alice transfers it to Bob by signing a message redirecting the note to Bob's public key. The double-spending problem (Alice sends the same note to both Bob and Eve) is solved by requiring the issuer to co-sign every transfer. Chaum then added **blind signatures**: a technique where the issuer co-signs transfers without seeing the public keys involved, preserving privacy. "The issuer knows basically nothing."
 
-![E-cash: issuance and transfer using blind signatures](assets/1/17.webp)
+![E-cash: issuance and transfer using blind signatures](assets/1/16.webp)
 
 The transaction model works as a **graph**. If Alice has 100 and needs to pay Bob 70, she creates a transaction with one input (100) and two outputs (70 to Bob, 30 back to herself as change). Outputs can be split and merged freely. This is the UTXO (Unspent Transaction Output) model that Bitcoin would later adopt.
 
-![Graph: splitting and merging transactions in the UTXO model](assets/1/18.webp)
+![Graph: splitting and merging transactions in the UTXO model](assets/1/17.webp)
 
 But e-cash failed twice. **Soft censorship**: Chaum approached banks who refused to adopt the scheme ("I prefer to know everything about my customers"). **Hard censorship**: e-gold, created by an American lawyer and oncologist who read Mises and Hayek, allowed digital transfer of gold titles. It was fully regulated, licensed, used by millions, and the US government shut it down anyway in 2008, confiscating all gold on accusations of enabling money laundering. Satoshi likely used e-gold to purchase the bitcoin.org domain, and **Bitcoin launched the year after e-gold was destroyed**. The lesson: any system with a single trusted entity can be shut down. "If it is big and static and known, you can trust it and the cops can shut it down. If it is small and nimble, you cannot trust it. So we are blocked."
 
-![Sovereignty: soft censorship (banks refuse) and hard censorship (government seizes)](assets/1/19.webp)
+![Sovereignty: soft censorship (banks refuse) and hard censorship (government seizes)](assets/1/18.webp)
 
 ### Proof of work: from spam prevention to digital scarcity
 
@@ -230,17 +227,17 @@ The breakthrough came from an unexpected direction. Adam Back, a cypherpunk work
 
 First, the concept of a **secure hash function like SHA-256**. A secure hash like SHA-256 takes data of any length and produces a fixed-length output, deterministically. The critical property is **pre-image resistance**: given an output, there is no way to find the input except by brute force. Giacomo demonstrates live: "hello there" and "hello there " (with a trailing space) produce completely different hashes.
 
-![Digests: fixed-length output and secure hash functions](assets/1/20.webp)
+![Digests: fixed-length output and secure hash functions](assets/1/19.webp)
 
 Hashcash exploits this: finding an input whose hash starts with one zero requires roughly 16 attempts. Two zeros: 256 attempts. Three zeros: 4,096. **The cost scales linearly with the number of emails sent**: sending one email costs one unit, sending a million costs a million. This eliminates the economies of scale that make spam profitable.
 
-![Hashcash: partial collisions for spam prevention](assets/1/21.webp)
+![Hashcash: partial collisions for spam prevention](assets/1/20.webp)
 
 Nick Szabo saw this and was excited: could proof of work serve as digital cash? But it has a fatal flaw Giacomo calls the **waste problem**: "My cost, my pain, is not your gain. I am not transferring cost, I am just burning cost." If used as money, every transfer in the chain would require fresh energy expenditure. Buying a $1,000 bike means spending $1,000 of electricity, and the next buyer must spend another $1,000.
 
 **Hal Finney's Reusable Proof of Work (RPoW)** solved the waste problem for issuance. Use proof of work only to create the initial token, then transfer it using e-cash-style signatures. Alice performs proof of work to mint a token worth 10 dollars of computation, then signs it to Bob, Bob to Charlie, and so on. The UTXO model allows splitting and merging. "Now you have reusable proof of work. There is no red midspace component, there is no bank, there is nothing with identity."
 
-![RPoW: Hal Finney's reusable proof of work, solving the waste problem for issuance](assets/1/22.webp)
+![RPoW: Hal Finney's reusable proof of work, solving the waste problem for issuance](assets/1/21.webp)
 
 But the double-spending problem returns for transfers: without a mint to co-sign, Alice can send the same token to both Bob and Charlie. Finney's solution was **trusted hardware**: IBM's secure cryptographic coprocessors (SGX chips) that sign the hash of the software they run, proving the mint is executing honest code. "You just have to trust IBM. Well, Intel in this case." The approach works but is not elegant for long-term survival: the chip will eventually fail, and the government can seize the manufacturer.
 
@@ -249,9 +246,6 @@ A 16-year-old Peter Todd identified two deeper problems. **Moore's Law inflation
 ### Chain of time: Satoshi's synthesis
 
 The final piece came from an existing commercial service called **Timeguard**, which provided timestamp proofs. The basic idea: to prove a document existed on a certain date, publish its hash in a newspaper. Pre-image resistance guarantees you possessed the document before the hash was published.
-
-![Timestamp: the foundation of immutable history](assets/1/23.webp)
-
 Ralph Merkle (again) contributed the scaling mechanism: a **Merkle tree** aggregates many document hashes into a single root hash by hashing pairs, then hashing those hashes, up to a single root. This scales logarithmically: four documents need two extra hashes; a thousand documents scale just as efficiently. Timeguard published one Merkle root per day in a newspaper advertisement. Then they added chaining: **each day's root includes the previous day's root**, creating a sequence where altering any past entry requires reprinting every subsequent newspaper. "If you wait three months, they cannot reprint three months' worth of newspaper."
 
 Satoshi's synthesis: **replace the newspaper with proof of work**. Every time someone performs proof of work, they include the hash of all recent transactions and the hash of the previous proof of work. This gives proof of work two functions simultaneously: **creating the asset** (initial scarcity, like Finney's RPoW) and **creating the scarcity of history** (a cost to rewrite the past). For Bob to defraud Charlie, Bob must redo all the proof of work from the fraudulent transaction forward, outpacing the entire network. Each new block votes not only on its own transactions but on every previous one. "The transactions are a graph, but timestamping is a chain, a chain of timestampings."
@@ -284,13 +278,13 @@ The previous two lectures answered "why" and "how" Bitcoin exists. This one tack
 
 Giacomo begins with a correction of terminology. Satoshi Nakamoto never used the word "blockchain." In the white paper, he wrote "chain of blocks"; in blog posts, "chain of proofs of work"; and in the original Bitcoin client code, "timechain." The term "blockchain" appeared around 2012, was capitalized by mainstream media in 2013, and became a meaningless buzzword by 2015. Even Disney created a "blockchain" (Dragonchain), and an iced tea company added "blockchain" to its name, causing its stock to skyrocket the same day. "Now finally the hype is almost dead," Giacomo observes, "but we are going back to the original definition of Satoshi: chain of time."
 
-![Timestamps: classified ads, Merkle trees, and hash chains for proving the existence of documents over time](assets/1/24.webp)
+![Timestamps: classified ads, Merkle trees, and hash chains for proving the existence of documents over time](assets/1/22.webp)
 
 The chain of time rests on three components reviewed from the previous lecture. First, **timestamping via classified newspaper ads**: publishing a document's hash in a newspaper proves the document existed before publication, because pre-image resistance guarantees the document was not forged after the hash appeared. Second, **Merkle trees** for scalability: instead of publishing one hash per document, aggregate millions of documents into a single Merkle root by hashing pairs recursively. Only the root goes in the newspaper; each client stores just the logarithmic proof path for their own document. Third, **hash chains** for tamper resistance: each day's Merkle root includes the previous day's root, so altering any past entry requires reprinting every subsequent newspaper. "If you wait three months, they cannot reprint three months' worth of newspaper." A company called Guardtime had been doing exactly this since the early 2000s.
 
 Satoshi's insight was to replace the newspaper with proof of work. Every time someone performs proof of work, they include the Merkle root of all recent transactions and the hash of the previous proof of work. This gives proof of work two simultaneous functions: creating the asset (initial scarcity) and creating the scarcity of history (a cost to rewrite the past). You follow the chain with the most cumulative proof of work, the "heaviest" chain, just as you would trust the newspaper with the longest unbroken publication history.
 
-![Mining: the heaviest proof-of-work chain, the halving equation, and Bitcoin's supply and inflation curves](assets/1/25.webp)
+![Mining: the heaviest proof-of-work chain, the halving equation, and Bitcoin's supply and inflation curves](assets/1/23.webp)
 
 The monetary policy of Bitcoin is captured in a single equation. The total supply is the sum, over 32 halving epochs of 210,000 blocks each, of 5 billion fundamental units (satoshis) divided by two raised to the epoch number. The first 210,000 proofs of work each earn 5 billion satoshis. The next 210,000 earn 2.5 billion. Then 1.25 billion, and so on, halving every epoch until the reward reaches one satoshi and then zero. The series converges to exactly 2.1 quadrillion satoshis, or 21 million conventional units of 100 million satoshis each.
 
@@ -306,7 +300,7 @@ The difficulty adjustment solves this. Every 2,016 blocks (the number 2016 rever
 
 Why ten minutes? Because in 2009, a one-megabyte file took roughly ten minutes to propagate across a global peer-to-peer network. Why four years between halvings? Leap years, US presidential elections, and Fed leadership changes all follow four-year cycles. Satoshi anchored Bitcoin's monetary calendar to deeply ingrained social rhythms. Combined with 210,000 blocks per epoch, two weeks per difficulty adjustment, and ten minutes per block, all the constants fall into place.
 
-![Blockspace: the bathtub tradeoff between key failure (small blocks) and ZIM failure (large blocks), with difficulty adjustment](assets/1/26.webp)
+![Blockspace: the bathtub tradeoff between key failure (small blocks) and ZIM failure (large blocks), with difficulty adjustment](assets/1/24.webp)
 
 But the deeper problem is what Tadeusz Dryja and Joseph Poon called the "Bitcoin failure bathtub." On the left side: very small blocks mean very few transactions per block, so fees become extremely expensive and only wealthy institutions can afford to transact on-chain. Everyone else delegates their keys to custodians. You end up with ten large institutions holding private keys and everyone else running bank accounts with them. On the right side: very large blocks mean everyone can hold their own keys, but blocks become so massive that only data centers can download and verify them. **You end up trusting Google or Amazon to tell you whether you received money.** The left side recreates banks; the right side recreates mints. Neither is acceptable.
 
@@ -318,7 +312,7 @@ The root cause is **global consensus requires proof of exclusion**, not just pro
 
 The solution begins with smart contracts. Nick Szabo coined the term to describe programmable conditions on digital bearer instruments. Satoshi included a scripting language in Bitcoin with three essential primitives: **multi-signature** (this coin moves only with specific combinations of keys), **timelocks** (this coin cannot move until a certain time), and **hashlocks** (this coin moves only if you reveal the pre-image of a hash). These three building blocks can emulate virtually any financial contract: escrow, inheritance, derivatives, joint accounts.
 
-![Smart contracts: Bitcoin Script, payment channels batching transactions in time, and Ark batching transactions in space](assets/1/27.webp)
+![Smart contracts: Bitcoin Script, payment channels batching transactions in time, and Ark batching transactions in space](assets/1/25.webp)
 
 Satoshi intentionally kept the scripting language limited. He started with more flexibility, then disabled most opcodes after discovering that certain combinations created infinite loops. A small block that takes two years to evaluate is just as bad as a giant block. The address evolution tells the story: pay-to-IP (insecure, no privacy), then pay-to-public-key-hash (the addresses starting with "1"), then pay-to-script-hash (addresses starting with "3"), and finally Taproot (addresses starting with "bc1p"), which uses **Merkle trees of script fragments** so that when you spend, you reveal only the branch you actually need. Better privacy, better scalability.
 
@@ -332,7 +326,7 @@ The future, Giacomo argues, lies in combining both: Ark transactions that create
 
 ### Routing, privacy, and the Kevin Bacon rule
 
-![Routing: multi-path payments and onion-encrypted relay across the Lightning Network](assets/1/28.webp)
+![Routing: multi-path payments and onion-encrypted relay across the Lightning Network](assets/1/26.webp)
 
 Opening a channel with every merchant you interact with would never scale. The Lightning Network's key innovation is routing: instead of a direct channel with every counterparty, you chain payments through intermediaries using atomic swaps. Alice pays Zoe through Bob, Carl, Darryl, and Eve, with a smart contract ensuring that **either the entire chain of payments completes or nothing happens**. No one in the middle needs to trust anyone else.
 
@@ -342,17 +336,17 @@ Privacy in Lightning is layered. Each routing node knows only its immediate neig
 
 ### Volatility and the BitTorrent effect
 
-![Volatility: the power law model of Bitcoin's price growth, fiat debasement, and four-year market cycles](assets/1/29.webp)
+![Volatility: the power law model of Bitcoin's price growth, fiat debasement, and four-year market cycles](assets/1/27.webp)
 
 Even with perfect scaling technology, Bitcoin faces a commerce problem: volatility. Three forces drive Bitcoin's price. First, demand growth: physicist Giovanni Santostasi discovered that the logarithm of Bitcoin's price correlates with the logarithm of time (days since genesis) at the power of roughly 5.8, with over 97% confidence. Open-source protocols tend to spread at the cube of time; network value grows as the square of nodes (Metcalfe's law). Three times two equals six, which matches the observed exponent. But the noise on top of this trend is large enough to make it useless for trading.
 
 Second, fiat debasement: even if Bitcoin adoption stalled, its price in dollars would still rise because dollars lose purchasing power exponentially. Third, four-year cycles that may be connected to the halving, to presidential elections changing the Fed chair, or to a psychological rhythm in speculative markets. A business that receives Bitcoin at $125,000 and must pay suppliers the next month at $70,000 faces a catastrophic loss. **Bitcoin as a store of value is thriving**, but as a medium of exchange it is hindered by volatility and by Gresham's law (people spend the depreciating currency first).
 
-![Legal arbitrages: the BitTorrent effect, stablecoins, and Tether's role in the Bitcoin ecosystem](assets/1/30.webp)
+![Legal arbitrages: the BitTorrent effect, stablecoins, and Tether's role in the Bitcoin ecosystem](assets/1/28.webp)
 
 This leads to the BitTorrent analogy. BitTorrent made copyright enforcement so difficult that centralized services like VKontakte could host pirated content with impunity: if you shut them down, users just return to BitTorrent, which is worse for regulators. Similarly, Bitcoin's existence creates a permissive environment for centralized-but-convenient services. Tether (USDT) began as a way to move dollar liquidity to the Bitfinex exchange without triggering bank account closures. You send dollars to a company that gives you a token worth $1. The bank does not close the account because there is no investment scheme, no leverage, no volatility. As adoption grew, Tether maintained full reserves by purchasing US Treasury bills directly, becoming, per employee, the most profitable company in history.
 
-![Issuing: the custody spectrum from Chaumian mints to on-chain, with Liquid, Ark, and Lightning channels in between](assets/1/31.webp)
+![Issuing: the custody spectrum from Chaumian mints to on-chain, with Liquid, Ark, and Lightning channels in between](assets/1/29.webp)
 
 Tether also issues XAUT, a gold-backed token reminiscent of e-gold, but with the crucial difference that **the "blockchain" narrative provides plausible deniability**: Tether can perform KYC on the primary market (issuance and redemption) while claiming it cannot control the secondary market (peer-to-peer transfers). It is not true sovereignty, and Tether can still blacklist addresses, but it is "Bitcoinish enough" that hundreds of millions of people now use USDT instead of sats. The risk remains: if the dollar hyperinflates or Tether is forced to confiscate, users will discover they were never holding bearer instruments.
 
@@ -385,7 +379,7 @@ Giacomo opens by completing the custody diagram introduced in the previous lectu
 
 **Full custody** means someone else holds the keys. You have credit on their spreadsheet. They can confiscate, inflate via fractional reserve, or simply disappear. This is how every exchange works: Binance, Coinbase, and until recently, Wallet of Satoshi. A **Chaumian mint** (e-cash) is slightly better: the mint cannot see who owns what or target individual balances, but it can still run away with the funds or do fractional reserve. Fedimint and Minibits use this model for small payments. An **Elements chain** like Liquid adds transparency on the supply side: you can run a node to verify no inflation occurred, though the federation can still censor you or collectively abscond. Aqua and Bull Bitcoin use Liquid under the hood.
 
-![Issuing: the custody spectrum from Chaumian mints to on-chain, showing trade-offs at each layer](assets/1/31.webp)
+![Issuing: the custody spectrum from Chaumian mints to on-chain, showing trade-offs at each layer](assets/1/29.webp)
 
 A **state chain** (Mercury, Spark) goes further: the coordinator cannot steal funds directly but can collude with a sender to reverse a payment, essentially "rolling back time." An **Ark** server cannot steal or reverse, but if you go offline for too long, the coordinator can claim your funds. A **Dryja-Poon channel** (Lightning proper, as in Phoenix) gives you trustless instant payments once opened, but if you go offline, your counterparty can broadcast an outdated state to claim more than their share. Finally, **on-chain** with sufficient confirmations is the strongest guarantee: rewriting history requires outspending the entire network's cumulative proof of work.
 
@@ -395,7 +389,7 @@ The critical insight is that **these security models can be mixed within a singl
 
 Before diving into the industry landscape, Giacomo frames the broader narrative using the Kubler-Ross model of grief applied to technological disruption. When a radically new phenomenon appears, incumbents move through denial ("the internet is a fad"), anger ("regulate it, ban it"), bargaining ("it's not the internet, it's the information superhighway"), depression, and finally acceptance. Bill Gates wrote in 1995 that the internet was doomed; five months later, he launched Internet Explorer and rewrote the book.
 
-![Legal arbitrages: Bloomberg covers for "Blockchain" and "Crypto," the BitTorrent analogy, and Tether](assets/1/30.webp)
+![Legal arbitrages: Bloomberg covers for "Blockchain" and "Crypto," the BitTorrent analogy, and Tether](assets/1/28.webp)
 
 Bitcoin generated two distinct bargaining euphemisms. **"Blockchain"** strips Bitcoin of everything controversial (privacy, volatility, financial sovereignty) and presents the residue as a safe, academic computer science project. Universities, politicians, and enterprises all adopted the blockchain narrative circa 2015. Ironically, as the previous lecture showed, **the actual goal of Bitcoin development is to minimize blockchain use**, not celebrate it. **"Crypto"** does the opposite: it takes Bitcoin's disruptive energy and amplifies it into speculative mania, allowing venture capitalists to print tokens, dump them on retail, and extract value. Neither euphemism describes what Bitcoin actually is. Blockchain is Bitcoin voided of substance; crypto is Bitcoin voided of discipline.
 
@@ -404,32 +398,29 @@ The Tether story illustrates how Bitcoin's existence creates a protective umbrel
 ### Web of trust, invoicing, and the full technology stack
 
 The PGP web of trust of the 1990s failed because there was no economic incentive to learn key management. Bitcoin changed this: if you do not learn to store 12 words securely, you lose money. Hardware wallets (Coldcard, Ledger, Trezor, SeedSigner, Portal) have brought key management to millions of people who would never have touched PGP. The emergence of WebAuthn/Passkeys in mainstream services shows that even the fiat world is beginning to take cryptographic identity seriously.
-
-![Web of Trust: universal keys, invoicing protocols, and the dependency stack from hardware to communication](assets/1/32.webp)
-
 The evolution of Bitcoin addresses tells a story of increasing sophistication. Pay-to-IP (insecure, no privacy) gave way to pay-to-public-key-hash (addresses starting with "1"), then pay-to-script-hash ("3"), then Taproot ("bc1p"). In Lightning, invoices (Bolt 11) were single-use and expired, creating terrible UX: the recipient had to generate a fresh invoice for every payment, and if the payer waited too long, it expired. **LNURL solved this by replacing static invoices with a server endpoint** that generates invoices on demand, enabling donation buttons, login-with-Lightning, and the QR-code payment terminals used in Lugano. But LNURL requires running a server, which most users cannot do. Bolt 12 eliminates the server requirement entirely, allowing static offers that work peer-to-peer through the Lightning Network itself.
 
 The full technology stack forms a layered dependency. Hardware at the base. An operating system on top. The Bitcoin application (node software, wallet). The timechain (layer 1). Channels and Arks (layer 2). Asset protocols like RGB, Liquid assets, or Taproot Assets (layer 3). The Lightning Network now spans across all of these as a routing and invoicing layer. Above that sits identity, communication, storage, and computation, the pieces still largely missing from the Bitcoin ecosystem.
 
-![Dependency: the full technology stack from hardware through timechain, channels, assets, Lightning, to identity and communication](assets/1/33.webp)
+![Dependency: the full technology stack from hardware through timechain, channels, assets, Lightning, to identity and communication](assets/1/30.webp)
 
 Giacomo's thesis is that once Lightning provides reliable payments, **the same infrastructure can support decentralized storage, computation, and communication**. Encrypt your data, split it into chunks, send them to anonymous peers, and pay them satoshis to store and retrieve it. Need computation? Encrypt the task, send it out, pay for results. Keet (by Holepunch) already demonstrates serverless communication using a peer-to-peer protocol called Pears, where every app is a node and backups are distributed across participants. BitChat experiments with mesh networking over Bluetooth and Wi-Fi, enabling communication without internet access. These are early and imperfect, but they point toward a future where Bitcoin is not just money but the incentive layer for a fully decentralized internet.
 
 ### Evolution of Bitcoin actors: from paleonode to present day
 
-![Evolution of Bitcoin actors: the paleonode era with miners, merchants, gamblers, and marketplace providers](assets/1/34.webp)
+![Evolution of Bitcoin actors: the paleonode era with miners, merchants, gamblers, and marketplace providers](assets/1/31.webp)
 
 Satoshi's original software was a monolith: node, wallet, miner, peer-to-peer relay, payment protocol, and even an embryonic marketplace and poker game, all in one program. The first role specializations emerged from mining. When individual CPU mining became uncompetitive, **mining pools** appeared (Slush in Prague, then Eligius/Ocean by Luke Dasher), splitting the "miner" into pool providers who construct blocks and hashers who rent computational power without even knowing what transactions are inside. ASIC producers (Bitdeer, Bitmain) became a distinct hardware industry. Content creators and conference organizers (information brokers) emerged as the first service layer.
 
 The wallet side underwent its own specialization. Bitcoin Core stopped being practical as a wallet; tools like Electrum, Sparrow, and Specter emerged for multisig and complex transactions. Hardware wallets (Coldcard, Ledger, Trezor, SeedSigner) separated key storage from key usage. Lightning wallets (Phoenix, Zeus, Breez) required entirely different software stacks. The word "wallet" itself became dangerously overloaded: journalists call a UTXO a "wallet," users call their software a "wallet," and inside that software, each key derivation path is also called a "wallet."
 
-![Evolution of Bitcoin actors: modern roles including liquidity providers, oracles, enterprise services, and community organizers](assets/1/35.webp)
+![Evolution of Bitcoin actors: modern roles including liquidity providers, oracles, enterprise services, and community organizers](assets/1/32.webp)
 
 The early ecosystem added custodians, traders, ATM producers (Lamassu), node producers, synthetic asset providers (Tether), and event organizers. The present-day landscape introduces **trusted and trustless liquidity providers** (Lightning service providers like ACINQ/Phoenix), paid oracles (price feeds for stablesets and DLC contracts), enterprise service providers, community organizers, and venture capitalists.
 
 ### Hard business models: six patterns that survive
 
-![Hard business models: financial services, software services, functionary roles, hardware products, monetary use, and knowledge brokerage](assets/1/36.webp)
+![Hard business models: financial services, software services, functionary roles, hardware products, monetary use, and knowledge brokerage](assets/1/33.webp)
 
 Giacomo draws a sharp line between easy and hard Bitcoin business models. The easy ones are zero-sum or negative-sum: harvest and sell user data, print scam tokens, deploy ransomware, enforce patents, or kidnap people. All are profitable; all contradict Bitcoin's purpose.
 
@@ -448,9 +439,6 @@ The hard business models, the ones that create genuine value, fall into six cate
 6. **Knowledge brokerage**: Education, consulting, research, conferences. Sell understanding of Bitcoin to people and organizations who need it. Plan B Network itself operates in this category.
 
 ### Pain points: where the opportunities are
-
-![Pain points: the internet revolution's failures and Bitcoin's counter-revolution](assets/1/37.webp)
-
 The lecture closes with a framework for understanding where Bitcoin creates opportunities. The internet revolution lowered capital barriers to entry, but this produced four pathologies: **centralization** (network effects concentrate power in a few platforms), **surveillance** (the "blockchain" euphemism, where everything is tracked), **hype** (speculative bubbles driven by low barriers to token creation), and **Cantillon effects** (the "crypto" euphemism, where token printers extract value from retail buyers).
 
 The Bitcoin counter-revolution addresses each of these: **decentralization** through disintermediation (removing trusted third parties), **privacy** through cryptographic blindness and regulatory arbitrage, **stability** through protocol ossification (Bitcoin's base layer has barely changed since 2009, just like IPv4 barely changed for decades), and **scarcity** through the fixed supply and the discipline of not printing tokens.
@@ -496,9 +484,6 @@ The concept of intrapreneurship is equally important here. Not everyone in the a
 ### Defining your user persona
 
 Before building anything, you need a clear picture of who will use your product. A user persona is a structured profile of your target customer that includes their age, gender, occupation, tech proficiency, personality traits, goals, motivations, and pain points. **Defining a persona forces you to move from abstract thinking to concrete decisions** about who you are serving.
-
-![User persona framework](assets/2/2.webp)
-
 Consider the Lightning wallet as an example. The user persona changes dramatically depending on the context. In South Africa, a product called Machankura targets young people between 15 and 25 who own small shops or farms, have no smartphone, and rely on burner phones. Their solution enables Lightning payments over SMS, which is a perfect fit for that specific population. In Europe, the typical Lightning user might be a privacy-focused tech worker with high Bitcoin knowledge who values self-sovereignty above all else.
 
 These are radically different personas with different pain points. The South African user needs simplicity and hardware compatibility. The European user cares about open source and self-custody. A product like Wallet of Satoshi solves the onboarding problem by making things simple, but it requires trust in a custodial model. Self-custody wallets solve the trust problem but create a significant **pain point for newcomers who lack technical knowledge**.
@@ -509,58 +494,37 @@ There is also the custody and inheritance segment. The average user of Bitcoin c
 
 The Lean Startup model, developed by Eric Ries, provides the foundational loop for product development: build, measure, learn, and repeat. What matters most about this loop is not the three steps themselves but the fact that **the cycle never ends**. It runs for the entire lifetime of the product. Five years ago, a single iteration through the loop took two to three weeks. With AI tools available today, a motivated founder can complete a full cycle in a single day.
 
-![The Lean Startup build-measure-learn loop](assets/2/3.webp)
+![The Lean Startup build-measure-learn loop](assets/2/2.webp)
 
 Layered on top of this loop is the framework from "Getting to Plan B" by Mullins and Komisar. The core idea is that a startup is not about executing a perfect business plan. It is about embarking on a deliberate learning journey that leads, through evidence and disciplined testing, to a viable business model that is usually very different from the original vision.
 
 This framework introduces three key concepts. The first is **analogs, successful precedents from any industry** that you can borrow or adapt. When Apple launched the iPod and iTunes, they borrowed Gillette's razor-and-blades model (sell hardware at low margin, make recurring revenue on content) and drew on the Sony Walkman as proof that people would carry portable music. The second is **antilogs, predecessors that failed and whose mistakes you want to avoid**. Apple saw that existing MP3 players had clunky interfaces and restrictive digital rights, so the iPod was designed to be beautiful, simple, and backed by a broad music licensing catalog.
 
 The third concept is the **leap of faith, the critical belief about your business** that has no real evidence yet. This is the gap between what analogs and antilogs tell you and what you are assuming will be true for your product. Apple's leap of faith was that people would happily pay 99 cents per song for legal downloads when piracy tools were freely available. PayPal's early leap of faith was that cryptography-based security would create sufficient trust for electronic peer-to-peer payments.
-
-![Analogs, antilogs, and leaps of faith](assets/2/4.webp)
-
 If you cannot find any competitor or similar product in any industry, it usually means one of two things: there is no market, or you have not done a good enough job looking. Every idea has analogs somewhere.
 
 In the Bitcoin space, these concepts apply directly. Mi Primer Bitcoin in El Salvador used Toastmasters as an analog for their community-based education model, spinning off meetings in different cities. Lightning infrastructure providers use a version of the razor-and-blades model: free deployment to get you started, then recurring revenue from liquidity services once your project scales and switching becomes costly.
 
 The five elements that determine any business model's viability must also be considered early. Revenue model (who buys, how often, at what price), gross margin (software should target 80 to 90%), operating model (team, servers, fixed costs), working capital (your oxygen, since the only sources of cash for a startup are clients and investors), and investment model (how you fund your roadmap). **If you run out of cash, you die**, and managing burn rate to maintain six to twelve months of runway is not optional.
-
-![Five elements of business model viability](assets/2/5.webp)
-
 ### The three-phase methodology
 
 **Phase 1: Learn.** The learning phase has two components. The first is desk study: secondary research using Reddit, X, Product Hunt, Google Trends, specialized forums, and industry reports. AI tools can summarize sources into structured pain points, analogs, and antilogs in minutes. The goal is to build a broad understanding of the market landscape before talking to anyone.
-
-![Phase 1 overview: desk study, problem interviews, and customer repository](assets/2/6.webp)
-
 The second and more valuable component is problem interviews, also called customer interviews or "mom tests." These are live conversations, face-to-face or virtual, lasting 30 to 45 minutes. The golden rule is to **listen 80 to 95% of the time and never pitch your solution**. You are there to understand the customer's reality, not to sell.
 
 The interview follows a structured flow. Start with a warm-up ("Can you tell me about the last time you had to deal with..."), then narrow down to the specific process, identify the most frustrating or costly part, and understand the current workaround. Never ask "Would you use this?" at this stage. You are collecting evidence about problems, not validating solutions.
-
-![Problem interview rules and questionnaire structure](assets/2/7.webp)
-
 All findings go into a customer pain point repository: a simple table with columns for date, interviewee (anonymized if needed), pain points, severity score, verbatim quotes, and current workarounds. When you present this to an investor and can say "I conducted 20 interviews, 10 people reported the same pain at severity 8 or higher, and here are their exact words," that carries real weight.
 
 Under each leap of faith, document the underlying hypotheses that need testing. At the end of this phase, you should be able to **isolate the top two or three pain points** with severity scores above 7 out of 10, confirmed by multiple independent interviews. If you cannot find them, your leap of faith may be wrong, and it is time to move toward Plan B.
 
 **Phase 2: Prototype.** The prototyping phase focuses on wireframes and sketches, not functional products. The goal is to create something visual that lets potential users react. Tools like Replit, Figma, Lovable, and Claude can produce a clickable prototype in minutes rather than weeks. Five years ago, a week of designer work cost around $1,000. Today the same output costs less than $20 and takes less than a day.
-
-![Prototyping with AI and no-code tools](assets/2/8.webp)
-
 In the Bitcoin space specifically, SDKs like Breeze and services like ZBD can shortcut backend work for Lightning-based prototypes. It is acceptable to make trade-offs at the MVP stage: a prototype does not need to be fully open source or production-ready. The point is to have something to show.
 
 Building community momentum is another form of validation at this stage. Creating a Reddit channel, an X account, or a Nostr presence around the problem you are solving can test interest before you write a single line of code.
 
 **Phase 3: Validate.** The validation phase centers on solution interviews: showing your prototype to potential users and collecting structured feedback. These interviews are shorter (15 minutes maximum) and should include roughly 50% people from your earlier problem interviews and 50% new participants.
-
-![Phase 3: solution interviews, pre-sales, and hypothesis dashboard](assets/2/9.webp)
-
 The goal is to confirm the solution matches the pain point, test pricing signals, and detect missing features. Instead of asking "Would you pay $10?", frame it concretely: "I'm planning to price this at $19 per month or $149 per year. Would you buy it?" Then test upsells: "These additional features would cost an extra $50 per year." This approach gives you qualitative pricing data that informs your revenue model.
 
 The ultimate validation is pre-sales: getting customers to pay before the product is built. This is rare and extremely difficult, but if you achieve it, **you simultaneously validate market demand, your revenue model, and your cash flow**. You get money upfront and deliver afterward.
-
-![Leap of faith versus hypothesis: the critical distinction](assets/2/10.webp)
-
 Throughout this phase, maintain a solution feedback repository (date, interviewee, segment, behavior on prototype, pain severity, reaction, pricing signal) and a pivot report that tracks every decision you have made since the beginning and why. The distinction between a leap of faith and a hypothesis is critical here: the leap of faith is the big, scary, unproven belief that would destroy your entire plan if wrong. A hypothesis is the small, testable experiment you design to stress-test that belief. Convert every leap of faith into measurable hypotheses, track them on a dashboard, and let the data tell you when to pivot.
 
 Bitcoin conferences are an ideal testing ground for this entire process. If you attend an event in Lugano or elsewhere, you have concentrated access to potential users, industry experts, and investors, making it one of the most efficient places to run both problem and solution interviews.
@@ -568,9 +532,6 @@ Bitcoin conferences are an ideal testing ground for this entire process. If you 
 ### Key takeaways and resources
 
 The full loop ties together: initial assumptions lead to analog and antilog research, which surface leaps of faith, which get broken down into testable hypotheses, which get validated through interviews and prototypes, all documented in a customer repository that eventually tells you whether to persist or pivot.
-
-![Class summary and key takeaways](assets/2/11.webp)
-
 AI has made the build phase nearly instantaneous. **The human bottleneck is now finding and scheduling interviewees.** Cold outreach works better than most people expect: assume people are kind, leverage your student status, and always ask each interviewee to introduce you to more people. One interview should always lead to the next.
 
 For Bitcoin-specific quantitative research, River reports provide solid market data. Arkane Research published important Lightning Network analysis in 2021. Glassnode and Bitcoin Magazine Pro offer on-chain data, though the growing role of ETFs has made ownership data harder to track. Much of this data is migrating toward Bloomberg as Bitcoin becomes more institutional.
@@ -599,7 +560,7 @@ Custody is the second function. Historically, banks stored physical gold in vaul
 
 Payments are the third function: moving money within and across banks. This is a service most people take for granted but becomes critical in cross-border contexts.
 
-![Lehman Brothers sign being carried away from Christie's auction house after the bank's collapse in 2008: a reminder that banks fail, and when they do, depositors learn the hard way what "not your money" means](assets/2/12.webp)
+![Lehman Brothers sign being carried away from Christie's auction house after the bank's collapse in 2008: a reminder that banks fail, and when they do, depositors learn the hard way what "not your money" means](assets/2/3.webp)
 
 When you apply these three functions to Bitcoin, the landscape shifts. The single most important financial product institutions have offered regarding Bitcoin is the ability to **buy and sell Bitcoin**, whether for speculation, inflation protection, or financial sovereignty. Lending against Bitcoin as collateral, custody of Bitcoin, and payment via Lightning or other rails are emerging, but buying remains the dominant use case.
 
@@ -639,7 +600,7 @@ The most dramatic regulatory episode in Bitcoin banking history involved two US 
 
 **Signature Bank, a much larger New York institution**, faced a similar fate. Its Signet payment network processed significant volumes for digital asset clients, representing about 23% of its business. After SVB's collapse triggered a bank run, Signature also remained solvent, but regulators seized it anyway. As Nic Carter reported extensively: "I think we were shot to encourage the other banks to stay away from crypto."
 
-![Signature Bank seizure: "Nothing To Do With Crypto," New York says. Despite remaining solvent, regulators seized the bank, effectively sending a message to every other institution serving Bitcoin companies.](assets/2/13.webp)
+![Signature Bank seizure: "Nothing To Do With Crypto," New York says. Despite remaining solvent, regulators seized the bank, effectively sending a message to every other institution serving Bitcoin companies.](assets/2/4.webp)
 
 This era, known as Chokepoint 2.0, saw US regulators systematically debank every institution touching Bitcoin. The reversal since 2025 has been equally dramatic. The GENIUS Act and Clarity Act passed with bipartisan support. The OCC (Office of the Comptroller of the Currency) has granted conditional charters to Paxos, BitGo, Fidelity Digital Assets, Ripple, and others. As one banking consultant with 34 years of experience put it: "I've never seen regulatory clarity arrive this fast."
 
@@ -667,7 +628,7 @@ Lightning adds another dimension: if you go offline for too long, your channel c
 
 **Privacy adds a second axis.** Most people assume custody means no privacy and self-custody means privacy, but counterexamples exist in both directions. Cashu is fully custodial yet fully private. Using Ledger Live with your real name and email is self-custody with zero privacy.
 
-![Custody spectrum from least centralized (lowest risk) to most centralized (highest risk): on-chain, Lightning, eCash federated mint, eCash solo mint, custodial Lightning, exchange, ETF](assets/2/14.webp)
+![Custody spectrum from least centralized (lowest risk) to most centralized (highest risk): on-chain, Lightning, eCash federated mint, eCash solo mint, custodial Lightning, exchange, ETF](assets/2/5.webp)
 
 Regulation today typically forces a binary categorization (custodial or non-custodial), which fails to capture the reality of these products. This gap between regulatory categories and technical reality is one of the most important unresolved questions in Bitcoin banking.
 
@@ -796,26 +757,17 @@ In this chapter, Thunder (Head of Talent at Strike and Bitcoin-only recruiter) l
 ### Why Bitcoin-only changes the game
 
 Bitcoin-only startups operate under constraints that set them apart from typical tech companies. The market is ideology-anchored: **your users and investors care deeply about values, not just features**. Product failure is harder to recover from because reputation damage in the Bitcoin community can be permanent. Regulation, licensing, and compliance risks are significantly higher since most Bitcoin startups are building financial infrastructure or handling people's money.
-
-![Bitcoin-Only Changes the Game: ideology-anchored market, product failure harder to recover from, permanent reputation damage, higher regulation and custody risk](assets/3/6.webp)
-
 This context shapes every hiring decision. You are not just looking for talent; you are looking for people you can trust with sensitive financial data, cryptographic keys, and your company's reputation in a community that has a long memory.
 
 ### Hire to remove the bottleneck
 
 The first rule of hiring in a startup is to **hire to remove the bottleneck, not to look like a company**. Do not hire to feel validated, look legitimate, or reduce anxiety. Hire to increase your probability of success.
-
-![The First Hiring Rule: hire to remove the bottleneck, not to look like a company. Do not hire to feel validated, look legitimate, or reduce anxiety. Hire to increase success probability.](assets/3/7.webp)
-
 The specific bottleneck determines who you hire first:
 
 - **No technical depth**: hire a CTO or senior engineer. Your core risk must be internal, never outsourced. If you are raising funds, investors will fund execution, not ideas, so having a technical co-founder is practically mandatory.
 - **Product exists but no users**: hire for distribution and growth (marketing, social media, customer success). A product with no users will die.
 - **Too slow to ship**: hire a senior builder, not multiple juniors. One experienced person can do the work of two or three and costs less in total. Speed equals survival.
 - **Everything is chaotic**: hire for operations. Clarity creates leverage. Someone who can structure processes, handle finance, and create order is worth more than another engineer at this stage.
-
-![Who do you hire first? Bottleneck table: no technical depth = CTO, raising funds = CTO, product but no users = distribution/growth, too slow = senior builder, too chaotic = operations](assets/3/8.webp)
-
 Notice what is absent from this list: recruiters, HR, and middle managers. You do not need an HR department for five or ten people. You do not need a recruiter if you are hiring one or two people per year. These functions come later.
 
 There is a common catch-22 for early founders: VCs want to see a CTO before investing, but you need investment to pay the CTO. The practical solution is to go through your network and find someone mission-aligned who is willing to take the risk with you. It may be a friend, a colleague from the industry, or someone who believes in your idea enough to work on deferred compensation. This is risky for the CTO as well, which is why the relationship typically starts from trust and shared conviction.
@@ -823,9 +775,6 @@ There is a common catch-22 for early founders: VCs want to see a CTO before inve
 ### What makes an A team
 
 An A team is not a collection of smart individuals, famous names, or people with large social media followings. Those qualities are not sufficient and can even be counterproductive if they come without the traits that actually matter.
-
-![What an A Team Actually Means: not smart individuals, famous names, or big social accounts. An A Team is aligned under pressure, clear thinkers in volatility, high agency, high standards, low ego.](assets/3/9.webp)
-
 An A team is defined by how it performs under pressure. The characteristics to look for:
 
 - **Aligned under pressure**: the team holds together when things get difficult, not just when everything is going well.
@@ -833,9 +782,6 @@ An A team is defined by how it performs under pressure. The characteristics to l
 - **High agency**: proactive people who see what needs to be done and do it without waiting to be told. They wear multiple hats and take initiative.
 - **High standards**: quality of execution matters more than speed of output.
 - **Low ego**: in an industry where ego is rampant, the ability to collaborate, accept criticism, and put the mission above personal recognition is rare and invaluable.
-
-![The A Player in a Bitcoin Startup: self-directed execution, bias to action, security mindset, low time preference, doesn't need external validation. If micromanagement is required, the hiring didn't work.](assets/3/10.webp)
-
 The A player in a Bitcoin startup is self-directed, biased toward action, security-minded, and low time preference. They are building for a decade, not for the next quarter. They do not need external validation to stay motivated. **If micromanagement is required, the hiring did not work.** People who genuinely believe in the idea will be your best team members because they are hungry and self-driven.
 
 ### Integrity over trainable skills
@@ -843,9 +789,6 @@ The A player in a Bitcoin startup is self-directed, biased toward action, securi
 This is the most important hiring principle for Bitcoin startups: **technical gaps can be bridged, but character and trust cannot be trained.**
 
 When evaluating candidates, skills are expected and can be verified. What cannot be taught is integrity, sound judgment, and long-term responsibility. If a candidate checks 80% of your skill requirements but demonstrates strong alignment with your mission, trustworthiness, and integrity, that candidate is likely a better hire than someone who checks every technical box but raises character concerns.
-
-![Integrity > Trainable Skills: technical gaps can be bridged, but character and trust cannot](assets/3/11.webp)
-
 Vetting for trust happens through multiple conversations over time, not through a single formal interview. Pay attention to small inconsistencies. Ask about past decisions, how they handled disagreements, what they did when no one was watching. Listen to your gut: if someone seems undependable, they probably are. And involve multiple people in the evaluation process, because a second pair of eyes catches what you miss.
 
 **The cost of a bad hire in a Bitcoin startup is enormous.** A month to onboard, two to three months to ramp up, and if it does not work out, you are back to square one having spent money, time, and team energy. It is cheaper to part ways quickly and restart than to keep someone who is not working out.
@@ -867,19 +810,10 @@ Vetting for trust happens through multiple conversations over time, not through 
 - Because investors expect a larger team (team size is your decision, not theirs)
 - To compensate for weak leadership (hiring middle managers to cover for an incompetent executive never works)
 - To avoid hard decisions (if someone needs to be let go, no amount of additional hires will fix the underlying problem)
-
-![When NOT to Hire: not because you feel behind (FOMO), not because investors expect a team, not to compensate for weak leadership, not to avoid hard decisions. If standards drop early, they rarely recover.](assets/3/12.webp)
-
 **If standards drop early, they rarely recover.** A B player in an A team does disproportionate damage. B players hire C players, the A players leave, and the culture degrades irreversibly.
-
-![You don't scale headcount. You scale standards.](assets/3/13.webp)
-
 The guiding principle: **you do not scale headcount, you scale standards.** Your headcount will grow naturally, but only because you maintained the bar.
 
 ### Structuring for speed and ownership
-
-![Structure for High-Agency Teams: flat structure, direct ownership, async communication, written thinking, fast decision loops. No middle managers at first.](assets/3/14.webp)
-
 Early Bitcoin startups should optimize for flat structure, direct ownership, asynchronous communication, written documentation, and fast decision loops. No middle managers at first.
 
 In a team of five to ten people, everyone should be able to reach everyone else directly. Each person owns their projects completely. Communication happens asynchronously (messages, documents) so the team can work across time zones. Decisions get made in days, not weeks.
@@ -889,15 +823,9 @@ In a team of five to ten people, everyone should be able to reach everyone else 
 When the time comes for middle management (as the team grows beyond what a flat structure can sustain), promote from within rather than hiring externally. The person who has been with you, who understands the culture, who has earned the team's trust, is almost always a better choice than an outside hire with management credentials but no context.
 
 ### The founder's shadow
-
-![The Founder's Shadow: the team will mirror your time preference, your ego, your discipline, your emotional control. If you panic in volatility, your team will panic.](assets/3/15.webp)
-
 **The team is the founder's mirror.** They will replicate your time preference, your ego, your discipline, and your emotional control. If you panic during volatility, your team will panic. If you chase hype, your team will chase noise. If you are disciplined and mission-focused, your team will be too.
 
 This puts enormous pressure on founders, and that pressure is real and should be acknowledged. First-time founders have a steep learning curve across leadership, communication, product, finance, and emotional regulation, all simultaneously. The good news is that all of these are trainable skills. The integrity and character principles that apply to hiring also apply to personal development: you can learn communication, you can learn to manage emotions, you can learn to lead. What matters is that you are aware of the shadow you cast and actively working to make it one worth following.
-
-![In Bitcoin startups, the goal is not to build the biggest team. The goal is to build the smallest team that cannot be ignored.](assets/3/16.webp)
-
 **Recommended resources:**
 - Thunder's free ebook on transitioning to the Bitcoin space
 - Thunder's free ebook on hiring for early-stage Bitcoin companies
@@ -917,32 +845,20 @@ This puts enormous pressure on founders, and that pressure is real and should be
 :::video id=230632a0-ec13-4c4d-988a-a071efa4f85d:::
 
 In this chapter, Efrat Fenigson (podcast host, public speaker, and former Chief Marketing Officer) shares the personal branding method she developed over a decade of practice. The core idea: a personal brand is not PR or advertising. It is the deliberate articulation of who you are, projected outward so that opportunities come to you instead of the other way around. Efrat applied this method to herself when she was looking for a new job, and within a year she had 36 inbound opportunities to choose from. The method breaks down into five pillars: brand identity, content, distribution, networking, and brand synergy.
-
-![Efrat Fenigson's title slide: "Personal Brand - Your Signature"](assets/4/1.webp)
-
 ### Why personal branding matters
 
 Most people feel uncomfortable when they hear "personal branding." The typical reactions are predictable: imposter syndrome, shyness, fear of self-promotion, lack of confidence, feeling like you have nothing to offer. Every single cohort Efrat has taught surfaces the exact same list of concerns, which means these feelings are universal and should not stop you.
-
-![Common constraints: shy, feels like selling myself, imposter syndrome, hard to talk about my own achievements](assets/4/2.webp)
-
 The definition is straightforward: personal branding is **the unique combination of values, character, skills, and expertise** that reflects who you are, the way you present yourself, and the way you are perceived. The key word is "perceived." What you can actively shape is how other people see you. That is the playing field.
-
-![Personal branding definition: the unique combination of values, character, skills and expertise that differentiates and creates trust](assets/4/3.webp)
-
 Jeff Bezos put it simply: your brand is what people say about you when you are not in the room. If people talk about you but say things that do not match how you want to be presented, then you have not taken control of the narrative. Personal branding is the process of taking that control.
 
 For anyone operating in the Bitcoin space or working on sovereignty-related projects, there is an additional dimension. **A strong personal brand is a tool for freedom and sovereignty.** When people cannot control you, they try to control how others view you. If your personal brand is built on real experience and authentic values, ad hominem attacks and reputation smears cannot stick. Your proof of work speaks louder than the noise.
 
 Before building your brand, define your goal. Be specific. "Provide value" is not enough. Who are you providing value to, and why? The more precise the goal, the easier every subsequent step becomes.
-
-![Goals for personal branding: find a new job, get new customers, build trust, promote your business, get a promotion, receive credit for your work](assets/4/4.webp)
-
 ### The five components of brand identity
 
 Brand identity is the first and most important pillar. It requires honest self-examination. This is not marketing or PR; it is internal work that demands authenticity and even vulnerability. The more truthful you are with yourself, the better the results.
 
-![Brand identity wheel: target audience, values, characteristics, look & feel, and tone of voice surrounding the core](assets/4/5.webp)
+![Brand identity wheel: target audience, values, characteristics, look & feel, and tone of voice surrounding the core](assets/4/1.webp)
 
 The five components to define are:
 
@@ -955,50 +871,32 @@ The five components to define are:
 **Look and feel.** How do you carry yourself physically? How do you dress, what colors do you gravitate toward, what first impression do you leave? On video calls, do you look put together or like you just rolled out of bed? 55% of human communication is nonverbal, carried through facial expressions and body language. People detect your energy before they process your words. Make sure the signal matches what you want to project.
 
 **Tone of voice.** This covers both your communication style (personal, direct, humorous, formal) and the literal quality of your voice. Are you conversational or academic? Do you share personal stories easily, or do you keep distance? Your tone of voice shapes how people remember interacting with you.
-
-![Efrat's personal brand identity example: target audience, values (freedom, leadership, sovereignty), characteristics, look & feel, tone of voice, and positioning statement](assets/4/6.webp)
-
 Once you have those five components, wrap them into a **positioning statement**: one line that captures who you are and what you do. Efrat's is "Journalist and podcaster with a marketing background, tech savvy, allergic to tyranny, freedom and Bitcoin maxi." The positioning statement is what goes in your social media bios. The five components behind it stay internal.
 
 After the positioning statement, write your biography. At least one or two paragraphs covering your experience, achievements, and trajectory in chronological order. This biography will serve you every time a conference asks for a speaker bio, a publication needs an author description, or a potential employer wants context. Expect the writing process to trigger imposter syndrome again. That is normal. Push through it.
 
 Once the identity work is done, put it into practice:
-
-![Implement: practice your self-intro in various lengths, walk the talk (people don't trust, they verify), and train your ambassadors including MCs to present you the way you wish](assets/4/7.webp)
-
 Finally, if you are ready for deeper work, define your mission (why you do what you do), your vision (your long-term northern star), and your essence (the vehicle through which you bring your vision to life). For Efrat, her mission is to shed light on hidden truths and help people become more self-sovereign. Her vision is a world where the next generation lives detached from state dependency. Her essence is her voice.
-
-![Advanced brand identity: values, mission, vision, and essence surrounding the core](assets/4/8.webp)
-
 ### Content as the vehicle
 
 Without content, your brand identity stays in the garage. Content is what takes your brand out into the world and makes it visible.
 
 Building a content strategy starts with two questions: what are your themes, and what are your formats? Themes are the topics you are passionate about or expert in. Formats are how you deliver them: video, audio, writing, live presentations, photography, or dialogue.
-
-![Themes and content formats: cross-reference your topics (marketing, CBDC, Bitcoin, human rights) with your preferred formats (dialog, video, audio, live, recorded, writing, photography)](assets/4/9.webp)
-
 Cross-reference your themes and formats. You might write articles about regulation but prefer video for technical tutorials. You might do live sessions about community building but publish written deep-dives on privacy. The intersection of topic and format defines your content plan.
 
 If you are in career transition and lack direct experience in your new field, your brand should reflect the new you, not the old one. Research the terminology and jargon of that space and start using it. Tell your existing case studies in ways that demonstrate relevance to where you are heading. Quote and echo thought leaders in the space. Content creators appreciate it when you share their work with your own commentary on top.
-
-![In transition: research terminology, reframe case studies for relevance, quote and echo others, add personal notes, follow thought leaders, comment and engage](assets/4/10.webp)
-
 Find your unique identifiers. What makes you visually or stylistically distinct? It could be a nickname, a consistent color palette, a recurring format, or a recognizable visual element. Efrat used "Mother of Drones" when she worked in the drone industry. Her signature hashtag was #EfiSelfie.
-
-![Unique identifiers: nicknames, hashtags, and visual consistency across platforms. Efrat's "Mother of Drones" Twitter profile as example](assets/4/11.webp)
-
 In the Bitcoin space, strong personal brands are everywhere. Peter Schiff Orange wears a different statement shirt every day. Gigi has the green costume. Lina Seiche is recognizable through her art style and Fluffy. Lynn Alden uses distinctive memes. Jack Mallers is relatable with his hoodies and signature room setup. **These signature elements make people remember you** without you having to re-explain who you are every time.
 
-![Bitcoin industry figures and their uniqueness: Peter Schiff Orange's shirts, Lynn Alden's memes, Isabella Santos' video style](assets/4/12.webp)
+![Bitcoin industry figures and their uniqueness: Peter Schiff Orange's shirts, Lynn Alden's memes, Isabella Santos' video style](assets/4/2.webp)
 
 Consistency and uniqueness across your platforms builds visual recognition. Your brand colors, your podcast thumbnails, your social media presence should all feel like they come from the same person.
 
-![Efrat's visual brand consistency across YouTube, Spotify, Instagram, and Linktree: same colors, same style, immediately recognizable](assets/4/13.webp)
+![Efrat's visual brand consistency across YouTube, Spotify, Instagram, and Linktree: same colors, same style, immediately recognizable](assets/4/3.webp)
 
 When you reach a level where people seek your opinion on a specific topic, you have achieved thought leadership. A thought leader's goal is not self-promotion but to shape and own a topic of societal relevance. You cannot call yourself a thought leader and have it stick. Other people calling you one is what makes it real.
 
-![Thought leadership definition: a business strategy to shape, promote, and own a topic of great societal relevance](assets/4/14.webp)
+![Thought leadership definition: a business strategy to shape, promote, and own a topic of great societal relevance](assets/4/4.webp)
 
 ### Distribution, networking, and community
 
@@ -1006,26 +904,20 @@ Distribution is about choosing the right roads to reach your target audience. If
 
 Build as many digital assets as possible across platforms: X, LinkedIn, YouTube, Substack, Rumble, podcast directories. **The more decentralized your presence, the more resilient your brand.** Centralized platforms can censor you or lock you out at any moment. Efrat was locked out of her 15,000-subscriber Substack account for two weeks without warning. Always maintain a master platform you control and distribute outward from there.
 
-![Distribution channels: social media platforms, podcast directories, Linktree as central hub, and speaking engagements as in-person distribution](assets/4/15.webp)
+![Distribution channels: social media platforms, podcast directories, Linktree as central hub, and speaking engagements as in-person distribution](assets/4/5.webp)
 
 Beyond digital channels, in-person events are powerful distribution. Speaking at a meetup or conference, even a small one, positions you alongside other experts and gives you content to share afterward. Every panel appearance, every workshop, every roundtable is both a networking opportunity and a distribution channel.
 
-![Podcasting and speaking at industry events and meetups as distribution channels](assets/4/16.webp)
+![Podcasting and speaking at industry events and meetups as distribution channels](assets/4/6.webp)
 
 **Keep a running document of every article, podcast appearance, and talk** you produce, in chronological order with links. This serves as your proof-of-work archive. It builds confidence when imposter syndrome creeps back, saves you from recreating content you already made, and lets you quickly send relevant links when someone asks about a topic you have covered before.
 
 Community membership is a force multiplier. Being part of a relevant community (like Plan B Network) positions you by association. The people in your community become potential collaborators, referral sources, and co-creators. If no existing community fits your needs, create your own. Efrat built a community of 150 CMOs that became one of her strongest personal branding assets.
-
-![Community and networking reminders: speak about yourself, focus self-presentation on expertise and values, use events as content opportunities, capture your presence](assets/4/17.webp)
-
 When engaging in community or at events, practice your self-introduction in multiple lengths: a single sentence, a short paragraph, a full page. The more you practice introducing yourself, the more naturally you control the perception others form. Train the people around you, including event MCs, to present you the way you want to be presented. Give them your one-liner before they introduce you on stage.
 
 ### Making your brand work for your employer (and vice versa)
 
 The fifth pillar is synergy between your personal brand and the organization you work for. Your personal brand is the biggest gift you can give your company. People identify with people more than with logos or institutions. When you build your personal brand while associating it with your company, both brands benefit.
-
-![Your personal brand is the biggest gift you can give the organization you work for. The company gains the humane value your brand creates. You earn the power of your company's brand.](assets/4/18.webp)
-
 Statistics from LinkedIn show that **20% of people who follow you will go on to follow your company**. You become a bridge between your audience and your organization. Whenever you are interviewed, appear on a podcast, or publish content, mention the company or community you represent. It strengthens both brands simultaneously.
 
 This is not about subordinating your identity to a corporate brand. It is about recognizing that the relationship is mutually beneficial and leveraging it intentionally. Your company gains a human face that people can connect with emotionally. You gain the credibility and reach that comes with being associated with a recognized organization.
@@ -1033,12 +925,9 @@ This is not about subordinating your identity to a corporate brand. It is about 
 ### LinkedIn as a practical tool
 
 LinkedIn remains one of the most effective platforms for professional visibility, despite its flaws. There are three things to invest in:
-
-![LinkedIn: three things to invest in: a killer profile, a strong network, and engaging content](assets/4/19.webp)
-
 **A killer profile.** A good profile picture gives you 21 times more views than a careless one. Your cover photo should tell something extra about you. Your "About" section is where your biography goes. It is indexed by search engines, so use relevant keywords. Do not just describe your current job; describe your mastery, your story, and what drives you.
 
-![Killer LinkedIn profile: good profile picture, meaningful cover photo, and an About section that tells who you are and what your mastery is](assets/4/20.webp)
+![Killer LinkedIn profile: good profile picture, meaningful cover photo, and an About section that tells who you are and what your mastery is](assets/4/7.webp)
 
 **A strong network.** Connect actively. LinkedIn's algorithm surfaces your content to second and third-degree connections when your first-degree network engages with it. The larger your network, the wider your organic reach. Sending connection requests is casual and professional; the worst that can happen is a no.
 
@@ -1051,9 +940,6 @@ LinkedIn remains one of the most effective platforms for professional visibility
 **On career transitions:** Accept that you will lose part of your old audience. That is natural. **The people who follow you for who you are, not just what you did, will come along.** Rebuild faster by collaborating with established figures in your new space. When Efrat entered Bitcoin, she reached out to Mark Moss, Jeff Booth, Samson Mow, and Natalie Brunell. They all said yes. The worst that can happen is a no, and a no leaves you exactly where you started.
 
 **On following up after events:** When you meet someone interesting, bring up a potential collaboration subtly in the first conversation. If they show interest, follow up within 24 hours by email or message. Do not elaborate too much in person; save the details for the written follow-up. Close with an open invitation: "If this is of interest, I am happy to jump on a call or send more details."
-
-![Motivation gets you started. Habits get you going!](assets/4/21.webp)
-
 **Recommended resources:**
 - Efrat's exercise sheet for building your personal brand identity (distributed during the lecture)
 - Efrat's podcast: "You're The Voice"
@@ -1073,19 +959,19 @@ In this chapter, Christoph (22 years of interaction design, 5+ years in Bitcoin 
 
 User experience and user interface are not the same thing. User experience is the entire sequence of events someone goes through with your product, from the moment they first hear about it to becoming a passionate regular user. User interface is how individual screens look once you have figured out what needs to happen at each stage.
 
-![User experience is a sequence of events: from Unaware to Aware, Interested, First Use, Repeat Use, and Passionate Use](assets/4/22.webp)
+![User experience is a sequence of events: from Unaware to Aware, Interested, First Use, Repeat Use, and Passionate Use](assets/4/8.webp)
 
 The journey works like a leaky bucket. At every stage, a percentage of people drops off. Someone hears about your product but never visits. Someone visits but never downloads. Someone downloads but closes the app within 60 seconds. If you have analytics, you can identify where the biggest drop-off happens and focus your design work there. **The first minute with an app is the make-or-break moment.** If a user does not understand what your product is within that window, they are gone.
 
 This is where clarity matters more than polish. If your product's landing page says "simple and powerful" and every competitor says the same thing, you have not communicated anything.
 
-![Six well-known Bitcoin wallets all describing themselves as "simple" or "simple and powerful," with no real differentiation between them](assets/4/23.webp)
+![Six well-known Bitcoin wallets all describing themselves as "simple" or "simple and powerful," with no real differentiation between them](assets/4/9.webp)
 
 Cove Wallet is an on-chain wallet with coin selection. Wallet of Satoshi is a custodial Lightning wallet. They are fundamentally different products, but their landing pages are nearly identical. The user has no way to decide. **Differentiation happens when you communicate what your product actually is**, not what adjective sounds appealing.
 
 On one extreme, you have the fintech approach: hide all the Bitcoin, promise an APR, look like a modern bank. On the other, you have the airplane cockpit: everything visible, honest, but overwhelming for anyone who is not already a power user.
 
-![Sparrow Wallet's send screen: full coin selection, fee rate slider, UTXO graph, transaction hex. Powerful but complex.](assets/4/24.webp)
+![Sparrow Wallet's send screen: full coin selection, fee rate slider, UTXO graph, transaction hex. Powerful but complex.](assets/4/10.webp)
 
 Sparrow is excellent for what it is. But the design challenge for most Bitcoin products is finding a position between these two extremes that honestly represents your product while remaining accessible to your target audience.
 
@@ -1093,7 +979,7 @@ Sparrow is excellent for what it is. But the design challenge for most Bitcoin p
 
 Eric's case study is Numo, a point-of-sale system for merchants built on top of the Cashew eCash protocol. The starting motivation is simple: paying with Bitcoin today does not feel as good as paying with Apple Pay.
 
-![Apple Pay on Apple Watch and iPhone: the benchmark UX that Bitcoin payments need to match](assets/4/25.webp)
+![Apple Pay on Apple Watch and iPhone: the benchmark UX that Bitcoin payments need to match](assets/4/11.webp)
 
 The observation that sparked Numo: a man at a coffee shop paid with Apple Pay while maintaining eye contact and conversation with his friend. He held out his phone, it beeped, he put it away. No QR code, no waiting, no friction. Bitcoin does not feel that way yet. Numo is an attempt to close that gap.
 
@@ -1133,23 +1019,23 @@ The protocol language is completely reframed for end users:
 
 This reframing makes the two-balance model intuitive without any technical knowledge.
 
-![Numo wallet: QR scanner for payments and contacts list for sending to known recipients](assets/4/26.webp)
+![Numo wallet: QR scanner for payments and contacts list for sending to known recipients](assets/4/12.webp)
 
 The contacts system abstracts away the complexity of address types (on-chain, Lightning invoices, BOLT 12 offers, Lightning addresses, Ark addresses). Users think in terms of people, not address formats. If you send five transactions to the same address and then assign one to "Eric," the app suggests assigning all five.
 
 The seed phrase backup is designed as a ritual. Instead of showing 12 words on a plain screen, RK uses a scratch-to-reveal surface with premium-looking textures and haptic feedback. A downloadable PDF template (which does not contain the seed) lets users print and write down the words physically.
 
-![Ark wallet recovery phrase: scratch-to-reveal surface with marble/gold texture, designed to make backup feel like a meaningful ritual](assets/4/27.webp)
+![Ark wallet recovery phrase: scratch-to-reveal surface with marble/gold texture, designed to make backup feel like a meaningful ritual](assets/4/13.webp)
 
 The privacy mode replaces the balance with an AI-generated Tuscan landscape instead of the typical asterisks. The rationale: asterisks still hint that a balance exists. A landscape removes the hint entirely, creating a genuine sense of privacy on an intuitive level.
 
 For protocol developers and power users, a hidden X-Ray view exposes all wallet internals: VTXO status, claimable states, raw transaction data.
 
-![Ark wallet X-Ray view: balance breakdown (Ark, Lightning, on-chain) and detailed VTXO exit status for protocol developers](assets/4/28.webp)
+![Ark wallet X-Ray view: balance breakdown (Ark, Lightning, on-chain) and detailed VTXO exit status for protocol developers](assets/4/14.webp)
 
 The product evolves with its audience. During the protocol-developer phase, X-Ray and console tools are front and center. During early testing on Signet, a faucet contact ("Faucetto Signetto") lets testers receive and send test Bitcoin within 30 seconds. As the product matures toward mainnet, these features will recede and mainstream UX will take over.
 
-![Growing an audience, growing a protocol: from protocol developers to builders, early tech adopters, active hobbyists, ecosystem participants, and finally nocoiners](assets/4/29.webp)
+![Growing an audience, growing a protocol: from protocol developers to builders, early tech adopters, active hobbyists, ecosystem participants, and finally nocoiners](assets/4/15.webp)
 
 ### AI as a design superpower
 
@@ -1196,61 +1082,25 @@ Eric demonstrated this by coding a fully functional eCash wallet prototype in Sw
 :::video id=b812121b-549b-446f-bf25-138c8c2db156:::
 
 In this chapter, Joe Nakamoto (journalist, YouTuber, and documenter of 15+ Bitcoin circular economies across 30+ countries) takes a world tour of grassroots Bitcoin communities to extract the patterns that actually work on the ground. The core argument: if Bitcoin only lives on the internet, it stays a niche internet thing. Physical communities give Bitcoin tangibility, credibility, and a human face. A neighbor using Bitcoin is more powerful than any Twitter thread.
-
-![Building Bitcoin Communities: a world tour of circular economies, grassroots builders, and why Bitcoin needs real people in real places](assets/5/1.webp)
-
 ### Why Bitcoin needs physical communities
 
 The online Bitcoin world is dominated by price charts, trading, and crypto scam headlines. Bitcoin gets dragged into every controversy by association. Mainstream journalists focus on the price going down. There is no physical presence to point to, which makes Bitcoin easy to dismiss.
 
 Communities change this. When your barber accepts Bitcoin, when a local shop has a Lightning sticker on the door, **when a 66-year-old boat captain puts his retirement savings in Bitcoin**, the narrative shifts from speculation to reality. **Stories replace speculation, and presence replaces theory.**
-
-![If Bitcoin only lives on the internet, it stays niche. With community: Bitcoin becomes tangible, stories replace speculation, trust is built face to face, network effects compound locally](assets/5/2.webp)
-
 The brief history of Bitcoin leaving the internet follows a clear arc: from Laszlo Hanyecz's 10,000 BTC pizza in 2010, to early ATMs and the first Bitcoin Boulevard in Arnhem (Netherlands) around 2013-2014, through the 2017 ICO bubble where real builders kept building quietly, to the breakthrough of Bitcoin Beach in El Salvador in 2020-2021 that inspired the legal tender law. From 2022 to 2024, despite a bear market, circular economies exploded worldwide. About 25 new ones were built in that period, and the communities that survived are the ones built on real need, not hype.
-
-![History: from genesis (pizza, cypherpunks) to first ATMs and merchants, through the ICO bust, El Salvador legal tender, and the explosion of circular economies across Africa, Latin America, the Caribbean, and Asia](assets/5/3.webp)
-
 ### Seven communities, four continents
 
 Joe presents seven communities he has personally visited and documented, each with different contexts, challenges, and lessons.
-
-![Seven communities across four continents: Witsand (South Africa), Kibera (Kenya), Madeira (Portugal), Curacao (Caribbean), Bitcoin Berlin (El Salvador), Cusco (Peru), and Chiang Mai (Thailand)](assets/5/4.webp)
-
 **1. Bitcoin Witsand, South Africa** (pop. ~500). The highest Bitcoin adoption per capita on Earth. Edwin, the founder, spent over two years getting just two merchants to accept Bitcoin. In the third year, he got 28. The breakthrough came from education first (philosophy before wallets), parties with a sheep on a spit instead of technical meetups, and the "intransigent minority" concept: you only need 3-5 obsessed Bitcoiners to pull everyone else in. Edwin compared it to halal food in South Africa: Muslims are only 3-5% of the population, yet halal food is in every supermarket, because a small committed minority influenced the key decision-makers. A 66-year-old boat captain named Quagga now keeps his retirement fund in Bitcoin because **"Bitcoin levels the playing field"** against the inflating rand.
-
-![Bitcoin Witsand: 28+ merchants, highest per capita adoption, education-first approach, parties over tech meetups, organic spread to neighboring towns](assets/5/5.webp)
-
 **2. Kibera, Nairobi, Kenya** (pop. ~250,000). Africa's largest slum. M-Pesa revolutionized mobile money in Kenya, but then the government imposed strict KYC rules that locked out undocumented residents (refugees, migrants without papers). These people became cash-only citizens: more vulnerable to robbery, inflation, and poverty traps. Mitch, a local from Kibera, partnered with the Afrobit NGO to introduce Bitcoin. He started with boda boda (motorcycle) riders, who are trusted community members. The NGO pays youth in sats for waste collection. The Tando app bridges Bitcoin to M-Pesa, so you can pay M-Pesa-only shops with Bitcoin. A boda boda rider put it simply: **"Bitcoin is win-win. Betting is lose-lose."** The key lesson: Mitch is from the community. Trust cannot be parachuted in from outside.
-
-![Kibera: 60+ merchants, 23 boda boda riders, waste collection paid in sats, Tando bridges Bitcoin to M-Pesa, trust-based adoption led by a local](assets/5/6.webp)
-
 **3. Madeira, Portugal** (pop. ~250,000). An EU territory with 0% capital gains tax on Bitcoin held over one year. The Free Madeira nonprofit drives adoption with a dedicated boots-on-the-ground person named Charlie who sits down with each merchant individually to set up their wallet. They went from 2 to 130+ merchants in two years. Their method: keep showing up at cafes wearing Bitcoin t-shirts and hosting meetups until the owner asks what is going on. Then Charlie does the setup. Even a 200-year-old embroidery shop now accepts Bitcoin. Monthly beginner classes run in Funchal, and the Sovereign Engineering Cohort meets on the island quarterly.
-
-![Madeira: 120+ merchants, 0% BTC tax, Free Madeira nonprofit, Charlie as boots-on-the-ground, 200-year-old embroidery shop accepting Bitcoin](assets/5/7.webp)
-
 **4. Curacao, Caribbean** (pop. ~170,000). A former Dutch territory where PayPal, Venmo, and Revolut do not work. The banks told locals "you're too risky." Bitcoin filled the gap. Venezuelan migrants use the Bitcoin ATM for remittances. A government minister already holds Bitcoin. There was even a Bitcoin carnival float, marking cultural adoption. BTCPay Server is the only way for merchants to accept online payments on the island.
-
-![Curacao: 80+ merchants, no PayPal/Venmo available, Bitcoin ATM for Venezuelan remittances, government minister hodls, Bitcoin carnival float](assets/5/8.webp)
-
 **5. Bitcoin Berlin, El Salvador** (pop. ~17,000). Not the government-backed "Bitcoin City" that never materialized, but a grassroots circular economy in a mountain coffee town. Built entirely bottom-up by a local couple (Evelyn and Gerardo) with zero government help. 150+ merchants accept Bitcoin, more than "Bitcoin City" ever had. Merchants reinvest Bitcoin locally, creating a genuine circular economy. A Lightning ATM converts coins to sats. This community thrives despite the government backing away from Bitcoin mandates, proving that **bottom-up adoption works where top-down mandates fail.**
-
-![Bitcoin Berlin, El Salvador: 150+ merchants, bottom-up approach, zero government help, merchants reinvest BTC locally, Lightning ATM for coins to sats](assets/5/9.webp)
-
 **6. Cusco Highlands, Peru** (pop. ~18 women weavers). At 3,600 meters altitude, 90 minutes from the nearest bank, in a community where 5 of 18 women cannot read. They called it a "suicide mission," and it turned into a miracle. The Motiv NGO introduced Bitcoin to this weaving community. The women use Bitcoin successfully despite being illiterate, buying machines and materials with BTC. Smartphone adoption spread from 3 people to everyone. The community even started donating to a local orphanage, unprompted. **If it works here, it works anywhere.**
-
-![Cusco: 3,600m altitude, 18 women, 5 cannot read, 90 minutes from the nearest bank, community buys materials with BTC, donates to orphanage](assets/5/10.webp)
-
 **7. Chiang Mai, Thailand** (digital nomad hub). A Bitcoin Learning Center serves as a permanent physical hub. The meetup has been running since 2016, making it one of the longest-running Bitcoin meetups in the world. The approach is academic: they conduct surveys of hill tribe communities. Solar-powered Bitcoin mining runs from excess energy. The team trained via Plan B Network courses.
-
-![Chiang Mai: 30-40 expat Bitcoiners, meetup since 2016, academic approach, solar-powered mining, Bitcoin Learning Center as permanent hub](assets/5/11.webp)
-
 ### What actually works
 
 Seven patterns showed up in every community Joe visited:
-
-![What actually works: 7 patterns that showed up everywhere](assets/5/12.webp)
-
 1. **Education first.** Philosophy before wallets. "What is money?" before "download this app." Every successful community started by helping people understand why Bitcoin matters before showing them how to use it.
 
 2. **Intransigent minority.** You only need 3-5 obsessed Bitcoiners. They will pull everyone else in. Do not try to convince the whole town. Convince the people with influence and let it snowball.
@@ -1268,9 +1118,6 @@ Seven patterns showed up in every community Joe visited:
 ### What does not work
 
 Honest mistakes from communities that learned the hard way:
-
-![What doesn't work: government mandates (El Salvador), tech-only meetups (Witsand), moving too fast (aggressive branding creates pushback), outsider-led projects (trust can't be imported), one-size-fits-all pitch](assets/5/13.webp)
-
 - **Government mandates.** El Salvador's Chivo wallet and legal tender law. People did not understand why. The mandate was later softened. **Top-down imposition without education creates resistance.**
 - **Tech-only meetups.** Witsand tried technical presentations first. They got 10x the attendance when they switched to parties with a braai and Bitcoin memes on the walls.
 - **Moving too fast.** Aggressive branding and billboards created pushback from skeptics in Witsand. Go at the community's pace, not yours.
@@ -1280,9 +1127,6 @@ Honest mistakes from communities that learned the hard way:
 ### Your playbook
 
 Six steps to build a Bitcoin community, extracted from the people actually doing it:
-
-![Your playbook: 6 steps to build a Bitcoin community](assets/5/14.webp)
-
 1. **Know your context.** What is the local pain? Remittances? Inflation? No banks? No PayPal? Your Bitcoin pitch must solve something real. **If you cannot name the problem, you do not have a pitch.**
 
 2. **Find your people.** 3-5 passionate Bitcoiners. That is your intransigent minority. Relationships before infrastructure.
@@ -1294,9 +1138,6 @@ Six steps to build a Bitcoin community, extracted from the people actually doing
 5. **Make it visible.** A sign. A mural. A meetup spot. A learning center. Make Bitcoin something people can see in their physical environment.
 
 6. **Celebrate and iterate.** Throw parties, not lectures. Use BTC Map to put your community on the global map. Stay humble. Match your community's pace.
-
-![Bitcoin can't be forced. It has to be understood, held, shared, and lived.](assets/5/15.webp)
-
 **Recommended resources:**
 - Joe Nakamoto's YouTube channel for full-length documentaries of each community
 - BTC Map (btcmap.org) for finding and listing Bitcoin merchants worldwide

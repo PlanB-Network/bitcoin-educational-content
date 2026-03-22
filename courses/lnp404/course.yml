@@ -6,7 +6,7 @@ level: intermediate
 hours: 16
 teaching_format: self_paced
 license: CC-BY-SA-V4
-test_only: false
+test_only: true
 
 professors_id:
   - 303993a1-6506-4c25-b0b6-6d3f0497859b

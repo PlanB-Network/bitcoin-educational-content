@@ -1,0 +1,9 @@
+question: 'What key property of hash functions makes them useful for Bitcoin?'
+answer: 'Pre-image resistance: given an output, you cannot find the input except by brute force'
+wrong_answers:
+  - 'Reversibility: you can always recover original data from the hash'
+  - 'Compression: hashes reduce storage requirements by 99 percent'
+  - 'Randomness: outputs are unpredictable even for similar inputs'
+explanation: >-
+  SHA-256 produces a fixed-length output deterministically. Pre-image resistance: given output, no way to find input except brute force.
+reviewed: false

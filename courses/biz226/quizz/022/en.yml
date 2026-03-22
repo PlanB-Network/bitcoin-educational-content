@@ -1,0 +1,9 @@
+question: "How does the chapter use Cashu and Ledger Live to challenge assumptions about custody and privacy?"
+answer: "Cashu is fully custodial yet fully private, while Ledger Live is self-custody with zero privacy"
+wrong_answers:
+  - "Cashu provides self-custody with strong privacy, while Ledger Live is custodial with full transparency"
+  - "Both tools offer the same level of custody but differ in their approach to transaction fees"
+  - "Cashu uses on-chain transactions for privacy, while Ledger Live uses Lightning for speed"
+explanation: >-
+  The chapter adds privacy as a second axis to the custody spectrum. Most people assume custodial means no privacy and self-custody means privacy, but the chapter presents two counterexamples. Cashu is fully custodial (an eCash mint holds the funds) yet fully private (the mint cannot link transactions to users). Ledger Live requires your real name and email, making it self-custody with zero privacy. These examples show that custody and privacy are independent dimensions.
+reviewed: false

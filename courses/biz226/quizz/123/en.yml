@@ -1,0 +1,9 @@
+question: 'How does atomic routing let different security models coexist in one Lightning payment?'
+answer: 'Payment completes end-to-end or not at all regardless of security at each hop. Users are unaffected by weaker links in the middle.'
+wrong_answers:
+  - 'Each node must use same security model negotiated at setup'
+  - 'Lightning converts all to on-chain before routing'
+  - 'Central coordinator monitors and reverts if any hop insufficient'
+explanation: >-
+  Alice has secure channel with Bob, Bob has e-cash with Carl, Carl has Ark with Dave. Atomic routing: Alice and Dave unaffected by weaker middle link.
+reviewed: false

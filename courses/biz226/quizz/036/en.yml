@@ -1,0 +1,9 @@
+question: "According to the chapter, what is the first rule of hiring in a startup?"
+answer: "Hire to remove the bottleneck, not to look like a company"
+wrong_answers:
+  - "Hire the most experienced candidates available in the market"
+  - "Hire as many people as possible to cover all business functions"
+  - "Hire based on investor expectations about ideal team size"
+explanation: >-
+  The chapter states that the first rule is to **hire to remove the bottleneck**, not to feel validated, look legitimate, or reduce anxiety. The goal is to increase your probability of success by addressing specific operational gaps. Hiring to match investor expectations or to appear larger is explicitly listed as a wrong reason to hire.
+reviewed: false

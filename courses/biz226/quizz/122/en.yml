@@ -1,0 +1,9 @@
+question: 'What was the paleonode in early Bitcoin history?'
+answer: 'Satoshi original software combining node, wallet, miner, relay, payment protocol, marketplace, and poker game in one program'
+wrong_answers:
+  - 'First mining pool created by Slush'
+  - 'Earliest hardware wallet prototype'
+  - 'Original Bitcoin testnet'
+explanation: >-
+  Satoshi monolith: node, wallet, CPU miner, peer relay, IP payment, marketplace, poker game. All specialization branched from this single program.
+reviewed: false

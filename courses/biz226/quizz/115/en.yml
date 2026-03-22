@@ -1,0 +1,9 @@
+question: 'What three factors drive Bitcoin price and which is currently strongest?'
+answer: 'Demand growth (power law ~t^5.8), fiat debasement (exponential), and four-year cycles. Demand growth strongest.'
+wrong_answers:
+  - 'Mining cost, speculation, regulation. Speculation strongest.'
+  - 'Hash rate, dev activity, institutional adoption. Institutions strongest.'
+  - 'On-chain txs, exchange volume, address growth. Volume strongest.'
+explanation: >-
+  Santostasi power law: price ~ time^5.8 (adoption t^3 x Metcalfe n^2). Fiat debasement adds exponential background. Four-year cycles possibly halving-related.
+reviewed: false

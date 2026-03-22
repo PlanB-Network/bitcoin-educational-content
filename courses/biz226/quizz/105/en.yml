@@ -1,0 +1,9 @@
+question: 'What is a Merkle tree and how does it solve timestamping scalability?'
+answer: 'Binary tree of hashes aggregating many documents into one root. Scales logarithmically: only root needs publishing, each client stores just their proof path.'
+wrong_answers:
+  - 'Linked list storing documents sequentially with constant-time lookup'
+  - 'Distributed database replicating across servers scaling horizontally'
+  - 'Compression algorithm reducing size exponentially'
+explanation: >-
+  Merkle tree hashes pairs recursively to a single root. A thousand documents scale as efficiently as four. Timeguard published one root per day in a newspaper.
+reviewed: false

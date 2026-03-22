@@ -1,0 +1,9 @@
+question: 'Does Bitcoin use encryption?'
+answer: 'No. Bitcoin uses digital signatures: Alice signs with her private key and anyone can verify with her public key'
+wrong_answers:
+  - 'Yes, all transactions are encrypted end-to-end with AES-256'
+  - 'Yes, but only amounts are encrypted while addresses are public'
+  - 'No, Bitcoin uses zero-knowledge proofs instead'
+explanation: >-
+  Bitcoin uses asymmetric cryptography in reverse: signing, not encrypting. Alice signs with private key, anyone verifies with public key. Like a wax seal.
+reviewed: false

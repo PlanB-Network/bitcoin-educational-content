@@ -1,0 +1,9 @@
+question: 'How did Hal Finney RPoW improve on raw proof of work?'
+answer: 'Use proof of work only to mint tokens, then transfer via e-cash signatures. Eliminates waste for transfers but reintroduces a trusted mint.'
+wrong_answers:
+  - 'Replace proof of work with proof of stake for transfers'
+  - 'Cache proof of work so same work serves multiple transactions'
+  - 'Batch multiple proofs into one transaction amortizing cost'
+explanation: >-
+  RPoW used proof of work only to create initial tokens, transferred via signatures. Double-spending solved with trusted hardware (IBM secure coprocessors).
+reviewed: false

@@ -1,0 +1,9 @@
+question: "How do Lightning infrastructure providers apply the razor-and-blades business model in the Bitcoin ecosystem?"
+answer: "They offer free deployment to attract users, then generate recurring revenue from liquidity services once switching costs increase"
+wrong_answers:
+  - "They sell Lightning hardware nodes at a premium and offer free software updates for the lifetime of the device"
+  - "They charge high upfront fees for integration and then provide ongoing support at a discounted monthly rate"
+  - "They open-source their core protocol and monetize exclusively through consulting and enterprise training services"
+explanation: >-
+  The chapter explains that Lightning infrastructure providers use a version of the razor-and-blades model: free deployment to get you started, then recurring revenue from liquidity services once your project scales and switching becomes costly. This mirrors how Gillette sells razors cheaply and profits from blade refills. The other options describe plausible but incorrect monetization strategies.
+reviewed: false

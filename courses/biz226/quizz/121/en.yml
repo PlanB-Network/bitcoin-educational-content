@@ -1,0 +1,9 @@
+question: 'What is the key advantage of a Chaumian mint over full custody?'
+answer: 'Privacy: the mint cannot see who owns what or target individuals, though it can still abscond with all funds'
+wrong_answers:
+  - 'Speed: instant confirmation vs blockchain confirmation'
+  - 'Decentralization: distributed across multiple servers'
+  - 'Regulation: legally compliant vs gray area'
+explanation: >-
+  Full custody: custodian sees everything, can confiscate. Chaumian mint: blind signatures mean mint cannot see balances. Can still run away but cannot target individuals.
+reviewed: false

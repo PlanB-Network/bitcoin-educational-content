@@ -1,0 +1,9 @@
+question: 'What is a payment channel and how does it reduce blockchain usage?'
+answer: 'Two parties lock funds in 2-of-2 multisig, exchange pre-signed off-chain transactions. Only open and close go on-chain.'
+wrong_answers:
+  - 'Direct TCP connection bypassing mempool'
+  - 'Sidechain with periodic checkpoints'
+  - 'Trusted intermediary batching small payments'
+explanation: >-
+  Lock funds in multisig. Exchange pre-signed transactions off-chain. Open and close each cost one on-chain tx. Everything between is free, instant, private.
+reviewed: false

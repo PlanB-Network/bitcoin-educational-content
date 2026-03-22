@@ -1,0 +1,9 @@
+question: "How could Bitcoin's proof of reserves capability potentially transform the traditional consumer protection regulatory framework?"
+answer: "Banks could cryptographically self-report solvency in a verifiable way, reducing the need for traditional regulatory oversight"
+wrong_answers:
+  - "Regulators could freeze bank assets instantly on-chain whenever a compliance violation is detected"
+  - "Customers could bypass banks entirely by verifying reserves on the blockchain before making deposits"
+  - "Central banks could automate monetary policy by reading commercial bank reserves directly from the Bitcoin network"
+explanation: >-
+  The chapter highlights proof of reserves as a unique Bitcoin capability: cryptographic evidence of solvency that could reduce the need for traditional regulatory oversight. Texas explored this concept, and while practical implementation remains early, it points toward a future where banks self-report solvency in a verifiable way. This would make the consumer protection framework more efficient, not eliminate banks or give regulators on-chain control over bank assets.
+reviewed: false

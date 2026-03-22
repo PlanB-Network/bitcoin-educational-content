@@ -1,0 +1,9 @@
+question: 'What is seigniorage and how does it relate to the fall of Rome?'
+answer: 'The profit from stamping coins with less metal than face value; Roman emperors debased the denarius from 97% to 1% silver'
+wrong_answers:
+  - 'A tax on foreign trade collected at Roman ports'
+  - 'The cost of maintaining a standing army paid in gold'
+  - 'Interest charged by Roman banks on Senate loans'
+explanation: >-
+  Seigniorage is a hidden tax: stamp 1 gram on a 0.99 gram coin, pocket the difference. The denarius went from 97% to 1% silver over successive emperors.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "What is the purpose of a user persona in market research?"
+answer: "To create a structured profile of your target customer including their goals, pain points, and context"
+wrong_answers:
+  - "To build a fictional marketing character for advertising campaigns and social media content"
+  - "To identify the single ideal customer who will generate the most revenue for your startup"
+  - "To segment investors by risk appetite so you can tailor your fundraising pitch accordingly"
+explanation: >-
+  A user persona is a structured profile that includes age, occupation, tech proficiency, goals, motivations, and pain points. Its purpose is to force the founder away from abstract thinking and toward concrete decisions about who they are serving. The chapter illustrates this with Lightning wallet examples where different personas (South African shop owners vs. European tech workers) require entirely different product designs.
+reviewed: false

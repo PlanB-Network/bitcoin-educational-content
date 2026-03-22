@@ -1,0 +1,9 @@
+question: 'What word for money derives from the Roman temple where gold was melted into standardized coins?'
+answer: 'Money, from the temple of Juno Moneta'
+wrong_answers:
+  - 'Currency, from the Latin currere meaning to flow'
+  - 'Capital, from the Capitoline Hill in Rome'
+  - 'Coin, from the Latin cuneus meaning wedge'
+explanation: >-
+  Priests at the temple of Juno Moneta melted gold into standardized weights. The word money derives from Moneta.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "What common pattern did the failures of FTX, BlockFi, Celsius, and Voyager share?"
+answer: "They claimed to be regulated while operating under the lightest possible regulatory framework"
+wrong_answers:
+  - "They all operated without any regulatory registration or government oversight"
+  - "They were fully compliant with banking regulations but failed due to market crashes"
+  - "They relied on decentralized protocols that had no consumer protection mechanisms"
+explanation: >-
+  The chapter explains that each of these companies claimed to be regulated while operating under minimal regulatory frameworks. FTX, for example, was registered as a money services business with FinCEN, a process taking about an hour online. They marketed their AML compliance as proof of safety while lacking the consumer protection measures that banking regulations would have required. The worst outcome is when regulation is used as a trust signal while the underlying protections are absent.
+reviewed: false

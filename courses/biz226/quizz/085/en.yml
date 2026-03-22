@@ -1,0 +1,9 @@
+question: 'What is the stock-to-flow ratio and why does it matter for money?'
+answer: 'The ratio of existing supply to new annual production; a high ratio means the good is hard to inflate'
+wrong_answers:
+  - 'The ratio of buyers to sellers on an exchange determining short-term price'
+  - 'The speed at which money circulates through the economy per year'
+  - 'The percentage of total supply held by the largest holders'
+explanation: >-
+  Stock-to-flow measures existing supply relative to new annual production. Gold has a high ratio (1-2% annual increase), making it resistant to supply shocks.
+reviewed: false

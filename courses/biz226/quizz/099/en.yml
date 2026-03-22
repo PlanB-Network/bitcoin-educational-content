@@ -1,0 +1,9 @@
+question: 'What was David Chaum e-cash and what two censorship forms caused it to fail?'
+answer: 'Digital banknotes with blind signatures. Soft censorship: banks refused. Hard censorship: e-gold shut down by US government in 2008.'
+wrong_answers:
+  - 'A decentralized proof-of-work currency that failed because computers were too slow'
+  - 'A government digital currency that failed because citizens did not trust it'
+  - 'A credit card replacement that failed because encryption was broken'
+explanation: >-
+  Soft: banks refused (I prefer to know my customers). Hard: e-gold, regulated, millions of users, shut down 2008. Bitcoin launched the year after.
+reviewed: false

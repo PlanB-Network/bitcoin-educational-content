@@ -1,0 +1,9 @@
+question: "Why did Salvadoran banks refuse to adopt Bitcoin even after it became legal tender in 2021?"
+answer: "They feared being debanked by their US correspondent banks in New York"
+wrong_answers:
+  - "The Salvadoran government prohibited banks from handling Bitcoin directly"
+  - "They lacked the technical infrastructure to integrate Bitcoin wallets"
+  - "Bitcoin transaction fees were too high for the local banking market"
+explanation: >-
+  Salvadoran banks depend on US correspondent banks in New York for international dollar transfers. US regulators had made clear that American banks could not touch Bitcoin. Any Salvadoran bank that adopted Bitcoin risked losing its correspondent banking relationship, which would have been catastrophic for the country's ability to conduct international business. This dynamic applies globally wherever banks rely on US dollar correspondent relationships.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "What approach did Edwin use to achieve breakthrough adoption in Bitcoin Witsand, South Africa?"
+answer: "Education first (philosophy before wallets) combined with social events like parties instead of technical meetups"
+wrong_answers:
+  - "Offering merchants significant financial incentives and discounts for every Bitcoin transaction they processed"
+  - "Partnering with the South African government to mandate Bitcoin acceptance in small coastal towns"
+  - "Installing dozens of Bitcoin ATMs throughout the town so residents could easily convert their rand"
+explanation: >-
+  Edwin spent over two years getting just two merchants to accept Bitcoin, then got 28 in the third year. The breakthrough came from teaching philosophy before wallets and hosting parties with a sheep on a spit instead of technical meetups. The chapter emphasizes that **social events dramatically outperformed technical presentations** in driving adoption.
+reviewed: false

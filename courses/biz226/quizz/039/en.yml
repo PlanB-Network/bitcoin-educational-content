@@ -1,0 +1,9 @@
+question: "If your startup has a product but no users, who should you hire first?"
+answer: "Someone focused on distribution and growth, such as marketing or customer success"
+wrong_answers:
+  - "A CTO or senior engineer to continue improving the product's technical foundation"
+  - "An operations manager to structure internal processes and handle finances"
+  - "A recruiter to start building a larger engineering team for the next phase"
+explanation: >-
+  The chapter maps bottlenecks to specific hires. When a product exists but has no users, the bottleneck is distribution, so the right hire is in **marketing, social media, or customer success**. Hiring more engineers would improve a product nobody is using, while a recruiter is explicitly listed as unnecessary at the early stage.
+reviewed: false

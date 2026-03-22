@@ -1,0 +1,9 @@
+question: "According to the chapter, what is the main reason Bitcoin needs physical communities?"
+answer: "Physical communities give Bitcoin tangibility, credibility, and a human face that online presence alone cannot provide"
+wrong_answers:
+  - "Physical communities allow Bitcoin miners to share electricity costs and reduce overhead expenses significantly"
+  - "Physical communities are required by most governments before Bitcoin can be legally used in a country"
+  - "Physical communities provide secure locations where people can store their Bitcoin hardware wallets safely"
+explanation: >-
+  The chapter argues that if Bitcoin only lives on the internet, it stays a niche internet thing. Physical communities shift the narrative from speculation to reality by providing tangible proof of adoption. A neighbor using Bitcoin is described as more powerful than any Twitter thread. The other answers confuse community building with mining operations, legal requirements, or physical security, none of which are discussed in this context.
+reviewed: false

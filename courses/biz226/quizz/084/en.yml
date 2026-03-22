@@ -1,0 +1,9 @@
+question: 'In the Robinson Crusoe thought experiment, what economic concept does saving fish for later illustrate?'
+answer: 'Time preference and the trade-off between present and future consumption'
+wrong_answers:
+  - 'The labor theory of value and how work determines price'
+  - 'Supply and demand equilibrium in a competitive market'
+  - 'The diminishing marginal utility of leisure time'
+explanation: >-
+  Giacomo uses Robinson Crusoe saving fish to introduce time preference: the degree to which someone prioritizes present consumption over future benefit.
+reviewed: false

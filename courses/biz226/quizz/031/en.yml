@@ -1,0 +1,9 @@
+question: "What does the Clarity Act's key provision, supported by BPI, seek to protect?"
+answer: "Open-source software developers who write peer-to-peer Bitcoin transaction code but do not custody customer funds"
+wrong_answers:
+  - "Cryptocurrency exchanges that operate without federal licenses but comply with state-level regulations"
+  - "Bitcoin miners who use fossil fuels, shielding them from environmental penalties and carbon taxes"
+  - "Individual Bitcoin holders from reporting their holdings to the IRS on annual tax returns"
+explanation: >-
+  A critical provision of the Clarity Act that BPI supports would protect open-source software developers who write code enabling peer-to-peer Bitcoin transactions from legal prosecution, provided they do not custody customer funds. This directly addresses cases like the Samourai Wallet prosecution. The provision is specifically about **developer rights and code as speech**, not about exchanges, miners, or tax reporting.
+reviewed: false

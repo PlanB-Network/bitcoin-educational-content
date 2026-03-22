@@ -1,0 +1,9 @@
+question: "What realistic adoption strategy does Numo follow for acquiring merchants?"
+answer: "Start with Bitcoin conference vendors, then Bitcoin-friendly businesses, then crypto-curious merchants, then everyday merchants"
+wrong_answers:
+  - "Launch simultaneously in all merchant categories using aggressive paid advertising campaigns across social media platforms"
+  - "Partner exclusively with major retail chains first to build credibility, then expand to smaller independent businesses"
+  - "Target everyday merchants with no Bitcoin knowledge first, since they represent the largest untapped market segment"
+explanation: >-
+  Numo follows a staged adoption curve that starts with the easiest users and expands outward. Bitcoin conference vendors already accept Bitcoin. Next come Bitcoin-friendly businesses like bars and kebab shops using Wallet of Satoshi POS. Then crypto-curious merchants, and eventually everyday merchants. **You cannot skip stages in adoption** because each user group has different needs and trust thresholds.
+reviewed: false

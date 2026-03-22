@@ -1,0 +1,9 @@
+question: "What is the golden rule during a problem interview?"
+answer: "Listen 80 to 95% of the time and never pitch your solution"
+wrong_answers:
+  - "Keep the interview under 15 minutes and focus on pricing"
+  - "Present your prototype early and collect detailed feedback"
+  - "Ask the interviewee directly whether they would use your product"
+explanation: >-
+  The chapter emphasizes that during problem interviews, the founder should listen 80 to 95% of the time and never pitch their solution. The goal is to understand the customer's reality, not to sell. Asking "Would you use this?" is explicitly discouraged at this stage because you are collecting evidence about problems, not validating solutions.
+reviewed: false

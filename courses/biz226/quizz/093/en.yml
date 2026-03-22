@@ -1,0 +1,9 @@
+question: 'What connects fractional reserve banking to bail-ins and bail-outs?'
+answer: 'Banks keep only a fraction of deposits; a bank run triggers bail-ins (depositors lose) or bail-outs (taxpayers cover losses), creating perverse incentives'
+wrong_answers:
+  - 'Fractional reserve is illegal so bail-ins cannot occur'
+  - 'Bail-ins happen only in crypto exchanges'
+  - 'Fractional reserve profits fund self-insuring bail-out reserves'
+explanation: >-
+  Banks custody gold but lend most. A bank run triggers bail-ins (depositors lose) or bail-outs (taxpayers pay). Bail-outs create moral hazard: if they lose, others pay; if they win, they win.
+reviewed: false

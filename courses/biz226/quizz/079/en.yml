@@ -1,0 +1,9 @@
+question: "What lesson does Bitcoin Berlin, El Salvador, teach about adoption models?"
+answer: "Bottom-up adoption built by locals succeeds where top-down government mandates fail"
+wrong_answers:
+  - "Government-backed Bitcoin projects always outperform grassroots efforts in terms of merchant count"
+  - "Urban communities adopt Bitcoin faster than rural communities regardless of the approach used"
+  - "International NGO funding is essential for any Bitcoin circular economy to reach critical mass"
+explanation: >-
+  Bitcoin Berlin was built entirely bottom-up by a local couple, Evelyn and Gerardo, with zero government help. It achieved 150+ merchants, more than the government-backed "Bitcoin City" ever had. In the same country, the government's Chivo wallet mandate failed because people did not understand why they should use it. This contrast proves that **local ownership and understanding drive lasting adoption**.
+reviewed: false

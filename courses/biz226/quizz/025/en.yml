@@ -1,0 +1,9 @@
+question: "What was the first major crypto legislation signed into law in the United States?"
+answer: "The GENIUS Act, which established a federal stablecoin framework"
+wrong_answers:
+  - "The Clarity Act, which created legal distinctions between Bitcoin and other digital assets"
+  - "The Dodd-Frank Act, which introduced comprehensive oversight of all cryptocurrency exchanges"
+  - "The Strategic Bitcoin Reserve Act, which mandated the federal government to purchase Bitcoin"
+explanation: >-
+  The GENIUS Act was the first major crypto legislation signed into law in the United States. It established a federal stablecoin framework with bipartisan support. The Clarity Act is still being worked on in Congress and has not yet been signed into law. Dodd-Frank was passed after the 2008 financial crisis and predates crypto regulation entirely.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Why does RK use short TikTok-style videos with AI-generated characters for onboarding instead of traditional text screens?"
+answer: "Because Gen Z and Gen Alpha absorb information through short videos, matching how Bitcoin education already works on YouTube and TikTok"
+wrong_answers:
+  - "Because video onboarding is cheaper to produce than text-based screens and requires fewer translation resources overall"
+  - "Because app store review guidelines now require video tutorials before allowing cryptocurrency wallet applications"
+  - "Because research shows that text-based onboarding has higher completion rates only among users over the age of 40"
+explanation: >-
+  RK replaced the traditional five screens of text with short TikTok-style videos featuring AI-generated characters created in Midjourney with AI voices from Argil and ElevenLabs. The reasoning is that younger generations absorb information through short videos, and since the entire Bitcoin education community already runs on YouTube and TikTok, wallet onboarding should meet users in that same format.
+reviewed: false

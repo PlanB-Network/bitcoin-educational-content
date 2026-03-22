@@ -1,0 +1,9 @@
+question: "How does the chapter distinguish between a content strategy's 'themes' and 'formats'?"
+answer: "Themes are the topics you cover, while formats are the delivery methods like video, writing, or live presentations"
+wrong_answers:
+  - "Themes are the visual design elements, while formats are the publishing schedules and frequencies"
+  - "Themes are the platforms you publish on, while formats are the lengths of each piece of content"
+  - "Themes are your target audience segments, while formats are the monetization models for content"
+explanation: >-
+  The chapter defines themes as the topics you are passionate about or expert in, and formats as how you deliver them (video, audio, writing, live presentations, photography, or dialogue). A content strategy emerges from cross-referencing these two dimensions. For example, you might write articles about regulation but prefer video for technical tutorials.
+reviewed: false

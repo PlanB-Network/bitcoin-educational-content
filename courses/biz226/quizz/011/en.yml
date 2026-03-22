@@ -1,0 +1,9 @@
+question: "What is the critical distinction between a leap of faith and a hypothesis in the validation framework?"
+answer: "A leap of faith is a large unproven belief that could destroy the entire plan, while a hypothesis is a small testable experiment designed to stress-test that belief"
+wrong_answers:
+  - "A leap of faith is based on quantitative market data, while a hypothesis relies on qualitative customer interviews"
+  - "A leap of faith applies only to the revenue model, while a hypothesis can address any aspect of the business"
+  - "A leap of faith is validated during the learning phase, while a hypothesis is only tested after the product launches"
+explanation: >-
+  The chapter draws a sharp line between the two concepts. A leap of faith is the big, scary, unproven belief that would destroy your entire plan if wrong. A hypothesis is the small, testable experiment you design to stress-test that belief. The methodology requires converting every leap of faith into measurable hypotheses, tracking them on a dashboard, and letting the data determine when to pivot. This distinction drives the entire validation process.
+reviewed: false

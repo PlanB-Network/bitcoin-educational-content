@@ -1,0 +1,9 @@
+question: "How did Free Madeira grow from 2 to over 130 merchants accepting Bitcoin?"
+answer: "A dedicated person named Charlie sat down with each merchant individually to set up their wallet"
+wrong_answers:
+  - "The Portuguese government offered tax credits to any merchant on Madeira who accepted Bitcoin payments"
+  - "Free Madeira developed an automated onboarding app that merchants could install without any assistance"
+  - "A large Bitcoin conference on the island generated media coverage that attracted merchants on its own"
+explanation: >-
+  Madeira's growth came from a boots-on-the-ground approach. Charlie personally visited each merchant, sat down with them, and helped set up their wallet. The team also kept showing up at cafes wearing Bitcoin t-shirts and hosting meetups until owners asked what was going on. This illustrates the playbook principle of being **personal, patient, and persistent** with merchant onboarding.
+reviewed: false

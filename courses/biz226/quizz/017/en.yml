@@ -1,0 +1,9 @@
+question: "Why is bitcoin-backed lending considered lower risk than traditional mortgage lending for banks?"
+answer: "Bitcoin can be liquidated instantly, 24/7, unlike real estate which takes months to sell"
+wrong_answers:
+  - "Bitcoin has lower price volatility than real estate over a ten-year period"
+  - "Bitcoin-backed loans are insured by government deposit protection programs"
+  - "Borrowers using Bitcoin collateral have historically lower default rates"
+explanation: >-
+  The chapter explains that the risk profile of bitcoin-backed lending is actually lower than real estate because Bitcoin can be liquidated instantly, any day of the week. If a borrower defaults on a house, selling the property takes around six months and may result in a loss. With Bitcoin collateral, if the value drops, the bank can send a margin call and liquidate within minutes. This instant liquidity is the key advantage, not lower volatility or government insurance.
+reviewed: false

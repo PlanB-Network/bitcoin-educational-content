@@ -1,0 +1,9 @@
+question: 'What did Satoshi actually call the blockchain in his original code?'
+answer: 'Timechain (the chain of time)'
+wrong_answers:
+  - 'Hashchain because it chains hash values'
+  - 'Blockstream because it streams blocks'
+  - 'Ledger because it records transactions'
+explanation: >-
+  Satoshi never used blockchain. White paper: chain of blocks. Blog: chain of proofs of work. Code: timechain. Blockchain appeared circa 2012.
+reviewed: false

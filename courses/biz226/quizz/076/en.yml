@@ -1,0 +1,9 @@
+question: "What role does the Tando app play in Bitcoin adoption in Kibera?"
+answer: "It bridges Bitcoin to M-Pesa, allowing users to pay at M-Pesa-only shops using their Bitcoin"
+wrong_answers:
+  - "It provides free Bitcoin education courses translated into Swahili for residents of Nairobi's slums"
+  - "It functions as a Bitcoin wallet with built-in identity verification for unbanked Kenyan citizens"
+  - "It tracks waste collection activities and automatically distributes government subsidies to participants"
+explanation: >-
+  The Tando app solves a practical interoperability problem in Kibera. Since many shops only accept M-Pesa, Tando bridges Bitcoin to M-Pesa so that Bitcoin holders can still pay at those merchants. This is a key example of **solving a real problem** rather than asking an entire ecosystem to switch payment systems at once.
+reviewed: false

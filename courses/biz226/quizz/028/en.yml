@@ -1,0 +1,9 @@
+question: "How did BPI reframe the narrative around Bitcoin mining and energy?"
+answer: "By showing that mining often uses excess energy, stabilizes grids through flexible demand, and frequently relies on renewables"
+wrong_answers:
+  - "By proving that Bitcoin mining consumes less total energy than the traditional banking system worldwide"
+  - "By demonstrating that all major mining operations have switched entirely to nuclear power sources"
+  - "By lobbying Congress to exempt Bitcoin miners from environmental regulations and carbon reporting rules"
+explanation: >-
+  BPI reframed Bitcoin mining from "environmental threat" to "grid stabilizer and renewable energy incentivizer." The key arguments were that mining often locates in areas with excess energy, can stabilize grids by providing flexible demand, and frequently uses renewable sources. This was about changing the narrative with evidence, not about seeking regulatory exemptions or making claims about total energy consumption comparisons.
+reviewed: false

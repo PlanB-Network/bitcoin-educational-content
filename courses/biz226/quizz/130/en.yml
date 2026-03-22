@@ -1,0 +1,9 @@
+question: 'Why does cryptocurrency violate both scarcity and convergence principles?'
+answer: 'Scarcity: anyone can create new crypto so total supply is infinite. Convergence: thousands of tokens is barter not a single medium of exchange.'
+wrong_answers:
+  - 'Most have inflationary schedules. Blockchains cannot interoperate.'
+  - 'Pools create unlimited blocks. Exchanges list too many pairs.'
+  - 'PoS creates coins without energy. DeFi fragments liquidity.'
+explanation: >-
+  Bitcoin: scarce (halving + difficulty). Crypto: infinite (anyone creates new ones). Thousands of tokens = barter with extra steps, violating convergence.
+reviewed: false

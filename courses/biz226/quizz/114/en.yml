@@ -1,0 +1,9 @@
+question: 'How does Ark differ from channels and what trade-off does it introduce?'
+answer: 'Ark batches many users into one on-chain transaction (space vs time), sharing fees. Trade-off: no instant finality without trusting coordinator.'
+wrong_answers:
+  - 'Ark uses proof of stake eliminating energy cost'
+  - 'Ark routes through multiple intermediaries simultaneously'
+  - 'Ark encrypts with zero-knowledge proofs'
+explanation: >-
+  Channels batch in time (2 parties, long). Ark batches in space (many parties, short). 1000 users share one fee. No instant finality: trust coordinator until next block.
+reviewed: false

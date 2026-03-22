@@ -1,0 +1,9 @@
+question: 'What are the three forms of financial exclusion in identity-linked digital credit?'
+answer: 'Political (WikiLeaks, Canadian truckers), personal (authoritarian regimes), and economic (KYC costs pricing out small customers)'
+wrong_answers:
+  - 'Geographic, linguistic, and technological exclusion'
+  - 'Racial, gender, and age-based exclusion'
+  - 'Inflationary, deflationary, and regulatory exclusion'
+explanation: >-
+  Political: Visa blocked WikiLeaks, trucker donors frozen. Personal: dissidents lose bank access. Economic: KYC costs exclude low-value customers from the financial system.
+reviewed: false

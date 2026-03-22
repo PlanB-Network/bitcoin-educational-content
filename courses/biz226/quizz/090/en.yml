@@ -1,0 +1,9 @@
+question: 'According to Giacomo, what is the relationship between consumerism and capitalism?'
+answer: 'They are opposites: true capitalism means saving and investing; consumerism is driven by monetary debasement'
+wrong_answers:
+  - 'They are synonymous: capitalism naturally produces consumerism'
+  - 'Consumerism is the mature phase of capitalism'
+  - 'Capitalism creates consumerism through advertising'
+explanation: >-
+  True capitalism (Austrian sense) means saving and investing. Consumerism (spend now, go into debt) is driven by debasement: if savings lose value, the rational response is to consume now.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 'Why do altcoins fail to displace Bitcoin despite technical improvements?'
+answer: 'Open protocols grow at power law. Challengers need centralized shortcuts (VC, marketing) to grow faster, making them fragile. First adequate open standard is nearly impossible to displace.'
+wrong_answers:
+  - 'Bitcoin brand recognition too strong'
+  - 'Altcoins are always scams'
+  - 'Governments banned all altcoins'
+explanation: >-
+  Open protocols: t^3 adoption. Later challenger same curve, never catches up. Faster growth needs centralized boosters = fragility. TCP/IP vs all 1991 alternatives.
+reviewed: false

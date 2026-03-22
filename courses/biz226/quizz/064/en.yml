@@ -1,0 +1,9 @@
+question: "How does the RK wallet reframe the Ark protocol's 'on-chain balance' and 'Ark balance' for end users?"
+answer: "It calls them 'savings balance' and 'payments balance' to make the two-balance model intuitive"
+wrong_answers:
+  - "It calls them 'cold storage' and 'hot wallet' to align with terminology already used by Bitcoin hardware wallets"
+  - "It calls them 'long-term vault' and 'daily spending account' to mirror traditional banking language precisely"
+  - "It hides the two balances entirely and shows only a single combined balance to avoid confusing new users"
+explanation: >-
+  RK deliberately reframes protocol terminology into language that makes sense without technical knowledge. "On-chain balance" becomes "savings balance" and "Ark balance" becomes "payments balance." Similarly, "onboard" becomes "move to payments" and "offboard" becomes "move to savings." This reframing makes the two-balance model intuitive for everyday users.
+reviewed: false

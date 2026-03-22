@@ -1,0 +1,9 @@
+question: "How does the US regulatory reversal on Bitcoin create a cascading effect on global adoption, according to the chapter?"
+answer: "Countries whose banks avoided Bitcoin due to US correspondent banking pressure can now reconsider, as the largest financial market opens to Bitcoin"
+wrong_answers:
+  - "The US now requires all trading partners to adopt identical Bitcoin regulations through bilateral trade agreements"
+  - "American Bitcoin ETFs automatically become available in foreign markets, forcing other countries to create matching products"
+  - "The Federal Reserve now settles international transactions in Bitcoin, requiring foreign central banks to hold reserves"
+explanation: >-
+  The chapter explains that the US regulatory reversal has a cascading effect because countries whose banks previously avoided Bitcoin due to US correspondent banking pressure can now reconsider their positions. As the largest financial market opens to Bitcoin, institutions worldwide are likely to follow. This is not about trade agreements or forced adoption, but about **the removal of indirect pressure through the correspondent banking system** that had previously discouraged foreign banks from engaging with Bitcoin.
+reviewed: false

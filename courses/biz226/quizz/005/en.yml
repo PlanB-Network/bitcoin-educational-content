@@ -1,0 +1,9 @@
+question: "What should a customer pain point repository include, according to the chapter?"
+answer: "Date, interviewee, pain points, severity score, verbatim quotes, and current workarounds"
+wrong_answers:
+  - "Customer name, email address, purchase history, and projected lifetime value"
+  - "Competitor names, market share percentages, pricing tables, and feature comparisons"
+  - "Product sketches, wireframe feedback, usability scores, and design iteration notes"
+explanation: >-
+  The chapter describes the customer pain point repository as a simple table with columns for date, interviewee (anonymized if needed), pain points, severity score, verbatim quotes, and current workarounds. This structured evidence is what gives weight when presenting to investors. The other options describe different types of business documents that are not part of the pain point repository.
+reviewed: false

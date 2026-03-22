@@ -1,0 +1,9 @@
+question: "According to the chapter, what does Bitcoin end or limit, rather than banks themselves?"
+answer: "Central banks and money printing"
+wrong_answers:
+  - "Commercial lending and deposit-taking"
+  - "International payments and wire transfers"
+  - "Financial regulation and consumer protection"
+explanation: >-
+  The chapter makes a critical distinction: Bitcoin is not ending banks, but central banks. Bitcoin may end or limit money printing and debt monetization, while the benefits of pooling capital for efficiency remain. Commercial banks that provide lending, custody, and payment services still serve a useful function under a Bitcoin monetary base.
+reviewed: false

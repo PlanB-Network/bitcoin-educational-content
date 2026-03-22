@@ -1,0 +1,9 @@
+question: "According to the chapter, what is the guiding principle that determines when headcount should grow?"
+answer: "You do not scale headcount, you scale standards, and headcount grows naturally because the bar was maintained"
+wrong_answers:
+  - "You scale headcount in proportion to revenue growth to maintain a consistent cost ratio"
+  - "You scale headcount ahead of demand so the team is prepared when growth accelerates"
+  - "You scale headcount based on competitive benchmarks to ensure market parity with rivals"
+explanation: >-
+  The chapter's guiding principle is that **you do not scale headcount, you scale standards**. Headcount will grow naturally, but only because the hiring bar was maintained. This contrasts with scaling based on revenue ratios, anticipatory hiring, or competitor benchmarking, all of which prioritize size over quality. The chapter ties this directly to the warning that if standards drop early, they rarely recover.
+reviewed: false

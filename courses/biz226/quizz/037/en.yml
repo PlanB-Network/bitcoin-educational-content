@@ -1,0 +1,9 @@
+question: "What is the overall goal of team-building in a Bitcoin startup, as stated in the chapter?"
+answer: "To build the smallest team that cannot be ignored"
+wrong_answers:
+  - "To build the largest team possible before competitors do"
+  - "To assemble a group of well-known industry influencers"
+  - "To match the team size of comparable traditional startups"
+explanation: >-
+  The chapter opens and closes with the idea that the goal is not to build the biggest team but to **build the smallest team that cannot be ignored**. This reflects the principle that quality and standards matter more than headcount. Building the largest team or recruiting for name recognition runs counter to the chapter's philosophy.
+reviewed: false

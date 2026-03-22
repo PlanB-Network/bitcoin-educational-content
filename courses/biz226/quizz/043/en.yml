@@ -1,0 +1,9 @@
+question: "When shipping speed is the bottleneck, what type of hire does the chapter recommend?"
+answer: "A single senior builder rather than multiple junior developers"
+wrong_answers:
+  - "Two or three junior developers who can divide the workload efficiently"
+  - "A project manager to coordinate the existing team's output and priorities"
+  - "A product designer to reduce the number of engineering iterations needed"
+explanation: >-
+  The chapter advises hiring **one senior builder instead of multiple juniors** when the bottleneck is shipping speed. It explains that one experienced person can do the work of two or three and costs less in total. The chapter frames this around the principle that speed equals survival in an early-stage startup.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "What analogy does BPI use to argue for protecting Bitcoin privacy and developer rights?"
+answer: "The early internet, which faced the same criminal-use narratives but was allowed to develop freely and became strategically vital"
+wrong_answers:
+  - "The gold standard era, when private ownership of gold was protected as a fundamental constitutional right"
+  - "The development of nuclear energy, where governments balanced security risks against economic benefits"
+  - "The postal system, which has always guaranteed the privacy of sealed letters without government inspection"
+explanation: >-
+  BPI draws a direct parallel to the early internet of the 1990s, when the same narratives existed: it would only be used by criminals, online commerce would enable fraud, and anonymous communication was dangerous. The US government not only funded the early internet but also created Tor, recognizing that **the free flow of information served democratic ideals** despite its risks. BPI argues that stifling Bitcoin's peer-to-peer capabilities would produce the same harmful result as stifling the internet would have.
+reviewed: false

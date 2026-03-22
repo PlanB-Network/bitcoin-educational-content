@@ -1,0 +1,9 @@
+question: 'Why is Bitcoin total supply limited to 21 million coins?'
+answer: 'The halving equation converges: 50 BTC per block halving every 210,000 blocks sums to exactly 21 million'
+wrong_answers:
+  - 'Satoshi chose 21 million as an arbitrary round number'
+  - 'SHA-256 can only produce 21 million unique values'
+  - 'There are exactly 21 million possible Bitcoin addresses'
+explanation: >-
+  Sum of 210,000 blocks x 50 BTC, halved each epoch. Geometric series converges to 21M BTC (2.1 quadrillion satoshis).
+reviewed: false

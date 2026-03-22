@@ -1,0 +1,9 @@
+question: 'What problem did hashcash solve and how?'
+answer: 'Spam prevention without identity. Sender must find an input whose hash starts with leading zeros, creating cost that scales linearly with volume.'
+wrong_answers:
+  - 'Double-spending by publishing receipts'
+  - 'Man-in-the-middle attacks by encrypting with recipient key'
+  - 'Denial-of-service by solving CAPTCHA puzzles'
+explanation: >-
+  Adam Back needed spam prevention without identity whitelists. Hashcash requires partial hash collisions (leading zeros). One email costs one unit, a million costs a million.
+reviewed: false

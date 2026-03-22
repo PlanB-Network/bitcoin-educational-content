@@ -1,0 +1,9 @@
+question: "What are the three phases of the methodology presented in this chapter?"
+answer: "Learn, prototype, and validate"
+wrong_answers:
+  - "Research, develop, and launch to market"
+  - "Build, measure, and learn from feedback"
+  - "Ideate, test, and scale the business model"
+explanation: >-
+  The chapter presents a three-phase methodology: learn (desk study and problem interviews), prototype (wireframes and visual mockups), and validate (solution interviews and pre-sales). The build-measure-learn loop is the Lean Startup model by Eric Ries, which is related but distinct from the three phases taught here.
+reviewed: false

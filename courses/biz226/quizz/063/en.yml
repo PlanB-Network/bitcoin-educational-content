@@ -1,0 +1,9 @@
+question: "What UX principle does the RK wallet follow to balance simplicity and technical depth?"
+answer: "Happy path with optional depth, where the default is simple but technical details are one or two taps away"
+wrong_answers:
+  - "Progressive disclosure through mandatory tutorials that unlock advanced features after completing each lesson"
+  - "Dual-mode interface where users choose between beginner and expert mode during the initial setup process"
+  - "Minimal viable interface that permanently hides all technical details to avoid confusing mainstream users"
+explanation: >-
+  RK follows the principle of "happy path with optional depth." The default experience is simple and hides protocol terminology, but depth is never more than one or two taps away. For example, the homepage has a "How it works" link, which leads to a plain explanation, which links to a full technical description. Nothing is hidden; it is layered.
+reviewed: false

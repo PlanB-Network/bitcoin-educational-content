@@ -1,0 +1,9 @@
+question: 'What two problems did teenage Peter Todd identify with proof of work as money?'
+answer: 'Moore Law inflation (computing cheapens work over time) and hardware specialization (CPU to ASIC accelerates inflation). Together they destroy fungibility.'
+wrong_answers:
+  - 'Energy scarcity and geographic centralization enable government attacks'
+  - 'Quantum computing and network latency make the system unsound'
+  - 'Key reuse and address clustering destroy privacy'
+explanation: >-
+  Moore Law: same zeros cost less over time. Hardware specialization: CPU to GPU to FPGA to ASIC. Result: a 2003 coin represents vastly more work than a 2017 coin.
+reviewed: false

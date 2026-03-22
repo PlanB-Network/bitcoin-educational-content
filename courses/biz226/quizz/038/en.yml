@@ -1,0 +1,9 @@
+question: "What does the chapter say about the team mirroring the founder?"
+answer: "The team will replicate the founder's time preference, ego, discipline, and emotional control"
+wrong_answers:
+  - "The team will develop its own culture independently of the founder's behavior"
+  - "The team's technical skills will naturally match the founder's technical level"
+  - "The team will always outperform the founder once properly onboarded and trained"
+explanation: >-
+  The chapter describes the "founder's shadow," explaining that the team mirrors the founder's traits. If the founder panics during volatility, the team will panic. If the founder is disciplined and mission-focused, the team will follow suit. This places significant responsibility on founders to model the behavior they want to see.
+reviewed: false

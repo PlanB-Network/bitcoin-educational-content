@@ -1,0 +1,9 @@
+question: "According to the chapter, what is the number one cause of startup failure?"
+answer: "Running out of cash and failing to raise capital"
+wrong_answers:
+  - "Building a product that nobody in the market needs"
+  - "Being outcompeted by larger and better-funded rivals"
+  - "Having a fundamentally flawed business model from the start"
+explanation: >-
+  The chapter states that the number one cause of startup failure is running out of cash and failing to raise capital. Absence of market need is the second cause at around 35%, being outcompeted is third, and a flawed business model is fourth. These causes can overlap, but cash remains the leading killer of new ventures.
+reviewed: false

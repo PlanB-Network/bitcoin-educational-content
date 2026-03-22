@@ -1,0 +1,9 @@
+question: "Why does the RK wallet use an AI-generated landscape instead of asterisks to hide the balance in privacy mode?"
+answer: "Asterisks still hint that a balance exists, while a landscape removes that hint entirely and creates a genuine sense of privacy"
+wrong_answers:
+  - "Asterisks are incompatible with the Ark protocol's balance display format, so a visual placeholder was technically required"
+  - "Landscapes load faster than asterisk-masked text fields on mobile devices, improving the overall app performance"
+  - "Asterisks trigger accessibility warnings on iOS and Android, so images are used to comply with platform guidelines"
+explanation: >-
+  The RK wallet replaces the typical asterisk masking with an AI-generated Tuscan landscape for its privacy mode. The rationale is that asterisks still signal to anyone looking at the screen that a balance exists behind the mask. A landscape removes that visual cue entirely, creating a more genuine sense of privacy on an intuitive level rather than just obscuring the numbers.
+reviewed: false

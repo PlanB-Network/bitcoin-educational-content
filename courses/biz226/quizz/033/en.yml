@@ -1,0 +1,9 @@
+question: "What game-theory dilemma does the chapter describe regarding adversarial nations and a Bitcoin standard?"
+answer: "If the US holds large Bitcoin reserves, adversaries may resist adopting a Bitcoin standard because it would enrich their primary competitor"
+wrong_answers:
+  - "If adversarial nations mine Bitcoin first, they could perform a 51% attack and render the US reserves worthless"
+  - "If multiple nations adopt Bitcoin simultaneously, the resulting demand shock would crash traditional currency markets"
+  - "If the US sells its reserves during a conflict, it would collapse Bitcoin's price and harm all adopting nations equally"
+explanation: >-
+  The chapter describes a specific game-theory constraint: if the US holds half a million Bitcoin, adversarial nations like China or Russia face a dilemma in adopting a Bitcoin standard because doing so would enrich their primary competitor. This is precisely the strategic argument for the US to accumulate Bitcoin now. The dilemma is about **relative geopolitical advantage through early accumulation**, not about mining attacks or coordinated adoption shocks.
+reviewed: false

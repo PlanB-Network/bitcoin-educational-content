@@ -1,0 +1,9 @@
+question: "What problem does the chapter identify with how most Bitcoin wallets describe themselves on their landing pages?"
+answer: "They all use generic terms like 'simple and powerful' which creates no differentiation between fundamentally different products"
+wrong_answers:
+  - "They use overly technical Bitcoin jargon that alienates mainstream users who do not understand cryptocurrency yet"
+  - "They focus too heavily on security certifications and compliance badges instead of explaining core product features"
+  - "They display too many screenshots and feature lists, overwhelming visitors before they can understand the product"
+explanation: >-
+  The chapter shows six well-known Bitcoin wallets all describing themselves as "simple" or "simple and powerful," even though they are fundamentally different products. Cove Wallet (on-chain with coin selection) and Wallet of Satoshi (custodial Lightning) have nearly identical landing pages despite being very different. **Differentiation happens when you communicate what your product actually is**, not what adjective sounds appealing.
+reviewed: false

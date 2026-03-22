@@ -1,0 +1,9 @@
+question: "A candidate meets 80% of your technical requirements but demonstrates strong mission alignment, trustworthiness, and integrity. According to the chapter, how should you evaluate this candidate?"
+answer: "They are likely a better hire than someone who checks every technical box but raises character concerns"
+wrong_answers:
+  - "They should be placed on a probationary period until they close the remaining 20% skill gap"
+  - "They should be passed over in favor of a candidate with complete technical qualifications"
+  - "They should be hired only if no fully qualified candidates are available within the timeline"
+explanation: >-
+  The chapter's most important hiring principle is that **technical gaps can be bridged, but character and trust cannot be trained**. A candidate with 80% of the skills plus strong integrity is preferred over a technically complete candidate who raises character concerns. This reflects the high-trust environment Bitcoin startups require when handling financial data and cryptographic keys.
+reviewed: false

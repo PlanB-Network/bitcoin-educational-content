@@ -1,0 +1,9 @@
+question: "Why does Bitcoin's classification as intangible property create a regulatory trade-off, according to the chapter?"
+answer: "It triggers capital gains tax obligations but allows companies to operate with Bitcoin without the restrictive licensing required for money or currency"
+wrong_answers:
+  - "It prevents Bitcoin from being used as collateral for loans but exempts holders from all federal reporting requirements"
+  - "It makes Bitcoin subject to estate taxes at death but protects it from being seized during bankruptcy proceedings"
+  - "It forces exchanges to register as securities dealers but shields individual holders from any state-level regulation"
+explanation: >-
+  The chapter explains that Bitcoin's classification as intangible property has a specific trade-off. While it creates capital gains tax obligations on appreciation, it also means **Bitcoin avoids the specific licensing requirements** that would apply if it were classified as money, currency, or legal tender. Companies can currently operate with Bitcoin in ways that would be far more restricted under a different legal classification, making this a deliberate balancing act rather than a purely negative outcome.
+reviewed: false

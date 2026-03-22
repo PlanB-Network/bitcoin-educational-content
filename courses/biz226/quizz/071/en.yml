@@ -1,0 +1,9 @@
+question: "How does RK's product strategy evolve its feature visibility across different audience phases?"
+answer: "Developer tools like X-Ray and console are prominent during the protocol-developer phase but will recede as the product matures toward mainnet and mainstream users"
+wrong_answers:
+  - "All features remain equally visible at every phase, with a universal interface that serves both developers and mainstream users simultaneously"
+  - "Mainstream features are launched first to build a user base, and developer tools are added later once the protocol stabilizes on mainnet"
+  - "Developer tools are permanently removed after the testing phase ends, and the codebase is simplified to support only mainstream payment features"
+explanation: >-
+  RK evolves its product with its audience across distinct phases. During the protocol-developer phase, X-Ray views and console tools are front and center. During early Signet testing, a faucet contact lets testers transact within 30 seconds. As the product matures toward mainnet and mainstream adoption, these developer-facing features will recede and mainstream UX will take over. The features are not removed but rather de-emphasized as the audience shifts.
+reviewed: false

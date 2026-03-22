@@ -1,0 +1,9 @@
+question: "How should pricing be tested during solution interviews?"
+answer: "By stating a concrete price and asking if the interviewee would buy at that specific amount"
+wrong_answers:
+  - "By asking interviewees to name the maximum price they would be willing to pay"
+  - "By offering the product for free first and tracking which users would later convert"
+  - "By running an online survey with multiple price tiers and analyzing the aggregated results"
+explanation: >-
+  The chapter advises framing pricing concretely rather than asking open-ended questions. The example given is: "I'm planning to price this at $19 per month or $149 per year. Would you buy it?" Then test upsells with specific additional costs. This approach produces qualitative pricing data that directly informs your revenue model, rather than abstract willingness-to-pay guesses.
+reviewed: false

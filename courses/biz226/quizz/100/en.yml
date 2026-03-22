@@ -1,0 +1,9 @@
+question: 'What is the UTXO model and where did it originate?'
+answer: 'Unspent Transaction Output: transactions consume inputs, create outputs that split and merge. Originated in Chaum e-cash transaction graph.'
+wrong_answers:
+  - 'Universal Transaction Exchange Object: cross-chain format from Ethereum'
+  - 'Unified Transaction Extension Option: block size upgrade from Segwit'
+  - 'User Transaction Execution Order: processing sequence from RPoW'
+explanation: >-
+  In Chaum e-cash, Alice with 100 pays Bob 70: one input (100), two outputs (70 Bob, 30 change). This split-and-merge graph is the UTXO model Bitcoin adopted.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "What does the chapter identify as the key distinction between the two broad categories of financial regulation?"
+answer: "AML/KYC requirements focus on identity and tracking, while consumer protection laws ensure solvency and safeguard funds"
+wrong_answers:
+  - "Federal regulations apply to large banks, while state regulations apply to smaller community institutions"
+  - "Domestic regulations govern local transactions, while international regulations govern cross-border payments"
+  - "Licensing requirements control market entry, while capital requirements control ongoing operations"
+explanation: >-
+  The chapter divides financial regulation into two broad categories: AML/KYC requirements, which the Bitcoin community heavily criticizes, and consumer protection laws, which ensure solvency and safeguard customer funds. The companies that failed (FTX, BlockFi, Celsius, Voyager) were compliant on the AML side but not on the consumer protection side, marketing their AML compliance as proof of safety when it is a fundamentally different thing.
+reviewed: false

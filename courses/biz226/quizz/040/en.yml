@@ -1,0 +1,9 @@
+question: "Why does the chapter say reputation damage is especially dangerous for Bitcoin startups?"
+answer: "Because the Bitcoin community has a long memory and reputation damage can be permanent"
+wrong_answers:
+  - "Because Bitcoin startups lack the marketing budgets needed to rebuild public trust"
+  - "Because regulators impose lifetime bans on companies with damaged reputations"
+  - "Because Bitcoin users will fork the project and create a competing alternative"
+explanation: >-
+  The chapter explains that Bitcoin startups operate in an **ideology-anchored market** where product failure is harder to recover from because reputation damage in the Bitcoin community can be permanent. This is not about marketing budgets or regulatory bans, but about the community's long institutional memory and strong value alignment.
+reviewed: false

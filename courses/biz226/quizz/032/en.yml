@@ -1,0 +1,9 @@
+question: "Why does the GENIUS Act's implementation phase matter more than the legislation itself, according to the chapter?"
+answer: "Because career officials who outlast any administration determine what the legislation actually looks like in practice through roughly 60 required guidances"
+wrong_answers:
+  - "Because the Supreme Court must review each provision individually before any part of the Act can take effect"
+  - "Because the Act automatically expires after two years unless renewed by a supermajority vote in both chambers"
+  - "Because international regulators must approve the framework before US agencies can begin enforcing the rules"
+explanation: >-
+  The GENIUS Act contains roughly 60 different guidances requiring various agencies (Treasury, FDIC, OCC) to figure out implementation details within 180 to 365 days. The chapter emphasizes that **career officials who outlast any administration determine what legislation actually looks like in practice**. Getting these people to understand and support Bitcoin is arguably more important than the legislation itself, because political appointees come and go but career staff shape lasting policy.
+reviewed: false

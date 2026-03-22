@@ -1,0 +1,9 @@
+question: "What are the three core functions of a traditional commercial bank?"
+answer: "Lending, custody, and payments"
+wrong_answers:
+  - "Trading, insurance, and wealth management"
+  - "Lending, investment banking, and foreign exchange"
+  - "Custody, money printing, and credit scoring"
+explanation: >-
+  The chapter defines three core activities of a traditional commercial bank: lending (borrow short, lend long), custody (safekeeping assets), and payments (moving money within and across banks). Trading, insurance, and investment banking are services offered by some financial institutions but are not the three core functions described here. Money printing is a central bank activity, not a commercial bank function.
+reviewed: false

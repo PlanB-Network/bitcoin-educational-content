@@ -1,0 +1,9 @@
+question: 'How does the pirate analogy argue that privacy is essential for economic freedom?'
+answer: 'With full transparency the strong pirate takes everything; privacy lets the weak pirate protect wealth, neutralizing the power asymmetry'
+wrong_answers:
+  - 'Pirates who share information cooperate better'
+  - 'Privacy allows hiding stolen goods proving it enables crime'
+  - 'The stronger pirate always wins regardless of information'
+explanation: >-
+  Two pirates, one strong, one weak. Full transparency: strong takes everything. Weak pirate buries treasure with encoded map: power asymmetry neutralized. Privacy enables the weaker party to resist.
+reviewed: false

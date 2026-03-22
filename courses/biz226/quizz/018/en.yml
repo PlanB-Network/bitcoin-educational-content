@@ -1,0 +1,9 @@
+question: "What happened to Silvergate Bank after FTX collapsed?"
+answer: "It remained solvent but regulators told it to stop banking crypto companies, so it voluntarily liquidated"
+wrong_answers:
+  - "It became insolvent due to long-term treasury bond losses and was seized by regulators"
+  - "It survived the crisis and continued operating as a crypto-focused bank under new restrictions"
+  - "It was acquired by a larger bank that absorbed its crypto clients and payment network"
+explanation: >-
+  After FTX collapsed, Silvergate experienced massive deposit withdrawals but remained solvent. Unlike Silicon Valley Bank, it had managed its risk carefully and avoided long-term treasury exposure. Nevertheless, regulators told Silvergate it could no longer bank crypto companies. Since that represented 100% of its business, the board voluntarily liquidated, something no bank had ever done before.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "In the 'Getting to Plan B' framework, what is an analog?"
+answer: "A successful precedent from any industry that you can borrow or adapt"
+wrong_answers:
+  - "A failed predecessor whose mistakes you want to avoid repeating"
+  - "A critical unproven belief that could destroy your plan if wrong"
+  - "A testable experiment designed to stress-test a business assumption"
+explanation: >-
+  An analog is a successful precedent from any industry that a startup can borrow or adapt for its own product. The chapter uses Apple's iPod as an example, where they borrowed Gillette's razor-and-blades model and drew on the Sony Walkman. The first wrong answer describes an antilog, the second describes a leap of faith, and the third describes a hypothesis.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 'Explain how proof of work simultaneously solves issuance, double-spending, and timestamping without trusted third parties.'
+answer: 'Each proof includes Merkle root of transactions and hash of previous proof, creating the asset (scarcity), ordering history (immutable chain), and making fraud exponentially expensive.'
+wrong_answers:
+  - 'Proof of work encrypts transactions for sender-receiver privacy'
+  - 'Proof of work creates a lottery where winner decides valid transactions'
+  - 'Proof of work generates entropy seeding random number generators for keys'
+explanation: >-
+  Satoshi replaced newspapers with proof of work. Each proof includes Merkle root and previous hash. Creates scarcity (like RPoW) and scarcity of history (cost to rewrite). Fraud requires redoing all subsequent work.
+reviewed: false

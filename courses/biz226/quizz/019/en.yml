@@ -1,0 +1,9 @@
+question: "What strategic advantage does Bitcoin offer to small community banks in the US?"
+answer: "A path to independence from central bank infrastructure through new revenue streams and products"
+wrong_answers:
+  - "Access to cheaper Federal Reserve lending facilities reserved for Bitcoin-friendly institutions"
+  - "Automatic regulatory exemptions that reduce their compliance costs significantly"
+  - "The ability to merge with larger banks at more favorable acquisition valuations"
+explanation: >-
+  The chapter describes how the US banking sector has consolidated from 10,000 to 4,000 banks through cycles of acquisition. Smaller banks face an existential threat from the Cantillon effect, where proximity to the Federal Reserve provides structural advantages. Bitcoin offers small banks a path to independence by providing revenue streams and products that do not depend on proximity to central bank infrastructure, rather than helping them merge or gain regulatory exemptions.
+reviewed: false

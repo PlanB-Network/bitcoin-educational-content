@@ -1,0 +1,9 @@
+question: 'Why did LNURL become popular and what does Bolt 12 solve?'
+answer: 'LNURL replaced expiring single-use invoices with server-generated ones on demand. Bolt 12 eliminates the server with peer-to-peer static offers.'
+wrong_answers:
+  - 'LNURL added encryption. Bolt 12 adds multi-path.'
+  - 'LNURL enabled cross-chain swaps. Bolt 12 adds fiat conversion.'
+  - 'LNURL reduced invoice size. Bolt 12 uses QR-optimized encoding.'
+explanation: >-
+  Bolt 11: single-use, expires. LNURL: server URL generates fresh invoices. But needs server. Bolt 12: static offers peer-to-peer, no server needed.
+reviewed: false

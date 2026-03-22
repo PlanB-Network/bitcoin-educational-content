@@ -1,0 +1,9 @@
+question: 'What was the waste problem Nick Szabo identified with proof of work as money?'
+answer: 'Proof of work burns cost without transferring it: every transfer requires fresh energy expenditure'
+wrong_answers:
+  - 'Mining hardware becomes obsolete too quickly'
+  - 'Heat from mining cannot be captured for other uses'
+  - 'Different electricity rates create unfair advantages'
+explanation: >-
+  My cost, my pain, is not your gain. Buying a 1000 dollar bike means spending 1000 of electricity, and the next buyer must spend another 1000.
+reviewed: false

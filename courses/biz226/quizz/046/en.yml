@@ -1,0 +1,9 @@
+question: "What is the chapter's practical solution for the catch-22 where VCs want to see a CTO before investing, but you need investment to pay a CTO?"
+answer: "Find a mission-aligned person through your network who is willing to work on deferred compensation"
+wrong_answers:
+  - "Bootstrap the company with personal savings until revenue can fund a CTO salary"
+  - "Hire a fractional CTO on a part-time consulting contract to satisfy investor requirements"
+  - "Present a detailed technical roadmap to investors as a substitute for having a CTO"
+explanation: >-
+  The chapter identifies this as a common catch-22 and advises going through your personal network to find someone **mission-aligned who will take the risk with you**, potentially on deferred compensation. This relationship starts from trust and shared conviction. The chapter does not suggest bootstrapping, fractional hires, or substituting a roadmap for a real technical co-founder.
+reviewed: false

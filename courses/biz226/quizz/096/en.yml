@@ -1,0 +1,9 @@
+question: 'What is the fundamental difference between symmetric and asymmetric cryptography?'
+answer: 'Symmetric uses one shared key; asymmetric uses a public/private key pair so strangers can communicate without prior trust'
+wrong_answers:
+  - 'Symmetric is slower but more secure; asymmetric is faster but less secure'
+  - 'Symmetric works only on text; asymmetric works on any data type'
+  - 'Symmetric predates computers; asymmetric requires quantum computing'
+explanation: >-
+  Symmetric requires sharing a secret key in advance. Asymmetric: public key locks, private key unlocks. Bob and Alice never need to meet.
+reviewed: false

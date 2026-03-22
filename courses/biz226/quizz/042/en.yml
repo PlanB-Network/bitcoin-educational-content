@@ -1,0 +1,9 @@
+question: "Why does the chapter describe written documentation as non-negotiable for early startups?"
+answer: "Because if the only person who knows how something works leaves, the knowledge disappears"
+wrong_answers:
+  - "Because investors require comprehensive documentation before approving funding rounds"
+  - "Because Bitcoin regulatory frameworks mandate written records of all internal processes"
+  - "Because written documents are needed to file intellectual property patents on processes"
+explanation: >-
+  The chapter states that **written documentation is non-negotiable** because knowledge concentrated in one person is a critical vulnerability. If that person gets sick, goes on vacation, or leaves, the knowledge vanishes. The chapter also notes that AI tools now make documentation nearly effortless, removing any excuse not to do it.
+reviewed: false

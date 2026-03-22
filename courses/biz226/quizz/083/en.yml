@@ -1,0 +1,9 @@
+question: "Comparing the seven communities presented, what distinguishes Chiang Mai's approach from all the others?"
+answer: "It takes an academic approach with formal surveys of hill tribe communities and solar-powered Bitcoin mining"
+wrong_answers:
+  - "It is the only community that operates entirely without any local leadership and relies on visiting volunteers"
+  - "It focuses exclusively on tourist adoption rather than building a local circular economy for residents"
+  - "It was founded by a government initiative and receives ongoing public funding from Thai authorities"
+explanation: >-
+  While most communities in the chapter rely on trust-based, relationship-driven adoption (Witsand, Kibera, Madeira, Bitcoin Berlin, Cusco), Chiang Mai stands apart with its academic methodology. The team conducts formal surveys of hill tribe communities and runs solar-powered Bitcoin mining from excess energy. The chapter also notes that **what works in Thailand does not work in a Kenyan slum**, reinforcing that each community must adapt its approach to local context.
+reviewed: false

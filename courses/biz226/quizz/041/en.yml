@@ -1,0 +1,9 @@
+question: "What does the chapter say happens when a B player is placed in an A team?"
+answer: "B players hire C players, A players leave, and the culture degrades irreversibly"
+wrong_answers:
+  - "B players are mentored by A players and eventually rise to match the team's level"
+  - "B players fill support roles that free A players to focus on higher-value work"
+  - "B players bring fresh perspectives that help A players avoid groupthink bias"
+explanation: >-
+  The chapter warns that a B player in an A team causes **disproportionate damage**. The chain reaction is specific: B players hire C players, the A players leave, and the culture degrades irreversibly. This is why the chapter emphasizes maintaining high standards early, because once they drop, they rarely recover.
+reviewed: false

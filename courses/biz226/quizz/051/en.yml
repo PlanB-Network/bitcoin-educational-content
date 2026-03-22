@@ -1,0 +1,9 @@
+question: "Why does the chapter recommend decentralizing your digital presence across multiple platforms?"
+answer: "Centralized platforms can censor you or lock you out without warning at any time"
+wrong_answers:
+  - "Each platform uses a different algorithm that favors completely different content styles"
+  - "Having accounts on many platforms automatically increases your search engine rankings"
+  - "Platform diversity is required to qualify for professional speaking engagements"
+explanation: >-
+  The chapter warns that centralized platforms can censor or lock you out at any moment, citing Efrat's experience of being locked out of her 15,000-subscriber Substack for two weeks without warning. The recommendation is to maintain a master platform you control and distribute outward from there. This is about resilience, not SEO or algorithmic optimization.
+reviewed: false

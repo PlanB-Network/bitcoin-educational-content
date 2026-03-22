@@ -1,0 +1,9 @@
+question: 'What is the difference between blockchain and crypto as euphemisms for Bitcoin?'
+answer: 'Blockchain strips Bitcoin of controversy for institutions. Crypto amplifies speculation for VC token sales. Neither describes Bitcoin.'
+wrong_answers:
+  - 'Blockchain is technology, crypto is currency. Both are accurate.'
+  - 'Blockchain for developers, crypto for traders. Same thing.'
+  - 'Blockchain means public ledger, crypto means encrypted transactions.'
+explanation: >-
+  Blockchain: Bitcoin voided of substance. Crypto: Bitcoin voided of discipline. Both are bargaining stages in Kubler-Ross grief applied to technological disruption.
+reviewed: false

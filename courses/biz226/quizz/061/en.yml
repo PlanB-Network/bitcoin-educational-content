@@ -1,0 +1,9 @@
+question: "What technology does Numo use to enable tap-to-pay Bitcoin payments?"
+answer: "NFC (near-field communication) combined with the Cashew eCash protocol"
+wrong_answers:
+  - "Bluetooth Low Energy combined with the Lightning Network payment channels"
+  - "QR code scanning combined with on-chain Bitcoin transaction broadcasting"
+  - "Wi-Fi Direct combined with a custodial payment processing gateway"
+explanation: >-
+  Numo uses NFC with host card emulation (HCE) on the merchant's Android device and the Cashew eCash protocol to complete payments. The customer's wallet reads the payment request via NFC and writes back a Cashew token, enabling a tap-to-pay experience similar to Apple Pay. QR codes are also supported for Lightning wallet users, but the NFC tap experience is the core innovation.
+reviewed: false

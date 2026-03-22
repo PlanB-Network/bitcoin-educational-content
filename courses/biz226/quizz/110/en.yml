@@ -1,0 +1,9 @@
+question: 'How often does Bitcoin difficulty adjustment occur and what does it maintain?'
+answer: 'Every 2,016 blocks (about two weeks), maintaining one block every ten minutes on average'
+wrong_answers:
+  - 'Every 1,000 blocks maintaining five-minute blocks'
+  - 'Every 10,000 blocks maintaining hourly blocks'
+  - 'After every block maintaining thirty-second blocks'
+explanation: >-
+  Every 2016 blocks, compare timestamps. Less than two weeks: difficulty up. More: down. 2016 reversed = 6102, Roosevelt gold confiscation.
+reviewed: false

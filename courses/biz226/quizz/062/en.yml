@@ -1,0 +1,9 @@
+question: "Why is the first minute with an app described as the make-or-break moment?"
+answer: "If a user does not understand what the product is within that window, they will leave and not come back"
+wrong_answers:
+  - "App store algorithms rank applications based on whether users stay longer than 60 seconds after opening"
+  - "Mobile operating systems automatically close applications that fail to fully load within the first minute"
+  - "Users typically complete their purchase decision within 60 seconds, so monetization depends on speed"
+explanation: >-
+  The user journey works like a leaky bucket where people drop off at every stage. The first minute is critical because if a user cannot understand what your product does in that short window, they will close the app and never return. This means clarity of communication matters more than visual polish during that initial experience.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "What key risk do the speakers identify about engineers using AI for UI design?"
+answer: "Engineers may accept AI-generated UI as good enough and skip design work, resulting in every app looking the same"
+wrong_answers:
+  - "Engineers may rely on AI to generate insecure code patterns that expose user private keys and wallet balances"
+  - "Engineers may use AI-generated designs that violate platform-specific guidelines, causing app store rejections"
+  - "Engineers may spend too much time customizing AI output, making the development cycle slower than manual design"
+explanation: >-
+  Both Christoph and Eric flag the risk that engineers may accept AI-generated UI as "good enough" and skip the design work entirely. This would produce a world where every app looks the same, built from the same component library with no differentiation. The counter to this is taste, opinion, and the willingness to push AI output past its first suggestion.
+reviewed: false

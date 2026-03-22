@@ -1,0 +1,9 @@
+question: 'Why is the coinbase transaction special and how does it enforce halving and fees?'
+answer: 'First transaction with no inputs. Outputs must equal halving subsidy plus all fees. Nodes enforce this strictly.'
+wrong_answers:
+  - 'Special address that must wait 100 blocks before spending'
+  - 'Encrypted transaction containing miner private key'
+  - 'Governance transaction voting on protocol changes'
+explanation: >-
+  Coinbase: no inputs, creates outputs from thin air. Sum must equal halving subsidy (currently 3.125 BTC) plus all fees. Enforces monetary policy and incentivizes tx inclusion.
+reviewed: false

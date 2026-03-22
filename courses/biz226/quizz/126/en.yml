@@ -1,0 +1,9 @@
+question: 'Why is building a profitable Bitcoin company fundamentally difficult?'
+answer: 'Bitcoin routes around intermediaries. Intermediation creates a point of failure Bitcoin resists. Close to ethos: zero revenue. Deviate: lose customers.'
+wrong_answers:
+  - 'Open-source licensing prevents charging for software'
+  - 'Deflationary nature means customers prefer holding to spending'
+  - 'Pseudonymous transactions make customer identification impossible'
+explanation: >-
+  GreenAddress story: no patents, no user data, partners kept failing. Bitcoin is about disintermediation and routes around you.
+reviewed: false

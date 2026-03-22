@@ -1,0 +1,9 @@
+question: 'What is the Cantillon effect and how does Giacomo illustrate it?'
+answer: 'Those closest to new money creation benefit at the expense of those furthest away; Venetian glassmakers produced cheap beads to extract real goods from islanders'
+wrong_answers:
+  - 'Inflation always benefits debtors over creditors equally'
+  - 'New money enters the economy uniformly so all prices rise equally'
+  - 'Money creation causes deflation in export economies'
+explanation: >-
+  The Cantillon effect describes how new money radiates outward from its creation point, benefiting early recipients at the expense of those at the economic periphery.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "What is the difference between user experience (UX) and user interface (UI)?"
+answer: "UX is the entire sequence of events a user goes through with a product, while UI is how individual screens look"
+wrong_answers:
+  - "UX focuses on the visual design of screens, while UI covers the overall journey a user takes with a product"
+  - "UX and UI are interchangeable terms that both describe how an application looks and feels to end users"
+  - "UX refers to backend technical architecture, while UI refers to the frontend code that renders the application"
+explanation: >-
+  User experience covers the full journey from first hearing about a product to becoming a passionate regular user. User interface is specifically about how individual screens look once you have figured out what needs to happen at each stage. They are related but distinct disciplines, and UX must come before UI in the design process.
+reviewed: false

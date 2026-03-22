@@ -1,0 +1,9 @@
+question: 'What is the full technology stack for a Bitcoin-powered decentralized internet?'
+answer: 'Hardware, OS, Bitcoin app, timechain (L1), channels+Arks (L2), assets/RGB (L3), Lightning routing, then identity, communication, storage, computation.'
+wrong_answers:
+  - 'IP, TCP, HTTP, Bitcoin RPC, Lightning API, web app, cloud, AI'
+  - 'Blockchain, sidechain, state channel, plasma, rollup, bridge, oracle, dApp'
+  - 'Mining hardware, pool, node, wallet, exchange, payment processor'
+explanation: >-
+  Layered from hardware through Lightning to identity/communication/storage/computation. Once Lightning works for payments, same infrastructure supports decentralized storage and computation.
+reviewed: false

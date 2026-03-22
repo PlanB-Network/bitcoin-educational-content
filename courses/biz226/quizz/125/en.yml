@@ -1,0 +1,9 @@
+question: 'How did mining specialization evolve from the paleonode era?'
+answer: 'CPU mining split into pool providers (build blocks), hashers (rent compute), ASIC producers (build hardware), and content creators.'
+wrong_answers:
+  - 'Mining moved to AWS cloud computing'
+  - 'Split into validators and proposers (Ethereum 2.0 model)'
+  - 'Replaced by proof of stake after 2017 fork'
+explanation: >-
+  Original miner did everything. Pools split into providers and hashers. ASICs became hardware industry. Ocean tries to restore individual block construction.
+reviewed: false

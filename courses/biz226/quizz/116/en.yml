@@ -1,0 +1,9 @@
+question: 'How does Lightning routing achieve atomicity and privacy simultaneously?'
+answer: 'Atomicity via HTLCs (entire chain completes or nothing). Privacy via onion routing (each node knows only neighbors) plus blinded paths hiding receiver.'
+wrong_answers:
+  - 'Atomicity via blockchain checkpoints. Privacy via zero-knowledge proofs.'
+  - 'Atomicity via central coordinator. Privacy via mixing services.'
+  - 'Atomicity via consensus voting. Privacy via symmetric encryption.'
+explanation: >-
+  HTLCs chain payments atomically. Each node knows only its neighbors. Blinded paths hide receiver. Upcoming PTLC upgrade uses different cryptographic points per hop.
+reviewed: false

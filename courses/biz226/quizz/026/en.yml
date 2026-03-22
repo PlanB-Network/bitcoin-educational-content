@@ -1,0 +1,9 @@
+question: "How is Bitcoin currently classified for tax purposes in the United States?"
+answer: "As intangible property, subject to capital gains tax on its appreciation"
+wrong_answers:
+  - "As a foreign currency, subject to the same tax rules as euros or yen"
+  - "As a commodity like gold, regulated and taxed exclusively by the CFTC"
+  - "As legal tender, exempt from capital gains tax on everyday transactions"
+explanation: >-
+  Bitcoin is currently treated as intangible property in the United States, meaning capital gains tax applies to its growth. This classification has a trade-off: while it creates tax obligations, it also means **Bitcoin avoids the specific licensing requirements** that would apply if it were classified as money, currency, or legal tender. BPI is working on de minimis exemptions to ease everyday spending.
+reviewed: false

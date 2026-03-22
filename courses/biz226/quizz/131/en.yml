@@ -1,0 +1,9 @@
+question: 'Map each Kubler-Ross stage to a specific historical example from the lecture.'
+answer: 'Denial: internet-is-a-fad articles. Anger: ban Bitcoin calls. Bargaining: blockchain (enterprise 2015) and crypto (ICO 2017). Depression: hype collapse. Acceptance: Gates IE pivot, institutions buying.'
+wrong_answers:
+  - 'Denial: Satoshi hiding. Anger: Mt Gox. Bargaining: SegWit2x. Depression: 2018 bear. Acceptance: El Salvador.'
+  - 'Denial: miners ignoring value. Anger: Blocksize War. Bargaining: Lightning. Depression: exchange failures. Acceptance: ETF.'
+  - 'Denial: banks refusing. Anger: China ban. Bargaining: CBDCs. Depression: FTX. Acceptance: MicroStrategy.'
+explanation: >-
+  Kubler-Ross: Denial (fad articles). Anger (ban letters). Bargaining two forms: blockchain (institutions) and crypto (VCs/traders). Depression when hype fails. Acceptance (Gates IE, institutions buying Bitcoin).
+reviewed: false

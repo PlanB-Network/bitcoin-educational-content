@@ -1,0 +1,9 @@
+question: 'How does Bitcoin existence create a regulatory shield for Tether (BitTorrent analogy)?'
+answer: 'Regulators tolerate Tether because shutting it down pushes users to fully decentralized Bitcoin, which is worse for regulators.'
+wrong_answers:
+  - 'Tether uses Bitcoin blockchain making freezing technically impossible'
+  - 'Bitcoin miners validate Tether so attacking it requires attacking hash rate'
+  - 'Tether holds Bitcoin reserves backed by decentralized asset'
+explanation: >-
+  Bitcoin = BitTorrent (decentralized, unstoppable). Tether = VKontakte (centralized but tolerated). Shutting Tether sends users to Bitcoin, worse for regulators.
+reviewed: false

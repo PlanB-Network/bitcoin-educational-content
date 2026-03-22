@@ -1,0 +1,9 @@
+question: "What should a founder conclude if they cannot find any competitor or similar product in any industry?"
+answer: "Either there is no market for the idea, or the founder has not searched thoroughly enough"
+wrong_answers:
+  - "The idea is truly original and represents a guaranteed first-mover advantage in the market"
+  - "The product should be patented immediately before competitors discover the untapped opportunity"
+  - "The idea is too far ahead of its time and should be shelved until the market is ready"
+explanation: >-
+  The chapter states that if you cannot find any competitor or similar product in any industry, it usually means one of two things: there is no market, or you have not done a good enough job looking. Every idea has analogs somewhere. The absence of competition is treated as a warning sign requiring deeper research, not as proof of a unique opportunity.
+reviewed: false

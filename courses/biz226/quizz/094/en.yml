@@ -1,0 +1,9 @@
+question: 'What two intellectual traditions fused to create Bitcoin?'
+answer: 'Austrian economists (scarcity and sound money) and Cypherpunks (privacy and censorship resistance through cryptography)'
+wrong_answers:
+  - 'Keynesian economists and Silicon Valley entrepreneurs'
+  - 'Chicago School monetarists and the open-source movement'
+  - 'Gold standard advocates and anarcho-capitalists'
+explanation: >-
+  Bitcoin fuses Austrian economics (Menger, Mises, Hayek) focused on scarcity, and Cypherpunks (Assange, Milhon) focused on privacy through cryptography.
+reviewed: false

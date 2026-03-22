@@ -1,0 +1,9 @@
+question: 'Why does Bitcoin require proof of exclusion not just inclusion?'
+answer: 'To prevent double-spending, must verify no contradictory transaction exists anywhere. Requires downloading every transaction ever.'
+wrong_answers:
+  - 'To calculate fees, exclude invalid mempool transactions'
+  - 'To prevent centralization, exclude pools above 51 percent'
+  - 'To enforce 21M cap, exclude excess coinbase transactions'
+explanation: >-
+  Timestamps need inclusion only. Bitcoin needs exclusion (no conflicting spend exists). Requires downloading all transactions, root cause of scalability problem.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "How does the Ark protocol differ from eCash in terms of custody, despite both using a server to facilitate payments?"
+answer: "The Ark server can never touch the user's funds, keeping it non-custodial, whereas eCash mints hold custodial balances"
+wrong_answers:
+  - "The Ark server holds funds temporarily during transactions but returns them within 24 hours, making it semi-custodial"
+  - "Both Ark and eCash are fully non-custodial because they use cryptographic proofs that prevent servers from accessing funds"
+  - "The Ark server requires multi-signature approval from the user for every transaction, while eCash uses single-signature only"
+explanation: >-
+  Although both Ark and eCash use a server to facilitate payments, they differ fundamentally in custody. The Ark protocol remains non-custodial, meaning the server can never touch the user's funds. In contrast, eCash mints hold custodial balances. This distinction is why Numo includes automatic withdrawal thresholds so merchants never hold more than a set amount in their custodial eCash balance.
+reviewed: false

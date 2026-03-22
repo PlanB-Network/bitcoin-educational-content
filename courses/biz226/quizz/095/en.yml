@@ -1,0 +1,9 @@
+question: 'Trace the money virtualization arc and what was lost at each step.'
+answer: 'Shells (scarce, private) to coins (trust a mint) to banknotes (trust a bank) to digital credit (identity-bound, zero privacy). Each step gained convenience but lost sovereignty.'
+wrong_answers:
+  - 'Gold to silver to copper to paper to digital, losing durability'
+  - 'Barter to commodity to representative to fiat to crypto, losing intrinsic value'
+  - 'Local to national to reserve to digital currencies, losing community control'
+explanation: >-
+  Shells were scarce and private. Coins: trust a mint. Banknotes: trust a bank. Digital credit: bound to identity, zero privacy. Bitcoin attempts to reverse this arc.
+reviewed: false

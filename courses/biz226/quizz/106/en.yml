@@ -1,0 +1,9 @@
+question: 'What two things did Bitcoin sacrifice vs Chaum e-cash and what mitigations did Satoshi propose?'
+answer: 'Privacy (all transactions visible; mitigation: pseudonymity) and scalability (must download every transaction; mitigation: SPV)'
+wrong_answers:
+  - 'Speed and programmability; mitigations: channels and OP_RETURN'
+  - 'Fungibility and finality; mitigations: CoinJoin and 6-confirmation rule'
+  - 'Divisibility and portability; mitigations: Lightning and pruning'
+explanation: >-
+  Privacy: all transactions visible for double-spend verification. Pseudonymity proved insufficient. Scalability: download every tx from genesis. SPV with light clients.
+reviewed: false

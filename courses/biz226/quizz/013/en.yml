@@ -1,0 +1,9 @@
+question: "What is the single most important Bitcoin-related financial product that institutions have offered?"
+answer: "The ability to buy and sell Bitcoin"
+wrong_answers:
+  - "Lending against Bitcoin as collateral"
+  - "Custody and cold storage solutions"
+  - "Lightning Network payment processing"
+explanation: >-
+  According to the chapter, the most important financial product institutions have offered regarding Bitcoin is the ability to buy and sell it, whether for speculation, inflation protection, or financial sovereignty. While lending, custody, and Lightning payments are all emerging services, buying and selling remains the dominant use case for institutional Bitcoin products.
+reviewed: false

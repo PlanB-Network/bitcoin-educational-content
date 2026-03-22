@@ -1,0 +1,9 @@
+question: 'What is the Bitcoin failure bathtub described by Dryja and Poon?'
+answer: 'Small blocks: only rich afford fees (recreates banks). Large blocks: only data centers verify (recreates mints). Both centralize.'
+wrong_answers:
+  - 'Fast blocks centralize mining; slow blocks ruin UX'
+  - 'Many transactions congest; few reduce miner revenue'
+  - 'High difficulty unprofitable; low difficulty enables attacks'
+explanation: >-
+  Very small blocks: high fees, ~10 institutions hold keys. Very large blocks: only data centers verify. Left side recreates banks; right side recreates mints.
+reviewed: false

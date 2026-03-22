@@ -1,0 +1,9 @@
+question: "Why is BTCPay Server particularly important for merchants in Curacao?"
+answer: "PayPal, Venmo, and Revolut do not work on the island, making BTCPay Server the only way to accept online payments"
+wrong_answers:
+  - "BTCPay Server is the only payment processor that complies with Curacao's strict cryptocurrency regulations"
+  - "BTCPay Server offers the lowest transaction fees of any payment system available in the Caribbean region"
+  - "BTCPay Server was specifically designed by the Curacao government as part of their national digital strategy"
+explanation: >-
+  Curacao, a former Dutch territory, is cut off from major digital payment platforms. Banks told locals they were "too risky," and PayPal, Venmo, and Revolut simply do not operate there. BTCPay Server fills this gap as the only viable option for merchants to accept online payments. This is a clear case of **Bitcoin solving a real financial exclusion problem**.
+reviewed: false

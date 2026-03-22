@@ -1,0 +1,9 @@
+question: "What is the Bitcoin Policy Institute (BPI)?"
+answer: "A think tank that works to align Bitcoin's growth with national interests through research and policymaker engagement"
+wrong_answers:
+  - "A government agency responsible for enforcing federal regulations on Bitcoin mining and trading activities"
+  - "A lobbying firm funded by Bitcoin companies to donate to political campaigns supporting cryptocurrency legislation"
+  - "An international regulatory body that sets binding Bitcoin standards for countries around the world to follow"
+explanation: >-
+  BPI is a think tank built on the thesis that Bitcoin will reshape the global monetary order, and its mission is to align the interests of the Bitcoin network with national interests. It is not a government agency, a lobbying firm, or an international regulatory body. BPI focuses on building relationships with policymakers and producing credentialed research rather than relying on donations or lobbying alone.
+reviewed: false

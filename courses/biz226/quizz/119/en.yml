@@ -1,0 +1,9 @@
+question: 'Why does combining channels and Ark solve problems neither solves alone, and how would covenants improve both?'
+answer: 'Channels: instant finality, few parties, deplete one-way. Ark: many parties, shared fees, no instant finality. Combined they cover weaknesses. Covenants reduce online requirements for both.'
+wrong_answers:
+  - 'Channels use PoW, Ark uses PoS; combined they balance energy with speed'
+  - 'Channels work with BTC only, Ark with any asset; enables cross-asset swaps'
+  - 'Channels need internet, Ark works offline; covers all connectivity'
+explanation: >-
+  Channels: 2 parties, long, instant, deplete. Ark: many parties, short, shared fees, no instant finality. Covenants reduce online requirement, main vulnerability of both.
+reviewed: false

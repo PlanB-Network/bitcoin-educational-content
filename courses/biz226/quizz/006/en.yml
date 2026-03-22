@@ -1,0 +1,9 @@
+question: "What is the goal of the prototyping phase in the three-phase methodology?"
+answer: "To create something visual like wireframes that lets potential users react and give feedback"
+wrong_answers:
+  - "To build a fully functional minimum viable product ready for paying customers"
+  - "To write production-quality code that can be deployed to a live server environment"
+  - "To finalize the business model and begin generating revenue from early adopters"
+explanation: >-
+  The prototyping phase focuses on wireframes and sketches, not functional products. The goal is to create something visual that lets potential users react. The chapter explicitly states that a prototype does not need to be fully open source or production-ready. Tools like Figma or AI-assisted builders can produce clickable prototypes in minutes rather than weeks.
+reviewed: false

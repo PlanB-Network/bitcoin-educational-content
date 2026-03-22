@@ -1,0 +1,9 @@
+question: "Why did undocumented residents in Kibera, Kenya, become locked out of M-Pesa despite its initial success?"
+answer: "The government imposed strict KYC rules that required identification documents many residents did not have"
+wrong_answers:
+  - "M-Pesa raised its transaction fees so high that slum residents could no longer afford to use the service"
+  - "M-Pesa was acquired by a foreign company that chose to discontinue service in low-income neighborhoods"
+  - "Mobile network coverage was removed from Kibera, making it technically impossible to use M-Pesa there"
+explanation: >-
+  M-Pesa revolutionized mobile money in Kenya, but the government later imposed strict KYC rules that locked out undocumented residents such as refugees and migrants without papers. These people became cash-only citizens, making them more vulnerable to robbery, inflation, and poverty traps. This created the real need that **Bitcoin adoption in Kibera was built to solve**.
+reviewed: false

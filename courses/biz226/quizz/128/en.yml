@@ -1,0 +1,9 @@
+question: 'Which hard business model does Plan B Network operate in?'
+answer: 'Knowledge brokerage: education, consulting, conferences. Sustainable because Bitcoin expertise cannot be trivially automated away.'
+wrong_answers:
+  - 'Financial services as a Bitcoin exchange'
+  - 'Software services selling proprietary wallet software'
+  - 'Functionary roles operating Lightning routing nodes'
+explanation: >-
+  Six hard models: financial services, software, functionary roles, hardware, monetary use, knowledge brokerage. Plan B Network: knowledge brokerage.
+reviewed: false

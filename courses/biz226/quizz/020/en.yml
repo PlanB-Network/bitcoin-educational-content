@@ -1,0 +1,9 @@
+question: "Why does the chapter argue that custody is not a binary concept in Bitcoin?"
+answer: "Multisig, Lightning, Liquid, and other protocols create intermediate positions between full self-custody and full custodial"
+wrong_answers:
+  - "Regulators in different countries define custody using incompatible legal frameworks"
+  - "Hardware wallets can be compromised, making the distinction between custodial and non-custodial meaningless"
+  - "Most Bitcoin users hold their keys on exchanges temporarily, blurring the line between the two categories"
+explanation: >-
+  The chapter presents custody as a spectrum rather than a binary choice. In a 2-of-3 multisig setup where the bank holds one key and the customer holds two, the question of who has custody becomes ambiguous. Lightning introduces risk if you go offline too long, Liquid relies on a federation controlling the bridge to the base layer, and protocols like Ark and Spark create further intermediate positions. Current regulation forces a binary custodial or non-custodial categorization that fails to capture this technical reality.
+reviewed: false

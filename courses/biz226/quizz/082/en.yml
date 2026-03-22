@@ -1,0 +1,9 @@
+question: "According to the chapter's playbook, what must come before identifying your intransigent minority?"
+answer: "Knowing your local context and identifying the specific pain point that Bitcoin can solve"
+wrong_answers:
+  - "Setting up a BTCPay Server instance and configuring Lightning Network channels for the community"
+  - "Securing funding from an international Bitcoin nonprofit to cover initial operational costs"
+  - "Registering your community on BTC Map and establishing a social media presence online"
+explanation: >-
+  The six-step playbook begins with "Know your context" (step 1) before "Find your people" (step 2). You must first identify the local pain, whether that is remittances, inflation, no banks, or no digital payments. The chapter states explicitly: **if you cannot name the problem, you do not have a pitch**. Only after understanding the need do you recruit your 3-5 passionate Bitcoiners.
+reviewed: false

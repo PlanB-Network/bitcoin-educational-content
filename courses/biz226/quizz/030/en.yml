@@ -1,0 +1,9 @@
+question: "What was the most powerful narrative reframing that shifted policymakers from asking 'should we allow Bitcoin?' to 'can we afford not to?'"
+answer: "Demonstrating that Bitcoin cannot be killed, and that pushing it away means another country will capture all the benefits"
+wrong_answers:
+  - "Proving that Bitcoin transaction fees generate more tax revenue than traditional banking transfer fees"
+  - "Showing that a majority of US voters already owned Bitcoin and would punish anti-Bitcoin politicians at the ballot box"
+  - "Presenting academic research that Bitcoin reduces income inequality faster than any existing government program"
+explanation: >-
+  The most powerful reframing was demonstrating that Bitcoin cannot be killed. If a country pushes Bitcoin away, another country will embrace it and capture all the benefits. This transformed the conversation from a permission question into a competitiveness question. It was not about voter ownership statistics or tax revenue comparisons, but about the **strategic risk of falling behind rival nations**.
+reviewed: false

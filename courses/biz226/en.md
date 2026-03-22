@@ -14,6 +14,60 @@ The Plan B Programme Business Track 2026 (BIZ226) is an intensive course combini
 
 +++
 
+# Course Introduction
+<partId>3cd9a4a4-8fa4-4746-b6a1-9f9bb9d9c23c</partId>
+
+## Welcome to the Bitcoin Business Track
+<chapterId>0711eef5-c3e9-4550-ada6-db685f8ab2fd</chapterId>
+
+Welcome to the Plan B Programme, the most comprehensive Bitcoin education track available today. This is the Business Track for 2026, and you are about to spend the next five months going deep into every dimension of Bitcoin that matters for building, running, or joining a company in this industry.
+
+### What is the Plan B Programme?
+
+The Plan B Programme is an annual educational initiative run by Plan B Network. It brings together students from around the world for a structured, intensive curriculum that covers both the technical and business sides of Bitcoin. The programme runs from February to July, with almost 90 hours of lectures, assignments, and guest masterclasses. Students can attend either online or in person. **The top performers at the end of the track are invited to a two-week Summer School in Lugano.**
+
+The programme has two tracks: the Developer Track (DEV226) for engineers and protocol builders, and this one, the Business Track (BIZ226), for entrepreneurs, business students, and professionals looking to work in Bitcoin in non-technical roles. Both tracks share a common foundation before specializing.
+
+### Your professor and guest lecturers
+
+Your main professor is **Giacomo Zucco**, who teaches the first four chapters. Giacomo has been building in the Bitcoin space since 2013, founding and advising multiple companies, co-creating open standards (RGB, OTS, BDK), and organizing some of the most important Bitcoin conferences in Europe. He brings a decade of hands-on experience in Bitcoin entrepreneurship, and his lectures cover the full intellectual foundation: why Bitcoin exists, how it works, where the ecosystem is heading, and what the industry landscape looks like for someone starting a business today.
+
+After the common track, you will hear from seven guest lecturers, each an expert in their field:
+
+- **Alexandre Bussutil** on market research and lean startup methodology
+- **Nicolas Burtey** (CEO of Galoy / Blink wallet) on Bitcoin banking from the US and El Salvador
+- **Grant McCarty** (Bitcoin Policy Institute) on regulation and the political landscape
+- **Thunder Svadjica** on building and hiring for Bitcoin-only startups
+- **Efrat Fenigson** on personal branding and thought leadership
+- **Erik and Christoph Ono** (Bitcoin Design Community) on UX/UI design for Bitcoin products
+- **Joe Nakamoto** on building Bitcoin communities across four continents
+
+Each guest brings real-world experience, not theory. They have built the companies, navigated the regulations, designed the products, and grown the communities they teach about.
+
+### What you will learn
+
+The curriculum is structured in five parts:
+
+**Part 1: Bitcoin Foundations** (Chapters 1-4). Giacomo takes you from the history of money through cryptography, protocol design, Lightning Network, and the full industry landscape. By the end of this section, you will understand not just what Bitcoin is, but why every layer of the stack exists and where the business opportunities sit.
+
+**Part 2: Market and Finance** (Chapters 5-6). How to validate a Bitcoin business idea using lean startup methodology, and how Bitcoin banking actually works in practice, from custodial to non-custodial, from the US to El Salvador.
+
+**Part 3: Legal and Operations** (Chapters 7-8). The regulatory environment for Bitcoin companies, Operation Chokepoint 2.0, strategic Bitcoin reserves, and the practical realities of hiring and building a team in a Bitcoin-only startup.
+
+**Part 4: Brand and Design** (Chapters 9-10). How to build a personal brand in the Bitcoin space, and how to design Bitcoin products that people actually want to use.
+
+**Part 5: Community** (Chapter 11). Lessons from circular Bitcoin economies around the world, from Witsand to Madeira, Kibera to El Salvador.
+
+### Before you begin
+
+This is a long course. Eleven chapters, each based on a full masterclass lecture with slides, examples, and recommended reading. There are 132 quiz questions waiting for you across the curriculum, 12 per chapter. The quizzes are designed to test real understanding, not memorization.
+
+Take your time. **The goal is not to finish fast but to finish with a working understanding of how Bitcoin businesses operate.** Revisit chapters, follow the recommended reading, and use the Plan B Network courses linked throughout as deep dives into specific topics.
+
+Good luck. The Bitcoin industry is growing and it needs people who understand both the technology and the business. That is exactly what this track is designed to produce.
+
++++
+
 # Bitcoin Foundations
 <partId>4cf4c5d8-6e6e-480f-bd2c-4dd8981f1da4</partId>
 

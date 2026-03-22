@@ -69,7 +69,7 @@ Ready to take full control of your Lightning node? Let's get started.
 ## Course overview
 <chapterId>f4e2a1b3-5c6d-4e8f-9a0b-1d3c5e7f2a4b</chapterId>
 
-Welcome to the LNP 404 course! Together, we will explore how to manage, optimize, and understand your Bitcoin Lightning node through the power of **Lightning Terminal** (LitD), an all-in-one management stack developed by Lightning Labs.
+Welcome to the LNP 304 course! Together, we will explore how to manage, optimize, and understand your Bitcoin Lightning node through the power of **Lightning Terminal** (LitD), an all-in-one management stack developed by Lightning Labs.
 
 This course is built around the demo series by [Hannah Rosenberg](https://planb.academy/professors/hannah-rosenberg) from Lightning Labs. Each chapter pairs a video walkthrough with detailed written content, including the actual CLI commands, configuration files, and procedures you will need.
 
@@ -209,7 +209,7 @@ litd --version
 
 If the version string prints correctly, the installation is complete.
 
-![LNP404](assets/en/001.webp)
+![LNP304](assets/en/001.webp)
 
 Let's move on to configuration.
 
@@ -343,7 +343,7 @@ If you have not configured a domain name or SSL certificate (which is typical on
 
 Enter the UI password you defined in `lit.conf`, and you will see the Terminal interface.
 
-![LNP404](assets/en/002.webp)
+![LNP304](assets/en/002.webp)
 
 From here, you have access to all the management tools we will explore throughout this course: health checks, channel management, Loop, Pool, Autofees, and more.
 
@@ -357,7 +357,7 @@ Here is how LNC works at a high level: your `litd` daemon makes an outgoing conn
 
 From the local Terminal interface, click the connection button to initiate an LNC session. The interface will generate a 10-word pairing phrase. Copy this phrase, then navigate to `terminal.lightning.engineering` in your browser. Paste the phrase, set a session password, and you are connected.
 
-![LNP404](assets/en/003.webp)
+![LNP304](assets/en/003.webp)
 
 #### Connecting via the Command Line
 
@@ -375,7 +375,7 @@ This command creates a new administrative session and outputs a connection strin
 
 Let's recap what we have accomplished in this chapter. We installed `litd` from source by cloning the Lightning Labs repository and running `make install`. We verified that `rpcmiddleware.enable=true` is set in our LND configuration. We created a dedicated `lit.conf` file with all the parameters needed for remote mode operation. We set up a systemd service so that `litd` starts automatically and survives reboots. Finally, we connected to Terminal on the web using Lightning Node Connect.
 
-![LNP404](assets/en/004.webp)
+![LNP304](assets/en/004.webp)
 
 In the next chapter, we will explore what Terminal reveals about our node's health and discover how the health check system evaluates routing performance across six key metrics.
 
@@ -400,7 +400,7 @@ When you connect to Terminal on the web, the homepage displays a summary of your
 2. Click the **Explore** tab
 3. Paste your public key into the search field
 
-![LNP404](assets/en/005.webp)
+![LNP304](assets/en/005.webp)
 
 This brings up a detailed profile of your node, including its overall score, current capacity, age, number of good peers, and centrality measure. Below these summary statistics, you will find the six individual health checks.
 
@@ -449,7 +449,7 @@ Each health check includes a link to more detailed documentation. If you pass so
 
 ### Recommended Channels
 
-![LNP404](assets/en/006.webp)
+![LNP304](assets/en/006.webp)
 
 Scroll down on the Channels tab of the homepage, and you will find the **Recommended Channels** section. This feature identifies nodes on the network that would benefit from a well-connected peer, and it suggests that you be that peer.
 
@@ -533,7 +533,7 @@ Let's now turn to the **Channels** tab, which represents the operational core of
 - **Total outbound capacity** (your ability to send or route outward)
 - **Total inbound capacity** (your ability to receive or route inward)
 
-![LNP404](assets/en/007.webp)
+![LNP304](assets/en/007.webp)
 
 But the real power of this tab lies in the **per-channel liquidity visualization**. For each channel, Terminal displays a visual bar showing the balance distribution between local (outbound) and inbound liquidity. At a glance, you can see:
 
@@ -1654,7 +1654,7 @@ This is the culmination of everything we have covered in this course. You now ha
 ## Conclusion
 <chapterId>8cf6f7c4-a520-40e6-a198-42fdd0d78f3b</chapterId>
 
-Over the course of LNP 404, we have progressively explored the full Lightning Terminal stack, moving from initial installation and connection all the way through to building a complete node from scratch.
+Over the course of LNP 304, we have progressively explored the full Lightning Terminal stack, moving from initial installation and connection all the way through to building a complete node from scratch.
 
 In **Part 1**, we established the foundations: installing LitD, connecting via Lightning Node Connect, understanding health checks, navigating the dashboard's insights and forwarding data, and configuring Autofees for dynamic fee management.
 

@@ -21,9 +21,9 @@ You will learn how visionary reformers extended this vision to demand free trade
 
 ### Welcome
 
-Welcome to HIS 204! This course, taught by Benoît Malbranque, president of the Institut Coppet and one of the foremost specialists in the French liberal tradition, explores the French origins of the concept of *laissez-faire* as it developed in the 18th century through a rich intellectual tradition.
+Welcome to HIS 204! This course, taught by **[Benoît Malbranque](https://planb.academy/professors/benoit-malbranque)**, president of the Institut Coppet and one of the foremost specialists in the French liberal tradition, explores the French origins of the concept of *laissez-faire* as it developed in the 18th century through a rich intellectual tradition.
 
-Long before Adam Smith published the *Wealth of Nations*, French thinkers were building a political economy founded on economic freedom, mistrust of State interference, and a belief in a natural order that favors growth and prosperity. By tracing their arguments from Vauban and Boisguilbert to Turgot and Condorcet, you will uncover a forgotten intellectual heritage that shaped the modern world.
+Long before Adam Smith published the [*Wealth of Nations*](https://planb.academy/resources/books/the-wealth-of-nations-c3e78eda-cc44-4cae-8460-f962148aa289), French thinkers were building a political economy founded on economic freedom, mistrust of State interference, and a belief in a natural order that favors growth and prosperity. By tracing their arguments from Vauban and Boisguilbert to Turgot and Condorcet, you will uncover a forgotten intellectual heritage that shaped the modern world.
 
 ### What you will learn
 
@@ -48,7 +48,7 @@ Ready to rediscover the French roots of economic liberalism? Let's go!
 
 ### About the course author
 
-Benoît Malbranque is the president of the Institut Coppet, an association dedicated to promoting the French school of political economy. He is the author of several books, including *Vincent de Gournay: The Political Economy of Laissez-faire* (2016), and he has republished the writings of French economists in the Institut Coppet's publishing collections. His deep knowledge of the primary sources makes him a unique guide through this intellectual history.
+**[Benoît Malbranque](https://planb.academy/professors/benoit-malbranque)** is the president of the Institut Coppet, an association dedicated to promoting the French school of political economy. He is the author of several books, including [*Vincent de Gournay: The Political Economy of Laissez-faire*](https://planb.academy/resources/books/benoit-malbranque-vincent-de-gournay-leconomie-pol-23fb1bac-21d6-432f-a4f3-69a359e48358) (2016), and he has republished the writings of French economists in the Institut Coppet's publishing collections. His deep knowledge of the primary sources makes him a unique guide through this intellectual history.
 
 # The Forerunners
 

@@ -720,7 +720,7 @@ He also fought, unsuccessfully, against the assignats. Despite this failure, Phy
 ![Adam Smith, “Wealth of Nations”, Joseph Rambaud, “History of economic doctrines”](assets/en/063.webp)
 
 
-The Physiocrats also had **a major influence on the history of economic thought**. Adam Smith, who visited France and met many of them, was deeply influenced by their work. He even considered dedicating *The Wealth of Nations* to Quesnay.
+The Physiocrats also had **a major influence on the history of economic thought**. Adam Smith, who visited France and met many of them, was deeply influenced by their work. He even considered dedicating [*The Wealth of Nations*](https://planb.academy/resources/books/the-wealth-of-nations-c3e78eda-cc44-4cae-8460-f962148aa289) to Quesnay.
 
 
 
@@ -867,11 +867,11 @@ During these early years, he was mentored by Vincent de Gournay, who took him un
 
 ![Turgot, “Praise for Gournay”, Turgot, “Reflections on the formation and distribution of wealth”](assets/en/075.webp)
 
-In 1767, while an intendant, he composed a compendium of economics under the title of *Reflections on the Formation and Distribution of Wealth*.
+In 1767, while an intendant, he composed a compendium of economics under the title of [*Reflections on the Formation and Distribution of Wealth*](https://planb.academy/resources/books/turgot-oeuvres-completes-37fa0489-cabd-413c-9240-34d1663d0720).
 
 
 
-Division of labor, consumer sovereignty, private property, the role of capital, virtually all the major economic themes are addressed. Many historians, the most recent being historian Anne-Claire Hoyng, have pointed out the similarities between this work by Turgot and Adam Smith's *The Wealth of Nations*, published nine years later.
+Division of labor, consumer sovereignty, private property, the role of capital, virtually all the major economic themes are addressed. Many historians, the most recent being historian Anne-Claire Hoyng, have pointed out the similarities between this work by Turgot and Adam Smith's [*The Wealth of Nations*](https://planb.academy/resources/books/the-wealth-of-nations-c3e78eda-cc44-4cae-8460-f962148aa289), published nine years later.
 
 ![Turgot, “Letters on the freedom of grain trade”, Turgot and Smith,, ”A strange closeness”](assets/en/076.webp)
 
@@ -977,7 +977,7 @@ Abbot of Condillac played **a major role in definitively dismantling this false 
 
 "Definitively" is perhaps an exaggeration, because in public debate, this sophism frequently reappears. This is perhaps why, moreover, Condillac remains a little-known economist. Apart from Austrian economists, few have understood the importance of his theory of exchange, no one takes interest in him anymore.
 
-For most historians of economic thought, the year 1776 is marked by the publication of *The Wealth of Nations*, which founded economic science. The fifteen lessons we have just completed, in which we have studied French economic science before Adam Smith, are enough to prove the error of this conception. In that same year 1776, moreover, another book perhaps deserves more praise from historians than Adam Smith's book: it was written by Condillac and is simply titled [*Commerce and Government Considered in Their Mutual Relationship*](https://archive.org/details/commercegovernme0000cond).
+For most historians of economic thought, the year 1776 is marked by the publication of [*The Wealth of Nations*](https://planb.academy/resources/books/the-wealth-of-nations-c3e78eda-cc44-4cae-8460-f962148aa289), which founded economic science. The fifteen lessons we have just completed, in which we have studied French economic science before Adam Smith, are enough to prove the error of this conception. In that same year 1776, moreover, another book perhaps deserves more praise from historians than Adam Smith's book: it was written by Condillac and is simply titled [*Commerce and Government Considered in Their Mutual Relationship*](https://planb.academy/resources/books/condillac-le-commerce-et-le-gouvernement-5e397405-e066-43bc-82df-1017c1fb63ae).
 
 ![Condillac, Trade and Government](assets/en/085.webp)
 
@@ -1111,7 +1111,7 @@ But once again, no one listened to him.
 <chapterId>ada8082f-db96-5e52-954f-719b47998153</chapterId>
 
 French economic thought in the 18th century is often overshadowed by the more famous economists of the 19th century. Yet, when it comes to the defense of liberty, it is in the 18th century that everything truly begins. This is the century in which the principle of laissez-faire, so revolutionary in its time, was first clearly expressed by a number of thinkers, from Boisguilbert to Dupont de Nemours.
-Certainly, figures like Jean-Baptiste Say, Frédéric Bastiat, Gustave de Molinari, and Yves Guyot left a lasting mark on the history of French economic thought. But if we study them in isolation, we miss something essential. These 19th-century thinkers didn't emerge from nowhere; they inherited and built upon the foundations laid by their 18th-century predecessors during the Enlightenment.
+Certainly, figures like Jean-Baptiste Say, [Frédéric Bastiat](https://planb.academy/resources/books/bastiat-oeuvres-completes-765be39c-134a-4333-8b4b-e45a4fff7e73), [Gustave de Molinari](https://planb.academy/resources/books/molinari-oeuvres-completes-8a3dbdd8-2053-45bc-9203-dd3b7f3edfee), and Yves Guyot left a lasting mark on the history of French economic thought. But if we study them in isolation, we miss something essential. These 19th-century thinkers didn't emerge from nowhere; they inherited and built upon the foundations laid by their 18th-century predecessors during the Enlightenment.
 
 Boisguilbert asserts that well-meaning souls who believe they can fix everything by involving the government inevitably turn the economy upside down, and that it is therefore better to let the natural order of things take its course.
 
@@ -1163,7 +1163,7 @@ Here below, you'll find a selection of over thirty writings:
 10. Abbot of Saint-Pierre, "Projet pour perfectionner le commerce de la France", in Les rêves d'un homme de bien, Paris, 1775, p.199
 11. André Alem, Le marquis d'Argenson et l'économie politique au début du XVIIIe siècle, Institut Coppet, 2015
 12. Journal et mémoires du marquis d'Argenson, Rathery edition, 9 vols, Paris, 1859-1867
-13. Benoît Malbranque, Vincent de Gournay: the political economy of laissez-faire, Institut Coppet, 2016
+13. Benoît Malbranque, [Vincent de Gournay: the political economy of laissez-faire](https://planb.academy/resources/books/benoit-malbranque-vincent-de-gournay-leconomie-pol-23fb1bac-21d6-432f-a4f3-69a359e48358), Institut Coppet, 2016
 14. Vincent de Gournay, Remarques sur la traduction de Josiah Child, L'Harmattan, 2008
 15. Christine Théré & Loïc Charles (eds.), Le cercle de Gournay, INED, 2005
 16. Antoin Murphy, "Le développement des idées économiques en France (1750-1756)", Revue d'histoire moderne et contemporaine, tome XXXIII, October-December 1986
@@ -1178,11 +1178,11 @@ Here below, you'll find a selection of over thirty writings:
 25. Georges Weulersse, La physiocratie à l'aube de la révolution (1781-1792), EHESS, 1985
 26. P. Jolly, Du Pont de Nemours, soldat de la liberté, Paris, P.U.F., 1956
 27. Voltaire's economic writings, Institut Coppet, 2013
-28. Gustave Schelle (ed.), Œuvres de Turgot et documents le concernant, Paris, 1913-1924
+28. Gustave Schelle (ed.), [Œuvres de Turgot et documents le concernant](https://planb.academy/resources/books/turgot-oeuvres-completes-37fa0489-cabd-413c-9240-34d1663d0720), Paris, 1913-1924
 29. Benoît Malbranque, Le libéralisme à l'essai : Turgot intendant du Limousin (1761-1774), Institut Coppet, 2015
 30. Pierre Foncin, Essai sur le ministère de Turgot, Paris, 1877
 31. Auguste Lebeau, Condillac économiste, Paris, 1903
-32. Condillac, Le commerce et le gouvernement considérés relativement l'un avec l'autre, 1776
+32. Condillac, [Le commerce et le gouvernement considérés relativement l'un avec l'autre](https://planb.academy/resources/books/condillac-le-commerce-et-le-gouvernement-5e397405-e066-43bc-82df-1017c1fb63ae), 1776
 33. Condorcet, Mélanges d'économie politique, in Eugène Daire (ed.), Mélanges d'économie politique, Paris, 1847
 34. P. Jolly, Du Pont de Nemours, soldat de la liberté, Paris, P.U.F., 1956
 35. Eli Heckscher, Mercantilism, 2 vols. London: Allen and Unwin. 1935

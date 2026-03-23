@@ -19,27 +19,36 @@ You will learn how visionary reformers extended this vision to demand free trade
 ## Course overview
 <chapterId>202db3c6-0320-494d-8057-adc6f6563048</chapterId>
 
-Welcome to HIS204!
+### Welcome
 
-This course is designed to explore the French origins of the concept of *laissez-faire* ("let it happen") as it developed in the 18th century through a rich intellectual tradition. By tracing the thoughts of early French economic thinkers, we'll uncover the foundations of a political economy built on economic freedom, marked by a mistrust of State interference and a belief in a natural order that favors growth and prosperity.
+Welcome to HIS 204! This course, taught by Benoît Malbranque, president of the Institut Coppet and one of the foremost specialists in the French liberal tradition, explores the French origins of the concept of *laissez-faire* as it developed in the 18th century through a rich intellectual tradition.
 
-**Section 2: The Forerunners** 
+Long before Adam Smith published the *Wealth of Nations*, French thinkers were building a political economy founded on economic freedom, mistrust of State interference, and a belief in a natural order that favors growth and prosperity. By tracing their arguments from Vauban and Boisguilbert to Turgot and Condorcet, you will uncover a forgotten intellectual heritage that shaped the modern world.
 
-In this section we begin at the turn of the 17th and 18th centuries, a time shaped by the excessive rule of absolute monarchy and the first calls for a more rational and fair way to govern public affairs. Through the figures of Vauban, Boisguilbert, and Cantillon, we discover early criticisms of state interventionism and a first outline of what would later become liberal political economy.
+### What you will learn
 
-**Section 3: Reformers and Thinkers of the Early 18th Century**
+- **Trace the emergence of laissez-faire** from its earliest precursors under Louis XIV to its full expression in the Physiocratic school.
+- **Identify the key thinkers** who challenged mercantilism and absolutism: Vauban, Boisguilbert, Cantillon, Quesnay, Turgot, Condillac, and others.
+- **Understand the arguments against State interventionism** that these economists developed, from critiques of taxation to the defense of free trade.
+- **Analyze the Physiocratic system** and its revolutionary claim that agriculture, not commerce, is the source of national wealth.
+- **Evaluate the lasting impact of laissez-faire thought** on global political economy and on the debates that continue to shape economic policy today.
+- **Recognize the tension between theory and practice** through the story of Turgot's reforms and their failure in pre-revolutionary France.
 
-This section focuses on those who, in the first decades of the 18th century, attempted to reform the French economy in the light of new principles. Thinkers like the Abbot of Saint-Pierre, the Marquis d'Argenson, and Gournay (along with his followers) called for dismantling corporatist obstacles, liberalizing trade, and encouraging competition as the driver of development. Their often bold proposals foreshadowed the great Physiocratic ideas.
+### Curriculum
 
-**Section 4: The Physiocratic School** 
+**Section 2: The Forerunners.** We begin at the turn of the 17th and 18th centuries, a time shaped by absolute monarchy and the first calls for a more rational way to govern public affairs. Through the figures of Vauban, Boisguilbert, and Cantillon, we discover early criticisms of State interventionism and the first outline of what would later become liberal political economy.
 
-This section explores one of the most important moments in French economic thought: the Physiocratic school. We'll examine its origins, doctrinal foundations and main achievements, focusing on key figures like Quesnay and Dupont de Nemours. The idea of laissez-faire becomes a coherent system right in this school, rooted in the idea of a natural order to which the State must submit to guarantee prosperity for all.
+**Section 3: Reformers and Thinkers of the Early 18th Century.** This section focuses on those who attempted to reform the French economy in the light of new principles. Thinkers like the Abbot of Saint-Pierre, the Marquis d'Argenson, and Gournay called for dismantling corporatist obstacles, liberalizing trade, and encouraging competition as the driver of development. Their bold proposals foreshadowed the Physiocratic ideas.
 
-**Section 5: The Enlightenment and Political Economy** 
+**Section 4: The Physiocratic School.** We explore one of the most important moments in French economic thought. We examine the origins, doctrinal foundations, and main achievements of the Physiocrats, focusing on Quesnay and Dupont de Nemours. The idea of laissez-faire becomes a coherent system here, rooted in the concept of a natural order to which the State must submit.
 
-Finally, we'll see how liberal economic thinking spread within the broader Enlightenment movement. Figures like Voltaire, Turgot, Condillac, and Condorcet expanded and enriched the laissez-faire tradition, their writings created a bridge for the laissez-faire tradition to cross into the revolutionary period and beyond, where liberal ideas found new resonance.
+**Section 5: The Enlightenment and Political Economy.** Finally, we see how liberal economic thinking spread within the broader Enlightenment movement. Voltaire, Turgot, Condillac, and Condorcet expanded the laissez-faire tradition, creating a bridge into the revolutionary period and beyond.
 
 Ready to rediscover the French roots of economic liberalism? Let's go!
+
+### About the course author
+
+Benoît Malbranque is the president of the Institut Coppet, an association dedicated to promoting the French school of political economy. He is the author of several books, including *Vincent de Gournay: The Political Economy of Laissez-faire* (2016), and he has republished the writings of French economists in the Institut Coppet's publishing collections. His deep knowledge of the primary sources makes him a unique guide through this intellectual history.
 
 # The Forerunners
 

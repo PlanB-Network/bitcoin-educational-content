@@ -1,0 +1,9 @@
+question: "How do TAP addresses differ from standard Bitcoin addresses when receiving Taproot assets?"
+answer: "TAP addresses are unique to each specific asset and amount combination, unlike standard Bitcoin addresses that can receive any amount"
+wrong_answers:
+  - "TAP addresses use a different encoding scheme (bech64m) that is incompatible with standard Bitcoin wallets"
+  - "TAP addresses contain embedded routing information for Lightning Network path discovery"
+  - "TAP addresses expire after a fixed time period and must be regenerated for each new transfer"
+explanation: >-
+  Unlike standard Bitcoin addresses that can receive any arbitrary amount, TAP addresses are unique to each specific asset and amount combination. The recipient generates a TAP address by specifying both the asset ID and the exact amount they wish to receive. This means a new address must be generated for each distinct transfer, as the address encodes both which asset and how much of it should be received.
+reviewed: false

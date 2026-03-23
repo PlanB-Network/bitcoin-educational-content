@@ -1,0 +1,12 @@
+question: Through which two protocols are TAPD's API services accessible?
+answer: gRPC for high-throughput applications and REST for standard HTTP integration
+wrong_answers:
+  - WebSocket for real-time streaming and GraphQL for flexible data queries
+  - MQTT for lightweight messaging and SOAP for enterprise-grade service calls
+  - JSON-RPC for command-line interaction and Protocol Buffers for binary streaming
+explanation: >-
+  TAPD exposes its four API services through two standard protocols: gRPC, which
+  is optimized for high-throughput programmatic applications, and REST, which
+  provides standard HTTP endpoints for broader integration compatibility. The API
+  documentation includes Python and JavaScript examples for common workflows.
+reviewed: false

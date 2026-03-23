@@ -1,0 +1,9 @@
+question: "Which command reveals all assets your universe has discovered through its federation connections?"
+answer: "tapcli universe roots"
+wrong_answers:
+  - "tapcli universe sync"
+  - "tapcli assets list"
+  - "tapcli universe federation list"
+explanation: >-
+  The 'tapcli universe roots' command reveals all assets your universe has discovered through its federation connections. This is distinct from 'tapcli universe federation list', which shows the connected universe servers, and 'tapcli universe sync', which pulls the latest data. The 'tapcli assets list' command shows locally owned assets, not all discovered assets in the universe.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Which of the following error scenarios must be handled when building transfer functionality into production applications?"
+answer: "Insufficient balance, invalid or expired TAP addresses, and missing universe data on the receiver's node"
+wrong_answers:
+  - "Network congestion, double-spend attempts, and expired TLS certificates"
+  - "Rate limiting, insufficient gas fees, and smart contract reverts"
+  - "Channel capacity limits, routing failures, and invoice expiration"
+explanation: >-
+  The chapter specifies three error scenarios for production applications: insufficient balance (the send endpoint rejects requests if the node lacks enough of the specified asset), invalid address (malformed or expired TAP addresses produce an error), and missing universe data (if the receiver's node lacks asset metadata, address generation fails). These are Taproot-Asset-specific concerns distinct from Lightning or EVM-based error handling.
+reviewed: false

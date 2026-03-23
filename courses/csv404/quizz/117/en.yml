@@ -1,0 +1,9 @@
+question: "Why are TAP addresses unique to each specific asset and amount combination, unlike standard Bitcoin addresses?"
+answer: "Because they encode asset-specific data including the asset ID and requested amount alongside the destination key"
+wrong_answers:
+  - "Because they use a different elliptic curve than Bitcoin addresses, requiring asset parameters in the derivation"
+  - "Because the Taproot Assets protocol requires a new keypair to be generated for each asset type"
+  - "Because they include a time-lock parameter that binds the address to a specific transaction window"
+explanation: >-
+  TAP addresses encode the asset ID, the requested amount, the receiver's destination key, and additional cryptographic data needed by the sender to construct a valid transfer. This makes each address specific to a particular asset and amount, unlike standard Bitcoin addresses which can receive any amount of bitcoin regardless of how they were generated.
+reviewed: false

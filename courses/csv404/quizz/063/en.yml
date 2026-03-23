@@ -1,0 +1,13 @@
+question: What are the two distinct phases of the minting process when performing a test mint in TAPD?
+answer: Batch creation (preparing data structures and cryptographic commitments) followed by batch finalization (embedding data into a Bitcoin transaction and confirming on-chain)
+wrong_answers:
+  - Asset declaration (registering the asset with a universe server) followed by supply allocation (distributing units to initial holders)
+  - Key generation (creating the asset-specific signing keys) followed by proof publication (broadcasting proofs to all federation members)
+  - Schema validation (checking asset metadata against protocol rules) followed by network propagation (distributing the asset to all connected nodes)
+explanation: >-
+  Minting in TAPD is a two-phase process. During batch creation, TAPD prepares all
+  necessary data structures and cryptographic commitments without writing anything
+  to the blockchain. During batch finalization, the prepared asset data is embedded
+  into a Bitcoin transaction and confirmed on-chain. In Polar, auto-mining handles
+  the confirmation automatically.
+reviewed: false

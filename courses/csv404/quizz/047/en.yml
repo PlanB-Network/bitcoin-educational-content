@@ -1,0 +1,13 @@
+question: What verification steps are involved when using the universe API to confirm asset ownership?
+answer: Checking cryptographic signatures, validating Merkle tree structures, and confirming that referenced Bitcoin transactions exist on-chain
+wrong_answers:
+  - Querying a central certificate authority and cross-referencing the asset against a global registry
+  - Verifying the issuer's identity through KYC records and matching it against the asset metadata
+  - Decrypting the asset payload using the owner's public key and comparing it to the genesis block hash
+explanation: >-
+  Asset ownership verification through the universe API involves three cryptographic
+  checks: validating digital signatures to prove authorization, verifying Merkle tree
+  structures to confirm the asset's position in the commitment tree, and confirming
+  that the referenced Bitcoin transactions actually exist on the blockchain. These
+  steps provide trustless verification without relying on any central authority.
+reviewed: false

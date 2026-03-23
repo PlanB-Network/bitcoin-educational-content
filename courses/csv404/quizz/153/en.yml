@@ -1,0 +1,9 @@
+question: "What is the first step when updating a binary installation of TAPD?"
+answer: "Stop the running TAPD service using systemctl"
+wrong_answers:
+  - "Back up the binary files to a temporary directory for rollback purposes"
+  - "Download the new release archive before stopping any running services"
+  - "Remove the existing data directory to prepare for a clean installation"
+explanation: >-
+  The first step in the binary update procedure is to stop the running TAPD service with `sudo systemctl stop tapd`. This ensures the daemon is not running while its binaries are being replaced, preventing potential corruption or conflicts. Only after stopping the service should you proceed to remove old binaries and install new ones.
+reviewed: false

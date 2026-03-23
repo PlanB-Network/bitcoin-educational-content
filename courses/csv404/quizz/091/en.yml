@@ -1,0 +1,9 @@
+question: "What is the purpose of the batch system in the Taproot Assets minting workflow?"
+answer: "It queues multiple asset creations to be finalized together in a single on-chain transaction, saving on mining fees"
+wrong_answers:
+  - "It splits a large minting operation across multiple transactions to avoid exceeding block size limits"
+  - "It groups assets by type so that fungible and collectible assets are minted on separate chains"
+  - "It enforces a mandatory waiting period between minting requests to prevent network congestion"
+explanation: >-
+  The batch system queues pending asset creations so they can all be finalized in a single on-chain Bitcoin transaction. Since each minting transaction requires a mining fee, batching allows you to create multiple distinct assets while paying only one transaction fee. By default, tapcli places minting requests into a batch rather than broadcasting immediately.
+reviewed: false

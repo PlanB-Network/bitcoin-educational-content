@@ -1,0 +1,9 @@
+question: "Why is the API preferred over the CLI for production environments when minting Taproot Assets?"
+answer: "The API allows assets to be created programmatically, enabling integration into larger automated systems"
+wrong_answers:
+  - "The API uses a different security model that is more secure than the CLI's authentication"
+  - "The API can mint assets without waiting for on-chain confirmation"
+  - "The API supports minting multiple asset types simultaneously in a single request"
+explanation: >-
+  While the CLI is ideal for manual exploration and one-off operations, the REST API enables programmatic asset creation, making it suitable for production applications and automated systems. The security model remains identical between CLI and API, both requiring TLS and macaroon authentication. On-chain confirmation is still required regardless of the interface used.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "What JSON body is sent to the finalize endpoint when completing a minting batch via the API?"
+answer: "An empty JSON object {}"
+wrong_answers:
+  - "A JSON object containing the batch ID and a confirmation flag"
+  - "A JSON object repeating the asset definition from Phase 1"
+  - "A JSON object with the target block height for the transaction"
+explanation: >-
+  The finalize endpoint receives a POST request with an empty JSON body ({}). No additional parameters are needed because the batch to finalize is already held in TAPD's internal state from Phase 1. Including asset details or batch identifiers is unnecessary since TAPD tracks the pending batch automatically.
+reviewed: false

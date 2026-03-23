@@ -1,0 +1,9 @@
+question: "What two LND credential files must be specified when starting the TAPD daemon?"
+answer: "The admin macaroon (for authentication) and the TLS certificate (for encrypted communication)"
+wrong_answers:
+  - "The channel backup file (for recovery) and the wallet seed phrase (for key derivation)"
+  - "The node public key (for identity) and the gossip certificate (for peer discovery)"
+  - "The HSM token (for hardware security) and the session cookie (for API access control)"
+explanation: >-
+  Starting the TAPD daemon requires specifying the paths to two LND credential files: the admin macaroon, which handles authentication to the LND node, and the TLS certificate, which ensures encrypted communication between TAPD and LND. Additionally, the network type and the LND address and port must be specified.
+reviewed: false

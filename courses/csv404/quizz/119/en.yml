@@ -1,0 +1,9 @@
+question: "Which CLI command provides a detailed record of every asset transfer, including transaction IDs, amounts, and confirmation status?"
+answer: "tapcli assets transfers"
+wrong_answers:
+  - "tapcli assets history --all"
+  - "tapcli transfers list --verbose"
+  - "tapcli wallet transactions --type asset"
+explanation: >-
+  The tapcli assets transfers command provides a detailed record of every transfer performed by the node, including transaction IDs, amounts, timestamps, and confirmation status. This is the standard way to review transfer history through the TAPD command line interface.
+reviewed: false

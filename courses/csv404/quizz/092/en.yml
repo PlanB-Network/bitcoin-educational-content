@@ -1,0 +1,9 @@
+question: "What does the '--type normal' parameter specify when minting a Taproot asset?"
+answer: "It creates a fungible asset, as opposed to a collectible"
+wrong_answers:
+  - "It creates a non-expandable asset with a permanently fixed supply"
+  - "It mints the asset on mainnet rather than on testnet or signet"
+  - "It creates the asset without encryption, making its metadata publicly visible"
+explanation: >-
+  The '--type normal' parameter specifies that the asset being minted is fungible. In the Taproot Assets Protocol, 'normal' type assets are fungible, meaning each unit is interchangeable with any other unit of the same asset. The alternative type is 'collectible', which represents unique, non-fungible assets. The type parameter is about fungibility, not about supply expandability or network selection.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "What HTTP method is used to execute a burn operation through the Taproot Assets REST API?"
+answer: "A POST request to the burn endpoint"
+wrong_answers:
+  - "A DELETE request to the assets endpoint"
+  - "A PUT request to the destroy endpoint"
+  - "A GET request to the burn endpoint with query parameters"
+explanation: >-
+  The burn operation uses a POST request to the `/v1/taproot-assets/burn` endpoint, as shown in the chapter's code example with `requests.post()`. This follows REST conventions where POST is used for actions that create or trigger operations, rather than DELETE which might seem intuitive but is not how the API is designed.
+reviewed: false

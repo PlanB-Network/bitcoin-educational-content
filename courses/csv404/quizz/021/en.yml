@@ -1,0 +1,9 @@
+question: "How does the Asset ID determine the position of asset data in a Sparse Merkle Tree?"
+answer: "The binary representation of the Asset ID acts as a navigation map, with each bit directing the path left or right from the root to a leaf"
+wrong_answers:
+  - "The Asset ID is hashed and the result is used as an index into a sequential array of leaf positions"
+  - "The Asset ID is sorted alphabetically and assigned the next available empty leaf position"
+  - "The Asset ID is converted to a decimal number and placed at that numbered position in the tree"
+explanation: >-
+  When TAPD creates an asset, the binary representation of the Asset ID serves as a deterministic map through the tree. Each bit (zero or one) tells you whether to go left or right as you descend from the root to a leaf. This means the Asset ID defines exactly where in the tree the asset data lives, enabling both efficient inclusion and exclusion proofs.
+reviewed: false

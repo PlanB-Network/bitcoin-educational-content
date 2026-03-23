@@ -1,0 +1,9 @@
+question: "What types of data does the universe stats API endpoint return?"
+answer: "Asset awareness counts, synchronization status, and federation health metrics"
+wrong_answers:
+  - "Individual asset transfer histories, sender and receiver addresses, and transaction fees"
+  - "Node uptime percentages, CPU utilization, and memory consumption statistics"
+  - "Lightning channel balances, routing fees earned, and payment success rates"
+explanation: >-
+  The universe stats endpoint (/v1/taproot-assets/universe/stats) returns data about asset awareness (such as total assets discovered), synchronization status, and federation health. As shown in the course example, this includes metrics like total asset count, number of asset groups, and total proofs. It does not return individual transfer histories, node hardware metrics, or Lightning-specific financial data.
+reviewed: false

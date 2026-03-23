@@ -1,0 +1,9 @@
+question: "What happens to asset proof data when you mint an asset on a TAPD node?"
+answer: "The proof data is automatically written to the node's local universe store"
+wrong_answers:
+  - "The proof data is broadcast to all connected federation universes immediately"
+  - "The proof data is stored only in the Bitcoin blockchain alongside the minting transaction"
+  - "The proof data is held in a temporary buffer until manually exported to a universe"
+explanation: >-
+  Every TAPD node automatically includes its own local universe. When you mint an asset, the proof data is written to this local store automatically. The proof data does not automatically propagate to other universes in the federation; other nodes must sync with your universe to obtain it. The proof data itself is off-chain, not stored in the Bitcoin blockchain.
+reviewed: false

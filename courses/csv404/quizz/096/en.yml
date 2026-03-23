@@ -1,0 +1,9 @@
+question: "What is the genesis outpoint in the context of a Taproot asset?"
+answer: "The specific Bitcoin transaction output that anchored the asset's creation, serving as a unique fingerprint traceable to its moment of birth"
+wrong_answers:
+  - "The first Lightning channel through which the asset was transferred after minting"
+  - "The coinbase transaction of the block in which the asset's minting transaction was confirmed"
+  - "The initial UTXO that funded the minter's wallet before the minting transaction was broadcast"
+explanation: >-
+  The genesis outpoint is the Bitcoin transaction output that anchored the asset's creation on the blockchain. It serves as the unique fingerprint that allows any node to trace the asset back to its exact moment of birth. It is one of the three inputs used to derive the asset ID via SHA-256 hashing. It is not the coinbase transaction of the block or the funding UTXO, but specifically the output of the minting transaction itself.
+reviewed: false

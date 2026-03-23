@@ -1,0 +1,12 @@
+question: Why is signet recommended as the network selection during Bitcoin Core configuration for development purposes?
+answer: It mimics mainnet behavior but uses worthless test coins, making it ideal for development without financial risk
+wrong_answers:
+  - It runs a local private blockchain with instant block confirmation, which speeds up testing cycles significantly
+  - It connects to the same network as mainnet but limits transaction sizes to prevent accidental large transfers
+  - It provides a shared mempool with mainnet so developers can test fee estimation against real transaction volumes
+explanation: >-
+  Signet is recommended for development because it closely replicates mainnet behavior while using
+  test coins that have no monetary value. Unlike regtest, which is a private local chain, signet is
+  a shared public test network with realistic block times and mining behavior. This makes it suitable
+  for testing Taproot Assets workflows in conditions that closely approximate production.
+reviewed: false

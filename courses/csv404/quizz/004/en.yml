@@ -1,0 +1,13 @@
+question: When Alice sends 100 of her 1,000 beefbucks to Bob on-chain, how does the protocol handle the state change?
+answer: Two new Merkle trees are constructed — one where Alice holds 900 and one where Bob holds 100 — each committed to a separate transaction output
+wrong_answers:
+  - The existing Merkle tree is updated in place with the new balances for both parties
+  - A single new Merkle tree is created containing both balances as separate leaves in the same output
+  - The transaction creates an on-chain script that enforces the split and tracks future transfers
+explanation: >-
+  On-chain Taproot Assets transfers work by splitting the current Merkle tree
+  into two new trees reflecting the updated balances. Alice's asset-bearing
+  UTXO is consumed as an input, and the transaction creates at least two
+  outputs: one committing Alice's updated tree (900 beefbucks) and one
+  committing Bob's new tree (100 beefbucks).
+reviewed: false

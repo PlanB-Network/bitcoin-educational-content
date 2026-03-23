@@ -1,0 +1,9 @@
+question: "When adding a universe via the REST API, which authentication credentials are required in the request?"
+answer: "The TLS certificate and the admin macaroon, both from the TAPD data directory"
+wrong_answers:
+  - "An API key generated from the TAPD web dashboard and a session token"
+  - "The LND node's public key and a signed authentication challenge"
+  - "A username and password pair configured in the tapd.conf file"
+explanation: >-
+  REST API requests to TAPD require two credentials: the TLS certificate (--cacert ~/.tapd/tls.cert) for secure connection, and the admin macaroon passed as a Grpc-Metadata-macaroon header. The macaroon is read from ~/.tapd/data/testnet/admin.macaroon and hex-encoded using xxd. TAPD uses macaroon-based authentication, not API keys or username/password pairs.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Why does the chapter warn against blindly executing the Run LITD scripts on a production server?
+answer: The scripts are designed for developers who need to spin up testing environments quickly, and automated scripts should be reviewed line by line before running on production
+wrong_answers:
+  - The scripts contain hardcoded testnet configurations that would cause a production node to connect to the wrong network
+  - The scripts install outdated dependency versions that have known security vulnerabilities in production environments
+  - The scripts require root access and disable the firewall, which permanently weakens the server security posture
+explanation: >-
+  The chapter includes an explicit caveat that the Run LITD scripts are built for developers who
+  need to spin up testing environments fast. The warning is about operational discipline: never
+  blindly execute automated scripts on a production server without reviewing every line. This is
+  a general security principle, as automated deployment scripts may make assumptions that are
+  inappropriate for a production environment with real funds.
+reviewed: false

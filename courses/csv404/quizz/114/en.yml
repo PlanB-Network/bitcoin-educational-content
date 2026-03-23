@@ -1,0 +1,9 @@
+question: "What happens behind the scenes when the sender executes the tapcli assets send command?"
+answer: "The node constructs an on-chain Bitcoin transaction committing to the updated Merkle tree, generates cryptographic proofs, and transmits them to the receiver's node"
+wrong_answers:
+  - "The node opens a Lightning channel with the receiver, streams the asset data, and closes the channel after confirmation"
+  - "The node broadcasts the full asset metadata to the Bitcoin mempool and waits for miners to include it in a block"
+  - "The node creates an off-chain state update signed by both parties and periodically settles the aggregate on-chain"
+explanation: >-
+  When Alice executes tapcli assets send, her node constructs an on-chain Bitcoin transaction that commits to the updated Merkle tree reflecting the new ownership. It also generates cryptographic proof files and transmits them directly to Bob's node. The command returns an on-chain transaction ID that can be verified through any Bitcoin block explorer.
+reviewed: false

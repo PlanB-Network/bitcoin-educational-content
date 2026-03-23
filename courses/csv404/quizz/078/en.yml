@@ -1,0 +1,9 @@
+question: "Which command is used to verify that all bundled services within LitD are operational?"
+answer: "litcli status"
+wrong_answers:
+  - "lncli getinfo"
+  - "litd --check-services"
+  - "tapcli daemon status"
+explanation: >-
+  The 'litcli status' command displays the state of every service bundled within LitD. It shows whether LND, TAPD, Loop, Pool, and Faraday are all reporting as active (SERVER_ACTIVE). While 'lncli getinfo' would only check the LND component, 'litcli status' provides a unified view of all five services from the LitD-specific CLI tool.
+reviewed: false

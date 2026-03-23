@@ -1,0 +1,12 @@
+question: What is the correct sequence for initially creating a wallet with LitD?
+answer: Start LitD manually in one terminal, run lncli create in a separate terminal, set a wallet password, and record the 24-word seed phrase
+wrong_answers:
+  - Run litd --create-wallet from the command line, enter a password when prompted, and import an existing seed phrase
+  - Use the LitD web interface to generate a new wallet, download the seed backup file, and restart the service
+  - Execute tapcli wallet init to initialize all wallets simultaneously, then configure the password file
+explanation: >-
+  The chapter describes a specific sequence: first start LitD manually in one terminal, then open a
+  separate terminal to run lncli create, set a wallet password, and securely record the 24-word seed
+  phrase. This two-terminal approach is necessary because LitD must be running before the wallet
+  creation command can connect to it.
+reviewed: false

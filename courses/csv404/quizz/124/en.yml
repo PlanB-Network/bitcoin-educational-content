@@ -1,0 +1,9 @@
+question: "What is the API endpoint used to execute a Taproot Asset transfer?"
+answer: "POST /v1/taproot-assets/send"
+wrong_answers:
+  - "POST /v1/taproot-assets/assets/transfer"
+  - "POST /v1/taproot-assets/transactions/send"
+  - "PUT /v1/taproot-assets/assets/send"
+explanation: >-
+  The transfer is executed by sending a POST request to /v1/taproot-assets/send with the TAP address in the payload. This endpoint processes the transfer by constructing the on-chain transaction, generating proofs, and transmitting them to the receiver's node. The endpoint uses POST because it creates a new transaction resource.
+reviewed: false

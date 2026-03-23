@@ -1,0 +1,9 @@
+question: "How does client-side validation work in the Taproot Assets Protocol?"
+answer: "The recipient reconstructs a partial MS-SMT, tweaks the issuer's public key using the commitment, and verifies the genesis transaction on-chain"
+wrong_answers:
+  - "The recipient downloads the entire Bitcoin blockchain and scans for all Taproot Asset transactions"
+  - "A centralized validation server checks the asset proofs and returns a signed certificate of authenticity"
+  - "Full nodes on the Bitcoin network validate every Taproot Asset transfer as part of consensus rules"
+explanation: >-
+  TAP relies on client-side validation, meaning recipients do not need the complete blockchain history to verify an asset's legitimacy. Instead, they reconstruct a partial MS-SMT, tweak the issuer's public key using the commitment, and verify that the corresponding genesis transaction exists on-chain. This approach keeps validation lightweight and off-chain while still anchoring trust in Bitcoin's blockchain.
+reviewed: false

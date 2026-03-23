@@ -1,0 +1,14 @@
+question: In a cross-asset Lightning payment where Bob sends USD stablecoins and Elena receives euro stablecoins, what is the exact payment flow?
+answer: Bob's edge node converts USD to satoshis, the payment routes through standard Lightning channels, and Elena's edge node converts satoshis to euros
+wrong_answers:
+  - The payment is routed through asset-aware channels that natively support multi-currency conversion at each hop
+  - A central exchange node matches the USD and EUR orders before routing the payment through the network
+  - The USD stablecoins are burned at Bob's node and new EUR stablecoins are minted at Elena's node
+explanation: >-
+  Cross-asset Lightning payments rely on two edge nodes and the standard
+  Lightning Network in between. Bob's edge node accepts his USD stablecoins
+  and forwards the equivalent value as a satoshi Lightning payment. That
+  payment routes through ordinary channels until it reaches Elena's edge
+  node, which converts the received satoshis into euro stablecoins. The
+  intermediate network never touches the assets directly.
+reviewed: false

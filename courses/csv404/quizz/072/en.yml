@@ -1,0 +1,9 @@
+question: "What does the 'lnd-mode=integrated' setting in lit.conf accomplish?"
+answer: "It tells LitD to manage LND internally rather than connecting to an external instance"
+wrong_answers:
+  - "It configures LND to run in a lightweight mode with reduced memory usage"
+  - "It enables LND to accept incoming connections from external Taproot Assets daemons"
+  - "It instructs LitD to use a remote LND node over the network instead of a local one"
+explanation: >-
+  The 'lnd-mode=integrated' setting in lit.conf tells LitD to manage its own internal LND instance. This means LND runs as part of the LitD process itself, eliminating the need to install, configure, and maintain a separate standalone LND daemon. This is one of the key advantages of the integrated LitD approach.
+reviewed: false

@@ -1,0 +1,13 @@
+question: What role do scaling factors play in the price oracle's exchange rate calculations?
+answer: They provide additional internal precision during calculations to prevent floating-point rounding errors
+wrong_answers:
+  - They adjust the exchange rate based on network congestion to account for higher on-chain fee costs
+  - They multiply the quoted price by a configurable margin percentage to ensure the edge node earns a profit
+  - They normalize asset amounts across different blockchains so cross-chain swaps use consistent unit sizes
+explanation: >-
+  Scaling factors add extra digits of precision internally during the mathematical conversion
+  between asset types. This prevents floating-point rounding errors that could accumulate during
+  division and multiplication operations, which is critical when dealing with large amounts or
+  assets with very different unit scales. The scaling is applied during calculation only and does
+  not affect the final quoted amounts presented to the user.
+reviewed: false

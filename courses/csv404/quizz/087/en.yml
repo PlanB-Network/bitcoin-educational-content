@@ -1,0 +1,9 @@
+question: "Why is the recommendation to 'curate rather than collect' important for universe federation management?"
+answer: "Connecting to every available universe creates unnecessary network overhead without proportional benefit"
+wrong_answers:
+  - "Connecting to too many universes causes consensus conflicts that can corrupt local asset proof data"
+  - "Each connected universe requires a separate on-chain Bitcoin transaction to maintain the connection"
+  - "The Taproot Assets Protocol limits each node to a maximum of ten federation connections"
+explanation: >-
+  The 'curate rather than collect' principle addresses a practical concern: connecting to every available universe creates unnecessary network overhead. Since each universe connection involves data synchronization, indiscriminate connections waste bandwidth and processing resources without adding value. Operators should connect only to universes that serve their specific needs, such as those hosting assets they care about.
+reviewed: false

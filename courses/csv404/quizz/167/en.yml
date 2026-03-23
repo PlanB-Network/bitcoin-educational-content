@@ -1,0 +1,13 @@
+question: Which five verification commands confirm that a LitD node is fully operational after installation?
+answer: litcli status, lncli getinfo, tapcli assets list, tapcli universe federation list, and sudo systemctl status litd
+wrong_answers:
+  - litd --check, lncli walletbalance, tapcli universe info, systemctl is-active litd, and bitcoin-cli getblockchaininfo
+  - lncli getinfo, lncli channels, tapcli assets balance, tapcli addrs list, and journalctl -u litd
+  - litcli health, bitcoin-cli getnetworkinfo, lncli pendingchannels, tapcli universe roots, and systemctl list-units litd
+explanation: >-
+  The chapter lists exactly five verification commands: litcli status (all services running),
+  lncli getinfo (LND synced to chain), tapcli assets list (TAPD responding, with an empty list
+  expected on a fresh node), tapcli universe federation list (universe connectivity), and
+  sudo systemctl status litd (systemd health). All five must pass for the node to be considered
+  fully operational.
+reviewed: false

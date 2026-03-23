@@ -1,0 +1,12 @@
+question: What are the three foundational software components required before installing TAPD?
+answer: Bitcoin Core (bitcoind), LND (Lightning Network Daemon), and Go (version 1.21 or later)
+wrong_answers:
+  - Bitcoin Core (bitcoind), Core Lightning (CLN), and Rust (version 1.70 or later)
+  - Bitcoin Core (bitcoind), Eclair, and Python (version 3.10 or later)
+  - Bitcoin Core (bitcoind), LND (Lightning Network Daemon), and Node.js (version 18 or later)
+explanation: >-
+  TAPD requires three prerequisites: Bitcoin Core for the base layer blockchain
+  data, LND for Lightning Network functionality and key management, and Go
+  version 1.21 or later for compiling the TAPD source code. Earlier Go versions
+  will cause compilation errors.
+reviewed: false

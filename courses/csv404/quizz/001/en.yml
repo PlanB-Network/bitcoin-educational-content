@@ -1,0 +1,12 @@
+question: What mechanism does the Taproot Assets Protocol use to embed asset data in Bitcoin transactions without revealing it publicly?
+answer: Client-side validation with cryptographic proofs that only holders can verify
+wrong_answers:
+  - OP_RETURN data fields that store encrypted asset information in each transaction
+  - Segregated witness extensions that carry asset metadata alongside signatures
+  - A sidechain anchoring mechanism that periodically commits asset state to Bitcoin
+explanation: >-
+  Taproot Assets uses client-side validation, meaning asset data is committed
+  to the blockchain via a taptweak but is only visible to parties who possess
+  the corresponding cryptographic proofs. To any external observer, the
+  transaction looks like an ordinary Taproot transaction.
+reviewed: false

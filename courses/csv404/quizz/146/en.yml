@@ -1,0 +1,9 @@
+question: "How does the API's confirmation_str parameter relate to the CLI's interactive confirmation prompt in terms of safety design?"
+answer: "The confirmation_str is the programmatic equivalent of the CLI prompt, ensuring developers explicitly acknowledge destruction even in automated code"
+wrong_answers:
+  - "The confirmation_str provides stronger security than the CLI prompt because it is cryptographically signed by the node's TLS certificate"
+  - "The confirmation_str replaces the CLI prompt entirely, meaning CLI users must also provide the string instead of interactive confirmation"
+  - "The confirmation_str is optional for authenticated API sessions, unlike the CLI prompt which is always mandatory"
+explanation: >-
+  The confirmation string is described as the API equivalent of the CLI's interactive prompt. Both serve the same purpose: forcing the operator to explicitly acknowledge that assets will be permanently destroyed before the operation proceeds. The API version uses a required string parameter because automated code cannot respond to interactive prompts, but the safety intent is identical.
+reviewed: false

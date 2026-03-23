@@ -1,0 +1,12 @@
+question: What does the Stage 1 server security script do after creating a non-root user with sudo privileges?
+answer: Configures SSH key-based authentication, disables root login over SSH, and disables password authentication
+wrong_answers:
+  - Installs a firewall, enables automatic security updates, and configures fail2ban intrusion detection
+  - Generates TLS certificates, sets up a VPN tunnel, and creates encrypted disk partitions
+  - Configures two-factor authentication, installs antivirus software, and enables audit logging
+explanation: >-
+  The Stage 1 script performs four specific hardening steps: creating a non-root user with sudo
+  privileges, configuring SSH key-based authentication, disabling root login over SSH, and disabling
+  password authentication. The chapter explicitly warns that SSH keys must be properly configured
+  before running this script, since disabling password auth without working keys will lock you out.
+reviewed: false

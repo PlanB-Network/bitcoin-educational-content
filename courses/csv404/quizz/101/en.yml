@@ -1,0 +1,9 @@
+question: "How is the admin macaroon prepared for inclusion in API request headers?"
+answer: "It is read as raw bytes and converted to a hexadecimal string"
+wrong_answers:
+  - "It is read as a UTF-8 text file and passed directly as a string"
+  - "It is base64-encoded and included as a Bearer token"
+  - "It is hashed with SHA-256 and sent as a digest value"
+explanation: >-
+  The admin macaroon file is read in binary mode and then converted to its hexadecimal representation using the .hex() method. This hex string is placed in the Grpc-Metadata-macaroon HTTP header. Reading it as text or encoding it differently would produce an invalid authentication token that TAPD would reject.
+reviewed: false

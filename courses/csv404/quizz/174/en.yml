@@ -1,0 +1,13 @@
+question: Why are group keys especially useful for stablecoins in the price oracle's asset registry?
+answer: They allow the oracle to support stablecoins that have undergone multiple minting rounds under a single identifier
+wrong_answers:
+  - They enable the oracle to aggregate prices from multiple exchange feeds and compute a weighted average rate
+  - They provide cryptographic proof that the stablecoin issuer has sufficient reserves backing each token
+  - They allow multiple oracles to share a common signing key so quotes can be verified across the network
+explanation: >-
+  A stablecoin issuer may mint new tokens in multiple batches over time, with each batch producing a
+  different asset ID. Group keys solve this by grouping all minting rounds of the same stablecoin
+  under one identifier. The price oracle's asset registry can then reference the group key to
+  recognize and price all batches of that stablecoin uniformly, rather than needing a separate
+  entry for each individual minting event.
+reviewed: false

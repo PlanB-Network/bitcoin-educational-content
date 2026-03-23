@@ -1,0 +1,9 @@
+question: "What does the --skip_batch flag do when minting a Taproot asset with tapcli?"
+answer: "It processes the mint immediately rather than batching multiple minting requests together"
+wrong_answers:
+  - "It skips the on-chain confirmation requirement and finalizes the asset in the mempool"
+  - "It bypasses the Merkle tree computation step to speed up large-scale asset creation"
+  - "It omits the asset metadata field to create a lightweight asset without additional data"
+explanation: >-
+  When minting assets with tapcli, the --skip_batch flag instructs the daemon to process the minting request immediately instead of waiting to batch it with other pending minting requests. Without this flag, TAPD may hold the minting request to combine it with others into a single on-chain transaction for efficiency. Using --skip_batch is useful during testing or when you need immediate processing.
+reviewed: false

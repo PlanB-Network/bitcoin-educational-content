@@ -1,0 +1,9 @@
+question: "Why does the chapter distinguish between the replaceability of binaries and the irreplaceability of data directories during a TAPD update?"
+answer: "Because binaries can be re-downloaded or recompiled from source, but data directories contain unique wallet keys, channel state, and asset proofs that cannot be regenerated"
+wrong_answers:
+  - "Because binaries are open-source and publicly auditable, while data directories contain proprietary configuration that requires a license to restore"
+  - "Because binaries are cached by the operating system package manager, while data directories are encrypted with a one-time key derived at installation"
+  - "Because binaries are versioned in the Git repository, while data directories are stored in an append-only format that cannot be rolled back"
+explanation: >-
+  The chapter emphasizes that binaries (tapd, tapcli) are replaceable because they can always be re-downloaded or recompiled. However, data directories (.tapd, .lnd, .bitcoin) contain your wallet private keys, Lightning channel state, asset proofs, and blockchain data. These are unique to your node and cannot be regenerated. Deleting them means permanent loss of access to your assets and channels.
+reviewed: false

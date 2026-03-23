@@ -1,0 +1,12 @@
+question: How is the price oracle connected to a LitD node?
+answer: By adding the taproot-assets.experimental.rfq.priceoracleaddress directive in lit.conf, pointing to the oracle's address and port
+wrong_answers:
+  - By running tapcli oracle register with the oracle's public key and gRPC endpoint as command-line arguments
+  - By placing the oracle binary in the same directory as LitD so it is automatically discovered at startup
+  - By configuring a mutual TLS certificate exchange between the oracle and LitD using the lncli connect command
+explanation: >-
+  The chapter shows that connecting the oracle requires a single configuration line in lit.conf:
+  taproot-assets.experimental.rfq.priceoracleaddress=localhost:8095. For a remote oracle, localhost
+  is replaced with the server's IP address. This directive tells TAPD where to send RFQ price
+  queries when it needs to calculate exchange rates for cross-asset payments.
+reviewed: false

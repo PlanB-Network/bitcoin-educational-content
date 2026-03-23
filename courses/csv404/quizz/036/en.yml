@@ -1,0 +1,9 @@
+question: "What minimum Go version is required to install TAPD from source?"
+answer: "Go version 1.18 or greater"
+wrong_answers:
+  - "Go version 1.16 or greater"
+  - "Go version 1.21 or greater"
+  - "Go version 1.20 or greater"
+explanation: >-
+  Installing TAPD from source requires Go version 1.18 or greater. The installation process compiles the Go source code and places both binaries (tapd and tapcli) in your system's Go path. Before installing TAPD, you must also have a working LND node connected to a Bitcoin backend.
+reviewed: false

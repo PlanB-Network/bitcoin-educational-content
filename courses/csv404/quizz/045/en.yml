@@ -1,0 +1,12 @@
+question: Which of the following is one of the four roles that a universe serves in the Taproot Assets ecosystem?
+answer: It acts as a proof repository, storing and serving cryptographic proofs for asset operations
+wrong_answers:
+  - It functions as a mining pool that processes asset transactions and confirms them on-chain
+  - It operates as a custodial wallet that holds asset balances on behalf of its users
+  - It serves as a consensus engine that validates asset rules independently from Bitcoin consensus
+explanation: >-
+  A universe serves four simultaneous roles: virtual mempool (tracking pending
+  operations), explorer (browsing asset history), proof repository (storing and
+  serving cryptographic proofs), and transaction library (cataloguing completed
+  operations). It does not mine, custody assets, or run a separate consensus engine.
+reviewed: false

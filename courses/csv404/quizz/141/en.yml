@@ -1,0 +1,9 @@
+question: "What is the exact confirmation string required in the API burn payload to authorize asset destruction?"
+answer: "\"assets will be destroyed\""
+wrong_answers:
+  - "\"confirm burn operation\""
+  - "\"I acknowledge this action is irreversible\""
+  - "\"permanently delete assets\""
+explanation: >-
+  The API requires the exact string "assets will be destroyed" as the value of the `confirmation_str` field in the burn payload. This specific string serves as the programmatic equivalent of the CLI's interactive confirmation prompt. Without this exact string, the API rejects the burn request entirely, forcing developers to explicitly acknowledge the destructive nature of the operation.
+reviewed: false

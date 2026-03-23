@@ -1,0 +1,9 @@
+question: "What role do Universe services play in the Taproot Assets ecosystem?"
+answer: "They provide off-chain infrastructure for asset discovery and proof distribution, similar to block explorers but for Taproot Asset data"
+wrong_answers:
+  - "They serve as consensus validators that confirm Taproot Asset transactions before on-chain settlement"
+  - "They act as centralized custodians that store Taproot assets on behalf of users"
+  - "They manage the private keys required to sign Taproot Asset transfers between parties"
+explanation: >-
+  Universe services function as off-chain data stores for asset discovery and proof distribution, comparable to how Bitcoin block explorers work for blockchain data. They hold no protocol-level privileges and anyone can run one. By keeping detailed transaction histories off-chain while anchoring cryptographic commitments on-chain, the protocol achieves scalability without sacrificing security.
+reviewed: false

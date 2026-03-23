@@ -1,0 +1,13 @@
+question: How does TAPTweak commit asset data to the Bitcoin blockchain?
+answer: It adds the Merkle tree root hash to the Bitcoin script tree and embeds it in a Taproot address
+wrong_answers:
+  - It writes the full asset data directly into the witness field of the transaction
+  - It creates an OP_RETURN output containing a hash of the asset state
+  - It anchors the asset data to a separate sidechain block referenced in the transaction
+explanation: >-
+  TAPTweak takes the root hash of the collection of Merkle Sum Sparse Merkle
+  Trees, adds it to the Bitcoin script tree, and embeds it into a Bitcoin
+  address. The resulting on-chain transaction is indistinguishable from a
+  regular Taproot transaction, preserving privacy while cryptographically
+  committing the asset state.
+reviewed: false

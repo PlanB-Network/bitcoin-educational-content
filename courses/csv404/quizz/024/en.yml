@@ -1,0 +1,9 @@
+question: "What information does the root hash of a Merkle Sum Tree encode?"
+answer: "The total quantity of all assets contained in the entire tree structure"
+wrong_answers:
+  - "The number of individual leaves currently occupied in the tree"
+  - "The hash of the most recently added asset and its metadata"
+  - "The public key of the entity that originally created the tree"
+explanation: >-
+  In a Merkle Sum Tree, each leaf carries a numeric value representing an asset quantity, and every internal node holds the sum of all values in its subtree. Therefore, the root hash encodes the total of all assets in the entire structure. This summation property provides a powerful anti-inflation guarantee, as validators can confirm that no new units have been created out of thin air by checking the root sum.
+reviewed: false

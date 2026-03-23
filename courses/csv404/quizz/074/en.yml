@@ -1,0 +1,9 @@
+question: "How does LitD's systemd unit dependency differ from a standalone TAPD systemd configuration?"
+answer: "LitD depends on bitcoind only, since LND is bundled inside LitD"
+wrong_answers:
+  - "LitD depends on both bitcoind and lnd services, just like standalone TAPD"
+  - "LitD has no systemd dependencies because it manages all services internally"
+  - "LitD depends on lnd.service only, since Bitcoin Core is optional with Neutrino"
+explanation: >-
+  A standalone TAPD systemd unit depends on a separate LND service, but LitD bundles LND internally. Therefore, LitD's systemd unit only needs to declare a dependency on bitcoind.service. LitD still requires a Bitcoin backend, so the bitcoind dependency remains necessary for proper startup ordering.
+reviewed: false

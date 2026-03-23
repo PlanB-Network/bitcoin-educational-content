@@ -1,0 +1,9 @@
+question: "What safety mechanism does TAPD present before executing a burn from the CLI?"
+answer: "An interactive confirmation prompt warning about the permanent nature of the operation"
+wrong_answers:
+  - "A mandatory 24-hour cooling-off period before the burn transaction is broadcast"
+  - "An automatic backup of the asset proof file to a secondary storage location"
+  - "A multi-signature approval requiring at least two authorized keys to proceed"
+explanation: >-
+  TAPD presents an interactive confirmation prompt that explicitly warns the user about the permanent and irreversible nature of the burn operation. The user must actively confirm before the burn proceeds. This is a critical safety feature because once burned and confirmed on-chain, assets cannot be recovered.
+reviewed: false

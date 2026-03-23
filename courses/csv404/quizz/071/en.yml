@@ -1,0 +1,9 @@
+question: "Which three tools are required to build LitD from source?"
+answer: "Go, Node.js, and Yarn"
+wrong_answers:
+  - "Go, Python, and npm"
+  - "Rust, Node.js, and Yarn"
+  - "Go, Node.js, and Docker"
+explanation: >-
+  Building LitD from source requires Go, Node.js, and Yarn. All three must be installed before cloning the repository and running the compilation. The build process uses a single 'make install' command to compile LitD along with all bundled services.
+reviewed: false

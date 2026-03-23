@@ -1,0 +1,12 @@
+question: Which two approaches does the Stage 2 script offer for installing Bitcoin Core?
+answer: Compilation from source for maximum transparency, or binary download with signature verification for faster deployment
+wrong_answers:
+  - Installation via the system package manager, or downloading a pre-built Docker image from Docker Hub
+  - Cloning the Bitcoin Core GitHub repository via Git, or using a snap package from the Ubuntu store
+  - Downloading a precompiled static binary from bitcoincore.org, or building from a Nix flake definition
+explanation: >-
+  The chapter specifies exactly two installation methods for Bitcoin Core in Stage 2: compiling from
+  source (which provides maximum transparency into what is being installed) and downloading a
+  precompiled binary with cryptographic signature verification (which is faster). Both methods
+  ensure authenticity, but through different trade-offs of speed versus auditability.
+reviewed: false

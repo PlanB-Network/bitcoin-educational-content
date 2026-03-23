@@ -1,0 +1,9 @@
+question: "In the two-phase minting process via the API, what does Phase 1 accomplish?"
+answer: "It adds an asset definition to the current minting batch"
+wrong_answers:
+  - "It broadcasts the minting transaction to the Bitcoin network"
+  - "It generates the TLS certificate for secure minting"
+  - "It finalizes the batch and commits it to the blockchain"
+explanation: >-
+  Phase 1 sends a POST request to the /v1/taproot-assets/assets/mint endpoint with the asset definition (type, name, amount), which adds the asset to the pending batch. The batch is not yet committed to the blockchain at this stage. Phase 2, the finalize step, is what actually triggers the on-chain transaction.
+reviewed: false

@@ -1,0 +1,13 @@
+question: What is the relationship between TAPD and private key management?
+answer: TAPD never touches private keys directly; it delegates all signing to LND, which itself relies on Bitcoin Core for on-chain data
+wrong_answers:
+  - TAPD generates and stores its own private keys independently from both LND and Bitcoin Core
+  - TAPD imports private keys from Bitcoin Core and uses them directly for signing asset transactions
+  - TAPD shares a unified keystore with LND so that both daemons can sign transactions interchangeably
+explanation: >-
+  TAPD operates on top of the LND and Bitcoin Core stack without ever handling
+  private keys directly. All signing operations are delegated to LND, which
+  manages its own key material. LND in turn relies on Bitcoin Core for on-chain
+  data. This separation of concerns ensures that TAPD does not introduce
+  additional key management attack surface.
+reviewed: false

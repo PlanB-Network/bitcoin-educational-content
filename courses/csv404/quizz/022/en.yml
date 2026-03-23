@@ -1,0 +1,9 @@
+question: "Which two problems does the sparse component of the MS-SMT solve?"
+answer: "Proving ownership through inclusion proofs and proving transfer completion through exclusion proofs"
+wrong_answers:
+  - "Preventing double-spending through locktime enforcement and validating asset metadata through hash verification"
+  - "Ensuring transaction finality through confirmation depth and verifying asset supply through root summation"
+  - "Authenticating the issuer through digital signatures and encrypting asset data through symmetric key derivation"
+explanation: >-
+  The sparse component solves problems one (ownership) and three (transfer) from the chapter's framework. Ownership is proven via a Merkle inclusion proof following the path defined by the Asset ID. Transfer completion is proven via an exclusion proof, showing that the asset data at the original leaf position is now empty. The deterministic placement of data in the tree makes both proof types efficient.
+reviewed: false

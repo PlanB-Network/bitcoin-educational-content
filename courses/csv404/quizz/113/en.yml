@@ -1,0 +1,9 @@
+question: "How does a Taproot Asset transfer differ from a standard Bitcoin payment in terms of ownership recording?"
+answer: "The on-chain transaction commits to an updated Merkle root, while detailed asset data is managed off-chain through proof files"
+wrong_answers:
+  - "The on-chain transaction records the full asset metadata in the OP_RETURN field of the transaction"
+  - "Both the sender and receiver must co-sign a multisig transaction that records ownership directly on-chain"
+  - "A sidechain records the asset transfer while the main chain only stores a hash of the sidechain block"
+explanation: >-
+  Unlike standard Bitcoin payments where the blockchain records ownership changes directly, Taproot Asset transfers commit to an updated Merkle root on-chain that reflects the new ownership structure. The detailed asset data, including the chain of custody, is managed off-chain through cryptographic proof files exchanged between sender and receiver.
+reviewed: false

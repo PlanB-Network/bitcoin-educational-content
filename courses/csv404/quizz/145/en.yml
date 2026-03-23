@@ -1,0 +1,9 @@
+question: "What is the API endpoint path used to query current asset holdings before and after a burn operation?"
+answer: "/v1/taproot-assets/assets using a GET request"
+wrong_answers:
+  - "/v1/taproot-assets/balance using a GET request"
+  - "/v1/taproot-assets/inventory using a POST request"
+  - "/v1/taproot-assets/wallet/assets using a GET request"
+explanation: >-
+  The pre-burn and post-burn inventory checks both use a GET request to `/v1/taproot-assets/assets`. This is the same endpoint used throughout the Taproot Assets API for listing assets. After the burn operation and on-chain confirmation, querying this endpoint again confirms the reduced balance.
+reviewed: false

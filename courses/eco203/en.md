@@ -551,11 +551,11 @@ However, as Bastiat reminds us, monopoly excludes progress.
 
 :::video id=4ef9f07f-aeb1-4626-b9ee-91060fd75803:::
 
-![image](assets/en/055.webp)
-
 ### Protectionism as economic nationalism
 
 As we have already seen, it was first and foremost Cobden's fight against protectionism, with the English League for the Abolition of the Corn Laws, that led Bastiat to write articles and then books.
+
+![image](assets/en/055.webp)
 
 **Protectionism is, in reality, a form of economic nationalism.** It aims to eliminate foreign competition while pretending to "defend national interests." They then try to get the public authorities to accept a set of purely demagogic untruths, presented as virtuous: the defense of jobs, competitiveness, etc. Of course, elected officials yield to the pressure of producers because it is a golden opportunity for them to consolidate their clientele and expand their power.
 

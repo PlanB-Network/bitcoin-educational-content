@@ -1,0 +1,15 @@
+question: "A business owner accumulates 0.3867 BTC through three separate payments totaling 10,000 euros and later sells 50% at 40,000 euros per BTC. Using the weighted average cost method, what is the realized gain on the sale?"
+answer: "2,735 euros"
+wrong_answers:
+  - "5,468 euros"
+  - "7,734 euros"
+  - "5,000 euros"
+explanation: >-
+  The weighted average cost per BTC is 10,000 euros divided by 0.3867 BTC,
+  which equals approximately 25,860 euros per BTC. Selling 50% (0.19335 BTC)
+  at 40,000 euros per BTC yields 7,734 euros in proceeds. The cost basis for
+  the sold portion is 0.19335 BTC multiplied by 25,860 euros, which equals
+  approximately 4,999 euros. The realized gain is 7,734 minus 4,999, which
+  equals 2,735 euros. The 5,468-euro figure is the total unrealized gain on
+  all holdings before the sale, not the realized gain on the sold portion.
+reviewed: false

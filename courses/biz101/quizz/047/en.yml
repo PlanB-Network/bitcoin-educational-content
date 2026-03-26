@@ -1,9 +1,13 @@
-question: Why is scarcity an essential property of a good currency?
-answer: It preserves value
+question: "What is the main problem with a barter economy that currency solves?"
+answer: "It requires a double coincidence of wants, meaning both parties must desire what the other offers at the same time"
 wrong_answers:
-  - It guarantees that only physical assets can be used as currency
-  - It ensures that the currency is widely available to every individual
-  - It ensures that the currency must always be backed by a commodity like gold
-explanation: |
-  Scarcity prevents the excessive creation of currency, thereby maintaining its value and purchasing power over time.
-reviewed: true
+  - "It makes transactions too fast for proper record-keeping"
+  - "It forces governments to regulate every exchange individually"
+  - "It only works for physical goods and cannot handle services"
+explanation: >-
+  In a barter system, trade can only happen when two people each want what
+  the other has at the exact same moment. Currency eliminates this constraint
+  by acting as a universal intermediary: a farmer can sell wheat for currency
+  and later use that currency to buy shoes, without needing to find a
+  shoemaker who specifically wants wheat.
+reviewed: false

@@ -1,5 +1,5 @@
 question: What advantage does Lightning offer merchants regarding payment finality?
-answer: Payments on Lightning finalize almost instantly, reducing the risk of reversals or fraud.
+answer: Payments on Lightning finalize almost instantly, with no possibility of chargebacks or reversals.
 wrong_answers:
   - It requires 24 hours of waiting before funds are spendable.
   - It allows customers to reclaim their payment at any time.

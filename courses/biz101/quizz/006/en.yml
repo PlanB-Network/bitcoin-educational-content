@@ -3,7 +3,7 @@ answer: It creates a deflationary asset, protecting its value against arbitrary 
 wrong_answers:
   - It ensures that governments can print as many bitcoins as needed.
   - It prevents anyone from sending transactions after the cap is reached.
-  - It eliminates all volatility in Bitcoin’s price.
+  - It guarantees that Bitcoin’s price will rise every year.
 explanation: |
   With a maximum supply of 21 million, Bitcoin’s scarcity is hard-coded, making it fundamentally different from inflationary currencies, where supply can be increased at will.
 reviewed: true

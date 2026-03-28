@@ -13,54 +13,54 @@ Muri iki cirwa, tuzasuzuma ibintu vy'ingenzi vy'uburyo bw'inyuma bwo gushira iba
 
 Ibikubiye mu gisomo byateguwe abiga ku rwego rwose kandi biringaniza ubwenge hamwe n'ubujyakuzimu buhagije bwo guhaza amatsiko. Teganya urugendo rwibanze kandi rushimishije. Igihe kirangiye, uzumva uburyo n'impamvu uburyo bw'inyuma bwo gushira ibanga bukora n'uko ubukoresha mu buryo bwizewe.
 +++
-# Imenyekanisha
+# Intangamarara
 
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
 
 
-## Incamake y'amashure
+## Imbono y'icirwa
 
 <chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
 
 Murakaze mu nyigisho ya CYP302!
 
 
-Iki gitabu kiratanga intangamarara yimbitse ku buhinga n’imigenzo y’ubuhinga bwo gukingira amakuru. Aho bishoboka ryibanda ku vyiyumviro, aho kwibanda ku gusobanura ibintu mu buryo bubereye.
+Iki gitabu kiratanga intangamarara yimbitse ku buhinga n’imigenzo y’ubuhinga bwo gukingira amakuru"cryptographie". Muntumbero y'ibishoboka, aho kwibanda ku gusobanura ibintu mu buryo bubereye.
 
 
-Ivyo birimwo inyigisho vyakuwe mu gitabu no mu gitabu c’ububiko [JWBurgers](https://github.com/JWBurgers/Intangamarara_y’Ivy’Ivy’Imibano). Naho umwanditsi yayo yemeye ku buntu ko ikoreshwa mu vy’inyigisho, uburenganzira bwose bw’ubwenge buraguma ku muremyi w’intango.
+Ivyo birimwo inyigisho vyakuwe mu gitabu no mu gitabu c’ububiko [JWBurgers](https://github.com/JWBurgers/Intangamarara_y’Ivy’Ivy’Imibano). Naho umwanditsi yayo yemeye ikoreshwa ry'inyigisho ziwe kubuntu, uburenganzira bwose bw’ubwenge buguma kuri nyene igikorwa.
 
 
 **Iciyumviro n'intumbero**
 
 
-Biragoye kuronka ibikoresho vyinshi bitanga ikibanza ciza co hagati mu nyigisho y’ubuhinga bwo gukingira amakuru.
+Biragoye kuronka ibikoresho vyinshi bitanga ikibanza ciza co hagati mu nyigisho y’ubuhinga bwo gukingira amakuru "cryptographie".
 
 
-Ku ruhande rumwe, hariho ibitabu birebire kandi bimenyerewe, mu vy’ukuri bishobora gushikirwa gusa n’abafise ubumenyi bukomeye mu vy’imibare, mu vy’ubwenge canke mu yindi nyigisho izwi. Ku rundi ruhande, hariho intangamarara zo ku rugero rwo hejuru cane zihisha vy’ukuri ibintu vyinshi cane ku muntu wese afise n’imiburiburi ugushaka kumenya.
+Ku ruhande rumwe, hariho ibitabu birebire kandi bimenyerewe, mu vy’ukuri bishobora gushikirwa gusa n’abafise ubumenyi bukomeye mu vy’ibiharuro, mu vy’ubwenge canke mu yindi nyigisho izwi. Ku rundi ruhande, hariho intangamarara zo ku rugero rwo hejuru cane zihisha vy’ukuri ibintu vyinshi cane ku muntu wese afise n’imiburiburi ugushaka kumenya.
 
 
 Iyi ntangamarara y’ubuhinga bwo gukingira amakuru irondera gufata ahantu hagati. Naho vyoba bigoye kandi bifise ido n’ido ku muntu wese mushasha mu vy’ubuhinga bwo gupfuka amakuru, si co kinogo c’inkwavu c’igitabu c’ishimikiro gisanzwe.
 
 
 
-**Abateze amatwi**
+**Abo bigenewe**
 
 
-Kuva ku bahinga gushika ku bashaka kumenya vyinshi, iki gitabu ni ngirakamaro ku muntu wese yipfuza ibirenze ugutahura kw’imbere kw’ivy’ubuhinga bwo gukingira amakuru. Nimba intumbero yawe ari ukumenya neza ivy’ubuhinga bwo gukingira amakuru, rero iki gitabu na co nyene ni intango nziza.
+Kuva ku bahinga"développeurs" gushika ku bashaka kumenya vyinshi, iki gitabu ni ngirakamaro ku muntu wese yipfuza ibirenze ugutahura bitimbitse kw’ivy’ubuhinga bwo gukingira amakuru. Nimba intumbero yawe ari ukumenya neza ivy’ubuhinga bwo gukingira amakuru, rero iki gitabu na co nyene ni intango nziza.
 
 
 
 **Ingingo ngenderwako zo gusoma**
 
 
-Ubu ico gitabu kirimwo ibice indwi: "Cryptography ni iki?" (Igice ca 1), "Ishingiro ry'Imibare ry'Ivy'Imibare I" (Igice ca 2), "Ishingiro ry'Imibare ry'Imibare II" (Igice ca 3), "Imibare y'Imibare" (Igice ca 4), "RC4 na AES" (Igice ca 5), ​​"Imibare y'Imibare" (Igice ca 6), "Imibare y'Imibare" (Igice ca 6). Ikigabane ca nyuma, "Ivy'ugushiramwo amakuru mu bikorwa", kizoguma congereweko. Ishimikiye cane ku bikorwa bitandukanye vy’ubuhinga bwa none, harimwo umutekano wo gutwara Layer, inzira y’ibitunguru, n’agaciro ka Bitcoin Exchange.
+Ubu ico gitabu kirimwo ibice indwi: "Cryptography ni iki?" (Igice ca 1), "Ishingiro ry'Imibare ry'ugukingira amakuru I" (Igice ca 2), "Ishingiro ry'Imibare ry'ugukingira amakuru II" (Igice ca 3), "Ishingiro ry'Imibare ry'ugukingira amakuru" (Igice ca 4), "Cryptographie symétrique"(igice ca kabiri), RC4 na AES" (Igice ca 6), ​​"Cryptographie symétrique" (Igice ca 7), "Cryptographie symétrique RSA" (Igice ca 6). Igice ca nyuma, "gushira mubikorwa ikingirwa ry'amakuru", kizoguma congereweko. Ishimikiye cane ku bikorwa bitandukanye vy’ubuhinga bwa none, harimwo umutekano wo gutwara Layer, inzira y’ibitunguru, n’agaciro ka Bitcoin mw'ihanahamwa ry'ayo.
 
 
-Keretse iyo ufise ubumenyi bukomeye mu vy’imibare, birashoboka ko inyigisho y’imibare ari yo nsiguro igoye kuruta izindi zose muri iki gitabu. Ndatanga icegeranyo cavyo mu kigabane ca 3, kandi biraboneka no mu gusobanura AES mu kigabane ca 5 na RSA cryptosystem mu kigabane ca 7.
+Keretse iyo ufise ubumenyi bukomeye mu vy’ibiharuro, birashoboka ko inyigisho y’ibiharuro  ari yo nsiguro igoye kuruta izindi zose muri iki gitabu. Ndatanga icegeranyo cavyo mu igice ca 3, kandi biraboneka no mu gusobanura AES mu igice ca 5 na systeme chiffrement ya RSA mu kigabane ca 7.
 
 
-Nimba vy’ukuri uriko urashikirwa n’ingorane z’ibintu vy’ido n’ido biri muri ivyo bice vy’igitabu, ndagusavye ko wovyishimira ku rugero rwo hejuru igihe uzoba uriko urabisoma ubwa mbere.
+Nimba vy’ukuri uriko urashikirwa n’ingorane z’ibintu vy’ido n’ido biri muri ivyo bice vy’igitabu, ndabahanuye gusoma kurugero rwo hejuru igihe uzoba uriko urabisoma ubwa mbere.
 
 
 
@@ -93,7 +93,7 @@ Turagusavye urabe [dosiye y'intererano iri mu bubiko](https://github.com/JWBurge
 **Amajambo nyamukuru:**
 
 
-Amajambo nyamukuru ari mu bitabu vy’intango aratanguzwa mu kuyagira amajambo ateye ubwoba. Nk’akarorero, ugushiraho ijambo ry’ibanga rya Rijndael nk’ijambo ry’ingenzi vyosa n’ibi bikurikira: **Ijambo ry’ibanga rya Rijndael**.
+Amajambo nyamukuru ari mu bitabu vy’intango yerekamwa n'indome nkuru. Nk’akarorero, ugushiraho "chiffrement" ya Rijndael nk’ijambo ry’ingenzi vyosa n’ibi bikurikira: **Chiffrement Rijndael**.
 
 
 Amajambo nyamukuru arasobanurwa neza, kiretse iyo ari amazina bwite canke insobanuro yayo igaragara mu kiganiro.
@@ -106,23 +106,23 @@ Insobanuro iyo ari yo yose akenshi itangwa iyo umuntu ashizeho ijambo ry’ingen
 **Amajambo n'amajambo ashimikiyeko:**
 
 
-Amajambo n’imirongo birashimikwako biciye ku nyuguti zisongoye. Nk'akarorero, ijambo "Ibuka ijambobanga ryawe" ryoba risa n'iri: *Ibuka ijambobanga ryawe*.
+Amajambo n’imirongo birashimikwako biciye mu ndome zisongoye "forme italique". Nk'akarorero, ijambo "Ibuka ijambobanga ryawe" ryoba risa n'iri: *Ibuka ijambobanga ryawe*.
 
 
 
-**Inyandiko isanzwe:**
+**Inyandiko ijanye n'amategeko:**
 
 
-Ivyanditswe bimenyerewe ahanini vyerekeye ibihinduka, ibihinduka bitari vyo, n'imigwi.
+Inyandiko nyakuri yerekeye ahaninin ibihinduka"variable", ibihinduka ugutandukanye"variable aléatoires", n'imigwi "ensemble".
 
 
 
-- Ibihinduka: Ivyo akenshi vyerekanywe n'urudome ruto (nk'akarorero, "x" canke "y"). Rimwe na rimwe zicandikwa n'inyuguti nini kugira ngo zisobanuke neza (nk'akarorero, "M" canke "K").
-- Ibihinduka bitari vyo: Ivyo vyama vyerekanywe n'inyuguti nini (nk'akarorero, "X" canke "Y")
-- Ivyiyumviro: Ivyo vyama vyerekanywe n'inyuguti zikomeye, zikomeye (nk'akarorero, **S**)
+- Ibihinduka "variable": Ivyo akenshi vyerekanywe n'urudome ruto (nk'akarorero, "x" canke "y"). Rimwe na rimwe zicandikwa n'indome nkuru kugira ngo zisobanuke neza (nk'akarorero, "M" canke "K").
+- Ibihinduka ugutandukanye"variable aléatoires": Ivyo vyama vyerekanywe n'indome nkuru (nk'akarorero, "X" canke "Y")
+- Ivyiyumviro: Ivyo vyama vyerekanywe n'indome nkuru zisibuye cane (nk'akarorero, **S**)
 
 
-Ni mwiteguye gutohoza isi iryoshe cane y’ubuhinga bwo gukingira amakuru? Reka tugende!
+Muriteguye kumenya isi y'agatangaza y'ikingira ry'amakuru ? Reka tugende!
 
 
 # Ivy’ugushiramwo amakuru ni iki?

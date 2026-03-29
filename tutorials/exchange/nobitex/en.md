@@ -1,352 +1,392 @@
 ---
 name: Nobitex
-description: Buy and sell Bitcoin on Nobitex
+description: How to buy Bitcoin in Iran using Nobitex, and why you should move toward P2P alternatives
 ---
+
 ![cover](assets/cover.webp)
 
-Nobitex is one of the well-known exchanges in Iran, established in 2017, to allow digital currency transactions. Nobitex exchange is essentially an online platform that provides buying and selling, staking, yield farming, and commitment sales services to its customers.
+Nobitex is the largest cryptocurrency exchange in Iran, established in 2017. It handles the majority of crypto transactions in the country and supports Bitcoin, Lightning Network, and various other cryptocurrencies. It is essentially an online platform that provides buying and selling, staking, and other trading services.
 
-**Attention**: be cautious when keeping your capital on this exchange. The Nobitex website, as one of the largest domestic exchanges, was attacked by a hacker group called "Predatory Sparrow" on June 18, 2025. During this attack, Nobitex exchange lost $50 million of its assets in the initial hours.
+This tutorial will walk you through using Nobitex step by step, then explain the real risks you should know about, and finally introduce peer-to-peer alternatives that give you more sovereignty over your Bitcoin.
 
-This guide is based on the official Nobitex website guide, which you can view [here](https://nobitex.ir/help).
+> **Important**: Nobitex is a centralized exchange. As with any centralized platform, you should never store your Bitcoin there longer than necessary. Always withdraw to your own wallet. The risks section below explains why this is especially critical for Nobitex.
 
 ## 1 - Creating a Nobitex Account
 
 Go to the official [Nobitex](https://nobitex.ir/) website.
 
-**Note**: unfortunately the website has a weak support for the English language, you may experience some challenge while browsing it.
+**Note**: the website has limited English language support. You may experience some challenges while browsing it.
 
-![cover](assets/en/1.webp)
+![Nobitex homepage](assets/en/1.webp)
 
-You can choose to create an account on Nobitex using either your mobile number or Google account.
+You can create an account using either your mobile number or Google account.
 
-**Note**: after logging in with Google, you must also register your mobile number.
-
-Please note that currently, only individuals over 18 years old can register on Nobitex, and unfortunately, registration for foreign nationals is not possible.
+**Note**: after registering with Google, you must also register your mobile number. Currently, only individuals over 18 years old with an Iranian national ID can register on Nobitex.
 
 ### Method One: Google
 
 1. On the first page of the app or website, click on the registration option.
 
-![cover](assets/fa/Singup_how-do-i-open-an-account-with-google_Web_01.webp)
+![Registration page](assets/fa/Singup_how-do-i-open-an-account-with-google_Web_01.webp)
 
 2. Check the box to accept the terms and conditions.
 3. Click on quick registration with Google.
 
-![cover](assets/fa/Singup_how-do-i-open-an-account-with-google_Web_02.webp)
+![Google registration](assets/fa/Singup_how-do-i-open-an-account-with-google_Web_02.webp)
 
-4. On the page that opens, select or enter your desired email and in the next step, click the continue option.
+4. Select or enter your desired email and click continue.
 
-![cover](assets/fa/Singup_how-do-i-open-an-account-with-google_Main_01F.webp)
+![Google account selection](assets/fa/Singup_how-do-i-open-an-account-with-google_Main_01F.webp)
 
 From now on, you can log into Nobitex with your email address. Note that after registration, you must also register your mobile number.
 
-To use all of Nobitex's features and avoid user level restrictions, it's better if the mobile number belongs to the owner of the national ID registered on the Nobitex account.
+To use all of Nobitex's features and avoid user level restrictions, the mobile number should belong to the owner of the national ID registered on the account.
 
 ### Method Two: Mobile Number
 
 1. On the main page of the Nobitex website or app, click on the registration option.
 
-![cover](assets/fa/Singup_how-do-i-open-an-account-with-Phone-number_Web_01.webp)
+![Mobile registration](assets/fa/Singup_how-do-i-open-an-account-with-Phone-number_Web_01.webp)
 
-2. Enter a mobile number, preferably registered in your own name, in the "mobile number" section.
-3. Choose a strong password for your account and enter it in the "create password" section.
-4. Check the terms and conditions box and click the "register" button.
-5. In the "security captcha" section, answer the question presented.
+2. Enter a mobile number, preferably registered in your own name.
+3. Choose a strong password for your account.
+4. Check the terms and conditions box and click "register."
+5. Answer the security captcha question.
 
-![cover](assets/fa/Singup_how-do-i-open-an-account-with-Phone-number_Web_02.webp)
+![Mobile registration form](assets/fa/Singup_how-do-i-open-an-account-with-Phone-number_Web_02.webp)
 
-### Two-Factor Authentication Code
+### Enabling Two-Factor Authentication
 
-To enable two-factor authentication, you need an authentication app like Google Authenticator. To enable it in the Nobitex app, select "Menu" from the bottom of the page, then select Security. While on the website, you can also select the "Security" option from the right sidebar. You can also go to "My Profile" through the profile menu on the Nobitex website, then select more items from this section.
+To enable two-factor authentication, you need an authentication app like Google Authenticator. In the Nobitex app, select "Menu" from the bottom of the page, then select Security. On the website, select "Security" from the right sidebar.
 
-![cover](assets/fa/2FA_how-to-enable-two-factor-authentication_Web_01.webp)
+![Security settings](assets/fa/2FA_how-to-enable-two-factor-authentication_Web_01.webp)
 
-1. In the Nobitex app, on the opened page, select the "Two-Factor Authentication" option. On the website, it's enough to click on the "Enable" option on this page.
+1. Select the "Two-Factor Authentication" option. On the website, click on "Enable."
 
-![cover](assets/fa/2FA_how-to-enable-two-factor-authentication_Web_02.webp)
+![Enable 2FA](assets/fa/2FA_how-to-enable-two-factor-authentication_Web_02.webp)
 
-2. On the next page, you'll see explanations about two-factor authentication. The download link for the Google Authenticator app is provided on this page. Click the start button.
+2. Read the explanation about two-factor authentication. Click the start button.
 
-![cover](assets/fa/2FA_how-to-enable-two-factor-authentication_Web_03.webp)
+![2FA explanation](assets/fa/2FA_how-to-enable-two-factor-authentication_Web_03.webp)
 
-3. At this stage, you're asked to install the Google Authenticator app before continuing the process. If you haven't installed it yet, you can do so through the displayed links. If you've already installed it, click the "I've installed it" button.
+3. Install the Google Authenticator app if you haven't already, then click "I've installed it."
 
-![cover](assets/fa/2FA_how-to-enable-two-factor-authentication_Web_04.webp)
+![Install authenticator](assets/fa/2FA_how-to-enable-two-factor-authentication_Web_04.webp)
 
-4. To verify your mobile number, we'll send you a six-digit code via SMS. Enter it in the designated section and click the confirm button. If you don't receive the SMS, you can request it again after 2 minutes.
+4. Enter the six-digit SMS verification code sent to your mobile number.
 
-![cover](assets/fa/2FA_how-to-enable-two-factor-authentication_Web_05.webp)
+![SMS verification](assets/fa/2FA_how-to-enable-two-factor-authentication_Web_05.webp)
 
-5. At this stage, which automatically displays its guide as well, you need to write down or copy the "activation code".
+5. Write down or copy the "activation code" displayed on screen.
 
-![cover](assets/fa/2FA_how-to-enable-two-factor-authentication_Web_06.webp)
+![Activation code](assets/fa/2FA_how-to-enable-two-factor-authentication_Web_06.webp)
 
-6. Open the Google Authenticator app and click the "Add a code" button, or click the + button at the bottom of the page and select the "Enter a setup key" option.
-7. Enter your desired name in the Account name section. For example, you can write Nobitex.
-8. Enter the code you copied or wrote down from Nobitex in the Your Key section.
-9. Click the Add button.
+6. Open Google Authenticator and click "Add a code" or the + button, then select "Enter a setup key."
+7. Enter a name (e.g., "Nobitex") in the Account name field.
+8. Paste the activation code in the Your Key field.
+9. Click Add.
 
-![cover](assets/fa/2FA_how-to-enable-two-factor-authentication_Main_01.webp)
+![Add code step 1](assets/fa/2FA_how-to-enable-two-factor-authentication_Main_01.webp)
 
-![cover](assets/fa/2FA_how-to-enable-two-factor-authentication_Main_02.webp)
+![Add code step 2](assets/fa/2FA_how-to-enable-two-factor-authentication_Main_02.webp)
 
-![cover](assets/fa/2FA_how-to-enable-two-factor-authentication_Main_03.webp)
+![Add code step 3](assets/fa/2FA_how-to-enable-two-factor-authentication_Main_03.webp)
 
-10. You'll be automatically taken to the main Google Authenticator page. On this page, a 6-digit code is displayed below the name you selected in step 8. Copy or write down this code.
+10. On the main Google Authenticator page, copy the 6-digit code displayed under the name you entered.
 
-![cover](assets/fa/2FA_how-to-enable-two-factor-authentication_Main_04.webp)
+![Copy code](assets/fa/2FA_how-to-enable-two-factor-authentication_Main_04.webp)
 
-11. Enter the code you wrote down or copied in the "Two-Factor Authentication" section in Nobitex and click the enable button.
+11. Enter this code in the "Two-Factor Authentication" section in Nobitex and click enable.
 
-![cover](assets/fa/2FA_how-to-enable-two-factor-authentication_Web_07.webp)
+![Enter code in Nobitex](assets/fa/2FA_how-to-enable-two-factor-authentication_Web_07.webp)
 
-12. If you've entered your code correctly, you'll see the message below. Be sure to save the recovery code somewhere safe other than your mobile device.
+12. Save the recovery code somewhere safe, separate from your mobile device.
 
-![cover](assets/fa/2FA_how-to-enable-two-factor-authentication_Web_08F.webp)
+![2FA enabled](assets/fa/2FA_how-to-enable-two-factor-authentication_Web_08F.webp)
 
 ## 2 - Account Verification
 
-On Nobitex, there are 3 user levels with their specific features and permissions that you can use according to your needs. To upgrade to each level, you need to complete certain steps, including identity verification.
+On Nobitex, there are 3 user levels with different features and permissions. To upgrade each level, you need to complete identity verification steps.
 
-The reason for requiring identity verification is the country's cryptocurrency regulations and to prevent misuse of your identity. The higher your user level, the more features you can use.
+For identity verification on the website, click "Identity Verification" at the top of the dashboard. In the app, go to the identity verification section from the main page or the menu.
 
-For identity verification on the website, you can click on the "Identity Verification" option at the top of the dashboard page. In the app, simply go to the identity verification section from the main page or from the menu option in the bottom navigation bar.
+### User Level Overview
 
-### Features and Requirements of User Levels
+| User Level | Requirements | Features |
+| :--- | :--- | :--- |
+| Level 1 (beginners) | Mobile number + national ID | Trade and deposit crypto, deposit up to 25M Tomans/day, withdraw up to 50M Tomans/day |
+| Level 2 (advanced) | Address + image ID verification | All Level 1 features + withdraw up to 300M Tomans/day |
+| Level 3 (professional) | 2+ months at Level 2, 1B+ trading volume in 30 days | Unlimited trading and deposits, up to 1B Tomans/day withdrawals |
 
-Each user level has its requirements and in return offers more features. You can see the requirements and features of each level in the tables below, go to the article dedicated to that level, and take action to upgrade your user level accordingly.
+### Level One Verification
 
-| Features | Requirements | User Level |
-| :--------- | :--------- | :--------- |
-| Trade and deposit cryptocurrency <br>Deposit up to 25 million Tomans per day <br>Deposits over 25 million with "tagged deposit" <br>Withdraw up to 50 million Tomans per day <br>Withdraw cryptocurrency up to 1 million Tomans per day (if mobile number and national ID match) | Register mobile number (preferably matching national ID)<br>Register national ID and identity information | Level One<br>Suitable for beginners<br>Verification time: maximum up to 48 business hours |
-| All Level 1 features plus:<br>Withdraw up to 300 million Tomans per day<br>Withdraw cryptocurrency up to 200 million Tomans per day | Register address<br>Image identity verification | Level Two<br>Suitable for more advanced users<br>Verification time: between 8 hours to 2 business days |
-| Unlimited trading in cryptocurrency and Rial markets<br>Unlimited cryptocurrency deposit<br>Daily instant deposit up to 25 million Tomans + tagged deposit<br>Toman withdrawal equivalent to 1 billion Tomans every 24 hours<br>Cryptocurrency withdrawal up to 1 billion Tomans every 24 hours | Mobile number registered in the user's name<br>At least 2 months passed since level 2 user status<br>Trading volume of at least one billion in the past 30 days | Level Three<br>Suitable for professional traders<br>Verification time: Instant |
+1. On the identity verification page, select "Upgrade to Level 1."
 
-### Level One Identity Verification
+![Level 1 upgrade](assets/fa/Singup_how-to-complete-level-1-verification_Web_01.webp)
 
-The first step in level 1 verification is registering your mobile number (preferably a mobile number belonging to the national ID with which you have a Nobitex account) and then registering your national ID and identity information.
+2. Enter your mobile number and click "Send one-time code."
 
-1. On the identity verification page, select the "Upgrade to Level 1" option.
+![Enter mobile](assets/fa/Singup_how-to-complete-level-1-verification_Web_02.webp)
 
-![cover](assets/fa/Singup_how-to-complete-level-1-verification_Web_01.webp)
+3. Enter the SMS code and click confirm.
 
-2. On the next page, enter the mobile number (preferably belonging to the owner of the national ID you'll enter in the next steps) and click the "Send one-time code" button.
+![SMS code](assets/fa/Singup_how-to-complete-level-1-verification_Web_03.webp)
 
-![cover](assets/fa/Singup_how-to-complete-level-1-verification_Web_02.webp)
+4. Enter the requested identity information and click confirm.
 
-3. Enter the code we send you via SMS and click the confirm button.
+![Identity info](assets/fa/Singup_how-to-complete-level-1-verification_Web_04F.webp)
 
-![cover](assets/fa/Singup_how-to-complete-level-1-verification_Web_03.webp)
-
-4. On the next page, enter the requested identity information and finally click the confirm button.
-
-![cover](assets/fa/Singup_how-to-complete-level-1-verification_Web_04F.webp)
-
-> This level is sufficient for initial use. For higher levels, select level 2 from the same previous path and continue the steps.
+> Level 1 is sufficient for initial use. For higher levels, select Level 2 from the same path.
 
 ## 3 - Depositing and Withdrawing Toman (Fiat)
 
 ### How to Deposit
 
-There are four main methods for depositing Toman to Nobitex and charging your wallet:
-1. Tagged deposit
-2. direct deposit
-3. account-to-account deposit
-4. card-to-card deposit
+There are four methods for depositing Toman:
 
-You can choose any of them based on your needs.
-
-| Fee | Daily deposit limit | Deposit method |
-| :-- | :-- | :-- |
-| 0.01% of deposit amount | According to your bank's transfer limit | Tagged |
-| 0.02% of deposit amount | According to each bank's limit, from 3 to 15 million Tomans | Direct |
-| 0.01% of deposit amount | According to your bank's transfer limit | Account to account |
-| 0.01% of deposit amount | 10 million Tomans per source card | Card to card |
-
-Below, the card-to-card and tagged deposit methods are explained. For more information about other methods, refer [here](https://nobitex.ir/help/discover/toman-deposit/deposit-methods-toman-nobitex/).
+| Deposit method | Fee | Daily limit |
+| :--- | :--- | :--- |
+| Tagged | 0.01% | According to your bank's transfer limit |
+| Direct | 0.02% | 3 to 15 million Tomans (varies by bank) |
+| Account to account | 0.01% | According to your bank's transfer limit |
+| Card to card | 0.01% | 10 million Tomans per source card |
 
 ### Card to Card
 
-To make a card-to-card deposit, you need to receive a card number from Nobitex and make your deposit using mobile banking or ATM through the "card to card" transfer method.
+In the Nobitex app, click the "Deposit" button on the dashboard. On the website, select "Deposit" from the right sidebar.
 
-In the Nobitex app, the quickest way to go to the card-to-card section is to click the "Deposit" button on the dashboard or main page. On the Nobitex website, you can also select the "Deposit" option from the right sidebar in the desktop version and from the menu at the top of the page in the mobile version.
+![Deposit page](assets/fa/TMN-Dep-Wth_card-to-card_Web_01.webp)
 
-![cover](assets/fa/TMN-Dep-Wth_card-to-card_Web_01.webp)
+1. Select the card-to-card deposit option.
 
-1- In the Nobitex app, after clicking the deposit button on the main page, select the card-to-card deposit option. On the Nobitex website, simply go to the deposit page and select the "Card to Card" option from the right column.
+![Card to card option](assets/fa/TMN-Dep-Wth_card-to-card_Web_02.webp)
 
-![cover](assets/fa/TMN-Dep-Wth_card-to-card_Web_02.webp)
+2. Select the card number of a previously registered account, or add a new IBAN.
 
-2- Select the card number of the account you want to use for the deposit. The account you use for card-to-card deposit needs to be previously registered on Nobitex. You can also add a new IBAN from this section.
+![Select card](assets/fa/TMN-Dep-Wth_card-to-card_Web_03.webp)
 
-![cover](assets/fa/TMN-Dep-Wth_card-to-card_Web_03.webp)
+3. The destination card information will be displayed. Use this information to make your transfer through mobile banking or ATM (limit: 10 million Tomans per day).
 
-3- After selecting the card number of the account you want to use for the deposit, the destination card information will be displayed.
-
-Using this information, you can make your transfer through mobile banking or ATM up to the daily card-to-card transfer limit of "10 million Tomans."
-
-![cover](assets/fa/TMN-Dep-Wth_card-to-card_Web_04.webp)
+![Destination card info](assets/fa/TMN-Dep-Wth_card-to-card_Web_04.webp)
 
 ### Tagged Deposit
 
-To make a tagged deposit, you need to receive an IBAN number and deposit identifier from Nobitex, and make your deposit using mobile banking or visiting bank branches through Paya or Satna transfer methods.
+In the Nobitex app, click "Deposit" then select the tagged deposit option. On the website, go to the deposit page and select "Tagged."
 
-In the Nobitex app, the quickest way to go to the tagged deposit section is to click the "Deposit" button on the dashboard or main page. On the Nobitex website, you can also select the "Deposit" option from the right sidebar in the desktop version and from the menu at the top of the page in the mobile version.
+![Tagged deposit page](assets/fa/TMN-Dep-Wth_how-to-deposit-toman-in-nobitex_verified_Web_01.webp)
 
-![cover](assets/fa/TMN-Dep-Wth_how-to-deposit-toman-in-nobitex_verified_Web_01.webp)
+![Select tagged](assets/fa/TMN-Dep-Wth_how-to-deposit-toman-in-nobitex_verified_Web_02.webp)
 
-In the Nobitex app, after clicking the deposit button on the main page, select the tagged deposit option. On the Nobitex website, simply go to the deposit page and select the "Tagged" option from the right column.
+1. Select the IBAN of a previously registered account, or add a new one.
 
-![cover](assets/fa/TMN-Dep-Wth_how-to-deposit-toman-in-nobitex_verified_Web_02.webp)
+![Select IBAN](assets/fa/TMN-Dep-Wth_how-to-deposit-toman-in-nobitex_verified_Web_03.webp)
 
-Select the IBAN number of the account you want to use for the deposit. The account you use for tagged deposit needs to be previously registered on Nobitex. You can also add a new IBAN from this section.
+2. Select the destination account. Note that each IBAN has a different deposit limit.
 
-![cover](assets/fa/TMN-Dep-Wth_how-to-deposit-toman-in-nobitex_verified_Web_03.webp)
+![Destination account](assets/fa/TMN-Dep-Wth_how-to-deposit-toman-in-nobitex_verified_Web_04.webp)
 
-After selecting the IBAN number of the account you want to use for the deposit, you need to select the desired destination account from the available accounts in this section. Please note that the deposit limit for each IBAN is different, and if you deposit more than the announced limit, the excess amount will be returned to the source account within 72 business hours minus the bank gateway fee.
+3. Click "Create deposit identifier."
 
-![cover](assets/fa/TMN-Dep-Wth_how-to-deposit-toman-in-nobitex_verified_Web_04.webp)
+![Create identifier](assets/fa/TMN-Dep-Wth_how-to-deposit-toman-in-nobitex_verified_Web_05.webp)
 
-After selecting the IBAN number of the account you want to use for the deposit and the destination IBAN, click on the "Create deposit identifier" option.
+4. Use the displayed information (destination account, IBAN, holder name, deposit identifier) to make your transfer via Paya or Satna.
 
-![cover](assets/fa/TMN-Dep-Wth_how-to-deposit-toman-in-nobitex_verified_Web_05.webp)
+![Deposit details](assets/fa/TMN-Dep-Wth_how-to-deposit-toman-in-nobitex_verified_Web_06F.webp)
 
-Upon creating the deposit identifier, information related to the destination account number, destination IBAN number, destination account holder's name, and the deposit identifier you need to enter during the transfer will be displayed.
+![Bank transfer](assets/fa/TMN-Dep-Wth_how-to-deposit-toman-in-nobitex_verified_Main_01F.webp)
 
-![cover](assets/fa/TMN-Dep-Wth_how-to-deposit-toman-in-nobitex_verified_Web_06F.webp)
+Tagged deposits are credited after the Paya cycle. If the deposit identifier is missing or incorrect, the transaction will be returned within 3 Paya cycles.
 
-By entering this information when depositing through mobile banking or visiting a bank branch in person, you can make your transfer through Paya or Satna methods.
+### How to Withdraw Toman
 
-![cover](assets/fa/TMN-Dep-Wth_how-to-deposit-toman-in-nobitex_verified_Main_01F.webp)
+In the Nobitex app, click "Withdraw" on the dashboard. On the website, select "Withdraw" from the right sidebar.
 
-Tagged deposits will be credited to your spot wallet on Nobitex after the deposit, according to the bank gateway's Paya cycle schedule. Also, if you don't enter or incorrectly register the deposit identifier during the transfer, your transaction will be returned to your bank account up to 3 Paya cycles after the deposit.
+![Withdraw page](assets/fa/TMN_Dep_Wth_how_to_withdraw_toman_Web_01.webp)
 
-### How to Withdraw
+Withdrawal limits per 24 hours:
 
-To withdraw Toman from Nobitex, you need to go to the withdrawal section. In the Nobitex app, click the "Withdraw" button on the main page or dashboard. On the Nobitex website, you can select the "Withdraw" option from the right sidebar in the desktop version and from the menu at the top of the page in the mobile version.
+| User Level | Limit |
+| :---: | :---: |
+| Level 1 | 50 million Tomans |
+| Level 2 | 300 million Tomans |
+| Level 3 | 1 billion Tomans |
 
-![cover](assets/fa/TMN_Dep_Wth_how_to_withdraw_toman_Web_01.webp)
+Minimum withdrawal: 15,000 Tomans.
 
-Note that Toman withdrawal has a specific limit every 24 hours depending on your user level, as specified in the table below. The minimum withdrawal on Nobitex is 15,000 Tomans. To see how to upgrade your user level, you can read this guide.
+1. Select "Withdraw Toman." On the website, select Toman from the top of the page.
 
-| Withdrawal limit every 24 hours | User level |
-| :-: | :-: |
-| 50 million Tomans | Level 1 |
-| 300 million Tomans | Level 2 |
-| 1 billion Tomans | Level 3 |
+![Select Toman](assets/fa/TMN_Dep_Wth_how_to_withdraw_toman_Web_02.webp)
 
-Toman withdrawal steps:
-1- In the Nobitex app, select the "Withdraw Toman" option. On the website version, select the Toman option from the top of the page.
+2. Select the destination IBAN from a previously registered account, or add a new one.
 
-![cover](assets/fa/TMN_Dep_Wth_how_to_withdraw_toman_Web_02.webp)
+![Select IBAN](assets/fa/TMN_Dep_Wth_how_to_withdraw_toman_Web_03.webp)
 
-2- In the "Destination IBAN number" section, select the IBAN number of one of the accounts you've previously added to your user account, or add a new IBAN number.
+3. Enter the withdrawal amount.
+4. If two-factor authentication is enabled, enter your Google Authenticator code.
 
-![cover](assets/fa/TMN_Dep_Wth_how_to_withdraw_toman_Web_03.webp)
+![Withdrawal confirmation](assets/fa/TMN_Dep_Wth_how_to_withdraw_toman_Web_04F.webp)
 
-3- Enter your desired amount in the "Withdrawal amount" section. The minimum withdrawable amount is 15,000 Tomans. The amount cannot exceed the daily withdrawal limit. This amount is displayed at the bottom of the page.
+5. Click the withdrawal button. The funds will be deposited after the Paya cycle.
 
-4- If you've enabled two-factor authentication, you need to get the code from the Google Authenticator app at this stage and enter it in the "Two-Factor Authentication" section. If you haven't enabled two-factor authentication, skip this step.
+## 4 - Depositing and Withdrawing Bitcoin
 
-![cover](assets/fa/TMN_Dep_Wth_how_to_withdraw_toman_Web_04F.webp)
+### Depositing Bitcoin
 
-5- After completing the above sections, the withdrawal button at the bottom of the page will be activated. Click on it. Your withdrawal transaction will proceed and after going through the Paya cycle, it will be deposited into the account you selected. You can see the approximate settlement time at the bottom of the page.
+> **Important**: never deposit to old Nobitex addresses. Always generate a new address for each deposit.
 
-## 4 - Depositing and Withdrawing Bitcoin and Cryptocurrency
+In the Nobitex app, click "Deposit" on the dashboard. On the website, select "Deposit" from the right sidebar.
 
-### Cryptocurrency Deposit
+![Crypto deposit](assets/fa/Crypto_Dep_Wth_how-to-deposit-crypto_Web_01.webp)
 
-**Attention**: Please avoid depositing cryptocurrency to old Nobitex addresses; this may result in the loss of your assets. For deposits, always use new addresses. Please note that networks are becoming available gradually. Thank you for your patience and cooperation.
+1. Select "Cryptocurrency" deposit.
 
-To deposit cryptocurrency, you need to go to the "Deposit" section and then follow the steps explained below. In the Nobitex app, the quickest way to go to the deposit section is to click the deposit button on the dashboard or main page. On the Nobitex website, you can also select the "Deposit" option through the right sidebar on the desktop version and through the menu at the top of the page on the mobile version.
+![Select crypto](assets/fa/Crypto_Dep_Wth_how-to-deposit-crypto_Web_02.webp)
 
-![cover](assets/fa/Crypto_Dep_Wth_how-to-deposit-crypto_Web_01.webp)
+2. Select Bitcoin from the list of cryptocurrencies.
 
-1- In the Nobitex app, after clicking the deposit button on the main page, select the "Cryptocurrency" deposit option. On the Nobitex website, simply go to the deposit page and select the "Cryptocurrency" option from the top bar of the page.
+![Select Bitcoin](assets/fa/Crypto_Dep_Wth_how-to-deposit-crypto_Web_03.webp)
 
-![cover](assets/fa/Crypto_Dep_Wth_how-to-deposit-crypto_Web_02.webp)
+3. Select the deposit network. Be careful: if you select the wrong network, your assets may be lost permanently.
 
-2- At this stage, you need to select the cryptocurrency you want to deposit to your wallet. In the Nobitex app, as soon as you complete the previous step, the list of receivable cryptocurrencies opens. On the website, simply click on the "Select your cryptocurrency" section to see this list.
+![Select network](assets/fa/Crypto_Dep_Wth_how-to-deposit-crypto_Web_04.webp)
 
-![cover](assets/fa/Crypto_Dep_Wth_how-to-deposit-crypto_Web_03.webp)
+4. If this is your first deposit with this network, click "Create address" to generate a new address.
 
-3- In the next step, you need to select the deposit network based on your needs. In the app, the list of networks is automatically displayed. On the website, the list opens when you click on the "Deposit network" section.
+![Create address](assets/fa/Crypto_Dep_Wth_how-to-deposit-crypto_Web_05.webp)
 
-Be careful in selecting the network. If the network you select is not the same as the recipient network, your assets may be lost. If your desired network is inactive, please wait a bit. This is a temporary issue and will be resolved after some time.
+5. Depending on the network, there are three possible states:
 
-![cover](assets/fa/Crypto_Dep_Wth_how-to-deposit-crypto_Web_04.webp)
+#### On-chain (without memo/tag)
 
-4- If this is the first time you're receiving your desired cryptocurrency with the network you selected, a new deposit address needs to be created for you. To do this, click the "Create address" button. The address will be automatically and instantly generated for you. If you already have a valid address, you won't see this button and will go directly to step 5.
+Copy the generated deposit address and give it to the sender. The Bitcoin will arrive after the required blockchain confirmations.
 
-![cover](assets/fa/Crypto_Dep_Wth_how-to-deposit-crypto_Web_05.webp)
+![On-chain deposit](assets/fa/Crypto_Dep_Wth_how-to-deposit-crypto_Web_06.webp)
 
-5- Depending on the network and cryptocurrency you selected, this step can have 3 different states:
+#### With memo, tag, or comment
 
-#### First state: Without comment, tag, or memo
+Some networks require an additional code (Tag, Memo, or Comment) alongside the address. The sender must include this code, and must never use the "Encrypted Comment" option.
 
-In this state, it's enough to give the generated deposit address to the currency sender. The sender makes the deposit with this address, and the cryptocurrency will reach your account after the necessary time has passed.
+![Deposit with memo](assets/fa/Crypto_Dep_Wth_how-to-deposit-crypto_Web_07.webp)
 
-![cover](assets/fa/Crypto_Dep_Wth_how-to-deposit-crypto_Web_06.webp)
+#### Lightning Network
 
-#### Second state: With comment, tag, or memo
+Lightning deposits use an Invoice. Enter the amount you expect to receive, generate the invoice, and share it with the sender.
 
-In this state, in addition to the deposit address, you must also give the text code generated for you under the title Tag, Memo, or Comment to the currency sender. The sender must also enter this code when depositing to your wallet, otherwise your cryptocurrency may be lost. In addition, the sender must never use the Encrypted Comment option, otherwise your cryptocurrency will be lost.
+![Lightning deposit](assets/fa/Crypto_Dep_Wth_how-to-deposit-crypto_Web_09F.webp)
 
-![cover](assets/fa/Crypto_Dep_Wth_how-to-deposit-crypto_Web_07.webp)
+### Withdrawing Bitcoin
 
-#### Third state: Deposit with Lightning network
+In the Nobitex app, click "Withdraw." On the website, select "Withdraw" from the right sidebar.
 
-Cryptocurrency transfer on the Lightning network is done using an "Invoice." In this state, you need to enter the amount of cryptocurrency you're going to receive as shown in the image below and send the invoice to the cryptocurrency sender. The sender enters the necessary information and the deposit is completed.
+![Crypto withdrawal](assets/fa/Crypto_Dep_Wth_how-to-withdraw-crypto_Web_01.webp)
 
-![cover](assets/fa/Crypto_Dep_Wth_how-to-deposit-crypto_Web_09F.webp)
+1. Select Bitcoin from the cryptocurrency list.
 
-### Cryptocurrency Withdrawal
+![Select Bitcoin](assets/fa/Crypto_Dep_Wth_how-to-withdraw-crypto_Web_02.webp)
 
-To withdraw cryptocurrency from Nobitex, you need to go to the withdrawal section and then follow the steps explained below. In the Nobitex app, click the "Withdraw" button on the main page or dashboard. On the Nobitex website, you can select the "Withdraw" option from the right sidebar in the desktop version and from the menu at the top of the page in the mobile version.
+2. Select the withdrawal network. Make sure it matches the recipient's network.
 
-![cover](assets/fa/Crypto_Dep_Wth_how-to-withdraw-crypto_Web_01.webp)
+![Select withdrawal network](assets/fa/Crypto_Dep_Wth_how-to-withdraw-crypto_Web_03.webp)
 
-1- In the Nobitex app, select the cryptocurrency withdrawal option. On the website version, select the cryptocurrency option from the top of the page.
+3. Enter the destination address (and Tag/Memo/Invoice if required). Enter your 2FA code if enabled.
 
-![cover](assets/fa/Crypto_Dep_Wth_how-to-withdraw-crypto_Web_01.webp)
+![Enter destination](assets/fa/Crypto_Dep_Wth_how-to-withdraw-crypto_Web_04.webp)
 
-2- At this stage, you need to select the cryptocurrency you want to withdraw from your wallet. In the Nobitex app, as soon as you complete the previous step, the list of withdrawable cryptocurrencies opens. On the website, simply click on the "Select your cryptocurrency" section to see this list.
+4. Verify all information and click the withdrawal button, then confirm.
 
-![cover](assets/fa/Crypto_Dep_Wth_how-to-withdraw-crypto_Web_02.webp)
+> **Always withdraw your Bitcoin to your own wallet immediately after buying.** Do not leave funds on the exchange.
 
-3- In the next step, you need to select the withdrawal network based on your needs. In the app, the list of networks is automatically displayed. On the website, the list opens when you click on the "Withdrawal network" section. Be careful in selecting the network. If the network you select is not the same as the recipient network, your assets may be lost. To learn about network selection, read this guide.
+## 5 - Buying and Selling Bitcoin
 
-![cover](assets/fa/Crypto_Dep_Wth_how-to-withdraw-crypto_Web_03.webp)
+1. In the Nobitex app, select "Trade" from the bottom navigation bar. On the website, select "Market" from the top bar.
+2. Click on the cryptocurrency selector to see all available markets.
+3. Select the Bitcoin market (BTC/TMN or BTC/USDT).
 
-4- At this stage, you need to enter the destination information. Depending on the transfer network and cryptocurrency you selected, you need to enter information including destination address, Tag, Memo, Comment, or Invoice address.
+![Trade markets](assets/fa/Spot-Trade_how-to-trade-in-it_App_01.webp)
 
-Get this information from the recipient and enter it exactly as provided in the designated sections, otherwise your assets may be lost.
+![Market selection](assets/fa/Spot-Trade_how-to-trade-in-it_App_02F.webp)
 
-If you've enabled two-factor authentication for your account, you also need to enter it in the designated section for the withdrawal operation to be completed. In the app, you must enter the two-factor authentication code after step 5.
+![Trading interface](assets/fa/Spot-Trade_how-to-trade-in-it_Web_01F.webp)
 
-![cover](assets/fa/Crypto_Dep_Wth_how-to-withdraw-crypto_Web_04.webp)
+**Note**: Nobitex has two base markets:
+- **Toman (TMN)**: pay in Iranian Rial
+- **Tether (USDT)**: pay in USDT stablecoin
 
-5- After entering all the necessary information and making sure it's correct, click the withdrawal button. The confirmation page will be displayed. If all information is correct, click the confirm button to complete the withdrawal.
+## 6 - Understanding the Risks of Nobitex
 
-## 5 - Buying and Selling Bitcoin on Nobitex
+Before relying on Nobitex or any centralized exchange in Iran, you should understand the serious risks involved.
 
-To view and start trading in any market, simply follow the steps below:
+### The June 2025 Hack
 
-1- In the Nobitex app, select the "Trade" option from the bottom navigation bar. On the Nobitex website, select the Market option from the top bar of the page.
+On June 18, 2025, a pro-Israel hacktivist group called "Predatory Sparrow" breached Nobitex's hot wallets and stole over **$90 million** in cryptocurrency. Rather than keeping the funds, the attackers deliberately destroyed them by sending them to inaccessible addresses containing anti-regime slogans. This was a political attack, not theft for profit.
 
-2- To see all active markets on Nobitex, click on the box at the top of the page that shows the cryptocurrency name next to Toman or Tether. A list of all tradable cryptocurrencies on Nobitex will be shown.
+Two days later, the attackers leaked Nobitex's **entire source code** and internal documentation online.
 
-3- Select the market for your desired cryptocurrency from this list.
+### What the Source Code Leak Revealed
 
-![cover](assets/fa/Spot-Trade_how-to-trade-in-it_App_01.webp)
+The leaked codebase exposed deeply concerning practices:
 
-![cover](assets/fa/Spot-Trade_how-to-trade-in-it_App_02F.webp)
+- **Anti-surveillance tools**: Internal modules designed to evade blockchain intelligence companies' detection tools through behavior anonymization and timing obfuscation
+- **VIP bypass logic**: Code that allowed certain accounts to bypass standard compliance checks
+- **Hardcoded credentials**: API keys for Iranian payment platforms stored directly in the code
+- **Master encryption keys** stored as environment variables
 
-![cover](assets/fa/Spot-Trade_how-to-trade-in-it_Web_01F.webp)
+These are not the practices of a platform that prioritizes user security.
 
-**Note**: the base market is the monetary unit you want to trade against.
+### International Sanctions
 
-On Nobitex, there are 2 base markets: Toman and Tether dollar. This means you can choose whether to pay Toman in exchange for the cryptocurrency you buy (Toman base market) or Tether dollar (Tether base market).
+Nobitex operates under comprehensive international sanctions:
 
-Tether dollar (USDT) is itself a cryptocurrency, it has a price approximately equal to the US dollar and is very stable. In fact, Tether dollar is the virtual equivalent of the US dollar. For this reason, it's offered as one of the usable base markets on Nobitex.
+- **Canada** and **New Zealand** have formally sanctioned the platform
+- The **US Treasury** has named Nobitex in official findings
+- **Tether** froze 42 addresses linked to Nobitex in July 2025 — the largest freeze in Tether's history
+- Blockchain analytics firms have documented interactions between Nobitex wallets and sanctioned entities
+
+### What This Means for You
+
+- **Your funds are at risk**: The hack proved that Nobitex's hot wallets are vulnerable. If you buy Bitcoin on Nobitex, withdraw it to your own wallet immediately
+- **Your identity is exposed**: KYC data (national ID, phone number, address) is stored on servers that have already been breached. Your personal information may already be public
+- **Your transactions are visible**: The Iranian government has access to your trading activity through Nobitex's compliance with domestic regulations
+- **Not your keys, not your coins**: As long as your Bitcoin sits on Nobitex, it belongs to Nobitex — not to you
+
+## 7 - Moving Toward Peer-to-Peer Alternatives
+
+Centralized exchanges like Nobitex are a convenient starting point, but they come with all the risks described above: hacks, data leaks, government surveillance, and sanctions exposure. Peer-to-peer (P2P) trading offers a path toward true Bitcoin sovereignty.
+
+### Why P2P?
+
+- **No single point of failure**: There is no company to hack, no server to breach, no hot wallet to drain
+- **No KYC**: Your identity is not stored in a centralized database waiting to be leaked
+- **Censorship resistance**: No government can shut down a decentralized P2P protocol
+- **You control your keys**: Your Bitcoin is in your wallet from the start
+
+### Available P2P Platforms
+
+| Platform | Type | How it Works |
+| :--- | :--- | :--- |
+| [Bisq](https://bisq.network/) | Decentralized, Tor-based | On-chain escrow, no registration needed. Supports IRR |
+| [RoboSats](https://learn.robosats.com/) | Lightning-based, Tor-native | Fast trades via Lightning Network, fully anonymous |
+| [HodlHodl](https://hodlhodl.com/) | Non-custodial web platform | Multisig escrow, no KYC required |
+
+### "But There's No Liquidity in Rial"
+
+You're right — today, IRR liquidity on these platforms is very thin. But consider this:
+
+**Someone has to be first.**
+
+Other countries have faced the same challenge and overcome it:
+
+- **Nigeria**: When the Central Bank banned crypto-exchange bank transfers in 2021, Nigerian users migrated to P2P en masse. Within 12-18 months, Nigeria became the world's largest P2P market. The community organized through Telegram groups, and early market makers earned the spread while bootstrapping liquidity
+- **Venezuela**: Under US sanctions — just like Iran — Venezuelans built P2P liquidity organically over 2-3 years through Telegram OTC groups. A small group of early adopters became reliable market makers, and word spread through social networks
+- **Brazil**: The Brazilian Bitcoin community organized "RoboSats challenges" where members committed to posting and taking offers to seed initial liquidity on the Lightning-based P2P platform. It worked — BRL is now one of the most liquid currencies on RoboSats outside of EUR and USD
+
+The pattern is always the same: a small group of committed Bitcoiners starts posting offers, builds trust, and liquidity follows.
+
+### How to Get Started
+
+1. **Start small**: Keep using Nobitex for the fiat on-ramp if you need to, but always withdraw your Bitcoin immediately to your own wallet
+2. **Install Bisq or RoboSats**: Try posting a small buy or sell offer in IRR. Even if it takes days to fill, you're contributing to building the market
+3. **Connect with the community**: Find or create a Telegram group for Iranian P2P Bitcoin trading. The social layer is what makes P2P work
+4. **Be a market maker**: If you're comfortable, post both buy and sell offers. You earn the spread, and you help build the liquidity that everyone needs
+
+The goal is not to use Nobitex forever. The goal is to use it as a stepping stone toward financial sovereignty — where you hold your own keys, trade peer-to-peer, and no centralized entity can freeze, leak, or lose your Bitcoin.

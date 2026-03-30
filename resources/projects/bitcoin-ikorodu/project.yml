@@ -2,15 +2,8 @@ id: 541c38cc-d88d-4a4a-b8d7-868acb2de632
 name: Bitcoin Ikorodu
 category: communities
 address_city_country: "Ikorodu, Nigeria"
-address_line_2: ''
-address_line_3: ''
-language:
-  - en
 links:
-  website: 
   twitter: https://x.com/BitcoinIkorodu
-  github: 
-  youtube: 
 tags:
   - adoption
 original_language: en

@@ -9,7 +9,7 @@ Nobitex is the largest cryptocurrency exchange in Iran, established in 2017. It 
 
 This tutorial will walk you through using Nobitex step by step, then explain the real risks you should know about, and finally introduce peer-to-peer alternatives that give you more sovereignty over your Bitcoin.
 
-> **Important**: Nobitex is a centralized exchange. As with any centralized platform, you should never store your Bitcoin there longer than necessary. Always withdraw to your own wallet. The risks section below explains why this is especially critical for Nobitex.
+**Important**: Nobitex is a centralized exchange. As with any centralized platform, you should never store your Bitcoin there longer than necessary. Always withdraw to your own wallet. The risks section below explains why this is especially critical for Nobitex.
 
 ## 1 - Creating a Nobitex Account
 
@@ -57,52 +57,13 @@ To use all of Nobitex's features and avoid user level restrictions, the mobile n
 
 ### Enabling Two-Factor Authentication
 
-To enable two-factor authentication, you need an authentication app like Google Authenticator. In the Nobitex app, select "Menu" from the bottom of the page, then select Security. On the website, select "Security" from the right sidebar.
+We strongly recommend enabling two-factor authentication (2FA) on your Nobitex account. In the Nobitex app, go to Menu > Security. On the website, select "Security" from the right sidebar, then enable "Two-Factor Authentication."
 
-![Security settings](assets/fa/2FA_how-to-enable-two-factor-authentication_Web_01.webp)
+If you are not yet familiar with 2FA apps, check out our dedicated tutorials before proceeding:
 
-1. Select the "Two-Factor Authentication" option. On the website, click on "Enable."
+https://planbtest.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-![Enable 2FA](assets/fa/2FA_how-to-enable-two-factor-authentication_Web_02.webp)
-
-2. Read the explanation about two-factor authentication. Click the start button.
-
-![2FA explanation](assets/fa/2FA_how-to-enable-two-factor-authentication_Web_03.webp)
-
-3. Install the Google Authenticator app if you haven't already, then click "I've installed it."
-
-![Install authenticator](assets/fa/2FA_how-to-enable-two-factor-authentication_Web_04.webp)
-
-4. Enter the six-digit SMS verification code sent to your mobile number.
-
-![SMS verification](assets/fa/2FA_how-to-enable-two-factor-authentication_Web_05.webp)
-
-5. Write down or copy the "activation code" displayed on screen.
-
-![Activation code](assets/fa/2FA_how-to-enable-two-factor-authentication_Web_06.webp)
-
-6. Open Google Authenticator and click "Add a code" or the + button, then select "Enter a setup key."
-7. Enter a name (e.g., "Nobitex") in the Account name field.
-8. Paste the activation code in the Your Key field.
-9. Click Add.
-
-![Add code step 1](assets/fa/2FA_how-to-enable-two-factor-authentication_Main_01.webp)
-
-![Add code step 2](assets/fa/2FA_how-to-enable-two-factor-authentication_Main_02.webp)
-
-![Add code step 3](assets/fa/2FA_how-to-enable-two-factor-authentication_Main_03.webp)
-
-10. On the main Google Authenticator page, copy the 6-digit code displayed under the name you entered.
-
-![Copy code](assets/fa/2FA_how-to-enable-two-factor-authentication_Main_04.webp)
-
-11. Enter this code in the "Two-Factor Authentication" section in Nobitex and click enable.
-
-![Enter code in Nobitex](assets/fa/2FA_how-to-enable-two-factor-authentication_Web_07.webp)
-
-12. Save the recovery code somewhere safe, separate from your mobile device.
-
-![2FA enabled](assets/fa/2FA_how-to-enable-two-factor-authentication_Web_08F.webp)
+https://planbtest.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 
 ## 2 - Account Verification
 
@@ -136,7 +97,7 @@ For identity verification on the website, click "Identity Verification" at the t
 
 ![Identity info](assets/fa/Singup_how-to-complete-level-1-verification_Web_04F.webp)
 
-> Level 1 is sufficient for initial use. For higher levels, select Level 2 from the same path.
+Level 1 is sufficient for initial use. For higher levels, select Level 2 from the same path.
 
 ## 3 - Depositing and Withdrawing Toman (Fiat)
 
@@ -232,7 +193,7 @@ Minimum withdrawal: 15,000 Tomans.
 
 ### Depositing Bitcoin
 
-> **Important**: never deposit to old Nobitex addresses. Always generate a new address for each deposit.
+**Important**: never deposit to old Nobitex addresses. Always generate a new address for each deposit.
 
 In the Nobitex app, click "Deposit" on the dashboard. On the website, select "Deposit" from the right sidebar.
 
@@ -294,7 +255,7 @@ In the Nobitex app, click "Withdraw." On the website, select "Withdraw" from the
 
 4. Verify all information and click the withdrawal button, then confirm.
 
-> **Always withdraw your Bitcoin to your own wallet immediately after buying.** Do not leave funds on the exchange.
+**Always withdraw your Bitcoin to your own wallet immediately after buying.** Do not leave funds on the exchange.
 
 ## 5 - Buying and Selling Bitcoin
 
@@ -362,11 +323,22 @@ Centralized exchanges like Nobitex are a convenient starting point, but they com
 
 ### Available P2P Platforms
 
+We have dedicated tutorials for each of these platforms on the academy:
+
 | Platform | Type | How it Works |
 | :--- | :--- | :--- |
-| [Bisq](https://bisq.network/) | Decentralized, Tor-based | On-chain escrow, no registration needed. Supports IRR |
-| [RoboSats](https://learn.robosats.com/) | Lightning-based, Tor-native | Fast trades via Lightning Network, fully anonymous |
-| [HodlHodl](https://hodlhodl.com/) | Non-custodial web platform | Multisig escrow, no KYC required |
+| Bisq | Decentralized, Tor-based | On-chain escrow, no registration needed. Supports IRR |
+| RoboSats | Lightning-based, Tor-native | Fast trades via Lightning Network, fully anonymous |
+| HodlHodl | Non-custodial web platform | Multisig escrow, no KYC required |
+| Peach | Mobile P2P app | Simple Bitcoin-only P2P trading |
+
+https://planbtest.academy/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+
+https://planbtest.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+https://planbtest.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+
+https://planbtest.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
 ### "But There's No Liquidity in Rial"
 

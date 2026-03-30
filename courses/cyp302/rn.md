@@ -125,7 +125,7 @@ Inyandiko nyakuri yerekeye ahaninin ibihinduka"variable", ibihinduka ugutandukan
 Muriteguye kumenya isi y'agatangaza y'ikingira ry'amakuru ? Reka tugende!
 
 
-# Ivy’ugushiramwo amakuru ni iki?
+# Cryptographie ni iki?
 
 <partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>
 
@@ -135,28 +135,28 @@ Muriteguye kumenya isi y'agatangaza y'ikingira ry'amakuru ? Reka tugende!
 <chapterId>ae674346-4789-5ab1-9b6f-c8989d83be89</chapterId>
 
 
-Reka dutangure itohoza ryacu ku bijanye n’[ubuhinga bwo gukingira amakuru](https://planb.academy/resources/glossary/cryptography) n’ikimwe mu bice biteye umunezero kandi biteye umunezero mu mateka yavyo: ivy’amabanga ya Beale. [1]
+Reka dutangure ubushakashatsi bwacu ku bijanye n’[ubuhinga bwo gukingira amakuru](https://planb.academy/resources/glossary/cryptography) n’ikimwe mu bice biteye umunezero kandi biteye umunezero mu mateka yavyo: ivy’amabanga ya Beale. [1]
 
 
-Inkuru y’aba Beale ciphers, mu vyiyumviro vyanje, ishobora kuba ari inkuru y’ibinyoma kuruta uko ari ukuri. Ariko ngo vyaciye bigenda gutya.
+Inkuru y’ama chiffre de Beale , mu vyiyumviro vyanje, ishobora kuba ari inkuru yinyumvirano kuruta uko ari ukuri. Ariko ngo vyaciye bigenda gutya.
 
 
 Mu rushana rwo mu 1820 no mu 1822, umugabo yitwa Thomas J. Beale yaraye mu nzu y’abashitsi yari iya Robert Morriss i Lynchburg (muri Virginie). Beale amaze guhera igihe ca kabiri, yarahaye Morriss agasandugu k’icuma karimwo impapuro z’agaciro zo kubika.
 
 
-Haciye amezi makeyi, Morriss yararonse ikete ryavuye kuri Beale ryo ku wa 9 Rusama 1822. Ryashimikiye cane ku gaciro kanini k’ibintu vyari muri ako gasandugu k’icuma, rikaba ribwira Morriss amabwirizwa amwamwe: nimba Beale canke uwo ari we wese mu bo bari kumwe na we yigeze aza gusaba ako gasandugu, yari akwiye kurifungura neza na neza kuva ku wa Rusama is the ten of 1822. 1832). Zimwe mu mpapuro zari muri iyo mpapuro zoba zanditswe mu nyandiko zisanzwe. Ariko rero, izindi zitari nke zoba “zitashobora gutahurwa ata mfashanyo y’urufunguzo.” Uwo “rufunguzo” rero woshikirijwe Morriss n’umugenzi wa Beale atavuzwe izina muri Ruheshi 1832.
+Haciye amezi makeyi, Morriss yararonse ikete ryavuye kuri Beale ryo ku wa 9 Rusama 1822. Ryashimikiye cane ku gaciro kanini k’ibintu vyari muri ako gasandugu k’icuma, rikaba ribwira Morriss amabwirizwa amwamwe: niyo atanumwe hagati ya Beale canke abafatanya bikorwa biwe bataje gusaba ako gasandugu, ko azoba akwiye kugafungurura neza na neza kuva ku wa Rusama is the ten of 1822. 1832). Zimwe mu mpapuro zari muri iyo mpapuro zoba zanditswe mu nyandiko zisanzwe. Ariko rero, izindi zitari nke zoba “zitashobora gutahurwa ata mfashanyo y’urufunguzo.” Uwo “rufunguzo” rero woshikirijwe Morriss n’umugenzi wa Beale atavuzwe izina muri Ruheshi 1832.
 
 
-Naho Morriss yari afise amabwirizwa asobanutse, ntiyafunguye ako gasandugu muri Rusama 1832 kandi umugenzi wa Beale w’akabanga ntiyigeze aza muri Ruheshi uwo mwaka. Mu 1845 ni ho uwo nyen’inzu y’abashitsi amaherezo yafata ingingo yo gufungura iyo sandugu. Muri iyo nkuru, Morriss yasanze aka gatabo kasigura ingene Beale n’abo bari kumwe bavumbuye inzahabu n’ifeza hanze y’Uburengero maze bakabihamba, hamwe n’amabuye y’agaciro amwamwe, kugira ngo babizigame. Ikindi, ako gasandugu karimwo **inyandiko zitatu z’ibanga**: ni ukuvuga inyandiko zanditswe muri kode zisaba **urufunguzo rw’ibanga**, canke ibanga, n’ubuhinga bujana n’ivyo kugira ngo zifungurwe. Uwo murongo wo gufungura inyandiko y’ibanga uzwi nka **decryption**, mu gihe uburyo bwo gufunga buzwi nka **[encryption](https://planb.academy/resources/glossary/encryption-encrypt)**. (Nk'uko vyasiguwe mu kigabane ca 3, ijambo cipher rishobora gufata insobanuro zitandukanye. Mw'izina "Beale ciphers", ni insiguro ngufi y'ivyanditswe vy'ibanga.)
+Naho Morriss yari afise amabwirizwa atahuritse, ntiyafunguye ako gasandugu muri Rusama 1832 kandi umugenzi wa Beale w’akabanga ntiyigeze aza muri Ruheshi uwo mwaka. Mu 1845 ni ho uwo nyen’inzu yahereje gufata ingingo yo gufungura ako gasandugu. Muri iyo nkuru, Morriss yasanze aka gatabo kasigura ingene Beale n’abo bari kumwe batoye inzahabu n’ifeza hanze y’Uburengero maze bakazihisha, hamwe n’amabuye y’agaciro amwamwe, kugira ngo babizigame. Ikindi, ako gasandugu karimwo **inyandiko zitatu z’ibanga**: ni ukuvuga inyandiko zanditswe muri kode zisaba **urufunguzo rw’ibanga**, canke ibanga, n’ubuhinga bujana n’ivyo kugira ngo zifungurwe. Uwo murongo wo gufungura inyandiko y’ibanga uzwi nka **déchiffrement**, mu gihe uburyo bwo gufunga buzwi nka **[chiffrement](https://planb.academy/resources/glossary/encryption-encrypt)**. (Nk'uko vyasiguwe mu kigabane ca 3, ijambo cipher rishobora gufata insobanuro zitandukanye. Mw'izina "Beale ciphers", ni insiguro ngufi y'ivyanditswe vy'ibanga.)
 
 
-Ivyo vyanditswe bitatu vy’ibanga Morriss yasanze mu gasandugu k’icuma, kimwe cose gifise urutonde rw’imibare itandukanijwe n’ibimenyetso vy’inyuguti. Dukurikije ivyo Beale yanditse, ivyo bitabo vy’ubuhinga bwa none biratanga ukwavyo aho iryo tunga ryari riri, ibirimwo, be n’urutonde rw’amazina afise uburenganzira bwo kuragwa iryo tunga n’imigabane yabo (ayo makuru ya nyuma akaba ari ngirakamaro mu gihe Beale n’abo bari kumwe boba batigeze baza gusaba iyo sandugu).
+Ivyo vyanditswe bitatu vy’ibanga Morriss yasanze mu gasandugu k’icuma, kimwe cose gifise urutonde rw’ibiharuro itandukanijwe n’ibimenyetso vy’indome. Dukurikije ivyo Beale yanditse, ivyo bitabo vy’ubuhinga bwa none biratanga ukwavyo aho iryo tunga ryari riri, ibirimwo, be n’urutonde rw’amazina afise uburenganzira bwo kuragwa iryo tunga n’imigabane yabo (ayo makuru ya nyuma akaba ari ngirakamaro mu gihe Beale n’abo bari kumwe boba batigeze baza gusaba iyo sandugu).
 
 
 Morris yaragerageje gusobanura amajambo atatu y’ibanga mu myaka mirongo ibiri. Ivyo vyari kuba vyoroshe iyo umuntu afise urufunguruzo. Ariko Morriss ntiyari afise urufunguzo kandi ntiyashoboye kugerageza gusubira kuronka ivyanditswe vy’intango, canke **ivyanditswe vy’intango** nk’uko vyitwa mu buryo busanzwe mu vy’ubuhinga bwo gupfuka amakuru.
 
 
-Morriss yari hafi gupfa, iyo sandugu yarayihaye umugenzi wiwe mu 1862. Uwo mugenzi wiwe yaciye asohora agatabu mu 1885, yitwa J.B. Ward. Yarimwo insobanuro y’amateka (avugwa) y’ico kigega, ivyanditswe bitatu vy’ibanga, be n’umuti yari yararonse ku nyandiko ya kabiri y’ibanga. (Ibiboneka ko hariho urufunguzo rumwe ku nyandiko imwe imwe yose y’ibanga, kandi nta rufunguzo rumwe rukora ku nyandiko zose zitatu z’ibanga nk’uko Beale asa n’uwabivuze mu ntango mw’ikete yandikiye Morriss.)
+Morriss yari hafi gupfa, iyo sandugu yarayihaye umugenzi wiwe mu 1862. Uwo mugenzi wiwe yaciye asohora agatabu mu 1885, yitwa J.B. Ward. Yarimwo insobanuro y’amateka (avugwa) y’ico kigega, ivyanditswe bitatu vy’ibanga, be n’inyishu yari yararonse ku nyandiko ya kabiri y’ibanga. (Ibiboneka ko hariho urufunguzo rumwe ku nyandiko imwe imwe yose y’ibanga, kandi nta rufunguzo rumwe rukora ku nyandiko zose zitatu z’ibanga nk’uko Beale asa n’uwabivuze mu ntango mw’ikete yandikiye Morriss.)
 
 
 Ushobora kubona igisomwa ca kabiri c'ibanga mu *Ishusho ya 2* iri musi. [2] Urufunguzo rw’ico gitabu c’ibanga ni Itangazo ry’Ukwikukira kwa Leta Zunze Ubumwe za Amerika. Uburyo bwo gukuraho amakuru buva ku gukurikiza aya mategeko abiri akurikira:
@@ -175,17 +175,17 @@ Ushobora kubona igisomwa ca kabiri c'ibanga mu *Ishusho ya 2* iri musi. [2] Uruf
 
 
 
-Nk’akarorero, igiharuro ca mbere c’inyandiko ya kabiri y’ibanga ni 115. Ijambo rya 115 ryo mu Itangazo ry’Ukwikukira ni “rashinzwe,” rero urudome rwa mbere rw’inyandiko y’ibanga ni “i.” Ivyo bitabo ntivyerekana ata guca ku ruhande ikibanza kiri hagati y’amajambo n’inyuguti nini. Ariko umaze gusobanura amajambo makeyi ya mbere, urashobora guca ubona mu buryo bubereye yuko ijambo rya mbere ryo mu nyandiko yoroshe ryari “jewe” gusa. (Ico canditswe gitomoye gitangura n’amajambo ngo “Nashize amahera mu ntara ya Bedford.”)
+Nk’akarorero, igiharuro ca mbere c’inyandiko ya kabiri y’ibanga ni 115. Ijambo rya 115 ryo mu Itangazo ry’Ukwikukira ni “rashinzwe,” rero urudome rwa mbere rw’inyandiko y’ibanga ni “i.” Ivyo bitabo ntivyerekana ata guca ku ruhande ikibanza kiri hagati y’amajambo n’indome nini. Ariko umaze gusobanura amajambo makeyi ya mbere, urashobora guca ubona mu buryo bubereye yuko ijambo rya mbere ryo mu nyandiko yoroshe ryari “I(bisigura jewe mururimi rw'ikirundi)” gusa. (Ico canditswe gitomoye gitangura n’amajambo ngo “Nashize amahera mu ntara ya Bedford.”)
 
 
-Inyuma y’ugusobanura, ubutumwa bwa kabiri buratanga ido n’ido ry’ibintu biri muri ubwo butunzi (inzahabu, ifeza n’amabuye y’agaciro), kandi bukaba buvuga ko bwahambwe mu nkono z’icuma kandi bugapfukwa n’ibitandara mu ntara ya Bedford (Virginia). Abantu barakunda akabanga keza, ni co gituma hagizwe utwigoro twinshi two gusobanura izindi nkuru zibiri za Beale, canecane iyo idondora aho iryo tunga riri. Mbere n’abahinga mu vy’ubuhinga bwa none batandukanye baragerageje kubikorako. Ariko rero, gushika ubu, nta n’umwe yashoboye gusobanura ibindi vyanditswe bibiri vy’ibanga.
+Inyuma yo gusigura, ubutumwa bwa kabiri buratanga ido n’ido ry’ibintu biri muri ubwo butunzi (inzahabu, ifeza n’amabuye y’agaciro), kandi bukaba buvuga ko bwahambwe mu nkono z’icuma kandi bugapfukwa n’ibitandara mu ntara ya Bedford (Virginia). Abantu barakunda akabanga keza, ni co gituma hagizwe utwigoro twinshi two gusobanura izindi nkuru zibiri za Beale, canecane iyo idondora aho iryo tunga riri. Mbere n’abahinga mu vy’ubuhinga bwa none batandukanye baragerageje kubikorako. Ariko rero, gushika ubu, nta n’umwe yashoboye gusobanura ibindi vyanditswe bibiri vy’ibanga.
 
 
 
 **Ivyiyumviro:**
 
 
-[1] Kugira ngo ubone incamake nziza y’iyo nkuru, raba Simon Singh, *Igitabo c’Itegeko*, Igihugu ca kane (Londres, 1999), urupapuro rwa 82-99. Sinema ngufi y’iyo nkuru yakozwe na Andrew Allen mu 2010. Ushobora gusanga iyo filime, “Igitabu ca Thomas Beale,” [ku rubuga rwayo](http://www.thomasbealecipher.com/).
+[1] Kugira ngo ubone incamake nziza y’iyo nkuru, raba Simon Singh, *The Code Book*, Fourth Estate (Londres, 1999), urupapuro rwa 82-99. Sinema ngufi y’iyo nkuru yakozwe na Andrew Allen mu 2010. Ushobora gusanga iyo filime, “The Thomas Beale Cipher,” [ku rubuga rwayo](http://www.thomasbealecipher.com/).
 
 
 [2] Iyi shusho iri kuri paji ya Wikipedia ku bijanye n’ibiharuro vya Beale.
@@ -230,11 +230,11 @@ Ica gatatu, imigambi ya kera yo gushiramwo amakuru, nk’iyo yakoreshwa mu bitab
 Mu buryo bwihariye, ubuhinga bwa none bwo gukingira amakuru bushingiye ku **bimenyamenya vy’umutekano** bimenyerewe. Ikimenyamenya cose c’umutekano w’umugambi w’ubuhinga bwo gukingira amakuru gica mu ntambwe zitatu:
 
 
-1. Invugo y’**insobanuro y’umutekano mu buryo bw’ibanga**, ni ukuvuga urutonde rw’intumbero z’umutekano n’akaga gaterwa n’uwutera.
+1. Invugo y’**insobanuro y’umutekano mu buryo bw’ibanga**, ni ukuvuga urutonde rw’intumbero z’umutekano n’ingorane zitezwa n’uwuzitera.
 
-2. Invugo y’ivyiyumviro vyose vy’imibare ku bijanye n’uburemere bw’imibare bw’umugambi. Nk’akarorero, umugambi wo gukingira amakuru woshobora kubamwo umubare w’ibinyoma. Naho tutashobora kwemeza ko ivyo biriho, turashobora kwiyumvira ko biriho.
+2. Invugo y’ivyiyumviro vyose vy’imibare ku bijanye n’uburemere bw’ibiharuro bw’umugambi. Nk’akarorero, umugambi wo gukingira amakuru woshobora kubamwo umubare w’ibinyoma. Naho tutashobora kwemeza ko ivyo biriho, turashobora kwiyumvira ko biriho.
 
-3. Gusobanura **ikimenyamenya c’umutekano** c’umugambi gishingiye ku ciyumviro gisanzwe c’umutekano n’ivyiyumviro vyose vy’imibare.
+3. Gusobanura **ikimenyamenya c’umutekano** c’umugambi gishingiye ku ciyumviro gisanzwe c’umutekano n’ivyiyumviro vyose vy’ibiharuro.
 
 
 Ica kane, naho mu mateka ubuhinga bwo gukingira amakuru bwakoreshwa canecane mu bikorwa vy’igisirikare, bwaje gushika mu bikorwa vyacu vya misi yose mu gihe c’ubuhinga bwa none. Waba uriko urakoresha banki kuri internet, ushira ku mbuga ngurukanabumenyi, ugura ikintu kuri Amazon ukoresheje ikarita yawe y’inguzanyo, canke utanga amahera y’umugenzi Bitcoin, cryptography ni sine qua non y’iki gihe cacu c’ubuhinga bwa none.
@@ -243,7 +243,7 @@ Ica kane, naho mu mateka ubuhinga bwo gukingira amakuru bwakoreshwa canecane mu 
 Hakurikijwe iyo mice ine y’ubuhinga bwa none bwo gukingira amakuru, twoshobora gutanga ibimenyetso vy’ubuhinga bwa none **ubuhinga bwo gukingira amakuru** nk’ubuhinga bujanye n’ugutegura no gusuzuma imigambi y’ubuhinga bwa none kugira ngo amakuru y’ubuhinga bwa none akingirwe ibitero vy’abansi. [6] Umutekano aha ukwiye gutahurwa cane nk’ugukingira ibitero vyonona ibanga, ubutungane, ukwemeza, n’/canke ukudahakana mu guhanahana amakuru.
 
 
-Cryptography ibonwa neza nk’igice c’ubuhinga bwa **cybersecurity**, kikaba kijejwe gukingira ubusuma, kwonona no gukoresha nabi ubuhinga bwa mudasobwa. Zirikana ko ivyiyumviro vyinshi bijanye n’umutekano wo kuri Internet bifitaniye isano ritoyi canke bifitaniye isano ritoyi gusa n’ubuhinga bwo gukingira amakuru.
+Cryptography ibonwa neza nk’igice c’ubuhinga bwa **cybersecurity**, kikaba kijejwe gukingira ubusuma, kwonona no gukoresha nabi ubuhinga bwa mudasobwa. Zirikana ko ivyiyumviro vyinshi bijanye n’umutekano wo kuri Interneti bifitaniye isano ritoyi canke bifitaniye isano ritoyi gusa n’ubuhinga bwo gukingira amakuru.
 
 
 Nk’akarorero, nimba ishirahamwe rifise amaserver azimvye mu karere kacu, ryoshobora kwitwararika gukingira ivyo bikoresho kugira ngo ntivyibwe canke ngo vyononekare. Naho ivyo ari ikibazo c’umutekano wo kuri internet, ntaco bihuriyeko n’ubuhinga bwo gukingira amakuru.
@@ -259,34 +259,34 @@ Nk’akarorero, **ibitero vy’ubuhendanyi** ni ingorane isanzwe mu bihe vyacu v
 [3] Kugira ngo tuvuge ukuri, ibikorwa bihambaye vy’imigambi y’ubuhinga bwa none vyari vyerekeye ibanga. Nk’akarorero, abana barakoresha kenshi imigambi yoroshe y’ubuhinga bwo gukingira amakuru kugira ngo “banezerwe”. Ibanga si ikintu gitera amaganya vy’ukuri muri ivyo bihe.
 
 
-[4] Bruce Schneier, *Ivyuma vy’ubuhinga bwa none*, igitabu ca 2, 2015 (Indianapolis, IN: Yohani Wiley n’abahungu biwe), rup. 2.
+[4] Bruce Schneier, * Applied Cryptography*, igitabu ca 2, 2015 (Indianapolis, IN: Yohani Wiley n’abahungu biwe), rup. 2.
 
 
-[5] Raba igitabu ca Jonathan Katz na Yehuda Lindell, *Intango y’ubuhinga bwo gukingira amakuru mu buryo bugezweho*, ikinyamakuru ca CRC (Boca Raton, FL: 2015), esp. 16–23, kugira ngo ubone insobanuro nziza.
+[5] Raba igitabu ca Jonathan Katz na Yehuda Lindell, Introduction to Modern Cryptography, CRC Press (Boca Raton, FL : 2015), vyumwihariko kumpapuro esp. 16–23, kugira ngo ubone insobanuro nziza.
 
 
 [6] Raba n’ibindi. Katz na Lindell, aho nyene, rup. 3. Ngira ngo ukuntu bavuga birafise ibibazo, rero n’ushireho uburyo butandukanye gatoyi bw’ivyo bavuze hano.
 
 
 
-## Gufungura guhanahana amakuru
+## Itumanaho ryuguruye
 
 <chapterId>cb23d0a6-ba9a-5dc6-a55a-258405ae4117</chapterId>
 
 
-Ivyuma vy’ubuhinga bwa none vy’ubuhinga bwa none vyagenewe gutanga umutekano mu bidukikije **vy’itumanaho ryuguruye**. Nimba umuhora wacu wo guhanahana amakuru urinzwe neza cane ku buryo abatwumviriza badashobora gukoresha canke mbere no kwihweza ubutumwa bwacu gusa, rero ubuhinga bwo gukingira amakuru burarengeye urugero. Ariko rero, inzira nyinshi dukoresha mu guhanahana amakuru ntizirindwa neza gutyo.
+Ikigira ry'amakuru ry'igihe ca none ryakozwe kugira ngo ritange umutekana mukarere *kugutumanaho vyuguruye*. Nimba umuhora wacu wo guhanahana amakuru urinzwe neza cane ku buryo abatwumviriza badashobora gukoresha canke mbere no kwihweza ubutumwa bwacu gusa, rero ubuhinga bwo gukingira amakuru burarengeye urugero. Ariko rero, inzira nyinshi dukoresha mu guhanahana amakuru ntizirindwa neza gutyo.
 
 
-Umugongo w’ivy’itumanaho mw’isi ya none ni urusobe runini rw’imirongo y’amatara. Guhamagara kuri telefone, kuraba televiziyo no guca ku rubuga mu rugo rwo muri iki gihe muri rusangi bishingiye kuri iyo nzira y’imirongo y’amatara (igice gitoyi coshobora kwizigira gusa ku bikoresho vy’inyenyeri). Ni ukuri ko ushobora kuba ufise amakuru atandukanye mu nzu yawe, nk’umugozi w’ibarabara, umurongo w’abaguzi (asymétrique) digitale, n’umugozi w’ibarabara. Ariko, n’imiburiburi mu bihugu vyateye imbere, izo nzira zitandukanye z’amakuru zica zifatanya ningoga hanze y’inzu yawe zigafatanya n’uruzitiro runini rw’imirongo y’amatara ihuza isi yose. Ivyo bitari vyo ni uturere tumwetumwe turi kure cane two mu bihugu vyateye imbere, nka muri Leta Zunze Ubumwe za Amerika no muri Ostraliya, aho amakuru yoshobora kandi kugenda kure cane akoresheje intsinga za telefone z’umuringa za kera.
+Inyubako ry’ivy’itumanaho mw’isi ya none ni urusobe runini rw’imirongo y’itsinga(fibre optique). Guhamagara kuri telefone, kuraba televiziyo no guca ku rubuga mu rugo rwo muri iki gihe muri rusangi bishingiye kuri iyo nzira y’imirongo y’amatara (igice gitoyi coshobora kwizigira gusa ku bikoresho vy’inyenyeri). Ni ukuri ko ushobora kuba ufise amakuru atandukanye mu nzu yawe, nk’umugozi w’ibarabara, umurongo w’abaguzi (asymétrique) digitale, n’umugozi w’ibarabara. Ariko, n’imiburiburi mu bihugu vyateye imbere, izo nzira zitandukanye z’amakuru zica zifatanya ningoga hanze y’inzu yawe zigafatanya n’uruzitiro runini rw’imirongo y’amatara ihuza isi yose. Ivyo bitari vyo ni uturere tumwetumwe turi kure cane two mu bihugu vyateye imbere, nka muri Leta Zunze Ubumwe za Amerika no muri Ostraliya, aho amakuru yoshobora kandi kugenda kure cane akoresheje intsinga za telefone z’umuringa(cuivre) za kera.
 
 
-Ntivyoshoboka ko abashobora gutera babuzwa gushika ku mubiri kuri iyo nzira y’imirongo n’ibikorwa remezo biyifasha. Nkako, turazi ko amakuru yacu menshi afatwa n’inzego zitandukanye z’ubutasi z’igihugu ku mahuriro ahambaye ya Internet.[7] Ivyo birimwo vyose kuva ku butumwa bwa Facebook gushika ku ma aderesi y’urubuga usura.
+Ntivyoshoboka ko abashobora gutera babuzwa gushika ku mubiri kuri iyo nzira y’imirongo n’ibikorwa remezo biyifasha. Nkako, turazi ko amakuru yacu menshi afatwa n’inzego zitandukanye z’ubutasi z’igihugu ku mahuriro ahambaye ya Internet.[7] Ivyo birimwo vyose kuva ku butumwa bwa Facebook gushika ku ma aderesi y’urubuga tujako.
 
 
-Naho gucungera amakuru ku rugero runini bisaba umwansi akomeye, nk’ikigo c’igihugu c’ubutasi, abatera bafise uburyo buke gusa barashobora kugerageza bitagoranye gucungera ku rugero rwo mu karere. Naho ivyo bishobora kuba ku rugero rwo gutera amawaya, biroroshe cane gufata gusa amakuru ata nsinga.
+Naho gucungera amakuru ku rugero runini bisaba gutana mumumitwe nabakomeye, nk’ikigo c’igihugu c’ubutasi, abatera bafise uburyo buke gusa barashobora kugerageza bitagoranye gucungera ku rugero rwo mu karere. Naho ivyo bishobora kuba ku rugero rwo gutera amawaya, biroroshe cane gufata gusa amakuru ata nsinga.
 
 
-Amakuru menshi y’urubuga rwacu rwo mu karere—yaba mu mihana yacu, ku biro canke mu kafe—ubu aragenda biciye ku mipfunda ya radiyo aja ku bibanza bikoreshwamwo amakuru ata nsinga ku nzira zikoreshwa vyose muri kimwe, aho guca ku nsinga ziboneka. Rero uwutera akeneye ubutunzi buke kugira ngo afate umuduga uwo ari wo wose wo mu karere kawe. Ivyo birababaje cane kuko abantu benshi bakora bike cane kugira ngo bakingire amakuru agendagenda ku mbuga zabo zo mu karere. Ikindi, abashobora kudutera barashobora no gutera imihora yacu y’ubuhinga bwa none, nka 3G, 4G, na 5G. Ivyo vyose bikoreshwa mu guhanahana amakuru ata nsinga, ni ikintu gisanzwe gishobora guterwa n’abatera.
+Amakuru menshi y’urubuga rwacu rwo mu karere—yaba mu mihana yacu, ku biro canke ahantu bafatira ikawa—ubu aragenda biciye ku mipfunda ya radiyo aja ku bibanza bikoreshwamwo amakuru ata ntsinga ku nzira zikoreshwa vyose muri kimwe, aho guca ku ntsinga ziboneka. Rero uwutera akeneye ubutunzi buke kugira ngo afate umuduga uwo ari wo wose wo mu karere kawe. Ivyo birababaje cane kuko abantu benshi bakora bike cane kugira ngo bakingire amakuru agendagenda ku mbuga zabo zo mu karere. Ikindi, abashobora kudutera barashobora no gutera imihora yacu y’ubuhinga bwa none, nka 3G, 4G, na 5G. Ivyo vyose bikoreshwa mu guhanahana amakuru ata nsinga, ni ikintu gisanzwe gishobora guterwa n’abatera.
 
 
 Ku bw’ivyo, iciyumviro co kugumiza ibanga ry’ivy’uguhanahana amakuru mu kurinda umuhora w’ivy’uguhanahana amakuru ni icipfuzo c’ukwihenda kitagira icizigiro ku bantu benshi bo mw’isi ya none. Ivyo tuzi vyose biratuma umuntu agira ubwoba bukomeye: ukwiye kwama wiyumvira ko hari uwuriko arakwumviriza. Kandi cryptography ni co gikoresho nyamukuru dufise kugira ngo turonke ubwoko bwose bw’umutekano muri iki gihe ca none.

@@ -65,15 +65,15 @@ Prêt à découvrir le minage de Bitcoin ? C’est parti !
 
 Avant de passer à l’explication détaillée et plus technique du [minage](https://planb.academy/resources/glossary/mining) de Bitcoin, je vous propose une vue d’ensemble de son principe, volontairement simple et schématique. Si vous disposez déjà de ces quelques connaissances de base, vous pouvez passer directement au vif du sujet dans le chapitre suivant, après avoir répondu aux questions du quiz. Ce chapitre s’adresse avant tout aux débutants, afin de commencer en douceur.
 
-Imaginez Bitcoin comme un grand cahier public, partagé par tout le monde, où l’on écrit qui a envoyé des bitcoins à qui. Ce cahier s’appelle la [blockchain](https://planb.academy/resources/glossary/blockchain). Il ne peut pas être tenu par une seule personne, sinon il faudrait lui faire confiance. À la place, Bitcoin fonctionne de façon collective : des milliers d’ordinateurs vérifient et conservent la même version de ce cahier.
+Imaginez Bitcoin comme un grand registre public, partagé par tout le monde, où l’on écrit qui a envoyé des bitcoins à qui. Ce registre s’appelle la [blockchain](https://planb.academy/resources/glossary/blockchain). Il ne peut pas être tenu par une seule personne, sinon il faudrait lui faire confiance. À la place, Bitcoin fonctionne de façon collective : des milliers d’ordinateurs vérifient et conservent la même version de ce registre.
 
 ![Image](assets/fr/049.webp)
 
-Dans Bitcoin, quand vous faites un paiement, vous créez une [transaction](https://planb.academy/resources/glossary/transaction-tx). Cette transaction n’est pas ajoutée instantanément dans le cahier. Elle est d’abord envoyée au réseau, puis elle attend d’être intégrée au prochain paquet de transactions. Ce paquet s’appelle un [bloc](https://planb.academy/resources/glossary/block).
+Dans Bitcoin, quand vous faites un paiement, vous créez une [transaction](https://planb.academy/resources/glossary/transaction-tx). Cette transaction n’est pas ajoutée instantanément dans le registre. Elle est d’abord envoyée au réseau, puis elle attend d’être intégrée au prochain paquet de transactions. Ce paquet s’appelle un [bloc](https://planb.academy/resources/glossary/block).
 
 ![Image](assets/fr/050.webp)
 
-Un bloc, c’est donc simplement un ensemble de transactions regroupées. Quand un bloc est prêt, il ne suffit pas de le publier. Il faut prouver au réseau que ce bloc mérite d’être ajouté au cahier commun. C’est là qu’intervient le minage.
+Un bloc, c’est donc simplement un ensemble de transactions regroupées. Quand un bloc est prêt, il ne suffit pas de le publier. Il faut prouver au réseau que ce bloc mérite d’être ajouté au registre commun. C’est là qu’intervient le minage.
 
 Le minage, c’est le travail qui consiste à valider un bloc en dépensant de l’énergie. Des acteurs appelés [mineurs](https://planb.academy/resources/glossary/miner) utilisent des ordinateurs spécialisés. Ces machines consomment de l’électricité pour effectuer un très grand nombre d'essais, en boucle, jusqu’à trouver une preuve que le réseau accepte. Quand un mineur trouve cette preuve, son bloc est considéré comme valide.
 
@@ -872,7 +872,7 @@ Même sans entrer dans les détails des modèles de rentabilité, il est importa
 
 Miner du Bitcoin est donc passé d’une activité accessible à n’importe qui à ses débuts, à une activité dominée par du matériel spécialisé et des opérations professionnelles. Cela ne change pas les règles du protocole. N’importe qui peut en théorie miner avec n'importe quelle machine. Mais en pratique, le niveau de difficulté et l’efficacité des ASICs ont rendu le minage domestique largement non compétitif dans la plupart des contextes.
 
-Il subsiste évidemment des situations dans lesquelles le minage domestique peut présenter un intérêt, par exemple si vous bénéficiez d’une électricité très peu chère, ou si vous valorisez la chaleur dégagée par votre mineur, par exemple pour chauffer un logement en hiver. Mais dans tous les cas, vous devrez néanmoins acquérir une machine équipée d’une puce ASIC. De plus, puisque votre puissance de minage restera extrêmement limitée à l’échelle du réseau Bitcoin, il vous faudra trouver un moyen de réduire la variance de vos revenus : c’est précisément le rôle des pools de minage dont nous allons parler dans le prochaine chapitre.
+Il subsiste évidemment des situations dans lesquelles le minage domestique peut présenter un intérêt, par exemple si vous bénéficiez d’une électricité très peu chère, ou si vous valorisez la chaleur dégagée par votre mineur, par exemple pour chauffer un logement en hiver. Mais dans tous les cas, vous devrez néanmoins acquérir une machine équipée d’une puce ASIC. De plus, puisque votre puissance de minage restera extrêmement limitée à l’échelle du réseau Bitcoin, il vous faudra trouver un moyen de réduire la variance de vos revenus : c’est précisément le rôle des pools de minage dont nous allons parler dans le prochain chapitre.
 
 Si vous souhaitez explorer des solutions de minage domestique avec valorisation de la chaleur, nous avons des tutoriels sur différents outils, à la fois prêts à l’emploi et en DIY :
 

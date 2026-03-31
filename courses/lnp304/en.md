@@ -108,17 +108,6 @@ This course assumes familiarity with the Linux command line (`bash`, `ssh`, `nan
 
 You will need either an existing LND node (testnet or mainnet) for the first 10 chapters, or a fresh Ubuntu server for the final chapter. If you have never set up a Lightning node before, I recommend starting with the [LNP 202 course](https://planb.academy/courses/lnp202).
 
-### Documentation and resources
-
-Throughout this course, we reference the official Lightning Labs documentation:
-
-- [Lightning Terminal docs](https://docs.lightning.engineering/lightning-network-tools/lightning-terminal)
-- [Loop docs](https://docs.lightning.engineering/lightning-network-tools/loop)
-- [Pool docs](https://docs.lightning.engineering/lightning-network-tools/pool)
-- [LND docs](https://docs.lightning.engineering/lightning-network-tools/lnd)
-- [Run LITD repository](https://github.com/lightninglabs/lightning-terminal)
-- [Lightning Node Connect](https://docs.lightning.engineering/lightning-network-tools/lightning-terminal/lightning-node-connect)
-
 Ready to take full control of your Lightning node? Let's get started.
 
 # First steps of installing your Lightning Node
@@ -189,7 +178,7 @@ git clone https://github.com/lightninglabs/lightning-terminal.git
 cd lightning-terminal
 ```
 
-Next, we check out the latest stable release. As of this writing, that is version `v0.12.2-alpha`:
+Next, we check out the latest stable release. You can find it on the [official releases page](https://github.com/lightninglabs/lightning-terminal/releases). As of this writing, that is version `v0.12.2-alpha`, but always verify the current version before proceeding:
 
 ```bash
 git checkout v0.12.2-alpha

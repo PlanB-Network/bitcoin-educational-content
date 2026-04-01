@@ -1,9 +1,9 @@
-question: 블록 헤더에서 논스(nonce)의 크기는 얼마입니까?
+question: 블록 헤더에서 논스(nonce) 필드의 크기는 얼마인가요
 answer: 32비트
 wrong_answers:
   - 128비트
   - 64비트
   - 256비트
 explanation: |
-  논스는 헤더에 있는 32비트 필드입니다.
-reviewed: false
+  논스는 블록 헤더 내에 포함된 32비트 크기의 필드입니다. 채굴자는 이 값을 계속 바꿔가며 유효한 블록 해시값을 찾아냅니다.
+reviewed: true

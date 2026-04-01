@@ -1,9 +1,9 @@
-question: Hashcash는 주로 어떤 문제를 해결하려고 했습니까?
+question: 해시캐시(Hashcash)가 기본적으로 해결하고자 했던 문제는 무엇인가요
 answer: 이메일 스팸
 wrong_answers:
   - 이중 지불
   - DNS 피싱
-  - 개인 키 도난
+  - 개인키 도난
 explanation: |
-  Hashcash는 대량의 이메일 전송을 수익성이 없게 만들기 위해 메시지당 컴퓨팅 비용을 부과합니다.
-reviewed: false
+  해시캐시는 이메일 메시지당 일정 수준의 계산 비용을 부과하여 대량으로 스팸 메일을 보내는 것이 경제적으로 이득이 되지 않게 만듭니다.
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - 미래 주소
 explanation: |
   입력은 UTXO라고 불리는 과거 트랜잭션의 소비되지 않은 출력을 참조합니다.
-reviewed: false
+reviewed: true

@@ -1,9 +1,9 @@
-question: 블록체인에 추가되기 전, 트랜잭션은 어디에 그룹화됩니까?
-answer: 블록 내
+question: 블록체인에 추가되기 전 트랜잭션들은 무엇으로 그룹화되나요
+answer: 블록(Block)
 wrong_answers:
-  - UTXO 내
-  - ASIC 내
-  - scriptSig 내
+  - UTXO
+  - ASIC
+  - scriptSig
 explanation: |
-  트랜잭션은 블록체인에 즉시 기록되지 않습니다. 먼저 블록에 통합됩니다.
-reviewed: false
+  트랜잭션은 즉시 블록체인에 기록되지 않으며 먼저 하나의 블록에 포함된 후 네트워크의 검증을 거쳐 추가됩니다.
+reviewed: true

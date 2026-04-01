@@ -1,9 +1,9 @@
-question: 약어 RPOW는 무엇을 의미합니까?
-answer: Reusable Proofs of Work
+question: 약어 RPOW는 무엇의 줄임말인가요
+answer: 재사용 가능한 작업 증명(Reusable Proofs of Work)
 wrong_answers:
-  - Recursive Proofs of Work
-  - Random Proofs of Work
-  - Replayed Proofs of Work
+  - 재귀적 작업 증명(Recursive Proofs of Work)
+  - 무작위 작업 증명(Random Proofs of Work)
+  - 재실행된 작업 증명(Replayed Proofs of Work)
 explanation: |
-  RPOW는 2004년 할 피니(Hal Finney)가 제안한 재사용 및 교환 가능한 작업 증명을 의미합니다.
-reviewed: false
+  RPOW는 2004년 할 피니가 제안한 재사용 및 교환 가능한 작업 증명 방식을 의미합니다.
+reviewed: true

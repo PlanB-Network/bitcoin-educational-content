@@ -1,9 +1,9 @@
-question: Bit Gold 개념의 창시자는 누구입니까?
-answer: Nick Szabo
+question: 비트 골드(Bit Gold)라는 개념을 처음 고안한 사람은 누구인가요
+answer: 닉 자보(Nick Szabo)
 wrong_answers:
-  - Satoshi Nakamoto
-  - Hal Finney
-  - Wei Dai
+  - 사토시 나카모토
+  - 할 피니
+  - 웨이 다이
 explanation: |
-  Bit Gold는 닉 사보(Nick Szabo)가 제안한 전자 화폐 시스템의 개념적 프로젝트입니다.
-reviewed: false
+  비트 골드는 닉 자보가 제안한 전자 화폐 시스템 프로젝트로 비트코인의 탄생에 영감을 준 중요한 전구체 중 하나입니다.
+reviewed: true

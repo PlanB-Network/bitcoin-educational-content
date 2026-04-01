@@ -1,9 +1,9 @@
-question: Hashcash를 발명한 사람은 누구입니까?
-answer: Adam Back
+question: 해시캐시(Hashcash)를 고안한 사람은 누구인가요
+answer: 아담 백(Adam Back)
 wrong_answers:
-  - Nick Szabo
-  - Hal Finney
-  - David Chaum
+  - 닉 자보(Nick Szabo)
+  - 할 피니(Hal Finney)
+  - 데이비드 차움(David Chaum)
 explanation: |
-  Hashcash는 아담 백(Adam Back)에 의해 발명되었습니다. 이것은 최초의 작업 증명 메커니즘입니다.
-reviewed: false
+  해시캐시는 아담 백이 고안했습니다. 이는 역사상 최초로 제안된 작업 증명(Proof of Work) 메커니즘입니다.
+reviewed: true

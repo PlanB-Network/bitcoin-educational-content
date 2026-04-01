@@ -1,9 +1,9 @@
-question: SegWit 이후, 블록의 위트니스 커밋먼트(witness commitment)는 어디에 기록됩니까?
-answer: 코인베이스의 출력(output)에
+question: 세그윗(SegWit) 이후 블록 위트니스 커밋먼트(witness commitment)는 어디에 기록되나요
+answer: 코인베이스 출력(coinbase output)
 wrong_answers:
-  - 코인베이스의 scriptSig에
-  - 버전(version) 필드에
-  - 코인베이스 수수료에
+  - 코인베이스 scriptSig
+  - 버전(version) 필드
+  - 코인베이스 수수료(fees)
 explanation: |
-  SegWit은 OP_RETURN 출력을 통해 코인베이스에 기록된 커밋먼트를 사용합니다.
-reviewed: false
+  세그윗은 코인베이스 트랜잭션의 OP_RETURN 출력 항목을 통해 블록 위트니스 커밋먼트를 기록하는 방식을 사용합니다.
+reviewed: true

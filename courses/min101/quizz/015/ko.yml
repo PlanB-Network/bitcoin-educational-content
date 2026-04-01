@@ -1,9 +1,9 @@
-question: Hashcash는 몇 년도에 제안되었습니까?
+question: 해시캐시(Hashcash)가 제안된 연도는 언제인가요
 answer: 1997
 wrong_answers:
   - 1993
   - 2004
   - 1995
 explanation: |
-  Hashcash는 1997년 3월에 처음으로 발표되었습니다.
-reviewed: false
+  해시캐시는 1997년 3월에 처음으로 발표되었습니다.
+reviewed: true

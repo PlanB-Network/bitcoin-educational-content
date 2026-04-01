@@ -1,9 +1,9 @@
-question: ASIC은 무엇의 약자입니까?
-answer: Application-Specific Integrated Circuits
+question: ASIC은 무엇의 약자인가요
+answer: 주문형 집적 회로(Application-Specific Integrated Circuits)
 wrong_answers:
-  - Advanced Secure Integrated Circuit
-  - Automated Silicon Integrated Circuit
-  - Application-Shared Integrated Circuit
+  - 고급 보안 집적 회로(Advanced Secure Integrated Circuit)
+  - 자동화 실리콘 집적 회로(Automated Silicon Integrated Circuit)
+  - 응용 공유 집적 회로(Application-Shared Integrated Circuit)
 explanation: |
-  ASIC은 단일 작업을 위해 설계된 칩입니다. 따라서 Application-Specific Integrated Circuits(주문형 집적 회로)입니다.
-reviewed: false
+  ASIC은 단일 작업을 위해 설계된 칩을 의미하며 따라서 특정 용도에 맞게 제작된 주문형 집적 회로를 뜻합니다.
+reviewed: true

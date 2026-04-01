@@ -300,7 +300,7 @@ Ku bw’ivyo, iciyumviro co kugumiza ibanga ry’ivy’uguhanahana amakuru mu ku
 
 
 
-# Ishingiro ry'imibare ry'ubuhinga bwo gupfuka 1
+# Ishingiro ry'ibiharuro ry'ubuhinga bwo guhisha amakuru (Cryptographie 1)
 
 <partId>1bf9f0aa-0f68-5493-83fb-2167238ff9de</partId>
 
@@ -310,29 +310,27 @@ Ku bw’ivyo, iciyumviro co kugumiza ibanga ry’ivy’uguhanahana amakuru mu ku
 
 <chapterId>b623a7d0-3dff-5803-bd4e-8257ff73dd69</chapterId>
 
-
-Ivy’ugushiramwo amakuru bishingiye ku biharuro. Kandi nimba ushaka kwubaka ibirenze ugutahura kw’inyuma kw’ivy’ubuhinga bwo gukingira amakuru, urakeneye kumenya neza iyo mibare.
-
-
-Iki gice kiratanga vyinshi mu biharuro vy’ishimikiro uzohura navyo mu kwiga ubuhinga bwo gukora amabanga. Ivyo biganiro birimwo ibihinduka bitari vyo, ibikorwa vya modulo, ibikorwa vya XOR, n’ibikorwa vy’imburakimazi. Ukwiye kumenya neza ibintu biri muri ivyo bice kugira ngo utahure neza ubuhinga bwo gukingira amakuru ataco buvuze.
+Ivy’uguhisha amakuru(Cryptographie) bishingiye ku biharuro. Kandi nimba ushaka kunonosora vyimbitse kw’ivy’ubuhinga bwo gukingira amakuru, urakeneye kumenya neza ivyo biharuro.
 
 
-Igice gikurikira kivuga ibijanye n’inyigisho y’imibare, iyo na yo ikaba ari ingorane nyinshi kuruta.
+Iki gice kiratanga vyinshi mu biharuro vy’ishimikiro uzohura navyo mu kwiga ubuhinga bwo gukingira amakuru ivyo bita "crytographie" . Ivyo biganiro birimwo ibihinduka bitari vyo, ibikorwa vya modulo, ibikorwa vya XOR, n’ibikorwa vy’imburakimazi. Ukwiye kumenya neza ibintu biri muri ivyo bice kugira ngo utahure neza ubuhinga bwo gukingira amakuru ataguca hejuru.
 
 
-### Ibihinduka bidasanzwe
+Igice gikurikira kivuga ibijanye n’inyigisho y’ibiharuro, iyo na yo ikaba ari ingorane nyinshi kuruta.
 
 
-Ihinduka ry'imburakimazi rigaragazwa n'urudome rudakomeye, rukomeye. Rero, nk’akarorero, twovuga ivyerekeye umuhinduzi w’imburakimazi $X$, umuhinduzi w’imburakimazi $Y$, canke umuhinduzi w’imburakimazi $Z$. Iyi ni yo notation nzokoresha kandi kuva ngaha gushika hanze.
+### Variables aléatoires
 
 
-**Ihinduka ry'imburakimazi** rishobora gufata agaciro kabiri canke garenga gashoboka, umwe wese afise ubushobozi bumwe bumwe bwiza. Ivyiza bishoboka biri mu rutonde rw'ibisubizo.
 
 
-Igihe cose **sample** umuhinduzi w'imburakimazi, ukura agaciro kanaka kuva ku ngaruka zayo hakurikijwe ibishoboka vyasobanuwe.
+**Variables aléatoires** ishobora gufata ubuciro bubiri canke burenga , umwe wese afise ubushobozi bumwe bumwe bwiza. Ivyiza bishoboka biri mu rutonde rw'ibisubizo.
 
 
-Reka duhindukire tuje ku karorero koroshe. Twibaze ko umuhinduzi X asobanurwa gutya:
+Igihe cose **muciye mumice** Variables aléatoires, ukura agaciro kanaka kuva ku bisubizo vyayo hakurikijwe ibishoboka vyagemywe.
+
+
+Reka duhindukire tuje ku karorero koroshe. Twibaze ko "variable" X asobanurwa gutya:
 
 
 
@@ -349,13 +347,13 @@ Pr[X = 2] = 0.5
 $$
 
 
-Biroroshe kubona ko $X$ ari umuhinduzi w’imburakimazi. Ica mbere, hariho agaciro kabiri canke karenga $X$ ishobora gufata, ni ukuvuga $1$ na $2$. Ubwa kabiri, agaciro kose gashoboka karafise amahirwe meza yo kubaho igihe cose ufashe nk’akarorero $X$, ni ukuvuga $0.5$.
+Biroroshe kubona ko $X$ ari variables aléatoires. Ica mbere, hariho ibiciro bibiri canke birenga $X$ ishobora gufata, ni ukuvuga $1$ na $2$. Ubwa kabiri, agaciro kose gashoboka karafise amahirwe meza yo kubaho igihe cose ufashe nk’akarorero $X$, ni ukuvuga $0.5$.
 
 
-Ivyo umuhinduzi w’imburakimazi asaba vyose ni igisubizo gifise ubushobozi bubiri canke burenga, aho ubushobozi bwose bufise ubushobozi bwiza bwo kubaho iyo umuntu afashe ivyerekanwa. Mu ngingo ngenderwako rero, igihinduka c’imburakimazi gishobora gusobanurwa mu buryo butaboneka, ata n’aho kija. Muri ivyo, woshobora kwiyumvira ko “gutora” ari ugukora igerageza ry’ibisanzwe kugira ngo umenye agaciro k’igihinduka c’imburakimazi.
+Ivyo variables aléatoires isaba vyose ni igisubizo gifise ubushobozi bubiri canke burenga, aho ubushobozi bwose bufise ubushobozi bwiza bwo kubaho iyo umuntu afashe ibigaburwa(échantillonnage). Mu ngingo ngenderwako rero, variable aleatoire ishobora gusobanurwa mu buryo butaboneka, ata n’aho kija. Muri ivyo, woshobora kwiyumvira ko “igaburwa(échantillonnage)” ari ugukora igerageza ry’ibisanzwe kugira ngo umenye agaciro ka variable aleatoire.
 
 
-Ihinduka $X$ riri hejuru ryasobanuwe mu buryo butaboneka. Ushobora rero kwiyumvira gufata urugero rw’igihinduka $X$ kiri hejuru nk’uguhindura Coin ibereye maze ugatanga “2” ku bijanye n’imitwe na “1” ku bijanye n’imirizo. Ku citegererezo cose ca $X$, usubira guhindura Coin.
+Variable $X$ iri aho hejuru ryasobanuwe mu buryo butaboneka. Ushobora rero kwiyumvira gufata urugero rwa variable $X$ nk'akarorero ko gutererera hejuru igiceri muburyo buringaniye hamwe nukugena impande “2” uruhande rwubitse “1” hamwe nokurundi ruhande. Ku citegererezo cose ca $X$, usubira gutererera hejuru igiceri.
 
 
 Canke, woshobora kandi kwiyumvira gufata ivyerekanwa vya $X$, nk’ugutera urupfu rubereye maze ugatanga “2” mu gihe urupfu rushobora gutera $1$, $3$, canke $4$, ugatanga “1” mu gihe urupfu rushobora gutera $2$, $5$, canke $6$. Igihe cose ukoresheje $X$, usubira gutera die.
@@ -364,7 +362,7 @@ Canke, woshobora kandi kwiyumvira gufata ivyerekanwa vya $X$, nk’ugutera urupf
 Mu vy’ukuri, igerageza ryose ry’ibidukikije ryogufasha gusobanura ibishoboka vy’agaciro gashoboka ka $X$ haruguru rirashobora kwiyumvirwa ku bijanye n’igishushanyo.
 
 
-Ariko rero, kenshi na kenshi, ibintu bihinduka ata co bimaze ntibishirwamwo gusa mu buryo butaboneka. Ahubwo, umugwi w’agaciro k’ivyavuyemwo bishoboka ufise insobanuro itomoye y’ukuri (aho kuba nk’imibare gusa). Ikindi, ivyo bipimo vy’ivyavuyemwo vyoshobora gusobanurwa bishingiye ku bwoko bumwe bumwe bw’igerageza (aho kuba nk’igerageza iryo ari ryo ryose ry’ibisanzwe rifise ivyo bipimo).
+Ariko rero, kenshi na kenshi,  ntibishirwamwo gusa mu buryo butaboneka. Ahubwo, umugwi w’agaciro k’ivyavuyemwo bishoboka ufise insobanuro itomoye y’ukuri (aho kuba nk’imibare gusa). Ikindi, ivyo bipimo vy’ivyavuyemwo vyoshobora gusobanurwa bishingiye ku bwoko bumwe bumwe bw’igerageza (aho kuba nk’igerageza iryo ari ryo ryose ry’ibisanzwe rifise ivyo bipimo).
 
 
 Reka ubu turimbure akarorero k'umuhinduzi $X$ adasobanuwe mu buryo butaboneka. X isobanurwa gutya kugira ngo hamenyekane mu migwi ibiri itanguye umukino w’umupira w’amaguru:
@@ -385,29 +383,29 @@ Pr [X = \text{blue kicks off}] = 0.5
 $$
 
 
-Muri ivyo, umugwi w’ivyavuyemwo wa X utanga insobanuro nyayo, ni ukuvuga ikipe itangura mu rukino rw’umupira w’amaguru. Ikindi, ingaruka zishoboka n’ibishoboka bijana navyo bigenwa n’igerageza nyaryo, ni ukuvuga guhindura Coin $C$ yihariye.
+Muri ivyo, umugwi w’ivyavuyemwo wa X utanga insobanuro nyayo, ni ukuvuga ikipe itangura mu rukino rw’umupira w’amaguru. Ikindi, ingaruka zishoboka n’ibishoboka bijana navyo bigenwa n’igerageza nyaryo, ni $C$ yihariye. itererwa hejuru ry'igiceri kanaka ca c 
 
 
-Mu biganiro vy’ubuhinga bwo gukingira amakuru, ibintu bihinduka bitari vyo akenshi bishirwamwo ku bijanye n’ivyavuyemwo bifise insobanuro y’ukuri. Bishobora kuba ari umugwi w’ubutumwa bwose bushobora gushirwa mu mfuruka, uzwi nk’umwanya w’ubutumwa, canke umugwi w’imfunguruzo zose abakoresha iyo mfunguruzo bashobora guhitamwo, uzwi nk’umwanya w’imfunguruzo.
+Mu biganiro vy’ubuhinga bwo gukingira amakuru, valeur aleatoire ishirwamwo akeshi ku bijanye n’ivyavuyemwo bifise insobanuro y’ukuri. Bishobora kuba ari umugwi w’ubutumwa bwose bushobora gushirwa mu mfuruka, uzwi nk’umwanya w’ubutumwa, canke umugwi w’imfunguruzo zose abakoresha iyo mfunguruzo bashobora guhitamwo, uzwi nk’umwanya w’imfunguruzo.
 
 
-Ibintu bihinduka mu buryo butari bwo mu biganiro ku bijanye n’ubuhinga bwo gukingira amakuru, n’aho biri ukwo, akenshi ntibisobanurwa bishingiye ku ngeragezo imwe imwe y’ibidukikije, ariko bishingiye ku ngeragezo iyo ari yo yose yoshobora gutanga ugusangira kw’ibishoboka gukwiriye.
+Valeur aleatoira mu biganiro ku bijanye n’ubuhinga bwo gukingira amakuru, n’aho biri ukwo, akenshi ntibisobanurwa bishingiye ku ngeragezo imwe imwe y’ibidukikije, ariko bishingiye ku ngeragezo iyo ari yo yose yoshobora gutanga ugusangira kw’ibishoboka gukwiriye.
 
 
-Ibihinduka bishobora kugira ivyiyumviro bitandukanye canke bikomeza. Ibihinduka vy’imburakimazi bifise **ugusangira kw’ibishoboka bitandukanye**—ni ukuvuga ibihinduka vy’imburakimazi bitandukanye—bifise umubare w’ingaruka zishoboka zidasanzwe. Ihinduka ry’imburakimazi $X$ mu ngero zompi zatanzwe gushika ubu ryari ritandukanye.
+Ibihinduka bishobora kugira ivyiyumviro bitandukanye canke bikomeza. valeur aleatoire bifise **ugusangira kw’ibishoboka bitandukanye**—ni ukuvuga valeur aleatoire—bifise igitigiri w’isubizo bishoboka bidasanzwe. Ihinduka ry’imburakimazi $X$ mu ngero zompi zatanzwe gushika ubu ryari ritandukanye.
 
 
-**Ibihinduka bikomeza** bishobora gufata agaciro mu gihe kimwe canke vyinshi. Ushobora kuvuga, nk'akarorero, ko umuhinduzi w'imburakimazi, iyo ufashe ivyitegererezo, uzofata agaciro nyako ako ari ko kose hagati ya 0 na 1, kandi ko umubare nyawo wose muri iki kiringo ushobora kuba ungana. Muri ico kiringo, hariho agaciro gashoboka katagira uko kangana.
+**variables aléatoires** zishobora gufata agaciro mu gihe kimwe canke vyinshi. Ushobora kuvuga, nk'akarorero, ko variables aléatoires , iyo ufashe ivyitegererezo, uzofata agaciro nyako ako ari ko kose hagati ya 0 na 1, kandi ko umubare nyawo wose muri iki kiringo ushobora kuba ungana. Muri ico kiringo, hariho agaciro gashoboka katagira uko kangana.
 
 
 Ku biganiro vy’ubuhinga bwa none, uzokenera gusa gutahura ibihinduka bitandukanye. Ikiganiro cose c’ibihinduka vy’impfagusa kuva ng’aha gushika hanze, rero, gikwiye gutahurwa nk’aho kijanye n’ibihinduka vy’impfagusa bitandukanye, kiretse iyo bivuzwe ukundi.
 
 
 
-### Gushushanya ibihinduka bidasanzwe
+### Gushushanya ama variable aleatoire 
 
 
-Ivyiza bishoboka n'ibishoboka bifitaniye isano n'umuhinduzi w'imburakimazi bishobora kubonwa mu buryo bworoshe biciye ku gicapo. Nk’akarorero, rimbura umuhinduzi w’imburakimazi $X$ wo mu gice c’imbere ufise umugwi w’ivyavuyemwo $\{1, 2\}$, na $Pr [X = 1] = 0.5$ na $Pr [X = 2] = 0.5$. Twoshobora kwerekana mwene iyo mpinduka mu buryo bw'igishushanyo c'imirongo nk'uko biri mu *Ishusho 1*.
+Ama "valeur" ashoboka n'amahirwe y'uko bishoboka bifitaniye isano na valeur aleatoire bishobora kubonwa mu buryo bworoshe biciye ku gicapo. Nk’akarorero, rimbura valeur aleatoire $X$ wo mu gice c’imbere ufise umugwi w’ivyavuyemwo $\{1, 2\}$, na $Pr [X = 1] = 0.5$ na $Pr [X = 2] = 0.5$. Twoshobora kwerekana mwene iyo mpinduka mu buryo bw'igishushanyo c'imirongo nk'uko biri mu *Ishusho 1*.
 
 
 *Ishusho 1: Ihinduka ry'impfagusa X*

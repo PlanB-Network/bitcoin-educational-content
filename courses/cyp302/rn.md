@@ -414,20 +414,20 @@ Ama "valeur" ashoboka n'amahirwe y'uko bishoboka bifitaniye isano na valeur alea
 ![Figure 1: Random variable X.](assets/en/002.webp)
 
 
-Ivyo bipande vyagutse biri mu *Igishushanyo 1* biragaragara ko bidasobanura ko umuhinduzi w’imburakimazi $X$ mu vy’ukuri abandanya. Ahubwo, iyo mirongo irakorwa mu buryo bwagutse kugira ngo umuntu abone neza (umurongo gusa ugororotse uratuma umuntu abona neza cane).
+Ivyo bipande vyagutse biri mu *Igishushanyo 1* biragaragara ko bidasobanura ko variable aleatoire $X$ mu vy’ukuri ibandanya. Ahubwo, iyo mirongo irakorwa mu buryo bwagutse kugira ngo umuntu abone neza (umurongo gusa ugororotse uratuma umuntu abona neza cane).
 
 
 
-### Ibihinduka bimwe
+### variables uniformes
 
 
-Mu mvugo “ihinduka ry’imburakimazi”, ijambo “ihinduka ry’imburakimazi” risobanura gusa “ibishoboka”. Mu yandi majambo, bisigura gusa ko ingaruka zibiri canke zirenga zishoboka z’igihinduka zibaho n’ibishoboka bimwebimwe. Ivyo bivako, ariko, *ntibitegerezwa* kuba bingana (naho ijambo “random” rishobora vy’ukuri kugira iyo nsobanuro mu bindi bihe).
+Mu mvugo “variable aleatoire”, ijambo “aléatoire” risobanura gusa “amahirwe y'ibishoboka”. Mu yandi majambo, bisigura gusa ko ibisubizo bibiri canke zirenga zishoboka z’igihinduka zibaho n’ibishoboka bimwebimwe. Ivyo bivako, ariko, *ntibitegerezwa* kuba bingana (naho ijambo “aléatoire” rishobora vy’ukuri kugira iyo nsobanuro mu bindi bihe).
 
 
-**Ihinduka rimwe** ni ikibazo kidasanzwe c'ihinduka ry'imburakimazi. Ishobora gufata agaciro kabiri canke karenga kose gafise ubushobozi bungana. Ihinduka ry’imburakimazi $X$ ryerekanywe mu *Ishusho 1* ni ihinduka rimwe, kuko ivyo bishoboka vyose bishika n’ibishoboka $0.5$. Ariko rero, hariho ibihinduka vyinshi vy’imburakimazi bitari ingero z’ibihinduka bimwe.
+**Variable *uniformes* ni ikibazo kidasanzwe ca variable aléatoire . Ishobora gufata ubuciro bubiri canke burenga bwose bufise ubushobozi bungana. variable aléatoire $X$ ryerekanywe mu *Ishusho 1* ni variable uniforme, kuko ivyo bishoboka vyose bishika n’ibishoboka $0.5$. Ariko rero, hariho ibihinduka vyinshi vy’imburakimazi bitari ingero z’ibihinduka bimwe.
 
 
-Rimbura nk’akarorero igihinduka c’imburakimazi $Y$. Ifise umugwi w'ivyavuyemwo {1, 2, 3, 8, 10} n'ugusangira kw'ibishoboka bikurikira:
+fata nk’akarorero variable aleatoire $Y$. Ifise umugwi w'ivyavuyemwo {1, 2, 3, 8, 10} n'ugusangira kw'ibishoboka bikurikira:
 
 
 $$
@@ -456,8 +456,8 @@ $$
 
 
 
-Naho vy’ukuri ingaruka zibiri zishoboka zifise ubushobozi bungana bwo kubaho, ni ukuvuga $1$ na $8$, $Y$ na yo nyene irashobora gufata agaciro kamwe kamwe gafise ubushobozi butandukanye n’ubw’amadolari 0.25$ iyo umuntu afashe ivyerekanwa. Ni co gituma, naho $Y$ ari umuhinduzi w’imburakimazi vy’ukuri, si umuhinduzi w’ibintu bimwe.
-
+Naho vy’ukuri ibisubizo bibiri bishoboka bifise ubushobozi bungana bwo kubaho, ni ukuvuga $1$ na $8$, $Y$ na yo nyene irashobora gufata agaciro kamwe kamwe gafise ubushobozi butandukanye n’ubw’amadolari 0.25$ iyo umuntu afashe ivyerekanwa. Ni co gituma, naho $Y$ ari variables aleatoires vy’ukuri, si .
+variable uniformes.
 
 Igishushanyo c' $Y$ kiraboneka mu *Ishusho ya 2*.
 
@@ -468,7 +468,7 @@ Igishushanyo c' $Y$ kiraboneka mu *Ishusho ya 2*.
 ![Figure 2: Random variable Y.](assets/en/003.webp "Figure 2: Random variable Y")
 
 
-Ku karorero ka nyuma, rimbura umuhinduzi w’imburakimazi Z. Ufise umugwi w’ivyavuyemwo {1,3,7,11,12} n’ugusangira kw’ibishoboka bikurikira:
+Ku karorero ka nyuma, rimbura variable aleatoire Z. Ufise umugwi w’ivyavuyemwo {1,3,7,11,12} n’ugusangira kw’ibishoboka bikurikira:
 
 
 $$
@@ -496,7 +496,7 @@ $$
 $$
 
 
-Ushobora kuyibona yerekanwa ku *Ishusho ya 3*. Ihinduka ry’imburakimazi Z ni, bitandukanye na Y, ihinduka rimwe, kuko ibishoboka vyose vy’agaciro gashoboka iyo umuntu afashe ivyitegererezo bingana.
+Ushobora kuyibona yerekanwa ku *Ishusho ya 3*. variable aleatoire Z ni, bitandukanye na Y, variables uniformes, kuko ibishoboka vyose vy’agaciro gashoboka iyo umuntu afashe ivyitegererezo bingana.
 
 
 
@@ -516,13 +516,13 @@ Twibaze ko Bob ifise umugambi wo guhitamwo mu buryo bumwe umusi umwe wo mu mwaka
 Igihe cose twiyumvira ko uburyo bwa Bob buzoba bumwe vy’ukuri, dukwiye gushika ku ciyumviro c’uko hariho 1/4 y’ibishoboka ko Bob ihitamwo umusi mu ci. Ivyo ni **ibishoboka bitagira aho bigarukira** vy’uko umusi watowe mu buryo bw’impfagusa uri mu Ci.
 
 
-Twibaze ubu ko aho gucapura umusi w’ikirangamisi mu buryo bumwe, Bob ihitamwo gusa mu buryo bumwe muri iyo misi ubushuhe bwo ku muhingamo ku kiyaga Crystal (New Jersey) bwari degre 21 canke zirenga. Hakurikijwe ayo makuru y’inyongera, twoshika ku ciyumviro iki ku bijanye n’uko Bob izohitamwo umusi mu Ci?
+Twibaze ubu ko aho gucapura umusi w’ikirangamisi mu buryo bumwe, Bob ihitamwo gusa mu buryo bumwe muri iyo misi ubushuhe bwo ku muhingamo ku kiyaga Crystal (New Jersey) bwari degre 21 canke zirenga. Hakurikijwe ayo makuru y’inyongera, twoshika ku ciyumviro iki ku bijanye n’uko Bob azohitamwo umusi mu Ci?
 
 
 Mu vy’ukuri dukwiye gushika ku nsozero itandukanye n’iyo twari dufise mbere, mbere ata yandi makuru yihariye (nk’akarorero, ubushuhe bwo ku muhingamo buri musi mu mwaka w’ikirangamisi uheze).
 
 
-Kubera ko tuzi ko ikiyaga Crystal kiri muri New Jersey, nta gukeka ko tutokwitega ko ubushuhe bwo ku manywa buzoba ari degre 21 canke zirenga mu Rushana. Ahubwo, birashoboka cane ko uba umusi ushushe mu Ci canke mu mpera z’umwaka, canke umusi ahantu kanaka mu Ci. Ku bw’ivyo, kumenya ko ubushuhe bwo ku muhingamo ku kiyaga ca Crystal ku musi watowe bwari degre 21 canke zirenga, ubushobozi bwo kuba umusi watowe na Bob woba uri mu Ci buraba bwinshi cane. Ivyo ni **ibishoboka** vy’uko umusi watowe mu buryo bw’impfagusa uba mu Ci, kubera ko ubushuhe bwo ku muhingamo ku kiyaga ca Crystal bwari degre 21 canke zirenga.
+Kubera ko tuzi ko ikiyaga Crystal kiri muri New Jersey, nta gukeka ko tutokwitega ko ubushuhe bwo ku murango buzoba ari degre 21 canke zirenga mu Rushana(hiver). Ahubwo, birashoboka cane ko uba umusi ushushe muri printemps canke mu mpera z’umwaka, canke umusi ahantu kanaka mu Ci(été). Ku bw’ivyo, kumenya ko ubushuhe bwo ku muhingamo ku kiyaga ca Crystal ku musi watowe bwari degre 21 canke zirenga, ubushobozi bwo kuba umusi watowe na Bob woba uri mu Ci buraba bwinshi cane. Ivyo ni **ibishoboka** vy’uko umusi watowe mu buryo bw’impfagusa uba mu Ci, kubera ko ubushuhe bwo ku muhingamo ku kiyaga ca Crystal bwari degre 21 canke zirenga.
 
 
 Mu buryo butandukanye n’akarorero ka mbere, ibishoboka vy’ibintu bibiri na vyo nyene birashobora kuba bitagira isano ryose. Muri ivyo, tuvuga ko ari **abigenga**.

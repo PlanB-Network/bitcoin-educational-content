@@ -604,16 +604,16 @@ Nk’akarorero, noshobora kubabaza ko ingurube zishobora kuguruka mu mwaka w’2
 <chapterId>709b34e5-b155-53d2-abbd-97d67e56db00</chapterId>
 
 
-### Module
+### Modulo
 
 
-Invugo y'ishimikiro cane ifise **igikorwa ca modulo** ni iyo mu buryo bukurikira: $x \mod y$.
+Inyandiko y'ishimikiro cane ifise **igikorwa ca modulo** ni iyo mu buryo bukurikira: $x \mod y$.
 
 
-Ihinduka $x$ ryitwa umugabane kandi ihinduka $y$ ryitwa umugabane. Kugira ngo ukore igikorwa ca modulo gifise umugabane mwiza n’umugabane mwiza, umenya gusa igice gisigaye c’umugabane.
+la variable $x$ ryitwa "dividende" kandi ihinduka $y$ ryitwa diviseur. Kugira ngo ukore igikorwa ca modulo gifise "dividende positif" na diviseur positif", umenya gusa igice gisigaye citwa "reste(agasigara)" c’igaburira(division).
 
 
-Nk’akarorero, rimbura imvugo $25 \mod 4$. Umubare 4 uja mu mubare 25 incuro 6 zose hamwe. Igisigaye c’uwo mugabane ni 1. Ni co gituma, $25 \mod 4$ ingana na 1. Mu buryo busa n’ubwo, turashobora gusuzuma imvugo zikurikira:
+Nk’akarorero, dufatiye kumwandikire $25 \mod 4$. igiharuro 4 uja mu mugiharuro 25 incuro 6 zose hamwe. Igisigaye(le reste) ciryo gaburira mugabane(division) ni 1. Ni co gituma, $25 \mod 4$ ingana na 1. Mu buryo busa n’ubwo, turashobora gusuzuma imvugo zikurikira:
 
 
 
@@ -623,18 +623,18 @@ Nk’akarorero, rimbura imvugo $25 \mod 4$. Umubare 4 uja mu mubare 25 incuro 6 
 - $20 \mod 8 = 4$ (nk'uko 8 ija muri 20 yose hamwe incuro 2 igisigaye ni 4)
 
 
-Iyo umugabane canke umugabane ari mubi, ibikorwa vya modulo bishobora gukorwa mu buryo butandukanye n’indimi zo gukora porogarama.
+Iyo dividende canke diviseur biri "negatif", ibikorwa vya modulo bishobora gukorwa mu buryo butandukanye n’indimi za programmation.
 
 
-Uzohura ata gukeka n’ibibazo bifise umugabane mubi mu vy’ubuhinga bwo gukingira amakuru. Muri ivyo bihe, uburyo busanzwe bwo kubikora ni ubu:
+Uzohura ata gukeka n’ibibazo bifise dividende iri negatif mu vy’ubuhinga bwo gukingira amakuru(cryptographie). Muri ivyo bihe, uburyo busanzwe bwo kubikora ni ubu:
 
 
 
-- Mbere menya agaciro ka hafi *kari hasi canke kangana* n’umugabane umugabane agabanyamwo n’igisigaye ca zero. Hamagara ako gaciro $p$.
-- Iyo umugabane ari $x$, rero igisubizo c’igikorwa ca modulo ni agaciro ka $x – p$.
+- Mbere na mbere gena agaciro ka hafi *kari hasi canke kangana* na dividende aho diviseur igaburwa n’agasigara(reste) ka zero. Twite ako gaciro(valeur) $p$.
+- N'iyo dividende izoba ingana na $x$, rero inyishu y’igikorwa ca modulo ingana agaciro(valeur) ka $x – p$.
 
 
-Nk’akarorero, dufate ko umugabane ari $–20$ kandi umugabane ari 3. Agaciro ka hafi cane kari munsi canke kangana na $–20$ aho 3 igabanywamwo kimwe ni $–21$. Agaciro ka $x – p$ muri iki gihe ni $–20 – (–21)$. Ivyo bingana na 1 kandi, rero, $–20 \mod 3$ bingana na 1. Mu buryo busa n’ubwo, turashobora gusuzuma imvugo zikurikira:
+Nk’akarorero, dufate ko dividende ingana na $–20$ hama diviseur ingana na 3. Agaciro ka hafi cane kari munsi canke kangana na $–20$ igaburika na 3  ni $–21$. Agaciro ka $x – p$ muri ico gihe ni $–20 – (–21)$. Ivyo bingana na 1 kandi, rero, $–20 \mod 3$ bingana na 1. Mu buryo busa n’ubwo, turashobora gusuzuma imvugo zikurikira:
 
 
 
@@ -643,13 +643,13 @@ Nk’akarorero, dufate ko umugabane ari $–20$ kandi umugabane ari 3. Agaciro k
 - $-14 \mod 6 = 4$
 
 
-Ku bijanye n'ugushiramwo amajambo, uzobona ubwoko bw'imvugo zikurikira: $x = [y \mod z]$. Kubera ibifunga, igikorwa ca modulo muri iki gihe gikoreshwa gusa ku ruhande rw'iburyo rw'imvugo. Niba $y$ ingana na 25 na $z$ ingana na 4, nk'akarorero, rero $x$ isuzuma kuri 1.
+Ku bijanye n'inyandiko, uzobona ubwoko bw'inyandiko zikurikira: $x = [y \mod z]$. Kubera ibifunga(crochets), igikorwa ca modulo muri iki gihe gikoreshwa gusa ku ruhande rw'iburyo rw'imvugo. Niba $y$ ingana na 25 na $z$ ingana na 4, nk'akarorero, rero $x$ ingana 1.
 
 
-Ata n'ibifunga, igikorwa ca modulo gikora ku *mpande zompi* z'imvugo. Twibaze nk’akarorero, imvugo ikurikira: $x = y \mod z$. Niba $y$ ingana na 25 na $z$ ingana na 4, rero ico tuzi ni uko $x \mod 4$ isuzuma kuri 1. Ivyo bihuye n’agaciro ako ari ko kose ka $x$ kavuye mu mugwi $\{\ldots,–7, –3, 1, 5, 9,\ldots\}$.
+Ata n'ibifunga(crochets), igikorwa ca modulo gikora ku *mpande zompi* z'imvugo. Twibaze nk’akarorero, imvugo ikurikira: $x = y \mod z$. Niba $y$ ingana na 25 na $z$ ingana na 4, rero ico tuzi ni uko $x \mod 4$ ingana na 1. Ivyo bihuye n’agaciro ako ari ko kose ka $x$ kavuye mu mugwi $\{\ldots,–7, –3, 1, 5, 9,\ldots\}$.
 
 
-Ishami ry'imibare rikoresha ibikorwa vy'imibare n'imvugo ryitwa **imibare y'imibare**. Ushobora kwiyumvira iryo shami nk’imibare ku bibazo aho umurongo w’imibare udafise uburebure butagira uko bungana. Naho mu bisanzwe duhura n'ibikorwa vya modulo ku mibare (nziza) mu buhinga bwo gukingira, ushobora kandi gukora ibikorwa vya modulo ukoresheje imibare nyayo iyo ari yo yose.
+Ishami ry'ibiharuro rikoresha ibikorwa vya modulo kubitigiri n'iyandikwa ryayo ryitwa **arithmétique modulaire**. Ushobora kwiyumvira iryo shami nk’imibare ku bibazo aho umurongo w’imibare udafise uburebure butagira uko bungana. Naho mu bisanzwe duhura n'ibikorwa vya modulo ku mibare (nziza) mu buhinga bwo gukingira, ushobora kandi gukora ibikorwa vya modulo ukoresheje imibare nyayo iyo ari yo yose.
 
 
 ### Ihinduka ry'ibanga

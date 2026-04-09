@@ -1,0 +1,22 @@
+id: 8b810fe9-1f06-499b-a919-3da7d0390adb
+name: Bitcoin District Próspera
+category: communities
+address_city_country: "Próspera, Roatán, Honduras"
+links:
+  website: https://thebitcoindistrict.com/
+  twitter: https://x.com/BitcoinProspera
+  nostr: npub1r7dky4udgx664qf2rrnvpp65sp2ruq9dv9pt0pwnvlvar53ajawstht8k3
+tags:
+  - bitcoin
+  - education
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-12-23
+    urgency: 1
+    contributor_names:
+      - alexpiffa
+    reward: 0
+contributor_names:
+  - alexpiffa
+license: CC-BY-SA-V4

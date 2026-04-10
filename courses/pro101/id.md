@@ -3003,7 +3003,7 @@ Terlepas dari manfaatnya, dompet Lightning menghadapi beberapa kritik dan area u
 - Pengembangan Sumber Terbuka**: Tingkat kontribusi sumber terbuka yang bervariasi memengaruhi kepercayaan pengguna dan laju inovasi.
 
 
-### Wawasan tambahan dan kasus penggunaan--=-
+### Wawasan tambahan dan kasus penggunaan
 
 
 #### Tantangan algoritma:

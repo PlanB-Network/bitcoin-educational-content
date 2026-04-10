@@ -1,18 +1,14 @@
 id: 1e7cc4bb-8ffa-49c0-8d52-967e3f56ff3a
-name: Villaggio BTC
+name: Villaggio Bitcoin
 category: communities
 address_city_country: Italy
-address_line_2: ''
-address_line_3: ''
-language:
-  - it
 links:
-  website: 
+  website: https://www.villaggiobitcoin.it/
   twitter: https://x.com/VillaggioBTC
-  github: 
-  youtube: 
+  linkedin: https://it.linkedin.com/company/villaggio-bitcoin
 tags:
   - adoption
+  - education
 original_language: it
 proofreading:
   - language: it

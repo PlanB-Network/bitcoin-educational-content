@@ -5,5 +5,5 @@ wrong_answers:
   - 100,000
   - 10,000
 explanation: |
-[Napisał](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html), że możliwość generowania jednostek dzisiaj za cenę kilku centów za czas obliczeniowy może być bardzo dobrą inwestycją.
+  [Napisał](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html), że możliwość generowania jednostek dzisiaj za cenę kilku centów za czas obliczeniowy może być bardzo dobrą inwestycją.
 reviewed: true

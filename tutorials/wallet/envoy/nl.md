@@ -99,7 +99,7 @@ Je kunt het APK-bestand ook rechtstreeks downloaden [van Foundation's GitHub rep
 ![Image](assets/fr/51.webp)
 
 
-Zodra de applicatie open is, selecteer je "*Manage Paspoort*".
+Zodra de applicatie open is, selecteer je "*Manage Passport*".
 
 
 ![Image](assets/fr/52.webp)
@@ -314,7 +314,7 @@ Nu is het tijd om een nieuwe Bitcoin-wallet aan te maken. Klik op de bevestiging
 ![Image](assets/fr/27.webp)
 
 
-Om een nieuwe wallet aan te maken, klik je op "*Create New Seed* aanmaken".
+Om een nieuwe wallet aan te maken, klik je op "*Create New Seed*".
 
 
 ![Image](assets/fr/28.webp)
@@ -427,7 +427,7 @@ Je hebt nu toegang tot de openbare informatie van je wallet op Envoy, maar om bi
 ![Image](assets/fr/71.webp)
 
 
-## Ontdek de menus in Passpoort
+## Ontdek de menus in Passport
 
 
 Je Passport-interface heeft drie hoofdmenu's:
@@ -458,7 +458,7 @@ Het submenu "*Account Tools*" biedt opties zoals het verifiëren van een adres, 
 ![Image](assets/fr/38.webp)
 
 
-In het submenu "*Manage Account*" kun je je Bitcoin-wallet koppelen aan walletbeheersoftware. Daarnaast kun je je account bekijken en hernoemen. We bahandelen de software in de volgende stappen van deze tutorial. 
+In het submenu "*Manage Account*" kun je je Bitcoin-wallet koppelen aan walletbeheersoftware. Daarnaast kun je je account bekijken en hernoemen. We behandelen de software in de volgende stappen van deze tutorial. 
 
 
 ![Image](assets/fr/39.webp)

@@ -20,7 +20,7 @@ In deze tutorial gaan we uitzoeken hoe je de vele functies van Aqua kunt gebruik
 ## Wat is een sidechain?
 
 
-Het Bitcoin-protocol heeft opzettelijke technische beperkingen die helpen de decentralisatie van het netwerk te behouden en de veiligheid over alle gebruikers te verdelen. Deze beperkingen kunnen voor gebruikers soms echter frustrerend zijn, vooral tijdens congestieperioden als gevolg van een hoog volume aan gelijktijdige transacties. Het debat over de schaalbaarheid van Bitcoin heeft de gemeenschap lang verdeeld gehouden, met name tijdens de Blocksize War. Sinds deze episode wordt binnen de Bitcoin-gemeenschap algemeen aanvaard dat schaalbaarheid door off-chain oplossingen, oftewel second-layer-systemen, moet worden verzekers. Deze oplossingen omvatten sidechains, die nog relatief onbekend zijn en in vergelijking met andere systemen zoals het Lightning Network weinig gebruikt worden.
+Het Bitcoin-protocol heeft opzettelijke technische beperkingen die helpen de decentralisatie van het netwerk te behouden en de veiligheid over alle gebruikers te verdelen. Deze beperkingen kunnen voor gebruikers soms echter frustrerend zijn, vooral tijdens congestieperioden als gevolg van een hoog volume aan gelijktijdige transacties. Het debat over de schaalbaarheid van Bitcoin heeft de gemeenschap lang verdeeld gehouden, met name tijdens de Blocksize War. Sinds deze episode wordt binnen de Bitcoin-gemeenschap algemeen aanvaard dat schaalbaarheid door off-chain oplossingen, oftewel second-layer-systemen, moet worden verzekerd. Deze oplossingen omvatten sidechains, die nog relatief onbekend zijn en in vergelijking met andere systemen zoals het Lightning Network weinig gebruikt worden.
 
 
 Een sidechain is een onafhankelijke blockchain die parallel aan de hoofd-Bitcoin-blockchain werkt. Het gebruikt bitcoin als rekeneenheid, dankzij een mechanisme genaamd "*two-way peg*". Dit systeem maakt het mogelijk om bitcoins vast te zetten op de hoofdketen om hun waarde te reproduceren op de sidechain, waar ze circuleren in de vorm van tokens die gedekt worden door de originele bitcoins. Deze tokens behouden normaal gesproken dezelfde waarde als de bitcoins die op de hoofdketen zijn vergrendeld, en het proces kan worden omgekeerd om geld terug te krijgen op Bitcoin.
@@ -182,7 +182,7 @@ Hier kun je je transactie en je L-BTC saldo bekijken.
 ## Bitcoin omwisseling (swap) met Aqua
 
 
-Nu je activa hebt in je Aqua-wallet, kun je deze direct vanuit de app omwisselen. Dit kun je doen om ze over te zetten naar de Bitcoin-blockchain, of naar Liquid, of om je bitcoins om te wisselen naar een USDT-stablecoin (of andere). Je kunt ook je bitcoins omzetten in USDT stablecoin (of andere). Ga hiervoor naar het menu "*Marketplace*".
+Nu je activa hebt in je Aqua-wallet, kun je deze direct vanuit de app omwisselen. Dit kun je doen om ze over te zetten naar de Bitcoin-blockchain, of naar Liquid, of om je bitcoins om te wisselen naar een USDT-stablecoin (of andere). Ga hiervoor naar het menu "*Marketplace*".
 
 
 ![AQUA](assets/fr/22.webp)

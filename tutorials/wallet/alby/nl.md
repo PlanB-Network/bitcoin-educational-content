@@ -166,7 +166,7 @@ Open ontvangstkanalen; deze bepalen het totale aantal satoshis dat je kunt ontva
 
 
 
-Open verzendkanalen door satoshis te blokkeren op een onchain bitcoin-adres. De geblokkeerde satoshis bepalen het toaal aan satoshis dat je kunt uitgeven.
+Open verzendkanalen door satoshis te blokkeren op een onchain bitcoin-adres. De geblokkeerde satoshis bepalen het totaal aan satoshis dat je kunt uitgeven.
 
 
 

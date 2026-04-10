@@ -241,7 +241,7 @@ Op je Multisig-wallet pagina vind je je transactiegeschiedenis en de knoppen Rec
 
 
 
-Bitcoins ontvangen in een mulitsig-wallet is hetzelfde proces als in een standaard Bitcoin-wallet.
+Bitcoins ontvangen in een multisig-wallet is hetzelfde proces als in een standaard Bitcoin-wallet.
 
 
 

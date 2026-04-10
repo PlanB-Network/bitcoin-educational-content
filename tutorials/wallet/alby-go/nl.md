@@ -93,7 +93,7 @@ Sats ontvangen met Alby Go:
 
  - Deel je Lightning-adres zoals weergegeven
  - Selecteer "Bedrag" om een Lightning-invoice met aangepast bedrag te maken
- - Klik op "Redeem" om een afhaal LNRL QR-code te scannen 
+ - Klik op "Redeem" om een afhaal LNURL QR-code te scannen 
 
 
 Zowel QR-codes als invoice strings zijn beschikbaar voor het gemak van de verzender.
@@ -105,7 +105,7 @@ Zowel QR-codes als invoice strings zijn beschikbaar voor het gemak van de verzen
 
 Neem je bitcoin overal mee naartoe.
 
-**Alby Go** is lichtgewicht, snel en makkelijk te gebruiken - perfect voor node-operators en Bitcoiners die onderweg ziin.
+**Alby Go** is lichtgewicht, snel en makkelijk te gebruiken - perfect voor node-operators en Bitcoiners die onderweg zijn.
 
 Geen opgeblazen gevoel. Geen gedoe. Bliksemsnel.
 

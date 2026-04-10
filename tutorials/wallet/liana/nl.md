@@ -97,7 +97,7 @@ Als je wilt weten hoe je handmatig de authenticiteit en integriteit van software
 
 https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
-Installeer de software op je machine en start het op. Kies de optie "*reate a new Liana-wallet*" om je wallet te configureren.
+Installeer de software op je machine en start het op. Kies de optie "*Create a new Liana-wallet*" om je wallet te configureren.
 
 
 ![Accueil Liana](assets/fr/03.webp)
@@ -175,7 +175,7 @@ Zodra al deze acties zijn voltooid, controleer je of alles in orde is en klik je
 De volgende stap is het opslaan van je wallet descriptor. Dit is de informatie die je nodig hebt om het geld op je rekening terug te vinden. In tegenstelling tot de mnemonische zin, kun je met de descriptor geen geld uitgeven, dus het vrijgeven ervan leidt alleen tot een privacyprobleem (de persoon zal al je transacties zien).
 
 
-Bewaar twee kopieën van de descriptor op elektronische media, zoals USB-sticks. Zorg er ook voor dat je twee kopieën op papier afdrukt, voor het geval elektronische media beschadigd raken. Elke back-up moet gekoppeld zijn aan een ondertekenapparaat (sigining device).
+Bewaar twee kopieën van de descriptor op elektronische media, zoals USB-sticks. Zorg er ook voor dat je twee kopieën op papier afdrukt, voor het geval elektronische media beschadigd raken. Elke back-up moet gekoppeld zijn aan een ondertekenapparaat (signing device).
 
 
 ![Sauvegarder descripteur](assets/fr/12.webp)

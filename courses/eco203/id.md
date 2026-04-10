@@ -514,8 +514,6 @@ Pada 27 Juni 1848, sehari setelah pemberontakan baru yang berdarah di Paris, dal
 
 ![image](assets/id/060.webp)
 
-Artinya:
-
 Dan dia akan terus menganalisis dampak buruknya setelah itu. Berikut adalah satu contoh, yang dikutip dalam surat kepada Cobden:
 
 

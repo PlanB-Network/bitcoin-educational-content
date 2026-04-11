@@ -1,21 +1,26 @@
+id: 5501cad9-e0c7-44e2-85f5-fbf1112661a3
+
 name: Hablemos de Bitcoin
-
-address_line_1:
-address_line_2:
-address_line_3: 
-
-language: 
-  - sp
 
 links:
   website: https://hablemosdebitcoin.xyz
   twitter: https://x.com/FranHablemosBTC
-  Github:
-  youtube:
   nostr: npub10prp2kyas3n08wa74vd6zq35jjxsk58rzzjmu3lgtdqmtatdv22suzyndk
 
-tags:
-  - bitcoin  
-  - education
-
 category: education
+
+original_language: es
+proofreading:
+  - language: es
+    last_contribution_date: "2026-04-11"
+    urgency: 1
+    contributor_names:
+      - Fran-hablemosdebitcoin
+    reward: 0
+
+contributor_names:
+  - Fran-hablemosdebitcoin
+
+tags:
+  - bitcoin
+  - education

@@ -686,7 +686,7 @@ Mari kita beralih ke sebuah contoh. Misalkan $G = \langle \mathbb{Z} \mod 7, + \
 
 Beberapa grup Abelian memiliki satu atau lebih elemen, yang dapat menghasilkan semua elemen grup lainnya melalui eksponensial yang berkelanjutan. Elemen-elemen ini disebut **generator** atau **elemen primitif**.
 
-Kelas yang penting dari kelompok tersebut adalah $\langle \mathbb{Z}^* \mod N, \cdot \rangle$, di mana $N$ adalah sebuah bilangan prima. Notasi $\mathbb{Z}^*$ ddi sini berarti bahwa grup tersebut berisi semua bilangan bulat positif bukan nol yang kurang dari $N$. Oleh karena itu, grup seperti ini selalu memiliki elemen $N - 1$.
+Kelas yang penting dari kelompok tersebut adalah $\langle \mathbb{Z}^* \mod N, \cdot \rangle$, di mana $N$ adalah sebuah bilangan prima. Notasi $\mathbb{Z}^*$ di sini berarti bahwa grup tersebut berisi semua bilangan bulat positif bukan nol yang kurang dari $N$. Oleh karena itu, grup seperti ini selalu memiliki elemen $N - 1$.
 
 Sebagai contoh, $G = \langle \mathbb{Z}^* \mod 11, \cdot \rangle$. Grup ini memiliki elemen-elemen berikut: $\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\}$. Urutan grup ini adalah 10 (yang memang sama dengan $11 - 1$).
 

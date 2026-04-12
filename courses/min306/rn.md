@@ -1,86 +1,84 @@
 ---
-name: Bitaxe Inkomoko Yuguruye Mining Ubuhinga
-goal: Kumenya neza ibidukikije vyose vya Bitaxe, kuva ku gukoranya ibikoresho gushika ku guhindura ibintu biteye imbere no gutuma ibikorwa bigenda neza
+name: Kuba inzobere mugukora mining y'isoko y'uguruye (open source mining) ya Bitaxe
+goal: Kuba inzobere mw'isi ya yuzuye ya Bitaxe, kuva ku gukoranya ibikoresho gushika ku guhindura ibintu bimwe vy'ubuhinga bwohejuru no gutuma ibikorwa bigenda neza
 objectives: 
 
-  - Gutahura filozofiya y'inkomoko yuguruye Bitcoin mining ibikoresho
+  - Gutahura firozofiya y'ibikoresho vyogukora Bitcoin mining vy'isoko yuguruye
   - Kubaka ibikoresho vya Bitaxe mining kuva mu ntango
-  - Gutunganya no gutunganya neza porogaramu ya mining harimwo AxeOS na Public Pool
-  - Gushira mu ngiro uburyo bwo gutuma ibikorwa bigenda neza harimwo no gupima no gupima
+  - Gutunganya no gutuma porogarame ya mining ikora neza  harimwo AxeOS na Public Pool
+  - Gushira mu ngiro uburyo bwohejuru bwo gutuma ibikorwa bigenda neza harimwo overclocking(kwongerera ubushobozi) na benchmarking(gusuzuma imikorere)
 
 ---
 
-# Igitabo cawe ca Bitaxe Mining
+# Amabwirizwa ngenderwako yawe ya Bitaxe Mining
 
 
-Ikaze mu nyigisho ya Bitaxe, aho uzomenya neza ubuhinga bushasha bwa Bitcoin mining bufise ubuhinga bwo gukoresha ubuhinga bwa mining. Iyi nyigisho ikujana mu gutahura imishinge ya filozofiya ya mining yegerejwe gushika ku buhinga buteye imbere bwo guhindura ibikoresho n’ubuhinga bwo gutuma ibikorwa bikora neza.
+Ikaze muri iki cigwa ca Bitaxe, aho uzomenya neza ubuhinga ibikoresho bizanye impinduka muri mining y'isoko yuguruye bifise gushitsa kuri bose ikoranabuhanga rya mining. Iki cigwa kikujana mu gutahura imishinge ya firozofiya ya mining ikwiragijwe (decentrarized) gushika ku buhinga buteye imbere bwo guhindura ibikoresho n’ubuhinga bwo gutuma ibikorwa bikora neza.
 
 
-Umugambi wa Bitaxe ugereranya ihinduka ry’akarorero muri Bitcoin mining, ugaca ububasha bw’abahinguzi ba ASIC mu gutanga imigero y’inkomoko yuguruye, porogarama n’amaporogarama. Biciye muri ivyo bice vy’ibikorwa, uzoronka ubuhinga ngirakamaro mu gukoranya ibikoresho, gutunganya porogarama, guhingura PCB, no gutuma ikora neza.
+Umugambi wa Bitaxe buhagarariye impinduka y’akarorero muri Bitcoin mining, ugaca ukwiharira isoko kw’abahinguzi ba ASIC mu gutanga uburyo bw'isoko y'uguruye bwuzuye, porgarame ya firmware, n'izindi porogarame. Biciye muri ibi bice vy’ibikorwa, uzoronka ubuhinga ngirakamaro mu gukoranya ibikoresho, gutunganya porogarame, guhingura PCB, no gutuma ibintu bigenda neza.
 
 
-Nta bumenyi bwa mining busabwa, naho ubumenyi bw’ishimikiro bw’ivy’ubuhinga bwa none n’ukumenya GitHub bizofasha. Iryo shure rizoguhindura kuva ku muntu yitegereza ibintu vyinshi, ukaja ku muntu ashoboye kwubaka Bitaxe no gutanga umusanzu.
-
-Iciyumviro: Amavidewo y'iri somo aboneka mu congereza gusa.
+Nta bumenyi bwa mining busabwa imbere y'igihe, naho ubumenyi bw’ishimikiro bw’ivy’ubuhinga bwa eregitoronike n’ukumenya GitHub bizofasha. Iki cigwa kizoguhindura kuva ku muntu afise ubushake bwo kumenya ibintu vyinshi ukaja ku muntu ashoboye kwubaka Bitaxe no gutanga intererano.
 
 +++
 
 
-# Imenyekanisha
+# Intangamarara
 
 
 <partId>6b3cd9f0-0063-40f0-a7bb-00a48f330d88</partId>
 
 
-## Incamake y'amashure
+## Incamake y'icigwa
 
 
 <chapterId>1fac9579-0e1c-48e3-9bc5-e7a2960018c8</chapterId>
 
 
-Murakaze mu nyigisho MIN 306 _**Ubuhinga bwo gukoresha Bitaxe Mining**_, urugendo rwuzuye mw'isi ya Bitaxe mining. Iryo shure ryagenewe abashaka gutahura, kwubaka no gutuma ibikoresho vyabo vya Bitaxe mining bigenda neza mu gihe bariko baratohoza imishinge y’ubuhinga n’ubuhinga bituma uyu mugambi uba uwudasanzwe mu bidukikije vya Bitcoin.
+Murakaze mu cigwa MIN 306 _**Kuba inzobere mugukora mining y'isoko y'uguruye**_, urugendo  rwuzuye mw'isi ya Bitaxe mining. Iryo shure ryagenewe abashaka gutahura, kwubaka no gutuma ibikoresho vyabo vya Bitaxe mining bigenda neza mu gihe bariko baratohoza imishinge ya firozofiya niy’ubuhinga ituma uyu mugambi uba uwudasanzwe muri sisiteme ya Bitcoin.
 
 
 ### Gutahura Bitaxe
 
 
-Igice ca mbere gishiraho umushinge w’ingenzi: uzobona inkomoko y’umugambi wa Bitaxe, iterambere ryawo, n’agaciro k’ugusenyura ubutegetsi n’uguseruka biwusobanura. Uzomenya ico Bitaxe ari co, ingene itandukanye n’ama ASIC y’abanyagihugu, n’aho woronkera ibikoresho vyo mu kibano kugira ngo ukomeze ubumenyi bwawe. Iki gice kiratanga ibisobanuro bikenewe kugira ngo umuntu atahure igituma Bitaxe iserukira ihinduka rikomeye mu mateka ya Bitcoin mining.
+Igice ca mbere gishiraho umushinge nkenegwa: uzobona inkomoko y’umugambi wa Bitaxe, iterambere ryawo, n’agaciro k’ugukwiragiza n’ugukorera mu muco biwusobanura. Uzomenya ico Bitaxe ari co, ingene itandukanye n’ama ASIC afise abo yitirirwa, n’aho woronkera ibikoresho n'uburyo vyo gufasha gukomeze ubumenyi bwawe. Iki gice kiratanga ibisobanuro bikenewe kugira ngo umuntu atahure igituma Bitaxe ihagarariye impinduka ikomeye mu mateka ya Bitcoin mining.
 
 
-### Porogaramu n'imikorere
+### porogarame n'ibikorwa
 
 
-Igice ca kabiri kivuga cane ku bidukikije vya porogarama, n’ugushikiriza mu buryo burambuye *AxeOS*: ubuhinga bwo gukoresha bufunguye bwagenewe cane cane ibikoresho vya Bitaxe. Uzomenya ibiranga vyayo nyamukuru n’ingene wobitunganya no gukorana n’igikoresho cawe kugira ngo utangure igikorwa cawe ca mbere ca mining.
+Igice ca kabiri kivuga cane ku bidukikije vya porogarame, n’ugushikiriza mu buryo burambuye *AxeOS*: sisiteme ya open-source yagenewe cane cane ibikoresho vya Bitaxe. Uzomenya ibiranga vyayo nyamukuru n’ingene wobitunganya no gukorana n’igikoresho cawe kugira ngo utangure igikorwa cawe ca mbere ca mining.
 
 
-### Umuryango n'ubufatanye
+### Umuryango wagutse n'ubufatanye
 
 
-Igice ca gatatu kirerekana uruhande rw’ubufatanye rw’uwo mugambi. Uzokwihweza filozofiya y’inkomoko yuguruye ikoreshwa mu gutegura ibikoresho n’amaporogarama ya Bitaxe. Biciye mu myimenyerezo, uzomenya ingene wotanga umusanzu mu buryo butaziguye kuri kode y’inkomoko, kandi uzobona kandi _Public Pool_, urubuga rw’abanyagihugu rwo gukoranya ubushobozi bwo gukoresha ubuhinga bwa none. Uzomenya kandi ingene woyishira ku nzira ya Umbrel kugira ngo ukoreshe mu karere no mu gihugu.
+Igice ca gatatu kirerekana uruhande rw’ubufatanye rw’uwo mugambi. Uzokwihweza firozofiya y’isoko yuguruye ikoreshwa mu gutegura ibikoresho n’amaporogarame ya Bitaxe. Biciye mu myimenyerezo, uzomenya ingene wotanga intererano mu buryo buziguye kuri kode y’isoko, kandi uzobona kandi _Public Pool_, urubuga rw’abaryango rwo gukoranya ubushobozi bwo gukoresha ubuhinga bwa none. Uzomenya kandi ingene woyishira kuri node ya Umbrel kugira ngo uyikoreshe aho mu karere no mu gihugu.
 
 
-### Ikoraniro ry'ibikoresho n'ugutorera umuti ingorane
+### Gukoranya ibikoresho n'ugutorera umuti ingorane
 
 
-Mu gice ca kane, uzokwisuka mu bikoresho ubwavyo. Uzomenya ingene womenya ibikoresho bikenewe kugira ngo ukoranye Bitaxe, ukosore ibibazo vyo gutera no gukora isuzuma ryuzuye ukoresheje ibikoresho vya *AxeOS* na USB. Iki gice gishimika ku bikorwa vy’amaboko no gutahura bimwe bikomeye ingene ibihimba vy’ibikoresho n’ivy’amaporogarama bikorana.
+Mu gice ca kane, uzokwisuka mu bikoresho ubwavyo. Uzomenya ingene wobasha kumenya ibikoresho bikenewe kugira ngo uteranye Bitaxe, ukosore ibibazo vyo gusudira gukora isuzuma ryuzuye ukoresheje ibikoresho vya *AxeOS* na USB. Iki gice gishimika ku bikorwa vy’amaboko no gutahura bimwe bikomeye ingene ibihimba vy’ibikoresho n’ivy’amaporogarame bikorana.
 
 
-### Guhindura uko ushaka
+### Guhindura uko ushaka biteye imbere
 
 
-Igice ca gatanu kijanye n’uguhindura ibintu nk’uko umuntu abishaka. Uzomenya ingene wohindura PCB (uruzitiro rwacapwe), ukore dosiye y’uruganda, kandi ukoreshe _Bitaxe Web Flasher_. Iki gice kigenewe abashaka kurenga gukoranya ibintu vyoroshe no guhingura vy’ukuri amaverisiyo y’ibikoresho vyabo bwite.
+Igice ca gatanu kijanye n’uguhindura ibintu nk’uko umuntu abishaka. Uzomenya ingene wohindura PCB (printed circuit board), ukore dosiye y’uruganda(factory), kandi ukoreshe _Bitaxe Web Flasher_. Iki gice kigenewe abashaka kurenga ku guteranya ibintu gusa vyoroshe bagahingura vy’ukuri amaverisiyo y’ibikoresho vyabo bwite.
 
 
 ### Gutuma ibikorwa bigenda neza
 
 
-Ubwa nyuma, igice ca gatandatu kivuga ubuhinga buteye imbere bwo gutuma ibintu bigenda neza. Uzomenya ingene wogereranya Bitaxe yawe kugira ngo usuzume uko ikora n’ingene woyikoresha neza. Ubwo buhinga buzogufasha kuronka inyungu nyinshi mu bikoresho vyawe mu gihe wubaha ubushobozi bwavyo bwo ku mubiri.
+Ubwa nyuma, igice ca gatandatu kivuga ubuhinga buteye imbere bwo gutuma ibintu bigenda neza. Uzomenya ingene wogereranya Bitaxe yawe kugira ngo usuzume uko ikora n’ingene woyikorera overclocking neza. Ubwo buhinga buzogufasha kuronka inyungu nyinshi mu bikoresho vyawe mu gihe wubaha imipaka y'ubushobozi bwavyo.
 
 
-Nk’uko bigenda ku nyigisho yose yerekeye Plan ₿ Academy, igice ca nyuma kirimwo isuzuma ryagenewe gukomeza ubumenyi bwawe.
+Nk’uko bigenda ku cigwa cose kiri kuri Plan ₿ Academy, igice ca nyuma kirimwo ikibazo cagenewe gukomeza ubumenyi bwawe.
 
 
-Niwibike muri iki gikorwa c’ubuhinga — kazoza ka Bitcoin mining kari mu maboko yawe!
+Niwinjire muri ururugendo rw’ubuhinga — kazoza ka Bitcoin mining kari mu maboko yawe!
 
 
 # Gutahura Bitaxe
@@ -94,55 +92,55 @@ Niwibike muri iki gikorwa c’ubuhinga — kazoza ka Bitcoin mining kari mu mabo
 
 :::video id=67d2529a-b7cb-4804-b02c-e56c12c9e66e:::
 
-Umugambi wa Bitaxe ugereranya ihinduka rikomeye mu gutegura ibikoresho vya Bitcoin [mining](https://planb.academy/resources/glossary/mining), uzana ingingo ngenderwako z’inkomoko yuguruye ku nganda igenzurwa n’imiti y’abanyagihugu. Iyi nkuru y’inyigisho iratohoza amateka yose, ubuhinga bushasha, n’iterambere ry’abanyagihugu rya Bitaxe, itanga ubumenyi ku kuntu iyerekwa ry’umuhinga umwe ryahindutse ubuzima butera imbere bw’ibikoresho vya mining vy’ubuhinga bwa none. Biciye mu gusuzuma inkomoko y’umugambi, ingorane, n’ivyo washitseko, turaronka ugutahura kw’agaciro ku bijanye n’ubuhinga butoroshe bwo gutegura [ASIC](https://planb.academy/resources/glossary/asic) be n’ububasha bwo gukorana n’abandi mu kibanza ca Bitcoin.
+Umugambi wa Bitaxe uhagarariye ihinduka rikomeye mu gutegura ibikoresho vya Bitcoin [mining](https://planb.academy/resources/glossary/mining), uzana ingingo ngenderwako z’isoko yuguruye ku ruganda rusanzwe rwihariwe n’imiti igenzurwa nabanyene yo. Uru rukurikirane rw’ivyigwa ruratohoza amateka yose, ubuhinga bushasha, n’iterambere rihabwa inguvu n’umuryabgo wagutse wa Bitaxe, rutanga ubumenyi ku kuntu imbono y’umuhinga umwe yahindutse ubuzima butera imbere bw’ibikoresho vya mining vy’ubuhinga bwa none. Biciye mu gusuzuma inkomoko y’umugambi, ingorane, n’ivyo washitseko, turaronka ugutahura kw’agaciro ku bijanye n’ubuhinga butoroshe bwo gutegura [ASIC](https://planb.academy/resources/glossary/asic) be n’ububasha bwa open source bwo gukorana n’abandi mu kibanza ca Bitcoin.
 
 
-### Inkuru y'inkomoko: Kuva ku kuvumbura inzira y'ubudodo gushika ku kubona kw'izuba Mining
+### Inkuru y'inkomoko: Kuva kuri Silk Road gushika ku mbono ya Solar Mining
 
 
-Skot, uwashinze Bitaxe, yatanguye urugendo rwiwe rwo kwinjira muri Bitcoin mu musi mukuru wo muri kaminuza aho yamenye ubwa mbere ivyerekeye Bitcoin biciye ku muntu yagura ibintu ku nzira ya Silk. Ukwo gushirwa ahabona kwa mbere kwa Bitcoin ku madolari nka 20 ku gice c’ifeza kwatumye abantu bagira umutima wo kumenya vyinshi, ivyo bikaba vyaciye bihinduka umugambi w’ihinduka ry’ibintu vya mining. Umushinge w’ubuhinga w’ibikorwa vyiwe vyo muri kazoza washinzwe mu gihe yari muri kaminuza, aho yari afise uburenganzira bwo kuronka ubuhinga bwinshi bwa FPGA mu bikorwa vy’ubushakashatsi. Skot akorana n’umucungerezi wiwe, yatanguye kugerageza ubuhinga bwa FPGA bitstreams bwa Bitcoin mining, mu ntango afise intumbero ntoyi yo gukoresha mining ihagije Bitcoin kugira ngo bagure pizza yo gukoresha mu biro vyabo.
+Skot, uwashinze Bitaxe, yatanguye urugendo rwiwe rwo kwinjira muri Bitcoin ku musi mukuru wo muri kaminuza aho yamenye ubwa mbere ivyerekeye Bitcoin biciye ku muntu yagura ibintu kuri Silk Road. Ukwo gushirwa ahabona kwa mbere kwa Bitcoin ku madolari nka 20 ku kingorongoro kwatumye abantu bagira umutima wo kumenya vyinshi arivyo vyaciye bihinduka umugambi w’ihinduka ry’ibintu wa mining. Umushinge w’ubuhinga w’ibikorwa vyiwe vyo muri kazoza washinzwe mu gihe yari muri kaminuza, aho yari afise uburenganzira bwo kuronka ubuhinga bwinshi bwa FPGA mu bikorwa vy’ubushakashatsi. Skot akorana n’uw'umukurikirana, yatanguye kugerageza ubuhinga bwa FPGA bitstreams bwa Bitcoin mining, mu ntango afise intumbero ntoyi yo gukora Bitcoin mining bihagije kugira ngo bagure pizza basangira n'abo bakorana.
 
 
-Ivyo kuva ku kugerageza mu vy’inyigisho gushika ku gutera imbere bikomeye vyabaye haciye imyaka igihe Skot yariko arakora ku marembo akoreshwa n’izuba kugira ngo umuntu akusanyirize amakuru kure muri Afirika. Ubwo bumenyi bw’umwuga ku bijanye n’ubuhinga bw’inguvu z’izuba bwatumye bamenya ko Bitcoin mining ASICs, kubera ko ari ibikoresho vy’inguvu ntoyi, vyokorana neza n’ibikoresho vy’izuba. Ico ciyumviro cari kimeze nk’ikisanzwe kandi ciza cane. Ariko rero, igihe Skot yatangura gukora ubushakashatsi ku mirongo yariho yasanze hariho ikinogo kinini mw’isoko: bitandukanye n’imisi ya mbere ya Bitcoin mining igihe imigero ya FPGA yaboneka ku mugaragaro, ukuza kwa ASICs kwari kwatumye inganda zija ku mirongo y’ubuhinga bwose, y’inkomoko yugaye.
+Ivyo kuva ku kugerageza mu vyo kwigwa gushika ku gutera imbere bikomeye vyabaye haciye imyaka igihe Skot yariko arakora kuri gateways zikoresha inguvu z'imishwarara y'izuba kugira ngo umuntu akusanyirize amakuru kure muri Afirika. Ubwo bumenyi bw’umwuga ku bijanye n’ubuhinga bw’inguvu z’imishwarara y'izuba bwatumye bamenya ko ASICs za Bitcoin mining , kubera ko ari ibikoresho vy’inguvu ntoyi, vyokorana neza n’ibikoresho bikurura imishwara y’izuba. Ico ciyumviro cari kimeze nk’igisanzwe kandi ciza cane. Ariko rero, igihe Skot yatangura gukora ubushakashatsi ku miti yari ihasanzwe yasanze hariho ikinogo kinini kw’isoko: bitandukanye n’imisi ya mbere ya Bitcoin mining igihe imigero ya FPGA yaboneka ku mugaragaro, ukuza kwa ASICs kwari kwatumye uruganda ruja ku miti y’ubuhinga igenzurwa nabanyeneyo, y’isoko yugaye.
 
 
-Kubura ibikoresho vya mining vy’inkomoko yuguruye vyacitse ikintu gitera ubwoba Skot, cane cane kubera ubumenyi afise mu gutegura porogarama z’inkomoko yuguruye be n’ukwizera kwiwe ko kamere y’inkomoko yuguruye ya Bitcoin ikwiye gushika no ku bikorwa remezo vyayo vya mining. Ukwo guhuza kwa filozofiya n’ingingo ngenderwako z’inkomoko yuguruye, hamwe n’ingorane y’ubuhinga y’uguhindura imigero y’ubuhinga bwa ASIC, vyashizeho inzira y’ico cobaye umugambi wa Bitaxe. Iciyumviro ca mbere cari gihambaye cane ariko cari gishoboka: guhingura igikoresho co gucukura amabuye y’agaciro citwa Bitcoin gikoreshwa n’izuba gishobora gukora kidakeneye mudasobwa yihariye kugira ngo kigenzure, ivyo bikaba vyatumye gishobora gukoreshwa ahantu kure cane munsi y’amatara y’izuba.
+Kubura ibikoresho vya mining vy’isoko yuguruye vyacitse ikintu gitera ishavu Skot, cane cane kubera ubumenyi afise mu gutegura porogarame z’isoko yuguruye be n’ukwizera kwiwe ko kamere y’isoko yuguruye ya Bitcoin ikwiye gushika no ku bikorwa vya mining. Ukwo guhuza kwa firozofiya n’ingingo ngenderwako z’isoko yuguruye, hamwe n’ingorane y’ugusubira kuraba imigero y’ubuhinga bwa ASIC, vyashizeho inzira y’ico cobaye umugambi wa Bitaxe. Iciyumviro ca mbere cari gihambaye cane ariko cari gishoboka: guhingura [miner](https://planb.academy/resources/glossary/miner) yo gucukura (ku mining) Bitcoin ikoreshwa n’imishwarara y'izuba ishobora gukora idakeneye inyabwonko yihariye kugira ngo igenzurwe, ivyo bikaba bituma ishobora gukoreshwa ahantu kure cane ahari ibikoresho bikurura imishwarara y’izuba.
 
 
-### Ingorane z'ubuhinga n'iterambere ry'ubuhinga
+### Ingorane z'ubuhinga no gushobora gukora Reverse Engineering
 
 
-Iterambere rya Bitaxe ryasaba gutsinda intambamyi nyinshi z’ubuhinga, ahanini zishingiye ku kubura inyandiko z’ibice vya Bitmain ASIC. Uburyo Skot yakoresheje mu gutorera umuti iyo ngorane bwatanze akarorero k’umwiyemezo n’ubukerebutsi bisabwa kugira ngo umuntu ashobore gukora ibikorwa vy’ubuhinga bwo guhindura ibintu. Kubera ko atashobora kuronka amakuru yemewe canke amakuru y’ubuhinga, yaciye afata ingingo yo gusuzuma ibice vy’umubiri akoresheje ibikoresho bipima uburemere bw’ibice vy’umubiri akoresheje ibipimo vy’ibipimo, eka mbere no gupima ibice vy’umubiri kugira ngo amenye neza neza ibirenge vyavyo bisabwa. Ivyo vyatumye habaho ibigereranyo vyinshi vyananiwe, n'ibisubirwamwo bibiri vya mbere vy'"[umucukuzi](https://planb.academy/resources/glossary/miner) w'umunsi" vyananiwe gukora neza kubera imibare y'ibirenge idakwiriye.
+Iterambere rya Bitaxe ryasaba gutsinda intambamyi nyinshi z’ubuhinga, ahanini zishingiye ku kubura inyandiko za chip za Bitmain ASIC. Uburyo Skot yakoresheje mu gutorera umuti iyo ngorane bwatanze akarorero k’umwiyemezo n’ubukerebutsi bisabwa kugira ngo umuntu ashobore gukora ibikorwa vy’ubuhinga bwa reverse engineering. Kubera ko atashobora kuronka amakuru yemewe canke amakuru y’ubuhinga, yaciye afata ingingo yo gusuzuma chips akoresheje igikoresho ca microscopes, mugupima pitches za pin akoresheje calipers, eka mbere no gupima chips kugira ngo amenye neza neza ukozikoze n'ibisabwa. Ivyo vyatumye habaho ibigereranyo vyinshi bitashoboye gukora, hamwe n'ukugerageza kubiri kwa mbere kw'"[umucukuzi](https://planb.academy/resources/glossary/miner) w'umunsi" vyanse gukora neza kubera ibiharuro vya footprint vyakozwe nabi.
 
 
-Ivyo vyaje n’ugusubiramwo kwa gatatu muri Rusama 2022, igihe Skot yashobora guhingura neza igishushanyo c’ibice bibiri bikora ikoresheje ibice vya BM1387 vyakuwe mu bikoresho vya Antminer S9. Ivyo vyatumye havuka izina rya Bitaxe, ryahumekewe n'iciyumviro c'ibara ry'agahama ry'i Bitcoin mining. Uguterimbere kw’iyi nzira kwaremeje uburyo bwo guhindura ubuhinga kandi vyerekana ko abahinguzi bigenga bashobora guhingura ibikoresho bikora neza vya mining ata nkunga y’ababikora. Ariko rero, ingorane z’ubuhinga zari zirengeye gukorana n’ibice vy’umubiri kugira ngo zishiremwo n’imiterere y’amashanyarazi igoye, kuko ASIC zasaba gutunganya neza umuriro ku mirongo myinshi, akenshi zikora ku mirongo y’amashanyarazi iri hasi cane nk’iya 0,6 volts mu gihe zikoresha amashanyarazi menshi.
+Ivyagiye gukunda vyaje n’ukugerageza kwa gatatu muri Rusama 2022, igihe Skot yashobora guhingura neza igicapo ca chip zibiri akoresheje chip za BM1387 zakuwe mu bikoresho vya Antminer S9. Ivyo vyatumye havuka izina rya Bitaxe, ryavuye ku ciyumviro c'ipiki yo gucukura Bitcoin. Uguterimbere kw’iki gicapo kwaremeje uburyo bwa reverse engineering kandi vyerekana ko abahinguzi bigenga bashobora guhingura ibikoresho bikora neza vya mining ata bufasha bw’inganda zisanzwe zibikora. Ariko rero, ingorane z’ubuhinga zari zirengeye gukorana n'amachip kugira ngo ashirwemwo n’imiterere y’umuyagankuba igoye, kuko ASIC zasaba gutunganya neza umucanwa uri ku kigero co hejuru, akenshi zikora ku mirongo y’umuyagankuba iri hasi cane nka 0,6 volts mu gihe zikoresha amper nyinshi.
 
 
-Ivyo gutegura porogarama za firmware vyarerekanye ikindi gice c’ibintu bigoranye, kuko uwo mugambi wasaba guhingura porogarama ya mining ishobora gukora ataco ihinduye kuri microcontroller ESP32 aho kwizigira mudasobwa zo hanze zikoresha porogarama nka CGMiner. Ubwo buryo bwo kwigenzura bwari ngirakamaro ku ciyumviro ca Skot c’ibice vya mining bishobora gukoreshwa kandi vyigenga. Ihuriro ry’ubuhinga bwo guhindura ibikoresho n’ugutegura porogarama zishizwemwo vyatumye haba ingorane nyinshi z’ubuhinga zisaba ubuhinga mu vyigwa vyinshi, kuva ku buhinga bw’amashanyarazi n’uguhingura PCB gushika ku gukora porogarama zishizwemwo n’imirongo ngenderwako y’uruja n’uruza.
+Ivyo gutegura porogarame za firmware vyarerekanye ikindi gice c’ibintu bigoranye, kuko uwo mugambi wasaba guhingura porogarame ya mining ishobora gukora ataco ihinduye kuri microcontroller ESP32 aho kwizigira inyabwonko zo hanze zikoresha porogarame nka CGMiner. Ubwo buryo bwo kwigenga bwari ngirakamaro ku mbono ya Skot y’ibice vya mining bishobora gukoreshwa kandi vyigenga. Guhuza reverse engineering ku bikoresho n’ugutegura firmware zishizwemwo vyatumye haba ingorane nyinshi z’ubuhinga zisaba ubuhinga mu vyigwa vyinshi, kuva ku buhinga bw’umuyagankuba n’uguhingura ibicapo vya PCB gushika ku gukora porogarame zishizwemwo n’amategeko y'umuhora.
 
 
-### Gushinga umuryango n'ugukorana n'inkomoko yuguruye
+### Gushinga umuryango wagutse n'ugukorana muri Open Source
 
 
-Guhindura Bitaxe kuva ku mugambi w’umuntu ku giti ciwe gushika ku mugambi w’abanyagihugu utera imbere, ni kimwe mu bintu bihambaye cane mu kuroranirwa kwayo. Mu ntango, ivyo Skot yagerageza gukora kugira ngo generate ishiremwo inyungu biciye mu mahuriro ya Bitcoin no ku mbuga ngurukanabumenyi vyahuye n’inyishu nkeyi kandi rimwe na rimwe hariho n’ugukekeranya. Ivyo vyaje igihe abanyamuryango nka SirVapesAlot bamenya ubushobozi bw’inkomoko yuguruye mining maze bashinga inkomoko yuguruye Miners United (OSMU) Discord server. Iryo koraniro ryatanze ubufatanye bukenewe kugira ngo uwo mugambi utere imbere, rikwegera abatanga intererano bava mu mice itandukanye basangiye inyungu mu gutuma ubuhinga bwa Bitcoin mining bugira demokarasi.
+Guhindura Bitaxe kuva ku mugambi w’umuntu ku giti ciwe gushika ku mugambi w’abanyagihugu ugenda utera imbere, ni kimwe mu bintu bihambaye cane mu kuroranirwa kwayo. Mu ntango, ivyo Skot yagerageza gukora kugira ngo abashe gutuma umugambi ukundwa biciye mu mahuriro (forum) ya Bitcoin no ku mbugankoranyambaga vyahuye n’inyishu nkeyi kandi rimwe na rimwe hariho n’ugukekeranya(skepticism). Vyagiye gukunda igihe abanyamuryango nka SirVapesAlot bamenya ubushobozi bwa open source mining maze bashinga Open Source Miners United (OSMU) Discord server. Iryo koraniro ryatanze ubufatanye bukenewe kugira ngo uwo mugambi utere imbere, rikurura abatanga intererano bava mu mice itandukanye basangiye inyungu mu gutuma ubuhinga bwa Bitcoin mining bubamwo demokarasi.
 
 
-Ico kigereranyo c’iterambere ry’abanyagihugu caragaragaye ko ari ciza cane, abatanga umusanzu nk’aba johnny9 na Ben baraseruka kugira ngo bashobore gutorera umuti ingorane zidasanzwe z’ubuhinga. Ubuhinga bwa Johnny9 mu gutegura porogarama zikomeye bwatorera umuti ingorane zikomeye zo gushirwa mu ngiro kwa porogarama, mu gihe ubuhinga bwa Ben bwo gutegura porogarama zikomeye bwatumye habaho urupapuro rw’ibikoresho rwa AxeOS rworoshe gutunganya no kugenzura ibikoresho. Ben yongeyeko intererano zarimwo gushinga ubushobozi bwo gukora no kurema Public Pool, [pool y’inkomoko yuguruye mining](https://planb.academy/resources/glossary/pool-mining) yatunganijwe neza ku bikoresho vya Bitaxe. Ubwo buryo bwo gukorana bwarerekanye ingene ingingo ngenderwako z’inkomoko yuguruye zishobora kwihutisha iterambere rirenze ivyo umuterankunga wese yoshobora gushikako wenyene.
+Ico kigereranyo co guhingura bitewe intege n'abanyamuryango caragaragaye ko ari ciza cane, abatanga intererano nk’aba johnny9 na Ben baraseruka kugira ngo bashobore gutorera umuti ingorane zidasanzwe z’ubuhinga. Ubuhinga bwa Johnny9 mu gutegura porogarame za firmware bwatorera umuti ingorane zikomeye zo gushirwa mu ngiro kwa porogarame, mu gihe ubuhinga bwa Ben bwo gutegura front-end bwatumye habaho dashboard ya AxeOS yoroshe gutunganya no kugenzura ibikoresho. Ben yongeyeko intererano zarimwo gushinga ubushobozi bwo gukora no kurema Public Pool, [mining pool](https://planb.academy/resources/glossary/pool-mining)  y’isoko yuguruye yatunganijwe neza ku bikoresho vya Bitaxe. Ubwo buryo bwo gukorana bwarerekanye ingene ingingo ngenderwako z’isoko yuguruye zishobora kwihutisha iterambere rirenze ivyo umuterankunga wese yoshobora gushikako wenyene.
 
 
-Umuryango wa OSMU kandi warateye imbere ikibanza co gushiramwo abantu bose aho abashasha bashobora kwigira no gutanga umusanzu ataco bafatiye ku buhinga bwabo bwo mu ntango. Urugendo Ben ubwiwe yagize kuva mu gihe yari umuhinga mu vyo gukora amabuye y’agaciro gushika aho ari umuhinga mu vyo gukora amabuye y’agaciro, ni akarorero k’ubwo buryo bwo kwakira abantu bwo guteza imbere ubuhinga. Ukwiyemeza kw’abanyagihugu mu vy’uburezi no gufashanya vyatumye haba uruziga rw’ingeso nziza aho abagize umuryango bazi utuntu n’utundi bamenyereza abashasha, na bo nyene bakaba abatanga intererano. Ico kigereranyo caragaragaye ko ari ngirakamaro mu gutuma umugambi urenga urugero rwawo rwa mbere no gushinga urutonde rw’ibidukikije ruramvye kugira ngo hakomeze guhingura ibintu bishasha no gukura.
+Umuryango wa OSMU kandi warashizeko ikibanza c'abantu bose aho abashasha bashobora kwigira no gutanga intererano bitagombereye ubuhinga  boba baribasanzwe bafise. Urugendo Ben ubwiwe yagize kuva mu gihe yari uwutangura mu vyo gusudira gushika aho ari umuhinguzi akomeye, ni akarorero k’ubwo buryo bwo kwakira bose bakagukirwa muvy'ubuhinga. Ukwiyemeza kw’abaryango mu vy’ugutanga ubumenyi no gufashanya vyatumye haba ukuzunguruka aho abagize umuryango bazi utuntu n’utundi bamenyereza abashasha, na bo nyene bakaba abatanga intererano. Ico kigereranyo caragaragaye ko ari ngirakamaro mu gutuma umugambi urenga urugero rwawo rwa mbere no gushinga ibidukikije biramvye kugira ngo hakomeze guhangwa udusha no gukura.
 
 
-### Intumbero ya Mining yegerejwe n'ingaruka zo muri kazoza
+### Imbono ya Mining Ikwiragijwe hose n'Ingaruka zo muri Kazoza
 
 
-Iyerekwa rya Skot ry’igihe kirekire kuri Bitaxe rirarenga kure cane kurema ikindi gikoresho ca mining: ni uguhindura kw’ishimikiro kw’ibarabara rya Bitcoin rya mining. Intumbero ikomeye yo guhingura abacukuzi b’amabuye y’agaciro b’amaterahash imwe miliyoni imwe yotuma habaho exahash y’ububasha bwa mining bugabanywa, bikaba bigereranya intambwe ikomeye mu kwegereza ubutegetsi mining. Iryo yerekwa rivuga ku bibazo bikomeye bijanye no gushiramwo mining, aho ibidengeri binini n’ibikorwa vy’inganda bishobora gushikirwa n’imikazo ya Leta canke gufatwa n’amategeko. Mu gutanga ububasha bwa mining mu bacukuzi b’amabuye y’agaciro bo mu rugo batagira uko bangana, iyo nzira irarushiriza gukomera kandi ikaba ihuye n’ingingo ngenderwako za Bitcoin zijanye n’intara.
+Imbono ya Skot y’igihe kirekire kuri Bitaxe irarenga kure cane kukurema ikindi gikoresho ca mining: ni uguhindura kw’ishimikiro kw’ikibuga ca Bitcoin mining. Intumbero ikomeye yo guhingura miners za terahash imwe zingana n'umiriyoni umwe yotuma habaho exahash y’ububasha bwa mining bukwiragijwe, bikaba bigereranya intambwe ikomeye mu gukwiragiza mining. Iyo mbono ivuga ku bibazo bikomeye bijanye no gukoraniriza hamwe mining, aho mining pools nini n’ibikorwa vy’inganda bishobora gushikirwa n’imikazo ya reta canke gufatwa n’amategeko. Mu gukwiragiza ububasha bwa mining mu bacukuzi bakorera muhira batagira uko bangana, umuhora urushiriza gukomera kandi ukaba uhuye n’ingingo ngenderwako za Bitcoin zo gukwiragira hose.
 
 
-Icogereranyo c’ubutunzi gishigikira iyo ntumbero gishingiye ku biranga inzu mining, aho igiciro c’ibikorwa remezo ari zero kandi abacukuzi bashobora gukora ata kugenzura guke. Mu buryo butandukanye n’ibikorwa vy’inganda mining bisaba amahera menshi mu bikorwa, mu bikorwa remezo vy’amashanyarazi, no mu buryo bwo gukonjesha, abacukuzi bo mu rugo barashobora gusa gushiramwo ibikoresho mu bikoresho vy’amashanyarazi biriho no mu nzira za internet. Ubu buryo bwoshobora kuzana igitigiri kinini c’amahera yo kuri Internet ata nzitizi za kera zo kwinjira ziranga ibikorwa vyinshi vya mining.
+Icokigereranyo c’ubutunzi gishigikira iyo mbono gishingiye ku biranga mining ikorerwa muhira, aho ibiciro vy’ivyibikenewe kugira mining ishoboko biba ari ubusa kandi abacukuzi bashobora gukora ata kugenzura ibikorwa  vyabo muburyo budasanzwe. Mu buryo butandukanye n’ibikorwa vya mining ku rwego rw'inganda bisaba imitahe myinsi mu bikorwa vy'ibanze, mu bikorwa vy'inguvu z'umuyagankuba, no muri sisiteme zo gukanyisha, aba korera mining muhira ico bakora gusa ni gucomeka ibikoresho, kumuyagankuba baka bishira kuri interineti bisanzwe bihari. Ubu buryo bwoshobora kuzana igitigiri kinini ca [hash rate](https://planb.academy/resources/glossary/hashrate) kuri interineti ata nzitizi za kera zi vy'injira biranga ibikorwa vyo ku kigero kinini vya mining.
 
 
-Uguterimbere kw’uwo mugambi kwaramaze gutangura kugira ico gukoze ku bidukikije vyagutse vya Bitcoin mining, bifise ubushobozi bwo gutuma abandi bahinga bafata ingingo zo guteza imbere ubuhinga bufunguye. Ubushobozi bw’amahera bwerekanwa n’abahinguzi ba Bitaxe bugaragaza ko ibikoresho vy’ubuhinga bwa none bishobora kuroranirwa mu bucuruzi mu gihe biguma bikora mu mucyo no kugira uruhara mu kibano. Uko umugambi ubandanya gutera imbere n’ugushiramwo ama chip mashasha, imiterere myiza n’ubufatanye bwo gukora, ukora nk’ikimenyamenya c’iciyumviro c’ingene Bitcoin mining ishobora gusubira mu mizi yayo yegerejwe mu gihe yakira ubuhinga bwa none bwa ASIC. Intumbero nyamukuru irarenga gusa ugutanga [hash rate](https://planb.academy/resources/glossary/hashrate) kugira ngo ishiremwo ingaruka z’uburezi, gutuma abantu benshi bahura ata guca ku ruhande n’uburyo bw’ishimikiro bwa mining bwa mining no guteza imbere ugutahura kwimbitse kw’akarorero k’umutekano w’urubuga.
+Ukuroranirwa kw’uwo mugambi kwaramaze gutangura kugira ico gukoze ku bidukikije vyagutse vya Bitcoin mining, kukagirira ubushobozi bwo gutuma abandi bahingura bafata ingingo yo kwakira kandi bagakoresho ibigereranyo vyo guhingura vya open source. Ubushobozi bw'abahinguzi ba Bitaxe bwo kubasha kuriha amahera akenewe yose mubikorwa vyabo vya misi yose vyerekana ko ibikoresho vya open source bishobora kuroranirwa mu bucuruzi mu gihe biguma bikorera mu mucyo hamwe n'uruhara rw'umuryango wagutse. Uko umugambi ubandanya gutera imbere n’ugushiramwo ama chip mashasha, igicapo ciza gusumba be n'ukwiyongera kw'ubufatanye n'ibindi bigo, bikora nk’ikimenyamenya c’iciyumviro c’ingene Bitcoin mining ishobora gusubira mu mizi yayo ikwiragiye hirya no hino mu gihe yakira ikoranabuhanga rigezweko rya ASIC. Intumbero nyamukuru irarenga gusa ugutanga [hash rate](https://planb.academy/resources/glossary/hashrate) vyonyene igashika kukugira icikoze kugutanga ubumenyi, gutuma abantu benshi bashobora kubona neza ata guca ku ruhande uburyo bw’ishimikiro bwa mining no guteza imbere ugutahura kwimbitse kw’ikigereranyo c'umutekano w'umuhora.
 
 
 ## None Bitaxe ni iki?

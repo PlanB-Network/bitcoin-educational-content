@@ -463,7 +463,7 @@ Ubwo buryo bwo kwandika, bwari igikoresho co gucunga ubutunzi, n’uburyo bwo gu
 
 
 
-## Uruhara rw'ibipande(ibigura) vy'Aba sumériennes
+## Uruhara rw'ibipande(ibigura) vy'Aba sumériens
 
 
 <chapterId>a396e6c5-56cc-5410-9e6b-0274401c5425</chapterId>
@@ -521,7 +521,7 @@ Gutyo, inyandiko zo muri Mezopotamiya zaje gushika aho turi ahanini zirerekana u
 
 
 
-## Ubugenzuzi bw'abanyacubahiro ku bisate(ikigura) vy'Aba sumériennes
+## Ubugenzuzi bw'abanyacubahiro ku bisate(ikigura) vy'Aba sumériens
 
 
 <chapterId>c6d3df0e-b1e1-58dc-ab35-9f76bbc39393</chapterId>
@@ -750,11 +750,11 @@ Imisoro n’imisoro ahanini vyari vyishyurwa mu buryo bw’amahera (orge ou arge
 
 
 
-Ubutunzi bwa Mezopotamiya bwakoresha canecane "orge" n’ifeza nk’ingingo mfatirwako z’agaciro. Ifeza yapimwa mu bipimo ngenderwako, nk’akarorero sìqlum (shekeli) y’amagarama nka 8,33. Kuva mu gihe ca kera c'Abanyababiloni (mu gihe ca Hammurabi), ifeza yakoreshwa nk'uburyo bwo kwishura, n'iciyumviro ca kera c'agaciro k'izina ("nūbum") bitandukanye n'uburemere nyakuri ("šuqulum"), **bitegereje iciyumviro ca none c'amahera "fiduciaire"**.
+Ubutunzi bwa Mezopotamiya bwakoresha canecane "orge" n’ifeza nk’ingingo mfatirwako z’agaciro. Ifeza yapimwa mu bipimo ngenderwako, nk’akarorero sìqlum (shekeli) y’amagarama nka 8,33. Kuva mu gihe ca kera c'Abanyababiloni (mu gihe ca Hammurabi), ifeza yakoreshwa nk'uburyo bwo kwishura, n'iciyumviro ca kera c'agaciro k'izina ("nūbum") bitandukanye n'uburemere nyakuri ("šuqulum"), **bitegereje iciyumviro ca none c'amahera "fiat"**.
 
 
 
-Ariko ntiyari bwabe amahera "fiduciaire' mu busobanuro nyabwo bw’iryo jambo. Nta ciyumviro c’ikidodo gifise igiharuro c’ubukuru cariho, mugabo hariho iciyumviro c’igiharuro c’izina, bitandukanye n’iciyumviro c’icuma gipimwe. Hariho itandukaniro mu rurimi rw’ivyo vyiyumviro bibiri, kandi mbona ko vyari ngombwa kubivuga.
+Ariko ntiyari bwabe amahera "fiat" mu busobanuro nyabwo bw’iryo jambo. Nta ciyumviro c’ikidodo gifise igiharuro c’ubukuru cariho, mugabo hariho iciyumviro c’igiharuro c’izina, bitandukanye n’iciyumviro c’icuma gipimwe. Hariho itandukaniro mu rurimi rw’ivyo vyiyumviro bibiri, kandi mbona ko vyari ngombwa kubivuga.
 
 
 
@@ -1330,7 +1330,7 @@ Kuza kw’amahera y’ubuhinga bwa none biravyura ikibazo nyamukuru: amahera yob
 
 
 
-Ku ruhande rumwe, ishure ry’ubutunzi ryo muri autriche riburanira iciyumviro c’uko amahera y’ibicuruzwa - cane cane inzahabu - yatowe mu buryo busanzwe n’abahinga b’ubutunzi kubera kamere kazo k’imbere: ugukomera, ukoroha guhatwara, kugaburikwa n’uguhindurwa. Uvuye muri ivyo, Leta yaciye yifatanya n’ayo mafaranga abanguka kugira ngo igenzure ukuntu atangwa. Ni ikigo kiva mu bisanzwe mu bikenewe n’isoko imbere y’uko gifatwa n’ububasha bwa politike.
+Ku ruhande rumwe, ishure ry’ubutunzi ryo muri Autriche riburanira iciyumviro c’uko amahera y’ibicuruzwa - cane cane inzahabu - yatowe mu buryo busanzwe n’abahinga b’ubutunzi kubera kamere kazo k’imbere: ugukomera, ukoroha guhatwara, kugaburikwa n’uguhindurwa. Uvuye muri ivyo, Leta yaciye yifatanya n’ayo mafaranga abanguka kugira ngo igenzure ukuntu atangwa. Ni ikigo kiva mu bisanzwe mu bikenewe n’isoko imbere y’uko gifatwa n’ububasha bwa politike.
 
 
 
@@ -1342,7 +1342,7 @@ Mu buryo butandukanye n’ubwo, iciyumviro c’abahinga mu vy’imico kama n’i
 
 
 
-Naho hariho iyo ntambara y’ivyiyumviro, mbere n’abahinga mu vy’ubutunzi bo muri autriche baratahura ivyiza bimwebimwe biva ku kwivanga mu vy’amahera Leta. Gushiramwo ibintu bimwe bimwe biciye mu gukora amabuye y’agaciro biratorera umuti ingorane zitari nke z’ubudandaji zikora.
+Naho hariho iyo ntambara y’ivyiyumviro, mbere n’abahinga mu vy’ubutunzi bo muri Autriche baratahura ivyiza bimwebimwe biva ku kwivanga mu vy’amahera Leta. Gushiramwo ibintu bimwe bimwe biciye mu gukora amabuye y’agaciro biratorera umuti ingorane zitari nke z’ubudandaji zikora.
 
 
 
@@ -1634,7 +1634,7 @@ Kugira  jeton y'amahera si "ugusaba" ku kibano, ahubwo ni icizigiro c'uko  jeton
 
 :::video id=e543995f-d5e2-49d7-9133-e397b46e0833:::
 
-Ku mashure y’ubutunzi yo muri autriche yatangujwe na Carl Menger, amahera ava mu buryo busanzwe mu bukungu bw’uguhinduranya ibintu buhanganye n’ingorane yuguhinduranye ibintu aruko mwese mwipfuza ico uwundi afise. Muri iyo mbonerakure, abantu bihuza ubwabo ku bicuruzwa vyo hagati bishobora kworohereza uguhinduranya - atari ibicuruzwa bikoreshwa ataco bimaze, ariko ibicuruzwa vyemewe kubera ubushobozi bwavyo bwo gusaba cane.
+Ku mashure y’ubutunzi yo muri Autriche yatangujwe na Carl Menger, amahera ava mu buryo busanzwe mu bukungu bw’uguhinduranya ibintu buhanganye n’ingorane yuguhinduranye ibintu aruko mwese mwipfuza ico uwundi afise. Muri iyo mbonerakure, abantu bihuza ubwabo ku bicuruzwa vyo hagati bishobora kworohereza uguhinduranya - atari ibicuruzwa bikoreshwa ataco bimaze, ariko ibicuruzwa vyemewe kubera ubushobozi bwavyo bwo gusaba cane.
 
 
 
@@ -1654,7 +1654,7 @@ Ariko rero, ivyo binegura bishingiye ku nsobanuro y’uguhinduranya ibintu. Nk�
 
 
 
-Kubura ikimenyetso si ukuvuga ko atabimenyetso, kandi abahinga mu vy’ubutunzi bo muri autriche baremera ko ata kibano gikomeye gishobora gutera imbere mu buryo buramba gishingiye ku guhinduranya direct- ni co gituma hariho iseruka ryamahera.
+Kubura ikimenyetso si ukuvuga ko atabimenyetso, kandi abahinga mu vy’ubutunzi bo muri Autriche baremera ko ata kibano gikomeye gishobora gutera imbere mu buryo buramba gishingiye ku guhinduranya direct- ni co gituma hariho iseruka ryamahera.
 
 
 
@@ -1666,7 +1666,7 @@ Ivyo biganiro biriko biratera imbere ku bijanye n’inkomoko rya shekel y’ifez
 
 
 
-Insobanuro y’Abanya autriche ivuga ibihushanye n’ivyo: abacuruzi ni bo bafata amahera yo gucuruza mubudandaji bwakure. Kubera ko bari bahanganye n’ingorane yo gucuruza n’abanyamahanga bari hirya y’imipaka ya Mezopotamiya - kuva muri Anatolie muri golfe Persique - bari bakeneye ikintu cemewe kw’isi yose, kizomara igihe kirekire kandi gishobora gutwarwa. Ifeza yari ihitamwo ry’akameremere kubera kamere zayo z’imbere. Insengero zaremeje gusa umugenzo wari waramaze gushingwa n’ugukoreshwa mu vy’ubudandaji.
+Insobanuro y’Abanya Autriche ivuga ibihushanye n’ivyo: abacuruzi ni bo bafata amahera yo gucuruza mubudandaji bwakure. Kubera ko bari bahanganye n’ingorane yo gucuruza n’abanyamahanga bari hirya y’imipaka ya Mezopotamiya - kuva muri Anatolie muri golfe Persique - bari bakeneye ikintu cemewe kw’isi yose, kizomara igihe kirekire kandi gishobora gutwarwa. Ifeza yari ihitamwo ry’akameremere kubera kamere zayo z’imbere. Insengero zaremeje gusa umugenzo wari waramaze gushingwa n’ugukoreshwa mu vy’ubudandaji.
 
 
 
@@ -1694,7 +1694,7 @@ Mu vy’ukuri, amahera agereranya uguhuza ivyo umuntu akunda kugira ngo aronke i
 
 
 
-Impaka hagati y’uguseruka kw’ibintu n’inzego z’ubumenyi ziguma zifunguye, kuko ibimenyamenya vy’akahise ari ibice bikeyi. Ariko isesengura ry’Abanya autriche ritanga insobanuro ihuye: amahera yavutse bivuye ku bikenewe vy’ubudandaji, abategetsi bagashira gusa mu nzego imigenzo yari yaramaze gushingwa n’ikoreshwa ry’isoko.
+Impaka hagati y’uguseruka kw’ibintu n’inzego z’ubumenyi ziguma zifunguye, kuko ibimenyamenya vy’akahise ari ibice bikeyi. Ariko isesengura ry’Abanya Autriche ritanga insobanuro ihuye: amahera yavutse bivuye ku bikenewe vy’ubudandaji, abategetsi bagashira gusa mu nzego imigenzo yari yaramaze gushingwa n’ikoreshwa ry’isoko.
 
 
 
@@ -3090,7 +3090,7 @@ Hariho isano ritomoye hagati y’ugusenyuka(kuyungururwa) kw’amahera y’Abaro
 
 
 
-Ishure ry’ubutunzi ryo muri autriche, cane cane biciye kuri Ludwig von Mises, ryaratanze insobanuro muvya amahera n'ugutemba kw’Uburoma. Muri iryo yerekwa, ukuntu amahera y’Uburoma yariko aragabanuka buhorobuhoro, vyarasenyuye urutonde rutoroshe rwo kugabanya ibikorwa rwari rufasha ubwami bw’abantu imiliyoni 60. Amafaranga, igikoresho nyamukuru co guhuza ubutunzi, amaze gusenyuka, yaratumye imibano n’ubutunzi vyose bisenyuka.
+Ishure ry’ubutunzi ryo muri Autriche, cane cane biciye kuri Ludwig von Mises, ryaratanze insobanuro muvya amahera n'ugutemba kw’Uburoma. Muri iryo yerekwa, ukuntu amahera y’Uburoma yariko aragabanuka buhorobuhoro, vyarasenyuye urutonde rutoroshe rwo kugabanya ibikorwa rwari rufasha ubwami bw’abantu imiliyoni 60. Amafaranga, igikoresho nyamukuru co guhuza ubutunzi, amaze gusenyuka, yaratumye imibano n’ubutunzi vyose bisenyuka.
 
 
 

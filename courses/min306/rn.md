@@ -45,7 +45,7 @@ Murakaze mu cigwa MIN 306 _**Kuba inzobere mugukora mining y'isoko y'uguruye**_,
 Igice ca mbere gishiraho umushinge nkenegwa: uzobona inkomoko y’umugambi wa Bitaxe, iterambere ryawo, n’agaciro k’ugukwiragiza n’ugukorera mu muco biwusobanura. Uzomenya ico Bitaxe ari co, ingene itandukanye n’ama ASIC afise abo yitirirwa, n’aho woronkera ibikoresho n'uburyo vyo gufasha gukomeze ubumenyi bwawe. Iki gice kiratanga ibisobanuro bikenewe kugira ngo umuntu atahure igituma Bitaxe ihagarariye impinduka ikomeye mu mateka ya Bitcoin mining.
 
 
-### porogarame n'ibikorwa
+### Porogarame n'ibikorwa
 
 
 Igice ca kabiri kivuga cane ku bidukikije vya porogarame, n’ugushikiriza mu buryo burambuye *AxeOS*: sisiteme ya open-source yagenewe cane cane ibikoresho vya Bitaxe. Uzomenya ibiranga vyayo nyamukuru n’ingene wobitunganya no gukorana n’igikoresho cawe kugira ngo utangure igikorwa cawe ca mbere ca mining.

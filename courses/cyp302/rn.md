@@ -831,7 +831,7 @@ Imvo yo gukuraho itandukaniro hagati y’“aléatoire” n’“uniforme” mu 
 
 
 
-# Ishingiro ry'imibare ry'ubuhinga bwo gupfuka 2
+# Ishingiro ry'ibiharuro ry'ubuhinga bwo gukingira amakuru(cryptographie) 2
 
 <partId>d7245cc9-bb6d-5403-b3d5-9c703d9a2f81</partId>
 
@@ -842,10 +842,10 @@ Imvo yo gukuraho itandukaniro hagati y’“aléatoire” n’“uniforme” mu 
 <chapterId>c0051c34-fd5d-539c-93e2-5c6dfd4c3355</chapterId>
 
 
-Iki gice kivuga ku ciyumviro giteye imbere cane ku bijanye n’imishinge y’imibare y’ubuhinga bwo gukingira amakuru: inyigisho y’imibare. Naho inyigisho y'imibare ari ngirakamaro ku bijanye n'ubuhinga bwo gukingira amakuru (nk'uko biri muri Rijndael Cipher), irahambaye cane mu bijanye n'ubuhinga bwo gukingira amakuru y'urufunguzo rwa bose.
+Iki gice kivuga ku ciyumviro giteye imbere cane ku bijanye n’imishinge y’ibiharuro y’ubuhinga bwo gukingira amakuru: inyigisho y’ibitigiri. Naho inyigisho y'ibitigiri ari ngirakamaro ku bijanye n'ubuhinga bwo gukingira amakuru (nk'uko biri muri Rijndael Cipher), irahambaye cane mu bijanye n'ubuhinga bwo gukingira amakuru y'urufunguzo rwa bose.
 
 
-Niba uriko urabona ko ido n’ido ry’inyigisho y’imibare rigoye, nogusaba gusoma ku rugero rwo hejuru ku ncuro ya mbere. Ushobora kwama ugaruka kuri vyo mu nyuma.
+Niba uriko urabona ko ido n’ido ry’inyigisho y’ibitigiri igoye, nogusaba gusoma ku rugero rwo hejuru ku ncuro ya mbere. Ushobora kwama ugaruka kuri vyo mu nyuma.
 
 
 ___
@@ -854,13 +854,13 @@ ___
 Ushobora gutanga ibiranga **inyigisho y'imibare** nk'inyigisho y'imiterere y'imibare yose n'imikorere y'imibare ikorana n'imibare yose.
 
 
-Rimbura nk’akarorero ko imibare ibiri iyo ari yo yose $a$ na $N$ ari **coprimes** (canke **primes relatives**) nimba umugabane wayo munini cane ungana na 1. Dufate ubu umubare wuzuye $N$. Ni imibare ingahe y’intege ntoyi kuruta $N$ ari coprimes zifise $N$? Twoba dushobora gutanga amajambo rusangi ku bijanye n’inyishu z’ico kibazo? Ivyo ni vyo bibazo bimenyerewe inyigisho y’imibare irondera kwishura.
+Fata nk’akarorero ko ibitigiri bibiri ivyo arivyo vyose $a$ na $N$ ari **copremiers** (canke **premiers hagati yavyo**) nimba umugabane(diviseur) wayo munini cane ungana na 1. Dufate ubu umubare wuzuye $N$. Ni imibare ingahe y’intege ntoyi kuruta $N$ ari coprimes zifise $N$? Twoba dushobora gutanga amajambo rusangi ku bijanye n’inyishu z’ico kibazo? Ivyo ni vyo bibazo bimenyerewe inyigisho y’imibare irondera kwishura.
 
 
-Ivyiyumviro vy'imibare vya none vyishimikije ibikoresho vy'aligebra itaboneka. Igisata ca **aligebra itaboneka** ni igice c’imibare aho ibintu nyamukuru vyo gusesangura ari ibintu bitaboneka bizwi nk’imibumbe y’aligebra. **Igishushanyo c'aligebra** ni umugwi wa Elements ufatanye n'igikorwa kimwe canke vyinshi, bihuye n'ibintu bimwebimwe vy'ukuri. Biciye mu mibumbe y'imibare, abahinga mu vy'imibare barashobora kuronka ubumenyi ku bibazo vy'imibare vyihariye, mu gukuraho ibintu bitari vyo.
+Ivyiyumviro vy'imibare vya none vyishimikije ibikoresho vy'algèbre abstraite. Igisata ca **algèbre abstraite** ni igice c’ibiharuro aho ibintu nyamukuru vyo gusesangura ari ibintu bitaboneka bizwi nk’inyubako ya algèbre . **Inyubako ya algèbre** ni umugwi w'ibintu bifatanye n'igikorwa kimwe canke vyinshi, bihuye n'ibintu bimwebimwe vy'ukuri. Biciye muri izo nyubako, abahinga mu vy'ibiharuro barashobora kuronka ubumenyi ku bibazo vy'ibiharuro vyihariye, mu gukuraho ibintu bitari vyo.
 
 
-Ubuhinga bwa aligebra butaboneka rimwe na rimwe bwitwa kandi aligebra ya none. Ushobora kandi guhura n’iciyumviro c’**imibare itaboneka** (canke **imibare isukuye**). Iri jambo rya nyuma ntirivuga aligebra itaboneka, ahubwo risobanura kwiga imibare kubera yo ubwayo, kandi atari gusa n’ijisho ry’ivyo bishobora gukoreshwa.
+Mugisata ca **algèbre abstraite**  rimwe na rimwe bwitwa kandi algèbre  ya none. Ushobora kandi guhura n’iciyumviro c’**ibiharuro itaboneka(abstraite)** (canke **ibiharuro bityoye**). Iri jambo rya nyuma ntirivuga algèbre abstraite, ahubwo risobanura kwiga imibare kubera yo ubwayo, kandi atari gusa n’ijisho ry’ivyo bishobora gukoreshwa.
 
 
 Ivyiyumviro biva mu buhinga bw'ibintu bishobora gukorana n'ubwoko bwinshi bw'ibintu, kuva ku mpinduka zizigama imiterere ku mfuruka zitatu zingana gushika ku mirongo y'uruhome. Ku bijanye n’inyigisho y’imibare, turimbura gusa imigwi ya Elements irimwo imibare yose canke ibikorwa bikorana n’imibare yose.

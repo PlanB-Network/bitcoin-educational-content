@@ -1,6 +1,6 @@
 ---
-name: Apa kecenderungan politik kamu?
-goal: Pahami kompleksitas spektrum politik modern untuk mengidentifikasi kecenderungan kamu sendiri dan menempatkan keluarga ideologi utama di luar perpecahan kiri-kanan.
+name: Apa kecenderungan politik Anda?
+goal: Pahami kompleksitas spektrum politik modern untuk mengidentifikasi kecenderungan Anda sendiri dan menempatkan keluarga ideologi utama di luar perpecahan kiri-kanan.
 objectives: 
   - Memahami bahwa tipologi politik lebih bernuansa daripada sekadar sumbu kiri/kanan
   - Mengidentifikasi dua dimensi utama yang menyusun spektrum politik
@@ -11,11 +11,11 @@ objectives:
 
 ---
 
-Apakah posisi politik kamu bermuara ke kanan atau ke kiri? Kursus ini menawarkan pendekatan revolusioner untuk memahami spektrum politik melalui poros Kebebasan-Paksaan yang mendasar. Dengan menggunakan Diagram Nolan, kami menganalisis keluarga politik seperti sosialis, konservatif, sentris, dan libertarian, bukan berdasarkan niat yang mereka nyatakan, tetapi berdasarkan tingkat kepercayaan mereka terhadap kontrol pemerintah. Temukan logika tatanan spontan, jelajahi isu-isu filosofis yang sebenarnya seperti individualisme vs kolektivisme, dan pelajari cara mendefinisikan nilai-nilai kamu sendiri tanpa terjebak pada label-label tradisional.
+Apakah posisi politik Anda bermuara ke kanan atau ke kiri? Kursus ini menawarkan pendekatan revolusioner untuk memahami spektrum politik melalui poros Kebebasan-Paksaan yang mendasar. Dengan menggunakan Diagram Nolan, kami menganalisis keluarga politik seperti sosialis, konservatif, sentris, dan libertarian, bukan berdasarkan niat yang mereka nyatakan, tetapi berdasarkan tingkat kepercayaan mereka terhadap kontrol pemerintah. Temukan logika tatanan spontan, jelajahi isu-isu filosofis yang sebenarnya seperti individualisme vs kolektivisme, dan pelajari cara mendefinisikan nilai-nilai Anda sendiri tanpa terjebak pada label-label tradisional.
 
 
 
-Kursus ini juga akan mengungkapkan mengapa Bitcoin lebih dari sekadar mata uang. Bitcoin adalah proyek politik yang diwarisi dari Cypherpunks. Jauh dari bisa diklasifikasikan pada sumbu linier, Bitcoin merupakan kekuatan desentralisasi yang menentang mata uang negara dan menawarkan jalan keluar yang damai dari inflasi serta pengawasan. Dengan membatasi kekuasaan terpusat atas uang, Bitcoin mendefinisikan ulang pertanyaan politik yang paling penting: apakah kamu yang menentukan hidup kamu sendiri, atau orang lain? Selami analisis ini untuk mempertajam kompas ideologis kamu dan memahami dampak politik yang mendalam dari teknologi ini terhadap kebebasan individu kamu.
+Kursus ini juga akan mengungkapkan mengapa Bitcoin lebih dari sekadar mata uang. Bitcoin adalah proyek politik yang diwarisi dari Cypherpunks. Jauh dari bisa diklasifikasikan pada sumbu linier, Bitcoin merupakan kekuatan desentralisasi yang menentang mata uang negara dan menawarkan jalan keluar yang damai dari inflasi serta pengawasan. Dengan membatasi kekuasaan terpusat atas uang, Bitcoin mendefinisikan ulang pertanyaan politik yang paling penting: apakah Anda yang menentukan hidup Anda sendiri, atau orang lain? Selami analisis ini untuk mempertajam kompas ideologis Anda dan memahami dampak politik yang mendalam dari teknologi ini terhadap kebebasan individu Anda.
 
 
 
@@ -57,11 +57,11 @@ Namun, kategorisasi ini sering kali terlalu sederhana dan kurang efektif. Secara
 
 Kebanyakan orang yang berada di antara dua ekstrem tersebut sering disebut sebagai sentris, tetapi label ini juga terlalu menyederhanakan posisi mereka.
 
-Mari ambil contoh. Jika seseorang mendukung kebebasan ekonomi tetapi juga mendukung hak untuk berimigrasi, di mana kamu akan menempatkan mereka pada garis kiri dan kanan yang sederhana? Posisi seseorang dalam spektrum politik tidak bersifat statis dan sering kali bergantung pada isu yang sedang dibahas.
+Mari ambil contoh. Jika seseorang mendukung kebebasan ekonomi tetapi juga mendukung hak untuk berimigrasi, di mana Anda akan menempatkan mereka pada garis kiri dan kanan yang sederhana? Posisi seseorang dalam spektrum politik tidak bersifat statis dan sering kali bergantung pada isu yang sedang dibahas.
 
 Banyak orang merasa tidak cocok, karena kiri atau kanan, sosialis atau konservatif, tidak secara akurat menggambarkan pandangan mereka.
 
-Pernahkah kamu merasa bahwa kerangka ini tidak cukup untuk menjelaskan nuansa dan kompleksitas opini politik? Banyak orang tidak menemukan tempat mereka di dalamnya dan merasa bahwa label kiri atau kanan, sosialis atau konservatif, tidak benar-benar merepresentasikan apa yang mereka yakini.
+Pernahkah Anda merasa bahwa kerangka ini tidak cukup untuk menjelaskan nuansa dan kompleksitas opini politik? Banyak orang tidak menemukan tempat mereka di dalamnya dan merasa bahwa label kiri atau kanan, sosialis atau konservatif, tidak benar-benar merepresentasikan apa yang mereka yakini.
 
 Meskipun kriteria penentuan posisi ini masih berguna untuk menunjukkan kepekaan politik secara umum, pendekatan ini gagal secara konseptual dalam menjelaskan keragaman perdebatan dan posisi ideologis.
 
@@ -128,7 +128,7 @@ Mata uang fiat merupakan fondasi dari perluasan kekuasaan negara. Sistem ini mem
 
 Dalam kursus ini, kita akan melihat bahwa lanskap politik jauh lebih kaya dan kompleks dibandingkan sekadar dua kategori kiri dan kanan, melalui model visual yang membantu kita memahami berbagai keluarga politik dengan lebih baik.
 
-Sebelum memulai kursus ini, aku ingin mengajakmu untuk mengikuti kuis singkat. Coba jawab pertanyaan-pertanyaan berikut:
+Sebelum memulai kursus ini, saya ingin mengajak Anda untuk mengikuti kuis singkat. Coba jawab pertanyaan-pertanyaan berikut:
 
 
 
@@ -168,9 +168,9 @@ Sebelum memulai kursus ini, aku ingin mengajakmu untuk mengikuti kuis singkat. C
 
 
 
-Dalam semua pertanyaan ini, ada satu masalah utama dan menentukan yang muncul, yaitu tingkat kontrol pemerintah yang bisa kamu tolerir, dan dengan demikian juga tingkat pendanaan yang, secara sadar atau tidak, memaksa kamu untuk ikut berpartisipasi.
+Dalam semua pertanyaan ini, ada satu masalah utama dan menentukan yang muncul, yaitu tingkat kontrol pemerintah yang bisa Anda tolerir, dan dengan demikian juga tingkat pendanaan yang, secara sadar atau tidak, memaksa Anda untuk ikut berpartisipasi.
 
-Jadi, pertanyaan politik yang paling mendasar adalah: **Siapa yang harus memutuskan?** Dengan kata lain: **Apakah kamu yang membuat keputusan penting mengenai kehidupan pribadi dan sosial kamu, atau orang lain yang membuat keputusan untuk kamu?**
+Jadi, pertanyaan politik yang paling mendasar adalah: **Siapa yang harus memutuskan?** Dengan kata lain: **Apakah Anda yang membuat keputusan penting mengenai kehidupan pribadi dan sosial Anda, atau orang lain yang membuat keputusan untuk Anda?**
 
 Pada tahun 1966, dalam **Revolt on the Moon** (The Moon is a Harsh Mistress), novelis Robert Heinlein mengembangkan gagasan bahwa pemerintah pada akhirnya selalu cenderung mengumpulkan kekuasaan dan mengendalikan warga negara, sesuatu yang ia sebut sebagai penyakit manusia yang tidak terelakkan.
 
@@ -271,7 +271,7 @@ Skema ini didasarkan pada gagasan bahwa sebagian besar masalah politik dapat dib
 ### Kebebasan ekonomi
 
 
-Kategori Kebebasan Ekonomi mencakup apa yang kamu lakukan sebagai produsen dan konsumen, apa yang bisa kamu beli, jual, atau hasilkan. Ini juga mencakup di mana kamu bekerja, siapa yang kamu pekerjakan, serta apa yang kamu lakukan dengan uangmu.
+Kategori Kebebasan Ekonomi mencakup apa yang Anda lakukan sebagai produsen dan konsumen, apa yang bisa Anda beli, jual, atau hasilkan. Ini juga mencakup di mana Anda bekerja, siapa yang Anda pekerjakan, serta apa yang Anda lakukan dengan uang milik Anda.
 
 
 
@@ -305,10 +305,10 @@ Contoh aktivitas ekonomi: memulai bisnis; membeli rumah; membangun gedung; berbe
 
 
 
-Kategori Kebebasan Pribadi mencakup apa yang kamu lakukan dalam hubungan pribadi, serta pendapat dan keyakinanmu. Secara umum, ini mencakup segala hal yang kamu lakukan dengan tubuh dan pikiranmu sendiri.
+Kategori Kebebasan Pribadi mencakup apa yang Anda lakukan dalam hubungan pribadi, serta pendapat dan keyakinan. Secara umum, ini mencakup segala hal yang Anda lakukan dengan tubuh dan pikiran Anda sendiri.
 
 
-*Contoh aktivitas pribadi:* pernikahan; memilih buku yang kamu baca dan film yang kamu tonton; makanan dan obat-obatan yang kamu pilih untuk dikonsumsi; olahraga; pilihan agamamu; organisasi yang kamu ikuti; orang-orang yang kamu pilih untuk bergaul.
+*Contoh aktivitas pribadi:* pernikahan; memilih buku yang Anda baca dan film yang Anda tonton; makanan dan obat-obatan yang Anda pilih untuk dikonsumsi; olahraga; pilihan agama Anda; organisasi yang Anda ikuti; orang-orang yang Anda pilih untuk bergaul.
 
 
 
@@ -336,7 +336,7 @@ Kategori Kebebasan Pribadi mencakup apa yang kamu lakukan dalam hubungan pribadi
 
 
 
-## Apakah kamu seorang statist sayap kanan atau sayap kiri?
+## Apakah Anda seorang statist sayap kanan atau sayap kiri?
 
 
 
@@ -356,7 +356,7 @@ Faktanya, kebijakan yang diterapkan oleh pemerintah sayap kanan maupun kiri sela
 
 Gagasan utama dari diagram Nolan adalah bahwa perbedaan utama antara berbagai filosofi politik, faktor penentu yang sesungguhnya, terletak pada tingkat kontrol pemerintah terhadap tindakan manusia, baik dalam ranah pribadi maupun ekonomi.
 
-Dengan kata lain, bukan hanya poros kiri-kanan yang mencerminkan nilai-nilai pribadimu, tetapi juga poros atas-bawah yang mencerminkan sejauh mana kamu bersedia menggunakan kekuatan untuk memaksa orang lain mengikuti nilai-nilaimu.
+Dengan kata lain, bukan hanya poros kiri-kanan yang mencerminkan nilai-nilai pribadi Anda, tetapi juga poros atas-bawah yang mencerminkan sejauh mana Anda bersedia menggunakan kekuatan untuk memaksa orang lain mengikuti nilai-nilai Anda.
 
 Dari sudut pandang ini, kanan dan kiri memiliki tujuan politik yang sama, yaitu memenangkan kekuasaan agar mereka dapat mengatur masyarakat sesuai dengan visi mereka tentang dunia dan memaksakannya kepada semua orang.
 
@@ -377,7 +377,7 @@ Sementara itu, kelompok kiri tidak terlalu mementingkan persyaratan moral dan ag
 
 
 
-## Apakah kamu seorang konservatif budaya atau konservatif politik?
+## Apakah Anda seorang konservatif budaya atau konservatif politik?
 
 
 <chapterId>bef3d6f1-390a-472d-8f18-a559d38aea54</chapterId>
@@ -392,7 +392,7 @@ Konservatisme budaya adalah kepatuhan pribadi terhadap apa yang disebut nilai-ni
 
 
 
-Jika kamu seorang konservatif budaya, kamu mendukung keluarga tradisional, etika kebajikan, dan kepercayaan kepada Tuhan. Konservatif budaya percaya bahwa manusia, untuk bisa bahagia, membutuhkan pengembangan jiwa, nilai-nilai spiritual, dan keluhuran perasaan.
+Jika Anda seorang konservatif budaya, Anda mendukung keluarga tradisional, etika kebajikan, dan kepercayaan kepada Tuhan. Konservatif budaya percaya bahwa manusia, untuk bisa bahagia, membutuhkan pengembangan jiwa, nilai-nilai spiritual, dan keluhuran perasaan.
 
 
 
@@ -400,7 +400,7 @@ Di sisi lain, **konservatisme politik** adalah cara mengorganisir masyarakat men
 
 
 
-Secara politis, konservatif budaya sering kali bergabung dengan barisan konservatisme politik. Namun, hal ini tidak selalu terjadi. Kedua konservatisme tersebut tidak selalu tidak dapat dipisahkan. **Kamu bisa menjadi seorang konservatif budaya dan seorang libertarian.**
+Secara politis, konservatif budaya sering kali bergabung dengan barisan konservatisme politik. Namun, hal ini tidak selalu terjadi. Kedua konservatisme tersebut tidak selalu tidak dapat dipisahkan. **Anda bisa menjadi seorang konservatif budaya dan seorang libertarian.**
 
 
 
@@ -420,7 +420,7 @@ Dalam praktiknya, tokoh-tokoh seperti Ron Paul atau pemikir seperti Rothbard dan
 
 
 
-## Apakah kamu seorang liberal atau libertarian?
+## Apakah Anda seorang liberal atau libertarian?
 
 
 <chapterId>d382c40b-78ce-416f-9f63-6ad43768406b</chapterId>
@@ -459,7 +459,7 @@ Sejak tahun 1960-an dan seterusnya, para pendukung liberalisme klasik di AS mula
 
 
 
-## Apakah kamu seorang libertarian atau libertaire/anarkis (dalam bahasa Prancis libertaire)?
+## Apakah Anda seorang libertarian atau libertaire/anarkis (dalam bahasa Prancis libertaire)?
 
 
 <chapterId>fc761194-249f-4009-a20f-1f98b7226cf2</chapterId>
@@ -906,7 +906,7 @@ Penting untuk dicatat di sini bahwa istilah totalitarianisme mengacu pada sistem
 Berikut ini adalah beberapa pertanyaan yang sering diajukan tentang isu-isu politik. Setiap pertanyaan diikuti dengan jawaban singkat yang khas dari seorang sosialis, konservatif, libertarian, dan sentris.
 
 
-Tentu saja, jawaban singkat ini hanya memberikan gambaran sekilas dari setiap sudut pandang. Karena tidak semua orang berpikir dengan cara yang sama, jawaban-jawaban ini tentu terbuka untuk diperdebatkan. Meski begitu, aku sudah berusaha untuk bersikap adil dan secara akurat mewakili pandangan sebagian besar orang.
+Tentu saja, jawaban singkat ini hanya memberikan gambaran sekilas dari setiap sudut pandang. Karena tidak semua orang berpikir dengan cara yang sama, jawaban-jawaban ini tentu terbuka untuk diperdebatkan. Meski begitu, saya sudah berusaha untuk bersikap adil dan secara akurat mewakili pandangan sebagian besar orang.
 
 
 Masalah sosial bukan soal uang, melainkan soal pilihan yang kita buat tentang apa yang kita baca, makan, minum, merokok, pakaian yang kita kenakan, atau dengan siapa kita memilih untuk bergaul, tidur, atau menikah.
@@ -1073,7 +1073,7 @@ Masalah sosial bukan soal uang, melainkan soal pilihan yang kita buat tentang ap
 
 
 
-Masalah ekonomi berkaitan dengan uang, seperti pekerjaan, aktivitas jual beli, investasi, dan transaksi bisnis. Aku sendiri memilih lima pertanyaan untuk menampilkan jawaban dari tiap keluarga politik. Tentu saja, jawaban singkat ini hanya memberi gambaran umum dari masing-masing sudut pandang.
+Masalah ekonomi berkaitan dengan uang, seperti pekerjaan, aktivitas jual beli, investasi, dan transaksi bisnis. Saya sendiri memilih lima pertanyaan untuk menampilkan jawaban dari tiap keluarga politik. Tentu saja, jawaban singkat ini hanya memberi gambaran umum dari masing-masing sudut pandang.
 
 
 ### Pajak
@@ -1355,13 +1355,13 @@ Konstruktivis, sentris, konservatif, dan sosialis semuanya sepakat pada satu poi
 
 
 
-- Yang aku maksud dengan proses politik adalah kemampuan pemerintah pusat untuk menciptakan, dengan kekuatan hukum, tatanan sosial yang adil dan stabil bagi orang banyak.
+- Yang saya maksud dengan proses politik adalah kemampuan pemerintah pusat untuk menciptakan, dengan kekuatan hukum, tatanan sosial yang adil dan stabil bagi orang banyak.
 
 
 
 
 
-- Yang aku maksud dengan proses pasar adalah pertukaran yang bebas dan sukarela sebagai mode interaksi dan mekanisme kerja sama.
+- Yang saya maksud dengan proses pasar adalah pertukaran yang bebas dan sukarela sebagai mode interaksi dan mekanisme kerja sama.
 
 
 
@@ -1594,15 +1594,15 @@ Bitcoin dirancang untuk membatasi kekuasaan pemerintah atas mata uang. Dengan de
 
 
 
-- Pemerintah dapat mengambil euro dari rekening bank milikmu.
-- Ia dapat mengambil rumah dan tanah milikmu.
-- Hal ini dapat mengambil saham milikmu.
-- Itu bisa mengambil emas milikmu.
-- Ia dapat mengambil segalanya dari milikmu.
+- Pemerintah dapat mengambil euro dari rekening bank milik Anda.
+- Ia dapat mengambil rumah dan tanah milik Anda.
+- Hal ini dapat mengambil saham milik Anda.
+- Itu bisa mengambil emas milik Anda.
+- Ia dapat mengambil segalanya dari milik Anda.
 
 
 
-Tetapi pemerintah tidak dapat mengambil bitcoinmu, karena tidak dapat menyita isi pikiran kamu.
+Tetapi pemerintah tidak dapat mengambil bitcoin Anda, karena tidak dapat menyita isi pikiran Anda.
 
 
 
@@ -1713,7 +1713,7 @@ Dari sudut pandang ini, tanpa secara eksplisit mengklaim sebagai bagian dari kub
 
 
 
-Dalam mata kuliah ini, aku mencoba menunjukkan bahwa garis pemisah yang sebenarnya bukanlah antara kiri, kanan, atau tengah, yang semuanya sama-sama berangkat dari asumsi statistik. Pada akhirnya, semua rumpun politik klasik cenderung tidak sepenuhnya percaya pada pasar bebas dan memiliki kecenderungan terhadap keterlibatan negara.
+Dalam mata kuliah ini, saya mencoba menunjukkan bahwa garis pemisah yang sebenarnya bukanlah antara kiri, kanan, atau tengah, yang semuanya sama-sama berangkat dari asumsi statistik. Pada akhirnya, semua rumpun politik klasik cenderung tidak sepenuhnya percaya pada pasar bebas dan memiliki kecenderungan terhadap keterlibatan negara.
 
 
 
@@ -1729,7 +1729,7 @@ Karena itu, cara yang paling tepat untuk memahami politik adalah dengan berangka
 
 
 
-Sejak saat itu, pertanyaan politiknya bukan lagi: *apakah kamu ingin membuat keputusan penting dalam hidup, atau apakah kamu ingin orang lain yang membuat keputusan untukmu?
+Sejak saat itu, pertanyaan politiknya bukan lagi: *apakah Anda ingin membuat keputusan penting dalam hidup, atau apakah Anda ingin orang lain yang membuat keputusan untuk Anda?
 
 
 

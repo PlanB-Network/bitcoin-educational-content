@@ -722,13 +722,13 @@ $$
 <chapterId>22f185cc-c516-5b33-950b-0908f2f881fe</chapterId>
 
 
-Amakuru yose yo muri mudasobwa aratunganirizwa, akabikwa, kandi akarungikwa ku nzira ku rugero rw’ibice. Ivyiyumviro vyose vy’ubuhinga bwo gukingira amakuru bikoreshwa ku makuru ya mudasobwa na vyo nyene bikora ku rugero rwa bit.
+Amakuru yose yo mubu hinga ngurukana bumenyi aratunganywa, akabikwa, kandi akarungikwa kumuhora kurugezo rwa "bits". Ivyiyumviro vyose vy’ubuhinga bwo gukingira amakuru bikoreshwa ku makuru ngurukana bumenyi na vyo nyene bikora ku rugero rwa "bits".
 
 
-Nk’akarorero, dufate ko wanditse ubutumwa bwo kuri e-mail mu gitabu cawe co gukoresha e-mail. Ivyo ukoresha vyose ntibiboneka ku nyuguti za ASCII z’imeli yawe ataco ihinduye. Ahubwo, rikoreshwa ku bijanye n’uguserukira amajambo n’ibindi bimenyetso biri muri e-mail yawe.
+Nk’akarorero, dufate nkokwandika ubutumwa(e-mail) muri application yawe y'ubutumwa. Ivyo ukoresha vyose ntibiboneka ku nyuguti za ASCII z’imeli yawe ataco ihinduye. Ahubwo, rikoreshwa ku bijanye n’uguserukira amajambo n’ibindi bimenyetso biri muri e-mail yawe.
 
 
-Igikorwa n’ingenzi c’imibare co gutahura ku bijanye n’ubuhinga bwa none, uretse igikorwa ca modulo, ni ic’igikorwa ca **XOR**, canke igikorwa “c’umwihariko canke”. Iyi nzira ifata nk'inputs ibice bibiri igatanga nk'isohoka ikindi bit. Ibikorwa vya XOR bizokwerekanwa gusa nka "XOR". Bitanga 0 iyo izo nkuru zibiri zimwe na 1 iyo izo nkuru zibiri zitandukanye. Ushobora kubona ivyo bintu bine bishoboka aha hepfo. Ikimenyetso $\oplus$ giserukira "XOR" :
+Igikorwa c’ingenzi c’ibiharuro co gutahura ku bijanye n’ubuhinga bwa none, uretse igikorwa ca modulo, ni ic’igikorwa ca **XOR**, canke igikorwa “c’umwihariko canke”. Iyi nzira ifata nk'inputs ibice bibiri igatanga nk'isohoka ikindi bit. Ibikorwa vya XOR bizokwerekanwa gusa nka "XOR". Bitanga 0 iyo izo nkuru zibiri zimwe na 1 iyo izo nkuru zibiri zitandukanye. Ushobora kubona ivyo bintu bine bishoboka aha hepfo. Ikimenyetso $\oplus$ giserukira "XOR" :
 
 
 
@@ -738,20 +738,20 @@ Igikorwa n’ingenzi c’imibare co gutahura ku bijanye n’ubuhinga bwa none, u
 - $1 \yongera 1 = 0$
 
 
-Kugira ngo tubone ingero, dufate ko ufise ubutumwa $m_1$ (01111001) n’ubutumwa $m_2$ (01011001). Ibikorwa vya XOR vy’ubu butumwa bubiri birashobora kubonwa aha hepfo.
+Kugira ngo twihe ingereranyo, dufate ko ufise ubutumwa $m_1$ (01111001) n’ubutumwa $m_2$ (01011001). Ibikorwa vya XOR vy’ubu butumwa bubiri birashobora kubonwa aha hepfo.
 
 
 
 - $m_1 \ukwongerako m_2 = 01111001 \ukwongerako 01011001 = 00100000$
 
 
-Inzira y’ivyo bikorwa iragororotse. Ubanza XOR ibice vy'ibubamfu cane vya $m_1$ na $m_2$. Muri iki gihe ivyo ni $0 \wongeyeko 0 = 0$. Uca ukora XOR y'ibice bibiri biva ibubamfu. Muri iki gihe ivyo ni $1 \wongeyeko 1 = 0$. Ubandanya iyo nzira gushika ukoze igikorwa ca XOR ku bice vy'iburyo cane.
+Inzira y’ivyo bikorwa irasanzwe. Ubanza gukora ibikorwa vya XOR vyo kuma "bits" ari ibubamfu cane ya $m_1$ na $m_2$. Muri iki gihe ivyo ni $0 \wongeyeko 0 = 0$. Uca ukora XOR y'ibice bibiri biva ibubamfu. Muri iki gihe ivyo ni $1 \wongeyeko 1 = 0$. Ubandanya iyo nzira gushika ukoze igikorwa ca XOR ku bice vy'iburyo cane.
 
 
-Biroroshe kubona ko igikorwa ca XOR ari igihinduranya, ni ukuvuga ko $m_1 \oplus m_2 = m_2 \oplus m_1$. Ikindi, igikorwa ca XOR na co nyene kirafatanya. Ni ukuvuga, $(m_1 \m_2) \m_3 = m_1 \m_2 \m_3)$.
+Biroroshe kubona ko igikorwa ca XOR kiri "commutative", ni ukuvuga ko $m_1 \oplus m_2 = m_2 \oplus m_1$. Ikindi, igikorwa ca XOR na co nyene "associative". Ni ukuvuga, $(m_1 \m_2) \m_3 = m_1 \m_2 \m_3)$.
 
 
-Igikorwa kijanye n'igikorwa ca XOR ku mirongo ibiri y'uburebure butandukanye gishobora kugira insobanuro zitandukanye, bivanye n'aho kiri. Ntituzokwitwararika hano ibikorwa vyose vya XOR ku mirongo y’uburebure butandukanye.
+Igikorwa kijanye n'igikorwa ca XOR ku mirongo ibiri y'uburebure butandukanye gishobora kugira insiguro zitandukanye, bivanye n'aho kiri. Ntituzokwitwararika hano ibikorwa vyose vya XOR ku mirongo y’uburebure butandukanye.
 
 
 Igikorwa kijanye na XOR kingana n’ikibazo kidasanzwe co gukora igikorwa ca modulo ku kwongerako ibice iyo umugabanyi ari 2. Ushobora kubona ukungana mu bisubizo bikurikira:
@@ -764,63 +764,63 @@ Igikorwa kijanye na XOR kingana n’ikibazo kidasanzwe co gukora igikorwa ca mod
 - $(1 + 1) \mod 2 = 1 \kwongerako 1 = 0$
 
 
-## Ububeshi bw'imburakimazi
+## Pseudoaléatoire
 
 <chapterId>20463fc5-3e92-581f-a1b7-3151279bd95e</chapterId>
 
 
-Mu kiganiro cacu ku bihinduka vy’imburakimazi n’ivy’imburakimazi, twashizeho itandukaniro ryihariye hagati y’“ihinduka ry’imburakimazi” n’“ihinduka ry’imburakimazi”. Ukwo gutandukanya gukomezwa mu bikorwa igihe umuntu adondora ibintu bihinduka ataco bimaze. Ariko rero, mu gihe cacu c’ubu, iyo ntandukaniro irakeneye gukurwaho maze “random” na “uniform” bikakoreshwa mu buryo bumwe. Nzobasigurira igituma mu mpera y’igice.
+Mu kiganiro cacu ku bihinduka(variable) biri aleatoire et uniformes(bisa), twashizeho itandukaniro ryihariye hagati y’“aléatoire” n’“uniforme(bisa)”. Ukwo gutandukanya gukomezwa mu bikorwa igihe umuntu adondora ama variable aleatoire. Ariko rero, mu gihe cacu c’ubu, iyo ntandukaniro irakeneye gukurwaho maze “aléatoire” na “uniform” bikakoreshwa mu buryo bumwe. Nzobasigurira igituma mu mpera y’igice.
 
 
-Kugira ngo dutangure, turashobora kwita urudodo rwa kabiri rw’uburebure $n$ **random** (canke **uniform**), nimba rwari ingaruka y’ugutora urugero rw’umuhinduzi umwe $S$ utanga urudodo rwa kabiri rwose rw’uburebure nk’ubwo $n$ ubushobozi bungana bwo guhitamwo.
+Kugira ngo dutangure, turashobora kwita uruherekerane rwa binaire rufise uburebure $n$ **aléatoire** (canke **uniform**), nimba yari igisubizo c'umuce w’umuhinduzi(variable) umwe(uniforme) $S$ utanga uruherekerane rwa binaire rwose rw’uburebure  $n$ bw'amahirwe angana yo guhitwamwo.
 
 
 Twibaze nk'akarorero, umugwi w'imirongo yose y'ibice bibiri ifise uburebure bwa 8: $\{0000\ 0000, 0000\ 0001, \ldots, 1111\ 1111\}$. (Ni ibisanzwe kwandika urudodo rw'ibice 8 mu bice bibiri bine, kimwe cose citwa **nibble**.) Reka twite iyi nkuru y'imirongo **$S_8$**.
 
 
-Kubera insobanuro iri hejuru, turashobora rero kwita urudodo rw'ibice bibiri vy'uburebure bwa 8 random (canke rumwe), nimba rwari ingaruka y'ugutora urugero rw'umuhinduzi umwe $S$ utanga urudodo rwose muri **$S_8$** ubushobozi bungana bwo guhitamwo. Kubera ko umugwi **$S_8$** urimwo $2^8$ Elements, ubushobozi bwo guhitamwo ku bijanye n'ugutora ivyitegererezo bwobaye $1/2^8$ ku rudodo rwose ruri muri uwo mugwi.
+Kubera insobanuro iri hejuru, turashobora rero kwita uruherekerane rwa binaire vy'uburebure bwa 8 rushobora gufatwa nka aléatoire(canke uniforme), nimba rwari igisubizo c'ugutora urugero rw'umuhinduzi(variable) busa(uniforme) $S$ utanga uruherekerane rwa **$S_8$** amahirwe angana yo guhitwamwo. Kubera ko umugwi **$S_8$** urimwo $2^8$ Elements, amahirwe y'amahitwamwo ku bijanye n'ugutora ivyitegererezo bwobaye $1/2^8$ ku kuruherekerane rwose ruri muri uwo mugwi.
 
 
-Ikintu nyamukuru ku bijanye n’uguhinduka kw’urudodo rw’ibice bibiri ni uko rusobanurwa hakurikijwe uburyo rwatowemwo. Uburyo bw’urudodo urwo ari rwo rwose rw’ibice bibiri ku bwarwo, rero, nta co buhishura ku bijanye n’ukuntu ruhinduka mu buryo butari bwo mu guhitamwo.
+Ikintu nyamukuru ku bijanye n’uguhinduka kw’uruherekerane rwa binaire ni uko rusobanurwa hakurikijwe uburyo rwatowemwo. Uburyo bw’uruherekerane urwo ari rwo rwose rw’ibice bibiri ku bwarwo, rero, nta co buhishura ku bijanye n’ukuntu ruhinduka mu buryo butari bwo mu guhitamwo.
 
 
-Nk'akarorero, abantu benshi bafise iciyumviro c'uko urudodo nka $1111\ 1111$ rutashobora gutorwa mu buryo bw'impfagusa. Ariko ivyo biragaragara ko ari ibinyoma.
+Nk'akarorero, abantu benshi bafise iciyumviro c'uko uruherekerane nka $1111\ 1111$ rutashobora gutorwa mu buryo bw'uguhitishamwo(aléatoire). Ariko ivyo biragaragara ko ari ibinyoma.
 
 
-Gusobanura umuhinduzi umwe $S$ ku mirongo yose y'ibice bibiri vy'uburebure bwa 8, ubushobozi bwo guhitamwo $1111\ 1111$ mu mugwi **$S_8$** ni kimwe n'ubw'umurongo nka $0111\ 0100$. Gutyo, nta co ushobora kuvuga ku bijanye n’ukuntu urudodo rugenda ruhinduka, mu gusuzuma gusa urudodo ubwarwo.
+Gusobanura variable isa(uniforme) $S$ ku mugwi w'uruherekerane rwa binaire rw'uburebure bwa 8, ubushobozi bwo guhitamwo $1111\ 1111$ mu mugwi **$S_8$** ni kimwe n'ubw'umurongo nka $0111\ 0100$. Gutyo, nta co ushobora kuvuga ku bijanye n’ukuntu uruherekerane rugenda ruhinduka, mu kurusuzuma gusa.
 
 
-Turashobora kandi kuvuga imirongo y’imburakimazi ata nsobanuro yihariye y’imirongo ibiri. Twoshobora, nk'akarorero, kuvuga urudodo rw'imirongo itandatu $AF\ 02\ 82$. Muri iki gihe, urudodo rwari gutorwa mu buryo bw’impfagusa mu rwego rw’imirongo yose y’uburebure bwa 6. Ivyo bihwanye no guhitamwo mu buryo bw’impfagusa urudodo rw’uburebure bwa 24, kuko umubare wose w’imirongo itandatu ugereranya ibice 4.
+Turashobora kandi kuvuga kuruherekerane rw'uguhitishamwo(aléatoires) ata nsobanuro yihariye y’uruherekerane rwa binaire. Twoshobora, nk'akarorero, kuvuga uruherekerane rw'imirongo itandatu $AF\ 02\ 82$. Muri iki gihe, uruherekerane rwari gutorwa mu buryo bw’uguhitishamwo(aléatoire) mu rwego rw’imirongo yose y’uburebure bwa 6. Ivyo bihwanye no guhitamwo mu buryo bw'uguhitishamwo(aléatoire) uruherekerane rw'uburebure bwa 24, kuko umubare wose w’imirongo itandatu ugereranya ibice 4.
 
 
-Mu bisanzwe imvugo “urudodo rw’imburakimazi”, ata n’umwe afise ubushobozi, yerekeza ku rudodo rwatowe mu buryo bw’imburakimazi mu rwego rw’imirongo yose ifise uburebure bumwe. Uko ni ko nabidondoye haruguru. Urudodo rw'uburebure $n$ rushobora, birumvikana, na rwo nyene gutorwa mu buryo bw'impfagusa mu mugwi utandukanye. Imwe, nk’akarorero, iyo gusa igizwe n’umugwi mutoyi w’imirongo yose y’uburebure $n$, canke kumbure umugwi urimwo imirongo y’uburebure butandukanye. Ariko muri ivyo bihe, ntitwovyita “urudodo rw’imburakimazi”, ahubwo twovyita “urudodo rutoranijwe mu buryo bw’imburakimazi mu rutonde rumwe rumwe **S**”.
+Mu bisanzwe imvugo “uruherekerane rw'uguhitishamwo(aléatoires)”, ata n’umwe afise ubushobozi, yerekeza ku uruherekerane rwatowe mu buryo bwoguhitishamwo mu rwego rw’imirongo yose ifise uburebure bumwe. Uko ni ko nabidondoye haruguru. Uruherekerane rw'uburebure $n$ rushobora, birumvikana, na rwo nyene gutorwa mu buryo bw'uguhitishamwo mu mugwi utandukanye. Imwe, nk’akarorero, iyo gusa igizwe n’umugwi mutoyi w’imirongo yose y’uburebure $n$, canke kumbure umugwi urimwo imirongo y’uburebure butandukanye. Ariko muri ivyo bihe, ntitwovyita “urudodo rw’imburakimazi”, ahubwo twovyita “urudodo rutoranijwe mu buryo bw’imburakimazi mu rutonde rumwe rumwe **S**”.
 
 
-Iciyumviro nyamukuru kiri mu vy’ubuhinga bwo gukingira amakuru ni ic’ubuhinga bwo gukingira amakuru. **Urudodo rw'ibinyoma** rw'uburebure $n$ ruboneka *nk'aho* rwari ingaruka y'ugutora urugero rw'umuhinduzi umwe $S$ utanga urudodo rwose muri **$S_n$** ubushobozi bungana bwo guhitamwo. Ariko rero, mu vy'ukuri, urudodo ni ingaruka y'ugutora urugero rw'umuhinduzi umwe $S'$ asobanura gusa ugusangira kw'ibishoboka—si ngombwa ko haba uwufise ibishoboka bingana ku ngaruka zose zishoboka-ku gice c'ibishoboka **$S_n$**. Iciyumviro gihambaye cane aha ni uko ata n’umwe ashobora vy’ukuri gutandukanya ivyerekanwa biva kuri $S$ na $S’$, naho woba ufata vyinshi muri vyo.
+Iciyumviro nyamukuru kiri mu vy’ubuhinga bwo gukingira amakuru ni ic’ubuhinga bwo gukingira amakuru(pseudoaléatoirité). **Urudodo rw'ibinyoma(pseudoaléatoire)** rw'uburebure $n$ ruboneka *nk'aho* rwari ingaruka y'ugutora urugero rwa variable isa(uniforme) $S$ utanga uruherekerane rwose muri **$S_n$** ubushobozi bungana bwo guhitamwo. Ariko rero, mu vy'ukuri, uruherekerane ni igisubizo c'ugutora urugero rwa variable isa $S'$ asobanura gusa ugusangira kw'ibishoboka—si ngombwa ko haba uwufise ibishoboka bingana ku ngaruka zose zishoboka-ku gice c'ibishoboka **$S_n$**. Iciyumviro gihambaye cane aha ni uko ata n’umwe ashobora vy’ukuri gutandukanya ivyerekanwa biva kuri $S$ na $S’$, naho woba ufata vyinshi muri vyo.
 
 
-Twibaze nk’akarorero, umuhinduzi w’imburakimazi $S$. Igisubizo caco ni **$S_{256}$**, iki ni igisubizo c'imirongo ibiri yose y'uburebure 256. Iyi nkuru ifise $2^{256}$ Elements. Ikintu cose gifise ubushobozi bungana bwo guhitamwo, $1/2^{256}$, ku bijanye n'ugutora.
+Twibaze nk’akarorero, variable aleatoire $S$. Igisubizo caco ni **$S_{256}$**, iki ni igisubizo c'imirongo ibiri yose y'uburebure 256. Iyi nkuru ifise $2^{256}$ Elements. Ikintu cose gifise ubushobozi bungana bwo guhitamwo, $1/2^{256}$, ku bijanye n'ugutora.
 
 
-Ikindi, dufate ko umuhinduzi w'imburakimazi $S'$. Ivyiza vyayo birimwo gusa $2^{128}$ imirongo ibiri y'uburebure 256. Ifise ugusangira kw'ibishoboka kuri iyo mirongo, ariko iyo nsangira si ngombwa ko iba imwe.
+Ikindi, dufate kuri variable aleatoire $S'$. Ivyiza vyayo birimwo gusa $2^{128}$ imirongo ibiri y'uburebure 256. Ifise ugusangira kw'ibishoboka kuri iyo mirongo, ariko iyo nsangira si ngombwa ko iba imwe.
 
 
-Twibaze ko ubu mfashe 1000s z’ibigereranyo bivuye kuri $S$ n’1000s vy’ibigereranyo bivuye kuri $S'$ nkaguha izo seti zibiri z’ivyavuyemwo. Ndababwira umugwi w’ivyavuyemwo ufitaniye isano n’umuhinduzi uwuhe w’imburakimazi. Igikurikira, mfata akarorero muri kimwe muri ivyo bibiri bihinduka ataco bimaze. Ariko kuri iyi nshuro sinbabwira umuhinduzi w’imburakimazi nkoresha nk’akarorero. Iyo $S'$ iba pseudorandom, rero iciyumviro ni uko ubushobozi bwawe bwo gutekereza ku buryo bubereye ku bijanye n'umuhinduzi w'imburakimazi nafashe nk'akarorero ntabwo ari mwiza kuruta $1/2$.
+Twibaze ko ubu mfashe 1000s z’ibigereranyo bivuye kuri $S$ n’1000s vy’ibigereranyo bivuye kuri $S'$ nkaguha izo seti zibiri z’ivyavuyemwo. Ndababwira umugwi w’ivyavuyemwo ufitaniye isano na variable aleatoire. Igikurikira, mfata akarorero muri kimwe muri ivyo bibiri bihinduka ataco bimaze. Ariko kuri iyi nshuro sinbabwira umuhinduzi w’imburakimazi nkoresha nk’akarorero. Iyo $S'$ iba pseudoaléatoire, rero iciyumviro ni uko ubushobozi bwawe bwo gutekereza ku buryo bubereye ku bijanye variable aléatoire nafashe nk'akarorero ntabwo ari mwiza kuruta $1/2$.
 
 
-Mu bisanzwe, urudodo rw’uburebure bwa $n$ rukorwa mu guhitamwo urudodo rw’ubunini $n – x$, aho $x$ ari umubare wose mwiza, no kurukoresha nk’inyungu y’ubuhinga bwo kwagura. Uyu murongo w’ubunini $n – x$ uzwi kw’izina rya **seed**.
+Mu bisanzwe, uruherekerane rw’uburebure bwa $n$ rukorwa mu guhitamwo uruherekerane rw’ubunini $n – x$, aho $x$ ari umubare wose mwiza, no kurukoresha nk’inyungu y’ubuhinga bwo kwagura. Uyu murongo w’ubunini $n – x$ uzwi kw’izina rya **seed**.
 
 
-Imirongo y’ibinyoma ni iciyumviro nyamukuru co gutuma ubuhinga bwo gukingira amakuru bukora. Nk’akarorero, rimbura ibijanye n’amajambo y’uruzi. Hakoreshejwe uruzi cipher, urufunguzo rwatowe mu buryo bw’impfagusa rushirwa mu nzira y’ukwagura kugira ngo ruvemwo urudodo runini cane rw’imburakimazi. Uwo murongo w'ibinyoma uca ufatanywa n'inyandiko rusangi biciye ku gikorwa ca XOR kugira ngo haboneke inyandiko y'ibanga.
+Uruherekerane pseudoaléatoire ni iciyumviro nyamukuru co gutuma ubuhinga bwo gukingira amakuru bukora. Nk’akarorero, rimbura ibijanye n’amajambo(chiffrement par flot). Hakoreshejwe flot, urufunguzo rwatowe mu buryo bw’uguhitishamwo rushirwa mu nzira y’ukwagura kugira ngo ruvemwo uruherekerane runini cane rw’imburakimazi. Uwo murongo w'ibinyoma uca ufatanywa n'inyandiko rusangi biciye ku gikorwa ca XOR kugira ngo haboneke inyandiko y'ibanga.
 
 
-Iyo tutashobora gukora ubwo bwoko bw’urudodo rw’ibinyoma rw’uruzi, rero twokenera urufunguzo rurerure nk’ubutumwa ku bw’umutekano warwo. Ivyo si uburyo bukora cane mu bihe vyinshi.
+Iyo tutashobora gukora ubwo bwoko bw’uruherekerane pseudoaléatoire bwa chiffrement ya flot, rero twokenera urufunguzo rurerure nk’ubutumwa ku bw’umutekano warwo. Ivyo si uburyo bukora cane mu bihe vyinshi.
 
 
-Iciyumviro c’ubuhendanyi buvugwa muri iki gice gishobora gusobanurwamwo mu buryo bubereye. Rirashika no mu bindi bihe. Ariko ntidukwiye kwinjira cane muri ico kiganiro ngaha. Ivyo ukeneye gutahura vyose mu vy’ukuri ku bijanye n’ubuhinga bwo gukingira amakuru ni itandukaniro hagati y’urudodo rw’imburakimazi n’urudodo rw’imburakimazi. [2]
+Iciyumviro ca pseudoaléatoirité buvugwa muri iki gice gishobora gusobanurwamwo mu buryo bubereye. Rirashika no mu bindi bihe. Ariko ntidukwiye kwinjira cane muri ico kiganiro ngaha. Ivyo ukeneye gutahura vyose mu vy’ukuri ku bijanye n’ubuhinga bwo gukingira amakuru ni itandukaniro hagati y’urudodo rw’imburakimazi n’urudodo rw’imburakimazi. [2]
 
 
-Imvo yo gukuraho itandukaniro hagati y’“imburakimazi” n’“imwe” mu kiganiro cacu na yo nyene ubu ikwiye gusobanuka. Mu bikorwa, umuntu wese akoresha ijambo pseudorandom kugira yerekane urudodo ruboneka **nk'aho** rwari ingaruka y'ugutora ivyerekanwa vy'umuhinduzi umwe $S$. Mu kuvuga ataco twirengagije, dukwiye kwita mwene uwo murongo “impuzu y’ikinyoma,” dufata ururimi rwacu rwa kera. Kubera ko ijambo “pseudo-uniforme” ari iry’agahomerabunwa kandi nta n’umwe rikoresha, ntituzorishira aha kugira ngo risobanuke neza. Ahubwo, turareka gusa itandukaniro riri hagati ya “random” na “uniform” mu gihe c’ubu.
+Imvo yo gukuraho itandukaniro hagati y’“aléatoire” n’“uniforme” mu kiganiro cacu na yo nyene ubu ikwiye gusobanuka. Mu bikorwa, umuntu wese akoresha ijambo pseudoaléatoire kugira yerekane uruherekerane ruboneka **nk'aho** rwari ingaruka y'ugutora ivyerekanwa bwa variable isa(uniforme) $S$. Mu kuvuga ataco twirengagije, dukwiye kwita mwene uwo murongo “pseudo-uniforme,” dufata ururimi rwacu rwa kera. Kubera ko ijambo “pseudo-uniforme” ari iry’agahomerabunwa kandi nta n’umwe rikoresha, ntituzorishira aha kugira ngo risobanuke neza. Ahubwo, turareka gusa itandukaniro riri hagati ya “aléatoire” na “uniforme” mu gihe c’ubu.
 
 
 

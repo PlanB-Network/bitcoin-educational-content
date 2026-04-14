@@ -867,40 +867,40 @@ Ivyiyumviro biva mu buhinga bw'ibintu bishobora gukorana n'ubwoko bwinshi bw'ibi
 
 
 
-## Amatsinda
+## Imigwi
 
 <chapterId>3209b270-f9cd-5224-803e-0ed19fbf7826</chapterId>
 
 
-Iciyumviro nyamukuru mu biharuro ni ic'umugwi wa Elements. Igitigiri gisanzwe kigaragazwa n’ibimenyetso vy’ugushima bifise Elements itandukanijwe n’ibimenyetso vy’ugushimira.
+Iciyumviro nyamukuru mu biharuro ni ic'umugwi wama Elements. Umugwi usanzwe ugaragazwa n’ibimenyetso vy'ubuzitizo(accolades) hamwe nama Elements atandukanijwe n’ibimenyetso vy'udukwabu.
 
 
-Nk'akarorero, umugwi w'imibare yose ni $\{..., -2, -1, 0, 1, 2, ...\}$. Ivyo bimenyetso vy’uruzitiro biri aha bisigura ko hariho urugero runaka rubandanya mu nzira kanaka. Rero umugwi w’imibare yose yuzuye na wo nyene urimwo $3, 4, 5, 6$ n’ibindi, hamwe n’amadolari-3, -4, -5, -6$ n’ibindi. Iyi mibare yose igaragazwa na $\mathbb{Z}$.
+Nk'akarorero, umugwi w'ibitigiri bishitse vyose ni $\{..., -2, -1, 0, 1, 2, ...\}$. Ububurungu butatu ngaha bwerekana ko hariho imvo runaka ibandanya mu nzira kanaka. Rero umugwi w’ibitigiri bishitse birimwo $3, 4, 5, 6$ n’ibindi, hamwe n’amadolari-3, -4, -5, -6$ n’ibindi. Iyi mibare yose igaragazwa na $\mathbb{Z}$.
 
 
-Akandi karorero k'umugwi ni $\mathbb{Z} \mod 11$, canke umugwi w'imibare yose modulo 11. Bitandukanye n'umugwi wose $\mathbb{Z}$, uwo mugwi urimwo gusa umubare w'iherezo wa Elements, ni ukuvuga $\{0, 1, \ldots, 9}\$1.
+Akandi karorero k'umugwi ni $\mathbb{Z} \mod 11$, canke umugwi w'ibitigiri bishitse modulo 11. Bitandukanye n'umugwi udahera(ensemble infini) $\mathbb{Z}$, uwo mugwi urimwo gusa ibitigiri bihera vya Elements, ni ukuvuga $\{0, 1, \ldots, 9}\$1.
 
 
-Ikosa risanzwe ni ukwiyumvira ko umugwi $\mathbb{Z} \mod 11$ mu vy'ukuri ari $\{-10, -9, \ldots, 0, \ldots, 9, 10\}$. Ariko ivyo si ko biri, turavye uburyo twasobanuye igikorwa ca modulo mbere. Imibare yose idasanzwe igabanywa na modulo 11 izingira kuri $\{0, 1, \ldots, 9, 10\}$. Nk'akarorero, imvugo $-2 \mod 11$ izunguruka $9$, mu gihe imvugo $-27 \mod 11$ izunguruka $5$.
+Ikosa risanzwe ni ukwiyumvira ko umugwi $\mathbb{Z} \mod 11$ mu vy'ukuri ari $\{-10, -9, \ldots, 0, \ldots, 9, 10\}$. Ariko ivyo si ko biri, turavye uburyo twasobanuye igikorwa ca modulo mbere. Ibitigiri bishitse vyose bigabanywa na modulo 11 izingira kuri $\{0, 1, \ldots, 9, 10\}$. Nk'akarorero, imvugo $-2 \mod 11$ izunguruka $9$, mu gihe imvugo $-27 \mod 11$ izunguruka $5$.
 
 
-Ikindi ciyumviro nyamukuru mu biharuro ni ic'igikorwa c'ibice bibiri. Ivyo ni igikorwa cose gifata Elements zibiri kugira ngo umuntu akore ica gatatu. Nk’akarorero, uhereye ku mibare n’imibare y’ishimikiro, woba umenyereye ibikorwa bine vy’ishimikiro vy’ibiharuro bibiri: kwongerako, gukurako, gukubita n’ugugabanya.
+Ikindi ciyumviro nyamukuru mu biharuro ni ic'igikorwa c'ibice bibiri. Ivyo ni igikorwa cose gifata Elements zibiri kugira ngo umuntu akore ica gatatu. Nk’akarorero, uhereye kuri arithmétique na algèbre y'intango, woba umenyereye ibikorwa bine vy’ishimikiro vy’ibiharuro bibiri: kwongerako, gukurako, gukubita n’ugugabanya.
 
 
-Ivyo vyiyumviro bibiri vy’ishimikiro vy’imibare, imigwi n’ibikorwa bibiri, bikoreshwa mu gusobanura iciyumviro c’umugwi, umubumbe w’ingenzi kuruta iyindi yose muri aligebra itaboneka.
+Ivyo vyiyumviro bibiri vy’ishimikiro vy’ibiharuro, imigwi n'uruherekerane rwa binaire, bikoreshwa mu gusobanura iciyumviro c’umugwi, inyubako y’ingenzi kuruta iyindi yose muri algèbre abstraite.
 
 
-Mu buryo bwihariye, dufate ko hariho igikorwa c'ibice bibiri $\circ$. Ikindi, dufate ko hariho umugwi w’indege Elements **S** zifise iyo nzira. Ivyo vyose “bifise” bisigura aha ni uko igikorwa $\circ$ gishobora gukorwa hagati y’ibice bibiri vyose vya Elements biri mu mugwi **S**.
+Mu buryo bwihariye, dufate ko hariho igikorwa ca "binaire" $\circ$. Ikindi, dufate ko hariho umugwi w’indege Elements **S** zifise iyo nzira. Ivyo vyose “bifise” bisigura aha ni uko igikorwa $\circ$ gishobora gukorwa hagati y’ibice bibiri vyose vya Elements biri mu mugwi **S**.
 
 
 Ihuriro $\langle \mathbf{S}, \circ \rangle$ ni, rero, **umugwi** iyo rihuye n'ibintu bine vyihariye, bizwi nk'ibihimba vy'umugwi.
 
 
-1. Ku $a$ na $b$ vyose ari Elements vya $\mathbf{S}$, $a \circ b$ na vyo nyene ni ikintu ca $\mathbf{S}$. Ivyo bizwi nka **ivyangombwa vyo gufunga**.
+1. Ku $a$ na $b$ vyose biri muri $\mathbf{S}$, $a \circ b$ na vyo nyene ni ikintu(elements)ca $\mathbf{S}$. Ivyo bizwi nka **ivyangombwa vyo gufunga(condition de fermeture)**.
 
-2. Ku $a$, $b$, na $c$ iyo ari yo yose ari Elements ya $\mathbf{S}$, ni uko $(a \uruziga b) \uruziga c = a \uruziga (b \uruziga c)$. Ivyo bizwi kw’izina rya **ivyangombwa vy’ubumwe**.
+2. Ku $a$, $b$, na $c$ vyose biri muri $\mathbf{S}$, dufise $(a \uruziga b) \uruziga c = a \uruziga (b \uruziga c)$. Ivyo bizwi kw’izina rya **ivyangombwa vy’ubumwe(condition d'associativité)**.
 
-3. Hariho ikintu kidasanzwe $e$ muri $\mathbf{S}$, ku buryo ku kintu cose $a$ kiri muri $\mathbf{S}$, ihangana rikurikira rifata: $e \circ a = a \circ e = a$. Kubera ko hariho ikintu kimwe gusa nk'ico $e$, citwa **ikintu c'akaranga**. Ivyo bimenyekana nk’**ivyangombwa vy’akaranga**.
+3. Hariho Element idasanzwe $e$ muri $\mathbf{S}$, ku buryo ku element yose $a$ kiri muri $\mathbf{S}$, ihangana rikurikira rifata: $e \circ a = a \circ e = a$. Kubera ko hariho ikintu kimwe gusa nk'ico $e$, citwa **élément neutre(ikintu ataho gihagaze)**. Ivyo bimenyekana nk’**ivyangombwa vy’akaranga(condition d'identité)**.
 
 4. Ku kintu cose $a$ kiri muri $\mathbf{S}$, hariho ikintu $b$ kiri muri $\mathbf{S}$, ku buryo iyi nsiguro ifata: $a \circ b = b \circ a = e$, aho $e$ ari ikintu c’akaranga. Igikoresho $b$ aha kizwi nka **igikoresho gihinduka**, kandi gisanzwe kigaragazwa nk' $a^{-1}$. Ivyo bimenyekana nk’**ivy’uguhinduka** canke **ivy’uguhinduka**.
 
@@ -908,9 +908,9 @@ Ihuriro $\langle \mathbf{S}, \circ \rangle$ ni, rero, **umugwi** iyo rihuye n'ib
 Reka dusuzume imigwi gatoyi. Erekana umugwi w'imibare yose n' $\mathbb{Z}$. Iryo tsinda ryifatanijwe n'inyongezo rusangi, canke $\langle \mathbb{Z}, + \rangle$, rihuye neza n'insobanuro y'umugwi, kuko rihuye n'ivyo bine bivugwa haruguru.
 
 
-1. Ku $x$ yose na $y$ ari Elements ya $\imibarebb{Z}$, $x + y$ na yo ni ikintu ca $\imibarebb{Z}$. Rero $\angle \mathbb{Z}, + \angle$ ihuye n'ivyangombwa vyo gufunga.
+1. Ku $x$ yose na $y$ yose iri muri$\imibarebb{Z}$, $x + y$ na yo ni element ya $\imibarebb{Z}$. Rero $\angle \mathbb{Z}, + \angle$ ihuye n'ivyangombwa vyo gufunga.
 
-2. Ku $x$, $y$, na $z$ iyo ari yo yose ari Elements ya $\imibarebb{Z}$, $(x + y) + z = x + (y + z)$. Rero $\angle \mathbb{Z}, + \angle$ ihura n'ivyangombwa vy'ubufatanye.
+2. Ku $x$, $y$, na $z$  yose iri muri  $\imibarebb{Z}$, $(x + y) + z = x + (y + z)$. Rero $\angle \mathbb{Z}, + \angle$ ihura n'ivyangombwa vy'ubufatanye.
 
 3. Hariho ikintu c'akaranga muri $\angle \mathbb{Z}, + \rangle$, ni ukuvuga 0. Ku $x$ iyo ari yo yose iri muri $\mathbb{Z}$, ni ukuvuga ko: $0 + x = x + 0 = x$. Rero $\angle \mathbb{Z}, + \angle$ ihuye n'ivyangombwa vy'akaranga.
 
@@ -926,7 +926,7 @@ Ivyo bimenyetso bibiri vya mbere biragaragara ko ari vyo. Ikindi, mu gihe c’ug
 Nk’akarorero, dufate ko $x = 22$. Ni agaciro akahe $y$ kavuye mu mugwi $\mathbb{Z}$ kagwijwe na $x$ koshobora gutanga ikintu c'akaranga 1? Agaciro ka $1/22$ kokora, ariko ivyo ntibiri mu mugwi $\mathbb{Z}$. Nkako, ushobora guhura n'iki kibazo ku mubare wose $x$, uretse agaciro ka 1 na -1 (aho $y$ yoba 1 na -1).
 
 
-Iyo twemereye imibare nyayo ku bijanye n’umugwi wacu, rero ingorane zacu ahanini zirazimangana. Ku kintu cose $x$ kiri mu rutonde, gukubita $1/x$ bitanga 1. Nk’uko imice ishirwa mu rutonde rw’imibare nyayo, inverse irashobora kuronka ku mubare nyawo wose. Ivyo bidasanzwe ni zero, kuko ugukubita kwose kuri zero kutazokwigera gutanga ikintu c’akaranga 1. Ni co gituma, umugwi w’imibare nyayo itari zero ifise ugukubita ni umugwi vy’ukuri.
+Iyo twemereye ibitigiri nyavyo ku bijanye n’umugwi wacu, rero ingorane zacu ahanini zirazimangana. Ku kintu cose $x$ kiri mu rutonde, gukubita $1/x$ bitanga 1. Nk’uko imice ishirwa mu rutonde rw’ibitigiri nyavyo, inverse irashobora kuronka ibitigiri nyavyo vyose. Ivyo bidasanzwe ni zero, kuko ugukubita kwose kuri zero kutazokwigera gutanga ikintu c’akaranga 1. Ni co gituma, umugwi w’imibare nyayo itari zero ifise ugukubita ni umugwi vy’ukuri.
 
 
 Hari imigwi ihura n’itegeko rusangi rya gatanu, rizwi kw’izina rya **itegeko ry’uguhinduranya**. Ivyo bitegekanijwe ni ibi bikurikira:
@@ -936,7 +936,7 @@ Hari imigwi ihura n’itegeko rusangi rya gatanu, rizwi kw’izina rya **itegeko
 - Twibaze ko umugwi $G$ ufise umugwi **S** n'umukoresha wa kabiri $\circ$. Twibaze ko $a$ na $b$ ari Elements ya **S**. Niba ari uko $a \circ b = b \circ a$ ku bibiri vyose Elements $a$ na $b$ biri muri **S**, rero $G$ ihura n'ivyangombwa vy'uguhinduranya.
 
 
-Itsinda ryose rihuye n’ivyo guhinduka rizwi kw’izina rya **itsinda ry’ihinduka**, canke **itsinda rya Abeli** (inyuma ya Niels Henrik Abel). Biroroshe kugenzura ko umugwi w'imibare nyayo ku kwongerako n'umugwi w'imibare yose ku kwongerako ari imigwi ya Abeli. Itsinda ry'imibare yose ku gukubita si umugwi na gato, rero ipso facto ntishobora kuba umugwi wa Abelian. Itsinda ry'imibare nyayo itari zero ku gukubita, mu buryo butandukanye, na ryo nyene ni umugwi wa Abelian.
+Itsinda ryose rihuye n’ivyo guhinduka rizwi kw’izina rya **itsinda ry’ihinduka**, canke **itsinda rya Abeli** (inyuma ya Niels Henrik Abel). Biroroshe kugenzura ko umugwi w'imibare nyayo ku kwongerako n'umugwi w'imibare yose ku kwongerako ari imigwi ya Abeli. Itsinda ry'ibiharuro yose ku gukubita si umugwi na gato, rero ipso facto ntishobora kuba umugwi wa Abelian. Itsinda ry'imibare nyayo itari zero ku gukubita, mu buryo butandukanye, na ryo nyene ni umugwi wa Abelian.
 
 
 Ukwiye kwumviriza amakoraniro abiri ahambaye yerekeye ugushiramwo amajambo. Ica mbere, ibimenyetso “+” canke “×” bizokoreshwa kenshi kugira ngo bigereranye ibikorwa vy’imigwi, mbere n’igihe Elements atari, mu vy’ukuri, imibare. Muri ivyo bihe, ntukwiye gusobanura ivyo bimenyetso nk’ugushiramwo canke gukubita kw’imibare bisanzwe. Ahubwo ni ibikorwa bifise gusa ugusa n’ivyo bikorwa vy’imibare.
@@ -945,7 +945,7 @@ Ukwiye kwumviriza amakoraniro abiri ahambaye yerekeye ugushiramwo amajambo. Ica 
 Keretse iyo uriko uravuga cane cane kwongerako canke gukubita, biroroshe gukoresha ibimenyetso nka $\circ$ na $\diamond$ ku bikorwa vy'imigwi, kuko ivyo bidafise insobanuro zishingiye cane ku mico kama.
 
 
-Ubwa kabiri, kubera iyo mvo nyene “+” na “×” zikoreshwa kenshi mu kwerekana ibikorwa bitari ivy’imibare, akaranga Elements k’imigwi gakunda kugaragazwa na “0” na “1”, mbere n’igihe Elements muri iyo migwi atari imibare. Keretse iyo uriko uravuga ikintu c’akaranga c’umugwi ufise imibare, biroroshe gukoresha ikimenyetso kitagira aho kigarukira nka “$e$” kugira ngo werekane ikintu c’akaranga.
+Ubwa kabiri, kubera iyo mvo nyene “+” na “×” zikoreshwa kenshi mu kwerekana ibikorwa bitari ivy'ibiharuro(arithmétique), akaranga Elements k’imigwi gakunda kugaragazwa na “0” na “1”, mbere n’igihe Elements muri iyo migwi atari imibare. Keretse iyo uriko uravuga ikintu c’akaranga c’umugwi ufise imibare, biroroshe gukoresha ikimenyetso kitagira aho kigarukira nka “$e$” kugira ngo werekane ikintu c’akaranga.
 
 
 Ivyiyumviro vyinshi bitandukanye kandi bihambaye cane mu biharuro bifise ibikorwa bimwebimwe vy’ibice bibiri ni imigwi. Ariko rero, ibikorwa vy’ubuhinga bwa cryptography bikora gusa n’imigwi y’imibare yose canke n’imiburiburi Elements idondorwa n’imibare yose, ni ukuvuga mu rwego rw’inyigisho y’imibare. Ku bw’ivyo, amatsinda afise imibare nyayo atari imibare yose ntakoreshwa mu bikorwa vy’ubuhinga bwo gupfuka amakuru.
@@ -965,7 +965,7 @@ $$
 (umubare munini w'intango uri munsi ya $2^{256}$)
 
 
-Ibikorwa muri Bitcoin mu bisanzwe birimwo gufunga ibisohoka ku rufunguzo rumwe canke nyinshi za bose mu buryo bumwe. Agaciro kava muri ivyo bikorwa gashobora rero gufungurwa hakoreshejwe imikono ya digitale n’imfunguruzo z’ibanga zihuye.
+Ibikorwa vyirungika vya Bitcoin mu bisanzwe birimwo gufunga ibisohoka ku rufunguzo rumwe canke nyinshi za bose mu buryo bumwe. Agaciro kava muri ivyo bikorwa gashobora rero gufungurwa hakoreshejwe imikono ya digitale n’imfunguruzo z’ibanga zihuye.
 
 
 

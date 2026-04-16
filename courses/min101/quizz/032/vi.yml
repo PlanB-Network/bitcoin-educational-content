@@ -6,4 +6,4 @@ wrong_answers:
   - 100 BTC
 explanation: |
   Mức trợ cấp ban đầu là 50 BTC mỗi khối, trước các lần chia liên tiếp.
-reviewed: false
+reviewed: true

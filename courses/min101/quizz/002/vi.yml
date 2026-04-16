@@ -6,4 +6,4 @@ wrong_answers:
   - Mempool là một máy chủ trung tâm
 explanation: |
   Mempool là cục bộ đối với mỗi nút, vì vậy nội dung của nó có thể thay đổi tùy theo từng nút dựa trên các quy tắc mà mỗi nút áp dụng.
-reviewed: false
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - SHA256d(tiêu đề khối) > mục tiêu
 explanation: |
   Để một khối hợp lệ trên Bitcoin, mã băm tiêu đề của nó, được hiểu là một con số, phải nhỏ hơn hoặc bằng (<=) mục tiêu.
-reviewed: false
+reviewed: true

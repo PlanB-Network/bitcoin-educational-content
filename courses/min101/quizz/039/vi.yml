@@ -6,4 +6,4 @@ wrong_answers:
   - Nó không nằm trong cây Merkle
 explanation: |
   Đầu vào của nó trỏ đến một UTXO giả, cho phép tạo ra trợ cấp và thu phí.
-reviewed: false
+reviewed: true

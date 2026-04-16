@@ -6,4 +6,4 @@ wrong_answers:
   - Nguyên lý tác dụng tối thiểu
 explanation: |
   Sự hội tụ của các kết quả là do luật số lớn, vì mỗi hash là một thử nghiệm độc lập.
-reviewed: false
+reviewed: true

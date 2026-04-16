@@ -6,4 +6,4 @@ wrong_answers:
   - Một khối được lưu trữ trong mempool
 explanation: |
   Mỗi thợ đào tự lắp ráp một khối ứng cử viên tại máy của mình trước khi cố gắng tìm bằng chứng công việc hợp lệ.
-reviewed: false
+reviewed: true

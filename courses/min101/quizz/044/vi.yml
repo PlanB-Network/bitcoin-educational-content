@@ -6,4 +6,4 @@ wrong_answers:
   - FPGA
 explanation: |
   Khi mới ra mắt, phần mềm chạy trên máy tính cá nhân và chủ yếu sử dụng bộ vi xử lý.
-reviewed: false
+reviewed: true

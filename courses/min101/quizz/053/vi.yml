@@ -6,4 +6,4 @@ wrong_answers:
   - Trong một scriptSig
 explanation: |
   Giao dịch không được ghi ngay lập tức vào blockchain. Đầu tiên nó được tích hợp vào một khối.
-reviewed: false
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - Mục tiêu độ khó
 explanation: |
   Halving chia đôi mức trợ cấp tối đa được tạo ra cho mỗi khối mà không ảnh hưởng đến phí.
-reviewed: false
+reviewed: true

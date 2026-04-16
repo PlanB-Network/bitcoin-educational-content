@@ -6,4 +6,4 @@ wrong_answers:
   - Một chứng chỉ SSL
 explanation: |
   Điều kiện chi tiêu thường yêu cầu một chữ ký được tạo bằng khóa cá nhân tương ứng.
-reviewed: false
+reviewed: true

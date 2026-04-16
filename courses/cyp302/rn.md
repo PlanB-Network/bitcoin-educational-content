@@ -973,24 +973,24 @@ Ibikorwa vyirungika vya Bitcoin mu bisanzwe birimwo gufunga ibisohoka ku rufungu
 ## Imigwi y'ingendo
 
 <chapterId>bfa5c714-7952-5fef-88b1-ca5b07edd886</chapterId>
+ 
+
+Itandukaniro rinini dushobora gushiramwo ni hagati ya **umugwi ufise iherezo** n’umugwi **utagira iherezo**. Irya mbere rifise igitigiri gifise iherezo ryama Elements, mu gihe irya kabiri rifise umubare utagira iherezo ryama Elements. Igitigiri cama Elements kiri mugwi uwo ari wo wose ufise iherezo citwa **urutonde rw'umugwi**. Ivyiyumviro vyose vy’ubuhinga bwo gukingira amakuru birimwo gukoresha imigwi bishingiye ku migwi ifise iherezo (y’imibare-y’inyigisho).
 
 
-Itandukaniro rinini dushobora gushiramwo ni hagati ya **umugwi utagira iherezo** n’umugwi **utagira iherezo**. Irya mbere rifise umubare utagira iherezo wa Elements, mu gihe irya kabiri rifise umubare utagira iherezo wa Elements. Umubare wa Elements mu mugwi uwo ari wo wose ufise impera uzwi nka **urutonde rw'umugwi**. Ivyiyumviro vyose vy’ubuhinga bwo gukingira amakuru birimwo gukoresha imigwi bishingiye ku migwi ifise impera (y’imibare-y’inyigisho).
+Mu buhinga bwo gukingira amakuru n'urufunguzo rusangi, umugwi kanaka w'imigwi ya Abelian ifise impera izwi nk'imigwi y'inzinguzingu ni ngirakamaro cane. Kugira ngo dutahure imigwi y’ingendo, turakeneye ubwa mbere gutahura iciyumviro c’ugutera imbere kw’ibintu vy’imigwi.
 
 
-Mu nzira y'urufunguzo rwa bose, umugwi kanaka w'imigwi ya Abelian ifise impera izwi nk'imigwi y'inzinguzingu ni ngirakamaro cane. Kugira ngo dutahure imigwi y’ingendo, turakeneye ubwa mbere gutahura iciyumviro c’ugutera imbere kw’ibintu vy’imigwi.
-
-
-Twibaze ko umugwi $G$ ufise igikorwa c'umugwi $\circ$, kandi uwo $a$ ari ikintu ca $G$. Invugo $a^n$ rero ikwiye gusobanurwamwo nk’ikintu $a$ gifatanijwe na co ubwaco incuro $n – 1$ zose hamwe. Nk’akarorero, $a^2$ bisobanura $a \uruzitiro a$, $a^3$ bisigura $a \uruzitiro a$, n’ibindi. (Urabona ko ugushira ahabona atari ngombwa ko ari ugushira ahabona mu buryo bw’imibare busanzwe.)
+Twibaze ko umugwi $G$ ufise igikorwa c'umugwi $\circ$, kandi uwo $a$ ari ikintu ca $G$. Imvugo $a^n$ rero ikwiye gusobanurwamwo nk’ikintu $a$ gifatanijwe na co ubwaco incuro $n – 1$ zose hamwe. Nk’akarorero, $a^2$ bisobanura $a \uruzitiro a$, $a^3$ bisigura $a \uruzitiro a$, n’ibindi. (Urabona ko ugushira ahabona atari ngombwa ko ari ugushira ahabona mu buryo bw’imibare busanzwe.)
 
 
 Reka duhindukire tuje ku karorero. Twibaze ko $G = \angle \mathbb{Z} \mod 7, + \angle$, kandi ko agaciro kacu ka $a$ kangana na 4. Muri iki gihe, $a^2 = [4 + 4 \mod 7] = [8 \mod 7] = 1 \mod 7$. Canke, $a^4$ yoba iserukira $[4 + 4 + 4 + 4 \mod 7] = [16 \mod 7] = 2 \mod 7$.
 
 
-Imigwi imwimwe y’Ababeli irafise Elements imwe canke myinshi, ishobora gutanga iyindi migwi yose Elements biciye mu kubandanya gutera imbere. Izo Elements zitwa **amageneratore** canke **Elements za kera**.
+Imigwi imwimwe y’Ababeli ifise Elements imwe canke myinshi, ishobora gutanga izindi elements zo mumugwi biciye mukubiduza. Izo Elements zitwa **ibihinyanyuzi** canke **Elements za kera(primitif)**.
 
 
-Itsinda rihambaye ry'iyo migwi ni $\angle \mathbb{Z}^* \mod N, \cdot \rangle$, aho $N$ ari umubare w'intango. Igiharuro $\mathbb{Z}^*$ aha bisigura ko iryo tsinda ririmwo imibare yose itari zero, nziza iri munsi ya $N$. Mwene uwo mugwi rero, wama ufise $N – 1$ Elements.
+Itsinda rihambaye ry'iyo migwi ni $\angle \mathbb{Z}^* \mod N, \cdot \rangle$, aho $N$ ari umubare w'intango(nombre premier). Igiharuro $\mathbb{Z}^*$ aha bisigura ko iryo tsinda ririmwo ibiharuro vyose bitari zero, nziza iri munsi ya $N$. Mwene uwo mugwi rero, wama ufise $N – 1$ Elements.
 
 
 Rimbura nk'akarorero, $G = \ururimi \imibarebb{Z}^* \mod 11, \cdot \ururimi$. Iri tsinda rifise Elements zikurikira: $\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\}$. Urutonde rw’iri tsinda ni 10 (ari vyo vy’ukuri bingana n’amadolari 11 – 1$).
@@ -1014,7 +1014,7 @@ Reka dusuzume gutera imbere igice ca 2 kivuye muri iri tsinda. Ivyo biharuro gus
 - $2^{12} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 =\4d \4 11$
 
 
-Niwaraba neza, urashobora kubona ko gukora igiharuro ku kintu ca 2 gica mu nzira zose za Elements za $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ mu buryo bukurikira: 2, 4, 8, 5, 10, 9^2,{06,}ter. gukomeza gutera imbere kw’ingendo z’ikintu 2 biciye mu Elements zose kandi mu buryo bumwe. Ni co gituma, ikintu 2 ari umuyagankuba mu $\ururimi \mathbb{Z}^* \mod 11, \cdot \ururimi$.
+Niwaraba neza, urashobora kubona ko gukora igiharuro ku kintu ca 2 gica mu nzira zose za Elements za $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ mu buryo bukurikira: 2, 4, 8, 5, 10, 9^2,{06,}ter. Gukomeza gutera imbere kwa elements 2 biciye mu Elements zose kandi mu buryo bumwe. Ni co gituma, ikintu 2 ari umuyagankuba mu $\ururimi \mathbb{Z}^* \mod 11, \cdot \ururimi$.
 
 
 Naho $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ ifise amageneratore menshi, si Elements zose z'iri tsinda ari amageneratore. Rimbura nk’akarorero ikintu ca 3. Guca mu bipimo 10 vya mbere vy’ugutera imbere, utagaragaje imibare igoye, bivamwo ibi bikurikira:

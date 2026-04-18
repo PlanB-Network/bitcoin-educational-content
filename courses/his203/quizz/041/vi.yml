@@ -1,0 +1,10 @@
+question: Nhà phát triển Bitcoin nào đã kịch liệt phản đối bản nâng cấp Hash theo hình thức "trả tiền để lập trình"?
+answer: Luke Dashjr
+wrong_answers:
+  - Amir Taaki
+  - Gregory Maxwell
+  - Gavin Andresen
+explanation: |
+ Luke Dashjr cảm thấy đề xuất OP_EVAL tốt hơn nhiều vì nó thanh lịch hơn; rằng P2SH thay thế hệ thống kịch bản bằng "một mô hình đặc biệt duy nhất".
+ Ông cũng chỉ trích Gavin vì đã đưa báo cáo mặc định vào phần mềm. Đáp lại, Luke-Jr đã phát triển mã vận hành riêng của mình, OP_CHECKHASHVERIFY (BIP 17).
+reviewed: true

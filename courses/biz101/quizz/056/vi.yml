@@ -1,9 +1,9 @@
-question: Chức năng của wallet không lưu ký khác biệt như thế nào đối với người dùng Starter?
-answer: Nó cung cấp cho chủ doanh nghiệp toàn quyền kiểm soát các khóa riêng tư
+question: Chức năng khác biệt của ví tự lưu ký là như thế nào?
+answer: Nó cung cấp cho chủ doanh nghiệp toàn quyền kiểm soát các khóa riêng
 wrong_answers:
   - Nó có thể tự động chuyển đổi bitcoin sang tiền pháp định
   - Nó không yêu cầu bất kỳ thủ tục sao lưu hoặc biện pháp bảo mật nào
   - Nó quản lý tất cả các giao dịch thông qua dịch vụ của bên thứ ba
 explanation: |
-  Ví không lưu ký trao toàn bộ quyền kiểm soát khóa riêng tư và giao dịch vào tay người dùng.
+  Ví không lưu ký trao toàn bộ quyền kiểm soát khóa riêng và giao dịch cho người dùng.
 reviewed: true

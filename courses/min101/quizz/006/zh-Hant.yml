@@ -1,0 +1,9 @@
+question: 比特幣區塊頭中的 Merkle 根有什麼作用？
+answer: 承諾區塊中的所有交易
+wrong_answers:
+  - 計算區塊的算力證明
+  - 標記區塊的版本
+  - 了解區塊的難度
+explanation: |
+  Merkle 根彙總了所有交易；如果其中一筆交易發生變化，根也會隨之變化。
+reviewed: false

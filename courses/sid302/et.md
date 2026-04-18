@@ -63,22 +63,22 @@ Sukeldu Liquid külgahela maailma ja vabasta selle täielik potentsiaal kohe!
 ### Liquid Network arhitektuur ja konsensuse mudel
 
 
-Liquid Network on Elements koodibaasil põhinev föderatiivne külgahel, mis on loodud Bitcoin võimaluste laiendamiseks, tuginedes samas selle põhiturvalisusele. Erinevalt Bitcoin-st Proof-of-Work töötab Liquid föderaalse konsensuse mudelil. Võrku hooldab ülemaailmselt hajutatud liikmete rühm, sealhulgas börsid, kauplemiskeskused ja infrastruktuuri pakkujad. Selle liikmeskonna hulgast valitakse viisteist "funktsionääri", kes tegutsevad plokkide allkirjastajatena.
+Liquid Network on Elements koodibaasil põhinev föderatiivne külgahel, mis on loodud Bitcoin võimaluste laiendamiseks, tuginedes samas selle põhiturvalisusele. Erinevalt Bitcoin-st [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) töötab Liquid föderaalse [konsensuse](https://planb.academy/resources/glossary/consensus) mudelil. Võrku hooldab ülemaailmselt hajutatud liikmete rühm, sealhulgas börsid, kauplemiskeskused ja infrastruktuuri pakkujad. Selle liikmeskonna hulgast valitakse viisteist "funktsionääri", kes tegutsevad [plokkide](https://planb.academy/resources/glossary/block) allkirjastajatena.
 
 
-Need funktsionäärid toodavad plokke deterministlikult, kusjuures iga minut genereeritakse uus plokk. Selline täpne ajastus on vastuolus Bitcoin tõenäosusliku kümne-minutilise intervalliga. Selleks, et plokk oleks kehtiv, peab see olema allkirjastatud vähemalt 11 funktsionäärilt 15st (kaks kolmandikku pluss üks künnis). See mehhanism annab Liquid-le "kahe ploki lõplikkuse", mis tähendab, et kui tehing on saanud kaks kinnitust (umbes kaks minutit), on matemaatiliselt võimatu ahelat ümber korraldada. Selline kiirus ja kindlus on kriitilise tähtsusega arbitraaži, automatiseeritud kauplemise ja kiire börsidevahelise arvelduse jaoks.
+Need funktsionäärid toodavad plokke deterministlikult, kusjuures iga minut genereeritakse uus plokk. Selline täpne ajastus on vastuolus Bitcoin tõenäosusliku kümne-minutilise intervalliga. Selleks, et plokk oleks kehtiv, peab see olema allkirjastatud vähemalt 11 funktsionäärilt 15st (kaks kolmandikku pluss üks künnis). See mehhanism annab Liquid-le "kahe ploki lõplikkuse", mis tähendab, et kui [tehing](https://planb.academy/resources/glossary/transaction-tx) on saanud kaks kinnitust (umbes kaks minutit), on matemaatiliselt võimatu ahelat ümber korraldada. Selline kiirus ja kindlus on kriitilise tähtsusega arbitraaži, automatiseeritud kauplemise ja kiire börsidevahelise arvelduse jaoks.
 
 
-Föderatsioon on dünaamiline. Dünaamilise föderatsiooni (Dynafed) protokolli abil saab võrk vahetada funktsionääre või uuendada parameetreid, ilma et oleks vaja kõva fork. See võimaldab süsteemil areneda ja vahetada riistvara või liikmeid sujuvalt, säilitades samas pideva toimimise.
+Föderatsioon on dünaamiline. Dünaamilise föderatsiooni (Dynafed) protokolli abil saab võrk vahetada funktsionääre või uuendada parameetreid, ilma et oleks vaja kõva [fork](https://planb.academy/resources/glossary/fork). See võimaldab süsteemil areneda ja vahetada riistvara või liikmeid sujuvalt, säilitades samas pideva toimimise.
 
 
 ### Confidential Transactions ja varade haldamine
 
 
-Liquid eripära on Confidential Transactions (CT) ja mitme vara originaalne tugi. Bitcoin põhiahelas on kõik tehingu üksikasjad - saatja, saaja ja summa - avalikud. Liquid-s kasutatakse krüptograafilisi kohustusi, et varjata vara liik ja summa avalikust pearaamatust, võimaldades samal ajal võrgustikul kontrollida, et tehing on kehtiv (st et inflatsiooni ei ole toimunud). Konkreetseid väärtusi saavad näha ainult need osalejad, kellel on pimendavad võtmed, pakkudes suurt positsiooni liigutavate asutuste jaoks olulist ärilist privaatsust.
+Liquid eripära on Confidential Transactions (CT) ja mitme vara originaalne tugi. Bitcoin põhiahelas on kõik tehingu üksikasjad - saatja, saaja ja summa - avalikud. Liquid-s kasutatakse krüptograafilisi kohustusi, et varjata vara liik ja summa avalikust pearaamatust, võimaldades samal ajal võrgustikul kontrollida, et tehing on kehtiv (st et [inflatsiooni](https://planb.academy/resources/glossary/inflation) ei ole toimunud). Konkreetseid väärtusi saavad näha ainult need osalejad, kellel on pimendavad võtmed, pakkudes suurt positsiooni liigutavate asutuste jaoks olulist ärilist privaatsust.
 
 
-Liquid käsitleb kõiki varasid kui plokiahela "põliselanikke". See hõlmab Liquid Bitcoin (LBTC), stabiilseid münte nagu USDT ja turvatähti. Vara väljastamine ei nõua keerulisi nutilepinguid; see on protokolli põhifunktsioon.
+Liquid käsitleb kõiki varasid kui [plokiahela](https://planb.academy/resources/glossary/blockchain) "põliselanikke". See hõlmab Liquid Bitcoin (LBTC), stabiilseid münte nagu USDT ja turvatähti. Vara väljastamine ei nõua keerulisi nutilepinguid; see on protokolli põhifunktsioon.
 
 
 #### Reguleeritud varad ja AMP
@@ -97,7 +97,7 @@ Vastavust nõudvate varade, näiteks väärtpaberitoodete puhul kasutab Liquid B
 
 #### Riistvaralised turvamoodulid (HSM)
 
-Turvalisust tagatakse rangelt riistvara abil. Funktsionäärid ei hoia privaatseid võtmeid tavalistes serverites, vaid kasutavad riistvaralisi turvamooduleid (HSM). Need seadmed on host-serveri loogikast eraldatud ja programmeeritud rangete reeglitega. Näiteks keeldub HSM ploki allkirjastamisest, kui selle kõrgus ei ole suurem kui eelmise ploki kõrgus, vältides seega ajaloo ümberkirjutamist. Selline "vastase" turvamudel eeldab, et vastuvõttev server võib olla ohustatud, tagades, et võtmed jäävad turvaliseks isegi siis, kui füüsilist asukohta rikutakse.
+Turvalisust tagatakse rangelt riistvara abil. Funktsionäärid ei hoia [privaatseid võtmeid](https://planb.academy/resources/glossary/private-key) tavalistes serverites, vaid kasutavad riistvaralisi turvamooduleid (HSM). Need seadmed on host-serveri loogikast eraldatud ja programmeeritud rangete reeglitega. Näiteks keeldub HSM ploki allkirjastamisest, kui selle kõrgus ei ole suurem kui eelmise ploki kõrgus, vältides seega ajaloo ümberkirjutamist. Selline "vastase" turvamudel eeldab, et vastuvõttev server võib olla ohustatud, tagades, et võtmed jäävad turvaliseks isegi siis, kui füüsilist asukohta rikutakse.
 
 
 ## Elements põhialused
@@ -114,7 +114,7 @@ Turvalisust tagatakse rangelt riistvara abil. Funktsionäärid ei hoia privaatse
 Elements on avatud lähtekoodiga plokiahela platvorm, mis on tuletatud Bitcoin Core koodibaasist. See laiendab Bitcoin funktsionaalsust, võimaldades kõrvalahelatest sõltumatuid plokiahelaid, mis võivad varasid Bitcoin-sse ja Bitcoin-st üle kanda. Kui Bitcoin Core toetab Bitcoin võrku, siis Elements on Liquid Network ja muude kohandatud kõrvalahelate tarkvaramootor.
 
 
-Seos on lihtne: Liquid on Elements külgahela konkreetne "eksemplar", mis on konfigureeritud tootmiskasutuseks koos föderaalse konsensusmudeliga. Bitcoin-ga tuttavatele arendajatele on Elements intuitiivne, kuna see säilitab sama RPC (Remote Procedure Call) liidese ja käsurea struktuuri (`elements-cli`, `elements-d`, `elements-qt`). Peamine erinevus seisneb konfiguratsioonis: `chain=liquidv1` ühendab sõlme peamise Liquid võrguga, samas kui `chain=elementsregtest` loob kohaliku regressioonitestimise keskkonna, kus arendajad saavad generate plokke koheselt ja ilma väliste sõltuvusteta testida.
+Seos on lihtne: Liquid on Elements külgahela konkreetne "eksemplar", mis on konfigureeritud tootmiskasutuseks koos föderaalse konsensusmudeliga. Bitcoin-ga tuttavatele arendajatele on Elements intuitiivne, kuna see säilitab sama RPC (Remote Procedure Call) liidese ja käsurea struktuuri (`elements-cli`, `elements-d`, `elements-qt`). Peamine erinevus seisneb konfiguratsioonis: `chain=liquidv1` ühendab [sõlme](https://planb.academy/resources/glossary/node) peamise Liquid võrguga, samas kui `chain=elementsregtest` loob kohaliku regressioonitestimise keskkonna, kus arendajad saavad generate plokke koheselt ja ilma väliste sõltuvusteta testida.
 
 
 #### Varade väljastamine
@@ -152,7 +152,7 @@ Elements-sõlmega suhtlemine toimub peamiselt selle JSON-RPC-liidese kaudu. See 
 
 - Seadistamine:** Arendaja alustab tavaliselt režiimis "regtest". See võimaldab koheselt genereerida plokke (`generateblock`), et kinnitada tehinguid kohe, vältides reaalvõrgu 1-minutilist plokkide aega.
 - Käsklused:** Saadaval on standardsed Bitcoin käsud, nagu `getblockchaininfo`, ning Elements-spetsiifilised käsud, nagu `dumpblindingkey` (CT-de auditeerimiseks) või `pegin` (BTC liigutamiseks sidechaini).
-- Pseudonimed:** Mitme sõlme haldamiseks (nt "saatja" ja "vastuvõtja" testimiseks) kasutavad arendajad sageli shell-pseudonimesid nagu `e1-cli` ja `e2-cli`, mis viitavad erinevatele andmehoidlatele, simuleerides ühe masina peer-to-peer-võrku.
+- Pseudonimed:** Mitme sõlme haldamiseks (nt "saatja" ja "vastuvõtja" testimiseks) kasutavad arendajad sageli shell-pseudonimesid nagu `e1-cli` ja `e2-cli`, mis viitavad erinevatele andmehoidlatele, simuleerides ühe masina [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p)-võrku.
 
 
 See arhitektuur võimaldab arendajatel luua keerukaid finantsrakendusi - näiteks väärtpaberiplatvorme või eramaksete väravaid - kasutades Bitcoin ökosüsteemi töökindlaid ja tuttavaid tööriistu.
@@ -169,13 +169,13 @@ See arhitektuur võimaldab arendajatel luua keerukaid finantsrakendusi - näitek
 ### Cross-Layer infrastruktuur ja HTLCd
 
 
-Bitcoin ökosüsteem on kujunenud mitmekihiliseks arhitektuuriks, kus Mainchain pakub arveldusi, Lightning pakub kiirust ja Liquid võimaldab täiustatud varafunktsioone. Väärtuse liikumine nende kihtide vahel ilma tsentraliseeritud vahendajateta nõuab usaldusteta krüptograafilist primitiivi: Hash Time Locked Contract (HTLC).
+Bitcoin ökosüsteem on kujunenud mitmekihiliseks arhitektuuriks, kus Mainchain pakub arveldusi, Lightning pakub kiirust ja Liquid võimaldab täiustatud varafunktsioone. Väärtuse liikumine nende kihtide vahel ilma tsentraliseeritud vahendajateta nõuab usaldusteta krüptograafilist primitiivi: Hash Time Locked Contract ([HTLC](https://planb.academy/resources/glossary/htlc)).
 
 
-HTLC loob tingimusliku maksekanali, mis ühendab sõltumatuid süsteeme aatomiliselt. See toimib kahe peamise piirangu kaudu: **hash lock** ja **time lock**.
+HTLC loob tingimusliku [maksekanali](https://planb.academy/resources/glossary/payment-channel), mis ühendab sõltumatuid süsteeme aatomiliselt. See toimib kahe peamise piirangu kaudu: **hash lock** ja **time lock**.
 
 
-- Hash Lock:** Raha saab kulutada kohe, kui vastuvõtja paljastab salajase "eelpildi", mis vastab konkreetsele krüptograafilisele hashile.
+- Hash Lock:** Raha saab kulutada kohe, kui vastuvõtja paljastab salajase "eelpildi", mis vastab konkreetsele krüptograafilisele [hashile](https://planb.academy/resources/glossary/hash-function).
 - Ajalukk:** Kui vastuvõtja ei avalda saladust määratud aja jooksul (ploki kõrgus), saab algne saatja raha tagasi nõuda.
 
 
@@ -185,20 +185,20 @@ Selline kahesuunaline struktuur tagab ohutuse. Ristkihilise vahetuse korral kasu
 ### Taproot ja MuSig2 uuendamine
 
 
-Varasemad HTLC-d (SegWit v0) toimisid hästi, kuid kannatasid privaatsuse ja tõhususe puuduste all. Nad nõudsid kogu skriptiloogika on-chain avaldamist, mistõttu vahetustehingud olid plokiahela analüütikutele kergesti tuvastatavad ja nende andmete suuruse tõttu kallimad. Taproot (SegWit v1) ja MuSig2-protokolli kasutuselevõtt on selle arhitektuuri revolutsiooniliselt muutnud.
+Varasemad HTLC-d ([SegWit](https://planb.academy/resources/glossary/segwit) v0) toimisid hästi, kuid kannatasid privaatsuse ja tõhususe puuduste all. Nad nõudsid kogu skriptiloogika on-chain avaldamist, mistõttu vahetustehingud olid plokiahela analüütikutele kergesti tuvastatavad ja nende andmete suuruse tõttu kallimad. [Taproot](https://planb.academy/resources/glossary/taproot) (SegWit v1) ja MuSig2-protokolli kasutuselevõtt on selle arhitektuuri revolutsiooniliselt muutnud.
 
 
-Taproot võimaldab **Key Aggregation** MuSig2 kaudu. Selle asemel, et paljastada keerulist skripti mitme avaliku võtmega, võimaldab MuSig2 vahetuses osalejatel ühendada oma võtmed üheks koondatud avalikuks võtmeks.
+Taproot võimaldab **Key Aggregation** MuSig2 kaudu. Selle asemel, et paljastada keerulist [skripti](https://planb.academy/resources/glossary/script) mitme [avaliku võtmega](https://planb.academy/resources/glossary/public-key), võimaldab MuSig2 vahetuses osalejatel ühendada oma võtmed üheks koondatud avalikuks võtmeks.
 
 
 - Koostööpõhine "võtmevahetus":** Kui mõlemad osapooled nõustuvad vahetusega ("õnnelik tee"), allkirjastavad nad tehingu ühiselt. Võrgustiku jaoks näeb see välja samasugune nagu tavaline, ühe allkirjaga makse. See tarbib minimaalselt plokiruumi ja ei avalda mingit teavet vahetustingimuste kohta.
-- Vastase "skripti tee":** Kui üks osapool ei reageeri või on pahatahtlik, siis alles siis paljastatakse aluseks olev skript (mis sisaldab hash/aja lukustusi). See on korraldatud Merkle-puuna, mis võimaldab ausal osapoolel avalikustada ainult konkreetset haru, mis on vajalik raha tagasisaamiseks, hoides ülejäänud lepinguloogika varjatud.
+- Vastase "skripti tee":** Kui üks osapool ei reageeri või on pahatahtlik, siis alles siis paljastatakse aluseks olev skript (mis sisaldab hash/aja lukustusi). See on korraldatud [Merkle-puuna](https://planb.academy/resources/glossary/merkle-tree), mis võimaldab ausal osapoolel avalikustada ainult konkreetset haru, mis on vajalik raha tagasisaamiseks, hoides ülejäänud lepinguloogika varjatud.
 
 
 ### Praktiline rakendamine: Liquid-Välgivahetused
 
 
-Praktikas võimaldavad need protokollid sujuvat vahetust Bitcoin kihtide vahel. Tüüpiline Liquid-lt välklambi vahetamine algab sellega, et klient taotleb teenusepakkujalt vahetust. Klient esitab Lightning-arve ja teenusepakkuja lukustab Liquid Bitcoin (L-BTC) samaväärse Taproot-võimelise HTLC aadressi.
+Praktikas võimaldavad need protokollid sujuvat vahetust Bitcoin kihtide vahel. Tüüpiline Liquid-lt välklambi vahetamine algab sellega, et klient taotleb teenusepakkujalt vahetust. Klient esitab [Lightning-arve](https://planb.academy/resources/glossary/invoice-lightning) ja teenusepakkuja lukustab Liquid Bitcoin (L-BTC) samaväärse Taproot-võimelise HTLC aadressi.
 
 
 Aatomisus saavutatakse makse arveldamisel. L-BTC nõudmiseks peab teenusepakkuja omama eelpilti. Ta saab selle eelkinnituse ainult siis, kui ta maksab edukalt kliendi Lightning-arve. Hetkel, mil Lightning-makse on lõpule viidud, paljastatakse eelkujutis, mis võimaldab teenusepakkujal avada Liquid vahendid.
@@ -206,7 +206,7 @@ Aatomisus saavutatakse makse arveldamisel. L-BTC nõudmiseks peab teenusepakkuja
 
 #### Wallet Abstraheerimine ja UTXO haldamine
 
-Lõppkasutajate jaoks on see keerukus täiesti abstraktselt. Kaasaegsed rahakotid, nagu Aqua, tegelevad võtme genereerimise, arve loomise ja allkirjastamise protsessidega taustal. Kasutaja lihtsalt "maksab" Lightning-arve, kasutades oma Liquid saldot. Kulisside taga haldab teenus UTXO konsolideerimist, pühkides perioodiliselt väikesed, nõudmata või tagastamata väljundid, et säilitada wallet tõhusus ja minimeerida tasu mõju suure liiklusega perioodidel.
+Lõppkasutajate jaoks on see keerukus täiesti abstraktselt. Kaasaegsed [rahakotid](https://planb.academy/resources/glossary/wallet), nagu Aqua, tegelevad võtme genereerimise, arve loomise ja allkirjastamise protsessidega taustal. Kasutaja lihtsalt "maksab" Lightning-arve, kasutades oma Liquid saldot. Kulisside taga haldab teenus [UTXO](https://planb.academy/resources/glossary/utxo) konsolideerimist, pühkides perioodiliselt väikesed, nõudmata või tagastamata väljundid, et säilitada wallet tõhusus ja minimeerida tasu mõju suure liiklusega perioodidel.
 
 
 ## Liquid Network ülevaade
@@ -220,7 +220,7 @@ Lõppkasutajate jaoks on see keerukus täiesti abstraktselt. Kaasaegsed rahakoti
 ### Liquid Network Arhitektuur ja konsensus
 
 
-Liquid Network töötab ühendatud külgahelana, mis põhineb **Elements** koodibaasil. Kui Elements - fork Bitcoin Core - pakub tarkvaralist alust, siis Liquid on tootmisvõrgu rakendamine. Erinevalt Bitcoin Proof-of-Work-st, mis tugineb konkureerivale mining-le, kasutab Liquid **Federated Consensus** mudelit.
+Liquid Network töötab ühendatud külgahelana, mis põhineb **Elements** koodibaasil. Kui Elements - fork Bitcoin Core - pakub tarkvaralist alust, siis Liquid on tootmisvõrgu rakendamine. Erinevalt Bitcoin Proof-of-Work-st, mis tugineb konkureerivale [mining](https://planb.academy/resources/glossary/mining)-le, kasutab Liquid **Federated Consensus** mudelit.
 
 
 Võrgustikku hooldavad viisteist ülemaailmselt jaotatud "funktsionääri" Need üksused haldavad spetsiaalseid servereid, mis täidavad kahte olulist rolli:
@@ -283,7 +283,7 @@ Pikaealisuse tagamiseks kasutab Liquid Dynafed protokolli, mis võimaldab võrgu
 ### Liquid Network: Äristrateegia ja ökosüsteem
 
 
-Liquid on midagi enamat kui tehniline kõrvalahel; see on äritegevusele keskendunud infrastruktuurikiht, mis on loodud kapitaliturgude keeruliste nõuete täitmiseks, mida Bitcoin mainchain ei suuda tõhusalt toetada. Kui Lightning Network on optimeeritud suure sagedusega ja väikese väärtusega maksete jaoks, siis Liquid on suunatud suure väärtusega ülekannetele, varade emiteerimisele ja börsidevahelistele arveldustele.
+Liquid on midagi enamat kui tehniline kõrvalahel; see on äritegevusele keskendunud infrastruktuurikiht, mis on loodud kapitaliturgude keeruliste nõuete täitmiseks, mida Bitcoin mainchain ei suuda tõhusalt toetada. Kui [Lightning Network](https://planb.academy/resources/glossary/lightning-network) on optimeeritud suure sagedusega ja väikese väärtusega maksete jaoks, siis Liquid on suunatud suure väärtusega ülekannetele, varade emiteerimisele ja börsidevahelistele arveldustele.
 
 
 Ökosüsteemi juhib **Liquid Federation**, mis on ~73 ettevõtte, sealhulgas börside, kauplemiskohtade ja infrastruktuuri pakkujate konsortsium. See koostöömudel peegeldab traditsioonilisi finantskliirimiskeskusi, kuid toimib suurema läbipaistvuse ja oluliselt lühendatud arveldusajaga (2 minutit võrreldes T+2 päevaga).
@@ -358,7 +358,7 @@ Platvormi põhiline väärtuspakkumine tugineb kahele peamisele võimalusele: te
 
 #### Operatiivsed kompromissid
 
-Selline arhitektuur toob kaasa spetsiifilised kompromissid. Süsteem sõltub AMP-serveri kättesaadavusest; kui server tegutseb kaasallkirjastajana ja läheb offline, peatub varade likviidsus. Lisaks, kuigi kasutajate vaheline privaatsus säilib, peavad investorid leppima sellega, et emitent on nende varade suhtes täielikult nähtav. See mudel on ideaalne nõuetele vastavate väärtpaberimärkide jaoks, kuid ei sobi tsensuurikindlate krüptovaluutade jaoks.
+Selline arhitektuur toob kaasa spetsiifilised kompromissid. Süsteem sõltub AMP-serveri kättesaadavusest; kui server tegutseb kaasallkirjastajana ja läheb offline, peatub varade likviidsus. Lisaks, kuigi kasutajate vaheline privaatsus säilib, peavad investorid leppima sellega, et emitent on nende varade suhtes täielikult nähtav. See mudel on ideaalne nõuetele vastavate väärtpaberimärkide jaoks, kuid ei sobi tsensuurikindlate [krüptovaluutade](https://planb.academy/resources/glossary/cryptocurrency) jaoks.
 
 
 ### Arhitektuuri areng ja integratsiooniteed

@@ -756,7 +756,7 @@ Pero, como dice Spinoza, "el engaño de los hombres no acaba ahí", y entre todo
 
 
 
-La definición de inflación que dan los economistas keynesianos y los defensores del Estado del bienestar, por ejemplo, también ilustra muy bien esta paradoja. Según ellos, la inflación es un aumento de los precios que, según algunos banqueros centrales, procede o bien de "ninguna parte", o bien de contextos geopolíticos que nadie puede controlar ni prever. Si bien es cierto que un aumento de los precios puede dar lugar a una inflación cíclica -por ejemplo, cuando sube el precio del petróleo, suben también los precios de determinados productos transformados-, las verdaderas causas estructurales de la inflación están relacionadas sobre todo con un aumento del Supply monetario, que a su vez implica una caída del valor del dinero e, ipso facto, una subida mecánica de los precios.
+La definición de [inflación](https://planb.academy/resources/glossary/inflation) que dan los economistas keynesianos y los defensores del Estado del bienestar, por ejemplo, también ilustra muy bien esta paradoja. Según ellos, la inflación es un aumento de los precios que, según algunos banqueros centrales, procede o bien de "ninguna parte", o bien de contextos geopolíticos que nadie puede controlar ni prever. Si bien es cierto que un aumento de los precios puede dar lugar a una inflación cíclica -por ejemplo, cuando sube el precio del petróleo, suben también los precios de determinados productos transformados-, las verdaderas causas estructurales de la inflación están relacionadas sobre todo con un aumento del Supply monetario, que a su vez implica una caída del valor del dinero e, ipso facto, una subida mecánica de los precios.
 
 
 
@@ -1064,7 +1064,7 @@ En otras palabras, si odiamos a un extranjero, es porque asociamos a este extran
 
 
 
-Esto es especialmente cierto, por cierto, en el ámbito de las criptomonedas.
+Esto es especialmente cierto, por cierto, en el ámbito de las [criptomonedas](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 
@@ -1159,7 +1159,7 @@ En eso precisamente consistió la filosofía racional de la Ilustración, gracia
 En otras palabras, dice, si pensamos por nosotros mismos, si razonamos como adultos racionales y si, por tanto, nos esforzamos por apegarnos a los vínculos causales entre las cosas, ya no necesitaremos una autoridad moral que nos enseñe, por ejemplo, las verdaderas virtudes de la religión o los verdaderos valores éticos en las esferas política y económica.
 
 
-Es una línea de razonamiento que establece el vínculo con la escuela austriaca de economía liberal, nacida en el fértil ambiente intelectual de Viena antes de la Primera Guerra Mundial. Pues fue en ese contexto donde intelectuales como Carl Menger (1840-1921), Ludwig von Mises (1883-1979) y Friedrich Hayek (1899-1992) sentaron las bases de una nueva escuela de economía liberal, que se convertiría en el fundamento de las convicciones de los futuros cypherpunks. Y de ahí la creación de Bitcoin.
+Es una línea de razonamiento que establece el vínculo con la escuela [austriaca](https://planb.academy/resources/glossary/austrian-school) de economía liberal, nacida en el fértil ambiente intelectual de Viena antes de la Primera Guerra Mundial. Pues fue en ese contexto donde intelectuales como Carl Menger (1840-1921), Ludwig von Mises (1883-1979) y Friedrich Hayek (1899-1992) sentaron las bases de una nueva escuela de economía liberal, que se convertiría en el fundamento de las convicciones de los futuros [cypherpunks](https://planb.academy/resources/glossary/cypherpunks). Y de ahí la creación de Bitcoin.
 
 
 
@@ -1204,7 +1204,7 @@ Estos son los argumentos políticos y económicos expuestos por los primeros cyp
 
 
 
-Especialmente cuando inscribió el titular del Times del 3 de enero de 2009 en la coinbase del bloque Genesis de Blockchain Bitcoin para ilustrar el fin de una era, la keynesiana, y el comienzo de otra con aspiraciones liberales, anarquistas y libertarias.
+Especialmente cuando inscribió el titular del Times del 3 de enero de 2009 en la [coinbase](https://planb.academy/resources/glossary/coinbase-transaction) del [bloque Genesis](https://planb.academy/resources/glossary/genesis-block) de [Blockchain](https://planb.academy/resources/glossary/blockchain) Bitcoin para ilustrar el fin de una era, la keynesiana, y el comienzo de otra con aspiraciones liberales, anarquistas y libertarias.
 
 
 
@@ -1212,7 +1212,7 @@ Especialmente cuando inscribió el titular del Times del 3 de enero de 2009 en l
 
 
 
-El Libro Blanco publicado el 31 de octubre de 2008 presenta Bitcoin como un medio de intercambio de valor en Internet sin un tercero de confianza, basado en un protocolo descentralizado. Una revolución "copernicana" que permitirá por fin a las personas recuperar su capacidad de acción, es decir, su libertad, su libertad de comercio, su derecho a la propiedad y el respeto de su vida privada.
+El [Libro Blanco](https://planb.academy/resources/glossary/white-paper) publicado el 31 de octubre de 2008 presenta Bitcoin como un medio de intercambio de valor en Internet sin un tercero de confianza, basado en un protocolo descentralizado. Una revolución "copernicana" que permitirá por fin a las personas recuperar su capacidad de acción, es decir, su libertad, su libertad de comercio, su derecho a la propiedad y el respeto de su vida privada.
 
 
 ¿Por qué? Porque Bitcoin nos permite salir de esta servidumbre a la manera de Spinoza, gracias a la razón, gracias al lenguaje matemático de Galileo. Y, como sugiere Hayek, sin que el Estado pueda oponerse. Y pacíficamente, sin coacción ni proselitismo.

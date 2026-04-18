@@ -1,0 +1,10 @@
+question: Wat was de naam van de directe wisseldienst die Gareth Nelson en Charlie Shrem in 2011 creëerden om stortingen op valutaplatforms te vergemakkelijken?
+answer: BitInstant
+wrong_answers:
+  - Instawallet
+  - Crypto X Verandering
+  - TrustCash
+explanation: |
+ Deze dienst loste het probleem van trage internationale overboekingen naar Mt. Gox op door als tussenpersoon te fungeren en geld over te maken naar wisselplatforms zodra het ontvangen was in het land van herkomst
+ land van herkomst. BitInstant opende zijn deuren voor het publiek op 23 augustus 2011 en werd al snel populair: in januari 2012 was er al 1,2 miljoen dollar overgemaakt.
+reviewed: true

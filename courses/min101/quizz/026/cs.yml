@@ -1,0 +1,9 @@
+question: Který parametr Bitcoin Core nastavuje výchozí minimální práh pro relé?
+answer: minRelayTxFee
+wrong_answers:
+  - minConfirmTxFee
+  - relayTxWeight
+  - mempoolMinBits
+explanation: |
+  Uzly uplatňují lokální politiky a Bitcoin Core používá pro minimální práh relé parametr minRelayTxFee.
+reviewed: false

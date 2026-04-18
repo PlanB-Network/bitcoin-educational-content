@@ -1,9 +1,9 @@
-question: Một cân nhắc quan trọng khi lựa chọn nền tảng hoặc nhà môi giới để mua Bitcoin cho doanh nghiệp là gì?
-answer: Uy tín của nhà cung cấp, các biện pháp bảo mật và khả năng xuất lịch sử giao dịch để hạch toán.
+question:  Doanh nghiệp cân nhắc gì khi lựa chọn nền tảng hoặc các bên môi giới giao dịch để mua Bitcoin?
+answer: Cân nhắc uy tín của nhà cung cấp, các biện pháp bảo mật và khả năng xuất lịch sử giao dịch để hạch toán.
 wrong_answers:
-  - Đảm bảo nền tảng chỉ hỗ trợ các loại tiền điện tử ít người biết đến.
-  - Tìm nhà cung cấp từ chối cung cấp bất kỳ dịch vụ hỗ trợ khách hàng nào.
-  - Sử dụng dịch vụ cấm rút Bitcoin về wallet tự quản.
+  - Cân nhắc đảm bảo nền tảng giao dịch chỉ hỗ trợ các loại tiền điện tử ít người biết đến.
+  - Cân nhắc tìm nhà cung cấp từ chối cung cấp bất kỳ dịch vụ hỗ trợ khách hàng nào.
+  - Cân nhắc sử dụng dịch vụ cấm rút Bitcoin về ví cá nhân ngoài sàn giao dịch.
 explanation: |
-  Một nền tảng đáng tin cậy phải có uy tín vững chắc, bảo mật tốt và các công cụ lưu trữ hồ sơ. Khả năng rút Bitcoin và tích hợp với phần mềm kế toán cũng rất quan trọng đối với hoạt động kinh doanh.
+  Một nền tảng giao dịch đáng tin cậy phải có uy tín vững chắc, bảo mật tốt và các công cụ lưu trữ hồ sơ. Khả năng rút Bitcoin và tích hợp với phần mềm kế toán cũng rất quan trọng đối với hoạt động kinh doanh.
 reviewed: true

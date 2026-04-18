@@ -90,8 +90,6 @@ Al finalizar este curso, dispondrá de los conocimientos fundamentales para admi
 **NOTA**: Las descripciones se basan en un sistema GNU/Linux CentOS 7. Sin embargo, las configuraciones de red son en gran medida las mismas cuando se compara un sistema Debian con uno CentOS. Por tanto, no haremos ninguna distinción. Cuando haya alguna, la precederemos con un logotipo específico.
 
 
-**N.B.**: Si durante el curso encuentra algún término que no le resulte familiar, consulte [el glosario](https://planb.academy/resources/glossary) para obtener las definiciones.
-
 
 
 # Protocolos TCP/IP

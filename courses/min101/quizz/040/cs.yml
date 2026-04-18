@@ -1,0 +1,9 @@
+question: Jaký prvek je nejdůležitější pro konkurenceschopnost průmyslové těžby?
+answer: Náklady na elektřinu
+wrong_answers:
+  - Výše mzdových nákladů
+  - Ergonomická kvalita infrastruktury
+  - Cena softwarových licencí
+explanation: |
+  Ve velkém měřítku závisí ziskovost těžby na nákladech na jednotku výpočtu, které jsou určeny především cenou elektřiny.
+reviewed: false

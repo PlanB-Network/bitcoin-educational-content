@@ -1,0 +1,10 @@
+question: Welk effect had de OP_EVAL operatiecode op het interne programmeersysteem van Bitcoin?
+answer: Een script binnen een script uitvoeren
+wrong_answers:
+  - Vraag handtekeningen van deelnemers
+  - Een script hakken en het resultaat vergelijken met een geleverde footprint
+  - Controleer of twee waarden gelijk zijn
+explanation: |
+ Het werd beschreven door Nicolas van Saberhagen, alias ByteCoin, die het ontwierp in de nacht van 1 op 2 oktober 2011. De opcode wordt uitgevoerd aan het einde van het slot
+ script om de geldigheid van het geleverde script te beoordelen, waarvan de hash wordt vergeleken met de gegeven vingerafdruk.
+reviewed: true

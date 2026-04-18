@@ -1,9 +1,9 @@
 question: Wat is een UTXO op Bitcoin?
 answer: Een stuk Bitcoin dat nog niet is uitgegeven.
 wrong_answers:
-  - Een Bitcoin Address om fondsen te ontvangen.
-  - Een speciaal type Bitcoin Wallet.
+  - Een Bitcoin-adres om fondsen te ontvangen.
+  - Een speciaal type Bitcoin-wallet.
   - Een versleutelingsalgoritme voor Bitcoin.
 explanation: |
-  Een UTXO is een onuitgegeven transactie-uitgang, dus het is in wezen een "stuk Bitcoin".
+  Een UTXO is een onuitgegeven transactie-output, dus het is in wezen een "stuk bitcoin".
 reviewed: false

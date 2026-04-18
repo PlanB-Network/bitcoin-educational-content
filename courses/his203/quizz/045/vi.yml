@@ -1,0 +1,9 @@
+question: Sự đổi mới công nghệ nào đã được tích hợp vào tiền điện tử Namecoin vào tháng 10 năm 2011?
+answer: Đã hợp nhất mining
+wrong_answers:
+  - mining chống GPU
+  - Các nút đáng tin cậy
+  - Bằng chứng cổ phần
+explanation: |
+ mining hợp nhất là một quy trình trong đó công việc được thực hiện trên "chuỗi mẹ" (tức là Bitcoin) được tái sử dụng để xác thực các chuỗi "phụ trợ" nhỏ hơn. Quy trình này đã được chính Satoshi đề xuất trong cuộc thảo luận về BitDNS. mining kết hợp đã được kích hoạt trên mạng Namecoin vào ngày 8 tháng 10 năm 2011, ở cấp độ khối 19.200.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 在比特币交易中，输入（inputs）消耗的是什么？
+answer: 现有的 UTXO
+wrong_answers:
+  - 未来的输出（outputs）
+  - 现有的区块
+  - 未来的地址
+explanation: |
+  输入引用的是过去交易中未花费的输出，称为 UTXO。
+reviewed: false

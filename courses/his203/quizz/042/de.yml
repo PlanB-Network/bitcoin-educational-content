@@ -1,0 +1,10 @@
+question: Warum benötigte das Pay-to-Script-Upgrade Hash 55 % der Hash-Leistung des Netzes, um aktiviert zu werden?
+answer: Damit es "rückwärtskompatibel" ist und keine Kettenspaltung entsteht
+wrong_answers:
+  - Weil die Verwaltung des Protokolls von der Stimme der Miner abhängt ("ein Prozessor, eine Stimme")
+  - Um das mining-Geschäft nicht zu zentralisieren, das dann von einigen wenigen mining-Pools beherrscht wird
+  - Weil Projektleiter Gavin Andresen kein "wohlwollender Diktator" sein wollte
+explanation: |
+ Dies war eine Einschränkung der Konsensregeln, die später als "weicher fork" bezeichnet wurde. Das Upgrade führt nicht zu einer Kettenaufspaltung, wenn es von einer
+ mehrheit der Rechenleistung des Netzwerks unterstützt wird.
+reviewed: true

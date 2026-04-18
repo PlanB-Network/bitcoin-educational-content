@@ -1,0 +1,11 @@
+question: Hvilket sikkerhetsproblem oppdaget av Russell O'Connor i februar 2012 førte til opprettelsen av BIP 30?
+answer: Tilstedeværelsen av dupliserte transaksjoner i blokkjeden
+wrong_answers:
+  - Problemet med bysantinske generaler som opphever konsensus
+  - Eksistensen av en rekursiv feil i OP_EVAL-instruksjonen
+  - Fjerning av et overflødig element av OP_CHECKMULTISIG-operatøren
+explanation: |
+ Dette var belønningstransaksjoner med samme identifikator i forskjellige blokker. Den 4. februar 2012 oppdaget Russell O'Connor en sårbarhet som
+ som gjorde det mulig å slette alle transaksjoner som oppsto fra en av disse dupliserte transaksjonene, ved hjelp av omorganisering av kjeden. Oppdateringen, beskrevet i
+ BIP 30 av Pieter Wuille, ble brukt på nettverket den 15. mars.
+reviewed: true

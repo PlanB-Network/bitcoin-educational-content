@@ -2,7 +2,7 @@ question: Was ist der Ausgangspunkt für die Berechnung einer ECDSA-Signatur?
 answer: Der Nachrichten-Hash
 wrong_answers:
   - Der öffentliche Schlüssel
-  - Ein fester Nonce
+  - Eine feste Nonce
   - Eine benutzerdefinierte elliptische Kurve
 explanation: |
   Eine ECDSA-Signatur beginnt mit der Berechnung des Hashs der zu signierenden Nachricht, oft mit SHA256.

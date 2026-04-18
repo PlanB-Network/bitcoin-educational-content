@@ -1,0 +1,10 @@
+question: Welche Staatsangehörigkeit hatte Mircea Popescu, der Gründer der MPEx-Plattform, die Call- und Put-Optionen sowie die Möglichkeit der Ausgabe von Aktien und Anleihen anbot?
+answer: Rumänisch
+wrong_answers:
+  - Amerikanisch
+  - Chinesisch
+  - Er war staatenlos
+explanation: |
+ Er war eine umstrittene Figur in der Gemeinschaft. Er stammte aus Transsylvanien in Rumänien und schrieb ausführlich in seinem Blog Trilema, sowohl auf Rumänisch als auch auf Englisch.
+ In einem bewusst provokanten Stil setzte er sich mit allen möglichen Themen auseinander, darunter Philosophie, Politik und Sexualität. Er starb im Jahr 2021 im Alter von 41 Jahren.
+reviewed: true

@@ -6,3 +6,4 @@ wrong_answers:
   - Witness Script Hash
 explanation: |
   Awalan `wpkh` menunjukkan skrip SegWit v0 yang menggunakan alamat Pay-to-Witness-Public-Key-Hash.
+reviewed: true

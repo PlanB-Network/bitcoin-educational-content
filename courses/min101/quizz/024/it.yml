@@ -1,0 +1,9 @@
+question: Quale fenomeno rende il ritardo tra due blocchi fondamentalmente variabile?
+answer: Il carattere probabilistico dell'hashing
+wrong_answers:
+  - Il carattere deterministico dell'hashing
+  - Il carattere ricorsivo dell'hashing
+  - Il carattere periodico dell'hashing
+explanation: |
+  Ogni hash è un tentativo indipendente, il che rende i tempi di scoperta casuali anche a hashrate costante.
+reviewed: false

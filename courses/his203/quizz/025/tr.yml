@@ -1,0 +1,10 @@
+question: Nisan 2012'de Fransız Paymium SAS şirketi tarafından hangi mobil bitcoin saklama uygulaması geliştirilmiştir?
+answer: Paytunia
+wrong_answers:
+  - Instawallet
+  - MyBitcoin
+  - Vibanko
+explanation: |
+ Paymium bunu "güvenli ve kolay çevrimiçi ödemeler ve para transferleri için Bitcoin açık protokolüne dayanan devrim niteliğinde bir uygulama" olarak sundu.
+ Şirket ayrıca Mart 2012'de Jan Vornberger'den Instawallet web uygulamasını satın almıştı.
+reviewed: true

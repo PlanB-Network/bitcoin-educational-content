@@ -1,0 +1,9 @@
+question: Op welk element wordt de proof of work in Bitcoin berekend?
+answer: De block header
+wrong_answers:
+  - De blokhoogte
+  - De mempool van het netwerk
+  - De eerste 21 transacties van het blok
+explanation: |
+  Minen bestaat uit het herhaaldelijk hashen van de 80 byte grote block header, die de inhoud van het blok vastlegt.
+reviewed: false

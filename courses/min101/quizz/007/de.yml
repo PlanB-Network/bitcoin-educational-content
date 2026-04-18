@@ -1,0 +1,9 @@
+question: Welches ökonomische Kriterium leitet die Auswahl der Transaktionen durch einen Miner?
+answer: Die Gebührenrate (Fee Rate)
+wrong_answers:
+  - Der Gesamtbetrag der Gebühren
+  - Das Alter der UTXOs
+  - Die Anzahl der UTXOs
+explanation: |
+  Da der Platz in einem Block begrenzt ist, bevorzugt der Miner die profitabelsten Transaktionen pro Byte. Daher leitet die Gebührenrate die Auswahl der Transaktionen.
+reviewed: false

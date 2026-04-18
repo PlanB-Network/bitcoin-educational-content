@@ -90,8 +90,6 @@ Er du klar til å dykke ned i datanettverkenes verden? Da setter vi i gang!
 **MERKNAD**: Beskrivelsene er basert på et GNU/Linux CentOS 7-system. Nettverkskonfigurasjonene er imidlertid stort sett de samme når man sammenligner et Debian- og et CentOS-system. Så vi vil ikke gjøre noen forskjell. Når det er et skille, vil vi prefiksere det med en spesifikk logo.
 
 
-**N.B.**: Hvis du støter på ukjente begreper i løpet av kurset, kan du slå opp i [ordlisten](https://planb.academy/resources/glossary) for å finne definisjoner.
-
 
 
 # TCP/IP-protokoller

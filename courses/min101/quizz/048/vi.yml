@@ -1,0 +1,9 @@
+question: Mining pool đầu tiên trên Bitcoin là gì?
+answer: Braiins Pool
+wrong_answers:
+  - Foundry USA
+  - AntPool
+  - F2Pool
+explanation: |
+  Braiins Pool, trước đây là Slush Pool và Bitcoin CZ, là mining pool đầu tiên trên Bitcoin, được tạo ra vào năm 2010.
+reviewed: false

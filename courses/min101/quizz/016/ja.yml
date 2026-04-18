@@ -1,0 +1,9 @@
+question: 略語RPOWは何を意味しますか？
+answer: Reusable Proofs of Work
+wrong_answers:
+  - Recursive Proofs of Work
+  - Random Proofs of Work
+  - Replayed Proofs of Work
+explanation: |
+  RPOWは、2004年にハル・フィニーによって提案された、再利用可能で交換可能なプルーフ・オブ・ワークを指します。
+reviewed: false

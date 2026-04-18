@@ -1,0 +1,10 @@
+question: Namecoin 是 Bitcoin 的第一個替代加密貨幣，它要解決什麼問題？
+answer: 域名集中管理
+wrong_answers:
+  - 線上聲譽管理
+  - mining 差異問題
+  - 比特幣的不平等分配
+explanation: |
+ 網域名稱系統由 ICANN 監督，ICANN 是根據加州法律註冊成立的非營利公司，因此存在審查問題。BitDNS 概念
+ (後來更名為 Namecoin）的構思是將這些網域名稱的管理放在類似 Bitcoin 的區塊鏈上，以解決這個問題。
+reviewed: true

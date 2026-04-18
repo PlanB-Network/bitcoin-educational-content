@@ -1,0 +1,9 @@
+question: ¿Cuál es el último halving según el protocolo?
+answer: El 33.º
+wrong_answers:
+  - El 21.º
+  - El 38.º
+  - El 64.º
+explanation: |
+  El 33.º halving, a la altura 6 930 000, pondrá fin al subsidio de bloque porque bajará por debajo de la unidad mínima.
+reviewed: false

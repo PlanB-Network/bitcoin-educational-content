@@ -1,0 +1,10 @@
+question: Jakou kontroverzní akci podnikl Luke-Jr 6. ledna 2012 proti kryptoměně Coiledcoin, aby "ochránil" ekosystém Bitcoin?
+answer: Provedl cenzurní útok na Coiledcoin pomocí svého fondu Eligius mining
+wrong_answers:
+  - Podal na GitHubu oznámení DMCA o stažení proti Coinledcoin za porušení autorských práv
+  - Upravil stránku Coiledcoin na Wikipedii a veřejně ji označil za pyramidové schéma
+  - Díky OP_RETURN zveřejnil hromadné zprávy na blockchainu Coiledcoin
+explanation: |
+ Tento cenzurní útok (mining prázdných bloků) byl proveden díky kombinaci mining s Bitcoin, kterou implementoval do svého fondu mining. Odůvodnil to tím, že
+ svou akci tím, že napsal, že žádný těžař Eligius nebyl poškozen. Luke-Jr sice podal na GitHubu oznámení o stažení DMCA, ale proti SolidCoinu.
+reviewed: true

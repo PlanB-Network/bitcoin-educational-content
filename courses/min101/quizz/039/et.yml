@@ -1,0 +1,9 @@
+question: Miks eristub coinbase-tehing teistest tehingutest?
+answer: See ei kuluta ühtegi tegelikku UTXO-d
+wrong_answers:
+  - Sellel puudub TXID
+  - Sellel puuduvad väljundid
+  - See ei asu Merkle puus
+explanation: |
+  Selle sisend viitab fiktiivsele UTXO-le, mis võimaldab luua toetust (subsidy) ja koguda tasusid.
+reviewed: false

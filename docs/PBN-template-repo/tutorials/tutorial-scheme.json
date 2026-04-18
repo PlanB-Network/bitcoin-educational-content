@@ -70,6 +70,11 @@
       "description": "ISO 639-1 language code of the original tutorial language",
       "pattern": "^[a-z]{2}(-[A-Za-z]{2,4})?$"
     },
+    "last_update_date": {
+      "type": "string",
+      "description": "Date of the last content update in YYYY-MM-DD format",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
     "proofreading": {
       "type": "array",
       "description": "Proofreading metadata for each language version",
@@ -238,6 +243,7 @@
     "professor_id",
     "license",
     "original_language",
+    "last_update_date",
     "proofreading"
   ],
   "additionalProperties": false

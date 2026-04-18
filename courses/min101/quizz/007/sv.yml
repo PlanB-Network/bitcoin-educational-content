@@ -1,0 +1,9 @@
+question: Vilket ekonomiskt kriterium styr en miners val av transaktioner?
+answer: Avgiftssatsen (fee rate)
+wrong_answers:
+  - Det totala avgiftsbeloppet
+  - UTXO-arnas ålder
+  - Antalet UTXO:er
+explanation: |
+  Eftersom utrymmet i ett block är begränsat prioriterar minern de mest lönsamma transaktionerna per byte. Det är alltså avgiftssatsen som styr urvalet av transaktioner.
+reviewed: false

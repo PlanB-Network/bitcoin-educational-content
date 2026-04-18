@@ -1,9 +1,9 @@
 question: None "RGB State Transition" igereranya iki mu bijanye n'ivyo Lightning Network ivuga?
-answer: Ugutanga umutungo wa RGB vyavuguruwe bishizwe mu bikorwa vya Commitment
+answer: Iishsasha kumutungo wa RGB vyavuguruwe bishizwe mu bikorwa vy'ukwiyemeza
 wrong_answers:
-  - Igihugu gishasha ca Multisig 2/2 ku ruzitiro
+  - Igihugu gishasha ca Multisig 2/2 kuri onchain
   - Ugutanga umutungo wa RGB kwavuguruwe kwashizwe mu bikorwa vy'ugutanga amafaranga
   - Inyandiko yo kwemeza On-Chain yasubiriwe na HTLC.
 explanation: |
-  RGB State Transition ihindura bushasha ugusangira ivy’ubutunzi bwa RGB mu muyoboro ikoresheje amafaranga y’ubudandaji ya Commitment.
-reviewed: false
+  Uguhindura kw'uko RGB imeze bushasha ugusangira ivy’ubutunzi bwa RGB mu muyoboro ikoresheje amafaranga y’ubudandaji y'ukwiyemeza.
+reviewed: true

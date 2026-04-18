@@ -1,0 +1,9 @@
+question: With what type of hardware was mining mainly performed in the very beginning of Bitcoin?
+answer: CPU
+wrong_answers:
+  - GPU
+  - ASIC
+  - FPGA
+explanation: |
+  At launch, the software ran on a personal computer and mainly used the processor.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Mikä on Satoshin tiivistämän ajatuksen mukaan ainoa tapa varmistaa, ettei kaksinkertaista kulutusta tapahdu?
+answer: Tuntea kaikki siirrot
+wrong_answers:
+  - Tuntea kaikki aktiiviset solmut
+  - Tuntea kaikki aktiiviset louhijat
+  - Tuntea kaikki yksityiset avaimet
+explanation: |
+  Kaksinkertainen kulutus havaitaan vertaamalla siirtoa jaettuun kirjanpitoon merkittyihin aiempiin kuluihin.
+reviewed: false

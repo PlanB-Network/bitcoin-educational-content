@@ -6,3 +6,4 @@ wrong_answers:
   - Ini tidak memungkinkan untuk otentikasi pengirim pada saat sesi.
 explanation: |
   Skema enkripsi terotentikasi tidak melindungi terhadap serangan seperti replay, pengurutan ulang, dan refleksi tanpa penambahan indikator seperti pengidentifikasi dan nomor urut.
+reviewed: true

@@ -6,3 +6,4 @@ wrong_answers:
   - Mengirim data hanya melalui serat optik
 explanation: |
   Koneksi nirkabel, yang mentransmisikan data melalui gelombang radio, membuat penyadapan lebih mudah bagi penyerang, karena mereka tidak memerlukan akses fisik ke jaringan.
+reviewed: true

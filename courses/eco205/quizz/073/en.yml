@@ -1,0 +1,8 @@
+question: According to Hayek, why is it impossible for a central authority to effectively direct the market process?
+answer: Because the necessary knowledge is dispersed among all the players and never exists in a concentrated form
+wrong_answers:
+  - Because the central authorities lack the appropriate theoretical economic training to understand the mechanisms
+  - Because consumers systematically refuse to reveal their preferences to planners
+  - Because companies deliberately withhold information to maintain their competitive edge
+explanation: |
+  Hayek explains in "The Use of Knowledge in Society" that the knowledge required for economic operation never exists in a concentrated form, but only in the form of dispersed elements that each individual partially possesses. This fundamental dispersion, combined with the subjectivity of preferences and their temporal evolution, makes it impossible for a planner to centralize information. Other answers suggest technical or behavioral obstacles, whereas the problem identified by Hayek is structural and inherent in the very nature of economic knowledge.

@@ -1,0 +1,9 @@
+question: Sind die Gebühren einer Bitcoin-Transaktion ein Output?
+answer: Nein
+wrong_answers:
+  - Ja
+  - Ja, aber nur für SegWit-Transaktionen
+  - Nein, aber das war vor 2012 der Fall
+explanation: |
+  Die Gebühren sind die Differenz zwischen der Summe der Inputs und der Summe der Outputs, kein dedizierter Output. Dies ist schon immer so.
+reviewed: false

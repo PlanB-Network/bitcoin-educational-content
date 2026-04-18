@@ -1,0 +1,9 @@
+question: De acordo com a ideia resumida por Satoshi, qual é a única forma de garantir a ausência de gasto duplo?
+answer: Conhecer todas as transações
+wrong_answers:
+  - Conhecer todos os nós ativos
+  - Conhecer todos os mineiros ativos
+  - Conhecer todas as chaves privadas
+explanation: |
+  O gasto duplo é detetado comparando uma transação com os gastos passados inscritos num registo partilhado.
+reviewed: false

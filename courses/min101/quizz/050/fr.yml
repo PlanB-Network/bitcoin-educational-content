@@ -6,4 +6,4 @@ wrong_answers:
   - Quand le mineur commence à chercher la preuve
 explanation: |
   La confirmation d'un paiement sur Bitcoin est la conséquence de l’ajout du bloc qui le contient à la blockchain.
-reviewed: false
+reviewed: true 

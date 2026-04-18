@@ -1,0 +1,10 @@
+question: Jaka była koncepcja stojąca za P2Pool, rozproszoną pulą mining stworzoną przez Forresta Voighta w 2011 roku?
+answer: Łańcuch akcji
+wrong_answers:
+  - Długi sondaż
+  - Podpis coinbase
+  - FPGA
+explanation: |
+ "Łańcuch udziałów", czyli sharechain, składał się z częściowych dowodów pracy wniesionych przez uczestników. Był on utrzymywany przez uczestników, którzy byli połączeni
+ peer-to-peer. Każdy udział zawierał odcisk palca poprzedniego udziału, zapewniając integralność całości.
+reviewed: true

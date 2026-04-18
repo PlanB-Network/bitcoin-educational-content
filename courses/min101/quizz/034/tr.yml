@@ -1,0 +1,9 @@
+question: Halving Bitcoin'de neyi değiştirir?
+answer: Blok sübvansiyonu
+wrong_answers:
+  - İşlem ücretleri
+  - Blok boyutu
+  - Zorluk hedefi
+explanation: |
+  Halving, ücretlere dokunmadan blok başına oluşturulan maksimum sübvansiyonu yarıya indirir.
+reviewed: false

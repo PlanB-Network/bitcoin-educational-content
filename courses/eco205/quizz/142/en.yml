@@ -1,0 +1,8 @@
+question: According to the Austrian school of thought, what is the mechanism by which quantitative easing creates a cascade of monetary expansion that is difficult to control?
+answer: Bond sellers use their increased cash holdings to buy other financial securities, creating new cycles of monetary expansion
+wrong_answers:
+  - "The central bank directly prints banknotes which it distributes to citizens, mechanically multiplying the money supply"
+  - "Interest rates automatically fall, forcing commercial banks to lend more to entrepreneurs"
+  - "The state uses the money received to increase public wages, immediately stimulating consumption and investment."
+explanation: |
+  Quantitative easing creates a cascading effect, as bond sellers (banks, investment funds) end up with more cash, which they reinvest in other financial assets. These additional purchases again increase the money supply, creating an expansion that is difficult to control. The other answers describe mechanisms that do not correspond to the process described in the Austrian analysis of quantitative easing.

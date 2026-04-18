@@ -1,0 +1,8 @@
+question: According to the Austrian school of thought, what is the direct consequence of central authorities being unable to manipulate the supply of Bitcoin?
+answer: Prices expressed in Bitcoin truly reflect individual time preferences and enable genuine economic coordination
+wrong_answers:
+  - "Prices are becoming more volatile as they are no longer stabilized by central bank intervention"
+  - "The economy is becoming harder to regulate as governments lose their main monetary policy tool"
+  - "Economic cycles are amplified because there is no longer a mechanism for injecting liquidity in the event of a crisis"
+explanation: |
+  The Austrian school teaches that monetary manipulation by central banks distorts the price signal essential to economic coordination. With Bitcoin, the impossibility of manipulating supply allows prices to truly reflect individuals' time preferences and real opportunity costs. This restores the authentic role of the interest rate as a signal for coordinating savings and investment, unlike the other options which reflect a Keynesian or interventionist vision criticized by the Austrians.

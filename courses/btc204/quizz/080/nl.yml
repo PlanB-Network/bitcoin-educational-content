@@ -1,8 +1,8 @@
 question: Wat is de rol van een CoinJoin-coördinator?
-answer: Verbind deelnemers en bouw de transactie.
+answer: Verbindt deelnemers en bouwt de transactie.
 wrong_answers:
-  - Versleutel deelnemersgegevens voor vertrouwelijkheid van transacties.
-  - Houd een overzicht bij van eerdere muntsamenvoegingen voor veiligheidscontroles.
+  - Versleutelt deelnemersgegevens voor vertrouwelijkheid van transacties.
+  - Houdt een overzicht bij van eerdere coinjoins voor veiligheidscontroles.
   - Bitcoins ontvangen van deelnemers om ze te mengen.
 explanation: |
   De rol van coördinatoren is om de verschillende gebruikers met elkaar te verbinden en om de collaboratieve transactie op te bouwen en vervolgens uit te zenden.

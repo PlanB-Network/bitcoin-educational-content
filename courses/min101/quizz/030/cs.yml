@@ -1,0 +1,9 @@
+question: Na jaké výšce bloku došlo ke čtvrtému halvingu?
+answer: 840 000
+wrong_answers:
+  - 880 000
+  - 860 000
+  - 900 000
+explanation: |
+  Čtvrtý halving proběhl na výšce 840 000 dne 20. dubna 2024.
+reviewed: false

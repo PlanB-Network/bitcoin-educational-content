@@ -1,0 +1,9 @@
+question: Какой кооператив mining летом 2011 года ненадолго превысил 50-процентный показатель хэширования сети?
+answer: Deepbit
+wrong_answers:
+  - Deepbit
+  - Бассейн Слэш
+  - GHash.io
+explanation: |
+ По данным OrganOfCorti, 5 августа хэшрейт Deepbit составил 52,86 %.
+reviewed: true

@@ -1,0 +1,9 @@
+question: کدام مکانیزم فضای جستجو را هنگامی که nonce ۳۲ بیتی تمام می‌شود، گسترش می‌دهد؟
+answer: Extra-nonce
+wrong_answers:
+  - Super-nonce
+  - Coinbase-nonce
+  - Double-nonce
+explanation: |
+  با تغییر extra-nonce در scriptSig مربوط به coinbase، ریشه مرکل و در نتیجه هدر تغییر می‌کند.
+reviewed: false

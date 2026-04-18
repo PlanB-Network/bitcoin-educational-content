@@ -1,0 +1,10 @@
+question: Mikä oli Gareth Nelsonin ja Charlie Shremin vuonna 2011 luoman valuutanvaihtopalvelun nimi, jonka tarkoituksena oli helpottaa talletuksia valuutanvaihtofoorumeihin?
+answer: BitInstant
+wrong_answers:
+  - Instawallet
+  - Crypto X muutos
+  - TrustCash
+explanation: |
+ Tämä palvelu ratkaisi Mt. Goxille tehtyjen kansainvälisten siirtojen hitauden ongelman toimimalla välittäjänä ja siirtämällä varoja vaihtoalustoille sen jälkeen, kun ne on vastaanotettu Mt
+ alkuperämaassa. BitInstant avasi ovensa yleisölle 23. elokuuta 2011, ja siitä tuli nopeasti suosittu, sillä tammikuuhun 2012 mennessä siirrettiin 1,2 miljoonaa dollaria.
+reviewed: true

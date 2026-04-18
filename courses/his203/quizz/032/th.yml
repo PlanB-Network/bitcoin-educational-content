@@ -1,0 +1,9 @@
+question: โปรโตคอล mining ใดที่พัฒนาในเดือนกันยายน 2012 โดย Marek Palatinus หรือที่รู้จักในชื่อ Slush เพื่อปรับปรุงการแลกเปลี่ยนระหว่างนักขุดและกลุ่ม mining?
+answer: ชั้น
+wrong_answers:
+  - Electrum
+  - Getwork
+  - Getblocktemplate (GBT)
+explanation: |
+ Stratum เป็นโปรโตคอล mining สำหรับไคลเอนต์แบบบาง มันได้เข้ามาแทนที่ฟังก์ชัน getwork ที่พื้นฐานซึ่งใช้จนถึงตอนนั้นอย่างรวดเร็ว และได้ตั้งตัวเองขึ้นมาแทนที่ข้อเสนอ getblocktemplate ที่แข่งขันกัน
+reviewed: true

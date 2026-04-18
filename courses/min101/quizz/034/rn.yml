@@ -1,0 +1,9 @@
+question: Halving ihindura iki kuri Bitcoin?
+answer: Block subsidy
+wrong_answers:
+  - Amafaranga y'agashirukanyota ku buremanyi
+  - Ingano ya block
+  - Intego y'ingorane (difficulty target)
+explanation: |
+  Halving igabura kabiri subsidy ntarengwa iremwa kuri block, idakoze ku mafaranga y'agashirukanyota.
+reviewed: false

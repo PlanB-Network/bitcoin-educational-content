@@ -1,0 +1,9 @@
+question: ASIC ne anlama gelir?
+answer: Application-Specific Integrated Circuits
+wrong_answers:
+  - Advanced Secure Integrated Circuit
+  - Automated Silicon Integrated Circuit
+  - Application-Shared Integrated Circuit
+explanation: |
+  ASIC, tek bir görev için tasarlanmış bir çiptir. Bu nedenle Uygulamaya Özel Tümleşik Devreler (Application-Specific Integrated Circuits) anlamına gelir.
+reviewed: false

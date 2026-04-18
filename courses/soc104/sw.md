@@ -823,7 +823,7 @@ Mnamo karne ya 20, mitindo miwili mikubwa iliibuka:
 2. **Mtu mwingine mwenye msimamo mkali na wa kibepari:** ambaye anaamini kwamba kazi za serikali zinapaswa kubinafsishwa na kusimamiwa na soko.
 
 
-Hata hivyo, zote mbili zinakubaliana juu ya kanuni ya msingi ya uhuru wa mtu binafsi. Mawazo ya uhuru yalitolewa mapema karne ya 18 na Physiocrats, hasa Vincent de Gournay na Turgot, na kuendelezwa na Condillac, Jean-Baptiste Say na Frédéric Bastiat. Katika karne ya 20, yalichukuliwa na kuendelezwa na shule ya uchumi ya Austria, ambayo waandishi wake wakuu ni Ludwig von Mises, Friedrich Hayek na Murray Rothbard.
+Hata hivyo, zote mbili zinakubaliana juu ya kanuni ya msingi ya uhuru wa mtu binafsi. Mawazo ya uhuru yalitolewa mapema karne ya 18 na Physiocrats, hasa Vincent de Gournay na Turgot, na kuendelezwa na Condillac, Jean-Baptiste Say na Frédéric Bastiat. Katika karne ya 20, yalichukuliwa na kuendelezwa na [shule ya uchumi ya Austria](https://planb.academy/resources/glossary/austrian-school), ambayo waandishi wake wakuu ni Ludwig von Mises, Friedrich Hayek na Murray Rothbard.
 
 
 
@@ -1623,10 +1623,10 @@ Mwishoni mwa kozi hii, tunahisi ni muhimu kushughulikia msimamo wa kisiasa wa Bi
 
 
 
-Bitcoin ni sarafu ya kidijitali isiyo na mamlaka kuu, iliyoundwa na Satoshi Nakamoto mnamo 2008, ambayo huwezesha miamala ya kifedha isiyoaminika, ya rika-kwa-rika.
+Bitcoin ni [sarafu ya kidijitali](https://planb.academy/resources/glossary/cryptocurrency) isiyo na mamlaka kuu, iliyoundwa na Satoshi Nakamoto mnamo 2008, ambayo huwezesha miamala ya kifedha isiyoaminika, ya [rika-kwa-rika](https://planb.academy/resources/glossary/peertopeer-p2p).
 
 
-Bitcoin inadhibitiwa na itifaki ya programu huria, bila Mkurugenzi Mtendaji, bila ofisi kuu, bila bajeti ya uuzaji na bila mamlaka iliyoteuliwa. Hii ina maana kwamba hakuna chombo cha kisiasa au serikali inayo udhibiti juu yake.
+Bitcoin inadhibitiwa na itifaki ya [programu huria](https://planb.academy/resources/glossary/foss), bila Mkurugenzi Mtendaji, bila ofisi kuu, bila bajeti ya uuzaji na bila mamlaka iliyoteuliwa. Hii ina maana kwamba hakuna chombo cha kisiasa au serikali inayo udhibiti juu yake.
 
 
 
@@ -1642,7 +1642,7 @@ Ingawa Bitcoin yenyewe si ya mrengo wa kulia wala wa kushoto, wala si ya dini yo
 
 
 
-Tukisoma Waraka Mweupe wa Satoshi Nakamoto, tunaweza kuona kwamba Bitcoin iliundwa ili kutoa ulinzi bunifu dhidi ya vitisho viwili vikuu vya kisasa: ufuatiliajiwa kila mahali na ongezeko la kasi la kuunda pesa bandia.
+Tukisoma [Waraka Mweupe](https://planb.academy/resources/glossary/white-paper) wa Satoshi Nakamoto, tunaweza kuona kwamba Bitcoin iliundwa ili kutoa ulinzi bunifu dhidi ya vitisho viwili vikuu vya kisasa: ufuatiliajiwa kila mahali na ongezeko la kasi la kuunda pesa bandia.
 
 
 
@@ -1650,7 +1650,7 @@ Tukisoma Waraka Mweupe wa Satoshi Nakamoto, tunaweza kuona kwamba Bitcoin iliund
 
 
 
-2. Bitcoin inamwezesha kila mtu kulinda akiba yake dhidi ya uporaji wa mali binafsi inayohusishwa na mfumuko wa bei wa fedha. Ni jaribio la kupinga udhibiti wa serikali kuhusu usimamizi wa pesa kama chombo cha kubadilishana, na hivyo kushindana na serikali. Mgogoro wa kifedha wa 2008 na janga la Covid 19 vimeangazia dosari katika mfumo wa sasa. Matrilioni ya dola zilizochapishwa nje ya mfumo ili kuzuia uchumi kuporomoka zaidi yalikuwa na athari mbaya, ambazo bado tunazilipa.
+2. Bitcoin inamwezesha kila mtu kulinda akiba yake dhidi ya uporaji wa mali binafsi inayohusishwa na [mfumuko wa bei](https://planb.academy/resources/glossary/inflation) wa fedha. Ni jaribio la kupinga udhibiti wa serikali kuhusu usimamizi wa pesa kama chombo cha kubadilishana, na hivyo kushindana na serikali. Mgogoro wa kifedha wa 2008 na janga la Covid 19 vimeangazia dosari katika mfumo wa sasa. Matrilioni ya dola zilizochapishwa nje ya mfumo ili kuzuia uchumi kuporomoka zaidi yalikuwa na athari mbaya, ambazo bado tunazilipa.
 
 
 
@@ -1722,7 +1722,7 @@ Kwa maana hii, inaendeshwa na maono ya ulimwengu ambayo ni ya kimaadili na kisia
 
 
 
-Lakini Bitcoin haikutokea ghafla. Inategemea maendeleo katika hisabati, fizikia, sayansi ya kompyuta na falsafa. Satoshi Nakamoto, ingawa ni mwerevu, ilijengwa juu ya mawazo ya wavumbuzi wengine. Miongoni mwao, waanzilishi wa harakati ya cypherpunk.
+Lakini Bitcoin haikutokea ghafla. Inategemea maendeleo katika hisabati, fizikia, sayansi ya kompyuta na falsafa. Satoshi Nakamoto, ingawa ni mwerevu, ilijengwa juu ya mawazo ya wavumbuzi wengine. Miongoni mwao, waanzilishi wa harakati ya [cypherpunk](https://planb.academy/resources/glossary/cypherpunks).
 
 
 
@@ -1745,7 +1745,7 @@ Zinaibuka katika muktadha ambapo teknolojia ya habari na mawasiliano inakua kwa 
 
 
 
-Wazo lilikuwa ni kufanya kutokujulikana na uhuru wa kifedha kupatikana kwa wote, kutokana na zana za kidijitali za kriptografia. Kwa njia hii, mamlaka za serikali hazingekuwa na udhibiti wa shughuli za mtandaoni.
+Wazo lilikuwa ni kufanya kutokujulikana na uhuru wa kifedha kupatikana kwa wote, kutokana na zana za kidijitali za [kriptografia](https://planb.academy/resources/glossary/cryptography). Kwa njia hii, mamlaka za serikali hazingekuwa na udhibiti wa shughuli za mtandaoni.
 
 
 

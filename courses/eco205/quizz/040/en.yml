@@ -1,0 +1,8 @@
+question: According to the methodological dualism of the Austrian school, how many different methodologies are needed to study reality?
+answer: "Two distinct methodologies: one for the natural sciences and one for the humanities"
+wrong_answers:
+  - A single universal methodology applicable to all fields of science
+  - "Three methodologies: one for the natural sciences, one for economics, and one for the other social sciences"
+  - "As many methodologies as there are different scientific disciplines"
+explanation: |
+  Methodological dualism defends the idea that two fundamentally different objects of study require two distinct methodologies. This position is opposed to positivism, which advocates a single scientific method. The Austrian school rigorously distinguishes between the inductive empirical approach of the natural sciences and the axiomatic-deductive praxeological approach of the human sciences, since human beings act with intention, unlike inert objects.

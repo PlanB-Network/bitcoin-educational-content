@@ -1,0 +1,9 @@
+question: Jaký problém se Hashcash primárně snažil omezit?
+answer: E-mailový spam
+wrong_answers:
+  - Dvojité utrácení
+  - DNS phishing
+  - Krádež soukromých klíčů
+explanation: |
+  Hashcash ukládá výpočetní náklady na zprávu, aby se hromadné zasílání e-mailů stalo nerentabilním.
+reviewed: false

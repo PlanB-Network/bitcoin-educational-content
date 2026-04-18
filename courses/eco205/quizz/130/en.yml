@@ -1,0 +1,8 @@
+question: According to Hans-Hermann Hoppe, what does the market interest rate represent in an economy?
+answer: The aggregate sum of all individual time preference levels that balance social savings with social investment
+wrong_answers:
+  - "The average opportunity cost of holding money rather than financial assets in the company"
+  - "The price set by central banks to coordinate supply and demand of available capital"
+  - The weighted average of rates charged by financial institutions for their lending operations
+explanation: |
+  Hans-Hermann Hoppe explains that the market interest rate aggregates all individual time preferences to create a social equilibrium between savings and investment. This Austrian vision differs from Keynesian approaches (opportunity cost of money) and rejects central bank intervention in rate-setting, preferring a natural mechanism for coordinating subjective time preferences.

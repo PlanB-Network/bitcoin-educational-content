@@ -74,7 +74,7 @@ Nach den Worten von Nicolas war es an der Zeit, mit dem Bau zu beginnen. Eine be
 Was bedeutet Open Source, und was gehört zu einem solchen Projekt?
 
 
-FOSS steht für Free & Open-Source Software. Ersteres bezieht sich auf Begriffe, die es jedem erlauben, die Software zu kopieren, zu verändern und sogar zu vertreiben (sogar mit Gewinn). Letzteres bezieht sich auf die offene Freigabe des Quellcodes und ermutigt die Öffentlichkeit, Beiträge zu leisten und die Software zu verbessern.
+[FOSS](https://planb.academy/resources/glossary/foss) steht für Free & Open-Source Software. Ersteres bezieht sich auf Begriffe, die es jedem erlauben, die Software zu kopieren, zu verändern und sogar zu vertreiben (sogar mit Gewinn). Letzteres bezieht sich auf die offene Freigabe des Quellcodes und ermutigt die Öffentlichkeit, Beiträge zu leisten und die Software zu verbessern.
 
 Dies zieht erfahrene Benutzer an, die mit Begeisterung einen Beitrag zu der Software leisten, die sie bereits benutzen und aus der sie einen Nutzen ziehen, und die sich letztendlich als erfolgreicher in der Annahme erweist als proprietäre Software. Es steht im Einklang mit dem Bitcoin-Ethos, dass "Information frei sein will" Es bringt leidenschaftliche Menschen zusammen, die eine Gemeinschaft bilden, und es macht einfach mehr Spaß. Wie Bitcoin ist auch FOSS unvermeidlich.
 
@@ -122,13 +122,13 @@ Die BTCPay Server Foundation, die es Alekos und Bas ermöglicht hat, diesen Kurs
 Dies ist eine Klassenraumübung. Wenn Sie diesen Kurs selbst besuchen, können Sie ihn nicht durchführen, aber Sie können diese Übung trotzdem durchlaufen. Um diese Aufgabe zu lösen, sind mindestens 9 bis 11 Personen erforderlich.
 
 
-Die Übung beginnt nach dem Anschauen der Einführung "How Bitcoin and the Blockchain works" von der BBC.
+Die Übung beginnt nach dem Anschauen der Einführung "How Bitcoin and the [Blockchain](https://planb.academy/resources/glossary/blockchain) works" von der BBC.
 
 
 :::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
 
-Diese Übung erfordert eine Mindestanzahl von neun Teilnehmern. Diese Übung zielt darauf ab, ein physisches Verständnis dafür zu vermitteln, wie Bitcoin funktioniert. Indem Sie jede Rolle im Netzwerk spielen, können Sie auf interaktive und spielerische Weise lernen. Diese Übung beinhaltet nicht Lightning Network.
+Diese Übung erfordert eine Mindestanzahl von neun Teilnehmern. Diese Übung zielt darauf ab, ein physisches Verständnis dafür zu vermitteln, wie Bitcoin funktioniert. Indem Sie jede Rolle im Netzwerk spielen, können Sie auf interaktive und spielerische Weise lernen. Diese Übung beinhaltet nicht [Lightning Network](https://planb.academy/resources/glossary/lightning-network).
 
 
 ### Beispiel: Benötigt 9 / 11 Personen
@@ -181,18 +181,18 @@ Kunden kaufen ein Produkt im Laden mit Bitcoin.
 - Jeder der 9 Computer verfügt über eine vollständige historische Aufzeichnung aller jemals getätigten Transaktionen (daher genaue Bilanzen ohne Fälschungen) sowie über ein Regelwerk:
   - Überprüfen Sie, ob die Transaktion ordnungsgemäß signiert ist (thekeyfitsthelock)
   - Senden und Empfangen von gültigen Transaktionen an Peers im Netzwerk, Verwerfen von ungültigen Transaktionen (einschließlich solcher, die versuchen, denselben Betrag zweimal auszugeben)
-- Regelmäßige Aktualisierung/Hinzufügung von Datensätzen mit neuen Transaktionen, die vom "Zufalls"-Computer empfangen werden, sofern alle Inhalte gültig sind (Anmerkung: wir ignorieren der Einfachheit halber die Proof of Work-Komponente bei all dem), andernfalls werden diese zurückgewiesen und wie zuvor fortgesetzt, bis der nächste "Zufalls"-Computer eine Aktualisierung sendet
+- Regelmäßige Aktualisierung/Hinzufügung von Datensätzen mit neuen Transaktionen, die vom "Zufalls"-Computer empfangen werden, sofern alle Inhalte gültig sind (Anmerkung: wir ignorieren der Einfachheit halber die [Proof of Work](https://planb.academy/resources/glossary/proof-of-work)-Komponente bei all dem), andernfalls werden diese zurückgewiesen und wie zuvor fortgesetzt, bis der nächste "Zufalls"-Computer eine Aktualisierung sendet
   - Der richtige Betrag wurde belohnt, wenn der Inhalt gültig war.
 - Spielen Sie die Abfolge der Ereignisse nach:
   - Ein Kunde, der online im Laden stöbert und einen Artikel für 25 $ findet, den er haben möchte, informiert den Händler, dass er ihn kaufen möchte
-  - Händler - bittet um Zahlung, indem er dem Kunden ein Invoice/Address von seinem Wallet aus schickt.
+  - Händler - bittet um Zahlung, indem er dem Kunden ein Invoice/Address von seinem [Wallet](https://planb.academy/resources/glossary/wallet) aus schickt.
   - Der Kunde führt eine Transaktion durch (Senden von BTC im Wert von 25 $ an ein vom Händler bereitgestelltes Address) und sendet sie an das Bitcoin-Netzwerk.
 - Computer - empfangen die Transaktion und überprüfen sie:
   - Im Address befinden sich mindestens 25 $ BTC, die von
   - Die Transaktion wird ordnungsgemäß signiert ("freigeschaltet" durch den Kunden)
   - Ist dies nicht der Fall, wird die Transaktion nicht über das Netz weitergegeben, und wenn doch, wird sie weitergegeben und in Wartestellung gehalten.
   - Die Händler können überprüfen, ob die Transaktion noch nicht abgeschlossen ist und warten.
-- Ein Computer wird "zufällig" ausgewählt, um vorzuschlagen, die vorgeschlagene Transaktion abzuschließen, indem er einen "Block" sendet, der sie enthält; wenn sie erfolgreich ist, erhält er eine BTC-Belohnung.
+- Ein Computer wird "zufällig" ausgewählt, um vorzuschlagen, die vorgeschlagene Transaktion abzuschließen, indem er einen "[Block](https://planb.academy/resources/glossary/block)" sendet, der sie enthält; wenn sie erfolgreich ist, erhält er eine BTC-Belohnung.
   - OPTIONAL/ERWEITERT - anstatt einen Computer zufällig auszuwählen, simulieren Sie Mining, indem Sie die Computer würfeln lassen, bis ein bestimmtes Ergebnis eintritt (z. B. der erste, der zwei Sechsen würfelt, wird ausgewählt)
   - Es kann auch durchspielen, was passieren würde, wenn zwei Computer ungefähr gleichzeitig gewinnen, was zu einer Kettenaufteilung führt.
   - Die Computer prüfen die Gültigkeit, aktualisieren die Datensätze in ihren Hauptbüchern, wenn die Regeln erfüllt sind, und senden den Transaktionsblock an die Peers.
@@ -234,15 +234,15 @@ Definieren Sie die folgenden, im vorherigen Abschnitt eingeführten Schlüsselbe
 
 
 - Knotenpunkt
-- Mempool
-- Schwierigkeit Ziel
+- [Mempool](https://planb.academy/resources/glossary/mempool)
+- [Schwierigkeit](https://planb.academy/resources/glossary/difficulty) Ziel
 - Block
 
 
 **Diskutieren Sie in der Gruppe die Bedeutung einiger zusätzlicher Begriffe:**
 
 
-Blockchain, Transaktion, Doppelausgabe, Byzantinisches Problem der Generäle, Mining, Proof of Work (PoW), Hash Funktion, Block reward, Blockchain, Längste Kette, 51%-Angriff, Ausgabe, Ausgabesperre, Änderung, Satoshis, Öffentlicher/Privater Schlüssel, Address, Public-Key-Kryptographie, Digitale Signatur, Wallet
+Blockchain, Transaktion, Doppelausgabe, Byzantinisches Problem der Generäle, [Mining](https://planb.academy/resources/glossary/mining), Proof of Work (PoW), Hash Funktion, Block reward, Blockchain, Längste Kette, 51%-Angriff, Ausgabe, Ausgabesperre, Änderung, [Satoshis](https://planb.academy/resources/glossary/satoshi-sat), Öffentlicher/Privater Schlüssel, Address, Public-Key-[Kryptographie](https://planb.academy/resources/glossary/cryptography), [Digitale Signatur](https://planb.academy/resources/glossary/digital-signature), Wallet
 
 
 # Einführung von BTCPay Server
@@ -573,7 +573,7 @@ In diesem Abschnitt haben Sie gelernt:
 ### Wie werden Bitcoin-Schlüssel erzeugt?
 
 
-Bitcoin-Geldbörsen erzeugen, wenn sie erstellt werden, einen so genannten "seed". Im letzten Ziel haben Sie einen "seed" erstellt. Die zuvor erzeugte Wortfolge ist auch als Mnemonic-Phrase bekannt. Der seed wird zur Ableitung individueller Bitcoin-Schlüssel verwendet und zum Senden oder Empfangen von Bitcoin genutzt. seed-Phrasen sollten niemals an Dritte oder nicht vertrauenswürdige Peers weitergegeben werden.
+Bitcoin-Geldbörsen erzeugen, wenn sie erstellt werden, einen so genannten "[seed](https://planb.academy/resources/glossary/seed)". Im letzten Ziel haben Sie einen "seed" erstellt. Die zuvor erzeugte Wortfolge ist auch als Mnemonic-Phrase bekannt. Der seed wird zur Ableitung individueller Bitcoin-Schlüssel verwendet und zum Senden oder Empfangen von Bitcoin genutzt. seed-Phrasen sollten niemals an Dritte oder nicht vertrauenswürdige Peers weitergegeben werden.
 
 
 Die seed-Generierung erfolgt nach dem Industriestandard "Hierarchical Deterministic" (HD).
@@ -596,11 +596,11 @@ Ein Address wird durch einen "Hashing-Algorithmus" aus dem öffentlichen Schlüs
 
 
 
-- Adressen, die mit `bc1...` beginnen, werden langsam zu den sehr verbreiteten Adressen. Diese sind als (native) SegWit-Adressen bekannt. Diese bieten eine bessere Gebührenstruktur als die anderen genannten Adressen. Native SegWit-Adressen verwenden die Bech32-Kodierung und lassen nur Kleinbuchstaben zu.
+- Adressen, die mit `bc1...` beginnen, werden langsam zu den sehr verbreiteten Adressen. Diese sind als (native) [SegWit](https://planb.academy/resources/glossary/segwit)-Adressen bekannt. Diese bieten eine bessere Gebührenstruktur als die anderen genannten Adressen. Native SegWit-Adressen verwenden die Bech32-Kodierung und lassen nur Kleinbuchstaben zu.
 
 
 
-- Adressen, die mit `3...` beginnen, werden häufig noch von Börsen für Einzahlungsadressen verwendet. Diese Adressen werden im Kapitel "Erstellen einer neuen Filiale" erwähnt, umhüllte oder verschachtelte SegWit-Adressen. Sie können jedoch auch als "Multisig Address" verwendet werden. Wenn sie als SegWit Address verwendet werden, ergeben sich einige Einsparungen bei den Transaktionsgebühren, allerdings weniger als bei den nativen SegWit. P2SH-Adressen verwenden die Base58-Kodierung. Dies macht sie, wie die alten Address, case-sensitiv.
+- Adressen, die mit `3...` beginnen, werden häufig noch von Börsen für Einzahlungsadressen verwendet. Diese Adressen werden im Kapitel "Erstellen einer neuen Filiale" erwähnt, umhüllte oder verschachtelte SegWit-Adressen. Sie können jedoch auch als "Multisig Address" verwendet werden. Wenn sie als SegWit Address verwendet werden, ergeben sich einige Einsparungen bei den [Transaktionsgebühren](https://planb.academy/resources/glossary/transaction-fees), allerdings weniger als bei den nativen SegWit. P2SH-Adressen verwenden die Base58-Kodierung. Dies macht sie, wie die alten Address, case-sensitiv.
 
 
 
@@ -618,7 +618,7 @@ Ein Address wird durch einen "Hashing-Algorithmus" aus dem öffentlichen Schlüs
 
 
 
-- HD-Wallets verwenden jedoch eine andere Struktur. xpub...`, `ypub...` oder `zpub...` werden als erweiterte öffentliche Schlüssel, oder xpubs, bezeichnet. Diese Schlüssel werden zur Ableitung vieler öffentlicher Schlüssel als Teil des HD Wallet verwendet. Da Ihr xpub die Aufzeichnungen Ihrer gesamten Historie, d. h. vergangener und zukünftiger Transaktionen, enthält, sollten Sie diese niemals mit nicht vertrauenswürdigen Parteien teilen.
+- HD-Wallets verwenden jedoch eine andere Struktur. [xpub](https://planb.academy/resources/glossary/xpub)...`, `ypub...` oder `zpub...` werden als erweiterte öffentliche Schlüssel, oder xpubs, bezeichnet. Diese Schlüssel werden zur Ableitung vieler öffentlicher Schlüssel als Teil des HD Wallet verwendet. Da Ihr xpub die Aufzeichnungen Ihrer gesamten Historie, d. h. vergangener und zukünftiger Transaktionen, enthält, sollten Sie diese niemals mit nicht vertrauenswürdigen Parteien teilen.
 
 
 ### Zusammenfassung der Fertigkeiten
@@ -649,7 +649,7 @@ Beschreiben Sie den Vorteil der Verwendung neuer Adressen für jede Transaktion 
 Nach der Erstellung einer seed-Phrase muss die in diesem Buch erstellte Liste von 12 bis 24 Wörtern ordnungsgemäß gesichert werden, da diese Wörter die einzige Möglichkeit sind, den Zugriff auf einen Wallet wiederherzustellen. Die Struktur von HD Wallets und die Art und Weise, wie Adressen deterministisch mit einem einzigen seed generiert werden, bedeutet, dass alle von Ihnen erstellten Adressen mit dieser einen Liste von Mnemonic-Wörtern gesichert werden, die Ihr seed oder Ihre Wiederherstellungsphrase darstellt.
 
 
-Bewahren Sie Ihren Wiederherstellungssatz sicher auf. Wenn jemand darauf zugreift, insbesondere in böswilliger Absicht, kann er Ihr Geld bewegen. Bewahren Sie den seed sicher auf und bedenken Sie dabei, dass er auf Gegenseitigkeit beruht. Es gibt verschiedene Methoden zur Speicherung der privaten Bitcoin-Schlüssel, jede mit ihren eigenen Vor- und Nachteilen in Bezug auf Sicherheit, Datenschutz, Bequemlichkeit und physische Aufbewahrung. Aufgrund der Bedeutung privater Schlüssel neigen Bitcoin-Nutzer dazu, diese Schlüssel selbst zu verwahren und sicher aufzubewahren, anstatt "Verwahrungsdienste" wie Banken zu nutzen. Je nach Benutzer müssen sie entweder eine Cold-Speicherlösung oder ein Hot-Wallet verwenden.
+Bewahren Sie Ihren Wiederherstellungssatz sicher auf. Wenn jemand darauf zugreift, insbesondere in böswilliger Absicht, kann er Ihr Geld bewegen. Bewahren Sie den seed sicher auf und bedenken Sie dabei, dass er auf Gegenseitigkeit beruht. Es gibt verschiedene Methoden zur Speicherung der privaten Bitcoin-Schlüssel, jede mit ihren eigenen Vor- und Nachteilen in Bezug auf Sicherheit, Datenschutz, Bequemlichkeit und physische Aufbewahrung. Aufgrund der Bedeutung [privater Schlüssel](https://planb.academy/resources/glossary/private-key) neigen Bitcoin-Nutzer dazu, diese Schlüssel selbst zu verwahren und sicher aufzubewahren, anstatt "Verwahrungsdienste" wie Banken zu nutzen. Je nach Benutzer müssen sie entweder eine Cold-Speicherlösung oder ein Hot-Wallet verwenden.
 
 
 ### Hot und Cold Speicherung von Bitcoin-Schlüsseln
@@ -667,10 +667,10 @@ Hot-Geldbörsen sind die bequemste Art der Interaktion mit Bitcoin über Mobil-,
 ### Cold Wallet
 
 
-Privatpersonen setzen ihren Bitcoin in einen Cold Wallet um, weil dieser die privaten Schlüssel vom Internet isolieren kann und sie so vor potenziellen Online-Bedrohungen schützt. Das Entfernen der Internetverbindung aus der Gleichung reduziert das Risiko von Malware, Spyware und SIM-Austausch. Man geht davon aus, dass die Cold-Speicherung der Hot-Speicherung in Bezug auf Sicherheit und Autonomie überlegen ist, vorausgesetzt, es werden angemessene Vorkehrungen getroffen, um den Verlust der privaten Bitcoin-Schlüssel zu verhindern. Die Cold-Speicherung eignet sich am besten für große Mengen von Bitcoin, die aufgrund der Komplexität der Wallet-Einrichtung nicht oft ausgegeben werden sollen.
+Privatpersonen setzen ihren Bitcoin in einen [Cold Wallet](https://planb.academy/resources/glossary/cold-wallet) um, weil dieser die privaten Schlüssel vom Internet isolieren kann und sie so vor potenziellen Online-Bedrohungen schützt. Das Entfernen der Internetverbindung aus der Gleichung reduziert das Risiko von Malware, Spyware und SIM-Austausch. Man geht davon aus, dass die Cold-Speicherung der Hot-Speicherung in Bezug auf Sicherheit und Autonomie überlegen ist, vorausgesetzt, es werden angemessene Vorkehrungen getroffen, um den Verlust der privaten Bitcoin-Schlüssel zu verhindern. Die Cold-Speicherung eignet sich am besten für große Mengen von Bitcoin, die aufgrund der Komplexität der Wallet-Einrichtung nicht oft ausgegeben werden sollen.
 
 
-Es gibt verschiedene Methoden zur Speicherung von Bitcoin-Schlüsseln in Cold-Speichern, von Papiergeldbörsen über Brain Wallets bis hin zu Hardware-Wallets oder, von Anfang an, einer Wallet-Datei. Die meisten Geldbörsen verwenden BIP 39, um den generate Satz zu speichern. Innerhalb der Bitcoin core-Software muss jedoch noch ein Konsens über die Verwendung dieses Begriffs erzielt werden. Die Bitcoin core-Software erstellt weiterhin eine Wallet.dat-Datei, die Sie an einem sicheren Offline-Speicherort aufbewahren müssen.
+Es gibt verschiedene Methoden zur Speicherung von Bitcoin-Schlüsseln in Cold-Speichern, von Papiergeldbörsen über Brain Wallets bis hin zu Hardware-Wallets oder, von Anfang an, einer Wallet-Datei. Die meisten Geldbörsen verwenden [BIP](https://planb.academy/resources/glossary/bip) 39, um den generate Satz zu speichern. Innerhalb der Bitcoin core-Software muss jedoch noch ein Konsens über die Verwendung dieses Begriffs erzielt werden. Die Bitcoin core-Software erstellt weiterhin eine Wallet.dat-Datei, die Sie an einem sicheren Offline-Speicherort aufbewahren müssen.
 
 
 ### Zusammenfassung der Fertigkeiten
@@ -717,7 +717,7 @@ BTCPay Server besteht aus den folgenden Standard-Wallet-Funktionen:
 - Neu scannen
 - Zahlungen ziehen
 - Auszahlungen
-- PSBT
+- [PSBT](https://planb.academy/resources/glossary/psbt)
 - Allgemeine Einstellungen
 
 
@@ -732,8 +732,8 @@ Administratoren können in der Transaktionsansicht die eingehenden und ausgehend
 | --------------- | ---------------------------------------------------- |
 | App             | Zahlung wurde über eine von einer App erstellte Rechnung empfangen |
 | Rechnung        | Zahlung wurde über eine Rechnung empfangen           |
-| Payjoin         | Nicht bezahlt, der Rechnungs-Timer ist noch nicht abgelaufen |
-| Payjoin-offengelegt | UTXO wurde über einen Payjoin-Vorschlag in einer Rechnung offengelegt |
+| [Payjoin](https://planb.academy/resources/glossary/payjoin)         | Nicht bezahlt, der Rechnungs-Timer ist noch nicht abgelaufen |
+| Payjoin-offengelegt | [UTXO](https://planb.academy/resources/glossary/utxo) wurde über einen Payjoin-Vorschlag in einer Rechnung offengelegt |
 | Zahlungsanforderung | Zahlung wurde über eine Zahlungsanforderung empfangen |
 | Auszahlung      | Zahlung wurde über eine Auszahlung oder Rückerstattung gesendet |
 
@@ -813,7 +813,7 @@ Die Coin-Auswahl ist eine fortschrittliche Funktion zur Verbesserung der Privats
 Die Coin-Auswahl funktioniert nativ mit der Wallet-Etikettenfunktion. Damit können Sie eingehende Mittel für eine reibungslosere UTXO-Verwaltung und -Ausgabe kennzeichnen.
 
 
-BTCPay Server unterstützt BIP-329 für die Etikettenverwaltung. Wenn Sie von einem Wallet umziehen, der BIP-329 unterstützt, und bereits Labels gesetzt haben, erkennt und importiert BTCPay Server diese automatisch. Bei der Migration von Servern können diese Informationen auch exportiert und in die neue Umgebung importiert werden.
+BTCPay Server unterstützt BIP-329 für die Etikettenverwaltung. Wenn Sie von einem Wallet umziehen, der BIP-329 unterstützt, und bereits [Labels](https://planb.academy/resources/glossary/label) gesetzt haben, erkennt und importiert BTCPay Server diese automatisch. Bei der Migration von Servern können diese Informationen auch exportiert und in die neue Umgebung importiert werden.
 
 
 ### Wie man empfängt
@@ -1131,7 +1131,7 @@ Unter der Option Lightning Wallet in der linken Menüleiste finden Server-Admini
 #### Interne Knoteninformationen
 
 
-Serveradministratoren können auf die internen Knoteninformationen klicken, um ihren Serverstatus (Online/Offline) und die Verbindungszeichenfolge für Clearnet oder Tor anzuzeigen.
+Serveradministratoren können auf die internen Knoteninformationen klicken, um ihren Serverstatus (Online/Offline) und die Verbindungszeichenfolge für Clearnet oder [Tor](https://planb.academy/resources/glossary/tor) anzuzeigen.
 
 
 ![image](assets/en/033.webp)

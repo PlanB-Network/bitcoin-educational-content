@@ -1,0 +1,10 @@
+question: Kuidas nimetati Ameerika arendaja Mike Caldwelli poolt 2011. aasta septembrist kuni 2013. aasta novembrini tehtud füüsilisi bitcoin'e?
+answer: Casascius Coins
+wrong_answers:
+  - Bitvillide
+  - Lealana Cents
+  - PrintCoins
+explanation: |
+ Casascius oli Utahis elava 33-aastase arendaja Mike Caldwelli pseudonüüm. Tema füüsilised bitcoinid olid 1 BTC, 25 BTC ja muudes nimiväärtustes, kuna
+ samuti kuni 1 000 BTC suurused valuplokid. Need on olnud väga edukad, ladustades aastate jooksul peaaegu 100 000 bitcoin'i.
+reviewed: true

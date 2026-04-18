@@ -1,0 +1,10 @@
+question: Kes rakendas mälumahuka Scrypt-funktsiooni GPU-kindla mining algoritmina krüptoraha Tenebrixi 2011. aastal?
+answer: ArtForz
+wrong_answers:
+  - Charlie Lee
+  - Lolcust
+  - Colin Percival
+explanation: |
+ Scrypt on algselt 2009. aastal Kanada arvutiteadlase Colin Percivali poolt loodud võtme tuletamise funktsioon. Selle võttis kasutusele kaevandaja ArtForz, kes aitas
+ Lolcust arendama krüptoraha Tenebrix, mis käivitati 2011. aasta septembris. Charlie Lee võttis mudeli üles, et lisada see Litecoini, mis debüteeris oktoobris.
+reviewed: true

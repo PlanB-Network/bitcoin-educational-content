@@ -17,6 +17,7 @@ See intensiivne kahepäevane kursus, mida õpetab Jimmy Song, viib teid sügaval
 
 Nautige reisi!
 
+Märkus: Selle kursuse videod on saadaval ainult inglise keeles.
 
 +++
 
@@ -92,7 +93,7 @@ Nagu iga Plan ₿ Academy kursuse puhul, sisaldab viimane osa hindamist, mille e
 ### Bitcoin Programmeerimise alused: Põhilised matemaatilised struktuurid
 
 
-See kursus koondab Bitcoin krüptograafiasüsteemide aluseks oleva olulise matemaatika väga praktiliseks töövõtteks. Kontseptsioone selgitatakse, näidetega demonstreeritakse ja seejärel rakendatakse Jupyter Notebookis. Juhtidee on lihtne: krüptograafilist primitiivi saab tõeliselt mõista alles siis, kui see on kodeeritud. Kahepäevase ülesehituse jooksul testivad õpilased generate testvõrgu aadresse, koostavad ja edastavad tehinguid ning lõpuks suhtlevad võrguga ilma plokkide uurijateta. Kõik see eeldab kindlaid teadmisi piiratud väljadest ja elliptilistest kõveratest.
+See kursus koondab Bitcoin krüptograafiasüsteemide aluseks oleva olulise matemaatika väga praktiliseks töövõtteks. Kontseptsioone selgitatakse, näidetega demonstreeritakse ja seejärel rakendatakse Jupyter Notebookis. Juhtidee on lihtne: krüptograafilist primitiivi saab tõeliselt mõista alles siis, kui see on kodeeritud. Kahepäevase ülesehituse jooksul testivad õpilased generate testvõrgu aadresse, koostavad ja edastavad [tehinguid](https://planb.academy/resources/glossary/transaction-tx) ning lõpuks suhtlevad võrguga ilma plokkide uurijateta. Kõik see eeldab kindlaid teadmisi piiratud väljadest ja elliptilistest kõveratest.
 
 
 ### Lõplikud väljad: Krüptograafia aritmeetiline mootor
@@ -103,7 +104,7 @@ Lõplik väli F(p) on aritmeetiline süsteem, mis on defineeritud algarvuga p ja
 
 #### Multiplikatiivne käitumine
 
-Kui korrutada mis tahes nullist erinevat elementi k kõigi primaarvälja elementidega, saadakse selle välja permutatsioon. See omadus tagab ühetaolisuse ja hoiab ära struktuurilised nõrkused, mistõttu on priimusväljad ideaalsed turvaliseks võtmete genereerimiseks ja digitaalseks allkirjastamiseks.
+Kui korrutada mis tahes nullist erinevat elementi k kõigi primaarvälja elementidega, saadakse selle välja permutatsioon. See omadus tagab ühetaolisuse ja hoiab ära struktuurilised nõrkused, mistõttu on priimusväljad ideaalsed turvaliseks võtmete genereerimiseks ja [digitaalseks allkirjastamiseks](https://planb.academy/resources/glossary/digital-signature).
 
 
 #### Jagamine ja Fermat' väike teoreem
@@ -112,7 +113,7 @@ Jaotust rakendatakse korrutavate inversioonide abil. Fermat' väike teoreem väi
 
 n^(p-1) ≡ 1 (mod p),
 
-nii et pöördväärtus on n^(p-2). Python toetab seda otse `pow(n, -1, p)` abil. Need operatsioonid esinevad pidevalt ECDSA ja Bitcoin aluseks olevates krüptograafilistes rutiinides.
+nii et pöördväärtus on n^(p-2). Python toetab seda otse `pow(n, -1, p)` abil. Need operatsioonid esinevad pidevalt [ECDSA](https://planb.academy/resources/glossary/ecdsa) ja Bitcoin aluseks olevates krüptograafilistes rutiinides.
 
 
 ### Elliptilised kõverad: Mitte-lineaarsed struktuurid avaliku võtme turvalisuse tagamiseks
@@ -138,7 +139,7 @@ Lõplikud väljad pakuvad deterministlikku, inverteeritavat aritmeetikat; ellipt
 ![lecture](https://www.youtube.com/watch?v=xOXdKuF3UFw)
 
 
-Selles peatükis tutvustatakse piiratud väljadel defineeritud elliptilisi kõveraid ja selgitatakse, miks need moodustavad Bitcoin krüptograafia matemaatilise selgroo. Kui reaalarvude kohal olevad elliptilised kõverad tunduvad siledad ja pidevad, siis samade võrrandite rakendamine lõpliku välja kohal tekitab diskreetse, hajutatud punktide kogumi. Vaatamata visuaalsele erinevusele käituvad kõik punktide liitmisvalemid, kalded ja algebralised reeglid täpselt samamoodi - ainult aritmeetika muutub modulaararitmikaks. Bitcoin kasutab kõverat y² = x³ + 7 (secp256k1), mis säilitab sümmeetria ja mittelineaarsuse, mis on oluline krüptograafilise turvalisuse jaoks.
+Selles peatükis tutvustatakse piiratud väljadel defineeritud elliptilisi kõveraid ja selgitatakse, miks need moodustavad Bitcoin [krüptograafia](https://planb.academy/resources/glossary/cryptography) matemaatilise selgroo. Kui reaalarvude kohal olevad elliptilised kõverad tunduvad siledad ja pidevad, siis samade võrrandite rakendamine lõpliku välja kohal tekitab diskreetse, hajutatud punktide kogumi. Vaatamata visuaalsele erinevusele käituvad kõik punktide liitmisvalemid, kalded ja algebralised reeglid täpselt samamoodi - ainult aritmeetika muutub modulaararitmikaks. Bitcoin kasutab kõverat y² = x³ + 7 (secp256k1), mis säilitab sümmeetria ja mittelineaarsuse, mis on oluline krüptograafilise turvalisuse jaoks.
 
 
 ### Punktide kontrollimine ja lõpliku välja rakendamine
@@ -155,7 +156,7 @@ Elliptilise kõvera punktid moodustavad matemaatilise rühma liitmise korral. Se
 ### Tsüklilised rühmad ja diskreetse logaritmi probleem
 
 
-Generaatorpunkti G valimine kõveral võimaldab meil generate tsüklilist rühma: G, 2G, 3G, ..., nG = 0. Punktid tunduvad mittelineaarsed ja ettearvamatud, isegi kui neid genereeritakse järjestikku. See ettearvamatus loob aluse diskreetse logaritmi probleemile: P = sG arvutamine on lihtne, kuid s määramine P-st on suurte rühmade puhul arvutuslikult teostamatu. See ühesuunaline funktsioon on see, mis teeb avaliku võtme krüptograafia turvaliseks. Skalarid (privaatsed võtmed) kirjutatakse väiketähtedega, punktid (avalikud võtmed) suurtähtedega.
+Generaatorpunkti G valimine kõveral võimaldab meil generate tsüklilist rühma: G, 2G, 3G, ..., nG = 0. Punktid tunduvad mittelineaarsed ja ettearvamatud, isegi kui neid genereeritakse järjestikku. See ettearvamatus loob aluse diskreetse logaritmi probleemile: P = sG arvutamine on lihtne, kuid s määramine P-st on suurte rühmade puhul arvutuslikult teostamatu. See ühesuunaline funktsioon on see, mis teeb avaliku võtme krüptograafia turvaliseks. Skalarid ([privaatsed võtmed](https://planb.academy/resources/glossary/private-key)) kirjutatakse väiketähtedega, punktid ([avalikud võtmed](https://planb.academy/resources/glossary/public-key)) suurtähtedega.
 
 
 #### Tõhus skemaatiline korrutamine
@@ -178,7 +179,7 @@ Privaatne võti on juhuslik skalaar s; avalik võti on P = sG. Kuna diskreetse l
 #### Bitcoin Address Loomine
 
 
-Bitcoin aadressid on avalike võtmete hashid, mitte toorvõtmed ise. generate aadressi saamiseks tuleb avalik võti SEC-vormingus järjestada, arvutada hash160 (SHA-256, seejärel RIPEMD-160), lisada võrgu eesliide (0x00 mainnet puhul, 0x6F testneti puhul), arvutada kontrollsumma, kasutades kahekordset SHA-256, lisada esimesed neli kontrollsumma baiti ja kodeerida tulemus Base58 abil. See kodeerimine eemaldab mitmetähelised märgid ja sisaldab kontrollsummat, et vältida transkriptsioonivigu. Mitmeastmeline torujuhtmemehhanism peidab avaliku võtme kuni kulutamiseni, lisab võrgu identifitseerimise ja tagab inimloetavad, veakindlad aadressid.
+Bitcoin aadressid on avalike võtmete hashid, mitte toorvõtmed ise. generate aadressi saamiseks tuleb avalik võti SEC-vormingus järjestada, arvutada hash160 ([SHA-256](https://planb.academy/resources/glossary/sha256), seejärel RIPEMD-160), lisada võrgu eesliide (0x00 mainnet puhul, 0x6F testneti puhul), arvutada kontrollsumma, kasutades kahekordset SHA-256, lisada esimesed neli kontrollsumma baiti ja kodeerida tulemus Base58 abil. See kodeerimine eemaldab mitmetähelised märgid ja sisaldab kontrollsummat, et vältida transkriptsioonivigu. Mitmeastmeline torujuhtmemehhanism peidab avaliku võtme kuni kulutamiseni, lisab võrgu identifitseerimise ja tagab inimloetavad, veakindlad aadressid.
 
 
 # Bitcoin tehingu sisemine toimimine
@@ -212,13 +213,13 @@ Bitcoin kodeerib ECDSA allkirjad DER-vormingus:
 - 0x02 + pikkus + S baiti
 
 
-See lisab lisakulu, laiendades 64 baidi pikkust allkirja ~71-72 baidini. Taproot kõrvaldab selle ebatõhususe, võttes kasutusele fikseeritud suurusega Schnorr-allkirjad.
+See lisab lisakulu, laiendades 64 baidi pikkust allkirja ~71-72 baidini. [Taproot](https://planb.academy/resources/glossary/taproot) kõrvaldab selle ebatõhususe, võttes kasutusele fikseeritud suurusega [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol)-allkirjad.
 
 
 ### Allakirjutamiskohustused ja allkirjastamisprotsess
 
 
-ECDSA allkirjad tuginevad kohustuste võrrandile: UG + VP = KG. Allakirjutaja valib nullist erinevad väärtused U ja V ning juhusliku mittekoodi K, mis tõestab, et ta tunneb eravõti, ilma et ta seda avalikustaks. Sõnum hashitakse Z-sse, genereeritakse juhuslik K, R on KG x-koordinaat ja S = (Z + RE)/K. Allkiri on paar (R, S). Turvalisus sõltub olulisel määral unikaalse, ettearvamatu K kasutamisest - kui K on korduvkasutatav või lekkinud, on privaatne võti ohus. Kaasaegsed rakendused kasutavad deterministlikku K genereerimist (RFC 6979), et vältida RNG tõrkeid.
+ECDSA allkirjad tuginevad kohustuste võrrandile: UG + VP = KG. Allakirjutaja valib nullist erinevad väärtused U ja V ning juhusliku [mittekoodi](https://planb.academy/resources/glossary/nonce) K, mis tõestab, et ta tunneb eravõti, ilma et ta seda avalikustaks. Sõnum hashitakse Z-sse, genereeritakse juhuslik K, R on KG x-koordinaat ja S = (Z + RE)/K. Allkiri on paar (R, S). Turvalisus sõltub olulisel määral unikaalse, ettearvamatu K kasutamisest - kui K on korduvkasutatav või lekkinud, on privaatne võti ohus. Kaasaegsed rakendused kasutavad deterministlikku K genereerimist (RFC 6979), et vältida RNG tõrkeid.
 
 
 #### Allkirja kontrollimine
@@ -245,7 +246,7 @@ Bitcoin tehing koosneb järgmistest osadest:
 - locktime (4 baiti)
 
 
-Sisendid viitavad eelnevatele UTXOdele nende tehingu hashi ja väljundindeksi järgi ning sisaldavad lukustamisskripti (scriptSig) ja järjekorranumbrit, mida kasutatakse ajalukkude või RBF puhul. Väljundid määravad summa (8 baiti) ja lukustamisskripti (scriptPubKey), määratledes kulutustingimused. Bitcoin aadressid on nende skriptide esitused.
+Sisendid viitavad eelnevatele [UTXOdele](https://planb.academy/resources/glossary/utxo) nende tehingu hashi ja väljundindeksi järgi ning sisaldavad lukustamisskripti (scriptSig) ja järjekorranumbrit, mida kasutatakse ajalukkude või RBF puhul. Väljundid määravad summa (8 baiti) ja lukustamisskripti (scriptPubKey), määratledes kulutustingimused. Bitcoin aadressid on nende [skriptide](https://planb.academy/resources/glossary/script) esitused.
 
 
 #### Mudel UTXO
@@ -275,7 +276,7 @@ Tasud on kaudsed:
 
 tasu = summa(sisendväärtused) - summa(väljundväärtused).
 
-Iga määramata väärtus muutub tasuks, mistõttu on oluline õige muudatuste väljundi konstrueerimine. Enne SegWit lubasid allkirjad muudetavust - S-i muutmine N-S-ks andis uue kehtiva tehingu erineva ID-ga. Bitcoin kehtestab nüüd madala S-i reegli ja SegWit isoleerib allkirjad txid arvutustest, muutes ID-d stabiilseks ja võimaldades teise tasandi protokollid, nagu Lightning.
+Iga määramata väärtus muutub tasuks, mistõttu on oluline õige muudatuste väljundi konstrueerimine. Enne [SegWit](https://planb.academy/resources/glossary/segwit) lubasid allkirjad muudetavust - S-i muutmine N-S-ks andis uue kehtiva tehingu erineva ID-ga. Bitcoin kehtestab nüüd madala S-i reegli ja SegWit isoleerib allkirjad txid arvutustest, muutes ID-d stabiilseks ja võimaldades teise tasandi protokollid, nagu [Lightning](https://planb.academy/resources/glossary/lightning-network).
 
 
 ## Bitcoin Skript ja tehingu valideerimine
@@ -292,7 +293,7 @@ Bitcoin Script on väike, korstnapõhine nutikas lepingukeel, mis määratleb, k
 ### Skriptioperatsioonid ja täitmise mudel
 
 
-Skript on andmeelementide ja opkoodide jada. Andmete tõuked (allkirjad, avalikud võtmed, hashid) paigutatakse virna, samas kui opkoodid, mis algavad sõnaga `OP_`, muudavad virna. Pärast täitmist peab virna ülemine element olema nullist erinev, et saavutada edu. Näited: `OP_DUP` dubleerib ülemist elementi, `OP_HASH160` rakendab SHA256, seejärel RIPEMD160, ja `OP_CHECKSIG` kontrollib allkirja tehingu sighash'i ja avaliku võtme suhtes, lükates 1 kui see on kehtiv, 0 kui see on kehtetu. Parsimisreeglid eristavad toorandmeid (pikkuse-eesmärgiga) ja opkoode (otsitakse baitide väärtuse järgi) ning väike virtuaalmasin täidab neid deterministlikult igas sõlmes.
+Skript on andmeelementide ja opkoodide jada. Andmete tõuked (allkirjad, avalikud võtmed, hashid) paigutatakse virna, samas kui opkoodid, mis algavad sõnaga `OP_`, muudavad virna. Pärast täitmist peab virna ülemine element olema nullist erinev, et saavutada edu. Näited: `OP_DUP` dubleerib ülemist elementi, `OP_HASH160` rakendab SHA256, seejärel RIPEMD160, ja `OP_CHECKSIG` kontrollib allkirja tehingu sighash'i ja avaliku võtme suhtes, lükates 1 kui see on kehtiv, 0 kui see on kehtetu. Parsimisreeglid eristavad toorandmeid (pikkuse-eesmärgiga) ja opkoode (otsitakse baitide väärtuse järgi) ning väike virtuaalmasin täidab neid deterministlikult igas [sõlmes](https://planb.academy/resources/glossary/node).
 
 
 ### P2PK ja P2PKH: põhilised maksemustrid
@@ -329,7 +330,7 @@ Kuna iga päranditehingu sisend nõuab omaette sighash-arvutusi kõiki sisendeid
 ### Skripti mõistatused ja turvalisuse õppetunnid
 
 
-Skript võib väljendada palju enamat kui lihtsalt "üks allkiri avab need mündid" Skripti mõistatused demonstreerivad seda, kodeerides suvalisi tingimusi - matemaatilisi probleeme, hash-ettevalmistamise väljakutseid või isegi kokkupõrkepakkumisi -, mille puhul igaüks, kes esitab õiged andmed, saab mündid kulutada. Väljundid, mis tuginevad ainult avalikele andmetele (ilma allkirjadeta), on aga haavatavad kaevandajate front-runningule: kui kehtiv lahendus ilmub mempoolis, võib iga kaevandaja selle kopeerida ja väljamakse endale ümber suunata.
+Skript võib väljendada palju enamat kui lihtsalt "üks allkiri avab need mündid" Skripti mõistatused demonstreerivad seda, kodeerides suvalisi tingimusi - matemaatilisi probleeme, hash-ettevalmistamise väljakutseid või isegi kokkupõrkepakkumisi -, mille puhul igaüks, kes esitab õiged andmed, saab mündid kulutada. Väljundid, mis tuginevad ainult avalikele andmetele (ilma allkirjadeta), on aga haavatavad kaevandajate front-runningule: kui kehtiv lahendus ilmub [mempoolis](https://planb.academy/resources/glossary/mempool), võib iga [kaevandaja](https://planb.academy/resources/glossary/miner) selle kopeerida ja väljamakse endale ümber suunata.
 
 
 Praktiline õppetund on see, et reaalsed lepingud sisaldavad peaaegu alati allkirja kontrolli, isegi kui need sisaldavad keerukamat loogikat, nagu multisig, timelokid või hashlockid. Allkirjad seovad lahenduse konkreetse osapoolega, säilitades stiimulid ja takistades teisi väljamakseid varastamast. Script'i korstnamudeli, standardmustrite ja peente lõksude mõistmine on oluline turvaliste Bitcoin nutilepingute kavandamisel ja arutlusel selle üle, kuidas tehinguid võrgus tegelikult valideeritakse.
@@ -402,13 +403,13 @@ P2SH parandab privaatsust, kuna varjab kulutustingimused kuni esimese kulutamise
 ![lecture](https://www.youtube.com/watch?v=lJYSM1iLWQU)
 
 
-Bitcoin blokeerib rühmatehingud ja kindlustab need proof of work abil. Iga plokk sisaldab 80 baidi pikkust päistekirja ja tehingute nimekirja. Hoolimata kehtiva ploki tootmise suurest energiakulust on selle verifitseerimine odav: kõigi ~900k päiste salvestamiseks on vaja ainult ~72 MB, mis võimaldab isegi väikestel seadmetel ahela proof of work tõhusalt verifitseerida.
+Bitcoin blokeerib rühmatehingud ja kindlustab need [proof of work](https://planb.academy/resources/glossary/proof-of-work) abil. Iga [plokk](https://planb.academy/resources/glossary/block) sisaldab 80 baidi pikkust [päistekirja](https://planb.academy/resources/glossary/block-header) ja tehingute nimekirja. Hoolimata kehtiva ploki tootmise suurest energiakulust on selle verifitseerimine odav: kõigi ~900k päiste salvestamiseks on vaja ainult ~72 MB, mis võimaldab isegi väikestel seadmetel ahela proof of work tõhusalt verifitseerida.
 
 
 ### Coinbase'i tehingud ja plokkide preemiad
 
 
-Iga plokk algab täpselt ühe Coinbase'i tehinguga - see on ainus viis, kuidas uued bitcoinid ringlusse jõuavad. Sellel on nullitud prev-tx hash ja indeks 0xffffffffff, mis identifitseerib selle üheselt. Toetus algas 50 BTC-st ja väheneb poole võrra iga 210 000 ploki järel (50, 25, 12,5, 6,25, 3,125, ...). Kaevandajad sisaldavad ka tehingutasusid. Kuna 4 baidi suurune nonce on kaasaegsete ASICide jaoks liiga väike, muudavad kaevandajad Coinbase'i tehingu andmeid, et muuta Merkle'i juurt ja luua täiendavat otsinguruumi. BIP34 nõuab blokikõrguse manustamist Coinbase'i skriptSig, et tagada iga Coinbase'i txid ainulaadsus.
+Iga plokk algab täpselt ühe [Coinbase'i tehinguga](https://planb.academy/resources/glossary/coinbase-transaction) - see on ainus viis, kuidas uued bitcoinid ringlusse jõuavad. Sellel on nullitud prev-tx hash ja indeks 0xffffffffff, mis identifitseerib selle üheselt. Toetus algas 50 BTC-st ja väheneb poole võrra iga 210 000 ploki järel (50, 25, 12,5, 6,25, 3,125, ...). Kaevandajad sisaldavad ka tehingutasusid. Kuna 4 baidi suurune nonce on kaasaegsete ASICide jaoks liiga väike, muudavad kaevandajad Coinbase'i tehingu andmeid, et muuta [Merkle'i](https://planb.academy/resources/glossary/merkle-tree) juurt ja luua täiendavat otsinguruumi. [BIP34](https://planb.academy/resources/glossary/bip) nõuab blokikõrguse manustamist Coinbase'i skriptSig, et tagada iga Coinbase'i txid ainulaadsus.
 
 
 ### Ploki päise väljad ja Soft Fork signaalimine
@@ -425,7 +426,7 @@ Iga plokk algab täpselt ühe Coinbase'i tehinguga - see on ainus viis, kuidas u
 - nonce (4 baiti)
 
 
-Versiooninumbrid arenesid BIP9 kaudu bitivälja signalisatsioonisüsteemiks, mis võimaldab kaevandajatel koordineerida soft-fork valmisolekut. Ajatempel on 32-bitine Unixi ajaväärtus ja vajab uuendamist umbes aastal 2106.
+Versiooninumbrid arenesid BIP9 kaudu bitivälja signalisatsioonisüsteemiks, mis võimaldab kaevandajatel koordineerida [soft-fork](https://planb.academy/resources/glossary/soft-fork) valmisolekut. Ajatempel on 32-bitine Unixi ajaväärtus ja vajab uuendamist umbes aastal 2106.
 
 
 #### Bittide väli ja sihtmärgid
@@ -436,7 +437,7 @@ Bitide väli kodeerib eesmärgi kompaktsel kujul: eesmärk = koefitsient × 256^
 ### Raskused, valideerimine ja kohandused
 
 
-Raskus on määratletud kui madalaim_eesmärk / praegune_eesmärk, mis näitab, kui palju raskem on mining täna võrreldes kõige lihtsama võimaliku raskusastmega. Valideerimiseks on vaja ainult võrrelda pealkirja hash'i sihtmärgiga - see on mining suhtes äärmiselt odav.
+[Raskus](https://planb.academy/resources/glossary/difficulty) on määratletud kui madalaim_eesmärk / praegune_eesmärk, mis näitab, kui palju raskem on mining täna võrreldes kõige lihtsama võimaliku raskusastmega. Valideerimiseks on vaja ainult võrrelda pealkirja hash'i sihtmärgiga - see on mining suhtes äärmiselt odav.
 
 
 Iga 2016 ploki järel kohandab Bitcoin raskusastet, et saavutada ~10-minutiliste plokkide intervallid. Kohandamisel võrreldakse eelmise 2016. aasta plokkide tegelikku aega eeldatava kahe nädalaga. Piirangud piiravad kohandusi neljakordaja piires. Suuremad reaalsed sündmused - näiteks Hiina mining keelustamine - näitasid selle mehhanismi vastupidavust, kui hash-kiirus langes järsult ja raskusastet kohandati selle kompenseerimiseks allapoole.
@@ -459,13 +460,13 @@ Subsiidium kõrgusel h arvutatakse järgmiselt: subsiidium = 5_000_000_000 >> (h
 ### Bitcoin võrguarhitektuur
 
 
-Bitcoin peer-to-peer-võrk toimib detsentraliseeritud kuulujuttude süsteemina, kus sõlmed edastavad tehinguid ja plokke üksteist usaldamata. Uued sõlmed käivituvad, võttes ühendust tuumarendajate poolt hallatavate kõvakodeeritud DNS-seemnetega. Need DNS-seemned tagastavad aktiivsete eakaaslaste IP-aadressid, mis võimaldab sõlmedel võrgustikku avastada ja seejärel taotleda getaddr kaudu täiendavaid eakaaslasi. Võrgustik ei ole tahtlikult konsensuskriitiline, nii et rakendused võivad erineda, kui konsensuse reeglid jäävad muutumatuks.
+Bitcoin [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p)-võrk toimib detsentraliseeritud kuulujuttude süsteemina, kus sõlmed edastavad tehinguid ja plokke üksteist usaldamata. Uued sõlmed käivituvad, võttes ühendust tuumarendajate poolt hallatavate kõvakodeeritud DNS-seemnetega. Need DNS-seemned tagastavad aktiivsete eakaaslaste IP-aadressid, mis võimaldab sõlmedel võrgustikku avastada ja seejärel taotleda getaddr kaudu täiendavaid eakaaslasi. Võrgustik ei ole tahtlikult konsensuskriitiline, nii et rakendused võivad erineda, kui [konsensuse](https://planb.academy/resources/glossary/consensus) reeglid jäävad muutumatuks.
 
 
 ### Sõnumi struktuur ja käepigistus
 
 
-Kõik Bitcoin P2P sõnumid kasutavad fikseeritud ümbrikku: 4-baidine maagiline väärtus (F9BEB4D9 mainnet puhul), 12baidine ASCII käsk, 4-baidine little-endian kasuliku koormuse pikkus, 4-baidine kontrollsumma (esimesed 4 baiti hash256-st) ja kasuliku koormuse. Tavalised käsud on version, verack, inv, getdata, tx, block, getheaders, headers, headers, ping ja pong.
+Kõik Bitcoin P2P sõnumid kasutavad fikseeritud ümbrikku: 4-baidine maagiline väärtus (F9BEB4D9 mainnet puhul), 12baidine ASCII käsk, 4-baidine little-endian kasuliku koormuse pikkus, 4-baidine kontrollsumma (esimesed 4 baiti [hash](https://planb.academy/resources/glossary/hash-function)256-st) ja kasuliku koormuse. Tavalised käsud on version, verack, inv, getdata, tx, block, getheaders, headers, headers, ping ja pong.
 
 
 Kätevahetus algab, kui ühendav sõlm saadab versioonisõnumi. Vastuvõtja vastab verackiga ja oma versiooniga. Kui mõlemad pooled vahetavad need kaks sõnumit, on ühendus aktiivne ja sõlmed võivad alustada inventuuri ja andmete edastamist.
@@ -479,7 +480,7 @@ Bitcoin salvestab iga ploki päisesse ühe 32baidise Merkle'i juure, mis on kohu
 
 #### Merkle Proofs ja SPV
 
-Merkle-tõendid võimaldavad kontrollida, et tehing sisaldub plokis ilma kogu plokki alla laadimata. Tõend koosneb õdedest hashidest piki teed juureni. Kerge SPV-kliendid salvestavad ainult plokkide päised ja nõuavad neid tõendeid täis sõlmedelt. Kuna Merkle'i puu kasvab logaritmiliselt, nõuab tuhandete tehingutega plokki kuulumise tõestamine vaid mõnisada baiti.
+Merkle-tõendid võimaldavad kontrollida, et tehing sisaldub plokis ilma kogu plokki alla laadimata. Tõend koosneb õdedest hashidest piki teed juureni. Kerge SPV-kliendid salvestavad ainult plokkide päised ja nõuavad neid tõendeid [täis sõlmedelt](https://planb.academy/resources/glossary/full-node). Kuna Merkle'i puu kasvab logaritmiliselt, nõuab tuhandete tehingutega plokki kuulumise tõestamine vaid mõnisada baiti.
 
 
 Taproot laiendab seda kontseptsiooni, sidudes kulutuste tingimused Merklized script tree (MAST), paljastades ainult teostatud haru koos Merkle-tõendiga. See parandab nii tõhusust kui ka privaatsust.
@@ -515,7 +516,7 @@ See sessioon ühendab P2P täiustatud võrguühendust segregatsioonitunnistajaga
 ### Blokipõhine tehinguotsing ja privaatsus
 
 
-Rahakotid peavad tuvastama sissetulevad maksed, skaneerides plokke nende scriptPubKey-le vastavate väljundite jaoks. Tervete plokkide otsimine kaitseb privaatsust paremini kui üksikute tehingute pärimine, mis annab tugevaid signaale kasutaja aktiivsuse kohta. Isegi plokkide päringud võivad lekkida teavet väikese mahuga ahelate kohta, mistõttu on kompaktsed plokkide filtrid (BIP158) olulised eraelu puutumatust säilitavate kergklientide jaoks. Filtrid võivad anda valepositiivseid, kuid mitte kunagi valenegatiivseid tulemusi, võimaldades klientidel alla laadida ainult potentsiaalselt asjakohaseid plokke, ilma et nad paljastaksid konkreetseid aadresse.
+[Rahakotid](https://planb.academy/resources/glossary/wallet) peavad tuvastama sissetulevad maksed, skaneerides plokke nende scriptPubKey-le vastavate väljundite jaoks. Tervete plokkide otsimine kaitseb privaatsust paremini kui üksikute tehingute pärimine, mis annab tugevaid signaale kasutaja aktiivsuse kohta. Isegi plokkide päringud võivad lekkida teavet väikese mahuga ahelate kohta, mistõttu on kompaktsed plokkide filtrid (BIP158) olulised eraelu puutumatust säilitavate kergklientide jaoks. Filtrid võivad anda valepositiivseid, kuid mitte kunagi valenegatiivseid tulemusi, võimaldades klientidel alla laadida ainult potentsiaalselt asjakohaseid plokke, ilma et nad paljastaksid konkreetseid aadresse.
 
 
 ### Trustless Võrgu koostoime

@@ -1,0 +1,12 @@
+question: Ni igiki kiba ku gashimwe ka Mining mu muhora wa Bitcoin hafi inyuma y’imyaka ine?
+answer: Ica mu gikorwa ca Halving
+wrong_answers:
+  - Kigwiza kabiri
+  - Kigwiza gatatu
+  - Biguma ari uko biri
+explanation: |
+  Agashimwe ka mining mu muhora wa Bitcoin gaca muri Halving inyuma 
+  ya block 210.000, ugenekereje nka nyuma y’imyaka ine. Uko guhabwa udushimwe 
+  bikora nk’inkomezi zikomeye zo guhimiriza aba miners kugira uruhara 
+  mu gikorwa ca mining naho nyene gitwara inguvu.
+reviewed: true

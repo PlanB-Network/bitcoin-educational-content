@@ -96,7 +96,7 @@ Il Bitcoin è prima di tutto una valuta, ma sapete effettivamente come vengono r
 
 ### UTXO su Bitcoin: cosa sono?
 
-Il protocollo Bitcoin si basa sul modello UTXO, che sta per "Unspent Transaction Output".
+Il protocollo Bitcoin si basa sul modello [UTXO](https://planb.academy/resources/glossary/utxo), che sta per "Unspent Transaction Output".
 
 Questo modello differisce profondamente dai sistemi bancari tradizionali, che si basano su un meccanismo di conti e saldi per tracciare i flussi finanziari. Nel sistema bancario, infatti, i saldi individuali sono mantenuti in conti collegati a un'identità. Per esempio, quando comprate una baguette da un panettiere, la vostra banca si limita ad addebitare l'importo dell'acquisto sul vostro conto, riducendo il vostro saldo, mentre il conto del panettiere viene accreditato con lo stesso importo, aumentando il suo saldo. In questo sistema, non c'è alcun legame tra il denaro che entra nel vostro conto e quello che ne esce, a parte i registri delle transazioni.
 
@@ -104,15 +104,15 @@ Questo modello differisce profondamente dai sistemi bancari tradizionali, che si
 
 Il Bitcoin funziona in modo diverso. Il concetto di conto non esiste e le unità monetarie non sono gestite attraverso i saldi, ma attraverso gli UTXO. Un UTXO rappresenta una quantità specifica di bitcoin non ancora spesi, formando così un "pezzo di bitcoin", che può essere grande o piccolo. Ad esempio, un UTXO può valere `500 BTC` o semplicemente `700 SATS`.
 
-**Ricorda:** Il satoshi, spesso abbreviato in sat, è l'unità più piccola di Bitcoin, paragonabile al centesimo di dollaro nelle valute fiat.
+**Ricorda:** Il [satoshi](https://planb.academy/resources/glossary/satoshi-sat), spesso abbreviato in sat, è l'unità più piccola di Bitcoin, paragonabile al centesimo di dollaro nelle valute [fiat](https://planb.academy/resources/glossary/fiat).
 
 ```plaintext
 1 BTC = 100 000 000 SATS
 ```
 
-Teoricamente, un UTXO può rappresentare qualsiasi valore in bitcoin, da un sat a un massimo teorico di circa 21 milioni di BTC. Tuttavia, è logicamente impossibile possedere tutti i 21 milioni di bitcoin, ed esiste una soglia economica inferiore chiamata "polvere", al di sotto della quale un UTXO è considerato economicamente non conveniente da spendere.
+Teoricamente, un UTXO può rappresentare qualsiasi valore in bitcoin, da un sat a un massimo teorico di circa 21 milioni di BTC. Tuttavia, è logicamente impossibile possedere tutti i 21 milioni di bitcoin, ed esiste una soglia economica inferiore chiamata "[polvere](https://planb.academy/resources/glossary/dust)", al di sotto della quale un UTXO è considerato economicamente non conveniente da spendere.
 
-**Lo sapevi?** Il più grande UTXO mai creato su Bitcoin aveva un valore di 500.000 BTC. È stato creato dalla piattaforma MtGox durante un'operazione di consolidamento nel novembre 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
+**Lo sapevi?** Il più grande UTXO mai creato su Bitcoin aveva un valore di 500.000 BTC. È stato creato dalla piattaforma MtGox durante un'operazione di [consolidamento](https://planb.academy/resources/glossary/consolidation) nel novembre 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
 ### UTXO e condizioni di spesa
 
@@ -120,7 +120,7 @@ Gli UTXO sono gli strumenti di scambio di Bitcoin. Ogni transazione comporta il 
 
 ![BTC204](assets/it/007.webp)
 
-Tutti gli UTXO sono protetti da script che definiscono le condizioni in cui possono essere spesi. Per consumare un UTXO, un utente deve dimostrare alla rete di soddisfare le condizioni stabilite dallo script che lo protegge. In genere, gli UTXO sono protetti da una chiave pubblica (o da un indirizzo di ricezione che rappresenta tale chiave pubblica). Per spendere un UTXO associato a questa chiave pubblica, l'utente deve dimostrare di possedere la chiave privata corrispondente, fornendo una firma digitale realizzata con questa chiave. Per questo si dice che il portafoglio Bitcoin non contiene bitcoin, ma custodisce le chiavi private, che a loro volta danno accesso agli UTXO e, per estensione, ai bitcoin che rappresentano.
+Tutti gli UTXO sono protetti da [script](https://planb.academy/resources/glossary/script) che definiscono le condizioni in cui possono essere spesi. Per consumare un UTXO, un utente deve dimostrare alla rete di soddisfare le condizioni stabilite dallo script che lo protegge. In genere, gli UTXO sono protetti da una [chiave pubblica](https://planb.academy/resources/glossary/public-key) (o da un [indirizzo di ricezione](https://planb.academy/resources/glossary/receiving-address) che rappresenta tale chiave pubblica). Per spendere un UTXO associato a questa chiave pubblica, l'utente deve dimostrare di possedere la [chiave privata](https://planb.academy/resources/glossary/private-key) corrispondente, fornendo una [firma digitale](https://planb.academy/resources/glossary/digital-signature) realizzata con questa chiave. Per questo si dice che il [portafoglio](https://planb.academy/resources/glossary/wallet) Bitcoin non contiene bitcoin, ma custodisce le chiavi private, che a loro volta danno accesso agli UTXO e, per estensione, ai bitcoin che rappresentano.
 
 ![BTC204](assets/it/008.webp)
 
@@ -146,15 +146,15 @@ Il saldo totale del vostro portafoglio sarà di `17 BTC`.
 
 ### Ingressi e uscite delle transazioni
 
-Una transazione Bitcoin è un'operazione registrata sulla blockchain che trasferisce la proprietà dei bitcoin da una persona a un'altra. Più precisamente, poiché siamo in un modello UTXO e non esistono conti, la transazione soddisfa le condizioni di spesa che assicuravano uno o più UTXO, li consuma e crea equivalentemente nuovi UTXO con nuove condizioni di spesa. In breve, una transazione sposta i bitcoin da uno script soddisfatto a un nuovo script progettato per garantirli.
+Una transazione Bitcoin è un'operazione registrata sulla [blockchain](https://planb.academy/resources/glossary/blockchain) che trasferisce la proprietà dei bitcoin da una persona a un'altra. Più precisamente, poiché siamo in un modello UTXO e non esistono conti, la transazione soddisfa le condizioni di spesa che assicuravano uno o più UTXO, li consuma e crea equivalentemente nuovi UTXO con nuove condizioni di spesa. In breve, una transazione sposta i bitcoin da uno script soddisfatto a un nuovo script progettato per garantirli.
 
 ![BTC204](assets/it/010.webp)
 
-Ogni transazione Bitcoin è quindi composta da uno o più ingressi e da una o più uscite. Gli input sono UTXO consumati dalla transazione per generare output. Gli output sono nuovi UTXO che possono essere utilizzati come input per transazioni future.
+Ogni transazione Bitcoin è quindi composta da uno o più [ingressi](https://planb.academy/resources/glossary/input) e da una o più [uscite](https://planb.academy/resources/glossary/output). Gli input sono UTXO consumati dalla transazione per generare output. Gli output sono nuovi UTXO che possono essere utilizzati come input per transazioni future.
 
 ![BTC204](assets/it/011.webp)
 
-**Lo sapevi?** In teoria, una transazione bitcoin potrebbe avere un numero infinito di ingressi e uscite. L'unico limite è la dimensione massima del blocco.
+**Lo sapevi?** In teoria, una transazione bitcoin potrebbe avere un numero infinito di ingressi e uscite. L'unico limite è la dimensione massima del [blocco](https://planb.academy/resources/glossary/block).
 
 Ogni input in una transazione Bitcoin si riferisce a un precedente UTXO non speso. Per utilizzare un UTXO come input, il suo titolare deve dimostrare di esserne il legittimo proprietario convalidando la scrittura associata, cioè soddisfacendo la condizione di spesa imposta. In generale, ciò significa fornire una firma digitale prodotta con la chiave privata corrispondente alla chiave pubblica che ha garantito inizialmente questo UTXO. La scrittura consiste quindi nel verificare che la firma corrisponda alla chiave pubblica utilizzata al momento della ricezione dei fondi.
 
@@ -162,13 +162,13 @@ Ogni input in una transazione Bitcoin si riferisce a un precedente UTXO non spes
 
 Ogni uscita, a sua volta, specifica la quantità di bitcoin da trasferire e il destinatario. Quest'ultimo è definito da un nuovo script, che di solito blocca l'UTXO appena creato con un indirizzo di ricezione o una nuova chiave pubblica.
 
-Affinché una transazione sia considerata valida secondo le regole del consenso, il totale delle uscite deve essere inferiore o uguale al totale degli ingressi. In altre parole, la somma dei nuovi UTXO generati dalla transazione non deve superare la somma degli UTXO consumati come input. Questo principio è logico: se si hanno solo `500.000 SATS`, non si può fare un acquisto di `700.000 SATS`.
+Affinché una transazione sia considerata valida secondo le [regole del consenso](https://planb.academy/resources/glossary/consensus-rules), il totale delle uscite deve essere inferiore o uguale al totale degli ingressi. In altre parole, la somma dei nuovi UTXO generati dalla transazione non deve superare la somma degli UTXO consumati come input. Questo principio è logico: se si hanno solo `500.000 SATS`, non si può fare un acquisto di `700.000 SATS`.
 
 ### Scambio e fusione in una transazione Bitcoin
 
 L'azione di una transazione Bitcoin su UTXO può quindi essere paragonata alla rifusione di una moneta d'oro. Infatti, un UTXO non è divisibile, ma solo fusibile. Ciò significa che un utente non può semplicemente dividere un UTXO che rappresenta un certo importo in bitcoin in diversi UTXO più piccoli. Deve consumarlo interamente in una transazione per creare uno o più nuovi UTXO di valori arbitrari in uscita, che devono essere inferiori o uguali al valore iniziale.
 
-Il meccanismo è simile a quello di una moneta d'oro. Supponiamo di possedere una moneta da 2 once e di voler effettuare un pagamento di 1 oncia, supponendo che il venditore non possa dare il resto. Dovreste fondere la vostra moneta e fonderne due nuove da 1 oncia ciascuna.
+Il meccanismo è simile a quello di una moneta d'oro. Supponiamo di possedere una moneta da 2 once e di voler effettuare un pagamento di 1 oncia, supponendo che il venditore non possa dare il [resto](https://planb.academy/resources/glossary/change). Dovreste fondere la vostra moneta e fonderne due nuove da 1 oncia ciascuna.
 
 Il Bitcoin funziona in modo simile. Immaginiamo che Alice abbia un UTXO di `10.000 SATS` e desideri acquistare una baguette del costo di `4.000 SATS`. Alice effettuerà una transazione con 1 UTXO di `10.000 SATS` come input, che consumerà interamente, e 2 UTXO di `4.000 SATS` e `6.000 SATS` come output. L'UTXO di `4.000 SATS` sarà inviato al fornaio in pagamento della baguette, mentre l'UTXO di `6.000 SATS` tornerà ad Alice sotto forma di resto. Questo UTXO, che ritorna all'emittente originale della transazione, è noto come "scambio" nel gergo Bitcoin.
 
@@ -180,26 +180,26 @@ Immaginiamo ora che Alice non abbia un singolo UTXO da `10.000 SATS`, ma piuttos
 
 ### Commissioni di transazione
 
-Intuitivamente, si potrebbe pensare che i costi di transazione rappresentino anche il risultato di una transazione. Ma in realtà non è così. I costi di transazione rappresentano la differenza tra il totale degli input e il totale degli output. Ciò significa che, dopo aver utilizzato parte del valore degli input per coprire gli output desiderati in una transazione, una certa somma di input rimane inutilizzata. Questa somma residua costituisce i costi di transazione.
+Intuitivamente, si potrebbe pensare che i [costi di transazione](https://planb.academy/resources/glossary/transaction-fees) rappresentino anche il risultato di una transazione. Ma in realtà non è così. I costi di transazione rappresentano la differenza tra il totale degli input e il totale degli output. Ciò significa che, dopo aver utilizzato parte del valore degli input per coprire gli output desiderati in una transazione, una certa somma di input rimane inutilizzata. Questa somma residua costituisce i costi di transazione.
 
 ```plaintext
-Frais = total inputs - total outputs
+Commissioni = total inputs - total outputs
 ```
 
-Prendiamo l'esempio di Alice, che ha un UTXO di `10.000 SATS` e vuole comprare una baguette a `4.000 SATS`. Alice crea una transazione con il suo UTXO di `10.000 SATS` come input. Quindi genera un output di `4.000 SATS` per il fornaio per pagare la baguette. Per incoraggiare i minatori a integrare la sua transazione in un blocco, Alice assegna `200 SATS` in tasse. Crea quindi un secondo output, lo scambio, che le verrà restituito, pari a `5.800 SATS`.
+Prendiamo l'esempio di Alice, che ha un UTXO di `10.000 SATS` e vuole comprare una baguette a `4.000 SATS`. Alice crea una transazione con il suo UTXO di `10.000 SATS` come input. Quindi genera un output di `4.000 SATS` per il fornaio per pagare la baguette. Per incoraggiare i [minatori](https://planb.academy/resources/glossary/miner) a integrare la sua transazione in un blocco, Alice assegna `200 SATS` in tasse. Crea quindi un secondo output, lo scambio, che le verrà restituito, pari a `5.800 SATS`.
 
 ![BTC204](assets/it/015.webp)
 
 Applicando la formula della tassa, vediamo che rimangono effettivamente `200 SATS` per i minori:
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+Commissioni = total inputs - total outputs
+Commissioni = 10 000 - (4 000 + 5 800)
+Commissioni = 10 000 - 9 800
+Commissioni = 200
 ```
 
-Quando un minatore riesce a convalidare un blocco, è autorizzato a riscuotere queste commissioni per tutte le transazioni incluse nel suo blocco, tramite la cosiddetta transazione "coinbase".
+Quando un minatore riesce a convalidare un blocco, è autorizzato a riscuotere queste commissioni per tutte le transazioni incluse nel suo blocco, tramite la cosiddetta transazione "[coinbase](https://planb.academy/resources/glossary/coinbase-transaction)".
 
 ### Creare UTXO su Bitcoin
 
@@ -207,13 +207,13 @@ Se avete seguito con attenzione i paragrafi precedenti, saprete che gli UTXO pos
 
 La risposta è nella **transazione coinbase**.
 
-La coinbase è un tipo specifico di transazione Bitcoin, che è unica per ogni blocco ed è sempre la prima di queste. Permette al minatore che ha trovato una prova di lavoro valida di ricevere la ricompensa del blocco. Questa ricompensa è composta da due elementi: **block grant** e **transaction fee**, di cui si è parlato nella sezione precedente.
+La coinbase è un tipo specifico di transazione Bitcoin, che è unica per ogni blocco ed è sempre la prima di queste. Permette al minatore che ha trovato una [prova di lavoro](https://planb.academy/resources/glossary/proof-of-work) valida di ricevere la ricompensa del blocco. Questa ricompensa è composta da due elementi: **block grant** e **transaction fee**, di cui si è parlato nella sezione precedente.
 
 La transazione di coinbase è unica nel suo genere in quanto è l'unica in grado di creare bitcoin ex nihilo, senza la necessità di consumare input per generare output. Questi bitcoin creati ex novo sono quelli che potremmo definire "UTXO originali".
 
 ![BTC204](assets/it/016.webp)
 
-I bitcoin sovvenzionati in blocco sono nuovi BTC creati da zero, secondo un programma di emissione prestabilito nelle regole del consenso. La sovvenzione in blocchi viene dimezzata ogni 210.000 blocchi, cioè circa ogni quattro anni, in un processo noto come "dimezzamento". In origine, con ogni sovvenzione venivano creati 50 bitcoin, ma questo importo è gradualmente diminuito; attualmente, è di 3,125 bitcoin per blocco.
+I bitcoin sovvenzionati in blocco sono nuovi BTC creati da zero, secondo un [programma di emissione](https://planb.academy/resources/glossary/limite-demission) prestabilito nelle regole del consenso. La [sovvenzione in blocchi](https://planb.academy/resources/glossary/block-subsidy) viene dimezzata ogni 210.000 blocchi, cioè circa ogni quattro anni, in un processo noto come "[dimezzamento](https://planb.academy/resources/glossary/halving)". In origine, con ogni sovvenzione venivano creati 50 bitcoin, ma questo importo è gradualmente diminuito; attualmente, è di 3,125 bitcoin per blocco.
 
 Per quanto riguarda le commissioni di transazione, sebbene anch'esse rappresentino BTC creati ex novo, non devono superare la differenza tra gli input e gli output totali di tutte le transazioni in un blocco. Abbiamo visto in precedenza che queste commissioni rappresentano la parte di input che non viene utilizzata nelle transazioni in uscita. Questa parte è tecnicamente "persa" durante la transazione e il miner ha il diritto di ricreare questo valore sotto forma di uno o più nuovi UTXO. Si tratta di un trasferimento di valore tra l'emittente della transazione e il miner che la aggiunge alla blockchain.
 
@@ -223,7 +223,7 @@ Per quanto riguarda le commissioni di transazione, sebbene anch'esse rappresenti
 
 Innanzitutto, il modello UTXO influenza direttamente le commissioni delle transazioni di Bitcoin. Poiché la capacità di ogni blocco è limitata, i minatori favoriscono le transazioni che offrono le tariffe migliori in relazione allo spazio che occuperanno nel blocco. Infatti, più UTXO include una transazione nei suoi input e output, più è pesante e quindi richiede commissioni più elevate. Questo è uno dei motivi per cui spesso cerchiamo di ridurre il numero di UTXO nel nostro portafoglio, il che può anche influire sulla riservatezza, un argomento che affronteremo in dettaglio nella terza parte di questo corso.
 
-In secondo luogo, come indicato nelle sezioni precedenti, le monete Bitcoin sono essenzialmente una catena di UTXO. Ogni transazione crea quindi un legame tra un UTXO passato e un UTXO futuro. Gli UTXO permettono quindi di seguire esplicitamente il percorso dei Bitcoin dalla loro creazione fino alla loro spesa attuale. Questa trasparenza può essere vista positivamente, in quanto consente a ciascun utente di accertarsi dell'autenticità dei bitcoin ricevuti. Tuttavia, è anche su questo principio di tracciabilità e verificabilità che si basa l'analisi della blockchain, una pratica destinata a compromettere la vostra riservatezza. Nella seconda parte del corso esamineremo in modo approfondito questa pratica.
+In secondo luogo, come indicato nelle sezioni precedenti, le monete Bitcoin sono essenzialmente una catena di UTXO. Ogni transazione crea quindi un legame tra un UTXO passato e un UTXO futuro. Gli UTXO permettono quindi di seguire esplicitamente il percorso dei Bitcoin dalla loro creazione fino alla loro spesa attuale. Questa trasparenza può essere vista positivamente, in quanto consente a ciascun utente di accertarsi dell'autenticità dei bitcoin ricevuti. Tuttavia, è anche su questo principio di tracciabilità e verificabilità che si basa l'[analisi della blockchain](https://planb.academy/resources/glossary/chain-analysis), una pratica destinata a compromettere la vostra riservatezza. Nella seconda parte del corso esamineremo in modo approfondito questa pratica.
 
 ## Il modello di privacy di Bitcoin
 
@@ -250,7 +250,7 @@ Se si utilizza una moneta fisica, la prima caratteristica è la più complessa d
 
 L'autenticità è anche una caratteristica difficile da verificare su un supporto monetario fisico. Oggi le tecniche di lotta alla contraffazione sono sempre più complesse e costringono i rivenditori a investire in costosi sistemi di verifica.
 
-D'altra parte, per la loro natura, la doppia spesa non è un problema per le valute fisiche. Se vi do una banconota da 10 euro, questa lascia irrevocabilmente il mio possesso ed entra nel vostro, il che esclude naturalmente qualsiasi possibilità di spesa multipla delle unità monetarie che rappresenta. In breve, non potrò più spendere questa banconota da 10 euro.
+D'altra parte, per la loro natura, la [doppia spesa](https://planb.academy/resources/glossary/double-spending-attack) non è un problema per le valute fisiche. Se vi do una banconota da 10 euro, questa lascia irrevocabilmente il mio possesso ed entra nel vostro, il che esclude naturalmente qualsiasi possibilità di spesa multipla delle unità monetarie che rappresenta. In breve, non potrò più spendere questa banconota da 10 euro.
 
 ![BTC204](assets/it/019.webp)
 
@@ -266,11 +266,11 @@ L'unico modo per evitare questa duplicazione di un asset digitale è quello di e
 
 ![BTC204](assets/it/021.webp)
 
-Su Bitcoin, la doppia spesa viene impedita allo stesso modo. Cerchiamo di confermare l'assenza di una transazione che abbia già speso le monete in questione. Se le monete non sono mai state utilizzate, possiamo essere certi che non si verificherà una doppia spesa. Questo principio è stato descritto da Satoshi Nakamoto nel Libro Bianco con la famosa frase:
+Su Bitcoin, la doppia spesa viene impedita allo stesso modo. Cerchiamo di confermare l'assenza di una transazione che abbia già speso le monete in questione. Se le monete non sono mai state utilizzate, possiamo essere certi che non si verificherà una doppia spesa. Questo principio è stato descritto da [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) nel [Libro Bianco](https://planb.academy/resources/glossary/white-paper) con la famosa frase:
 
 **L'unico modo per confermare l'assenza di una transazione è essere a conoscenza di tutte le transazioni**
 
-Ma a differenza del modello bancario, con Bitcoin non vogliamo doverci fidare di un'entità centrale. Quindi tutti gli utenti devono essere in grado di confermare l'assenza di doppie spese, senza affidarsi a terzi. Quindi tutti devono essere a conoscenza di tutte le transazioni Bitcoin. Per questo motivo le transazioni Bitcoin sono trasmesse pubblicamente su tutti i nodi della rete e registrate in chiaro sulla blockchain.
+Ma a differenza del modello bancario, con Bitcoin non vogliamo doverci fidare di un'entità centrale. Quindi tutti gli utenti devono essere in grado di confermare l'assenza di doppie spese, senza affidarsi a terzi. Quindi tutti devono essere a conoscenza di tutte le transazioni Bitcoin. Per questo motivo le transazioni Bitcoin sono trasmesse pubblicamente su tutti i [nodi](https://planb.academy/resources/glossary/node) della rete e registrate in chiaro sulla blockchain.
 
 È proprio questa diffusione pubblica delle informazioni a complicare la protezione della privacy in Bitcoin. Nel sistema bancario tradizionale, in teoria, solo l'istituto finanziario è a conoscenza delle transazioni effettuate. Con Bitcoin, invece, tutti gli utenti sono informati di tutte le transazioni, attraverso i rispettivi nodi.
 
@@ -307,7 +307,7 @@ Tuttavia, poiché le transazioni Bitcoin sono rese pubbliche, è comunque possib
 
 ### Definizione e funzionamento
 
-L'analisi della catena di bit è la pratica di tracciare il flusso di bitcoin sulla catena di bit. In generale, l'analisi della catena si basa sull'osservazione di caratteristiche in campioni di transazioni precedenti. Consiste quindi nell'identificare queste stesse caratteristiche in una transazione che si desidera analizzare e nel dedurre da esse interpretazioni plausibili. Questo metodo di risoluzione dei problemi, basato su un approccio pratico per trovare una soluzione sufficientemente buona, è noto come "euristica".
+L'analisi della catena di bit è la pratica di tracciare il flusso di bitcoin sulla catena di bit. In generale, l'analisi della catena si basa sull'osservazione di caratteristiche in campioni di transazioni precedenti. Consiste quindi nell'identificare queste stesse caratteristiche in una transazione che si desidera analizzare e nel dedurre da esse interpretazioni plausibili. Questo metodo di risoluzione dei problemi, basato su un approccio pratico per trovare una soluzione sufficientemente buona, è noto come "[euristica](https://planb.academy/resources/glossary/analysis-heuristic)".
 
 In parole povere, l'analisi della catena si articola in tre fasi principali:
 1. **Osservare la blockchain ;**
@@ -324,7 +324,7 @@ Uno degli obiettivi dell'analisi della blockchain è raggruppare varie attività
 
 ![BTC204](assets/it/027.webp)
 
-Ripensate al capitolo precedente. Ho spiegato perché il modello di privacy di Bitcoin era originariamente basato sulla separazione dell'identità dell'utente dalle transazioni. Si sarebbe quindi tentati di pensare che l'analisi della blockchain sia inutile, poiché anche se riusciamo ad aggregare le attività onchain, non possiamo associarle a un'identità reale.
+Ripensate al capitolo precedente. Ho spiegato perché il modello di privacy di Bitcoin era originariamente basato sulla separazione dell'identità dell'utente dalle transazioni. Si sarebbe quindi tentati di pensare che l'analisi della blockchain sia inutile, poiché anche se riusciamo ad aggregare le attività [onchain](https://planb.academy/resources/glossary/onchain), non possiamo associarle a un'identità reale.
 
 In teoria, questa affermazione è corretta. Nella prima parte di questo corso abbiamo visto che le coppie di chiavi crittografiche vengono utilizzate per stabilire le condizioni di UTXO. In sostanza, queste coppie di chiavi non rivelano alcuna informazione sull'identità dei loro possessori. Quindi, anche se riusciamo a raggruppare le attività associate a diverse coppie di chiavi, questo non ci dice nulla sull'entità che sta dietro a queste attività.
 
@@ -332,7 +332,7 @@ In teoria, questa affermazione è corretta. Nella prima parte di questo corso ab
 
 Tuttavia, la realtà pratica è molto più complessa. Esiste una moltitudine di comportamenti che possono collegare un'identità reale all'attività onchain. In analisi, questo si chiama punto di ingresso, e ce ne sono moltissimi.
 
-Il più comune è il KYC (*Know Your Customer*). Se ritirate i vostri Bitcoin da una piattaforma regolamentata a uno dei vostri indirizzi personali di ricezione, alcune persone sono in grado di collegare la vostra identità a quell'indirizzo. Più in generale, un punto di ingresso può essere qualsiasi forma di interazione tra la vostra vita reale e una transazione Bitcoin. Ad esempio, se pubblicate un indirizzo di ricezione sui vostri social network, questo potrebbe essere un punto di ingresso per l'analisi. Se si effettua un pagamento in Bitcoin al panettiere, questi sarà in grado di associare il vostro volto (parte della vostra identità) a un indirizzo Bitcoin.
+Il più comune è il [KYC](https://planb.academy/resources/glossary/kyc-know-your-customer) (*Know Your Customer*). Se ritirate i vostri Bitcoin da una piattaforma regolamentata a uno dei vostri indirizzi personali di ricezione, alcune persone sono in grado di collegare la vostra identità a quell'indirizzo. Più in generale, un punto di ingresso può essere qualsiasi forma di interazione tra la vostra vita reale e una transazione Bitcoin. Ad esempio, se pubblicate un indirizzo di ricezione sui vostri social network, questo potrebbe essere un punto di ingresso per l'analisi. Se si effettua un pagamento in Bitcoin al panettiere, questi sarà in grado di associare il vostro volto (parte della vostra identità) a un indirizzo Bitcoin.
 
 Questi punti di accesso sono praticamente inevitabili quando si utilizza Bitcoin. Anche se possiamo cercare di limitarne la portata, saranno sempre presenti. Ecco perché è fondamentale combinare metodi volti a preservare la privacy. Sebbene mantenere una separazione tra la vostra identità reale e le vostre transazioni sia un approccio interessante, oggi rimane insufficiente. Infatti, se tutte le attività onchain possono essere raggruppate, anche il più piccolo punto di accesso può compromettere l'unico livello di riservatezza stabilito.
 
@@ -344,13 +344,13 @@ Dobbiamo quindi essere in grado di affrontare l'analisi della blockchain anche n
 
 ![BTC204](assets/it/030.webp)
 
-Quale modo migliore per contrastare l'analisi della blockchain se non quello di conoscere i metodi utilizzati? Se volete sapere come migliorare la vostra privacy su Bitcoin, dovete comprendere questi metodi. Questo vi permetterà di comprendere meglio tecniche come coinjoin o payjoin (tecniche che esamineremo nelle parti finali del corso) e di ridurre gli errori che potreste commettere.
+Quale modo migliore per contrastare l'analisi della blockchain se non quello di conoscere i metodi utilizzati? Se volete sapere come migliorare la vostra privacy su Bitcoin, dovete comprendere questi metodi. Questo vi permetterà di comprendere meglio tecniche come [coinjoin](https://planb.academy/resources/glossary/coinjoin) o [payjoin](https://planb.academy/resources/glossary/payjoin) (tecniche che esamineremo nelle parti finali del corso) e di ridurre gli errori che potreste commettere.
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
 https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
-A questo proposito, possiamo tracciare un'analogia con la crittografia e la crittoanalisi. Un buon crittografo è innanzitutto un buon crittoanalista. Per ideare un nuovo algoritmo di crittografia, è necessario sapere quali attacchi dovrà affrontare e studiare perché gli algoritmi precedenti sono stati violati. Lo stesso principio si applica alla privacy di Bitcoin. Comprendere i metodi di analisi della blockchain è la chiave per proteggersi da questi attacchi. Ecco perché ho incluso un'intera sezione sull'analisi della catena in questo corso di formazione.
+A questo proposito, possiamo tracciare un'analogia con la [crittografia](https://planb.academy/resources/glossary/cryptography) e la crittoanalisi. Un buon crittografo è innanzitutto un buon crittoanalista. Per ideare un nuovo algoritmo di crittografia, è necessario sapere quali attacchi dovrà affrontare e studiare perché gli algoritmi precedenti sono stati violati. Lo stesso principio si applica alla privacy di Bitcoin. Comprendere i metodi di analisi della blockchain è la chiave per proteggersi da questi attacchi. Ecco perché ho incluso un'intera sezione sull'analisi della catena in questo corso di formazione.
 
 ### Metodi di analisi della catena
 
@@ -370,8 +370,8 @@ Queste famose euristiche possono essere raggruppate in diverse categorie, che de
 Le prime due euristiche di analisi della catena sono state scoperte da Satoshi Nakamoto stesso. Ne parla nella Parte 10 del Libro Bianco di Bitcoin. Esse sono :
 
 
-- cIOH (*Euristica della proprietà dell'input comune*);
-- e il riutilizzo degli indirizzi.
+- [cIOH](https://planb.academy/resources/glossary/cioh) (*Euristica della proprietà dell'input comune*);
+- e il [riutilizzo degli indirizzi](https://planb.academy/resources/glossary/address-reuse).
 
 ![BTC204](assets/it/031.webp)
 
@@ -430,7 +430,7 @@ L'interpretazione di questo modello è che siamo in presenza di un auto-trasferi
 
 Sappiamo quindi che l'utente osservato è probabilmente ancora in possesso di questo UTXO. Nel contesto di un'analisi a catena, se sappiamo che l'UTXO utilizzato come input della transazione appartiene ad Alice, possiamo assumere che anche l'UTXO utilizzato come output appartenga a lei. In seguito sarà interessante trovare euristiche interne alla transazione che possano rafforzare questa ipotesi (le esamineremo nel capitolo 3.3).
 
-Ad esempio, ecco una transazione Bitcoin che adotta lo schema sweep:
+Ad esempio, ecco una transazione Bitcoin che adotta lo schema [sweep](https://planb.academy/resources/glossary/sweep-transaction):
 
 ```plaintext
 35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d
@@ -476,7 +476,7 @@ Questo modello è caratterizzato dal consumo di pochi UTXO come input (spesso un
 
 ![BTC204](assets/it/040.webp)
 
-L'interpretazione di questo modello è che siamo in presenza di una spesa raggruppata. È una pratica che probabilmente rivela un'attività economica molto grande, come una piattaforma di scambio. La spesa raggruppata consente a queste entità di risparmiare sui costi combinando le spese in un'unica transazione.
+L'interpretazione di questo modello è che siamo in presenza di una [spesa raggruppata](https://planb.academy/resources/glossary/batched-spending). È una pratica che probabilmente rivela un'attività economica molto grande, come una piattaforma di scambio. La spesa raggruppata consente a queste entità di risparmiare sui costi combinando le spese in un'unica transazione.
 
 Da questo modello possiamo dedurre che gli UTXO in ingresso provengono da un'azienda con un alto livello di attività economica e che gli UTXO in uscita si disperderanno. Molti appartengono ai clienti dell'azienda che hanno ritirato bitcoin dalla piattaforma. Altri potranno andare a società partner. Infine, ci saranno sicuramente uno o più scambi che torneranno alla società emittente.
 
@@ -555,7 +555,7 @@ Queste somiglianze tra input e output non si fermano al riutilizzo degli indiriz
 
 ![BTC204](assets/it/047.webp)
 
-In questo diagramma, possiamo vedere che l'ingresso n° 0 sblocca uno script P2WPKH (SegWit V0 che inizia con `bc1q`). L'uscita n° 0 utilizza lo stesso tipo di script. L'uscita n° 1, invece, utilizza uno script P2TR (SegWit V1 che inizia con `bc1p`). L'interpretazione di questa caratteristica è che è probabile che l'indirizzo con lo stesso versioning dell'ingresso sia l'indirizzo di scambio. Pertanto, apparterrebbe sempre allo stesso utente.
+In questo diagramma, possiamo vedere che l'ingresso n° 0 sblocca uno script [P2WPKH](https://planb.academy/resources/glossary/p2wpkh) (SegWit V0 che inizia con `bc1q`). L'uscita n° 0 utilizza lo stesso tipo di script. L'uscita n° 1, invece, utilizza uno script [P2TR](https://planb.academy/resources/glossary/p2tr) (SegWit V1 che inizia con `bc1p`). L'interpretazione di questa caratteristica è che è probabile che l'indirizzo con lo stesso versioning dell'ingresso sia l'indirizzo di scambio. Pertanto, apparterrebbe sempre allo stesso utente.
 
 Ecco una transazione a cui probabilmente si può applicare questa euristica:
 
@@ -567,9 +567,9 @@ db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578
 
 Source : [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578)
 
-In quest'ultimo caso, possiamo notare che l'ingresso n. 0 e l'uscita n. 1 utilizzano script P2WPKH (SegWit V0), mentre l'uscita n. 0 utilizza uno script P2PKH diverso (Legacy).
+In quest'ultimo caso, possiamo notare che l'ingresso n. 0 e l'uscita n. 1 utilizzano script P2WPKH (SegWit V0), mentre l'uscita n. 0 utilizza uno script [P2PKH](https://planb.academy/resources/glossary/p2pkh) diverso (Legacy).
 
-Nei primi anni 2010, questa euristica basata sulla versione degli script era relativamente poco utile a causa dei limitati tipi di script disponibili. Tuttavia, nel corso del tempo e con i successivi aggiornamenti di Bitcoin, è stata introdotta una crescente varietà di tipi di script. Questa euristica sta quindi diventando sempre più rilevante, poiché con una gamma più ampia di tipi di script, gli utenti si dividono in gruppi più piccoli, aumentando così le possibilità di applicare questa euristica di riutilizzo della versione interna. Per questo motivo, solo dal punto di vista della riservatezza, è consigliabile optare per il tipo di script più comune. Ad esempio, nel momento in cui scrivo queste righe, gli script [Taproot](https://planb.academy/resources/glossary/taproot) (`bc1p`) sono meno utilizzati degli script SegWit V0 (`bc1q`). Sebbene i primi offrano vantaggi economici e di riservatezza in alcuni contesti specifici, per gli usi più tradizionali a firma singola può essere sensato attenersi a uno standard più vecchio per motivi di riservatezza, fino a quando il nuovo standard non sarà più ampiamente adottato.
+Nei primi anni 2010, questa euristica basata sulla versione degli script era relativamente poco utile a causa dei limitati tipi di script disponibili. Tuttavia, nel corso del tempo e con i successivi aggiornamenti di Bitcoin, è stata introdotta una crescente varietà di tipi di script. Questa euristica sta quindi diventando sempre più rilevante, poiché con una gamma più ampia di tipi di script, gli utenti si dividono in gruppi più piccoli, aumentando così le possibilità di applicare questa euristica di riutilizzo della versione interna. Per questo motivo, solo dal punto di vista della riservatezza, è consigliabile optare per il tipo di script più comune. Ad esempio, nel momento in cui scrivo queste righe, gli script Taproot (`bc1p`) sono meno utilizzati degli script SegWit V0 (`bc1q`). Sebbene i primi offrano vantaggi economici e di riservatezza in alcuni contesti specifici, per gli usi più tradizionali a firma singola può essere sensato attenersi a uno standard più vecchio per motivi di riservatezza, fino a quando il nuovo standard non sarà più ampiamente adottato.
 
 ### Pagamenti con numeri tondi
 
@@ -719,7 +719,7 @@ L'analista ha anche la possibilità di basarsi su analisi precedentemente rese o
 
 Allo stesso modo, è possibile eseguire un'analisi per eliminazione. Ad esempio, se analizzando una transazione con due uscite, una di queste si riferisce a un cluster di indirizzi già noto, ma distinto dall'entità che stiamo tracciando, possiamo interpretare che l'altra uscita rappresenta probabilmente lo scambio.
 
-L'analisi del canale comprende anche una componente OSINT (*Open Source Intelligence*) un po' più generale, che prevede ricerche su Internet. È per questo motivo che sconsigliamo di pubblicare indirizzi direttamente sui social network o su un sito web, che siano pseudonimi o meno.
+L'analisi del canale comprende anche una componente [OSINT](https://planb.academy/resources/glossary/osint) (*Open Source Intelligence*) un po' più generale, che prevede ricerche su Internet. È per questo motivo che sconsigliamo di pubblicare indirizzi direttamente sui social network o su un sito web, che siano pseudonimi o meno.
 
 ![BTC204](assets/it/063.webp)
 
@@ -955,7 +955,7 @@ a6dbebebca119af3d05c0196b76f80fdbf78f20368ebef1b7fd3476d0814517d
 
 Se osserviamo il modello di questa transazione, è chiaro che si tratta di una spesa aggregata. Infatti, la transazione ha un unico input e 51 output, il che indica un alto livello di attività economica. Possiamo quindi ipotizzare che Loïc abbia prelevato bitcoin da una piattaforma di scambio.
 
-Diversi fattori rafforzano questa ipotesi. In primo luogo, il tipo di script utilizzato per proteggere l'ingresso UTXO è uno script P2SH 2/3 multisig, che indica un livello di sicurezza avanzato tipico delle piattaforme di scambio:
+Diversi fattori rafforzano questa ipotesi. In primo luogo, il tipo di script utilizzato per proteggere l'ingresso UTXO è uno script [P2SH](https://planb.academy/resources/glossary/p2sh) 2/3 multisig, che indica un livello di sicurezza avanzato tipico delle piattaforme di scambio:
 
 ```plaintext
 OP_PUSHNUM_2
@@ -1067,7 +1067,7 @@ Tecnicamente, un indirizzo di ricezione Bitcoin non "riceve" bitcoin in senso le
 
 Gli indirizzi Bitcoin sono di diversi tipi, a seconda del modello di scripting utilizzato. I primi modelli, noti come "Legacy", comprendono gli indirizzi `P2PKH` (*Pay-to-PubKey-Hash*) e `P2SH` (*Pay-to-Script-Hash*). Gli indirizzi P2PKH iniziano sempre con `1`, mentre P2SH con `3`. Sebbene siano ancora sicuri, questi formati sono ormai obsoleti, poiché comportano costi di transazione più elevati e offrono una minore riservatezza rispetto ai nuovi standard.
 
-Gli indirizzi SegWit V0 (`P2WPKH` e `P2WSH`) e Taproot / SegWit V1 (`P2TR`) rappresentano formati moderni. Gli indirizzi SegWit iniziano con `bc1q` e gli indirizzi Taproot, introdotti nel 2021, iniziano con `bc1p`.
+Gli indirizzi SegWit V0 (`P2WPKH` e `P2WSH`) e [Taproot](https://planb.academy/resources/glossary/taproot) / SegWit V1 (`P2TR`) rappresentano formati moderni. Gli indirizzi SegWit iniziano con `bc1q` e gli indirizzi Taproot, introdotti nel 2021, iniziano con `bc1p`.
 
 Ad esempio, ecco l'indirizzo di ricezione di Taproot:
 
@@ -1280,7 +1280,7 @@ Nelle sezioni precedenti abbiamo parlato della selezione manuale degli UTXO da u
 
 I metodi di selezione UTXO come FIFO (*First In First Out*) e LIFO (*Last In First Out*) sono tra i più semplici, ma anche i meno efficienti. Con il metodo FIFO, i titoli più vecchi del portafoglio vengono utilizzati per primi. Questo approccio è generalmente inefficiente sia per ridurre al minimo i costi di transazione sia per preservare la riservatezza, tranne nei casi in cui si utilizzano timelock relativi che devono essere rinnovati regolarmente. Al contrario, il LIFO dà priorità all'uso degli UTXO più recenti. Entrambi i metodi, per quanto semplici, si rivelano spesso inefficaci.
 
-Un metodo più avanzato è il *Knapsack Solver*. Questo metodo è stato utilizzato nel portafoglio Bitcoin Core fino alla versione 0.17. Consiste nel selezionare iterativamente e casualmente gli UTXO dal portafoglio, sommarli in sottoinsiemi e mantenere la soluzione che riduce il più possibile il peso della transazione, al fine di ridurre il costo per l'utente.
+Un metodo più avanzato è il *Knapsack Solver*. Questo metodo è stato utilizzato nel portafoglio [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core) fino alla versione 0.17. Consiste nel selezionare iterativamente e casualmente gli UTXO dal portafoglio, sommarli in sottoinsiemi e mantenere la soluzione che riduce il più possibile il peso della transazione, al fine di ridurre il costo per l'utente.
 
 Il *Branch-and-Bound* (BNB), spesso soprannominato "algoritmo di Murch" dal nome del suo inventore, ha sostituito il *Knapsack Solver* in Bitcoin Core a partire dalla versione 0.17. Questo metodo più avanzato mira a trovare un insieme di UTXO che corrisponda esattamente all'importo necessario per soddisfare gli output di una transazione. L'obiettivo di BNB è quello di minimizzare l'importo dello scambio e le commissioni, riducendo il cosiddetto criterio di spreco, che tiene conto sia dei costi immediati che dei costi futuri attesi dello scambio. Questo metodo deriva dal concetto originale di *Branch-and-Bound*, ideato nel 1960 da Ailsa Land e Alison Harcourt, e offre un'ottimizzazione più precisa delle commissioni rispetto al *Knapsack Solver*.
 
@@ -1547,7 +1547,7 @@ In questo esempio, sebbene la transazione B offra una tariffa totale più alta, 
 
 ```text
 TXA : 1994 / 141 = 14 sats/vB
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 Ciò significa che per ogni unità di peso, la transazione A offre più costi della transazione B, anche se la transazione B offre più costi in termini assoluti.
@@ -1634,7 +1634,7 @@ Se non si dispone di un proprio nodo Bitcoin, si è costretti a utilizzarne uno 
 
 ![BTC204](assets/it/105.webp)
 
-Il rischio principale quando non si utilizza il proprio nodo Bitcoin è che l'operatore del nodo di terze parti possa osservare le vostre attività sulla blockchain, o addirittura condividere queste informazioni con altre entità. Per limitare questo rischio, una soluzione intermedia è quella di utilizzare un software di portafoglio che maschera le connessioni tramite Tor. Questo può ridurre l'esposizione dei vostri dati. Tuttavia, la soluzione ottimale è avere un proprio nodo Bitcoin e usarlo per trasmettere le proprie transazioni. Naturalmente, dovrete anche fare attenzione a non far trapelare alcuna informazione attraverso il vostro nodo, ma questo è un altro argomento che esamineremo nelle sezioni successive.
+Il rischio principale quando non si utilizza il proprio nodo Bitcoin è che l'operatore del nodo di terze parti possa osservare le vostre attività sulla blockchain, o addirittura condividere queste informazioni con altre entità. Per limitare questo rischio, una soluzione intermedia è quella di utilizzare un software di portafoglio che maschera le connessioni tramite [Tor](https://planb.academy/resources/glossary/tor). Questo può ridurre l'esposizione dei vostri dati. Tuttavia, la soluzione ottimale è avere un proprio nodo Bitcoin e usarlo per trasmettere le proprie transazioni. Naturalmente, dovrete anche fare attenzione a non far trapelare alcuna informazione attraverso il vostro nodo, ma questo è un altro argomento che esamineremo nelle sezioni successive.
 
 Oltre all'ovvio vantaggio per la vostra privacy, avere un proprio nodo completo vi assicura anche della veridicità dei dati sulla blockchain, vi protegge dalla censura e vi permette di partecipare attivamente alla governance di Bitcoin. Utilizzando il proprio nodo, si contribuisce con il proprio peso economico alla catena di propria scelta, il che è importante durante i conflitti all'interno della comunità, come ad esempio durante la Blocksize War dal 2015 al 2017. In caso di fork, l'utilizzo di un nodo di terze parti potrebbe portarvi a sostenere una catena che non volete favorire, poiché l'operatore del nodo effettua la scelta al posto vostro.
 
@@ -1644,7 +1644,7 @@ Come si può notare, nell'interesse della riservatezza e della sovranità indivi
 
 Più in generale, è importante comprendere le euristiche di cui abbiamo parlato nella sezione precedente, in modo da evitarle o ingannarle meglio. L'adozione di una serie di buone pratiche può essere vantaggiosa, anche se non essenziale. Esse offrono un ulteriore livello di protezione che può essere importante per mantenere la riservatezza quando si utilizza Bitcoin.
 
-Il primo consiglio che potrei dare è quello di mescolarsi alla folla più folta. Su Bitcoin, questo significa utilizzare i modelli di script più diffusi. Ad esempio, gli script P2WSH, spesso utilizzati per le configurazioni SegWit V0 multisig, sono molto poco comuni. Non consentono di nascondersi in un ampio set di anonimato. Lo stesso vale per i modelli più vecchi, come P2PKH o P2SH. Sebbene siano ampiamente presenti nell'insieme UTXO, vengono utilizzati sempre meno per le nuove transazioni.
+Il primo consiglio che potrei dare è quello di mescolarsi alla folla più folta. Su Bitcoin, questo significa utilizzare i modelli di script più diffusi. Ad esempio, gli script [P2WSH](https://planb.academy/resources/glossary/p2wsh), spesso utilizzati per le configurazioni SegWit V0 multisig, sono molto poco comuni. Non consentono di nascondersi in un ampio set di anonimato. Lo stesso vale per i modelli più vecchi, come P2PKH o P2SH. Sebbene siano ampiamente presenti nell'insieme UTXO, vengono utilizzati sempre meno per le nuove transazioni.
 
 In generale, è più saggio optare per lo standard di scripting più recente, purché sia stato sufficientemente adottato. Quindi, se nel 2022 avrei sconsigliato l'uso di P2TR (Taproot) a causa della sua scarsa adozione, nel 2024 consiglierei invece di optare per questo tipo di script o, in mancanza, per lo script SegWit V0, dato che il numero di transazioni che utilizzano P2TR inizia a rappresentare una percentuale molto significativa.
 
@@ -1742,7 +1742,7 @@ Tuttavia, coinjoin offre anche la possibilità di rafforzare la riservatezza a f
 
 ![BTC204](assets/it/118.webp)
 
-Nel primo esempio abbiamo visto come il coinjoin possa proteggere la privacy di una stanza in relazione al suo passato e, nel secondo esempio, come possa anche proteggere la storia di una stanza in relazione al suo futuro. Ecco perché ho detto che il coinjoin dovrebbe essere visto come un evento unico che segmenta una parte di storia in entrambe le direzioni:
+Nel primo esempio abbiamo visto come coinjoin possa proteggere la riservatezza di una moneta rispetto al suo passato, e nel secondo esempio come possa anche mettere in sicurezza la storia di una moneta rispetto al suo futuro. È per questo che ho menzionato che coinjoin dovrebbe essere percepito come un evento puntuale che segmenta la storia di una moneta in entrambe le direzioni:
 
 ![BTC204](assets/it/119.webp)
 
@@ -1861,7 +1861,7 @@ Nello stesso thread, possiamo trovare [un messaggio di hashcoin in risposta a Du
 
 ### Zerolink
 
-Zerolink è un protocollo di miscelazione completo che incorpora coinjoin chaumiani e varie strategie per proteggere l'anonimato degli utenti da diverse forme di analisi della catena, in particolare riducendo al minimo gli errori associati alla gestione del portafoglio. Questo protocollo [è stato introdotto da nopara73 e TDevD nel 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).
+[Zerolink](https://planb.academy/resources/glossary/zerolink) è un protocollo di miscelazione completo che incorpora coinjoin chaumiani e varie strategie per proteggere l'anonimato degli utenti da diverse forme di analisi della catena, in particolare riducendo al minimo gli errori associati alla gestione del portafoglio. Questo protocollo [è stato introdotto da nopara73 e TDevD nel 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
 ![BTC204](assets/it/132.webp)
 
@@ -1936,7 +1936,7 @@ Anche i metodi di gestione dei cambi distinguevano le due implementazioni. Con W
 
 ![BTC204](assets/it/139.webp)
 
-Con Wabisabi, la versione 2.0 di Wasabi ha adattato il suo approccio alle coinjoin a quello di Whirlpool. Sebbene le transazioni coinjoin rimangano molto grandi, è ora possibile concatenare più cicli successivi, seguendo il modello Whirlpool. Particolare attenzione è stata posta anche alla gestione del tasso di cambio: a differenza di Wasabi 1.0, dove il tasso di cambio era direttamente legato agli input dell'utente, Wabisabi cerca di suddividere il tasso di cambio in diverse piccole somme, divise in tagli uguali per tutti i partecipanti.
+Con Wabisabi, la versione 2.0 ha adattato il proprio approccio ai coinjoin per avvicinarsi a quello di Whirlpool. Sebbene le transazioni coinjoin rimangano di dimensioni molto grandi, è ora possibile concatenare più cicli successivi, seguendo così il modello di Whirlpool. Un’attenzione particolare è stata inoltre dedicata alla gestione del resto: a differenza di Wasabi 1.0, in cui il resto era direttamente collegato agli input degli utenti, Wabisabi cerca di suddividere il resto in più piccole somme, distribuite in denominazioni uguali per tutti i partecipanti.
 
 Illustriamo questo aspetto con un esempio semplificato che coinvolge solo 2 utenti: Alice desidera mescolare 115.000 sats e Bob 210.000 sats. Ignorando le commissioni, con Wasabi 1.0, una transazione coinjoin avrebbe generato 3 uscite di 100.000 sats, più 1 scambio di 15.000 sats per Alice e 1 scambio di 10.000 sats per Bob. Gli output dello scambio sarebbero ancora collegati agli input:
 
@@ -2113,7 +2113,7 @@ Vediamo le diverse fasi di un coinjoin Whirlpool all'interno di questi conti.
 
 Il punto di partenza di ogni coinjoin Whirlpool è il conto **deposito**. Si tratta del conto che viene utilizzato automaticamente quando si crea un nuovo portafoglio Bitcoin. Questo conto dovrà essere accreditato con i bitcoin che si desidera miscelare.
 
-Tx0" è la prima fase del processo di miscelazione di Whirlpool. Il suo scopo è quello di preparare e uniformare gli UTXO per il coinjoin, dividendoli in unità corrispondenti alla quantità del pool selezionato, per garantire una miscelazione omogenea. Le UTXO così equalizzate vengono poi inviate al conto **premix**. La differenza che non può entrare nel pool viene separata in un conto specifico: il **bad bank** (o "doxxic change").
+`Tx0` è la prima fase del processo di miscelazione di Whirlpool. Il suo scopo è quello di preparare e uniformare gli UTXO per il coinjoin, dividendoli in unità corrispondenti alla quantità del pool selezionato, per garantire una miscelazione omogenea. Le UTXO così equalizzate vengono poi inviate al conto **premix**. La differenza che non può entrare nel pool viene separata in un conto specifico: il **bad bank** (o "doxxic change").
 
 Questa transazione iniziale `Tx0` viene utilizzata anche per pagare la quota di servizio dovuta al coordinatore di coinjoin. A differenza delle fasi successive, questa transazione non è collaborativa, quindi l'utente deve sostenere l'intero costo del mining:
 
@@ -2151,7 +2151,7 @@ Al termine di questi primi mix, il conto **premix** sarà vuoto, mentre le nostr
 
 ### Remix
 
-Dopo il mix iniziale, gli UTXO vengono trasferiti all'account **postmix**. Questo conto raccoglie gli UTXO già miscelati e quelli in attesa di essere rimescolati. Quando il cliente Whirlpool è attivo, gli UTXO che si trovano nel conto **postmix** sono automaticamente disponibili per i rimescolamenti e saranno selezionati a caso per partecipare a questi nuovi cicli.
+Dopo aver effettuato il mix iniziale, gli UTXO vengono trasferiti nel conto **postmix**. Questo conto raccoglie gli UTXO già mixati e quelli in attesa di remix. Quando il client Whirlpool è attivo, gli UTXO presenti nel conto **postmix** sono automaticamente disponibili per i remix e saranno selezionati in modo casuale per partecipare a questi nuovi cicli.
 
 Come promemoria, i remix sono gratuiti al 100%: non sono richiesti costi di servizio aggiuntivi o commissioni di estrazione. Mantenendo gli UTXO nel conto **postmix** si mantiene quindi intatto il loro valore e si migliora allo stesso tempo la loro anonset. Ecco perché è importante consentire a queste monete di partecipare a diversi cicli di coinjoin. Non vi costa assolutamente nulla e aumenta il loro livello di anonimato.
 
@@ -2306,7 +2306,7 @@ Ad esempio, una semplice transazione di pagamento con 1 ingresso e 2 uscite avr�
 
 ![BTC204](assets/it/165.webp)
 
-D'altra parte, un angolo Whirlpool 5x5 ha 1.496$ combinazioni possibili:
+Al contrario, un coinjoin strutturato secondo il modello Whirlpool 5x5 presenta $1\,496$ combinazioni possibili:
 
 ![BTC204](assets/it/166.webp)
 
@@ -2484,7 +2484,7 @@ Il punteggio di Boltzmann si calcola dividendo il numero di interpretazioni in c
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}
@@ -2652,7 +2652,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d
 :::video id=1f33e8f1-e41d-4480-a388-e283ef51cc17:::
 
 
-Quando si vuole effettuare una transazione di pagamento mantenendo un certo grado di riservatezza, payjoin è una buona opzione. Ma come abbiamo appena visto, payjoin richiede il coinvolgimento del destinatario. Cosa fare quindi se il destinatario si rifiuta di partecipare a una payjoin, o se semplicemente si preferisce non coinvolgerlo? Un'alternativa è quella di utilizzare una transazione Stonewall o Stonewall x2. Diamo un'occhiata più da vicino a questi due tipi di transazione.
+Quando si vuole effettuare una transazione di pagamento mantenendo un certo grado di riservatezza, payjoin è una buona opzione. Ma come abbiamo appena visto, payjoin richiede il coinvolgimento del destinatario. Cosa fare quindi se il destinatario si rifiuta di partecipare a una payjoin, o se semplicemente si preferisce non coinvolgerlo? Un'alternativa è quella di utilizzare una transazione [Stonewall](https://planb.academy/resources/glossary/stonewall) o Stonewall x2. Diamo un'occhiata più da vicino a questi due tipi di transazione.
 
 ### La transazione Stonewall
 
@@ -2869,13 +2869,13 @@ Tuttavia, questo metodo ingenuo presenta un rischio elevato in termini di fiduci
 
 ![BTC204](assets/it/201.webp)
 
-Inoltre, non c'è alcuna garanzia che Alice non riceva la chiave privata di Bob $B$ e non trasmetta mai la sua chiave privata $A$ in cambio. Questo scambio si basa quindi su un'eccessiva fiducia tra le parti ed è inefficace nel garantire un trasferimento segreto sicuro della proprietà.
+Inoltre, non esiste alcuna garanzia che Alice, una volta ricevuta la chiave privata $B$ di Bob, trasmetta in cambio la sua chiave privata $A$. Questo scambio si basa quindi su una massiccia fiducia tra le parti e si rivela inefficace per garantire un trasferimento segreto di proprietà in modo sicuro.
 
 ![BTC204](assets/it/202.webp)
 
 Per risolvere questi problemi e consentire scambi tra parti che non si fidano l'una dell'altra, utilizzeremo invece sistemi di smart contract. Un contratto intelligente è un programma che viene eseguito automaticamente quando si verificano condizioni predefinite. Nel nostro caso, questo garantisce che lo scambio di proprietà avvenga automaticamente, senza bisogno di fiducia reciproca.
 
-Questo può essere ottenuto utilizzando i protocolli HTLC (*Hash Time-Locked Contracts*) o PTLC (*Point Time-Locked Contracts*). Questi due protocolli funzionano in modo simile, utilizzando un sistema di blocco temporale che garantisce che lo scambio sia completato con successo o annullato completamente, proteggendo così l'integrità dei fondi di entrambe le parti. La differenza principale tra HTLC e PTLC è che HTLC utilizza hash e preimmagini per proteggere la transazione, mentre PTLC utilizza le firme degli adattatori.
+Questo può essere ottenuto utilizzando i protocolli [HTLC](https://planb.academy/resources/glossary/htlc) (*Hash Time-Locked Contracts*) o PTLC (*Point Time-Locked Contracts*). Questi due protocolli funzionano in modo simile, utilizzando un sistema di blocco temporale che garantisce che lo scambio sia completato con successo o annullato completamente, proteggendo così l'integrità dei fondi di entrambe le parti. La differenza principale tra HTLC e PTLC è che HTLC utilizza hash e preimmagini per proteggere la transazione, mentre PTLC utilizza le firme degli adattatori.
 
 In uno scenario di scambio di monete che utilizza HTLC o PTLC tra Alice e Bob, lo scambio avviene in modo sicuro: o riesce e ciascuno riceve il BTC dell'altro, o fallisce e ciascuno conserva il proprio BTC. In questo modo è impossibile per una delle due parti imbrogliare o rubare i BTC dell'altra.
 
@@ -2981,7 +2981,7 @@ Nella Parte 4 abbiamo discusso l'importanza di utilizzare un nodo completo per p
 
 ### Dente di leone
 
-Un modo per evitare i vari attacchi di de-anonimizzazione è quello di utilizzare la proposta Dandelion. Questo protocollo di trasmissione è stato formalizzato nel BIP156, ma non è mai stato implementato su Bitcoin.
+Un modo per evitare i vari attacchi di de-anonimizzazione è quello di utilizzare la proposta [Dandelion](https://planb.academy/resources/glossary/dandelion). Questo protocollo di trasmissione è stato formalizzato nel BIP156, ma non è mai stato implementato su Bitcoin.
 
 L'idea alla base di Dandelion è quella di migliorare la riservatezza del routing delle transazioni nella rete Bitcoin per contrastare varie forme di attacco. Il suo obiettivo principale è quello di nascondere il nodo sorgente che ha trasmesso inizialmente una transazione sulla rete. La divulgazione di questo nodo potrebbe consentire di collegare una transazione Bitcoin a un indirizzo IP specifico (se il nodo opera su clearnet), il che potrebbe fornire un punto di ingresso per l'analisi della catena.
 
@@ -3182,7 +3182,7 @@ In concreto, per generare la chiave pubblica compressa e il codice stringa assoc
 
 ### Scambio di chiavi Diffie-Hellman su curve ellittiche (ECDH)
 
-Il protocollo crittografico alla base di BIP47 è noto con l'acronimo ECDH, per *Elliptic-Curve Diffie-Hellman*. Questo metodo è una variante dello scambio di chiavi Diffie-Hellman originale.
+Il protocollo crittografico alla base di BIP47 è noto con l'acronimo [ECDH](https://planb.academy/resources/glossary/ecdh), per *Elliptic-Curve Diffie-Hellman*. Questo metodo è una variante dello scambio di chiavi Diffie-Hellman originale.
 
 Introdotto nel 1976, Diffie-Hellman è un protocollo di accordo di chiave che consente a due parti, ciascuna dotata di una coppia di chiavi (pubblica e privata), di accordarsi su un segreto comune, anche quando comunicano solo attraverso un canale pubblico e non protetto.
 

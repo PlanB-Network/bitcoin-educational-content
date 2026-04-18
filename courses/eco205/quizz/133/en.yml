@@ -1,0 +1,8 @@
+question: In what critical situation does the manipulation of interest rates by central banks generate the deepest distortions, according to the Austrian analysis?
+answer: When interest rates are kept persistently below their natural level, creating a desynchronization between real savings and investment signals
+wrong_answers:
+  - "When rates fluctuate rapidly according to market conditions, preventing entrepreneurs from correctly anticipating their investments."
+  - When rates are set too high in relation to time preferences, artificially discouraging current consumption
+  - "When central banks adjust rates in line with inflation, disrupting the natural relationship between money and capital"
+explanation: |
+  According to Austrian theory, the major distortions occur when artificially low interest rates send false signals to entrepreneurs, making them believe that there are more savings available than in reality. This desynchronization between real savings and investment signals leads to a misallocation of capital in the productive structure, generating business cycles. The other options describe less critical situations or do not correspond to the mechanisms described by the Austrian school.

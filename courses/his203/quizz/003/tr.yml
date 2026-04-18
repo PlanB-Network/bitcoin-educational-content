@@ -1,0 +1,10 @@
+question: Ross Ulbricht tarafından oluşturulan İpek Yolu platformuna kısa sürede hangi takma ad verildi?
+answer: İlaçların Amazon'u
+wrong_answers:
+  - Alibaba'nın mağarası
+  - Karanlık ağın eBay'i
+  - Yeraltı Walmart'ı
+explanation: |
+ Silk Road, e-ticaret devi Amazon'a benzerliği nedeniyle bu lakapla anılıyordu. Takma ad, platformun kullanıcı dostu arayüzünü ve aşağıdakiler için verimliliğini yansıtıyordu
+ yasadışı ticaret.
+reviewed: true

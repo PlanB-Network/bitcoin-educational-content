@@ -1217,7 +1217,7 @@ Sistematsko proučavanje ekonomskih zakona počinje u visokom srednjem veku. Prv
 ![image](assets/sr-Latn/049.webp)
 
 
-U središtu njegove monetarne analize leži problem "mutacija" novca, odnosno promene u metalnom sadržaju kovanica i njihovoj denominaciji. Ove promene su se dešavale od pamtiveka i dobro su dokumentovane za Antiku i Srednji vek. Njihov najvidljiviji efekat je promena kupovne moći monetarne jedinice, posebno njeno smanjenje. Ovo je primitivni oblik inflacije koji Oresme jasno osuđuje kao zlo.
+U središtu njegove monetarne analize leži problem "mutacija" novca, odnosno promene u metalnom sadržaju kovanica i njihovoj denominaciji. Ove promene su se dešavale od pamtiveka i dobro su dokumentovane za Antiku i Srednji vek. Njihov najvidljiviji efekat je promena kupovne moći monetarne jedinice, posebno njeno smanjenje. Ovo je primitivni oblik [inflacije](https://planb.academy/resources/glossary/inflation) koji Oresme jasno osuđuje kao zlo.
 
 
 Oresme odmah postavlja centralno pitanje: da li je inflacija korisna za zajednicu? On odgovara negativno, tvrdeći da inflacija ne čini novac više ili manje korisnim za razmene. Ekonomija može dobro funkcionisati bez obzira na nivo cena, a samim tim i bez obzira na nominalni novac Supply.
@@ -1469,7 +1469,7 @@ Nije potrebno dokazivati da je svaki pojedinac jedini sudija najkorisnije upotre
 Ovde Turgot u velikoj meri predviđa argument Misesa i Hayeka o nemogućnosti bilo kakve ekonomske kalkulacije u socijalističkom ekonomskom sistemu.
 
 
-Posvećujući jedno poglavlje "Briljantnosti Turgota," Murray Rothbard u svojoj ekonomskoj istoriji iz austrijske perspektive, naglašava da je "Turgotov uticaj na kasnije ekonomske misli bio ozbiljno ograničen (...) mitom da je Adam Smith bio osnivač političke ekonomije." I dodaje, "upravo je na Francuza J.B. Saya, zvanično sledbenika Smitha, Turgot na kraju imao najveći uticaj, posebno na njegovu teoriju korisne vrednosti."
+Posvećujući jedno poglavlje "Briljantnosti Turgota," Murray Rothbard u svojoj ekonomskoj istoriji iz [austrijske](https://planb.academy/resources/glossary/austrian-school) perspektive, naglašava da je "Turgotov uticaj na kasnije ekonomske misli bio ozbiljno ograničen (...) mitom da je Adam Smith bio osnivač političke ekonomije." I dodaje, "upravo je na Francuza J.B. Saya, zvanično sledbenika Smitha, Turgot na kraju imao najveći uticaj, posebno na njegovu teoriju korisne vrednosti."
 
 
 ### Remek-delo od Kondijaka
@@ -2286,7 +2286,7 @@ Za Hayeka, prošla nestabilnost tržišne ekonomije proizlazi iz činjenice da n
 ![image](assets/sr-Latn/101.webp)
 
 
-Hayek je verovao da bi slobodno tržište privatnih valuta dovelo do veće monetarne stabilnosti. Gotovo 50 godina kasnije, kriptovaluta poput Bitcoin oličava Hayekovu konkurentsku viziju nudeći decentralizovanu alternativu monopolističkom sistemu centralnih banaka. Bitcoin, sa svojim ograničenjem emisije od 21 milion jedinica, predstavlja garanciju protiv inflacije i proizvoljnosti regulatora.
+Hayek je verovao da bi slobodno tržište privatnih valuta dovelo do veće monetarne stabilnosti. Gotovo 50 godina kasnije, [kriptovaluta](https://planb.academy/resources/glossary/cryptocurrency) poput Bitcoin oličava Hayekovu konkurentsku viziju nudeći decentralizovanu alternativu monopolističkom sistemu centralnih banaka. Bitcoin, sa svojim ograničenjem emisije od 21 milion jedinica, predstavlja garanciju protiv inflacije i proizvoljnosti regulatora.
 
 
 

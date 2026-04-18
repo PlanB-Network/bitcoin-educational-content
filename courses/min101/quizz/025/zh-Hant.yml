@@ -1,0 +1,9 @@
+question: 比特幣交易費用是一個輸出（output）嗎？
+answer: 不是
+wrong_answers:
+  - 是
+  - 是，但僅限於 SegWit 交易
+  - 不是，但在 2012 年之前是這種情況
+explanation: |
+  費用是總輸入（inputs）與總輸出（outputs）之間的差值，而不是一個專門的輸出。自始至終都是如此。
+reviewed: false

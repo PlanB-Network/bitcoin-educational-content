@@ -1,0 +1,9 @@
+question: 코인베이스 출력은 몇 번의 컨펌 후에 사용할 수 있게 됩니까?
+answer: 101 컨펌
+wrong_answers:
+  - 6 컨펌
+  - 201 컨펌
+  - 210 컨펌
+explanation: |
+  성숙 기간은 100블록이므로, 이 UTXO들을 사용할 수 있게 하려면 101번의 컨펌이 필요합니다.
+reviewed: false

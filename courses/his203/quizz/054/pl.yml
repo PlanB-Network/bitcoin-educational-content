@@ -1,0 +1,10 @@
+question: Który standard płatności został zarejestrowany w IANA we wrześniu 2012 r. przez architekta oprogramowania Dave'a Thalera?
+answer: BIP 21 Schemat URI
+wrong_answers:
+  - BIP 32 hierarchiczne portfele deterministyczne
+  - Protokół płatności BIP 70
+  - BIP 47 kodów płatności wielokrotnego użytku
+explanation: |
+ Standard ten umożliwił sformalizowanie żądań płatności, które przybrały formę ciągu znaków lub kodu QR. Po kilku propozycjach, ostateczny schemat URI
+ został opisany w styczniu 2012 r. w ramach BIP 21 przez Matta Corallo. Został on zarejestrowany w IANA przez Dave'a Thalera we wrześniu.
+reviewed: true

@@ -1,0 +1,24 @@
+id: 7cc16549-e323-4c5e-ae33-714f874b3bd8
+start_date: 2026-05-23 09:00:00
+end_date: 2026-05-23 18:00:00
+timezone: Europe/Rome
+address_city_country: Brescia, Italy
+address_line_2: Teatro Clerici
+address_line_3: Via San Zeno 168, 25124 Brescia
+name: BitCare Forum 2026
+type: conference
+book_online: true
+book_in_person: false
+price_dollars: 40
+description: |
+  BitCare Forum è l'unico evento live in Italia interamente dedicato a Bitcoin, tenuto in italiano. L'evento riunisce sviluppatori, docenti e imprenditori per discutere del futuro di Bitcoin, affrontare idee sbagliate comuni ed esplorare opportunità di carriera. L'evento prevede tre palchi con oltre 40 relatori, un'area espositiva, spazi di networking e un marketplace Bitcoin Bazar.
+language:
+  - it
+links:
+  website: https://bitcareforum.it/
+  replay_url: 
+  live_url: 
+tags:
+  - adoption
+  - innovation
+  - use-case

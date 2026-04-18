@@ -1,0 +1,10 @@
+question: 是誰在 2011 年在 Tenebrix 加密貨幣中，將記憶密集的 Scrypt 函數實作為抗 GPU 的 mining 演算法？
+answer: ArtForz
+wrong_answers:
+  - 查理-李
+  - Lolcust
+  - Colin Percival
+explanation: |
+ Scrypt 是加拿大電腦科學家 Colin Percival 於 2009 年設計的金鑰衍生功能。它被礦工 ArtForz 採用，並協助
+ Lolcust 開發了 Tenebrix 加密貨幣，並於 2011 年 9 月推出。Charlie Lee 接著將這個模型納入 Litecoin，並於 10 月首次推出。
+reviewed: true

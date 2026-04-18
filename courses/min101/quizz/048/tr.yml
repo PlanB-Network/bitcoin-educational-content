@@ -1,0 +1,9 @@
+question: Bitcoin üzerindeki ilk madencilik havuzu hangisidir?
+answer: Braiins Pool
+wrong_answers:
+  - Foundry USA
+  - AntPool
+  - F2Pool
+explanation: |
+  Eski adı Slush Pool ve Bitcoin CZ olan Braiins Pool, 2010 yılında oluşturulan Bitcoin üzerindeki ilk madencilik havuzudur.
+reviewed: false

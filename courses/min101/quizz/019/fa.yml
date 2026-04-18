@@ -1,0 +1,9 @@
+question: چه کسی Hashcash را اختراع کرد؟
+answer: Adam Back
+wrong_answers:
+  - Nick Szabo
+  - Hal Finney
+  - David Chaum
+explanation: |
+  Hashcash توسط آدام بک اختراع شد. این اولین مکانیسم اثبات کار است.
+reviewed: false

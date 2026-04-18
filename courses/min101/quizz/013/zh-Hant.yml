@@ -1,0 +1,9 @@
+question: 哪種條件使比特幣中的區塊有效？
+answer: SHA256d(區塊頭) <= 目標值
+wrong_answers:
+  - SHA256d(區塊頭) >= 目標值
+  - SHA256d(區塊) >= 目標值
+  - SHA256d(區塊頭) > 目標值
+explanation: |
+  要使比特幣區塊有效，其區塊頭的哈希值（被視為一個數字）必須小於或等於 (<=) 難度目標值。
+reviewed: false

@@ -109,7 +109,7 @@ Bitcoin-Gemeinschaften verfolgen oft umfassendere Ziele, insbesondere im Bereich
 2. Wie es funktioniert;
 3. Sein Beitrag zur Gesellschaft;
 4. Entlarvung irreführender oder unbegründeter Behauptungen, die von einigen Persönlichkeiten des öffentlichen Lebens und den Medien aufgestellt werden;
-5. Die grundlegenden Unterschiede zwischen Bitcoin und anderen Kryptowährungen;
+5. Die grundlegenden Unterschiede zwischen Bitcoin und anderen [Kryptowährungen](https://planb.academy/resources/glossary/cryptocurrency);
 
 Durch den Aufbau der ersten "Zitadellen" von morgen dienen **Bitcoin-Gemeinschaften weltweit als Bollwerk gegen Desinformation und Zensur und bieten gleichzeitig einen fruchtbaren Boden für das Erlernen der Grundlagen von Bitcoin**. Sie bieten Neulingen, selbst Skeptikern, die Ressourcen und Verbindungen, die sie benötigen, um das wahre Potenzial von Bitcoin zu erkunden.
 
@@ -172,7 +172,7 @@ Bitcoin ist dezentralisiert, so dass es natürlich jedem freisteht, zu tun, was 
 Es ist jedoch **oft sinnvoller, die Kräfte zu bündeln, als benachbarte Gemeinschaften aufzuteilen und die Auswirkungen jeder einzelnen zu verringern**. Eine neue Gemeinschaft zu gründen, wo es bereits eine gibt, kann ungewollt Konkurrenz schaffen.
 
 In diesem Sinne kann eine einfache "Faustregel" helfen: Wenn es in einem Umkreis von 30-45 Minuten um deinen Wohnort keine aktive Bitcoin-Gemeinschaft gibt, kann es sich lohnen, eine neue zu gründen. Es steht dir jedoch immer frei, zu tun, was du willst.
-Und wenn sich eine ältere Gemeinschaft in eine Richtung "entwickelt" hat, die nicht mehr mit deinen Werten übereinstimmt, und du nicht die Zeit oder die Motivation hast, sie zu "Orange-Pillen", dann ist die Schaffung einer eigenen Fork natürlich immer eine Option.
+Und wenn sich eine ältere Gemeinschaft in eine Richtung "entwickelt" hat, die nicht mehr mit deinen Werten übereinstimmt, und du nicht die Zeit oder die Motivation hast, sie zu "[Orange-Pillen](https://planb.academy/resources/glossary/orange-pill)", dann ist die Schaffung einer eigenen [Fork](https://planb.academy/resources/glossary/fork) natürlich immer eine Option.
 
 ## Welche Ziele sollte deine Gemeinschaft verfolgen?
 
@@ -771,7 +771,7 @@ Aber du kannst nicht vorankommen, ohne zu wissen, dass **es Plattformen gibt, au
 
 Dazu gehören:
 
-- [Btcmap.org](https://btcmap.org/), eine Website mit zwei täglich aktualisierten Karten: **[die Weltkarte der Unternehmen, die Bitcoin akzeptieren](https://btcmap.org/map)** und **[die Weltkarte der Gemeinden](https://btcmap.org/communities/map)**. Viele Bitcoiner überprüfen diese Karten regelmäßig, egal ob sie auf Reisen sind oder ihrem täglichen Leben nachgehen, um neue Leute kennenzulernen oder Orte zu finden, an denen sie ihre Sats ausgeben können. Btcmap ist die globale Referenz, und die Auflistung Ihrer Gemeinschaft dort ist für die Sichtbarkeit unerlässlich.
+- [Btcmap.org](https://btcmap.org/), eine Website mit zwei täglich aktualisierten Karten: **[die Weltkarte der Unternehmen, die Bitcoin akzeptieren](https://btcmap.org/map)** und **[die Weltkarte der Gemeinden](https://btcmap.org/communities/map)**. Viele Bitcoiner überprüfen diese Karten regelmäßig, egal ob sie auf Reisen sind oder ihrem täglichen Leben nachgehen, um neue Leute kennenzulernen oder Orte zu finden, an denen sie ihre [Sats](https://planb.academy/resources/glossary/satoshi-sat) ausgeben können. Btcmap ist die globale Referenz, und die Auflistung Ihrer Gemeinschaft dort ist für die Sichtbarkeit unerlässlich.
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), eine Website, die von Bitcoinern für Bitcoiner erstellt wurde. **Sie ermöglicht es dir, die anstehenden Veranstaltungen deiner Gemeinschaft zu veröffentlichen**. In Frankreich ist sie jedoch noch nicht weit verbreitet.
 - Je nach Land gibt es vielleicht andere lokale Initiativen. In Frankreich gibt es zum Beispiel [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), die **jeden Monat Dutzende von Bitcoin-Veranstaltungen auflistet**. Wenn du ihnen also noch nicht auf Twitter gefolgt bist oder sich mit ihnen in Verbindung gesetzt hast, um Informationen über Ihre Gemeinde und Veranstaltungen auszutauschen, dann ist jetzt der richtige Zeitpunkt dafür! **Um den französischen Veranstaltungskalender auf dem neuesten Stand zu halten, wäre es toll, wenn alle französischen Bitcoin-Gemeinschaften sich angewöhnen würden:**
     - erwähnung von @bitcoinpointfr auf Twitter für jedes neue Community-Event
@@ -1041,7 +1041,7 @@ Abgesehen von seinem hohen pädagogischen Wert ermöglicht dieser Ansatz die gem
 
 Nachstehend findest du den Ablauf der französischen Treffen 2023-2024. Zu jedem Thema sind eine Open-Source-Präsentation und ein Video verfügbar, die dir Ideen für Themen geben können, die du bei deinen eigenen Veranstaltungen behandeln könntest.
 
-Zusätzliche editierbare Materialien findest du auch in der [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)!
+Weitere Ressourcen sind auch im Bereich ["Educator Content"](https://planb.academy/educator-content) der Plan ₿ Academy verfügbar, einem kollaborativen Raum, in dem Bitcoin-Pädagogen aus der ganzen Welt ihre Lehrmaterialien (Präsentationen, Flyer, Leitfäden, Poster...) in gebrauchsfertigen oder bearbeitbaren Formaten teilen und zur Verfügung stellen. Das Ziel: die Bemühungen zu bündeln, um nicht jedes Mal bei Null anfangen zu müssen!
 
 | Month | Theme | Video | Bearbeitbare Datei |
 | -------- | -------- | -------- | --- |
@@ -1120,7 +1120,7 @@ Prüfe an privaten Veranstaltungsorten wie Konzerten, Bars oder Stadien, ob bere
 
 Ein weiteres Projekt, das du leicht einrichten kannst, ist **die Einrichtung einer Bibliothek bei deinen Treffen**.
 
-Du kannst Teilnehmer, die ihren Lesestoff mit anderen teilen möchten, dazu einladen, ein Buch mit Bezug zu Bitcoin mitzubringen. Wenn jemand anderes auf dem Treffen das Buch ausleihen möchte, könnte mit dem Eigentümer eine Ausleihe gegen eine Kaution von z. B. 21.000 Satoshis über Lightning vereinbart werden.
+Du kannst Teilnehmer, die ihren Lesestoff mit anderen teilen möchten, dazu einladen, ein Buch mit Bezug zu Bitcoin mitzubringen. Wenn jemand anderes auf dem Treffen das Buch ausleihen möchte, könnte mit dem Eigentümer eine Ausleihe gegen eine Kaution von z. B. 21.000 Satoshis über [Lightning](https://planb.academy/resources/glossary/lightning-network) vereinbart werden.
 
 Für den Eigentümer ist diese Kaution eine Absicherung bei Verlust oder Diebstahl. Für den Entleiher ist es ein Anreiz, zu einem zukünftigen Treffen zu kommen, um seine Kaution zurückzuholen.
 
@@ -1530,7 +1530,7 @@ Mit diesem Anstieg der Besucherzahlen:
   - Wenn du feststellst, dass die Teilnehmerzahl zu groß wird, kannst du für künftige Treffen entweder **eine Anmeldung der Teilnehmer verlangen** (über die Meetup-App oder ein einfaches Formular) oder **mehrere Treffen pro Monat** veranstalten (z. B. ein Treffen für Anfänger, ein Treffen für Fortgeschrittene und ein Treffen für Profis).
   - Gleichzeitig ist mit vielen Neueinsteigern in das Ökosystem zu rechnen, deren Hauptziel oft darin besteht, Geld zu verdienen. Um **die Gespräche bei diesen schnell wachsenden Treffen auf Bitcoin** zu konzentrieren, ist es eine gute Idee:
 
-a) Eine **Bitcoin-Präsentation** während dieser Veranstaltungen einbauen, da dies natürlich einen Großteil der Gespräche auf dieses Thema lenken wird (und weg von dem neuesten, angeblich "revolutionären" Shitcoin-Projekt);
+a) Eine **Bitcoin-Präsentation** während dieser Veranstaltungen einbauen, da dies natürlich einen Großteil der Gespräche auf dieses Thema lenken wird (und weg von dem neuesten, angeblich "revolutionären" [Shitcoin-Projekt](https://planb.academy/resources/glossary/shitcoin));
 
 b) **Vermeide es, sich nur mit anderen Bitcoinern** zu treffen. Gehe stattdessen auf **Neulinge** zu, auch wenn das bedeutet, dass du dich zur Begrüßung in den hinteren Teil des Raumes stellst. Von dort aus könnest du darüber sprechen, warum sie gekommen sind, wonach sie suchst, die Ziele (oder sogar die Grundprinzipien) deiner Gemeinschaft und so weiter.
 
@@ -1544,7 +1544,7 @@ Zum Glück sind solche Situationen selten und oft eher absurd als bedrohlich, ab
 
 Für den Seelenfrieden: Solange du nicht persönlich gegen das Gesetz verstößst oder direkt illegale Transaktionen ermöglichst, bist du rechtlich nicht für die Handlungen anderer bei deiner Veranstaltung verantwortlich (zumindest nach französischem Recht).
 
-In einer idealen Welt hättest du einen **Raum, der groß genug ist, um mehrere Dutzend Leute** aufzunehmen, während deine Gemeinschaft wächst, und du würdest auch **starke Beziehungen zwischen Bitcoinern** und zukünftigen Bitcoinern während der Baisse aufbauen, damit du, wenn die Hausse kommt, so viele Leute wie möglich hast, die bereit sind, andere zu Orange Pillen.
+In einer idealen Welt hättest du einen **Raum, der groß genug ist, um mehrere Dutzend Leute** aufzunehmen, während deine Gemeinschaft wächst, und du würdest auch **starke Beziehungen zwischen Bitcoinern** und zukünftigen Bitcoinern während der [Baisse](https://planb.academy/resources/glossary/bear-market) aufbauen, damit du, wenn die [Hausse](https://planb.academy/resources/glossary/bull-market) kommt, so viele Leute wie möglich hast, die bereit sind, andere zu Orange Pillen.
 
 ## Dezentralisierung der Gemeindeorganisation
 

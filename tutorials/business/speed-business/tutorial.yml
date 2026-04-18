@@ -23,11 +23,12 @@ original_language: fr
 
 proofreading:
   - language: fr
-    last_contribution_date: 2025-05-30
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
       - heyolaniran
-    reward: 0.8
+      - therancedognon-max
+    reward: 0
   - language: cs
     last_contribution_date:
     urgency: 1

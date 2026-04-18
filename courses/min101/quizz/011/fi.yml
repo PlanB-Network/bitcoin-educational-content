@@ -1,0 +1,9 @@
+question: Mitä tarkoitusta varten nonce on lohkon otsakkeessa?
+answer: Otsakkeen muuntaminen uutta yritystä varten
+wrong_answers:
+  - Lohkon koon kasvattaminen
+  - Lohkon kaikkien tapahtumien edustaminen
+  - Vaikeustavoitteen ilmoittaminen
+explanation: |
+  Noncen muuttaminen muuttaa tiivisteen syötettä ja tuottaa täysin erilaisen sormenjäljen. Tämä mahdollistaa uuden yrityksen löytää voimassa oleva tiiviste.
+reviewed: false

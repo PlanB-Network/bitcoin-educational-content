@@ -1,0 +1,9 @@
+question: Sejak BIP-34, apa yang harus dimuat di awal scriptSig coinbase?
+answer: Ketinggian blok
+wrong_answers:
+  - Hashrate penambang
+  - Target kesulitan
+  - Jejak blok
+explanation: |
+  BIP-34 mewajibkan pencantuman ketinggian blok dalam scriptSig coinbase.
+reviewed: false

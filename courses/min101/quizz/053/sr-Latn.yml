@@ -1,0 +1,9 @@
+question: U šta se grupišu transakcije pre nego što budu dodate u blockchain?
+answer: U blok
+wrong_answers:
+  - U UTXO
+  - U ASIC
+  - U scriptSig
+explanation: |
+  Transakcija se ne upisuje trenutno u blockchain. Ona se prvo integriše u blok.
+reviewed: false

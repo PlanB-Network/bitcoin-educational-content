@@ -1,0 +1,9 @@
+question: Ni iyihe ngingo ituma ububiko (block) bwemerwa muri Bitcoin?
+answer: SHA256d(umutwe w'ububiko) <= intego
+wrong_answers:
+  - SHA256d(umutwe w'ububiko) >= intego
+  - SHA256d(ububiko) >= intego
+  - SHA256d(umutwe w'ububiko) > intego
+explanation: |
+  Kugira ububiko bwemerwe muri Bitcoin, hash y'umutwe wabo, iyo iharuwe nk'igiharuro, itegerezwa kuba munsi canke ingana (<=) n'intego.
+reviewed: false

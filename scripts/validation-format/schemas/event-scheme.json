@@ -1,0 +1,143 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "event-characteristics",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$",
+      "description": "Unique identifier for the event, UUID v4 format."
+    },
+    "start_date": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}$",
+      "description": "Start date and time of the event, format: YYYY-MM-DD hh:mm:ss."
+    },
+    "end_date": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}$",
+      "description": "End date and time of the event, format: YYYY-MM-DD hh:mm:ss."
+    },
+    "timezone": {
+      "type": "string",
+      "description": "IANA timezone identifier for the event location (e.g., Europe/Zurich, America/New_York)."
+    },
+    "address_city_country": {
+      "type": "string",
+      "description": "Primary address including street, city, postal code, and country. Critical for map display."
+    },
+    "address_line_2": {
+      "type": "string",
+      "description": "Additional location details such as floor or building name."
+    },
+    "address_line_3": {
+      "type": "string",
+      "description": "Additional location details such as room number."
+    },
+    "name": {
+      "type": "string",
+      "description": "Complete name of the event including the year to avoid duplication."
+    },
+    "type": {
+      "type": "string",
+      "enum": ["workshop", "course", "conference", "lecture", "meetup"],
+      "description": "Category of the event."
+    },
+    "description": {
+      "type": "string",
+      "description": "Main description of the event content and purpose."
+    },
+    "language": {
+      "type": "array",
+      "description": "Languages spoken during the event, using ISO 639-1 codes or extended codes (zh-hans, zh-hant).",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]{2}(-[a-z]+)?$"
+      },
+      "minItems": 1
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "website": {
+          "type": "string",
+          "description": "URL of the event's main website."
+        },
+        "replay_url": {
+          "type": "string",
+          "description": "URL for the event recording or replay."
+        },
+        "live_url": {
+          "type": "string",
+          "description": "URL for live streaming of the event."
+        }
+      },
+      "additionalProperties": false
+    },
+    "project_id": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$",
+      "description": "UUID of the project that organizes this event."
+    },
+    "contributor_names": {
+      "type": "array",
+      "description": "List of contributor names associated with this event.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "available_seats": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of available seats for the event."
+    },
+    "custom_tc_disclaimer": {
+      "type": "string",
+      "description": "Custom terms and conditions disclaimer for the event."
+    },
+    "is_gdpr_compliance": {
+      "type": "boolean",
+      "description": "Whether the event is GDPR compliant."
+    },
+    "test_only": {
+      "type": "boolean",
+      "description": "Whether this is a test event."
+    },
+    "tags": {
+      "type": "array",
+      "description": "List of associated tags for the event from the PlanB Network tag list.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "book_online": {
+      "type": "boolean",
+      "description": "Whether online booking is available for the event."
+    },
+    "book_in_person": {
+      "type": "boolean",
+      "description": "Whether in-person booking is available for the event."
+    },
+    "price_dollars": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Price of the event in US dollars."
+    }
+  },
+  "required": [
+    "id",
+    "start_date",
+    "end_date",
+    "timezone",
+    "address_city_country",
+    "name",
+    "type",
+    "description",
+    "language",
+    "links",
+    "tags"
+  ],
+  "additionalProperties": false
+}

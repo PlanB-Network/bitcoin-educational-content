@@ -1,0 +1,9 @@
+question: Welk statistisch principe verklaart dat de frequentie van gevonden blokken op de lange termijn convergeert naar het aandeel van de hashrate?
+answer: Wet van de grote getallen
+wrong_answers:
+  - Theorema van Bayes
+  - Verjaardagsparadox
+  - Principe van de kleinste werking
+explanation: |
+  De convergentie van de resultaten is te wijten aan de wet van de grote getallen, aangezien elke hash een onafhankelijke poging is.
+reviewed: false

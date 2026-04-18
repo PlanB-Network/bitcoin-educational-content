@@ -6,4 +6,4 @@ wrong_answers:
   - Tidak ada elemen netral untuk perkalian
 explanation: |
   Himpunan bilangan bulat tidak memenuhi kondisi inversi di bawah operasi perkalian karena tidak ada invers untuk setiap bilangan bulat yang akan dikalikan untuk menghasilkan 1. Hanya elemen 1 dan -1 yang memenuhi kondisi ini.
-reviewed: false
+reviewed: true

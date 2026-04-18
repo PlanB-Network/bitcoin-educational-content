@@ -1,0 +1,9 @@
+question: Mitä nbits-kenttä vastaa lohkon otsakkeessa?
+answer: Koodattu vaikeustavoite
+wrong_answers:
+  - Lohkon koko tavuina
+  - Lohkon tapahtumien lukumäärä
+  - Lohkon aikaleima
+explanation: |
+  Nbits-kenttä koodaa aktiivisen vaikeustavoitteen.
+reviewed: false

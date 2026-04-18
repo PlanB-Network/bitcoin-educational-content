@@ -1,0 +1,9 @@
+question: Após quantas confirmações os outputs de uma coinbase se tornam gastáveis?
+answer: 101 confirmações
+wrong_answers:
+  - 6 confirmações
+  - 201 confirmações
+  - 210 confirmações
+explanation: |
+  O período de maturação é de 100 blocos, portanto são necessárias 101 confirmações para tornar estes UTXOs gastáveis.
+reviewed: false

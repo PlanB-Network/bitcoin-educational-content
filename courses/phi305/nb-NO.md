@@ -756,7 +756,7 @@ Men som Spinoza sier: "Menneskets villfarelse slutter ikke der", og blant alle e
 
 
 
-Definisjonen av inflasjon som gis av keynesianske økonomer og velferdsstatsforkjempere, for eksempel, illustrerer også dette paradokset svært godt. Ifølge dem er inflasjon en prisøkning som, ifølge enkelte sentralbankfolk, kommer enten fra "ingensteds" eller fra geopolitiske sammenhenger som ingen kan kontrollere eller forutse. Selv om en prisøkning faktisk kan føre til syklisk inflasjon - for eksempel når oljeprisen stiger, vil prisene på visse bearbeidede varer også stige - er de virkelige strukturelle årsakene til inflasjon først og fremst knyttet til en økning i pengemengden Supply, som igjen innebærer et fall i pengeverdien og ipso facto en mekanisk prisstigning.
+Definisjonen av [inflasjon](https://planb.academy/resources/glossary/inflation) som gis av keynesianske økonomer og velferdsstatsforkjempere, for eksempel, illustrerer også dette paradokset svært godt. Ifølge dem er inflasjon en prisøkning som, ifølge enkelte sentralbankfolk, kommer enten fra "ingensteds" eller fra geopolitiske sammenhenger som ingen kan kontrollere eller forutse. Selv om en prisøkning faktisk kan føre til syklisk inflasjon - for eksempel når oljeprisen stiger, vil prisene på visse bearbeidede varer også stige - er de virkelige strukturelle årsakene til inflasjon først og fremst knyttet til en økning i pengemengden Supply, som igjen innebærer et fall i pengeverdien og ipso facto en mekanisk prisstigning.
 
 
 
@@ -1064,7 +1064,7 @@ Med andre ord, hvis vi hater en utlending, er det fordi vi forbinder denne utlen
 
 
 
-Dette gjelder forresten spesielt innen kryptovalutaer.
+Dette gjelder forresten spesielt innen [kryptovalutaer](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 
@@ -1159,7 +1159,7 @@ Det var nettopp dette opplysningstidens rasjonelle filosofi handlet om, særlig 
 Med andre ord, sier han, hvis vi tenker selv, hvis vi resonnerer som rasjonelle voksne mennesker, og hvis vi derfor bestreber oss på å se årsakssammenhengene mellom tingene, trenger vi ikke lenger en moralsk autoritet til å lære oss for eksempel religionens sanne dyder eller de sanne etiske verdiene på det politiske og økonomiske området.
 
 
-Det er et resonnement som knytter an til den østerrikske skolen i liberal økonomi, som ble født i den ekstremt fruktbare intellektuelle atmosfæren i Wien før første verdenskrig. Det var nemlig i denne konteksten at intellektuelle som Carl Menger (1840-1921), Ludwig von Mises (1883-1979) og Friedrich Hayek (1899-1992) la grunnlaget for en ny skole i liberal økonomi, som skulle bli fundamentet for overbevisningen til fremtidige cypherpunks. Og derav opprettelsen av Bitcoin.
+Det er et resonnement som knytter an til den [østerrikske](https://planb.academy/resources/glossary/austrian-school) skolen i liberal økonomi, som ble født i den ekstremt fruktbare intellektuelle atmosfæren i Wien før første verdenskrig. Det var nemlig i denne konteksten at intellektuelle som Carl Menger (1840-1921), Ludwig von Mises (1883-1979) og Friedrich Hayek (1899-1992) la grunnlaget for en ny skole i liberal økonomi, som skulle bli fundamentet for overbevisningen til fremtidige [cypherpunks](https://planb.academy/resources/glossary/cypherpunks). Og derav opprettelsen av Bitcoin.
 
 
 
@@ -1204,7 +1204,7 @@ Dette er de politiske og økonomiske argumentene som de første cypherpunkerne, 
 
 
 
-Spesielt da han skrev Times-overskriften fra 3. januar 2009 i myntbasen til Genesis-blokken av Blockchain Bitcoin for å illustrere slutten på en æra, den keynesianske, og begynnelsen på en annen med liberale, anarkistiske og libertarianske ambisjoner.
+Spesielt da han skrev Times-overskriften fra 3. januar 2009 i [myntbasen](https://planb.academy/resources/glossary/coinbase-transaction) til [Genesis-blokken](https://planb.academy/resources/glossary/genesis-block) av [Blockchain](https://planb.academy/resources/glossary/blockchain) Bitcoin for å illustrere slutten på en æra, den keynesianske, og begynnelsen på en annen med liberale, anarkistiske og libertarianske ambisjoner.
 
 
 
@@ -1212,7 +1212,7 @@ Spesielt da han skrev Times-overskriften fra 3. januar 2009 i myntbasen til Gene
 
 
 
-I hvitboken som ble publisert 31. oktober 2008, presenteres Bitcoin som en måte å utveksle verdier på Internett uten en betrodd tredjepart, basert på en desentralisert protokoll. En "kopernikansk" revolusjon som endelig vil gjøre det mulig for folk å gjenvinne sin evne til å handle, det vil si sin frihet, sin frihet til å handle, sin eiendomsrett og respekt for sitt privatliv.
+I [hvitboken](https://planb.academy/resources/glossary/white-paper) som ble publisert 31. oktober 2008, presenteres Bitcoin som en måte å utveksle verdier på Internett uten en betrodd tredjepart, basert på en desentralisert protokoll. En "kopernikansk" revolusjon som endelig vil gjøre det mulig for folk å gjenvinne sin evne til å handle, det vil si sin frihet, sin frihet til å handle, sin eiendomsrett og respekt for sitt privatliv.
 
 
 Hvorfor er det slik? Fordi Bitcoin gjør det mulig for oss å frigjøre oss fra denne trelldommen på Spinozas måte, takket være fornuften, takket være Galileis matematiske språk. Og, som Hayek foreslår, uten at staten kan motsette seg det. Og på fredelig vis, uten tvang eller misjonering.

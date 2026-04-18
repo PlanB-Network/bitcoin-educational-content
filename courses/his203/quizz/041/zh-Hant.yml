@@ -1,0 +1,10 @@
+question: 哪位 Bitcoin 開發人員曾強烈反對 Pay to Script Hash 升級？
+answer: Luke Dashjr
+wrong_answers:
+  - Amir Taaki
+  - Gregory Maxwell
+  - Gavin Andresen
+explanation: |
+ Luke Dashjr 認為 OP_EVAL 的提案更好，因為它更優雅；P2SH 以「單一特別模型」取代了腳本系統。
+ 他也批評 Gavin 在軟體中加入預設報告。作為回應，Luke-Jr 開發了自己的操作代碼 OP_CHECKHASHVERIFY（BIP 17）。
+reviewed: true

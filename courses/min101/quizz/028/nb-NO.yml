@@ -1,0 +1,9 @@
+question: Hva tilsvarer blokksubsidien?
+answer: Monetær skapelse
+wrong_answers:
+  - Transaksjonsgebyrer
+  - Brukerinnskudd
+  - Spam-straff
+explanation: |
+  Subsidien er den delen av belønningen som skaper nye bitcoins ex nihilo i henhold til protokollreglene.
+reviewed: false

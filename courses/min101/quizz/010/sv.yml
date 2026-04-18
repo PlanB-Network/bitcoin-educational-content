@@ -1,0 +1,9 @@
+question: Vilken storlek har nonce i blockhuvudet?
+answer: 32 bitar
+wrong_answers:
+  - 128 bitar
+  - 64 bitar
+  - 256 bitar
+explanation: |
+  Nonce är ett 32-bitars fält i huvudet.
+reviewed: false

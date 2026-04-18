@@ -335,7 +335,7 @@ Mu kwishura ku vyashikiye John Law, Cantillon arasigura ibiba canke bitegerezwa 
 ![image](assets/rn/017.webp)
 
 
-Abona ingaruka zibiri nyamukuru zo gusubirira amahera atagira agaciro nyakuri nk’amahera y’impapuro n’ay’icuma. Inkurikizi ya mbere ni ico yita "ukwankwa na benshi", bisobanura ko abantu barushiriza kwizigira amahera atagira agaciro. Inkurikizi ya kabiri ni ugutera imbere kw’ibiciro: ugucika intege kw’amahera bituma ibintu bizimba cane.
+Abona ingaruka zibiri nyamukuru zo gusubirira amahera atagira agaciro nyakuri nk’amahera y’impapuro n’ay’icuma. Inkurikizi ya mbere ni ico yita "ukwankwa na benshi", bisobanura ko abantu barushiriza kwizigira amahera atagira agaciro. Inkurikizi ya kabiri ni [ugutera imbere kw’ibiciro](https://planb.academy/resources/glossary/inflation): ugucika intege kw’amahera bituma ibintu bizimba cane.
 
 
 Ica kane, mu gusesangura **inflation(itakaza ry'agaciro)**, Cantillon yaragiye kure y’abo mu gihe ciwe. Cantillon amaze kubona ukuntu ubutegetsi bwa Law bwasenyutse, yarabonye ko ugutera imbere kw’amahera kudatera abantu bose kimwe. Ahubwo riho, iratunganya bamwebamwe mu gihe abandi igira abakene. Yaciye avuga ko ugutera imbere kw’ibiciro kugira ingaruka zo gusubira gusangira: abaronka amahera mashasha asohotse babanje kwungukira ku bushobozi bwo kugura bwongerekanye, mu gihe abayaronka mu nyuma baba abakene kubera amahera mashasha asohotse kubera ugutera imbere kw’ibiciro.

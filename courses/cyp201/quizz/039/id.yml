@@ -6,3 +6,4 @@ wrong_answers:
   - Menghasilkan bitcoin untuk setiap pengguna
 explanation: |
   Dompet Bitcoin tidak secara langsung menyimpan bitcoin tetapi mengelola kunci privat yang diperlukan untuk membuka UTXO yang mewakili bitcoin.
+reviewed: true

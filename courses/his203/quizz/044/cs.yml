@@ -1,0 +1,10 @@
+question: Jaký problém měl vyřešit Namecoin, první alternativní kryptoměna k Bitcoin?
+answer: Centralizace doménových jmen
+wrong_answers:
+  - Správa pověsti online
+  - Problém odchylky mining
+  - Nerovnoměrné rozdělení bitcoinů
+explanation: |
+ Na systém doménových jmen dohlíží nezisková společnost ICANN, která je založena podle kalifornského práva, což představuje problém s cenzurou. Koncept BitDNS
+ (později přejmenovaný na Namecoin) spočíval v umístění správy těchto doménových jmen na blockchain podobný Bitcoin, aby se tento problém obešel.
+reviewed: true

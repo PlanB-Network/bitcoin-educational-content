@@ -1,0 +1,9 @@
+question: Doğrulamanın ardından, bir Bitcoin düğümü (node) geçerli ancak onaylanmamış bir işlemle ne yapar?
+answer: İşlemi eşlerine (peers) iletir
+wrong_answers:
+  - İşlemi blockchain'in yerel kopyasına ekler
+  - İşlemi özel anahtarıyla imzalar
+  - İşlemi genel anahtarıyla şifreler
+explanation: |
+  Bitcoin ağında, her düğüm geçerli işlemleri bağlı olduğu düğümlere yayar.
+reviewed: false

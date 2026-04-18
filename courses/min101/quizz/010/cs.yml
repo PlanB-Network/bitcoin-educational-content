@@ -1,0 +1,9 @@
+question: Jaká je velikost nonce v hlavičce bloku?
+answer: 32 bitů
+wrong_answers:
+  - 128 bitů
+  - 64 bitů
+  - 256 bitů
+explanation: |
+  Nonce je 32bitové pole v hlavičce.
+reviewed: false

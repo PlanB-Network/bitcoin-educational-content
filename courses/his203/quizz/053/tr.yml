@@ -1,0 +1,11 @@
+question: Jeremias Kangas ve kardeşi tarafından Haziran 2012'de başlatılan özelden özele döviz hizmetinin adı neydi?
+answer: LocalBitcoins
+wrong_answers:
+  - BTC YAKINIMDA
+  - BitInstant
+  - Coinabul
+explanation: |
+ Bu, 7 Haziran'da başlatılan bir eşleştirme platformuydu. Yaz boyunca, LocalBitcoins, bitcoinlerin emanet edilebileceği bir emanet sistemi entegre etti
+ platform tarafından anlık olarak tutulur ve alıcıya ödeme için SMS yoluyla serbest bırakılır. Bu özellikle, satıcının aşağıdaki durumlarda yüz yüze alışveriş yapabilmesini sağladı
+ nakit alındıktan sonra bitcoinleri serbest bırakmak.
+reviewed: true

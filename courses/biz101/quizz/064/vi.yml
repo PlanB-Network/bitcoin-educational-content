@@ -1,9 +1,9 @@
-question: Tính năng nào khiến giải pháp Swiss Bitcoin Pay đặc biệt phù hợp với các doanh nghiệp nhỏ trong hồ sơ Essential?
+question: Tính năng nào khiến giải pháp Swiss Bitcoin Pay đặc biệt phù hợp với các doanh nghiệp nhỏ trong nhóm hồ sơ thiết yếu?
 answer: Ứng dụng PoS thân thiện với người dùng
 wrong_answers:
-  - Các tính năng giao dịch đa tiền tệ nâng cao
-  - Quản lý wallet đa chữ ký
-  - Tích hợp phân tích blockchain đầy đủ
+  - Các tính năng nâng cao cho giao dịch đa ngoại tệ
+  - Quản lý ví đa chữ ký
+  - Tích hợp đầy đủ tính năng phân tích dữ liệu chuỗi khối (blockchain)
 explanation: |
-  Swiss Bitcoin Pay được thiết kế với giao diện PoS đơn giản giúp đơn giản hóa các hoạt động hàng ngày.
+  Swiss Bitcoin Pay được thiết kế với giao diện PoS đơn giản giúp đơn giản hóa các hoạt động giao dịch hàng ngày.
 reviewed: true

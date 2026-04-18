@@ -1,0 +1,9 @@
+question: Apakah biaya transaksi Bitcoin merupakan sebuah output?
+answer: Tidak
+wrong_answers:
+  - Ya
+  - Ya, tetapi hanya untuk transaksi SegWit
+  - Tidak, tetapi itu terjadi sebelum tahun 2012
+explanation: |
+  Biaya adalah selisih antara total input dan total output, bukan output khusus. Hal ini sudah berlaku sejak awal.
+reviewed: false

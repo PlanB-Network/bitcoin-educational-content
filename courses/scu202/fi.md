@@ -156,8 +156,6 @@ Oletko valmis ottamaan tietoturvan täysin haltuun, vahvistamaan henkilökohtais
 
 
 
-**HUOM:** Jos kurssin aikana tulee vastaan tuntemattomia termejä, katso määritelmät [sanastosta](https://planb.academy/resources/glossary)
-
 
 
 ## SCU101:n olennainen yhteenveto
@@ -1242,7 +1240,7 @@ Parrot OS on myös johdettu Debianista. Se tarjoaa ympäristön pentestejä, hy�
 
 
 
-Tails on Debian-pohjainen, yksityisyyteen keskittyvä live-jakelu. Kaikki kulkee Tor-verkon kautta, eikä mitään tallenneta käyttäjäistuntojen välillä. Se on ihanteellinen jakelu arkaluonteiseen kertakäyttöön (journalismi, aktivismi, seed Bitcoin:n tuottaminen...).
+Tails on Debian-pohjainen, yksityisyyteen keskittyvä live-jakelu. Kaikki kulkee [Tor](https://planb.academy/resources/glossary/tor)-verkon kautta, eikä mitään tallenneta käyttäjäistuntojen välillä. Se on ihanteellinen jakelu arkaluonteiseen kertakäyttöön (journalismi, aktivismi, [seed](https://planb.academy/resources/glossary/seed) Bitcoin:n tuottaminen...).
 
 
 
@@ -4053,11 +4051,11 @@ Laillinen kehittäjä julkaisee yleensä alkuperäisen tiedoston Hash:n virallis
 
 
 
-Toinen työkalu on digitaalinen allekirjoitus. Sillä todennetaan asennusohjelmiston aitous. Kehittäjä allekirjoittaa Hash:n sisältävän tiedoston yksityisellä avaimellaan, ja voit tarkistaa tämän allekirjoituksen käyttämällä vastaavaa julkista avainta. Tämä todistaa, että tiedoston on julkaissut oikea henkilö.
+Toinen työkalu on [digitaalinen allekirjoitus](https://planb.academy/resources/glossary/digital-signature). Sillä todennetaan asennusohjelmiston aitous. Kehittäjä allekirjoittaa Hash:n sisältävän tiedoston yksityisellä avaimellaan, ja voit tarkistaa tämän allekirjoituksen käyttämällä vastaavaa julkista avainta. Tämä todistaa, että tiedoston on julkaissut oikea henkilö.
 
 
 
-Tämä järjestelmä perustuu epäsymmetriseen salaukseen ja työkaluihin, kuten GnuPG (komentorivi) tai Kleopatra (Interface graafinen Windowsille). Nämä työkalut on konfiguroitava oikein, ja kehittäjän julkinen avain on varmennettava suojatun kanavan kautta (virallinen verkkosivusto, sormenjälki Twitterissä...). Katsotaanpa käytännön asioita.
+Tämä järjestelmä perustuu epäsymmetriseen salaukseen ja työkaluihin, kuten GnuPG (komentorivi) tai Kleopatra (Interface graafinen Windowsille). Nämä työkalut on konfiguroitava oikein, ja kehittäjän [julkinen avain](https://planb.academy/resources/glossary/public-key) on varmennettava suojatun kanavan kautta (virallinen verkkosivusto, sormenjälki Twitterissä...). Katsotaanpa käytännön asioita.
 
 
 
@@ -8238,7 +8236,7 @@ Näitä portteja käytetään myös Bitcoin:n tai Torin kaltaisissa järjestelmi
 
 - Porttia "8333" käytetään P2P-yhteyksiin Bitcoin:ssa Mainnet:ssa
 - Porttia "18333" käytetään P2P-yhteyksiin Bitcoin:ssä Testnet:ssa
-- Porttia "8332" käytetään Bitcoin-solmun Interface RPC:ssa
+- Porttia "8332" käytetään Bitcoin-[solmun](https://planb.academy/resources/glossary/node) Interface RPC:ssa
 - Torin SOCKS5-välityspalvelin käyttää porttia `9050`
 - Tor-selain käyttää porttia `9150`
 

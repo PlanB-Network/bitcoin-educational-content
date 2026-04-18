@@ -1,0 +1,9 @@
+question: Vad används nonce till i blockhuvudet?
+answer: Att variera huvudet för ett nytt försök
+wrong_answers:
+  - Öka blockstorleken
+  - Representera alla transaktioner i blocket
+  - Indikera svårighetsmålet
+explanation: |
+  Genom att ändra nonce ändras indata till hashen och producerar ett helt annat fingeravtryck. Detta gör det möjligt att försöka hitta en giltig hash igen.
+reviewed: false

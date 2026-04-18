@@ -1,0 +1,8 @@
+question: In the Böhm-Bawerk example, why did the farmer choose to stop feeding the parrots when he lost a sack of wheat?
+answer: Because feeding parrots was the lowest priority use according to his subjective preferences
+wrong_answers:
+  - Because parrots cost the most to feed in terms of wheat quantity
+  - Because the parrots were sick and could no longer be sold at the market
+  - Because whisky production automatically generated more income than parrots
+explanation: |
+  This example perfectly illustrates the principle of marginal utility and subjective opportunity cost. The farmer has established a personal hierarchy of his needs: basic food, building up his strength, chicken feed, whisky production, and finally parrots. Faced with the constraint of limited resources, he naturally gives up the use he values least subjectively, demonstrating that value is not objective but depends on individual preferences.

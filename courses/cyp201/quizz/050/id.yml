@@ -6,4 +6,4 @@ wrong_answers:
   - Rekam di media digital seperti Google Drive
 explanation: |
   Passphrase harus disimpan secara fisik dan terpisah dari frasa mnemonik untuk mencegah pencurian keduanya secara bersamaan.
-ditinjau: false
+reviewed: true

@@ -1,0 +1,9 @@
+question: ビットコインの初期には、主にどのようなハードウェアでマイニングが行われていましたか？
+answer: CPU
+wrong_answers:
+  - GPU
+  - ASIC
+  - FPGA
+explanation: |
+  リリース当初、ソフトウェアはパーソナルコンピュータ上で動作し、主にCPUを使用していました。
+reviewed: false

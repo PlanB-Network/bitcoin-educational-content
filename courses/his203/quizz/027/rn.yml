@@ -1,0 +1,11 @@
+question: Ni ikibazo ikihe iciyumviro ca wallet c’ugushinga intahe catowe umuti cashizweho n’umuhinguzi Gregory Maxwell muri Ruheshi 2011?
+answer: Ivy'uko habaho ububiko bw'imfunguruzo z'ibanga kugira ngo umuntu akingire bitcoins
+wrong_answers:
+  - Ico kibazo c'ubusuma gifitaniye isano n'ukubika amafaranga y'ama bitcoins ku gikoresho gihuye na Internet
+  - Ugushikirwa n'ingorane z'ibitero vy'inguvu z'agahomerabunwa bitewe n'uburemere buke bw'ibikoresho bitanga umubare w'imburakimazi
+  - Kudashobora gusubira gukoresha konti ku kindi gikoresho
+explanation: |
+ Deterministic wallets zikoresha ugukura kw'urufunguzo: aho kuba generated ku giti cabo ku buryo butari bwo, nk'uko vyakozwe muri porogarama nyamukuru, urufunguzo rw'ibanga rurakurwa . 
+ deterministically bivuye ku makuru (yitwa seed) hakoreshejwe ibikorwa vy’ubuhinga bwo gukingira amakuru. Ubwo buryo bwakoreshejwe na porogarama ya BitcoinSpinner na Electrum . 
+ wallets mu mpera z'umwaka w'2011.
+reviewed: true

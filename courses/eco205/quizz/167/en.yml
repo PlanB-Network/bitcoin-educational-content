@@ -1,0 +1,8 @@
+question: How did Louis de Molina conceptualize competition in his 1592 treatise, and how did this vision differ from the dominant economic approaches of his day?
+answer: As a dynamic process of rivalry between buyers and sellers, in opposition to the prevailing static, mercantilist visions
+wrong_answers:
+  - "As a mathematically defined state of perfect equilibrium, in line with the mercantilist principles of the time"
+  - "As a state-controlled monopolistic structure, aligned with traditional Thomistic economic doctrine."
+  - "As a system of fixed prices determined by the Church, respecting the principles of medieval scholasticism"
+explanation: |
+  Molina revolutionized economic thinking by developing a dynamic vision of competition as a living process of rivalry, anticipating the theories of Mises and Hayek. He opposed static visions of value and the prevailing mercantilism, understanding markets to be constant processes of adjustment rather than fixed states of equilibrium.

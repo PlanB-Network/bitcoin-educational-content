@@ -1,0 +1,10 @@
+question: Missä verkkomediassa julkaistiin Adrian Chenin artikkeli, joka toi Silk Roadin julkisuuteen 1. kesäkuuta 2011?
+answer: Gawker
+wrong_answers:
+  - Gizmodo
+  - Slashdot
+  - Hackernews
+explanation: |
+ Gawker.com oli vaikutusvaltainen blogi, jossa lukuisat kirjoittajat julkaisivat toisinaan ristiriitaisia artikkeleita. Se ajautui konkurssiin vuonna 2016 Gawkerin nostaman kanteen jälkeen
+ Hulk Hogan ja Peter Thiel.
+reviewed: true

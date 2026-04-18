@@ -1,0 +1,9 @@
+question: बिटकॉइन पर सबसे पहला माइनिंग पूल कौन सा है?
+answer: Braiins Pool
+wrong_answers:
+  - Foundry USA
+  - AntPool
+  - F2Pool
+explanation: |
+  Braiins Pool, जिसे पहले Slush Pool और Bitcoin CZ के नाम से जाना जाता था, बिटकॉइन पर पहला माइनिंग पूल है, जिसे 2010 में बनाया गया था।
+reviewed: false

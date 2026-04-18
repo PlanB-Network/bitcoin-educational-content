@@ -1,0 +1,9 @@
+question: K čemu slouží nonce v hlavičce bloku?
+answer: K obměně hlavičky pro nový pokus
+wrong_answers:
+  - Ke zvětšení velikosti bloku
+  - K reprezentaci všech transakcí v bloku
+  - K určení cíle obtížnosti
+explanation: |
+  Změna nonce mění vstup hashe a vytváří zcela jiný otisk. To umožňuje zkusit znovu najít platný hash.
+reviewed: false

@@ -1,10 +1,11 @@
-question: Ni kuki umusesanguzi atazokoresha CoinJoin ku bijanye n’ugucuruza kw’ubwoko bwa Stonewall?
+question: Kuki umushakashatsi atazoshirako CIOH kuri transaction yubwoko bwa Stonewall?
 answer: Kuko hariho ibisohoka 2 vy'amahera amwe .
 wrong_answers:
   - Kuko hariho 2 gusa vyinjizwa .
   - Kubera ko batamenyereye iyo nzira .
   - Kuko hariho ibisohoka vyinshi kuruta ivyo yinjira .
 explanation: |
-  Gusuzuma ibikorwa vya Stonewall bivuye hanze ntibituma hakoreshwa CoinJoin, kuko kubaho kw’ibisohoka bibiri vy’umubare umwe bivuga ko hariho uburyo bwa CoinJoin. Umuntu abona ibintu hanze, CoinJoin rero ntishobora gukoreshwa muri iki kibazo kidasanzwe.
   
+  Isesengura rya transaction ya Stonewall kuva hanze ntabwo riganisha ku gushirako CIOH, kuko kubaho kwa outputs ebyiri zifise amafaranga amwe byerekana pattern ya coinjoin. Uhereye ku buryo bwo hanze, CIOH ntibikwiranye muri iyi nkuru yihariye.
+
 reviewed: false

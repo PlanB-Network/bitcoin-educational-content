@@ -1,0 +1,9 @@
+question: 비트코인에서 블록이 유효하기 위한 조건은 무엇입니까?
+answer: SHA256d(블록 헤더) <= 목표값
+wrong_answers:
+  - SHA256d(블록 헤더) >= 목표값
+  - SHA256d(블록) >= 목표값
+  - SHA256d(블록 헤더) > 목표값
+explanation: |
+  비트코인에서 블록이 유효하려면 숫자로 해석된 헤더 해시가 목표값보다 작거나 같아야(<=) 합니다.
+reviewed: false

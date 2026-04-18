@@ -1,0 +1,9 @@
+question: Jak se vypočítají poplatky za transakci?
+answer: Vstupy minus výstupy
+wrong_answers:
+  - Výstupy minus vstupy
+  - Vstupy plus výstupy
+  - Výstupy děleno vstupy
+explanation: |
+  Poplatky odpovídají hodnotě spotřebované ve vstupech, která není znovu vytvořena ve výstupech.
+reviewed: false

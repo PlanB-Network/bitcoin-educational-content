@@ -1,0 +1,9 @@
+question: Was ist laut der von Satoshi zusammengefassten Idee die einzige Möglichkeit, das Fehlen von Doppel-Ausgaben (Double-Spending) sicherzustellen?
+answer: Alle Transaktionen zu kennen
+wrong_answers:
+  - Alle aktiven Nodes zu kennen
+  - Alle aktiven Miner zu kennen
+  - Alle privaten Schlüssel zu kennen
+explanation: |
+  Double-Spending wird erkannt, indem eine Transaktion mit vergangenen Ausgaben verglichen wird, die in einem gemeinsamen Register verzeichnet sind.
+reviewed: false

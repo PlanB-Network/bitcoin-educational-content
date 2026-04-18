@@ -6,4 +6,4 @@ wrong_answers:
   - Menggabungkan tweak t dan kunci publik P
 explanation: |
   Kunci publik Taproot Q diperoleh dengan menambahkan hasil kali skalar dari tweak t dengan generator G ke kunci publik P.
-ditinjau: false
+reviewed: true

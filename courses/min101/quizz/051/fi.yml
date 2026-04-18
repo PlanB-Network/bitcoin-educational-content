@@ -1,0 +1,9 @@
+question: Mitä resurssia Bitcoin-louhinta tarvitsee?
+answer: Sähköä
+wrong_answers:
+  - Vettä
+  - Jalokiviä
+  - Kultaa
+explanation: |
+  Louhinta on validointityötä, joka kuluttaa sähköä tietokoneiden kautta.
+reviewed: false

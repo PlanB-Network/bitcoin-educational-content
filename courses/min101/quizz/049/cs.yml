@@ -1,0 +1,9 @@
+question: Jaký praktický problém se těžební pool snaží především vyřešit?
+answer: Rozptyl příjmů
+wrong_answers:
+  - Obtížnost sítě
+  - Velikost bloků
+  - Cena ASIC
+explanation: |
+  Sdílením hashrate pool mění velmi nepravidelný příjem na pravidelnější platby. Pro těžaře to znamená snížení rozptylu příjmů.
+reviewed: false

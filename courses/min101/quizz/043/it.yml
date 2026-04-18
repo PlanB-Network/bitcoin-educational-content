@@ -1,0 +1,9 @@
+question: Tra la metà del 2010 e la metà del 2011, di quale fattore si è moltiplicata la difficoltà di mining?
+answer: 1000
+wrong_answers:
+  - 100
+  - 500
+  - 50
+explanation: |
+  In questo periodo si è verificata una moltiplicazione per 1.000, in particolare a causa dell'uso delle GPU.
+reviewed: false

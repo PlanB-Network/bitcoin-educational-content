@@ -90,8 +90,6 @@ Siap terjun ke dunia jaringan komputer? Mari kita mulai!
 **CATATAN**: Deskripsi ini didasarkan pada sistem GNU/Linux CentOS 7. Namun, konfigurasi jaringan sebagian besar sama ketika membandingkan sistem Debian dengan sistem CentOS. Jadi, kami tidak akan membuat perbedaan apa pun. Jika ada, kami akan mengawalinya dengan logo tertentu.
 
 
-**NB **: Jika Anda menemukan istilah yang tidak dikenal selama kursus, silakan baca [daftar istilah](https://planb.academy/resources/glossary) untuk mendapatkan definisi.
-
 
 
 # Protokol TCP/IP

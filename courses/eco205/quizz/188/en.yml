@@ -1,0 +1,8 @@
+question: What main methodological innovation distinguishes Carl Menger's approach to price formation analysis from that of classical economists like Smith and Ricardo?
+answer: The adoption of a subjective theory of value based on ordinal individual assessments rather than objective measures
+wrong_answers:
+  - "The systematic use of mathematics to precisely quantify consumer preferences in markets"
+  - "The priority given to contextual historical analysis to understand the mechanisms of price formation in each society"
+  - "Integrating the labor theory of value with surplus-value concepts to explain price fluctuations"
+explanation: |
+  Menger revolutionized economics by abandoning objective theories of value (labor, cost of production) in favor of a subjective approach. His theory postulates that value emerges from individual subjective assessments, which are ordinal (we can rank our preferences) but not cardinal (we can't measure deviation). This innovation resolves paradoxes such as diamond and water, inexplicable by classical theories based on embodied labor.

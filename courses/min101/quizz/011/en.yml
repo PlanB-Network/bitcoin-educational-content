@@ -1,0 +1,9 @@
+question: What is the purpose of the nonce in the block header?
+answer: To vary the header for a retry
+wrong_answers:
+  - To increase the block size
+  - To represent all transactions in the block
+  - To indicate the difficulty target
+explanation: |
+  Changing the nonce changes the hash input and produces a completely different hash. This allows for retrying to find a valid hash.
+reviewed: true

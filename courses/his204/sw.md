@@ -317,7 +317,7 @@ Kwa kuguswa na uzoefu wa John Law, Cantillon anaelezea kile kinachotokea au lazi
 ![image](assets/sw/017.webp)
 
 
-Anaona matokeo mawili kuu ya kubadilisha sarafu isiyo na thamani halisi kama pesa ya karatasi kwa chuma. Matokeo ya kwanza ni kile anachokiita "popular discredit", ambayo ina maana ya kuongezeka kwa kutoamini pesa zisizo na thamani. Matokeo ya pili ni mfumuko wa bei: kudhoofika kwa fedha hufanya bidhaa kuwa ghali zaidi.
+Anaona matokeo mawili kuu ya kubadilisha sarafu isiyo na thamani halisi kama pesa ya karatasi kwa chuma. Matokeo ya kwanza ni kile anachokiita "popular discredit", ambayo ina maana ya kuongezeka kwa kutoamini pesa zisizo na thamani. Matokeo ya pili ni [mfumuko wa bei](https://planb.academy/resources/glossary/inflation): kudhoofika kwa fedha hufanya bidhaa kuwa ghali zaidi.
 
 
 Nne, katika uchanganuzi wake wa mfumuko wa bei, Cantillon alikwenda mbali zaidi kuliko watu wa zama zake. Baada ya kuona kuporomoka kwa mfumo wa Law, Cantillon aligundua kuwa mfumuko wa bei wa fedha hauathiri kila mtu kwa usawa. Kinyume chake, inawatajirisha wengine huku ikiwafukarisha wengine. Alihitimisha kuwa mfumuko wa bei una athari ya ugawaji upya: wale wanaopokea pesa mpya zilizotolewa kwanza wanafaidika na kuongezeka kwa uwezo wa kununua, wakati wale wanaopokea baadaye wanakuwa maskini zaidi kutokana na fedha mpya zinazotolewa kutokana na kupanda kwa viwango vya mfumuko wa bei.

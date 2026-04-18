@@ -1,0 +1,9 @@
+question: 在比特幣交易中，輸入（inputs）消耗的是什麼？
+answer: 現有的 UTXO
+wrong_answers:
+  - 未來的輸出（outputs）
+  - 現有的區塊
+  - 未來的地址
+explanation: |
+  輸入引用的是過去交易中未花費的輸出，稱為 UTXO。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Wat verandert de halving bij Bitcoin?
+answer: De bloksubsidie
+wrong_answers:
+  - De transactiekosten
+  - De blokgrootte
+  - Het moeilijkheidsdoel
+explanation: |
+  De halving halveert de maximale subsidie die per blok wordt gecreëerd, zonder de kosten te beïnvloeden.
+reviewed: false

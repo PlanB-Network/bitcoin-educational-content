@@ -1,0 +1,9 @@
+question: 區塊中的交易何時被確認？
+answer: 當區塊被添加到區塊鏈時
+wrong_answers:
+  - 當交易被礦工簽名時
+  - 當交易被節點廣播時
+  - 當礦工開始尋找證明時
+explanation: |
+  比特幣支付的確認是包含該支付的區塊被添加到區塊鏈之後的結果。
+reviewed: false

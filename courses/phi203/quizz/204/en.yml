@@ -1,0 +1,8 @@
+question: What Latin phrase does the text use to name the specific logical fallacy whereby socialists and protectionists confuse temporal sequence with causal connection?
+answer: Post hoc, ergo propter hoc — "after this, therefore because of this"
+wrong_answers:
+  - Ad hominem — "against the person" — attacking the character of the economist rather than the argument
+  - Reductio ad absurdum — "reduction to the absurd" — pushing a liberal premise to an extreme to discredit it
+  - Non sequitur — "it does not follow" — asserting a conclusion that has no logical connection to the premises
+explanation: |
+  Bastiat explicitly names the fallacy of post hoc, ergo propter hoc as a central tool in the sophist arsenal. Socialists and protectionists construct rapid chains of reasoning in which, on close examination, obvious causal errors can be detected. They postulate conclusions that do not follow logically from their premises, and often build their theoretical scaffolding on factually false foundations or ill-defined concepts. Naming the fallacy by its classical Latin term is part of the liberal project of rigorous intellectual refutation.

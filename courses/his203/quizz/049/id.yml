@@ -1,0 +1,11 @@
+question: Siapakah dalang di balik implementasi proof-of-stake hybrid pertama yang dilakukan pada bulan Agustus 2012 melalui mata uang kripto PPCoin?
+answer: Sunny King
+wrong_answers:
+  - Vitalik Buterin
+  - Datang-Dari-Luar
+  - Ben Laurie
+explanation: |
+ Sunny King adalah nama pena dari pengembang utama proyek ini. Idenya adalah untuk mengimplementasikan model hibrida di mana blok-blok tertentu divalidasi oleh bukti konservasi
+ (berdasarkan konsep usia koin), selain blok yang ditambang dengan mining konvensional. Sunny King dan kolaboratornya meluncurkan PPCoin pada bulan Agustus 2012
+ (kemudian berganti nama menjadi Peercoin). Mereka mendeskripsikan solusi mereka sebagai "hemat energi dalam jangka panjang".
+reviewed: true

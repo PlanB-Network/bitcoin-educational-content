@@ -826,7 +826,7 @@ Trong thế kỷ 20, hai xu hướng chính đã nổi lên:
 2. **Người theo chủ nghĩa vô chính phủ tư bản khác:** người tin rằng các chức năng của nhà nước nên được tư nhân hóa và quản lý bởi thị trường.
 
 
-Tuy nhiên, cả hai đều đồng ý về nguyên tắc cơ bản của chủ quyền cá nhân. Các ý tưởng tự do đã được thể hiện từ thế kỷ 18 bởi các nhà kinh tế học theo trường phái Physiocrats, đặc biệt là Vincent de Gournay và Turgot, và được phát triển bởi Condillac, Jean-Baptiste Say và Frédéric Bastiat. Vào thế kỷ 20, chúng được tiếp thu và phát triển bởi trường phái kinh tế học Áo, với các tác giả chính là Ludwig von Mises, Friedrich Hayek và Murray Rothbard.
+Tuy nhiên, cả hai đều đồng ý về nguyên tắc cơ bản của chủ quyền cá nhân. Các ý tưởng tự do đã được thể hiện từ thế kỷ 18 bởi các nhà kinh tế học theo trường phái Physiocrats, đặc biệt là Vincent de Gournay và Turgot, và được phát triển bởi Condillac, Jean-Baptiste Say và Frédéric Bastiat. Vào thế kỷ 20, chúng được tiếp thu và phát triển bởi [trường phái kinh tế học Áo](https://planb.academy/resources/glossary/austrian-school), với các tác giả chính là Ludwig von Mises, Friedrich Hayek và Murray Rothbard.
 
 
 
@@ -1626,10 +1626,10 @@ Cuối khóa học này, chúng tôi cho rằng việc đề cập đến lập 
 
 
 
-Bitcoin là một loại tiền điện tử phi tập trung, được Satoshi Nakamoto tạo ra vào năm 2008, cho phép thực hiện các giao dịch tài chính ngang hàng không cần sự tin tưởng lẫn nhau.
+Bitcoin là một loại [tiền điện tử](https://planb.academy/resources/glossary/cryptocurrency) phi tập trung, được Satoshi Nakamoto tạo ra vào năm 2008, cho phép thực hiện các giao dịch tài chính [ngang hàng](https://planb.academy/resources/glossary/peertopeer-p2p) không cần sự tin tưởng lẫn nhau.
 
 
-Bitcoin được điều khiển bởi một giao thức phần mềm mã nguồn mở, không có CEO, không có trụ sở chính, không có ngân sách tiếp thị và không có cơ quan quản lý được chỉ định. Điều này có nghĩa là không có thực thể chính trị hay chính phủ nào kiểm soát nó.
+Bitcoin được điều khiển bởi một giao thức phần mềm [mã nguồn mở](https://planb.academy/resources/glossary/foss), không có CEO, không có trụ sở chính, không có ngân sách tiếp thị và không có cơ quan quản lý được chỉ định. Điều này có nghĩa là không có thực thể chính trị hay chính phủ nào kiểm soát nó.
 
 
 
@@ -1645,7 +1645,7 @@ Mặc dù Bitcoin không thuộc cánh hữu hay cánh tả, cũng không thuộ
 
 
 
-Đọc Sách Trắng Nakamoto về Satoshi, chúng ta có thể thấy rằng Bitcoin được thiết kế để cung cấp khả năng bảo vệ tiên tiến chống lại hai mối đe dọa lớn hiện nay: hoạt động giám sát diện rộng và sự gia tăng nhanh chóng việc tạo ra tiền ảo.
+Đọc [Sách Trắng](https://planb.academy/resources/glossary/white-paper) Nakamoto về Satoshi, chúng ta có thể thấy rằng Bitcoin được thiết kế để cung cấp khả năng bảo vệ tiên tiến chống lại hai mối đe dọa lớn hiện nay: hoạt động giám sát diện rộng và sự gia tăng nhanh chóng việc tạo ra tiền ảo.
 
 
 
@@ -1653,7 +1653,7 @@ Mặc dù Bitcoin không thuộc cánh hữu hay cánh tả, cũng không thuộ
 
 
 
-2. Bitcoin cho phép mọi người bảo vệ khoản tiết kiệm của mình trước sự xâm phạm tài sản tư nhân thể hiện qua lạm phát tiền tệ. Đó là một nỗ lực nhằm thách thức sự kiểm soát của nhà nước đối với việc quản lý tiền tệ như một công cụ trao đổi, và do đó cạnh tranh với nhà nước. Cuộc khủng hoảng tài chính năm 2008 và đại dịch Covid-19 đã làm nổi bật những điểm yếu trong hệ thống hiện tại. Hàng nghìn tỷ đô la được in ra từ hư không để ngăn chặn nền kinh tế sụp đổ hơn nữa đã gây ra những hậu quả tàn khốc, mà chúng ta vẫn đang phải trả giá.
+2. Bitcoin cho phép mọi người bảo vệ khoản tiết kiệm của mình trước sự xâm phạm tài sản tư nhân thể hiện qua [lạm phát](https://planb.academy/resources/glossary/inflation) tiền tệ. Đó là một nỗ lực nhằm thách thức sự kiểm soát của nhà nước đối với việc quản lý tiền tệ như một công cụ trao đổi, và do đó cạnh tranh với nhà nước. Cuộc khủng hoảng tài chính năm 2008 và đại dịch Covid-19 đã làm nổi bật những điểm yếu trong hệ thống hiện tại. Hàng nghìn tỷ đô la được in ra từ hư không để ngăn chặn nền kinh tế sụp đổ hơn nữa đã gây ra những hậu quả tàn khốc, mà chúng ta vẫn đang phải trả giá.
 
 
 
@@ -1681,7 +1681,7 @@ Câu nói này của Satoshi Nakamoto là nền tảng để hiểu triết lý 
 
 
 
-Việc đưa tiêu đề này vào khối khởi tạo có thể được hiểu theo nhiều cách. Nhưng nó có thể được xem như lời bình luận của Satoshi về những thất bại của các tổ chức tài chính truyền thống, và như một tuyên bố về mục tiêu của Bitcoin: đưa ra một giải pháp thay thế cho hệ thống ngân hàng tập trung.
+Việc đưa tiêu đề này vào [khối khởi tạo](https://planb.academy/resources/glossary/genesis-block) có thể được hiểu theo nhiều cách. Nhưng nó có thể được xem như lời bình luận của Satoshi về những thất bại của các tổ chức tài chính truyền thống, và như một tuyên bố về mục tiêu của Bitcoin: đưa ra một giải pháp thay thế cho hệ thống ngân hàng tập trung.
 
 
 
@@ -1725,7 +1725,7 @@ Theo nghĩa này, nó được thúc đẩy bởi một tầm nhìn về thế g
 
 
 
-Nhưng Bitcoin không tự nhiên mà có. Nó dựa trên những tiến bộ trong toán học, vật lý, khoa học máy tính và triết học. Satoshi Nakamoto, dù xuất sắc, nhưng lại được xây dựng dựa trên ý tưởng của các nhà sáng tạo khác. Trong số đó, có những người tiên phong của phong trào cypherpunk.
+Nhưng Bitcoin không tự nhiên mà có. Nó dựa trên những tiến bộ trong toán học, vật lý, khoa học máy tính và triết học. Satoshi Nakamoto, dù xuất sắc, nhưng lại được xây dựng dựa trên ý tưởng của các nhà sáng tạo khác. Trong số đó, có những người tiên phong của phong trào [cypherpunk](https://planb.academy/resources/glossary/cypherpunks).
 
 
 
@@ -1772,7 +1772,7 @@ Và ông ấy nói thêm:
 
 > Trong một xã hội mở, tính bảo mật đòi hỏi các hệ thống giao dịch ẩn danh. Cho đến nay, tiền mặt vẫn là hệ thống chính thuộc loại này.
 
-Đây là lý do tại sao mật mã học sẽ được sử dụng như một công cụ chống lại mọi hình thức kiểm soát của nhà nước và doanh nghiệp. Nó đảm bảo rằng mỗi bên tham gia giao dịch chỉ biết những thông tin cần thiết nhất cho giao dịch đó.
+Đây là lý do tại sao [mật mã học](https://planb.academy/resources/glossary/cryptography) sẽ được sử dụng như một công cụ chống lại mọi hình thức kiểm soát của nhà nước và doanh nghiệp. Nó đảm bảo rằng mỗi bên tham gia giao dịch chỉ biết những thông tin cần thiết nhất cho giao dịch đó.
 
 
 

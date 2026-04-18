@@ -1,0 +1,9 @@
+question: Kes on Bit Goldi kontseptsiooni autor?
+answer: Nick Szabo
+wrong_answers:
+  - Satoshi Nakamoto
+  - Hal Finney
+  - Wei Dai
+explanation: |
+  Bit Gold on Nick Szabo välja pakutud elektroonilise rahasüsteemi kontseptuaalne projekt.
+reviewed: false

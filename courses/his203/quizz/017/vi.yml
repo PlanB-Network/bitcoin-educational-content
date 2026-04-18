@@ -1,0 +1,10 @@
+question: Lời phản đối chính mà những người theo chủ nghĩa tự do Mỹ đưa ra chống lại Bitcoin là gì, dựa trên định lý hồi quy của Mises?
+answer: Nó không có giá trị nội tại và không được bảo đảm bằng bất cứ thứ gì cụ thể
+wrong_answers:
+  - Nước này chịu ảnh hưởng của lạm phát tiền tệ, với tỷ lệ phát hành tiền tệ là 40% mỗi năm vào năm 2011
+  - Nó không được sử dụng như một đơn vị tính toán, một đặc tính thiết yếu của tiền tệ
+  - Điều này đã tạo ra sự phân bổ tài sản vô cùng bất bình đẳng
+explanation: |
+ Một số người theo chủ nghĩa tự do Mỹ, thuộc trường phái Áo, đã bác bỏ Bitcoin vì nó mâu thuẫn với (theo quan điểm của họ) định lý hồi quy của Ludwig von Mises,
+ trong đó nêu rõ rằng một hàng hóa phải có giá trị sử dụng phi tiền tệ khách quan trước khi nó có thể trở thành tiền tệ. Điều này đặc biệt đúng với Peter Schiff, con trai của nhà hoạt động chống thuế Irwin Schiff và là người ủng hộ mạnh mẽ chế độ bản vị vàng.
+reviewed: true

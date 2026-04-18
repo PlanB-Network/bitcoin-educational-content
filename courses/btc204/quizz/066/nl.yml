@@ -1,10 +1,10 @@
 question: Wat houdt consolidatie in?
-answer: Meerdere ingangen samenvoegen om één grotere ingang te maken.
+answer: Meerdere inputs samenvoegen om één grotere te maken.
 wrong_answers:
-  - Een grote invoer opsplitsen in meerdere kleinere.
+  - Een grote input opsplitsen in meerdere kleinere.
   - Inputs overzetten van meerdere wallets naar een enkele.
-  - Ongebruikte ingangen opnieuw toewijzen aan nieuwe adressen.
+  - Ongebruikte inputs opnieuw toewijzen aan nieuwe adressen.
 explanation: |
-  Het principe van consolidatie is om te profiteren van periodes waarin de vergoedingen op Bitcoin laag zijn om kleinere UTXO's samen te voegen tot één grotere.
+  Het principe van consolidatie is om te profiteren van periodes waarin de Bitcoin-vergoedingen laag zijn om kleinere UTXO's samen te voegen tot één grotere.
   
 reviewed: false

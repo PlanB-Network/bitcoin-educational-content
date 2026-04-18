@@ -1,0 +1,9 @@
+question: Čemu odpovídá bloková subvence?
+answer: Peněžní emise
+wrong_answers:
+  - Transakční poplatky
+  - Vklad uživatelů
+  - Spamová penalizace
+explanation: |
+  Subvence je část odměny, která vytváří nové bitcoiny ex nihilo podle pravidel protokolu.
+reviewed: false

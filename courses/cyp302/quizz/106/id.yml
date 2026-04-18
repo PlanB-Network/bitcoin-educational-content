@@ -6,3 +6,4 @@ wrong_answers:
   - Menambahkan kunci ekstra dalam setiap pesan
 explanation: |
   Menambahkan pengenal unik untuk setiap peserta dalam pesan yang dienkripsi mencegah serangan refleksi, karena hal ini memungkinkan untuk membedakan asal usul pesan.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Na jakém prvku se v Bitcoinu počítá proof of work?
+answer: Hlavička bloku
+wrong_answers:
+  - Výška bloku
+  - Mempool sítě
+  - Prvních 21 transakcí v bloku
+explanation: |
+  Těžba spočívá v opakovaném hashování 80bajtové hlavičky bloku, která zavazuje obsah bloku.
+reviewed: false

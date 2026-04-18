@@ -1,0 +1,9 @@
+question: Waarmee komt het nbits-veld in de block header overeen?
+answer: Het gecodeerde moeilijkheidsdoel
+wrong_answers:
+  - De blokgrootte in bytes
+  - Het aantal transacties in het blok
+  - Het tijdstempel van het blok
+explanation: |
+  Het nbits-veld codeert het actieve moeilijkheidsdoel.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni lini miamala ya bloku inakuwa imethibitishwa?
+answer: Wakati bloku inapoongezwa kwenye blockchain
+wrong_answers:
+  - Wakati muamala unatiwa saini na mchimba madini
+  - Wakati muamala unatangazwa na node
+  - Wakati mchimba madini anapoanza kutafuta uthibitisho
+explanation: |
+  Uthibitishaji wa malipo kwenye Bitcoin ni matokeo ya kuongezwa kwa bloku iliyo na malipo hayo kwenye blockchain.
+reviewed: false

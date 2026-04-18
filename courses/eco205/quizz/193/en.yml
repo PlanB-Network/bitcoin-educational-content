@@ -1,0 +1,8 @@
+question: According to Friedrich Hayek, how could Bitcoin improve the economic coordination mechanism compared to fiat currencies?
+answer: By enabling the emergence of prices that truly reflect supply and demand without central manipulation
+wrong_answers:
+  - By centralizing economic information in a single system accessible to all planners
+  - By automatically stabilizing prices thanks to its consensus algorithm and controlled volatility
+  - By replacing the price system with a decentralized voting mechanism among all holders
+explanation: |
+  Hayek demonstrated that the price system constitutes a communication network that condenses information dispersed throughout the economy. Bitcoin, as a neutral, non-manipulable currency, enables the emergence of authentic prices that reflect true time preferences and opportunity costs. The other answers are incorrect, as Hayek advocated the decentralization of information (not its centralization), Bitcoin does not automatically stabilize prices, and the price system remains superior to any voting mechanism according to Austrian theory.

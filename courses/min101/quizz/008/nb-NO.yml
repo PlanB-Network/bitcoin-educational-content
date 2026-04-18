@@ -1,0 +1,9 @@
+question: På hvilket element beregnes Proof of Work i Bitcoin?
+answer: Blokkhodet
+wrong_answers:
+  - Blokkhøyden
+  - Nettverkets mempool
+  - De første 21 transaksjonene i blokken
+explanation: |
+  Mining består i å hashe blokkhodet på 80 bytes gjentatte ganger, som forplikter innholdet i blokken.
+reviewed: false

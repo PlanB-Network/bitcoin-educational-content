@@ -68,10 +68,11 @@ proofreading:
       - AgoesRichie
     reward: 1.2
   - language: it
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 1.25
+      - AlbertoMagno21
+    reward: 0.63
   - language: ja
     last_contribution_date:
     urgency: 1

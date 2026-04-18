@@ -1,0 +1,9 @@
+question: Milline on protokolli kohaselt viimane poolitamine (halving)?
+answer: 33.
+wrong_answers:
+  - 21.
+  - 38.
+  - 64.
+explanation: |
+  33. poolitamine ploki kõrgusel 6 930 000 lõpetab ploki toetuse, kuna see langeb alla minimaalse ühiku.
+reviewed: false

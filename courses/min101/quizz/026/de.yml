@@ -1,0 +1,9 @@
+question: Welcher Parameter von Bitcoin Core legt die standardmäßige minimale Relay-Schwelle fest?
+answer: minRelayTxFee
+wrong_answers:
+  - minConfirmTxFee
+  - relayTxWeight
+  - mempoolMinBits
+explanation: |
+  Nodes wenden lokale Richtlinien an, und Bitcoin Core verwendet den Parameter minRelayTxFee für die minimale Relay-Schwelle.
+reviewed: false

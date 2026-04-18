@@ -1,0 +1,9 @@
+question: 해시레이트는 무엇을 측정합니까?
+answer: 초당 해시 수
+wrong_answers:
+  - 초당 블록 수
+  - 초당 트랜잭션 수
+  - 초당 바이트 수
+explanation: |
+  해시레이트는 매초 시도되는 해싱 횟수를 H/s로 나타냅니다.
+reviewed: false

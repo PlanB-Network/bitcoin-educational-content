@@ -1,0 +1,10 @@
+question: Pay-to-Script-Hash (P2SH) senaryo şeması nelerden oluşur?
+answer: Kilit açarken çalıştırılması gereken bir komut dosyasının karmasıyla fonları kilitleme
+wrong_answers:
+  - Harcanacak işlem çıktısını yetkilendirmek için N katılımcıdan M imzaya ihtiyaç duyulması
+  - Bitcoin harcamalarının tek bir açık anahtara bağlı bir imzanın sağlanmasına bağlı hale getirilmesi
+  - UTXO'yi harcanamaz hale getirerek blok zincirine keyfi veri yazma
+explanation: |
+ Bu, bir senaryo karması için ödeme yapmayı ve fonların kilidini açarken söz konusu senaryoyu sağlamayı içerir. Bunu OP_EVAL teklifinden ayıran şey ise
+ sanal makine tarafından otomatik olarak tanınır, böylece herhangi bir açık talimata gerek kalmadan çalıştırılabilir.
+reviewed: true

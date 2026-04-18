@@ -317,7 +317,7 @@ Als Reaktion auf die Erfahrung von John Law erklärt Cantillon, was passiert ode
 ![image](assets/de/017.webp)
 
 
-Er sieht zwei Hauptfolgen der Ersetzung einer Währung ohne realen Wert wie Papiergeld durch eine metallische Währung. Die erste Folge ist das, was er als "Ablehnung der Bevölkerung" bezeichnet, d.h. ein wachsendes Misstrauen gegenüber wertlosem Geld. Die zweite Folge ist die Inflation: Die Schwächung des Geldes verteuert die Waren.
+Er sieht zwei Hauptfolgen der Ersetzung einer Währung ohne realen Wert wie Papiergeld durch eine metallische Währung. Die erste Folge ist das, was er als "Ablehnung der Bevölkerung" bezeichnet, d.h. ein wachsendes Misstrauen gegenüber wertlosem Geld. Die zweite Folge ist die [Inflation](https://planb.academy/resources/glossary/inflation): Die Schwächung des Geldes verteuert die Waren.
 
 
 Viertens ging Cantillon in seiner Analyse der **Inflation** weiter als seine Zeitgenossen. Nachdem er den Zusammenbruch des Lawschen Systems beobachtet hatte, erkannte Cantillon, dass die Geldinflation nicht alle gleichermaßen betrifft. Im Gegenteil, sie bereichert einige und verarmt andere. Er kam zu dem Schluss, dass die Inflation einen Umverteilungseffekt hat: Diejenigen, die neu ausgegebenes Geld erhalten, profitieren zuerst von der gestiegenen Kaufkraft, während diejenigen, die es später erhalten, durch die Ausgabe des neuen Geldes aufgrund des Anstiegs der Inflationsraten ärmer werden.

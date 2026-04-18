@@ -12,6 +12,9 @@ objectives:
 ¿Qué se necesita para construir sobre Bitcoin? Este curso de 20 horas te lleva bajo la superficie de Bitcoin y la Lightning Network, explorando los protocolos que impulsan la infraestructura financiera más resiliente del mundo. Ya sea que busques contribuir a proyectos de código abierto o construir la próxima generación de aplicaciones de Bitcoin, obtendrás la profundidad técnica necesaria para comenzar a trabajar con confianza en este ecosistema.
 
 Grabado durante el bootcamp CUBO+ 2023 en El Salvador, este curso reúne perspectivas de destacados desarrolladores y educadores de Bitcoin que han dado forma a la tecnología. ¿La mejor parte? Es completamente gratuito, hecho posible por Fulgure Ventures, la Oficina de Bitcoin y DecouvreBitcoin. Si has tenido curiosidad sobre cómo funciona realmente Bitcoin a nivel de protocolo, esta es tu oportunidad para descubrirlo.
+
+Nota: Los vídeos de este curso solo están disponibles en inglés.
+
 +++
 # Introducción y cursos preparatorios
 
@@ -70,14 +73,14 @@ la población mundial no bancarizada
 ### Bitcoin: la libertad financiera y su impacto en El Salvador
 
 
-Esta conferencia, **"Por qué El Salvador necesita Bitcoin"**, ofrece una visión general del protocolo **Bitcoin**, sus raíces en el movimiento **Cypherpunk**, y su papel como herramienta para permitir la libertad del **dinero sin censura**, la **inclusión financiera**, y mucho más.
+Esta conferencia, **"Por qué El Salvador necesita Bitcoin"**, ofrece una visión general del protocolo **Bitcoin**, sus raíces en el movimiento **[Cypherpunk](https://planb.academy/resources/glossary/cypherpunks)**, y su papel como herramienta para permitir la libertad del **dinero sin censura**, la **inclusión financiera**, y mucho más.
 
 
 **Definiciones:**
 
 
 - protocolo Bitcoin:_ Las reglas y la estructura que rigen el funcionamiento de Bitcoin como moneda digital descentralizada.
-- movimiento Cypherpunk:_ Grupo que aboga por el uso de la criptografía para garantizar la privacidad y la libertad en los espacios digitales.
+- movimiento Cypherpunk:_ Grupo que aboga por el uso de la [criptografía](https://planb.academy/resources/glossary/cryptography) para garantizar la privacidad y la libertad en los espacios digitales.
 - _Inclusión financiera:_ Proporcionar acceso a los servicios financieros a las personas excluidas de los sistemas bancarios tradicionales, a menudo denominadas "no bancarizadas"
 - dinero sin censura:_ Dinero que no puede ser controlado ni restringido por gobiernos o instituciones financieras.
 
@@ -90,10 +93,10 @@ El viaje de Rikki hacia la Bitcoin tiene sus raíces en su trabajo como defensor
 ### Importancia mundial y retos del Bitcoin
 
 
-Bitcoin es mucho más que una moneda digital. Es una herramienta para proteger la intimidad y garantizar la libertad financiera. Mediante el uso de **claves privadas**, que actúan como contraseñas maestras, los usuarios pueden gestionar de forma segura su Bitcoin, con pleno control sobre sus fondos.
+Bitcoin es mucho más que una moneda digital. Es una herramienta para proteger la intimidad y garantizar la libertad financiera. Mediante el uso de **[claves privadas](https://planb.academy/resources/glossary/private-key)**, que actúan como contraseñas maestras, los usuarios pueden gestionar de forma segura su Bitcoin, con pleno control sobre sus fondos.
 
 
-En los regímenes autoritarios, donde la represión financiera es habitual, la naturaleza **incensurable** de Bitcoin permite a la gente realizar transacciones sin temor a que sus fondos sean congelados o confiscados. Su naturaleza **de código abierto** fomenta la participación global, promoviendo una comunidad que mejora continuamente la red.
+En los regímenes autoritarios, donde la represión financiera es habitual, la naturaleza **incensurable** de Bitcoin permite a la gente realizar [transacciones](https://planb.academy/resources/glossary/transaction-tx) sin temor a que sus fondos sean congelados o confiscados. Su naturaleza **de [código abierto](https://planb.academy/resources/glossary/foss)** fomenta la participación global, promoviendo una comunidad que mejora continuamente la red.
 
 
 ![Image](assets/en/002.webp)
@@ -143,7 +146,7 @@ El movimiento **Cypherpunk** surgió a finales del siglo XX, abogando por la pri
 #### Economía austriaca
 
 
-Al mismo tiempo, la **economía austriaca** sentó las bases de los principios monetarios de la Bitcoin. Economistas como **Ludwig von Mises** y **Friedrich Hayek** sostenían que el dinero sano debía ser escaso, duradero y un buen depósito de valor, principios básicos que conformaron el diseño de la Bitcoin.
+Al mismo tiempo, la **[economía austriaca](https://planb.academy/resources/glossary/austrian-school)** sentó las bases de los principios monetarios de la Bitcoin. Economistas como **Ludwig von Mises** y **Friedrich Hayek** sostenían que el dinero sano debía ser escaso, duradero y un buen depósito de valor, principios básicos que conformaron el diseño de la Bitcoin.
 
 
 **Definición:**
@@ -221,7 +224,7 @@ Gracias por comprometerse con este material
 
 :::video id=2c008198-7f4e-4e60-87a0-0af17528ad2f:::
 
-En la primera clase del curso "Cómo funciona Bitcoin", empezamos a explorar la pila tecnológica que sustenta la red Bitcoin. Tratamos temas como **Hashcash**, **transacciones**, **Blockchain** y otros componentes clave del protocolo Bitcoin. Tratamos temas como **Hashcash**, **transacciones**, el **Blockchain**, el **Lightning Network** y otros componentes clave del protocolo Bitcoin.
+En la primera clase del curso "Cómo funciona Bitcoin", empezamos a explorar la pila tecnológica que sustenta la red Bitcoin. Tratamos temas como **Hashcash**, **transacciones**, **[Blockchain](https://planb.academy/resources/glossary/blockchain)** y otros componentes clave del protocolo Bitcoin. Tratamos temas como **Hashcash**, **transacciones**, el **Blockchain**, el **[Lightning Network](https://planb.academy/resources/glossary/lightning-network)** y otros componentes clave del protocolo Bitcoin.
 
 
 ### La pila tecnológica de Bitcoin, parte 2
@@ -234,13 +237,13 @@ Durante la segunda conferencia de "Cómo Bitcoin", realizamos un examen más pro
 ### Estructura de Bitcoin
 
 
-Los orígenes de Bitcoin se basan en varias innovaciones clave, empezando por **Hashcash** de Adam Back, un sistema Proof-of-Work (PoW) diseñado para evitar el spam por correo electrónico y los ataques de denegación de servicio exigiendo a los remitentes que realicen tareas computacionales. Este concepto de PoW se convirtió en la piedra angular de la seguridad de Bitcoin.
+Los orígenes de Bitcoin se basan en varias innovaciones clave, empezando por **Hashcash** de Adam Back, un sistema [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) (PoW) diseñado para evitar el spam por correo electrónico y los ataques de denegación de servicio exigiendo a los remitentes que realicen tareas computacionales. Este concepto de PoW se convirtió en la piedra angular de la seguridad de Bitcoin.
 
 
-Bitcoin se basa en **firmas digitales** que utilizan **criptografía de curva elíptica** para asegurar y verificar las transacciones. El **algoritmo de firma digital de curva elíptica (ECDSA)** garantiza que sólo el propietario legítimo de Bitcoin pueda autorizar transacciones sin revelar sus claves privadas.
+Bitcoin se basa en **[firmas digitales](https://planb.academy/resources/glossary/digital-signature)** que utilizan **criptografía de curva elíptica** para asegurar y verificar las transacciones. El **algoritmo de firma digital de curva elíptica ([ECDSA](https://planb.academy/resources/glossary/ecdsa))** garantiza que sólo el propietario legítimo de Bitcoin pueda autorizar transacciones sin revelar sus claves privadas.
 
 
-**Satoshi Nakamoto**, el creador seudónimo de Bitcoin, amplió estas ideas mediante la transición del modelo PoW a un **Blockchain** descentralizado. Esto permitió que una red distribuida de nodos validara y registrara las transacciones sin una autoridad central, lo que supuso una importante evolución con respecto a anteriores intentos de moneda digital.
+**Satoshi Nakamoto**, el creador seudónimo de Bitcoin, amplió estas ideas mediante la transición del modelo PoW a un **Blockchain** descentralizado. Esto permitió que una red distribuida de [nodos](https://planb.academy/resources/glossary/node) validara y registrara las transacciones sin una autoridad central, lo que supuso una importante evolución con respecto a anteriores intentos de moneda digital.
 
 
 **Definiciones:**
@@ -252,16 +255,16 @@ Bitcoin se basa en **firmas digitales** que utilizan **criptografía de curva el
 ### Mecánica Blockchain y validación de transacciones
 
 
-Las transacciones Bitcoin son validadas y añadidas a los bloques por **mineros**, que compiten para resolver un puzzle criptográfico utilizando el algoritmo Proof-of-Work. Se trata de encontrar una Hash con un número determinado de ceros a la izquierda ajustando un valor **Nonce** hasta descubrir la Hash correcta.
+Las transacciones Bitcoin son validadas y añadidas a los [bloques](https://planb.academy/resources/glossary/block) por **mineros**, que compiten para resolver un puzzle criptográfico utilizando el algoritmo Proof-of-Work. Se trata de encontrar una [Hash](https://planb.academy/resources/glossary/hash-function) con un número determinado de ceros a la izquierda ajustando un valor **[Nonce](https://planb.academy/resources/glossary/nonce)** hasta descubrir la Hash correcta.
 
 
-Cada **bloque** de la Blockchain consta de un **encabezamiento** (con datos como los de la Hash del bloque anterior) y una lista de transacciones. El primer bloque, conocido como **bloque Genesis**, es único porque no tiene predecesor.
+Cada **bloque** de la Blockchain consta de un **[encabezamiento](https://planb.academy/resources/glossary/block-header)** (con datos como los de la Hash del bloque anterior) y una lista de transacciones. El primer bloque, conocido como **[bloque Genesis](https://planb.academy/resources/glossary/genesis-block)**, es único porque no tiene predecesor.
 
 
 ![Image](assets/en/004.webp)
 
 
-Antes de que las transacciones se incluyan en un bloque, residen en la **Mempool**, donde esperan su validación. Una vez validadas, estas transacciones se añaden al bloque recién minado y, a continuación, a la Blockchain.
+Antes de que las transacciones se incluyan en un bloque, residen en la **[Mempool](https://planb.academy/resources/glossary/mempool)**, donde esperan su validación. Una vez validadas, estas transacciones se añaden al bloque recién minado y, a continuación, a la Blockchain.
 
 
 **Definiciones:**
@@ -274,13 +277,13 @@ Antes de que las transacciones se incluyan en un bloque, residen en la **Mempool
 ### Escalabilidad, privacidad y desarrollo en Bitcoin
 
 
-Bitcoin se enfrenta a retos relacionados con la escalabilidad y la privacidad. La limitada capacidad de transacción de Blockchain dificulta la gestión de grandes volúmenes de transacciones. Soluciones como **Lightning Network** Address estos retos al permitir transacciones off-chain a través de canales de pago, lo que aumenta la velocidad y la privacidad.
+Bitcoin se enfrenta a retos relacionados con la escalabilidad y la privacidad. La limitada capacidad de transacción de Blockchain dificulta la gestión de grandes volúmenes de transacciones. Soluciones como **Lightning Network** Address estos retos al permitir transacciones off-chain a través de [canales de pago](https://planb.academy/resources/glossary/payment-channel), lo que aumenta la velocidad y la privacidad.
 
 
-El funcionamiento de un **Full node** es esencial para garantizar la descentralización y la seguridad, pero los **nodos de verificación de pago simplificado (SPV)** permiten una participación más ligera a costa de cierta seguridad.
+El funcionamiento de un **[Full node](https://planb.academy/resources/glossary/full-node)** es esencial para garantizar la descentralización y la seguridad, pero los **nodos de verificación de pago simplificado (SPV)** permiten una participación más ligera a costa de cierta seguridad.
 
 
-El desarrollo de Bitcoin ha evolucionado para mejorar el rendimiento y la seguridad. Las principales actualizaciones incluyen **Testigo Segregado (SegWit)**, que aborda la maleabilidad de las transacciones y aumenta el tamaño efectivo del bloque, y **Taproot**, que mejora la privacidad y permite contratos más complejos utilizando **Árboles de Sintaxis Abstracta Jerarquizada (MAST)**.
+El desarrollo de Bitcoin ha evolucionado para mejorar el rendimiento y la seguridad. Las principales actualizaciones incluyen **Testigo Segregado ([SegWit](https://planb.academy/resources/glossary/segwit))**, que aborda la maleabilidad de las transacciones y aumenta el tamaño efectivo del bloque, y **[Taproot](https://planb.academy/resources/glossary/taproot)**, que mejora la privacidad y permite contratos más complejos utilizando **Árboles de Sintaxis Abstracta Jerarquizada (MAST)**.
 
 
 **Definiciones:**
@@ -325,7 +328,7 @@ Un error frecuente es creer que **Bitcoin** y **Blockchain** son lo mismo. Mient
 ### Bitcoin frente a Crypto
 
 
-Otra distinción clave es que **Bitcoin** se creó con el único propósito de proporcionar una forma de dinero descentralizada y resistente a la censura, libre del control de cualquier empresa o gobierno. Por el contrario, las criptomonedas **shitcoins** a menudo están diseñadas con un control centralizado, y existen principalmente para enriquecer a las empresas que están detrás de ellas a través de prácticas depredadoras, esquemas de bombeo y descarga, o estafas descaradas. Estos tokens no suelen servir para nada más que para que sus creadores obtengan beneficios rápidos a costa de inversores desinformados. Bitcoin, sin embargo, es la única moneda digital verdaderamente descentralizada con un historial probado de seguridad y resistencia.
+Otra distinción clave es que **Bitcoin** se creó con el único propósito de proporcionar una forma de dinero descentralizada y resistente a la censura, libre del control de cualquier empresa o gobierno. Por el contrario, las [criptomonedas](https://planb.academy/resources/glossary/cryptocurrency) **[shitcoins](https://planb.academy/resources/glossary/shitcoin)** a menudo están diseñadas con un control centralizado, y existen principalmente para enriquecer a las empresas que están detrás de ellas a través de prácticas depredadoras, esquemas de bombeo y descarga, o estafas descaradas. Estos tokens no suelen servir para nada más que para que sus creadores obtengan beneficios rápidos a costa de inversores desinformados. Bitcoin, sin embargo, es la única moneda digital verdaderamente descentralizada con un historial probado de seguridad y resistencia.
 
 
 **Definiciones:**
@@ -339,7 +342,7 @@ Otra distinción clave es que **Bitcoin** se creó con el único propósito de p
 ### Consumo de energía e impacto ambiental
 
 
-Una de las críticas más comunes a la Bitcoin es su **consumo energético**. Aunque Bitcoin Mining utiliza energía, representa menos del 1% del consumo mundial de electricidad y menos del 3% de la energía desperdiciada. Además, la **Bitcoin Mining** suele aprovechar fuentes de energía no utilizadas o renovables, por lo que es más ecológica de lo que a menudo se dice.
+Una de las críticas más comunes a la Bitcoin es su **consumo energético**. Aunque Bitcoin [Mining](https://planb.academy/resources/glossary/mining) utiliza energía, representa menos del 1% del consumo mundial de electricidad y menos del 3% de la energía desperdiciada. Además, la **Bitcoin Mining** suele aprovechar fuentes de energía no utilizadas o renovables, por lo que es más ecológica de lo que a menudo se dice.
 
 
 **Definiciones:**
@@ -356,7 +359,7 @@ A menudo se critica a la Bitcoin por utilizarse en actividades delictivas. Sin e
 ### Privacidad y fungibilidad
 
 
-*la *privacidad** y la **fungibilidad** son características esenciales de Bitcoin. La privacidad protege a los usuarios en regímenes opresivos, y la fungibilidad garantiza que cada Bitcoin sea igual, independientemente de su historia. Esto hace de Bitcoin una forma de dinero fiable y justa.
+*la *privacidad** y la **[fungibilidad](https://planb.academy/resources/glossary/fungibility)** son características esenciales de Bitcoin. La privacidad protege a los usuarios en regímenes opresivos, y la fungibilidad garantiza que cada Bitcoin sea igual, independientemente de su historia. Esto hace de Bitcoin una forma de dinero fiable y justa.
 
 
 **Definiciones:**
@@ -397,7 +400,7 @@ En la primera clase del 4º módulo, exploramos la arquitectura de Bitcoin y la 
 
 **1. Introducción
 
-¡Bienvenido de nuevo! En la sesión anterior, cubrimos los conceptos fundamentales detrás de la arquitectura de Bitcoin, incluyendo sus fundamentos criptográficos y la estructura de red peer-to-peer. Hoy, pasaremos de la teoría a la práctica demostrando cómo instalar y configurar un nodo Bitcoin.
+¡Bienvenido de nuevo! En la sesión anterior, cubrimos los conceptos fundamentales detrás de la arquitectura de Bitcoin, incluyendo sus fundamentos criptográficos y la estructura de red [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p). Hoy, pasaremos de la teoría a la práctica demostrando cómo instalar y configurar un nodo Bitcoin.
 
 
 **2. Resumen de la sesión práctica**
@@ -405,7 +408,7 @@ En la primera clase del 4º módulo, exploramos la arquitectura de Bitcoin y la 
 En esta sesión, Alekos nos guiará a través del proceso de configuración de un nodo Bitcoin utilizando una máquina virtual. Este tutorial práctico está diseñado para familiarizarte con los pasos necesarios para configurar tu nodo para participar en la red Bitcoin.
 
 
-Gestionar un nodo de Bitcoin implica validar transacciones y bloques, aplicar reglas de consenso y apoyar la descentralización de la red. Establecer un nodo le garantiza una conexión directa con la red Bitcoin, lo que le permite contribuir a su seguridad e integridad.
+Gestionar un nodo de Bitcoin implica validar transacciones y bloques, aplicar reglas de [consenso](https://planb.academy/resources/glossary/consensus) y apoyar la descentralización de la red. Establecer un nodo le garantiza una conexión directa con la red Bitcoin, lo que le permite contribuir a su seguridad e integridad.
 
 
 En esta conferencia encontrarás una guía para instalar y poner en marcha tu propio Bitcoin core, aprenderás a podar el Blockchain para ahorrar espacio y empezarás a experimentar con el software. Alekos te guiará paso a paso por este apasionante proceso.
@@ -829,7 +832,7 @@ Specter es un Wallet de escritorio diseñado para facilitar la creación y gesti
 El dispositivo Ledger, un popular Hardware Wallet, es célebre por su sólida seguridad. Sin embargo, la empresa que está detrás del Ledger se ha enfrentado al escrutinio debido a diversas polémicas relacionadas con la privacidad de los datos de los usuarios. Comprender la diferencia entre la seguridad del dispositivo físico y las prácticas de la empresa es crucial para un uso informado.
 
 
-**Modelos de seguridad: importancia de los monederos multi-sig y del hardware diverso**
+**Modelos de seguridad: importancia de los [monederos](https://planb.academy/resources/glossary/wallet) multi-sig y del hardware diverso**
 
 
 Un aspecto clave de la seguridad de Bitcoin es el aprovechamiento de los monederos multifirma (multi-sig). Los monederos multi-sig requieren varias claves privadas para autorizar una transacción, lo que aumenta significativamente la seguridad. Además, el uso de distintos tipos de monederos de hardware diversifica el riesgo y refuerza el modelo de seguridad.
@@ -850,7 +853,7 @@ El primer paso en nuestro proceso de instalación consiste en descargar Specter 
 Para configurar Specter, es necesario conectarlo a un servidor Bitcoin core o Electrum. Estos servidores proporcionan los datos Blockchain necesarios para las operaciones Wallet. La configuración implica establecer el Address del servidor en los ajustes de Specter y garantizar una conexión estable.
 
 
-**Explicación de las vías de derivación y recuperación de claves públicas**
+**Explicación de las vías de derivación y recuperación de [claves públicas](https://planb.academy/resources/glossary/public-key)**
 
 
 Comprender las rutas de derivación es esencial para la gestión de Wallet. Las rutas de derivación definen cómo se generan las claves a partir de una clave maestra. En Specter, puede recuperar claves públicas conectando su Hardware Wallet (o emulador) y navegando a través de la Wallet Interface. Asegúrese de documentar estas rutas para futuras referencias.
@@ -1008,7 +1011,7 @@ Los esfuerzos por mejorar la facilidad de uso de la Bitcoin suelen ir en detrime
 #### Compromisos entre escalabilidad y privacidad
 
 
-En la red Bitcoin, la escalabilidad y la privacidad suelen estar reñidas. Las mejoras que aumentan la escalabilidad, como mayores UTXO o menor ofuscación criptográfica, suelen reducir la privacidad. Por el contrario, las técnicas centradas en la privacidad, como las firmas en anillo de Monero, mejoran el anonimato del usuario pero afectan negativamente a la escalabilidad. Además, la introducción de contratos con estado, como ocurre en Ethereum, ofrece una mayor flexibilidad a costa de reducir la seguridad y la escalabilidad. Equilibrar estas compensaciones es un reto complejo que requiere una consideración meticulosa.
+En la red Bitcoin, la escalabilidad y la privacidad suelen estar reñidas. Las mejoras que aumentan la escalabilidad, como mayores [UTXO](https://planb.academy/resources/glossary/utxo) o menor ofuscación criptográfica, suelen reducir la privacidad. Por el contrario, las técnicas centradas en la privacidad, como las firmas en anillo de Monero, mejoran el anonimato del usuario pero afectan negativamente a la escalabilidad. Además, la introducción de contratos con estado, como ocurre en Ethereum, ofrece una mayor flexibilidad a costa de reducir la seguridad y la escalabilidad. Equilibrar estas compensaciones es un reto complejo que requiere una consideración meticulosa.
 
 
 ### Técnicas de protección de la intimidad
@@ -1144,7 +1147,7 @@ Para salvaguardar las elecciones, por ejemplo, se puede aplicar una supervisión
 #### Verificación de confianza
 
 
-La verificación de la confianza puede ilustrarse con la verificación PGP (Pretty Good Privacy). Al verificar las huellas dactilares y las firmas de las claves PGP, los usuarios pueden establecer la autenticidad de las identidades digitales. Prácticas similares son esenciales para verificar la integridad del software a través de la correspondencia Hash (por ejemplo, SHA-256).
+La verificación de la confianza puede ilustrarse con la verificación PGP (Pretty Good Privacy). Al verificar las huellas dactilares y las firmas de las claves PGP, los usuarios pueden establecer la autenticidad de las identidades digitales. Prácticas similares son esenciales para verificar la integridad del software a través de la correspondencia Hash (por ejemplo, [SHA-256](https://planb.academy/resources/glossary/sha256)).
 
 
 #### Establecer vías de confianza
@@ -1156,7 +1159,7 @@ Generar confianza no es instantáneo; requiere vincular múltiples vías de conf
 #### Incentivos para la seguridad
 
 
-Comprender el papel de los incentivos es crucial para mantener la seguridad. Por ejemplo, el modelo de seguridad de Bitcoin se basa en los incentivos de los mineros y la validación de los participantes en la red, lo que pone de relieve la importancia de los incentivos económicos para salvaguardar los ecosistemas digitales.
+Comprender el papel de los incentivos es crucial para mantener la seguridad. Por ejemplo, el modelo de seguridad de Bitcoin se basa en los incentivos de los [mineros](https://planb.academy/resources/glossary/miner) y la validación de los participantes en la red, lo que pone de relieve la importancia de los incentivos económicos para salvaguardar los ecosistemas digitales.
 
 
 #### Protección de los monederos Bitcoin
@@ -1260,7 +1263,7 @@ Bienvenido Hoy nos sumergiremos en los aspectos cruciales de la criptografía qu
 ### Conceptos criptográficos básicos para desarrolladores de Bitcoin
 
 
-En esta sección, profundizaremos en los conceptos criptográficos clave esenciales para los desarrolladores de Bitcoin, incluidas las funciones Hash, los árboles de Merkle, las firmas digitales y las curvas elípticas.
+En esta sección, profundizaremos en los conceptos criptográficos clave esenciales para los desarrolladores de Bitcoin, incluidas las funciones Hash, los [árboles de Merkle](https://planb.academy/resources/glossary/merkle-tree), las firmas digitales y las curvas elípticas.
 
 
 ![Image](assets/en/014.webp)
@@ -1314,7 +1317,7 @@ En esta sección, exploraremos la aplicación de estos conceptos en el desarroll
 **Implicaciones para la seguridad**: Los ejemplos históricos muestran importantes pérdidas financieras debidas a la reutilización de Nonce. Comprender la importancia de generar nonces únicos es crucial. El uso de bibliotecas de confianza como LibSecP256k1 garantiza operaciones criptográficas robustas y seguras.
 
 
-**Criptografía de curva elíptica (ECC)**: Los esquemas de firma han evolucionado desde los protocolos de identidad hasta esquemas como las firmas Schnorr, utilizadas actualmente en Bitcoin (BIP 340). El conocimiento de las curvas elípticas y de la aritmética de campos finitos garantiza implementaciones criptográficas seguras.
+**Criptografía de curva elíptica (ECC)**: Los esquemas de firma han evolucionado desde los protocolos de identidad hasta esquemas como las firmas [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol), utilizadas actualmente en Bitcoin ([BIP](https://planb.academy/resources/glossary/bip) 340). El conocimiento de las curvas elípticas y de la aritmética de campos finitos garantiza implementaciones criptográficas seguras.
 
 
 **Consejos generales para desarrolladores**: Los protocolos criptográficos deben someterse a exhaustivas revisiones por pares. Los desarrolladores deben ser precisos y comprender plenamente cada paso de los procedimientos criptográficos. El conocimiento de los errores más comunes en las implementaciones criptográficas puede evitar vulnerabilidades importantes.
@@ -1468,7 +1471,7 @@ La complejidad de la Mining en el contexto de la Bitcoin implica principalmente 
 
 4. **Precio BTC**: El Precio BTC es esencial para determinar la rentabilidad Mining.
 
-5. **Dificultad de la red**: La dificultad de la red representa la cantidad de Hashrate de media necesaria para minar un bloque en 10 minutos.
+5. **[Dificultad](https://planb.academy/resources/glossary/difficulty) de la red**: La dificultad de la red representa la cantidad de Hashrate de media necesaria para minar un bloque en 10 minutos.
 
 6. **Herramientas estratégicas**: Herramientas como [braiins.com](https://insights.braiins.com) son inestimables para calcular la rentabilidad y ayudar a los mineros a tomar decisiones basadas en datos.
 
@@ -1836,7 +1839,7 @@ Cada transacción en un bloque Bitcoin contiene lo siguiente:
   - Salida anterior (outpoint)**: La referencia de salida anterior.
     - Hash**: El Hash de la transacción referenciada.
     - Índice**: El índice de la salida específica en la transacción, llamada "vout".
-  - Longitud del script**: La longitud del script de la firma.
+  - Longitud del [script](https://planb.academy/resources/glossary/script)**: La longitud del script de la firma.
   - Script de firma**: Script para confirmar la autorización de la transacción.
   - Secuencia**: Versión de la transacción definida por el remitente.
 - Número de salidas**: Recuento de salidas de transacciones.
@@ -1979,7 +1982,7 @@ Añade aserciones para verificar que no quedan bytes sin analizar después de pr
 #### Casos especiales como las transacciones coinbase
 
 
-Las transacciones de Coinbase, que son la primera transacción de un bloque utilizado para reclamar el Block reward, tienen características únicas. Debemos tratar estos casos especiales de forma adecuada.
+Las transacciones de [Coinbase](https://planb.academy/resources/glossary/coinbase-transaction), que son la primera transacción de un bloque utilizado para reclamar el Block reward, tienen características únicas. Debemos tratar estos casos especiales de forma adecuada.
 
 
 ```Rust
@@ -2598,7 +2601,7 @@ Para Address estas limitaciones, Manny Rosenfeld propuso el concepto de saltos c
 ### Hashed Time Lock Contract (HTLC) e implementación
 
 
-Las limitaciones e inconvenientes de los saltos centralizados exigían una solución más segura y descentralizada. Esta necesidad condujo al desarrollo del bloqueo de tiempo hash Contract (HTLC), propuesto en 2015 por Joseph Poon y Thaddeus Dreijer como parte del Lightning Network. Los HTLC combinan los principios de los bloqueos temporales y los bloqueos Hash para garantizar la atomicidad y la confianza en las transacciones. Esto significa que una transacción se completa por completo o no se produce en absoluto, lo que mitiga los riesgos asociados a los pagos incompletos.
+Las limitaciones e inconvenientes de los saltos centralizados exigían una solución más segura y descentralizada. Esta necesidad condujo al desarrollo del bloqueo de tiempo hash Contract ([HTLC](https://planb.academy/resources/glossary/htlc)), propuesto en 2015 por Joseph Poon y Thaddeus Dreijer como parte del Lightning Network. Los HTLC combinan los principios de los bloqueos temporales y los bloqueos Hash para garantizar la atomicidad y la confianza en las transacciones. Esto significa que una transacción se completa por completo o no se produce en absoluto, lo que mitiga los riesgos asociados a los pagos incompletos.
 
 
 El flujo de trabajo de HTLC implica un proceso de varios pasos que garantiza el enrutamiento seguro a través de múltiples intermediarios. Supongamos que Alice quiere pagar a Eric a través de los intermediarios Bob, Carol y Diana. Cada paso del proceso implica la creación de transacciones Commitment con bloqueos temporales e importes decrecientes. Si es necesario, el paso final puede ser transmitido a la red Bitcoin para finalizar la transacción.
@@ -2690,7 +2693,7 @@ En esencia, la Lightning Network complementa la red Bitcoin abordando sus limita
 ### **Especificaciones Lightning Network**
 
 
-El protocolo Lightning Network está meticulosamente definido a través de 10 BOLT (Basis of Lightning Technology). Estos BOLT se acordaron durante una conferencia en Milán y sirven de base para diversas implementaciones de Lightning Network.
+El protocolo Lightning Network está meticulosamente definido a través de 10 [BOLT](https://planb.academy/resources/glossary/bolt) (Basis of Lightning Technology). Estos BOLT se acordaron durante una conferencia en Milán y sirven de base para diversas implementaciones de Lightning Network.
 
 
 ![bolt](assets/en/049.webp)_BOLT Diagram _
@@ -2764,7 +2767,7 @@ Los pagos se enrutan utilizando Onion routing, que consiste en crear paquetes ci
 ### Estructura de Invoice
 
 
-Las facturas Lightning Network (Bolt 11) se codifican en Bech32 e incluyen detalles como el pago Hash, la descripción y la caducidad. Cada Invoice debe utilizarse una vez para evitar problemas de reutilización.
+Las [facturas](https://planb.academy/resources/glossary/invoice-lightning) Lightning Network (Bolt 11) se codifican en Bech32 e incluyen detalles como el pago Hash, la descripción y la caducidad. Cada Invoice debe utilizarse una vez para evitar problemas de reutilización.
 
 
 ![Invoice structure](assets/en/051.webp)_BOLT11 Invoice_
@@ -3430,5 +3433,5 @@ La ampliación e integración de los pagos con Lightning a través de diversos p
 
 :::video id=b89f2064-f2e1-49c3-97d0-580891eee1dd:::
 
-Adam Gibson ofrece una visión de Joinmarket, detallando cómo esta implementación de CoinJoin mejora la privacidad y fungibilidad de Bitcoin. Habla de cómo Joinmarket facilita las transacciones colaborativas, Trustless y anónimas dentro del ecosistema Bitcoin. A continuación, en una segunda parte, muestra cómo ejecutar Joinmarket en Signet.
+Adam Gibson ofrece una visión de Joinmarket, detallando cómo esta implementación de [CoinJoin](https://planb.academy/resources/glossary/coinjoin) mejora la privacidad y fungibilidad de Bitcoin. Habla de cómo Joinmarket facilita las transacciones colaborativas, Trustless y anónimas dentro del ecosistema Bitcoin. A continuación, en una segunda parte, muestra cómo ejecutar Joinmarket en Signet.
 

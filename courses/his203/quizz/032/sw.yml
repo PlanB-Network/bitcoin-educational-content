@@ -1,0 +1,9 @@
+question: Ni itifaki gani ya mining iliyotengenezwa mnamo Septemba 2012 na Marek Palatinus, maarufu kama Slush, ili kuboresha ubadilishanaji kati ya wachimbaji madini na mabwawa ya mining?
+answer: Stratum
+wrong_answers:
+  - Electrum
+  - Pata kazi
+  - Kiolezo cha Getblock (GBT)
+explanation: |
+ Stratum ilikuwa itifaki ya mining kwa wateja wembamba. Ilibadilisha haraka kitendakazi cha msingi cha kupata kazi kilichotumika hadi wakati huo, na kujiimarisha kwa gharama ya pendekezo la getblocktemplate linaloshindana.
+reviewed: true

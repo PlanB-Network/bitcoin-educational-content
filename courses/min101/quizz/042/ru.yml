@@ -1,0 +1,9 @@
+question: Что означает аббревиатура ASIC?
+answer: Application-Specific Integrated Circuits
+wrong_answers:
+  - Advanced Secure Integrated Circuit
+  - Automated Silicon Integrated Circuit
+  - Application-Shared Integrated Circuit
+explanation: |
+  ASIC — это чип, разработанный для выполнения одной задачи. Таким образом, это интегральная схема специального назначения (Application-Specific Integrated Circuits).
+reviewed: false

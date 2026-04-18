@@ -1,0 +1,8 @@
+question: How do competition-generated prices work in Hayek's market process?
+answer: They serve as socially accessible indicators for communicating dispersed tacit knowledge
+wrong_answers:
+  - "They automatically establish a perfect balance between supply and demand on all markets"
+  - "They enable central authorities to calculate the optimal allocation of scarce resources"
+  - They directly reflect the rational and fully informed preferences of consumers
+explanation: |
+  According to Hayek, prices play a crucial coordinating role by transmitting information about the tacit knowledge possessed by economic players. This knowledge is dispersed and unformalized, and prices enable it to be communicated socially without the need for any central authority to centralize it. The other answers reflect either the neoclassical vision of perfect equilibrium, or the mistaken idea that central planning could use prices, or the neoclassical postulate of perfectly rational and informed actors.

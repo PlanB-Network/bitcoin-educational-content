@@ -17,6 +17,7 @@ Kozi hii ya siku mbili yenye nguvu, inayofundishwa na Jimmy Song, inakupeleka nd
 
 Furahia safari!
 
+Kumbuka: Video za kozi hii zinapatikana kwa Kiingereza pekee.
 
 +++
 
@@ -92,7 +93,7 @@ Kama ilivyo kwa kila kozi kuhusu Plan ₿ Academy, sehemu ya mwisho inajumuisha 
 ### Misingi ya Programu ya Bitcoin: Miundo ya Kimsingi ya Hisabati
 
 
-Kozi hii inafupisha hesabu muhimu nyuma ya mifumo ya kriptografia ya Bitcoin katika mtiririko wa kazi wenye vitendo sana. Dhana zinaelezewa, zinaonyeshwa kwa mifano, na kisha zinatekelezwa katika Daftari la Jupyter. Wazo elekezi ni rahisi: unaelewa kihalisi tu kriptografia ya awali mara tu unapoiweka msimbo. Katika muundo wa siku mbili, wanafunzi wa generate testnet hushughulikia, huunda na kutangaza miamala, na hatimaye huingiliana na mtandao bila wachunguzi wa block. Yote haya yanahitaji msingi imara katika sehemu zenye kikomo na mikondo ya mviringo.
+Kozi hii inafupisha hesabu muhimu nyuma ya mifumo ya kriptografia ya Bitcoin katika mtiririko wa kazi wenye vitendo sana. Dhana zinaelezewa, zinaonyeshwa kwa mifano, na kisha zinatekelezwa katika Daftari la Jupyter. Wazo elekezi ni rahisi: unaelewa kihalisi tu kriptografia ya awali mara tu unapoiweka msimbo. Katika muundo wa siku mbili, wanafunzi wa generate testnet hushughulikia, huunda na kutangaza [miamala](https://planb.academy/resources/glossary/transaction-tx), na hatimaye huingiliana na mtandao bila wachunguzi wa block. Yote haya yanahitaji msingi imara katika sehemu zenye kikomo na mikondo ya mviringo.
 
 
 ### Sehemu za Mwisho: Injini ya Hesabu ya Uandishi wa Siri
@@ -103,7 +104,7 @@ Sehemu yenye kikomo F(p) ni mfumo wa hesabu unaofafanuliwa na nambari kuu p, yen
 
 #### Tabia ya Kuzidisha
 
-Kuzidisha kipengele chochote kisicho na sifuri k kwa vipengele vyote vya sehemu kuu hutoa mabadiliko ya sehemu. Sifa hii inahakikisha usawa na kuzuia udhaifu wa kimuundo, na kufanya sehemu kuu kuwa bora kwa ajili ya uzalishaji salama wa ufunguo na sahihi za kidijitali.
+Kuzidisha kipengele chochote kisicho na sifuri k kwa vipengele vyote vya sehemu kuu hutoa mabadiliko ya sehemu. Sifa hii inahakikisha usawa na kuzuia udhaifu wa kimuundo, na kufanya sehemu kuu kuwa bora kwa ajili ya uzalishaji salama wa ufunguo na [sahihi za kidijitali](https://planb.academy/resources/glossary/digital-signature).
 
 
 #### Idara na Nadharia Ndogo ya Fermat
@@ -112,7 +113,7 @@ Mgawanyiko unatekelezwa kupitia kinyume cha kuzidisha. Nadharia Ndogo ya Fermat 
 
 n^(p–1) ≡ 1 (mod p),
 
-kwa hivyo kinyume chake ni n^(p–2). Python huunga mkono hili moja kwa moja na `pow(n, -1, p)`. Shughuli hizi huonekana kila mara katika utaratibu wa msingi wa kriptografia wa ECDSA na Bitcoin.
+kwa hivyo kinyume chake ni n^(p–2). Python huunga mkono hili moja kwa moja na `pow(n, -1, p)`. Shughuli hizi huonekana kila mara katika utaratibu wa msingi wa kriptografia wa [ECDSA](https://planb.academy/resources/glossary/ecdsa) na Bitcoin.
 
 
 ### Mikunjo ya Elliptic: Miundo Isiyo ya Mstari kwa Usalama wa Ufunguo wa Umma
@@ -144,7 +145,7 @@ Sura hii inawasilisha mikunjo ya mviringo iliyofafanuliwa juu ya sehemu zenye ki
 ### Kuthibitisha Pointi na Utekelezaji wa Sehemu ya Mwisho
 
 
-Pointi iko kwenye mkunjo wa mviringo wa uwanja mdogo ikiwa viwianishi vyake vinakidhi mlinganyo wa mkunjo chini ya modulo p. Kuthibitisha pointi kama vile (73,128) kwenye F₁₃₇ kunahitaji kuangalia kwamba y² mod p ni sawa na x³ + 7 mod p. Kutekeleza hili katika msimbo kunahusisha kuunda madarasa ya vipengele vya uwanja mdogo na pointi za mkunjo. Upakiaji wa opereta unahakikisha kwamba hesabu zote—kuongeza, kuzidisha, uainishaji, mgawanyiko—zinafanywa kiotomatiki modulo p. Mara tu vifupisho hivi vitakapokuwepo, shughuli za hali ya juu zaidi za kriptografia huwa rahisi kuandika na kutafakari.
+Pointi iko kwenye mkunjo wa mviringo wa uwanja mdogo ikiwa viwianishi vyake vinakidhi mlinganyo wa mkunjo chini ya modulo p. Kuthibitisha pointi kama vile (73,128) kwenye F₁₃₇ kunahitaji kuangalia kwamba y² mod p ni sawa na x³ + 7 mod p. Kutekeleza hili katika msimbo kunahusisha kuunda madarasa ya vipengele vya uwanja mdogo na pointi za mkunjo. Upakiaji wa opereta unahakikisha kwamba hesabu zote—kuongeza, kuzidisha, uainishaji, mgawanyiko—zinafanywa kiotomatiki modulo p. Mara tu vifupisho hivi vitakapokuwepo, shughuli za hali ya juu zaidi za [kriptografia](https://planb.academy/resources/glossary/cryptography) huwa rahisi kuandika na kutafakari.
 
 
 #### Sifa za Kundi na Nyongeza ya Pointi
@@ -155,7 +156,7 @@ Pointi za mkunjo wa duaradufu huunda kundi la hisabati linaloongezwa. Kundi hilo
 ### Vikundi vya Mzunguko na Tatizo la Logariti Isiyotenganishwa
 
 
-Kuchagua nukta ya jenereta G kwenye mkunjo huturuhusu generate kuwa kundi la mzunguko: G, 2G, 3G, …, nG = 0. Nukta hizo huonekana zisizo za mstari na zisizotabirika, hata zinapozalishwa mfululizo. Kutotabirika huku huunda msingi wa tatizo la logarithm tofauti: kukokotoa P = sG ni rahisi, lakini kubaini s kutoka P haiwezekani kimahesabu kwa vikundi vikubwa. Kitendakazi hiki cha njia moja ndicho kinachofanya usimbaji fiche wa ufunguo wa umma kuwa salama. Scalars (funguo za kibinafsi) zimeandikwa kwa herufi ndogo; nukta (funguo za umma) kwa herufi kubwa.
+Kuchagua nukta ya jenereta G kwenye mkunjo huturuhusu generate kuwa kundi la mzunguko: G, 2G, 3G, …, nG = 0. Nukta hizo huonekana zisizo za mstari na zisizotabirika, hata zinapozalishwa mfululizo. Kutotabirika huku huunda msingi wa tatizo la logarithm tofauti: kukokotoa P = sG ni rahisi, lakini kubaini s kutoka P haiwezekani kimahesabu kwa vikundi vikubwa. Kitendakazi hiki cha njia moja ndicho kinachofanya usimbaji fiche wa ufunguo wa umma kuwa salama. Scalars ([funguo za kibinafsi](https://planb.academy/resources/glossary/private-key)) zimeandikwa kwa herufi ndogo; nukta ([funguo za umma](https://planb.academy/resources/glossary/public-key)) kwa herufi kubwa.
 
 
 #### Uzidishaji wa Scalar Ufanisi
@@ -212,7 +213,7 @@ Bitcoin husimba sahihi za ECDSA kwa kutumia umbizo la DER:
 - 0x02 + urefu + baiti S
 
 
-Hii inaongeza gharama ya uendeshaji, ikipanua sahihi ya baiti 64 hadi baiti ~71–72. Taproot huondoa utoshelevu huu kwa kutumia sahihi za Schnorr zenye ukubwa usiobadilika.
+Hii inaongeza gharama ya uendeshaji, ikipanua sahihi ya baiti 64 hadi baiti ~71–72. [Taproot](https://planb.academy/resources/glossary/taproot) huondoa utoshelevu huu kwa kutumia sahihi za [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol) zenye ukubwa usiobadilika.
 
 
 ### Ahadi za Saini na Mchakato wa Kusaini
@@ -229,7 +230,7 @@ Kwa kuzingatia Z, (R, S), na ufunguo wa umma P, kithibitishaji huhesabu U = Z/S 
 #### Saini za Schnorr na Muktadha wa Kihistoria
 
 
-Saini za Schnorr ni safi zaidi kihisabati na zinaunga mkono vipengele vya ujumuishaji, lakini zilitiwa hati miliki wakati Bitcoin ilipozinduliwa. ECDSA ilitoa mbadala wa bure, ingawa ulikuwa na ugumu zaidi na sahihi kubwa zaidi. Kwa kuwa hati miliki ziliisha muda wake, Bitcoin iliongeza sahihi za Schnorr kupitia Taproot, ikitoa sahihi zisizobadilika za baiti 64 na faragha iliyoboreshwa. ECDSA inasalia kuungwa mkono kwa utangamano wa zamani.
+Saini za Schnorr ni safi zaidi kihisabati na zinaunga mkono vipengele vya ujumuishaji, lakini zilitiwa [hati](https://planb.academy/resources/glossary/script) miliki wakati Bitcoin ilipozinduliwa. ECDSA ilitoa mbadala wa bure, ingawa ulikuwa na ugumu zaidi na sahihi kubwa zaidi. Kwa kuwa hati miliki ziliisha muda wake, Bitcoin iliongeza sahihi za Schnorr kupitia Taproot, ikitoa sahihi zisizobadilika za baiti 64 na faragha iliyoboreshwa. ECDSA inasalia kuungwa mkono kwa utangamano wa zamani.
 
 
 
@@ -245,7 +246,7 @@ Muamala wa Bitcoin unajumuisha:
 - muda wa kufunga (baiti 4)
 
 
-Ingizo hurejelea UTXO zilizopita kwa kutumia hash yao ya muamala na faharasa ya matokeo, na hujumuisha hati ya kufungua (scriptSig) na nambari ya mfuatano inayotumika kwa muda wa kufunga au RBF. Matokeo hubainisha kiasi (baiti 8) na hati ya kufunga (scriptPubKey), ikifafanua masharti ya matumizi. Anwani za Bitcoin ni uwakilishi wa hati hizi.
+Ingizo hurejelea [UTXO](https://planb.academy/resources/glossary/utxo) zilizopita kwa kutumia hash yao ya muamala na faharasa ya matokeo, na hujumuisha hati ya kufungua (scriptSig) na nambari ya mfuatano inayotumika kwa muda wa kufunga au RBF. Matokeo hubainisha kiasi (baiti 8) na hati ya kufunga (scriptPubKey), ikifafanua masharti ya matumizi. Anwani za Bitcoin ni uwakilishi wa hati hizi.
 
 
 #### Mfano wa UTXO
@@ -275,7 +276,7 @@ Ada ni dhahiri:
 
 ada = jumla (thamani za pembejeo) – jumla (thamani za matokeo).
 
-Thamani yoyote isiyogawiwa inakuwa ada, na kufanya ujenzi sahihi wa matokeo ya mabadiliko kuwa muhimu. Kabla ya SegWit, sahihi ziliruhusu ubadilikaji—kubadilisha S hadi N-S kulizalisha muamala mpya halali wenye kitambulisho tofauti. Bitcoin sasa inatekeleza sheria ya chini ya S, na SegWit hutenga sahihi kutoka kwa hesabu ya txid, na kufanya vitambulisho kuwa thabiti na kuwezesha itifaki za safu ya pili kama vile Lightning.
+Thamani yoyote isiyogawiwa inakuwa ada, na kufanya ujenzi sahihi wa matokeo ya mabadiliko kuwa muhimu. Kabla ya [SegWit](https://planb.academy/resources/glossary/segwit), sahihi ziliruhusu ubadilikaji—kubadilisha S hadi N-S kulizalisha muamala mpya halali wenye kitambulisho tofauti. Bitcoin sasa inatekeleza sheria ya chini ya S, na SegWit hutenga sahihi kutoka kwa hesabu ya txid, na kufanya vitambulisho kuwa thabiti na kuwezesha itifaki za safu ya pili kama vile [Lightning](https://planb.academy/resources/glossary/lightning-network).
 
 
 ## Hati ya Bitcoin na Uthibitisho wa Muamala
@@ -292,7 +293,7 @@ Hati ya Bitcoin ni lugha ndogo ya mkataba mahiri, inayotegemea mrundiko inayofaf
 ### Mfano wa Uendeshaji wa Hati na Utekelezaji
 
 
-Hati ni mfuatano wa vipengele vya data na opcode. Visukuma data (saini, funguo za umma, hashi) huwekwa kwenye rundo, huku opcode zinazoanza na `OP_` zikibadilisha rundo. Baada ya utekelezaji, kipengele cha rundo la juu lazima kiwe si sifuri kwa mafanikio. Mifano: `OP_DUP` hurudia kipengele cha juu, `OP_HASH160` hutumia SHA256 kisha RIPEMD160, na `OP_CHECKSIG` huthibitisha sahihi dhidi ya sighash ya muamala na ufunguo wa umma, ikisukuma 1 kwa halali, 0 kwa batili. Sheria za uchanganuzi hutofautisha kati ya data ghafi (iliyoanzishiwa urefu) na opcode (zinazotafutwa kwa thamani ya baiti), na mashine ndogo pepe huzitekeleza kiholela kwenye kila nodi.
+Hati ni mfuatano wa vipengele vya data na opcode. Visukuma data (saini, funguo za umma, hashi) huwekwa kwenye rundo, huku opcode zinazoanza na `OP_` zikibadilisha rundo. Baada ya utekelezaji, kipengele cha rundo la juu lazima kiwe si sifuri kwa mafanikio. Mifano: `OP_DUP` hurudia kipengele cha juu, `OP_HASH160` hutumia SHA256 kisha RIPEMD160, na `OP_CHECKSIG` huthibitisha sahihi dhidi ya sighash ya muamala na ufunguo wa umma, ikisukuma 1 kwa halali, 0 kwa batili. Sheria za uchanganuzi hutofautisha kati ya data ghafi (iliyoanzishiwa urefu) na opcode (zinazotafutwa kwa thamani ya baiti), na mashine ndogo pepe huzitekeleza kiholela kwenye kila [nodi](https://planb.academy/resources/glossary/node).
 
 
 ### P2PK na P2PKH: Mifumo ya Malipo ya Msingi
@@ -329,7 +330,7 @@ Kwa sababu kila ingizo katika muamala wa zamani linahitaji hesabu yake ya sighas
 ### Mafumbo ya Hati na Masomo ya Usalama
 
 
-Hati inaweza kuelezea zaidi ya "saini moja hufungua sarafu hizi." Mafumbo ya hati yanaonyesha hili kwa kusimba masharti yasiyo na msingi—matatizo ya hesabu, changamoto za hash preimage, au hata zawadi za mgongano—ambapo mtu yeyote anayetoa data sahihi anaweza kutumia sarafu hizo. Hata hivyo, matokeo ambayo hutegemea data ya umma pekee (bila sahihi) yanaweza kuathiriwa na uendeshaji wa mbele wa wachimbaji: mara tu suluhisho halali linapoonekana kwenye mempool, mchimbaji yeyote anaweza kuinakili na kuelekeza malipo kwake mwenyewe.
+Hati inaweza kuelezea zaidi ya "saini moja hufungua sarafu hizi." Mafumbo ya hati yanaonyesha hili kwa kusimba masharti yasiyo na msingi—matatizo ya hesabu, changamoto za hash preimage, au hata zawadi za mgongano—ambapo mtu yeyote anayetoa data sahihi anaweza kutumia sarafu hizo. Hata hivyo, matokeo ambayo hutegemea data ya umma pekee (bila sahihi) yanaweza kuathiriwa na uendeshaji wa mbele wa wachimbaji: mara tu suluhisho halali linapoonekana kwenye [mempool](https://planb.academy/resources/glossary/mempool), [mchimbaji](https://planb.academy/resources/glossary/miner) yeyote anaweza kuinakili na kuelekeza malipo kwake mwenyewe.
 
 
 Somo la vitendo ni kwamba mikataba ya ulimwengu halisi karibu kila mara hujumuisha ukaguzi wa sahihi, hata wakati ina mantiki ngumu zaidi kama vile multisig, timelocks, au hashlocks. Saini hufunga suluhisho kwa mhusika maalum, kuhifadhi motisha na kuzuia wengine kuiba malipo. Kuelewa mfumo wa rafu wa Script, mifumo ya kawaida, na mitego midogo ni muhimu kwa kubuni mikataba salama ya Bitcoin na kwa kuzingatia jinsi miamala inavyothibitishwa kwenye mtandao.
@@ -402,13 +403,13 @@ P2SH inaboresha faragha kwa kuficha masharti ya matumizi hadi matumizi ya kwanza
 ![lecture](https://www.youtube.com/watch?v=lJYSM1iLWQU)
 
 
-Bitcoin huzuia miamala ya pamoja na kuilinda kwa kutumia proof of work. Kila kizuizi kina kichwa cha habari cha baiti 80 pamoja na orodha ya miamala. Licha ya gharama kubwa ya nishati ya kutengeneza kizuizi halali, kuthibitisha kimoja ni nafuu: kuhifadhi vichwa vyote vya habari vya ~900k kunahitaji ~72 MB pekee, hivyo kuruhusu hata vifaa vidogo kuthibitisha proof of work ya mnyororo kwa ufanisi.
+Bitcoin huzuia miamala ya pamoja na kuilinda kwa kutumia [proof of work](https://planb.academy/resources/glossary/proof-of-work). Kila kizuizi kina [kichwa cha habari](https://planb.academy/resources/glossary/block-header) cha baiti 80 pamoja na orodha ya miamala. Licha ya gharama kubwa ya nishati ya kutengeneza kizuizi halali, kuthibitisha kimoja ni nafuu: kuhifadhi vichwa vyote vya habari vya ~900k kunahitaji ~72 MB pekee, hivyo kuruhusu hata vifaa vidogo kuthibitisha proof of work ya mnyororo kwa ufanisi.
 
 
 ### Miamala ya Coinbase na Zawadi za Block
 
 
-Kila kizuizi huanza na muamala mmoja wa Coinbase—njia pekee ambayo bitcoin mpya huingia kwenye mzunguko. Ina hash ya prev-tx iliyo na sifuri na faharisi ya 0xffffffff, ikiitambulisha kipekee. Ruzuku ilianza kwa BTC 50 na nusu kila vitalu 210,000 (50, 25, 12.5, 6.25, 3.125, …). Wachimbaji pia hujumuisha ada za muamala. Kwa sababu nonce ya baiti 4 ni ndogo sana kwa ASIC za kisasa, wachimbaji hubadilisha data katika muamala wa Coinbase ili kubadilisha mzizi wa Merkle na kuunda nafasi ya ziada ya utafutaji. BIP34 inahitaji kupachika urefu wa kizuizi katika hati ya CoinbaseSig ili kuhakikisha kila Coinbase txid ni ya kipekee.
+Kila kizuizi huanza na muamala mmoja wa Coinbase—njia pekee ambayo bitcoin mpya huingia kwenye mzunguko. Ina hash ya prev-tx iliyo na sifuri na faharisi ya 0xffffffff, ikiitambulisha kipekee. Ruzuku ilianza kwa BTC 50 na nusu kila [vitalu](https://planb.academy/resources/glossary/block) 210,000 (50, 25, 12.5, 6.25, 3.125, …). Wachimbaji pia hujumuisha ada za muamala. Kwa sababu nonce ya baiti 4 ni ndogo sana kwa ASIC za kisasa, wachimbaji hubadilisha data katika [muamala wa Coinbase](https://planb.academy/resources/glossary/coinbase-transaction) ili kubadilisha mzizi wa [Merkle](https://planb.academy/resources/glossary/merkle-tree) na kuunda nafasi ya ziada ya utafutaji. [BIP34](https://planb.academy/resources/glossary/bip) inahitaji kupachika urefu wa kizuizi katika hati ya CoinbaseSig ili kuhakikisha kila Coinbase txid ni ya kipekee.
 
 
 ### Sehemu za Kichwa cha Vitalu na Ishara ya Soft Fork
@@ -421,11 +422,11 @@ Kichwa cha habari cha baiti 80 kina:
 - hashi ya awali ya kizuizi (baiti 32)
 - Mzizi wa Merkle (baiti 32)
 - muhuri wa muda (baiti 4)
-- biti (lengo la ugumu, baiti 4)
+- biti (lengo la [ugumu](https://planb.academy/resources/glossary/difficulty), baiti 4)
 - nonce (baiti 4)
 
 
-Nambari za matoleo zilibadilika na kuwa mfumo wa kuashiria sehemu ndogo kupitia BIP9, na kuruhusu wachimbaji kuratibu utayari wa fork laini. Muhuri wa muda ni thamani ya muda ya Unix ya biti 32 na itahitaji kusasishwa karibu mwaka wa 2106.
+Nambari za matoleo zilibadilika na kuwa mfumo wa kuashiria sehemu ndogo kupitia BIP9, na kuruhusu wachimbaji kuratibu utayari wa [fork laini](https://planb.academy/resources/glossary/soft-fork). Muhuri wa muda ni thamani ya muda ya Unix ya biti 32 na itahitaji kusasishwa karibu mwaka wa 2106.
 
 
 #### Sehemu na Malengo ya Vipande
@@ -459,7 +460,7 @@ Ruzuku katika urefu wa h inahesabiwa kama: ruzuku = 5_000_000_000 >> (h // 210_0
 ### Usanifu wa Mtandao wa Bitcoin
 
 
-Mtandao wa rika-kwa-rika wa Bitcoin hufanya kazi kama mfumo wa umbea uliogawanywa ambapo nodi husambaza miamala na kuzuia bila kuaminiana. Nodi mpya huongezeka kwa kuwasiliana na mbegu za DNS zenye msimbo mgumu zinazodumishwa na watengenezaji msingi. Mbegu hizi za DNS hurejesha IP za rika zinazofanya kazi, na kuwezesha nodi kugundua mtandao na kisha kuomba rika zaidi kupitia getaddr. Mtandao kwa makusudi si muhimu kwa makubaliano, kwa hivyo utekelezaji unaweza kutofautiana mradi tu sheria za makubaliano zibaki bila kubadilika.
+Mtandao wa [rika-kwa-rika](https://planb.academy/resources/glossary/peertopeer-p2p) wa Bitcoin hufanya kazi kama mfumo wa umbea uliogawanywa ambapo nodi husambaza miamala na kuzuia bila kuaminiana. Nodi mpya huongezeka kwa kuwasiliana na mbegu za DNS zenye msimbo mgumu zinazodumishwa na watengenezaji msingi. Mbegu hizi za DNS hurejesha IP za rika zinazofanya kazi, na kuwezesha nodi kugundua mtandao na kisha kuomba rika zaidi kupitia getaddr. Mtandao kwa makusudi si muhimu kwa [makubaliano](https://planb.academy/resources/glossary/consensus), kwa hivyo utekelezaji unaweza kutofautiana mradi tu sheria za makubaliano zibaki bila kubadilika.
 
 
 ### Muundo wa Ujumbe na Kusalimiana kwa Mkono
@@ -474,12 +475,12 @@ Kushikana mikono huanza wakati nodi inayounganisha inapotuma ujumbe wa toleo. Mp
 ### Miti ya Merkle na Mizizi ya Merkle
 
 
-Bitcoin huhifadhi mzizi mmoja wa Merkle wa baiti 32 katika kila kichwa cha vitalu kama ahadi ya miamala yote kwenye vitalu. Miamala huharakishwa (hash256), kuoanishwa, kuunganishwa, na kuharakishwa mara kwa mara hadi hashi moja ibaki. Wakati kiwango kina hesabu isiyo ya kawaida, hashi ya mwisho inarudiwa. Kwa ndani, hashi ni kubwa, huku data ya vitalu vilivyosawazishwa ikitumia little-endian, ikihitaji kubadilishwa kabla na baada ya ujenzi wa mti.
+Bitcoin huhifadhi mzizi mmoja wa Merkle wa baiti 32 katika kila kichwa cha vitalu kama ahadi ya miamala yote kwenye vitalu. Miamala [huharakishwa](https://planb.academy/resources/glossary/hash-function) (hash256), kuoanishwa, kuunganishwa, na kuharakishwa mara kwa mara hadi hashi moja ibaki. Wakati kiwango kina hesabu isiyo ya kawaida, hashi ya mwisho inarudiwa. Kwa ndani, hashi ni kubwa, huku data ya vitalu vilivyosawazishwa ikitumia little-endian, ikihitaji kubadilishwa kabla na baada ya ujenzi wa mti.
 
 
 #### Merkle Proofs na SPV
 
-Uthibitisho wa Merkle huruhusu kuthibitisha kwamba muamala umejumuishwa kwenye kizuizi bila kupakua kizuizi kizima. Uthibitisho unajumuisha hashes za ndugu kando ya njia ya mzizi. Wateja wepesi wa SPV huhifadhi vichwa vya vitalu pekee na kuomba uthibitisho huu kutoka kwa nodi kamili. Kwa sababu mti wa Merkle hukua kwa mpangilio wa kiotomatiki, kuthibitisha kuingizwa kwenye kizuizi chenye maelfu ya miamala kunahitaji baiti mia chache tu.
+Uthibitisho wa Merkle huruhusu kuthibitisha kwamba muamala umejumuishwa kwenye kizuizi bila kupakua kizuizi kizima. Uthibitisho unajumuisha hashes za ndugu kando ya njia ya mzizi. Wateja wepesi wa SPV huhifadhi vichwa vya vitalu pekee na kuomba uthibitisho huu kutoka kwa [nodi kamili](https://planb.academy/resources/glossary/full-node). Kwa sababu mti wa Merkle hukua kwa mpangilio wa kiotomatiki, kuthibitisha kuingizwa kwenye kizuizi chenye maelfu ya miamala kunahitaji baiti mia chache tu.
 
 
 Taproot inapanua dhana hii kwa kuweka masharti ya matumizi kwenye mti wa hati ya Merklized (MAST), ikifunua tawi lililotekelezwa pamoja na uthibitisho wa Merkle pekee. Hii inaboresha ufanisi na faragha.
@@ -515,7 +516,7 @@ Kipindi hiki kinaunganisha mtandao wa hali ya juu wa P2P na Segregated Witness, 
 ### Urejeshaji wa Muamala Unaotegemea Vizuizi na Faragha
 
 
-Pochi lazima zigundue malipo yanayoingia kwa kuchanganua vizuizi kwa matokeo yanayolingana na scriptPubKey yao. Kurejesha vizuizi vizima hulinda faragha vizuri zaidi kuliko kuomba miamala ya mtu binafsi, ambayo huvuja ishara kali kuhusu shughuli za mtumiaji. Hata maombi ya vizuizi yanaweza kuvuja taarifa kwenye minyororo ya ujazo mdogo, na kufanya vichujio vya vizuizi vidogo (BIP158) kuwa muhimu kwa kuhifadhi faragha kwa wateja wepesi. Vichujio vinaweza kutoa chanya za uongo lakini kamwe si hasi za uongo, na kuruhusu wateja kupakua vizuizi vinavyoweza kuwa muhimu bila kufichua anwani maalum.
+[Pochi](https://planb.academy/resources/glossary/wallet) lazima zigundue malipo yanayoingia kwa kuchanganua vizuizi kwa matokeo yanayolingana na scriptPubKey yao. Kurejesha vizuizi vizima hulinda faragha vizuri zaidi kuliko kuomba miamala ya mtu binafsi, ambayo huvuja ishara kali kuhusu shughuli za mtumiaji. Hata maombi ya vizuizi yanaweza kuvuja taarifa kwenye minyororo ya ujazo mdogo, na kufanya vichujio vya vizuizi vidogo (BIP158) kuwa muhimu kwa kuhifadhi faragha kwa wateja wepesi. Vichujio vinaweza kutoa chanya za uongo lakini kamwe si hasi za uongo, na kuruhusu wateja kupakua vizuizi vinavyoweza kuwa muhimu bila kufichua anwani maalum.
 
 
 ### Mwingiliano wa Mtandao wa Trustless

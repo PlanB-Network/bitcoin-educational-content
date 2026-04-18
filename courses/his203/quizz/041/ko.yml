@@ -1,0 +1,10 @@
+question: 페이 투 스크립트 Hash 업그레이드에 격렬하게 반대했던 Bitcoin 개발자는 누구인가요?
+answer: Luke Dashjr
+wrong_answers:
+  - 아미르 타키
+  - Gregory Maxwell
+  - 개빈 안드레센
+explanation: |
+ Luke Dashjr는 OP_EVAL 제안이 더 우아하기 때문에 훨씬 낫다고 생각했고, P2SH는 스크립팅 시스템을 "단일 특수 모델"로 대체했다고 생각했습니다.
+ 또한 개빈은 소프트웨어에 기본 보고 기능을 포함시킨 것에 대해 비판했습니다. 이에 대한 대응으로 Luke-Jr는 자신만의 운영 코드인 OP_CHECKHASHVERIFY(BIP 17)을 개발했습니다.
+reviewed: true

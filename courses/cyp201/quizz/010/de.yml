@@ -5,5 +5,5 @@ wrong_answers:
   - SHA256
   - RIPEMD160
 explanation: |
-  HMAC-SHA512 ist ein Algorithmus, der eine Hash-Funktion und einen geheimen Schlüssel kombiniert, um einen Authentifizierungscode zu berechnen.
+  HMAC-SHA512 ist ein Algorithmus, der eine Hashfunktion und einen geheimen Schlüssel kombiniert, um einen Authentifizierungscode zu berechnen.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Was entspricht die Block-Subvention?
+answer: Geldschöpfung
+wrong_answers:
+  - Transaktionsgebühren
+  - Einzahlung der Nutzer
+  - Spam-Strafe
+explanation: |
+  Die Subvention ist der Teil der Belohnung, der neue Bitcoins ex nihilo gemäß den Regeln des Protokolls erschafft.
+reviewed: false

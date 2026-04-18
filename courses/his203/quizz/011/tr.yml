@@ -1,0 +1,10 @@
+question: Mt. Gox'un 19 Haziran'da saldırıya uğramasına ne sebep oldu?
+answer: MD5 ile karma hale getirilmiş ancak tuzlanmamış parola veritabanına erişim
+wrong_answers:
+  - Jed McCaleb platformdaki kişisel hesabına erişim şifresini sızdırdı
+  - Korsanın sahip olduğundan daha fazla bitcoin çekmesine izin veren bir yıldırım çarpması
+  - Hesapları hortumlamak için para çekme taleplerine XML enjeksiyonu
+explanation: |
+ Bu sızıntı, bilgisayar korsanının zayıf şifreli (kısa veya tahmin edilmesi kolay) hesaplara erişmesini sağladı. Özellikle Jed McCaleb'in hesabına bu şekilde erişmiştir. O
+ fiyatı düşürmek için bitcoin sattı, böylece maksimum miktarda bitcoin çekebildi (günlük para çekme limiti 1.000 dolardı).
+reviewed: true

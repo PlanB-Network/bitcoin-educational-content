@@ -1,0 +1,9 @@
+question: Jaki warunek sprawia, że blok w Bitcoinie jest prawidłowy?
+answer: SHA256d(nagłówek bloku) <= cel
+wrong_answers:
+  - SHA256d(nagłówek bloku) >= cel
+  - SHA256d(blok) >= cel
+  - SHA256d(nagłówek bloku) > cel
+explanation: |
+  Aby blok był ważny w Bitcoinie, hash jego nagłówka, interpretowany jako liczba, musi być mniejszy lub równy (<=) celowi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kiwango cha ruzuku ya kitalu kilikuwa kiasi gani wakati wa kuzinduliwa kwa Bitcoin mnamo 2009?
+answer: 50 BTC
+wrong_answers:
+  - 25 BTC
+  - 12.5 BTC
+  - 100 BTC
+explanation: |
+  Ruzuku ya awali ilikuwa 50 BTC kwa kila kitalu, kabla ya migawanyo iliyofuata.
+reviewed: false

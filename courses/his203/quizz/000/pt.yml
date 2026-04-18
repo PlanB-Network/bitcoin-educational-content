@@ -1,0 +1,10 @@
+question: Que acontecimento levou o Satoshi Nakamoto a retirar-se da ribalta em dezembro de 2010?
+answer: Publicação de um artigo da PC World que convida a WikiLeaks a utilizar o Bitcoin
+wrong_answers:
+  - Ross Ulbricht lança a plataforma Silk Road
+  - O contacto estabelecido pela In-Q-Tel, o fundo de investimento da CIA
+  - O aumento espetacular do preço do BTC de 0,20 dólares para 32 dólares em apenas alguns meses
+explanation: |
+ O Satoshi comentou negativamente esta publicação no fórum do Bitcoin, receando que atraísse a atenção das autoridades estatais. O mercado da Rota da Seda
+ foi lançado em janeiro de 2011, o contacto entre a In-Q-Tel e Gavin Andresen teve lugar em abril e o aumento de preços atingiu um máximo de 32 dólares em junho.
+reviewed: true

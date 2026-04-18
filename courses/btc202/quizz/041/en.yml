@@ -5,5 +5,5 @@ wrong_answers:
   - Dropbox
   - OneDrive
 explanation: |
-  Umbrel offers an App Store with self-hosting services, such as Nextcloud, for storing and synchronizing files yourself.
+  Umbrel offers an App Store with self-hosting services, such as Nextcloud, for storing and synchronizing files.
 reviewed: true

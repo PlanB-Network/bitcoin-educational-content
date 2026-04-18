@@ -1,0 +1,9 @@
+question: Welke mining coöperatie overschreed kortstondig de 50% netwerk hash rate in de zomer van 2011?
+answer: Deepbit
+wrong_answers:
+  - Deepbit
+  - Slush's zwembad
+  - GHash.io
+explanation: |
+ Volgens OrganOfCorti was de gemeten hash rate van Deepbit 52,86% op 5 augustus.
+reviewed: true

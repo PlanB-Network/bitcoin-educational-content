@@ -826,7 +826,7 @@ Nel XX secolo sono emerse due tendenze principali:
 2.  **L'altro anarco-capitalista:** che ritiene che le funzioni statali debbano essere privatizzate e gestite dal mercato.
 
 
-Tuttavia, entrambi concordano sul principio fondamentale della sovranità individuale. Le idee libertarie sono state espresse già nel XVIII secolo dai fisiocratici, in particolare da Vincent de Gournay e Turgot, e sviluppate da Condillac, Jean-Baptiste Say e Frédéric Bastiat. Nel XX secolo sono stati ripresi e sviluppati dalla scuola austriaca di economia, i cui principali autori sono Ludwig von Mises, Friedrich Hayek e Murray Rothbard.
+Tuttavia, entrambi concordano sul principio fondamentale della sovranità individuale. Le idee libertarie sono state espresse già nel XVIII secolo dai fisiocratici, in particolare da Vincent de Gournay e Turgot, e sviluppate da Condillac, Jean-Baptiste Say e Frédéric Bastiat. Nel XX secolo sono stati ripresi e sviluppati dalla [scuola austriaca di economia](https://planb.academy/resources/glossary/austrian-school), i cui principali autori sono Ludwig von Mises, Friedrich Hayek e Murray Rothbard.
 
 
 
@@ -1626,10 +1626,10 @@ Alla fine di questo corso, riteniamo essenziale affrontare il posizionamento pol
 
 
 
-Bitcoin è una criptovaluta decentralizzata, creata da Satoshi Nakamoto nel 2008, che consente transazioni finanziarie peer-to-peer non affidabili.
+Bitcoin è una [criptovaluta](https://planb.academy/resources/glossary/cryptocurrency) decentralizzata, creata da Satoshi Nakamoto nel 2008, che consente transazioni finanziarie [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) non affidabili.
 
 
-Bitcoin è controllato da un protocollo software open source, senza amministratore delegato, senza sede centrale, senza budget per il marketing e senza autorità designate. Ciò significa che nessun ente politico o governo ha il controllo su di esso.
+Bitcoin è controllato da un protocollo software [open source](https://planb.academy/resources/glossary/foss), senza amministratore delegato, senza sede centrale, senza budget per il marketing e senza autorità designate. Ciò significa che nessun ente politico o governo ha il controllo su di esso.
 
 
 
@@ -1645,7 +1645,7 @@ Sebbene il Bitcoin non sia né di destra né di sinistra, né appartenga ad alcu
 
 
 
-Leggendo il Libro Bianco di Nakamoto sul Satoshi, possiamo notare che il Bitcoin è stato progettato per offrire una protezione innovativa contro due grandi minacce contemporanee: la sorveglianza diffusa e l'accelerazione della creazione di denaro artificiale.
+Leggendo il [Libro Bianco](https://planb.academy/resources/glossary/white-paper) di Nakamoto sul Satoshi, possiamo notare che il Bitcoin è stato progettato per offrire una protezione innovativa contro due grandi minacce contemporanee: la sorveglianza diffusa e l'accelerazione della creazione di denaro artificiale.
 
 
 
@@ -1653,7 +1653,7 @@ Leggendo il Libro Bianco di Nakamoto sul Satoshi, possiamo notare che il Bitcoin
 
 
 
-2. Il Bitcoin consente a tutti di proteggere i propri risparmi dalla spoliazione della proprietà privata che si concretizza nell'inflazione monetaria. È un tentativo di sfidare il controllo dello Stato sulla gestione del denaro come strumento di scambio, e quindi di competere con lo Stato. La crisi finanziaria del 2008 e la pandemia di Covid 19 hanno evidenziato le falle del sistema attuale. I trilioni di dollari stampati dal nulla per evitare un ulteriore collasso dell'economia hanno avuto effetti devastanti, che stiamo ancora pagando.
+2. Il Bitcoin consente a tutti di proteggere i propri risparmi dalla spoliazione della proprietà privata che si concretizza nell'[inflazione](https://planb.academy/resources/glossary/inflation) monetaria. È un tentativo di sfidare il controllo dello Stato sulla gestione del denaro come strumento di scambio, e quindi di competere con lo Stato. La crisi finanziaria del 2008 e la pandemia di Covid 19 hanno evidenziato le falle del sistema attuale. I trilioni di dollari stampati dal nulla per evitare un ulteriore collasso dell'economia hanno avuto effetti devastanti, che stiamo ancora pagando.
 
 
 
@@ -1681,7 +1681,7 @@ Il punto di partenza dell'approccio intellettuale di Satoshi Nakamoto è quindi 
 
 
 
-L'inclusione di questo titolo nel blocco genesi è aperta all'interpretazione. Ma può apparire come un commento del Satoshi sui fallimenti delle istituzioni finanziarie tradizionali e come una dichiarazione dell'obiettivo del Bitcoin: offrire un'alternativa ai sistemi bancari centralizzati.
+L'inclusione di questo titolo nel [blocco genesi](https://planb.academy/resources/glossary/genesis-block) è aperta all'interpretazione. Ma può apparire come un commento del Satoshi sui fallimenti delle istituzioni finanziarie tradizionali e come una dichiarazione dell'obiettivo del Bitcoin: offrire un'alternativa ai sistemi bancari centralizzati.
 
 
 
@@ -1725,7 +1725,7 @@ In questo senso, è guidato da una visione del mondo che è sia morale che polit
 
 
 
-Ma il Bitcoin non è apparso dal nulla. Si basa sui progressi della matematica, della fisica, dell'informatica e della filosofia. Satoshi Nakamoto, per quanto brillante, si è basato sulle idee di altri innovatori. Tra questi, i pionieri del movimento cypherpunk.
+Ma il Bitcoin non è apparso dal nulla. Si basa sui progressi della matematica, della fisica, dell'informatica e della filosofia. Satoshi Nakamoto, per quanto brillante, si è basato sulle idee di altri innovatori. Tra questi, i pionieri del movimento [cypherpunk](https://planb.academy/resources/glossary/cypherpunks).
 
 
 
@@ -1748,7 +1748,7 @@ Emergono in un contesto in cui le tecnologie dell'informazione e della comunicaz
 
 
 
-L'idea era quella di rendere l'anonimato e la libertà finanziaria accessibili a tutti, grazie a strumenti di crittografia digitale. In questo modo, le autorità governative non avrebbero avuto alcun controllo sulle attività online.
+L'idea era quella di rendere l'anonimato e la libertà finanziaria accessibili a tutti, grazie a strumenti di [crittografia](https://planb.academy/resources/glossary/cryptography) digitale. In questo modo, le autorità governative non avrebbero avuto alcun controllo sulle attività online.
 
 
 

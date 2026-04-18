@@ -1,0 +1,9 @@
+question: Nếu các khối được tìm thấy quá nhanh trong giai đoạn cuối, điều gì sẽ xảy ra?
+answer: Mục tiêu giảm xuống
+wrong_answers:
+  - Mục tiêu tăng lên
+  - Mục tiêu giữ nguyên
+  - Kích thước khối tăng lên
+explanation: |
+  Các khối được tìm thấy quá nhanh cho thấy tỷ lệ băm cao hơn, do đó Bitcoin thắt chặt điều kiện bằng cách hạ thấp mục tiêu.
+reviewed: false

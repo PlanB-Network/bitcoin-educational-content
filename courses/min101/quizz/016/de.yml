@@ -1,0 +1,9 @@
+question: Was bedeutet das Akronym RPOW?
+answer: Reusable Proofs of Work
+wrong_answers:
+  - Recursive Proofs of Work
+  - Random Proofs of Work
+  - Replayed Proofs of Work
+explanation: |
+  RPOW bezeichnet wiederverwendbare und handelbare Arbeitsnachweise, die 2004 von Hal Finney vorgeschlagen wurden.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Persyaratan untuk menggunakan kunci publik selain kunci privat
 explanation: |
   RC4 memiliki kelemahan signifikan dalam generasi aliran kunci, yang membuat enkripsi terpapar pada serangan, sehingga secara bertahap ditinggalkan dalam protokol keamanan modern.
+reviewed: true

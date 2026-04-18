@@ -1,0 +1,9 @@
+question: Wat verbruiken inputs in een Bitcoin-transactie?
+answer: Bestaande UTXO's
+wrong_answers:
+  - Toekomstige outputs
+  - Bestaande blokken
+  - Toekomstige adressen
+explanation: |
+  Een input verwijst naar een niet-uitgegeven output van een eerdere transactie, een UTXO genaamd.
+reviewed: false

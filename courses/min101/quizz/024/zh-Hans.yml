@@ -1,0 +1,9 @@
+question: 什么现象使得两个区块之间的延迟从根本上是可变的？
+answer: 哈希的概率性质
+wrong_answers:
+  - 哈希的确定性质
+  - 哈希的递归性质
+  - 哈希的周期性质
+explanation: |
+  每次哈希都是一次独立的尝试，这使得即使在算力恒定的情况下，发现时间也是随机 cross 的。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jsou poplatky za bitcoinovou transakci výstupem (output)?
+answer: Ne
+wrong_answers:
+  - Ano
+  - Ano, ale pouze pro transakce SegWit
+  - Ne, ale bylo tomu tak před rokem 2012
+explanation: |
+  Poplatky jsou rozdílem mezi celkovými vstupy a celkovými výstupy, nikoli vyhrazeným výstupem. Tak je tomu odjakživa.
+reviewed: false

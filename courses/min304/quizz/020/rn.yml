@@ -1,0 +1,13 @@
+question: Ni igiki gihangayikishije muri kazoza ku bijanye n’ikoresha ry’ikibanza muri block?
+answer: Igihangayikishije muri kazoza ni iterambere ryitezwe rya Lightning Network be n’ukwiyongera kw’ukwugurura n’ugufunga imigende (channel), ikibanza muri Bitcoin blocks kizorushiriza kugira agaciro.
+wrong_answers:
+  - Icozohagarika umutima muri kazoza ni uko ubunini bw’block ya Bitcoin buzoba bunini cane ku buryo atawuzoshobora gucungera.
+  - Icozotera ubwoba muri kazoza ni uko igiharuro ca Bitcoin kizorenga ubushobozi bw’uruja n’uruza.
+  - Icozotera ubwoba muri kazoza ni uko uburemere bwa block ya Bitcoin buzokwongerekana, bigatuma bigorana gukora.
+explanation: |
+  Kubera iterambere ryitezwe rya Lightning Network be n’ukwiyongera kw’ukwugurura n’ugufunga imigende (channel), 
+  ikibanza muri Bitcoin blocks kizorushiriza kugira agaciro. Ibi vyatumye
+  haba ibiganiro ku bijanye n'ugukoresha mu buryo bwemewe ico kibanza muri block, 
+  n'uguhangayikira "spam" (ubutumwa butari bwo) kuri Blockchain buva ku bikorwa vy'amahera bibonwa
+  ko bitari ngombwa.
+reviewed: true

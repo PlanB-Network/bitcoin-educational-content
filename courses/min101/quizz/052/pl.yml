@@ -1,0 +1,9 @@
+question: Mówiąc prościej, czym jest blok w sieci Bitcoin?
+answer: Pakietem transakcji
+wrong_answers:
+  - Płatnością
+  - Centralnym serwerem
+  - Kluczem prywatnym
+explanation: |
+  W uproszczeniu, blok to po prostu zestaw pogrupowanych transakcji.
+reviewed: false

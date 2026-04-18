@@ -5,5 +5,5 @@ wrong_answers:
   - Il la signe avec sa clé privée
   - Il la chiffre avec sa clé publique
 explanation: |
-  Dans le réseau Bitcoin, chaque nœud propage les transactions valides aux nœuds avec lesquels il est connectés.
-reviewed: false
+  Dans le réseau Bitcoin, chaque nœud propage les transactions valides aux nœuds avec lesquels il est connecté.
+reviewed: true 

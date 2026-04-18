@@ -1,0 +1,9 @@
+question: Vad är syftet med Merkle-roten i ett Bitcoin-blockhuvud?
+answer: Att binda alla transaktioner i blocket
+wrong_answers:
+  - Beräkna blockets proof of work
+  - Signalera blockversionen
+  - Veta blockets svårighetsgrad
+explanation: |
+  Merkle-roten sammanfattar alla transaktioner; om en ändras ändras även roten.
+reviewed: false

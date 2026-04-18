@@ -1,0 +1,9 @@
+question: Hvilken ressurs må Bitcoin-mining bruke?
+answer: Elektrisitet
+wrong_answers:
+  - Vann
+  - Edelstener
+  - Gull
+explanation: |
+  Mining er et valideringsarbeid som forbruker elektrisitet via datamaskiner.
+reviewed: false

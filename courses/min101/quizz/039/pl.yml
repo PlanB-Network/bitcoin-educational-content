@@ -1,0 +1,9 @@
+question: Dlaczego transakcja coinbase różni się od innych transakcji?
+answer: Nie wydaje żadnego realnego UTXO
+wrong_answers:
+  - Nie posiada TXID
+  - Nie posiada wyjść (outputs)
+  - Nie znajduje się w drzewie Merkle
+explanation: |
+  Jej wejście wskazuje na fikcyjne UTXO, co pozwala na stworzenie nagrody (subsidy) i pobranie opłat.
+reviewed: false

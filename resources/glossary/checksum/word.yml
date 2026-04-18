@@ -94,7 +94,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.46
+    reward: 0.45
   - language: sw
     last_contribution_date:
     urgency: 1
@@ -104,7 +104,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.46
+    reward: 0.45
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -124,12 +124,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.46
+    reward: 0.45
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.46
+    reward: 0.45
   - language: rn
     last_contribution_date:
     urgency: 1

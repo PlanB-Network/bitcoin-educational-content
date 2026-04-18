@@ -1,0 +1,9 @@
+question: ¿Qué intervalo medio entre cada bloque busca Bitcoin?
+answer: 10 minutos
+wrong_answers:
+  - 1 minuto
+  - 30 minutos
+  - 60 minutos
+explanation: |
+  El protocolo busca un promedio de aproximadamente un bloque cada 10 minutos durante un período largo.
+reviewed: false

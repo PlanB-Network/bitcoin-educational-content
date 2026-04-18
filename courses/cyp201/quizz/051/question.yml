@@ -18,11 +18,12 @@ proofreading:
     contributor_names:
     reward: 0.23
   - language: de
-    last_contribution_date: '2025-12-04'
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
       - alha96
-    reward: 0.09
+      - reneplass
+    reward: 0
   - language: en
     last_contribution_date:
     urgency: 1
@@ -44,10 +45,11 @@ proofreading:
     contributor_names:
     reward: 0.23
   - language: id
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 0.28
+      - rudyhow
+    reward: 0.14
   - language: it
     last_contribution_date: '2025-08-18'
     urgency: 1

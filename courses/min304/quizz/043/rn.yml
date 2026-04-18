@@ -1,0 +1,12 @@
+question: Ni ubuhe busobanuro bw’umugani Si Hashrate yawe, si agashimwe kawe mu bijanye na Bitcoin mining?
+answer: Iyo udafise ububasha kuri hashrate, nta bubasha ufise ku gashimwe ka mining.
+wrong_answers:
+  - Iyo udafise hashrate nini, nta ngororano uzoronka.
+  - Iyo udafise Bitcoin, nta ngororano uzoronka.
+  - Iyo udafise imashini ya mining, nta ngororano uzoronka.
+explanation: |
+  Umugani Si Hashrate yawe, si agashimwe kawe usa n’uyundi mugani uzwi cane mw’isi ya cryptocurrencies
+  Si imfunguruzo zawe, si Bitcoins zawe. Bisigura ko iyo udafise ububasha kuri hashrate,
+  nta bubasha ufise ku gashimwe ka mining. Ivyo ni kubera ko agashimwe kavuye kuri
+  mining ghuye ata guca kuruhande na hashrate.
+reviewed: true

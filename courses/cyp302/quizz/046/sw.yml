@@ -6,4 +6,4 @@ wrong_answers:
   - Kazi ya Beta ya Dirichlet
 explanation: |
   Chaguo za kukokotoa za Euler za Phi huamua idadi ya nambari kamili chini ya N ambazo ni coprime na N, dhana kuu katika nadharia za kriptografia kulingana na nambari kuu.
-reviewed: false
+reviewed: true

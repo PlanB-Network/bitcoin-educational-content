@@ -1,0 +1,9 @@
+question: Sau bao nhiêu lần xác nhận thì các đầu ra (output) của một coinbase có thể chi tiêu được?
+answer: 101 lần xác nhận
+wrong_answers:
+  - 6 lần xác nhận
+  - 201 lần xác nhận
+  - 210 lần xác nhận
+explanation: |
+  Thời gian đáo hạn là 100 khối, vì vậy cần 101 lần xác nhận để các UTXO này có thể chi tiêu được.
+reviewed: false

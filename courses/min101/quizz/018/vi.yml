@@ -1,0 +1,9 @@
+question: Hashcash chủ yếu tìm cách giảm thiểu vấn đề gì?
+answer: Thư rác (Email spam)
+wrong_answers:
+  - Chi tiêu gấp đôi
+  - Tấn công giả mạo DNS
+  - Trộm cắp khóa cá nhân
+explanation: |
+  Hashcash áp đặt một chi phí tính toán cho mỗi tin nhắn để làm cho việc gửi email hàng loạt không có lãi.
+reviewed: false

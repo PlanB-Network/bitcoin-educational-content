@@ -1,9 +1,9 @@
-question: Ni ibihe bice bine bisobanura RGB Contract?
-answer: Genesis, Schema, Interface na Interface Implementation.
+question: Ni ibihe bice bine bisigura amasezerano ya RGB ?
+answer: Itanguriro, Igicapo, Ahakorerwa ibintu n'aho ibintu bishirirwa mungiro .
 wrong_answers:
-  - Genesis, Schema, Inzira y’Impinduka na Interface Implementation.
-  - Genesis, Interface, Impinduka n'Ukwagura
-  - Genesis, Interface, Interface Implementation n'Ivyagutse
+  - Itanguriro, Igicapo, Inzira y’Impinduka n'aho ibintu bishirirwa mungiro.
+  - Intanguriro, Ahakorerwa ibintu, Impinduka n'Ukwagura
+  - Itanguriro, Ahakorerwa ibintu, Aho ibintu bishirirwa mungiro n'Ivyagutse
 explanation: |
-  RGB Contract igizwe n’ibikoresho bine bitandukanye vyitwa Elements; Genesis, Schema, Interface na Interface Implementation.
-reviewed: false
+  Amasezerano ya RGB agizwe n’ibikoresho bine bitandukanye vyitwa Ibintu; Itanguriro, Igicapo, Ahakorerwa ibintu n'aho ibintu bishirirwa mungiro.
+reviewed: true

@@ -1,0 +1,11 @@
+question: 罗素-奥康纳（Russell O'Connor）于 2012 年 2 月发现的安全问题导致了 BIP 30 的诞生？
+answer: 区块链上存在重复交易
+wrong_answers:
+  - 拜占庭将军使共识无效的问题
+  - OP_EVAL 指令存在递归缺陷
+  - 由 OP_CHECKMULTISIG 操作员移除多余元素
+explanation: |
+ 这些都是在不同区块中包含相同标识符的奖励交易。2012 年 2 月 4 日，Russell O'Connor 发现了一个漏洞。
+ 发现了一个漏洞，该漏洞允许通过链重组的方式彻底删除其中一个重复交易产生的所有交易。在
+ BIP 30 by Pieter Wuille》中描述的修补程序已于 3 月 15 日应用于网络。
+reviewed: true

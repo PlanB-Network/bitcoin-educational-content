@@ -352,7 +352,7 @@ Det finnes flere typer byttehandel:
 
 
 
-Den østerrikske økonomiske skolen tolker denne utviklingen som en spontan fremvekst av privilegerte byttevarer. Skjell, som er arkeologisk påvist så tidlig som i mesolittisk tid, illustrerer dette fenomenet: De er funnet langt fra sitt geografiske opphav (middelhavsskjell i Vest-Frankrike, nordiske skjell på andre steder), og vitner om en felles erkjennelse av deres bytteverdi.
+Den [østerrikske økonomiske skolen](https://planb.academy/resources/glossary/austrian-school) tolker denne utviklingen som en spontan fremvekst av privilegerte byttevarer. Skjell, som er arkeologisk påvist så tidlig som i mesolittisk tid, illustrerer dette fenomenet: De er funnet langt fra sitt geografiske opphav (middelhavsskjell i Vest-Frankrike, nordiske skjell på andre steder), og vitner om en felles erkjennelse av deres bytteverdi.
 
 
 
@@ -605,7 +605,7 @@ Erfaringene fra Mesopotamia skaper varig presedens for utviklingen av finansiell
 
 
 
-Denne banebrytende perioden avslører også maktspørsmålene som ligger i enhver monetær innovasjon: hvem som kontrollerer teknologien, hvem som definerer reglene, og hvordan formelle systemer og folkelig praksis artikuleres. Disse grunnleggende spørsmålene har vedvart gjennom hele den økonomiske historien, og de har også preget dagens debatter om digitale valutaer og kryptovalutaer.
+Denne banebrytende perioden avslører også maktspørsmålene som ligger i enhver monetær innovasjon: hvem som kontrollerer teknologien, hvem som definerer reglene, og hvordan formelle systemer og folkelig praksis artikuleres. Disse grunnleggende spørsmålene har vedvart gjennom hele den økonomiske historien, og de har også preget dagens debatter om digitale valutaer og [kryptovalutaer](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 
@@ -637,7 +637,7 @@ Inkaene hadde ikke noe pengesystem, men de hadde en overflod av edle metaller. L
 > Jo mer stratifisert et samfunn er, og jo mer effektivt planleggingssystemet er, desto mindre nødvendig er bruken av penger for befolkningen. Dette kan forklare hvorfor de spanske erobrerne oppdaget at meksikanerne, som hadde et relativt mer liberalt styresett, regelmessig brukte gullpulver (oppbevart i gjennomsiktige rør) og kakaobønner (oppbevart i sekker på 24 000 enheter for store betalinger) som valuta, mens inkaene, som var organisert etter et mye strengere hierarki, ikke hadde noen valuta i det hele tatt: et unntak som ble bekreftet av en streng regel. Pengenes opprinnelse i Kina var helt uavhengig av andre sivilisasjoner, men den relative nærheten til de sumeriske, egyptiske og minoiske sivilisasjonene gir grunn til å tvile på hvor uvitende de var om pengebruk, særlig med tanke på den omfattende handelen som ble etablert helt tilbake til de tidligste tider.
 
 
-I Kina ble mynter utviklet med en helt annen tilnærming enn i Vesten. Det var fiat-penger fra starten av. De var støpte mynter.
+I Kina ble mynter utviklet med en helt annen tilnærming enn i Vesten. Det var [fiat-penger](https://planb.academy/resources/glossary/fiat) fra starten av. De var støpte mynter.
 
 
 Og her nevner Davies handel. Det var riktignok utveksling mellom kineserne og andre befolkninger til visse tider, men byttemiddelet for utenrikshandel var snarere silke. Som vi skal se senere, ble gull også brukt i Kinas grenseområder, der den kinesiske befolkningen var mindre. Og ikke engang til internasjonal handel; der var det silke som gjaldt.
@@ -994,7 +994,7 @@ Den kinesiske staten brukte penger som et instrument for økonomisk regulering: 
 
 
 
-Her kan det gjøres en kobling til inflasjon og deflasjon. Med en fast pengemengde vil verdien av penger stige dersom produktiviteten i økonomien øker. Motsatt, hvis produktiviteten faller, synker verdien av pengene. I dette eksemplet er det imidlertid motsatt. Sannsynligvis fordi fyrsten ikke hadde fullstendig monopol på pengeproduksjonen, men det indikerer likevel at pengenes verdi var knyttet til økonomiske forhold.
+Her kan det gjøres en kobling til [inflasjon](https://planb.academy/resources/glossary/inflation) og deflasjon. Med en fast pengemengde vil verdien av penger stige dersom produktiviteten i økonomien øker. Motsatt, hvis produktiviteten faller, synker verdien av pengene. I dette eksemplet er det imidlertid motsatt. Sannsynligvis fordi fyrsten ikke hadde fullstendig monopol på pengeproduksjonen, men det indikerer likevel at pengenes verdi var knyttet til økonomiske forhold.
 
 
 
@@ -1463,7 +1463,7 @@ Når det gjelder byttehandel, finnes det teorier om at den først og fremst ble 
 
 
 
-Så det er det vi skal gjøre i denne delen. Vi skal foreta en slags undersøkelse for å presentere de ulike teoriene om pengenes opprinnelse og de ulike definisjonene av hva penger er. Vi skal presentere og kritisere tesene til både klassiske økonomer og antropologer. Jeg er til og med så heldig å ha med meg Ulrich Fromy, som vil presentere en østerriksk økonoms perspektiv på disse ulike temaene.
+Så det er det vi skal gjøre i denne delen. Vi skal foreta en slags undersøkelse for å presentere de ulike teoriene om pengenes opprinnelse og de ulike definisjonene av hva penger er. Vi skal presentere og kritisere tesene til både klassiske økonomer og antropologer. Jeg er til og med så heldig å ha med meg Ulrich, som vil presentere en østerriksk økonoms perspektiv på disse ulike temaene.
 
 
 
@@ -3616,7 +3616,7 @@ La oss gå videre til Sverige, der den aller første sentralbanken ble opprettet
 
 
 
-**Sverige** var en pioner innen sentralbankvirksomhet: I 1657 opprettet Johan Palmstruch **Stockholm Banco**, som fikk tillatelse til å låne ut mer enn metallreservene sine, og dermed ble fractional reserve banking grunnlagt. Men overdreven seddelutstedelse førte til panikk og stormløp mot banken i 1663. Vel, vel, vel...
+**Sverige** var en pioner innen sentralbankvirksomhet: I 1657 opprettet Johan Palmstruch **Stockholm Banco**, som fikk tillatelse til å låne ut mer enn metallreservene sine, og dermed ble [fractional reserve banking](https://planb.academy/resources/glossary/fractional-reserves) grunnlagt. Men overdreven seddelutstedelse førte til panikk og stormløp mot banken i 1663. Vel, vel, vel...
 
 
 

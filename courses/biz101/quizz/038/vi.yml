@@ -1,9 +1,9 @@
-question: Tại sao việc lưu giữ hồ sơ cẩn thận lại cần thiết khi xử lý Bitcoin trong kế toán của công ty?
-answer: Bởi vì mọi giao dịch Bitcoin đều có thể tạo ra sự kiện chịu thuế và cần có hồ sơ chính xác để tính toán lãi, lỗ và nghĩa vụ thuế.
+question: Vì sao việc lưu giữ sổ sách kế toán cẩn thận lại cần thiết khi xử lý Bitcoin trong công ty?
+answer: Bởi vì mọi giao dịch Bitcoin đều có thể tạo ra nghĩa vụ thuế và cần có hồ sơ chính xác để tính toán lãi, lỗ.
 wrong_answers:
   - Bởi vì blockchain tự động nộp thuế thay mặt cho công ty.
   - Bởi vì không có chuẩn mực kế toán nào áp dụng cho các giao dịch Bitcoin.
   - Bởi vì không thể theo dõi các giao dịch Bitcoin sau khi đã ghi lại.
 explanation: |
-  Mỗi giao dịch mua, bán hoặc thanh toán được thực hiện theo Bitcoin đều có thể có tác động về thuế. Việc lưu giữ hồ sơ chi tiết về cơ sở chi phí, giá bán và thời gian bán hàng đảm bảo báo cáo thuế chính xác và tuân thủ.
+  Mỗi giao dịch mua, bán hoặc thanh toán được thực hiện theo Bitcoin đều có thể có tác động về thuế. Việc lưu giữ hồ sơ chi tiết về cơ sở chi phí, giá bán và thời gian bán hàng đảm bảo tuân thủ báo cáo thuế chính xác.
 reviewed: true

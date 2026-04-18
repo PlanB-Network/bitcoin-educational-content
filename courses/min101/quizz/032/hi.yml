@@ -1,0 +1,9 @@
+question: 2009 में बिटकॉइन के लॉन्च के समय ब्लॉक सब्सिडी की राशि क्या थी?
+answer: 50 BTC
+wrong_answers:
+  - 25 BTC
+  - 12.5 BTC
+  - 100 BTC
+explanation: |
+  क्रमिक विभाजनों से पहले, प्रारंभिक सब्सिडी 50 BTC प्रति ब्लॉक थी।
+reviewed: false

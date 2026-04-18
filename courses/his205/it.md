@@ -352,7 +352,7 @@ Esistono diversi tipi di baratto:
 
 
 
-La scuola austriaca di economia interpreta questa evoluzione come l'emergere spontaneo di beni di scambio privilegiati. Le conchiglie, attestate archeologicamente già nel Mesolitico, illustrano questo fenomeno: trovate lontano dalla loro origine geografica (conchiglie mediterranee nella Francia occidentale, conchiglie nordiche in altri siti), testimoniano un riconoscimento comune del loro valore di scambio.
+La [scuola austriaca di economia](https://planb.academy/resources/glossary/austrian-school) interpreta questa evoluzione come l'emergere spontaneo di beni di scambio privilegiati. Le conchiglie, attestate archeologicamente già nel Mesolitico, illustrano questo fenomeno: trovate lontano dalla loro origine geografica (conchiglie mediterranee nella Francia occidentale, conchiglie nordiche in altri siti), testimoniano un riconoscimento comune del loro valore di scambio.
 
 
 
@@ -605,7 +605,7 @@ L'esperienza mesopotamica stabilisce precedenti duraturi per l'evoluzione dei si
 
 
 
-Questo periodo fondamentale rivela anche le questioni di potere inerenti a qualsiasi innovazione monetaria: chi controlla la tecnologia, chi definisce le regole e come si articolano i sistemi formali e le pratiche popolari. Queste questioni fondamentali si sono protratte per tutta la storia economica, fino ai dibattiti contemporanei sulle valute digitali e sulle criptovalute.
+Questo periodo fondamentale rivela anche le questioni di potere inerenti a qualsiasi innovazione monetaria: chi controlla la tecnologia, chi definisce le regole e come si articolano i sistemi formali e le pratiche popolari. Queste questioni fondamentali si sono protratte per tutta la storia economica, fino ai dibattiti contemporanei sulle valute digitali e sulle [criptovalute](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 
@@ -637,7 +637,7 @@ Gli Inca non avevano un sistema monetario, ma avevano un'abbondanza di metalli p
 > Più una società è stratificata e più il suo sistema di pianificazione è meticolosamente efficiente, meno l'uso del denaro è necessario per la popolazione. Questo può spiegare perché i conquistadores spagnoli scoprirono che i messicani, il cui governo era relativamente più liberale, usavano regolarmente come moneta la polvere d'oro (conservata in tubi trasparenti) e i semi di cacao (conservati per i grandi pagamenti in sacchi da 24.000 unità), mentre al contrario gli Inca, organizzati secondo una gerarchia molto più rigida, non avevano alcuna moneta: un'eccezione confermata da una regola rigorosa. L'origine del denaro in Cina è totalmente indipendente da altre civiltà; tuttavia, la relativa vicinanza delle civiltà sumera, egizia e minoica solleva dubbi sulla misura della loro rispettiva ignoranza delle pratiche monetarie, soprattutto in considerazione degli ampi scambi commerciali instaurati fin dai tempi più remoti.
 
 
-In Cina le monete sono state sviluppate con un approccio completamente diverso rispetto alle tradizioni occidentali. Si trattava di denaro fiat fin dall'inizio. Erano monete fuse.
+In Cina le monete sono state sviluppate con un approccio completamente diverso rispetto alle tradizioni occidentali. Si trattava di denaro [fiat](https://planb.academy/resources/glossary/fiat) fin dall'inizio. Erano monete fuse.
 
 
 E qui il signor Davies cita il commercio. In effetti, in alcuni periodi ci sono stati scambi tra i cinesi e altre popolazioni, ma il mezzo di scambio per il commercio estero era piuttosto la seta. Come vedremo più avanti, l'oro veniva utilizzato anche nelle regioni di frontiera della Cina, dove la popolazione cinese era più esigua. E nemmeno per il commercio internazionale: per quello c'era la seta.
@@ -994,7 +994,7 @@ Lo Stato cinese utilizzava la moneta come strumento di regolazione economica: in
 
 
 
-Si può fare un collegamento con l'inflazione e la deflazione. Con una massa monetaria fissa, se la produttività dell'economia aumenta, il valore del denaro aumenta. Al contrario, se la produttività diminuisce, il valore del denaro diminuisce. In questo esempio, tuttavia, è vero il contrario. Probabilmente perché il principe non aveva il monopolio completo della produzione di denaro, ma ciò indica comunque che il valore del denaro era legato alle condizioni economiche.
+Si può fare un collegamento con [l'inflazione](https://planb.academy/resources/glossary/inflation) e la deflazione. Con una massa monetaria fissa, se la produttività dell'economia aumenta, il valore del denaro aumenta. Al contrario, se la produttività diminuisce, il valore del denaro diminuisce. In questo esempio, tuttavia, è vero il contrario. Probabilmente perché il principe non aveva il monopolio completo della produzione di denaro, ma ciò indica comunque che il valore del denaro era legato alle condizioni economiche.
 
 
 
@@ -1463,7 +1463,7 @@ Per quanto riguarda il baratto, alcune teorie suggeriscono che fosse usato sopra
 
 
 
-Ecco cosa faremo in questa sezione. Condurremo una sorta di indagine per presentare le diverse teorie sulla nascita del denaro e le diverse definizioni di cosa sia il denaro. Presenteremo e criticheremo le tesi degli economisti classici e degli antropologi. Avrò anche la fortuna di avere con me Ulrich Fromy, che presenterà il punto di vista di un economista austriaco su questi vari argomenti.
+Ecco cosa faremo in questa sezione. Condurremo una sorta di indagine per presentare le diverse teorie sulla nascita del denaro e le diverse definizioni di cosa sia il denaro. Presenteremo e criticheremo le tesi degli economisti classici e degli antropologi. Avrò anche la fortuna di avere con me Ulrich, che presenterà il punto di vista di un economista austriaco su questi vari argomenti.
 
 
 
@@ -3616,7 +3616,7 @@ Passiamo alla Svezia, dove è stata creata la prima banca centrale.
 
 
 
-**La Svezia** è stata un pioniere dell'attività bancaria centrale: nel 1657 Johan Palmstruch creò il **Banco di Stoccolma**, autorizzato a prestare più delle sue riserve metalliche, segnando così la nascita della banca a riserva frazionaria. Ma l'eccessiva emissione di banconote portò al panico e all'assalto alla banca nel 1663. Bene, bene...
+**La Svezia** è stata un pioniere dell'attività bancaria centrale: nel 1657 Johan Palmstruch creò il **Banco di Stoccolma**, autorizzato a prestare più delle sue riserve metalliche, segnando così la nascita della banca a [riserva frazionaria](https://planb.academy/resources/glossary/fractional-reserves). Ma l'eccessiva emissione di banconote portò al panico e all'assalto alla banca nel 1663. Bene, bene...
 
 
 

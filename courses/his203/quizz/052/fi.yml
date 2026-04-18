@@ -1,0 +1,11 @@
+question: Mitä BitInstant-valuutanvaihtopalvelun joulukuussa 2011 lisäämää ominaisuutta Robert Faiella eli BTCKing käytti hyväkseen pimeän verkon jälleenmyyntiliiketoiminnassaan?
+answer: Käteistalletus
+wrong_answers:
+  - Ilmaiset ostokset
+  - Välittömät siirrot
+  - Lainsäädännön noudattaminen
+explanation: |
+ BitInstant lisäsi tämän maksutavan tarjontaansa 21. joulukuuta 2011. Yhdysvaltain kansalaisten oli mahdollista tallettaa käteistä tiettyihin paikkoihin ja olla
+ hyvittää lähes välittömästi dollareina valitsemallaan vaihtoplatformilla. Robert Faiella, alias BTCKing, käytti hyväkseen suhteellista luottamuksellista
+ tätä menetelmää ja harjoitti jälleenmyyntiä Silk Roadilla korkeampaa maksua vastaan.
+reviewed: true

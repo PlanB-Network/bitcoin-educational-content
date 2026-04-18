@@ -1,10 +1,10 @@
-question: Wat is het nut van een Smart contract in een geheime eigendom Exchange?
+question: Wat is het nut van een Smart Contract in een geheime eigendomsruil?
 answer: Gelijktijdig en systematisch informatie onthullen waarmee beide partijen de fondsen van de ander kunnen ophalen.
 wrong_answers:
   - Zorg voor vertrouwelijkheid door eigendomsinformatie te versleutelen, zodat alleen de rechtmatige ontvanger deze kan ontsleutelen.
   - Automatiseer het overdrachtsproces om menselijke interacties te minimaliseren en fouten te verminderen.
   - Vergemakkelijk geschillenbeslechting door de bitcoins van beide partijen vast te houden in geval van pogingen tot valsspelen.
 explanation: |
-  Om uitwisselingen mogelijk te maken tussen partijen die elkaar niet vertrouwen, worden Smart contract systemen gebruikt. Een Smart contract is een programma dat automatisch wordt uitgevoerd wanneer aan vooraf gedefinieerde voorwaarden wordt voldaan, wat er in ons geval voor zorgt dat de eigenschap Exchange automatisch wordt uitgevoerd zonder dat er wederzijds vertrouwen nodig is. De Smart contract maakt de gelijktijdige onthulling van twee gevoelige stukken informatie tussen de deelnemers mogelijk. Of het wordt normaal uitgevoerd en elke partij haalt het geld van de ander op, of het mislukt en iedereen behoudt zijn oorspronkelijke geld.
+  Om uitwisselingen mogelijk te maken tussen partijen die elkaar niet vertrouwen, worden Smart Contract systemen gebruikt. Een Smart Contract is een programma dat automatisch wordt uitgevoerd wanneer aan vooraf gedefinieerde voorwaarden wordt voldaan, wat er in ons geval voor zorgt dat de eigendomsomwisseling automatisch wordt uitgevoerd zonder dat er wederzijds vertrouwen nodig is. Het Smart Contract maakt de gelijktijdige onthulling van twee gevoelige stukken informatie tussen de deelnemers mogelijk. Of het wordt normaal uitgevoerd en elke partij haalt het geld van de ander op, of het mislukt en iedereen behoudt zijn oorspronkelijke geld.
   
 reviewed: false

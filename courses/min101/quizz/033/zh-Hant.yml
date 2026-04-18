@@ -1,0 +1,9 @@
+question: 每隔多少個區塊會發生一次減半（halving）？
+answer: 210,000
+wrong_answers:
+  - 2,016
+  - 100,000
+  - 21,000,000
+explanation: |
+  協議在區塊高度每達到 210,000 的倍數時進行一次減半。
+reviewed: false

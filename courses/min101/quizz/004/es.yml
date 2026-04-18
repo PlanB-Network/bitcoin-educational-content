@@ -1,0 +1,9 @@
+question: Según la idea resumida por Satoshi, ¿cuál es la única forma de asegurar la ausencia de doble gasto?
+answer: Conocer todas las transacciones
+wrong_answers:
+  - Conocer todos los nodos activos
+  - Conocer todos los mineros activos
+  - Conocer todas las claves privadas
+explanation: |
+  El doble gasto se detecta comparando una transacción con los gastos pasados inscritos en un registro compartido.
+reviewed: false

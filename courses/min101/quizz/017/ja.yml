@@ -1,0 +1,9 @@
+question: Bit Goldのコンセプトの考案者は誰ですか？
+answer: Nick Szabo
+wrong_answers:
+  - Satoshi Nakamoto
+  - Hal Finney
+  - Wei Dai
+explanation: |
+  Bit Goldは、ニック・サボによって提案された電子マネーシステムの概念的なプロジェクトです。
+reviewed: false

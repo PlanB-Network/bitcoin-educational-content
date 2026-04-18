@@ -1,9 +1,9 @@
-question: Was ist der Zweck des Index beim Ableiten von Kinderschlüsseln?
-answer: Unterscheidung von Geschwisterschlüsselpaaren
+question: Was ist der Zweck des Index beim Ableiten von untergeordneten Schlüsseln?
+answer: Unterscheidung von Schlüsseln mit demselben übergeordneten Schlüssel
 wrong_answers:
-  - Die Natur des Schlüssels identifizieren (öffentlich oder privat)
+  - Die Natur des Schlüssels zu identifizieren (öffentlich oder privat)
   - Das Sicherheitsniveau des Schlüssels spezifizieren
-  - Eine zusätzliche Sicherheitsebene hinzufügen
+  - Eine zusätzliche Sicherheitsebene hinzu zu fügen
 explanation: |
-  Der Index ermöglicht die Unterscheidung von Kinderschlüsseln, die vom gleichen Elternpaar abgeleitet wurden.
+  Der Index ermöglicht die Unterscheidung von untergeordneten Schlüsseln, die vom gleichen übergeordneten Schlüssel abgeleitet wurden.
 reviewed: true

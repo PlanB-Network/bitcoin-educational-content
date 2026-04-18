@@ -93,7 +93,7 @@ D'autre part, une communauté Bitcoin peut avoir des objectifs plus ouverts, not
 2. son fonctionnement ;
 3. ce qu'il apporte à notre société ;
 4. les inepties non sourcées ou trompeuses que certaines personnalités et certains médias cherchent à répandre ;
-5. les différences fondamentales qu'a Bitcoin avec les autres cryptomonnaies.
+5. les différences fondamentales qu'a Bitcoin avec les autres [cryptomonnaies](https://planb.academy/resources/glossary/cryptocurrency).
 
 Construisant petit à petit les premières citadelles du monde de demain, **les communautés Bitcoin du monde entier se dressent ainsi tel un rempart face aux tentatives de désinformation et de censure dans certains pays**. **Elles créent également un terrain fertile pour l'apprentissage des fondamentaux de Bitcoin**, offrant ainsi à toute personne qui n'a pas encore compris les bases de cette technologie, la possibilité de disposer des contacts et des ressources nécessaires pour explorer un monde nouveau. Y compris les plus réticents.
 
@@ -145,7 +145,7 @@ Cependant, il est évident qu'**il est plus pertinent d'unir ses forces plutôt 
 
 En ce sens, une "convention" peut permettre de trancher sur la question : si aucune communauté Bitcoin active n'existe à moins de 30 à 45 minutes de chez vous, alors il peut être pertinent d'en créer une nouvelle. Mais bien évidemment, vous êtes parfaitement libre de faire comme bon vous semble.
 
-Bien évidemment, dans le cas où une ancienne communauté Bitcoin a — disons — "évolué", dans le sens où elle ne partage plus vos valeurs et que vous n'avez pas la motivation ou le temps de les orange-piller, créer un fork est toujours possible.
+Bien évidemment, dans le cas où une ancienne communauté Bitcoin a — disons — "évolué", dans le sens où elle ne partage plus vos valeurs et que vous n'avez pas la motivation ou le temps de les [orange-piller](https://planb.academy/resources/glossary/orange-pill), créer un [fork](https://planb.academy/resources/glossary/fork) est toujours possible.
 
 ## Quels objectifs se fixer ?
 <chapterId>0aae1aa8-93ec-544a-ad88-22d32c619595</chapterId>
@@ -677,7 +677,7 @@ Parmi celles-ci, on note notamment :
 Il n'est pas sans noter que d'autres plateformes et applications permettent également de gagner en visibilité. **[Meetup](https://www.meetup.com/)** est l'une d'elles, et il s'agit d'un site internet (et d'une application sur téléphone) permettant de créer un événement et de chercher ceux autour de chez soi.
 Malheureusement, pour pouvoir y créer des événements, il faut débourser près de 8€ par mois (soit environ 90€ par an), ce qui est onéreux pour une communauté qui n'est encore ni structurée ni mature. Toutefois, Meetup est très utilisée dans certains pays, en particulier au Canada et aux États-Unis ; son principal intérêt étant qu'elle permet de gérer les inscriptions aux rencontres.
 
-En parallèle, **[Orangepillapp](https://www.orangepillapp.com/)** est une application téléphone permettant aux bitcoiners de se rencontrer. Elle est toutefois, elle aussi, payante (50 000 sats/an, ou 200 000 sats à vie).
+En parallèle, **[Orangepillapp](https://www.orangepillapp.com/)** est une application téléphone permettant aux bitcoiners de se rencontrer. Elle est toutefois, elle aussi, payante (50 000 [sats](https://planb.academy/resources/glossary/satoshi-sat)/an, ou 200 000 sats à vie).
 
 
 Bien qu'elles permettent de développer la visibilité de votre communauté et de vos événements, ces deux dernières applications ne sont pas conseillées au lancement de votre communauté, tout simplement, car elles sont payantes.
@@ -898,7 +898,8 @@ En France, au cours de l'été 2023, les organisateurs de meet-ups ont ainsi tra
 Cette initiative est particulièrement appréciée dans les meet-ups, et a pour vocation à se développer dans les prochaines années.
 
 La progression suivie en 2023/2024 par les meet-ups français est donc disponible ci-dessous. Pour chacune, **une présentation open source accompagnée de sa vidéo est proposée, vous donnant peut-être des idées sur les notions qui peuvent être abordées**.
-D'autres ressources modifiables sont également disponibles dans la [Boîte à outils pédagogique Bitcoin](https://planb.academy/fr/resources/bet) !
+
+D'autres ressources sont également disponibles dans la section ["Educator Content"](https://planb.academy/educator-content) de Plan ₿ Academy, un espace collaboratif où les éducateurs Bitcoin du monde entier partagent et mettent à disposition leurs supports pédagogiques (présentations, flyers, guides, affiches…) en formats prêts à l'emploi ou modifiables. L'objectif : mutualiser les efforts pour ne pas repartir de zéro à chaque fois !
 
 | Mois | Thème | Vidéo | Ressource modifiable |
 | -------- | -------- | -------- | --- |
@@ -969,7 +970,7 @@ En parallèle, si vous êtes féru de concerts, de bars ou de stades, **pensez �
 <chapterId>acc94093-f8b3-51b8-9359-348e9e075d38</chapterId>
 
 Un autre projet pouvant être facilement mis en place est **l'instauration d'une bibliothèque au sein de vos meet-ups**.
-Pour ce faire, vous pouvez proposer à toutes les personnes intéressées par le partage de leurs lectures de ramener un livre lié à Bitcoin et, si quelqu'un d'autre lors du meet-up est intéressé pour l'emprunter, **un prêt pourrait être réalisé auprès de son propriétaire, moyennant par exemple une caution de 21 000 satoshis en Lightning**.
+Pour ce faire, vous pouvez proposer à toutes les personnes intéressées par le partage de leurs lectures de ramener un livre lié à Bitcoin et, si quelqu'un d'autre lors du meet-up est intéressé pour l'emprunter, **un prêt pourrait être réalisé auprès de son propriétaire, moyennant par exemple une caution de 21 000 satoshis en [Lightning](https://planb.academy/resources/glossary/lightning-network)**.
 Cela amène en effet, pour le propriétaire, de couvrir les frais en cas d'oubli ou de vol ; et pour l'emprunteur, de revenir à un prochain meet-up pour récupérer ses 21 000 satoshis !
 
 Dans le cas où vous possédez **une association et que vous souhaitez investir une partie de votre trésorerie dans des ressources pédagogiques et éducatives**, il vous est également possible de commander plusieurs livres et de les proposer dans votre **bibliothèque Bitcoin**, à chaque meet-up.
@@ -1320,7 +1321,7 @@ Face à cet afflux conséquent :
   - il peut être pertinent dans un premier temps de **trouver un endroit plus grand pour organiser ses meet-ups et événements**, en particulier si vous ne pouviez être qu’une vingtaine au maximum dans le passé ;
   - dans un second temps, si vous observez que la présence humaine devient trop importante, vous pouvez – pour les meet-ups qui suivent – **soit obliger les participants à s’inscrire** (cela peut se faire par l’application Meetup, ou par un formulaire classique), **soit organiser plusieurs meet-ups dans le mois** (par exemple : un meet-up débutant, un meet-up intermédiaire et un meet-up expert) ;
   - en parallèle, il est certain que de nombreuses personnes débutantes dans l’écosystème vous rejoindront, généralement dans l’objectif de faire de l’argent. **Afin que les conversations restent centrées autour de Bitcoin dans ces meet-ups à fort développement**, il est conseillé :
-        a) **de réaliser lors de ces événements une présentation thématique sur Bitcoin**, car celle-ci amènera par la suite une bonne partie des participants à discuter de ce thème (et non pas du dernier projet de shitcoin soi-disant révolutionnaire) ;
+        a) **de réaliser lors de ces événements une présentation thématique sur Bitcoin**, car celle-ci amènera par la suite une bonne partie des participants à discuter de ce thème (et non pas du dernier projet de [shitcoin](https://planb.academy/resources/glossary/shitcoin) soi-disant révolutionnaire) ;
 	      b) **de ne pas rester entre bitcoiners, mais d'aller voir les nouveaux (nouvelles), quitte à prendre l’initiative de rester dans le fond de la salle pour les accueillir**. Les échanges peuvent alors tourner sur les raisons pour lesquelles ces personnes sont venues, ce qu'elles recherchent, les objectifs (voire fondamentaux) de votre communauté, etc.
 
 Enfin, bien qu'il soit malheureux de le formuler, **des scammers peuvent se présenter à des meet-ups**. Leur objectif sera alors de parler un maximum de leur Ponzi, leur MLM ou de leur "projet révolutionnant la blockchain grâce à de l'IA". Il est également tout à fait plausible qu'un jour, des personnes mal intentionnées viennent dans l'objectif spécifique de blanchir de l’argent ou d'acheter du BTC avec de faux billets.
@@ -1331,7 +1332,7 @@ Si malheureusement ces personnes refusent de s’en aller ou de se plier aux rè
 
 En outre, si cela peut vous rassurer en tant qu'organisateur, tant que vous n'êtes pas vous-même en infraction ou que vous ne facilitiez pas vous-même des échanges illégaux, vous n'avez pas à vous en faire. En France, vous n'êtes en effet légalement pas responsable des actes d'autrui lors d'un événement que vous organisez.
 
-Dans le meilleur des mondes, le mieux serait donc de disposer d'un lieu pouvant accueillir plusieurs dizaines de personnes suivant l'évolution de votre communauté ; mais aussi, de **construire des relations solides entre bitcoiners et futurs bitcoiners pendant le bear-market**, de manière à ce que vous soyez un maximum de personnes prêtes à **orange-piller lors du bull-run**.
+Dans le meilleur des mondes, le mieux serait donc de disposer d'un lieu pouvant accueillir plusieurs dizaines de personnes suivant l'évolution de votre communauté ; mais aussi, de **construire des relations solides entre bitcoiners et futurs bitcoiners pendant le [bear-market](https://planb.academy/resources/glossary/bear-market)**, de manière à ce que vous soyez un maximum de personnes prêtes à **orange-piller lors du [bull-run](https://planb.academy/resources/glossary/bull-market)**.
 
 ## Décentraliser l'organisation de sa communauté
 <chapterId>bedfc110-e099-58f4-a5b7-fb50f3b19a49</chapterId>

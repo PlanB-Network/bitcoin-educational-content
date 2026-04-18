@@ -1,0 +1,8 @@
+question: According to the Austrian approach, what is the main reason why individuals value a present good more than an identical future good?
+answer: The fundamental uncertainty of the future
+wrong_answers:
+  - The difference in quality between present and future goods
+  - "Inflation, which reduces the value of goods over time"
+  - The growing scarcity of available resources
+explanation: |
+  The fundamental uncertainty of the future is the main reason why people naturally prefer present goods. We don't know whether we'll still be alive, what circumstances will arise or what needs will emerge. This irreducible uncertainty explains the phenomenon of discounting, where a euro today is worth more than a euro tomorrow, regardless of inflation or resource scarcity.

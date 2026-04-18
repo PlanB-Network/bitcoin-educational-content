@@ -1,0 +1,10 @@
+question: O que é que o "pool hopping" envolve para um mineiro que delega a sua taxa de hash a um pool mining?
+answer: Desconectar-se de um pool mining quando um certo número de acções tiver sido submetido num ciclo e redirecionar o poder de computação para a sua própria conta ou para outro pool mining
+wrong_answers:
+  - Adoção de um protocolo de comunicação que consome muita largura de banda para interagir com a pool mining, a fim de reduzir as acções obsoletas através da racionalização do anúncio de novos blocos
+  - Realização de várias transacções fictícias no âmbito do grupo mining para simular uma transferência de propriedade de bitcoin e aumentar a confidencialidade dos mineiros delegados
+  - Escrever o nome do agrupamento mining no campo de entrada da transação de recompensa do bloco extraído, para tornar o funcionamento dos agrupamentos mining mais transparente
+explanation: |
+ Este método foi descrito por Raulo em fevereiro de 2011, que estimou que um indivíduo poderia obter 28% mais bitcoins desta forma. Isso motivou a introdução de
+ uma pontuação "anti-trapaça" dentro da cooperativa Slush.
+reviewed: true

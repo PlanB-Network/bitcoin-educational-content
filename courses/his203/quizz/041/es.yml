@@ -1,0 +1,10 @@
+question: ¿Qué desarrollador de Bitcoin se opuso vehementemente a la actualización Pay to Script Hash?
+answer: Luke Dashjr
+wrong_answers:
+  - Amir Taaki
+  - Gregory Maxwell
+  - Gavin Andresen
+explanation: |
+ Luke Dashjr opinó que la propuesta de OP_EVAL era mucho mejor, porque era más elegante; que P2SH sustituía el sistema de scripts por "un único modelo especial".
+ También criticó a Gavin por incluir informes por defecto en el software. En respuesta, Luke-Jr desarrolló su propio código operativo, OP_CHECKHASHVERIFY (BIP 17).
+reviewed: true

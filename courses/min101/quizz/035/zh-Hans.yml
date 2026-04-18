@@ -1,0 +1,9 @@
+question: 自 SegWit 以来，区块见证承诺（witness commitment）提交在哪里？
+answer: 在 coinbase 的一个输出（output）中
+wrong_answers:
+  - 在 coinbase 的 scriptSig 中
+  - 在版本（version）字段中
+  - 在 coinbase 的费用中
+explanation: |
+  SegWit 使用通过 OP_RETURN 输出写入 coinbase 的承诺。
+reviewed: false

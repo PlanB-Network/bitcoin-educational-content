@@ -5,6 +5,5 @@ wrong_answers:
   - 75
   - 100
 explanation: |
-  En 72 países del mundo, no se permite a las mujeres abrir 
-  cuentas bancarias a su propio nombre.
-reviewed: false
+  En 72 países del mundo, no se permite a las mujeres abrir cuentas bancarias a su propio nombre.
+reviewed: true

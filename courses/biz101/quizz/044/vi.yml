@@ -1,9 +1,9 @@
-question: Một trong những lợi thế chính của các thương gia khi sử dụng Lightning Network là gì?
+question: Một trong những lợi thế chính của các doanh nghiệp khi sử dụng Lightning Network là gì?
 answer: Giảm phí giao dịch
 wrong_answers:
   - Thanh toán được bảo lãnh bởi ngân hàng
   - Tự động tăng doanh số
   - Xóa bỏ thuế thương mại
 explanation: |
-  Phí giao dịch trên Lightning Network rất thấp, khiến đây trở thành giải pháp tiết kiệm chi phí cho các thương gia.
+  Phí giao dịch trên Lightning Network rất thấp, khiến đây trở thành giải pháp tiết kiệm chi phí cho các doanh nghiệp.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Câu nào tóm tắt dịch vụ được cung cấp bởi một mining pool?
+answer: Nó bán khả năng dự đoán
+wrong_answers:
+  - Nó bán độ khó khai thác
+  - Nó bán các khối lớn hơn
+  - Nó bán máy đào
+explanation: |
+  Việc hợp tác biến một nguồn thu nhập rất biến động thành các khoản thanh toán đều đặn hơn, đổi lại là sự chia sẻ và phí.
+reviewed: false

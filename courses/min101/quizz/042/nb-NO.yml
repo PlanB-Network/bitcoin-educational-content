@@ -1,0 +1,9 @@
+question: Hva betyr ASIC?
+answer: Application-Specific Integrated Circuits
+wrong_answers:
+  - Advanced Secure Integrated Circuit
+  - Automated Silicon Integrated Circuit
+  - Application-Shared Integrated Circuit
+explanation: |
+  En ASIC er en brikke designet for én enkelt oppgave. Det er derfor en Application-Specific Integrated Circuits.
+reviewed: false

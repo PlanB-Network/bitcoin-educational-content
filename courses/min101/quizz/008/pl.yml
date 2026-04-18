@@ -1,0 +1,9 @@
+question: Na podstawie którego elementu obliczany jest proof of work w Bitcoinie?
+answer: Nagłówek bloku
+wrong_answers:
+  - Wysokość bloku
+  - Mempool sieci
+  - Pierwsze 21 transakcji w bloku
+explanation: |
+  Wydobywanie polega na wielokrotnym haszowaniu 80-bajtowego nagłówka bloku, który wiąże zawartość bloku.
+reviewed: false

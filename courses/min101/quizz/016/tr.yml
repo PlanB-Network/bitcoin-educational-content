@@ -1,0 +1,9 @@
+question: RPOW akronimi ne anlama gelir?
+answer: Reusable Proofs of Work
+wrong_answers:
+  - Recursive Proofs of Work
+  - Random Proofs of Work
+  - Replayed Proofs of Work
+explanation: |
+  RPOW, Hal Finney tarafından 2004 yılında önerilen yeniden kullanılabilir ve takas edilebilir iş kanıtlarını ifade eder.
+reviewed: false

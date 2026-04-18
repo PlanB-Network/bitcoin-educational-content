@@ -1,0 +1,9 @@
+question: Koji praktični problem mining pool prvenstveno nastoji da reši?
+answer: Varijansu prihoda
+wrong_answers:
+  - Težinu mreže
+  - Veličinu blokova
+  - Cenu ASIC-a
+explanation: |
+  Udruživanjem hashrate-a, bazen transformiše veoma nepravilan prihod u redovnije isplate. To predstavlja smanjenje varijanse prihoda za rudara.
+reviewed: false

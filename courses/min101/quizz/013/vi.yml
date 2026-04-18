@@ -1,0 +1,9 @@
+question: Điều kiện nào làm cho một khối hợp lệ trong Bitcoin?
+answer: SHA256d(tiêu đề khối) <= mục tiêu
+wrong_answers:
+  - SHA256d(tiêu đề khối) >= mục tiêu
+  - SHA256d(khối) >= mục tiêu
+  - SHA256d(tiêu đề khối) > mục tiêu
+explanation: |
+  Để một khối hợp lệ trên Bitcoin, mã băm tiêu đề của nó, được hiểu là một con số, phải nhỏ hơn hoặc bằng (<=) mục tiêu.
+reviewed: false

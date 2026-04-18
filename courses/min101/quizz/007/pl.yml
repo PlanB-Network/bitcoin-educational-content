@@ -1,0 +1,9 @@
+question: Jakie kryterium ekonomiczne kieruje wyborem transakcji przez górnika?
+answer: Stawka opłaty (fee rate)
+wrong_answers:
+  - Kwota opłat
+  - Wiek UTXO
+  - Liczba UTXO
+explanation: |
+  Ponieważ miejsce w bloku jest ograniczone, górnik faworyzuje transakcje najbardziej rentowne w przeliczeniu na bajt. To stawka opłaty decyduje o wyborze transakcji.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bitcoin'de bir bloğu geçerli kılan koşul nedir?
+answer: SHA256d(blok başlığı) <= hedef
+wrong_answers:
+  - SHA256d(blok başlığı) >= hedef
+  - SHA256d(blok) >= hedef
+  - SHA256d(blok başlığı) > hedef
+explanation: |
+  Bitcoin'de bir bloğun geçerli olması için, sayı olarak yorumlanan başlık hash'inin hedeften küçük veya hedefe eşit (<=) olması gerekir.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Kto wymyślił koncepcję Proof of Work?
+question: Kto wymyślił koncepcję dowodu pracy?
 answer: Cynthia Dwork i Moni Naor
 wrong_answers:
   - Markus Jakobsson i Ari Juels
   - Adam Back
   - Satoshi Nakamoto
 explanation: |
-  Opisali oni tę koncepcję w 1992 roku. Markus Jakobsson i Ari Juels ukuli termin Proof of Work. Adam Back przyjął później tę koncepcję dla Hashcash.
-reviewed: false
+  Opisali tę koncepcję w 1992 roku. Markus Jakobsson i Ari Juels ukuli termin dowód pracy. Adam Back przyjął później tę koncepcję dla Hashcash.
+reviewed: true

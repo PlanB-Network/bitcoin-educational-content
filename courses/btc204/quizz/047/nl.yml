@@ -1,10 +1,10 @@
 question: Wat is de rol van de kennisgevingstransactie in BIP47?
 answer: Om de betaalcode naar de ontvanger te sturen en aan te geven dat er betalingen aankomen.
 wrong_answers:
-  - Valideer de Bitcoin ontvangende Address voor toekomstige transacties via betaalcodes.
+  - Valideer het Bitcoin-ontvangstadres voor toekomstige transacties via betaalcodes.
   - Bevestig de ontvangst van bitcoins door de ontvanger met BIP47.
   - Stuur de efemere privésleutels van de verzender naar de ontvanger zodat die de bitcoins kan uitgeven.
 explanation: |
-  De kennisgevingstransactie maakt de overdracht van de betalingscode van de verzender naar de ontvanger mogelijk, zodat deze laatste het kan weten en het later alleen kan vinden via zijn seed in geval van Wallet herstel. Zoals de naam al aangeeft, speelt deze transactie ook een meldingsfunctie.
+  De kennisgevingstransactie maakt de overdracht van de betalingscode van de verzender naar de ontvanger mogelijk, zodat deze laatste het kan weten en het later alleen kan vinden via zijn seed in geval van wallet-herstel. Zoals de naam al aangeeft, heeft deze transactie ook een meldingsfunctie.
   
 reviewed: false

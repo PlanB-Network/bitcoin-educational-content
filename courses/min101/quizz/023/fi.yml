@@ -1,0 +1,9 @@
+question: Jos lohkot on löydetty liian nopeasti viimeisimmän jakson aikana, mitä tapahtuu?
+answer: Tavoite laskee
+wrong_answers:
+  - Tavoite nousee
+  - Tavoite pysyy samana
+  - Lohkon koko kasvaa
+explanation: |
+  Liian nopeasti löytyneet lohkot viittaavat korkeampaan hashrateen, joten Bitcoin tiukentaa ehtoa laskemalla tavoitetta.
+reviewed: false

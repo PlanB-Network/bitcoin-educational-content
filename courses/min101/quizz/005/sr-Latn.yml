@@ -1,0 +1,9 @@
+question: Čemu odgovara polje nbits u zaglavlju bloka?
+answer: Kodiranom cilju težine
+wrong_answers:
+  - Veličini bloka u bajtovima
+  - Broju transakcija u bloku
+  - Vremenskoj oznaci bloka
+explanation: |
+  Polje nbits kodira aktivni cilj težine.
+reviewed: false

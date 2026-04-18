@@ -1,0 +1,9 @@
+question: Pokud se cíl obtížnosti sníží, co se stane s těžbou?
+answer: Bude obtížnější
+wrong_answers:
+  - Bude snazší
+  - Zůstane stejná
+  - Bude nemožná
+explanation: |
+  Nižší cíl ponechává méně možných výsledků pod prahovou hodnotou, takže je zapotřebí více pokusů k nalezení platného hashe. To znamená, že těžba je obtížnější.
+reviewed: false

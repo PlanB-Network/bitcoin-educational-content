@@ -1,0 +1,9 @@
+question: 在比特币初期，挖矿主要使用哪种硬件？
+answer: CPU
+wrong_answers:
+  - GPU
+  - ASIC
+  - FPGA
+explanation: |
+  在发布初期，软件在个人计算机上运行，主要使用处理器进行计算。
+reviewed: false

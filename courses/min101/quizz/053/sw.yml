@@ -1,0 +1,9 @@
+question: Kabla ya kuongezwa kwenye blockchain, miamala hupangwa katika nini?
+answer: Katika bloku
+wrong_answers:
+  - Katika UTXO
+  - Katika ASIC
+  - Katika scriptSig
+explanation: |
+  Muamala hauandikwi papo hapo kwenye blockchain. Kwanza huunganishwa kwenye bloku.
+reviewed: false

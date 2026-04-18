@@ -1,0 +1,9 @@
+question: O que significa a sigla RPOW?
+answer: Reusable Proofs of Work
+wrong_answers:
+  - Recursive Proofs of Work
+  - Random Proofs of Work
+  - Replayed Proofs of Work
+explanation: |
+  RPOW refere-se a provas de trabalho reutilizáveis e trocáveis, propostas por Hal Finney em 2004.
+reviewed: false

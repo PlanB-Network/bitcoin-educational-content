@@ -1,0 +1,9 @@
+question: Hvilken Bitcoin Core-parameter setter standard minimumsterskel for relé?
+answer: minRelayTxFee
+wrong_answers:
+  - minConfirmTxFee
+  - relayTxWeight
+  - mempoolMinBits
+explanation: |
+  Noder bruker lokale retningslinjer, und Bitcoin Core bruker minRelayTxFee-parameteren for minimumsterskelen for relé.
+reviewed: false

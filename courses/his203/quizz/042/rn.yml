@@ -1,0 +1,10 @@
+question: Ni kuki ugusubiramwo Pay to Script Hash kwakeneye 55% vy’ububasha bwa hash bw’urubuga kugira ngo bukore?
+answer: Kugira ngo "bihure n'inyuma" kandi ntibireme uruzitiro rwo gucapura
+wrong_answers:
+  - Kuko uburongozi bwa protocole buvana n'itora ry'abacukuzi b'amabuye y'agaciro ("umurongozi umwe, itora rimwe")
+  - Kugira ngo ntibushire ahantu hamwe ubucuruzi bwa mining, hanyuma buganzwa n’ibidengeri bikeyi vya mining 
+  - Kuko umurongozi w'umugambi Gavin Andresen ntiyashaka kuba "umunyagitugu w'umugwaneza"
+explanation: |
+ Ivyo vyari uburenganzira bw'amategeko y'ubumwe, ivyo vyari kwitwa "soft fork". Ivyo guhindura ntibituma haba uruzitiro rwo gucapura iyo bishigikiwe n' 
+ igice kinini c’ububasha bwo gukoresha ubuhinga bwa none.
+reviewed: true

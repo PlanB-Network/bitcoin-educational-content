@@ -1,0 +1,9 @@
+question: Após a verificação, o que faz um nó Bitcoin com uma transação válida, mas não confirmada?
+answer: Transmite-a aos seus pares
+wrong_answers:
+  - Adiciona-a à sua cópia local da blockchain
+  - Assina-a com a sua chave privada
+  - Cifra-a com a sua chave pública
+explanation: |
+  Na rede Bitcoin, cada nó propaga as transações válidas aos nós aos quais está conectado.
+reviewed: false

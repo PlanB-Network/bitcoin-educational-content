@@ -1,0 +1,10 @@
+question: Cụ thể, bản nâng cấp Pay to Script Hash đã được triển khai cho những trường hợp sử dụng nào?
+answer: Để đảm bảo an toàn cho nguồn vốn bằng chữ ký đa bên (multisig)
+wrong_answers:
+  - Dịch vụ ký quỹ
+  - Để tăng cường sức mạnh tính toán của mạng nhờ vào việc hợp nhất mining
+  - Để gửi tiền kiều hối ra nước ngoài
+explanation: |
+ Việc bảo đảm an toàn nguồn vốn hiện đang là vấn đề rất quan trọng do số lượng các vụ tấn công cướp đoạt ngày càng gia tăng. Vấn đề này đã được Gavin Andresen, trưởng dự án, đưa ra thảo luận vào ngày 23 tháng 8 năm 2011, với mong muốn đẩy nhanh quá trình chuẩn hóa chức năng đa chữ ký đã có sẵn trong giao thức.
+ Điều này dẫn đến sự phát triển của OP_EVAL và sau đó là P2SH trong suốt mùa đông.
+reviewed: true

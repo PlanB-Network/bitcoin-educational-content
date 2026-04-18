@@ -1,0 +1,9 @@
+question: Pada tahun berapa Hashcash diusulkan?
+answer: 1997
+wrong_answers:
+  - 1993
+  - 2004
+  - 1995
+explanation: |
+  Hashcash pertama kali diumumkan pada Maret 1997.
+reviewed: false

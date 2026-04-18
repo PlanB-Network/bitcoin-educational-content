@@ -1,0 +1,8 @@
+question: According to the Austrian approach, why do individuals naturally prefer present enjoyment to future enjoyment of the same good?
+answer: Because the fundamental uncertainty of the future makes a present good ever more precious
+wrong_answers:
+  - Because goods naturally deteriorate over time and lose their value
+  - Because people are naturally impatient and lack self-discipline
+  - "Because inflation automatically reduces the value of future goods"
+explanation: |
+  The correct answer reflects the central concept of time preference developed by Ludwig von Mises. The uncertainty of the future - we don't know if we'll be alive, what needs will emerge, what circumstances will arise - explains why a present good is always worth more than an identical future good. The other answers are incorrect, as they invoke external factors (deterioration, inflation) or character traits (impatience) rather than the irreducible uncertainty that forms the theoretical basis of time preference.

@@ -1,0 +1,11 @@
+question: Milline oli peamine vastuväide, mille Ameerika libertaarid Bitcoin vastu esitasid, viidates Misesi regressiooniteooremile?
+answer: Sellel ei olnud sisemist väärtust ja selle taga ei olnud midagi konkreetset
+wrong_answers:
+  - Sellel oli rahapoliitiline inflatsioon, mille emissioonimäär oli 2011. aastal 40% aastas
+  - Seda ei kasutatud arvestusühikuna, mis on raha oluline omadus
+  - See tekitas jõukuse sügavalt ebavõrdse jaotuse
+explanation: |
+ Mõned Ameerika libertaarid, kes on seotud Austria koolkonnaga, lükkasid Bitcoin tagasi, sest see oli (nende arvates) vastuolus Ludwig von Misesi regressiooniteoreemiga,
+ mis väidab, et kaubal peab olema objektiivne mitterahaline kasutusväärtus, enne kui sellest saab valuuta. See kehtis eelkõige Peter Schiffi, poja
+ maksuvastase võitluse eest võitleja Irwin Schiffi poeg ja kullastandardi veendunud toetaja.
+reviewed: true

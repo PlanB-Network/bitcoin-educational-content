@@ -111,10 +111,10 @@ Ni mwiteguye kwisuka mw’isi igoye kandi iryoshe cane ya RGB? Reka tugende!
 <chapterId>f52f8af5-5d7c-588b-b56d-99b97176204b</chapterId>
 
 
-:::id ya videwo = f27338bc-4210-4a2e-9b27-30278ed3282c::
+:::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
 
-RGB ni umurongo wagenewe gukoresha no gushitsa uburenganzira bwa digitale (mu buryo bw’amasezerano n’itunga) mu buryo bushobora guhindurwa kandi bufise ibanga, bushingiye ku mategeko y’uguhurizako n’imikorere ya Bitcoin Blockchain. Intumbero y’iki gice ca mbere ni ugushikiriza ivyiyumviro n’amajambo y’ishimikiro akikuje umurongo wa RGB, tugaragaza cane cane isano ryayo n’ivyiyumviro vy’ishimikiro vy’ubuhinga bwa none nka Client-side Validation na Single-use Seals.
+RGB ni umurongo wagenewe gukoresha no gushitsa uburenganzira bwa digitale (mu buryo bw’amasezerano n’itunga) mu buryo bushobora guhindurwa kandi bufise ibanga, bushingiye ku [mategeko y’uguhurizako](https://planb.academy/resources/glossary/consensus-rules) n’imikorere ya Bitcoin [Blockchain](https://planb.academy/resources/glossary/blockchain). Intumbero y’iki gice ca mbere ni ugushikiriza ivyiyumviro n’amajambo y’ishimikiro akikuje umurongo wa RGB, tugaragaza cane cane isano ryayo n’ivyiyumviro vy’ishimikiro vy’ubuhinga bwa none nka Client-side Validation na Single-use Seals.
 
 
 Muri iki gice, turatohoza ivy’ishimikiro vy’**uburyo bwo kwumvikana busanzwe** maze turabe ingene RGB ijyanye n’uwo muryango w’ubuhinga. Turazozana kandi ingingo ngenderwako nyamukuru zidufasha gutahura igituma RGB ifise intumbero yo kwaguka no kwigenga ku buryo bwo kwumvikana bwa Bitcoin ubwayo, mu gihe yizigira iyo bikenewe.
@@ -123,14 +123,14 @@ Muri iki gice, turatohoza ivy’ishimikiro vy’**uburyo bwo kwumvikana busanzwe
 ### Imenyekanisha
 
 
-Distributed computing, ni ukuvuga ishami ryihariye ry’ubuhinga bwa mudasobwa, yiga amategeko akoreshwa mu gukwiragiza no gukora amakuru ku rubuga rw’ibihimba. Izo nzira n’amategeko yose hamwe, ni vyo bigize ico bita uburyo busanzwe. Mu bintu nyamukuru biranga mwene urwo rutonde , bimwebimwe ni ibi:
+Distributed computing, ni ukuvuga ishami ryihariye ry’ubuhinga bwa mudasobwa, yiga amategeko akoreshwa mu gukwiragiza no gukora amakuru ku rubuga rw’[ibihimba](https://planb.academy/resources/glossary/node). Izo nzira n’amategeko yose hamwe, ni vyo bigize ico bita uburyo busanzwe. Mu bintu nyamukuru biranga mwene urwo rutonde , bimwebimwe ni ibi:
 
 
 
 
 - **Ubushobozi bwo kugenzura no kwemeza bwigenga** amakuru amwe amwe n’urudodo rumwe rumwe;
 - Ubushobozi bw’ibihimba vy’umubiri bwo kwubaka (bivanye n’umurongo) ukuntu amakuru yose abona canke igice. Ivyo vyiyumviro ni **ibihugu** vy’uburyo busanzwe;
-- **Urutonde rw'ibihe** rw'ibikorwa, kugira ngo amakuru ashobore gushirwako ikidodo c'igihe kandi habeho ukwiyumvikana ku rutonde rw'ibintu (urutonde rw'ibihugu).
+- **Urutonde rw'ibihe** rw'ibikorwa, kugira ngo amakuru ashobore gushirwako [ikidodo c'igihe](https://planb.academy/resources/glossary/timestamp) kandi habeho ukwiyumvikana ku rutonde rw'ibintu (urutonde rw'ibihugu).
 
 
 Cane cane, iciyumviro c’**uguhurizako** mu buryo busanzwe gifise imice ibiri:
@@ -139,16 +139,16 @@ Cane cane, iciyumviro c’**uguhurizako** mu buryo busanzwe gifise imice ibiri:
 
 
 - Kwemera ukuri kw'amahinduka ya Leta (hakurikijwe amategeko y'amasezerano);
-- **Isezerano ku rutonde** rw'ivyo bihinduka vya Leta, ivyo bikaba bituma bidashoboka kwandika canke guhindura ibikorwa vyemewe a posteriori (ivyo navyo bizwi muri Bitcoin nk'"uburinzi bw'amahera akoreshwa kabiri").
+- **Isezerano ku rutonde** rw'ivyo bihinduka vya Leta, ivyo bikaba bituma bidashoboka kwandika canke guhindura ibikorwa vyemewe a posteriori (ivyo navyo bizwi muri Bitcoin nk'"uburinzi bw'[amahera akoreshwa kabiri](https://planb.academy/resources/glossary/double-spending-attack)").
 
 
-Ishirwa mu ngiro rya mbere rikora, ritagira uruhusha ry’uburyo bwo kwumvikana busanzwe ryashizweho na Satoshi Nakamoto hamwe na Bitcoin, bivuye ku gukoresha hamwe ubuhinga bw’amakuru bwa Blockchain n’ubuhinga bwa Proof-of-Work (PoW). Muri iyo nzira, ukwizera amateka y’amabuye kuva ku bubasha bwo guharura buhabwa n’ibihimba (abacukuzi). Bitcoin rero ni akarorero kanini kandi k’akahise k’uburyo bwo kwumvikana busanzwe bufunguriwe bose (*ata ruhusha*).
+Ishirwa mu ngiro rya mbere rikora, ritagira uruhusha ry’uburyo bwo kwumvikana busanzwe ryashizweho na Satoshi Nakamoto hamwe na Bitcoin, bivuye ku gukoresha hamwe ubuhinga bw’amakuru bwa Blockchain n’ubuhinga bwa [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) (PoW). Muri iyo nzira, ukwizera amateka y’amabuye kuva ku bubasha bwo guharura buhabwa n’ibihimba ([abacukuzi](https://planb.academy/resources/glossary/miner)). Bitcoin rero ni akarorero kanini kandi k’akahise k’uburyo bwo kwumvikana busanzwe bufunguriwe bose (*ata ruhusha*).
 
 
-Mu isi ya Blockchain n'ubuhinga bwo gukoresha ubuhinga bwa none, turashobora gutandukanya ingero zibiri z'ishimikiro: ***Blockchain*** mu buryo bwa kera, na ***imirongo ya Leta***, akarorero keza kayo mu guhingura ni Lightning Network. Blockchain isobanurwa nk’igitabu c’ibintu vyabaye bikurikiranye, bisubirwamwo n’uguhurizako mu nzira ifunguye kandi idafise uruhusha. Ku rundi ruhande, imirongo ya Leta ni imirongo y’urunganwe ishoboza abayigize babiri (canke barenga) kuguma bafise off-chain ya Leta ivuguruwe, bakoresheje Blockchain gusa igihe bafungura no gufunga iyo mihora.
+Mu isi ya Blockchain n'ubuhinga bwo gukoresha ubuhinga bwa none, turashobora gutandukanya ingero zibiri z'ishimikiro: ***Blockchain*** mu buryo bwa kera, na ***imirongo ya Leta***, akarorero keza kayo mu guhingura ni [Lightning Network](https://planb.academy/resources/glossary/lightning-network). Blockchain isobanurwa nk’igitabu c’ibintu vyabaye bikurikiranye, bisubirwamwo n’uguhurizako mu nzira ifunguye kandi idafise uruhusha. Ku rundi ruhande, imirongo ya Leta ni imirongo y’urunganwe ishoboza abayigize babiri (canke barenga) kuguma bafise off-chain ya Leta ivuguruwe, bakoresheje Blockchain gusa igihe bafungura no gufunga iyo mihora.
 
 
-Mu bijanye na Bitcoin, nta gukeka ko umenyereye ingingo ngenderwako za Mining, kwegereza ubutegetsi abaturage n’uguheza ibikorwa ku Blockchain, hamwe n’ingene inzira zo kwishura zikora. Na RGB, turiko turazana uburyo bushasha bwitwa **Client-side Validation**, butandukanye na Blockchain canke Lightning, bugizwe no kubika no kwemeza imihindukire ya Smart contract. Ivyo navyo bitandukanye n'ubundi buhinga bwa "DeFi" (_rollups_, _plasma_, _ARK_, n'ibindi), aho Client-side Validation yizigira Blockchain kugira ngo ibuze Double-spending no kugira uburyo bwo gushiramwo ikidodo c'igihe, mu gihe igumya urutonde rw'ibihugu vya off-chain n'imihindukire, gusa n'ivyo.
+Mu bijanye na Bitcoin, nta gukeka ko umenyereye ingingo ngenderwako za Mining, kwegereza ubutegetsi abaturage n’uguheza ibikorwa ku Blockchain, hamwe n’ingene [inzira zo kwishura](https://planb.academy/resources/glossary/payment-channel) zikora. Na RGB, turiko turazana uburyo bushasha bwitwa **Client-side Validation**, butandukanye na Blockchain canke Lightning, bugizwe no kubika no kwemeza imihindukire ya [Smart contract](https://planb.academy/resources/glossary/smart-contract). Ivyo navyo bitandukanye n'ubundi buhinga bwa "DeFi" (_rollups_, _plasma_, _ARK_, n'ibindi), aho Client-side Validation yizigira Blockchain kugira ngo ibuze Double-spending no kugira uburyo bwo gushiramwo ikidodo c'igihe, mu gihe igumya urutonde rw'ibihugu vya off-chain n'imihindukire, gusa n'ivyo.
 
 
 ![RGB-Bitcoin](assets/en/003.webp)
@@ -257,7 +257,7 @@ Blockchain (muri iki gihe, Bitcoin) ikora cane cane nk’uburyo bwo _gushiramwo 
 Sharding ni iciyumviro cavuye mu makuru yatanzwe (nk’akarorero MySQL ku mbuga ngurukanabumenyi nka Facebook canke Twitter). Kugira ngo umuntu atore umuti w’ingorane y’ubunini bw’amakuru n’igihe co gukorana, urutonde rw’amakuru ruca mu bice _shards_ (USA, Uburayi, Aziya, n’ibindi). Igice kimwekimwe cose kirahuye n’aho hantu kandi gihuye n’ibindi bimwebimwe gusa.
 
 
-Ku masezerano y’ubwenge y’ubwoko bwa RGB, dukora Shard twisunze amasezerano ubwayo. Contract yose ni _shard_ yigenga. Nk’akarorero, iyo ufise gusa ibimenyetso vya USDT, ntubwirizwa kubika canke kwemeza amateka yose y’iyindi token nka USDC. Ku Bitcoin, Blockchain ntikora _sharding_: ufise umugwi w'isi yose w'ama UTXO. Na Client-side Validation, uwuriko arayigira wese aguma afise amakuru ya Contract gusa afise canke akoresha.
+Ku masezerano y’ubwenge y’ubwoko bwa RGB, dukora Shard twisunze amasezerano ubwayo. Contract yose ni _shard_ yigenga. Nk’akarorero, iyo ufise gusa ibimenyetso vya USDT, ntubwirizwa kubika canke kwemeza amateka yose y’iyindi token nka USDC. Ku Bitcoin, Blockchain ntikora _sharding_: ufise umugwi w'isi yose w'ama [UTXO](https://planb.academy/resources/glossary/utxo). Na Client-side Validation, uwuriko arayigira wese aguma afise amakuru ya Contract gusa afise canke akoresha.
 
 
 Turashobora rero kwiyumvira ibidukikije nk’uko bikurikira:
@@ -334,7 +334,7 @@ Client-side Validation ishingiye ku ciyumviro gihushanye n’ico: aho gusaba ko 
 Muri ico gihe nyene, kugira ngo igice gisigaye c’urubuga (canke mu buryo bubereye, Layer iri munsi yayo, nka Bitcoin) gishobore gufunga mu rwego rwa nyuma kitabona ido n’ido ry’ayo makuru, Client-side Validation yizigira iciyumviro ca ***Commitment***.
 
 
-*Commitment* ni Commitment y'ibanga, mu bisanzwe _hash_ (SHA-256 nk'akarorero) yinjijwe mu gikorwa ca Bitcoin, kigaragaza ko amakuru y'ibanga yashizwemwo, ata guhishura ayo makuru.
+*Commitment* ni Commitment y'ibanga, mu bisanzwe _hash_ ([SHA-256](https://planb.academy/resources/glossary/sha256) nk'akarorero) yinjijwe mu gikorwa ca Bitcoin, kigaragaza ko amakuru y'ibanga yashizwemwo, ata guhishura ayo makuru.
 
 
 Kubera ivyo _vyemezo_, turashobora kwemeza:
@@ -414,7 +414,7 @@ Igihe wemera umutungo nk’amahera, hariho ivyemezo bibiri bihambaye:
 Ku bintu vy’umubiri, nk’agapapuro k’amahera, kubaho kw’umubiri birahagije kugira ngo umuntu yerekane ko ataco yasubiyemwo. Ariko rero, mw’isi y’ubuhinga bwa none, aho ivy’ubutunzi ari amakuru gusa, iyo nzira yo kugenzura irarushiriza kugorana, kuko amakuru ashobora kwiyongera bitagoranye no kwisubiriza.
 
 
-Nk’uko twabibonye mbere, uguhishurirwa kw’uwarungitse amateka y’ihinduka rya Leta biradushoboza kumenya neza ko RGB token ari iy’ukuri. Mu kuronka uburenganzira bwo kubona amafaranga yose yagurishijwe kuva igihe Genesis yagurishijwe, turashobora kwemeza ko token ari iy’ukuri. Iryo hame risa n’irya Bitcoin, aho amateka y’ibiceri ashobora gusubirwamwo gushika ku Coinbase Transaction y’intango kugira ngo umuntu asuzume ko ari ukuri. Ariko rero, bitandukanye na Bitcoin, iyo nkuru y’ihinduka rya Leta muri RGB ni iy’ibanga kandi igumye ku ruhande rw’umukiriya.
+Nk’uko twabibonye mbere, uguhishurirwa kw’uwarungitse amateka y’ihinduka rya Leta biradushoboza kumenya neza ko RGB token ari iy’ukuri. Mu kuronka uburenganzira bwo kubona amafaranga yose yagurishijwe kuva igihe Genesis yagurishijwe, turashobora kwemeza ko token ari iy’ukuri. Iryo hame risa n’irya Bitcoin, aho amateka y’ibiceri ashobora gusubirwamwo gushika ku [Coinbase Transaction](https://planb.academy/resources/glossary/coinbase-transaction) y’intango kugira ngo umuntu asuzume ko ari ukuri. Ariko rero, bitandukanye na Bitcoin, iyo nkuru y’ihinduka rya Leta muri RGB ni iy’ibanga kandi igumye ku ruhande rw’umukiriya.
 
 
 Kugira ngo twirinde Double-spending y'ibimenyetso vya RGB, dukoresha uburyo bwitwa "**Single-Use Seal**". Uwo murongo utuma token yose, iyo imaze gukoreshwa, idashobora gusubira gukoreshwa mu buryo bw’ubuhendanyi ubugira kabiri.
@@ -456,7 +456,7 @@ Igereranyo rikurikira rifasha gutahura iyo ngingo ngenderwako:
 
 
 
-- **Commitment (Hash)**: Ukoresheje igikorwa ca Hash, ushobora kwiyemeza gutanga amakuru (umubare) mu gutangaza Hash yayo. Amakuru aguma ari ibanga gushika uhishuye ishusho y'imbere, ariko ushobora kwemeza ko wari uzi imbere y'igihe;
+- **Commitment (Hash)**: Ukoresheje [igikorwa ca Hash](https://planb.academy/resources/glossary/hash-function), ushobora kwiyemeza gutanga amakuru (umubare) mu gutangaza Hash yayo. Amakuru aguma ari ibanga gushika uhishuye ishusho y'imbere, ariko ushobora kwemeza ko wari uzi imbere y'igihe;
 - **Timestamp (Blockchain)**: Mu kwinjiza iyi Hash muri Blockchain, turagaragaza kandi ko twayimenye mu gihe nyaco (ico co kuyishira mu gice);
 - **Single-Use Seal**: Kubera ibimenyetso bikoreshwa rimwe, turatera intambwe imwe imbere mu gutuma Commitment iba iyidasanzwe. Ukoresheje Hash imwe, urashobora gukora amasezerano menshi avuguruzanya mu buryo bumwe (ingorane y'umuganga amenyesha umuryango ngo "*Ni umuhungu*" na "*Ni umukobwa*" mu gitabu ciwe bwite). Single-Use Seal irakuraho ivyo bishoboka mu gufatanya Commitment n'ikimenyamenya c'isohorwa, nka Bitcoin Blockchain, kugira ngo gukoresha UTXO bishireko ikidodo ata gukeka Commitment. Iyo UTXO nyene imaze gukoreshwa, ntishobora gusubira gukoreshwa kugira ngo isubirire Commitment.
 
@@ -584,7 +584,7 @@ Zirikana ko ayo matafari ya porogarama ari Bitcoin agnostic; mu vyiyumviro, vyos
 #### Ku bijanye n'ikoreshwa ryagutse ry'Ibidodo Bikoreshwa Rimwe
 
 
-Peter Todd nawe yararemye _Open Timestamps_ umurongo, kandi iciyumviro ca Single-Use Seal ni ukwaguka kw'ivyo vyiyumviro. Uretse RGB, hariho n'ibindi bikoresho bishobora gukoreshwa, nk'ubwubatsi bw'imirongo y'inyuma_ ata gukoresha _gufatanya ubucukuzi_ canke ivyiyumviro bijanye n'imirongo y'imiduga nka BIP300. Uburyo bwose busaba Commitment imwe burashobora, mu ngingo ngenderwako, gukoresha iyo nzira y’ubuhinga bwa none. Ubu, RGB ni ryo rya mbere rikomeye ry’ugushirwa mu ngiro ku rugero rwose.
+Peter Todd nawe yararemye _Open Timestamps_ umurongo, kandi iciyumviro ca Single-Use Seal ni ukwaguka kw'ivyo vyiyumviro. Uretse RGB, hariho n'ibindi bikoresho bishobora gukoreshwa, nk'ubwubatsi bw'[imirongo y'inyuma](https://planb.academy/resources/glossary/sidechain)_ ata gukoresha _gufatanya ubucukuzi_ canke ivyiyumviro bijanye n'imirongo y'imiduga nka BIP300. Uburyo bwose busaba Commitment imwe burashobora, mu ngingo ngenderwako, gukoresha iyo nzira y’ubuhinga bwa none. Ubu, RGB ni ryo rya mbere rikomeye ry’ugushirwa mu ngiro ku rugero rwose.
 
 
 #### Ibibazo vyo kuboneka kw'amakuru
@@ -596,7 +596,7 @@ Kubera ko muri Client-side Validation, uwukoresha wese abika igice ciwe c’amat
 #### Gucapura no kwitandukanya na Contract
 
 
-Buri Contract igereranya _shard_ yitandukanije: USDT na USDC, nk’akarorero, ntibitegerezwa gusangira amateka yavyo. Guhinduranya atome biracari bishoboka, ariko ivyo ntibisaba gufatanya amarejista yabo. Ivyo vyose bikorwa n’ubuhinga bwa cryptographic Commitment, ata kumenyesha igicapo cose c’amateka ku muntu wese ari muri iyo nama.
+Buri Contract igereranya _shard_ yitandukanije: USDT na USDC, nk’akarorero, ntibitegerezwa gusangira amateka yavyo. [Guhinduranya atome](https://planb.academy/resources/glossary/atomic-swap) biracari bishoboka, ariko ivyo ntibisaba gufatanya amarejista yabo. Ivyo vyose bikorwa n’ubuhinga bwa cryptographic Commitment, ata kumenyesha igicapo cose c’amateka ku muntu wese ari muri iyo nama.
 
 
 ### Iciyumviro
@@ -617,16 +617,16 @@ Imbere yo kwisuka mu bintu vy’ubuhinga vy’igice ca kabiri, ntutinye gusubira
 <chapterId>cc2fe85a-9cc7-5b8c-a00a-c0a867241061</chapterId>
 
 
-:::id y'amasanamu = 73dea2d-c243-479d-a3dc-12d7db8eef70:::
+:::video id=73ddea2d-c243-479d-a3dc-12d7db8eef70:::
 
 
-Muri iki gice, turaza kuraba ingene Client-side Validation n'Ibimenyetso bikoreshwa rimwe gusa bishirwa mu ngiro muri Bitcoin Blockchain. Tuzoshikiriza ingingo ngenderwako nyamukuru za RGB **Commitment Layer** (Layer 1), twibanda canecane ku mugambi wa **TxO2**, uwo RGB ikoresha mu gusobanura no gufunga Seal mu gucuruza kwa Bitcoin. Inyuma y’aho, turaza kuganira ku ngingo zibiri zihambaye zitaravugwa mu buryo burambuye:
+Muri iki gice, turaza kuraba ingene [Client-side Validation](https://planb.academy/resources/glossary/client-side-validation) n'[Ibimenyetso bikoreshwa rimwe gusa](https://planb.academy/resources/glossary/single-use-seal) bishirwa mu ngiro muri Bitcoin Blockchain. Tuzoshikiriza ingingo ngenderwako nyamukuru za RGB **Commitment Layer** (Layer 1), twibanda canecane ku mugambi wa **TxO2**, uwo RGB ikoresha mu gusobanura no gufunga Seal mu gucuruza kwa Bitcoin. Inyuma y’aho, turaza kuganira ku ngingo zibiri zihambaye zitaravugwa mu buryo burambuye:
 
 
 
 
 - Ivyo _vyemezo vya Bitcoin vyemeza_;
-- Ivyemezo vy’amasezerano menshi.
+- [Ivyemezo vy’amasezerano menshi](https://planb.academy/resources/glossary/multi-protocol-commitment).
 
 
 Ni uguhuza ivyo vyiyumviro bituma dushobora gushiramwo ubuhinga canke amasezerano menshi hejuru ya UTXO imwe, rero Blockchain imwe.
@@ -646,7 +646,7 @@ Kugira ngo dutahure ivyiyumviro, reka twibuke ingingo ngenderwako y’ishimikiro
 
 
 
-- Koresha urufunguzo rwa bose canke **Address**
+- Koresha [urufunguzo rwa bose](https://planb.academy/resources/glossary/public-key) canke **Address**
 
 
 Turashobora gufata ingingo y'uko urufunguzo rwa bose canke Address ari _ikidodo gikoreshwa rimwe_. Igihe nyene urufunguzo canke Address rubonetse On-Chain mu gucuruza, bisigura ko Seal ipfungiwe n’ubutumwa bumwe.
@@ -654,10 +654,10 @@ Turashobora gufata ingingo y'uko urufunguzo rwa bose canke Address ari _ikidodo 
 
 
 
-- Koresha **Bitcoin** igisohoka
+- Koresha **Bitcoin** [igisohoka](https://planb.academy/resources/glossary/output)
 
 
-Ivyo bisigura ko _ikidodo gikoreshwa rimwe_ gisobanurwa nk'_isohoka_ ry'ukuri (umubare w'isohoka wa txid +). Ico _sohoka_ kimaze guhera, Seal irafunga.
+Ivyo bisigura ko _ikidodo gikoreshwa rimwe_ gisobanurwa nk'_[isohoka](https://planb.academy/resources/glossary/outpoint)_ ry'ukuri (umubare w'isohoka wa [txid](https://planb.academy/resources/glossary/txid-transaction-identifier) +). Ico _sohoka_ kimaze guhera, Seal irafunga.
 
 
 Igihe twariko turakora kuri RGB, twabonye nibura uburyo 4 butandukanye bwo gushitsa ivyo bimenyetso kuri Bitcoin:
@@ -667,7 +667,7 @@ Igihe twariko turakora kuri RGB, twabonye nibura uburyo 4 butandukanye bwo gushi
 
 - Sigura Seal biciye ku rufunguzo rwa bose, maze urufunge mu _isohoka_;
 - Sigura Seal n'_isohoka_ maze uyifunge n'_isohoka_;
-- Sigura Seal biciye ku gaciro k'urufunguzo rwa bose, hanyuma urufunge mu _input_;
+- Sigura Seal biciye ku gaciro k'urufunguzo rwa bose, hanyuma urufunge mu _[input](https://planb.academy/resources/glossary/input)_;
 - Sigura Seal biciye ku _isohoka_, hanyuma uyifunge mu _input_.
 
 
@@ -675,7 +675,7 @@ Igihe twariko turakora kuri RGB, twabonye nibura uburyo 4 butandukanye bwo gushi
 | ----------- | ------------------------- | ------------------------- | -------------------------------------------------------------- | --------------------------- | -------------------------------- |
 | PkO         | Public Key Value          | Transaction Output        | P2(W)PKH                                                       | None at the moment          | Keytweak, taptweak, opret       |
 | TxO2        | Transaction Output        | Transaction Output        | Requires deterministic commitments on Bitcoin                  | RGBv1 (universal)           | Keytweak, tapret, opret         |
-| PkI         | Public Key Value          | Transaction Input         | Taproot only & not compatible with legacy wallets              | Bitcoin-based identities    | Sigtweak, witweak               |
+| PkI         | Public Key Value          | Transaction Input         | [Taproot](https://planb.academy/resources/glossary/taproot) only & not compatible with legacy wallets              | Bitcoin-based identities    | Sigtweak, witweak               |
 | TxO1        | Transaction Output        | Transaction Input         | Taproot only & not compatible with legacy wallets              | None at the moment          | Sigtweak, witweak               |
 
 
@@ -703,7 +703,7 @@ Nk’ukwibutsa, gusobanura _ikidodo co gukoresha rimwe_ ntibisaba gutangaza ivy�
 ![RGB-Bitcoin](assets/en/024.webp)
 
 
-Umusi ishaka gufunga Seal (kugira ngo yerekane ikintu, canke ku Anchor ubutumwa bumwe bumwe), ikoresha iyo UTXO mu gikorwa gishasha (ico gikorwa citwa kenshi "_igikorwa c'icabona_" (kidafitaniye isano na _segwit_in_ transmit_, ni ijambo gusa the will it conmitcom). ku butumwa.
+Umusi ishaka gufunga Seal (kugira ngo yerekane ikintu, canke ku Anchor ubutumwa bumwe bumwe), ikoresha iyo UTXO mu gikorwa gishasha (ico gikorwa citwa kenshi "_[igikorwa c'icabona](https://planb.academy/resources/glossary/witness-transaction)_" (kidafitaniye isano na _segwit_in_ transmit_, ni ijambo gusa the will it conmitcom). ku butumwa.
 
 
 ![RGB-Bitcoin](assets/en/025.webp)
@@ -803,7 +803,7 @@ Mu gice ca mbere, twavuze muri make ingene urugero rwa Client-side Validation ru
 Iyo uhaye umuntu ikimenyamenya c’uko ubutumwa bumwe bumwe bushizwe mu gicuruzwa, ukeneye kuba ushoboye kwizera ko ata bundi buryo bwa Commitment (ubutumwa bwa kabiri, bwihishije) buri muri ico gicuruzwa nyene butaguhishuriwe. Kugira ngo Client-side Validation igumye ikomeye, ukeneye uburyo **bugena** bwo gushiramwo _ukwiyemeza_ kumwe mu gucuruza gufunga _ikidodo c'ikoreshwa rimwe_.
 
 
-_Igurisha ry'abashingantahe_ rikoresha amahera azwi cane UTXO (canke _insobanuro y'ikidodo_) kandi ayo mahera ahuye n'ugufunga Seal. Mu buryo bw’ubuhinga, turazi ko igice cose gishobora gukoreshwa rimwe gusa. Ivyo nyene ni vyo bishigikira ubushobozi bwa Bitcoin bwo kurwanya gukoresha amahera incuro zibiri. Ariko igikorwa co gukoresha amahera gishobora kuba gifise _ibintu vyinshi vyinjizwa_, _ibintu vyinshi bisohoka_, canke kikaba gikozwe mu buryo bugoranye (coinjoins, Lightning channels, n’ibindi). Turakeneye rero gusobanura neza aho twoshira _ukwiyemeza_ muri iyo nzira, ata gukeka kandi mu buryo bumwe.
+_Igurisha ry'abashingantahe_ rikoresha amahera azwi cane UTXO (canke _insobanuro y'ikidodo_) kandi ayo mahera ahuye n'ugufunga Seal. Mu buryo bw’ubuhinga, turazi ko igice cose gishobora gukoreshwa rimwe gusa. Ivyo nyene ni vyo bishigikira ubushobozi bwa Bitcoin bwo kurwanya gukoresha amahera incuro zibiri. Ariko igikorwa co gukoresha amahera gishobora kuba gifise _ibintu vyinshi vyinjizwa_, _ibintu vyinshi bisohoka_, canke kikaba gikozwe mu buryo bugoranye ([coinjoins](https://planb.academy/resources/glossary/coinjoin), Lightning channels, n’ibindi). Turakeneye rero gusobanura neza aho twoshira _ukwiyemeza_ muri iyo nzira, ata gukeka kandi mu buryo bumwe.
 
 
 Uko uburyo bwoba buri kwose (PkO, TxO2, n'ibindi), _ukwiyemeza_ gushobora kwinjizwa:
@@ -812,12 +812,12 @@ Uko uburyo bwoba buri kwose (PkO, TxO2, n'ibindi), _ukwiyemeza_ gushobora kwinji
 
 
 - Mu **Inyinjizo** biciye kuri:
-- **Sigtweak** (ihindura igice ca `r` c'umukono wa ECDSA, gisa n'ingingo ngenderwako y'"Ikimenyetso-ku-Contract");
+- **Sigtweak** (ihindura igice ca `r` c'[umukono](https://planb.academy/resources/glossary/digital-signature) wa [ECDSA](https://planb.academy/resources/glossary/ecdsa), gisa n'ingingo ngenderwako y'"Ikimenyetso-ku-Contract");
 - **Witweak** (amakuru y'ivyabona *vyatandukanye* vy'ugucuruza arahindurwa).
 - Mu **Igisohoka** biciye kuri:
 - **Keytweak** (urufunguzo rwa bose rw'uwuronka "rurahindurwa" n'ubutumwa);
 - **Opret** (ubutumwa bushirwa mu gisohoka kitashobora gukoreshwa `OP_RETURN`);
-- **Tapret** (canke _Taptweak_), yizigira Taproot kugira ngo yinjize Commitment mu gice c'inyandiko c'urufunguzo rwa Taproot, gutyo igahindura urufunguzo rwa bose mu buryo butegekanijwe.
+- **Tapret** (canke _Taptweak_), yizigira Taproot kugira ngo yinjize Commitment mu gice c'[inyandiko](https://planb.academy/resources/glossary/script) c'urufunguzo rwa Taproot, gutyo igahindura urufunguzo rwa bose mu buryo butegekanijwe.
 
 
 ![RGB-Bitcoin](assets/en/035.webp)
@@ -832,7 +832,7 @@ Aha niho hari ido n’ido ry’uburyo bumwe bumwe:
 ***Ikimenyetso co guhindura (ikimenyetso-ku-Contract):***
 
 
-Umugambi wa kera wari ukoresha igice c'umukono (ECDSA canke Schnorr) kugira ngo ushiremwo _ukwiyemeza_: ubu ni ubuhinga buzwi nka "**Sign-to-Contract**". Usubiriza Nonce yavutse mu buryo butari bwo n’iyindi Hash irimwo amakuru. Muri ubwo buryo, iyo sinya irahishura ata gufyina Commitment yawe, ata kibanza na kimwe congereweko mu gucuruza. Ubwo buryo burafise ivyiza bitari bike:
+Umugambi wa kera wari ukoresha igice c'umukono (ECDSA canke [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol)) kugira ngo ushiremwo _ukwiyemeza_: ubu ni ubuhinga buzwi nka "**Sign-to-Contract**". Usubiriza [Nonce](https://planb.academy/resources/glossary/nonce) yavutse mu buryo butari bwo n’iyindi Hash irimwo amakuru. Muri ubwo buryo, iyo sinya irahishura ata gufyina Commitment yawe, ata kibanza na kimwe congereweko mu gucuruza. Ubwo buryo burafise ivyiza bitari bike:
 
 
 
@@ -846,17 +846,17 @@ Ariko rero, hariho ingorane 2 zikomeye zabonetse:
 
 
 
-- Multisig imbere ya Taproot: iyo ufise abasinye benshi, ukeneye guhitamwo umukono uzotwara _ukwiyemeza_. Imikono ishobora gutegekwa mu buryo butandukanye, kandi iyo uwushizeko umukono yanse, uratakaza ububasha ku vyo _ukwiyemeza_ bizovamwo;
+- [Multisig](https://planb.academy/resources/glossary/multisig) imbere ya Taproot: iyo ufise abasinye benshi, ukeneye guhitamwo umukono uzotwara _ukwiyemeza_. Imikono ishobora gutegekwa mu buryo butandukanye, kandi iyo uwushizeko umukono yanse, uratakaza ububasha ku vyo _ukwiyemeza_ bizovamwo;
 - MuSig na Nonce basangira: na Schnorr Multisig (*MuSig*), uruvyaro rwa Nonce ni ubuhinga bw’imigwi myinshi, kandi bica biba nk’ibidashoboka guhindura Nonce ku giti cabo.
 
 
-Mu bikorwa, **sig tweak** na yo nyene ntihuye cane n’ibikoresho biriho (ibikoresho vy’amasakoshi) n’imiterere (Lightning, n’ibindi). Rero iki ciyumviro gikomeye ni Hard co gushira mu ngiro.
+Mu bikorwa, **sig tweak** na yo nyene ntihuye cane n’ibikoresho biriho ([ibikoresho vy’amasakoshi](https://planb.academy/resources/glossary/hardware-wallet)) n’imiterere (Lightning, n’ibindi). Rero iki ciyumviro gikomeye ni Hard co gushira mu ngiro.
 
 
 ***Urufunguzo rwo guhindura (kwishura-ku-Contract):***
 
 
-**Key tweak** ifata iciyumviro c'amateka c'_kwishura-ku-masezerano_. Dufata urufunguzo rwa bose `X` tukaruhindura mu kwongerako agaciro `H(ubutumwa)`. Mu buryo bwihariye, iyo `X = x * G` na `h = H(ubutumwa)`, rero urufunguzo rushasha ruzoba `X' = X + h * G`. Urufunguzo rwahinduwe runyegeza Commitment ku `ubutumwa`. Uwufise urufunguzo rw'ibanga rw'umwimerere arashobora, mu kwongerako `h` ku rufunguzo rwiwe rw'ibanga `x`, kwemeza ko afise urufunguzo rwo gukoresha igisohoka. Mu vyiyumviro, ivyo ni vyiza cane, kuko:
+**Key tweak** ifata iciyumviro c'amateka c'_kwishura-ku-masezerano_. Dufata urufunguzo rwa bose `X` tukaruhindura mu kwongerako agaciro `H(ubutumwa)`. Mu buryo bwihariye, iyo `X = x * G` na `h = H(ubutumwa)`, rero urufunguzo rushasha ruzoba `X' = X + h * G`. Urufunguzo rwahinduwe runyegeza Commitment ku `ubutumwa`. Uwufise [urufunguzo rw'ibanga](https://planb.academy/resources/glossary/private-key) rw'umwimerere arashobora, mu kwongerako `h` ku rufunguzo rwiwe rw'ibanga `x`, kwemeza ko afise urufunguzo rwo gukoresha igisohoka. Mu vyiyumviro, ivyo ni vyiza cane, kuko:
 
 
 
@@ -936,7 +936,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 
 - Ivyo bice 29 `OP_RESERVED`, bikurikiwe na `OP_RETURN`, hanyuma `OP_PUSHBYTE_33`, bikora igice c'intango_ c'ibice 31;
-- Hakurikiraho _ukwiyemeza_ kw’amabayiti 32 (kenshi Merkle Root iva kuri **MPC**), aho twongerako byte 1 ya **Nonce** (ivyo vyose hamwe ni amabayiti 33 y’iki gice ca kabiri).
+- Hakurikiraho _ukwiyemeza_ kw’amabayiti 32 (kenshi [Merkle Root](https://planb.academy/resources/glossary/merkle-root) iva kuri **MPC**), aho twongerako byte 1 ya **Nonce** (ivyo vyose hamwe ni amabayiti 33 y’iki gice ca kabiri).
 
 
 Rero uburyo bwa `Tapret` bw'amabayiti 64 busa n'ubwa `Opret` twashizeko amabayiti 29 ya `OP_RESERVED` maze twongerako amabayiti y'inyongera nka Nonce.
@@ -966,7 +966,7 @@ Muri iki gihe ca mbere, dutangura n'urufunguzo rw'isohoka rwa Taproot (*Urufungu
 
 
 - `P`: urufunguzo rwa bose rw'imbere rwa _Urufunguzo Inzira Gukoresha_.
-- `G`: ikibanza gitera umugozi w'uruzitiro [secp256k1]
+- `G`: ikibanza gitera umugozi w'[uruzitiro](https://planb.academy/resources/glossary/elliptic-curve) [secp256k1]
 
 -`t = tH_TWEAK(P)` ni umubare w'ihindura, ubariwe biciye ku _hash_ (nk'akarorero `SHA-256(SHA-256(Ihindura) || P)`), bihuye n' [BIP86](Igihugu c'Igihugu c'Igihugu). Ivyo vyerekana ko ata nyandiko yihishije iriho.
 
@@ -1330,7 +1330,7 @@ Ubu buryo buratuma:
 Multi Protocol Commitment* (MPC) ni ingingo ngenderwako ishoboza RGB gukoranya amasezerano menshi mu gikorwa kimwe ca Bitcoin, mu gihe iguma ifise ubudasa bw’amasezerano n’ibanga ku bandi bari muri iyo nama. Kubera inyubakwa y'igiti, Contract yose ihabwa ikibanza kidasanzwe, kandi ukubaho kw'amababi "y'ibinyoma" (*Entropy Leaves*) bipfuka igice c'umubare wose w'amasezerano agize uruhara mu gucuruza.
 
 
-Merkle Tree yose ntiyigera ibikwa ku mukiriya. Turaheza gusa generate _inzira ya Merkle_ kuri Contract yose ireba, kugira ngo irungikwe uwuyironka (uwushobora rero kwemeza Commitment). Mu bihe bimwe bimwe, ushobora kuba ufise itunga ryinshi ryaciye muri UTXO imwe. Ushobora rero gufatanya _inzira nyinshi za Merkle_ mu vyo bita _ibara ryinshi Commitment block_, kugira ngo wirinde gusubiramwo amakuru menshi cane.
+[Merkle Tree](https://planb.academy/resources/glossary/merkle-tree) yose ntiyigera ibikwa ku mukiriya. Turaheza gusa generate _inzira ya Merkle_ kuri Contract yose ireba, kugira ngo irungikwe uwuyironka (uwushobora rero kwemeza Commitment). Mu bihe bimwe bimwe, ushobora kuba ufise itunga ryinshi ryaciye muri UTXO imwe. Ushobora rero gufatanya _inzira nyinshi za Merkle_ mu vyo bita _ibara ryinshi Commitment block_, kugira ngo wirinde gusubiramwo amakuru menshi cane.
 
 
 Buri _Merkle proof_ rero iraremereye cane cane kuko uburebure bw'igiti butazorenga 32 muri RGB. Hariho kandi iciyumviro ca "Merkle block", kigumya amakuru menshi (igice c'umusaraba, entropi, n'ibindi), ngirakamaro mu gufatanya canke gutandukanya amashami menshi.
@@ -1448,7 +1448,7 @@ Mu gice gikurikira, turaza kuraba igice ca off-chain gusa ca RGB, ni ukuvuga ubu
 <chapterId>04a9569f-3563-5382-bf53-0c7069343ba0</chapterId>
 
 
-:::id y'amasanamu y'amasanamu:::
+:::video id=db4ee09f-1352-4ad1-9f7a-c962df7ea9fa:::
 
 
 Muri iki gice n'ikindi gikurikira, turaza kuraba iciyumviro ca **Smart contract** mu bidukikije vya RGB maze tubone uburyo butandukanye ayo masezerano ashobora gusobanura no guhindura *igihugu* cayo. Turabona igituma ubuhinga bwa RGB, bukoresheje urutonde rw’Ibimenyetso vy’Ikoreshwa Rimwe, butuma bishoboka gukora ubwoko butandukanye bw’Ibikorwa vya ***Contract*** mu buryo bushobora guhindurwa kandi ata guca mu gitabu c’ivyandikano gihurikiye hamwe. Turaba kandi uruhara rwa ***Business Logic*** mu gutegura iterambere rya Contract State.
@@ -1583,7 +1583,7 @@ Mu gice gikurikira, tuzoja mu buryo burambuye ku bijanye n'ukuntu izo ***intara*
 <chapterId>78c44e88-50c4-5ec4-befe-456c1a9f080b</chapterId>
 
 
-:::id ya videwo=1caec34d-f214-425b-a1a4-0a40ae7d3e0e:::
+:::video id=1caec34d-f214-425b-a1a4-0a40ae7d3e0e:::
 
 
 Muri iki gice, turaza kuraba ingene ibikorwa mu masezerano y’ubwenge no mu guhindura Leta bikora, kandi mu gihe c’amasezerano ya RGB. Intumbero izoba kandi iyo gutahura ingene abaje mu nama benshi bafatanya mu gutanga Ownership y’umutungo.
@@ -2024,7 +2024,7 @@ Kimwe mu bintu bikomeye bikomeye vya RGB ni ubushobozi bwo *guhishura* canke guh
         - `txid` yoroshe, iyo yerekana UTXO yihariye,
         - Canke `WitnessTx`, yerekana ikintu umuntu yishingirako: Seal yerekana igikorwa ubwaco. Ivyo birakenewe cane cane iyo ata UTXO yo hanze iriho, nk'akarorero mu gufungura umurongo wa Lightning, canke iyo uwuronka ata UTXO afise.
 - **vout**: umubare w'isohoka ry'ibikorwa vyerekanywe na `txptr`. Itangazwa gusa ku gishushanyo gisanzwe Seal (si ku `IcabonaTx`);
-- **blinding**: umubare w'ibintu 8 vy'ibanga, kugira ngo hakomezwe ibanga no kubuza gukoresha inguvu z'agahomerabunwa ku bijanye n'akaranga ka UTXO;
+- **blinding**: umubare w'ibintu 8 vy'ibanga, kugira ngo hakomezwe ibanga no kubuza gukoresha [inguvu z'agahomerabunwa](https://planb.academy/resources/glossary/brute-force-attack) ku bijanye n'akaranga ka UTXO;
 - **uburyo**: yerekana uburyo bwo gushingira intahe bukoreshwa (`Tapret` canke `Opret`).
 
 
@@ -2052,7 +2052,7 @@ RGB isobanura ubwoko bune bw'intara bushoboka (*UbwokoBw'intara*) bwa Owned Stat
 
 
 - **Itangazo**: nta makuru y'imibare arimwo, uburenganzira bwo gutangaza gusa (nk'uburenganzira bwo gutora). Ivyo bihishijwe n'ivyo bihishuwe birasa;
-- **Fungible**: igereranya umubare ushobora guhinduka (nk'ibimenyetso). Mu buryo bwahishuriwe, dufise `umubare` n'`uguhuma`. Mu buryo bwihishije, dufise *Pedersen commitment* imwe ihisha umubare n'uguhuma amaso;
+- **Fungible**: igereranya umubare ushobora guhinduka (nk'ibimenyetso). Mu buryo bwahishuriwe, dufise `umubare` n'`uguhuma`. Mu buryo bwihishije, dufise *[Pedersen commitment](https://planb.academy/resources/glossary/pedersen-commitment)* imwe ihisha umubare n'uguhuma amaso;
 - **Itunganijwe**: ibika amakuru atunganijwe (gushika kuri 64 kB). Mu buryo bwahishuriwe, ni data blob. Mu buryo bwihishije, ni Hash y'iki gice:
 
 
@@ -2744,7 +2744,7 @@ Witness Transaction ni igikorwa ca Bitcoin gifunga Single-Use Seal gikikuje ubut
 <chapterId>8333ea5f-51c7-5dd5-b1d7-47d491e58e51</chapterId>
 
 
-:::id ya videwo=97d81b85-5a82-40a5-b111-7d96be5afd0f:::
+:::video id=97d81b85-5a82-40a5-b111-7d96be5afd0f:::
 
 
 Muri iki gice, turaza kuraba neza ingene RGB Contract isobanurwa kandi igashirwa mu ngiro. Turabona ibice bigize RGB Contract ni ibiki, uruhara rwavyo n’ingene vyubatswe.
@@ -3645,7 +3645,7 @@ Mu gice gikurikira, turaza kuraba ingene uguhererekanya amafaranga Contract guko
 <chapterId>f043a307-d420-5752-b0d7-ebfd845802c0</chapterId>
 
 
-:::id ya videwo=75eb5a8d-1910-4155-b5e3-81204c9a8901:::
+:::video id=75eb5a8d-1910-4155-b5e3-81204c9a8901:::
 
 
 Muri iki gice, turaza gusuzuma ingene Contract igenda mu bidukikije vya RGB. Kugira ngo ivyo tubigereranye, turaza kuraba Alice na Bob, abakinnyi bacu basanzwe, bipfuza ko Exchange iba umutungo wa RGB. Tuzokwereka kandi ibice bimwe bimwe vy'amabwirizwa bivuye mu gikoresho c'umurongo w'amabwirizwa `RGB`, kugira ngo turabe ingene bikora mu bikorwa.
@@ -4065,7 +4065,7 @@ None ko twabonye Elements nyamukuru ya porogarama ya RGB, nzobajana mu kigabane 
 <chapterId>0e0a645c-0049-588d-8965-b8c536590cc9</chapterId>
 
 
-:::id ya videwo=a3ad6dcd-90b8-4272-9dfc-76c85c859167::
+:::video id=a3ad6dcd-90b8-4272-9dfc-76c85c859167:::
 
 
 Muri iki gice, tuzofata intambwe ku yindi uburyo bwo kwandika Contract, dukoresheje igikoresho c'umurongo w'amabwirizwa `RGB`. Intumbero ni ukwerekana ingene woshiramwo no gukoresha CLI, ugakoranya **Schema**, ​​ugashiramwo **Interface** na **Interface Implementation**, hanyuma ugatanga (*ugutanga*) umutungo. Turaza kuraba kandi ivyiyumviro bishingiyeko, harimwo n’ugukoranya n’ugushingira intahe. Mu mpera z’iki gice, ukwiye kuba ushoboye gusubiramwo iyo nzira no kwihingurira amasezerano yawe bwite ya RGB.
@@ -4475,7 +4475,7 @@ Mu gice gikurikira, tuzokwihweza neza ingene RGB yoshirwa muri Lightning Network
 <chapterId>0962980a-8f94-5d0f-9cd0-43d7f884a01d</chapterId>
 
 
-:::id ya videwo=be25a165-6e23-488c-91d8-3dcfccc6eca1:::
+:::video id=be25a165-6e23-488c-91d8-3dcfccc6eca1:::
 
 
 Muri iki gice, ndasaba gusuzuma ingene RGB ishobora gukoreshwa muri Lightning Network, mu gushiramwo no kwimurira ivy’ubutunzi bwa RGB (ibimenyetso, NFT, n’ibindi) biciye mu nzira zo kwishura za off-chain.
@@ -4707,7 +4707,7 @@ Ibidukikije bifitaniye isano n’iterambere ry’ivy’ubuhinga ry’inkomoko yu
 <chapterId>dc92a5e8-ed93-5a3f-bcd0-d433932842f4</chapterId>
 
 
-:::id ya videwo=2ec9a181-a8b0-4da2-b7b5-9dfaaeb10ba:::
+:::video id=2ec9a181-a8b0-4da2-b7b5-9dfaaaeb10ba:::
 
 
 Iki gice ca nyuma c’amashure gishingiye ku nsiguro zashikirijwe n’abatanga insiguro batandukanye mu nama y’ivyigwa ya RGB. Harimwo intahe n’ivyiyumviro ku RGB n’ibidukikije vyayo, hamwe n’ugushikiriza ibikoresho n’imigambi ishingiye kuri iyo porotokole. Iki gice ca mbere kirongowe na Hunter Beast, ibindi bibiri bikurikira na Frederico Tenga.
@@ -4805,7 +4805,7 @@ Ivyo vyose vyerekana ingene ubuhinga bwa RGB bushobora gukoreshwa no gushikira a
 <chapterId>d4d80e07-5eac-5b29-a93a-123180e97047</chapterId>
 
 
-:::id ya videwo=04555813-516f-4eea-9767-7082c2ea6f01:::
+:::video id=04555813-516f-4eea-9767-7082c2ea6f01:::
 
 
 Muri iki gice, twisunze ikiganiro ca Frederico Tenga, turaba urutonde rw’ibikoresho n’imigambi yashizweho n’umugwi wa Bitfinex wiyeguriye RGB, n’intumbero yo guteza imbere uguseruka kw’ibidukikije vy’ubutunzi kandi bitandukanye bikikuje iyo porotokole. Intumbero y’intango y’iryo tsinda si ugusohora igicuruzwa c’ubudandaji kinaka, ahubwo ni ugutanga ibice vy’inyubako vya porogarama, gutanga umusanzu ku masezerano ya RGB ubwayo, no gutanga ibimenyetso vy’ukuri vyo gushirwa mu ngiro nk’igikoresho gigendagenda (*Iris Wallet*) canke igikoresho gishobora gukoreshwa na RGB-com.
@@ -4971,7 +4971,7 @@ Mu gice gikurikira, tuzokwihweza neza ingene twotanguza urudodo rwa RGB Lightnin
 <chapterId>ecaabe32-20ba-5f8c-8ca1-a3f095792958</chapterId>
 
 
-:::id y'amasanamu y'amasanamu y'amasanamu.
+:::video id=d1e9753e-6093-4a47-bcdc-da1aebaefffc:::
 
 
 Muri iki gice ca nyuma, Frederico Tenga aragutwara intambwe ku yindi mu gushinga urudodo rwa Lightning RGB ku bidukikije vya Regtest, kandi akakwereka ingene worema ibimenyetso vya RGB kuri rwo. Mu gutanguza amanode abiri atandukanye, uzobona kandi ingene wofungura umurongo w’umuco hagati yayo n’itunga rya Exchange RGB.

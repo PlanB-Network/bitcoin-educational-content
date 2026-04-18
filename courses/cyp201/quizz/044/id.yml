@@ -6,3 +6,4 @@ wrong_answers:
   - Sebuah teknik kompresi data
 explanation: |
   Dalam kriptografi, entropi mengkuantifikasi tingkat ketidakpastian atau kekacauan dalam sumber acak, esensial untuk menghasilkan kunci yang aman.
+reviewed: true

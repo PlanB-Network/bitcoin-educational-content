@@ -1,0 +1,9 @@
+question: Sự kiện nào đã khiến Satoshi Nakamoto rút khỏi sự chú ý vào tháng 12 năm 2010?
+answer: Đăng tải bài viết trên tạp chí PC World mời WikiLeaks sử dụng Bitcoin
+wrong_answers:
+  - Ross Ulbricht ra mắt nền tảng Con đường Tơ lụa
+  - Liên lạc này được thiết lập bởi In-Q-Tel, quỹ đầu tư của CIA
+  - Giá của BTC đã tăng chóng mặt từ 0,20 đô la lên 32 đô la chỉ trong vài tháng
+explanation: |
+ Satoshi đã bình luận tiêu cực về bài đăng này trên diễn đàn Bitcoin, lo ngại rằng nó sẽ thu hút sự chú ý của chính quyền nhà nước. Sàn giao dịch Con đường Tơ lụa được ra mắt vào tháng 1 năm 2011, liên lạc giữa In-Q-Tel và Gavin Andresen diễn ra vào tháng 4, và giá cả tăng vọt lên mức 32 đô la vào tháng 6.
+reviewed: true

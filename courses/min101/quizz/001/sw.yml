@@ -1,0 +1,9 @@
+question: Baada ya uhakiki, node ya Bitcoin hufanya nini na muamala halali lakini ambao haujathibitishwa?
+answer: Huupeleka kwa wenzake (peers)
+wrong_answers:
+  - Huuongeza kwenye nakala yake ya ndani ya blockchain
+  - Huusaini kwa ufunguo wake wa siri
+  - Huuficha kwa ufunguo wake wa umma
+explanation: |
+  Katika mtandao wa Bitcoin, kila node hueneza miamala halali kwa node ambazo imeunganishwa nazo.
+reviewed: false

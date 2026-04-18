@@ -1,0 +1,11 @@
+question: Hva het det grafiske grensesnittet som Wladimir van der Laan utviklet for hovedprogramvaren i 2011?
+answer: Bitcoin-Qt
+wrong_answers:
+  - wxWindows-Bitcoin
+  - bitcoind
+  - Bitcoin Kjerne
+explanation: |
+ Bitcoin-Qt var en fullstendig overhaling av Bitcoins grafiske grensesnitt. Det ble utviklet fra juni 2011 og integrert i hovedprogramvaren i versjon 0.5,
+ utgitt 21. november. Det er basert på Qt-grafikkrammeverket og erstattet wxWindows-biblioteket som opprinnelig ble brukt av Satoshi. Av metonymi ble programvaren kalt
+ Bitcoin-Qt fra da av.
+reviewed: true

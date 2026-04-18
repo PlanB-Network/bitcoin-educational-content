@@ -1,9 +1,9 @@
 question: Cosa rende l'elaborazione delle transazioni di Bitcoin resistente alla censura?
-answer: L'ordinamento delle transazioni viene eseguito collettivamente da un insieme dinamico di minatori a cui chiunque può aderire o abbandonare
+answer: L'ordinamento delle transazioni viene eseguito collettivamente da un insieme dinamico di miner a cui chiunque può aderire o abbandonare in qualsiasi momento
 wrong_answers:
   - La convalida delle transazioni è criptata utilizzando protocolli crittografici avanzati che i governi non possono infrangere
   - I record delle transazioni sono archiviati su più server di backup controllati da diverse organizzazioni fidate
   - Le commissioni di transazione vengono regolate automaticamente per evitare attacchi economici da parte di autorità centralizzate
 explanation: |
-  Il Bitcoin ottiene la resistenza alla censura attraverso la decentralizzazione dei minatori, dove l'ordine delle transazioni viene eseguito collettivamente da tutti i minatori che decidono di partecipare. Questo crea un sistema dinamico in cui chiunque può entrare o uscire liberamente dal processo mining, eliminando ogni singolo punto di controllo che potrebbe essere spinto a censurare le transazioni. Le risposte sbagliate descrivono caratteristiche tecniche, parti fidate o meccanismi economici che non affrontano la questione centrale del controllo decentralizzato sull'elaborazione delle transazioni.
-reviewed: false
+  Bitcoin ottiene la resistenza alla censura attraverso la decentralizzazione dei miner, dove l'ordine delle transazioni viene eseguito collettivamente da tutti i miner che decidono di partecipare. Questo crea un sistema dinamico in cui chiunque può entrare o uscire liberamente dal processo di mining, eliminando ogni singolo punto di controllo che potrebbe essere spinto a censurare le transazioni. Le risposte sbagliate descrivono caratteristiche tecniche, parti fidate o meccanismi economici che non affrontano la questione centrale del controllo decentralizzato sull'elaborazione delle transazioni.
+reviewed: true

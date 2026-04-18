@@ -1,0 +1,9 @@
+question: Mikä on ehdokaslohko Bitcoinissa?
+answer: Louhijan valmistelema lohko, joka ei ole vielä voimassa
+wrong_answers:
+  - Verkon vahvistama lohko, jota ei ole vielä jaettu
+  - Lompakon luoma lohko, joka ei ole vielä voimassa
+  - Mempooliin tallennettu lohko
+explanation: |
+  Jokainen louhija kokoaa paikallisesti ehdokaslohkon ennen kuin yrittää löytää voimassa olevan työtodistuksen.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koji uslov čini blok validnim u Bitcoin-u?
+answer: SHA256d(zaglavlje bloka) <= cilj
+wrong_answers:
+  - SHA256d(zaglavlje bloka) >= cilj
+  - SHA256d(blok) >= cilj
+  - SHA256d(zaglavlje bloka) > cilj
+explanation: |
+  Da bi blok bio validan u Bitcoin-u, heš njegovog zaglavlja, interpretiran kao broj, mora biti manji ili jednak (<=) cilju.
+reviewed: false

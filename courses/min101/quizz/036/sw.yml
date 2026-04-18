@@ -1,0 +1,9 @@
+question: Baada ya miongonzo (confirmations) ngapi outputs za coinbase huwa zinaweza kutumika?
+answer: Miongonzo 101
+wrong_answers:
+  - Miongonzo 6
+  - Miongonzo 201
+  - Miongonzo 210
+explanation: |
+  Kipindi cha ukomavu ni vitalu 100, kwa hivyo inachukua miongonzo 101 kufanya UTXO hizi ziweze kutumika.
+reviewed: false

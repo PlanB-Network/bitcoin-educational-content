@@ -1,0 +1,9 @@
+question: ビットコインのトランザクションにおいて、インプットは何を消費しますか？
+answer: 既存のUTXO
+wrong_answers:
+  - 将来のアウトプット
+  - 既存のブロック
+  - 将来のアドレス
+explanation: |
+  インプットは、過去のトランザクションからの未消費のアウトプット（UTXO）を参照します。
+reviewed: false

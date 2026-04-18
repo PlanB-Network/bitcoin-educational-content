@@ -352,7 +352,7 @@ Istnieje kilka rodzajów barteru:
 
 
 
-Austriacka szkoła ekonomii interpretuje tę ewolucję jako spontaniczne pojawienie się uprzywilejowanych dóbr podlegających wymianie. Muszle, poświadczone archeologicznie już w mezolicie, ilustrują to zjawisko: znalezione z dala od ich geograficznego pochodzenia (muszle śródziemnomorskie w zachodniej Francji, muszle nordyckie w innych miejscach), świadczą o powszechnym uznaniu ich wartości wymiennej.
+[Austriacka szkoła ekonomii](https://planb.academy/resources/glossary/austrian-school) interpretuje tę ewolucję jako spontaniczne pojawienie się uprzywilejowanych dóbr podlegających wymianie. Muszle, poświadczone archeologicznie już w mezolicie, ilustrują to zjawisko: znalezione z dala od ich geograficznego pochodzenia (muszle śródziemnomorskie w zachodniej Francji, muszle nordyckie w innych miejscach), świadczą o powszechnym uznaniu ich wartości wymiennej.
 
 
 
@@ -605,7 +605,7 @@ Mezopotamskie doświadczenie ustanawia trwałe precedensy dla ewolucji systemów
 
 
 
-Ten przełomowy okres ujawnia również kwestie władzy nieodłącznie związane z każdą innowacją monetarną: kto kontroluje technologię, kto definiuje zasady oraz w jaki sposób artykułowane są formalne systemy i popularne praktyki. Te fundamentalne pytania przetrwały przez całą historię gospodarczą, rozciągając się na współczesne debaty na temat walut cyfrowych i kryptowalut.
+Ten przełomowy okres ujawnia również kwestie władzy nieodłącznie związane z każdą innowacją monetarną: kto kontroluje technologię, kto definiuje zasady oraz w jaki sposób artykułowane są formalne systemy i popularne praktyki. Te fundamentalne pytania przetrwały przez całą historię gospodarczą, rozciągając się na współczesne debaty na temat walut cyfrowych i [kryptowalut](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 
@@ -637,7 +637,7 @@ Inkowie nie mieli systemu monetarnego, ale mieli mnóstwo metali szlachetnych. N
 > Im bardziej rozwarstwione jest społeczeństwo i im bardziej skrupulatnie wydajny jest jego system planowania, tym mniej konieczne jest używanie pieniędzy przez jego populację. Może to wyjaśniać, dlaczego hiszpańscy konkwistadorzy odkryli, że Meksykanie, których rząd był stosunkowo bardziej liberalny, regularnie używali sproszkowanego złota (przechowywanego w przezroczystych tubach) i ziaren kakaowych (przechowywanych do dużych płatności w workach po 24 000 sztuk) jako waluty, podczas gdy odwrotnie, Inkowie, zorganizowani według znacznie bardziej sztywnej hierarchii, nie mieli żadnej waluty: wyjątek potwierdzony surową regułą. Pochodzenie pieniądza w Chinach było całkowicie niezależne od innych cywilizacji; jednak względna bliskość cywilizacji sumeryjskiej, egipskiej i minojskiej budzi wątpliwości co do stopnia ich ignorancji w zakresie praktyk monetarnych, zwłaszcza w świetle rozległego handlu ustanowionego już w najwcześniejszych czasach.
 
 
-W Chinach monety zostały opracowane z zupełnie innym podejściem do zachodnich tradycji. Od samego początku były to pieniądze fiducjarne. Były to monety odlewane.
+W Chinach monety zostały opracowane z zupełnie innym podejściem do zachodnich tradycji. Od samego początku były to [pieniądze fiducjarne](https://planb.academy/resources/glossary/fiat). Były to monety odlewane.
 
 
 I tutaj pan Davies wspomina o handlu. W pewnych okresach rzeczywiście istniała wymiana między Chińczykami a innymi populacjami, ale środkiem wymiany w handlu zagranicznym był raczej jedwab. Jak zobaczymy później, złoto było również używane w przygranicznych regionach Chin, gdzie chińska populacja była mniejsza. I to nawet nie w handlu międzynarodowym; do tego służył jedwab.
@@ -994,7 +994,7 @@ Chińskie państwo używało pieniądza jako instrumentu regulacji gospodarczej:
 
 
 
-Można to powiązać z inflacją i deflacją. Przy stałej podaży pieniądza, jeśli produktywność gospodarki wzrasta, wartość pieniądza rośnie. I odwrotnie, jeśli produktywność spada, wartość pieniądza maleje. W tym przykładzie jest jednak odwrotnie. Prawdopodobnie dlatego, że książę nie miał całkowitego monopolu na produkcję pieniądza, ale nadal wskazuje to, że wartość pieniądza była powiązana z warunkami gospodarczymi.
+Można to powiązać z [inflacją](https://planb.academy/resources/glossary/inflation) i deflacją. Przy stałej podaży pieniądza, jeśli produktywność gospodarki wzrasta, wartość pieniądza rośnie. I odwrotnie, jeśli produktywność spada, wartość pieniądza maleje. W tym przykładzie jest jednak odwrotnie. Prawdopodobnie dlatego, że książę nie miał całkowitego monopolu na produkcję pieniądza, ale nadal wskazuje to, że wartość pieniądza była powiązana z warunkami gospodarczymi.
 
 
 
@@ -1463,7 +1463,7 @@ Jeśli chodzi o handel wymienny, niektóre teorie sugerują, że był on używan
 
 
 
-To właśnie zamierzamy zrobić w tej sekcji. Zamierzamy przeprowadzić swego rodzaju ankietę, aby przedstawić różne teorie na temat pojawienia się pieniądza i różne definicje tego, czym jest pieniądz. Przedstawimy i skrytykujemy tezy zarówno klasycznych ekonomistów, jak i antropologów. Będę miał nawet to szczęście, że będzie ze mną Ulrich Fromy, który przedstawi perspektywę austriackiego ekonomisty na te różne tematy.
+To właśnie zamierzamy zrobić w tej sekcji. Zamierzamy przeprowadzić swego rodzaju ankietę, aby przedstawić różne teorie na temat pojawienia się pieniądza i różne definicje tego, czym jest pieniądz. Przedstawimy i skrytykujemy tezy zarówno klasycznych ekonomistów, jak i antropologów. Będę miał nawet to szczęście, że będzie ze mną Ulrich, który przedstawi perspektywę austriackiego ekonomisty na te różne tematy.
 
 
 
@@ -3616,7 +3616,7 @@ Przejdźmy teraz do Szwecji, gdzie powstał pierwszy bank centralny.
 
 
 
-**Szwecja** była pionierem bankowości centralnej: w 1657 r. Johan Palmstruch stworzył **Stockholm Banco**, upoważniony do pożyczania więcej niż wynosiły jego rezerwy metali, zaznaczając w ten sposób narodziny bankowości opartej na rezerwie cząstkowej. Jednak nadmierna emisja banknotów doprowadziła do paniki i runu na bank w 1663 roku. No cóż...
+**Szwecja** była pionierem bankowości centralnej: w 1657 r. Johan Palmstruch stworzył **Stockholm Banco**, upoważniony do pożyczania więcej niż wynosiły jego rezerwy metali, zaznaczając w ten sposób narodziny bankowości opartej na [rezerwie cząstkowej](https://planb.academy/resources/glossary/fractional-reserves). Jednak nadmierna emisja banknotów doprowadziła do paniki i runu na bank w 1663 roku. No cóż...
 
 
 

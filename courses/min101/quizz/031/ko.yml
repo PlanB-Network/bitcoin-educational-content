@@ -1,0 +1,9 @@
+question: 프로토콜에 따른 마지막 반감기(halving)는 몇 번째입니까?
+answer: 33번째
+wrong_answers:
+  - 21번째
+  - 38번째
+  - 64번째
+explanation: |
+  블록 높이 6,930,000에서의 33번째 반감기는 보조금이 최소 단위 미만으로 떨어지기 때문에 블록 보조금이 종료됩니다.
+reviewed: false

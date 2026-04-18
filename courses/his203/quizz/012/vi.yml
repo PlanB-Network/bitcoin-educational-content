@@ -1,0 +1,9 @@
+question: Mark Karpelès đã chuyển bao nhiêu bitcoin để chứng minh khả năng thanh toán của nền tảng Mt. Gox vào ngày 23 tháng 6 năm 2011?
+answer: 424.242 bitcoin
+wrong_answers:
+  - 666 bitcoin
+  - 1.337 bitcoin
+  - 21.210 bitcoin
+explanation: |
+ Đây xấp xỉ số lượng bitcoin mà công ty sở hữu vào thời điểm đó. Con số 42 là câu trả lời cho "câu hỏi lớn về cuộc sống, Vũ trụ và mọi thứ khác" trong H2G2.
+reviewed: true

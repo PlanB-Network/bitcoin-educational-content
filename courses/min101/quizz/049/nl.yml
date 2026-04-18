@@ -1,0 +1,9 @@
+question: Welk praktisch probleem probeert een mining pool vooral op te lossen?
+answer: De variantie van inkomsten
+wrong_answers:
+  - De moeilijkheidsgraad van het netwerk
+  - De grootte van de blokken
+  - De prijs van ASIC's
+explanation: |
+  Door de hashrate te bundelen, transformeert een pool een zeer onregelmatig inkomen in meer regelmatige betalingen. Dit is een vermindering van de inkomstenvariantie voor de miner.
+reviewed: false

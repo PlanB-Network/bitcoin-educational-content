@@ -1,0 +1,9 @@
+question: Какъв алгоритъм е специално проектиран да изпълнява един Bitcoin ASIC?
+answer: SHA256d
+wrong_answers:
+  - SHA512d
+  - SHA1
+  - SHA512
+explanation: |
+  Биткойн ASIC са специализирани за двойния SHA256, използван от доказателството за работа на Биткойн.
+reviewed: false

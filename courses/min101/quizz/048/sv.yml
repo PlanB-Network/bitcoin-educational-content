@@ -1,0 +1,9 @@
+question: Vilken är den allra första miningpoolen på Bitcoin?
+answer: Braiins Pool
+wrong_answers:
+  - Foundry USA
+  - AntPool
+  - F2Pool
+explanation: |
+  Braiins Pool, tidigare Slush Pool och Bitcoin CZ, är den första miningpoolen på Bitcoin, skapad 2010.
+reviewed: false

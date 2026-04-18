@@ -1,0 +1,9 @@
+question: Qual è l'elemento più importante nella competitività del mining industriale?
+answer: Costo dell'elettricità
+wrong_answers:
+  - Importo dei costi salariali
+  - Qualità ergonomica delle infrastrutture
+  - Costo delle licenze software
+explanation: |
+  Su larga scala, la redditività del mining dipende dal costo per unità di calcolo, che è determinato principalmente dal costo dell'elettricità.
+reviewed: false

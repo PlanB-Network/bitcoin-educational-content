@@ -1,9 +1,9 @@
 question: Koja je najčešće korišćena implementacija Bitcoin čvora?
-answer: Bitcoin core
+answer: Bitcoin Core
 wrong_answers:
   - Bitcoin Knots
   - Bitcoin Classic
   - Bcoin
 explanation: |
-  Sa oko 9 od 10 čvorova na mreži, Bitcoin core je većinski korisnik.
+  Sa oko 9 od 10 čvorova u mreži, Bitcoin Core je većinski klijent.
 reviewed: true

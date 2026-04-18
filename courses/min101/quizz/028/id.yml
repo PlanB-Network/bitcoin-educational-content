@@ -1,0 +1,9 @@
+question: Subsidi blok sesuai dengan apa?
+answer: Penciptaan moneter
+wrong_answers:
+  - Biaya transaksi
+  - Deposit pengguna
+  - Penalti spam
+explanation: |
+  Subsidi adalah bagian dari imbalan yang menciptakan bitcoin baru secara ex nihilo sesuai dengan aturan protokol.
+reviewed: false

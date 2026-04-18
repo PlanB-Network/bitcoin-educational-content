@@ -5,5 +5,5 @@ wrong_answers:
   - Periksa validitas blok
   - Menyampaikan transaksi jaringan
 explanation: |
-  Bitcoin Wallet mengelola kunci privat yang memungkinkan bitcoin dibelanjakan, tetapi tidak menjalankan fungsi node.
+  Bitcoin Wallet mengelola kunci privat yang memungkinkan bitcoin digunakan, tetapi tidak menjalankan fungsi node.
 reviewed: true

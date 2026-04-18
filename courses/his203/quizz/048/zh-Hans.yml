@@ -1,0 +1,10 @@
+question: 2012 年 1 月 6 日，为了 "保护 "Bitcoin 生态系统，卢克-Jr 对加密货币卷币采取了什么有争议的行动？
+answer: 他利用 Eligius mining 池对 Coiledcoin 进行了审查攻击
+wrong_answers:
+  - 他向 GitHub 提交了一份针对 Coinledcoin 的 DMCA 侵权通知，指控其侵犯版权
+  - 他编辑了 Coiledcoin 维基百科页面，公开称其为金字塔骗局
+  - 他在卷币区块链上发布了大量信息，这要归功于 OP_RETURN
+explanation: |
+ 这次审查攻击（空区块 mining）的实施要归功于他在 mining 池中实施的 mining 与 Bitcoin 的组合。他为自己的
+ 他写道，没有任何 Eligius 矿工受到伤害。Luke-Jr 确实向 GitHub 提交了一份 DMCA 侵权通知，但针对的是 SolidCoin。
+reviewed: true

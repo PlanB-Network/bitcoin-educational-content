@@ -1,0 +1,9 @@
+question: Wie heeft Hashcash uitgevonden?
+answer: Adam Back
+wrong_answers:
+  - Nick Szabo
+  - Hal Finney
+  - David Chaum
+explanation: |
+  Hashcash is uitgevonden door Adam Back. Het is het eerste bewijs-van-werk mechanisme.
+reviewed: false

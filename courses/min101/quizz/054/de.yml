@@ -1,0 +1,9 @@
+question: Wie heißt das gemeinsam genutzte öffentliche Register, in dem die Historie der Bitcoin-Zahlungen festgehalten wird?
+answer: Die Blockchain
+wrong_answers:
+  - Der Mempool
+  - Das Wallet
+  - Die Hashrate
+explanation: |
+  Das gemeinsam genutzte öffentliche Buch, das alle Transaktionen enthält, ist die Blockchain.
+reviewed: false

@@ -140,7 +140,7 @@ Bitcoin communities often pursue broader goals, especially public education on:
 
 4. Debunking misleading or baseless claims made by some public figures and media;
 
-5. The fundamental differences between Bitcoin and other crypto-currencies;
+5. The fundamental differences between Bitcoin and other [crypto-currencies](https://planb.academy/resources/glossary/cryptocurrency);
 
 By building the first "citadels" of tomorrow, **Bitcoin communities worldwide serve as a bulwark against disinformation and censorship while providing fertile ground for learning Bitcoin's fundamentals**. They offer newcomers, even skeptics, the resources and connections needed to explore Bitcoin's true potential.
 
@@ -217,7 +217,7 @@ However, **joining forces often makes more sense than splitting nearby communiti
 
 In this sense, a simple "rule of thumb" can help: if there's no active Bitcoin community within 30-45 minutes of where you live, it may be worth starting a new one. That said, you're always free to do as you wish.
 
-And of course, if an older community has "evolved" in a direction that no longer aligns with your values, and you don't have the time or motivation to "orange-pill" them, then creating your own fork is always an option.
+And of course, if an older community has "evolved" in a direction that no longer aligns with your values, and you don't have the time or motivation to "[orange-pill](https://planb.academy/resources/glossary/orange-pill)" them, then creating your own [fork](https://planb.academy/resources/glossary/fork) is always an option.
 
 
 ## What objectives should guide your community?
@@ -981,7 +981,7 @@ But you can't move forward without knowing that **there are platforms where bitc
 
 These include:
 
-- [Btcmap.org](https://btcmap.org/)**, a website with two maps updated daily: **[the world map of businesses accepting Bitcoin](https://btcmap.org/map)** and **[the world communities map](https://btcmap.org/communities/map)**. Many bitcoiners check these maps regularly, whether they're traveling or going about their daily lives, to meet new people or find places to spend their sats. Btcmap is the global reference, and listing your community there is essential for visibility.**
+- [Btcmap.org](https://btcmap.org/)**, a website with two maps updated daily: **[the world map of businesses accepting Bitcoin](https://btcmap.org/map)** and **[the world communities map](https://btcmap.org/communities/map)**. Many bitcoiners check these maps regularly, whether they're traveling or going about their daily lives, to meet new people or find places to spend their [sats](https://planb.academy/resources/glossary/satoshi-sat). Btcmap is the global reference, and listing your community there is essential for visibility.**
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), a website created by bitcoiners, for bitcoiners. **It lets you post your community's upcoming events**. In France, however, it's still not widely used.
 - depending on your country, there may be other local initiatives. In France, for example, there's [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), which **lists dozens of Bitcoin events every month**. So if you haven't yet followed them on Twitter or contacted them to share information about your community and events, now's the time! **To help keep the French events calendar up to date, it would be great if all French Bitcoin communities got into the habit of:**
     - mentioning @bitcoinpointfr on Twitter for every new community event
@@ -1270,7 +1270,7 @@ Beyond its strong educational value, this approach makes it possible to share op
 
 Below is the 2023-2024 French meetup progression. For each theme, an open-source presentation and a video are available, which may give you ideas for topics you could cover for your own events.
 
-Additional editable materials can also be found in the [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)!
+Other resources are also available in the ["Educator Content"](https://planb.academy/educator-content) section of Plan ₿ Academy, a collaborative space where Bitcoin educators from around the world share and make available their educational materials (presentations, flyers, guides, posters...) in ready-to-use or editable formats. The goal: pool efforts to avoid starting from scratch each time!
 
 
 | Month | Theme | Video | Editable Resource |
@@ -1356,7 +1356,7 @@ In private venues like concerts, bars, or stadiums, check if stickers are alread
 
 Another project you can easily set up is **creating a library at your meet-ups**.
 
-You could invite participants who wish to share their reading material to bring a Bitcoin-related book. If someone else at the meet-up wants to borrow it, a loan could be arranged with the owner in exchange for a deposit, for example, 21,000 satoshis via Lightning.
+You could invite participants who wish to share their reading material to bring a Bitcoin-related book. If someone else at the meet-up wants to borrow it, a loan could be arranged with the owner in exchange for a deposit, for example, 21,000 satoshis via [Lightning](https://planb.academy/resources/glossary/lightning-network).
 
 For the owner, this deposit helps cover potential loss or theft. For the borrower, it's an incentive to come back to a future meet-up to retrieve their deposit.
 
@@ -1809,7 +1809,7 @@ With this surge in attendance:
     - it might be worth **finding a larger venue for your meetups and events**, especially if you've only been able to host around twenty people in the past.
     - if you find that the number of attendees becomes overwhelming, you can, for future meetups, either **require participants to register** (via the Meetup app or a simple form) or **hold multiple meetups each month** (for example: a beginner meetup, an intermediate one, and an advanced one).
     - At the same time, expect a lot of newcomers to the ecosystem, often with the main goal of making money. To **keep conversations focused on Bitcoin** in these fast-growing meetups, it's a good idea to:
-        a) Include a **Bitcoin-themed presentation** during these events, as this will naturally steer much of the conversation toward that topic (and away from the latest supposedly "revolutionary" shitcoin project);
+        a) Include a **Bitcoin-themed presentation** during these events, as this will naturally steer much of the conversation toward that topic (and away from the latest supposedly "revolutionary" [shitcoin project](https://planb.academy/resources/glossary/shitcoin));
         b) **Avoid sticking only with fellow bitcoiners**. Instead, make a point of **approaching newcomers**, even if that means hanging out at the back of the room to greet them. From there, you can talk about why they came, what they're looking for, the goals (or even the core principles) of your community, and so on.
 
 Finally, though it's unfortunate to have to say it, scammers can show up at meetups. Their goal might be to talk endlessly about their Ponzi scheme, MLM, or some "blockchain revolution powered by AI." It's also entirely possible that one day, someone with bad intentions might attend specifically to launder money or try to buy BTC with counterfeit bills.
@@ -1822,7 +1822,7 @@ Thankfully, these situations are rare and often more absurd than threatening, bu
 
 For peace of mind: as long as you're not personally breaking the law or directly facilitating illegal transactions, you aren't legally responsible for others' actions at your event (at least under French law).
 
-In an ideal world, you'd have a **space big enough to host several dozen people** as your community grows and you'd also build **strong relationships between bitcoiners** and future bitcoiners during the bear market, so that when the bull run comes, you have as many people as possible ready to orange pill others.
+In an ideal world, you'd have a **space big enough to host several dozen people** as your community grows and you'd also build **strong relationships between bitcoiners** and future bitcoiners during the [bear market](https://planb.academy/resources/glossary/bear-market), so that when the [bull run](https://planb.academy/resources/glossary/bull-market) comes, you have as many people as possible ready to orange pill others.
 
 
 ## Decentralizing community organization

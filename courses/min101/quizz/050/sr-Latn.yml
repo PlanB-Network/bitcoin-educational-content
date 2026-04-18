@@ -1,0 +1,9 @@
+question: Kada transakcije u bloku postaju potvrđene?
+answer: Kada se blok doda u blockchain
+wrong_answers:
+  - Kada rudar potpiše transakciju
+  - Kada čvor emituje transakciju
+  - Kada rudar počne da traži dokaz
+explanation: |
+  Potvrda plaćanja na Bitcoin mreži je posledica dodavanja bloka koji sadrži to plaćanje u blockchain.
+reviewed: false

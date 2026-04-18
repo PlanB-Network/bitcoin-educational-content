@@ -1,0 +1,10 @@
+question: Bellek yoğun Scrypt işlevini 2011 yılında Tenebrix kripto para biriminde GPU'ya dayanıklı bir mining algoritması olarak kim uyguladı?
+answer: ArtForz
+wrong_answers:
+  - Charlie Lee
+  - Lolcust
+  - Colin Percival
+explanation: |
+ Scrypt ilk olarak 2009 yılında Kanadalı bilgisayar bilimcisi Colin Percival tarafından tasarlanmış bir anahtar türetme fonksiyonudur. Madenci ArtForz tarafından alındı ve
+ Lolcust, Eylül 2011'de piyasaya sürülen Tenebrix kripto para birimini geliştirdi. Charlie Lee, Ekim ayında piyasaya sürülen Litecoin'e dahil edilmek üzere modeli ele aldı.
+reviewed: true

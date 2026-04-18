@@ -1,0 +1,9 @@
+question: Mikä on noncen koko lohkon otsakkeessa?
+answer: 32 bittiä
+wrong_answers:
+  - 128 bittiä
+  - 64 bittiä
+  - 256 bittiä
+explanation: |
+  Nonce on 32-bittinen kenttä otsakkeessa.
+reviewed: false

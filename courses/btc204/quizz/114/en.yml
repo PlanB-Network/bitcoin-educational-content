@@ -1,4 +1,4 @@
-question: Why won't the analyst apply COINJOIN on a Stonewall-type transaction?
+question: Why won't the analyst apply CIOH to a Stonewall type transaction?
 
 answer: Because there are 2 outputs of the same amount
 
@@ -8,6 +8,7 @@ wrong_answers:
   - Because there are more outputs than inputs
 
 explanation: |
-  Analyzing a Stonewall transaction from the outside does not lead to the application of COINJOIN, because the presence of two outputs of the same amount suggests a coinjoin pattern. From an external viewpoint, COINJOIN is therefore not applicable in this specific case.
+
+  Analyzing a Stonewall transaction from the outside does not lead to the application of CIOH, because the presence of two outputs of the same amount suggests a coinjoin pattern. From an external point of view, CIOH is therefore not applicable in this specific case.
 
 reviewed: true

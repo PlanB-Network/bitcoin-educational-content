@@ -56,13 +56,14 @@ proofreading:
     urgency: 1
     contributor_names:
       - TinF0ilHat
-      - 'f205sats '
+      - f205sats
     reward: 0
   - language: ja
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 72.5
+      - yutaro21jp
+    reward: 36.25
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -119,10 +120,11 @@ proofreading:
     contributor_names:
     reward: 58.02
   - language: hi
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 72.5
+      - e-manuel7
+    reward: 36.25
   - language: sw
     last_contribution_date: 2025-12-04
     urgency: 1

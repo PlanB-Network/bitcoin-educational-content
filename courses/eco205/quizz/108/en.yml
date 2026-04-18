@@ -1,0 +1,8 @@
+question: According to Menger, what economic situation requires the spontaneous emergence of exchange intermediaries in an economy that goes beyond the restricted circle?
+answer: The impossibility of satisfying the double coincidence of needs in direct bartering
+wrong_answers:
+  - Trade-distorting price manipulation by central authorities
+  - "Excessive accumulation of goods by the richest agents"
+  - Forced standardization of goods by government institutions
+explanation: |
+  Menger explains that in an extended barter economy, economic agents must find partners with exactly the goods they need, creating a condition of double coincidence of needs. This constraint becomes impossible to satisfy beyond a restricted circle of exchange, leading naturally to the adoption of certain goods as preferred intermediaries. The other options evoke external interventions or distribution problems that do not correspond to the Austrian analysis of the spontaneous emergence of money.

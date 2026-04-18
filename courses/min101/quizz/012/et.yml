@@ -1,0 +1,9 @@
+question: Kui raskusastme sihtväärtus väheneb, siis mis juhtub kaevandamisega?
+answer: See muutub raskemaks
+wrong_answers:
+  - See muutub kergemaks
+  - See jääb samaks
+  - See muutub võimatuks
+explanation: |
+  Madalam sihtväärtus jätab künnise alla vähem võimalikke tulemusi, seega on kehtiva räsi leidmiseks vaja rohkem katseid. See tähendab, et kaevandamine on raskem.
+reviewed: false

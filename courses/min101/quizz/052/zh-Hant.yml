@@ -1,0 +1,9 @@
+question: 簡單來說，比特幣上的區塊是什麼？
+answer: 一組交易包
+wrong_answers:
+  - 一筆支付
+  - 一個中心伺服器
+  - 一個私鑰
+explanation: |
+  簡單來說，一個區塊就是一組被打包在一起的交易。
+reviewed: false

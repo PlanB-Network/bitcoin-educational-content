@@ -1,0 +1,10 @@
+question: Na jakou úroveň klesla cena bitcoinu na konci medvědího trhu, který následoval po velké bublině v roce 2011?
+answer: 2 $
+wrong_answers:
+  - 0,01 $
+  - 6 $
+  - 17,5 $
+explanation: |
+ Po dosažení nejvyšší hodnoty 32 dolarů v červnu 2011 cena bitcoinu začátkem srpna drasticky klesla na 6 dolarů, poté pokračovala v poklesu a nakonec dosáhla přibližně 2 dolarů v roce
+ Listopadu 2011. To představovalo pokles o více než 90 % oproti červnovému vrcholu.
+reviewed: true

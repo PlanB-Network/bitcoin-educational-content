@@ -357,7 +357,7 @@ La democracia ateniense representa una ruptura importante con las tradiciones pa
 
 El historiador Jean-Pierre Vernant escribe:
 
-> La emergencia de la polis constituye, en la historia del pensamiento griego, un evento decisivo. Ciertamente, en términos de desarrollo intelectual y en el ámbito de las instituciones, sus consecuencias completas solo se realizarían a largo plazo; la polis pasaría por múltiples etapas, diversas formas. Sin embargo, desde su advenimiento, que puede situarse entre los siglos 7 y 8, marca un comienzo, una verdadera invención; a través de ella, la vida social y las relaciones entre los hombres adquieren una nueva forma, cuya originalidad los griegos sentirían plenamente. (...) Lo que el sistema de la polis implica ante todo es una preeminencia extraordinaria del discurso sobre todos los demás instrumentos de poder. Se convierte en la herramienta política por excelencia, la clave de toda autoridad en el estado, el medio de mando y dominación sobre otros. (...) Una segunda característica de la polis es la naturaleza de plena publicidad dada a las manifestaciones más importantes de la vida social. Incluso se podría decir que la polis existe solo en la medida en que ha surgido un dominio público, en dos sentidos diferentes, pero interconectados del término: un sector de interés común, en oposición a los asuntos privados; prácticas abiertas, establecidas a plena luz del día, en oposición a procedimientos secretos. (...) De ahora en adelante, la discusión, la argumentación, la controversia se convierten en las reglas del juego intelectual, así como del juego político. El control constante de la comunidad se ejerce sobre las creaciones de la mente, así como sobre las magistraturas del estado.
+> La emergencia de la polis constituye, en la historia del pensamiento griego, un evento decisivo. Ciertamente, en términos de desarrollo intelectual y en el ámbito de las instituciones, sus consecuencias completas solo se realizarían a largo plazo; la polis pasaría por múltiples etapas, diversas formas. Sin embargo, desde su advenimiento, que puede situarse entre los siglos 8 y 7, marca un comienzo, una verdadera invención; a través de ella, la vida social y las relaciones entre los hombres adquieren una nueva forma, cuya originalidad los griegos sentirían plenamente. (...) Lo que el sistema de la polis implica ante todo es una preeminencia extraordinaria del discurso sobre todos los demás instrumentos de poder. Se convierte en la herramienta política por excelencia, la clave de toda autoridad en el estado, el medio de mando y dominación sobre otros. (...) Una segunda característica de la polis es la naturaleza de plena publicidad dada a las manifestaciones más importantes de la vida social. Incluso se podría decir que la polis existe solo en la medida en que ha surgido un dominio público, en dos sentidos diferentes, pero interconectados del término: un sector de interés común, en oposición a los asuntos privados; prácticas abiertas, establecidas a plena luz del día, en oposición a procedimientos secretos. (...) De ahora en adelante, la discusión, la argumentación, la controversia se convierten en las reglas del juego intelectual, así como del juego político. El control constante de la comunidad se ejerce sobre las creaciones de la mente, así como sobre las magistraturas del estado.
 
 > (Jean Pierre Vernant, _Los orígenes del pensamiento griego_, París, P.U.F, 1962)
 
@@ -617,9 +617,9 @@ La idea cristiana de libertad se desarrolló en la teología medieval de San Agu
 
 Desde el principio, el cristianismo enseña que el pecado es un asunto personal, no inherente al grupo, sino que cada individuo debe asumir la responsabilidad de su propia salvación. "Dios ha dotado a su criatura, con libre albedrío, la capacidad de hacer el mal, y por lo tanto, la responsabilidad del pecado", afirma San Agustín en su tratado sobre el libre albedrío, _De Libero Arbitrio_.
 El pecado no puede existir sin libertad. De hecho, el Dios cristiano es un juez que premia la "virtud" y castiga el "pecado". Pero esta concepción de Dios es precisamente incompatible con el fatalismo porque una persona no podría ser culpable y hacer su mea culpa si no fuera primero libre para determinar su propio comportamiento. Reconocer la propia falta moral, la propia culpa, es reconocer que se podría haber actuado de manera diferente.
-"¿Por qué hacemos lo incorrecto?" pregunta San Agustín. Si no me equivoco, el argumento ha demostrado que actuamos de esta manera a través del libre albedrío. Pero este libre albedrío al que debemos nuestra capacidad de pecar, estamos convencidos, me pregunto si aquel que nos creó hizo bien en dárnoslo. Parece, de hecho, que no habríamos estado expuestos al pecado si nos hubiera sido privado; pero se teme que, de esta manera, Dios también aparece como el autor de nuestras malas acciones. (_De libero arbitrio_, I, 16, 35.)
+"¿Por qué hacemos lo incorrecto?" pregunta San Agustín. Si no me equivoco, el argumento ha demostrado que actuamos de esta manera a través del libre albedrío. Pero este libre albedrío al que debemos nuestra capacidad de pecar, estamos convencidos, me pregunto si Aquel que nos creó hizo bien en dárnoslo. Parece, de hecho, que no habríamos estado expuestos al pecado si nos hubiera sido privado; pero se teme que, de esta manera, Dios también aparece como el autor de nuestras malas acciones. (_De libero arbitrio_, I, 16, 35.)
 
-Si Dios quería que el hombre pudiera hacer el mal, ¿No es él entonces indirectamente responsable del mal? ¿Por qué Dios quiso la posibilidad del mal? San Agustín responde:
+Si Dios quería que el hombre pudiera hacer el mal, ¿no es Él entonces indirectamente responsable del mal? ¿Por qué Dios quiso la posibilidad del mal? San Agustín responde:
 
 > el libre albedrío sin el cual nadie puede vivir bien, debes reconocer que es un bien, y que es un regalo de Dios, y que aquellos que hacen mal uso de este bien deberían ser condenados en lugar de decir de aquel que lo dio que no debería haberlo dado.
 
@@ -669,14 +669,14 @@ En la Edad Media, la razón y la fe compiten por el acceso a la verdad. Siguiend
 Toma de la idea de Aristóteles de un orden natural autónomo, independiente del orden celestial. Este orden natural es, de hecho, trascendido por el orden sobrenatural, pero existe por separado y es anterior a él. Por lo tanto, para él, hay dos formas de acceder a la verdad sobre el mundo y particularmente sobre Dios:
 
 - Por un lado, la **razón**, que parte de la naturaleza, de la experiencia sensible, que desarrolla ideas y alcanza certezas racionales a través de su razonamiento.
-- Por otro, la **fe** que parte de una revelación, es decir, un texto sagrado inspirado por Dios. El enfoque es opuesto, no es la realidad o una característica humana (el pensamiento) lo que lleva a certezas sino verdades dadas desde arriba por Dios que explicarán la realidad.
+- Por otro, la **fe** que parte de una Revelación, es decir, un texto sagrado inspirado por Dios. El enfoque es opuesto, no es la realidad o una característica humana (el pensamiento) lo que lleva a certezas sino verdades dadas desde arriba por Dios que explicarán la realidad.
 
 ¿Cómo reconciliar entonces las dos? En la Edad Media, se pueden identificar dos tradiciones de articular la relación entre razón/fe: el misticismo y el racionalismo religioso.
 
 ### La rivalidad entre el misticismo y el racionalismo religioso
 
 El misticismo consiste en excluir la razón de la fe. La fe es absoluta, más allá del razonamiento, y nunca debería estar sujeta a la razón. Si contradice a la razón, eso es normal, y tratar de encajar las verdades reveladas en el marco de la razón es herejía. Dios está bien más allá de la razón, en otras palabras, no tiene sentido tratar de explicarlo. Por lo tanto, la filosofía está muy mal vista. Dios incluso estaría más allá del lenguaje humano: Sería el innombrable, el totalmente Otro. Su voluntad es absoluta y arbitraria. Por lo tanto, no se debe buscar entender por qué Dios hizo esto o aquello, la obediencia es la única actitud apropiada.
-En el Islam, también se dice que no se debe representar a Dios ni darle una imagen. En el mundo cristiano, un místico como Meister Eckhart escribió notablemente en un Sermón: "Todas las cosas tienen un porqué, pero Dios no tiene porqué." Para los místicos, la única filosofía válida es la que viene directamente de la revelación. Cualquier cosa que no provenga de ella no es ni verdadera ni falsa sino carente de cualquier valor de verdad.
+En el Islam, también se dice que no se debe representar a Dios ni darle una imagen. En el mundo cristiano, un místico como Meister Eckhart escribió notablemente en un Sermón: "Todas las cosas tienen un porqué, pero Dios no tiene porqué." Para los místicos, la única filosofía válida es la que viene directamente de la Revelación. Cualquier cosa que no provenga de ella no es ni verdadera ni falsa sino carente de cualquier valor de verdad.
 El opuesto directo de este pensamiento es el que afirma que solo la razón tiene razón, y que toda fe es absurda. Esto es el racionalismo absoluto, que conduce al ateísmo. Sin embargo, tal corriente aún no había surgido en la Edad Media.
 Para los proponentes del racionalismo religioso, existe una complementariedad entre la razón y la fe: esta es la posición intermedia. La verdad puede ser conocida tanto por la fe como por la razón. Y así, lo que es verdadero en la fe también debe ser verdadero en la razón, y viceversa. La verdad es una pero es accesible de dos maneras. Por lo tanto, hay dos ciencias que no pueden contradecirse entre sí sino complementarse: La ciencia natural o filosofía y la ciencia sagrada o teología. Si esto no es así, si aparece una contradicción entre razón y fe, es o bien que uno razona mal, o que uno interpreta mal las Escrituras.
 Así, para Tomás de Aquino, "La fe es el asentimiento de la razón movida por la voluntad en ausencia de evidencia". En otras palabras, la razón es capaz de aprehender el mundo y a Dios, racionalmente, hasta cierto punto. En este punto, no encuentra más evidencia. La voluntad puede entonces elegir creer, y así avanzar hacia la verdad por la fe, o no creer. Pero la fe no es un salto hacia lo absurdo, no es una humillación de la razón.
@@ -759,8 +759,8 @@ La encarnación más conocida de esta doctrina emergente es la Escuela de Salama
 El descubrimiento de las Américas constituyó un verdadero choque cultural, una primera brecha en el unanimismo político-religioso heredado de la Antigüedad. La famosa controversia sobre los derechos de los indios dividió de hecho a los teólogos en dos campos opuestos e irreconciliables.
 
 En un campo, estaban los proponentes del monolitismo cultural y el principio de coerción. Para ellos, los indios vivían fuera del mensaje bíblico. Esto podría significar que Dios no quería revelarse a ellos. ¿Por qué? Dos hipótesis son entonces concebibles: 1° Son grandes pecadores (canibalismo) 2° Son atrasados y están más cerca de la bestia que del hombre. Por eso tienen derecho a tratarlos como esclavos y tomar sus tierras por la fuerza, bajo el argumento de que son tanto infieles como bárbaros.
-En el otro bando, estaban los proponentes del pluralismo y las libertades civiles: Estos son los teólogos de la Escuela de Salamanca, discípulos de San Tomás. Según Francisco de Vitoria y Bartolomé de Las Casas, se deben reconocer derechos para los indígenas como seres humanos y no porque hayan adherido o no a la fe católica. No solo no deberían ser convertidos por la fuerza, sino que tampoco se deberían tomar sus posesiones, ni deberían ser sometidos a ninguna forma de esclavitud. Su argumentación se basa en la concepción tomista de la ley natural, distinta de la ley divina.
-En la _Summa Theologica_, San Tomás plantea la siguiente pregunta: ¿Debe uno obedecer a un Príncipe infiel, que no cree en Dios? Y él responde que sí, porque la autoridad legítima es por derecho natural, y la infidelidad o el ateísmo del Príncipe no es razón para la rebelión. El orden político es primordialmente un orden natural. Además, pregunta: ¿Debería hacerse la guerra a los infieles y la fe impuesta a ellos? Responde que no: Una guerra es justa solo si es defensiva. Finalmente, la fe solo puede ser un acto libre.
+En el otro bando, estaban los proponentes del pluralismo y las libertades civiles: Estos son los teólogos de la Escuela de Salamanca, discípulos de Santo Tomás. Según Francisco de Vitoria y Bartolomé de Las Casas, se deben reconocer derechos para los indígenas como seres humanos y no porque hayan adherido o no a la fe católica. No solo no deberían ser convertidos por la fuerza, sino que tampoco se deberían tomar sus posesiones, ni deberían ser sometidos a ninguna forma de esclavitud. Su argumentación se basa en la concepción tomista de la ley natural, distinta de la ley divina.
+En la _Summa Theologica_, Santo Tomás plantea la siguiente pregunta: ¿Debe uno obedecer a un Príncipe infiel, que no cree en Dios? Y él responde que sí, porque la autoridad legítima es por derecho natural, y la infidelidad o el ateísmo del Príncipe no es razón para la rebelión. El orden político es primordialmente un orden natural. Además, pregunta: ¿Debería hacerse la guerra a los infieles y la fe impuesta a ellos? Responde que no: Una guerra es justa solo si es defensiva. Finalmente, la fe solo puede ser un acto libre.
 Los eruditos de Salamanca aplicaron este razonamiento al caso de los pueblos indígenas: La propiedad es un derecho natural. Por lo tanto, tomar tierras de los pueblos indígenas es cometer un robo, igual como si fueran cristianos. Tampoco es permisible hacerles la guerra dado que no hay agresión por su parte, sino más bien por la nuestra.
 
 ![image](assets/es/045.webp)
@@ -800,7 +800,7 @@ Pirenne observa que estas prácticas, aunque presentes en otras regiones de Euro
 
 ### El problema de los préstamos con interés
 
-Las escrituras condenan los préstamos con interés, llamados usura, considerando que prestar dinero con interés equivalía a explotar a los prestatarios vulnerables. Sin embargo, en la práctica, la Iglesia hizo la vista gorda al respecto.
+Las Escrituras condenan los préstamos con interés, llamados usura, considerando que prestar dinero con interés equivalía a explotar a los prestatarios vulnerables. Sin embargo, en la práctica, la Iglesia hizo la vista gorda al respecto.
 
 ![image](assets/es/047.webp)
 
@@ -880,7 +880,7 @@ En la _Décima Carta_, "Sobre el Comercio", Voltaire describe la mentalidad fran
 
 ### La Verdad Requiere Libertad
 
-Sin embargo, Francia no carecía de grandes mentes. Es poco conocido pero Anne Robert Jacques Turgot, Barón de Laulne fue ante todo un pensador líder antes de convertirse en el controlador general de finanzas bajo Luis XVI. Fue el autor de un tratado magistral sobre economía política, _Reflexiones sobre la Formación y Distribución de la Riqueza_ (1766), precediendo a _La Riqueza de las Naciones_ de Adam Smith (1776).
+Sin embargo, Francia no carecía de grandes mentes. Es poco conocido pero Anne Robert Jacques Turgot, Barón de Laulne fue ante todo un pensador líder antes de convertirse en el Controlador General de Finanzas bajo Luis XVI. Fue el autor de un tratado magistral sobre economía política, _Reflexiones sobre la Formación y Distribución de la Riqueza_ (1766), precediendo a _La Riqueza de las Naciones_ de Adam Smith (1776).
 
 ![image](assets/es/052.webp)
 
@@ -903,7 +903,7 @@ El liberalismo económico a menudo se asocia con una tradición anglosajona que 
 
 ![image](assets/es/053.webp)
 
-Fue en reacción al mercantilismo y, más ampliamente, a las ideas del antiguo régimen que nació la ciencia económica en Francia. Con el Iluminismo llegó un período en el que los filósofos comenzaron a llamarse a sí mismos "economistas", estos eran los fisiócratas.
+Fue en reacción al mercantilismo y, más ampliamente, a las ideas del Antiguo Régimen que nació la ciencia económica en Francia. Con el Iluminismo llegó un período en el que los filósofos comenzaron a llamarse a sí mismos "economistas", estos eran los fisiócratas.
 
 Ellos sentaron las bases de la economía liberal. Los principales representantes de la escuela fisiocrática son François Quesnay, el Marqués de Mirabeau, Lemercier de la Rivière, Abbé Nicolas Baudeau, Louis-Paul Abeille y Pierre-Samuel Dupont de Nemours.
 
@@ -1020,7 +1020,7 @@ El autor se cuida de distinguir entre la sociedad civil y el Estado:
 
 El éxito del libro es inmenso. Vendió unas 100,000 copias en unos pocos meses, en un país de tres millones de habitantes y contribuye a avivar el sentimiento de independencia americano.
 
-Thomas Paine, a través de su panfleto, jugó un papel crucial en la Revolución Americana y en inspirar los ideales de libertad y democracia. Influenció directamente la declaración de independencia americana adoptada unos meses después.
+Thomas Paine, a través de su panfleto, jugó un papel crucial en la Revolución Americana y en inspirar los ideales de libertad y democracia. Influenció directamente la Declaración de Independencia Americana adoptada unos meses después.
 
 ### El Congreso de Filadelfia
 
@@ -1084,7 +1084,7 @@ Pero la cuestión del origen de la soberanía no es la única. La reflexión pue
 
 ### La teoría del poder limitado
 
-Uno de los filósofos de la Ilustración cuya influencia fue muy fuerte en Francia y América es John Locke. Fue la inspiración detrás de los padres fundadores de los Estados Unidos pero también de la declaración de los derechos del hombre y del ciudadano en 1789
+Uno de los filósofos de la Ilustración cuya influencia fue muy fuerte en Francia y América es John Locke. Fue la inspiración detrás de los Padres Fundadores de los Estados Unidos pero también de la Declaración de los Derechos del Hombre y del Ciudadano en 1789
 
 ![image](assets/es/064.webp)
 
@@ -1138,7 +1138,7 @@ Además, como había predicho Dupont de Nemours, la emisión de moneda falsa sol
 
 ![image](assets/es/068.webp)
 
-En 1795, cinco años después de la primera emisión, el dinero en papel había perdido el 99% de su valor. La Revolución Francesa continuó bajo el directorio hasta 1799, cuando Napoleón tomó el poder a través de un golpe de estado. Se convirtió en el Primer Cónsul de la República Francesa antes de ser coronado Emperador en 1804. Esta fue una de las primeras contradicciones flagrantes con la declaración de los derechos del hombre, que proclamaba que la propiedad privada era inviolable.
+En 1795, cinco años después de la primera emisión, el dinero en papel había perdido el 99% de su valor. La Revolución Francesa continuó bajo el directorio hasta 1799, cuando Napoleón tomó el poder a través de un golpe de estado. Se convirtió en el Primer Cónsul de la República Francesa antes de ser coronado Emperador en 1804. Esta fue una de las primeras contradicciones flagrantes con la Declaración de los Derechos del Hombre, que proclamaba que la propiedad privada era inviolable.
 
 ![image](assets/es/069.webp)
 
@@ -1241,7 +1241,7 @@ El autor de _La Democracia en América_ nos advierte:
 
 El derecho al trabajo es un buen ejemplo de las derivas del igualitarismo democrático. En un discurso ante la Asamblea Constituyente en 1848, Tocqueville se pronunció en contra del derecho al trabajo en el proyecto de constitución. Si el Estado se compromete a proporcionar trabajo para todos los trabajadores, argumentó, o si asegura que siempre lo encuentren en el mercado laboral, como quieren los socialistas, se verá llevado a convertirse en "el gran y único organizador del trabajo".
 
-En este discurso, Tocqueville compara el socialismo con el antiguo régimen, para quien "sus súbditos son seres enfermos y débiles que siempre deben ser sostenidos de la mano, para que no caigan o se lastimen". El socialismo es así "una nueva forma de servidumbre" por tres razones:
+En este discurso, Tocqueville compara el socialismo con el Antiguo Régimen, para quien "sus súbditos son seres enfermos y débiles que siempre deben ser sostenidos de la mano, para que no caigan o se lastimen". El socialismo es así "una nueva forma de servidumbre" por tres razones:
 
 1. Moralmente, el socialismo promueve la irresponsabilidad a través de su control estatal directivo y colectivista. Siempre se caracteriza por "un profundo desprecio por el individuo como tal".
 

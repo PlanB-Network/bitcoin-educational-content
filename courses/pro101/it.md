@@ -62,7 +62,7 @@ Durante il corso, i partecipanti utilizzeranno strumenti chiave che aiuteranno l
 
 :::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
-Benvenuti alla prima lezione del programma didattico **Cubo Plus**. Oggi ci immergiamo nel mondo del Bitcoin, guidati da Rikki, il fondatore del **Bitcoin Italia Podcast**. Rikki è un appassionato attivista per i diritti umani che utilizza il Bitcoin come strumento per proteggere e promuovere i diritti umani. Con oltre sei anni di esperienza, Rikki ha viaggiato molto, documentando l'adozione del Bitcoin in mercati emergenti come El Salvador e Guatemala. Il suo lavoro va oltre il podcast; è anche attivo su YouTube (**Bitcoin Explorers**) e Twitter (**BTC Explorer**, **Rikki6**). La passione di Rikki per il Commitment deriva dalla sua convinzione che il Bitcoin offra libertà finanziaria e privacy, sfidando i sistemi bancari tradizionali e centralizzati.
+Benvenuto alla prima lezione del programma didattico **Cubo Plus**. Oggi ci immergiamo nel mondo del Bitcoin, guidati da Rikki, il fondatore del **Bitcoin Italia Podcast**. Rikki è un appassionato attivista per i diritti umani che utilizza il Bitcoin come strumento per proteggere e promuovere i diritti umani. Con oltre sei anni di esperienza, Rikki ha viaggiato molto, documentando l'adozione del Bitcoin in mercati emergenti come El Salvador e Guatemala. Il suo lavoro va oltre il podcast; è anche attivo su YouTube (**Bitcoin Explorers**) e Twitter (**BTC Explorer**, **Rikki6**). La passione di Rikki per il Commitment deriva dalla sua convinzione che il Bitcoin offra libertà finanziaria e privacy, sfidando i sistemi bancari tradizionali e centralizzati.
 
 
 ![Unbanked Population](assets/en/001.webp)
@@ -405,13 +405,13 @@ Bentornati! Nella sessione precedente abbiamo trattato i concetti fondamentali d
 
 **2. Panoramica della sessione pratica**
 
-In questa sessione, Alekos ci guiderà attraverso il processo di configurazione di un nodo Bitcoin utilizzando una virtual machine. Questa esercitazione pratica ha lo scopo di farvi conoscere le fasi di configurazione del vostro nodo per partecipare alla rete Bitcoin.
+In questa sessione, Alekos ci guiderà attraverso il processo di configurazione di un nodo Bitcoin utilizzando una virtual machine. Questa esercitazione pratica ha lo scopo di farti conoscere le fasi di configurazione del tuo nodo per partecipare alla rete Bitcoin.
 
 
 La gestione di un nodo Bitcoin comporta la convalida di transazioni e blocchi, l'applicazione delle regole di [consenso](https://planb.academy/resources/glossary/consensus) e il supporto della decentralizzazione della rete. La creazione di un nodo garantisce una connessione diretta alla rete Bitcoin, consentendo di contribuire alla sua sicurezza e integrità.
 
 
-In questa lezione troverete una guida per installare e far funzionare il vostro Bitcoin Core, imparare a prune"potoare" la blockchain per risparmiare spazio e iniziare a sperimentare con il software. Alekos vi guiderà passo dopo passo in questo entusiasmante processo.
+In questa lezione troverete una guida per installare e far funzionare il tuo Bitcoin Core, imparare a prune"potoare" la blockchain per risparmiare spazio e iniziare a sperimentare con il software. Alekos ti guiderà passo dopo passo in questo entusiasmante processo.
 
 
 ### Cosa si può fare con Bitcoin Core e i suoi benefici
@@ -426,7 +426,7 @@ Eseguendo Bitcoin Core, si ottiene la capacità di:
 - **usare una versione pruned della Blockchain**: Riduce i requisiti di memoria conservando solo le transazioni più recenti, il che è ideale se lo spazio su disco è limitato.
 - **Utilizzare le funzioni avanzate del wallet**: Gestite i vostri bitcoin con privacy e sicurezza, le chiavi private generate offline e firmare le transazioni in modo sicuro.
 - **Interagire direttamente con il network Bitcoin**: Utilizzando Bitcoin Core, è possibile connettersi direttamente al network senza intermediari, garantendo la massima precisione dei dati.
-- **Beneficiare di una maggiore privacy**: In qualità di operatori del full node, non dovrete affidarvi a servizi esterni, proteggendo la privacy delle vostre transazioni dalla sorveglianza esterna.
+- **Beneficiare di una maggiore privacy**: In qualità di operatori del full node, non dovrete affidarvi a servizi esterni, proteggendo la privacy delle tue transazioni dalla sorveglianza esterna.
 
 
 I vantaggi di gestire un nodo Bitcoin sono sostanziali per qualsiasi bitcoiner dedito. Non solo si contribuisce a proteggere la rete e a rafforzarne la decentralizzazione, ma si migliora anche la propria privacy, si garantisce l'integrità delle proprie transazioni e si assume un ruolo proattivo nell'ecosistema di Bitcoin. La gestione di un nodo è un passo fondamentale per raggiungere la sovranità finanziaria e abbracciare pienamente la natura decentralizzata di Bitcoin.
@@ -524,7 +524,7 @@ Iniziamo con un breve riepilogo dei passaggi necessari per l'installazione di Bi
 
 **Reinstallazione di Bitcoin Core su una cloud virtual machine**
 
-Per iniziare, è necessario reinstallare Bitcoin Core sulla macchina virtuale. Per questa sessione, salteremo la verifica dei binari per risparmiare tempo, ma ricordate che in un ambiente di produzione, la verifica dei binari è un passo fondamentale per garantire la sicurezza.
+Per iniziare, è necessario reinstallare Bitcoin Core sulla macchina virtuale. Per questa sessione, salteremo la verifica dei binari per risparmiare tempo, ma ricorda che in un ambiente di produzione, la verifica dei binari è un passo fondamentale per garantire la sicurezza.
 
 
 **Scaricare e verificare gli hash dei file**
@@ -803,7 +803,7 @@ Seguendo questi passaggi, si otterrà una configurazione C-Lightning perfettamen
 #### Conclusioni e domande
 
 
-In conclusione, oggi abbiamo affrontato i passaggi essenziali per reinstallare Bitcoin Core, seguiti da un'analisi dettagliata dell'installazione e della configurazione di C-Lightning. Se avete domande, non esitate a farle ora o a prepararle per ulteriori chiarimenti nella prossima sessione. Ricordate che l'esperienza pratica è fondamentale, quindi utilizzate la configurazione di Testnet che abbiamo discusso per ottenere maggiori informazioni.
+In conclusione, oggi abbiamo affrontato i passaggi essenziali per reinstallare Bitcoin Core, seguiti da un'analisi dettagliata dell'installazione e della configurazione di C-Lightning. Se hai domande, non esitare a farle ora o a prepararle per ulteriori chiarimenti nella prossima sessione. Ricordati che l'esperienza pratica è fondamentale, quindi utilizza la configurazione di Testnet che abbiamo discusso per ottenere maggiori informazioni.
 
 
 ### Dispositivi di sicurezza e hardware
@@ -817,7 +817,7 @@ In conclusione, oggi abbiamo affrontato i passaggi essenziali per reinstallare B
 #### Introduzione
 
 
-Benvenuti alla nostra lezione sulla sicurezza e sulla configurazione dei dispositivi per Bitcoin. L'attenzione di oggi si concentra sulla comprensione dell'utilizzo degli strumenti di sicurezza, in particolare di Specter desktop Wallet e Ledger Hardware Wallet, e su come configurarli in modo efficace per migliorare la sicurezza di Bitcoin.
+Benvenuto alla nostra lezione sulla sicurezza e sulla configurazione dei dispositivi per Bitcoin. L'attenzione di oggi si concentra sulla comprensione dell'utilizzo degli strumenti di sicurezza, in particolare di Specter desktop Wallet e Ledger Hardware Wallet, e su come configurarli in modo efficace per migliorare la sicurezza di Bitcoin.
 
 
 **Strumenti: Specter desktop Wallet e emulatore Ledger**
@@ -874,7 +874,7 @@ La creazione di un wallet su Specter è semplice. Accedete alla creazione della 
 **Ricezione e monitoraggio delle transazioni**
 
 
-Dopo la configurazione del wallet, ricevere transazioni è semplice come condividere il Wallet Address(l'indirizzo del wallet). Specter consente di monitorare in tempo reale le transazioni in arrivo, assicurandovi di essere sempre aggiornati sullo stato del vostro wallet.
+Dopo la configurazione del wallet, ricevere transazioni è semplice come condividere il Wallet Address(l'indirizzo del wallet). Specter consente di monitorare in tempo reale le transazioni in arrivo, assicurandoti di essere sempre aggiornati sullo stato del tuo wallet.
 
 
 ### Configurazioni avanzate
@@ -889,7 +889,7 @@ Per gli utenti avanzati, l'impostazione di uno Specter daemon remoto può miglio
 **Abilitazione di Tor per la privacy**
 
 
-Per rafforzare la privacy, si consiglia di configurare Specter per utilizzare Tor. Tor rende anonimo il traffico di rete, proteggendo il vostro indirizzo IP dalla potenziale sorveglianza. Questo è particolarmente importante per gli utenti che si preoccupano della privacy e della sicurezza.
+Per rafforzare la privacy, si consiglia di configurare Specter per utilizzare Tor. Tor rende anonimo il traffico di rete, proteggendo il tuo indirizzo IP dalla potenziale sorveglianza. Questo è particolarmente importante per gli utenti che si preoccupano della privacy e della sicurezza.
 
 
 **Connettersi ai nodi remoti in modo sicuro**
@@ -937,13 +937,13 @@ L'installazione di nodi, sia in locale che in remoto, trae vantaggio dall'utiliz
 **Filosofia: autosufficienza nell'apprendimento**
 
 
-Abbracciare una filosofia di autosufficienza. Le competenze pratiche e l'autoapprendimento sono fondamentali e spesso superano i benefici dell'istruzione formale. Impegnatevi in attività pratiche per approfondire la vostra comprensione della sicurezza di Bitcoin.
+Abbracciare una filosofia di autosufficienza. Le competenze pratiche e l'autoapprendimento sono fondamentali e spesso superano i benefici dell'istruzione formale. Impegnati in attività pratiche per approfondire la tua comprensione della sicurezza di Bitcoin.
 
 
 **Considerazioni sulla privacy**
 
 
-Mantenete la privacy evitando i servizi che tracciano o registrano le transazioni. L'anonimato è fondamentale per le operazioni sicure di Bitcoin e un'attenta selezione dei servizi aiuta a proteggere la vostra identità e la cronologia delle transazioni.
+Mantenete la privacy evitando i servizi che tracciano o registrano le transazioni. L'anonimato è fondamentale per le operazioni sicure di Bitcoin e un'attenta selezione dei servizi aiuta a proteggere la tua identità e la cronologia delle transazioni.
 
 
 Questo conclude la nostra lezione sulla sicurezza e sulla configurazione dei dispositivi per Bitcoin utilizzando Specter e Ledger. Sentitevi liberi di fare domande o di chiedere chiarimenti su qualsiasi punto discusso.
@@ -1090,7 +1090,7 @@ In conclusione, affrontare continuamente questi problemi aperti e innovare all'i
 
 :::video id=08101af2-1ded-4f3a-b1db-d4477c6ab63e:::
 
-Benvenuti alla lezione di oggi su **Sicurezza e affidabilità**. Il nostro obiettivo è esplorare la relazione sottile tra questi due aspetti fondamentali della progettazione e dell'applicazione di un sistema in scenari reali.
+Benvenuto alla lezione di oggi su **Sicurezza e affidabilità**. Il nostro obiettivo è esplorare la relazione sottile tra questi due aspetti fondamentali della progettazione e dell'applicazione di un sistema in scenari reali.
 
 
 ### Introduzione al pensiero della sicurezza
@@ -1257,7 +1257,7 @@ In conclusione, l'economia del software open-source è guidata dai contributi de
 
 :::video id=b482b0f0-4468-4eaf-bcd6-eb4748bdfa3a:::
 
-Benvenuti! Oggi ci immergeremo negli aspetti cruciali della crittografia che ogni sviluppatore Bitcoin dovrebbe conoscere. Ci concentreremo sui concetti fondamentali e sulle applicazioni pratiche senza sovraccaricarvi di eccessivi dettagli teorici. L'obiettivo principale è quello di fornirvi le conoscenze necessarie per comprendere, implementare e risolvere efficacemente i meccanismi di crittografia in Bitcoin.
+Benvenuto! Oggi ci immergeremo negli aspetti cruciali della crittografia che ogni sviluppatore Bitcoin dovrebbe conoscere. Ci concentreremo sui concetti fondamentali e sulle applicazioni pratiche senza sovraccaricarti di eccessivi dettagli teorici. L'obiettivo principale è quello di fornirti le conoscenze necessarie per comprendere, implementare e risolvere efficacemente i meccanismi di crittografia in Bitcoin.
 
 
 ### Concetti crittografici fondamentali per gli sviluppatori di Bitcoin
@@ -1332,10 +1332,10 @@ In questa sezione esploreremo l'applicazione di questi concetti nello sviluppo r
 In questa lezione abbiamo esplorato i concetti crittografici fondamentali che sono alla base della sicurezza e delle funzionalità di Bitcoin. Dal ruolo critico delle funzioni hash, dei Merkle Tree e delle firme digitali all'intricata matematica della crittografia a curve ellittiche, questi elementi costituiscono la spina dorsale del network decentralizzato di Bitcoin. Capire questi concetti non significa solo afferrare la teoria, ma anche riconoscere le implicazioni pratiche e le potenziali insidie nello sviluppo reale.
 
 
-Come sviluppatori Bitcoin, è essenziale affrontare le implementazioni crittografiche con cautela e precisione. La sicurezza della rete Bitcoin si basa molto sull'applicazione corretta e sicura di questi principi crittografici. Che si tratti di verificare transazioni, progettare nuove funzionalità o garantire l'integrità della blockchain, una conoscenza approfondita della crittografia vi permetterà di costruire soluzioni più robuste, sicure e innovative all'interno dell'ecosistema Bitcoin.
+Come sviluppatori Bitcoin, è essenziale affrontare le implementazioni crittografiche con cautela e precisione. La sicurezza della rete Bitcoin si basa molto sull'applicazione corretta e sicura di questi principi crittografici. Che si tratti di verificare transazioni, progettare nuove funzionalità o garantire l'integrità della blockchain, una conoscenza approfondita della crittografia ti permetterà di costruire soluzioni più robuste, sicure e innovative all'interno dell'ecosistema Bitcoin.
 
 
-Padroneggiando questi concetti e aderendo alle migliori pratiche, sarete ben attrezzati per contribuire efficacemente allo sviluppo continuo di Bitcoin, garantendone la resilienza e la sicurezza per il futuro.
+Padroneggiando questi concetti e aderendo alle migliori pratiche, sarai ben attrezzato per contribuire efficacemente allo sviluppo continuo di Bitcoin, garantendone la resilienza e la sicurezza per il futuro.
 
 
 ## Modello di governance di Bitcoin
@@ -1601,7 +1601,7 @@ I servizi di Hosted Mining(mining ospitato) possono offrire costi operativi infe
 I protocolli di sicurezza avanzati e l'uso di energia rinnovabile non solo aumentano la redditività, ma contribuiscono anche alla crescita sostenibile dell'ecosistema del mining.
 
 
-In conclusione, il mondo del Bitcoin mining è un settore complesso e sfaccettato che richiede una profonda comprensione delle dinamiche tecniche, strategiche, normative e di mercato. Sia che siate esperti miner o che abbiate appena iniziato, rimanere informati e adattarsi è la chiave per prosperare in questo campo in continua evoluzione. Vi ringrazio per l'attenzione e resto in attesa delle vostre domande e discussioni.
+In conclusione, il mondo del Bitcoin mining è un settore complesso e sfaccettato che richiede una profonda comprensione delle dinamiche tecniche, strategiche, normative e di mercato. Sia che tu sia esperto miner o che tu abbia appena iniziato, rimanere informati e adattarsi è la chiave per prosperare in questo campo in continua evoluzione. Ti ringrazio per l'attenzione e resto in attesa delle tue domande e discussioni.
 
 
 
@@ -1636,11 +1636,11 @@ La comprensione del ruolo dei nodi Bitcoin è fondamentale per chiunque sia coin
 La gestione di un nodo Bitcoin è essenziale per diversi motivi:
 
 
-1. **Verifica**: Eseguendo un nodo, potete verificare voi stessi le transazioni, assicurandovi che il Bitcoin che ricevete sia valido senza affidarvi a terzi.
+1. **Verifica**: Eseguendo un nodo, puoi verificare tu stesso le transazioni, assicurandoti che i bitcoin che ricevete siano validi senza affidarti a terzi.
 
 2. **Partecipazione al consenso**: I nodi svolgono un ruolo cruciale nella determinazione delle regole del network Bitcoin, pertanto la partecipazione al consenso contribuisce a mantenere l'integrità e la sicurezza della blockchain.
 
-3. **Privacy e controllo**: La gestione di un proprio nodo consente di non doversi affidare a nodi esterni, che potrebbero compromettere la vostra privacy tracciando le vostre transazioni e il vostro saldo del wallet.
+3. **Privacy e controllo**: La gestione di un proprio nodo consente di non doversi affidare a nodi esterni, che potrebbero compromettere la tua privacy tracciando le tue transazioni e il tuo saldo del wallet.
 
 
 ### Cosa fa un nodo Bitcoin?
@@ -1760,7 +1760,7 @@ L'UTXO set rappresenta lo stato attuale di Bitcoin, elencando tutti gli output n
 #### Conclusione
 
 
-La gestione di un nodo Bitcoin è un modo efficace per partecipare al network Bitcoin, in quanto consente di verificare le transazioni, mantenere la privacy e contribuire alla sicurezza e alla decentralizzazione della blockchain. Sia che decidiate di gestire un full node o di personalizzare la vostra configurazione riducendo la percentuale di blockchain memorizzata nel nodo, o disabilitando alcuni componenti, la comprensione delle funzioni principali e delle considerazioni sulla sicurezza di un nodo Bitcoin vi consentirà di prendere decisioni informate e di contribuire alla continua evoluzione di Bitcoin.
+La gestione di un nodo Bitcoin è un modo efficace per partecipare al network Bitcoin, in quanto consente di verificare le transazioni, mantenere la privacy e contribuire alla sicurezza e alla decentralizzazione della blockchain. Sia che tu decida di gestire un full node o di personalizzare la tua configurazione riducendo la percentuale di blockchain memorizzata nel nodo, o disabilitando alcuni componenti, la comprensione delle funzioni principali e delle considerazioni sulla sicurezza di un nodo Bitcoin ti consentirà di prendere decisioni informate e di contribuire alla continua evoluzione di Bitcoin.
 
 
 ## Strutture dati di Bitcoin
@@ -2476,7 +2476,7 @@ println!("This is my PSBT finalized: {}", psbt);
 let tx = psbt.extract_tx();
 let tx_id = tx.txid();
 println!("this is my Bitcoin tx: {}", bitcoin::consensus::encode::serialize_hex(&tx));
-println!("this is mny tx id: {}", tx_id);
+println!("this is my tx id: {}", tx_id);
 
 //Broadcast the transaction
 blockchain.broadcast(&tx)?;
@@ -2507,7 +2507,7 @@ Nello sviluppo di progetti Bitcoin, Rust è spesso preferito per la sua sicurezz
 BDK si basa su diverse dipendenze chiave, tra cui Rust-Bitcoin e Rust-Miniscipt. Possono essere impiegate librerie aggiuntive per la gestione dei database e la crittografia.
 
 
-La comprensione di questi componenti, dai nodi portaiafogli Bitcoin, al BDK, consente di navigare nell'ecosistema Bitcoin con maggiore sicurezza e competenza. Questa conoscenza consente di sviluppare applicazioni Bitcoin robuste e sicure, contribuendo alla continua evoluzione di questa tecnologia rivoluzionaria.
+La comprensione di questi componenti, dai nodi, ai portafogli Bitcoin, al BDK, consente di navigare nell'ecosistema Bitcoin con maggiore sicurezza e competenza. Questa conoscenza consente di sviluppare applicazioni Bitcoin robuste e sicure, contribuendo alla continua evoluzione di questa tecnologia rivoluzionaria.
 
 
 # Lightning Network
@@ -2529,13 +2529,13 @@ La comprensione di questi componenti, dai nodi portaiafogli Bitcoin, al BDK, con
 ### Storia dei canali di pagamento
 
 
-Benvenuti alla nostra conferenza sulle moderne soluzioni di pagamento nell'ambito della tecnologia Blockchain. Oggi esploreremo il contesto storico e gli sviluppi principali delle serrature multi-hop (MHL) e di Lightning Network.
+Benvenuto alla nostra conferenza sulle soluzioni di pagamento moderne nell'ambito della tecnologia blockchain. Oggi esploreremo il contesto storico e gli sviluppi principali dei "multi-hops locks" (MHL) e di Lightning Network.
 
 
 #### Panoramica e contesto storico
 
 
-Le chiusure multi-hop (MHL) e Lightning Network sono concetti avanzati della tecnologia Blockchain che facilitano micropagamenti efficienti e sicuri attraverso la rete. Storicamente, la necessità di queste innovazioni è nata dalle inefficienze e dalle limitazioni osservate nella distribuzione iniziale delle tecnologie blockchain, in particolare di Bitcoin. Approfondendo l'argomento, capirete come le strutture basate su topic e gli approcci a strati (layer) abbiano rivoluzionato le transazioni blockchain.
+Le multi-hop locks (MHL) e Lightning Network sono concetti avanzati della tecnologia Blockchain che facilitano micropagamenti efficienti e sicuri attraverso la rete. Storicamente, la necessità di queste innovazioni è nata dalle inefficienze e dalle limitazioni osservate nella distribuzione iniziale delle tecnologie blockchain, in particolare di Bitcoin. Approfondendo l'argomento, capirete come le strutture basate su topic e gli approcci a strati (layer) abbiano rivoluzionato le transazioni blockchain.
 
 
 ### Struttura basata su argomenti
@@ -2596,7 +2596,7 @@ Nelle nostre precedenti discussioni abbiamo trattato i fondamenti dei canali di 
 Per ovviare a queste limitazioni, nel 2012 Manny Rosenfeld ha proposto il concetto di hops centralizzati. Questo modello ha introdotto processori di pagamento centralizzati, come TrustPay, per instradare i pagamenti tra gli utenti. Se da un lato questo metodo può ridurre la necessità di più canali diretti, dall'altro introduce notevoli svantaggi. Gli hops centralizzati presentano problemi di sicurezza, problemi di fiducia, violazioni della privacy, possibilità di truffe, censura e problemi di affidabilità. Gli utenti devono fidarsi di queste entità centralizzate per facilitare le loro transazioni, il che è contrario all'etica della decentralizzazione.
 
 
-### Blocco temporale hashed Contract (HTLC) e implementazione
+### Hashed Time Lock Contracts (HTLC) e implementazione
 
 
 I limiti e gli svantaggi degli hops centralizzati hanno richiesto una soluzione più sicura e decentralizzata. Questa esigenza ha portato allo sviluppo dell'Hashed Time Lock Contract ([HTLC](https://planb.academy/resources/glossary/htlc)), proposto nel 2015 da Joseph Poon e Thaddeus Dreijer come parte di Lightning Network. Gli HTLC combinano i principi dei time lock e degli hash lock per garantire l'atomicità e l'affidabilità delle transazioni. Ciò significa che una transazione o si completa o non si verifica affatto, attenuando i rischi associati ai pagamenti incompleti.
@@ -2947,7 +2947,7 @@ Sono disponibili diversi wallet Lightning, ognuno dei quali risponde a diverse e
 
 
 
-- **Caratteristiche**: Completamente custodial, facile da usare, ma il codiice sorgente è chiuso, con potenziali problemi di privacy.
+- **Caratteristiche**: Completamente custodial, facile da usare, ma il codice sorgente è chiuso, con potenziali problemi di privacy.
 
 
 #### Albi:
@@ -3030,7 +3030,7 @@ I guadagni attraverso le tariffe di instradamento sono in genere minimi, il che 
 
 
 - **Blink Wallet**: Con sede a El Salvador, custodia, richiede un numero di telefono, offre "stable sats", ma mancano delle funzioni avanzate di Lightning Network.
-- **Blitz Wallet**: Open-source, autocustodia, richiede liquidità gestita dall'utente, offre ampie informazioni per i utenti avanzati.
+- **Blitz Wallet**: Open-source, autocustodia, richiede liquidità gestita dall'utente, offre ampie informazioni per gli utenti avanzati.
 - **SwissBitcoinPay**: Progettato per i commercianti, custodia fino a 24 ore, commissioni minime per gli utenti con alti volumi.
 
 
@@ -3150,7 +3150,7 @@ Una delle sfide di Lightning Network è la **ricezione di pagamenti quando l'ute
 
 
 - **Problema pratico**: Gli utenti non possono ricevere pagamenti a meno che il loro nodo non sia online e connesso alla rete, il che rende scomodo l'utilizzo di Lightning come metodo di pagamento quotidiano.
-- **Possibili soluzioni**: Alcune soluzioni includono l'utilizzo di wallet di deposito o l'affidamento a servizi di terze parti che fungono da intermediari per i pagamenti fino a quando il nodo destinatario non sarà online.
+- **Possibili soluzioni**: Alcune soluzioni includono l'utilizzo di wallet custodial o l'affidamento a servizi di terze parti che fungono da intermediari per i pagamenti fino a quando il nodo destinatario non sarà online.
 
 
 #### **Dal punto di vista dello sviluppatore:**
@@ -3183,7 +3183,7 @@ Il backup dei canali Lightning è fondamentale per gli utenti per recuperare i f
 
 
 - **Problema pratico**: Gli utenti devono assicurarsi che i backup dei loro canali siano aggiornati, poiché l'utilizzo di un backup non aggiornato può comportare la perdita di fondi o una penalizzazione da parte del network.
-- **Possibili soluzioni**: Walleti come Phoenix e altri hanno implementato il backup automatico dei canali, ma queste funzioni non sono ancora diffuse in tutti i wallet Lightning.
+- **Possibili soluzioni**: Wallet come Phoenix e altri hanno implementato il backup automatico dei canali, ma queste funzioni non sono ancora diffuse in tutti i wallet Lightning.
 
 
 #### **Dal punto di vista dello sviluppatore:**
@@ -3372,7 +3372,7 @@ Un'integrazione degna di nota dei pagamenti Lightning è quella di **Nostr**, un
 Un altro protocollo, **RGB**, estende ulteriormente le funzionalità di Lightning consentendo il **trasferimento di asset** attraverso Lightning Network. RGB consente il trasferimento di vari beni, compresi i token, attraverso i canali Lightning, ampliando la portata delle transazioni.
 
 
-*anche i *Lightning Liquidity Service Provider (LSP)** svolgono un ruolo fondamentale nell'estensione dei pagamenti Lightning. Gli LSP forniscono liquidità per la ricezione dei pagamenti, contribuiscono all'apertura di **canali a doppio finanziamento** e garantiscono transazioni senza interruzioni intercettando i pagamenti e aprendo canali al volo.
+Anche i **Lightning Liquidity Service Provider (LSP)** svolgono un ruolo fondamentale nell'estensione dei pagamenti Lightning. Gli LSP forniscono liquidità per la ricezione dei pagamenti, contribuiscono all'apertura di **canali a doppio finanziamento** e garantiscono transazioni senza interruzioni intercettando i pagamenti e aprendo canali al volo.
 
 
  **Definizioni**:

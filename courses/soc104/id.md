@@ -190,7 +190,7 @@ Dia mengamati bahwa umat manusia terbagi secara politis antara mereka yang ingin
 
 
 
-Saat ini, semua partai politik, baik kiri, tengah, maupun kanan, membela hak negara untuk mengatur kehidupan masyarakat dan melakukan keterlibatan dalam hampir semua hal melalui peraturan dan pajak. Di media arus utama, kita melihat pola yang sama, di mana kerangka acuannya didominasi oleh statistik.
+Saat ini, semua partai politik, baik kiri, tengah, maupun kanan, membela hak negara untuk mengatur kehidupan masyarakat dan melakukan intervensi dalam hampir semua hal melalui peraturan dan pajak. Di media arus utama, kita melihat pola yang sama, di mana kerangka acuannya didominasi oleh statistik.
 
 Jadi, apakah model politik tradisional kiri versus kanan perlu ditinggalkan? Dan jika iya, model apa yang seharusnya digunakan sebagai gantinya?
 
@@ -281,7 +281,7 @@ Contoh aktivitas ekonomi: memulai bisnis; membeli rumah; membangun gedung; berbe
 
 
 
-- Di sumbu sebelah kanan** (menuju 100 pada skala Masalah Ekonomi) terdapat preferensi terhadap **kebebasan ekonomi.** Ini berarti keterlibatan negara yang lebih minim dalam perekonomian, peraturan yang lebih sedikit, pajak yang lebih rendah, serta kebebasan yang lebih besar bagi perusahaan dan individu untuk berproduksi, berdagang, dan mengonsumsi. Penekanannya ada pada pasar bebas, kepemilikan pribadi, dan kompetisi sebagai mesin kemakmuran.
+- Di sumbu sebelah kanan** (menuju 100 pada skala Masalah Ekonomi) terdapat preferensi terhadap **kebebasan ekonomi.** Ini berarti intervensi negara yang lebih minim dalam perekonomian, peraturan yang lebih sedikit, pajak yang lebih rendah, serta kebebasan yang lebih besar bagi perusahaan dan individu untuk berproduksi, berdagang, dan mengonsumsi. Penekanannya ada pada pasar bebas, kepemilikan pribadi, dan kompetisi sebagai mesin kemakmuran.
  - Tokoh-tokoh simbolis:* Margaret Thatcher (Inggris), Ronald Reagan (Amerika Serikat), Javier Milei (Argentina).
 
 
@@ -292,7 +292,7 @@ Contoh aktivitas ekonomi: memulai bisnis; membeli rumah; membangun gedung; berbe
 
 
 
-- Di sumbu sebelah kiri** (menuju 0 pada skala Masalah Ekonomi): preferensi untuk **keterlibatan negara yang kuat dalam perekonomian**. Hal ini menyiratkan regulasi, pajak yang tinggi untuk membiayai layanan publik (kesehatan, pendidikan, transportasi), nasionalisasi, dan redistribusi kekayaan. Tujuannya sering kali untuk mengurangi ketidaksetaraan dan menjamin keadilan sosial.
+- Di sumbu sebelah kiri** (menuju 0 pada skala Masalah Ekonomi): preferensi untuk **intervensi negara yang kuat dalam perekonomian**. Hal ini menyiratkan regulasi, pajak yang tinggi untuk membiayai layanan publik (kesehatan, pendidikan, transportasi), nasionalisasi, dan redistribusi kekayaan. Tujuannya sering kali untuk mengurangi ketidaksetaraan dan menjamin keadilan sosial.
   - Tokoh-tokoh lambang:* Franklin D. Roosevelt (AS), Jean Jaurès (Prancis), Bernie Sanders, Barack Obama.
 
 
@@ -439,7 +439,7 @@ Di Eropa dan Amerika Serikat, beberapa kata tertentu tidak lagi memiliki arti ya
 
 
 
-Di Amerika Utara, *liberalisme* diklasifikasikan di sebelah kiri dan disamakan dengan ideologi progresif. Bahkan, kaum *liberal* Amerika telah menjadi pendukung keterlibatan negara dan *Pemerintah Besar*. Evolusi historis ini sangat kontras dengan makna yang terus berlanjut dari istilah liberal dan konservatif di Eropa.
+Di Amerika Utara, *liberalisme* diklasifikasikan di sebelah kiri dan disamakan dengan ideologi progresif. Bahkan, kaum *liberal* Amerika telah menjadi pendukung intervensi negara dan *Pemerintah Besar*. Evolusi historis ini sangat kontras dengan makna yang terus berlanjut dari istilah liberal dan konservatif di Eropa.
 
 
 
@@ -544,7 +544,7 @@ Bagi Friedman, hasil yang terukur - seperti pertumbuhan ekonomi, pengurangan kem
 
 
 
-Definisi **struktural atau praktis**, berfokus pada bagaimana sistem politik bekerja dalam praktiknya, dan pada karakteristik yang dapat diamati. Sebagai contoh, sosialisme dicirikan oleh kecenderungan negara untuk mengambil alih, mengatur, dan merencanakan segalanya. Libertarianisme, di sisi lain, didefinisikan oleh keutamaan yang diberikan kepada individu dan kebebasannya, cenderung ke arah keterlibatan negara yang minimal dalam ekonomi dan di tempat lain.
+Definisi **struktural atau praktis**, berfokus pada bagaimana sistem politik bekerja dalam praktiknya, dan pada karakteristik yang dapat diamati. Sebagai contoh, sosialisme dicirikan oleh kecenderungan negara untuk mengambil alih, mengatur, dan merencanakan segalanya. Libertarianisme, di sisi lain, didefinisikan oleh keutamaan yang diberikan kepada individu dan kebebasannya, cenderung ke arah intervensi negara yang minimal dalam ekonomi dan di tempat lain.
 
 
 
@@ -643,7 +643,7 @@ Menurut Bernie Sanders, *reformasi ini, telah menjadi tatanan sosial bangsa dan 
 
 
 
-- Politik:** Kaum konservatif menganjurkan kontrol sosial tradisional dan keterlibatan negara untuk menegakkan standar sosial dan moral (ketertiban, keamanan, nilai-nilai). Mereka mendukung pertahanan nasional yang kuat dan cenderung mendukung kewenangan polisi yang lebih luas. Sosialisme dipandang sebagai pemutusan hubungan yang brutal dengan peradaban Barat. Kaum konservatif memainkan peran yang menentukan dalam perang melawan komunisme serta dalam penolakan terhadap intervensionisme pemerintah yang berlebihan.
+- Politik:** Kaum konservatif menganjurkan kontrol sosial tradisional dan intervensi negara untuk menegakkan standar sosial dan moral (ketertiban, keamanan, nilai-nilai). Mereka mendukung pertahanan nasional yang kuat dan cenderung mendukung kewenangan polisi yang lebih luas. Sosialisme dipandang sebagai pemutusan hubungan yang brutal dengan peradaban Barat. Kaum konservatif memainkan peran yang menentukan dalam perang melawan komunisme serta dalam penolakan terhadap intervensionisme pemerintah yang berlebihan.
 
 
 
@@ -788,7 +788,7 @@ Namun, keduanya setuju dengan prinsip dasar kedaulatan individu. Ide-ide liberta
 
 
 
-- Politik:** mereka ingin menggabungkan kontrol pemerintah dan pilihan individu untuk pendekatan yang stabil dan moderat. Ini adalah bentuk keterlibatan negara yang fleksibel dan bersifat kasus per kasus. Dalam bentuk pemerintahan teknokratis ini, keputusan politik didasarkan pada rasionalitas dan keahlian, bukan pada ideologi atau perdebatan partisan.
+- Politik:** mereka ingin menggabungkan kontrol pemerintah dan pilihan individu untuk pendekatan yang stabil dan moderat. Ini adalah bentuk intervensi negara yang fleksibel dan bersifat kasus per kasus. Dalam bentuk pemerintahan teknokratis ini, keputusan politik didasarkan pada rasionalitas dan keahlian, bukan pada ideologi atau perdebatan partisan.
 
 
 
@@ -812,7 +812,7 @@ Sentrisme juga mengakui pentingnya program-program sosial yang ditargetkan untuk
 
 
 
-Keynesianisme adalah teori ekonomi yang menganjurkan keterlibatan aktif pemerintah untuk menstabilkan ekonomi.
+Keynesianisme adalah teori ekonomi yang menganjurkan intervensi aktif pemerintah untuk menstabilkan ekonomi.
 
 
 
@@ -1123,7 +1123,7 @@ Masalah ekonomi berkaitan dengan uang, seperti pekerjaan, aktivitas jual beli, i
 
 
 
-- Libertarian:** Ya. Upah minimum adalah keterlibatan buatan yang mendistorsi pasar tenaga kerja, menciptakan pengangguran, dan melanggar kebebasan berkontrak. Pasar seharusnya menentukan upah melalui negosiasi.
+- Libertarian:** Ya. Upah minimum adalah intervensi buatan yang mendistorsi pasar tenaga kerja, menciptakan pengangguran, dan melanggar kebebasan berkontrak. Pasar seharusnya menentukan upah melalui negosiasi.
 
 
 
@@ -1297,7 +1297,7 @@ Konsep *tatanan spontan* dan *tatanan terkonstruksi* sangat penting untuk memaha
 
 Konstruktivisme merujuk pada keinginan untuk membentuk masyarakat berdasarkan rencana tertentu. Pendekatan ini berupaya memaksakan visi masyarakat yang sudah ditentukan sebelumnya melalui tindakan negara atau entitas lain seperti serikat pekerja, LSM, kelompok penekan, atau organisasi internasional.
 
-Kebalikan dari konstruktivisme adalah tatanan spontan, yaitu tatanan yang muncul secara alami dari interaksi bebas antarindividu. Sementara itu, tatanan yang dibangun merupakan hasil keterlibatan yang disengaja dan terencana untuk membentuk masyarakat sesuai visi tertentu, baik yang bersifat konservatif (mempertahankan keadaan) maupun progresif (mendorong perubahan).
+Kebalikan dari konstruktivisme adalah tatanan spontan, yaitu tatanan yang muncul secara alami dari interaksi bebas antarindividu. Sementara itu, tatanan yang dibangun merupakan hasil intervensi yang disengaja dan terencana untuk membentuk masyarakat sesuai visi tertentu, baik yang bersifat konservatif (mempertahankan keadaan) maupun progresif (mendorong perubahan).
 
 Kaum konstruktivis percaya bahwa masyarakat dapat dibangun sesuai dengan kehendak mereka. Sebaliknya, kaum libertarian meyakini bahwa masyarakat terbentuk dengan sendirinya secara tidak terduga melalui proses koordinasi antarindividu.
 
@@ -1645,7 +1645,7 @@ Manifesto Cypherpunk, yang ditulis oleh Eric Hughes pada tahun 1993, merangkum f
 
 
 
-> Privasi sangat penting bagi masyarakat terbuka di era elektronik (...) Kita tidak bisa mengharapkan pemerintah, perusahaan, atau organisasi anonim besar lainnya untuk menjamin privasi kita (...) Tujuanku yang utama untuk Cypherpunks adalah untuk membuat orang mempertahankan privasi mereka, daripada mengandalkan orang lain untuk menyediakannya.
+> Privasi sangat penting bagi masyarakat terbuka di era elektronik (...) Kita tidak bisa mengharapkan pemerintah, perusahaan, atau organisasi anonim besar lainnya untuk menjamin privasi kita (...) Tujuan utama saya untuk Cypherpunks adalah untuk membuat orang mempertahankan privasi mereka, daripada mengandalkan orang lain untuk menyediakannya.
 >
 
 
@@ -1713,7 +1713,7 @@ Dari sudut pandang ini, tanpa secara eksplisit mengklaim sebagai bagian dari kub
 
 
 
-Dalam mata kuliah ini, saya mencoba menunjukkan bahwa garis pemisah yang sebenarnya bukanlah antara kiri, kanan, atau tengah, yang semuanya sama-sama berangkat dari asumsi statistik. Pada akhirnya, semua rumpun politik klasik cenderung tidak sepenuhnya percaya pada pasar bebas dan memiliki kecenderungan terhadap keterlibatan negara.
+Dalam mata kuliah ini, saya mencoba menunjukkan bahwa garis pemisah yang sebenarnya bukanlah antara kiri, kanan, atau tengah, yang semuanya sama-sama berangkat dari asumsi statistik. Pada akhirnya, semua rumpun politik klasik cenderung tidak sepenuhnya percaya pada pasar bebas dan memiliki kecenderungan terhadap intervensi negara.
 
 
 

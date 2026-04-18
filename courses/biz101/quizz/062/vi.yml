@@ -1,9 +1,9 @@
-question: Giải pháp thay thế nào cho Swiss Bitcoin Pay để chấp nhận thanh toán Bitcoin cho nhóm hồ sơ thiết yếu tự lưu ký 100%?
+question: Giải pháp thay thế nào cho Swiss Bitcoin Pay để chấp nhận thanh toán Bitcoin cho nhóm hồ sơ thiết yếu là lưu ký 100%?
 answer: Open Node
 wrong_answers:
   - BTCPay Server
   - Bitcoinize PoS
   - Ví Phoenix
 explanation: |
-  Open Node được coi là giải pháp tự lưu ký hoàn toàn, khác với giải pháp kết hợp của Swiss Bitcoin Pay.
+  Open Node được coi là giải pháp lưu ký hoàn toàn, khác với giải pháp kết hợp của Swiss Bitcoin Pay.
 reviewed: true

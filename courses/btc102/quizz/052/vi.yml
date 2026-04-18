@@ -1,9 +1,9 @@
-question: Việc vận hành máy chủ Bitcoin của riêng bạn mang lại lợi ích gì?
+question: Việc vận hành nút Bitcoin của riêng bạn mang lại lợi ích gì?
 answer: Độc lập
 wrong_answers:
   - Tính thanh khoản
   - Tập trung hóa
   - Tốc độ
 explanation: |
-  Việc vận hành máy chủ của riêng bạn đảm bảo tính độc lập với bên thứ ba và bảo vệ tính riêng tư của các giao dịch của bạn.
+  Việc vận hành nút của riêng bạn đảm bảo tính độc lập với bên thứ ba và bảo vệ tính riêng tư của các giao dịch của bạn.
 reviewed: false

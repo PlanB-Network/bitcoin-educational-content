@@ -55,7 +55,7 @@ Jadi, kita berbicara tentang kemunculan: kemunculan mata uang itu sendiri, siste
 
 
 
-Kita akan memulai perjalanan kita ke dalam proto-mata uang dengan kemunculan uang utang dan unit-unit akun di Mesopotamia, serta sistem lain seperti mas kawin dan uang darah di masyarakat primitif. Kita juga akan melihat bagaimana sistem moneter yang sebenarnya sudah ada di Mesir kuno, jauh sebelum Kerajaan Pertengahan.
+Kita akan memulai perjalanan kita ke dalam mata uang dengan kemunculan uang utang dan unit-unit akun di Mesopotamia, serta sistem lain seperti mas kawin dan uang darah di masyarakat primitif. Kita juga akan melihat bagaimana sistem moneter yang sebenarnya sudah ada di Mesir kuno, jauh sebelum Kerajaan Pertengahan.
 
 
 
@@ -347,7 +347,7 @@ Ada beberapa jenis barter:
 
 
 
-**Di antara komunitas yang berbeda**, tidak adanya ikatan kepercayaan pribadi mendukung munculnya pertukaran yang lebih formal. Barang-barang tertentu secara bertahap memperoleh status khusus melalui kemampuan mereka untuk diminta oleh kelompok-kelompok asing, yang menjadi awal dari bentuk-bentuk awal mata uang.
+**Di antara komunitas yang berbeda**, tidak adanya ikatan kepercayaan pribadi mendukung munculnya pertukaran yang lebih formal. Barang-barang tertentu secara bertahap memperoleh status khusus melalui kemampuan mereka untuk diminta oleh kelompok-kelompok asing, yang menjadi awal dari bentuk-bentuk mata uang.
 
 
 
@@ -582,7 +582,7 @@ Ekonomi populer ini, meskipun kurang terdokumentasi dalam arsip resmi, mungkin l
 
 
 
-Syikal perak, yang sering disebut dalam tablet sebagai referensi nilai, mungkin berfungsi sebagai jembatan antara dua sistem ekonomi paralel ini, yang memungkinkan konversi antara utang tertulis dan pembayaran fisik.
+Shekel perak, yang sering disebut dalam tablet sebagai referensi nilai, mungkin berfungsi sebagai jembatan antara dua sistem ekonomi paralel ini, yang memungkinkan konversi antara utang tertulis dan pembayaran fisik.
 
 
 
@@ -594,7 +594,7 @@ Koeksistensi ini menggambarkan perdebatan mendasar dalam sejarah ekonomi: **pert
 
 
 
-Kuil-kuil Sumeria melambangkan ketegangan ini: mereka menggunakan inovasi moneter yang populer (referensi ke syikal) sambil mengembangkan instrumen kontrol mereka sendiri (tablet berhuruf paku). Strategi ini memungkinkan mereka untuk memetik manfaat dari kedua sistem: legitimasi populer dari mata uang tradisional dan kontrol administratif atas utang yang diformalkan.
+Kuil-kuil Sumeria melambangkan ketegangan ini: mereka menggunakan inovasi moneter yang populer (referensi ke shekel) sambil mengembangkan instrumen kontrol mereka sendiri (tablet berhuruf paku). Strategi ini memungkinkan mereka untuk memetik manfaat dari kedua sistem: legitimasi populer dari mata uang tradisional dan kontrol administratif atas utang yang diformalkan.
 
 
 
@@ -747,7 +747,7 @@ Upeti dan pajak sebagian besar dibayarkan dalam bentuk barang (jelai atau perak 
 
 
 
-Perekonomian Mesopotamia terutama menggunakan jelai dan perak sebagai standar nilai. Perak ditimbang dalam unit standar, seperti sìqlum (syikal) sekitar 8,33 gram. Pada awal periode Babilonia kuno (di bawah Hammurabi), perak digunakan sebagai alat pembayaran yang umum, dengan gagasan awal tentang nilai nominal ("nūbum") yang bertentangan dengan berat nyata ("šuqulum"), **mengantisipasi konsep mata uang fiat modern**.
+Perekonomian Mesopotamia terutama menggunakan jelai dan perak sebagai standar nilai. Perak ditimbang dalam unit standar, seperti sìqlum (shekel) sekitar 8,33 gram. Pada awal periode Babilonia kuno (di bawah Hammurabi), perak digunakan sebagai alat pembayaran yang umum, dengan gagasan awal tentang nilai nominal ("nūbum") yang bertentangan dengan berat nyata ("šuqulum"), **mengantisipasi konsep mata uang fiat modern**.
 
 
 
@@ -1744,7 +1744,7 @@ Ini adalah analisis yang sangat menarik tentang batu Yap. Saifedean Ammous juga 
 
 
 
-Para ahli etnografi di seluruh dunia telah mengamati masyarakat yang menggunakan "proto-mata uang" atau "mata uang primitif", seperti kerang, kain, hewan ternak, garam, dan batu, yang memenuhi fungsi-fungsi yang biasanya dikaitkan dengan uang, seperti alat pembayaran dan penyimpan nilai, tanpa secara teratur bertindak sebagai perantara dalam pertukaran barang sehari-hari.
+Para ahli etnografi di seluruh dunia telah mengamati masyarakat yang menggunakan "mata uang" atau "mata uang primitif", seperti kerang, kain, hewan ternak, garam, dan batu, yang memenuhi fungsi-fungsi yang biasanya dikaitkan dengan uang, seperti alat pembayaran dan penyimpan nilai, tanpa secara teratur bertindak sebagai perantara dalam pertukaran barang sehari-hari.
 
 
 
@@ -1752,7 +1752,7 @@ Jadi, di sini kami menjelaskan sistem moneter yang tidak selalu digunakan untuk 
 
 
 
-Dan saya ingin mengingatkan Anda bahwa ini semua adalah mata uang sebelum munculnya koin, dan saya tidak tahu seberapa besar kekeliruan untuk mengatakan mata uang. Saya lebih suka menyebutnya mata uang. Saya dapat menyebutkan bahwa dalam literatur, kita sering berbicara tentang proto-mata uang untuk merujuk pada uang sebelum koin. Namun seperti yang kita lihat di bagian pertama, **Saya percaya bahwa ada sistem moneter jauh sebelum kemunculan koin**.
+Dan saya ingin mengingatkan Anda bahwa ini semua adalah mata uang sebelum munculnya koin, dan saya tidak tahu seberapa besar kekeliruan untuk mengatakan mata uang. Saya lebih suka menyebutnya mata uang. Saya dapat menyebutkan bahwa dalam literatur, kita sering berbicara tentang mata uang untuk merujuk pada uang sebelum koin. Namun seperti yang kita lihat di bagian pertama, **Saya percaya bahwa ada sistem moneter jauh sebelum kemunculan koin**.
 
 
 
@@ -1772,7 +1772,7 @@ Para antropolog seperti Quiggin dan Einzig bersikeras pada keunggulan kredit: **
 
 
 
-Jadi, orang menukar barang, dapat membuat kredit yang ditangguhkan, tetapi dalam beberapa kasus, Anda tidak dapat menangguhkan pembayaran, sehingga mata uang atau proto-mata uang dapat berguna pada saat ini untuk mendapatkan finalitas langsung pada pertukaran.
+Jadi, orang menukar barang, dapat membuat kredit yang ditangguhkan, tetapi dalam beberapa kasus, Anda tidak dapat menangguhkan pembayaran, sehingga mata uang dapat berguna pada saat ini untuk mendapatkan finalitas langsung pada pertukaran.
 
 
 
@@ -1867,11 +1867,11 @@ Jadi, hal ini sekali lagi dijelaskan dengan sangat baik dalam Standar Bitcoin di
 
 
 
-Itu adalah poin yang sangat menarik, dan salah satu yang telah saya dan Ulrich diskusikan. Bahkan jika bait suci di Mesopotamia adalah semacam otoritas yang dapat mengatur gagasan kredit ini, unit perhitungannya adalah syikal. Tidak ada yang bisa memastikan bahwa syikal ditetapkan secara otoritatif oleh bait suci. Syikal bisa saja muncul secara alamiah, melalui kebutuhan para pedagang untuk mengimpor dan mengekspor dengan orang-orang lain di sekitarnya. Kita memiliki bukti akan hal ini, dalam bentuk seorang pedagang di Kanesh (saya telah menyebutkan hal ini di Bagian 1) yang melakukan hal tersebut, mengimpor logam mulia yang tidak digunakan untuk nilai komoditas fisiknya, melainkan sebagai penyimpan nilai. Satu-satunya masalah adalah kita tidak tahu apakah kita dapat berasumsi bahwa pilihan perak ini, yaitu syikal perak, dibuat oleh para pedagang, atau apakah itu dibuat oleh bait suci. Namun Ulrich memiliki argumen yang sangat bagus yang membuat kita berpikir bahwa kemungkinan besar hal itu dibuat oleh para pedagang.
+Itu adalah poin yang sangat menarik, dan salah satu yang telah saya dan Ulrich diskusikan. Bahkan jika bait suci di Mesopotamia adalah semacam otoritas yang dapat mengatur gagasan kredit ini, unit perhitungannya adalah shekel. Tidak ada yang bisa memastikan bahwa shekel ditetapkan secara otoritatif oleh bait suci. Shekel bisa saja muncul secara alamiah, melalui kebutuhan para pedagang untuk mengimpor dan mengekspor dengan orang-orang lain di sekitarnya. Kita memiliki bukti akan hal ini, dalam bentuk seorang pedagang di Kanesh (saya telah menyebutkan hal ini di Bagian 1) yang melakukan hal tersebut, mengimpor logam mulia yang tidak digunakan untuk nilai komoditas fisiknya, melainkan sebagai penyimpan nilai. Satu-satunya masalah adalah kita tidak tahu apakah kita dapat berasumsi bahwa pilihan perak ini, yaitu shekel perak, dibuat oleh para pedagang, atau apakah itu dibuat oleh bait suci. Namun Ulrich memiliki argumen yang sangat bagus yang membuat kita berpikir bahwa kemungkinan besar hal itu dibuat oleh para pedagang.
 
 
 
-*"Dengan demikian, penyatuan kedua teori tersebut dapat digambarkan sebagai "teori akuntansi uang" ("teori buku besar uang") karena teori ini menggambarkan logika dasar yang sama untuk kedua teori tersebut. Baik kredit sosial yang fleksibel maupun proto-mata uang yang dapat ditagih sudah ada sejak awal mula manusia. Dalam kedua kasus tersebut, kelompok manusia dengan berbagai ukuran menyimpan buku besar akuntansi di antara mereka sendiri untuk menghindari keharusan memenuhi keinginan yang bertubi-tubi, mengurangi gesekan dalam pertukaran, dan berfungsi sebagai bentuk tabungan likuid. Perbedaan mendasar terletak pada otoritas yang dipercayakan untuk menyimpan catatan tersebut. "*
+*"Dengan demikian, penyatuan kedua teori tersebut dapat digambarkan sebagai "teori akuntansi uang" ("teori buku besar uang") karena teori ini menggambarkan logika dasar yang sama untuk kedua teori tersebut. Baik kredit sosial yang fleksibel maupun mata uang yang dapat ditagih sudah ada sejak awal mula manusia. Dalam kedua kasus tersebut, kelompok manusia dengan berbagai ukuran menyimpan buku besar akuntansi di antara mereka sendiri untuk menghindari keharusan memenuhi keinginan yang bertubi-tubi, mengurangi gesekan dalam pertukaran, dan berfungsi sebagai bentuk tabungan likuid. Perbedaan mendasar terletak pada otoritas yang dipercayakan untuk menyimpan catatan tersebut. "*
 
 
 
@@ -2856,10 +2856,10 @@ Periode yang ditandai dengan ketidakstabilan politik, dengan banyak kaisar yang 
 
 
 
-**301 MASEHI: Dekrit Harga Diokletianus**
+**301 MASEHI: Dekrit Harga Diocletian**
 
 
-Kaisar Diocletianus mencoba menghentikan inflasi yang merajalela dengan memberlakukan kontrol harga dan upah yang ketat di seluruh kekaisaran.
+Kaisar Diocletian mencoba menghentikan inflasi yang merajalela dengan memberlakukan kontrol harga dan upah yang ketat di seluruh kekaisaran.
 
 
 
@@ -3058,7 +3058,7 @@ Sebuah contoh yang mencolok dari efek reformasi oleh Aurelian ini diilustrasikan
 
 
 
-*"Sejak tanggal ini dan seterusnya, inflasi perlahan-lahan meningkat, karena **uang yang baik pertama kali dikeluarkan dari peredaran**, sehingga jumlah uang beredar hampir tidak meningkat sama sekali pada awalnya. Selanjutnya, inflasi mencapai tingkat rata-rata tahunan sebesar **3,65% antara tahun 250 dan 293**, meningkat menjadi **22,28% antara tahun 293 dan 301** (Wassink 1991, hlm. 466), yaitu sampai dengan **reformasi moneter yang digagalkan oleh Kaisar Diocletianus**. Fenomena ini **sangat mengesankan untuk inflasi dalam rezim moneter berbasis logam**. "*
+*"Sejak tanggal ini dan seterusnya, inflasi perlahan-lahan meningkat, karena **uang yang baik pertama kali dikeluarkan dari peredaran**, sehingga jumlah uang beredar hampir tidak meningkat sama sekali pada awalnya. Selanjutnya, inflasi mencapai tingkat rata-rata tahunan sebesar **3,65% antara tahun 250 dan 293**, meningkat menjadi **22,28% antara tahun 293 dan 301** (Wassink 1991, hlm. 466), yaitu sampai dengan **reformasi moneter yang digagalkan oleh Kaisar Diocletian**. Fenomena ini **sangat mengesankan untuk inflasi dalam rezim moneter berbasis logam**. "*
 
 
 
@@ -3139,7 +3139,7 @@ Menghadapi disintegrasi ini, penduduk kota melarikan diri ke pedesaan - sebuah e
 
 
 
-Dalam keputusasaan, Diocletianus bahkan menuntut pajak dalam bentuk barang - sebuah pengakuan akhir dari kegagalan moneter. Dekritnya yang maksimum (301) berusaha mengendalikan harga, mempercepat kembalinya barter. Kompleksitas ekonomi mengalami kemunduran ke bentuk-bentuk pra-peradaban.
+Dalam keputusasaan, Diocletian bahkan menuntut pajak dalam bentuk barang - sebuah pengakuan akhir dari kegagalan moneter. Dekritnya yang maksimum (301) berusaha mengendalikan harga, mempercepat kembalinya barter. Kompleksitas ekonomi mengalami kemunduran ke bentuk-bentuk pra-peradaban.
 
 
 
@@ -3775,7 +3775,7 @@ Mari kita bahas tentang Perang Saudara di Amerika sekarang. Pihak Konfederasi me
 
 
 
-Pihak oposisi dari Utara mengeluarkan mata uang mereka sendiri, yang dikenal sebagai "uang kertas hijau" karena warna di bagian belakang uang kertas tersebut seperti yang ditunjukkan di bawah ini.
+Pihak oposisi dari Utara mengeluarkan mata uang mereka sendiri, yang dikenal sebagai "greenback" karena warna di bagian belakang uang kertas tersebut seperti yang ditunjukkan di bawah ini.
 
 
 
@@ -4018,7 +4018,7 @@ Selama Revolusi Perancis, mereka menyita semua aset Gereja. Mereka melihat koin-
 
 
 
-Jika kita kembali lebih jauh lagi, salah satu gagasan yang paling eksplisit tentang kekerasan ekonomi dan kebebasan, tentang hukum yang membebaskan, adalah **Diokletianus dengan kasta turun-temurunnya yang secara langsung berkaitan dengan fakta bahwa para petani tidak lagi mau menerima mata uang yang terdevaluasi**. Mereka ingin meninggalkan pekerjaan mereka sebagai petani, dan Diocletianus bereaksi dengan mengatakan kepada mereka, "Anda tidak bisa meninggalkan tanah Anda, dan begitu juga dengan anak-anak Anda". Hal yang sama juga berlaku untuk para prajurit.
+Jika kita kembali lebih jauh lagi, salah satu gagasan yang paling eksplisit tentang kekerasan ekonomi dan kebebasan, tentang hukum yang membebaskan, adalah **Diocletian dengan kasta turun-temurunnya yang secara langsung berkaitan dengan fakta bahwa para petani tidak lagi mau menerima mata uang yang terdevaluasi**. Mereka ingin meninggalkan pekerjaan mereka sebagai petani, dan Diocletian bereaksi dengan mengatakan kepada mereka, "Anda tidak bisa meninggalkan tanah Anda, dan begitu juga dengan anak-anak Anda". Hal yang sama juga berlaku untuk para prajurit.
 
 
 

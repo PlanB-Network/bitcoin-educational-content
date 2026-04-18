@@ -1,5 +1,5 @@
 question: Sự khác biệt chính về kiến trúc giữa Blockstream AMP Phiên bản 1 và Phiên bản 2 liên quan đến việc xây dựng giao dịch và yêu cầu đối với các nút là gì?
-answer: Phiên bản 2 chuyển độ phức tạp sang máy chủ xử lý việc xây dựng giao dịch và cung cấp PSET cho các nhà phát hành, loại bỏ nhu cầu đồng bộ hóa full node.
+answer: Phiên bản 2 chuyển độ phức tạp sang máy chủ xử lý việc xây dựng giao dịch và cung cấp PSET cho các nhà phát hành, loại bỏ nhu cầu đồng bộ hóa nút đầy đủ.
 wrong_answers:
   - Phiên bản 2 yêu cầu các nhà phát hành phải vận hành nhiều nút Elements được đồng bộ hóa để đảm bảo tính dự phòng, trong khi phiên bản 1 chỉ yêu cầu kết nối một nút duy nhất.
   - Phiên bản 2 chuyển toàn bộ các hoạt động mã hóa sang ví phần cứng phía máy khách, trong khi phiên bản 1 thực hiện tất cả các hoạt động ký trên cơ sở hạ tầng máy chủ.

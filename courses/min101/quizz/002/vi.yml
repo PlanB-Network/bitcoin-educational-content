@@ -1,5 +1,5 @@
 question: Về mempool, phát biểu nào sau đây là đúng?
-answer: Mỗi nút (node) có mempool riêng của nó
+answer: Mỗi nút có mempool riêng của nó
 wrong_answers:
   - Chỉ có một mempool duy nhất
   - Mempool là một tệp có trong mỗi khối

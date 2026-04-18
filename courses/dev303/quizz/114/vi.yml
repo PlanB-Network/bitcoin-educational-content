@@ -1,4 +1,4 @@
-question: Cơ chế bảo mật chính nào đảm bảo rằng cơ sở hạ tầng Greenlight không thể truy cập vào tiền của người dùng mặc dù đang lưu trữ các node Lightning trên đám mây?
+question: Cơ chế bảo mật chính nào đảm bảo rằng cơ sở hạ tầng Greenlight không thể truy cập vào tiền của người dùng mặc dù đang lưu trữ các nút Lightning trên đám mây?
 answer: Khóa riêng tư không bao giờ rời khỏi thiết bị của người dùng và tất cả các thao tác đều yêu cầu ký ứng dụng chủ động.
 wrong_answers:
   - Ví đa chữ ký với các mảnh khóa phân tán trên nhiều nhà cung cấp dịch vụ đám mây.

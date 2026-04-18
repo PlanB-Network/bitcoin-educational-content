@@ -1146,7 +1146,7 @@ Dengan demikian, ciphertext $c$ = "IFJSZCRUGDSB".
 
 Contoh lain yang terkenal dari stream cipher adalah **one-time pad**. Dengan one-time pad, Anda cukup membuat sebuah rangkaian bit acak sepanjang pesan plaintext dan menghasilkan ciphertext melalui operasi XOR. Oleh karena itu, kunci privat dan keystream setara dengan one-time pad.
 
-Sementara sandi Shift dan sandi Vigenere sangat tidak aman di era modern, one-time pad sangat aman jika digunakan dengan benar. Mungkin aplikasi yang paling terkenal dari pad sekali pakai adalah, setidaknya sampai tahun 1980-an, untuk **saluran telepon Washington-Moskow**. [4]
+Sementara sandi Shift dan sandi Vigenere sangat tidak aman di era modern, one-time pad sangat aman jika digunakan dengan benar. Mungkin aplikasi yang paling terkenal dari one-time pad adalah, setidaknya sampai tahun 1980-an, untuk **saluran telepon Washington-Moskow**. [4]
 
 Hotline ini merupakan hubungan komunikasi langsung antara Washington dan Moskow untuk hal-hal mendesak yang dipasang setelah Krisis Rudal Kuba. Teknologi untuk saluran ini telah berubah selama bertahun-tahun. Saat ini, sambungan ini mencakup kabel serat optik langsung serta dua sambungan satelit (untuk redundansi), yang memungkinkan pengiriman email dan pesan teks. Sambungan ini berakhir di berbagai tempat di AS. Pentagon, Gedung Putih, dan Raven Rock Mountain adalah titik akhir yang diketahui. Berlawanan dengan pendapat umum, hotline ini tidak pernah menggunakan telepon.
 
@@ -1407,13 +1407,13 @@ Pertama, definisikan sebuah array **S** dengan $S[0] = 0$ hingga $S[7] = 7$. Lar
 
 - $S = [0, 1, 2, 3, 4, 5, 6, 7]$
 
-Nilai-nilai di sini bukanlah angka ASCII, tetapi representasi nilai desimal dari string 1-byte. Jadi nilai 2 akan sama dengan $0000 \ 0011$. Panjang larik **S** adalah 8 byte.
+Nilai-nilai di sini bukanlah angka ASCII, tetapi representasi nilai desimal dari string 1-byte. Jadi nilai 2 akan sama dengan $0000 \ 0011$. Panjang array **S** adalah 8 byte.
 
 ### Langkah 2
 
 Kedua, definisikan sebuah array kunci **K** dengan panjang 8 byte dengan memilih kunci antara 1 dan 8 byte (tanpa pecahan byte yang diperbolehkan). Karena setiap byte terdiri dari 8 bit, Anda dapat memilih angka apa saja antara 0 dan 255 untuk setiap byte kunci Anda.
 
-Misalkan kita memilih kunci **k** sebagai $[14, 48, 9]$, sehingga kunci tersebut memiliki panjang 3 byte. Setiap indeks dari larik kunci kita, kemudian, diatur sesuai dengan nilai desimal untuk elemen tertentu dari kunci tersebut, secara berurutan. Jika Anda menjalankan seluruh kunci, mulailah lagi dari awal, hingga Anda telah mengisi 8 slot pada array kunci terisi. Dengan demikian, array kunci kita adalah sebagai berikut:
+Misalkan kita memilih kunci **k** sebagai $[14, 48, 9]$, sehingga kunci tersebut memiliki panjang 3 byte. Setiap indeks dari array kunci kita, kemudian, diatur sesuai dengan nilai desimal untuk elemen tertentu dari kunci tersebut, secara berurutan. Jika Anda menjalankan seluruh kunci, mulailah lagi dari awal, hingga Anda telah mengisi 8 slot pada array kunci terisi. Dengan demikian, array kunci kita adalah sebagai berikut:
 
 - $K = [14, 48, 9, 14, 48, 9, 14, 48]$
 
@@ -1436,7 +1436,7 @@ Perulangan for dimulai dengan $i = 0$. Menurut pseudocode di atas, nilai baru da
 
 Pada baris berikutnya, $i = 1$. Melalui perulangan for lagi, **j** memperoleh nilai 7 ($j = (j + S[1] + K[1]) \mod 8 = (6 + 1 + 48) \mod 8 = 55 \mod 8 = 7 \mod 8$). Menukar $S[1]$ dan $S[7]$ dari kondisi **S** saat ini, $[6, 1, 2, 3, 4, 5, 0, 7]$, menghasilkan $[6, 7, 2, 3, 4, 5, 0, 1]$ setelah ronde ke-2.
 
-Kita lanjutkan proses ini hingga kita menghasilkan baris terakhir di bagian bawah untuk larik **S**, $[6, 4, 1, 0, 3, 7, 5, 2]$.
+Kita lanjutkan proses ini hingga kita menghasilkan baris terakhir di bagian bawah untuk array **S**, $[6, 4, 1, 0, 3, 7, 5, 2]$.
 
 *Tabel 1: Tabel penjadwalan utama*
 
@@ -1477,7 +1477,7 @@ Kita kemudian melanjutkan untuk menghasilkan byte lainnya sampai kita mendapatka
 
 Sebagai permulaan, dengan menggunakan tabel ASCII, kita dapat melihat bahwa "SOUP" yang dikodekan oleh nilai desimal dari string byte yang mendasarinya adalah "83 79 85 80". Kombinasi dengan keystream "2 6 3 7" menghasilkan "85 85 88 87", yang tetap sama setelah operasi modulo 256. Dalam ASCII, cipherteks "85 85 88 87" sama dengan "UUXW".
 
-Apa yang terjadi jika kata yang akan dienkripsi lebih panjang dari array **S**? Dalam hal ini, larik **S** akan terus bertransformasi dengan cara seperti yang ditunjukkan di atas untuk setiap byte **i** dari plaintext, sampai kita memiliki jumlah byte dalam keystream yang sama dengan jumlah huruf dalam plaintext.
+Apa yang terjadi jika kata yang akan dienkripsi lebih panjang dari array **S**? Dalam hal ini, array **S** akan terus bertransformasi dengan cara seperti yang ditunjukkan di atas untuk setiap byte **i** dari plaintext, sampai kita memiliki jumlah byte dalam keystream yang sama dengan jumlah huruf dalam plaintext.
 
 *Tabel 2: Pembuatan aliran kunci*
 
@@ -1492,13 +1492,13 @@ Apa yang terjadi jika kata yang akan dienkripsi lebih panjang dari array **S**? 
 | 4   | 1   | 7   | 2         | 6    | 4    | 7    | 1    | 3    | 0    | 5    | 2    |
 
 
-Contoh yang baru saja kita bahas hanyalah sebuah versi sederhana dari stream cipher **RC4**. Stream cipher RC4 yang sebenarnya memiliki array **S** dengan panjang 256 byte, bukan 8 byte, dan sebuah kunci yang dapat berukuran antara 1 sampai 256 byte, bukan 1 sampai 8 byte. array kunci dan aliran kunci kemudian diproduksi dengan mempertimbangkan panjang 256 byte dari larik **S**. Perhitungannya menjadi jauh lebih kompleks, tetapi prinsip-prinsipnya tetap sama. Menggunakan kunci yang sama, 14,48,9, dengan cipher RC4 standar, pesan plaintext "SOUP" dienkripsi sebagai 67 02 ed df dalam format heksadesimal.
+Contoh yang baru saja kita bahas hanyalah sebuah versi sederhana dari stream cipher **RC4**. Stream cipher RC4 yang sebenarnya memiliki array **S** dengan panjang 256 byte, bukan 8 byte, dan sebuah kunci yang dapat berukuran antara 1 sampai 256 byte, bukan 1 sampai 8 byte. array kunci dan aliran kunci kemudian diproduksi dengan mempertimbangkan panjang 256 byte dari array **S**. Perhitungannya menjadi jauh lebih kompleks, tetapi prinsip-prinsipnya tetap sama. Menggunakan kunci yang sama, 14,48,9, dengan cipher RC4 standar, pesan plaintext "SOUP" dienkripsi sebagai 67 02 ed df dalam format heksadesimal.
 
 Sebuah stream cipher di mana keystream memperbarui secara independen dari pesan plaintext atau ciphertext adalah **synchronous stream cipher**. Aliran kunci hanya bergantung pada kunci. Jelasnya, RC4 adalah sebuah contoh dari sebuah stream cipher sinkron, karena keystream tidak memiliki hubungan dengan plaintext atau ciphertext. Semua cipher stream primitif yang disebutkan di bab sebelumnya, termasuk shift cipher, cipher Vigenère, dan one-time pad, juga merupakan jenis cipher sinkron.
 
 Sebaliknya, sebuah **asynchronous stream cipher** memiliki aliran kunci yang dihasilkan oleh kunci dan elemen-elemen sebelumnya dari ciphertext. Jenis cipher ini juga disebut sebagai **cipher yang menyinkronkan sendiri**.
 
-Yang penting, keystream yang dihasilkan dengan RC4 harus diperlakukan sebagai pad sekali pakai, dan Anda tidak dapat menghasilkan keystream dengan cara yang persis sama di waktu berikutnya. Daripada mengubah kunci setiap kali, solusi praktisnya adalah menggabungkan kunci dengan **nonce** untuk menghasilkan bytestream.
+Yang penting, keystream yang dihasilkan dengan RC4 harus diperlakukan sebagai one-time pad, dan Anda tidak dapat menghasilkan keystream dengan cara yang persis sama di waktu berikutnya. Daripada mengubah kunci setiap kali, solusi praktisnya adalah menggabungkan kunci dengan **nonce** untuk menghasilkan bytestream.
 
 ## AES dengan kunci 128-bit
 
@@ -1559,7 +1559,7 @@ Putaran 0 dari sandi Rijndael sangatlah mudah. Larik $S_0$ dihasilkan oleh opera
 
 Pada putaran 1, array $S_0$ pertama-tama digabungkan dengan kunci bulat $K_1$ menggunakan operasi XOR. Hal ini menghasilkan keadaan baru $S$.
 
-Kedua, operasi **substitusi byte** dilakukan pada keadaan $S$ saat ini. Operasi ini bekerja dengan mengambil setiap byte dari array $S$ 16-byte dan menggantinya dengan byte dari larik yang disebut **Kotak-S Rijndael**. Setiap byte memiliki transformasi yang unik, dan keadaan baru $S$ dihasilkan sebagai hasilnya. Kotak-S Rijndael ditampilkan pada *Gambar 3*.
+Kedua, operasi **substitusi byte** dilakukan pada keadaan $S$ saat ini. Operasi ini bekerja dengan mengambil setiap byte dari array $S$ 16-byte dan menggantinya dengan byte dari array yang disebut **Kotak-S Rijndael**. Setiap byte memiliki transformasi yang unik, dan keadaan baru $S$ dihasilkan sebagai hasilnya. Kotak-S Rijndael ditampilkan pada *Gambar 3*.
 
 *Gambar 3: S-Box Rijndael*
 
@@ -1590,7 +1590,7 @@ Untuk memulai, Anda mendefinisikan setiap elemen byte 00 sampai FF sebagai vekto
 
 Selanjutnya, untuk setiap elemen yang mungkin di dalam field, kita membuat apa yang disebut dengan **Nyberg S-Box**. Di dalam kotak ini, setiap byte dipetakan ke **kebalikan perkaliannya** (yaitu, sehingga hasil perkaliannya sama dengan 1). Kita kemudian memetakan nilai-nilai tersebut dari Nyberg S-Box ke Rijndael S-Box dengan menggunakan **transformasi affine**.
 
-Operasi ketiga pada larik **S** adalah operasi **geser baris**. Operasi ini mengambil status **S** dan mencantumkan semua enam belas byte dalam matriks. Pengisian matriks dimulai dari kiri atas dan bekerja dari atas ke bawah dan kemudian, setiap kali kolom diisi, menggeser satu kolom ke kanan dan ke atas.
+Operasi ketiga pada array **S** adalah operasi **geser baris**. Operasi ini mengambil status **S** dan mencantumkan semua enam belas byte dalam matriks. Pengisian matriks dimulai dari kiri atas dan bekerja dari atas ke bawah dan kemudian, setiap kali kolom diisi, menggeser satu kolom ke kanan dan ke atas.
 
 Setelah matriks **S** dibuat, keempat baris digeser. Baris pertama tetap sama. Baris kedua bergeser satu ke kiri. Baris ketiga bergeser dua ke kiri. Baris keempat bergeser tiga ke kiri. Contoh prosesnya diberikan pada *Gambar 4*. Keadaan asli **S** ditampilkan di bagian atas, dan keadaan yang dihasilkan setelah operasi pergeseran baris ditampilkan di bawahnya.
 
@@ -1923,7 +1923,7 @@ Tetapi saya tidak akan membiarkan Anda dalam ketegangan sampai SHA-256 menjadi l
 
 - "Ini adalah pesan yang sangat acak, atau agak acak. Bagian awal ini tidak acak, tetapi saya akan mengakhirinya dengan beberapa karakter yang relatif acak untuk memastikan pesan yang sangat tidak terduga. XLWz4dVG3BxUWm7zQ9qS".
 
-Cara umum di mana fungsi hash dengan properti persembunyian digunakan adalah dalam manajemen kata sandi (ketahanan terhadap tabrakan juga penting untuk aplikasi ini). Layanan berbasis akun online yang layak seperti Facebook atau Google tidak akan menyimpan kata sandi Anda secara langsung untuk mengelola akses ke akun Anda. Sebaliknya, mereka hanya akan menyimpan hash dari kata sandi tersebut. Setiap kali Anda mengisi kata sandi pada peramban, sebuah hash akan dihitung terlebih dahulu. Hanya hash tersebut yang dikirim ke server penyedia layanan dan dibandingkan dengan hash yang tersimpan dalam basis data back-end. Properti penyembunyian dapat membantu memastikan bahwa penyerang tidak dapat memulihkannya dari nilai hash.
+Cara umum di mana fungsi hash dengan properti persembunyian digunakan adalah dalam manajemen kata sandi (ketahanan terhadap tabrakan juga penting untuk aplikasi ini). Layanan berbasis akun online yang layak seperti Facebook atau Google tidak akan menyimpan kata sandi Anda secara langsung untuk mengelola akses ke akun Anda. Sebaliknya, mereka hanya akan menyimpan hash dari kata sandi tersebut. Setiap kali Anda mengisi kata sandi pada browser, sebuah hash akan dihitung terlebih dahulu. Hanya hash tersebut yang dikirim ke server penyedia layanan dan dibandingkan dengan hash yang tersimpan dalam basis data back-end. Properti penyembunyian dapat membantu memastikan bahwa penyerang tidak dapat memulihkannya dari nilai hash.
 
 Manajemen kata sandi melalui hash, tentu saja, hanya berfungsi jika pengguna benar-benar memilih kata sandi yang sulit. Properti penyembunyian mengasumsikan bahwa x dipilih secara acak dari sebuah rentang yang sangat besar. Memilih kata sandi seperti "1234", "mypassword", atau tanggal ulang tahun Anda tidak akan memberikan keamanan yang sesungguhnya. Daftar panjang kata sandi yang umum dan hash-nya ada yang dapat dimanfaatkan oleh penyerang jika mereka mendapatkan hash kata sandi Anda. Jenis serangan ini dikenal sebagai **serangan kamus**. Jika penyerang mengetahui beberapa detail pribadi Anda, mereka mungkin juga akan mencoba menebak. Oleh karena itu, Anda selalu membutuhkan kata sandi yang panjang dan aman (lebih baik lagi jika Anda menggunakan kata sandi yang panjang dan acak dari pengelola kata sandi).
 
@@ -1939,7 +1939,7 @@ Walaupun ketahanan terhadap tabrakan dan persembunyian adalah properti utama yan
 
 <partId>864dca42-2a8d-530f-bb94-2e1f68b3f411</partId>
 
-## Masalah anjak piutang
+## Masalah faktorisasi
 
 <chapterId>a31a66e4-52ea-539c-9953-4769ad565d7e</chapterId>
 

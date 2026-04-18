@@ -1348,7 +1348,7 @@ In diesem Kapitel werden wir die verschiedenen Arten der Nutzung von Bitcoin unt
 
 
 
-Im Jahr 2011 war Instawallet nach dem berüchtigten MyBitcoin die beliebteste Depotanwendung. Es [handelte](https://bitcointalk.org/index.php?topic=6785.msg99378#msg99378) sich um eine einfach zu bedienende Webanwendung, die am 29. April 2011 von Jan Vornberger, alias Jav, einem jungen deutschen Entwickler, gestartet wurde. Es handelte sich um einen Verwahrungsdienst: Die Gelder wurden "serverseitig" gehalten, was bedeutet, dass Jav sie verwaltete. Es war keine Registrierung erforderlich; der Zugang erfolgte über eine URL, z. B. `https://instawallet.org/w/rq2SB02ai6BnWaEBywAlP52cw7qwUAA`, die bei der ersten Interaktion mit dem Dienst generatiert und im Webbrowser gespeichert wurde. Den Nutzern wurde eine Bitcoin-Adresse zugewiesen, die es ihnen ermöglichte, Geld zu senden und zu empfangen. Überweisungen zwischen Instawallet-Nutzern wurden intern verarbeitet und erfolgten daher sofort. Darüber hinaus hat der Dienst ab Ende Juli [integriert](https://bitcointalk.org/index.php?topic=32818.msg409974#msg409974) ein Zertifizierungsverfahren (die so genannte "grüne Adresse"), mit dem anderen Marktteilnehmern nachgewiesen werden kann, dass eine Transaktion von Instawallet ausgestellt wurde, um eine schnellere Bearbeitung im Rahmen einer Vertrauensbeziehung zu gewährleisten.
+Im Jahr 2011 war Instawallet nach dem berüchtigten MyBitcoin die beliebteste Depotanwendung. Es [handelte](https://bitcointalk.org/index.php?topic=6785.msg99378#msg99378) sich um eine einfach zu bedienende Webanwendung, die am 29. April 2011 von Jan Vornberger, alias Jav, einem jungen deutschen Entwickler, gestartet wurde. Es handelte sich um einen Verwahrungsdienst: Die Gelder wurden "serverseitig" gehalten, was bedeutet, dass Jav sie verwaltete. Es war keine Registrierung erforderlich; der Zugang erfolgte über eine URL, z. B. `https://instawallet.org/w/rq2SB02ai6BnWaEBywAlP52cw7qwUAA`, die bei der ersten Interaktion mit dem Dienst generiert und im Webbrowser gespeichert wurde. Den Nutzern wurde eine Bitcoin-Adresse zugewiesen, die es ihnen ermöglichte, Geld zu senden und zu empfangen. Überweisungen zwischen Instawallet-Nutzern wurden intern verarbeitet und erfolgten daher sofort. Darüber hinaus hat der Dienst ab Ende Juli [integriert](https://bitcointalk.org/index.php?topic=32818.msg409974#msg409974) ein Zertifizierungsverfahren (die so genannte "grüne Adresse"), mit dem anderen Marktteilnehmern nachgewiesen werden kann, dass eine Transaktion von Instawallet ausgestellt wurde, um eine schnellere Bearbeitung im Rahmen einer Vertrauensbeziehung zu gewährleisten.
 
 
 
@@ -1491,7 +1491,7 @@ Gregory Maxwell hatte viele Ideen, wie man die Verwendung von Bitcoin verbessern
 
 > "Bitcoin sollte wirklich deterministische Wallets anbieten und standardmäßig verwenden. Die zusätzliche Sicherheit der aktuellen Vor-Generierten ist ziemlich gering, wenn man bedenkt, wie die meisten Leute Bitcoin verwenden, und die Haftung für Schäden aufgrund unzureichender Backups und des erhöhten Drucks, einen einzelnen Wallet online zu halten, ist enorm."
 
-Zwei Arten der Ableitung wurden ins Auge gefasst. Die eine Art (Typ 1) war einfach und generierte private Schlüssel direkt vom Seed. Die andere (Typ 2) war komplexer, ermöglichte aber die Ableitung von Adressen aus einem öffentlichen Hauptschlüssel, der vom Seed stammt, ohne auf den Seed selbst zuzugreifen. Dies ermöglichte es der Zahlungsverarbeitungssoftware, für jede Transaktion eine generatierte Adresse zu erzeugen, ohne die privaten Schlüssel preiszugeben.
+Zwei Arten der Ableitung wurden ins Auge gefasst. Die eine Art (Typ 1) war einfach und generierte private Schlüssel direkt vom Seed. Die andere (Typ 2) war komplexer, ermöglichte aber die Ableitung von Adressen aus einem öffentlichen Hauptschlüssel, der vom Seed stammt, ohne auf den Seed selbst zuzugreifen. Dies ermöglichte es der Zahlungsverarbeitungssoftware, für jede Transaktion eine generierte Adresse zu erzeugen, ohne die privaten Schlüssel preiszugeben.
 
 
 
@@ -1621,7 +1621,7 @@ Am 1. Dezember [integrierte](http://bitcointalk.org/index.php?topic=40264.msg636
 
 
 
-Die praktische Handhabung des Wallets macht ihn sehr beliebt. Der Dienst zog schnell Tausende von Nutzern an und erreichte im März 2012 [5.000](https://bitcointalk.org/index.php?topic=40264.msg790252#msg790252) offene Konten. Das tägliche Volumen auf der Blockchain, das die Bitcoins zählt, die durch von Blockchain.info (My Wallet und API) ausgestellte Transaktionen bewegt werden, und die tatsächlichen Überweisungen überschätzt, wuchs stetig. Anfang Mai explodierte es dank der Aktivität generiert durch das Online-Würfelspiel SatoshiDICE und überstieg 18.000 Bitcoins, was zu diesem Zeitpunkt 90.000 Dollar entsprach! Bis Juli wurde das Gesamtvolumen, das von Blockchain.info bewegt wurde, auf 13,6 Millionen Dollar [geschätzt](https://web.archive.org/web/20120720035456/https://blockchain.info/Wallet/).
+Die praktische Handhabung des Wallets macht ihn sehr beliebt. Der Dienst zog schnell Tausende von Nutzern an und erreichte im März 2012 [5.000](https://bitcointalk.org/index.php?topic=40264.msg790252#msg790252) offene Konten. Das tägliche Volumen auf der Blockchain, das die Bitcoins zählt, die durch von Blockchain.info (My Wallet und API) ausgestellte Transaktionen bewegt werden, und die tatsächlichen Überweisungen überschätzt, wuchs stetig. Anfang Mai explodierte es dank der Aktivität generiert durch das Online-Würfelspiel SatoshiDICE und überstieg 18.000 Bitcoins, was zu diesem Zeitpunkt 90.000 Dollar entsprach! Bis Juli wurde das Gesamtvolumen, das von Blockchain.info bewegt wurde, auf 13,6 Millionen Dollar [geschätzt](https://web.archive.org/web/20120720035456/https://blockchain.info/wallet/).
 
 
 
@@ -1629,7 +1629,7 @@ Die praktische Handhabung des Wallets macht ihn sehr beliebt. Der Dienst zog sch
 
 
 
-*Tägliches Volumen der von Blockchain.info ausgegebenen Transaktionen (Quelle: [Archiv](https://web.archive.org/web/20120604084256/http://blockchain.info/charts/my-Wallet-transaction-volume))*
+*Tägliches Volumen der von Blockchain.info ausgegebenen Transaktionen (Quelle: [Archiv](https://web.archive.org/web/20120604084256/http://blockchain.info/charts/my-wallet-transaction-volume))*
 
 
 
@@ -1661,7 +1661,7 @@ Ein weiteres Tool, das zu dieser Zeit erschien, war VanityGen, [erstellt](https:
 
 
 
-Die wirksamste Methode zum Schutz vor Diebstahl ist schließlich das "Brain-Wallet", bei dem man sich eine geheime Phrase merkt, die Zugang zu den unter der entsprechenden Adresse gespeicherten Bitcoins gibt. Die geheime Phrase kann zum Beispiel mit SHA-256 gehasht werden, um den privaten Schlüssel zu erhalten, der die Ausgabe der Gelder ermöglicht. Diese Methode wurde [vorgeschlagen](https://bitcointalk.org/index.php?topic=35082.msg436289#msg436289) von Casascius im August 2011 und [hervorgehoben](https://www.forbes.com/sites/jonmatonis/2012/03/12/brainWallet-the-ultimate-in-mobile-money/) in Forbes von Jon Matonis im März 2012. Sie ist jedoch sehr unsicher, wenn die Entropie nicht ausreichend ist. Und es unterliegt natürlich den Beschränkungen des menschlichen Gedächtnisses; es handelt sich eher um eine praktische Demonstration der Leistungsfähigkeit von Bitcoin als um eine nachhaltige Anwendung.
+Die wirksamste Methode zum Schutz vor Diebstahl ist schließlich das "Brain-Wallet", bei dem man sich eine geheime Phrase merkt, die Zugang zu den unter der entsprechenden Adresse gespeicherten Bitcoins gibt. Die geheime Phrase kann zum Beispiel mit SHA-256 gehasht werden, um den privaten Schlüssel zu erhalten, der die Ausgabe der Gelder ermöglicht. Diese Methode wurde [vorgeschlagen](https://bitcointalk.org/index.php?topic=35082.msg436289#msg436289) von Casascius im August 2011 und [hervorgehoben](https://www.forbes.com/sites/jonmatonis/2012/03/12/brainwallet-the-ultimate-in-mobile-money/) in Forbes von Jon Matonis im März 2012. Sie ist jedoch sehr unsicher, wenn die Entropie nicht ausreichend ist. Und es unterliegt natürlich den Beschränkungen des menschlichen Gedächtnisses; es handelt sich eher um eine praktische Demonstration der Leistungsfähigkeit von Bitcoin als um eine nachhaltige Anwendung.
 
 
 
@@ -1770,11 +1770,11 @@ Der dritte war von besonderer Art, denn es handelte sich um den in Ben Reeves' B
 
 
 
-*Illustration der Funktion "Anonym senden" des Blockchain.info Wallet (Quelle: [Archiv](https://web.archive.org/web/20120708011906/https://blockchain.info/Wallet/send-anonymously))*
+*Illustration der Funktion "Anonym senden" des Blockchain.info Wallet (Quelle: [Archiv](https://web.archive.org/web/20120708011906/https://blockchain.info/wallet/send-anonymously))*
 
 
 
-Die Verbreitung zentraler Mischer hatte den Effekt, dass sie das Denken über dezentrales Mischen von Münzen katalysierte, was im Sommer 2011 mit einem Vorschlag](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) von Hashcoin begann. Dies führte zur [Formalisierung](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) von [CoinJoin](https://planb.academy/resources/glossary/coinjoin) durch Gregory Maxwell im Jahr 2013. Aber das ist eine ganz andere Geschichte...
+Die Verbreitung zentraler Mischer hatte den Effekt, dass sie das Denken über dezentrales Mischen von Münzen katalysierte, was im Sommer 2011 mit einem [Vorschlag](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) von Hashcoin begann. Dies führte zur [Formalisierung](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) von [CoinJoin](https://planb.academy/resources/glossary/coinjoin) durch Gregory Maxwell im Jahr 2013. Aber das ist eine ganz andere Geschichte...
 
 
 
@@ -2270,7 +2270,7 @@ Gavin Andresen schrieb an diesem Abend einen Entwurf von BIP, der am folgenden T
 
 
 
-Gavin wollte schnell handeln, sehr schnell, was unweigerlich zu Spannungen führte. Obwohl er einen "Konsens" über Pay to Script Hash [heraufbeschwor]https://bitcointalk.org/index.php?topic=56969.msg679219#msg679219), waren nicht alle Entwickler einstimmig damit einverstanden, und die allgemeine Gemeinschaft war nicht konsultiert worden. Daher regte sich Widerstand.
+Gavin wollte schnell handeln, sehr schnell, was unweigerlich zu Spannungen führte. Obwohl er einen "Konsens" über Pay to Script Hash [heraufbeschwor](https://bitcointalk.org/index.php?topic=56969.msg679219#msg679219), waren nicht alle Entwickler einstimmig damit einverstanden, und die allgemeine Gemeinschaft war nicht konsultiert worden. Daher regte sich Widerstand.
 
 
 

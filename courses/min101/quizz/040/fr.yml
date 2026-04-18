@@ -6,4 +6,4 @@ wrong_answers:
   - Coût des licences logicielles
 explanation: |
   À grande échelle, la rentabilité du minage dépend du coût par unité de calcul, qui est surtout déterminé par le coût de l’électricité.
-reviewed: false
+reviewed: true 

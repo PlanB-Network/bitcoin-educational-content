@@ -1,4 +1,4 @@
-question: Koja je podrazumevana vrednost parametra dbcache u Bitcoin core?
+question: Koja je podrazumevana vrednost dbcache parametra u Bitcoin Core-u?
 answer: 450 MiB
 wrong_answers:
   - 128 MiB

@@ -924,6 +924,8 @@ Jest jeden ważny szczegół, na który należy zwrócić uwagę: **jest ona ogr
 
 
 
+Zauważmy również, że w rzeczywistości dostosowanie trudności Bitcoina nie jest idealnie dokładne. Widzieliśmy bowiem, że trudność ma być przeliczana co 2016 bloków, poprzez porównanie rzeczywistego czasu, który upłynął, z czasem docelowym wynoszącym 14 dni (2016 × 10 minut). Jednak oryginalny kod Satoshi zawiera błąd zwany "*off-by-one*": zamiast mierzyć czas między ostatnimi blokami każdego okresu (czyli 2016 interwałów), mierzy czas między pierwszym a ostatnim blokiem, co daje tylko 2015 interwałów. W praktyce trudność jest obliczana tak, jakby okres składał się tylko z 2015 bloków zamiast 2016. Konsekwencją tego jest systematyczne, bardzo niewielkie przeszacowanie trudności, co sprawia, że bloki są wydobywane średnio nieco wolniej niż docelowe 10 minut (o około 0,05% wolniej). Ten błąd jest dobrze znany, ale nigdy nie został naprawiony, ponieważ jego zmiana wymagałaby hard forka, a jego wpływ pozostaje w praktyce zaniedbywalny, poza teoretycznym atakiem zwanym "*time warp*".
+
 ### Reprezentacja docelowa
 
 

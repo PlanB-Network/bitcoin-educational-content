@@ -1463,7 +1463,7 @@ Sommige theorieën suggereren dat ruilhandel vooral werd gebruikt in internation
 
 
 
-Dus dat is wat we in dit hoofdstuk gaan doen. We gaan een soort overzicht geven van de verschillende theorieën over het ontstaan van geld en de verschillende definities van wat geld is. We zullen de stellingen van zowel klassieke economen als antropologen presenteren en bekritiseren. Ik heb zelfs het geluk om Ulrich Fromy bij me te hebben, die het perspectief van een Oostenrijkse econoom op deze verschillende onderwerpen zal presenteren.
+Dus dat is wat we in dit hoofdstuk gaan doen. We gaan een soort overzicht geven van de verschillende theorieën over het ontstaan van geld en de verschillende definities van wat geld is. We zullen de stellingen van zowel klassieke economen als antropologen presenteren en bekritiseren. Ik heb zelfs het geluk om Ulrich bij me te hebben, die het perspectief van een Oostenrijkse econoom op deze verschillende onderwerpen zal presenteren.
 
 
 

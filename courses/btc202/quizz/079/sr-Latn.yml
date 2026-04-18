@@ -5,5 +5,5 @@ wrong_answers:
   - 256 GiB
   - 128 GiB
 explanation: |
-  Datoteke blkNNNNN.dat skladište blokove sekvencijalno i dostižu veličinu od oko 128 MiB pre nego što Bitcoin core otvori sledeću.
+  Fajlovi blkNNNNN.dat skladište blokove jedan za drugim i rastu do približno 128 MiB, nakon čega Bitcoin Core kreira novi fajl.
 reviewed: true

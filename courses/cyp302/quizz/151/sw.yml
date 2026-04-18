@@ -6,4 +6,4 @@ wrong_answers:
   - Lazima iwe sawa na φ(N)
 explanation: |
   Katika RSA, kipeo e huchaguliwa kiasi kwamba ni kikubwa kuliko 2 na coprime na φ(N), ambayo inahakikisha usalama wa shughuli.
-reviewed: false
+reviewed: true

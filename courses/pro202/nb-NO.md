@@ -17,6 +17,7 @@ Dette intensive todagerskurset, undervist av Jimmy Song, tar deg dypt inn i Bitc
 
 Nyt reisen!
 
+Merk: Videoene til dette kurset er kun tilgjengelige på engelsk.
 
 +++
 

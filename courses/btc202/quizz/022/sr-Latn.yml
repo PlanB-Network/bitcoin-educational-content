@@ -1,5 +1,5 @@
-question: Prema teoriji perkolacije, šta osigurava prekoračenje kritičnog praga?
-answer: Propagacija transakcije kroz mrežu
+question: Prema teoriji perkolacije, šta obezbeđuje prekoračenje kritičnog praga?
+answer: Propagaciju transakcije kroz mrežu
 wrong_answers:
   - Trenutno kreiranje novog bloka
   - Automatsko suzbijanje troškova pomoću čvorova

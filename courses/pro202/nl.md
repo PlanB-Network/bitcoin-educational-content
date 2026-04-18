@@ -17,6 +17,7 @@ Deze intensieve tweedaagse cursus, gegeven door Jimmy Song, neemt je mee in de t
 
 Geniet van de reis!
 
+Opmerking: De video's voor deze cursus zijn alleen beschikbaar in het Engels.
 
 +++
 

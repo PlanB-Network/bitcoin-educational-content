@@ -1,9 +1,9 @@
-question: Koja je funkcija parametra assumevalid u Bitcoin core?
-answer: Ignoriši verifikaciju skripte pre bloka sa referencama
+question: Koja je funkcija assumevalid parametra u Bitcoin Core-u?
+answer: Ignorisanje verifikacije skripti pre određenog referentnog bloka
 wrong_answers:
-  - Ignoriši Proof-of-Work verifikaciju pre referentnog bloka
-  - Ignoriši proveru zaglavlja pre bloka referenci
-  - Primoraj Tor za otkrivanje vršnjaka
+  - Ignorisanje Proof-of-Work verifikacije pre određenog referentnog bloka
+  - Ignorisanje provere zaglavlja pre određenog referentnog bloka
+  - Primorati čvor da koristi Tor za pronalaženje drugih čvorova na mreži
 explanation: |
-  Assumevalid ubrzava IBD ignorišući verifikaciju skripti pre poznatog bloka, dok zadržava sve ostale validacije.
+  Assumevalid ubrzava IBD ignorišući verifikaciju skripti pre određenog referentnog bloka, dok zadržava sve ostale validacije.
 reviewed: true

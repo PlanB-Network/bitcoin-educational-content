@@ -3563,3 +3563,21 @@ Keinottelun lisääntyminen oli hyvä uutinen myös Mt. Goxille, joka kasvoi ja 
 ---
 
 Bitcoin:n rakentamista kevään 2011 ja kesän 2012 välisenä aikana koskeva kurssi päättyy tähän. Kryptovaluuttojen historian seuraava jakso, Bitcoin:n vastustamattoman nousun aika, käsitellään seuraavalla kurssilla, jos Jumala suo.
+# Conclusion
+
+<partId>85b5b21d-2754-41ad-9e25-21350488cfd3</partId>
+
+## Reviews & Ratings
+
+<chapterId>52d64403-1669-4852-ae4f-17ecfe1dc315</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Final Exam
+
+<chapterId>080fb5af-dfff-4600-95cb-61455831080f</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusion
+
+<chapterId>cd50980c-0c9e-43e5-97ec-4db79388335b</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

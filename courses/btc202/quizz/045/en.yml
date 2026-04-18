@@ -1,8 +1,8 @@
 question: What steps must be completed before UmbrelOS can be installed?
 answer: Create a bootable USB key with the image
 wrong_answers:
-  - Compiling Bitcoin core source code
-  - Formatting the Blockchain
+  - Compile Bitcoin core source code
+  - Formate the blockchain
   - Create an account on umbrel.com
 explanation: |
   Installation begins by preparing a bootable USB key with UmbrelOS via Balena Etcher.

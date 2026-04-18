@@ -1,0 +1,21 @@
+id: e9bce30a-eb18-43f0-bdc6-998fb2dbd9f7
+name: Arch
+category: service
+links:
+  website: https://www.archlending.com
+  twitter: https://x.com/ArchLending
+tags:
+  - finance
+  - investment
+  - business
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2026-03-19
+    urgency: 1
+    contributor_names:
+      - Rogzy-DB
+    reward: 0
+contributor_names:
+  - Rogzy-DB
+license: CC-BY-SA-V4

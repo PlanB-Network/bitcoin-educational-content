@@ -771,7 +771,7 @@ Par exemple, pour la Mésopotamie, une des théorie sur l’émergence est que l
 
 Pour le troc, certaines théories proposent qu’il aurait principalement été utilisé dans les échanges internationaux, donc avec les gens avec lesquels on n'a pas confiance, tout simplement.
 
-C'est donc le travail qu'on va faire dans cette partie. On va faire une sorte d'enquête pour présenter les différentes théories sur l'émergence de la monnaie et les différentes définitions de ce qu'est la monnaie. On va autant présenter et critiquer  les thèses des économistes classiques que les thèses des anthropologues. J'aurai même la chance d'avoir Ulrich Fromy avec moi, qui va nous présenter l'angle d'un économiste autrichien sur ces différents sujets.
+C'est donc le travail qu'on va faire dans cette partie. On va faire une sorte d'enquête pour présenter les différentes théories sur l'émergence de la monnaie et les différentes définitions de ce qu'est la monnaie. On va autant présenter et critiquer  les thèses des économistes classiques que les thèses des anthropologues. J'aurai même la chance d'avoir Ulrich avec moi, qui va nous présenter l'angle d'un économiste autrichien sur ces différents sujets.
 
 ## L’émergence de la monnaie pour les économistes classiques
 <chapterId>1d3776cd-0dfd-5297-af48-c6f41e257a7e</chapterId>

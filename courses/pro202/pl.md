@@ -17,6 +17,7 @@ Ten intensywny dwudniowy kurs, prowadzony przez Jimmy'ego Songa, pozwala zagłę
 
 Miłej podróży!
 
+Uwaga: Filmy do tego kursu są dostępne tylko w języku angielskim.
 
 +++
 

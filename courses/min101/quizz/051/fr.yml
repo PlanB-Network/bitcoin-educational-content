@@ -6,4 +6,4 @@ wrong_answers:
   - L'or
 explanation: |
   Le minage est un travail de validation qui consomme de l’électricité via des ordinateurs.
-reviewed: false
+reviewed: true 

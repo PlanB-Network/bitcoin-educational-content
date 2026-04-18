@@ -6,4 +6,4 @@ wrong_answers:
   - 50
 explanation: |
   Une multiplication par 1 000 a eu lieu sur cette période, notamment à cause de l'utilisaiton des GPU.
-reviewed: false
+reviewed: true 

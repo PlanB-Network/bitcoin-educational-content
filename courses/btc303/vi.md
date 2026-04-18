@@ -39,6 +39,34 @@ Cuốn sách được ủy quyền và tài trợ bởi [Chaincode Labs](https:/
 
 +++
 
+
+
+# Giới thiệu
+
+<partId>58c48e9b-e285-4dc6-8952-6cc5140b1313</partId>
+
+## Tổng quan khóa học
+
+<chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
+
+Chào mừng bạn đến với khóa học BTC 303 về triết lý phát triển Bitcoin.
+
+Bitcoin không chỉ đơn thuần là một loại tiền điện tử, nó còn thể hiện một tầm nhìn triết học về phi tập trung, quyền riêng tư, tính trung thực và khả năng phục hồi. Khóa học này được thiết kế dành riêng cho các nhà phát triển đã quen thuộc với nền tảng kỹ thuật của Bitcoin và hiện đang muốn tìm hiểu sâu hơn về các nguyên tắc làm nền tảng cho thiết kế và quản trị của Bitcoin.
+
+Xuyên suốt khóa học này, bạn sẽ hiểu rõ hơn về các giá trị và chiến lược thiết yếu đã định hướng sự phát triển của Bitcoin trong hơn một thập kỷ qua. Bằng cách khám phá sâu sắc các chủ đề này, bạn sẽ phát triển được tư duy phản biện cần thiết để đánh giá và đóng góp vào những phát triển trong tương lai một cách tự tin.
+
+### Các giá trị cốt lõi của Bitcoin
+
+Điều gì làm cho Bitcoin trở nên độc đáo? Phần này sẽ tiết lộ các giá trị nền tảng cốt lõi trong thiết kế của Bitcoin. Bạn sẽ khám phá **phi tập trung**, nền tảng đảm bảo không một thực thể nào kiểm soát mạng lưới; **không cần tin tưởng**, chìa khóa để loại bỏ sự phụ thuộc vào bên thứ ba; **quyền riêng tư**, thiết yếu cho cả tự do cá nhân và tính toàn vẹn của hệ thống; và **nguồn cung hữu hạn**, sự đảm bảo được mã hóa về sự khan hiếm định hình bản sắc kinh tế của Bitcoin. Nắm vững các khái niệm này sẽ cho phép bạn hiểu đầy đủ các điểm mạnh và điểm yếu của Bitcoin.
+
+### Quản trị Bitcoin
+
+Việc điều hướng trong bối cảnh quản trị phức tạp của Bitcoin đòi hỏi nhiều hơn là chỉ chuyên môn kỹ thuật, mà còn cần hiểu rõ cách tiếp cận độc đáo của Bitcoin đối với sự đồng thuận và ra quyết định. Trong phần này, bạn sẽ đi sâu vào các cơ chế và triết lý đằng sau các quy trình quan trọng như nâng cấp giao thức, sự cần thiết của tư duy phản biện, sức mạnh của sự hợp tác mã nguồn mở, những thách thức liên tục về khả năng mở rộng và các chiến lược tinh tế cần thiết khi mọi thứ không thể tránh khỏi sai sót. Được trang bị kiến thức này, bạn sẽ không chỉ sẵn sàng tham gia mà còn có thể định hình tương lai của Bitcoin một cách hiệu quả và có trách nhiệm.
+
+Bạn đã sẵn sàng bước tiếp trên hành trình Bitcoin của mình chưa? Hãy bắt đầu nào!
+
+
+
 # Bitcoin Giá trị trung tâm
 
 <partId>2d6c683b-54c8-5465-b2ca-4e96a6828834</partId>

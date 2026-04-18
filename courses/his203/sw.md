@@ -3563,3 +3563,21 @@ Ongezeko la uvumi pia lilikuwa habari njema kwa Mt. Gox, ambayo ilikua kubwa zai
 ---
 
 Kozi ya ujenzi wa Bitcoin kati ya majira ya kuchipua ya 2011 na kiangazi cha 2012 inaishia hapa. Kipindi kijacho cha historia ya sarafu za kidijitali, kile cha kupanda kwa Bitcoin bila kipingamizi, kitaangaziwa katika kozi inayofuata, Mungu akipenda.
+# Conclusion
+
+<partId>85b5b21d-2754-41ad-9e25-21350488cfd3</partId>
+
+## Reviews & Ratings
+
+<chapterId>52d64403-1669-4852-ae4f-17ecfe1dc315</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Final Exam
+
+<chapterId>080fb5af-dfff-4600-95cb-61455831080f</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusion
+
+<chapterId>cd50980c-0c9e-43e5-97ec-4db79388335b</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

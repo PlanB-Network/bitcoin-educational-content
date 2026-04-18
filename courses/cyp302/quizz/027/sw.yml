@@ -1,4 +1,4 @@
-question: Je, ni mali gani ya mabadiliko ya operesheni ya XOR?
+question: Je, sifa ya ubadilishanaji ya operesheni ya XOR ni gani?
 answer: Utaratibu wa uendeshaji hauathiri matokeo ya operesheni
 wrong_answers:
   - XOR inafanya kazi na nambari sawa pekee
@@ -6,4 +6,4 @@ wrong_answers:
   - Msimamo wa bits katika uendeshaji hauathiri matokeo ya operesheni
 explanation: |
   XOR ni ya kubadilishana, kumaanisha kuwa XOR b ni sawa na b XOR a.
-reviewed: false
+reviewed: true

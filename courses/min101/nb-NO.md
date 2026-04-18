@@ -924,6 +924,8 @@ Det er en viktig detalj å merke seg når det gjelder denne justeringen: **den e
 
 
 
+Legg også merke til at Bitcoins vanskelighetsjustering i virkeligheten ikke er helt nøyaktig. Vi har sett at den er programmert til å beregne vanskelighetsgraden på nytt hver 2016. blokk, ved å sammenligne den faktiske tiden som har gått med måltiden på 14 dager (2016 × 10 minutter). Men Satoshis originale kode inneholder en såkalt "*off-by-one*"-feil: i stedet for å måle tiden mellom de siste blokkene i hver periode (altså 2016 intervaller), måler den tiden mellom den første og den siste blokken, som bare er 2015 intervaller. Konkret beregnes vanskelighetsgraden som om perioden bare besto av 2015 blokker i stedet for 2016. Konsekvensen er at vanskelighetsgraden systematisk er litt overvurdert, noe som gjør at blokker i gjennomsnitt utvinnes litt saktere enn målet på 10 minutter (omtrent 0,05 % saktere). Denne feilen er godt kjent, men har aldri blitt rettet, da en endring ville kreve en hard fork og dens innvirkning forblir ubetydelig i praksis, bortsett fra det teoretiske angrepet kalt "*time warp*".
+
 ### Målrepresentasjon
 
 

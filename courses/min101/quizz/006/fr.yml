@@ -5,5 +5,5 @@ wrong_answers:
   - Signaler la version du bloc
   - Connaître la difficulté du bloc
 explanation: |
-  La racine de Merkle résume l’ensemble des transactions ; si l’une change, la racine change aussi.
-reviewed: false
+  La racine de Merkle résume l’ensemble des transactions ; si l'une change, la racine change aussi.
+reviewed: true 

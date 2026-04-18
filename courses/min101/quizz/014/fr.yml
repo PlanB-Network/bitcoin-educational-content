@@ -6,4 +6,4 @@ wrong_answers:
   - SHA512d
 explanation: |
   Le minage de Bitcoin utilise SHA256 appliquée deux fois, généralement noté SHA256d.
-reviewed: false
+reviewed: true 

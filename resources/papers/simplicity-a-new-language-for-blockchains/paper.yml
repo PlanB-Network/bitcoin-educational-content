@@ -1,0 +1,18 @@
+title: "Simplicity: A New Language for Blockchains"
+original_language: en
+authors:
+  - Russell O'Connor
+abstract: |
+  Simplicity is a typed, combinator-based, functional language without loops and recursion, designed for cryptocurrencies and blockchain applications. It aims to improve upon existing languages like Bitcoin Script and Ethereum's EVM while avoiding their problems. Simplicity comes with formal denotational semantics defined in Coq and operational semantics defined with an abstract machine called the Bit Machine. Owing to its Turing incompleteness, Simplicity is amenable to static analysis that can derive upper bounds on computational resources needed prior to execution. While Turing incomplete, Simplicity can express any finitary function, which is sufficient for building useful smart contracts for blockchain applications.
+publication_date: 2017-12-13
+paper_type: whitepaper
+source: Blockstream
+type: SCI
+topics:
+  - Smart Contract Languages
+  - Formal Verification
+  - Static Analysis
+  - Blockchain Programming Languages
+  - Turing Incompleteness
+pdf_url: https://blockstream.com/simplicity.pdf
+id: c2034432-42fd-4406-9c29-36938f5ecd5f

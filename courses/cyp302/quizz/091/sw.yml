@@ -6,4 +6,4 @@ wrong_answers:
   - Cipher ya mtiririko wa block cipher haiwezi kutumika kwa data kubwa.
 explanation: |
   Cipher ya mtiririko wa awali, kama Salsa20, imeundwa bila ya msimbo wa kuzuia, wakati mkondo wa cipher cipher hutumia block cipher kama msingi wake, iliyorekebishwa ili kutoa mtiririko wa usimbaji fiche.
-reviewed: false
+reviewed: true

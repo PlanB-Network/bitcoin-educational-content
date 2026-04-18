@@ -12,6 +12,9 @@ objectives:
 Nini kinachohitajika kujenga kwenye Bitcoin? Kozi hii ya masaa 20 inakupeleka chini ya uso wa Bitcoin na Mtandao wa Lightning, ikichunguza protocol zinazoendesha miundombinu ya kifedha yenye nguvu zaidi duniani. Iwe unataka kuchangia miradi ya chanzo wazi au kujenga kizazi kijacho cha programu za Bitcoin, utapata kina cha kiufundi kinachohitajika kuanza kufanya kazi kwa ujasiri katika mfumo huu ikolojia.
 
 Iliyorekodiwa wakati wa bootcamp ya CUBO+ 2023 nchini El Salvador, kozi hii inakusanya mitazamo kutoka kwa wasanidi programu wakuu wa Bitcoin na waelimishaji ambao wameunda teknolojia hiyo. Sehemu bora zaidi? Ni bure kabisa, imewezeshwa na Fulgure Ventures, Bitcoin Office na DecouvreBitcoin. Ikiwa umekuwa na udadisi kuhusu jinsi Bitcoin inavyofanya kazi kweli katika kiwango cha itifaki, hii ni fursa yako ya kujua.
+
+Kumbuka: Video za kozi hii zinapatikana kwa Kiingereza pekee.
+
 +++
 # Kozi za utangulizi na maandalizi
 

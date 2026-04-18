@@ -924,6 +924,8 @@ U této úpravy je třeba upozornit na jeden důležitý detail: **je omezena**.
 
 
 
+Všimněme si také, že ve skutečnosti není úprava obtížnosti Bitcoinu dokonale přesná. Viděli jsme totiž, že je plánováno přepočítávání obtížnosti každých 2016 bloků, a to porovnáním skutečného uplynulého času s cílovým časem 14 dní (2016 × 10 minut). Původní Satoshiho kód však obsahuje chybu zvanou "*off-by-one*": místo měření času mezi posledními bloky každého období (tedy 2016 intervalů) měří čas mezi prvním a posledním blokem, což je pouze 2015 intervalů. Konkrétně se obtížnost vypočítává, jako by období obsahovalo pouze 2015 bloků namísto 2016. Důsledkem je, že obtížnost je systematicky velmi mírně nadhodnocena, což znamená, že bloky jsou těženy v průměru o něco pomaleji než cílových 10 minut (přibližně o 0,05 % pomaleji). Tato chyba je dobře známá, ale nikdy nebyla opravena, protože její změna by vyžadovala hard fork a její dopad zůstává v praxi zanedbatelný, s výjimkou teoretického útoku zvaného "*time warp*".
+
 ### Cílové zastoupení
 
 

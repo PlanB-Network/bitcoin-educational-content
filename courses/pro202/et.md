@@ -17,6 +17,7 @@ See intensiivne kahepäevane kursus, mida õpetab Jimmy Song, viib teid sügaval
 
 Nautige reisi!
 
+Märkus: Selle kursuse videod on saadaval ainult inglise keeles.
 
 +++
 

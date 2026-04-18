@@ -924,6 +924,8 @@ Postoji važan detalj koji treba napomenuti u vezi sa ovom prilagodbom: **ona je
 
 
 
+Napomenimo takođe da u stvarnosti prilagođavanje težine Bitcoina nije savršeno tačno. Zaista, videli smo da je predviđeno ponovno izračunavanje težine na svakih 2016 blokova, poređenjem stvarnog proteklog vremena sa ciljanim vremenom od 14 dana (2016 × 10 minuta). Međutim, Satošijev originalni kod sadrži grešku zvanu "*off-by-one*": umesto da meri vreme između poslednjih blokova svakog perioda (odnosno 2016 intervala), on meri vreme između prvog i poslednjog bloka, što je samo 2015 intervala. Konkretno, težina se izračunava kao da period sadrži samo 2015 blokova umesto 2016. Posledica je da je težina sistematski vrlo blago precenjena, što dovodi do toga da se blokovi u proseku rudare malo sporije od ciljanih 10 minuta (oko 0,05% sporije). Ovaj bag je dobro poznat, ali nikada nije ispravljen, jer bi njegova izmena zahtevala hard fork, a njegov uticaj u praksi ostaje zanemarljiv, osim kod teoretskog napada zvanog "*time warp*".
+
 ### Ciljana reprezentacija
 
 

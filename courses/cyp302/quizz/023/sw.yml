@@ -1,4 +1,4 @@
-question: Je! ni nini jukumu la operesheni ya modulo katika usimbaji fiche wa shift?
+question: Je! ni nini jukumu la operesheni ya modulo katika usimbaji fiche wa kuhama?
 answer: Inahakikisha kuwa herufi zinarudi mwanzo wa alfabeti zikizidi 26
 wrong_answers:
   - Inazidisha maadili ya herufi kwa ufunguo
@@ -6,4 +6,4 @@ wrong_answers:
   - Inafuta herufi baada ya herufi Z
 explanation: |
   Uendeshaji wa modulo 26 huruhusu herufi kurudi nyuma baada ya Z ili kuhakikisha kwamba kila herufi iliyosimbwa inasalia ndani ya herufi 26 za alfabeti.
-reviewed: false
+reviewed: true

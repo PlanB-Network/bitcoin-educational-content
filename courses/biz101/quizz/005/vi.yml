@@ -5,5 +5,5 @@ wrong_answers:
   - Bitcoin có thể phát hành các đơn vị tiền tệ mới theo yêu cầu của bất kỳ người dùng nào.
   - Bitcoin cần có ngân hàng để xác minh và giải quyết mọi giao dịch.
 explanation: |
-  Bitcoin hoạt động như một mạng lưới phi tập trung, cho phép bất kỳ ai cũng có thể tham gia mà không cần xin phép. Các giao dịch được xác thực bởi các máy chủ và thợ đào, chứ không phải bởi một cơ quan trung ương.
+  Bitcoin hoạt động như một mạng lưới phi tập trung, cho phép bất kỳ ai cũng có thể tham gia mà không cần xin phép. Các giao dịch được xác thực bởi các nút và thợ đào, chứ không phải bởi một cơ quan trung ương.
 reviewed: true

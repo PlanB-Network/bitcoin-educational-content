@@ -1,9 +1,9 @@
-question: Xu hướng của những người tham gia vận hành các node (máy chủ) trên Lightning Network (mạng Lightning) như thế nào?
-answer: Những người tham gia vận hành node (máy chủ) chuyên nghiệp cung cấp tính thanh khoản ngày càng tăng, trong khi người dùng cá nhân tập trung vào các node (máy chủ) đơn giản hoá dần thay đổi thành phần của mạng lưới.
+question: Xu hướng của những người tham gia vận hành các nút trên Lightning Network (mạng Lightning) như thế nào?
+answer: Những người tham gia vận hành nút chuyên nghiệp cung cấp tính thanh khoản ngày càng tăng, trong khi người dùng cá nhân tập trung vào các nút đơn giản hoá dần thay đổi thành phần của mạng lưới.
 wrong_answers:
   - Những người tham gia cá nhân đã thay thế hoàn toàn những người tham gia chuyên nghiệp.
-  - Các ngân hàng lớn hiện đang vận hành tập trung tất cả các node (máy chủ) Lightning.
-  - Mạng đã đóng các node (máy chủ) cá nhân để chỉ cho phép các tập đoàn lớn tham gia.
+  - Các ngân hàng lớn hiện đang vận hành tập trung tất cả các nút Lightning.
+  - Mạng đã đóng các nút cá nhân để chỉ cho phép các tập đoàn lớn tham gia.
 explanation: |
   Tính thanh khoản có xu hướng ổn định hơn và do các tổ chức chuyên nghiệp cung cấp, trong khi người dùng thông thường dựa vào các giải pháp đơn giản hóa hoặc lưu trữ, giúp mạng lưới dễ tiếp cận và mạnh mẽ hơn.
 reviewed: true

@@ -1,0 +1,16 @@
+id: 031988cd-497b-4d9c-8ef9-38cf777b5d3f
+name: Lightning Piggy
+category: education
+links:
+  website: https://lightningpiggy.com/
+  twitter: https://x.com/LightningPiggy
+  github: https://github.com/LightningPiggy
+  nostr: https://njump.me/npub1y2qcaseaspuwvjtyk4suswdhgselydc42ttlt0t2kzhnykne7s5swvaffq
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: '2026-04-22'
+    urgency: 1
+    contributor_names:
+      - Richard
+    reward: 0

@@ -67,7 +67,7 @@ Para ideolog seperti Destutt de Tracy, Cabanis, dan Volney, yang aktif selama Re
 
 
 
-Fakta mendasar pertama yang mereka identifikasi adalah bahwa manusia merupakan sebuah tubuh yang selalu menempati ruang fisik. Ketika seseorang tidur di tempat tidur, mereka menempati secara eksklusif - bahkan dalam masyarakat kolektivis, tempat tidur adalah milik mereka secara de facto saat mereka menggunakannya. Dengan demikian, Ownership muncul bukan sebagai konstruksi sosial yang sewenang-wenang, tetapi sebagai konsekuensi langsung dari keberadaan tubuh kita. Lebih mendasar lagi, perampasan tampaknya diperlukan oleh alam: untuk memakan apel berarti harus merampasnya; untuk bernapas membutuhkan perampasan udara. Oleh karena itu, Ownership adalah realitas yang berakar pada keberadaan fisik kita, bukan konvensi yang dapat diubah sesuka hati.
+Fakta mendasar pertama yang mereka identifikasi adalah bahwa manusia merupakan sebuah tubuh yang selalu menempati ruang fisik. Ketika seseorang tidur di tempat tidur, mereka menempati secara eksklusif - bahkan dalam masyarakat kolektivis, tempat tidur adalah milik mereka secara de facto saat mereka menggunakannya. Dengan demikian, kepemilikan muncul bukan sebagai konstruksi sosial yang sewenang-wenang, tetapi sebagai konsekuensi langsung dari keberadaan tubuh kita. Lebih mendasar lagi, perampasan tampaknya diperlukan oleh alam: untuk memakan apel berarti harus merampasnya; untuk bernapas membutuhkan perampasan udara. Oleh karena itu, kepemilikan adalah realitas yang berakar pada keberadaan fisik kita, bukan konvensi yang dapat diubah sesuka hati.
 
 
 
@@ -166,7 +166,7 @@ Jules Simon menunjukkan bahwa gagasan ekonomi yang kompleks seperti modal atau k
 
 
 
-### Ownership benda dan tanah
+### Kepemilikan benda dan tanah
 
 
 
@@ -186,7 +186,7 @@ Kepemilikan lahan merupakan perpanjangan dari logika ini, dan didasarkan pada ke
 
 
 
-Ownership dapat diamati di semua usia dan masyarakat. Fase perkembangan manusia sesuai dengan bentuk properti yang berbeda, tergantung pada kondisi produksi, tetapi prinsip dasarnya tetap sama.
+Kepemilikan dapat diamati di semua usia dan masyarakat. Fase perkembangan manusia sesuai dengan bentuk properti yang berbeda, tergantung pada kondisi produksi, tetapi prinsip dasarnya tetap sama.
 
 
 
@@ -194,7 +194,7 @@ Gagasan ini bahkan dapat diamati di antara hewan, yang berbagi ruang dan wilayah
 
 
 
-Bentuk perburuan kolektif ini dapat dijelaskan oleh kondisi produksi. Perburuan tidak dapat dilakukan di area terbatas, karena hewan bergerak di wilayah yang luas. Ownership sudah ada, tetapi disesuaikan dengan kendala teknis pada saat itu.
+Bentuk perburuan kolektif ini dapat dijelaskan oleh kondisi produksi. Perburuan tidak dapat dilakukan di area terbatas, karena hewan bergerak di wilayah yang luas. Kepemilikan sudah ada, tetapi disesuaikan dengan kendala teknis pada saat itu.
 
 
 
@@ -582,7 +582,7 @@ Analisis historis mendapatkan relevansinya ketika berfokus pada penaklukan kebeb
 
 
 
-Masyarakat kuno, Zaman Kuno dan Abad Pertengahan, terorganisir secara berbeda karena teknik produksi mereka berbeda secara radikal. Sistem politik tidak sembarangan, tetapi dipaksakan sesuai dengan keadaan material. Beberapa transisi besar menandai perkembangan ini: permulaan pertanian, transisi dari perbudakan ke perbudakan, lahirnya industri, penemuan besar seperti mesin uap, dan penemuan benua baru, yang membuka pasar dan menciptakan kondisi untuk persaingan.
+Masyarakat kuno, Zaman Kuno dan Abad Pertengahan, terorganisir secara berbeda karena teknik produksi mereka berbeda secara radikal. Sistem politik tidak sembarangan, tetapi dipaksakan sesuai dengan keadaan material. Beberapa transisi besar menandai perkembangan ini: permulaan pertanian, transisi dari perbudakan ke perhambaan, lahirnya industri, penemuan besar seperti mesin uap, dan penemuan benua baru, yang membuka pasar dan menciptakan kondisi untuk persaingan.
 
 
 
@@ -632,7 +632,7 @@ Studi sejarah tentang kebebasan mengungkapkan perkembangan yang menarik, menguba
 
 
 
-Kelahiran pertanian merupakan titik balik sejarah yang besar. Revolusi ini memperkenalkan produksi secara damai, memungkinkan akumulasi sumber daya yang berlebih dan pengembangan perdagangan. Pada saat yang sama, hubungan kontraktual muncul, memperkenalkan interaksi yang didasarkan pada kesepakatan bersama dan bukan paksaan. Beberapa transisi besar menandai perkembangan ini: transisi dari perbudakan ke perbudakan, lahirnya industri skala kecil, penemuan-penemuan besar seperti mesin uap, dan penemuan benua-benua baru. Pembangunan infrastruktur transportasi dan perdagangan internasional memecah isolasi pasar lokal, mendorong persaingan dan menyeimbangkan ketidakpastian pertanian antar wilayah.
+Kelahiran pertanian merupakan titik balik sejarah yang besar. Revolusi ini memperkenalkan produksi secara damai, memungkinkan akumulasi sumber daya yang berlebih dan pengembangan perdagangan. Pada saat yang sama, hubungan kontraktual muncul, memperkenalkan interaksi yang didasarkan pada kesepakatan bersama dan bukan paksaan. Beberapa transisi besar menandai perkembangan ini: transisi dari perbudakan ke perhambaan, lahirnya industri skala kecil, penemuan-penemuan besar seperti mesin uap, dan penemuan benua-benua baru. Pembangunan infrastruktur transportasi dan perdagangan internasional memecah isolasi pasar lokal, mendorong persaingan dan menyeimbangkan ketidakpastian pertanian antar wilayah.
 
 
 
@@ -765,7 +765,7 @@ Arah produksi mematuhi apa yang dikenal sebagai hukum alam, yang menyatakan bahw
 
 
 
-### Exchange sebagai permainan jumlah positif
+### Pertukaran sebagai permainan jumlah positif
 
 
 
@@ -1206,7 +1206,7 @@ Kegagalan kebebasan memiliki sejarah intelektual yang panjang, dimulai dari para
 
 
 
-Para ahli fisiokrasi, termasuk Louis-Paul Abeille, Turgot, Marquis de Mirabeau, dan Dupont de Nemours, mengembangkan argumen-argumen yang tegas untuk menentang perencanaan negara. Mereka menunjukkan bahwa upaya negara untuk mengatur produksi pangan, menetapkan harga, mencegah perpindahan sumber daya antar wilayah, atau melarang pertukaran tertentu, tidak akan berhasil. Kekuatan politik tidak memiliki apa yang mereka sebut sebagai mata tuan, yaitu kemampuan untuk melihat realitas ekonomi yang hanya dimiliki oleh individu dalam kehidupan sehari-hari. Fenomena ekonomi, terutama dalam kasus komoditas sepenting gandum, terjadi dalam skala yang terlalu besar dan kompleks untuk dipahami dengan baik oleh otoritas pusat.
+Para ahli fisiokrasi, termasuk Louis-Paul Abeille, Turgot, Marquis de Mirabeau, dan Dupont de Nemours, mengembangkan argumen-argumen yang tegas untuk menentang perencanaan negara. Mereka menunjukkan bahwa upaya negara untuk mengatur produksi pangan, menetapkan harga, mencegah perpindahan sumber daya antar wilayah, atau melarang pertukaran tertentu, tidak akan berhasil. Kekuatan politik tidak memiliki apa yang mereka sebut sebagai mata sang pemilik, yaitu kemampuan untuk melihat realitas ekonomi yang hanya dimiliki oleh individu dalam kehidupan sehari-hari. Fenomena ekonomi, terutama dalam kasus komoditas sepenting gandum, terjadi dalam skala yang terlalu besar dan kompleks untuk dipahami dengan baik oleh otoritas pusat.
 
 
 
@@ -1554,7 +1554,7 @@ Kontrak adalah elemen fundamental yang mendasari masyarakat bebas, karena kontra
 
 
 
-Exchange dan kontrak saling memperkaya, karena setiap individu menemukan kepuasan dalam bertindak dengan cara ini daripada berpantang. Kontrak selalu mewakili satu pilihan di antara pilihan-pilihan yang lain, dan ketika seseorang memilih untuk menandatangani kontrak untuk menukarkan produk atau jasa, hal ini karena ia merasa bahwa melakukan transaksi ini menguntungkan. Kontrak sukarela juga merupakan semen dari masyarakat itu sendiri, yang dapat didefinisikan sebagai banyaknya pertukaran antar individu. Tanpa pertukaran atau kontrak, masyarakat hanya ada dalam kenyataan, tetapi mengambil bentuk nyata melalui kontrak dan asosiasi sukarela. Fungsi kontrak ini merupakan fondasi harmoni dan perdamaian sosial, karena didasarkan pada hubungan yang saling menguntungkan dan dinegosiasikan secara bebas.
+Pertukaran dan kontrak saling memperkaya, karena setiap individu menemukan kepuasan dalam bertindak dengan cara ini daripada berpantang. Kontrak selalu mewakili satu pilihan di antara pilihan-pilihan yang lain, dan ketika seseorang memilih untuk menandatangani kontrak untuk menukarkan produk atau jasa, hal ini karena ia merasa bahwa melakukan transaksi ini menguntungkan. Kontrak sukarela juga merupakan semen dari masyarakat itu sendiri, yang dapat didefinisikan sebagai banyaknya pertukaran antar individu. Tanpa pertukaran atau kontrak, masyarakat hanya ada dalam kenyataan, tetapi mengambil bentuk nyata melalui kontrak dan asosiasi sukarela. Fungsi kontrak ini merupakan fondasi harmoni dan perdamaian sosial, karena didasarkan pada hubungan yang saling menguntungkan dan dinegosiasikan secara bebas.
 
 
 
@@ -1807,7 +1807,7 @@ Pemeriksaan terhadap kondisi historis dari kebebasan mengungkapkan bahwa hal itu
 
 
 
-Bagian ketiga dari kursus ini mengeksplorasi mekanisme konkret di mana kebebasan menghasilkan efek yang menguntungkan. Harga dan keuntungan memainkan peran penting dalam proses ini, memungkinkan pertukaran bebas untuk mencapai hasil yang memuaskan bagi semua peserta. Exchange dan kontrak menjadi dasar dari sistem ini, memastikan bahwa setiap transaksi saling menguntungkan bagi semua pihak. Pemenuhan kebutuhan dan kenikmatan material dan intelektual yang dicita-citakan setiap individu menemukan pemenuhan alamiahnya dalam kebebasan ekonomi.
+Bagian ketiga dari kursus ini mengeksplorasi mekanisme konkret di mana kebebasan menghasilkan efek yang menguntungkan. Harga dan keuntungan memainkan peran penting dalam proses ini, memungkinkan pertukaran bebas untuk mencapai hasil yang memuaskan bagi semua peserta. Pertukaran dan kontrak menjadi dasar dari sistem ini, memastikan bahwa setiap transaksi saling menguntungkan bagi semua pihak. Pemenuhan kebutuhan dan kenikmatan material dan intelektual yang dicita-citakan setiap individu menemukan pemenuhan alamiahnya dalam kebebasan ekonomi.
 
 
 

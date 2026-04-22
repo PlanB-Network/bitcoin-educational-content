@@ -385,7 +385,7 @@ Haciye nk’imyaka 6.000, mu biyaya vyiza vyo muri Misiri no muri Mezopotamiya, 
 
 
 
-Nko mu mwaka wa 3500 imbere ya Kristu, Uruk ni co cabaye igisagara kinini kuruta ibindi vyose kw'isi, gishika ku rwego rwo hejuru nko mu mwaka wa 2800 imbere ya Kristu, gifise abantu bashika 80.000. Muri ico gihe, hari ibintu bibiri bihambaye bishasha vyagaragaje cane imibereho yaba sumérienne: ukuza kw’intwaro itunganijwe ishobora gutwara Leta nyakuri, hamwe nivuka ryiterambere ryokwandika.
+Nko mu mwaka wa 3500 imbere ya Kristu, Uruk ni co cabaye igisagara kinini kuruta ibindi vyose kw'isi, gishika ku rwego rwo hejuru nko mu mwaka wa 2800 imbere ya Kristu, gifise abantu bashika 80.000. Muri ico gihe, hari ibintu bibiri bihambaye bishasha vyagaragaje cane imibereho yaba sumériens: ukuza kw’intwaro itunganijwe ishobora gutwara Leta nyakuri, hamwe nivuka ryiterambere ryokwandika.
 
 
 
@@ -409,7 +409,7 @@ Aha musi, urashobora kubona ikigura gisubiwemwo canditseko inyandiko ya cunéifo
 
 
 
-Ndafise kandi ico nibaza ko ari igisate(ikigura) c’ukuri c’ikisumeri caba sumérienne cari gifise akajambo gatoyi k’inyandiko za cuneiforme hagati. Kuri iki gipande(ikigura), hariho amasinyatire yakozwe mukuzinga umuzingo, nzokwereka inyuma.
+Ndafise kandi ico nibaza ko ari igisate(ikigura) c’ukuri c’ikisumeri caba sumériens cari gifise akajambo gatoyi k’inyandiko za cuneiforme hagati. Kuri iki gipande(ikigura), hariho amasinyatire yakozwe mukuzinga umuzingo, nzokwereka inyuma.
 
 
 
@@ -628,13 +628,13 @@ Muri iki gice citwa "Ivyiyumviro bikomeye vy'Ikinjana ca bronze", tuzotangura n'
 
 
 
-> Toynbee yerekana "imico kama" itandukanye nka mirongo ibiri n'umwe, ariko kubera ko cumi n'itanu muri izo zavuye mu buryo buziguye canke butaziguye ku ngero za kera, agabanya igitigiri c'imico kama yateye imbere yigenga, akayigira itandatu: Aba sumérienne, Abanyamisiri, aba minoenne, Abashinwa, Aba maya n'andine. Muri abo, Abanya Incas bo mu misozi ya Andes ni bo bonyene bashoboye gushika ku rugero rwo hejuru rw’ubutekerezi batakoresheje amahera, naho nyene mu buryo butangaje bari bafise ibikoresho vyinshi muri rusangi bibonwa ko ari vyo vyiza kuruta ibindi vyose vyo gukoresha nk’amahera - inzahabu n’ifeza.
+> Toynbee yerekana "imico kama" itandukanye nka mirongo ibiri n'umwe, ariko kubera ko cumi n'itanu muri izo zavuye mu buryo buziguye canke butaziguye ku ngero za kera, agabanya igitigiri c'imico kama yateye imbere yigenga, akayigira itandatu: Aba sumériens, Abanyamisiri, aba minoens, Abashinwa, Aba maya n'andine. Muri abo, Abanya Incas bo mu misozi ya Andes ni bo bonyene bashoboye gushika ku rugero rwo hejuru rw’ubutekerezi batakoresheje amahera, naho nyene mu buryo butangaje bari bafise ibikoresho vyinshi muri rusangi bibonwa ko ari vyo vyiza kuruta ibindi vyose vyo gukoresha nk’amahera - inzahabu n’ifeza.
 
 Abanya-Inca ntibari bafise uburyo bwo gukoresha amahera, mugabo bari bafise ivyuma vy’agaciro vyinshi cane. Ivyo bikaba bitangaje cane. Reka tubandanye n’ivyo twavuze:
 
 
 
-> Uko igihugu kirushiriza kugira integuro irimwo ubwenge, niko uburyo bwaco bwo gutegura bukora neza cane, ni ko n’ugukoresha amahera bigenda bigabanuka ku baturage baco. Ivyo bishobora gusigura igituma abaturage b’Aba espagnol bavumbuye ko Abanya mexique, intwaro yabo yari ifise umwidegemvyo mwinshi, bakoresha ubudasiba ifu y’inzahabu (ibikwa mu bikoresho bibonerana) n’ibitoke vya kakawo (ibikwa kugira ngo umuntu yishure amahera menshi mu mifuko y’ibice 24.000) nk’amahera, mu gihe ibitandukanye nivyo,aba incas, bakoresha urukurikirane rwinzego rukomye ,ntamafaranga bakoresha : ikintu kidasanzwe cemezwa n’itegeko rikomeye. Inkomoko y’amahera mu Bushinwa yari yigenga rwose ku bindi bihugu; ariko rero, ukuntu ubuhinga bw’Aba sumérienne, Abanyamisiri n’Aba minoenne bwasize amakenga ku bijanye n’ingene umwe wese muri bo atamenya ingene uburyo bwamahera bukora, canecane turavye ubudandaji bwinshi bwashinzwe kuva mu bihe vya kera cane.
+> Uko igihugu kirushiriza kugira integuro irimwo ubwenge, niko uburyo bwaco bwo gutegura bukora neza cane, ni ko n’ugukoresha amahera bigenda bigabanuka ku baturage baco. Ivyo bishobora gusigura igituma abaturage b’Aba espagnol bavumbuye ko Abanya mexique, intwaro yabo yari ifise umwidegemvyo mwinshi, bakoresha ubudasiba ifu y’inzahabu (ibikwa mu bikoresho bibonerana) n’ibitoke vya kakawo (ibikwa kugira ngo umuntu yishure amahera menshi mu mifuko y’ibice 24.000) nk’amahera, mu gihe ibitandukanye nivyo,aba incas, bakoresha urukurikirane rwinzego rukomye ,ntamafaranga bakoresha : ikintu kidasanzwe cemezwa n’itegeko rikomeye. Inkomoko y’amahera mu Bushinwa yari yigenga rwose ku bindi bihugu; ariko rero, ukuntu ubuhinga bw’Aba sumériens, Abanyamisiri n’Aba minoens bwasize amakenga ku bijanye n’ingene umwe wese muri bo atamenya ingene uburyo bwamahera bukora, canecane turavye ubudandaji bwinshi bwashinzwe kuva mu bihe vya kera cane.
 
 
 Mu Bushinwa, ibiceri vyakozwe mu buryo butandukanye rwose n’imigenzo y’Abanyaburaya. Yari amahera ya fiat kuva mu ntango. Vyari "monnaie coulée.".
@@ -1036,7 +1036,7 @@ Mu ciyumviro canje giciye bugufi, si ubuhinga bukomeye cane. Yari yishingikirije
 
 
 
-Ubushinwa na bwo bwari ubwa mbere mu gukoresha amafaranga y’impapuro ya kera, mu ntango yakoreshejwe mu kwishura ikena y’ivyuma mu kinjana ca 9 inyuma ya Kristu. Naho mu ntango zari zifise akamaro, ayo mafaranga y’impapuro yaratuma habaho ukuduga  kw’ibiciro iyo yasohotse birenze urugero, nk’uko vyagaragaye mu bihe vya Song canke Ming, igihe gusohoka birenze urugero vyatuma haba ingorane zikomeye z’amahera, nk’uko vyagaragajwe na Marco Polo mu kinjana ca 13, avuga ko iyo umuntu yagerageza kwigana ayo mafaranga yahanishwa igihano c'urupfu. Nsishobora kurengana ntashimikiye kuri ik'ikintu cumukazo wakoreshwa.
+Ubushinwa na bwo bwari ubwa mbere mu gukoresha amafaranga y’impapuro ya kera, mu ntango yakoreshejwe mu kwishura ikena y’ivyuma mu kinjana ca 9 inyuma ya Kristu. Naho mu ntango zari zifise akamaro, ayo mafaranga y’impapuro yaratuma habaho ukuduga  kw’ibiciro iyo yasohotse birenze urugero, nk’uko vyagaragaye mu bihe vya Song canke Ming, igihe gusohoka birenze urugero vyatuma haba ingorane zikomeye z’amahera, nk’uko vyagaragajwe na Marco Polo mu kinjana ca 13, uwavuze mbere ko amafaranga y’impapuro ari yo atari yo. Ntaco nshobora gukora atari ukugaragaza uburyo bumwe bw’ubukazi hano.
 
 
 
@@ -1418,7 +1418,6 @@ Ubuhinga bwo gucura ibiceri n’amaboko umuntu ku giti ciwe birashoboka kuba vya
 
 ### iterambere ryo mu kinjana ca mbere
 
-hariho irindi somo nashaka kubabwira , ndashobora gukoresha ico cuma ngaha.
 Hari hariho isomo muri Moyen-Âge yo gupima igiceri , bakora ibiceri vyagutse kandi vyonze kandi imvo imwe yatumye ivyo babigira ni uko vyatuma vyoroha gupima hakoreshejwe ijwi ryavyo, ivyo bikaba vyari bikoreshwa kenshi nk’ikimenyetso c’uko igiceri ari cukuri. Mu guterera ifeza hasi, vyatuma ijwi ryumvikana, ku buryo abantu bashobora kwemeza ko ico gice c’ifeza cari cukuri mu kucumviriza gusa. Uwo mugenzo niwo wavyaye ijambo "argent sonnant". Mu bijanye n'amahera meza, uburemere busanzwe bwamenyekana hakoreshejwe umunzane canke "trebuchet" yo gupima. Gutyo, ubwihindurize bwarabandanije kuva ku biceri bitobito vy’ikibumbano gushika ku biceri vy’agaciro gatoyi kandi vyagutse.
 
 

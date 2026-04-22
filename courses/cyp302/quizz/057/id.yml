@@ -6,3 +6,4 @@ wrong_answers:
   - Sebuah grup tanpa elemen netral
 explanation: |
   Sebuah grup abelian adalah grup di mana urutan elemen dalam operasi tidak mempengaruhi hasilnya, yang berarti ia mengikuti sifat komutatif.
+reviewed: true

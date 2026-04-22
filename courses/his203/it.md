@@ -3563,3 +3563,22 @@ L'aumento della speculazione è stata una buona notizia anche per Mt. Gox, che d
 ---
 
 Il corso sulla costruzione di Bitcoin tra la primavera del 2011 e l'estate del 2012 termina qui. Il prossimo periodo della storia delle criptovalute, quello dell'irresistibile ascesa di Bitcoin, sarà trattato nel prossimo corso, a Dio piacendo.
+
+# Conclusion
+
+<partId>85b5b21d-2754-41ad-9e25-21350488cfd3</partId>
+
+## Reviews & Ratings
+
+<chapterId>52d64403-1669-4852-ae4f-17ecfe1dc315</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Final Exam
+
+<chapterId>080fb5af-dfff-4600-95cb-61455831080f</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusion
+
+<chapterId>cd50980c-0c9e-43e5-97ec-4db79388335b</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

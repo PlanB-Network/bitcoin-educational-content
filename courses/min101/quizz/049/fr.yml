@@ -3,7 +3,7 @@ answer: La variance des revenus
 wrong_answers:
   - La difficulté du réseau
   - La taille des blocs
-  - Le prix des ASIC
+  - Le prix des ASICs
 explanation: |
   En mutualisant le hashrate, une pool transforme un revenu très irrégulier en paiements plus réguliers. C'est une réduction de la variance des revenus pour le mineur.
-reviewed: false
+reviewed: true 

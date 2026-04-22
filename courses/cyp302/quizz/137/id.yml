@@ -6,4 +6,4 @@ wrong_answers:
   - Untuk memungkinkan pengguna masuk tanpa kata sandi
 explanation: |
   Dengan menyimpan hash kata sandi, bahkan dalam kejadian kebocoran data, kata sandi aktual tidak dapat dibaca secara langsung, sehingga meningkatkan keamanan.
-reviewed: false
+reviewed: true

@@ -1,9 +1,9 @@
 question: Wie viele Bitcoins wurden am 23. Juni 2011 von Mark Karpelès transferiert, um die Zahlungsfähigkeit der Mt. Gox-Plattform zu beweisen?
 answer: 424.242 Bitcoins
 wrong_answers:
-  - 666 Bitmünzen
-  - 1.337 Bitmünzen
-  - 21.210 Bitmünzen
+  - 666 Bitcoin
+  - 1.337 Bitcoin
+  - 21.210 Bitcoin
 explanation: |
  Dies entsprach ungefähr der Anzahl der Bitcoins, die das Unternehmen zu diesem Zeitpunkt besaß. Die Zahl 42 ist die Antwort auf "die große Frage nach dem Leben, dem Universum und
  alles andere" in H2G2.

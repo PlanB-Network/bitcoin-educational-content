@@ -1,9 +1,9 @@
 question: Which stage is part of a miner's role?
-answer: Building a candidate block from Mempool
+answer: Building a candidate block from the mempool
 wrong_answers:
-  - Validate the entire Blockchain from Mempool
-  - Create Bitcoin addresses for users
-  - Store private keys for wallets
+  - Validating the entire blockchain from the mempool
+  - Creating Bitcoin addresses for users
+  - Storing private keys for wallets
 explanation: |
-  A miner selects transactions from Mempool and builds a candidate block, which he attempts to validate by proof of work.
+  A miner selects transactions from mempool and builds a candidate block, which miner attempts to validate by proof of work.
 reviewed: true

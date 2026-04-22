@@ -1,63 +1,63 @@
 ---
 name: शैक्षिक उपकरण जोड़ना
-description: प्लानबी नेटवर्क पर नई शैक्षिक सामग्री कैसे जोड़ें?
+description: Plan ₿ Academy पर नई शैक्षिक सामग्री कैसे जोड़ें?
 ---
 ![event](assets/cover.webp)
 
 
-प्लानबी का मिशन Bitcoin पर अग्रणी शैक्षिक संसाधन उपलब्ध कराना है, जितना संभव हो उतनी भाषाओं में। साइट पर प्रकाशित सभी सामग्री ओपन-सोर्स है और GitHub पर होस्ट की गई है, जो किसी को भी प्लेटफ़ॉर्म को समृद्ध बनाने में भाग लेने की अनुमति देती है।
+PlanB का उद्देश्य Bitcoin विषय पर यथासंभव अधिक से अधिक भाषाओं में अग्रणी शैक्षिक संसाधन उपलब्ध कराना है। साइट पर प्रकाशित सभी सामग्री ओपन-सोर्स है और GitHub पर होस्ट की गई है, जिससे कोई भी व्यक्ति इस प्लेटफॉर्म को समृद्ध बनाने में योगदान दे सकता है।
 
 
-ट्यूटोरियल और प्रशिक्षण से परे, प्लानबी नेटवर्क Bitcoin पर विविध शैक्षिक सामग्री की एक विशाल लाइब्रेरी भी प्रदान करता है, जो सभी के लिए सुलभ है, ["BET" (_बिटकॉइन एजुकेशनल टूलकिट_) अनुभाग में](https://planb.academy/resources/bet)। इस डेटाबेस में शैक्षिक पोस्टर, मीम्स, विनोदी प्रचार पोस्टर, तकनीकी आरेख, लोगो और उपयोगकर्ताओं के लिए अन्य उपकरण शामिल हैं। इस पहल का लक्ष्य दुनिया भर में Bitcoin पढ़ाने वाले व्यक्तियों और समुदायों को आवश्यक दृश्य संसाधन प्रदान करके उनका समर्थन करना है।
+ट्यूटोरियल और प्रशिक्षण के अलावा, Plan ₿ Academy Bitcoin पर विविध शैक्षिक सामग्री का एक विशाल संग्रह भी प्रदान करता है, जो सभी के लिए सुलभ है, [“BET” (_बिटकॉइन एजुकेशनल टूलकिट_) अनुभाग में](https://planb.academy/resources/bet)। इस डेटाबेस में शैक्षिक पोस्टर, मीम्स, हास्यप्रद प्रचार पोस्टर, तकनीकी आरेख, लोगो और उपयोगकर्ताओं के लिए अन्य उपकरण शामिल हैं। इस पहल का उद्देश्य दुनिया भर में Bitcoin सिखाने वाले व्यक्तियों और समुदायों को आवश्यक दृश्य संसाधन उपलब्ध कराकर उनका समर्थन करना है।
 
 
-क्या आप इस डेटाबेस को समृद्ध बनाने में भाग लेना चाहते हैं, लेकिन नहीं जानते कि कैसे? यह ट्यूटोरियल आपके लिए है!
+क्या आप इस डेटाबेस को समृद्ध बनाने में योगदान देना चाहते हैं, लेकिन नहीं जानते कि कैसे? यह ट्यूटोरियल आपके लिए है!
 
 
-*यह ज़रूरी है कि साइट में एकीकृत सभी सामग्री अधिकारों से मुक्त हो या स्रोत फ़ाइल के लाइसेंस का सम्मान करे। साथ ही, Plan ₿ Academy पर प्रकाशित सभी विज़ुअल [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) लाइसेंस के तहत उपलब्ध कराए जाते हैं।*
+*यह अनिवार्य है कि साइट में एकीकृत सभी सामग्री कॉपीराइट से मुक्त हो या मूल फ़ाइल के लाइसेंस का सम्मान करे। साथ ही, Plan ₿ Academy पर प्रकाशित सभी दृश्य [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) लाइसेंस के अंतर्गत उपलब्ध कराए गए हैं।*
 
 ![event](assets/01.webp)
 
 
-- सबसे पहले, आपके पास GitHub पर एक अकाउंट होना चाहिए। अगर आपको नहीं पता कि अकाउंट कैसे बनाया जाता है, तो हमने आपको मार्गदर्शन करने के लिए एक विस्तृत ट्यूटोरियल बनाया है।
+- सबसे पहले, आपको GitHub पर एक अकाउंट बनाना होगा। अगर आपको अकाउंट बनाने का तरीका नहीं पता, तो हमने आपकी मदद के लिए एक विस्तृत ट्यूटोरियल तैयार किया है।
 
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
-- [डेटा के लिए समर्पित PlanB के GitHub रिपॉजिटरी](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/bet) पर जाएं, `resources/bet/` अनुभाग में:
+- PlanB के डेटा से संबंधित GitHub रिपॉजिटरी (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) पर जाएं और `resources/bet/` सेक्शन को देखें:
 
 ![event](assets/02.webp)
 
 
-- ऊपर दाईं ओर स्थित `फ़ाइल जोड़ें` बटन पर क्लिक करें, फिर `नई फ़ाइल बनाएँ` पर क्लिक करें:
+- ऊपरी दाएं कोने पर स्थित `फ़ाइल जोड़ें` बटन पर क्लिक करें, फिर `नई फ़ाइल बनाएँ` पर क्लिक करें:
 
 ![event](assets/03.webp)
 
 
-- यदि आपने पहले कभी Plan ₿ Academy की सामग्री में योगदान नहीं दिया है, तो आपको मूल रिपॉजिटरी का अपना Fork बनाना होगा। रिपॉजिटरी को फ़ॉर्क करने का मतलब है अपने GitHub खाते पर उस रिपॉजिटरी की एक प्रति बनाना, जो आपको मूल रिपॉजिटरी को प्रभावित किए बिना प्रोजेक्ट पर काम करने की अनुमति देता है। `Fork this repository` बटन पर क्लिक करें:
+- यदि आपने पहले कभी Plan ₿ Academy की सामग्री में योगदान नहीं दिया है, तो आपको मूल रिपॉजिटरी का fork बनाना होगा। किसी रिपॉजिटरी को Fork करने का अर्थ है उस रिपॉजिटरी की एक प्रति अपने GitHub खाते पर बनाना, जिससे आप मूल रिपॉजिटरी को प्रभावित किए बिना प्रोजेक्ट पर काम कर सकते हैं। `Fork this repository` बटन पर क्लिक करें:
 
 ![event](assets/04.webp)
 
 
-- इसके बाद आप GitHub संपादन पृष्ठ पर पहुंचेंगे:
+- इसके बाद आप GitHub के संपादन पृष्ठ पर पहुँच जाएँगे:
 
 ![event](assets/05.webp)
 
 
-- अपनी सामग्री के लिए एक फ़ोल्डर बनाएँ। ऐसा करने के लिए, `अपनी फ़ाइल का नाम दें...` बॉक्स में, अपनी सामग्री का नाम लोअरकेस में स्पेस के बजाय डैश के साथ लिखें। मेरे उदाहरण में, मान लें कि मैं 2048-शब्द BIP39 सूची का एक PDF विज़ुअल जोड़ना चाहता हूँ। इसलिए, मैं अपने फ़ोल्डर को `bip39-wordlist` कहूँगा: ![event](assets/06.webp)
-- फ़ोल्डर के निर्माण की पुष्टि करने के लिए, उसी बॉक्स में नाम के बाद एक स्लैश जोड़ें, उदाहरण के लिए: `bip39-wordlist/`. स्लैश जोड़ने से फ़ाइल के बजाय स्वचालित रूप से एक फ़ोल्डर बन जाता है:
+- अपनी सामग्री के लिए एक फ़ोल्डर बनाएँ। ऐसा करने के लिए, `अपनी फ़ाइल का नाम दें...` बॉक्स में, अपनी सामग्री का नाम छोटे अक्षरों में लिखें और रिक्त स्थानों के स्थान पर डैश का प्रयोग करें। मेरे उदाहरण में, मान लीजिए कि मैं 2048 शब्दों वाली BIP39 सूची का एक PDF विज़ुअल जोड़ना चाहता हूँ। इसलिए, मैं अपने फ़ोल्डर का नाम `bip39-wordlist` रखूँगा: ![event](assets/06.webp)
+- फ़ोल्डर बनने की पुष्टि करने के लिए, उसी बॉक्स में नाम के बाद एक स्लैश जोड़ें, उदाहरण के लिए: `bip39-wordlist/`। स्लैश जोड़ने से फ़ाइल के बजाय स्वचालित रूप से एक फ़ोल्डर बन जाता है।
 
 ![event](assets/07.webp)
 
 
-- इस फ़ोल्डर में, आप `bet.yml` नाम से पहली YAML फ़ाइल बनाएंगे:
+- इस फोल्डर में, आप `bet.yml` नाम की पहली YAML फ़ाइल बनाएंगे:
 
 ![event](assets/08.webp)
 
 
-- इस टेम्पलेट का उपयोग करके अपनी सामग्री से संबंधित जानकारी से यह फ़ाइल भरें:
+- इस टेम्पलेट का उपयोग करके इस फ़ाइल को अपनी सामग्री से संबंधित जानकारी से भरें:
 
 
 ```yaml
@@ -75,46 +75,46 @@ contributors:
 ```
 
 
-प्रत्येक फ़ील्ड में भरने हेतु विवरण इस प्रकार हैं:
+प्रत्येक फ़ील्ड में भरने के लिए आवश्यक विवरण इस प्रकार हैं:
 
 
 
-- **`बिल्डर`**: प्लानबी नेटवर्क पर अपने संगठन का पहचानकर्ता इंगित करें। यदि आपके पास अभी तक अपनी कंपनी के लिए "बिल्डर" पहचानकर्ता नहीं है, तो आप इस ट्यूटोरियल का पालन करके एक बना सकते हैं।
+- `प्रोजेक्ट`**: Plan ₿ Academy पर अपने संगठन का पहचानकर्ता अंकित करें। यदि आपकी कंपनी के लिए अभी तक कोई "प्रोजेक्ट" पहचानकर्ता नहीं है, तो आप इस ट्यूटोरियल का अनुसरण करके एक बना सकते हैं।
 
 
 https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
-यदि आपके पास बिल्डर प्रोफाइल नहीं है, तो आप बिल्डर प्रोफाइल बनाए बिना अपना नाम, अपना छद्म नाम या अपनी कंपनी का नाम उपयोग कर सकते हैं।
+यदि आपके पास कोई प्रोजेक्ट प्रोफाइल नहीं है, तो आप प्रोजेक्ट प्रोफाइल बनाए बिना भी अपने नाम, अपने छद्म नाम या अपनी कंपनी के नाम का उपयोग कर सकते हैं।
 
 
 
-- `type`: निम्नलिखित दो विकल्पों में से अपनी सामग्री की प्रकृति का चयन करें:
- - शैक्षिक सामग्री के लिए `शैक्षिक सामग्री`.
- - अन्य प्रकार की विविध सामग्री के लिए `दृश्य सामग्री`.
+- `type`**: निम्नलिखित दो विकल्पों में से अपनी सामग्री की प्रकृति का चयन करें:
+ - शैक्षिक सामग्री के लिए `शैक्षिक सामग्री`।
+ - अन्य प्रकार की विविध सामग्रियों के लिए 'दृश्य सामग्री'।
 
 
 
-- **`लिंक`**: अपनी सामग्री के लिए लिंक प्रदान करें। आपके पास दो विकल्प हैं:
- - यदि आप अपनी सामग्री को सीधे प्लानबी के गिटहब पर होस्ट करना चुनते हैं, तो आपको निम्नलिखित चरणों के दौरान इस फ़ाइल में लिंक जोड़ने होंगे।
+- `लिंक`**: अपनी सामग्री के लिंक प्रदान करें। आपके पास दो विकल्प हैं:
+ - यदि आप अपनी सामग्री को सीधे PlanB के GitHub पर होस्ट करना चुनते हैं, तो आपको निम्नलिखित चरणों के दौरान इस फ़ाइल में लिंक जोड़ने होंगे।
  - यदि आपकी सामग्री कहीं और होस्ट की गई है, जैसे कि आपकी व्यक्तिगत वेबसाइट पर, तो संबंधित लिंक यहां इंगित करें:
-     - `download`: आपकी सामग्री को डाउनलोड करने के लिए एक लिंक.
-     - `view`: आपकी सामग्री देखने के लिए एक लिंक (डाउनलोड लिंक के समान हो सकता है)। यदि आपकी सामग्री कई भाषाओं में उपलब्ध है, तो प्रत्येक भाषा के लिए एक लिंक जोड़ें।
+     - `डाउनलोड`: आपकी सामग्री डाउनलोड करने का लिंक।
+     - `view`: आपकी सामग्री देखने के लिए एक लिंक (डाउनलोड लिंक के समान भी हो सकता है)। यदि आपकी सामग्री कई भाषाओं में उपलब्ध है, तो प्रत्येक भाषा के लिए एक अलग लिंक जोड़ें।
 
 
 
-- `tags`: अपनी सामग्री से जुड़े दो टैग जोड़ें। उदाहरण:
- - जीडब्ल्यू-4
+- `टैग`**: अपनी सामग्री से जुड़े दो टैग जोड़ें। उदाहरण:
+ - Bitcoin
  - तकनीकी
  - अर्थव्यवस्था
  - शिक्षा
- - मेम...
+ - मीम...
 
 
 
-- **योगदानकर्ता**: यदि आपके पास योगदानकर्ता पहचानकर्ता है तो उसका उल्लेख करें।
+- `योगदानकर्ता`**: यदि आपके पास कोई योगदानकर्ता पहचानकर्ता है, तो उसका उल्लेख करें।
 
 
-उदाहरण के लिए, आपकी YAML फ़ाइल इस तरह दिख सकती है:
+उदाहरण के लिए, आपकी YAML फ़ाइल कुछ इस तरह दिख सकती है:
 
 
 ```yaml
@@ -123,111 +123,241 @@ type: Educational Content
 links:
 download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
 view:
-- In my example, I will leave the links empty for now, as I will add my PDF directly on GitHub:
-![event](assets/09.webp)
-- Once your modifications to this file are complete, save them by clicking on the `Commit changes...` button:
-![event](assets/10.webp)
-- Add a title for your modifications, as well as a short description:
-![event](assets/11.webp)
-- Click on the green `Propose changes` button:
-![event](assets/12.webp)
-- You will then arrive on a page that summarizes all your changes:
-![event](assets/13.webp)
-- Click on your GitHub profile picture at the top right, then on `Your Repositories`:
-![event](assets/14.webp)
-- Select your fork of the Plan ₿ Academy repository:
-![event](assets/15.webp)
-- You should see a notification at the top of the window with your new branch. It is probably called `patch-1`. Click on it:
-![event](assets/16.webp)
-- You are now on your working branch (**make sure you are on the same branch as your previous modifications, this is important!**):
-![event](assets/17.webp)
-- Go back to the `resources/bet/` folder and select the folder of your content that you just created in the previous commit:
-![event](assets/18.webp)
-- In the folder of your content, click on the `Add file` button, then on `Create new file`:
-![event](assets/19.webp)
-- Name this new folder `assets` and confirm its creation by putting a slash `/` at the end:
-![event](assets/20.webp)
-- In this `assets` folder, create a file named `.gitkeep`: ![event](assets/21.webp)
-- Click on the `Commit changes...` button: ![event](assets/22.webp)
-- Leave the commit title as default, and make sure the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`: ![event](assets/23.webp)
-- Return to the `assets` folder: ![event](assets/24.webp)
-- Click on the `Add file` button, then on `Upload files`: ![event](assets/25.webp)
-- A new page will open. Drag and drop a thumbnail that represents your content into the area. This image will be displayed on the Plan ₿ Academy site: ![event](assets/26.webp)
-- It can be a preview, a logo, or an icon: ![event](assets/27.webp)
-- Once the image is uploaded, make sure the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`: ![event](assets/28.webp)
-- Be careful, your image must be named `logo` and must be in `.webp` format. The full file name should therefore be: `logo.webp`: ![event](assets/29.webp)
-- Return to your `assets` folder and click on the intermediary file `.gitkeep`: ![event](assets/30.webp)
-- Once on the file, click on the three small dots at the top right then on `Delete file`: ![event](assets/31.webp)
-- Make sure you are still on the same working branch, then click on the `Commit changes` button: ![event](assets/32.webp)
-- Add a title and a description to your commit, then click on `Commit changes`: ![event](assets/33.webp)
-- Return to the folder of your content: ![event](assets/34.webp)
-- Click on the `Add file` button, then on `Create new file`: ![event](assets/35.webp)
-- Create a new YAML file by naming it with the indicator of your native language. This file will be used for the content description. For example, if I want to write my description in English, I will name this file `en.yml`: ![event](assets/36.webp)
-- Fill out this YAML file using this template:
-
 ```
 
+
+
+- मेरे उदाहरण में, मैं अभी लिंक खाली छोड़ दूंगा क्योंकि मैं अपनी पीडीएफ सीधे गिटहब पर अपलोड करूंगा:
+
+![event](assets/09.webp)
+
+
+- इस फ़ाइल में आपके द्वारा किए गए बदलाव पूरे हो जाने के बाद, `बदलावों को सेव करें...` बटन पर क्लिक करके उन्हें सेव करें:
+
+![event](assets/10.webp)
+
+
+- अपने द्वारा किए गए संशोधनों के लिए एक शीर्षक और साथ ही एक संक्षिप्त विवरण जोड़ें:
+
+![event](assets/11.webp)
+
+
+- हरे रंग के `प्रस्तावित परिवर्तन` बटन पर क्लिक करें:
+
+![event](assets/12.webp)
+
+
+- इसके बाद आप एक ऐसे पेज पर पहुंचेंगे जो आपके सभी परिवर्तनों का सारांश प्रस्तुत करता है:
+
+![event](assets/13.webp)
+
+
+- ऊपर दाएं कोने में अपनी GitHub प्रोफ़ाइल तस्वीर पर क्लिक करें, फिर `Your Repositories` पर क्लिक करें:
+
+![event](assets/14.webp)
+
+
+- Plan ₿ Academy रिपॉजिटरी में से अपना fork चुनें:
+
+![event](assets/15.webp)
+
+
+- विंडो के शीर्ष पर आपको अपनी नई शाखा के साथ एक सूचना दिखाई देगी। इसका नाम संभवतः `patch-1` होगा। इस पर क्लिक करें:
+
+![event](assets/16.webp)
+
+
+- अब आप अपनी कार्यशील शाखा पर हैं (**सुनिश्चित करें कि आप उसी शाखा पर हैं जिस पर आपने पहले संशोधन किए थे, यह महत्वपूर्ण है!**):
+
+![event](assets/17.webp)
+
+
+- `resources/bet/` फोल्डर पर वापस जाएं और उस फोल्डर का चयन करें जिसमें आपकी सामग्री है जिसे आपने पिछले कमिट में बनाया था:
+
+![event](assets/18.webp)
+
+
+- अपनी सामग्री वाले फ़ोल्डर में, `फ़ाइल जोड़ें` बटन पर क्लिक करें, फिर `नई फ़ाइल बनाएँ` पर क्लिक करें:
+
+![event](assets/19.webp)
+
+
+- इस नए फोल्डर का नाम `assets` रखें और इसके निर्माण की पुष्टि करने के लिए अंत में एक स्लैश `/` लगाएं:
+
+![event](assets/20.webp)
+
+
+- इस `assets` फ़ोल्डर में, `.gitkeep` नाम की एक फ़ाइल बनाएँ: ![event](assets/21.webp)
+- `परिवर्तनों को सेव करें...` बटन पर क्लिक करें: ![event](assets/22.webp)
+- कमिट शीर्षक को डिफ़ॉल्ट रहने दें, और सुनिश्चित करें कि `पैच-1 शाखा में सीधे कमिट करें` बॉक्स चेक किया हुआ है, फिर `परिवर्तन कमिट करें` पर क्लिक करें: ![event](assets/23.webp)
+- `assets` फ़ोल्डर पर वापस जाएँ: ![event](assets/24.webp)
+- `फ़ाइल जोड़ें` बटन पर क्लिक करें, फिर `फ़ाइलें अपलोड करें` पर क्लिक करें: ![event](assets/25.webp)
+- एक नया पृष्ठ खुलेगा। अपनी सामग्री को दर्शाने वाली थंबनेल छवि को निर्दिष्ट स्थान पर खींचकर छोड़ें। यह छवि Plan ₿ Academy साइट पर प्रदर्शित होगी: ![event](assets/26.webp)
+- यह एक पूर्वावलोकन, एक लोगो या एक आइकन हो सकता है: ![event](assets/27.webp)
+- एक बार इमेज अपलोड हो जाने के बाद, सुनिश्चित करें कि `कमिट डायरेक्ट टू द पैच-1 ब्रांच` बॉक्स चेक किया हुआ है, फिर `कमिट चेंजेस` पर क्लिक करें: ![event](assets/28.webp)
+- ध्यान दें, आपकी छवि का नाम `logo` होना चाहिए और फ़ाइल का प्रारूप `.webp` होना चाहिए। इसलिए फ़ाइल का पूरा नाम इस प्रकार होना चाहिए: `logo.webp`: ![event](assets/29.webp)
+- अपने `assets` फ़ोल्डर में वापस जाएँ और मध्यवर्ती फ़ाइल `.gitkeep` पर क्लिक करें: ![event](assets/30.webp)
+- फ़ाइल पर पहुँचने के बाद, ऊपर दाईं ओर स्थित तीन छोटे बिंदुओं पर क्लिक करें और फिर `फ़ाइल हटाएं` पर क्लिक करें: ![event](assets/31.webp)
+- सुनिश्चित करें कि आप अभी भी उसी कार्यशील शाखा पर हैं, फिर `परिवर्तनों को कमिट करें` बटन पर क्लिक करें: ![event](assets/32.webp)
+- अपने कमिट में एक शीर्षक और विवरण जोड़ें, फिर `परिवर्तन कमिट करें` पर क्लिक करें: ![event](assets/33.webp)
+- अपनी सामग्री के फ़ोल्डर पर वापस जाएँ: ![event](assets/34.webp)
+- `फ़ाइल जोड़ें` बटन पर क्लिक करें, फिर `नई फ़ाइल बनाएँ` पर क्लिक करें: ![event](assets/35.webp)
+- अपनी मातृभाषा के संकेतक के साथ एक नई YAML फ़ाइल बनाएँ। इस फ़ाइल का उपयोग सामग्री विवरण के लिए किया जाएगा। उदाहरण के लिए, यदि मैं अपना विवरण अंग्रेज़ी में लिखना चाहता हूँ, तो मैं इस फ़ाइल का नाम `en.yml` रखूँगा: ![event](assets/36.webp)
+- इस टेम्पलेट का उपयोग करके इस YAML फ़ाइल को भरें:
+
+
+```yaml
 name:
 description: |
 
 ```
 
-- For the `name` key, you can add the name of your content;
-- For the `description` key, you simply need to add a short paragraph that describes your content. The description must be in the same language as the file name. You do not need to translate this description into all the supported languages on the site, as the PlanB teams will do so with their model.
-For example, here is what your file might look like:
 
-```
 
+- `नाम` कुंजी के लिए, आप अपनी सामग्री का नाम जोड़ सकते हैं;
+- `description` कुंजी के लिए, आपको बस एक छोटा पैराग्राफ जोड़ना होगा जो आपकी सामग्री का वर्णन करता हो। विवरण उसी भाषा में होना चाहिए जिस भाषा में फ़ाइल का नाम है। आपको इस विवरण को साइट पर समर्थित सभी भाषाओं में अनुवाद करने की आवश्यकता नहीं है, क्योंकि PlanB की टीम अपने मॉडल के माध्यम से ऐसा कर देगी।
+
+उदाहरण के लिए, आपकी फ़ाइल कुछ इस तरह दिख सकती है:
+
+
+```yaml
 name: BIP39 WORDLIST
 description: |
-Mnemonic वाक्यांशों को एनकोड करने के लिए उपयोग किए जाने वाले BIP39 शब्दकोश से 2048 अंग्रेजी शब्दों की पूरी और क्रमांकित सूची। दस्तावेज़ को एक ही पृष्ठ पर मुद्रित किया जा सकता है।
-
+Complete and numbered list of the 2048 English words from the BIP39 dictionary used to encode mnemonic phrases. The document can be printed on a single page.
 ```
 
+
 ![event](assets/37.webp)
-- Click on the `Commit changes...` button:
+
+
+- `परिवर्तनों को सेव करें...` बटन पर क्लिक करें:
+
 ![event](assets/38.webp)
-- Ensure that the `Commit directly to the patch-1 branch` box is checked, add a title, then click on `Commit changes`:
+
+
+- सुनिश्चित करें कि `पैच-1 शाखा में सीधे कमिट करें` बॉक्स चेक किया हुआ है, एक शीर्षक जोड़ें, फिर `परिवर्तन कमिट करें` पर क्लिक करें:
+
 ![event](assets/39.webp)
-- Your content folder should now look like this:
+
+
+- अब आपका कंटेंट फोल्डर इस तरह दिखना चाहिए:
+
 ![event](assets/40.webp)
+
 
 ---
 
-*If you prefer not to add the content on GitHub and you have already noted the links in the `bet.yml` file during the previous steps, you can skip this section and go directly to the part concerning the creation of the Pull Request.*
+*यदि आप GitHub पर सामग्री जोड़ना पसंद नहीं करते हैं और आपने पिछले चरणों के दौरान `bet.yml` फ़ाइल में लिंक पहले ही नोट कर लिए हैं, तो आप इस अनुभाग को छोड़ सकते हैं और सीधे पुल रिक्वेस्ट बनाने से संबंधित भाग पर जा सकते हैं।*
 
-- Return to the `/assets` folder:
+
+
+- `/assets` फ़ोल्डर पर वापस जाएँ:
+
 ![event](assets/41.webp)
-- Click on the `Add file` button, then on `Upload files`:
+
+
+- `फ़ाइल जोड़ें` बटन पर क्लिक करें, फिर `फ़ाइलें अपलोड करें` पर क्लिक करें:
+
 ![event](assets/42.webp)
-- A new page will open. Drag and drop into the area the content you wish to share:
+
+
+- एक नया पेज खुलेगा। आप जो सामग्री साझा करना चाहते हैं उसे खींचकर इस क्षेत्र में छोड़ दें:
+
 ![event](assets/43.webp)
-- For example, I added the PDF file of the BIP39 list:
+
+
+- उदाहरण के लिए, मैंने BIP39 सूची की PDF फ़ाइल जोड़ी है:
+
 ![event](assets/44.webp)
-- Once the content is uploaded, ensure that the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`:
+
+
+- सामग्री अपलोड हो जाने के बाद, सुनिश्चित करें कि `पैच-1 शाखा में सीधे कमिट करें` बॉक्स चेक किया हुआ है, फिर `परिवर्तन कमिट करें` पर क्लिक करें:
+
 ![event](assets/45.webp)
-- Return to your `/assets` folder and click on the file you just uploaded:
+
+
+- अपने `/assets` फोल्डर में वापस जाएं और उस फ़ाइल पर क्लिक करें जिसे आपने अभी अपलोड किया है:
+
 ![event](assets/46.webp)
-- Retrieve the intermediate URL of your file. For example, in my case, the URL is:
 
+
+- अपनी फ़ाइल का इंटरमीडिएट URL प्राप्त करें। उदाहरण के लिए, मेरे मामले में URL यह है:
+
+
+```url
+https://github.com/tutorial-pandul/bitcoin-educational-content/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
-https://github.com/tutorial-pandul/Bitcoin-educational-content/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 
-```
 
-- Keep only the last part of the URL from `/resources` onwards:
+- URL के अंतिम भाग को ही रखें, जो `/resources` से आगे तक जाता है:
 
-```
 
+```url
 /resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
-
 ```
 
-- Add to the base of the URL the following information to have the correct link:
 
+
+- सही लिंक प्राप्त करने के लिए URL के आधार में निम्नलिखित जानकारी जोड़ें:
+
+
+```url
+https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
-https://github.com/DiscoverBitcoin/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 
-```
+हम यहां जो कर रहे हैं वह यह अनुमान लगाना है कि एक बार जब आपका प्रस्ताव Plan ₿ Academy के स्रोत भंडार में विलय हो जाएगा, तो आपकी फ़ाइल से भविष्य में क्या लिंक जुड़ेगा।
+
+
+- अपनी `bet.yml` फ़ाइल पर वापस जाएं और पेंसिल आइकन पर क्लिक करें: ![event](assets/47.webp)
+- वहां अपना लिंक जोड़ें:
+
+![event](assets/48.webp)
+
+
+- जब आपके बदलाव पूरे हो जाएं, तो `बदलावों को सेव करें...` बटन पर क्लिक करें:
+
+![event](assets/49.webp)
+
+
+- अपने बदलावों के लिए एक शीर्षक और साथ ही एक संक्षिप्त विवरण जोड़ें:
+
+![event](assets/50.webp)
+
+
+- हरे रंग के `परिवर्तनों को सेव करें` बटन पर क्लिक करें:
+
+![event](assets/51.webp)
+
+
+---
+
+
+- यदि आपको सब कुछ ठीक लगता है, तो अपने fork के मूल पर वापस जाएँ:
+
+![event](assets/52.webp)
+
+
+- आपको एक संदेश दिखाई देगा जो यह बताएगा कि आपकी शाखा में बदलाव किया गया है। `Compare & pull request` बटन पर क्लिक करें:
+
+![event](assets/53.webp)
+
+
+- अपने जनसंपर्क के लिए एक स्पष्ट शीर्षक और विवरण जोड़ें:
+
+![event](assets/54.webp)
+
+
+- `पुल रिक्वेस्ट बनाएं` बटन पर क्लिक करें:
+
+![event](assets/55.webp)
+
+बधाई हो! आपका पीआर सफलतापूर्वक बन गया है। एक प्रशासक इसकी समीक्षा करेगा और यदि सब कुछ ठीक रहा, तो इसे Plan ₿ Academy के मुख्य भंडार में मिला दिया जाएगा। कुछ दिनों बाद आपको वेबसाइट पर अपना बीईटी दिखाई देने लगेगा।
+
+
+अपने पीआर की प्रगति पर नज़र रखना सुनिश्चित करें। कोई प्रशासक अतिरिक्त जानकारी मांगने के लिए टिप्पणी छोड़ सकता है। जब तक आपका पीआर मान्य नहीं हो जाता, आप इसे Plan ₿ Academy GitHub रिपॉजिटरी के पुल रिक्वेस्ट टैब में देख सकते हैं।
+
+![event](assets/56.webp)
+
+आपके बहुमूल्य योगदान के लिए बहुत-बहुत धन्यवाद! :)

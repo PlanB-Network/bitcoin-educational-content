@@ -1,8 +1,8 @@
-question: Tại sao một doanh nghiệp có thể chọn chấp nhận thanh toán Bitcoin từ khách hàng?
-answer: Để khai thác lượng người dùng ngày càng tăng, có khả năng giảm phí giao dịch và nắm giữ tài sản có giá trị trong kho bạc của mình.
+question: Vì sao một doanh nghiệp chọn chấp nhận khách hàng thanh toán bằng Bitcoin?
+answer: Để khai thác lượng người dùng Bitcoin ngày càng tăng, có khả năng giảm phí giao dịch và nắm giữ tài sản có giá trị trong vốn dự trữ của mình.
 wrong_answers:
   - Để đảm bảo rằng tất cả khách hàng sẽ trả nhiều hơn giá niêm yết.
-  - Để đảm bảo rằng không có loại thuế hoặc yêu cầu pháp lý nào được áp dụng.
+  - Để đảm bảo rằng không có loại thuế hoặc tránh các ràng buộc pháp lý.
   - Để quá trình thanh toán chậm hơn và phức tạp hơn.
 explanation: |
   Việc chấp nhận Bitcoin có thể thu hút nhóm người mua mới, giảm phí xử lý thanh toán và xây dựng một kho lưu trữ giá trị. Nó cũng có thể mở rộng phạm vi tiếp cận toàn cầu, vì Bitcoin không biên giới và hoạt động 24/7.

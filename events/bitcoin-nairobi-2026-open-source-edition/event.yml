@@ -1,0 +1,24 @@
+id: 57e878e4-81f7-4cbd-bdc6-55e1e8ae946b
+start_date: 2026-06-17 07:00:00
+end_date: 2026-06-20 14:00:00
+timezone: Africa/Nairobi
+address_city_country: Nairobi, Kenya
+address_line_2: Pride Inn Azure Towers
+address_line_3: Westlands
+name: bitcoin++ Nairobi 2026, open source edition
+type: conference
+book_online: true
+book_in_person: false
+price_dollars: 297
+description: |
+  bitcoin++ Nairobi 2026 is the first ever "open source edition" of the conference series, focusing on open source builders and developers from Africa and around the globe. This four-day bitcoin developer event will feature talks, presentations, workshops, hackathon competitions, and networking opportunities. The conference celebrates working in public and highlights how contributions to Bitcoin's global protocols are reshaping the developer ecosystem in Africa.
+language:
+  - en
+links:
+  website: https://btcplusplus.dev/conf/nairobi
+  replay_url: 
+  live_url: 
+tags:
+  - adoption
+  - development
+  - innovation

@@ -1,9 +1,9 @@
-question: Koji mehanizam se može koristiti za učitavanje snimka UTXO seta kako bi čvor brzo bio upotrebljiv?
+question: Koji mehanizam se može koristiti za učitavanje instant-snimka (eng. snapshot) UTXO seta kako bi čvor brzo bio upotrebljiv?
 answer: assumeutxo
 wrong_answers:
-  - pretpostavljastanjelanac
+  - assumechainstate
   - txindex
   - notxindex
 explanation: |
-  Assumeutxo učitava snimak UTXO skupa kako bi čvor brzo počeo sa radom, dok u pozadini obnavlja kompletan UTXO skup.
+ Assumeutxo učitava instant-snimak UTXO baze kako bi čvor bio brzo operativan, dok se u pozadini rekonstruiše kompletan UTXO set.
 reviewed: true

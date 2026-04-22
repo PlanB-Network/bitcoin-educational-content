@@ -6,4 +6,4 @@ wrong_answers:
   - Kwa kuthibitisha IP ya mtumaji Address
 explanation: |
   Alice anatumia ufunguo wa siri ulioshirikiwa kwa generate tagi kutoka kwa ujumbe uliopokelewa. Ikiwa lebo hii inalingana na ile iliyotumwa na Bob, anajua kwamba ujumbe huo ni halisi na ni mzima.
-reviewed: false
+reviewed: true

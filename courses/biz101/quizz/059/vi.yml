@@ -1,9 +1,9 @@
-question: Hai loại wallet nào được coi là có trong hồ sơ Starter?
-answer: Ví Lightning lưu ký và không lưu ký
+question: Hai loại ví nào được coi là có trong nhóm khởi đầu (hồ sơ 1)?
+answer: Ví Lightning tự lưu ký và lưu ký hộ
 wrong_answers:
-  - Ví Hot và ví lưu trữ lạnh Bitcoin
-  - Ví Multisig và ví giấy Bitcoin
-  - Phần cứng và não Ví Lightning
+  - Ví nóng và ví lạnh Bitcoin
+  - Ví Multisig (đa chữ ký) và ví giấy Bitcoin
+  - Phần cứng và Ví Lightning
 explanation: |
-  Hồ sơ Starter sử dụng ví Lightning lưu ký hoặc không lưu ký.
+  Nhóm khởi đầu (hồ sơ 1) sử dụng ví Lightning tự lưu ký và lưu ký hộ.
 reviewed: true

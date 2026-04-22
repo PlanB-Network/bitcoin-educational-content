@@ -1463,7 +1463,7 @@ Was den Tauschhandel anbelangt, so gehen einige Theorien davon aus, dass er haup
 
 
 
-Das werden wir also in diesem Abschnitt tun. Wir werden eine Art Umfrage durchführen, um die verschiedenen Theorien über die Entstehung des Geldes und die verschiedenen Definitionen dessen, was Geld ist, vorzustellen. Wir werden die Thesen sowohl der klassischen Ökonomen als auch der Anthropologen vorstellen und kritisieren. Ich werde sogar das Glück haben, Ulrich Fromy dabei zu haben, der die Sichtweise eines österreichischen Ökonomen zu diesen verschiedenen Themen darstellen wird.
+Das werden wir also in diesem Abschnitt tun. Wir werden eine Art Umfrage durchführen, um die verschiedenen Theorien über die Entstehung des Geldes und die verschiedenen Definitionen dessen, was Geld ist, vorzustellen. Wir werden die Thesen sowohl der klassischen Ökonomen als auch der Anthropologen vorstellen und kritisieren. Ich werde sogar das Glück haben, Ulrich dabei zu haben, der die Sichtweise eines österreichischen Ökonomen zu diesen verschiedenen Themen darstellen wird.
 
 
 

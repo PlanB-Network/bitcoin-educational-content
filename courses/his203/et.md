@@ -3563,3 +3563,21 @@ Spekulatsioonide suurenemine oli hea uudis ka Mt. Goxi jaoks, mis kasvas selle t
 ---
 
 Bitcoin ehitamise kursus 2011. aasta kevadest kuni 2012. aasta suveni lõpeb siin. Järgmine periood krüptoraha ajaloost, Bitcoin vastupandamatu tõusu aeg, käsitletakse järgmises kursuses, kui Jumal tahab.
+# Conclusion
+
+<partId>85b5b21d-2754-41ad-9e25-21350488cfd3</partId>
+
+## Reviews & Ratings
+
+<chapterId>52d64403-1669-4852-ae4f-17ecfe1dc315</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Final Exam
+
+<chapterId>080fb5af-dfff-4600-95cb-61455831080f</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusion
+
+<chapterId>cd50980c-0c9e-43e5-97ec-4db79388335b</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

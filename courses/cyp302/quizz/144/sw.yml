@@ -6,4 +6,4 @@ wrong_answers:
   - Biti 256 kwa jumla
 explanation: |
   Katika mifumo ya kisasa ya kificho kama vile RSA, nambari kuu zilizochaguliwa kwa kawaida ni biti 1024 kila moja, hivyo kufanya uainishaji kuwa mgumu sana na kuimarisha usalama.
-reviewed: false
+reviewed: true

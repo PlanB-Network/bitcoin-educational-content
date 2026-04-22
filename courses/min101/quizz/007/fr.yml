@@ -2,8 +2,8 @@ question: Quel critère économique guide le choix des transactions par un mineu
 answer: Le taux de frais
 wrong_answers:
   - Le montant des frais
-  - L’ancienneté des UTXO
+  - L’ancienneté des UTXOs
   - Le nombre d'UTXOs
 explanation: |
   L’espace d’un bloc étant limité, le mineur privilégie les transactions les plus rentables par octet. C'est donc le taux de frais qui guide la sélection des transactions.
-reviewed: false
+reviewed: true 

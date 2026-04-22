@@ -1,0 +1,24 @@
+id: 54ac4a19-3402-4691-83ae-642e11325229
+start_date: 2026-05-12 08:00:00
+end_date: 2026-05-13 16:00:00
+timezone: Europe/Rome
+address_city_country: Viareggio, Italy
+address_line_2: Principino
+address_line_3: 
+name: Tuscany Lightning Summit
+type: conference
+book_online: true
+book_in_person: false
+price_dollars: 0
+description: |
+  Biggest LN summit for builders
+  
+  Warning: information may change. Booking and up-to-date information are on Luma.
+language:
+  - en
+links:
+  website: https://luma.com/fcp4ov95
+  replay_url: 
+  live_url: 
+tags:
+  - lightning

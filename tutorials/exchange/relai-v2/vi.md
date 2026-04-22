@@ -1,185 +1,262 @@
 ---
 name: Relai
-description: A simple tutorial on using Relai for your Bitcoin journey!
+description: Hướng dẫn đơn giản về cách sử dụng Relai cho hành trình Bitcoin của bạn!
 ---
+
 ![cover](assets/cover.webp)
 
-## Introduction to Relai
 
-Relai is a simple and intuitive mobile application designed to help individuals and businesses invest in Bitcoin effortlessly. Whether you're new to Bitcoin or an experienced investor, Relai's user-friendly interface and streamlined features make it easy to start and maintain a Bitcoin savings plan. Unlike traditional platforms, Relai doesn't require a deep understanding of Bitcoin or complex financial systems—just download the app and start saving.
+## Giới thiệu về Relai
 
-Relai stands out for its simplicity, accessibility, and focus on long-term Bitcoin saving. Whether you want to set up a recurring savings plan or make one-time purchases, Relai has you covered. Let’s explore how you can get started with this fantastic tool.
+
+Relai là một ứng dụng di động đơn giản và trực quan được thiết kế để giúp cá nhân và doanh nghiệp đầu tư vào Bitcoin một cách dễ dàng. Cho dù bạn là người mới sử dụng Bitcoin hay là nhà đầu tư có kinh nghiệm, giao diện thân thiện với người dùng và các tính năng được tối giản của Relai giúp bạn dễ dàng bắt đầu và duy trì kế hoạch tiết kiệm Bitcoin. Không giống như các nền tảng truyền thống, Relai không yêu cầu hiểu biết sâu sắc về Bitcoin hoặc các hệ thống tài chính phức tạp—chỉ cần tải ứng dụng xuống và bắt đầu tiết kiệm.
+
+
+Relai nổi bật nhờ sự đơn giản, dễ sử dụng và tập trung vào việc tiết kiệm dài hạn (Bitcoin). Cho dù bạn muốn thiết lập kế hoạch tiết kiệm định kỳ hay thực hiện các giao dịch mua một lần, Relai đều đáp ứng được nhu cầu của bạn. Hãy cùng khám phá cách bạn có thể bắt đầu sử dụng công cụ tuyệt vời này.
+
 
 ---
-## Getting Started with Relai
 
-### Step 1: Download the Relai App
-
-
-- **Where to Find It:** The app is available on both the App Store (iOS) and Google Play Store (Android). Search for "Relai" and download it for free.
-- **Quick Setup:** Once installed, open the app and follow the guided setup process.
-
-### Step 2: Create Your Account
+## Hướng dẫn bắt đầu sử dụng Relai
 
 
-- **Mandatory KYC:** Relai now requires a Know Your Customer (KYC) verification. Prepare a valid ID document and proof of address.
-- **Verification Process:** Upload your documents, take a selfie for identity confirmation, and wait for approval (typically within 24 hours).
-- **Why KYC?** It ensures compliance with financial regulations and enhances security for all users.
-
-### Step 3: Secure Your Wallet
+### Bước 1: Tải xuống ứng dụng Relai
 
 
-- **Self-Custody:** Relai offers a non-custodial wallet, meaning you control your private keys.
-- **Backup Your Keys:** Write down your 12-word recovery phrase on paper (not digitally) and store it securely. This is crucial for accessing your funds if your phone is lost or stolen.
+
+- Cách tìm ứng dụng:** Ứng dụng có sẵn trên cả App Store (iOS) và Google Play Store (Android). Tìm kiếm “Relai” và tải xuống miễn phí.
+- Cài đặt nhanh:** Sau khi cài đặt xong, hãy mở ứng dụng và làm theo hướng dẫn trong quá trình cài đặt.
+
+
+### Bước 2: Tạo tài khoản của bạn
+
+
+
+- **Yêu cầu KYC bắt buộc:** Relai hiện yêu cầu xác minh danh tính khách hàng (KYC). Vui lòng chuẩn bị giấy tờ tùy thân hợp lệ và bằng chứng địa chỉ.
+- Quy trình xác minh:** Tải lên các tài liệu của bạn, chụp ảnh tự sướng để xác nhận danh tính và chờ phê duyệt (thường trong vòng 24 giờ).
+- Tại sao cần KYC?:** Nó đảm bảo tuân thủ các quy định tài chính và tăng cường bảo mật cho tất cả người dùng.
+
+
+### Bước 3: Bảo vệ Wallet của bạn
+
+
+
+- Tự quản lý:** Relai cung cấp wallet không lưu giữ khóa, nghĩa là bạn kiểm soát khóa riêng tư của mình.
+- Sao lưu mật khẩu của bạn:** Hãy viết cụm từ khôi phục 12 từ của bạn ra giấy (không phải bản điện tử) và cất giữ ở nơi an toàn. Điều này rất quan trọng để bạn có thể truy cập vào tiền của mình nếu điện thoại bị mất hoặc bị đánh cắp.
+
 
 ---
-## How to Create a Bitcoin Savings Plan
 
-Relai’s Bitcoin savings plan allows you to automate regular investments, making it easier to build wealth over time. Here’s how to set one up:
-
-### Step 1: Define Your Goals
+## Cách tạo kế hoạch tiết kiệm Bitcoin
 
 
-- Decide how much Bitcoin you want to accumulate and over what period.
-- Start small if you're new to Bitcoin; you can always increase your contributions later.
-
-### Step 2: Set Up a Recurring Investment
+Kế hoạch tiết kiệm Bitcoin của Relai cho phép bạn tự động hóa các khoản đầu tư định kỳ, giúp bạn dễ dàng tích lũy tài sản theo thời gian. Sau đây là cách thiết lập:
 
 
-- Go to the “Savings Plan” section in the app.
-- Choose your desired investment frequency (e.g., weekly, bi-weekly, monthly).
-- Specify the amount you want to invest. Relai accepts payments starting as low as €10.
-
-### Step 3: Link Your Payment Method
+### Bước 1: Xác định mục tiêu của bạn
 
 
-- Use your preferred bank account or credit card to set up recurring payments.
-- Ensure your bank supports SEPA transfers for smoother transactions.
 
-### Step 4: Monitor Your Progress
+- Hãy quyết định xem bạn muốn tích lũy bao nhiêu Bitcoin và trong khoảng thời gian nào.
+- Nếu bạn mới tham gia Bitcoin, hãy bắt đầu với số tiền nhỏ; bạn luôn có thể tăng đóng góp của mình sau này.
 
 
-- Check your portfolio regularly in the app to see how your investments are growing.
-- Adjust your plan anytime to match your financial goals.
+### Bước 2: Thiết lập khoản đầu tư định kỳ
+
+
+
+- Vào mục “Kế hoạch tiết kiệm” trong ứng dụng.
+- Hãy chọn tần suất đầu tư mong muốn của bạn (ví dụ: hàng tuần, hai tuần một lần, hàng tháng).
+- Hãy chỉ định số tiền bạn muốn đầu tư. Relai chấp nhận các khoản thanh toán tối thiểu chỉ từ €10.
+
+
+### Bước 3: Liên kết phương thức thanh toán của bạn
+
+
+
+- Bạn có thể sử dụng tài khoản ngân hàng hoặc thẻ tín dụng ưa thích của mình để thiết lập thanh toán định kỳ.
+- Hãy đảm bảo ngân hàng của bạn hỗ trợ chuyển khoản SEPA để giao dịch diễn ra suôn sẻ hơn.
+
+
+### Bước 4: Theo dõi tiến độ của bạn
+
+
+
+- Hãy thường xuyên kiểm tra wallet trong ứng dụng để xem khoản đầu tư của bạn đang tăng trưởng như thế nào.
+- Bạn có thể điều chỉnh kế hoạch của mình bất cứ lúc nào để phù hợp với mục tiêu tài chính của mình.
+
 
 ![RELAI-APP](assets/en/01.webp)
 
+
 ---
-## Buying Bitcoin on Relai
 
-Buying Bitcoin on Relai is straightforward and fast. Here’s how:
+## Mua Bitcoin vào Relai
 
-### Step 1: Open the App
 
-Navigate to the “Buy Bitcoin” section from the home screen.
+Việc mua Bitcoin trên Relai rất đơn giản và nhanh chóng. Sau đây là cách thực hiện:
 
-### Step 2: Enter Your Purchase Amount
 
-Specify the amount of fiat currency (EUR, CHF, etc.) you want to invest.
+### Bước 1: Mở ứng dụng
 
-Relai will show you the equivalent Bitcoin amount based on the current market price.
+
+Từ màn hình chính, hãy điều hướng đến mục “Mua Bitcoin”.
+
+
+### Bước 2: Nhập số tiền mua hàng
+
+
+Hãy chỉ định số tiền tệ (EUR, CHF, v.v.) mà bạn muốn đầu tư.
+
+
+Relai sẽ hiển thị cho bạn số tiền tương đương với Bitcoin dựa trên giá thị trường hiện tại.
+
 
 ![RELAI-APP](assets/en/02.webp)
 
-### Step 3: Complete Your Purchase
+
+### Bước 3: Hoàn tất giao dịch mua hàng
 
 
-- Confirm the transaction details.
-- Use your linked bank account or card to complete the payment.
-- Transactions are processed quickly, and the Bitcoin is deposited into your Relai wallet.
 
-**Zero Fees:** For purchases up to €100 or CHF 100, Relai charges no fees, making it an ideal choice for beginners.
+- Xác nhận chi tiết giao dịch.
+- Hãy sử dụng tài khoản ngân hàng hoặc thẻ đã liên kết để hoàn tất thanh toán.
+- Giao dịch được xử lý nhanh chóng và Bitcoin được chuyển vào Relai wallet của bạn.
+
+
+**Không phí giao dịch:** Đối với các giao dịch mua hàng lên đến €100 hoặc CHF 100, Relai không tính phí giao dịch, đây là lựa chọn lý tưởng cho người mới bắt đầu.
+
 
 ![RELAI-APP](assets/en/03.webp)
 
----
-## Withdrawing Bitcoin
-
-If you’d like to move your Bitcoin to another wallet or exchange, follow these steps:
-
-### Step 1: Open the “Withdraw” Section
-
-Navigate to the withdrawal tab in the app.
-
-### Step 2: Enter the Destination Wallet Address
-
-
-- Copy and paste the recipient’s wallet address or scan a QR code.
-- Double-check the address to avoid errors—Bitcoin transactions are irreversible.
-
-### Step 3: Specify the Amount
-
-Enter the amount of Bitcoin you want to send.
-
-Relai will display the applicable network fees.
-
-### Step 4: Confirm the Transaction
-
-
-- Review the details carefully and confirm.
-- Your Bitcoin will be sent to the specified wallet.
 
 ---
-## Tips for Secure Bitcoin Management
+
+## Rút Bitcoin
 
 
-- **Keep Your Recovery Phrase Safe:** Store it offline and avoid sharing it with anyone.
-- **Enable App Security:** Use a strong PIN or biometric authentication.
-- **Diversify Storage:** Consider using a hardware wallet for large amounts of Bitcoin.
-- **Regularly Update the App:** Stay protected with the latest security patches and features.
-- **Avoid Public Wi-Fi:** Only access your wallet on secure networks.
+Nếu bạn muốn chuyển Bitcoin của mình sang một wallet khác hoặc đổi lấy thiết bị khác, hãy làm theo các bước sau:
+
+
+### Bước 1: Mở mục “Rút tiền”
+
+
+Truy cập vào mục rút tiền trong ứng dụng.
+
+
+### Bước 2: Nhập điểm đến Wallet Address
+
+
+
+- Sao chép và dán địa chỉ wallet của người nhận hoặc quét mã QR.
+- Hãy kiểm tra kỹ địa chỉ để tránh sai sót — các giao dịch Bitcoin không thể đảo ngược.
+
+
+### Bước 3: Xác định số tiền
+
+
+Nhập số lượng Bitcoin bạn muốn gửi.
+
+
+Relai sẽ hiển thị phí mạng áp dụng.
+
+
+### Bước 4: Xác nhận giao dịch
+
+
+
+- Xem xét kỹ các chi tiết và xác nhận.
+- Bitcoin của bạn sẽ được gửi đến wallet đã được chỉ định.
+
 
 ---
-## Relai Business Accounts
 
-Relai also supports businesses looking to invest in Bitcoin. Features include:
+## Mẹo quản lý Bitcoin an toàn
 
 
-- **Custom Savings Plans:** Tailored plans to suit business needs.
-- **Multi-User Access:** Enable multiple team members to manage the account securely.
-- **Enhanced Limits:** Invest larger amounts compared to personal accounts.
-- **Dedicated Support:** Access priority customer service for businesses.
 
-To set up a business account, contact Relai’s support team through their website.
+- Hãy bảo vệ cụm từ khôi phục của bạn:** Lưu trữ nó ngoại tuyến và tránh chia sẻ với bất kỳ ai.
+- **Bật bảo mật ứng dụng:** Sử dụng mã PIN mạnh hoặc xác thực sinh trắc học.
+- Đa dạng hóa giải pháp lưu trữ:** Hãy cân nhắc sử dụng thiết bị phần cứng wallet cho số lượng lớn Bitcoin.
+- Cập nhật ứng dụng thường xuyên:** Luôn được bảo vệ với các bản vá lỗi bảo mật và tính năng mới nhất.
+- Tránh sử dụng Wi-Fi công cộng:** Chỉ truy cập wallet của bạn trên các mạng an toàn.
+
 
 ---
-## Invite and Earn Bitcoin
 
-Relai offers an exciting referral program where you can earn Bitcoin by inviting your friends to use the app. Here’s how it works:
-
-
-- **Share Your Referral Code:** Each Relai user gets a unique referral code. Share it with your friends.
-- **Earn 10% of Fees:** You'll earn 10% of the fees from your friends' transactions when they use your code.
-- **Passive Bitcoin Income:** As your friends continue to trade on Relai, you'll keep earning Bitcoin. It's a win-win for both you and your friends.
-
-Start sharing your code today and grow your Bitcoin stack effortlessly!
-
----
-## Frequently Asked Questions
-
-### How Much Does Relai Charge?
+## Tài khoản doanh nghiệp Relai
 
 
-- Relai charges a competitive fee of 1% per transaction, or 0.9% if you use a referral code like `REL361712`. Fees are transparently displayed before you confirm a purchase.
-- **Zero Fees:** Transactions up to €100 or CHF 100 are completely fee-free.
+Relai cũng hỗ trợ các doanh nghiệp muốn đầu tư vào Bitcoin. Các tính năng bao gồm:
 
-### Can I Pause My Savings Plan?
 
-Yes, you can pause or modify your plan anytime from the app.
 
-### What Happens If I Lose My Phone?
+- Các Kế Hoạch Tiết Kiệm Tùy Chỉnh:** Các kế hoạch được thiết kế riêng để phù hợp với nhu cầu kinh doanh.
+- Truy cập đa người dùng:** Cho phép nhiều thành viên trong nhóm quản lý tài khoản một cách an toàn.
+- Hạn mức nâng cao:** Đầu tư số tiền lớn hơn so với tài khoản cá nhân.
+- Hỗ trợ chuyên biệt:** Được ưu tiên phục vụ khách hàng dành cho doanh nghiệp.
 
-Use your 12-word recovery phrase to restore your wallet on another device.
 
-### Is Relai Safe?
+Để thiết lập tài khoản doanh nghiệp, vui lòng liên hệ với đội ngũ hỗ trợ của Relai thông qua trang web của họ.
 
-Yes, Relai is a secure, non-custodial platform that gives users full control over their funds.
 
 ---
-## Conclusion
 
-Relai is a powerful yet simple tool for anyone looking to start their Bitcoin journey. From creating automated savings plans to withdrawing your funds seamlessly, the app makes Bitcoin investing accessible and stress-free. So why wait?
+## Mời bạn bè và nhận thưởng Bitcoin
 
-Download Relai today and start building your financial future in Bitcoin! 🚀
+
+Relai có chương trình giới thiệu hấp dẫn, nơi bạn có thể kiếm được Bitcoin bằng cách mời bạn bè sử dụng ứng dụng. Cách thức hoạt động như sau:
+
+
+
+- Chia sẻ mã giới thiệu của bạn:** Mỗi người dùng Relai đều nhận được một mã giới thiệu duy nhất. Hãy chia sẻ mã này với bạn bè của bạn.
+- Nhận 10% phí giao dịch:** Bạn sẽ nhận được 10% phí giao dịch từ các giao dịch của bạn bè khi họ sử dụng mã của bạn.
+- Thu nhập thụ động Bitcoin:** Khi bạn bè của bạn tiếp tục giao dịch trên Relai, bạn sẽ tiếp tục kiếm được Bitcoin. Đó là đôi bên cùng có lợi, cả bạn và bạn bè của bạn.
+
+
+Hãy bắt đầu chia sẻ mã nguồn của bạn ngay hôm nay và phát triển hệ sinh thái Bitcoin của bạn một cách dễ dàng!
+
+
+---
+
+## Câu hỏi thường gặp
+
+
+### Relai tính phí bao nhiêu?
+
+
+
+- Relai tính phí giao dịch cạnh tranh ở mức 1% mỗi giao dịch, hoặc 0,9% nếu bạn sử dụng mã giới thiệu như `REL361712`. Phí được hiển thị minh bạch trước khi bạn xác nhận mua hàng.
+- Miễn phí giao dịch:** Các giao dịch lên đến €100 hoặc CHF 100 hoàn toàn miễn phí.
+
+
+### Tôi có thể tạm dừng kế hoạch tiết kiệm của mình được không?
+
+
+Vâng, bạn có thể tạm dừng hoặc thay đổi gói dịch vụ của mình bất cứ lúc nào từ ứng dụng.
+
+
+### Điều gì sẽ xảy ra nếu tôi làm mất điện thoại?
+
+
+Sử dụng cụm từ khôi phục 12 từ của bạn để khôi phục wallet trên thiết bị khác.
+
+
+### Relai có an toàn không?
+
+
+Đúng vậy, Relai là một nền tảng an toàn, không lưu giữ tài sản của người dùng, cho phép người dùng toàn quyền kiểm soát tiền của mình.
+
+
+---
+
+## Phần kết luận
+
+
+Relai là một công cụ mạnh mẽ nhưng đơn giản dành cho bất kỳ ai muốn bắt đầu hành trình Bitcoin của mình. Từ việc tạo kế hoạch tiết kiệm tự động đến việc rút tiền một cách liền mạch, ứng dụng này giúp việc đầu tư Bitcoin trở nên dễ dàng và không gây căng thẳng. Vậy còn chần chừ gì nữa?
+
+
+Tải xuống Relai ngay hôm nay và bắt đầu xây dựng tương lai tài chính của bạn trong Bitcoin! 🚀
+
 
 ![RELAI-APP](assets/en/04.webp)

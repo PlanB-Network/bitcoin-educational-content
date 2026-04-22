@@ -1,9 +1,9 @@
-question: Koje dve komponente su distribuirane sa Bitcoin core od verzije 0.5?
+question: Koje dve komponente su distribuirane sa Bitcoin Core-om od verzije 0.5?
 answer: Bitcoin-qt i bitcoind
 wrong_answers:
-  - bitcoin-cli i Bitcoin-gui
+  - Bitcoin-cli i Bitcoin-gui
   - Bitcoin-Miner i Bitcoin-Wallet
   - Bitcoin-core i Bitcoin-node
 explanation: |
-  Od verzije 0.5, Bitcoin core uključuje grafički Interface (Bitcoin-qt) i komandno-linijski Interface (bitcoind).
+  Od verzije 0.5, Bitcoin Core uključuje grafički interfejs (Bitcoin-qt) i komandno-linijski interfejs (bitcoind).
 reviewed: true

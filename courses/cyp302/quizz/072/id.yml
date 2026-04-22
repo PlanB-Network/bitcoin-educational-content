@@ -6,4 +6,4 @@ wrong_answers:
   - Karena kunci berubah-ubah setiap kali enkripsi
 explanation: |
   Enkripsi geser dianggap sebagai enkripsi simetris karena menggunakan kunci yang sama untuk mengenkripsi dan mendekripsi sebuah pesan, sehingga memastikan kerahasiaan antara pihak-pihak yang berbagi kunci ini.
-reviewed: false
+reviewed: true

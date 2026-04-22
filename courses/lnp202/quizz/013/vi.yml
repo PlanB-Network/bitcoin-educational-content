@@ -1,4 +1,4 @@
-question: Giải pháp nào cho phép bạn chạy một node Lightning thực sự trên điện thoại di động?
+question: Giải pháp nào cho phép bạn chạy một nút Lightning thực sự trên điện thoại di động?
 answer: Nút LN nhúng
 wrong_answers:
   - Sét canh giữ wallet

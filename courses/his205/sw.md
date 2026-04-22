@@ -1463,7 +1463,7 @@ Kuhusu kubadilishana vitu, baadhi ya nadharia zinaonyesha kuwa ilitumika hasa ka
 
 
 
-Hivyo kwamba ni nini tunakwenda kufanya katika sehemu hii. Tutafanya aina ya uchunguzi ili kuwasilisha nadharia tofauti juu ya kuibuka kwa pesa na ufafanuzi tofauti wa pesa ni nini. Tutakuwa tukiwasilisha na kukosoa nadharia za wanauchumi wa kitambo na wanaanthropolojia. Hata nitapata bahati ya kuwa na Ulrich Fromy pamoja nami, ambaye atawasilisha mtazamo wa mwanauchumi wa Austria kuhusu masuala haya mbalimbali.
+Hivyo kwamba ni nini tunakwenda kufanya katika sehemu hii. Tutafanya aina ya uchunguzi ili kuwasilisha nadharia tofauti juu ya kuibuka kwa pesa na ufafanuzi tofauti wa pesa ni nini. Tutakuwa tukiwasilisha na kukosoa nadharia za wanauchumi wa kitambo na wanaanthropolojia. Hata nitapata bahati ya kuwa na Ulrich pamoja nami, ambaye atawasilisha mtazamo wa mwanauchumi wa Austria kuhusu masuala haya mbalimbali.
 
 
 

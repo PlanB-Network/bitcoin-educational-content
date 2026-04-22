@@ -1,123 +1,178 @@
 ---
-name: Sao lưu cụm từ ghi nhớ của bạn
-description: Discover best practices for safeguarding your Bitcoin wallet
+name: Hãy củng cố cụm từ ghi nhớ của bạn
+description: Khám phá các biện pháp tốt nhất để bảo vệ Bitcoin wallet của bạn
 ---
 ![cover](assets/cover.webp)
 
-When you create a new Bitcoin wallet, whether via a software or hardware wallet, you receive a mnemonic phrase consisting of 12 or 24 words. This phrase is very important, as it is the source of the derivation of all the private keys that secure your Bitcoins. It must therefore be carefully safeguarded to guarantee the recovery of your funds in the event of breakage, theft or loss of your wallet medium.
 
-In this tutorial, we'll explore best practices for saving your mnemonic phrase securely, so you don't lose access to your bitcoins.
-
-## Risk awareness
-
-The mnemonic gives you full, unrestricted access to all your bitcoins. Anyone in possession of this phrase can steal your funds, even without physical access to the medium hosting your wallet.
-
-This means, for example, that if you use a Bitcoin wallet on a Ledger, anyone with access to your mnemonic phrase can steal your entire bitcoins, even without having access to the Ledger itself. This is why **you should never share your mnemonic phrase**, whatever the situation.
-
-This phrase is therefore the unique information that enables you to restore access to your bitcoins in the event of loss, theft or damage to the wallet's media. Let's take the Ledger example again: if you lose the device, you can recover your funds by entering your mnemonic phrase on a new Ledger or any other compatible wallet, whether software or hardware.
-
-So it's important to save this phrase with the utmost care and keep it in a secure place, as we'll detail in the following sections.
-
-**Your mnemonic phrase is thus exposed to two main risks: theft and loss**
-
-Theft can occur in two main ways:
+Khi bạn tạo một Bitcoin hoặc wallet mới, dù bằng phần mềm hay phần cứng, bạn sẽ nhận được một cụm từ ghi nhớ gồm 12 hoặc 24 từ. Cụm từ này rất quan trọng, vì nó là nguồn gốc của tất cả các khóa riêng tư bảo mật cho Bitcoin của bạn. Do đó, bạn phải bảo vệ nó cẩn thận để đảm bảo khôi phục lại tiền của mình trong trường hợp thiết bị wallet bị hỏng, bị đánh cắp hoặc bị mất.
 
 
-- Someone has gained physical access to your backup, for example during a burglary or through a friend;
-- You have voluntarily or involuntarily shared your sentence with another person.
+Trong hướng dẫn này, chúng ta sẽ tìm hiểu các phương pháp tốt nhất để lưu trữ cụm từ ghi nhớ của bạn một cách an toàn, để bạn không bị mất quyền truy cập vào bitcoin của mình.
 
-To avoid physical theft of your mnemonic phrase backup, it's important to keep it in a secure place. We'll look at this point in detail in the following sections.
 
-When it comes to remote theft attempts, always remember never to share your mnemonic phrase, whatever the situation. Phishing attempts are common: fraudulent e-mails, websites imitating those of official wallets or direct requests via various communication channels. If someone asks you for your passphrase, it's a scam, even in an emergency! It's common for thieves to pose as employees of the manufacturer of your hardware wallet, but be aware that these companies will never ask you for your passphrase, whatever the situation. So be extremely vigilant about any communications you receive, whether by email, telephone, post, social networks or even in person.
+## nhận thức rủi ro
 
-When you need to enter your phrase into a hardware wallet or software to restore access to your wallet after a problem with the initial support, take the time to check the authenticity and integrity of the hardware or software you're using. Don't panic, and proceed methodically.
 
-Also, be careful when handling your mnemonic phrase. Make sure you're not being observed by other people or by a camera.
+Cụm từ ghi nhớ này cho phép bạn truy cập đầy đủ và không hạn chế vào tất cả bitcoin của mình. Bất kỳ ai sở hữu cụm từ này đều có thể đánh cắp tiền của bạn, ngay cả khi không có quyền truy cập vật lý vào phương tiện lưu trữ wallet của bạn.
 
-As far as the risk of loss is concerned, this can arise for three main reasons: the loss of the backup medium, its degradation or an error in its rating. We'll take a closer look at how to avoid or minimize these three risks in the following sections.
 
-## The support
+Điều này có nghĩa là, ví dụ, nếu bạn sử dụng Bitcoin hoặc wallet trên Ledger, bất kỳ ai có quyền truy cập vào cụm từ ghi nhớ của bạn đều có thể đánh cắp toàn bộ bitcoin của bạn, ngay cả khi không có quyền truy cập vào chính Ledger. Đó là lý do tại sao **bạn không bao giờ nên chia sẻ cụm từ ghi nhớ của mình**, bất kể tình huống nào.
 
-To save your recovery phrase, you need to write it down on a physical medium, such as paper or metal. Never use a digital medium: don't save it in a text file, take a picture of it or store it in a password manager. These methods considerably increase the attack surface compared with physical media. The rule is therefore clear: use paper, cardboard or metal to save your phrase.
 
-While writing down your phrase on a simple piece of paper is already good practice, opting for a metal holder, such as stainless steel, offers added security. This type of holder protects your mnemonic phrase from the risks of fire, flood or collapse that can affect the storage location.
+Do đó, cụm từ này là thông tin duy nhất cho phép bạn khôi phục quyền truy cập vào bitcoin của mình trong trường hợp mất, bị đánh cắp hoặc hư hỏng phương tiện lưu trữ của wallet. Hãy lấy ví dụ Ledger một lần nữa: nếu bạn làm mất thiết bị, bạn có thể khôi phục tiền của mình bằng cách nhập cụm từ ghi nhớ trên một Ledger mới hoặc bất kỳ wallet tương thích nào khác, dù là phần mềm hay phần cứng.
 
-For those looking for an economical option for backing up their phrase on metal, [the DIY method of the "*SAFU Ninja*"](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) is an excellent solution. All you need to do is buy metal washers, a screw and a nut in the shops. Then you engrave the words of your sentence on each washer, making sure to number them, and assemble them on the screw with the nut. This low-cost method already offers good resistance.
+
+Vì vậy, điều quan trọng là phải lưu giữ cụm từ này một cách cẩn thận nhất và cất giữ ở một nơi an toàn, như chúng ta sẽ trình bày chi tiết trong các phần tiếp theo.
+
+
+**Do đó, cụm từ ghi nhớ của bạn phải đối mặt với hai rủi ro chính: trộm cắp và mất mát.**
+
+
+Trộm cắp có thể xảy ra theo hai cách chính:
+
+
+
+
+- Ai đó đã truy cập trái phép vào bản sao lưu của bạn, ví dụ như trong một vụ trộm hoặc thông qua bạn bè;
+- Bạn đã tự nguyện hoặc không tự nguyện chia sẻ câu nói của mình với người khác.
+
+
+Để tránh trường hợp bản sao lưu cụm từ ghi nhớ của bạn bị đánh cắp, điều quan trọng là phải giữ nó ở một nơi an toàn. Chúng ta sẽ xem xét chi tiết điểm này trong các phần tiếp theo.
+
+
+Khi đối mặt với các nỗ lực trộm cắp từ xa, hãy luôn nhớ rằng không bao giờ chia sẻ cụm từ ghi nhớ của bạn, bất kể tình huống nào. Các vụ lừa đảo qua mạng rất phổ biến: email giả mạo, trang web giả mạo trang web chính thức của wallet hoặc yêu cầu trực tiếp qua nhiều kênh liên lạc khác nhau. Nếu ai đó yêu cầu bạn cung cấp passphrase, đó là một trò lừa đảo, ngay cả trong trường hợp khẩn cấp! Kẻ trộm thường giả danh nhân viên của nhà sản xuất phần cứng wallet của bạn, nhưng hãy nhớ rằng các công ty này sẽ không bao giờ yêu cầu bạn cung cấp passphrase, bất kể tình huống nào. Vì vậy, hãy cực kỳ cảnh giác với bất kỳ thông tin liên lạc nào bạn nhận được, dù qua email, điện thoại, thư từ, mạng xã hội hay thậm chí trực tiếp.
+
+
+Khi bạn cần nhập cụm từ của mình vào thiết bị wallet phần cứng hoặc phần mềm để khôi phục quyền truy cập vào wallet sau sự cố với bộ phận hỗ trợ ban đầu, hãy dành thời gian kiểm tra tính xác thực và tính toàn vẹn của phần cứng hoặc phần mềm bạn đang sử dụng. Đừng hoảng sợ và hãy tiến hành một cách có phương pháp.
+
+
+Ngoài ra, hãy cẩn thận khi sử dụng cụm từ ghi nhớ của bạn. Hãy chắc chắn rằng bạn không bị người khác hoặc máy quay phim quan sát.
+
+
+Về rủi ro mất dữ liệu, có ba nguyên nhân chính: mất phương tiện sao lưu, suy giảm chất lượng hoặc sai sót trong việc đánh giá dung lượng. Chúng ta sẽ xem xét kỹ hơn cách tránh hoặc giảm thiểu ba rủi ro này trong các phần tiếp theo.
+
+
+## Sự hỗ trợ
+
+
+Để lưu cụm từ khôi phục, bạn cần viết nó ra trên một phương tiện vật lý, chẳng hạn như giấy hoặc kim loại. Tuyệt đối không sử dụng phương tiện kỹ thuật số: đừng lưu nó vào tệp văn bản, chụp ảnh hoặc lưu trữ trong trình quản lý mật khẩu. Những phương pháp này làm tăng đáng kể bề mặt tấn công so với phương tiện vật lý. Do đó, quy tắc rất rõ ràng: hãy sử dụng giấy, bìa cứng hoặc kim loại để lưu cụm từ của bạn.
+
+
+Mặc dù việc viết cụm từ cần nhớ của bạn lên một mảnh giấy đơn giản đã là một cách làm tốt, nhưng việc lựa chọn một hộp đựng bằng kim loại, chẳng hạn như thép không gỉ, sẽ mang lại sự an toàn cao hơn. Loại hộp đựng này bảo vệ cụm từ cần nhớ của bạn khỏi nguy cơ hỏa hoạn, lũ lụt hoặc sụp đổ có thể ảnh hưởng đến vị trí lưu trữ.
+
+
+Đối với những ai đang tìm kiếm một phương án tiết kiệm để sao lưu câu nói của mình trên kim loại, [phương pháp tự chế của "*SAFU Ninja*"](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) là một giải pháp tuyệt vời. Tất cả những gì bạn cần làm là mua vòng đệm kim loại, một con vít và một đai ốc ở cửa hàng. Sau đó, bạn khắc các từ trong câu nói của mình lên mỗi vòng đệm, nhớ đánh số chúng, và lắp chúng vào vít bằng đai ốc. Phương pháp chi phí thấp này đã mang lại độ bền tốt.
+
 
 ![SEED](assets/fr/01.webp)
 
-Image credit: [*SAFU Ninja Review*, Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/).
 
-If you prefer to invest in a complete metal backup device, I recommend you take a look at [Jameson Lopp's resistance tests](https://jlopp.github.io/metal-bitcoin-storage-reviews/), which evaluate most of the solutions available on the market. I'd advise you to opt for one-piece brackets, such as a metal plate for engraving, stamping or punching. These devices generally offer much greater resistance than systems using independent letters to be assembled.
+Nguồn ảnh: [*Đánh giá SAFU Ninja*, Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/).
 
-If you opt for a paper wallet, you have several options: a simple blank sheet of paper, the cardboard wallet often supplied with your hardware wallet, or our downloadable template which you can print out [by clicking here](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
+
+Nếu bạn muốn đầu tư vào một thiết bị sao lưu bằng kim loại hoàn chỉnh, tôi khuyên bạn nên xem xét [các bài kiểm tra độ bền của Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/), bài kiểm tra này đánh giá hầu hết các giải pháp hiện có trên thị trường. Tôi khuyên bạn nên chọn các khung liền khối, chẳng hạn như một tấm kim loại để khắc, dập hoặc đục lỗ. Các thiết bị này thường có độ bền cao hơn nhiều so với các hệ thống sử dụng các chữ cái riêng lẻ để lắp ráp.
+
+
+Nếu bạn chọn paper wallet, bạn có một số lựa chọn: một tờ giấy trắng đơn giản, bìa cứng wallet thường được cung cấp kèm theo thiết bị phần cứng wallet của bạn, hoặc mẫu có thể tải xuống của chúng tôi mà bạn có thể in ra [bằng cách nhấp vào đây](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
+
 
 ![SEED](assets/fr/02.webp)
 
-## Backup
 
-Now that you've chosen your physical medium, it's time to write down your recovery phrase! To avoid losing your bitcoins, follow these best practices.
+## Hỗ trợ
 
-First of all, make sure you're not being observed, either by other people or by cameras, as you write down your sentence.
 
-Then take the time to write each word clearly and legibly. You may need to reread your sentence years from now, or someone else may need to do so as part of an inheritance. Careful handwriting is therefore essential.
+Giờ bạn đã chọn được phương tiện lưu trữ vật lý, đã đến lúc ghi lại cụm từ khôi phục của mình! Để tránh mất bitcoin, hãy làm theo những hướng dẫn sau.
 
-In theory, it's possible to write only the first 4 letters of each word, because in the list of 2048 words in BIP39, no two words share the same first 4 letters in the same order. However, if your medium has sufficient space, I recommend that you save each word in its entirety. This can be useful in the event of partial media degradation. For example, if you only note `accu` for the word `accuse` and the letter `u` disappears, you may have to choose between `accuse`, `access`, `accident` or `account`. On the other hand, with the whole word, even if one letter is missing, it's still easy to recognize the correct word.
 
-It's also essential to write your words in the right order. If you have your 24 words but don't know their exact sequence, it will be impossible to recover your wallet. Numbering the words is just as important: if the medium is damaged or the words become disorganized, numbering them will enable you to easily put them back in the right order.
+Trước hết, hãy chắc chắn rằng bạn không bị ai quan sát, dù là bởi người khác hay camera, khi bạn viết câu đó.
+
+
+Hãy dành thời gian viết từng từ rõ ràng và dễ đọc. Có thể nhiều năm sau bạn sẽ cần đọc lại câu này, hoặc người khác có thể cần đọc lại như một phần của việc thừa kế. Vì vậy, chữ viết tay cẩn thận là vô cùng quan trọng.
+
+
+Về lý thuyết, bạn chỉ cần viết 4 chữ cái đầu tiên của mỗi từ, vì trong danh sách 2048 từ của BIP39, không có hai từ nào có cùng 4 chữ cái đầu tiên theo cùng một thứ tự. Tuy nhiên, nếu phương tiện lưu trữ của bạn có đủ dung lượng, tôi khuyên bạn nên lưu toàn bộ mỗi từ. Điều này có thể hữu ích trong trường hợp phương tiện bị hư hỏng một phần. Ví dụ, nếu bạn chỉ ghi lại chữ `accu` cho từ `accuse` và chữ `u` biến mất, bạn có thể phải chọn giữa `accuse`, `access`, `accident` hoặc `account`. Mặt khác, với toàn bộ từ, ngay cả khi thiếu một chữ cái, vẫn dễ dàng nhận ra từ chính xác.
+
+
+Việc viết các từ theo đúng thứ tự cũng rất cần thiết. Nếu bạn có 24 từ nhưng không biết thứ tự chính xác của chúng, bạn sẽ không thể khôi phục lại wallet của mình. Đánh số các từ cũng quan trọng không kém: nếu phương tiện lưu trữ bị hỏng hoặc các từ bị xáo trộn, việc đánh số sẽ giúp bạn dễ dàng sắp xếp chúng lại theo đúng thứ tự.
+
 
 ![SEED](assets/fr/03.webp)
 
-Furthermore, it's important to understand that, theoretically, the mnemonic phrase alone isn't always enough to regain access to your bitcoins. You also need to know the derivation paths used to generate the keys. If you use a SingleSig wallet with a standard path, it will be relatively simple to recover your keys. However, with a non-standard path, this could become impossible, even in possession of the mnemonic phrase. To avoid this problem, I strongly recommend that you note, on your media, the derivation path of the account you're using. You can find this information in the settings of your wallet software. For example, for a standard Taproot wallet, the default derivation path will be :
+
+Hơn nữa, điều quan trọng cần hiểu là, về mặt lý thuyết, chỉ riêng cụm từ ghi nhớ không phải lúc nào cũng đủ để lấy lại quyền truy cập vào bitcoin của bạn. Bạn cũng cần biết đường dẫn tạo khóa. Nếu bạn sử dụng wallet SingleSig với đường dẫn chuẩn, việc khôi phục khóa sẽ tương đối đơn giản. Tuy nhiên, với đường dẫn không chuẩn, điều này có thể trở nên bất khả thi, ngay cả khi bạn có cụm từ ghi nhớ. Để tránh vấn đề này, tôi đặc biệt khuyên bạn nên ghi lại đường dẫn tạo khóa của tài khoản bạn đang sử dụng. Bạn có thể tìm thấy thông tin này trong cài đặt phần mềm wallet của mình. Ví dụ, đối với Taproot wallet chuẩn, đường dẫn tạo khóa mặc định sẽ là:
+
 
 ```txt
 m / 86' / 0' / 0' /
 ```
 
+
 ![SEED](assets/fr/04.webp)
 
-If you use a multisig wallet or a wallet with complex scripts including recovery keys, such as those offered by the Liana software, it is essential to save your **Output Script Descriptors**. These descriptors contain all the information you need, in addition to the recovery phrases, to regain access to your bitcoins.
 
-You can also enrich your backup with additional information related to your wallet support. For example, note the PIN code used to unlock your hardware wallet, or the anti-phishing words if you use a COLDCARD.
+Nếu bạn sử dụng multisig, wallet hoặc wallet với các script phức tạp bao gồm cả khóa phục hồi, chẳng hạn như những khóa được cung cấp bởi phần mềm Liana, thì việc lưu lại **Tập lệnh đầu ra Descriptor** là rất cần thiết. Các mô tả này chứa tất cả thông tin bạn cần, ngoài các cụm từ phục hồi, để lấy lại quyền truy cập vào bitcoin của mình.
+
+
+Bạn cũng có thể bổ sung thêm thông tin liên quan đến việc hỗ trợ wallet vào bản sao lưu của mình. Ví dụ, ghi lại mã PIN được sử dụng để mở khóa phần cứng wallet hoặc các từ chống lừa đảo nếu bạn sử dụng COLDCARD.
+
 
 ![SEED](assets/fr/05.webp)
 
-On the other hand, if you use a passphrase, make sure you don't write it down on the same medium as your mnemonic phrase. The purpose of the passphrase is to protect your wallet in the event of theft. To find out more about how to use a passphrase, take a look at this complementary tutorial:
+
+Mặt khác, nếu bạn sử dụng passphrase, hãy đảm bảo rằng bạn không viết nó lên cùng một phương tiện với cụm từ ghi nhớ của mình. Mục đích của passphrase là để bảo vệ wallet của bạn trong trường hợp bị mất cắp. Để tìm hiểu thêm về cách sử dụng passphrase, hãy xem hướng dẫn bổ sung này:
+
 
 https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-Once you've saved your mnemonic phrase on physical media, it's strongly recommended that you perform a recovery test while your newly-created wallet is still empty. This test consists of writing down a sample piece of information, deliberately deleting the empty wallet, then trying to restore it using only your physical backup of the mnemonic phrase. This will enable you to check that your backup is complete and free of input errors. It also allows you to familiarize yourself with the recovery process. This way, if you need to recover in the future, you'll be better prepared and avoid the stress of a first attempt in a real-life situation. To find out more about how to carry out this test, see this other tutorial :
+Sau khi đã lưu cụm từ ghi nhớ của bạn vào phương tiện vật lý, bạn nên thực hiện kiểm tra khôi phục trong khi wallet mới tạo vẫn còn trống. Bài kiểm tra này bao gồm việc ghi lại một đoạn thông tin mẫu, cố tình xóa wallet trống, sau đó thử khôi phục nó chỉ bằng bản sao lưu vật lý của cụm từ ghi nhớ. Điều này sẽ cho phép bạn kiểm tra xem bản sao lưu của mình có đầy đủ và không có lỗi nhập liệu hay không. Nó cũng cho phép bạn làm quen với quy trình khôi phục. Bằng cách này, nếu bạn cần khôi phục trong tương lai, bạn sẽ chuẩn bị tốt hơn và tránh được căng thẳng khi thực hiện lần đầu tiên trong tình huống thực tế. Để tìm hiểu thêm về cách thực hiện bài kiểm tra này, hãy xem hướng dẫn khác này:
+
 
 https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
-Finally, there's the question of the number of backups. This choice depends entirely on your personal situation. Limiting the number of copies, for example by writing your mnemonic phrase only once on a medium, reduces the risk of theft, but increases the risk of loss. Conversely, making several copies reduces the risk of loss, but increases the risk of theft. So it's up to you to find the right balance for your needs, and determine the number of copies you feel is most appropriate.
+Cuối cùng, còn có vấn đề về số lượng bản sao lưu. Lựa chọn này hoàn toàn phụ thuộc vào tình huống cá nhân của bạn. Việc hạn chế số lượng bản sao, ví dụ bằng cách chỉ viết cụm từ ghi nhớ của bạn một lần trên một phương tiện nào đó, sẽ giảm nguy cơ bị đánh cắp, nhưng tăng nguy cơ bị mất. Ngược lại, việc tạo ra nhiều bản sao sẽ giảm nguy cơ bị mất, nhưng lại tăng nguy cơ bị đánh cắp. Vì vậy, bạn cần tìm ra sự cân bằng phù hợp với nhu cầu của mình và xác định số lượng bản sao mà bạn cảm thấy phù hợp nhất.
 
-## Storage
 
-Now that you've carefully backed up your mnemonic phrase, it's time to choose a suitable storage location. This will depend on your security strategy. In any case, choose a place that's out of sight, where it's unlikely someone will stumble across it, yet accessible for periodic checks. Make sure it's protected from the elements, too, to prevent damage to the substrate.
+## Kho
 
-I would also advise against storing your mnemonic in places where you are not sovereign, such as a safe deposit box at a notary's office or a bank. These options may seem secure, but they imply that you depend on a third party to access your backup, which goes against Bitcoin's fundamental principles.
 
-For added security, I recommend using a tamper-proof plastic pouch or similar sealing system. This will enable you to check that no one has gained access to your phrase. For example, if you store your phrase at home and receive guests, it may be impossible to know whether anyone has seen, memorized or photographed it. A tamper-proof pouch makes this kind of verification simple: if it's intact, you can be sure that your phrase has remained secret. These fully opaque sleeves are available online or in specialized Bitcoin stores.
+Giờ bạn đã sao lưu cẩn thận cụm từ ghi nhớ của mình, đã đến lúc chọn một vị trí lưu trữ phù hợp. Điều này sẽ phụ thuộc vào chiến lược bảo mật của bạn. Trong mọi trường hợp, hãy chọn một nơi khuất tầm nhìn, nơi mà người khác khó có thể tình cờ tìm thấy, nhưng vẫn dễ dàng tiếp cận để kiểm tra định kỳ. Đồng thời, hãy đảm bảo nó được bảo vệ khỏi các yếu tố thời tiết để tránh làm hư hại vật liệu.
+
+
+Tôi cũng khuyên bạn không nên lưu trữ cụm từ ghi nhớ của mình ở những nơi bạn không hoàn toàn chủ quyền, chẳng hạn như két sắt tại văn phòng công chứng hoặc ngân hàng. Những lựa chọn này có vẻ an toàn, nhưng chúng ngụ ý rằng bạn phụ thuộc vào bên thứ ba để truy cập bản sao lưu của mình, điều này đi ngược lại các nguyên tắc cơ bản của Bitcoin.
+
+
+Để tăng cường bảo mật, tôi khuyên bạn nên sử dụng túi nhựa chống giả mạo hoặc hệ thống niêm phong tương tự. Điều này sẽ cho phép bạn kiểm tra xem không ai đã truy cập được vào cụm từ của bạn. Ví dụ, nếu bạn cất giữ cụm từ của mình ở nhà và có khách đến, có thể không thể biết liệu có ai đã nhìn thấy, ghi nhớ hoặc chụp ảnh nó hay không. Túi chống giả mạo giúp việc xác minh này trở nên đơn giản: nếu nó còn nguyên vẹn, bạn có thể chắc chắn rằng cụm từ của bạn vẫn được giữ bí mật. Những chiếc túi hoàn toàn không trong suốt này có bán trực tuyến hoặc tại các cửa hàng chuyên dụng của Bitcoin.
+
 
 ![SEED](assets/fr/06.webp)
 
-Finally, when your phrase is stored in a tamper-proof envelope, don't forget to note the envelope's unique identifier. This will enable you to verify its authenticity during your checks.
 
-## Time management
+Cuối cùng, khi cụm từ của bạn được lưu trữ trong một phong bì chống giả mạo, đừng quên ghi lại mã số nhận dạng duy nhất của phong bì. Điều này sẽ giúp bạn xác minh tính xác thực của nó trong quá trình kiểm tra.
 
-Now that your phrase is carefully stored, it's important to set up regular monitoring. Periodically, check that your phrase is still present in its storage location, and that its opaque envelope has not been opened.
 
-During these checks, you can also open the envelope to examine the condition of the substrate. Make sure it is undamaged and that the sentence is still perfectly legible. If you notice any signs of damage, it's best to create a new copy from your hardware wallet. Check that this new copy is functional, then destroy the damaged backup cleanly to avoid any risk of leakage.
+## Quản lý thời gian
 
-Finally, mnemonic phrase management also raises the question of inheritance. This subject will be covered in detail in a future tutorial.
 
-## Going further
+Giờ đây, khi cụm từ của bạn đã được lưu trữ cẩn thận, điều quan trọng là phải thiết lập chế độ giám sát thường xuyên. Định kỳ, hãy kiểm tra xem cụm từ của bạn vẫn còn ở vị trí lưu trữ và phong bì kín của nó chưa bị mở ra.
 
-To go one step further and further strengthen your security strategy, I recommend that you learn the technical workings of your Bitcoin wallet. By understanding how the various elements interact, as well as their importance and implications, you'll be able to fine-tune your security strategy with full awareness of the risks involved. In particular, if you understand at a technical level what the mnemonic phrase enables, you'll be able to adjust the way you record, store and manage it over time.
 
-That's why I invite you to take the free CYP201 training course offered by Plan ₿ Academy. This training course explains in detail all the workings of Bitcoin wallets, enabling you to master the technical aspects essential to effectively securing your funds :
+Trong quá trình kiểm tra này, bạn cũng có thể mở phong bì để kiểm tra tình trạng của chất liệu nền. Hãy đảm bảo rằng nó không bị hư hại và câu chữ vẫn hoàn toàn dễ đọc. Nếu bạn phát hiện bất kỳ dấu hiệu hư hại nào, tốt nhất là nên tạo một bản sao mới từ thiết bị wallet của bạn. Kiểm tra xem bản sao mới này có hoạt động tốt hay không, sau đó hủy bỏ bản sao lưu bị hỏng một cách an toàn để tránh mọi nguy cơ rò rỉ thông tin.
+
+
+Cuối cùng, việc quản lý cụm từ ghi nhớ cũng đặt ra vấn đề về tính kế thừa. Chủ đề này sẽ được đề cập chi tiết trong một bài hướng dẫn khác.
+
+
+## Tiến xa hơn
+
+
+Để tiến thêm một bước nữa và tăng cường hơn nữa chiến lược bảo mật của bạn, tôi khuyên bạn nên tìm hiểu về cơ chế hoạt động kỹ thuật của Bitcoin và wallet. Bằng cách hiểu cách các yếu tố khác nhau tương tác, cũng như tầm quan trọng và tác động của chúng, bạn sẽ có thể tinh chỉnh chiến lược bảo mật của mình với nhận thức đầy đủ về các rủi ro liên quan. Đặc biệt, nếu bạn hiểu ở cấp độ kỹ thuật những gì cụm từ ghi nhớ cho phép, bạn sẽ có thể điều chỉnh cách bạn ghi lại, lưu trữ và quản lý nó theo thời gian.
+
+
+Vì vậy, tôi mời bạn tham gia khóa đào tạo CYP201 miễn phí do Plan ₿ Academy cung cấp. Khóa đào tạo này giải thích chi tiết tất cả các hoạt động của Bitcoin và wallet, giúp bạn nắm vững các khía cạnh kỹ thuật cần thiết để bảo vệ nguồn vốn của mình một cách hiệu quả
+
 
 https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-If you found this tutorial useful, I'd be grateful if you'd leave a green thumb below. Feel free to share this article on your social networks. Thank you very much!
+Nếu bạn thấy hướng dẫn này hữu ích, tôi rất biết ơn nếu bạn để lại một biểu tượng ngón tay cái màu xanh lá cây bên dưới. Hãy thoải mái chia sẻ bài viết này trên mạng xã hội của bạn. Cảm ơn rất nhiều!

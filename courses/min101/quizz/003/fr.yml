@@ -6,4 +6,4 @@ wrong_answers:
   - Un certificat SSL
 explanation: |
   La condition de dépense attend généralement une signature produite avec la clé privée correspondante.
-reviewed: false
+reviewed: true 

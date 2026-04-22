@@ -1,9 +1,9 @@
-question: Koja je glavna funkcija Bitcoin Wallet?
+question: Koja je glavna funkcija Bitcoin novčanika (eng.wallet)?
 answer: Čuvanje i upravljanje privatnim ključevima
 wrong_answers:
-  - Skladišti i upravljaj kompletnim Blockchain
-  - Proveri validnost bloka
-  - Transakcije relejne mreže
+  - Skladištenje i upravljanje kompletnim blokčejnom
+  - Provera validnosti bloka
+  - Prosleđivanje transakcija kroz mrežu
 explanation: |
-  Bitcoin Wallet upravlja privatnim ključevima koji omogućavaju trošenje bitkoina, ali ne obavlja funkcije čvora.
+  Bitcoin novčanik upravlja privatnim ključevima koji omogućavaju trošenje bitkoina, ali ne obavlja funkcije čvora.
 reviewed: true

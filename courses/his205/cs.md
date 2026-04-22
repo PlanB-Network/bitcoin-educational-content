@@ -1463,7 +1463,7 @@ Co se týče směnného obchodu, některé teorie naznačují, že se používal
 
 
 
-To je to, co budeme dělat v této části. Provedeme jakýsi průzkum, abychom představili různé teorie o vzniku peněz a různé definice toho, co peníze jsou. Budeme prezentovat a kritizovat teze klasických ekonomů i antropologů. Budu mít dokonce to štěstí, že se mnou bude Ulrich Fromy, který představí pohled rakouského ekonoma na tato různá témata.
+To je to, co budeme dělat v této části. Provedeme jakýsi průzkum, abychom představili různé teorie o vzniku peněz a různé definice toho, co peníze jsou. Budeme prezentovat a kritizovat teze klasických ekonomů i antropologů. Budu mít dokonce to štěstí, že se mnou bude Ulrich, který představí pohled rakouského ekonoma na tato různá témata.
 
 
 

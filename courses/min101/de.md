@@ -924,6 +924,8 @@ Es gibt ein wichtiges Detail, das bei dieser Anpassung zu beachten ist: **Sie is
 
 
 
+Beachten wir auch, dass die Anpassung der Bitcoin-Schwierigkeit in der Realität nicht ganz perfekt ist. Wir haben gesehen, dass sie alle 2016 Blöcke neu berechnet werden soll, indem die tatsächlich verstrichene Zeit mit der Zielzeit von 14 Tagen (2016 × 10 Minuten) verglichen wird. Der ursprüngliche Code von Satoshi enthält jedoch einen sogenannten "*off-by-one*"-Fehler: Anstatt die Zeit zwischen den letzten Blöcken jeder Periode (also 2016 Intervalle) zu messen, misst er die Zeit zwischen dem ersten und dem letzten Block, also nur 2015 Intervalle. Konkret wird die Schwierigkeit so berechnet, als ob der Zeitraum nur 2015 Blöcke statt 2016 umfassen würde. Die Folge ist, dass die Schwierigkeit systematisch ganz leicht überbewertet wird, was dazu führt, dass Blöcke im Durchschnitt ein klein wenig langsamer als die angestrebten 10 Minuten gemined werden (etwa 0,05 % langsamer). Dieser Bug ist wohlbekannt, wurde aber nie behoben, da eine Änderung einen Hard Fork erfordern würde und seine Auswirkungen in der Praxis vernachlässigbar bleiben, abgesehen von dem theoretischen Angriff namens "*time warp*".
+
 ### Darstellung der Ziele
 
 

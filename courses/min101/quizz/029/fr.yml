@@ -6,4 +6,4 @@ wrong_answers:
   - Hashrate + frais
 explanation: |
   La récompense additionne la subvention de bloc et l’ensemble des frais des transactions incluses.
-reviewed: false
+reviewed: true 

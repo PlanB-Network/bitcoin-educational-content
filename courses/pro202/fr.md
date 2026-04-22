@@ -17,6 +17,7 @@ Ce cours intensif de deux jours, enseigné par Jimmy Song, vous plonge dans les 
 
 Bon voyage !
 
+Note : Les vidéos de ce cours sont uniquement disponibles en anglais.
 
 +++
 

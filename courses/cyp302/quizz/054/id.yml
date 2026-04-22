@@ -6,3 +6,4 @@ wrong_answers:
   - Akar kubik
 explanation: |
   Dalam kriptografi, bidang terbatas dengan orde 2^m sering menggunakan polinomial tak tereduksi untuk memastikan bahwa bidang tersebut terdefinisi dengan baik dan semua operasi dapat dilakukan.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Mục tiêu chính của việc triển khai thanh toán Bitcoin cấp doanh nghiệp là gì?
-answer: Để tích hợp đầy đủ các khoản thanh toán Bitcoin vào các quy trình cốt lõi của tổ chức
+question: Mục tiêu chính của việc triển khai thanh toán Bitcoin ở cấp doanh nghiệp là gì?
+answer: Để tích hợp đầy đủ các khoản thanh toán bằng Bitcoin vào các quy trình lõi của tổ chức
 wrong_answers:
   - Để thử nghiệm Bitcoin ở quy mô nhỏ
   - Sử dụng Bitcoin cho mục đích tiếp thị
   - Chấp nhận Bitcoin mà không cần tích hợp vào các hệ thống khác
 explanation: |
-  Các giải pháp doanh nghiệp nhằm mục đích liên kết thanh toán Bitcoin với quy trình làm việc và hệ thống kinh doanh cốt lõi.
+  Các giải pháp doanh nghiệp nhằm mục đích liên kết thanh toán bằng Bitcoin với quy trình làm việc và hệ thống kinh doanh cốt lõi.
 reviewed: true

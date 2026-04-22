@@ -1,9 +1,9 @@
 question: 次のソフトウェアのうち、ビットコイン会計ソリューションでないものはどれか？
-answer: スズメ
+answer: Sparrow
 wrong_answers:
-  - コイン・トラッカー
-  - コイニー
-  - ゼンレジャー
+  - CoinTracker
+  - Koinly
+  - ZenLedger
 explanation: |
-  Sparrowはビットコイン会計ソリューションではないが、他のものはそうである（ビットコインウォレットソフトウェアである）。
+  Sparrowはビットコイン会計ソリューションではないが、他のものはそうである（ビットコインウォレット・ソフトウェアである）。
 reviewed: false

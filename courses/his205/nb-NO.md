@@ -1463,7 +1463,7 @@ Når det gjelder byttehandel, finnes det teorier om at den først og fremst ble 
 
 
 
-Så det er det vi skal gjøre i denne delen. Vi skal foreta en slags undersøkelse for å presentere de ulike teoriene om pengenes opprinnelse og de ulike definisjonene av hva penger er. Vi skal presentere og kritisere tesene til både klassiske økonomer og antropologer. Jeg er til og med så heldig å ha med meg Ulrich Fromy, som vil presentere en østerriksk økonoms perspektiv på disse ulike temaene.
+Så det er det vi skal gjøre i denne delen. Vi skal foreta en slags undersøkelse for å presentere de ulike teoriene om pengenes opprinnelse og de ulike definisjonene av hva penger er. Vi skal presentere og kritisere tesene til både klassiske økonomer og antropologer. Jeg er til og med så heldig å ha med meg Ulrich, som vil presentere en østerriksk økonoms perspektiv på disse ulike temaene.
 
 
 

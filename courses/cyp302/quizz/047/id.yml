@@ -6,4 +6,4 @@ wrong_answers:
   - a mod N
 explanation: |
   Teorema Euler menyatakan bahwa untuk dua bilangan bulat a dan N yang koprima, perpangkatan a^ϕ(N) mod N selalu sama dengan 1 mod N, sebuah properti yang digunakan dalam kriptografi.
-reviewed: false
+reviewed: true

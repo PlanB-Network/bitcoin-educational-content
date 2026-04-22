@@ -6,3 +6,4 @@ wrong_answers:
   - Ini menghapus huruf-huruf setelah huruf Z
 explanation: |
   Operasi modulo 26 memungkinkan huruf-huruf untuk berputar kembali setelah Z untuk memastikan bahwa setiap huruf yang dienkripsi tetap berada dalam 26 huruf dari alfabet.
+reviewed: true

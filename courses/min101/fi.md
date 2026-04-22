@@ -924,6 +924,8 @@ Tähän säätöön liittyy yksi tärkeä yksityiskohta: **Se on rajoitettu**. B
 
 
 
+Huomattakoon myös, että todellisuudessa Bitcoinin vaikeustason säätö ei ole täysin tarkka. Olemme nähneet, että vaikeustaso on tarkoitus laskea uudelleen joka 2016. lohkon kohdalla vertaamalla todellista kulunutta aikaa 14 päivän tavoiteaikaan (2016 × 10 minuuttia). Satoshin alkuperäinen koodi sisältää kuitenkin niin kutsutun "*off-by-one*"-virheen: sen sijaan, että se mittaisi kunkin jakson viimeisten lohkojen välisen ajan (eli 2016 aikaväliä), se mittaa ensimmäisen ja viimeisen lohkon välisen ajan, mikä on vain 2015 aikaväliä. Käytännössä vaikeustaso lasketaan ikään kuin jakso sisältäisi vain 2015 lohkoa 2016:n sijaan. Seurauksena on, että vaikeustaso on järjestelmällisesti hieman yliarvioitu, mikä tarkoittaa, että lohkoja louhitaan keskimäärin hieman hitaammin kuin tavoitellut 10 minuuttia (noin 0,05 % hitaammin). Tämä bugi on tunnettu, mutta sitä ei ole koskaan korjattu, koska sen muuttaminen vaatisi kovan haarautumisen (hard fork) ja sen vaikutus on käytännössä merkityksetön, lukuun ottamatta teoreettista "*time warp*" -hyökkäystä.
+
 ### Tavoiteedustus
 
 

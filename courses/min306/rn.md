@@ -21,6 +21,7 @@ Umugambi wa Bitaxe ugereranya ihinduka ry’akarorero muri Bitcoin mining, ugaca
 
 Nta bumenyi bwa mining busabwa, naho ubumenyi bw’ishimikiro bw’ivy’ubuhinga bwa none n’ukumenya GitHub bizofasha. Iryo shure rizoguhindura kuva ku muntu yitegereza ibintu vyinshi, ukaja ku muntu ashoboye kwubaka Bitaxe no gutanga umusanzu.
 
+Iciyumviro: Amavidewo y'iri somo aboneka mu congereza gusa.
 
 +++
 

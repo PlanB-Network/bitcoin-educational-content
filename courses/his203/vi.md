@@ -3563,3 +3563,21 @@ Sự gia tăng đầu cơ cũng là tin tốt cho Mt. Gox, giúp thị trường
 ---
 
 Khóa học về quá trình xây dựng Bitcoin từ mùa xuân năm 2011 đến mùa hè năm 2012 kết thúc tại đây. Giai đoạn tiếp theo của lịch sử tiền điện tử, đó là sự trỗi dậy không thể cưỡng lại của Bitcoin, sẽ được đề cập trong khóa học tiếp theo, nếu Chúa cho phép.
+# Conclusion
+
+<partId>85b5b21d-2754-41ad-9e25-21350488cfd3</partId>
+
+## Reviews & Ratings
+
+<chapterId>52d64403-1669-4852-ae4f-17ecfe1dc315</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Final Exam
+
+<chapterId>080fb5af-dfff-4600-95cb-61455831080f</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusion
+
+<chapterId>cd50980c-0c9e-43e5-97ec-4db79388335b</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

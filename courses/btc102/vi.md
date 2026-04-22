@@ -37,7 +37,7 @@ Trong các chương tiếp theo, chúng tôi sẽ hướng dẫn bạn các bư�
 
 https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
-Mặc dù Bitcoin đã tồn tại hơn 16 năm, ngành công nghiệp này vẫn còn non trẻ, năng động và gắn liền với tự do. Giao thức cơ bản của nó hoàn toàn phi tập trung và không chịu sự kiểm soát của bất kỳ cơ quan trung ương nào, cho phép hệ sinh thái phát triển một cách tự nhiên và bền vững.
+Mặc dù Bitcoin đã tồn tại hơn 16 năm, ngành công nghiệp này vẫn còn non trẻ, năng động và gắn liền với tự do. Giao thức cơ bản của nó hoàn toàn phi tập trung và không chịu sự kiểm soát của bất kỳ cơ quan trung ương nào, cho phép hệ sinh thái phát triển một cách tự nhiên.
 
 Mặc dù sự tự do này thúc đẩy một làn sóng đổi mới và cơ hội đáng kinh ngạc, nhưng nó cũng đi kèm với một số rủi ro nhất định, bao gồm lừa đảo, những sai lầm phổ biến và cạm bẫy thường xuất phát từ việc thiếu kiến thức. Mục tiêu chính của khóa học này là giúp bạn định hướng hệ sinh thái mới này một cách tự tin và an toàn.
 

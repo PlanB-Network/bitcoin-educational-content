@@ -1,0 +1,11 @@
+question: Mikä oli ensisijainen vastaväite, jonka amerikkalaiset libertaarit esittivät Bitcoin:ta vastaan vedoten Misesin regressioteoreemaan?
+answer: Sillä ei ollut itseisarvoa, eikä sen takana ollut mitään konkreettista
+wrong_answers:
+  - Rahainflaatio oli 40 prosenttia vuodessa vuonna 2011
+  - Sitä ei käytetty laskentayksikkönä, mikä on rahan olennainen ominaisuus
+  - Se loi rikkauksien erittäin epätasa-arvoisen jakautumisen
+explanation: |
+ Eräät amerikkalaiset libertaarit, jotka ovat kiinni itävaltalaisessa koulukunnassa, hylkäsivät Bitcoin:n, koska se oli (heidän mielestään) ristiriidassa Ludwig von Misesin regressioteorian kanssa,
+ jonka mukaan tavaralla on oltava objektiivinen käyttöarvo, joka ei ole rahallinen, ennen kuin siitä voi tulla valuutta. Tämä koski erityisesti Peter Schiffiä, joka oli poika
+ irwin Schiffin poika ja kultakannan vankka kannattaja.
+reviewed: true

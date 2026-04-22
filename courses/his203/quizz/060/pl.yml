@@ -1,0 +1,10 @@
+question: Która techniczna innowacja SatoshiDICE pozwoliła graczom sprawdzić, czy kasyno nie oszukiwało?
+answer: Publikacja tajnego skrótu na blockchainie, a następnie publikacja wspomnianych sekretów w celu umożliwienia ponownego obliczenia wyników
+wrong_answers:
+  - Wdrożenie zdecentralizowanego łańcucha bloków walidacyjnych, w którym każda transakcja jest weryfikowana przez kilka niezależnych węzłów
+  - Wykorzystanie stałych adresów na blockchainie, co umożliwia audyt losowań, zapewniając w ten sposób ich uczciwość
+  - Wykonywanie obliczeń prawdopodobieństwa bezpośrednio na blockchainie poprzez autonomiczne kontrakty publiczne
+explanation: |
+ SatoshiDICE był rewolucyjny, ponieważ był "na pewno uczciwy". Każde losowanie powiązane z prawdopodobieństwem zależało od tajnego generated na początku dnia, którego hash był publikowany na blockchainie
+ którego hash był publikowany na blockchainie. Sam sekret został ujawniony kilka dni później, umożliwiając użytkownikom samodzielne przeliczenie wyniku.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Apa nama layanan penukaran valuta asing instan yang diciptakan oleh Gareth Nelson dan Charlie Shrem pada tahun 2011 untuk memfasilitasi penyetoran ke platform penukaran valuta asing?
+answer: BitInstant
+wrong_answers:
+  - Instawallet
+  - Perubahan Crypto X
+  - TrustCash
+explanation: |
+ Layanan ini memecahkan masalah transfer internasional yang lambat ke Mt. Gox dengan bertindak sebagai perantara, mentransfer dana ke platform pertukaran setelah diterima di
+ negara asal. BitInstant membuka pintunya untuk umum pada tanggal 23 Agustus 2011 dan dengan cepat menjadi populer, mentransfer $1,2 juta pada bulan Januari 2012.
+reviewed: true

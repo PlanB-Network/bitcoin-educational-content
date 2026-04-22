@@ -1,0 +1,10 @@
+question: Minkä SatoshiDICEn teknisen innovaation avulla pelaajat pystyivät tarkistamaan, ettei kasino huijaa?
+answer: Salaisen hash-tiedon julkaiseminen lohkoketjussa, minkä jälkeen kyseiset salaisuudet julkaistaan tulosten uudelleenlaskennan mahdollistamiseksi
+wrong_answers:
+  - Hajautetun validointilohkoketjun käyttöönotto, jossa useat riippumattomat solmut varmentavat jokaisen tapahtuman
+  - Kiinteiden osoitteiden käyttö lohkoketjussa, mikä mahdollistaa arvontojen tarkastamisen ja varmistaa siten niiden oikeudenmukaisuuden
+  - Todennäköisyyslaskentojen suorittaminen suoraan lohkoketjussa itsenäisten julkisten sopimusten avulla
+explanation: |
+ SatoshiDICE oli vallankumouksellinen, koska se oli "varmasti reilu". Jokainen todennäköisyyksiin sidottu arvonta riippui päivän alussa salaisesta generated:stä, joka on
+ jonka hash julkaistiin lohkoketjussa. Itse salaisuus paljastettiin muutamaa päivää myöhemmin, jolloin käyttäjät pystyivät itse laskemaan tuloksen uudelleen.
+reviewed: true

@@ -1,0 +1,8 @@
+question: What does the irreversibility of time mean in economics according to the Austrian approach?
+answer: Each action is unique and belongs to the past, with no possibility of identical reproduction
+wrong_answers:
+  - "Time always flows at the same objective speed for all individuals"
+  - Economic actions can be repeated under exactly the same conditions
+  - "The future can be predicted with certainty based on historical examples"
+explanation: |
+  The irreversibility of time means that each action is unique and cannot be reproduced identically. The context is constantly changing, as individuals learn and evolve. This characteristic prevents any certain prediction based solely on history, and explains why economic agents can only verify a posteriori whether another action would have been better.

@@ -1,4 +1,4 @@
-question: Khả năng quan trọng nào cho phép LDK duy trì chức năng Lightning trên các ví di động với kết nối không ổn định so với các node Lightning truyền thống dựa trên daemon?
+question: Khả năng quan trọng nào cho phép LDK duy trì chức năng Lightning trên các ví di động với kết nối không ổn định so với các nút Lightning truyền thống dựa trên daemon?
 answer: Khả năng của LDK trong việc đồng bộ hóa với các nhà cung cấp dịch vụ Lightning (LSP) khi kết nối trực tuyến, đồng thời duy trì quyền kiểm soát khóa riêng không lưu giữ.
 wrong_answers:
   - "Hệ thống xử lý thanh toán ngoại tuyến tích hợp sẵn của LDK sẽ xếp hàng các giao dịch cho đến khi kết nối mạng được khôi phục."

@@ -1,0 +1,25 @@
+id: a54d7d2a-a067-42cb-a096-7377470874d9
+start_date: 2026-04-23 07:00:00
+end_date: 2026-04-26 14:00:00
+timezone: Europe/Zurich
+address_city_country: Kreuzlingen, Switzerland
+address_line_2:
+address_line_3:
+name: Swiss Bitcoin Conference 2026
+type: conference
+book_online: false
+book_in_person: false
+description: |
+  Switzerland's premier Bitcoin-only conference bringing together the community for education, networking, and discussions on Bitcoin adoption.
+language:
+  - en
+  - de
+links:
+  website: https://swissbitcoinconference.com/
+  replay_url:
+  live_url:
+project_id: 13fcb858-a121-4909-b27b-c7e41e3b5a4f
+tags:
+  - adoption
+  - business
+  - use-case

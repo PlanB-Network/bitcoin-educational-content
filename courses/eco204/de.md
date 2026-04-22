@@ -47,7 +47,7 @@ Wiederholt sich die Geldgeschichte gerade vor unseren Augen? Urteilen Sie selbst
 
 ### Definitionen von Inflation
 
-Inflation ist ein oft missverstandenes Konzept aufgrund der vielfältigen Definitionen, die damit verbunden sind. Die Wahrnehmung von Inflation variiert zwischen verschiedenen Gruppen wie Bitcoinern und traditionellen Ökonomen. Lassen Sie uns zuerst die Definitionen klären, bevor wir uns mit Hyperinflation befassen:
+[Inflation](https://planb.academy/resources/glossary/inflation) ist ein oft missverstandenes Konzept aufgrund der vielfältigen Definitionen, die damit verbunden sind. Die Wahrnehmung von Inflation variiert zwischen verschiedenen Gruppen wie Bitcoinern und traditionellen Ökonomen. Lassen Sie uns zuerst die Definitionen klären, bevor wir uns mit Hyperinflation befassen:
 
 - Definition des Robert: Inflation ist eine übermäßige Zunahme der Zahlungsinstrumente (Banknoten, Kapital), die zu einem Anstieg der Preise und einer Abwertung der Währung führt.
 
@@ -76,7 +76,7 @@ Wenn vom monetären Phänomen die Rede ist, bezieht man sich auf die Art und Wei
 
 ![image](assets/de/002.webp)
 
-Es ist wichtig zu betonen, dass Hyperinflation hauptsächlich bei Fiat-Währungen beobachtet werden kann, die von ihren zugrunde liegenden Vermögenswerten wie Edelmetallen entkoppelt sind. Historisch gesehen gab es bei Währungen, die auf solchen Vermögenswerten basierten, Episoden von Inflation (z.B. durch Abwertung des Metallgehalts), aber diese Episoden erreichten nie die extremen Niveaus der Hyperinflation. In den folgenden Abschnitten werden wir uns eingehend mit den Epochen der Währungsbewertung und den Auswirkungen dieser verschiedenen Währungssysteme auf die Inflation befassen.
+Es ist wichtig zu betonen, dass Hyperinflation hauptsächlich bei [Fiat-Währungen](https://planb.academy/resources/glossary/fiat) beobachtet werden kann, die von ihren zugrunde liegenden Vermögenswerten wie Edelmetallen entkoppelt sind. Historisch gesehen gab es bei Währungen, die auf solchen Vermögenswerten basierten, Episoden von Inflation (z.B. durch Abwertung des Metallgehalts), aber diese Episoden erreichten nie die extremen Niveaus der Hyperinflation. In den folgenden Abschnitten werden wir uns eingehend mit den Epochen der Währungsbewertung und den Auswirkungen dieser verschiedenen Währungssysteme auf die Inflation befassen.
 
 ### Untersuchung von Epochen der Währungsabwertung
 
@@ -751,7 +751,7 @@ Das Phänomen der Zombie-Unternehmen beschränkt sich nicht auf die Nachkriegsge
 
 #### 6. Schnell reich werden!
 
-In der Geschichte lassen sich Momente beobachten, in denen Menschen versuchten, schnell reich zu werden, wie es in Weimar und in Simbabwe durch Arbitrage der Fall war. Heute zeigt sich eine ähnliche Tendenz mit dem Aufkommen bestimmter Kryptowährungen. Menschen werden durch schnelle Gewinne verlockt, gehen Risiken ein und hoffen auf eine exponentielle Vervielfachung ihrer Investition. Dieser Ansatz erinnert an Zeiten der Hyperinflation, in denen Arbitrage genutzt wurde, um schnelle Gewinne zu erzielen, oft auf Kosten anderer.
+In der Geschichte lassen sich Momente beobachten, in denen Menschen versuchten, schnell reich zu werden, wie es in Weimar und in Simbabwe durch Arbitrage der Fall war. Heute zeigt sich eine ähnliche Tendenz mit dem Aufkommen bestimmter [Kryptowährungen](https://planb.academy/resources/glossary/cryptocurrency). Menschen werden durch schnelle Gewinne verlockt, gehen Risiken ein und hoffen auf eine exponentielle Vervielfachung ihrer Investition. Dieser Ansatz erinnert an Zeiten der Hyperinflation, in denen Arbitrage genutzt wurde, um schnelle Gewinne zu erzielen, oft auf Kosten anderer.
 
 ![image](assets/de/052.webp)
 

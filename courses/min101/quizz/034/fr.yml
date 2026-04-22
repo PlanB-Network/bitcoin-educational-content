@@ -6,4 +6,4 @@ wrong_answers:
   - La cible de difficulté
 explanation: |
   Le halving divise par deux la subvention maximale créée par bloc, sans toucher aux frais.
-reviewed: false
+reviewed: true 

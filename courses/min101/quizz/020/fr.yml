@@ -6,4 +6,4 @@ wrong_answers:
   - 60 minutes
 explanation: |
   Le protocole vise une moyenne d’environ un bloc toutes les 10 minutes sur une période longue.
-reviewed: false
+reviewed: true 

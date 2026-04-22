@@ -1,0 +1,11 @@
+question: ¿Quién fue el responsable indirecto del último hackeo de Bitcoinica que tuvo lugar en julio de 2012?
+answer: Amir Taaki
+wrong_answers:
+  - Zhou Tong
+  - Chen Jianhai
+  - Mark Karpelès
+explanation: |
+ El 7 de julio publicó el código fuente completo de la plataforma, que contenía la contraseña de la caja fuerte LastPass de Bitcoinica, que a su vez contenía la contraseña de su cuenta de
+ Cuenta de Mt. Gox. se retiraron 40.000 bitcoins y 40.000 LR-USD. Amir Taaki reconoció esta acción, pero echó la culpa a la dirección de Bitcoinica,
+ con la que estaba en conflicto.
+reviewed: true

@@ -76,7 +76,7 @@ A co, jeśli klucz do zrozumienia dzisiejszej gospodarki leży w teorii sprzed k
 ### Jak powstają pieniądze
 
 
-W naszym obecnym systemie monetarnym pieniądz jest tworzony głównie poprzez praktykę bankową znaną jako "bankowość rezerw cząstkowych". Termin ten zasadniczo oznacza, że banki nie są zobowiązane do utrzymywania tylu rezerw, ile otrzymują w depozytach. W rezultacie mogą one tworzyć nową siłę nabywczą podczas udzielania pożyczek i odwrotnie, zmniejszać siłę nabywczą, gdy klienci spłacają swoje pożyczki.
+W naszym obecnym systemie monetarnym pieniądz jest tworzony głównie poprzez praktykę bankową znaną jako "[bankowość rezerw cząstkowych](https://planb.academy/resources/glossary/fractional-reserves)". Termin ten zasadniczo oznacza, że banki nie są zobowiązane do utrzymywania tylu rezerw, ile otrzymują w depozytach. W rezultacie mogą one tworzyć nową siłę nabywczą podczas udzielania pożyczek i odwrotnie, zmniejszać siłę nabywczą, gdy klienci spłacają swoje pożyczki.
 
 
 Na przykład, gdybyś zwrócił się do lokalnego banku w celu zabezpieczenia kredytu hipotecznego na zakup domu, pieniądze pożyczone ci przez bank zostałyby zapisane w księgach rachunkowych. W księgowości zazwyczaj przedstawiamy majątek netto danej osoby za pomocą bilansu, który ma dwie strony: stronę aktywów, w tym wszelkie nieruchomości, kontrakty finansowe, oszczędności lub inne formy posiadanego bogactwa, oraz stronę pasywów, pokazującą źródło funduszy wykorzystanych do stworzenia kapitału wymienionego po stronie aktywów. Różnica między aktywami a zobowiązaniami jest określana jako "kapitał własny" i może być traktowana jako bogactwo netto jednostki.
@@ -100,7 +100,7 @@ Rysunek 1: Kreacja pieniądza jako zapis księgowy
 > Henry Ford
 
 
-Proces ten pozwala bankom rejestrować wszystkie transakcje, w tym przelewy bankowe, zakupy kartą kredytową i czeki, w określonym okresie (zwykle tydzień lub miesiąc). Następnie rozliczają te transakcje między sobą za pomocą rezerw bankowych, które są inną formą waluty fiducjarnej nigdy nie używanej przez społeczeństwo. Rezerwy bankowe są przechowywane w banku centralnym na specjalnym koncie dostępnym tylko dla licencjonowanych banków i instytucji finansowych.
+Proces ten pozwala bankom rejestrować wszystkie transakcje, w tym przelewy bankowe, zakupy kartą kredytową i czeki, w określonym okresie (zwykle tydzień lub miesiąc). Następnie rozliczają te transakcje między sobą za pomocą rezerw bankowych, które są inną formą [waluty fiducjarnej](https://planb.academy/resources/glossary/fiat) nigdy nie używanej przez społeczeństwo. Rezerwy bankowe są przechowywane w banku centralnym na specjalnym koncie dostępnym tylko dla licencjonowanych banków i instytucji finansowych.
 
 
 ### Niestabilność bankowości opartej na rezerwach cząstkowych i pożyczkodawcy ostatniej instancji
@@ -175,7 +175,7 @@ Inną niezamierzoną konsekwencją ZIRP jest zachęcanie rządów do angażowani
 Wykres 6: Dług publiczny i prywatny jako % PKB (świat, ważony PKB na kraj) / Źródło MFW
 
 
-Wraz z rosnącą inflacją spowodowaną znaczną kreacją pieniądza w odpowiedzi na blokady związane z COVIDem, bankierzy centralni podnoszą obecnie stopy procentowe, próbując ograniczyć inflację. Stanowi to jednak poważne wyzwanie dla całego systemu. Banki są lewarowane bardziej niż kiedykolwiek, rządy mają historycznie wysoki poziom zadłużenia, wzrost gospodarczy jest powolny, deficyty rosną, a konsumenci, zmagający się z rosnącymi cenami podstawowych towarów, z trudem wiążą koniec z końcem. Kontrolowanie inflacji wymagałoby podniesienia stóp procentowych do poziomu, który mógłby doprowadzić rządy do bankructwa, podczas gdy banki ryzykują utratę deponentów, ponieważ osoby fizyczne wydają swoje oszczędności na coraz droższe artykuły pierwszej potrzeby lub szukają schronienia w aktywach materialnych i funduszach rynku pieniężnego, aby zabezpieczyć się przed inflacją.
+Wraz z rosnącą [inflacją](https://planb.academy/resources/glossary/inflation) spowodowaną znaczną kreacją pieniądza w odpowiedzi na blokady związane z COVIDem, bankierzy centralni podnoszą obecnie stopy procentowe, próbując ograniczyć inflację. Stanowi to jednak poważne wyzwanie dla całego systemu. Banki są lewarowane bardziej niż kiedykolwiek, rządy mają historycznie wysoki poziom zadłużenia, wzrost gospodarczy jest powolny, deficyty rosną, a konsumenci, zmagający się z rosnącymi cenami podstawowych towarów, z trudem wiążą koniec z końcem. Kontrolowanie inflacji wymagałoby podniesienia stóp procentowych do poziomu, który mógłby doprowadzić rządy do bankructwa, podczas gdy banki ryzykują utratę deponentów, ponieważ osoby fizyczne wydają swoje oszczędności na coraz droższe artykuły pierwszej potrzeby lub szukają schronienia w aktywach materialnych i funduszach rynku pieniężnego, aby zabezpieczyć się przed inflacją.
 
 
 ### Wnioski
@@ -190,7 +190,7 @@ Wraz z rosnącą inflacją spowodowaną znaczną kreacją pieniądza w odpowiedz
 Zasadniczo nasz system stoi w obliczu poważnych wyzwań, a Bitcoin wyłania się jako jedyna wiarygodna alternatywa. Jednak sam Bitcoin nie jest w stanie rozwiązać problemów naszego systemu monetarnego. Przede wszystkim wśród entuzjastów Bitcoina potrzebujemy osób, które rozumieją podstawowe zasady ekonomiczne, promując szerszą świadomość i zdrowy rozsądek ekonomiczny, aby poprowadzić nas z dala od budowy kolejnego kruchego fundamentu finansowego dla naszej cywilizacji. Głównym celem tego kursu jest edukacja nowych entuzjastów Bitcoina w zakresie zdrowych zasad ekonomicznych.
 
 
-Aby osiągnąć ten cel, wyjaśnimy podstawowe zasady "ekonomii austriackiej", szkoły ekonomicznej o tradycji metodologicznej sięgającej XVI wieku, zapewniającej wgląd w ludzkie działania w warunkach ograniczeń ekonomicznych. Dzięki temu wprowadzeniu rozumiesz teraz podstawy kreacji pieniądza i obecny stan naszego systemu finansowego i monetarnego.
+Aby osiągnąć ten cel, wyjaśnimy podstawowe zasady "[ekonomii austriackiej](https://planb.academy/resources/glossary/austrian-school)", szkoły ekonomicznej o tradycji metodologicznej sięgającej XVI wieku, zapewniającej wgląd w ludzkie działania w warunkach ograniczeń ekonomicznych. Dzięki temu wprowadzeniu rozumiesz teraz podstawy kreacji pieniądza i obecny stan naszego systemu finansowego i monetarnego.
 
 
 W następnym rozdziale zagłębimy się w fundamentalny kamień węgielny każdej ekonomicznej szkoły myślenia: teorię wartości. W kolejnych rozdziałach zajmiemy się pieniądzem jako instytucją społeczną, teorią kapitału i cyklem koniunkturalnym, wyzwaniem kalkulacji ekonomicznej oraz krótkim przeglądem historii i metodologii austriackiej szkoły ekonomii.

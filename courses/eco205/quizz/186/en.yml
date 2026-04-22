@@ -1,0 +1,8 @@
+question: What fundamental criticism does Carl Menger level at the theory of labour value regarding the relationship between the quantity of labour and the price of goods?
+answer: Goods that require the same amount of work can be sold at radically different prices
+wrong_answers:
+  - Skilled labour should be valued differently from unskilled labour when calculating value
+  - "The surplus value extracted from labor does not correspond to the real profits observed in capitalist industry"
+  - Material production conditions have too strong an influence on final prices
+explanation: |
+  Menger identifies an empirical paradox that is fatal to the labor theory of value: if the value of a good were really determined by the quantity of labor incorporated, then all goods that required similar labor time should have comparable prices. However, reality shows that goods produced with equivalent quantities of labor can have totally different market values. This empirical observation demonstrates that labor cannot be the sole determinant of value, paving the way for the subjective marginalist approach.

@@ -1,0 +1,9 @@
+question: Koji je bio glavni razlog zašto je pokret Occupy Wall Street počeo prihvatati bitcoin donacije u septembru 2011?
+answer: Da bi se zaobišla finansijska cenzura
+wrong_answers:
+  - Da biste imali koristi od dugoročne rezerve vrednosti
+  - Da unesete informacije na blockchain
+  - Da kupite zalihe na Silk Road
+explanation: |
+  Ovaj pokret je usvojio Bitcoin kako bi izbegao finansijsku cenzuru nakon što su neki od njegovih PayPal naloga bili zamrznuti. Kao rezultat toga, generalna skupština demonstranata u Njujorku je primila donacije već 19. septembra, u ukupnom iznosu od 686 BTC ili preko $3,000 u trenutku prijema.
+reviewed: true

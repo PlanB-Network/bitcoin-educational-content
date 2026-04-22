@@ -6,4 +6,4 @@ wrong_answers:
   - Sebuah variabel yang selalu didefinisikan dalam konteks eksperimen fisik tertentu
 explanation: |
   Sebuah variabel acak dapat mengambil dua atau lebih nilai, masing-masing dengan probabilitas positif, dan seringkali didefinisikan secara abstrak dalam konteks kriptografi.
-reviewed: false
+reviewed: true

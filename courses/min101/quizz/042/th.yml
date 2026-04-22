@@ -1,0 +1,9 @@
+question: ASIC ย่อมาจากอะไร?
+answer: วงจรรวมเฉพาะงาน
+wrong_answers:
+  - วงจรรวมที่มีความปลอดภัยขั้นสูง
+  - วงจรรวมซิลิคอนอัตโนมัติ
+  - วงจรรวมที่ใช้ร่วมกันในแอปพลิเคชัน
+explanation: |
+  ASIC เป็นชิปที่ออกแบบมาสำหรับงานเดียว ดังนั้นจึงเป็นวงจรรวมเฉพาะงาน (Application-Specific Integrated Circuit)
+reviewed: true

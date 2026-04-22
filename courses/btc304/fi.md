@@ -193,7 +193,7 @@ Bitcoin-yhteisöt pyrkivät usein laajempiin tavoitteisiin, erityisesti julkisee
 4. Joidenkin julkisuuden henkilöiden ja tiedotusvälineiden harhaanjohtavien tai perusteettomien väitteiden kumoaminen;
 
 
-5. Bitcoin:n ja muiden kryptovaluuttojen väliset peruserot;
+5. Bitcoin:n ja muiden [kryptovaluuttojen](https://planb.academy/resources/glossary/cryptocurrency) väliset peruserot;
 
 
 Rakentamalla ensimmäisiä tulevaisuuden "linnakkeita" **Bitcoin-yhteisöt maailmanlaajuisesti toimivat suojana disinformaatiota ja sensuuria vastaan ja tarjoavat samalla hedelmällisen maaperän Bitcoin:n perusteiden oppimiselle**. Ne tarjoavat uusille tulokkaille, jopa skeptikoille, resursseja ja yhteyksiä, joita tarvitaan Bitcoin:n todellisen potentiaalin tutkimiseen.
@@ -302,7 +302,7 @@ Kuitenkin **voimien yhdistäminen on usein järkevämpää kuin läheisten yhtei
 Tässä mielessä yksinkertainen "nyrkkisääntö" voi auttaa: jos 30-45 minuutin säteellä asuinpaikastasi ei ole aktiivista Bitcoin-yhteisöä, kannattaa ehkä perustaa uusi yhteisö. Tästä huolimatta voit aina tehdä niin kuin haluat.
 
 
-Ja tietenkin, jos vanhempi yhteisö on "kehittynyt" suuntaan, joka ei enää vastaa arvojasi, eikä sinulla ole aikaa tai motivaatiota "oranssinpillereiden" tekemiseen, oman Fork:n luominen on aina yksi vaihtoehto.
+Ja tietenkin, jos vanhempi yhteisö on "kehittynyt" suuntaan, joka ei enää vastaa arvojasi, eikä sinulla ole aikaa tai motivaatiota "[oranssinpillereiden](https://planb.academy/resources/glossary/orange-pill)" tekemiseen, oman [Fork](https://planb.academy/resources/glossary/fork):n luominen on aina yksi vaihtoehto.
 
 
 
@@ -1391,7 +1391,7 @@ Näihin kuuluvat:
 
 
 
-- [Btcmap.org](https://btcmap.org/), sivusto, jossa on kaksi päivittäin päivitettävää karttaa: **[Bitcoin:n hyväksyvien yritysten maailmankartta](https://btcmap.org/map)** ja **[maailman yhteisöjen kartta](https://btcmap.org/communities/map)**. Monet bitcoin-käyttäjät tarkistavat näitä karttoja säännöllisesti, olivatpa he sitten matkoilla tai menossa jokapäiväiseen elämäänsä, tutustuakseen uusiin ihmisiin tai löytääkseen paikkoja, joissa he voivat käyttää Sats:nsa. Btcmap on maailmanlaajuinen referenssi, ja yhteisönne listaaminen sinne on tärkeää näkyvyyden kannalta.
+- [Btcmap.org](https://btcmap.org/), sivusto, jossa on kaksi päivittäin päivitettävää karttaa: **[Bitcoin:n hyväksyvien yritysten maailmankartta](https://btcmap.org/map)** ja **[maailman yhteisöjen kartta](https://btcmap.org/communities/map)**. Monet bitcoin-käyttäjät tarkistavat näitä karttoja säännöllisesti, olivatpa he sitten matkoilla tai menossa jokapäiväiseen elämäänsä, tutustuakseen uusiin ihmisiin tai löytääkseen paikkoja, joissa he voivat käyttää [Sats](https://planb.academy/resources/glossary/satoshi-sat):nsa. Btcmap on maailmanlaajuinen referenssi, ja yhteisönne listaaminen sinne on tärkeää näkyvyyden kannalta.
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), bitcoinereiden bitcoinereille luoma verkkosivusto. **Sen avulla voit julkaista yhteisösi tulevia tapahtumia**. Ranskassa sitä ei kuitenkaan vielä käytetä laajalti.
 - maastasi riippuen voi olla muitakin paikallisia aloitteita. Ranskassa on esimerkiksi [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), jossa **luetteloidaan kymmeniä Bitcoin-tapahtumia joka kuukausi**. Jos et siis ole vielä seurannut heitä Twitterissä tai ottanut heihin yhteyttä jakaaksesi tietoa yhteisöstäsi ja tapahtumista, nyt on sen aika! **Jotta Ranskan tapahtumakalenteri pysyisi ajan tasalla, olisi hienoa, jos kaikki ranskalaiset Bitcoin-yhteisöt ottaisivat tavakseen:**
     - mainitsemalla @bitcoinpointfr Twitterissä jokaisesta uudesta yhteisötapahtumasta
@@ -1936,7 +1936,7 @@ Tarkista yksityisissä tiloissa, kuten konserteissa, baareissa tai stadioneilla,
 Toinen projekti, jonka voit helposti perustaa, on **kirjaston luominen tapaamisissa**.
 
 
-Voisit pyytää osallistujia, jotka haluavat jakaa luettavaa, tuomaan Bitcoin:een liittyvän kirjan. Jos joku muu kokoontumisessa haluaa lainata sen, Exchange:n omistajan kanssa voitaisiin sopia lainaamisesta talletusta vastaan, esimerkiksi 21 000 satoshia Salaman kautta.
+Voisit pyytää osallistujia, jotka haluavat jakaa luettavaa, tuomaan Bitcoin:een liittyvän kirjan. Jos joku muu kokoontumisessa haluaa lainata sen, Exchange:n omistajan kanssa voitaisiin sopia lainaamisesta talletusta vastaan, esimerkiksi 21 000 satoshia [Salaman](https://planb.academy/resources/glossary/lightning-network) kautta.
 
 
 Omistajalle tämä talletus auttaa kattamaan mahdollisen katoamisen tai varkauden. Lainanottajalle se on kannustin tulla takaisin tulevaan tapaamiseen noutamaan talletuksensa.
@@ -2599,7 +2599,7 @@ Tämän osallistujamäärän kasvun myötä:
     - jos huomaat, että osallistujien määrä käy liian suureksi, voit tulevissa tapaamisissa joko **vaatia osallistujia rekisteröitymään** (Meetup-sovelluksen tai yksinkertaisen lomakkeen kautta) tai **järjestää useita tapaamisia joka kuukausi** (esimerkiksi: aloittelijoiden tapaaminen, keskitason tapaaminen ja edistyneiden tapaaminen).
     - Samaan aikaan ekosysteemiin on odotettavissa paljon uusia tulokkaita, joiden päätavoitteena on usein rahan ansaitseminen. Jotta **keskustelut pysyisivät keskittyneinä Bitcoin:aan** näissä nopeasti kasvavissa tapaamisissa, on hyvä idea:
 
-a) Sisällytä **Bitcoin-aiheinen esitys** näihin tapahtumiin, koska se luonnollisesti ohjaa suuren osan keskustelusta kyseiseen aiheeseen (ja pois viimeisimmästä muka "vallankumouksellisesta" paskakolikkoprojektista);
+a) Sisällytä **Bitcoin-aiheinen esitys** näihin tapahtumiin, koska se luonnollisesti ohjaa suuren osan keskustelusta kyseiseen aiheeseen (ja pois viimeisimmästä muka "vallankumouksellisesta" [paskakolikkoprojektista](https://planb.academy/resources/glossary/shitcoin));
 
 b) **Välttää tarttumasta vain bitcoin-kollegoihin**. Sen sijaan kannattaa **lähestyä uusia tulokkaita**, vaikka se tarkoittaisikin sitä, että roikut huoneen takaosassa tervehtimässä heitä. Sieltä käsin voit keskustella siitä, miksi he tulivat, mitä he etsivät, yhteisönne tavoitteista (tai jopa perusperiaatteista) ja niin edelleen.
 
@@ -2619,7 +2619,7 @@ Onneksi tällaiset tilanteet ovat harvinaisia ja usein pikemminkin absurdeja kui
 Mielenrauhan vuoksi: niin kauan kuin et itse riko lakia tai suoranaisesti helpota laittomia liiketoimia, et ole oikeudellisesti vastuussa muiden toimista tapahtumassasi (ainakaan Ranskan lain mukaan).
 
 
-Ihanteellisessa maailmassa sinulla olisi **tila, joka olisi tarpeeksi suuri isännöimään useita kymmeniä ihmisiä**, kun yhteisösi kasvaa, ja rakentaisit myös **vahvoja suhteita bitcoin-asiakkaiden** ja tulevien bitcoin-asiakkaiden välille laskusuhdanteen aikana, jotta noususuhdanteen koittaessa sinulla olisi mahdollisimman monta ihmistä valmiina oranssiin pilleriin muille.
+Ihanteellisessa maailmassa sinulla olisi **tila, joka olisi tarpeeksi suuri isännöimään useita kymmeniä ihmisiä**, kun yhteisösi kasvaa, ja rakentaisit myös **vahvoja suhteita bitcoin-asiakkaiden** ja tulevien bitcoin-asiakkaiden välille [laskusuhdanteen](https://planb.academy/resources/glossary/bear-market) aikana, jotta [noususuhdanteen](https://planb.academy/resources/glossary/bull-market) koittaessa sinulla olisi mahdollisimman monta ihmistä valmiina oranssiin pilleriin muille.
 
 
 

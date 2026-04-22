@@ -1,0 +1,11 @@
+question: Mihin käyttötapauksiin erityisesti Pay to Script Hash -päivitys on otettu käyttöön?
+answer: Varojen turvaaminen usean osapuolen allekirjoituksella (multisig)
+wrong_answers:
+  - Escrow-palvelut
+  - Verkon laskentatehon lisääminen yhdistetyn mining:n ansiosta
+  - Rahalähetysten lähettäminen ulkomaille
+explanation: |
+ Varojen turvaaminen on tällä hetkellä hyvin tärkeä asia, koska piratismihyökkäykset lisääntyvät. Aihe otettiin pöydälle 23. elokuuta 2011
+ gavin Andresen, hankkeen johtaja, joka halusi nopeuttaa protokollassa jo olevan moni allekirjoitustoiminnon standardointia.
+ Tämä johti OP_EVAL:n ja sitten P2SH:n kehittämiseen talven aikana.
+reviewed: true

@@ -71,27 +71,27 @@ Alors, êtes-vous prêt à faire tourner votre premier nœud Bitcoin ? Cap sur l
 ## Qu’est-ce qu’un nœud Bitcoin ?
 <chapterId>0a9fd4e0-94ab-405e-924c-023397393027</chapterId>
 
-Comme le décrit Satoshi Nakamoto, son créateur, Bitcoin se présente comme un système de cash électronique pair-à-pair. Cette simple phrase, qui est le titre du White Paper, recèle de nombreux éléments pour cerner la nature de Bitcoin :
+Comme le décrit [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi), son créateur, Bitcoin se présente comme un système de cash électronique [pair-à-pair](https://planb.academy/resources/glossary/peertopeer-p2p). Cette simple phrase, qui est le titre du [White Paper](https://planb.academy/resources/glossary/white-paper), recèle de nombreux éléments pour cerner la nature de Bitcoin :
 - Tout d’abord, Satoshi qualifie Bitcoin de "système", autrement dit, un ensemble cohérent de composants matériels et logiciels qui interagissent pour fournir un service ou remplir une fonction précise ;
 - Ensuite, il explique que ce système permet l’utilisation d’un cash électronique, c’est-à-dire une forme de monnaie immatérielle ;
 - Enfin, il précise que ce système ne dépend d’aucune entité centrale : il est "pair-à-pair", ce qui signifie que ce sont les utilisateurs eux-mêmes qui font fonctionner le système.
 
-Puisque Bitcoin est un système, il doit nécessairement être exécuté sur des ordinateurs. Et, du fait de son caractère pair-à-pair, ce sont les utilisateurs eux-mêmes qui assument la responsabilité de faire tourner ces machines. Ce que l'on appelle un "nœud Bitcoin", c'est justement cet ordinateur sur lequel s’exécute un logiciel qui implémente le protocole Bitcoin (comme Bitcoin Core, mais nous y reviendrons plus tard). C’est ce qui permet à Bitcoin de fonctionner sans autorité centrale : la validation est assurée de manière distribuée, par des milliers de machines indépendantes appartenant à des milliers d'utilisateurs.
+Puisque Bitcoin est un système, il doit nécessairement être exécuté sur des ordinateurs. Et, du fait de son caractère pair-à-pair, ce sont les utilisateurs eux-mêmes qui assument la responsabilité de faire tourner ces machines. Ce que l'on appelle un "[nœud](https://planb.academy/resources/glossary/node) Bitcoin", c'est justement cet ordinateur sur lequel s’exécute un logiciel qui implémente le protocole Bitcoin (comme [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core), mais nous y reviendrons plus tard). C’est ce qui permet à Bitcoin de fonctionner sans autorité centrale : la validation est assurée de manière [distribuée](https://planb.academy/resources/glossary/distributed), par des milliers de machines indépendantes appartenant à des milliers d'utilisateurs.
 
 ![Image](assets/fr/047.webp)
 
 Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
-Ce sont précisément ces utilisateurs qui assurent la sécurité de Bitcoin. Comme l’expose Eric Voskuil dans son ouvrage *Cryptoeconomics*, la sécurité de Bitcoin ne repose ni sur la blockchain ni sur la puissance de hachage ni sur la validation, la décentralisation, la cryptographie, l’open source ou la théorie des jeux. La sécurité de Bitcoin dépend avant tout des personnes qui acceptent de s’exposer à des risques personnels. La décentralisation permet de répartir cette prise de risque sur de nombreux individus et seule leur capacité à résister assure la robustesse du système.
+Ce sont précisément ces utilisateurs qui assurent la sécurité de Bitcoin. Comme l’expose Eric Voskuil dans son ouvrage *Cryptoeconomics*, la sécurité de Bitcoin ne repose ni sur la [blockchain](https://planb.academy/resources/glossary/blockchain) ni sur la [puissance de hachage](https://planb.academy/resources/glossary/hashrate) ni sur la validation, la décentralisation, la [cryptographie](https://planb.academy/resources/glossary/cryptography), l’[open source](https://planb.academy/resources/glossary/foss) ou la théorie des jeux. La sécurité de Bitcoin dépend avant tout des personnes qui acceptent de s’exposer à des risques personnels. La décentralisation permet de répartir cette prise de risque sur de nombreux individus et seule leur capacité à résister assure la robustesse du système.
 
 Ce principe est facile à comprendre : si Bitcoin dépendait d’un unique nœud détenu par une seule personne, il suffirait d’emprisonner cette personne pour mettre fin au réseau, puisqu'elle assumerait seule tous les risques. Avec des dizaines de milliers de nœuds répartis dans le monde, le risque est disséminé : il faudrait neutraliser chacun de ces opérateurs pour éteindre Bitcoin.
 
 ![Image](assets/fr/048.webp)
 
 On peut ainsi distinguer et nommer plusieurs concepts pour clarifier les choses pour la suite de ce cours :
-- La monnaie bitcoin : l’unité de compte utilisée pour les transactions au sein de ce système ;
+- La monnaie bitcoin : l’unité de compte utilisée pour les [transactions](https://planb.academy/resources/glossary/transaction-tx) au sein de ce système ;
 - Le réseau Bitcoin : l’ensemble constitué par tous les nœuds connectés ;
-- Les nœuds Bitcoin : les machines exécutant une implémentation de Bitcoin ;
+- Les nœuds Bitcoin : les machines exécutant une [implémentation de Bitcoin](https://planb.academy/resources/glossary/bitcoin-implementation) ;
 - Les implémentations de Bitcoin : les logiciels qui traduisent le protocole en instructions exécutables ;
 - Le protocole Bitcoin : l’ensemble des règles qui régissent le fonctionnement du système ;
 - Le système Bitcoin : la combinaison cohérente de l’ensemble de ces éléments.
@@ -100,36 +100,36 @@ On peut ainsi distinguer et nommer plusieurs concepts pour clarifier les choses 
 
 L'ensemble des nœuds Bitcoin représente donc ce que l'on appelle le réseau Bitcoin. Ce sont eux qui permettent à l’ensemble du système de fonctionner de manière autonome, sans recours à une autorité centrale ni à une hiérarchie de serveurs.
 
-Dès l’origine, Bitcoin a été conçu pour que chaque utilisateur exécute un nœud personnel. C’est encore ce que propose le logiciel Bitcoin Core aujourd'hui, qui combine à la fois le rôle de portefeuille et le rôle de nœud. Mais de nos jours, cette fonction est souvent dissociée : beaucoup de portefeuilles Bitcoin modernes sont simplement des portefeuilles qui se connectent à des nœuds externes (possédés par la même personne ou non).
+Dès l’origine, Bitcoin a été conçu pour que chaque utilisateur exécute un nœud personnel. C’est encore ce que propose le logiciel Bitcoin Core aujourd'hui, qui combine à la fois le rôle de [portefeuille](https://planb.academy/resources/glossary/wallet) et le rôle de nœud. Mais de nos jours, cette fonction est souvent dissociée : beaucoup de portefeuilles Bitcoin modernes sont simplement des portefeuilles qui se connectent à des nœuds externes (possédés par la même personne ou non).
 
 ### Conserver la blockchain
 
-La première mission d’un nœud consiste à conserver une copie locale de la blockchain. Pour empêcher la double dépense sur Bitcoin sans faire appel à une autorité centrale, chaque utilisateur doit vérifier l'inexistence d'une transaction dans le système. La seule manière d’en être certain est de connaître l’ensemble des transactions passées sur Bitcoin. C’est pourquoi toutes les transactions sont horodatées et regroupées dans des blocs, et chaque nœud stocke l’intégralité de la blockchain.
+La première mission d’un nœud consiste à conserver une copie locale de la blockchain. Pour empêcher la [double dépense](https://planb.academy/resources/glossary/double-spending-attack) sur Bitcoin sans faire appel à une autorité centrale, chaque utilisateur doit vérifier l'inexistence d'une transaction dans le système. La seule manière d’en être certain est de connaître l’ensemble des transactions passées sur Bitcoin. C’est pourquoi toutes les transactions sont [horodatées](https://planb.academy/resources/glossary/timestamp) et regroupées dans des [blocs](https://planb.academy/resources/glossary/block), et chaque nœud stocke l’intégralité de la blockchain.
 
 > Le seul moyen pour confirmer l’absence d’une transaction est d’être au courant de toutes les transactions.
 
 Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
-La blockchain est donc un registre évolutif : à chaque nouveau bloc publié par un mineur, le nœud en vérifie la validité avant de l’ajouter à sa propre copie locale de la chaîne. Aujourd’hui (juillet 2025), la blockchain complète dépasse les 675 Go, et cette taille continue d’augmenter, puisqu'un nouveau bloc est ajouté en moyenne toutes les 10 minutes.
+La blockchain est donc un registre évolutif : à chaque nouveau bloc publié par un [mineur](https://planb.academy/resources/glossary/miner), le nœud en vérifie la validité avant de l’ajouter à sa propre copie locale de la chaîne. Aujourd’hui (juillet 2025), la blockchain complète dépasse les 675 Go, et cette taille continue d’augmenter, puisqu'un nouveau bloc est ajouté en moyenne toutes les 10 minutes.
 
 ![Image](assets/fr/049.webp)
 
-Le nœud conserve également, en local, l’ensemble des UTXOs existants à un instant donné : il s’agit de ce que l’on appelle l’**UTXO set**. Cette base de données rassemble tous les fragments de bitcoins en attente d’être dépensés. Nous reviendrons en détail sur ce sujet dans la dernière partie de la formation.
+Le nœud conserve également, en local, l’ensemble des [UTXOs](https://planb.academy/resources/glossary/utxo) existants à un instant donné : il s’agit de ce que l’on appelle l’**[UTXO set](https://planb.academy/resources/glossary/utxo-set)**. Cette base de données rassemble tous les fragments de bitcoins en attente d’être dépensés. Nous reviendrons en détail sur ce sujet dans la dernière partie de la formation.
 
 ### Vérifier et diffuser les transactions
 
-Le deuxième rôle d’un nœud est d’assurer la vérification et la propagation des transactions. Lorsqu’une nouvelle transaction parvient au nœud (soit via un logiciel de portefeuille, soit via un autre nœud), il va vérifier qu'elle respecte bien un ensemble de règles (règles de consensus et règles de relais). Par exemple :
+Le deuxième rôle d’un nœud est d’assurer la vérification et la propagation des transactions. Lorsqu’une nouvelle transaction parvient au nœud (soit via un logiciel de portefeuille, soit via un autre nœud), il va vérifier qu'elle respecte bien un ensemble de règles ([règles de consensus](https://planb.academy/resources/glossary/consensus-rules) et règles de [relais](https://planb.academy/resources/glossary/relay)). Par exemple :
 - les bitcoins dépensés doivent exister dans son UTXO set (la base de données des sorties non dépensées) ;
-- la signature doit être valide, et toutes les conditions de dépense doivent être respectées (script valide) ;
-- le montant total des outputs ne doit pas dépasser celui des inputs, ce qui signifie que les frais ne peuvent être négatifs…
+- la [signature](https://planb.academy/resources/glossary/digital-signature) doit être valide, et toutes les conditions de dépense doivent être respectées ([script](https://planb.academy/resources/glossary/script) valide) ;
+- le montant total des [outputs](https://planb.academy/resources/glossary/output) ne doit pas dépasser celui des [inputs](https://planb.academy/resources/glossary/input), ce qui signifie que les [frais](https://planb.academy/resources/glossary/transaction-fees) ne peuvent être négatifs…
 
 ![Image](assets/fr/050.webp)
 
-Après validation, la transaction est enregistrée dans la mempool du nœud, un espace mémoire temporaire réservé aux transactions non confirmées, puis relayée aux autres pairs du réseau auxquels il est connecté. Ce mécanisme de diffusion et de validation se poursuit de nœud en nœud. Ainsi, la transaction se propage sur le réseau Bitcoin, et chaque nœud la conserve en mempool jusqu’à son inclusion dans un bloc valide par un mineur, qui actera alors sa première confirmation.
+Après validation, la transaction est enregistrée dans la [mempool](https://planb.academy/resources/glossary/mempool) du nœud, un espace mémoire temporaire réservé aux transactions non confirmées, puis relayée aux autres pairs du réseau auxquels il est connecté. Ce mécanisme de [diffusion](https://planb.academy/resources/glossary/diffusion) et de validation se poursuit de nœud en nœud. Ainsi, la transaction se propage sur le réseau Bitcoin, et chaque nœud la conserve en mempool jusqu’à son inclusion dans un bloc valide par un mineur, qui actera alors sa première [confirmation](https://planb.academy/resources/glossary/confirmation).
 
 ### Vérifier et diffuser les blocs
 
-Le troisième rôle du nœud concerne la gestion des blocs minés. Lorsqu’un mineur découvre un nouveau bloc doté d’une preuve de travail valide, il le diffuse sur le réseau. Les nœuds le reçoivent, en vérifient la conformité avec l’ensemble des règles du protocole, puis l’intègrent à leur propre copie locale de la blockchain s’il est valide. Comme pour les transactions, les nouveaux blocs validés sont ensuite relayés à l’ensemble des pairs connectés au nœud. Ce processus se poursuit jusqu’à ce que tous les nœuds du réseau Bitcoin aient connaissance de ce nouveau bloc.
+Le troisième rôle du nœud concerne la gestion des blocs minés. Lorsqu’un mineur découvre un nouveau bloc doté d’une [preuve de travail](https://planb.academy/resources/glossary/proof-of-work) valide, il le diffuse sur le réseau. Les nœuds le reçoivent, en vérifient la conformité avec l’ensemble des règles du protocole, puis l’intègrent à leur propre copie locale de la blockchain s’il est valide. Comme pour les transactions, les nouveaux blocs validés sont ensuite relayés à l’ensemble des pairs connectés au nœud. Ce processus se poursuit jusqu’à ce que tous les nœuds du réseau Bitcoin aient connaissance de ce nouveau bloc.
 
 ![Image](assets/fr/051.webp)
 
@@ -145,7 +145,7 @@ Un nœud Bitcoin, comme nous l’avons évoqué précédemment, est un logiciel 
 
 Un portefeuille Bitcoin, quant à lui, est un logiciel dont la vocation première est de stocker et de gérer vos clés privées. Ces clés permettent de dépenser vos bitcoins en satisfaisant les scripts de verrouillage (généralement à l’aide d’une signature). Un portefeuille peut se connecter à un nœud (qu’il soit local ou distant) afin de consulter l’état de la blockchain et de diffuser les transactions qu’il construit, mais il n’est pas, en tant que tel, un participant du réseau.
 
-Dans certains cas, ces deux fonctions coexistent au sein d’un même logiciel, comme c’est le cas de Bitcoin Core qui fait office à la fois de nœud complet et de portefeuille. Toutefois, beaucoup de logiciels de portefeuilles populaires (Sparrow, BlueWallet, etc.) doivent être connectés à un nœud externe (qu’il s’agisse du vôtre ou de celui d’un tiers) pour diffuser les transactions et connaitre le solde du portefeuille.
+Dans certains cas, ces deux fonctions coexistent au sein d’un même logiciel, comme c’est le cas de Bitcoin Core qui fait office à la fois de [nœud complet](https://planb.academy/resources/glossary/full-node) et de portefeuille. Toutefois, beaucoup de logiciels de portefeuilles populaires (Sparrow, BlueWallet, etc.) doivent être connectés à un nœud externe (qu’il s’agisse du vôtre ou de celui d’un tiers) pour diffuser les transactions et connaitre le solde du portefeuille.
 
 ![Image](assets/fr/052.webp)
 
@@ -156,7 +156,7 @@ Les notions de nœud et de mineur sont souvent confondues. Pourtant, ces deux é
 
 Initialement, lorsque Bitcoin fut lancé par Satoshi Nakamoto en 2009, chaque utilisateur était censé participer au réseau dans sa globalité. Ainsi, le logiciel Bitcoin original combinait plusieurs fonctions à la fois : il faisait office de portefeuille, de nœud et également de mineur, capable de générer de nouveaux blocs. À cette période, la difficulté de minage était très basse. Il suffisait alors de faire fonctionner le logiciel Bitcoin sur son ordinateur pour trouver des blocs et recevoir des bitcoins en récompense.
 
-Cependant, avec la popularisation progressive de Bitcoin et l'augmentation du nombre de mineurs, la concurrence dans le minage a radicalement changé la donne. Aujourd’hui, le minage est devenu une activité extrêmement compétitive, dominée par des acteurs industriels équipés d’infrastructures spécialisées. La puissance nécessaire pour miner un nouveau bloc est désormais si importante qu'il est pratiquement impossible pour un utilisateur particulier d'y parvenir en utilisant uniquement un ordinateur classique. Ainsi, le minage se fait désormais essentiellement à l'aide de machines spécialisées appelées ASIC (*Application Specific Integrated Circuits*). Ces puces sont optimisées exclusivement pour exécuter du double SHA-256, l'algorithme utilisé pour le minage sur Bitcoin.
+Cependant, avec la popularisation progressive de Bitcoin et l'augmentation du nombre de mineurs, la concurrence dans le minage a radicalement changé la donne. Aujourd’hui, le minage est devenu une activité extrêmement compétitive, dominée par des acteurs industriels équipés d’infrastructures spécialisées. La puissance nécessaire pour miner un nouveau bloc est désormais si importante qu'il est pratiquement impossible pour un utilisateur particulier d'y parvenir en utilisant uniquement un ordinateur classique. Ainsi, le minage se fait désormais essentiellement à l'aide de machines spécialisées appelées [ASIC](https://planb.academy/resources/glossary/asic) (*Application Specific Integrated Circuits*). Ces puces sont optimisées exclusivement pour exécuter du double [SHA-256](https://planb.academy/resources/glossary/sha256), l'algorithme utilisé pour le minage sur Bitcoin.
 
 ![Image](assets/fr/053.webp)
 
@@ -168,7 +168,7 @@ Face à cette évolution, le rôle du nœud Bitcoin et celui du mineur se sont c
 
 Un mineur a en effet obligatoirement besoin d'un nœud Bitcoin afin d'interagir avec le réseau.
 
-On différencie également parfois le rôle du mineur de celui du hacheur. Un hacheur est une machine qui a pour tâche de hacher des blocs templates fournis par le serveur d'une pool, en recherchant des hachages qui satisfont la cible de difficulté définie pour les shares, et non celle de Bitcoin. Le reste du processus de minage, qui inclut la construction effective des blocs, la sélection des transactions ou la recherche de la preuve de travail selon la difficulté propre à Bitcoin, ainsi que la diffusion, est effectué directement par les pools.
+On différencie également parfois le rôle du mineur de celui du hacheur. Un hacheur est une machine qui a pour tâche de hacher des blocs templates fournis par le serveur d'une [pool](https://planb.academy/resources/glossary/pool-mining), en recherchant des hachages qui satisfont la cible de difficulté définie pour les shares, et non celle de Bitcoin. Le reste du processus de minage, qui inclut la construction effective des blocs, la sélection des transactions ou la recherche de la preuve de travail selon la difficulté propre à Bitcoin, ainsi que la diffusion, est effectué directement par les pools.
 
 ![Image](assets/fr/054.webp)
 
@@ -302,7 +302,7 @@ Un aspect important, souvent mal compris, réside dans le fait qu’exploiter un
 
 Il s’agit des règles essentielles du protocole Bitcoin, garantes de l’intégrité du système, qui fixent les critères de validation des transactions et des blocs. Toute transaction qui ne respecte pas ces règles de consensus ne pourra jamais être intégrée dans un bloc valide. Par exemple, une transaction comportant une signature invalide sur l’une de ses entrées sera systématiquement exclue.
 
-Modifier ces règles équivaut à changer de protocole, donc de monnaie (hard fork). Toutefois, même sans chercher à les modifier, le simple fait d’appliquer strictement les règles existantes confère un certain pouvoir : si un bloc viole les règles, le nœud le rejette aussitôt.
+Modifier ces règles équivaut à changer de protocole, donc de monnaie ([hard fork](https://planb.academy/resources/glossary/hard-fork)). Toutefois, même sans chercher à les modifier, le simple fait d’appliquer strictement les règles existantes confère un certain pouvoir : si un bloc viole les règles, le nœud le rejette aussitôt.
 
 - **Les règles de relais** :
 
@@ -364,13 +364,13 @@ Un nœud complet est simplement un nœud Bitcoin qui télécharge toute la block
 
 Le nœud complet n’a besoin de faire confiance à personne, car il valide et connait toutes les informations du système. C’est le type de nœud qui vous procure le plus de garanties : vous savez, sans faire appel à un tiers, si un paiement est valide, si un bloc est valide, si une réorganisation est légitime, etc.
 
-En pratique, un nœud complet nécessite des ressources non triviales : plusieurs centaines de gigaoctets pour les fichiers de blocs, un processeur capable de valider les scripts, de la RAM pour la mempool et les caches, et une bande passante stable. La première synchronisation (*IBD*) lit et vérifie l’historique complet : elle est intensive mais ne se fait qu’une fois. Un nœud complet participe activement au réseau : il relaie des blocs et transactions, et peut accepter des connexions entrantes pour aider d’autres pairs.
+En pratique, un nœud complet nécessite des ressources non triviales : plusieurs centaines de gigaoctets pour les fichiers de blocs, un processeur capable de valider les scripts, de la RAM pour la mempool et les caches, et une bande passante stable. La première synchronisation (*[IBD](https://planb.academy/resources/glossary/initial-block-download-ibd)*) lit et vérifie l’historique complet : elle est intensive mais ne se fait qu’une fois. Un nœud complet participe activement au réseau : il relaie des blocs et transactions, et peut accepter des connexions entrantes pour aider d’autres pairs.
 
 Selon vos besoins, vous pouvez adjoindre à votre nœud complet un indexeur. Bitcoin Core propose en option (désactivée par défaut) l’indexation des transactions, ce qui peut être utile pour certains usages particuliers. En revanche, il ne dispose pas d’indexeur d’adresses, qui est pourtant souvent le plus recherché par un utilisateur individuel. Pour y remédier, vous pouvez installer sur votre nœud un logiciel dédié comme Electrs ou Fulcrum, permettant d’accélérer les requêtes de vérification des soldes d’une adresse à partir des UTXOs associés. Nous reviendrons plus en détail sur le rôle de l’indexeur dans un chapitre spécifique.
 
 ### Le nœud élagué
 
-Le nœud élagué valide tout comme un nœud complet, depuis le bloc de Genèse jusqu'à la tête de chaîne disposant du plus de travail, mais il **ne conserve que la partie la plus récente des fichiers de blocs**. Une fois les anciens blocs vérifiés, il les supprime progressivement pour rester sous une limite d’espace que vous pouvez fixer. Cette configuration est idéale si vous avez des contraintes sur votre espace disque : vous gardez l’indépendance de validation des blocs, sans stocker l’archive historique complète de la blockchain. Cette option est notamment très utile si vous souhaitez simplement installer Bitcoin Core sur votre ordinateur personnel, sans utiliser une machine dédiée.
+Le [nœud élagué](https://planb.academy/resources/glossary/pruned-node) valide tout comme un nœud complet, depuis le bloc de Genèse jusqu'à la tête de chaîne disposant du plus de travail, mais il **ne conserve que la partie la plus récente des fichiers de blocs**. Une fois les anciens blocs vérifiés, il les supprime progressivement pour rester sous une limite d’espace que vous pouvez fixer. Cette configuration est idéale si vous avez des contraintes sur votre espace disque : vous gardez l’indépendance de validation des blocs, sans stocker l’archive historique complète de la blockchain. Cette option est notamment très utile si vous souhaitez simplement installer Bitcoin Core sur votre ordinateur personnel, sans utiliser une machine dédiée.
 
 ![Image](assets/fr/064.webp)
 
@@ -382,7 +382,7 @@ En résumé, le suivi de votre wallet fonctionne sans problème sur un nœud él
 
 ### Le nœud léger / SPV
 
-Un nœud SPV (*Simplified Payment Verification*), ou nœud léger, ne conserve que les en-têtes de blocs, pas le détail des transactions, et s’appuie sur d'autres nœuds complets pour obtenir la preuve qu’une transaction figure dans un bloc (preuves de Merkle via les arbres) dont il dispose de l'en-tête. Cette idée de la vérification de paiement simplifiée est très ancienne, puisqu’elle a été formulée par Satoshi Nakamoto lui-même dans la partie 8 du White Paper.
+Un nœud [SPV](https://planb.academy/resources/glossary/spv-node-light-node) (*Simplified Payment Verification*), ou nœud léger, ne conserve que les en-têtes de blocs, pas le détail des transactions, et s’appuie sur d'autres nœuds complets pour obtenir la preuve qu’une transaction figure dans un bloc (preuves de [Merkle](https://planb.academy/resources/glossary/merkle-tree) via les arbres) dont il dispose de l'en-tête. Cette idée de la vérification de paiement simplifiée est très ancienne, puisqu’elle a été formulée par Satoshi Nakamoto lui-même dans la partie 8 du White Paper.
 
 ![Image](assets/fr/066.webp)
 
@@ -406,7 +406,7 @@ Un utilisateur intermédiaire disposant d’un PC peut tout à fait y installer 
 
 - **Bitcoiner souverain / avancé**  
 
-Un nœud complet demeure la meilleure solution pour être totalement indépendant dans votre utilisation de Bitcoin et ne pas vous limiter par la suite dans des usages avancés tels qu’un indexeur, un nœud Lightning ou encore un explorateur de blocs. C’est précisément ce que nous allons explorer dans cette formation !
+Un nœud complet demeure la meilleure solution pour être totalement indépendant dans votre utilisation de Bitcoin et ne pas vous limiter par la suite dans des usages avancés tels qu’un indexeur, un nœud [Lightning](https://planb.academy/resources/glossary/lightning-network) ou encore un explorateur de blocs. C’est précisément ce que nous allons explorer dans cette formation !
 
 ## Panorama des solutions logicielles
 <chapterId>0d48b89a-e8b5-441e-a707-537a035fc15e</chapterId>
@@ -425,7 +425,7 @@ C’est l’approche la plus souveraine et la plus flexible : vous savez exactem
 
 #### Bitcoin Core (client ultra-majoritaire)
 
-[Bitcoin Core](https://bitcoincore.org/) est le client ultra-majoritaire du réseau. Il télécharge, valide et conserve la blockchain, fournit les API RPC/REST, et peut intégrer un portefeuille logiciel. Utiliser Core tel quel convient si vous aimez les outils standards et si vous êtes à l’aise pour ajouter vous-même des services autour (serveur Electrum, explorateur, LND...).
+[Bitcoin Core](https://bitcoincore.org/) est le client ultra-majoritaire du réseau. Il télécharge, valide et conserve la blockchain, fournit les API [RPC](https://planb.academy/resources/glossary/rpc-remote-procedure-call)/REST, et peut intégrer un portefeuille logiciel. Utiliser Core tel quel convient si vous aimez les outils standards et si vous êtes à l’aise pour ajouter vous-même des services autour (serveur Electrum, explorateur, LND...).
 
 **Avantages :** stabilité maximale, comportements prévisibles, expérience brute, simple à installer et configurer.
 
@@ -921,7 +921,7 @@ Pour commencer la configuration de votre Umbrel, cliquez sur le bouton "*Start*"
 
 #### Créer un compte
 
-Choisissez un pseudonyme ou indiquez votre nom, puis définissez un mot de passe fort. Soyez vigilant : ce mot de passe constitue la seule barrière protégeant l’accès à votre Umbrel depuis votre réseau (et donc, potentiellement, à vos bitcoins si vous faites tourner un nœud Lightning sur Umbrel). Il protège également l’accès à distance via Tor ou VPN, si ces services sont activés.
+Choisissez un pseudonyme ou indiquez votre nom, puis définissez un mot de passe fort. Soyez vigilant : ce mot de passe constitue la seule barrière protégeant l’accès à votre Umbrel depuis votre réseau (et donc, potentiellement, à vos bitcoins si vous faites tourner un nœud Lightning sur Umbrel). Il protège également l’accès à distance via [Tor](https://planb.academy/resources/glossary/tor) ou VPN, si ces services sont activés.
 
 Sélectionnez donc un mot de passe fort, et, surtout, veillez à en conserver une ou plusieurs sauvegardes (gestionnaire de mots de passe recommandé).
 
@@ -1295,7 +1295,7 @@ https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b
 
 ### BTCPay Server
 
-BTCPay Server est un processeur de paiement libre et open source permettant d’accepter des paiements via Bitcoin et le Lightning Network sans intermédiaire, en conservant la self-custody des fonds.
+[BTCPay Server](https://planb.academy/resources/glossary/btcpay-server) est un processeur de paiement libre et open source permettant d’accepter des paiements via Bitcoin et le Lightning Network sans intermédiaire, en conservant la [self-custody](https://planb.academy/resources/glossary/selfcustody) des fonds.
 
 L’architecture de BTCPay Server repose sur un nœud Bitcoin et, pour Lightning, sur une implémentation compatible (LND, Core Lightning…), ce qui en fait une des seules solutions de PoS totalement non custodiales. C'est également le logiciel le plus complet pour le suivi et la comptabilité.
 
@@ -1382,7 +1382,7 @@ Avec ces quelques habitudes simples, votre nœud Umbrel restera stable, sûr et 
 ## Comprendre l’IBD et le processus de découverte des pairs
 <chapterId>175ac9d1-ea23-45d9-9918-d3e7352435cd</chapterId>
 
-Votre nœud Bitcoin démarre sans aucune connaissance préalable de l’historique des transactions. Au départ, ce n’est qu’un ordinateur équipé d’un logiciel (Bitcoin Core ou autre). Pour devenir un nœud Bitcoin pleinement synchronisé et opérationnel, il doit reconstruire localement l’état du registre en vérifiant l’intégralité des blocs publiés depuis le bloc de Genèse (bloc 0, publié par Satoshi Nakamoto le 3 janvier 2009). Cette étape est appelée **IBD (_Initial Block Download_)**.
+Votre nœud Bitcoin démarre sans aucune connaissance préalable de l’historique des transactions. Au départ, ce n’est qu’un ordinateur équipé d’un logiciel (Bitcoin Core ou autre). Pour devenir un nœud Bitcoin pleinement synchronisé et opérationnel, il doit reconstruire localement l’état du registre en vérifiant l’intégralité des blocs publiés depuis le [bloc de Genèse](https://planb.academy/resources/glossary/genesis-block) (bloc 0, publié par Satoshi Nakamoto le 3 janvier 2009). Cette étape est appelée **IBD (_Initial Block Download_)**.
 
 L’IBD consiste à télécharger et à vérifier un par un chaque bloc et chaque transaction, en appliquant les règles de consensus, pour construire sa propre version de la blockchain. L’objectif n’est pas simplement de récupérer une copie de données non vérifiées, mais bien d’aboutir, de façon totalement indépendante, à la même conclusion que la majorité honnête du réseau.
 
@@ -1390,7 +1390,7 @@ L’IBD consiste à télécharger et à vérifier un par un chaque bloc et chaqu
 
 ### Les grandes étapes de l’IBD
 
-La synchronisation débute par l’étape _**headers-first**_. Votre nœud demande à plusieurs pairs la suite des en-têtes de blocs et, pour chacun d’eux, vérifie la preuve de travail, l’ajustement de la difficulté, la syntaxe, ainsi que les règles relatives aux horodatages et aux numéros de version. En résumé, il s’assure que chaque en-tête reçu respecte bien les règles de consensus.
+La synchronisation débute par l’étape _**headers-first**_. Votre nœud demande à plusieurs pairs la suite des en-têtes de blocs et, pour chacun d’eux, vérifie la preuve de travail, l’[ajustement de la difficulté](https://planb.academy/resources/glossary/difficulty-adjustment), la syntaxe, ainsi que les règles relatives aux horodatages et aux numéros de version. En résumé, il s’assure que chaque en-tête reçu respecte bien les règles de consensus.
 
 ![Image](assets/fr/093.webp)
 
@@ -1400,11 +1400,11 @@ Pour rappel, un bloc Bitcoin se compose d’un en-tête de 80 octets et d’une 
 - racine de Merkle des transactions,
 - horodatage (supérieur au temps médian des 11 blocs précédents),
 - cible de difficulté,
-- nonce.
+- [nonce](https://planb.academy/resources/glossary/nonce).
 
 ![Image](assets/fr/094.webp)
 
-Les transactions sont en effet engagées au sein d’un arbre de Merkle. C'est une structure qui résume un grand ensemble de données (ici, toutes les transactions du bloc) en agrégeant leurs hachages progressivement deux à deux jusqu’à une seule "racine", ce qui permet de prouver qu’un élément appartient à l’ensemble (et de détecter toute modification). Ainsi, toute modification d'une transaction modifie également la racine de l'arbre de Merkle et donc l’empreinte de l’en-tête du bloc. SegWit a introduit un engagement supplémentaire distinct pour les témoins (signatures), placé dans la coinbase.
+Les transactions sont en effet engagées au sein d’un arbre de Merkle. C'est une structure qui résume un grand ensemble de données (ici, toutes les transactions du bloc) en agrégeant leurs hachages progressivement deux à deux jusqu’à une seule "racine", ce qui permet de prouver qu’un élément appartient à l’ensemble (et de détecter toute modification). Ainsi, toute modification d'une transaction modifie également la racine de l'arbre de Merkle et donc l’empreinte de l’en-tête du bloc. [SegWit](https://planb.academy/resources/glossary/segwit) a introduit un engagement supplémentaire distinct pour les témoins (signatures), placé dans la coinbase.
 
 ![Image](assets/fr/095.webp)
 
@@ -1416,7 +1416,7 @@ Une fois l’IBD terminée, le nœud entre en phase normale : il valide les nouv
 
 ### AssumeValid
 
-Bitcoin Core intègre un mécanisme destiné à réduire le temps nécessaire avant qu’un nœud soit pleinement opérationnel, tout en conservant l’essentiel du principe de vérification autonome : AssumeValid.
+Bitcoin Core intègre un mécanisme destiné à réduire le temps nécessaire avant qu’un nœud soit pleinement opérationnel, tout en conservant l’essentiel du principe de vérification autonome : [AssumeValid](https://planb.academy/resources/glossary/assume-valid).
 
 Le paramètre `assumevalid` repose sur un bloc de référence passé, dont le hachage est intégré dans chaque version du logiciel. Durant l’IBD, si votre nœud constate que ce bloc se trouve bien sur la branche cumulant le plus de travail, il peut alors ignorer la vérification des scripts pour toutes les transactions antérieures à ce point.
 
@@ -1438,7 +1438,7 @@ Lors de son premier démarrage, un nœud ne connaît encore aucun pair. Pourtant
 
 Lorsque le nœud redémarre après avoir déjà été utilisé, Core commence par tenter de se reconnecter aux pairs sortants enregistrés avant l’arrêt, informations conservées dans le fichier `anchors.dat`. Puis, il consulte son carnet d’adresses IP **`peers.dat`**, qui conserve la liste des pairs rencontrés précédemment, afin de pouvoir s’y reconnecter. Il s’agit simplement d’un fichier local, mis à jour et conservé par Core. En revanche, pour un nouveau nœud qui vient d'être lancé, ces 2 fichiers sont vides, puisqu’il n’a encore jamais communiqué avec d’autres nœuds Bitcoin.
 
-Dans ce cas, le logiciel interroge des _**DNS seeds**_. Il s’agit [de serveurs maintenus par des développeurs reconnus de l’écosystème](https://github.com/bitcoin/bitcoin/blob/master/src/kernel/chainparams.cpp), qui renvoient une liste d’adresses IP de nœuds présumés actifs. Ces adresses permettent au nouveau nœud d’initier ses premières connexions et de réclamer les données nécessaires à l’IBD. Voici la liste des *DNS seeds* actifs à ce jour (août 2025) :
+Dans ce cas, le logiciel interroge des _**[DNS seeds](https://planb.academy/resources/glossary/dns-seeds)**_. Il s’agit [de serveurs maintenus par des développeurs reconnus de l’écosystème](https://github.com/bitcoin/bitcoin/blob/master/src/kernel/chainparams.cpp), qui renvoient une liste d’adresses IP de nœuds présumés actifs. Ces adresses permettent au nouveau nœud d’initier ses premières connexions et de réclamer les données nécessaires à l’IBD. Voici la liste des *DNS seeds* actifs à ce jour (août 2025) :
 - Pieter Wuille : `seed.bitcoin.sipa.be.`  
 - Matt Corallo : `dnsseed.bluematt.me.`  
 - Luke Dashjr : `dnsseed.bitcoin.dashjr-list-of-p2p-nodes.us.`  
@@ -1498,7 +1498,7 @@ Pour pouvoir revenir en arrière lors d’une réorganisation, Core enregistre, 
 
 #### Index des blocs (blocks/index)
 
-Rechercher un bloc directement dans les fichiers plats serait trop long. Core maintient donc une base de données LevelDB dans `blocks/index/` qui répertorie, pour chaque bloc connu, des métadonnées comme le hash, la hauteur, le statut de validation, le fichier `blk` et l’offset où il se trouve. Lorsqu’un pair demande un bloc, ou lorsqu’un composant interne doit accéder à un bloc précis, cet index permet un accès rapide. Sans cet index, cela demanderai bien trop d'opérations.
+Rechercher un bloc directement dans les fichiers plats serait trop long. Core maintient donc une base de données [LevelDB](https://planb.academy/resources/glossary/leveldb) dans `blocks/index/` qui répertorie, pour chaque bloc connu, des métadonnées comme le hash, la hauteur, le statut de validation, le fichier `blk` et l’offset où il se trouve. Lorsqu’un pair demande un bloc, ou lorsqu’un composant interne doit accéder à un bloc précis, cet index permet un accès rapide. Sans cet index, cela demanderai bien trop d'opérations.
 
 ![Image](assets/fr/101.webp)
 
@@ -1518,7 +1518,7 @@ L’ensemble de toutes ces pièces à un instant T constitue l’UTXO set : une 
 
 ![Image](assets/fr/103.webp)
 
-L’UTXO set est conservé dans le dossier `chainstate/` sous la forme d’une base LevelDB compacte. Chaque pièce associe une clé dérivée du hash de la transaction et de l’index de sortie, à une valeur contenant : le montant, le `scriptPubKey` de verrouillage, la hauteur du bloc de création et un indicateur coinbase.
+L’UTXO set est conservé dans le dossier `chainstate/` sous la forme d’une base LevelDB compacte. Chaque pièce associe une clé dérivée du hash de la transaction et de l’index de sortie, à une valeur contenant : le montant, le `scriptPubKey` de verrouillage, la hauteur du bloc de création et un indicateur [coinbase](https://planb.academy/resources/glossary/coinbase-transaction).
 
 ![Image](assets/fr/104.webp)
 
@@ -1530,11 +1530,11 @@ Notons que L'UTXO set est souvent au cœur d'inquiétudes sur la décentralisati
 
 ![Image](assets/fr/105.webp)
 
-La croissance de l'UTXO set découle également de la structure des transactions de paiement simples sur Bitcoin. En effet, lorsque vous effectuez un paiement, vous consommez un seul UTXO en entrée et créez en sortie 2 nouveaux UTXOs (l’un pour le paiement et l’autre pour le change). Enfin, une heuristique d’analyse de chaîne, appelée CIOH (*Common Input Ownership Heuristic*), est une incitation supplémentaire à éviter la consolidation de pièces.
+La croissance de l'UTXO set découle également de la structure des transactions de paiement simples sur Bitcoin. En effet, lorsque vous effectuez un paiement, vous consommez un seul UTXO en entrée et créez en sortie 2 nouveaux UTXOs (l’un pour le paiement et l’autre pour le change). Enfin, une heuristique d’analyse de chaîne, appelée [CIOH](https://planb.academy/resources/glossary/cioh) (*Common Input Ownership Heuristic*), est une incitation supplémentaire à éviter la consolidation de pièces.
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Puisqu'il faut en conserver une partie en RAM pour pouvoir procéder à la vérification des transactions en temps raisonnable, il est possible que l'UTXO set rende progressivement l'opération d'un nœud complet trop couteuse. Pour résoudre ce problème, il existe déjà quelques propositions, notamment [Utreexo](https://planb.academy/resources/glossary/utreexo).
+Puisqu'il faut en conserver une partie en RAM pour pouvoir procéder à la vérification des transactions en temps raisonnable, il est possible que l'UTXO set rende progressivement l'opération d'un nœud complet trop couteuse. Pour résoudre ce problème, il existe déjà quelques propositions, notamment Utreexo.
 
 ### La mempool
 
@@ -1547,7 +1547,7 @@ Il est important de noter que les mempools des nœuds n’ont aucune valeur de c
 
 #### Politique et gestion de la mémoire
 
-À la réception d’une transaction, Core applique donc une série de vérifications des règles de consensus (syntaxe, scripts valides, pas de double dépense...) et des règles de mempool, qui sont une politique locale (RBF, seuils de frais minimaux, limite de la data dans les `OP_RETURN`...). Si la transaction respecte ces règles, elle est insérée en mémoire.
+À la réception d’une transaction, Core applique donc une série de vérifications des règles de consensus (syntaxe, scripts valides, pas de double dépense...) et des règles de mempool, qui sont une politique locale ([RBF](https://planb.academy/resources/glossary/rbf-replacebyfee), seuils de frais minimaux, limite de la data dans les `OP_RETURN`...). Si la transaction respecte ces règles, elle est insérée en mémoire.
 
 La taille de la mempool est bornée par le paramètre `maxmempool` dans le fichier `bitcoin.conf` (nous en parlerons dans le prochain chapitre). Par défaut, la limite est de 300 Mo. Lorsqu’elle est pleine, le nœud relève dynamiquement son seuil de frais minimal et expulse en priorité les transactions les moins rémunératrices (c'est-à-dire qu'il conserve en priorité les transactions qui devraient être minées en premières). Les transactions trop anciennes peuvent également expirer après un délai configuré.
 
@@ -1690,7 +1690,7 @@ Niveau réseau, on a également :
 - `fixedseeds` : Autorise l’usage des *seed nodes* (liste d'adresses hardcodées) si les _DNS seeds_ échouent ou sont désactivés (par défaut : `1`) ;
 - `dns` : Autorise les résolutions DNS en général (par exemple pour `-addnode`/`-seednode`/`-connect`).
 
-Par défaut, votre nœud communique sur le clearnet, Tor et I2P. Cela implique que les pairs avec lesquels il se connecte en clearnet peuvent voir votre adresse IP publique, et que votre ISP (fournisseur d’accès à Internet) pourra probablement détecter que vous exploitez un nœud Bitcoin (même si P2P Transport V2 complique l’écoute passive par un FAI). Ce n’est pas nécessairement problématique, mais si vous souhaitez éviter toute fuite de ces informations, vous pouvez connecter votre nœud exclusivement via Tor.
+Par défaut, votre nœud communique sur le clearnet, Tor et I2P. Cela implique que les pairs avec lesquels il se connecte en clearnet peuvent voir votre adresse IP publique, et que votre ISP (fournisseur d’accès à Internet) pourra probablement détecter que vous exploitez un nœud Bitcoin (même si [P2P Transport V2](https://planb.academy/resources/glossary/p2p-transport-v2) complique l’écoute passive par un FAI). Ce n’est pas nécessairement problématique, mais si vous souhaitez éviter toute fuite de ces informations, vous pouvez connecter votre nœud exclusivement via Tor.
 
 Pour être entièrement sous Tor, vous devez forcer Bitcoin Core à utiliser uniquement ce réseau et à créer un service caché pour les connexions entrantes (si vous voulez les activez). Dans le `bitcoin.conf`, il faut ajouter cette configuration : 
 - `onlynet=onion`,
@@ -1741,7 +1741,7 @@ Voici les paramètres avancés relatifs à la politique de mempool et de relais.
 
 - `bytespersigop=<n>` : Paramètre qui convertit les opérations de signature en octets équivalents pour l’évaluation des limites de relais (défaut : `20`). Cela va influencer l’acceptation des transactions riches en `sigops` selon les règles de politique locale.
 
-- `permitbaremultisig=1` : Autorise le relais des transactions *bare-multisig* P2MS (défaut : `1`). C'est le plus ancien modèle de script pour établir de conditions de multisignature sur un UTXO (inventé en 2011 par Gavin Andresen).
+- `permitbaremultisig=1` : Autorise le relais des transactions *bare-multisig* P2MS (défaut : `1`). C'est le plus ancien modèle de script pour établir de conditions de [multisignature](https://planb.academy/resources/glossary/multisig) sur un UTXO (inventé en 2011 par Gavin Andresen).
 
 - `whitelistrelay=1` : Attribue automatiquement la permission de relayer aux pairs entrants mis sur liste blanche (défaut : `1`). Ces pairs voient leurs transactions acceptées au relais même si votre nœud n’est pas en mode relais général.
 
@@ -1749,7 +1749,7 @@ Voici les paramètres avancés relatifs à la politique de mempool et de relais.
 
 - `whitebind=<[permissions@]addr>` / `whitelist=<[permissions@]CIDR>` : Lie une interface ou une plage d’adresses et assigne des permissions fines aux pairs correspondants : `relay`, `forcerelay`, `mempool` (requête de contenu de mempool), `noban`, `download`, `addr`, `bloomfilter`. Ça peut être utile pour accorder un traitement privilégié à des pairs de confiance (passerelles, LAN, services internes...).
 
-- `peerbloomfilters=1` : Active la prise en charge des filtres Bloom (BIP37) pour servir blocs/transactions filtrés aux clients légers (défaut : `0`). Attention, cela augmente la charge sur vos ressources.
+- `peerbloomfilters=1` : Active la prise en charge des [filtres Bloom](https://planb.academy/resources/glossary/bloom-filter) (BIP37) pour servir blocs/transactions filtrés aux clients légers (défaut : `0`). Attention, cela augmente la charge sur vos ressources.
 
 - `peerblockfilters=1` : Sert des filtres compacts BIP157 (*Neutrino*) aux pairs (défaut : `0`).
 

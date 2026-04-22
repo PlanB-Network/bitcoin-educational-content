@@ -6,4 +6,4 @@ wrong_answers:
   - Informasi sensitif diacak dalam setiap blok teks terenkripsi
 explanation: |
   Difusi berarti bahwa perubahan kecil dalam teks asli menghasilkan perubahan yang signifikan dalam teks terenkripsi, membuatnya sulit bagi penyerang untuk menemukan teks asli.
-reviewed: false
+reviewed: true

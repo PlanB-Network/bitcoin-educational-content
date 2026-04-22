@@ -3,7 +3,7 @@ answer: Programeri ekosistema
 wrong_answers:
   - Internet provajderi usluga
   - Satoshi Nakamoto
-  - Mining bazeni
+  - Rudarski bazeni
 explanation: |
-  DNS semena održavaju poznati programeri (Wuille, Corallo, Dashjr, itd.) i obezbeđuju IP adrese aktivnih čvorova za iniciranje konekcija.
+  DNS seed servere održavaju poznati Bitcoin developeri (Wuille, Corallo, Dashjr itd.), a služe za dobijanje IP adresa aktivnih čvorova radi uspostavljanja prvih veza na mreži.
 reviewed: true

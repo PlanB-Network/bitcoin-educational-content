@@ -91,7 +91,7 @@ Spremni da otkrijete svet Bitcoin rudarenja i prihvatite praktični Attakai izaz
 ### Objašnjenje rudarenja: analogija sa slagalicom
 
 
-Da bi se koncept rudarenja objasnio na pojednostavljen način, može se koristiti relevantna analogija: slagalice. Baš kao slagalica, rudarenje je složen zadatak za izvršavanje, ali ga je lako proveriti kada je završen. U kontekstu Bitcoin rudarenja, rudari se trude da brzo reše digitalnu slagalicu. Prvi rudar koji reši slagalicu predstavlja svoje rešenje celokupnoj mreži, koja zatim lako može proveriti njegovu validnost. Ovo uspešno verifikovanje omogućava rudaru da validira novi blok i doda ga u Bitcoin Timechain (u prevodu vremenski lanac). Kao priznanje za njihov rad, koji uključuje značajne troškove, rudar dobija nagradu u određenom broju bitkoina. Ova nagrada služi kao finansijski podsticaj rudarima da nastave svoj rad na validaciji transakcija i obezbeđivanju Bitcoin mreže.
+Da bi se koncept [rudarenja](https://planb.academy/resources/glossary/mining) objasnio na pojednostavljen način, može se koristiti relevantna analogija: slagalice. Baš kao slagalica, rudarenje je složen zadatak za izvršavanje, ali ga je lako proveriti kada je završen. U kontekstu Bitcoin rudarenja, [rudari](https://planb.academy/resources/glossary/miner) se trude da brzo reše digitalnu slagalicu. Prvi rudar koji reši slagalicu predstavlja svoje rešenje celokupnoj mreži, koja zatim lako može proveriti njegovu validnost. Ovo uspešno verifikovanje omogućava rudaru da validira novi [blok](https://planb.academy/resources/glossary/block) i doda ga u Bitcoin Timechain (u prevodu vremenski lanac). Kao priznanje za njihov rad, koji uključuje značajne troškove, rudar dobija nagradu u određenom broju bitkoina. Ova nagrada služi kao finansijski podsticaj rudarima da nastave svoj rad na validaciji [transakcija](https://planb.academy/resources/glossary/transaction-tx) i obezbeđivanju Bitcoin mreže.
 
 
 ![image](assets/en/001.webp)
@@ -99,7 +99,7 @@ Da bi se koncept rudarenja objasnio na pojednostavljen način, može se koristit
 
 U početku u Bitcoin mreži, dodeljena nagrada je bila 50 bitkoina svakih deset minuta, paralelno sa otkrivanjem bloka u proseku svakih deset minuta od strane rudara. Ova nagrada se prepolovljava svakih 210.000 blokova, otprilike svake četiri godine. Ova naknada služi kao snažan podsticaj da se rudari ohrabre da učestvuju u rudarskom procesu uprkos njegovim energetskim troškovima. Bez nagrade, energetski intenzivno rudarenje bi bilo napušteno, ugrožavajući sigurnost i stabilnost cele Bitcoin mreže.
 
-Trenutna nagrada rudarima je dvostruka. S jedne strane, uključuje kreiranje novih bitkoina, što je smanjeno sa 50 bitkoina svakih deset minuta inicijalno na 6.25 bitkoina danas (2023). S druge strane, uključuje naknade za transakcije, ili rudarske naknade, iz transakcija koje rudar odluči da uključi u svoj blok. Kada se izvrši Bitcoin transakcija, plaćaju se naknade za transakciju. Ove naknade funkcionišu kao neka vrsta aukcije gde korisnici navode koliko su spremni da plate da bi njihova transakcija bila uključena u sledeći blok. Da bi maksimizirali svoju nagradu, rudari, delujući u svom interesu, biraju najprofitabilnije transakcije koje će uključiti u svoj blok, uzimajući u obzir ograničeni raspoloživi prostor. Tako, rudarske nagrada se sastoji od generisanja novih bitkoina i naknada za transakcije, osiguravajući kontinuirani podsticaj za rudare i osiguravajući dugovečnost i sigurnost Bitcoin mreže.
+Trenutna nagrada rudarima je dvostruka. S jedne strane, uključuje kreiranje novih bitkoina, što je smanjeno sa 50 bitkoina svakih deset minuta inicijalno na 6.25 bitkoina danas (2023). S druge strane, uključuje [naknade za transakcije](https://planb.academy/resources/glossary/transaction-fees), ili rudarske naknade, iz transakcija koje rudar odluči da uključi u svoj blok. Kada se izvrši Bitcoin transakcija, plaćaju se naknade za transakciju. Ove naknade funkcionišu kao neka vrsta aukcije gde korisnici navode koliko su spremni da plate da bi njihova transakcija bila uključena u sledeći blok. Da bi maksimizirali svoju nagradu, rudari, delujući u svom interesu, biraju najprofitabilnije transakcije koje će uključiti u svoj blok, uzimajući u obzir ograničeni raspoloživi prostor. Tako, [rudarske nagrada](https://planb.academy/resources/glossary/block-reward) se sastoji od generisanja novih bitkoina i naknada za transakcije, osiguravajući kontinuirani podsticaj za rudare i osiguravajući dugovečnost i sigurnost Bitcoin mreže.
 
 
 ### Rudari i njihovi alati: rudarenje
@@ -108,15 +108,15 @@ Trenutna nagrada rudarima je dvostruka. S jedne strane, uključuje kreiranje nov
 Proces rudarenja uključuje pronalaženje validne heš vrednosti koja je prihvatljiva za Bitcoin mrežu. Kada se izračuna i pronađe, ova heš vrednost je nepovratna, slično kao kada se krompir pretvori u pire krompir. On verifikuje određenu funkciju bez mogućnosti vraćanja unazad. Rudari, u konkurenciji, koriste mašine za izračunavanje ovih heševa. Iako je teoretski moguće pronaći ovu heš vrednost ručno, složenost operacije čini ovu opciju neizvodljivom. Računari, sposobni da brzo izvrše ove proračune, se stoga koriste, trošeći značajnu količinu električne energije.
 
 
-Na početku je dominirala era CPU-a, gde su rudari koristili svoje lične računare za Bitcoin rudarenje. Otkriće prednosti GPU-ova (grafičkih kartica) za ovaj zadatak označilo je prekretnicu, značajno povećavajući [Hashrate](https://planb.academy/resources/glossary/hashrate) i smanjujući potrošnju energije. Napredak se tu nije zaustavio, sa kasnijim uvođenjem FPGA-ova (polje-programabilnih gejt nizova). FPGA-ovi su služili kao platforma za razvoj ASIC-ova (integrisanih kola specifičnih za aplikaciju).
+Na početku je dominirala era CPU-a, gde su rudari koristili svoje lične računare za Bitcoin rudarenje. Otkriće prednosti GPU-ova (grafičkih kartica) za ovaj zadatak označilo je prekretnicu, značajno povećavajući [Hashrate](https://planb.academy/resources/glossary/hashrate) i smanjujući potrošnju energije. Napredak se tu nije zaustavio, sa kasnijim uvođenjem FPGA-ova (polje-programabilnih gejt nizova). FPGA-ovi su služili kao platforma za razvoj [ASIC-ova](https://planb.academy/resources/glossary/asic) (integrisanih kola specifičnih za aplikaciju).
 
 
 ![image](assets/en/002.webp)
 
 
-ASIC-i su čipovi, uporedivi sa CPU čipom, međutim, oni su razvijeni da obavljaju samo jednu specifičnu vrstu proračuna na najefikasniji mogući način. Drugim rečima, CPU je sposoban da obavlja mnoštvo različitih vrsta proračuna bez da je posebno optimizovan za jednu ili drugu vrstu proračuna, dok će ASIC moći da obavlja samo jednu vrstu proračuna, ali veoma efikasno. U slučaju Bitcoin ASIC-a, oni su dizajnirani za izračunavanje SHA256 algoritma.
+ASIC-i su čipovi, uporedivi sa CPU čipom, međutim, oni su razvijeni da obavljaju samo jednu specifičnu vrstu proračuna na najefikasniji mogući način. Drugim rečima, CPU je sposoban da obavlja mnoštvo različitih vrsta proračuna bez da je posebno optimizovan za jednu ili drugu vrstu proračuna, dok će ASIC moći da obavlja samo jednu vrstu proračuna, ali veoma efikasno. U slučaju Bitcoin ASIC-a, oni su dizajnirani za izračunavanje [SHA256](https://planb.academy/resources/glossary/sha256) algoritma.
 
-Danas rudari isključivo koriste ASIC uređaje posvećene ovoj operaciji, optimizovane da testiraju maksimalan broj kombinacija uz najmanju moguću potrošnju energije i što je brže moguće. Ovi računari, nesposobni za obavljanje zadataka osim Bitcoin rudarenja, su opipljiv dokaz kontinuirane evolucije i sve veće specijalizacije Bitcoin industrije rudarenja. Ova stalna evolucija odražava intrinzičnu dinamiku Bitcoin-a, gde prilagođavanje težine osigurava proizvodnju bloka svakih deset minuta uprkos eksponencijalnom povećanju rudarskih kapaciteta.
+Danas rudari isključivo koriste ASIC uređaje posvećene ovoj operaciji, optimizovane da testiraju maksimalan broj kombinacija uz najmanju moguću potrošnju energije i što je brže moguće. Ovi računari, nesposobni za obavljanje zadataka osim Bitcoin rudarenja, su opipljiv dokaz kontinuirane evolucije i sve veće specijalizacije Bitcoin industrije rudarenja. Ova stalna evolucija odražava intrinzičnu dinamiku Bitcoin-a, gde [prilagođavanje težine](https://planb.academy/resources/glossary/difficulty-adjustment) osigurava proizvodnju bloka svakih deset minuta uprkos eksponencijalnom povećanju rudarskih kapaciteta.
 
 
 Da ilustrujemo intenzitet ovog procesa, razmotrite tipičan uređaj za rudarenje sposoban da postigne 14 TeraHash-a po sekundi, ili 14 triliona pokušaja svake sekunde da pronađe ispravan heš. Na nivou Bitcoin mreže, sada dostižemo približno 300 ExaHash-a po sekundi, što ističe kolektivnu snagu mobilisanu u Bitcoin rudarenje.
@@ -125,7 +125,7 @@ Da ilustrujemo intenzitet ovog procesa, razmotrite tipičan uređaj za rudarenje
 ### Podešavanje težine
 
 
-Podešavanje težine je ključni mehanizam u radu Bitcoin mreže, osiguravajući da se blokovi rudare u proseku svakih 10 minuta. Ovo trajanje je prosečno jer je proces rudarenja zapravo igra verovatnoće, slična bacanju kockica u nadi da će se dobiti broj manji od broja definisanog težinom. Svakih 2016 blokova, mreža podešava težinu rudarenjana osnovu prosečnog vremena potrebnog za rudarenje prethodnih blokova. Ako je prosečno vreme veće od 10 minuta, težina se smanjuje, i obrnuto, ako je prosečno vreme manje, težina se povećava. Ovaj mehanizam podešavanja osigurava da vreme rudarenja novih blokove ostane konstantno tokom vremena, bez obzira na broj rudara ili ukupnu računarsku snagu mreže. Zato se Bitcoin Blockchain (u prevodu lanac blokova) takođe naziva Timechain (u prevodu vremenski lanac).
+Podešavanje težine je ključni mehanizam u radu Bitcoin mreže, osiguravajući da se blokovi rudare u proseku svakih 10 minuta. Ovo trajanje je prosečno jer je proces rudarenja zapravo igra verovatnoće, slična bacanju kockica u nadi da će se dobiti broj manji od broja definisanog težinom. Svakih 2016 blokova, mreža podešava težinu rudarenjana osnovu prosečnog vremena potrebnog za rudarenje prethodnih blokova. Ako je prosečno vreme veće od 10 minuta, težina se smanjuje, i obrnuto, ako je prosečno vreme manje, težina se povećava. Ovaj mehanizam podešavanja osigurava da vreme rudarenja novih blokove ostane konstantno tokom vremena, bez obzira na broj rudara ili ukupnu računarsku snagu mreže. Zato se Bitcoin [Blockchain](https://planb.academy/resources/glossary/blockchain) (u prevodu lanac blokova) takođe naziva Timechain (u prevodu vremenski lanac).
 
 
 ![image](assets/en/003.webp)
@@ -161,7 +161,7 @@ Konačno, industrija Bitcoin rudarenja nastavlja da se prilagođava i razvija, i
 ### Bazeni za rudarenje
 
 
-Trenutno, Bitcoin rudarenje se razvija u ozbiljnu i značajnu industriju, sa mnogim igračima koji su sada javno poznati i sve većim brojem značajnih rudara. Ova evolucija je učinila rudarenje gotovo nedostupnim za male igrače zbog visokih troškova povezanih sa nabavkom novih mašina za rudarenje. Ovo postavlja pitanje distribucije Hashrate među različitim tržišnim igračima. Situacija je složena jer je neophodno ispitati i distribuciju Hashrate među različitim kompanijama i među različitim bazenima za rudarenje (eng. [mining pools](https://planb.academy/en/resources/glossary/pool-mining).
+Trenutno, Bitcoin rudarenje se razvija u ozbiljnu i značajnu industriju, sa mnogim igračima koji su sada javno poznati i sve većim brojem značajnih rudara. Ova evolucija je učinila rudarenje gotovo nedostupnim za male igrače zbog visokih troškova povezanih sa nabavkom novih mašina za rudarenje. Ovo postavlja pitanje distribucije Hashrate među različitim tržišnim igračima. Situacija je složena jer je neophodno ispitati i distribuciju Hashrate među različitim kompanijama i među različitim [bazenima za rudarenje](https://planb.academy/resources/glossary/pool-mining) (eng. [mining pools](https://planb.academy/en/resources/glossary/pool-mining).
 
 
 ![image](assets/en/005.webp)
@@ -205,7 +205,7 @@ U Francuskoj, na primer, višak električne energije iz solarnih panela se vrać
 ### Centralizacija rudarenja
 
 
-Centralizacija rudarenja se smatra glavnim izazovom. Veliki igrači, kao što je Foundry, dominiraju tržištem, što potencijalno može dovesti do cenzure transakcija. Ova centralizacija takođe može učiniti mrežu ranjivom na napade, uključujući napad od 51%, kada pojedinac ili grupa kontroliše više od 50% hashrate-a mreže, što im omogućava da upravljaju i manipulišu mrežom.
+Centralizacija rudarenja se smatra glavnim izazovom. Veliki igrači, kao što je Foundry, dominiraju tržištem, što potencijalno može dovesti do cenzure transakcija. Ova centralizacija takođe može učiniti mrežu ranjivom na napade, uključujući [napad od 51%](https://planb.academy/resources/glossary/51-percent-attack), kada pojedinac ili grupa kontroliše više od 50% hashrate-a mreže, što im omogućava da upravljaju i manipulišu mrežom.
 
 
 Rizik od regulative: Naglašava da ako bi zemlja poput Sjedinjenih Američkih Država odlučila da reguliše ili zabrani određene Bitcoin transakcije, to bi moglo imati značajan uticaj na mrežu, posebno ako je veliki deo hashing snage centralizovan u toj zemlji.
@@ -219,7 +219,7 @@ Da bi se suzbila ova centralizacija, razmatraju se različite strategije:
 
 
 - Kućno rudarenje: Ideja kućnog rudarenja zasniva se na decentralizaciji aktivnosti rudarenja. Podstiče pojedince da učestvuju u rudarenju iz svojih domova, čime se Hashrate šire distribuira.
-- Stratum V2: Protokol Stratum V2 nudi drugačiji pristup. Za razliku od svog prethodnika, Stratum V2 omogućava rudarima da biraju koje transakcije će uključiti u blokove koje rudare. Ova sposobnost jača otpornost na cenzuru i smanjuje mogućnost velikih rudarskih bazena da dominiraju mrežom. Davanjem više moći pojedinačnim rudarima, protokol Stratum V2 može igrati odlučujuću ulogu u borbi protiv centralizacije Hashrate-a.
+- [Stratum V2](https://planb.academy/resources/glossary/stratum-v2): Protokol Stratum V2 nudi drugačiji pristup. Za razliku od svog prethodnika, Stratum V2 omogućava rudarima da biraju koje transakcije će uključiti u blokove koje rudare. Ova sposobnost jača otpornost na cenzuru i smanjuje mogućnost velikih rudarskih bazena da dominiraju mrežom. Davanjem više moći pojedinačnim rudarima, protokol Stratum V2 može igrati odlučujuću ulogu u borbi protiv centralizacije Hashrate-a.
 
 Otvaranje izvornog koda softvera za rudarenje
 
@@ -267,19 +267,19 @@ Pitanje dugoročne efikasnosti i izvodljivosti korišćenja Bitcoin uređaja za 
 ### Zašto imati BTC nagrade?
 
 
-Pitanje nagrađivanja u Bitcoinu umesto u nekoj drugoj valuti je ključno u sistemu koji je zamislio Satoshi Nakamoto. Kreiranje Bitcoina karakteriše fiksna granica od 21 milion jedinica. Cilj je bio pronaći pravedan način za distribuciju ovih novo kreiranih jedinica. Rudari, pružajući svoju računarsku snagu kako bi osigurali mrežu i učinili svaki napad sve skupljim, efikasno štite Bitcoin mrežu. Kao nagradu za ovaj ključni doprinos, oni su nagrađeni novo kreiranim bitcoinima, što olakšava distribuciju novčića unutar ekosistema.
+Pitanje nagrađivanja u Bitcoinu umesto u nekoj drugoj valuti je ključno u sistemu koji je zamislio [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi). Kreiranje Bitcoina karakteriše fiksna granica od 21 milion jedinica. Cilj je bio pronaći pravedan način za distribuciju ovih novo kreiranih jedinica. Rudari, pružajući svoju računarsku snagu kako bi osigurali mrežu i učinili svaki napad sve skupljim, efikasno štite Bitcoin mrežu. Kao nagradu za ovaj ključni doprinos, oni su nagrađeni novo kreiranim bitcoinima, što olakšava distribuciju novčića unutar ekosistema.
 
 
-To je win-win sistem. Rudari su nagrađeni i za obezbeđivanje mreže i za odobravanje transakcija. Novo kreirani bitkoini se daju kao podsticaj za jačanje sigurnosti, a naknade za transakcije su dodatni prihod za odobravanje transakcija. Ova dva elementa zajedno čine ukupnu nagradu za rudarenje. Pitanje budućnosti rudarenje se postavlja zbog programiranog smanjenja nagrada za rudarenje, tačnije prepolovljavanje svake četiri godine, događaj poznat kao "Halving". Do 2032. godine, nagrada za izrudareni blok će biti manji od jednog Bitcoina, a do 2140. godine, neće više biti kreirani novi bitkoini. U tom trenutku, rudari će se oslanjati isključivo na naknade za transakcije za kompenzaciju. Bitcoin mreža će morati da podrži veliki broj transakcija, sa dovoljno visokim naknadama, kako bi se osigurala profitabilnost rudarenja.
+To je win-win sistem. Rudari su nagrađeni i za obezbeđivanje mreže i za odobravanje transakcija. Novo kreirani bitkoini se daju kao podsticaj za jačanje sigurnosti, a naknade za transakcije su dodatni prihod za odobravanje transakcija. Ova dva elementa zajedno čine ukupnu nagradu za rudarenje. Pitanje budućnosti rudarenje se postavlja zbog programiranog smanjenja nagrada za rudarenje, tačnije prepolovljavanje svake četiri godine, događaj poznat kao "[Halving](https://planb.academy/resources/glossary/halving)". Do 2032. godine, nagrada za izrudareni blok će biti manji od jednog Bitcoina, a do 2140. godine, neće više biti kreirani novi bitkoini. U tom trenutku, rudari će se oslanjati isključivo na naknade za transakcije za kompenzaciju. Bitcoin mreža će morati da podrži veliki broj transakcija, sa dovoljno visokim naknadama, kako bi se osigurala profitabilnost rudarenja.
 
 
-Porast Lightning mreže, koja omogućava brze i niskobudžetne transakcije van glavnog Bitcoin lanca, postavlja pitanja o budućnosti rudarenja. Lightning mreža ima potencijal da značajno smanji naknade za transakcije, čime bi se uticalo na prihode rudara. Međutim, to će zavisiti od stepena usvajanja i korišćenja Lightning mreže u poređenju sa glavnom Bitcoin mrežom. U pesimističnom scenariju, rudarima bi moglo biti isplativo da rudare čak i uz gubitak ako su amortizovali svoje troškove i imaju pristup jeftinoj struji. U optimističnijem scenariju, naknade za transakcije na glavnoj Bitcoin mreži mogle bi ostati dovoljno visoke da održe profitabilnost rudarenja.
+Porast [Lightning mreže](https://planb.academy/resources/glossary/lightning-network), koja omogućava brze i niskobudžetne transakcije van glavnog Bitcoin lanca, postavlja pitanja o budućnosti rudarenja. Lightning mreža ima potencijal da značajno smanji naknade za transakcije, čime bi se uticalo na prihode rudara. Međutim, to će zavisiti od stepena usvajanja i korišćenja Lightning mreže u poređenju sa glavnom Bitcoin mrežom. U pesimističnom scenariju, rudarima bi moglo biti isplativo da rudare čak i uz gubitak ako su amortizovali svoje troškove i imaju pristup jeftinoj struji. U optimističnijem scenariju, naknade za transakcije na glavnoj Bitcoin mreži mogle bi ostati dovoljno visoke da održe profitabilnost rudarenja.
 
 
 ### Šta treba da bude uključeno u Bitcoin blok?
 
 
-Što se tiče pitanja šta bi trebalo uključiti u Bitcoin blok, ključno je razmotriti komplementarnu prirodu različitih slojeva Bitcoin mreže. Iako Lightning mreža može omogućiti brže i jeftinije transakcije, ona i dalje zavisi od osnovnog sloja Bitcoina, koji se često naziva „sloj za poravnanje“ (eng. settlement layer), za otvaranje i zatvaranje platnih kanala.
+Što se tiče pitanja šta bi trebalo uključiti u Bitcoin blok, ključno je razmotriti komplementarnu prirodu različitih slojeva Bitcoin mreže. Iako Lightning mreža može omogućiti brže i jeftinije transakcije, ona i dalje zavisi od osnovnog sloja Bitcoina, koji se često naziva „sloj za poravnanje“ (eng. settlement layer), za otvaranje i zatvaranje [platnih kanala](https://planb.academy/resources/glossary/payment-channel).
 
 Sa očekivanim rastom Lightning mreže i posledičnim povećanjem otvaranja i zatvaranja kanala, prostor u Bitcoin blokovima postaje sve vredniji. Bitcoin zajednica već teži da ceni očuvanje ovog prostora, prepoznajući njegovu intrinzičnu ograničenost. Ova svest je dovela do diskusija o legitimnoj upotrebi prostora unutar blokova, uz zabrinutost zbog „spama“ na blokčejnu koji potiče od transakcija koje se smatraju neesencijalnim.
 
@@ -295,7 +295,7 @@ Spekulacije okružuju buduću upotrebu prostora unutar blokova, ali se generalno
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
 
-Uloga rudara u Bitcoin mreži bila je predmet intenzivne debate tokom "ratova" oko veličine blokova. Iako su ključni za sigurnost i funkcionalnost mreže, rudari ne poseduju nužno ultimativnu moć u Bitcoin ekosistemu. Ravnoteža između rudara, čvorova i krajnjih korisnika osigurava integritet i distribuciju mreže.
+Uloga rudara u Bitcoin mreži bila je predmet intenzivne debate tokom "ratova" oko veličine blokova. Iako su ključni za sigurnost i funkcionalnost mreže, rudari ne poseduju nužno ultimativnu moć u Bitcoin ekosistemu. Ravnoteža između rudara, [čvorova](https://planb.academy/resources/glossary/node) i krajnjih korisnika osigurava integritet i distribuciju mreže.
 
 
 ### Ratovi oko veličine bloka
@@ -310,7 +310,7 @@ Tokom ratova oko veličine blokova, mnogi rudari su se protivili određenim razv
 Sigurnosna Bitcoin dilema počiva na delikatnoj ravnoteži. Dok rudari igraju ključnu ulogu u validaciji i kreiranju blokova, čvorovi održavaju integritet verifikacijom i validacijom transakcija i blokova. Neispravan ili lažan blok će biti odbijen od strane čvorova, čime se cenzuriše rudar i očuvava sigurnost mreže. Moć takođe drže čvorovi i korisnici Bitcoin mreže. Čvorovi imaju moć verifikacije i validacije, dok korisnici imaju moć da biraju koji Blockchain će koristiti. Ova distribucija moći osigurava distribuciju i integritet Bitcoin mreže.
 
 
-Ratovi oko veličine blokova otkrili su nesigurnost i napetost svojstvene upravljanju Bitcoin mrežom. Iako je Bitcoin Core trenutno dominantni lanac, debata oko upravljanja i menadžmenta mreže se nastavlja.
+Ratovi oko veličine blokova otkrili su nesigurnost i napetost svojstvene upravljanju Bitcoin mrežom. Iako je [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core) trenutno dominantni lanac, debata oko upravljanja i menadžmenta mreže se nastavlja.
 
 
 Na kraju, odgovornost je podeljena među svim akterima u Bitcoin mreži. Smanjenje broja korisnika, čvorova ili rudara moglo bi oslabiti mrežu, povećavajući rizik od centralizacije i ranjivosti na napade. Svaki akter doprinosi robusnosti i sigurnosti mreže, naglašavajući važnost održavanja ravnoteže moći i odgovornosti.
@@ -330,7 +330,7 @@ Centralizacija proizvodnje hardvera za rudarenje u Kini predstavlja još jedan r
 ### Fizička veza Proof of Work vs Proof of Stake
 
 
-Proof of Work (PoW) je suštinski važan jer predstavlja fizičku vezu između stvarnog sveta i Bitcoina. Iako su bitkoini nematerijalni, njihova proizvodnja zahteva opipljivu energiju, čime se uspostavlja direktna veza sa fizičkim i stvarnim svetom. Ova veza osigurava da proizvodnja i validacija bitkoina i blokova imaju stvarni energetski trošak, čime se Bitcoin mreža usidruje u fizičkoj stvarnosti i sprečava njena potpuna dominacija od strane moćnih entiteta. PoW deluje kao bedem protiv centralizacije, osiguravajući da učešće u mreži i validacija transakcija zahtevaju ulaganje u opipljive resurse. Ovo sprečava monopolizaciju mreže od strane entiteta koji bi inače mogli preuzeti kontrolu bez značajne ulazne barijere, čime se osigurava pravednija distribucija moći i uticaja unutar Bitcoin mreže.
+[Proof of Work (PoW)](https://planb.academy/resources/glossary/proof-of-work) je suštinski važan jer predstavlja fizičku vezu između stvarnog sveta i Bitcoina. Iako su bitkoini nematerijalni, njihova proizvodnja zahteva opipljivu energiju, čime se uspostavlja direktna veza sa fizičkim i stvarnim svetom. Ova veza osigurava da proizvodnja i validacija bitkoina i blokova imaju stvarni energetski trošak, čime se Bitcoin mreža usidruje u fizičkoj stvarnosti i sprečava njena potpuna dominacija od strane moćnih entiteta. PoW deluje kao bedem protiv centralizacije, osiguravajući da učešće u mreži i validacija transakcija zahtevaju ulaganje u opipljive resurse. Ovo sprečava monopolizaciju mreže od strane entiteta koji bi inače mogli preuzeti kontrolu bez značajne ulazne barijere, čime se osigurava pravednija distribucija moći i uticaja unutar Bitcoin mreže.
 
 
 ![image](assets/en/011.webp)
@@ -345,7 +345,7 @@ S druge strane, Proof of Stake (PoS), iako omogućava učešće u malom obimu, n
 ### Rekapitulacija
 
 
-Da rezimiramo, rudari jačaju Bitcoin mrežu protiv cenzure koristeći električnu energiju za izračunavanje Bitcoin-ovog Proof of Work-a, i nagrađuju se novim bitkoinima i naknadama za transakcije. Sa profesionalizacijom industrije, pojavljuju se različiti igrači, igrajući različite uloge, od kreiranja čipova do upravljanja farmama za rudarenje. Pored toga, finansije takođe imaju svoju ulogu, vršeći kontrolu time što odlučuju ko će opstati tokom različitih faza tržišta. Problem centralizacije i dalje postoji, s najbogatijim entitetima koji potencijalno dominiraju tržištem. Međutim, razvijaju se alternative na hardverskom i softverskom nivou. Na svakom pojedincu je da deluje i doprinese distribuciji mreže. Bitcoin predstavlja izvanrednu priliku ne samo u smislu slobode već i energetske nezavisnosti. Uprkos kontroverzama oko potrošnje električne energije, Bitcoin nudi ekonomski podsticaj za tranziciju ka racionalnijem i obilnijem korišćenju energije, ostvarujući ono što je prethodno bilo ekološki ideal.
+Da rezimiramo, rudari jačaju Bitcoin mrežu protiv cenzure koristeći električnu energiju za izračunavanje Bitcoin-ovog Proof of Work-a, i nagrađuju se novim bitkoinima i naknadama za transakcije. Sa profesionalizacijom industrije, pojavljuju se različiti igrači, igrajući različite uloge, od kreiranja čipova do upravljanja [farmama za rudarenje](https://planb.academy/resources/glossary/mining-farm). Pored toga, finansije takođe imaju svoju ulogu, vršeći kontrolu time što odlučuju ko će opstati tokom različitih faza tržišta. Problem centralizacije i dalje postoji, s najbogatijim entitetima koji potencijalno dominiraju tržištem. Međutim, razvijaju se alternative na hardverskom i softverskom nivou. Na svakom pojedincu je da deluje i doprinese distribuciji mreže. Bitcoin predstavlja izvanrednu priliku ne samo u smislu slobode već i energetske nezavisnosti. Uprkos kontroverzama oko potrošnje električne energije, Bitcoin nudi ekonomski podsticaj za tranziciju ka racionalnijem i obilnijem korišćenju energije, ostvarujući ono što je prethodno bilo ekološki ideal.
 
 
 ## Bitcoin cena i Hashrate, korelacija?
@@ -426,7 +426,7 @@ Uprkos ovim opcijama, rudarenje predstavlja značajne izazove. Dobro poznata izr
 Aspiracija da se poseduje sopstveni Hashrate pojavljuje se kao obećavajući put u svetu rudarenja. Međutim, navigacija kroz ovaj složeni ekosistem zahteva oprezan pristup. Oblast cloud rudarenja obeležena je velikim brojem prevara, podstaknutih nedostatkom razumevanja rudarenja od strane mnogih investitora. Privlačne ponude, upakovane na različite načine, lako mogu dovesti u zabludu one koji nisu dovoljno informisani. S druge strane, posedovanje sopstvene opreme za rudarenje nudi značajne prednosti. Osim ličnog zadovoljstva aktivnim doprinosom sigurnosti Bitcoin mreže i posmatranja nagrada kako pristižu u vaš novčanik, tu je i privlačan aspekt "novokreiranih bitcoina." (eng. "virgin bitcoin") To su sveže iskopani bitcoini, koji nikada nisu potrošeni i nemaju istoriju vezanu za njih. Ovi bitcoini se često smatraju vrednijim jer nikada nisu bili "kontaminirani," nudeći određenu garanciju protiv odbijanja od strane regulatora ili velikih platformi za trgovinu, kao što su menjačnice i berze.
 
 
-Mogućnost rudarenja novokreiranih bitkoina uz izbegavanje Know Your Customer (KYC) procedura je još jedna dodata vrednost. Mnogi bazeni za rudarenje ne zahtevaju identitet rudara, što omogućava sticanje bitkoina bez prolaska kroz zamorne provere identiteta. Novokreirani bitkoini se smatraju "čistim," bez prošle istorije ili asocijacija. Posebno su traženi od strane velikih institucionalnih igrača koji mogu garantovati legitimitet svojih digitalnih sredstava pred regulatornim vlastima. Međutim, uprkos ovim prednostima, ključno je prepoznati da industrija rudarenja ostaje izuzetno konkurentna i nestabilna, a nepredviđeni incidenti mogu poremetiti operacije rudarenja.
+Mogućnost rudarenja novokreiranih bitkoina uz izbegavanje Know Your Customer ([KYC](https://planb.academy/resources/glossary/kyc-know-your-customer)) procedura je još jedna dodata vrednost. Mnogi bazeni za rudarenje ne zahtevaju identitet rudara, što omogućava sticanje bitkoina bez prolaska kroz zamorne provere identiteta. Novokreirani bitkoini se smatraju "čistim," bez prošle istorije ili asocijacija. Posebno su traženi od strane velikih institucionalnih igrača koji mogu garantovati legitimitet svojih digitalnih sredstava pred regulatornim vlastima. Međutim, uprkos ovim prednostima, ključno je prepoznati da industrija rudarenja ostaje izuzetno konkurentna i nestabilna, a nepredviđeni incidenti mogu poremetiti operacije rudarenja.
 
 
 U ovom kontekstu, izbor autonomnog i obrazovanog pristupa rudarenju čini se mudrim. Sticanje sopstvenog Hashrate i ulaganje u ličnu opremu za rudarenje, uz svest o rizicima i izazovima, može potencijalno ponuditi sigurniji i zadovoljavajući put ka sticanju novokreiranih bitcoina, čime se poboljšava finansijski suverenitet pojedinca dok se podržava Bitcoin ekosistem u celini.
@@ -1097,7 +1097,7 @@ I eto ga, čestitamo! Upravo ste zamenili ceo mehanički deo vašeg uređaja za 
 <chapterId>b57a6105-0a53-5fe9-bad1-d6d9daf97c0d</chapterId>
 
 
-Možete zamisliti rudarski bazen kao poljoprivrednu zadrugu. Poljoprivrednici udružuju svoju proizvodnju kako bi smanjili razlike između ponude i potražnje, te tako ostvarili stabilniji prihod za svoje poslovanje. Rudarski bazeni funkcioniše na isti način, s tim što je zajednički resurs heš. Naime, otkriće jednog validnog Hasha omogućava kreiranje bloka i osvajanje coinbase-a ili nagrade, koja trenutno iznosi 6.25 BTC plus transakcione naknade uključene u blok.
+Možete zamisliti rudarski bazen kao poljoprivrednu zadrugu. Poljoprivrednici udružuju svoju proizvodnju kako bi smanjili razlike između ponude i potražnje, te tako ostvarili stabilniji prihod za svoje poslovanje. Rudarski bazeni funkcioniše na isti način, s tim što je zajednički resurs heš. Naime, otkriće jednog validnog Hasha omogućava kreiranje bloka i osvajanje [coinbase](https://planb.academy/resources/glossary/coinbase-transaction)-a ili nagrade, koja trenutno iznosi 6.25 BTC plus transakcione naknade uključene u blok.
 
 
 Ako kopaš sam, bićeš nagrađen samo kada pronađeš blok. U konkurenciji sa svim ostalim rudarima na planeti, imao/la bi vrlo male šanse da osvojiš ovu lutriju i još uvek bi morao/la da platiš naknade povezane sa korišćenjem svog uređaja bez ikakve garancije uspeha. Rudarenje rešava ovaj problem udruživanjem računarske snage nekoliko (hiljada) rudara i deljenjem njihovih nagrada na osnovu procenta učešća u Hashrateu bazena kada se pronađe blok. Da bi vizualizovao svoje šanse da sam pronađeš blok, možeš koristiti ovaj alat. Unoseći informacije za Antminer S9, možemo videti da su šanse za pronalaženje Hasha koji omogućava kreiranje bloka 1 u 24,777,849 za svaki blok ili 1 u 172,068 dnevno. U proseku (sa konstantnim Hashrate-om i težinom), trebalo bi najmanje 471 godina da se pronađe blok (kako težina raste).
@@ -1120,7 +1120,7 @@ Model nagrađivanja koji nas zanima je PPS, što znači "plaćanje po deonici". 
 
 
 
-- Linecoin: Prednost Linecoina je broj funkcija koje nudi, kao što su detaljna kontrolna tabla, mogućnost povlačenja sa Paynym (BIP 47) za bolju zaštitu privatnosti, i integracija Telegram bota kao i direktno konfigurisane automatizacije u mobilnoj aplikaciji. Ovaj pool kopa samo Bitcoin blokove, ali minimalni iznos za povlačenje ostaje visok na 100,000 Sats. Detaljnije ćemo ispitati korisnički interfejs jednog od ovih bazena u budućem članku.
+- Linecoin: Prednost Linecoina je broj funkcija koje nudi, kao što su detaljna kontrolna tabla, mogućnost povlačenja sa [Paynym](https://planb.academy/resources/glossary/paynym) (BIP 47) za bolju zaštitu privatnosti, i integracija Telegram bota kao i direktno konfigurisane automatizacije u mobilnoj aplikaciji. Ovaj pool kopa samo Bitcoin blokove, ali minimalni iznos za povlačenje ostaje visok na 100,000 Sats. Detaljnije ćemo ispitati korisnički interfejs jednog od ovih bazena u budućem članku.
 
 
 Da biste konfigurisali bazen u Braiins OS+, potrebno je da kreirate nalog u jednom od bazena po vašem izboru. Ovde ćemo uzeti primer Linecoin:
@@ -1132,7 +1132,7 @@ Da biste konfigurisali bazen u Braiins OS+, potrebno je da kreirate nalog u jedn
 Kada je vaš nalog kreiran, kliknite na Connect To Pool
 
 
-Zatim kopirajte Stratum adresu i vaše korisničko ime:
+Zatim kopirajte [Stratum](https://planb.academy/resources/glossary/stratum) adresu i vaše korisničko ime:
 
 
 ![image](assets/en/077.webp)

@@ -156,8 +156,6 @@ Para finalizar el curso, podrás realizar el examen final para obtener tu certif
 
 
 
-**N.B.:** Si durante el curso se encuentra con algún término que no le resulte familiar, consulte [el glosario](https://planb.academy/resources/glossary) para obtener las definiciones
-
 
 
 ## Resumen esencial de SCU101
@@ -1243,7 +1241,7 @@ Parrot OS también deriva de Debian. Ofrece un entorno para pentesting, segurida
 
 
 
-Tails es una distribución en vivo basada en Debian y centrada en la privacidad. Todo pasa a través de la red Tor, y nada se almacena entre sesiones de usuario. Es una distribución ideal para usos puntuales sensibles (periodismo, activismo, generación de seed Bitcoin...).
+Tails es una distribución en vivo basada en Debian y centrada en la privacidad. Todo pasa a través de la red [Tor](https://planb.academy/resources/glossary/tor), y nada se almacena entre sesiones de usuario. Es una distribución ideal para usos puntuales sensibles (periodismo, activismo, generación de seed Bitcoin...).
 
 
 
@@ -4036,7 +4034,7 @@ Un archivo puede estar intacto (sin modificar), pero haber sido publicado por un
 
 
 
-Esta verificación del origen es posible gracias a la firma digital, un mecanismo criptográfico que vincula el archivo a la clave privada del desarrollador. Al verificar esta firma utilizando la clave pública del desarrollador (distribuida a través de canales seguros), puedes estar seguro de que el archivo procede realmente de esa persona.
+Esta verificación del origen es posible gracias a la [firma digital](https://planb.academy/resources/glossary/digital-signature), un mecanismo criptográfico que vincula el archivo a la [clave privada](https://planb.academy/resources/glossary/private-key) del desarrollador. Al verificar esta firma utilizando la [clave pública](https://planb.academy/resources/glossary/public-key) del desarrollador (distribuida a través de canales seguros), puedes estar seguro de que el archivo procede realmente de esa persona.
 
 
 
@@ -4060,7 +4058,7 @@ La segunda herramienta es la firma digital. Esta verifica la autenticidad del so
 
 
 
-Este sistema se basa en la criptografía asimétrica y en herramientas como GnuPG (línea de comandos) o Kleopatra (Interface gráfico para Windows). Estas herramientas deben configurarse correctamente, y la clave pública del desarrollador debe verificarse a través de un canal seguro (sitio web oficial, huella digital en Twitter...). Veamos los aspectos prácticos.
+Este sistema se basa en la [criptografía](https://planb.academy/resources/glossary/cryptography) asimétrica y en herramientas como GnuPG (línea de comandos) o Kleopatra (Interface gráfico para Windows). Estas herramientas deben configurarse correctamente, y la clave pública del desarrollador debe verificarse a través de un canal seguro (sitio web oficial, huella digital en Twitter...). Veamos los aspectos prácticos.
 
 
 
@@ -8054,7 +8052,7 @@ La historia de Internet se remonta a finales de los años 60, en un contexto de 
 ![Image](assets/fr/191.webp)
 
 
-El objetivo era también diseñar una red resistente, capaz de seguir funcionando aunque se destruyera parte de sus nodos (una necesidad en plena guerra fría). ARPANET permitió las primeras comunicaciones entre ordenadores remotos en 1969.
+El objetivo era también diseñar una red resistente, capaz de seguir funcionando aunque se destruyera parte de sus [nodos](https://planb.academy/resources/glossary/node) (una necesidad en plena guerra fría). ARPANET permitió las primeras comunicaciones entre ordenadores remotos en 1969.
 
 
 ![Image](assets/fr/192.webp)

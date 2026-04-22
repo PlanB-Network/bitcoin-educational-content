@@ -17,6 +17,7 @@ Dieser zweitägige Intensivkurs, der von Jimmy Song geleitet wird, führt Sie ti
 
 Viel Spaß auf der Reise!
 
+Hinweis: Die Videos zu diesem Kurs sind nur auf Englisch verfügbar.
 
 +++
 
@@ -92,7 +93,7 @@ Wie bei jedem Kurs über Plan ₿ Academy enthält der letzte Abschnitt eine Bew
 ### Bitcoin Grundlagen der Programmierung: Mathematische Kernstrukturen
 
 
-Dieser Kurs fasst die grundlegende Mathematik hinter den kryptografischen Systemen von Bitcoin in einem äußerst praktischen Arbeitsablauf zusammen. Die Konzepte werden erklärt, anhand von Beispielen demonstriert und dann in Jupyter Notebook implementiert. Der Leitgedanke ist einfach: Man versteht ein kryptographisches Primitiv nur dann wirklich, wenn man es programmiert. Während des zweitägigen Kurses werden die Teilnehmer generate-Testnetzadressen erstellen, Transaktionen durchführen und übertragen und schließlich ohne Blockexplorer mit dem Netzwerk interagieren. All dies erfordert eine solide Grundlage in endlichen Feldern und elliptischen Kurven.
+Dieser Kurs fasst die grundlegende Mathematik hinter den kryptografischen Systemen von Bitcoin in einem äußerst praktischen Arbeitsablauf zusammen. Die Konzepte werden erklärt, anhand von Beispielen demonstriert und dann in Jupyter Notebook implementiert. Der Leitgedanke ist einfach: Man versteht ein kryptographisches Primitiv nur dann wirklich, wenn man es programmiert. Während des zweitägigen Kurses werden die Teilnehmer generate-Testnetzadressen erstellen, [Transaktionen](https://planb.academy/resources/glossary/transaction-tx) durchführen und übertragen und schließlich ohne Blockexplorer mit dem Netzwerk interagieren. All dies erfordert eine solide Grundlage in endlichen Feldern und elliptischen Kurven.
 
 
 ### Endliche Felder: Der arithmetische Motor der Kryptographie
@@ -103,7 +104,7 @@ Ein endliches Feld F(p) ist ein arithmetisches System, das durch eine Primzahl p
 
 #### Multiplikatives Verhalten
 
-Multipliziert man ein beliebiges Element k, das nicht Null ist, mit allen Elementen eines Primfeldes, so erhält man eine Permutation des Feldes. Diese Eigenschaft garantiert Einheitlichkeit und verhindert strukturelle Schwächen, wodurch sich Primzahlfelder ideal für die sichere Schlüsselerzeugung und digitale Signaturen eignen.
+Multipliziert man ein beliebiges Element k, das nicht Null ist, mit allen Elementen eines Primfeldes, so erhält man eine Permutation des Feldes. Diese Eigenschaft garantiert Einheitlichkeit und verhindert strukturelle Schwächen, wodurch sich Primzahlfelder ideal für die sichere Schlüsselerzeugung und [digitale Signaturen](https://planb.academy/resources/glossary/digital-signature) eignen.
 
 
 #### Division und der kleine Satz von Fermat
@@ -112,7 +113,7 @@ Die Division erfolgt über multiplikative Inverse. Der kleine Satz von Fermat be
 
 n^(p-1) ≡ 1 (mod p),
 
-also ist die Inverse n^(p-2). Python unterstützt dies direkt mit `pow(n, -1, p)`. Diese Operationen tauchen ständig in den ECDSA und Bitcoin zugrunde liegenden kryptographischen Routinen auf.
+also ist die Inverse n^(p-2). Python unterstützt dies direkt mit `pow(n, -1, p)`. Diese Operationen tauchen ständig in den [ECDSA](https://planb.academy/resources/glossary/ecdsa) und Bitcoin zugrunde liegenden kryptographischen Routinen auf.
 
 
 ### Elliptische Kurven: Nichtlineare Strukturen für Public-Key-Sicherheit
@@ -138,7 +139,7 @@ Endliche Felder bieten eine deterministische, invertierbare Arithmetik; elliptis
 ![lecture](https://www.youtube.com/watch?v=xOXdKuF3UFw)
 
 
-Dieses Kapitel führt in elliptische Kurven ein, die über endlichen Feldern definiert sind, und erklärt, warum sie das mathematische Rückgrat der Bitcoin-Kryptographie bilden. Während elliptische Kurven über reellen Zahlen glatt und kontinuierlich erscheinen, erzeugt die Anwendung der gleichen Gleichungen über einem endlichen Feld eine diskrete, verstreute Menge von Punkten. Trotz des visuellen Unterschieds verhalten sich alle Punktadditionsformeln, Steigungen und algebraischen Regeln genau gleich - nur die Arithmetik ändert sich zu modularer Arithmetik. Bitcoin verwendet die Kurve y² = x³ + 7 (secp256k1), die Symmetrie und nichtlineares Verhalten bewahrt, die für die kryptografische Sicherheit wichtig sind.
+Dieses Kapitel führt in elliptische Kurven ein, die über endlichen Feldern definiert sind, und erklärt, warum sie das mathematische Rückgrat der Bitcoin-[Kryptographie](https://planb.academy/resources/glossary/cryptography) bilden. Während elliptische Kurven über reellen Zahlen glatt und kontinuierlich erscheinen, erzeugt die Anwendung der gleichen Gleichungen über einem endlichen Feld eine diskrete, verstreute Menge von Punkten. Trotz des visuellen Unterschieds verhalten sich alle Punktadditionsformeln, Steigungen und algebraischen Regeln genau gleich - nur die Arithmetik ändert sich zu modularer Arithmetik. Bitcoin verwendet die Kurve y² = x³ + 7 (secp256k1), die Symmetrie und nichtlineares Verhalten bewahrt, die für die kryptografische Sicherheit wichtig sind.
 
 
 ### Überprüfung der Punkte und Implementierung des endlichen Feldes
@@ -155,7 +156,7 @@ Die Punkte der elliptischen Kurve bilden eine mathematische Gruppe, die sich add
 ### Zyklische Gruppen und das Problem des diskreten Logarithmus
 
 
-Die Wahl eines Generatorpunktes G auf einer Kurve ermöglicht es uns, eine zyklische Gruppe generate zu bilden: G, 2G, 3G, ..., nG = 0. Die Punkte erscheinen nichtlinear und unvorhersehbar, selbst wenn sie nacheinander erzeugt werden. Diese Unvorhersehbarkeit bildet die Grundlage für das Problem des diskreten Logarithmus: Die Berechnung von P = sG ist einfach, aber die Bestimmung von s aus P ist für große Gruppen rechnerisch undurchführbar. Diese Einwegfunktion macht die Kryptographie mit öffentlichen Schlüsseln sicher. Skalare (private Schlüssel) werden in Kleinbuchstaben geschrieben, Punkte (öffentliche Schlüssel) in Großbuchstaben.
+Die Wahl eines Generatorpunktes G auf einer Kurve ermöglicht es uns, eine zyklische Gruppe generate zu bilden: G, 2G, 3G, ..., nG = 0. Die Punkte erscheinen nichtlinear und unvorhersehbar, selbst wenn sie nacheinander erzeugt werden. Diese Unvorhersehbarkeit bildet die Grundlage für das Problem des diskreten Logarithmus: Die Berechnung von P = sG ist einfach, aber die Bestimmung von s aus P ist für große Gruppen rechnerisch undurchführbar. Diese Einwegfunktion macht die Kryptographie mit öffentlichen Schlüsseln sicher. Skalare ([private Schlüssel](https://planb.academy/resources/glossary/private-key)) werden in Kleinbuchstaben geschrieben, Punkte ([öffentliche Schlüssel](https://planb.academy/resources/glossary/public-key)) in Großbuchstaben.
 
 
 #### Effiziente Skalarmultiplikation
@@ -178,7 +179,7 @@ Ein privater Schlüssel ist ein zufälliger Skalar s; der öffentliche Schlüsse
 #### Bitcoin Address Erstellung
 
 
-Bitcoin-Adressen sind Hashes von öffentlichen Schlüsseln, nicht die Rohschlüssel selbst. Um eine generate-Adresse zu erhalten, wird der öffentliche Schlüssel im SEC-Format serialisiert, ein Hash160 (SHA-256 und dann RIPEMD-160) berechnet, das Netzwerkpräfix vorangestellt (0x00 für mainnet, 0x6F für testnet), eine Prüfsumme unter Verwendung des doppelten SHA-256 berechnet, die ersten vier Prüfsummenbytes angehängt und das Ergebnis mit Base58 kodiert. Bei dieser Kodierung werden mehrdeutige Zeichen entfernt und die Prüfsumme hinzugefügt, um Transkriptionsfehler zu vermeiden. Die mehrstufige Pipeline verbirgt den öffentlichen Schlüssel, bis eine Ausgabe erfolgt, fügt eine Netzwerkidentifikation hinzu und gewährleistet menschenlesbare, fehlerresistente Adressen.
+Bitcoin-Adressen sind Hashes von öffentlichen Schlüsseln, nicht die Rohschlüssel selbst. Um eine generate-Adresse zu erhalten, wird der öffentliche Schlüssel im SEC-Format serialisiert, ein Hash160 ([SHA-256](https://planb.academy/resources/glossary/sha256) und dann RIPEMD-160) berechnet, das Netzwerkpräfix vorangestellt (0x00 für mainnet, 0x6F für testnet), eine Prüfsumme unter Verwendung des doppelten SHA-256 berechnet, die ersten vier Prüfsummenbytes angehängt und das Ergebnis mit Base58 kodiert. Bei dieser Kodierung werden mehrdeutige Zeichen entfernt und die Prüfsumme hinzugefügt, um Transkriptionsfehler zu vermeiden. Die mehrstufige Pipeline verbirgt den öffentlichen Schlüssel, bis eine Ausgabe erfolgt, fügt eine Netzwerkidentifikation hinzu und gewährleistet menschenlesbare, fehlerresistente Adressen.
 
 
 # Bitcoin-Transaktion Innenleben
@@ -212,13 +213,13 @@ Bitcoin kodiert ECDSA-Signaturen unter Verwendung des DER-Formats:
 - 0x02 + Länge + S Bytes
 
 
-Dadurch entsteht ein zusätzlicher Overhead, der eine 64-Byte-Signatur auf ~71-72 Byte erweitert. Taproot beseitigt diese Ineffizienz durch die Einführung von Schnorr-Signaturen fester Größe.
+Dadurch entsteht ein zusätzlicher Overhead, der eine 64-Byte-Signatur auf ~71-72 Byte erweitert. [Taproot](https://planb.academy/resources/glossary/taproot) beseitigt diese Ineffizienz durch die Einführung von [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol)-Signaturen fester Größe.
 
 
 ### Unterschriftsverpflichtungen und der Unterschriftsprozess
 
 
-ECDSA-Signaturen beruhen auf einer Verpflichtungsgleichung: UG + VP = KG. Der Unterzeichner wählt von Null verschiedene U- und V-Werte und eine zufällige Nonce K, die die Kenntnis des privaten Schlüssels beweist, ohne ihn preiszugeben. Die Nachricht wird in Z gehasht, ein zufälliges K wird generiert, R ist die x-Koordinate von KG, und S = (Z + RE)/K. Die Signatur ist das Paar (R, S). Die Sicherheit hängt entscheidend von der Verwendung eines eindeutigen, unvorhersehbaren K ab - wird K wiederverwendet oder weitergegeben, ist der private Schlüssel gefährdet. Moderne Implementierungen verwenden eine deterministische K-Generierung (RFC 6979), um RNG-Ausfälle zu vermeiden.
+ECDSA-Signaturen beruhen auf einer Verpflichtungsgleichung: UG + VP = KG. Der Unterzeichner wählt von Null verschiedene U- und V-Werte und eine zufällige [Nonce](https://planb.academy/resources/glossary/nonce) K, die die Kenntnis des privaten Schlüssels beweist, ohne ihn preiszugeben. Die Nachricht wird in Z gehasht, ein zufälliges K wird generiert, R ist die x-Koordinate von KG, und S = (Z + RE)/K. Die Signatur ist das Paar (R, S). Die Sicherheit hängt entscheidend von der Verwendung eines eindeutigen, unvorhersehbaren K ab - wird K wiederverwendet oder weitergegeben, ist der private Schlüssel gefährdet. Moderne Implementierungen verwenden eine deterministische K-Generierung (RFC 6979), um RNG-Ausfälle zu vermeiden.
 
 
 #### Überprüfung der Unterschrift
@@ -245,12 +246,12 @@ Eine Bitcoin-Transaktion besteht aus:
 - sperrzeit (4 Bytes)
 
 
-Die Eingaben referenzieren frühere UTXOs durch ihren Transaktionshash und ihren Ausgabeindex und enthalten ein Entsperrungsskript (scriptSig) und eine Sequenznummer, die für Timelocks oder RBF verwendet wird. Die Ausgaben geben den Betrag (8 Byte) und das Sperrskript (scriptPubKey) an und definieren die Ausgabebedingungen. Bitcoin-Adressen sind Darstellungen dieser Skripte.
+Die Eingaben referenzieren frühere [UTXOs](https://planb.academy/resources/glossary/utxo) durch ihren Transaktionshash und ihren Ausgabeindex und enthalten ein Entsperrungsskript (scriptSig) und eine Sequenznummer, die für Timelocks oder RBF verwendet wird. Die Ausgaben geben den Betrag (8 Byte) und das Sperrskript (scriptPubKey) an und definieren die Ausgabebedingungen. Bitcoin-Adressen sind Darstellungen dieser [Skripte](https://planb.academy/resources/glossary/script).
 
 
 #### Das Modell UTXO
 
-Bitcoin verfolgt nicht ausgegebene Ausgaben und nicht Kontosalden. UTXOs müssen vollständig ausgegeben werden - eine teilweise Ausgabe ist nicht möglich. Um 1 BTC von einem 100 BTC UTXO auszugeben, muss eine Transaktion eine Wechselgeldausgabe enthalten. Wird die Wechselgeldausgabe vergessen, wird der Restbetrag zu einer Mining-Gebühr.
+Bitcoin verfolgt nicht ausgegebene Ausgaben und nicht Kontosalden. UTXOs müssen vollständig ausgegeben werden - eine teilweise Ausgabe ist nicht möglich. Um 1 BTC von einem 100 BTC UTXO auszugeben, muss eine Transaktion eine Wechselgeldausgabe enthalten. Wird die Wechselgeldausgabe vergessen, wird der Restbetrag zu einer [Mining](https://planb.academy/resources/glossary/mining)-Gebühr.
 
 
 #### Serialisierung und Parsing von Transaktionen
@@ -275,7 +276,7 @@ Die Gebühren sind implizit:
 
 gebühr = Summe(Eingabewerte) - Summe(Ausgabewerte).
 
-Jeder nicht zugewiesene Wert wird zur Gebühr, was eine korrekte Konstruktion der Änderungsausgabe unerlässlich macht. Vor SegWit erlaubten Signaturen eine Verfälschung - eine Änderung von S zu N-S führte zu einer neuen gültigen Transaktion mit einer anderen ID. Bitcoin erzwingt nun eine Low-S-Regel, und SegWit isoliert Signaturen von der txid-Berechnung, was IDs stabil macht und Protokolle der zweiten Schicht wie Lightning ermöglicht.
+Jeder nicht zugewiesene Wert wird zur Gebühr, was eine korrekte Konstruktion der Änderungsausgabe unerlässlich macht. Vor [SegWit](https://planb.academy/resources/glossary/segwit) erlaubten Signaturen eine Verfälschung - eine Änderung von S zu N-S führte zu einer neuen gültigen Transaktion mit einer anderen ID. Bitcoin erzwingt nun eine Low-S-Regel, und SegWit isoliert Signaturen von der txid-Berechnung, was IDs stabil macht und Protokolle der zweiten Schicht wie [Lightning](https://planb.academy/resources/glossary/lightning-network) ermöglicht.
 
 
 ## Bitcoin Skript- und Transaktionsvalidierung
@@ -292,7 +293,7 @@ Bitcoin Script ist eine kleine, stapelbasierte Smart-Contract-Sprache, die defin
 ### Skriptoperationen und Ausführungsmodell
 
 
-Ein Skript ist eine Folge von Datenelementen und Opcodes. Daten-Pushes (Signaturen, öffentliche Schlüssel, Hashes) werden auf dem Stack abgelegt, während Opcodes, die mit `OP_` beginnen, den Stack umwandeln. Nach der Ausführung muss das oberste Stackelement ungleich Null sein, um erfolgreich zu sein. Beispiele: `OP_DUP` dupliziert das oberste Element, `OP_HASH160` wendet SHA256 und dann RIPEMD160 an, und `OP_CHECKSIG` verifiziert eine Signatur gegen den Sighash der Transaktion und einen öffentlichen Schlüssel, wobei 1 für gültig, 0 für ungültig gesetzt wird. Die Parsing-Regeln unterscheiden zwischen Rohdaten (mit Längenpräfix) und Opcodes (nach Byte-Wert), und eine kleine virtuelle Maschine führt sie deterministisch auf jedem Knoten aus.
+Ein Skript ist eine Folge von Datenelementen und Opcodes. Daten-Pushes (Signaturen, öffentliche Schlüssel, Hashes) werden auf dem Stack abgelegt, während Opcodes, die mit `OP_` beginnen, den Stack umwandeln. Nach der Ausführung muss das oberste Stackelement ungleich Null sein, um erfolgreich zu sein. Beispiele: `OP_DUP` dupliziert das oberste Element, `OP_HASH160` wendet SHA256 und dann RIPEMD160 an, und `OP_CHECKSIG` verifiziert eine Signatur gegen den Sighash der Transaktion und einen öffentlichen Schlüssel, wobei 1 für gültig, 0 für ungültig gesetzt wird. Die Parsing-Regeln unterscheiden zwischen Rohdaten (mit Längenpräfix) und Opcodes (nach Byte-Wert), und eine kleine virtuelle Maschine führt sie deterministisch auf jedem [Knoten](https://planb.academy/resources/glossary/node) aus.
 
 
 ### P2PK und P2PKH: Grundlegende Zahlungsmustern
@@ -329,7 +330,7 @@ Da jede Eingabe in einer Legacy-Transaktion eine eigene Sighash-Berechnung über
 ### Skript-Rätsel und Sicherheitslektionen
 
 
-Ein Skript kann weit mehr ausdrücken als nur "eine Unterschrift schaltet diese Münzen frei" Script-Rätsel demonstrieren dies, indem sie beliebige Bedingungen kodieren - mathematische Probleme, Hash-Preimage-Herausforderungen oder sogar Kollisionsprämien - bei denen jeder, der die richtigen Daten liefert, die Münzen ausgeben kann. Ausgaben, die sich nur auf öffentliche Daten (keine Signaturen) stützen, sind jedoch anfällig für Miner-Frontrunning: Sobald eine gültige Lösung im Mempool auftaucht, kann jeder Miner sie kopieren und die Auszahlung an sich selbst umleiten.
+Ein Skript kann weit mehr ausdrücken als nur "eine Unterschrift schaltet diese Münzen frei" Script-Rätsel demonstrieren dies, indem sie beliebige Bedingungen kodieren - mathematische Probleme, Hash-Preimage-Herausforderungen oder sogar Kollisionsprämien - bei denen jeder, der die richtigen Daten liefert, die Münzen ausgeben kann. Ausgaben, die sich nur auf öffentliche Daten (keine Signaturen) stützen, sind jedoch anfällig für [Miner](https://planb.academy/resources/glossary/miner)-Frontrunning: Sobald eine gültige Lösung im [Mempool](https://planb.academy/resources/glossary/mempool) auftaucht, kann jeder Miner sie kopieren und die Auszahlung an sich selbst umleiten.
 
 
 Die praktische Lehre daraus ist, dass Verträge in der realen Welt fast immer Unterschriftenprüfungen enthalten, selbst wenn sie eine komplexere Logik wie Multisig, Timelocks oder Hashlocks enthalten. Unterschriften binden die Lösung an eine bestimmte Partei, wodurch Anreize erhalten bleiben und andere daran gehindert werden, die Auszahlung zu stehlen. Das Verständnis des Skript-Stack-Modells, der Standardmuster und der subtilen Fallstricke ist für die Entwicklung sicherer Bitcoin-Smart Contracts und für Überlegungen darüber, wie Transaktionen im Netzwerk tatsächlich validiert werden, unerlässlich.
@@ -402,13 +403,13 @@ P2SH verbessert die Privatsphäre, indem es die Ausgabenbedingungen bis zur erst
 ![lecture](https://www.youtube.com/watch?v=lJYSM1iLWQU)
 
 
-Bitcoin-Blöcke fassen Transaktionen zusammen und sichern sie mit proof of work. Jeder Block enthält einen 80-Byte-Header sowie eine Liste der Transaktionen. Trotz der hohen Energiekosten für die Erzeugung eines gültigen Blocks ist die Verifizierung eines Blocks billig: Für die Speicherung aller 900k Header werden nur 72 MB benötigt, so dass selbst kleine Geräte die proof of work der Kette effizient verifizieren können.
+Bitcoin-Blöcke fassen Transaktionen zusammen und sichern sie mit [proof of work](https://planb.academy/resources/glossary/proof-of-work). Jeder [Block](https://planb.academy/resources/glossary/block) enthält einen 80-Byte-[Header](https://planb.academy/resources/glossary/block-header) sowie eine Liste der Transaktionen. Trotz der hohen Energiekosten für die Erzeugung eines gültigen Blocks ist die Verifizierung eines Blocks billig: Für die Speicherung aller 900k Header werden nur 72 MB benötigt, so dass selbst kleine Geräte die proof of work der Kette effizient verifizieren können.
 
 
 ### Coinbase-Transaktionen und Block Rewards
 
 
-Jeder Block beginnt mit genau einer Coinbase-Transaktion - der einzigen Möglichkeit, neue Bitcoin in Umlauf zu bringen. Er hat einen nullten prev-tx-Hash und einen Index von 0xffffffff, der ihn eindeutig identifiziert. Die Subvention begann bei 50 BTC und halbiert sich alle 210.000 Blöcke (50, 25, 12,5, 6,25, 3,125, ...). Die Miner berechnen auch Transaktionsgebühren. Da die 4-Byte-Nonce für moderne ASICs zu klein ist, ändern die Miner die Daten in der Coinbase-Transaktion, um die Merkle-Wurzel zu ändern und zusätzlichen Suchraum zu schaffen. BIP34 erfordert die Einbettung der Blockhöhe in das Coinbase scriptSig, um sicherzustellen, dass jeder Coinbase txid einzigartig ist.
+Jeder Block beginnt mit genau einer [Coinbase-Transaktion](https://planb.academy/resources/glossary/coinbase-transaction) - der einzigen Möglichkeit, neue Bitcoin in Umlauf zu bringen. Er hat einen nullten prev-tx-Hash und einen Index von 0xffffffff, der ihn eindeutig identifiziert. Die Subvention begann bei 50 BTC und halbiert sich alle 210.000 Blöcke (50, 25, 12,5, 6,25, 3,125, ...). Die Miner berechnen auch Transaktionsgebühren. Da die 4-Byte-Nonce für moderne ASICs zu klein ist, ändern die Miner die Daten in der Coinbase-Transaktion, um die [Merkle](https://planb.academy/resources/glossary/merkle-tree)-Wurzel zu ändern und zusätzlichen Suchraum zu schaffen. [BIP34](https://planb.academy/resources/glossary/bip) erfordert die Einbettung der Blockhöhe in das Coinbase scriptSig, um sicherzustellen, dass jeder Coinbase txid einzigartig ist.
 
 
 ### Block-Kopffelder und Soft Fork-Signalisierung
@@ -425,7 +426,7 @@ Der 80-Byte-Header enthält:
 - nonce (4 Bytes)
 
 
-Die Versionsnummern haben sich über BIP9 zu einem Bitfeld-Signalsystem entwickelt, mit dem Bergleute die Soft-fork-Bereitschaft koordinieren können. Der Zeitstempel ist ein 32-Bit-Unix-Zeitwert und muss um das Jahr 2106 herum aktualisiert werden.
+Die Versionsnummern haben sich über BIP9 zu einem Bitfeld-Signalsystem entwickelt, mit dem Bergleute die [Soft-fork](https://planb.academy/resources/glossary/soft-fork)-Bereitschaft koordinieren können. Der Zeitstempel ist ein 32-Bit-Unix-Zeitwert und muss um das Jahr 2106 herum aktualisiert werden.
 
 
 #### Bits Feld und Ziele
@@ -436,7 +437,7 @@ Das Bit-Feld kodiert das Ziel in kompakter Form: Ziel = Koeffizient × 256^(Expo
 ### Schwierigkeit, Validierung und Anpassungen
 
 
-Der Schwierigkeitsgrad ist definiert als lowest_target / current_target und drückt aus, wie viel schwieriger mining heute im Vergleich zum einfachsten möglichen Schwierigkeitsgrad ist. Für die Validierung muss nur der Hash des Headers mit dem Ziel verglichen werden - extrem billig im Vergleich zu mining.
+Der [Schwierigkeitsgrad](https://planb.academy/resources/glossary/difficulty) ist definiert als lowest_target / current_target und drückt aus, wie viel schwieriger mining heute im Vergleich zum einfachsten möglichen Schwierigkeitsgrad ist. Für die Validierung muss nur der Hash des Headers mit dem Ziel verglichen werden - extrem billig im Vergleich zu mining.
 
 
 Alle 2016er-Blöcke passt Bitcoin die Schwierigkeit an, um ~10-Minuten-Blockintervalle zu erreichen. Bei der Anpassung wird die tatsächliche Zeit für die vorherigen 2016er Blöcke mit den erwarteten zwei Wochen verglichen. Die Grenzen beschränken die Anpassungen auf einen Faktor von vier. Große reale Ereignisse - wie das mining-Verbot in China - haben die Widerstandsfähigkeit dieses Mechanismus bewiesen, als die Hash-Rate stark einbrach und die Schwierigkeit nach unten angepasst wurde, um dies auszugleichen.
@@ -459,13 +460,13 @@ Die Subvention in Höhe h wird wie folgt berechnet: Subvention = 5_000_000_000 >
 ### Bitcoin Netzwerkarchitektur
 
 
-Das Peer-to-Peer-Netzwerk von Bitcoin funktioniert als dezentrales Klatschsystem, bei dem die Knoten Transaktionen und Blöcke weiterleiten, ohne sich gegenseitig zu vertrauen. Neue Knoten booten, indem sie sich an fest kodierte DNS-Seeds wenden, die von den Kernentwicklern gepflegt werden. Diese DNS-Seeds geben die IPs aktiver Peers zurück und ermöglichen es den Knoten, das Netzwerk zu entdecken und dann über getaddr weitere Peers anzufordern. Die Vernetzung ist absichtlich nicht konsenskritisch, so dass sich die Implementierungen unterscheiden können, solange die Konsensregeln unverändert bleiben.
+Das [Peer-to-Peer](https://planb.academy/resources/glossary/peertopeer-p2p)-Netzwerk von Bitcoin funktioniert als dezentrales Klatschsystem, bei dem die Knoten Transaktionen und Blöcke weiterleiten, ohne sich gegenseitig zu vertrauen. Neue Knoten booten, indem sie sich an fest kodierte DNS-Seeds wenden, die von den Kernentwicklern gepflegt werden. Diese DNS-Seeds geben die IPs aktiver Peers zurück und ermöglichen es den Knoten, das Netzwerk zu entdecken und dann über getaddr weitere Peers anzufordern. Die Vernetzung ist absichtlich nicht konsenskritisch, so dass sich die Implementierungen unterscheiden können, solange die [Konsensregeln](https://planb.academy/resources/glossary/consensus) unverändert bleiben.
 
 
 ### Nachrichtenstruktur und Handshake
 
 
-Alle Bitcoin-P2P-Nachrichten verwenden einen festen Umschlag: einen 4-Byte-Magic-Value (F9BEB4D9 für mainnet), einen 12-Byte-ASCII-Befehl, eine 4-Byte-Nutzdatenlänge im Little-Endian-Format, eine 4-Byte-Prüfsumme (die ersten 4 Bytes von hash256) und die Nutzdaten. Übliche Befehle sind version, verack, inv, getdata, tx, block, getheaders, headers, ping und pong.
+Alle Bitcoin-P2P-Nachrichten verwenden einen festen Umschlag: einen 4-Byte-Magic-Value (F9BEB4D9 für mainnet), einen 12-Byte-ASCII-Befehl, eine 4-Byte-Nutzdatenlänge im Little-Endian-Format, eine 4-Byte-Prüfsumme (die ersten 4 Bytes von [hash](https://planb.academy/resources/glossary/hash-function)256) und die Nutzdaten. Übliche Befehle sind version, verack, inv, getdata, tx, block, getheaders, headers, ping und pong.
 
 
 Der Handshake beginnt, wenn ein Verbindungsknoten eine Versionsnachricht sendet. Der Empfänger antwortet mit verack und seiner eigenen Version. Sobald beide Seiten diese beiden Nachrichten austauschen, ist die Verbindung aktiv und die Knoten können mit der Weitergabe von Beständen und Daten beginnen.
@@ -479,7 +480,7 @@ Bitcoin speichert in jedem Blockkopf eine einzelne 32-Byte-Merkle-Wurzel als Ver
 
 #### Merkle-Beweise und SPV
 
-Mit Merkle-Beweisen lässt sich überprüfen, ob eine Transaktion in einem Block enthalten ist, ohne dass der gesamte Block heruntergeladen werden muss. Der Beweis besteht aus Hashes von Geschwistern entlang des Pfades zur Wurzel. Leichtgewichtige SPV-Clients speichern nur Blockheader und fordern diese Beweise von vollständigen Knoten an. Da ein Merkle-Baum logarithmisch wächst, erfordert der Nachweis der Aufnahme in einen Block mit Tausenden von Transaktionen nur einige hundert Bytes.
+Mit Merkle-Beweisen lässt sich überprüfen, ob eine Transaktion in einem Block enthalten ist, ohne dass der gesamte Block heruntergeladen werden muss. Der Beweis besteht aus Hashes von Geschwistern entlang des Pfades zur Wurzel. Leichtgewichtige SPV-Clients speichern nur Blockheader und fordern diese Beweise von [vollständigen Knoten](https://planb.academy/resources/glossary/full-node) an. Da ein Merkle-Baum logarithmisch wächst, erfordert der Nachweis der Aufnahme in einen Block mit Tausenden von Transaktionen nur einige hundert Bytes.
 
 
 Taproot erweitert dieses Konzept, indem es die Ausgabenbedingungen an einen Merklized Script Tree (MAST) bindet und nur den ausgeführten Zweig zusammen mit einem Merkle-Beweis preisgibt. Dies verbessert sowohl die Effizienz als auch die Privatsphäre.
@@ -515,7 +516,7 @@ Diese Sitzung vereint fortgeschrittene P2P-Netzwerke mit Segregated Witness und 
 ### Blockbasierter Transaktionsabruf und Datenschutz
 
 
-Wallets müssen eingehende Zahlungen erkennen, indem sie Blöcke nach Ausgaben durchsuchen, die ihrem scriptPubKey entsprechen. Der Abruf ganzer Blöcke schützt die Privatsphäre besser als die Abfrage einzelner Transaktionen, die starke Signale über die Benutzeraktivität aussenden. Selbst Blockanfragen können bei Ketten mit geringem Volumen Informationen preisgeben, weshalb kompakte Blockfilter (BIP158) für datenschutzfreundliche Light Clients unerlässlich sind. Filter können falsch-positive, aber niemals falsch-negative Ergebnisse liefern, so dass Clients nur potenziell relevante Blöcke herunterladen können, ohne bestimmte Adressen preiszugeben.
+[Wallets](https://planb.academy/resources/glossary/wallet) müssen eingehende Zahlungen erkennen, indem sie Blöcke nach Ausgaben durchsuchen, die ihrem scriptPubKey entsprechen. Der Abruf ganzer Blöcke schützt die Privatsphäre besser als die Abfrage einzelner Transaktionen, die starke Signale über die Benutzeraktivität aussenden. Selbst Blockanfragen können bei Ketten mit geringem Volumen Informationen preisgeben, weshalb kompakte Blockfilter (BIP158) für datenschutzfreundliche Light Clients unerlässlich sind. Filter können falsch-positive, aber niemals falsch-negative Ergebnisse liefern, so dass Clients nur potenziell relevante Blöcke herunterladen können, ohne bestimmte Adressen preiszugeben.
 
 
 ### Trustless Netzwerk-Interaktion

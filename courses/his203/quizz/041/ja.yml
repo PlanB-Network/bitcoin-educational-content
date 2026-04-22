@@ -1,0 +1,10 @@
+question: Bitcoinの開発者で、Hashの有料アップグレードに猛反対したのは？
+answer: ルーク・ダッシュJr
+wrong_answers:
+  - アミール・ターキ
+  - Gregory Maxwell
+  - ギャビン・アンドレセン
+explanation: |
+ ルーク・ダッシュジュルは、OP_EVALの提案はよりエレガントで、はるかに優れていると感じた。P2SHは、スクリプト・システムを「単一の特別なモデル」に置き換えた。
+ 彼はまた、ギャビンがソフトウェアにデフォルトのレポートを含めたことを批判した。これに対してルークJrは、彼自身の操作コードであるOP_CHECKHASHVERIFYを開発した（BIP 17）。
+reviewed: true

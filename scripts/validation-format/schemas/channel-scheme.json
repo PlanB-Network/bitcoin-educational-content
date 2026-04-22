@@ -1,0 +1,103 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "channel-characteristics",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$",
+      "description": "UUID v4 identifier for the channel."
+    },
+    "name": {
+      "type": "string",
+      "description": "Complete name of the channel."
+    },
+    "language": {
+      "type": "string",
+      "description": "Main language of the channel using ISO 639-1 language code (e.g., en, es, zh-Hans)."
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "channel": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL of the channel's main page."
+        },
+        "trailer": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL of the pinned video or most viewed video on the channel."
+        }
+      },
+      "required": ["channel"],
+      "additionalProperties": false
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of the channel content. Multiline allowed."
+    },
+    "contributor_names": {
+      "type": "array",
+      "description": "List of contributor GitHub usernames who helped format, review, and translate the content.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "contributors": {
+      "type": "array",
+      "description": "List of contributor UUIDs (alternative to contributor_names for main repo).",
+      "items": {
+        "type": "string",
+        "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+      },
+      "minItems": 1
+    },
+    "tags": {
+      "type": "array",
+      "description": "List of associated tags from the predefined 52 PlanB Network tags.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "license": {
+      "type": "string",
+      "description": "License for the content.",
+      "enum": ["CC-BY-SA-V4", "MIT"]
+    },
+    "project_id": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$",
+      "description": "UUID v4 linking this channel to a PlanB Network project."
+    }
+  },
+  "assets_rules": {
+    "description": "Required image assets for channels.",
+    "files": [
+      {
+        "path": "assets/thumbnail.webp",
+        "required": true,
+        "format": "WebP",
+        "dimensions": {
+          "width": 1280,
+          "height": 720,
+          "aspect_ratio": "16:9"
+        },
+        "orientation": "horizontal",
+        "description": "Channel thumbnail image."
+      }
+    ]
+  },
+  "required": ["id", "name", "language", "links", "description", "tags"],
+  "oneOf": [
+    {
+      "required": ["contributor_names"]
+    },
+    {
+      "required": ["contributors"]
+    }
+  ],
+  "additionalProperties": false
+}

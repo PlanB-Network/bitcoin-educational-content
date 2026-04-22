@@ -1,0 +1,10 @@
+question: Amerikalı geliştirici Mike Caldwell tarafından Eylül 2011 ve Kasım 2013 tarihleri arasında üretilen fiziksel bitcoinlere ne ad verildi?
+answer: Casascius Coins
+wrong_answers:
+  - Bitbills
+  - Lealana Cents
+  - PrintCoins
+explanation: |
+ Casascius, Utah'ta yaşayan 33 yaşındaki bir geliştirici olan Mike Caldwell'in takma adıydı. Fiziksel bitcoinleri 1 BTC, 25 BTC ve diğer değerlerde geliyordu
+ yanı sıra 1,000 BTC'e kadar külçeler. Yıllar boyunca neredeyse 100.000 bitcoin depolayarak büyük bir başarı elde ettiler.
+reviewed: true

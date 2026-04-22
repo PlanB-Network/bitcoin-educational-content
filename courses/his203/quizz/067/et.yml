@@ -1,0 +1,10 @@
+question: Kui suur on ligikaudne osakaal ringluses olevatest bitcoinidest, mida Bitcoin Savings & Trust fondi hallatav raha moodustas oma kõrghetkel?
+answer: Umbes 5%
+wrong_answers:
+  - Ligikaudu 0,05
+  - Umbes 0,5
+  - Umbes 50%
+explanation: |
+ Tipphetkel 2012. aasta augustis haldas Trendon Shaversi (aka PirateAt40) fond üle 500 000 bitcoin'i, mis moodustas umbes 5% 9,7 miljoni bitcoin'i suurusest fondist
+ ringluses olevatest bitcoinidest! Bitcoin Savings & Trust varises vahetult pärast seda kokku, kuna usaldus haihtus.
+reviewed: true

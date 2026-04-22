@@ -1,0 +1,8 @@
+question: What was Juan de Mariana's position on the government's ability to organize civil society through coercive orders?
+answer: He considered this impossible due to the lack of government information, comparing the situation to a blind man trying to guide a seeing man
+wrong_answers:
+  - "He argued that government could effectively organize society through its privileged position of observing trade."
+  - "He advocated government organization limited only to those sectors where information was readily available to public authorities."
+  - "He argued that only the Church, guided by divine providence, could legitimately organize society through coercive orders."
+explanation: |
+  Juan de Mariana anticipated the Austrian critique of central planning by demonstrating the impossibility of government effectively organizing civil society. His metaphor of the blind man who wants to guide the one who sees perfectly illustrates the informational problem: public authorities lack the dispersed information needed to make rational economic decisions. This analysis directly prefigures Mises' argument on the impossibility of socialist economic calculation.

@@ -1,102 +1,141 @@
 ---
 name: Bacca
-description: Configuring a Ledger without Ledger Live software
+description: Cấu hình Ledger mà không cần phần mềm Ledger Live
 ---
 ![cover](assets/cover.webp)
 
-If you use a Ledger, you've probably found that you have to go through Ledger Live software, at least for the initial device configuration, to check its authenticity and install the Bitcoin application on it. However, after this configuration, many bitcoiners prefer to use specialized Bitcoin wallet management software such as Sparrow or Liana rather than Ledger Live. Although Ledger produces excellent hardware wallets that quickly include the latest Bitcoin features, their software is not necessarily adapted to the specific needs of bitcoiners. Indeed, Ledger Live includes many features designed for altcoins, while the options dedicated to Bitcoin wallet management are limited. But the problem with Sparrow and Liana (for the moment), is that they don't allow you to install the Bitcoin application on the Ledger.
 
-To bypass the need to use Ledger Live during the initial configuration of your Ledger, you can use the Bacca tool, (or "Ledger Installer"). This software allows you to install and update the Bitcoin application, verify the authenticity of your Ledger, and even later update the device's firmware. Bacca was created by Antoine Poinsot (Darosior), Bitcoin Core developer at Chaincode Labs, co-founder [of Revault and Liana](https://wizardsardine.com/), and Pythcoiner.
+Nếu bạn sử dụng Ledger, có lẽ bạn đã nhận thấy rằng bạn phải sử dụng phần mềm Ledger Live, ít nhất là để cấu hình thiết bị ban đầu, kiểm tra tính xác thực và cài đặt ứng dụng Bitcoin lên đó. Tuy nhiên, sau khi cấu hình này, nhiều người dùng Bitcoin thích sử dụng phần mềm quản lý Bitcoin/wallet chuyên dụng như Sparrow hoặc Liana hơn là Ledger Live. Mặc dù Ledger sản xuất các thiết bị phần cứng wallet tuyệt vời, nhanh chóng tích hợp các tính năng mới nhất của Bitcoin, nhưng phần mềm của họ không nhất thiết phù hợp với nhu cầu cụ thể của người dùng Bitcoin. Thực tế, Ledger Live bao gồm nhiều tính năng được thiết kế cho các loại tiền điện tử khác (altcoin), trong khi các tùy chọn dành riêng cho việc quản lý Bitcoin/wallet lại bị hạn chế. Nhưng vấn đề với Sparrow và Liana (hiện tại) là chúng không cho phép bạn cài đặt ứng dụng Bitcoin trên Ledger.
 
-In this tutorial, I'll show you how to use this tool, so you can do without Ledger Live software for good, and still enjoy Ledger devices. It works on all devices: Nano S Classic, Nano S Plus, Nano X, Flex and Stax.
+
+Để bỏ qua bước sử dụng Ledger Live trong quá trình cấu hình ban đầu của Ledger, bạn có thể sử dụng công cụ Bacca (hay còn gọi là "Ledger Installer"). Phần mềm này cho phép bạn cài đặt và cập nhật ứng dụng Bitcoin, xác minh tính xác thực của Ledger, và thậm chí cập nhật firmware của thiết bị sau này. Bacca được tạo ra bởi Antoine Poinsot (Darosior), nhà phát triển cốt lõi của Bitcoin tại Chaincode Labs, đồng sáng lập [của Revault và Liana](https://wizardsardine.com/), và là một người dùng Pythcoin.
+
+
+Trong hướng dẫn này, tôi sẽ chỉ cho bạn cách sử dụng công cụ này, để bạn có thể hoàn toàn không cần phần mềm Ledger Live nữa mà vẫn có thể tận hưởng các thiết bị Ledger. Công cụ này hoạt động trên tất cả các thiết bị: Nano S Classic, Nano S Plus, Nano X, Flex và Stax.
+
 
 ---
-*Please note that this tool is fairly new, and its developers specify that it is still **in the testing phase**. They recommend using it for test purposes only, and not for a device intended to host a real Bitcoin wallet, although it is possible to do so. In this regard, I recommend that you follow the recommendations of the developers of this tool, which are specified [on the README of their GitHub repository](https://github.com/darosior/ledger_installer).*
+*Xin lưu ý rằng công cụ này khá mới và các nhà phát triển của nó cho biết rằng nó vẫn đang **trong giai đoạn thử nghiệm**. Họ khuyến nghị chỉ sử dụng nó cho mục đích thử nghiệm và không dùng cho thiết bị dự định lưu trữ Bitcoin hoặc wallet thực tế, mặc dù việc đó là có thể. Vì vậy, tôi khuyên bạn nên làm theo các khuyến nghị của các nhà phát triển công cụ này, được nêu rõ [trong tệp README của kho lưu trữ GitHub của họ](https://github.com/darosior/ledger_installer).*
+
 
 ---
-## Prerequisites
-
-On your computer, you will need two tools to use Bacca:
+## Điều kiện tiên quyết
 
 
-- Git ;
+Trên máy tính của bạn, bạn sẽ cần hai công cụ để sử dụng Bacca:
+
+
+
+
+- Git;
 - Rust.
 
-If you've already installed them, you can skip this step.
+
+Nếu bạn đã cài đặt chúng rồi thì có thể bỏ qua bước này.
+
 
 **Linux:**
 
-On a Linux distribution, Git is generally preinstalled. To check whether Git is installed on your system, you can type the following command in the terminal :
+
+Trên các bản phân phối Linux, Git thường được cài đặt sẵn. Để kiểm tra xem Git đã được cài đặt trên hệ thống của bạn hay chưa, bạn có thể nhập lệnh sau vào terminal:
+
 
 ```bash
 git --version
 ```
 
-If you don't have Git installed on your system, here's the command to install it on a Debian :
+
+Nếu bạn chưa cài đặt Git trên hệ thống của mình, đây là lệnh để cài đặt nó trên Debian:
+
 
 ```bash
 sudo apt install git
 ```
 
-Finally, to install your Rust development environment, use the command :
+
+Cuối cùng, để cài đặt môi trường phát triển Rust, hãy sử dụng lệnh sau:
+
 
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
+
 **Windows:**
 
-To install Git, go to [the project's official website](https://git-scm.com/). Download the software and follow the installation instructions.
+
+Để cài đặt Git, hãy truy cập [trang web chính thức của dự án](https://git-scm.com/). Tải xuống phần mềm và làm theo hướng dẫn cài đặt.
+
 
 ![BACCA](assets/fr/01.webp)
 
-Proceed in the same way to install Rust from [the official website](https://www.rust-lang.org/tools/install).
+
+Hãy tiến hành theo cách tương tự để cài đặt Rust từ [trang web chính thức](https://www.rust-lang.org/tools/install).
+
 
 ![BACCA](assets/fr/02.webp)
 
+
 **MacOS:**
 
-If Git is not already installed on your system, open a terminal and run the following command to install it:
+
+Nếu Git chưa được cài đặt trên hệ thống của bạn, hãy mở cửa sổ dòng lệnh và chạy lệnh sau để cài đặt:
+
 
 ```bash
 git --version
 ```
 
-If Git is not installed on your system, a window will open offering you to install Xcode, which includes Git. Simply follow the on-screen instructions to proceed with the installation.
 
-To install Rust, run the following command:
+Nếu Git chưa được cài đặt trên hệ thống của bạn, một cửa sổ sẽ hiện ra đề nghị bạn cài đặt Xcode, trong đó có Git. Chỉ cần làm theo hướng dẫn trên màn hình để tiếp tục cài đặt.
+
+
+Để cài đặt Rust, hãy chạy lệnh sau:
+
 
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
-## Bacca installation
 
-Open a terminal and go to the folder where you want to save the software, then run the following command:
+## Lắp đặt Bacca
+
+
+Mở cửa sổ dòng lệnh (terminal) và chuyển đến thư mục bạn muốn lưu phần mềm, sau đó chạy lệnh sau:
+
 
 ```bash
 git clone https://github.com/darosior/ledger_installer.git
 ```
 
-Navigate to the software directory:
+
+Truy cập vào thư mục phần mềm:
+
 
 ```bash
 cd ledger_installer
 ```
 
-Then use Cargo to compile the project and run the Bacca GUI:
+
+Sau đó sử dụng Cargo để biên dịch dự án và chạy giao diện người dùng đồ họa Bacca:
+
 
 ```bash
 cargo run -p ledger_manager_gui
 ```
 
-You now have access to the software interface.
+
+Giờ đây bạn đã có quyền truy cập vào giao diện phần mềm.
+
 
 ![BACCA](assets/fr/03.webp)
 
-## Configuring the Ledger
 
-Before you start, if your Ledger is new, make sure you have set up the PIN code and saved the recovery phrase. You don't need Ledger Live for these initial steps. Simply connect your Ledger via the USB cable to power it. If you're not sure how to proceed with these two steps, you can refer to the beginning of the tutorial specific to your model:
+## Cấu hình Ledger
+
+
+Trước khi bắt đầu, nếu Ledger của bạn là thiết bị mới, hãy đảm bảo bạn đã thiết lập mã PIN và lưu cụm từ khôi phục. Bạn không cần Ledger Live cho các bước ban đầu này. Chỉ cần kết nối Ledger của bạn qua cáp USB để cấp nguồn. Nếu bạn không chắc chắn cách thực hiện hai bước này, bạn có thể tham khảo phần đầu của hướng dẫn dành riêng cho kiểu máy của mình:
+
 
 
 
@@ -104,41 +143,58 @@ https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e
 
 https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-## Using Bacca
+## Sử dụng Bacca
 
-Connect your Ledger to your computer and unlock it using the PIN code you have set. Bacca should automatically detect your Ledger.
+
+Kết nối Ledger với máy tính của bạn và mở khóa bằng mã PIN bạn đã thiết lập. Bacca sẽ tự động nhận diện Ledger.
+
 
 ![BACCA](assets/fr/04.webp)
 
-To confirm the authenticity of your Ledger, click on the "*Check*" button. You will need to authorize the connection on your Ledger device to continue.
+
+Để xác nhận tính xác thực của thiết bị Ledger, hãy nhấp vào nút "*Kiểm tra*". Bạn cần cấp quyền kết nối trên thiết bị Ledger để tiếp tục.
+
 
 ![BACCA](assets/fr/05.webp)
 
-Bacca will then inform you if your Ledger is genuine. If it isn't, this indicates either that the device has been compromised, or that it's a counterfeit. In this case, stop using it immediately.
+
+Bacca sẽ thông báo cho bạn biết Ledger của bạn có phải là hàng chính hãng hay không. Nếu không phải, điều này cho thấy thiết bị đã bị xâm nhập hoặc là hàng giả. Trong trường hợp này, hãy ngừng sử dụng ngay lập tức.
+
 
 ![BACCA](assets/fr/06.webp)
 
-In the "*Apps*" menu, you can consult the list of applications already installed on your Ledger.
+
+Trong menu "*Ứng dụng*", bạn có thể xem danh sách các ứng dụng đã được cài đặt trên Ledger của mình.
+
 
 ![BACCA](assets/fr/07.webp)
 
-To install the Bitcoin application, click on "*Install*", then authorize installation on your Ledger.
+
+Để cài đặt ứng dụng Bitcoin, hãy nhấp vào "*Cài đặt*", sau đó cho phép cài đặt trên Ledger của bạn.
+
 
 ![BACCA](assets/fr/08.webp)
 
-The application is well installed.
+
+Ứng dụng đã được cài đặt thành công.
+
 
 ![BACCA](assets/fr/09.webp)
 
-If you don't have the latest version of the Bitcoin application installed, Bacca will display an "*Update*" button instead of the "*Latest*" indication. Simply click on this button to update the application.
+
+Nếu bạn chưa cài đặt phiên bản mới nhất của ứng dụng Bitcoin, Bacca sẽ hiển thị nút "*Cập nhật*" thay vì chỉ báo "*Mới nhất*". Chỉ cần nhấp vào nút này để cập nhật ứng dụng.
+
 
 ![BACCA](assets/fr/10.webp)
 
-Now that your Ledger is correctly configured with the latest version of the Bitcoin application, you're ready to import and use your wallet on management software such as Sparrow or Liana, without having to go through Ledger Live!
 
-If you found this tutorial useful, I'd be grateful if you'd leave a green thumb below. Feel free to share this article on your social networks. Thank you very much!
+Giờ đây, khi Ledger của bạn đã được cấu hình chính xác với phiên bản ứng dụng Bitcoin mới nhất, bạn đã sẵn sàng nhập và sử dụng wallet trên các phần mềm quản lý như Sparrow hoặc Liana mà không cần phải thông qua Ledger Live!
 
-I also recommend you take a look at this tutorial on GnuPG, which explains how to check the integrity and authenticity of your software before installing it. This is an important practice, especially when installing portfolio management software such as Liana or Sparrow :
+
+Nếu bạn thấy hướng dẫn này hữu ích, tôi rất biết ơn nếu bạn để lại một biểu tượng ngón tay cái màu xanh lá cây bên dưới. Hãy thoải mái chia sẻ bài viết này trên mạng xã hội của bạn. Cảm ơn rất nhiều!
+
+
+Tôi cũng khuyên bạn nên xem hướng dẫn này về GnuPG, hướng dẫn này giải thích cách kiểm tra tính toàn vẹn và tính xác thực của phần mềm trước khi cài đặt. Đây là một thao tác quan trọng, đặc biệt khi cài đặt phần mềm quản lý wallet như Liana hoặc Sparrow:
+
 
 https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
-

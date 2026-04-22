@@ -1,0 +1,11 @@
+question: ¿Qué función añadida por el servicio de cambio de divisas BitInstant en diciembre de 2011 fue explotada por Robert Faiella, alias BTCKing, para su negocio de reventa en la web oscura?
+answer: Depósito en efectivo
+wrong_answers:
+  - Compras gratuitas
+  - Transferencias instantáneas
+  - Cumplimiento de la normativa
+explanation: |
+ BitInstant añadió este método de pago a su oferta el 21 de diciembre de 2011. Los ciudadanos estadounidenses podían depositar efectivo en determinados lugares y ser
+ acreditado casi instantáneamente en dólares en la plataforma de intercambio de su elección. Robert Faiella, alias BTCKing, aprovechó la relativa confidencialidad de
+ este método para explotar un negocio de reventa en Silk Road, a cambio de una comisión más elevada.
+reviewed: true

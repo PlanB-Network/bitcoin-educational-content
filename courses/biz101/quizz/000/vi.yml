@@ -1,9 +1,9 @@
-question: Hệ thống thanh toán được xây dựng dựa trên hệ thống tiền tệ truyền thống là gì?
-answer: Về cơ bản được thanh toán bởi các thương gia thông qua phí của bộ xử lý thanh toán
+question: Các hệ thống thanh toán được xây dựng dựa trên cơ chế tiền tệ truyền thống như thế nào?
+answer: Về cơ bản là các thương gia thanh toán thông qua bộ xử lý thanh toán với các mức phí tương ứng
 wrong_answers:
   - Về cơ bản là miễn phí vì khách hàng trả mức giá do người bán hiển thị
-  - Được khách hàng thanh toán ngoài giá mà người bán yêu cầu
-  - Được thanh toán bởi các công ty thẻ bán lại dữ liệu của khách hàng
+  - Được khách hàng trả thêm ngoài giá mà người bán yêu cầu
+  - Được thanh toán bởi các công ty thẻ sau khi bán lại dữ liệu của khách hàng
 explanation: |
-  Không có gì là miễn phí. Các đường thanh toán được xây dựng trong hệ thống tiền tệ truyền thống được vận hành bởi nhiều nhà cung cấp khác nhau, chẳng hạn như các công ty thẻ và ngân hàng thu mua, với mức phí cố định và/hoặc phí phần trăm cho mỗi giao dịch.
+  Không có gì là miễn phí. Các kênh thanh toán được xây dựng trong hệ thống tiền tệ truyền thống được vận hành bởi nhiều nhà cung cấp khác nhau, chẳng hạn như các công ty thẻ và ngân hàng trung gian, với mức phí cố định và/hoặc theo phần trăm cho mỗi giao dịch.
 reviewed: true

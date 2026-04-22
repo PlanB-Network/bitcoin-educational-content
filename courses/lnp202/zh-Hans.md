@@ -92,7 +92,7 @@ https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-
 
 
 
-在启动自己的节点之前，本章将简要回顾 Lightning Network 背后的基本理论。了解其中的机制确实很重要，因为这将使您能够识别风险并采用良好的实践来限制风险。但我不会在此详述，因为这不是本课程的主要目的。如果您想深入了解该主题，我强烈建议您参考 Fanis Michalakis 的 LNP 201 课程，它是该领域的参考资料：
+在启动自己的节点之前，本章将简要回顾 [Lightning Network](https://planb.academy/resources/glossary/lightning-network) 背后的基本理论。了解其中的机制确实很重要，因为这将使您能够识别风险并采用良好的实践来限制风险。但我不会在此详述，因为这不是本课程的主要目的。如果您想深入了解该主题，我强烈建议您参考 Fanis Michalakis 的 LNP 201 课程，它是该领域的参考资料：
 
 
 
@@ -102,20 +102,20 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-让我们回到基础知识：在定义什么是节点之前，我们需要了解什么是 Lightning Network。它是建立在 Bitcoin 基础上的顶层协议，旨在实现 BTC 的离链交易，这种交易速度快（近乎即时完成），而且成本低廉。"离链 "意味着在闪电上进行的交易不会出现在主 Bitcoin 区块链上。闪电 "也是对 Bitcoin 使用量增加和链上拥堵的部分回应，链上拥堵引发了对系统可扩展性的担忧。
+让我们回到基础知识：在定义什么是节点之前，我们需要了解什么是 Lightning Network。它是建立在 Bitcoin 基础上的顶层协议，旨在实现 BTC 的[离链](https://planb.academy/resources/glossary/offchain)交易，这种交易速度快（近乎即时完成），而且成本低廉。"离链 "意味着在闪电上进行的交易不会出现在主 Bitcoin [区块链](https://planb.academy/resources/glossary/blockchain)上。闪电 "也是对 Bitcoin 使用量增加和[链上](https://planb.academy/resources/glossary/onchain)拥堵的部分回应，链上拥堵引发了对系统[可扩展性](https://planb.academy/resources/glossary/scalability)的担忧。
 
 
 
-为了运行，"闪电 "依靠在参与者之间开通支付通道，在这些通道内，交易几乎可以瞬间完成，通常只需支付极少的费用，而无需在 Bitcoin 区块链上逐一注册。这些通道可以保持开放很长时间，只有在打开和关闭时才需要进行链上交易。
+为了运行，"闪电 "依靠在参与者之间开通[支付通道](https://planb.academy/resources/glossary/payment-channel)，在这些通道内，交易几乎可以瞬间完成，通常只需支付极少的费用，而无需在 Bitcoin 区块链上逐一注册。这些通道可以保持开放很长时间，只有在打开和关闭时才需要进行链上交易。
 
 
 
-闪电节点是闪电网络的参与者，负责与其他节点打开通道并进行支付。具体而言，"闪电 "节点是在计算机上运行的、执行Lightning Network协议的软件。例如 LND、Core Lightning 或 Eclair。该软件的主要作用是
+[闪电节点](https://planb.academy/resources/glossary/lightning-node)是闪电网络的参与者，负责与其他节点打开通道并进行支付。具体而言，"闪电 "节点是在计算机上运行的、执行Lightning Network协议的软件。例如 LND、Core Lightning 或 Eclair。该软件的主要作用是
 
 
 
 
-- 连接到 Bitcoin 节点，从主区块链中获取信息；
+- 连接到 [Bitcoin 节点](https://planb.academy/resources/glossary/full-node)，从主区块链中获取信息；
 - 创建并管理与其他节点的双向支付渠道；
 - 与整个 Lightning 网络交换信息。
 
@@ -129,7 +129,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-在 Bitcoin（链上）上，"*wallet*"指的是管理私钥、根据 UTXO 计算余额和建立交易的软件。这个 wallet 可能基于你自己的 Bitcoin 节点，也可能基于别人的节点，但如今，节点和链上 wallet 的作用已泾渭分明。
+在 Bitcoin（链上）上，"*[wallet](https://planb.academy/resources/glossary/wallet)*"指的是管理[私钥](https://planb.academy/resources/glossary/private-key)、根据 [UTXO](https://planb.academy/resources/glossary/utxo) 计算余额和建立交易的软件。这个 wallet 可能基于你自己的 Bitcoin 节点，也可能基于别人的节点，但如今，节点和链上 wallet 的作用已泾渭分明。
 
 
 
@@ -141,7 +141,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-- 使用托管服务：您使用的应用程序在 Lightning 上显示 sats 的余额，但在后台，资金在提供商的节点（如 Wallet of Satoshi）上。您既没有密钥，也没有渠道控制权。你的余额只是公司数据库中的一个会计分录。这相当于把你的比特币留在交易所平台上，并承担所有相关风险。在这种情况下，你的 "*闪电 wallet*"只是一个由运营商管理的账户，而运营商则运行着一个真正的闪电节点。
+- 使用托管服务：您使用的应用程序在 Lightning 上显示 [sats](https://planb.academy/resources/glossary/satoshi-sat) 的余额，但在后台，资金在提供商的节点（如 Wallet of Satoshi）上。您既没有密钥，也没有渠道控制权。你的余额只是公司数据库中的一个会计分录。这相当于把你的比特币留在交易所平台上，并承担所有相关风险。在这种情况下，你的 "*闪电 wallet*"只是一个由运营商管理的账户，而运营商则运行着一个真正的闪电节点。
 
 
 
@@ -161,7 +161,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-闪电网络的核心是双向支付通道。通道可以打开（即创建），随着闪电交易的发生而更新，最后关闭。从链上的角度来看，通道只不过是一个 2/2 多重签名输出。
+闪电网络的核心是双向支付通道。通道可以打开（即创建），随着闪电交易的发生而更新，最后关闭。从链上的角度来看，通道只不过是一个 2/2 [多重签名](https://planb.academy/resources/glossary/multisig)[输出](https://planb.academy/resources/glossary/output)。
 
 
 
@@ -169,7 +169,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-从 "闪电 "的角度来看，这是一个由两个参与者瓜分流动资金的支付渠道。
+从 "闪电 "的角度来看，这是一个由两个参与者瓜分[流动资金](https://planb.academy/resources/glossary/liquidity-lightning)的支付渠道。
 
 
 
@@ -183,7 +183,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-两个节点决定打开一个通道。其中一个节点将比特币投入一个名为 *funding transaction* 的链上交易。该交易基于 2 对 2 多签名脚本创建输出，这意味着在 Bitcoin 上花费这些资金需要通道中两个节点的签名。在发布该交易之前，提供资金的一方会要求另一方签署一个*提款交易*，该交易不在链上发布，但可以在出现问题时收回资金。
+两个节点决定打开一个通道。其中一个节点将比特币投入一个名为 *funding transaction* 的链上交易。该交易基于 2 对 2 多[签名](https://planb.academy/resources/glossary/digital-signature)[脚本](https://planb.academy/resources/glossary/script)创建输出，这意味着在 Bitcoin 上花费这些资金需要通道中两个节点的签名。在发布该交易之前，提供资金的一方会要求另一方签署一个*提款交易*，该交易不在链上发布，但可以在出现问题时收回资金。
 
 
 
@@ -197,7 +197,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-通道的状态（即 A 和 B 之间 sats 的分配）由 *commitment transaction* 表示，两个节点都知道，但不会立即在区块链上广播。该交易描述了如何根据 Lightning 上的支付在链上重新分配通道资金。
+通道的状态（即 A 和 B 之间 sats 的分配）由 *[commitment transaction](https://planb.academy/resources/glossary/commitment-transaction)* 表示，两个节点都知道，但不会立即在区块链上广播。该交易描述了如何根据 Lightning 上的支付在链上重新分配通道资金。
 
 
 
@@ -237,7 +237,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 - Liquidity*：通道一侧可用的 sats 数量；
-- 容量*：它是 2/2 多重配对输出中锁定的总量，即通道两侧流动性的总和。
+- [容量](https://planb.academy/resources/glossary/lightning-channel-capacity)*：它是 2/2 多重配对输出中锁定的总量，即通道两侧流动性的总和。
 
 
 
@@ -249,7 +249,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-通过流言协议，每个节点都知道这个网络的地图：存在哪些信道，哪些节点通过双向信道连接，以及哪些容量已发布。要向没有直接信道的收款人发送付款，你的节点会计算一条由若干跳组成的路径：你的节点 → X 节点 → Y 节点 → 收款人节点。在每一跳，付款都要经过一个通道，该通道在付款方向必须有足够的流动性。
+通过[流言协议](https://planb.academy/resources/glossary/gossip)，每个节点都知道这个网络的地图：存在哪些信道，哪些节点通过双向信道连接，以及哪些容量已发布。要向没有直接信道的收款人发送付款，你的节点会计算一条由若干跳组成的路径：你的节点 → X 节点 → Y 节点 → 收款人节点。在每一跳，付款都要经过一个通道，该通道在付款方向必须有足够的流动性。
 
 
 
@@ -265,7 +265,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-为了使支付能够在无需信任的情况下通过中间节点，闪电公司使用了名为*HTLC*（*Hashed Time-Locked Contracts*）的智能合约。简单地说，HTLC 以泄露秘密作为资金转移的条件，并加入了时间限制，以便在交易失败时保护发送方。因此，每笔付款都需要提交一个预图像（其哈希值与约定值相对应的秘密）。如果最终收款人提供了这个预图像，他或她就可以要求获得资金，这反过来又使每个中间节点能够收回自己的资金。
+为了使支付能够在无需信任的情况下通过中间节点，闪电公司使用了名为*[HTLC](https://planb.academy/resources/glossary/htlc)*（*Hashed Time-Locked Contracts*）的[智能合约](https://planb.academy/resources/glossary/smart-contract)。简单地说，HTLC 以泄露秘密作为资金转移的条件，并加入了时间限制，以便在交易失败时保护发送方。因此，每笔付款都需要提交一个预图像（其[哈希值](https://planb.academy/resources/glossary/hash-function)与约定值相对应的秘密）。如果最终收款人提供了这个预图像，他或她就可以要求获得资金，这反过来又使每个中间节点能够收回自己的资金。
 
 
 
@@ -281,7 +281,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-与 Bitcoin 一样，"闪电 "协议也有多种实现方式。许多独立团队都在开发自己的版本，由于它们遵循相同的规范（BOLT），因此都具有互操作性。以下是目前使用的主要实现方式。
+与 Bitcoin 一样，"闪电 "协议也有多种实现方式。许多独立团队都在开发自己的版本，由于它们遵循相同的规范（[BOLT](https://planb.academy/resources/glossary/bolt)），因此都具有互操作性。以下是目前使用的主要实现方式。
 
 
 
@@ -399,7 +399,7 @@ Bitcoin 的两大价值主张是货币主权（不再依赖中央机构发行和
 
 
 
-第一种解决方案是不直接使用Lightning，而是使用嵌入原子交换的Bitcoin或Liquid wallet。例如，Aqua 或 Bull Bitcoin Wallet 应用程序就使用了这种方法，使您无需亲自操作 Lightning 节点即可支付 Lightning 发票，同时保持自我监管。
+第一种解决方案是不直接使用Lightning，而是使用嵌入[原子交换](https://planb.academy/resources/glossary/atomic-swap)的Bitcoin或[Liquid](https://planb.academy/resources/glossary/liquid-network) wallet。例如，Aqua 或 Bull Bitcoin Wallet 应用程序就使用了这种方法，使您无需亲自操作 Lightning 节点即可支付 [Lightning 发票](https://planb.academy/resources/glossary/invoice-lightning)，同时保持自我监管。
 
 
 
@@ -411,7 +411,7 @@ Bitcoin 的两大价值主张是货币主权（不再依赖中央机构发行和
 
 
 
-与传统的 "闪电 "托管 wallet 相比，这种方法的主要优势在于，您始终对您的资金拥有 100% 的所有权。比特币在你的链上或 Liquid wallet，有你自己的记忆词组。即使在交换过程中，您仍然拥有您的资金，因为交换是原子式的。它依靠一种加密机制，确保只有两种可能的结果：要么交换完全成功，要么交换失败，服务无法占用你的资金。
+与传统的 "闪电 "托管 wallet 相比，这种方法的主要优势在于，您始终对您的资金拥有 100% 的所有权。比特币在你的链上或 Liquid wallet，有你自己的[记忆词组](https://planb.academy/resources/glossary/seed)。即使在交换过程中，您仍然拥有您的资金，因为交换是原子式的。它依靠一种加密机制，确保只有两种可能的结果：要么交换完全成功，要么交换失败，服务无法占用你的资金。
 
 
 
@@ -423,7 +423,7 @@ Bitcoin 的两大价值主张是货币主权（不再依赖中央机构发行和
 
 
 
-另一方面，这种方法也有其局限性。首先，它不是不可替代的：你依赖于交换服务的可用性和善意。如果它不再愿意处理你的账户，或者停止运营，你就不能再通过它支付闪电发票。此外还有不小的费用：您既要支付链上交易费或 Liquid 交易费，还要支付交换服务佣金。此外，如果链上费用急剧上涨，使用 Lightning 的费用也会变得非常昂贵。
+另一方面，这种方法也有其局限性。首先，它不是不可替代的：你依赖于交换服务的可用性和善意。如果它不再愿意处理你的账户，或者停止运营，你就不能再通过它支付闪电发票。此外还有不小的费用：您既要支付链上[交易费](https://planb.academy/resources/glossary/transaction-fees)或 Liquid 交易费，还要支付交换服务佣金。此外，如果链上费用急剧上涨，使用 Lightning 的费用也会变得非常昂贵。
 
 
 
@@ -479,7 +479,7 @@ LN 机载节点具有众多优势：
 
 
 
-我所说的 "传统 "是指您在自己的 Bitcoin 节点上自行安装和配置 Lightning 实现（如 LND）。您可以选择您的对等方，打开您的通道，管理您的入站和出站流动性，并设置您的路由收费政策。
+我所说的 "传统 "是指您在自己的 Bitcoin 节点上自行安装和配置 Lightning 实现（如 LND）。您可以选择您的对等方，打开您的通道，管理您的[入站和出站流动性](https://planb.academy/resources/glossary/inbound-capacity)，并设置您的路由收费政策。
 
 
 
@@ -616,7 +616,7 @@ https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-在中间，你会看到你的闪电 wallet。它实际上代表的是您的流出现金，即您在闪电通道中拥有的比特币。
+在中间，你会看到你的闪电 wallet。它实际上代表的是您的[流出现金](https://planb.academy/resources/glossary/outbound-capacity)，即您在闪电通道中拥有的比特币。
 
 
 

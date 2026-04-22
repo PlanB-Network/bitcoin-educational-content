@@ -1,4 +1,4 @@
-question: Koje aplikacije za samostalno hostovanje mogu biti instalirane putem Umbrel-a?
+question: Koja aplikacija za samostalno hostovanje (eng. self-hosting) može biti instalirana putem Umbrel-a?
 answer: Nextcloud
 wrong_answers:
   - Google Drive

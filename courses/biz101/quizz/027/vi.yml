@@ -1,9 +1,9 @@
-question: Một đề xuất thực hành liên quan đến quyền nuôi con khi mua Bitcoin là gì?
-answer: Hãy cân nhắc các giải pháp tự lưu giữ sau khi mua ban đầu để doanh nghiệp thực sự kiểm soát được tài sản của mình.
+question: Một đề xuất thực tế cho doanh nghiệp liên quan đến quyền tự quản tài sản khi mua Bitcoin là gì?
+answer: Doanh nghiệp nên cân nhắc các giải pháp tự lưu giữ sau khi mua ban đầu để thực sự kiểm soát được tài sản của mình.
 wrong_answers:
   - Không bao giờ rút Bitcoin khỏi sàn giao dịch dưới bất kỳ trường hợp nào.
-  - Luôn tin tưởng một người giám hộ duy nhất mà không cần xem xét các biện pháp bảo mật.
-  - Lưu trữ tất cả Bitcoin trên một trang web công cộng với mật khẩu đơn giản
+  - Luôn tin tưởng một bên giám hộ tài sản duy nhất nên không cần xem xét các biện pháp bảo mật phòng ngừa.
+  - Lưu trữ tất cả Bitcoin trên một trang web công cộng với một mật khẩu đơn giản dễ nhớ
 explanation: |
-  Sau khi mua Bitcoin, việc chuyển nó sang wallet tự quản lý đảm bảo doanh nghiệp có quyền kiểm soát trực tiếp đối với nguồn vốn của mình. Mặc dù việc sử dụng bên thứ ba để quản lý có thể thuận tiện, nhưng việc tự quản lý vẫn phù hợp với nguyên tắc chủ quyền tài chính của Bitcoin.
+  Sau khi mua Bitcoin, doanh nghiệp nên cân nhắc quyền kiểm soát trực tiếp đối với nguồn vốn của mình bằng việc chuyển nó sang ví tự quản lý. Mặc dù việc sử dụng bên thứ ba để quản lý có thể thuận tiện, nhưng việc tự quản lý vẫn phù hợp với nguyên tắc độc lập chủ quyền tài chính của Bitcoin.
 reviewed: true

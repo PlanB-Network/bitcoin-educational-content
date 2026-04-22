@@ -1,0 +1,8 @@
+question: Which French philosopher inspired Ludwig von Mises to distinguish between objective and subjective time?
+answer: Henri Bergson
+wrong_answers:
+  - Jean-Paul Sartre
+  - Auguste Comte
+  - René Descartes
+explanation: |
+  Henri Bergson is the French philosopher who inspired Ludwig von Mises in his conception of time. Bergson distinguished between objective and spatial time, quantifiable and measurable, and time as experienced by human consciousness, subjectively and individually. This Bergsonian distinction enabled Mises to develop his theory of time preference, in which time becomes a purely individual and subjective reality, rather than a simple objective mathematical variable as in neoclassical models.

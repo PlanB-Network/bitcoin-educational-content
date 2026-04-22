@@ -1,0 +1,10 @@
+question: Mbinu ya Pay Per Last N Hisa (PPLNS) inayotumika katika baadhi ya mabwawa ya mining inajumuisha nini?
+answer: Lipa wachimbaji madini kwa kila kitalu kilichochimbwa, kulingana na hisa zao katika hisa za mwisho za N zilizotolewa kwa bwawa la mining
+wrong_answers:
+  - Walipe wachimbaji mara moja kwa kila sehemu iliyotolewa, kulingana na kiwango chake cha ugumu
+  - Wazawadi wachimbaji kwa kila kitalu kilichochimbwa, kulingana na hisa walizopata tangu kitalu cha mwisho
+  - Lipa wachimbaji mara moja kwa kila hisa iliyotolewa, lakini usilipe zaidi ya kile ambacho bwawa la mining linamiliki
+explanation: |
+ Hii ni tofauti ya modeli sawia, ambapo kipindi cha tathmini si mzunguko wa uzalishaji wa vitalu, bali dirisha la hisa N bila kujali mzunguko.
+ Mbinu ya PPLNS imetumiwa na P2Pool, miongoni mwa zingine.
+reviewed: true

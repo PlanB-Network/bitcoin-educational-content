@@ -1,0 +1,9 @@
+question: Koji događaj je naveo Satoshi Nakamoto da se povuče iz javnosti u decembru 2010?
+answer: Objavljivanje članka u PC World-u koji poziva WikiLeaks da koristi Bitcoin
+wrong_answers:
+  - Ross Ulbricht pokreće platformu Silk Road
+  - Kontakt uspostavljen od strane In-Q-Tel-a, investicionog fonda CIA-e
+  - Spektakularni porast cene BTC sa $0.20 na $32 u samo nekoliko meseci
+explanation: |
+ Satoshi je negativno komentarisao ovu publikaciju na Bitcoin forumu, strahujući da će privući pažnju državnih vlasti. Silk Road marketplace je pokrenut u januaru 2011, kontakt između In-Q-Tel i Gavina Andresena dogodio se u aprilu, a skok cene je dostigao vrhunac od $32 u junu.
+reviewed: true

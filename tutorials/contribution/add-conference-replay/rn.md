@@ -1,11 +1,11 @@
 ---
 name: Kwongera gusubiramwo inama
-description: Ni gute wokwongerako ivy’ugusubiramwo inama ku rubuga rwa PlanB?
+description: Ni gute twokwongerako replay y’inama kuri Plan ₿ Academy?
 ---
 ![conference](assets/cover.webp)
 
 
-Intumbero ya PlanB ni ugutanga ibikoresho vy’inyigisho vyo ku rwego rwo hejuru ku Bitcoin mu ndimi nyinshi zishoboka. Ibintu vyose bisohoka kuri uru rubuga ni ivy’inkomoko yuguruye kandi bishirwa kuri GitHub, bikaba vyemerera umuntu wese gutanga umusanzu mu gutunganya urubuga.
+Intumbero ya PlanB ni ugutanga ibikoresho vy’inyigisho vyo ku rwego rwo hejuru ku bijanye na Bitcoin mu ndimi nyinshi zishoboka. Ibintu vyose bisohoka kuri uru rubuga ni ivy’inkomoko yuguruye kandi bishirwa kuri GitHub, bikaba vyemerera umuntu wese gutanga umusanzu mu gutunganya urubuga.
 
 
 Woba ushaka kwongerako replay y’inama yawe ya Bitcoin ku rubuga rwa Plan ₿ Academy maze ugatanga visibilité kuri iki gikorwa, ariko ntuzi ingene? Iyi nyigisho ni iyawe!
@@ -27,7 +27,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- Genda kuri [ububiko bwa GitHub bwa PlanB bwihariye amakuru](https://github.com/PlanB-Ihuriro/Bitcoin-ibirimwo-ivy'inyigisho/igiti/iterambere/ibikoresho/inama) mu gice ca `ibikoresho/inama/`:
+- Genda kuri [ububiko bwa GitHub bwa PlanB bwihariye amakuru](https://github.com/PlanB-Ihuriro/ibirimwo-ivy’inyigisho/igiti/iterambere/ibikoresho/inama) mu gice ca `ibikoresho/inama/`:
 
 ![conference](assets/02.webp)
 
@@ -37,7 +37,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 ![conference](assets/03.webp)
 
 
-- Niba utigeze utanga umusanzu ku birimwo Plan ₿ Academy mbere, uzokenera gukora Fork yawe y’ububiko bw’intango. Forking a repository bisigura gukora kopi y'ubwo bubiko kuri konti yawe ya GitHub, ivyo bikaba bigufasha gukora ku mugambi ataco uhinduye ku bubiko bw'intango. Fyonda kuri buto ya `Fork ubu bubiko`:
+- Niba utigeze utanga umusanzu ku birimwo Plan ₿ Academy mbere, uzokenera gukora fork yawe y’ububiko bw’intango. Forking ububiko bisigura gukora kopi y'ubwo bubiko kuri konti yawe bwite ya GitHub, ivyo bikaba bigufasha gukora ku mugambi ataco uhinduye ku bubiko bw'intango. Fyonda kuri buto ya `Fork ubu bubiko`:
 
 ![conference](assets/04.webp)
 
@@ -47,12 +47,12 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 ![conference](assets/05.webp)
 
 
-- Rema dosiye y'inama yawe. Kugira ngo ubikore, mu gasandugu ka `Izina rya dosiye yawe...`, wandike izina ry'inama yawe mu nyuguti ntoyi ukoresheje uturongo aho kwandika uturongo. Nk'akarorero, nimba inama yawe yitwa "Inama ya Paris Bitcoin", ukwiye kwandika `inama ya Paris-Bitcoin`. Wongereko kandi umwaka w'inama yawe, nk'akarorero: `paris-Bitcoin-inama-2024`:
+- Rema dosiye y'inama yawe. Kugira ngo ubikore, mu gasandugu ka `Izina rya dosiye yawe...`, wandike izina ry'inama yawe mu nyuguti ntoyi ukoresheje uturongo aho kwandika uturongo. Nk'akarorero, nimba inama yawe yitwa "Inama ya Paris Bitcoin", ukwiye kwandika `inama ya Paris-bitcoin`. Wongereko kandi umwaka w'inama yawe, nk'akarorero: `inama ya Paris-bitcoin-2024`:
 
 ![conference](assets/06.webp)
 
 
-- Kugira ngo wemeze ko dosiye yaremwe, ushire akarongo inyuma y'izina ryawe mu gasandugu kamwe, nk'akarorero: `paris-Bitcoin-inama-2024/`. Kwongerako akarongo bihita bikora ububiko aho kuba dosiye:
+- Kugira ngo wemeze ko dosiye yaremwe, ushobora gusa kwandika akarongo inyuma y'izina ryawe mu gasandugu kamwe, nk'akarorero: `paris-bitcoin-inama-2024/`. Kwongerako akarongo bihita bikora ububiko aho kuba dosiye:
 
 ![conference](assets/07.webp)
 
@@ -79,7 +79,7 @@ tags:
 ```
 
 
-Akarorero, dosiye yawe ya YAML yoshobora gusa n'iyi:
+Nk'akarorero, dosiye yawe ya YAML yoshobora gusa n'iyi:
 
 
 ```yaml
@@ -120,7 +120,7 @@ https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![conference](assets/11.webp)
 
 
-- Fyonda kuri buto ya Green `Gutanga amahinduka`:
+- Fyonda kuri buto y'icatsi kibisi `Gutanga amahinduka`:
 
 ![conference](assets/12.webp)
 
@@ -135,7 +135,7 @@ https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![conference](assets/14.webp)
 
 
-- Hitamwo Fork yawe y'ububiko bw'urubuga rwa PlanB:
+- Hitamwo fork yawe mu bubiko bwa Plan ₿ Academy:
 
 ![conference](assets/15.webp)
 
@@ -190,7 +190,7 @@ https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![conference](assets/25.webp)
 
 
-- Paje nshasha izofunguka. Kurura ushire ishusho iserukira inama yawe kandi izogaragara ku rubuga rwa Plan ₿ Academy: ![inama](itunga/26.webp)
+- Paje nshasha izofunguka. Kurura ushire ishusho iserukira inama yawe kandi izogaragara ku rubuga rwa Plan ₿ Academy: ![inama](assets/26.webp)
 - Bishobora kuba ikimenyetso, akashusho gato, canke mbere igicapo:
 
 ![conference](assets/27.webp)
@@ -201,7 +201,7 @@ https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![conference](assets/28.webp)
 
 
-- Urabe maso, ishusho yawe itegerezwa kwitwa `thumbnail` kandi itegerezwa kuba iri mu buryo bwa `.webp`. Izina rya dosiye yuzuye rero rikwiye kuba: `igishushanyo gito.webp`:
+- Urabe maso, ishusho yawe itegerezwa kwitwa `thumbnail` kandi itegerezwa kuba iri mu buryo bwa `.webp`. Izina ryose rya dosiye rero rikwiye kuba: `igishushanyo gito.webp`:
 
 ![conference](assets/29.webp)
 
@@ -216,7 +216,7 @@ https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![conference](assets/31.webp)
 
 
-- Genzura ko ukiri ku ishami rimwe rikora, hanyuma ukande kuri buto ya `Gukora amahinduka`:
+- Genzura ko ukiri ku ishami rimwe rikora, hanyuma ukande kuri buto ya `Guhindura`:
 
 ![conference](assets/32.webp)
 
@@ -304,7 +304,7 @@ Speaker: Satoshi Nakamoto
 
 
 
-- Amazina y’urugero rwa kabiri, yerekanwa n’inyuguti zibiri `##`, akoreshwa mu gutandukanya amavidewo atandukanye asubirwamwo. Nimba amakoraniro yafashwe amasanamu ataco akora mu kiringo c'igice c'umusi, werekane nk'akarorero, `## ku wa gatanu mu gitondo`. Nimba izo nama zafashwe amasanamu zigatangazwa ku giti cabo, nushire izina ry’iyo nama ataco rihinduye n’izina ry’urugero rwa kabiri.
+- Amazina y’urugero rwa kabiri, yerekanwa n’inyuguti zibiri `##`, akoreshwa mu gutandukanya amavidewo atandukanye asubirwamwo. Nimba amakoraniro yafashwe amasanamu ataco akora mu kiringo c'igice c'umusi, werekane nk'akarorero, `## ku wa gatanu mu gitondo`. Nimba izo nama zafashwe amasanamu kandi zigatangazwa ku giti cabo, nushire izina ry’iyo nama ataco rihinduye n’izina ry’urugero rwa kabiri.
 
 
 
@@ -312,7 +312,7 @@ Speaker: Satoshi Nakamoto
 
 
 
-- Nimba uburyo buvyemera (amakoraniro y’abantu ku giti cabo), urashobora kwongerako amazina y’abazotanga insiguro. Kugira ngo ubikore, wongereko ahantu `Umuvugizi:` akurikiwe n’izina canke izina ry’uruyeri ry’uwuvuga munsi y’uruja n’uruza rwa videwo. Mu gihe hari abavuga benshi, tandukanya izina ryose n'agacamuzingi, nk'akarorero: `Umuvugizi: Satoshi Nakamoto, Satoshi Nakamoto, Satoshi Nakamoto, Satoshi Nakamoto`.
+- Nimba uburyo buvyemera (amakoraniro y’abantu ku giti cabo), urashobora kwongerako amazina y’abazotanga insiguro. Kugira ngo ubikore, wongereko ahantu `Umuvugizi:` hakurikijwe izina canke izina ry’uruyeri ry’uwuvuga munsi y’uruja n’uruza rwa videwo. Mu gihe hari abavuga benshi, tandukanya izina ryose n'agacamuzingi, nk'akarorero: `Umuvuga: Satoshi Nakamoto, Satoshi Nakamoto, Satoshi Nakamoto, Satoshi Nakamoto`.
 
 
 ---
@@ -338,7 +338,7 @@ Speaker: Satoshi Nakamoto
 ![conference](assets/41.webp)
 
 
-- Nimba vyose bigushimisha, subira ku muzi wa Fork yawe:
+- Nimba vyose bigushimisha, subira ku muzi wa fork yawe:
 
 ![conference](assets/42.webp)
 
@@ -357,10 +357,10 @@ Speaker: Satoshi Nakamoto
 
 ![conference](assets/45.webp)
 
-Urakoze cane! PR yawe yararemwe neza. Umuyobozi azoca ayisubiramwo, nimba vyose biri ku rutonde, ayishire mu bubiko nyamukuru bwa Plan ₿ Academy. Ushobora kubona amasubiramwo y’inama yawe aboneka ku rubuga haciye imisi mikeyi.
+Urakoze cane! PR yawe yararemwe neza. Umuyobozi azoyisubiramwo, nimba vyose biri ku rutonde, ayishire mu bubiko nyamukuru bwa Plan ₿ Academy. Ushobora kubona amasubiramwo y’inama yawe aboneka ku rubuga haciye imisi mikeyi.
 
 
-Ndagusavye urabe ko ukurikirana ingene PR yawe itera imbere. Birashoboka ko umuyobozi yoshobora gusiga igitekerezo asaba ibindi bisobanuro. Igihe cose PR yawe itaremejwe, ushobora kuyibona munsi y'agace ka `Pull requests` ku bubiko bwa GitHub bwa Plan ₿ Academy:
+Ndagusavye urabe ko ukurikirana ingene PR yawe itera imbere. Birashoboka ko umuyobozi yoshobora gusiga igitekerezo asaba ibindi bisobanuro. Igihe cose PR yawe itaremejwe, ushobora kuyibona munsi y'agace ka `Pull requests` ku bubiko bwa Plan ₿ Academy bwa GitHub:
 
 ![conference](assets/46.webp)
 

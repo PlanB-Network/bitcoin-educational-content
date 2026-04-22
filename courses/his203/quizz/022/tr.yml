@@ -1,0 +1,11 @@
+question: Genç Çinli girişimci Zhou Tong tarafından Eylül 2011'de başlatılan Bitcoinica platformunun sunduğu temel finansal yenilik neydi?
+answer: Kaldıraç ve açığa satış
+wrong_answers:
+  - Hisse senedi ve tahvil ihracı
+  - Teminatlı faiz kredisi
+  - Neredeyse anında nakit değişimi
+explanation: |
+ Bitcoinica, ekosistemde marj ticareti sunan ilk platformdu; bu da müşterilerin kazançlarını (ve kayıplarını) artırmak için kaldıraç kullanmalarını ve
+ düşen bir hisse fiyatına bahis yapmak için kısa. Kapanışından sonra, bu tür bir hizmet Ekim 2012'de başlatılan Bitfinex platformu tarafından devralındı ve
+ aynı kaynak koduna dayanıyordu.
+reviewed: true

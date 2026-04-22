@@ -1,0 +1,10 @@
+question: Jaký vliv měl operační kód OP_EVAL na vnitřní programovací systém Bitcoin?
+answer: Spuštění skriptu v rámci skriptu
+wrong_answers:
+  - Vyžádejte si podpisy účastníků
+  - Nasekat skript a porovnat výsledek s dodaným otiskem
+  - Zkontrolujte, zda se dvě hodnoty rovnají
+explanation: |
+ Popsal ji Nicolas van Saberhagen alias ByteCoin, který ji navrhl v noci z 1. na 2. října 2011. Opkód se provádí na konci zámku
+ skriptu, aby se vyhodnotila platnost dodaného skriptu, jehož hash se porovná s daným otiskem.
+reviewed: true

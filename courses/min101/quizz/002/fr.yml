@@ -6,4 +6,4 @@ wrong_answers:
   - La mempool est un serveur central
 explanation: |
   La mempool est locale à chaque nœud, donc son contenu peut varier d’un nœud à l’autre en fonction des règles que chacun applique.
-reviewed: false
+reviewed: true 

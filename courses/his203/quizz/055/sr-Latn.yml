@@ -1,0 +1,9 @@
+question: Kakav je bio poslovni model iza BitPay-a, procesora plaćanja koji su pokrenuli Stephen Pair i Tony Gallippi u leto 2011?
+answer: Pretvorite bitkoine kupaca u dolare trenutno, uz naknadu
+wrong_answers:
+  - Omogućite kupcima da odmah kupe bitcoin uz plaćanje dolarima, uz proviziju.
+  - Pozajmite bitkoine deponovane od strane korisnika i prikupljajte kamatu
+  - Prosleđivanje bitcoin uplata na blockchain, primanje naknada za transakcije
+explanation: |
+ Ideja iza BitPay-a bila je da trgovcima pruži mogućnost da svoje bitcoin uplate odmah konvertuju u dolare, kako bi se zaštitili od volatilnosti. BitPay je klijentima unapred obezbeđivao dolare, naplaćujući naknadu za obradu koja je u početku iznosila 1%.
+reviewed: true

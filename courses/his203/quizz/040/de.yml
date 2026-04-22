@@ -1,0 +1,10 @@
+question: Woraus besteht das Pay-to-Script-Hash (P2SH) Skriptschema?
+answer: Sperren von Geldern mit dem Hash eines Skripts, das bei der Entsperrung ausgeführt werden muss
+wrong_answers:
+  - Erfordernis von M Unterschriften von N Teilnehmern, um die Ausgabe der Transaktion zu genehmigen
+  - Das Ausgeben von Bitcoins von einer Signatur abhängig machen, die mit einem einzigen öffentlichen Schlüssel verknüpft ist
+  - Schreiben beliebiger Daten auf die Blockchain, indem UTXO nicht ausgabefähig gemacht wird
+explanation: |
+ Dabei wird für einen Skript-Hash bezahlt und das Skript bei der Freischaltung der Mittel zur Verfügung gestellt. Der Unterschied zum OP_EVAL-Vorschlag besteht darin, dass das Skript
+ automatisch von der virtuellen Maschine erkannt wird, so dass es ohne ausdrückliche Anweisungen ausgeführt werden kann.
+reviewed: true

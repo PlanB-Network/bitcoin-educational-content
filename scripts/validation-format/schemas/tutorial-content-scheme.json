@@ -1,0 +1,117 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "tutorial-content",
+  "description": "Schema for validating tutorial markdown content files (e.g., en.md, fr.md)",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Tutorial title/name displayed as the main heading",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief description of what the tutorial covers, used for SEO and previews",
+      "maxLength": 1000
+    }
+  },
+  "required": ["name", "description"],
+  "additionalProperties": false,
+  "content_rules": {
+    "description": "Structural requirements for tutorial markdown content following YAML front-matter",
+    "cover_image": {
+      "required": true,
+      "description": "Cover image MUST appear within the first 10 lines after YAML front-matter closing '---'.",
+      "pattern": "![{any-alt-text}](assets/cover.webp)",
+      "pattern_regex": "!\\[.*\\]\\(assets/cover\\.webp\\)",
+      "alt_text": "Any text is allowed as alt text",
+      "path": "assets/cover.webp (must be exact)",
+      "format": "WebP only",
+      "aspect_ratio": "1280x720 (16:9)"
+    },
+    "video_embeds": {
+      "required": false,
+      "description": "Optional video embeds using YouTube URLs",
+      "patterns": [
+        "![video](https://youtu.be/VIDEO_ID)",
+        "![video](https://www.youtube.com/watch?v=VIDEO_ID)"
+      ]
+    },
+    "headings": {
+      "h1": {
+        "allowed": false,
+        "reason": "Title comes from YAML 'name' field, do NOT use H1 in content",
+        "exception": "H1 headings inside code blocks (fenced with ``` or ~~~, or indented) are allowed and not validated"
+      },
+      "h2": {
+        "allowed": true,
+        "description": "Main chapters - appears in sidebar navigation",
+        "pattern": "## Chapter Title"
+      },
+      "h3": {
+        "allowed": true,
+        "description": "Sub-sections within chapters",
+        "pattern": "### Sub-section Title"
+      }
+    },
+    "lists": {
+      "unordered": {
+        "marker": "-",
+        "description": "Use dash (-) for unordered lists, NEVER asterisk (*)",
+        "reason": "Asterisk conflicts with translation systems and bold formatting"
+      },
+      "ordered": {
+        "marker": "1.",
+        "description": "Use numbered format for ordered lists"
+      }
+    },
+    "notes": {
+      "description": "Emphasized callout notes using bold prefix",
+      "patterns": [
+        "**Note**:",
+        "**Info**:",
+        "**Attention**:",
+        "**Warning**:",
+        "**Tip**:"
+      ]
+    },
+    "internal_links": {
+      "description": "Links to other PlanB Network content",
+      "format": "Must be on their own line with empty lines before and after",
+      "example": "\n\nhttps://planb.network/tutorials/wallet/sparrow\n\n"
+    },
+    "images": {
+      "format": "WebP only (.webp extension)",
+      "types": {
+        "cover": {
+          "path": "assets/cover.webp",
+          "required": true,
+          "dimensions": "1280x720 aspect ratio",
+          "alt_text": "Any text allowed",
+          "position": "Must appear within first 10 lines after front-matter"
+        },
+        "language_specific": {
+          "path_pattern": "assets/{lang}/{number}.webp",
+          "examples": ["assets/en/01.webp", "assets/fr/01.webp"],
+          "description": "Screenshots with text that needs translation"
+        },
+        "universal": {
+          "path_pattern": "assets/notext/{number}.webp",
+          "examples": ["assets/notext/1.webp", "assets/notext/2.webp"],
+          "description": "Images without text, shared across all languages"
+        }
+      },
+      "alt_text": {
+        "required": true,
+        "description": "All images should have descriptive alt text"
+      }
+    },
+    "yaml_front_matter": {
+      "required": true,
+      "description": "YAML front-matter block at the start of the file",
+      "format": "Delimited by --- on separate lines",
+      "example": "---\nname: Tutorial Name\ndescription: Tutorial description\n---"
+    }
+  }
+}

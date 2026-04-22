@@ -1,0 +1,8 @@
+question: According to Austrian theory, what do the production detours developed by Böhm-Bawerk represent?
+answer: Investment in stages far removed from consumption to produce capital goods first
+wrong_answers:
+  - "The direct production of consumer goods without the use of intermediate tools or equipment"
+  - Technical shortcuts to reduce the time needed for final production
+  - Distribution methods that avoid intermediaries between producers and consumers
+explanation: |
+  Production detours according to Böhm-Bawerk involve investing first in the creation of capital goods (such as making a fishing net) before producing final consumer goods. This approach requires more time initially, but generates higher productivity later on. The example of the fishing net illustrates this concept perfectly: instead of fishing directly with bare hands, we take the time to manufacture a tool that will considerably improve future results.

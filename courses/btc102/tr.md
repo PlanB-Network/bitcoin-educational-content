@@ -101,8 +101,6 @@ Bu eğitimin sonunda, Bitcoin ekosisteminde güvenle gezinmek ve en gelişmiş k
 Bitcoin dünyasına yolculuğunuza başlamaya hazır mısınız? Hadi başlayalım!
 
 
-**N.B.**: Kurs sırasında bilmediğiniz terimlerle karşılaşırsanız, lütfen tanımlar için [sözlüğe](https://planb.academy/resources/glossary) başvurunuz.
-
 
 # Bitcoin'yi anlamak için ön koşullar
 
@@ -133,7 +131,7 @@ Daha ileri gitmeden önce, temelde farklı olan iki dünya arasında net bir ayr
 
 
 
-- Öte yandan kripto para sektörü** çok daha büyüktür ve her biri kendi token'üne sahip on binlerce farklı proje içerir. Bu alan genellikle hızlı inovasyon, yutturmaca ve kısa vadeli finansal spekülasyonlarla yönlendirilmektedir. Bu projelerin çoğu merkezileştirilmiş, daha az güvenli ve cesur vaatlere ve gösterişli pazarlamaya rağmen çok fazla gerçek değer sunmuyor.
+- Öte yandan [kripto para](https://planb.academy/resources/glossary/cryptocurrency) sektörü** çok daha büyüktür ve her biri kendi token'üne sahip on binlerce farklı proje içerir. Bu alan genellikle hızlı inovasyon, yutturmaca ve kısa vadeli finansal spekülasyonlarla yönlendirilmektedir. Bu projelerin çoğu merkezileştirilmiş, daha az güvenli ve cesur vaatlere ve gösterişli pazarlamaya rağmen çok fazla gerçek değer sunmuyor.
 
 
 ![BTC102-Bitcoin](assets/tr/001.webp)
@@ -845,13 +843,13 @@ Yıllar içinde Bitcoin küresel bir para ağı olarak tanınırlık kazanmışt
 #### Cypherpunks ve bankacılık kontrolünün ötesinde bir sistemin icadı
 
 
-Bitcoin bir gecede doğmadı. Kriptografi, bilgisayar bilimi ve para teorisi alanlarında onlarca yıl süren araştırma ve deneylerin sonucudur. 2009'da piyasaya sürülmeden önce, birkaç proje (eCash, b-money, Bit Gold ve RPOW gibi) dijital para birimleri yaratmaya çalıştı. Hepsi aynı temel sorunla karşı karşıyaydı: merkezi olmayan bir sistemde merkezi bir otoriteye güvenmeden çifte harcamanın nasıl önleneceği.
+Bitcoin bir gecede doğmadı. [Kriptografi](https://planb.academy/resources/glossary/cryptography), bilgisayar bilimi ve para teorisi alanlarında onlarca yıl süren araştırma ve deneylerin sonucudur. 2009'da piyasaya sürülmeden önce, birkaç proje (eCash, b-money, Bit Gold ve RPOW gibi) dijital para birimleri yaratmaya çalıştı. Hepsi aynı temel sorunla karşı karşıyaydı: merkezi olmayan bir sistemde merkezi bir otoriteye güvenmeden çifte harcamanın nasıl önleneceği.
 
 
-Bu sorun, Satoshi Nakamoto adını kullanan birinin Bitcoin teknik incelemesini yayınladığı 2008 yılının sonlarına kadar çözümsüz kaldı. Birkaç ay sonra, Bitcoin'nın açık kaynaklı yazılımının ilk sürümü yayınlanarak bankalardan veya hükümetlerden bağımsız olarak çalışabilecek bir sistem başlatıldı.
+Bu sorun, Satoshi Nakamoto adını kullanan birinin Bitcoin [teknik incelemesini](https://planb.academy/resources/glossary/white-paper) yayınladığı 2008 yılının sonlarına kadar çözümsüz kaldı. Birkaç ay sonra, Bitcoin'nın [açık kaynaklı](https://planb.academy/resources/glossary/foss) yazılımının ilk sürümü yayınlanarak bankalardan veya hükümetlerden bağımsız olarak çalışabilecek bir sistem başlatıldı.
 
 
-Proje, çevrimiçi bireysel özgürlükleri korumak için kriptografiyi kullanmaya inanan geliştiriciler ve düşünürlerden oluşan bir topluluk olan Cypherpunk ethosundan büyük ölçüde etkilenmiştir. Onlar için gizlilik ve ademi merkeziyetçilik teknik tercihler değil, ideolojik gerekliliklerdi. Bitcoin bu ideallerin en başarılı uygulaması olarak ortaya çıktı: herkesin kullanabileceği, kimsenin kontrol edemeyeceği ve herkesin doğrulayabileceği eşler arası bir para ağı.
+Proje, çevrimiçi bireysel özgürlükleri korumak için kriptografiyi kullanmaya inanan geliştiriciler ve düşünürlerden oluşan bir topluluk olan [Cypherpunk](https://planb.academy/resources/glossary/cypherpunks) ethosundan büyük ölçüde etkilenmiştir. Onlar için gizlilik ve ademi merkeziyetçilik teknik tercihler değil, ideolojik gerekliliklerdi. Bitcoin bu ideallerin en başarılı uygulaması olarak ortaya çıktı: herkesin kullanabileceği, kimsenin kontrol edemeyeceği ve herkesin doğrulayabileceği [eşler arası](https://planb.academy/resources/glossary/peertopeer-p2p) bir para ağı.
 
 
 ![BTC102-Bitcoin](assets/tr/035.webp)
@@ -1009,7 +1007,7 @@ Bu yaklaşım daha teknik olmasına rağmen, en talepkar kullanıcılara üçün
 #### Esnek, Sınır Ötesi Bir Ödeme Yöntemi
 
 
-Merkezi olmayan yapısı nedeniyle Bitcoin, sınırlardan veya saat dilimlerinden etkilenmeden 7/24 çalışır. Geleneksel bankacılık altyapısının eksik olduğu bölgelerde, Bitcoin genellikle pahalı aracılara güvenmeden para göndermek veya almak için hızlı, düşük maliyetli bir çözüm olarak kullanılır. İşlem ücretleri ağ tıkanıklığına bağlı olarak değişebilmekle birlikte, genellikle uluslararası transferler için bankalar tarafından alınan ücretlerden çok daha düşüktür. Ayrıca, Layer gibi [Lightning Network](https://planb.academy/resources/glossary/lightning-network)-2 çözümleri daha da hızlı ve ucuz Bitcoin işlemlerine olanak sağlar.
+Merkezi olmayan yapısı nedeniyle Bitcoin, sınırlardan veya saat dilimlerinden etkilenmeden 7/24 çalışır. Geleneksel bankacılık altyapısının eksik olduğu bölgelerde, Bitcoin genellikle pahalı aracılara güvenmeden para göndermek veya almak için hızlı, düşük maliyetli bir çözüm olarak kullanılır. İşlem ücretleri ağ tıkanıklığına bağlı olarak değişebilmekle birlikte, genellikle uluslararası transferler için bankalar tarafından alınan ücretlerden çok daha düşüktür. Ayrıca, Layer gibi Lightning Network-2 çözümleri daha da hızlı ve ucuz Bitcoin işlemlerine olanak sağlar.
 
 
 #### Bir değer deposu
@@ -1540,7 +1538,7 @@ Bitcoin Wallet endüstrisi, her biri farklı ihtiyaçlara ve teknik uzmanlık se
 
 
 
-- [Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) Üreticileri**: Bu şirketler güvenli anahtar depolama için tasarlanmış fiziksel cihazlar geliştirmektedir. Bazıları açık kaynaklıdır, diğerleri ise çeşitli özelliklere ve güvenlik seviyelerine sahip tescilli çözümler sunar. Önemli isimler arasında Ledger, Trezor, Coinkite, Foundation ve Shiftcrypto bulunmaktadır.
+- Hardware Wallet Üreticileri**: Bu şirketler güvenli anahtar depolama için tasarlanmış fiziksel cihazlar geliştirmektedir. Bazıları açık kaynaklıdır, diğerleri ise çeşitli özelliklere ve güvenlik seviyelerine sahip tescilli çözümler sunar. Önemli isimler arasında Ledger, Trezor, Coinkite, Foundation ve Shiftcrypto bulunmaktadır.
 - Software Wallet Geliştiriciler**: Bunlar, mobil ve masaüstü uygulamalar yaratan şirketlerden bağımsız geliştiricilere kadar uzanmaktadır. Sundukları teklifler kullanıcı deneyimi, güvenlik ve özellikler açısından farklılık gösterir. Örnekler arasında Sparrow, Wizard Sardine, Galoy, Synonym ve Blockstream bulunmaktadır.
 - DIY (*Kendin Yap*) Cüzdanlar**: Bu açık kaynaklı çözümler, tam kontrol ve üçüncü taraflara minimum bağımlılık isteyen ileri düzey kullanıcılar için tasarlanmıştır. Kendi Wallet'nizi oluşturmak güven bağımlılıklarını azaltır ve güvenlik duruşunuzu artırabilir. Önemli DIY seçenekleri arasında Seedsigner ve Specter DIY bulunmaktadır.
 
@@ -2922,7 +2920,7 @@ https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
 
-- Günlük işlemler için bir Hot Wallet**, Düzenli harcamalar için paranoyak kullanıcılar Ashigaru, Wasabi Wallet veya Sparrow wallet gibi gizlilik odaklı cüzdanları tercih eder. Bu cüzdanlar, mini CoinJoin harcama işlemleri, payjoins, potansiyel CoinJoin araçları, Coin kontrolü, UTXO etiketleme veya kendi Bitcoin düğümünüz üzerinden bağlanma yeteneği gibi gelişmiş özellikleri destekler.
+- Günlük işlemler için bir Hot Wallet**, Düzenli harcamalar için paranoyak kullanıcılar Ashigaru, Wasabi Wallet veya Sparrow wallet gibi gizlilik odaklı cüzdanları tercih eder. Bu cüzdanlar, mini [CoinJoin](https://planb.academy/resources/glossary/coinjoin) harcama işlemleri, payjoins, potansiyel CoinJoin araçları, Coin kontrolü, UTXO etiketleme veya kendi Bitcoin düğümünüz üzerinden bağlanma yeteneği gibi gelişmiş özellikleri destekler.
 
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d

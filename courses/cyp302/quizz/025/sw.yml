@@ -6,4 +6,4 @@ wrong_answers:
   - 1101
 explanation: |
   Kwa kutumia XOR kidogo kidogo: 0 XOR 1 = 1, 1 XOR 1 = 0, 1 XOR 0 = 1, 0 XOR 1 = 1, kwa hivyo matokeo ni 1011.
-reviewed: false
+reviewed: true

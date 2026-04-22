@@ -101,8 +101,6 @@ Kufikia mwisho wa kozi hii, utakuwa na zana zote za vitendo unazohitaji ili kuso
 Je, uko tayari kuanza safari yako katika ulimwengu wa Bitcoin? Twende!
 
 
-**Kumbuka**: Ikiwa utakutana na maneno yasiyojulikana wakati wa kozi, tafadhali angalia [kamusi](https://planb.academy/resources/glossary) kwa ufafanuzi.
-
 # Masharti ya kuelewa Bitcoin
 
 
@@ -134,7 +132,7 @@ Kabla ya kuendelea zaidi, ni muhimu kutofautisha wazi kati ya ulimwengu mbili to
 
 
 
-- **Sekta ya cryptocurrency**, kwa upande mwingine, ni kubwa zaidi na inajumuisha makumi ya maelfu ya miradi tofauti, kila moja ikiwa na token yake. Nafasi hii mara nyingi inaendeshwa na uvumbuzi wa haraka, hype, na uvumi wa muda mfupi wa kifedha. Mengi ya miradi hii ni ya kati, salama kidogo, na haitoi thamani halisi—licha ya ahadi shupavu na uuzaji wa hali ya juu.
+- **Sekta ya [cryptocurrency](https://planb.academy/resources/glossary/cryptocurrency)**, kwa upande mwingine, ni kubwa zaidi na inajumuisha makumi ya maelfu ya miradi tofauti, kila moja ikiwa na token yake. Nafasi hii mara nyingi inaendeshwa na uvumbuzi wa haraka, hype, na uvumi wa muda mfupi wa kifedha. Mengi ya miradi hii ni ya kati, salama kidogo, na haitoi thamani halisi—licha ya ahadi shupavu na uuzaji wa hali ya juu.
 
 
 ![image](assets/sw/005.webp)
@@ -179,7 +177,7 @@ Ulaghai huu kawaida huwa na:
 Hatimaye, mipango yote ya piramidi na Ponzi inaelekea kushindwa. Udhaifu wao wa kimsingi upo katika hitaji la mara kwa mara la kuleta wawekezaji wapya kulipa faida kwa washiriki wa awali. Hitaji hilo linakuwa haliwezekani kudumishwa kihisabati kwa muda, kwa sababu idadi ya waajiriwa wapya wanaohitajika huongezeka kwa kasi kadri mfumo unavyokua. Mara tu hatua muhimu inapofikiwa, washiriki wanaanza kuwa na shaka, uaminifu hupotea, na piramidi nzima huanguka. Katika hatua hii, watu wa mwisho kujiunga—mara nyingi wasio na ufahamu wa kutosha—hupoteza uwekezaji wao wote bila njia ya kuurejesha, huku waandaaji au wawekezaji wa mapema kwa kawaida wakiwa tayari wametoa fedha zao na kuacha mfumo.
 
 
-Katika ulimwengu wa cryptocurrency, miradi ya Ponzi inaweza kuchukua sura nyingi—mara nyingi ikiwa imeundwa kuficha asili yake ya ulaghai nyuma ya kinyago cha kiteknolojia au kifedha. Ulaghai huu huweza kujitokeza kama matoleo mapya ya tokeni au Matoleo ya Initial Coin Offering (ICO), ambayo ni njia za kuchangisha fedha ambapo cryptocurrency mpya huuzwa kwa umma. Nyuma ya istilahi za kiufundi kama "blockchain," "mikataba mahiri," au "uwekaji alama" (tokenization), baadhi ya miradi huficha mifumo changamano ya mtindo wa piramidi. Wengine hudai kutoa faida kubwa kwa kuchanganya mali za crypto zenye mashaka na mifumo ya malipo inayotegemea kabisa ongezeko la wawekezaji wapya.
+Katika ulimwengu wa cryptocurrency, miradi ya Ponzi inaweza kuchukua sura nyingi—mara nyingi ikiwa imeundwa kuficha asili yake ya ulaghai nyuma ya kinyago cha kiteknolojia au kifedha. Ulaghai huu huweza kujitokeza kama matoleo mapya ya tokeni au Matoleo ya Initial Coin Offering (ICO), ambayo ni njia za kuchangisha fedha ambapo cryptocurrency mpya huuzwa kwa umma. Nyuma ya istilahi za kiufundi kama "[blockchain](https://planb.academy/resources/glossary/blockchain)," "mikataba mahiri," au "uwekaji alama" (tokenization), baadhi ya miradi huficha mifumo changamano ya mtindo wa piramidi. Wengine hudai kutoa faida kubwa kwa kuchanganya mali za crypto zenye mashaka na mifumo ya malipo inayotegemea kabisa ongezeko la wawekezaji wapya.
   
 
 Hivi majuzi, miradi ya Ponzi pia imeenea katika ulimwengu wa Fedha zilizowekwa madarakani (DeFi). Ingawa DeFi inakusudiwa kutoa huduma za kifedha bila wasuluhishi, baadhi ya miradi huitumia kutoa dhana potofu ya uhalali wa ulaghai wao. Baadhi ya majukwaa ya DeFi yanaahidi mapato ya juu, yaliyohakikishwa katika Exchange kwa amana za cryptocurrency kwenye protocol otomatiki. Ahadi hizi za kuvutia mara nyingi zinaungwa mkono na mifumo isiyo wazi na isiyoweza kuthibitishwa, na ishara iliyoundwa mahsusi kwa ulaghai. Kwa kweli, mifumo hii haina mtindo endelevu wa biashara—rejesho hulipwa tu kutoka kwa fedha za watumiaji wapya, kama vile mpango wa kitamaduni wa Ponzi. Imani inapoanza kupotea au mmiminiko wa washiriki wapya unapopungua, mifumo hii inaporomoka, na kusababisha hasara kubwa kwa wawekezaji wasiotarajia.
@@ -256,7 +254,7 @@ Miradi ya sarafu ya crypto ya serikali kuu wakati mwingine hutoa tokeni za bila 
 
 Wavamizi mara nyingi hutumia tovuti bandia, akaunti za mitandao ya kijamii, au barua pepe za udanganyifu kujaribu kuiba pesa zako kupitia njia mbalimbali za mawasiliano, ikiwa ni pamoja na simu na barua za kitamaduni
 
-Kabla ya kubofya kiungo au kuchukua hatua yoyote, daima angalia mara mbili utambulisho wa mtumaji. Ukiwa na shaka, tembelea tovuti wewe mwenyewe badala ya kutumia kiungo ulichopewa. Muhimu zaidi, usishiriki kamwe funguo zako za faragha au manenosiri na mtu yeyote.
+Kabla ya kubofya kiungo au kuchukua hatua yoyote, daima angalia mara mbili utambulisho wa mtumaji. Ukiwa na shaka, tembelea tovuti wewe mwenyewe badala ya kutumia kiungo ulichopewa. Muhimu zaidi, usishiriki kamwe [funguo zako za faragha](https://planb.academy/resources/glossary/private-key) au manenosiri na mtu yeyote.
 
 
 #### Bitcoin Hardforks
@@ -575,7 +573,7 @@ Hapa kuna mambo muhimu ambayo tutapitia pamoja:
 
 
 
-- Jihadharini na **Shitcoins** na fedha zingine zisizo na maana;
+- Jihadharini na **[Shitcoins](https://planb.academy/resources/glossary/shitcoin)** na fedha zingine zisizo na maana;
 - Wekeza tu **fedha unazoweza kumudu kupoteza**;
 - Jua tofauti kati ya **biashara** na **kuwekeza**;
 - Jihadharini na **madhara ya kodi** ya uwekezaji wako;
@@ -673,7 +671,7 @@ Zaidi ya yote, kamwe usiwekeze zaidi ya unaweza kumudu kupoteza. Epuka kukopa pe
 ### Kusimamia na kulinda Bitcoin Wallet yako
 
 
-Moja ya vipengele vyenye nguvu zaidi vya Bitcoin (na ambavyo mara nyingi havithaminiwi vya kutosha) ni **kujitunzia mali zako binafsi**. Ukiwa na wallet ya kujitegemea, wewe pekee ndiye unawajibika kwa pesa zako. Wallet hizi kwa kawaida huundwa kutoka kwa **maneno ya kurejesha ufikiaji** (yanayojulikana pia kama *[seed phrase](https://planb.academy/resources/glossary/seed)*)—mfululizo wa maneno 12 au 24 yanayokupa ufikiaji kamili wa BTC yako. Ukipoteza maneno haya (au mtu mwingine akiyapata), bitcoin zako hupotea milele. **Hakuna huduma kwa wateja. Hakuna kitufe cha kuweka upya.**
+Moja ya vipengele vyenye nguvu zaidi vya Bitcoin (na ambavyo mara nyingi havithaminiwi vya kutosha) ni **kujitunzia mali zako binafsi**. Ukiwa na wallet ya kujitegemea, wewe pekee ndiye unawajibika kwa pesa zako. Wallet hizi kwa kawaida huundwa kutoka kwa **maneno ya kurejesha ufikiaji** (yanayojulikana pia kama *seed phrase*)—mfululizo wa maneno 12 au 24 yanayokupa ufikiaji kamili wa BTC yako. Ukipoteza maneno haya (au mtu mwingine akiyapata), bitcoin zako hupotea milele. **Hakuna huduma kwa wateja. Hakuna kitufe cha kuweka upya.**
 
 
 ![image](assets/sw/025.webp)
@@ -850,13 +848,13 @@ Kwa miaka mingi, Bitcoin imepata kutambuliwa kama mtandao wa fedha duniani. Imei
 #### Cypherpunks na uvumbuzi wa mfumo zaidi ya udhibiti wa benki
 
 
-Bitcoin haikuzaliwa mara moja. Ni matokeo ya miongo kadhaa ya utafiti na majaribio katika cryptography, sayansi ya kompyuta, na nadharia ya fedha. Kabla ya kuzinduliwa mwaka wa 2009, miradi kadhaa (kama vile eCash, b-money, Bit Gold, na RPOW) ilijaribu kuunda sarafu za dijitali. Wote walikabili suala moja la msingi: jinsi ya kuzuia matumizi maradufu katika mfumo usio na mamlaka kuu.
+Bitcoin haikuzaliwa mara moja. Ni matokeo ya miongo kadhaa ya utafiti na majaribio katika [cryptography](https://planb.academy/resources/glossary/cryptography), sayansi ya kompyuta, na nadharia ya fedha. Kabla ya kuzinduliwa mwaka wa 2009, miradi kadhaa (kama vile eCash, b-money, Bit Gold, na RPOW) ilijaribu kuunda sarafu za dijitali. Wote walikabili suala moja la msingi: jinsi ya kuzuia matumizi maradufu katika mfumo usio na mamlaka kuu.
 
 
-Changamoto hiyo ilibakia bila kutatuliwa hadi mwishoni mwa 2008, wakati mtu aliyejitambulisha kwa jina la Satoshi Nakamoto alipochapisha karatasi nyeupe ya Bitcoin. Miezi michache baadaye, toleo la kwanza la programu huria ya Bitcoin lilianza kutumika, na kuzindua mfumo unaoweza kufanya kazi bila benki wala serikali.
+Changamoto hiyo ilibakia bila kutatuliwa hadi mwishoni mwa 2008, wakati mtu aliyejitambulisha kwa jina la Satoshi Nakamoto alipochapisha [karatasi nyeupe](https://planb.academy/resources/glossary/white-paper) ya Bitcoin. Miezi michache baadaye, toleo la kwanza la programu [huria](https://planb.academy/resources/glossary/foss) ya Bitcoin lilianza kutumika, na kuzindua mfumo unaoweza kufanya kazi bila benki wala serikali.
 
 
-Mradi huo uliathiriwa sana na maadili ya Cypherpunk; jumuiya ya wasanidi programu na wanafikra walioamini katika kutumia cryptography kulinda uhuru wa mtu binafsi mtandaoni. Kwao, faragha na ugatuaji havikuwa mapendeleo ya kiufundi, lakini mahitaji ya kiitikadi. Bitcoin iliibuka kama kielelezo kilichofanikiwa zaidi cha maadili hayo: mtandao wa fedha wa kati-ka-rika ambao mtu yeyote angeweza kutumia, hakuna mtu angeweza kudhibiti, na kila mtu angeweza kuthibitisha.
+Mradi huo uliathiriwa sana na maadili ya [Cypherpunk](https://planb.academy/resources/glossary/cypherpunks); jumuiya ya wasanidi programu na wanafikra walioamini katika kutumia cryptography kulinda uhuru wa mtu binafsi mtandaoni. Kwao, faragha na ugatuaji havikuwa mapendeleo ya kiufundi, lakini mahitaji ya kiitikadi. Bitcoin iliibuka kama kielelezo kilichofanikiwa zaidi cha maadili hayo: mtandao wa fedha wa kati-ka-rika ambao mtu yeyote angeweza kutumia, hakuna mtu angeweza kudhibiti, na kila mtu angeweza kuthibitisha.
 
 
 ![image](assets/sw/030.webp)
@@ -882,7 +880,7 @@ Wazo la sarafu ya kidijitali inayofanya kazi bila mamlaka yoyote kuu (kama Bitco
 Bitcoin haikutokea tu bila papara. Iliundwa kwa wakati mahususi—baada tu ya msukosuko wa kifedha duniani wa 2008. Kuporomoka kwa soko la nyumba la Marekani na mgogoro wa mikopo midogo midogo kulisababisha benki kuu kushindwa na kutikisa imani ya watu katika mfumo mzima wa kifedha.
 
 
-Ilikuwa katika mazingira haya ya hofu na kutokuwa na uhakika kwamba Bitcoin ilizaliwa. Muundaji, anayejulikana kama Satoshi Nakamoto, alijumuisha ujumbe wa ishara sana katika block ya kwanza ya Bitcoin Blockchain, inayojulikana kama block ya Genesis. Ujumbe ulikuwa:
+Ilikuwa katika mazingira haya ya hofu na kutokuwa na uhakika kwamba Bitcoin ilizaliwa. Muundaji, anayejulikana kama Satoshi Nakamoto, alijumuisha ujumbe wa ishara sana katika block ya kwanza ya Bitcoin Blockchain, inayojulikana kama [block ya Genesis](https://planb.academy/resources/glossary/genesis-block). Ujumbe ulikuwa:
 
 
 > **"The Times 03/Jan/2009 Chansela akikaribia kupata dhamana ya pili kwa benki"**
@@ -910,13 +908,13 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 #### Rika-kwa-rika (peer-to-peer) bila chombo kikuu
 
 
-Bitcoin inafafanuliwa kama "mfumo wa pesa za kielektroniki wa rika-kwa-rika." Hii ina maana kwamba mtu yeyote anaweza kuunganisha kwenye mtandao kwa kutumia programu inayofaa (node ya Bitcoin) na kuingiliana moja kwa moja na watumiaji wengine, bila kutegemea seva kuu. Lengo la ugatuaji huu ni kuzuia huluki yoyote moja (kama vile benki, serikali, au shirika kubwa) kudhibiti, kuathiri, au kusimamisha mfumo. Bitcoin inafanya kazi 24/7, duniani kote, na inapatikana kwa kila mtu bila masharti yoyote.
+Bitcoin inafafanuliwa kama "mfumo wa pesa za kielektroniki wa [rika-kwa-rika](https://planb.academy/resources/glossary/peertopeer-p2p)." Hii ina maana kwamba mtu yeyote anaweza kuunganisha kwenye mtandao kwa kutumia programu inayofaa ([node](https://planb.academy/resources/glossary/node) ya Bitcoin) na kuingiliana moja kwa moja na watumiaji wengine, bila kutegemea seva kuu. Lengo la ugatuaji huu ni kuzuia huluki yoyote moja (kama vile benki, serikali, au shirika kubwa) kudhibiti, kuathiri, au kusimamisha mfumo. Bitcoin inafanya kazi 24/7, duniani kote, na inapatikana kwa kila mtu bila masharti yoyote.
 
 
 ![image](assets/sw/034.webp)
 
 
-Kwa maneno rahisi, kila mshiriki katika mtandao wa Bitcoin (anayeitwa "node") ana nakala kamili ya leja ya miamala, inayojulikana kama **blockchain**. muamala mpya unapofanyika, hutangazwa kwenye mtandao. Kisha miners huthibitisha miamala hii kwa kuiweka katika vikundi vinavyoongezwa kwenye mwisho wa mnyororo (hivyo basi jina "blockchain").
+Kwa maneno rahisi, kila mshiriki katika mtandao wa Bitcoin (anayeitwa "node") ana nakala kamili ya leja ya miamala, inayojulikana kama **blockchain**. muamala mpya unapofanyika, hutangazwa kwenye mtandao. Kisha [miners](https://planb.academy/resources/glossary/miner) huthibitisha miamala hii kwa kuiweka katika vikundi vinavyoongezwa kwenye mwisho wa mnyororo (hivyo basi jina "blockchain").
 
 
 ![image](assets/sw/035.webp)
@@ -959,7 +957,7 @@ Hatimaye, karibu mwaka wa 2140, ruzuku itafikia sifuri, kwani jumla ya kiasi cha
 #### Uhaba na Sera ya Fedha isiyobadilika
 
 
-Moja ya vipengele muhimu zaidi vya Bitcoin ni *sera yake ya fedha inayoweza kutabirika na isiyoweza kubadilika*. Tofauti na sarafu za kitamaduni (kama vile dola, euro au yen), ambazo zinaweza kuchapishwa kwa hiari na benki kuu (mara nyingi husababisha mfumuko wa bei au upotoshaji wa kiuchumi)Bitcoin hufanya kazi chini ya seti ya uwazi iliyopachikwa katika kanuni zake.
+Moja ya vipengele muhimu zaidi vya Bitcoin ni *sera yake ya fedha inayoweza kutabirika na isiyoweza kubadilika*. Tofauti na sarafu za kitamaduni (kama vile dola, euro au yen), ambazo zinaweza kuchapishwa kwa hiari na benki kuu (mara nyingi husababisha [mfumuko wa bei](https://planb.academy/resources/glossary/inflation) au upotoshaji wa kiuchumi)Bitcoin hufanya kazi chini ya seti ya uwazi iliyopachikwa katika kanuni zake.
 
 Kutakuwa na bitcoin milioni 21 tu, na kiwango ambacho sarafu mpya hutolewa kinajulikana mapema na kila mtu kwenye mtandao.
 
@@ -987,7 +985,7 @@ Mojawapo ya uwezo wa chini kabisa wa Bitcoin ni mgawanyiko wake. Kila Bitcoin in
 
 Bitcoin huendeshwa kwa protocol ya umma, **chanzo huria**(haswa zaidi kupitia [Bitcoin Core](https://github.com/Bitcoin/Bitcoin)). Hii inamaanisha kuwa msimbo wake unapatikana bila malipo kwa mtu yeyote kukagua, kukagua na kuboresha. Hakuna mifumo iliyofichwa au mifumo iliyofungwa; kila kitu kuhusu jinsi Bitcoin inavyofanya kazi kiko wazi.
 
-Kiwango hiki cha uwazi hufanya iwe vigumu sana kutambulisha milango ya nyuma au kufanya mabadiliko ya siri. Mtu yeyote aliye na ujuzi wa kiufundi anaweza kuendesha node, kuchangia maendeleo, au kuunda zana zinazolingana. Katika Bitcoin, uaminifu hupatikana kupitia msimbo na makubaliano, si kupitia udhibiti wa serikali kuu.
+Kiwango hiki cha uwazi hufanya iwe vigumu sana kutambulisha milango ya nyuma au kufanya mabadiliko ya siri. Mtu yeyote aliye na ujuzi wa kiufundi anaweza kuendesha node, kuchangia maendeleo, au kuunda zana zinazolingana. Katika Bitcoin, uaminifu hupatikana kupitia msimbo na [makubaliano](https://planb.academy/resources/glossary/consensus), si kupitia udhibiti wa serikali kuu.
 
 
 ![image](assets/sw/039.webp)
@@ -1014,7 +1012,7 @@ Ingawa mbinu hii ni ya kiufundi zaidi, inawapa watumiaji wanaohitaji sana uwezo 
 #### Mbinu ya Malipo Inayostahimili Mipaka
 
 
-Kutokana na hali yake ya ugatuzi, Bitcoin inafanya kazi 24/7, bila kuathiriwa na mipaka au maeneo ya saa. Katika maeneo ambayo miundombinu ya benki ya kitamaduni inakosekana, Bitcoin mara nyingi hutumiwa kama suluhisho la haraka, la bei ya chini kwa kutuma au kupokea pesa bila kutegemea wasuluhishi wa gharama kubwa. Ingawa ada za muamala zinaweza kutofautiana kulingana na msongamano wa mtandao, kwa ujumla ni chini sana kuliko ada zinazotozwa na benki kwa uhamisho wa kimataifa. Zaidi ya hayo, suluhu za Layer-2 kama [Lightning Network](https://planb.academy/resources/glossary/lightning-network) huruhusu miamala ya haraka na ya bei nafuu zaidi ya Bitcoin.
+Kutokana na hali yake ya ugatuzi, Bitcoin inafanya kazi 24/7, bila kuathiriwa na mipaka au maeneo ya saa. Katika maeneo ambayo miundombinu ya benki ya kitamaduni inakosekana, Bitcoin mara nyingi hutumiwa kama suluhisho la haraka, la bei ya chini kwa kutuma au kupokea pesa bila kutegemea wasuluhishi wa gharama kubwa. Ingawa ada za muamala zinaweza kutofautiana kulingana na msongamano wa mtandao, kwa ujumla ni chini sana kuliko ada zinazotozwa na benki kwa uhamisho wa kimataifa. Zaidi ya hayo, suluhu za Layer-2 kama Lightning Network huruhusu miamala ya haraka na ya bei nafuu zaidi ya Bitcoin.
 
 
 #### Hifadhi ya thamani
@@ -1242,7 +1240,7 @@ Wanabiashara wa Bitcoin wanatoka nyanja mbalimbali, lakini wana maono yanayofana
 - **Cypherpunks**, wanaotetea faragha na kupinga ufuatiliaji;
 - **Raia waliokandamizwa**, wanaotafuta kimbilio kutoka kwa tawala za kimabavu na udhibiti wa mtaji;
 - **Wanaharakati**, wanaoona Bitcoin kama chombo cha ukombozi kutoka kwa udhibiti wa serikali;
-- **Wanauchumi wa Austria**, wanaotetea pesa nzuri na uhuru kutoka kwa udanganyifu wa serikali;
+- **[Wanauchumi wa Austria](https://planb.academy/resources/glossary/austrian-school)**, wanaotetea pesa nzuri na uhuru kutoka kwa udanganyifu wa serikali;
 - **Wahandisi, wafadhili na watetezi wa uhuru wa kujieleza**, wanaotambua athari za kina za kijamii za dhana hii mpya ya kifedha.
 
 
@@ -1545,7 +1543,7 @@ Sekta ya Bitcoin Wallet imegawanywa katika kategoria kadhaa, kila moja ikizingat
 
 
 
-- **[Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) Manufacturers**: Kampuni hizi hutengeneza vifaa halisi vilivyoundwa kwa uhifadhi wa ufunguo salama. Baadhi ni chanzo huria, ilhali zingine hutoa suluhu za umiliki zenye vipengele tofauti na viwango vya usalama. Majina mashuhuri ni pamoja na Ledger, Trezor, Coinkite, Foundation, na Shiftcrypto.
+- **Hardware Wallet Manufacturers**: Kampuni hizi hutengeneza vifaa halisi vilivyoundwa kwa uhifadhi wa ufunguo salama. Baadhi ni chanzo huria, ilhali zingine hutoa suluhu za umiliki zenye vipengele tofauti na viwango vya usalama. Majina mashuhuri ni pamoja na Ledger, Trezor, Coinkite, Foundation, na Shiftcrypto.
  
 - **Wasanidi wa Software Wallet**: Hawa huanzia makampuni hadi wasanidi huru wanaounda programu za simu na za mezani. Matoleo yao yanatofautiana katika uzoefu wa mtumiaji, usalama, na vipengele. Mifano ni pamoja na Sparrow, Wizard Sardine, Galoy, Synonym, na Blockstream.
 -DIY (*Jifanyie Mwenyewe*) Wallet: Suluhu hizi za programu huria zimeundwa kwa watumiaji wa hali ya juu ambao wanataka udhibiti kamili na utegemezi mdogo kwa wahusika wengine. Kuunda wallet yako mwenyewe hupunguza utegemezi wa uaminifu na kunaweza kuongeza mkao wako wa usalama. Chaguzi zinazojulikana za DIY ni pamoja na Seedsigner na Specter DIY.
@@ -1557,7 +1555,7 @@ Wallet ina jukumu muhimu katika Bitcoin na itagunduliwa kwa kina zaidi baadaye k
 #### Bitcoin Mining
 
 
-Mining ni kazi ya msingi ya mtandao wa Bitcoin. Inahakikisha usalama wa mfumo na kuweka Blockchain kufanya kazi. Miners huidhinisha miamala na kulinda mtandao kwa kufanya hesabu zinazotumia nishati nyingi zinazojulikana kama Proof of Work. Kila block mpya inaochimbwa huongeza kundi la miamala kwa Blockchain na kutoa bitcoin mpya kulingana na ratiba ya utoaji wa protocol.
+Mining ni kazi ya msingi ya mtandao wa Bitcoin. Inahakikisha usalama wa mfumo na kuweka Blockchain kufanya kazi. Miners huidhinisha miamala na kulinda mtandao kwa kufanya hesabu zinazotumia nishati nyingi zinazojulikana kama [Proof of Work](https://planb.academy/resources/glossary/proof-of-work). Kila block mpya inaochimbwa huongeza kundi la miamala kwa Blockchain na kutoa bitcoin mpya kulingana na ratiba ya utoaji wa protocol.
 
 
 Katika siku za mwanzo za Bitcoin, Mining inaweza kufanywa kutoka kwa kompyuta ya kibinafsi. Leo, ni tasnia shindani, ya kimataifa inayotawaliwa na makampuni yenye rasilimali nyingi za kifedha na kiufundi. Tamaa ya kupata vyanzo vya bei nafuu vya nishati imekuwa jambo kuu, kwani miners wanalenga kuongeza gharama za uendeshaji na faida. Operesheni za Mining sasa zinaanzia vifaa vikubwa vya viwandani hadi visanidi vidogo vinavyoendeshwa majumbani au karakana.
@@ -1592,7 +1590,7 @@ Ukuzaji wa Bitcoin unaweza kueleweka kupitia vikundi vichache tofauti vya wachan
 - **Wasanidi programu wanaojitegemea**, Wasanidi programu hawa hulenga kuunda zana na programu ili kuboresha matumizi ya mtumiaji, kama vile Mempool.space (Interface inayoonekana ya kufuatilia shughuli za muamala) au Alby( zana za kutumia malipo ya Mwani katika vivinjari na programu).
 
 
-Mtu yeyote anaweza kupendekeza mabadiliko kwenye Bitcoin Core, lakini mchakato huo ni mkali kimakusudi. Mawazo mapya mara nyingi huchukua miaka kuboresha na kuhitaji uelewa wa kina wa kiufundi, ushirikiano mpana wa jumuiya, na tabaka nyingi za ukaguzi. Mapendekezo kwa kawaida huwasilishwa katika mfumo wa **Mapendekezo ya Uboreshaji ya Bitcoin (BIPs)**;ambayo baadhi yao hayafanyiki katika protocol.
+Mtu yeyote anaweza kupendekeza mabadiliko kwenye Bitcoin Core, lakini mchakato huo ni mkali kimakusudi. Mawazo mapya mara nyingi huchukua miaka kuboresha na kuhitaji uelewa wa kina wa kiufundi, ushirikiano mpana wa jumuiya, na tabaka nyingi za ukaguzi. Mapendekezo kwa kawaida huwasilishwa katika mfumo wa **Mapendekezo ya Uboreshaji ya Bitcoin ([BIPs](https://planb.academy/resources/glossary/bip))**;ambayo baadhi yao hayafanyiki katika protocol.
 
 Ubunifu unakaribishwa, lakini tu unapoungwa mkono na hoja dhabiti, makubaliano ya jumuiya na majaribio ya makini.
 
@@ -1640,7 +1638,7 @@ Miongoni mwa mifumo kuu ya uwekaji kurutubisha mfumo ikolojia wa Bitcoin ni:
 - **Lightning Network**:
 
 
-Lightning Network, iliyoundwa na Thaddeus Dryja na Joseph Poon mnamo 2016, ni suluhisho la pili la Layer iliyoundwa ili kuwezesha malipo ya papo hapo na ya bei ya chini. Watumiaji wawili wanaweza kufungua chaneli ya kibinafsi ambapo wanaweza kufanya miamala na salio likisasishwa tu kwenye Blockchain chaneli inapofunguliwa au kufungwa. Miamala ndani ya kituo hutokea off-chain, kumaanisha kwamba haihitaji kurekodiwa kibinafsi kwenye Bitcoin Blockchain. Muundo huu huwezesha miamala ya papo hapo na ada ndogo, na kuifanya kuwa bora kwa miamala ya bei ya chini inayohitaji uthibitisho wa haraka.
+Lightning Network, iliyoundwa na Thaddeus Dryja na Joseph Poon mnamo 2016, ni suluhisho la pili la Layer iliyoundwa ili kuwezesha malipo ya papo hapo na ya bei ya chini. Watumiaji wawili wanaweza kufungua [chaneli](https://planb.academy/resources/glossary/payment-channel) ya kibinafsi ambapo wanaweza kufanya miamala na salio likisasishwa tu kwenye Blockchain chaneli inapofunguliwa au kufungwa. Miamala ndani ya kituo hutokea off-chain, kumaanisha kwamba haihitaji kurekodiwa kibinafsi kwenye Bitcoin Blockchain. Muundo huu huwezesha miamala ya papo hapo na ada ndogo, na kuifanya kuwa bora kwa miamala ya bei ya chini inayohitaji uthibitisho wa haraka.
 
 
 ![image](assets/sw/061.webp)
@@ -1678,7 +1676,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 RGB ni mfumo wa Smart contract uliogatuliwa na unaozingatia ufaragha ulioundwa kufanya kazi juu ya Bitcoin na Lightning Network. Tofauti na majukwaa ya kitamaduni ya Smart contract, RGB hutumia modeli ya Client-side Validation (ikimaanisha kuwa Contract State kamili imehifadhiwa off-chain, na ahadi za cryptography pekee ndizo huchapishwa kwa Bitcoin Blockchain). Muundo huu unaboresha uzani na faragha. Kwa RGB, watumiaji wanaweza kuunda kandarasi za hali ya juu za utoaji wa tokeni, NFTs, vitambulisho vilivyogatuliwa, au hata programu za DeFi, moja kwa moja kwenye Bitcoin au Lightning.
 
 
-Element muhimu cha RGB ni ulinzi wake dhidi ya Double-spending, unaopatikana kwa mbinu ya cryptography inayoitwa singleuse seal. Utaratibu huu unategemea ukweli kwamba UTXO za Bitcoin (Matokeo ya Shughuli Zisizotumika) zinaweza kutumika mara moja pekee. Usahihi wa tokeni unahakikishwa na uthibitishaji wa upande wa mtumiaji wa historia nzima ya Contract (kutoka kuundwa kwake hadi hali yake ya sasa).
+Element muhimu cha RGB ni ulinzi wake dhidi ya Double-spending, unaopatikana kwa mbinu ya cryptography inayoitwa singleuse seal. Utaratibu huu unategemea ukweli kwamba [UTXO](https://planb.academy/resources/glossary/utxo) za Bitcoin (Matokeo ya Shughuli Zisizotumika) zinaweza kutumika mara moja pekee. Usahihi wa tokeni unahakikishwa na uthibitishaji wa upande wa mtumiaji wa historia nzima ya Contract (kutoka kuundwa kwake hadi hali yake ya sasa).
 
 
 ![image](assets/sw/062.webp)
@@ -1704,7 +1702,7 @@ Muundo huu wa tabaka unasimama tofauti na tasnia kubwa ya crypto, ambayo mara ny
 ### Zana za Muuzaji za Kukubali Bitcoin
 
 
-Leo, kuna zana nyingi zinazopatikana kwa wafanyabiashara wanaotaka kukubali Bitcoin kama njia ya malipo. Kwa biashara ndogo ndogo zinazotafuta usanidi rahisi, kutumia [hot wallet](https://planb.academy/resources/glossary/hot-wallet--software-wallet) (au hata wallet ya Lightning) mara nyingi inatosha kuanza kukubali malipo moja kwa moja. Biashara kubwa zinazohitaji uhasibu na ripoti sahihi kwa kawaida zitapendelea mifumo ya juu zaidi ya usindikaji wa malipo. Kwa bahati nzuri, kuna chaguzi kadhaa zinazopatikana kulingana na mahitaji yako.
+Leo, kuna zana nyingi zinazopatikana kwa wafanyabiashara wanaotaka kukubali Bitcoin kama njia ya malipo. Kwa biashara ndogo ndogo zinazotafuta usanidi rahisi, kutumia hot wallet (au hata wallet ya Lightning) mara nyingi inatosha kuanza kukubali malipo moja kwa moja. Biashara kubwa zinazohitaji uhasibu na ripoti sahihi kwa kawaida zitapendelea mifumo ya juu zaidi ya usindikaji wa malipo. Kwa bahati nzuri, kuna chaguzi kadhaa zinazopatikana kulingana na mahitaji yako.
 
 
 Iwapo unapendelea suluhisho la kughairi na unataka kupokea sarafu ya fiat moja kwa moja kwenye akaunti yako ya benki, huduma za uhifadhi kama OpenNode hutoa matumizi yaliyoratibiwa:
@@ -2386,7 +2384,7 @@ Mbinu chache bora:
 - Thibitisha mara kwa mara uadilifu wa maneno yako ya kurejesha akaunti. Hakikisha kuwa bahasha haijachezewa na kwamba kati bado inasomeka. Ikiwa kitu chochote kitaharibika, generate nakala rudufu mpya kutoka kwa Wallet yako;
 
 
-Ili kufuatilia umiliki wako bila kuhatarisha funguo zako za faragha, zingatia kutumia Watch-only Wallet. Aina hii ya wallet hukuruhusu kufuatilia salio na miamala kwa kutumia funguo zako za umma pekee.
+Ili kufuatilia umiliki wako bila kuhatarisha funguo zako za faragha, zingatia kutumia Watch-only Wallet. Aina hii ya wallet hukuruhusu kufuatilia salio na miamala kwa kutumia [funguo zako za umma](https://planb.academy/resources/glossary/public-key) pekee.
 
 
 https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
@@ -2940,7 +2938,7 @@ https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
 
-- **Hot Wallet kwa ajili ya shughuli za kila siku**, Kwa matumizi ya kawaida, watumiaji wasio na akili huchagua wallet zinazolenga faragha kama vile Ashigaru, Wasabi Wallet au Sparrow wallet.  Wallet hizi zinaauni vipengele vya kina kama vile: miamala ya matumizi ya mini-CoinJoin, viungo vya malipo, zana zinazowezekana za CoinJoin, udhibiti wa sarafu, kuweka lebo kwa UTXO, au uwezo wa kuunganisha kupitia node yako ya Bitcoin.
+- **Hot Wallet kwa ajili ya shughuli za kila siku**, Kwa matumizi ya kawaida, watumiaji wasio na akili huchagua wallet zinazolenga faragha kama vile Ashigaru, Wasabi Wallet au Sparrow wallet.  Wallet hizi zinaauni vipengele vya kina kama vile: miamala ya matumizi ya mini-[CoinJoin](https://planb.academy/resources/glossary/coinjoin), viungo vya malipo, zana zinazowezekana za CoinJoin, udhibiti wa sarafu, kuweka lebo kwa UTXO, au uwezo wa kuunganisha kupitia node yako ya Bitcoin.
 
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d

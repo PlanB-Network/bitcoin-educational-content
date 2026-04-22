@@ -1,0 +1,11 @@
+question: Dịch vụ trao đổi ngoại tệ giữa cá nhân với cá nhân do Jeremias Kangas và anh trai của ông khởi xướng vào tháng 6 năm 2012 có tên là gì?
+answer: LocalBitcoins
+wrong_answers:
+  - BTC GẦN TÔI
+  - BitInstant
+  - Coinabul
+explanation: |
+ Đây là một nền tảng mai mối, được ra mắt vào ngày 7 tháng 6. Trong suốt mùa hè, LocalBitcoins đã tích hợp một hệ thống ký quỹ, thông qua đó bitcoin có thể được
+ nền tảng tạm thời giữ và giải phóng qua tin nhắn SMS để thanh toán cho người mua. Đặc biệt, điều này cho phép các giao dịch trực tiếp, trong đó người bán sẽ
+ giải phóng bitcoin sau khi nhận được tiền mặt.
+reviewed: true

@@ -6,3 +6,4 @@ wrong_answers:
   - Mengalikan dua angka prima besar untuk mendapatkan sebuah produk
 explanation: |
   Keamanan RSA didasarkan pada kesulitan memfaktorkan sebuah angka besar (hasil kali dari dua angka prima besar) menjadi dua faktor primanya, sebuah tugas yang hampir mustahil tanpa kunci privat.
+reviewed: true

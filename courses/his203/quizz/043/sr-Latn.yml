@@ -1,0 +1,9 @@
+question: Koji bezbednosni problem koji je otkrio Russell O'Connor u februaru 2012. godine doveo je do stvaranja BIP 30?
+answer: Prisustvo duplih transakcija na blockchainu
+wrong_answers:
+  - Problem vizantijskih generala koji poništavaju konsenzus
+  - Postojanje greške rekurzije u OP_EVAL instrukciji
+  - Uklanjanje viška elementa od strane OP_CHECKMULTISIG operatera
+explanation: |
+ Ovo su bile transakcije nagrada sa istim identifikatorom uključenim u različite blokove. Dana 4. februara 2012. godine, Russell O'Connor je otkrio ranjivost koja je omogućavala da se sve transakcije proizašle iz jedne od ovih duplih transakcija direktno izbrišu putem reorganizacije lanca. Zakrpa, opisana u BIP 30 od strane Pieter Wuille, primenjena je na mrežu 15. marta.
+reviewed: true

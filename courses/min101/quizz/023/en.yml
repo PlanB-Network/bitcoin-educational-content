@@ -6,4 +6,4 @@ wrong_answers:
   - The block size increases
 explanation: |
   Blocks found too quickly indicate a higher hashrate, so Bitcoin tightens the condition by lowering the target.
-reviewed: false
+reviewed: true

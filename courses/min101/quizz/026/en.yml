@@ -6,4 +6,4 @@ wrong_answers:
   - mempoolMinBits
 explanation: |
   Nodes apply local policies and Bitcoin Core uses the minRelayTxFee parameter for the minimum relay threshold.
-reviewed: false
+reviewed: true

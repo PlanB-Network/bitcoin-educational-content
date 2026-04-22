@@ -1,9 +1,9 @@
-question: Loại hình doanh nghiệp nào có khả năng tìm thấy tệp CSV đơn giản đủ cho mục đích kế toán?
+question: Loại doanh nghiệp nào có khả năng sử dụng dữ liệu đơn giản (định dạng CSV) hiệu quả cho mục đích kế toán?
 answer: Doanh nghiệp nhỏ
 wrong_answers:
   - Các tập đoàn đa quốc gia lớn
   - Các tổ chức tài chính lớn
   - Nền tảng giao dịch tần suất cao
 explanation: |
-  Hầu hết các doanh nghiệp nhỏ đều được hưởng lợi từ tính đơn giản và thông tin chi tiết đầy đủ mà tệp xuất CSV cung cấp.
+  Hầu hết các doanh nghiệp vừa và nhỏ đều được hưởng lợi từ tính đơn giản và thông tin chi tiết đầy đủ mà dữ liệu dưới định dạng tệp tin CSV cung cấp.
 reviewed: true

@@ -6,3 +6,4 @@ wrong_answers:
   - Ini mencegah penggunaan kembali kunci untuk transaksi berulang
 explanation: |
   Pertukaran kunci secara langsung mahal dan tidak efisien, terutama dalam skala besar, karena memperlambat transaksi dan memberlakukan biaya logistik yang signifikan untuk setiap klien baru.
+reviewed: true

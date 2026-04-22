@@ -1,0 +1,10 @@
+question: ¿En torno a qué nivel cayó el precio del bitcoin al final del mercado bajista que siguió a la gran burbuja de 2011?
+answer: 2 $
+wrong_answers:
+  - 0,01 $
+  - 6 $
+  - 17,5 $
+explanation: |
+ Tras alcanzar un máximo de 32 dólares en junio de 2011, el precio del bitcoin cayó drásticamente hasta los 6 dólares a principios de agosto, y luego siguió bajando hasta situarse finalmente en torno a los 2 dólares en
+ Noviembre de 2011. Esto supuso una caída de más del 90% desde el máximo de junio.
+reviewed: true

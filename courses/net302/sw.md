@@ -89,8 +89,6 @@ Je, uko tayari kuzama katika ulimwengu wa mitandao ya kompyuta? Twende!
 **KUMBUKA**: Maelezo yanatokana na mfumo wa GNU/Linux CentOS 7. Walakini, usanidi wa mtandao kwa kiasi kikubwa ni sawa wakati wa kulinganisha Debian na mfumo wa CentOS. Kwa hivyo, hatutafanya tofauti yoyote. Wakati kuna moja, tutakiambisha kwa nembo mahususi.
 
 
-**N.B.**: Ukikutana na maneno yoyote usiyoyafahamu wakati wa kozi, tafadhali soma [faharasa](https://planb.academy/resources/glossary) kwa ufafanuzi.
-
 
 
 # Protocol za TCP/IP

@@ -1,0 +1,10 @@
+question: Qual foi o conceito por trás do P2Pool, o pool mining distribuído criado por Forrest Voight em 2011?
+answer: A cadeia de acções
+wrong_answers:
+  - Sondagem longa
+  - A assinatura da coinbase
+  - O FPGA
+explanation: |
+ A "cadeia de acções", ou sharechain, era constituída por provas parciais de trabalho contribuídas pelos participantes. Era mantida pelos participantes, que estavam ligados
+ peer-to-peer. Cada ação continha a impressão digital da ação anterior, garantindo a integridade do conjunto.
+reviewed: true

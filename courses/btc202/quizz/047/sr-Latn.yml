@@ -1,9 +1,9 @@
 question: Koje mere bezbednosti se toplo preporučuju prilikom kreiranja Umbrel naloga?
-answer: Aktiviraj 2FA
+answer: Aktiviranje 2FA
 wrong_answers:
-  - Onemogući lozinku
+  - Onemogućavanje lozinke
   - Korišćenje PIN koda
-  - Onemogući sve veze
+  - Onemogućavanja svih veza
 explanation: |
-  2FA dodaje dodatnu zaštitu i toplo se preporučuje, posebno kada koristite Lightning čvor ili osetljivo samostalno hostovanje.
+  2FA dodaje dodatnu zaštitu i toplo se preporučuje, posebno kada koristite Lightning čvor ili self-hosting osetljivih podataka.
 reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - SHA512d
 explanation: |
   Bitcoin mining uses SHA256 applied twice, generally denoted as SHA256d.
-reviewed: false
+reviewed: true

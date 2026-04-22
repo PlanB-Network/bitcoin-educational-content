@@ -94,7 +94,7 @@ La notación formal se refiere principalmente a variables, variables aleatorias 
 
 <chapterId>ae674346-4789-5ab1-9b6f-c8989d83be89</chapterId>
 
-Comencemos nuestra indagación en el campo de la criptografía con uno de los episodios más entrañables y divertidos de su historia: el de los cifrados Beale. [1]
+Comencemos nuestra indagación en el campo de la [criptografía](https://planb.academy/resources/glossary/cryptography) con uno de los episodios más entrañables y divertidos de su historia: el de los [cifrados](https://planb.academy/resources/glossary/encryption-encrypt) Beale. [1]
 
 La historia de las claves Beale tiene, en mi opinión, más visos de ficción que de realidad. Pero supuestamente ocurrió lo siguiente.
 
@@ -144,13 +144,13 @@ Por tanto, es importante distinguir entre un **esquema de cifrado** y un **esque
 
 Los temas de la integridad y la autenticidad son tan importantes como el secreto. Nuestros modernos sistemas de comunicación no podrían funcionar sin garantías de integridad y autenticidad de las comunicaciones. El no repudio también es una preocupación importante, como en el caso de los contratos digitales, pero es menos necesario en las aplicaciones criptográficas que el secreto, la integridad y la autenticidad.
 
-En segundo lugar, los esquemas de cifrado clásicos, como los cifrados Beale, siempre implican una clave que se comparte entre todas las partes implicadas. Sin embargo, muchos esquemas criptográficos modernos implican no solo una, sino dos claves: una **privada** y una **pública**. Mientras que la primera debe permanecer privada en cualquier aplicación, la segunda suele ser de dominio público (de ahí sus respectivos nombres). En el ámbito del cifrado, la clave pública puede utilizarse para cifrar el mensaje, mientras que la privada puede utilizarse para descifrarlo.
+En segundo lugar, los esquemas de cifrado clásicos, como los cifrados Beale, siempre implican una clave que se comparte entre todas las partes implicadas. Sin embargo, muchos esquemas criptográficos modernos implican no solo una, sino dos claves: una **privada** y una **pública**. Mientras que la primera debe permanecer privada en cualquier aplicación, la segunda suele ser de dominio público (de ahí sus respectivos nombres). En el ámbito del cifrado, la [clave pública](https://planb.academy/resources/glossary/public-key) puede utilizarse para cifrar el mensaje, mientras que la privada puede utilizarse para descifrarlo.
 
-La rama de la criptografía que se ocupa de los esquemas en los que todas las partes comparten una clave se conoce como **criptografía simétrica**. La clave única en un esquema de este tipo suele denominarse **clave privada** (o clave secreta). La rama de la criptografía que se ocupa de los esquemas que requieren un par de claves privada-pública se conoce como **criptografía asimétrica**. A veces también se hace referencia a estas ramas como **criptografía de clave privada** y **criptografía de clave pública**, respectivamente (aunque esto puede crear confusión, ya que los esquemas criptográficos de clave pública también tienen claves privadas).
+La rama de la criptografía que se ocupa de los esquemas en los que todas las partes comparten una clave se conoce como **criptografía simétrica**. La clave única en un esquema de este tipo suele denominarse **[clave privada](https://planb.academy/resources/glossary/private-key)** (o clave secreta). La rama de la criptografía que se ocupa de los esquemas que requieren un par de claves privada-pública se conoce como **criptografía asimétrica**. A veces también se hace referencia a estas ramas como **criptografía de clave privada** y **criptografía de clave pública**, respectivamente (aunque esto puede crear confusión, ya que los esquemas criptográficos de clave pública también tienen claves privadas).
 
 La aparición de la criptografía asimétrica a finales de los años 70 ha sido uno de los acontecimientos más importantes de la historia de la criptografía. Sin ella, la mayoría de nuestros sistemas de comunicación modernos, incluido Bitcoin, no serían posibles, o al menos serían muy poco prácticos.
 
-Es importante destacar que la criptografía moderna no consiste exclusivamente en el estudio de esquemas criptográficos de clave simétrica y asimétrica (aunque esto abarca gran parte del campo). Por ejemplo, la criptografía también se ocupa de las funciones hash y los generadores de números pseudoaleatorios, y se pueden crear aplicaciones basadas en estas primitivas que no están relacionadas con la criptografía de clave simétrica o asimétrica.
+Es importante destacar que la criptografía moderna no consiste exclusivamente en el estudio de esquemas criptográficos de clave simétrica y asimétrica (aunque esto abarca gran parte del campo). Por ejemplo, la criptografía también se ocupa de las [funciones hash](https://planb.academy/resources/glossary/hash-function) y los generadores de números pseudoaleatorios, y se pueden crear aplicaciones basadas en estas primitivas que no están relacionadas con la criptografía de clave simétrica o asimétrica.
 
 En tercer lugar, los esquemas de cifrado clásicos, como los utilizados en los cifradores Beale, eran más arte que ciencia. Su seguridad se basaba en gran medida en intuiciones sobre su complejidad. Normalmente se parcheaban cuando se descubría un nuevo ataque contra ellos, o se abandonaban por completo si el ataque era especialmente grave. Sin embargo, la criptografía moderna es una ciencia rigurosa con un enfoque formal y matemático para desarrollar y analizar esquemas criptográficos. [5]
 
@@ -1736,7 +1736,7 @@ Al menos una de las principales motivaciones de su aventura fue la previsión de
 
 La tenacidad de Diffie, Hellman y Merkle dio sus frutos. La primera publicación de sus resultados fue un artículo de Diffie y Helmann en 1976 titulado "New Directions in Cryptography" En él, presentaban dos formas originales de abordar los problemas de distribución y gestión de claves.
 
-La primera solución que ofrecieron fue un *protocolo de intercambio de claves* remoto, es decir, un conjunto de reglas para el intercambio de una o más claves simétricas a través de un canal de comunicación inseguro. Este protocolo se conoce ahora como *intercambio de claves Diffie-Helmann* o *intercambio de claves Diffie-Helmann-Merkle*. [2]
+La primera solución que ofrecieron fue un *protocolo de intercambio de claves* remoto, es decir, un conjunto de reglas para el intercambio de una o más claves simétricas a través de un canal de comunicación inseguro. Este protocolo se conoce ahora como *intercambio de claves [Diffie-Helmann](https://planb.academy/resources/glossary/diffiehellman)* o *intercambio de claves Diffie-Helmann-Merkle*. [2]
 
 Con el intercambio de claves Diffie-Helmann, dos partes intercambian primero cierta información públicamente en un canal inseguro como Internet. A partir de esa información, crean independientemente una clave simétrica (o un par de claves simétricas) para una comunicación segura. Aunque ambas partes crean sus claves de forma independiente, la información que comparten públicamente garantiza que este proceso de creación de claves produce el mismo resultado para ambas.
 
@@ -1770,7 +1770,7 @@ Las funciones de trampilla utilizadas en la criptografía asimétrica (y en el i
 
 El **problema del logaritmo discreto** es un problema que se plantea en los grupos cíclicos. Dado un generador en un grupo cíclico particular, requiere el cálculo del exponente único necesario para producir otro elemento en el grupo a partir del generador.
 
-Los esquemas basados en logaritmos discretos se basan en dos tipos principales de grupos cíclicos: grupos multiplicativos de enteros y grupos que incluyen los puntos de las curvas elípticas. El intercambio de claves original de Diffie Helmann presentado en "New Directions in Cryptography" funciona con un grupo cíclico multiplicativo de enteros. El algoritmo de firma digital de Bitcoin y el recientemente introducido esquema de firma Schnorr (2021) se basan ambos en el problema del logaritmo discreto para un grupo cíclico de curvas elípticas concreto.
+Los esquemas basados en logaritmos discretos se basan en dos tipos principales de grupos cíclicos: grupos multiplicativos de enteros y grupos que incluyen los puntos de las [curvas elípticas](https://planb.academy/resources/glossary/elliptic-curve). El intercambio de claves original de Diffie Helmann presentado en "New Directions in Cryptography" funciona con un grupo cíclico multiplicativo de enteros. El algoritmo de [firma digital](https://planb.academy/resources/glossary/digital-signature) de Bitcoin y el recientemente introducido esquema de [firma Schnorr](https://planb.academy/resources/glossary/schnorr-protocol) (2021) se basan ambos en el problema del logaritmo discreto para un grupo cíclico de curvas elípticas concreto.
 
 A continuación, pasaremos a una visión general de alto nivel del secreto y la autenticación en el entorno asimétrico. Antes de hacerlo, sin embargo, debemos hacer un breve apunte histórico.
 
@@ -1834,7 +1834,7 @@ Por ejemplo, las firmas digitales son un aspecto importante de la distribución 
 
 Un último ejemplo del poder de las firmas digitales es Bitcoin. Uno de los errores más comunes sobre Bitcoin, sobre todo en los medios de comunicación, es que las transacciones están encriptadas: no es así. En cambio, las transacciones de Bitcoin funcionan con firmas digitales para garantizar la seguridad.
 
-Los bitcoins existen en lotes llamados salidas de transacciones no gastadas (o **UTXO's**). Supongamos que recibe tres pagos en una dirección Bitcoin concreta por 2 bitcoins cada uno. Técnicamente, ahora no tiene 6 bitcoins en esa dirección. En su lugar, tienes tres lotes de 2 bitcoins que están bloqueados por un problema criptográfico asociado a esa dirección. Para cualquier pago que hagas, puedes usar uno, dos o los tres lotes, dependiendo de cuánto necesites para la transacción.
+Los bitcoins existen en lotes llamados salidas de transacciones no gastadas (o **[UTXO](https://planb.academy/resources/glossary/utxo)'s**). Supongamos que recibe tres pagos en una dirección Bitcoin concreta por 2 bitcoins cada uno. Técnicamente, ahora no tiene 6 bitcoins en esa dirección. En su lugar, tienes tres lotes de 2 bitcoins que están bloqueados por un problema criptográfico asociado a esa dirección. Para cualquier pago que hagas, puedes usar uno, dos o los tres lotes, dependiendo de cuánto necesites para la transacción.
 
 La prueba de propiedad sobre los resultados de transacciones no gastadas se muestra normalmente a través de una o más firmas digitales. Bitcoin funciona precisamente porque las firmas digitales válidas sobre los resultados de transacciones no gastadas son computacionalmente inviables de hacer, a menos que se esté en posesión de la información secreta necesaria para hacerlas.
 
@@ -1880,7 +1880,7 @@ Una **función hash criptográfica** es simplemente una función hash que es út
 
 En el contexto de la criptografía, una "función hash" suele referirse a una función hash criptográfica. Adoptaré esa práctica de aquí en adelante.
 
-Un ejemplo de función hash popular es **SHA-256** (algoritmo hash seguro 256). Independientemente del tamaño de la entrada (por ejemplo, 15 bits, 100 bits o 10.000 bits), esta función producirá un valor hash de 256 bits. A continuación puedes ver algunos ejemplos de resultados de la función SHA-256.
+Un ejemplo de función hash popular es **[SHA-256](https://planb.academy/resources/glossary/sha256)** (algoritmo hash seguro 256). Independientemente del tamaño de la entrada (por ejemplo, 15 bits, 100 bits o 10.000 bits), esta función producirá un valor hash de 256 bits. A continuación puedes ver algunos ejemplos de resultados de la función SHA-256.
 
 "Hola": `185f8db32271fe25f561a6fc938b2e264306ec304eda518007d1764826381969`
 

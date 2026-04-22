@@ -1,4 +1,4 @@
-question: Điểm hạn chế chính của các node trên tàu LN là gì?
+question: Điểm hạn chế chính của các nút LN trên tàu là gì?
 answer: sự phụ thuộc của toán tử
 wrong_answers:
   - Mất khóa riêng tư

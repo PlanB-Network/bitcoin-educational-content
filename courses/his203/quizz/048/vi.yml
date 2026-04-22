@@ -1,0 +1,9 @@
+question: Vào ngày 6 tháng 1 năm 2012, Luke-Jr đã có hành động gây tranh cãi nào đối với tiền điện tử Coiledcoin để "bảo vệ" hệ sinh thái Bitcoin?
+answer: Anh ta đã thực hiện một cuộc tấn công kiểm duyệt chống lại Coiledcoin bằng cách sử dụng pool Eligius mining của mình
+wrong_answers:
+  - Ông đã gửi thông báo gỡ bỏ theo luật DMCA chống lại Coinledcoin lên GitHub vì vi phạm bản quyền
+  - Ông ta đã chỉnh sửa trang Wikipedia về Coiledcoin để công khai gọi nó là một mô hình kim tự tháp
+  - Nhờ OP_RETURN, anh ta đã đăng tải hàng loạt tin nhắn trên chuỗi khối Coiledcoin
+explanation: |
+ Cuộc tấn công kiểm duyệt này (mining của các khối trống) được thực hiện nhờ sự kết hợp giữa mining và Bitcoin, mà anh ta đã triển khai trong nhóm mining của mình. Anh ta biện minh cho hành động của mình bằng cách viết rằng không có thợ đào Eligius nào bị ảnh hưởng. Luke-Jr đã gửi thông báo gỡ bỏ theo DMCA tới GitHub, nhưng nhắm vào SolidCoin.
+reviewed: true

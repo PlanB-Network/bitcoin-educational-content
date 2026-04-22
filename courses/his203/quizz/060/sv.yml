@@ -1,0 +1,10 @@
+question: Vilken teknisk innovation i SatoshiDICE gjorde det möjligt för spelarna att kontrollera att kasinot inte fuskade?
+answer: Publicering av hemlig hash på blockkedjan, följt av publicering av nämnda hemligheter för att möjliggöra omräkning av resultat
+wrong_answers:
+  - Implementering av en decentraliserad blockkedja för validering där varje transaktion verifieras av flera oberoende noder
+  - Användning av fasta adresser i blockkedjan, vilket gör det möjligt att granska dragningarna och därmed säkerställa att de är rättvisa
+  - Utförande av sannolikhetsberäkningar direkt på blockkedjan genom autonoma offentliga kontrakt
+explanation: |
+ SatoshiDICE var revolutionerande eftersom det var "garanterat rättvist". Varje sannolikhetskopplad dragning berodde på en hemlig generated i början av dagen, vars
+ vars hash publicerades på blockkedjan. Själva hemligheten avslöjades några dagar senare, vilket gjorde det möjligt för användarna att själva räkna om resultatet.
+reviewed: true

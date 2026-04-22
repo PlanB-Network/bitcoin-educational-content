@@ -1,0 +1,10 @@
+question: Hva ble de fysiske bitcoinsene som ble laget av den amerikanske utvikleren Mike Caldwell mellom september 2011 og november 2013 kalt?
+answer: Casascius Coins
+wrong_answers:
+  - Bitbills
+  - Lealana Cents
+  - PrintCoins
+explanation: |
+ Casascius var pseudonymet til Mike Caldwell, en 33 år gammel utvikler bosatt i Utah. Hans fysiske bitcoins kom i 1 BTC, 25 BTC og andre valører, samt
+ samt i ingots på opptil 1000 BTC. De har vært en stor suksess og har lagret nesten 100 000 bitcoins i løpet av årene.
+reviewed: true

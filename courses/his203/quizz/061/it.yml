@@ -1,0 +1,10 @@
+question: Su quale borsa valori online Erik Voorhees ha effettuato un'IPO informale nell'agosto 2012 per far crescere il casinò online SatoshiDICE?
+answer: MPEx
+wrong_answers:
+  - GLBSE
+  - Bitcoinica
+  - Bitoption.org
+explanation: |
+ MPEx era la piattaforma gestita da Mircea Popescu e lanciata qualche mese prima. Erik Voorhees ha emesso 100 milioni di azioni (con il simbolo S.DICE) e ne ha vendute 10 per raccogliere 34.500 bitcoin, ovvero circa 372.000 dollari
+ vendute 10 per raccogliere 34.500 bitcoin, pari a circa 372.000 dollari.
+reviewed: true

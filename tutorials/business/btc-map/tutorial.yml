@@ -22,11 +22,12 @@ license: CC-BY-SA-V4
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2025-04-16
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
       - Sosylos
-    reward: 0.91
+      - therancedognon-max
+    reward: 0
   - language: cs
     last_contribution_date:
     urgency: 1

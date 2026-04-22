@@ -1,0 +1,8 @@
+question: What is the main theoretical weakness that Carl Menger identifies in the statistical approach of Schmoller's German historical school?
+answer: Statistics are merely snapshots of a bygone era, incapable of revealing the timeless principles that guide the economy
+wrong_answers:
+  - "Statistical data are too complex to analyze and require mathematical tools that the historical school has not mastered."
+  - "The statistical approach completely ignores the political and social factors that influence the economic phenomena of each era."
+  - "The data collection methods of the time were insufficiently precise to allow rigorous scientific analysis."
+explanation: |
+  Menger criticizes the historical school because it is content to accumulate statistical data that are merely "balance sheets" frozen in time. These snapshots of the past cannot reveal the universal laws and timeless causal principles that Menger believes economic science seeks. This criticism is in line with his search for general principles guiding human action, in contrast to historicism, which denies the existence of universal economic laws.

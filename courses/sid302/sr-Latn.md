@@ -63,22 +63,22 @@ Zaronite u svet Liquid sidechain-a i oslobodite njegov pun potencijal odmah!
 ### Liquid Network Arhitektura i Konsenzus Model
 
 
-Liquid Network je federativni sidechain izgrađen na Elements kodnoj bazi, dizajniran da proširi mogućnosti Bitcoin dok se oslanja na njegovu osnovnu sigurnost. Za razliku od Bitcoin-ovog Proof-of-Work, Liquid radi na modelu Federativnog Konsenzusa. Mrežu održava globalno distribuirana grupa članova, uključujući berze, trgovačke stolove i provajdere infrastrukture. Iz ovog članstva, petnaest "funkcionera" je odabrano da deluju kao potpisnici blokova.
+Liquid Network je federativni sidechain izgrađen na Elements kodnoj bazi, dizajniran da proširi mogućnosti Bitcoin dok se oslanja na njegovu osnovnu sigurnost. Za razliku od Bitcoin-ovog [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work), Liquid radi na modelu Federativnog [Konsenzusa](https://planb.academy/resources/glossary/consensus). Mrežu održava globalno distribuirana grupa članova, uključujući berze, trgovačke stolove i provajdere infrastrukture. Iz ovog članstva, petnaest "funkcionera" je odabrano da deluju kao potpisnici blokova.
 
 
-Ovi funkcioneri proizvode blokove na deterministički način u krugu, sa novim blokom koji se generiše svake minute. Ovo precizno vreme je u kontrastu sa Bitcoin-ovim probabilističkim intervalima od deset minuta. Da bi blok bio važeći, potrebni su potpisi najmanje 11 od 15 funkcionera (prag od dve trećine plus jedan). Ovaj mehanizam obezbeđuje Liquid sa "finalnošću od dva bloka," što znači da kada transakcija ima dve potvrde (otprilike dva minuta), matematički je nemoguće reorganizovati lanac. Ova brzina i sigurnost su kritični za arbitražu, automatizovano trgovanje i brzo međuburzovno poravnanje.
+Ovi funkcioneri proizvode [blokove](https://planb.academy/resources/glossary/block) na deterministički način u krugu, sa novim blokom koji se generiše svake minute. Ovo precizno vreme je u kontrastu sa Bitcoin-ovim probabilističkim intervalima od deset minuta. Da bi blok bio važeći, potrebni su potpisi najmanje 11 od 15 funkcionera (prag od dve trećine plus jedan). Ovaj mehanizam obezbeđuje Liquid sa "finalnošću od dva bloka," što znači da kada [transakcija](https://planb.academy/resources/glossary/transaction-tx) ima dve potvrde (otprilike dva minuta), matematički je nemoguće reorganizovati lanac. Ova brzina i sigurnost su kritični za arbitražu, automatizovano trgovanje i brzo međuburzovno poravnanje.
 
 
-Federacija je dinamična. Kroz Dynamic Federation (Dynafed) protokol, mreža može rotirati funkcionere ili ažurirati parametre bez potrebe za hard fork. Ovo omogućava sistemu da se razvija i zameni hardver ili članove neprimetno, dok održava kontinuirani rad.
+Federacija je dinamična. Kroz Dynamic Federation (Dynafed) protokol, mreža može rotirati funkcionere ili ažurirati parametre bez potrebe za hard [fork](https://planb.academy/resources/glossary/fork). Ovo omogućava sistemu da se razvija i zameni hardver ili članove neprimetno, dok održava kontinuirani rad.
 
 
 ### Confidential Transactions i Asset Management
 
 
-Definišuća karakteristika Liquid je njegova izvorna podrška za Confidential Transactions (CT) i više sredstava. Na glavnom Bitcoin lancu, svi detalji transakcije—pošiljalac, primalac i iznos—su javni. U Liquid, CT koristi kriptografske obaveze da sakrije tip sredstva i iznos sa javne knjige, dok i dalje omogućava mreži da verifikuje da je transakcija validna (tj. da nije došlo do inflacije). Samo učesnici koji poseduju ključeve za zaslepljivanje mogu videti specifične vrednosti, nudeći nivo komercijalne privatnosti koji je neophodan za institucije koje pomeraju velike pozicije.
+Definišuća karakteristika Liquid je njegova izvorna podrška za Confidential Transactions (CT) i više sredstava. Na glavnom Bitcoin lancu, svi detalji transakcije—pošiljalac, primalac i iznos—su javni. U Liquid, CT koristi kriptografske obaveze da sakrije tip sredstva i iznos sa javne knjige, dok i dalje omogućava mreži da verifikuje da je transakcija validna (tj. da nije došlo do [inflacije](https://planb.academy/resources/glossary/inflation)). Samo učesnici koji poseduju ključeve za zaslepljivanje mogu videti specifične vrednosti, nudeći nivo komercijalne privatnosti koji je neophodan za institucije koje pomeraju velike pozicije.
 
 
-Liquid tretira svu imovinu kao "domicilne" građane blokčejna. Ovo uključuje Liquid Bitcoin (LBTC), stabilne kovanice kao što je USDT, i sigurnosne tokene. Izdavanje imovine ne zahteva složene pametne ugovore; to je osnovna funkcija protokola.
+Liquid tretira svu imovinu kao "domicilne" građane [blokčejna](https://planb.academy/resources/glossary/blockchain). Ovo uključuje Liquid Bitcoin (LBTC), stabilne kovanice kao što je USDT, i sigurnosne tokene. Izdavanje imovine ne zahteva složene pametne ugovore; to je osnovna funkcija protokola.
 
 
 #### Regulisana imovina i AMP
@@ -97,7 +97,7 @@ Proces "peg-out" omogućava korisnicima da zamene LBTC za Bitcoin. Ovo zahteva s
 
 #### Hardverski sigurnosni moduli (HSM-ovi)
 
-Bezbednost se strogo sprovodi putem hardvera. Funkcioneri ne čuvaju privatne ključeve na standardnim serverima; umesto toga, koriste Hardverske Bezbednosne Module (HSM-ove). Ovi uređaji su fizički odvojeni od logike host servera i programirani su sa strogim pravilima. Na primer, HSM će odbiti da potpiše blok ako njegova visina nije veća od prethodnog, sprečavajući prepravke istorije. Ovaj "adversarijalni" model bezbednosti pretpostavlja da host server može biti kompromitovan, osiguravajući da ključevi ostanu bezbedni čak i ako je fizička lokacija ugrožena.
+Bezbednost se strogo sprovodi putem hardvera. Funkcioneri ne čuvaju [privatne ključeve](https://planb.academy/resources/glossary/private-key) na standardnim serverima; umesto toga, koriste Hardverske Bezbednosne Module (HSM-ove). Ovi uređaji su fizički odvojeni od logike host servera i programirani su sa strogim pravilima. Na primer, HSM će odbiti da potpiše blok ako njegova visina nije veća od prethodnog, sprečavajući prepravke istorije. Ovaj "adversarijalni" model bezbednosti pretpostavlja da host server može biti kompromitovan, osiguravajući da ključevi ostanu bezbedni čak i ako je fizička lokacija ugrožena.
 
 
 ## Osnovi Elements
@@ -146,13 +146,13 @@ Spoljašnjem posmatraču, poverljiva transakcija prikazuje važeće ulaze i izla
 ### Razvoj i RPC Tok posla
 
 
-Interakcija sa čvorom Elements se prvenstveno obavlja putem njegovog JSON-RPC interfejsa. Ovo omogućava aplikacijama napisanim u Python-u, JavaScript-u ili Go-u da komuniciraju sa blockchain-om.
+Interakcija sa [čvorom](https://planb.academy/resources/glossary/node) Elements se prvenstveno obavlja putem njegovog JSON-RPC interfejsa. Ovo omogućava aplikacijama napisanim u Python-u, JavaScript-u ili Go-u da komuniciraju sa blockchain-om.
 
 
 
 - Postavka:** Programer obično počinje u `regtest` režimu. Ovo omogućava trenutno generisanje blokova (`generateblock`) za trenutno potvrđivanje transakcija, zaobilazeći 1-minutno vreme bloka na živoj mreži.
 - Komande:** Standardne Bitcoin komande kao što je `getblockchaininfo` su dostupne, zajedno sa Elements-specifičnim komandama kao što su `dumpblindingkey` (za reviziju CT-ova) ili `pegin` (za prebacivanje BTC-a u bočni lanac).
-- Alias:** Da bi upravljali više čvorova (npr. "pošiljalac" i "primalac" za testiranje), programeri često koriste alias-e u shell-u kao što su `e1-cli` i `e2-cli` koji upućuju na različite direktorijume podataka, simulirajući peer-to-peer mrežu na jednoj mašini.
+- Alias:** Da bi upravljali više čvorova (npr. "pošiljalac" i "primalac" za testiranje), programeri često koriste alias-e u shell-u kao što su `e1-cli` i `e2-cli` koji upućuju na različite direktorijume podataka, simulirajući [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) mrežu na jednoj mašini.
 
 
 Ova arhitektura omogućava programerima da izgrade sofisticirane finansijske aplikacije—kao što su platforme za hartije od vrednosti ili privatni platni prolazi—koristeći robusne i poznate alate Bitcoin ekosistema.
@@ -169,13 +169,13 @@ Ova arhitektura omogućava programerima da izgrade sofisticirane finansijske apl
 ### Cross-Layer Infrastructure and HTLCs
 
 
-Ekosistem Bitcoin evoluirao je u višeslojnu arhitekturu, pri čemu Mainchain pruža poravnanje, Lightning nudi brzinu, a Liquid omogućava napredne mogućnosti imovine. Prenošenje vrednosti između ovih slojeva bez centralizovanih posrednika zahteva kriptografski primitiv bez poverenja: Hash Time Locked Contract (HTLC).
+Ekosistem Bitcoin evoluirao je u višeslojnu arhitekturu, pri čemu Mainchain pruža poravnanje, Lightning nudi brzinu, a Liquid omogućava napredne mogućnosti imovine. Prenošenje vrednosti između ovih slojeva bez centralizovanih posrednika zahteva kriptografski primitiv bez poverenja: Hash Time Locked Contract ([HTLC](https://planb.academy/resources/glossary/htlc)).
 
 
-HTLC kreira uslovni kanal plaćanja koji povezuje nezavisne sisteme atomski. Funkcioniše kroz dva primarna ograničenja: **hash zaključavanje** i **vremensko zaključavanje**.
+HTLC kreira uslovni [kanal plaćanja](https://planb.academy/resources/glossary/payment-channel) koji povezuje nezavisne sisteme atomski. Funkcioniše kroz dva primarna ograničenja: **hash zaključavanje** i **vremensko zaključavanje**.
 
 
-- Zaključavanje Hash:** Sredstva se mogu odmah potrošiti ako primalac otkrije tajnu "preimage" koja odgovara određenom kriptografskom hešu.
+- Zaključavanje Hash:** Sredstva se mogu odmah potrošiti ako primalac otkrije tajnu "preimage" koja odgovara određenom kriptografskom [hešu](https://planb.academy/resources/glossary/hash-function).
 - The Time Lock:** Ako primalac ne uspe da otkrije tajnu u okviru postavljenog vremenskog okvira (visina bloka), originalni pošiljalac može povratiti sredstva.
 
 
@@ -185,20 +185,20 @@ Ova struktura sa dvostrukim putem osigurava bezbednost. U zameni između slojeva
 ### Nadogradnja Taproot i MuSig2
 
 
-Legacy HTLCs (SegWit v0) su dobro funkcionisali, ali su imali nedostatke u pogledu privatnosti i efikasnosti. Zahtevali su objavljivanje kompletne logike skripte on-chain, što je činilo swap transakcije lako prepoznatljivim za analitičare blockchaina i skupljim zbog njihove veličine podataka. Uvođenje Taproot (SegWit v1) i MuSig2 protokola je revolucionisalo ovu arhitekturu.
+Legacy HTLCs ([SegWit](https://planb.academy/resources/glossary/segwit) v0) su dobro funkcionisali, ali su imali nedostatke u pogledu privatnosti i efikasnosti. Zahtevali su objavljivanje kompletne logike [skripte](https://planb.academy/resources/glossary/script) on-chain, što je činilo swap transakcije lako prepoznatljivim za analitičare blockchaina i skupljim zbog njihove veličine podataka. Uvođenje [Taproot](https://planb.academy/resources/glossary/taproot) (SegWit v1) i MuSig2 protokola je revolucionisalo ovu arhitekturu.
 
 
-Taproot omogućava **Agregaciju Ključeva** putem MuSig2. Umesto otkrivanja složenog skripta sa više javnih ključeva, MuSig2 omogućava učesnicima zamene da kombinuju svoje ključeve u jedan agregirani javni ključ.
+Taproot omogućava **Agregaciju Ključeva** putem MuSig2. Umesto otkrivanja složenog skripta sa više [javnih ključeva](https://planb.academy/resources/glossary/public-key), MuSig2 omogućava učesnicima zamene da kombinuju svoje ključeve u jedan agregirani javni ključ.
 
 
 - Kooperativa "Key Path":** Ako se obe strane slože sa zamjenom (tzv. "srećan put"), one zajedno potpisuju transakciju. Za mrežu, ovo izgleda identično standardnom plaćanju sa jednim potpisom. Troši minimalan prostor u bloku i ne otkriva apsolutno nikakve informacije o uslovima zamjene.
-- Adversarialni "Putanja Skripta":** Ako jedna strana postane neodgovorna ili zlonamerna, osnovni skript (koji sadrži hash/vremenske brave) se otkriva tek tada. Ovo je organizovano u Merkle drvetu, omogućavajući poštenoj strani da otkrije samo određenu granu potrebnu za povraćaj sredstava, držeći ostatak logike ugovora skrivenim.
+- Adversarialni "Putanja Skripta":** Ako jedna strana postane neodgovorna ili zlonamerna, osnovni skript (koji sadrži hash/vremenske brave) se otkriva tek tada. Ovo je organizovano u [Merkle drvetu](https://planb.academy/resources/glossary/merkle-tree), omogućavajući poštenoj strani da otkrije samo određenu granu potrebnu za povraćaj sredstava, držeći ostatak logike ugovora skrivenim.
 
 
 ### Praktična Implementacija: Liquid-Lightning Swaps
 
 
-U praksi, ovi protokoli omogućavaju besprekornu razmenu između slojeva Bitcoin. Tipična zamena Liquid-za-Lightning počinje kada klijent zatraži zamenu od provajdera usluga. Klijent obezbeđuje Lightning fakturu, a provajder zaključava ekvivalentni Liquid Bitcoin (L-BTC) u Taproot-omogućenu HTLC adresu.
+U praksi, ovi protokoli omogućavaju besprekornu razmenu između slojeva Bitcoin. Tipična zamena Liquid-za-Lightning počinje kada klijent zatraži zamenu od provajdera usluga. Klijent obezbeđuje [Lightning fakturu](https://planb.academy/resources/glossary/invoice-lightning), a provajder zaključava ekvivalentni Liquid Bitcoin (L-BTC) u Taproot-omogućenu HTLC adresu.
 
 
 Atomskost se sprovodi kada se uplata poravna. Da bi preuzeo L-BTC, pružalac usluga mora imati preimage. Oni dobijaju ovaj preimage samo kada uspešno plate klijentov Lightning račun. U trenutku kada je Lightning uplata finalizovana, preimage se otkriva, omogućavajući pružaocu da otključa Liquid sredstva.
@@ -206,7 +206,7 @@ Atomskost se sprovodi kada se uplata poravna. Da bi preuzeo L-BTC, pružalac usl
 
 #### Wallet Apstrakcija i UTXO Upravljanje
 
-Za krajnje korisnike, ova složenost je potpuno apstrahovana. Moderni novčanici kao što je Aqua upravljaju generisanjem ključeva, kreiranjem faktura i procesima potpisivanja u pozadini. Korisnik jednostavno "plaća" Lightning fakturu koristeći svoj Liquid saldo. Iza kulisa, servis upravlja UTXO konsolidacijom, periodično pomerajući male, nepreuzete ili refundirane izlaze kako bi održao wallet efikasnost i minimizirao uticaj naknada tokom perioda velike saobraćajne gužve.
+Za krajnje korisnike, ova složenost je potpuno apstrahovana. Moderni novčanici kao što je Aqua upravljaju generisanjem ključeva, kreiranjem faktura i procesima potpisivanja u pozadini. Korisnik jednostavno "plaća" Lightning fakturu koristeći svoj Liquid saldo. Iza kulisa, servis upravlja [UTXO](https://planb.academy/resources/glossary/utxo) konsolidacijom, periodično pomerajući male, nepreuzete ili refundirane izlaze kako bi održao [wallet](https://planb.academy/resources/glossary/wallet) efikasnost i minimizirao uticaj naknada tokom perioda velike saobraćajne gužve.
 
 
 ## Pregled Liquid Network
@@ -220,7 +220,7 @@ Za krajnje korisnike, ova složenost je potpuno apstrahovana. Moderni novčanici
 ### Liquid Network Arhitektura i Konsenzus
 
 
-Liquid Network funkcioniše kao federativni sidechain izgrađen na **Elements** kodnoj bazi. Dok Elements—fork od Bitcoin Core—pruža softversku osnovu, Liquid je implementacija produkcione mreže. Za razliku od Bitcoin-ovog Proof-of-Work, koji se oslanja na konkurentni mining, Liquid koristi model **Federated Consensus**.
+Liquid Network funkcioniše kao federativni sidechain izgrađen na **Elements** kodnoj bazi. Dok Elements—fork od Bitcoin Core—pruža softversku osnovu, Liquid je implementacija produkcione mreže. Za razliku od Bitcoin-ovog Proof-of-Work, koji se oslanja na konkurentni [mining](https://planb.academy/resources/glossary/mining), Liquid koristi model **Federated Consensus**.
 
 
 Mreža se održava od strane petnaest globalno raspoređenih "funkcionera." Ovi entiteti upravljaju specijalizovanim serverima koji obavljaju dve ključne uloge:
@@ -283,7 +283,7 @@ Kako bi se osigurala dugovečnost, Liquid koristi Dynafed, protokol koji omoguć
 ### Liquid Network: Poslovna strategija i ekosistem
 
 
-Liquid je više od tehničkog sidechain-a; to je infrastrukturni sloj fokusiran na poslovanje, dizajniran da se nosi sa složenim zahtevima tržišta kapitala koje Bitcoin mainchain ne može efikasno podržati. Dok Lightning Network optimizuje za visokofrekventna, niskovredna plaćanja, Liquid cilja na transfer visokih vrednosti, izdavanje sredstava i međubankarsko poravnanje.
+Liquid je više od tehničkog sidechain-a; to je infrastrukturni sloj fokusiran na poslovanje, dizajniran da se nosi sa složenim zahtevima tržišta kapitala koje Bitcoin mainchain ne može efikasno podržati. Dok [Lightning Network](https://planb.academy/resources/glossary/lightning-network) optimizuje za visokofrekventna, niskovredna plaćanja, Liquid cilja na transfer visokih vrednosti, izdavanje sredstava i međubankarsko poravnanje.
 
 
 Ekosistem pokreće **Liquid Federacija**, konzorcijum od ~73 kompanije uključujući berze, trgovačke stolove i provajdere infrastrukture. Ovaj kolaborativni model odražava tradicionalne finansijske klirinške kuće, ali funkcioniše sa većom transparentnošću i značajno smanjenim vremenom poravnanja (2 minuta naspram T+2 dana).
@@ -358,7 +358,7 @@ Osnovna vrednost platforme počiva na dve primarne sposobnosti: sveobuhvatna vid
 
 #### Operativni kompromisi
 
-Ova arhitektura uvodi specifične kompromise. Sistem se oslanja na dostupnost AMP servera; ako server deluje kao ko-potpisnik i postane nedostupan, likvidnost imovine se zaustavlja. Pored toga, dok je privatnost između korisnika očuvana, investitori moraju prihvatiti da izdavalac ima potpuni uvid u njihove posede. Ovaj model je idealan za usklađene sigurnosne tokene, ali nije pogodan za kriptovalute otporne na cenzuru.
+Ova arhitektura uvodi specifične kompromise. Sistem se oslanja na dostupnost AMP servera; ako server deluje kao ko-potpisnik i postane nedostupan, likvidnost imovine se zaustavlja. Pored toga, dok je privatnost između korisnika očuvana, investitori moraju prihvatiti da izdavalac ima potpuni uvid u njihove posede. Ovaj model je idealan za usklađene sigurnosne tokene, ali nije pogodan za [kriptovalute](https://planb.academy/resources/glossary/cryptocurrency) otporne na cenzuru.
 
 
 ### Evolucija arhitekture i putevi integracije

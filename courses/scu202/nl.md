@@ -156,8 +156,6 @@ Ben je klaar om je IT-beveiliging volledig onder controle te krijgen, je individ
 
 
 
-**N.B.:** Als je tijdens de cursus onbekende termen tegenkomt, raadpleeg dan [de woordenlijst](https://planb.academy/resources/glossary) voor definities
-
 
 
 ## Essentiële samenvatting van SCU101
@@ -1242,7 +1240,7 @@ Parrot OS is ook afgeleid van Debian. Het biedt een omgeving voor pentesting, of
 
 
 
-Tails is een Debian-gebaseerde, privacy-gerichte live-distributie. Alles gaat door het Tor netwerk en niets wordt opgeslagen tussen gebruikerssessies. Het is een ideale distributie voor gevoelig eenmalig gebruik (journalistiek, activisme, seed Bitcoin genereren...).
+Tails is een Debian-gebaseerde, privacy-gerichte live-distributie. Alles gaat door het [Tor](https://planb.academy/resources/glossary/tor) netwerk en niets wordt opgeslagen tussen gebruikerssessies. Het is een ideale distributie voor gevoelig eenmalig gebruik (journalistiek, activisme, [seed](https://planb.academy/resources/glossary/seed) Bitcoin genereren...).
 
 
 
@@ -4033,7 +4031,7 @@ Een bestand kan intact (ongewijzigd) zijn, maar gepubliceerd zijn door een kwaad
 
 
 
-Deze verificatie van de herkomst wordt mogelijk gemaakt door de digitale handtekening, een cryptografisch mechanisme dat het bestand koppelt aan de privésleutel van de ontwikkelaar. Wanneer je deze handtekening verifieert met de publieke sleutel van de ontwikkelaar (gedistribueerd via beveiligde kanalen), kun je er zeker van zijn dat het bestand daadwerkelijk van die persoon afkomstig is.
+Deze verificatie van de herkomst wordt mogelijk gemaakt door de [digitale handtekening](https://planb.academy/resources/glossary/digital-signature), een cryptografisch mechanisme dat het bestand koppelt aan de [privésleutel](https://planb.academy/resources/glossary/private-key) van de ontwikkelaar. Wanneer je deze handtekening verifieert met de publieke sleutel van de ontwikkelaar (gedistribueerd via beveiligde kanalen), kun je er zeker van zijn dat het bestand daadwerkelijk van die persoon afkomstig is.
 
 
 
@@ -4057,7 +4055,7 @@ Het tweede hulpmiddel is de digitale handtekening. Deze controleert de authentic
 
 
 
-Dit systeem vertrouwt op asymmetrische cryptografie en gereedschappen zoals GnuPG (commandoregel) of Kleopatra (Interface grafisch voor Windows). Deze tools moeten goed geconfigureerd zijn en de publieke sleutel van de ontwikkelaar moet geverifieerd worden via een veilig kanaal (officiële website, vingerafdruk op Twitter...). Laten we eens kijken naar de praktische aspecten.
+Dit systeem vertrouwt op asymmetrische [cryptografie](https://planb.academy/resources/glossary/cryptography) en gereedschappen zoals GnuPG (commandoregel) of Kleopatra (Interface grafisch voor Windows). Deze tools moeten goed geconfigureerd zijn en de publieke sleutel van de ontwikkelaar moet geverifieerd worden via een veilig kanaal (officiële website, vingerafdruk op Twitter...). Laten we eens kijken naar de praktische aspecten.
 
 
 

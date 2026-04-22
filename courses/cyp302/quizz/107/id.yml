@@ -6,3 +6,4 @@ wrong_answers:
   - Penyerang menggunakan pesan lama untuk membuat yang baru
 explanation: |
   Dalam serangan refleksi, penyerang mengintersep sebuah pesan dari Alice ke Bob dan mengirim pesan yang sama kembali ke Alice, menyebabkan kebingungan dalam sesi tersebut.
+reviewed: true

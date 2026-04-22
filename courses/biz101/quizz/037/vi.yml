@@ -1,9 +1,9 @@
-question: Một lợi thế chính của hệ sinh thái thanh toán Bitcoin về mặt chuyển đổi giữa các giải pháp là gì?
-answer: Việc thay đổi nhà cung cấp hoặc nâng cấp công cụ tương đối dễ dàng vì các tiêu chuẩn mở và có khả năng tương tác của Bitcoin cho phép chuyển tiền liền mạch.
+question: Lợi thế chính về mặt chuyển đổi giữa các giải pháp của hệ sinh thái thanh toán Bitcoin là gì?
+answer: Việc thay đổi nhà cung cấp hoặc nâng cấp công cụ tương đối dễ dàng vì tiêu chuẩn mã nguồn mở và có khả năng tương tác của Bitcoin cho phép chuyển tiền liền mạch.
 wrong_answers:
   - Khi đã chọn được nhà cung cấp, doanh nghiệp sẽ không bao giờ có thể chuyển sang giải pháp khác.
   - Các giải pháp Bitcoin là độc quyền và chỉ dành riêng cho một nhà cung cấp.
   - Việc thay đổi nhà cung cấp đòi hỏi sự chấp thuận của chính phủ và một quá trình pháp lý kéo dài.
 explanation: |
-  Vì Bitcoin được xây dựng trên các giao thức mở, các nhà bán lẻ có thể tự do chuyển tiền hoặc áp dụng các giải pháp mới khi nhu cầu thay đổi hoặc phát triển. Tính linh hoạt này đảm bảo doanh nghiệp có thể lựa chọn các công cụ tốt nhất mà không bị ràng buộc vào một nhà cung cấp.
+  Vì Bitcoin được xây dựng trên các giao thức mã nguồn mở, các nhà bán lẻ có thể tự do chuyển tiền hoặc áp dụng các giải pháp mới khi nhu cầu thay đổi hoặc phát triển. Tính linh hoạt này đảm bảo doanh nghiệp có thể lựa chọn các công cụ tốt nhất mà không bị ràng buộc vào một nhà cung cấp.
 reviewed: true

@@ -6,3 +6,4 @@ wrong_answers:
   - Ini digunakan untuk memverifikasi paritas suatu angka
 explanation: |
   Dalam kriptografi asimetris, teorema Euler menyederhanakan perhitungan pangkat dalam skema seperti RSA, karena menyediakan metode untuk memanipulasi eksponensiasi modular.
+reviewed: true

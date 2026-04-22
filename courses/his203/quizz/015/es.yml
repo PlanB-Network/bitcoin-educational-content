@@ -1,0 +1,10 @@
+question: ¿Qué estado de EE.UU. elegido por el Free State Project se convirtió en centro de adopción de Bitcoin en 2012-2013?
+answer: Nuevo Hampshire
+wrong_answers:
+  - Texas
+  - Colorado
+  - California
+explanation: |
+ El Proyecto Estado Libre era un movimiento de migración política, cuyo objetivo era agrupar a los libertarios en un estado para influir en el gobierno local del mismo.
+ Los miembros de este movimiento empezaron a utilizar la Bitcoin gracias al proselitismo de activistas libertarios como Roger Ver y Erik Voorhees.
+reviewed: true

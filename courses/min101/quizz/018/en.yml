@@ -5,5 +5,5 @@ wrong_answers:
   - DNS phishing
   - Theft of private keys
 explanation: |
-  Hashcash imposes a computational cost per message to make mass emailing unprofitable.
-reviewed: false
+  Hashcash imposes a computational cost per email message to make mass emailing unprofitable.
+reviewed: true

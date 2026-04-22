@@ -75,8 +75,6 @@ Bitcoin'un karmaşık yönetişim ortamında gezinmek teknik uzmanlıktan daha f
 Bitcoin yolculuğunuzda bir sonraki adımı atmaya hazır mısınız? Hadi başlayalım!
 
 
-***N.B.**: Kurs sırasında Bitcoin ile ilgili bilmediğiniz terimlerle karşılaşırsanız, lütfen tanımları bulmak için [sözlüğe](https://planb.academy/resources/glossary) bakın.*
-
 
 
 
@@ -94,7 +92,7 @@ Bitcoin yolculuğunuzda bir sonraki adımı atmaya hazır mısınız? Hadi başl
 
 Bu bölümde adem-i merkeziyetçiliğin ne olduğu ve Bitcoin'ün işleyebilmesi için neden gerekli olduğu analiz edilmektedir. Merkeziyetçilik ile
 
-madencilerin ve tam düğümlerin merkezsizleştirilmesi ve Bitcoin'ün en merkezi özelliklerinden biri olan sansüre karşı direnç için masaya ne getirdiklerini tartışın.
+[madencilerin](https://planb.academy/resources/glossary/mining) ve [tam düğümlerin](https://planb.academy/resources/glossary/full-node) merkezsizleştirilmesi ve Bitcoin'ün en merkezi özelliklerinden biri olan sansüre karşı direnç için masaya ne getirdiklerini tartışın.
 
 
 Tartışma daha sonra, herhangi bir merkezi olmayan sistemin gerekli bir özelliği olan tarafsızlığı - ya da kullanıcılara, madencilere ve geliştiricilere karşı izinsizliği - anlamaya kaymaktadır. Son olarak, Hard gibi merkezi olmayan bir sistemi kavramanın ne kadar Bitcoin olabileceğine değiniyoruz ve bunu anlamanıza yardımcı olabilecek bazı zihinsel modeller sunuyoruz.
@@ -109,7 +107,7 @@ Ademi merkeziyetçilik *sansüre direnç* elde etmek için bir araçtır.
 Bitcoin'da adem-i merkeziyetçiliğin iki önemli yönü bulunmaktadır: Miner adem-i merkeziyetçilik ve Full node adem-i merkeziyetçilik.
 
 
-Miner ademi merkeziyetçilik, işlemlerin herhangi bir merkezi kuruluş tarafından gerçekleştirilmediği veya koordine edilmediği gerçeğini ifade eder. Full node ademi merkeziyetçilik, blokların, yani madencilerin ürettiği verilerin doğrulanmasının birkaç güvenilir otorite tarafından değil, ağın ucunda, nihayetinde kullanıcıları tarafından yapılmasını ifade eder.
+Miner ademi merkeziyetçilik, [işlemlerin](https://planb.academy/resources/glossary/transaction-tx) herhangi bir merkezi kuruluş tarafından gerçekleştirilmediği veya koordine edilmediği gerçeğini ifade eder. Full node ademi merkeziyetçilik, [blokların](https://planb.academy/resources/glossary/block), yani madencilerin ürettiği verilerin doğrulanmasının birkaç güvenilir otorite tarafından değil, ağın ucunda, nihayetinde kullanıcıları tarafından yapılmasını ifade eder.
 
 
 ![](assets/tr/001.webp)
@@ -125,7 +123,7 @@ Bitcoin'ten önce dijital para birimleri yaratma girişimleri olmuştu, ancak bu
 Bitcoin'teki Miner ademi merkeziyetçiliği, *işlemlerin sıralanmasının* tek bir varlık veya sabit bir varlık grubu tarafından gerçekleştirilmediği anlamına gelir. Buna katılmak isteyen tüm aktörler tarafından kolektif olarak gerçekleştirilir; bu madenci kolektifi dinamik bir kullanıcı kümesidir. Herkes istediği gibi katılabilir ya da ayrılabilir. Bu özellik Bitcoin'i sansüre dirençli hale getirir.
 
 
-Bitcoin merkezileştirilmiş olsaydı, hükümetler gibi onu sansürlemek isteyenlere karşı savunmasız olurdu. Daha önceki dijital para yaratma girişimleriyle aynı kaderi paylaşacaktı. "Pegged Sidechains ile Blockchain İnovasyonlarını Etkinleştirmek" başlıklı [bir makalenin](https://www.blockstream.com/sidechains.pdf) giriş bölümünde yazarlar, dijital paranın ilk versiyonlarının hasmane bir ortam için nasıl donanımlı olmadığını açıklamaktadır (ayrıca bir sonraki bölümdeki Hasmane Düşünme bölümüne bakınız).
+Bitcoin merkezileştirilmiş olsaydı, hükümetler gibi onu sansürlemek isteyenlere karşı savunmasız olurdu. Daha önceki dijital para yaratma girişimleriyle aynı kaderi paylaşacaktı. "Pegged Sidechains ile [Blockchain](https://planb.academy/resources/glossary/blockchain) İnovasyonlarını Etkinleştirmek" başlıklı [bir makalenin](https://www.blockstream.com/sidechains.pdf) giriş bölümünde yazarlar, dijital paranın ilk versiyonlarının hasmane bir ortam için nasıl donanımlı olmadığını açıklamaktadır (ayrıca bir sonraki bölümdeki Hasmane Düşünme bölümüne bakınız).
 
 
 David Chaum 1983 yılında, Double-spending'u önlemek için güvenilen merkezi bir sunucunun bulunduğu bir ortamda dijital parayı bir araştırma konusu olarak tanıttı. Bu merkezi güvenilir tarafın bireylere yönelik gizlilik riskini azaltmak ve değiştirilebilirliği sağlamak için Chaum, merkezi sunucunun imzalarının (madeni paraları temsil eden) bağlanmasını önlemek için kriptografik bir araç sağlamak için kullandığı kör imzayı tanıttı ve yine de merkezi sunucunun çift harcama önleme gerçekleştirmesine izin verdi.
@@ -674,7 +672,7 @@ Bitcoin'de iyi bir gizlilik elde etmek için, bazıları maliyetli ve zaman alı
 ![](assets/tr/006.webp)
 
 
-Bu bölümde Bitcoin Supply sınırı olan 21 milyon BTC'yi ya da gerçekte ne kadar olduğunu inceleyeceğiz Bu limitin nasıl uygulandığından ve buna uyulduğunu doğrulamak için neler yapılabileceğinden bahsediyoruz. Dahası, kristal küreye bir göz atıyor ve Block reward sübvansiyon temelli olmaktan ücret temelli olmaya geçtiğinde devreye girecek dinamikleri tartışıyoruz.
+Bu bölümde Bitcoin Supply sınırı olan 21 milyon BTC'yi ya da gerçekte ne kadar olduğunu inceleyeceğiz Bu limitin nasıl uygulandığından ve buna uyulduğunu doğrulamak için neler yapılabileceğinden bahsediyoruz. Dahası, kristal küreye bir göz atıyor ve [Block reward](https://planb.academy/resources/glossary/block-reward) sübvansiyon temelli olmaktan ücret temelli olmaya geçtiğinde devreye girecek dinamikleri tartışıyoruz.
 
 
 İyi bilinen 21 milyon BTC'lik sonlu Supply, Bitcoin'nin temel bir özelliği olarak kabul edilmektedir. Ama bu gerçekten de kesin midir?
@@ -816,7 +814,7 @@ Daha önceki sürümlerle uyumlu bir ürün, anlamadığı yeni kısımları gö
 Tam tersi, [geriye dönük uyumluluk](https://en.wikipedia.org/wiki/Backward_compatibility) eski bir yazılımdaki verilerin daha yeni yazılımlarda kullanılabilir olması anlamına gelir. Bir değişikliğin hem ileri hem de geri uyumlu olması durumunda tam uyumlu olduğu söylenir.
 
 
-Bitcoin mutabakat kurallarında yapılan bir değişikliğin tam uyumlu olması halinde *Soft Fork* olduğu söylenir. Bu, bu bölümde daha sonra tartışacağımız bir dizi nedenden dolayı Bitcoin'u yükseltmenin en yaygın yoludur. Bitcoin mutabakat kurallarında yapılan bir değişiklik geriye doğru uyumlu ancak ileriye doğru uyumlu değilse buna *Hard Fork* denir.
+Bitcoin mutabakat kurallarında yapılan bir değişikliğin tam uyumlu olması halinde *[Soft Fork](https://planb.academy/resources/glossary/soft-fork)* olduğu söylenir. Bu, bu bölümde daha sonra tartışacağımız bir dizi nedenden dolayı Bitcoin'u yükseltmenin en yaygın yoludur. Bitcoin mutabakat kurallarında yapılan bir değişiklik geriye doğru uyumlu ancak ileriye doğru uyumlu değilse buna *[Hard Fork](https://planb.academy/resources/glossary/hard-fork)* denir.
 
 
 Soft çatalları ve Hard çatallarına teknik bir genel bakış için lütfen [Grokking Bitcoin'ün 11. bölümünü](https://rosenbaum.se/book/grokking-Bitcoin-11.html) okuyun. Bu terimleri açıklar ve ayrıca yükseltme mekanizmalarına dalar. Kesinlikle gerekli olmasa da, okumaya devam etmeden önce bu konuda bilgi sahibi olmanız önerilir.
@@ -831,24 +829,24 @@ Bitcoin, Genesis bloğunun oluşturulduğu zamanki haliyle bugün aynı değildi
 
 > Aslında Bitcoin'de Satoshi'in asla bu şekilde yapmayacağımız bir Hard-Fork vardı - bunu yapmak için oldukça kötü bir yol. Buradaki git commit açıklamasına bakarsanız [[757f076](https://github.com/Bitcoin/Bitcoin/commit/757f0769d8360ea043f469f3a35f6ec204740446)], geri döndürülmüş makefile.unix wx-config sürüm 0.3.6 hakkında bir şeyler söylüyor. Doğru. Tüm söylediği bu. Kırıcı bir değişikliğe sahip olduğuna dair hiçbir gösterge yok. Temelde onu orada saklıyordu. Ayrıca [bitcointalk'a gönderdi](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451) ve lütfen en kısa sürede 0.3.6'ya yükseltin dedi. Sahte işlemlerin kabul edilmiş olarak gösterilmesinin mümkün olduğu bir uygulama hatasını düzelttik. 0.3.6'ya yükseltene kadar Bitcoin ödemelerini kabul etmeyin. Hemen yükseltme yapamıyorsanız, yapana kadar Bitcoin düğümünüzü kapatmanız en iyisi olacaktır. Ve bunun da ötesinde, neden bunu yapmaya karar verdiğini bilmiyorum, aynı koda bazı optimizasyonlar eklemeye karar verdi. Bir hatayı düzeltin ve bazı optimizasyonlar ekleyin.
 
-Kasıtlı olsun ya da olmasın, bu Hard Fork'in gelecekteki Soft çatalları, yani OP_NOP1-OP_NOP10 komut dosyası operatörleri (opcode) için fırsatlar yarattığına dikkat çekiyor. Bu kod değişikliğini cve-2010-5141'de daha ayrıntılı olarak inceleyeceğiz. Bu opcode'lar şimdiye kadar iki Soft fork'u için kullanıldı:
+Kasıtlı olsun ya da olmasın, bu Hard Fork'in gelecekteki Soft çatalları, yani OP_NOP1-OP_NOP10 komut dosyası operatörleri ([opcode](https://planb.academy/resources/glossary/opcodes)) için fırsatlar yarattığına dikkat çekiyor. Bu kod değişikliğini cve-2010-5141'de daha ayrıntılı olarak inceleyeceğiz. Bu opcode'lar şimdiye kadar iki Soft fork'u için kullanıldı:
 
 
 - [BIP65](https://github.com/Bitcoin/bips/blob/master/bip-0065.mediawiki) (OP_CHECKLOCKTIMEVERIFY)
 - [BIP113](https://github.com/Bitcoin/bips/blob/master/bip-0112.mediawiki) (OP_SEQUENCEVERIFY).
 
 
-Lombrozo ayrıca 2017 yılına kadar yükseltme mekanizmalarının yıllar içinde nasıl geliştiğine dair genel bir bakış sunuyor. O zamandan bu yana, yalnızca bir büyük yükseltme olan Taproot uygulanmıştır. Etkinleştirilmesine yol açan uzun ve biraz kaotik süreç, Bitcoin'teki yükseltme mekanizmaları hakkında daha fazla bilgi edinmemize yardımcı oldu.
+Lombrozo ayrıca 2017 yılına kadar yükseltme mekanizmalarının yıllar içinde nasıl geliştiğine dair genel bir bakış sunuyor. O zamandan bu yana, yalnızca bir büyük yükseltme olan [Taproot](https://planb.academy/resources/glossary/taproot) uygulanmıştır. Etkinleştirilmesine yol açan uzun ve biraz kaotik süreç, Bitcoin'teki yükseltme mekanizmaları hakkında daha fazla bilgi edinmemize yardımcı oldu.
 
 
 #### SegWit yükseltmesi
 
 
 
-SegWit'dan önceki tüm yükseltmeler az ya da çok sancısız olmuş olsa da bu yükseltme farklıydı. Ekim 2016'da SegWit aktivasyon kodu yayınlandığında, Bitcoin kullanıcıları arasında bu kod için büyük bir destek var gibi görünüyordu, ancak bazı nedenlerden dolayı madenciler bu yükseltme için destek sinyali vermedi ve bu da aktivasyonu görünürde bir çözüm olmadan durdurdu.
+[SegWit](https://planb.academy/resources/glossary/segwit)'dan önceki tüm yükseltmeler az ya da çok sancısız olmuş olsa da bu yükseltme farklıydı. Ekim 2016'da SegWit aktivasyon kodu yayınlandığında, Bitcoin kullanıcıları arasında bu kod için büyük bir destek var gibi görünüyordu, ancak bazı nedenlerden dolayı madenciler bu yükseltme için destek sinyali vermedi ve bu da aktivasyonu görünürde bir çözüm olmadan durdurdu.
 
 
-Aaron van Wirdum, Bitcoin Magazine makalesinde [The Long Road To SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality) bu dolambaçlı yolu anlatıyor. SegWit'nin ne olduğunu ve blok boyutu tartışmasına nasıl girdiğini açıklayarak başlıyor. Van Wirdum daha sonra nihai aktivasyonuna yol açan olayların ana hatlarını çiziyor. Bu sürecin merkezinde, Shaolinfry adlı kullanıcı tarafından önerilen *kullanıcı tarafından etkinleştirilen Soft Fork* ya da kısaca UASF adı verilen bir yükseltme mekanizması vardı:
+Aaron van Wirdum, Bitcoin Magazine makalesinde [The Long Road To SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality) bu dolambaçlı yolu anlatıyor. SegWit'nin ne olduğunu ve blok boyutu tartışmasına nasıl girdiğini açıklayarak başlıyor. Van Wirdum daha sonra nihai aktivasyonuna yol açan olayların ana hatlarını çiziyor. Bu sürecin merkezinde, Shaolinfry adlı kullanıcı tarafından önerilen *kullanıcı tarafından etkinleştirilen Soft Fork* ya da kısaca [UASF](https://planb.academy/resources/glossary/uasf) adı verilen bir yükseltme mekanizması vardı:
 
 
 > Shaolinfry bir alternatif önerdi: kullanıcı tarafından etkinleştirilen Soft Fork (UASF). Hash güç aktivasyonu yerine, kullanıcı tarafından aktive edilen bir Soft Fork, düğümlerin gelecekte önceden belirlenmiş bir zamanda uygulamaya başladığı bir "'bayrak günü aktivasyonuna" sahip olacaktır Böyle bir UASF ekonomik bir çoğunluk tarafından uygulandığı sürece, bu madencilerin çoğunluğunu Soft Fork'ü takip etmeye (veya etkinleştirmeye) zorlamalıdır.
@@ -1029,7 +1027,7 @@ Bitcoin'u uyum içinde tutmak için Soft çatallarının ileriye dönük bir yol
 Bu bölüm, nelerin yanlış gidebileceğine ve düşmanların nasıl hareket edebileceğine odaklanan bir zihniyet olan *düşmanca düşünme* konusunu ele almaktadır. Bitcoin'nin güvenlik varsayımlarını ve güvenlik modelini tartışarak başlıyoruz, ardından sıradan kullanıcıların düşmanca düşünerek kendi egemenliklerini ve Bitcoin'nin Full node ademi merkeziyetini nasıl geliştirebileceklerini açıklıyoruz. Ardından, Bitcoin'ye yönelik bazı gerçek tehditlerin yanı sıra düşmanın zihnine de bakıyoruz. Son olarak, insanların neden ilk etapta Bitcoin üzerinde çalıştıklarını anlamanıza yardımcı olabilecek *direniş ekseni* hakkında konuşuyoruz.
 
 
-Çeşitli sistemlerde güvenliği tartışırken, güvenlik varsayımlarının ne olduğunu anlamak önemlidir. Bitcoin'teki tipik bir güvenlik varsayımı "ayrık logaritma probleminin çözülmesi Hard'tür", yani basitçe söylemek gerekirse, belirli bir açık anahtara karşılık gelen bir özel anahtar bulmak neredeyse imkansızdır. Oldukça güçlü bir diğer güvenlik varsayımı da ağdaki hash gücünün çoğunluğunun dürüst olduğu, yani kurallara göre oynadıklarıdır. Bu varsayımların yanlış olduğu kanıtlanırsa, Bitcoin'ün başı dertte demektir.
+Çeşitli sistemlerde güvenliği tartışırken, güvenlik varsayımlarının ne olduğunu anlamak önemlidir. Bitcoin'teki tipik bir güvenlik varsayımı "[ayrık logaritma](https://planb.academy/resources/glossary/discrete-logarithm) probleminin çözülmesi Hard'tür", yani basitçe söylemek gerekirse, belirli bir [açık anahtara](https://planb.academy/resources/glossary/public-key) karşılık gelen bir [özel anahtar](https://planb.academy/resources/glossary/private-key) bulmak neredeyse imkansızdır. Oldukça güçlü bir diğer güvenlik varsayımı da ağdaki hash gücünün çoğunluğunun dürüst olduğu, yani kurallara göre oynadıklarıdır. Bu varsayımların yanlış olduğu kanıtlanırsa, Bitcoin'ün başı dertte demektir.
 
 
 2015 yılında Andrew Poelstra Hong Kong'da düzenlenen Scaling Bitcoin konferansında Bitcoin'in güvenlik varsayımlarını analiz ettiği bir konuşma yaptı] (https://btctranscripts.com/scalingbitcoin/hong-kong-2015/security-assumptions/). Konuşmasına, birçok sistemin düşmanları bir dereceye kadar göz ardı ettiğini fark ederek başladı; örneğin, bir binayı her türlü düşmanca olaya karşı korumak gerçekten Hard'dır. Bunun yerine, genellikle birinin binayı yakma olasılığını kabul ediyoruz ve kolluk kuvvetleri vb. aracılığıyla bu ve diğer düşmanca davranışları bir dereceye kadar önlüyoruz.
@@ -1066,7 +1064,7 @@ sistemin kendi karmaşıklığı.
 
 
 
-Karşıt düşüncenin önemi, yalnızca sıkı Bitcoin geliştiricileri ve uzmanları için değil, bir dereceye kadar günlük Bitcoin kullanıcıları için de geçerlidir. Ragnar Lifthasir bir [tweetstorm]'da (https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking) Bitcoin etrafındaki basit anlatıların - örneğin, "sadece HODL" - Bitcoin'in kendisini nasıl aşağılayıcı olabileceğinden bahsediyor ve sözlerini şöyle bitiriyor
+Karşıt düşüncenin önemi, yalnızca sıkı Bitcoin geliştiricileri ve uzmanları için değil, bir dereceye kadar günlük Bitcoin kullanıcıları için de geçerlidir. Ragnar Lifthasir bir [tweetstorm]'da (https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking) Bitcoin etrafındaki basit anlatıların - örneğin, "sadece [HODL](https://planb.academy/resources/glossary/hodl)" - Bitcoin'in kendisini nasıl aşağılayıcı olabileceğinden bahsediyor ve sözlerini şöyle bitiriyor
 
 
 > Bitcoin'ü ve kendimizi daha güçlü kılmak için Bitcoin'e katkıda bulunan yazılım mühendisleri gibi düşünmeliyiz. Onlar acımasızca kusurları arayarak akran değerlendirmesi yaparlar. Teknoloji etkinliklerinde bir teklifin başarısız olabileceği her türlü yol hakkında konuşurlar. Karşıt düşünürler. Muhafazakârdırlar
@@ -1085,10 +1083,10 @@ Wallet hırsızlığı ve hizmet reddi saldırıları:
 
 > Eğer bir saldırgan ağı kendi kontrol ettiği istemcilerle doldurmaya çalışırsa, o zaman sadece saldırgan düğümlere bağlanma olasılığınız çok yüksek olacaktır. Bitcoin hiçbir zaman düğüm sayısını kullanmasa da, bir düğümü dürüst ağdan tamamen izole etmek diğer saldırıların yürütülmesinde yardımcı olabilir.
 
-Bu saldırı türü *Sybil saldırısı* olarak adlandırılır ve tek bir varlık bir ağdaki birden fazla düğümü kontrol ettiğinde ve bunları birden fazla varlık olarak görünmek için kullandığında ortaya çıkar.
+Bu saldırı türü *[Sybil saldırısı](https://planb.academy/resources/glossary/sybil-attack)* olarak adlandırılır ve tek bir varlık bir ağdaki birden fazla düğümü kontrol ettiğinde ve bunları birden fazla varlık olarak görünmek için kullandığında ortaya çıkar.
 
 
-Alıntıda da belirtildiği gibi, Sybil saldırısı Bitcoin ağında etkili değildir çünkü düğümler veya diğer sayılabilir varlıklar aracılığıyla değil, daha ziyade bilgi işlem gücü aracılığıyla oylama yapılmaktadır. Bununla birlikte, bu düz yapı sistemi diğer saldırılara karşı hassas bırakmaktadır. Bitcoin wiki sayfası ayrıca bilgi gizleme (genellikle *eclipse attack* olarak adlandırılır) gibi diğer olası saldırıları ve Bitcoin core'un bu tür saldırılara karşı bazı sezgisel karşı önlemleri nasıl uyguladığını özetlemektedir.
+Alıntıda da belirtildiği gibi, Sybil saldırısı Bitcoin ağında etkili değildir çünkü düğümler veya diğer sayılabilir varlıklar aracılığıyla değil, daha ziyade bilgi işlem gücü aracılığıyla oylama yapılmaktadır. Bununla birlikte, bu düz yapı sistemi diğer saldırılara karşı hassas bırakmaktadır. Bitcoin wiki sayfası ayrıca bilgi gizleme (genellikle *[eclipse attack](https://planb.academy/resources/glossary/eclipse-attack)* olarak adlandırılır) gibi diğer olası saldırıları ve [Bitcoin core](https://planb.academy/resources/glossary/bitcoin-core)'un bu tür saldırılara karşı bazı sezgisel karşı önlemleri nasıl uyguladığını özetlemektedir.
 
 
 Yukarıdakiler, ilgilenilmesi gereken gerçek tehditlere örnektir.
@@ -1150,7 +1148,7 @@ Bitcoin'u güvende tutabilmek için düşmanlarını ve onların teşviklerini b
 ![](assets/tr/010.webp)
 
 
-Bitcoin açık kaynak kodlu yazılım kullanılarak inşa edilmiştir. Bu bölümde bunun ne anlama geldiğini, yazılımın bakımının nasıl yapıldığını ve Bitcoin'taki açık kaynak kodlu yazılımın izinsiz geliştirmeye nasıl izin verdiğini analiz ediyoruz. Kriptografik sistemlerde kütüphanelerin seçimi ve kullanımı ile ilgilenen *seçim kriptografisi* konusuna giriyoruz. Bu bölümde Bitcoin'ın inceleme süreci hakkında bir bölüm ve ardından Bitcoin geliştiricilerinin finansman bulma yolları hakkında bir başka bölüm yer alıyor. Son bölüm, Bitcoin'ın açık kaynak kültürünün dışarıdan nasıl gerçekten tuhaf görünebileceğinden ve bu algılanan tuhaflığın neden gerçekten iyi bir sağlık işareti olduğundan bahsediyor.
+Bitcoin açık kaynak kodlu yazılım kullanılarak inşa edilmiştir. Bu bölümde bunun ne anlama geldiğini, yazılımın bakımının nasıl yapıldığını ve Bitcoin'taki açık kaynak kodlu yazılımın izinsiz geliştirmeye nasıl izin verdiğini analiz ediyoruz. Kriptografik sistemlerde kütüphanelerin seçimi ve kullanımı ile ilgilenen *seçim [kriptografisi](https://planb.academy/resources/glossary/cryptography)* konusuna giriyoruz. Bu bölümde Bitcoin'ın inceleme süreci hakkında bir bölüm ve ardından Bitcoin geliştiricilerinin finansman bulma yolları hakkında bir başka bölüm yer alıyor. Son bölüm, Bitcoin'ın açık kaynak kültürünün dışarıdan nasıl gerçekten tuhaf görünebileceğinden ve bu algılanan tuhaflığın neden gerçekten iyi bir sağlık işareti olduğundan bahsediyor.
 
 
 Çoğu Bitcoin yazılımı ve özellikle Bitcoin core açık kaynak kodludur. Bu, yazılımın kaynak kodunun inceleme, düzeltme, değiştirme ve yeniden dağıtım için genel kamunun kullanımına sunulduğu anlamına gelir. Açık kaynağın [](https://opensource.org/osd) adresindeki tanımı, diğerlerinin yanı sıra, aşağıdaki önemli noktaları içerir:
@@ -1390,7 +1388,7 @@ Tartışma sonsuza kadar sürecekmiş gibi görünüyordu ve bu konuda yakın za
 
 > Bu noktada, ilave bekleme daha fazla inceleme ve kesinlik katmamaktadır. Bunun yerine, ek gecikme ataleti azaltıyor ve insanlar ayrıntıları unutmaya başladıkça, sonraki kullanımla ilgili çalışmaları geciktirdikçe (Wallet desteği gibi) ve etkinleştirme zaman çerçevesinden emin olsalar yatırım yapacakları kadar ek inceleme çabası harcamadıkça riski bir miktar artırıyor.
 
-Sonunda bu anlaşmazlık David Harding ve Russel O'Connor'ın Speedy Trial (Hızlı Deneme) adını verdikleri ve madencilerin Taproot'in aktivasyonunu kilitlemeleri ya da hızlı bir şekilde başarısız olmaları için nispeten daha kısa bir sinyal süresi gerektiren yeni bir teklif sayesinde çözüldü. Eğer bu süre zarfında aktif hale getirirlerse, Taproot yaklaşık 6 ay sonra devreye sokulacaktı.
+Sonunda bu anlaşmazlık David Harding ve Russel O'Connor'ın Speedy Trial ([Hızlı Deneme](https://planb.academy/resources/glossary/speedy-trial)) adını verdikleri ve madencilerin Taproot'in aktivasyonunu kilitlemeleri ya da hızlı bir şekilde başarısız olmaları için nispeten daha kısa bir sinyal süresi gerektiren yeni bir teklif sayesinde çözüldü. Eğer bu süre zarfında aktif hale getirirlerse, Taproot yaklaşık 6 ay sonra devreye sokulacaktı.
 
 
 Bitcoin'nin gelişim sürecine alışkın olmayan biri muhtemelen bu hararetli tartışmaların son derece kötü ve hatta zehirli göründüğünü düşünecektir. Bazı insanların gözünde bunların kötü görünmesine neden olan en az iki faktör vardır:

@@ -1,0 +1,10 @@
+question: Ni iyihe serivisi y’ibidukikije ya Bitcoin ITAKOZEWE n’uguhabwa kwa serivisi y’ukwakira abashitsi kwa Linode ku wa 1 Ntwarante 2012?
+answer: Igikorwa kijanye n'uguhindura amafaranga y'amahanga, kirongowe na Charlie Shrem
+wrong_answers:
+  - Urubuga rw’ubudandaji rwa Bitcoinica, rurongowe na Zhou Tong
+  - BitcoinCZ Mining mining, iyobowe na Slush
+  - Ico kinogo ca Bitcoin, kirongowe na Gavin Andresen
+explanation: |
+ Uwo munyavyaha yaje ku rubuga rw’abaguzi b’iyo sosiyete, aca afata amakonti umunani, yose yari afise ubucuti na Bitcoin. Yafashe 43.554 . 
+ bitcoins za Bitcoinica, yakuye bitcoins 3.094 mu co-op ya Slush ishushe wallet maze aronka ibiganza vyiwe ku bitcoins 5 vyari ku ruzitiro rwa Gavin rwa Bitcoin.
+reviewed: true

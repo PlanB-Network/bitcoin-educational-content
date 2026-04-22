@@ -1,0 +1,8 @@
+question: According to the Austrian analysis presented, how does Bitcoin concretely illustrate the monetary emergence process described by Carl Menger in 1892?
+answer: By the gradual adoption of individuals spontaneously recognizing its unique monetary properties, creating a network externality effect
+wrong_answers:
+  - "By the collective decision of financial institutions that have officially validated its monetary function after technical analysis"
+  - "Through the intervention of monetary authorities who have gradually integrated Bitcoin into their international foreign exchange reserves."
+  - Through centralized planning by developers who have designed its features to meet identified monetary needs
+explanation: |
+  According to Menger, money emerges spontaneously when the most perceptive agents identify the most exchangeable good, then others imitate this choice out of self-interest. Bitcoin illustrates this process perfectly: no central authority decided on its monetary value, but individuals recognized its properties (fixed supply, divisibility, portability) and gradually adopted it. The other options require central planning or intervention, which contradicts the spontaneous process described by Menger.

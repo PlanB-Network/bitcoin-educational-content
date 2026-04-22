@@ -352,7 +352,7 @@ Hari ubwoko bwinshi bw’uguhinduranya:
 
 
 
-Ishure ry’ubutunzi ryo muri Otirishiya risobanura iyo mpinduka nk’uguseruka kw’ibintu vy’agaciro vy’uguhinduranya. Ivyuma vy’ibikoko, vyaremejwe n’abacukuzi kuva mu gihe c’amabuye y’agaciro, biragaragaza ico kintu: biboneka kure y’aho vyakomotse (ibikoko vyo mu kiyaga Mediterane mu burengero bw’Ubufaransa, ibikoko vyo mu bihugu vyo mu Burengero mu bindi bibanza), birashingira intahe ko abantu bose bemera agaciro kavyo ko guhinduranya.
+[Ishure ry’ubutunzi ryo muri Otirishiya](https://planb.academy/resources/glossary/austrian-school) risobanura iyo mpinduka nk’uguseruka kw’ibintu vy’agaciro vy’uguhinduranya. Ivyuma vy’ibikoko, vyaremejwe n’abacukuzi kuva mu gihe c’amabuye y’agaciro, biragaragaza ico kintu: biboneka kure y’aho vyakomotse (ibikoko vyo mu kiyaga Mediterane mu burengero bw’Ubufaransa, ibikoko vyo mu bihugu vyo mu Burengero mu bindi bibanza), birashingira intahe ko abantu bose bemera agaciro kavyo ko guhinduranya.
 
 
 
@@ -637,7 +637,7 @@ Abanya-Inca ntibari bafise uburyo bwo gukoresha amahera, mugabo bari bafise ivyu
 > Uko igihugu kirushiriza kugira imigwi, kandi uburyo bwaco bwo gutegura bukaba bukora neza cane, ni ko n’ugukoresha amahera bigenda bigabanuka ku baturage baco. Ivyo bishobora gusigura igituma abanyagihugu b’Abanyasipaniyo bavumbuye ko Abanyamegizike, intwaro yabo yari ifise umwidegemvyo mwinshi, bakoresha ubudasiba ifu y’inzahabu (ibikwa mu bikoresho bibonerana) n’ibitoke vya kakawo (ibikwa kugira ngo umuntu yishure amahera menshi mu mifuko y’ibice 24.000) nk’amahera, mu gihe ibihushanye n’ivyo, bakoresha cane nta mafaranga yari afise na gato: ikintu kidasanzwe cemezwa n’itegeko rikomeye. Inkomoko y’amahera mu Bushinwa yari yigenga rwose ku bindi bihugu; ariko rero, ukuntu ubuhinga bw’Abasumeri, Abanyamisiri n’Abamino bwari hafi cane, biratuma habaho amakenga ku bijanye n’ingene umwe wese muri bo atamenya imigenzo y’amahera, canecane turavye ubudandaji bwinshi bwashinzwe kuva mu bihe vya kera cane.
 
 
-Mu Bushinwa, ibiceri vyakozwe mu buryo butandukanye rwose n’imigenzo y’Abanyaburaya. Yari amahera ya fiat kuva mu ntango. Vyari ibiceri vy’ibiceri.
+Mu Bushinwa, ibiceri vyakozwe mu buryo butandukanye rwose n’imigenzo y’Abanyaburaya. Yari amahera ya [fiat](https://planb.academy/resources/glossary/fiat) kuva mu ntango. Vyari ibiceri vy’ibiceri.
 
 
 Kandi aha, Bwana Davies avuga ubudandaji. Hariho vy’ukuri uguhanahana hagati y’Abashinwa n’abandi bantu mu bihe bimwebimwe, ariko uburyo bwo guhanahana ubudandaji n’amahanga bwari ubudodo. Nk’uko tuzobibona mu nyuma, inzahabu yarakoreshwa no mu turere two ku mipaka y’Ubushinwa, aho Abashinwa bari bake. Kandi mbere n’ubudandaji mpuzamakungu; kubera ivyo, vyari ubudodo.
@@ -1463,7 +1463,7 @@ Naho ku bijanye n’uguhinduranya, hari inyigisho zivuga ko vyakoreshwa cane can
 
 
 
-Ivyo rero nivyo tuzokora muri iki gice. Tugiye gukora ubushakashatsi bumwe bumwe kugira ngo tugaragaze inyigisho zitandukanye ku bijanye n’uguseruka kw’amahera n’insobanuro zitandukanye z’ico amahera ari co. Tuzoba turiko turashikiriza no kunegura ivyiyumviro vy’abahinga mu vy’ubutunzi n’abahinga mu vy’imico kama. Nzogira mbere amahirwe yo kuba turi kumwe na Ulrich Fromy, azobabwira ivyiyumviro vy’umuhinga mu vy’ubutunzi wo muri Otirishiya kuri ivyo bintu bitandukanye.
+Ivyo rero nivyo tuzokora muri iki gice. Tugiye gukora ubushakashatsi bumwe bumwe kugira ngo tugaragaze inyigisho zitandukanye ku bijanye n’uguseruka kw’amahera n’insobanuro zitandukanye z’ico amahera ari co. Tuzoba turiko turashikiriza no kunegura ivyiyumviro vy’abahinga mu vy’ubutunzi n’abahinga mu vy’imico kama. Nzogira mbere amahirwe yo kuba turi kumwe na Ulrich, azobabwira ivyiyumviro vy’umuhinga mu vy’ubutunzi wo muri Otirishiya kuri ivyo bintu bitandukanye.
 
 
 

@@ -1,0 +1,10 @@
+question: Millise vastuolulise meetme võttis Luke-Jr 6. jaanuaril 2012 krüptoraha Coiledcoin vastu, et "kaitsta" Bitcoin ökosüsteemi?
+answer: Ta viis läbi tsensuurirünnaku Coiledcoini vastu, kasutades oma Eligius mining basseini
+wrong_answers:
+  - Ta esitas GitHubile DMCA tühistamisteate Coinledcoini vastu autoriõiguste rikkumise eest
+  - Ta toimetas Coiledcoini Vikipeedia lehte, et seda avalikult püramiidskeemiks nimetada
+  - Ta postitas massilised sõnumid Coiledcoin blockchain tänu OP_RETURN
+explanation: |
+ See tsensuurirünnak (mining tühjad plokid) viidi läbi tänu mining kombineeritud Bitcoin-ga, mida ta oli rakendanud oma mining basseinis. Ta põhjendas
+ oma tegevust sellega, et ükski Eligius kaevandaja ei saanud kahju. Luke-Jr esitas küll GitHubile DMCA-tõrjeteate, kuid SolidCoini vastu.
+reviewed: true

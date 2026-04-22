@@ -1,9 +1,9 @@
 question: Hai khía cạnh chính của sự phân quyền trong Bitcoin là gì?
-answer: Phân quyền Miner và phân quyền full node
+answer: Phân quyền Miner và phân quyền nút đầy đủ
 wrong_answers:
   - Phân cấp giao dịch và phân cấp wallet
   - Phân cấp mạng và phân cấp giao thức
   - Phân quyền người dùng và phân quyền nhà phát triển
 explanation: |
-  Cơ chế phi tập trung của Bitcoin bao gồm hai thành phần chính: phi tập trung của thợ đào và phi tập trung của full node. Cơ chế phi tập trung của Miner nghĩa là việc xử lý và sắp xếp giao dịch không được kiểm soát bởi bất kỳ thực thể đơn lẻ nào, mà bởi một tập thể thợ đào năng động, những người có thể tự do tham gia hoặc rời đi. Cơ chế phi tập trung của Full node đề cập đến việc xác thực các khối được thực hiện ở rìa mạng bởi chính người dùng, thay vì bởi các cơ quan đáng tin cậy. Hai khía cạnh này phối hợp với nhau để đạt được khả năng chống kiểm duyệt - thợ đào ngăn chặn việc sắp xếp giao dịch tập trung trong khi các nút đầy đủ đảm bảo việc xác thực blockchain không cần tin cậy.
+  Cơ chế phi tập trung của Bitcoin bao gồm hai thành phần chính: phi tập trung của thợ đào và phi tập trung của nút đầy đủ. Cơ chế phi tập trung của Miner nghĩa là việc xử lý và sắp xếp giao dịch không được kiểm soát bởi bất kỳ thực thể đơn lẻ nào, mà bởi một tập thể thợ đào năng động, những người có thể tự do tham gia hoặc rời đi. Cơ chế phi tập trung của nút đầy đủ đề cập đến việc xác thực các khối được thực hiện ở rìa mạng bởi chính người dùng, thay vì bởi các cơ quan đáng tin cậy. Hai khía cạnh này phối hợp với nhau để đạt được khả năng chống kiểm duyệt - thợ đào ngăn chặn việc sắp xếp giao dịch tập trung trong khi các nút đầy đủ đảm bảo việc xác thực blockchain không cần tin cậy.
 reviewed: false

@@ -1,0 +1,11 @@
+question: Kuka oli epäsuorasti vastuussa viimeisimmästä Bitcoinica-hakkerista, joka tapahtui heinäkuussa 2012?
+answer: Amir Taaki
+wrong_answers:
+  - Zhou Tong
+  - Chen Jianhai
+  - Mark Karpelès
+explanation: |
+ Hän julkaisi 7. heinäkuuta alustan koko lähdekoodin, joka sisälsi salasanan Bitcoinican LastPass-turvakaappiin, joka puolestaan sisälsi salasanan hänen omaan LastPass-turvakaappiinsa
+ Mt. Gox-tililleen. sieltä nostettiin 40 000 bitcoinia ja 40 000 LR-USD. Amir Taaki myönsi tämän teon, mutta syytti siitä Bitcoinican johtoa,
+ jonka kanssa hän oli riidoissa.
+reviewed: true

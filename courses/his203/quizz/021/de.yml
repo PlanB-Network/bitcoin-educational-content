@@ -1,0 +1,10 @@
+question: Wie hieß der sofortige Devisendienst, der 2011 von Gareth Nelson und Charlie Shrem gegründet wurde, um Einzahlungen auf Devisenplattformen zu erleichtern?
+answer: BitInstant
+wrong_answers:
+  - Instawallet
+  - Krypto X Ändern
+  - TrustCash
+explanation: |
+ Dieser Dienst löste das Problem der langsamen internationalen Überweisungen an Mt. Gox, indem er als Vermittler fungierte und die Gelder nach Erhalt im Herkunftsland an die Börsenplattformen weiterleitete
+ dem Herkunftsland. BitInstant öffnete seine Türen für die Öffentlichkeit am 23. August 2011 und wurde schnell populär: Bis Januar 2012 wurden 1,2 Millionen Dollar überwiesen.
+reviewed: true

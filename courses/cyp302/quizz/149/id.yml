@@ -6,4 +6,4 @@ wrong_answers:
   - Sebuah bilangan bulat yang lebih besar dari bilangan lainnya
 explanation: |
   Sebuah bilangan bulat dikatakan koprima dengan bilangan lain jika faktor persekutuan terbesarnya adalah 1, yang berarti mereka tidak memiliki faktor bersama lainnya.
-reviewed: false
+reviewed: true

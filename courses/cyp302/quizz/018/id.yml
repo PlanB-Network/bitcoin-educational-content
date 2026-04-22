@@ -6,4 +6,4 @@ wrong_answers:
   - Probabilitas gabungan mereka sama dengan probabilitas tertinggi dari kedua kejadian tersebut
 explanation: |
   Dua kejadian dikatakan independen jika probabilitas salah satunya tidak mengubah probabilitas dari yang lain, seperti pengundian lotere yang tidak mempengaruhi cuaca pada hari berikutnya.
-reviewed: false
+reviewed: true

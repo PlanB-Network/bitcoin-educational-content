@@ -5,5 +5,5 @@ wrong_answers:
   - Bitcoin Classic
   - Bcoin
 explanation: |
-  With around 9 out of 10 nodes on the network, Bitcoin Core is the majority customer.
+  With around 9 out of 10 nodes on the network, Bitcoin Core is the majority client.
 reviewed: true

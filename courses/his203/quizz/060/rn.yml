@@ -1,0 +1,10 @@
+question: Ni ubuhe buhinga bushasha bwa SatoshiDICE bwatumye abakinyi bashobora kugenzura ko iyo casino itariko irahenda?
+answer: Itangazo ry’ibanga hash ku blockchain, hanyuma hakurikirwa itangazo ry’ayo mabanga kugira ngo bishobore gusubira kubara ibisubizo 
+wrong_answers:
+  - Gushiraho ubuhinga bwo kwemeza bushingiye ku rwego rwo hejuru aho ubucuruzi bwose bugenzurwa n'ibice vyinshi vyigenga
+  - Ikoreshwa ry’amaderesi adahinduka ku rubuga rwa blockchain, bituma bishoboka kugenzura ama draws, gutyo bigatuma haba ubutungane 
+  - Ishirwa mu ngiro ry'imibare y'ibishoboka ataco rihinduye ku rubuga rwa blockchain biciye mu masezerano ya Leta yigenga
+explanation: |
+ SatoshiDICE yari ihinduka ry'ibintu kuko yari "ubutungane ata gukeka". Igishushanyo cose gifitaniye isano n’ibishoboka cari gishingiye ku banga generated mu ntango z’umusi, iryo 
+ hash yayo yasohowe ku rubuga rwa blockchain. Iryo banga ubwaryo ryaramenyekanye haciye imisi mikeyi, bituma abakoresha bonyene basubira kubara igisubizo.
+reviewed: true

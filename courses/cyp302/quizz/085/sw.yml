@@ -1,4 +1,4 @@
-question: Ni nini block cipher katika cryptography?
+question: Ni nini block cipher katika kriptografia?
 answer: Algorithm inayobadilisha mfuatano wa urefu usiobadilika kuwa mfuatano mwingine wa urefu sawa
 wrong_answers:
   - Usimbaji fiche usiolingana kulingana na funguo za siri za umma na za kibinafsi
@@ -6,4 +6,4 @@ wrong_answers:
   - Usimbaji fiche ambao hauhitaji ufunguo wa siri
 explanation: |
   Cipher ya kuzuia ni algoriti inayotumia mabadiliko kwenye mfuatano wa urefu usiobadilika na ufunguo wa kutoa mfuatano mwingine wa urefu sawa.
-reviewed: false
+reviewed: true

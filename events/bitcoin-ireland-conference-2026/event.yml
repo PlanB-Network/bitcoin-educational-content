@@ -1,0 +1,23 @@
+id: facab778-7d7a-4aea-b6fa-f456b2a12926
+start_date: 2026-05-21 23:00:00
+end_date: 2026-05-24 23:00:00
+timezone: Europe/Dublin
+address_city_country: Dublin, Ireland
+address_line_2: 
+address_line_3: 
+name: Bitcoin Ireland Conference 2026
+type: conference
+book_online: false
+book_in_person: false
+description: |
+  Bitcoin Ireland Conference 2026 is Ireland's premier Bitcoin event taking place May 22-25, 2026 in Dublin. Join over 1000 Bitcoiners for four days of learning, networking, and building in the Bitcoin community.
+language:
+  - en
+links:
+  website: https://bitcoinireland.eu/
+  replay_url: 
+  live_url: 
+tags:
+  - adoption
+  - innovation
+  - case-studies

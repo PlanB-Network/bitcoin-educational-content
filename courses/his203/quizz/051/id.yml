@@ -1,0 +1,10 @@
+question: Menurut penelitian Nicolas Christin yang diterbitkan pada bulan Agustus 2012, berapakah volume penjualan harian selama bulan Mei 2012?
+answer: 15.000 BTC atau $75.000
+wrong_answers:
+  - 600 BTC atau $3.000
+  - 3.000 BTC atau $15.000
+  - 75.000 BTC atau $375.000
+explanation: |
+ Volume penjualan harian, yang mencapai 8.000 BTC pada bulan Maret, mencapai 15.000 BTC pada bulan Mei, atau setara dengan sekitar $75.000 pada saat itu. Aktivitas sebagai proporsi dari total
+ Aktivitas rantai Bitcoin berkisar antara 10% dan 20% selama tahun 2012. Pada awal November, Ross menyebut kesuksesan platform ini sebagai "pertumbuhan yang eksplosif".
+reviewed: true

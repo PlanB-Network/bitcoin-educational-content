@@ -6,4 +6,4 @@ wrong_answers:
   - Elle n’est pas dans l’arbre de Merkle
 explanation: |
   Son input pointe vers un UTXO fictif, ce qui permet de créer la subvention et de capter les frais.
-reviewed: false
+reviewed: true 

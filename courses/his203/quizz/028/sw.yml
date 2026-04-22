@@ -1,0 +1,9 @@
+question: Ni programu gani iliyobuniwa kwa kuwakilisha chanzo muhimu cha seed kama sentensi ya maneno 12 mnamo Novemba 2011?
+answer: Electrum
+wrong_answers:
+  - Spesmilo
+  - Stratum
+  - Paymium
+explanation: |
+ wallet hii iliundwa na msanidi programu wa Kifaransa Thomas Voegtlin. Jina lake linamaanisha electrum, aloi asilia ya dhahabu na fedha. Electrum ilikuwa mojawapo ya wallet za kwanza kutekeleza muundo wa kitambulisho unaotokana na funguo kutoka kwa seed, ambayo iliwakilisha kama kamba ya herufi heksadesimali na sentensi ya maneno 12.
+reviewed: true

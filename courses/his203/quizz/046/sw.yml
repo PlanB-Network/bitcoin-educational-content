@@ -1,0 +1,10 @@
+question: Ni nani aliyetekeleza kitendakazi cha Scrypt kinachotumia kumbukumbu nyingi kama algoriti ya mining inayostahimili GPU katika sarafu ya kidijitali ya Tenebrix mnamo 2011?
+answer: ArtForz
+wrong_answers:
+  - Charlie Lee
+  - Konokono
+  - Colin Percival
+explanation: |
+ Scrypt ni kitendakazi muhimu cha uundaji kilichoundwa awali mwaka wa 2009 na mwanasayansi wa kompyuta wa Kanada Colin Percival. Kilichukuliwa na mchimbaji madini ArtForz, ambaye alisaidia 
+ Lolcust kutengeneza sarafu ya kidijitali ya Tenebrix, iliyozinduliwa mnamo Septemba 2011. Charlie Lee alichukua mfumo wa kuingizwa katika Litecoin, ambao ulianza kutumika Oktoba.
+reviewed: true

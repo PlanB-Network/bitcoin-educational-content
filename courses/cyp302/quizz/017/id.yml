@@ -6,4 +6,4 @@ wrong_answers:
   - Variabel diskrit tidak ada dalam kriptografi modern, hanya variabel kontinu yang digunakan.
 explanation: |
   Variabel diskrit memiliki satu set hasil yang terbatas, sementara variabel kontinu dapat mengambil nilai apa saja dalam sebuah interval, seperti angka-angka riil antara 0 dan 1.
-reviewed: false
+reviewed: true

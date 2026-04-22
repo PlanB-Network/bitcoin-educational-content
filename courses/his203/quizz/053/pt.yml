@@ -1,0 +1,11 @@
+question: Como se chamava o serviço de câmbio privado a privado lançado por Jeremias Kangas e o seu irmão em junho de 2012?
+answer: LocalBitcoins
+wrong_answers:
+  - BTC PERTO DE MIM
+  - BitInstant
+  - Coinabul
+explanation: |
+ Tratava-se de uma plataforma de matchmaking, que foi lançada a 7 de junho. Durante o verão, a LocalBitcoins integrou um sistema de caução, através do qual os bitcoins podiam ser
+ momentaneamente retidos pela plataforma e libertados por SMS para pagamento ao comprador. Isto permitiu, nomeadamente, trocas presenciais, em que o vendedor
+ o vendedor libertava os bitcoins assim que o dinheiro fosse recebido.
+reviewed: true

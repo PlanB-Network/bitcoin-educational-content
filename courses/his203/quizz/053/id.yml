@@ -1,0 +1,11 @@
+question: Apa nama layanan penukaran valuta asing swasta-ke-swasta yang diluncurkan oleh Jeremias Kangas dan saudaranya pada bulan Juni 2012?
+answer: LocalBitcoins
+wrong_answers:
+  - BTC DEKAT AKU
+  - BitInstant
+  - Coinabul
+explanation: |
+ Ini adalah platform perjodohan, yang diluncurkan pada tanggal 7 Juni. Selama musim panas, LocalBitcoins mengintegrasikan sistem escrow, di mana bitcoin dapat
+ dipegang sementara oleh platform dan dirilis melalui SMS untuk pembayaran kepada pembeli. Secara khusus, ini memungkinkan pertukaran tatap muka, di mana penjual akan
+ melepaskan bitcoin setelah uang tunai diterima.
+reviewed: true

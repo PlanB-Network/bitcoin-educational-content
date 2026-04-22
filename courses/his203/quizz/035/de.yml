@@ -1,0 +1,10 @@
+question: Worin besteht das in einigen mining-Pools verwendete Pay-Per-Last-N-Shares-Verfahren (PPLNS)?
+answer: Bezahlung der Schürfer für jeden geschürften Block im Verhältnis zu ihren Anteilen an den letzten N Anteilen, die an den mining-Pool geliefert wurden
+wrong_answers:
+  - Sofortige Entlohnung der Bergleute für jedes gelieferte Teil, je nach Schwierigkeitsgrad
+  - Belohnung der Schürfer für jeden geschürften Block im Verhältnis zu den Anteilen, die sie seit dem letzten Block gefunden haben
+  - Bezahlen Sie die Bergleute sofort für jeden bereitgestellten Anteil, aber nie mehr, als der mining-Pool besitzt
+explanation: |
+ Dabei handelt es sich um eine Variante des Proportionalmodells, bei der der Auswertungszeitraum nicht der Blockproduktionszyklus, sondern ein vom Zyklus unabhängiges Fenster von N Anteilen ist.
+ Die PPLNS-Methode wurde u. a. von P2Pool verwendet.
+reviewed: true

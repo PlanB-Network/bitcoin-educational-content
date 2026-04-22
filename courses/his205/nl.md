@@ -352,7 +352,7 @@ Er zijn verschillende soorten ruilhandel:
 
 
 
-De Oostenrijkse economische school interpreteert deze evolutie als het spontane ontstaan van geprivilegieerde ruilgoederen. Schelpen, waarvan archeologisch is aangetoond dat ze al in het Mesolithicum werden gevonden, illustreren dit fenomeen: ze werden ver van hun geografische oorsprong gevonden (mediterrane schelpen in West-Frankrijk, Scandinavische schelpen op andere sites) en getuigen van een gemeenschappelijke erkenning van hun ruilwaarde.
+De [Oostenrijkse economische school](https://planb.academy/resources/glossary/austrian-school) interpreteert deze evolutie als het spontane ontstaan van geprivilegieerde ruilgoederen. Schelpen, waarvan archeologisch is aangetoond dat ze al in het Mesolithicum werden gevonden, illustreren dit fenomeen: ze werden ver van hun geografische oorsprong gevonden (mediterrane schelpen in West-Frankrijk, Scandinavische schelpen op andere sites) en getuigen van een gemeenschappelijke erkenning van hun ruilwaarde.
 
 
 
@@ -605,7 +605,7 @@ De Mesopotamische ervaring schept blijvende precedenten voor de evolutie van fin
 
 
 
-Deze baanbrekende periode onthult ook de machtskwesties die inherent zijn aan elke monetaire innovatie: wie controleert de technologie, wie bepaalt de regels, en hoe formele systemen en populaire praktijken worden geformuleerd. Deze fundamentele vragen zijn in de hele economische geschiedenis blijven bestaan en strekken zich uit tot hedendaagse debatten over digitale valuta en cryptocurrencies.
+Deze baanbrekende periode onthult ook de machtskwesties die inherent zijn aan elke monetaire innovatie: wie controleert de technologie, wie bepaalt de regels, en hoe formele systemen en populaire praktijken worden geformuleerd. Deze fundamentele vragen zijn in de hele economische geschiedenis blijven bestaan en strekken zich uit tot hedendaagse debatten over digitale valuta en [cryptocurrencies](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 
@@ -637,7 +637,7 @@ De Inca's hadden geen monetair systeem, maar wel een overvloed aan edele metalen
 > Hoe gelaagder een samenleving en hoe efficiënter het planningssysteem, des te minder is het gebruik van geld nodig voor de bevolking. Dit kan verklaren waarom de Spaanse veroveraars ontdekten dat de Mexicanen, wiens regering relatief liberaler was, regelmatig goudpoeder (bewaard in doorzichtige buisjes) en cacaobonen (bewaard voor grote betalingen in zakken van 24.000 eenheden) als betaalmiddel gebruikten, terwijl de Inca's, georganiseerd volgens een veel rigidere hiërarchie, helemaal geen geld hadden: een uitzondering bevestigd door een strikte regel. De oorsprong van het geld in China was volledig onafhankelijk van andere beschavingen; maar de relatieve nabijheid van de Sumerische, Egyptische en Minoïsche beschavingen doet twijfels rijzen over de mate van hun respectieve onwetendheid van monetaire praktijken, vooral gezien de uitgebreide handel die al in de vroegste tijden tot stand kwam.
 
 
-In China werden munten ontwikkeld met een totaal andere benadering dan de westerse tradities. Het was vanaf het begin fiatgeld. Het waren gegoten munten.
+In China werden munten ontwikkeld met een totaal andere benadering dan de westerse tradities. Het was vanaf het begin [fiatgeld](https://planb.academy/resources/glossary/fiat). Het waren gegoten munten.
 
 
 En hier noemt Mr. Davies handel. Er waren inderdaad op bepaalde momenten uitwisselingen tussen de Chinezen en andere bevolkingsgroepen, maar het ruilmiddel voor buitenlandse handel was eerder zijde. Zoals we later zullen zien, werd goud ook gebruikt in de grensgebieden van China, waar de Chinese bevolking kleiner was. En zelfs niet voor internationale handel; daarvoor was het zijde.
@@ -994,7 +994,7 @@ De Chinese staat gebruikte geld als een instrument voor economische regulering: 
 
 
 
-Hier kan een verband worden gelegd met inflatie en deflatie. Bij een vaste geldhoeveelheid stijgt de waarde van geld als de productiviteit van de economie toeneemt. Omgekeerd, als de productiviteit daalt, daalt de waarde van geld. In dit voorbeeld is echter het tegenovergestelde waar. Waarschijnlijk omdat de prins geen volledig monopolie had op de productie van geld, maar het geeft toch aan dat de waarde van geld gekoppeld was aan economische omstandigheden.
+Hier kan een verband worden gelegd met [inflatie](https://planb.academy/resources/glossary/inflation) en deflatie. Bij een vaste geldhoeveelheid stijgt de waarde van geld als de productiviteit van de economie toeneemt. Omgekeerd, als de productiviteit daalt, daalt de waarde van geld. In dit voorbeeld is echter het tegenovergestelde waar. Waarschijnlijk omdat de prins geen volledig monopolie had op de productie van geld, maar het geeft toch aan dat de waarde van geld gekoppeld was aan economische omstandigheden.
 
 
 
@@ -1463,7 +1463,7 @@ Sommige theorieën suggereren dat ruilhandel vooral werd gebruikt in internation
 
 
 
-Dus dat is wat we in dit hoofdstuk gaan doen. We gaan een soort overzicht geven van de verschillende theorieën over het ontstaan van geld en de verschillende definities van wat geld is. We zullen de stellingen van zowel klassieke economen als antropologen presenteren en bekritiseren. Ik heb zelfs het geluk om Ulrich Fromy bij me te hebben, die het perspectief van een Oostenrijkse econoom op deze verschillende onderwerpen zal presenteren.
+Dus dat is wat we in dit hoofdstuk gaan doen. We gaan een soort overzicht geven van de verschillende theorieën over het ontstaan van geld en de verschillende definities van wat geld is. We zullen de stellingen van zowel klassieke economen als antropologen presenteren en bekritiseren. Ik heb zelfs het geluk om Ulrich bij me te hebben, die het perspectief van een Oostenrijkse econoom op deze verschillende onderwerpen zal presenteren.
 
 
 
@@ -3616,7 +3616,7 @@ Laten we verder gaan naar Zweden, waar de allereerste centrale bank werd opgeric
 
 
 
-**Zweden** was een pionier op het gebied van centraal bankieren: in 1657 richtte Johan Palmstruch de **Stockholm Banco** op, die meer mocht uitlenen dan haar metaalreserves en daarmee de geboorte van fractional reserve banking markeerde. Maar de buitensporige uitgifte van bankbiljetten leidde in 1663 tot paniek en een run op de bank. Nou ja...
+**Zweden** was een pionier op het gebied van centraal bankieren: in 1657 richtte Johan Palmstruch de **Stockholm Banco** op, die meer mocht uitlenen dan haar metaalreserves en daarmee de geboorte van [fractional reserve banking](https://planb.academy/resources/glossary/fractional-reserves) markeerde. Maar de buitensporige uitgifte van bankbiljetten leidde in 1663 tot paniek en een run op de bank. Nou ja...
 
 
 

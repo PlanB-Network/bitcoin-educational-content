@@ -756,7 +756,7 @@ Mutta kuten Spinoza sanoo, "ihmisten harhaluulot eivät lopu tähän", ja kaikki
 
 
 
-Esimerkiksi keynesiläisten taloustieteilijöiden ja hyvinvointivaltion kannattajien antama inflaation määritelmä kuvaa hyvin tätä paradoksia. Heidän mukaansa inflaatio on hintojen nousua, joka joidenkin keskuspankkiirien mukaan tulee joko "tyhjästä" tai geopoliittisista syistä, joita kukaan ei voi valvoa tai ennakoida. Vaikka hintojen nousu voi todellakin johtaa sykliseen inflaatioon - esimerkiksi kun öljyn hinta nousee, myös tiettyjen jalostettujen tuotteiden hinnat nousevat - inflaation todelliset rakenteelliset syyt liittyvät ensisijaisesti rahan Supply:n kasvuun, mikä puolestaan merkitsee rahan arvon laskua ja ipso facto mekaanista hintojen nousua.
+Esimerkiksi keynesiläisten taloustieteilijöiden ja hyvinvointivaltion kannattajien antama [inflaation](https://planb.academy/resources/glossary/inflation) määritelmä kuvaa hyvin tätä paradoksia. Heidän mukaansa inflaatio on hintojen nousua, joka joidenkin keskuspankkiirien mukaan tulee joko "tyhjästä" tai geopoliittisista syistä, joita kukaan ei voi valvoa tai ennakoida. Vaikka hintojen nousu voi todellakin johtaa sykliseen inflaatioon - esimerkiksi kun öljyn hinta nousee, myös tiettyjen jalostettujen tuotteiden hinnat nousevat - inflaation todelliset rakenteelliset syyt liittyvät ensisijaisesti rahan Supply:n kasvuun, mikä puolestaan merkitsee rahan arvon laskua ja ipso facto mekaanista hintojen nousua.
 
 
 
@@ -1064,7 +1064,7 @@ Toisin sanoen, jos vihaamme ulkomaalaista, se johtuu siitä, että yhdistämme t
 
 
 
-Tämä pätee muuten erityisesti kryptovaluuttojen alalla.
+Tämä pätee muuten erityisesti [kryptovaluuttojen](https://planb.academy/resources/glossary/cryptocurrency) alalla.
 
 
 
@@ -1159,7 +1159,7 @@ Juuri tästä valistuksen rationaalisessa filosofiassa oli kyse, kiitos erityise
 Toisin sanoen hän sanoo, että jos ajattelemme itse, jos järkeilemme kuin järkevät aikuiset ja jos siis pyrimme kiinnittämään itseämme asioiden välisiin kausaalisiin yhteyksiin, emme enää tarvitse moraalista auktoriteettia opettamaan meille esimerkiksi uskonnon todellisia hyveellisyyksiä tai todellisia eettisiä arvoja politiikan ja talouden alalla.
 
 
-Kyseessä on päättelytapa, joka yhdistää itävaltalaisen liberaalin taloustieteen koulukuntaan, joka syntyi Wienin erittäin hedelmällisessä älyllisessä ilmapiirissä ennen ensimmäistä maailmansotaa. Sillä juuri tässä yhteydessä Carl Mengerin (1840-1921), Ludwig von Misesin (1883-1979) ja Friedrich Hayekin (1899-1992) kaltaiset intellektuellit loivat perustan uudelle liberaalin taloustieteen koulukunnalle, josta tuli tulevien kypäräpoppareiden vakaumusten perusta. Ja näin syntyi Bitcoin.
+Kyseessä on päättelytapa, joka yhdistää [itävaltalaisen](https://planb.academy/resources/glossary/austrian-school) liberaalin taloustieteen koulukuntaan, joka syntyi Wienin erittäin hedelmällisessä älyllisessä ilmapiirissä ennen ensimmäistä maailmansotaa. Sillä juuri tässä yhteydessä Carl Mengerin (1840-1921), Ludwig von Misesin (1883-1979) ja Friedrich Hayekin (1899-1992) kaltaiset intellektuellit loivat perustan uudelle liberaalin taloustieteen koulukunnalle, josta tuli tulevien [kypäräpoppareiden](https://planb.academy/resources/glossary/cypherpunks) vakaumusten perusta. Ja näin syntyi Bitcoin.
 
 
 
@@ -1204,7 +1204,7 @@ Nämä ovat poliittisia ja taloudellisia perusteluja, jotka ensimmäiset salakir
 
 
 
-Varsinkin kun hän kirjoitti 3. tammikuuta 2009 julkaistun Timesin otsikon Blockchain Bitcoin:n Genesis-lohkon kolikkopohjaan havainnollistamaan yhden aikakauden, keynesiläisen, loppua ja toisen aikakauden, liberaalien, anarkististen ja libertarististen pyrkimysten, alkua.
+Varsinkin kun hän kirjoitti 3. tammikuuta 2009 julkaistun Timesin otsikon [Blockchain](https://planb.academy/resources/glossary/blockchain) Bitcoin:n [Genesis-lohkon](https://planb.academy/resources/glossary/genesis-block) [kolikkopohjaan](https://planb.academy/resources/glossary/coinbase-transaction) havainnollistamaan yhden aikakauden, keynesiläisen, loppua ja toisen aikakauden, liberaalien, anarkististen ja libertarististen pyrkimysten, alkua.
 
 
 
@@ -1212,7 +1212,7 @@ Varsinkin kun hän kirjoitti 3. tammikuuta 2009 julkaistun Timesin otsikon Block
 
 
 
-31. lokakuuta 2008 julkaistussa valkoisessa kirjassa esitellään Bitcoin hajautettuun protokollaan perustuvana keinona vaihtaa arvoa Internetissä ilman luotettavaa kolmatta osapuolta. Kopernikaaninen vallankumous, jonka ansiosta ihmiset voivat vihdoin saada takaisin toimintakykynsä eli vapautensa, kaupankäynnin vapautensa, oikeutensa omaisuuteen ja yksityisyytensä kunnioittamisen.
+31. lokakuuta 2008 julkaistussa [valkoisessa kirjassa](https://planb.academy/resources/glossary/white-paper) esitellään Bitcoin hajautettuun protokollaan perustuvana keinona vaihtaa arvoa Internetissä ilman luotettavaa kolmatta osapuolta. Kopernikaaninen vallankumous, jonka ansiosta ihmiset voivat vihdoin saada takaisin toimintakykynsä eli vapautensa, kaupankäynnin vapautensa, oikeutensa omaisuuteen ja yksityisyytensä kunnioittamisen.
 
 
 Miksi? Koska Bitcoin antaa meille mahdollisuuden vapautua tästä orjuudesta Spinozan tavoin, järjen ja Galileon matematiikan kielen ansiosta. Ja, kuten Hayek ehdottaa, ilman, että valtio voi vastustaa sitä. Ja rauhanomaisesti, ilman pakottamista tai käännyttämistä.

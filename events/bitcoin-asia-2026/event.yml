@@ -1,0 +1,25 @@
+id: 4180bcae-a5e6-4b51-9451-70748b58b0ff
+start_date: 2026-08-26 16:00:00
+end_date: 2026-08-28 15:59:59
+timezone: Asia/Hong_Kong
+address_city_country: Hong Kong
+address_line_2: Hong Kong Convention and Exhibition Centre
+address_line_3:
+name: Bitcoin Asia 2026
+type: conference
+book_online: false
+book_in_person: false
+description: |
+  The Asia-Pacific edition of the global Bitcoin Conference series, bringing together the Asian Bitcoin community for discussions on adoption, technology, and innovation.
+language:
+  - en
+  - zh-hans
+links:
+  website: https://asia.b.tc/2026
+  replay_url:
+  live_url:
+project_id: 47a4acb9-15df-451c-8660-9b93746649b5
+tags:
+  - adoption
+  - business
+  - future-outlook

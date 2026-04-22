@@ -5,5 +5,5 @@ wrong_answers:
   - The Independent
   - The Telegraph
 explanation: |
-  Dokładny napis brzmiał The Times 03/Jan/2009 Kanclerz na krawędzi drugiego ratunku dla banków.
-reviewed: false
+  Dokładny nagłówek brzmiał: The Times 03/Jan/2009 Kanclerz na krawędzi drugiego ratunku dla banków.
+reviewed: true

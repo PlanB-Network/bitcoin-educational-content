@@ -12,6 +12,9 @@ objectives:
 Apa yang diperlukan untuk membangun di Bitcoin? Kursus 20 jam ini membawa Anda di bawah permukaan Bitcoin dan Lightning Network, menjelajahi protokol yang menggerakkan infrastruktur keuangan paling tangguh di dunia. Baik Anda ingin berkontribusi pada proyek open-source atau membangun generasi berikutnya dari aplikasi Bitcoin, Anda akan mendapatkan kedalaman teknis yang diperlukan untuk mulai bekerja dengan percaya diri dalam ekosistem ini.
 
 Direkam selama bootcamp CUBO+ 2023 di El Salvador, kursus ini menyatukan perspektif dari pengembang dan pendidik Bitcoin terkemuka yang telah membentuk teknologi ini. Bagian terbaiknya? Ini sepenuhnya gratis, dimungkinkan oleh Fulgure Ventures, Bitcoin Office dan DecouvreBitcoin. Jika Anda penasaran tentang bagaimana Bitcoin benar-benar bekerja di tingkat protokol, ini adalah kesempatan Anda untuk mengetahuinya.
+
+Catatan: Video untuk kursus ini hanya tersedia dalam bahasa Inggris.
+
 +++
 # Kursus Pengenalan dan Persiapan
 
@@ -70,14 +73,14 @@ populasi Global yang Tidak Memiliki Rekening Bank
 ### Bitcoin: kebebasan finansial dan dampaknya terhadap El Salvador
 
 
-Kuliah ini, "Mengapa El Salvador Membutuhkan Bitcoin," memberikan gambaran umum tentang protokol **Bitcoin**, akarnya dalam gerakan **Cypherpunk**, dan perannya sebagai alat untuk kebebasan - memungkinkan **uang yang tidak disensor**, **inklusi keuangan**, dan banyak lagi.
+Kuliah ini, "Mengapa El Salvador Membutuhkan Bitcoin," memberikan gambaran umum tentang protokol **Bitcoin**, akarnya dalam gerakan **[Cypherpunk](https://planb.academy/resources/glossary/cypherpunks)**, dan perannya sebagai alat untuk kebebasan - memungkinkan **uang yang tidak disensor**, **inklusi keuangan**, dan banyak lagi.
 
 
 **Definisi:**
 
 
 - protokol Bitcoin:_ Aturan dan struktur yang mengatur bagaimana Bitcoin beroperasi sebagai mata uang digital yang terdesentralisasi.
-- gerakan Cypherpunk:_ Kelompok yang mengadvokasi penggunaan kriptografi untuk memastikan privasi dan kebebasan dalam ruang digital.
+- gerakan Cypherpunk:_ Kelompok yang mengadvokasi penggunaan [kriptografi](https://planb.academy/resources/glossary/cryptography) untuk memastikan privasi dan kebebasan dalam ruang digital.
 - inklusi keuangan:_ Menyediakan akses ke layanan keuangan bagi masyarakat yang selama ini tidak terjangkau oleh sistem perbankan tradisional, yang sering disebut sebagai "unbanked."
 - uang yang tidak disensor:_ Uang yang tidak dapat dikontrol atau dibatasi oleh pemerintah atau lembaga keuangan.
 
@@ -90,10 +93,10 @@ Perjalanan Rikki ke Bitcoin berakar dari pekerjaannya sebagai advokat hak asasi 
 ### Signifikansi global dan tantangan Bitcoin
 
 
-Bitcoin lebih dari sekadar mata uang digital. Bitcoin adalah alat untuk melindungi privasi dan memastikan kebebasan finansial. Dengan menggunakan **kunci pribadi**, yang berfungsi seperti kata sandi utama, pengguna dapat mengelola Bitcoin mereka dengan aman, dengan kontrol penuh atas dana mereka.
+Bitcoin lebih dari sekadar mata uang digital. Bitcoin adalah alat untuk melindungi privasi dan memastikan kebebasan finansial. Dengan menggunakan **[kunci pribadi](https://planb.academy/resources/glossary/private-key)**, yang berfungsi seperti kata sandi utama, pengguna dapat mengelola Bitcoin mereka dengan aman, dengan kontrol penuh atas dana mereka.
 
 
-Dalam rezim otoriter, di mana penindasan keuangan adalah hal yang umum, sifat **tidak dapat disentuh** Bitcoin memungkinkan orang untuk bertransaksi tanpa takut dana mereka dibekukan atau disita. Sifatnya yang **open-source** mendorong partisipasi global, menumbuhkan komunitas yang terus meningkatkan jaringan.
+Dalam rezim otoriter, di mana penindasan keuangan adalah hal yang umum, sifat **tidak dapat disentuh** Bitcoin memungkinkan orang untuk [bertransaksi](https://planb.academy/resources/glossary/transaction-tx) tanpa takut dana mereka dibekukan atau disita. Sifatnya yang **[open-source](https://planb.academy/resources/glossary/foss)** mendorong partisipasi global, menumbuhkan komunitas yang terus meningkatkan jaringan.
 
 
 ![Image](assets/en/002.webp)
@@ -143,7 +146,7 @@ Gerakan **Cypherpunk** muncul pada akhir abad ke-20, mengadvokasi privasi dan ke
 #### Ekonomi Austria
 
 
-Pada saat yang sama, **Ekonomi Austria** memberikan fondasi untuk prinsip-prinsip moneter Bitcoin. Ekonom seperti **Ludwig von Mises** dan **Friedrich Hayek** berpendapat bahwa uang yang baik haruslah langka, tahan lama, dan merupakan penyimpan yang baik dari prinsip-prinsip inti nilai yang membentuk desain Bitcoin.
+Pada saat yang sama, **[Ekonomi Austria](https://planb.academy/resources/glossary/austrian-school)** memberikan fondasi untuk prinsip-prinsip moneter Bitcoin. Ekonom seperti **Ludwig von Mises** dan **Friedrich Hayek** berpendapat bahwa uang yang baik haruslah langka, tahan lama, dan merupakan penyimpan yang baik dari prinsip-prinsip inti nilai yang membentuk desain Bitcoin.
 
 
 **Definisi:**
@@ -221,7 +224,7 @@ Terima kasih telah terlibat dengan materi ini!
 
 :::video id=2c008198-7f4e-4e60-87a0-0af17528ad2f:::
 
-Dalam kuliah pertama dari kursus 'Bagaimana Bitcoin', kami mulai mengeksplorasi tumpukan teknologi yang mendukung jaringan Bitcoin. Kami membahas topik-topik seperti **Hashcash**, **transaksi**, **Blockchain**, **Lightning Network**, dan komponen utama lainnya dari protokol Bitcoin.
+Dalam kuliah pertama dari kursus 'Bagaimana Bitcoin', kami mulai mengeksplorasi tumpukan teknologi yang mendukung jaringan Bitcoin. Kami membahas topik-topik seperti **Hashcash**, **transaksi**, **[Blockchain](https://planb.academy/resources/glossary/blockchain)**, **[Lightning Network](https://planb.academy/resources/glossary/lightning-network)**, dan komponen utama lainnya dari protokol Bitcoin.
 
 
 ### Tumpukan teknologi Bitcoin bagian 2
@@ -234,13 +237,13 @@ Selama kuliah kedua 'Bagaimana Bitcoin', kami melakukan pemeriksaan yang lebih m
 ### Struktur Bitcoin
 
 
-Asal-usul Bitcoin didasarkan pada beberapa inovasi utama, dimulai dengan **Adam Back's Hashcash**, sistem Proof-of-Work (PoW) yang dirancang untuk mencegah spam email dan serangan penolakan layanan dengan mengharuskan pengirim menyelesaikan tugas komputasi. Konsep PoW ini menjadi landasan keamanan Bitcoin.
+Asal-usul Bitcoin didasarkan pada beberapa inovasi utama, dimulai dengan **Adam Back's Hashcash**, sistem [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) (PoW) yang dirancang untuk mencegah spam email dan serangan penolakan layanan dengan mengharuskan pengirim menyelesaikan tugas komputasi. Konsep PoW ini menjadi landasan keamanan Bitcoin.
 
 
-Bitcoin mengandalkan **tanda tangan digital** menggunakan **kriptografi kurva elips** untuk mengamankan dan memverifikasi transaksi. Algoritma Tanda Tangan Digital Kurva Elips (ECDSA) memastikan bahwa hanya pemilik yang sah dari Bitcoin yang dapat mengesahkan transaksi tanpa mengungkapkan kunci pribadi mereka.
+Bitcoin mengandalkan **[tanda tangan digital](https://planb.academy/resources/glossary/digital-signature)** menggunakan **kriptografi kurva elips** untuk mengamankan dan memverifikasi transaksi. Algoritma Tanda Tangan Digital Kurva Elips ([ECDSA](https://planb.academy/resources/glossary/ecdsa)) memastikan bahwa hanya pemilik yang sah dari Bitcoin yang dapat mengesahkan transaksi tanpa mengungkapkan kunci pribadi mereka.
 
 
-**Satoshi Nakamoto**, pencipta nama samaran Bitcoin, mengembangkan ide-ide ini dengan mengalihkan model PoW ke **Blockchain** yang terdesentralisasi. Hal ini memungkinkan jaringan node terdistribusi untuk memvalidasi dan mencatat transaksi tanpa otoritas pusat, menandai evolusi yang signifikan dari upaya mata uang digital sebelumnya.
+**Satoshi Nakamoto**, pencipta nama samaran Bitcoin, mengembangkan ide-ide ini dengan mengalihkan model PoW ke **Blockchain** yang terdesentralisasi. Hal ini memungkinkan jaringan [node](https://planb.academy/resources/glossary/node) terdistribusi untuk memvalidasi dan mencatat transaksi tanpa otoritas pusat, menandai evolusi yang signifikan dari upaya mata uang digital sebelumnya.
 
 
 **Definisi:**
@@ -252,16 +255,16 @@ Bitcoin mengandalkan **tanda tangan digital** menggunakan **kriptografi kurva el
 ### Mekanisme Blockchain dan validasi transaksi
 
 
-Transaksi Bitcoin divalidasi dan ditambahkan ke dalam blok oleh para **penambang**, yang berkompetisi untuk memecahkan teka-teki kriptografi dengan menggunakan algoritma Proof-of-Work. Hal ini melibatkan pencarian Hash dengan jumlah angka nol di depan tertentu dengan menyesuaikan nilai **Nonce** sampai Hash yang benar ditemukan.
+Transaksi Bitcoin divalidasi dan ditambahkan ke dalam [blok](https://planb.academy/resources/glossary/block) oleh para **penambang**, yang berkompetisi untuk memecahkan teka-teki kriptografi dengan menggunakan algoritma Proof-of-Work. Hal ini melibatkan pencarian [Hash](https://planb.academy/resources/glossary/hash-function) dengan jumlah angka nol di depan tertentu dengan menyesuaikan nilai **[Nonce](https://planb.academy/resources/glossary/nonce)** sampai Hash yang benar ditemukan.
 
 
-Setiap **blok** dalam Blockchain terdiri dari **header** (dengan data seperti blok sebelumnya, Hash) dan daftar transaksi. Blok pertama, yang dikenal sebagai **blok Genesis**, unik karena tidak memiliki pendahulu.
+Setiap **blok** dalam Blockchain terdiri dari **[header](https://planb.academy/resources/glossary/block-header)** (dengan data seperti blok sebelumnya, Hash) dan daftar transaksi. Blok pertama, yang dikenal sebagai **[blok Genesis](https://planb.academy/resources/glossary/genesis-block)**, unik karena tidak memiliki pendahulu.
 
 
 ![Image](assets/en/004.webp)
 
 
-Sebelum transaksi dimasukkan ke dalam blok, transaksi tersebut berada di **Mempool**, di mana mereka menunggu validasi. Setelah divalidasi, transaksi-transaksi ini ditambahkan ke blok yang baru ditambang dan kemudian ke Blockchain.
+Sebelum transaksi dimasukkan ke dalam blok, transaksi tersebut berada di **[Mempool](https://planb.academy/resources/glossary/mempool)**, di mana mereka menunggu validasi. Setelah divalidasi, transaksi-transaksi ini ditambahkan ke blok yang baru ditambang dan kemudian ke Blockchain.
 
 
 **Definisi:**
@@ -274,13 +277,13 @@ Sebelum transaksi dimasukkan ke dalam blok, transaksi tersebut berada di **Mempo
 ### Skalabilitas, privasi, dan pengembangan di Bitcoin
 
 
-Bitcoin menghadapi tantangan yang berkaitan dengan skalabilitas dan privasi. Kapasitas transaksi yang terbatas pada Blockchain membuatnya sulit untuk menangani volume transaksi yang tinggi. Solusi seperti **Lightning Network** Address mengatasi tantangan ini dengan memungkinkan transaksi off-chain melalui saluran pembayaran, yang meningkatkan kecepatan dan privasi.
+Bitcoin menghadapi tantangan yang berkaitan dengan skalabilitas dan privasi. Kapasitas transaksi yang terbatas pada Blockchain membuatnya sulit untuk menangani volume transaksi yang tinggi. Solusi seperti **Lightning Network** Address mengatasi tantangan ini dengan memungkinkan transaksi off-chain melalui [saluran pembayaran](https://planb.academy/resources/glossary/payment-channel), yang meningkatkan kecepatan dan privasi.
 
 
-Menjalankan **Full node** sangat penting untuk memastikan desentralisasi dan keamanan, tetapi **simpul Verifikasi Pembayaran yang Disederhanakan (SPV) ** memungkinkan partisipasi yang lebih ringan dengan mengorbankan beberapa keamanan.
+Menjalankan **[Full node](https://planb.academy/resources/glossary/full-node)** sangat penting untuk memastikan desentralisasi dan keamanan, tetapi **simpul Verifikasi Pembayaran yang Disederhanakan (SPV) ** memungkinkan partisipasi yang lebih ringan dengan mengorbankan beberapa keamanan.
 
 
-Pengembangan Bitcoin telah berkembang untuk meningkatkan kinerja dan keamanan. Peningkatan utama termasuk **Segregated Witness (SegWit)**, yang menangani kelenturan transaksi dan meningkatkan ukuran blok yang efektif, dan **Taproot**, yang meningkatkan privasi dan memungkinkan kontrak yang lebih kompleks dengan menggunakan **Merkleized Abstract Syntax Trees (MAST)**.
+Pengembangan Bitcoin telah berkembang untuk meningkatkan kinerja dan keamanan. Peningkatan utama termasuk **Segregated Witness ([SegWit](https://planb.academy/resources/glossary/segwit))**, yang menangani kelenturan transaksi dan meningkatkan ukuran blok yang efektif, dan **[Taproot](https://planb.academy/resources/glossary/taproot)**, yang meningkatkan privasi dan memungkinkan kontrak yang lebih kompleks dengan menggunakan **Merkleized Abstract Syntax Trees (MAST)**.
 
 
 **Definisi:**
@@ -325,7 +328,7 @@ Kesalahpahaman yang sering terjadi adalah bahwa **Bitcoin** dan **Blockchain** a
 ### Bitcoin vs Crypto
 
 
-Perbedaan utama lainnya adalah bahwa **Bitcoin** diciptakan dengan tujuan tunggal untuk menyediakan bentuk uang yang terdesentralisasi dan tahan sensor, bebas dari kontrol perusahaan atau pemerintah mana pun. Sebaliknya, mata uang kripto **shitcoins** sering kali dirancang dengan kontrol terpusat, terutama untuk memperkaya perusahaan di belakangnya melalui praktik-praktik predator, skema pump-and-dump, atau penipuan. Token-token ini biasanya tidak memiliki tujuan yang jelas selain menghasilkan keuntungan yang cepat bagi penciptanya dengan mengorbankan para investor yang kurang informasi. Akan tetapi, Bitcoin berdiri sendiri sebagai satu-satunya mata uang digital yang benar-benar terdesentralisasi dengan rekam jejak keamanan dan ketahanan yang telah terbukti.
+Perbedaan utama lainnya adalah bahwa **Bitcoin** diciptakan dengan tujuan tunggal untuk menyediakan bentuk uang yang terdesentralisasi dan tahan sensor, bebas dari kontrol perusahaan atau pemerintah mana pun. Sebaliknya, [mata uang kripto](https://planb.academy/resources/glossary/cryptocurrency) **[shitcoins](https://planb.academy/resources/glossary/shitcoin)** sering kali dirancang dengan kontrol terpusat, terutama untuk memperkaya perusahaan di belakangnya melalui praktik-praktik predator, skema pump-and-dump, atau penipuan. Token-token ini biasanya tidak memiliki tujuan yang jelas selain menghasilkan keuntungan yang cepat bagi penciptanya dengan mengorbankan para investor yang kurang informasi. Akan tetapi, Bitcoin berdiri sendiri sebagai satu-satunya mata uang digital yang benar-benar terdesentralisasi dengan rekam jejak keamanan dan ketahanan yang telah terbukti.
 
 
 **Definisi:**
@@ -339,7 +342,7 @@ Perbedaan utama lainnya adalah bahwa **Bitcoin** diciptakan dengan tujuan tungga
 ### Konsumsi energi dan dampak lingkungan
 
 
-Salah satu kritik yang paling umum terhadap Bitcoin adalah konsumsi energinya. Meskipun Bitcoin Mining memang menggunakan energi, namun hanya menyumbang kurang dari 1% konsumsi listrik global dan kurang dari 3% energi yang terbuang. Selain itu, **Bitcoin Mining** sering kali memanfaatkan sumber energi yang tidak terpakai atau terbarukan, membuatnya lebih ramah lingkungan daripada yang sering digambarkan.
+Salah satu kritik yang paling umum terhadap Bitcoin adalah konsumsi energinya. Meskipun Bitcoin [Mining](https://planb.academy/resources/glossary/mining) memang menggunakan energi, namun hanya menyumbang kurang dari 1% konsumsi listrik global dan kurang dari 3% energi yang terbuang. Selain itu, **Bitcoin Mining** sering kali memanfaatkan sumber energi yang tidak terpakai atau terbarukan, membuatnya lebih ramah lingkungan daripada yang sering digambarkan.
 
 
 **Definisi:**
@@ -356,7 +359,7 @@ Bitcoin sering dikritik karena digunakan dalam kegiatan kriminal. Namun, analisi
 ### Privasi dan kesesuaian
 
 
-**Privasi** dan **fungibilitas** adalah fitur penting dari Bitcoin. Privasi melindungi pengguna dalam rezim yang menindas, dan fungibilitas memastikan bahwa setiap Bitcoin setara, terlepas dari sejarahnya. Hal ini menjadikan Bitcoin sebagai bentuk uang yang dapat diandalkan dan adil.
+**Privasi** dan **[fungibilitas](https://planb.academy/resources/glossary/fungibility)** adalah fitur penting dari Bitcoin. Privasi melindungi pengguna dalam rezim yang menindas, dan fungibilitas memastikan bahwa setiap Bitcoin setara, terlepas dari sejarahnya. Hal ini menjadikan Bitcoin sebagai bentuk uang yang dapat diandalkan dan adil.
 
 
 **Definisi:**
@@ -397,7 +400,7 @@ Pada kuliah pertama modul ke-4, kita telah menjelajahi arsitektur Bitcoin dan in
 
 **1. Rekapitulasi pendahuluan**
 
-Selamat datang kembali! Pada sesi sebelumnya, kita telah membahas konsep dasar di balik arsitektur Bitcoin, termasuk fondasi kriptografi dan struktur jaringan peer-to-peer. Hari ini, kita akan beralih dari teori ke praktik dengan mendemonstrasikan cara memasang dan mengonfigurasi node Bitcoin.
+Selamat datang kembali! Pada sesi sebelumnya, kita telah membahas konsep dasar di balik arsitektur Bitcoin, termasuk fondasi kriptografi dan struktur jaringan [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p). Hari ini, kita akan beralih dari teori ke praktik dengan mendemonstrasikan cara memasang dan mengonfigurasi node Bitcoin.
 
 
 **2. Gambaran umum sesi praktik**
@@ -405,7 +408,7 @@ Selamat datang kembali! Pada sesi sebelumnya, kita telah membahas konsep dasar d
 Dalam sesi ini, Alekos akan memandu kita melalui proses pengaturan node Bitcoin menggunakan mesin virtual. Tutorial praktis ini dirancang untuk membiasakan Anda dengan langkah-langkah yang terlibat dalam mengonfigurasi node Anda untuk berpartisipasi dalam jaringan Bitcoin.
 
 
-Menjalankan node Bitcoin melibatkan validasi transaksi dan blok, menegakkan aturan konsensus, dan mendukung desentralisasi jaringan. Menyiapkan node memastikan Anda memiliki koneksi langsung ke jaringan Bitcoin, sehingga Anda dapat berkontribusi pada keamanan dan integritasnya.
+Menjalankan node Bitcoin melibatkan validasi transaksi dan blok, menegakkan aturan [konsensus](https://planb.academy/resources/glossary/consensus), dan mendukung desentralisasi jaringan. Menyiapkan node memastikan Anda memiliki koneksi langsung ke jaringan Bitcoin, sehingga Anda dapat berkontribusi pada keamanan dan integritasnya.
 
 
 Dalam kuliah ini, Anda akan menemukan panduan untuk menginstal dan menjalankan Bitcoin core Anda sendiri, mempelajari cara memangkas Blockchain untuk menghemat ruang, dan mulai bereksperimen dengan perangkat lunak. Alekos akan memandu Anda langkah demi langkah melalui proses yang menarik ini.
@@ -820,7 +823,7 @@ Selamat datang di kuliah kami tentang keamanan dan pengaturan perangkat untuk Bi
 **Alat: Emulator desktop Specter Wallet dan Ledger**
 
 
-Specter adalah Wallet desktop yang dirancang untuk memfasilitasi pembuatan dan pengelolaan dompet Bitcoin, khususnya yang menggunakan perangkat keras. Untuk demonstrasi kami, kami akan menggunakan emulator Ledger, yang meniru fungsionalitas Ledger Hardware Wallet.
+Specter adalah Wallet desktop yang dirancang untuk memfasilitasi pembuatan dan pengelolaan [dompet](https://planb.academy/resources/glossary/wallet) Bitcoin, khususnya yang menggunakan perangkat keras. Untuk demonstrasi kami, kami akan menggunakan emulator Ledger, yang meniru fungsionalitas Ledger Hardware Wallet.
 
 
 **Perbedaan antara perangkat Ledger dan kontroversi perusahaan**
@@ -850,7 +853,7 @@ Langkah pertama dalam proses penyiapan kami adalah mengunduh Specter dari reposi
 Untuk mengonfigurasi Specter, Anda harus menghubungkannya ke server Bitcoin core atau Electrum. Server-server ini menyediakan data Blockchain yang diperlukan untuk operasi Wallet. Konfigurasi melibatkan pengaturan server Address dalam pengaturan Specter dan memastikan koneksi yang stabil.
 
 
-**Menjelaskan jalur derivasi dan pengambilan kunci publik**
+**Menjelaskan jalur derivasi dan pengambilan [kunci publik](https://planb.academy/resources/glossary/public-key)**
 
 
 Memahami jalur derivasi sangat penting untuk manajemen Wallet. Jalur derivasi mendefinisikan bagaimana kunci dihasilkan dari kunci utama. Di Specter, Anda dapat mengambil kunci publik dengan menghubungkan Hardware Wallet (atau emulator) Anda dan menavigasi melalui Wallet Interface. Pastikan Anda mendokumentasikan jalur ini untuk referensi di masa mendatang.
@@ -1008,7 +1011,7 @@ Upaya untuk meningkatkan kegunaan Bitcoin sering kali mengorbankan keamanan dan 
 #### Skalabilitas dan pertukaran privasi
 
 
-Skalabilitas dan privasi sering kali bertentangan dalam jaringan Bitcoin. Peningkatan yang meningkatkan skalabilitas, seperti UTXO yang lebih besar atau mengurangi kekaburan kriptografi, umumnya mengurangi privasi. Sebaliknya, teknik yang berfokus pada privasi seperti tanda tangan cincin Monero meningkatkan anonimitas pengguna tetapi berdampak negatif pada skalabilitas. Selain itu, pengenalan kontrak stateful, seperti yang terlihat pada Ethereum, menawarkan peningkatan fleksibilitas dengan mengorbankan keamanan dan skalabilitas yang berkurang. Menyeimbangkan trade-off ini merupakan tantangan kompleks yang membutuhkan pertimbangan yang cermat.
+Skalabilitas dan privasi sering kali bertentangan dalam jaringan Bitcoin. Peningkatan yang meningkatkan skalabilitas, seperti [UTXO](https://planb.academy/resources/glossary/utxo) yang lebih besar atau mengurangi kekaburan kriptografi, umumnya mengurangi privasi. Sebaliknya, teknik yang berfokus pada privasi seperti tanda tangan cincin Monero meningkatkan anonimitas pengguna tetapi berdampak negatif pada skalabilitas. Selain itu, pengenalan kontrak stateful, seperti yang terlihat pada Ethereum, menawarkan peningkatan fleksibilitas dengan mengorbankan keamanan dan skalabilitas yang berkurang. Menyeimbangkan trade-off ini merupakan tantangan kompleks yang membutuhkan pertimbangan yang cermat.
 
 
 ### Teknik privasi
@@ -1144,7 +1147,7 @@ Untuk menjaga pemilihan umum, misalnya, pengawasan yang tidak memihak atau peman
 #### Verifikasi kepercayaan
 
 
-Verifikasi kepercayaan dapat diilustrasikan dengan verifikasi PGP (Pretty Good Privacy). Dengan memverifikasi sidik jari dan tanda tangan dari kunci PGP, pengguna dapat menetapkan keaslian identitas digital. Praktik serupa sangat penting dalam memverifikasi integritas perangkat lunak melalui pencocokan Hash (misalnya, SHA-256).
+Verifikasi kepercayaan dapat diilustrasikan dengan verifikasi PGP (Pretty Good Privacy). Dengan memverifikasi sidik jari dan tanda tangan dari kunci PGP, pengguna dapat menetapkan keaslian identitas digital. Praktik serupa sangat penting dalam memverifikasi integritas perangkat lunak melalui pencocokan Hash (misalnya, [SHA-256](https://planb.academy/resources/glossary/sha256)).
 
 
 #### Membangun jalur kepercayaan
@@ -1156,7 +1159,7 @@ Membangun kepercayaan tidaklah instan; hal ini membutuhkan penghubungan beberapa
 #### Insentif untuk keamanan
 
 
-Memahami peran insentif sangat penting dalam menjaga keamanan. Sebagai contoh, model keamanan Bitcoin bergantung pada insentif penambang dan validasi peserta jaringan, yang menyoroti pentingnya insentif ekonomi dalam menjaga ekosistem digital.
+Memahami peran insentif sangat penting dalam menjaga keamanan. Sebagai contoh, model keamanan Bitcoin bergantung pada insentif [penambang](https://planb.academy/resources/glossary/miner) dan validasi peserta jaringan, yang menyoroti pentingnya insentif ekonomi dalam menjaga ekosistem digital.
 
 
 #### Mengamankan dompet Bitcoin
@@ -1260,7 +1263,7 @@ Selamat datang! Hari ini, kita akan menyelami aspek-aspek penting dari kriptogra
 ### Konsep kriptografi inti untuk pengembang Bitcoin
 
 
-Pada bagian ini, kita akan mempelajari konsep kriptografi utama yang penting bagi pengembang Bitcoin, termasuk fungsi Hash, pohon Merkle, tanda tangan digital, dan kurva elips.
+Pada bagian ini, kita akan mempelajari konsep kriptografi utama yang penting bagi pengembang Bitcoin, termasuk fungsi Hash, [pohon Merkle](https://planb.academy/resources/glossary/merkle-tree), tanda tangan digital, dan kurva elips.
 
 
 ![Image](assets/en/014.webp)
@@ -1314,7 +1317,7 @@ Pada bagian ini, kami akan mengeksplorasi penerapan konsep-konsep ini dalam peng
 **Implikasi keamanan**: Contoh historis menunjukkan kerugian finansial yang signifikan karena penggunaan ulang Nonce. Memahami pentingnya menghasilkan nonce yang unik sangatlah penting. Menggunakan pustaka tepercaya seperti LibSecP256k1 memastikan operasi kriptografi yang kuat dan aman.
 
 
-**Kriptografi Kurva Elips (ECC) **: Skema tanda tangan telah berevolusi dari protokol identitas ke skema seperti tanda tangan Schnorr, yang saat ini digunakan dalam Bitcoin (BIP 340). Pengetahuan tentang kurva elips dan aritmatika bidang terbatas memastikan implementasi kriptografi yang aman.
+**Kriptografi Kurva Elips (ECC) **: Skema tanda tangan telah berevolusi dari protokol identitas ke skema seperti tanda tangan [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol), yang saat ini digunakan dalam Bitcoin ([BIP](https://planb.academy/resources/glossary/bip) 340). Pengetahuan tentang kurva elips dan aritmatika bidang terbatas memastikan implementasi kriptografi yang aman.
 
 
 **Saran umum untuk para pengembang**: Protokol kriptografi harus menjalani tinjauan sejawat secara menyeluruh. Pengembang harus teliti dan sepenuhnya memahami setiap langkah prosedur kriptografi. Kesadaran akan jebakan umum dalam implementasi kriptografi dapat mencegah kerentanan yang signifikan.
@@ -1468,7 +1471,7 @@ Kompleksitas Mining dalam konteks Bitcoin terutama melibatkan Elements teknis da
 
 4. *harga *BTC**: Harga BTC sangat penting untuk menentukan profitabilitas Mining.
 
-5. **Kesulitan jaringan**: Tingkat kesulitan jaringan menunjukkan jumlah rata-rata Hashrate yang dibutuhkan untuk menambang satu blok dalam 10 menit.
+5. **[Kesulitan](https://planb.academy/resources/glossary/difficulty) jaringan**: Tingkat kesulitan jaringan menunjukkan jumlah rata-rata Hashrate yang dibutuhkan untuk menambang satu blok dalam 10 menit.
 
 6. **Alat-alat strategis**: Alat-alat seperti [braiins.com](https://insights.braiins.com) sangat berharga untuk menghitung profitabilitas dan membantu para penambang untuk membuat keputusan berdasarkan data.
 
@@ -1979,7 +1982,7 @@ Tambahkan pernyataan untuk memverifikasi bahwa tidak ada byte yang tidak diurai 
 #### Kasus khusus seperti transaksi coinbase
 
 
-Transaksi Coinbase, yang merupakan transaksi pertama dalam sebuah blok yang digunakan untuk mengklaim Block reward, memiliki karakteristik yang unik. Kami perlu menangani kasus-kasus khusus ini dengan tepat.
+Transaksi [Coinbase](https://planb.academy/resources/glossary/coinbase-transaction), yang merupakan transaksi pertama dalam sebuah blok yang digunakan untuk mengklaim Block reward, memiliki karakteristik yang unik. Kami perlu menangani kasus-kasus khusus ini dengan tepat.
 
 
 ```Rust
@@ -2598,7 +2601,7 @@ Untuk mengatasi keterbatasan ini, Manny Rosenfeld mengusulkan konsep hop terpusa
 ### Kunci Waktu Terhash Contract (HTLC) dan implementasi
 
 
-Keterbatasan dan kekurangan dari hop yang terpusat membutuhkan solusi yang lebih aman dan terdesentralisasi. Kebutuhan ini mengarah pada pengembangan Hashed Time Lock Contract (HTLC), yang diusulkan pada tahun 2015 oleh Joseph Poon dan Thaddeus Dreijer sebagai bagian dari Lightning Network. HTLC menggabungkan prinsip-prinsip kunci waktu dan kunci Hash untuk memastikan keatomisan dan tidak dapat dipercaya dalam transaksi. Ini berarti bahwa transaksi akan sepenuhnya selesai atau tidak terjadi sama sekali, mengurangi risiko yang terkait dengan pembayaran yang tidak lengkap.
+Keterbatasan dan kekurangan dari hop yang terpusat membutuhkan solusi yang lebih aman dan terdesentralisasi. Kebutuhan ini mengarah pada pengembangan Hashed Time Lock Contract ([HTLC](https://planb.academy/resources/glossary/htlc)), yang diusulkan pada tahun 2015 oleh Joseph Poon dan Thaddeus Dreijer sebagai bagian dari Lightning Network. HTLC menggabungkan prinsip-prinsip kunci waktu dan kunci Hash untuk memastikan keatomisan dan tidak dapat dipercaya dalam transaksi. Ini berarti bahwa transaksi akan sepenuhnya selesai atau tidak terjadi sama sekali, mengurangi risiko yang terkait dengan pembayaran yang tidak lengkap.
 
 
 Alur kerja HTLC melibatkan proses multi-langkah yang memastikan perutean yang aman melalui beberapa perantara. Misalkan Alice ingin membayar Eric melalui perantara Bob, Carol, dan Diana. Setiap langkah dalam proses ini melibatkan pembuatan transaksi Commitment dengan kunci waktu dan jumlah yang semakin berkurang. Jika perlu, langkah terakhir dapat disiarkan ke jaringan Bitcoin untuk menyelesaikan transaksi.
@@ -2690,7 +2693,7 @@ Pada intinya, Lightning Network melengkapi jaringan Bitcoin dengan mengatasi ket
 ### *spesifikasi *Lightning Network**
 
 
-Protokol Lightning Network didefinisikan dengan cermat melalui 10 BOLT (Dasar Teknologi Petir). BOLT ini disepakati selama konferensi di Milan dan berfungsi sebagai fondasi untuk berbagai implementasi Lightning Network.
+Protokol Lightning Network didefinisikan dengan cermat melalui 10 [BOLT](https://planb.academy/resources/glossary/bolt) (Dasar Teknologi Petir). BOLT ini disepakati selama konferensi di Milan dan berfungsi sebagai fondasi untuk berbagai implementasi Lightning Network.
 
 
 ![bolt](assets/en/049.webp)_BOLT Diagram _
@@ -2764,7 +2767,7 @@ Pembayaran dirutekan menggunakan perutean Onion, yang melibatkan pembuatan paket
 ### Struktur Invoice
 
 
-Faktur Lightning Network (Bolt 11) dikodekan dalam Bech32 dan menyertakan rincian seperti pembayaran Hash, deskripsi, dan masa berlaku. Setiap Invoice harus digunakan satu kali untuk mencegah masalah penggunaan ulang.
+[Faktur](https://planb.academy/resources/glossary/invoice-lightning) Lightning Network (Bolt 11) dikodekan dalam Bech32 dan menyertakan rincian seperti pembayaran Hash, deskripsi, dan masa berlaku. Setiap Invoice harus digunakan satu kali untuk mencegah masalah penggunaan ulang.
 
 
 ![Invoice structure](assets/en/051.webp)_BOLT11 Invoice_
@@ -3430,5 +3433,5 @@ Perluasan dan integrasi pembayaran Lightning melalui berbagai protokol dan kasus
 
 :::video id=b89f2064-f2e1-49c3-97d0-580891eee1dd:::
 
-Adam Gibson menawarkan wawasan tentang Joinmarket, merinci bagaimana implementasi CoinJoin ini meningkatkan privasi dan kesesuaian Bitcoin. Dia membahas bagaimana Joinmarket memfasilitasi transaksi kolaboratif, Trustless, dan anonim dalam ekosistem Bitcoin. Kemudian di bagian kedua, dia menunjukkan cara menjalankan Joinmarket di Signet.
+Adam Gibson menawarkan wawasan tentang Joinmarket, merinci bagaimana implementasi [CoinJoin](https://planb.academy/resources/glossary/coinjoin) ini meningkatkan privasi dan kesesuaian Bitcoin. Dia membahas bagaimana Joinmarket memfasilitasi transaksi kolaboratif, Trustless, dan anonim dalam ekosistem Bitcoin. Kemudian di bagian kedua, dia menunjukkan cara menjalankan Joinmarket di Signet.
 

@@ -94,7 +94,7 @@ Jedwali hili linakupa tafsiri ya maneno muhimu ya Kiingereza yanayotumika, ili k
 
 :::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
 
-Aina ya kwanza ya algorithms ya kriptografia inayotumiwa kwenye Bitcoin inajumuisha kazi za Hash. Wanachukua jukumu muhimu katika viwango tofauti vya itifaki, lakini pia ndani ya pochi za Bitcoin. Hebu tugundue pamoja kazi ya Hash ni nini na inatumika kwa nini katika Bitcoin.
+Aina ya kwanza ya algorithms ya kriptografia inayotumiwa kwenye Bitcoin inajumuisha kazi za Hash. Wanachukua jukumu muhimu katika viwango tofauti vya itifaki, lakini pia ndani ya [pochi](https://planb.academy/resources/glossary/wallet) za Bitcoin. Hebu tugundue pamoja kazi ya Hash ni nini na inatumika kwa nini katika Bitcoin.
 
 ### Ufafanuzi na Kanuni ya Hashing
 
@@ -102,7 +102,7 @@ Hashing ni mchakato ambao hubadilisha maelezo ya urefu wa kiholela hadi sehemu n
 
 Hash pia wakati mwingine inaweza kujulikana kama "digest", "condensate", "condensed", au "hashed".
 
-Kwa mfano, kazi ya SHA256 Hash inazalisha Hash ya urefu uliowekwa wa bits 256. Kwa hivyo, ikiwa tutatumia ingizo "_PlanB_", ujumbe wa urefu wa kiholela, Hash inayozalishwa itakuwa alama ya vidole 256-bit:
+Kwa mfano, kazi ya [SHA256](https://planb.academy/resources/glossary/sha256) Hash inazalisha Hash ya urefu uliowekwa wa bits 256. Kwa hivyo, ikiwa tutatumia ingizo "_PlanB_", ujumbe wa urefu wa kiholela, Hash inayozalishwa itakuwa alama ya vidole 256-bit:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -182,11 +182,11 @@ Kwa hivyo, upinzani dhidi ya taswira ya pili ni sawa na upinzani wa mgongano, is
 
 Chaguo za kukokotoa za Hash zinazotumika zaidi katika Bitcoin ni **SHA256** ("_Secure Hash Algorithm 256 bits"_). Iliyoundwa mwanzoni mwa miaka ya 2000 na NSA na kusawazishwa na NIST, inazalisha pato la 256-bit Hash.
 
-Kitendaji hiki Kina (depth)tumika katika vipengele vingi vya Bitcoin. Katika ngazi ya itifaki, inahusika katika utaratibu wa Proof-of-Work, ambapo hutumiwa kwa hashing mara mbili ili kutafuta mgongano wa sehemu kati ya kichwa cha kizuizi cha mgombea, kilichoundwa na Miner, na lengo la ugumu. Ikiwa mgongano huu wa sehemu utapatikana, kizuizi cha mgombea Kina (depth)kuwa halali na Kina (depth)weza kuongezwa kwa Blockchain.
+Kitendaji hiki Kina (depth)tumika katika vipengele vingi vya Bitcoin. Katika ngazi ya itifaki, inahusika katika utaratibu wa Proof-of-Work, ambapo hutumiwa kwa hashing mara mbili ili kutafuta mgongano wa sehemu kati ya kichwa cha kizuizi cha mgombea, kilichoundwa na Miner, na lengo la ugumu. Ikiwa mgongano huu wa sehemu utapatikana, kizuizi cha mgombea Kina (depth)kuwa halali na Kina (depth)weza kuongezwa kwa [Blockchain](https://planb.academy/resources/glossary/blockchain).
 
-SHA256 pia inatumika katika ujenzi wa Merkle Tree, ambayo ni kikusanyiko Kina (depth)chotumika kurekodi shughuli kwenye vitalu. Muundo huu pia unapatikana katika itifaki ya Utreexo, ambayo inaruhusu kupunguza ukubwa wa UTXO Set. Zaidi ya hayo, kwa kuanzishwa kwa Taproot mwaka wa 2021, SHA256 inatumiwa katika MAST (_Merkelised Alternative Script Tree_), ambayo inaruhusu kufichua tu masharti ya matumizi yanayotumika katika hati, bila kufichua chaguo zingine zinazowezekana. Pia hutumiwa katika hesabu ya vitambulisho vya shughuli, katika uhamisho wa pakiti juu ya mtandao wa P2P, katika saini za elektroniki ... Hatimaye, na hii ni ya riba hasa katika mafunzo haya, SHA256 hutumiwa katika ngazi ya maombi kwa ajili ya ujenzi wa pochi za Bitcoin na derivation ya anwani.
+SHA256 pia inatumika katika ujenzi wa Merkle Tree, ambayo ni kikusanyiko Kina (depth)chotumika kurekodi shughuli kwenye vitalu. Muundo huu pia unapatikana katika itifaki ya [Utreexo](https://planb.academy/resources/glossary/utreexo), ambayo inaruhusu kupunguza ukubwa wa UTXO Set. Zaidi ya hayo, kwa kuanzishwa kwa [Taproot](https://planb.academy/resources/glossary/taproot) mwaka wa 2021, SHA256 inatumiwa katika [MAST](https://planb.academy/resources/glossary/mast) (_Merkelised Alternative [Script](https://planb.academy/resources/glossary/script) Tree_), ambayo inaruhusu kufichua tu masharti ya matumizi yanayotumika katika hati, bila kufichua chaguo zingine zinazowezekana. Pia hutumiwa katika hesabu ya vitambulisho vya shughuli, katika uhamisho wa pakiti juu ya mtandao wa P2P, katika saini za elektroniki ... Hatimaye, na hii ni ya riba hasa katika mafunzo haya, SHA256 hutumiwa katika ngazi ya maombi kwa ajili ya ujenzi wa pochi za Bitcoin na derivation ya anwani.
 
-Mara nyingi, unapokutana na matumizi ya SHA256 kwenye Bitcoin, kwa kweli itakuwa Hash SHA256 mara mbili, iliyobainishwa "**HASH256**", ambayo inajumuisha kutumia SHA256 mara mbili mfululizo:
+Mara nyingi, unapokutana na matumizi ya SHA256 kwenye Bitcoin, kwa kweli itakuwa Hash SHA256 mara mbili, iliyobainishwa "**[HASH256](https://planb.academy/resources/glossary/hash256)**", ambayo inajumuisha kutumia SHA256 mara mbili mfululizo:
 
 $$
 \text{HASH256}(m) = \text{SHA256}(\text{SHA256}(m))
@@ -194,7 +194,7 @@ $$
 
 Zoezi hili la hashing mara mbili huongeza Layer ya ziada ya usalama dhidi ya mashambulizi fulani yanayoweza kutokea, ingawa SHA256 moja leo inachukuliwa kuwa salama kwa njia fiche.
 
-Kitendaji kingine cha hashi Kina (depth)chopatikana katika lugha ya Hati na Kina (depth)chotumiwa kupata anwani za kupokea ni chaguo la kukokotoa la RIPEMD160. Chaguo hili la kukokotoa hutoa 160-bit Hash (hivyo ni fupi kuliko SHA256). Kwa ujumla huunganishwa na SHA256 kuunda kitendakazi cha HASH160:
+Kitendaji kingine cha hashi Kina (depth)chopatikana katika lugha ya Hati na Kina (depth)chotumiwa kupata anwani za kupokea ni chaguo la kukokotoa la [RIPEMD160](https://planb.academy/resources/glossary/ripemd160). Chaguo hili la kukokotoa hutoa 160-bit Hash (hivyo ni fupi kuliko SHA256). Kwa ujumla huunganishwa na SHA256 kuunda kitendakazi cha HASH160:
 
 $$
 \text{HASH160}(m) = \text{RIPEMD160}(\text{SHA256}(m))
@@ -202,7 +202,7 @@ $$
 
 Mchanganyiko huu hutumiwa kwa generate heshi fupi, haswa katika kuunda anwani fulani za Bitcoin ambazo zinawakilisha heshi za funguo au heshi za hati, na pia kutoa alama za vidole muhimu.
 
-Hatimaye, katika kiwango cha maombi tu, kazi ya SHA512 wakati mwingine hutumiwa pia, ambayo ina jukumu la moja kwa moja katika utoaji wa Ufunguo (Key) wa pochi. Kazi hii inafanana sana na SHA256 katika uendeshaji wake; zote mbili ni za familia moja ya SHA2, lakini SHA512 inazalisha, kama jina lake linavyoonyesha, Hash ya 512-bit, ikilinganishwa na bits 256 za SHA256. Tutaelezea kwa undani matumizi yake katika sura zifuatazo.
+Hatimaye, katika kiwango cha maombi tu, kazi ya [SHA512](https://planb.academy/resources/glossary/sha512) wakati mwingine hutumiwa pia, ambayo ina jukumu la moja kwa moja katika utoaji wa Ufunguo (Key) wa pochi. Kazi hii inafanana sana na SHA256 katika uendeshaji wake; zote mbili ni za familia moja ya SHA2, lakini SHA512 inazalisha, kama jina lake linavyoonyesha, Hash ya 512-bit, ikilinganishwa na bits 256 za SHA256. Tutaelezea kwa undani matumizi yake katika sura zifuatazo.
 
 Sasa unajua misingi muhimu kuhusu utendaji wa hashing kwa yale yafuatayo. Katika sura inayofuata, ninapendekeza kugundua kwa undani zaidi utendakazi wa kazi ambayo iko katikati ya Bitcoin: SHA256. Tutaichambua ili kuelewa jinsi inavyofanikisha sifa tulizozielezea hapa. Sura hii inayofuata ni ndefu na ya kiufundi, lakini si muhimu kufuata mafunzo mengine. Kwa hiyo, ikiwa una ugumu kuelewa, usijali na uende moja kwa moja kwenye sura inayofuata, ambayo itakuwa rahisi zaidi kupatikana.
 
@@ -587,7 +587,7 @@ Hatimaye, kwa sifa ya upinzani wa mgongano, vigezo kadhaa vinahusika. Uchakataji
 Ili kitendakazi cha Hash kiwe sugu kwa mgongano, ni muhimu kwamba:
 
 
-- Matokeo hayatabiriki: Utabiri wowote unaweza kutumiwa kupata migongano kwa haraka kuliko kwa shambulio la nguvu. Chaguo za kukokotoa huhakikisha kwamba kila sehemu ya matokeo inategemea kwa njia isiyo ya kawaida kwenye ingizo. Kwa maneno mengine, chaguo la kukokotoa limeundwa ili kila sehemu ya matokeo ya mwisho iwe na uwezekano huru wa kuwa 0 au 1, hata kama uhuru huu sio kamili katika mazoezi.
+- Matokeo hayatabiriki: Utabiri wowote unaweza kutumiwa kupata migongano kwa haraka kuliko kwa [shambulio la nguvu](https://planb.academy/resources/glossary/brute-force-attack). Chaguo za kukokotoa huhakikisha kwamba kila sehemu ya matokeo inategemea kwa njia isiyo ya kawaida kwenye ingizo. Kwa maneno mengine, chaguo la kukokotoa limeundwa ili kila sehemu ya matokeo ya mwisho iwe na uwezekano huru wa kuwa 0 au 1, hata kama uhuru huu sio kamili katika mazoezi.
 - Usambazaji wa heshi ni pseudo-random: Hii inahakikisha kwamba heshi zimesambazwa kwa usawa.
 - Ukubwa wa Hash ni kubwa: nafasi kubwa iwezekanavyo kwa matokeo, ni vigumu zaidi kupata mgongano.
 
@@ -599,7 +599,7 @@ Muundo wa SHA256 unatokana na ujenzi wa Merkle-Damgård, unaoruhusu kubadilisha 
 
 Hata hivyo, baadhi ya vipengele vya zamani vya Hash kama vile SHA1 au MD5, vinavyotumia ujenzi huu mahususi, vinaweza kuathiriwa na mashambulizi ya kuongeza urefu. Hii ni mbinu inayomruhusu mshambulizi anayejua Hash ya ujumbe $M$ na urefu wa $M$ (bila kujua ujumbe wenyewe) kukokotoa Hash ya ujumbe $M'$ unaoundwa kwa kuunganisha $M$ na maudhui ya ziada.
 
-SHA256, ingawa inatumia aina sawa ya ujenzi, Kina (depth)dharia ni sugu kwa aina hii ya mashambulizi, tofauti na SHA1 na MD5. Hili linaweza kueleza fumbo la uharakishaji maradufu uliotekelezwa kote Bitcoin na Satoshi Nakamoto. Ili kuzuia shambulio la aina hii, Satoshi inaweza kuwa ilipendelea kutumia SHA256 mbili:
+SHA256, ingawa inatumia aina sawa ya ujenzi, Kina (depth)dharia ni sugu kwa aina hii ya mashambulizi, tofauti na SHA1 na MD5. Hili linaweza kueleza fumbo la uharakishaji maradufu uliotekelezwa kote Bitcoin na [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi). Ili kuzuia shambulio la aina hii, Satoshi inaweza kuwa ilipendelea kutumia SHA256 mbili:
 
 $$
 \text{HASH256}(m) = \text{SHA256}(\text{SHA256}(m))
@@ -714,21 +714,21 @@ Njia ya pili ya kriptografia inayotumiwa katika Bitcoin inahusisha kanuni za sai
 
 ### Bitcoins, UTXOs, na Masharti ya Matumizi
 
-Neno "_wallet_" katika Bitcoin linaweza kuwachanganya wanaoanza. Hakika, kile Kina (depth)choitwa Bitcoin Wallet ni programu ambayo haishikilii bitcoins zako moja kwa moja, tofauti na Wallet ya kimwili ambayo inaweza kushikilia sarafu au bili. Bitcoins ni vitengo vya Akaunti (Account) tu. Kitengo hiki cha Akaunti (Account) Kina (depth)wakilishwa na **UTXO** (_Matokeo ya Muamala Usiotumika_), ambayo ni matokeo ya malipo ambayo hayajatumika. Ikiwa matokeo haya hayatumiwi, inamaanisha ni ya mtumiaji. UTXO ni, kwa njia, vipande vya bitcoins, vya ukubwa wa kutofautiana, mali ya mtumiaji.
+Neno "_wallet_" katika Bitcoin linaweza kuwachanganya wanaoanza. Hakika, kile Kina (depth)choitwa Bitcoin Wallet ni programu ambayo haishikilii bitcoins zako moja kwa moja, tofauti na Wallet ya kimwili ambayo inaweza kushikilia sarafu au bili. Bitcoins ni vitengo vya Akaunti (Account) tu. Kitengo hiki cha Akaunti (Account) Kina (depth)wakilishwa na **[UTXO](https://planb.academy/resources/glossary/utxo)** (_Matokeo ya Muamala Usiotumika_), ambayo ni matokeo ya malipo ambayo hayajatumika. Ikiwa matokeo haya hayatumiwi, inamaanisha ni ya mtumiaji. UTXO ni, kwa njia, vipande vya bitcoins, vya ukubwa wa kutofautiana, mali ya mtumiaji.
 
 Itifaki ya Bitcoin inasambazwa na kufanya kazi bila mamlaka kuu. Kwa hivyo, si kama rekodi za kitamaduni za benki, ambapo euro ambazo ni zako zinahusishwa tu na utambulisho wako wa kibinafsi. Kwenye Bitcoin, UTXO zako ni zako kwa sababu zinalindwa na masharti ya matumizi yaliyobainishwa katika lugha ya Hati. Ili kurahisisha, kuna aina mbili za hati: hati ya kufunga (_scriptPubKey_), ambayo inalinda UTXO, na hati ya kufungua (_scriptSig_), ambayo inaruhusu kufungua UTXO na hivyo kutumia vitengo vya Bitcoin inayowakilisha.
 
-Uendeshaji wa awali wa Bitcoin yenye hati za P2PK unahusisha kutumia Ufunguo (Key) wa umma kufunga fedha, ikibainisha katika _scriptPubKey_ kwamba mtu anayetaka kutumia UTXO hii lazima atoe saini halali na Ufunguo (Key) wa faragha unaolingana na Ufunguo (Key) huu wa umma. Ili kufungua UTXO hii, kwa hivyo ni muhimu kutoa saini halali katika _scriptSig_. Kama majina yao yanavyopendekeza, Ufunguo (Key) wa umma unajulikana kwa wote kwa vile unaonyeshwa kwenye Blockchain, wakati Ufunguo (Key) wa kibinafsi unajulikana tu na mmiliki halali wa fedha.
+Uendeshaji wa awali wa Bitcoin yenye hati za [P2PK](https://planb.academy/resources/glossary/p2pk) unahusisha kutumia Ufunguo (Key) wa umma kufunga fedha, ikibainisha katika _scriptPubKey_ kwamba mtu anayetaka kutumia UTXO hii lazima atoe saini halali na Ufunguo (Key) wa faragha unaolingana na Ufunguo (Key) huu wa umma. Ili kufungua UTXO hii, kwa hivyo ni muhimu kutoa saini halali katika _scriptSig_. Kama majina yao yanavyopendekeza, Ufunguo (Key) wa umma unajulikana kwa wote kwa vile unaonyeshwa kwenye Blockchain, wakati Ufunguo (Key) wa kibinafsi unajulikana tu na mmiliki halali wa fedha.
 
-Hii ni operesheni ya msingi ya Bitcoin, lakini baada ya muda, operesheni hii imekuwa ngumu zaidi. Kwanza, Satoshi pia ilianzisha hati za P2PKH, ambazo hutumia kupokea Address katika _scriptPubKey_, ambayo inawakilisha Hash ya Ufunguo (Key) wa umma. Kisha, mfumo huo ukawa mgumu zaidi na kuwasili kwa SegWit na kisha Taproot. Hata hivyo, kanuni ya jumla inabakia kimsingi sawa: Ufunguo (Key) wa umma au uwakilishi wa Ufunguo (Key) huu hutumiwa kufunga UTXO, na Ufunguo (Key) wa kibinafsi unaofanana unahitajika ili kuzifungua na hivyo kuzitumia.
+Hii ni operesheni ya msingi ya Bitcoin, lakini baada ya muda, operesheni hii imekuwa ngumu zaidi. Kwanza, Satoshi pia ilianzisha hati za [P2PKH](https://planb.academy/resources/glossary/p2pkh), ambazo hutumia kupokea Address katika _scriptPubKey_, ambayo inawakilisha Hash ya Ufunguo (Key) wa umma. Kisha, mfumo huo ukawa mgumu zaidi na kuwasili kwa [SegWit](https://planb.academy/resources/glossary/segwit) na kisha Taproot. Hata hivyo, kanuni ya jumla inabakia kimsingi sawa: Ufunguo (Key) wa umma au uwakilishi wa Ufunguo (Key) huu hutumiwa kufunga UTXO, na Ufunguo (Key) wa kibinafsi unaofanana unahitajika ili kuzifungua na hivyo kuzitumia.
 
 Kwa hivyo, mtumiaji anayetaka kufanya muamala wa Bitcoin lazima aunde sahihi ya dijiti kwa kutumia Ufunguo (Key) wake wa faragha kwenye shughuli inayohusika. Sahihi inaweza kuthibitishwa na washiriki wengine wa mtandao. Ikiwa ni halali, hii inamaanisha kuwa mtumiaji anayeanzisha muamala ndiye mmiliki wa Ufunguo (Key) wa kibinafsi, na kwa hivyo mmiliki wa bitcoins wanazotaka kutumia. Watumiaji wengine wanaweza kukubali na kueneza muamala.
 
 Kwa hivyo, mtumiaji ambaye anamiliki bitcoins zilizofungwa kwa Ufunguo (Key) wa umma lazima atafute njia ya kuhifadhi kwa usalama kile Kina (depth)choruhusu kufungua fedha zao: Ufunguo (Key) wa kibinafsi. Bitcoin Wallet ni kifaa haswa ambacho kitakuruhusu kuweka funguo zako zote kwa urahisi bila watu wengine kuzifikia. Kwa hivyo ni kama chain ya vitufe kuliko Wallet.
 
-Kiungo cha hisabati kati ya Ufunguo (Key) wa umma na Ufunguo (Key) wa faragha, pamoja na uwezo wa kutia sahihi ili kuthibitisha umiliki wa Ufunguo (Key) wa faragha bila kuufunua, huwezeshwa na algoriti ya sahihi ya dijiti. Katika itifaki ya Bitcoin, algoriti 2 za sahihi zinatumika: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm_) na **Mpango wa sahihi wa Schnorr**. ECDSA ni itifaki ya sahihi ya dijiti iliyotumiwa katika Bitcoin tangu mwanzo. Schnorr ni ya hivi majuzi zaidi katika Bitcoin, kama ilianzishwa mnamo Novemba 2021 na sasisho la Taproot.
+Kiungo cha hisabati kati ya Ufunguo (Key) wa umma na Ufunguo (Key) wa faragha, pamoja na uwezo wa kutia sahihi ili kuthibitisha umiliki wa Ufunguo (Key) wa faragha bila kuufunua, huwezeshwa na algoriti ya sahihi ya dijiti. Katika itifaki ya Bitcoin, algoriti 2 za sahihi zinatumika: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_Elliptic Curve Digital Signature Algorithm_) na **Mpango wa sahihi wa [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol)**. ECDSA ni itifaki ya sahihi ya dijiti iliyotumiwa katika Bitcoin tangu mwanzo. Schnorr ni ya hivi majuzi zaidi katika Bitcoin, kama ilianzishwa mnamo Novemba 2021 na sasisho la Taproot.
 
-Algorithms hizi mbili zinafanana kabisa katika mifumo yao. Zote mbili zinatokana na kriptografia ya curve ya elliptical. Tofauti kuu kati ya itifaki hizi mbili iko katika muundo wa saini na baadhi ya sifa maalum za hisabati. Kwa hivyo tutasoma utendakazi wa kanuni hizi, tukianza na za zamani zaidi: ECDSA.
+Algorithms hizi mbili zinafanana kabisa katika mifumo yao. Zote mbili zinatokana na kriptografia ya [curve ya elliptical](https://planb.academy/resources/glossary/elliptic-curve). Tofauti kuu kati ya itifaki hizi mbili iko katika muundo wa saini na baadhi ya sifa maalum za hisabati. Kwa hivyo tutasoma utendakazi wa kanuni hizi, tukianza na za zamani zaidi: ECDSA.
 
 ### Mviringo Curve Cryptography
 
@@ -750,7 +750,7 @@ $$
 
 Ili kutumia ECDSA au Schnorr, ni lazima mtu achague vigezo vya curve ya duaradufu, yaani, thamani za $a$ na $b$ katika mlingano wa curve. Kuna viwango tofauti vya mikunjo ya duaradufu ambayo inasifika kuwa salama kwa njia fiche. Inayojulikana zaidi ni _secp256r1_ curve, iliyofafanuliwa na kupendekezwa na NIST (_Taasisi ya Kitaifa ya Viwango na Teknolojia_).
 
-Licha ya hayo, Satoshi Nakamoto, mvumbuzi wa Bitcoin, alichagua kutotumia curve hii. Sababu ya chaguo hili haijulikani, lakini wengine wanaamini alipendelea kutafuta njia mbadala kwa sababu vigezo vya curve hii vinaweza kuwa na mlango wa nyuma. Badala yake, itifaki ya Bitcoin hutumia mkunjo wa kawaida wa **_secp256k1_**. Curve hii inafafanuliwa na vigezo $a = 0$ na $b = 7$. Kwa hivyo equation yake ni:
+Licha ya hayo, Satoshi Nakamoto, mvumbuzi wa Bitcoin, alichagua kutotumia curve hii. Sababu ya chaguo hili haijulikani, lakini wengine wanaamini alipendelea kutafuta njia mbadala kwa sababu vigezo vya curve hii vinaweza kuwa na mlango wa nyuma. Badala yake, itifaki ya Bitcoin hutumia mkunjo wa kawaida wa **_[secp256k1](https://planb.academy/resources/glossary/secp256k1)_**. Curve hii inafafanuliwa na vigezo $a = 0$ na $b = 7$. Kwa hivyo equation yake ni:
 
 $$
 y^2 = x^3 + 7
@@ -803,7 +803,7 @@ https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 :::video id=2fddfb16-5ae3-41da-92f8-ef5d09789804:::
 
-Kama inavyoonekana hapo awali, algorithm za sahihi za dijiti kwenye Bitcoin zinatokana na jozi ya funguo za kibinafsi na za umma ambazo zimeunganishwa kihisabati. Hebu tuchunguze pamoja kiungo hiki cha hisabati ni nini na jinsi vinavyozalishwa.
+Kama inavyoonekana hapo awali, algorithm za sahihi za dijiti kwenye Bitcoin zinatokana na jozi ya [funguo za kibinafsi](https://planb.academy/resources/glossary/private-key) na [za umma](https://planb.academy/resources/glossary/public-key) ambazo zimeunganishwa kihisabati. Hebu tuchunguze pamoja kiungo hiki cha hisabati ni nini na jinsi vinavyozalishwa.
 
 ### Ufunguo (Key) wa Kibinafsi
 
@@ -984,7 +984,7 @@ $$
 e = \text{HASH}(m)
 $$
 
-Ifuatayo, tunahesabu Nonce. Katika kriptografia, Nonce ni nambari inayozalishwa kwa njia ya nasibu au isiyo ya kawaida ambayo hutumiwa mara moja tu. Hiyo ni kusema, kila wakati saini mpya ya digital inafanywa na jozi hii ya funguo, itakuwa muhimu sana kutumia Nonce tofauti, vinginevyo, itahatarisha usalama wa Ufunguo (Key) wa kibinafsi. Kwa hivyo inatosha kubainisha nambari kamili na ya kipekee $r$ kiasi kwamba $1 \leq r \leq n-1$, ambapo $n$ ni mpangilio wa sehemu ya kuzalisha $G$ ya mkunjo wa duaradufu.
+Ifuatayo, tunahesabu [Nonce](https://planb.academy/resources/glossary/nonce). Katika kriptografia, Nonce ni nambari inayozalishwa kwa njia ya nasibu au isiyo ya kawaida ambayo hutumiwa mara moja tu. Hiyo ni kusema, kila wakati saini mpya ya digital inafanywa na jozi hii ya funguo, itakuwa muhimu sana kutumia Nonce tofauti, vinginevyo, itahatarisha usalama wa Ufunguo (Key) wa kibinafsi. Kwa hivyo inatosha kubainisha nambari kamili na ya kipekee $r$ kiasi kwamba $1 \leq r \leq n-1$, ambapo $n$ ni mpangilio wa sehemu ya kuzalisha $G$ ya mkunjo wa duaradufu.
 
 Kisha, tutahesabu nukta $R$ kwenye curve ya duaradufu na kuratibu $(x_R, y_R)$ kama vile:
 
@@ -1215,7 +1215,7 @@ Wazo hili lilitayarishwa awali na Joseph Poon na Thaddeus Dryja katika Karatasi 
 
 Ikiwa bendera hii ya sighash itaunganishwa katika Bitcoin, itawezesha matumizi ya maagano, lakini pia ni sharti la lazima la kutekeleza Eltoo, itifaki ya jumla ya tabaka za pili ambayo inafafanua jinsi ya kusimamia kwa pamoja Umiliki wa UTXO. Eltoo iliundwa  kutatua shida zinazohusiana na mifumo ya kujadili hali ya njia za Lightning, ambayo ni, kati ya kufungua na kufunga.
 
-Ili kuongeza ujuzi wako wa Lightning Network, baada ya kozi ya CYP201, ninapendekeza sana kozi ya LNP201 na Fanis Michalakis, ambayo inashughulikia mada kwa undani:
+Ili kuongeza ujuzi wako wa [Lightning Network](https://planb.academy/resources/glossary/lightning-network), baada ya kozi ya CYP201, ninapendekeza sana kozi ya LNP201 na Fanis Michalakis, ambayo inashughulikia mada kwa undani:
 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 Katika sehemu inayofuata, ninapendekeza kugundua jinsi maneno ya Mnemonic kwenye msingi wa Bitcoin Wallet yako inavyofanya kazi.
@@ -1257,7 +1257,7 @@ Ili kupata maelezo zaidi kuhusu muundo wa faragha wa Bitcoin na kugundua mbinu z
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ### wallet za HD (_Hierarchical Deterministic_)
 
-Kwa Address kizuizi cha pochi za JBOK, muundo mpya wa Wallet ulitumiwa baadaye. Mnamo mwaka wa 2012, Pieter Wuille alianzisha uboreshaji na BIP32, ambayo inaleta pochi za uamuzi wa hierarkia. Kanuni ya HD Wallet ni kupata funguo zote za kibinafsi kutoka kwa chanzo kimoja cha habari, Kina (depth)choitwa seed, kwa njia ya kuamua na ya hierarchical. seed hii inatolewa kwa nasibu wakati Wallet inapoundwa na kuunda hifadhi rudufu ya kipekee inayoruhusu uundaji wa funguo zote za faragha za Wallet. Kwa hivyo, mtumiaji anaweza generate idadi kubwa sana ya funguo za faragha ili kuepuka kutumia tena Address na kuhifadhi faragha yao, huku akihitaji tu kufanya nakala moja ya Wallet yao kupitia seed.
+Kwa Address kizuizi cha pochi za JBOK, muundo mpya wa Wallet ulitumiwa baadaye. Mnamo mwaka wa 2012, Pieter Wuille alianzisha uboreshaji na [BIP32](https://planb.academy/resources/glossary/bip0032), ambayo inaleta pochi za uamuzi wa hierarkia. Kanuni ya HD Wallet ni kupata funguo zote za kibinafsi kutoka kwa chanzo kimoja cha habari, Kina (depth)choitwa [seed](https://planb.academy/resources/glossary/seed), kwa njia ya kuamua na ya hierarchical. seed hii inatolewa kwa nasibu wakati Wallet inapoundwa na kuunda hifadhi rudufu ya kipekee inayoruhusu uundaji wa funguo zote za faragha za Wallet. Kwa hivyo, mtumiaji anaweza generate idadi kubwa sana ya funguo za faragha ili kuepuka kutumia tena Address na kuhifadhi faragha yao, huku akihitaji tu kufanya nakala moja ya Wallet yao kupitia seed.
 
 ![CYP201](assets/en/039.webp)
 
@@ -1307,7 +1307,7 @@ Katika sura inayofuata, tutaona jinsi tunavyotoka kwa nambari isiyo ya kawaida h
 
 :::video id=6218472e-b965-484f-b56b-e363f65d2827:::
 
-Kifungu cha maneno cha Mnemonic, pia Kina (depth)itwa "maneno ya seed", "maneno ya kurejesha", "maneno ya siri", au "maneno ya maneno 24", ni mlolongo kwa kawaida unaojumuisha maneno 12 au 24, ambayo hutolewa kutoka kwa entropy. Inatumika kupata funguo zote za HD Wallet. Hii ina maana kwamba kutokana na kifungu hiki, inawezekana kubainisha generate na kuunda upya funguo zote za kibinafsi na za umma za Bitcoin Wallet, na hivyo kufikia pesa ambazo zinalindwa nayo. Madhumuni ya maneno ya Mnemonic ni kutoa njia ya kuhifadhi na kurejesha bitcoins ambayo ni salama na rahisi kutumia. Ilianzishwa katika viwango mwaka 2013 na BIP39.
+Kifungu cha maneno cha Mnemonic, pia Kina (depth)itwa "maneno ya seed", "maneno ya kurejesha", "maneno ya siri", au "maneno ya maneno 24", ni mlolongo kwa kawaida unaojumuisha maneno 12 au 24, ambayo hutolewa kutoka kwa entropy. Inatumika kupata funguo zote za HD Wallet. Hii ina maana kwamba kutokana na kifungu hiki, inawezekana kubainisha generate na kuunda upya funguo zote za kibinafsi na za umma za Bitcoin Wallet, na hivyo kufikia pesa ambazo zinalindwa nayo. Madhumuni ya maneno ya Mnemonic ni kutoa njia ya kuhifadhi na kurejesha bitcoins ambayo ni salama na rahisi kutumia. Ilianzishwa katika viwango mwaka 2013 na [BIP39](https://planb.academy/resources/glossary/bip0039).
 
 Wacha tugundue pamoja jinsi ya kutoka kwa entropy hadi kifungu cha Mnemonic.
 
@@ -1315,7 +1315,7 @@ Wacha tugundue pamoja jinsi ya kutoka kwa entropy hadi kifungu cha Mnemonic.
 
 Ili kubadilisha entropy kuwa kifungu cha Mnemonic, lazima kwanza mtu aongeze cheki (au "jumla ya kudhibiti") mwishoni mwa entropy. Hundi hii ni mlolongo mfupi wa biti ambao huhakikisha uadilifu wa data kwa kuthibitisha kuwa hakuna urekebishaji wowote ambao umeanzishwa.
 
-Ili kuhesabu hundi, kazi ya SHA256 Hash inatumika kwa entropy (mara moja tu; hii ni moja ya matukio ya kawaida katika Bitcoin ambapo SHA256 Hash moja hutumiwa badala ya Hash mara mbili). Operesheni hii inazalisha 256-bit Hash. Checksum ina bits za kwanza za Hash hii, na urefu wake unategemea ile ya entropy, kulingana na formula ifuatayo:
+Ili kuhesabu hundi, kazi ya SHA256 Hash inatumika kwa entropy (mara moja tu; hii ni moja ya matukio ya kawaida katika Bitcoin ambapo SHA256 Hash moja hutumiwa badala ya Hash mara mbili). Operesheni hii inazalisha 256-bit Hash. [Checksum](https://planb.academy/resources/glossary/checksum) ina bits za kwanza za Hash hii, na urefu wake unategemea ile ya entropy, kulingana na formula ifuatayo:
 
 $$
 \text{CS} = \frac{\text{ENT}}{32}
@@ -1411,7 +1411,7 @@ Kabla ya kuendelea na upataji wa Wallet kutoka kwa kifungu hiki cha Mnemonic, ni
 
 :::video id=59f8a63e-56af-4937-a1d1-3314b3934048:::
 
-Kama tulivyoona hivi punde wallet za HD hutengenezwa kutoka kwa maneno ya Mnemonic ambayo kwa kawaida huwa na maneno 12 au 24. Maneno haya ni muhimu sana kwa sababu inaruhusu kurejeshwa kwa funguo zote za Wallet ikiwa kifaa chake cha kimwili (kama Hardware Wallet, kwa mfano) Kina (depth)potea. Hata hivyo, ni hatua moja ya kushindwa, kwa sababu ikiwa imeathiriwa, mshambuliaji anaweza kuiba bitcoins zote. Hapa ndipo BIP39 passphrase inapotumika.
+Kama tulivyoona hivi punde wallet za HD hutengenezwa kutoka kwa maneno ya Mnemonic ambayo kwa kawaida huwa na maneno 12 au 24. Maneno haya ni muhimu sana kwa sababu inaruhusu kurejeshwa kwa funguo zote za Wallet ikiwa kifaa chake cha kimwili (kama Hardware Wallet, kwa mfano) Kina (depth)potea. Hata hivyo, ni hatua moja ya kushindwa, kwa sababu ikiwa imeathiriwa, mshambuliaji anaweza kuiba bitcoins zote. Hapa ndipo BIP39 [passphrase](https://planb.academy/resources/glossary/passphrase-bip39) inapotumika.
 
 ### BIP39 passphrase ni nini?
 
@@ -1571,7 +1571,7 @@ Ufunguo (Key) uliopanuliwa umeundwa kama ifuatavyo:
 - **Kina (depth)**: Kiwango cha daraja katika HD Wallet kuhusiana na Ufunguo Mkuu (Master Key)(0 kwa Ufunguo (Key) mkuu).
 - **NambarAlama ya Kidole ya Mzazi (Parent Fingerprint)**: Baiti 4 za kwanza za HASH160 Hash za Ufunguo (Key) kuu wa umma zilizotumiwa kupata Ufunguo (Key) uliopo kwenye mzigo.
 - **Nambari ya Fahirisi (Index Number)**: Kitambulisho cha mtoto kati ya funguo za ndugu, yaani, kati ya funguo zote zilizo katika kiwango sawa cha utokaji ambazo zina funguo za mzazi sawa.
-- **Msimbo wa Chain (Chain Code)**: Msimbo wa kipekee wa baiti 32 wa kupata funguo za watoto.
+- **Msimbo wa Chain ([Chain Code](https://planb.academy/resources/glossary/chain-code))**: Msimbo wa kipekee wa baiti 32 wa kupata funguo za watoto.
 - **Ufunguo (Key)**: Kitufe cha faragha (Private Key) (kilichoamrishwa na baiti 1 kwa saizi) au Kitufe cha umma (Public Key).
 - **Checksum**: Thamani ya hundi inayokokotolewa na chaguo za kukokotoa za HASH256 (SHA256 mbili) pia huongezwa, ambayo inaruhusu uthibitishaji wa uadilifu wa Ufunguo (Key) uliopanuliwa wakati wa uwasilishaji au uhifadhi wake.
 
@@ -1579,7 +1579,7 @@ Umbizo kamili la Ufunguo (Key) uliopanuliwa kwa hivyo ni bytes 78 bila cheki, na
 
 | Element           | Maelezo                                                                                                         | Ukubwa      |
 | ----------------- | --------------------------------------------------------------------------------------------------------------- | --------- |
-| Version           | Inaonyesha ikiwa ufunguo ni wa umma (`xpub`, `ypub`) au binafsi (`xprv`, `zprv`), na pia toleo la extended key | 4 bytes   |
+| Version           | Inaonyesha ikiwa ufunguo ni wa umma (`xpub`, `ypub`) au binafsi (`xprv`, `zprv`), na pia toleo la [extended key](https://planb.academy/resources/glossary/extended-key) | 4 bytes   |
 | Depth             | Ngazi katika mfumo ukilinganisha na ufunguo mkuu                                                              | 1 byte    |
 | Parent Fingerprint| Bytes 4 za kwanza za HASH160 ya ufunguo wa umma wa mzazi                                                      | 4 bytes   |
 | Index Number      | Nafasi ya ufunguo katika mpangilio wa watoto                                                                  | 4 bytes   |
@@ -1863,13 +1863,13 @@ Kwa hivyo, njia ya utokaji inarejelea mlolongo wa fahirisi zinazotumiwa kupata f
 
 Kina (depth) hiki Kina (depth)lingana na Ufunguo Mkuu (Master Key)wa faragha wa Wallet na msimbo mkuu wa mnyororo. Inawakilishwa na nukuu $m/$.
 
-**Kina (depth) 1: Kusudi (Purpose) (BIP43)**
+**Kina (depth) 1: Kusudi (Purpose) ([BIP43](https://planb.academy/resources/glossary/bip0043))**
 
-Kusudi (Purpose) huamua muundo wa kimantiki wa derivation. Kwa mfano, P2WPKH Address itakuwa na $/84'/$ kwa Kina (depth) 1 (kulingana na BIP84), wakati P2TR Address itakuwa na $/86'/$ (kulingana na BIP86). Layer hii inawezesha utangamano kati ya pochi kwa kuonyesha nambari za fahirisi zinazolingana na nambari za BIP.
+Kusudi (Purpose) huamua muundo wa kimantiki wa derivation. Kwa mfano, P2WPKH Address itakuwa na $/84'/$ kwa Kina (depth) 1 (kulingana na [BIP84](https://planb.academy/resources/glossary/bip0084)), wakati P2TR Address itakuwa na $/86'/$ (kulingana na [BIP86](https://planb.academy/resources/glossary/bip0086)). Layer hii inawezesha utangamano kati ya pochi kwa kuonyesha nambari za fahirisi zinazolingana na nambari za BIP.
 
 Kwa maneno mengine, mara tu unapokuwa na Ufunguo Mkuu (Master Key)na msimbo mkuu, hizi hutumika kama jozi ya Ufunguo (Key) wa mzazi ili kupata jozi ya vitufe vya mtoto. Faharasa inayotumika katika utohozi huu inaweza kuwa, kwa mfano, $/84'/$ ikiwa Wallet inaKusudi (Purpose)wa kutumia hati za aina ya SegWit v0. Jozi hii muhimu basi iko kwenye Kina (depth) cha 1. Jukumu lake si kufunga bitcoins, lakini kutumika tu kama njia katika uongozi wa derivation.
 
-**Kina (depth) 2: Aina ya Sarafu (BIP44)**
+**Kina (depth) 2: Aina ya Sarafu ([BIP44](https://planb.academy/resources/glossary/bip0044))**
 
 Kutoka kwa jozi muhimu kwa Kina (depth) 1, derivation mpya inafanywa ili kupata jozi muhimu kwa Kina (depth) 2. Kina (depth) hiki Kina (depth)ruhusu kutofautisha Akaunti (Account) za Bitcoin kutoka kwa fedha nyingine za crypto ndani ya Wallet sawa.
 
@@ -1954,7 +1954,7 @@ Kina (depth)dharia, itakuwa muhimu kuokoa sio tu maneno ya Mnemonic ya Wallet ye
 
 ### "Descriptor" ni nini?
 
-"*vifafanuzi vya hati ya pato*"("*output script descriptors*"), au kwa urahisi "*Descriptor*", ni semi zilizoundwa ambazo zinafafanua kikamilifu hati ya pato (*scriptPubKey*) na kutoa taarifa zote zinazohitajika ili kufuata miamala inayohusishwa na hati fulani. Huwezesha usimamizi wa funguo katika pochi za HD kwa kutoa maelezo sanifu na kamili ya muundo wa Wallet na aina za anwani zinazotumiwa.
+"*vifafanuzi vya hati ya pato*"("*[output script descriptors](https://planb.academy/resources/glossary/output-script-descriptors)*"), au kwa urahisi "*Descriptor*", ni semi zilizoundwa ambazo zinafafanua kikamilifu hati ya pato (*scriptPubKey*) na kutoa taarifa zote zinazohitajika ili kufuata miamala inayohusishwa na hati fulani. Huwezesha usimamizi wa funguo katika pochi za HD kwa kutoa maelezo sanifu na kamili ya muundo wa Wallet na aina za anwani zinazotumiwa.
 
 Faida kuu ya Descriptor iko katika uwezo wao wa kuingiza taarifa zote muhimu ili kurejesha Wallet katika kamba moja (pamoja na maneno ya kurejesha). Kwa kuhifadhi descriptors na vifungu vinavyohusiana vya Mnemonic, inakuwa rahisi kurejesha funguo za faragha kwa kujua kwa usahihi nafasi yao katika uongozi. Kwa wallet za Multisig, ambazo nakala yake awali ilikuwa ngumu zaidi, descriptor inajumuisha `xpub` ya kila kipengele, hivyo basi kuhakikisha uwezekano wa kuunda upya anwani iwapo kutatokea tatizo.
 
@@ -2014,13 +2014,13 @@ Ni katika *scriptPubKey* ambapo anwani za kupokea zinapatikana. Walakini, matumi
 
 
 
-| Kiwango             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| Kiwango             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _[witness](https://planb.academy/resources/glossary/scriptwitness)_ |
 | ---------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
 | P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
 | P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
-| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Data holela | |
-| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
-| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| [P2SH](https://planb.academy/resources/glossary/p2sh)                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Data holela | |
+| [P2WPKH](https://planb.academy/resources/glossary/p2wpkh)               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| [P2WSH](https://planb.academy/resources/glossary/p2wsh)                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
 | P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
 | P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
@@ -2095,7 +2095,7 @@ Mtindo huu wa hati ulianzishwa katika Toleo (version) la kwanza la Bitcoin na Sa
 
 **P2PKH (*Pay-to-PubKey-Hash*)**:
 
-Kama P2PK, hati ya P2PKH ilianzishwa wakati wa uzinduzi wa Bitcoin. Tofauti na mtangulizi wake, hufunga bitcoins kwa kutumia Hash ya Ufunguo (Key) wa umma, badala ya kutumia moja kwa moja Ufunguo (Key) ghafi wa umma. Kisha *scriptSig* lazima itoe Ufunguo (Key) wa umma unaohusishwa na kupokea Address, pamoja na sahihi sahihi. Anwani zinazolingana na muundo huu huanza na `1` na zimesimbwa katika *base58check*. Hati hii pia ni ya kiwango cha "*Legacy*".
+Kama P2PK, hati ya P2PKH ilianzishwa wakati wa uzinduzi wa Bitcoin. Tofauti na mtangulizi wake, hufunga bitcoins kwa kutumia Hash ya Ufunguo (Key) wa umma, badala ya kutumia moja kwa moja Ufunguo (Key) ghafi wa umma. Kisha *scriptSig* lazima itoe Ufunguo (Key) wa umma unaohusishwa na kupokea Address, pamoja na sahihi sahihi. Anwani zinazolingana na muundo huu huanza na `1` na zimesimbwa katika *[base58check](https://planb.academy/resources/glossary/base58check)*. Hati hii pia ni ya kiwango cha "*Legacy*".
 
 **P2SH (*Pay-to-Script-Hash*)**:
 
@@ -2105,7 +2105,7 @@ Ilianzishwa mwaka wa 2012 kwa BIP16, muundo wa P2SH unaruhusu kutumia Hash ya ha
 
 Hati hii ni sawa na P2PKH, kwani pia inafunga bitcoins kwa kutumia Hash ya Ufunguo (Key) wa umma. Hata hivyo, tofauti na P2PKH, *scriptSig* inahamishwa hadi sehemu tofauti inayoitwa "*shahidi (witness)*". Hii wakati mwingine hujulikana kama "*scriptWitness*" kuashiria seti inayojumuisha saini na Ufunguo (Key) wa umma. Kila ingizo la SegWit lina *Scriptwitness* yake, na mkusanyiko wa *scriptWitnesses* unajumuisha sehemu ya *shahidi (witness)* ya shughuli hiyo. Usogezaji huu wa data ya sahihi ni uvumbuzi ulioanzishwa na sasisho la SegWit, linalolenga hasa kuzuia uharibifu wa shughuli kutokana na sahihi za ECDSA.
 
-Anwani za P2WPKH hutumia usimbaji wa *bech32* na kila mara huanza na `bc1q`. Aina hii ya hati inalingana na Toleo (version) la 0 SegWit matokeo.
+Anwani za P2WPKH hutumia usimbaji wa *[bech32](https://planb.academy/resources/glossary/bech32-and-bech32m)* na kila mara huanza na `bc1q`. Aina hii ya hati inalingana na Toleo (version) la 0 SegWit matokeo.
 
 **P2WSH (*Hati-ya-Lipa-kwa-shahidi (witness)-Hash*)**:
 

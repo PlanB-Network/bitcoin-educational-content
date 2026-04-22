@@ -1,0 +1,10 @@
+question: Mikä tapahtuma sai Satoshi Nakamoto:n vetäytymään valokeilasta joulukuussa 2010?
+answer: PC Worldin artikkelin julkaiseminen, jossa kehotetaan WikiLeaksia käyttämään Bitcoin:tä
+wrong_answers:
+  - Ross Ulbricht käynnistää Silk Road -alustan
+  - CIA:n sijoitusrahaston In-Q-Telin luoma yhteyshenkilö, -
+  - BTC:n hinnan huima nousu 0,20 dollarista 32 dollariin muutamassa kuukaudessa
+explanation: |
+ Satoshi kommentoi tätä julkaisua Bitcoin:n foorumilla kielteisesti peläten, että se herättäisi valtion viranomaisten huomion. Silkkitien markkinapaikka
+ käynnistettiin tammikuussa 2011, In-Q-Telin ja Gavin Andresenin välinen yhteydenotto tapahtui huhtikuussa, ja hinnannousu huipentui 32 dollariin kesäkuussa.
+reviewed: true

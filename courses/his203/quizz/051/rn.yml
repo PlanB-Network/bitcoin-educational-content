@@ -1,0 +1,10 @@
+question: Dukurikije inyigisho ya Nicolas Christin yasohowe muri Myandagaro 2012, mu kwezi kwa Rusama 2012, ibintu vyagurishijwe ku musi ku musi vyari bingana iki?
+answer: 15.000 BTC canke amadolari 75.000
+wrong_answers:
+  - 600 BTC canke amadolari 3.000
+  - 3.000 BTC canke amadolari 15.000
+  - 75.000 BTC canke amadolari 375.000
+explanation: |
+ Ivyo bagurisha ku musi, vyari 8.000 BTC muri Ntwarante, vyashitse ku 15.000 BTC muri Rusama, bikaba bingana n’amadolari 75.000 ico gihe. Ibikorwa nk'igice c'umubare wose 
+ Ibikorwa vy'uruhererekane rwa Bitcoin vyari hagati ya 10% na 20% mu mwaka w'2012. Mu ntango z'ukwezi kwa 11, Ross yavuze ko ukuroranirwa kw'urubuga ari "iterambere rikomeye".
+reviewed: true

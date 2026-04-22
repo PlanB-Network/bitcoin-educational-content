@@ -1,0 +1,11 @@
+question: Jaki problem rozwiązała deterministyczna koncepcja wallet sformalizowana przez dewelopera Gregory Maxwell w czerwcu 2011 roku?
+answer: Potrzeba regularnego tworzenia kopii zapasowych kluczy prywatnych w celu zabezpieczenia bitcoinów
+wrong_answers:
+  - Ryzyko piractwa związane z przechowywaniem bitcoinów na urządzeniu podłączonym do Internetu
+  - Podatność na ataki siłowe ze względu na niską entropię generatorów liczb losowych
+  - Brak możliwości ponownego użycia konta na innym urządzeniu
+explanation: |
+ Deterministyczne wallet stosują derywację klucza: zamiast być generated indywidualnie losowo, jak to miało miejsce w głównym oprogramowaniu, klucze prywatne są wyprowadzane
+ deterministycznie z informacji (zwanych seed) przy użyciu funkcji kryptograficznych. Metoda ta została zastosowana w oprogramowaniu BitcoinSpinner i Electrum
+ wallets pod koniec 2011 roku.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Millist Bitcoin ökosüsteemi teenust ei mõjutanud Linode'i hostinguteenuse häkkimine 1. märtsil 2012?
+answer: BitInstant'i valuutavahetusteenus, mida haldab Charlie Shrem
+wrong_answers:
+  - Bitcoinica kauplemisplatvorm, mida haldab Zhou Tong
+  - BitcoinCZ Mining mining ühistu, mida haldab Slush
+  - Gavin Andreseni juhitud Bitcoin kraanikaussihoidja
+explanation: |
+ Häkker pääses ligi ettevõtte klienditeenindusportaali ja võttis kontrolli kaheksa konto üle, mis kõik olid seotud Bitcoin-ga. Ta konfiskeeris 43 554
+ gW-6ikale kuuluvad bitcoinid, eemaldas Slush'i kooperatiivsest kuumast wallet-st 3094 bitcoini ja sai kätte 5 bitcoini, mis olid olemas Gavini Bitcoin kraanikontol.
+reviewed: true

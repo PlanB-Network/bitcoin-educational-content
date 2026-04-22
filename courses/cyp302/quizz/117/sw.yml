@@ -6,4 +6,4 @@ wrong_answers:
   - Katika kila hatua ya operesheni ya XOR
 explanation: |
   Sehemu za Galois hutumiwa badala ya baiti kukokotoa kinyume kizidishi na katika operesheni ya MixColumns kutekeleza kuzidisha modulo ya polinomia isiyoweza kupunguzwa.
-reviewed: false
+reviewed: true

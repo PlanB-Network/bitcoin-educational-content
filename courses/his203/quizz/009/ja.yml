@@ -1,0 +1,10 @@
+question: マーク・カーペレスがMt.Goxを買収する前に経営していたホスティングサービスは？
+answer: カリホスト
+wrong_answers:
+  - ティバンヌホスト
+  - WeHostYou
+  - プラネットホスト
+explanation: |
+ これは、彼が独立した開発者として提供していた数多くのサービスの一つに過ぎない。11月、Mark KarpelèsはKalyHostでビットコイン決済の受付を開始した。
+ ロス・ウルブリヒトもまた、シルクロードにリダイレクトされるSilkroadmarket.orgのウェブページをホストするためにこのサービスを利用していた。
+reviewed: true

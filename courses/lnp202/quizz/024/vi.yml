@@ -1,4 +1,4 @@
-question: Tại sao việc sao lưu một node Lightning lại phức tạp hơn so với việc sao lưu wallet trên chuỗi wallet?
+question: Tại sao việc sao lưu một nút Lightning lại phức tạp hơn so với việc sao lưu wallet trên chuỗi wallet?
 answer: Tình trạng của các kênh đang thay đổi
 wrong_answers:
   - Tính thanh khoản của kênh phụ thuộc vào mempool

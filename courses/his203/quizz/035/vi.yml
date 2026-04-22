@@ -1,0 +1,10 @@
+question: Phương pháp Pay Per Last N Shares (PPLNS) được sử dụng trong một số nhóm mining bao gồm những gì?
+answer: Trả tiền cho thợ mỏ cho mỗi khối được khai thác, theo tỷ lệ phần trăm cổ phần của họ trong N cổ phần cuối cùng được cung cấp cho nhóm mining
+wrong_answers:
+  - Trả tiền ngay cho thợ mỏ cho mỗi phần quặng được cung cấp, tùy theo độ khó của quặng
+  - Thưởng cho thợ đào dựa trên mỗi khối được khai thác, tỷ lệ thuận với số cổ phần họ tìm thấy kể từ khối trước đó
+  - Thanh toán ngay lập tức cho người khai thác mỗi phần cổ phần được cung cấp, nhưng không bao giờ được vượt quá số tiền mà nhóm mining đang sở hữu
+explanation: |
+ Đây là một biến thể của mô hình tỷ lệ, trong đó giai đoạn đánh giá không phải là chu kỳ sản xuất khối, mà là một khoảng thời gian gồm N cổ phần độc lập với chu kỳ.
+ Phương pháp PPLNS đã được P2Pool và một số tổ chức khác sử dụng.
+reviewed: true

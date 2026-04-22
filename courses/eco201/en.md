@@ -55,7 +55,7 @@ And what if the key to understanding today's economy lies in a theory several ce
 
 ### How Money is Created
 
-In our present-day monetary system, money is primarily created through a banking practice known as "fractional reserve banking." This term essentially means that banks are not required to hold as many reserves as they receive in deposits. Consequently, they can create new purchasing power when granting loans and, conversely, reduce purchasing power when customers repay their loans.
+In our present-day monetary system, money is primarily created through a banking practice known as "[fractional reserve banking](https://planb.academy/resources/glossary/fractional-reserves)." This term essentially means that banks are not required to hold as many reserves as they receive in deposits. Consequently, they can create new purchasing power when granting loans and, conversely, reduce purchasing power when customers repay their loans.
 
 For example, if you were to approach your local bank to secure a mortgage for a house purchase, the money lent to you by the bank would come into existence as a bookkeeping entry. In accounting, we typically represent an individual's net wealth with a balance sheet, which has two sides: the asset side, including any property, financial contracts, inventory, or other forms of wealth owned, and the liability side, showing the source of funds used to create the capital listed on the asset side. The difference between assets and liabilities is referred to as "equity" and can be thought of as the net wealth of the entity.
 
@@ -72,7 +72,7 @@ Figure 1: Money Creation as Bookkeeping Entries
 > Henry Ford
 
 
-This process allows banks to record all transactions, including wire transfers, credit card purchases, and checks, over a specified period (usually a week or a month). They then settle these transactions with each other using bank reserves, which are another form of fiat currency never used by the public. Bank reserves are held at the central bank in a special account accessible only to licensed banks and financial institutions.
+This process allows banks to record all transactions, including wire transfers, credit card purchases, and checks, over a specified period (usually a week or a month). They then settle these transactions with each other using bank reserves, which are another form of [fiat currency](https://planb.academy/resources/glossary/fiat) never used by the public. Bank reserves are held at the central bank in a special account accessible only to licensed banks and financial institutions.
 
 ### Instability of Fractional Reserve Banking and Lender of Last Resort
 
@@ -122,7 +122,7 @@ Another unintended consequence of ZIRP is that it encourages governments to enga
 
 Figure 6: Public & Private Debt as % of GDP (World, weighted by GDP per country) / Source IMF
 
-With inflation on the rise due to substantial money creation in response to COVID-related lockdowns, central bankers are now raising policy rates in an attempt to curb inflation. However, this poses a significant challenge for the entire system. Banks are more leveraged than ever, governments carry historically high levels of debt, economic growth is sluggish, deficits are mounting, and consumers, grappling with rising prices for essential goods, are struggling to make ends meet. Controlling inflation would require raising rates to a level that could bankrupt governments, while banks risk losing depositors as individuals spend their savings on increasingly expensive essentials or seek refuge in hard assets and money market funds to hedge against inflation.
+With [inflation](https://planb.academy/resources/glossary/inflation) on the rise due to substantial money creation in response to COVID-related lockdowns, central bankers are now raising policy rates in an attempt to curb inflation. However, this poses a significant challenge for the entire system. Banks are more leveraged than ever, governments carry historically high levels of debt, economic growth is sluggish, deficits are mounting, and consumers, grappling with rising prices for essential goods, are struggling to make ends meet. Controlling inflation would require raising rates to a level that could bankrupt governments, while banks risk losing depositors as individuals spend their savings on increasingly expensive essentials or seek refuge in hard assets and money market funds to hedge against inflation.
 
 ### Conclusion
 
@@ -133,7 +133,7 @@ With inflation on the rise due to substantial money creation in response to COVI
 
 In essence, our system is facing substantial challenges, and Bitcoin emerges as the only credible alternative. However, Bitcoin alone cannot address the issues within our monetary system. Above all, we need individuals who understand basic economic principles among Bitcoin enthusiasts, enabling a broader awareness and economic common sense to guide us away from constructing another fragile financial foundation for our civilization. The primary objective of this course is to educate new Bitcoin enthusiasts in sound economic principles.
 
-To achieve this goal, we will explain the fundamental principles of "Austrian Economics," an economic school of thought with a methodological tradition dating back to the 16th century, providing insights into human action under economic constraints. With this introduction, you now grasp the essentials of money creation and the current state of our financial and monetary system.
+To achieve this goal, we will explain the fundamental principles of "[Austrian Economics](https://planb.academy/resources/glossary/austrian-school)," an economic school of thought with a methodological tradition dating back to the 16th century, providing insights into human action under economic constraints. With this introduction, you now grasp the essentials of money creation and the current state of our financial and monetary system.
 
 In the upcoming chapter, we will delve into the foundational cornerstone of any economic school of thought: the theory of value. Subsequent chapters will explore money as a social institution, the theory of capital and the business cycle, the challenge of economic calculation, and a brief overview of the history and methodology of the Austrian School of Economics.
 

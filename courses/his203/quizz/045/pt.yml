@@ -1,0 +1,10 @@
+question: Que inovação técnica foi incorporada na moeda criptográfica Namecoin em outubro de 2011?
+answer: Fusão mining
+wrong_answers:
+  - mining resistente à GPU
+  - Nós de confiança
+  - Prova de aposta
+explanation: |
+ A fusão mining é um processo em que o trabalho efectuado numa "cadeia-mãe" (ou seja, Bitcoin) é reutilizado para validar cadeias "auxiliares" mais pequenas. Este processo foi
+ proposto na discussão do BitDNS pelo próprio Satoshi. O mining combinado foi ativado na rede Namecoin em 8 de outubro de 2011, no nível de bloco 19.200.
+reviewed: true

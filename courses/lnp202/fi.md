@@ -92,7 +92,7 @@ Jos seuraat tätä LNP202-kurssia oikeassa järjestyksessä, sen lopussa sinulla
 
 
 
-Ennen kuin käynnistät oman solmun, tässä luvussa käydään lyhyesti läpi Lightning Network:n perustana oleva teoria. On todellakin tärkeää ymmärtää asiaan liittyvät mekanismit, sillä sen avulla tet tunnistaa riskit ja ottaa käyttöön hyviä käytäntöjä niiden rajoittamiseksi. En kuitenkaan mene tässä yksityiskohtiin, koska se ei ole tämän kurssin päätatete. Jos haluat syventyä aiheeseen syvällisemmin, suosittelen lämpimästi tutustumaan Fanis Michalakisin LNP 201 -kurssiin, joka on alan referenssi:
+Ennen kuin käynnistät oman solmun, tässä luvussa käydään lyhyesti läpi [Lightning Network](https://planb.academy/resources/glossary/lightning-network):n perustana oleva teoria. On todellakin tärkeää ymmärtää asiaan liittyvät mekanismit, sillä sen avulla tet tunnistaa riskit ja ottaa käyttöön hyviä käytäntöjä niiden rajoittamiseksi. En kuitenkaan mene tässä yksityiskohtiin, koska se ei ole tämän kurssin päätatete. Jos haluat syventyä aiheeseen syvällisemmin, suosittelen lämpimästi tutustumaan Fanis Michalakisin LNP 201 -kurssiin, joka on alan referenssi:
 
 
 
@@ -102,20 +102,20 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-Palataanpa perusasioihin: ennen kuin määritellään, mikä solmu on, on ymmärrettävä, mikä Lightning Network on. Se on ylimmän tason protokolla, joka on rakennettu Bitcoin:n päälle ja joka on suunniteltu mahdollistamaan ketjun ulkopuoliset BTC-tapahtumat, jotka ovat nopeita (lähes välittömästi lopullisia) ja yleensä edullisia. "Offchain" tarkoittaa, että Lightningilla toteutettujen transaktioiden ei ole tarkoitus näkyä Bitcoin-lohkoketjussa. Lightning on myös osittainen vastaus Bitcoin:n lisääntyvään käyttöön ja ketjun sisäiseen ruuhkautumiseen, joka herättää huolta järjestelmän skaalautuvuudesta.
+Palataanpa perusasioihin: ennen kuin määritellään, mikä solmu on, on ymmärrettävä, mikä Lightning Network on. Se on ylimmän tason protokolla, joka on rakennettu Bitcoin:n päälle ja joka on suunniteltu mahdollistamaan ketjun ulkopuoliset BTC-tapahtumat, jotka ovat nopeita (lähes välittömästi lopullisia) ja yleensä edullisia. "[Offchain](https://planb.academy/resources/glossary/offchain)" tarkoittaa, että Lightningilla toteutettujen transaktioiden ei ole tarkoitus näkyä [Bitcoin-lohkoketjussa](https://planb.academy/resources/glossary/blockchain). Lightning on myös osittainen vastaus Bitcoin:n lisääntyvään käyttöön ja [ketjun sisäiseen](https://planb.academy/resources/glossary/onchain) ruuhkautumiseen, joka herättää huolta järjestelmän [skaalautuvuudesta](https://planb.academy/resources/glossary/scalability).
 
 
 
-Lightningin toiminta perustuu osallistujien välisten maksukanavien avaamiseen, joissa transaktiot tedaan suorittaa lähes välittömästi ja usein minimaalisilla maksuilla ilman, että niitä tarvitsee rekisteröidä yksi kerrallaan Bitcoin-lohkoketjuun. Nämä kanavat tevat pysyä auki hyvin pitkään, ja ne vaativat ketjussa tapahtuvia transaktioita vain silloin, kun niitä avataan ja suljetaan.
+Lightningin toiminta perustuu osallistujien välisten [maksukanavien](https://planb.academy/resources/glossary/payment-channel) avaamiseen, joissa transaktiot tedaan suorittaa lähes välittömästi ja usein minimaalisilla maksuilla ilman, että niitä tarvitsee rekisteröidä yksi kerrallaan Bitcoin-lohkoketjuun. Nämä kanavat tevat pysyä auki hyvin pitkään, ja ne vaativat ketjussa tapahtuvia transaktioita vain silloin, kun niitä avataan ja suljetaan.
 
 
 
-Lightning-solmu on Lightning-verkon osallistuja, joka avaa kanavia ja suorittaa maksuja muiden solmujen kanssa. Konkreettisesti Lightning-solmu on tietokoneella toimiva ohjelmisto, joka toteuttaa Lightning Network-protokollaa. Esimerkkejä ovat LND, Core Lightning tai Eclair. Tämän ohjelmiston päätehtävänä on:
+[Lightning-solmu](https://planb.academy/resources/glossary/lightning-node) on Lightning-verkon osallistuja, joka avaa kanavia ja suorittaa maksuja muiden solmujen kanssa. Konkreettisesti Lightning-solmu on tietokoneella toimiva ohjelmisto, joka toteuttaa Lightning Network-protokollaa. Esimerkkejä ovat LND, Core Lightning tai Eclair. Tämän ohjelmiston päätehtävänä on:
 
 
 
 
-- muodostaa yhteyden Bitcoin-solmuun saadakseen tietoja päälohkoketjusta;
+- muodostaa yhteyden [Bitcoin-solmuun](https://planb.academy/resources/glossary/full-node) saadakseen tietoja päälohkoketjusta;
 - luoda ja hallita kaksisuuntaisia maksukanavia muiden solmujen kanssa;
 - vaihtaa viestejä koko Lightning-verkon kanssa.
 
@@ -129,7 +129,7 @@ Lightning-solmu on Lightning-verkon osallistuja, joka avaa kanavia ja suorittaa 
 
 
 
-Bitcoin:ssa (onchain) "*wallet*" viittaa ohjelmistoon, joka hallinnoi yksityisiä avaimiasi, laskee saldosi UTXO:n avulla ja muodostaa transaktiosi. Tämä wallet te perustua omaan Bitcoin-solmuun tai jonkun muun solmuun, mutta nykyään solmun ja ketjussa toimivan wallet:n rooli on selvästi erilainen.
+Bitcoin:ssa (onchain) "*[wallet](https://planb.academy/resources/glossary/wallet)*" viittaa ohjelmistoon, joka hallinnoi [yksityisiä avaimiasi](https://planb.academy/resources/glossary/private-key), laskee saldosi [UTXO](https://planb.academy/resources/glossary/utxo):n avulla ja muodostaa transaktiosi. Tämä wallet te perustua omaan Bitcoin-solmuun tai jonkun muun solmuun, mutta nykyään solmun ja ketjussa toimivan wallet:n rooli on selvästi erilainen.
 
 
 
@@ -141,7 +141,7 @@ Lightningissa on vaikeampaa käyttää tällaista sanastoa uudelleen aiheuttamat
 
 
 
-- Säilytyspalvelun käyttö: käytät sovellusta, joka näyttää saldon sats:ssa Lightningissa, mutta taustalla varat ovat palveluntarjoajan solmussa (esim. Wallet of Satoshi). Sinulla ei ole avaimia eikä kanavien hallintaa. Saldosi on vain kirjanpitomerkintä yrityksen tietokannassa. Se on verrattavissa siihen, että jättäisit bitcoinisi pörssialustalle kaikkine siihen liittyvine riskeineen. Tässä tapauksessa "*Lightning wallet*" on vain pääsy tilille, jota hallinnoi operaattori, joka puolestaan pyörittää todellista Lightning-solmua.
+- Säilytyspalvelun käyttö: käytät sovellusta, joka näyttää saldon [sats](https://planb.academy/resources/glossary/satoshi-sat):ssa Lightningissa, mutta taustalla varat ovat palveluntarjoajan solmussa (esim. Wallet of Satoshi). Sinulla ei ole avaimia eikä kanavien hallintaa. Saldosi on vain kirjanpitomerkintä yrityksen tietokannassa. Se on verrattavissa siihen, että jättäisit bitcoinisi pörssialustalle kaikkine siihen liittyvine riskeineen. Tässä tapauksessa "*Lightning wallet*" on vain pääsy tilille, jota hallinnoi operaattori, joka puolestaan pyörittää todellista Lightning-solmua.
 
 
 
@@ -161,7 +161,7 @@ Tässä osiossa annan sinulle lyhyen muistutuksen siitä, miten Lightning toimii
 
 
 
-Lightning-verkon ydin perustuu kaksisuuntaisiin maksukanaviin. Kanava tedaan avata (eli luoda), päivittää Lightning-transaktioiden tapahtuessa ja lopuksi sulkea. Onchain-näkökulmasta katsottuna kanava ei ole muuta kuin 2/2-monimerkkinen lähtö.
+Lightning-verkon ydin perustuu kaksisuuntaisiin maksukanaviin. Kanava tedaan avata (eli luoda), päivittää Lightning-transaktioiden tapahtuessa ja lopuksi sulkea. Onchain-näkökulmasta katsottuna kanava ei ole muuta kuin 2/2-[monimerkkinen](https://planb.academy/resources/glossary/multisig) [lähtö](https://planb.academy/resources/glossary/output).
 
 
 
@@ -169,7 +169,7 @@ Lightning-verkon ydin perustuu kaksisuuntaisiin maksukanaviin. Kanava tedaan ava
 
 
 
-Lightningin näkökulmasta kyseessä on maksukanava, jossa likviditeetti on jaettu kahden osallistujan kesken.
+Lightningin näkökulmasta kyseessä on maksukanava, jossa [likviditeetti](https://planb.academy/resources/glossary/liquidity-lightning) on jaettu kahden osallistujan kesken.
 
 
 
@@ -183,7 +183,7 @@ Lightningin näkökulmasta kyseessä on maksukanava, jossa likviditeetti on jaet
 
 
 
-Kaksi solmua päättää avata kanavan. Toinen niistä sitoo bitcoineja ketjussa tapahtuvassa transaktiossa nimeltä *rahoitustransaktio*. Tämä transaktio luo tulosteen, joka perustuu 2-of-2 multisignature-skriptiin, mikä tarkoittaa, että näiden varojen käyttäminen Bitcoin:ssä edellyttää kanavan molempien solmujen allekirjoitusta. Ennen tämän transaktion toteuttamista varoja tarjoava osapuoli pyytää toista osapuolta allekirjoittamaan *nostotransaktion*, jota ei toteuteta ketjussa, mutta jonka avulla se te saada varansa takaisin ongelmatilanteessa.
+Kaksi solmua päättää avata kanavan. Toinen niistä sitoo bitcoineja ketjussa tapahtuvassa transaktiossa nimeltä *rahoitustransaktio*. Tämä transaktio luo tulosteen, joka perustuu 2-of-2 [multisignature-skriptiin](https://planb.academy/resources/glossary/script), mikä tarkoittaa, että näiden varojen käyttäminen Bitcoin:ssä edellyttää kanavan molempien solmujen [allekirjoitusta](https://planb.academy/resources/glossary/digital-signature). Ennen tämän transaktion toteuttamista varoja tarjoava osapuoli pyytää toista osapuolta allekirjoittamaan *nostotransaktion*, jota ei toteuteta ketjussa, mutta jonka avulla se te saada varansa takaisin ongelmatilanteessa.
 
 
 
@@ -197,7 +197,7 @@ Kaksi solmua päättää avata kanavan. Toinen niistä sitoo bitcoineja ketjussa
 
 
 
-Kanavan tilaa (eli sats:n jakautumista A:n ja B:n välillä) edustaa *commitment transaction*, joka on molempien solmujen tiedossa mutta jota ei lähetetä välittömästi lohkoketjuun. Tämä transaktio kuvaa, miten kanavan varat jaetaan uudelleen ketjussa Lightningissa tehtyjen maksujen mukaisesti.
+Kanavan tilaa (eli sats:n jakautumista A:n ja B:n välillä) edustaa *[commitment transaction](https://planb.academy/resources/glossary/commitment-transaction)*, joka on molempien solmujen tiedossa mutta jota ei lähetetä välittömästi lohkoketjuun. Tämä transaktio kuvaa, miten kanavan varat jaetaan uudelleen ketjussa Lightningissa tehtyjen maksujen mukaisesti.
 
 
 
@@ -237,7 +237,7 @@ Ennen kuin menemme pidemmälle, tässä on kaksi olennaista käsitettä Lightnin
 
 
 - Liquidity*: kanavan toisella puolella käytettävissä oleva sats:n määrä;
-- *Kapasiteetti*: se on 2/2-multisignaalin ulostuloon lukittu kokonaismäärä eli likviditeetin summa kanavan molemmilla puolilla.
+- *[Kapasiteetti](https://planb.academy/resources/glossary/lightning-channel-capacity)*: se on 2/2-multisignaalin ulostuloon lukittu kokonaismäärä eli likviditeetin summa kanavan molemmilla puolilla.
 
 
 
@@ -249,7 +249,7 @@ Kanava ei ole vain kahden solmupisteen välistä maksua varten: se on osa toisii
 
 
 
-Kukin solmu tietää juoruprotokollan kautta kartan tästä verkosta: mitkä kanavat ovat olemassa, mitkä solmut ovat yhteydessä toisiinsa kaksisuuntaisella kanavalla ja mitkä kapasiteetit on julkaistu. Jos haluat lähettää maksun vastaanottajalle, jolla ei ole suoraa kanavaa, solmusi laskee reitin, joka koostuu useista hyppäyksistä: oma solmusi → solmu X → solmu Y → vastaanottajasolmu. Jokaisella hyppysuoralla maksu kulkee kanavan kautta, jolla on oltava riittävästi likviditeettiä maksun suuntaan.
+Kukin solmu tietää [juoruprotokollan](https://planb.academy/resources/glossary/gossip) kautta kartan tästä verkosta: mitkä kanavat ovat olemassa, mitkä solmut ovat yhteydessä toisiinsa kaksisuuntaisella kanavalla ja mitkä kapasiteetit on julkaistu. Jos haluat lähettää maksun vastaanottajalle, jolla ei ole suoraa kanavaa, solmusi laskee reitin, joka koostuu useista hyppäyksistä: oma solmusi → solmu X → solmu Y → vastaanottajasolmu. Jokaisella hyppysuoralla maksu kulkee kanavan kautta, jolla on oltava riittävästi likviditeettiä maksun suuntaan.
 
 
 
@@ -265,7 +265,7 @@ Kanavan likviditeetti ei siis ole symmetrinen: toinen puoli te olla raskaasti ku
 
 
 
-Jotta maksut tevat kulkea välisolmujen kautta ilman luottamusta, Lightning käyttää älykkäitä sopimuksia nimeltä *HTLC* (*Hashed Time-Locked Contracts*). Yksinkertaisesti sanottuna HTLC-sopimuksessa varojen siirto riippuu salaisuuden paljastumisesta, ja siihen sisältyy aikarajoitus, joka suojaa lähettäjää tapahtuman epäonnistumisen varalta. Jokaisen maksun edellytyksenä on siis ennakkokuvan esittäminen (salaisuus, jonka hash vastaa sovittua arvoa). Jos lopullinen vastaanottaja esittää tämän ennakkokuvan, hän te vaatia varat, jolloin kukin välittäjäsolmu te periä omat varansa takaisin.
+Jotta maksut tevat kulkea välisolmujen kautta ilman luottamusta, Lightning käyttää [älykkäitä sopimuksia](https://planb.academy/resources/glossary/smart-contract) nimeltä *[HTLC](https://planb.academy/resources/glossary/htlc)* (*Hashed Time-Locked Contracts*). Yksinkertaisesti sanottuna HTLC-sopimuksessa varojen siirto riippuu salaisuuden paljastumisesta, ja siihen sisältyy aikarajoitus, joka suojaa lähettäjää tapahtuman epäonnistumisen varalta. Jokaisen maksun edellytyksenä on siis ennakkokuvan esittäminen (salaisuus, jonka [hash](https://planb.academy/resources/glossary/hash-function) vastaa sovittua arvoa). Jos lopullinen vastaanottaja esittää tämän ennakkokuvan, hän te vaatia varat, jolloin kukin välittäjäsolmu te periä omat varansa takaisin.
 
 
 
@@ -281,7 +281,7 @@ Säästän sinut HTLC:n toiminnan teknisiltä yksityiskohdilta, sillä ne eivät
 
 
 
-Kuten Bitcoin:n tapauksessa, myös Lightning-protokollasta on useita toteutuksia. Useat riippumattomat tiimit kehittävät omia versioitaan, jotka ovat kaikki yhteentoimivia, koska ne noudattavat samoja eritelmiä (BOLTit). Seuraavassa ovat tärkeimmät nykyisin käytössä olevat toteutukset.
+Kuten Bitcoin:n tapauksessa, myös Lightning-protokollasta on useita toteutuksia. Useat riippumattomat tiimit kehittävät omia versioitaan, jotka ovat kaikki yhteentoimivia, koska ne noudattavat samoja eritelmiä ([BOLTit](https://planb.academy/resources/glossary/bolt)). Seuraavassa ovat tärkeimmät nykyisin käytössä olevat toteutukset.
 
 
 
@@ -399,7 +399,7 @@ Nykyään on mahdollista saada käyttökokemus, joka on hyvin lähellä Lightnin
 
 
 
-Ensimmäinen ratkaisu on yksinkertaisesti olla käyttämättä Lightningia natiivisti, mutta käyttää Bitcoin:tä tai Liquid:ta wallet:a, johon on upotettu atomiset swapit. Esimerkiksi Aqua- tai Bull Bitcoin Wallet-sovellukset käyttävät tätä menetelmää mahdollistamalla Lightning-laskujen maksamisen käyttämättä itse Lightning-solmua ja pysyen samalla omavalvonnassa.
+Ensimmäinen ratkaisu on yksinkertaisesti olla käyttämättä Lightningia natiivisti, mutta käyttää Bitcoin:tä tai [Liquid](https://planb.academy/resources/glossary/liquid-network):ta wallet:a, johon on upotettu [atomiset swapit](https://planb.academy/resources/glossary/atomic-swap). Esimerkiksi Aqua- tai Bull Bitcoin Wallet-sovellukset käyttävät tätä menetelmää mahdollistamalla [Lightning-laskujen](https://planb.academy/resources/glossary/invoice-lightning) maksamisen käyttämättä itse Lightning-solmua ja pysyen samalla omavalvonnassa.
 
 
 
@@ -419,11 +419,11 @@ Useimmat tämäntyyppisiä toimintoja tarjoavat salkut käyttävät [Boltz](http
 
 
 
-Tämä ratkaisu tarjoaa myös mielenkiintoisia etuja luottamuksellisuuden kannalta, erityisesti kun se yhdistetään Liquid:een. Aloittelijalle se on myös erittäin helppo asentaa ja tallentaa: klassinen muistisääntö, ei kanavia, ei tasapainotettavaa likviditeettiä...
+Tämä ratkaisu tarjoaa myös mielenkiintoisia etuja luottamuksellisuuden kannalta, erityisesti kun se yhdistetään Liquid:een. Aloittelijalle se on myös erittäin helppo asentaa ja tallentaa: klassinen [muistisääntö](https://planb.academy/resources/glossary/seed), ei kanavia, ei tasapainotettavaa likviditeettiä...
 
 
 
-Toisaalta tällä lähestymistavalla on rajoituksensa. Ensinnäkin se ei ole mitattavissa: olet riippuvainen vaihtopalvelun saatavuudesta ja hyvästä tahdosta. Jos se ei enää halua käsitellä tiliäsi tai lopettaa toimintansa, et te enää maksaa salamalaskuja sen kautta. Sitten on vielä huomattavat maksut: maksat sekä onchain- tai Liquid-transaktiomaksut että swap-palvelun provision. Jos onchain-maksut nousevat jyrkästi, Lightningin käytöstä te tulla erittäin kallista.
+Toisaalta tällä lähestymistavalla on rajoituksensa. Ensinnäkin se ei ole mitattavissa: olet riippuvainen vaihtopalvelun saatavuudesta ja hyvästä tahdosta. Jos se ei enää halua käsitellä tiliäsi tai lopettaa toimintansa, et te enää maksaa salamalaskuja sen kautta. Sitten on vielä huomattavat maksut: maksat sekä onchain- tai Liquid-[transaktiomaksut](https://planb.academy/resources/glossary/transaction-fees) että swap-palvelun provision. Jos onchain-maksut nousevat jyrkästi, Lightningin käytöstä te tulla erittäin kallista.
 
 
 
@@ -479,7 +479,7 @@ Kolmas ratkaisu, jota tarkastelemme tarkemmin tällä LNP202-kurssilla, on käyt
 
 
 
-"Klassisella" tarkoitan sitä, että asennat ja konfiguroit Lightning-toteutuksen (esim. LND) itse oman Bitcoin-solmusi päälle. Sinä valitset vertaisverkkosi, avaat kanavasi, hallinnoit saapuvaa ja lähtevää likviditeettiäsi ja määrität reititysmaksukäytäntösi.
+"Klassisella" tarkoitan sitä, että asennat ja konfiguroit Lightning-toteutuksen (esim. LND) itse oman Bitcoin-solmusi päälle. Sinä valitset vertaisverkkosi, avaat kanavasi, hallinnoit [saapuvaa ja lähtevää likviditeettiäsi](https://planb.academy/resources/glossary/inbound-capacity) ja määrität reititysmaksukäytäntösi.
 
 
 
@@ -616,7 +616,7 @@ Tämän jälkeen pääset Lightning-solmun pääkäyttöliittymään. Vasemmalla
 
 
 
-Keskellä on Lightning wallet. Se edustaa itse asiassa lähtevää käteistäsi eli bitcoineja, joita omistat Lightning-kanavissasi.
+Keskellä on Lightning wallet. Se edustaa itse asiassa [lähtevää käteistäsi](https://planb.academy/resources/glossary/outbound-capacity) eli bitcoineja, joita omistat Lightning-kanavissasi.
 
 
 

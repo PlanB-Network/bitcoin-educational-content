@@ -1,0 +1,11 @@
+question: Wladimir van der Laan tarafından 2011 yılında ana yazılım için geliştirilen grafik arayüzün adı neydi?
+answer: Bitcoin-Qt
+wrong_answers:
+  - wxWindows-Bitcoin
+  - bitcoind
+  - Bitcoin Çekirdek
+explanation: |
+ Bitcoin-Qt, Bitcoin'ün grafik arayüzünün tamamen elden geçirilmesiydi. Haziran 2011'den itibaren geliştirildi ve 0.5 sürümünde ana yazılıma entegre edildi,
+ 21 Kasım'da yayınlandı. Qt grafik çerçevesine dayanan bu yazılım, başlangıçta Satoshi tarafından kullanılan wxWindows kütüphanesinin yerini almıştır. Metonimik olarak, yazılım şöyle adlandırılmıştır
+ O andan itibaren Bitcoin-Qt.
+reviewed: true

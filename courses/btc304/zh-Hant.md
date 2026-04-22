@@ -193,7 +193,7 @@ Bitcoin 社群經常追求更廣泛的目標，尤其是關於公眾教育的目
 4.揭穿某些公眾人物和媒體的誤導性或毫無根據的聲稱；
 
 
-5.Bitcoin 與其他加密貨幣的根本差異；
+5.Bitcoin 與其他[加密貨幣](https://planb.academy/resources/glossary/cryptocurrency)的根本差異；
 
 
 透過建立明日的第一批「城堡」，**Bitcoin 社群在世界各地發揮了防禦假消息和審查的作用，同時也為學習 Bitcoin 的基本原理**了肥沃的土壤。這些社群為新加入者，甚至是懷疑者，提供探索 Bitcoin 真正潛力所需的資源與連結。
@@ -302,7 +302,7 @@ Bitcoin 是分散式的，因此自然任何人都可以隨心所欲。
 在這個意義上，一個簡單的「經驗法則」可以幫到您：如果在您居住的 30-45 分鐘距離內沒有活躍的 Bitcoin 社群，可能值得開始一個新的社群。話雖如此，您隨時都可以隨心所欲。
 
 
-當然，如果舊社群的「發展」方向已不再符合您的價值觀，而您又沒有時間或動力去「橘藥」它們，那麼創造您自己的 Fork 總是一個選擇。
+當然，如果舊社群的「發展」方向已不再符合您的價值觀，而您又沒有時間或動力去「[橘藥](https://planb.academy/resources/glossary/orange-pill)」它們，那麼創造您自己的 [Fork](https://planb.academy/resources/glossary/fork) 總是一個選擇。
 
 
 
@@ -1391,7 +1391,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 
 
 
-- [Btcmap.org](https://btcmap.org/)，一個每天更新兩張地圖的網站：**[接受Bitcoin的企業世界地圖](https://btcmap.org/map)**和**[世界社區地圖](https://btcmap.org/communities/map)**。許多比特幣玩家會定期查看這些地圖，無論他們是在旅行還是日常生活中，都會去認識新朋友或找地方花他們的Sats。Btcmap 是全球的參考，在那裡列出您的社群對於能見度是非常重要的。
+- [Btcmap.org](https://btcmap.org/)，一個每天更新兩張地圖的網站：**[接受Bitcoin的企業世界地圖](https://btcmap.org/map)**和**[世界社區地圖](https://btcmap.org/communities/map)**。許多比特幣玩家會定期查看這些地圖，無論他們是在旅行還是日常生活中，都會去認識新朋友或找地方花他們的[Sats](https://planb.academy/resources/glossary/satoshi-sat)。Btcmap 是全球的參考，在那裡列出您的社群對於能見度是非常重要的。
 - [BitcoinerEvents](https://www.bitcoinerevents.com/)，一個由比特幣玩家為比特幣玩家創建的網站。 **它可以讓你張貼你的社區即將發生的事件**。但是在法國，它仍然沒有被廣泛使用。
 - 依您的國家而定，可能會有其他當地活動。例如在法國，就有 [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/)，每月**列出數十項 Bitcoin 活動**。因此，如果您尚未在 Twitter 上追蹤他們或聯絡他們以分享您的社群與活動資訊，現在正是時候！**為了讓法文活動行事曆保持更新，如果所有法文 Bitcoin 社群都能養成以下習慣，那將會非常棒：**
     - 在Twitter上提及@bitcoinpointfr的每一個新的社區活動
@@ -1936,7 +1936,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 您可以輕鬆設定的另一個專案是**在您的聚會中建立一個圖書館**。
 
 
-您可以邀請想要分享閱讀材料的參加者攜帶一本與 Bitcoin 相關的書籍。如果參加聚會的其他人想要借閱，可以與 Exchange 的擁有者安排借閱，但需支付押金，例如透過 Lightning 借出 21,000 薩托希。
+您可以邀請想要分享閱讀材料的參加者攜帶一本與 Bitcoin 相關的書籍。如果參加聚會的其他人想要借閱，可以與 Exchange 的擁有者安排借閱，但需支付押金，例如透過 [Lightning](https://planb.academy/resources/glossary/lightning-network) 借出 21,000 薩托希。
 
 
 對於物主而言，這筆押金有助於支付可能的損失或盜竊。對於借款人來說，這是一種獎勵，鼓勵他們在未來的聚會中回來取回押金。

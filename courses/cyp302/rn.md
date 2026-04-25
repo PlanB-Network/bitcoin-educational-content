@@ -1349,10 +1349,10 @@ Kugira ngo uronke ibindi biganiro ku vyerekeye inyigisho y’imibare yo muri iki
 <chapterId>47345330-be2d-5faf-afd0-d289a8d21bf1</chapterId>
 
 
-Imwe mu mashami abiri akomeye y’ubuhinga bwo gukingira amakuru ni ubuhinga bwo gukingira amakuru buhuye. Harimwo imigambi yo gupfuka amakuru hamwe n’imigambi yerekeye ukumenya neza n’ubunyankamugayo. Gushika mu myaka ya 1970, ubuhinga bwo gupfuka amakuru bwose bwari kuba bugizwe n’imigambi y’ugupfuka amakuru ihuye.
+Imwe mu mashami abiri akomeye y’ubuhinga bwo gukingira amakuru ni ubuhinga bwo gukingira amakuru buhuye(symétrique). Harimwo imigambi yo gupfuka amakuru hamwe n’imigambi yerekeye ukumenya neza n’ubunyankamugayo. Gushika mu myaka ya 1970, ubuhinga bwo gupfuka amakuru bwose bwari kuba bugizwe n’imigambi y’ugupfuka amakuru ihuye.
 
 
-Ikiganiro nyamukuru gitangura no kuraba imigambi y’ugushiramwo amakuru y’uruzi n’ugushiramwo amakuru y’uruzi. Twebwe rero, duhindukira tukaja ku makode y’ukwemeza ubutumwa, ari yo migambi yo kumenya neza ko ubutumwa ari ubw’ukuri kandi ko ari ubw’ukuri. Ubwa nyuma, turatohoza ingene imigambi yo gupfuka amakuru n’amakode y’ukwemeza ubutumwa bishobora guhurizwa hamwe kugira ngo habeho uguhanahana amakuru ata nkomanzi.
+Ikiganiro nyamukuru gitangura mugusuzuma igishushanya c'ugukingira amakuru buhuye hamwe no gushiraho ubutandukanire y'ugushiramwo amakuru vya flot n’ugushiramwo amakuru vya bloc. Twebwe rero, duhindukira tukaja ku makode y’ukwemeza ubutumwa, ari yo migambi yo kumenya neza ko ubutumwa ari ubw’ukuri kandi ko ari ubw'imvaho. Ubwa nyuma, turatohoza ingene imigambi yo gupfuka amakuru n’amakode y’ukwemeza ubutumwa bishobora guhurizwa hamwe kugira ngo habeho uguhanahana amakuru mumutekano.
 
 
 Iki gice kivuga ku migambi itandukanye y’ubuhinga bwo gukingira amakuru kuva ku bikorwa mu guca. Ikigabane gikurikira kiratanga insobanuro ido n’ido y’ugushiramwo amakuru n’ubuhinga bwo gushiramwo amakuru n’ubuhinga bwo gushiramwo amakuru buva ku bikorwa, ni ukuvuga RC4 na AES.
@@ -1367,17 +1367,17 @@ ___
 Mu kwerekana ingingo ngenderwako z’ubuhinga bwo gukingira amakuru, abantu akenshi bizigira ingero zijanye na Alice na Bob. Nanje nzobigira.
 
 
-Cane cane iyo uri mushasha mu vy’ubuhinga bwo gupfuka amakuru, birahambaye kumenya ko izo ngero za Alice na Bob zigamije gusa gukora nk’ingero z’ingingo ngenderwako n’inyubako z’ubuhinga bwo gupfuka amakuru mu kibanza coroshe. Ariko rero, ingingo ngenderwako n’inyubako birakoreshwa mu bintu vyinshi cane vy’ubuzima nyakuri.
+Cane cane iyo uri mushasha mu vy’ubuhinga bwo gupfuka amakuru, birahambaye kumenya ko izo ngero za Alice na Bob zigamije gusa gukora nk’ingero z’ingingo ngenderwako n’inyubako z’ubuhinga bwo gupfuka amakuru mu kibanza coroshe. Ariko rero, ingingo ngenderwako n’inyubako birakoreshwa mu bintu vyinshi cane vy’ubuzima busanzwe.
 
 
 Ibi bikurikira ni ingingo zitanu z’ingenzi zo kuguma mu muzirikanyi ku bijanye n’ingero zijanye n’ivy’ubuhinga bwa none:
 
 
-1. Bishobora guhindurwa bitagoranye mu ngero n’ubundi bwoko bw’abakozi nk’amashirahamwe canke amashirahamwe ya leta.
+1. Bishobora guhindurwa bitagoranye mu ngero n’ubundi bwoko bw’abanyabikorwa nk’amashirahamwe yigenga canke amashirahamwe ya leta.
 
-2. Bishobora kwaguka bitagoranye kugira ngo bibemwo abakinyi batatu canke barenga.
+2. Bishobora kumvirwa vyoroshe kugira hashirwemwo abanyabikorwa batatu canke barenga.
 
-3. Mu ngero, Bob na Alice ni abagira uruhara cane mu kurema ubutumwa bumwe bumwe no mu gukoresha imigambi y’ubuhinga bwo gukingira ubutumwa kuri ubwo butumwa. Ariko mu vy’ukuri, ahanini ubuhinga bwo guhanahana amakuru bukoreshwa n’ubuhinga bwa none. Iyo usuye urubuga ukoresheje umutekano wa transport Layer, nk’akarorero, ubuhinga bwo gukingira amakuru bukoreshwa na mudasobwa yawe be na server y’urubuga.
+3. Mu burorero bwatanzwe, Bob na Alice ni abagira uruhara runini mw'iremwa ry'ubutumwa bumwe bumwe no mu gukoresha imigambi y’ubuhinga bwo gukingira ubutumwa kuri ubwo butumwa. Ariko mu vy’ukuri, ahanini ubuhinga bwo guhanahana amakuru bukoreshwa n’ubuhinga bwa none. Iyo usuye urubuga ukoresheje umutekano wa transport Layer(TLS), nk’akarorero, ubuhinga bwo gukingira amakuru bwose butungamywa na mudasobwa yawe be na server y’urubuga.
 
 4. Mu bijanye n’itumanaho ry’ubuhinga bwa none, “ubutumwa” bwoherezwa biciye ku nzira y’itumanaho akenshi ni amapakete ya TCP/IP. Ivyo bishobora kuba ivy’ubutumwa bwo kuri e-mail, ubutumwa bwo kuri Facebook, ikiyago co kuri telefone, ukwimurira amadosiye, urubuga, gushiramwo porogarama n’ibindi. Si ubutumwa mu buryo bwa kera. Naho ari ukwo, abahinga mu vy’amakuru y’ibanga bazokworohereza kenshi ivyo mu kuvuga yuko ubutumwa ari, nk’akarorero, ubutumwa bwo kuri e-mail.
 
@@ -1390,14 +1390,14 @@ Ibi bikurikira ni ingingo zitanu z’ingenzi zo kuguma mu muzirikanyi ku bijanye
 <chapterId>41bfdbe1-6d41-5272-98bb-81f24b2fd6af</chapterId>
 
 
-Turashobora gusobanura neza **umugambi wo gushiramwo amakuru ugereranijwe** nk'umugambi wose wo gushiramwo amakuru ufise ubuhinga butatu:
+Turashobora gusobanura neza **umugambi wo gushiramwo amakuru ahuye** nk'ishushanyo ryose ryo gushiramwo amakuru ugizwe n'Algorithme zitatu:
 
 
 1. **Algorithme y’uguhingura urufunguzo**, itanga urufunguzo rw’ibanga.
 
 2. **Algorithme y’ugushiramwo amakuru**, ifata urufunguzo rw’ibanga n’inyandiko yoroshe nk’inyungu n’isohoka ry’inyandiko y’ibanga.
 
-3. **Algorithme dedecryption**, ifata urufunguzo rw’ibanga n’inyandiko y’ibanga nk’inyungu igasohora inyandiko y’intango.
+3. **Algorithme dedecryption**, ifata urufunguzo rw’ibanga n’inyandiko y’ibanga nk’inyungu igasohora inyandiko ya nyayo.
 
 
 Mu bisanzwe umugambi wo gushiramwo amakuru—waba ari uwuringaniye canke utaringaniye—utanga urugero rw’ugushiramwo amakuru rushingiye ku nzira nyamukuru, aho gutanga amakuru nyayo.

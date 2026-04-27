@@ -1403,7 +1403,7 @@ Turashobora gusobanura neza **umugambi wo gushiramwo amakuru ahuye** nk'ishushan
 Mu bisanzwe umugambi wo gushiramwo amakuru—waba ari uwuringaniye canke utaringaniye—utanga urugero rw’ugushiramwo amakuru rushingiye ku nzira nyamukuru, aho gutanga amakuru nyayo.
 
 
-Nk’akarorero, rimbura Salsa20, umugambi wo gupfuka amakuru ugereranijwe. Ishobora gukoreshwa n’uburebure bw’urufunguzo rw’ibice 128 n’ibice 256. Ihitamwo ryerekeye uburebure bw'urufunguzo rigira ingaruka ku bintu bimwebimwe bitobito vy'ubuhinga (umubare w'ibice mu buhinga kugira ngo ube nyawo).
+Nk’akarorero, dufate nka Salsa20, umugambi wo gupfuka amakuru ugereranijwe. Ishobora gukoreshwa n’uburebure bw’urufunguzo rw’ibice 128 n’ibice 256. Ihitamwo ryerekeye uburebure bw'urufunguzo rigira ingaruka ku bintu bimwebimwe bitobito vy'ubuhinga (umubare w'ibice mu buhinga kugira ngo ube nyawo).
 
 
 Ariko umuntu ntashobora kuvuga ko gukoresha Salsa20 n’urufunguzo rw’ibice 128 ari umugambi wo gupfuka utandukanye n’uwa Salsa20 n’urufunguzo rw’ibice 256. Ivyiyumviro nyamukuru biguma ari uko biri. Igihe gusa ubuhinga nyamukuru buhindutse niho twovuga vy’ukuri imigambi ibiri itandukanye yo gupfuka.
@@ -1449,14 +1449,14 @@ Bob ipfuka ubutumwa $M$ ku gihe $T_0$ n'urufunguzo $K$ kugira ngo ivemwo inyandi
 Mu kigabane ca 2, twahuye n’igiharuro c’ihinduka, kikaba ari akarorero k’umugambi woroshe cane wo gupfuka amakuru. Reka tuvyitegereze hano.
 
 
-Twibaze ko inkoranyamagambo *D* ingana inyuguti zose zo mu nyuguti z’icongereza, mu buryo zikurikirana, n’umugwi w’imibare $\{0,1,2,\dots,25\}$. Niwiyumvire ubutumwa bushoboka **M**. Igiharuro c'uguhindura ni, rero, umugambi wo gupfuka usobanurwa gutya:
+twitize kazinduzi *D* yegeranya inyuguti zose zo mu nyuguti z’icongereza, mu buryo zikurikirana, n’umugwi w’ibitigiri $\{0,1,2,\dots,25\}$. Niwiyumvire ubutumwa bushoboka **M**. Igiharuro c'uguhindura ni, rero, umugambi wo gupfuka usobanurwa gutya:
 
 
 
-- Hitamwo mu buryo butari bwo urufunguzo $k$ mu rutonde rw'urufunguzo rushoboka **K**, aho **K** = $\{0,1,2,\utudomo,25\}$
+- Hitamwo mu buryo bwo guhitishamwo urufunguzo $k$ mu rutonde rw'urufunguzo rushoboka **K**, aho **K** = $\{0,1,2,\utudomo,25\}$
 - Gushiramwo ubutumwa $m \in$ **M**, nk'uko bikurikira:
     - Itandukanye $m$ mu nyuguti zayo zimwe zimwe $m_0, m_1,\utudomo, m_i, \utudomo, m_l$
-    - Guhindura buri $m_i$ mu mubare hakurikijwe *D*
+    - Guhindura buri $m_i$ mu gitigiri hakurikijwe *D*
     - Ku buri $m_i$, $c_i = [(m_i + k) \mod 26]$
     - Guhindura buri $c_i$ mu nyuguti hakurikijwe *D*
     - Hanyuma ushire hamwe $c_0, c_1,\utudomo, c_l$ kugira ngo ubone inyandiko y'ibanga $c$

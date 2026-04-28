@@ -1,6 +1,6 @@
 ---
 name: Kwongerako ibikoresho vy'inyigisho
-description: Ni gute twokwongerako ibikoresho bishasha vy’inyigisho ku rubuga rwa PlanB?
+description: Ni gute twokwongerako ibikoresho bishasha vy’inyigisho kuri Plan ₿ Academy?
 ---
 ![event](assets/cover.webp)
 
@@ -8,13 +8,13 @@ description: Ni gute twokwongerako ibikoresho bishasha vy’inyigisho ku rubuga 
 Intumbero ya PlanB ni ugutanga ibikoresho vy’inyigisho bihambaye ku bijanye na Bitcoin, mu ndimi nyinshi zishoboka. Ibintu vyose bisohoka kuri uru rubuga ni open-source kandi bishirwa kuri GitHub, ivyo bikaba bituma umuntu wese agira uruhara mu gutunganya urubuga.
 
 
-Uretse inyigisho n’amahugurwa, Plan ₿ Academy iratanga kandi ububiko bunini bw’ibintu vy’inyigisho bitandukanye kuri Bitcoin, bishobora gushikirwa na bose, [mu gice ca "BET" (_Ibikoresho vy’inyigisho vya Bitcoin_)](https://planb.academy/resources/bet). Iryo koraniro ry’amakuru ririho amafoto y’inyigisho, ama meme, amafoto y’ivy’iterabwoba, ibishushanyo vy’ubuhinga, ibimenyetso, n’ibindi bikoresho vy’abakoresha. Intumbero y’iyi nzira ni ugushigikira abantu ku giti cabo n’imiryango yigisha Bitcoin kw’isi yose mu kubaronsa ibikoresho bikenewe vyo kubona.
+Uretse inyigisho n’amahugurwa, Plan ₿ Academy kandi itanga ububiko bunini bw’ibintu vy’inyigisho bitandukanye kuri Bitcoin, bishobora gushikirwa na bose, [mu gice ca "BET" (_Igikoresho c’inyigisho ca Bitcoin_)](https://planb.academy/resources/bet). Iyi database irimwo amafoto y’inyigisho, ama memes, amafoto y’ivy’iterabwoba, ibishushanyo vy’ubuhinga, ibimenyetso, n’ibindi bikoresho vy’abakoresha. Intumbero y’iyi nzira ni ugushigikira abantu ku giti cabo n’imiryango yigisha Bitcoin kw’isi yose mu kubaha ibikoresho bikenewe vyo kubona.
 
 
 Woba ushaka kugira uruhara mu gutunganya uru rubuga, ariko ntuzi ingene wobikora? Iyi nyigisho ni iyawe!
 
 
-*Ni ngombwa ko ibirimwo vyose vyinjijwe kuri uru rubuga bitagira uburenganzira canke vyubahiriza uruhusha rwa dosiye y’inkomoko. Kandi, amashusho yose yasohowe ku rubuga rwa PlanB araboneka hakurikijwe uruhusha [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).*
+*Ni ngombwa ko ibirimwo vyose vyinjijwe kuri uru rubuga bitagira uburenganzira canke vyubahiriza uruhusha rwa dosiye y’inkomoko. Vyongeye, amashusho yose yasohowe kuri Plan ₿ Academy araboneka hakurikijwe uruhusha [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).*
 
 ![event](assets/01.webp)
 
@@ -26,7 +26,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- Genda kuri [ububiko bwa GitHub bwa PlanB bwihariye amakuru](https://github.com/PlanB-Ihuriro/Bitcoin-ibirimwo-ivy'inyigisho/igiti/iterambere/ibikoresho/bet) mu gice ca `ibikoresho/bet/`:
+- Genda kuri [ububiko bwa GitHub bwa PlanB bwihariye ku makuru](https://github.com/Urubuga rwa PlanB/ibirimwo-ivy’inyigisho/igiti/iterambere/ibikoresho/bet) mu gice ca `ibikoresho/bet/`:
 
 ![event](assets/02.webp)
 
@@ -36,7 +36,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 ![event](assets/03.webp)
 
 
-- Niba utigeze utanga umusanzu ku birimwo Plan ₿ Academy mbere, uzokenera gukora Fork yawe y’ububiko bw’intango. Forking a repository bisigura gukora kopi y'ubwo bubiko kuri konti yawe ya GitHub, ivyo bikaba bigufasha gukora ku mugambi ataco uhinduye ku bubiko bw'intango. Fyonda kuri buto ya `Fork ubu bubiko`:
+- Niba utigeze utanga umusanzu ku birimwo Plan ₿ Academy mbere, uzokenera gukora fork yawe y’ububiko bw’intango. Forking ububiko bisigura gukora kopi y'ubwo bubiko kuri konti yawe bwite ya GitHub, ivyo bikaba bigufasha gukora ku mugambi ataco uhinduye ku bubiko bw'intango. Fyonda kuri buto ya `Fork ubu bubiko`:
 
 ![event](assets/04.webp)
 
@@ -46,7 +46,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 ![event](assets/05.webp)
 
 
-- Rema ububiko bw'ibirimwo. Kugira ngo ubikore, mu gasandugu ka `Izina rya dosiye yawe...`, wandike izina ry'ibirimwo mu nyuguti ntoyi ukoresheje uturongo aho kwandika uturongo. Mu karorero kanje, reka tuvuge ko nshaka kwongerako igishushanyo ca PDF c’urutonde rw’amajambo 2048 rwa BIP39. Rero, nzohamagara dosiye yanje `bip39-urutonde rw'amajambo`: ![ivyabaye](itunga/06.webp)
+- Rema ububiko bw'ibirimwo. Kugira ngo ubikore, mu gasandugu ka `Izina rya dosiye yawe...`, wandike izina ry'ibirimwo mu nyuguti ntoyi ukoresheje uturongo aho kwandika uturongo. Mu karorero kanje, reka tuvuge ko nshaka kwongerako igishushanyo ca PDF c’urutonde rw’amajambo 2048 BIP39. Rero, nzohamagara dosiye yanje `bip39-urutonde rw'amajambo`: ![ivyabaye](itunga/06.webp)
 - Kugira ngo wemeze ko dosiye yaremwe, wongereko gusa akarongo inyuma y'izina mu gasandugu kamwe, nk'akarorero: `bip39-wordlist/`. Kwongerako akarongo bihita bikora ububiko aho kuba dosiye:
 
 ![event](assets/07.webp)
@@ -79,7 +79,7 @@ Akira ibisobanuro vyo kwuzuza kuri buri kibanza:
 
 
 
-- `umugambi`**: Erekana ikimenyetso c'ishirahamwe ryawe ku rubuga rwa PlanB. Niba utaragira ikimenyetso c'"umugambi" w'ishirahamwe ryawe, urashobora kugikora ukurikije iyi nyigisho.
+- `umugambi`**: Erekana ikimenyetso c'ishirahamwe ryawe kuri Plan ₿ Academy. Niba utararonka ikimenyetso c'"umugambi" c'ishirahamwe ryawe, urashobora kugikora ukurikije iyi nyigisho.
 
 
 https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
@@ -103,7 +103,7 @@ Nimba udafise, urashobora gusa gukoresha izina ryawe, izina ryawe ry’uruyeri c
 
 
 - `tags`**: Wongereko ama tags abiri afitaniye isano n'ibirimwo. Ingero:
- - Bitcoin.
+ - ibikoni
  - ubuhinga
  - ubutunzi
  - inyigisho
@@ -123,111 +123,241 @@ type: Educational Content
 links:
 download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
 view:
-- In my example, I will leave the links empty for now, as I will add my PDF directly on GitHub:
-![event](assets/09.webp)
-- Once your modifications to this file are complete, save them by clicking on the `Commit changes...` button:
-![event](assets/10.webp)
-- Add a title for your modifications, as well as a short description:
-![event](assets/11.webp)
-- Click on the green `Propose changes` button:
-![event](assets/12.webp)
-- You will then arrive on a page that summarizes all your changes:
-![event](assets/13.webp)
-- Click on your GitHub profile picture at the top right, then on `Your Repositories`:
-![event](assets/14.webp)
-- Select your fork of the Plan ₿ Academy repository:
-![event](assets/15.webp)
-- You should see a notification at the top of the window with your new branch. It is probably called `patch-1`. Click on it:
-![event](assets/16.webp)
-- You are now on your working branch (**make sure you are on the same branch as your previous modifications, this is important!**):
-![event](assets/17.webp)
-- Go back to the `resources/bet/` folder and select the folder of your content that you just created in the previous commit:
-![event](assets/18.webp)
-- In the folder of your content, click on the `Add file` button, then on `Create new file`:
-![event](assets/19.webp)
-- Name this new folder `assets` and confirm its creation by putting a slash `/` at the end:
-![event](assets/20.webp)
-- In this `assets` folder, create a file named `.gitkeep`: ![event](assets/21.webp)
-- Click on the `Commit changes...` button: ![event](assets/22.webp)
-- Leave the commit title as default, and make sure the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`: ![event](assets/23.webp)
-- Return to the `assets` folder: ![event](assets/24.webp)
-- Click on the `Add file` button, then on `Upload files`: ![event](assets/25.webp)
-- A new page will open. Drag and drop a thumbnail that represents your content into the area. This image will be displayed on the Plan ₿ Academy site: ![event](assets/26.webp)
-- It can be a preview, a logo, or an icon: ![event](assets/27.webp)
-- Once the image is uploaded, make sure the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`: ![event](assets/28.webp)
-- Be careful, your image must be named `logo` and must be in `.webp` format. The full file name should therefore be: `logo.webp`: ![event](assets/29.webp)
-- Return to your `assets` folder and click on the intermediary file `.gitkeep`: ![event](assets/30.webp)
-- Once on the file, click on the three small dots at the top right then on `Delete file`: ![event](assets/31.webp)
-- Make sure you are still on the same working branch, then click on the `Commit changes` button: ![event](assets/32.webp)
-- Add a title and a description to your commit, then click on `Commit changes`: ![event](assets/33.webp)
-- Return to the folder of your content: ![event](assets/34.webp)
-- Click on the `Add file` button, then on `Create new file`: ![event](assets/35.webp)
-- Create a new YAML file by naming it with the indicator of your native language. This file will be used for the content description. For example, if I want to write my description in English, I will name this file `en.yml`: ![event](assets/36.webp)
-- Fill out this YAML file using this template:
-
 ```
 
+
+
+- Mu karorero kanje, nzosiga amahuza ubusa ubu, kuko nzokwongerako PDF yanje kuri GitHub:
+
+![event](assets/09.webp)
+
+
+- Igihe ivyo wahinduye muri iyi dosiye birangiye, ubibike ukanda kuri buto ya `Commit changes...`:
+
+![event](assets/10.webp)
+
+
+- Wongereko umutwe w'ivyo wahinduye, hamwe n'insobanuro ngufi:
+
+![event](assets/11.webp)
+
+
+- Fyonda kuri buto y'icatsi kibisi `Gutanga amahinduka`:
+
+![event](assets/12.webp)
+
+
+- Uzoca ushika kuri paji ivuga mu ncamake ivyo wahinduye vyose:
+
+![event](assets/13.webp)
+
+
+- Fyonda ku ifoto yawe y'umwirondoro wa GitHub hejuru iburyo, hanyuma kuri `Ububiko bwawe`:
+
+![event](assets/14.webp)
+
+
+- Hitamwo fork yawe mu bubiko bwa Plan ₿ Academy:
+
+![event](assets/15.webp)
+
+
+- Ushobora kubona itangazo hejuru y’idirisha ririho ishami ryawe rishasha. Birashoboka ko yitwa `igipande-1`. Fyondako:
+
+![event](assets/16.webp)
+
+
+- Ubu uri kw'ishami ryawe ry'akazi (**urabe neza ko uri kw'ishami rimwe n'ivyo wahinduye kera, ivyo birahambaye!**):
+
+![event](assets/17.webp)
+
+
+- Subira kuri dosiye ya `resources/bet/` maze uhitemwo dosiye y'ibirimwo vyawe uherutse kurema mu vyo wakoze:
+
+![event](assets/18.webp)
+
+
+- Mu bubiko bw'ibirimwo, kanda kuri buto ya `Kwongerako dosiye`, hanyuma kuri `Rema dosiye nshasha`:
+
+![event](assets/19.webp)
+
+
+- Izina iyi dosiye nshasha `itunga` maze wemeze ko yaremwe mu gushiramwo akarongo `/` ku mpera:
+
+![event](assets/20.webp)
+
+
+- Muri iyi `itunga` dosiye, rema dosiye yitwa `.gitkeep`: ![ivyabaye](itunga/21.webp)
+- Fyonda kuri buto ya `Guhindura...`: ![ivyabaye](itunga/22.webp)
+- Siga umutwe w'isezerano nk'uko mburabuzi, maze urabe neza ko akazu ka `Isezerano ku ishami rya patch-1` kagenzuwe, hanyuma ukande kuri `Isezerano ry'amahinduka`: ![event](assets/23.webp)
+- Subira kuri dosiye ya `itunga`: ![ivyabaye](itunga/24.webp)
+- Fyonda kuri buto ya `Kwongerako dosiye`, hanyuma kuri `Shirako dosiye`: ![ivyabaye](itunga/25.webp)
+- Paje nshasha izofunguka. Kurura ushire ishusho ntoyi iserukira ibirimwo muri ako karere. Iyi shusho izogaragara ku rubuga rwa Plan ₿ Academy: ![ivyabaye](itunga/26.webp)
+- Bishobora kuba ivyerekanwa, ikimenyetso, canke ikimenyetso: ![ivyabaye](itunga/27.webp)
+- Ishusho imaze gushirwako, urabe neza ko akazu ka `Kwiyemeza ku ishami rya patch-1` gashizweko akamenyetso, hanyuma ukande kuri `Kwiyemeza amahinduka`: ![event](assets/28.webp)
+- Urabe maso, ishusho yawe itegerezwa kwitwa `logo` kandi itegerezwa kuba iri mu buryo bwa `.webp`. Izina rya dosiye yuzuye rero rikwiye kuba: `logo.webp`: ![ivyabaye](itunga/29.webp)
+- Subira muri dosiye yawe `itunga` maze ukande kuri dosiye y'ubuhuza `.gitkeep`: ![ivyabaye](itunga/30.webp)
+- Igihe umaze gushika kuri dosiye, fyonda ku tudodo dutatu turi hejuru iburyo hanyuma kuri `Sukura dosiye`: ![ivyabaye](assets/31.webp)
+- Raba neza ko ukiri ku ishami rimwe rikora, hanyuma ukande kuri buto `Guhindura`: ![ivyabaye](itunga/32.webp)
+- Yongerako umutwe n'insobanuro ku vyo wiyemeje, hanyuma ukande kuri `Ivyo wiyemeje`: ![ivyabaye](itunga/33.webp)
+- Garuka muri dosiye y'ibirimwo: ![ivyabaye](itunga/34.webp)
+- Fyonda kuri buto ya `Ongera dosiye`, hanyuma kuri `Rema dosiye nshasha`: ![ivyabaye](itunga/35.webp)
+- Rema dosiye nshasha ya YAML mu kuyiha izina n'ikimenyetso c'ururimi rwawe kavukire. Iyi dosiye izokoreshwa mu gusobanura ibirimwo. Nk'akarorero, nimba nshaka kwandika insobanuro yanje mu congereza, nzokwita iyi dosiye `en.yml`: ![ivyabaye](itunga/36.webp)
+- Uzuza iyi dosiye ya YAML ukoresheje iyi nkuru:
+
+
+```yaml
 name:
 description: |
 
 ```
 
-- For the `name` key, you can add the name of your content;
-- For the `description` key, you simply need to add a short paragraph that describes your content. The description must be in the same language as the file name. You do not need to translate this description into all the supported languages on the site, as the PlanB teams will do so with their model.
-For example, here is what your file might look like:
 
-```
 
+- Ku rufunguzo rwa `izina`, ushobora kwongerako izina ry'ibirimwo;
+- Ku rufunguzo rwa `insobanuro`, ukeneye gusa kwongerako paragarafu ngufi idondora ibirimwo. Insobanuro igomba kuba mu rurimi rumwe n'izina rya dosiye. Ntukeneye guhindura iyi ndondoro mu ndimi zose zishigikiwe ku rubuga, kuko amashirahamwe ya PlanB azobigira n’akarorero kayo.
+
+Akarorero, ng'uku uko dosiye yawe ishobora gusa:
+
+
+```yaml
 name: BIP39 WORDLIST
 description: |
-Urutonde rwuzuye kandi rufise inomero rw’amajambo 2048 y’icongereza yo mu nkoranyamagambo BIP39 akoreshwa mu gushiramwo amajambo y’icongereza Mnemonic. Iyo nyandiko ishobora gucapwa kuri paji imwe.
-
+Complete and numbered list of the 2048 English words from the BIP39 dictionary used to encode mnemonic phrases. The document can be printed on a single page.
 ```
 
+
 ![event](assets/37.webp)
-- Click on the `Commit changes...` button:
+
+
+- Fyonda kuri buto ya `Guhindura...`:
+
 ![event](assets/38.webp)
-- Ensure that the `Commit directly to the patch-1 branch` box is checked, add a title, then click on `Commit changes`:
+
+
+- Raba neza ko `Kwiyemeza ku ishami rya patch-1` akazu kagenzuwe, wongereko umutwe, hanyuma ukande kuri `Kwiyemeza amahinduka`:
+
 ![event](assets/39.webp)
-- Your content folder should now look like this:
+
+
+- Ubu dosiye yawe y'ibirimwo ikwiye gusa n'iyi:
+
 ![event](assets/40.webp)
+
 
 ---
 
-*If you prefer not to add the content on GitHub and you have already noted the links in the `bet.yml` file during the previous steps, you can skip this section and go directly to the part concerning the creation of the Pull Request.*
+*Niba ushaka kudashiramwo ibirimwo kuri GitHub kandi umaze kubona amahuza muri dosiye `bet.yml` mu ntambwe za kera, ushobora gusimbuka iki gice maze ukaja ku gice kijanye n'uguhingura Pull Request.*
 
-- Return to the `/assets` folder:
+
+
+- Subira kuri dosiye `/itunga`:
+
 ![event](assets/41.webp)
-- Click on the `Add file` button, then on `Upload files`:
+
+
+- Fyonda kuri buto ya `Kwongerako dosiye`, hanyuma kuri `Shirako dosiye`:
+
 ![event](assets/42.webp)
-- A new page will open. Drag and drop into the area the content you wish to share:
+
+
+- Paje nshasha izofunguka. Kurura ushire ahantu ibirimwo wipfuza gusangira:
+
 ![event](assets/43.webp)
-- For example, I added the PDF file of the BIP39 list:
+
+
+- Nk’akarorero, nongeyeko dosiye ya PDF y’urutonde rwa BIP39:
+
 ![event](assets/44.webp)
-- Once the content is uploaded, ensure that the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`:
+
+
+- Ibirimwo bimaze gushirwako, urabe ko akazu ka `Kwiyemeza ku ishami rya patch-1` kagenzuwe, hanyuma ukande kuri `Kwiyemeza amahinduka`:
+
 ![event](assets/45.webp)
-- Return to your `/assets` folder and click on the file you just uploaded:
+
+
+- Subira muri dosiye yawe `/assets` hanyuma ukande kuri dosiye uhejeje gushiramwo:
+
 ![event](assets/46.webp)
-- Retrieve the intermediate URL of your file. For example, in my case, the URL is:
 
+
+- Kugarura URL yo hagati ya dosiye yawe. Akarorero, mu gihe canje, URL ni:
+
+
+```url
+https://github.com/tutorial-pandul/bitcoin-educational-content/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
-https://github.com/inyigisho-pandul/ibirimwo-inyigisho za Bitcoin/blob/igipande-1/ibikoresho/bet/urutonde rw'amajambo rwa bip39/itunga/URUTONDE RW'AMAJAMBO rwa BIP39.pdf
 
+
+- Gumana gusa igice ca nyuma ca URL kuva `/ibikoresho` gushika imbere:
+
+
+```url
+/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
-- Keep only the last part of the URL from `/resources` onwards:
 
+
+- Yongerako ku mushinge wa URL aya makuru akurikira kugira ngo ubone ihuriro ryiza:
+
+
+```url
+https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
-/ibikoresho/bet/bip39-urutonde rw'amajambo/itunga/BIP39-URUTONDE RW'AMAJAMBO.pdf
 
-```
+Ico turiko turakora hano ni ugutegura uruja n'uruza rwa dosiye yawe, igihe igitekerezo cawe kizoba carashizwe mu bubiko bw'inkomoko bwa Plan ₿ Academy.
 
-- Add to the base of the URL the following information to have the correct link:
 
-```
+- Subira kuri dosiye yawe `bet.yml` maze ukande ku kimenyetso c'ikaramu: ![ivyabaye](itunga/47.webp)
+- Wongereko ihuriro ryawe aho:
 
-https://github.com/Ivyiyumviro-vy'inyigisho/Bitcoin/ibikoresho/ibikoresho/bet/urutonde rw'amajambo rwa bip39/itunga/URUTONDE RW'AMAJAMBO rwa BIP39.pdf
+![event](assets/48.webp)
 
-```
+
+- Amahinduka yawe amaze kurangira, kanda kuri buto ya `Gukora amahinduka...`:
+
+![event](assets/49.webp)
+
+
+- Wongereko umutwe w'ivyo wahinduye, hamwe n'insobanuro ngufi:
+
+![event](assets/50.webp)
+
+
+- Fyonda kuri buto y'icatsi kibisi `Guhindura`:
+
+![event](assets/51.webp)
+
+
+---
+
+
+- Niba vyose bigusa neza, subira ku muzi wa fork yawe:
+
+![event](assets/52.webp)
+
+
+- Ushobora kubona ubutumwa bwerekana ko ishami ryawe ryahinduwe. Fyonda kuri buto ya `Gereranya & gukuraho ibisabwa`:
+
+![event](assets/53.webp)
+
+
+- Wongereko umutwe utomoye n'insobanuro ya PR yawe:
+
+![event](assets/54.webp)
+
+
+- Fyonda kuri buto ya `Rema ubusabe bwo gukurura`:
+
+![event](assets/55.webp)
+
+Urakoze cane! PR yawe yararemwe neza. Umuyobozi azoyisubiramwo, nimba vyose biri ku rutonde, ayishire mu bubiko nyamukuru bwa Plan ₿ Academy. Ushobora kubona BET yawe iboneka ku rubuga haciye imisi mikeyi.
+
+
+Raba neza ko ukurikirana ingene PR yawe itera imbere. Umuyobozi ashobora gusiga amajambo asaba ibindi bisobanuro. Igihe cose PR yawe itaremejwe, ushobora kuyibona mu gice c'ibisabwa ku bubiko bwa Plan ₿ Academy GitHub:
+
+![event](assets/56.webp)
+
+Murakoze cane ku ntererano y’agaciro mwatanze! :)

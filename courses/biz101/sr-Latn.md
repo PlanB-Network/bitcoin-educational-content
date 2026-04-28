@@ -33,8 +33,6 @@ Bilo da predstavljate malo preduzeće ili veliku korporaciju, ovaj kurs ima za c
 
 Spremni da zaronite u svet Bitcoina za preduzeća? Idemo!
 
-**Napomena**: Ako tokom kursa naiđete na nepoznate termine, molimo vas da pogledate [glosar](https://planb.academy/resources/glossary) za definicije.
-
 # Valuta, platni sistemi i Bitkoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>
@@ -65,20 +63,20 @@ Dobra valuta poseduje nekoliko suštinskih osobina koje je čine efikasnom za ol
 
 
 - **Sigurnost**: Valuta mora biti zaštićena od krađe ili neovlašćenog pristupa, osiguravajući da korisnici mogu držati i prenositi je sa poverenjem. Sigurnost je ključna za izgradnju poverenja u sistem.
-- **Otpornost na falsifikovanje**: Valuta mora biti izuzetno teška ili nemoguća za falsifikovanje. Ovo osigurava da je svaka jedinica autentična, održava svoju vrednost i sprečava inflaciju uzrokovanu ulaskom lažnih jedinica u cirkulaciju. Na primer, istorijski gledano, zlato je bilo cenjeno ne samo zbog svoje lepote i retkosti, već i zato što je izuzetno teško za proizvodnju. Za razliku od papirnih novčanica ili digitalnih unosa, zlato se ne možete jednostavno "napraviti"—mora se iskopati iz zemlje. Ova prirodna oskudica i težina proizvodnje pomogli su zlatu da održi svoj status kao pouzdano sredstvo čuvanja vrednosti i merilo autentičnosti.
-- **Oskudnost** Osnovna karakteristika dobre valute je njena ograničena ponuda ili kontrolisana emisija. Oskudnost osigurava da se njena vrednost očuva tokom vremena, sprečavajući prekomernu proizvodnju koja bi umanjila kupovnu moć. Na primer, određena plemena američkih domorodaca koristila su perle kao oblik valute. U početku, ove perle su bile teške za proizvesti, održavajući njihovu oskudnost i vrednost. Međutim, kada su evropski trgovci počeli masovno da proizvode i preplavljuju tržište perlama, njihova retkost je nestala. Kako je ponuda naglo porasla, perle su izgubile svoju kupovnu moć, potkopavajući njihovu ulogu kao pouzdanog sredstva očuvanja vrednosti.
+- **Otpornost na falsifikovanje**: Valuta mora biti izuzetno teška ili nemoguća za falsifikovanje. Ovo osigurava da je svaka jedinica autentična, održava svoju vrednost i sprečava [inflaciju](https://planb.academy/resources/glossary/inflation) uzrokovanu ulaskom lažnih jedinica u cirkulaciju. Na primer, istorijski gledano, zlato je bilo cenjeno ne samo zbog svoje lepote i retkosti, već i zato što je izuzetno teško za proizvodnju. Za razliku od papirnih novčanica ili digitalnih unosa, zlato se ne možete jednostavno "napraviti"—mora se iskopati iz zemlje. Ova prirodna oskudica i težina proizvodnje pomogli su zlatu da održi svoj status kao pouzdano sredstvo čuvanja vrednosti i merilo autentičnosti.
+- **Oskudnost** Osnovna karakteristika dobre valute je njena ograničena ponuda ili [kontrolisana emisija](https://planb.academy/resources/glossary/limite-demission). Oskudnost osigurava da se njena vrednost očuva tokom vremena, sprečavajući prekomernu proizvodnju koja bi umanjila kupovnu moć. Na primer, određena plemena američkih domorodaca koristila su perle kao oblik valute. U početku, ove perle su bile teške za proizvesti, održavajući njihovu oskudnost i vrednost. Međutim, kada su evropski trgovci počeli masovno da proizvode i preplavljuju tržište perlama, njihova retkost je nestala. Kako je ponuda naglo porasla, perle su izgubile svoju kupovnu moć, potkopavajući njihovu ulogu kao pouzdanog sredstva očuvanja vrednosti.
 - **Bez dozvole**: U prošlosti su valute poput zlatnih i srebrnih novčića često kovane od strane privatnih pojedinaca, lokalnih vlasti ili trgovaca koji su imali pristup sirovinama. Ovaj sistem je ponekad funkcionisao pod sporazumima ili licencama koje su izdavali kraljevi ili vladari. Vremenom su kraljevi i vlade centralizovali ovaj proces kako bi dobili veću kontrolu nad ekonomskom stabilnošću, oporezivanjem i monetarnim sistemom. Jedan poznati primer je **talir**, srebrni novčić prvi put kovan 1518. godine u **Joachimsthal dolini** (današnji Jáchymov u Češkoj) od strane lokalnih rudara i vlasti. Ime "talir" potiče od nemačke reči **"Thal"** što znači "dolina." Ovi novčići, poznati po visokom kvalitetu srebra, postali su široko rasprostranjeni širom Evrope. Vremenom je termin lingvistički i geografski evoluirao, na kraju dovodeći do naziva "dolar," koji je usvojen u Sjedinjenim Američkim Držav
 
 U modernoj eri, valute su postale potpuno dozvoljene pod sistemom seigniorage, što znači da samo ovlašćeni entiteti—kao što su centralne banke ili trezori—mogu kovati novčiće ili štampati novčanice. Pojedincima više nije zakonski dozvoljeno da proizvode valutu, čime se osigurava centralizovana kontrola nad njenim izdavanjem i ponudom.
 
-Danas, princip seigniorage je izazvan od strane Bitkoin kriptovalute, koja funkcioniše bez centralizovane kontrole. Bitkoin je sistem "bez dozvole" gde svako može učestvovati u korišćenju valute bez traženja dozvole, i, kroz rudarenje, u njenom stvaranju. Ova decentralizacija uklanja monopol izdavanja od vlada, postavljajući pitanja o potencijalnom povratku na konkurentne valutne sisteme slobodnog tržišta.
+Danas, princip seigniorage je izazvan od strane Bitkoin [kriptovalute](https://planb.academy/resources/glossary/cryptocurrency), koja funkcioniše bez centralizovane kontrole. Bitkoin je sistem "bez dozvole" gde svako može učestvovati u korišćenju valute bez traženja dozvole, i, kroz [rudarenje](https://planb.academy/resources/glossary/mining), u njenom stvaranju. Ova decentralizacija uklanja monopol izdavanja od vlada, postavljajući pitanja o potencijalnom povratku na konkurentne valutne sisteme slobodnog tržišta.
 
 
 - **Jedinica obračuna**: Valuta treba da obezbedi standardnu meru za poređenje vrednosti robe i usluga. Ovo pojednostavljuje trgovinu i čini cene transparentnim i doslednim kroz transakcije.
 - **Trajnost**: Valuta mora izdržati habanje tokom vremena. Fizičke valute, poput kovanica ili novčanica, treba da budu otporne na oštećenja, dok digitalne valute moraju biti sigurno pohranjene bez rizika od gubitka podataka.
 - **Prenosivost**: Valuta mora biti laka za prenošenje i korišćenje, omogućavajući trgovinu na daljinu. Ovo se može postići fizičkom prenosivošću (lagani novčići ili novčanice) ili digitalnim sistemima prenosa.
 - **Deljivost**: Valuta treba da bude deljiva na manje jedinice kako bi se olakšale transakcije različitih veličina. Ova fleksibilnost osigurava da je praktična i za male kupovine i za trgovinu velikih razmera.
-- **Zamenljivost**: Sve jedinice valute moraju biti zamenljive i jednake vrednosti. Na primer, jedna novčanica od jednog dolara mora biti ekvivalentna bilo kojoj drugoj novčanici od jednog dolara. Ova uniformnost osigurava pravičnost i jednostavnost u transakcijama.
+- **Zamenljivost**: Sve jedinice valute moraju biti [zamenljive](https://planb.academy/resources/glossary/fungibility) i jednake vrednosti. Na primer, jedna novčanica od jednog dolara mora biti ekvivalentna bilo kojoj drugoj novčanici od jednog dolara. Ova uniformnost osigurava pravičnost i jednostavnost u transakcijama.
 - **Prepoznatljivost**: Valuta mora biti lako prepoznatljiva i pouzdana. Fizičke valute to postižu kroz jedinstvene dizajne i sigurnosne karakteristike, dok se digitalne valute mogu osloniti na verifikacione protokole. Ovo osigurava široko prihvatanje i smanjuje rizik od prevare.
 
 Ove karakteristike čine valutu praktičnom, pouzdanom i efikasnom za olakšavanje trgovine i čuvanje vrednosti u ekonomiji.
@@ -101,9 +99,9 @@ Ove moderne mreže valuta došle su sa značajnim nedostatkom: **nedostatak revi
 
 **Od centralizovane ka decentralizovanoj valuti: Unapređenje poverenja i suvereniteta**
 
-Danas, pojava decentralizovane valute Bitkoin predstavlja sledeći skok u mrežama valuta. Tradicionalni elektronski novac oslanja se na centralizovane autoritete, kao što su banke ili vlade, za upravljanje i verifikaciju transakcija. Iako efikasni, ovi sistemi su podložni neefikasnostima, cenzuri i tačkama pojedinačnog neuspeha. Decentralizovane valute poboljšavaju ove mrežne osobine **distribucijom poverenja i uklanjanjem posrednika**. To takođe znači da novac može da se kreće mnogo **brže** i **jeftinije**, jer nema koraka autorizacije. Na kraju, nijedan čovek ne može biti u iskušenju da promeni Bitkoin ponudu, jer je to programirano softverom.
+Danas, pojava decentralizovane valute Bitkoin predstavlja sledeći skok u mrežama valuta. Tradicionalni elektronski novac oslanja se na centralizovane autoritete, kao što su banke ili vlade, za upravljanje i verifikaciju transakcija. Iako efikasni, ovi sistemi su podložni neefikasnostima, cenzuri i [tačkama pojedinačnog neuspeha](https://planb.academy/resources/glossary/spof). Decentralizovane valute poboljšavaju ove mrežne osobine **[distribucijom](https://planb.academy/resources/glossary/distributed) poverenja i uklanjanjem posrednika**. To takođe znači da novac može da se kreće mnogo **brže** i **jeftinije**, jer nema koraka autorizacije. Na kraju, nijedan čovek ne može biti u iskušenju da promeni Bitkoin ponudu, jer je to programirano softverom.
 
-U decentralizovanim sistemima, transakcije se verifikuju od strane globalne mreže učesnika koristeći Blockchain tehnologiju, što osigurava sigurnost, transparentnost i otpornost. Ova struktura minimizira rizik od prevare, smanjuje zavisnost od centralnih autoriteta i omogućava pojedincima da imaju veću kontrolu nad svojim finansijama. Eliminisanjem geografskih i institucionalnih barijera, decentralizovane valute nude zaista globalni i inkluzivni monetarni sistem.
+U decentralizovanim sistemima, transakcije se verifikuju od strane globalne mreže učesnika koristeći [Blockchain](https://planb.academy/resources/glossary/blockchain) tehnologiju, što osigurava sigurnost, transparentnost i otpornost. Ova struktura minimizira rizik od prevare, smanjuje zavisnost od centralnih autoriteta i omogućava pojedincima da imaju veću kontrolu nad svojim finansijama. Eliminisanjem geografskih i institucionalnih barijera, decentralizovane valute nude zaista globalni i inkluzivni monetarni sistem.
 
 **Evolucija valutnih mreža**
 
@@ -189,14 +187,14 @@ Baš kao što smo prešli sa plaćanja po minuti za glasovne pozive na korišće
 
 **ŠTA JE BITKOIN?**
 
-Bitkoin je **peer-to-peer sistem plaćanja baziran na digitalnoj valuti** (elektronski novac). Termin "Bitkoin" odnosi se na sledeće komponente:
+Bitkoin je **[peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) sistem plaćanja baziran na digitalnoj valuti** (elektronski novac). Termin "Bitkoin" odnosi se na sledeće komponente:
 
 
-- **Kompjuterski protokol** koji omogućava razmenu vrednosti na internetu bez posrednika, bez potrebe za dozvolom i pod pseudonimom. Koristi napredne kriptografske principe.
-- **Fizička mreža** mašina povezanih na internet (čvorovi, rudari, itd.) kojima upravljaju pojedinci i preduzeća, formirajući decentralizovani sistem (bez centralnog autoriteta ili jedne tačke kontrole).
-- **Jedinica obračuna** unutar sistema. Nikada neće biti više od 21 milion bitkoina u opticaju. Svaki bitkoin je deljiv na 100 miliona jedinica nazvanih „satoši“, u čast njegovog anonimnog tvorca.
+- **Kompjuterski protokol** koji omogućava razmenu vrednosti na internetu bez posrednika, bez potrebe za dozvolom i pod pseudonimom. Koristi napredne [kriptografske](https://planb.academy/resources/glossary/cryptography) principe.
+- **Fizička mreža** mašina povezanih na internet ([čvorovi](https://planb.academy/resources/glossary/node), [rudari](https://planb.academy/resources/glossary/miner), itd.) kojima upravljaju pojedinci i preduzeća, formirajući decentralizovani sistem (bez centralnog autoriteta ili jedne tačke kontrole).
+- **Jedinica obračuna** unutar sistema. Nikada neće biti više od 21 milion bitkoina u opticaju. Svaki bitkoin je deljiv na 100 miliona jedinica nazvanih „[satoši](https://planb.academy/resources/glossary/satoshi-sat)“, u čast njegovog anonimnog tvorca.
 
-Zajedno čine Bitkoin **imovinom na donosioca** i digitalnom valutom **bez izdavaoca**. Vlasništvo je osigurano isključivo držanjem **privatnog kriptografskog ključa**, što omogućava potpunu kontrolu **bez posrednika ili pouzdanih trećih strana**. Kada se prenese, vlasništvo je **konačno**: novi vlasnik ga u potpunosti poseduje bez oslanjanja na centralni autoritet za zaštitu ili konvertibilnost. Transakcije su **nepromenljive**—jednom zabeležene na Blockchain-u, ne mogu se izmeniti ili obrisati.
+Zajedno čine Bitkoin **imovinom na donosioca** i digitalnom valutom **bez izdavaoca**. Vlasništvo je osigurano isključivo držanjem **[privatnog kriptografskog ključa](https://planb.academy/resources/glossary/private-key)**, što omogućava potpunu kontrolu **bez posrednika ili pouzdanih trećih strana**. Kada se prenese, vlasništvo je **konačno**: novi vlasnik ga u potpunosti poseduje bez oslanjanja na centralni autoritet za zaštitu ili konvertibilnost. [Transakcije](https://planb.academy/resources/glossary/transaction-tx) su **nepromenljive**—jednom zabeležene na Blockchain-u, ne mogu se izmeniti ili obrisati.
 
 ![BIZ101](assets/sr-Latn/003.webp)
 
@@ -206,7 +204,7 @@ Njegove tehničke karakteristike nadmašuju one od zlata i dolara zajedno, čine
 
 ![BIZ101](assets/sr-Latn/004.webp)
 
-Bitkoin efikasno čuva vrednost jer je njegova knjiga nepromenljiva. Njegova vrednost raste zbog retke i ograničene ponude u kombinaciji sa sve većim brojem mogućnosti razmene, podstaknutih rastućim brojem korisnika.
+Bitkoin efikasno čuva vrednost jer je njegova [knjiga](https://planb.academy/resources/glossary/ledger) nepromenljiva. Njegova vrednost raste zbog retke i ograničene ponude u kombinaciji sa sve većim brojem mogućnosti razmene, podstaknutih rastućim brojem korisnika.
 
 Bitkoin je disruptivan jer nas podstiče da učimo koncepte iz matematike, kriptografije, ekonomije i istorije koje nikada nismo učili. Iako se često doživljava kao složen, zapravo je inovacija dostupna kroz praksu i eksperimentisanje.
 
@@ -217,7 +215,7 @@ Bitkoin nas izaziva da preispitamo samu prirodu novca. Možete li objasniti šta
 
 - **Starost:** 15 godina (3. januar 2009.)
 - **Dnevna vrednost razmene:** $10 milijardi (> CAC40)
-- **Tržišna kapitalizacija:** $1.8 triliona (> Meta, Visa, Silver ; < Apple, Google, Gold)
+- **[Tržišna kapitalizacija](https://planb.academy/resources/glossary/market-cap-capitalization):** $1.8 triliona (> Meta, Visa, Silver ; < Apple, Google, Gold)
 - **Korisnici:** ~100 do 200 miliona (1-2% globalne populacije)
 - **Volatilnost:** Intrinzično nema (1 Bitkoin = 1 Bitkoin), veoma visoka eksterno (u razmenama fiat valuta)
 - **Performanse:** Prva transakcija na $0.0009; sada $100,000 (x100 miliona)
@@ -227,14 +225,14 @@ Bitkoin nas izaziva da preispitamo samu prirodu novca. Možete li objasniti šta
 **Čudo ljudske saradnje:**
 
 
-- Potpuno **open-source (otvorenog koda)** 
+- Potpuno **[open-source (otvorenog koda)](https://planb.academy/resources/glossary/foss)** 
 - **Pravno lice:** Nema
 - **CEO:** Nema
 - **Investicije rizičnog kapitala:** Nema
 - **Marketing:** Nema
 - **Istraživanje i razvoj:** Vođeno volonterima
 - **Upravljanje:** Od strane korisnika
-- **Inovativni ekonomski model:** Kreiranje blokova se subvencioniše transakcionim naknadama (zasnovano na aukciji)
+- **Inovativni ekonomski model:** Kreiranje blokova se [subvencioniše](https://planb.academy/resources/glossary/block-subsidy) [transakcionim naknadama](https://planb.academy/resources/glossary/transaction-fees) (zasnovano na aukciji)
 
 Za više informacija o Bitkoinu, njegovoj istoriji, načinu rada i upotrebi, takođe predlažem da pratite ovaj drugi sveobuhvatni kurs:
 
@@ -245,18 +243,18 @@ https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 **ŠTA JE LIGHTNING?**
 
-Lightning Mreža je **protokol i mreža** koja omogućava Bitkoin transakcije uz minimalnu interakciju sa glavnim Blockchain-om Bitkoina. Evo kako funkcioniše:
+[Lightning Mreža](https://planb.academy/resources/glossary/lightning-network) je **protokol i mreža** koja omogućava Bitkoin transakcije uz minimalnu interakciju sa glavnim Blockchain-om Bitkoina. Evo kako funkcioniše:
 
 
-- **Početno podešavanje:** Sredstva se zaključavaju (deponuju) na glavnom Blockchain-u kako bi se uspostavio kanal plaćanja između 2 strane.
+- **Početno podešavanje:** Sredstva se zaključavaju (deponuju) na glavnom Blockchain-u kako bi se uspostavio [kanal plaćanja](https://planb.academy/resources/glossary/payment-channel) između 2 strane.
 - **Mreža plaćanja:** Mreža kanala plaćanja između više strana formira mrežu plaćanja (usmeravanje i međusobno povezivanje).
-- **off-chain transakcije -  (van blockchain-a):** Transakcije se odvijaju između strana, ali **nisu odmah objavljene** na glavnom Bitkoin Blockchain-u (**"off-chain"**).
-- **On-Chain poravnanja:** Samo **konačno stanje** transakcija kanala se objavljuje na glavnom Bitkoin Blockchain-u (**"On-Chain**"), omogućavajući da se u međuvremenu dogodi mnoštvo transakcija. Ovo grupisanje više uplata smanjuje zagušenje i time snižava naknade u poređenju sa obavljanjem mnogih On-Chain transakcija.
+- **[off-chain](https://planb.academy/resources/glossary/offchain) transakcije -  (van blockchain-a):** Transakcije se odvijaju između strana, ali **nisu odmah objavljene** na glavnom Bitkoin Blockchain-u (**"off-chain"**).
+- **[On-Chain](https://planb.academy/resources/glossary/onchain) poravnanja:** Samo **konačno stanje** transakcija kanala se objavljuje na glavnom Bitkoin Blockchain-u (**"On-Chain**"), omogućavajući da se u međuvremenu dogodi mnoštvo transakcija. Ovo grupisanje više uplata smanjuje zagušenje i time snižava naknade u poređenju sa obavljanjem mnogih On-Chain transakcija.
 - **Zatvaranje kanala:** Korisnik može zatvoriti svoj kanal u bilo kom trenutku i povratiti svoj bitkoin objavljivanjem najnovijeg stanja transakcije. Ovo je princip da transakcije mogu biti **"objavljene" u bilo kom trenutku, ali "neobjavljene"** dok ne postanu neophodne. Izlaz (zatvaranje kanala) može biti jednostran (odlučen od strane bilo koje od 2 strane u bilo kom trenutku) ili uzajamno dogovoren (što rezultira nižim On-Chain naknadama).
 
 ![BIZ101](assets/sr-Latn/005.webp)
 
-Ovaj pristup izbegava sporost i složenost obavljanja svake transakcije direktno na glavnom Blockchain-u Bitkoina, beležeći samo konačna stanja i zadržavajući njegovu sigurnost. Lightning Mreža je sloj "iznad" Bitkoina, ali ostaje usidren za njega.
+Ovaj pristup izbegava sporost i složenost obavljanja svake transakcije direktno na glavnom Blockchain-u Bitkoina, beležeći samo konačna stanja i zadržavajući njegovu sigurnost. Lightning Mreža je [sloj](https://planb.academy/resources/glossary/layer) "iznad" Bitkoina, ali ostaje usidren za njega.
 
 **Globalna Mreža Plaćanja**
 
@@ -360,7 +358,7 @@ U tradicionalnoj ekonomskoj teoriji (Kejnzijanskoj), kapital se često posmatra 
 
 6. Kulturne normalizacija antikapitalističke retorike?
 
-Srećom, Bitkoin nas primorava da preispitamo sve i izazovemo ove unapred stvorene predstave. Postoji škola mišljenja—Austrijska škola ekonomije—koja može rasvetliti ova pitanja i pomoći nam da preispitamo pravu prirodu kapitala.
+Srećom, Bitkoin nas primorava da preispitamo sve i izazovemo ove unapred stvorene predstave. Postoji škola mišljenja—[Austrijska škola ekonomije](https://planb.academy/resources/glossary/austrian-school)—koja može rasvetliti ova pitanja i pomoći nam da preispitamo pravu prirodu kapitala.
 
 **Jednom davno**
 
@@ -461,7 +459,7 @@ Hajde da brzo pregledamo okruženje u kojem posluju preduzeća.
 
 **Stvarna inflacija**: Na veliku žalost njihovog mandata, centralne banke ciljaju na 2% godišnju inflaciju, što znači gubitak od 40% vrednosti valute tokom 20 godina. Dodajući periode izraženije inflacije, postaje jasno da kompanije ne mogu koristiti samo valutu za čuvanje plodova svog rada. Moraju implementirati složene finansijske strategije, koje nužno prate različiti rizici. Ove strategije su očigledno **nedostupne vrlo malim preduzećima**, koja su već uveliko zauzeta svojim osnovnim aktivnostima.
 
-**Skrivena inflacija**: U monetarnom sistemu zasnovanom na dugu i frakcionalnim rezervama, koji podržavaju centralne banke, **ukupna novčana masa raste za oko 7% godišnje u proseku** (npr. M1 u Evrozoni ili SAD). To znači da se vaš “deo kolača” prepolovi za samo nekoliko godina—osim ako nemate privilegovan pristup finansijskom izvoru i možete nastaviti da rastete koristeći poluge i kupujući imovinu brzo po “starim cenama” pre nego što novo kreirani novac podigne njihove cene. Ovo je Kantilonov efekat, koji delimično objašnjava transfer bogatstva ka imućnijima, dok se “kapital” pogrešno okrivljuje kao krivac (pogledajte naš uvod o kapitalu iznad).
+**Skrivena inflacija**: U monetarnom sistemu zasnovanom na dugu i [frakcionalnim rezervama](https://planb.academy/resources/glossary/fractional-reserves), koji podržavaju centralne banke, **ukupna novčana masa raste za oko 7% godišnje u proseku** (npr. M1 u Evrozoni ili SAD). To znači da se vaš “deo kolača” prepolovi za samo nekoliko godina—osim ako nemate privilegovan pristup finansijskom izvoru i možete nastaviti da rastete koristeći poluge i kupujući imovinu brzo po “starim cenama” pre nego što novo kreirani novac podigne njihove cene. Ovo je Kantilonov efekat, koji delimično objašnjava transfer bogatstva ka imućnijima, dok se “kapital” pogrešno okrivljuje kao krivac (pogledajte naš uvod o kapitalu iznad).
 
 **Rizici druge ugovorne strane**: Trenutni finansijski sistem je rizičan, i možda nećete uvek imati pristup “vašem novcu.” Bez prizivanja slike kule od karata, mora se priznati da finansijske institucije privatizuju profite i socijalizuju gubitke pri najmanjoj krizi. U sistemu “skripturalnog” novca (novac zabeležen u knjigama), novac u banci je samo “potraživanje”; vi ga zapravo ne posedujete, a ni same banke “ga nemaju” (frakcionalne rezerve). Ovaj novac je, na neki način, zaista magičan. Neke prestižne banke koje su nekada ismevale Bitkoin danas više ne postoje, kao što je Credit Suisse.
 
@@ -527,7 +525,7 @@ Rastuće usvajanje Bitkoin u Sjedinjenim Državama takođe utiče na razmišljan
 
 Sa čisto finansijskog aspekta, Bitkoin je prepoznat kao imovina za diversifikaciju. Ne samo da nije povezan sa drugim klasama imovine, već izgleda da napreduje tokom perioda novih injekcija likvidnosti—još jedna takva epizoda izgleda da počinje sa snižavanjem kamatnih stopa od strane ECB, Fed-a i Kine.
 
-Ukratko, za najčešći slučaj upotrebe—ulaganje viška sredstava na najmanje četiri godine—Bitkoin savršeno odgovara. Vredi ga kombinovati sa strategijom postepenog ulaska: ulaganje fiksnih iznosa u redovnim intervalima kako bi se ublažila tačka ulaska ili izlaska.
+Ukratko, za najčešći slučaj upotrebe—ulaganje viška sredstava na najmanje četiri godine—Bitkoin savršeno odgovara. Vredi ga kombinovati sa [strategijom postepenog ulaska](https://planb.academy/resources/glossary/dollar-cost-averaging-dca): ulaganje fiksnih iznosa u redovnim intervalima kako bi se ublažila tačka ulaska ili izlaska.
 
 Drugi slučajevi upotrebe čine Bitkoin strateškom trezorskom aktivom, na primer:
 
@@ -539,7 +537,7 @@ Drugi slučajevi upotrebe čine Bitkoin strateškom trezorskom aktivom, na prime
 
 ### Da li je Bitkoin preskup?
 
-Ne morate kupiti tačno 1 bitkoin, jer je bitkoin deljiv na podjedinice zvane satoši, nazvane u čast njegovog anonimnog tvorca. Jedan bitkoin je jednak **100 miliona satošija**, što omogućava korisnicima da kupuju, prodaju ili trguju čak i **veoma malim delovima bitkoina**. Zapravo, unutar izvornog koda bitkoina, sve transakcije se obračunavaju u satošijima, a termin “bitkoin” se pojavljuje samo u “coinbase,” posebnoj transakciji koju rudari kreiraju da bi primili svoju nagradu.
+Ne morate kupiti tačno 1 bitkoin, jer je bitkoin deljiv na podjedinice zvane satoši, nazvane u čast njegovog anonimnog tvorca. Jedan bitkoin je jednak **100 miliona satošija**, što omogućava korisnicima da kupuju, prodaju ili trguju čak i **veoma malim delovima bitkoina**. Zapravo, unutar izvornog koda bitkoina, sve transakcije se obračunavaju u satošijima, a termin “bitkoin” se pojavljuje samo u “[coinbase](https://planb.academy/resources/glossary/coinbase-transaction),” posebnoj transakciji koju rudari kreiraju da bi primili svoju nagradu.
 
 Štaviše, ukupno 21 milion bitkoina—ili **2,1 kvadriliona satoshija**—može biti efikasno predstavljen 64-bitnim celim brojem. To znači da, uprkos visokoj ceni po bitkoinu, ostaje dostupan širokom spektru investitora zahvaljujući svojoj deljivosti. Stoga ne morate kupiti ceo bitkoin da biste učestvovali u mreži ili investirali u ovaj digitalni aset.
 
@@ -597,7 +595,7 @@ Da biste saznali više o metodama rudarenja, možete [pogledati "Mining" odeljak
 
 - **Kupovina bitkoina:**
 
-Ovo je daleko najčešći metod, koji se sprovodi ili putem peer-to-peer razmene ili, češće, na specijalizovanim platformama za trgovanje. Ali kada se bitkoin nabavlja kao korporativna trezorska imovina, kompanije moraju da se pridržavaju strogih regulatornih standarda i procedura Poznavanja Svog Klijenta (KYC-Know Your Customer). Kada ga kupuju na specijalizovanim platformama za trgovanje, od preduzeća se obično zahteva da dostave detaljne informacije o kompaniji, uključujući identifikaciona dokumenta, finansijske izveštaje i dokaz o adresi, kako bi zadovoljili KYC i zahteve za sprečavanje pranja novca (AML-anti-money laundering).
+Ovo je daleko najčešći metod, koji se sprovodi ili putem peer-to-peer razmene ili, češće, na specijalizovanim platformama za trgovanje. Ali kada se bitkoin nabavlja kao korporativna trezorska imovina, kompanije moraju da se pridržavaju strogih regulatornih standarda i procedura Poznavanja Svog Klijenta ([KYC](https://planb.academy/resources/glossary/kyc-know-your-customer)-Know Your Customer). Kada ga kupuju na specijalizovanim platformama za trgovanje, od preduzeća se obično zahteva da dostave detaljne informacije o kompaniji, uključujući identifikaciona dokumenta, finansijske izveštaje i dokaz o adresi, kako bi zadovoljili KYC i zahteve za sprečavanje pranja novca (AML-anti-money laundering).
 
 Da biste naučili kako da otvorite poslovni račun i koristite ga za kupovinu, prodaju i transfer bitkoina, možete pogledati ova dva vodiča posebno dizajnirana za preduzeća, koja pokrivaju platforme Kraken i Bitfinex u njihovim korporativnim verzijama:
 
@@ -637,7 +635,7 @@ Industrija nekretnina često ponavlja da je „uvek pravo vreme za kupovinu“, 
 
 Ne posedujete fizički bitkoin. Umesto toga, imate kriptografski ključ koji vam omogućava da prenesete vlasništvo nekih ili svih vaših jedinica računa na jedan ili više drugih kriptografskih ključeva. Sve se ovo dešava na Bitkoin Blockchain-u, koji je repliciran na desetinama hiljada čvorova širom sveta.
 
-Ovaj kriptografski ključ je izuzetno veliki nasumični broj. Da bi se pojednostavilo korisničko iskustvo, često se predstavlja kao niz od 12 ili 24 reči. Ove reči mogu biti učitane na fizički uređaj poznat kao "Hardverski novčanik (Hardware Wallet)". Međutim, treba razumeti da bitkoini nisu "unutar" ovog uređaja; on je jednostavno alat za kriptografsko potpisivanje transakcija i njihovo emitovanje na mrežu. Ono što je zaista važno su tih 12 ili 24 reči, koje moraju biti čuvane na sigurnom.
+Ovaj kriptografski ključ je izuzetno veliki nasumični broj. Da bi se pojednostavilo korisničko iskustvo, često se predstavlja kao niz od 12 ili 24 reči. Ove reči mogu biti učitane na fizički uređaj poznat kao "Hardverski novčanik ([Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet))". Međutim, treba razumeti da bitkoini nisu "unutar" ovog uređaja; on je jednostavno alat za kriptografsko potpisivanje transakcija i njihovo emitovanje na mrežu. Ono što je zaista važno su tih 12 ili 24 reči, koje moraju biti čuvane na sigurnom.
 
 Ovo dovodi do pitanja starateljstva: držanje Bitkoin znači držanje ključa(čeva). Ili ih držite sami, ili zadatak delegirate trećoj strani. Postoje i međurešenja. Hajde da pregledamo najčešće scenarije:
 
@@ -658,7 +656,7 @@ Ovo su tradicionalni finansijski instrumenti koji predstavljaju delove bitkoina,
 
 ![BIZ101](assets/sr-Latn/014.webp)
 
-Pored toga, oblik u kojem držite Bitkoin značajno utiče na mere bezbednosti potrebne za zaštitu vašeg korporativnog trezora. Bilo da se odlučite za samostalno čuvanje, koristeći hardverske novčanike sa jednim ili više potpisa, itd. kako biste zadržali direktnu kontrolu nad vašim ključevima, ili delegirate ovaj zadatak uslugama trećih strana ili ETF-ovima, svaka opcija nosi svoj profil rizika. Na primer, samostalno čuvanje nudi pun pristup, ali zahteva rigorozne interne bezbednosne protokole, dok rešenja trećih strana smanjuju teret upravljanja na račun rizika od druge strane. Da bi se dodatno ilustrovale razlike, ovaj grafikon prikazuje model bezbednosti za svaki tip čuvanja, pomažući vam da odaberete pristup koji najbolje odgovara potrebama vaše organizacije :
+Pored toga, oblik u kojem držite Bitkoin značajno utiče na mere bezbednosti potrebne za zaštitu vašeg korporativnog trezora. Bilo da se odlučite za [samostalno čuvanje](https://planb.academy/resources/glossary/selfcustody), koristeći hardverske novčanike sa jednim ili [više potpisa](https://planb.academy/resources/glossary/multisig), itd. kako biste zadržali direktnu kontrolu nad vašim ključevima, ili delegirate ovaj zadatak uslugama trećih strana ili ETF-ovima, svaka opcija nosi svoj profil rizika. Na primer, samostalno čuvanje nudi pun pristup, ali zahteva rigorozne interne bezbednosne protokole, dok rešenja trećih strana smanjuju teret upravljanja na račun rizika od druge strane. Da bi se dodatno ilustrovale razlike, ovaj grafikon prikazuje model bezbednosti za svaki tip čuvanja, pomažući vam da odaberete pristup koji najbolje odgovara potrebama vaše organizacije :
 
 ![BIZ101](assets/sr-Latn/015.webp)
 
@@ -832,7 +830,7 @@ U narednim poglavljima, detaljno ćemo opisati svaki poslovni profil i rešenja 
 
 <chapterId>7edda53d-5b9f-432a-8493-115de8c94a67</chapterId>
 
-Profil Početnik je dizajniran za preduzeća, kreatore i pojedince koji žele da istraže Bitkoin plaćanja bez ulaganja značajnih resursa ili stručnosti. To su obično oni koji obrađuju vrlo mali obim transakcija (možda nekoliko napojnica, donacija ili povremenih prodaja) i traže jednostavan, lagan uvod u Bitkoin i ekosistem Lightning mreže. Ključna vrednost pristupa Početnika leži u minimalnom podešavanju: u većini slučajeva, sve što je potrebno je pametni telefon ili tablet opremljen osnovnim Lightning-kompatibilnim novčanikom.
+Profil Početnik je dizajniran za preduzeća, kreatore i pojedince koji žele da istraže Bitkoin plaćanja bez ulaganja značajnih resursa ili stručnosti. To su obično oni koji obrađuju vrlo mali obim transakcija (možda nekoliko napojnica, donacija ili povremenih prodaja) i traže jednostavan, lagan uvod u Bitkoin i ekosistem Lightning mreže. Ključna vrednost pristupa Početnika leži u minimalnom podešavanju: u većini slučajeva, sve što je potrebno je pametni telefon ili tablet opremljen osnovnim Lightning-kompatibilnim [novčanikom](https://planb.academy/resources/glossary/wallet).
 
 ![BIZ101-profiles](assets/sr-Latn/017.webp)
 
@@ -842,7 +840,7 @@ Dve najčešće postavke novčanika za profil Početnika uključuju odlučivanje
 
 ![BIZ101-profiles](assets/sr-Latn/018.webp)
 
-Iako se bezbednosni problemi mogu činiti manje hitnim kada su transakcije male, ipak je ključno uspostaviti osnovne zaštitne mere. Čak i jedan pametni telefon ili tablet koji se koristi za primanje Bitkoin uplata treba da bude zaključan lozinkom ili biometrijskom sigurnošću, a procedure za pravljenje rezervnih kopija (od praćenja podataka za prijavljivanje za novčanik čije ključeve čuva treća strana do zaštite seed fraze za novčanike koje čuvate sami) moraju se shvatiti ozbiljno. Članovi osoblja koji rukuju transakcijama u fizičkom okruženju imali bi koristi od poznavanja osnova: kako otvoriti aplikaciju, kako predstaviti QR kod kupcu i kako proveriti da li je uplata zaista stigla.
+Iako se bezbednosni problemi mogu činiti manje hitnim kada su transakcije male, ipak je ključno uspostaviti osnovne zaštitne mere. Čak i jedan pametni telefon ili tablet koji se koristi za primanje Bitkoin uplata treba da bude zaključan lozinkom ili biometrijskom sigurnošću, a procedure za pravljenje rezervnih kopija (od praćenja podataka za prijavljivanje za novčanik čije ključeve čuva treća strana do zaštite [seed fraze](https://planb.academy/resources/glossary/recovery-phrase) za novčanike koje čuvate sami) moraju se shvatiti ozbiljno. Članovi osoblja koji rukuju transakcijama u fizičkom okruženju imali bi koristi od poznavanja osnova: kako otvoriti aplikaciju, kako predstaviti QR kod kupcu i kako proveriti da li je uplata zaista stigla.
 
 Računovodstvo i izveštavanje, iako relativno jednostavni pod Početničkim profilom, ipak zahtevaju pažljivo razmatranje. Iako obim transakcija može biti minimalan, zadržavanje tačnih zapisa sprečava zabunu kasnije i pomaže u održavanju transparentnosti u slučaju finansijskih revizija ili poreskih prijava. Mnoge aplikacije za novčanike omogućavaju korisnicima da izvoze osnovnu istoriju transakcija kao CSV fajl; za malo preduzeće ili pojedinačnog preduzetnika, redovno čuvanje ovih fajlova može znatno olakšati usklađivanje računa. Takođe je mudro pratiti približnu fiat vrednost (na primer, u evrima ili dolarima) u trenutku kada je svaka transakcija primljena. Pošto cena bitkoina može varirati, posedovanje zapisa o kursnim razlikama je neprocenjivo za knjigovodstvo i poresku usklađenost.
 
@@ -951,7 +949,7 @@ Na ovom nivou, sveobuhvatni cilj nije samo prihvatiti Bitkoin, već to učiniti 
 
 U okviru preduzeća, operativna složenost postaje posebno izražena. Velika korporacija može morati da prilagodi više odeljenja (prodaja, marketing, devops, finansije i računovodstvo) od kojih svako ima različite odgovornosti i zahteve za podacima. U ovom scenariju, Bitkoin platforma za plaćanje mora ponuditi veoma detaljno upravljanje ulogama, omogućavajući svakom odeljenju pristup tačno onim funkcijama koje su relevantne za njihove zadatke, uz očuvanje rigorozne kontrole nad bezbednošću i integritetom podataka. Jednako je bitna i sposobnost prilagođavanja tokova rada: na primer, dolazna plaćanja mogu pokrenuti ažuriranja u sistemima inventara, poslati automatske obaveštenja menadžerima prodaje i ažurirati Ledger unose za finansijski tim, sve u realnom vremenu. Uređaji na prodajnim mestima su često prilagođeni preduzetničkom okruženju, sa prilagođenim softverskim interfejsima koji odgovaraju brendiranju i operativnim potrebama kompanije.
 
-**Bezbednost** je od suštinskog značaja za preduzeća na nivou velikih korporacija. Veliki obim transakcija i potencijalno velike sume bitkoina zahtevaju robusnu infrastrukturu sposobnu da se brani od zlonamernih napada ili pretnji iznutra. Najbolje prakse često uključuju višestruki potpis sa vremenskim zaključavanjem trezorskih konfiguracija, pažljivo revidirane baze koda i strogo pridržavanje relevantnih regulatornih okvira. Štaviše, usklađenost sa lokalnim i međunarodnim finansijskim propisima može biti ključna za očuvanje reputacije korporacije i licence za rad.
+**Bezbednost** je od suštinskog značaja za preduzeća na nivou velikih korporacija. Veliki obim transakcija i potencijalno velike sume bitkoina zahtevaju robusnu infrastrukturu sposobnu da se brani od zlonamernih napada ili pretnji iznutra. Najbolje prakse često uključuju višestruki potpis sa [vremenskim zaključavanjem](https://planb.academy/resources/glossary/timelock) trezorskih konfiguracija, pažljivo revidirane baze koda i strogo pridržavanje relevantnih regulatornih okvira. Štaviše, usklađenost sa lokalnim i međunarodnim finansijskim propisima može biti ključna za očuvanje reputacije korporacije i licence za rad.
 
 **Prilagođeni razvoj** uključen u kreiranje ili integraciju Bitkoin rešenja za plaćanje na nivou preduzeća prevazilazi kodiranje nekoliko funkcija aplikacije. Obično zahteva arhitektonsko projektovanje, temeljne test protokole i strukturirano uvođenje koje može obuhvatiti više faza (početni pilot programi, ograničeni tržišni testovi i konačno globalno uvođenje).
 

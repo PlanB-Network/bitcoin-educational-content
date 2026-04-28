@@ -1,0 +1,8 @@
+question: Why do entrepreneurs misinterpret economic signals when central banks keep key interest rates artificially low?
+answer: They mistakenly believe that substantial real savings are available to finance future consumption, while consumption remains high
+wrong_answers:
+  - They underestimate consumer demand and invest insufficiently in short-term production sectors
+  - "They overestimate the risks of future inflation and shift their investments to less profitable but safer projects."
+  - "They expect interest rates to rise soon, and are accelerating their borrowing for low-value-added projects."
+explanation: |
+  According to Austrian theory, low interest rates create an illusion of capital availability, suggesting substantial savings for future consumption. In reality, these savings do not exist, and consumption remains high. Deceived by this false signal, entrepreneurs engage in production detours that are ill-adapted to consumers' true time preferences, creating the conditions for a false economic boom.

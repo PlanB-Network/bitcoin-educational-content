@@ -77,7 +77,7 @@ Siap untuk mengungkap mekanisme teknis di balik Lightning Network (Jaringan Ligh
 :::video id=4315a277-12fe-4946-bb49-a807e60c09a7:::
 
 
-Lightning Network (Jaringan Lightning) adalah jaringan saluran pembayaran yang dibangun di atas protokol Bitcoin, agar memungkinkan transaksi yang cepat dan dengan biaya rendah. Jaringan ini memungkinkan pembuatan saluran pembayaran antar peserta, di mana transaksi dapat dilakukan hampir secara instan dan dengan biaya minimal, tanpa perlu mencatat setiap transaksi secara individu di blockchain. Dengan demikian, Lightning Network (Jaringan Lightning) berupaya untuk meningkatkan skalabilitas Bitcoin dan membuatnya dapat digunakan untuk pembayaran bernilai kecil.
+[Lightning Network](https://planb.academy/resources/glossary/lightning-network) (Jaringan Lightning) adalah jaringan [saluran pembayaran](https://planb.academy/resources/glossary/payment-channel) yang dibangun di atas protokol Bitcoin, agar memungkinkan transaksi yang cepat dan dengan biaya rendah. Jaringan ini memungkinkan pembuatan saluran pembayaran antar peserta, di mana transaksi dapat dilakukan hampir secara instan dan dengan biaya minimal, tanpa perlu mencatat setiap transaksi secara individu di [blockchain](https://planb.academy/resources/glossary/blockchain). Dengan demikian, Lightning Network (Jaringan Lightning) berupaya untuk meningkatkan [skalabilitas](https://planb.academy/resources/glossary/scalability) Bitcoin dan membuatnya dapat digunakan untuk pembayaran bernilai kecil.
 
 Sebelum membahas terkait "jaringan", penting untuk memahami konsep **saluran pembayaran** di Lightning, bagaimana cara kerjanya, dan spesifikasinya. Ini adalah fokus pembahasan pada bab pertama ini.
 
@@ -87,7 +87,7 @@ Saluran pembayaran memungkinkan dua pihak, sebagai contoh **Alice** dan **Bob**,
 
 ![LNP201](assets/en/001.webp)
 
-Dalam contoh ini, Alice memiliki 100.000 satoshi, dan Bob memiliki 30.000, dengan total 130.000 satoshi, yang akan menjadi **kapasitas saluran**.
+Dalam contoh ini, Alice memiliki 100.000 [satoshi](https://planb.academy/resources/glossary/satoshi-sat), dan Bob memiliki 30.000, dengan total 130.000 satoshi, yang akan menjadi **[kapasitas saluran](https://planb.academy/resources/glossary/lightning-channel-capacity)**.
 
 **Tapi apa itu satoshi?**
 
@@ -135,7 +135,7 @@ Bab ini cukup istimewa karena tidak secara langsung didedikasikan untuk Lightnin
 
 ### Bitcoin Address, Kunci Privat, dan Kunci Publik
 
-Address (alamat) Bitcoin adalah serangkaian karakter yang berasal dari **public key (kunci publik)**, yang dihasilkan dari perhitungan **private key (kunci privat)**. Seperti yang Anda tahu, address (alamat) digunakan untuk mengunci bitcoin, yang artinya saat seseorang mengirim bitcoin ke address (alamat) kita, maka bitcoin tersebut terasosiasi dengan alamat dompet kita.
+Address (alamat) Bitcoin adalah serangkaian karakter yang berasal dari **[public key (kunci publik)](https://planb.academy/resources/glossary/public-key)**, yang dihasilkan dari perhitungan **[private key (kunci privat)](https://planb.academy/resources/glossary/private-key)**. Seperti yang Anda tahu, address (alamat) digunakan untuk mengunci bitcoin, yang artinya saat seseorang mengirim bitcoin ke address (alamat) kita, maka bitcoin tersebut terasosiasi dengan alamat dompet kita.
 
 Private key (kunci privat) adalah elemen rahasia yang **tidak boleh dibagikan**, sementara public key (kunci publik) dan address (alamat) dapat dibagikan tanpa risiko keamanan (namun membagikan public key (kunci publik) dan address (alamat) tetap dapat membahayakan data pribadi Anda). Berikut adalah gambar yang akan kita gunakan sepanjang pelatihan ini:
 
@@ -145,15 +145,15 @@ Private key (kunci privat) adalah elemen rahasia yang **tidak boleh dibagikan**,
 
 ### Transaksi Bitcoin: Mengirim Dana dan Skrip
 
-Di Bitcoin, sebuah transaksi melibatkan pengiriman dana dari satu alamat ke alamat lain. Sebagai contoh Alice mengirim 0.002 Bitcoin ke Bob. Alice menggunakan private key (kunci privat) alamatnya (address) untuk **menandatangani** transaksi, sehingga membuktikan bahwa dia memang dapat menggunakan dana tersebut. Tapi apa sebenarnya yang terjadi di balik transaksi ini? Dana pada address (alamat) Bitcoin dikunci oleh **skrip**, semacam program kecil yang menetapkan kondisi tertentu untuk menggunakan dana tersebut.
+Di Bitcoin, sebuah transaksi melibatkan pengiriman dana dari satu alamat ke alamat lain. Sebagai contoh Alice mengirim 0.002 Bitcoin ke Bob. Alice menggunakan private key (kunci privat) alamatnya (address) untuk **menandatangani** transaksi, sehingga membuktikan bahwa dia memang dapat menggunakan dana tersebut. Tapi apa sebenarnya yang terjadi di balik transaksi ini? Dana pada address (alamat) Bitcoin dikunci oleh **[skrip](https://planb.academy/resources/glossary/script)**, semacam program kecil yang menetapkan kondisi tertentu untuk menggunakan dana tersebut.
 
-Skrip yang paling umum memerlukan tanda tangan dengan private key (kunci privat) yang dimiliki oleh address (alamat) tersebut. Ketika Alice menandatangani transaksi dengan private key (kunci privat) miliknya, Alice **membuka skrip** yang mengunci dana tersebut, sehingga dana tersebut dapat ditransfer. Transfer dana tersebut melibatkan penambahan skrip baru pada dana ini, sehingga untuk menggunakan dana ini, tanda tangan private key (kunci privat) **Bob** yang akan diperlukan.
+Skrip yang paling umum memerlukan [tanda tangan](https://planb.academy/resources/glossary/digital-signature) dengan private key (kunci privat) yang dimiliki oleh address (alamat) tersebut. Ketika Alice menandatangani transaksi dengan private key (kunci privat) miliknya, Alice **membuka skrip** yang mengunci dana tersebut, sehingga dana tersebut dapat ditransfer. Transfer dana tersebut melibatkan penambahan skrip baru pada dana ini, sehingga untuk menggunakan dana ini, tanda tangan private key (kunci privat) **Bob** yang akan diperlukan.
 
 ![LNP201](assets/en/005.webp)
 
 ### UTXOs: Unspent Transaction Outputs
 
-Di Bitcoin, apa yang sebenarnya kita tukarkan bukanlah bitcoin secara langsung, melainkan **[UTXO](https://planb.academy/resources/glossary/utxo)s** (_Unspent Transaction Outputs_), yang berarti "output transaksi yang belum digunakan".
+Di Bitcoin, apa yang sebenarnya kita tukarkan bukanlah bitcoin secara langsung, melainkan **UTXOs** (_Unspent Transaction Outputs_), yang berarti "output transaksi yang belum digunakan".
 
 UTXO adalah sepotong bitcoin yang bisa bernilai berapa saja, misalnya, **2.000 bitcoin**, **8 bitcoin**, atau bahkan **8.000 sats**. Setiap UTXO dikunci oleh skrip, dan untuk menggunakan UTXO tersebut, harus memenuhi kondisi skrip, biasanya berupa sebuah tanda tangan dengan private key (kunci privat) yang sesuai dengan address (alamat) penerima UTXO tersebut.
 
@@ -183,7 +183,7 @@ Tipe alamat ini secara tepat merupakan representasi di blockchain Bitcoin dari s
 - **Bitcoin address (alamat)** berasal dari public key (kunci publik), yang asalnya dari private key (kunci privat).
 - Dana pada Bitcoin dikunci oleh **skrip**, dan untuk bisa menggunakan dana tersebut, maka harus memenuhi kondisi skrip, yang umumnya memerlukan tanda tangan dengan private key (kunci privat) yang sesuai.
 - **UTXOs** adalah bagian-bagian bitcoin yang dikunci oleh skrip, dan setiap transaksi Bitcoin terdiri dari membuka kunci UTXO dan kemudian menciptakan satu atau lebih UTXO baru yang juga terkunci sebagai gantinya.
-- **2/2 multi-signature address (alamat multi-tanda tangan 2/2)** memerlukan dua tanda tangan dari private key (kunci privat) untuk bisa menggunakan dana di dalamnya. Address (alamat) spesifik ini digunakan dalam konteks Lightning untuk membuat [payment channel](https://planb.academy/resources/glossary/payment-channel) (saluran pembayaran).
+- **2/2 multi-signature address (alamat multi-tanda tangan 2/2)** memerlukan dua tanda tangan dari private key (kunci privat) untuk bisa menggunakan dana di dalamnya. Address (alamat) spesifik ini digunakan dalam konteks Lightning untuk membuat payment channel (saluran pembayaran).
 
 Bab tentang Bitcoin ini mempersiapkan kita agar dapat memahami beberapa konsep penting untuk pembahasan berikutnya. Dalam bab selanjutnya, kita akan secara khusus membahas bagaimana cara pembukaan channel (saluran) pada Lightning Network (Jaringan Lightning).
 
@@ -209,9 +209,9 @@ Seperti yang kita lihat di bab pertama, **payment channel (saluran pembayaran)**
 
 Sangat penting untuk membedakan dengan jelas berbagai tingkatan pertukaran pada Lightning Network (Jaringan Lightning):
 
-- **Komunikasi peer-to-peer (protokol Lightning)**: Ini adalah pesan yang dikirimkan node-node Lightning satu sama lain untuk berkomunikasi. Kita akan menggambarkan pesan-pesan untuk komunikasi peer-to-peer ini dengan garis putus-putus hitam di dalam diagram.
+- **Komunikasi [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) (protokol Lightning)**: Ini adalah pesan yang dikirimkan [node-node Lightning](https://planb.academy/resources/glossary/lightning-node) satu sama lain untuk berkomunikasi. Kita akan menggambarkan pesan-pesan untuk komunikasi peer-to-peer ini dengan garis putus-putus hitam di dalam diagram.
 - **Payment channels (saluran pembayaran) (protokol Lightning)**: Ini adalah jalur untuk bertukar dana pada Lightning, yang akan kita gambarkan dengan garis hitam.
-- **Transaksi Bitcoin (protokol Bitcoin)**: Ini adalah transaksi yang dilakukan onchain (di jaringan utama), yang akan kita gambarkan dengan garis oranye.
+- **Transaksi Bitcoin (protokol Bitcoin)**: Ini adalah transaksi yang dilakukan [onchain](https://planb.academy/resources/glossary/onchain) (di jaringan utama), yang akan kita gambarkan dengan garis oranye.
 
 ![LNP201](assets/en/010.webp)
 Penting untuk dicatat bahwa sebuah node Lightning dapat berkomunikasi melalui protokol P2P tanpa membuka saluran, tetapi untuk bertukar dana, sebuah saluran diperlukan.
@@ -222,7 +222,7 @@ Penting untuk dicatat bahwa sebuah node Lightning dapat berkomunikasi melalui pr
 
 ![LNP201](assets/en/011.webp)
 
-- **Pembuatan [multisignature](https://planb.academy/resources/glossary/multisig) address (alamat multi-tandatangan)**: Dengan kedua public key (kunci publik) ini, Alice membuat **2/2 multi-signature address (alamat multi-tanda tangan 2/2)**, yang berarti dana yang nantinya akan disetorkan pada address (alamat) ini akan memerlukan kedua tanda tangan (Alice dan Bob) untuk dapat digunakan.
+- **Pembuatan multisignature address (alamat multi-tandatangan)**: Dengan kedua public key (kunci publik) ini, Alice membuat **2/2 multi-signature address (alamat multi-tanda tangan 2/2)**, yang berarti dana yang nantinya akan disetorkan pada address (alamat) ini akan memerlukan kedua tanda tangan (Alice dan Bob) untuk dapat digunakan.
 
 ![LNP201](assets/en/012.webp)
 
@@ -244,7 +244,7 @@ Penting untuk dicatat bahwa sebuah node Lightning dapat berkomunikasi melalui pr
 
 ### Kapan saluran dianggap sudah aktif?
 
-Saluran dianggap sudah dibuka setelah deposit transaction (transaksi setoran) dimasukkan ke dalam blok Bitcoin dan telah mencapai sejumlah konfirmasi tertentu (jumlah blok berikutnya).
+Saluran dianggap sudah dibuka setelah deposit transaction (transaksi setoran) dimasukkan ke dalam [blok](https://planb.academy/resources/glossary/block) Bitcoin dan telah mencapai sejumlah [konfirmasi](https://planb.academy/resources/glossary/confirmation) tertentu (jumlah blok berikutnya).
 
 **Apa yang perlu Anda ingat dari bab ini?**
 
@@ -275,7 +275,7 @@ Pada saat membuka saluran, Alice menyetorkan **130.000 satoshi** pada multisigna
 
 ### Transaksi yang Tidak Dipublikasikan: Transaksi Komitmen
 
-Ketika Alice melakukan transaksi dalam saluran untuk mengirim dana ke Bob, sebuah transaksi baru Bitcoin dibuat untuk mencerminkan perubahan ini dalam distribusi dana. Transaksi ini, yang disebut **transaksi komitmen**, tidak dipublikasikan di blockchain tetapi mewakili kondisi baru saluran setelah transaksi di dalam saluran Lightning ini.
+Ketika Alice melakukan transaksi dalam saluran untuk mengirim dana ke Bob, sebuah transaksi baru Bitcoin dibuat untuk mencerminkan perubahan ini dalam distribusi dana. Transaksi ini, yang disebut **[transaksi komitmen](https://planb.academy/resources/glossary/commitment-transaction)**, tidak dipublikasikan di blockchain tetapi mewakili kondisi baru saluran setelah transaksi di dalam saluran Lightning ini.
 
 Mari kita ambil contoh dengan Alice mengirim 30.000 satoshi ke Bob:
 
@@ -345,7 +345,7 @@ Lebih buruk lagi, Alice dapat mempublikasikan withdrawal transaction (transaksi 
 
 Untuk mencegah kecurangan seperti yang dilakukan oleh Alice, di Lightning Network (Jaringan Lightning), **mekanisme keamanan** ditambahkan ke transaksi komitmen:
 
-- **Timelock (penguncian waktu)**: Setiap transaksi komitmen harus disertai timelock (penguncian waktu) untuk dana milik Alice. Timelock (penguncian waktu) adalah aturan dalam kontrak pintar yang menunda pencairan dana hingga waktu tertentu, agar transaksi bisa dimasukkan ke dalam blok di blockchain. Ini berarti bahwa Alice tidak bisa langsung mengambil dananya sampai sejumlah blok telah berlalu semenjak Alice mempublikasikan salah satu transaksi komitmen tersebut. Timelock (penguncian waktu) ini mulai berlaku sejak transaksi komitmen dikonfirmasi di blockchain. Durasi timelock (penguncian waktu) ini umumnya berdasarkan besar dana di saluran, namun juga bisa diatur secara manual.
+- **[Timelock](https://planb.academy/resources/glossary/timelock) (penguncian waktu)**: Setiap transaksi komitmen harus disertai timelock (penguncian waktu) untuk dana milik Alice. Timelock (penguncian waktu) adalah aturan dalam [kontrak pintar](https://planb.academy/resources/glossary/smart-contract) yang menunda pencairan dana hingga waktu tertentu, agar transaksi bisa dimasukkan ke dalam blok di blockchain. Ini berarti bahwa Alice tidak bisa langsung mengambil dananya sampai sejumlah blok telah berlalu semenjak Alice mempublikasikan salah satu transaksi komitmen tersebut. Timelock (penguncian waktu) ini mulai berlaku sejak transaksi komitmen dikonfirmasi di blockchain. Durasi timelock (penguncian waktu) ini umumnya berdasarkan besar dana di saluran, namun juga bisa diatur secara manual.
 - **Revocation Key (Kunci Pembatalan)**: Dana milik Alice juga bisa diambil oleh Bob jika Bob memiliki **revocation key (kunci pembatalan)**. Kunci ini terdiri dari rahasia yang dipegang oleh Alice dan juga Bob. Rahasia ini berbeda untuk setiap transaksi komitmen. 
 
 Berkat dua mekanisme ini, Bob memiliki waktu untuk mendeteksi kecurangan Alice, dan menghukum Alice dengan mengambil kembali semua dana dari saluran tersebut menggunakan revocation key (kunci pembatalan). Transaksi komitmen baru kita sekarang akan terlihat seperti ini:
@@ -358,7 +358,7 @@ Mari kita rinci bersama fungsi mekanisme ini.
 Ketika Alice dan Bob memperbarui status saluran dengan transaksi Lightning terbaru, mereka bertukar **rahasia** terlebih dahulu untuk transaksi komitmen sebelumnya (yang akan menjadi kadaluarsa dan memungkinkan disalahgunakan untuk menipu). Ini berarti bahwa, dalam status saluran yang baru:
 
 - Alice dan Bob memiliki transaksi komitmen baru yang mewakili distribusi dana terkini setelah transaksi Lightning.
-- Masing-masing memiliki rahasia satu sama lain dari transaksi sebelumnya, yang memungkinkan mereka untuk menggunakan revocation key (kunci pembatalan) hanya jika salah satu dari mereka mencoba berbuat curang dengan mempublikasikan transaksi versi lama di mempool/ memory pool (tempat penyimpanan sementara transaksi-transaksi Bitcoin yang sudah valid, tapi belum masuk ke dalam blok di blockchain) node-node Bitcoin. Memang, untuk menghukum pihak lain, diperlukan untuk memegang kedua rahasia dan transaksi komitmen pihak lain, yang mencakup input yang ditandatangani. Tanpa transaksi ini, hanya revocation key (kunci pembatalan) saja tidak akan berguna. Satu-satunya cara untuk mendapatkan transaksi ini adalah dengan mengambilnya dari mempool (dalam transaksi yang menunggu konfirmasi) atau dalam transaksi yang sudah dikonfirmasi di blockchain selama timelock (penguncian waktu), yang membuktikan bahwa pihak lain mencoba curang, baik sengaja maupun tidak.
+- Masing-masing memiliki rahasia satu sama lain dari transaksi sebelumnya, yang memungkinkan mereka untuk menggunakan revocation key (kunci pembatalan) hanya jika salah satu dari mereka mencoba berbuat curang dengan mempublikasikan transaksi versi lama di [mempool](https://planb.academy/resources/glossary/mempool)/ memory pool (tempat penyimpanan sementara transaksi-transaksi Bitcoin yang sudah valid, tapi belum masuk ke dalam blok di blockchain) node-node Bitcoin. Memang, untuk menghukum pihak lain, diperlukan untuk memegang kedua rahasia dan transaksi komitmen pihak lain, yang mencakup [input](https://planb.academy/resources/glossary/input) yang ditandatangani. Tanpa transaksi ini, hanya revocation key (kunci pembatalan) saja tidak akan berguna. Satu-satunya cara untuk mendapatkan transaksi ini adalah dengan mengambilnya dari mempool (dalam transaksi yang menunggu konfirmasi) atau dalam transaksi yang sudah dikonfirmasi di blockchain selama timelock (penguncian waktu), yang membuktikan bahwa pihak lain mencoba curang, baik sengaja maupun tidak.
 
 Mari kita ambil contoh untuk memahami proses ini dengan baik:
 
@@ -425,7 +425,7 @@ Dalam **penutupan kooperatif**, Alice dan Bob setuju untuk menutup saluran. Begi
 
 ![LNP201](assets/en/031.webp)
 
-- Alice dan Bob berdiskusi bersama mengenai biaya dari **transaksi penutupan**. Biaya ini umumnya dihitung berdasarkan pasar biaya Bitcoin pada saat penutupan. Penting untuk dicatat bahwa **selalu orang yang membuka saluran** (Alice dalam contoh kita) yang membayar biaya penutupan.
+- Alice dan Bob berdiskusi bersama mengenai [biaya](https://planb.academy/resources/glossary/transaction-fees) dari **transaksi penutupan**. Biaya ini umumnya dihitung berdasarkan pasar biaya Bitcoin pada saat penutupan. Penting untuk dicatat bahwa **selalu orang yang membuka saluran** (Alice dalam contoh kita) yang membayar biaya penutupan.
 - Mereka membuat **transaksi penutupan** baru. Transaksi ini menyerupai transaksi komitmen, tetapi tanpa timelock (penguncian waktu) atau mekanisme revocation (pembatalan), karena kedua pihak bekerja sama dan tidak ada risiko kecurangan. Transaksi penutupan kooperatif ini oleh karena itu berbeda dari transaksi komitmen.
 
 Misalnya, jika Alice memiliki **100.000 satoshi** dan Bob **30.000 satoshi**, transaksi penutupan akan mengirim **100.000 satoshi** ke alamat Alice dan **30.000 satoshi** ke alamat Bob, tanpa batasan timelock (penguncian waktu). Setelah transaksi ini ditandatangani oleh kedua belah pihak, Alice akan mempublikasikannya. Setelah transaksi dikonfirmasi di blockchain Bitcoin, saluran Lightning akan resmi ditutup.
@@ -478,11 +478,11 @@ Ada tiga cara untuk menutup saluran:
 :::video id=38419c23-5592-4573-b0a7-84824a5bfb77:::
 
 
-Dalam bab ini, kita akan membahas bagaimana pembayaran di Lightning Network (Jaringan Lightning) dapat mencapai penerima meskipun mereka tidak terhubung langsung melalui saluran pembayaran (payment channel). Lightning memang merupakan **jaringan dari saluran-saluran pembayaran (network of payment channels)**, yang memungkinkan dana dikirim ke node yang jauh melalui saluran (atau channel) milik peserta lain. Kita akan membahas bagaimana pembayaran dirutekan melalui jaringan, bagaimana likuiditas bergerak antar saluran, dan bagaimana biaya transaksi dihitung.
+Dalam bab ini, kita akan membahas bagaimana pembayaran di Lightning Network (Jaringan Lightning) dapat mencapai penerima meskipun mereka tidak terhubung langsung melalui saluran pembayaran (payment channel). Lightning memang merupakan **jaringan dari saluran-saluran pembayaran (network of payment channels)**, yang memungkinkan dana dikirim ke node yang jauh melalui saluran (atau channel) milik peserta lain. Kita akan membahas bagaimana pembayaran dirutekan melalui jaringan, bagaimana [likuiditas](https://planb.academy/resources/glossary/liquidity-lightning) bergerak antar saluran, dan bagaimana biaya transaksi dihitung.
 
 ### Jaringan Saluran Pembayaran
 
-Di Lightning Network (Jaringan Lightning), sebuah transaksi merupakan pemindahan dana antara dua node. Seperti yang telah dibahas di bab-bab sebelumnya, untuk dapat melakukan transaksi di Lightning, diperlukan pembukaan saluran dengan seseorang terlebih dahulu. Saluran ini memungkinkan transaksi dalam jumlah hampir tak terbatas di off-chain (transaksi yang terjadi di luar jaringan utama blockchain) sebelum menutupnya untuk mengklaim kembali saldo on-chain (transaksi yang dicatat langsung di jaringan utama blockchain). Namun, metode ini memiliki kelemahan yang memerlukan saluran langsung dengan orang lain untuk menerima atau mengirim dana, yang berarti diperlukan transaksi pembukaan dan penutupan untuk setiap saluran. Jika saya berencana untuk melakukan sejumlah besar pembayaran dengan orang ini, membuka dan menutup saluran menjadi lebih hemat. Sebaliknya, jika saya hanya perlu melakukan beberapa transaksi Lightning, membuka saluran menjadi tidak menguntungkan, karena saya harus membayar 2 transaksi on-chain hanya untuk sejumlah kecil transaksi off-chain yang terbatas. Kasus ini mungkin terjadi, misalnya, ketika ingin membayar dengan Lightning di pedagang tanpa berencana untuk membeli lagi.
+Di Lightning Network (Jaringan Lightning), sebuah transaksi merupakan pemindahan dana antara dua node. Seperti yang telah dibahas di bab-bab sebelumnya, untuk dapat melakukan transaksi di Lightning, diperlukan pembukaan saluran dengan seseorang terlebih dahulu. Saluran ini memungkinkan transaksi dalam jumlah hampir tak terbatas di [off-chain](https://planb.academy/resources/glossary/offchain) (transaksi yang terjadi di luar jaringan utama blockchain) sebelum menutupnya untuk mengklaim kembali saldo on-chain (transaksi yang dicatat langsung di jaringan utama blockchain). Namun, metode ini memiliki kelemahan yang memerlukan saluran langsung dengan orang lain untuk menerima atau mengirim dana, yang berarti diperlukan transaksi pembukaan dan penutupan untuk setiap saluran. Jika saya berencana untuk melakukan sejumlah besar pembayaran dengan orang ini, membuka dan menutup saluran menjadi lebih hemat. Sebaliknya, jika saya hanya perlu melakukan beberapa transaksi Lightning, membuka saluran menjadi tidak menguntungkan, karena saya harus membayar 2 transaksi on-chain hanya untuk sejumlah kecil transaksi off-chain yang terbatas. Kasus ini mungkin terjadi, misalnya, ketika ingin membayar dengan Lightning di pedagang tanpa berencana untuk membeli lagi.
 
 Untuk menyelesaikan masalah ini, Jaringan Lightning memungkinkan untuk mengalihkan pembayaran melalui beberapa saluran dan node perantara, sehingga memungkinkan transaksi tanpa saluran langsung dengan orang lain.
 
@@ -593,7 +593,7 @@ Dalam bab ini, kita telah membahas perutean pembayaran di Jaringan Lightning. Na
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
 
-Dalam bab ini, kita akan membahas bagaimana Lightning memungkinkan pembayaran untuk transit melalui node perantara tanpa perlu mempercayai mereka, berkat **[HTLC](https://planb.academy/resources/glossary/htlc)** (_Hashed Time-Locked Contracts_). Kontrak pintar ini memastikan bahwa setiap node perantara hanya akan menerima dana dari salurannya jika ia meneruskan pembayaran ke penerima akhir, jika tidak, pembayaran tidak akan divalidasi.
+Dalam bab ini, kita akan membahas bagaimana Lightning memungkinkan pembayaran untuk transit melalui node perantara tanpa perlu mempercayai mereka, berkat **HTLC** (_Hashed Time-Locked Contracts_). Kontrak pintar ini memastikan bahwa setiap node perantara hanya akan menerima dana dari salurannya jika ia meneruskan pembayaran ke penerima akhir, jika tidak, pembayaran tidak akan divalidasi.
 
 Masalah yang muncul untuk routing pembayaran adalah perlunya kepercayaan pada node perantara, dan kepercayaan di antara node perantara itu sendiri. Untuk menggambarkannya, mari kita kembali ke contoh Lightning Network (Jaringan Lightning) yang disederhanakan dengan 3 node dan 2 saluran:
 
@@ -619,7 +619,7 @@ HTLC adalah kontrak khusus yang didasarkan pada dua prinsip:
 Berikut cara kerja proses ini dalam contoh kita dengan Alice, Suzie, dan Bob:
 
 ![LNP201](assets/en/048.webp)
-**Membuat Rahasia**: Bob menghasilkan sebuah rahasia acak yang dinotasikan sebagai _s_ (preimage), dan menghitung hash-nya yang dinotasikan sebagai _r_ dengan fungsi hash yang dinotasikan sebagai _h_. Kita memiliki:
+**Membuat Rahasia**: Bob menghasilkan sebuah rahasia acak yang dinotasikan sebagai _s_ (preimage), dan menghitung hash-nya yang dinotasikan sebagai _r_ dengan [fungsi hash](https://planb.academy/resources/glossary/hash-function) yang dinotasikan sebagai _h_. Kita memiliki:
 
 $$
 r = h(s)
@@ -721,7 +721,7 @@ Bahkan dengan topologi Jaringan Lightning ini, ada informasi penting untuk perut
 
 ### Pembaruan Peta Jaringan
 
-Untuk menjaga peta jaringan mereka tetap aktual, node secara teratur bertukar pesan melalui algoritma yang disebut "**_gossip_**". Ini adalah algoritma terdistribusi yang digunakan untuk menyebarkan informasi secara epidemi ke semua node dalam jaringan, yang memungkinkan pertukaran dan sinkronisasi dari keadaan menyeluruh saluran dalam beberapa siklus komunikasi. Setiap node menyebarkan informasi ke satu atau lebih tetangga yang dipilih secara acak atau tidak, mereka, pada gilirannya, menyebarkan informasi ke tetangga lain dan seterusnya sampai keadaan yang disinkronkan secara menyeluruh tercapai.
+Untuk menjaga peta jaringan mereka tetap aktual, node secara teratur bertukar pesan melalui algoritma yang disebut "**_[gossip](https://planb.academy/resources/glossary/gossip)_**". Ini adalah algoritma terdistribusi yang digunakan untuk menyebarkan informasi secara epidemi ke semua node dalam jaringan, yang memungkinkan pertukaran dan sinkronisasi dari keadaan menyeluruh saluran dalam beberapa siklus komunikasi. Setiap node menyebarkan informasi ke satu atau lebih tetangga yang dipilih secara acak atau tidak, mereka, pada gilirannya, menyebarkan informasi ke tetangga lain dan seterusnya sampai keadaan yang disinkronkan secara menyeluruh tercapai.
 
 2 pesan utama yang ditukar antara node Lightning adalah sebagai berikut:
 
@@ -795,7 +795,7 @@ Dalam bab berikutnya, kita akan secara khusus mempelajari fungsi invoice, juga b
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
 :::video id=309c3412-506e-4189-ad46-5e5088c55008:::
 
-Dalam bab ini, kita akan membahas cara kerja **invoice** Lightning, yaitu permintaan pembayaran yang dikirim oleh node penerima ke node pengirim. Tujuannya adalah untuk memahami cara membayar dan menerima pembayaran di Lightning. Kita juga akan membahas 2 alternatif untuk invoice klasik: LNURL dan Keysend.
+Dalam bab ini, kita akan membahas cara kerja **invoice** Lightning, yaitu permintaan pembayaran yang dikirim oleh node penerima ke node pengirim. Tujuannya adalah untuk memahami cara membayar dan menerima pembayaran di Lightning. Kita juga akan membahas 2 alternatif untuk invoice klasik: [LNURL](https://planb.academy/resources/glossary/lnurl) dan Keysend.
 ![LNP201](assets/en/068.webp)
 
 ### Struktur Invoice Lightning
@@ -871,7 +871,7 @@ Muatan invoice mencakup beberapa informasi yang diperlukan untuk memproses pemba
 - **Petunjuk Rute**: Informasi tambahan yang diberikan oleh penerima untuk membantu pengirim mengoptimalkan rute pembayaran.
 - **Tanda Tangan**: Menjamin integritas invoice dengan mengautentikasi semua informasi yang tercantum di dalamnya.
 
-Invoice kemudian dikodekan dalam **bech32**, format yang sama seperti untuk alamat Bitcoin SegWit (format dimulai dengan `bc1`).
+Invoice kemudian dikodekan dalam **[bech32](https://planb.academy/resources/glossary/bech32-and-bech32m)**, format yang sama seperti untuk alamat Bitcoin [SegWit](https://planb.academy/resources/glossary/segwit) (format dimulai dengan `bc1`).
 
 ### Penarikan LNURL
 
@@ -913,8 +913,8 @@ Dalam bab ini, kita akan membahas strategi untuk mengelola likuiditas secara efe
 
 Ada tiga profil pengguna utama di Lightning, masing-masing dengan kebutuhan likuiditas spesifik:
 
-- **Pembayar**: Ini adalah orang yang melakukan pembayaran. Mereka membutuhkan outgoing liquidity (likuiditas keluar) untuk dapat mentransfer dana ke pengguna lain. Sebagai contoh, ini bisa jadi seorang konsumen.
-- **Penjual (atau Penerima Pembayaran)**: Ini adalah orang yang menerima pembayaran. Mereka membutuhkan incoming liquidity (likuiditas masuk) untuk dapat menerima pembayaran ke node mereka. Sebagai contoh, ini bisa jadi sebuah bisnis atau toko online.
+- **Pembayar**: Ini adalah orang yang melakukan pembayaran. Mereka membutuhkan [outgoing liquidity](https://planb.academy/resources/glossary/outbound-capacity) (likuiditas keluar) untuk dapat mentransfer dana ke pengguna lain. Sebagai contoh, ini bisa jadi seorang konsumen.
+- **Penjual (atau Penerima Pembayaran)**: Ini adalah orang yang menerima pembayaran. Mereka membutuhkan [incoming liquidity](https://planb.academy/resources/glossary/inbound-capacity) (likuiditas masuk) untuk dapat menerima pembayaran ke node mereka. Sebagai contoh, ini bisa jadi sebuah bisnis atau toko online.
 - **Router**: Sebuah node perantara, sering kali dikhususkan dalam merutekan pembayaran, yang harus mengoptimalkan likuiditas di setiap saluran untuk merutekan sebanyak mungkin pembayaran dan mendapatkan biaya.
 
 Profil setiap pengguna tidak bersifat permanen; seorang pengguna dapat beralih antara pembayar dan penerima pembayaran tergantung pada transaksi. Sebagai contoh, Bob bisa menerima gajinya di Lightning dari pemberi kerjanya, menempatkannya dalam posisi "penjual" yang memerlukan likuiditas masuk. Selanjutnya, jika dia ingin menggunakan gajinya untuk membeli makanan, dia menjadi "pembayar" dan harus memiliki likuiditas keluar.

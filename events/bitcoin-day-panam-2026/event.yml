@@ -1,0 +1,25 @@
+id: 4df2f60b-461b-4aa4-8439-d75791c777a2
+start_date: 2026-04-16 14:00:00
+end_date: 2026-04-16 22:30:00
+timezone: America/Panama
+address_city_country: Panamá, Panama
+address_line_2: Emotions Restaurant & Sushi Bar, Hotel Hilton Panamá Level L2
+address_line_3: Av. Vasco Nuñez de Balboa
+name: Bitcoin Day Panamá 2026
+type: conference
+book_online: true
+book_in_person: false
+price_dollars: 0
+description: |
+  Bitcoin Day Panama is an event focused exclusively on Bitcoin, bringing together bitcoiners, entrepreneurs, companies, investors, and enthusiasts. The event centers on education, adoption, real-world use cases, regulation, mining, the Lightning Network, and business opportunities, fostering the growth of the Bitcoin ecosystem in Panama and the region.
+language:
+  - en
+  - es
+links:
+  website: https://luma.com/iwetmqu3
+  replay_url: 
+  live_url: 
+tags:
+  - adoption
+  - innovation
+  - use-case

@@ -8,9 +8,7 @@ description: Was ist eine Watch-Only-Wallet und wie verwendet man sie?
 
 ***WARNUNG:** Nach der Verhaftung der Gründer von Samourai Wallet und der Beschlagnahme ihrer Server am 24. April funktioniert die Sentinel-App weiterhin, aber **es ist zwingend erforderlich, Ihr eigenes Dojo zu nutzen**, um auf Blockchain-Informationen zuzugreifen und Transaktionen zu verbreiten.*
 
-_Wir verfolgen die Entwicklungen in diesem Fall sowie die Entwicklungen bezüglich der zugehörigen Tools genau. Seien Sie versichert, dass wir dieses Tutorial aktualisieren werden, sobald neue Informationen verfügbar sind._
 
-_Dieses Tutorial wird nur zu Bildungs- und Informationszwecken bereitgestellt. Wir befürworten oder ermutigen die Verwendung dieser Tools zu kriminellen Zwecken nicht. Es liegt in der Verantwortung jedes Benutzers, die Gesetze in seiner Gerichtsbarkeit zu beachten._
 
 ---
 
@@ -26,7 +24,7 @@ Diese Art von Anwendung behält nur die Daten, die für die Überwachung einer B
 Watch-Only wird im Allgemeinen in Verbindung mit einer Hardware-Wallet verwendet. Dies ermöglicht die Speicherung der privaten Schlüssel der Wallet "kalt", auf einem Gerät, das nicht mit dem Internet verbunden ist, welches eine minimale Angriffsfläche bietet, indem die privaten Schlüssel von potenziell gefährdeten Umgebungen isoliert werden. Die Watch-Only-Anwendung speichert andererseits ausschließlich den erweiterten öffentlichen Schlüssel (`xpub`, `zpub` usw.) der Bitcoin-Wallet. Dieser Elternschlüssel erlaubt nicht die Entdeckung der zugehörigen privaten Schlüssel und folglich nicht das Ausgeben von Bitcoins. Er ermöglicht jedoch die Ableitung von Kind-Öffentlichen Schlüsseln und Empfangsadressen. Mit Kenntnis der Adressen der Wallet, die durch die Hardware-Wallet gesichert ist, kann die Watch-Only-Anwendung diese Transaktionen im Bitcoin-Netzwerk verfolgen und dem Benutzer die Möglichkeit bieten, sein Guthaben zu überwachen und neue Empfangsadressen zu generieren, ohne jedes Mal seine Hardware-Wallet verbinden zu müssen.
 
 ## Welche Watch-Only-Wallet verwenden?
-Derzeit ist die umfassendste Watch-Only-Anwendung [Sentinel](https://sentinel.watch/), entwickelt von den Teams bei Samourai Wallet. Sie umfasst alle wesentlichen Funktionen für eine gute Watch-Only-Wallet:
+Derzeit ist die umfassendste Watch-only-Anwendung [Sentinel](https://github.com/wanderingking072/sentinel-android), ursprünglich von den Teams von Samourai Wallet entwickelt und mittlerweile von der Community gepflegt. Sie vereint alle wesentlichen Funktionen für eine gute Watch-only-Wallet:
 - Unterstützung für erweiterte Schlüssel, öffentliche Schlüssel und Adressen;
 - Die Möglichkeit, mehrere Konten oder Wallets in Sammlungen zu organisieren;
 - Generierung von Adressen, um Bitcoins auf der eigenen Hardware-Wallet zu empfangen, ohne deren direkte Verwendung;
@@ -40,25 +38,20 @@ Für iOS-Benutzer, die nach einer Alternative zu Sentinel suchen, könnten [Gree
 ![watch-only](assets/notext/2.webp)
 ## Wie verwendet man die Sentinel Watch-Only-Wallet?
 ### Installation und Einrichtung
-Beginnen Sie mit der Installation der Sentinel-Anwendung. Dies können Sie entweder über den Google Play Store oder durch Verwendung des [auf der offiziellen Website zum Download verfügbaren APK](https://sentinel.watch/download/) tun.
+Installieren Sie zunächst die Sentinel-Anwendung. Dies können Sie mithilfe der [APK tun, die im Github-Repository des Projekts zum Download verfügbar ist](https://github.com/wanderingking072/sentinel-android/releases).
 
-![watch-only](assets/notext/3.webp)
 
-Beim ersten Öffnen der Anwendung haben Sie die Wahl zwischen:
-- `Connect to Dojo`;
-- `Verbindung zum Server von Samourai herstellen`.
 
-Dojo, entwickelt vom Samourai-Team, ist eine vollständige Bitcoin-Node-Version, die eigenständig installiert oder mit einem Klick zu Node-in-Box-Lösungen wie [Umbrel](https://umbrel.com/) und [RoninDojo](https://ronindojo.io/) hinzugefügt werden kann.
 
-[**-> Entdecken Sie, wie Sie RoninDojo v2 auf einem Raspberry Pi installieren.**](https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
-Wenn Sie Ihr eigenes Dojo haben, können Sie es in diesem Stadium verbinden. Dadurch profitieren Sie vom höchsten Grad an Privatsphäre beim Überprüfen Ihrer Bitcoin-Netzwerktransaktionsinformationen.
+
+Anschließend müssen Sie sich zwingend mit Ihrem eigenen Dojo verbinden, da die Server von Samourai Wallet nicht mehr verfügbar sind. Wenn Sie noch kein eigenes Dojo besitzen, können Sie entweder ein von der Community auf der Website [The Dojo Bay](https://dojobay.pw/) bereitgestelltes Dojo verwenden oder unserem Tutorial folgen, um Ihr eigenes zu installieren :
+
+https://planb.academy/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9
 
 ![watch-only](assets/notext/4.webp)
 
-Andernfalls ist es möglich, sich für den Standardserver von Samourai zu entscheiden. Sie können auch wählen, ob Sie sich über Tor verbinden möchten oder nicht.
 
-![watch-only](assets/notext/5.webp)
 
 Dann gelangen Sie zur Hauptseite von Sentinel.
 

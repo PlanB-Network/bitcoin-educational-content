@@ -5,13 +5,13 @@ description: Ni gute woshiraho BitAxe?
 ![video](https://youtu.be/tvLSK8v0MK8)
 
 
-## Intangamariro
+## Imenyekanisha
 
 
-BitAxe ni umugambi w’inkomoko yuguruye waremwe na Skot kandi [uboneka kuri GitHub](https://github.com/skot/bitaxe) ushobora gutuma habaho igerageza rya Mining ritari ryiza.
+BitAxe ni umugambi w’inkomoko yuguruye waremwe na Skot kandi [uboneka kuri GitHub](https://github.com/skot/bitaxe) ushobora gutuma habaho igerageza rya mining ritari ryiza.
 
 
-Yahinduye ubuhinga bw'imikorere y'imashini izwi cane yitwa Antminer S19 na Bitmain, irongoye isoko ry'ibikoresho vya ASIC, imashini zidasanzwe za Bitcoin Mining. Ubu, birashoboka gukoresha izo nkuru zikomeye mu migambi mishasha y’inkomoko yuguruye. Udakunze Nerdminer, BitAxe irafise ubushobozi buhagije bwo gukoresha ubuhinga bwa none kugira ngo ihuzwe na Mining pool, ivyo bizotuma uhora uronka ama satoshis. Nerdminer, ku rundi ruhande, ishobora gusa gufatanywa n’ico bita solopool, gikora nk’itike ya loteri: ufise amahirwe make yo gutsinda Block reward yuzuye.
+Yahinduye ibikorwa vy’i Antminer S19 izwi cane na Bitmain, irongoye isoko rya ASICs, imashini zidasanzwe z’ama bitcoin mining. Ubu, birashoboka gukoresha izo nkuru zikomeye mu migambi mishasha y’inkomoko yuguruye. Udakunze Nerdminer, BitAxe irafise ubushobozi buhagije bwo gukoresha ubuhinga bwa none kugira ngo ihuzwe na mining pool, ivyo bizotuma uhora uronka satoshis zimwe zimwe. Nerdminer, ku rundi ruhande, ishobora gusa gufatanywa n’ico bita solopool, gikora nk’itike ya loteri: ufise amahirwe make yo gutsinda impembo yuzuye.
 
 
 Hariho verisiyo nyinshi za BitAxe, zifise ibice bitandukanye n’imikorere:
@@ -27,23 +27,23 @@ Hariho verisiyo nyinshi za BitAxe, zifise ibice bitandukanye n’imikorere:
 Muri iyi nyigisho, tuzoba turiko turakoresha BitAxe Ultra 204 ifise igice c’umubiri citwa BM1366, gikoreshwa ku gikoresho citwa Antminer S19XP. Iyi iramaze gukoranirizwa hamwe no guca ibibatsi n’umucuruzi.
 
 
-[Urutonde rw’abacuruzi ruri kuri uru rupapuro](https://bitaxe.org/legit.html)
+[Urutonde rw'abagurisha ruraboneka kuri iyi paji](https://bitaxe.org/legit.html)
 
 
 ![signup](assets/2.webp)
 
 
-Muri rusangi, ububasha Supply buragurishwa na yo. Niba atarivyo, uzokenera kugura umuyagankuba Supply ufise umugozi wa 5V jack n’imiburiburi 4A.
+Muri rusangi, amashanyarazi agurishwa na yo. Niba atarivyo, uzokenera kugura umuyagankuba ufise umugozi wa 5V jack n’imiburiburi 4A.
 
 
 ![signup](assets/1.webp)
 
 
-## Igenamiterere
+## Gutunganya
 
 Iyo ubanza gushiramwo BitAxe yawe, izogerageza kwifatanya n’urubuga rwa Wi-Fi ku buryo busanzwe. Inyuma y’ukugerageza gatanu, izokwerekana izina ry’urubuga rwayo rwa Wi-Fi kugira ngo ushobore kurufatanya na rwo no kurutunganya.
 
-Kugira ngo ubikore, urashobora gukoresha orodinateri iyo ari yo yose canke telefone ngendanwa. Genda mu mirongo ya Wi-Fi yawe, urondere ama network mashasha, uzobona Wi-Fi yitwa Bitaxe_XXXX. Aha, ni `Ikori_A859`. Huza kuri iyi nzira ya Wi-Fi, idirisha rizoca rifunguka.
+Kugira ngo ubikore, urashobora gukoresha orodinateri iyo ari yo yose canke telefone ngendanwa. Genda mu mirongo ya Wi-Fi yawe, urondere ama network mashasha, uzobona Wi-Fi yitwa Bitaxe_XXXX. Aha, ni `Bitaxe_A859`. Huza kuri iyi nzira ya Wi-Fi, idirisha rizoca rifunguka.
 
 
 ![signup](assets/3.webp)
@@ -55,13 +55,13 @@ Muri iri dirisha, fyonda ku turongo dutatu dutoduto turi hejuru ibubamfu, hanyum
 ![signup](assets/4.webp)
 
 
-Uzokenera kwinjiza amakuru y’urubuga rwawe rwa Wi-Fi n’amaboko, kuko ata buryo bwo kuvumbura ubwabwo buhari.
+Uzokenera kwinjiza amakuru yawe y’urubuga rwa Wi-Fi n’amaboko, kuko ata buryo bwo kuvumbura ubwabwo buhari.
 
 
 ![signup](assets/5.webp)
 
 
-Rero, werekane SSID ya Wi-Fi, ni ukuvuga izina ry’urubuga rwawe, ijambo banga, hamwe n’amakuru ya Mining pool wahisemwo. Urabe maso, aha URL y'ikidengeri ntiyerekanwa mu buryo bumwe. Nk'akarorero, ku Braiins, URL y'ikidengeri yatanzwe ni: `umurongo+tcp://umurongo.ubwonko.com:3333`.
+Rero, werekane SSID ya Wi-Fi, ni ukuvuga izina ry’urubuga rwawe, ijambo banga, hamwe n’amakuru ya mining pool wahisemwo. Urabe maso, aha URL y'ikidengeri ntiyerekanwa mu buryo bumwe. Nk'akarorero, ku Braiins, URL y'ikidengeri yatanzwe ni: `umurongo+tcp://umurongo.ubwonko.com:3333`.
 
 
 ![signup](assets/6.webp)
@@ -70,7 +70,7 @@ Rero, werekane SSID ya Wi-Fi, ni ukuvuga izina ry’urubuga rwawe, ijambo banga,
 Nk'uko ushobora kubibona ku rubuga, ukeneye gukuraho ibice `stratum+tcp://` na `:3333`, ugasigaza `eu.stratum.braiins.com` gusa. Hanyuma, mu mwanya wa `Port`, shiramwo imibare 4 ku mpera ya URL yatanzwe n'ikidengeri, ariko ata `:`. Aha rero, ni `3333`.
 
 
-Muri iyi nyigisho, turiko turakoresha Braiins Mining pool, ariko wewe urafise umwidegemvyo wo guhitamwo uwundi. Ushobora gusanga inyigisho zacu ku bidengeri vya Mining [ku rubuga rwa Plan ₿ Academy](https://planb.academy/ru/inyigisho/mining).
+Muri iyi nyigisho, turiko turakoresha Braiins mining pool, ariko wewe urafise umwidegemvyo wo guhitamwo uwundi. Ushobora gusanga inyigisho zacu ku mining pools [ku rubuga rwa Plan ₿ Academy](https://planb.academy/ru/inyigisho/mining).
 
 
 Ibikurikira, muri `Ukoresha`, shiramwo ikimenyetso cawe hanyuma `Ijambobanga`, kenshi, ni `"x"` canke `"Ikintu cose123"`.
@@ -84,18 +84,18 @@ Igikoresho ca `Core Voltage` gikwiye gusigara ku `1200` ku buryo busanzwe, kandi
 
 Umaze kwinjiza neza ama settings yose, ukande kuri buto ya `Save` iri musi, hanyuma wongere utangure BitAxe yawe mu kuyikuramwo gusa maze ugasubira kuyishiramwo.
 
-Nimba winjije neza amakuru yawe, ico gikoresho gikwiye kwihuta kwifatanya na Wi-Fi yawe, hanyuma kigafatanya na Mining pool, maze kigatangura kugaragaza amakuru amwamwe ku gicapo caco gitoyi. Birashoboka ko bizofata iminota mikeyi kugira ngo iboneke ku rubaho rwa Mining pool.
+Nimba winjije neza amakuru yawe, ico gikoresho gikwiye kwihuta kwifatanya na Wi-Fi yawe, hanyuma kigafatanya na mining pool, maze kigatangura kugaragaza amakuru amwamwe ku gicapo caco gitoyi. Birashoboka ko bizofata iminota mikeyi kugira ngo iboneke ku rubaho rwa mining pool.
 
-## Dashboard n’ikirato
+## Urubaho n'igicapo
 
 
-Ivyerekanywe bitatu bitandukanye bizokurikirwa. Ku rupapuro rwa gatatu, uzobona amakuru ya `IP`, ariyo IP Address ishobora kugufasha kwifatanya na dashboard. Aha, Address ni `192.168.1.19`.
+Ivyerekanywe bitatu bitandukanye bizokurikirwa. Ku rupapuro rwa gatatu, uzobona amakuru `IP`, ariyo IP igufasha kwifatanya na dashboard. Aha, aderesi ni `192.168.1.19`.
 
 
 ![signup](assets/8.webp) ![signup](assets/9.webp) ![signup](assets/10.webp)
 
 
-Kugira ngo ugere kuri dashboard, ushobora gusa kwinjiza iyi Address mu mucukumbuzi wawe wa interineti.
+Kugira ngo ugere kuri dashboard, ushobora gushiramwo iyi aderesi mu mucukumbuzi wawe wa interineti.
 
 
 Ku rubuga rw’ibikoresho, uzosanga amakuru yose yerekanwa ku gicapo gitoyi, ubu tuzobiraba mu buryo burambuye.
@@ -122,4 +122,4 @@ Ku rubuga rw’ibikoresho, uzosanga amakuru yose yerekanwa ku gicapo gitoyi, ubu
 
 Ushobora guhindura Wi-Fi canke pool igihe cose ushaka ata ngorane.
 
-Bivanye n’aho umwuka usohokera be n’ubushuhe bwo mu cumba cawe, woshobora gukenera kwongera canke kugabanya ubushobozi bwo gukora kugira ngo ubushuhe ntiburenge 65°C. Iyo wongeyeko ubushobozi, uzoronka ama satoshis menshi, ariko BitAxe yawe nayo izokoresha amashanyarazi menshi!
+Bivanye n’ukuntu umwuka usohoka be n’ubushuhe bwo mu cumba cawe, woshobora gukenera kwongera canke kugabanya ubushobozi bwo gukora kugira ngo ubushuhe ntiburenge 65°C. Iyo wongeye ubushobozi, uzoronka ama satoshi menshi, ariko BitAxe yawe nayo izokoresha amashanyarazi menshi!

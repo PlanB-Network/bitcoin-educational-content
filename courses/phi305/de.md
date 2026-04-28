@@ -756,7 +756,7 @@ Aber, wie Spinoza sagt, "die Verblendung der Menschen hört damit nicht auf", un
 
 
 
-Die Definition der Inflation durch keynesianische Ökonomen und Befürworter des Wohlfahrtsstaates beispielsweise veranschaulicht dieses Paradoxon ebenfalls sehr gut. Ihnen zufolge ist Inflation ein Preisanstieg, der nach Ansicht einiger Zentralbanker entweder "aus dem Nichts" oder aus geopolitischen Zusammenhängen kommt, die niemand kontrollieren oder vorhersehen kann. Während ein Preisanstieg in der Tat zu einer zyklischen Inflation führen kann - wenn zum Beispiel der Ölpreis steigt, steigen auch die Preise bestimmter verarbeiteter Waren -, sind die wirklichen strukturellen Ursachen der Inflation in erster Linie mit einem Anstieg der Geldmenge Supply verbunden, was wiederum einen Rückgang des Geldwerts und ipso facto einen mechanischen Preisanstieg zur Folge hat.
+Die Definition der [Inflation](https://planb.academy/resources/glossary/inflation) durch keynesianische Ökonomen und Befürworter des Wohlfahrtsstaates beispielsweise veranschaulicht dieses Paradoxon ebenfalls sehr gut. Ihnen zufolge ist Inflation ein Preisanstieg, der nach Ansicht einiger Zentralbanker entweder "aus dem Nichts" oder aus geopolitischen Zusammenhängen kommt, die niemand kontrollieren oder vorhersehen kann. Während ein Preisanstieg in der Tat zu einer zyklischen Inflation führen kann - wenn zum Beispiel der Ölpreis steigt, steigen auch die Preise bestimmter verarbeiteter Waren -, sind die wirklichen strukturellen Ursachen der Inflation in erster Linie mit einem Anstieg der Geldmenge Supply verbunden, was wiederum einen Rückgang des Geldwerts und ipso facto einen mechanischen Preisanstieg zur Folge hat.
 
 
 
@@ -1064,7 +1064,7 @@ Mit anderen Worten: Wenn wir einen Fremden hassen, dann deshalb, weil wir diesen
 
 
 
-Das gilt übrigens besonders für den Bereich der Kryptowährungen.
+Das gilt übrigens besonders für den Bereich der [Kryptowährungen](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 
@@ -1159,7 +1159,7 @@ Genau darum ging es in der rationalen Philosophie der Aufklärung, insbesondere 
 Mit anderen Worten: Wenn wir selbst denken, wenn wir wie rationale Erwachsene argumentieren und uns daher bemühen, die kausalen Zusammenhänge zwischen den Dingen zu erkennen, brauchen wir keine moralische Instanz mehr, die uns zum Beispiel die wahren Tugenden der Religion oder die wahren ethischen Werte im politischen und wirtschaftlichen Bereich lehrt.
 
 
-Es ist eine Argumentation, die eine Verbindung zur österreichischen Schule der liberalen Ökonomie herstellt, die in der äußerst fruchtbaren intellektuellen Atmosphäre Wiens vor dem Ersten Weltkrieg geboren wurde. Denn in diesem Kontext legten Intellektuelle wie Carl Menger (1840-1921), Ludwig von Mises (1883-1979) und Friedrich Hayek (1899-1992) den Grundstein für eine neue Schule der liberalen Ökonomie, die zur Basis für die Überzeugungen der zukünftigen Cypherpunks werden sollte. Und damit die Gründung der Bitcoin.
+Es ist eine Argumentation, die eine Verbindung zur [österreichischen](https://planb.academy/resources/glossary/austrian-school) Schule der liberalen Ökonomie herstellt, die in der äußerst fruchtbaren intellektuellen Atmosphäre Wiens vor dem Ersten Weltkrieg geboren wurde. Denn in diesem Kontext legten Intellektuelle wie Carl Menger (1840-1921), Ludwig von Mises (1883-1979) und Friedrich Hayek (1899-1992) den Grundstein für eine neue Schule der liberalen Ökonomie, die zur Basis für die Überzeugungen der zukünftigen [Cypherpunks](https://planb.academy/resources/glossary/cypherpunks) werden sollte. Und damit die Gründung der Bitcoin.
 
 
 
@@ -1204,7 +1204,7 @@ Dies sind die politischen und wirtschaftlichen Argumente, die von den ersten Cyp
 
 
 
-Vor allem, als er die Schlagzeile der Times vom 3. Januar 2009 in die Münzbasis des Genesis-Blocks von Blockchain Bitcoin einprägte, um das Ende einer keynesianischen Ära und den Beginn einer neuen Ära mit liberalen, anarchistischen und libertären Bestrebungen zu illustrieren.
+Vor allem, als er die Schlagzeile der Times vom 3. Januar 2009 in die [Münzbasis](https://planb.academy/resources/glossary/coinbase-transaction) des [Genesis-Blocks](https://planb.academy/resources/glossary/genesis-block) von [Blockchain](https://planb.academy/resources/glossary/blockchain) Bitcoin einprägte, um das Ende einer keynesianischen Ära und den Beginn einer neuen Ära mit liberalen, anarchistischen und libertären Bestrebungen zu illustrieren.
 
 
 
@@ -1212,7 +1212,7 @@ Vor allem, als er die Schlagzeile der Times vom 3. Januar 2009 in die Münzbasis
 
 
 
-Das am 31. Oktober 2008 veröffentlichte Weißbuch stellt Bitcoin als ein Mittel zum Austausch von Werten im Internet ohne vertrauenswürdige Dritte vor, das auf einem dezentralen Protokoll basiert. Eine "kopernikanische" Revolution, die es den Menschen endlich ermöglichen wird, ihre Handlungsfähigkeit wiederzuerlangen, d.h. ihre Freiheit, ihre Handelsfreiheit, ihr Recht auf Eigentum und die Achtung ihrer Privatsphäre.
+Das am 31. Oktober 2008 veröffentlichte [Weißbuch](https://planb.academy/resources/glossary/white-paper) stellt Bitcoin als ein Mittel zum Austausch von Werten im Internet ohne vertrauenswürdige Dritte vor, das auf einem dezentralen Protokoll basiert. Eine "kopernikanische" Revolution, die es den Menschen endlich ermöglichen wird, ihre Handlungsfähigkeit wiederzuerlangen, d.h. ihre Freiheit, ihre Handelsfreiheit, ihr Recht auf Eigentum und die Achtung ihrer Privatsphäre.
 
 
 Warum? Weil die Bitcoin es uns ermöglicht, uns aus dieser Knechtschaft zu befreien, wie es Spinoza getan hat, dank der Vernunft, dank Galileis Sprache der Mathematik. Und, wie Hayek vorschlägt, ohne dass der Staat sich dagegen wehren kann. Und zwar friedlich, ohne Zwang und ohne Bekehrungseifer.

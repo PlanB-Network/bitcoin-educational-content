@@ -135,7 +135,7 @@ Spremni da istražimo fascinantan svet kriptografije? Krenimo!
 <chapterId>ae674346-4789-5ab1-9b6f-c8989d83be89</chapterId>
 
 
-Hajde da započnemo naše istraživanje u oblasti kriptografije jednim od šarmantnijih i zabavnijih epizoda u njenoj istoriji: onom o Beale šiframa. [1]
+Hajde da započnemo naše istraživanje u oblasti [kriptografije](https://planb.academy/resources/glossary/cryptography) jednim od šarmantnijih i zabavnijih epizoda u njenoj istoriji: onom o Beale šiframa. [1]
 
 
 Priča o Beale šiframa je, po mom mišljenju, verovatnije fikcija nego stvarnost. Ali navodno se dogodila ovako.
@@ -147,7 +147,7 @@ Tokom zime 1820. i 1822. godine, čovek po imenu Thomas J. Beale boravio je u go
 Nekoliko meseci kasnije, Morriss je primio pismo od Bealea datirano na 9. maj 1822. U njemu je naglašena velika vrednost sadržaja gvozdene kutije i navedena su neka uputstva za Morrissa: ako ni Beale ni bilo koji od njegovih saradnika nikada ne dođu da preuzmu kutiju, trebalo bi da je otvori tačno deset godina od datuma pisma (to jest, 9. maja 1832). Neki od papira unutra biće napisani u običnom tekstu. Nekoliko drugih, međutim, biće „nerazumljivi bez pomoći ključa.“ Taj „ključ“ bi, zatim, trebalo da bude dostavljen Morrissu od strane neimenovanog Bealeovog prijatelja u junu 1832.
 
 
-Uprkos jasnim instrukcijama, Morriss nije otvorio kutiju u maju 1832. godine i Bealeov misteriozni prijatelj se nikada nije pojavio u junu te godine. Tek 1845. godine gostioničar je konačno odlučio da otvori kutiju. U njoj je Morriss pronašao belešku koja objašnjava kako su Beale i njegovi saradnici otkrili zlato i srebro na Zapadu i zakopali ih, zajedno sa nekim nakitom, radi sigurnosti. Pored toga, kutija je sadržala tri **šifrovana teksta**: to jest, tekstove napisane u kodu koji zahtevaju **kriptografski ključ**, ili tajnu, i prateći algoritam za otključavanje. Ovaj proces otključavanja šifrovanog teksta poznat je kao **dešifrovanje**, dok je proces zaključavanja poznat kao **šifrovanje**. (Kao što je objašnjeno u Poglavlju 3, termin šifra može imati različita značenja. U nazivu "Bealeove šifre", to je skraćenica za šifrovane tekstove.)
+Uprkos jasnim instrukcijama, Morriss nije otvorio kutiju u maju 1832. godine i Bealeov misteriozni prijatelj se nikada nije pojavio u junu te godine. Tek 1845. godine gostioničar je konačno odlučio da otvori kutiju. U njoj je Morriss pronašao belešku koja objašnjava kako su Beale i njegovi saradnici otkrili zlato i srebro na Zapadu i zakopali ih, zajedno sa nekim nakitom, radi sigurnosti. Pored toga, kutija je sadržala tri **šifrovana teksta**: to jest, tekstove napisane u kodu koji zahtevaju **kriptografski ključ**, ili tajnu, i prateći algoritam za otključavanje. Ovaj proces otključavanja šifrovanog teksta poznat je kao **dešifrovanje**, dok je proces zaključavanja poznat kao **[šifrovanje](https://planb.academy/resources/glossary/encryption-encrypt)**. (Kao što je objašnjeno u Poglavlju 3, termin šifra može imati različita značenja. U nazivu "Bealeove šifre", to je skraćenica za šifrovane tekstove.)
 
 
 Tri šifrovana teksta koja je Morriss pronašao u gvozdenoj kutiji sastoje se od niza brojeva odvojenih zarezima. Prema Bealeovoj belešci, ovi šifrovani tekstovi zasebno pružaju lokaciju blaga, sadržaj blaga i spisak imena sa zakonitim naslednicima blaga i njihovim udelima (poslednja informacija je relevantna u slučaju da Beale i njegovi saradnici nikada ne dođu da preuzmu kutiju).
@@ -212,7 +212,7 @@ Važno je imati na umu razliku između **šeme enkripcije** i **kriptografske š
 Teme integriteta i autentičnosti su jednako važne kao i tajnost. Naši moderni komunikacioni sistemi ne bi mogli da funkcionišu bez garancija u vezi sa integritetom i autentičnošću komunikacija. Neporecivost ili neopozivost je takođe važna, kao na primer za digitalne ugovore, ali je manje univerzalno potrebna u kriptografskim aplikacijama u poređenju sa tajnošću, integritetom i autentičnošću.
 
 
-Drugo, klasične šeme šifrovanja kao što su Beale šifre uvek uključuju jedan ključ koji je deljen među svim relevantnim stranama. Međutim, mnoge moderne kriptografske šeme uključuju ne samo jedan, već dva ključa: **privatni** i **javni ključ**. Dok prvi treba da ostane privatan u svim aplikacijama, drugi je obično javno poznat (otuda i njihova imena). U okviru šifrovanja, javni ključ može biti korišćen za šifrovanje poruke, dok se privatni ključ može koristiti za dešifrovanje.
+Drugo, klasične šeme šifrovanja kao što su Beale šifre uvek uključuju jedan ključ koji je deljen među svim relevantnim stranama. Međutim, mnoge moderne kriptografske šeme uključuju ne samo jedan, već dva ključa: **privatni** i **[javni ključ](https://planb.academy/resources/glossary/public-key)**. Dok prvi treba da ostane privatan u svim aplikacijama, drugi je obično javno poznat (otuda i njihova imena). U okviru šifrovanja, javni ključ može biti korišćen za šifrovanje poruke, dok se [privatni ključ](https://planb.academy/resources/glossary/private-key) može koristiti za dešifrovanje.
 
 
 Grana kriptografije koja se bavi šemama gde sve strane dele jedan ključ poznata je kao **simetrična kriptografija**. Jedan ključ u takvoj šemi obično se naziva **privatni ključ** (ili tajni ključ). Grana kriptografije koja se bavi šemama koje zahtevaju par privatnog i javnog ključa poznata je kao **asimetrična kriptografija**. Ove grane se ponekad nazivaju i **kriptografija privatnog ključa** i **kriptografija javnog ključa**, respektivno (iako to može izazvati zabunu, jer šeme javne kriptografije takođe imaju privatne ključeve).
@@ -221,7 +221,7 @@ Grana kriptografije koja se bavi šemama gde sve strane dele jedan ključ poznat
 Pojava asimetrične kriptografije krajem 1970-ih bila je jedan od najvažnijih događaja u istoriji kriptografije. Bez nje, većina naših modernih komunikacionih sistema, uključujući Bitcoin, ne bi bila moguća, ili bi barem bila veoma nepraktična.
 
 
-Važno je napomenuti da moderna kriptografija nije isključivo proučavanje simetričnih i asimetričnih kriptografskih šema (iako to pokriva veći deo oblasti). Na primer, kriptografija se takođe bavi heš funkcijama i generatorima pseudonasumičnih brojeva, i možete izgraditi aplikacije na ovim primitivima koje nisu povezane sa simetričnom ili asimetričnom kriptografijom ključeva.
+Važno je napomenuti da moderna kriptografija nije isključivo proučavanje simetričnih i asimetričnih kriptografskih šema (iako to pokriva veći deo oblasti). Na primer, kriptografija se takođe bavi [heš funkcijama](https://planb.academy/resources/glossary/hash-function) i generatorima pseudonasumičnih brojeva, i možete izgraditi aplikacije na ovim primitivima koje nisu povezane sa simetričnom ili asimetričnom kriptografijom ključeva.
 
 
 Treće, klasične šeme šifrovanja, poput onih korišćenih u Beale šiframa, bile su više umetnost nego nauka. Njihova percipirana sigurnost uglavnom se zasnivala na intuicijama u vezi sa njihovom složenošću. Obično bi bile zakrpljene kada bi se saznalo za novi napad na njih, ili bi bile potpuno odbačene ako je napad bio posebno ozbiljan. Međutim, moderna kriptografija je rigorozna nauka sa formalnim, matematičkim pristupom kako razvoju, tako i analizi kriptografskih šema. [5]
@@ -2461,7 +2461,7 @@ Barem jedna primarna motivacija za njihov poduhvat bila je predviđanje da će o
 Upornost Diffieja, Hellmana i Merklea se isplatila. Prva objava njihovih rezultata bila je rad Diffieja i Helmana iz 1976. godine pod nazivom „New Directions in Cryptography.” U njemu su predstavili dva originalna načina za rešavanje probleme distribucije ključeva i upravljanja ključevima.
 
 
-Prvo rešenje koje su ponudili bilo je *protokol razmene ključs* na daljinu, odnosno skup pravila za razmenu jednog ili više simetričnih ključeva preko nesigurnog komunikacionog kanala. Ovaj protokol je sada poznat kao *Diffie-Helmann key Exchange* ili *Diffie-Helmann-Merkle key Exchange*. [2]
+Prvo rešenje koje su ponudili bilo je *protokol razmene ključs* na daljinu, odnosno skup pravila za razmenu jednog ili više simetričnih ključeva preko nesigurnog komunikacionog kanala. Ovaj protokol je sada poznat kao *[Diffie-Helmann](https://planb.academy/resources/glossary/diffiehellman) key Exchange* ili *Diffie-Helmann-Merkle key Exchange*. [2]
 
 
 Sa Diffie-Helmann razmenom ključa, dve strane prvo razmene neke informacije javno na nesigurnom kanalu kao što je internet. Na osnovu tih informacija, zatim, nezavisno kreiraju simetrični ključ (ili par simetričnih ključeva) za sigurnu komunikaciju. Iako obe strane nezavisno kreiraju svoje ključeve, informacije koje su podelili javno osiguravaju da ovaj proces kreiranja ključa daje isti rezultat za obe strane.
@@ -2512,7 +2512,7 @@ Funkcije sa skrivenim vratima korišćene u asimetričnoj kriptografiji (i Diffi
 **Problem diskretnog logaritma** je problem koji se javlja u cikličkim grupama. Dat je generator u određenoj cikličkoj grupi, i potrebno je izračunati jedinstveni eksponent potreban da se iz generatora proizvede drugi element u grupi.
 
 
-Šeme zasnovane na diskretnom logaritmu oslanjaju se na dve glavne vrste cikličnih grupa: multiplikativne grupe celih brojeva i grupe koje uključuju tačke na eliptičkim krivama. Originalni Diffie Helmann protokol za razmenu ključa, kako je predstavljen u “New Directions in Cryptography”, radi sa cikličnom multiplikativnom grupom celih brojeva. Bitcoin-ov algoritam digitalnog potpisa i nedavno uvedena Schnorr šema potpisa (2021) zasnovani su na problemu diskretnog logaritma za određenu cikličnu grupu eliptičke krive.
+Šeme zasnovane na diskretnom logaritmu oslanjaju se na dve glavne vrste cikličnih grupa: multiplikativne grupe celih brojeva i grupe koje uključuju tačke na [eliptičkim krivama](https://planb.academy/resources/glossary/elliptic-curve). Originalni Diffie Helmann protokol za razmenu ključa, kako je predstavljen u “New Directions in Cryptography”, radi sa cikličnom multiplikativnom grupom celih brojeva. Bitcoin-ov algoritam [digitalnog potpisa](https://planb.academy/resources/glossary/digital-signature) i nedavno uvedena [Schnorr šema potpisa](https://planb.academy/resources/glossary/schnorr-protocol) (2021) zasnovani su na problemu diskretnog logaritma za određenu cikličnu grupu eliptičke krive.
 
 
 Zatim ćemo preći na pregled tajnosti i autentifikacije na visokom nivou u asimetričnom okruženju. Međutim, pre nego što to učinimo, potrebno je da napravimo kratku istorijsku napomenu.
@@ -2613,7 +2613,7 @@ Za još jedan primer, digitalni potpisi su važan aspekt bezbednog softvera i di
 Kao poslednji primer moći digitalnih potpisa, razmotrite Bitcoin. Jedna od najčešćih zabluda o Bitcoin-u, posebno u medijima, jeste da su transakcije šifrovane: nisu. Umesto toga, Bitcoin transakcije rade sa digitalnim potpisima kako bi se osigurala bezbednost.
 
 
-Bitkoini postoje u serijama koje se nazivaju neiskorišćeni izlazi transakcija (ili **UTXO**). Pretpostavimo da primite tri uplate na određenoj Bitcoin adresi za po 2 bitkoina. Tehnički, sada nemate 6 bitkoina na toj adresi. Umesto toga, imate tri serije od po 2 bitkoina koja su zaključana kriptografskim problemom povezanim sa tom adresom. Za svaku uplatu koju izvršite, možete koristiti jednu, dve ili sve tri od ovih serija, u zavisnosti od toga koliko vam je potrebno za transakciju.
+Bitkoini postoje u serijama koje se nazivaju neiskorišćeni izlazi transakcija (ili **[UTXO](https://planb.academy/resources/glossary/utxo)**). Pretpostavimo da primite tri uplate na određenoj Bitcoin adresi za po 2 bitkoina. Tehnički, sada nemate 6 bitkoina na toj adresi. Umesto toga, imate tri serije od po 2 bitkoina koja su zaključana kriptografskim problemom povezanim sa tom adresom. Za svaku uplatu koju izvršite, možete koristiti jednu, dve ili sve tri od ovih serija, u zavisnosti od toga koliko vam je potrebno za transakciju.
 
 
 Dokaz vlasništva nad neiskorišćenim izlazima transakcija obično se prikazuje putem jednog ili više digitalnih potpisa. Bitcoin funkcioniše upravo zato što je izrada važećih digitalnih potpisa na neiskorišćenim izlazima transakcija računski neizvodljiva, osim ako ne posedujete tajne informacije potrebne za njihovu izradu.
@@ -2683,7 +2683,7 @@ Hajde da počnemo sa definisanjem heš funkcije. **Heš funkcija** je bilo koja 
 U kontekstu kriptografije, "heš funkcija" se obično odnosi na kriptografsku heš funkciju. Usvojiću tu praksu od sada nadalje.
 
 
-Primer popularne heš funkcije je **SHA-256** (sigurni heš algoritam 256). Bez obzira na veličinu ulaza (npr. 15 bita, 100 bita, ili 10,000 bita), ova funkcija će dati 256-bitnu heš vrednost. Ispod možete videti nekoliko primera izlaza funkcije SHA-256.
+Primer popularne heš funkcije je **[SHA-256](https://planb.academy/resources/glossary/sha256)** (sigurni heš algoritam 256). Bez obzira na veličinu ulaza (npr. 15 bita, 100 bita, ili 10,000 bita), ova funkcija će dati 256-bitnu heš vrednost. Ispod možete videti nekoliko primera izlaza funkcije SHA-256.
 
 
 „Hello“: `185f8db32271fe25f561a6fc938b2e264306ec304eda518007d1764826381969`

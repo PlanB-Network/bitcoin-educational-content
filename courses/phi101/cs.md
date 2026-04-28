@@ -800,7 +800,7 @@ Podle francouzského historika však musí být vzestup kapitalismu umístěn do
 Systematické studium ekonomických zákonů začíná ve vrcholném středověku. Prvními ekonomy jsou scholastičtí teologové Pařížské školy. Prvním z nich, kdo napsal vědeckou práci zcela věnovanou ekonomickému tématu, je Nicolas Oresme (1325-1382). Kolem roku 1360 složil svou _Rozpravu o původu, povaze, zákonu a změnách peněz_, která shrnuje a rozvíjí myšlenky scholastiků své doby.
 ![image](assets/cs/049.webp)
 
-V jádru jeho měnové analýzy leží problém "mutací" peněz, tj. změn v kovovém obsahu mincí a jejich nominální hodnotě. Tyto změny se odehrávají od počátku času a jsou dobře zdokumentovány pro antiku a středověk. Jejich nejviditelnějším efektem je změna kupní síly měnové jednotky, zejména její snížení. Jedná se o primitivní formu inflace, kterou Oresme jasně odsuzuje jako zlo.
+V jádru jeho měnové analýzy leží problém "mutací" peněz, tj. změn v kovovém obsahu mincí a jejich nominální hodnotě. Tyto změny se odehrávají od počátku času a jsou dobře zdokumentovány pro antiku a středověk. Jejich nejviditelnějším efektem je změna kupní síly měnové jednotky, zejména její snížení. Jedná se o primitivní formu [inflace](https://planb.academy/resources/glossary/inflation), kterou Oresme jasně odsuzuje jako zlo.
 
 Oresme ihned klade zásadní otázku: je inflace prospěšná pro komunitu? Odpovídá záporně s tím, že inflace nedělá peníze pro výměny ani více, ani méně užitečnými. Ekonomika může fungovat dobře bez ohledu na úroveň cen, a tedy bez ohledu na nominální peněžní zásobu.
 Pokud to ale tak je, objevuje se zřejmě další otázka: proč existují změny měny? A zejména, proč usilovat o zvýšení peněžní zásoby? Oresme odpovídá, že tyto změny nemají stejné důsledky pro různé členy komunity. Prospívají určitým lidem na úkor ostatních. Vítězové měnových změn mají materiální zájem na jejich provádění. Obvykle jsou to lidé u moci. Oresme píše:
@@ -963,7 +963,7 @@ Není nutné dokazovat, že každý jednotlivec je jediným soudcem nejvýhodně
 
 Zde Turgot v mnohém předjímá argument Misesa a Hayeka o nemožnosti jakéhokoli ekonomického výpočtu v socialistickém ekonomickém systému.
 
-Věnující kapitolu "Brilance Turgota," Murray Rothbard ve své ekonomické historii z rakouské perspektivy zdůrazňuje, že "vliv Turgota na následující ekonomické myšlení byl vážně omezen (...) následujícím mýtem, že Adam Smith byl zakladatelem politické ekonomie." A dodává: "Byl to na Francouzi J.B. Sayovi, oficiálně následovníkovi Smithe, na kterém Turgot nakonec měl největší vliv, zejména jeho teorie hodnoty užitku."
+Věnující kapitolu "Brilance Turgota," Murray Rothbard ve své ekonomické historii z [rakouské](https://planb.academy/resources/glossary/austrian-school) perspektivy zdůrazňuje, že "vliv Turgota na následující ekonomické myšlení byl vážně omezen (...) následujícím mýtem, že Adam Smith byl zakladatelem politické ekonomie." A dodává: "Byl to na Francouzi J.B. Sayovi, oficiálně následovníkovi Smithe, na kterém Turgot nakonec měl největší vliv, zejména jeho teorie hodnoty užitku."
 
 ### Mistrovské dílo Condillaca
 
@@ -1509,7 +1509,7 @@ Píše:
 Pro Hayeka minulá nestabilita tržní ekonomiky vychází z faktu, že nejdůležitější regulátor tržních mechanismů, totiž peníze, nemohl sám být produktem tržního procesu.
 
 ![image](assets/cs/101.webp)
-Hayek věřil, že volný trh s privátními měnami by vedl k větší měnové stabilitě. Téměř 50 let později kryptoměna jako Bitcoin ztělesňuje Hayekovu vizi konkurence tím, že nabízí decentralizovanou alternativu k monopolistickému systému centrálních bank. Bitcoin, se svým emisním limitem 21 milionů jednotek, je zárukou proti inflaci a libovůli regulátorů.
+Hayek věřil, že volný trh s privátními měnami by vedl k větší měnové stabilitě. Téměř 50 let později [kryptoměna](https://planb.academy/resources/glossary/cryptocurrency) jako Bitcoin ztělesňuje Hayekovu vizi konkurence tím, že nabízí decentralizovanou alternativu k monopolistickému systému centrálních bank. Bitcoin, se svým emisním limitem 21 milionů jednotek, je zárukou proti inflaci a libovůli regulátorů.
 
 
 ## Závěr: síla nápadů

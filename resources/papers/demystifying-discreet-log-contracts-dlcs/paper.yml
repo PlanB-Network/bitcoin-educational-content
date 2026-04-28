@@ -1,0 +1,17 @@
+title: "Demystifying Discreet Log Contracts (DLCs)"
+original_language: en
+authors:
+  - The Firefish Team
+abstract: |
+  This document provides an educational overview of Discreet Log Contracts (DLCs), a Bitcoin-native smart contract protocol. DLCs enable conditional payments on Bitcoin without revealing contract details on-chain, offering enhanced privacy and scalability. The paper explains the technical architecture, cryptographic foundations, and practical applications of DLCs in the Bitcoin ecosystem.
+publication_date: 2026-03-18
+paper_type: whitepaper
+source: Firefish
+topics:
+  - Discreet Log Contracts
+  - Bitcoin Smart Contracts
+  - Privacy-Preserving Protocols
+  - Oracle-Based Contracts
+  - Schnorr Signatures
+pdf_url: https://docs.firefish.io/pdf/demystifying-dlcs.pdf
+id: 8ab25faa-cd5e-4480-8594-98f1ee5100b2

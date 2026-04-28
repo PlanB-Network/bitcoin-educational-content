@@ -6,4 +6,4 @@ wrong_answers:
   - Une clé privée
 explanation: |
   Si l'on simplifie, un bloc est simplement un ensemble de transactions regroupées.
-reviewed: false
+reviewed: true 

@@ -6,4 +6,4 @@ wrong_answers:
   - Kebutuhan untuk mentransmisikan kunci untuk setiap komunikasi
 explanation: |
   Masalah pengelolaan kunci terletak pada kesulitan dalam menyimpan dan mengamankan sepasang kunci untuk setiap pengguna, terutama ketika jumlah klien mencapai jutaan.
-reviewed: false
+reviewed: true

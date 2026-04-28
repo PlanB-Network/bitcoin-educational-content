@@ -156,8 +156,6 @@ Da li ste spremni da u potpunosti preuzmete kontrolu nad svojom IT sigurnošću,
 
 
 
-*N.B.: Ako naiđete na bilo koje nepoznate pojmove tokom kursa, molimo vas da se obratite [rečniku](https://planb.academy/resources/glossary) za definicije*
-
 
 
 ## Suštinski pregled SCU101
@@ -1240,7 +1238,7 @@ Parrot OS je takođe izveden iz Debiana. Nudi okruženje za pentesting, ofanzivn
 
 
 
-Tails je distribucija zasnovana na Debianu, fokusirana na privatnost. Sve prolazi kroz Tor mrežu i ništa se ne čuva između korisničkih sesija. To je idealna distribucija za osetljive jednokratne upotrebe (novinarstvo, aktivizam, generisanje Bitcoin seed-a...).
+Tails je distribucija zasnovana na Debianu, fokusirana na privatnost. Sve prolazi kroz [Tor](https://planb.academy/resources/glossary/tor) mrežu i ništa se ne čuva između korisničkih sesija. To je idealna distribucija za osetljive jednokratne upotrebe (novinarstvo, aktivizam, generisanje Bitcoin [seed](https://planb.academy/resources/glossary/seed)-a...).
 
 
 
@@ -4030,7 +4028,7 @@ Datoteka može biti netaknuta (neizmenjena), ali je objavljena od strane zloname
 
 
 
-Ova verifikacija porekla omogućena je digitalnim potpisom, kriptografskim mehanizmom koji povezuje datoteku sa privatnim ključem programera. Kada verifikujete ovaj potpis koristeći javni ključ programera (distribuiran putem sigurnih kanala), možete biti sigurni da datoteka zaista dolazi od te osobe.
+Ova verifikacija porekla omogućena je digitalnim potpisom, kriptografskim mehanizmom koji povezuje datoteku sa privatnim ključem programera. Kada verifikujete ovaj potpis koristeći [javni ključ](https://planb.academy/resources/glossary/public-key) programera (distribuiran putem sigurnih kanala), možete biti sigurni da datoteka zaista dolazi od te osobe.
 
 
 
@@ -4050,7 +4048,7 @@ Legitimni developer obično objavljuje hash vrednost originalne datoteke na svoj
 
 
 
-Drugi alat je digitalni potpis. Ovo verifikuje autentičnost instalacionog softvera. Programer potpisuje fajl koji sadrži hash vrednost svojim privatnim ključem, a vi možete verifikovati ovaj potpis koristeći odgovarajući javni ključ. Ovo dokazuje da je fajl objavio pravi autor.
+Drugi alat je [digitalni potpis](https://planb.academy/resources/glossary/digital-signature). Ovo verifikuje autentičnost instalacionog softvera. Programer potpisuje fajl koji sadrži hash vrednost svojim privatnim ključem, a vi možete verifikovati ovaj potpis koristeći odgovarajući javni ključ. Ovo dokazuje da je fajl objavio pravi autor.
 
 
 
@@ -8229,7 +8227,7 @@ Ovi portovi se takođe koriste u sistemima kao što su Bitcoin ili Tor, gde se s
 
 - Port `8333` se koristi za P2P konekcije na Bitcoin Mainnet
 - Port `18333` se koristi za P2P konekcije na Bitcoin Testnet
-- Port `8332` se koristi za RPC interfejs Bitcoin čvora
+- Port `8332` se koristi za RPC interfejs Bitcoin [čvora](https://planb.academy/resources/glossary/node)
 - Port `9050` koristi Tor-ov SOCKS5 proxy
 - Port `9150` koristi Tor Browser
 

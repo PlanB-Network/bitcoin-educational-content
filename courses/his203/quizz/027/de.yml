@@ -1,4 +1,4 @@
-question: Welches Problem wurde mit dem deterministischen wallet-Konzept gelöst, das im Juni 2011 vom Entwickler Gregory Maxwell formalisiert wurde?
+question: Welches Problem wurde mit dem deterministischen Wallet-Konzept gelöst, das im Juni 2011 vom Entwickler Gregory Maxwell formalisiert wurde?
 answer: Die Notwendigkeit regelmäßiger Sicherungskopien der privaten Schlüssel zur Sicherung von Bitcoins
 wrong_answers:
   - Das Risiko der Piraterie im Zusammenhang mit der Speicherung von Bitcoins auf einem mit dem Internet verbundenen Gerät

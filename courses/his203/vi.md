@@ -387,7 +387,7 @@ Không phải ai cũng hoan nghênh việc bài báo của Gawker đưa tin về
 
 
 
-Đặc biệt, lập trình viên Jeff Garzik, người tham gia phát triển phần mềm vào thời điểm đó, đã tỏ ra không hài lòng với sự liên kết không mong muốn này. Sau khi bài báo được xuất bản, ông đã đích thân liên hệ với Adrien Chen qua email để giải thích rằng Bitcoin không ẩn danh như vẻ ngoài của nó, tất cả các giao dịch đều được ghi lại vĩnh viễn trên blockchain. Ông kết thúc email của mình với nhận định sau:
+Đặc biệt, lập trình viên Jeff Garzik, người tham gia phát triển phần mềm vào thời điểm đó, đã tỏ ra không hài lòng với sự liên kết không mong muốn này. Sau khi bài báo được xuất bản, ông đã đích thân liên hệ với Adrien Chen qua email để giải thích rằng Bitcoin không ẩn danh như vẻ ngoài của nó, tất cả các giao dịch đều được ghi lại vĩnh viễn trên [blockchain](https://planb.academy/resources/glossary/blockchain). Ông kết thúc email của mình với nhận định sau:
 
 
 > "Với các kỹ thuật phân tích thống kê hiện có được các cơ quan thực thi pháp luật áp dụng, việc cố gắng thực hiện các giao dịch bất hợp pháp quy mô lớn bằng bitcoin là vô cùng ngu ngốc."
@@ -632,7 +632,7 @@ Thành công về mặt tài chính của bitcoin chắc chắn đã thu hút ti
 
 
 
-Như chúng tôi đã đề cập, Mt. Gox là một mục tiêu lý tưởng. Nó thường xuyên là mục tiêu của các cuộc tấn công từ chối dịch vụ (ví dụ: vào ngày [1 tháng 5](https://bitcointalk.org/index.php?topic=6931.msg101451#msg101451)). Hơn nữa, nó đã suýt gặp thảm họa vào tháng 5, khi một hacker chiếm đoạt 300.000 BTC trước khi trả lại 297.000 trong số đó.
+Như chúng tôi đã đề cập, Mt. Gox là một mục tiêu lý tưởng. Nó thường xuyên là mục tiêu của các cuộc tấn công từ chối dịch vụ ([ví](https://planb.academy/resources/glossary/wallet) dụ: vào ngày [1 tháng 5](https://bitcointalk.org/index.php?topic=6931.msg101451#msg101451)). Hơn nữa, nó đã suýt gặp thảm họa vào tháng 5, khi một hacker chiếm đoạt 300.000 BTC trước khi trả lại 297.000 trong số đó.
 
 
 
@@ -908,7 +908,7 @@ Năm 2011, ông chuyển đến Portsmouth, New Hampshire như một phần củ
 
 > "Ngày hôm đó là một trong những ngày quan trọng nhất trong cuộc đời tôi. Nó giống như việc khám phá ra một chân lý vĩ đại, như nhìn thấy tương lai. Tôi bỏ tất cả những gì mình đang làm và lao mình xuống vực thẳm."
 
-Động cơ chính của ông ta là về mặt ý thức hệ: ông ta bị quyến rũ bởi tính chất không thể ngăn cản của hệ thống và sự bất khả thi trong việc tạo ra nhiều tiền hơn kế hoạch. Ông ta [coi](https://silverunderground.com/2011/06/bitcoin-the-separation-of-money-and-state/) Bitcoin là hiện thân của "sự tách biệt giữa tiền tệ và nhà nước". Ông ta cũng bị thuyết phục bởi thực tiễn agorism do Samuel Konkin đề xướng và [tin rằng](https://bitcointalk.org/index.php?topic=34657.msg431717#msg431717) "Bitcoin đối với agorism cũng giống như mang cá đối với cá", tức là một bánh răng thiết yếu.
+Động cơ chính của ông ta là về mặt ý thức hệ: ông ta bị quyến rũ bởi tính chất không thể ngăn cản của hệ thống và sự bất khả thi trong việc tạo ra nhiều tiền hơn kế hoạch. Ông ta [coi](https://silverunderground.com/2011/06/bitcoin-the-separation-of-money-and-state/) Bitcoin là hiện thân của "sự tách biệt giữa tiền tệ và nhà nước". Ông ta cũng bị thuyết phục bởi thực tiễn [agorism](https://planb.academy/resources/glossary/agorism) do Samuel Konkin đề xướng và [tin rằng](https://bitcointalk.org/index.php?topic=34657.msg431717#msg431717) "Bitcoin đối với agorism cũng giống như mang cá đối với cá", tức là một bánh răng thiết yếu.
 
 
 
@@ -932,7 +932,7 @@ Với Bitcoin, Ira Miller đặt mục tiêu "xây dựng các hệ thống thay
 
 
 
-Hai người đàn ông này rất hợp nhau và kỹ năng của họ bổ sung cho nhau. Vào tháng 8, Erik Voorhees đang tìm kiếm một lập trình viên để phát triển một trong những ý tưởng của mình, và Ira đã nhận lời. Đó là FeedZeBirds (nghĩa đen là "cho chim ăn"), một nền tảng quảng cáo cho phép người dùng tăng cường nội dung trên Twitter bằng cách mua lượt retweet, mà họ đã [ra mắt](https://bitcointalk.org/index.php?topic=52638.msg628165#msg628165) vào ngày 23 tháng 11. Đó là một cách sử dụng đáng ngờ (Twitter chắc chắn không khuyến khích hành vi này), lợi dụng khả năng chống kiểm duyệt và không có phí giao dịch của Bitcoin. Vào ngày 28 tháng 11, hai đối tác đã [xuất hiện](https://www.youtube.com/watch?v=VuLAhZsFc1A) trên *Bitcoin Show* để quảng bá sản phẩm của họ. Sau đó, họ cũng phát triển bộ xử lý thanh toán Paysius và dịch vụ chuyển tiền qua email Coinapult.
+Hai người đàn ông này rất hợp nhau và kỹ năng của họ bổ sung cho nhau. Vào tháng 8, Erik Voorhees đang tìm kiếm một lập trình viên để phát triển một trong những ý tưởng của mình, và Ira đã nhận lời. Đó là FeedZeBirds (nghĩa đen là "cho chim ăn"), một nền tảng quảng cáo cho phép người dùng tăng cường nội dung trên Twitter bằng cách mua lượt retweet, mà họ đã [ra mắt](https://bitcointalk.org/index.php?topic=52638.msg628165#msg628165) vào ngày 23 tháng 11. Đó là một cách sử dụng đáng ngờ (Twitter chắc chắn không khuyến khích hành vi này), lợi dụng khả năng chống kiểm duyệt và không có [phí giao dịch](https://planb.academy/resources/glossary/transaction-fees) của Bitcoin. Vào ngày 28 tháng 11, hai đối tác đã [xuất hiện](https://www.youtube.com/watch?v=VuLAhZsFc1A) trên *Bitcoin Show* để quảng bá sản phẩm của họ. Sau đó, họ cũng phát triển bộ xử lý thanh toán Paysius và dịch vụ chuyển tiền qua email Coinapult.
 
 
 
@@ -1234,7 +1234,7 @@ Năm 2011, việc Bitcoin không cần sự cho phép đã khiến các thành v
 
 
 
-Một trong những cá nhân tham gia phong trào này là James McCarthy, người sử dụng biệt danh Nefario trên diễn đàn Bitcoin, lấy cảm hứng từ nhân vật cùng tên trong bộ phim hoạt hình *Despicable Me*. Nefario là người Ireland sống ở Trung Quốc, làm giáo sư tiếng Anh tại một trường đại học. Ông quan tâm đến trường phái Áo và các ý tưởng của phong trào cypherpunk, tự nhận mình là "một người theo chủ nghĩa cypherpunk". Ông phát hiện ra sự tồn tại của Bitcoin vào năm 2010 và đã khai thác hơn một nghìn đồng tiền này. Sau đó, ông tham gia vào một số dự án, trong đó có dự án tạp chí trực tuyến Bitcoin Weekly.
+Một trong những cá nhân tham gia phong trào này là James McCarthy, người sử dụng biệt danh Nefario trên diễn đàn Bitcoin, lấy cảm hứng từ nhân vật cùng tên trong bộ phim hoạt hình *Despicable Me*. Nefario là người Ireland sống ở Trung Quốc, làm giáo sư tiếng Anh tại một trường đại học. Ông quan tâm đến [trường phái Áo](https://planb.academy/resources/glossary/austrian-school) và các ý tưởng của phong trào cypherpunk, tự nhận mình là "một người theo chủ nghĩa cypherpunk". Ông phát hiện ra sự tồn tại của Bitcoin vào năm 2010 và đã khai thác hơn một nghìn đồng tiền này. Sau đó, ông tham gia vào một số dự án, trong đó có dự án tạp chí trực tuyến Bitcoin Weekly.
 
 
 
@@ -1387,7 +1387,7 @@ Paymium SAS là một công ty Pháp được thành lập bởi Gonzague Grandv
 
 
 
-Đây cũng là thời điểm thích hợp để viết lại giao thức Bitcoin. Phần mềm chính, lúc đó chỉ được gọi đơn giản là "Bitcoin", là một phiên bản hoàn chỉnh vì nó yêu cầu duy trì toàn bộ chuỗi khối và chuyển tiếp các giao dịch và khối mới. Nhưng nó là phiên bản duy nhất tồn tại, vì vậy toàn bộ mạng lưới phụ thuộc vào nó để hoạt động. Do đó, nảy sinh mong muốn phát triển các phiên bản thay thế của Bitcoin.
+Đây cũng là thời điểm thích hợp để viết lại giao thức Bitcoin. Phần mềm chính, lúc đó chỉ được gọi đơn giản là "Bitcoin", là một phiên bản hoàn chỉnh vì nó yêu cầu duy trì toàn bộ chuỗi [khối](https://planb.academy/resources/glossary/block) và chuyển tiếp các giao dịch và khối mới. Nhưng nó là phiên bản duy nhất tồn tại, vì vậy toàn bộ mạng lưới phụ thuộc vào nó để hoạt động. Do đó, nảy sinh mong muốn phát triển các phiên bản thay thế của Bitcoin.
 
 
 
@@ -1400,7 +1400,7 @@ Tuy nhiên, nhận xét này không áp dụng cho các triển khai một phầ
 
 
 
-Phần mềm do Mike Hearn phát triển có tên là BitCoinJ. Đây là một triển khai của Xác minh Thanh toán Đơn giản (SPV) như được mô tả trong sách trắng, chủ yếu tương tác với các máy khách mỏng, đặc biệt là các máy khách trên điện thoại sử dụng hệ điều hành Android. Mike đã phát triển dự án này [từ](https://plan99.net/~mike/satoshi-emails/thread3.html) vào cuối năm 2010 và [công bố](https://bitcointalk.org/index.php?topic=4236.msg61438#msg61438) phiên bản đầu tiên vào ngày 7 tháng 3 năm 2011. Vì ông đang làm kỹ sư tại Google, mã nguồn phải được ghi nhận thuộc về công ty đa quốc gia, nhưng giấy phép (Apache 2) là mã nguồn mở.
+Phần mềm do Mike Hearn phát triển có tên là BitCoinJ. Đây là một triển khai của Xác minh Thanh toán Đơn giản (SPV) như được mô tả trong [sách trắng](https://planb.academy/resources/glossary/white-paper), chủ yếu tương tác với các máy khách mỏng, đặc biệt là các máy khách trên điện thoại sử dụng hệ điều hành Android. Mike đã phát triển dự án này [từ](https://plan99.net/~mike/satoshi-emails/thread3.html) vào cuối năm 2010 và [công bố](https://bitcointalk.org/index.php?topic=4236.msg61438#msg61438) phiên bản đầu tiên vào ngày 7 tháng 3 năm 2011. Vì ông đang làm kỹ sư tại Google, mã nguồn phải được ghi nhận thuộc về công ty đa quốc gia, nhưng giấy phép (Apache 2) là mã nguồn mở.
 
 
 
@@ -1494,11 +1494,11 @@ Gregory Maxwell có rất nhiều ý tưởng về cách cải thiện việc s�
 
 > "Bitcoin thực sự nên cung cấp và mặc định sử dụng các wallet có tính xác định. Tính bảo mật bổ sung của các wallet trước generated hiện tại khá nhỏ nếu xét đến cách hầu hết mọi người sử dụng bitcoin và trách nhiệm pháp lý đối với thiệt hại do sao lưu không đầy đủ và áp lực ngày càng tăng để duy trì một wallet trực tuyến là rất lớn."
 
-Có hai loại phương pháp tạo địa chỉ giả mạo được đề xuất. Loại thứ nhất (loại 1) khá đơn giản, tạo ra khóa riêng trực tiếp từ seed. Loại thứ hai (loại 2) phức tạp hơn, nhưng cho phép tạo ra địa chỉ giả mạo từ khóa công khai chính được lấy từ seed, mà không cần truy cập trực tiếp vào seed. Điều này cho phép phần mềm xử lý thanh toán sử dụng generate để tạo địa chỉ cho mỗi giao dịch mà không làm lộ khóa riêng.
+Có hai loại phương pháp tạo địa chỉ giả mạo được đề xuất. Loại thứ nhất (loại 1) khá đơn giản, tạo ra khóa riêng trực tiếp từ seed. Loại thứ hai (loại 2) phức tạp hơn, nhưng cho phép tạo ra địa chỉ giả mạo từ [khóa công khai](https://planb.academy/resources/glossary/public-key) chính được lấy từ seed, mà không cần truy cập trực tiếp vào seed. Điều này cho phép phần mềm xử lý thanh toán sử dụng generate để tạo địa chỉ cho mỗi giao dịch mà không làm lộ khóa riêng.
 
 
 
-Sau đó, vào tháng 2 năm 2012, quá trình tiêu chuẩn hóa đã diễn ra với việc công bố BIP 32. Tài liệu này mô tả cấu trúc chung của *Wallet xác định theo thứ bậc*, HD Wallet, trong đó các phép dẫn xuất được sử dụng một cách có hệ thống để tạo ra các khóa và địa chỉ seed. Nó đã dần được hầu hết các wallet áp dụng trong những năm qua.
+Sau đó, vào tháng 2 năm 2012, quá trình tiêu chuẩn hóa đã diễn ra với việc công bố [BIP](https://planb.academy/resources/glossary/bip) 32. Tài liệu này mô tả cấu trúc chung của *Wallet xác định theo thứ bậc*, HD Wallet, trong đó các phép dẫn xuất được sử dụng một cách có hệ thống để tạo ra các khóa và địa chỉ seed. Nó đã dần được hầu hết các wallet áp dụng trong những năm qua.
 
 
 
@@ -1700,7 +1700,7 @@ Bitbills đã đạt được một số thành công, nhưng Doug Feigelson đ�
 
 
 
-Mike Caldwell là một nhà phát triển người Mỹ 33 tuổi, sống ở vùng ngoại ô Salt Lake City, Utah, và điều hành một công ty tự động hóa kinh doanh có tên là [Swipeclock](https://www.linkedin.com/company/swipeclock/). Tên giả của ông, Casascius, là dạng Latin hóa của CASAS, viết tắt của câu tục ngữ *gọi thẳng tên sự việc*. Là một người theo chủ nghĩa duy lý, ông bị cuốn hút bởi mật mã học và khía cạnh kỹ thuật của Bitcoin. Ông từng thử sức với mining một thời gian.
+Mike Caldwell là một nhà phát triển người Mỹ 33 tuổi, sống ở vùng ngoại ô Salt Lake City, Utah, và điều hành một công ty tự động hóa kinh doanh có tên là [Swipeclock](https://www.linkedin.com/company/swipeclock/). Tên giả của ông, Casascius, là dạng Latin hóa của CASAS, viết tắt của câu tục ngữ *gọi thẳng tên sự việc*. Là một người theo chủ nghĩa duy lý, ông bị cuốn hút bởi [mật mã học](https://planb.academy/resources/glossary/cryptography) và khía cạnh kỹ thuật của Bitcoin. Ông từng thử sức với mining một thời gian.
 
 
 
@@ -1757,7 +1757,7 @@ Với sự phổ biến của Con đường Tơ lụa và việc WikiLeaks sử 
 
 
 
-Đầu tiên là BitLaundry. Dịch vụ này được [ra mắt](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) vào tháng 9 năm 2010 bởi Peter Vessenes, một doanh nhân người Mỹ có bằng cấp về mật mã học, người đã phát hiện ra sự tồn tại của Bitcoin vào thời điểm xảy ra vụ slashdotting. Công cụ trộn tiền [cung cấp](https://maltemoeser.de/paper/money-laundering.pdf#page=5) cho người dùng một địa chỉ sử dụng một lần, nơi gửi đến số tiền cần được ẩn danh. Sau đó, bitcoin được gửi lại dưới dạng nhiều đồng tiền (UTXO), trong một giao dịch đa mục nhập bao gồm bitcoin từ những người dùng khác, làm cho việc trộn tiền có hiệu quả. Phí được tính khoảng 2,5% số tiền liên quan. Vào tháng 5 năm 2011, nhận thấy những rắc rối pháp lý có thể phát sinh từ hoạt động này, Peter Vessenes [đã chuyển giao](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) dịch vụ cho Mike Gogulski, một nhà hoạt động nổi tiếng vì không có quốc tịch, đã từ bỏ quốc tịch Mỹ mà không sở hữu quốc tịch nào khác.
+Đầu tiên là BitLaundry. Dịch vụ này được [ra mắt](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) vào tháng 9 năm 2010 bởi Peter Vessenes, một doanh nhân người Mỹ có bằng cấp về mật mã học, người đã phát hiện ra sự tồn tại của Bitcoin vào thời điểm xảy ra vụ slashdotting. Công cụ trộn tiền [cung cấp](https://maltemoeser.de/paper/money-laundering.pdf#page=5) cho người dùng một địa chỉ sử dụng một lần, nơi gửi đến số tiền cần được ẩn danh. Sau đó, bitcoin được gửi lại dưới dạng nhiều đồng tiền ([UTXO](https://planb.academy/resources/glossary/utxo)), trong một giao dịch đa mục nhập bao gồm bitcoin từ những người dùng khác, làm cho việc trộn tiền có hiệu quả. Phí được tính khoảng 2,5% số tiền liên quan. Vào tháng 5 năm 2011, nhận thấy những rắc rối pháp lý có thể phát sinh từ hoạt động này, Peter Vessenes [đã chuyển giao](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) dịch vụ cho Mike Gogulski, một nhà hoạt động nổi tiếng vì không có quốc tịch, đã từ bỏ quốc tịch Mỹ mà không sở hữu quốc tịch nào khác.
 
 
 
@@ -1777,7 +1777,7 @@ Loại thứ ba là một loại đặc biệt, vì nó là bộ trộn được
 
 
 
-Sự bùng nổ của các bộ trộn tập trung đã thúc đẩy tư duy về trộn tiền điện tử phi tập trung, bắt đầu từ mùa hè năm 2011 với đề xuất [đề xuất](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) do Hashcoin đưa ra. Điều này dẫn đến việc [chính thức hóa](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) CoinJoin bởi Gregory Maxwell vào năm 2013. Nhưng đó lại là một câu chuyện hoàn toàn khác...
+Sự bùng nổ của các bộ trộn tập trung đã thúc đẩy tư duy về trộn tiền điện tử phi tập trung, bắt đầu từ mùa hè năm 2011 với đề xuất [đề xuất](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) do Hashcoin đưa ra. Điều này dẫn đến việc [chính thức hóa](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) [CoinJoin](https://planb.academy/resources/glossary/coinjoin) bởi Gregory Maxwell vào năm 2013. Nhưng đó lại là một câu chuyện hoàn toàn khác...
 
 
 
@@ -1808,7 +1808,7 @@ Thời kỳ miền Viễn Tây nước Mỹ được đặc trưng bởi cơn s�
 
 
 
-Vào mùa thu năm 2010, làn sóng thợ đào đầu tiên đã dẫn đến việc sử dụng rộng rãi GPU (bộ xử lý đồ họa) mining, vốn mang lại lợi nhuận cao hơn nhiều so với CPU (bộ xử lý trung tâm) mining. Tuy nhiên, tiến bộ kỹ thuật này đã làm tăng độ khó của mạng lưới đến mức các thợ đào nhỏ lẻ không còn hy vọng tìm được một khối trong một khoảng thời gian hợp lý. Điều này dẫn đến sự hình thành các nhóm thợ đào, chẳng hạn như BitcoinCZ Mining, Slush Pool. Đà phát triển không dừng lại ở đó: khi giá tăng vào năm 2011, dòng thợ đào tiếp tục đổ vào và pool mining nhanh chóng ổn định.
+Vào mùa thu năm 2010, làn sóng thợ đào đầu tiên đã dẫn đến việc sử dụng rộng rãi GPU (bộ xử lý đồ họa) mining, vốn mang lại lợi nhuận cao hơn nhiều so với CPU (bộ xử lý trung tâm) mining. Tuy nhiên, tiến bộ kỹ thuật này đã làm tăng [độ khó](https://planb.academy/resources/glossary/difficulty) của mạng lưới đến mức các thợ đào nhỏ lẻ không còn hy vọng tìm được một khối trong một khoảng thời gian hợp lý. Điều này dẫn đến sự hình thành các nhóm thợ đào, chẳng hạn như BitcoinCZ Mining, Slush Pool. Đà phát triển không dừng lại ở đó: khi giá tăng vào năm 2011, dòng thợ đào tiếp tục đổ vào và pool mining nhanh chóng ổn định.
 
 
 
@@ -1996,7 +1996,7 @@ Một cách để chống lại sự tập trung hóa do việc sử dụng rộ
 
 
 
-Mô hình này dựa trên "chuỗi chia sẻ" (sharechain), được duy trì bởi các thợ đào tham gia kết nối ngang hàng, tương tự như chuỗi khối Bitcoin. Mỗi phần chia sẻ chứa dấu vân tay của phần chia sẻ trước đó, liên kết các phần chia sẻ với nhau và đảm bảo tính toàn vẹn của toàn bộ. Độ khó (ban đầu thấp hơn 600 lần so với độ khó của mạng chính) được điều chỉnh thường xuyên để đảm bảo khoảng thời gian trung bình là 5 giây. Phương thức trả thưởng là thanh toán theo N phần chia sẻ cuối cùng (PPLNS), được thực hiện trực tiếp trong giao dịch phần thưởng, mỗi khi tìm thấy một khối.
+Mô hình này dựa trên "chuỗi chia sẻ" (sharechain), được duy trì bởi các thợ đào tham gia kết nối [ngang hàng](https://planb.academy/resources/glossary/peertopeer-p2p), tương tự như chuỗi khối Bitcoin. Mỗi phần chia sẻ chứa dấu vân tay của phần chia sẻ trước đó, liên kết các phần chia sẻ với nhau và đảm bảo tính toàn vẹn của toàn bộ. Độ khó (ban đầu thấp hơn 600 lần so với độ khó của mạng chính) được điều chỉnh thường xuyên để đảm bảo khoảng thời gian trung bình là 5 giây. Phương thức trả thưởng là thanh toán theo N phần chia sẻ cuối cùng (PPLNS), được thực hiện trực tiếp trong giao dịch phần thưởng, mỗi khi tìm thấy một khối.
 
 
 
@@ -2067,7 +2067,7 @@ Rõ ràng, sự phát triển của mining không chỉ xoay quanh việc tổ c
 
 
 
-Sự phát triển cuối cùng này, được Satoshi Nakamoto [lên kế hoạch](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html) từ lâu, đã được phát triển dần dần nhờ các mạch logic lập trình được (FPGA), cho phép tối ưu hóa phần cứng cho hàm băm của Bitcoin. Thuật toán FPGA mã nguồn mở đầu tiên được [công bố](https://bitcointalk.org/index.php?topic=9047.msg130885#msg130885) vào tháng 5 năm 2011, và ASIC đã áp dụng các tối ưu hóa FPGA cho chính các chip. Đợt bán trước ASIC đầu tiên, do công ty Butterfly Labs của Mỹ thực hiện, [đã diễn ra](https://web.archive.org/web/20120619090952/http://news.yahoo.com/butterfly-labs-announces-next-generation-asic-lineup-054626776.html) vào tháng 6 năm 2012. Cuối cùng, chiếc ASIC hoạt động đầu tiên, Avalon ASIC, đã được [phân phối](https://bitcointalk.org/index.php?topic=137534.msg1465887#msg1465887) cho công chúng vào tháng 1 năm 2013.
+Sự phát triển cuối cùng này, được Satoshi Nakamoto [lên kế hoạch](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html) từ lâu, đã được phát triển dần dần nhờ các mạch logic lập trình được (FPGA), cho phép tối ưu hóa phần cứng cho [hàm băm](https://planb.academy/resources/glossary/hash-function) của Bitcoin. Thuật toán FPGA mã nguồn mở đầu tiên được [công bố](https://bitcointalk.org/index.php?topic=9047.msg130885#msg130885) vào tháng 5 năm 2011, và ASIC đã áp dụng các tối ưu hóa FPGA cho chính các chip. Đợt bán trước ASIC đầu tiên, do công ty Butterfly Labs của Mỹ thực hiện, [đã diễn ra](https://web.archive.org/web/20120619090952/http://news.yahoo.com/butterfly-labs-announces-next-generation-asic-lineup-054626776.html) vào tháng 6 năm 2012. Cuối cùng, chiếc ASIC hoạt động đầu tiên, Avalon ASIC, đã được [phân phối](https://bitcointalk.org/index.php?topic=137534.msg1465887#msg1465887) cho công chúng vào tháng 1 năm 2013.
 
 
 
@@ -2086,7 +2086,7 @@ Sau khi Satoshi Nakamoto rời đi, việc phát triển phần mềm được c
 
 
 
-Vào mùa đông năm 2011-2012, một cuộc tranh cãi đã nảy sinh xung quanh việc triển khai chữ ký đa chữ ký trong Bitcoin. Nó liên quan đến, trong số những thứ khác, kế hoạch được gọi là "Pay to Script Hash", hay P2SH. Pete Rizzo và Aaron van Wirdum gọi cuộc xung đột này là "Trận chiến P2SH". Đây là tranh chấp lớn đầu tiên về sự phát triển của giao thức, và là tranh chấp đầu tiên đặt ra câu hỏi về quản trị.
+Vào mùa đông năm 2011-2012, một cuộc tranh cãi đã nảy sinh xung quanh việc triển khai chữ ký đa chữ ký trong Bitcoin. Nó liên quan đến, trong số những thứ khác, kế hoạch được gọi là "Pay to [Script](https://planb.academy/resources/glossary/script) Hash", hay P2SH. Pete Rizzo và Aaron van Wirdum gọi cuộc xung đột này là "Trận chiến P2SH". Đây là tranh chấp lớn đầu tiên về sự phát triển của giao thức, và là tranh chấp đầu tiên đặt ra câu hỏi về quản trị.
 
 
 
@@ -2642,7 +2642,7 @@ Bất chấp trở ngại này, Litecoin vẫn là một câu chuyện thành c�
 
 
 
-Khả năng kiếm tiền bằng cách sao chép Bitcoin và thu lợi từ sự tăng giá của các thiết bị này là điều hiển nhiên. Ngay từ tháng 11 năm 2010, thậm chí trước khi ý tưởng về BitDNS xuất hiện, khả năng này đã được nêu ra trên diễn đàn. Ribuck, một thành viên tích cực của diễn đàn vào thời điểm đó, đã [viết](https://bitcointalk.org/index.php?topic=1647.msg20646#msg20646) lên án các bản sao Bitcoin trong tương lai, đồng thời đặt ra thuật ngữ "shitcoin" trong quá trình này:
+Khả năng kiếm tiền bằng cách sao chép Bitcoin và thu lợi từ sự tăng giá của các thiết bị này là điều hiển nhiên. Ngay từ tháng 11 năm 2010, thậm chí trước khi ý tưởng về BitDNS xuất hiện, khả năng này đã được nêu ra trên diễn đàn. Ribuck, một thành viên tích cực của diễn đàn vào thời điểm đó, đã [viết](https://bitcointalk.org/index.php?topic=1647.msg20646#msg20646) lên án các bản sao Bitcoin trong tương lai, đồng thời đặt ra thuật ngữ "[shitcoin](https://planb.academy/resources/glossary/shitcoin)" trong quá trình này:
 
 
 
@@ -3563,3 +3563,21 @@ Sự gia tăng đầu cơ cũng là tin tốt cho Mt. Gox, giúp thị trường
 ---
 
 Khóa học về quá trình xây dựng Bitcoin từ mùa xuân năm 2011 đến mùa hè năm 2012 kết thúc tại đây. Giai đoạn tiếp theo của lịch sử tiền điện tử, đó là sự trỗi dậy không thể cưỡng lại của Bitcoin, sẽ được đề cập trong khóa học tiếp theo, nếu Chúa cho phép.
+# Conclusion
+
+<partId>85b5b21d-2754-41ad-9e25-21350488cfd3</partId>
+
+## Reviews & Ratings
+
+<chapterId>52d64403-1669-4852-ae4f-17ecfe1dc315</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Final Exam
+
+<chapterId>080fb5af-dfff-4600-95cb-61455831080f</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusion
+
+<chapterId>cd50980c-0c9e-43e5-97ec-4db79388335b</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

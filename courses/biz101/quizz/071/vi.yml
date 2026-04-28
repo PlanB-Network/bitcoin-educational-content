@@ -1,9 +1,9 @@
-question: LSP đóng vai trò gì trong thanh toán Enterprise Bitcoin?
-answer: Quản lý các giao dịch khối lượng lớn trên Lightning
+question: LSP đóng vai trò gì trong thanh toán Bitcoin dành cho doanh nghiệp?
+answer: Quản lý các giao dịch khối lượng lớn trên mạng Lightning
 wrong_answers:
-  - Lưu trữ khóa riêng của Lightning wallet
+  - Lưu trữ khóa riêng của ví Lightning
   - In hóa đơn Lightning
-  - Xử lý hoàn tiền thủ công trên Lightning
+  - Xử lý thủ công việc hoàn tiền trên Lightning
 explanation: |
-  LSP xử lý các hoạt động phức tạp và khối lượng lớn trên mạng Lightning.
+  LSP xử lý các hoạt động phức tạp với khối lượng lớn trên mạng Lightning.
 reviewed: true

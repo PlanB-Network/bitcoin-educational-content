@@ -934,7 +934,7 @@ L'étude systématique des lois économiques commence au Haut Moyen Âge. Les pr
 
 ![image](assets/fr/049.webp)
 
-Au cœur de son analyse monétaire se trouve le problème des « mutations » de la monnaie, c'est-à-dire des altérations du contenu métallique des pièces et de leur dénomination. Ces altérations ont lieu depuis l'aube des temps et sont bien documentées pour l'Antiquité et le Moyen Âge. Leur effet le plus visible est de changer le pouvoir d'achat de l'unité monétaire, en particulier de le diminuer. Il s'agit alors d'une forme primitive d'inflation qu’Oresme condamne clairement comme un mal.
+Au cœur de son analyse monétaire se trouve le problème des « mutations » de la monnaie, c'est-à-dire des altérations du contenu métallique des pièces et de leur dénomination. Ces altérations ont lieu depuis l'aube des temps et sont bien documentées pour l'Antiquité et le Moyen Âge. Leur effet le plus visible est de changer le pouvoir d'achat de l'unité monétaire, en particulier de le diminuer. Il s'agit alors d'une forme primitive d'[inflation](https://planb.academy/resources/glossary/inflation) qu’Oresme condamne clairement comme un mal.
 
 Oresme soulève d'emblée une question centrale : l'inflation est-elle utile pour la communauté ? Il répond par la négative, soutenant que l'inflation ne rend la monnaie ni plus ni moins utile pour les échanges. L'économie peut bien fonctionner quel que soit le niveau des prix, et donc quelle que soit la masse monétaire nominale.
 
@@ -1120,7 +1120,7 @@ Turgot est un apôtre du droit naturel, qu’il appelle aussi « système de la 
 
 Turgot anticipe ici largement l’argument de Mises et de Hayek sur l’impossibilité de tout calcul économique dans un système économique socialiste.
 
-Consacrant un chapitre à « L’Éclat de Turgot », Murray Rothbard dans son histoire économique d’un point de vue autrichien, souligne que « l’influence de Turgot sur la pensée économique ultérieure fut sérieusement restreinte (…) par le mythe suivant lequel Adam Smith serait le fondateur de l’économie politique. » Et il ajoute : « c’est sur le Français J.B. Say, officiellement adepte de Smith, que Turgot a finalement eu le plus d’influence, particulièrement sa théorie de la valeur-utilité. »
+Consacrant un chapitre à « L’Éclat de Turgot », Murray Rothbard dans son histoire économique d’un point de vue [autrichien](https://planb.academy/resources/glossary/austrian-school), souligne que « l’influence de Turgot sur la pensée économique ultérieure fut sérieusement restreinte (…) par le mythe suivant lequel Adam Smith serait le fondateur de l’économie politique. » Et il ajoute : « c’est sur le Français J.B. Say, officiellement adepte de Smith, que Turgot a finalement eu le plus d’influence, particulièrement sa théorie de la valeur-utilité. »
 
 ### Le chef-d’œuvre de Condillac
 
@@ -1752,7 +1752,7 @@ Pour Hayek, l’instabilité passée de l’économie de marché résulte du fai
 
 ![image](assets/fr/101.webp)
 
-Hayek pensait qu’un marché libre des monnaies privées mènerait à une plus grande stabilité monétaire. Près de 50 ans plus tard, une cryptomonnaie comme Bitcoin incarne cette vision concurrentielle de Hayek en proposant une alternative décentralisée au système monopolistique des banques centrales. Bitcoin, avec sa limite d'émission à 21 millions d’unités, est une garantie contre l’inflation et l’arbitraire des régulateurs.
+Hayek pensait qu’un marché libre des monnaies privées mènerait à une plus grande stabilité monétaire. Près de 50 ans plus tard, une [cryptomonnaie](https://planb.academy/resources/glossary/cryptocurrency) comme Bitcoin incarne cette vision concurrentielle de Hayek en proposant une alternative décentralisée au système monopolistique des banques centrales. Bitcoin, avec sa limite d'émission à 21 millions d’unités, est une garantie contre l’inflation et l’arbitraire des régulateurs.
 
 
 ## Conclusion : le pouvoir des idées

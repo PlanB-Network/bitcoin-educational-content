@@ -139,7 +139,7 @@ For at penger skal opprettholde sin kjøpekraft over tid, må de være:
 
 **Sjeldne:** Når penger tilbyr sjeldenhet, mener vi et begrenset tilgjengelig tilbud. Dette er viktig for en verdioppbevaring fordi hvis det er for mye av en bestemt valuta, kan den minske i verdi. En sjelden valuta er mer sannsynlig å beholde sin verdi over tid, noe som gjør den til en pålitelig oppbevaring av rikdom. Tenk på det som et begrenset opplag - hvis det bare finnes noen få av dem, er de mer verdifulle og ettertraktet enn hvis det var en ubegrenset forsyning. På samme måte er en sjelden valuta mer sannsynlig å beholde sin verdi og opprettholde sin kjøpekraft, noe som gjør den til et bedre alternativ for å lagre rikdom.
 
-**Uforanderlig:** For at penger skal tilby uforanderlighet, bør de være immune mot omgjøring eller endring etter at en transaksjon har blitt gjort. Dette er en avgjørende egenskap ved en pålitelig verdioppbevaring fordi det sikrer at verdien av pengene ikke er underlagt vilkårlige endringer eller manipulasjoner. For eksempel, hvis du kjøper noe med kontanter, kan du ikke senere ombestemme deg og omgjøre transaksjonen. På samme måte, med kryptovalutaer som Bitcoin, når en transaksjon har blitt registrert på blockchain, kan den ikke endres eller omgjøres. Denne uforanderligheten gir en følelse av sikkerhet og pålitelighet for både kjøpere og selgere i finansielle transaksjoner.
+**Uforanderlig:** For at penger skal tilby uforanderlighet, bør de være immune mot omgjøring eller endring etter at en transaksjon har blitt gjort. Dette er en avgjørende egenskap ved en pålitelig verdioppbevaring fordi det sikrer at verdien av pengene ikke er underlagt vilkårlige endringer eller manipulasjoner. For eksempel, hvis du kjøper noe med kontanter, kan du ikke senere ombestemme deg og omgjøre transaksjonen. På samme måte, med [kryptovalutaer](https://planb.academy/resources/glossary/cryptocurrency) som Bitcoin, når en transaksjon har blitt registrert på [blockchain](https://planb.academy/resources/glossary/blockchain), kan den ikke endres eller omgjøres. Denne uforanderligheten gir en følelse av sikkerhet og pålitelighet for både kjøpere og selgere i finansielle transaksjoner.
 
 #### Byttemiddel
 
@@ -154,13 +154,13 @@ For at penger skal være et effektivt mellomledd for kjøp og salg av varer og t
 
 For at penger skal brukes som et felles mål på verdien av varer og tjenester, må det være:
 
-**Fungibelt:** Når penger sies å være fungible, er hver valutaenhet utbyttbar med enhver annen enhet. Med enklere ord betyr det at penger er uniforme og identiske, uavhengig av hvor de kom fra eller hvem som eier dem. For eksempel, hvis du skylder noen \$10 og du gir dem en \$10 seddel, spiller det ingen rolle om seddelen kom fra lommeboken din eller noen andres lommebok. Så lenge det er en ekte \$10 seddel, anses den for å være av lik verdi. Konseptet med fungibilitet er viktig fordi det lar penger fungere effektivt som en felles måleenhet, noe som gjør transaksjoner enklere og mer effektive.
+**Fungibelt:** Når penger sies å være [fungible](https://planb.academy/resources/glossary/fungibility), er hver valutaenhet utbyttbar med enhver annen enhet. Med enklere ord betyr det at penger er uniforme og identiske, uavhengig av hvor de kom fra eller hvem som eier dem. For eksempel, hvis du skylder noen \$10 og du gir dem en \$10 seddel, spiller det ingen rolle om seddelen kom fra lommeboken din eller noen andres lommebok. Så lenge det er en ekte \$10 seddel, anses den for å være av lik verdi. Konseptet med fungibilitet er viktig fordi det lar penger fungere effektivt som en felles måleenhet, noe som gjør transaksjoner enklere og mer effektive.
 
 Konklusjon
 
 Penger er en avgjørende og fascinerende del av vårt daglige liv. Det fungerer som et mellomledd, som lar oss handle varer og tjenester med hverandre. Imidlertid er ikke alle penger skapt like. Noen former for penger er overlegne som en verdioppbevaring, som gullmynter, mens andre kan være mer effektive som et byttemiddel, som den amerikanske dollaren. Men når disse funksjonene er oppfylt i sin helhet, gjør det oss i stand til å handle med tillit og letthet, noe som ikke bare hjelper oss som individer, men fremmer større økonomisk vekst og velstand for vår økonomi.
 
-I de kommende modulene vil vi utforske to populære former for penger: Bitcoin og stablecoins. Ved å undersøke dem gjennom innholdet diskutert i denne seksjonen, vil vi utforske hvordan de oppfyller de ulike funksjonene til valuta og hvordan de kan være til stor nytte for samfunnet.
+I de kommende modulene vil vi utforske to populære former for penger: Bitcoin og [stablecoins](https://planb.academy/resources/glossary/stablecoin). Ved å undersøke dem gjennom innholdet diskutert i denne seksjonen, vil vi utforske hvordan de oppfyller de ulike funksjonene til valuta og hvordan de kan være til stor nytte for samfunnet.
 
 Fra byttehandel til oppfinnelsen av mynter og papirvaluta, har penger gjennomgått en rekke transformasjoner for å tilpasse seg de stadig skiftende behovene i samfunnet. Når vi går videre til neste kapittel, la oss endre kurs, og rette vår oppmerksomhet mot utviklingen av penger.
 
@@ -185,8 +185,8 @@ Med dette i tankene, la oss ta en titt på de primære bytteformene som enten er
 2. **Varepenger:** Utveksling av en avtalt vare som anses å være av verdi, slik som salt eller skjell.
 3. **Myntede Penger:** Bruk av edle metaller, som gull eller sølv, i form av mynter som et byttemiddel.
 4. **Metallstøttede Papirpenger:** Papirpenger støttet av en fysisk vare, som gull eller sølv.
-5. **Fiatpenger:** Valuta som ikke er støttet av en fysisk vare, men heller har verdi fordi en regjering erklærer den som lovlig betalingsmiddel.
-6. **Kryptovalutaer:** Digitale eller virtuelle tokens som bruker kryptografi for å sikre transaksjoner og kontrollere opprettelsen av nye enheter.
+5. **[Fiatpenger](https://planb.academy/resources/glossary/fiat):** Valuta som ikke er støttet av en fysisk vare, men heller har verdi fordi en regjering erklærer den som lovlig betalingsmiddel.
+6. **Kryptovalutaer:** Digitale eller virtuelle tokens som bruker [kryptografi](https://planb.academy/resources/glossary/cryptography) for å sikre transaksjoner og kontrollere opprettelsen av nye enheter.
 
 Med disse i tankene, la oss undersøke hver enkelt for å få en mer helhetlig forståelse av hvordan vi endte opp der vi er i dag.
 
@@ -222,7 +222,7 @@ Selv om det fortsatt teknisk sett var varepenger, da menneskene fortsatte sin s�
 
 Dessuten var metaller som gull et av de mest inerte elementene i det periodiske systemet, noe som gjorde dem ekstremt holdbare og korrosjonsbestandige.
 
-Ettersom teknologien utviklet seg, gjennomgikk gull og sølv en transformerende prosess, ved at de ble smeltet, formet og stemplet til mynter, noe som økte byttehandelens enkelhet. Den standardiserte verdien og merkingen på disse myntene reduserte betydelig kostnadene forbundet med å verifisere vekten og renheten av edle metaller. Men, som med de fleste gode ting, finner alltid noen en måte å utnytte det på. Myntklipping ble utbredt, med både enkeltpersoner og regjeringer som klippet deler av myntene for å redusere deres vekt av edelt metall mens de forsøkte å beholde deres opprinnelige pålydende verdi. Dette førte til den første formen for valutadevaluering, som førte til inflasjon.
+Ettersom teknologien utviklet seg, gjennomgikk gull og sølv en transformerende prosess, ved at de ble smeltet, formet og stemplet til mynter, noe som økte byttehandelens enkelhet. Den standardiserte verdien og merkingen på disse myntene reduserte betydelig kostnadene forbundet med å verifisere vekten og renheten av edle metaller. Men, som med de fleste gode ting, finner alltid noen en måte å utnytte det på. Myntklipping ble utbredt, med både enkeltpersoner og regjeringer som klippet deler av myntene for å redusere deres vekt av edelt metall mens de forsøkte å beholde deres opprinnelige pålydende verdi. Dette førte til den første formen for valutadevaluering, som førte til [inflasjon](https://planb.academy/resources/glossary/inflation).
 
 For å gjøre saken verre, ettersom verden ble mer global, ble gull og sølv stadig mer tungvint å transportere og handle med, spesielt for sjøfarere.
 
@@ -236,7 +236,7 @@ Tenk på det: ikke mer å slepe rundt på tunge poser med gull eller bekymre seg
 
 Men som med enhver ny teknologi, begynte problemer å dukke opp.
 
-Først begynte gullagerhusene, som erkjente at deres kunder sjelden kom tilbake for å ta ut gullet som kvitteringene la krav på, å utstede papirkvitteringer uten gullstøtte, noe som førte til den skjulte skapelsen av det første fraksjonelle reservebanksystemet (utstedere holder bare en brøkdel av kundenes innskudd som reserver og låner ut resten). Og selv når land prøvde å støtte sine valutaer med gull, misbrukte de ofte systemet, noe som førte til økonomisk uro.
+Først begynte gullagerhusene, som erkjente at deres kunder sjelden kom tilbake for å ta ut gullet som kvitteringene la krav på, å utstede papirkvitteringer uten gullstøtte, noe som førte til den skjulte skapelsen av det første [fraksjonelle reservebanksystemet](https://planb.academy/resources/glossary/fractional-reserves) (utstedere holder bare en brøkdel av kundenes innskudd som reserver og låner ut resten). Og selv når land prøvde å støtte sine valutaer med gull, misbrukte de ofte systemet, noe som førte til økonomisk uro.
 
 For det andre var ikke metallstøttet papirpenger immune mot forfalskning. Selv med sikkerhetsfunksjoner kunne forfalskere fortsatt skape falske sedler som kunne være vanskelige å oppdage.
 
@@ -466,9 +466,9 @@ Velkommen til Modul To, hvor vi vil utforske den fascinerende verdenen av Bitcoi
 
 ### Hva er denne tingen kalt Bitcoin
 
-Bitcoin er en tillitsløs og tillatelsesløs desentralisert digital valuta. Det kan høres forvirrende ut, så la oss forklare. Siden ingen regjering eller institusjon kontrollerer Bitcoin, trenger du ikke å stole på noen tredjeparter eller be om tillatelse for å bruke den. I stedet vedlikeholdes den av et nettverk av brukere rundt om i verden som validerer og behandler transaksjoner på noe som kalles blockchain.
+Bitcoin er en tillitsløs og tillatelsesløs desentralisert digital valuta. Det kan høres forvirrende ut, så la oss forklare. Siden ingen regjering eller institusjon kontrollerer Bitcoin, trenger du ikke å stole på noen tredjeparter eller be om tillatelse for å bruke den. I stedet vedlikeholdes den av et nettverk av brukere rundt om i verden som validerer og behandler [transaksjoner](https://planb.academy/resources/glossary/transaction-tx) på noe som kalles blockchain.
 
-Tenk på blockchain som en gigantisk regnskapsbok eller et digitalt regneark som opprettholder en post over hver transaksjon gjort via Bitcoin. Siden hvem som helst globalt med en internettforbindelse kan overvåke, validere eller behandle transaksjoner, sikrer dette at valutaen er sikker og ikke kan forfalskes.
+Tenk på blockchain som en gigantisk [regnskapsbok](https://planb.academy/resources/glossary/ledger) eller et digitalt regneark som opprettholder en post over hver transaksjon gjort via Bitcoin. Siden hvem som helst globalt med en internettforbindelse kan overvåke, validere eller behandle transaksjoner, sikrer dette at valutaen er sikker og ikke kan forfalskes.
 
 Bitcoin er også unik i at den har et begrenset tilbud. Bare 21 millioner bitcoin vil noensinne bli skapt, noe som gir den knapphet, lik gull og andre edle metaller. Denne knappheten er en del av det som gir bitcoin sin verdi.
 
@@ -482,26 +482,26 @@ Før Bitcoins skapelse, la en håndfull visjonærer grunnlaget for Bitcoin da de
 
 #### Cypherpunkene
 
-Cypherpunkene er en gruppe teknologikyndige rebeller som kom sammen på 80-tallet for å kjempe for individuell frihet og borgerrettigheter ved hjelp av ett kraftfullt verktøy: kryptografi. De trodde at evnen til å kryptere informasjon ville gi folk kraften til å ta tilbake kontrollen fra sentraliserte autoriteter. Forestill deg å kunne holde din online kommunikasjon privat og sikker fra nysgjerrige øyne - det var det de kjempet for!
+[Cypherpunkene](https://planb.academy/resources/glossary/cypherpunks) er en gruppe teknologikyndige rebeller som kom sammen på 80-tallet for å kjempe for individuell frihet og borgerrettigheter ved hjelp av ett kraftfullt verktøy: kryptografi. De trodde at evnen til å kryptere informasjon ville gi folk kraften til å ta tilbake kontrollen fra sentraliserte autoriteter. Forestill deg å kunne holde din online kommunikasjon privat og sikker fra nysgjerrige øyne - det var det de kjempet for!
 
 En av de mest bemerkelsesverdige resultatene av Cypherpunkene var Cypherpunks e-postlisten, etablert i 1992. Gjennom listen kunne individer dele ideer og diskutere kryptografiske teknologier, digitale valutakonsepter og personvern-fokuserte initiativer. Dette førte til dannelsen av et fellesskap av likesinnede individer, inkludert utviklere, aktivister og forskere.
 
-I dag fortsetter cypherpunkenes visjonære ideer å forme utviklingen av vårt digitale landskap, og gir individer større kontroll over deres data og kommunikasjon. En av deres mest betydningsfulle arv er Bitcoin, da den trekker tungt fra Hashcash— en teknologi utviklet av cypherpunk Adam Back i 1997 for å bekjempe e-postspam.
+I dag fortsetter cypherpunkenes visjonære ideer å forme utviklingen av vårt digitale landskap, og gir individer større kontroll over deres data og kommunikasjon. En av deres mest betydningsfulle arv er Bitcoin, da den trekker tungt fra [Hashcash](https://planb.academy/resources/glossary/hashcash)— en teknologi utviklet av cypherpunk Adam Back i 1997 for å bekjempe e-postspam.
 
 Andre bemerkelsesverdige Cypherpunker inkluderer:
 
 - **Timothy May:** Grunnleggende medlem av Cypherpunks e-postlisten og skrev omfattende om kryptografi og personvern gjennom 90-tallet og tidlig på 2000-tallet. Hans skriving la grunnlaget for diskusjoner om digitalt personvern og elektroniske kontantsystemer.
 - **Eric Huges:** Et annet grunnleggende medlem av Cypherpunks og medforfatter av "A Cypherpunk's Manifesto," som understreket viktigheten av personvern og anonymitet i den digitale tidsalderen.
-- **Whitfield Diffie og Martin Hellman:** Utviklet konseptet med offentlig-nøkkel kryptografi, som revolusjonerte sikker internett-kommunikasjon.
+- **Whitfield Diffie og Martin Hellman:** Utviklet konseptet med [offentlig-nøkkel](https://planb.academy/resources/glossary/public-key) kryptografi, som revolusjonerte sikker internett-kommunikasjon.
 - **Julian Assange:** Grunnlegger av WikiLeaks, som publiserer klassifisert og sensitiv informasjon for å fremme transparens og ansvarlighet.
-- **Bram Cohen:** Skapte BitTorrent, et peer-to-peer fildelingsprotokoll som desentraliserte innholdsdistribusjon og muliggjorde raskere nedlastinger.
+- **Bram Cohen:** Skapte BitTorrent, et [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) fildelingsprotokoll som desentraliserte innholdsdistribusjon og muliggjorde raskere nedlastinger.
 - **John Gilmore:** En entreprenør og libertarianer som var med på å grunnlegge Electronic Frontier Foundation (EFF) og som kjempet for digitale rettigheter og online personvern.
 
 ...og listen fortsetter.
 
 #### David Chaum (Den digitale valutaens far)
 
-På begynnelsen av 1980-tallet revolusjonerte David Chaum verden av digitale valutaer med sitt banebrytende arbeid på "blinded signatures." Dette muliggjorde kryptografisk signering av en melding uten å kjenne innholdet, noe som sikret personvern og sikkerhet i digitale transaksjoner. I 1982 konseptualiserte David Chaum Ecash, et anonymt elektronisk kontantsystem som brukte kryptografi, som senere ble implementert gjennom hans selskap Digicash.
+På begynnelsen av 1980-tallet revolusjonerte David Chaum verden av digitale valutaer med sitt banebrytende arbeid på "[blinded signatures](https://planb.academy/resources/glossary/blind-signature)." Dette muliggjorde kryptografisk signering av en melding uten å kjenne innholdet, noe som sikret personvern og sikkerhet i digitale transaksjoner. I 1982 konseptualiserte David Chaum [Ecash](https://planb.academy/resources/glossary/ecash-david-chaum), et anonymt elektronisk kontantsystem som brukte kryptografi, som senere ble implementert gjennom hans selskap Digicash.
 
 Selv om Digicash ble brukt som et mikrobetalingssystem ved en amerikansk bank fra 1995 til 1998, endte Chaum til slutt med å søke om konkurs. Det sagt, hans innovative ideer inspirerte andre til å utforske digitale valutaer, og banet vei for utviklingen av moderne kryptovalutaer, som Bitcoin.
 
@@ -515,7 +515,7 @@ Til tross for sin endelige fiasko, var E-gold et avgjørende skritt i evolusjone
 
 Gitt Bitcoins meteoriske oppstigning, tror mange feilaktig at det var den første digitale valutaen som noensinne eksisterte. Men, som forhåpentligvis nå er tydelig, er denne antagelsen langt fra sannheten. Bitcoins fremkomst var resultatet av tiår med forskning og eksperimentering av pionerer innen kryptografi. Uten bidragene fra individene ovenfor og mange andre, kunne Bitcoin kanskje aldri ha blitt skapt. Selv om disse tidlige digitale valutaene til slutt mislyktes, lærte Bitcoin fra deres feil, og ble til slutt den digitale valutaen vi kjenner i dag.
 
-Det sagt, hvis det ikke var for én person... eller gruppe (vi vet ikke sikkert), ville Bitcoin ikke eksistere. Og det er Satoshi Nakamoto. Den gåtefulle skaperen.
+Det sagt, hvis det ikke var for én person... eller gruppe (vi vet ikke sikkert), ville Bitcoin ikke eksistere. Og det er [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi). Den gåtefulle skaperen.
 
 #### Satoshi Nakamoto
 
@@ -529,7 +529,7 @@ Den mystiske forsvinningen av Satoshi Nakamoto har ført til ulike teorier om hv
 
 Selv om vi kanskje ikke vet hvem Satoshi er, har vi et klarere bilde av hans intensjoner bak Bitcoin. Han skapte Bitcoin som et svar på den globale finanskrisen i 2008 og den påfølgende mistilliten rundt tradisjonelle banksystemer og myndighetskontrollerte valutaer.
 
-I sine online kommunikasjoner uttrykte han sin skepsis mot den sentraliserte naturen til penger og bankvirksomhet, og fremhevet farene ved å stole på sentralbanker for ikke å devaluere valutaen deres. Et eksempel på dette, skrevet inn i den første Bitcoin-blokken, er:
+I sine online kommunikasjoner uttrykte han sin skepsis mot den sentraliserte naturen til penger og bankvirksomhet, og fremhevet farene ved å stole på sentralbanker for ikke å devaluere valutaen deres. Et eksempel på dette, skrevet inn i den første [Bitcoin-blokken](https://planb.academy/resources/glossary/block), er:
 
 "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks."
 
@@ -546,7 +546,7 @@ For å oppsummere har Bitcoin revolusjonert måten vi tenker om penger og verdi 
 
 - **Peer-to-Peer:** Bitcoin lar enkeltpersoner sende og motta betalinger direkte uten behov for mellommenn, som banker eller betalingsprosessorer.
 - **Desentralisert:** Bitcoin opererer på et desentralisert nettverk, noe som betyr at det ikke finnes noen sentral myndighet eller kontroll over valutaen.
-- **Sikker:** Bitcoin-transaksjoner sikres ved hjelp av kryptografi, noe som gjør forfalskning eller dobbeltutgifter av mynter vanskelig.
+- **Sikker:** Bitcoin-transaksjoner sikres ved hjelp av kryptografi, noe som gjør forfalskning eller [dobbeltutgifter](https://planb.academy/resources/glossary/double-spending-attack) av mynter vanskelig.
 - **Begrenset i tilbud & Delelig:** Tilbudet av bitcoin er endelig—med bare 21 millioner mynter i eksistens—samtidig som det er delelig til åtte desimaler, noe som muliggjør transaksjoner for en brøkdel av en cent. Denne knappheten er designet for å gi valutaen verdi og forhindre inflasjon.
 - **Pseudonym:** Selv om Bitcoin-transaksjoner ikke er helt anonyme, tilbyr de et nivå av personvern og pseudonymitet som tradisjonelle betalingsmetoder ikke gjør.
 
@@ -574,7 +574,7 @@ Sammenlignet med tradisjonelle banksystemer, selv om Bitcoin funksjonelt operere
 2. overvåke transaksjoner for å sikre at det ikke forekommer juks eller dårlig oppførsel,
 3. sørge for at alt er oppdatert, fungerer jevnt og sikkert.
    Mens banker utfører disse rollene internt, noe som gir dem full kontroll over prosessen, krever Bitcoin samarbeid fra samfunnet for å utføre disse rollene. Med andre ord, for at Bitcoin skal kunne replikere disse prosessene i et desentralisert system, må Bitcoin sette ut hver av disse oppgavene for å sikre at ingen enkeltperson eller sentralisert enhet har uforholdsmessig kontroll over systemet.
-   For å oppnå denne revolusjonerende bragden, har Bitcoin delt disse oppgavene inn i tre nøkkelroller: noder, gruvearbeidere og utviklere. Der noder verifiserer transaksjoner og setter og håndhever regler, ordner gruvearbeidere og bekrefter transaksjoner, og utviklere holder nettverket oppdatert og foreslår oppgraderinger. Ved å distribuere disse oppgavene blant disse nøkkelspillerne, har Bitcoin skapt et system som er sikkert, gjennomsiktig og ansvarlig overfor alle brukere.
+   For å oppnå denne revolusjonerende bragden, har Bitcoin delt disse oppgavene inn i tre nøkkelroller: [noder](https://planb.academy/resources/glossary/node), [gruvearbeidere](https://planb.academy/resources/glossary/miner) og utviklere. Der noder verifiserer transaksjoner og setter og håndhever regler, ordner gruvearbeidere og bekrefter transaksjoner, og utviklere holder nettverket oppdatert og foreslår oppgraderinger. Ved å distribuere disse oppgavene blant disse nøkkelspillerne, har Bitcoin skapt et system som er sikkert, gjennomsiktig og ansvarlig overfor alle brukere.
 
 La oss derfor ta en titt på hver av disse rollene…
 
@@ -582,7 +582,7 @@ La oss derfor ta en titt på hver av disse rollene…
 
 #### Noder
 
-Noder er essensielle for integriteten og sikkerheten til Bitcoin-nettverket. De fungerer som systemets voktere, og sikrer at transaksjoner behandles nøyaktig og i henhold til reglene. Hver node laster ned og verifiserer lokalt en komplett kopi av blokkjeden, som i bunn og grunn er en digital hovedbok som registrerer hver transaksjon som noensinne er gjort på Bitcoin-nettverket. Gjennom konsensus, blir noder enige om gyldigheten av hver transaksjon og sikrer at reglene følges. Dette betyr at nodene vil avvise transaksjonen hvis noen prøver å jukse systemet, f.eks. ved å sende mer bitcoin enn de faktisk har eller forsøke å bruke samme bitcoin to ganger.
+Noder er essensielle for integriteten og sikkerheten til Bitcoin-nettverket. De fungerer som systemets voktere, og sikrer at transaksjoner behandles nøyaktig og i henhold til reglene. Hver node laster ned og verifiserer lokalt en komplett kopi av blokkjeden, som i bunn og grunn er en digital hovedbok som registrerer hver transaksjon som noensinne er gjort på Bitcoin-nettverket. Gjennom [konsensus](https://planb.academy/resources/glossary/consensus), blir noder enige om gyldigheten av hver transaksjon og sikrer at reglene følges. Dette betyr at nodene vil avvise transaksjonen hvis noen prøver å jukse systemet, f.eks. ved å sende mer bitcoin enn de faktisk har eller forsøke å bruke samme bitcoin to ganger.
 
 For å ytterligere utdype denne ideen om konsensus, når utviklere foreslår endringer eller oppgraderinger til Bitcoin, spiller noder en rolle i å adoptere eller avvise disse endringene. De gjør dette ved enten å oppgradere programvaren sin til den nye versjonen eller fortsette å kjøre den gamle versjonen. Denne prosessen innebærer ofte diskusjoner og debatter innenfor Bitcoin-samfunnet for å oppnå konsensus. Det sagt, er Bitcoins konsensus ikke så svart-hvitt som en stemmemaskin. Flertallet styrer ikke nødvendigvis. Hvis noen individer er uenige i endringen, kan de lansere en ny Bitcoin-derivert token. Nå eksisterer den opprinnelige Bitcoin uten endringen og en ny med endringen. Gjennom kjøp og salg, er det opp til samfunnet å fremheve hvilken versjon de anser som mer verdifull. Denne konsensusmekanismen sikrer at eventuelle endringer som gjøres i Bitcoin-protokollen, er enige om av hele samfunnet, noe som gjør det vanskelig for noen enkeltperson eller gruppe å manipulere systemet til egen fordel.
 
@@ -590,7 +590,7 @@ Det er også viktig å merke seg at en node er rett og slett et stykke programva
 
 #### Gruvearbeidere
 
-Bitcoin-gruvearbeidere, på den annen side, spiller en kritisk rolle i føring av poster, da de er ansvarlige for å ordne og bekrefte transaksjoner. For å gjøre dette, bruker gruvearbeidere spesialiserte datamaskiner for å utføre en funksjon kalt hashing. Uten å dykke ned i detaljene av hashing, tenk på det som gruvearbeidere som konkurrerer med hverandre for å legge til nye transaksjoner i blokkjeden, det offentlige hovedboken av transaksjoner. Som belønning for deres arbeid, blir gruvearbeidere belønnet med nyopprettede bitcoin og transaksjonsgebyrer for eventuelle transaksjoner de behandler. Gruveprosessen er designet for å være vanskelig, konkurransedyktig og tilfeldig, med bare et begrenset antall nye bitcoin utgitt hvert år, noe som sikrer at tilbudet av bitcoin er begrenset og deres verdi opprettholdes. Uten gruvearbeidere, ville transaksjoner ikke bli behandlet.
+Bitcoin-gruvearbeidere, på den annen side, spiller en kritisk rolle i føring av poster, da de er ansvarlige for å ordne og bekrefte transaksjoner. For å gjøre dette, bruker gruvearbeidere spesialiserte datamaskiner for å utføre en funksjon kalt [hashing](https://planb.academy/resources/glossary/hash-function). Uten å dykke ned i detaljene av hashing, tenk på det som gruvearbeidere som konkurrerer med hverandre for å legge til nye transaksjoner i blokkjeden, det offentlige hovedboken av transaksjoner. Som belønning for deres arbeid, blir gruvearbeidere belønnet med nyopprettede bitcoin og [transaksjonsgebyrer](https://planb.academy/resources/glossary/transaction-fees) for eventuelle transaksjoner de behandler. Gruveprosessen er designet for å være vanskelig, konkurransedyktig og tilfeldig, med bare et begrenset antall nye bitcoin utgitt hvert år, noe som sikrer at tilbudet av bitcoin er begrenset og deres verdi opprettholdes. Uten gruvearbeidere, ville transaksjoner ikke bli behandlet.
 Gitt at gruvearbeidere må konkurrere med hverandre for å behandle transaksjoner og blir belønnet for å gjøre det, minimerer denne konkurransen sjansen for at en enkelt gruvearbeider eller enhet kan kontrollere nettverket og motiverer gruvearbeidere til å handle ærlig og følge reglene. Hvis en gruvearbeider prøver å jukse eller bryte reglene, risikerer de å miste belønningen sin, så det er en sterk insentiv til å spille etter reglene.
 
 #### Utviklere
@@ -609,9 +609,9 @@ For å forstå hvordan alle disse aktørene arbeider sammen, la oss forestille o
 
 #### Transaksjonsinitiering
 
-Hver Bitcoin-transaksjon begynner med dens initiering når avsenderen, i dette tilfellet Alice, oppretter en transaksjon som spesifiserer mottakeren, Bob, og beløpet, 0.00100000 bitcoin. Noden assosiert med Alices lommebok sender deretter transaksjonen til nettverket, hvor nodene bekrefter dens gyldighet, og den sendes til gruvearbeiderne for bekreftelse.
+Hver Bitcoin-transaksjon begynner med dens initiering når avsenderen, i dette tilfellet Alice, oppretter en transaksjon som spesifiserer mottakeren, Bob, og beløpet, 0.00100000 bitcoin. Noden assosiert med Alices [lommebok](https://planb.academy/resources/glossary/wallet) sender deretter transaksjonen til nettverket, hvor nodene bekrefter dens gyldighet, og den sendes til gruvearbeiderne for bekreftelse.
 
-På dette tidspunktet går transaksjonen inn i det som er kjent som mempoolen, i hovedsak et venteværelse for transaksjoner klare til å bli lagt til i blokkjeden. Tenk på det som en liste over ventende transaksjoner, mye som de du ser på kredittkortutskriften din, som har blitt initiert, men venter på å bli behandlet. Når transaksjonen har blitt initiert og sitter i mempoolen, er den nå i hendene på gruvearbeiderne.
+På dette tidspunktet går transaksjonen inn i det som er kjent som [mempoolen](https://planb.academy/resources/glossary/mempool), i hovedsak et venteværelse for transaksjoner klare til å bli lagt til i blokkjeden. Tenk på det som en liste over ventende transaksjoner, mye som de du ser på kredittkortutskriften din, som har blitt initiert, men venter på å bli behandlet. Når transaksjonen har blitt initiert og sitter i mempoolen, er den nå i hendene på gruvearbeiderne.
 
 #### Transaksjonsbekreftelse
 
@@ -672,7 +672,7 @@ Mens fiatvalutaer er utsatt for inflasjon og historisk har vist seg å miste ver
 Selv om bitcoin ennå ikke er like globalt akseptert som fiatvalutaer, gjør dets peer-to-peer natur, raske transaksjonstider og lave gebyrer det til et stadig mer attraktivt byttemiddel, spesielt for grenseoverskridende transaksjoner. Dette er muliggjort av det faktum at det er:
 
 - **Bærbart:** Bitcoin, som er digitalt, tillater grenseløse og mellommannsfrie overføringer mellom individer, noe som gjør det til et praktisk og tilgjengelig byttemiddel. Selv om noen fiatvalutaer også tilbyr digitale løsninger, kan de i utviklingsland eller krigsherjede land slite med å få tilgang til banktjenester som oppfyller dette behovet. Bitcoins desentraliserte natur gjør det tilgjengelig for alle med en internettforbindelse, og tilbyr et levedyktig alternativ til tradisjonelle banksystemer i områder med begrenset tilgang til finansielle tjenester.
-- **Delelig:** Bitcoins ekstreme delelighet er en av dets nøkkel fordeler som en valuta. Med hver bitcoin delelig opp til åtte desimaler, er den minste enheten, en Satoshi, verdt bare en brøkdel av en cent. Avhengig av transaksjonsmetoden, dvs. lag ett eller to, gjør dette bitcoin svært tilpasningsdyktig til transaksjoner av enhver størrelse, fra små kjøp til store investeringer.
+- **Delelig:** Bitcoins ekstreme delelighet er en av dets nøkkel fordeler som en valuta. Med hver bitcoin delelig opp til åtte desimaler, er den minste enheten, en [Satoshi](https://planb.academy/resources/glossary/satoshi-sat), verdt bare en brøkdel av en cent. Avhengig av transaksjonsmetoden, dvs. lag ett eller to, gjør dette bitcoin svært tilpasningsdyktig til transaksjoner av enhver størrelse, fra små kjøp til store investeringer.
 - **Akseptert:** Selv om aksept av bitcoin ennå ikke er universell, tyder dens økende adopsjon av handlende, institusjoner og enkeltpersoner over hele verden på at den blir mer allment akseptert som en legitim betalingsform.
 
 ### Regnskapsenhet
@@ -773,7 +773,7 @@ La oss nå fokusere på hva du skal gjøre etter at du har skaffet deg litt bitc
 
 ### Trygt å Sikre Din bitcoin
 
-Det som gjør Bitcoin revolusjonerende er at vi for første gang i historien kan ta selvforvaring av en digital eiendel. Denne bragden kan ikke overdrives! Akkurat som vi kan lagre kontanter under puten vår, kan vi gjøre det samme med bitcoin, men digitalt. Imidlertid kommer dette nye nivået av kontroll over pengene våre med nye ansvar. For å holde vår bitcoin trygg, må vi lære hvordan vi sikrer den ordentlig. Dette betyr å ta skritt for å beskytte mot tap, tyveri og hackingforsøk.
+Det som gjør Bitcoin revolusjonerende er at vi for første gang i historien kan ta [selvforvaring](https://planb.academy/resources/glossary/selfcustody) av en digital eiendel. Denne bragden kan ikke overdrives! Akkurat som vi kan lagre kontanter under puten vår, kan vi gjøre det samme med bitcoin, men digitalt. Imidlertid kommer dette nye nivået av kontroll over pengene våre med nye ansvar. For å holde vår bitcoin trygg, må vi lære hvordan vi sikrer den ordentlig. Dette betyr å ta skritt for å beskytte mot tap, tyveri og hackingforsøk.
 
 #### Hvor du skal lagre din bitcoin
 
@@ -787,9 +787,9 @@ Et vanlig eksempel på en forvaringsbasert lommebok er en konto på en børs. N�
 Det finnes også utallige andre forvaringsbaserte lommebokløsninger tilgjengelig for mobile enheter som gir deg enkel tilgang til din bitcoin. Disse lommebøkene er vanligvis brukervennlige og tilbyr en enkel måte å håndtere din bitcoin på, men de holder fortsatt nøklene til din bitcoin.
 
 **Ikke-forvaringsbaserte lommebøker (a.k.a. selvforvaring)**
-Ikke-forvaringsbaserte lommebøker er en type Bitcoin-lommebok hvor du er den eneste forvareren av dine midler, noe som betyr at du har full kontroll over dine private nøkler. Private nøkler er som et passord til lommeboken din og brukes til å signere og autorisere transaksjoner. Uten dem kan du ikke få tilgang til eller overføre din bitcoin.
+Ikke-forvaringsbaserte lommebøker er en type Bitcoin-lommebok hvor du er den eneste forvareren av dine midler, noe som betyr at du har full kontroll over dine [private nøkler](https://planb.academy/resources/glossary/private-key). Private nøkler er som et passord til lommeboken din og brukes til å signere og autorisere transaksjoner. Uten dem kan du ikke få tilgang til eller overføre din bitcoin.
 
-Ikke-forvaringsbaserte lommebøker tilbyr et høyere nivå av sikkerhet og personvern over forvaringsbaserte lommebøker siden du er den eneste som er ansvarlig for sikkerheten til dine midler. Eksempler på ikke-forvaringsbaserte lommebøker inkluderer maskinvarelommebøker som [Coldcard](https://store.coinkite.com/store/coldcard) og [Trezor](https://trezor.io/), som er fysiske enheter som lagrer dine private nøkler offline og gir et ekstra lag med sikkerhet. Andre populære ikke-forvaringsbaserte lommebøker er programvarelommebøker som [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), og [Blockstream Green](https://blockstream.com/green/), som kan lastes ned og installeres på datamaskinen eller mobilenheten din.
+Ikke-forvaringsbaserte lommebøker tilbyr et høyere nivå av sikkerhet og personvern over forvaringsbaserte lommebøker siden du er den eneste som er ansvarlig for sikkerheten til dine midler. Eksempler på ikke-forvaringsbaserte lommebøker inkluderer [maskinvarelommebøker](https://planb.academy/resources/glossary/hardware-wallet) som [Coldcard](https://store.coinkite.com/store/coldcard) og [Trezor](https://trezor.io/), som er fysiske enheter som lagrer dine private nøkler offline og gir et ekstra lag med sikkerhet. Andre populære ikke-forvaringsbaserte lommebøker er programvarelommebøker som [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), og [Blockstream Green](https://blockstream.com/green/), som kan lastes ned og installeres på datamaskinen eller mobilenheten din.
 
 *Selv om vi ikke kan anbefale en spesifikk lommebok, anbefaler vi sterkt å ta kontroll over din bitcoin gjennom selvforvaring eller samarbeidsforvaring, som innebærer å velge en lommebok som passer dine behov og preferanser. Det er essensielt å gjennomføre grundig forskning før du bestemmer deg for en lommebok for å sikre at den stemmer overens med dine sikkerhets- og brukbarhetskrav.*
 Selv om forvaringslommebøker kan virke praktiske, kommer de med betydelige risikoer. Ved å gi forvaring av dine private nøkler til en tredjepart, gir du dem effektivt kontroll over dine midler. Hvis forvareren blir insolvent, hacket, eller stenger ned, kan du miste tilgangen til dine bitcoin. Og dette har skjedd utallige ganger, med høyprofilerte eksempler inkludert Mt. Gox og QuadrigaCX-hackene som resulterte i tap av kundemidler, eller FTX, Voyager, BlockFi, og Celsius som opplevde katastrofale insolvenser, som førte til tap av deres kundemidler. Spesielt for sparing, er det avgjørende å praktisere selvforvaring og ta ansvar for å beskytte dine bitcoin.
@@ -798,7 +798,7 @@ Selv om forvaringslommebøker kan virke praktiske, kommer de med betydelige risi
 
 Når du har bestemt deg for en lommebok, er ikke moroa og spillene over ennå. Nå er det på tide å minimere risikoen for tap. For å beskytte dine bitcoin, vurder disse stegene etter å ha valgt lommeboken din:
 
-1. Først og fremst, sikkerhetskopier lommeboken din når du tar selvforvaring. Hardware lommebøker kommer med en gjenopprettingsfrase, et sett med ord som kan brukes til å gjenopprette dine private nøkler i tilfelle enheten din er tapt eller skadet. Lag en fysisk kopi, som en metallfrøplate, av denne [frøfrasen](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/) og oppbevar den på et sikkert sted. Det er viktig å holde denne gjenopprettingsfrasen sikker. DEL den ALDRI med noen.
+1. Først og fremst, sikkerhetskopier lommeboken din når du tar selvforvaring. Hardware lommebøker kommer med en [gjenopprettingsfrase](https://planb.academy/resources/glossary/recovery-phrase), et sett med ord som kan brukes til å gjenopprette dine private nøkler i tilfelle enheten din er tapt eller skadet. Lag en fysisk kopi, som en metallfrøplate, av denne [frøfrasen](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/) og oppbevar den på et sikkert sted. Det er viktig å holde denne gjenopprettingsfrasen sikker. DEL den ALDRI med noen.
 2. Når du beskytter en betydelig mengde bitcoin som overstiger terskelen du ikke ville ønske å miste, er det viktig å utforske alternativer for arveplanlegging for det uforutsette tilfellet av din bortgang. Dette sikrer at din familie og kjære kan få tilgang til og effektivt håndtere dine bitcoin.
 3. Vær årvåken mot phishing-forsøk og andre svindler. Svindlere prøver ofte å lure deg til å gi dem tilgang til dine bitcoin ved å utgi seg for å være et pålitelig selskap eller individ. Ingen anerkjent selskap vil noen gang be deg om dine private nøkler, så del aldri dine private nøkler med noen, og verifiser alltid autentisiteten til et nettsted eller individ før du sender bitcoin.
 

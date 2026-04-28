@@ -1,4 +1,4 @@
-question: Jak nazywała się firma Davida Chauma, za pośrednictwem której wdrożył swoją koncepcję cyfrowej waluty?
+question: Jak nazywała się firma Davida Chauma, za pośrednictwem której wdrożył swoją koncepcję waluty cyfrowej?
 answer: DigiCash B.V.
 wrong_answers:
   - eCash Ltd.
@@ -6,4 +6,4 @@ wrong_answers:
   - First Virtual Holdings Inc.
 explanation: |
   Założona w 1990 r. firma DigiCash B.V. miała siedzibę w Amsterdamie w Holandii i była właścicielem patentów na wynalazek Davida Chauma, eCash.
-reviewed: false
+reviewed: true

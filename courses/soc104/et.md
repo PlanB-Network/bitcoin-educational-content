@@ -824,7 +824,7 @@ Libertaarid suhtuvad sügavalt kahtlevalt igasugusesse võimu koondumisse, olgu 
 2.  **Teised anarhokapitalistid:** kes usuvad, et riigi funktsioonid tuleks erastada ja neid peaks haldama turg.
 
 
-Mõlemad nõustuvad siiski individuaalse suveräänsuse aluspõhimõttega. Libertaarneid ideid väljendasid juba 18. sajandil füsiokraadid, eelkõige Vincent de Gournay ja Turgot, ning neid arendasid edasi Condillac, Jean-Baptiste Say ja Frédéric Bastiat. 20. sajandil võttis neid üles ja arendas edasi Austria majanduskoolkond, mille peamised autorid on Ludwig von Mises, Friedrich Hayek ja Murray Rothbard.
+Mõlemad nõustuvad siiski individuaalse suveräänsuse aluspõhimõttega. Libertaarneid ideid väljendasid juba 18. sajandil füsiokraadid, eelkõige Vincent de Gournay ja Turgot, ning neid arendasid edasi Condillac, Jean-Baptiste Say ja Frédéric Bastiat. 20. sajandil võttis neid üles ja arendas edasi [Austria majanduskoolkond](https://planb.academy/resources/glossary/austrian-school), mille peamised autorid on Ludwig von Mises, Friedrich Hayek ja Murray Rothbard.
 
 
 
@@ -1624,10 +1624,10 @@ Selle kursuse lõpus peame oluliseks käsitleda Bitcoin ja bitcoin'i poliitilisi
 
 
 
-Bitcoin on Satoshi Nakamoto poolt 2008. aastal loodud detsentraliseeritud krüptoraha, mis võimaldab usaldamata, peer-to-peer finantstehinguid.
+Bitcoin on Satoshi Nakamoto poolt 2008. aastal loodud detsentraliseeritud [krüptoraha](https://planb.academy/resources/glossary/cryptocurrency), mis võimaldab usaldamata, [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) finantstehinguid.
 
 
-Bitcoin-d juhib avatud lähtekoodiga tarkvaraprotokoll, ilma tegevjuhi, peakontori, turunduseelarve ja määratud asutuseta. See tähendab, et ükski poliitiline üksus või valitsus ei kontrolli seda.
+Bitcoin-d juhib [avatud lähtekoodiga](https://planb.academy/resources/glossary/foss) tarkvaraprotokoll, ilma tegevjuhi, peakontori, turunduseelarve ja määratud asutuseta. See tähendab, et ükski poliitiline üksus või valitsus ei kontrolli seda.
 
 
 
@@ -1643,7 +1643,7 @@ Kuigi Bitcoin ise ei ole ei parempoolne ega vasakpoolne ega kuulu ühegi religio
 
 
 
-Lugedes Satoshi Nakamoto valget raamatut, näeme, et Bitcoin oli kavandatud pakkuma uuenduslikku kaitset kahe peamise kaasaegse ohu vastu: laiaulatuslik jälgimine ja kunstliku raha loomise kiirendamine.
+Lugedes Satoshi Nakamoto [valget raamatut](https://planb.academy/resources/glossary/white-paper), näeme, et Bitcoin oli kavandatud pakkuma uuenduslikku kaitset kahe peamise kaasaegse ohu vastu: laiaulatuslik jälgimine ja kunstliku raha loomise kiirendamine.
 
 
 
@@ -1651,7 +1651,7 @@ Lugedes Satoshi Nakamoto valget raamatut, näeme, et Bitcoin oli kavandatud pakk
 
 
 
-2. Bitcoin võimaldab igaühel kaitsta oma sääste eraomandi röövimise eest, mida rahainflatsioon kehastab. See on katse vaidlustada riigi kontroll raha kui vahetusvahendi haldamise üle ja seega konkureerida riigiga. 2008. aasta finantskriis ja Covid 19 pandeemia on toonud esile praeguse süsteemi puudused. Majanduse edasise kokkuvarisemise vältimiseks õhust välja trükitud triljonid dollarid avaldasid laastavaid tagajärgi, mille eest me ikka veel maksame.
+2. Bitcoin võimaldab igaühel kaitsta oma sääste eraomandi röövimise eest, mida [rahainflatsioon](https://planb.academy/resources/glossary/inflation) kehastab. See on katse vaidlustada riigi kontroll raha kui vahetusvahendi haldamise üle ja seega konkureerida riigiga. 2008. aasta finantskriis ja Covid 19 pandeemia on toonud esile praeguse süsteemi puudused. Majanduse edasise kokkuvarisemise vältimiseks õhust välja trükitud triljonid dollarid avaldasid laastavaid tagajärgi, mille eest me ikka veel maksame.
 
 
 
@@ -1679,7 +1679,7 @@ Satoshi Nakamoto intellektuaalse lähenemise lähtepunktiks on seega inimeste li
 
 
 
-Selle pealkirja lisamine genesis plokki on tõlgendamiskõlblik. Kuid see võib tunduda Satoshi kommentaarina traditsiooniliste finantsasutuste ebaõnnestumiste kohta ja Bitcoin eesmärgi avaldamisena: pakkuda alternatiivi tsentraliseeritud pangandussüsteemidele.
+Selle pealkirja lisamine [genesis plokki](https://planb.academy/resources/glossary/genesis-block) on tõlgendamiskõlblik. Kuid see võib tunduda Satoshi kommentaarina traditsiooniliste finantsasutuste ebaõnnestumiste kohta ja Bitcoin eesmärgi avaldamisena: pakkuda alternatiivi tsentraliseeritud pangandussüsteemidele.
 
 
 
@@ -1723,7 +1723,7 @@ Selles mõttes juhindub see maailmavaatest, mis on nii moraalne kui ka poliitili
 
 
 
-Kuid Bitcoin ei ilmunud tühjalt kohalt. See põhineb matemaatika, füüsika, arvutiteaduse ja filosoofia edusammudel. Satoshi Nakamoto, kuigi geniaalne, tugines teiste uuendajate ideedele. Nende hulgas olid ka cypherpunk-liikumise pioneerid.
+Kuid Bitcoin ei ilmunud tühjalt kohalt. See põhineb matemaatika, füüsika, arvutiteaduse ja filosoofia edusammudel. Satoshi Nakamoto, kuigi geniaalne, tugines teiste uuendajate ideedele. Nende hulgas olid ka [cypherpunk](https://planb.academy/resources/glossary/cypherpunks)-liikumise pioneerid.
 
 
 
@@ -1770,7 +1770,7 @@ Ja ta lisab:
 
 > konfidentsiaalsus avatud ühiskonnas nõuab anonüümseid tehingusüsteeme. Seni on sularaha olnud peamine seda tüüpi süsteem.
 
-Seepärast kasutatakse krüptograafiat vastupanuvahendina igasuguse riikliku ja korporatiivse kontrolli vastu. See tagab, et iga tehingu osapool teab ainult seda, mis on selle tehingu jaoks hädavajalik.
+Seepärast kasutatakse [krüptograafiat](https://planb.academy/resources/glossary/cryptography) vastupanuvahendina igasuguse riikliku ja korporatiivse kontrolli vastu. See tagab, et iga tehingu osapool teab ainult seda, mis on selle tehingu jaoks hädavajalik.
 
 
 

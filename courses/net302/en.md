@@ -64,8 +64,6 @@ Ready to dive into the world of computer networks? Let's go!
 
 **NOTE**: The descriptions are based on a GNU/Linux CentOS 7 system. However, network configurations are largely the same when comparing a Debian to a CentOS system. So, we won't make any distinction. When there is one, we'll prefix it with a specific logo.
 
-**N.B.**: If you come across any unfamiliar terms during the course, please consult [the glossary](https://planb.academy/resources/glossary) for definitions.
-
 
 # TCP/IP protocols
 

@@ -60,13 +60,13 @@ Bereit, in die faszinierende Welt von Bitcoin einzutauchen und all seine Mechani
 
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
 
-Bevor der Begriff "Bitcoin" zum Synonym für digitale Währung und Finanztransformation wurde, wurde der Grundstein für seine Entstehung durch eine Reihe von Ideen, Innovationen und sozialen Bewegungen gelegt. Unter ihnen sticht die Cypherpunk-Bewegung als Schlüsselelement in der Vorgeschichte von Bitcoin hervor.
+Bevor der Begriff "Bitcoin" zum Synonym für digitale Währung und Finanztransformation wurde, wurde der Grundstein für seine Entstehung durch eine Reihe von Ideen, Innovationen und sozialen Bewegungen gelegt. Unter ihnen sticht die [Cypherpunk-Bewegung](https://planb.academy/resources/glossary/cypherpunks) als Schlüsselelement in der Vorgeschichte von Bitcoin hervor.
 
 ### Cypherpunks: Visionäre der digitalen Welt
 
 ![image](assets/de/003.webp)
 
-Mitten in der technologischen Entwicklung der 1980er und 1990er Jahre begann eine Gruppe von Menschen, die Rolle der Privatsphäre und der Freiheit im digitalen Zeitalter grundlegend in Frage zu stellen. Diese Personen, die später als "Cypherpunks" bekannt wurden, waren der festen Überzeugung, dass die Kryptografie als Instrument zum Schutz der Rechte des Einzelnen gegen die Einmischung von Regierungen und Großunternehmen dienen könnte.
+Mitten in der technologischen Entwicklung der 1980er und 1990er Jahre begann eine Gruppe von Menschen, die Rolle der Privatsphäre und der Freiheit im digitalen Zeitalter grundlegend in Frage zu stellen. Diese Personen, die später als "Cypherpunks" bekannt wurden, waren der festen Überzeugung, dass die [Kryptografie](https://planb.academy/resources/glossary/cryptography) als Instrument zum Schutz der Rechte des Einzelnen gegen die Einmischung von Regierungen und Großunternehmen dienen könnte.
 
 Berühmte Persönlichkeiten wie Julian Assange, Wei Dai, Tim May und David Chaum spielten eine entscheidende Rolle bei der Gestaltung der Philosophie und Vision der Bewegung. Diese Denker tauschten ihre Ideen auf einer einflussreichen Mailingliste aus, auf der Teilnehmer aus der ganzen Welt über die besten Möglichkeiten zur Nutzung der Technologie für mehr individuelle Freiheit diskutierten.
 
@@ -90,15 +90,15 @@ dieser Text ist zwar nicht ausschließlich dem Cypherpunk zuzuordnen, spiegelt a
 
 ### Die Vorgänger von Bitcoin
 
-Vor dem Aufkommen von Bitcoin gab es bereits mehrere Versuche, eine digitale Währung zu schaffen. So führte David Chaum in den 1980er Jahren mit seinem Projekt "DigiCash" das Konzept des "anonymen elektronischen Geldes" ein. Leider wurde DigiCash aufgrund verschiedener Zwänge nie ein Erfolg.
+Vor dem Aufkommen von Bitcoin gab es bereits mehrere Versuche, eine digitale Währung zu schaffen. So führte David Chaum in den 1980er Jahren mit seinem Projekt "[DigiCash](https://planb.academy/resources/glossary/ecash-david-chaum)" das Konzept des "anonymen elektronischen Geldes" ein. Leider wurde DigiCash aufgrund verschiedener Zwänge nie ein Erfolg.
 
-Ein weiterer wichtiger Vorläufer ist das "B-Money" von Wei Dai. Obwohl es nie umgesetzt wurde, stellte es die Idee einer anonymen digitalen Währung vor, bei der die Betrugserkennung von einer Gemeinschaft von Bewertern und nicht von einer zentralen Behörde durchgeführt wird.
+Ein weiterer wichtiger Vorläufer ist das "[B-Money](https://planb.academy/resources/glossary/bmoney)" von Wei Dai. Obwohl es nie umgesetzt wurde, stellte es die Idee einer anonymen digitalen Währung vor, bei der die Betrugserkennung von einer Gemeinschaft von Bewertern und nicht von einer zentralen Behörde durchgeführt wird.
 
 Die nachstehende Abbildung veranschaulicht die Entwicklung der Bewegung durch ihre zahlreichen technischen Innovationen.
 
 ![image](assets/de/005.webp)
 
-In diesem fruchtbaren Umfeld veröffentlichte der geheimnisvolle Satoshi Nakamoto im Jahr 2008 das Bitcoin-Whitepaper. In diesem Dokument kombinierte er mehrere Ideen aus der Cypherpunk-Bewegung, wie den Arbeitsnachweis ([proof of work](https://planb.academy/resources/glossary/proof-of-work)) und kryptografische Zeitstempel (cryptographic timestamps), um eine dezentrale und zensurresistente digitale Währung zu schaffen.
+In diesem fruchtbaren Umfeld veröffentlichte der geheimnisvolle [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) im Jahr 2008 das [Bitcoin-Whitepaper](https://planb.academy/resources/glossary/white-paper). In diesem Dokument kombinierte er mehrere Ideen aus der Cypherpunk-Bewegung, wie den [Arbeitsnachweis](https://planb.academy/resources/glossary/proof-of-work) (proof of work) und kryptografische [Zeitstempel](https://planb.academy/resources/glossary/timestamp) (cryptographic timestamps), um eine [dezentrale](https://planb.academy/resources/glossary/distributed) und zensurresistente digitale Währung zu schaffen.
 
 Bitcoin war jedoch mehr als nur das: Er repräsentierte die Verwirklichung der Cypherpunk-Ideale. Über seine Technologie hinaus symbolisierte er eine Revolution gegen traditionelle Finanzsysteme und bot eine Alternative, die auf Transparenz, Dezentralisierung und individueller Souveränität basierte.
 
@@ -141,7 +141,7 @@ Geld ist ein hochentwickeltes Kommunikationsmittel:
 - Es ermöglicht die Kommunikation zwischen der Gegenwart und der Zukunft, denn es verwandelt unsere Zeit und Energie in einen Vermögenswert, der in der Zukunft ohne das Risiko der Entwertung wiederverwendet werden kann.
 - Es erleichtert die Kommunikation in einer universellen Sprache: Ohne sich zu kennen oder dieselbe Sprache zu sprechen, können zwei Fremde sich austauschen, handeln und sich über den Wert von Dingen einigen.
 
-Seine Funktion in unserer Welt lässt sich nur schwer künstlich nachbilden. Tatsächlich kann kein Einzelner oder eine Gruppe Geld schaffen, da es ein natürliches Phänomen ist, das aus dem Markt und einem freiwilligen Konsens hervorgehen muss. In diesem Sinne dienen Preise als Signale und Informationen, die die Gesellschaft bei der Verteilung der Ressourcen leiten.
+Seine Funktion in unserer Welt lässt sich nur schwer künstlich nachbilden. Tatsächlich kann kein Einzelner oder eine Gruppe Geld schaffen, da es ein natürliches Phänomen ist, das aus dem Markt und einem freiwilligen [Konsens](https://planb.academy/resources/glossary/consensus) hervorgehen muss. In diesem Sinne dienen Preise als Signale und Informationen, die die Gesellschaft bei der Verteilung der Ressourcen leiten.
 
 Aus diesen Gründen ist Gold als Geld das Ergebnis von 4.000 Jahren monetärem Darwinismus, der auf den folgenden aristotelischen Funktionen beruht:
 
@@ -159,13 +159,13 @@ Aus diesen Gründen ist Gold als Geld das Ergebnis von 4.000 Jahren monetärem D
 
 Gold erfüllt in idealer Weise die Kriterien einer effizienten Währung: Seine natürliche Seltenheit macht es wertvoll, und seine chemischen Eigenschaften sorgen dafür, dass es im Laufe der Zeit nicht erodiert. Diese Eigenschaften haben Gold zu einem großartigen **Wertaufbewahrungsmittel** gemacht, aber nicht zu einer gängigen Währung, da diese Form von Geld nicht leicht teilbar oder über große Entfernungen transportierbar ist. In einer globalisierten und digitalen Welt hat Gold Schwierigkeiten, Schritt zu halten, und benötigt eine zentrale Instanz, die es teilbar und leicht austauschbar macht (z. B. durch geprägte Münzen).
 
-Im Gegensatz dazu sind staatliche Treuhandwährungen (Fiat-Währungen) leicht verwendbar, werden aber von den ihnen kontrollierenden Instanzen (Könige, Zentralbanken, Kaiser, Diktatoren) ständig entwertet.
+Im Gegensatz dazu sind staatliche Treuhandwährungen ([Fiat-Währungen](https://planb.academy/resources/glossary/fiat)) leicht verwendbar, werden aber von den ihnen kontrollierenden Instanzen (Könige, Zentralbanken, Kaiser, Diktatoren) ständig entwertet.
 
 Um dieses Konzept besser zu erklären, werden wir die Merkmale einer effektiven Währung untersuchen:
 
 ![image](assets/de/011.webp)
 
-- **Fungibilität**, d. h. Austauschbarkeit mit einer anderen Einheit der gleichen Art ohne Wertverlust;
+- **[Fungibilität](https://planb.academy/resources/glossary/fungibility)**, d. h. Austauschbarkeit mit einer anderen Einheit der gleichen Art ohne Wertverlust;
 - **Teilbarkeit**, da sie in kleinere Einheiten unterteilt werden kann, um Transaktionen mit unterschiedlichem Volumen zu erleichtern;
 - **Liquidität**, d. h. sie ist leicht in Waren oder Dienstleistungen umwandelbar.
 
@@ -173,7 +173,7 @@ Um diese Kriterien zu erfüllen, hat sich die Währung in der Vergangenheit in v
 
 - Rohstein -> Münze
 - Banknote -> Bankkarte
-- Blockchain -> Lightning Network
+- [Blockchain](https://planb.academy/resources/glossary/blockchain) -> [Lightning Network](https://planb.academy/resources/glossary/lightning-network)
 
 Währungen entwickeln sich auch heute noch weiter und passen ihre Formen an die verschiedenen Verwendungszwecke an. Wie wir bereits sagten, ist Gold zwar ein ausgezeichneter Wertaufbewahrer, aber für die heutige globalisierte Wirtschaft nicht mehr geeignet. Auch Fiat-Währungen wie der Dollar und der Euro sind sehr liquide und leicht zu transportieren, da sie heute größtenteils digital sind, aber ihr Wert wird durch die Geldinflation ständig gesenkt.
 
@@ -221,7 +221,7 @@ Heute sind wir Zeugen eines historischen Wendepunkts. Der lange Zeit dominierend
 Aufgrund dieser Prämissen gewinnt die Bitcoin-Revolution an Dynamik. Im Gegensatz zu früheren Währungen benötigt er **keine vertrauenswürdige dritte Partei** und zielt darauf ab, den Staat vom Geld zu trennen.
 
 
-Tatsächlich präsentiert sich Bitcoin als Antwort auf diese systemischen Herausforderungen, indem er eine dezentralisierte Lösung und ein neues paralleles Geldsystem vorschlägt. Historisch gesehen wurde Gold aufgrund seiner Fälschungssicherheit als Währung bevorzugt, und auch Bitcoin kann nicht gefälscht werden. Außerdem ist er dank seiner dezentralen und kryptografischen Natur auf 21 Millionen Einheiten begrenzt. Bitcoin ist eine Währung, die auf Transparenz und Neutralität setzt und eine attraktive Alternative zum derzeitigen zentralisierten Geldsystem darstellt.
+Tatsächlich präsentiert sich Bitcoin als Antwort auf diese systemischen Herausforderungen, indem er eine dezentralisierte Lösung und ein neues paralleles Geldsystem vorschlägt. Historisch gesehen wurde Gold aufgrund seiner Fälschungssicherheit als Währung bevorzugt, und auch Bitcoin kann nicht gefälscht werden. Außerdem ist er dank seiner dezentralen und kryptografischen Natur auf [21 Millionen Einheiten](https://planb.academy/resources/glossary/limite-demission) begrenzt. Bitcoin ist eine Währung, die auf Transparenz und Neutralität setzt und eine attraktive Alternative zum derzeitigen zentralisierten Geldsystem darstellt.
 
 ![image](assets/de/015.webp)
 
@@ -337,11 +337,11 @@ Die Geldausgabe kann durch eine Kurve veranschaulicht werden, die die Menge der 
 
 ### Wie werden neue Bitcoins erzeugt?
 
-Die Schaffung neuer Bitcoins ist das Ergebnis des Mining-Prozesses. Kurz gesagt, verwenden Miner leistungsstarke Computer, die komplexe mathematische Probleme lösen (hash), die Transaktionen validieren und sichern. Sobald ein Problem gelöst ist (ein gültiger Hash ist gefunden), fügt der Miner einen neuen Block mit Transaktionen zur Blockchain hinzu, einem dezentralen und verteilten Hauptbuch, das alle im Netzwerk getätigten Transaktionen aufzeichnet. Die Blockchain gewährleistet Transparenz und Sicherheit, da jeder Block mit dem vorhergehenden verknüpft ist, was es nahezu unmöglich macht, frühere Daten ohne Zustimmung des Netzwerks zu ändern.
+Die Schaffung neuer Bitcoins ist das Ergebnis des [Mining](https://planb.academy/resources/glossary/mining)-Prozesses. Kurz gesagt, verwenden Miner leistungsstarke Computer, die komplexe mathematische Probleme lösen ([hash](https://planb.academy/resources/glossary/hash-function)), die Transaktionen validieren und sichern. Sobald ein Problem gelöst ist (ein gültiger Hash ist gefunden), fügt der Miner einen neuen [Block](https://planb.academy/resources/glossary/block) mit Transaktionen zur Blockchain hinzu, einem dezentralen und verteilten Hauptbuch, das alle im Netzwerk getätigten Transaktionen aufzeichnet. Die Blockchain gewährleistet Transparenz und Sicherheit, da jeder Block mit dem vorhergehenden verknüpft ist, was es nahezu unmöglich macht, frühere Daten ohne Zustimmung des Netzwerks zu ändern.
 
 ![image](assets/de/022.webp)
 
-Nach erfolgreicher Durchführung dieser Aufgabe werden die Miner alle zehn Minuten mit der Ausgabe neuer Bitcoins belohnt. Diese Belohnung ist so programmiert, dass sie sich alle 210.000 Blöcke halbiert, d. h. etwa alle vier Jahre (ein Ereignis, das als "[halving](https://planb.academy/resources/glossary/halving)" bekannt ist), wodurch die Kurve der Geldausgabe eine treppenartige Form erhält. Aufgrund dieses Mechanismus lässt sich mathematisch vorhersagen, dass die Schaffung neuer Bitcoins um das Jahr 2140 herum aufhören wird, wenn die Gesamtzahl der Bitcoins die Grenze von 21 Millionen erreicht.
+Nach erfolgreicher Durchführung dieser Aufgabe werden die Miner alle zehn Minuten mit der Ausgabe neuer Bitcoins belohnt. Diese Belohnung ist so programmiert, dass sie sich alle 210.000 Blöcke halbiert, d. h. etwa alle vier Jahre (ein Ereignis, das als "halving" bekannt ist), wodurch die Kurve der Geldausgabe eine treppenartige Form erhält. Aufgrund dieses Mechanismus lässt sich mathematisch vorhersagen, dass die Schaffung neuer Bitcoins um das Jahr 2140 herum aufhören wird, wenn die Gesamtzahl der Bitcoins die Grenze von 21 Millionen erreicht.
 
 | Halbierungsnummer | Blockhöhe | BTC-Belohnung nach Halbierung | Geschätzte BTC im Umlauf nach Halbierung |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
@@ -370,7 +370,7 @@ Wir werden das Konzept des Minings im [Mining Kapitel](https://planb.academy/cou
 
 ### Gewährleistung der digitalen Knappheit
 
-Die Grenze von 21 Millionen ist die Grundlage der Bitcoin-Knappheit und wird durch zwei Schlüsselmechanismen garantiert: die Anpassung der Mining-Schwierigkeit und die Spieltheorie.
+Die Grenze von 21 Millionen ist die Grundlage der Bitcoin-Knappheit und wird durch zwei Schlüsselmechanismen garantiert: die [Anpassung der Mining-Schwierigkeit](https://planb.academy/resources/glossary/difficulty-adjustment) und die Spieltheorie.
 
 - Die Anpassung der Mining-Schwierigkeit ist ein Prozess, der alle 2016 Blöcke oder etwa zwei Wochen stattfindet, um sicherzustellen, dass im Durchschnitt alle zehn Minuten ein neuer Block zur Blockchain hinzugefügt wird. Diese Häufigkeit der Blockerstellung und die Gesamtmenge der Bitcoins sind beides feste Bestandteile des Bitcoin-Protokolls und können im Gegensatz zu den willkürlichen Entscheidungen, die in traditionellen Geldsystemen getroffen werden, nicht ohne allgemeinen Konsens geändert werden.
 
@@ -380,7 +380,7 @@ Die Schwierigkeit, einen gültigen Hash zu finden, folgt einer Art Zyklus: Wenn 
 
 Wenn im Gegenzug weniger Miner arbeiten und neue Blöcke länger brauchen, wird die Schwierigkeit reduziert und die durchschnittliche Blockzeit sinkt wieder.
 
-Wusstest du, dass Miner einen Anreiz haben, einen Block zu minen, um neue Bitcoins durch die Blocksubvention zu verdienen, sowie durch Transaktionsgebühren aus den Transaktionen, die sie in diesen Block aufnehmen?
+Wusstest du, dass Miner einen Anreiz haben, einen Block zu minen, um neue Bitcoins durch die [Blocksubvention](https://planb.academy/resources/glossary/block-subsidy) zu verdienen, sowie durch [Transaktionsgebühren](https://planb.academy/resources/glossary/transaction-fees) aus den Transaktionen, die sie in diesen Block aufnehmen?
 
 Wenn sich also die Zahl der ausgegebenen Bitcoins der 21-Millionen-Grenze nähert, werden die Miner mehr über ihre Transaktionsgebühren als über die Blocksubvention entlohnt.
 
@@ -394,7 +394,7 @@ Die Idee, die Währung abzuwerten, widerspricht der grundlegenden Philosophie vo
 
 Die Knappheit von Bitcoin ist ein großer Vorteil, und die Höchstmenge von 21 Millionen Bitcoins im Umlauf ist öffentlich und für jedermann überprüfbar.
 
-Tatsächlich kann dies jeder über eine Bitcoin-Node (d.h. einen Transaktionsvalidierer) tun, indem er einfach den folgenden Befehl eingibt: `bitcoin-cli gettxoutsetinfo`. Diese Transparenz stärkt das Vertrauen in das Bitcoin-System, das nicht auf zentralen Institutionen oder Einzelpersonen beruht, sondern auf den mathematischen und kryptografischen Garantien, die dem Protokoll innewohnen (wie das geht, erfahren Sie in LNP201).
+Tatsächlich kann dies jeder über eine Bitcoin-[Node](https://planb.academy/resources/glossary/node) (d.h. einen Transaktionsvalidierer) tun, indem er einfach den folgenden Befehl eingibt: `bitcoin-cli gettxoutsetinfo`. Diese Transparenz stärkt das Vertrauen in das Bitcoin-System, das nicht auf zentralen Institutionen oder Einzelpersonen beruht, sondern auf den mathematischen und kryptografischen Garantien, die dem Protokoll innewohnen (wie das geht, erfahren Sie in LNP201).
 
 ```json
 {
@@ -422,7 +422,7 @@ Zusammenfassend lässt sich sagen, dass Bitcoin mit seiner dezentralen Natur, se
 
 <chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
 
-In Abschnitt 2 werden wir die Speicherung und Sicherheit von Bitcoin durch die Verwendung von Wallets untersuchen, um zu verstehen, wo sich diese berühmten Bitcoins befinden und wie man mit ihnen umgeht!
+In Abschnitt 2 werden wir die Speicherung und Sicherheit von Bitcoin durch die Verwendung von [Wallets](https://planb.academy/resources/glossary/wallet) untersuchen, um zu verstehen, wo sich diese berühmten Bitcoins befinden und wie man mit ihnen umgeht!
 
 ### Entmystifizierung von Bitcoin-Wallets
 
@@ -440,11 +440,11 @@ Portfolios lassen sich also in breite Nutzungsfamilien einteilen, in deren Mitte
 
 ### Wie funktioniert eine Bitcoin-Wallet?
 
-Egal, ob es sich um deinen Bitcoin-"Banker" oder um dich selbst handelt, die überwiegende Mehrheit der Bitcoin-Wallets arbeitet mit einer ähnlichen Technologie, die auf asymmetrischer Kryptographie basiert, die ein System von Schlüsselpaaren umfasst: einen privaten Schlüssel (private key) für die Ausgabe und einen öffentlichen Schlüssel (public key) für den Empfang.
+Egal, ob es sich um deinen Bitcoin-"Banker" oder um dich selbst handelt, die überwiegende Mehrheit der Bitcoin-Wallets arbeitet mit einer ähnlichen Technologie, die auf asymmetrischer Kryptographie basiert, die ein System von Schlüsselpaaren umfasst: einen [privaten Schlüssel](https://planb.academy/resources/glossary/private-key) (private key) für die Ausgabe und einen [öffentlichen Schlüssel](https://planb.academy/resources/glossary/public-key) (public key) für den Empfang.
 
 - Privater Schlüssel
 
-Bei der Initialisierung einer Brieftasche wird eine geheime Wiederherstellungsphrase (privater Schlüssel) generiert und Ihnen in Form von 12 oder 24 Wörtern präsentiert.
+Bei der Initialisierung einer Brieftasche wird eine [geheime Wiederherstellungsphrase](https://planb.academy/resources/glossary/recovery-phrase) (privater Schlüssel) generiert und Ihnen in Form von 12 oder 24 Wörtern präsentiert.
 
 Der private Schlüssel ist von enormer Bedeutung, da er das Eigentum an den Bitcoins und somit das Recht, sie zu verwenden oder zu versenden, erteilt. Daher ist der Inhaber des privaten Schlüssels der wahre Eigentümer der Bitcoins.
 
@@ -452,7 +452,7 @@ Dieser Schlüssel muss geheim gehalten und gut geschützt werden, denn er erschl
 
 - Öffentlicher Schlüssel & Adresse
 
-Der öffentliche Schlüssel wird aus dem privaten Schlüssel generiert und ist mit diesem verknüpft. Die Weitergabe des öffentlichen Schlüssels birgt Risiken für die Privatsphäre (weil andere Nutzer dein Guthaben sehen können), nicht aber für die Sicherheit (weil sie dein Geld nicht ausgeben können, ohne den privaten Schlüssel zu besitzen). Der öffentliche Schlüssel wiederum wird verwendet, um Bitcoin-Adressen zu erstellen und somit Geld zu erhalten.
+Der öffentliche Schlüssel wird aus dem privaten Schlüssel generiert und ist mit diesem verknüpft. Die Weitergabe des öffentlichen Schlüssels birgt Risiken für die Privatsphäre (weil andere Nutzer dein Guthaben sehen können), nicht aber für die Sicherheit (weil sie dein Geld nicht ausgeben können, ohne den privaten Schlüssel zu besitzen). Der öffentliche Schlüssel wiederum wird verwendet, um [Bitcoin-Adressen](https://planb.academy/resources/glossary/receiving-address) zu erstellen und somit Geld zu erhalten.
 
 Diese Adressen werden automatisch von deiner Brieftasche erstellt und können auf sichere Weise weitergegeben werden. Um deine Privatsphäre zu maximieren, ist es ratsam, sie nur einmal zu verwenden.
 
@@ -462,7 +462,7 @@ Zusammenfassend lässt sich sagen, dass diese Technologie es uns ermöglicht, Bi
 
 ### Sind Bitcoins in der Wallet?
 
-Obwohl deine Schlüssel in deiner Wallet gespeichert sind, werden die Bitcoins selbst in der Bitcoin-Blockchain "gespeichert", die ein öffentliches verteiltes Hauptbuch (public distributed ledger) innerhalb des Bitcoin-Peer-to-Peer-Netzwerks ist (wir werden in Abschnitt 3 näher darauf eingehen). Das bedeutet, dass der Verlust des Geräts, in dem sich deine Brieftasche befindet, nicht unbedingt zum Verlust deiner Bitcoins führt. Was es dir ermöglicht, deine Wallet wiederherzustellen und deine Bitcoins auszugeben, ist der private Schlüssel, also denk immer daran, ihn richtig zu sichern!
+Obwohl deine Schlüssel in deiner Wallet gespeichert sind, werden die Bitcoins selbst in der Bitcoin-Blockchain "gespeichert", die ein öffentliches verteiltes Hauptbuch (public distributed ledger) innerhalb des Bitcoin-[Peer-to-Peer-Netzwerks](https://planb.academy/resources/glossary/peertopeer-p2p) ist (wir werden in Abschnitt 3 näher darauf eingehen). Das bedeutet, dass der Verlust des Geräts, in dem sich deine Brieftasche befindet, nicht unbedingt zum Verlust deiner Bitcoins führt. Was es dir ermöglicht, deine Wallet wiederherzustellen und deine Bitcoins auszugeben, ist der private Schlüssel, also denk immer daran, ihn richtig zu sichern!
 
 ![image](assets/de/027.webp)
 
@@ -470,7 +470,7 @@ Glücklicherweise kann der private Schlüssel seit 2017 durch eine einfache List
 
 ### Was ist mit Hackern?
 
-Was ist, wenn jemand versehentlich unsere Liste mit 12 oder 24 Wörtern errät? Die kurze Antwort lautet, dass dies dank der Kryptographie, die zur Erstellung der Brieftasche verwendet wird, höchst unwahrscheinlich ist. Um es ins rechte Licht zu rücken: Die zufällige Entdeckung des gleichen mnemonischen Satzes ist vergleichbar mit der Suche nach der "richtigen" Zahl zwischen 1 und 2 hoch 256, was fast der Suche nach dem "richtigen" Atom im Universum entspricht. Wenn du jedoch mit dieser Standardsicherheit nicht zufrieden bist, kannst du sie jederzeit erhöhen, indem du ein Passphrase (ein zusätzliches Wort) zu deiner Bitcoin-Wallet hinzufügst.
+Was ist, wenn jemand versehentlich unsere Liste mit 12 oder 24 Wörtern errät? Die kurze Antwort lautet, dass dies dank der Kryptographie, die zur Erstellung der Brieftasche verwendet wird, höchst unwahrscheinlich ist. Um es ins rechte Licht zu rücken: Die zufällige Entdeckung des gleichen mnemonischen Satzes ist vergleichbar mit der Suche nach der "richtigen" Zahl zwischen 1 und 2 hoch 256, was fast der Suche nach dem "richtigen" Atom im Universum entspricht. Wenn du jedoch mit dieser Standardsicherheit nicht zufrieden bist, kannst du sie jederzeit erhöhen, indem du ein [Passphrase](https://planb.academy/resources/glossary/passphrase-bip39) (ein zusätzliches Wort) zu deiner Bitcoin-Wallet hinzufügst.
 
 ![image](assets/de/028.webp)
 
@@ -503,7 +503,7 @@ Es gibt eigentlich keine allgemeingültige Antwort oder Lösung. Nimm dir also d
 
 Im Folgenden werden wir verschiedene Sicherheitsstufen definieren:
 
-- Bei **Level 0** nutzt du einen sogenannten "Verwahrungsdienst", bei dem du nicht der alleinige Inhaber deiner Bitcoins bist. Sei dir bewusst, dass diese vertrauenswürdige Drittpartei deinen Zugang zu deinen Geldern jederzeit einschränken kann. In diesem Fall ist dein Grad an finanzieller Souveränität vergleichbar mit dem eines traditionellen Banksystems mit einem Bankkonto.
+- Bei **Level 0** nutzt du einen sogenannten "[Verwahrungsdienst](https://planb.academy/resources/glossary/custody)", bei dem du nicht der alleinige Inhaber deiner Bitcoins bist. Sei dir bewusst, dass diese vertrauenswürdige Drittpartei deinen Zugang zu deinen Geldern jederzeit einschränken kann. In diesem Fall ist dein Grad an finanzieller Souveränität vergleichbar mit dem eines traditionellen Banksystems mit einem Bankkonto.
 
 ![image](assets/de/030.webp)
 
@@ -513,7 +513,7 @@ Du kannst zum Beispiel die Sparrow Wallet als Hot-Wallet verwenden:
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-- **Stufe 2**: Du verwendest eine physische Wallet und hast deine Liste mit 12/24 Wörtern gesichert. Dies wird oft als "Cold Wallet" bezeichnet, weil deine Schlüssel auf einem Gerät gespeichert sind, das nicht mit dem Internet verbunden ist. In diesem Fall musst du jede Transaktion immer mit Ihrem Gerät unterschreiben, was den täglichen Zugriff auf dein Geld erschwert.
+- **Stufe 2**: Du verwendest eine physische Wallet und hast deine Liste mit 12/24 Wörtern gesichert. Dies wird oft als "[Cold Wallet](https://planb.academy/resources/glossary/cold-wallet)" bezeichnet, weil deine Schlüssel auf einem Gerät gespeichert sind, das nicht mit dem Internet verbunden ist. In diesem Fall musst du jede Transaktion immer mit Ihrem Gerät unterschreiben, was den täglichen Zugriff auf dein Geld erschwert.
 
 Du kannst zum Beispiel ein Ledger, einen Satochip oder einen Tapsigner verwenden:
 
@@ -532,7 +532,7 @@ https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 
 ![image](assets/de/032.webp)
 
-- **Stufe 4**: Du verwendest eine Reihe von Brieftaschen, um eine "Multisig"-Wallet zu erstellen, was bedeutet, dass mehrere Signaturen erforderlich sind, um eine Transaktion durchzuführen. In diesem Fall ist zu beachten, dass jeder Teil der Multisig an verschiedenen Orten gespeichert werden sollte. Dieser Ansatz wird oft als fortschrittliche Nutzung von Bitcoin angesehen, vor allem für die Verwaltung großer Beträge und für Unternehmenszwecke.
+- **Stufe 4**: Du verwendest eine Reihe von Brieftaschen, um eine "[Multisig](https://planb.academy/resources/glossary/multisig)"-Wallet zu erstellen, was bedeutet, dass mehrere Signaturen erforderlich sind, um eine Transaktion durchzuführen. In diesem Fall ist zu beachten, dass jeder Teil der Multisig an verschiedenen Orten gespeichert werden sollte. Dieser Ansatz wird oft als fortschrittliche Nutzung von Bitcoin angesehen, vor allem für die Verwaltung großer Beträge und für Unternehmenszwecke.
 
 ![image](assets/de/033.webp)
 
@@ -651,13 +651,13 @@ Nachdem wir nun die Grundlagen von Bitcoin-Wallets und die besten Praktiken für
 
 ![image](assets/de/038.webp)
 
-Der 31. Oktober 2008 markiert die Geburtsstunde der neuen Finanztechnologie Bitcoin. An diesem Tag stellte der anonyme Satoshi Nakamoto der Welt seine Innovation in einer E-Mail an die Mailingliste der Cypherpunks vor, einer Gemeinschaft von Kryptographie-Enthusiasten, die sich für den Schutz der Privatsphäre im Internet einsetzen. Diese E-Mail enthielt ein Dokument namens "[White Paper](https://planb.academy/resources/glossary/white-paper)", in dem die Funktionsweise von Bitcoin erläutert wurde.
+Der 31. Oktober 2008 markiert die Geburtsstunde der neuen Finanztechnologie Bitcoin. An diesem Tag stellte der anonyme Satoshi Nakamoto der Welt seine Innovation in einer E-Mail an die Mailingliste der Cypherpunks vor, einer Gemeinschaft von Kryptographie-Enthusiasten, die sich für den Schutz der Privatsphäre im Internet einsetzen. Diese E-Mail enthielt ein Dokument namens "White Paper", in dem die Funktionsweise von Bitcoin erläutert wurde.
 
 Diese Initiative löste nicht sofort Begeisterung aus, wahrscheinlich wegen der früheren Fehlschläge bei den Versuchen, ein digitales Bargeldsystem zu schaffen. Nichtsdestotrotz wurde dieses White Paper schließlich zu einer Referenz für Bitcoin-Nutzer und war im Laufe der Jahre Gegenstand vieler Debatten im Bitcoin-Ökosystem.
 
 ![image](assets/de/039.webp)
 
-Am 3. Januar 2009 eröffnete Satoshi offiziell das Bitcoin-Netzwerk, indem er den ersten Block, auch bekannt als "Genesis-Block", erstellte, der den Start der Bitcoin-Blockchain markierte. Dieser Block enthält eine aufschlussreiche Botschaft, die die Mission von Bitcoin widerspiegelt: "03/jan/2009 Bundeskanzler am Rande der zweiten Rettungsaktion für Banken."
+Am 3. Januar 2009 eröffnete Satoshi offiziell das Bitcoin-Netzwerk, indem er den ersten Block, auch bekannt als "[Genesis-Block](https://planb.academy/resources/glossary/genesis-block)", erstellte, der den Start der Bitcoin-Blockchain markierte. Dieser Block enthält eine aufschlussreiche Botschaft, die die Mission von Bitcoin widerspiegelt: "03/jan/2009 Bundeskanzler am Rande der zweiten Rettungsaktion für Banken."
 
 ![image](assets/de/040.webp)
 
@@ -715,7 +715,7 @@ Um die Transaktion abzuschließen, muss Bob sie mit seinem privaten Schlüssel s
 
 ![image](assets/de/045.webp)
 
-**Warum zahlen wir Gebühren?** Die Gebühren sind unerlässlich, um einen freien Markt für die Aufnahme von Transaktionen in Blöcke zu schaffen. Tatsächlich hat ein Block eine Größe von 1 MB (die nach dem Segwit-Update auf 4 MB erweitert wurde), so dass die Anzahl der Transaktionen, die in einen Block "eingefügt" werden können, auf einige tausend Transaktionen pro Block begrenzt ist. Die Größe einer Transaktion hängt von ihrer Komplexität ab. Daher sind komplexere Transaktionen in der Regel mit höheren Gebühren verbunden.
+**Warum zahlen wir Gebühren?** Die Gebühren sind unerlässlich, um einen freien Markt für die Aufnahme von Transaktionen in Blöcke zu schaffen. Tatsächlich hat ein Block eine Größe von 1 MB (die nach dem [Segwit](https://planb.academy/resources/glossary/segwit)-Update auf 4 MB erweitert wurde), so dass die Anzahl der Transaktionen, die in einen Block "eingefügt" werden können, auf einige tausend Transaktionen pro Block begrenzt ist. Die Größe einer Transaktion hängt von ihrer Komplexität ab. Daher sind komplexere Transaktionen in der Regel mit höheren Gebühren verbunden.
 
 ### Schritt 2: Weiterleitung der Transaktion über die Nodes
 
@@ -723,7 +723,7 @@ In diesem Stadium wurde die Transaktion erstellt und Bobs Wallet teilt sie mit d
 
 ![image](assets/de/046.webp)
 
-Zu diesem Zeitpunkt ist diese Transaktion zwar allen bekannt (über ein Tool namens Mempool), kann aber erst dann als bestätigt gelten, wenn sie von einem Miner in einen Block eingefügt wird, der als einziger Transaktionen validiert, indem er sie in die Blockchain aufnimmt.
+Zu diesem Zeitpunkt ist diese Transaktion zwar allen bekannt (über ein Tool namens [Mempool](https://planb.academy/resources/glossary/mempool)), kann aber erst dann als bestätigt gelten, wenn sie von einem Miner in einen Block eingefügt wird, der als einziger Transaktionen validiert, indem er sie in die Blockchain aufnimmt.
 
 Miner haben die Aufgabe, gültige und unbestätigte Transaktionen zu sammeln, um sie zu einem Block zusammenzustellen. Kurz gesagt, müssen sie ein kryptografisches Rätsel in einem Prozess namens "Proof of Work" lösen, damit ihr Block der nächste in der Bitcoin-Blockchain wird.
 
@@ -741,7 +741,7 @@ In diesem Stadium wird die Transaktion als gültig betrachtet: Der Miner verbrei
 
 ![image](assets/de/049.webp)
 
-**Anmerkung:** Selbst wenn Alice benachrichtigt wird, dass sie Bitcoins an einer ihrer Adressen erhalten hat, ist es ratsam, die Transaktion erst dann als unveränderlich zu betrachten, wenn sie **sechs** Bestätigungen erhalten hat. Das bedeutet, dass zusätzlich zu dem Block, der Bobs Transaktion enthält, sechs weitere Blöcke gefunden werden müssen. Mit anderen Worten: Je älter eine Transaktion in der Blockchain ist, desto unveränderlicher wird sie.
+**Anmerkung:** Selbst wenn Alice benachrichtigt wird, dass sie Bitcoins an einer ihrer Adressen erhalten hat, ist es ratsam, die Transaktion erst dann als unveränderlich zu betrachten, wenn sie **sechs** [Bestätigungen](https://planb.academy/resources/glossary/confirmation) erhalten hat. Das bedeutet, dass zusätzlich zu dem Block, der Bobs Transaktion enthält, sechs weitere Blöcke gefunden werden müssen. Mit anderen Worten: Je älter eine Transaktion in der Blockchain ist, desto unveränderlicher wird sie.
 
 ### Welche Bedeutung hat dieser Prozess?
 
@@ -808,7 +808,7 @@ Nach diesem Sieg aktivierten die Nodes ein Update namens SegWit und ebneten dami
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Miner sichern das Netzwerk und fügen Transaktionen zu den Blöcken hinzu. Sie verwenden Elektrizität durch [ASIC](https://planb.academy/resources/glossary/asic)-Maschinen, um den Bitcoin-Arbeitsnachweis (proof-of-wokr) zu lösen.**
+**Miner sichern das Netzwerk und fügen Transaktionen zu den Blöcken hinzu. Sie verwenden Elektrizität durch ASIC-Maschinen, um den Bitcoin-Arbeitsnachweis (proof-of-wokr) zu lösen.**
 
 ![image](assets/de/054.webp)
 
@@ -820,7 +820,7 @@ Um zu erklären, wie er funktioniert, stell dir eine universelle Lotterie vor, a
 
 Wenn die gewählte Zahl richtig ist: Jackpot! Ansonsten geht die Suche weiter.
 
-Um die Anzahl der Versuche zu optimieren, werden spezielle Maschinen, so genannte ASICs, eingesetzt, deren einzige Aufgabe es ist, Milliarden von Möglichkeiten pro Sekunde zu berechnen (die Gesamtmenge der Versuche wird "HashRate" genannt). Für den Betrieb dieser Maschinen müssen große Mengen an Strom verbraucht werden. POW wandelt daher Energie in Währung um und verbindet die reale mit der digitalen Welt, um die erste energiebasierte Währung zu schaffen.
+Um die Anzahl der Versuche zu optimieren, werden spezielle Maschinen, so genannte ASICs, eingesetzt, deren einzige Aufgabe es ist, Milliarden von Möglichkeiten pro Sekunde zu berechnen (die Gesamtmenge der Versuche wird "[HashRate](https://planb.academy/resources/glossary/hashrate)" genannt). Für den Betrieb dieser Maschinen müssen große Mengen an Strom verbraucht werden. POW wandelt daher Energie in Währung um und verbindet die reale mit der digitalen Welt, um die erste energiebasierte Währung zu schaffen.
 
 Die Maschinen arbeiten ununterbrochen, und nach durchschnittlich 10 Minuten steht ein Gewinner fest: Dieser Teilnehmer hat erfolgreich den richtigen Hash gefunden, der unter der Schwierigkeitsschwelle liegt. Der einzige Gewinner signiert dann den neuen Block des Zeitstempelservers und fügt ihn der Blockchain hinzu. Er erhält seine Belohnung und kehrt zurück, um sein Glück beim Mining des nächsten Blocks zu versuchen. Dieser Prozess läuft seit mehr als zehn Jahren, wobei ein Gewinner alle 10 Minuten Bitcoin-Transaktionen bestätigt und gleichzeitig vergangene Transaktionen sichert, wodurch die Bitcoin-Blockchain robuster und sicherer wird.
 
@@ -834,7 +834,7 @@ Im Laufe der Jahre haben sich Miner mit immer leistungsfähigerer Computerhardwa
 
 ![image](assets/de/056.webp)
 
-Die Hashrate des Bitcoin-Netzwerks gibt die Anzahl der Versuche pro Sekunde an, den nächsten Block zu finden. Heute hat sie sogar 500 TH/s überschritten, das sind 500.000 Milliarden Versuche pro Sekunde! Je höher die globale Hashrate ist, desto schwieriger ist es für einen böswilligen Akteur, die Ressourcen zu monopolisieren, die erforderlich sind, um die Mehrheit der Mining-Leistung zu erhalten und sein Geld mehr als einmal auszugeben (Double Spending Problem). Es ist daher wirtschaftlich sinnvoller, die Regeln des Bitcoin-Protokolls zu befolgen, als gegen sie zu handeln.
+Die Hashrate des Bitcoin-Netzwerks gibt die Anzahl der Versuche pro Sekunde an, den nächsten Block zu finden. Heute hat sie sogar 500 TH/s überschritten, das sind 500.000 Milliarden Versuche pro Sekunde! Je höher die globale Hashrate ist, desto schwieriger ist es für einen böswilligen Akteur, die Ressourcen zu monopolisieren, die erforderlich sind, um die Mehrheit der Mining-Leistung zu erhalten und sein Geld mehr als einmal auszugeben ([Double Spending](https://planb.academy/resources/glossary/double-spending-attack) Problem). Es ist daher wirtschaftlich sinnvoller, die Regeln des Bitcoin-Protokolls zu befolgen, als gegen sie zu handeln.
 
 ![image](assets/de/057.webp)
 
@@ -842,7 +842,7 @@ Die Hashrate des Bitcoin-Netzwerks gibt die Anzahl der Versuche pro Sekunde an, 
 
 Der Blockheader enthält mehrere Elemente wie die Zeit, das Schwierigkeitsziel, die Nummer des letzten Blocks, die verwendete Version und die Merkle-Wurzel der vorherigen Transaktionen.
 
-Die **coinbase-Transaktion** ist immer die erste, die in den Block aufgenommen wird: Sie enthält die Belohnung des Miners für den Arbeitsnachweis (Proof-of-Work). Dann folgen die validierten Transaktionen. Die Miner werden sich dafür entscheiden, die Transaktionen einzufügen, die ihnen den größten Gewinn bringen, nämlich kleine Transaktionen mit maximalen Gebühren.
+Die **[coinbase-Transaktion](https://planb.academy/resources/glossary/coinbase-transaction)** ist immer die erste, die in den Block aufgenommen wird: Sie enthält die Belohnung des Miners für den Arbeitsnachweis (Proof-of-Work). Dann folgen die validierten Transaktionen. Die Miner werden sich dafür entscheiden, die Transaktionen einzufügen, die ihnen den größten Gewinn bringen, nämlich kleine Transaktionen mit maximalen Gebühren.
 
 ### Entschädigung der Miner
 
@@ -861,7 +861,7 @@ Die zweite Methode der Entschädigung wird durch den von den Nutzern gewählten 
 
 ![image](assets/de/059.webp)
 
-Um ihr Geschäftsmodell zu stabilisieren, das auf den Belohnungen beruht, die sie für jeden gültigen Block erhalten, bilden Miner oft Gruppen in Form von "Mining-Pools", in denen sie ihre Rechenressourcen zusammenlegen.
+Um ihr Geschäftsmodell zu stabilisieren, das auf den Belohnungen beruht, die sie für jeden gültigen Block erhalten, bilden Miner oft Gruppen in Form von "[Mining-Pools](https://planb.academy/resources/glossary/pool-mining)", in denen sie ihre Rechenressourcen zusammenlegen.
 
 ### Warum überhaupt diese ganze Mühe?
 
@@ -881,7 +881,13 @@ Selbst im Falle eines 51%-Angriffs, bei dem ein Agent mehr als die Hälfte der H
 
 Die auf Bitcoin angewandte Spieltheorie schließt unehrliche Miner aus, die ASIC-Maschinen zum Mining verwenden und im Erfolgsfall eine Belohnung erhalten. Außerdem schließen sie sich oft Mining-Pools an, um ihre Rechenleistung zu teilen und kleinere, aber regelmäßigere Belohnungen zu erhalten. Obwohl das Bitcoin-Mining hohe Energiekosten verursacht, ist es für den Betrieb und die Sicherheit des Bitcoin-Netzwerks von entscheidender Bedeutung. Der Proof-of-Work Mechanismus und die Blockchain-Technologie lösen das Problem der doppelten Ausgaben und gewährleisten die Integrität der Informationen, ohne sich auf eine vertrauenswürdige dritte Partei zu verlassen. Während die Erzeugung von Informationen einen erheblichen Energieaufwand erfordert, ist die Überprüfung dieser Informationen mit vernachlässigbaren Kosten verbunden. Diese Asymmetrie stärkt die Sicherheit des Netzes und macht es wirtschaftlich rentabler, sich an die Konsensregeln zu halten, als zu versuchen, sie zu brechen.
 
-Wenn du tiefer in das Thema Bitcoin-Mining einsteigen willst, kannst du unseren Kurs MIN 201 besuchen. Du wirst die Funktionsweise und die Rolle des Proof-of-Work sowie die Mechanismen der Mining-Industrie kennenlernen. Wir erklären dir auch, wie du einen ASIC in eine Heizung umwandeln kannst, so dass du deine ersten Satoshis schürfen kannst, während du dein Haus heizt!
+
+
+Wenn Sie das spezifische Thema des Bitcoin-Minings vertiefen möchten, können Sie unseren Kurs MIN 101 konsultieren. Dort finden Sie eine ausführliche theoretische Erklärung des Prinzips des Proof of Work und seiner Funktionsweise sowie sämtliche damit verbundenen Konzepte.
+
+https://planb.academy/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e
+
+Ich empfehle Ihnen außerdem, diesen fortgeschritteneren Praxiskurs zu entdecken, in dem wir Ihnen erklären, wie Sie einen ASIC in ein DIY-Heimheizungssystem umwandeln können, um die beim Mining erzeugte Wärme zu nutzen und Ihre ersten Satoshis zu verdienen!
 
 https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
@@ -981,7 +987,7 @@ Im Jahr 2020 erlebte der Markt dann eine weitere Spekulationsblase, die den Prei
 
 ### Bitcoin und Volatilität
 
-Ausgehend von vergangenen Zyklen scheint es, dass die Periodizität der Bitcoin-Wirtschaftszyklen der Dauer zwischen zwei Halbierungen entspricht, vielleicht weil das Halbierungsereignis als Auslöser wirkt, indem es die Emission neuer Bitcoins halbiert.
+Ausgehend von vergangenen Zyklen scheint es, dass die Periodizität der Bitcoin-Wirtschaftszyklen der Dauer zwischen zwei [Halbierungen](https://planb.academy/resources/glossary/halving) entspricht, vielleicht weil das Halbierungsereignis als Auslöser wirkt, indem es die Emission neuer Bitcoins halbiert.
 
 Diese beträchtlichen Schwankungen haben Bitcoin den Ruf eingebracht, ein sehr volatiler Vermögenswert zu sein, was oft zu erheblichen Verlusten für seine Nutzer führt. Obwohl der Preis innerhalb weniger Tage um 10 %, 20 % oder sogar 50 % fallen kann, ist es wichtig zu verstehen, dass das Bitcoin-Protokoll selbst nicht von Preisänderungen betroffen ist.
 
@@ -1090,7 +1096,7 @@ Eine schrittweise Strategie beinhaltet wiederkehrende Käufe, d. h. den Kauf kle
 
 **Vorsicht vor UTXO's**: Denk daran, deine UTXOs von Zeit zu Zeit in deinen Wallets zu konsolidieren. Diese Praxis ist wichtig, um Ihre Bitcoins effektiv zu verwalten und unnötige Gebühren bei Transaktionen zu vermeiden.
 
-Ein [UTXO](https://planb.academy/resources/glossary/utxo) (Unspent Transaction Output) ist ein Ausgang einer Transaktion, der noch nicht ausgegeben wurde, was bedeutet, dass er nicht als Eingabe für eine neue Transaktion verwendet wurde. Die Konsolidierung von UTXOs bedeutet, mehrere kleine UTXOs zu einem größeren zusammenzufassen, um das "Gewicht" der Transaktion zu verringern und somit niedrigere Gebühren zu zahlen.
+Ein UTXO (Unspent Transaction Output) ist ein Ausgang einer Transaktion, der noch nicht ausgegeben wurde, was bedeutet, dass er nicht als Eingabe für eine neue Transaktion verwendet wurde. Die Konsolidierung von UTXOs bedeutet, mehrere kleine UTXOs zu einem größeren zusammenzufassen, um das "Gewicht" der Transaktion zu verringern und somit niedrigere Gebühren zu zahlen.
 
 - Spontankauf
 
@@ -1100,11 +1106,11 @@ In diesem Fall solltest du vorsichtig sein und deine Emotionen kontrollieren, da
 
 ### Von wem sollten wir unsere Bitcoin kaufen?
 
-Es gibt mehrere Möglichkeiten, Bitcoins zu erwerben, die jeweils eigenen Vorschriften unterliegen, die je nach Land variieren können. Einige Plattformen verlangen eine Identifizierung zur Verifizierung (KYC), während andere dies nicht tun. Daher ist es wichtig, die mit jeder Plattform verbundenen Vorschriften zu kennen.
+Es gibt mehrere Möglichkeiten, Bitcoins zu erwerben, die jeweils eigenen Vorschriften unterliegen, die je nach Land variieren können. Einige Plattformen verlangen eine Identifizierung zur Verifizierung ([KYC](https://planb.academy/resources/glossary/kyc-know-your-customer)), während andere dies nicht tun. Daher ist es wichtig, die mit jeder Plattform verbundenen Vorschriften zu kennen.
 
 - DCA-Plattformen
 
-Wie bereits erwähnt, ist eine gängige Methode zum Sammeln von Bitcoins das Dollar Cost Averaging (DCA), bei dem regelmäßig kleine Beträge gekauft werden. Mehrere Plattformen bieten diesen Service an, wie z.B. die auf unserer [speziellen Seite](https://planb.academy/tutorials/exchange) aufgeführten. Abgesehen von der Einfachheit, mit der ein DCA eingerichtet wird, erfolgen die Abhebungen auf Ihre Wallet im Allgemeinen automatisch, was bedeutet, dass du immer die Kontrolle über dein Vermögen hast.
+Wie bereits erwähnt, ist eine gängige Methode zum Sammeln von Bitcoins das [Dollar Cost Averaging (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca), bei dem regelmäßig kleine Beträge gekauft werden. Mehrere Plattformen bieten diesen Service an, wie z.B. die auf unserer [speziellen Seite](https://planb.academy/tutorials/exchange) aufgeführten. Abgesehen von der Einfachheit, mit der ein DCA eingerichtet wird, erfolgen die Abhebungen auf Ihre Wallet im Allgemeinen automatisch, was bedeutet, dass du immer die Kontrolle über dein Vermögen hast.
 
 Heute sind fast alle DCA-Lösungen relativ effizient und haben fast ähnliche Gebühren, so dass die Wahl eher von der Verfügbarkeit in deinem Land abhängt.
 
@@ -1185,7 +1191,7 @@ Nachdem Sie nun die Grundlagen des Bitcoin-Protokolls kennen, stellen wir das wi
 
 ### Die Blockchain kann nicht alles leisten
 
-Die Bitcoin-Blockchain ist so konzipiert, dass sie von möglichst vielen Teilnehmern überprüfbar ist, ohne Genehmigung und ohne Vertrauen. Diese Anforderung bringt strukturelle Grenzen mit sich: Die Blockchain kann keine unbegrenzte Anzahl von Transaktionen verarbeiten, da die Blöcke in einer Größe bleiben müssen, die von unabhängigen Knoten heruntergeladen, gespeichert und überprüft werden kann, ohne in zu teure Hardware investieren zu müssen. Dieser Kompromiss wird häufig durch das sogenannte Trilemma zusammengefasst: Dezentralisierung, Sicherheit und Skalierbarkeit. Ein auf einer Blockchain basierendes System kann diese drei Eigenschaften nicht gleichzeitig maximieren. Bitcoin priorisiert Dezentralisierung und Sicherheit, was den möglichen Durchsatz an Onchain-Transaktionen natürlicherweise begrenzt.
+Die Bitcoin-Blockchain ist so konzipiert, dass sie von möglichst vielen Teilnehmern überprüfbar ist, ohne Genehmigung und ohne Vertrauen. Diese Anforderung bringt strukturelle Grenzen mit sich: Die Blockchain kann keine unbegrenzte Anzahl von Transaktionen verarbeiten, da die Blöcke in einer Größe bleiben müssen, die von unabhängigen Knoten heruntergeladen, gespeichert und überprüft werden kann, ohne in zu teure Hardware investieren zu müssen. Dieser Kompromiss wird häufig durch das sogenannte Trilemma zusammengefasst: Dezentralisierung, Sicherheit und Skalierbarkeit. Ein auf einer Blockchain basierendes System kann diese drei Eigenschaften nicht gleichzeitig maximieren. Bitcoin priorisiert Dezentralisierung und Sicherheit, was den möglichen Durchsatz an [Onchain](https://planb.academy/resources/glossary/onchain)-Transaktionen natürlicherweise begrenzt.
 
 ![image](assets/de/081.webp)
 
@@ -1203,7 +1209,7 @@ Das Lightning Network ist genau eine Antwort auf diese Probleme. Die Idee von Li
 
 ### Zahlungs­kanäle, die in Bitcoin verankert sind
 
-Lightning basiert auf bidirektionalen Zahlungskanälen. Ein Kanal ist eine technische Beziehung zwischen zwei Teilnehmern, die es ihnen ermöglicht, Sats offchain auszutauschen, also ohne jede Zahlung in der Blockchain zu verankern.
+Lightning basiert auf bidirektionalen [Zahlungskanälen](https://planb.academy/resources/glossary/payment-channel). Ein Kanal ist eine technische Beziehung zwischen zwei Teilnehmern, die es ihnen ermöglicht, [Sats](https://planb.academy/resources/glossary/satoshi-sat) [offchain](https://planb.academy/resources/glossary/offchain) auszutauschen, also ohne jede Zahlung in der Blockchain zu verankern.
 
 Aus Sicht von Bitcoin (onchain) bedeutet das Öffnen eines Kanals, dass Gelder in einer speziellen Transaktion gesperrt werden. Man kann sich das wie eine Art Treuhand vorstellen: Die Mittel sind so blockiert, dass nur ein gültiges Schließen des Kanals sie wieder verteilen kann.
 
@@ -1229,7 +1235,7 @@ Hier taucht ein zentrales Konzept von Lightning auf: Liquidität. Die Kapazität
 
 ### Eine Zahlung weiterleiten, ohne den Intermediären zu vertrauen
 
-Lightning wurde so konzipiert, dass Zahlungen über Intermediäre möglich sind, ohne ihnen vertrauen zu müssen. Dafür nutzt das Protokoll intelligente Verträge, sogenannte HTLCs (*Hashed Time-Locked Contracts*). Ohne auf alle Details einzugehen, lässt sich der grundlegende Mechanismus wie folgt zusammenfassen:
+Lightning wurde so konzipiert, dass Zahlungen über Intermediäre möglich sind, ohne ihnen vertrauen zu müssen. Dafür nutzt das Protokoll intelligente Verträge, sogenannte [HTLCs](https://planb.academy/resources/glossary/htlc) (*Hashed Time-Locked Contracts*). Ohne auf alle Details einzugehen, lässt sich der grundlegende Mechanismus wie folgt zusammenfassen:
 * die Zahlung ist an die Offenlegung eines Geheimnisses (einer Preimage) gebunden;
 * wenn der endgültige Empfänger dieses Geheimnis offenlegt, erhält er die Mittel, und die Intermediäre können ihrerseits das erhalten, was ihnen zusteht;
 * schlägt die Zahlung fehl, laufen die Fristen ab und jeder erhält seine Mittel zurück.
@@ -1310,7 +1316,7 @@ Wie wir in den vorherigen Kapiteln gesehen haben, wurde Bitcoin als äußerst ro
 
 Bitcoin entwickelt sich nicht nur durch Änderungen an seinem Basisprotokoll weiter. Es entwickelt sich auch durch Aufbauten darüber, mit Lösungen, die je nach Ziel unterschiedliche Kompromisse eingehen. Einige zielen auf die Skalierbarkeit von Zahlungen ab, andere auf Programmierbarkeit (im weiteren Sinne) und die Emission von Assets, und wieder andere versuchen, beides zu kombinieren.
 
-In diesem Kapitel stellen wir vier wichtige Protokolle vor, die jeweils neue Möglichkeiten auf Bitcoin eröffnen: Sidechains (insbesondere Liquid), Ark, RGB und Taproot Assets.
+In diesem Kapitel stellen wir vier wichtige Protokolle vor, die jeweils neue Möglichkeiten auf Bitcoin eröffnen: [Sidechains](https://planb.academy/resources/glossary/sidechain) (insbesondere Liquid), Ark, RGB und Taproot Assets.
 
 ### Sidechains: parallele Blockchains, die mit Bitcoin verbunden sind
 
@@ -1330,7 +1336,7 @@ https://planb.academy/courses/d3ca6943-b22c-4e50-b62d-9431460525bc
 
 Ark bezeichnet eine Familie von Vorschlägen und Implementierungen, die darauf abzielen, die Skalierbarkeit von Bitcoin zu verbessern, indem viele Nutzeroperationen in einer begrenzten Anzahl von Bitcoin-Transaktionen gebündelt werden. Die Idee ist relativ einfach: Anstatt pro Nutzer eine Onchain-Transaktion zu erstellen, wird eine Onchain-Transaktion erzeugt, die ein Bündel repräsentiert, und die Rechte der einzelnen Beteiligten entwickeln sich anschließend hauptsächlich offchain weiter, bis eine endgültige Abrechnung auf Bitcoin gewünscht ist.
 
-Diese Idee eines Second-Layer-Protokolls wurde im Mai 2023 von Burak vorgestellt. Wie das Lightning Network ist Ark ein System, das sich über die Hauptkette von Bitcoin legt. Es würde ermöglichen, Zahlungen in Bitcoin außerhalb der Kette schnell, anonym und kostengünstig durchzuführen. Im Vergleich zu Lightning erfordert Ark keine eingehende Liquidität, um Zahlungen zu empfangen, was die Nutzererfahrung erheblich verbessert. Zudem bietet es ein Maß an Privatsphäre, das CoinJoin-Transaktionen nahekommt. Ark könnte auch nicht-interaktiv sein, sofern Covenants in Bitcoin eingeführt werden.
+Diese Idee eines Second-Layer-Protokolls wurde im Mai 2023 von Burak vorgestellt. Wie das Lightning Network ist Ark ein System, das sich über die Hauptkette von Bitcoin legt. Es würde ermöglichen, Zahlungen in Bitcoin außerhalb der Kette schnell, anonym und kostengünstig durchzuführen. Im Vergleich zu Lightning erfordert Ark keine eingehende Liquidität, um Zahlungen zu empfangen, was die Nutzererfahrung erheblich verbessert. Zudem bietet es ein Maß an Privatsphäre, das [CoinJoin](https://planb.academy/resources/glossary/coinjoin)-Transaktionen nahekommt. Ark könnte auch nicht-interaktiv sein, sofern Covenants in Bitcoin eingeführt werden.
 
 Burak kritisiert häufig die Skalierbarkeit von Lightning aufgrund seiner Abhängigkeit von der Hauptkette und schlägt vor, dass Ark theoretisch die gesamte Weltbevölkerung in Self-Custody integrieren könnte. Auch wenn Ark als konkurrierendes Protokoll zum Lightning Network betrachtet werden kann, können beide in der Praxis koexistieren und sich sogar ergänzen.
 

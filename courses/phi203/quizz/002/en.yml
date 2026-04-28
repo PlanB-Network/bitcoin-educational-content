@@ -1,0 +1,8 @@
+question: What conclusion did the Physiocrats and 19th-century French liberal economists draw from Descartes' observation about the limits of human reason?
+answer: Central planning is impossible because no authority can foresee and coordinate the millions of individual actions that constitute a society
+wrong_answers:
+  - Human reason is so powerful that, given sufficient data, a central authority can optimize economic outcomes better than individuals
+  - The limits of reason apply only to individuals, not to collective deliberation, which can overcome individual cognitive boundaries
+  - Reason's limits mean that freedom itself is unattainable, requiring strong institutions to guide human behavior
+explanation: |
+  Descartes used the example of the chiliogon, a polygon with a thousand sides, to illustrate that the human mind cannot fully visualize what it can define. From this observation about the limits of reason, the Physiocrats and 19th-century French liberal economists drew a decisive political conclusion: central planning is impossible. No bureau of ministers, however vast, could foresee, anticipate, organize, and coordinate the millions of individual human actions that constitute a market economy. The impossibility of planning is therefore inscribed in the very nature of human reason, not merely in practical difficulties of administration.

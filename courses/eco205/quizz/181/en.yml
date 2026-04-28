@@ -1,0 +1,8 @@
+question: According to Carl Menger, what is the main difference between his marginalist approach and that of Jevons and Walras, developed simultaneously in 1871?
+answer: Menger develops a subjectivist and verbal marginalism in which value emerges from the subjective ordinal evaluations of individuals
+wrong_answers:
+  - "Menger favors a more rigorous mathematical approach based on cardinal measures of utility"
+  - Unlike other authors, Menger integrates the theory of work value into his marginalist analysis
+  - Menger adopts a contextual historicist method to explain marginal economic phenomena
+explanation: |
+  Menger differs from Jevons and Walras in that his approach is resolutely subjectivist and verbal rather than mathematical. For him, value is not objectively measurable, but emerges from individual subjective assessments that are ordinal (one can prefer without measuring the difference). This approach resolves the diamond-eau paradox by showing that value depends on marginal utility, not on embodied labor or total utility.

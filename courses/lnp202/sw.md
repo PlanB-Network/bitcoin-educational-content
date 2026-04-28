@@ -92,7 +92,7 @@ Ukifuata kozi hii ya LNP202 kwa mpangilio sahihi, mwishoni mwake utakuwa na usan
 
 
 
-Kabla ya kuzindua nodi yako mwenyewe, sura hii inapitia kwa ufupi nadharia ya msingi nyuma ya Lightning Network. Kwa kweli ni muhimu kuelewa mifumo inayohusika, kwani hii itakuwezesha kutambua hatari na kupitisha mbinu nzuri za kuzipunguza. Hata hivyo, sitaingia kwa undani hapa, kwani hii sio lengo kuu la kozi hii. Ikiwa ungependa kuchunguza kwa undani zaidi mada hii, ninapendekeza sana uangalie kozi ya LNP 201 ya Fanis Michalakis, ambayo ni marejeleo katika uwanja huu:
+Kabla ya kuzindua nodi yako mwenyewe, sura hii inapitia kwa ufupi nadharia ya msingi nyuma ya [Lightning Network](https://planb.academy/resources/glossary/lightning-network). Kwa kweli ni muhimu kuelewa mifumo inayohusika, kwani hii itakuwezesha kutambua hatari na kupitisha mbinu nzuri za kuzipunguza. Hata hivyo, sitaingia kwa undani hapa, kwani hii sio lengo kuu la kozi hii. Ikiwa ungependa kuchunguza kwa undani zaidi mada hii, ninapendekeza sana uangalie kozi ya LNP 201 ya Fanis Michalakis, ambayo ni marejeleo katika uwanja huu:
 
 
 
@@ -102,20 +102,20 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-Turudi kwenye misingi: kabla ya kufafanua nodi ni nini, tunahitaji kuelewa Lightning Network ni nini. Ni itifaki ya safu ya juu, iliyojengwa juu ya Bitcoin, iliyoundwa ili kuwezesha miamala ya BTC ya offchain ambayo ni ya haraka (yenye mwisho wa papo hapo) na kwa ujumla haina gharama kubwa. "Offchain" inamaanisha kwamba miamala inayofanywa kwenye Lightning haikusudiwi kuonekana kwenye blockchain kuu ya Bitcoin. Umeme pia ni jibu la sehemu kwa matumizi yanayoongezeka ya Bitcoin na msongamano wa onchain, jambo ambalo linaongeza wasiwasi kuhusu uwezo wa mfumo kupanuka.
+Turudi kwenye misingi: kabla ya kufafanua nodi ni nini, tunahitaji kuelewa Lightning Network ni nini. Ni itifaki ya safu ya juu, iliyojengwa juu ya Bitcoin, iliyoundwa ili kuwezesha miamala ya BTC ya [offchain](https://planb.academy/resources/glossary/offchain) ambayo ni ya haraka (yenye mwisho wa papo hapo) na kwa ujumla haina gharama kubwa. "Offchain" inamaanisha kwamba miamala inayofanywa kwenye Lightning haikusudiwi kuonekana kwenye [blockchain](https://planb.academy/resources/glossary/blockchain) kuu ya Bitcoin. Umeme pia ni jibu la sehemu kwa matumizi yanayoongezeka ya Bitcoin na msongamano wa [onchain](https://planb.academy/resources/glossary/onchain), jambo ambalo linaongeza wasiwasi kuhusu [uwezo](https://planb.academy/resources/glossary/lightning-channel-capacity) wa mfumo kupanuka.
 
 
 
-Ili kufanya kazi, Lightning inategemea ufunguzi wa njia za malipo kati ya washiriki, ambapo miamala inaweza kufanywa karibu mara moja, mara nyingi kwa ada ndogo, bila kuhitaji kusajiliwa moja baada ya nyingine kwenye blockchain ya Bitcoin. Njia hizi zinaweza kubaki wazi kwa muda mrefu sana, zikihitaji miamala ya onchain tu zinapofunguliwa na kufungwa.
+Ili kufanya kazi, Lightning inategemea ufunguzi wa [njia za malipo](https://planb.academy/resources/glossary/payment-channel) kati ya washiriki, ambapo miamala inaweza kufanywa karibu mara moja, mara nyingi kwa ada ndogo, bila kuhitaji kusajiliwa moja baada ya nyingine kwenye blockchain ya Bitcoin. Njia hizi zinaweza kubaki wazi kwa muda mrefu sana, zikihitaji miamala ya onchain tu zinapofunguliwa na kufungwa.
 
 
 
-Nodi ya Umeme ni mshiriki katika mtandao wa Umeme, hufungua njia na kufanya malipo kwa kutumia nodi zingine. Kwa maneno halisi, nodi ya Umeme ni kipande cha programu kinachofanya kazi kwenye kompyuta na kutekeleza itifaki ya Lightning Network. Mifano ni pamoja na LND, Core Lightning au Eclair. Jukumu kuu la programu hii ni:
+[Nodi ya Umeme](https://planb.academy/resources/glossary/lightning-node) ni mshiriki katika mtandao wa Umeme, hufungua njia na kufanya malipo kwa kutumia nodi zingine. Kwa maneno halisi, nodi ya Umeme ni kipande cha programu kinachofanya kazi kwenye kompyuta na kutekeleza itifaki ya Lightning Network. Mifano ni pamoja na LND, Core Lightning au Eclair. Jukumu kuu la programu hii ni:
 
 
 
 
-- unganisha kwenye nodi ya Bitcoin ili kupata taarifa kutoka kwa blockchain kuu;
+- unganisha kwenye [nodi ya Bitcoin](https://planb.academy/resources/glossary/full-node) ili kupata taarifa kutoka kwa blockchain kuu;
 - kuunda na kudhibiti njia za malipo za pande mbili na nodi zingine;
 - kubadilishana ujumbe na mtandao mzima wa Lightning.
 
@@ -129,7 +129,7 @@ Nodi ya Umeme ni mshiriki katika mtandao wa Umeme, hufungua njia na kufanya mali
 
 
 
-Kwenye Bitcoin (onchain), "*wallet*" inarejelea programu inayosimamia funguo zako za kibinafsi, huhesabu salio lako kutoka kwa UTXO zako na hujenga miamala yako. wallet hii inaweza kutegemea nodi yako ya Bitcoin au ya mtu mwingine, lakini leo, jukumu la nodi na lile la onchain wallet ni tofauti kabisa.
+Kwenye Bitcoin (onchain), "*[wallet](https://planb.academy/resources/glossary/wallet)*" inarejelea programu inayosimamia [funguo zako za kibinafsi](https://planb.academy/resources/glossary/private-key), huhesabu salio lako kutoka kwa [UTXO](https://planb.academy/resources/glossary/utxo) zako na hujenga miamala yako. wallet hii inaweza kutegemea nodi yako ya Bitcoin au ya mtu mwingine, lakini leo, jukumu la nodi na lile la onchain wallet ni tofauti kabisa.
 
 
 
@@ -141,7 +141,7 @@ Kuhusu Lightning, ni vigumu zaidi kutumia tena aina hii ya msamiati bila kusabab
 
 
 
-- Kutumia huduma ya uangalizi: unatumia programu inayokuonyesha salio katika sats kwenye Lightning, lakini nyuma, fedha ziko kwenye nodi ya mtoa huduma (k.m. Wallet of Satoshi). Huna funguo wala udhibiti wa njia. Salio lako ni ingizo la uhasibu tu katika hifadhidata ya kampuni. Ni sawa na kuacha bitcoins zako kwenye jukwaa la kubadilishana, pamoja na hatari zote zinazohusiana. Katika hali hii, "*Lightning wallet*" yako ni ufikiaji tu wa akaunti inayosimamiwa na mwendeshaji ambaye, naye, anaendesha nodi halisi ya Lightning.
+- Kutumia huduma ya uangalizi: unatumia programu inayokuonyesha salio katika [sats](https://planb.academy/resources/glossary/satoshi-sat) kwenye Lightning, lakini nyuma, fedha ziko kwenye nodi ya mtoa huduma (k.m. Wallet of Satoshi). Huna funguo wala udhibiti wa njia. Salio lako ni ingizo la uhasibu tu katika hifadhidata ya kampuni. Ni sawa na kuacha bitcoins zako kwenye jukwaa la kubadilishana, pamoja na hatari zote zinazohusiana. Katika hali hii, "*Lightning wallet*" yako ni ufikiaji tu wa akaunti inayosimamiwa na mwendeshaji ambaye, naye, anaendesha nodi halisi ya Lightning.
 
 
 
@@ -161,7 +161,7 @@ Katika sehemu hii, nitakupa ukumbusho mfupi wa jinsi Lightning inavyofanya kazi.
 
 
 
-Kiini cha mtandao wa Lightning kinategemea njia za malipo za pande mbili. Njia inaweza kufunguliwa (yaani kuundwa), kusasishwa kadri miamala ya Lightning inavyofanyika, na hatimaye kufungwa. Kwa mtazamo wa onchain, njia si kitu zaidi ya matokeo ya 2/2 multisignature.
+Kiini cha mtandao wa Lightning kinategemea njia za malipo za pande mbili. Njia inaweza kufunguliwa (yaani kuundwa), kusasishwa kadri miamala ya Lightning inavyofanyika, na hatimaye kufungwa. Kwa mtazamo wa onchain, njia si kitu zaidi ya [matokeo](https://planb.academy/resources/glossary/output) ya 2/2 [multisignature](https://planb.academy/resources/glossary/multisig).
 
 
 
@@ -169,7 +169,7 @@ Kiini cha mtandao wa Lightning kinategemea njia za malipo za pande mbili. Njia i
 
 
 
-Kwa mtazamo wa Lightning, ni njia ya malipo yenye ukwasi uliogawanywa kati ya washiriki hao wawili.
+Kwa mtazamo wa Lightning, ni njia ya malipo yenye [ukwasi](https://planb.academy/resources/glossary/liquidity-lightning) uliogawanywa kati ya washiriki hao wawili.
 
 
 
@@ -183,7 +183,7 @@ Kwa mtazamo wa Lightning, ni njia ya malipo yenye ukwasi uliogawanywa kati ya wa
 
 
 
-Nodi mbili huamua kufungua chaneli. Mojawapo hufanya bitcoins katika muamala wa onchain unaoitwa *muamala wa ufadhili*. Muamala huu hutoa matokeo kulingana na hati ya saini nyingi 2-kati ya 2, ambayo ina maana kwamba kutumia fedha hizi kwenye Bitcoin kunahitaji sahihi ya nodi zote mbili kwenye chaneli. Kabla ya kutoa muamala huu, mhusika anayetoa fedha hizo anamwomba mwingine kusaini *muamala wa kutoa pesa*, ambao hautolewi onchain, lakini ambao unauwezesha kurejesha fedha zake iwapo kutatokea tatizo.
+Nodi mbili huamua kufungua chaneli. Mojawapo hufanya bitcoins katika muamala wa onchain unaoitwa *muamala wa ufadhili*. Muamala huu hutoa matokeo kulingana na [hati](https://planb.academy/resources/glossary/script) ya saini nyingi 2-kati ya 2, ambayo ina maana kwamba kutumia fedha hizi kwenye Bitcoin kunahitaji [sahihi](https://planb.academy/resources/glossary/digital-signature) ya nodi zote mbili kwenye chaneli. Kabla ya kutoa muamala huu, mhusika anayetoa fedha hizo anamwomba mwingine kusaini *muamala wa kutoa pesa*, ambao hautolewi onchain, lakini ambao unauwezesha kurejesha fedha zake iwapo kutatokea tatizo.
 
 
 
@@ -197,7 +197,7 @@ Nodi mbili huamua kufungua chaneli. Mojawapo hufanya bitcoins katika muamala wa 
 
 
 
-Hali ya chaneli (yaani usambazaji wa sats kati ya A na B) inawakilishwa na *commitment transaction*, inayojulikana na nodi zote mbili lakini haitangazwi mara moja kwenye blockchain. Muamala huu unaelezea jinsi ya kusambaza tena fedha za chaneli kwenye mnyororo kulingana na malipo yaliyofanywa kwenye Lightning.
+Hali ya chaneli (yaani usambazaji wa sats kati ya A na B) inawakilishwa na *[commitment transaction](https://planb.academy/resources/glossary/commitment-transaction)*, inayojulikana na nodi zote mbili lakini haitangazwi mara moja kwenye blockchain. Muamala huu unaelezea jinsi ya kusambaza tena fedha za chaneli kwenye mnyororo kulingana na malipo yaliyofanywa kwenye Lightning.
 
 
 
@@ -249,7 +249,7 @@ Kituo si cha malipo kati ya nodi mbili pekee: ni sehemu ya mtandao wa kimataifa 
 
 
 
-Kila nodi inajua, kupitia itifaki ya umbea, ramani ya mtandao huu: ni njia zipi zilizopo, ni nodi zipi zimeunganishwa na njia ya pande mbili, na ni uwezo gani unaochapishwa. Ili kutuma malipo kwa mpokeaji bila njia ya moja kwa moja, nodi yako huhesabu njia inayojumuisha miruko kadhaa: nodi yako → nodi X → nodi Y → nodi ya mpokeaji. Katika kila mruko, malipo husafirisha njia ambayo lazima iwe na ukwasi wa kutosha kuelekea malipo.
+Kila nodi inajua, kupitia itifaki ya [umbea](https://planb.academy/resources/glossary/gossip), ramani ya mtandao huu: ni njia zipi zilizopo, ni nodi zipi zimeunganishwa na njia ya pande mbili, na ni uwezo gani unaochapishwa. Ili kutuma malipo kwa mpokeaji bila njia ya moja kwa moja, nodi yako huhesabu njia inayojumuisha miruko kadhaa: nodi yako → nodi X → nodi Y → nodi ya mpokeaji. Katika kila mruko, malipo husafirisha njia ambayo lazima iwe na ukwasi wa kutosha kuelekea malipo.
 
 
 
@@ -265,7 +265,7 @@ Kwa hivyo, ukwasi wa njia si wa ulinganifu: upande mmoja unaweza kuwa na mzigo m
 
 
 
-Ili kuwezesha malipo kupita kwenye nodi za kati bila hitaji la uaminifu, Lightning hutumia mikataba mahiri inayoitwa *HTLC* (*Hashed Time-Locked Contracts*). Kwa maneno rahisi, HTLC hufanya uhamisho wa fedha kuwa wa masharti ya kufunuliwa kwa siri, na inajumuisha kizuizi cha muda ili kumlinda mtumaji iwapo muamala utashindwa. Kwa hivyo, kila malipo yanategemea uwasilishaji wa picha ya awali (siri ambayo hash yake inalingana na thamani iliyokubaliwa). Ikiwa mpokeaji wa mwisho atatoa picha hii ya awali, anaweza kudai fedha hizo, ambazo huwezesha kila nodi ya kati kurejesha fedha zake.
+Ili kuwezesha malipo kupita kwenye nodi za kati bila hitaji la uaminifu, Lightning hutumia [mikataba mahiri](https://planb.academy/resources/glossary/smart-contract) inayoitwa *[HTLC](https://planb.academy/resources/glossary/htlc)* (*Hashed Time-Locked Contracts*). Kwa maneno rahisi, HTLC hufanya uhamisho wa fedha kuwa wa masharti ya kufunuliwa kwa siri, na inajumuisha kizuizi cha muda ili kumlinda mtumaji iwapo muamala utashindwa. Kwa hivyo, kila malipo yanategemea uwasilishaji wa picha ya awali (siri ambayo [hash](https://planb.academy/resources/glossary/hash-function) yake inalingana na thamani iliyokubaliwa). Ikiwa mpokeaji wa mwisho atatoa picha hii ya awali, anaweza kudai fedha hizo, ambazo huwezesha kila nodi ya kati kurejesha fedha zake.
 
 
 
@@ -281,7 +281,7 @@ Nitakuepushia maelezo ya kiufundi kuhusu jinsi HTLC zinavyofanya kazi, kwani si 
 
 
 
-Kama ilivyo kwa Bitcoin, kuna utekelezaji kadhaa wa itifaki ya Lightning. Timu kadhaa huru zinatengeneza matoleo yao wenyewe, ambayo yote yanaweza kuendeshwa kwa kushirikiana kwani yanafuata vipimo sawa (BOLTs). Hapa kuna utekelezaji mkuu unaotumika leo.
+Kama ilivyo kwa Bitcoin, kuna utekelezaji kadhaa wa itifaki ya Lightning. Timu kadhaa huru zinatengeneza matoleo yao wenyewe, ambayo yote yanaweza kuendeshwa kwa kushirikiana kwani yanafuata vipimo sawa ([BOLTs](https://planb.academy/resources/glossary/bolt)). Hapa kuna utekelezaji mkuu unaotumika leo.
 
 
 
@@ -399,7 +399,7 @@ Leo, inawezekana kuwa na uzoefu wa mtumiaji karibu sana na ule wa wallet ya Ligh
 
 
 
-Suluhisho la kwanza si kutumia Lightning kiasili, bali ni kutumia Bitcoin au Liquid wallet inayoingiza ubadilishaji wa atomiki. Kwa mfano, programu za Aqua au Bull Bitcoin Wallet hutumia njia hii, kwa kukuwezesha kulipa ankara za Lightning bila kutumia nodi ya Lightning mwenyewe, huku ukibaki chini ya ulinzi wa kibinafsi.
+Suluhisho la kwanza si kutumia Lightning kiasili, bali ni kutumia Bitcoin au [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet inayoingiza [ubadilishaji wa atomiki](https://planb.academy/resources/glossary/atomic-swap). Kwa mfano, programu za Aqua au Bull Bitcoin Wallet hutumia njia hii, kwa kukuwezesha kulipa [ankara za Lightning](https://planb.academy/resources/glossary/invoice-lightning) bila kutumia nodi ya Lightning mwenyewe, huku ukibaki chini ya ulinzi wa kibinafsi.
 
 
 
@@ -411,7 +411,7 @@ Kanuni ni rahisi: pesa zako hubaki katika Bitcoin, ama on-chain au kwenye Liquid
 
 
 
-Faida kubwa ya mbinu hii, ikilinganishwa na wallet ya kawaida ya kuhifadhi umeme, ni kwamba unabaki na umiliki wa 100% wa fedha zako wakati wote. Bitcoins ziko kwenye mnyororo wako au Liquid wallet, ukiwa na msemo wako wa kumbukumbu. Hata wakati wa ubadilishaji, unabaki na umiliki wa fedha zako, kwa sababu ubadilishaji ni wa atomiki. Unategemea utaratibu wa kriptografia unaohakikisha kuna matokeo mawili tu yanayowezekana: ama ubadilishaji utafanikiwa kabisa, au utashindwa na huduma haiwezi kuchukua fedha zako.
+Faida kubwa ya mbinu hii, ikilinganishwa na wallet ya kawaida ya kuhifadhi umeme, ni kwamba unabaki na umiliki wa 100% wa fedha zako wakati wote. Bitcoins ziko kwenye mnyororo wako au Liquid wallet, ukiwa na [msemo wako wa kumbukumbu](https://planb.academy/resources/glossary/seed). Hata wakati wa ubadilishaji, unabaki na umiliki wa fedha zako, kwa sababu ubadilishaji ni wa atomiki. Unategemea utaratibu wa kriptografia unaohakikisha kuna matokeo mawili tu yanayowezekana: ama ubadilishaji utafanikiwa kabisa, au utashindwa na huduma haiwezi kuchukua fedha zako.
 
 
 
@@ -423,7 +423,7 @@ Suluhisho hili pia hutoa faida za kuvutia katika suala la usiri, hasa linapounga
 
 
 
-Kwa upande mwingine, mbinu hii ina mapungufu yake. Kwanza, haiwezi kukemewa: unategemea upatikanaji na nia njema ya huduma ya kubadilishana. Ikiwa haitaki tena kuchakata akaunti yako, au itaacha kufanya kazi, huwezi tena kulipa ankara za Lightning kupitia hiyo. Halafu kuna ada zisizo na maana: unalipa ada za miamala ya onchain au Liquid, na kamisheni ya huduma ya kubadilishana. Pia, ikiwa ada za onchain zitapanda sana, inaweza kuwa ghali sana kutumia Lightning.
+Kwa upande mwingine, mbinu hii ina mapungufu yake. Kwanza, haiwezi kukemewa: unategemea upatikanaji na nia njema ya huduma ya kubadilishana. Ikiwa haitaki tena kuchakata akaunti yako, au itaacha kufanya kazi, huwezi tena kulipa ankara za Lightning kupitia hiyo. Halafu kuna ada zisizo na maana: unalipa [ada za miamala](https://planb.academy/resources/glossary/transaction-fees) ya onchain au Liquid, na kamisheni ya huduma ya kubadilishana. Pia, ikiwa ada za onchain zitapanda sana, inaweza kuwa ghali sana kutumia Lightning.
 
 
 
@@ -479,7 +479,7 @@ Suluhisho la tatu, ambalo tutaliangalia kwa undani zaidi katika kozi hii ya LNP2
 
 
 
-Kwa "classic" namaanisha kwamba unasakinisha na kusanidi utekelezaji wa Lightning (k.m. LND) mwenyewe juu ya nodi yako ya Bitcoin. Unachagua wenzako, unafungua njia zako, unadhibiti ukwasi wako unaoingia na unaotoka, na unaweka sera zako za ada ya uelekezaji.
+Kwa "classic" namaanisha kwamba unasakinisha na kusanidi utekelezaji wa Lightning (k.m. LND) mwenyewe juu ya nodi yako ya Bitcoin. Unachagua wenzako, unafungua njia zako, unadhibiti [ukwasi wako unaoingia na unaotoka](https://planb.academy/resources/glossary/inbound-capacity), na unaweka sera zako za ada ya uelekezaji.
 
 
 
@@ -616,7 +616,7 @@ Kisha utafika kwenye kiolesura kikuu cha nodi yako ya Lightning. Upande wa kusho
 
 
 
-Katikati, utapata Lightning wallet yako. Kwa kweli inawakilisha pesa zako zinazotoka, yaani, bitcoin unazomiliki ndani ya njia zako za Lightning.
+Katikati, utapata Lightning wallet yako. Kwa kweli inawakilisha [pesa zako zinazotoka](https://planb.academy/resources/glossary/outbound-capacity), yaani, bitcoin unazomiliki ndani ya njia zako za Lightning.
 
 
 

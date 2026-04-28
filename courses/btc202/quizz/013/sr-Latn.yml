@@ -1,9 +1,9 @@
-question: Koja se oprema danas koristi za efikasno rudarenje Bitcoin?
+question: Koja se oprema se koristi danas za efikasno rudarenje Bitcoina?
 answer: ASIC
 wrong_answers:
   - Klasični CPU
   - GPU
   - FPGA
 explanation: |
-  Danas se Bitcoin Mining izvodi koristeći ASIC-ove. To su specijalizovani čipovi za SHA-256 algoritam.
+  Danas se Bitcoin rudarenje izvodi koristeći ASIC-ove. To su specijalizovani čipovi za izračunavanje SHA-256 algoritma.
 reviewed: true

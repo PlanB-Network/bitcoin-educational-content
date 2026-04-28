@@ -133,7 +133,7 @@ Então, estão prontos para ativar o vosso primeiro nó Bitcoin? Trace uma rota 
 
 
 
-Tal como descrito pelo seu criador, Satoshi Nakamoto, o Bitcoin apresenta-se como um sistema de dinheiro eletrónico peer-to-peer. Esta simples frase, que é o título do Livro Branco, contém muitas pistas sobre a natureza do Bitcoin:
+Tal como descrito pelo seu criador, [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi), o Bitcoin apresenta-se como um sistema de dinheiro eletrónico [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p). Esta simples frase, que é o título do [Livro Branco](https://planb.academy/resources/glossary/white-paper), contém muitas pistas sobre a natureza do Bitcoin:
 
 
 
@@ -144,7 +144,7 @@ Tal como descrito pelo seu criador, Satoshi Nakamoto, o Bitcoin apresenta-se com
 
 
 
-Uma vez que o Bitcoin é um sistema, tem necessariamente de ser executado em computadores. E, devido à sua natureza peer-to-peer, são os próprios utilizadores que assumem a responsabilidade de gerir estas máquinas. O que chamamos de "nó Bitcoin" é precisamente o computador no qual o software que implementa o protocolo Bitcoin (como o Bitcoin core, mas voltaremos a isso mais tarde) está a correr. É isto que permite ao Bitcoin funcionar sem uma autoridade central: a validação é feita de forma distribuída, por milhares de máquinas independentes pertencentes a milhares de utilizadores.
+Uma vez que o Bitcoin é um sistema, tem necessariamente de ser executado em computadores. E, devido à sua natureza peer-to-peer, são os próprios utilizadores que assumem a responsabilidade de gerir estas máquinas. O que chamamos de "[nó Bitcoin](https://planb.academy/resources/glossary/node)" é precisamente o computador no qual o software que implementa o protocolo Bitcoin (como o [Bitcoin core](https://planb.academy/resources/glossary/bitcoin-core), mas voltaremos a isso mais tarde) está a correr. É isto que permite ao Bitcoin funcionar sem uma autoridade central: a validação é feita de forma [distribuída](https://planb.academy/resources/glossary/distributed), por milhares de máquinas independentes pertencentes a milhares de utilizadores.
 
 
 
@@ -156,7 +156,7 @@ Nakamoto, S. (2008). *Bitcoin: Um sistema de dinheiro eletrónico peer-to-peer*.
 
 
 
-São precisamente estes utilizadores que garantem a segurança do Bitcoin. Como explica Eric Voskuil no seu livro *Cryptoeconomics*, a segurança do Bitcoin não depende nem do Blockchain, nem do poder de hashing, nem da validação, nem da descentralização, nem da criptografia, nem do código aberto, nem da teoria dos jogos. A segurança do Bitcoin depende principalmente dos indivíduos que estão dispostos a expor-se a riscos pessoais. A descentralização permite que esse risco seja distribuído por um grande número de indivíduos, e é apenas a sua capacidade de resistir que garante a robustez do sistema.
+São precisamente estes utilizadores que garantem a segurança do Bitcoin. Como explica Eric Voskuil no seu livro *Cryptoeconomics*, a segurança do Bitcoin não depende nem do [Blockchain](https://planb.academy/resources/glossary/blockchain), nem do [poder de hashing](https://planb.academy/resources/glossary/hashrate), nem da validação, nem da descentralização, nem da [criptografia](https://planb.academy/resources/glossary/cryptography), nem do [código aberto](https://planb.academy/resources/glossary/foss), nem da teoria dos jogos. A segurança do Bitcoin depende principalmente dos indivíduos que estão dispostos a expor-se a riscos pessoais. A descentralização permite que esse risco seja distribuído por um grande número de indivíduos, e é apenas a sua capacidade de resistir que garante a robustez do sistema.
 
 
 
@@ -175,7 +175,7 @@ Podemos assim distinguir e nomear vários conceitos para clarificar as coisas pa
 
 - Moeda Bitcoin: a unidade de conta utilizada para as transacções neste sistema;
 - A rede Bitcoin: o conjunto de todos os nós ligados;
-- Nós Bitcoin: máquinas que executam uma implementação do Bitcoin;
+- Nós Bitcoin: máquinas que executam uma [implementação do Bitcoin](https://planb.academy/resources/glossary/bitcoin-implementation);
 - Implementações Bitcoin: software que traduz o protocolo em instruções executáveis;
 - Protocolo Bitcoin: o conjunto de regras que regem o funcionamento do sistema;
 - O sistema Bitcoin: a combinação coerente de todos estes Elements.
@@ -190,7 +190,7 @@ O conjunto dos nós Bitcoin constitui a chamada rede Bitcoin. Permitem que todo 
 
 
 
-Desde o início, o Bitcoin foi concebido para permitir a cada utilizador gerir um nó pessoal. Este caso permanece válido com o atual software Bitcoin core, que combina as funções de Wallet e de nó. Mas hoje em dia, esta função é muitas vezes dissociada: muitas carteiras Bitcoin modernas são apenas carteiras que se ligam a nós externos (pertencentes à mesma pessoa ou não).
+Desde o início, o Bitcoin foi concebido para permitir a cada utilizador gerir um nó pessoal. Este caso permanece válido com o atual software Bitcoin core, que combina as funções de [Wallet](https://planb.academy/resources/glossary/wallet) e de nó. Mas hoje em dia, esta função é muitas vezes dissociada: muitas carteiras Bitcoin modernas são apenas carteiras que se ligam a nós externos (pertencentes à mesma pessoa ou não).
 
 
 
@@ -198,7 +198,7 @@ Desde o início, o Bitcoin foi concebido para permitir a cada utilizador gerir u
 
 
 
-A primeira tarefa de um nó é manter uma cópia local do Blockchain. Para evitar o Double-spending no Bitcoin sem envolver uma autoridade central, cada utilizador deve verificar se não existe nenhuma transação no sistema. A única forma de ter a certeza disso é conhecer todas as transacções efectuadas no Bitcoin. Por esta razão, todas as transacções são marcadas com data e hora e agrupadas em blocos, e cada nó armazena todo o Blockchain.
+A primeira tarefa de um nó é manter uma cópia local do Blockchain. Para evitar o [Double-spending](https://planb.academy/resources/glossary/double-spending-attack) no Bitcoin sem envolver uma autoridade central, cada utilizador deve verificar se não existe nenhuma [transação](https://planb.academy/resources/glossary/transaction-tx) no sistema. A única forma de ter a certeza disso é conhecer todas as transacções efectuadas no Bitcoin. Por esta razão, todas as transacções são [marcadas com data e hora](https://planb.academy/resources/glossary/timestamp) e agrupadas em [blocos](https://planb.academy/resources/glossary/block), e cada nó armazena todo o Blockchain.
 
 
 
@@ -208,7 +208,7 @@ Nakamoto, S. (2008). *Bitcoin: Um sistema de dinheiro eletrónico peer-to-peer*.
 
 
 
-O Blockchain é, portanto, um registo em evolução: cada vez que um novo bloco é publicado por um Miner, o nó verifica a sua validade antes de o adicionar à sua própria cópia local da cadeia. A partir de hoje (julho de 2025), o Blockchain completo excede 675 GB, e este tamanho continua a crescer, uma vez que um novo bloco é adicionado, em média, a cada 10 minutos.
+O Blockchain é, portanto, um registo em evolução: cada vez que um novo bloco é publicado por um [Miner](https://planb.academy/resources/glossary/miner), o nó verifica a sua validade antes de o adicionar à sua própria cópia local da cadeia. A partir de hoje (julho de 2025), o Blockchain completo excede 675 GB, e este tamanho continua a crescer, uma vez que um novo bloco é adicionado, em média, a cada 10 minutos.
 
 
 
@@ -216,7 +216,7 @@ O Blockchain é, portanto, um registo em evolução: cada vez que um novo bloco 
 
 
 
-O nó também mantém um registo local de todos os UTXOs existentes num dado momento, conhecido como o **conjunto UTXO**. Esta base de dados contém todos os fragmentos não gastos do Bitcoin. Revisitaremos este assunto em pormenor na parte final do curso.
+O nó também mantém um registo local de todos os [UTXOs](https://planb.academy/resources/glossary/utxo) existentes num dado momento, conhecido como o **[conjunto UTXO](https://planb.academy/resources/glossary/utxo-set)**. Esta base de dados contém todos os fragmentos não gastos do Bitcoin. Revisitaremos este assunto em pormenor na parte final do curso.
 
 
 
@@ -224,14 +224,14 @@ O nó também mantém um registo local de todos os UTXOs existentes num dado mom
 
 
 
-A segunda função de um nó é assegurar a verificação e a propagação das transacções. Quando uma nova transação chega ao nó (através do software Wallet ou de outro nó), este verifica se a transação cumpre um conjunto de regras (regras de consenso e regras de retransmissão). Por exemplo:
+A segunda função de um nó é assegurar a verificação e a propagação das transacções. Quando uma nova transação chega ao nó (através do software Wallet ou de outro nó), este verifica se a transação cumpre um conjunto de regras ([regras de consenso](https://planb.academy/resources/glossary/consensus-rules) e [regras de retransmissão](https://planb.academy/resources/glossary/relay)). Por exemplo:
 
 
 
 
-- os bitcoins gastos devem existir no seu conjunto UTXO (a base de dados de saídas não gastas);
-- a assinatura deve ser válida e todas as condições de despesa devem ser cumpridas (guião válido);
-- o montante total das realizações não deve exceder o montante total das entradas, o que significa que os custos não podem ser negativos.
+- os bitcoins gastos devem existir no seu conjunto UTXO (a base de dados de [saídas](https://planb.academy/resources/glossary/output) não gastas);
+- a [assinatura](https://planb.academy/resources/glossary/digital-signature) deve ser válida e todas as condições de despesa devem ser cumpridas ([guião](https://planb.academy/resources/glossary/script) válido);
+- o montante total das realizações não deve exceder o montante total das [entradas](https://planb.academy/resources/glossary/input), o que significa que os [custos](https://planb.academy/resources/glossary/transaction-fees) não podem ser negativos.
 
 
 
@@ -239,7 +239,7 @@ A segunda função de um nó é assegurar a verificação e a propagação das t
 
 
 
-Após a validação, a transação é armazenada no Mempool do nó, um espaço de memória temporário reservado para transacções não confirmadas, e depois retransmitida para os outros pares da rede a que está ligado. Este mecanismo de distribuição e validação continua de nó para nó. Desta forma, a transação é propagada através da rede Bitcoin, e cada nó armazena-a no Mempool até ser incluída num bloco válido por um Miner, que actua então na sua primeira confirmação.
+Após a validação, a transação é armazenada no [Mempool](https://planb.academy/resources/glossary/mempool) do nó, um espaço de memória temporário reservado para transacções não confirmadas, e depois retransmitida para os outros pares da rede a que está ligado. Este mecanismo de distribuição e validação continua de nó para nó. Desta forma, a transação é propagada através da rede Bitcoin, e cada nó armazena-a no Mempool até ser incluída num bloco válido por um Miner, que actua então na sua primeira [confirmação](https://planb.academy/resources/glossary/confirmation).
 
 
 
@@ -247,7 +247,7 @@ Após a validação, a transação é armazenada no Mempool do nó, um espaço d
 
 
 
-O terceiro papel do nó envolve a gestão de blocos extraídos. Quando um Miner descobre um novo bloco com um Proof of Work válido, este é difundido na rede. Os nós recebem-no, verificam se está em conformidade com todas as regras do protocolo e integram-no na sua própria cópia local do Blockchain, se for válido. Tal como acontece com as transacções, os blocos recém-validados são então retransmitidos a todos os pares ligados ao nó. Este processo continua até que todos os nós da rede Bitcoin tenham conhecimento do novo bloco.
+O terceiro papel do nó envolve a gestão de blocos extraídos. Quando um Miner descobre um novo bloco com um [Proof of Work](https://planb.academy/resources/glossary/proof-of-work) válido, este é [difundido](https://planb.academy/resources/glossary/diffusion) na rede. Os nós recebem-no, verificam se está em conformidade com todas as regras do protocolo e integram-no na sua própria cópia local do Blockchain, se for válido. Tal como acontece com as transacções, os blocos recém-validados são então retransmitidos a todos os pares ligados ao nó. Este processo continua até que todos os nós da rede Bitcoin tenham conhecimento do novo bloco.
 
 
 
@@ -304,7 +304,7 @@ Inicialmente, quando o Bitcoin foi lançado por Satoshi Nakamoto em 2009, espera
 
 
 
-No entanto, com a popularização progressiva da Bitcoin e o aumento do número de mineiros, o panorama da concorrência na Mining sofreu uma mudança radical. Hoje em dia, a Mining tornou-se uma atividade extremamente competitiva, dominada por intervenientes industriais equipados com infra-estruturas especializadas. A potência necessária para extrair um novo bloco é agora tão grande que é praticamente impossível para um utilizador individual conseguir fazê-lo utilizando apenas um computador convencional. Como resultado, a Mining é agora efectuada principalmente com máquinas especializadas chamadas ASICs (*Application-Specific Integrated Circuits*). Estes chips são optimizados exclusivamente para executar o duplo SHA-256, o algoritmo utilizado para o Mining no Bitcoin.
+No entanto, com a popularização progressiva da Bitcoin e o aumento do número de mineiros, o panorama da concorrência na Mining sofreu uma mudança radical. Hoje em dia, a Mining tornou-se uma atividade extremamente competitiva, dominada por intervenientes industriais equipados com infra-estruturas especializadas. A potência necessária para extrair um novo bloco é agora tão grande que é praticamente impossível para um utilizador individual conseguir fazê-lo utilizando apenas um computador convencional. Como resultado, a Mining é agora efectuada principalmente com máquinas especializadas chamadas [ASICs](https://planb.academy/resources/glossary/asic) (*Application-Specific Integrated Circuits*). Estes chips são optimizados exclusivamente para executar o duplo [SHA-256](https://planb.academy/resources/glossary/sha256), o algoritmo utilizado para o Mining no Bitcoin.
 
 
 
@@ -328,7 +328,7 @@ Um Miner precisa de um nó Bitcoin para interagir com a rede.
 
 
 
-O papel do Miner também é por vezes diferenciado do papel do grind. Um grind é uma máquina cuja tarefa consiste em Hash blocos de modelos fornecidos pelo servidor de um pool, procurando hashes que satisfaçam o objetivo de dificuldade definido para as acções, e não o do Bitcoin. O resto do processo Mining, que inclui a construção de blocos propriamente dita, a seleção de transacções ou a pesquisa Proof-of-Work de acordo com a dificuldade própria do Bitcoin, bem como a distribuição, é realizado diretamente pelos pools.
+O papel do Miner também é por vezes diferenciado do papel do grind. Um grind é uma máquina cuja tarefa consiste em Hash blocos de modelos fornecidos pelo servidor de um [pool](https://planb.academy/resources/glossary/pool-mining), procurando hashes que satisfaçam o objetivo de dificuldade definido para as acções, e não o do Bitcoin. O resto do processo Mining, que inclui a construção de blocos propriamente dita, a seleção de transacções ou a pesquisa Proof-of-Work de acordo com a dificuldade própria do Bitcoin, bem como a distribuição, é realizado diretamente pelos pools.
 
 
 
@@ -598,7 +598,7 @@ Estas são as regras fundamentais do protocolo Bitcoin, que garantem a integrida
 
 
 
-Alterar estas regras equivale a alterar o protocolo e, por conseguinte, a moeda (Hard Fork). No entanto, mesmo sem tentar modificá-las, o simples facto de aplicar estritamente as regras existentes confere um certo poder: se um bloco violar as regras, o nó rejeita-o imediatamente.
+Alterar estas regras equivale a alterar o protocolo e, por conseguinte, a moeda ([Hard Fork](https://planb.academy/resources/glossary/hard-fork)). No entanto, mesmo sem tentar modificá-las, o simples facto de aplicar estritamente as regras existentes confere um certo poder: se um bloco violar as regras, o nó rejeita-o imediatamente.
 
 
 
@@ -722,7 +722,7 @@ O Full node não precisa de confiar em ninguém porque valida e conhece toda a i
 
 
 
-Na prática, um Full node requer recursos não-triviais, incluindo várias centenas de gigabytes para ficheiros de blocos, um processador capaz de validar scripts, RAM para o Mempool e caches, e largura de banda estável. A primeira sincronização (*IBD*) lê e verifica o histórico completo: é intensiva, mas só acontece uma vez. Um Full node participa ativamente na rede, retransmitindo blocos e transacções, e pode aceitar ligações de entrada para ajudar outros pares.
+Na prática, um Full node requer recursos não-triviais, incluindo várias centenas de gigabytes para ficheiros de blocos, um processador capaz de validar scripts, RAM para o Mempool e caches, e largura de banda estável. A primeira sincronização (*[IBD](https://planb.academy/resources/glossary/initial-block-download-ibd)*) lê e verifica o histórico completo: é intensiva, mas só acontece uma vez. Um Full node participa ativamente na rede, retransmitindo blocos e transacções, e pode aceitar ligações de entrada para ajudar outros pares.
 
 
 
@@ -758,7 +758,7 @@ Em suma, o rastreamento do Wallet funciona sem problemas num nó pruned se criar
 
 
 
-Um nó SPV (*Simplified Payment Verification*), ou nó leve, retém apenas os cabeçalhos dos blocos, não os detalhes da transação, e depende de outros nós completos para obter provas de que uma transação está num bloco (provas Merkle através de árvores) para o qual tem o cabeçalho. O conceito de verificação simplificada de pagamentos não é novo, tendo sido proposto pelo próprio Satoshi Nakamoto na parte 8 do Livro Branco.
+Um nó [SPV](https://planb.academy/resources/glossary/spv-node-light-node) (*Simplified Payment Verification*), ou nó leve, retém apenas os cabeçalhos dos blocos, não os detalhes da transação, e depende de outros nós completos para obter provas de que uma transação está num bloco (provas [Merkle](https://planb.academy/resources/glossary/merkle-tree) através de árvores) para o qual tem o cabeçalho. O conceito de verificação simplificada de pagamentos não é novo, tendo sido proposto pelo próprio Satoshi Nakamoto na parte 8 do Livro Branco.
 
 
 
@@ -812,7 +812,7 @@ Um utilizador intermédio com um PC pode instalar um nó pruned para beneficiar 
 
 
 
-Um Full node continua a ser a melhor solução se quiser ser totalmente independente na sua utilização do Bitcoin e não se limitar mais tarde a utilizações avançadas como um indexador, um nó Lightning ou mesmo um Block explorer. É exatamente isso que vamos explorar neste curso!
+Um Full node continua a ser a melhor solução se quiser ser totalmente independente na sua utilização do Bitcoin e não se limitar mais tarde a utilizações avançadas como um indexador, um nó [Lightning](https://planb.academy/resources/glossary/lightning-network) ou mesmo um Block explorer. É exatamente isso que vamos explorar neste curso!
 
 
 
@@ -853,7 +853,7 @@ Esta é a abordagem mais soberana e flexível: sabe-se exatamente o que está a 
 
 
 
-[O Bitcoin core é o cliente ultra-majoritário da rede](https://bitcoincore.org/). Ele baixa, valida e mantém o Blockchain, fornece APIs RPC/REST, e pode integrar um Wallet. Se você prefere ferramentas padrão e se sente confortável em adicionar serviços você mesmo (como o servidor Electrum, explorer e LND), é melhor usar o Core como está.
+[O Bitcoin core é o cliente ultra-majoritário da rede](https://bitcoincore.org/). Ele baixa, valida e mantém o Blockchain, fornece APIs [RPC](https://planb.academy/resources/glossary/rpc-remote-procedure-call)/REST, e pode integrar um Wallet. Se você prefere ferramentas padrão e se sente confortável em adicionar serviços você mesmo (como o servidor Electrum, explorer e LND), é melhor usar o Core como está.
 
 
 
@@ -1856,7 +1856,7 @@ Para começar a configurar o seu Umbrel, clique no botão "*Start*".
 
 
 
-Escolha um pseudónimo ou introduza o seu nome e, em seguida, defina uma palavra-passe forte. Tenha cuidado: esta palavra-passe é a única barreira que protege o acesso ao seu Umbrel a partir da sua rede (e, por conseguinte, potencialmente, aos seus bitcoins, se gerir um nó Lightning no Umbrel). Ela também protege o acesso remoto via Tor ou VPN, se esses serviços estiverem habilitados.
+Escolha um pseudónimo ou introduza o seu nome e, em seguida, defina uma palavra-passe forte. Tenha cuidado: esta palavra-passe é a única barreira que protege o acesso ao seu Umbrel a partir da sua rede (e, por conseguinte, potencialmente, aos seus bitcoins, se gerir um nó Lightning no Umbrel). Ela também protege o acesso remoto via [Tor](https://planb.academy/resources/glossary/tor) ou VPN, se esses serviços estiverem habilitados.
 
 
 
@@ -2606,7 +2606,7 @@ https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b
 
 
 
-O BTCPay Server é um processador de pagamentos gratuito e de código aberto que lhe permite aceitar pagamentos via Bitcoin e Lightning Network sem intermediários, mantendo a auto-custódia dos fundos.
+O [BTCPay Server](https://planb.academy/resources/glossary/btcpay-server) é um processador de pagamentos gratuito e de código aberto que lhe permite aceitar pagamentos via Bitcoin e Lightning Network sem intermediários, mantendo a auto-custódia dos fundos.
 
 
 
@@ -2817,7 +2817,7 @@ Recorde-se que um bloco Bitcoin é constituído por um cabeçalho de 80 bytes e 
 - Merkle Root de transacções
 - Timestamp (tempo superior à mediana dos 11 blocos anteriores)
 - objetivo de dificuldade
-- Nonce
+- [Nonce](https://planb.academy/resources/glossary/nonce)
 
 
 
@@ -2825,7 +2825,7 @@ Recorde-se que um bloco Bitcoin é constituído por um cabeçalho de 80 bytes e 
 
 
 
-As transacções são confirmadas para um Merkle Tree. Esta é uma estrutura que resume um grande conjunto de dados (neste caso, todas as transacções do bloco) agregando os seus hashes progressivamente dois a dois até uma única "raiz", provando assim que um elemento pertence ao conjunto (e detectando qualquer modificação). Desta forma, qualquer alteração a uma transação modifica também a raiz do Merkle Tree e, por conseguinte, a impressão digital do cabeçalho do bloco. O SegWit introduziu um Commitment adicional separado para cookies (assinaturas), colocado na base de moedas.
+As transacções são confirmadas para um Merkle Tree. Esta é uma estrutura que resume um grande conjunto de dados (neste caso, todas as transacções do bloco) agregando os seus hashes progressivamente dois a dois até uma única "raiz", provando assim que um elemento pertence ao conjunto (e detectando qualquer modificação). Desta forma, qualquer alteração a uma transação modifica também a raiz do Merkle Tree e, por conseguinte, a impressão digital do cabeçalho do bloco. O [SegWit](https://planb.academy/resources/glossary/segwit) introduziu um Commitment adicional separado para cookies (assinaturas), colocado na base de moedas.
 
 
 
@@ -2849,7 +2849,7 @@ Uma vez concluído o IBD, o nó entra na sua fase normal: valida novos blocos à
 
 
 
-O Bitcoin core incorpora um mecanismo concebido para reduzir o tempo necessário para que um nó esteja totalmente operacional, mantendo a essência do princípio da verificação autónoma: AssumeValid.
+O Bitcoin core incorpora um mecanismo concebido para reduzir o tempo necessário para que um nó esteja totalmente operacional, mantendo a essência do princípio da verificação autónoma: [AssumeValid](https://planb.academy/resources/glossary/assume-valid).
 
 
 
@@ -2893,7 +2893,7 @@ Quando o nó reinicia depois de já ter sido utilizado, o Core tenta primeiro re
 
 
 
-Neste caso, o software consulta _**DNS seeds**_. Trata-se de [servidores mantidos por programadores reconhecidos do ecossistema](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), que devolvem uma lista de endereços IP de presumíveis nós activos. Estes endereços permitem que o novo nó inicie as suas primeiras ligações e solicite os dados necessários ao IBD. Aqui está a lista de *DNS seeds* activos até à data (agosto de 2025):
+Neste caso, o software consulta _**[DNS seeds](https://planb.academy/resources/glossary/dns-seeds)**_. Trata-se de [servidores mantidos por programadores reconhecidos do ecossistema](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), que devolvem uma lista de endereços IP de presumíveis nós activos. Estes endereços permitem que o novo nó inicie as suas primeiras ligações e solicite os dados necessários ao IBD. Aqui está a lista de *DNS seeds* activos até à data (agosto de 2025):
 
 
 
@@ -3009,7 +3009,7 @@ Para poder voltar atrás no tempo durante uma reorganização, o Core guarda, em
 
 
 
-A procura de um bloco diretamente nos ficheiros planos seria demasiado morosa. O Core, portanto, mantém um banco de dados LevelDB em `blocks/index/` que lista, para cada bloco conhecido, metadados como Hash, altura, status de validação, arquivo `blk` e offset onde ele está localizado. Quando um par solicita um bloco, ou quando um componente interno precisa de aceder a um bloco específico, este índice permite um acesso rápido. Sem este índice, seriam necessárias demasiadas operações.
+A procura de um bloco diretamente nos ficheiros planos seria demasiado morosa. O Core, portanto, mantém um banco de dados [LevelDB](https://planb.academy/resources/glossary/leveldb) em `blocks/index/` que lista, para cada bloco conhecido, metadados como Hash, altura, status de validação, arquivo `blk` e offset onde ele está localizado. Quando um par solicita um bloco, ou quando um componente interno precisa de aceder a um bloco específico, este índice permite um acesso rápido. Sem este índice, seriam necessárias demasiadas operações.
 
 
 
@@ -3051,7 +3051,7 @@ A totalidade de todas estas peças num dado momento T constitui o conjunto UTXO:
 
 
 
-O conjunto UTXO é armazenado na pasta `chainstate/` como um banco de dados LevelDB compacto. Cada parte associa uma chave derivada do Hash da transação e o índice de saída com um valor contendo: o montante, o bloqueio `scriptPubKey`, a altura do bloco de criação e um indicador coinbase.
+O conjunto UTXO é armazenado na pasta `chainstate/` como um banco de dados LevelDB compacto. Cada parte associa uma chave derivada do Hash da transação e o índice de saída com um valor contendo: o montante, o bloqueio `scriptPubKey`, a altura do bloco de criação e um indicador [coinbase](https://planb.academy/resources/glossary/coinbase-transaction).
 
 
 
@@ -3075,13 +3075,13 @@ Note-se que o conjunto UTXO está frequentemente no centro das preocupações so
 
 
 
-O crescimento do conjunto UTXO também decorre da estrutura das transacções de pagamento simples no Bitcoin. De facto, quando se faz um pagamento, consome-se um único UTXO como entrada e criam-se 2 novos UTXOs como saída (um para o pagamento e outro para o Exchange). Por último, uma heurística de análise da cadeia, designada CIOH (*Common Input Ownership Heuristic*), constitui um incentivo adicional para evitar a consolidação do Coin.
+O crescimento do conjunto UTXO também decorre da estrutura das transacções de pagamento simples no Bitcoin. De facto, quando se faz um pagamento, consome-se um único UTXO como entrada e criam-se 2 novos UTXOs como saída (um para o pagamento e outro para o Exchange). Por último, uma heurística de análise da cadeia, designada [CIOH](https://planb.academy/resources/glossary/cioh) (*Common Input Ownership Heuristic*), constitui um incentivo adicional para evitar a consolidação do Coin.
 
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Uma vez que uma parte deve ser mantida em RAM para verificar as transacções num tempo razoável, o conjunto UTXO pode gradualmente tornar a operação de um Full node demasiado dispendiosa. Para resolver este problema, já existem algumas propostas, nomeadamente [Utreexo](https://planb.academy/resources/glossary/utreexo).
+Uma vez que uma parte deve ser mantida em RAM para verificar as transacções num tempo razoável, o conjunto UTXO pode gradualmente tornar a operação de um Full node demasiado dispendiosa. Para resolver este problema, já existem algumas propostas, nomeadamente Utreexo.
 
 
 
@@ -3108,7 +3108,7 @@ O Mempool é o conjunto local de transacções válidas que foram recebidas mas 
 
 
 
-Quando uma transação é recebida, o Core aplica uma série de verificações em relação às regras de consenso (sintaxe, scripts válidos, ausência de despesas duplas, etc.) e às regras Mempool, que são uma política local (RBF, limites mínimos de débito, limite de dados em `OP_RETURN`, etc.). Se a transação respeitar estas regras, é armazenada em memória.
+Quando uma transação é recebida, o Core aplica uma série de verificações em relação às regras de consenso (sintaxe, scripts válidos, ausência de despesas duplas, etc.) e às regras Mempool, que são uma política local ([RBF](https://planb.academy/resources/glossary/rbf-replacebyfee), limites mínimos de débito, limite de dados em `OP_RETURN`, etc.). Se a transação respeitar estas regras, é armazenada em memória.
 
 
 
@@ -3349,7 +3349,7 @@ A nível da rede, também temos:
 
 
 
-Por defeito, o seu nó comunica através da clearnet, Tor, e I2P. Isto significa que os pares com os quais se conecta na clearnet podem ver o seu IP público Address, e o seu ISP poderá provavelmente detetar que está a correr um nó Bitcoin (embora o P2P Transport V2 torne mais difícil para um ISP escutar). Isto não é necessariamente um problema, mas se quiser evitar qualquer fuga desta informação, pode ligar o seu nó exclusivamente através da rede Tor.
+Por defeito, o seu nó comunica através da clearnet, Tor, e I2P. Isto significa que os pares com os quais se conecta na clearnet podem ver o seu IP público Address, e o seu ISP poderá provavelmente detetar que está a correr um nó Bitcoin (embora o [P2P Transport V2](https://planb.academy/resources/glossary/p2p-transport-v2) torne mais difícil para um ISP escutar). Isto não é necessariamente um problema, mas se quiser evitar qualquer fuga desta informação, pode ligar o seu nó exclusivamente através da rede Tor.
 
 
 
@@ -3468,7 +3468,7 @@ Aqui estão as definições avançadas para o Mempool e a política de retransmi
 
 
 
-- `permitbaremultisig=1`: Permite a retransmissão de transações P2MS *bare-Multisig* (padrão: `1`). Este é o modelo de script mais antigo para estabelecer condições de multisignature em um UTXO (inventado em 2011 por Gavin Andresen).
+- `permitbaremultisig=1`: Permite a retransmissão de transações P2MS *bare-Multisig* (padrão: `1`). Este é o modelo de script mais antigo para estabelecer condições de [multisignature](https://planb.academy/resources/glossary/multisig) em um UTXO (inventado em 2011 por Gavin Andresen).
 
 
 
@@ -3492,7 +3492,7 @@ Aqui estão as definições avançadas para o Mempool e a política de retransmi
 
 
 
-- `peerbloomfilters=1` : Ativa o suporte a filtros Bloom (BIP37) para fornecer blocos/transações filtrados a clientes leves (padrão: `0`). Atenção, isso aumenta a carga sobre seus recursos.
+- `peerbloomfilters=1` : Ativa o suporte a [filtros Bloom](https://planb.academy/resources/glossary/bloom-filter) (BIP37) para fornecer blocos/transações filtrados a clientes leves (padrão: `0`). Atenção, isso aumenta a carga sobre seus recursos.
 
 
 

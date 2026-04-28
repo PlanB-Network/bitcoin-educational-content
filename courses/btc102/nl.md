@@ -70,8 +70,6 @@ Aan het einde van deze cursus beschik je over alle praktische hulpmiddelen die j
 
 Klaar om je reis in de wereld van Bitcoin te beginnen? Laten we gaan!
 
-**N.B.**: Als u tijdens de cursus onbekende termen tegenkomt, raadpleeg dan [de woordenlijst](https://planb.academy/resources/glossary) voor definities.
-
 # Voorwaarden om Bitcoin te begrijpen
 
 <partId>4481fc4b-0f83-489e-ad07-81517c5d6bad</partId>
@@ -90,7 +88,7 @@ Voordat we verder gaan, is het belangrijk om een duidelijk onderscheid te maken 
 
 - **Het Bitcoin ecosysteem** is gecentreerd rond het idee van gezond geld, gebouwd op sterke decentralisatie, lange termijn veerkracht, privacy en individuele soevereiniteit. Sinds de lancering in 2009 heeft Bitcoin betrouwbaar en veilig gefunctioneerd, ondersteund door een wereldwijde, toegewijde gemeenschap van ontwikkelaars. Het is geen voorbijgaande trend, maar een stabiel en goed gevestigd protocol, ontworpen om waarde over de loop van tijd te behouden.
 
-- **De cryptocurrency-industrie** daarentegen is veel groter en omvat tienduizenden verschillende projecten, elk met zijn eigen token. Deze ruimte wordt vaak gedreven door snelle innovatie, hype en financiële speculatie op korte termijn. Veel van deze projecten zijn gecentraliseerd, minder veilig en bieden niet veel echte waarde, ondanks gedurfde beloften en flitsende marketing.
+- **De [cryptocurrency](https://planb.academy/resources/glossary/cryptocurrency)-industrie** daarentegen is veel groter en omvat tienduizenden verschillende projecten, elk met zijn eigen token. Deze ruimte wordt vaak gedreven door snelle innovatie, hype en financiële speculatie op korte termijn. Veel van deze projecten zijn gecentraliseerd, minder veilig en bieden niet veel echte waarde, ondanks gedurfde beloften en flitsende marketing.
 
 ![image](assets/nl/005.webp)
 
@@ -121,7 +119,7 @@ Deze vormen van oplichting hebben meestal:
 
 Uiteindelijk zijn alle piramide- en Ponzi-constructies gedoemd om te mislukken. Hun fundamentele zwakte ligt in de constante noodzaak om nieuwe investeerders aan te trekken om rendement uit te betalen aan eerdere deelnemers. Deze behoefte wordt mathematisch onmogelijk vol te houden na verloop van tijd omdat het aantal nieuwe rekruten dat nodig is exponentieel toeneemt naarmate het systeem groeit. Zodra een kritiek punt is bereikt, beginnen deelnemers te twijfelen, verdwijnt het vertrouwen en stort de hele piramide in elkaar. In dit stadium verliezen de laatste mensen die meedoen, vaak de minst geïnformeerde, hun volledige investering zonder enige mogelijkheid om deze terug te krijgen, terwijl de organisatoren of vroege investeerders meestal hun geld al hebben opgenomen en het systeem hebben verlaten.
 
-In de wereld van de cryptocurrency kunnen Ponzi-constructies vele vormen aannemen, vaak ontworpen om hun frauduleuze aard te verbergen achter een technologisch of financieel masker. Deze zwendel kan zich voordoen als het aanbieden van een nieuwe token of Initial Coin Offerings (ICO's), wat fondsenwervingsoperaties zijn waarbij een nieuwe cryptocurrency aan het publiek wordt verkocht. Achter technische termen als "blockchain", "smart contracts" of "staking" gaan eigenlijk complexe piramidespelen schuil. Andere beweren hoge rendementen te bieden door twijfelachtige crypto-activa te combineren met compensatiesystemen die volledig afhankelijk zijn van de voortdurende instroom van nieuwe investeerders.
+In de wereld van de cryptocurrency kunnen Ponzi-constructies vele vormen aannemen, vaak ontworpen om hun frauduleuze aard te verbergen achter een technologisch of financieel masker. Deze zwendel kan zich voordoen als het aanbieden van een nieuwe token of Initial Coin Offerings (ICO's), wat fondsenwervingsoperaties zijn waarbij een nieuwe cryptocurrency aan het publiek wordt verkocht. Achter technische termen als "[blockchain](https://planb.academy/resources/glossary/blockchain)", "smart contracts" of "staking" gaan eigenlijk complexe piramidespelen schuil. Andere beweren hoge rendementen te bieden door twijfelachtige crypto-activa te combineren met compensatiesystemen die volledig afhankelijk zijn van de voortdurende instroom van nieuwe investeerders.
 
 Meer recentelijk hebben Ponzi-constructies zich ook verspreid in de wereld van Decentrale Financiën (DeFi). Hoewel DeFi bedoeld is om financiële diensten aan te bieden zonder tussenpersonen, gebruiken sommige projecten het om hun zwendel een vals gevoel van legitimiteit te geven. Bepaalde DeFi-platforms beloven hoge, gegarandeerde rendementen in ruil voor stortingen van cryptocurrency in geautomatiseerde protocollen. Deze aantrekkelijke beloften worden vaak ondersteund door ondoorzichtige en oncontroleerbare mechanismen, met tokens die speciaal voor de oplichting zijn gemaakt. In werkelijkheid hebben deze systemen geen duurzaam bedrijfsmodel - de opbrengsten worden gewoon betaald uit de fondsen van nieuwe gebruikers, net als bij een traditioneel Ponzi-systeem. Wanneer het vertrouwen begint te eroderen of de instroom van nieuwe deelnemers afneemt, storten deze systemen onvermijdelijk in, wat leidt tot aanzienlijke verliezen voor nietsvermoedende investeerders.
 
@@ -173,7 +171,7 @@ Gecentraliseerde cryptocurrency-projecten bieden soms gratis tokens ("*airdrops*
 
 Aanvallers gebruiken vaak nepwebsites, sociale media-accounts of misleidende e-mails om te proberen je geld te stelen. Deze zwendelpraktijken kunnen via elk communicatiekanaal plaatsvinden: e-mail, sociale netwerken, telefoongesprekken of zelfs traditionele post...
 
-Controleer altijd de identiteit van de afzender voordat je op een link klikt of een actie onderneemt. Bezoek bij twijfel de website handmatig in plaats van een gegeven link te gebruiken. Het belangrijkste is dat je nooit je privésleutels of wachtwoorden met iemand deelt.
+Controleer altijd de identiteit van de afzender voordat je op een link klikt of een actie onderneemt. Bezoek bij twijfel de website handmatig in plaats van een gegeven link te gebruiken. Het belangrijkste is dat je nooit je [privésleutels](https://planb.academy/resources/glossary/private-key) of wachtwoorden met iemand deelt.
 
 #### Bitcoin Hardforks
 
@@ -381,7 +379,7 @@ In dit hoofdstuk geef ik wat praktisch advies en algemene richtlijnen voor ieder
 
 Dit zijn de belangrijkste punten die we samen zullen bespreken:
 
-- Pas op voor **Shitcoins** en andere nutteloze cryptocurrencies;
+- Pas op voor **[Shitcoins](https://planb.academy/resources/glossary/shitcoin)** en andere nutteloze cryptocurrencies;
 - Investeer alleen **geld dat je je kunt veroorloven te verliezen**;
 - Ken het verschil tussen **handelen** en **beleggen**;
 - Wees je bewust van de **belastingimplicaties** van je beleggingen;
@@ -397,7 +395,7 @@ Bitcoin staat open voor iedereen, maar dat betekent niet dat je er onvoorbereid 
 
 **Technologische fouten:**
 
-- **Je [seed phrase](https://planb.academy/resources/glossary/seed) (herstelzin) verliezen:** Je herstelzin (meestal 12 of 24 woorden) is de enige manier om toegang te krijgen tot je bitcoin als er iets met je wallet gebeurt. Als je hem verliest, zijn je tegoeden voorgoed verdwenen;
+- **Je seed phrase (herstelzin) verliezen:** Je herstelzin (meestal 12 of 24 woorden) is de enige manier om toegang te krijgen tot je bitcoin als er iets met je wallet gebeurt. Als je hem verliest, zijn je tegoeden voorgoed verdwenen;
 - **Je bitcoins opslaan op een platform van een derde partij:** Als je munten op een gecentraliseerd platform staan, zijn ze niet echt jouw eigendom. Je staat bloot aan risico's zoals hacks, platformstoringen of zelfs inbeslagnames van tegoeden;
 - **Privacy verwaarlozen:** Het beschermen van je privacy is een essentieel onderdeel van het veiligstellen van je bezittingen. Als je publiekelijk onthult hoeveel bitcoin je bezit, kun je een doelwit worden;
 - **Onvoldoende online beveiliging:** Als je er niet in slaagt om je apparaten te beveiligen met basisbeveiligingen (zoals updates, sterke wachtwoorden of 2FA), ben je een gemakkelijke prooi voor aanvallers, en dat kan je alles kosten.
@@ -423,7 +421,7 @@ Door het op deze manier aan te pakken, zorg je ervoor dat je je financiële welz
 
 ![image](assets/nl/023.webp)
 
-Als je budget is vastgesteld, bedenk dan hoe je wilt investeren. Een van de meest beginnersvriendelijke en algemeen aanbevolen methodes is [Dollar Cost Averaging (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca), waarbij je op regelmatige tijdstippen (wekelijks, maandelijks, enz.) een vast bedrag aan bitcoin koopt. Deze strategie helpt om je gemiddelde instapprijs in de loop van de tijd af te vlakken en vermindert de emotionele impact van prijsschommelingen. Het is een slimme aanpak voor de meeste mensen, vooral nieuwkomers.
+Als je budget is vastgesteld, bedenk dan hoe je wilt investeren. Een van de meest beginnersvriendelijke en algemeen aanbevolen methodes is Dollar Cost Averaging (DCA), waarbij je op regelmatige tijdstippen (wekelijks, maandelijks, enz.) een vast bedrag aan bitcoin koopt. Deze strategie helpt om je gemiddelde instapprijs in de loop van de tijd af te vlakken en vermindert de emotionele impact van prijsschommelingen. Het is een slimme aanpak voor de meeste mensen, vooral nieuwkomers.
 
 Vraag jezelf dan af: Wat is mijn tijdshorizon?
 Ben je op zoek naar snelle bewegingen in en uit de markt (trading)? Of ben je meer gericht op de lange termijn mindset van het houden van Bitcoin over meerdere jaren (hodler)? Als je een hodler bent, ben je waarschijnlijk minder bezig met dagelijkse prijsschommelingen en meer gericht op veiligheid op lange termijn en zelfbehoud. Als je handelt, ben je meer blootgesteld aan kortetermijnruis op de markt, hogere risico's en de stress die vaak gepaard gaat met snelle beslissingen. Er is geen pasklaar antwoord, maar als je je eigen aanpak kent, kunt je je beslissingen beter sturen.
@@ -445,7 +443,7 @@ Investeer vooral nooit meer dan je je kunt veroorloven om te verliezen. Vermijd 
 
 ### Je Bitcoin wallet beheren en beveiligen
 
-Een van de krachtigste (en vaak onderschatte) functies van Bitcoin is **[self-custody](https://planb.academy/resources/glossary/selfcustody) (zelfbewaring)**. Met een zelf gehosted wallet, ben jij alleen verantwoordelijk voor je tegoeden. Deze wallets worden meestal gegenereerd vanuit een **herstelzin** (ook bekend als een seed phrase), een serie van 12 of 24 woorden die volledige toegang geeft tot je BTC. Als je deze zin verliest (of als iemand anders hem te pakken krijgt) zijn je bitcoins voorgoed verdwenen. **Geen klantenservice. Geen reset-knop.**
+Een van de krachtigste (en vaak onderschatte) functies van Bitcoin is **self-custody (zelfbewaring)**. Met een zelf gehosted wallet, ben jij alleen verantwoordelijk voor je tegoeden. Deze wallets worden meestal gegenereerd vanuit een **herstelzin** (ook bekend als een seed phrase), een serie van 12 of 24 woorden die volledige toegang geeft tot je BTC. Als je deze zin verliest (of als iemand anders hem te pakken krijgt) zijn je bitcoins voorgoed verdwenen. **Geen klantenservice. Geen reset-knop.**
 
 ![image](assets/nl/025.webp)
 
@@ -563,15 +561,15 @@ In de loop der jaren heeft Bitcoin erkenning gekregen als een wereldwijd monetai
 
 #### Cypherpunks en de uitvinding van een systeem dat buiten de controle van banken valt
 
-Bitcoin is niet van de ene op de andere dag ontstaan. Het is het resultaat van tientallen jaren onderzoek en experimenten in cryptografie, computerwetenschap en monetaire theorie. Voor de lancering in 2009 probeerden verschillende projecten (zoals eCash, b-money, Bit Gold en RPOW) digitale munteenheden te creëren. Ze werden allemaal geconfronteerd met hetzelfde kernprobleem: hoe voorkom je dubbele uitgaven in een gedecentraliseerd systeem zonder afhankelijk te zijn van een centrale autoriteit.
+Bitcoin is niet van de ene op de andere dag ontstaan. Het is het resultaat van tientallen jaren onderzoek en experimenten in [cryptografie](https://planb.academy/resources/glossary/cryptography), computerwetenschap en monetaire theorie. Voor de lancering in 2009 probeerden verschillende projecten (zoals eCash, b-money, Bit Gold en RPOW) digitale munteenheden te creëren. Ze werden allemaal geconfronteerd met hetzelfde kernprobleem: hoe voorkom je dubbele uitgaven in een gedecentraliseerd systeem zonder afhankelijk te zijn van een centrale autoriteit.
 
-Die uitdaging bleef onopgelost tot eind 2008, toen iemand met de naam Satoshi Nakamoto het Bitcoin whitepaper publiceerde. Een paar maanden later ging de eerste versie van de open-source software van Bitcoin live, waarmee een systeem werd gelanceerd dat onafhankelijk van banken of overheden kon werken.
+Die uitdaging bleef onopgelost tot eind 2008, toen iemand met de naam Satoshi Nakamoto het Bitcoin [whitepaper](https://planb.academy/resources/glossary/white-paper) publiceerde. Een paar maanden later ging de eerste versie van de [open-source](https://planb.academy/resources/glossary/foss) software van Bitcoin live, waarmee een systeem werd gelanceerd dat onafhankelijk van banken of overheden kon werken.
 
-Het project werd sterk beïnvloed door het Cypherpunk ethos; een gemeenschap van ontwikkelaars en denkers die geloofden in het gebruik van cryptografie om individuele vrijheden online te beschermen. Voor hen waren privacy en decentralisatie geen technische voorkeuren, maar ideologische noodzakelijkheden. Bitcoin kwam naar voren als de meest succesvolle belichaming van deze idealen: een peer-to-peer monetair netwerk dat iedereen kon gebruiken, niemand kon controleren en iedereen kon verifiëren.
+Het project werd sterk beïnvloed door het Cypherpunk ethos; een gemeenschap van ontwikkelaars en denkers die geloofden in het gebruik van cryptografie om individuele vrijheden online te beschermen. Voor hen waren privacy en decentralisatie geen technische voorkeuren, maar ideologische noodzakelijkheden. Bitcoin kwam naar voren als de meest succesvolle belichaming van deze idealen: een [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) monetair netwerk dat iedereen kon gebruiken, niemand kon controleren en iedereen kon verifiëren.
 
 ![image](assets/nl/030.webp)
 
-De Cypherpunks zijn een informele, internationale gemeenschap van individuen die pleiten voor het gebruik van cryptografie om persoonlijke vrijheden online te verdedigen. Ze geloven sterk in het recht van het individu op privacy, vooral in een wereld die steeds meer wordt gevormd door overheidssurveillance en het exploiteren van bedrijfsgegevens.
+De [Cypherpunks](https://planb.academy/resources/glossary/cypherpunks) zijn een informele, internationale gemeenschap van individuen die pleiten voor het gebruik van cryptografie om persoonlijke vrijheden online te verdedigen. Ze geloven sterk in het recht van het individu op privacy, vooral in een wereld die steeds meer wordt gevormd door overheidssurveillance en het exploiteren van bedrijfsgegevens.
 
 De wortels van de Cypherpunk beweging gaan terug tot het begin van de jaren 1990, toen groepen cryptografen, programmeurs en libertariërs de politieke implicaties van cryptografie begonnen te onderzoeken tijdens ontmoetingen in Silicon Valley. Een van de meest prominente stemmen in de gemeenschap was Tim May, die in 1988 het Crypto Anarchist Manifesto schreef, een fundamentele tekst die een visie schetste voor een wereld waarin encryptie individuen in staat zou stellen om buiten het bereik van overheden en gecentraliseerde controle te opereren.
 Een belangrijke mijlpaal in de beweging kwam in 1992 met de oprichting van de Cypherpunks mailinglijst, een forum waar ideeën, projecten en politieke discussies over privacy en cryptografie tot bloei konden komen. Vervolgens publiceerde Eric Hughes in 1993 het Cypherpunk Manifest, een korte maar krachtige verklaring die duidelijk de missie en overtuigingen van de gemeenschap uitdrukt.
@@ -584,7 +582,7 @@ Het idee van een digitale munteenheid die onafhankelijk werkt van een centrale a
 
 Bitcoin verscheen niet zomaar uit het niets. Het ontstond op een heel specifiek moment - direct na de wereldwijde financiële crisis van 2008. De ineenstorting van de Amerikaanse huizenmarkt en de subprime leningencrisis zorgden ervoor dat grote banken failliet gingen en het vertrouwen van mensen in het hele financiële systeem aan het wankelen werd gebracht.
 
-In deze omgeving van angst en onzekerheid werd Bitcoin geboren. De maker, bekend als Satoshi Nakamoto, nam een zeer symbolische boodschap op in het allereerste blok van Bitcoin blockchain, bekend als het Genesis blok. De boodschap was:
+In deze omgeving van angst en onzekerheid werd Bitcoin geboren. De maker, bekend als Satoshi Nakamoto, nam een zeer symbolische boodschap op in het allereerste blok van Bitcoin blockchain, bekend als het [Genesis blok](https://planb.academy/resources/glossary/genesis-block). De boodschap was:
 
 > **"The Times 03/Jan/2009 Kanselier op rand van tweede reddingsoperatie voor banken"**
 
@@ -604,11 +602,11 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 #### Peer-to-peer en geen centrale instantie
 
-Bitcoin is gedefinieerd als een "peer-to-peer elektronisch geldsysteem" Dit betekent dat iedereen verbinding kan maken met het netwerk met behulp van de juiste software (een Bitcoin node) en direct kan communiceren met andere gebruikers, zonder afhankelijk te zijn van een centrale server. Het doel van deze decentralisatie is om te voorkomen dat één enkele entiteit (zoals een bank, overheid of groot bedrijf) het systeem kan controleren, censureren of stopzetten. Bitcoin werkt 24/7, wereldwijd en is voor iedereen toegankelijk zonder voorwaarden.
+Bitcoin is gedefinieerd als een "peer-to-peer elektronisch geldsysteem" Dit betekent dat iedereen verbinding kan maken met het netwerk met behulp van de juiste software (een Bitcoin [node](https://planb.academy/resources/glossary/node)) en direct kan communiceren met andere gebruikers, zonder afhankelijk te zijn van een centrale server. Het doel van deze decentralisatie is om te voorkomen dat één enkele entiteit (zoals een bank, overheid of groot bedrijf) het systeem kan controleren, censureren of stopzetten. Bitcoin werkt 24/7, wereldwijd en is voor iedereen toegankelijk zonder voorwaarden.
 
 ![image](assets/nl/034.webp)
 
-Eenvoudig gezegd, elke deelnemer aan het Bitcoin netwerk (een "node" genoemd) heeft een volledige kopie van de transactie ledger (grootboek), beter bekend als de blockchain. Wanneer er een nieuwe transactie plaatsvindt, wordt deze uitgezonden naar het netwerk. Wanneer er een nieuwe transactie plaatsvindt, wordt deze uitgezonden naar het netwerk. Miners bevestigen dan deze transacties door ze te groeperen in blokken die vervolgens worden toegevoegd aan het einde van de keten (vandaar de naam "blockchain").
+Eenvoudig gezegd, elke deelnemer aan het Bitcoin netwerk (een "node" genoemd) heeft een volledige kopie van de transactie ledger (grootboek), beter bekend als de blockchain. Wanneer er een nieuwe transactie plaatsvindt, wordt deze uitgezonden naar het netwerk. Wanneer er een nieuwe transactie plaatsvindt, wordt deze uitgezonden naar het netwerk. [Miners](https://planb.academy/resources/glossary/miner) bevestigen dan deze transacties door ze te groeperen in blokken die vervolgens worden toegevoegd aan het einde van de keten (vandaar de naam "blockchain").
 
 ![image](assets/nl/035.webp)
 
@@ -622,7 +620,7 @@ Zie de blockchain als een gigantische boekhoudkundig grootboek (ledger), waarbij
 
 #### Hoe Blokken Gemaakt Worden: Mining
 
-Mining is het proces waarbij computers (of grote mining farms) **rekenkracht** bijdragen om de transactiegeschiedenis van Bitcoin veilig te stellen en nieuwe blokken te maken. Miners concurreren om een wiskundige puzzel op te lossen, namelijk het vinden van een gedeeltelijke hash overeenkomst. Dit proces vereist aanzienlijke energie en middelen. Zodra een miner een geldige oplossing vindt, zenden ze het blok naar het netwerk, dat het verifieert en als geldig accepteert.
+[Mining](https://planb.academy/resources/glossary/mining) is het proces waarbij computers (of grote mining farms) **rekenkracht** bijdragen om de transactiegeschiedenis van Bitcoin veilig te stellen en nieuwe blokken te maken. Miners concurreren om een wiskundige puzzel op te lossen, namelijk het vinden van een gedeeltelijke hash overeenkomst. Dit proces vereist aanzienlijke energie en middelen. Zodra een miner een geldige oplossing vindt, zenden ze het blok naar het netwerk, dat het verifieert en als geldig accepteert.
 Als beloning ontvangt de Miner nieuw gecreëerde bitcoins (de zogenaamde bloksubsidie) samen met de transactiekosten van alle transacties in dat blok.
 
 #### De Halvering: Bloksubsidie Verlagen
@@ -636,10 +634,10 @@ Uiteindelijk, rond het jaar 2140, zal de subsidie nul bereiken, als Bitcoin's to
 
 #### Schaarste En Een Vast Monetair Beleid
 
-Een van de krachtigste eigenschappen van Bitcoin is het *voorspelbare en onveranderlijke monetaire beleid*. In tegenstelling tot traditionele fiatvaluta's (zoals de dollar, euro of yen), die naar believen geprint kunnen worden door centrale banken (wat vaak leidt tot inflatie of economische verstoringen), werkt Bitcoin volgens een transparante set regels die zijn ingebed in de code.
+Een van de krachtigste eigenschappen van Bitcoin is het *voorspelbare en onveranderlijke monetaire beleid*. In tegenstelling tot traditionele fiatvaluta's (zoals de dollar, euro of yen), die naar believen geprint kunnen worden door centrale banken (wat vaak leidt tot [inflatie](https://planb.academy/resources/glossary/inflation) of economische verstoringen), werkt Bitcoin volgens een transparante set regels die zijn ingebed in de code.
 Er zullen ooit maar 21 miljoen bitcoins zijn en de snelheid waarmee nieuwe munten worden uitgegeven is van tevoren bekend bij iedereen in het netwerk.
 
-Geen enkele regering, instelling of individu kan eenzijdig deze bovengrens van de voorraad of de distributieregels veranderen. De enige manier om deze parameters te veranderen zou zijn om het protocol van Bitcoin te veranderen, en zelfs dat zou consensus vereisen van een meerderheid van de economische deelnemers van het netwerk.
+Geen enkele regering, instelling of individu kan eenzijdig deze bovengrens van de voorraad of de distributieregels veranderen. De enige manier om deze parameters te veranderen zou zijn om het protocol van Bitcoin te veranderen, en zelfs dat zou [consensus](https://planb.academy/resources/glossary/consensus) vereisen van een meerderheid van de economische deelnemers van het netwerk.
 
 Deze ingebouwde schaarste is een grote aantrekkingskracht voor mensen die willen afzien van onvoorspelbaar monetair beleid of de geleidelijke erosie van hun koopkracht door inflatie en dit willen vermijden. Na verloop van tijd zou dit een verschuiving in het financiële denken kunnen betekenen, waarbij sparen in een deflatoir activum zoals Bitcoin aantrekkelijker wordt dan te vertrouwen op traditionele, inflatiegevoelige valuta.
 
@@ -672,7 +670,7 @@ Hoewel deze aanpak technischer is, biedt het de meest veeleisende gebruikers de 
 
 #### Een Veerkrachtige, Grensoverschrijdende Betalingsmethode
 
-Door zijn gedecentraliseerde aard werkt Bitcoin 24/7, zonder beïnvloed te worden door grenzen of tijdzones. In regio's waar de traditionele bankinfrastructuur ontbreekt, wordt Bitcoin vaak gebruikt als een snelle, goedkope oplossing voor het verzenden of ontvangen van geld zonder afhankelijk te zijn van dure tussenpersonen. Hoewel transactiekosten kunnen variëren op basis van netwerkcongestie, zijn ze over het algemeen veel lager dan de kosten die banken in rekening brengen voor internationale overboekingen. Bovendien maken laag-2 oplossingen zoals het [Lightning Network](https://planb.academy/resources/glossary/lightning-network) nog snellere en goedkopere Bitcoin transacties mogelijk.
+Door zijn gedecentraliseerde aard werkt Bitcoin 24/7, zonder beïnvloed te worden door grenzen of tijdzones. In regio's waar de traditionele bankinfrastructuur ontbreekt, wordt Bitcoin vaak gebruikt als een snelle, goedkope oplossing voor het verzenden of ontvangen van geld zonder afhankelijk te zijn van dure tussenpersonen. Hoewel transactiekosten kunnen variëren op basis van netwerkcongestie, zijn ze over het algemeen veel lager dan de kosten die banken in rekening brengen voor internationale overboekingen. Bovendien maken laag-2 oplossingen zoals het Lightning Network nog snellere en goedkopere Bitcoin transacties mogelijk.
 
 #### Een opslagplaats van waarde
 
@@ -821,7 +819,7 @@ Bitcoiners komen uit alle lagen van de bevolking, maar ze delen een gemeenschapp
 - **Cypherpunks**, die opkomen voor privacy en zich verzetten tegen bewaking;
 - **Onderdrukte burgers** die hun toevlucht zoeken tot autoritaire regimes en kapitaalcontroles;
 - **Anarchisten**, die Bitcoin zien als een instrument voor bevrijding van staatscontrole;
-- **Oostenrijkse economen**, die pleiten voor gezond geld en vrijheid van overheidsmanipulatie;
+- **[Oostenrijkse economen](https://planb.academy/resources/glossary/austrian-school)**, die pleiten voor gezond geld en vrijheid van overheidsmanipulatie;
 - **Ingenieurs, financiers en voorstanders van vrijheid van meningsuiting**, die de diepgaande maatschappelijke implicaties van dit nieuwe monetaire paradigma inzien.
 
 ![image](assets/nl/051.webp)
@@ -955,7 +953,7 @@ Koop- en verkoopplatformen spelen een cruciale rol in het Bitcoin ecosysteem en 
 - een optie voor automatisch terugkerende aankopen (ARP);
 - eenvoudige, gratis opname van bitcoins naar een persoonlijke wallet.
 
-Beurzen die voldoen aan de lokale regelgeving moeten meestal strikte **"[Know Your Customer](https://planb.academy/resources/glossary/kyc-know-your-customer)"** (KYC) protocollen volgen, waarbij gebruikers identificatiedocumenten moeten overleggen voordat ze toegang krijgen tot diensten. Hoewel deze processen bedoeld zijn om illegale activiteiten te voorkomen, kunnen ze de privacy die Bitcoin inherent biedt in gevaar brengen.
+Beurzen die voldoen aan de lokale regelgeving moeten meestal strikte **"Know Your Customer"** (KYC) protocollen volgen, waarbij gebruikers identificatiedocumenten moeten overleggen voordat ze toegang krijgen tot diensten. Hoewel deze processen bedoeld zijn om illegale activiteiten te voorkomen, kunnen ze de privacy die Bitcoin inherent biedt in gevaar brengen.
 
 ![image](assets/nl/058.webp)
 
@@ -1034,7 +1032,7 @@ Elk type wallet biedt een andere balans van:
 
 De Bitcoin wallet industrie is onderverdeeld in verschillende categorieën, die elk voldoen aan verschillende behoeften en niveaus van technische expertise:
 
-- **[Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) Fabrikanten**: Deze bedrijven ontwikkelen fysieke apparaten die ontworpen zijn voor veilige sleutelopslag. Sommige zijn open-source, terwijl andere eigen oplossingen bieden met verschillende functies en beveiligingsniveaus. Bekende namen zijn Ledger, Trezor, Coinkite, Foundation en Shiftcrypto.
+- **Hardware Wallet Fabrikanten**: Deze bedrijven ontwikkelen fysieke apparaten die ontworpen zijn voor veilige sleutelopslag. Sommige zijn open-source, terwijl andere eigen oplossingen bieden met verschillende functies en beveiligingsniveaus. Bekende namen zijn Ledger, Trezor, Coinkite, Foundation en Shiftcrypto.
 - **Software Wallet Ontwikkelaars**: Deze variëren van bedrijven tot onafhankelijke ontwikkelaars die mobiele en desktopapplicaties maken. Hun aanbod varieert in gebruikerservaring, beveiliging en functies. Voorbeelden zijn Sparrow, Wizard Sardine, Galoy, Synonym en Blockstream.
 - **DIY (*Do It Yourself*) Wallets**: Deze open-source oplossingen zijn ontworpen voor gevorderde gebruikers die volledige controle en minimale afhankelijkheid van derden willen. Door je eigen wallet te bouwen, verminder je de afhankelijkheid van vertrouwen en kun je je beveiliging verbeteren. Bekende doe-het-zelf opties zijn Seedsigner en Specter DIY.
 
@@ -1042,7 +1040,7 @@ Wallets spelen een fundamentele rol in Bitcoin en zullen later in deze cursus ve
 
 #### Bitcoin Mining
 
-Mining is een kernfunctie van het Bitcoin netwerk. Het garandeert de veiligheid van het systeem en houdt blockchain operationeel. Miners valideren transacties en beveiligen het netwerk door energie-intensieve berekeningen uit te voeren die Proof of Work worden genoemd. Elk nieuw gemined blok voegt een set transacties toe aan de blockchain en geeft nieuwe bitcoins vrij volgens het uitgifteschema van het protocol.
+Mining is een kernfunctie van het Bitcoin netwerk. Het garandeert de veiligheid van het systeem en houdt blockchain operationeel. Miners valideren transacties en beveiligen het netwerk door energie-intensieve berekeningen uit te voeren die [Proof of Work](https://planb.academy/resources/glossary/proof-of-work) worden genoemd. Elk nieuw gemined blok voegt een set transacties toe aan de blockchain en geeft nieuwe bitcoins vrij volgens het uitgifteschema van het protocol.
 
 In de begindagen van Bitcoin kon mining gedaan worden vanaf een computer of laptop. Tegenwoordig is het een concurrerende, wereldwijde industrie die wordt gedomineerd door bedrijven met aanzienlijke financiële en technische middelen. De zoektocht naar goedkope energiebronnen is een belangrijk aandachtspunt geworden, omdat miners hun operationele kosten en winstgevendheid willen optimaliseren. Mining operaties variëren nu van enorme industriële installaties tot kleinschalige setups in huizen of garages.
 
@@ -1066,7 +1064,7 @@ De ontwikkeling van Bitcoin kan worden begrepen door een paar verschillende groe
 - **Ontwikkelaars van gelaagde protocollen**, Deze groep werkt aan technologieën die bovenop Bitcoin bouwen, zoals het Lightning Network of RGB, met als doel de mogelijkheden van Bitcoin uit te breiden zonder de kern te veranderen.
 - **Onafhankelijke ontwikkelaars**, Deze ontwikkelaars richten zich op het maken van tools en toepassingen om de gebruikerservaring te verbeteren, zoals Mempool.space(een visuele interface voor het bijhouden van transactieactiviteit) of Alby( tools voor het gebruik van Lightning-betalingen in browsers en apps).
 
-Iedereen kan wijzigingen in Bitcoin Core voorstellen, maar het proces is opzettelijk rigoureus. Nieuwe ideeën vergen vaak jaren om te verfijnen en vereisen diepgaand technisch inzicht, brede betrokkenheid van de gemeenschap en meerdere lagen van beoordeling. Voorstellen worden meestal ingediend in de vorm van **Bitcoin Improvement Proposals (BIPs)**, sommige daarvan halen het protocol nooit.
+Iedereen kan wijzigingen in Bitcoin Core voorstellen, maar het proces is opzettelijk rigoureus. Nieuwe ideeën vergen vaak jaren om te verfijnen en vereisen diepgaand technisch inzicht, brede betrokkenheid van de gemeenschap en meerdere lagen van beoordeling. Voorstellen worden meestal ingediend in de vorm van **Bitcoin Improvement Proposals ([BIPs](https://planb.academy/resources/glossary/bip))**, sommige daarvan halen het protocol nooit.
 Innovatie is welkom, maar alleen als het wordt ondersteund door solide argumenten, consensus binnen de gemeenschap en zorgvuldig testen.
 
 ![image](assets/nl/059.webp)
@@ -1122,7 +1120,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 RGB is een gedecentraliseerd en privacy-gericht smart contract systeem, ontworpen om bovenop Bitcoin en het Lightning Network te werken. In tegenstelling tot traditionele smart contract platformen, gebruikt RGB een client-side validatie model (wat betekent dat de volledige contract status off-chain wordt opgeslagen en dat alleen cryptografische verplichtingen Bitcoin blockchain worden gepubliceerd). Dit ontwerp verbetert zowel de schaalbaarheid als de privacy. Met RGB kunnen gebruikers geavanceerde smart contracts maken voor het uitgeven van tokens, NFT's, gedecentraliseerde identiteiten of zelfs DeFi applicaties, direct op Bitcoin of Lightning.
 
-Een belangrijk kenmerk van RGB is de bescherming tegen het dubbele uitgave probleem (double-spending problem), bereikt met behulp van een cryptografische techniek genaamd single-use seals. Dit mechanisme is gebaseerd op het feit dat de UTXO's (Unspent Transaction Outputs) van Bitcoin slechts eenmaal kunnen worden uitgegeven. De authenticiteit van de tokens wordt gegarandeerd door de validatie aan gebruikerskant van de hele geschiedenis van het contract (van de creatie tot de huidige staat).
+Een belangrijk kenmerk van RGB is de bescherming tegen het dubbele uitgave probleem (double-spending problem), bereikt met behulp van een cryptografische techniek genaamd single-use seals. Dit mechanisme is gebaseerd op het feit dat de [UTXO](https://planb.academy/resources/glossary/utxo)'s (Unspent Transaction Outputs) van Bitcoin slechts eenmaal kunnen worden uitgegeven. De authenticiteit van de tokens wordt gegarandeerd door de validatie aan gebruikerskant van de hele geschiedenis van het contract (van de creatie tot de huidige staat).
 
 ![image](assets/nl/062.webp)
 
@@ -1140,7 +1138,7 @@ Dit gelaagde ontwerp staat in contrast met veel van de bredere crypto-industrie,
 
 ### Tools Voor Handelaren Bij Het Accepteren Van Bitcoin
 
-Vandaag de dag zijn er veel hulpmiddelen beschikbaar voor winkeliers die Bitcoin als betaalmiddel willen accepteren. Voor kleine bedrijven die op zoek zijn naar een eenvoudige setup, is het gebruik van een [hot wallet](https://planb.academy/resources/glossary/hot-wallet--software-wallet) (of zelfs een Lightning wallet) vaak voldoende om te beginnen met het direct accepteren van betalingen. Grotere bedrijven die een goede boekhouding en rapportage nodig hebben, geven meestal de voorkeur aan meer geavanceerde betalingsverwerkingssystemen. Gelukkig zijn er verschillende opties beschikbaar, afhankelijk van je behoeften.
+Vandaag de dag zijn er veel hulpmiddelen beschikbaar voor winkeliers die Bitcoin als betaalmiddel willen accepteren. Voor kleine bedrijven die op zoek zijn naar een eenvoudige setup, is het gebruik van een hot wallet (of zelfs een Lightning wallet) vaak voldoende om te beginnen met het direct accepteren van betalingen. Grotere bedrijven die een goede boekhouding en rapportage nodig hebben, geven meestal de voorkeur aan meer geavanceerde betalingsverwerkingssystemen. Gelukkig zijn er verschillende opties beschikbaar, afhankelijk van je behoeften.
 
 Als je de voorkeur geeft aan een hands-off oplossing en fiatvaluta direct op je bankrekening wilt ontvangen, bieden custodial services zoals OpenNode een gestroomlijnde ervaring:
 
@@ -1597,7 +1595,7 @@ Een paar best practices:
 - Blijf op de hoogte van Bitcoin ontwikkelingen, maar vermijd mediahypes, vooral tijdens een economische neergang;
 - Controleer regelmatig de integriteit van je herstelzin. Controleer of er niet met de envelop is geknoeid en of de drager nog leesbaar is. Als er iets niet in orde lijkt, generate dan een nieuwe back-up van je wallet;
 
-Om je bezittingen in de gaten te houden zonder je privésleutels in gevaar te brengen, kun je overwegen om een alleen kijken (watch-only) wallet te gebruiken. Hiermee kun je saldi en transacties bijhouden met alleen je publieke sleutels.
+Om je bezittingen in de gaten te houden zonder je privésleutels in gevaar te brengen, kun je overwegen om een alleen kijken (watch-only) wallet te gebruiken. Hiermee kun je saldi en transacties bijhouden met alleen je [publieke sleutels](https://planb.academy/resources/glossary/public-key).
 
 https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
@@ -2134,7 +2132,7 @@ Zelfs na het anoniem verwerven van munten is het nog steeds mogelijk om persoonl
 - **Je UTXO's labelen** ;
 - **Corner control uitoefenen tijdens spenderen** ;
 - **Consolidatie van UTXO's** vermijden ;
-- **Transactiestructuren gebruiken die de privacy beschermen**: coinjoins, payjoins, ricochets en mini-payment coinjoins...
+- **Transactiestructuren gebruiken die de privacy beschermen**: [coinjoins](https://planb.academy/resources/glossary/coinjoin), payjoins, ricochets en mini-payment coinjoins...
 
 Ze zijn ook bekend met de basisprincipes van blockchain surveillance en weten hoe bedrijven activiteiten traceren. Door de heuristieken en patronen te begrijpen die door ketenanalysebedrijven worden gebruikt, kunnen ze actief stappen ondernemen om te voorkomen dat ze in bekende valstrikken trappen.
 

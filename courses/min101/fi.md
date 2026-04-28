@@ -117,11 +117,11 @@ Oletko valmis löytämään Bitcoin mining? Aloitetaan!
 
 
 
-Ennen kuin siirrymme yksityiskohtaiseen ja teknisempään selitykseen Bitcoin mining:stä, haluaisin antaa sinulle yleiskatsauksen periaatteesta, joka on tarkoituksella yksinkertainen ja kaavamainen. Jos sinulla on jo jonkin verran perustietoja, voit siirtyä suoraan asian ytimeen seuraavassa luvussa, kun olet vastannut tietokilpailun kysymyksiin. Tämä luku on suunnattu ensisijaisesti aloittelijoille, jotta saatte varovaisen alun.
+Ennen kuin siirrymme yksityiskohtaiseen ja teknisempään selitykseen Bitcoin [mining](https://planb.academy/resources/glossary/mining):stä, haluaisin antaa sinulle yleiskatsauksen periaatteesta, joka on tarkoituksella yksinkertainen ja kaavamainen. Jos sinulla on jo jonkin verran perustietoja, voit siirtyä suoraan asian ytimeen seuraavassa luvussa, kun olet vastannut tietokilpailun kysymyksiin. Tämä luku on suunnattu ensisijaisesti aloittelijoille, jotta saatte varovaisen alun.
 
 
 
-Kuvittele Bitcoin suureksi julkiseksi muistikirjaksi, jonka kaikki jakavat ja johon kirjataan, kuka on lähettänyt bitcoineja kenellekin. Tätä muistikirjaa kutsutaan lohkoketjuksi. Se ei voi olla vain yhden henkilön hallussa, koska muuten siihen pitäisi luottaa. Sen sijaan Bitcoin toimii kollektiivisesti: tuhannet tietokoneet varmistavat ja ylläpitävät samaa versiota tästä muistikirjasta.
+Kuvittele Bitcoin suureksi julkiseksi muistikirjaksi, jonka kaikki jakavat ja johon kirjataan, kuka on lähettänyt bitcoineja kenellekin. Tätä muistikirjaa kutsutaan [lohkoketjuksi](https://planb.academy/resources/glossary/blockchain). Se ei voi olla vain yhden henkilön hallussa, koska muuten siihen pitäisi luottaa. Sen sijaan Bitcoin toimii kollektiivisesti: tuhannet tietokoneet varmistavat ja ylläpitävät samaa versiota tästä muistikirjasta.
 
 
 
@@ -129,7 +129,7 @@ Kuvittele Bitcoin suureksi julkiseksi muistikirjaksi, jonka kaikki jakavat ja jo
 
 
 
-Kun teet maksun Bitcoin:ssä, luot tapahtuman. Tätä tapahtumaa ei lisätä välittömästi muistikirjaan. Se lähetetään ensin verkkoon ja odottaa sitten, että se liitetään seuraavaan tapahtumapakettiin. Tätä pakettia kutsutaan lohkoksi.
+Kun teet maksun Bitcoin:ssä, luot [tapahtuman](https://planb.academy/resources/glossary/transaction-tx). Tätä tapahtumaa ei lisätä välittömästi muistikirjaan. Se lähetetään ensin verkkoon ja odottaa sitten, että se liitetään seuraavaan tapahtumapakettiin. Tätä pakettia kutsutaan [lohkoksi](https://planb.academy/resources/glossary/block).
 
 
 
@@ -141,11 +141,11 @@ Lohko on yksinkertaisesti joukko transaktioita, jotka on ryhmitelty yhteen. Kun 
 
 
 
-Mining on lohkon validointityö, joka kuluttaa energiaa. Louhijoiksi kutsutut toimijat käyttävät erikoistuneita tietokoneita. Nämä koneet kuluttavat sähköä suorittaakseen hyvin suuren määrän testejä silmukassa, kunnes ne löytävät todisteen, jonka verkko hyväksyy. Kun louhija löytää tämän todisteen, hänen lohkonsa katsotaan kelvolliseksi.
+Mining on lohkon validointityö, joka kuluttaa energiaa. [Louhijoiksi](https://planb.academy/resources/glossary/miner) kutsutut toimijat käyttävät erikoistuneita tietokoneita. Nämä koneet kuluttavat sähköä suorittaakseen hyvin suuren määrän testejä silmukassa, kunnes ne löytävät todisteen, jonka verkko hyväksyy. Kun louhija löytää tämän todisteen, hänen lohkonsa katsotaan kelvolliseksi.
 
 
 
-Kun lohko on validoitu, se lähetetään verkkoon. Muut solmut tarkistavat nopeasti, että se on sääntöjen mukainen, ja lisäävät sen sitten aiempien lohkojen sarjaan. Tämän vuoksi sitä kutsutaan "lohkoketjuksi": jokainen uusi lohko tulee peräkkäisessä järjestyksessä muiden jälkeen, ja tämä ketju kasvaa pikkuhiljaa.
+Kun lohko on validoitu, se lähetetään verkkoon. Muut [solmut](https://planb.academy/resources/glossary/node) tarkistavat nopeasti, että se on sääntöjen mukainen, ja lisäävät sen sitten aiempien lohkojen sarjaan. Tämän vuoksi sitä kutsutaan "lohkoketjuksi": jokainen uusi lohko tulee peräkkäisessä järjestyksessä muiden jälkeen, ja tämä ketju kasvaa pikkuhiljaa.
 
 
 
@@ -153,11 +153,11 @@ Kun lohko on validoitu, se lähetetään verkkoon. Muut solmut tarkistavat nopea
 
 
 
-Yhteenvetona voidaan todeta, että tapahtumat luodaan ensin. Sitten ne ryhmitellään lohkoksi. Sitten louhija validoi lohkon kuluttamalla sähköä. Lopuksi lohko lisätään lohkoketjuun, ja sen sisältämät transaktiot vahvistetaan.
+Yhteenvetona voidaan todeta, että tapahtumat luodaan ensin. Sitten ne ryhmitellään lohkoksi. Sitten louhija validoi lohkon kuluttamalla sähköä. Lopuksi lohko lisätään lohkoketjuun, ja sen sisältämät transaktiot [vahvistetaan](https://planb.academy/resources/glossary/confirmation).
 
 
 
-Jos kaivostyöläiset kuluttavat sähköä, se ei johdu siitä, että he ovat vapaaehtoisia. He tekevät sen, koska siitä saa palkkion. Kun louhija validoi lohkon, hän saa kahdenlaisia tuloja. Yhtäältä hän saa uusia bitcoineja. Toisaalta hän kerää käyttäjien maksamat maksut lohkoon sisältyvistä transaktioista. Toisin sanoen louhija saa korvauksen sekä ohjelmoidun rahan liikkeeseenlaskusta että markkinoiden määrittelemistä transaktiomaksuista.
+Jos kaivostyöläiset kuluttavat sähköä, se ei johdu siitä, että he ovat vapaaehtoisia. He tekevät sen, koska siitä saa palkkion. Kun louhija validoi lohkon, hän saa kahdenlaisia tuloja. Yhtäältä hän saa uusia bitcoineja. Toisaalta hän kerää käyttäjien maksamat [maksut](https://planb.academy/resources/glossary/transaction-fees) lohkoon sisältyvistä transaktioista. Toisin sanoen louhija saa korvauksen sekä ohjelmoidun rahan liikkeeseenlaskusta että markkinoiden määrittelemistä transaktiomaksuista.
 
 
 
@@ -187,7 +187,7 @@ Jotta ymmärtäisimme, mistä Bitcoin mining:ssa on kyse, meidän on ensin seura
 
 
 
-Bitcoin:ssä transaktio on tietorakenne, joka siirtää bitcoinien omistusoikeuden käyttäjältä toiselle. Konkreettisesti sanottuna se kuluttaa aiempien transaktioiden (niin sanottujen UTXO:ien) "tuotoksia", joihin viitataan "syötteinä", ja luo sitten uusia "tuotoksia", jotka määrittelevät, kenelle nämä bitcoinit nyt kuuluvat ja millä edellytyksillä niitä voidaan käyttää myöhemmin.
+Bitcoin:ssä transaktio on tietorakenne, joka siirtää bitcoinien omistusoikeuden käyttäjältä toiselle. Konkreettisesti sanottuna se kuluttaa aiempien transaktioiden (niin sanottujen [UTXO](https://planb.academy/resources/glossary/utxo):ien) "[tuotoksia](https://planb.academy/resources/glossary/output)", joihin viitataan "[syötteinä](https://planb.academy/resources/glossary/input)", ja luo sitten uusia "tuotoksia", jotka määrittelevät, kenelle nämä bitcoinit nyt kuuluvat ja millä edellytyksillä niitä voidaan käyttää myöhemmin.
 
 
 
@@ -195,7 +195,7 @@ Bitcoin:ssä transaktio on tietorakenne, joka siirtää bitcoinien omistusoikeud
 
 
 
-Tärkeä seikka Bitcoin:ssä on valtuutus käyttää varoja. Bitcoin:t eivät ole tilillä, kuten pankissa olevat rahasi, vaan ne on lukittu käyttöehdoilla. Kun wallet haluaa käyttää UTXO:ta panoksena, sen on toimitettava kryptografinen todiste siitä, että sillä on oikeus avata lukitus. Tämä todiste on usein digitaalinen allekirjoitus generated yksityisestä avaimesta. Tämän vuoksi bitcoin-käyttäjät vaativat yksityisten avainten suojaamista: ne avaavat pääsyn bitcoineihisi ja mahdollistavat näin ollen niiden käyttämisen.
+Tärkeä seikka Bitcoin:ssä on valtuutus käyttää varoja. Bitcoin:t eivät ole tilillä, kuten pankissa olevat rahasi, vaan ne on lukittu käyttöehdoilla. Kun [wallet](https://planb.academy/resources/glossary/wallet) haluaa käyttää UTXO:ta panoksena, sen on toimitettava kryptografinen todiste siitä, että sillä on oikeus avata lukitus. Tämä todiste on usein [digitaalinen allekirjoitus](https://planb.academy/resources/glossary/digital-signature) generated [yksityisestä avaimesta](https://planb.academy/resources/glossary/private-key). Tämän vuoksi bitcoin-käyttäjät vaativat yksityisten avainten suojaamista: ne avaavat pääsyn bitcoineihisi ja mahdollistavat näin ollen niiden käyttämisen.
 
 
 
@@ -221,7 +221,7 @@ Kun käyttäjän Bitcoin wallet on muodostanut ja allekirjoittanut tapahtuman oi
 
 
 
-Bitcoin on vertaisverkko: ei ole keskitettyä palvelinta, joka vastaanottaa ja käsittelee kaikki tapahtumat. Solmut hoitavat tämän tehtävän kollektiivisesti. Bitcoin-solmu on ohjelmisto (esim. Bitcoin Core), joka on yhteydessä muihin Bitcoin-verkon solmuihin ja jonka päätehtävänä on tarkistaa, tallentaa ja välittää transaktioita ja lohkoja.
+Bitcoin on [vertaisverkko](https://planb.academy/resources/glossary/peertopeer-p2p): ei ole keskitettyä palvelinta, joka vastaanottaa ja käsittelee kaikki tapahtumat. Solmut hoitavat tämän tehtävän kollektiivisesti. Bitcoin-solmu on ohjelmisto (esim. [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core)), joka on yhteydessä muihin Bitcoin-verkon solmuihin ja jonka päätehtävänä on tarkistaa, tallentaa ja välittää transaktioita ja lohkoja.
 
 
 
@@ -250,7 +250,7 @@ Jos tapahtuma läpäisee kaikki nämä tarkistukset, solmu välittää sen muill
 
 
 
-Transaktion lähetyshetken ja sen lohkossa vahvistamisen välillä sen on odotettava. Tätä odotusaluetta kutsutaan nimellä **mempool** (lyhenne sanoista `memory` ja `pool`). Mempool on siis väliaikainen säilytyspaikka kelvollisille, mutta vielä vahvistamattomille transaktioille.
+Transaktion lähetyshetken ja sen lohkossa vahvistamisen välillä sen on odotettava. Tätä odotusaluetta kutsutaan nimellä **[mempool](https://planb.academy/resources/glossary/mempool)** (lyhenne sanoista `memory` ja `pool`). Mempool on siis väliaikainen säilytyspaikka kelvollisille, mutta vielä vahvistamattomille transaktioille.
 
 
 
@@ -270,7 +270,7 @@ Tässä vaiheessa verkko tietää transaktiosta, on vahvistanut sen ja pitää s
 
 
 
-Koska bitcoin on aineeton valuutta, sen on ratkaistava yksi ongelma: estettävä kaksinkertainen rahankäyttö ilman keskusviranomaista. Jos kaksi transaktiota yrittää käyttää saman UTXO:n, kaikkien on pystyttävä lähentymään yhteen, yhtenäiseen tilaan. Satoshi Nakamoto kiteyttää tämän ongelman tähän kuuluisaan lauseeseen:
+Koska bitcoin on aineeton valuutta, sen on ratkaistava yksi ongelma: estettävä [kaksinkertainen rahankäyttö](https://planb.academy/resources/glossary/double-spending-attack) ilman keskusviranomaista. Jos kaksi transaktiota yrittää käyttää saman UTXO:n, kaikkien on pystyttävä lähentymään yhteen, yhtenäiseen tilaan. Satoshi Nakamoto kiteyttää tämän ongelman tähän kuuluisaan lauseeseen:
 
 
 
@@ -284,7 +284,7 @@ Tämä on lohkoketjun rooli: julkinen rekisteri, joka sisältää transaktioiden
 
 
 
-Tätä rekisteriä ei voi kirjoittaa uudelleen yksinkertaisen periaatteen ansiosta: jokainen lohko sisältää edellisen lohkon kryptografisen sormenjäljen (hash). Lohkot ovat siis yhteydessä toisiinsa: jos aiempaa lohkoa muutetaan, sen hash muuttuu, mikä katkaisee yhteyden seuraavaan lohkoon, mikä katkaisee yhteyden sitä seuraavaan lohkoon ja niin edelleen. Tämä riippuvuusketju antaa "*lohkoketjulle*" sen nimen.
+Tätä rekisteriä ei voi kirjoittaa uudelleen yksinkertaisen periaatteen ansiosta: jokainen lohko sisältää edellisen lohkon kryptografisen sormenjäljen ([hash](https://planb.academy/resources/glossary/hash-function)). Lohkot ovat siis yhteydessä toisiinsa: jos aiempaa lohkoa muutetaan, sen hash muuttuu, mikä katkaisee yhteyden seuraavaan lohkoon, mikä katkaisee yhteyden sitä seuraavaan lohkoon ja niin edelleen. Tämä riippuvuusketju antaa "*lohkoketjulle*" sen nimen.
 
 
 
@@ -292,7 +292,7 @@ Tätä rekisteriä ei voi kirjoittaa uudelleen yksinkertaisen periaatteen ansios
 
 
 
-Kun olemme ymmärtäneet nämä Bitcoin:n perusperiaatteet, voimme kuvata louhijan tavoitteen konkreettisemmin: rakentaa uusi lohko, joka laajentaa olemassa olevaa ketjua merkitsemällä siihen vireillä olevia transaktioita, ja yrittää sitten saada sen kelvolliseksi (tämä on se kuuluisa "proof of work", jota tutkimme myöhemmässä luvussa). Mutta ensin selvitetään yhdessä seuraavassa luvussa, miten ehdokaslohko rakennetaan.
+Kun olemme ymmärtäneet nämä Bitcoin:n perusperiaatteet, voimme kuvata louhijan tavoitteen konkreettisemmin: rakentaa uusi lohko, joka laajentaa olemassa olevaa ketjua merkitsemällä siihen vireillä olevia transaktioita, ja yrittää sitten saada sen kelvolliseksi (tämä on se kuuluisa "[proof of work](https://planb.academy/resources/glossary/proof-of-work)", jota tutkimme myöhemmässä luvussa). Mutta ensin selvitetään yhdessä seuraavassa luvussa, miten ehdokaslohko rakennetaan.
 
 
 
@@ -303,7 +303,7 @@ Kun olemme ymmärtäneet nämä Bitcoin:n perusperiaatteet, voimme kuvata louhij
 
 
 
-Olet nyt ymmärtänyt, miten Bitcoin-transaktio toimii ja mikä on lohkoketjun rooli. Ennen kuin tarkastelemme tarkemmin proof-of-work:n toimintaa, on kuitenkin vielä yksi olennainen vaihe, joka louhijan on suoritettava: ehdokaslohkon rakentaminen. Selvitetään yhdessä, mikä ehdokaslohko on ja miten louhija rakentaa sen, ennen kuin lähdetään etsimään pätevää todistusta.
+Olet nyt ymmärtänyt, miten Bitcoin-transaktio toimii ja mikä on lohkoketjun rooli. Ennen kuin tarkastelemme tarkemmin proof-of-work:n toimintaa, on kuitenkin vielä yksi olennainen vaihe, joka louhijan on suoritettava: [ehdokaslohkon](https://planb.academy/resources/glossary/candidate-block) rakentaminen. Selvitetään yhdessä, mikä ehdokaslohko on ja miten louhija rakentaa sen, ennen kuin lähdetään etsimään pätevää todistusta.
 
 
 
@@ -318,7 +318,7 @@ Miner:n on itse rakennettava lohkojaan ennen kuin se yrittää louhia niitä. Ku
 
 - valita mukaan otettavat tapahtumat;
 - järjestää nämä liiketoimet tavalla, joka on yhteensopiva Bitcoin-sääntöjen kanssa;
-- tuottaa lohkon metatiedot, jotka on tallennettu lohkon otsikkoon.
+- tuottaa lohkon metatiedot, jotka on tallennettu lohkon [otsikkoon](https://planb.academy/resources/glossary/block-header).
 
 
 
@@ -340,7 +340,7 @@ Bitcoin-lohko koostuu siis kahdesta pääosasta:
 
 
 
-Otsikko on olennainen, koska sitä käytetään proof-of-work:n perustana: Bitcoin:ssa ei louhita suoraan koko lohkoa, vaan ainoastaan lohkon otsikko, jossa on yhteenveto tiedoista, joita tarvitaan lohkon liittämiseksi ketjuun ja sen sisällön sitomiseksi. Jotta otsikko edustaisi kaikkia transaktioita, Bitcoin käyttää kryptografista työkalua: Merkle-puuta.
+Otsikko on olennainen, koska sitä käytetään proof-of-work:n perustana: Bitcoin:ssa ei louhita suoraan koko lohkoa, vaan ainoastaan lohkon otsikko, jossa on yhteenveto tiedoista, joita tarvitaan lohkon liittämiseksi ketjuun ja sen sisällön sitomiseksi. Jotta otsikko edustaisi kaikkia transaktioita, Bitcoin käyttää kryptografista työkalua: [Merkle-puuta](https://planb.academy/resources/glossary/merkle-tree).
 
 
 
@@ -348,7 +348,7 @@ Otsikko on olennainen, koska sitä käytetään proof-of-work:n perustana: Bitco
 
 
 
-Kaikkien tapahtumien luettelointi otsikkoon olisi mahdotonta: lohko voi sisältää tuhansia tapahtumia, kun taas otsikolla on kiinteä koko (80 tavua). Ratkaisu on siis laskea yksilöllinen hash, joka riippuu kaikista lohkon transaktioista: tämä on Merkle-juuresta.
+Kaikkien tapahtumien luettelointi otsikkoon olisi mahdotonta: lohko voi sisältää tuhansia tapahtumia, kun taas otsikolla on kiinteä koko (80 tavua). Ratkaisu on siis laskea yksilöllinen hash, joka riippuu kaikista lohkon transaktioista: tämä on [Merkle-juuresta](https://planb.academy/resources/glossary/merkle-root).
 
 
 
@@ -371,7 +371,7 @@ Jos siis yksittäinen tapahtuma muuttuu, vaikka vain yhden bitin verran, seurauk
 
 
 
-SegWit:n jälkeen olemme erottaneet allekirjoitukset muista. Todellisuudessa jokaisessa lohkossa on siis kaksi Merkle-puuta. Tämä erottelu vaikuttaa tapaan, jolla laskemme lohkon koon, ja tiettyihin kryptografisiin sitoumuksiin, mutta perusajatus pysyy samana: otsikon on sitouduttava tiiviisti lohkon koko sisältöön.
+[SegWit](https://planb.academy/resources/glossary/segwit):n jälkeen olemme erottaneet allekirjoitukset muista. Todellisuudessa jokaisessa lohkossa on siis kaksi Merkle-puuta. Tämä erottelu vaikuttaa tapaan, jolla laskemme lohkon koon, ja tiettyihin kryptografisiin sitoumuksiin, mutta perusajatus pysyy samana: otsikon on sitouduttava tiiviisti lohkon koko sisältöön.
 
 
 
@@ -402,19 +402,19 @@ Lohkon otsikko on 80 tavua pitkä ja sisältää tasan 6 kenttää. Nämä kuusi
 
 
 
-- Aikaleima: Tämä on louhijan valitsema aikaleima (Unix-aika) (voimassaoloaikarajoituksin), jonka on osoitettava, milloin lohko louhittiin. Sen ei tarvitse olla täysin sekunnin tarkkuudella, mutta sen on täytettävä tietyt ehdot, jotta verkko voi hyväksyä sen.
+- [Aikaleima](https://planb.academy/resources/glossary/timestamp): Tämä on louhijan valitsema aikaleima (Unix-aika) (voimassaoloaikarajoituksin), jonka on osoitettava, milloin lohko louhittiin. Sen ei tarvitse olla täysin sekunnin tarkkuudella, mutta sen on täytettävä tietyt ehdot, jotta verkko voi hyväksyä sen.
 
 
 
 
 
-- Koodattu vaikeuskohde (`nbits`): Tämä kenttä koodaa nykyisen vaikeustavoitteen. Käymme tarkemmin läpi vaikeuksia käsittelevässä luvussa, mutta muista, että tämä parametri on osa otsikkoa.
+- Koodattu vaikeuskohde (`nbits`): Tämä kenttä koodaa nykyisen [vaikeustavoitteen](https://planb.academy/resources/glossary/difficulty-target). Käymme tarkemmin läpi vaikeuksia käsittelevässä luvussa, mutta muista, että tämä parametri on osa otsikkoa.
 
 
 
 
 
-- Nonce (`nonce`): Tämä on arvo, jota louhija voi vapaasti muuttaa. Se toimii säädettävänä muuttujana proof-of-work:n aikana. Selitän sen roolia tarkemmin seuraavassa luvussa, mutta on tärkeää ymmärtää, että nonce on osa lohko-otsikkoa ja että se on suunniteltu mahdollistamaan peräkkäiset yritykset.
+- [Nonce](https://planb.academy/resources/glossary/nonce) (`nonce`): Tämä on arvo, jota louhija voi vapaasti muuttaa. Se toimii säädettävänä muuttujana proof-of-work:n aikana. Selitän sen roolia tarkemmin seuraavassa luvussa, mutta on tärkeää ymmärtää, että nonce on osa lohko-otsikkoa ja että se on suunniteltu mahdollistamaan peräkkäiset yritykset.
 
 
 
@@ -510,7 +510,7 @@ Hash-funktio on mielenkiintoinen tietokonejärjestelmissä, koska sillä on tiet
 
 
 
-Bitcoin:ssä mining:ssa käytetty hash-funktio on "SHA256", jota käytetään kahdesti peräkkäin. Tämä tunnetaan nimellä kaksinkertainen SHA256 eli SHA256d. Lohkon sormenjälki saadaan aikaan juuri tällä kaksinkertaisella hashilla.
+Bitcoin:ssä mining:ssa käytetty hash-funktio on "[SHA256](https://planb.academy/resources/glossary/sha256)", jota käytetään kahdesti peräkkäin. Tämä tunnetaan nimellä kaksinkertainen SHA256 eli SHA256d. Lohkon sormenjälki saadaan aikaan juuri tällä kaksinkertaisella hashilla.
 
 
 
@@ -618,7 +618,7 @@ mining-prosessi on hyvin yksinkertainen:
 
 
 
-Itse asiassa nonce ei ole ainoa kenttä, jota voidaan muuttaa. Mikä tahansa lohkon transaktioissa tapahtuva muutos johtaa Merkle-puun juuren muuttumiseen ja siten kyseisen lohkon otsikon muuttumiseen. Nykyaikaisella laskentateholla 4,29 miljardin mahdollisen nonce-arvon läpikäyminen voidaan tehdä suhteellisen nopeasti. Tämän vuoksi on olemassa toinen kenttä, jota kutsutaan yleensä nimellä "*extra-nonce*", joka moninkertaistaa otsikon vaihtelumahdollisuudet entisestään. Palaamme tähän mekanismiin tarkemmin myöhemmässä luvussa.
+Itse asiassa nonce ei ole ainoa kenttä, jota voidaan muuttaa. Mikä tahansa lohkon transaktioissa tapahtuva muutos johtaa Merkle-puun juuren muuttumiseen ja siten kyseisen lohkon otsikon muuttumiseen. Nykyaikaisella laskentateholla 4,29 miljardin mahdollisen nonce-arvon läpikäyminen voidaan tehdä suhteellisen nopeasti. Tämän vuoksi on olemassa toinen kenttä, jota kutsutaan yleensä nimellä "*[extra-nonce](https://planb.academy/resources/glossary/extra-nonce)*", joka moninkertaistaa otsikon vaihtelumahdollisuudet entisestään. Palaamme tähän mekanismiin tarkemmin myöhemmässä luvussa.
 
 
 
@@ -630,7 +630,7 @@ Kutsumme sitä "todisteeksi", koska tulos on välittömästi todennettavissa: ku
 
 
 
-Bitcoin:n valkoisessa kirjassa Satoshi Nakamoto esittää kaksi etua proof-of-work-järjestelmän käytöstä Bitcoin:ssa:
+Bitcoin:n [valkoisessa kirjassa](https://planb.academy/resources/glossary/white-paper) Satoshi Nakamoto esittää kaksi etua proof-of-work-järjestelmän käytöstä Bitcoin:ssa:
 
 
 
@@ -650,7 +650,7 @@ Toisin sanoen proof-of-work toimii aikaleimausjärjestelmän selkärankana, joll
 
 
 
-- Määrittele enemmistösääntö (konsensus) ja neutraloi Sybil:**
+- Määrittele enemmistösääntö ([konsensus](https://planb.academy/resources/glossary/consensus)) ja neutraloi Sybil:**
 
 
 
@@ -658,7 +658,7 @@ Proof-of-Work mahdollistaa myös sen, että Bitcoin pääsee yhteisymmärrykseen
 
 
 
-Bitcoin:ssä "enemmistö*" ei ole suurin määrä osallistujia, vaan **ketju, joka kerää eniten työtä**. Satoshi:n mukaan tämä on "yksi prosessori = yksi ääni" -periaate, eli ääni painotetaan kelvollisten lohkojen tuottamiseen käytetyn todellisen laskentatehon mukaan. Tuhansien solmujen käyttöönotto ei siis sinänsä tuo mitään etua Bitcoin:een verrattuna. Ilman ylimääräistä laskentatehoa ei kerry lisää todisteita, ja Sybil-hyökkäyksestä tulee hyödytön, kun taas päätössääntö pysyy objektiivisena eikä vaadi osallistujien tunnistamista.
+Bitcoin:ssä "enemmistö*" ei ole suurin määrä osallistujia, vaan **ketju, joka kerää eniten työtä**. Satoshi:n mukaan tämä on "yksi prosessori = yksi ääni" -periaate, eli ääni painotetaan kelvollisten lohkojen tuottamiseen käytetyn todellisen laskentatehon mukaan. Tuhansien solmujen käyttöönotto ei siis sinänsä tuo mitään etua Bitcoin:een verrattuna. Ilman ylimääräistä laskentatehoa ei kerry lisää todisteita, ja [Sybil-hyökkäyksestä](https://planb.academy/resources/glossary/sybil-attack) tulee hyödytön, kun taas päätössääntö pysyy objektiivisena eikä vaadi osallistujien tunnistamista.
 
 
 
@@ -689,7 +689,7 @@ Seuraavassa luvussa teemme lyhyen historiallisen ekskursion proof-of-work-periaa
 
 
 
-Proof-of-work-tekniikkaa ei keksitty Bitcoin:a varten. Satoshi Nakamoto:ssa käytettiin ja yhdistettiin useita vanhempia ideoita, joita oli jo tutkittu eri yhteyksissä.
+Proof-of-work-tekniikkaa ei keksitty Bitcoin:a varten. [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi):ssa käytettiin ja yhdistettiin useita vanhempia ideoita, joita oli jo tutkittu eri yhteyksissä.
 
 
 
@@ -701,7 +701,7 @@ Sähköpostin roskapostiongelmasta tuli merkittävä 1990-luvun lopulla. Jos sä
 
 
 
-Tämä on Hashcashin tavoite, jota Adam Back ehdotti vuonna 1997 ja jota pidetään proof-of-work-periaatteen keksintönä. Hashcashin periaate on hyvin samankaltainen kuin mining:n: tuotetaan hash, joka noudattaa tiettyä ehtoa (tietty määrä nollia hashin alussa). Todiste on sitten viestin mukana, ja vastaanottaja voi tarkistaa sen hyvin nopeasti. Jos vastaanotetaan sähköpostiviesti, joka ei sisällä tätä todistetta, sitä voidaan pitää välittömästi roskapostina ja suodattaa. Roskapostittajat joutuvat tällöin käyttämään huomattavan paljon energiaa miljoonien viestien lähettämiseen, mikä vähentää huomattavasti (tai jopa mitätöi kokonaan) tämäntyyppisen toiminnan kannattavuutta, olipa kyse sitten markkinoinnista tai vilpillisestä toiminnasta.
+Tämä on [Hashcashin](https://planb.academy/resources/glossary/hashcash) tavoite, jota Adam Back ehdotti vuonna 1997 ja jota pidetään proof-of-work-periaatteen keksintönä. Hashcashin periaate on hyvin samankaltainen kuin mining:n: tuotetaan hash, joka noudattaa tiettyä ehtoa (tietty määrä nollia hashin alussa). Todiste on sitten viestin mukana, ja vastaanottaja voi tarkistaa sen hyvin nopeasti. Jos vastaanotetaan sähköpostiviesti, joka ei sisällä tätä todistetta, sitä voidaan pitää välittömästi roskapostina ja suodattaa. Roskapostittajat joutuvat tällöin käyttämään huomattavan paljon energiaa miljoonien viestien lähettämiseen, mikä vähentää huomattavasti (tai jopa mitätöi kokonaan) tämäntyyppisen toiminnan kannattavuutta, olipa kyse sitten markkinoinnista tai vilpillisestä toiminnasta.
 
 
 
@@ -792,7 +792,7 @@ Jos tämän diffuusioviiveen aikana toinen louhija löytää myös kelvollisen l
 
 
 
-Nämä erot eivät ole katastrofaalisia. Nakamoto-konsensus ennustaa, että pitkällä aikavälillä vain yksi haara voittaa: se, joka kerää eniten työtä. Heti kun uusi lohko louhitaan esimerkiksi lohkon A päälle, koko verkko synkronoituu uudelleen tähän haaraan ja hylkää lohkon B, josta tulee "*stale-lohko*", jota arkikielessä kutsutaan joskus virheellisesti "*orphan-lohkoksi*".
+Nämä erot eivät ole katastrofaalisia. Nakamoto-konsensus ennustaa, että pitkällä aikavälillä vain yksi haara voittaa: se, joka kerää eniten työtä. Heti kun uusi lohko louhitaan esimerkiksi lohkon A päälle, koko verkko synkronoituu uudelleen tähän haaraan ja hylkää lohkon B, josta tulee "*[stale-lohko](https://planb.academy/resources/glossary/stale-block)*", jota arkikielessä kutsutaan joskus virheellisesti "*orphan-lohkoksi*".
 
 
 
@@ -812,7 +812,7 @@ Kymmenen minuutin aikaväli antaa yleensä voittaneelle lohkolle riittävästi a
 
 
 
-*'Hashrate*' tarkoittaa sekunnissa tuotetun hash-laskennan määrää, olipa kyseessä sitten yksittäinen louhija, louhijaryhmä tai kaikki Bitcoin:n louhijat. Se ilmaistaan muodossa "H/s" (hasheja sekunnissa) ja sen kertoimina "TH/s" (terahashia sekunnissa) tai "EH/s" (exahashia sekunnissa). Tämä tarkoittaa sitä, kuinka monta yritystä louhijat voivat tehdä sekunnissa yrittäessään saada tavoitetta alhaisemman hash-arvon.
+*'[Hashrate](https://planb.academy/resources/glossary/hashrate)*' tarkoittaa sekunnissa tuotetun hash-laskennan määrää, olipa kyseessä sitten yksittäinen louhija, louhijaryhmä tai kaikki Bitcoin:n louhijat. Se ilmaistaan muodossa "H/s" (hasheja sekunnissa) ja sen kertoimina "TH/s" (terahashia sekunnissa) tai "EH/s" (exahashia sekunnissa). Tämä tarkoittaa sitä, kuinka monta yritystä louhijat voivat tehdä sekunnissa yrittäessään saada tavoitetta alhaisemman hash-arvon.
 
 
 
@@ -833,7 +833,7 @@ Toisin sanoen, jos huomenna Bitcoin-verkko kaksinkertaistaa laskentatehonsa liit
 
 
 
-Bitcoin ratkaisee tämän ongelman ajoittaisella kohteen säätömekanismilla, joka säätää mining:n vaikeusastetta. Periaate on seuraava: vuoden 2016 lohkojen välein (noin kahden viikon välein) kukin solmu laskee vaikeustavoitteen uudelleen tarkkailemalla, kuinka paljon aikaa näiden vuoden 2016 lohkojen tuottamiseen todella kului.
+Bitcoin ratkaisee tämän ongelman ajoittaisella kohteen säätömekanismilla, joka säätää mining:n [vaikeusastetta](https://planb.academy/resources/glossary/difficulty-adjustment). Periaate on seuraava: vuoden 2016 lohkojen välein (noin kahden viikon välein) kukin solmu laskee vaikeustavoitteen uudelleen tarkkailemalla, kuinka paljon aikaa näiden vuoden 2016 lohkojen tuottamiseen todella kului.
 
 
 
@@ -924,6 +924,8 @@ Tähän säätöön liittyy yksi tärkeä yksityiskohta: **Se on rajoitettu**. B
 
 
 
+Huomattakoon myös, että todellisuudessa Bitcoinin vaikeustason säätö ei ole täysin tarkka. Olemme nähneet, että vaikeustaso on tarkoitus laskea uudelleen joka 2016. lohkon kohdalla vertaamalla todellista kulunutta aikaa 14 päivän tavoiteaikaan (2016 × 10 minuuttia). Satoshin alkuperäinen koodi sisältää kuitenkin niin kutsutun "*off-by-one*"-virheen: sen sijaan, että se mittaisi kunkin jakson viimeisten lohkojen välisen ajan (eli 2016 aikaväliä), se mittaa ensimmäisen ja viimeisen lohkon välisen ajan, mikä on vain 2015 aikaväliä. Käytännössä vaikeustaso lasketaan ikään kuin jakso sisältäisi vain 2015 lohkoa 2016:n sijaan. Seurauksena on, että vaikeustaso on järjestelmällisesti hieman yliarvioitu, mikä tarkoittaa, että lohkoja louhitaan keskimäärin hieman hitaammin kuin tavoitellut 10 minuuttia (noin 0,05 % hitaammin). Tämä bugi on tunnettu, mutta sitä ei ole koskaan korjattu, koska sen muuttaminen vaatisi kovan haarautumisen (hard fork) ja sen vaikutus on käytännössä merkityksetön, lukuun ottamatta teoreettista "*time warp*" -hyökkäystä.
+
 ### Tavoiteedustus
 
 
@@ -959,7 +961,7 @@ Tämä logiikka perustuu peliteoriaan: protokolla tekee rehellisyydestä järkev
 
 
 
-Tämän saavuttamiseksi Bitcoin-protokollassa määrätään, että louhija, joka löytää kelvollisen lohkon, voittaa oikeuden sisällyttää siihen tietyn transaktion, jolloin louhija saa tietyn summan BTC. Tämä tunnetaan nimellä **lohkopalkkio**. Tämän osion ensimmäisessä luvussa pyritään ymmärtämään, mistä se koostuu ja miten se määräytyy. Myöhemmin näemme, miten rahanluontiosuus kehittyy ajan myötä (halvingien avulla) ja miten se itse asiassa kerätään teknisesti (coinbase-tapahtuman kautta).
+Tämän saavuttamiseksi Bitcoin-protokollassa määrätään, että louhija, joka löytää kelvollisen lohkon, voittaa oikeuden sisällyttää siihen tietyn transaktion, jolloin louhija saa tietyn summan BTC. Tämä tunnetaan nimellä **[lohkopalkkio](https://planb.academy/resources/glossary/block-reward)**. Tämän osion ensimmäisessä luvussa pyritään ymmärtämään, mistä se koostuu ja miten se määräytyy. Myöhemmin näemme, miten rahanluontiosuus kehittyy ajan myötä (halvingien avulla) ja miten se itse asiassa kerätään teknisesti (coinbase-tapahtuman kautta).
 
 
 
@@ -976,7 +978,7 @@ Juuri tämä tapahtuma (lohkon varsinainen lisääminen lohkoketjuun) käynnist�
 
 
 
-- lohkotuki**;
+- [lohkotuki](https://planb.academy/resources/glossary/block-subsidy)**;
 - transaktiomaksut**.
 
 
@@ -1091,7 +1093,7 @@ Kaksi transaktiota voi siis maksaa absoluuttisesti saman verran maksuja, mutta n
 
 
 
-Tämän vuoksi käytännössä transaktion kilpailukyky ilmaistaan maksujen suhteella, joka on yleensä sats/vB (satoshi per virtuaalinen tavu). Tämän suhdeluvun laskeminen on yksinkertaista:
+Tämän vuoksi käytännössä transaktion kilpailukyky ilmaistaan maksujen suhteella, joka on yleensä sats/vB ([satoshi](https://planb.academy/resources/glossary/satoshi-sat) per virtuaalinen tavu). Tämän suhdeluvun laskeminen on yksinkertaista:
 
 
 
@@ -1142,7 +1144,7 @@ Seuraavassa luvussa keskitymme tarkemmin lohkotukeen, jotta ymmärtäisimme tark
 
 
 
-Edellisessä luvussa näimme, että louhijat, jotka tuottavat kelvollisen lohkon, saavat palkkion, joka koostuu lohkoon sisältyvien transaktioiden maksuista sekä lohkotuesta. Emme kuitenkaan ole vielä selittäneet, miten tämän tuen määrä määräytyy. Mekanismi, joka määrittää ja kehittää tätä arvoa, tunnetaan nimellä ***halving***.
+Edellisessä luvussa näimme, että louhijat, jotka tuottavat kelvollisen lohkon, saavat palkkion, joka koostuu lohkoon sisältyvien transaktioiden maksuista sekä lohkotuesta. Emme kuitenkaan ole vielä selittäneet, miten tämän tuen määrä määräytyy. Mekanismi, joka määrittää ja kehittää tätä arvoa, tunnetaan nimellä ***[halving](https://planb.academy/resources/glossary/halving)***.
 
 
 
@@ -1251,7 +1253,7 @@ Tärkein syy on mekaaninen. Peräkkäisten puolikkaiden kautta lohkotuki putoaa 
 
 
 
-Lisäksi vähäiset protokollaan liittyvät poikkeamat voivat myös lisätä tätä. Esimerkiksi harvinaisissa tapauksissa jotkut louhijat eivät ehkä ole hakeneet täyttä tukeaan, mikä vähentää lopullisesti todellisuudessa liikkeeseen laskettujen bitcoinien määrää. Voimme myös mainita Satoshi:n 3. tammikuuta 2009 tuottaman genesis-lohkon, jonka luomat bitcoinit eivät kuulu UTXO set:ään, sekä tietyt vikoihin liittyvät historialliset tapahtumat, kuten päällekkäiset coinbase-transaktiotunnukset.
+Lisäksi vähäiset protokollaan liittyvät poikkeamat voivat myös lisätä tätä. Esimerkiksi harvinaisissa tapauksissa jotkut louhijat eivät ehkä ole hakeneet täyttä tukeaan, mikä vähentää lopullisesti todellisuudessa liikkeeseen laskettujen bitcoinien määrää. Voimme myös mainita Satoshi:n 3. tammikuuta 2009 tuottaman [genesis-lohkon](https://planb.academy/resources/glossary/genesis-block), jonka luomat bitcoinit eivät kuulu [UTXO set](https://planb.academy/resources/glossary/utxo-set):ään, sekä tietyt vikoihin liittyvät historialliset tapahtumat, kuten päällekkäiset coinbase-transaktiotunnukset.
 
 
 
@@ -1295,7 +1297,7 @@ Yksi kysymys on kuitenkin vielä avoinna: millä mekanismilla kaivosmies kerää
 
 
 
-Kuten kurssin ensimmäisessä osassa nähtiin, jokainen Bitcoin-lohko sisältää luettelon vireillä olevista transaktioista, jotka se vahvistaa. Näistä ensimmäinen on aina coinbase-tapahtuma. Sen avulla voittava louhija voi saada palkkionsa.
+Kuten kurssin ensimmäisessä osassa nähtiin, jokainen Bitcoin-lohko sisältää luettelon vireillä olevista transaktioista, jotka se vahvistaa. Näistä ensimmäinen on aina [coinbase-tapahtuma](https://planb.academy/resources/glossary/coinbase-transaction). Sen avulla voittava louhija voi saada palkkionsa.
 
 
 
@@ -1303,7 +1305,7 @@ Kuten kurssin ensimmäisessä osassa nähtiin, jokainen Bitcoin-lohko sisältä�
 
 
 
-Ensi silmäyksellä se näyttää klassiselta Bitcoin-transaktiolta: sillä on TXID, lähdöt ja se sisältyy lohkon Merkle-puuhun. Se eroaa kuitenkin yhdestä tärkeästä seikasta: se ei käytä mitään olemassa olevaa UTXO-tapahtumaa.
+Ensi silmäyksellä se näyttää klassiselta Bitcoin-transaktiolta: sillä on [TXID](https://planb.academy/resources/glossary/txid-transaction-identifier), lähdöt ja se sisältyy lohkon Merkle-puuhun. Se eroaa kuitenkin yhdestä tärkeästä seikasta: se ei käytä mitään olemassa olevaa UTXO-tapahtumaa.
 
 
 
@@ -1402,7 +1404,7 @@ Ajan myötä coinbase-transaktiosta on tullut erityisen kätevä lisäyspiste, j
 
 
 
-BIP-34 on fork-softa, joka otettiin käyttöön maaliskuussa 2013 alkaen lohkosta 227,930, jossa esiteltiin versio 2 Bitcoin-lohkoista. Tämä uusi versio edellyttää, että jokainen lohko sisältää coinbase-tapahtuman `scriptSigissä` luotavan lohkon korkeuden.
+[BIP-34](https://planb.academy/resources/glossary/bip0034) on fork-softa, joka otettiin käyttöön maaliskuussa 2013 alkaen lohkosta 227,930, jossa esiteltiin versio 2 Bitcoin-lohkoista. Tämä uusi versio edellyttää, että jokainen lohko sisältää coinbase-tapahtuman `scriptSigissä` luotavan lohkon korkeuden.
 
 
 
@@ -1454,7 +1456,7 @@ Toiminnallisista syistä mining-altaat käyttävät myös coinbase-syötteen `sc
 
 
 
-Siitä lähtien, kun SegWit soft fork otettiin käyttöön vuonna 2017, todistajatiedot (eli yleensä allekirjoitukset) on erotettu tapahtumien päätiedoista, erityisesti Bitcoin-tapahtumien muokattavuusongelman korjaamiseksi. Tämä erottelu tuo siis lohkoon uuden elementin, joka on sidottava lohkoon.
+Siitä lähtien, kun SegWit soft fork otettiin käyttöön vuonna 2017, todistajatiedot (eli yleensä allekirjoitukset) on erotettu tapahtumien päätiedoista, erityisesti [Bitcoin-tapahtumien muokattavuusongelman](https://planb.academy/resources/glossary/malleability-transaction) korjaamiseksi. Tämä erottelu tuo siis lohkoon uuden elementin, joka on sidottava lohkoon.
 
 
 
@@ -1500,7 +1502,7 @@ Tämä Genesis-lohkossa (Bitcoin:n ensimmäinen lohko) oleva viesti on itse asia
 ### Erääntymisaika
 
 
-Kun lohko on louhittu ja jaettu, coinbase-tapahtuma näkyy lohkoketjussa kuten mikä tahansa muu tapahtuma. Se luo UTXO:t voittavalle louhijalle, jolloin hän voi noutaa palkkionsa. Nämä UTXO:t eivät kuitenkaan ole välittömästi käytettävissä: niihin sovelletaan eräpäivää. Tämä maturiteetti on asetettu 100 lohkoa kolikkopohjan sisältävän lohkon jälkeen. Konkreettisesti sanottuna coinbase-tapahtuman on siis saatava 101 vahvistusta, jotta voittanut louhija voi käyttää sen tuotokset.
+Kun lohko on louhittu ja jaettu, coinbase-tapahtuma näkyy lohkoketjussa kuten mikä tahansa muu tapahtuma. Se luo UTXO:t voittavalle louhijalle, jolloin hän voi noutaa palkkionsa. Nämä UTXO:t eivät kuitenkaan ole välittömästi käytettävissä: niihin sovelletaan [eräpäivää](https://planb.academy/resources/glossary/maturity-period). Tämä maturiteetti on asetettu 100 lohkoa kolikkopohjan sisältävän lohkon jälkeen. Konkreettisesti sanottuna coinbase-tapahtuman on siis saatava 101 vahvistusta, jotta voittanut louhija voi käyttää sen tuotokset.
 
 
 ![Image](assets/fr/040.webp)
@@ -1615,7 +1617,7 @@ Tässä vaiheessa mining:n vaikeudet alkoivat räjähtää käsiin. Vuoden 2010 
 
 
 
-GPU-aikakauden ja nykyaikaisen ASIC-aikakauden välissä oli välivaihe: FPGA:iden käyttö. FPGA on uudelleenohjelmoitava komponentti: se voidaan konfiguroida toteuttamaan suoraan tiettyyn laskentaan, tässä tapauksessa SHA256d:hen, tarkoitettu logiikkapiiri. Ajatuksena oli siirtyä vielä kauemmas yleiskäyttöisestä laitteistosta (CPU/GPU) energiatehokkuuden parantamiseksi. Pian FPGA-piireissä virtuaalisesti tehtyjä parannuksia sovellettaisiin kuitenkin fyysisesti itse siruihin: ASIC on tulossa.
+GPU-aikakauden ja nykyaikaisen [ASIC](https://planb.academy/resources/glossary/asic)-aikakauden välissä oli välivaihe: FPGA:iden käyttö. FPGA on uudelleenohjelmoitava komponentti: se voidaan konfiguroida toteuttamaan suoraan tiettyyn laskentaan, tässä tapauksessa SHA256d:hen, tarkoitettu logiikkapiiri. Ajatuksena oli siirtyä vielä kauemmas yleiskäyttöisestä laitteistosta (CPU/GPU) energiatehokkuuden parantamiseksi. Pian FPGA-piireissä virtuaalisesti tehtyjä parannuksia sovellettaisiin kuitenkin fyysisesti itse siruihin: ASIC on tulossa.
 
 
 
@@ -1667,7 +1669,7 @@ Yksittäinen kone voi louhia, mutta ryhmittelemällä satoja ja jopa tuhansia AS
 
 
 
-Yksinkertaisimmillaan mining-farmi on rakennus (tai joukko kontteja), joka on täynnä ASIC-laitteita, jotka toimivat 24/7. Haasteena on nyt vakaiden toimintaolosuhteiden ylläpitäminen:
+Yksinkertaisimmillaan [mining-farmi](https://planb.academy/resources/glossary/mining-farm) on rakennus (tai joukko kontteja), joka on täynnä ASIC-laitteita, jotka toimivat 24/7. Haasteena on nyt vakaiden toimintaolosuhteiden ylläpitäminen:
 
 
 
@@ -1724,7 +1726,7 @@ https://planb.academy/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-
 
 
 
-Mining Bitcoin aiheuttaa jatkuvia ja väistämättömiä kustannuksia, joista tärkein on koneen virrankulutus. Nämä kustannukset syntyvät tuloksista riippumatta, vaikka mining:stä saatavat tulot ovat luonteeltaan harvinaisia ja satunnaisia. Lohkon löytyminen riippuu yksinomaan louhijan osuudesta hashrate:sta, mikä tekee tuloista sitä arvaamattomampia, mitä pienempi tämä osuus on. Juuri tämä käytännön ongelma johti nopeasti mining-poolien yleistymiseen. Tässä MIN 101 -kurssin viimeisessä luvussa esittelen mining-poolien periaatteet ja toiminnan Bitcoin:ssa.
+Mining Bitcoin aiheuttaa jatkuvia ja väistämättömiä kustannuksia, joista tärkein on koneen virrankulutus. Nämä kustannukset syntyvät tuloksista riippumatta, vaikka mining:stä saatavat tulot ovat luonteeltaan harvinaisia ja satunnaisia. Lohkon löytyminen riippuu yksinomaan louhijan osuudesta hashrate:sta, mikä tekee tuloista sitä arvaamattomampia, mitä pienempi tämä osuus on. Juuri tämä käytännön ongelma johti nopeasti [mining-poolien](https://planb.academy/resources/glossary/pool-mining) yleistymiseen. Tässä MIN 101 -kurssin viimeisessä luvussa esittelen mining-poolien periaatteet ja toiminnan Bitcoin:ssa.
 
 
 
@@ -1736,7 +1738,7 @@ mining-pooli on organisaatio (usein verkkopalvelu), joka yhdistää monien itsen
 
 
 
-mining-poolin osallistujia kutsutaan tällöin usein "hasheriksi" eikä "louhijoiksi", koska he eivät enää suorita kaikkea mining-työtä, vaan ainoastaan hakkeroivat poolin heille lähettämät tiedot.
+mining-poolin osallistujia kutsutaan tällöin usein "[hasheriksi](https://planb.academy/resources/glossary/hasher)" eikä "louhijoiksi", koska he eivät enää suorita kaikkea mining-työtä, vaan ainoastaan hakkeroivat poolin heille lähettämät tiedot.
 
 
 
@@ -1807,7 +1809,7 @@ Ensimmäiset altaat luotiin juuri tämän uuden todellisuuden vuoksi. Braiins Po
 
 
 
-Teknisesti poolit rakennettiin poolin ja louhijoiden välisten erityisten viestintäprotokollien (esim. Stratum, sitten Stratum V2) ympärille, jotta hajautettua työtä voitaisiin organisoida tehokkaasti. Tarkastelemme näitä käsitteitä tarkemmin MIN 201 -koulutuskurssillamme.
+Teknisesti poolit rakennettiin poolin ja louhijoiden välisten erityisten viestintäprotokollien (esim. [Stratum](https://planb.academy/resources/glossary/stratum), sitten Stratum V2) ympärille, jotta hajautettua työtä voitaisiin organisoida tehokkaasti. Tarkastelemme näitä käsitteitä tarkemmin MIN 201 -koulutuskurssillamme.
 
 
 

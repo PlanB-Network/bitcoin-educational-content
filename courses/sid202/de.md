@@ -57,9 +57,9 @@ Bereit, das Potenzial von Elements und der Liquid-Sidechain zu entdecken? Los ge
 
 :::video id=eae666b4-eddc-4e00-adea-2a5f94396044:::
 
-Elements ist eine quelloffene, Sidechain-fähige Blockchain-Plattform, die Zugang zu leistungsstarken Funktionen bietet, die von Mitgliedern der Community entwickelt wurden, wie etwa vertrauliche Transaktionen und ausgegebene Vermögenswerte.
+Elements ist eine quelloffene, Sidechain-fähige [Blockchain](https://planb.academy/resources/glossary/blockchain)-Plattform, die Zugang zu leistungsstarken Funktionen bietet, die von Mitgliedern der Community entwickelt wurden, wie etwa vertrauliche Transaktionen und ausgegebene Vermögenswerte.
 
-Elements ist im Kern ein Protokoll, das die Konsensbildung über den Transaktionsverlauf und die Regeln für die Übertragung und Erstellung von Vermögenswerten ermöglicht, die in einem verteilten Blockchain-Ledger gespeichert sind.
+Elements ist im Kern ein Protokoll, das die [Konsensbildung](https://planb.academy/resources/glossary/consensus) über den [Transaktionsverlauf](https://planb.academy/resources/glossary/transaction-tx) und die Regeln für die Übertragung und Erstellung von Vermögenswerten ermöglicht, die in einem verteilten Blockchain-Ledger gespeichert sind.
 
 Weitere Hintergrundinformationen zu Elements finden Sie auf der Website des Elements-Projekts (https://elementsproject.org/), im offiziellen Liquid-Blog (https://blog.liquid.net/) und im Entwicklerportal (https://liquid.net/devs).
 
@@ -85,7 +85,7 @@ Elements ist eine Allzweck-Blockchain-Plattform, die auch an eine bestehende Blo
 
 #### Signierte Blöcke
 
-Elements verwendet eine starke Föderation von Unterzeichnern, die so genannten Block Signers, die Blöcke zuverlässig und zeitnah unterzeichnen und erstellen. Dadurch entfällt die Transaktionslatenz des PoW-Mining-Prozesses, der aufgrund seiner zufälligen Poisson-Verteilung einer großen Blockzeitvarianz unterliegt. Mit dem föderierten Blocksignierungsprozess wird eine zuverlässige Blockerstellung erreicht, ohne dass eine dritte Vertrauensperson oder ein auf einem Algorithmus basierender Mining-Prozess erforderlich ist.
+Elements verwendet eine starke Föderation von Unterzeichnern, die so genannten Block Signers, die [Blöcke](https://planb.academy/resources/glossary/block) zuverlässig und zeitnah unterzeichnen und erstellen. Dadurch entfällt die Transaktionslatenz des PoW-Mining-Prozesses, der aufgrund seiner zufälligen Poisson-Verteilung einer großen Blockzeitvarianz unterliegt. Mit dem föderierten Blocksignierungsprozess wird eine zuverlässige Blockerstellung erreicht, ohne dass eine dritte Vertrauensperson oder ein auf einem Algorithmus basierender Mining-Prozess erforderlich ist.
 
 Elements fügt all diese Funktionen auf der Bitcoin Core Codebasis hinzu, erweitert die Fähigkeiten des Mainchain-Protokolls und ermöglicht neue Geschäftsanwendungen, wenn es als Sidechain oder als eigenständige Blockchain-Lösung eingesetzt wird.
 
@@ -99,7 +99,7 @@ Elements fügt all diese Funktionen auf der Bitcoin Core Codebasis hinzu, erweit
 
 :::video id=7c8c7981-11e5-47a2-a257-ef998f4892f5:::
 
-Elements bietet eine technische Lösung für die Probleme, mit denen Blockchain-Nutzer täglich konfrontiert sind: Transaktionslatenz, mangelnde Privatsphäre und das Risiko der Fungibilität.
+Elements bietet eine technische Lösung für die Probleme, mit denen Blockchain-Nutzer täglich konfrontiert sind: Transaktionslatenz, mangelnde Privatsphäre und das Risiko der [Fungibilität](https://planb.academy/resources/glossary/fungibility).
 
 Elements überwindet diese Probleme durch den Einsatz von Federated Block Signing und Confidential Transactions.
 
@@ -123,7 +123,7 @@ Die Aktionen, die ein Mitglied einer starken Föderation durchführen kann, sind
 
 Durch die Kombination der Rollen dieser Teilnehmer kann Elements sowohl eine schnelle Blockerstellung (schnellere und endgültige Transaktionsbestätigung) als auch gesicherte, übertragbare Vermögenswerte (gebundene Vermögenswerte, die direkt mit einer anderen Blockchain verbunden werden können) bieten.
 
-Sie können das Whitepaper über starke Föderationen hier lesen: https://blockstream.com/strong-federations.pdf
+Sie können das [Whitepaper](https://planb.academy/resources/glossary/white-paper) über starke Föderationen hier lesen: https://blockstream.com/strong-federations.pdf
 
 ### Unterzeichner blockieren
 
@@ -150,7 +150,7 @@ Damit eine Sidechain vertrauenswürdig funktioniert, muss sie es den Teilnehmern
 
 Die Federated-2-Way-Peg-Funktion ermöglicht es, dass ein Vermögenswert mit anderen Blockchains interoperabel ist und den nativen Vermögenswert einer anderen Blockchain repräsentiert. Indem Sie Ihre Blockchain an eine andere ankoppeln, können Sie die Fähigkeiten der Mainchain erweitern und einige ihrer inhärenten Einschränkungen überwinden.
 
-Auf hohem Niveau finden Übertragungen in die Sidechain statt, wenn jemand Vermögenswerte der Mainchain an eine Adresse sendet, die von einer Watchmen-Wallet mit mehreren Signaturen kontrolliert wird. Dadurch werden die Vermögenswerte auf der Mainchain effektiv eingefroren. Watchmen validiert dann die Transaktion und gibt die gleiche Menge des zugehörigen Vermögenswerts auf der Sidechain frei. Die freigegebenen Vermögenswerte werden an eine Sidechain-Wallet gesendet, die den Anspruch auf die ursprünglichen Mainchain-Vermögenswerte nachweisen kann. Durch diesen Vorgang werden Vermögenswerte von der Hauptkette auf die Sidechain übertragen.
+Auf hohem Niveau finden Übertragungen in die Sidechain statt, wenn jemand Vermögenswerte der Mainchain an eine Adresse sendet, die von einer Watchmen-[Wallet](https://planb.academy/resources/glossary/wallet) mit mehreren Signaturen kontrolliert wird. Dadurch werden die Vermögenswerte auf der Mainchain effektiv eingefroren. Watchmen validiert dann die Transaktion und gibt die gleiche Menge des zugehörigen Vermögenswerts auf der Sidechain frei. Die freigegebenen Vermögenswerte werden an eine Sidechain-Wallet gesendet, die den Anspruch auf die ursprünglichen Mainchain-Vermögenswerte nachweisen kann. Durch diesen Vorgang werden Vermögenswerte von der Hauptkette auf die Sidechain übertragen.
 
 Um Vermögenswerte zurück auf die Mainchain zu übertragen, führt ein Nutzer eine spezielle Peg-out-Transaktion auf der Sidechain durch. Diese Transaktion wird von Watchmen überprüft, die dann eine Transaktionsausgabe aus der von ihnen kontrollierten Multi-Signatur-Wallet auf der Mainchain signieren. Eine bestimmte Anzahl von Teilnehmern des Verbunds muss unterschreiben, bevor die Transaktion auf der Hauptkette gültig wird. Wenn die Watchmen einen Vermögenswert an die Mainchain zurücksenden, vernichten sie auch den entsprechenden Betrag auf der Sidechain, wodurch die Vermögenswerte effektiv zwischen den Blockchains übertragen werden.
 
@@ -162,7 +162,7 @@ Um Vermögenswerte zurück auf die Mainchain zu übertragen, führt ein Nutzer e
 
 Da Elements auf der Bitcoin-Codebasis basiert, sind die Komponenten, aus denen ein funktionierendes Netzwerk besteht, sehr ähnlich.
 
-Die Elements-Knoten-Software selbst heißt `elementsd` und läuft als Daemon auf dem Rechner eines Benutzers. Ein Daemon (oder Dienst in Windows) ist ein Programm, das im Hintergrund läuft, ohne die direkte Kontrolle eines angemeldeten Benutzers zu benötigen.
+Die Elements-[Knoten](https://planb.academy/resources/glossary/node)-Software selbst heißt `elementsd` und läuft als Daemon auf dem Rechner eines Benutzers. Ein Daemon (oder Dienst in Windows) ist ein Programm, das im Hintergrund läuft, ohne die direkte Kontrolle eines angemeldeten Benutzers zu benötigen.
 
 Hinweis: In diesem Dokument beziehen wir uns immer auf elementsd als die Daemon-Version, aber alles kann auch mit elements-qt gemacht werden, vorausgesetzt, die Server-Option ist aktiviert.
 
@@ -196,8 +196,8 @@ Einige Dinge können mit diesen Parametern geändert werden:
 - Der Vermögenswert, der für die Zahlung von Transaktionsgebühren im Netz zu verwenden ist.
 - Der Speicherort der Blockchain-Datendateien.
 - Die RPC-Zugangsdaten, die zur Verbindung mit einem Bitcoin-Knoten verwendet werden.
-- Der zu erfüllende Schwellenwert "n von m" und die gültigen öffentlichen Schlüssel, die Blöcke signieren können.
-- Das Skript, das zufriedenstellend sein muss, um Vermögenswerte in und aus einer Sidechain zu transferieren.
+- Der zu erfüllende Schwellenwert "n von m" und die gültigen [öffentlichen Schlüssel](https://planb.academy/resources/glossary/public-key), die Blöcke signieren können.
+- Das [Skript](https://planb.academy/resources/glossary/script), das zufriedenstellend sein muss, um Vermögenswerte in und aus einer Sidechain zu transferieren.
 - Ob eine Verbindung zu einem Bitcoin-Knoten als Sidechain hergestellt werden soll oder nicht.
 
 Viele von ihnen sind Teil der Konsensregeln des Netzwerks, daher ist es wichtig, dass sie beim Start auf alle Knoten angewendet werden. Einige können nach der Initialisierung einer Kette geändert werden, aber einige müssen nach der Initialisierung einer Kette festgelegt werden.
@@ -301,7 +301,7 @@ Diese gibt die Rohdaten der Transaktion zurück. Wenn Sie sich den Abschnitt vou
 
 Die ersten beiden Voutenabschnitte zeigen "geblendete Spannen" der Wertbeträge und die Verpflichtungsdaten, die als Nachweis für den tatsächlichen Betrag und die Art des getätigten Vermögenswerts dienen.
 
-Selbst wenn wir den privaten Schlüssel von e2 in die Brieftasche von e1 importieren würden, könnte sie die Beträge und die Art der getätigten Transaktionen nicht sehen, da sie den von e2 verwendeten Blinding Key nicht kennt. Wir beweisen dies, indem wir den privaten Schlüssel von e2s Wallet in die von e1 importieren. Zunächst müssen wir den Schlüssel von e2 exportieren
+Selbst wenn wir den [privaten Schlüssel](https://planb.academy/resources/glossary/private-key) von e2 in die Brieftasche von e1 importieren würden, könnte sie die Beträge und die Art der getätigten Transaktionen nicht sehen, da sie den von e2 verwendeten Blinding Key nicht kennt. Wir beweisen dies, indem wir den privaten Schlüssel von e2s Wallet in die von e1 importieren. Zunächst müssen wir den Schlüssel von e2 exportieren
 
 ```
 e2-cli dumpprivkey <address>
@@ -361,7 +361,7 @@ Ein ausgegebener Vermögenswert profitiert auch von vertraulichen Transaktionen 
 
 Der erste Schritt ist, dass wir Zugang zu zwei Elements-Knoten benötigen, die wir e1 und e2 nennen. Die Blockchains der Knoten wurden zurückgesetzt und das Standardvermögen zwischen ihnen aufgeteilt.
 
-Die beiden Knoten befinden sich im selben lokalen Netzwerk, sind miteinander verbunden und teilen daher dieselben Transaktionen in ihrem Transaktions-Mempool und identische Blockchains. Obwohl sie auf demselben Rechner laufen, ist es erwähnenswert, dass sie nicht dieselben Blockchain-Dateien verwenden. Jeder Knoten verwaltet seine eigene lokale Kopie der Blockchain, die dieselbe Transaktionshistorie enthält, da sie sich im Konsens befinden und sich an dieselben Protokollregeln halten wie jeder andere.
+Die beiden Knoten befinden sich im selben lokalen Netzwerk, sind miteinander verbunden und teilen daher dieselben Transaktionen in ihrem [Transaktions-Mempool](https://planb.academy/resources/glossary/mempool) und identische Blockchains. Obwohl sie auf demselben Rechner laufen, ist es erwähnenswert, dass sie nicht dieselben Blockchain-Dateien verwenden. Jeder Knoten verwaltet seine eigene lokale Kopie der Blockchain, die dieselbe Transaktionshistorie enthält, da sie sich im Konsens befinden und sich an dieselben Protokollregeln halten wie jeder andere.
 
 Beginnen wir mit der Überprüfung der Sicht jedes Knotens auf die im Netz vorhandenen Emissionen von Vermögenswerten.
 
@@ -892,7 +892,7 @@ e1-cli importprivkey <priv-key-1>
 e2-cli importprivkey <priv-key-1>
 ```
 
-Wir müssen nun einige Blöcke auf beiden Ketten reifen lassen. Die Reifung von Blöcken ist eine Voraussetzung für den Peg-Prozess, da sie vor Blockumstrukturierungen auf der Mainchain schützt, die zu einer Aufblähung des Angebots an gebundenen Vermögenswerten auf der Sidechain führen.
+Wir müssen nun einige Blöcke auf beiden Ketten reifen lassen. Die Reifung von Blöcken ist eine Voraussetzung für den Peg-Prozess, da sie vor Blockumstrukturierungen auf der Mainchain schützt, die zu einer [Aufblähung](https://planb.academy/resources/glossary/inflation) des Angebots an gebundenen Vermögenswerten auf der Sidechain führen.
 
 Um diesen Abschnitt auf den Verbundpflock zu konzentrieren, werden wir Blöcke ohne das Blocksignierungsmodell generieren, das wir im letzten Abschnitt betrachtet haben, und wir kehren zur Verwendung des Befehls "generate" zurück, um neue Blöcke zu erstellen.
 
@@ -1016,7 +1016,7 @@ In diesem Abschnitt haben wir gesehen, wie das geht:
 
 ### FederatedPegScript
 
-Damit Elements als Sidechain funktionieren kann, muss der Genesis-Block in seiner Blockchain mit einem `fedpegscript` erstellt werden. Dies geschieht durch die Übergabe des Parameters "Fedpegscript" beim Starten des Knotens. Das Skript ist dann Teil der Konsensregeln der Elements-Blockchain und ermöglicht die Validierung und Bearbeitung von Peg-In- und Peg-Out-Anfragen.
+Damit Elements als Sidechain funktionieren kann, muss der [Genesis-Block](https://planb.academy/resources/glossary/genesis-block) in seiner Blockchain mit einem `fedpegscript` erstellt werden. Dies geschieht durch die Übergabe des Parameters "Fedpegscript" beim Starten des Knotens. Das Skript ist dann Teil der Konsensregeln der Elements-Blockchain und ermöglicht die Validierung und Bearbeitung von Peg-In- und Peg-Out-Anfragen.
 
 Das "fedpegscript" besteht aus öffentlichen Schlüsseln, die von denjenigen kontrolliert werden, die berechtigt sind, die Pflockaktionen durchzuführen. Das folgende Beispiel zeigt das Format eines 2-von-2-Multisignatur-Fedpegscript:
 

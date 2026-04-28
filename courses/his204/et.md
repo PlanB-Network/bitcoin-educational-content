@@ -317,7 +317,7 @@ Vastuseks John Law kogemusele selgitab Cantillon, mis juhtub või peab juhtuma, 
 ![image](assets/et/017.webp)
 
 
-Ta näeb kahte peamist tagajärge, mis kaasnevad sellega, et metallraha asendatakse reaalse väärtuseta rahaga nagu paberraha. Esimene tagajärg on see, mida ta nimetab "rahva tõrjutuseks", mis tähendab kasvavat usaldamatust väärtusetu raha suhtes. Teine tagajärg on inflatsioon: raha nõrgenemine muudab kaubad kallimaks.
+Ta näeb kahte peamist tagajärge, mis kaasnevad sellega, et metallraha asendatakse reaalse väärtuseta rahaga nagu paberraha. Esimene tagajärg on see, mida ta nimetab "rahva tõrjutuseks", mis tähendab kasvavat usaldamatust väärtusetu raha suhtes. Teine tagajärg on [inflatsioon](https://planb.academy/resources/glossary/inflation): raha nõrgenemine muudab kaubad kallimaks.
 
 
 Neljandaks läks Cantillon oma **inflatsiooni** analüüsis kaugemale kui tema kaasaegsed. Olles jälginud Law'i süsteemi kokkuvarisemist, mõistis Cantillon, et rahaline inflatsioon ei mõjuta kõiki võrdselt. Vastupidi, see rikastab ühtesid, samal ajal kui teisi vaesustab. Ta jõudis järeldusele, et inflatsioonil on ümberjaotav mõju: need, kes saavad uut emiteeritud raha esimesena, saavad kasu suurenenud ostujõust, samas kui need, kes saavad seda hiljem, vaesuvad uue raha emiteerimise tõttu inflatsioonimäärade tõusu tõttu.

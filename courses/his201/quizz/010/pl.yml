@@ -1,4 +1,4 @@
-question: Kto był główną postacią stojącą za stworzeniem PayPal?
+question: Kto był główną postacią stojącą za stworzeniem systemu PayPal?
 answer: Peter Thiel
 wrong_answers:
   - Elon Musk
@@ -6,4 +6,4 @@ wrong_answers:
   - Mark Zuckerberg
 explanation: |
   Produkt PayPal został opracowany w 1999 r. przez firmę Confinity Inc. współzałożoną w grudniu 1998 r. w San Francisco przez Petera Thiela i Maxa Levchina.
-reviewed: false
+reviewed: true

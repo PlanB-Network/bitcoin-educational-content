@@ -1,250 +1,372 @@
 ---
 name: COLDCARD Q - Chuyên gia
-description: Using COLDCARD Q's advanced options
+description: Sử dụng các tùy chọn nâng cao của COLDCARD Q
 ---
 ![cover](assets/cover.webp)
 
-In a previous tutorial, we covered the initial configuration of the COLDCARD Q and its basic functions for beginners. If you've just received your COLDCARD Q and haven't set it up yet, I recommend you start with that tutorial before continuing here:
+
+![video](https://youtu.be/6L2hhT0J27s)
+
+
+Trong bài hướng dẫn trước, chúng ta đã tìm hiểu về cấu hình ban đầu của COLDCARD Q và các chức năng cơ bản dành cho người mới bắt đầu. Nếu bạn vừa nhận được COLDCARD Q và chưa thiết lập nó, tôi khuyên bạn nên bắt đầu với bài hướng dẫn đó trước khi tiếp tục ở đây:
+
 
 https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-This new tutorial is dedicated to COLDCARD Q's advanced options, designed for advanced and paranoid users. In fact, COLDCARDs are distinguished from other hardware wallets by their many advanced security features. Of course, you don't have to use all these options. Just choose the ones that suit your security strategy.
+Hướng dẫn mới này dành riêng cho các tùy chọn nâng cao của COLDCARD Q, được thiết kế cho người dùng cao cấp và cẩn trọng. Trên thực tế, COLDCARD khác biệt so với các phần cứng wallet khác bởi nhiều tính năng bảo mật tiên tiến. Tất nhiên, bạn không cần phải sử dụng tất cả các tùy chọn này. Chỉ cần chọn những tùy chọn phù hợp với chiến lược bảo mật của bạn.
 
-**Warning**, incorrect use of some of these advanced options may result in the loss of your bitcoins or the destruction of your hardware wallet. I therefore strongly recommend that you read the advice and explanations for each option carefully.
 
-Before you start, make sure you have access to a physical backup of your 12- or 24-word mnemonic phrase, and check its validity via the following menu: `Advanced/Tools > Danger Zone > Seed Functions > View Seed Words`.
+**Cảnh báo**, việc sử dụng sai một số tùy chọn nâng cao này có thể dẫn đến mất Bitcoin hoặc làm hỏng thiết bị phần cứng wallet của bạn. Do đó, tôi đặc biệt khuyên bạn nên đọc kỹ hướng dẫn và giải thích cho từng tùy chọn.
+
+
+Trước khi bắt đầu, hãy đảm bảo bạn có bản sao lưu vật lý của cụm từ ghi nhớ gồm 12 hoặc 24 từ, và kiểm tra tính hợp lệ của nó thông qua menu sau: `Nâng cao/Công cụ > Vùng nguy hiểm > Chức năng hạt giống > Xem từ hạt giống`.
+
 
 ![CCQ](assets/fr/01.webp)
 
-## The BIP39 passphrase
 
-If you don't know what a BIP39 passphrase is, or if it's not entirely clear to you how it works, I strongly recommend that you take a look at this tutorial beforehand, which covers the theoretical bases needed to understand the risks associated with using a passphrase :
+## BIP39 passphrase
+
+
+Nếu bạn không biết BIP39 passphrase là gì, hoặc nếu bạn chưa hiểu rõ cách thức hoạt động của nó, tôi đặc biệt khuyên bạn nên xem trước hướng dẫn này, hướng dẫn này bao gồm các kiến ​​thức lý thuyết cần thiết để hiểu các rủi ro liên quan đến việc sử dụng passphrase:
+
 
 https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-Bear in mind that once you've set up the passphrase on your wallet, your mnemonic alone won't be enough to regain access to your bitcoins. You'll need both the mnemonic and the passphrase. What's more, you'll need to enter the passphrase every time you unlock your COLDCARD Q. This enhances security by making physical access to the COLDCARD and knowledge of the PIN insufficient without the passphrase.
+Hãy nhớ rằng, sau khi bạn đã thiết lập passphrase trên wallet, chỉ riêng cụm từ ghi nhớ (mnemonic) sẽ không đủ để lấy lại quyền truy cập vào bitcoin của bạn. Bạn sẽ cần cả cụm từ ghi nhớ và passphrase. Hơn nữa, bạn sẽ cần nhập passphrase mỗi khi mở khóa COLDCARD Q. Điều này tăng cường bảo mật bằng cách khiến việc tiếp cận vật lý với COLDCARD và biết mã PIN trở nên không đủ nếu không có passphrase.
 
-On COLDCARDs, you have two options for managing your passphrase:
 
-1. **Classic entry:** You enter the passphrase manually each time you use your hardware wallet, just as you do with other hardware wallets. COLDCARD Q simplifies this task with its full keyboard.
+Trên COLDCARDS, bạn có hai tùy chọn để quản lý passphrase của mình:
 
-2. **You can choose to encrypt your passphrase and store it on a microSD card. In this case, you'll need to insert the microSD into the COLDCARD Q each time you use it. Note that this microSD will only work on your COLDCARD Q and is not a backup. It is therefore very important that you also keep a copy of your passphrase on a physical medium, such as paper or metal.**
 
-To set your BIP39 passphrase, access the "*Passphrase*" menu.
+1. **Cách nhập liệu truyền thống:** Bạn nhập passphrase thủ công mỗi khi sử dụng thiết bị phần cứng wallet, giống như với các thiết bị phần cứng wallet khác. COLDCARD Q đơn giản hóa thao tác này với bàn phím đầy đủ của nó.
+
+
+2. **Bạn có thể chọn mã hóa passphrase và lưu trữ nó trên thẻ nhớ microSD. Trong trường hợp này, bạn cần lắp thẻ microSD vào COLDCARD Q mỗi khi sử dụng. Lưu ý rằng thẻ microSD này chỉ hoạt động trên COLDCARD Q và không phải là bản sao lưu. Do đó, điều rất quan trọng là bạn cũng phải giữ một bản sao của passphrase trên một phương tiện vật lý, chẳng hạn như giấy hoặc kim loại.**
+
+
+Để thiết lập BIP39 passphrase của bạn, hãy truy cập vào menu "*Mật khẩu*".
+
 
 ![CCQ](assets/fr/02.webp)
 
-Enter your passphrase using the keyboard. Be sure to choose a strong passphrase (long and random) and make a physical backup.
+
+Nhập mã passphrase của bạn bằng bàn phím. Hãy chắc chắn chọn một mã passphrase mạnh (dài và ngẫu nhiên) và tạo bản sao lưu vật lý.
+
 
 ![CCQ](assets/fr/03.webp)
 
-Once you've set your passphrase, COLDCARD Q will show you the master key fingerprint of the new wallet associated with this passphrase. Be sure to save this fingerprint. When you re-enter your passphrase when you use your device in the future, you'll be able to check that the fingerprint displayed matches the one you saved. This check ensures that you haven't made a mistake when entering your passphrase.
+
+Sau khi bạn đã thiết lập passphrase, COLDCARD Q sẽ hiển thị cho bạn dấu vân tay khóa chính của wallet mới được liên kết với passphrase này. Hãy nhớ lưu lại dấu vân tay này. Khi bạn nhập lại passphrase khi sử dụng thiết bị trong tương lai, bạn có thể kiểm tra xem dấu vân tay được hiển thị có khớp với dấu vân tay bạn đã lưu hay không. Việc kiểm tra này đảm bảo rằng bạn không mắc lỗi khi nhập passphrase.
+
 
 ![CCQ](assets/fr/04.webp)
 
-You can now press "*ENTER*" to apply this passphrase to your mnemonic phrase and activate the new wallet. If you prefer to save this passphrase on a microSD, insert the card in the appropriate slot and press "*1*".
+
+Giờ bạn có thể nhấn "*ENTER*" để áp dụng passphrase này vào cụm từ ghi nhớ của mình và kích hoạt wallet mới. Nếu bạn muốn lưu passphrase này vào thẻ nhớ microSD, hãy lắp thẻ vào khe cắm thích hợp và nhấn "*1*".
+
 
 ![CCQ](assets/fr/05.webp)
 
-Your passphrase is now applied. The key imprint appears on the home screen and at the top of the screen.
+
+Mã passphrase của bạn đã được áp dụng thành công. Dấu ấn mã khóa sẽ hiển thị trên màn hình chính và ở đầu màn hình.
+
 
 ![CCQ](assets/fr/06.webp)
 
-Each time you unlock your COLDCARD Q, you'll need to access the "*Passphrase*" menu and enter your passphrase in the same way as above, to apply it to the mnemonic stored in the device and access the correct Bitcoin wallet.
+
+Mỗi lần mở khóa COLDCARD Q, bạn cần truy cập vào menu "*Mật khẩu*" và nhập passphrase theo cách tương tự như trên để áp dụng mật khẩu đó vào cụm từ ghi nhớ được lưu trữ trong thiết bị và truy cập đúng Bitcoin wallet.
+
 
 ![CCQ](assets/fr/07.webp)
 
-If you've saved the passphrase on a microSD card, each time you use it, insert it into the COLDCARD and access the "*Passphrase*" menu. Your COLDCARD will load the passphrase directly from the microSD, so you won't need to enter it manually. Click on "*Restore Saved*".
+
+Nếu bạn đã lưu passphrase vào thẻ nhớ microSD, mỗi khi sử dụng, hãy lắp thẻ nhớ vào COLDCARD và truy cập menu "*Mật khẩu*". COLDCARD sẽ tải passphrase trực tiếp từ thẻ nhớ microSD, vì vậy bạn không cần nhập mật khẩu thủ công. Nhấp vào "*Khôi phục đã lưu*".
+
 
 ![CCQ](assets/fr/08.webp)
 
-Check that the length and first letter of the loaded passphrase are correct.
+
+Hãy kiểm tra xem độ dài và chữ cái đầu tiên của passphrase đã tải có chính xác hay không.
+
 
 ![CCQ](assets/fr/09.webp)
 
-Confirm that the fingerprint displayed matches that of your wallet and click on "*Restore*".
+
+Hãy xác nhận rằng dấu vân tay hiển thị khớp với dấu vân tay của wallet của bạn và nhấp vào "*Khôi phục*".
+
 
 ![CCQ](assets/fr/10.webp)
 
-Keep in mind that using a passphrase means you'll need to import a new set of keys derived from the combination of your mnemonic phrase and passphrase into your wallet management software (like Sparrow Wallet). To do this, follow the step "*Configure a new wallet on Sparrow*" in this other tutorial :
+
+Hãy nhớ rằng việc sử dụng passphrase có nghĩa là bạn cần nhập một bộ khóa mới được tạo ra từ sự kết hợp giữa cụm từ ghi nhớ và passphrase vào phần mềm quản lý wallet của bạn (như Sparrow, Wallet). Để làm điều này, hãy làm theo bước "*Cấu hình wallet mới trên Sparrow*" trong hướng dẫn khác này:
+
 
 https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-## Unlocking options
+## Tùy chọn mở khóa
 
-COLDCARDs also benefit from a host of options for the device unlocking process. Let's find out more about these advanced options.
 
-### Trick PINs
+COLDCARD cũng được hưởng lợi từ nhiều tùy chọn trong quá trình mở khóa thiết bị. Hãy cùng tìm hiểu thêm về những tùy chọn nâng cao này.
 
-A Trick PIN is a secondary PIN code distinct from the one defined during initial device configuration. This code is used to trigger specific pre-configured actions as soon as it is entered when the COLDCARD is switched on. You can configure several Trick PINs, each linked to a different action. These features enable you to tailor your COLDCARD to your personal security strategy. They are particularly useful in cases of physical duress, such as during a robbery (commonly referred to in the Bitcoin community as a "*$5 wrench attack*").
 
-To activate a Trick PIN and associate it with an action, access the `Settings > Login Settings > Trick PINs` menu.
+### Mã PIN lừa đảo
+
+
+Mã PIN bí mật (Trick PIN) là mã PIN thứ cấp, khác với mã PIN được thiết lập trong quá trình cấu hình thiết bị ban đầu. Mã này được sử dụng để kích hoạt các hành động cụ thể đã được cấu hình sẵn ngay khi được nhập vào lúc bật COLDCARD. Bạn có thể cấu hình nhiều mã PIN bí mật, mỗi mã được liên kết với một hành động khác nhau. Các tính năng này cho phép bạn tùy chỉnh COLDCARD theo chiến lược bảo mật cá nhân của mình. Chúng đặc biệt hữu ích trong các trường hợp bị đe dọa về thể chất, chẳng hạn như trong một vụ cướp (thường được gọi trong cộng đồng Bitcoin là "*vụ tấn công bằng cờ lê 5 đô la*").
+
+
+Để kích hoạt mã PIN bí mật và liên kết mã PIN đó với một hành động, hãy truy cập menu `Cài đặt > Cài đặt đăng nhập > Mã PIN bí mật`.
+
 
 ![CCQ](assets/fr/11.webp)
 
-Select "*Add New Trick*".
+
+Chọn "*Thêm thủ thuật mới*".
+
 
 ![CCQ](assets/fr/12.webp)
 
-Set the PIN code to be associated with the action and remember to save it.
+
+Hãy thiết lập mã PIN cho thao tác đó và nhớ lưu lại.
+
 
 ![CCQ](assets/fr/13.webp)
 
-Then choose the action to be performed automatically each time you enter this Trick PIN. Here's the list of actions available for a PIN:
+
+Sau đó, hãy chọn hành động sẽ được thực hiện tự động mỗi khi bạn nhập mã PIN bí mật này. Dưới đây là danh sách các hành động có sẵn cho mã PIN:
 
 
-- "*Brick Self*: This action destroys both COLDCARD Q chips if the Trick PIN is entered, rendering the device totally unusable. It will then be impossible to resell, reuse or even return it to Coinkite. The device will become irretrievably obsolete. This feature can be used in the event of a robbery to convince an assailant that he will never be able to access your bitcoins. **Please note**: without a physical backup of your mnemonic phrase and any passphrase, your bitcoins will be permanently lost.
+
+
+- "*Tự phá hủy*: Hành động này sẽ phá hủy cả hai chip COLDCARD Q nếu nhập mã PIN bí mật, khiến thiết bị hoàn toàn không thể sử dụng được. Khi đó, sẽ không thể bán lại, sử dụng lại hoặc thậm chí trả lại cho Coinkite. Thiết bị sẽ trở nên lỗi thời không thể phục hồi. Tính năng này có thể được sử dụng trong trường hợp bị cướp để thuyết phục kẻ tấn công rằng hắn sẽ không bao giờ có thể truy cập được bitcoin của bạn. **Vui lòng lưu ý**: nếu không có bản sao lưu vật lý của cụm từ ghi nhớ và bất kỳ chip passphrase nào, bitcoin của bạn sẽ bị mất vĩnh viễn."
+
 
 ![CCQ](assets/fr/14.webp)
 
 
-- "*Wipe Seed*": This menu offers several actions for deleting the seed, i.e. resetting the COLDCARD without destroying it. Unlike the "*Brick Self*" option, it will be possible to reconfigure the device using a backup of your mnemonic phrase. However, without this backup, your bitcoins will be lost. Here are the available options:
- - "*Wipe & Reboot* : Removes the seed and reboots the COLDCARD without displaying any information on the screen.
- - "*Silent Wipe*": Silently wipes the seed, and unlocks the COLDCARD on a random fake wallet as if nothing had happened.
- - "*Wipe -> Wallet*": Removes the seed discreetly and unlocks the COLDCARD on a pre-configured secondary wallet, designed as a bait. This wallet may contain a small portion of your bitcoin savings to satisfy an attacker.
- - "*Say Wiped, Stop*": Deletes the seed and displays the message `Seed is wiped, Stop` on the screen.
+
+
+- "*Xóa Seed*": Menu này cung cấp một số thao tác để xóa seed, tức là đặt lại COLDCARD mà không làm hỏng nó. Không giống như tùy chọn "*Tự làm hỏng*", bạn có thể cấu hình lại thiết bị bằng cách sử dụng bản sao lưu cụm từ ghi nhớ của mình. Tuy nhiên, nếu không có bản sao lưu này, bitcoin của bạn sẽ bị mất. Dưới đây là các tùy chọn có sẵn:
+ - "*Xóa & Khởi động lại*: Gỡ bỏ seed và khởi động lại COLDCARD mà không hiển thị bất kỳ thông tin nào trên màn hình."
+ - "*Xóa im lặng*": Xóa dữ liệu trên seed một cách im lặng và mở khóa COLDCARD trên một wallet giả ngẫu nhiên như thể không có chuyện gì xảy ra.
+ - "*Xóa -> Wallet*": Thao tác này sẽ xóa seed một cách kín đáo và mở khóa COLDCARD trên một thiết bị wallet phụ đã được cấu hình sẵn, được thiết kế như một mồi nhử. Thiết bị wallet này có thể chứa một phần nhỏ số bitcoin bạn đang tiết kiệm để đáp ứng yêu cầu của kẻ tấn công.
+ - "*Thông báo Đã xóa, Dừng lại*": Xóa seed và hiển thị thông báo `Dữ liệu đã bị xóa, Dừng lại` trên màn hình.
+
 
 ![CCQ](assets/fr/15.webp)
 
 
-- "*Duress Wallet*": With this action, the Trick PIN code unlocks a wallet derived from the seed using the BIP85. This secondary wallet can be used as bait to satisfy an attacker. The COLDCARD acts as if it were the real wallet, but without the master PIN (different from the Trick PIN), the attacker will never be able to access the real wallet. This strategy is designed to make people believe that the wallet linked to the Trick PIN is the only one in existence.
+
+
+- "*Duress Wallet*": Với thao tác này, mã PIN giả sẽ mở khóa một wallet được tạo ra từ seed bằng cách sử dụng BIP85. wallet thứ cấp này có thể được sử dụng làm mồi nhử để thuyết phục kẻ tấn công. COLDCARD hoạt động như thể nó là wallet thật, nhưng nếu không có mã PIN chính (khác với mã PIN giả), kẻ tấn công sẽ không bao giờ có thể truy cập vào wallet thật. Chiến lược này được thiết kế để khiến mọi người tin rằng wallet được liên kết với mã PIN giả là wallet duy nhất tồn tại.
+
 
 ![CCQ](assets/fr/16.webp)
 
 
-- "*Login Countdown*": This menu groups actions with a countdown before they are executed. **Warning**, some of them may destroy your device or result in the loss of your bitcoins. Here are the available sub-actions:
- - "*Wipe & Countdown* : Clears the seed from the COLDCARD's memory, then starts a one-hour countdown. Without saving your mnemonic or passphrase, your bitcoins will be lost. This option is designed to fool an attacker into thinking that the device will unlock at the end of the countdown, when in fact it will be reset to factory settings.
- - "*Countdown & Brick*": Starts a one-hour countdown, at the end of which the COLDCARD destroys its two secure chips, rendering it permanently unusable. Without backup, your bitcoins will be lost. This action is designed to fool an attacker, who thinks he's waiting for an unlock, when in fact the device will self-destruct.
- - "*Just Countdown* : Triggers a simple one-hour countdown, after which the COLDCARD restarts without any further action. The seed is not deleted and the device remains intact. Be careful not to confuse this action with the "*Login Countdown*" option, discussed in the following sections, which adds a countdown to the main PIN while giving access to the real wallet.
+
+
+- "*Đếm ngược đăng nhập*": Menu này nhóm các hành động có bộ đếm ngược trước khi chúng được thực thi. **Cảnh báo**, một số hành động có thể làm hỏng thiết bị của bạn hoặc dẫn đến mất bitcoin. Dưới đây là các hành động phụ có sẵn:
+ - "*Xóa & Đếm ngược*: Xóa seed khỏi bộ nhớ của COLDCARD, sau đó bắt đầu đếm ngược một giờ. Nếu không lưu lại cụm từ ghim hoặc passphrase, bitcoin của bạn sẽ bị mất. Tùy chọn này được thiết kế để đánh lừa kẻ tấn công, khiến chúng nghĩ rằng thiết bị sẽ được mở khóa khi kết thúc đếm ngược, trong khi thực tế nó sẽ được khôi phục về cài đặt gốc."
+ - "*Đếm ngược & Phá hủy*": Bắt đầu đếm ngược một giờ, sau đó COLDCARD sẽ phá hủy hai chip bảo mật của nó, khiến thiết bị không thể sử dụng được vĩnh viễn. Nếu không sao lưu, bitcoin của bạn sẽ bị mất. Hành động này được thiết kế để đánh lừa kẻ tấn công, khiến hắn nghĩ rằng đang chờ mở khóa, trong khi thực tế thiết bị sẽ tự hủy.
+ - "*Chỉ đếm ngược*: Kích hoạt chế độ đếm ngược đơn giản một giờ, sau đó COLDCARD sẽ khởi động lại mà không cần thực hiện thêm bất kỳ thao tác nào. seed không bị xóa và thiết bị vẫn còn nguyên vẹn. Hãy cẩn thận đừng nhầm lẫn thao tác này với tùy chọn "*Đếm ngược đăng nhập*", được thảo luận trong các phần tiếp theo, tùy chọn này sẽ thêm bộ đếm ngược vào mã PIN chính trong khi vẫn cho phép truy cập vào wallet thực sự."
+
 
 ![CCQ](assets/fr/17.webp)
 
 
-- "*Look Blank*": This action makes the COLDCARD appear empty, giving the impression that the seed has been deleted. In reality, nothing happens and the seed remains intact. This simulates an unused or reset COLDCARD.
+
+
+- "*Trông trống rỗng*": Hành động này khiến COLDCARD hiển thị trống rỗng, tạo ấn tượng rằng seed đã bị xóa. Trên thực tế, không có gì xảy ra và seed vẫn còn nguyên vẹn. Điều này mô phỏng một COLDCARD chưa được sử dụng hoặc đã được đặt lại.
+
 
 ![CCQ](assets/fr/18.webp)
 
 
-- "*Just Reboot* : When the Trick PIN is used, the COLDCARD simply reboots. No other action is performed.
+
+
+- "*Chỉ cần khởi động lại*: Khi sử dụng mã PIN bí mật, COLDCARD chỉ đơn giản là khởi động lại. Không có hành động nào khác được thực hiện."
+
 
 ![CCQ](assets/fr/19.webp)
 
 
-- "*Delta Mode*": This complex action, reserved for experienced users, is designed to counter highly sophisticated duress attacks, whether from a state or a relative with privileged information. When Delta Mode is activated, COLDCARD provides access to the real wallet, enabling an attacker to navigate and verify that it is the correct wallet. However, transaction signatures are blocked, thus preventing any bitcoin transfer. In addition, access to the mnemonic phrase is disabled and any attempt to retrieve it will result in its deletion. To enhance credibility, the Trick PIN used with Delta Mode must share the same prefix as the real PIN (to display the same anti-phishing words), but the suffix must be different.
+
+
+- "*Chế độ Delta*": Chức năng phức tạp này, chỉ dành cho người dùng có kinh nghiệm, được thiết kế để chống lại các cuộc tấn công ép buộc tinh vi, dù là từ nhà nước hay người thân có thông tin đặc quyền. Khi Chế độ Delta được kích hoạt, COLDCARD cung cấp quyền truy cập vào wallet thật, cho phép kẻ tấn công điều hướng và xác minh đó là wallet chính xác. Tuy nhiên, chữ ký giao dịch bị chặn, do đó ngăn chặn mọi chuyển khoản bitcoin. Ngoài ra, quyền truy cập vào cụm từ ghi nhớ bị vô hiệu hóa và mọi nỗ lực khôi phục nó sẽ dẫn đến việc xóa bỏ. Để tăng độ tin cậy, mã PIN giả được sử dụng với Chế độ Delta phải có cùng tiền tố với mã PIN thật (để hiển thị cùng các từ chống lừa đảo), nhưng hậu tố phải khác nhau.
+
 
 ![CCQ](assets/fr/20.webp)
 
-Once you have selected an action, confirm your choice.
+
+Sau khi chọn hành động, hãy xác nhận lựa chọn của bạn.
+
 
 ![CCQ](assets/fr/21.webp)
 
-You can then view all configured Trick PINs in the dedicated menu.
+
+Sau đó, bạn có thể xem tất cả các mã PIN giả lập đã được cấu hình trong menu chuyên dụng.
+
 
 ![CCQ](assets/fr/22.webp)
 
-By selecting an existing Trick PIN, you can check the associated action. You can also hide it with "*Hide Trick*", making it invisible in the Trick PIN menu. You can delete it by clicking on "*Delete Trick*", or change the PIN code while retaining the associated action with "*Change PIN*".
+
+Bằng cách chọn một mã PIN bí mật hiện có, bạn có thể kiểm tra hành động liên kết với nó. Bạn cũng có thể ẩn nó bằng cách chọn "*Ẩn mã PIN bí mật*", khiến nó không hiển thị trong menu mã PIN bí mật. Bạn có thể xóa nó bằng cách nhấp vào "*Xóa mã PIN bí mật*", hoặc thay đổi mã PIN mà vẫn giữ nguyên hành động liên kết bằng cách chọn "*Thay đổi mã PIN*".
+
 
 ![CCQ](assets/fr/23.webp)
 
-The "*Add If Wrong*" option, available in the "*Trick PIN*" menu, lets you configure a specific action that is automatically triggered after a certain number of incorrect attempts to enter the master PIN code. The number of attempts allowed can be set during configuration.
 
-### Scramble Keys
+Tùy chọn "*Thêm nếu nhập sai*", có sẵn trong menu "*Mã PIN bí mật*", cho phép bạn cấu hình một hành động cụ thể sẽ tự động được kích hoạt sau một số lần nhập sai mã PIN chính nhất định. Số lần nhập sai cho phép có thể được thiết lập trong quá trình cấu hình.
 
-The Scramble Keys option allows you to scramble the digits displayed on your keypad buttons when entering your PIN code. This feature protects the confidentiality of your PIN code, even in the event of surveillance by people or cameras.
 
-To activate this option, access the menu `Settings > Login Settings > Scramble Keys`.
+### Xáo trộn chìa khóa
+
+
+Tùy chọn "Mã hóa phím" cho phép bạn xáo trộn các chữ số hiển thị trên bàn phím khi nhập mã PIN. Tính năng này bảo vệ quyền riêng tư của mã PIN của bạn, ngay cả khi bị người khác hoặc camera theo dõi.
+
+
+Để kích hoạt tùy chọn này, hãy truy cập menu `Cài đặt > Cài đặt đăng nhập > Mã hóa mật khẩu`.
+
 
 ![CCQ](assets/fr/24.webp)
 
-Select the "*Scramble Keys*" option.
+
+Chọn tùy chọn "*Xáo trộn phím*".
+
 
 ![CCQ](assets/fr/25.webp)
 
-From now on, when you unlock your COLDCARD Q, the keys on the keypad will be assigned new numbers randomly each time you use them.
+
+Từ nay trở đi, mỗi khi bạn mở khóa COLDCARD Q, các phím trên bàn phím sẽ được gán số mới một cách ngẫu nhiên mỗi lần bạn sử dụng chúng.
+
 
 ![CCQ](assets/fr/26.webp)
 
-### Login Countdown
 
-This option enables you to impose a systematic countdown each time you attempt to unlock your COLDCARD. It can be integrated into your security strategy by delaying access to the device in the event of theft, or by imposing a delay before signing a transaction, for example to protect yourself in the event of a hold-up. However, this countdown applies to all your uses, including when you are legitimately using your COLDCARD, which also obliges you to be patient. Be careful not to confuse this option with the "*Just Countdown*" action, which is only activated when a specific Trick PIN is used.
+### Đếm ngược đăng nhập
 
-To configure this option, access the menu `Settings > Login Settings > Login Countdown`.
+
+Tùy chọn này cho phép bạn thiết lập bộ đếm ngược mỗi khi bạn cố gắng mở khóa COLDCARD. Bạn có thể tích hợp nó vào chiến lược bảo mật của mình bằng cách trì hoãn việc truy cập vào thiết bị trong trường hợp bị đánh cắp, hoặc bằng cách trì hoãn trước khi ký kết giao dịch, ví dụ để tự bảo vệ mình trong trường hợp bị cướp. Tuy nhiên, bộ đếm ngược này áp dụng cho tất cả các lần sử dụng của bạn, kể cả khi bạn đang sử dụng COLDCARD một cách hợp pháp, điều này cũng đòi hỏi bạn phải kiên nhẫn. Hãy cẩn thận đừng nhầm lẫn tùy chọn này với hành động "*Chỉ đếm ngược*", chỉ được kích hoạt khi sử dụng mã PIN bí mật cụ thể.
+
+
+Để cấu hình tùy chọn này, hãy truy cập menu `Cài đặt > Cài đặt đăng nhập > Đếm ngược đăng nhập`.
+
 
 ![CCQ](assets/fr/27.webp)
 
-Select the countdown time. For example, if you select 1 hour, you will have to wait 1 hour for each attempt to unlock the COLDCARD Q.
+
+Chọn thời gian đếm ngược. Ví dụ, nếu bạn chọn 1 giờ, bạn sẽ phải đợi 1 giờ cho mỗi lần thử mở khóa COLDCARD Q.
+
 
 ![CCQ](assets/fr/28.webp)
 
-Each time you unlock, you will be prompted to enter your PIN code.
+
+Mỗi lần mở khóa, bạn sẽ được yêu cầu nhập mã PIN.
+
 
 ![CCQ](assets/fr/29.webp)
 
-Then wait for the time set by the countdown.
+
+Sau đó chờ đến hết thời gian được thiết lập bởi bộ đếm ngược.
+
 
 ![CCQ](assets/fr/30.webp)
 
-At the end of the countdown, you'll need to enter your PIN again to access the device.
+
+Khi đồng hồ đếm ngược kết thúc, bạn cần nhập lại mã PIN để truy cập thiết bị.
+
 
 ![CCQ](assets/fr/31.webp)
 
-### Calculator Login
 
-This option allows you to disguise your COLDCARD as a calculator when unlocking. To activate this feature, access the menu `Settings > Login Settings > Calculator Login`.
+### Đăng nhập máy tính
+
+
+Tùy chọn này cho phép bạn ngụy trang COLDCARD của mình thành máy tính khi mở khóa. Để kích hoạt tính năng này, hãy truy cập menu `Cài đặt > Cài đặt đăng nhập > Đăng nhập bằng máy tính`.
+
 
 ![CCQ](assets/fr/32.webp)
 
-Activate the option by selecting it.
+
+Kích hoạt tùy chọn bằng cách chọn nó.
+
 
 ![CCQ](assets/fr/33.webp)
 
-From now on, every time the device is switched on, a working calculator with basic commands will be displayed.
+
+Từ nay trở đi, mỗi khi thiết bị được bật, một máy tính bỏ túi hoạt động với các lệnh cơ bản sẽ được hiển thị.
+
 
 ![CCQ](assets/fr/34.webp)
 
-For example, you can calculate the SHA256 hash of "*Plan ₿ Academy*".
+
+Ví dụ, bạn có thể tính SHA256 hash của "*Plan ₿ Academy*".
+
 
 ![CCQ](assets/fr/35.webp)
 
-To unlock the COLDCARD from calculator mode, start by entering your PIN code prefix followed by a dash. For example, if your PIN code is `00-00` (this code is weak and only an example, so choose a strong PIN code), type `00-`. COLDCARD will then display your two anti-phishing words.
+
+Để mở khóa COLDCARD khỏi chế độ máy tính, hãy bắt đầu bằng cách nhập tiền tố mã PIN của bạn, theo sau là dấu gạch ngang. Ví dụ, nếu mã PIN của bạn là `00-00` (mã này yếu và chỉ là ví dụ, vì vậy hãy chọn mã PIN mạnh hơn), hãy nhập `00-`. COLDCARD sau đó sẽ hiển thị hai từ chống lừa đảo của bạn.
+
 
 ![CCQ](assets/fr/36.webp)
 
-Then enter your full PIN code, separated by a space or a dash, for example: `00 00`.
+
+Sau đó, nhập mã PIN đầy đủ của bạn, cách nhau bằng dấu cách hoặc dấu gạch ngang, ví dụ: `00 00`.
+
 
 ![CCQ](assets/fr/37.webp)
 
-The COLDCARD will then exit calculator mode and unlock normally.
 
-## Cleanly destroying your COLDCARD
+Sau đó, COLDCARD sẽ thoát khỏi chế độ máy tính và mở khóa bình thường.
 
-If you are planning to dispose of your COLDCARD Q, for example because you are now using another hardware wallet, it is important to destroy the device correctly. This ensures that no information relating to your wallet can be recovered by a third party.
 
-There are three levels of information destruction, depending on your needs. Before you start, make sure that your wallet has been imported into another hardware wallet, that you have access to all your funds and, above all, that you have your mnemonic phrase and any passphrase, both of which are functional. Without a wallet backup, the destruction of your COLDCARD will result in the loss of your bitcoins.
+## Hủy sạch COLDCARD của bạn
 
-The first level of destruction consists of deleting only the seed. This option deletes your mnemonic phrase from the COLDCARD's memory, while leaving the device functional. It's ideal if you want to use the COLDCARD Q again at a later date. To delete the seed from memory, access the `Advanced/Tools > Danger Zone > Seed Functions > Destroy Seed` menu.
+
+Nếu bạn có kế hoạch loại bỏ thiết bị COLDCARD Q của mình, ví dụ như vì bạn hiện đang sử dụng thiết bị phần cứng wallet khác, điều quan trọng là phải tiêu hủy thiết bị đúng cách. Điều này đảm bảo rằng không có thông tin nào liên quan đến wallet của bạn có thể được bên thứ ba khôi phục.
+
+
+Có ba cấp độ hủy thông tin, tùy thuộc vào nhu cầu của bạn. Trước khi bắt đầu, hãy đảm bảo rằng wallet của bạn đã được nhập vào một thiết bị wallet phần cứng khác, rằng bạn có quyền truy cập vào tất cả số tiền của mình và trên hết, rằng bạn có cụm từ ghi nhớ và bất kỳ passphrase nào, cả hai đều hoạt động bình thường. Nếu không có bản sao lưu wallet, việc hủy COLDCARD của bạn sẽ dẫn đến việc mất bitcoin.
+
+
+Mức độ phá hủy đầu tiên bao gồm việc chỉ xóa seed. Tùy chọn này sẽ xóa cụm từ ghi nhớ của bạn khỏi bộ nhớ của COLDCARD, trong khi thiết bị vẫn hoạt động bình thường. Đây là lựa chọn lý tưởng nếu bạn muốn sử dụng lại COLDCARD Q vào một thời điểm sau đó. Để xóa seed khỏi bộ nhớ, hãy truy cập menu `Nâng cao/Công cụ > Vùng nguy hiểm > Chức năng hạt giống > Phá hủy hạt giống`.
+
 
 ![CCQ](assets/fr/38.webp)
 
-The second level of destruction consists of permanently disabling the COLDCARD's two secure chips via the software. This action renders the device completely unusable. You won't be able to resell it, reuse it or return it to Coinkite: it will be permanently destroyed. To proceed, follow the steps described in the previous section regarding the "*Brick Me*" PIN, then intentionally enter this PIN when unlocking the COLDCARD.
 
-The third level involves the physical destruction of your COLDCARD Q's secure components. As before, this will render the device irrevocably unusable. To do this, use a drill to make a hole in the two chips on the top right-hand side of the device (once turned upside down), close to the "*SHOOT HERE*" inscription.
-
-**Important precautions** :
+Mức độ phá hủy thứ hai bao gồm việc vô hiệu hóa vĩnh viễn hai chip bảo mật của COLDCARD thông qua phần mềm. Hành động này khiến thiết bị hoàn toàn không thể sử dụng được. Bạn sẽ không thể bán lại, sử dụng lại hoặc trả lại cho Coinkite: nó sẽ bị phá hủy vĩnh viễn. Để tiếp tục, hãy làm theo các bước được mô tả trong phần trước liên quan đến mã PIN "*Brick Me*", sau đó cố ý nhập mã PIN này khi mở khóa COLDCARD.
 
 
-- To avoid the risk of electric shock, remove the batteries from the device and unplug it from the mains before handling.
-- Wait a few minutes after switching off the unit before starting drilling.
-- Wear insulated gloves and safety goggles to ensure your safety.
+Bước thứ ba liên quan đến việc phá hủy vật lý các linh kiện bảo mật của COLDCARD Q. Như trước đây, điều này sẽ khiến thiết bị không thể sử dụng được nữa. Để làm điều này, hãy dùng mũi khoan tạo một lỗ trên hai con chip ở phía trên bên phải của thiết bị (sau khi lật ngược thiết bị), gần dòng chữ "*SHOOT HERE*".
+
+
+**Lưu ý quan trọng**:
+
+
+
+
+- Để tránh nguy cơ bị điện giật, hãy tháo pin ra khỏi thiết bị và rút phích cắm khỏi nguồn điện trước khi sử dụng.
+- Hãy đợi vài phút sau khi tắt máy trước khi bắt đầu khoan.
+- Hãy đeo găng tay cách nhiệt và kính bảo hộ để đảm bảo an toàn.
+
 
 ![CCQ](assets/fr/39.webp)
 
-Once the chips have been punched, do not attempt to reconnect the COLDCARD Q.
 
-Congratulations, you're now up to speed on COLDCARD Q's advanced options!
+Sau khi đã đục lỗ các chip, không được cố gắng kết nối lại COLDCARD Q.
 
-If you found this tutorial useful, I'd be very grateful if you'd leave a green thumb below. Feel free to share this tutorial on your social networks. Thank you very much!
 
-I also recommend this other tutorial, in which we discuss the use of a direct competitor to CCQ, Ledger Flex :
+Chúc mừng, bạn đã nắm vững các tùy chọn nâng cao của COLDCARD Q rồi!
+
+
+Nếu bạn thấy hướng dẫn này hữu ích, tôi sẽ rất biết ơn nếu bạn để lại một biểu tượng ngón tay cái màu xanh lá cây bên dưới. Hãy thoải mái chia sẻ hướng dẫn này trên mạng xã hội của bạn. Cảm ơn rất nhiều!
+
+
+Tôi cũng khuyên bạn nên xem hướng dẫn khác này, trong đó chúng tôi thảo luận về việc sử dụng một đối thủ cạnh tranh trực tiếp của CCQ, Ledger Flex:
+
 
 https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

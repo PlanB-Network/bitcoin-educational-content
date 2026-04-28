@@ -11,10 +11,8 @@ description: Watch-only wallet ni nini na jinsi ya kuitumia?
 **\*ONYO:** Kufuatia kukamatwa kwa waanzilishi wa Samourai Wallet na kukamatwa kwa seva zao mnamo Aprili 24, programu ya Sentinel inaendelea kufanya kazi, lakini **ni lazima kutumia Dojo** yako ili kufikia maelezo ya Blockchain na shughuli za kutangaza.\*
 
 
-_Tunafuatilia kwa karibu maendeleo ya kesi hii pamoja na maendeleo kuhusu zana zinazohusiana. Uwe na uhakika kwamba tutasasisha mafunzo haya kadiri habari mpya zinavyopatikana._
 
 
-_Mafunzo haya yametolewa kwa madhumuni ya elimu na habari pekee. Hatuidhinishi au kuhimiza matumizi ya zana hizi kwa madhumuni ya uhalifu. Ni wajibu wa kila mtumiaji kutii sheria katika eneo la mamlaka yake._
 
 
 ---
@@ -40,7 +38,7 @@ Watch only wallet kwa ujumla hutumiwa pamoja na Hardware Wallet. Hii inaruhusu u
 ## Watch-only wallet ipi ya kutumia?
 
 
-Kwa sasa, programu pana zaidi ya saa pekee ni [Sentinel](https://sentinel.watch/), iliyotengenezwa na timu za Samourai Wallet. Inajumuisha vipengele vyote muhimu kwa Watch-only wallet nzuri:
+Kwa sasa, programu ya watch-only iliyo kamili zaidi ni [Sentinel](https://github.com/wanderingking072/sentinel-android), iliyotengenezwa awali na timu za Samourai Wallet na sasa inadumishwa na jamii. Inakusanya vipengele vyote muhimu kwa pochi nzuri ya watch-only:
 
 
 
@@ -67,36 +65,31 @@ Kwa watumiaji wa iOS wanaotafuta njia mbadala ya Sentinel, [Green Wallet](https:
 ### Ufungaji na Usanidi
 
 
-Anza kwa kusakinisha programu ya Sentinel. Unaweza kufanya hivi ukiwa kwenye Google Play Store au kwa kutumia [APK inayopatikana kwa kupakuliwa kwenye tovuti rasmi](https://sentinel.watch/download/).
-
-
-![watch-only](assets/notext/3.webp)
-
-
-Unapofungua programu kwanza, unapewa chaguo kati ya:
+Anza kwa kusakinisha programu ya Sentinel. Unaweza kufanya hivyo kwa kutumia [APK inayopatikana kupakua kwenye hazina ya github ya mradi](https://github.com/wanderingking072/sentinel-android/releases).
 
 
 
-- `Unganisha kwa Dojo`;
-- `Unganisha kwa seva ya Samourai`.
 
 
-Dojo, iliyotengenezwa na timu ya Samourai, ni toleo kamili la nodi za Bitcoin ambalo linaweza kusakinishwa likiwa peke yake au kuongezwa kwa mbofyo mmoja kwenye suluhu za node-in-box kama vile [Umbrel](https://umbrel.com/) na [RoninDojo](https://ronindojo.io/).
 
 
-[**-> Gundua jinsi ya kusakinisha RoninDojo v2 kwenye Raspberry Pi.**](https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
 
-Ikiwa una Dojo yako mwenyewe, unaweza kuiunganisha katika hatua hii. Kwa kufanya hivyo, utafaidika na kiwango cha juu zaidi cha faragha unapokagua maelezo yako ya muamala wa mtandao wa Bitcoin.
 
+
+
+
+
+
+Kisha utahitajika kuunganishwa lazima na Dojo yako mwenyewe, kwani seva za Samourai Wallet hazipo tena. Ikiwa bado huna Dojo yako mwenyewe, unaweza ama kutumia Dojo inayopatikana na jamii kwenye tovuti [The Dojo Bay](https://dojobay.pw/), au kufuata mafunzo yetu ya kusakinisha yako mwenyewe :
+
+https://planb.academy/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9
 
 ![watch-only](assets/notext/4.webp)
 
 
-Vinginevyo, inawezekana kuchagua seva chaguo-msingi ya Samourai. Unaweza pia kuchagua ikiwa uunganishe kupitia Tor au la.
 
 
-![watch-only](assets/notext/5.webp)
 
 
 Kisha utafika kwenye ukurasa mkuu wa Sentinel.

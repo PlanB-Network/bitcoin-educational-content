@@ -815,7 +815,7 @@ Men ifølge den franske historikeren, må oppgangen av kapitalismen plasseres i 
 Den systematiske studien av økonomiske lover begynner i høymiddelalderen. De første økonomene er de skolastiske teologene ved Skolen i Paris. Den første blant dem som skrev en vitenskapelig avhandling helt viet til et økonomisk emne, er Nicolas Oresme (1325-1382). Rundt 1360 komponerte han sin _Avhandling om Opprinnelsen, Naturen, Loven, og Endringene av Penger_ som oppsummerer og utvikler ideene til skolastikerne i hans tid.
 ![image](assets/nb-NO/049.webp)
 
-I hjertet av hans monetære analyse ligger problemet med "mutasjoner" av penger, det vil si endringer i den metalliske innholdet av mynter og deres valør. Disse endringene har forekommet siden tidenes morgen og er godt dokumentert for antikken og middelalderen. Deres mest synlige effekt er å endre kjøpekraften til den monetære enheten, spesielt for å redusere den. Dette er en primitiv form for inflasjon som Oresme tydelig fordømmer som et onde.
+I hjertet av hans monetære analyse ligger problemet med "mutasjoner" av penger, det vil si endringer i den metalliske innholdet av mynter og deres valør. Disse endringene har forekommet siden tidenes morgen og er godt dokumentert for antikken og middelalderen. Deres mest synlige effekt er å endre kjøpekraften til den monetære enheten, spesielt for å redusere den. Dette er en primitiv form for [inflasjon](https://planb.academy/resources/glossary/inflation) som Oresme tydelig fordømmer som et onde.
 
 Oresme stiller umiddelbart et sentralt spørsmål: er inflasjon gunstig for samfunnet? Han svarer negativt, og argumenterer med at inflasjon ikke gjør penger mer eller mindre nyttige for utvekslinger. Økonomien kan fungere godt uavhengig av prisnivået, og dermed uavhengig av den nominelle pengemengden.
 Men hvis det er tilfellet, oppstår åpenbart et annet spørsmål: hvorfor eksisterer valutaendringer? Og spesielt, hvorfor søke å øke pengemengden? Oresme svarer at disse endringene ikke har de samme konsekvensene for ulike medlemmer av samfunnet. De gagner visse mennesker på bekostning av andre. Vinnerne av valutaendringer har en materiell interesse i å implementere dem. Generelt er disse vinnerne menn i makt. Oresme skriver:
@@ -983,7 +983,7 @@ Det er unødvendig å bevise at hvert individ er den eneste dommeren av den mest
 
 Her forutser Turgot i stor grad argumentet til Mises og Hayek om umuligheten av enhver økonomisk beregning i et sosialistisk økonomisk system.
 
-Ved å vie et kapittel til "Turgots glans", understreker Murray Rothbard i sin økonomiske historie fra et østerriksk perspektiv at "Turgots innflytelse på etterfølgende økonomisk tenkning ble alvorlig begrenset (...) av den følgende myten at Adam Smith var grunnleggeren av politisk økonomi." Og han legger til, "det var på franskmannen J.B. Say, offisielt en tilhenger av Smith, at Turgot til slutt hadde mest innflytelse, spesielt hans teori om nytteverdi."
+Ved å vie et kapittel til "Turgots glans", understreker Murray Rothbard i sin økonomiske historie fra et [østerriksk](https://planb.academy/resources/glossary/austrian-school) perspektiv at "Turgots innflytelse på etterfølgende økonomisk tenkning ble alvorlig begrenset (...) av den følgende myten at Adam Smith var grunnleggeren av politisk økonomi." Og han legger til, "det var på franskmannen J.B. Say, offisielt en tilhenger av Smith, at Turgot til slutt hadde mest innflytelse, spesielt hans teori om nytteverdi."
 
 ### Condillacs mesterverk
 
@@ -1529,7 +1529,7 @@ Han skriver:
 For Hayek, kommer den tidligere ustabiliteten i markedsøkonomien fra det faktum at den viktigste regulatoren av markedsmekanismene, nemlig penger, ikke selv kunne være produktet av en markedsprosess.
 
 ![bilde](assets/nb-NO/101.webp)
-Hayek trodde at et fritt marked av private valutaer ville føre til større monetær stabilitet. Nesten 50 år senere, representerer en kryptovaluta som Bitcoin Hayeks konkurransepregete visjon ved å tilby et desentralisert alternativ til det monopolistiske systemet til sentralbankene. Bitcoin, med sin emisjonsgrense på 21 millioner enheter, er en garanti mot inflasjon og regulatorisk vilkårlighet.
+Hayek trodde at et fritt marked av private valutaer ville føre til større monetær stabilitet. Nesten 50 år senere, representerer en [kryptovaluta](https://planb.academy/resources/glossary/cryptocurrency) som Bitcoin Hayeks konkurransepregete visjon ved å tilby et desentralisert alternativ til det monopolistiske systemet til sentralbankene. Bitcoin, med sin emisjonsgrense på 21 millioner enheter, er en garanti mot inflasjon og regulatorisk vilkårlighet.
 
 
 ## Konklusjon: ideenes kraft

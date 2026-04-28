@@ -1,0 +1,8 @@
+question: According to Jesus Huerta de Soto, what does high savings in an entrepreneurial economy mean?
+answer: Low interest rates mean that efforts can be concentrated on the stages of production furthest from consumption
+wrong_answers:
+  - "High interest rates indicate a focus on the production of immediate consumer goods"
+  - "Increased demand for liquidity necessitates increased money production to meet needs"
+  - "A signal to reduce productive investment in favor of accumulating monetary reserves"
+explanation: |
+  Abundant savings drive interest rates down, signaling to entrepreneurs to invest in stages of production further away from final consumption. Conversely, low savings push up interest rates, indicating that profits should be made close to final consumption. This mechanism coordinates the intertemporal allocation of resources according to real time preferences.

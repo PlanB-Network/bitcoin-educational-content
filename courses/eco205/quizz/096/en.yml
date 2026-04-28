@@ -1,0 +1,8 @@
+question: According to Mises, how does money function as a "transmitter of values in space and time"?
+answer: It distributes purchasing power geographically to maximize exchanges, and stores energy and human time temporally
+wrong_answers:
+  - "It automatically transmits price fluctuations between different regional markets and adjusts interest rates according to inflation"
+  - It converts subjective values into universal objective values and synchronizes international economic cycles
+  - It equalizes production costs between regions and redistributes wealth equitably across generations
+explanation: |
+  Mises defines money as a transmitter of values, because it fulfills two essential functions: in space, it allows purchasing power to be diffused so as to exchange with as many people as possible; in time, it allows this purchasing power to be deferred by storing the fruits of human labor. Other options confuse this function with different economic mechanisms such as price arbitrage, objectification of values or redistribution.

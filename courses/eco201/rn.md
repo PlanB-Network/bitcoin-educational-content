@@ -78,7 +78,7 @@ Nimuze tubirabire hamwe!
 ### Uko amahera akorwa
 
 
-Mu gisata c'amahera dukoresha ubu, amahera aremwa ahanini biciye mu migenzo ya banki izwi nka "banki y'ububiko bw'ibice(fractional reserve banking)." Iri jambo risobanura ahanini ko amabanki adasabwa kugira amafaranga menshi nk’ayo aronka mu kubitsa. Ku bw’ivyo, barashobora kurema ubushobozi bushasha bwo kugura igihe batanze ingurane, kandi, ku ruhande rumwe, bagagabanya ubushobozi bwo kugura igihe abakiriya bariha ingurane bahawe.
+Mu gisata c'amahera dukoresha ubu, amahera aremwa ahanini biciye mu migenzo ya banki izwi nka "[banki y'ububiko bw'ibice](https://planb.academy/resources/glossary/fractional-reserves)(fractional reserve banking)." Iri jambo risobanura ahanini ko amabanki adasabwa kugira amafaranga menshi nk’ayo aronka mu kubitsa. Ku bw’ivyo, barashobora kurema ubushobozi bushasha bwo kugura igihe batanze ingurane, kandi, ku ruhande rumwe, bagagabanya ubushobozi bwo kugura igihe abakiriya bariha ingurane bahawe.
 
 
 Nk’akarorero, iyo wegereye banki yo mu karere kawe kugira ngo ubone ingwati yo kuguracanke kubaka inzu, amahera iyo banki yakuguranye yobayeho nk’inyandiko mu gitabu c'ibaruramari. Mu vy’ubuhinga bw’ivy’ubuhinga, ubutunzi bw’umuntu bugaragazwa n’ibaruramari ry’umatungo rifise ibice bibiri:
@@ -117,7 +117,7 @@ amasheke (chèques),
 
 mu kiringo runaka (akenshi indwi canke ukwezi).
 
-Nyuma, ayo mabanki akemura ihererekana ry'mahera hagati yabo biciye mu gukoresha ingwati z’amabanki, ariyo yandi mafaranga yitwa fiduciaire ariko ntabwo akoreshwa n’abanyagihugu.
+Nyuma, ayo mabanki akemura ihererekana ry'mahera hagati yabo biciye mu gukoresha ingwati z’amabanki, ariyo yandi mafaranga yitwa [fiduciaire](https://planb.academy/resources/glossary/fiat) ariko ntabwo akoreshwa n’abanyagihugu.
 
 Izo ngwati z’amabanki zibikwa kuri banki nkuru ku makonte adasanzwe, aho ashobora kwinjirwamwo gusa n’amabanki n’ibigo vy’ivy’ubutunzi vyemewe.
 
@@ -211,7 +211,7 @@ Kubera ko ugutakaza agaciro kw'amafaranga kuriko kuraduga bivuye ku gukora amafr
 Mu vy’ukuri, urutonde(sisiteme) rwacu ruriko rurashikirwa n’ingorane zikomeye, kandi Bitcoin iraseruka nk’ubundi buryo bwonyene bwo kwizigira. Ariko rero, Bitcoin yonyene ntishobora Address ibibazo biri muri sisiteme y’amahera yacu. Ikiruta vyose, turakeneye abantu batahura ingingo ngenderwako z’ishimikiro z’ubutunzi mu bakunzi ba Bitcoin, bikaba vyoshoboza ubumenyi bwagutse n’ubwenge busanzwe bw’ubutunzi kugira ngo bituyobore kure y’ukwubaka uwundi mushinge w’ubutunzi ugoyagoya w’iterambere ryacu. Intumbero y’intango y’iri shure ni ukwigisha abashasha bakunda Bitcoin nk'ingingo ngenderwako nziza z’ubutunzi.
 
 
-Kugira ngo dushikire iyo ntumbero, tuzosigura ingingo ngenderwako z'ishimikiro z'"Ubutunzi bwa Otirishe", ishure ry'ivyiyumviro vy'ubutunzi rifise umugenzo w'uburyo bwo kwigisha ivyo bintu kuva mu kinjana ca 16, ritanga ubumenyi ku bikorwa vy'umuntu mu gihe afise ingorane z'ubutunzi. Ubu ukoresheje iyi ntangamarara, uratahura ivy’ingirakamaro vyo gukora amahera be n’ingene ubuhinga bwacu bw’ivy’ubutunzi n’ivy’amahera buri.
+Kugira ngo dushikire iyo ntumbero, tuzosigura ingingo ngenderwako z'ishimikiro z'"[Ubutunzi bwa Otirishe](https://planb.academy/resources/glossary/austrian-school)", ishure ry'ivyiyumviro vy'ubutunzi rifise umugenzo w'uburyo bwo kwigisha ivyo bintu kuva mu kinjana ca 16, ritanga ubumenyi ku bikorwa vy'umuntu mu gihe afise ingorane z'ubutunzi. Ubu ukoresheje iyi ntangamarara, uratahura ivy’ingirakamaro vyo gukora amahera be n’ingene ubuhinga bwacu bw’ivy’ubutunzi n’ivy’amahera buri.
 
 
 Mu gice(chapiter) kizoza, tuzokwihweza cane ibuye ry’imfuruka ry’ishure ryose ry’ivyiyumviro ry’ubutunzi: ni inyigisho y’agaciro. Ibice bikurikira bizoca irya n’ino amahera nk’ikigo c’imibano, inyigisho y’amatungo kamere n’ingendo y’ubudandaji, ingorane yo guharura ubutunzi, n’insiguro ngufi y’amateka n’uburyo bw'inyigisho bw’ishure ry’ubutunzi ryo muri Otirishe.

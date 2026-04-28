@@ -1,4 +1,4 @@
-question: Según Keynes, ¿cuál es el papel del dinero en la economía?
+question: Según Keynes, ¿Cuál es el papel del dinero en la economía?
 answer: Un instrumento de política económica
 wrong_answers:
   - Un simple medio de intercambio
@@ -6,4 +6,4 @@ wrong_answers:
   - Una herramienta para la especulación
 explanation: |
   Para Keynes, el dinero es una palanca de política económica que permite a los gobiernos regular la economía influyendo en la inversión, el empleo y la demanda general.
-reviewed: false
+reviewed: true

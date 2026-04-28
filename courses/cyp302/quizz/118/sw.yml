@@ -6,4 +6,4 @@ wrong_answers:
   - Inagawanya maandishi wazi katika vizuizi 128-bit
 explanation: |
   Operesheni ya kubadilisha baiti (S-Box) katika AES huleta mkanganyiko kwa kubadilisha kila baiti na thamani tofauti kulingana na jedwali, na kufanya maandishi yaliyosimbwa kuwa magumu zaidi kuchanganua.
-reviewed: false
+reviewed: true

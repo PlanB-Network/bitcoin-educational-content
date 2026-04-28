@@ -756,7 +756,7 @@ Kuid nagu Spinoza ütleb, "inimeste eksitus ei lõpe sellega", ja kõigi naiivse
 
 
 
-Keynesi majandusteadlaste ja heaoluriigi pooldajate esitatud inflatsiooni määratlus illustreerib seda paradoksi väga hästi. Nende sõnul on inflatsioon hinnatõus, mis mõnede keskpankurite sõnul tuleb kas "mitte kusagilt" või geopoliitilistest kontekstidest, mida keegi ei saa kontrollida ega ette näha. Kuigi hinnatõus võib tõepoolest põhjustada tsüklilist inflatsiooni - näiteks kui nafta hind tõuseb, tõusevad ka teatud töödeldud kaupade hinnad -, on inflatsiooni tegelikud struktuursed põhjused seotud peamiselt raha Supply suurenemisega, mis omakorda tähendab raha väärtuse langust ja ipso facto mehaanilist hinnatõusu.
+Keynesi majandusteadlaste ja heaoluriigi pooldajate esitatud [inflatsiooni](https://planb.academy/resources/glossary/inflation) määratlus illustreerib seda paradoksi väga hästi. Nende sõnul on inflatsioon hinnatõus, mis mõnede keskpankurite sõnul tuleb kas "mitte kusagilt" või geopoliitilistest kontekstidest, mida keegi ei saa kontrollida ega ette näha. Kuigi hinnatõus võib tõepoolest põhjustada tsüklilist inflatsiooni - näiteks kui nafta hind tõuseb, tõusevad ka teatud töödeldud kaupade hinnad -, on inflatsiooni tegelikud struktuursed põhjused seotud peamiselt raha Supply suurenemisega, mis omakorda tähendab raha väärtuse langust ja ipso facto mehaanilist hinnatõusu.
 
 
 
@@ -1064,7 +1064,7 @@ Teisisõnu, kui me vihkame võõrast, siis sellepärast, et me seostame seda võ
 
 
 
-See kehtib muide eelkõige krüptovaluutade valdkonnas.
+See kehtib muide eelkõige [krüptovaluutade](https://planb.academy/resources/glossary/cryptocurrency) valdkonnas.
 
 
 
@@ -1159,7 +1159,7 @@ Just see oli valgustusaja ratsionaalse filosoofia eesmärk, eelkõige tänu Imma
 Teisisõnu, ütleb ta, kui me mõtleme ise, kui me arutleme ratsionaalsete täiskasvanutena ja kui me seega püüame end siduda asjade vaheliste põhjusliku seosega, siis ei ole meil enam vaja moraalset autoriteeti, kes õpetaks meile näiteks tõelisi religiooni voorusi või tõelisi eetilisi väärtusi poliitilises ja majanduslikus sfääris.
 
 
-See on mõttekäik, mis loob seose Austria liberaalse majanduskoolkonnaga, mis sündis Viini äärmiselt viljakas intellektuaalses atmosfääris enne Esimest maailmasõda. Sest just selles kontekstis panid sellised intellektuaalid nagu Carl Menger (1840-1921), Ludwig von Mises (1883-1979) ja Friedrich Hayek (1899-1992) aluse uuele liberaalse majandusteaduse koolkonnale, mis pidi saama aluseks tulevaste tsüptofonistide veendumustele. Ja sellest ka Bitcoin loomine.
+See on mõttekäik, mis loob seose [Austria](https://planb.academy/resources/glossary/austrian-school) liberaalse majanduskoolkonnaga, mis sündis Viini äärmiselt viljakas intellektuaalses atmosfääris enne Esimest maailmasõda. Sest just selles kontekstis panid sellised intellektuaalid nagu Carl Menger (1840-1921), Ludwig von Mises (1883-1979) ja Friedrich Hayek (1899-1992) aluse uuele liberaalse majandusteaduse koolkonnale, mis pidi saama aluseks tulevaste [tsüptofonistide](https://planb.academy/resources/glossary/cypherpunks) veendumustele. Ja sellest ka Bitcoin loomine.
 
 
 
@@ -1204,7 +1204,7 @@ Need on poliitilised ja majanduslikud argumendid, mida esitasid esimesed krüpto
 
 
 
-Eriti kui ta kirjutas Timesi 3. jaanuari 2009. aasta pealkirja Genesis ploki Blockchain Bitcoin mündipangale, et illustreerida ühe ajastu, keynesiaanliku, lõppu ja teise, liberaalsete, anarhistlike ja liberaalsete püüdlustega ajastu algust.
+Eriti kui ta kirjutas Timesi 3. jaanuari 2009. aasta pealkirja [Genesis ploki](https://planb.academy/resources/glossary/genesis-block) [Blockchain](https://planb.academy/resources/glossary/blockchain) Bitcoin [mündipangale](https://planb.academy/resources/glossary/coinbase-transaction), et illustreerida ühe ajastu, keynesiaanliku, lõppu ja teise, liberaalsete, anarhistlike ja liberaalsete püüdlustega ajastu algust.
 
 
 
@@ -1212,7 +1212,7 @@ Eriti kui ta kirjutas Timesi 3. jaanuari 2009. aasta pealkirja Genesis ploki Blo
 
 
 
-31. oktoobril 2008 avaldatud valges raamatus esitatakse Bitcoin kui detsentraliseeritud protokollil põhinev vahend, mille abil saab internetis väärtust vahetada ilma usaldusväärse kolmanda osapooleta. Koperniku revolutsioon, mis võimaldab inimestel lõpuks ometi taastada oma tegutsemisvõime, st oma vabaduse, vabaduse kaubelda, õiguse omandile ja austuse oma eraelu puutumatusele.
+31. oktoobril 2008 avaldatud [valges raamatus](https://planb.academy/resources/glossary/white-paper) esitatakse Bitcoin kui detsentraliseeritud protokollil põhinev vahend, mille abil saab internetis väärtust vahetada ilma usaldusväärse kolmanda osapooleta. Koperniku revolutsioon, mis võimaldab inimestel lõpuks ometi taastada oma tegutsemisvõime, st oma vabaduse, vabaduse kaubelda, õiguse omandile ja austuse oma eraelu puutumatusele.
 
 
 Miks? Sest Bitcoin võimaldab meil tänu mõistusele, tänu Galileo matemaatikakeelele Spinoza viisil sellest orjusest vabaneda. Ja, nagu Hayek soovitab, ilma, et riik saaks sellele vastu seista. Ja rahumeelselt, ilma sunnita või proselatsioonita.

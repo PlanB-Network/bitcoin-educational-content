@@ -1,9 +1,9 @@
-question: Phần mềm nào sau đây không phải là giải pháp kế toán Bitcoin?
+question: Phần mềm Bitcoin nào sau đây không phải là giải pháp phần mềm cho kế toán?
 answer: Sparrow
 wrong_answers:
   - CoinTracker
   - Koinly
   - ZenLedger
 explanation: |
-  Sparrow không phải là giải pháp kế toán của Bitcoin, trong khi các giải pháp khác thì là (nó là phần mềm Bitcoin Wallet).
+  Sparrow (phần mềm ví Bitcoin) không phải là giải pháp phần mềm kế toán của Bitcoin, trong khi các giải pháp khác thì đúng.
 reviewed: true

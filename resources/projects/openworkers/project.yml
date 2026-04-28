@@ -1,0 +1,21 @@
+id: 26452c4d-3055-4307-b8f6-dda4b188aa9b
+name: OpenWorkers
+category: infrastructure
+links:
+  website: https://openworkers.com/
+  github: https://github.com/max-lt
+tags:
+  - software
+  - development
+  - innovation
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2026-02-15
+    urgency: 1
+    contributor_names:
+      - Rogzy-DB
+    reward: 0
+contributor_names:
+  - Rogzy-DB
+license: CC-BY-SA-V4

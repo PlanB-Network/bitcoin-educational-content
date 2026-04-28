@@ -1,9 +1,9 @@
 question: Koja struktura podataka rezimira transakcije u bloku?
 answer: Merkle Tree
 wrong_answers:
-  - Tabela Hash UTXO
+  - UTXO hash tabela
   - Datoteka peers.dat
-  - Registar pretpostavljenog utxo
+  - Registar assumeutxo
 explanation: |
-  Transakcije u bloku su posvećene Merkle Tree, čiji je koren uključen u zaglavlje bloka kako bi se osigurala integritet bloka.
+  Transakcije unutar bloka se smeštaju u Merkle tree, a koren stabla se upisuje u zaglavlje bloka radi garantovanja integriteta.
 reviewed: true

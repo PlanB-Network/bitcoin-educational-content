@@ -117,11 +117,11 @@ Jste připraveni objevit Bitcoin mining? Začněme!
 
 
 
-Než přejdu k podrobnějšímu a techničtějšímu vysvětlení Bitcoin mining, rád bych vás seznámil s principem, který je záměrně jednoduchý a schematický. Pokud již máte základní znalosti, můžete v další kapitole, po zodpovězení kvízových otázek, přejít přímo k jádru věci. Tato kapitola je určena především začátečníkům, abyste mohli začít nenásilně.
+Než přejdu k podrobnějšímu a techničtějšímu vysvětlení Bitcoin [mining](https://planb.academy/resources/glossary/mining), rád bych vás seznámil s principem, který je záměrně jednoduchý a schematický. Pokud již máte základní znalosti, můžete v další kapitole, po zodpovězení kvízových otázek, přejít přímo k jádru věci. Tato kapitola je určena především začátečníkům, abyste mohli začít nenásilně.
 
 
 
-Představte si Bitcoin jako velký veřejný zápisník sdílený všemi, kam si zapisujeme, kdo komu poslal bitcoiny. Tomuto zápisníku se říká blockchain. Nemůže ho mít v držení jen jeden člověk, jinak by musel být důvěryhodný. Místo toho Bitcoin funguje kolektivně: tisíce počítačů ověřují a udržují stejnou verzi tohoto zápisníku.
+Představte si Bitcoin jako velký veřejný zápisník sdílený všemi, kam si zapisujeme, kdo komu poslal bitcoiny. Tomuto zápisníku se říká [blockchain](https://planb.academy/resources/glossary/blockchain). Nemůže ho mít v držení jen jeden člověk, jinak by musel být důvěryhodný. Místo toho Bitcoin funguje kolektivně: tisíce počítačů ověřují a udržují stejnou verzi tohoto zápisníku.
 
 
 
@@ -129,7 +129,7 @@ Představte si Bitcoin jako velký veřejný zápisník sdílený všemi, kam si
 
 
 
-Když v systému Bitcoin provedete platbu, vytvoříte transakci. Tato transakce není okamžitě přidána do zápisníku. Nejprve je odeslána do sítě a poté čeká na začlenění do dalšího transakčního paketu. Tento paket se nazývá blok.
+Když v systému Bitcoin provedete platbu, vytvoříte [transakci](https://planb.academy/resources/glossary/transaction-tx). Tato transakce není okamžitě přidána do zápisníku. Nejprve je odeslána do sítě a poté čeká na začlenění do dalšího transakčního paketu. Tento paket se nazývá [blok](https://planb.academy/resources/glossary/block).
 
 
 
@@ -141,11 +141,11 @@ Blok je jednoduše sada transakcí seskupených dohromady. Když je blok připra
 
 
 
-Mining je práce při ověřování bloku spotřebou energie. Aktéři zvaní těžaři používají specializované počítače. Tyto stroje spotřebovávají elektrickou energii na provádění velmi velkého počtu testů ve smyčce, dokud nenajdou důkaz, který síť akceptuje. Když těžař tento důkaz najde, je jeho blok považován za platný.
+Mining je práce při ověřování bloku spotřebou energie. Aktéři zvaní [těžaři](https://planb.academy/resources/glossary/miner) používají specializované počítače. Tyto stroje spotřebovávají elektrickou energii na provádění velmi velkého počtu testů ve smyčce, dokud nenajdou důkaz, který síť akceptuje. Když těžař tento důkaz najde, je jeho blok považován za platný.
 
 
 
-Jakmile je blok ověřen, je vysílán do sítě. Ostatní uzly rychle zkontrolují, zda je v souladu s pravidly, a pak jej přidají do posloupnosti předchozích bloků. Proto se tomuto řetězci říká "blockchain": každý nový blok přichází za ostatními, v postupném pořadí, a tento řetězec postupně roste.
+Jakmile je blok ověřen, je vysílán do sítě. Ostatní [uzly](https://planb.academy/resources/glossary/node) rychle zkontrolují, zda je v souladu s pravidly, a pak jej přidají do posloupnosti předchozích bloků. Proto se tomuto řetězci říká "blockchain": každý nový blok přichází za ostatními, v postupném pořadí, a tento řetězec postupně roste.
 
 
 
@@ -153,11 +153,11 @@ Jakmile je blok ověřen, je vysílán do sítě. Ostatní uzly rychle zkontrolu
 
 
 
-Shrneme-li to, transakce se nejprve vytvoří. Poté se seskupí do bloku. Poté těžař tento blok ověří spotřebou elektřiny. Nakonec je tento blok přidán do blockchainu a transakce v něm obsažené se stanou potvrzenými.
+Shrneme-li to, transakce se nejprve vytvoří. Poté se seskupí do bloku. Poté těžař tento blok ověří spotřebou elektřiny. Nakonec je tento blok přidán do blockchainu a transakce v něm obsažené se stanou [potvrzenými](https://planb.academy/resources/glossary/confirmation).
 
 
 
-Pokud horníci spotřebovávají elektřinu, není to proto, že jsou dobrovolníci. Dělají to proto, že za to dostanou odměnu. Když těžař validuje blok, získává dva druhy příjmů. Na jedné straně dostává nově vytvořené bitcoiny. Na druhé straně inkasuje poplatky, které platí uživatelé za transakce zahrnuté v bloku. Jinými slovy, těžař je odměňován jednak prostřednictvím naprogramované emise peněz, jednak prostřednictvím transakčních poplatků stanovených trhem.
+Pokud horníci spotřebovávají elektřinu, není to proto, že jsou dobrovolníci. Dělají to proto, že za to dostanou odměnu. Když těžař validuje blok, získává dva druhy příjmů. Na jedné straně dostává nově vytvořené bitcoiny. Na druhé straně inkasuje [poplatky](https://planb.academy/resources/glossary/transaction-fees), které platí uživatelé za transakce zahrnuté v bloku. Jinými slovy, těžař je odměňován jednak prostřednictvím naprogramované emise peněz, jednak prostřednictvím transakčních poplatků stanovených trhem.
 
 
 
@@ -187,7 +187,7 @@ Abychom pochopili, o čem je Bitcoin mining, musíme nejprve sledovat průběh t
 
 
 
-V systému Bitcoin je transakce datová struktura, která převádí vlastnictví bitcoinů z jednoho uživatele na druhého. Konkrétně spotřebovává `výstupy` z minulých transakcí (tzv. UTXO) a označuje je jako `vstupy` a poté vytváří nové `výstupy`, které určují, komu tyto bitcoiny nyní patří a za jakých podmínek je lze později utratit.
+V systému Bitcoin je transakce datová struktura, která převádí vlastnictví bitcoinů z jednoho uživatele na druhého. Konkrétně spotřebovává `výstupy` z minulých transakcí (tzv. [UTXO](https://planb.academy/resources/glossary/utxo)) a označuje je jako `vstupy` a poté vytváří nové `výstupy`, které určují, komu tyto bitcoiny nyní patří a za jakých podmínek je lze později utratit.
 
 
 
@@ -195,7 +195,7 @@ V systému Bitcoin je transakce datová struktura, která převádí vlastnictv�
 
 
 
-Důležitým bodem Bitcoin je oprávnění utrácet. Bitcoin nejsou na účtu, jako mohou být vaše peníze v bance, ale jsou uzamčeny podmínkami pro utrácení. Když chce wallet použít UTXO jako vstup, musí poskytnout kryptografický důkaz, že má právo jej odemknout. Tento důkaz má často podobu digitálního podpisu generated ze soukromého klíče. Proto bitcoináři trvají na zabezpečení svých soukromých klíčů: právě ty odemykají přístup k bitcoinům a následně umožňují jejich utrácení.
+Důležitým bodem Bitcoin je oprávnění utrácet. Bitcoin nejsou na účtu, jako mohou být vaše peníze v bance, ale jsou uzamčeny podmínkami pro utrácení. Když chce [wallet](https://planb.academy/resources/glossary/wallet) použít UTXO jako [vstup](https://planb.academy/resources/glossary/input), musí poskytnout kryptografický důkaz, že má právo jej odemknout. Tento důkaz má často podobu [digitálního podpisu](https://planb.academy/resources/glossary/digital-signature) generated ze [soukromého klíče](https://planb.academy/resources/glossary/private-key). Proto bitcoináři trvají na zabezpečení svých soukromých klíčů: právě ty odemykají přístup k bitcoinům a následně umožňují jejich utrácení.
 
 
 
@@ -221,7 +221,7 @@ Jakmile je transakce správně sestavena a podepsána uživatelským zařízení
 
 
 
-Bitcoin je síť typu peer-to-peer: neexistuje žádný centrální server, který by přijímal a zpracovával všechny transakce. Tuto úlohu plní uzly společně. Uzel Bitcoin je část softwaru (např. jádro Bitcoin) připojená k ostatním uzlům v síti Bitcoin, jejímž hlavním úkolem je ověřovat, ukládat a předávat transakce a bloky.
+Bitcoin je síť typu [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p): neexistuje žádný centrální server, který by přijímal a zpracovával všechny transakce. Tuto úlohu plní uzly společně. Uzel Bitcoin je část softwaru (např. [jádro Bitcoin](https://planb.academy/resources/glossary/bitcoin-core)) připojená k ostatním uzlům v síti Bitcoin, jejímž hlavním úkolem je ověřovat, ukládat a předávat transakce a bloky.
 
 
 
@@ -233,7 +233,7 @@ Když odešlete transakci ze zařízení wallet, předá ji zařízení wallet u
 - podpisy jsou platné;
 - vstupy odkazují na existující mince UTXO (tj. existující bitcoiny);
 - tyto prostředky UTXO ještě nebyly vynaloženy jinde;
-- množství výstupů je menší nebo rovno množství vstupů (bitcoiny nevznikají z ničeho);
+- množství [výstupů](https://planb.academy/resources/glossary/output) je menší nebo rovno množství vstupů (bitcoiny nevznikají z ničeho);
 - atd.
 
 
@@ -250,7 +250,7 @@ Pokud transakce projde všemi těmito kontrolami, uzel ji rozšíří do ostatn�
 
 
 
-Mezi okamžikem, kdy je transakce vysílána, a okamžikem, kdy je potvrzena v bloku, musí čekat. Tento čekací prostor se nazývá **paměťový fond** (zkratka slov `paměť` a `paměťový fond`). Mempool je tedy dočasný úložný prostor pro platné, ale dosud nepotvrzené transakce.
+Mezi okamžikem, kdy je transakce vysílána, a okamžikem, kdy je potvrzena v bloku, musí čekat. Tento čekací prostor se nazývá **paměťový fond** (zkratka slov `paměť` a `paměťový fond`). [Mempool](https://planb.academy/resources/glossary/mempool) je tedy dočasný úložný prostor pro platné, ale dosud nepotvrzené transakce.
 
 
 
@@ -270,7 +270,7 @@ V této fázi síť o transakci ví, ověřila ji a drží ji v paměti, dokud n
 
 
 
-Protože bitcoin je nehmotná měna, musí řešit jeden problém: zabránit dvojímu utrácení bez centrální autority. Pokud se dvě transakce pokoušejí utratit stejnou částku UTXO, musí být všichni schopni konvergovat k jednomu ucelenému stavu. Satoshi Nakamoto tento problém shrnuje touto slavnou větou:
+Protože bitcoin je nehmotná měna, musí řešit jeden problém: zabránit [dvojímu utrácení](https://planb.academy/resources/glossary/double-spending-attack) bez centrální autority. Pokud se dvě transakce pokoušejí utratit stejnou částku UTXO, musí být všichni schopni konvergovat k jednomu ucelenému stavu. Satoshi Nakamoto tento problém shrnuje touto slavnou větou:
 
 
 
@@ -284,7 +284,7 @@ To je úloha blockchainu: veřejného registru obsahujícího historii transakc�
 
 
 
-Tento registr nelze přepsat díky jednoduchému principu: každý blok obsahuje kryptografický otisk (hash) předchozího bloku. Bloky jsou tedy propojeny: pokud změníte blok z minulosti, změní se jeho hash, čímž se přeruší vazba s dalším blokem, čímž se přeruší vazba s blokem následujícím atd. Právě tento řetězec závislostí je příčinou názvu "*blockchain*".
+Tento registr nelze přepsat díky jednoduchému principu: každý blok obsahuje kryptografický otisk ([hash](https://planb.academy/resources/glossary/hash-function)) předchozího bloku. Bloky jsou tedy propojeny: pokud změníte blok z minulosti, změní se jeho hash, čímž se přeruší vazba s dalším blokem, čímž se přeruší vazba s blokem následujícím atd. Právě tento řetězec závislostí je příčinou názvu "*blockchain*".
 
 
 
@@ -292,7 +292,7 @@ Tento registr nelze přepsat díky jednoduchému principu: každý blok obsahuje
 
 
 
-Jakmile jsme pochopili tyto základní principy Bitcoin, můžeme popsat cíl těžaře konkrétněji: vytvořit nový blok, který rozšíří stávající řetězec tím, že zapíše čekající transakce, a pak se pokusí o jeho platnost (to je slavný "proof of work", který budeme studovat v jedné z dalších kapitol). Nejprve však v následující kapitole společně zjistíme, jak se kandidátský blok konstruuje.
+Jakmile jsme pochopili tyto základní principy Bitcoin, můžeme popsat cíl těžaře konkrétněji: vytvořit nový blok, který rozšíří stávající řetězec tím, že zapíše čekající transakce, a pak se pokusí o jeho platnost (to je slavný "[proof of work](https://planb.academy/resources/glossary/proof-of-work)", který budeme studovat v jedné z dalších kapitol). Nejprve však v následující kapitole společně zjistíme, jak se kandidátský blok konstruuje.
 
 
 
@@ -303,7 +303,7 @@ Jakmile jsme pochopili tyto základní principy Bitcoin, můžeme popsat cíl t�
 
 
 
-Nyní jste pochopili, jak transakce Bitcoin funguje a jakou roli hraje blockchain. Než se však podrobněji podíváme na to, jak proof-of-work funguje, je tu ještě jeden zásadní krok, který musí těžař provést: konstrukce kandidátského bloku. Než se pustíme do hledání platného důkazu, zjistíme společně, co je to kandidátský blok a jak jej těžař konstruuje.
+Nyní jste pochopili, jak transakce Bitcoin funguje a jakou roli hraje blockchain. Než se však podrobněji podíváme na to, jak proof-of-work funguje, je tu ještě jeden zásadní krok, který musí těžař provést: konstrukce [kandidátského bloku](https://planb.academy/resources/glossary/candidate-block). Než se pustíme do hledání platného důkazu, zjistíme společně, co je to kandidátský blok a jak jej těžař konstruuje.
 
 
 
@@ -318,7 +318,7 @@ Miner si musí své bloky postavit sami, než se je pokusí vytěžit. Každý t
 
 - vybrat, které transakce se mají zahrnout;
 - uspořádat tyto transakce způsobem, který je v souladu s pravidly Bitcoin;
-- vytvořit metadata bloku uložená v jeho záhlaví.
+- vytvořit metadata bloku uložená v jeho [záhlaví](https://planb.academy/resources/glossary/block-header).
 
 
 
@@ -340,7 +340,7 @@ Blok Bitcoin se proto skládá ze dvou hlavních částí:
 
 
 
-Záhlaví je zásadní, protože se používá jako základ pro proof-of-work: v Bitcoin netěžíte přímo celý blok; těžíte pouze záhlaví bloku, které shrnuje informace potřebné k propojení bloku s řetězcem a k odevzdání jeho obsahu. Aby záhlaví mohlo reprezentovat všechny transakce, používá Bitcoin kryptografický nástroj: Merkleho strom.
+Záhlaví je zásadní, protože se používá jako základ pro proof-of-work: v Bitcoin netěžíte přímo celý blok; těžíte pouze záhlaví bloku, které shrnuje informace potřebné k propojení bloku s řetězcem a k odevzdání jeho obsahu. Aby záhlaví mohlo reprezentovat všechny transakce, používá Bitcoin kryptografický nástroj: [Merkleho strom](https://planb.academy/resources/glossary/merkle-tree).
 
 
 
@@ -348,7 +348,7 @@ Záhlaví je zásadní, protože se používá jako základ pro proof-of-work: v
 
 
 
-Výpis všech transakcí v záhlaví by byl nemožný: blok může obsahovat tisíce transakcí, zatímco záhlaví má pevnou velikost (80 bajtů). Řešením je proto výpočet jedinečného hashe, který závisí na všech transakcích v bloku: jedná se o Merkleho kořen.
+Výpis všech transakcí v záhlaví by byl nemožný: blok může obsahovat tisíce transakcí, zatímco záhlaví má pevnou velikost (80 bajtů). Řešením je proto výpočet jedinečného hashe, který závisí na všech transakcích v bloku: jedná se o [Merkleho kořen](https://planb.academy/resources/glossary/merkle-root).
 
 
 
@@ -371,7 +371,7 @@ Pokud tedy dojde ke změně jedné transakce, byť jen o jediný bit, výsledkem
 
 
 
-Od SegWit jsme oddělili podpisy od zbytku. Ve skutečnosti jsou tedy v každém bloku vnořeny 2 Merklovy stromy. Toto oddělení má důsledky pro způsob, jakým počítáme velikost bloku, a pro některé kryptografické závazky, ale základní myšlenka zůstává stejná: hlavička musí kompaktním způsobem odevzdat celý obsah bloku.
+Od [SegWit](https://planb.academy/resources/glossary/segwit) jsme oddělili podpisy od zbytku. Ve skutečnosti jsou tedy v každém bloku vnořeny 2 Merklovy stromy. Toto oddělení má důsledky pro způsob, jakým počítáme velikost bloku, a pro některé kryptografické závazky, ale základní myšlenka zůstává stejná: hlavička musí kompaktním způsobem odevzdat celý obsah bloku.
 
 
 
@@ -402,19 +402,19 @@ Záhlaví bloku je dlouhé 80 bajtů a obsahuje přesně 6 polí. Právě těcht
 
 
 
-- Časové razítko: Jedná se o časové razítko (unixový čas) zvolené těžařem (s omezením platnosti), které musí udávat, kdy byl blok vytěžen. Nemusí být dokonale přesné na sekundu, ale musí splňovat určité podmínky, aby zůstalo pro síť přijatelné.
+- [Časové razítko](https://planb.academy/resources/glossary/timestamp): Jedná se o časové razítko (unixový čas) zvolené těžařem (s omezením platnosti), které musí udávat, kdy byl blok vytěžen. Nemusí být dokonale přesné na sekundu, ale musí splňovat určité podmínky, aby zůstalo pro síť přijatelné.
 
 
 
 
 
-- Kódovaný cíl obtížnosti (`nbits`): Toto pole kóduje aktuální cíl obtížnosti. Podrobněji se mu budeme věnovat v kapitole o obtížnosti, ale nezapomeňte, že tento parametr je součástí hlavičky.
+- Kódovaný [cíl obtížnosti](https://planb.academy/resources/glossary/difficulty-target) (`nbits`): Toto pole kóduje aktuální cíl obtížnosti. Podrobněji se mu budeme věnovat v kapitole o obtížnosti, ale nezapomeňte, že tento parametr je součástí hlavičky.
 
 
 
 
 
-- Nonce (`nonce`): Jedná se o hodnotu, kterou může těžař libovolně upravovat. Slouží jako nastavitelná proměnná v průběhu proof-of-work. Její úlohu podrobněji vysvětlím v další kapitole, ale je důležité pochopit, že nonce je součástí hlavičky bloku a je určena k tomu, aby umožnila postupné pokusy.
+- [Nonce](https://planb.academy/resources/glossary/nonce) (`nonce`): Jedná se o hodnotu, kterou může těžař libovolně upravovat. Slouží jako nastavitelná proměnná v průběhu proof-of-work. Její úlohu podrobněji vysvětlím v další kapitole, ale je důležité pochopit, že nonce je součástí hlavičky bloku a je určena k tomu, aby umožnila postupné pokusy.
 
 
 
@@ -510,7 +510,7 @@ Hašovací funkce je v počítačových systémech zajímavá, protože má urč
 
 
 
-Hashovací funkce použitá v Bitcoin pro mining je `SHA256`, která se použije dvakrát po sobě. Tato funkce je známá jako dvojitý SHA256 nebo `SHA256d`. Právě toto dvojité hašování vytváří otisk bloku.
+Hashovací funkce použitá v Bitcoin pro mining je `SHA256`, která se použije dvakrát po sobě. Tato funkce je známá jako dvojitý [SHA256](https://planb.academy/resources/glossary/sha256) nebo `SHA256d`. Právě toto dvojité hašování vytváří otisk bloku.
 
 
 
@@ -618,7 +618,7 @@ Proces mining je velmi jednoduchý:
 
 
 
-Nonce totiž není jediné pole, které lze upravit. Jakákoli změna v rámci transakcí bloku vede ke změně kořene Merkleho stromu, a tedy ke změně záhlaví tohoto bloku. S moderním výpočetním výkonem lze projít 4,29 miliardy možných hodnot nonce relativně rychle. Proto existuje další pole, obecně označované jako "*extra-nonce*", které dále násobí možnosti změny záhlaví. K tomuto mechanismu se podrobněji vrátíme v některé z dalších kapitol.
+Nonce totiž není jediné pole, které lze upravit. Jakákoli změna v rámci transakcí bloku vede ke změně kořene Merkleho stromu, a tedy ke změně záhlaví tohoto bloku. S moderním výpočetním výkonem lze projít 4,29 miliardy možných hodnot nonce relativně rychle. Proto existuje další pole, obecně označované jako "*[extra-nonce](https://planb.academy/resources/glossary/extra-nonce)*", které dále násobí možnosti změny záhlaví. K tomuto mechanismu se podrobněji vrátíme v některé z dalších kapitol.
 
 
 
@@ -630,7 +630,7 @@ Nazýváme to "důkaz", protože výsledek je okamžitě ověřitelný: jakmile 
 
 
 
-V bílé knize Bitcoin uvádí Satoshi Nakamoto dvě výhody použití systému proof-of-work v Bitcoin:
+V [bílé knize](https://planb.academy/resources/glossary/white-paper) Bitcoin uvádí Satoshi Nakamoto dvě výhody použití systému proof-of-work v Bitcoin:
 
 
 
@@ -650,7 +650,7 @@ Jinými slovy, proof-of-work slouží jako páteř systému časových razítek,
 
 
 
-- Definujte pravidlo většiny (konsenzus) a neutralizujte Sybila:**
+- Definujte pravidlo většiny ([konsenzus](https://planb.academy/resources/glossary/consensus)) a neutralizujte Sybila:**
 
 
 
@@ -658,7 +658,7 @@ Proof-of-Work také umožňuje Bitcoin dosáhnout konsensu, aniž by se spoléha
 
 
 
-V Bitcoin není "*většina*" největší počet účastníků, ale **řetězec, který nashromáždí nejvíce práce**. Jak uvádí Satoshi, jedná se o princip "jeden procesor = jeden hlas", tj. hlasování vážené skutečným výpočetním výkonem vynaloženým na vytvoření platných bloků. Nasazení tisíců uzlů tedy samo o sobě nepřináší žádnou výhodu oproti Bitcoin. Bez dalšího výpočetního výkonu se již nehromadí žádné důkazy práce a útok Sybil se stává zbytečným, zatímco rozhodovací pravidlo zůstává objektivní a nevyžaduje žádnou identifikaci účastníků.
+V Bitcoin není "*většina*" největší počet účastníků, ale **řetězec, který nashromáždí nejvíce práce**. Jak uvádí Satoshi, jedná se o princip "jeden procesor = jeden hlas", tj. hlasování vážené skutečným výpočetním výkonem vynaloženým na vytvoření platných bloků. Nasazení tisíců uzlů tedy samo o sobě nepřináší žádnou výhodu oproti Bitcoin. Bez dalšího výpočetního výkonu se již nehromadí žádné důkazy práce a [útok Sybil](https://planb.academy/resources/glossary/sybil-attack) se stává zbytečným, zatímco rozhodovací pravidlo zůstává objektivní a nevyžaduje žádnou identifikaci účastníků.
 
 
 
@@ -689,7 +689,7 @@ V příští kapitole si uděláme krátkou historickou odbočku k principu proo
 
 
 
-Proof-of-work nebyl vynalezen pro Bitcoin. Satoshi Nakamoto převzal a shromáždil několik starších myšlenek, které již byly zkoumány v různých kontextech.
+Proof-of-work nebyl vynalezen pro Bitcoin. [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) převzal a shromáždil několik starších myšlenek, které již byly zkoumány v různých kontextech.
 
 
 
@@ -701,7 +701,7 @@ Koncem 90. let 20. století se problém nevyžádané elektronické pošty stal 
 
 
 
-To je cílem Hashcash, navrženého Adam Back v roce 1997, který je považován za vynález principu proof-of-work. Princip Hashcash je velmi podobný principu mining: vytvořit hash, který respektuje podmínku (mít na začátku hashe určitý počet nul). Tento důkaz pak doprovází zprávu a příjemce jej může velmi rychle ověřit. Pokud je přijat e-mail, který tento důkaz neobsahuje, může být okamžitě považován za spam, a tedy filtrován. Spammeři jsou pak nuceni vynaložit značné množství energie na rozeslání milionů zpráv, což drasticky snižuje (nebo dokonce zcela likviduje) ziskovost tohoto typu operací, ať už marketingových, nebo podvodných.
+To je cílem [Hashcash](https://planb.academy/resources/glossary/hashcash), navrženého Adam Back v roce 1997, který je považován za vynález principu proof-of-work. Princip Hashcash je velmi podobný principu mining: vytvořit hash, který respektuje podmínku (mít na začátku hashe určitý počet nul). Tento důkaz pak doprovází zprávu a příjemce jej může velmi rychle ověřit. Pokud je přijat e-mail, který tento důkaz neobsahuje, může být okamžitě považován za spam, a tedy filtrován. Spammeři jsou pak nuceni vynaložit značné množství energie na rozeslání milionů zpráv, což drasticky snižuje (nebo dokonce zcela likviduje) ziskovost tohoto typu operací, ať už marketingových, nebo podvodných.
 
 
 
@@ -792,7 +792,7 @@ Pokud během této difuzní prodlevy objeví platný blok ve stejné výšce i j
 
 
 
-Tato rozdělení nejsou katastrofální. Nakamotův konsenzus předpovídá, že v dlouhodobém horizontu převládne pouze jedna větev: ta, která nashromáždí nejvíce práce. Jakmile je totiž například na bloku A vytěžen nový blok, celá síť se resynchronizuje na tuto větev a opustí blok B, který se pak stane "*stale blokem*", v běžném jazyce někdy chybně nazývaným "*orphan blok*".
+Tato rozdělení nejsou katastrofální. Nakamotův konsenzus předpovídá, že v dlouhodobém horizontu převládne pouze jedna větev: ta, která nashromáždí nejvíce práce. Jakmile je totiž například na bloku A vytěžen nový blok, celá síť se resynchronizuje na tuto větev a opustí blok B, který se pak stane "*[stale blokem](https://planb.academy/resources/glossary/stale-block)*", v běžném jazyce někdy chybně nazývaným "*orphan blok*".
 
 
 
@@ -812,7 +812,7 @@ Desetiminutový interval obvykle poskytuje dostatek času na to, aby se vítězn
 
 
 
-*"Hashrate*" označuje množství výpočtů hash za sekundu, ať už je provede jeden těžař, skupina těžařů nebo všichni těžaři v Bitcoin. Vyjadřuje se v `H/s` (hashe za sekundu) s násobky jako `TH/s` (terahashe za sekundu) nebo `EH/s` (exahashe za sekundu). Představuje počet pokusů, které mohou těžaři každou sekundu provést, aby se pokusili získat hash nižší než cílový.
+*"[Hashrate](https://planb.academy/resources/glossary/hashrate)*" označuje množství výpočtů hash za sekundu, ať už je provede jeden těžař, skupina těžařů nebo všichni těžaři v Bitcoin. Vyjadřuje se v `H/s` (hashe za sekundu) s násobky jako `TH/s` (terahashe za sekundu) nebo `EH/s` (exahashe za sekundu). Představuje počet pokusů, které mohou těžaři každou sekundu provést, aby se pokusili získat hash nižší než cílový.
 
 
 
@@ -887,7 +887,7 @@ Tn = To * (Ta / 1 209 600)
 
 
 
-Abychom pochopili, jak upravit obtížnost Bitcoin mining, uvádíme příklad s fiktivními hodnotami:
+Abychom pochopili, jak [upravit obtížnost](https://planb.academy/resources/glossary/difficulty-adjustment) Bitcoin mining, uvádíme příklad s fiktivními hodnotami:
 
 
 
@@ -924,6 +924,8 @@ U této úpravy je třeba upozornit na jeden důležitý detail: **je omezena**.
 
 
 
+Všimněme si také, že ve skutečnosti není úprava obtížnosti Bitcoinu dokonale přesná. Viděli jsme totiž, že je plánováno přepočítávání obtížnosti každých 2016 bloků, a to porovnáním skutečného uplynulého času s cílovým časem 14 dní (2016 × 10 minut). Původní Satoshiho kód však obsahuje chybu zvanou "*off-by-one*": místo měření času mezi posledními bloky každého období (tedy 2016 intervalů) měří čas mezi prvním a posledním blokem, což je pouze 2015 intervalů. Konkrétně se obtížnost vypočítává, jako by období obsahovalo pouze 2015 bloků namísto 2016. Důsledkem je, že obtížnost je systematicky velmi mírně nadhodnocena, což znamená, že bloky jsou těženy v průměru o něco pomaleji než cílových 10 minut (přibližně o 0,05 % pomaleji). Tato chyba je dobře známá, ale nikdy nebyla opravena, protože její změna by vyžadovala hard fork a její dopad zůstává v praxi zanedbatelný, s výjimkou teoretického útoku zvaného "*time warp*".
+
 ### Cílové zastoupení
 
 
@@ -959,7 +961,7 @@ Tato logika vychází z teorie her: protokol činí poctivost racionální. Tě�
 
 
 
-Za tímto účelem protokol Bitcoin stanoví, že těžař, který najde platný blok, získává právo na zařazení určité transakce do něj, za což těžař obdrží určitou částku BTC. Tato odměna se nazývá **odměna za blok**. V této první kapitole této části je cílem pochopit, z čeho se skládá a jak se určuje. Později se podíváme, jak se část tvorby peněz vyvíjí v čase (pomocí haléřů) a jak se vlastně technicky inkasuje (prostřednictvím transakce na coinbase).
+Za tímto účelem protokol Bitcoin stanoví, že těžař, který najde platný blok, získává právo na zařazení určité transakce do něj, za což těžař obdrží určitou částku BTC. Tato odměna se nazývá **[odměna za blok](https://planb.academy/resources/glossary/block-reward)**. V této první kapitole této části je cílem pochopit, z čeho se skládá a jak se určuje. Později se podíváme, jak se část tvorby peněz vyvíjí v čase (pomocí haléřů) a jak se vlastně technicky inkasuje (prostřednictvím transakce na coinbase).
 
 
 
@@ -976,7 +978,7 @@ Právě tato událost (skutečné přidání bloku do blockchainu) je spouštěc
 
 
 
-- bloková dotace**;
+- [bloková dotace](https://planb.academy/resources/glossary/block-subsidy)**;
 - transakční poplatky**.
 
 
@@ -1091,7 +1093,7 @@ Dvě transakce tedy mohou platit stejnou výši poplatků v absolutním vyjádř
 
 
 
-Proto v praxi vyjadřujeme konkurenceschopnost transakce pomocí poměru poplatků, obvykle v `sats/vB` (satoshi za virtuální bajt). Výpočet tohoto poměru je jednoduchý:
+Proto v praxi vyjadřujeme konkurenceschopnost transakce pomocí poměru poplatků, obvykle v `sats/vB` ([satoshi](https://planb.academy/resources/glossary/satoshi-sat) za virtuální bajt). Výpočet tohoto poměru je jednoduchý:
 
 
 
@@ -1142,7 +1144,7 @@ V příští kapitole se podrobněji zaměříme na blokovou dotaci, abychom př
 
 
 
-V předchozí kapitole jsme viděli, že těžaři, kteří vytvoří platný blok, obdrží odměnu, která se skládá z poplatků za transakce zahrnuté v bloku a z blokové dotace. Zatím jsme však nevysvětlili, jak se výše této dotace určuje. Mechanismus, který tuto hodnotu stanovuje a vyvíjí, je známý jako ***halving***.
+V předchozí kapitole jsme viděli, že těžaři, kteří vytvoří platný blok, obdrží odměnu, která se skládá z poplatků za transakce zahrnuté v bloku a z blokové dotace. Zatím jsme však nevysvětlili, jak se výše této dotace určuje. Mechanismus, který tuto hodnotu stanovuje a vyvíjí, je známý jako ***[halving](https://planb.academy/resources/glossary/halving)***.
 
 
 
@@ -1251,7 +1253,7 @@ Hlavní důvod je mechanický. Postupnými půleními bloková dotace nakonec kl
 
 
 
-Kromě toho se k tomu mohou přidat i okrajové odchylky související s protokolem. Ve vzácných případech se například může stát, že někteří těžaři nepožádají o plnou dotaci, což definitivně sníží množství skutečně vydaných bitcoinů. Můžeme také zmínit blok genesis, vytvořený 3. ledna 2009 Satoshi, jehož vytvořené bitcoiny nejsou součástí UTXO set, a také některé historické události spojené s chybami, jako jsou duplicitní identifikátory transakcí coinbase.
+Kromě toho se k tomu mohou přidat i okrajové odchylky související s protokolem. Ve vzácných případech se například může stát, že někteří těžaři nepožádají o plnou dotaci, což definitivně sníží množství skutečně vydaných bitcoinů. Můžeme také zmínit [blok genesis](https://planb.academy/resources/glossary/genesis-block), vytvořený 3. ledna 2009 Satoshi, jehož vytvořené bitcoiny nejsou součástí [UTXO set](https://planb.academy/resources/glossary/utxo-set), a také některé historické události spojené s chybami, jako jsou duplicitní identifikátory transakcí coinbase.
 
 
 
@@ -1295,7 +1297,7 @@ Zůstává však jedna otázka: jakým mechanismem těžař tuto odměnu v Bitco
 
 
 
-Jak jsme viděli v první části kurzu, každý blok Bitcoin obsahuje seznam čekajících transakcí, které bude potvrzovat. Úplně první z nich je vždy transakce na coinbase. Díky ní může vítězný těžař obdržet svou odměnu.
+Jak jsme viděli v první části kurzu, každý blok Bitcoin obsahuje seznam čekajících transakcí, které bude potvrzovat. Úplně první z nich je vždy [transakce na coinbase](https://planb.academy/resources/glossary/coinbase-transaction). Díky ní může vítězný těžař obdržet svou odměnu.
 
 
 
@@ -1303,7 +1305,7 @@ Jak jsme viděli v první části kurzu, každý blok Bitcoin obsahuje seznam č
 
 
 
-Na první pohled vypadá jako klasická transakce Bitcoin: má TXID, výstupy a je zahrnuta do Merkleova stromu bloku. Liší se však v jednom důležitém ohledu: nevynakládá žádné existující prostředky UTXO.
+Na první pohled vypadá jako klasická transakce Bitcoin: má [TXID](https://planb.academy/resources/glossary/txid-transaction-identifier), výstupy a je zahrnuta do Merkleova stromu bloku. Liší se však v jednom důležitém ohledu: nevynakládá žádné existující prostředky UTXO.
 
 
 
@@ -1402,7 +1404,7 @@ Postupem času se transakce na coinbase stala obzvláště vhodným místem pro 
 
 
 
-BIP-34 je soft fork nasazený v březnu 2013, počínaje blokem 227 930, který představil druhou verzi bloků Bitcoin. Tato nová verze vyžaduje, aby každý blok obsahoval v `scriptSig` transakce coinbase výšku vytvářeného bloku.
+[BIP-34](https://planb.academy/resources/glossary/bip0034) je [soft fork](https://planb.academy/resources/glossary/soft-fork) nasazený v březnu 2013, počínaje blokem 227 930, který představil druhou verzi bloků Bitcoin. Tato nová verze vyžaduje, aby každý blok obsahoval v `scriptSig` transakce coinbase výšku vytvářeného bloku.
 
 
 
@@ -1454,7 +1456,7 @@ Z provozních důvodů využívají pooly mining také volné pole `scriptSig` v
 
 
 
-Od roku 2017, kdy byl povolen soft SegWit, byly údaje o svědcích (tj. obecně podpisy) odděleny od kmenových údajů transakcí, a to zejména z důvodu odstranění problému s chybovostí transakcí Bitcoin. Toto oddělení tedy zavádí nový prvek, který má být v bloku odevzdán.
+Od roku 2017, kdy byl povolen soft SegWit, byly údaje o svědcích (tj. obecně podpisy) odděleny od kmenových údajů transakcí, a to zejména z důvodu odstranění problému s [chybovostí transakcí Bitcoin](https://planb.academy/resources/glossary/malleability-transaction). Toto oddělení tedy zavádí nový prvek, který má být v bloku odevzdán.
 
 
 
@@ -1500,7 +1502,7 @@ Tato zpráva, která se nachází v bloku Genesis (úplně první blok bloku Bit
 ### Doba splatnosti
 
 
-Jakmile je blok vytěžen a distribuován, objeví se transakce coinbase v blockchainu jako jakákoli jiná transakce. Pro vítězného těžaře vytvoří UTXO, což mu umožní vyzvednout si odměnu. Tyto UTXO však není možné okamžitě utratit: podléhají době splatnosti. Tato splatnost je stanovena na 100 bloků po bloku obsahujícím coinbase. Konkrétně tedy transakce coinbase musí mít celkem 101 potvrzení, aby se její výstupy staly pro vítězného těžaře utratitelnými.
+Jakmile je blok vytěžen a distribuován, objeví se transakce coinbase v blockchainu jako jakákoli jiná transakce. Pro vítězného těžaře vytvoří UTXO, což mu umožní vyzvednout si odměnu. Tyto UTXO však není možné okamžitě utratit: podléhají [době splatnosti](https://planb.academy/resources/glossary/maturity-period). Tato splatnost je stanovena na 100 bloků po bloku obsahujícím coinbase. Konkrétně tedy transakce coinbase musí mít celkem 101 potvrzení, aby se její výstupy staly pro vítězného těžaře utratitelnými.
 
 
 ![Image](assets/fr/040.webp)
@@ -1615,7 +1617,7 @@ Právě v tomto okamžiku začaly obtíže s mining explodovat. Od poloviny roku
 
 
 
-Mezi érou GPU a moderní érou ASIC nastala přechodná fáze: používání FPGA. FPGA je přeprogramovatelná součástka: lze ji nakonfigurovat tak, aby přímo implementovala logický obvod určený pro konkrétní výpočet, v tomto případě `SHA256d`. Záměrem bylo ještě více se vzdálit od hardwaru pro všeobecné použití (CPU/GPU) a získat tak větší energetickou účinnost. Brzy by se však vylepšení provedená virtuálně na FPGA uplatnila i fyzicky na samotných čipech: to je příchod ASIC.
+Mezi érou GPU a moderní érou [ASIC](https://planb.academy/resources/glossary/asic) nastala přechodná fáze: používání FPGA. FPGA je přeprogramovatelná součástka: lze ji nakonfigurovat tak, aby přímo implementovala logický obvod určený pro konkrétní výpočet, v tomto případě `SHA256d`. Záměrem bylo ještě více se vzdálit od hardwaru pro všeobecné použití (CPU/GPU) a získat tak větší energetickou účinnost. Brzy by se však vylepšení provedená virtuálně na FPGA uplatnila i fyzicky na samotných čipech: to je příchod ASIC.
 
 
 
@@ -1667,7 +1669,7 @@ Izolovaný stroj může těžit, ale seskupením stovek, později tisíců stroj
 
 
 
-Farma mining je ve své nejjednodušší podobě budova (nebo sada kontejnerů) naplněná jednotkami ASIC, které jsou v provozu 24 hodin denně, 7 dní v týdnu. Nyní je úkolem udržet stabilní provozní podmínky:
+[Farma mining](https://planb.academy/resources/glossary/mining-farm) je ve své nejjednodušší podobě budova (nebo sada kontejnerů) naplněná jednotkami ASIC, které jsou v provozu 24 hodin denně, 7 dní v týdnu. Nyní je úkolem udržet stabilní provozní podmínky:
 
 
 
@@ -1724,7 +1726,7 @@ https://planb.academy/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-
 
 
 
-Mining Bitcoin zahrnuje průběžné a nevyhnutelné náklady, mezi nimiž je na prvním místě spotřeba energie stroje. Tyto náklady vznikají nezávisle na jakýchkoli výsledcích, přestože příjmy z mining jsou ze své podstaty vzácné a náhodné. Objevení bloku závisí výhradně na podílu těžaře na hashrate, což činí příjmy tím nepředvídatelnějšími, čím menší je tento podíl. Právě tento praktický problém rychle vedl k rozsáhlému využívání poolů mining. V této závěrečné kapitole kurzu MIN 101 nabízím úvod do principů a fungování poolů mining v Bitcoin.
+Mining Bitcoin zahrnuje průběžné a nevyhnutelné náklady, mezi nimiž je na prvním místě spotřeba energie stroje. Tyto náklady vznikají nezávisle na jakýchkoli výsledcích, přestože příjmy z mining jsou ze své podstaty vzácné a náhodné. Objevení bloku závisí výhradně na podílu těžaře na hashrate, což činí příjmy tím nepředvídatelnějšími, čím menší je tento podíl. Právě tento praktický problém rychle vedl k rozsáhlému využívání [poolů mining](https://planb.academy/resources/glossary/pool-mining). V této závěrečné kapitole kurzu MIN 101 nabízím úvod do principů a fungování poolů mining v Bitcoin.
 
 
 
@@ -1736,7 +1738,7 @@ Pool mining je organizace (často online služba), která sdružuje výpočetní
 
 
 
-Účastníci poolu mining jsou pak často označováni jako "hashers", nikoli jako "miners", protože již neprovádějí veškerou práci s mining, ale pouze hashují data, která jim pool předává.
+Účastníci poolu mining jsou pak často označováni jako "[hashers](https://planb.academy/resources/glossary/hasher)", nikoli jako "miners", protože již neprovádějí veškerou práci s mining, ale pouze hashují data, která jim pool předává.
 
 
 
@@ -1807,7 +1809,7 @@ První bazény vznikly právě jako reakce na tuto novou skutečnost. Braiins Po
 
 
 
-Po technické stránce pak byly pooly strukturovány na základě specializovaných komunikačních protokolů mezi poolem a těžaři (např. Stratum, pak Stratum V2), aby bylo možné efektivně organizovat distribuovanou práci. Na tyto koncepty se blíže podíváme v našem školení MIN 201.
+Po technické stránce pak byly pooly strukturovány na základě specializovaných komunikačních protokolů mezi poolem a těžaři (např. [Stratum](https://planb.academy/resources/glossary/stratum), pak Stratum V2), aby bylo možné efektivně organizovat distribuovanou práci. Na tyto koncepty se blíže podíváme v našem školení MIN 201.
 
 
 

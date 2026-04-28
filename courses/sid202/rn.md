@@ -83,10 +83,10 @@ Ni mwiteguye gutohoza ubushobozi bwa Elements na Liquid Sidechain? Reka dutangur
 :::id ya videwo=eae666b4-eddc-4e00-adea-2a5f94396044:::
 
 
-Elements ni inkomoko yuguruye, urubuga rwa Blockchain rushobora gukoresha Sidechain, rutanga uburyo bwo gukoresha ibintu bikomeye vyateguwe n'abagize umuryango, nka Confidential Transactions na Issued Assets.
+Elements ni inkomoko yuguruye, urubuga rwa [Blockchain](https://planb.academy/resources/glossary/blockchain) rushobora gukoresha Sidechain, rutanga uburyo bwo gukoresha ibintu bikomeye vyateguwe n'abagize umuryango, nka Confidential Transactions na Issued Assets.
 
 
-Elements ni, mu ntumbero yayo, umurongo ushobora gutuma habaho ukwiyumvikana ku bijanye n’amateka y’ibikorwa n’amategeko agenga ukwimurira no kurema ivy’ubutunzi bibitswe muri Blockchain Ledger itangazwa.
+Elements ni, mu ntumbero yayo, umurongo ushobora gutuma habaho [ukwiyumvikana](https://planb.academy/resources/glossary/consensus) ku bijanye n’amateka y’[ibikorwa](https://planb.academy/resources/glossary/transaction-tx) n’amategeko agenga ukwimurira no kurema ivy’ubutunzi bibitswe muri Blockchain Ledger itangazwa.
 
 
 Ibindi bisobanuro ku bijanye na Elements biraboneka bitagoranye ku rubuga rwa Elements Project (https://elementsproject.org/), ku rubuga rwemewe rwa Liquid (https://blog.Liquid.net/), no ku rubuga rw’abahinguzi (https://Liquid.net/devs).
@@ -125,7 +125,7 @@ Elements ni urubuga rwa Blockchain rw’intumbero rusangi rushobora kandi “guf
 #### Amabuye yashizweko umukono
 
 
-Elements ikoresha Strong Federation y’abasinye, bitwa Block Signers, bashira umukono kandi bagahingura amabuye mu buryo bwo kwizigirwa kandi bujanye n’igihe. Ivyo bikuraho igihe c’uguteba kw’ibikorwa vy’ubuhinga bwa PoW Mining, bushobora guhinduka cane mu gihe c’ububiko kubera ugusangira kwavyo kw’ubuhinga bwa poisson. Uburyo bwa Federated block signing bushika ku kurema amabuye yizewe ataco bukeneye kwizigira uwundi muntu canke `algorithme` ishingiye kuri Mining.
+Elements ikoresha Strong Federation y’abasinye, bitwa Block Signers, bashira umukono kandi bagahingura [amabuye](https://planb.academy/resources/glossary/block) mu buryo bwo kwizigirwa kandi bujanye n’igihe. Ivyo bikuraho igihe c’uguteba kw’ibikorwa vy’ubuhinga bwa PoW Mining, bushobora guhinduka cane mu gihe c’ububiko kubera ugusangira kwavyo kw’ubuhinga bwa poisson. Uburyo bwa Federated block signing bushika ku kurema amabuye yizewe ataco bukeneye kwizigira uwundi muntu canke `algorithme` ishingiye kuri Mining.
 
 
 Elements yongerako ivyo vyose hejuru y’urutonde rwa Bitcoin core, igatuma ubushobozi bwa mainchain bugenda neza kandi igatuma habaho ibikorwa bishasha vy’ubudandaji iyo ikoreshejwe nk’umuti wa Sidechain canke nk’umuti wigenga wa Blockchain.
@@ -146,7 +146,7 @@ Elements yongerako ivyo vyose hejuru y’urutonde rwa Bitcoin core, igatuma ubus
 :::id ya videwo=7c8c7981-11e5-47a2-a257-ef998f4892f5::
 
 
-Elements itanga umuti w’ubuhinga ku ngorane abakoresha Blockchain bahura na zo ku musi ku musi; n’uguteba gukora, ukubura ubuzima bwite, n’ingorane zo guhindura ibintu.
+Elements itanga umuti w’ubuhinga ku ngorane abakoresha Blockchain bahura na zo ku musi ku musi; n’uguteba gukora, ukubura ubuzima bwite, n’ingorane zo [guhindura ibintu](https://planb.academy/resources/glossary/fungibility).
 
 
 Elements iranesha izo ngorane biciye mu gukoresha block signing na Confidential Transactions.
@@ -182,7 +182,7 @@ Ibikorwa umunyamuryango wa Strong Federation ashobora gukora bigabanwa hagati y�
 Iyo bihuriwe hamwe, uruhara rw’abo bari muri iyo nama rutuma Elements ishobora gutanga ivyo bibiri, uguhingura amabuye vyihuta (kwemeza ibikorwa vyihuta kandi vy’iherezo) n’itunga ryizewe, rishobora kwimurirwa (itunga ryishizweho rishobora guhuzwa ata guca ku ruhande n’iyindi Blockchain).
 
 
-Ushobora gusoma igitabu cera c'amashirahamwe akomeye hano: https://blockstream.com/amashirahamwe akomeye.pdf
+Ushobora gusoma [igitabu cera](https://planb.academy/resources/glossary/white-paper) c'amashirahamwe akomeye hano: https://blockstream.com/amashirahamwe akomeye.pdf
 
 
 ### Abasinye
@@ -232,7 +232,7 @@ Kugira ngo Sidechain ikore mu buryo bwo kwizigirwa itegerezwa kwemerera abayigiz
 Igikoresho ca Federated 2-Way Peg kiremesha umutungo gukorana n’izindi blockchains kandi kikaba giserukira uwundi mutungo w’akavukire wa Blockchain. Mu gufatanya Blockchain yawe n’iyindi, urashobora kwagura ubushobozi bwa mainchain maze ukanesha bimwe mu biyigora.
 
 
-Ku rugero rwo hejuru, ukwimurira muri Sidechain bishika iyo umuntu yohereje umutungo wa mainchain kuri Address igenzurwa n'umukono mwinshi watchmen Wallet. Ivyo bica bihagarika neza ivy’ubutunzi biri kuri mainchain. watchmen rero yemeza iyo nzira maze igatanga umubare nk'uwo w'umutungo ujana muri Sidechain. Ivyo bintu vyarekuwe birungikwa ku Sidechain Wallet ishobora kwemeza ko umuntu afise uburenganzira ku bintu vy’intango vya mainchain. Iyi nzira ijana neza ivy'ubutunzi kuva ku ruhererekane rw'umuvyeyi bikaja kuri Sidechain.
+Ku rugero rwo hejuru, ukwimurira muri Sidechain bishika iyo umuntu yohereje umutungo wa mainchain kuri Address igenzurwa n'umukono mwinshi watchmen [Wallet](https://planb.academy/resources/glossary/wallet). Ivyo bica bihagarika neza ivy’ubutunzi biri kuri mainchain. watchmen rero yemeza iyo nzira maze igatanga umubare nk'uwo w'umutungo ujana muri Sidechain. Ivyo bintu vyarekuwe birungikwa ku Sidechain Wallet ishobora kwemeza ko umuntu afise uburenganzira ku bintu vy’intango vya mainchain. Iyi nzira ijana neza ivy'ubutunzi kuva ku ruhererekane rw'umuvyeyi bikaja kuri Sidechain.
 
 
 Kugira ngo umuntu ashobore gusubiza umutungo kuri mainchain, akora igikorwa kidasanzwe co gukuraho umutungo kuri Sidechain. Ivyo bicuruzwa bigenzurwa na watchmen hanyuma bagashira umukono ku mafaranga y'ugucuruza avuye kuri Wallet ifise amasinya menshi bagenzura kuri mainchain. Igitigiri c’abazoja muri iyo federasiyo kigomba gusinywa imbere y’uko isoko rya mainchain rigira akamaro. Iyo watchmen yohereje umutungo ugasubira kuri mainchain na yo nyene irasambura umubare uhuye kuri Sidechain, igatuma umutungo urungikwa hagati y’ama blockchains.
@@ -250,7 +250,7 @@ Kugira ngo umuntu ashobore gusubiza umutungo kuri mainchain, akora igikorwa kida
 Kubera ko Elements ishingiye ku rutonde rw’amakode rwa Bitcoin, ibice bigize urubuga rukora birasa cane.
 
 
-Porogaramu y’urudodo rwa Elements ubwayo yitwa `elementsd` kandi ikora nk’iyi daemon ku mashini y’uwuyikoresha. daemon (canke igikorwa muri Windows) ni porogarama ikora nk’igikorwa co mu nyuma idasaba ko uwukoresha yinjiye ayigenzura ata guca ku ruhande.
+Porogaramu y’[urudodo](https://planb.academy/resources/glossary/node) rwa Elements ubwayo yitwa `elementsd` kandi ikora nk’iyi daemon ku mashini y’uwuyikoresha. daemon (canke igikorwa muri Windows) ni porogarama ikora nk’igikorwa co mu nyuma idasaba ko uwukoresha yinjiye ayigenzura ata guca ku ruhande.
 
 
 Iciyumviro: Muri iyi nyandiko yose, tuzokwama tuvuga elementsd nk’uko ari verisiyo ya daemon, ariko vyose vyoshobora gukorwa na Elements-qt, igihe gusa uburyo bwa server bushoboka.
@@ -298,8 +298,8 @@ Bimwe mu bintu bishobora guhindurwa hakoreshejwe ibi bipimo:
 - Itunga rizokoreshwa igihe umuntu ariha amafaranga y’ugucuruza ku rubuga.
 - Aho amadosiye y’amakuru ya Blockchain abikwa.
 - Ivyemezo vya RPC bikoreshwa mu gufatanya n’urudodo rwa Bitcoin.
-- `n ya m` threshold izoshikwako n'imfunguruzo za bose zishobora gusinya amabuye.
-- Inyandiko ikeneye guhazwa kugira ngo umuntu ashobore kwimurira umutungo mu gitabu ca Sidechain.
+- `n ya m` threshold izoshikwako n'[imfunguruzo za bose](https://planb.academy/resources/glossary/public-key) zishobora gusinya amabuye.
+- [Inyandiko](https://planb.academy/resources/glossary/script) ikeneye guhazwa kugira ngo umuntu ashobore kwimurira umutungo mu gitabu ca Sidechain.
 - Nimba wofatanya n’uruzitiro rwa Bitcoin nk’uruzitiro rwa Sidechain canke atarivyo.
 
 
@@ -394,7 +394,7 @@ e2-cli getaddressinfo <address>
 ```
 
 
-Ushobora kubona ko hariho urufunguzo rw'ibanga rutubwira ko ari Confidential Address.
+Ushobora kubona ko hariho [urufunguzo rw'ibanga](https://planb.academy/resources/glossary/private-key) rutubwira ko ari Confidential Address.
 
 
 Urufunguzo rw'ibanga ni Blinding key ya bose, yongerwa kuri Confidential Address ubwayo. Ivyo ni vyo bituma Confidential Address iba ndende cane.
@@ -531,7 +531,7 @@ Itunga ryasohowe na ryo nyene rishobora kwungukira kuri Confidential Transaction
 Intambwe ya mbere ni uko tuzokenera gushika ku nzira zibiri za Elements, tuzozita e1 na e2. Ivyo bihimba vyari vyarasubijwemwo ama blockchains yavyo kandi default asset iragabanywa hagati yavyo.
 
 
-Izo node zibiri ziri ku rubuga rumwe rw’aho hantu, kandi zihuye, rero zisangira ibikorwa bimwe mu bikorwa vyazo Mempool n’ama blockchains asa. Naho zikoresha imashini imwe, birabereye kumenya ko zidasangira amadosiye nyayo ya Blockchain. Buri node icungera kopi yayo y’aho hantu ya Blockchain, irimwo amateka y’ibikorwa bimwe kubera ko zihuriyeko kandi zikurikiza amategeko y’amasezerano nk’aya buri wese.
+Izo node zibiri ziri ku rubuga rumwe rw’aho hantu, kandi zihuye, rero zisangira ibikorwa bimwe mu bikorwa vyazo [Mempool](https://planb.academy/resources/glossary/mempool) n’ama blockchains asa. Naho zikoresha imashini imwe, birabereye kumenya ko zidasangira amadosiye nyayo ya Blockchain. Buri node icungera kopi yayo y’aho hantu ya Blockchain, irimwo amateka y’ibikorwa bimwe kubera ko zihuriyeko kandi zikurikiza amategeko y’amasezerano nk’aya buri wese.
 
 
 Reka dutangure dusuzume ukuntu buri node ibona ivyerekeye amafaranga y’itunga ariho ku rubuga.
@@ -1268,7 +1268,7 @@ e2-cli importprivkey <priv-key-1>
 ```
 
 
-Ubu turakeneye gukura amabuye amwamwe ku minyororo yompi. Ugukura kw'amabuye ni igisabwa mu nzira y'amabuye kuko birinda gusubira gutunganya amabuye ku mainchain bishikana ku gutera imbere kw'amabuye ya pegged asset Supply muri Sidechain.
+Ubu turakeneye gukura amabuye amwamwe ku minyororo yompi. Ugukura kw'amabuye ni igisabwa mu nzira y'amabuye kuko birinda gusubira gutunganya amabuye ku mainchain bishikana ku [gutera imbere](https://planb.academy/resources/glossary/inflation) kw'amabuye ya pegged asset Supply muri Sidechain.
 
 
 Kugira ngo iki gice kigume cibanda kuri federated peg, tuzoba turiko turatanga amabuye tutakoresheje uburyo bwa block signing twaravye mu gice ca nyuma, hanyuma dusubire gukoresha itegeko 'generate' kugira ngo dukore amabuye mashasha.
@@ -1436,7 +1436,7 @@ Muri iki gice twabonye ingene:
 
 
 
-Kugira ngo Elements ikore nka Sidechain, igice ca Genesis kiri muri Blockchain yayo kigomba kuremwa gifise `fedpegscript` mu kibanza. Ivyo bikorwa mu guca mu `fedpegscript` ku gutangura kw'uruzitiro. Ico canditswe kizoca kiba igice c’amategeko y’ubumwe ya Elements Blockchain kandi kizotuma ibisabwa vyo gushiramwo n’ugusohoka vyemezwa no gukorwa.
+Kugira ngo Elements ikore nka Sidechain, igice ca [Genesis](https://planb.academy/resources/glossary/genesis-block) kiri muri Blockchain yayo kigomba kuremwa gifise `fedpegscript` mu kibanza. Ivyo bikorwa mu guca mu `fedpegscript` ku gutangura kw'uruzitiro. Ico canditswe kizoca kiba igice c’amategeko y’ubumwe ya Elements Blockchain kandi kizotuma ibisabwa vyo gushiramwo n’ugusohoka vyemezwa no gukorwa.
 
 
 `Fedpegscript` igizwe n'imfunguruzo za bose zigenzurwa n'abafise uburenganzira bwo gukora ibikorwa vy'ivyuma. Ibi bikurikira vyerekana akarorero k'uburyo bw'inyandiko 2-ku-2 y'imikono myinshi:

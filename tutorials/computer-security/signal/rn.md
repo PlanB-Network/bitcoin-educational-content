@@ -6,11 +6,11 @@ description: Serura ivyo wiyumvira ataco widegemvya
 
 
 
-Signal ni porogaramu y’ubutumwa bushingiye ku mpera ku mpera, yagenewe gutanga ubuzima bwite bwiza ku buryo busanzwe. Ubutumwa bwose, uguhamagara kwose n’idosiye yose birindwa n’umurongo wa Signal, wemewe nk’umwe mu mirongo ngenderwako y’ubutumwa ikomeye cane. Isubira gukoreshwa n’izindi porogarama nyinshi, harimwo WathsApp, ubutumwa bwa Facebook, Skype n’ubutumwa bwa Google ku bijanye n’itumanaho rya RCS.
+Signal ni porogarama yo gutanga ubutumwa bufise amakuru y’iherezo, yagenewe gutanga ubuzima bwite bwiza ku buryo busanzwe. Ubutumwa bwose, uguhamagara kwose n’idosiye yose birindwa n’umurongo wa Signal, wemewe nk’umwe mu mirongo ngenderwako y’ubutumwa ikomeye cane. Isubira gukoreshwa n’izindi porogarama nyinshi, harimwo WathsApp, ubutumwa bwa Facebook, Skype n’ubutumwa bwa Google ku bijanye n’itumanaho rya RCS.
 
 
 
-Signal yatangujwe mu mwaka w’2014 na Moxie Marlinspike (izina ry’uruyeri) ikaba yateguwe kuva mu mwaka w’2018 n’ishirahamwe Signal Foundation, ishirahamwe ritagira inyungu ryashinzwe rishigikiwe na Brian Acton (uwashinze WhatsApp).
+Signal yatangujwe mu mwaka w’2014 na Moxie Marlinspike (izina ry’uruyeri) ikaba yatangujwe kuva mu mwaka w’2018 n’ishirahamwe Signal Foundation, ishirahamwe ritagira inyungu ryashinzwe rishigikiwe na Brian Acton (uwashinze WhatsApp).
 
 
 
@@ -51,7 +51,7 @@ Ariko rero, Signal yizigira gukoresha inomero ya telefone, ari yo ntege nke yayo
 
 
 
-## Gushiramwo porogaramu y'ikimenyetso
+## Shiraho porogaramu ya Signal
 
 
 
@@ -77,7 +77,7 @@ Muri iyi nyigisho, tuzokwibanda ku bijanye n’ivyo gukoresha telefone ngendanwa
 
 
 
-Iyo ufunguye porogaramu ku ncuro ya mbere, ukande kuri buto ya "*Continue*".
+Iyo ufunguye porogarama ku ncuro ya mbere, ukande kuri buto ya "*Continue*".
 
 
 
@@ -117,7 +117,7 @@ Wemeze iyi kode ya PIN ubugira kabiri.
 
 
 
-Ubu ushobora guhindura urutonde rw'abakoresha bawe. Hitamwo ifoto, winjize izina ryawe canke izina ry’akataraboneka. Kuri iyi ntambwe, urashobora kandi gusobanura uwushobora kugusanga kuri Signal biciye ku nimero yawe. Hitamwo "*Bose*" nimba ushaka ko aboneka, canke "*Nta n'umwe*" kugira ngo ugume udashobora gukurikirana biciye ku nimero ya telefone (ushobora rero kwongerwako gusa n'"*Izina ry'ukoresha*" ryawe). Umaze guhitamwo, ukande kuri "*Ibikurikira*".
+Ubu ushobora guhindura urutonde rw'abakoresha bawe. Hitamwo ifoto, winjize izina ryawe canke izina ry’akataraboneka. Muri iyi ntambwe, urashobora kandi gusobanura uwushobora kugusanga kuri Signal biciye ku nimero yawe. Hitamwo "*Bose*" nimba ushaka kuboneka, canke "*Nta n'umwe*" kugira ngo ugume udashobora gukurikirana biciye ku nimero ya telefone (ushobora rero kwongerwako gusa n'"*Izina ry'ukoresha*" ryawe). Umaze guhitamwo, ukande kuri "*Ibikurikira*".
 
 
 
@@ -125,7 +125,7 @@ Ubu ushobora guhindura urutonde rw'abakoresha bawe. Hitamwo ifoto, winjize izina
 
 
 
-Ubu uhuye na Signal kandi witeguriye ubutumwa bwa Exchange.
+Ubu rero warahuye na Signal kandi witeguye guhana ubutumwa.
 
 
 
@@ -133,7 +133,7 @@ Ubu uhuye na Signal kandi witeguriye ubutumwa bwa Exchange.
 
 
 
-## Gutegura konti yawe y'ikimenyetso
+## Gutegura konti yawe ya Signal
 
 
 
@@ -153,7 +153,7 @@ Fyonda ku foto yawe iri hejuru ibubamfu kugira ngo ubone amaparametere y’iporo
 
 
 
-Usubiye gukanda ku ifoto yawe y’ibanga mu ma settings bizokujana ku mahitamwo yo guhindura urutonde rwawe. Ndagusavye ko woshiraho "*Username*": ivyo bizotuma ushobora gukorana n'abandi bantu utagaragaje inomero yawe ya telefone.
+Usubiye gukanda kw’ifoto yawe mu ma settings bizokujana ku mahitamwo yo guhindura urutonde rwawe. Ndagusavye ko woshiraho "*Username*": ivyo bizotuma ushobora gukorana n'abandi bantu utagaragaje inomero yawe ya telefone.
 
 
 
@@ -169,7 +169,7 @@ Uhisemwo "*QR code canke link*", uzoronka amakuru ukeneye gusangira n'umuntu ash
 
 
 
-Igitabu ca "*Ibanga*" ni co gihambaye cane. Aha uzosanga uburyo bwo kugenzura ukuntu inomero yawe iboneka, gucunga ubutumwa bwawe n’abo uvugana, hamwe n’uburenganzira butandukanye buhabwa ku bijanye n’ivyo usaba.
+Igitabo ca "*Ibanga*" ni co gihambaye cane. Aha uzosanga uburyo bwo kugenzura ukuntu inomero yawe iboneka, gucunga ubutumwa bwawe n’abo uvugana, hamwe n’uburenganzira butandukanye buhabwa ku bijanye n’ivyo usaba.
 
 
 
@@ -217,11 +217,11 @@ Ivyombo vyawe ubu birahuye neza.
 
 
 
-## Kwohereza ubutumwa n'ikimenyetso
+## Kurungika ubutumwa na Signal
 
 
 
-Kugira ngo uvugane n’umuntu kuri Signal, ubanza kumushiramwo nk’umuntu wovugana nawe. Hariho uburyo bwinshi: ushobora kuzokwongerako biciye ku nimero yabo ya telefone (niba uwo muntu yakoresheje uburyo bwo kuronka umuntu muri ubwo buryo), canke ukoreshe Signal ID yiwe.
+Kugira ngo uvugane n’umuntu kuri Signal, ubanza kumushiramwo nk’umuntu wovugana nawe. Hariho uburyo bwinshi: ushobora kuzokwongerako biciye ku nimero yabo ya telefone (niba uwo muntu yashizeho uburyo bwo kuronka ukoresheje ubwo buryo), canke ukoreshe indangamuntu yiwe ya Signal.
 
 
 
@@ -265,11 +265,11 @@ Ico kiyago kizoca kiboneka kuri paji y’intango. Iyo uwo muntu yemeye ivyo usav
 
 
 
-Urasangwa, ubu uriko urakoresha ubutumwa bwa Signal, uburyo bwiza bwo gukoresha WathsApp! Niba wabonye iyi nyigisho ari ngirakamaro, noshima cane iyo usiga urukumu rwa Green aha hepfo. Ntutinye gusangira iyi nyigisho ku mbuga zanyu zo guhanahana amakuru. Murakoze cane!
+Urasangwa, ubu uriko urakoresha ubutumwa bwa Signal, uburyo bwiza bwo gukoresha WathsApp! Niwaba wabonye ko iyi nyigisho ari ngirakamaro, noshima cane iyo usiga urukumu rw’icatsi kibisi aha hepfo. Ntutinye gusangiza abandi iyi nyigisho ku mbuga zanyu zo guhanahana amakuru. Murakoze cane!
 
 
 
-Ndababwira kandi iyi nyigisho, aho ndabamenyesha Proton Mail, uburyo bwo gukoresha ubuzima bwite kuruta Gmail:
+Ndababwira kandi iyi yindi nyigisho, aho ndabamenyesha Proton Mail, uburyo bwo gukoresha ubuzima bwite kuruta Gmail:
 
 
 

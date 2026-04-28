@@ -1,9 +1,9 @@
-question: Lightning Network đang góp phần định hình tương lai của thương mại trực tuyến và dịch vụ kỹ thuật số như thế nào?
-answer: Bằng cách cho phép thực hiện các giao dịch nhỏ tức thời, không cần xin phép và không gây cản trở, mở ra các mô hình kinh doanh và nguồn doanh thu mới.
+question: Lightning Network đang góp phần định hình tương lai của thương mại trực tuyến và các dịch vụ kỹ thuật số như thế nào?
+answer: Bằng cách cho phép thực hiện các giao dịch nhỏ tức thời, không cần cấp phép và không gây cản trở, mở ra nguồn doanh thu từ các mô hình kinh doanh mới.
 wrong_answers:
   - Bằng cách ngăn chặn mọi mô hình kinh doanh mới xuất hiện trực tuyến.
   - Bằng cách yêu cầu các thương gia sử dụng phương thức thanh toán chậm và tốn kém như trước đây.
   - Bằng cách khiến hàng hóa kỹ thuật số không thể bán được do phí cao.
 explanation: |
-  Khả năng gửi các lượng giá trị nhỏ ngay lập tức và với chi phí thấp của Lightning khuyến khích sự đổi mới trong các lĩnh vực như nội dung trả tiền khi sử dụng, thanh toán trực tuyến và giao dịch máy-máy, có khả năng chuyển đổi cách kiếm tiền từ các dịch vụ trực tuyến.
+  Có khả năng giao dịch với lượng giá trị nhỏ lẻ và ngay lập tức với chi phí thấp của Lightning khuyến khích sự đổi mới trong các lĩnh vực như trả tiền khi tiêu thụ nội dung trên mạng, thanh toán trực tuyến và giao dịch giữa máy móc, có khả năng chuyển đổi cách kiếm thu nhập từ các dịch vụ trực tuyến.
 reviewed: true

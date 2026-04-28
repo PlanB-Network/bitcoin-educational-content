@@ -6,4 +6,4 @@ wrong_answers:
   - Sebuah lapangan yang menggunakan vektor acak
 explanation: |
   Sebuah lapangan prima mengandung jumlah elemen yang sama dengan bilangan prima, menjadikannya lapangan dasar untuk operasi kriptografi.
-reviewed: false
+reviewed: true

@@ -1,0 +1,8 @@
+question: According to Austrian monetary theory, what is the main difference between money and other economic goods in terms of how they are used?
+answer: Money is not consumed in its use, but serves as an intermediary for exchange
+wrong_answers:
+  - Money is produced solely by state institutions, unlike other goods
+  - Money has an intrinsic value superior to all other goods on the market
+  - Money is consumed faster than other goods in transactions
+explanation: |
+  Rothbard points out that, unlike consumer or capital goods, money is not consumed in its use. Its specific function is to act as an exchange intermediary, enabling goods and services to circulate between individuals. This unique characteristic fundamentally distinguishes money from other economic goods, which are either consumed or used in production.

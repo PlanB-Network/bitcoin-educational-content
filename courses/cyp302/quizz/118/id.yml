@@ -6,3 +6,4 @@ wrong_answers:
   - Ini membagi teks asli menjadi blok 128-bit
 explanation: |
   Operasi substitusi byte (S-Box) dalam AES memperkenalkan kebingungan dengan menggantikan setiap byte dengan nilai yang berbeda menurut sebuah tabel, membuat teks yang dienkripsi lebih sulit untuk dianalisis.
+reviewed: true

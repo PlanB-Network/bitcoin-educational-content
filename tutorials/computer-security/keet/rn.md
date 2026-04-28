@@ -6,11 +6,11 @@ description: Ibiganiro vy'urunganwe
 
 
 
-Keet ni porogaramu yo gutanga ubutumwa buca ikora ata serveri. Yatangujwe mu mwaka w’2022 na Holepunch (isosiyete iterwa inkunga na Tether na Bitfinex), iyo porogarama ishingiye ku rubuga rw’abagenzi kandi ifise uburyo bwo kwegereza abantu bose: ubutumwa, amatelefone n’amadosiye birahanahana ataco bimaze hagati y’abakoresha, ata n’umwe abihuza.
+Keet ni porogaramu yo gutanga ubutumwa buca ikora ata serveri. Yatangujwe mu mwaka w’2022 na Holepunch (isosiyete iterwa inkunga na Tether na Bitfinex), iyo porogarama ishingiye gusa ku rubuga rw’abagenzi kandi ifise uburyo bwo kwegereza abantu bose: ubutumwa, amatelefone n’amadosiye birahanahana ataco bimaze hagati y’abakoresha, ata n’umwe abihuza.
 
 
 
-Keet ipfuka ivy’itumanaho vyose kuva ku mpera kugeza ku mpera kandi ntibisaba amakuru y’umuntu ku giti ciwe. Ukwiyandikisha ntikumenyekana, nta nomero ya telefone canke email bisabwa. Uretse guhana ubutumwa, Keet itanga amatelefone y’amasanamu y’agaciro kanini cane, hamwe no gusangira amadosiye ataco amaze. Iryo koraniro rero rishobora gukoreshwa mu buryo buvanze, ku muntu ku giti ciwe no ku muntu akora.
+Keet ipfuka ivy’itumanaho vyose kuva ku mpera kugeza ku mpera kandi ntibisaba amakuru y’umuntu ku giti ciwe. Ukwiyandikisha ntikumenyekana, nta nomero ya telefone canke email bisabwa. Uretse guhana ubutumwa, Keet itanga amatelefone y’amasanamu y’agaciro kanini cane, hamwe no gusangira amadosiye ataco amaze. Iryo koraniro rero rishobora gukoreshwa mu buryo buvanze, ku muntu ku giti ciwe no ku kazi.
 
 
 
@@ -47,17 +47,17 @@ Muri iki gihe (Myandagaro 2025), Keet ntabwo ari inkomoko yuguruye yose. Bimwe m
 
 
 
-## Shiraho Keet
+## Gushiramwo Keet
 
 
 
-Keet iraboneka ku mbuga zose. Ushobora gukuraho iyo porogaramu mu bubiko bwa porogaramu bwo kuri telefone yawe:
+Keet iraboneka ku mbuga zose. Ushobora gukura iyo porogaramu mu bubiko bwa porogaramu bwa telefone yawe:
 
 
 
 
-- [Ikiganiro ca Google](Ibisobanuro?id=io.keet.iporogaramu&pli=1);
-- [Iduka ry’Iporogarama](iporogarama.
+- [Ikiganiro ca Google](https://igikino.google.com/ububiko/iporogaramu/ibisobanuro?id=io.keet.iporogaramu&pli=1);
+- [Iduka ry’Iporogarama](iporogarama
 
 
 
@@ -121,7 +121,7 @@ Ushobora guhindura urutonde rwawe igihe cose ukoresheje "*Urutonde*".
 
 
 
-Ikintu ca mbere wokora kuri konti yawe nshasha ya Keet ni ukuzigama ijambo ryawe ryo gusubirana. Iyi ni urutonde rw’amajambo 24 azotuma ushobora gusubira gukoresha konti yawe iyo utakaje canke uhinduye igikoresho. Iri jambo ritanga uburenganzira bwo gukoresha konti yawe ku muntu wese ayizi, ni ngombwa rero ko ukora backup yizigirwa kandi ntuzokwigere uyitangaza.
+Ikintu ca mbere wokora kuri konti yawe nshasha ya Keet ni ukuzigama ijambo ryawe ryo gusubirana. Iyi ni urutonde rw’amajambo 24 azogufasha gusubira gukoresha konti yawe iyo utakaje canke uhinduye igikoresho. Iri jambo ritanga uburenganzira bwo gukoresha konti yawe ku muntu wese ayizi, ni ngombwa rero ko ukora backup yizigirwa kandi ntuzokwigere uyitangaza.
 
 
 
@@ -165,7 +165,7 @@ Kanda kuri buto ya "*Reba ijambo*" kugira ngo ugaragaze ijambo ryawe ryo gusubir
 
 
 
-## Kwohereza ubutumwa na Keet
+## Kurungika ubutumwa na Keet
 
 
 
@@ -201,7 +201,7 @@ Hitamwo izina n'insobanuro y'"*Icumba*" cawe, hanyuma ukande kuri "*Rema ikigani
 
 
 
-Sigura uburenganzira uha abanywanyi bashasha biciye ku nzira y’ubutumire, hamwe n’igihe iyo nzira imara. Hanyuma ukande kuri "*generate ubutumire*".
+Sigura uburenganzira uha abanywanyi bashasha biciye ku nzira y’ubutumire, hamwe n’igihe iyo nzira imara. Hanyuma ukande kuri "*gutanga ubutumire*".
 
 
 
@@ -209,7 +209,7 @@ Sigura uburenganzira uha abanywanyi bashasha biciye ku nzira y’ubutumire, hamw
 
 
 
-Keet azo generate urubuga rwo kwinjira mu "*Icumba*" cawe. Ushobora kuyikopa ukayisangiza abandi, canke ugatuma abantu wipfuza gutumira bafata kode yayo ya QR.
+Keet izotanga uruja n'uruza rwo kwinjira mu "*Icumba*" cawe. Ushobora kuyikopa ukayisangiza abandi, canke ugatuma abantu wipfuza gutumira bafata kode yayo ya QR.
 
 
 
@@ -253,7 +253,7 @@ Igihe DM request yemerewe, uzosanga uwo muntu kuri page y’intango, aho ushobor
 
 
 
-Ubu ko uzi gukoresha Keet kandi ufise konti, urashobora no kuyihuza n’ikindi gikoresho, nka orodinateri. Kugira ngo ubikore, fungura porogarama kuri telefone yawe, hanyuma ukande kuri "*Profile*" maze ushike kuri "*Settings*".
+Ubu ko uzi gukoresha Keet kandi ukaba ufise konti, urashobora no kuyihuza n’ikindi gikoresho, nka orodinateri. Kugira ngo ubikore, fungura porogarama kuri telefone yawe, hanyuma ukande kuri "*Profile*" maze ushike kuri "*Settings*".
 
 
 
@@ -269,7 +269,7 @@ Hanyuma ugende kuri "*Ibikoresho vyanje*".
 
 
 
-Fyonda kuri "*Ongera igikoresho*". Keet azo generate uruja n’uruza kugira ngo ukoreshe igikoresho gishasha. Kopa iyi nzira.
+Fyonda kuri "*Ongera igikoresho*". Keet izotanga uruja n’uruza rwo gukorana n’igikoresho gishasha. Kopa iyi nzira.
 
 
 
@@ -325,11 +325,11 @@ Ubu ushobora gushika ku "*Icumba*" cawe cose n'ibiyago vyose ukoresheje iki giko
 
 
 
-Urasangwa, ubu uriko urakoresha ubutumwa bwa Keet, uburyo bwiza bwo gukoresha WathsApp! Niwaba wabonye ko iyi nyigisho ari ngirakamaro, noshima cane iyo usiga urukumu rwa Green aha hepfo. Ntutinye gusangiza abandi iyi nyigisho ku mbuga zanyu zo guhanahana amakuru. Murakoze cane!
+Urasangwa, ubu uriko urakoresha ubutumwa bwa Keet, uburyo bwiza bwo gukoresha WathsApp! Niwaba wabonye ko iyi nyigisho ari ngirakamaro, noshima cane iyo usiga urukumu rw’icatsi kibisi aha hepfo. Ntutinye gusangiza abandi iyi nyigisho ku mbuga zanyu zo guhanahana amakuru. Murakoze cane!
 
 
 
-Ndababwira kandi iyi nyigisho, aho ndabamenyesha Proton Mail, uburyo bwo gukoresha ubuzima bwite kuruta Gmail:
+Ndababwira kandi iyi yindi nyigisho, aho ndabamenyesha Proton Mail, uburyo bwo gukoresha ubuzima bwite kuruta Gmail:
 
 
 

@@ -33,8 +33,6 @@ Of je nu een klein onderneming vertegenwoordigt of een groot bedrijf, deze cursu
 
 Klaar om in de wereld van Bitcoin voor bedrijven te duiken? Let's go!
 
-**N.B.**: Als u tijdens de cursus onbekende termen tegenkomt, raadpleeg dan [de woordenlijst](https://planb.academy/resources/glossary) voor definities.
-
 # Valuta, betalingssystemen en Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>
@@ -65,7 +63,7 @@ Een goede valuta bezit een aantal essentiële eigenschappen die het effectief ma
 
 - **Veilig**: Een betaalmiddel moet beschermd zijn tegen diefstal of ongeautoriseerde toegang, zodat gebruikers het met vertrouwen kunnen bewaren en overdragen. Beveiliging is cruciaal voor het opbouwen van vertrouwen in het systeem.
 
-- **Vervalsingsbestendig**: Een valuta moet extreem moeilijk of zelfs onmogelijk te vervalsen zijn. Dit zorgt ervoor dat elke eenheid authentiek is, zijn waarde behoudt en voorkomt inflatie door valse eenheden die in omloop komen. Historisch gezien werd goud bijvoorbeeld niet alleen gewaardeerd om zijn schoonheid en zeldzaamheid, maar ook omdat het uiterst moelijk te produceren is. In tegenstelling tot papieren biljetten of digitale getallen, kun je goud niet zomaar "maken" - het moet uit de aarde worden gedolven. Deze natuurlijke schaarste en moeilijkheid van de productie hebben bijgedragen aan gouds status als betrouwbaar waardeopslagmiddel en maatstaf voor echtheid.
+- **Vervalsingsbestendig**: Een valuta moet extreem moeilijk of zelfs onmogelijk te vervalsen zijn. Dit zorgt ervoor dat elke eenheid authentiek is, zijn waarde behoudt en voorkomt [inflatie](https://planb.academy/resources/glossary/inflation) door valse eenheden die in omloop komen. Historisch gezien werd goud bijvoorbeeld niet alleen gewaardeerd om zijn schoonheid en zeldzaamheid, maar ook omdat het uiterst moelijk te produceren is. In tegenstelling tot papieren biljetten of digitale getallen, kun je goud niet zomaar "maken" - het moet uit de aarde worden gedolven. Deze natuurlijke schaarste en moeilijkheid van de productie hebben bijgedragen aan gouds status als betrouwbaar waardeopslagmiddel en maatstaf voor echtheid.
 
 - **Schaars**: Een goede valuta moet een beperkte voorraad of een gecontroleerde uitgifte hebben. Schaarste zorgt ervoor dat de waarde over tijd behouden blijft en voorkomt overproductie, wat de koopkracht zou aantasten. Bepaalde indianenstammen gebruikten bijvoorbeeld kralen als betaalmiddel. Aanvankelijk waren deze kralen moeilijk om te produceren, waardoor ze schaars en waardevol bleven. Maar toen Europese handelaren eenmaal begonnen met massaproductie en de markt overspoelden met kralen, verdween hun zeldzaamheid. Doordat het aanbod explodeerde, verloren de kralen hun koopkracht en raakten ze hun functie als betrouwbaar waardeopslagmiddel kwijt.
 
@@ -73,7 +71,7 @@ Een goede valuta bezit een aantal essentiële eigenschappen die het effectief ma
 
 In de moderne tijd zijn valuta volledig toegestaan geworden onder het seigniorage-systeem, wat betekent dat alleen bevoegde entiteiten, zoals centrale banken of schatkamers, munten mogen slaan of bankbiljetten drukken. Individuen mogen wettelijk gezien geen valuta meer produceren, waardoor de uitgifte en het aanbod volledig centraal worden gecontroleerd.
 
-Vandaag de dag wordt dit principe van seigniorage - winst uit de uitgifte van geld - uitgedaagd door Bitcoin, dat functioneert zonder gecentraliseerde controle. Bitcoin is een "permissionless" systeem iedereen kan deelnemen aan het gebruik van de valuta zonder toestemming te hoeven vragen, en via het minen kan bijdragen aan de creatie ervan. Deze decentralisatie haalt het monopolie op geldcreatie weg bij overheden en roept vragen op over mogelijke terugkeer naar concurrerende valuta's binnen een vrije markt.
+Vandaag de dag wordt dit principe van seigniorage - winst uit de uitgifte van geld - uitgedaagd door Bitcoin, dat functioneert zonder gecentraliseerde controle. Bitcoin is een "permissionless" systeem iedereen kan deelnemen aan het gebruik van de valuta zonder toestemming te hoeven vragen, en via het [minen](https://planb.academy/resources/glossary/mining) kan bijdragen aan de creatie ervan. Deze decentralisatie haalt het monopolie op geldcreatie weg bij overheden en roept vragen op over mogelijke terugkeer naar concurrerende valuta's binnen een vrije markt.
 
 - **Rekeneenheid** (unit of account): Een valuta moet een standaard maat bieden om de waarde van goederen en diensten te vergelijken. Dit vereenvoudigt de handel en maakt prijzen transparant en consistent voor alle transacties.
 
@@ -83,7 +81,7 @@ Vandaag de dag wordt dit principe van seigniorage - winst uit de uitgifte van ge
 
 - **Deelbaar**: Een valuta moet opdeelbaar zijn in kleinere eenheden om transacties van verschillende grootte te vergemakkelijken. Deze flexibiliteit zorgt ervoor dat het praktisch en bruikbaar is voor zowel kleine aankopen als grootschalige handel.
 
-- **Fungibel**: Alle eenheden van een valuta moeten onderling uitwisselbaar zijn en dezelfde waarde vertegenwoordigen. Bijvoorbeeld: Een dollarbiljet moet gelijkwaardig zijn aan elk ander dollarbiljet. Deze uniformiteit zorgt voor eerlijkheid en eenvoud in transacties.
+- **[Fungibel](https://planb.academy/resources/glossary/fungibility)**: Alle eenheden van een valuta moeten onderling uitwisselbaar zijn en dezelfde waarde vertegenwoordigen. Bijvoorbeeld: Een dollarbiljet moet gelijkwaardig zijn aan elk ander dollarbiljet. Deze uniformiteit zorgt voor eerlijkheid en eenvoud in transacties.
 
 - **Herkenbaar**: Een munteenheid moet gemakkelijk te herkennen en te vertrouwen zijn. Fysieke valuta bereikt dit door unieke ontwerpen en beveiligingskenmerken, terwijl digitale valuta gebruik maakt van verificatieprotocollen. Dit bevordert brede acceptatie en vermindert het risico op fraude.
 
@@ -107,9 +105,9 @@ Deze moderne geldnetwerken hadden een groot nadeel: een **zwakke controleerbaarh
 
 **Van gecentraliseerde naar gedecentraliseerde geld: vergroting van vertrouwen en soevereiniteit**
 
-Vandaag de dag vormt de opkomst van Bitcoin als gedecentraliseerde valuta de volgende sprong in de ontwikkeling van geldnetwerken. Traditioneel elektronisch geld is afhankelijk van gecentraliseerde autoriteiten, zoals banken of overheden, om transacties te beheren en te verifiëren. Hoewel dit doorgaans effectief werkt, zijn ze kwetsbaar voor inefficiëntie, censuur en single points of failure. Gedecentraliseerde valuta verbeteren deze netwerkeigenschappen door **het vertrouwen te verdelen en tussenpersonen te elimineren**. Dat betekent ook dat geld veel **sneller** en **goedkoper** kan bewegen, omdat er geen autorisatiestappen nodig zijn. En tot slotte: geen mens kan in de verleiding komen om het uitgifteschema van Bitcoin te veranderen - dat is vastgelegd in de software en automatisch afdwingbaar.
+Vandaag de dag vormt de opkomst van Bitcoin als gedecentraliseerde valuta de volgende sprong in de ontwikkeling van geldnetwerken. Traditioneel elektronisch geld is afhankelijk van gecentraliseerde autoriteiten, zoals banken of overheden, om transacties te beheren en te verifiëren. Hoewel dit doorgaans effectief werkt, zijn ze kwetsbaar voor inefficiëntie, censuur en [single points of failure](https://planb.academy/resources/glossary/spof). Gedecentraliseerde valuta verbeteren deze netwerkeigenschappen door **het vertrouwen te [verdelen](https://planb.academy/resources/glossary/distributed) en tussenpersonen te elimineren**. Dat betekent ook dat geld veel **sneller** en **goedkoper** kan bewegen, omdat er geen autorisatiestappen nodig zijn. En tot slotte: geen mens kan in de verleiding komen om het [uitgifteschema](https://planb.academy/resources/glossary/limite-demission) van Bitcoin te veranderen - dat is vastgelegd in de software en automatisch afdwingbaar.
 
-In gedecentraliseerde systemen worden transacties geverifieerd door een wereldwijd netwerk van deelnemers via blockchain-technologie. Dit garandeert veiligheid, transparantie en weerbaarheid. Deze structuur minimaliseert het risico op fraude, vermindert de afhankelijkheid van centrale autoriteiten en geeft individuen meer controle over hun eigen financiën. Door geografische en institutionele barrières weg te nemen, bieden gedecentraliseerde valuta een werkelijk mondiaal en inclusief monetair systeem.
+In gedecentraliseerde systemen worden transacties geverifieerd door een wereldwijd netwerk van deelnemers via [blockchain](https://planb.academy/resources/glossary/blockchain)-technologie. Dit garandeert veiligheid, transparantie en weerbaarheid. Deze structuur minimaliseert het risico op fraude, vermindert de afhankelijkheid van centrale autoriteiten en geeft individuen meer controle over hun eigen financiën. Door geografische en institutionele barrières weg te nemen, bieden gedecentraliseerde valuta een werkelijk mondiaal en inclusief monetair systeem.
 
 **De evolutie van valutanetwerken**
 
@@ -190,13 +188,13 @@ Net zoals we zijn overgestapt van het betalen per minuut voor telefoongesprekken
 
 **WAT IS BITCOIN?**
 
-Bitcoin is een **peer-to-peer digitaal geldwisselsysteem** (elektronisch contact geld). De term "Bitcoin" verwijst naar de volgende componenten:
+Bitcoin is een **[peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) digitaal geldwisselsysteem** (elektronisch contact geld). De term "Bitcoin" verwijst naar de volgende componenten:
 
-- **Een computerprotocol** dat waarde-uitwisseling op het internet mogelijk maakt zonder tussenpersonen, zonder toestemming en pseudoniem. Het maakt gebruik van geavanceerde cryptografische principes.
-- **Een fysiek netwerk** van met het internet verbonden machines (nodes, miners, enz.), beheerd door individuen en bedrijven, dat samen een gedecentraliseerd systeem vormt (zonder centrale autoriteit of centraal controlepunt).
-- **De rekeneenheid** binnen het systeem. Er zullen nooit meer dan 21 miljoen bitcoins bestaan. Elke bitcoin is deelbaar in 100 miljoen eenheden, "satoshis" genoemd, ter ere van de anonieme bedenker.
+- **Een computerprotocol** dat waarde-uitwisseling op het internet mogelijk maakt zonder tussenpersonen, zonder toestemming en pseudoniem. Het maakt gebruik van geavanceerde [cryptografische](https://planb.academy/resources/glossary/cryptography) principes.
+- **Een fysiek netwerk** van met het internet verbonden machines ([nodes](https://planb.academy/resources/glossary/node), [miners](https://planb.academy/resources/glossary/miner), enz.), beheerd door individuen en bedrijven, dat samen een gedecentraliseerd systeem vormt (zonder centrale autoriteit of centraal controlepunt).
+- **De rekeneenheid** binnen het systeem. Er zullen nooit meer dan 21 miljoen bitcoins bestaan. Elke bitcoin is deelbaar in 100 miljoen eenheden, "[satoshis](https://planb.academy/resources/glossary/satoshi-sat)" genoemd, ter ere van de anonieme bedenker.
 
-Samen maken deze componenten van Bitcoin een **toonderactief (bearer asset)** en een digitale valuta **zonder uitgever**. Eigendom wordt uitsluitend beveiligd door het bezit van de **cryptografische privésleutel**, wat volledige controle biedt **zonder tussenpersonen of vertrouwde derden**. Bij overdracht is het eigendom onmiddellijk **definitief**: de nieuwe houder bezit het volledig zonder afhankelijk te zijn van een centrale autoriteit voor bescherming of inwisselbaarheid. Transacties zijn **onveranderlijk** - eenmaal vastgelegd op de blockchain, kunnen ze niet meer worden aangepast of verwijderd.
+Samen maken deze componenten van Bitcoin een **toonderactief (bearer asset)** en een digitale valuta **zonder uitgever**. Eigendom wordt uitsluitend beveiligd door het bezit van de **[cryptografische privésleutel](https://planb.academy/resources/glossary/private-key)**, wat volledige controle biedt **zonder tussenpersonen of vertrouwde derden**. Bij overdracht is het eigendom onmiddellijk **definitief**: de nieuwe houder bezit het volledig zonder afhankelijk te zijn van een centrale autoriteit voor bescherming of inwisselbaarheid. [Transacties](https://planb.academy/resources/glossary/transaction-tx) zijn **onveranderlijk** - eenmaal vastgelegd op de blockchain, kunnen ze niet meer worden aangepast of verwijderd.
 
 ![BIZ101](assets/nl/003.webp)
 
@@ -206,7 +204,7 @@ De technische eigenschappen overtreffen die van goud en de dollar samen, waardoo
 
 ![BIZ101](assets/en/004.webp)
 
-Bitcoin behoudt effectief waarde omdat het grootboek (de ledger) niet te manipuleren is is. De waarde stijgt door het zeldzame en beperkte aanbod in combinatie met het groeiende aantal uitwisselingsmogelijkheden, gedreven door het toenemende aantal gebruikers.
+Bitcoin behoudt effectief waarde omdat het [grootboek](https://planb.academy/resources/glossary/ledger) (de ledger) niet te manipuleren is is. De waarde stijgt door het zeldzame en beperkte aanbod in combinatie met het groeiende aantal uitwisselingsmogelijkheden, gedreven door het toenemende aantal gebruikers.
 
 Bitcoin is ontwrichtend omdat het ons stimuleert om concepten in wiskunde, cryptografie, economie en geschiedenis te leren die we op school nooit hebben meegekregen. Hoewel het vaak als complex wordt gezien, is het in werkelijkheid een innovatie die toegankelijk is door oefening en experimentatie.
 
@@ -216,7 +214,7 @@ Bitcoin daagt ons uit om de aard van geld zelf opnieuw te overdenken. Kun jij ui
 
 - **Leeftijd:** 15 jaar (3 januari 2009)
 - **Dagelijkse uitwisselingswaarde:** $10 miljard (> CAC40)
-- **Marktkapitalisatie:** $1,8 biljoen (> Meta, Visa, Zilver ; < Apple, Google, Goud)
+- **[Marktkapitalisatie](https://planb.academy/resources/glossary/market-cap-capitalization):** $1,8 biljoen (> Meta, Visa, Zilver ; < Apple, Google, Goud)
 - **Gebruikers:** ~100 tot 200 miljoen (1-2% van de wereldbevolking)
 - **Volatiliteit:** Intrinsiek geen (1 Bitcoin = 1 Bitcoin), extern zeer hoog (in fiat-omwisselingen)
 - **Prestaties:** Eerste transactie op $0,0009; nu $100.000 (x100 miljoen)
@@ -225,14 +223,14 @@ Bitcoin daagt ons uit om de aard van geld zelf opnieuw te overdenken. Kun jij ui
 
 **Een wonder van menselijke samenwerking:**
 
-- Volledig **open-source**
+- Volledig **[open-source](https://planb.academy/resources/glossary/foss)**
 - **Rechtspersoon:** Geen
 - **CEO:** Geen
 - **Durfkapitaalinvestering:** Geen
 - **Marketing:** Geen
 - **R&D:** Door vrijwilligers
 - **Bestuur:** Door de gebruikers
-- **Innovatief economisch model:** Blokcreatie wordt gesubsidieerd door transactiekosten (via een veilingsysteem)
+- **Innovatief economisch model:** Blokcreatie wordt [gesubsidieerd](https://planb.academy/resources/glossary/block-subsidy) door [transactiekosten](https://planb.academy/resources/glossary/transaction-fees) (via een veilingsysteem)
 
 Voor meer informatie over Bitcoin, de geschiedenis, de werking en het gebruik ervan, raad ik ook aan deze andere uitgebreide cursus te volgen:
 
@@ -244,17 +242,17 @@ https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 **WAT IS LIGHTNING?
 
-Het Lightning Network is **een protocol en een netwerk** dat Bitcoin transacties mogelijke maakt met minimale interactie met Bitcoin's hoofdblockchain. Zo werkt het:
+Het [Lightning Network](https://planb.academy/resources/glossary/lightning-network) is **een protocol en een netwerk** dat Bitcoin transacties mogelijke maakt met minimale interactie met Bitcoin's hoofdblockchain. Zo werkt het:
 
-- **Initiële opzet:** Gelden worden vastgezet (in escrow) op de hoofdblockchain om een betalingskanaal tussen twee partijen te openen.
+- **Initiële opzet:** Gelden worden vastgezet (in escrow) op de hoofdblockchain om een [betalingskanaal](https://planb.academy/resources/glossary/payment-channel) tussen twee partijen te openen.
 - **Betalingsnetwerk:** Een web van betalingskanalen tussen meerdere partijen vormt een betalingsnetwerk (voor routing en onderlinge connectie).
-- **Off-chain transacties:** Transacties vinden plaats tussen partijen, maar worden **niet onmiddellijk gepubliceerd** op de hoofdblockchain van Bitcoin (**"off-chain"**).
-- **On-chain afwikkeling:** Alleen **het eindsaldo** van de transacties van een kanaal wordt gepubliceerd op de Bitcoin blockchain (**"on-chain**"), waardoor in de tussentijd talrijke transacties kunnen plaatsvinden. Deze bundeling vermindert congestie en verlaagt zo de kosten in vergelijking met vele afzonderlijke on-chain transacties.
+- **[Off-chain](https://planb.academy/resources/glossary/offchain) transacties:** Transacties vinden plaats tussen partijen, maar worden **niet onmiddellijk gepubliceerd** op de hoofdblockchain van Bitcoin (**"off-chain"**).
+- **[On-chain](https://planb.academy/resources/glossary/onchain) afwikkeling:** Alleen **het eindsaldo** van de transacties van een kanaal wordt gepubliceerd op de Bitcoin blockchain (**"on-chain**"), waardoor in de tussentijd talrijke transacties kunnen plaatsvinden. Deze bundeling vermindert congestie en verlaagt zo de kosten in vergelijking met vele afzonderlijke on-chain transacties.
 - **Kanaalsluiting:** Een gebruiker kan op elk moment zijn kanaal sluiten en zijn Bitcoin terugvorderen door de laatste transactiestatus te publiceren. Dit is het principe van transacties die **"publiceerbaar" zijn op elk moment, maar "ongepubliceerd" blijven tot nodig**. Het sluiten van een kanaal kan eenzijdig (door een van de twee partijen op elk moment of in onderling overleg (wat lagere on-chain kosten oplevert).
 
 ![BIZ101](assets/nl/005.webp)
 
-Deze benadering vermijdt de traagheid en complexiteit van het direct uitvoeren van elke transactie op de hoofdblockchain, waarbij alleen eindsaldi worden geregistreerd en de veiligheid behouden blijft. Het Lightning Network is een laag "bovenop" Bitcoin, maar blijft eraan verankerd.
+Deze benadering vermijdt de traagheid en complexiteit van het direct uitvoeren van elke transactie op de hoofdblockchain, waarbij alleen eindsaldi worden geregistreerd en de veiligheid behouden blijft. Het Lightning Network is een [laag](https://planb.academy/resources/glossary/layer) "bovenop" Bitcoin, maar blijft eraan verankerd.
 
 **Een wereldwijd betaalnetwerk**
 Het protocol creëert een **netwerk** van machines waar kanalen een universeel betalingssysteem vormen. Deze nodes ("knooppunten") kunnen vrij worden beheerd door individuen of bedrijven, waardoor het een volledig open netwerk is.
@@ -323,7 +321,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### Een gezond bedrijf
 
-**De toekomst is onzeker** en bedrijven moeten zich door deze onzekerheid navigeren met een duidelijke focus op het maken van winst en het behouden van kapitaal. Volgens de Oostenrijkse economische school is **winst het ultieme signaal van de gezondheid van een bedrijf** - het laat zien dat het bedrijf efficiënt in de behoeften van de consument voorziet. Zonder winst kan een bedrijf zichzelf niet in stand houden, laat staan groeien. Om gezond te blijven, moet een bedrijf niet alleen winst maken, maar ook vooruit denken, **kapitaal bewaren voor toekomstige investeringen en uitdagingen**.
+**De toekomst is onzeker** en bedrijven moeten zich door deze onzekerheid navigeren met een duidelijke focus op het maken van winst en het behouden van kapitaal. Volgens de [Oostenrijkse economische school](https://planb.academy/resources/glossary/austrian-school) is **winst het ultieme signaal van de gezondheid van een bedrijf** - het laat zien dat het bedrijf efficiënt in de behoeften van de consument voorziet. Zonder winst kan een bedrijf zichzelf niet in stand houden, laat staan groeien. Om gezond te blijven, moet een bedrijf niet alleen winst maken, maar ook vooruit denken, **kapitaal bewaren voor toekomstige investeringen en uitdagingen**.
 
 **Kapitaalbehoud** is essentieel omdat het bedrijven in staat stelt zich aan te passen en kansen aan te grijpen in een onvoorspelbare markt. Dit houdt in dat er een balans moet worden gevonden tussen het herinvesteren van winst om te groeien en het aanhouden van een financiële buffer om potentiële neergangen te doorstaan. De Oostenrijkse school benadrukt het belang van **"tijdsvoorkeur"**, wat betekent dat bedrijven zorgvuldig moeten beslissen hoeveel prioriteit ze geven aan onmiddellijk rendement versus investeren voor succes op lange termijn. Een gezond bedrijf houdt zijn financiële basis sterk en zorgt voor flexibiliteit in zowel goede als slechte tijden.
 
@@ -454,7 +452,7 @@ Laten we snel de omgeving bekijken waarin bedrijven opereren.
 
 **Echte inflatie**: Tot groot ongenoegen van hun mandaat streven centrale banken naar 2% jaarlijkse inflatie, wat een waardeverlies van 40% van de valuta betekent over 20 jaar. Als we daar perioden van meer uitgesproken inflatie aan toevoegen, wordt het duidelijk dat bedrijven geld niet alleen kunnen gebruiken om de vruchten van hun arbeid op te slaan. Ze moeten complexe financiële strategieën implementeren, die noodzakelijkerwijs gepaard gaan met een reeks risico's. Deze strategieën zijn uiteraard **onbereikbaar voor zeer kleine bedrijven**, die al druk bezig zijn met hun kernactiviteiten.
 
-**Verborgen inflatie**: In een op schulden gebaseerd monetair systeem met fractionele reserves dat wordt ondersteund door centrale banken, **groeit de totale geldhoeveelheid gemiddeld met ongeveer 7% per jaar** (bijv. M1 in de Eurozone of de VS). Dit betekent dat jouw "deel van de taart" in slechts een paar jaar tijd gehalveerd wordt - tenzij je bevoorrechte toegang hebt tot de financiële kraan en kunt blijven groeien door je hefboomwerking aan te wenden en snel activa te kopen tegen "oude prijzen" voordat het nieuw gecreëerde geld de waarde ervan omhoog stuwt. Dit is het Cantillon-effect, dat deels de overdracht van rijkdom naar de meer welgestelden verklaart, terwijl "kapitaal" ten onrechte de schuld krijgt (zie onze inleiding over kapitaal hierboven).
+**Verborgen inflatie**: In een op schulden gebaseerd monetair systeem met [fractionele reserves](https://planb.academy/resources/glossary/fractional-reserves) dat wordt ondersteund door centrale banken, **groeit de totale geldhoeveelheid gemiddeld met ongeveer 7% per jaar** (bijv. M1 in de Eurozone of de VS). Dit betekent dat jouw "deel van de taart" in slechts een paar jaar tijd gehalveerd wordt - tenzij je bevoorrechte toegang hebt tot de financiële kraan en kunt blijven groeien door je hefboomwerking aan te wenden en snel activa te kopen tegen "oude prijzen" voordat het nieuw gecreëerde geld de waarde ervan omhoog stuwt. Dit is het Cantillon-effect, dat deels de overdracht van rijkdom naar de meer welgestelden verklaart, terwijl "kapitaal" ten onrechte de schuld krijgt (zie onze inleiding over kapitaal hierboven).
 
 **Tegenpartijrisico's**: Het huidige financiële systeem is riskant en je hebt misschien niet altijd toegang tot "jouw geld". Zonder het beeld van een kaartenhuis op te roepen, moet erkend worden dat financiële instellingen winsten privatiseren en verliezen socialiseren bij de minste crisis. In een systeem van "giraal" geld (geld vastgelegd in een grootboek), is het geld in de bank slechts een "claim"; je bezit het niet echt, en de banken zelf "hebben het niet" (fractionele reserves). Dit geld is in zekere zin echt magisch. Sommige prestigieuze banken die ooit de spot dreven met Bitcoin bestaan vandaag de dag niet meer, zoals Credit Suisse.
 
@@ -519,7 +517,7 @@ De groeiende acceptatie van Bitcoin in de Verenigde Staten beïnvloedt ook de de
 
 Vanuit een puur financieel perspectief wordt Bitcoin erkend als een diversificatie-activum. Het is niet alleen niet gecorreleerd met andere soorten activa, het lijkt ook goed te gedijen tijdens perioden van nieuwe liquiditeitsinjecties - een andere dergelijke episode lijkt aan te breken met de verlaging van de rente door de ECB, de Fed en China.
 
-Samenvattend, voor het meest voorkomende gebruiksscenario - het beleggen van overtollige kasmiddelen voor minstense vier jaar = past Bitcoin perfect. Het is de moeite waard om dit te combineren met een strategie van geleidelijke instap: het investeren van vaste bedragen op regelmatige tijdstippen om het instap- of uitstapmoment te spreiden.
+Samenvattend, voor het meest voorkomende gebruiksscenario - het beleggen van overtollige kasmiddelen voor minstense vier jaar = past Bitcoin perfect. Het is de moeite waard om dit te combineren met een [strategie van geleidelijke instap](https://planb.academy/resources/glossary/dollar-cost-averaging-dca): het investeren van vaste bedragen op regelmatige tijdstippen om het instap- of uitstapmoment te spreiden.
 
 Andere gebruikssituaties maken Bitcoin bijvoorbeeld tot een strategisch treasury bedrijfsmiddel:
 - Het kunnen aanhouden van **onderpand** of liquiditeit, 24/7
@@ -529,7 +527,7 @@ Andere gebruikssituaties maken Bitcoin bijvoorbeeld tot een strategisch treasury
 
 ### Is Bitcoin te duur?
 
-Je hoeft niet precies 1 Bitcoin te kopen, omdat Bitcoin is deelbaar in subeenheden die satoshis worden genoemd, dit benaming is ter ere van de anonieme maker. Eén Bitcoin is gelijk aan **100 miljoen satoshis**, waardoor gebruikers zelfs **zeer kleine fracties van een Bitcoin** kunnen kopen, verkopen of verhandelen. In feite wordt in de broncode van Bitcoin alle transacties bijgehouden in satoshi's, en komt de term "bitcoin" alleen voor in de "coinbase", de speciale transactie die miners aanmaken om hun beloning te ontvangen.
+Je hoeft niet precies 1 Bitcoin te kopen, omdat Bitcoin is deelbaar in subeenheden die satoshis worden genoemd, dit benaming is ter ere van de anonieme maker. Eén Bitcoin is gelijk aan **100 miljoen satoshis**, waardoor gebruikers zelfs **zeer kleine fracties van een Bitcoin** kunnen kopen, verkopen of verhandelen. In feite wordt in de broncode van Bitcoin alle transacties bijgehouden in satoshi's, en komt de term "bitcoin" alleen voor in de "[coinbase](https://planb.academy/resources/glossary/coinbase-transaction)", de speciale transactie die miners aanmaken om hun beloning te ontvangen.
 
 Bovendien kan het totaal van 21 miljoen bitcoins - of **2,1 quadriljoen satoshi's** - efficiënt worden weergegeven door een 64-bits geheel getal. Dit betekent dat, ondanks een hoge prijs per volledige Bitcoin, deze toch toegankelijk blijft voor een breed scala aan investeerders dankzij de deelbaarheid. Je hoeft dus geen hele bitcoin te kopen om deel te nemen aan het netwerk of te investeren in dit digitale activum.
 
@@ -579,7 +577,7 @@ Dit houdt in dat je beloningen verdient met het runnen van mining machines. Voor
 Om meer te weten te komen over de methodes voor mining, kun je [de "mining" sectie in onze tutorials raadplegen](https://planb.academy/tutorials/mining).
 
 - **Bitcoin kopen:**
-Dit is verreweg de meest gebruikelijke methode, die wordt toegepast via peer-to-peer exchanges of, meer gebruikelijk, op gespecialiseerde handelsplatforms. Echt, bij het verwerven van Bitcoin als bedrijfsmiddel moeten bedrijven voldoen aan strenge regelgevende normen en KYC-procedures (Know-Your-Customer). Als ze Bitcoin kopen op gespecialiseerde handelsplatformen, moeten bedrijven meestal gedetailleerde bedrijfsinformatie verstrekken, waaronder identificatiedocumenten, financiële overzichten en bewijs van adres, om te voldoen aan KYC- en antiwitwasvereisten (AML).
+Dit is verreweg de meest gebruikelijke methode, die wordt toegepast via peer-to-peer exchanges of, meer gebruikelijk, op gespecialiseerde handelsplatforms. Echt, bij het verwerven van Bitcoin als bedrijfsmiddel moeten bedrijven voldoen aan strenge regelgevende normen en [KYC](https://planb.academy/resources/glossary/kyc-know-your-customer)-procedures (Know-Your-Customer). Als ze Bitcoin kopen op gespecialiseerde handelsplatformen, moeten bedrijven meestal gedetailleerde bedrijfsinformatie verstrekken, waaronder identificatiedocumenten, financiële overzichten en bewijs van adres, om te voldoen aan KYC- en antiwitwasvereisten (AML).
 
 Om te leren hoe u een zakelijke account opent en deze gebruikt om bitcoins te kopen, verkopen en over te dragen, kunt u deze twee tutorials bekijken die speciaal zijn ontworpen voor bedrijven en die de platformen Kraken en Bitfinex in hun bedrijfsversies behandelen:
 
@@ -621,11 +619,11 @@ De vastgoedindustrie herhaalt vaak dat "het altijd het juiste moment is om te ko
 
 Je bezit Bitcoin niet fysiek. In plaats daarvan bezit je een cryptografische sleutel waarmee je het eigenaarschap van sommige of al je rekeneenheden kunt overdragen naar één of meer andere cryptografische sleutels. Dit gebeurt allemaal op de Bitcoin blockchain, die wordt gerepliceerd door tienduizenden knooppunten wereldwijd.
 
-Deze cryptografische sleutel is een extreem groot willekeurig getal. Om de gebruikerservaring te vereenvoudigen, wordt het vaak voorgesteld als een reeks van 12 of 24 woorden. Deze woorden kunnen worden geladen op een fysiek apparaat dat bekend staat als een "hardware wallet" Begrijp echter dat de bitcoins niet "in" dit apparaat zitten; het is slechts een hulpmiddel om transacties cryptografisch te ondertekenen en naar het netwerk te zenden. Waar het echt om gaat zijn de 12 of 24 woorden, die veilig moeten worden bewaard.
+Deze cryptografische sleutel is een extreem groot willekeurig getal. Om de gebruikerservaring te vereenvoudigen, wordt het vaak voorgesteld als een reeks van 12 of 24 woorden. Deze woorden kunnen worden geladen op een fysiek apparaat dat bekend staat als een "[hardware wallet](https://planb.academy/resources/glossary/hardware-wallet)" Begrijp echter dat de bitcoins niet "in" dit apparaat zitten; het is slechts een hulpmiddel om transacties cryptografisch te ondertekenen en naar het netwerk te zenden. Waar het echt om gaat zijn de 12 of 24 woorden, die veilig moeten worden bewaard.
 
 Dit leidt tot de kwestie van bewaring: Bitcoin bezitten betekent de sleutel(s) bezitten. Of je bewaart ze zelf, of je delegeert de taak uit aan een derde partij. Er zijn ook tussenoplossingen. Laten we de meest voorkomende scenario's bekijken:
 
-- **Zelfbehoud:**
+- **[Zelfbehoud](https://planb.academy/resources/glossary/selfcustody):**
 Dit is de optie die wordt aanbevolen door echte Bitcoin enthousiastelingen, omdat het in lijn ligt met het originele ontwerp van de Bitcoin. Je fungeert als je eigen bank: er is geen risico dat een derde partij je bedriegt, maar je bent wel verantwoordelijk voor het beveiligen van de sleutel(s). Je hebt 24/7 volledige toegang tot je geld. In een zakelijke omgeving, waar meerdere mensen transacties moeten uitvoeren, heb je de juiste tools en procedures nodig om de toegang en beveiliging te beheren.
 
 - **Bewaring door derden:**
@@ -636,7 +634,7 @@ Dit zijn traditionele financiële instrumenten die fracties van Bitcoin vertegen
 
 ![BIZ101](assets/nl/014.webp)
 
-Bovendien heeft de vorm waarin je Bitcoin bewaart een grote invloed op de veiligheidsmaatregelen die nodig zijn om je bedrijfsschatkist te beschermen. Of je nu kiest voor self-custody, het gebruik van single-signature of multi-signature hardware wallets, etc. om de directe controle over je sleutels te behouden, of deze taak delegeert aan derde partij bewaardiensten of ETF's, elke optie heeft zijn eigen risicoprofiel. Zelfbewaarneming biedt bijvoorbeeld volledige toegang, maar vereist strenge interne beveiligingsprotocollen, terwijl oplossingen van derden de beheerlast verminderen ten koste van het tegenpartijrisico. Om het onderscheid verder te illustreren, schetst deze grafiek het beveiligingsmodel voor elk bewaartype, zodat je de aanpak kunt kiezen die het beste past bij de behoeften van je organisatie:
+Bovendien heeft de vorm waarin je Bitcoin bewaart een grote invloed op de veiligheidsmaatregelen die nodig zijn om je bedrijfsschatkist te beschermen. Of je nu kiest voor self-custody, het gebruik van single-signature of [multi-signature](https://planb.academy/resources/glossary/multisig) hardware wallets, etc. om de directe controle over je sleutels te behouden, of deze taak delegeert aan derde partij bewaardiensten of ETF's, elke optie heeft zijn eigen risicoprofiel. Zelfbewaarneming biedt bijvoorbeeld volledige toegang, maar vereist strenge interne beveiligingsprotocollen, terwijl oplossingen van derden de beheerlast verminderen ten koste van het tegenpartijrisico. Om het onderscheid verder te illustreren, schetst deze grafiek het beveiligingsmodel voor elk bewaartype, zodat je de aanpak kunt kiezen die het beste past bij de behoeften van je organisatie:
 
 ![BIZ101](assets/nl/015.webp)
 
@@ -791,7 +789,7 @@ In de volgende hoofdstukken gaan we dieper in op elk bedrijfsprofiel en de oplos
 
 <chapterId>7edda53d-5b9f-432a-8493-115de8c94a67</chapterId>
 
-Het Starter-profiel is ontworpen voor bedrijven, makers en individuen die Bitcoin-betalingen willen verkennen zonder veel middelen of expertise in te zetten. Dit zijn meestal mensen die een zeer klein volume aan transacties verwerken (misschien een paar fooien, donaties of af en toe een verkoop) en die een eenvoudige, lichte introductie zoeken in het Bitcoin en Lightning netwerk ecosysteem. De belangrijkste waarde van de Starter-aanpak ligt in de minimale setup: in de meeste gevallen is slechts een smartphone of tablet uitgerust met een Lightning-compatibele wallet nodig.
+Het Starter-profiel is ontworpen voor bedrijven, makers en individuen die Bitcoin-betalingen willen verkennen zonder veel middelen of expertise in te zetten. Dit zijn meestal mensen die een zeer klein volume aan transacties verwerken (misschien een paar fooien, donaties of af en toe een verkoop) en die een eenvoudige, lichte introductie zoeken in het Bitcoin en Lightning netwerk ecosysteem. De belangrijkste waarde van de Starter-aanpak ligt in de minimale setup: in de meeste gevallen is slechts een smartphone of tablet uitgerust met een Lightning-compatibele [wallet](https://planb.academy/resources/glossary/wallet) nodig.
 
 ![BIZ101-profiles](assets/nl/017.webp)
 
@@ -801,7 +799,7 @@ Bij de twee meest voorkomende wallet setups voor het Starter-profiel moet gekoze
 
 ![BIZ101-profiles](assets/nl/018.webp)
 
-Hoewel beveiligingsproblemen minder dringend lijken als het om kleine transacties gaat, is het toch cruciaal om basisbeveiligingsmaatregelen te nemen. Zelfs een enkele smartphone of tablet die wordt gebruikt om Bitcoin betalingen te ontvangen, moet worden vergrendeld met een wachtwoord of biometrische beveiliging, en back-up procedures (variërend van het bijhouden van inloggegevens voor een wallet tot het veiligstellen van een seed-phrase (mnemonische zin) voor een non-custodial (niet-bewarende) wallet) moeten serieus genomen worden. Medewerkers die transacties in een fysieke omgeving afhandelen, zouden er baat bij hebben als ze de basisprincipes kennen: hoe de app te openen, hoe een QR-code aan de klant te presenteren en hoe te controleren of de betaling inderdaad is aangekomen.
+Hoewel beveiligingsproblemen minder dringend lijken als het om kleine transacties gaat, is het toch cruciaal om basisbeveiligingsmaatregelen te nemen. Zelfs een enkele smartphone of tablet die wordt gebruikt om Bitcoin betalingen te ontvangen, moet worden vergrendeld met een wachtwoord of biometrische beveiliging, en back-up procedures (variërend van het bijhouden van inloggegevens voor een wallet tot het veiligstellen van een [seed-phrase](https://planb.academy/resources/glossary/recovery-phrase) (mnemonische zin) voor een non-custodial (niet-bewarende) wallet) moeten serieus genomen worden. Medewerkers die transacties in een fysieke omgeving afhandelen, zouden er baat bij hebben als ze de basisprincipes kennen: hoe de app te openen, hoe een QR-code aan de klant te presenteren en hoe te controleren of de betaling inderdaad is aangekomen.
 
 Boekhouding en rapportage, hoewel relatief eenvoudig onder het starter-profiel, verdienen nog steeds zorgvuldige aandacht. Hoewel de transactievolumes minimaal kunnen zijn, voorkomt het nauwkeurig bijhouden van gegevens verwarring in de toekomst en helpt het om transparantie te kunnen geven in het geval van financiële audits of belastingaangiften. Veel wallet applicaties stellen gebruikers in staat om een basistransactiehistorie als CSV-bestand te exporteren; voor een kleine onderneming of een zelfstandig ondernemer kan het regelmatig opslaan van deze bestanden het afstemmen van rekeningen veel eenvoudiger maken. Het is ook verstandig om de geschatte fiatwaarde bij te houden (bijvoorbeeld in euro's of dollars) op het moment dat elke transactie wordt ontvangen. Omdat de prijs van Bitcoin kan fluctueren, is het bijhouden van de omrekeningskoersen van onschatbare waarde voor de boekhouding en naleving van de belastingwetgeving.
 
@@ -921,7 +919,7 @@ Op deze schaal is het overkoepelende doel niet simpelweg om Bitcoin te acceptere
 
 Binnen een bedrijfscontext wordt de operationele complexiteit nadrukkelijk uitgesproken. Een groot bedrijf moet misschien meerdere afdelingen huisvesten (verkoop, marketing, ontwikkeling, financiën en boekhouding), elk met hun eigen verantwoordelijkheden en gegevensvereisten. In dit scenario moet een Bitcoin betalingsplatform een zeer granulair rollenbeheer bieden, waardoor elke afdeling toegang krijgt tot precies die functies die relevant zijn voor hun taken, met behoud van strenge controle over beveiliging en data-integriteit. Net zo essentieel is de mogelijkheid om workflows aan te passen: inkomende betalingen kunnen bijvoorbeeld updates in voorraadsystemen triggeren, automatische meldingen naar verkoopmanagers sturen en boekingen voor het financiële team bijwerken, en dat alles in realtime. Point-of-sale apparaten zelf worden vaak aangepast aan de bedrijfsomgeving, met aangepaste software-interfaces die passen bij de branding en operationele behoeften van het bedrijf.
 
-**Veiligheid** is van het grootste belang voor ondernemingen op grote schaal. Hoge transactievolumes en potentieel grote bedragen aan Bitcoin vereisen een robuuste infrastructuur die zich kan verdedigen tegen kwaadwillige aanvallen of bedreigingen van binnenuit. Best practices omvatten vaak configuraties met meerdere handtekeningen en tijdsloten, zorgvuldig gecontroleerde codebases en strikte naleving van relevante regelgevende kaders. Bovendien kan het naleven van lokale en internationale financiële regelgeving een integraal onderdeel zijn van het behoud van de reputatie en de legitimiteit van het bedrijf.
+**Veiligheid** is van het grootste belang voor ondernemingen op grote schaal. Hoge transactievolumes en potentieel grote bedragen aan Bitcoin vereisen een robuuste infrastructuur die zich kan verdedigen tegen kwaadwillige aanvallen of bedreigingen van binnenuit. Best practices omvatten vaak configuraties met meerdere handtekeningen en [tijdsloten](https://planb.academy/resources/glossary/timelock), zorgvuldig gecontroleerde codebases en strikte naleving van relevante regelgevende kaders. Bovendien kan het naleven van lokale en internationale financiële regelgeving een integraal onderdeel zijn van het behoud van de reputatie en de legitimiteit van het bedrijf.
 
 De **maatwerkontwikkeling** die komt kijken bij het creëren of integreren van een Bitcoin betaaloplossing voor bedrijven gaat verder dan het coderen van een paar functies van de applicatie. Het vereist meestal een architectonisch ontwerp, grondige testprotocollen en een gestructureerde uitrol die meerdere fasen kan omvatten (eerste pilotprogramma's, beperkte markttests en uiteindelijk wereldwijde uitrol).
 

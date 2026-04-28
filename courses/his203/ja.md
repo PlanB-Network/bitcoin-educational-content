@@ -191,7 +191,7 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 
 
-暗号通貨と権威の関係という問題は、Bitcoinの歴史の中でかなり早く浮上した。2010年12月、ウィキリークスにBitcoinの利用を勧めるPCワールドの記事が掲載された後、Satoshi Nakamotoは表舞台から姿を消した。彼の直感を裏付けるかのように、この記事はBitcoinに大きな注目を集め、その価格はわずか数ヶ月で0.20ドルから32ドルに跳ね上がった。Satoshiは親しい協力者たちと個人的なやりとりを続け、最終的に2011年の春に姿を消した。極めて象徴的なのは、プロジェクトを引き継いだ開発者ギャビン・アンドレセンからの最後のメッセージで、CIAが管理する投資ファンド、In-Q-Telから連絡があったことをBitcoinの作成者に知らせていたことだ。パンドラの箱は本当に開いてしまったのだ。
+[暗号通貨](https://planb.academy/resources/glossary/cryptocurrency)と権威の関係という問題は、Bitcoinの歴史の中でかなり早く浮上した。2010年12月、ウィキリークスにBitcoinの利用を勧めるPCワールドの記事が掲載された後、Satoshi Nakamotoは表舞台から姿を消した。彼の直感を裏付けるかのように、この記事はBitcoinに大きな注目を集め、その価格はわずか数ヶ月で0.20ドルから32ドルに跳ね上がった。Satoshiは親しい協力者たちと個人的なやりとりを続け、最終的に2011年の春に姿を消した。極めて象徴的なのは、プロジェクトを引き継いだ開発者ギャビン・アンドレセンからの最後のメッセージで、CIAが管理する投資ファンド、In-Q-Telから連絡があったことをBitcoinの作成者に知らせていたことだ。パンドラの箱は本当に開いてしまったのだ。
 
 
 
@@ -250,7 +250,7 @@ Satoshi Nakamotoがこの時点で身を引いたのは正しかった。とい�
 
 > 「今、私の目標は変わった。私は経済理論を、人類間の強制と侵略を廃絶する手段として使いたい。奴隷制度がほとんどの国で廃止されたように、私は暴力や強制、そしてある人が他の人を支配するあらゆる形態の力は廃止できると信じています。最も広範で体系的な武力の行使は、組織や政府の間で行われている。しかし、政府を変える最善の方法は、統治される人々の心を変えることである。そのために、私は経済シミュレーションを作成し、武力行使のない世界がどのようなものかを人々に直接体験してもらっている。"
 
-このアイデアはそれほど新しいものではなかった。単なるアゴリスト的なアプローチにとどまらず、サイファーパンクスが経済的自由を行使するために「闇市場」を利用することを意図していたことを示すものであり、ティム・メイの[*Cyphernomicon*](https://ia801307.us.archive.org/7/items/cyphernomicon/cyphernomicon.txt)にも見られるものだった。
+このアイデアはそれほど新しいものではなかった。単なるアゴリスト的なアプローチにとどまらず、[サイファーパンク](https://planb.academy/resources/glossary/cypherpunks)スが経済的自由を行使するために「闇市場」を利用することを意図していたことを示すものであり、ティム・メイの[*Cyphernomicon*](https://ia801307.us.archive.org/7/items/cyphernomicon/cyphernomicon.txt)にも見られるものだった。
 
 
 
@@ -387,7 +387,7 @@ Gawkerの記事によるgeneratedの宣伝を誰もが歓迎したわけでは�
 
 
 
-特に、当時このソフトの開発に携わっていたプログラマーのジェフ・ガージックは、この歓迎されない関連性を薄々感じていた。記事の掲載後、彼は個人的に[連絡](https://www.theatlantic.com/technology/archive/2011/06/libertarian-dream-a-site-where-you-buy-drugs-with-digital-dollars/239776/)Bitcoinは見かけほど匿名性が高くなく、すべての取引はブロックチェーン上に永久に記録される。彼は電子メールの最後をこう締めくくった：
+特に、当時このソフトの開発に携わっていたプログラマーのジェフ・ガージックは、この歓迎されない関連性を薄々感じていた。記事の掲載後、彼は個人的に[連絡](https://www.theatlantic.com/technology/archive/2011/06/libertarian-dream-a-site-where-you-buy-drugs-with-digital-dollars/239776/)Bitcoinは見かけほど匿名性が高くなく、すべての取引は[ブロックチェーン](https://planb.academy/resources/glossary/blockchain)上に永久に記録される。彼は電子メールの最後をこう締めくくった：
 
 
 > "法執行機関が現場で展開している既存の統計分析技術を考えれば、ビットコインで大規模な不正取引を試みることは、かなり間抜けなことだ"
@@ -735,7 +735,7 @@ Mt.Goxハックの最終的な結果は、アカウントにアクセスする�
 
 
 
-この出来事と並行して、ポーランドの Bitomat プラットフォームに大きな問題が発生した。7月26日、管理者はサーバーのリソースを増加させるため、仮想マシンを再起動させ、walletの秘密鍵を含むデータを削除した。損失額は1万7000ビットコイン、当時のレートで約23万5000ドル。取引量は膨大ではなかったが、この取引所はTradeHillとMt.Goxに次ぐ第3位の取引所プラットフォームであったため、この事件は重大であった。
+この出来事と並行して、ポーランドの Bitomat プラットフォームに大きな問題が発生した。7月26日、管理者はサーバーのリソースを増加させるため、仮想マシンを再起動させ、walletの[秘密鍵](https://planb.academy/resources/glossary/private-key)を含むデータを削除した。損失額は1万7000ビットコイン、当時のレートで約23万5000ドル。取引量は膨大ではなかったが、この取引所はTradeHillとMt.Goxに次ぐ第3位の取引所プラットフォームであったため、この事件は重大であった。
 
 
 
@@ -908,7 +908,7 @@ Mt.Goxが初めて問題を起こした6月、ロジャーはマーク・カル�
 
 > 「あの日は私の人生で最も重要な日のひとつだった。何か偉大な真実を発見したような、未来を見たような気分だった。私はそれまでやっていたことをすべてやめて、ウサギの穴に飛び込んだんだ"
 
-彼の動機は主にイデオロギー的なものだった。システムの止められない性質と、計画以上の資金を生み出すことの不可能性に誘惑されたのだ。彼は](https://silverunderground.com/2011/06/bitcoin-the-separation-of-money-and-state/)Bitcoinを「貨幣と国家の分離」の体現とみなした。彼はまた、サミュエル・コンキンによって推進されたアゴリズムの実践に納得し、「Bitcoinはアゴリズムにとって、魚にとってのエラのようなもの」、すなわち不可欠な歯車であると[信じた](https://bitcointalk.org/index.php?topic=34657.msg431717#msg431717)。
+彼の動機は主にイデオロギー的なものだった。システムの止められない性質と、計画以上の資金を生み出すことの不可能性に誘惑されたのだ。彼は](https://silverunderground.com/2011/06/bitcoin-the-separation-of-money-and-state/)Bitcoinを「貨幣と国家の分離」の体現とみなした。彼はまた、サミュエル・コンキンによって推進された[アゴリズム](https://planb.academy/resources/glossary/agorism)の実践に納得し、「Bitcoinはアゴリズムにとって、魚にとってのエラのようなもの」、すなわち不可欠な歯車であると[信じた](https://bitcointalk.org/index.php?topic=34657.msg431717#msg431717)。
 
 
 
@@ -932,7 +932,7 @@ Bitcoinで、アイラ・ミラーは「恐ろしく腐敗した現状に対抗�
 
 
 
-二人はとても仲が良く、互いのスキルを補い合う。8月、エリック・ヴォーヒーズは自分のアイデアを開発するプログラマーを探しており、アイラはそれを引き受けた。それはFeedZeBirds（文字通り "鳥に餌をやる"）という広告プラットフォームで、ユーザーはリツイートを購入することでツイッターのコンテンツを盛り上げることができ、彼らは11月23日に[ローンチ](https://bitcointalk.org/index.php?topic=52638.msg628165#msg628165)した。Bitcoinの検閲耐性と取引手数料の欠如を利用した、疑わしい利用法だった（Twitterは確かにこの種の行為を奨励していなかった）。11月28日、2人のパートナーは製品を宣伝するために*Bitcoinショー*に[出演](https://www.youtube.com/watch?v=VuLAhZsFc1A)した。その後、2人はペイシャス決済プロセッサとCoinapult電子メール送金サービスも開発した。
+二人はとても仲が良く、互いのスキルを補い合う。8月、エリック・ヴォーヒーズは自分のアイデアを開発するプログラマーを探しており、アイラはそれを引き受けた。それはFeedZeBirds（文字通り "鳥に餌をやる"）という広告プラットフォームで、ユーザーはリツイートを購入することでツイッターのコンテンツを盛り上げることができ、彼らは11月23日に[ローンチ](https://bitcointalk.org/index.php?topic=52638.msg628165#msg628165)した。Bitcoinの検閲耐性と[取引手数料](https://planb.academy/resources/glossary/transaction-fees)の欠如を利用した、疑わしい利用法だった（Twitterは確かにこの種の行為を奨励していなかった）。11月28日、2人のパートナーは製品を宣伝するために*Bitcoinショー*に[出演](https://www.youtube.com/watch?v=VuLAhZsFc1A)した。その後、2人はペイシャス決済プロセッサとCoinapult電子メール送金サービスも開発した。
 
 
 
@@ -1234,7 +1234,7 @@ Bitcoinicaは2011年9月8日、17歳の中国人少年、周桐（Zhou Tong）�
 
 
 
-この運動に関与した人物の一人がジェームズ・マッカーシーで、彼はBitcoinのフォーラムで、アニメ映画『デスパイブル・ミー』に登場する同名のキャラクターにちなんでネファリオというペンネームを使っていた。ネファリオは中国に住むアイルランド人で、大学の英語教授として働いていた。彼はオーストリア学派とサイファーパンクの思想に興味を持ち、自分自身を「サイファーパンクのようなもの」だと[宣言](https://web.archive.org/web/20110607050421/http://bitcoinweekly.com/articles/interview-with-nefario-founder-of-bitcoin-global)していた。2010年にBitcoinの存在を[発見](https://bitcointalk.org/index.php?topic=2502.msg33800#msg33800)し、1000個以上を採掘した。その後、週刊Bitcoinオンラインマガジンプロジェクトを含むいくつかのプロジェクトに参加。
+この運動に関与した人物の一人がジェームズ・マッカーシーで、彼はBitcoinのフォーラムで、アニメ映画『デスパイブル・ミー』に登場する同名のキャラクターにちなんでネファリオというペンネームを使っていた。ネファリオは中国に住むアイルランド人で、大学の英語教授として働いていた。彼は[オーストリア学派](https://planb.academy/resources/glossary/austrian-school)とサイファーパンクの思想に興味を持ち、自分自身を「サイファーパンクのようなもの」だと[宣言](https://web.archive.org/web/20110607050421/http://bitcoinweekly.com/articles/interview-with-nefario-founder-of-bitcoin-global)していた。2010年にBitcoinの存在を[発見](https://bitcointalk.org/index.php?topic=2502.msg33800#msg33800)し、1000個以上を採掘した。その後、週刊Bitcoinオンラインマガジンプロジェクトを含むいくつかのプロジェクトに参加。
 
 
 
@@ -1387,7 +1387,7 @@ Paymium SASは、2011年6月にGonzague Grandval、Pierre Noizat（フォーラ�
 
 
 
-Bitcoinプロトコルを書き直す良いタイミングでもあった。当時は単に「Bitcoin」と呼ばれていたメインソフトウェアは、ブロックチェーン全体を維持し、新しいトランザクションとブロックを中継する必要があるという点で、完全な実装だった。しかし、現存するのはこれだけだったため、ネットワーク全体が機能するためにはこれだけに依存していた。それゆえ、Bitcoinの代替実装を開発することが望まれていた。
+Bitcoinプロトコルを書き直す良いタイミングでもあった。当時は単に「Bitcoin」と呼ばれていたメインソフトウェアは、[ブロック](https://planb.academy/resources/glossary/block)チェーン全体を維持し、新しいトランザクションとブロックを中継する必要があるという点で、完全な実装だった。しかし、現存するのはこれだけだったため、ネットワーク全体が機能するためにはこれだけに依存していた。それゆえ、Bitcoinの代替実装を開発することが望まれていた。
 
 
 
@@ -1400,7 +1400,7 @@ Satoshi Nakamotoは、miningの運用を損なわないようにプロトコル�
 
 
 
-マイク・ハーンのソフトウェア実装は BitCoinJ である。これは、ホワイトペーパーに記載されているように、Simplified Payment Verification (SPV)の実装であり、主にシンクライアント、特にAndroidオペレーティングシステムを使用する携帯電話上のものと相互作用する。マイクは2010年後半からこのプロジェクトを開発し、2011年3月7日に最初のバージョンを公開した。彼はグーグルでエンジニアとして働いていたため、コードは多国籍企業に帰属しなければならなかったが、ライセンス（Apache 2）はオープンだった。
+マイク・ハーンのソフトウェア実装は BitCoinJ である。これは、[ホワイトペーパー](https://planb.academy/resources/glossary/white-paper)に記載されているように、Simplified Payment Verification (SPV)の実装であり、主にシンクライアント、特にAndroidオペレーティングシステムを使用する携帯電話上のものと相互作用する。マイクは2010年後半からこのプロジェクトを開発し、2011年3月7日に最初のバージョンを公開した。彼はグーグルでエンジニアとして働いていたため、コードは多国籍企業に帰属しなければならなかったが、ライセンス（Apache 2）はオープンだった。
 
 
 
@@ -1428,7 +1428,7 @@ Bitcoinプロトコルの書き換えはそれだけにとどまらなかった�
 
 
 
-最初のアイデアは、ユーザが完全に信頼しているノードをリモート・サーバとして使用することであった。2011年2月、Amir Taaki [立ち上げ](https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538)は、Spesmiloと呼ばれる既存のノードに接続することで、walletをローカルに管理するためのソフトウェアクライアントを立ち上げた。このクライアントは、最初はLinux上で動作していたが、すぐにWindowsに移植された。この名前は、1907年にスイスの数学者ルネ・ド・ソシュール（言語学者フェルディナンの弟）がエスペラント・プロジェクトの一環として提案した古代の国際通貨単位であるスペスミロにちなんだものである。
+最初のアイデアは、ユーザが完全に信頼している[ノード](https://planb.academy/resources/glossary/node)をリモート・サーバとして使用することであった。2011年2月、Amir Taaki [立ち上げ](https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538)は、Spesmiloと呼ばれる既存のノードに接続することで、walletをローカルに管理するためのソフトウェアクライアントを立ち上げた。このクライアントは、最初はLinux上で動作していたが、すぐにWindowsに移植された。この名前は、1907年にスイスの数学者ルネ・ド・ソシュール（言語学者フェルディナンの弟）がエスペラント・プロジェクトの一環として提案した古代の国際通貨単位であるスペスミロにちなんだものである。
 
 
 
@@ -1494,11 +1494,11 @@ Gregory Maxwellは、Bitcoinの使い方を改善する方法について多く�
 
 > 「Bitcoinは本当に決定論的なwalletを提供し、デフォルトで使用すべきである。   現在のgenerated以前のものの追加的なセキュリティは、ほとんどの人がビットコインをどのように使用しているかを考慮するとかなり小さく、不十分なバックアップと単一のwalletをオンラインに保つために増加した圧力による損害の責任は甚大です。"
 
-派生には2つのタイプが想定された。ひとつは、seedから直接秘密鍵を生成する単純なタイプ（タイプ1）。もう1つのタイプ（タイプ2）はより複雑であるが、seed自体にアクセスすることなく、seedから取得したマスター公開鍵からアドレスを導出することができる。これにより、決済処理ソフトウェアが、秘密鍵を公開することなく、各取引のアドレスを generate に提供できるようになった。
+派生には2つのタイプが想定された。ひとつは、seedから直接秘密鍵を生成する単純なタイプ（タイプ1）。もう1つのタイプ（タイプ2）はより複雑であるが、seed自体にアクセスすることなく、seedから取得したマスター[公開鍵](https://planb.academy/resources/glossary/public-key)からアドレスを導出することができる。これにより、決済処理ソフトウェアが、秘密鍵を公開することなく、各取引のアドレスを generate に提供できるようになった。
 
 
 
-その後、2012年2月にBIP 32の[publication](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198)で標準化が行われた。これは、*階層的決定論的Wallet*、HD Walletの一般的な構造を記述したものであり、seedの鍵とアドレスを導出するために導出が方法論的に使用される。walletは、長年にわたり、ほとんどのwalletに徐々に採用されてきた。
+その後、2012年2月に[BIP](https://planb.academy/resources/glossary/bip) 32の[publication](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198)で標準化が行われた。これは、*階層的決定論的Wallet*、HD Walletの一般的な構造を記述したものであり、seedの鍵とアドレスを導出するために導出が方法論的に使用される。walletは、長年にわたり、ほとんどのwalletに徐々に採用されてきた。
 
 
 
@@ -1757,7 +1757,7 @@ Coldの保管は、秘密鍵をUSBメモリなどのデジタル・バックア�
 
 
 
-一つ目はBitLaundryである。このサービスは2010年9月、暗号学の学位を持つアメリカの起業家ピーター・ヴェッセネスによって[立ち上げられ](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823)、スラッシュドット当時Bitcoinの存在を発見した。このブレンダーは](https://maltemoeser.de/paper/money-laundering.pdf#page=5)利用者に単回使用のアドレスを提供し、そこに匿名化される資金が送られた。その後、ビットコインは複数のコイン（UTXO）の形で送り返され、他のユーザーからのビットコインを含む複数エントリーのトランザクションの中で、ブレンディングが効果的に行われた。手数料は取引額の2.5％程度だった。2011年5月、ピーター・ヴェセネスは、この活動から発生する可能性のある法的複雑性を察知し、このサービスをマイク・ゴグルスキーに[譲渡](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955)した。ゴグルスキーは、別の市民権を所有することなくアメリカ市民権を放棄した、無国籍の活動家として知られている。
+一つ目はBitLaundryである。このサービスは2010年9月、[暗号学](https://planb.academy/resources/glossary/cryptography)の学位を持つアメリカの起業家ピーター・ヴェッセネスによって[立ち上げられ](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823)、スラッシュドット当時Bitcoinの存在を発見した。このブレンダーは](https://maltemoeser.de/paper/money-laundering.pdf#page=5)利用者に単回使用のアドレスを提供し、そこに匿名化される資金が送られた。その後、ビットコインは複数のコイン（[UTXO](https://planb.academy/resources/glossary/utxo)）の形で送り返され、他のユーザーからのビットコインを含む複数エントリーのトランザクションの中で、ブレンディングが効果的に行われた。手数料は取引額の2.5％程度だった。2011年5月、ピーター・ヴェセネスは、この活動から発生する可能性のある法的複雑性を察知し、このサービスをマイク・ゴグルスキーに[譲渡](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955)した。ゴグルスキーは、別の市民権を所有することなくアメリカ市民権を放棄した、無国籍の活動家として知られている。
 
 
 
@@ -1777,7 +1777,7 @@ Coldの保管は、秘密鍵をUSBメモリなどのデジタル・バックア�
 
 
 
-中央集権型ミキサーの急増は、分散型コイン・ミキシングに関する思考を触媒する効果があった。それは2011年の夏、Hashcoinが提示した提案[proposal](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793)から始まった。これが2013年のGregory MaxwellによるCoinJoinの[正式化](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902)につながった。それはまた別の話だが......。
+中央集権型ミキサーの急増は、分散型コイン・ミキシングに関する思考を触媒する効果があった。それは2011年の夏、Hashcoinが提示した提案[proposal](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793)から始まった。これが2013年のGregory Maxwellによる[CoinJoin](https://planb.academy/resources/glossary/coinjoin)の[正式化](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902)につながった。それはまた別の話だが......。
 
 
 
@@ -1808,7 +1808,7 @@ Coldの保管は、秘密鍵をUSBメモリなどのデジタル・バックア�
 
 
 
-2010年秋、マイナーの最初の流入により、GPU（グラフィック・プロセッシング・ユニット）miningが広く使用されるようになり、CPU（中央演算処理装置）miningよりもはるかに収益性が高くなった。しかし、この技術的進歩はネットワークの難易度を高め、小規模なマイナーが妥当な時間枠内でブロックを見つけることはもはや望めなくなった。このため、BitcoinCZ Mining、スラッシュ・プールなどのマイナー・グループが誕生した。2011年に価格が上昇すると、マイナーの流入は続き、プールminingは急速に正常化した。
+2010年秋、マイナーの最初の流入により、GPU（グラフィック・プロセッシング・ユニット）miningが広く使用されるようになり、CPU（中央演算処理装置）miningよりもはるかに収益性が高くなった。しかし、この技術的進歩はネットワークの[難易度](https://planb.academy/resources/glossary/difficulty)を高め、小規模なマイナーが妥当な時間枠内でブロックを見つけることはもはや望めなくなった。このため、BitcoinCZ Mining、スラッシュ・プールなどのマイナー・グループが誕生した。2011年に価格が上昇すると、マイナーの流入は続き、プールminingは急速に正常化した。
 
 
 
@@ -1996,7 +1996,7 @@ Deepbitの優位性は夏にピークを迎え、8月5日には計算能力の�
 
 
 
-Bitcoinのブロックチェーンと同様に、ピアツーピアで接続された参加マイナーによって維持されるシェアチェーン」上のモデル[依存](https://im.forre.st/pb/85341005.txt)。各シェアは前のシェアのフィンガープリントを含み、シェア同士を結びつけ、全体の完全性を保証する。難易度（最初はメインネットワークの難易度の600倍低い）は定期的に調整され、平均5秒の間隔が保証される。報酬方法は、ブロックが発見されるたびに報酬取引で直接行われる、最後のN株（PPLNS）に応じた支払いである。
+Bitcoinのブロックチェーンと同様に、[ピアツーピア](https://planb.academy/resources/glossary/peertopeer-p2p)で接続された参加マイナーによって維持されるシェアチェーン」上のモデル[依存](https://im.forre.st/pb/85341005.txt)。各シェアは前のシェアのフィンガープリントを含み、シェア同士を結びつけ、全体の完全性を保証する。難易度（最初はメインネットワークの難易度の600倍低い）は定期的に調整され、平均5秒の間隔が保証される。報酬方法は、ブロックが発見されるたびに報酬取引で直接行われる、最後のN株（PPLNS）に応じた支払いである。
 
 
 
@@ -2067,7 +2067,7 @@ BitcoinCZとBTCギルドを皮切りに、Stratumはほとんどのプールで�
 
 
 
-この最終的な進化は、Satoshi Nakamotoによってかなり前に[計画](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html)されたが、プログラマブル論理回路(FPGA)のおかげで徐々に発展し、Bitcoinのハッシュ関数のためにハードウェアを事実上最適化することが可能になった。最初のオープンFPGAアルゴリズムは2011年5月に[公開](https://bitcointalk.org/index.php?topic=9047.msg130885#msg130885)され、ASICはFPGA最適化をチップ自体に適用した。最初のASICの先行販売は、米国のButterfly Labs社によって2012年6月に[行われた](https://web.archive.org/web/20120619090952/http://news.yahoo.com/butterfly-labs-announces-next-generation-asic-lineup-054626776.html)。そして2013年1月、初の実用ASICであるAvalon ASICが一般向けに[配布](https://bitcointalk.org/index.php?topic=137534.msg1465887#msg1465887)された。
+この最終的な進化は、Satoshi Nakamotoによってかなり前に[計画](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html)されたが、プログラマブル論理回路(FPGA)のおかげで徐々に発展し、Bitcoinの[ハッシュ関数](https://planb.academy/resources/glossary/hash-function)のためにハードウェアを事実上最適化することが可能になった。最初のオープンFPGAアルゴリズムは2011年5月に[公開](https://bitcointalk.org/index.php?topic=9047.msg130885#msg130885)され、ASICはFPGA最適化をチップ自体に適用した。最初のASICの先行販売は、米国のButterfly Labs社によって2012年6月に[行われた](https://web.archive.org/web/20120619090952/http://news.yahoo.com/butterfly-labs-announces-next-generation-asic-lineup-054626776.html)。そして2013年1月、初の実用ASICであるAvalon ASICが一般向けに[配布](https://bitcointalk.org/index.php?topic=137534.msg1465887#msg1465887)された。
 
 
 
@@ -2086,7 +2086,7 @@ Satoshi Nakamotoが去った後、ソフトウェア開発はコミュニティ�
 
 
 
-2011年から2012年にかけての冬、Bitcoinにおけるマルチシグネチャーの実装をめぐって論争が起こった。それは、とりわけ「Pay to Script Hash」（P2SH）として知られるスキームに関するものだった。Pete RizzoとAaron van Wirdum[は](https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war)は、この争いを「P2SHの戦い」と呼んだ。これはプロトコルの進化をめぐる最初の大きな紛争であり、ガバナンスの問題を提起した最初のものであった。
+2011年から2012年にかけての冬、Bitcoinにおけるマルチシグネチャーの実装をめぐって論争が起こった。それは、とりわけ「Pay to [Script](https://planb.academy/resources/glossary/script) Hash」（P2SH）として知られるスキームに関するものだった。Pete RizzoとAaron van Wirdum[は](https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war)は、この争いを「P2SHの戦い」と呼んだ。これはプロトコルの進化をめぐる最初の大きな紛争であり、ガバナンスの問題を提起した最初のものであった。
 
 
 
@@ -3563,3 +3563,21 @@ Bitcoinの悲惨なイメージは一般大衆に嫌悪感を与え、ひいて�
 ---
 
 2011年春から2012年夏にかけてのBitcoinの建設に関する講座はここで終了する。暗号通貨史の次の時代、Bitcoinの不可抗力的な上昇については、神のご意思により、次回の講座で取り上げる予定である。
+# Conclusion
+
+<partId>85b5b21d-2754-41ad-9e25-21350488cfd3</partId>
+
+## Reviews & Ratings
+
+<chapterId>52d64403-1669-4852-ae4f-17ecfe1dc315</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Final Exam
+
+<chapterId>080fb5af-dfff-4600-95cb-61455831080f</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusion
+
+<chapterId>cd50980c-0c9e-43e5-97ec-4db79388335b</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

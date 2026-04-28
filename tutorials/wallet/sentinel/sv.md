@@ -11,10 +11,8 @@ description: Vad är en Watch-only wallet och hur använder man den?
 **\*VARNING:** Efter gripandet av grundarna av Samourai Wallet och beslagtagandet av deras servrar den 24 april fortsätter Sentinel-appen att fungera, men **det är obligatoriskt att använda din egen Dojo** för att komma åt Blockchain-information och sända transaktioner.\*
 
 
-_Vi följer noga utvecklingen av detta fall och utvecklingen av de tillhörande verktygen. Du kan vara säker på att vi kommer att uppdatera denna handledning när ny information blir tillgänglig._
 
 
-_Den här handledningen tillhandahålls endast i utbildnings- och informationssyfte. Vi varken stödjer eller uppmuntrar användning av dessa verktyg i kriminella syften. Det är varje användares ansvar att följa de lagar som gäller i deras jurisdiktion._
 
 
 ---
@@ -40,7 +38,7 @@ Watch-only används i allmänhet tillsammans med en Hardware Wallet. Detta gör 
 ## Vilken Watch-only wallet ska man använda?
 
 
-För närvarande är den mest omfattande applikationen för endast bevakning [Sentinel](https://sentinel.watch/), utvecklad av teamen på Samourai Wallet. Den omfattar alla väsentliga funktioner för en bra Watch-only wallet:
+För närvarande är den mest kompletta watch-only-applikationen [Sentinel](https://github.com/wanderingking072/sentinel-android), ursprungligen utvecklad av Samourai Wallets team och numera underhållen av communityn. Den samlar alla väsentliga funktioner för en bra watch-only-plånbok:
 
 
 
@@ -67,36 +65,31 @@ För iOS-användare som letar efter ett alternativ till Sentinel kan [Green Wall
 ### Installation och konfigurering
 
 
-Börja med att installera Sentinel-applikationen. Du kan göra detta antingen från Google Play Store eller genom att använda [APK tillgänglig för nedladdning på den officiella webbplatsen](https://sentinel.watch/download/).
-
-
-![watch-only](assets/notext/3.webp)
-
-
-När du öppnar applikationen första gången får du välja mellan:
+Börja med att installera Sentinel-applikationen. Du kan göra detta med hjälp av [APK:n som finns tillgänglig för nedladdning i projektets github-förråd](https://github.com/wanderingking072/sentinel-android/releases).
 
 
 
-- "Anslut till Dojo";
-- `Anslut till Samourais server`.
 
 
-Dojo, som utvecklats av Samourai-teamet, är en fullständig Bitcoin-nodversion som kan installeras fristående eller läggas till med ett klick till node-in-box-lösningar som [Umbrel](https://umbrel.com/) och [RoninDojo](https://ronindojo.io/).
 
 
-[**-> Upptäck hur du installerar RoninDojo v2 på en Raspberry Pi.**](https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
 
-Om du har en egen Dojo kan du ansluta den i det här skedet. Genom att göra det kommer du att dra nytta av den högsta sekretessnivån när du kontrollerar transaktionsinformationen för ditt Bitcoin-nätverk.
 
+
+
+
+
+
+Du måste sedan obligatoriskt ansluta till din egen Dojo, eftersom Samourai Wallets servrar inte längre är tillgängliga. Om du ännu inte har din egen Dojo kan du antingen använda en Dojo som gjorts tillgänglig av gemenskapen på webbplatsen [The Dojo Bay](https://dojobay.pw/), eller följa vår handledning för att installera din egen :
+
+https://planb.academy/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9
 
 ![watch-only](assets/notext/4.webp)
 
 
-Annars är det möjligt att välja Samourais standardserver. Du kan också välja om du vill ansluta via Tor eller inte.
 
 
-![watch-only](assets/notext/5.webp)
 
 
 Du kommer då att komma till Sentinels huvudsida.

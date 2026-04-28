@@ -1,9 +1,9 @@
-question: Mục đích chính của việc xây dựng Lightning Network dựa trên Bitcoin là gì?
+question: Mục đích chính của việc xây dựng Lightning Network (mạng Lightning) dựa trên Bitcoin là gì?
 answer: Cho phép thanh toán nhanh hơn, gần như ngay lập tức với tương tác on-chain tối thiểu.
 wrong_answers:
   - Thay thế hoàn toàn blockchain của Bitcoin và lưu trữ mọi giao dịch cục bộ.
-  - Cung cấp mạng được cấp phép do một thực thể duy nhất kiểm soát.
-  - Làm chậm các giao dịch để đảm bảo chính phủ có thể theo dõi đầy đủ các giao dịch đó.
+  - Mạng lưới được cấp phép và do một một pháp nhân duy nhất kiểm soát.
+  - Làm chậm các giao dịch để đảm bảo chính phủ có thể theo dõi đầy đủ toàn vẹn các giao dịch đó.
 explanation: |
-  Lightning Network là giao thức "lớp thứ hai" cho phép người tham gia tạo kênh thanh toán, giao dịch off-chain và thanh toán số dư ròng cuối cùng chỉ trên blockchain Bitcoin. Thiết kế này đạt được tốc độ nhanh hơn và chi phí thấp hơn.
+  Lightning Network (mạng Lightning) là "lớp giao thức thứ hai" cho phép người tham gia tạo các kênh thanh toán giao dịch off-chain và tất toán số dư ròng cuối cùng trên blockchain Bitcoin. Thiết kế này đạt được tốc độ nhanh hơn và chi phí thấp hơn.
 reviewed: true

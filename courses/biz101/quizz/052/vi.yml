@@ -1,9 +1,9 @@
-question: Chi tiết nào KHÔNG được ghi rõ trong tệp CSV giao dịch Bitcoin thông thường như được mô tả trong khóa học?
-answer: Loại tập lệnh được sử dụng
+question: Chi tiết nào của một giao dịch Bitcoin thông thường như được mô tả trong khóa học KHÔNG được ghi rõ trong dữ liệu ở dạng tệp tin CSV?
+answer: Loại lệnh mã hoá được sử dụng
 wrong_answers:
   - Ngày giao dịch
-  - Giá trị fiat tương đương
+  - Giá trị tiền pháp định tương đương
   - Các địa chỉ Bitcoin liên quan
 explanation: |
-  Tệp CSV giao dịch Bitcoin thông thường thường đề cập đến ngày, số tiền, đơn vị tiền tệ tương đương và địa chỉ Bitcoin, nhưng không đề cập đến loại tập lệnh được sử dụng.
+  Tệp tin CSV về giao dịch Bitcoin thông thường đề cập đến dữ liệu về ngày, số tiền, đơn vị tiền tệ tương đương và địa chỉ Bitcoin, nhưng lại không chứa thông tin về loại lệnh mã hoá được sử dụng.
 reviewed: true

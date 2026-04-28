@@ -117,11 +117,11 @@ Gotowy do odkrycia Bitcoin mining? Zaczynajmy!
 
 
 
-Zanim przejdę do szczegółowego i bardziej technicznego wyjaśnienia Bitcoin mining, chciałbym dać ci przegląd zasady, która jest celowo prosta i schematyczna. Jeśli masz już podstawową wiedzę, możesz przejść od razu do sedna sprawy w następnym rozdziale, po udzieleniu odpowiedzi na pytania quizowe. Ten rozdział jest przeznaczony przede wszystkim dla początkujących, aby zapewnić ci łagodny start.
+Zanim przejdę do szczegółowego i bardziej technicznego wyjaśnienia Bitcoin [mining](https://planb.academy/resources/glossary/mining), chciałbym dać ci przegląd zasady, która jest celowo prosta i schematyczna. Jeśli masz już podstawową wiedzę, możesz przejść od razu do sedna sprawy w następnym rozdziale, po udzieleniu odpowiedzi na pytania quizowe. Ten rozdział jest przeznaczony przede wszystkim dla początkujących, aby zapewnić ci łagodny start.
 
 
 
-Wyobraź sobie Bitcoin jako duży publiczny notatnik, współdzielony przez wszystkich, w którym zapisujemy, kto wysłał bitcoiny do kogo. Ten notatnik nazywa się blockchain. Nie może być przechowywany przez jedną osobę, w przeciwnym razie musiałby być zaufany. Zamiast tego Bitcoin działa zbiorowo: tysiące komputerów weryfikują i utrzymują tę samą wersję tego notatnika.
+Wyobraź sobie Bitcoin jako duży publiczny notatnik, współdzielony przez wszystkich, w którym zapisujemy, kto wysłał bitcoiny do kogo. Ten notatnik nazywa się [blockchain](https://planb.academy/resources/glossary/blockchain). Nie może być przechowywany przez jedną osobę, w przeciwnym razie musiałby być zaufany. Zamiast tego Bitcoin działa zbiorowo: tysiące komputerów weryfikują i utrzymują tę samą wersję tego notatnika.
 
 
 
@@ -129,7 +129,7 @@ Wyobraź sobie Bitcoin jako duży publiczny notatnik, współdzielony przez wszy
 
 
 
-W Bitcoin podczas dokonywania płatności tworzona jest transakcja. Transakcja ta nie jest natychmiast dodawana do notesu. Jest ona najpierw wysyłana do sieci, a następnie czeka na integrację z następnym pakietem transakcji. Pakiet ten nazywany jest blokiem.
+W Bitcoin podczas dokonywania płatności tworzona jest [transakcja](https://planb.academy/resources/glossary/transaction-tx). Transakcja ta nie jest natychmiast dodawana do notesu. Jest ona najpierw wysyłana do sieci, a następnie czeka na integrację z następnym pakietem transakcji. Pakiet ten nazywany jest [blokiem](https://planb.academy/resources/glossary/block).
 
 
 
@@ -141,11 +141,11 @@ Blok to po prostu zestaw transakcji zgrupowanych razem. Gdy blok jest gotowy, ni
 
 
 
-Mining to praca polegająca na walidacji bloku poprzez zużycie energii. Podmioty zwane górnikami używają wyspecjalizowanych komputerów. Maszyny te zużywają energię elektryczną do przeprowadzenia bardzo dużej liczby testów w pętli, aż znajdą dowód, który zostanie zaakceptowany przez sieć. Gdy górnik znajdzie taki dowód, jego blok jest uznawany za ważny.
+Mining to praca polegająca na walidacji bloku poprzez zużycie energii. Podmioty zwane [górnikami](https://planb.academy/resources/glossary/miner) używają wyspecjalizowanych komputerów. Maszyny te zużywają energię elektryczną do przeprowadzenia bardzo dużej liczby testów w pętli, aż znajdą dowód, który zostanie zaakceptowany przez sieć. Gdy górnik znajdzie taki dowód, jego blok jest uznawany za ważny.
 
 
 
-Po zweryfikowaniu bloku jest on rozgłaszany w sieci. Pozostałe węzły szybko sprawdzają, czy jest on zgodny z zasadami, a następnie dodają go do sekwencji poprzednich bloków. Właśnie dlatego nazywa się to "łańcuchem bloków": każdy nowy blok pojawia się po innych, w kolejności sekwencyjnej, a ten łańcuch rośnie stopniowo.
+Po zweryfikowaniu bloku jest on rozgłaszany w sieci. Pozostałe [węzły](https://planb.academy/resources/glossary/node) szybko sprawdzają, czy jest on zgodny z zasadami, a następnie dodają go do sekwencji poprzednich bloków. Właśnie dlatego nazywa się to "łańcuchem bloków": każdy nowy blok pojawia się po innych, w kolejności sekwencyjnej, a ten łańcuch rośnie stopniowo.
 
 
 
@@ -153,11 +153,11 @@ Po zweryfikowaniu bloku jest on rozgłaszany w sieci. Pozostałe węzły szybko 
 
 
 
-Podsumowując, najpierw tworzone są transakcje. Następnie są one grupowane w blok. Następnie górnik zatwierdza ten blok, zużywając energię elektryczną. Na koniec blok ten jest dodawany do łańcucha bloków, a zawarte w nim transakcje zostają potwierdzone.
+Podsumowując, najpierw tworzone są transakcje. Następnie są one grupowane w blok. Następnie górnik zatwierdza ten blok, zużywając energię elektryczną. Na koniec blok ten jest dodawany do łańcucha bloków, a zawarte w nim transakcje zostają [potwierdzone](https://planb.academy/resources/glossary/confirmation).
 
 
 
-Jeśli górnicy zużywają energię elektryczną, to nie dlatego, że są wolontariuszami. Robią to, ponieważ jest za to nagroda. Kiedy górnik zatwierdza blok, otrzymuje dwa rodzaje dochodu. Z jednej strony otrzymuje nowo utworzone bitcoiny. Z drugiej strony pobiera opłaty uiszczane przez użytkowników za transakcje zawarte w bloku. Innymi słowy, górnik jest wynagradzany zarówno poprzez zaprogramowaną emisję pieniądza, jak i opłaty transakcyjne ustalane przez rynek.
+Jeśli górnicy zużywają energię elektryczną, to nie dlatego, że są wolontariuszami. Robią to, ponieważ jest za to nagroda. Kiedy górnik zatwierdza blok, otrzymuje dwa rodzaje dochodu. Z jednej strony otrzymuje nowo utworzone bitcoiny. Z drugiej strony pobiera [opłaty](https://planb.academy/resources/glossary/transaction-fees) uiszczane przez użytkowników za transakcje zawarte w bloku. Innymi słowy, górnik jest wynagradzany zarówno poprzez zaprogramowaną emisję pieniądza, jak i opłaty transakcyjne ustalane przez rynek.
 
 
 
@@ -187,7 +187,7 @@ Aby zrozumieć, na czym polega Bitcoin mining, musimy najpierw prześledzić śc
 
 
 
-W Bitcoin transakcja jest strukturą danych, która przenosi własność bitcoinów z jednego użytkownika na drugiego. Mówiąc konkretnie, zużywa "wyjścia" z poprzednich transakcji (tzw. UTXO), odnosząc się do nich jako do "wejść", a następnie tworzy nowe "wyjścia", które określają, do kogo te bitcoiny teraz należą i na jakich warunkach można je później wydać.
+W Bitcoin transakcja jest strukturą danych, która przenosi własność bitcoinów z jednego użytkownika na drugiego. Mówiąc konkretnie, zużywa "[wyjścia](https://planb.academy/resources/glossary/output)" z poprzednich transakcji (tzw. [UTXO](https://planb.academy/resources/glossary/utxo)), odnosząc się do nich jako do "[wejść](https://planb.academy/resources/glossary/input)", a następnie tworzy nowe "wyjścia", które określają, do kogo te bitcoiny teraz należą i na jakich warunkach można je później wydać.
 
 
 
@@ -195,7 +195,7 @@ W Bitcoin transakcja jest strukturą danych, która przenosi własność bitcoin
 
 
 
-Ważną kwestią dotyczącą Bitcoin jest autoryzacja do wydawania. Bitcoin nie znajdują się na koncie, tak jak pieniądze w banku, ale są zablokowane przez warunki wydawania. Gdy wallet chce użyć UTXO jako danych wejściowych, musi dostarczyć dowód kryptograficzny, że ma prawo do jego odblokowania. Dowód ten często przybiera formę podpisu cyfrowego generated z klucza prywatnego. Właśnie dlatego bitcoinerzy nalegają na zabezpieczenie kluczy prywatnych: to one odblokowują dostęp do bitcoinów, a w konsekwencji umożliwiają ich wydawanie.
+Ważną kwestią dotyczącą Bitcoin jest autoryzacja do wydawania. Bitcoin nie znajdują się na koncie, tak jak pieniądze w banku, ale są zablokowane przez warunki wydawania. Gdy [wallet](https://planb.academy/resources/glossary/wallet) chce użyć UTXO jako danych wejściowych, musi dostarczyć dowód kryptograficzny, że ma prawo do jego odblokowania. Dowód ten często przybiera formę [podpisu cyfrowego](https://planb.academy/resources/glossary/digital-signature) generated z [klucza prywatnego](https://planb.academy/resources/glossary/private-key). Właśnie dlatego bitcoinerzy nalegają na zabezpieczenie kluczy prywatnych: to one odblokowują dostęp do bitcoinów, a w konsekwencji umożliwiają ich wydawanie.
 
 
 
@@ -221,7 +221,7 @@ Gdy transakcja zostanie poprawnie skonstruowana i podpisana przez Bitcoin wallet
 
 
 
-Bitcoin jest siecią peer-to-peer: nie ma centralnego serwera, który odbiera i przetwarza wszystkie transakcje. Rolę tę pełnią wspólnie węzły. Węzeł Bitcoin to oprogramowanie (np. Bitcoin Core) połączone z innymi węzłami w sieci Bitcoin, którego głównym zadaniem jest weryfikacja, przechowywanie i przekazywanie transakcji i bloków.
+Bitcoin jest siecią [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p): nie ma centralnego serwera, który odbiera i przetwarza wszystkie transakcje. Rolę tę pełnią wspólnie węzły. Węzeł Bitcoin to oprogramowanie (np. [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core)) połączone z innymi węzłami w sieci Bitcoin, którego głównym zadaniem jest weryfikacja, przechowywanie i przekazywanie transakcji i bloków.
 
 
 
@@ -250,7 +250,7 @@ Jeśli transakcja przejdzie wszystkie te kontrole, węzeł propaguje ją do inny
 
 
 
-Pomiędzy momentem rozgłaszania transakcji a momentem jej potwierdzenia w bloku, musi ona czekać. Ten obszar oczekiwania nazywany jest **mempool** (skrót od `memory` i `pool`). Mempool jest zatem tymczasową przestrzenią do przechowywania ważnych, ale wciąż niepotwierdzonych transakcji.
+Pomiędzy momentem rozgłaszania transakcji a momentem jej potwierdzenia w bloku, musi ona czekać. Ten obszar oczekiwania nazywany jest **[mempool](https://planb.academy/resources/glossary/mempool)** (skrót od `memory` i `pool`). Mempool jest zatem tymczasową przestrzenią do przechowywania ważnych, ale wciąż niepotwierdzonych transakcji.
 
 
 
@@ -270,7 +270,7 @@ Na tym etapie sieć wie o transakcji, zweryfikowała ją i przechowuje w pamięc
 
 
 
-Ponieważ bitcoin jest walutą niematerialną, musi rozwiązać jeden problem: zapobieganie podwójnym wydatkom bez centralnego organu. Jeśli dwie transakcje próbują wydać ten sam UTXO, wszyscy muszą być w stanie zbiegać się w jednym, spójnym stanie. Satoshi Nakamoto podsumowuje tę kwestię tym słynnym zdaniem:
+Ponieważ bitcoin jest walutą niematerialną, musi rozwiązać jeden problem: zapobieganie [podwójnym wydatkom](https://planb.academy/resources/glossary/double-spending-attack) bez centralnego organu. Jeśli dwie transakcje próbują wydać ten sam UTXO, wszyscy muszą być w stanie zbiegać się w jednym, spójnym stanie. Satoshi Nakamoto podsumowuje tę kwestię tym słynnym zdaniem:
 
 
 
@@ -284,7 +284,7 @@ Taką rolę pełni blockchain: publiczny rejestr zawierający historię transakc
 
 
 
-Rejestr ten nie może zostać przepisany dzięki prostej zasadzie: każdy blok zawiera kryptograficzny odcisk palca (hash) poprzedniego bloku. W ten sposób bloki są ze sobą powiązane: jeśli zmodyfikujesz blok z przeszłości, jego hash ulegnie zmianie, co zerwie powiązanie z następnym blokiem, co zerwie powiązanie z kolejnym blokiem i tak dalej. To właśnie od tego łańcucha zależności pochodzi nazwa "*blockchain*".
+Rejestr ten nie może zostać przepisany dzięki prostej zasadzie: każdy blok zawiera kryptograficzny odcisk palca ([hash](https://planb.academy/resources/glossary/hash-function)) poprzedniego bloku. W ten sposób bloki są ze sobą powiązane: jeśli zmodyfikujesz blok z przeszłości, jego hash ulegnie zmianie, co zerwie powiązanie z następnym blokiem, co zerwie powiązanie z kolejnym blokiem i tak dalej. To właśnie od tego łańcucha zależności pochodzi nazwa "*blockchain*".
 
 
 
@@ -292,7 +292,7 @@ Rejestr ten nie może zostać przepisany dzięki prostej zasadzie: każdy blok z
 
 
 
-Gdy już zrozumiemy te podstawowe zasady Bitcoin, możemy opisać cel górnika w bardziej konkretny sposób: zbudować nowy blok, który rozszerza istniejący łańcuch, poprzez wpisanie oczekujących transakcji, a następnie spróbować nadać mu ważność (jest to słynny "proof of work", który przeanalizujemy w późniejszym rozdziale). Najpierw jednak odkryjmy razem w następnym rozdziale, w jaki sposób budowany jest blok kandydujący.
+Gdy już zrozumiemy te podstawowe zasady Bitcoin, możemy opisać cel górnika w bardziej konkretny sposób: zbudować nowy blok, który rozszerza istniejący łańcuch, poprzez wpisanie oczekujących transakcji, a następnie spróbować nadać mu ważność (jest to słynny "[proof of work](https://planb.academy/resources/glossary/proof-of-work)", który przeanalizujemy w późniejszym rozdziale). Najpierw jednak odkryjmy razem w następnym rozdziale, w jaki sposób budowany jest blok kandydujący.
 
 
 
@@ -303,7 +303,7 @@ Gdy już zrozumiemy te podstawowe zasady Bitcoin, możemy opisać cel górnika w
 
 
 
-Zrozumiałeś już, jak działa transakcja Bitcoin i jaka jest rola łańcucha bloków. Zanim jednak przyjrzymy się bardziej szczegółowo działaniu proof-of-work, pozostaje jeszcze jeden istotny krok, który musi wykonać górnik: budowa bloku kandydującego. Dowiedzmy się razem, czym jest blok kandydujący i w jaki sposób górnik go konstruuje, zanim rozpoczniemy poszukiwanie ważnego dowodu.
+Zrozumiałeś już, jak działa transakcja Bitcoin i jaka jest rola łańcucha bloków. Zanim jednak przyjrzymy się bardziej szczegółowo działaniu proof-of-work, pozostaje jeszcze jeden istotny krok, który musi wykonać górnik: budowa bloku kandydującego. Dowiedzmy się razem, czym jest [blok kandydujący](https://planb.academy/resources/glossary/candidate-block) i w jaki sposób górnik go konstruuje, zanim rozpoczniemy poszukiwanie ważnego dowodu.
 
 
 
@@ -318,7 +318,7 @@ Miner muszą samodzielnie budować swoje bloki przed próbą ich wydobycia. Każ
 
 - wybrać, które transakcje mają zostać uwzględnione;
 - zorganizować te transakcje w sposób zgodny z zasadami Bitcoin;
-- tworzy metadane bloku, przechowywane w jego nagłówku.
+- tworzy metadane bloku, przechowywane w jego [nagłówku](https://planb.academy/resources/glossary/block-header).
 
 
 
@@ -340,7 +340,7 @@ Blok Bitcoin składa się zatem z dwóch głównych części:
 
 
 
-Nagłówek jest niezbędny, ponieważ jest używany jako podstawa proof-of-work: w Bitcoin nie wydobywasz bezpośrednio całego bloku; wydobywasz tylko nagłówek bloku, który podsumowuje informacje potrzebne do połączenia bloku z łańcuchem i zatwierdzenia jego zawartości. Aby umożliwić nagłówkowi reprezentowanie wszystkich transakcji, Bitcoin wykorzystuje narzędzie kryptograficzne: drzewo Merkle.
+Nagłówek jest niezbędny, ponieważ jest używany jako podstawa proof-of-work: w Bitcoin nie wydobywasz bezpośrednio całego bloku; wydobywasz tylko nagłówek bloku, który podsumowuje informacje potrzebne do połączenia bloku z łańcuchem i zatwierdzenia jego zawartości. Aby umożliwić nagłówkowi reprezentowanie wszystkich transakcji, Bitcoin wykorzystuje narzędzie kryptograficzne: [drzewo Merkle](https://planb.academy/resources/glossary/merkle-tree).
 
 
 
@@ -348,7 +348,7 @@ Nagłówek jest niezbędny, ponieważ jest używany jako podstawa proof-of-work:
 
 
 
-Wymienienie wszystkich transakcji w nagłówku byłoby niemożliwe: blok może zawierać tysiące transakcji, podczas gdy nagłówek ma stały rozmiar (80 bajtów). Rozwiązaniem jest zatem obliczenie unikalnego skrótu, który zależy od wszystkich transakcji w bloku: jest to korzeń Merkle.
+Wymienienie wszystkich transakcji w nagłówku byłoby niemożliwe: blok może zawierać tysiące transakcji, podczas gdy nagłówek ma stały rozmiar (80 bajtów). Rozwiązaniem jest zatem obliczenie unikalnego skrótu, który zależy od wszystkich transakcji w bloku: jest to [korzeń Merkle](https://planb.academy/resources/glossary/merkle-root).
 
 
 
@@ -371,7 +371,7 @@ Tak więc, jeśli pojedyncza transakcja ulegnie zmianie, nawet o jeden bit, wyni
 
 
 
-Od SegWit oddzieliliśmy podpisy od reszty. Tak więc w rzeczywistości istnieją 2 drzewa Merkle zagnieżdżone w każdym bloku. Ta separacja ma konsekwencje dla sposobu, w jaki liczymy rozmiar bloku i dla niektórych zobowiązań kryptograficznych, ale podstawowa idea pozostaje taka sama: nagłówek musi zatwierdzać, w zwarty sposób, całą zawartość bloku.
+Od [SegWit](https://planb.academy/resources/glossary/segwit) oddzieliliśmy podpisy od reszty. Tak więc w rzeczywistości istnieją 2 drzewa Merkle zagnieżdżone w każdym bloku. Ta separacja ma konsekwencje dla sposobu, w jaki liczymy rozmiar bloku i dla niektórych zobowiązań kryptograficznych, ale podstawowa idea pozostaje taka sama: nagłówek musi zatwierdzać, w zwarty sposób, całą zawartość bloku.
 
 
 
@@ -402,19 +402,19 @@ Nagłówek bloku ma długość 80 bajtów i zawiera dokładnie 6 pól. To właś
 
 
 
-- Znacznik czasu: Jest to znacznik czasu (czas uniksowy) wybrany przez górnika (z ograniczeniami ważności), który musi wskazywać, kiedy blok został wydobyty. Nie musi być idealnie dokładny co do sekundy, ale musi spełniać pewne warunki, aby pozostać akceptowalnym dla sieci.
+- [Znacznik czasu](https://planb.academy/resources/glossary/timestamp): Jest to znacznik czasu (czas uniksowy) wybrany przez górnika (z ograniczeniami ważności), który musi wskazywać, kiedy blok został wydobyty. Nie musi być idealnie dokładny co do sekundy, ale musi spełniać pewne warunki, aby pozostać akceptowalnym dla sieci.
 
 
 
 
 
-- Zakodowany cel trudności (`nbits`): To pole koduje aktualny cel trudności. Omówimy to bardziej szczegółowo w rozdziale dotyczącym trudności, ale pamiętaj, że ten parametr jest częścią nagłówka.
+- Zakodowany [cel trudności](https://planb.academy/resources/glossary/difficulty-target) (`nbits`): To pole koduje aktualny cel trudności. Omówimy to bardziej szczegółowo w rozdziale dotyczącym trudności, ale pamiętaj, że ten parametr jest częścią nagłówka.
 
 
 
 
 
-- Nonce (`nonce`): Jest to wartość, którą górnik może dowolnie modyfikować. Służy jako zmienna regulowana podczas proof-of-work. Wyjaśnię jej rolę bardziej szczegółowo w następnym rozdziale, ale ważne jest, aby zrozumieć, że nonce jest częścią nagłówka bloku i ma na celu umożliwienie kolejnych prób.
+- [Nonce](https://planb.academy/resources/glossary/nonce) (`nonce`): Jest to wartość, którą górnik może dowolnie modyfikować. Służy jako zmienna regulowana podczas proof-of-work. Wyjaśnię jej rolę bardziej szczegółowo w następnym rozdziale, ale ważne jest, aby zrozumieć, że nonce jest częścią nagłówka bloku i ma na celu umożliwienie kolejnych prób.
 
 
 
@@ -510,7 +510,7 @@ Funkcja skrótu jest interesująca w systemach komputerowych, ponieważ ma pewne
 
 
 
-Funkcja skrótu używana w Bitcoin dla mining to `SHA256`, zastosowana dwa razy z rzędu. Jest to znane jako podwójne SHA256 lub `SHA256d`. To właśnie to podwójne haszowanie tworzy odcisk palca bloku.
+Funkcja skrótu używana w Bitcoin dla mining to `SHA256`, zastosowana dwa razy z rzędu. Jest to znane jako podwójne [SHA256](https://planb.academy/resources/glossary/sha256) lub `SHA256d`. To właśnie to podwójne haszowanie tworzy odcisk palca bloku.
 
 
 
@@ -618,7 +618,7 @@ Proces mining jest bardzo prosty:
 
 
 
-W rzeczywistości nonce nie jest jedynym polem, które może zostać zmodyfikowane. Każda modyfikacja w ramach transakcji bloku powoduje zmianę korzenia drzewa Merkle, a tym samym modyfikację nagłówka tego bloku. Dzięki nowoczesnej mocy obliczeniowej, przejście przez 4,29 miliarda możliwych wartości nonce można wykonać stosunkowo szybko. Dlatego też istnieje jeszcze jedno pole, ogólnie określane jako "*extra-nonce*", które dodatkowo zwielokrotnia możliwości zmiany nagłówka. Wrócimy do tego mechanizmu bardziej szczegółowo w późniejszym rozdziale.
+W rzeczywistości nonce nie jest jedynym polem, które może zostać zmodyfikowane. Każda modyfikacja w ramach transakcji bloku powoduje zmianę korzenia drzewa Merkle, a tym samym modyfikację nagłówka tego bloku. Dzięki nowoczesnej mocy obliczeniowej, przejście przez 4,29 miliarda możliwych wartości nonce można wykonać stosunkowo szybko. Dlatego też istnieje jeszcze jedno pole, ogólnie określane jako "*[extra-nonce](https://planb.academy/resources/glossary/extra-nonce)*", które dodatkowo zwielokrotnia możliwości zmiany nagłówka. Wrócimy do tego mechanizmu bardziej szczegółowo w późniejszym rozdziale.
 
 
 
@@ -630,7 +630,7 @@ Nazywamy to "dowodem", ponieważ wynik jest natychmiast weryfikowalny: po wyprod
 
 
 
-W białej księdze Bitcoin, Satoshi Nakamoto przedstawia dwie zalety korzystania z systemu proof-of-work w Bitcoin:
+W [białej księdze](https://planb.academy/resources/glossary/white-paper) Bitcoin, Satoshi Nakamoto przedstawia dwie zalety korzystania z systemu proof-of-work w Bitcoin:
 
 
 
@@ -650,7 +650,7 @@ Innymi słowy, proof-of-work służy jako kręgosłup systemu znakowania czasem,
 
 
 
-- Zdefiniuj zasadę większości (konsensus) i zneutralizuj Sybil:**
+- Zdefiniuj zasadę większości ([konsensus](https://planb.academy/resources/glossary/consensus)) i zneutralizuj Sybil:**
 
 
 
@@ -658,7 +658,7 @@ Proof-of-Work umożliwia również Bitcoin osiągnięcie konsensusu bez polegani
 
 
 
-W Bitcoin "*większość*" to nie największa liczba uczestników, ale **łańcuch, który zgromadzi najwięcej pracy**. Jak ujmuje to Satoshi, jest to zasada "jeden procesor = jeden głos", tj. głos ważony rzeczywistą mocą obliczeniową zużytą do wyprodukowania ważnych bloków. Tak więc wdrożenie tysięcy węzłów samo w sobie nie daje żadnej przewagi nad Bitcoin. Bez dodatkowej mocy obliczeniowej nie gromadzi się więcej dowodów pracy, a atak Sybil staje się bezużyteczny, podczas gdy reguła decyzyjna pozostaje obiektywna i nie wymaga identyfikacji uczestników.
+W Bitcoin "*większość*" to nie największa liczba uczestników, ale **łańcuch, który zgromadzi najwięcej pracy**. Jak ujmuje to Satoshi, jest to zasada "jeden procesor = jeden głos", tj. głos ważony rzeczywistą mocą obliczeniową zużytą do wyprodukowania ważnych bloków. Tak więc wdrożenie tysięcy węzłów samo w sobie nie daje żadnej przewagi nad Bitcoin. Bez dodatkowej mocy obliczeniowej nie gromadzi się więcej dowodów pracy, a [atak Sybil](https://planb.academy/resources/glossary/sybil-attack) staje się bezużyteczny, podczas gdy reguła decyzyjna pozostaje obiektywna i nie wymaga identyfikacji uczestników.
 
 
 
@@ -689,7 +689,7 @@ W następnym rozdziale zajmiemy się krótką historią zasady proof-of-work, ab
 
 
 
-Proof-of-work nie został wynaleziony dla Bitcoin. Satoshi Nakamoto wykorzystał i połączył kilka starszych pomysłów, które były już badane w różnych kontekstach.
+Proof-of-work nie został wynaleziony dla Bitcoin. [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) wykorzystał i połączył kilka starszych pomysłów, które były już badane w różnych kontekstach.
 
 
 
@@ -701,7 +701,7 @@ Pod koniec lat 90. problem spamu w wiadomościach e-mail stał się poważny. Rz
 
 
 
-Jest to cel Hashcash, zaproponowany przez Adam Back w 1997 r., który jest uważany za wynalazek zasady proof-of-work. Zasada Hashcash jest bardzo podobna do mining: należy utworzyć hash, który spełnia pewien warunek (posiadanie określonej liczby zer na początku hasha). Dowód jest następnie dołączany do wiadomości i może być bardzo szybko zweryfikowany przez odbiorcę. Jeśli otrzymana wiadomość e-mail nie zawiera tego dowodu, może zostać natychmiast uznana za spam, a zatem odfiltrowana. Spamerzy są wtedy zmuszeni do poświęcenia znacznej ilości energii na wysłanie milionów wiadomości, co drastycznie zmniejsza (lub nawet całkowicie niweczy) opłacalność tego typu operacji, zarówno marketingowych, jak i oszukańczych.
+Jest to cel [Hashcash](https://planb.academy/resources/glossary/hashcash), zaproponowany przez Adam Back w 1997 r., który jest uważany za wynalazek zasady proof-of-work. Zasada Hashcash jest bardzo podobna do mining: należy utworzyć hash, który spełnia pewien warunek (posiadanie określonej liczby zer na początku hasha). Dowód jest następnie dołączany do wiadomości i może być bardzo szybko zweryfikowany przez odbiorcę. Jeśli otrzymana wiadomość e-mail nie zawiera tego dowodu, może zostać natychmiast uznana za spam, a zatem odfiltrowana. Spamerzy są wtedy zmuszeni do poświęcenia znacznej ilości energii na wysłanie milionów wiadomości, co drastycznie zmniejsza (lub nawet całkowicie niweczy) opłacalność tego typu operacji, zarówno marketingowych, jak i oszukańczych.
 
 
 
@@ -792,7 +792,7 @@ Jeśli podczas tego opóźnienia dyfuzji inny górnik również odkryje ważny b
 
 
 
-Podziały te nie są katastrofalne. Konsensus Nakamoto przewiduje, że w dłuższej perspektywie zwycięży tylko jedna gałąź: ta, która zgromadzi najwięcej pracy. Rzeczywiście, gdy tylko nowy blok zostanie wydobyty na przykład na bloku A, cała sieć ponownie synchronizuje się z tą gałęzią i porzuca blok B, który następnie staje się "*stale block*", czasami błędnie nazywany "*orphan block*" w języku potocznym.
+Podziały te nie są katastrofalne. Konsensus Nakamoto przewiduje, że w dłuższej perspektywie zwycięży tylko jedna gałąź: ta, która zgromadzi najwięcej pracy. Rzeczywiście, gdy tylko nowy blok zostanie wydobyty na przykład na bloku A, cała sieć ponownie synchronizuje się z tą gałęzią i porzuca blok B, który następnie staje się "*[stale block](https://planb.academy/resources/glossary/stale-block)*", czasami błędnie nazywany "*orphan block*" w języku potocznym.
 
 
 
@@ -812,7 +812,7 @@ Z drugiej strony wiąże się to z kosztami: przez kilka minut ułamek górnikó
 
 
 
-*"Hashrate*" odnosi się do ilości obliczeń hash wyprodukowanych na sekundę, czy to przez pojedynczego górnika, grupę górników, czy wszystkich górników w Bitcoin. Wyrażana jest w `H/s` (hashach na sekundę), z wielokrotnościami takimi jak `TH/s` (terahasze na sekundę) lub `EH/s` (eksahasze na sekundę). Reprezentuje to liczbę prób, które górnicy mogą podjąć w każdej sekundzie, aby uzyskać hash niższy niż docelowy.
+*"[Hashrate](https://planb.academy/resources/glossary/hashrate)*" odnosi się do ilości obliczeń hash wyprodukowanych na sekundę, czy to przez pojedynczego górnika, grupę górników, czy wszystkich górników w Bitcoin. Wyrażana jest w `H/s` (hashach na sekundę), z wielokrotnościami takimi jak `TH/s` (terahasze na sekundę) lub `EH/s` (eksahasze na sekundę). Reprezentuje to liczbę prób, które górnicy mogą podjąć w każdej sekundzie, aby uzyskać hash niższy niż docelowy.
 
 
 
@@ -905,7 +905,7 @@ Z:
 - `**To = 18,045,755,102**`: Stary cel, tj. wartość referencyjna przed korektą.
 - `**ta = 1 000 000 sekund**`: Czas faktycznie spędzony na produkcji ostatnich 2016 bloków. Ponieważ czas ten jest krótszy niż czas docelowy, sieć wydobywała zbyt szybko.
 - `**1 209 600 sekund**`: Docelowy czas odpowiadający 10 minutom na blok dla bloków z 2016 roku, używany jako odniesienie do korekty.
-- `**tn = 14,918,779,020**`: Nowy cel obliczony po dostosowaniu trudności.
+- `**tn = 14,918,779,020**`: Nowy cel obliczony po [dostosowaniu trudności](https://planb.academy/resources/glossary/difficulty-adjustment).
 
 
 
@@ -923,6 +923,8 @@ Obliczenia te są wykonywane lokalnie przez każdy węzeł, w oparciu o znacznik
 Jest jeden ważny szczegół, na który należy zwrócić uwagę: **jest ona ograniczona**. Bitcoin ogranicza zmienność trudności na okres, aby uniknąć zbyt gwałtownych zmian, które mogłyby ją zablokować. W rzeczywistości rzeczywisty czas brany pod uwagę jest ograniczony do zakresu odpowiadającego współczynnikowi 4 (minimum jedna czwarta starego celu, maksymalnie czterokrotność starego celu). Zapobiega to ekstremalnemu retargetowaniu, jeśli znaczniki czasu są bardzo nietypowe lub manipulowane.
 
 
+
+Zauważmy również, że w rzeczywistości dostosowanie trudności Bitcoina nie jest idealnie dokładne. Widzieliśmy bowiem, że trudność ma być przeliczana co 2016 bloków, poprzez porównanie rzeczywistego czasu, który upłynął, z czasem docelowym wynoszącym 14 dni (2016 × 10 minut). Jednak oryginalny kod Satoshi zawiera błąd zwany "*off-by-one*": zamiast mierzyć czas między ostatnimi blokami każdego okresu (czyli 2016 interwałów), mierzy czas między pierwszym a ostatnim blokiem, co daje tylko 2015 interwałów. W praktyce trudność jest obliczana tak, jakby okres składał się tylko z 2015 bloków zamiast 2016. Konsekwencją tego jest systematyczne, bardzo niewielkie przeszacowanie trudności, co sprawia, że bloki są wydobywane średnio nieco wolniej niż docelowe 10 minut (o około 0,05% wolniej). Ten błąd jest dobrze znany, ale nigdy nie został naprawiony, ponieważ jego zmiana wymagałaby hard forka, a jego wpływ pozostaje w praktyce zaniedbywalny, poza teoretycznym atakiem zwanym "*time warp*".
 
 ### Reprezentacja docelowa
 
@@ -959,7 +961,7 @@ Logika ta opiera się na teorii gier: protokół czyni uczciwość racjonalną. 
 
 
 
-Aby to osiągnąć, protokół Bitcoin przewiduje, że górnik, który znajdzie ważny blok, wygrywa prawo do włączenia do niego określonej transakcji, za co górnik otrzymuje określoną sumę BTC. Jest to znane jako **nagroda za blok**. W pierwszym rozdziale tej sekcji celem jest zrozumienie, z czego się składa i jak jest określana. Później zobaczymy, jak część związana z tworzeniem pieniędzy ewoluuje w czasie (z halvingami) i jak jest faktycznie zbierana technicznie (poprzez transakcję coinbase).
+Aby to osiągnąć, protokół Bitcoin przewiduje, że górnik, który znajdzie ważny blok, wygrywa prawo do włączenia do niego określonej transakcji, za co górnik otrzymuje określoną sumę BTC. Jest to znane jako **[nagroda za blok](https://planb.academy/resources/glossary/block-reward)**. W pierwszym rozdziale tej sekcji celem jest zrozumienie, z czego się składa i jak jest określana. Później zobaczymy, jak część związana z tworzeniem pieniędzy ewoluuje w czasie (z halvingami) i jak jest faktycznie zbierana technicznie (poprzez transakcję coinbase).
 
 
 
@@ -976,7 +978,7 @@ To właśnie to wydarzenie (faktyczne dodanie bloku do łańcucha bloków) wyzwa
 
 
 
-- dotacja blokowa**;
+- [dotacja blokowa](https://planb.academy/resources/glossary/block-subsidy)**;
 - opłaty transakcyjne**.
 
 
@@ -1091,7 +1093,7 @@ Dwie transakcje mogą zatem płacić taką samą kwotę opłat w wartościach be
 
 
 
-Dlatego w praktyce wyrażamy konkurencyjność transakcji za pomocą współczynnika opłat, zwykle w `sats/vB` (satoshis na wirtualny bajt). Obliczenie tego współczynnika jest proste:
+Dlatego w praktyce wyrażamy konkurencyjność transakcji za pomocą współczynnika opłat, zwykle w `sats/vB` ([satoshis](https://planb.academy/resources/glossary/satoshi-sat) na wirtualny bajt). Obliczenie tego współczynnika jest proste:
 
 
 
@@ -1142,7 +1144,7 @@ W następnym rozdziale skupimy się bardziej szczegółowo na subwencji blokowej
 
 
 
-W poprzednim rozdziale widzieliśmy, że górnicy, którzy tworzą ważny blok, otrzymują nagrodę składającą się z opłat za transakcje zawarte w bloku oraz subsydium blokowego. Nie wyjaśniliśmy jednak jeszcze, w jaki sposób ustalana jest wysokość tego subsydium. Mechanizm, który ustala i ewoluuje tę wartość, znany jest jako ***halving***.
+W poprzednim rozdziale widzieliśmy, że górnicy, którzy tworzą ważny blok, otrzymują nagrodę składającą się z opłat za transakcje zawarte w bloku oraz subsydium blokowego. Nie wyjaśniliśmy jednak jeszcze, w jaki sposób ustalana jest wysokość tego subsydium. Mechanizm, który ustala i ewoluuje tę wartość, znany jest jako ***[halving](https://planb.academy/resources/glossary/halving)***.
 
 
 
@@ -1251,7 +1253,7 @@ Główny powód jest mechaniczny. Poprzez kolejne halvingi, dotacja blokowa osta
 
 
 
-Ponadto, marginalne odchylenia związane z protokołem również mogą się do tego przyczynić. Na przykład, w rzadkich przypadkach niektórzy górnicy mogli nie ubiegać się o pełną dotację, co ostatecznie zmniejsza ilość faktycznie wyemitowanych bitcoinów. Możemy również wspomnieć o bloku genesis, wyprodukowanym przez Satoshi 3 stycznia 2009 r., którego utworzone bitcoiny nie są częścią UTXO set, a także o niektórych wydarzeniach historycznych związanych z błędami, takimi jak zduplikowane identyfikatory transakcji coinbase.
+Ponadto, marginalne odchylenia związane z protokołem również mogą się do tego przyczynić. Na przykład, w rzadkich przypadkach niektórzy górnicy mogli nie ubiegać się o pełną dotację, co ostatecznie zmniejsza ilość faktycznie wyemitowanych bitcoinów. Możemy również wspomnieć o [bloku genesis](https://planb.academy/resources/glossary/genesis-block), wyprodukowanym przez Satoshi 3 stycznia 2009 r., którego utworzone bitcoiny nie są częścią [UTXO set](https://planb.academy/resources/glossary/utxo-set), a także o niektórych wydarzeniach historycznych związanych z błędami, takimi jak zduplikowane identyfikatory transakcji coinbase.
 
 
 
@@ -1295,7 +1297,7 @@ Pozostaje jednak jedno pytanie: za pomocą jakiego mechanizmu górnik pobiera t�
 
 
 
-Jak widzieliśmy w pierwszej części kursu, każdy blok Bitcoin zawiera listę oczekujących transakcji, które zostaną potwierdzone. Pierwszą z nich jest zawsze transakcja coinbase. To właśnie ona pozwala zwycięskiemu górnikowi otrzymać nagrodę.
+Jak widzieliśmy w pierwszej części kursu, każdy blok Bitcoin zawiera listę oczekujących transakcji, które zostaną potwierdzone. Pierwszą z nich jest zawsze [transakcja coinbase](https://planb.academy/resources/glossary/coinbase-transaction). To właśnie ona pozwala zwycięskiemu górnikowi otrzymać nagrodę.
 
 
 
@@ -1303,7 +1305,7 @@ Jak widzieliśmy w pierwszej części kursu, każdy blok Bitcoin zawiera listę 
 
 
 
-Na pierwszy rzut oka wygląda jak klasyczna transakcja Bitcoin: ma TXID, wyjścia i jest zawarta w drzewie Merkle bloku. Różni się jednak pod jednym ważnym względem: nie wydaje żadnych istniejących UTXO.
+Na pierwszy rzut oka wygląda jak klasyczna transakcja Bitcoin: ma [TXID](https://planb.academy/resources/glossary/txid-transaction-identifier), wyjścia i jest zawarta w drzewie Merkle bloku. Różni się jednak pod jednym ważnym względem: nie wydaje żadnych istniejących UTXO.
 
 
 
@@ -1402,7 +1404,7 @@ Z biegiem czasu transakcja coinbase stała się szczególnie wygodnym punktem ws
 
 
 
-BIP-34 to soft fork wdrożony w marcu 2013 roku, począwszy od bloku 227,930, który wprowadził wersję 2 bloków Bitcoin. Ta nowa wersja wymaga, aby każdy blok zawierał, w `scriptSig` transakcji coinbase, wysokość tworzonego bloku.
+[BIP-34](https://planb.academy/resources/glossary/bip0034) to [soft fork](https://planb.academy/resources/glossary/soft-fork) wdrożony w marcu 2013 roku, począwszy od bloku 227,930, który wprowadził wersję 2 bloków Bitcoin. Ta nowa wersja wymaga, aby każdy blok zawierał, w `scriptSig` transakcji coinbase, wysokość tworzonego bloku.
 
 
 
@@ -1454,7 +1456,7 @@ Ze względów operacyjnych pule mining wykorzystują również wolne pole `scrip
 
 
 
-Odkąd SegWit soft fork został włączony w 2017 r., dane świadków (tj. generalnie podpisy) zostały oddzielone od głównych danych transakcji, w szczególności w celu skorygowania problemu plastyczności transakcji Bitcoin. Oddzielenie to wprowadza zatem nowy element, który ma zostać zatwierdzony w bloku.
+Odkąd SegWit soft fork został włączony w 2017 r., dane świadków (tj. generalnie podpisy) zostały oddzielone od głównych danych transakcji, w szczególności w celu skorygowania problemu [plastyczności transakcji Bitcoin](https://planb.academy/resources/glossary/malleability-transaction). Oddzielenie to wprowadza zatem nowy element, który ma zostać zatwierdzony w bloku.
 
 
 
@@ -1500,7 +1502,7 @@ Ta wiadomość, obecna w bloku Genesis (pierwszy blok Bitcoin), jest w rzeczywis
 ### Okres zapadalności
 
 
-Po wydobyciu i dystrybucji bloku, transakcja coinbase pojawia się w łańcuchu bloków jak każda inna transakcja. Tworzy UTXO dla zwycięskiego górnika, umożliwiając mu odebranie nagrody. Jednak te UTXO nie mogą być natychmiast wydane: podlegają one okresowi zapadalności. Okres ten jest ustalony na 100 bloków po bloku zawierającym coinbase. Mówiąc konkretnie, transakcja coinbase musi zatem uzyskać 101 potwierdzeń, aby jej wyniki mogły zostać wydane przez zwycięskiego górnika.
+Po wydobyciu i dystrybucji bloku, transakcja coinbase pojawia się w łańcuchu bloków jak każda inna transakcja. Tworzy UTXO dla zwycięskiego górnika, umożliwiając mu odebranie nagrody. Jednak te UTXO nie mogą być natychmiast wydane: podlegają one [okresowi zapadalności](https://planb.academy/resources/glossary/maturity-period). Okres ten jest ustalony na 100 bloków po bloku zawierającym coinbase. Mówiąc konkretnie, transakcja coinbase musi zatem uzyskać 101 potwierdzeń, aby jej wyniki mogły zostać wydane przez zwycięskiego górnika.
 
 
 ![Image](assets/fr/040.webp)
@@ -1615,7 +1617,7 @@ W tym momencie trudność mining zaczęła eksplodować. Pomiędzy połową 2010
 
 
 
-Pomiędzy erą GPU a współczesną erą ASIC nastąpiła faza pośrednia: wykorzystanie układów FPGA. FPGA to reprogramowalny komponent: można go skonfigurować do bezpośredniej implementacji obwodu logicznego dedykowanego konkretnym obliczeniom, w tym przypadku `SHA256d`. Pomysł polegał na jeszcze większym odejściu od sprzętu ogólnego przeznaczenia (CPU/GPU) w celu zwiększenia efektywności energetycznej. Wkrótce jednak ulepszenia wprowadzone wirtualnie na układach FPGA zostaną fizycznie zastosowane w samych chipach: oto nadejście ASIC.
+Pomiędzy erą GPU a współczesną erą [ASIC](https://planb.academy/resources/glossary/asic) nastąpiła faza pośrednia: wykorzystanie układów FPGA. FPGA to reprogramowalny komponent: można go skonfigurować do bezpośredniej implementacji obwodu logicznego dedykowanego konkretnym obliczeniom, w tym przypadku `SHA256d`. Pomysł polegał na jeszcze większym odejściu od sprzętu ogólnego przeznaczenia (CPU/GPU) w celu zwiększenia efektywności energetycznej. Wkrótce jednak ulepszenia wprowadzone wirtualnie na układach FPGA zostaną fizycznie zastosowane w samych chipach: oto nadejście ASIC.
 
 
 
@@ -1667,7 +1669,7 @@ Odizolowana maszyna może wydobywać, ale grupując setki, a następnie tysiące
 
 
 
-Farma mining, w swojej najprostszej formie, to budynek (lub zestaw kontenerów) wypełniony ASIC działającymi 24/7. Wyzwaniem jest teraz utrzymanie stabilnych warunków pracy:
+[Farma mining](https://planb.academy/resources/glossary/mining-farm), w swojej najprostszej formie, to budynek (lub zestaw kontenerów) wypełniony ASIC działającymi 24/7. Wyzwaniem jest teraz utrzymanie stabilnych warunków pracy:
 
 
 
@@ -1724,7 +1726,7 @@ https://planb.academy/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-
 
 
 
-Mining Bitcoin wiąże się z bieżącymi i nieuniknionymi kosztami, z których najważniejszym jest zużycie energii przez maszynę. Wydatki te są ponoszone niezależnie od jakichkolwiek wyników, mimo że przychody z mining są z natury rzadkie i losowe. Odkrycie bloku zależy wyłącznie od udziału górnika w hashrate, co sprawia, że zyski są tym bardziej nieprzewidywalne, im mniejszy jest ten udział. To właśnie ten praktyczny problem szybko doprowadził do powszechnego wykorzystania pul mining. W tym ostatnim rozdziale kursu MIN 101 oferuję wprowadzenie do zasad i działania pul mining w Bitcoin.
+Mining Bitcoin wiąże się z bieżącymi i nieuniknionymi kosztami, z których najważniejszym jest zużycie energii przez maszynę. Wydatki te są ponoszone niezależnie od jakichkolwiek wyników, mimo że przychody z mining są z natury rzadkie i losowe. Odkrycie bloku zależy wyłącznie od udziału górnika w hashrate, co sprawia, że zyski są tym bardziej nieprzewidywalne, im mniejszy jest ten udział. To właśnie ten praktyczny problem szybko doprowadził do powszechnego wykorzystania [pul mining](https://planb.academy/resources/glossary/pool-mining). W tym ostatnim rozdziale kursu MIN 101 oferuję wprowadzenie do zasad i działania pul mining w Bitcoin.
 
 
 
@@ -1736,7 +1738,7 @@ Pula mining to organizacja (często usługa online), która agreguje moc oblicze
 
 
 
-Uczestnicy puli mining są następnie często określani jako "hashers", a nie jako "miners", ponieważ nie wykonują już całej pracy mining, ale po prostu hashują dane przesłane im przez pulę.
+Uczestnicy puli mining są następnie często określani jako "[hashers](https://planb.academy/resources/glossary/hasher)", a nie jako "miners", ponieważ nie wykonują już całej pracy mining, ale po prostu hashują dane przesłane im przez pulę.
 
 
 
@@ -1807,7 +1809,7 @@ Pierwsze pule powstały właśnie w odpowiedzi na tę nową rzeczywistość. Bra
 
 
 
-Od strony technicznej, pule zostały następnie zorganizowane wokół wyspecjalizowanych protokołów komunikacyjnych między pulą a górnikami (np. Stratum, a następnie Stratum V2), w celu efektywnej organizacji pracy rozproszonej. Przyjrzymy się bliżej tym koncepcjom w naszym szkoleniu MIN 201.
+Od strony technicznej, pule zostały następnie zorganizowane wokół wyspecjalizowanych protokołów komunikacyjnych między pulą a górnikami (np. [Stratum](https://planb.academy/resources/glossary/stratum), a następnie Stratum V2), w celu efektywnej organizacji pracy rozproszonej. Przyjrzymy się bliżej tym koncepcjom w naszym szkoleniu MIN 201.
 
 
 

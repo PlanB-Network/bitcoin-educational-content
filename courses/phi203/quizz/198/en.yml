@@ -1,0 +1,8 @@
+question: According to the text, why are choices on the economic market more reliable guides to individual competence than choices in the political market?
+answer: Economic consequences are immediate and directly observable by the chooser, while political consequences are collective, delayed, and impossible for any individual to fully trace
+wrong_answers:
+  - Economic choices are made by experts with specialised knowledge, whereas political choices are left to uninformed citizens without adequate education
+  - The economic market is regulated by price signals that automatically correct errors, whereas politics has no equivalent self-correcting mechanism
+  - Economic actors are motivated by self-interest which reliably produces efficient outcomes, while political actors are motivated by ideology which produces distortions
+explanation: |
+  The text draws a precise contrast: in consumption decisions we compare satisfactions daily, the process is direct, and results are immediately apparent — we observe the consequences of our choices and adjust our behaviour in the light of experience. On the political market, decisions are spaced out over time, their consequences are collective and therefore difficult to examine for any individual, and a political measure may affect people entirely invisible to the voter. If there is an inability to choose wisely, it is precisely in the political sphere that this inability should manifest itself most strongly — which makes the paternalist logic of tutelage self-defeating.

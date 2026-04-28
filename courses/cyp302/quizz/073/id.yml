@@ -6,4 +6,4 @@ wrong_answers:
   - Sebuah angka dari 1 sampai 26
 explanation: |
   Dalam enkripsi pergeseran, kunci adalah angka antara 0 dan 25, yang sesuai dengan jumlah posisi pergeseran yang diterapkan pada setiap huruf pesan dalam alfabet 26 huruf.
-reviewed: false
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - Dans un scriptSig
 explanation: |
   La transaction n’est pas écrite instantanément dans la blockchain. Elle est d'abord intégrée dans un bloc.
-reviewed: false
+reviewed: true 

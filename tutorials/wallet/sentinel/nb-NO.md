@@ -8,9 +8,7 @@ description: Hva er en Watch-Only lommebok og hvordan bruke den?
 
 ***ADVARSEL:** Etter arrestasjonen av grunnleggerne av Samourai Wallet og beslagleggelsen av deres servere den 24. april, fortsetter Sentinel-appen å fungere, men **det er obligatorisk å bruke din egen Dojo** for å få tilgang til blockchain-informasjon og kringkaste transaksjoner.*
 
-_Vi følger nøye med på utviklingen av denne saken samt utviklingen angående de tilknyttede verktøyene. Vær trygg på at vi vil oppdatere denne opplæringen når ny informasjon blir tilgjengelig._
 
-_Denne opplæringen er gitt kun for utdannings- og informasjonsformål. Vi støtter eller oppmuntrer ikke bruk av disse verktøyene til kriminelle formål. Det er hver brukers ansvar å overholde lovene i sin jurisdiksjon_
 
 ---
 
@@ -26,7 +24,7 @@ Denne typen applikasjon beholder kun dataene som er nødvendige for å overvåke
 Watch-Only brukes generelt i forbindelse med en maskinvarelommebok. Dette tillater lagring av lommebokens private nøkler "kaldt," på en enhet som ikke er koblet til internett, som har en minimal angrepsflate, isolerer de private nøklene fra potensielt sårbare miljøer. Watch-Only applikasjonen, på den andre siden, lagrer utelukkende den utvidede offentlige nøkkelen (`xpub`, `zpub`, osv.) til Bitcoin lommeboken. Denne foreldrenøkkelen tillater ikke oppdagelsen av de tilknyttede private nøklene og, følgelig, tillater ikke bruk av bitcoins. Men, den tillater derivasjon av barn offentlige nøkler og mottaksadresser. Med kunnskap om adressene til lommeboken sikret av maskinvarelommeboken, kan Watch-Only applikasjonen spore disse transaksjonene på Bitcoin-nettverket, og tilby brukeren muligheten til å overvåke sin saldo og generere nye mottaksadresser, uten å måtte koble til sin maskinvarelommebok hver gang.
 
 ## Hvilken Watch-Only Lommebok skal man bruke?
-For øyeblikket er den mest omfattende Watch-Only applikasjonen [Sentinel](https://sentinel.watch/), utviklet av teamene hos Samourai Wallet. Den omfatter alle de essensielle funksjonene for en god Watch-Only lommebok:
+For øyeblikket er den mest komplette watch-only-applikasjonen [Sentinel](https://github.com/wanderingking072/sentinel-android), opprinnelig utviklet av Samourai Wallet-teamene og nå vedlikeholdt av fellesskapet. Den samler alle de essensielle funksjonene for en god watch-only-lommebok:
 - Støtte for utvidede nøkler, offentlige nøkler, og adresser;
 - Evnen til å organisere flere kontoer eller lommebøker i samlinger;
 - Generering av adresser for å motta bitcoins på ens maskinvarelommebok uten å kreve dens direkte bruk;
@@ -38,25 +36,20 @@ For de som ser etter å spore en multi-signatur lommebok, er Blue Wallet den ene
 For iOS-brukere som ser etter et alternativ til Sentinel, kan [Green Wallet](https://blockstream.com/green/) eller [Blue Wallet](https://bluewallet.io/watch-only/) være alternativer, selv om deres funksjonalitet for kun-visning ikke er like omfattende som Sentinels. ![watch-only](assets/notext/2.webp)
 ## Hvordan bruke Sentinel Watch-Only Wallet?
 ### Installasjon og oppsett
-Start med å installere Sentinel-applikasjonen. Dette kan du gjøre enten fra Google Play Store eller ved å bruke [APK-en som er tilgjengelig for nedlasting på det offisielle nettstedet](https://sentinel.watch/download/).
+Begynn med å installere Sentinel-applikasjonen. Du kan gjøre dette ved hjelp av [APK-en som er tilgjengelig for nedlasting på prosjektets github-repositorium](https://github.com/wanderingking072/sentinel-android/releases).
 
-![watch-only](assets/notext/3.webp)
 
-Når du først åpner applikasjonen, får du valget mellom:
-- `Connect to Dojo`;
-- `Connect to Samourai's server`.
 
-Dojo, utviklet av Samourai-teamet, er en fullstendig Bitcoin node-versjon som kan installeres alene eller legges til med ett klikk i node-i-boks-løsninger som [Umbrel](https://umbrel.com/) og [RoninDojo](https://ronindojo.io/).
 
-[**-> Oppdag hvordan du installerer RoninDojo v2 på en Raspberry Pi.**](https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
-Hvis du har din egen Dojo, kan du koble den til på dette stadiet. Ved å gjøre dette, vil du dra nytte av det høyeste nivået av personvern når du sjekker din Bitcoin nettverkstransaksjonsinformasjon.
+
+Deretter må du obligatorisk koble til din egen Dojo, ettersom Samourai Wallet-serverne ikke lenger er tilgjengelige. Hvis du ennå ikke har din egen Dojo, kan du enten bruke en Dojo gjort tilgjengelig av fellesskapet på nettstedet [The Dojo Bay](https://dojobay.pw/), eller følge vår veiledning for å installere din egen :
+
+https://planb.academy/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9
 
 ![watch-only](assets/notext/4.webp)
 
-Ellers er det mulig å velge Samourais standardserver. Du kan også velge om du vil koble til via Tor eller ikke.
 
-![watch-only](assets/notext/5.webp)
 
 Du vil deretter ankomme hovedsiden til Sentinel.
 
